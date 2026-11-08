@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
+  "id": "8cf40502-3bca-5cdc-8bef-936828a47415",
+  "label": "Explicit abstract/concrete…: AbstractConcreteDisjoint abstract concrete means ∀ x, abstract x → ¬…",
+  "legacy_id": "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
   "term": "explicit abstract/concrete disjointness policy",
   "definition": "AbstractConcreteDisjoint abstract concrete means ∀ x, abstract x → ¬ concrete x, for independently supplied classification predicates. It does not define either classification or assert that every candidate belongs to one of them.",
   "basis": "stipulative",

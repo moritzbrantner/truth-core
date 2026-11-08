@@ -1,19 +1,21 @@
 {
-  "id": "ROWE-1979-PERMISSION-CONSTRAINT",
-  "statement_id": "STMT-ROWE-PERMISSION-CONSTRAINT",
-  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "id": "c24d4556-9c8f-539f-8ca3-935c499b57c9",
+  "label": "William L. Rowe, The Problem of Evil and…: For every omniscient wholly good being, every occurring…",
+  "legacy_id": "ROWE-1979-PERMISSION-CONSTRAINT",
+  "statement_id": "0a95a3c3-5899-5350-9fef-6e88e79819e8",
+  "source_id": "f716339a-30a2-511b-9be5-7daa1b76f6c3",
   "locator": "pp. 336–337 §I premise (2), nn.2–4",
   "interpretation": "The necessary-condition form explicitly stated in the discussion: if an omniscient wholly good being permits preventable occurring intense suffering, prevention must lose a greater good or permit equal/worse evil. This is not the sufficient claim that any outweighing good licenses permission, which Rowe rejects as an interpretation of (2). Goods may include justice and need not follow later in time. The original simplified wording omits the balance-neutral-good complication he considers in n.3; no equivalence with that refinement is claimed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ROWE-NARROW-THEISM",
-    "DEF-ROWE-BLOCKING-COST",
-    "DEF-ROWE-GRATUITOUS-SUFFERING",
-    "DEF-ROWE-APPARENT-POINTLESSNESS",
-    "DEF-ROWE-INTENSE-SUFFERING"
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed"
   ],
   "disambiguation_ids": [
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
   ]
 }

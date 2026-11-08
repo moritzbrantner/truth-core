@@ -1,14 +1,16 @@
 {
-  "id": "STMT-AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
+  "id": "ea4a1c2d-8b4b-57ee-871d-225839400fb6",
+  "label": "Mathematical things are abstract in reason, not in being; having an efficient cause belongs to…",
+  "legacy_id": "STMT-AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
   "paraphrase": "Mathematical things are abstract in reason, not in being; having an efficient cause belongs to them insofar as they have being, although mathematics does not consider their relation to that efficient cause.",
   "definition_ids": [
-    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
-    "DEF-ESSE",
-    "DEF-CAUSE-OF-PERFECTION"
+    "f114f527-20e2-5997-8219-df7f0457cf63",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

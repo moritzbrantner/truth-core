@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q18-A3-SUPPORTS-PURE-ACT-LIVES",
+  "id": "a7e6b583-7cab-51bc-87ce-7ce0dbe81489",
+  "label": "Thomas Aquinas, Summa theologiae I q.18… supports Whatever is in potency in no respect lives…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q18-A3-SUPPORTS-PURE-ACT-LIVES",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "subject_id": "611be1f0-c207-5f35-bc2a-e7a1114c6598",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PURE-ACT-LIVES",
+  "object_id": "1773079b-236a-5f7d-b1e9-fb8f23202341",
   "note": "Q.18 a.3 gives God the highest life because his nature is his own understanding and nothing he has is determined by another. The open premise generalizes to whatever is in potency in no respect and keeps only life at some time of the frame; the step from pure act to self-understanding is not stated there."
 }

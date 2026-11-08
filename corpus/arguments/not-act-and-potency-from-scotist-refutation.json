@@ -1,21 +1,23 @@
 {
-  "id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "id": "5d8b78ad-55da-5018-bb55-d4a9e59a4e44",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in the same respect…, from scotist refutation",
+  "legacy_id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
   "premise_statement_ids": [
-    "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT"
+    "f6003a4c-fc27-5b0a-acf9-97515d131755"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "conclusion_statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
   "inference_ids": [
-    "INF-NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION"
+    "59b2b5fc-cf3e-5967-9b32-e26d60e2498e"
   ],
   "meaning": "Nothing is in act and in potency in the same respect (the Prima Via principle, per thing and respect), from the conclusion of NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS (no thing and respect witness the Scotist rival, on the same InAct and InPotency). Constructive; no excluded middle. It adds a route to the premise through the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), which stays OPEN as before; no time index is added or removed.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-INDEPENDENT-POTENCY",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-POTENCY"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ]
 }

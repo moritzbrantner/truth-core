@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A8-POSSIBILITY-INVARIANCE",
-  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "69adf6f8-5b54-5bc4-b1b1-cc66f4eb98a8",
+  "label": "Unattributed website author, Necessary…: For any individually possible situations X and Y, if X… (3)",
+  "legacy_id": "NB-SURVEY-A8-POSSIBILITY-INVARIANCE",
+  "statement_id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A8P4, complete X/Y question, examples and non-joint-possibility note; A8C modal paragraph following step 11",
   "interpretation": "Reuse the exact existing A2 invariance meaning: P4’s wording matches A7P4. The subsequent attributed modal suffix is not an independently justified S5/frame proof or a same-individual necessary witness. NecessaryIfExistent.positive remains a conditional reuse only with its Euclidean and boxed conditional inputs plus possibility; actuality additionally needs the appropriate reflexivity/application guard.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

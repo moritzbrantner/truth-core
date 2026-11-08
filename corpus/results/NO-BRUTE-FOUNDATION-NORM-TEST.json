@@ -1,6 +1,8 @@
 {
-  "id": "NO-BRUTE-FOUNDATION-NORM-TEST",
-  "argument_id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "id": "288f9cef-97f7-5c19-b971-ac178f7b2a5a",
+  "label": "A contingent truth with a reason, with any two terminal facts supplying it being the same, under…",
+  "legacy_id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "argument_id": "19884ae4-3ba5-5d92-98d4-d27808315b16",
   "challenge_module": "TruthCore.Results.Explanation.StoppingPoints.Challenge",
   "solution_module": "TruthCore.Results.Explanation.StoppingPoints.Solution",
   "theorem": "TruthCore.Results.Explanation.StoppingPoints.foundationNormTest",

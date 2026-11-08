@@ -1,7 +1,9 @@
 {
-  "id": "INF-PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "id": "129e4553-6db9-578e-8bd5-1e2292c9fd83",
+  "label": "A small interpretation model has both an invariant logical sentence and a…, by Constructive-proof",
+  "legacy_id": "INF-PILOT-LOCAL-VARIATION-COMPATIBLE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "output_statement_id": "a4e4a464-3d76-55af-b664-ced179f1f9f1",
   "rule": "constructive-proof",
   "meaning": "Construct a stable logical sentence and endorsement-sensitive taste sentence. A model of this encoding, not a sourced full rival worldview.",
   "assumption_statement_ids": [],

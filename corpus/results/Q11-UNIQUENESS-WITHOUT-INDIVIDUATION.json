@@ -1,6 +1,8 @@
 {
-  "id": "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
-  "argument_id": "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
+  "id": "d2df6142-0226-530e-854b-0272655f7754",
+  "label": "A finite local model satisfies suppositum/nature identity and common divine nature for two…",
+  "legacy_id": "Q11-UNIQUENESS-WITHOUT-INDIVIDUATION",
+  "argument_id": "becbdc0b-d045-5fd9-b318-440a8ec2e36f",
   "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.withoutIndividuation",

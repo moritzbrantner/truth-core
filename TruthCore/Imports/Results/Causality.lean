@@ -251,6 +251,7 @@ public import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
 public import TruthCore.Results.Causality.TermSenseForks.Solution
 public import TruthCore.Results.Causality.TermSenseForks2.Solution
 public import TruthCore.Results.Causality.TermSenseForks3.Solution
+public import TruthCore.Results.Causality.TermSenseForks4.Solution
 public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 public import TruthCore.Results.Causality.UnderivedNonComposite.Solution
@@ -258,6 +259,7 @@ public import TruthCore.Results.Causality.UnderivedRootPerfection.Solution
 public import TruthCore.Results.Causality.UnderivedRootRoute.Solution
 public import TruthCore.Results.Causality.UniqueFeedback.Solution
 public import TruthCore.Results.Causality.UniqueRootPerfection.Solution
+public import TruthCore.Results.Causality.UniqueRootQuarta.Solution
 public import TruthCore.Results.Causality.WholePowerPerfection.Solution
 public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
 public import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution

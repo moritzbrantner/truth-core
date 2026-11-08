@@ -1,9 +1,11 @@
 {
-  "id": "REL-SOME-CAUSE-LACKS-ESSE-IN-RE-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "id": "4025b3ac-9347-5a58-b369-fc2613408286",
+  "label": "Generic denial of the owner principle in… attacks Owner framework commitment: At the selected…",
+  "legacy_id": "REL-SOME-CAUSE-LACKS-ESSE-IN-RE-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
   "subject_kind": "statement",
-  "subject_id": "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
+  "subject_id": "c23d9c04-311f-578e-a2a0-2318ee1e885d",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
   "note": "The full-strength denial of the owner principle in the adopted esse sense. Definition audit: retained as a full-strength semantic objection. Automatic opposition requires productive/no-esse and SAME-selected-world interfaces; those are now explicit sibling propositions and checked arguments. The exact selected-profile negative is the formal alternative. See docs/notes/causal-concrete-rival-boundary.md."
 }

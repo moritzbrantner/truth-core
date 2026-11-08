@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES",
+  "id": "06b91c9f-a8c4-57f7-8d67-8750715da9e9",
+  "label": "Natural becoming is from a contrary or…, from What naturally comes to be or passes away… and 1 more",
+  "legacy_id": "ARIST-PHYS-188B-NATURAL-BECOMING-CONTRARIES",
   "premise_statement_ids": [
-    "STMT-BECOMING-FROM-CONTRARY-OR-INTERMEDIATE",
-    "STMT-INTERMEDIATES-DERIVED-FROM-CONTRARIES"
+    "405a6eaf-102c-5b36-87e2-2f97fb42f7ad",
+    "7fd16d31-b580-5fce-bd97-349864ddb96e"
   ],
-  "conclusion_statement_id": "STMT-NATURAL-BECOMING-FROM-CONTRARY-OR-CONTRARIES",
+  "conclusion_statement_id": "3d35019e-b46f-5f23-a603-e776bb1e03cc",
   "inference_ids": [
-    "INF-ARIST-PHYS-NATURAL-BECOMING-CONTRARIES"
+    "8a7ec80a-1ade-5af9-8ef8-b8b62ab770d6"
   ],
   "meaning": "Aristotle's Physics I.5 transition from the immediate alternatives of contrary or intermediate to the conclusion that natural becoming is from a contrary or from contraries."
 }

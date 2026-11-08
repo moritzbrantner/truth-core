@@ -1,27 +1,29 @@
 {
-  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "id": "07a5efa3-2147-5dc0-8404-4857cbf29c8a",
+  "label": "No right-summand set representative…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 1 more",
+  "legacy_id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
   "premise_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "bcbfc8d8-eb60-5111-bc5b-d33c76492a5e"
   ],
-  "conclusion_statement_id": "STMT-NO-EXISTING-SET-REPRESENTATIVES",
+  "conclusion_statement_id": "0fd6f62e-c968-5619-8e60-7f70baee6c39",
   "inference_ids": [
-    "INF-NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT"
+    "ce5ebf05-c3d0-50f6-9061-55e919642ace"
   ],
   "meaning": "Compose the imported checked pure-set unlocation theorem with occupant N1 at a proposed existing right-summand representative. This excludes object-level set representatives under the explicit support criterion, not Lean mathematical inhabitants. The criterion and N1 remain open.",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NATURALISM-SET-REPRESENTATIVES",
-    "DEF-SET-LOCATION-MEMBER-SUPPORT",
-    "DEF-MEMBER-CONFERS-SET-LOCATION"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "724bf396-ab5d-51da-b750-4bbc244d4f32",
+    "792ff3b6-9a4e-5352-a802-d80e30eff0cb",
+    "d9c0e27f-e5b0-5cda-bdfb-bd20a4233f64"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL"
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ],
   "strong_version_needed": {
-    "STMT-NATURALISM-N1": "The proposed existing set representatives are not independently classified as concrete. N2 requires a separate concrete classification input; it cannot replace the tested N1 occupant instance without that extra premise. The result is not claimed for all naturalist variants."
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc": "The proposed existing set representatives are not independently classified as concrete. N2 requires a separate concrete classification input; it cannot replace the tested N1 occupant instance without that extra premise. The result is not claimed for all naturalist variants."
   }
 }

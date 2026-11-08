@@ -1,10 +1,12 @@
 {
-  "id": "DEF-SUPERVENIENCE-COMPETENCE",
+  "id": "34408202-b4c3-5d8c-856e-2e2ad4397988",
+  "label": "Supervenience as a requirement of…: The constraint that competent moral judgments must not morally…",
+  "legacy_id": "DEF-SUPERVENIENCE-COMPETENCE",
   "term": "supervenience as a requirement of linguistic competence",
   "definition": "The constraint that competent moral judgments must not morally distinguish items without a nonmoral difference. Blackburn explains the conceptual requirement from the guiding purposes of moral talk. In the test this is one primitive explanation edge from purposesOfMoralTalk to supervenienceRequirement. It does not assert a complete supervenience semantics, exclude other explanations, or yield a metaphysical truthmaker.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-COGNITIVISM-3-4-BLACKBURN-SUPERVENIENCE"
+    "61d2c4a6-ff60-56ed-8f64-c86e03eac004"
   ],
   "lean_declaration": "TruthCore.English.VanRoojen.SupervenienceExplainedByPurposesReading"
 }

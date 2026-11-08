@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
-  "argument_id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "id": "4f64bf4c-26df-50de-b6f1-2477585c8d8f",
+  "label": "If a SIMPLE_4 remote-from-all being…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 2 more",
+  "legacy_id": "NATURALISM-REMOTE-SIMPLE-POPULATION",
+  "argument_id": "6e5618bc-5221-5ba1-81ae-946d378d5145",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Population.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Population.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Population.remoteSimplePopulationConstraint",

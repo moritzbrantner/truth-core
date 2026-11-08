@@ -1,5 +1,7 @@
 {
-  "id": "STMT-ORGANIC-PARTS-NOT-INDEFINITE-SIZE",
+  "id": "0a275667-080b-5de6-a427-6bd38d678751",
+  "label": "Because animals and plants are not indefinitely large or small, their genuine constituent parts…",
+  "legacy_id": "STMT-ORGANIC-PARTS-NOT-INDEFINITE-SIZE",
   "paraphrase": "Because animals and plants are not indefinitely large or small, their genuine constituent parts such as flesh and bone cannot be indefinitely large or small either.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.OrganicPartsNotIndefiniteInSizeReading"
 }

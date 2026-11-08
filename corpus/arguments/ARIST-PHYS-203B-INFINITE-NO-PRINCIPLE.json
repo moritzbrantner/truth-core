@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "id": "e67c017e-f801-5f30-8a1b-eb05663a9ee0",
+  "label": "An infinite taken as unbounded has no…, from If the infinite in the unbounded sense had… and 1 more",
+  "legacy_id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
   "premise_statement_ids": [
-    "STMT-INFINITE-PRINCIPLE-WOULD-LIMIT",
-    "STMT-INFINITE-NOT-LIMITED"
+    "b9ac6e25-2322-5972-a760-0852f2b20680",
+    "546a1040-a385-571c-bb03-9a3129a49cf5"
   ],
-  "conclusion_statement_id": "STMT-INFINITE-HAS-NO-PRINCIPLE",
+  "conclusion_statement_id": "f126d18c-f56a-59a0-802c-c90f25352c78",
   "inference_ids": [
-    "INF-ARIST-PHYS-INFINITE-NO-PRINCIPLE"
+    "a96c8079-6e9b-597c-b272-c6479a298cb3"
   ],
   "meaning": "At this dialectical stage Aristotle reasons that an infinite understood as unbounded has no prior principle, because any such principle would impose a limit."
 }

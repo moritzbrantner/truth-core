@@ -1,15 +1,17 @@
 {
-  "id": "CLARKE-III-2-5-DISTINCT-PLACES",
-  "statement_id": "STMT-ALIKE-PLACES-MAY-BE-DISTINCT",
-  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "id": "875927bf-0787-51b8-b5d4-be60f25d3663",
+  "label": "Gottfried Wilhelm Leibniz and Samuel…, A…: Clarke denies that perfectly alike places must be…",
+  "legacy_id": "CLARKE-III-2-5-DISTINCT-PLACES",
+  "statement_id": "8b0aa573-2d31-5826-ba3f-385d83f429bc",
+  "source_id": "77710698-4fea-53c2-b6d7-5485434d28a7",
   "locator": "Clarke III §§2,5",
   "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES"
+    "97c719e9-e4ea-5ce9-acef-60de08cea6b2"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIAL-DATA-IDENTITY"
+    "38b56008-c4ca-5fd9-9a61-046338e87cf7"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "id": "dac67701-e7fc-538e-a33a-45e1349fb088",
+  "label": "For every supplied frame, actual-stable calibration, invariance-only calibration…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-FORK",
   "paraphrase": "For every supplied frame, actual-stable calibration, invariance-only calibration, actual-truth-only calibration, or an explicit remaining account holds. Excluded middle is an argument premise. The cells may overlap; named coverage without the remainder is not established.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.DefinitionFork",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

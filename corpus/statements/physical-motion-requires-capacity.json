@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
+  "id": "a12e77b7-8e9b-5c34-a0ac-61108f0ad15b",
+  "label": "Whatever undergoes MOTION_2 in a physical respect is in POTENCY_1 for the terminus of that…",
+  "legacy_id": "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
   "paraphrase": "Whatever undergoes motion in a physical respect is in potency for the terminus of that motion in that same respect.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.PhysicalMotionRequiresCapacityReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

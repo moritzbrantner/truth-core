@@ -1,13 +1,15 @@
 {
-  "id": "STMT-Q14-WITHOUT-MATTER-CALIBRATION",
+  "id": "1de89130-7919-5102-a330-8cf4423201e4",
+  "label": "On the supplied scope, existing primitive intellect is coextensive with without-matter…",
+  "legacy_id": "STMT-Q14-WITHOUT-MATTER-CALIBRATION",
   "paraphrase": "OPEN: on the supplied scope, existing primitive intellect is coextensive with without-matter foreign-form aptitude. The sensory control forbids taking this as an automatic source identification.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.WithoutMatterCalibration",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "a63b614a-7a1a-5560-b919-10f303b955ff"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "id": "5c8647a7-1617-5b51-a936-a3696cbbdd3b",
+  "label": "The fixed diamond is upstream-confluent, connected and well-founded, fails unique…, by Direct-proof",
+  "legacy_id": "INF-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "output_statement_id": "0a06570b-1ca1-5bcc-97aa-53fc11343d71",
   "rule": "direct-proof",
   "meaning": "On the fixed diamond, every node has a concrete finite upstream path to root; therefore every pair of upstream endpoints can join there. Its rank proves WF and explicit zigzags prove connectivity. tip has distinct immediate predecessors left/right, while the general confluence theorem gives a unique source and paths from every node. This permits multiple immediate causes and strictly weakens the sufficient LeftUnique condition; it does not establish metaphysical confluence.",
   "assumption_statement_ids": [],

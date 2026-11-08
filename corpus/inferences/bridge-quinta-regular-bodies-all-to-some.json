@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "id": "230f6dbe-a410-54e2-adb6-8466f3c77b12",
+  "label": "Some natural body operates always or for the most part in the same…, by Existential-instantiation",
+  "legacy_id": "INF-BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
   "input_statement_ids": [
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST"
+    "658814de-ffeb-5824-afdd-2797e5cdad42"
   ],
-  "output_statement_id": "STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "output_statement_id": "fa37dde9-3fd0-506b-9c8c-b2d70511f788",
   "rule": "existential-instantiation",
   "meaning": "There are natural bodies and each regularly attains a best end; take one of them: some natural body regularly attains a best end.",
   "assumption_statement_ids": [],

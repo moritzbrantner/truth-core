@@ -1,14 +1,20 @@
 {
-  "id": "CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "id": "f82337aa-f127-5116-a706-d934ffe39781",
+  "label": "A mathematically defined acyclic infinite causal relation can have a source in every finite…",
+  "legacy_id": "CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
-  "inference_ids": ["INF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL"],
+  "conclusion_statement_id": "bf38e72b-e1c9-5eb4-ad9d-d909aad36277",
+  "inference_ids": [
+    "e3a6d177-1e0a-5a29-b4fc-1e8364855ea3"
+  ],
   "meaning": "An explicit mathematical countermodel to the finite-to-infinite quantifier shift: every finite restriction has its own source, no global source exists, and no finite causal loops occur. The result is not a claim that an actually infinite causal world exists.",
   "definition_ids": [
-    "DEF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
-    "DEF-CAUSAL-FINITE-RESTRICTION-LOCAL-SOURCE",
-    "DEF-CAUSAL-GLOBAL-SOURCE",
-    "DEF-CAUSAL-HISTORY-NO-LOOPS"
+    "de557b0b-ea3c-51ad-a629-214813597012",
+    "86ae12be-df4f-5538-992c-736ec204a076",
+    "c0ddf226-36cd-5e09-a055-014de8d2e307",
+    "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd"
   ],
-  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+  "disambiguation_ids": [
+    "bedfab81-905c-5d1a-b834-e20b8007b3da"
+  ]
 }

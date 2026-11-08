@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
-  "argument_id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+  "id": "23f73553-ed23-5088-afa4-a3f3c7402124",
+  "label": "Every visible society with an authority structure that Jesus founded is, by…, from uniqueness",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-CHRISTS-CHURCH-CATHOLIC-FROM-UNIQUENESS",
+  "argument_id": "e0e05aba-004a-5159-a502-15b77a1bff67",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.christsChurchIsCatholicFromUniqueness",

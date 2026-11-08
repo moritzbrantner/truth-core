@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-208A-GENERATION-FINITE-WHOLE-A",
-  "statement_id": "STMT-UNENDING-GENERATION-NO-ACTUAL-INFINITE-BODY",
-  "source_id": "ARIST-PHYS",
+  "id": "95c48717-29a2-54c7-9ac4-e53772167f7b",
+  "label": "Aristotle, Physics III.8, 208a8-11: Unending coming-to-be does not require an actually infinite…",
+  "legacy_id": "ARIST-PHYS-208A-GENERATION-FINITE-WHOLE-A",
+  "statement_id": "5e31b828-cb44-58a1-8bf8-558182f8054b",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.8, 208a8-11",
   "interpretation": "Rebuttal to a motivation for actual infinity: ongoing generation does not require an actually infinite stock of sensible body, because one thing's corruption can be another's generation while the whole remains finite. The claim is source-scoped rather than generalized into a conservation principle.",
   "status": "formalized"

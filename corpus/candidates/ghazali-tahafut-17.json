@@ -1,6 +1,8 @@
 {
-  "id": "GHAZALI-TAHAFUT-17",
-  "source_id": "GHAZALI-TAHAFUT",
+  "id": "6f53b729-0858-56c3-870a-c8e40cdb07fa",
+  "label": "Pin a witness",
+  "legacy_id": "GHAZALI-TAHAFUT-17",
+  "source_id": "c2661804-248a-5750-b660-b98d813d45f2",
   "locator": "discussion 17",
   "priority": 904,
   "goal": "Pin a witness (the Arabic is public domain; the Marmura translation waits for #378). Attribute STMT-MOVED-WITHOUT-POTENCY (capacity only with the act; re-creation) and, if supported, STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE.",

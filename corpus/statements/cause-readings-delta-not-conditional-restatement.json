@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
+  "id": "f8ce97fe-1ebb-54dc-b96e-26cf9612b823",
+  "label": "In the specified Bool setting, the implication from broad to distinct CAUSE_2 is vacuously true…",
+  "legacy_id": "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
   "paraphrase": "In the specified Bool setting, the implication from broad to distinct cause is vacuously true because one generated point is uncaused, while the local delta fails at the other generated point whose sole cause is itself. Thus the proposed delta is not equivalent to the bare conditional W → S.",
   "lean_declaration": "TruthCore.Logic.Strength.Cause.DeltaNotConditionalRestatement",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

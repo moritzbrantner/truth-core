@@ -1,12 +1,14 @@
 {
-  "id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "id": "fd02a6b4-a2c7-5ff7-a6fa-709c3790661c",
+  "label": "Without the scope premise the dilemma fails: there is a norm that holds while an acceptable claim…",
+  "legacy_id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+  "conclusion_statement_id": "43aab2d0-35f7-5f52-8d54-6c65b285a8cc",
   "inference_ids": [
-    "INF-LOGIC-SELF-APPLICATION-SCOPE-NEEDED"
+    "e0503f62-e975-50c8-91c8-1e49dc98ca48"
   ],
   "meaning": "Countermodel: with the claim outside the norm's scope, the norm holds and the claim is acceptable while failing the standard. The scope premise cannot be omitted.",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ]
 }

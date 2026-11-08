@@ -1,7 +1,9 @@
 {
-  "id": "INF-NAME-APPLICATION-TRANSFER-MODELS",
+  "id": "b4653278-66e3-55df-ab21-4667d5f1b166",
+  "label": "Three finite controls witness: proper inhabitation with practice…, by Constructive-proof",
+  "legacy_id": "INF-NAME-APPLICATION-TRANSFER-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NAME-APPLICATION-TRANSFER-MODELS",
+  "output_statement_id": "20bf49d5-b9f5-5eab-9993-11937fd110ab",
   "rule": "constructive-proof",
   "meaning": "Three explicit schema controls witness loss, inhabited agreement, and strictness of one-way preservation relative to coextension. No arbitrary predicate interpretation is claimed to establish classical theism or actual practice.",
   "assumption_statement_ids": [],

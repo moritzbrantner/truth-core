@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
-  "statement_id": "STMT-AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
-  "source_id": "AQUINAS-SCG",
+  "id": "1c67e58f-020f-5c4d-99e1-525f05aa4f6e",
+  "label": "Thomas Aquinas, Summa contra gentiles I.28: What is its own being has being according to its whole\u2026",
+  "legacy_id": "AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION",
+  "statement_id": "f30e20fb-47c7-5aed-9d02-7e1dfa4b2396",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.28 [2\u20133]",
   "interpretation": "The source argues from excellence according to being to whole power for that which is its own being, using unreceived whiteness versus a receiver as analogy; [3] adds absence of defect. Context [1] contrasts living things with those merely existing and defines universal perfection by no lacking excellence. This is a genuine metaphysical own-being/whole-power claim, not a formal consequence of a supplied essenceOf/esseOf lookup equality. The analogy does not independently prove that an actual necessary root is unreceived subsistent esse. No typed IsPerfect, global causal transfer or uniqueness premise is silently bound. Existing q4a2 perfections-pertain-to-being is related but does not include this entire conditional; preserve independent statement identity. Based on the verified complete Pegis English chapter; no independently consulted Latin edition or proof/truth certification is claimed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-ESSE",
-    "DEF-UNIVERSALLY-PERFECT"
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

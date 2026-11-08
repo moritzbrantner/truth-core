@@ -1,16 +1,18 @@
 {
-  "id": "RAILTON-204-OPEN-QUESTION-REPLY",
-  "statement_id": "STMT-RAILTON-OPEN-QUESTION-REPLY",
-  "source_id": "RAILTON-MORAL-REALISM",
+  "id": "817f6760-b841-5db3-a714-3a8c1e609390",
+  "label": "Peter Railton, Moral Realism Pp. 204–205, §VI: Railton concedes that reforming definitions leave…",
+  "legacy_id": "RAILTON-204-OPEN-QUESTION-REPLY",
+  "statement_id": "ca79fcde-1b83-5910-a9f9-a0b3c8924590",
+  "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
   "locator": "pp. 204–205, §VI: reforming definitions and assessment",
   "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NATURALIST-REDUCTION-BASIS",
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS"
+    "f5e58217-9b11-5ead-8372-481cc8ee371f",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

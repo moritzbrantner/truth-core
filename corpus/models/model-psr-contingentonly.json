@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-PSR-CONTINGENTONLY",
+  "id": "e9735093-3312-550e-a82e-99c74727ed02",
+  "label": "Original #316 ContingentOnly witness",
+  "legacy_id": "MODEL-PSR-CONTINGENTONLY",
   "description": "Original #316 ContingentOnly witness. Explanations are stipulated tokens, not established metaphysical sufficiency.",
   "vocabulary": "EXISTENCE-PSR",
   "lean_declaration": "TruthCore.Models.PSR.ContingentOnly.model",
@@ -31,7 +33,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "statement_id": "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -41,7 +43,7 @@
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation0"
     },
     {
-      "statement_id": "STMT-PSR-CONTINGENT-COMPONENT",
+      "statement_id": "d7c67d3a-a43f-5336-8105-6cbc25a43546",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -51,7 +53,7 @@
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation1"
     },
     {
-      "statement_id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
+      "statement_id": "e4d54207-5e44-52db-a984-08e6428de881",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -63,7 +65,7 @@
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation2"
     },
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -74,7 +76,7 @@
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation3"
     },
     {
-      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "statement_id": "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
       "value": "violates",
       "arguments": [
         "World",
@@ -84,37 +86,61 @@
       "theorem": "TruthCore.Models.PSR.ContingentOnly.evaluation4"
     },
     {
-      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "statement_id": "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.contingentNotNoBrute"
     },
     {
-      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "statement_id": "fcf3a68a-d353-5f8b-9e01-995643caa2f9",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.contingentBrute"
     },
     {
-      "statement_id": "STMT-PSR-POPULATED-AT",
+      "statement_id": "43f09b83-776d-57b8-a5b3-b84715e48fc2",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.contingentPopulated"
     },
     {
-      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "statement_id": "27bdc583-788a-5dc0-8448-0be5e6237310",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.contingentWellFounded"
     },
     {
-      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "statement_id": "627f9018-3f9e-56da-ad08-fd6f1f61b3f8",
       "value": "violates",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.contingentNotExternal"
     },
     {
-      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
       "value": "satisfies",
       "arguments": [
         "World",

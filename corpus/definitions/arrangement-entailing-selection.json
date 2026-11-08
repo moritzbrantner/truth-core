@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+  "id": "f6c46849-e1f6-5810-951c-ede141bcbc54",
+  "label": "Entailing selection of a labeled…: Selects a p requires p true at the designated arrangement a and…",
+  "legacy_id": "DEF-ARRANGEMENT-ENTAILING-SELECTION",
   "term": "entailing selection of a labeled arrangement",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Selects",

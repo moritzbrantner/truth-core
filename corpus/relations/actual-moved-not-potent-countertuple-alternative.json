@@ -1,9 +1,11 @@
 {
-  "id": "REL-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE-ALTERNATIVE",
+  "id": "1352ff62-66c6-5860-a034-01c422941176",
+  "label": "Some actual moved tuple is not in… alternative to Nothing is moved except insofar as it is…",
+  "legacy_id": "REL-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "subject_id": "86c76b02-e2f7-5db1-87b1-0b025c3e6040",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "object_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "note": "Exact unrefuted analyst countertuple. Existing stronger occasionalist candidate remains intact; refuting a full re-creation story would not eliminate every moved/not-potent tuple. Structural coverage is explicit in MOVED-POTENCY-EXACT-COUNTERCASE-FORK."
 }

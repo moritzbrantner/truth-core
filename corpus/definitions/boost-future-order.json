@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOOST-FUTURE-ORDER",
+  "id": "ddf5faf1-a159-51b3-aeae-a90146910726",
+  "label": "Geometric future-cone order in the…: FutureCone p means |p.2|≤p.1 and includes zero",
+  "legacy_id": "DEF-BOOST-FUTURE-ORDER",
   "term": "geometric future-cone order in the boost profile",
   "definition": "FutureCone p means |p.2|≤p.1 and includes zero; GeometricBefore p q applies that condition to q−p. It is a geometric future-directed nonspacelike displacement condition.",
   "basis": "stipulative",

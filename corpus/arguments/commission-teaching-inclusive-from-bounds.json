@@ -1,27 +1,29 @@
 {
-  "id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "id": "ff26da0a-d986-53bf-ae87-9b3b4d07c908",
+  "label": "The selected governing predicate holds exactly for the existing narrow table or the…, from bounds",
+  "legacy_id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
   "premise_statement_ids": [
-    "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING",
-    "STMT-TABLE-GOVERNING-IS-SELECTED",
-    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+    "b85ee5a5-8a4f-5da1-bab3-bc5453e51b2c",
+    "1d1edbd9-27ab-55c9-bfd2-1007dcc85f0b",
+    "fc2912b3-613c-52cc-84d3-9135cc456efe"
   ],
-  "conclusion_statement_id": "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
+  "conclusion_statement_id": "9981db29-aa03-56f8-a2de-a04eed444b91",
   "inference_ids": [
-    "INF-COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS"
+    "764a0203-fda2-51bc-9768-2cb81e40584a"
   ],
   "meaning": "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching.",
   "definition_ids": [
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+    "12d8270e-a003-557f-8434-490095c74177",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD"
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ]
 }

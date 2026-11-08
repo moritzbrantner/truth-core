@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-FORM-END-BOUNDARIES",
-  "argument_id": "GOODNESS-FORM-END-BOUNDARIES",
+  "id": "122aced4-9788-560c-beac-78f70ec398da",
+  "label": "The exact bridge from due actuality to the old unrestricted coextension is verified, together with…",
+  "legacy_id": "GOODNESS-FORM-END-BOUNDARIES",
+  "argument_id": "b1e40ce9-bd0b-5e5c-92d6-8da6270cd4f3",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndBoundary.boundaries",

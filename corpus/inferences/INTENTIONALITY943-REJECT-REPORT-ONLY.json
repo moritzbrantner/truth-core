@@ -1,16 +1,18 @@
 {
-  "id": "INF-INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "id": "e4704e23-6057-5d94-a349-7668d5d5748d",
+  "label": "The universal identification of target mental content truth with truth…, by Constructive-derivation",
+  "legacy_id": "INF-INTENTIONALITY943-REJECT-REPORT-ONLY",
   "input_statement_ids": [
-    "STMT-INTENTIONALITY943-ERROR",
-    "STMT-INTENTIONALITY943-REPORT-CORRECT"
+    "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
+    "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51"
   ],
-  "output_statement_id": "STMT-INTENTIONALITY943-REJECT-CONTENT-ONLY-REPORT",
+  "output_statement_id": "53716090-75ba-5ac0-882b-982f70e617a0",
   "rule": "constructive-derivation",
   "meaning": "Compose errorCore with a scoped assumption of the report-only content equivalence and discharge that assumption. Retain error and the qualified report premise. This reproduces the limited objection without deriving a nonphysical subject.",
   "assumption_statement_ids": [
-    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+    "d49bede3-ad6e-5f07-a642-19b526eb2f61"
   ],
   "discharged_statement_ids": [
-    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+    "d49bede3-ad6e-5f07-a642-19b526eb2f61"
   ]
 }

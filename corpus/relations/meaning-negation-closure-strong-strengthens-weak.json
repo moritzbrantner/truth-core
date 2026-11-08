@@ -1,10 +1,12 @@
 {
-  "id": "REL-MEANING-NEGATION-CLOSURE-STRONG-STRENGTHENS-WEAK",
+  "id": "0efb0c81-2fc3-5737-9cdb-43b6403a31ad",
+  "label": "Strong version: for every sentence, if it… strengthens Weak version: for every sentence, if its…",
+  "legacy_id": "REL-MEANING-NEGATION-CLOSURE-STRONG-STRENGTHENS-WEAK",
   "subject_kind": "statement",
-  "subject_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "subject_id": "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
-  "verification_result_id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "object_id": "3f979107-8ac1-557c-8e10-b3cfa3a7ba78",
+  "verification_result_id": "6c7eaa48-8c27-5b01-80a1-669ad9567110",
   "note": "Negation closure for every sentence and for negated sentences only (#1008, #1019). Defeat 2 (STRONG-VERIFICATIONISM-WITH-LAWS-FAILS) needs only the weak version; the strengthened 1946 corollary (AYER-1946-EXCLUDES-A-NEGATION-FAILS) needs the strong one. Each version keeps its own stating claim (SEP-HEMPEL-2-3-NEGATION-CLOSURE, SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK) and its own owner-approved floor marking. No strictness countermodel is registered."
 }

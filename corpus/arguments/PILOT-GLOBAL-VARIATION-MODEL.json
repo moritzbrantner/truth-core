@@ -1,16 +1,18 @@
 {
-  "id": "PILOT-GLOBAL-VARIATION-MODEL",
+  "id": "7415de91-291d-5cf4-b36b-f2dd1fa67c8a",
+  "label": "There is a model of global profile variation in the stipulated language when no logical-sentence…",
+  "legacy_id": "PILOT-GLOBAL-VARIATION-MODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PILOT-GLOBAL-VARIATION-MODEL",
+  "conclusion_statement_id": "504da9e3-99cd-5976-898e-d015a0062985",
   "inference_ids": [
-    "INF-PILOT-GLOBAL-VARIATION-MODEL"
+    "ca6f1294-f90b-588c-8136-eedc441fd3e3"
   ],
   "meaning": "A globally variable interpretation exists when no logical-sentence stability bridge is imposed. A countermodel to any unconditional self-refutation inference from that bare definition.",
   "definition_ids": [
-    "DEF-PILOT-PROFILE-TRUTH"
+    "f83c4d57-8044-505c-9082-b9944f50223a"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-PILOT-RELATIVITY"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "baab4b98-29b9-5275-9819-6dab48f39ab8"
   ]
 }

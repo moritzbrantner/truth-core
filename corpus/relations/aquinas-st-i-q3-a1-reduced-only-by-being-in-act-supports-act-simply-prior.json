@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-SUPPORTS-ACT-SIMPLY-PRIOR",
+  "id": "d46b7699-9936-5439-96fa-c32290ba3658",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Act is SIMPLY_PRIOR_1 to POTENCY_1…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-SUPPORTS-ACT-SIMPLY-PRIOR",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A",
+  "subject_id": "bfeb74b4-e2eb-535c-9a3d-cced0e9d8a0f",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "object_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "note": "Aquinas' stated reason for simple priority. It does not entail the premise by itself (BEING-IN-ACT-READING-FACTS): the missing step is that every potency is related to some being in act that is prior to its bearer."
 }

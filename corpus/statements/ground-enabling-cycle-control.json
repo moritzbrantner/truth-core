@@ -1,14 +1,16 @@
 {
-  "id": "STMT-GROUND-ENABLING-CYCLE-CONTROL",
+  "id": "6516d186-4380-5942-b00b-2f5cf12b2723",
+  "label": "The four-event raw ground-rule graph is well-founded and cycle-free; both all-on and all-off…",
+  "legacy_id": "STMT-GROUND-ENABLING-CYCLE-CONTROL",
   "paraphrase": "The four-event raw ground-rule graph is well-founded and cycle-free; both all-on and all-off effects satisfy its enabling-conditioned local rules with necessary bases. Both effects are actually contingent in the matched Bool-world arena. Distinct effects occupy one Mathlib SCC of the full ground/enabling union, which has a positive cycle and is not well-founded. These are rule/fixed-point controls, not adequate actual explanation or temporal causal loops.",
   "lean_declaration": "TruthCore.Explanation.GroundingBaseline.EnablingCycle",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-GROUND-ENABLING-RULES",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-FACT-DEPENDENCY-WELL-FOUNDED"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "cf9bec81-7df3-51fa-8389-04e06302dfb4",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "303d8860-4e9b-5ae0-b726-a07e0f592df9"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

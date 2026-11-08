@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NOTHING-FROM-ABSOLUTE-NOT-BEING",
+  "id": "ae5fad7b-6e2c-5cac-bb8c-f1089b5c9340",
+  "label": "Generation from absolute not-being is rejected in the attributed reasoning Aristotle reconstructs…",
+  "legacy_id": "STMT-NOTHING-FROM-ABSOLUTE-NOT-BEING",
   "paraphrase": "Generation from absolute not-being is rejected in the attributed reasoning Aristotle reconstructs for Anaxagoras.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NothingFromAbsoluteNotBeingReading"
 }

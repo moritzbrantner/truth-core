@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NB-A8-VACUOUS-LIMITATION-REDUCTIO",
+  "id": "dc6e6f23-2e89-514f-9100-1ed22d437b6d",
+  "label": "With the selected report that powerful NECESSARY_BEING_4 is nonlimiting, the alternate source…",
+  "legacy_id": "STMT-NB-A8-VACUOUS-LIMITATION-REDUCTIO",
   "paraphrase": "With the selected report that powerful Necessary Being is nonlimiting, the alternate source supposes no Necessary Being possible, hence no powerful Necessary Being possible. It explicitly uses the necessarily false antecedent to infer vacuously that powerful Necessary Being entails having a limiting property, then compresses the definition of limiting and transitivity into entailing a deficiency and being limiting. It contradicts the negative report and discharges possible Necessary Being at9–10. This argument does not require the main affirmative possible-nonexistence-limiting report or an affirmative powerlessness answer. Deficiency/property admission, the compressed uniformity/intension step and formal classifier semantics remain OPEN; this is attribution, not soundness, actual existence or an actual rigid necessary witness.",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

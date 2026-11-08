@@ -1,11 +1,13 @@
 {
-  "id": "INF-OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
+  "id": "d2bc5af2-dbe8-52bc-aea1-8f15ce54900c",
+  "label": "Everything other than the primary is a creature, by Universal instantiation…",
+  "legacy_id": "INF-OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
   "input_statement_ids": [
-    "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE",
-    "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
-    "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE"
+    "11e24b50-06bc-5e2e-b9b6-a4e4dc421237",
+    "2b25a78c-abad-50d9-abb9-31a753409192",
+    "b7d4eede-ab50-5522-8902-f33238fa234d"
   ],
-  "output_statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+  "output_statement_id": "612078bf-5a68-5542-8b7b-f862f816ece0",
   "rule": "Universal instantiation, existential elimination and modus ponens",
   "meaning": "Derives that everything other than the primary is a creature: each other thing has participated being (OPEN reading of q.44 a.1 co.), what has participated being has a distinct cause of its being (q.44 a.1 ad 1, STMT-PARTICIPATED-HAS-OTHER-CAUSE), and what has its being caused by another is a creature (OPEN reading of DEF-CREATURE).",
   "assumption_statement_ids": [],

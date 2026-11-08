@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPART-INJECTIVE",
+  "id": "bb19b947-6bfc-5c3c-8ec3-426f3701f4ac",
+  "label": "Injective in issue #470: Existing source bearers linked to the same existing target in fixed\u2026",
+  "legacy_id": "DEF-COUNTERPART-INJECTIVE",
   "term": "Injective in issue #470",
   "definition": "Existing source bearers linked to the same existing target in fixed source/target worlds are equal. No totality is asserted.",
   "basis": "stipulative",

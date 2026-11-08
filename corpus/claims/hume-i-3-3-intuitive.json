@@ -1,16 +1,18 @@
 {
-  "id": "HUME-TREATISE-I-3-3-INTUITIVE-A",
-  "statement_id": "STMT-HUME-I-3-3-INTUITIVE",
-  "source_id": "HUME-TREATISE",
+  "id": "69e5b21b-eead-5310-93e5-d745fd30fe96",
+  "label": "David Hume, A Treatise of Human Nature…: Hume denies that the maxim that whatever begins to exist…",
+  "legacy_id": "HUME-TREATISE-I-3-3-INTUITIVE-A",
+  "statement_id": "d93fadf4-580e-5ef7-906b-684258e94646",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.3, §§1–2 (SBN 78–79)",
   "interpretation": "Bounded denial of intuitive certainty under the listed account, not denial of all justification, practical reliance or causal truth. The conditional invitation to identify another infallible relation prevents treating his list as an independently proved complete logic.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-IDEA-CERTAINTY",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "48cf1e70-6343-52f0-88c3-995c051156b6",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

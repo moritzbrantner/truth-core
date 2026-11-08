@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-EPISTEMIC-REASON-DEFINITION-FORKS-AUDIT",
+  "id": "aa0547d5-93c8-5f5c-8afb-784d44944f00",
+  "label": "The prior note left two consequential analyst role propositions without Lean declarations because…",
+  "legacy_id": "ATTEMPT-EPISTEMIC-REASON-DEFINITION-FORKS-AUDIT",
   "statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
-    "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "bea77d88-037f-5ff1-9798-a99bbbc27206",
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+    "da3a45ec-f4c0-55dd-bc2a-e3a56a980b33"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -12,11 +14,11 @@
   "summary": "The prior note left two consequential analyst role propositions without Lean declarations because encoding would not establish actual instantiation. Owner clarified that conditional definition forks should be studied anyway. Encoded four candidate calibrations on one typed consideration/attitude/preference profile, explicit consideration presentation from thin F6, named coverage and a precise remaining profile. Checked controls show bare production/reward need not supply ordinary support, ordinary favoring need not have preference-independent force, coextensive functional accounts can survive, and thin F6 plus vacuous calibration needs a presentation bridge. Original F6 meaning/approval and source claims stay unchanged. Calibration transports and structural coverage are labelled transcriptions; finite controls establish conditional/model boundaries only.",
   "blocker": "Actual normative instantiation, adequacy of the favoring/force interpretation, calibration selection and admissibility of the preference class remain open. No actual-world coverage of all epistemological theories is inferred from the named list.",
   "evidence": [
-    "EP-ROLE-ORDINARY-FROM-THIN",
-    "EP-ROLE-INDEPENDENT-FROM-THIN",
-    "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
-    "EP-ROLE-DEFINITION-FORK",
-    "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
-    "EP-ROLE-DEFINITION-BOUNDARIES"
+    "6a79d62a-eab8-5c98-b725-e4981eec17eb",
+    "73f46094-27ea-5eff-8e1b-1254af59b8c5",
+    "dbdb04d7-79b4-5c34-98a6-38efb6382f7b",
+    "a3829396-328d-56d0-960b-1a7afc9e09ec",
+    "451490a9-b3a0-5294-b90f-d7bf2a70f390",
+    "b91e4e37-9f75-5a92-b41e-c34a257c0025"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLATO-REP",
+    "source_id": "786f8af8-0165-586a-90a1-f0e6822a3275",
     "edition_urn": "urn:cts:greekLit:tlg0059.tlg030.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLATO-REP-475",
+      "id": "e8d5a265-25ee-5ed0-ba81-a3c40d061a23",
+      "label": "Plato, Republic, 475",
+      "legacy_id": "PLATO-REP-475",
       "locator": "475",
       "claim_locator_prefixes": [
         "475"
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-476",
+      "id": "be9a2829-f14c-560b-b315-80ecb49e6f6d",
+      "label": "Plato, Republic, 476",
+      "legacy_id": "PLATO-REP-476",
       "locator": "476",
       "claim_locator_prefixes": [
         "476"
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-477",
+      "id": "81726426-0649-53c7-9748-1aab4abbaef1",
+      "label": "Plato, Republic, 477",
+      "legacy_id": "PLATO-REP-477",
       "locator": "477",
       "claim_locator_prefixes": [
         "477"
@@ -51,7 +57,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-478",
+      "id": "1aaee572-6e68-54c6-9064-8b81048cb943",
+      "label": "Plato, Republic, 478",
+      "legacy_id": "PLATO-REP-478",
       "locator": "478",
       "claim_locator_prefixes": [
         "478"
@@ -64,7 +72,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-479",
+      "id": "c2a7437d-b3b3-51d2-9d51-171ecc426ed6",
+      "label": "Plato, Republic, 479",
+      "legacy_id": "PLATO-REP-479",
       "locator": "479",
       "claim_locator_prefixes": [
         "479"
@@ -77,7 +87,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-480",
+      "id": "c566a679-6fe1-5293-9667-09c64c45ad3b",
+      "label": "Plato, Republic, 480",
+      "legacy_id": "PLATO-REP-480",
       "locator": "480",
       "claim_locator_prefixes": [
         "480"
@@ -90,7 +102,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-596",
+      "id": "48a9f48f-7453-5af0-bfd5-189a5e0e30ca",
+      "label": "Plato, Republic, 596",
+      "legacy_id": "PLATO-REP-596",
       "locator": "596",
       "claim_locator_prefixes": [
         "596"
@@ -103,7 +117,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-597",
+      "id": "04293c39-4770-5ac0-96b4-512792ffd167",
+      "label": "Plato, Republic, 597",
+      "legacy_id": "PLATO-REP-597",
       "locator": "597",
       "claim_locator_prefixes": [
         "597"
@@ -116,7 +132,9 @@
       ]
     },
     {
-      "id": "PLATO-REP-598",
+      "id": "c89e0563-e0a4-5888-8232-9f8f45ab386a",
+      "label": "Plato, Republic, 598",
+      "legacy_id": "PLATO-REP-598",
       "locator": "598",
       "claim_locator_prefixes": [
         "598"

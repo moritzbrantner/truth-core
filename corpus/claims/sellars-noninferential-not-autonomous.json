@@ -1,14 +1,16 @@
 {
-  "id": "SELLARS-EPM-32-36-NONINFERENTIAL",
-  "statement_id": "STMT-SELLARS-NONINFERENTIAL-NOT-AUTONOMOUS",
-  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "id": "64e3c82a-74ce-50e3-a8f6-6b6c300eec5c",
+  "label": "Wilfrid Sellars, Empiricism and the…: Sellars distinguishes noninferential observational knowledge…",
+  "legacy_id": "SELLARS-EPM-32-36-NONINFERENTIAL",
+  "statement_id": "8148a6d0-f1e7-53d1-a86b-af1390057b9f",
+  "source_id": "4ca270ba-8c26-5a84-a66f-c39efe48f1f4",
   "locator": "VIII §32; §36",
   "interpretation": "The source denies that noninferential status by itself entails epistemic autonomy; §36 specifically retains general reliability knowledge. This is a bounded prose reading, not a proof that every proposed foundationalist account is false.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SELLARS-NONINFERENTIAL-OBSERVATION"
+    "b8f8eae6-d880-5062-9d84-1ce841d484a9"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+    "46f172ac-9758-5e8a-a771-8faa87cddfa7"
   ]
 }

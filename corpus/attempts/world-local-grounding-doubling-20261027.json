@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-WORLD-LOCAL-GROUNDING-DOUBLING-20261027",
+  "id": "9953435c-cfd8-55c2-a283-c560ec38fd1f",
+  "label": "A quantified Lean construction takes any inhabited, well-founded one-world grounding structure…",
+  "legacy_id": "ATTEMPT-WORLD-LOCAL-GROUNDING-DOUBLING-20261027",
   "statement_ids": [
-    "STMT-WORLD-LOCAL-GROUNDING-DOUBLING"
+    "b5680eae-4ee9-5fc3-9c71-5b74e4638619"
   ],
   "date": "2026-10-27",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "A quantified Lean construction takes any inhabited, well-founded one-world grounding structure whose edges have distinct existing relata and whose independently specified noninitial members have predecessors, and produces two mutually accessible, disjoint rigid-copy histories preserving those world-local constraints while no individual exists concretely and necessarily. An explicit root-child source satisfies every antecedent with an actual grounding edge. This refutes the attempted inference from these world-local premises alone to de re necessary concrete existence within the stipulated semantics; it does not prove the metaphysical possibility of disjoint worlds or rule out anti-brute/cross-world principles. Follow-up GROUNDING-IDENTITY-PROFILE compares the exact doubled structure with a fixed-tag rigid companion, guarded local matching and coherent counterparts on the same source/carrier; see docs/notes/grounding-identity-profile.md. The existing applicability blocker is retained.",
   "evidence": [
-    "WORLD-LOCAL-GROUNDING-DOUBLING",
+    "11190996-6ac4-5cdd-a82b-e27fa0c44df1",
     "PR-510",
-    "GROUNDING-IDENTITY-PROFILE"
+    "93f096f6-2556-5bc0-8f70-6bf870b922ac"
   ],
   "blocker": "No independent metaphysical justification has yet eliminated contingent grounding roots, established universal contingent existential dependence, or constrained cross-world identity/recombination. These remain separate frontier premises."
 }

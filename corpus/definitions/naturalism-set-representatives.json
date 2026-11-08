@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-SET-REPRESENTATIVES",
+  "id": "724bf396-ab5d-51da-b750-4bbc244d4f32",
+  "label": "Pure-set representatives versus\u2026: A small candidate domain B \u2295 S separates bearer candidates from\u2026",
+  "legacy_id": "DEF-NATURALISM-SET-REPRESENTATIVES",
   "term": "pure-set representatives versus object-level existence",
   "definition": "A small candidate domain B \u2295 S separates bearer candidates from set representatives. A supplied decode:S\u2192Mathlib.ZFSet.{0} interprets representatives by actual mathematical pure sets. This is not a small universe of all ZF sets. No injectivity, all-set coverage or full membership closure is assumed. Object-level existence is Ontic.ExistsAt on the sum domain, not Lean inhabitation or mathematical set truth. sampleDecode interprets Bool false as \u2205 and true as {\u2205}, not the earlier designated {2} candidate.",
   "basis": "stipulative",

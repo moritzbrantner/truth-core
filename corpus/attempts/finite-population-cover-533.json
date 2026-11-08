@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-FINITE-POPULATION-COVER-533",
+  "id": "8e463c8b-ec3b-507b-a1c7-00bcd66a5e4d",
+  "label": "Finite-list omission, full-cover joint absence, necessary-population incompatibility and…",
+  "legacy_id": "ATTEMPT-FINITE-POPULATION-COVER-533",
   "statement_ids": [
-    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-    "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+    "7570cdf8-56b1-58dc-951d-e987959c2d29",
+    "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Finite-list omission, full-cover joint absence, necessary-population incompatibility and explicit-EM positive DeRe reconstructed and packaged in Challenge/Solution with zero-axiom Comparator configurations. Alternating, infinite-tail and successor-free controls also elaborate with zero axioms. Exact warm-service evidence and interpretive limits persist in docs/notes/finite-population-cover-533.md. This successful derivation attempt does not establish its metaphysical policies or change root closure; canonical final CI certification remains pending.",
   "evidence": [
-    "FINITE-POPULATION-COVER-LAWS",
-    "FINITE-POPULATION-COVER-CONTROLS",
+    "dd025239-76a8-5e59-b5e0-16a1ae9dae37",
+    "a243e1b6-e217-55aa-80ba-a5fab5fc8324",
     "PR-614"
   ]
 }

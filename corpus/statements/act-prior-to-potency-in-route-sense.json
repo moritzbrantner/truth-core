@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE",
+  "id": "197ac723-487c-5fa2-8800-4b441d322014",
+  "label": "Act is prior to POTENCY_1 in the route's sense of 'prior': whatever is in POTENCY_1 in a respect is…",
+  "legacy_id": "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE",
   "paraphrase": "OPEN analyst premise (attribution deferred): act is prior to potency in the route's sense of 'prior': whatever is in potency in a respect is posterior, in that sense, to some being in act in that respect. Read with simple priority it is STMT-ACT-SIMPLY-PRIOR-TO-POTENCY.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ActPriorInRouteSense",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-ROUTE-SENSE-SELECTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

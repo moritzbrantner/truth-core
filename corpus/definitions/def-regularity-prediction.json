@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-PREDICTION",
+  "id": "e960d08d-4964-5a0d-891b-59395e5fce13",
+  "label": "Prediction from finite data versus a…: PredictionTest contrasts arbitrary finite agreement of two…",
+  "legacy_id": "DEF-REGULARITY-PREDICTION",
   "term": "prediction from finite data versus a global law",
   "definition": "PredictionTest contrasts arbitrary finite agreement of two infinite binary sequences with their differing next values. A separately granted global constant-value law implies its instances. Logical underdetermination is not a denial of fallible or probabilistic prediction.",
   "basis": "stipulative",

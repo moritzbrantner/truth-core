@@ -1,22 +1,24 @@
 {
-  "id": "LIMIT-CLOSED-ADMISSION",
+  "id": "e891c378-7fcd-5cb0-b8f8-7db8dc136e8c",
+  "label": "The supplied point belongs to the…, from The supplied Nat-indexed sequence converges… and 2 more",
+  "legacy_id": "LIMIT-CLOSED-ADMISSION",
   "premise_statement_ids": [
-    "STMT-LIMIT-ADMISSION-CONVERGES",
-    "STMT-LIMIT-ADMISSION-CLOSED",
-    "STMT-LIMIT-ADMISSION-STAGES"
+    "70677319-b90f-56a8-95cc-3cdd465a49f6",
+    "2183260d-2ff8-5a5e-b9a1-1d20f784a5f5",
+    "4398457e-a922-59c5-998c-e888e4544027"
   ],
-  "conclusion_statement_id": "STMT-LIMIT-ADMISSION-ADMITTED",
+  "conclusion_statement_id": "ac09337a-3d20-5905-bb20-bb3f00c277d0",
   "inference_ids": [
-    "INF-LIMIT-CLOSED-ADMISSION"
+    "14796f1b-e116-52e3-a4f5-7e2f3d03bbee"
   ],
   "meaning": "Derive membership in a chosen subset from separately supplied convergence, closedness and containment. This does not establish any of these inputs for actual worlds, events or physical states.",
   "definition_ids": [
-    "DEF-LIMIT-ADMISSION-CLOSED",
-    "DEF-LIMIT-ADMISSION-PROFILE",
-    "DEF-LIMIT-ADMISSION-EVENT",
-    "DEF-LIMIT-ADMISSION-TERMINAL"
+    "e45c109e-0311-5d0e-868b-49791595a013",
+    "287f30f5-1a1c-52ad-b245-dc8de2a99e8e",
+    "e9fbdfb0-1f8a-595a-b3a8-6101cdbfbf11",
+    "708ec18d-f0e4-52a7-9351-6f86decc5206"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMIT-ADMISSION-DOMAINS"
+    "909b6e8d-ab8d-5466-8a43-5351cc339328"
   ]
 }

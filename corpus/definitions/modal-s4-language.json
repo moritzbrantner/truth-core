@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S4-LANGUAGE",
+  "id": "05b1498f-12d1-5e98-970d-1af8bf9e69f0",
+  "label": "S4 fixed-language proposition domain: Language paired consists of denotations of all formulas over…",
+  "legacy_id": "DEF-MODAL-S4-LANGUAGE",
   "term": "S4 fixed-language proposition domain",
   "definition": "language paired consists of denotations of all formulas over exactly two Bool atoms under pockets paired. It is not a finite list of currently recorded corpus statements. When paired=true the right/twin labels agree at every such formula, while all predicates still include identity predicates separating them.",
   "basis": "stipulative",

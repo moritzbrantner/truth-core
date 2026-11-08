@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-ONE", "paraphrase": "God is one: whatever is God is the same.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsOne", "definition_ids": ["DEF-ONE-GOD", "DEF-GOD-OF-CLASSICAL-THEISM"]}
+{"id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2", "label": "GOD_4 is one: whatever is GOD_4 is the same", "legacy_id": "STMT-GOD-IS-ONE", "paraphrase": "God is one: whatever is God is the same.", "lean_declaration": "TruthCore.Case.Catholicism.GodIsOne", "definition_ids": ["d980bbd2-1a96-564c-bc0d-4065d7786715", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]}

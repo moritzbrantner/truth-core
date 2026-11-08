@@ -1,5 +1,7 @@
 {
-  "id": "DEF-V4-PARTIAL-EVALUATION",
+  "id": "a2ece9ed-cf5b-5bda-abed-3dac1b3e9857",
+  "label": "PARTIAL_OBJECT_LANGUAGE_EVALUATION_3: Evaluate returns some ambient Boolean value for admitted…",
+  "legacy_id": "DEF-V4-PARTIAL-EVALUATION",
   "term": "partial object-language evaluation",
   "definition": "evaluate returns some ambient Boolean value for admitted contents and none outside the proposed object language. The ambient truth conditions belong to the comparison metalanguage; supplying them does not attribute cognitive meaningfulness of excluded metaphysics to Carnap. Act separates adopting a Framework from asserting a Content; no automatic self-scope bridge follows.",
   "basis": "stipulative",

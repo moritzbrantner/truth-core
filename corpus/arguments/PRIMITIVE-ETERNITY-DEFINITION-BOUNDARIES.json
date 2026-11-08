@@ -1,16 +1,18 @@
 {
-  "id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "id": "0a87f248-734f-58d0-aebe-65e67abcad74",
+  "label": "Finite SAME-profile controls: endless life permits successive life-states and need not be…",
+  "legacy_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-CONTROLS",
+  "conclusion_statement_id": "683ff6be-85b1-5bdf-90dc-341922bdb885",
   "inference_ids": [
-    "INF-PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES"
+    "022813b5-e191-5e1f-9b3d-ed159c94c9c5"
   ],
   "meaning": "Finite strictness, missing-recognition, overlap and remainder interpretations. The three existing typed eternity premises are jointly nonvacuous in the missing-recognition control, while the exact primitive target is false.",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

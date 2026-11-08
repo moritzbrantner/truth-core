@@ -1,7 +1,9 @@
 {
-  "id": "INF-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "id": "4c81ab0e-258e-5b08-9a6a-da8a9bcfe82f",
+  "label": "A chain with infinitely many predecessors, all active and agreeing…, by Infinite-countermodel",
+  "legacy_id": "INF-INFINITE-LOCAL-TRANSMISSION-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "output_statement_id": "83a83c56-184a-591d-82f7-89532e3fabf7",
   "rule": "infinite-countermodel",
   "meaning": "Take natural numbers with successor as immediate predecessor. Make every node active. Their local transmission conditions hold, while accessibility along the predecessor relation fails by induction on Acc. This defeats the inference from mere successor order plus local agreement to well-foundedness, not a stronger metaphysical notion of borrowed power.",
   "assumption_statement_ids": [],

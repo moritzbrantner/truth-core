@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-ROOT-CONTROL",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT-CONTROL",
+  "id": "c9a9a1fe-2543-53c4-aad2-98f461dd8c88",
+  "label": "Full25-input positive compatibility and scope…, from Excluded middle as a general principle…",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-ROOT-CONTROL",
+  "argument_id": "6a7338e3-2101-5d4e-8602-f414344191ba",
   "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRootControl.checks",

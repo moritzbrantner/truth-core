@@ -1,6 +1,8 @@
 {
-  "id": "RIVAL-REFUTATIONS-ROUND2-CONTROLS",
-  "argument_id": "RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "id": "7a63e2f1-8dce-5657-bfa9-4711d9990308",
+  "label": "Omission controls for the three refutations of rival refutations round2: for each premise of each…",
+  "legacy_id": "RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "argument_id": "50daf328-da16-5e96-8cfc-d61a538fa1aa",
   "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
   "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
   "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.controls",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
+  "id": "50d8be94-f9c1-52af-bf43-fb2751915756",
+  "label": "The supplied named fixed-assessor approval definition does not correctly describe goodness in the…",
+  "legacy_id": "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
   "paraphrase": "The supplied named fixed-assessor approval definition does not correctly describe goodness in the fixed profile. This is an open substantive failure premise and is not a refutation of expressivism as a theory of moral language.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.ApprovalAccountFails",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

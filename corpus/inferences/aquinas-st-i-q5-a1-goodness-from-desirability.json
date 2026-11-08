@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
+  "id": "c9a321ed-43e8-5069-9f67-b02eaf6b0bae",
+  "label": "A thing is GOOD_1 in a given perfection exactly when it actually…, by Biconditional-transitivity",
+  "legacy_id": "INF-AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
   "input_statement_ids": [
-    "STMT-GOOD-IS-DESIRABLE",
-    "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
-    "STMT-PERFECT-INSOFAR-AS-IN-ACT"
+    "ff35f485-9ac3-5160-b338-b1dfcdf3b0b5",
+    "060e7a1a-6c3d-5c8f-b67b-2d0a78044642",
+    "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1"
   ],
-  "output_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "output_statement_id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
   "rule": "biconditional-transitivity",
   "meaning": "For each being and perfection: good iff desirable, desirable iff perfect, perfect iff actually had; so good iff actually had.",
   "assumption_statement_ids": [],

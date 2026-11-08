@@ -1,12 +1,14 @@
 {
-  "id": "INF-PARM-DISTANCE-OBJECTION",
+  "id": "83c6c659-acbb-5d9f-9e41-91ecc6b92bee",
+  "label": "Grounding cannot universally require inherence in the advertised explanatory…, by Typed-consequence",
+  "legacy_id": "INF-PARM-DISTANCE-OBJECTION",
   "input_statement_ids": [
-    "STMT-PLATONIC-PROPERTY-INSTANCES",
-    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
-    "STMT-PARM-NONINHERENT-FORMS",
-    "STMT-PARM-EXPLANATION-GROUNDS"
+    "b11ce983-4bc9-5faa-96b8-46405fac807f",
+    "d5dfae98-bb39-54da-99ac-9f855a8edfc0",
+    "269b8098-1bd0-5759-a187-3a03001fe929",
+    "a4555f10-e183-5127-a7af-c44fcb6e8c73"
   ],
-  "output_statement_id": "STMT-PARM-NO-IMMANENCE-REQUIREMENT",
+  "output_statement_id": "9cd10f83-4e22-5216-88f1-4842829e6da7",
   "rule": "typed-consequence",
   "meaning": "Choose an F particular and its explanatory Form. Project explanation onto Ground. If every ground inhered, that pair would both inhere and not inhere. Therefore the universal immanence requirement cannot hold jointly with these explanatory commitments. This exposes the premise choice; it is not an unconditional refutation of Aristotle.",
   "assumption_statement_ids": [],

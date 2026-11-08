@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
-  "argument_id": "SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "id": "124d4e27-02d4-541e-9c61-3e5b0b4e6327",
+  "label": "In the stipulated variant of Scott's ESSENCE_2 and NE that admits only properties invariant across…",
+  "legacy_id": "SCOTT-NE-INVARIANT-FILTER-TRIVIAL",
+  "argument_id": "7a10c0db-4228-519b-a3f3-c85f933569cd",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterMakesNecessaryExistenceUniversal.checks",

@@ -1,10 +1,12 @@
 {
-  "id": "REL-CROSS-DISCOURSE-FACE-VALUE-STRENGTHENS-LOCAL",
+  "id": "b0310985-ccd2-5ba5-937a-bde5bb8cf1fa",
+  "label": "Stronger analyst profile combining local… strengthens Analyst local fragment: each selected…",
+  "legacy_id": "REL-CROSS-DISCOURSE-FACE-VALUE-STRENGTHENS-LOCAL",
   "subject_kind": "statement",
-  "subject_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "subject_id": "b917f813-5020-5506-b7cd-eac478ddff72",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
-  "verification_result_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "object_id": "5ee99eb5-5793-50a4-9bc7-b177f67f6c63",
+  "verification_result_id": "680e53e9-f724-5f97-b694-563cad0f86d8",
   "note": "Sole-premise checked projection between new analyst profiles; no old source statement is relabelled or strengthened."
 }

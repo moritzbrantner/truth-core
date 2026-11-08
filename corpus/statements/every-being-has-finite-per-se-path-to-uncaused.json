@@ -1,12 +1,14 @@
 {
-  "id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
+  "id": "99b1a274-ce1a-5019-9b0f-5cc6e70b07dc",
+  "label": "Every being reaches, by a finite chain of per se efficient-cause links, a being that has no per se…",
+  "legacy_id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
   "paraphrase": "Every being reaches, by a finite chain of per se efficient-cause links (each cause causing as caused), a being that has no per se efficient cause upstream; the chain may be empty. Unattributed: the conclusion of BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING.",
   "lean_declaration": "TruthCore.Bridges.EveryBeingHasFinitePerSePathToUncaused",
   "definition_ids": [
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
   ]
 }

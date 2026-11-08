@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ROUND6-DEFINITION-FORKS-CONTROLS",
+  "id": "05e1ea7e-9763-56c4-9656-93953d596f82",
+  "label": "Finite interpretations for the ten derivations of round 6: for each premise except excluded…",
+  "legacy_id": "STMT-ROUND6-DEFINITION-FORKS-CONTROLS",
   "paraphrase": "Finite interpretations for the ten derivations of round 6 (stage-3 definition forks): for each premise except excluded middle, a model (societies Three or Unit, beings Bool, the nine-power carrier) in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with populated antecedents (a selected Church beside an invisible spiritual community; a teaching-inclusive governing predicate with a held mandate; a God-founded envoy society and independent strands). Satisfiability and omission only; no model is claimed to describe Church history or reality.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.Control.Certificate",
   "definition_ids": [
-    "DEF-CHURCH-CRITERION-CALIBRATION",
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-INDEPENDENT-ATTESTATION"
+    "ae24d537-d95b-5b41-a7be-d43fe4ca46c4",
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "61a7a341-a027-5652-9559-54fad7e248ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-FOUNDED-BY-GOD"
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ]
 }

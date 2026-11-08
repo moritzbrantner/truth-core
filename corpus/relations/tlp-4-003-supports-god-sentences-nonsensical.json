@@ -1,9 +1,11 @@
 {
-  "id": "REL-TLP-4-003-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
+  "id": "2785357b-2e0e-5684-a354-60989a69b696",
+  "label": "Ludwig Wittgenstein… supports Open thesis, unattributed reconstruction of…",
+  "legacy_id": "REL-TLP-4-003-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-TLP-4-003-NONSENSICAL",
+  "subject_id": "0f0e55f8-b487-5eec-8580-e1a965a130f7",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "object_id": "a0747bd7-56eb-5413-b598-f9cfbbce056a",
   "note": "4.003 says most philosophical propositions are nonsensical, not that every sentence about God is; the extension to natural theology is the reconstruction's step."
 }

@@ -1,15 +1,17 @@
 {
-  "id": "RAILTON-175-WELFARE",
-  "statement_id": "STMT-RAILTON-WELFARE",
-  "source_id": "RAILTON-MORAL-REALISM",
+  "id": "c5d6423a-8385-59b4-a9f4-47841cf2a81a",
+  "label": "Peter Railton, Moral Realism Pp. 175–176…: Non-moral goodness for a person consists in satisfying…",
+  "legacy_id": "RAILTON-175-WELFARE",
+  "statement_id": "1ff346b2-9968-5cc8-8a98-c1ec70e7da50",
+  "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
   "locator": "pp. 175–176, §III: objective interests and non-moral good",
   "interpretation": "Read the displayed iff as a proposed reforming analysis. Satisfaction of an objective interest is relational to the actual person and time. It is not whatever the actual person wants and not whatever an idealized person wants for their own idealized life.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-NATURALIST-REDUCTION-BASIS"
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "f5e58217-9b11-5ead-8372-481cc8ee371f"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

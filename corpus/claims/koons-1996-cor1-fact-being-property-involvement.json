@@ -1,17 +1,19 @@
 {
-  "id": "KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
-  "statement_id": "STMT-KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
-  "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+  "id": "9d4b05a7-07c7-5e78-a0c5-7d4390b6b68c",
+  "label": "Robert C. Koons, A New Look at the…: Every fact includes at least one being and at least one…",
+  "legacy_id": "KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
+  "statement_id": "73849a4a-52a6-51e4-8868-3c227af66bc8",
+  "source_id": "63f6997a-8e9f-54a2-96c1-0ed79b9d97a4",
   "locator": "author preprint dated 18 December 1996, §7, Corollary 1, physical PDF p.9, first explanatory sentence",
   "interpretation": "This is explicitly introduced as a presumption, not independently derived from fact mereology or fixed-domain semantics. Preserve at-least-one being and a property OFTHATbeing. Fact inclusion here is not automatically fact-parthood, arbitrary set assignment, ordinary material composition or an actually existing candidate. This attribution is to the verified author preprint, not an asserted identical journal edition. No formal consequence or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

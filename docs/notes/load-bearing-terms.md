@@ -47,20 +47,20 @@ sense, its validity not).
 | 6 | DISAMB-IN-ACT | in act (formally / virtually) | 2 | 51 | 31 | yes: two uses in the prima via step must agree | **certified (batch 2)** | STMT-IN-ACT-SENSES-EXHAUSTIVE | STMT-IN-ACT-SENSE-UNIQUE |
 | 7 | DISAMB-MAXIME-ENS | maximal in being | 6 | 50 | 24 | weakest sense chosen; strength order natural | **certified (batch 3)** | STMT-MAXIME-SENSES-EXHAUSTIVE | STMT-MAXIME-SENSE-UNIQUE |
 | 8 | DISAMB-PER-SE | per se | 4 | 46 | 9 | silo (distinct predicates) | not forked: homonyms (batch 3) | — | — |
-| 9 | DISAMB-GOD | God | 6 | 42 | 29 | yes: naming premise | partial (1 relation) | no | no |
+| 9 | DISAMB-GOD | God | 6 | 42 | 29 | yes: naming premise | **certified (batch 4)** | STMT-GOD-SENSES-EXHAUSTIVE | STMT-GOD-SENSE-UNIQUE |
 | 10 | DISAMB-POTENCY | potency / capacity / power | 5 | 42 | 21 | adopted configurations fix one | **certified (batch 3)** | STMT-POTENCY-SENSES-EXHAUSTIVE | STMT-POTENCY-SENSE-UNIQUE |
 | 11 | DISAMB-RECEPTIVE-POTENCY | receptive vs unactualized potency | 2 | 40 | 19 | yes (esse reception) | not forked: distinct Lean types (batch 3) | — | — |
 | 12 | DISAMB-PRIORITY-SIMPLE-OR-IN-TIME | prior | 3 | 40 | 16 | yes: act's priority over potency | **certified (this PR)** | STMT-PRIOR-SENSES-EXHAUSTIVE | STMT-PRIOR-SENSE-UNIQUE |
-| 13 | DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER | in potency / mutable | 2 | 38 | 17 | yes: immutability | no | no | no |
-| 14 | DISAMB-MUTABILITY-CHANNEL | potency and mutability | 2 | 38 | 17 | yes: immutability | no | no | no |
+| 13 | DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER | in potency / mutable | 3 | 38 | 17 | yes: immutability | **certified (batch 4)** | STMT-MUTABILITY-SENSES-EXHAUSTIVE | STMT-MUTABILITY-SENSE-UNIQUE |
+| 14 | DISAMB-MUTABILITY-CHANNEL | potency and mutability | 2 | 38 | 17 | yes: immutability | duplicate of #13, covered there (batch 4) | — | — |
 | 15 | DISAMB-MARK-HIGH-PRIEST-EXCHANGE | reported exaltation / divine authority | 3 | 36 | 28 | yes: report vs claim | no | no | no |
 | 16 | DISAMB-MARK-FORGIVENESS-AUTHORITY | forgiveness authority | 2 | 36 | 25 | yes | no | no | no |
 | 17 | DISAMB-PHIL-CHRISTOLOGY | Philippians 2 attribution | 2 | 36 | 22 | yes | no | no | no |
 | 18 | DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH | "I am" | 2 | 36 | 22 | yes | no | no | no |
-| 19 | DISAMB-MIXED-EXISTENTIAL-PRIORITY | simple vs mixed-token priority | 5 | 36 | 15 | silo | no | no | no |
+| 19 | DISAMB-MIXED-EXISTENTIAL-PRIORITY | simple vs mixed-token priority | 5 | 36 | 15 | silo | not forked: type-distinct (batch 4) | — | — |
 | 20 | DISAMB-Q11-GOD-BEING-PERSON | God as being vs person | 2 | 35 | 26 | silo | no | no | no |
 | 21 | DISAMB-KANT-GOD-IDENTIFICATION | God in the comparison | 3 | 35 | 26 | comparison | no | no | no |
-| 22 | DISAMB-EXISTENCE-ESSE-SUPPORT | existence / esse / support | 4 | 35 | 24 | yes | no | no | no |
+| 22 | DISAMB-EXISTENCE-ESSE-SUPPORT | existence / esse / support | 4 | 35 | 24 | yes | not forked: framework interfaces (batch 4) | — | — |
 | 23 | DISAMB-MOTION | motion | 2 | 34 | 34 | broad sense chosen; physical change a species | no | no | no |
 | 24 | DISAMB-MOVED-BY-SOMETHING | moved by something / another | 3 | 34 | 30 | yes; strength order natural | no | no | no |
 | 25 | DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE | possible vs exercised causation | 3 | 34 | 24 | yes | no | no | no |
@@ -158,6 +158,18 @@ priority (Aquinas, ST I q.3 a.1, grants potency prior in time within one
 changing thing while act is simply prior). The temporal premise has a serious
 rival: Aristotle's priority of act in time in species (Θ.8), which is why the
 refutation is conditional.
+
+**Remaining definition work (owner clarification, 2026-11-08).** The fork's
+distinct `PriorSimply`, `PriorInTime` and `PriorInSubstance` relations are not
+yet a full formal account of what `PRIOR_1`, `PRIOR_2` and `PRIOR_3` mean.
+`DEF-SIMPLE-PRIORITY` and `DEF-PRIORITY-IN-SUBSTANCE` identify Lean premises
+that constrain primitive relations; `DEF-PRIORITY-IN-TIME` identifies a primitive
+field without a definitional body. Refine their semantics using further typed
+definitions where possible; explicitly record irreducible primitives and open
+interpretive properties where not. Follow recursively needed term definitions
+and disambiguations, test bridges and countermodels between these readings, and
+retain the conditional status of existing fork results. See
+[`docs/corpus-model.md`](../corpus-model.md#definition-dependencies-and-formal-meaning).
 
 ### "cause" (DISAMB-CAUSE)
 
@@ -333,3 +345,101 @@ DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER and DISAMB-MUTABILITY-CHANNEL (38 root
 args; need a typed power-in-another relation for DEF-MUTABLE-THROUGH-ANOTHER),
 DISAMB-GOD (42; naming premise), DISAMB-MIXED-EXISTENTIAL-PRIORITY (36),
 DISAMB-EXISTENCE-ESSE-SUPPORT (35).
+
+## Batch 4: "mutable", "God" and the quarta via's conclusion (#1233 B)
+
+Vocabulary `TruthCore.Causality.TermSenseForks4`, results
+`TruthCore.Results.Causality.TermSenseForks4`, spec
+`specs/term-sense-forks-4.toml`, maps `explorations/term-sense-forks-4-*.toml`,
+attempt ATTEMPT-TERM-SENSE-FORKS-4-20261108.
+
+### mutable (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER) → STMT-LIFE-BOUNDARY-REQUIRES-POTENCY
+
+The root argument IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN uses "in
+potency in some respect" twice: succession requires it, and beginning or
+ceasing to live requires it. Q.9 a.2 says a thing is mutable through potency in
+itself or through a power in another. DEF-MUTABLE-THROUGH-ANOTHER now has a
+declaration over a typed power relation `PowerOver y x r` ("y can change x in
+respect r"; not assumed irreflexive, transitive or well-founded). Coverage
+STMT-MUTABILITY-SENSES-EXHAUSTIVE, exclusivity STMT-MUTABILITY-SENSE-UNIQUE.
+
+| Sense | Definition | Lean declaration | Per-sense argument (root node) | Outcome |
+|---|---|---|---|---|
+| MUTABLE_1 in the subject | DEF-POTENCY | `MutableInSubject` (∃ r, InPotency x r) | LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY (existing) | yields |
+| MUTABLE_2 through another | DEF-MUTABLE-THROUGH-ANOTHER | `MutableThroughAnother` (new) | LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER | only through the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY |
+| MUTABLE_3 in some way | DEF-MUTABLE-IN-SOME-WAY (appended) | `MutableInSomeWay` (new) | LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY | the same bridge; the weakest boundary reading, closest to q.10 a.1 |
+
+Strength order: STMT-LIFE-BOUNDARY-REQUIRES-POTENCY and
+STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER each `strengthens`
+STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY. Controls: a dependent pure act
+(no potency in itself, in another's power) that begins to live satisfies the
+MUTABLE_2 and MUTABLE_3 boundary statements and falsifies the root node, so the
+bridge is needed; the same being breaks the joint summary
+MUTABILITY-SENSE-FORK-UNCHANGING-LIFE under the mixed reading (succession
+MUTABLE_1, boundary MUTABLE_2). DISAMB-MUTABILITY-CHANNEL lists the same two
+senses (DEF-MUTABILITY-IN-ANOTHER duplicates DEF-MUTABLE-THROUGH-ANOTHER and
+names the same declaration) and links no root-path statement; it is covered by
+this fork.
+
+### God (DISAMB-GOD) → STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE
+
+The designated root route uses "God" twice: the fully described principle is
+God, and whatever is God has the classical attributes. Coverage
+STMT-GOD-SENSES-EXHAUSTIVE, exclusivity STMT-GOD-SENSE-UNIQUE.
+
+| Sense | Definition | Lean declaration | Per-sense argument (root node) | Outcome |
+|---|---|---|---|---|
+| GOD_1 nominal | DEF-GOD-NOMINAL-Q13 | `NominalGod` (new) | NOMINAL-GOD-NAMING-IS-ANALYTIC; GOD-NAMES-DESCRIBED-FROM-NOMINAL | naming and converse analytic; the root premise is **equivalent** to the bridge STMT-NOMINAL-GOD-IS-CLASSICAL-GOD (NOMINAL-BRIDGE-FROM-GOD-NAMES), so the nominal reading adds no warrant (transcriptions, recorded as such) |
+| GOD_2 Summa | DEF-GOD-AS-NAMED-IN-THE-SUMMA | free `God` parameter of the older stage-1 routes | GOD-NAMES-DESCRIBED-FROM-SUMMA | through the reduced naming and the open bridge STMT-SUMMA-GOD-IS-CLASSICAL-GOD |
+| GOD_3 usage | DEF-GOD-WHAT-ALL-UNDERSTAND | `CalledGod` (new) | GOD-NAMES-DESCRIBED-FROM-USAGE | through the usage premise and the open bridge STMT-CALLED-GOD-IS-CLASSICAL-GOD ("but is it God?") |
+| GOD_4 classical | DEF-GOD-OF-CLASSICAL-THEISM | `Signature.IsGod` | the root premise itself | — |
+
+Summary GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES (the described principle
+has the classical attributes); the mixed reading (naming GOD_1, attributes
+GOD_4) fails. Omission controls: with the GOD_1 (analytic), GOD_2 and GOD_3
+namings all true and a described principle present, the GOD_4 root premise
+fails when the bridges are omitted.
+
+**Equivocation hazard.** `GodNamesTheFullyDescribedPrinciple` and
+`GodIsMaximalInBeing` take the God predicate as a parameter, and bind-check
+matches statements by head constant. A theorem proving them at
+`God := NominalGod` (analytic) would bind to the GOD_4 root statements. The
+GOD_1 readings are therefore separate declarations and statements; the general
+fix is #1235's sense check, or classical-specific declarations for the root
+premises.
+
+Not readings of this use: GOD_5/GOD_6 (`GodLike`, Scott and Gödel 1970), which
+are world-indexed predicates over a positivity constant. They share one
+declaration because the formula is the same; their senses differ only in the
+positivity constant (DISAMB-POSITIVE).
+
+### The quarta via's conclusion reaches the root
+
+Batch 3's connection plan is closed: CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL
+(through GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL) is the cheapest route
+CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION with its four quarta via
+premises replaced by STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (MAXIME_1). Uniqueness
+of the maximum comes from the witness's causing all being, the
+cause-is-more-such principle and excluded middle, without the genus principle.
+`frontier-diff`: cheapest route cost 30 → 28. The batch 3 per-sense layer at
+that statement now reaches the root.
+
+### Not forked
+
+* **DISAMB-MIXED-EXISTENTIAL-PRIORITY**: type-distinct. Simple priority
+  relates beings; the other senses concern a Prior on `Sum B E`, and two of
+  them are structural laws. Only simple priority reaches the root, through the
+  forked DISAMB-PRIORITY-SIMPLE-OR-IN-TIME.
+* **DISAMB-EXISTENCE-ESSE-SUPPORT**: framework interfaces of different Lean
+  types (Ontic, ExternallySupportedAt, PresentEsseSupport, UnderivedRootAt).
+  The term with two senses on the root route is "existence" (`ExistsAt` at the
+  selected world versus `InAct · esse`), and the route already passes between
+  them only through explicit bridges (STMT-EXISTING-IN-ACT-AT,
+  STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT).
+
+### Next forks
+
+"existence" (ExistsAt vs esse; needs a disambiguation with DEF-KANT-ONTOLOGICAL-MODEL
+and DEF-ESSE as senses), DISAMB-MOTION (34), DISAMB-MOVED-BY-SOMETHING (34),
+DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE (34), DISAMB-ORDER-OF-BEING (31).
+

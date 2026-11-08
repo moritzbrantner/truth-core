@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BARE-NUMERICAL-DISTINCTNESS",
+  "id": "cc4cc264-0d8f-58d9-b718-cc6684fedb7d",
+  "label": "Bare numerical distinctness of first…: There are two distinct first movers with exactly the same…",
+  "legacy_id": "DEF-BARE-NUMERICAL-DISTINCTNESS",
   "term": "bare numerical distinctness of first movers",
   "definition": "There are two distinct first movers with exactly the same real determinations: their numerical difference is primitive and grounded in no real determination.",
   "basis": "stipulative",

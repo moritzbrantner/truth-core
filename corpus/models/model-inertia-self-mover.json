@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-INERTIA-SELF-MOVER",
+  "id": "0dd2ef57-3f9a-560a-a8f1-47aa12ea5f39",
+  "label": "#497 removal model for inertial objection yields rival: the one body perseveres, is moved and…",
+  "legacy_id": "MODEL-INERTIA-SELF-MOVER",
   "description": "#497 removal model for INERTIAL-OBJECTION-YIELDS-RIVAL (the inherent force read as a self-mover): the one body perseveres, is moved and moves itself. No self-motion fails; the bundle and the mover premise hold; the inertial rival fails.",
   "vocabulary": "INERTIA",
   "lean_declaration": "TruthCore.Models.Inertia.SelfMover.model",
@@ -32,7 +34,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
+      "statement_id": "a806ec53-602d-5154-a63d-5691113884fe",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -44,7 +46,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation0"
     },
     {
-      "statement_id": "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
+      "statement_id": "6f50f5d0-d004-562c-b182-ccd0547382ad",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -55,7 +57,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation1"
     },
     {
-      "statement_id": "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
+      "statement_id": "7218e9df-a86f-5ee6-98be-af4e9304539d",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -68,7 +70,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation2"
     },
     {
-      "statement_id": "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
+      "statement_id": "58a395a1-94f1-5c38-9c1e-c308c80ad3f7",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -80,7 +82,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation3"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+      "statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
       "value": "violates",
       "arguments": [
         "Being",
@@ -91,7 +93,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation4"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "statement_id": "4a952b96-be5f-5493-8277-985248151d01",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -102,7 +104,7 @@
       "theorem": "TruthCore.Models.Inertia.SelfMover.evaluation5"
     },
     {
-      "statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+      "statement_id": "e97ade2e-b3a3-538e-95b1-131e3b7f4961",
       "value": "violates",
       "arguments": [
         "Being",

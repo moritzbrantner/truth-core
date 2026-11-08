@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-FAVOURING-FRAME",
+  "id": "f2772e30-1d85-5063-8f4d-96fbd97a10a8",
+  "label": "Favouring frame: An arena with one parameter: favours w r f g, read that at w the fact r counts in…",
+  "legacy_id": "DEF-EXPLANATORY-FAVOURING-FRAME",
   "term": "favouring frame",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Frame",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DISQUOTATION",
+  "id": "b8539dd9-4b72-52b0-b24d-b8ee0c226bee",
+  "label": "Disquotation for one content: Disquotes truth p says: if content p is true, the proposition it…",
+  "legacy_id": "DEF-DISQUOTATION",
   "term": "disquotation for one content",
   "definition": "`Disquotes truth p says`: if content p is true, the proposition it says holds. One direction of the truth schema, for one content.",
   "basis": "stipulative",

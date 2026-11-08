@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202B-SHARED-DIFFERENT-ACCOUNT-A",
-  "statement_id": "STMT-SHARED-ACTUALITY-DIFFERENT-ACCOUNT",
-  "source_id": "ARIST-PHYS",
+  "id": "9cb69150-6214-5d6d-9d99-ef2ad79d50af",
+  "label": "Aristotle, Physics III.3, 202b5-10: The agent and patient may share one underlying actuality while…",
+  "legacy_id": "ARIST-PHYS-202B-SHARED-DIFFERENT-ACCOUNT-A",
+  "statement_id": "052d88c9-1c1c-5d6c-8a15-6f3d9008fd74",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202b5-10",
   "interpretation": "Qualified identity reading: the agent and patient can share a single actualization without their activities being the same in account. This preserves Aristotle's answer to the objection that sameness of actuality would collapse agent and patient roles.",
   "status": "formalized"

@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-SELF-APPLICATION-SCOPES",
+  "id": "1d239c76-1a46-5638-a3bc-83a03d25c298",
+  "label": "In the existing universal selfC model, H, C and ◇¬H hold at false but C does not…, by Direct-proof",
+  "legacy_id": "INF-HUME-SELF-APPLICATION-SCOPES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-SELF-APPLICATION-SCOPES",
+  "output_statement_id": "0f82f196-c7bd-5d60-b2dd-2c69ea9815b0",
   "rule": "direct-proof",
   "meaning": "Project the existing selfC consistency witness and self-application law; inspect necessary denial at the actual world. Construct the one-step model, where the accessible dead end has H by empty conception and □¬H vacuously.",
   "assumption_statement_ids": [],

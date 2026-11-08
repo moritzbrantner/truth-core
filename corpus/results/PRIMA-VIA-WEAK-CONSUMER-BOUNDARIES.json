@@ -1,6 +1,8 @@
 {
-  "id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
-  "argument_id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "id": "61bcbca2-1cb0-558f-9dcc-ff3f5c31e58d",
+  "label": "Five typed boundaries in the original independent-potency…, via weak consumer boundaries",
+  "legacy_id": "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
+  "argument_id": "bfb93355-9ec8-565b-9a77-6366fa0b7c91",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.Boundary.weakConsumerBoundaries",

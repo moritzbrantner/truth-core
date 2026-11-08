@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
-  "argument_id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "id": "fdb1ee3f-e332-5041-b60d-638a999dbd2e",
+  "label": "One universally accessible two-world, two-individual model has a Boolean-generated fragment…",
+  "legacy_id": "SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "argument_id": "926ab700-a7be-5bc0-b17b-c7b3eb017420",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentNontrivialModel.checks",

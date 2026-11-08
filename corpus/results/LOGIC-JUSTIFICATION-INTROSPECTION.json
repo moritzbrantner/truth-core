@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-JUSTIFICATION-INTROSPECTION",
-  "argument_id": "LOGIC-JUSTIFICATION-INTROSPECTION",
+  "id": "901bfc2f-eafd-5200-b002-38426075383e",
+  "label": "In the stipulated relational epistemic profile, transitivity and a global…",
+  "legacy_id": "LOGIC-JUSTIFICATION-INTROSPECTION",
+  "argument_id": "9aaebe1d-e5de-5eec-9def-c2bebaab4f25",
   "challenge_module": "TruthCore.Results.Logic.JustificationIntrospection.Challenge",
   "solution_module": "TruthCore.Results.Logic.JustificationIntrospection.Solution",
   "theorem": "TruthCore.Results.Logic.JustificationIntrospection.introspectionBoundary",

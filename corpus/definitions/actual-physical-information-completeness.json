@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-PHYSICAL-INFORMATION-COMPLETENESS",
+  "id": "497142e6-35f5-5127-87b6-05563a53bf3b",
+  "label": "Actual complete physical information: The substantive adequacy claim that the chosen physical…",
+  "legacy_id": "DEF-ACTUAL-PHYSICAL-INFORMATION-COMPLETENESS",
   "term": "actual complete physical information",
   "definition": "The substantive adequacy claim that the chosen physical projection captures the complete physical condition relevant to the actual subject and question. Quantifying over every predicate of an arbitrary projection does not establish that adequacy claim.",
   "basis": "stipulative",

@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-PLURAL-ROOT-CONFLUENCE",
+  "id": "482a40b9-4408-5b3d-a039-eccd3047127f",
+  "label": "Reuse inventory consumed exact SourceForest/SourceWitness theorems and unchanged…",
+  "legacy_id": "ATTEMPT-PLURAL-ROOT-CONFLUENCE",
   "date": "2026-10-29",
   "statement_ids": [
-    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
-    "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
-    "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
-    "STMT-PLURAL-ROOT-CONFLUENCE-CONTROL"
+    "1a575754-6316-5d66-ac5b-db8fb4cf1aef",
+    "96082032-91f1-586b-9db8-e42edbb5e52e",
+    "e1d114a4-abc0-5649-b453-568a939da431",
+    "c91db136-3b14-53d9-9f61-b4bba9a57ac9"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Reuse inventory consumed exact SourceForest/SourceWitness theorems and unchanged PartFreePlurality.jointControl. The literal actualGraph of that ontology is definitionally its actualSupportGraph: both retain prior, not a replacement relation. It is weakly connected and WF with distinct actual rank-zero sources jointly causing instrument, whose upstream extensions cannot join. Imported rooted_from_source would identify these sources if confluence held, so confluence fails while its other inputs hold. The full existing joint commitment bundle is retained. Existing isolated, diamond and literal overlap controls supply disjoint/common-source/infinite-branch contrasts without claiming they share every extra metaphysical premise. Proposed unity-to-common-ground defense remains an unattributed open commitment; a common downstream effect or q3a7 uniting cause does not supply upstream merger. Strongest pluralist reply and outstanding individuation, semantic and explanatory burdens are in docs/notes/part-free-plurality.md. Rejected inferring confluence from cooperation, necessity, part-freedom, WF or intrinsic explanation tokens, and rejected treating finite satisfiability as real possibility. No root premise added/removed/discharged. Shared-session combined proof v2 accepted at clean preview db603d3140e92c4b1ca653ab2098a0189a70653f with SHA2563822e5179b3493f75be5df2ad244e2507745a8b3a58b7e3d9c925b333282e5e5; permitted Mathlib axioms only. First client timeout and explicit-binder correction preserved in the note. Final canonical verification remains CI-owned.",
   "evidence": [
-    "PLURAL-ROOT-CONFLUENCE-CONTROL",
-    "PART-FREE-PLURALITY-JOINT-CONTROL",
-    "SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE",
-    "SOURCE-FOREST-CONFLUENCE-STRICTNESS",
-    "CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "3f074065-19d2-588c-9ff5-5c919376f5b6",
+    "a5b44455-66e5-5bef-9784-e37472a39324",
+    "8ac4f805-9c10-521d-a4a8-7e7a5ed8b51d",
+    "d25f68a3-a9f7-547e-81f1-964da24856e0",
+    "b06d45ee-a1da-5ce4-84be-4f2a8009ab07"
   ]
 }

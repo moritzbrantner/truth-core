@@ -1,7 +1,8 @@
 {
-  "id": "MODAL-FORK-S4",
+  "id": "b8ff870f-ce10-59eb-841f-8dbba23ba7d6",
   "label": "NECESSARY_2 in S4 for the root, from the T and 4 schemas by correspondence",
-  "argument_id": "MODAL-FORK-S4",
+  "legacy_id": "MODAL-FORK-S4",
+  "argument_id": "4fedd18c-3b08-5e48-a59d-0547219d5f16",
   "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
   "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
   "theorem": "TruthCore.Results.Causality.ModalSenseSupport.forkS4",

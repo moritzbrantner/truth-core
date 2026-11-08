@@ -1,18 +1,20 @@
 {
-  "id": "STMT-SCOTT-A5-INDEPENDENCE",
+  "id": "5668bf51-9e32-54dc-9a34-3eab079672de",
+  "label": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4 and makes a…",
+  "legacy_id": "STMT-SCOTT-A5-INDEPENDENCE",
   "paraphrase": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4 and makes a God-like being possible, yet falsifies A5 (positivity of necessary existence) and T3 (necessary God-like existence). Hence A5 and T3 are not consequences of those remaining axioms, even on an S5 frame. This proves independence inside the AFP embedding, not whether A5 is metaphysically true.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistencePositivityIndependent",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-MODAL-S5-FRAME",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "b15f67c1-a524-5226-87c2-a3f78aff47a9",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

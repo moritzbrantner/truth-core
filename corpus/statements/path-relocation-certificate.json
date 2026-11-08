@@ -1,20 +1,22 @@
 {
-  "id": "STMT-PATH-RELOCATION-CERTIFICATE",
+  "id": "08dc45f8-4205-5313-8297-06abdffbc954",
+  "label": "For all types: a time reindexing preserving a condition on complete paths fixes that condition's…",
+  "legacy_id": "STMT-PATH-RELOCATION-CERTIFICATE",
   "paraphrase": "For all types: a time reindexing preserving a condition on complete paths fixes that condition's unique solution. On Int time, a shift-invariant condition, local or global, cannot have a unique solution that changes value; an autonomous local law is one such condition, a law periodic in time passes each period to its unique solution, and the #738 global law with its unique solution is an instance. For a changing solution of a shift-invariant condition, any admitted reason vector agreeing with the path's one-step re-dating does not determine the supplied history and admits no evidence-only selector, so determination forces an admitted reason that varies under that re-dating. World-invariant reason truth determines the history exactly when the condition has no other solution. Dated transition tokens agree exactly when histories do, so they determine the history and every evidence-only selector is coextensive with sameness of history. Every dated path is the unique solution of its own time-indexed copy law, and these laws are equal exactly when the paths are. Every injective path is selected up to dating by its own undated graph law, and two injective paths have equal graph laws exactly when they agree up to dating. A functional undated law excludes any path revisiting a state with different successors. On a finite window a total functional law's solutions are in bijection with start states. Two solutions of one law sharing a state at a time splice into a solution. Dated occurrences of one path have no cycle and each has a predecessor. These are conditional mathematical constraints, not explanatory adequacy, law actuality, metaphysical possibility or the existence of a necessary being.",
   "lean_declaration": "TruthCore.Explanation.PathRelocation.Certificate",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-PROFILE",
-    "DEF-PATH-RELOCATION-LAW",
-    "DEF-PATH-RELOCATION-DATING",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-HISTORY-SELECTION-CONTROLS",
-    "DEF-UNIQUE-FEEDBACK-STATE"
+    "1a7f4fe0-84e9-500d-886e-78f63b27422a",
+    "6788dada-f316-5cc3-8376-e64c512b1a0e",
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+    "23c649fa-6acc-5816-954b-5de851e007c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
-  "argument_id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "id": "7081ac39-bc97-5ada-b9e4-5eabf0439ce0",
+  "label": "Given explicit EM, an actual contingent fact, WF of the supplied fact relation, actual members…",
+  "legacy_id": "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "argument_id": "b89e6c3e-5cda-5194-8641-4704986c2285",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.contingentTerminusMap",

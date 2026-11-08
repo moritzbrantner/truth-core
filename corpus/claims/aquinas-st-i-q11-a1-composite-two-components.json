@@ -1,12 +1,14 @@
 {
-  "id": "AQUINAS-ST-I-Q11-A1-COMPOSITE-PARTS-A",
-  "statement_id": "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-  "source_id": "AQUINAS-ST",
+  "id": "4b7a9152-a55c-51df-b7b6-8be9a1c82698",
+  "label": "Thomas Aquinas, Summa theologiae I q.11 a.1…: Every composite has at least two numerically…",
+  "legacy_id": "AQUINAS-ST-I-Q11-A1-COMPOSITE-PARTS-A",
+  "statement_id": "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.11 a.1 co.: Quod autem est compositum, non habet esse quandiu partes eius sunt divisae",
   "interpretation": "A composite has parts (partes eius, plural) that can be divided from one another and that constitute and compose it. Read as: every composite has at least two numerically distinct components. Only the plurality of components is formalized; the claim that the composite has no being while they are divided is not formalized here; the unattributed STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING goes beyond it. The sentence covers every composite (omne ens aut est simplex, aut compositum), so partes is read with the components of every kind of composition (DEF-COMPOSITION-COMPONENT), not only quantitative parts.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-SIMPLE"
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
   ]
 }

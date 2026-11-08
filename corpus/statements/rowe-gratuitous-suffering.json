@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ROWE-GRATUITOUS-SUFFERING",
+  "id": "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+  "label": "Some occurring intense suffering could be prevented by any omniscient omnipotent being without…",
+  "legacy_id": "STMT-ROWE-GRATUITOUS-SUFFERING",
   "paraphrase": "Some occurring intense suffering could be prevented by any omniscient omnipotent being without unavoidable loss of an unreplaceable greater good or permission of equal or worse evil. This is Rowe’s simplified factual premise, not proved from its apparent pointlessness.",
   "lean_declaration": "TruthCore.English.Rowe.GratuitousSufferingReading",
   "definition_ids": [
-    "DEF-ROWE-NARROW-THEISM",
-    "DEF-ROWE-BLOCKING-COST",
-    "DEF-ROWE-GRATUITOUS-SUFFERING",
-    "DEF-ROWE-APPARENT-POINTLESSNESS",
-    "DEF-ROWE-INTENSE-SUFFERING"
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed"
   ],
   "disambiguation_ids": [
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
   ]
 }

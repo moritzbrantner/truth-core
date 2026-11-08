@@ -1,7 +1,9 @@
 {
-  "id": "INF-MEINONGIAN-ACTUALITY-CONTROLS",
+  "id": "d6266a1a-1e36-5025-84df-d6839854ad19",
+  "label": "The golden mountain model: one being in act in a further respect but not in…, by Explicit finite…",
+  "legacy_id": "INF-MEINONGIAN-ACTUALITY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MEINONGIAN-ACTUALITY-CONTROLS",
+  "output_statement_id": "3eca738f-2066-58d1-a1f9-52350f4af791",
   "rule": "Explicit finite interpretations",
   "meaning": "The golden mountain model: one being in act in a further respect but not in being. With q.5 a.1 and without q.4 a.2, or with q.4 a.2 and without q.5 a.1, the Meinongian rival holds; each refutation premise is needed.",
   "assumption_statement_ids": [],

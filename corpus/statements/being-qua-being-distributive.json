@@ -1,5 +1,7 @@
 {
-  "id": "STMT-BEING-QUA-BEING-DISTRIBUTIVE",
+  "id": "7bdaea11-832a-5977-a534-77d3ab175f96",
+  "label": "One inquiry covers every being as being and what belongs to each in its own right",
+  "legacy_id": "STMT-BEING-QUA-BEING-DISTRIBUTIVE",
   "paraphrase": "One inquiry covers every being as being and what belongs to each in its own right.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingQuaBeingInquiryDistributiveReading"
 }

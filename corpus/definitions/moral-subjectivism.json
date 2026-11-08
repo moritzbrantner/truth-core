@@ -1,9 +1,11 @@
 {
-  "id": "DEF-MORAL-SUBJECTIVISM",
+  "id": "299e0a83-bef3-5ded-b153-6e65c29b4875",
+  "label": "MORAL_SUBJECTIVISM_3: The view O'Connor states in 2016: what is morally right or wrong depends on…",
+  "legacy_id": "DEF-MORAL-SUBJECTIVISM",
   "term": "moral subjectivism (O'Connor 2016)",
   "definition": "The view O'Connor states in 2016 ('morals are entirely subjective'): what is morally right or wrong depends on subjects' attitudes. Unlike emotivism it does not deny moral statements a truth value. Only its consequence that there are no objective moral truths is formalized (STMT-NO-OBJECTIVE-MORAL-TRUTHS).",
   "basis": "sourced",
   "claim_ids": [
-    "OCONNOR-TUREK-EVIL-NO-OBJECTIVE-MORAL-TRUTHS"
+    "33279342-1fb8-5de0-81d3-62740fb76ee9"
   ]
 }

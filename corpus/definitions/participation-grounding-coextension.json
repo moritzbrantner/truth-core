@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-COEXTENSION",
+  "id": "d6064caf-8539-55af-84b5-fcd1161d043b",
+  "label": "CLASSIFICATION_1: For admitted q, its Form f and particular x, Exemplifies x q iff Participates x f",
+  "legacy_id": "DEF-PARTICIPATION-COEXTENSION",
   "term": "classification",
   "definition": "For admitted q, its Form f and particular x, Exemplifies x q iff Participates x f. This is coextension of classifications, with neither explanatory direction encoded.",
   "basis": "stipulative",

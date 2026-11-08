@@ -1,12 +1,14 @@
 {
-  "id": "STMT-INTELLECTUAL-EXERCISE-TOKENED",
+  "id": "3489bd0c-51ce-5644-936f-529fa878f11a",
+  "label": "Each intellectual exercise attributed to the designated principle has an occurrence of the frame's…",
+  "legacy_id": "STMT-INTELLECTUAL-EXERCISE-TOKENED",
   "paraphrase": "Each intellectual exercise attributed to the designated principle has an occurrence of the frame's target mental kind as a token. An open, unattributed bridge between the q.75 operation vocabulary and the occurrence vocabulary.",
   "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.ExerciseTokened",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING"
+    "05392ecb-bde5-5fff-8c64-ab61c20bc96a"
   ]
 }

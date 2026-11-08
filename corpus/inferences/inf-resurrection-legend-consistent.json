@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-LEGEND-CONSISTENT",
+  "id": "fb854825-ba17-5ecb-a79e-ea881c7d5a2e",
+  "label": "The limited Legend pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-LEGEND-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-LEGEND-CONSISTENT",
+  "output_statement_id": "a22773b4-bffc-5b43-b4a8-fd5b5f5ca537",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

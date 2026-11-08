@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-KNOWLEDGE-ASSERTION",
+  "id": "a6cf878e-b5a8-5ae3-9197-9995cfae5138",
+  "label": "Knowledge, assertion, and universal scepticism",
+  "legacy_id": "DISAMB-KNOWLEDGE-ASSERTION",
   "term": "knowledge, assertion, and universal scepticism",
   "sense_definition_ids": [
-    "DEF-FACTIVE-KNOWLEDGE",
-    "DEF-KNOWLEDGE-ASSERTION-CONTROL",
-    "DEF-UNIVERSAL-NO-KNOWLEDGE"
+    "5e65094d-ea93-5028-869b-f6c1a61a08cb",
+    "c79fed68-b013-5466-acfa-c802b7fbbf41",
+    "56cbd3f4-4d7b-51da-8eac-5efac7daac73"
   ],
-  "resolution": "Knowing p is factive only in the explicitly selected profile. Merely asserting p is separate and does not entail knowledge or truth. The theorem excludes knowing that no proposition is known; it does not exclude the consistent theory that nobody knows anything, nor infer an actual knower or experiential change."
+  "resolution": "Knowing p is factive only in the explicitly selected profile. Merely asserting p is separate and does not entail knowledge or truth. The theorem excludes knowing that no proposition is known; it does not exclude the consistent theory that nobody knows anything, nor infer an actual knower or experiential change.",
+  "term_label": "KNOWLEDGE_ASSERTION_AND_UNIVERSAL_SCEPTICISM",
+  "senses": [
+    {
+      "id": "95f255dc-0d31-41d0-9773-3c57604b4e69",
+      "label": "KNOWLEDGE_ASSERTION_AND_UNIVERSAL_SCEPTICISM_1",
+      "definition_id": "5e65094d-ea93-5028-869b-f6c1a61a08cb",
+      "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.FactiveKnowledge"
+    },
+    {
+      "id": "b4c0a556-9fda-4f88-a3e6-f95d76ee5149",
+      "label": "KNOWLEDGE_ASSERTION_AND_UNIVERSAL_SCEPTICISM_2",
+      "definition_id": "c79fed68-b013-5466-acfa-c802b7fbbf41",
+      "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.AssertedNoKnowledgeModel"
+    },
+    {
+      "id": "c3b758df-3a96-40d0-b9af-66fe395409d6",
+      "label": "KNOWLEDGE_ASSERTION_AND_UNIVERSAL_SCEPTICISM_3",
+      "definition_id": "56cbd3f4-4d7b-51da-8eac-5efac7daac73",
+      "lean_declaration": "TruthCore.Logic.KnowledgeRetorsion.UniversalNoKnowledge"
+    }
+  ]
 }

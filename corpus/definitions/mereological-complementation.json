@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEREOLOGICAL-COMPLEMENTATION",
+  "id": "700326c9-b157-5670-8ed5-9b4044581d41",
+  "label": "EXACT_MEREOLOGICAL_REMAINDER_1: Complementation B requires, for x,y with y not part of x, a z whose…",
+  "legacy_id": "DEF-MEREOLOGICAL-COMPLEMENTATION",
   "term": "exact mereological remainder",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.Complementation",
   "basis": "stipulative",

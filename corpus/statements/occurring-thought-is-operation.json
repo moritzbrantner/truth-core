@@ -1,9 +1,11 @@
 {
-  "id": "STMT-OCCURRING-THOUGHT-IS-OPERATION",
+  "id": "17667565-81e2-55d7-a269-a569f2449caf",
+  "label": "Every occurring thought episode is an operation",
+  "legacy_id": "STMT-OCCURRING-THOUGHT-IS-OPERATION",
   "paraphrase": "OPEN analyst premise: every occurring thought episode is an operation (an activity someone does, not a mere happening).",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtIsOperation",
   "definition_ids": [
-    "DEF-OPERATING-AGENT",
-    "DEF-THOUGHT-OCCURRENCE"
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ]
 }

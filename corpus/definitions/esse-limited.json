@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ESSE-LIMITED",
+  "id": "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+  "label": "LIMITED_ESSE_1: EsseLimited x: the act of being of x is limited, finite in formal perfection, in…",
+  "legacy_id": "DEF-ESSE-LIMITED",
   "term": "limited esse (EsseLimited x)",
   "definition": "EsseLimited x: the act of being (esse) of x is limited, finite in formal perfection, in the way ST I q.7 a.1 says form received in matter has its amplitude contracted and q.7 a.2 says a created subsistent form's esse is contracted to a determinate nature. In Lean EsseLimited is a parameter; its content is fixed only by STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION and STMT-UNLIMITED-ESSE-IS-INFINITE. It is not quantitative finitude and not the represented RootMultiplication.HasLimitingPrinciple disjunction.",
   "basis": "stipulative",

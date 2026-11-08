@@ -1,7 +1,9 @@
 {
-  "id": "INF-ESSENTIAL-POWER-UNDERDETERMINED",
+  "id": "42e38a19-b935-5520-9cf1-37382b607a61",
+  "label": "An endless predecessor chain satisfies a local…, by Infinite-fixed-points-and-int…",
+  "legacy_id": "INF-ESSENTIAL-POWER-UNDERDETERMINED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+  "output_statement_id": "e3c7893f-7947-544e-a702-fb71ba34d2c4",
   "rule": "infinite-fixed-points-and-intervention-model",
   "meaning": "The successor relation is not well-founded. All-true and all-false activity assignments both solve the local upstream-transmission equation. For each index cut, activity strictly above that index (and only there) solves the cut equation, proving an explicit locally indispensable link while leaving global power underdetermined.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
-  "argument_id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "id": "0f141e08-4ff8-5fe5-b8b1-6d5b82913fab",
+  "label": "If the entire actual CONCRETE_6 roster at w is nonempty, that…, from maximal target asymmetry",
+  "legacy_id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "argument_id": "dbf76ba6-3336-5c45-89f1-545cbf707436",
   "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.Solution",
   "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.WholeRoster.wholeRoster",

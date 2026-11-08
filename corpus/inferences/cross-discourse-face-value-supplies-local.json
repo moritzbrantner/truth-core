@@ -1,9 +1,11 @@
 {
-  "id": "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
+  "id": "24e91705-ac95-5dd4-a79b-a2f9c9a5cd9c",
+  "label": "Analyst local fragment: each selected religious sentence has its apparent…, by Constructive-proof",
+  "legacy_id": "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-LOCAL",
   "input_statement_ids": [
-    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "b917f813-5020-5506-b7cd-eac478ddff72"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+  "output_statement_id": "5ee99eb5-5793-50a4-9bc7-b177f67f6c63",
   "rule": "constructive-proof",
   "meaning": "Project local status from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
   "assumption_statement_ids": [],

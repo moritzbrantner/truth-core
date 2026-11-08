@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-PURITY-CONTROLS",
-  "argument_id": "ROOT-PURITY-CONTROLS",
+  "id": "e58c6980-912a-582d-8237-7549bfed8e69",
+  "label": "Finite one-world interpretations; excluded middle is not asserted",
+  "legacy_id": "ROOT-PURITY-CONTROLS",
+  "argument_id": "0127dce6-9839-564f-bd2f-84ab576c64b1",
   "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
   "theorem": "TruthCore.Results.Causality.RootPurity.controls",

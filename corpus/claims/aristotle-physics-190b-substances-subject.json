@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190B-SUBSTANCES-SUBJECT-A",
-  "statement_id": "STMT-SUBSTANCES-COME-TO-BE-FROM-UNDERLYING-SUBJECT",
-  "source_id": "ARIST-PHYS",
+  "id": "366e2d57-07e9-5dd7-ba7f-81bdd5411309",
+  "label": "Aristotle, Physics I.7, 190b5-10: Substances and other things that come to be without…",
+  "legacy_id": "ARIST-PHYS-190B-SUBSTANCES-SUBJECT-A",
+  "statement_id": "d074043e-0927-521f-8a9b-db834b5690f5",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190b5-10",
   "interpretation": "Aristotle extends the substratum analysis to unqualified substantial becoming, using generation from seed as evidence. This does not claim that the seed persists unchanged in the product.",
   "status": "formalized"

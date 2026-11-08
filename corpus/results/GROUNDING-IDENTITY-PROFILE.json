@@ -1,6 +1,8 @@
 {
-  "id": "GROUNDING-IDENTITY-PROFILE",
-  "argument_id": "GROUNDING-IDENTITY-PROFILE",
+  "id": "93f096f6-2556-5bc0-8f70-6bf870b922ac",
+  "label": "For every source LocalState satisfying the exact existing population, grounding well-foundedness\u2026",
+  "legacy_id": "GROUNDING-IDENTITY-PROFILE",
+  "argument_id": "1c550492-408d-5b04-bd03-5fc7257426d9",
   "challenge_module": "TruthCore.Results.Causality.GroundingIdentityProfile.Challenge",
   "solution_module": "TruthCore.Results.Causality.GroundingIdentityProfile.Solution",
   "theorem": "TruthCore.Results.Causality.GroundingIdentityProfile.certificate",

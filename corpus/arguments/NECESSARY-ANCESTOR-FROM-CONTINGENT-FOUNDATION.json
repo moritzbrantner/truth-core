@@ -1,44 +1,46 @@
 {
-  "id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "id": "f494d1b9-5b0d-588a-a527-1b3f82fe767a",
+  "label": "One member of the selected complete actual-concrete grounding cone…, from contingent foundation",
+  "legacy_id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
   "premise_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-CONTINGENT-CONE-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1ee7338d-66aa-5ce2-83cb-b5173730ee38",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-SELECTED-ANCESTOR",
+  "conclusion_statement_id": "82e119f5-9602-5a1d-b334-f88161d7a1b5",
   "inference_ids": [
-    "INF-NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION"
+    "6a6904f1-60eb-5703-883e-7002775d220e"
   ],
   "meaning": "Reuse ExplanatoryAdequacy.forced on tagged positive existence facts in the complete concrete ancestry. If no necessary ancestor existed, explicit excluded middle would make every account member contingent; local actual grounding gives each contingent member an in-account contingent reason, contradicting founded contingent descent. The resulting actual concrete necessary witness need not be a root. No non-copy, necessitation, reason-token realization, necessary population or full-cone WF premise is added.",
   "definition_ids": [
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-GROUND-EXISTENCE-FACT-ARENA",
-    "DEF-CONTINGENT-CONE-FOUNDED",
-    "DEF-NECESSARY-SELECTED-ANCESTOR",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-EXISTENCE-FACT"
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "c22c060d-2826-576c-9fc6-4da6bc45e217",
+    "f510a8ce-8a36-54c8-991c-f4b90c13eeb9",
+    "28a560a8-e683-598a-b775-69570c315a21",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-SELECTED-FOUNDATION-CONTINGENT-SCOPE",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-SELECTED-ANCESTOR-NECESSITY-ROOTNESS"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "09a5b009-3548-5a02-80b6-9eafc755a10e",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "c54dd7d9-7674-5637-8a19-d7e9ab741c25"
   ]
 }

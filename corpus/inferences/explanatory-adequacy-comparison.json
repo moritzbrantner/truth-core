@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXPLANATORY-ADEQUACY-COMPARISON",
+  "id": "b317b8a4-3bbe-52ef-a481-5c3af95a2523",
+  "label": "On one shared signature and target, by Model-construction",
+  "legacy_id": "INF-EXPLANATORY-ADEQUACY-COMPARISON",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXPLANATORY-ADEQUACY-COMPARISON",
+  "output_statement_id": "96adb4ac-c02a-5427-82fa-e335769f0039",
   "rule": "model-construction",
   "meaning": "Compute the verdict of each candidate standard on each shared rival, prove the token expansion and projection generally, and consume the #735 Supply and least-node facts.",
   "assumption_statement_ids": [],

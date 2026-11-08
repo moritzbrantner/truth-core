@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK",
+  "id": "faac2bf8-6440-53df-bf86-c3ca7def5383",
+  "label": "Blackburn proposes to explain the conceptual requirement of respecting moral supervenience from…",
+  "legacy_id": "STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK",
   "paraphrase": "Blackburn proposes to explain the conceptual requirement of respecting moral supervenience from the purposes of moral talk. The Lean reading records this positive explanatory edge only: it neither excludes every other explanation nor supplies a metaphysical truthmaker.",
   "lean_declaration": "TruthCore.English.VanRoojen.SupervenienceExplainedByPurposesReading",
   "definition_ids": [
-    "DEF-SUPERVENIENCE-COMPETENCE"
+    "34408202-b4c3-5d8c-856e-2e2ad4397988"
   ]
 }

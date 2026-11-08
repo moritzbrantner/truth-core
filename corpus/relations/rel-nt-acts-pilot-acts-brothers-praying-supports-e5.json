@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING-SUPPORTS-E5",
+  "id": "c5e13618-1799-5a26-9bb5-6fcf2a46b0cc",
+  "label": "New Testament, Acts 1.13-14: Acts places… supports The James proposed as Jesus’s brother…",
+  "legacy_id": "REL-NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING-SUPPORTS-E5",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING",
+  "subject_id": "7b9256cc-3a81-54da-98a8-b6d475b684f4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E5"
+  "object_id": "13679582-3a52-5a81-ad0c-dba8b159a8d7"
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPART-UNIQUE",
+  "id": "b8f0975b-711d-543c-b77a-f425d0a0e699",
+  "label": "Unique in issue #470: For fixed source-world, source-bearer and target-world, any two existing\u2026",
+  "legacy_id": "DEF-COUNTERPART-UNIQUE",
   "term": "Unique in issue #470",
   "definition": "For fixed source-world, source-bearer and target-world, any two existing linked targets are equal. No existence or totality is asserted.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
+  "id": "de2546d4-1f6c-5ca0-acab-20ee8957d601",
+  "label": "If something is subsequent to the first, it derives from that first either immediately or by…",
+  "legacy_id": "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
   "paraphrase": "If something is subsequent to the first, it derives from that first either immediately or by reduction through intermediaries.",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-CONSTITUTIVE-NEED"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "73a48634-a991-54ae-9b33-f74a672d62b6"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

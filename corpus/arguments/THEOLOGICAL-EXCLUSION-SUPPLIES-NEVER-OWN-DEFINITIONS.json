@@ -1,21 +1,23 @@
 {
-  "id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "id": "3741b5e0-540f-53b6-8b50-21f241d10cc0",
+  "label": "Every defined move lacks endorsement…, from Modest analyst content proposition: every… and 1 more",
+  "legacy_id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
   "premise_statement_ids": [
-    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
-    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS"
+    "9a438367-e1cc-511d-befc-c657f184bbbe",
+    "d799b4ff-5c08-559d-a99b-93b878e75f7f"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
+  "conclusion_statement_id": "717b0a61-29ac-585c-8174-2efb862bbccd",
   "inference_ids": [
-    "INF-THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS"
+    "7e5a3043-051f-5eb2-a6ae-6e88378709f1"
   ],
   "meaning": "Apply the explicit exclusion to the theological content of each defined move. Single-application transcription of the open exclusion; the descriptive content premise alone does not supply it.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

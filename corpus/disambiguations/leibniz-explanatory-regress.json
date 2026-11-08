@@ -1,13 +1,50 @@
 {
-  "id": "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS",
+  "id": "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825",
+  "label": "Reason, explanation, warrant and regress",
+  "legacy_id": "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS",
   "term": "reason, explanation, warrant and regress",
   "sense_definition_ids": [
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND",
-    "DEF-LEIBNIZ-ANALYTIC-TERMINUS",
-    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
-    "DEF-KANT-SUFFICIENT-REASON",
-    "DEF-LOCAL-TRANSMISSION",
-    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+    "f742be24-23e4-580e-b670-b509534745c2",
+    "b186b7ea-705b-5a2b-906c-57b9064d14aa",
+    "61b2ea45-ab9d-537f-b43f-b9208c15a362",
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738",
+    "5214c7ea-0683-53b8-b37b-178d5136d20c",
+    "38955650-58d2-5bfc-a6ec-6255f5193090"
   ],
-  "resolution": "The §32 norm covers real/existing facts and true statements; §§36–37 apply the demand to the contingent sequence rather than merely asking for a local causal predecessor. §§33–35 propose analytical identity principles for necessary truths, and §45 claims an intrinsic existence reason for the proposed necessary ground. These are distinct explananda and proposals. LocalTransmission only constrains neighboring activities; GeneratedWarrant is a stipulated foundationalist epistemic standard, not Leibniz’s universal explanatory norm. Neither a causal chain, a finite proof path, mathematical uniqueness, an unknown reason, nor de re modal necessity alone establishes explanatory adequacy. No cross-domain transfer or requirement of an external efficient cause is silently added."
+  "resolution": "The §32 norm covers real/existing facts and true statements; §§36–37 apply the demand to the contingent sequence rather than merely asking for a local causal predecessor. §§33–35 propose analytical identity principles for necessary truths, and §45 claims an intrinsic existence reason for the proposed necessary ground. These are distinct explananda and proposals. LocalTransmission only constrains neighboring activities; GeneratedWarrant is a stipulated foundationalist epistemic standard, not Leibniz’s universal explanatory norm. Neither a causal chain, a finite proof path, mathematical uniqueness, an unknown reason, nor de re modal necessity alone establishes explanatory adequacy. No cross-domain transfer or requirement of an external efficient cause is silently added.",
+  "term_label": "REASON_EXPLANATION_WARRANT_AND_REGRESS",
+  "senses": [
+    {
+      "id": "2099b31b-8110-47c2-af8c-ac85f558d9f8",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_1",
+      "definition_id": "f742be24-23e4-580e-b670-b509534745c2"
+    },
+    {
+      "id": "e29ed6b1-d381-46ed-8c34-c2a9f1a3b65d",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_2",
+      "definition_id": "b186b7ea-705b-5a2b-906c-57b9064d14aa"
+    },
+    {
+      "id": "01f76f1c-83ac-4e70-b269-37e4be7196a7",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_3",
+      "definition_id": "61b2ea45-ab9d-537f-b43f-b9208c15a362"
+    },
+    {
+      "id": "0b1040aa-282f-48c7-a521-90075fa1199b",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_4",
+      "definition_id": "23dbf0d7-8278-5bbb-8831-0093bf9af738"
+    },
+    {
+      "id": "4e89f821-fa3b-4100-a9a4-26a16e097ced",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_5",
+      "definition_id": "5214c7ea-0683-53b8-b37b-178d5136d20c",
+      "lean_declaration": "TruthCore.Causality.LocalTransmission"
+    },
+    {
+      "id": "718813b4-7490-4f85-9ce1-bbb0ae234b19",
+      "label": "REASON_EXPLANATION_WARRANT_AND_REGRESS_6",
+      "definition_id": "38955650-58d2-5bfc-a6ec-6255f5193090",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    }
+  ]
 }

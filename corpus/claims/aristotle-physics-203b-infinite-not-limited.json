@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-203B-INFINITE-NOT-LIMITED-A",
-  "statement_id": "STMT-INFINITE-NOT-LIMITED",
-  "source_id": "ARIST-PHYS",
+  "id": "9f51b0b0-9227-55fe-9621-0f68ec433310",
+  "label": "Aristotle, Physics III.4, 203b4-15: The infinite, insofar as it is considered as unbounded, is not…",
+  "legacy_id": "ARIST-PHYS-203B-INFINITE-NOT-LIMITED-A",
+  "statement_id": "546a1040-a385-571c-bb03-9a3129a49cf5",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 203b4-15",
   "interpretation": "Local meaning premise: the infinite under discussion is taken as unbounded and therefore not limited. It is kept local because later chapters distinguish potential infinity from an actually infinite separate thing.",
   "status": "formalized"

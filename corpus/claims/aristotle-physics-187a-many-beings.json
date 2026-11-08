@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-187A-MANY-BEINGS-A",
-  "statement_id": "STMT-PARTICULAR-SUBSTANCE-DOES-NOT-EXCLUDE-MANY-BEINGS",
-  "source_id": "ARIST-PHYS",
+  "id": "b5d5981b-c9cf-5378-9c51-90cd3508bda3",
+  "label": "Aristotle, Physics I.3, 187a3-10: Understanding being as a particular substance does not prevent…",
+  "legacy_id": "ARIST-PHYS-187A-MANY-BEINGS-A",
+  "statement_id": "208c548e-f0a4-5d40-978c-613e71a98f21",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 187a3-10",
   "interpretation": "Final anti-monist conclusion of the chapter: even if 'being itself' is understood as a particular substance, nothing in that construal prevents there being many beings. Aristotle therefore rejects unrestricted Eleatic unity in this sense.",
   "status": "formalized"

@@ -1,0 +1,14 @@
+{
+  "id": "f4028d4d-46a0-515f-99c6-e24b8fc47d6a",
+  "label": "Whatever has succession in its life is mutable in the route's reading of that use",
+  "legacy_id": "STMT-ROUTE-SUCCESSION-IS-MUTABILITY",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever has succession in its life (its life-state differs between two times at which it lives) is mutable in the route's reading of the succession use.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteSuccessionIsMutability",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

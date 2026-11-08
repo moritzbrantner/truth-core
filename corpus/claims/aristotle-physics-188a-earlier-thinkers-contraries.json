@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188A-EARLIER-THINKERS-CONTRARIES-A",
-  "statement_id": "STMT-EARLIER-THINKERS-USE-CONTRARY-PRINCIPLES",
-  "source_id": "ARIST-PHYS",
+  "id": "700f6a3e-c1de-5117-949c-3274b8c0460b",
+  "label": "Aristotle, Physics I.5, 188a19-26: Earlier thinkers about nature make contraries principles in one…",
+  "legacy_id": "ARIST-PHYS-188A-EARLIER-THINKERS-CONTRARIES-A",
+  "statement_id": "11815891-0080-5c5e-9e43-f180d33d266d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188a19-26",
   "interpretation": "Aristotle classifies earlier natural philosophers as treating contraries as principles in one form or another. This is a doxographical consensus claim, not endorsement of each predecessor's chosen pair.",
   "status": "formalized"

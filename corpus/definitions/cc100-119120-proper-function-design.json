@@ -1,19 +1,21 @@
 {
-  "id": "DEF-CC100-119120-PROPER-FUNCTION-DESIGN",
+  "id": "2afd1d23-d0da-5991-876a-55e3dc6a25da",
+  "label": "Proper functioning, proper function…: #119 asserts knowledge and its proper-functioning…",
+  "legacy_id": "DEF-CC100-119120-PROPER-FUNCTION-DESIGN",
   "term": "proper functioning, proper function, design and probable God in #119–120",
   "definition": "#119 asserts knowledge and its proper-functioning requirement; both arguments assert that having a proper function requires design and that design implies probable God existence. #120 begins instead with a best account of epistemic probability as permissible belief for properly functioning faculties. That account is not by definition actual proper functioning.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-119-KNOWLEDGE-PROPER-FUNCTION",
-    "CC100-119-PROPER-FUNCTION-DESIGN",
-    "CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
-    "CC100-119-DESIGN-PROBABLE-GOD",
-    "CC100-119-CONDITIONAL-PROBABLE-GOD",
-    "CC100-120-PROBABILITY-PROPER-FUNCTION-ACCOUNT",
-    "CC100-120-PROPER-FUNCTION-DESIGN",
-    "CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
-    "CC100-120-DESIGN-PROBABLE-GOD",
-    "CC100-120-CONDITIONAL-PROBABLE-GOD"
+    "180d466d-b9d2-52ee-91e3-fd0143f8ae5c",
+    "42bd3bc1-d382-5e3b-82ab-0e8e6fb263a1",
+    "ceb8c9fc-298b-51f5-b36b-887738be85d4",
+    "3b50bb4f-23e1-590e-a5c6-7fcf891689d9",
+    "144da036-945e-5830-821d-6739551c6fe2",
+    "ea3d7927-b04e-5a25-8c49-bd3534e171d5",
+    "ddfae5c2-f515-513c-866f-cb06da389016",
+    "558b3cfb-0ade-5dd5-95be-1176cff85c48",
+    "ca4dd5ff-659c-5fdb-8ff9-0d01fec80a6f",
+    "eaf95845-c693-5a92-9520-b86215b03c31"
   ],
   "note": "Function properly and have a proper function require interpretation; neither is defined as design. No numerical probability, actual designer, classical God signature, necessity or probably-to-actuality bridge. Same suffix predicates are reused exactly, but the two initial grounds and resulting design claims are not merged."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-A1-EXTERNAL-WHOLE-CAUSE",
+  "id": "620840ba-d818-53f4-8309-0f0237ddfaee",
+  "label": "Actual concrete cause outside a…: OutsideCause whole: there is a concrete source existing at w…",
+  "legacy_id": "DEF-A1-EXTERNAL-WHOLE-CAUSE",
   "term": "actual concrete cause outside a whole’s parts",
   "definition": "OutsideCause (ActualConcreteCause s w) whole: there is a concrete source existing at w, causing whole at w and not ≤ whole. With reflexive Mathlib parthood this also excludes selfhood. This is an existential causal premise, not a definition that guarantees its own satisfaction.",
   "basis": "stipulative",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "id": "379406e2-cf68-5a33-bf27-6cba7a18b04f",
+  "label": "Universal robust truth-aptness of moral contents fails under the shared…, by Constructive-proof",
+  "legacy_id": "INF-QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
   "input_statement_ids": [
-    "STMT-QUASI-REALIST-MINIMAL-TRUTH-APT",
-    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+    "2aeed907-013b-5c13-8bfb-c66d25734bc8",
+    "58e2c7be-0cbf-5483-aaf4-2ab4087ae49b"
   ],
-  "output_statement_id": "STMT-NOT-REALIST-ROBUST-TRUTH-APT",
+  "output_statement_id": "39bcd47c-3bf5-5349-9392-f80527b5c8a0",
   "rule": "constructive-proof",
   "meaning": "Compose the existing checked robust-answer deviation with the unchanged full quasi-realist reading and explicit Geach moral witness. Universal robust aptness would then give both source answers, contradicting their checked deviation. No thin/minimal truth is silently robust.",
   "assumption_statement_ids": [],

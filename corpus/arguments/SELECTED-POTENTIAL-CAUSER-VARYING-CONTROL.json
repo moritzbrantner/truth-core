@@ -1,26 +1,28 @@
 {
-  "id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "id": "6bf47066-0e5e-5641-9469-3513f293b80b",
+  "label": "In the literal varying model, selected false at base false satisfies reflexivity, necessary…",
+  "legacy_id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "conclusion_statement_id": "14bc9b7b-2673-5989-94fa-860b6b46c19d",
   "inference_ids": [
-    "INF-SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL"
+    "f78d3f90-6bd6-5f5e-ac94-aaff23904d0b"
   ],
   "meaning": "The unchanged registered varying interpretation jointly satisfies all five selected-causer backgrounds, named underivedness of the given false, and an actual outgoing edge to an existing recipient at world true. Reuse its reflexivity, no-contingent-predecessor and union-WF theorems and compose the named result. This nonvacuous positive profile supplies no actual edge at base false and establishes no metaphysical possibility.",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "5e3750f8-9f4e-5d76-8702-a608a1ab8059",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

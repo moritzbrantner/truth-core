@@ -1,9 +1,11 @@
 {
-  "id": "DEF-GIBBARD-PERMISSION-ATTITUDE",
+  "id": "791a4011-9476-5e80-b5b1-a85adb1707d4",
+  "label": "Gibbard\u2019s special planning and\u2026: Settling what to permit, require or forbid oneself is a stage in\u2026",
+  "legacy_id": "DEF-GIBBARD-PERMISSION-ATTITUDE",
   "term": "Gibbard\u2019s special planning and permission attitudes (2022)",
   "definition": "Settling what to permit, require or forbid oneself is a stage in coming to act, distinct from picking among permitted alternatives. Gibbard identifies normative judgment with the relevant self-directed practical attitude, including for hypothetical situations. This historical notion is not identified with the analyst Boolean permission field or with arbitrary set containment.",
   "basis": "sourced",
   "claim_ids": [
-    "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING"
+    "dcca546d-6976-5eb8-a60a-750d73983cb8"
   ]
 }

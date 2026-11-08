@@ -1,9 +1,11 @@
 {
-  "id": "REL-POTENCY-PRIOR-TO-ACT-ALTERNATIVE-TO-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "id": "e6f29eb5-0a65-5caa-81e1-7e0d7dbfd68c",
+  "label": "Rival: some POTENCY_1 in a respect is… alternative to Act is SIMPLY_PRIOR_1 to POTENCY_1…",
+  "legacy_id": "REL-POTENCY-PRIOR-TO-ACT-ALTERNATIVE-TO-ACT-SIMPLY-PRIOR-TO-POTENCY",
   "subject_kind": "statement",
-  "subject_id": "STMT-POTENCY-PRIOR-TO-ACT",
+  "subject_id": "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "object_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "note": "Class: countermodel/inconsistency, partial. Aristotle's reply (Metaphysics XII.6, 1071b23-31: nothing would be; matter does not move itself) needs STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT and covers only potencies that are being actualized; #352 (docs/act-potency-theory.md, finding 4) shows the reduction principle leaves a potency in a respect in which nothing is in act. Not refuted."
 }

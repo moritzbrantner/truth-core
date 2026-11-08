@@ -1,10 +1,14 @@
 """Boundary tests for the disposable research index."""
 import json
+import os
+import subprocess
+import sys
 from pathlib import Path
 import tempfile
 import unittest
 
 from research_index import build, connect, duplicates, lookup, record, bundle, compare, parity, related, cached_related
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 class ResearchIndexTests(unittest.TestCase):
@@ -96,11 +100,31 @@ class ResearchIndexTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'statement ID'):
             related(db, 'results:A')
 
+    def test_equal_text_matches_keep_id_order_across_hash_seeds(self):
+        words = 'alpha beta gamma delta epsilon zeta theta iota kappa lambda'.split()
+        self.put('statements', {'id': 'S', 'paraphrase': ' '.join(words)})
+        self.put('statements', {'id': 'X', 'paraphrase': ' '.join(reversed(words))})
+        self.put('statements', {'id': 'Y', 'paraphrase': ' '.join(words[3:] + words[:3])})
+        for n in range(2, len(words)):
+            self.put('statements', {'id': f'F{n}', 'paraphrase': ' '.join(words[:n])})
+        self.open()
+        code = ("import json,sys; from pathlib import Path; from research_index import connect,related; "
+                "db=connect(Path(sys.argv[1]),Path(sys.argv[2])); "
+                "print(json.dumps([m['statement_id'] for m in related(db,'S')['matches'] "
+                "if m['statement_id'] in ('X','Y')]))")
+        for seed in ('1', '2', '3', '4'):
+            with self.subTest(seed=seed):
+                output = subprocess.check_output(
+                    [sys.executable, '-c', code, str(self.root), str(self.path)],
+                    env={**os.environ, 'PYTHONPATH': str(Path(__file__).parent), 'PYTHONHASHSEED': seed},
+                    text=True)
+                self.assertEqual(json.loads(output), ['X', 'Y'])
+
     def test_related_marks_conflicts_without_pairwise_negation(self):
         self.put('statements', {'id': 'T', 'paraphrase': 'another commitment'})
-        self.put('statements', {'id': 'STMT-CONFIGURATION-FALSE', 'paraphrase': 'logical falsity'})
+        self.put('statements', {'id': legacy_uuid('statement', 'STMT-CONFIGURATION-FALSE'), 'paraphrase': 'logical falsity'})
         self.put('arguments', {'id': 'CORE', 'premise_statement_ids': ['S', 'T', 'U'],
-                               'conclusion_statement_id': 'STMT-CONFIGURATION-FALSE'})
+                               'conclusion_statement_id': legacy_uuid('statement', 'STMT-CONFIGURATION-FALSE')})
         db = self.open()
         match = next(item for item in related(db, 'S')['matches'] if item['statement_id'] == 'T')
         reason = next(item for item in match['reasons'] if item.get('argument_id') == 'CORE')

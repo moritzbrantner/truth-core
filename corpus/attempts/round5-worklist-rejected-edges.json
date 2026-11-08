@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-ROUND5-WORKLIST-REJECTED-EDGES",
+  "id": "1d0d9d70-284b-531f-9456-6d49b9e25d90",
+  "label": "Map edges examined and rejected in the round-5 worklist batch",
+  "legacy_id": "ATTEMPT-ROUND5-WORKLIST-REJECTED-EDGES",
   "statement_ids": [
-    "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
-    "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
-    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
-    "STMT-PURE-ACT-OPERATES",
-    "STMT-INTELLECT-HAS-INTELLIGIBLE-FORM"
+    "a896d2b5-0fb5-539e-824a-9315f5c6bff1",
+    "42890b45-9325-56d3-8ae4-a6202e8c6ba6",
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936",
+    "45030701-91da-588f-b602-dca6c15e761a",
+    "763e8f08-55ca-5e87-99dd-7423d6534073"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "rejected",
   "summary": "Map edges examined and rejected in the round-5 worklist batch. (1) Finitely many immediate predecessors from 'at most one direct cause per mode' (the shape of DEF-AT-MOST-ONE-IMMEDIATE-CAUSE) with the four-mode classification: valid but strictly stronger than needed and false for concurring agents; finitely many per mode (STMT-FINITELY-MANY-CAUSES-PER-MODE) suffices. (2) Well-founded predecessors from finite ancestry, no loops and finite branching (FiniteBranching.wellFounded_iff_finiteAncestry_and_noLoops): valid, but finite ancestry is itself derived from well-foundedness (CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY), so the route is circular for closure. (3) No loops from well-founded predecessors alone: valid (a well-founded transitive closure is irreflexive) but it relocates the weaker condition to a strictly stronger open premise; the priority route uses existing secunda via statements instead. (4) Pure act operates from 'whatever is in act in some respect and moved in no respect operates from itself': a stone at rest (in act in being, presently moved in no respect) would operate from itself; replaced by operation following being in act plus the self-or-moved dichotomy, which leaves the stone case to the open dichotomy premise. (5) Intellect has an intelligible form from STMT-IMMATERIAL-IS-INTELLECTUAL: it yields intellect, not an actual intelligible form; the power/act gap would need the same understands-something premise. Rejection records that a lead was examined; it neither refutes nor establishes any target.",
   "evidence": [
-    "ROUND5-WORKLIST-CONTROLS"
+    "133783a4-07b1-5727-9fca-7f9fb474db54"
   ]
 }

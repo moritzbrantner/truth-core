@@ -1,6 +1,8 @@
 {
-  "id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
-  "argument_id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "id": "06e47a73-ffad-5511-bb20-079f56d2f495",
+  "label": "Some move affirms natural knowability of God, from In the Catholic practice, the First Vatican…",
+  "legacy_id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "argument_id": "855e5309-1353-526b-abf5-eb6089d51823",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Witness.councilSuppliesNaturalMove",

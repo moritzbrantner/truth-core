@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SUBSTANCE-NOT-CONTRARY-TO-SUBSTANCE",
+  "id": "8b8fc022-d66e-5a56-932f-e8f885be4165",
+  "label": "A substance is not contrary to another substance in the sense at issue in Aristotle's principles…",
+  "legacy_id": "STMT-SUBSTANCE-NOT-CONTRARY-TO-SUBSTANCE",
   "paraphrase": "A substance is not contrary to another substance in the sense at issue in Aristotle's principles argument.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SubstanceNotContraryToSubstanceReading"
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-MOORE-INSTANCE",
+  "id": "8dc79019-29fe-57a6-83a6-e2f7278efcba",
+  "label": "If the selected Moore conjunction is actually true, that same content is known at some modally…",
+  "legacy_id": "STMT-FITCH-MOORE-INSTANCE",
   "paraphrase": "If the selected Moore conjunction is actually true, that same content is known at some modally accessible world.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.MooreInstance",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

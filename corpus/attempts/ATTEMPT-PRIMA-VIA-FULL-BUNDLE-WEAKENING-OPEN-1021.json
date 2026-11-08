@@ -1,21 +1,23 @@
 {
+  "id": "1032961a-ce94-555e-b615-722dcd16dd78",
+  "label": "The relative conclusion does not type-match the absolute first-mover naming interfaces in the…",
+  "legacy_id": "ATTEMPT-PRIMA-VIA-FULL-BUNDLE-WEAKENING-OPEN-1021",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
-    "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
-    "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING"
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "c1b68c21-fa36-5ab0-a499-444259eda78a",
+    "96da1d33-7a73-567e-9557-ba4a9a4bb798",
+    "621821f4-e2b4-50f6-a0ca-53941e7f843b"
   ],
   "kind": "derivation",
-  "id": "ATTEMPT-PRIMA-VIA-FULL-BUNDLE-WEAKENING-OPEN-1021",
   "outcome": "blocked",
   "summary": "The relative conclusion does not type-match the absolute first-mover naming interfaces in the frozen StageOneViaMaximeEns, FromPrimaViaViaMaximeEns, FromPrimaVia, and POE-Catholic-denies-objection-one proofs. This records a current proof-path gap, not an impossibility theorem. The finite generic weak/Stage1 model does not certify the additional maximum/naming, full root-history, or complete Catholic problem-of-evil bundles. No source predicate is silently identified and no extra relevance or naming bridge is manufactured. See the four exact dispositions in docs/notes/prima-via-strength-consumers.md.",
   "blocker": "A weaker derivation or countermodel must preserve each entire original additional bundle and its parameter roles. Existing scoped weak countermodels cannot be promoted to that stronger claim.",
   "evidence": [
-    "CATHOLICISM-STAGE1-VIA-MAXIME-ENS",
-    "CATHOLICISM-FROM-PRIMA-VIA-VIA-MAXIME-ENS",
-    "CATHOLICISM-FROM-PRIMA-VIA",
-    "POE-CATHOLIC-DENIES-OBJECTION-ONE",
-    "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES"
+    "eede73f3-1c40-5be4-8571-249c65d7a326",
+    "ad0e4e8a-9917-5909-b9fa-90ab3510dcf3",
+    "c11f3961-3289-533e-908a-5fa7f6c346e7",
+    "b149d6cd-07ed-5638-9d0c-f1009e36767b",
+    "61bcbca2-1cb0-558f-9dcc-ff3f5c31e58d"
   ]
 }

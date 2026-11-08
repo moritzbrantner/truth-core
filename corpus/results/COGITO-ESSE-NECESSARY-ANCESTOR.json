@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-ESSE-NECESSARY-ANCESTOR",
-  "argument_id": "COGITO-ESSE-NECESSARY-ANCESTOR",
+  "id": "014197bf-fca3-5ebc-9ca8-9b824685b34e",
+  "label": "Some bearer of an occurring thought has a…, from Some thought episode occurs under the… and 6… (2)",
+  "legacy_id": "COGITO-ESSE-NECESSARY-ANCESTOR",
+  "argument_id": "3c6d949d-67ee-5d93-8a0b-1527247fa6bd",
   "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoEsse.necessaryConcreteAncestor",

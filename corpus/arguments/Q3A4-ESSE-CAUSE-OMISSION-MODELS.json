@@ -1,18 +1,22 @@
 {
-  "id": "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+  "id": "6aebfd94-46b6-5597-8969-3c7f28cdc25b",
+  "label": "There are coherent finite typed models with an actually existing subject whose esse and essence…",
+  "legacy_id": "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-Q3A4-ESSE-CAUSE-OMISSION-MODELS",
-  "inference_ids": ["INF-Q3A4-ESSE-CAUSE-OMISSION-MODELS"],
+  "conclusion_statement_id": "9c5c441c-f179-55ff-8465-3d9719945f13",
+  "inference_ids": [
+    "b4537675-d87c-5e2b-8a8c-002afc829204"
+  ],
   "meaning": "Logical independence and nonvacuity only: two finite interpretations omit one q.3 a.4 causal premise at a time while an actually existing subject has distinct essence/esse and no external esse-cause; a third has a real different cause of esse and satisfies both. The result does not prove that brute existence, intrinsic self-causation or Aquinas' causal source theory is metaphysically possible.",
   "definition_ids": [
-    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
-    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
-    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
-    "DEF-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "56c9a230-137d-5207-9262-27196af6e713",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

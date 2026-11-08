@@ -1,14 +1,16 @@
 {
-  "id": "HUME-TREATISE-I-3-6-NO-MUTUAL-CAUSE-A",
-  "statement_id": "STMT-HUME-NO-MUTUAL-CAUSE",
-  "source_id": "HUME-TREATISE",
+  "id": "093b341f-6376-556a-b034-c9971f5e1164",
+  "label": "David Hume, A Treatise of Human Nature…: Nothing is both the cause and the effect of another…",
+  "legacy_id": "HUME-TREATISE-I-3-6-NO-MUTUAL-CAUSE-A",
+  "statement_id": "c3ace4b2-f43b-5085-8bb1-bd057386eadd",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.6, §7 (SBN 89–90)",
   "interpretation": "Hume asserts that the same principle cannot be both the cause and effect of another, and calls this perhaps the only intuitively or demonstratively certain proposition about the relation of cause and effect. He uses it to show that the presumption of resemblance cannot arise from probability, which is founded on it; the maxim itself is stated generally ('concerning that relation'), so the general reading is taken and the application is context. Formalized only as its non-modal content for distinct relata: no two things each cause the other. The modality ('cannot') and the certainty claim are not formalized, which makes the reading weaker than the sentence. It does not say that nothing causes itself, and it does not exclude longer cycles; reading it as Koons-style 'no causal loops' would strengthen it (result HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS shows the converse fails). Hume's relation of cause and effect here is the one whose idea §7 derives from experienced constant conjunction; its identity with the case's supplied causal relation is not asserted (DISAMB-HUME-MAXIM-RELATION).",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-CAUSE-EFFECT-RELATION"
+    "6b2ff599-ffe3-5b41-9ed6-cb8cb3ea1cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-MAXIM-RELATION"
+    "f36cbfad-6953-53dc-820e-d7aad0efe094"
   ]
 }

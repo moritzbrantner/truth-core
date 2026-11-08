@@ -1,7 +1,9 @@
 {
-  "id": "INF-MAXIME-DEFINITION-BOUNDARIES",
+  "id": "3c9a684a-917a-513b-9109-8c1b2de0faae",
+  "label": "Exact finite controls: two incomparable represented degrees satisfy strict…, by Constructive-proof",
+  "legacy_id": "INF-MAXIME-DEFINITION-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MAXIME-DEFINITION-CONTROLS",
+  "output_statement_id": "9dfc0fc2-73e4-56f3-8f7c-707793b7093f",
   "rule": "constructive-proof",
   "meaning": "Finite incomparable/tied/remainder controls for the exact declared profiles. The incomparable model source greatest-degree causal principle is explicitly vacuous; it does not refute that conditional or establish a real causal ontology.",
   "assumption_statement_ids": [],

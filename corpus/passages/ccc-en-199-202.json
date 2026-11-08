@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CATECHISM-OF-THE-CATHOLIC-CHURCH-EN",
+    "source_id": "3c31594f-3836-5c81-9cdb-a58e5184285c",
     "source_url": "https://www.vatican.va/archive/ENG0015/__P16.HTM",
     "retrieved_at": "2026-11-06T12:00:00Z",
     "sha256": "sha256:b79244f662932303e7f029fe4f0563c1a691a5fb3b085bf74fd89110e352e726",
@@ -16,7 +16,9 @@
   },
   "passages": [
     {
-      "id": "CCC-EN-199-202",
+      "id": "142db77d-1d83-5713-8ec5-f4a8e7b7bab3",
+      "label": "Catholic Church, Catechism of the Catholic Church, CCC 199-202",
+      "legacy_id": "CCC-EN-199-202",
       "locator": "CCC 199-202 (Part One, sect. 2, ch. 1, art. 1, par. 1, I)",
       "claim_locator_prefixes": [
         "CCC 199",

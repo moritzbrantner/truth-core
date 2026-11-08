@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LEAN-PROPOSITION-HOLDING",
+  "id": "295c5c65-7654-5a9f-8f01-cd9071dd31f1",
+  "label": "A proposition holds in Lean: A proposition P: Prop holds when a proof term inhabits P in the…",
+  "legacy_id": "DEF-LEAN-PROPOSITION-HOLDING",
   "term": "a proposition holds in Lean",
   "definition": "A proposition P : Prop holds when a proof term inhabits P in the encoded logic. ∃ P : Prop, P asks for a proposition together with a proof; ¬∀ P : Prop, ¬P denies universal failure. Neither formula introduces an external truth predicate or says truth is independent of endorsement.",
   "basis": "stipulative",

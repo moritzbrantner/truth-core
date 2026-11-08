@@ -1,6 +1,8 @@
 {
-  "id": "SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE",
-  "argument_id": "SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE",
+  "id": "4f7694a7-fdb3-524d-a3ab-7611b9e6fe3c",
+  "label": "At the reading world w, whatever is SIMPLY_PRIOR_1 to something other than itself…, via esse cause",
+  "legacy_id": "SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE",
+  "argument_id": "8cbf4314-bea6-5202-bb40-d4cc5ea157e6",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.simplyPriorGroundViaEsseCause",

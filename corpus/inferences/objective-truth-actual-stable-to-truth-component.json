@@ -1,9 +1,11 @@
 {
-  "id": "INF-OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "id": "b8493e68-be79-5bad-a8a0-2f571619c496",
+  "label": "Every sentence satisfying the supplied objective predicate is true at the…, by Constructive-proof",
+  "legacy_id": "INF-OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
   "input_statement_ids": [
-    "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION"
+    "326adc2f-b56d-58af-802e-9bf3a6f46c61"
   ],
-  "output_statement_id": "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT",
+  "output_statement_id": "40840c3d-90da-5237-b2a3-8ea9519b5c9c",
   "rule": "constructive-proof",
   "meaning": "Extract the actual-truth conjunct of the explicit actual-stable calibration. This verified strong-to-weak consequence does not establish either calibration for a real language.",
   "assumption_statement_ids": [],

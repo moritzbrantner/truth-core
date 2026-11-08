@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
+  "id": "c9f6af99-0788-55d3-bb95-83918751df48",
+  "label": "Aristotle answers the unity puzzle by treating the proximate matter and form as one, the former…",
+  "legacy_id": "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
   "paraphrase": "Aristotle answers the unity puzzle by treating the proximate matter and form as one, the former potentially and the latter actually, rather than as two already actual things requiring an added tie.",
   "definition_ids": [
-    "DEF-ARISTOTLE-NONHEAP-WHOLE",
-    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
-    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+    "58633e90-ed09-5e1e-87ed-c23a587f1a8e",
+    "75dc4009-c107-57c9-9a12-ca20e19f8ebd",
+    "57bc6e11-2b8f-506d-8f4d-27f67423c59f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+    "cbb6f6da-760d-5822-ba5f-1054df1b1f04"
   ]
 }

@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-ROUND2-GROUNDING-REJECTED-EDGES",
+  "id": "bff740d4-edc2-5a9f-a32c-f68ff60c27ea",
+  "label": "Map edges examined and rejected in round 2 grounding",
+  "legacy_id": "ATTEMPT-ROUND2-GROUNDING-REJECTED-EDGES",
   "statement_ids": [
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "39f7c63d-b372-564c-b18a-ed09d02dda9a"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "rejected",
   "summary": "Map edges examined and rejected in round 2 grounding. (1) PSR route STMT-FACT-REQUIRES-SUFFICIENT-REASON / STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION -> STMT-EVERY-CONTINGENT-GROUNDED-AT: the only available bridge (a sufficient reason for an actual concretum's existence is an actual concrete ground of it) would carry the whole conclusion, so the result would be a transcription; it needs typed reason vocabulary (reasons as facts vs. beings) first. (2) STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON -> STMT-EVERY-CONTINGENT-GROUNDED-AT: the series reason is about the totality, not each member. (3) Splitting STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND into 'causes of esse exist', 'are concrete' and 'ground their effects': a decomposition into the target's conjuncts, not a derivation; replaced by the dependence route. (4) STMT-CC100-10-CAUSE-EFFECT-NONOVERLAP -> STMT-ACTUAL-GROUNDING-ASYMMETRIC: nonoverlap excludes self-grounding only under a grounding-as-causation bridge and gives no exclusion of two-cycles. (5) STMT-CC100-10-ACTUAL-CAUSE-EFFECT as support for STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA: priority is not causation (DISAMB-PRIORITY-SIMPLE-OR-IN-TIME); not recorded. Source statements without Lean declarations (q.44 a.1, CC100 #4/#10/#11, Koons 1996) cannot bind a derivation and are recorded as supports relations with gap notes. Rejection records that the leads were examined; it neither refutes nor establishes any target.",
   "evidence": [
-    "ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
-    "CONTINGENT-GROUNDED-VIA-PARTICIPATION",
-    "LEIBNIZ-32-FACT-REASON-DEMAND",
-    "LEIBNIZ-SERIES-SUFFICIENT-REASON-A",
-    "CC100-10-CAUSE-EFFECT-NONOVERLAP"
+    "db9175af-5a90-5cb2-b3e0-b8e25537be88",
+    "b7fbe991-fdff-565b-b708-eae8c4c1c594",
+    "0e1bffc2-b521-52f0-9926-2c227d94dc57",
+    "b04299ed-86c2-5ba5-9075-8a144582f8b3",
+    "23d7aadd-aa75-58c4-9ffe-48ad19735c34"
   ]
 }

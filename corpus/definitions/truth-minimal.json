@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TRUTH-MINIMAL",
+  "id": "bfb442ed-de24-5be7-92fa-838b93157c91",
+  "label": "TRUE_3, in the minimal sense: To call 'p' TRUE_3 is just to assert p: '\"p\" is TRUE_3' is…",
+  "legacy_id": "DEF-TRUTH-MINIMAL",
   "term": "true, in the minimal (deflationary) sense",
   "definition": "To call 'p' true is just to assert p: '\"p\" is true' is equivalent to p, and any sentence apt for sincere assertion, moral sentences included, can be called true. A quasi-realist expressivist can say in this sense that 'murder is wrong' is true while denying that it represents a moral fact.",
   "basis": "stipulative",

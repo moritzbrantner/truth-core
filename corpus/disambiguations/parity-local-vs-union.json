@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-PARITY-LOCAL-VS-UNION",
+  "id": "dfceb03a-998f-5eaa-924f-1583d31ded93",
+  "label": "World-local termination versus union acyclicity and well-foundedness",
+  "legacy_id": "DISAMB-PARITY-LOCAL-VS-UNION",
   "term": "world-local termination versus union acyclicity and well-foundedness",
   "sense_definition_ids": [
-    "DEF-PARITY-UNION-REGRESS",
-    "DEF-PARITY-LOCAL-SUPPORT"
+    "dd604a4e-bf19-5554-b4b4-93d793110076",
+    "a6b644c9-669e-554a-9fff-91effba09695"
   ],
-  "resolution": "Each direct edge is world-indexed. Local support has depth at most one. The unlabeled union admits arbitrarily long predecessor descent by alternating edge labels, without a same-world two-step causal chain. No finite cycle does not mean well-founded on Nat. Finite worlds plus uniformly bounded local depth therefore cannot replace union well-foundedness. Union WF remains an independent conditional premise; this control neither refutes its metaphysical truth nor establishes a common cross-world ranking."
+  "resolution": "Each direct edge is world-indexed. Local support has depth at most one. The unlabeled union admits arbitrarily long predecessor descent by alternating edge labels, without a same-world two-step causal chain. No finite cycle does not mean well-founded on Nat. Finite worlds plus uniformly bounded local depth therefore cannot replace union well-foundedness. Union WF remains an independent conditional premise; this control neither refutes its metaphysical truth nor establishes a common cross-world ranking.",
+  "term_label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY",
+  "senses": [
+    {
+      "id": "a9c1e0a3-c017-490f-a7d7-5bdf3d2c63e1",
+      "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_1",
+      "definition_id": "dd604a4e-bf19-5554-b4b4-93d793110076",
+      "lean_declaration": "TruthCore.Causality.ParityUnionRegress.Certificate"
+    },
+    {
+      "id": "110ff9a2-881b-465b-8505-5f2f9a252359",
+      "label": "WORLD_LOCAL_TERMINATION_VERSUS_UNION_ACYCLICITY_2",
+      "definition_id": "a6b644c9-669e-554a-9fff-91effba09695",
+      "lean_declaration": "TruthCore.Causality.ParityUnionRegress.support"
+    }
+  ]
 }

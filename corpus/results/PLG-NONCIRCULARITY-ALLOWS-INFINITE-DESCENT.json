@@ -1,6 +1,8 @@
 {
-  "id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
-  "argument_id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "id": "fbc592d0-8fc4-5ac9-97f3-9302f3241d57",
+  "label": "There is a PLG-consistent set of sequents over the natural numbers from which n + 1 ≺ n is…",
+  "legacy_id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "argument_id": "c05fdcc2-ab14-5ab3-876d-8b45378091cc",
   "challenge_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Challenge",
   "solution_module": "TruthCore.Results.Modern.Fine.InfiniteDescent.Solution",
   "theorem": "TruthCore.Results.Modern.Fine.InfiniteDescent.nonCircularityAllowsInfiniteDescent",

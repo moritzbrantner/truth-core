@@ -12,6 +12,7 @@ from unittest.mock import patch
 import corpus
 from lean_test_support import build_skip_reason
 from argument_context import context_pack, format_context, import_closure, lean_reuse_review, resolve_target, theorem_blocks
+from corpus_ids import legacy_uuid  # noqa: E402
 
 CHALLENGE = """import Demo.Vocabulary
 namespace Demo.Up
@@ -268,7 +269,7 @@ class RepositoryContextTests(unittest.TestCase):
             self.skipTest("Lean toolchain is not installed")
         results = corpus.load_dir("results")
         target = next(record for _, record in results
-                      if record["id"] == "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE")
+                      if record["id"] == legacy_uuid("result", "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE"))
         reason = build_skip_reason(target["solution_module"])
         if reason:
             self.skipTest(reason)
@@ -279,10 +280,10 @@ class RepositoryContextTests(unittest.TestCase):
     def test_existing_argument_pack_runs_on_the_real_corpus(self):
         out = io.StringIO()
         with contextlib.redirect_stdout(out):
-            code = corpus.main_with(["context", "--json", "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE"])
+            code = corpus.main_with(["context", "--json", legacy_uuid("result", "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE")])
         self.assertEqual(code, 0)
         pack = json.loads(out.getvalue())
-        self.assertEqual(pack["conclusion"]["statement_id"], "STMT-GOD-IS-ONE")
+        self.assertEqual(pack["conclusion"]["statement_id"], legacy_uuid("statement", "STMT-GOD-IS-ONE"))
         self.assertIn("theorem godIsOneFromNature", pack["lean"][0]["advertised_statement"]["statement"])
 
 

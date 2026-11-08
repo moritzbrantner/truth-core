@@ -1,14 +1,16 @@
 {
-  "id": "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
-  "statement_id": "STMT-CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "437c27cd-7d53-5cef-99f0-cec855ff6796",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Nothing can depend on itself, and every dependent…",
+  "legacy_id": "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE",
+  "statement_id": "04751e66-2e21-50fe-b9cb-c79a7c12e21a",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.9, argument #4, steps 3–4 and displayed step-4 reference",
   "interpretation": "Preserve can and the explicit no-self premise rather than silently weakening it to a selected actual graph or repairing the displayed reference. Literal self-dependence exclusion does not by itself state transitivity, indirect-cycle exclusion or well-foundedness. The record supplies no new proof or independent warrant for the source’s denial.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-4-DEPENDENCE"
+    "578d48f2-35b0-5daf-8a52-d63b61c50697"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION",
+  "id": "7f83d264-31da-5749-a87f-00546e92fade",
+  "label": "The current objective classifier in the same comparison class coextends with none of the three…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION",
   "paraphrase": "The current objective classifier in the same comparison class coextends with none of the three named accounts. This explicitly records an additional extension; its philosophical adequacy is not thereby established.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.RemainingDefinition",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

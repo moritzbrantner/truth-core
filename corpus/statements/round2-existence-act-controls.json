@@ -1,23 +1,25 @@
 {
-  "id": "STMT-ROUND2-EXISTENCE-ACT-CONTROLS",
+  "id": "16b3b286-aa4b-53a2-9b7b-70138a589c8e",
+  "label": "Finite interpretations for the fourteen derivations of round 2: for each premise other than…",
+  "legacy_id": "STMT-ROUND2-EXISTENCE-ACT-CONTROLS",
   "paraphrase": "Finite interpretations for the fourteen derivations of round 2 (existence and act): for each premise other than excluded middle, a one-element (or two-respect) model in which the other premises hold and the conclusion fails, and one joint model in which a thought occurs, its bearer exists, exercises intellect, opines, causes and is in act of esse, and every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.Control.Certificate",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-MERELY-POSSIBLE-CANDIDATE",
-    "DEF-OPERATING-AGENT",
-    "DEF-INTELLECTIVE-EPISODE",
-    "DEF-EPISODE-OCCURS-AT",
-    "DEF-EPISODE-MODIFICATION",
-    "DEF-EPISODE-AGENT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "4cde619b-9880-5b55-b16d-5658252866ff",
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+    "f61bbc23-dd58-5bf5-95a5-f1ddc1e407c0",
+    "1943bfbb-396f-5f22-883b-b775d0f8e109",
+    "41f956bd-5430-5c0d-801e-a661ffe28e05",
+    "a07c30f9-e0fc-5f16-b181-6f70d374de79"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

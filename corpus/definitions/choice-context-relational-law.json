@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHOICE-CONTEXT-RELATIONAL-LAW",
+  "id": "355ed397-9e99-57d5-9498-91f96e930483",
+  "label": "One nonfunctional law with lawful\u2026: RelationalLaw c a is the implication c.2=true \u2192 a=true",
+  "legacy_id": "DEF-CHOICE-CONTEXT-RELATIONAL-LAW",
   "term": "one nonfunctional law with lawful alternatives",
   "definition": "relationalLaw c a is the implication c.2=true \u2192 a=true. When a constraint is imposed only true is lawful; when absent, false and true are both lawful at the very same input under this single relation. Nonfunctionality is not failure to obey the relation. No stochastic dynamics, probabilities, physical realization, agent control or moral responsibility are represented.",
   "basis": "stipulative",

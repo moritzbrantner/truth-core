@@ -1,6 +1,8 @@
 {
-  "id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
-  "argument_id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "id": "45ac104c-2729-57bc-9fdd-8e1dbcd9022c",
+  "label": "There exist carriers and one joint interpretation of the old causal frame and new content/consumer…",
+  "legacy_id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "argument_id": "924a53f8-f92a-502b-be0f-2d7a42b23209",
   "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
   "theorem": "TruthCore.Results.Comparison.Intentionality943.physicalistErrorModel",

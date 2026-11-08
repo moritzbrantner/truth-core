@@ -1,14 +1,16 @@
 {
-  "id": "STMT-MEREOLOGICAL-COMPLEMENTATION",
+  "id": "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
+  "label": "For every x,y in the supplied fixed partial order, when y is not part of x an exact remainder z…",
+  "legacy_id": "STMT-MEREOLOGICAL-COMPLEMENTATION",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.Complementation",
   "paraphrase": "For every x,y in the supplied fixed partial order, when y is not part of x an exact remainder z exists: its parts are all and only the parts of y disjoint from x.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION"
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "491073fa-38af-5d98-a6b8-77bf9c472525"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

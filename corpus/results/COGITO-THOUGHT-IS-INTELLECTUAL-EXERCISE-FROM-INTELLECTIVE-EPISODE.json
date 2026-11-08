@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
-  "argument_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "id": "a5ac419e-a5ac-5913-8c26-92c8f8405788",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is…, from intellective episode",
+  "legacy_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "argument_id": "cecc4365-f132-5ebd-9d14-6236d2366c2d",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.thoughtIsExerciseFromIntellective",

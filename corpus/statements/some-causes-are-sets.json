@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SOME-CAUSES-ARE-SETS",
+  "id": "f62f372c-1ac6-528e-a95b-4876ff056bd0",
+  "label": "Some causes are sets: ordinary physical events, the paradigm causes, are set-theoretic…",
+  "legacy_id": "STMT-SOME-CAUSES-ARE-SETS",
   "paraphrase": "Some causes are sets: ordinary physical events, the paradigm causes, are set-theoretic constructions, as on David Lewis's account an event is an ordered pair of a spacetime region and a set of such regions.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Lewis's account is reported in the pinned SEP 'Abstract Objects' §3.2 (claim SEP-ABSTRACT-OBJECTS-32-LEWIS-EVENTS-ARE-SETS); Lewis 1986b has no pinned witness. The rival needs the bridge that impure sets are abstract in the adopted sense; the SEP itself notes that these sets may exist where their members do. Definition audit: original event-set account and claim identity retained; typed analyst siblings expose category-to-no-esse, explanatory-to-productive and selected-world guards without rebinding this source reading. The set-of-two anchor alone is not a universal set classification; a some-world denial is not a selected-world denial. See docs/notes/causal-concrete-rival-boundary.md. Source-fidelity correction after re-materializing SEP-ABSTRACT-OBJECTS-2020-CRITERIA, §3.2 and its §3.1 context: the previous appended inference from the single anchor to abstract impure event-sets was not part of the source-supported proposition. The original event-set identity proposition and its claim are retained; the classification inference is now an independent OPEN sibling."
 }

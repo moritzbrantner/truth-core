@@ -1,10 +1,12 @@
 {
-  "id": "STMT-TLP-RESOLUTE-READING-NO-INEFFABLE",
+  "id": "84af6e34-c1c5-5039-a0fc-dba2667e9ecd",
+  "label": "Recent reading of the Tractatus: NONSENSE_2 is plain NONSENSE_2; taking 6.54 seriously throws out…",
+  "legacy_id": "STMT-TLP-RESOLUTE-READING-NO-INEFFABLE",
   "paraphrase": "Recent (resolute) reading of the Tractatus (as reported): nonsense is plain nonsense; taking 6.54 seriously throws out the book itself, including the distinction between saying and showing, so the book points at no ineffable truths of metaphysics, ethics or aesthetics but should lead us away from such temptations.",
   "definition_ids": [
-    "DEF-TLP-NONSENSE-PLAIN"
+    "d94541de-78e7-5634-a11c-9d7d81b6e58f"
   ],
   "disambiguation_ids": [
-    "DISAMB-TLP-NONSENSE"
+    "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8"
   ]
 }

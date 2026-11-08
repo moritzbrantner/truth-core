@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-VALIDATION-SELECTION-CONTROLS",
+  "id": "3dea2b69-b9aa-5517-aa57-58ccccc451d3",
+  "label": "On a genuine uniform four-point probability space with truthful…, by Uniform-finite-measure-evalua…",
+  "legacy_id": "INF-FINITE-VALIDATION-SELECTION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-VALIDATION-SELECTION-CONTROLS",
+  "output_statement_id": "d12f0b83-9590-59f1-bd7d-81e0089a8396",
   "rule": "uniform-finite-measure-evaluation-and-selection-counterexample",
   "meaning": "On a genuine uniform four-point probability space with truthful labels constantly equal to Boolean false, a memorizer is correct at its selected point and wrong at the other three, hence has actual error 3/4. Selecting its point from one validation observation makes it pass every sample; the joint bad-pass event at epsilon 1/2 has probability 1, exceeding the misapplied singleton bound 1/2. A fixed such candidate instead passes with strictly positive probability (1/4)^n at every finite horizon; its bad-pass event equals its pass event. This separates predeclared-pool selection from unrestricted posthoc selection and joint false-acceptance risk from posterior confidence conditional on passing. It supplies no actual-world calibration, epistemic ought or root closure.",
   "assumption_statement_ids": [],

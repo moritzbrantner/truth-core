@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
+  "id": "6cdc4062-245e-5f84-9b1c-117673045506",
+  "label": "The current objective classifier coextends with at least one of the actual-stable, invariance-only…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
   "paraphrase": "Open coverage proposition: the current objective classifier coextends with at least one of the actual-stable, invariance-only or actual-truth-only accounts in this fixed profile. This is not a census of historical truth theories.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.NamedCoverage",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

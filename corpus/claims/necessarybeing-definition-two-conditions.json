@@ -1,10 +1,16 @@
 {
-  "id": "NB-SURVEY-DEFINITION-TWO-CONDITIONS",
-  "statement_id": "STMT-NB-SURVEY-DEFINITION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "7bb7c49b-a06a-59f7-bdde-88adc1c788b1",
+  "label": "Unattributed website author, Necessary…: The survey defines a NECESSARY_BEING_2 by two jointly…",
+  "legacy_id": "NB-SURVEY-DEFINITION-TWO-CONDITIONS",
+  "statement_id": "374b2de5-1cae-5b4c-a74a-b0615fd650d2",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "Definition page, two numbered conditions",
   "interpretation": "Both nominal conditions matter: possible causal capability plus the impossibility of nonexistence at any time. Neither the source nor this claim identifies the bearer with the cause of the universe or an absolutely simple deity.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-SURVEY-NECESSARY-BEING"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-NECESSARY"]
+  "definition_ids": [
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+  ],
+  "disambiguation_ids": [
+    "6feac787-378d-5c78-b49c-2414847d33cb"
+  ]
 }

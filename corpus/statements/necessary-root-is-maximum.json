@@ -1,19 +1,21 @@
 {
-  "id": "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+  "id": "d6549981-ba9d-53ac-9e0f-f578f3947d82",
+  "label": "Some concrete individual existing at w has no ACTUAL_CONCRETE_GROUND_1 under the selected relation…",
+  "legacy_id": "STMT-NECESSARY-ROOT-IS-MAXIMUM",
   "paraphrase": "Some concrete individual existing at w has no actual concrete ground under the selected relation at w, exists at every world accessible from w, is necessary per se in the modal reading, and is identical with whatever is maximal in being. It does not assert that anything is maximal in being, and it says nothing about other worlds' grounds, simplicity, intellect or God.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.NecessaryRootIsMaximumAt",
   "definition_ids": [
-    "DEF-ROUTE-BRIDGE-MODAL-READING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-MAXIME-ENS"
+    "30dfba72-8196-542a-85d9-d2e98d7f11c5",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

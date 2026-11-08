@@ -1,17 +1,19 @@
 {
-  "id": "PLATO-PHAEDO-100B-FORMS-HYPOTHESIS",
-  "statement_id": "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS",
-  "source_id": "PLATO-PHAEDO",
+  "id": "7a2aa137-28fb-5ae5-b465-86f1ed926dc1",
+  "label": "Plato, Phaedo 100b: Socrates begins the proposed argument by hypothesizing beauty itself by…",
+  "legacy_id": "PLATO-PHAEDO-100B-FORMS-HYPOTHESIS",
+  "statement_id": "4424ec00-c125-52df-9386-6743880a8be2",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "100b",
   "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. The conditional argumentative start is explicit. This statement neither denies Socrates commitment to Forms nor converts the passage into an independent proof of their existence, uniqueness or maximal degree.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PHAEDO-HYPOTHETICAL-START"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "5e122a72-7871-5d18-90c1-d3618d06ad2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE",
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+    "a0786cf3-0248-58b6-ad97-12b00af85056",
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "75be9568-f157-51ba-b94a-f395c2412b7e"
   ]
 }

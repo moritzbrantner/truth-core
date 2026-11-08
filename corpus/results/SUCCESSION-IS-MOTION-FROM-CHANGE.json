@@ -1,6 +1,8 @@
 {
-  "id": "SUCCESSION-IS-MOTION-FROM-CHANGE",
-  "argument_id": "SUCCESSION-IS-MOTION-FROM-CHANGE",
+  "id": "0090ef34-b18e-5e97-84b2-9b317d9c9864",
+  "label": "A living thing whose life-state differs between two times at which it lives is being…, from change",
+  "legacy_id": "SUCCESSION-IS-MOTION-FROM-CHANGE",
+  "argument_id": "d0f70b81-c9a1-5f2b-986d-fa0095fcad2e",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.successionMotionFromChange",

@@ -1,6 +1,8 @@
 {
-  "id": "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
-  "argument_id": "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+  "id": "623a85d6-cf29-56df-98d7-92357fc21103",
+  "label": "Whatever unites two things into x is an efficient cause of x in some…, from temporal persistence",
+  "legacy_id": "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+  "argument_id": "ce959632-4739-5f8f-8f38-375a25ba291d",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.CurrentTransfer.Bound.currentTransfer",

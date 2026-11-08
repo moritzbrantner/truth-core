@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-6-432-GOD-NOT-REVEALED",
-  "statement_id": "STMT-TLP-GOD-NOT-REVEALED-IN-WORLD",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "8fbdedaf-d347-5c9c-a805-d02aca12ce9e",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 6.432: how the world is, is completely…",
+  "legacy_id": "WITTGENSTEIN-TLP-6-432-GOD-NOT-REVEALED",
+  "statement_id": "53def39a-f738-5f43-9753-a0d60ba7ebe4",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 6.432, Gott offenbart sich nicht in der Welt",
   "interpretation": "6.432: 'Wie die Welt ist, ist für das Höhere vollkommen gleichgültig. Gott offenbart sich nicht in der Welt.' ('in' emphasized.) It says God is not revealed *in* the world, not that there is no God.",
   "status": "formalized",

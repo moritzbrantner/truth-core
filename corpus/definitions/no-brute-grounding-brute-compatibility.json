@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY",
+  "id": "4ce8aafa-b75e-561a-ad92-7eee1f62e77d",
+  "label": "Fixed explanation-covered\u2026: The fixed joint interpretation keeps boundaryRival.ontic and its\u2026",
+  "legacy_id": "DEF-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY",
   "term": "fixed explanation-covered grounding-brute control",
   "definition": "The fixed joint interpretation keeps boundaryRival.ontic and its separately specified concrete and grounds predicates unchanged. Its universal-access Bool worlds have Bool\u00d7Bool candidates, all stipulated concrete; candidate (h,b) exists exactly at world h. A necessary concrete individual would be concrete and present at false and every accessible world, which none is. Grounding at a world relates its existing false-tagged root to its existing true-tagged child, leaving the contingent root without an existing concrete ground. The new Model.explains adds a token intrinsic x exactly when x exists, without adding any grounding edge or certifying that token sufficient. JointWitness conjoins soundness, all-world existence-PSR, no necessary concrete individual, and the negation of universal grounding for actual contingent concrete individuals at false.",
   "basis": "stipulative",

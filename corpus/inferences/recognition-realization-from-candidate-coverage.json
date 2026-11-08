@@ -1,10 +1,12 @@
 {
-  "id": "INF-RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
+  "id": "e11b5fb3-baca-5ff4-a896-43f21c76f282",
+  "label": "Each GOD_4 candidate with recognizable-revelation capability has a correct…, by… (2)",
+  "legacy_id": "INF-RECOGNITION-REALIZATION-FROM-CANDIDATE-COVERAGE",
   "input_statement_ids": [
-    "STMT-CANDIDATE-RECOGNITION-REALIZED",
-    "STMT-ADMISSIBLE-RECOGNITION-COVERAGE"
+    "6d910910-8e0f-5654-bf44-3207f759ca8f",
+    "a1f0b628-af2f-5e58-83ed-5e17ac8ab63b"
   ],
-  "output_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "output_statement_id": "3f303e5a-a3b2-57f4-accb-207139bf9d52",
   "rule": "constructive-proof",
   "meaning": "Assembly transcription: candidate recognition supplies a witness and the explicit admitted-subset coverage premise supplies an admitted witness. Both coverage of the selected carrier and its applicability stay open.",
   "assumption_statement_ids": [],

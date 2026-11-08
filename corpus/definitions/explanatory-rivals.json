@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-RIVALS",
+  "id": "5a3ef5f8-911c-5c18-bbe8-f2cabb2ceb1d",
+  "label": "Shared rival accounts of one target: Rivals share worlds Nat, actual world 0, universal…",
+  "legacy_id": "DEF-EXPLANATORY-RIVALS",
   "term": "shared rival accounts of one target",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.rival",

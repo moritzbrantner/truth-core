@@ -1,6 +1,8 @@
 {
-  "id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
-  "argument_id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "id": "7d5ed3b2-0046-5321-b69e-65f48c5d7fd0",
+  "label": "No candidate changes in the SAME general…, from McTaggart's thesis in his own sense of… and 1 more",
+  "legacy_id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "argument_id": "23d60285-4c1c-5992-b890-af4b86ea393a",
   "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Challenge",
   "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.Solution",
   "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.BundleStrength.bundleStrength",

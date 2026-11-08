@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ATOMIC-FUSION-CONTRAST",
+  "id": "870ea6ed-87f4-504b-bef4-51bb8c7492c1",
+  "label": "ATOMIC_FULL_FUSION_CONTRAST_2: AtomicCertificate uses the EXISTING Body of nonempty subsets of Bool",
+  "legacy_id": "DEF-ATOMIC-FUSION-CONTRAST",
   "term": "atomic full-fusion contrast",
   "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.AtomicCertificate",
   "basis": "stipulative",

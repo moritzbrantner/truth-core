@@ -1,15 +1,17 @@
 {
-  "id": "IEP-REL-LANG-2A-AYER-1946-CRITERION",
-  "statement_id": "STMT-AYER-1946-CRITERION-STATED",
-  "source_id": "IEP-RELIGIOUS-LANGUAGE",
+  "id": "ba54dd07-1052-5e1c-b6c4-8551f280b792",
+  "label": "Jennifer Hart Weed, Religious Language §2a: Ayer 1946: a statement is directly verifiable if it is…",
+  "legacy_id": "IEP-REL-LANG-2A-AYER-1946-CRITERION",
+  "statement_id": "73a7f1a7-f98b-5c7c-b030-546655506784",
+  "source_id": "5807b28f-d5c4-52dc-aa54-62f9cd4f6203",
   "locator": "§2a, \"A statement is directly verifiable if it is either itself an observation-statement\"",
   "interpretation": "Ayer's revised criterion (LTL 2nd ed., Introduction, p. 13), quoted verbatim by the IEP entry. Attribution reading on a secondary witness: the claim attributes the quoted text to Ayer. DEF-AYER-1946-VERIFIABILITY types it; the recursion of 'independently established as indirectly verifiable' is read as an inductive definition.",
   "attribution": "The passage states in a verbatim quotation of Ayer 1946, p. 13, that a statement is directly verifiable if it is an observation-statement or with observation-statements entails one not deducible from them alone, and indirectly verifiable if with further premises that are analytic, directly or independently indirectly verifiable it entails directly verifiable statements not deducible from those premises alone, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

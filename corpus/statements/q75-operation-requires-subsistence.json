@@ -1,20 +1,22 @@
 {
-  "id": "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE",
+  "id": "075120a0-5a7a-56df-b644-75b8ec3a9011",
+  "label": "For every principle, an intellectual exercise attributed to it without bodily participation…",
+  "legacy_id": "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE",
   "paraphrase": "For every principle, an intellectual exercise attributed to it without bodily participation requires exclusion of inherence as accident or material form. This operation/existence correspondence is an open source principle.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.PerSeOperationRequiresSubsistence",
   "definition_ids": [
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-Q75-WEAK-SUBSISTENCE",
-    "DEF-Q75-COMPLETE-SUBSISTENCE",
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-ORGAN-EXERCISE"
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "5448b824-575c-585d-8121-c69ce226ca9c",
+    "7c8f91df-84d3-5268-94cf-97e290392dc9",
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "35a01636-e163-5b03-80b0-22e83004cfe6"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-WEAK-AND-COMPLETE-SUBSISTENCE",
-    "DISAMB-Q75-NONORGAN-AND-OWN-OPERATION",
-    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "66a0e7ff-292d-5a31-b87c-9f648747fb13",
+    "08e86466-9bf0-5a19-8408-d77fdd436ef8",
+    "0ad6390d-a011-5319-800a-f95750632746",
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

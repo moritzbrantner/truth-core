@@ -1,3 +1,4 @@
+import { legacyUuid } from "./corpus-ids";
 import type { ClosureReason, FloorEntry, FrontierReport, StatementStatus } from "./site-state";
 
 /**
@@ -14,7 +15,7 @@ import type { ClosureReason, FloorEntry, FrontierReport, StatementStatus } from 
  * only joins it with the records for display and never recomputes it.
  */
 
-export const DEFAULT_ROOT_STATEMENT_ID = "STMT-CATHOLICISM-TRUE";
+export const DEFAULT_ROOT_STATEMENT_ID = legacyUuid("statement", "STMT-CATHOLICISM-TRUE");
 
 export type GraphStatus = StatementStatus;
 
@@ -68,6 +69,8 @@ export type CorpusStatementInput = {
 
 export type CorpusClaimInput = {
   id: string;
+  label?: string;
+  legacy_id?: string;
   statement_id: string;
   source_id: string;
   locator: string;
@@ -81,6 +84,7 @@ export type CorpusSourceInput = { id: string; author: string; work: string };
 
 export type CorpusInferenceInput = {
   id: string;
+  label?: string;
   input_statement_ids: string[];
   output_statement_id: string;
   rule: string;
@@ -91,13 +95,14 @@ export type CorpusInferenceInput = {
 
 export type CorpusArgumentInput = {
   id: string;
+  label?: string;
   premise_statement_ids: string[];
   conclusion_statement_id: string;
   inference_ids: string[];
   meaning: string;
 };
 
-export type CorpusResultInput = { id: string; argument_id: string };
+export type CorpusResultInput = { id: string; label?: string; argument_id: string };
 
 export type CorpusRelationInput = {
   id: string;
@@ -122,7 +127,11 @@ export type PropositionGraphInput = {
 
 export type GraphClaim = {
   id: string;
+  /** Display label; the id is an opaque uuid. */
+  label?: string;
   sourceId: string;
+  /** "Author, work" of its source, for display. */
+  sourceLabel?: string;
   passageId?: string;
   locator: string;
   interpretation: string;
@@ -178,6 +187,8 @@ export type GraphStatement = {
 
 export type GraphInference = {
   id: string;
+  /** Display label; the id is an opaque uuid. */
+  label?: string;
   inputs: string[];
   assumptions: string[];
   discharged: string[];
@@ -189,6 +200,8 @@ export type GraphInference = {
 
 export type GraphArgument = {
   id: string;
+  /** Display label; the id is an opaque uuid. Its results share it. */
+  label?: string;
   meaning: string;
   premises: string[];
   conclusion: string;
@@ -252,12 +265,17 @@ export function leanNamespace(declaration: string | undefined) {
   return declaration.split(".").slice(0, -1).join(".");
 }
 
-/** Reading label of a claim that takes part in an interpretation pair or group. */
+/**
+ * Reading label of a claim that takes part in an interpretation pair or group.
+ * The authored reading letter survives only in a migrated claim's frozen legacy
+ * alias (`…-A`, `…-B`); the opaque id carries none. Records without such an
+ * alias are labelled by their role (base or alternative).
+ */
 function readingLabel(claim: CorpusClaimInput, interpretationTargets: Set<string>) {
   if (!claim.interpretation_of && !claim.interpretation_group && !interpretationTargets.has(claim.id)) {
     return undefined;
   }
-  const suffix = /-([A-Z])$/.exec(claim.id)?.[1];
+  const suffix = claim.legacy_id ? /-([A-Z])$/.exec(claim.legacy_id)?.[1] : undefined;
   if (suffix) {
     return suffix;
   }
@@ -357,7 +375,9 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
   for (const claim of [...input.claims].sort((left, right) => left.id.localeCompare(right.id))) {
     push(claimsByStatement, claim.statement_id, {
       id: claim.id,
+      ...(claim.label ? { label: claim.label } : {}),
       sourceId: claim.source_id,
+      ...(sourceById.has(claim.source_id) ? { sourceLabel: `${sourceById.get(claim.source_id)!.author}, ${sourceById.get(claim.source_id)!.work}` } : {}),
       passageId: claim.passage_id,
       locator: claim.locator,
       interpretation: claim.interpretation,
@@ -435,6 +455,7 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
 
   const inferences = input.inferences.map((inference) => ({
     id: inference.id,
+    ...(inference.label ? { label: inference.label } : {}),
     inputs: inference.input_statement_ids,
     assumptions: inference.assumption_statement_ids ?? [],
     discharged: inference.discharged_statement_ids ?? [],
@@ -448,6 +469,7 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
     const resultIds = resultsByArgument.get(argument.id) ?? [];
     return {
       id: argument.id,
+      ...(argument.label ? { label: argument.label } : {}),
       meaning: argument.meaning,
       premises: argument.premise_statement_ids,
       conclusion: argument.conclusion_statement_id,

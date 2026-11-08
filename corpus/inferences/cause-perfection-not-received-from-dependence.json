@@ -1,11 +1,13 @@
 {
-  "id": "INF-CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
+  "id": "faa914e4-0226-52ff-b395-9c3f457470fc",
+  "label": "If c, distinct from x, causes x's being r, then c's having r is not…, by Reductio, universal…",
+  "legacy_id": "INF-CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
   "input_statement_ids": [
-    "STMT-HAVER-DEPENDS-ON-RECIPIENT",
-    "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
-    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+    "3e890700-3a15-5dd5-bc71-ec03d3466139",
+    "e0088de9-28eb-533c-a1e7-662f780cc0e2",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3"
   ],
-  "output_statement_id": "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
+  "output_statement_id": "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
   "rule": "Reductio, universal instantiation and modus ponens",
   "meaning": "Derives the batch 1 bridge that a distinct cause does not have the perfection it causes as received in its effect. If c's having r were received in x, c would depend for its being on x (OPEN: a haver depends on its recipient); but c's causing r in x is efficiently causing it (OPEN bridge), and an efficient cause does not depend on its effect (STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT, derived in EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY).",
   "assumption_statement_ids": [],

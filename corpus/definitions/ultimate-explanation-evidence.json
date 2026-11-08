@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
+  "id": "4f301d77-0699-5fbb-b931-41b20b839266",
+  "label": "EVIDENCE_CELLS_3, coarse observation and…: Cell p observed n contains traces satisfying p and…",
+  "legacy_id": "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
   "term": "evidence cells, coarse observation and exact forecast accuracy",
   "definition": "Cell p observed n contains traces satisfying p and agreeing with every observed value through n inclusive. forecast observed n repeats the last observed value for n+1. Accurate requires that forecast equal the next value of every cell member. occupancy reports whether either fixed candidate bearer is present in chains; it deliberately omits bearer identity. globalObservation takes the first component of the existing Int signal at Nat times.",
   "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Cell",

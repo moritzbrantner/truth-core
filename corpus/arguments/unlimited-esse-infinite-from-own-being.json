@@ -1,26 +1,28 @@
 {
-  "id": "UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
+  "id": "51f44d0f-939d-51fb-a578-dc5963735069",
+  "label": "For every being x: if the esse of x is not limited, then x satisfies the primitive…, from own being",
+  "legacy_id": "UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
   "premise_statement_ids": [
-    "STMT-RECEIVED-ESSE-IS-LIMITED",
-    "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
-    "STMT-OWN-BEING-IS-INFINITE"
+    "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+    "bc1810e5-1070-5585-9b0f-e17ca3547ac7",
+    "10b2b0ed-262d-55ca-806e-647b67d2ab36"
   ],
-  "conclusion_statement_id": "STMT-UNLIMITED-ESSE-IS-INFINITE",
+  "conclusion_statement_id": "be1289df-3c43-5595-99b5-1fb8d38164be",
   "inference_ids": [
-    "INF-UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING"
+    "1dfc750c-24c5-5363-9452-0a1294caba74"
   ],
   "meaning": "A being whose esse is not limited has its esse received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1 with ad 3); and what is its own being is infinite (STMT-OWN-BEING-IS-INFINITE, q.7 a.1). A second derivation, following the order of the q.7 a.1 sentence, of the stated leaf STMT-UNLIMITED-ESSE-IS-INFINITE; it leaves that leaf's stating claim unchanged. All three premises stay open and are supported, not stated.",
   "definition_ids": [
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-INFINITE",
-    "DEF-ESSE"
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-INFINITY",
-    "DISAMB-ESSENCE"
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

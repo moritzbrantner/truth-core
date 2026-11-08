@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOTION-INCOMPLETE-ACTUALITY",
+  "id": "999b4125-27f9-50a1-8993-3535e2eda4bb",
+  "label": "Motion is an incomplete actuality of what is potential",
+  "legacy_id": "STMT-MOTION-INCOMPLETE-ACTUALITY",
   "paraphrase": "Motion is an incomplete actuality of what is potential.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MotionAsIncompleteActualityReading"
 }

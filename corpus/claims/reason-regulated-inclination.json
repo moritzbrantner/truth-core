@@ -1,12 +1,14 @@
 {
-  "id": "AQUINAS-ST-I-II-Q94-A2-REASON-REGULATION",
-  "statement_id": "STMT-REASON-REGULATED-INCLINATIONS-NATURAL-LAW",
-  "source_id": "AQUINAS-ST",
+  "id": "2c04a372-9378-5bfd-bda0-6c62aa55219d",
+  "label": "Thomas Aquinas, Summa theologiae I ii q.94…: Natural inclinations of parts of human nature…",
+  "legacy_id": "AQUINAS-ST-I-II-Q94-A2-REASON-REGULATION",
+  "statement_id": "29a3c7ee-dc24-54cf-b64c-860bfd2d1728",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I-II q.94 a.2 ad 2",
   "interpretation": "The reply says inclinations of any parts of human nature, including concupiscible and irascible appetite, pertain to natural law insofar as regulated by reason. The reading records only the sufficient direction using independent predicates. It rejects unrestricted appeal to an actual urge and does not turn RegulatedByReason into a definition of conformity to natural law.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REASON-REGULATED-NATURAL-INCLINATION",
-    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    "cd06a9c8-05a3-5208-b930-e9d6abb382d9",
+    "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1"
   ]
 }

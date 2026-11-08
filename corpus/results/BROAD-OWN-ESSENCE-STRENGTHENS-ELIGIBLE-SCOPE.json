@@ -1,6 +1,8 @@
 {
-  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
-  "argument_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "id": "809c7812-212b-5556-bfd8-dbf33f50a146",
+  "label": "A scope-restricted sibling of the original…, from For every being x and principle r, if the…",
+  "legacy_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "argument_id": "46ce053d-17db-500c-816d-c29055d693a3",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.ScopeStrength.scopeStrength",

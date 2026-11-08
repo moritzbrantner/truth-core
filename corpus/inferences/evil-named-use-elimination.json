@@ -1,13 +1,15 @@
 {
-  "id": "INF-EVIL-NAMED-USE-ELIMINATION",
+  "id": "edb03dff-36fc-5c5b-9849-4726ab393b5e",
+  "label": "Under the critic's strict truthless semantics, the own-true-evil-premise…, by Constructive-proof",
+  "legacy_id": "INF-EVIL-NAMED-USE-ELIMINATION",
   "input_statement_ids": [
-    "STMT-EVIL-NAMED-USE-COVERAGE",
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
-    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
-    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+    "c33ae8d0-4e0a-5039-acf1-e1a34f3f27f0",
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "5844b7cb-6430-54de-abab-6aec98e7f9b2",
+    "1ffc758d-f400-5e2a-9ad7-37f051fc2dc2",
+    "c13c7cac-faa8-5c54-b064-29c47ba049ae"
   ],
-  "output_statement_id": "STMT-EVIL-NAMED-EMOTIVIST-ALTERNATIVES",
+  "output_statement_id": "f322bd65-f4b6-564c-a4ec-581e0f24d375",
   "rule": "constructive-proof",
   "meaning": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its explicit countermodel is preserved.",
   "assumption_statement_ids": [],

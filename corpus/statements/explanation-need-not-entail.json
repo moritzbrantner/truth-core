@@ -1,10 +1,12 @@
 {
-  "id": "STMT-EXPLANATION-NEED-NOT-ENTAIL",
+  "id": "d59353d4-0c5a-5fef-b085-b54ce1d1fe17",
+  "label": "It is not the case that whenever q explains p, q entails p: q can explain p although it is…",
+  "legacy_id": "STMT-EXPLANATION-NEED-NOT-ENTAIL",
   "paraphrase": "It is not the case that whenever q explains p, q entails p: q can explain p although it is possible for q to be true with p false.",
   "definition_ids": [
-    "DEF-PRUSS-EXPLANATION-ENTAILMENT"
+    "ca6cb143-0387-54de-9d94-278bfd767a51"
   ],
   "disambiguation_ids": [
-    "DISAMB-BCCF-DERIVATIVE-REPLY"
+    "0fc5e01d-7eec-5c5a-a72a-a3726352e96c"
   ]
 }

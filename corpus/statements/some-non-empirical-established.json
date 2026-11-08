@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
+  "id": "70118ddd-8477-5112-bc2e-10600f700f21",
+  "label": "Some established claim is not established by empirical evidence",
+  "legacy_id": "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
   "paraphrase": "Some established claim is not established by empirical evidence.",
   "lean_declaration": "TruthCore.Logic.Scientism.SomeNonEmpiricalEstablished",
   "definition_ids": [
-    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d"
   ]
 }

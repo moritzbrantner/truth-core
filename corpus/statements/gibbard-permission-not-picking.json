@@ -1,7 +1,9 @@
 {
-  "id": "STMT-GIBBARD-PERMISSION-NOT-PICKING",
+  "id": "8ea56025-0be0-5353-8daf-33ceeb81623f",
+  "label": "Gibbard distinguishes his special planning sense from picking among equally eligible alternatives…",
+  "legacy_id": "STMT-GIBBARD-PERMISSION-NOT-PICKING",
   "paraphrase": "Gibbard distinguishes his special planning sense (settling what to permit, require or forbid oneself) from picking among equally eligible alternatives; he identifies believing an act permissible with permitting it to oneself and explains these attitudes through their role in coming to act.",
   "definition_ids": [
-    "DEF-GIBBARD-PERMISSION-ATTITUDE"
+    "791a4011-9476-5e80-b5b1-a85adb1707d4"
   ]
 }

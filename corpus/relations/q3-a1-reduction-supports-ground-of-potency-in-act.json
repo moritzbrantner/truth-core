@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q3-A1-REDUCTION-SUPPORTS-GROUND-OF-POTENCY-IN-ACT",
+  "id": "f98e8250-bf81-5d60-b36f-5239066174c2",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Whatever grounds a potency in a respect is…",
+  "legacy_id": "REL-Q3-A1-REDUCTION-SUPPORTS-GROUND-OF-POTENCY-IN-ACT",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A",
+  "subject_id": "bfeb74b4-e2eb-535c-9a3d-cced0e9d8a0f",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GROUND-OF-POTENCY-IS-IN-ACT",
+  "object_id": "bf374f2e-df3b-5e8f-bea8-9fcfe680141b",
   "note": "Q.3 a.1 co. says 'quod est in potentia, non reducitur in actum nisi per ens actu': what reduces a potency to act is in act. The premise says it of whatever grounds a potency, including a potency never reduced; that extension to grounding and to idle potency is the analyst's."
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-TERM-SENSE-FORKS-CONTROLS",
+  "id": "e71a5eda-e614-5ea8-91e7-72f35d9b6afd",
+  "label": "Finite interpretations for the two sense forks: for each premise of the joint…, by Explicit finite…",
+  "legacy_id": "INF-TERM-SENSE-FORKS-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TERM-SENSE-FORKS-CONTROLS",
+  "output_statement_id": "7a49a610-8948-556f-809e-67d2eb41ffd5",
   "rule": "Explicit finite interpretations",
   "meaning": "Finite interpretations for the two sense forks: an omission model for every premise of PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE (in each the route reads the term in the branch the omitted premise closes), a nonvacuity witness per fork, and per term a model of coverage without exclusivity in which two uses differ. Satisfiability and omission only; no model describes reality.",
   "assumption_statement_ids": [],

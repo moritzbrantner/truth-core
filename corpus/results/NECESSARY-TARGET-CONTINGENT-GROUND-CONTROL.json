@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
-  "argument_id": "NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
+  "id": "5ba41f19-5896-5315-9f07-cd15c6a24884",
+  "label": "In the exact switching model, existence of every necessary target follows conditionally at each…",
+  "legacy_id": "NECESSARY-TARGET-CONTINGENT-GROUND-CONTROL",
+  "argument_id": "6308c0c0-111c-568d-9f3b-bab3f015e935",
   "challenge_module": "TruthCore.Results.Causality.CommonPriority.ContingentGround.Challenge",
   "solution_module": "TruthCore.Results.Causality.CommonPriority.ContingentGround.Solution",
   "theorem": "TruthCore.Results.Causality.CommonPriority.ContingentGround.checks",

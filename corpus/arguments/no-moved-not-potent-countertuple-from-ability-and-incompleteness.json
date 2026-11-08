@@ -1,28 +1,30 @@
 {
-  "id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "id": "c97c86f5-3424-559f-ae6b-bf91562bb856",
+  "label": "Negation of the exact countertuple actual moved not potent…, from ability and incompleteness",
+  "legacy_id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
   "premise_statement_ids": [
-    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
-    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "53225d00-bd26-50e0-b05e-403c88431cd3",
+    "811fe80c-3bdd-5e41-9f1b-f94bec9178ef",
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
-  "conclusion_statement_id": "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "conclusion_statement_id": "8f183538-204e-5a50-8a07-3d88dc999b47",
   "inference_ids": [
-    "INF-NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS"
+    "b4cb703a-f8e4-5e10-91a6-1b24ca850b53"
   ],
   "meaning": "Conditional refutation of the exact countertuple STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE. What is being moved toward r is able to be r (Metaphysics IX.3, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R) and is not yet actually r (Physics III.2, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R); by the right-to-left direction of Metaphysics IX.6's analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) it is then in potency to r. The countertuple must reject one of these three Aristotelian analyses; this route does not use the Physics III.1 analysis. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). Sense-relative: InAct, InPotency and CanBe must be read in one sense across the three premises (DISAMB-IN-ACT, DISAMB-POTENCY). The premises are open, so the refutation does not count for closure.",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "strong_version_needed": {
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY": "The proof uses the right-to-left direction of the IX.6 analysis (able and not actual implies in potency). The weak version STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY keeps only the left-to-right direction at moved tuples, which cannot yield potency."
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8": "The proof uses the right-to-left direction of the IX.6 analysis (able and not actual implies in potency). The weak version STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY keeps only the left-to-right direction at moved tuples, which cannot yield potency."
   }
 }

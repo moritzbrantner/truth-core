@@ -1,30 +1,32 @@
 {
-  "id": "MODAL-S4-SCOPE-BOUNDARY",
+  "id": "5ffbc76a-131b-5b72-83d8-b6dbe4793704",
+  "label": "In the paired S4 configuration, right and twin form a distinct terminal pair that is collapsed in…",
+  "legacy_id": "MODAL-S4-SCOPE-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-S4-SCOPE-BOUNDARY",
+  "conclusion_statement_id": "0fadb5c3-3664-53da-8c9a-8537c3013ed2",
   "inference_ids": [
-    "INF-MODAL-S4-SCOPE-BOUNDARY"
+    "2b9b51cc-042c-543c-a811-1a3572b1ef39"
   ],
   "meaning": "Issue #265 conditional mathematical S4 experiment; no historical Hume attribution, real-world contingency, cosmological existence or Catholic-case frontier closure is claimed. Induct over the fixed language to prove right/twin formula agreement and preserve formulas across their common successor rows. Use the full K successor-identity theorem to refute full collapse of each distinct label. No right-side successor has full collapse, refuting necessary possible full collapse. Enumerate language-collapse witnesses at every root successor. Agreement between distinct labels refutes language extensionality.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-MODAL-S4-FRAME",
-    "DEF-MODAL-S4-CLUSTER",
-    "DEF-MODAL-S4-POCKETS",
-    "DEF-MODAL-S4-LANGUAGE",
-    "DEF-MODAL-S4-PREDICATE"
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "34ba79ad-8db0-50c3-bd6f-b91b8ce7e940",
+    "a97035e4-65f3-5c10-b2f3-8684762e0a01",
+    "9a1a3a4a-2fa8-518b-bbbf-ac15782fdee4",
+    "05b1498f-12d1-5e98-970d-1af8bf9e69f0",
+    "99cb659f-12a5-5cef-9ac9-d082af571a93"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-S4-CLUSTER-SCOPE"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "cf163892-fea4-58b3-b994-fbefb67963d6"
   ]
 }

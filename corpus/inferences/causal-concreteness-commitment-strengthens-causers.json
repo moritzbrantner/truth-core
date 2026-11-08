@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "id": "bc1f1d61-0b97-593b-a276-165d9eeb4bad",
+  "label": "OPEN activity clause alone: at the selected world, whatever causes…, by Conjunction elimination",
+  "legacy_id": "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
   "input_statement_ids": [
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "output_statement_id": "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT",
+  "output_statement_id": "bc2af29f-8202-50f4-a177-b8dd21e135b1",
   "rule": "Conjunction elimination",
   "meaning": "Strength registration (not modal): the common-ground commitment OwnerCommitmentAt is the conjunction of the capacity clause and the activity clause; its second conjunct is CausersRequireConcreteAt, the activity half used by the Cogito population step of the necessary-being route.",
   "assumption_statement_ids": [],

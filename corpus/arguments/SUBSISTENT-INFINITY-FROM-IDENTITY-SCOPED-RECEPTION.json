@@ -1,27 +1,29 @@
 {
-  "id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "id": "0a26eff0-44d9-531a-bb1a-713649f6625d",
+  "label": "What is its own subsistent being is INFINITE_1, from identity scoped reception",
+  "legacy_id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
   "premise_statement_ids": [
-    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
-    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
-    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
-    "STMT-UNLIMITED-ESSE-IS-INFINITE"
+    "1304b462-4a10-5dd0-995a-db5feb21d98e",
+    "b9316115-41b9-57e3-bdef-35b6e2face1a",
+    "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2",
+    "14325c83-1c3f-5afb-b63f-52b0c2b2a326",
+    "be1289df-3c43-5595-99b5-1fb8d38164be"
   ],
-  "conclusion_statement_id": "STMT-SUBSISTENT-BEING-IS-INFINITE",
+  "conclusion_statement_id": "75a37a91-732d-510c-9abc-b37c988c5c63",
   "inference_ids": [
-    "INF-SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION"
+    "64d124bc-5791-57ee-9f0b-36318aa9db6a"
   ],
   "meaning": "Compose the unchanged original subsistentBeingIsInfinite theorem over the subtype of SAME bearers whose esse=essence. The old broad own-essence input is replaced by the strictly weaker identity-scoped law; all other original limitation/receptive-potency/irreflexivity/infinity inputs remain explicit. Exact original target, no arbitrary soul-exclusion rule.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-INFINITY",
-    "DISAMB-RECEPTIVE-POTENCY"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "8bb31748-e20f-5266-ac39-c442faab6622"
   ]
 }

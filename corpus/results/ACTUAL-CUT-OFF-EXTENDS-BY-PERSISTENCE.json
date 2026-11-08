@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
-  "argument_id": "ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
+  "id": "f140359a-98da-5713-a13d-e4eebbb84592",
+  "label": "Every selected admitted situation has a practice in which no move answerable to…, by persistence",
+  "legacy_id": "ACTUAL-CUT-OFF-EXTENDS-BY-PERSISTENCE",
+  "argument_id": "9e61aa68-cd5d-5fa1-aec2-04d16759aa94",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Persistence.actualCutOffPersists",

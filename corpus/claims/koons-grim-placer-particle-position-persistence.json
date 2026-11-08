@@ -1,9 +1,13 @@
 {
-  "id": "KOONS-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE",
-  "statement_id": "STMT-PLACED-FRED-POSITION-PERSISTS",
-  "source_id": "KOONS-GRIM-REAPER-KALAM",
+  "id": "ac00b635-7ed6-54bf-8a14-aef55b8a2c91",
+  "label": "Robert C. Koons, The Grim Reaper Kalam…: Within the stipulated Grim Placer sequence, once a Fred…",
+  "legacy_id": "KOONS-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE",
+  "statement_id": "29935367-a7d0-5e11-9578-4ed78fe04dde",
+  "source_id": "7f46c9d7-8d71-5e86-9f12-155cbebfab1f",
   "locator": "pp. 18–22, §5.2, printed p.19, opening paragraph",
   "interpretation": "Koons explicitly identifies persistence at the placed position throughout the remaining GP sequence as a tacit assumption of the particle argument. This records an acknowledged condition of the stipulated scenario, not a universal physical law, an independently established possibility or a proof of causal finitism. Read with the full materialized pp.18–22 context, including his vanishing-particle objection and proposed persistent-signal replacement; PGR at printed p.9 was also read as context for indexed creation and maintenance. The signal reformulation is not silently substituted for this particle-position statement. No identification with the all-code IndexedSignalReaper.Forwarding interface is made: that requires an explicit normalized-register and detector/handoff dictionary. Countable patchwork preservation and independent metaphysical applicability remain open.",
   "status": "formalized",
-  "definition_ids": ["DEF-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE"]
+  "definition_ids": [
+    "ab6b1754-64b8-5e9e-9d7b-073c0e9f6b23"
+  ]
 }

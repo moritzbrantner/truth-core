@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
+  "id": "4f377045-355c-500f-b159-1f8e9e9fa863",
+  "label": "Supplied attitude-profile truth family: Frame supplies a fixed Sentence type, an AttitudeProfile\u2026",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
   "term": "supplied attitude-profile truth family",
   "definition": "Frame supplies a fixed Sentence type, an AttitudeProfile type with one actual profile, holds at each profile, and an independently supplied objective classifier. Stable f s means \u2200 p, holds p s \u2194 holds actual s. The intended comparison varies attitudes while content and non-attitude facts stay fixed; those application conditions are not inferred from the field names.",
   "basis": "stipulative",

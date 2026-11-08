@@ -1,9 +1,11 @@
 {
-  "id": "REL-CIC-750-751-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "f9d70b9f-5d46-5cac-8ce8-8f929edc0d58",
+  "label": "Catholic Church, Codex Iuris Canonici… supports In the Catholic practice, whatever an… (3)",
+  "legacy_id": "REL-CIC-750-751-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "claim",
-  "subject_id": "CIC-750-751-FAITH-AND-HERESY",
+  "subject_id": "db33d341-e197-5185-8c9f-f4b402f509dc",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "Cann. 750-751 make obstinate denial of what is proposed as revealed heresy. This bears on the bridge as a recognized standard of membership. Whether natural knowability is proposed as revealed is a reading step the canons do not take."
 }

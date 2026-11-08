@@ -1,15 +1,17 @@
 {
-  "id": "PLOTINUS-V4-BODY-NOT-FIRST",
-  "statement_id": "STMT-PLOTINIAN-BODY-NOT-FIRST",
-  "source_id": "PLOTINUS-ENNEADS",
+  "id": "7fa5bc9e-2921-5506-a3cf-acd793e62ce3",
+  "label": "Plotinus, Enneads V.4.1, οὐ γὰρ δὴ σώματα…: No body is simple in the first-principle sense, and…",
+  "legacy_id": "PLOTINUS-V4-BODY-NOT-FIRST",
+  "statement_id": "943af17d-c28d-511a-a97e-4f169bcd6f5c",
+  "source_id": "4e88cb1d-0567-56e7-8861-0e4669f50036",
   "locator": "V.4.1, οὐ γὰρ δὴ σώματα λέγομεν δύο ... ἡ δὲ ἀρχὴ ἀγέννητος",
   "interpretation": "Source reading recorded in prose only. Source argument recorded in prose. Ungenerated is not read as existence at a first temporal instant, and no theorem about modern physical simples, fields or a material cosmos is claimed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

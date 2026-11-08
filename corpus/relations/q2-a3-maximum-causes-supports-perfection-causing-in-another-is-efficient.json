@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q2-A3-MAXIMUM-CAUSES-SUPPORTS-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
+  "id": "f74c403e-3350-555a-91b8-0c54fe9023f0",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports If c, distinct from x, causes x's being r…",
+  "legacy_id": "REL-Q2-A3-MAXIMUM-CAUSES-SUPPORTS-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
+  "subject_id": "73eece80-ee7d-564f-9e40-c00c71492a02",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
+  "object_id": "e0088de9-28eb-533c-a1e7-662f780cc0e2",
   "note": "ST I q.2 a.3 co. (quarta via) illustrates the maximum's causing what is in its genus by fire, the hottest, causing all hot things: a perfection-causing that is an efficient (heating) causing. The premise states that every causing of another's being r is an efficient causing in respect r. The passage gives one efficient example and does not exclude exemplar or final causes of a perfection, which is exactly where the premise fails."
 }

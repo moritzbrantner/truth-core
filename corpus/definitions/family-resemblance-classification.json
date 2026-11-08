@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FAMILY-RESEMBLANCE-CLASSIFICATION",
+  "id": "7c91f5f4-596b-5211-be68-fd44ea1dba0b",
+  "label": "Family-resemblance classification…: Relative to a specified classification-feature vocabulary…",
+  "legacy_id": "DEF-FAMILY-RESEMBLANCE-CLASSIFICATION",
   "term": "family-resemblance classification under an independent feature vocabulary",
   "definition": "Relative to a specified classification-feature vocabulary chosen independently of category membership, instances may exhibit overlapping similarity patterns without one feature in that vocabulary common to every instance. The OPEN analyst position asserts that this can adequately describe at least one competent ordinary classification. It does not deny the existence of a membership predicate, arbitrary disjunctive descriptions, or every common nature.",
   "basis": "stipulative",

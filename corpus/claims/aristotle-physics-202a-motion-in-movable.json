@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
-  "statement_id": "STMT-MOTION-LOCATED-IN-MOVABLE",
-  "source_id": "ARIST-PHYS",
+  "id": "445d0ba2-e7aa-504f-a756-2565b205377c",
+  "label": "Aristotle, Physics III.3, 202a13-15: Motion is in the movable whose relevant potentiality is being…",
+  "legacy_id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
+  "statement_id": "d9f98690-fa93-5190-a650-1301bffdd373",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a13-15",
   "interpretation": "Location reading: motion is in the movable because it is the actuality of the movable's relevant potentiality under the action of a mover. The 'in' relation is left primitive rather than treated as spatial containment.",
   "status": "formalized"

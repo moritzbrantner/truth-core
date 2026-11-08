@@ -1,35 +1,68 @@
 {
-  "id": "MODAL-FORK-S5",
+  "id": "0fa6a429-4367-5f69-b4ef-c42a439eae1a",
   "label": "NECESSARY_2 in S5 for the root, from the T and 5 schemas by correspondence",
   "premise_statement_ids": [
-    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
-    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
-    "STMT-NECESSARY-ROOT-BOX-K",
-    "STMT-ONTIC-T-SCHEMA",
-    "STMT-ONTIC-5-SCHEMA",
-    "STMT-INTENDED-BOX-S5"
+    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
+    "c3afabb3-3442-5b29-83bf-7114354b345a",
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "cb456382-efd6-554b-8ee4-c8fc193f876a",
+    "6f474aba-fda0-57fa-8330-6246de589f63",
+    "cce82a3b-be89-5913-98bb-9b87bbe910a6"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "conclusion_statement_id": "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
   "inference_ids": [
-    "INF-MODAL-FORK-S5"
+    "ea7ea220-c121-55b4-9596-f4b3fbe30060"
   ],
   "meaning": "S5 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 5 schemas and the OPEN reading premise (box-existence in S5, and only that) give the fork node. Reflexivity from the T correspondence, Euclideanness from the 5 correspondence of the ConvergenceCertificate. Without the 5 schema the branch fails on the two-world order false <= true (controls).",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-EXACT-LENGTH-PATH",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
-    "DEF-MODAL-GRAPH-PATH-CLOSURE",
-    "DEF-MODAL-HIJK-CONVERGENCE",
-    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
-    "DEF-NECESSARY-IN-SENSE"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "8a85f3d1-9b5e-5542-a787-750d91bbace5",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6db24697-d2c8-58f4-9065-893bbcc9f843",
+    "19fefb43-7d00-554b-b134-511431b1e931",
+    "36e7c64a-de89-5871-915e-e06117844a9c",
+    "92b3450c-ba41-5363-b27b-ef0e943dd7c2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-EXACT-PATH-CLOSURE",
-    "DISAMB-MODAL-GRAPH-EDGE-PATH",
-    "DISAMB-NECESSARY"
+    "70411ba8-2b31-503d-95d3-c80d3926485e",
+    "a60dac42-97d0-55a5-a344-1873700d54ff",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "strong_version_needed": {
-    "STMT-NECESSARY-ROOT-BOX-K": "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node."
-  }
+    "cdf897a8-5490-561a-b9d2-507486a3f192": "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node."
+  },
+  "sense_bridges": [
+    {
+      "term": "EXACT_PATH_LENGTH_VERSUS_ARBITRARY_FINITE",
+      "from": "31d49046-6462-400e-ab25-53b0a28a1163",
+      "to": "be0563ce-7fa6-4b32-a37c-c8a0bce739bf",
+      "statement_id": "c3afabb3-3442-5b29-83bf-7114354b345a"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "cb456382-efd6-554b-8ee4-c8fc193f876a"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "6f474aba-fda0-57fa-8330-6246de589f63"
+    },
+    {
+      "term": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH",
+      "from": "9388f01b-4918-4472-97c3-93e1b897c38c",
+      "to": "a743d896-ff15-430d-9ec6-dbbf98ef6328",
+      "statement_id": "c3afabb3-3442-5b29-83bf-7114354b345a"
+    }
+  ],
+  "legacy_id": "MODAL-FORK-S5"
 }

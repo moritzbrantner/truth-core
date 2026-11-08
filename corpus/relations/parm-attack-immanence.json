@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-ATTACK-IMMANENCE",
+  "id": "f65125f8-e1d9-57d9-9b30-8245a2008bd7",
+  "label": "Grounding cannot universally require…, from… attacks Every explanatory ground must inhere in…",
+  "legacy_id": "REL-PARM-ATTACK-IMMANENCE",
   "subject_kind": "argument",
-  "subject_id": "PARM-DISTANCE-OBJECTION",
+  "subject_id": "b8290011-74f3-5aaa-824c-b960a4882f3c",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-GROUND-REQUIRES-INHERENCE"
+  "object_id": "e24b5816-5255-5d3b-828c-48c2e4a183c3"
 }

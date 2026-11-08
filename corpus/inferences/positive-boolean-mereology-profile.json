@@ -1,7 +1,9 @@
 {
-  "id": "INF-POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "id": "a1e9d711-aba0-5704-a17e-ce25ddd1de6c",
+  "label": "For every supplied Mathlib complete Boolean algebra, its…, by Typed-boolean-difference-supr…",
+  "legacy_id": "INF-POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-POSITIVE-BOOLEAN-MEREOLOGY-PROFILE",
+  "output_statement_id": "21b76e30-c0da-53c4-982a-7245083448af",
   "rule": "typed-boolean-difference-supremum-and-imported-fusion-transfer",
   "meaning": "Construct the exact Boolean difference y minus x when nonzero. Common-part overlap of positive elements is equivalently nonzero meet. For a nonempty family its Boolean supremum is nonzero and supplies Mathlib IsLUB on the subtype. Import the checked Sum1-to-Sum2 transfer; no atomism premise is used.",
   "assumption_statement_ids": [],

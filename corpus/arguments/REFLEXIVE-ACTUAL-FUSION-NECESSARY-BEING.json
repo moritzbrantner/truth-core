@@ -1,35 +1,37 @@
 {
-  "id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "id": "783efca7-1ceb-5839-84d3-3afeef8fc978",
+  "label": "At least one individual exists at the…, from The selected sum actually exists at w AND… and 4… (2)",
+  "legacy_id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
   "premise_statement_ids": [
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+    "523917cf-d978-5a15-87fc-61186d7e59de",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "21265cfa-522d-5151-9435-b4e8f55c0c0f"
   ],
-  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "conclusion_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "inference_ids": [
-    "INF-REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING"
+    "adffe6a9-c79f-56c8-aad3-187cb09fb400"
   ],
   "meaning": "Use existing selected-world ActualReflexive to actualize ANY NecessaryAt p directly by evaluating its universal definition at w. A shared unregistered helper consumes that pointwise actualization; it does not derive actual-part existence. Under scoped denial of any actual NE, every candidate has no necessary parts, since any necessary part would be actual and would witness the denied NE. Actual sum/C3 gives cause c, C1 makes c actual, the scoped classification places c in the exact fusion family, and Fusion.upper plus reflexivity gives forbidden cause/effect overlap. Discharge the scoped denial classically to SOME bare actual NE, not necessity of the selected c. CF2 is replaced ONLY by MF2; no L1/L2/A1, Euclidean/S5/PSR/concreteness or source-truth premise is added.",
   "definition_ids": [
-    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY"
+    "c47495e8-91a6-53e8-88aa-5672c3bdc314",
+    "84b1dc2c-48e6-5465-af21-48015fbf3cbe",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "6ded9b1f-94fc-5f81-8e71-24ce27962165",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ],
   "strong_version_needed": {
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT": "The proof uses causer actuality at the supplied actual fusion sum, independently of its modal actualization step. No spacetime-whole identification is present, so the new whole-specific policy is insufficient as stated. Frozen interface retained; no minimality claim for both-endpoint scope."
+    "b699ecfb-08f7-5864-a671-1205c8f5792f": "The proof uses causer actuality at the supplied actual fusion sum, independently of its modal actualization step. No spacetime-whole identification is present, so the new whole-specific policy is insufficient as stated. Frozen interface retained; no minimality claim for both-endpoint scope."
   }
 }

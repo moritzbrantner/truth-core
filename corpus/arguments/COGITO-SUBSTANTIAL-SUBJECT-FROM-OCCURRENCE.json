@@ -1,19 +1,21 @@
 {
-  "id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "id": "32e48858-6ae9-5848-8226-ed73a7f58da4",
+  "label": "Some subject satisfying the substance predicate bears some occurring thought, from occurrence",
+  "legacy_id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "06431215-6cc4-53ad-9609-4604f7615440"
   ],
-  "conclusion_statement_id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+  "conclusion_statement_id": "b236fc8b-a944-5b2e-8664-d68fae372d47",
   "inference_ids": [
-    "INF-COGITO-SUBJECT-FROM-OCCURRENCE",
-    "INF-COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE"
+    "7ad8dff3-a1f6-5409-942a-25ce57304917",
+    "f430bfde-1708-5cfa-9286-4d45b5e41a13"
   ],
   "meaning": "Obtain a thinking subject from COGITO-SUBJECT-FROM-OCCURRENCE, then apply the substance principle to that bearer and episode.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ]
 }

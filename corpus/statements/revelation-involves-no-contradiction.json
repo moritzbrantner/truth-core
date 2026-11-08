@@ -1,8 +1,10 @@
 {
-  "id": "STMT-REVELATION-INVOLVES-NO-CONTRADICTION",
+  "id": "44696042-51ee-58d0-b462-165ae93680a5",
+  "label": "Revealing a truth and accompanying it with signs involves no contradiction",
+  "legacy_id": "STMT-REVELATION-INVOLVES-NO-CONTRADICTION",
   "paraphrase": "OPEN (attribution deferred): revealing a truth and accompanying it with signs involves no contradiction.",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.RevelationInvolvesNoContradiction",
   "definition_ids": [
-    "DEF-ACTIVE-POWER-TASK-VOCABULARY"
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
   ]
 }

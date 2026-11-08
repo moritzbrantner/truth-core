@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-UNBOUNDED-CORE",
-  "argument_id": "QUARTA-VIA-UNBOUNDED-CORE",
+  "id": "860981a7-4c40-5815-88b5-57af0048c477",
+  "label": "Logical falsity, via unbounded core",
+  "legacy_id": "QUARTA-VIA-UNBOUNDED-CORE",
+  "argument_id": "4723de84-62b2-52e8-8360-443507be5cd5",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaUnboundedCore.incompatible",

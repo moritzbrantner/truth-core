@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-LAWS",
-  "argument_id": "MODAL-B-LAWS",
+  "id": "a9ec8cc6-f83d-5ce7-bc0e-cac6a183a49b",
+  "label": "Symmetry propagates possible full-predicate modal collapse to the root, with neither reflexivity…",
+  "legacy_id": "MODAL-B-LAWS",
+  "argument_id": "5cc9b388-18b4-5291-9e43-548c993f7fe1",
   "challenge_module": "TruthCore.Results.Modal.B.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.B.Laws.checks",

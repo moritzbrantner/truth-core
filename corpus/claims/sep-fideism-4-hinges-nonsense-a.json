@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-4-HINGES-NONSENSE-A",
-  "statement_id": "STMT-HINGES-NONSENSE-READING",
-  "source_id": "SEP-FIDEISM",
+  "id": "352e7177-e035-56e0-961c-f14da3b81ea1",
+  "label": "Richard Amesbury, Fideism §4, Some…: Reading of Über Gewißheit: the forms of words Wittgenstein…",
+  "legacy_id": "SEP-FIDEISM-4-HINGES-NONSENSE-A",
+  "statement_id": "fe3ed69b-f4cd-50da-95a1-68777fb49b3e",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§4, Some interpreters of Wittgenstein, like Rupert Read and Alice Crary",
   "interpretation": "The entry: 'Some interpreters of Wittgenstein, like Rupert Read and Alice Crary, hold that the forms of words to which Wittgenstein refers in On Certainty lack any application and so are nonsense', and on this reading Wittgenstein advances no 'ersatz foundationalism' (Read, 312). Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Read and Crary hold that the forms of words Wittgenstein calls hinges lack any application and so are nonsense, with no ersatz foundationalism advanced, which is the premise.",
   "definition_ids": [
-    "DEF-HINGE-NONSENSE"
+    "1ef9cc6e-1bd9-53e5-9e48-ea908e73df8e"
   ]
 }

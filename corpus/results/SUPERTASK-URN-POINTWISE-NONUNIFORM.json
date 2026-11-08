@@ -1,6 +1,8 @@
 {
-  "id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
-  "argument_id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "id": "342d2212-62f2-53c1-b9a9-cb92d3976273",
+  "label": "In a simplified two-in-one-out infinite urn schedule, each individual ball is absent from all…",
+  "legacy_id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "argument_id": "53395e28-a479-55d8-8336-077d432c3d40",
   "challenge_module": "TruthCore.Results.Causality.SupertaskUrnPointwise.Challenge",
   "solution_module": "TruthCore.Results.Causality.SupertaskUrnPointwise.Solution",
   "theorem": "TruthCore.Results.Causality.SupertaskUrnPointwise.supertaskUrnPointwise",

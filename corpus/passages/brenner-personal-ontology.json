@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "BRENNER-MEREOLOGICAL-NIHILISM-PERSONAL-ONTOLOGY",
+    "source_id": "1d37d7bf-697f-5ea0-b5c2-3d4afff80b28",
     "source_url": "https://www.newdualism.org/papers-Jul2020/Brenner-BREMNA-3.1.pdf",
     "retrieved_at": "2026-10-28T20:00:09Z",
     "sha256": "sha256:04c1f5f914cc044e62246fce5d4233906ceecdf4b58ef97e7659584d61bb4692",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "BRENNER-PERSONAL-ONTOLOGY-ARRANGEMENT-CAUSAL-CONTEXT",
+      "id": "4b5fe639-a4e7-53a7-a82e-e649fe8cd765",
+      "label": "Andrew Brenner, Mereological Nihilism and Personal Ontology, Author preprint pp.5\u20138, Objections2\u20134",
+      "legacy_id": "BRENNER-PERSONAL-ONTOLOGY-ARRANGEMENT-CAUSAL-CONTEXT",
       "locator": "Author preprint pp.5\u20138, Objections2\u20134 (with law-parsimony context)",
       "claim_locator_prefixes": [
         "Objection2",

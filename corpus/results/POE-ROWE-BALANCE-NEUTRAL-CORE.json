@@ -1,6 +1,8 @@
 {
-  "id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
-  "argument_id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
+  "id": "b78ac395-f61f-5e5b-8b8d-061d91473154",
+  "label": "No being is jointly omniscient…, from Some actual occurring intense suffering is… and 1 more",
+  "legacy_id": "POE-ROWE-BALANCE-NEUTRAL-CORE",
+  "argument_id": "66b62f5d-7d9c-52dd-9cc7-ee15e653730a",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.roweBalanceNeutralCore",

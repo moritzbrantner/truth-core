@@ -1,11 +1,13 @@
 {
-  "id": "DEF-MIND-INDEPENDENCE-INTERNAL",
+  "id": "d119699c-0794-519d-bfa5-8b2681886e5f",
+  "label": "MIND_INDEPENDENT_1, asserted from within…: The mind-independence counterfactual taken as one more…",
+  "legacy_id": "DEF-MIND-INDEPENDENCE-INTERNAL",
   "term": "mind-independent, asserted from within moral practice",
   "definition": "The mind-independence counterfactual ('stealing would be wrong even if our attitude toward it were different'; 'if we all approved of cruelty, it would still be wrong') taken as one more piece of realist-sounding moral talk that quasi-realism aims to earn the right to assert (whether it succeeds is not said), where whether asserting it is legitimate is itself an evaluative question settled by one's attitudes and commitments, not by an independent standard of matching the world. In this sense the sentence says nothing about objectivity as a metaphysical thesis (DEF-MORAL-OBJECTIVITY).",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-ANTI-REALISM-3-1-QUASI-REALIST-MIND-INDEPENDENCE",
-    "SEP-METAETHICS-4-QUASI-REALIST-LEGITIMACY-EVALUATIVE"
+    "dd6e3f2f-7b94-5030-8f2c-f9e1f05ed8cd",
+    "32f70ee6-958a-52ff-b9e2-05bf83831fe0"
   ],
   "note": "The two claims are combined: §3.1 of Moral Anti-Realism names the counterfactual among the realist talk quasi-realism aims to earn, and §4 of Metaethics gives the internal standard for that talk; neither applies the other's point by name. The literature's label for this, Blackburn's 'internal reading', is not in the pinned witnesses."
 }

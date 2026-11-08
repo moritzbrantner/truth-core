@@ -1,14 +1,16 @@
 {
-  "id": "INF-COUNT-TEMPORAL-NECESSARY-BEING",
+  "id": "dd16d280-59cb-5f4c-88e8-d929bd0d1b49",
+  "label": "At least one individual exists at the selected world and at every world…, by Constructive-proof (3)",
+  "legacy_id": "INF-COUNT-TEMPORAL-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-COUNT-TEMPORAL-FIVE-POSSIBLE",
-    "STMT-COUNT-TEMPORAL-DESCENT",
-    "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY"
+    "d0ba36fb-cab5-57f4-915b-0e56dd57ca74",
+    "329d48ef-3ce6-5ee4-ad8b-352a0c6e20b2",
+    "85497562-9d71-558a-9a1e-e4b7c321488a",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "constructive-proof",
   "meaning": "Six-input source-free composition. Instantiate existing NB-SURVEY-FIVE-TO-ONE at PossibleCount to obtain one guarded count-one caused threshold. Retain its SAME concrete cause c, history v and earlier time tc. If c were contingent at v, the constant map Fin 1 to c is injective and witnesses the forbidden count-one threshold at tc. Thus c is not contingent. The one-way history-presence bridge supplies actual existence at v; explicit EM converts accessible absence into contingency and contradiction, so SAME c is NecessaryAt v. Euclidean sibling access transports necessity to successors of w; actual reflexivity gives v access back to w, hence actual existence there. Project that very c into existing NecessaryBeing. No now-slice definition, universal frame, global PSR, WF, causal-to-grounding conversion or modal persistence of CauseCount is used. All semantic inputs remain OPEN; the imported count transcription is now connected to a structured witness inference, genuine conditional configuration progress without truth discharge. No weaker-overall-bundle/minimality, uniqueness, God, sufficient explanation or actual-world causal role is claimed.",
   "assumption_statement_ids": [],

@@ -1,11 +1,13 @@
 {
-  "id": "REL-LIMIT-ADMISSION-MODAL-SCHEMA",
+  "id": "14db3acf-0db6-520c-a890-585bcc92bf97",
+  "label": "Every closed subset W of the Boolean… instance of schema For every topological space X…",
+  "legacy_id": "REL-LIMIT-ADMISSION-MODAL-SCHEMA",
   "subject_kind": "statement",
-  "subject_id": "STMT-LIMIT-ADMISSION-MODAL-TRANSFER",
+  "subject_id": "cad37467-5957-516c-aabf-5434d06486d0",
   "predicate": "instance_of_schema",
   "object_kind": "statement",
-  "object_id": "STMT-LIMIT-ADMISSION-SCHEMA",
-  "verification_result_id": "LIMIT-ADMISSION",
+  "object_id": "3a4f93e1-40f5-58b1-9de4-5f678a3699c4",
+  "verification_result_id": "695a73ac-2b13-5219-8b88-a963c29e6688",
   "instance_theorem": "TruthCore.Results.Logic.LimitAdmission.modalTransfer",
   "schema_theorem": "TruthCore.Results.Logic.LimitAdmission.closureLaws",
   "note": "Separate typed conditional application of the shared closed-set limit theorem. Both obligations have frozen Challenges and are checked by LIMIT-ADMISSION Comparator/NanoDa and exact schema binding. This registration establishes no actual-domain closure policy and implies no cross-domain equivalence."

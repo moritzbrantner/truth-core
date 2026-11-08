@@ -1,15 +1,17 @@
 {
-  "id": "STMT-PILOT-LOCAL-PROFILE-VARIATION",
+  "id": "fa3047a0-8a79-5e6f-a5eb-4ecc4dc7a145",
+  "label": "Some test sentence has a true and a false interpretation under different endorsement profiles",
+  "legacy_id": "STMT-PILOT-LOCAL-PROFILE-VARIATION",
   "paraphrase": "Some test sentence has a true and a false interpretation under different endorsement profiles. This leaves other sentences invariant.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.LocalProfileVariation",
   "definition_ids": [
-    "DEF-PILOT-PROFILE-TRUTH",
-    "DEF-PILOT-RELATIVISM-GLOBAL",
-    "DEF-PILOT-RELATIVISM-LOCAL",
-    "DEF-PILOT-EPISTEMIC-LIMITATION"
+    "f83c4d57-8044-505c-9082-b9944f50223a",
+    "b826ed2e-99ea-5586-9c53-829115d34524",
+    "176d848b-e667-50c6-b986-bfcd84e1f5ed",
+    "18aeeeb5-ced9-5195-bf8f-62496c60addb"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE"
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-CONTINGENCY",
+  "id": "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+  "label": "Contingency in the declared model: ◇P ∧ ◇¬P at an origin",
+  "legacy_id": "DEF-HUME-TEST-CONTINGENCY",
   "term": "contingency in the declared model",
   "definition": "◇P ∧ ◇¬P at an origin. In universal Bool accessibility, P(w) := w = true has independently exhibited witnesses true and false; neither ◇MC nor any bridge is used to construct them. It is a finite semantic countermodel, not an empirical claim about our world.",
   "basis": "stipulative",

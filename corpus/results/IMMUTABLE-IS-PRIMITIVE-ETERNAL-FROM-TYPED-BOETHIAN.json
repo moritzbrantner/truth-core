@@ -1,6 +1,8 @@
 {
-  "id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
-  "argument_id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "id": "604a26f7-26d1-59fc-9c30-b6ecb66ac38a",
+  "label": "What is altogether IMMUTABLE_1, in potency in no respect, is ETERNAL_1…, from typed boethian",
+  "legacy_id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "argument_id": "99d3480d-f9f4-5410-986c-a78f6b06c3a0",
   "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Challenge",
   "solution_module": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution",
   "theorem": "TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.primitiveComposition",

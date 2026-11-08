@@ -1,17 +1,21 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "id": "f6d0c06b-75b6-5dd8-a8ac-c3d4b23c6388",
+  "label": "An explicitly two-history, universal-accessibility model preserves the three-world control's exact…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
-  "inference_ids": ["INF-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION"],
+  "conclusion_statement_id": "7c8d8a36-d0d4-5d28-a129-0577536fe8a0",
+  "inference_ids": [
+    "f3a7131b-4a3c-5abe-b808-180ea94e62de"
+  ],
   "meaning": "Keeping both populated presence extensions fixed while dropping the empty world from the domain of modal accessibility makes the root a de-re necessary individual. This demonstrates a distinction between restricting possibility and explaining actual histories, not a reason why possibility must be restricted.",
   "definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e9084b35-22bb-5ed7-b427-ae72e157cc6c",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "e7bd0871-11c6-598c-b213-e17ff86ef168"
   ]
 }

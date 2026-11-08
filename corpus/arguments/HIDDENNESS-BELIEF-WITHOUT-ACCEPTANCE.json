@@ -1,26 +1,28 @@
 {
-  "id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "id": "e36e2c10-f273-5f9d-bab6-7d0d34335d80",
+  "label": "A finite interpretation has belief that God exists without accepting a relationship",
+  "legacy_id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "conclusion_statement_id": "941d754f-600d-5ac7-9fd5-4f2b109a49b9",
   "inference_ids": [
-    "INF-HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE"
+    "3ebdd2db-05b5-5dd0-bef9-a39492ffeaa7"
   ],
   "meaning": "Construct a late-time believer who does not accept a relationship. Belief and voluntary response remain distinct; no theorem that every manner of revelation preserves freedom is claimed.",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CAPACITY",
-    "DEF-HIDDENNESS-RESISTANCE",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-MODEL-SCOPE"
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "ff4cfd4c-1116-5531-b959-34a8fbe626cd",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE",
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

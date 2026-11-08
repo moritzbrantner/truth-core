@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-A5-INDEPENDENCE",
-  "argument_id": "SCOTT-A5-INDEPENDENCE",
+  "id": "426e96a6-7001-5390-9fae-c5e4f15d0161",
+  "label": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4 and makes a…",
+  "legacy_id": "SCOTT-A5-INDEPENDENCE",
+  "argument_id": "6ad828a5-8b24-5918-a7d1-90c00a08f0d9",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceIndependence.checks",

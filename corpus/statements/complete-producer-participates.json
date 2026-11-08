@@ -1,17 +1,19 @@
 {
-  "id": "STMT-COMPLETE-PRODUCER-PARTICIPATES",
+  "id": "9cfaf9de-46cd-5a40-b23d-457e39b9d1a1",
+  "label": "Every complete producer of an effect is a member of the supplied productive-participant family for…",
+  "legacy_id": "STMT-COMPLETE-PRODUCER-PARTICIPATES",
   "paraphrase": "Every complete producer of an effect is a member of the supplied productive-participant family for that same effect.",
   "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.ProducerParticipates",
   "definition_ids": [
-    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "e7f5e58a-1199-5c33-912c-09a87ef554c4",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ],
   "note": "Uses the broad participant sense including whole producers, not exclusively proper partial contributors. It neither defines participants from complete causes nor asserts any production or actual participant exists."
 }

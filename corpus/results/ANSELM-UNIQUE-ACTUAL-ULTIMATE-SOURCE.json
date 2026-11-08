@@ -1,6 +1,8 @@
 {
-  "id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
-  "argument_id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "id": "35cb7e73-3ac9-522c-b15b-d8865334f936",
+  "label": "Exactly one actually existing bearer…, from At least one individual actually exists at… and 5 more",
+  "legacy_id": "ANSELM-UNIQUE-ACTUAL-ULTIMATE-SOURCE",
+  "argument_id": "dd0ad08f-8d76-58e1-8788-4de759cfac1a",
   "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
   "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.uniqueSource",

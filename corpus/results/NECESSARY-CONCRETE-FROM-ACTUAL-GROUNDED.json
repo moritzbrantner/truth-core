@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
-  "argument_id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "id": "cc957087-0d67-5723-b007-3ce9ea0e56f4",
+  "label": "Some concrete individual exists at w and at every world accessible from w…, from actual grounded",
+  "legacy_id": "NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "argument_id": "52d36165-3377-592b-848b-fdfbd65e77cc",
   "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryConcreteOfActualGrounded",

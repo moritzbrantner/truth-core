@@ -1,11 +1,13 @@
 {
-  "id": "STMT-HUME-INDUCTION-SOME-RELIANCE",
+  "id": "97e39364-c47c-5489-af9e-8805cd1204a1",
+  "label": "The assessment contains at least one topic of practical reliance offered as rational",
+  "legacy_id": "STMT-HUME-INDUCTION-SOME-RELIANCE",
   "paraphrase": "The assessment contains at least one topic of practical reliance offered as rational. This analytical premise is not a sourced universal claim that everyone always acts rationally.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.SomeReliance",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-PRACTICE"
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

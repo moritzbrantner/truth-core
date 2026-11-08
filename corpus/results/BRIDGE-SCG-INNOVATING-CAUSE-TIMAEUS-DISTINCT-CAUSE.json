@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
-  "argument_id": "BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
+  "id": "534051b3-152c-5dd3-a9a5-48a8a3a21ece",
+  "label": "Anything that comes to be has some distinct…, from What comes to be anew takes its origin from…",
+  "legacy_id": "BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
+  "argument_id": "08dba28f-776e-565d-b579-9ee0cf3c1e8d",
   "challenge_module": "TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause.Challenge",
   "solution_module": "TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause.Solution",
   "theorem": "TruthCore.Results.Bridges.ScgInnovatingCauseTimaeusDistinctCause.distinctCausePrincipleOfInnovatingCause",

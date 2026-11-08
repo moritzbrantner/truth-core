@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
-  "statement_id": "STMT-HUMAN-INTELLECT-USES-NO-BODILY-ORGAN",
-  "source_id": "AQUINAS-ST",
+  "id": "55de009b-5034-5ae1-884b-a1530405308f",
+  "label": "Thomas Aquinas, Summa theologiae I q.75 a.2…: No body can be the instrument through which the…",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "statement_id": "72c895c7-9a8b-513f-9c78-9cb64ebaedff",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.75 a.2 co.: Et similiter impossibile est quod intelligat per organum corporeum",
   "interpretation": "The second subconclusion denies exercise of intellectual operation through a bodily organ. The negated existential ranges over bodies selected by the reused IsBody predicate and the separate relation for capacity of intellectual exercise through an instrument. It neither states that cognition needs no bodily conditions nor includes the later per-se-subsistence step. Reply 3 preserves object-side bodily dependence; q.76 a.1 ad 1 supplies compatible soul-as-form context.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE",
-    "DEF-Q75-ORGAN-EXERCISE",
-    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9",
+    "35a01636-e163-5b03-80b0-22e83004cfe6",
+    "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "0ad6390d-a011-5319-800a-f95750632746",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

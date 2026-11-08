@@ -1,12 +1,14 @@
 {
-  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
+  "id": "810ef31c-99e4-53dc-b931-38f9e1561218",
+  "label": "The cosmos has a CAUSE_2 distinct…, from Anything that comes to be has some distinct… and 1 more",
+  "legacy_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-B",
   "premise_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-DISTINCT",
-    "STMT-COSMOS-GENERATED"
+    "9709d14f-1324-58f1-8889-1110881c5b44",
+    "5a1cc285-fc48-5e4b-afd3-53fd40976f62"
   ],
-  "conclusion_statement_id": "STMT-COSMOS-HAS-DISTINCT-CAUSE",
+  "conclusion_statement_id": "d9d4f9ed-692a-5a2e-b2ff-d749c31a49e4",
   "inference_ids": [
-    "INF-PLATO-TIM-COSMOS-CAUSE-B"
+    "f52ff72b-539d-51be-8802-d602ee1fd03e"
   ],
   "meaning": "Under the stronger distinct-cause reading and the generated-cosmos premise, a cause distinct from the cosmos exists."
 }

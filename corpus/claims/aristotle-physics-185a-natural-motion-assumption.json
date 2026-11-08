@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185A-NATURAL-MOTION-ASSUMPTION-A",
-  "statement_id": "STMT-SOME-NATURAL-THINGS-IN-MOTION",
-  "source_id": "ARIST-PHYS",
+  "id": "7b28a77b-ea90-597f-9ea1-403c787b2ac1",
+  "label": "Aristotle, Physics I.2, 185a12-14: Natural science takes as given that all or at least some…",
+  "legacy_id": "ARIST-PHYS-185A-NATURAL-MOTION-ASSUMPTION-A",
+  "statement_id": "0bc6644e-c4a6-516f-b8c6-1880bdb7759e",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185a12-14",
   "interpretation": "Starting-point reading: physics assumes that at least some natural things move, which Aristotle says is evident by induction. This is recorded as a source commitment rather than a theorem proved from the later theory of motion.",
   "status": "formalized"

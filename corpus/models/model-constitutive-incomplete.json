@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-CONSTITUTIVE-INCOMPLETE",
+  "id": "52f18b09-7294-58e9-b1fb-bf43c44d622f",
+  "label": "Finite deletion witness for the constitutive plurality core; this is a model-relative… (2)",
+  "legacy_id": "MODEL-CONSTITUTIVE-INCOMPLETE",
   "description": "Finite deletion witness for the constitutive plurality core; this is a model-relative assignment, not metaphysical possibility or a premise discharge. The full original two-root joint control is retained.",
   "vocabulary": "CONSTITUTIVE-CONFIGURATION",
   "lean_declaration": "TruthCore.Models.ConstitutiveConfiguration.modelIncomplete",
@@ -49,7 +51,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
+      "statement_id": "2344542e-8036-5cbe-9dfc-af5e7907cde5",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -59,7 +61,7 @@
       "theorem": "TruthCore.Models.ConstitutiveConfiguration.incomplete0"
     },
     {
-      "statement_id": "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
+      "statement_id": "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -73,7 +75,7 @@
       "theorem": "TruthCore.Models.ConstitutiveConfiguration.incomplete1"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
+      "statement_id": "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -85,7 +87,7 @@
       "theorem": "TruthCore.Models.ConstitutiveConfiguration.incomplete2"
     },
     {
-      "statement_id": "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+      "statement_id": "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -96,7 +98,7 @@
       "theorem": "TruthCore.Models.ConstitutiveConfiguration.incomplete3"
     },
     {
-      "statement_id": "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
+      "statement_id": "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
       "value": "violates",
       "arguments": [
         "Principle",
@@ -106,7 +108,7 @@
       "theorem": "TruthCore.Models.ConstitutiveConfiguration.incomplete4"
     },
     {
-      "statement_id": "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
+      "statement_id": "55890498-a250-5f23-9277-bd563a557378",
       "value": "satisfies",
       "arguments": [
         "Being",

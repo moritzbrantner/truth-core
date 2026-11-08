@@ -1,10 +1,12 @@
 {
-  "id": "PLATO-TIM-28A-CAUSE-B",
-  "statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
-  "source_id": "PLATO-TIM",
+  "id": "b8932222-8f7c-58b6-9083-70a276223587",
+  "label": "Plato, Timaeus 28a: Anything that comes to be has some distinct CAUSE_2",
+  "legacy_id": "PLATO-TIM-28A-CAUSE-B",
+  "statement_id": "9709d14f-1324-58f1-8889-1110881c5b44",
+  "source_id": "1d9ebf15-85ad-54cf-9d5d-b1753bf6e812",
   "locator": "28a",
   "interpretation_group": "PLATO-TIM-28A-CAUSE",
-  "interpretation_of": "PLATO-TIM-28A-CAUSE-A",
+  "interpretation_of": "0060bf0a-19c3-5028-83b0-8211a0b465a1",
   "interpretation": "Stronger reading: the cause of something that comes to be is distinct from the thing that comes to be.",
   "status": "formalized"
 }

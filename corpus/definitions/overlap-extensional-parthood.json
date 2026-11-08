@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
+  "id": "6f09b078-c49b-5dc5-b7a8-524fdded7dc5",
+  "label": "Overlap-extensional parthood on a…: For all x,y, x ≤ y iff for all z, existing Overlap z x implies…",
+  "legacy_id": "DEF-OVERLAP-EXTENSIONAL-PARTHOOD",
   "term": "overlap-extensional parthood on a fixed partial order",
   "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.OverlapExtensionalParthood",
   "basis": "stipulative",

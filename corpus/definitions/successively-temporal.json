@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUCCESSIVELY-TEMPORAL",
+  "id": "c3dd15c9-b0a6-5b72-aef1-3b055d1c2941",
+  "label": "TEMPORAL_1: SuccessivelyTemporal S x: for some series i of the family S, x is present at an earlier…",
+  "legacy_id": "DEF-SUCCESSIVELY-TEMPORAL",
   "term": "temporal (successive sense)",
   "definition": "`SuccessivelyTemporal S x`: for some series i of the family S, x is present at an earlier and a later time of S i and its state differs between them. This is LifeHasSuccession of the q.10 duration frame (the negation of TotaSimul in DEF-BOETHIAN-ETERNAL) with presence in place of life. Being merely present at a time, or at several times without change of state, is not temporal in this sense.",
   "basis": "stipulative",

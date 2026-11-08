@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-A",
-  "argument_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-A",
+  "id": "84eab30e-80ba-5df6-b559-fa44bc57c3c0",
+  "label": "The cosmos has a CAUSE_2, from Anything that comes to be has some CAUSE_2 and 1 more",
+  "legacy_id": "PLATO-TIM-28A-28C-COSMOS-CAUSE-A",
+  "argument_id": "1fdecb74-48db-5d73-b1eb-aee38d6a6d16",
   "challenge_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.Challenge",
   "solution_module": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.Solution",
   "theorem": "TruthCore.Results.Plato.Timaeus.CosmosCauseA.cosmosHasCause",

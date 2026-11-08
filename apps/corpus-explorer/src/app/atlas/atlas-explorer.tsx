@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
-import { useMemo, useState } from "react";
+import { createContext, useContext, useMemo, useState } from "react";
 
 import { selectedConfiguration } from "@/lib/configuration-selection";
 import type { VerifiedConfigurationBundle, VerifiedConfigurationCase } from "@/lib/verified-configurations";
@@ -31,8 +31,12 @@ const views: Array<{ id: View; number: string; label: string; description: strin
   { id: "impact", number: "05", label: "Impact waves", description: "Recorded dependency reach when a premise is challenged" },
 ];
 
-function compactId(id: string): string {
-  return id.replace(/^STMT-/, "").replace(/^CATHOLICISM-/, "").replaceAll("-", " ").toLowerCase();
+// Display names (record labels) of the ids in the current model; ids stay opaque.
+const NamesContext = createContext<Record<string, string>>({});
+
+function useCompactId() {
+  const names = useContext(NamesContext);
+  return (id: string) => names[id] ?? id;
 }
 
 function radial(index: number, count: number, radius: number, centerX = 440, centerY = 255) {
@@ -46,6 +50,7 @@ function StatusMark({ status }: { status: AtlasMosaicCell["status"] }) {
 }
 
 function EmptyCertification({ registrations }: { registrations: Registration[] }) {
+  const compactId = useCompactId();
   return <section className={styles.emptyState} aria-label="Certification unavailable">
     <span className={styles.emptySymbol}>∅</span>
     <h3>Certification unavailable in this build</h3>
@@ -58,6 +63,7 @@ function EmptyCertification({ registrations }: { registrations: Registration[] }
 }
 
 function CaseSelector({ cases, selected, onChange }: { cases: VerifiedConfigurationCase[]; selected: string; onChange: (id: string) => void }) {
+  const compactId = useCompactId();
   return <label className={styles.selectLabel}>Formal case / semantic profile
     <select value={selected} onChange={(event) => onChange(event.target.value)}>
       {cases.map((entry) => <option value={entry.id} key={entry.id}>{compactId(entry.id)} · {entry.semantics.id}</option>)}
@@ -66,6 +72,7 @@ function CaseSelector({ cases, selected, onChange }: { cases: VerifiedConfigurat
 }
 
 function Constellation({ cores, selected, onSelect }: { cores: AtlasCore[]; selected: AtlasCore; onSelect: (key: string) => void }) {
+  const compactId = useCompactId();
   const propositions = [...new Set(cores.flatMap((core) => core.statement_ids))].sort();
   const statementPoints = new Map(propositions.map((id, index) => [id, radial(index, propositions.length, propositions.length < 5 ? 176 : 212)]));
   const corePoints = cores.map((_, index) => cores.length === 1 ? { x: 440, y: 255 } : radial(index, cores.length, Math.min(122, 42 + cores.length * 15)));
@@ -85,7 +92,7 @@ function Constellation({ cores, selected, onSelect }: { cores: AtlasCore[]; sele
         return <g key={id}>
           <circle cx={point.x} cy={point.y} r={active ? 18 : 14} className={active ? styles.activeProposition : styles.proposition} />
           <text x={point.x} y={point.y + 4} textAnchor="middle" className={styles.nodeText}>P{index + 1}</text>
-          <title>{id}</title>
+          <title>{compactId(id)}</title>
         </g>;
       })}
       {cores.map((core, index) => {
@@ -109,6 +116,7 @@ function CoreView({ model, cases, producer, registrations, selectedCase, changeC
   selectedCoreKey: string | null;
   selectCore: (key: string) => void;
 }) {
+  const compactId = useCompactId();
   if (!producer || !selectedCase) { return <EmptyCertification registrations={registrations} />; }
   const cores = certifiedCores(selectedCase);
   const selected = cores.find((core) => core.key === selectedCoreKey) ?? cores[0];
@@ -132,11 +140,11 @@ function CoreView({ model, cases, producer, registrations, selectedCase, changeC
           <p className={styles.panelNote}>{selected.minimality}</p>
           <ol className={styles.statementList}>{selected.statement_ids.map((id, index) => <li key={id}>
             <span className={styles.statementNumber}>P{[...new Set(cores.flatMap((core) => core.statement_ids))].sort().indexOf(id) + 1 || index + 1}</span>
-            <span><Link href={`/statements/${id}`} className={styles.recordLink}>{id}</Link><span className={styles.statementParaphrase}>{model.labels[id] ?? id}</span></span>
+            <span><Link href={`/statements/${id}`} className={styles.recordLink}>{compactId(id)}</Link><span className={styles.statementParaphrase}>{model.labels[id] ?? id}</span></span>
           </li>)}</ol>
-          <div className={styles.proofLinks}><span>Verified results</span>{selected.result_ids.map((id) => <Link href={`/results/${id}`} key={id}>{id}</Link>)}</div>
+          <div className={styles.proofLinks}><span>Verified results</span>{selected.result_ids.map((id) => <Link href={`/results/${id}`} key={id}>{compactId(id)}</Link>)}</div>
           <details className={styles.evidenceDetails}><summary>Single-premise removal evidence</summary>
-            <ul>{selected.removal_evidence.map((entry) => <li key={entry.removed_statement_id}><strong>{entry.removed_statement_id}</strong> · {entry.model_ids.length ? entry.model_ids.join(", ") : "No matching certified witness"}</li>)}</ul>
+            <ul>{selected.removal_evidence.map((entry) => <li key={entry.removed_statement_id}><strong>{compactId(entry.removed_statement_id)}</strong> · {entry.model_ids.length ? entry.model_ids.join(", ") : "No matching certified witness"}</li>)}</ul>
           </details>
         </section>
       </div>
@@ -151,6 +159,7 @@ function MosaicView({ cases, producer, registrations, selectedCase, changeCase, 
   maskParam: string | null;
   selectMask: (mask: number) => void;
 }) {
+  const compactId = useCompactId();
   const cells = useMemo(() => selectedCase ? certifiedMosaic(selectedCase) : [], [selectedCase]);
   if (!producer || !selectedCase) { return <EmptyCertification registrations={registrations} />; }
   const dimensions = selectedCase.assumption_space.statement_ids;
@@ -197,7 +206,7 @@ function MosaicView({ cases, producer, registrations, selectedCase, changeCase, 
         </fieldset>
         {selectedReport ? <div className={styles.selectionOutcome}>
           {selectedReport.status === "verified incompatible" ? <><p>At least one certified incompatible core is contained in this selection.</p>
-            {selectedReport.incompatible_cores.map((core) => <p key={core.result_id}><Link href={`/results/${core.result_id}`}>{core.result_id}</Link> · {core.statement_ids.length} members</p>)}
+            {selectedReport.incompatible_cores.map((core) => <p key={core.result_id}><Link href={`/results/${core.result_id}`}>{compactId(core.result_id)}</Link> · {core.statement_ids.length} members</p>)}
           </> : selectedReport.status === "model witnessed" ? <><p>A recorded model satisfies all selected formulas in this semantic profile.</p>
             {selectedReport.model_ids.map((id) => <p className={styles.mono} key={id}>{id}</p>)}</> : <p>{selectedReport.unresolved_reason ?? "No certificate or model witness recorded for this selection."}</p>}
           {selectedReport.core_composition.truncated ? <p>Core composition was bounded; completeness remains unresolved.</p> : null}
@@ -223,6 +232,7 @@ const TREE_TILE: Record<FrontierDepth, string> = {
 };
 
 function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel; selectedRouteId: string | null; selectRoute: (id: string) => void }) {
+  const compactId = useCompactId();
   const routes = model.routes;
   const selected = routes.find((route) => route.argument_id === selectedRouteId) ?? routes.find((route) => route.designated) ?? routes[0];
   const max = Math.max(1, ...routes.map((route) => route.cost));
@@ -254,7 +264,7 @@ function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel;
         <p className={styles.routeCaveat}>{selected.verified ? "Verified formal result" : "Formal verification not recorded"} · {selected.transcription ? "transcription-only" : "conditional derivation"} · {selected.proved_unestablished_statement_ids.length} proved but unestablished intermediates.</p>
         <Link href={model.argumentTargets[selected.argument_id]} className={styles.primaryAction}>Inspect argument and inferences ↗</Link>
         <details className={styles.evidenceDetails}><summary>Inspect all {selected.open_premise_statement_ids.length} route leaves</summary>
-          <ul className={styles.detailPremises}>{selected.open_premise_statement_ids.map((id) => <li key={id}><span className={DEPTH_BADGE[selected.open_premise_depths[id] ?? "proved_unestablished"]}>{selected.open_premise_depths[id] === "proved_unestablished" || !selected.open_premise_depths[id] ? "proved, unestablished" : selected.open_premise_depths[id]}</span><Link href={`/statements/${id}`}>{id}</Link></li>)}</ul>
+          <ul className={styles.detailPremises}>{selected.open_premise_statement_ids.map((id) => <li key={id}><span className={DEPTH_BADGE[selected.open_premise_depths[id] ?? "proved_unestablished"]}>{selected.open_premise_depths[id] === "proved_unestablished" || !selected.open_premise_depths[id] ? "proved, unestablished" : selected.open_premise_depths[id]}</span><Link href={`/statements/${id}`}>{compactId(id)}</Link></li>)}</ul>
         </details>
       </section> : null}
     </div>
@@ -262,6 +272,7 @@ function RouteView({ model, selectedRouteId, selectRoute }: { model: AtlasModel;
 }
 
 function FrontierView({ model, selectedGroup, selectGroup }: { model: AtlasModel; selectedGroup: string | null; selectGroup: (id: string) => void }) {
+  const compactId = useCompactId();
   const [filter, setFilter] = useState("");
   const tiles = useMemo(() => frontierTiles(model.premises), [model.premises]);
   const active = tiles.find((tile) => tile.id === selectedGroup) ?? tiles[0];
@@ -293,7 +304,7 @@ function FrontierView({ model, selectedGroup, selectGroup }: { model: AtlasModel
       <div className={styles.panelHeading}><span>{active.title}</span><span>{active.count} open premises</span></div>
       <label className={styles.searchLabel}>Find within partition<input type="search" value={filter} onChange={(event) => setFilter(event.target.value)} placeholder="Statement ID or text…" /></label>
       <ul className={styles.frontierList}>{sorted.slice(0, 18).map((premise) => <li key={premise.id}>
-        <Link href={`/statements/${premise.id}`}>{premise.id}</Link>
+        <Link href={`/statements/${premise.id}`}>{compactId(premise.id)}</Link>
         <p>{premise.label}</p>
         <span>{premise.dependentStatements.length} recorded downstream statements · {premise.objections.length} objections</span>
       </li>)}</ul>
@@ -331,6 +342,7 @@ function ImpactWaves({ premise, model }: { premise: AtlasPremise; model: AtlasMo
 }
 
 function ImpactView({ model, selectedPremiseId, selectPremise }: { model: AtlasModel; selectedPremiseId: string | null; selectPremise: (id: string) => void }) {
+  const compactId = useCompactId();
   const ranked = useMemo(() => [...model.premises].sort((a, b) =>
     Number(b.rootReaching) - Number(a.rootReaching) || b.dependentStatements.length - a.dependentStatements.length || a.id.localeCompare(b.id)), [model.premises]);
   const selected = ranked.find((item) => item.id === selectedPremiseId) ?? ranked[0];
@@ -354,10 +366,10 @@ function ImpactView({ model, selectedPremiseId, selectPremise }: { model: AtlasM
       <section className={styles.panel}>
         <div className={styles.panelHeading}><span>Recorded downstream support</span><span>{selected.dependentArguments.length + selected.dependentStatements.length} records to inspect</span></div>
         <details className={styles.evidenceDetails} open><summary>{selected.dependentArguments.length} dependent arguments</summary><ul>
-          {selected.dependentArguments.map((id) => <li key={id}><Link href={model.argumentTargets[id]}>{id}</Link></li>)}
+          {selected.dependentArguments.map((id) => <li key={id}><Link href={model.argumentTargets[id]}>{compactId(id)}</Link></li>)}
         </ul></details>
         <details className={styles.evidenceDetails}><summary>{selected.dependentStatements.length} downstream conclusions</summary><ul>
-          {selected.dependentStatements.map((id) => <li key={id}><Link href={`/statements/${id}`}>{id}</Link></li>)}
+          {selected.dependentStatements.map((id) => <li key={id}><Link href={`/statements/${id}`}>{compactId(id)}</Link></li>)}
         </ul></details>
       </section>
       <section className={styles.panel}>
@@ -389,7 +401,7 @@ export function AtlasExplorer({ model, cases, producer, registrations }: Props) 
   }
 
   const commonCase = { model, cases, producer, registrations, selectedCase, changeCase: (id: string) => change({ case: id, core: null, mask: null }) };
-  return <div className={styles.atlasRoot}>
+  return <NamesContext.Provider value={model.names}><div className={styles.atlasRoot}>
     <nav aria-label="Atlas visualizations" className={styles.tabs}>
       {views.map((entry) => <button type="button" key={entry.id} className={`${styles.tab} ${entry.id === view ? styles.activeTab : ""}`}
         aria-current={entry.id === view ? "page" : undefined} onClick={() => change({ view: entry.id })}>
@@ -403,5 +415,5 @@ export function AtlasExplorer({ model, cases, producer, registrations }: Props) 
     {view === "routes" ? <RouteView model={model} selectedRouteId={query.get("route")} selectRoute={(id) => change({ route: id })} /> : null}
     {view === "frontier" ? <FrontierView model={model} selectedGroup={query.get("group")} selectGroup={(id) => change({ group: id })} /> : null}
     {view === "impact" ? <ImpactView model={model} selectedPremiseId={query.get("premise")} selectPremise={(id) => change({ premise: id })} /> : null}
-  </div>;
+  </div></NamesContext.Provider>;
 }

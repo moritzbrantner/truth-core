@@ -166,6 +166,8 @@ Formalize what can be formalized. Derive what can be derived. Document only what
 - **Encodings must be able to fail.** A transcription or an opaque flag is documentation in Lean syntax, not formalization (invariant 16).
 - **Interpretation forks become sibling propositions.** Where a point is open to interpretation, create one claim or statement per defensible option (invariant 5), linked by `interpretation_of` or a disambiguation, not "reading A / reading B" paragraphs in a note.
 - **Strength forks become strong and weak versions (#1017).** Where the ambiguity is one of strength (for every S, or only for the sentences the argument uses), record both versions as sibling statements and register the order with a `strengthens` relation (strong → weak). It is valid only with a verified result whose argument has the strong version as its only premise and the weak version as its conclusion; a strictness countermodel is optional. Use the **weakest version that suffices** in each argument; an argument that keeps the strong version records why in `strong_version_needed`. Each version gets its own claims: a source that states only the weak version is never attributed the strong one. Senses that differ in content rather than strength (eternity and sempiternity, #979) stay a disambiguation. See `docs/corpus-model.md`, "Strength order".
+- **Disambiguate through definitions, not labels.** Each consequential `TERM_1`/`TERM_2` sense needs its own `DEF-…` record and a faithful formal interpretation. Reuse and, when needed, define the load-bearing terms *inside* its definition, recursively; this may grow into an extensive shared dictionary, with no arbitrary depth limit. A Lean primitive is allowed only when explicitly identified as primitive, with its meaning, distinguishing conditions and open semantic obligations stated. A primitive relation or a theorem that merely constrains it is not a completed Lean definition. Do not conceal a contested bridge in definitional equality or create circular definitional unfoldings. See `docs/corpus-model.md`, "Definition dependencies and formal meaning".
+- **Terms carry sense labels (owner direction, 2026-11-07).** Each disambiguated term has numbered senses TERM_n (PRIOR_1, PRIOR_2) with opaque uuid identities; labels are stable and only appended. Each sense is a distinct Lean type (`senses[].lean_declaration`), so equivocation is meant to be a type error that `bind-check` catches; a sense label without a distinct Lean declaration is not a finished sense. One argument uses one sense per term. An argument valid in several senses becomes one argument per sense (`for_each_sense` in `argument_batch.py`). A passage between senses is an explicit premise listed in `sense_bridges`, or the conclusion of an argument that derives it (`role: "conclusion"`); a premise-free control showing that mixing fails sets `sense_mixing_control: true`. The legacy allowlist in `corpus/sense-index-allowlist.json` may only shrink (#1233). See `docs/corpus-model.md`, "Sense-indexed terms".
 - **Prose residue names its blocker.** Prose is legitimate for source-fidelity judgments, rejected interpretations with their reasons, and what cannot yet be typed. Each such residue says what encoding it would need: vocabulary, a source, or a judgment that cannot be encoded.
 
 ## Exploration and batch certification (owner direction, 2026-11-07)
@@ -185,11 +187,12 @@ Breadth matters as much as certification. For a target proposition, first write 
 3. **Audit idle work before each round.** Before selecting a research round, list the verified result families that do not reach the root (`truth orphans`, once merged). Connect large disconnected families before opening new derivations. Judge rounds first by route cost and defended premises (`frontier-diff`); thickness is secondary.
 4. **Fork load-bearing terms; do not keep senses in silos.** When a term on a root path has several senses (a disambiguation listing them), proceed in this order:
    - (a) Add two explicit open premises. COVERAGE: "senses A, B, … are all the relevant senses". EXCLUSIVITY: "exactly one sense applies to this use". Formalize exclusivity as the intended reading selecting one constructor, or as mutually exclusive cells, because senses may be strength-ordered and need not have disjoint extensions.
-   - (b) Make a typed enum of the senses, each unfolding to its existing Lean declaration.
-   - (c) For each sense, prove the route step, or show it fails with a countermodel or a `refutes` relation.
-   - (d) Prove a joint theorem by cases, with coverage as a premise. Record `strengthens` between senses where one implies another.
+   - (b) Ground each sense in its own definition record and Lean interpretation. Follow consequential terms in those definitions to further definitions/disambiguations. If a relation is primitive, distinguish it from a definition with a body and record the open semantic constraints; do not treat a premise about it as its definition.
+   - (c) Make a typed enum of the senses, each referring to its sense-specific Lean declaration; names and distinct types alone do not establish the intended meanings.
+   - (d) For each sense, prove the route step, or show it fails with a countermodel or a `refutes` relation. Test proposed equivalence, implication and independence between senses rather than assuming any of them.
+   - (e) Prove a joint theorem by cases, with coverage as a premise. Record `strengthens` between senses where one implies another.
 
-   Only then attack rival definitions and worldviews: the fork turns their refutation into a checked disjunctive syllogism instead of ad hoc rebuttals. A disambiguation whose resolution says its senses are unrelated marks an unfinished fork, not a finished analysis.
+   Only then attack rival semantic commitments and worldviews: the fork turns their refutation into a checked disjunctive syllogism instead of ad hoc rebuttals. A disambiguation whose resolution says its senses are unrelated marks an unfinished fork, not a finished analysis.
 
 See `docs/decisions/2026-11-07-02-connect-libraries-to-the-case.md`.
 
@@ -434,34 +437,13 @@ TruthCore.Greek.Plato.Timaeus
 TruthCore.Greek.Aristotle.Physics
 ```
 
-Claim IDs are stable provenance/interpretation IDs:
+Corpus ids are opaque UUIDs (owner decision 2026-11-07): "we just cannot afford any ambiguity anymore". A readable id puts words, and therefore senses, into identity.
 
-```text
-PLATO-TIM-28A-CAUSE-A
-PLATO-TIM-28A-CAUSE-B
-```
-
-Statement IDs are stable proposition IDs and should not encode an assertion that two source readings are identical:
-
-```text
-STMT-CAUSE-PRINCIPLE-BROAD
-STMT-COSMOS-HAS-CAUSE
-```
-
-Passage IDs identify reproducible source evidence ranges, not interpretations:
-
-```text
-PLATO-TIM-28
-ARIST-PHYS-I-4
-```
-
-Argument IDs identify a composed derivation. Result IDs identify a verifier record and may intentionally match the argument ID in the seed corpus:
-
-```text
-PLATO-TIM-28A-28C-COSMOS-CAUSE-A
-```
-
-Do not renumber existing IDs merely because new earlier material is added.
+- **Never mint a readable id.** A new record gets a uuid4 (`python3 scripts/new_id.py`); `argument_batch.py` mints them for spec records.
+- **Use labels for humans.** Every record has a `label`, unique within its kind, at most 100 characters, with no id-like text, naming the thing plainly (a statement by its proposition, an argument or result by its conclusion and route). A term with a linked disambiguated sense carries its sense tag: "Act is PRIOR_1 to potency".
+- **Legacy readable ids are aliases.** Migrated records keep the old id as `legacy_id` (for example `STMT-CATHOLICISM-TRUE`, `PLATO-TIM-28A-CAUSE-A`); tools and prose may use it, and it resolves to exactly one uuid per kind. Tools accept a uuid, legacy id or label and print `label [uuid8]`.
+- **IDs are permanent UUIDs; legacy aliases never change.** Labels may be improved at any time; docs/notes/label-cleanup.md lists the mechanical labels to fix, and that list may only shrink (#1233).
+- An in-flight branch with readable-id records converts by merging `origin/main` and running `python3 scripts/migrate_uuid.py --write` (docs/notes/uuid-migration.md).
 
 <!-- BEGIN:turborepo-agent-rules -->
 

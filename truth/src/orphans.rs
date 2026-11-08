@@ -726,7 +726,14 @@ pub fn sense_report(checkout: &Path, corpus: &Corpus, root: &str) -> Value {
                 .get(id)
                 .into_iter()
                 .flatten()
-                .find(|statement| suffixes.iter().any(|suffix| statement.ends_with(suffix)))
+                .find(|statement| {
+                    let legacy = statements
+                        .get(*statement)
+                        .and_then(|record| record.get("legacy_id"))
+                        .and_then(Value::as_str)
+                        .unwrap_or(statement);
+                    suffixes.iter().any(|suffix| legacy.ends_with(suffix))
+                })
                 .map(|statement| (*statement).to_owned())
         };
         let field = |name: &str| {
@@ -1159,6 +1166,27 @@ mod tests {
         assert_eq!(
             unforked["disambiguations"][0]["coverage_statement_id"],
             "T-SENSES-EXHAUSTIVE"
+        );
+        // UUID identity keeps the legacy suffix as navigation, not identity.
+        write(
+            root,
+            "corpus/statements/T-SENSES-EXHAUSTIVE.json",
+            &json!({"id": "11111111-1111-5111-8111-111111111111",
+                "legacy_id": "T-SENSES-EXHAUSTIVE", "paraphrase": "x",
+                "disambiguation_ids": ["DISAMB-T"]})
+            .to_string(),
+        );
+        let migrated = sense_report(root, &Corpus::load(root).unwrap(), "ROOT");
+        assert_eq!(
+            migrated["disambiguations"][0]["coverage_statement_id"],
+            "11111111-1111-5111-8111-111111111111"
+        );
+        write(
+            root,
+            "corpus/statements/T-SENSES-EXHAUSTIVE.json",
+            &json!({"id": "T-SENSES-EXHAUSTIVE", "paraphrase": "x",
+                "disambiguation_ids": ["DISAMB-T"]})
+            .to_string(),
         );
         // A verified joint theorem taking the coverage premise completes it.
         write(

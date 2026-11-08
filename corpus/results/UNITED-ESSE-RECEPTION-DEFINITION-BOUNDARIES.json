@@ -1,6 +1,8 @@
 {
-  "id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
-  "argument_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "id": "5698c98a-c508-5e3d-828e-639e84e68a3d",
+  "label": "Six finite exact controls: same-sense communication defeats broad own-essence while the…",
+  "legacy_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "argument_id": "c8076d32-3fb5-59f9-9674-f05cb47b4cf3",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.controls",

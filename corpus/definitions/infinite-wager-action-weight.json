@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INFINITE-WAGER-ACTION-WEIGHT",
+  "id": "84740500-df36-5dda-bcd0-98fa9db1d8ff",
+  "label": "INDEPENDENT_REWARDED_ACT_PROBABILITY_2: The second parameter q of InfiniteWager.value p q is the…",
+  "legacy_id": "DEF-INFINITE-WAGER-ACTION-WEIGHT",
   "term": "independent rewarded-act probability",
   "definition": "The second parameter q of InfiniteWager.value p q is the independent probability of selecting the rewarded act, interpreted in [0,1]. It is distinct from the prior p over the reward state. Selecting an act does not make the state true and is not represented as selecting a belief.",
   "basis": "stipulative",

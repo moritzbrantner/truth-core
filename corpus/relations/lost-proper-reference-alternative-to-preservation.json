@@ -1,9 +1,11 @@
 {
-  "id": "REL-LOST-PROPER-REFERENCE-ALTERNATIVE-TO-PRESERVATION",
+  "id": "47a9aa42-cdbf-5cf6-a763-eb2081a96310",
+  "label": "A precise failure of proper-to-practice… alternative to For each being satisfying the selected…",
+  "legacy_id": "REL-LOST-PROPER-REFERENCE-ALTERNATIVE-TO-PRESERVATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-PROPER-REFERENCE-LOST",
+  "subject_id": "99000c5a-5e2d-5013-8956-6e8b994171cf",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "object_id": "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
   "note": "Actual counterexample to one-way preservation in the fixed profile; not another named reference theory. Explicit EM proves the structural coverage result."
 }

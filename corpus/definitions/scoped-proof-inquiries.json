@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCOPED-PROOF-INQUIRIES",
+  "id": "0a521f5a-275b-5acc-8185-4406fbd43d5d",
+  "label": "PROOF_INQUIRY_1, presented premise…: An inquiry table fixes a carrier of presentations, target…",
+  "legacy_id": "DEF-SCOPED-PROOF-INQUIRIES",
   "term": "proof inquiry, presented premise origins and declared method",
   "definition": "An inquiry table fixes a carrier of presentations, target content, subject (divine/cosmological/ordinary), list of presented premise origins and declared method. These classify presentations independently of whether the target has some other proof. The fixed empirical standard is existing ConclusivelyVerifiable, not arbitrary logical consequence or warranted demonstration.",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-COUNCIL-TEACHING-THEOLOGY-ALTERNATIVE-TO-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "3f1773b0-41c1-5688-8342-c7801e6da5b6",
+  "label": "Exact negation of conciliar definition… alternative to In the Catholic practice, whatever an…",
+  "legacy_id": "REL-COUNCIL-TEACHING-THEOLOGY-ALTERNATIVE-TO-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "statement",
-  "subject_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "subject_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "The serious theology-not-grammar challenge remains at full strength in STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR, with all supporting source claims unchanged. The relation endpoint is now the exact negation of the normative definition bridge. THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE requires independent theological-content, theology-excluded-from-own-standards and actual Defined-witness premises; mixed status also composes into this exact negation. A merely descriptive theology/religious-life profile can coexist with authoritative endorsement, so refuting that description alone cannot defend the bridge. The old needsDefinitionIsOwnStandard countermodel shows the missing bridge, not an identity of descriptive theology with its negation. No philosopher is attributed the new analyst exclusion, no premise is independently established, and no refutes relation is asserted."
 }

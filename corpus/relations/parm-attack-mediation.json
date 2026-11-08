@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-ATTACK-MEDIATION",
+  "id": "8cb6a891-a20b-5bf9-9f30-8048a6b72f90",
+  "label": "Knowledge is not confined to one realm…… attacks Knowledge in a given mode relates only to…",
+  "legacy_id": "REL-PARM-ATTACK-MEDIATION",
   "subject_kind": "argument",
-  "subject_id": "PARM-MEDIATION-REPLY",
+  "subject_id": "ce8a595d-485f-5803-b37d-3cf53c700ef1",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-KNOWLEDGE-REALM-CLOSURE"
+  "object_id": "0466bde5-60d3-5be1-96e9-071a1fe04712"
 }

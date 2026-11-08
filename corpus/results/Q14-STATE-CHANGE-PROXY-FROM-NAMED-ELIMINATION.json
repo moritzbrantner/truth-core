@@ -1,6 +1,8 @@
 {
-  "id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
-  "argument_id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "id": "ac20cb7d-bed1-55c2-baa2-3575370b5954",
+  "label": "On the supplied scope, existing primitive intellect is coextensive with…, from named elimination",
+  "legacy_id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "argument_id": "a662ba40-9cb2-5847-82a6-0cebe71a8f6a",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Elimination.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Elimination.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.changeProxyOfElimination",

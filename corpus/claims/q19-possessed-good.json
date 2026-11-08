@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q19-A1-POSSESSED-GOOD-WILL",
-  "statement_id": "STMT-WILL-INCLUDES-LOVE-OF-POSSESSED-GOOD",
-  "source_id": "AQUINAS-ST",
+  "id": "01005f7f-b540-5f1b-96af-05efa6650f83",
+  "label": "Thomas Aquinas, Summa theologiae I q.19 a.1…: Will includes loving and delighting in possessed…",
+  "legacy_id": "AQUINAS-ST-I-Q19-A1-POSSESSED-GOOD-WILL",
+  "statement_id": "90ce7aae-3721-54b4-9210-f84fe27297a6",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.19 a.1 ad 2",
   "interpretation": "Aquinas answers the objection that appetite implies an unfulfilled lack. Both love of possessed good and seeking absent good belong to willing; the divine application is the former. This does not posit a created passive faculty in God.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-ACT-OF-WILL"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "9f448669-6387-5244-a2ec-f9f90618c037"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

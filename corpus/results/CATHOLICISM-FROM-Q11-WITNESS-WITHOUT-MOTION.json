@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
-  "argument_id": "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
+  "id": "65047d13-e163-54f1-b4b8-95fa7f5a32b4",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching authority…, from q11 witness without…",
+  "legacy_id": "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
+  "argument_id": "d6e5072d-039d-50f3-af9d-22e4c7249db2",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootQ11.catholicismQ11WithoutMotion",

@@ -1,15 +1,17 @@
 {
-  "id": "LEIBNIZ-32-FACT-REASON-DEMAND",
-  "statement_id": "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
-  "source_id": "LEIBNIZ-MONADOLOGY",
+  "id": "0e1bffc2-b521-52f0-9926-2c227d94dc57",
+  "label": "Gottfried Wilhelm Leibniz, Monadology §32: Every real or existing fact and every true statement…",
+  "legacy_id": "LEIBNIZ-32-FACT-REASON-DEMAND",
+  "statement_id": "63e54d09-e859-5bee-91b9-a1b1d2476831",
+  "source_id": "738fd471-e47c-57a1-96ae-ab295261c7dc",
   "locator": "§32",
   "interpretation": "Prose source reading, not a proved universal norm. The scope includes real/existing facts and true statements, rather than only a local predecessor of a concrete being. The text states the principle; this record does not independently vindicate it.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+    "f742be24-23e4-580e-b670-b509534745c2"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
-  "argument_id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "id": "42747654-43ef-5c54-b894-4be1afe20755",
+  "label": "What is MAXIMAL_5 in a GENUS_2 is the cause of that perfection in…, from greatest in every GENUS_2",
+  "legacy_id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "argument_id": "c70736c4-3db1-542e-9599-df9a7b500e01",
   "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
   "theorem": "TruthCore.Results.Causality.Round3FourthWay.maximumInGenusFromGreatestEveryGenus",

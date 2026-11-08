@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { StrengthComparison } from "@/lib/strength-comparisons";
 import { Expression } from "@/components/proposition-structure";
+import { idOf, nameOf } from "@/lib/corpus";
 
 const roles: Record<string, string> = {
   implication: "Implication · S → W",
@@ -16,7 +17,7 @@ function Formula({ label, text, statementId }: { label: string; text: string; st
   return <div className="min-w-0 rounded border border-[var(--line)] p-3">
     <p className="eyebrow">{label}</p>
     <pre className="mt-2 whitespace-pre-wrap break-words font-mono text-sm leading-6">{text}</pre>
-    {statementId ? <Link className="link-quiet mt-2 inline-block break-all text-xs" href={`/statements/${statementId}#structure`}>{statementId} · inspect structure →</Link> : null}
+    {statementId ? <Link className="link-quiet mt-2 inline-block break-all text-xs" href={`/statements/${statementId}#structure`}>{nameOf(statementId)} · inspect structure →</Link> : null}
   </div>;
 }
 
@@ -28,7 +29,7 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
     {!comparisons.length ? <p className="mt-3 text-sm" data-strength-unavailable>No current certified comparison report is available. This view infers no implication, equivalence or strictness from missing evidence.</p> : null}
     {comparisons.map((comparison) => <article className="mt-7 min-w-0 rounded border border-[var(--line)] p-4 sm:p-5" id={comparison.id} key={comparison.id} data-strength-comparison={comparison.id}>
       <div className="flex flex-wrap items-center gap-3">
-        <h3 className="break-all font-mono text-xs">{comparison.id}</h3>
+        <h3 className="break-all font-mono text-xs">{idOf(comparison.id)}</h3>
         <span className="eyebrow" data-strength-status>{comparison.comparison_status}</span>
       </div>
       <p className="mt-3 text-sm leading-6">{comparison.note}</p>
@@ -49,7 +50,7 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
       {comparison.explanatory_controls.length ? <div className="mt-4" aria-label="Explanatory controls">
         <h4 className="eyebrow">Explanatory controls · separate from comparison verdicts</h4>
         <ul className="mt-2 grid gap-3">{comparison.explanatory_controls.map((control) => <li className="text-xs leading-6" key={control.result_id}>
-          <Link className="link-quiet break-all" href={`/results/${control.result_id}`}>{control.result_id} · control evidence →</Link>
+          <Link className="link-quiet break-all" href={`/results/${control.result_id}`}>{nameOf(control.result_id)} · control evidence →</Link>
           <p>{control.description}</p>
         </li>)}</ul>
       </div> : null}
@@ -63,10 +64,10 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
         <p className="mt-2 text-xs leading-6 text-[var(--muted)]">Complete theorem applications are bound by Lean definitional equality. Readable formulas alone do not certify a binding.</p>
         <ul className="mt-3 grid gap-3">{comparison.obligations.map((obligation) => <li className="min-w-0 border-l border-[var(--line)] pl-3" key={obligation.role} data-strength-role={obligation.role}>
           <p className="text-sm leading-6">{roles[obligation.role] ?? obligation.role} · proved</p>
-          <Link className="link-quiet break-all text-xs" href={`/results/${obligation.result_id}`}>{obligation.result_id} · proof →</Link>
+          <Link className="link-quiet break-all text-xs" href={`/results/${obligation.result_id}`}>{nameOf(obligation.result_id)} · proof →</Link>
           <details className="mt-1 text-xs leading-6">
             <summary className="cursor-pointer">Inspect full binding</summary>
-            <p className="break-all">Theorem: {obligation.theorem}</p><p className="break-all">Argument: {obligation.argument_id}</p>
+            <p className="break-all">Theorem: {obligation.theorem}</p><p className="break-all">Argument: {nameOf(obligation.argument_id)}</p>
             {obligation.theorem_application ? <><p className="mt-2">Complete theorem application</p><pre className="whitespace-pre-wrap break-words">{obligation.theorem_application}</pre></> : null}
             <p className="mt-2">Expected type</p><pre className="whitespace-pre-wrap break-words">{obligation.expected_type}</pre>
             <p className="mt-2">Bound theorem type</p><pre className="whitespace-pre-wrap break-words">{obligation.actual_type}</pre>
@@ -80,7 +81,7 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
           <p className="eyebrow">Checked separating setting · Γ with W ∧ ¬ S</p>
           <p className="mt-2 break-all font-mono text-xs">{comparison.separator.setting}</p>
           {comparison.separator.application ? <pre className="mt-2 whitespace-pre-wrap break-words text-xs">{comparison.separator.explicit_application ?? comparison.separator.application}</pre> : null}
-          <Link className="link-quiet break-all text-xs" href={`/results/${comparison.separator.result_id}`}>{comparison.separator.result_id} · separating proof →</Link>
+          <Link className="link-quiet break-all text-xs" href={`/results/${comparison.separator.result_id}`}>{nameOf(comparison.separator.result_id)} · separating proof →</Link>
           <p className="break-all text-xs">{comparison.separator.theorem}</p>
           {comparison.separator.actual_type ? <pre className="mt-2 whitespace-pre-wrap break-words text-xs">{comparison.separator.actual_type}</pre> : null}
           {comparison.separator.parameters?.map((parameter, index) => <p className="break-all text-xs" key={index}>{parameter.expression} : {parameter.type}</p>)}
@@ -111,10 +112,10 @@ export function StrengthComparisons({ comparisons, showEmpty = false }: { compar
           {reference.fields?.map((field) => <p className="mt-2 break-all" key={field.declaration}>{field.is_law ? "Law" : "Field"} · {field.declaration}: {field.type}</p>)}
         </details>)}
         {comparison.definitions.map((definition) => <details className="mt-3" key={definition.id}>
-          <summary className="cursor-pointer">{definition.term}</summary><Link className="link-quiet text-xs" href={`/definitions/${definition.id}`}>{definition.id}</Link>
+          <summary className="cursor-pointer">{definition.term}</summary><Link className="link-quiet text-xs" href={`/definitions/${definition.id}`}>{idOf(definition.id)}</Link>
           <p className="mt-2">{definition.definition}</p>{definition.note ? <p className="mt-2 text-[var(--muted)]">{definition.note}</p> : null}
         </details>)}
-        {comparison.disambiguations.map((disambiguation) => <details className="mt-3" key={disambiguation.id}><summary className="cursor-pointer">{disambiguation.term ?? disambiguation.id}</summary><Link className="link-quiet text-xs" href={`/definitions#${disambiguation.id}`}>{disambiguation.id}</Link><p className="mt-2">{disambiguation.resolution}</p></details>)}
+        {comparison.disambiguations.map((disambiguation) => <details className="mt-3" key={disambiguation.id}><summary className="cursor-pointer">{disambiguation.term ?? disambiguation.id}</summary><Link className="link-quiet text-xs" href={`/definitions#${disambiguation.id}`}>{idOf(disambiguation.id)}</Link><p className="mt-2">{disambiguation.resolution}</p></details>)}
       </details>
       <div className="mt-5 text-sm leading-6" aria-label="Remaining comparison obligations">
         <h4 className="eyebrow">Remaining obligations</h4>

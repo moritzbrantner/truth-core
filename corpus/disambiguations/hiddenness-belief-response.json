@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
+  "id": "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+  "label": "Belief response",
+  "legacy_id": "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
   "term": "belief response",
   "sense_definition_ids": [
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-ACCEPTANCE"
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "ebab35c1-14a4-5beb-b44f-c67b3363d0c1"
   ],
-  "resolution": "Belief is propositional assent; acceptance is a voluntary response to relationship. A believer may refuse. The result does not show that all forms of revelation are harmless to motivation, nor that nonbelief can be removed by an act of will."
+  "resolution": "Belief is propositional assent; acceptance is a voluntary response to relationship. A believer may refuse. The result does not show that all forms of revelation are harmless to motivation, nor that nonbelief can be removed by an act of will.",
+  "term_label": "BELIEF_RESPONSE",
+  "senses": [
+    {
+      "id": "8e84f689-bb5d-4110-bc6b-633a9d1065da",
+      "label": "BELIEF_RESPONSE_1",
+      "definition_id": "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.Believes"
+    },
+    {
+      "id": "5581424a-a0b9-443a-93ad-51d544a3c912",
+      "label": "BELIEF_RESPONSE_2",
+      "definition_id": "ebab35c1-14a4-5beb-b44f-c67b3363d0c1",
+      "lean_declaration": "TruthCore.Hiddenness.Sig.Accepts"
+    }
+  ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER",
+  "id": "0a9d2c60-2808-54d1-a395-3c053fbebf64",
+  "label": "Added premise, not attributed to Aristotle: if the natural motion of a thing not moved by itself…",
+  "legacy_id": "STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER",
   "paraphrase": "Added premise, not attributed to Aristotle: if the natural motion of a thing not moved by itself (as of the light and the heavy) has a per accidens mover, such as the remover of a hindrance, it also has a per se mover in that respect. Physics VIII.4, 255b35-256a2 gives only the inclusive disjunction 'by the generator or by the remover', which admits a motion moved only by the remover; 254b33-255a1, which places such motion among things moved by another, bears on the premise but does not state it.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.PerAccidensMovedPassiveMotionHasPerSeMoverReading",
   "definition_ids": [
-    "DEF-PASSIVE-NATURAL-MOTION",
-    "DEF-PER-ACCIDENS-MOVER",
-    "DEF-RESPECT"
+    "2ee58a9e-2d2a-5120-a9f5-15236da7def4",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

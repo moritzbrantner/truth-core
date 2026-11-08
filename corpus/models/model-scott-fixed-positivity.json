@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-SCOTT-FIXED-POSITIVITY",
+  "id": "78674d70-9d01-5602-8995-39297906aab2",
+  "label": "Original Scott two-world A5 independence witness",
+  "legacy_id": "MODEL-SCOTT-FIXED-POSITIVITY",
   "description": "Original Scott two-world A5 independence witness. Positivity is a stipulated interpretation, not the Catholic God predicate.",
   "vocabulary": "SCOTT-POSITIVITY",
   "lean_declaration": "TruthCore.Models.Scott.FixedPositivity.model",
@@ -30,7 +32,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
+      "statement_id": "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -40,7 +42,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation0"
     },
     {
-      "statement_id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+      "statement_id": "92df6b8e-ee4a-515e-96a9-813cf012cdc0",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -50,7 +52,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation1"
     },
     {
-      "statement_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
+      "statement_id": "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -61,7 +63,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation2"
     },
     {
-      "statement_id": "STMT-SCOTT-GOD-LIKE-POSITIVE",
+      "statement_id": "a6b42d40-6d62-5fbb-85e4-5a37c6ca4a3e",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -71,7 +73,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation3"
     },
     {
-      "statement_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+      "statement_id": "0a4a4f75-f7e6-5543-8547-07de3402769c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -82,7 +84,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation4"
     },
     {
-      "statement_id": "STMT-SCOTT-NE-AT",
+      "statement_id": "bee440a1-d534-50b4-96da-8d7ef3f4ae25",
       "value": "violates",
       "arguments": [
         "World",
@@ -94,7 +96,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation5"
     },
     {
-      "statement_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+      "statement_id": "37a67a9e-31a7-5243-902b-fd3260fd5526",
       "value": "violates",
       "arguments": [
         "World",
@@ -105,7 +107,7 @@
       "theorem": "TruthCore.Models.Scott.FixedPositivity.evaluation6"
     },
     {
-      "statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+      "statement_id": "93824f63-3964-50ec-a029-057102888f72",
       "value": "violates",
       "arguments": [
         "World",

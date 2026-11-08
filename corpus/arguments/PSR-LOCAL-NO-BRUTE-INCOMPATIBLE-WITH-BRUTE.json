@@ -1,23 +1,25 @@
 {
-  "id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "id": "2e6f6269-8d9e-55af-b5d3-45ab180e8776",
+  "label": "Logical falsity, from Every actual positive individual existence… and 1 more",
+  "legacy_id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
   "premise_statement_ids": [
-    "STMT-NO-BRUTE-EXISTENCE-AT",
-    "STMT-BRUTE-EXISTENCE-AT"
+    "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
+    "fcf3a68a-d353-5f8b-9e01-995643caa2f9"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+    "fb7f3036-d619-526c-b316-19b005c9d6b7"
   ],
   "meaning": "Logical bookkeeping for configuration selection: local no-brute coverage and a local brute witness at the same model/world are incompatible. Compose the previously checked exclusion; no excluded-middle assumption or philosophical premise closure follows.",
   "definition_ids": [
-    "DEF-NO-BRUTE-EXISTENCE-AT",
-    "DEF-BRUTE-EXISTENCE-AT",
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-PSR-REASON",
-    "DEF-CONFIGURATION-FALSE"
+    "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+    "b0a3ca7f-2970-531c-9201-962393ef3a8f",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "e63036c5-d9c0-55d3-9704-e23efcbed127"
   ]
 }

@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-NATURALISTIC-EVALUATIVE-ROLES",
+  "id": "685dae72-5d39-5905-955e-c2cd404d6932",
+  "label": "Good, right, and a person’s good in naturalistic comparison",
+  "legacy_id": "DISAMB-NATURALISTIC-EVALUATIVE-ROLES",
   "term": "good, right, and a person’s good in naturalistic comparison",
   "sense_definition_ids": [
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1"
   ],
-  "resolution": "Railton’s welfare concerns what is good for a person; his rightness concerns equal consideration of affected interests. Boyd’s fragment concerns positive moral goodness through homeostatic human goods. Catholic practical good concerns the first precept. These distinct roles are compared, not substituted. DescriptiveTruth is explicitly instantiated separately with Right or positive GoodAct; the finite model satisfying both does not prove their philosophical identity or establish all-things-considered obligation."
+  "resolution": "Railton’s welfare concerns what is good for a person; his rightness concerns equal consideration of affected interests. Boyd’s fragment concerns positive moral goodness through homeostatic human goods. Catholic practical good concerns the first precept. These distinct roles are compared, not substituted. DescriptiveTruth is explicitly instantiated separately with Right or positive GoodAct; the finite model satisfying both does not prove their philosophical identity or establish all-things-considered obligation.",
+  "term_label": "GOOD_RIGHT_AND_A_PERSONS_GOOD",
+  "senses": [
+    {
+      "id": "b890373f-3c08-4997-b08d-2805e73eee32",
+      "label": "GOOD_RIGHT_AND_A_PERSONS_GOOD_1",
+      "definition_id": "7d48c639-2ece-50e2-b94d-487a62bb4418",
+      "lean_declaration": "TruthCore.English.Railton.WelfareReading"
+    },
+    {
+      "id": "4fb0beea-18b9-4a82-b398-9bbcd5886fe6",
+      "label": "GOOD_RIGHT_AND_A_PERSONS_GOOD_2",
+      "definition_id": "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+      "lean_declaration": "TruthCore.English.Railton.RightnessReading"
+    },
+    {
+      "id": "c2459af1-25b1-4ca9-a8ba-ad256a72bf73",
+      "label": "GOOD_RIGHT_AND_A_PERSONS_GOOD_3",
+      "definition_id": "1ad46e75-d8f0-515c-9d27-3632b5945195",
+      "lean_declaration": "TruthCore.English.Boyd.ClusterGoodnessReading"
+    },
+    {
+      "id": "54e2cacf-5ad5-4cf6-b1e0-e1fbcef711c8",
+      "label": "GOOD_RIGHT_AND_A_PERSONS_GOOD_4",
+      "definition_id": "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstPreceptOfNaturalLawReading"
+    }
+  ]
 }

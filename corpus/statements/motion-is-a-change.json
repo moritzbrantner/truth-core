@@ -1,14 +1,16 @@
 {
-  "id": "STMT-MOTION-IS-A-CHANGE",
+  "id": "6f514548-195d-588b-b962-8dc99a69d767",
+  "label": "Whatever is being moved in some respect changes, in the general sense of CHANGE_2",
+  "legacy_id": "STMT-MOTION-IS-A-CHANGE",
   "paraphrase": "Open bridge, unattributed: whatever is being moved in some respect (reduced from potency to act) changes, in the general sense of change. It says nothing about the A series, so it is weaker than STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE.",
   "lean_declaration": "TruthCore.Alternatives.McTaggart.MotionIsChangeReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-CHANGE-GENERAL",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9bd881c9-2227-5883-9595-96db5e630da3",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES",
-    "DISAMB-MOTION"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

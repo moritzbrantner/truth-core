@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-GOD-EXISTS",
+  "id": "a38dab0b-47a2-5c2b-802d-11bbe8898f64",
+  "label": "The Catholic pilot affirms the existing skeleton’s GodExists predicate",
+  "legacy_id": "STMT-PILOT-GOD-EXISTS",
   "paraphrase": "The Catholic pilot affirms the existing skeleton’s GodExists predicate.",
   "lean_declaration": "TruthCore.History.Resurrection.GodExists",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

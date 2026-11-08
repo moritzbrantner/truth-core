@@ -1,13 +1,15 @@
 {
-  "id": "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION",
+  "id": "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50",
+  "label": "Temporal unity and selected sustaining…: The relevant explanandum is what holds contingent beings…",
+  "legacy_id": "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION",
   "term": "temporal unity and selected sustaining explanation in #85",
   "definition": "The relevant explanandum is what holds contingent beings together through time. Intrinsic explanations and other contingent beings are excluded by separate commitments. A selected sustainer, if any, is assigned necessity, incompositeness and atemporality; no actual existence or common uniqueness is included by this glossary.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-85-CONTINGENTS-COMPOSITE-TEMPORAL",
-    "CC100-85-NO-INTRINSIC-TEMPORAL-UNIFIER",
-    "CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
-    "CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES"
+    "2f3c362a-f44b-5408-b3ac-15f70ceb2069",
+    "160a3f1a-eb43-546b-b36c-349cc3b97daa",
+    "eb39526b-8166-558c-b564-c8c3bb95aa2e",
+    "59202ec2-200b-55e4-be90-bca1855a81d9"
   ],
   "note": "Diachronic sustaining explanation is not silently identified with a uniting cause of a composite’s esse, actual grounding or Ontic causation. The printed “sustaining case” is retained as an editorial issue; a cause reading does not itself supply causal semantics or adequacy. No independent Braine attribution or modal domain identity."
 }

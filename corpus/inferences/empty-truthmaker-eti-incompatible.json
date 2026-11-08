@@ -1,11 +1,13 @@
 {
-  "id": "INF-EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "id": "f5da67a6-fc91-5e47-8972-c059fba0f6fb",
+  "label": "Logical falsity, by Direct-proof (6)",
+  "legacy_id": "INF-EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
   "input_statement_ids": [
-    "STMT-EMPTY-TRUTHMAKER-E",
-    "STMT-EMPTY-TRUTHMAKER-T",
-    "STMT-EMPTY-TRUTHMAKER-I"
+    "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+    "711d5039-6e3e-5166-bcc0-ec0467806922",
+    "3ea2491f-ba65-5783-b923-d931254eb3c8"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "direct-proof",
   "meaning": "Exactly E/T/I on the accessible component are incompatible. The proof consumes negativeMap through an explicit one-proposition and accessibility adapter. No factivity premise is needed by the contradiction; all deletion models preserve factivity.",
   "assumption_statement_ids": [],

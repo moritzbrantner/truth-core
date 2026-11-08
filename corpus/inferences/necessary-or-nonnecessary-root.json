@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSARY-OR-NONNECESSARY-ROOT",
+  "id": "548eed92-f0d1-5be1-a648-ed9dec82bf8d",
+  "label": "Either some concrete individual exists at w and at every world accessible…, by Constructive-proof",
+  "legacy_id": "INF-NECESSARY-OR-NONNECESSARY-ROOT",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+  "output_statement_id": "4ec11554-7c5f-5c7b-9de0-8bd817aa34b8",
   "rule": "constructive-proof",
   "meaning": "Descend along the restricted relation by well-founded induction from an actual concretum; excluded middle decides at each step whether an actual concrete ground exists, so the descent reaches an actual root; excluded middle then decides whether that root exists at every accessible world (first horn) or not (second horn).",
   "assumption_statement_ids": [],

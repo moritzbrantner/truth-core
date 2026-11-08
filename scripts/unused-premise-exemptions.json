@@ -1,55 +1,65 @@
 {
   "exemptions": [
     {
-      "result_id": "POE-CATHOLIC-ENTAILS-EVIL-PREMISE",
+      "result_id": "b64ce28f-59b0-5d8e-b6ab-cd1fcabbad48",
       "statement_ids": [
-        "STMT-GOODNESS-IS-ACTUALITY",
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-        "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-        "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
-        "STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD",
-        "STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT",
-        "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL"
+        "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+        "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+        "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
+        "a80d4036-1a43-5130-b0ee-fcce00068a62",
+        "59a6a788-f759-5282-b0fc-bf5eff60e309",
+        "42f642f4-189d-51da-91f0-7e19f0c0f87b"
       ],
       "reason": "Full-theory bundle: a 'the Catholic theory entails X' comparison result whose frozen Challenge binds the whole Comparison.ProblemOfEvil.Catholic bundle."
     },
     {
-      "result_id": "POE-CATHOLIC-ENTAILS-EVIL-PREMISE",
-      "statement_ids": ["STMT-ALL-POWERFUL-CAN-ELIMINATE-EVIL"],
+      "result_id": "b64ce28f-59b0-5d8e-b6ab-cd1fcabbad48",
+      "statement_ids": [
+        "185b79df-2646-500b-8067-38be686e936d"
+      ],
       "reason": "Pending, tracked in #571: the whole Background bundle is unused, so a weaker result over Catholic alone is possible; the result is off every root route."
     },
     {
-      "result_id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+      "result_id": "b149d6cd-07ed-5638-9d0c-f1009e36767b",
       "statement_ids": [
-        "STMT-GOODNESS-IS-ACTUALITY",
-        "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH",
-        "STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT",
-        "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL"
+        "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+        "8f1c5e2b-cb4a-5571-bd70-f0af6875ea8f",
+        "59a6a788-f759-5282-b0fc-bf5eff60e309",
+        "42f642f4-189d-51da-91f0-7e19f0c0f87b"
       ],
       "reason": "Full-theory bundle: a 'the Catholic theory denies objection one' comparison result whose frozen Challenge binds the whole Comparison.ProblemOfEvil.Catholic bundle."
     },
     {
-      "result_id": "DIRECT-ESSE-ROOT-GOODNESS-OMISSION",
-      "statement_ids": ["STMT-EXCLUDED-MIDDLE"],
+      "result_id": "f1f92f20-d3d2-5751-9419-c326a90ac0e7",
+      "statement_ids": [
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+      ],
       "reason": "Configuration control: excluded middle is kept as an explicit input so the omission control lists the same inputs as the compared route; its description records this."
     },
     {
-      "result_id": "ROOT-INTELLECT-WILL-L-OMISSION",
-      "statement_ids": ["STMT-EXCLUDED-MIDDLE"],
+      "result_id": "d3674618-f35a-58ba-9a2e-71c1abf31a72",
+      "statement_ids": [
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+      ],
       "reason": "Configuration control: excluded middle is kept as an explicit input so the omission control lists the same inputs as the compared route; its description records this."
     },
     {
-      "result_id": "ROOT-INTELLECT-WILL-PURE-ACT-PLURALITY",
-      "statement_ids": ["STMT-EXCLUDED-MIDDLE"],
+      "result_id": "315bbaac-5296-5f16-8866-7babba957f22",
+      "statement_ids": [
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+      ],
       "reason": "Configuration control: excluded middle is kept as an explicit input so the joint control realizes the same inputs as the compared routes; its description records this."
     },
     {
-      "result_id": "STRICT-PRIORITY-PURE-ACT-CONTROLS",
-      "statement_ids": ["STMT-EXCLUDED-MIDDLE"],
+      "result_id": "0e4d05a4-8a61-5baa-b821-763abf8d52c2",
+      "statement_ids": [
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+      ],
       "reason": "Configuration control: excluded middle is kept as an explicit input so the joint controls list the same inputs as the compared route; its description records this."
     }
   ]

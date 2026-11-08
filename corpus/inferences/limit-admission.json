@@ -1,7 +1,9 @@
 {
-  "id": "INF-LIMIT-ADMISSION",
+  "id": "e3833cb4-ba60-597a-a3dd-118f57c717ae",
+  "label": "Joint mathematical package: genuine Mathlib…, by Mathlib-closed-set-limit-with…",
+  "legacy_id": "INF-LIMIT-ADMISSION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LIMIT-ADMISSION-PACKAGE",
+  "output_statement_id": "c563c45e-9262-52b6-b174-b51aea370674",
   "rule": "mathlib-closed-set-limit-with-separate-domain-controls",
   "meaning": "Build Mathlib closure laws, instantiate the same proof pattern separately for modal, temporal and supertask data, and prove typed omission controls, retaining exact tail and supertask theorem reuse. Conditional mathematics only; attribution deferred and actual-domain applicability OPEN.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
-  "argument_id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "id": "58a385a5-bbba-521d-a357-4b531f46219f",
+  "label": "In the literal varying model, selected false at base false satisfies reflexivity, necessary…",
+  "legacy_id": "SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "argument_id": "6bf47066-0e5e-5641-9469-3513f293b80b",
   "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
   "theorem": "TruthCore.Results.Causality.CausalHarvest.varyingNamedControl",

@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
-  "argument_id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "id": "13900748-d471-5d3c-a365-2a08d0380997",
+  "label": "For the fixed agent and identical original-return…, from For every action, a duty at after implies…",
+  "legacy_id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "argument_id": "96c1d679-f776-58c7-93dc-1dcb812390a7",
   "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.universalToLocal",

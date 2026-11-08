@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-MAGNITUDE-POTENTIAL-INFINITE-A",
-  "statement_id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
-  "source_id": "ARIST-PHYS",
+  "id": "ead9e2d4-968f-5bdb-a9ca-02c89f697e71",
+  "label": "Aristotle, Physics III.6, 206a16-18: Magnitude is not actually infinite, but it is infinite by…",
+  "legacy_id": "ARIST-PHYS-206A-MAGNITUDE-POTENTIAL-INFINITE-A",
+  "statement_id": "b8db29f3-f320-5324-96c1-add346c73260",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206a16-18",
   "interpretation": "Magnitude-specific classification: magnitude is not actually infinite, but division does not terminate in indivisible lines; its infinity therefore has potential existence. Potentiality here is kept source-specific.",
   "status": "formalized"

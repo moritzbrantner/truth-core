@@ -1,6 +1,8 @@
 {
-  "id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
-  "argument_id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
+  "id": "f01de122-4f0d-57e8-a94d-26ad841e93af",
+  "label": "A thing moves another in some respect only insofar as it is itself in act in…, from causal excess",
+  "legacy_id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
+  "argument_id": "892db443-af2e-5925-9e3d-74b3f6788ac3",
   "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.nothingMovesExceptInAct",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURALISM-N3-FAILS",
+  "id": "e6e030c6-f6c3-5640-ba1e-10ed31eaa71f",
+  "label": "N3 fails at the selected world",
+  "legacy_id": "STMT-NATURALISM-N3-FAILS",
   "paraphrase": "N3 fails at the selected world (the negation of N3).",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausalPowerNaturalismFails",
   "definition_ids": [
-    "DEF-NATURALISM-N3"
+    "294b6100-7b0d-5012-848c-e2ccabe22079"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

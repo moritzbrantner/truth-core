@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
-  "argument_id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "id": "4d0e6b3c-6c90-5dcb-822c-50cc6f915751",
+  "label": "No candidate existing at the…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 3 more",
+  "legacy_id": "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "argument_id": "b2fab9b4-2f3b-5b25-9eb6-c8dea9623e02",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Exclusion.noExistingSimpleRemote",

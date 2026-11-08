@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY",
+  "id": "339c6bf8-37f1-5d5e-9f26-3258957443cc",
+  "label": "Existence of epistemic reasons: thin encoding, ordinary role and preference-independent authority",
+  "legacy_id": "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY",
   "term": "existence of epistemic reasons: thin encoding, ordinary role and preference-independent authority",
   "sense_definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
-    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
-    "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE",
-    "DEF-EPISTEMIC-REASON-THIN-EXISTENCE"
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+    "603ba4fa-53ac-5de1-b0de-393209fa8faf",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
   ],
-  "resolution": "STMT-THERE-ARE-EPISTEMIC-REASONS keeps its existing meaning, declaration and owner approval; its formal existential does not encode the additional role conditions. STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS asserts actual instantiation of the ordinary-role sense and STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS asserts actual instantiation of the stronger authority sense. These are distinct sibling analyst readings, not attributed claims or alternative IDs for F6. Their definitions specify what each would assert; neither new existential is marked established. The note argues for ordinary favorable bearing and separately considers the authority bridge. No argument transfers thin F6 approval to either reading, nor transfers an ordinary truth-directed role to preference-independent force by definition. Goal-relative instrumentalism remains compatible with the ordinary role; evidence-sensitive naturalistic constitution is not excluded by either definition. Objective in the last sense does not mean overriding, agent-neutral or irreducible. The ordinary and independent existentials now have conditional typed encodings. ConsiderationPresentation is needed to transport the thin content relation into a consideration-based account; each definition calibration is a separate open proposition. The four named meaning proposals are not assumed exhaustive: STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER and STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS state that burden explicitly. The strong existential entails the ordinary one, but their definition-calibration propositions need not be equivalent."
+  "resolution": "STMT-THERE-ARE-EPISTEMIC-REASONS keeps its existing meaning, declaration and owner approval; its formal existential does not encode the additional role conditions. STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS asserts actual instantiation of the ordinary-role sense and STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS asserts actual instantiation of the stronger authority sense. These are distinct sibling analyst readings, not attributed claims or alternative IDs for F6. Their definitions specify what each would assert; neither new existential is marked established. The note argues for ordinary favorable bearing and separately considers the authority bridge. No argument transfers thin F6 approval to either reading, nor transfers an ordinary truth-directed role to preference-independent force by definition. Goal-relative instrumentalism remains compatible with the ordinary role; evidence-sensitive naturalistic constitution is not excluded by either definition. Objective in the last sense does not mean overriding, agent-neutral or irreducible. The ordinary and independent existentials now have conditional typed encodings. ConsiderationPresentation is needed to transport the thin content relation into a consideration-based account; each definition calibration is a separate open proposition. The four named meaning proposals are not assumed exhaustive: STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER and STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS state that burden explicitly. The strong existential entails the ordinary one, but their definition-calibration propositions need not be equivalent.",
+  "term_label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING",
+  "senses": [
+    {
+      "id": "4a484c8b-c410-47df-9ec0-ab727337427b",
+      "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_1",
+      "definition_id": "d13c0241-320a-5d56-8927-341e46063e05",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.Frame"
+    },
+    {
+      "id": "eac235f4-b126-4e9d-92ea-90718277ce71",
+      "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2",
+      "definition_id": "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.EpistemicRole"
+    },
+    {
+      "id": "9da6e2cc-c5cf-44c2-aae9-dd3e92ab5b44",
+      "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_3",
+      "definition_id": "603ba4fa-53ac-5de1-b0de-393209fa8faf",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.IndependentInstance"
+    },
+    {
+      "id": "b15c4790-031f-413e-935e-5d9e6a0acbfe",
+      "label": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_4",
+      "definition_id": "dcbd9590-2c87-5550-a69c-b4af6e272fa4",
+      "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons"
+    }
+  ]
 }

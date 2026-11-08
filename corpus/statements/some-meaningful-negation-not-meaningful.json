@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL",
+  "id": "2c0d4ee4-42f9-5a4f-a65c-b4ca29d26889",
+  "label": "The denial of the strong floor item: some meaningful sentence has a negation that is not meaningful",
+  "legacy_id": "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL",
   "paraphrase": "The denial of the strong floor item: some meaningful sentence has a negation that is not meaningful. Unattributed: it is the commitment of a strong verificationist who counts laws as nonsense while their existential negations are conclusively verifiable.",
   "lean_declaration": "TruthCore.Logic.Verificationism.SomeMeaningfulNegationNotMeaningful",
   "definition_ids": [
-    "DEF-MEANING-NEGATION-CLOSURE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

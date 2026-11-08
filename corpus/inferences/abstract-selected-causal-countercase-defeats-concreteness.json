@@ -1,10 +1,12 @@
 {
-  "id": "INF-ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "id": "98e49a59-617b-5b73-98d2-6ebd4d4764c6",
+  "label": "Exact negation of the original two-clause OwnerCommitmentAt at the SAME…, by Constructive-proof",
+  "legacy_id": "INF-ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
   "input_statement_ids": [
-    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
-    "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE"
+    "0c1b8438-fef8-5e2e-b42a-49d9d2e1f2df",
+    "fd141661-3c09-55a2-a76a-f56b426ef839"
   ],
-  "output_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "output_statement_id": "a1de3d6a-aed9-5b38-a4b1-4f41101c7d96",
   "rule": "constructive-proof",
   "meaning": "A no-esse capacity or productive-causer witness contradicts the SAME original two-clause commitment only with the explicit concrete/esse calibration.",
   "assumption_statement_ids": [],

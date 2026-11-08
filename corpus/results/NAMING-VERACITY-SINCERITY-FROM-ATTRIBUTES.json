@@ -1,6 +1,8 @@
 {
-  "id": "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
-  "argument_id": "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
+  "id": "c983f751-f6e4-543c-974c-e34c037b9ef9",
+  "label": "Whatever is GOD_4 and has the classical attributes asserts only what he holds as…, from attributes",
+  "legacy_id": "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES",
+  "argument_id": "ab3f4165-87f2-574b-8eef-2a63df5fcbbc",
   "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godAssertsOnlyWhatHeKnowsFromAttributes",

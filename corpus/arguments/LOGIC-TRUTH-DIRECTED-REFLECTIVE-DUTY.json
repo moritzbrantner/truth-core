@@ -1,20 +1,22 @@
 {
-  "id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "id": "70eb8fa2-61a1-5d57-9fe4-94aaef1bd9fc",
+  "label": "For every interpretation and ought-to-adopt policy, if a specified objective-duty content is true…",
+  "legacy_id": "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
+  "conclusion_statement_id": "27b621ae-2f38-58a5-90c0-378ef2da7c4b",
   "inference_ids": [
-    "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+    "a1d7c279-c08a-5d82-bc4d-91b57ccde61a"
   ],
   "meaning": "A conditional reflective-norm framework: actual truth of the duty-content plus the stronger truth-directed selection bridge imply norms of consistency, duty-compatibility, and compatibility with each necessary consequence. The antecedents are universally quantified and not independently established.",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM",
-    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
-    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
-    "DEF-WORLDVIEW-NECESSARY-IMPLICATION",
-    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
-    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0",
+    "6523a45a-b797-57ed-b323-27a0d14d7832",
+    "deefafab-16f0-587e-b704-63ee447ae99d",
+    "f542117a-5158-599a-a125-08708721d66b",
+    "7b30afc5-c68a-55d0-839a-0de89c4cfee9",
+    "526d1d3c-86de-5835-a061-41e22cff70d1"
   ],
   "disambiguation_ids": [
-    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+    "94fe8dfe-9a48-51ff-ad2a-59c98fc58dfe"
   ]
 }

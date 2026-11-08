@@ -1,6 +1,8 @@
 {
-  "id": "IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
-  "argument_id": "IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "id": "fd30a968-1104-544b-af8e-3f80da5660c8",
+  "label": "In the supplied profile, the existing…, from A society counts as founded by GOD_4 as a…",
+  "legacy_id": "IMMEDIATE-FOUNDING-ENVOY-CALIBRATION",
+  "argument_id": "ff07829e-e957-5683-a73d-683d621006a3",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Immediate.immediateCalibration",

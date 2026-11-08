@@ -1,11 +1,13 @@
 {
-  "id": "STMT-MORE-IN-IS-ASYMMETRIC",
+  "id": "a4814f25-84b0-560e-870a-eb3a23a6a35b",
+  "label": "If one thing is more such than another in a perfection, the other is not more such than it in that…",
+  "legacy_id": "STMT-MORE-IN-IS-ASYMMETRIC",
   "paraphrase": "OPEN bridge: if one thing is more such than another in a perfection, the other is not more such than it in that perfection.",
   "lean_declaration": "TruthCore.Causality.GodMaximalCausal.MoreInIsAsymmetric",
   "definition_ids": [
-    "DEF-MORE-IN"
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

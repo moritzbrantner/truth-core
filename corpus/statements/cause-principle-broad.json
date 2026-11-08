@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CAUSE-PRINCIPLE-BROAD",
+  "id": "915e3df5-0975-5461-9fd6-83094ab526f3",
+  "label": "Anything that comes to be has some CAUSE_2",
+  "legacy_id": "STMT-CAUSE-PRINCIPLE-BROAD",
   "paraphrase": "Anything that comes to be has some cause.",
   "lean_declaration": "TruthCore.Greek.Plato.Timaeus.CausePrinciple",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

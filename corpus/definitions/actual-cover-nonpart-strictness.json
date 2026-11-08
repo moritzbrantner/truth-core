@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-COVER-NONPART-STRICTNESS",
+  "id": "2d202548-556f-510e-bb2f-b4fc3d876a10",
+  "label": "Joint actual-cover cause-nonparthood…: One coherent three-object, two-world interpretation…",
+  "legacy_id": "DEF-ACTUAL-COVER-NONPART-STRICTNESS",
   "term": "joint actual-cover cause-nonparthood strictness witness",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ActualCoverStrictness.Certificate",

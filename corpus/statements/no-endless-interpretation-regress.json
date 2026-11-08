@@ -1,9 +1,11 @@
 {
-  "id": "STMT-NO-ENDLESS-INTERPRETATION-REGRESS",
+  "id": "5218e5c6-d9fc-5ddb-9861-42e1bd00aef7",
+  "label": "There is no endless chain of interpretations each behind the last; the relation 'is an…",
+  "legacy_id": "STMT-NO-ENDLESS-INTERPRETATION-REGRESS",
   "paraphrase": "Open premise, unattributed: there is no endless chain of interpretations each behind the last; the relation 'is an interpretation of' is well-founded.",
   "lean_declaration": "TruthCore.German.Wittgenstein.RuleFollowing.NoEndlessInterpretationReading",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ]
 }

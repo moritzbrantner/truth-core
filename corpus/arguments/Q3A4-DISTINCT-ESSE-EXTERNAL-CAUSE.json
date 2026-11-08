@@ -1,23 +1,27 @@
 {
-  "id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "id": "af503cd7-ef52-539d-9e81-2e4171e3dbe7",
+  "label": "In Aquinas' ST I q.3 a.4 first proof, each…, from Aquinas' first proof in ST I q.3 a.4… and 1 more",
+  "legacy_id": "Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
   "premise_statement_ids": [
-    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
-    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE"
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "61bd42e5-69fe-53ef-9972-c9f28b2b6d14"
   ],
-  "conclusion_statement_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
-  "inference_ids": ["INF-Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE"],
+  "conclusion_statement_id": "33ad148b-ceab-5856-a4f8-c999a1dba644",
+  "inference_ids": [
+    "758f796b-3e63-599f-b08d-50aa9f88798e"
+  ],
   "meaning": "A source-attributed conditional transcription of ST I q.3 a.4's first proof, with both substantive causal premises left open. The two premises together exclude sufficient efficient self-causation by essential principles alone in the only proposed alternative to another actual efficient cause of esse. Nothing here proves that those are the only metaphysically possible explanation types; the omission models test that independently. No root-premise discharge.",
   "definition_ids": [
-    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
-    "DEF-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE",
-    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "56c9a230-137d-5207-9262-27196af6e713",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e",
+    "196be87e-b944-5924-b791-87406fbe48f6"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

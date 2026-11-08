@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PILOT-EPISTEMIC-LIMITATION",
+  "id": "18aeeeb5-ced9-5195-bf8f-62496c60addb",
+  "label": "Epistemic limitation and endorsement…: LimitedKnowledge says some agent does not know some sentence",
+  "legacy_id": "DEF-PILOT-EPISTEMIC-LIMITATION",
   "term": "epistemic limitation and endorsement disagreement",
   "definition": "LimitedKnowledge says some agent does not know some sentence. Disagreement says the first agent endorses a sentence and the second does not endorse it; non-endorsement is withholding, not endorsement of negation. Neither condition identifies truth with knowledge or with endorsement. Aristotle’s separately recorded no-truth/unclear-to-us fork has no Lean knowledge-quantifier translation.",
   "basis": "stipulative",

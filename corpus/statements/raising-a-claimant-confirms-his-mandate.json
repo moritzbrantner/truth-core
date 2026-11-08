@@ -1,10 +1,12 @@
 {
-  "id": "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE",
+  "id": "bb88731c-c42e-53e0-a138-49e72ad40eb6",
+  "label": "If a God raised Jesus and Jesus had claimed divine authority, that God, by raising him, confirms…",
+  "legacy_id": "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE",
   "paraphrase": "OPEN (attribution deferred): if a God raised Jesus and Jesus had claimed divine authority, that God, by raising him, confirms (as a testimonial sign) that Jesus holds a mandate from him. The step from the claim to the mandate is part of this premise.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.RaisingAClaimantConfirmsHisMandate",
   "definition_ids": [
-    "DEF-RAISED-BY",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "7eee68b7-c9c0-56ae-8a96-cf2cd68e1def",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ]
 }

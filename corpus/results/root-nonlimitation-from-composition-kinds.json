@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS",
-  "argument_id": "ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS",
+  "id": "98852977-1bac-50ef-9817-5de8fd7666d4",
+  "label": "One and the same actual concrete root at the selected world is necessary…, from composition kinds",
+  "legacy_id": "ROOT-NONLIMITATION-FROM-COMPOSITION-KINDS",
+  "argument_id": "ec3f725b-ff64-50f9-84f1-c10361e4729b",
   "challenge_module": "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.Solution",
   "theorem": "TruthCore.Results.Causality.RootNonlimitationFromCompositionKinds.necessaryRootWithoutLimitingPrinciple",

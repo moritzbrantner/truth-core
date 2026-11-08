@@ -1,9 +1,11 @@
 {
-  "id": "DEF-SELF-MOTION-ARISTOTLE",
+  "id": "8e970ec8-4a38-53bb-8786-f52af8664cc2",
+  "label": "MOVED_BY_ITSELF_2, Aristotle's self-mover: A thing is MOVED_BY_ITSELF_2 when, as an animal, the…",
+  "legacy_id": "DEF-SELF-MOTION-ARISTOTLE",
   "term": "moved by itself (ὑφʼ αὑτοῦ κινεῖσθαι), Aristotle's self-mover",
   "definition": "A thing is moved by itself when, as an animal, the whole moves itself, one part being the mover and another the moved (Physics VIII.4, 254b27-33; VIII.5, 257b2-13). Lean: the primitive `SelfMovedIn`, which is not `MovesIn x x r` (DISAMB-SELF-MOTION).",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A"
+    "22119347-2531-517d-a678-30a571e16449"
   ]
 }

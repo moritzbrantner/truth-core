@@ -1,6 +1,8 @@
 {
-  "id": "SIGNED-WAGER-PRACTICAL-NONTRUTH",
-  "argument_id": "SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "id": "9e5f0f7c-0c4b-59f3-9d37-2d03b3417df8",
+  "label": "A nonvacuous negative-finite-cost, non-dogmatic prior model has a practical maximizer and all…",
+  "legacy_id": "SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "argument_id": "bbbe4ab1-e459-5a1b-95e4-cb5b0dc2d966",
   "challenge_module": "TruthCore.Results.Decision.SignedWager.Challenge",
   "solution_module": "TruthCore.Results.Decision.SignedWager.Solution",
   "theorem": "TruthCore.Results.Decision.SignedWager.practicalNontruth",

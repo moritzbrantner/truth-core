@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-MARK",
+    "source_id": "39ad470f-17ba-5046-ac14-f5ba93b67c59",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg002.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-MARK-2",
+      "id": "efe576d5-184f-5d34-a7b1-b23b5d6f8161",
+      "label": "New Testament, Mark, 2",
+      "legacy_id": "NT-MARK-2",
       "locator": "2",
       "claim_locator_prefixes": [
         "2."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-MARK-14",
+      "id": "67f4fdba-af00-59f1-9e1c-0e7655fd5b6d",
+      "label": "New Testament, Mark, 14",
+      "legacy_id": "NT-MARK-14",
       "locator": "14",
       "claim_locator_prefixes": [
         "14."
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "NT-MARK-15",
+      "id": "50c2edf2-c6ed-54ee-ae05-2702c3f327b1",
+      "label": "New Testament, Mark, 15",
+      "legacy_id": "NT-MARK-15",
       "locator": "15",
       "claim_locator_prefixes": [
         "15."

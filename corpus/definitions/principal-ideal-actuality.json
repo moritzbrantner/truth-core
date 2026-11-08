@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PRINCIPAL-IDEAL-ACTUALITY",
+  "id": "470bef1d-8ff2-5ce8-9a7a-8ba409bfb99c",
+  "label": "PRINCIPAL_IDEAL_WORLD_RELATIVE_ACTUALITY_1: The same Body of nonempty subsets of Bool supplies\u2026",
+  "legacy_id": "DEF-PRINCIPAL-IDEAL-ACTUALITY",
   "term": "principal-ideal world-relative actuality",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.model",

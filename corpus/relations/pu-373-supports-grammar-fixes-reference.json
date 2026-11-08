@@ -1,9 +1,11 @@
 {
-  "id": "REL-PU-373-SUPPORTS-GRAMMAR-FIXES-REFERENCE",
+  "id": "8d48d666-7675-547c-8f87-fdf59d7b9151",
+  "label": "Ludwig Wittgenstein, Philosophische…… supports Open bridge, unattributed: a correct move…",
+  "legacy_id": "REL-PU-373-SUPPORTS-GRAMMAR-FIXES-REFERENCE",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-PU-373-THEOLOGY-AS-GRAMMAR",
+  "subject_id": "55ab27c9-ed2f-58f2-86cd-9a56f2370412",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GRAMMAR-FIXES-REFERENCE",
+  "object_id": "77855f42-21c8-52ad-8f45-0824ddfb8b33",
   "note": "'Welche Art von Gegenstand etwas ist, sagt die Grammatik.' If grammar says what kind of object something is, a correct confession of a creator distinct from the world fixes the kind of thing 'God' names. Gap: §373 speaks of the kind of object, not of whether there is one, and the parenthesis is unexplained."
 }

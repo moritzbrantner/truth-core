@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-PHIL",
+    "source_id": "57ca9302-5520-5045-bd84-f4d78e74e1be",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg011.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-PHIL-1",
+      "id": "aa44bfed-f9d6-5912-8971-cf0bef778e90",
+      "label": "Paul, Philippians, 1",
+      "legacy_id": "NT-PHIL-1",
       "locator": "1",
       "claim_locator_prefixes": [
         "1."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-PHIL-2",
+      "id": "c3790162-8488-5c6b-9990-1966b4f5e93c",
+      "label": "Paul, Philippians, 2",
+      "legacy_id": "NT-PHIL-2",
       "locator": "2",
       "claim_locator_prefixes": [
         "2."
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "NT-PHIL-3",
+      "id": "13912aa9-3367-57fa-a0c6-1b7c3d4ac064",
+      "label": "Paul, Philippians, 3",
+      "legacy_id": "NT-PHIL-3",
       "locator": "3",
       "claim_locator_prefixes": [
         "3."

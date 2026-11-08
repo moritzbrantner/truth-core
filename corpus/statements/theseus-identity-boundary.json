@@ -1,13 +1,15 @@
 {
-  "id": "STMT-THESEUS-IDENTITY-BOUNDARY",
+  "id": "03acbbdc-5fbf-5e92-8b1a-eb0f06d28093",
+  "label": "In a four-occurrence, two-slot replacement/reassembly fixture with fixed component inventories…",
+  "legacy_id": "STMT-THESEUS-IDENTITY-BOUNDARY",
   "paraphrase": "In a four-occurrence, two-slot replacement/reassembly fixture with fixed component inventories, three principles cannot all hold for a single ordinary-equality bearer assignment: both local replacements preserve bearer, exact material inventory suffices for identity, and continued/reassembled final bearers are distinct. Each pair survives in an explicit Bool-bearer model, with the omitted principle refuted. For decidable bearer equality the three negations form an exhaustive, not exclusive fork. Identity preserved at every step propagates along any finite chain. The result neither selects the true ship nor establishes physical or metaphysical possibility or the identity principles. Root-path open premises: no change.",
   "lean_declaration": "TruthCore.Mereology.TheseusIdentity.Certificate",
   "definition_ids": [
-    "DEF-THESEUS-OCCURRENCE-BEARER",
-    "DEF-THESEUS-COMPONENT-INVENTORY",
-    "DEF-THESEUS-IDENTITY-PRINCIPLES"
+    "5d56fb19-e9f0-5f16-8e36-cd852824e0e5",
+    "e548fee9-1ead-5138-9927-8aa709dc000e",
+    "123ae3d8-8ad1-5c51-9606-ce0f399cde67"
   ],
   "disambiguation_ids": [
-    "DISAMB-THESEUS-IDENTITY-CONTINUITY-MATERIAL"
+    "227c2c8f-1a08-5481-9670-0df7ee78f345"
   ]
 }

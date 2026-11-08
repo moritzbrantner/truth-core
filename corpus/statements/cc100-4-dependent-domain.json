@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-4-DEPENDENT-DOMAIN",
+  "id": "4800570a-04b7-5845-b561-7b990c461dc7",
+  "label": "Dependent beings exist, and every dependent being depends either on itself or on another being",
+  "legacy_id": "STMT-CC100-4-DEPENDENT-DOMAIN",
   "paraphrase": "Dependent beings exist, and every dependent being depends either on itself or on another being.",
   "definition_ids": [
-    "DEF-CC100-4-DEPENDENCE"
+    "578d48f2-35b0-5daf-8a52-d63b61c50697"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

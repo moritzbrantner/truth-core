@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
-  "statement_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "d5239ffd-5312-5ca8-853a-e48cda408487",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.4…: In Aquinas' ST I q.3 a.4 first proof, each actually…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A4-DISTINCT-ESSE-EXTERNAL-CAUSE",
+  "statement_id": "33ad148b-ceab-5856-a4f8-c999a1dba644",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.4 co., first proof: illud cuius esse est aliud ab essentia sua",
   "interpretation": "The direction is actual being with distinct esse/essence implies an actually existing efficient cause at esse from another being, as a source inference from the explicitly stated causal dichotomy and no-self-causation principles. The converse and the inverse claim that essence=esse excludes every external cause are not asserted. The application invokes God as first efficient cause; it does not define first cause by essence=esse or establish the two underlying premises outside Aquinas' argument.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-BEING",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

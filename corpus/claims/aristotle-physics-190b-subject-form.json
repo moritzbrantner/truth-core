@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190B-SUBJECT-FORM-A",
-  "statement_id": "STMT-NATURAL-GENERATION-FROM-SUBJECT-AND-FORM",
-  "source_id": "ARIST-PHYS",
+  "id": "81c019b7-ab77-5f03-8e2f-70d842888fbb",
+  "label": "Aristotle, Physics I.7, 190b23-29: If natural things have first non-incidental causes and…",
+  "legacy_id": "ARIST-PHYS-190B-SUBJECT-FORM-A",
+  "statement_id": "288d6b62-c177-5ac0-909c-c8e883b9a625",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190b23-29",
   "interpretation": "The source frames the move conditionally: if natural things have first non-incidental causes and principles from which they arise, generation is from subject and form. The antecedent is preserved rather than silently asserted for proof convenience.",
   "status": "formalized"

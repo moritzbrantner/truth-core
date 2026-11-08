@@ -1,14 +1,16 @@
 {
-  "id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
+  "label": "Every admissible definition proposal in the supplied class has the extension of the named…",
+  "legacy_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
   "paraphrase": "Open weak coverage premise: every admissible definition proposal in the supplied class has the extension of the named due-actuality, feature-based or fixed-assessor approval proposal. Renamed or intensionally different but coextensive proposals are already covered.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
-    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab",
+    "ea819c3e-09bb-5000-85f8-e4b28e34aead"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

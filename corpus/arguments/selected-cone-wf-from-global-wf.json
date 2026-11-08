@@ -1,37 +1,39 @@
 {
-  "id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "id": "56f129f6-efbf-5dc7-9033-7670d1c66be7",
+  "label": "The selected grounds relation restricted to the subtype of all actual CONCRETE_6…, from global wf",
+  "legacy_id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
   "premise_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-WF"
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-CONE-WELL-FOUNDED",
+  "conclusion_statement_id": "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
   "inference_ids": [
-    "INF-SELECTED-CONE-WF-FROM-GLOBAL-WF"
+    "bb51fde8-1b30-51c4-a1a5-a373a9fd22d1"
   ],
   "meaning": "Strength order: well-founded grounding on all actual concreta restricts to well-founded grounding on the selected cone, whose members are actual concreta (scopeComparison). The strong, global version is the only premise and stays open.",
   "definition_ids": [
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR"
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

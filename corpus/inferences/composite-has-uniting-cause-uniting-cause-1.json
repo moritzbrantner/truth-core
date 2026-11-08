@@ -1,12 +1,14 @@
 {
-  "id": "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "id": "f95a53c7-ccb2-5e4a-bdc7-0c00f357ed89",
+  "label": "Every composite has a cause, other than itself, of its being: things…, by Universal… (2)",
+  "legacy_id": "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
   "input_statement_ids": [
-    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-    "STMT-NOTHING-UNITES-ITSELF"
+    "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+    "58445bd6-264b-53cf-8951-d052022f8e47",
+    "fbee7f15-f54b-5a67-9773-3c09ca7015f4",
+    "828fc834-25ad-534c-8212-f6745ae02b96"
   ],
-  "output_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "output_statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
   "rule": "Universal instantiation, existential elimination and modus tollens",
   "meaning": "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being.",
   "assumption_statement_ids": [],

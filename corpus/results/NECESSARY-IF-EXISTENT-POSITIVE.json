@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-POSITIVE",
-  "argument_id": "NECESSARY-IF-EXISTENT-POSITIVE",
+  "id": "d9db5ed8-4a7d-5e11-8c4a-16ee0669a1ac",
+  "label": "G holds at every world accessible from\u2026, from The chosen frame is Euclidean: any two\u2026 and 2 more",
+  "legacy_id": "NECESSARY-IF-EXISTENT-POSITIVE",
+  "argument_id": "c9936c30-bf57-5713-8683-40752a182efd",
   "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.positive",

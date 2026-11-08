@@ -1,6 +1,8 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
-  "argument_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "id": "44e47ee8-378b-5321-b71e-92b1fab46569",
+  "label": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the…, from deciding inputs",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "argument_id": "09772c57-0813-5f32-81a6-5588cd1a3768",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Countercase.countercase",

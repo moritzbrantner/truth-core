@@ -1,7 +1,9 @@
 {
-  "id": "INF-RUSSELL-EXISTENCE-INDIVIDUAL",
+  "id": "f17d39bc-15b3-5312-abf7-44d0b0b93cda",
+  "label": "In the stated varying-domain alternative, each world has a witness but candidate…, by Direct-proof",
+  "legacy_id": "INF-RUSSELL-EXISTENCE-INDIVIDUAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RUSSELL-EXISTENCE-INDIVIDUAL",
+  "output_statement_id": "682df7fd-6dbf-57b9-b51a-7a0b13455fc8",
   "rule": "direct-proof",
   "meaning": "Evaluate explicit actual-domain assignments and token denotation, then apply the unchanged shared Kripke semantics to an accessible missing candidate and a possible different one. This is coherence relative to the alternative semantics, not a contradiction within Russell’s strict-name analysis.",
   "assumption_statement_ids": [],

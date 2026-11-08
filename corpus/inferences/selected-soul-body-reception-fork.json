@@ -1,9 +1,11 @@
 {
-  "id": "INF-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "id": "eff1b40d-0017-500a-8635-772edf41d1b0",
+  "label": "For every supplied selected role/state profile, canonical reception holds…, by Constructive-proof",
+  "legacy_id": "INF-SELECTED-SOUL-BODY-RECEPTION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "output_statement_id": "74e6274c-c999-5883-b417-9565074e65c0",
   "rule": "constructive-proof",
   "meaning": "Selected-tuple structural fork under explicit excluded middle; neither source sense is thereby adopted.",
   "assumption_statement_ids": [],

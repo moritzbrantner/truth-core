@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PAPINEAU-PHYSICAL",
+  "id": "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+  "label": "PHYSICAL_2: PHYSICAL_2 in Papineau's indirect sense: what can be specified without appeal to…",
+  "legacy_id": "DEF-PAPINEAU-PHYSICAL",
   "term": "physical (Papineau)",
   "definition": "Physical in Papineau's indirect sense: what can be specified without appeal to whichever special vocabularies (mental, biological, ...) are at issue; with the mental as the special category, physical means nonmental (pp.12-13). Lean: the parameter `Physical` of CompletenessOfPhysicsReading, over occurrences. It is not Aristotle's respect of physical motion (DEF-PHYSICAL-RESPECT) and not 'composed of matter and form' (DISAMB-PHYSICAL).",
   "basis": "sourced",
   "claim_ids": [
-    "PAPINEAU-RISE-COMPLETENESS-OF-PHYSICS-A"
+    "dc9545f1-432f-5be0-bea5-0caf5f1cad67"
   ]
 }

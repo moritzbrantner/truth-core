@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CARNAP-ESO",
+    "source_id": "d1ff237f-70ee-5ad8-897f-e4f0fa82d335",
     "source_url": "https://www.phil.cmu.edu/projects/carnap/editorial/latex_pdf/1950-1.pdf",
     "retrieved_at": "2026-11-05T15:19:36Z",
     "sha256": "sha256:c7f25a47a973a169751dbe6627c108454e6213b5d16d9bdbcc9a26fca65899c6",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "CARNAP-ESO-II-FRAMEWORKS",
+      "id": "7803bde0-88d9-5cfd-b17c-ca111f9a6c51",
+      "label": "Rudolf Carnap, \"Empiricism, §II, physical pp. 3-5",
+      "legacy_id": "CARNAP-ESO-II-FRAMEWORKS",
       "locator": "§II (Frameworks of Entities), physical pp. 3-5",
       "claim_locator_prefixes": [
         "§II, p. 4",
@@ -25,7 +27,9 @@
       "incipit": "II. Frameworks of Entities Are there properties, classes, numbers,"
     },
     {
-      "id": "CARNAP-ESO-P20",
+      "id": "606964b2-10df-5ce9-9a38-8204ef191ef0",
+      "label": "Rudolf Carnap, \"Empiricism, §III, physical p. 20",
+      "legacy_id": "CARNAP-ESO-P20",
       "locator": "§III (What does acceptance of a kind of entities mean?), physical p. 20",
       "claim_locator_prefixes": [
         "§III, p. 20"
@@ -38,7 +42,9 @@
       "incipit": "If suitable rules for this term are laid down, the following is likewise"
     },
     {
-      "id": "CARNAP-ESO-II-P5-6",
+      "id": "825f1906-3d2f-5e28-a72f-bbc758d947c9",
+      "label": "Rudolf Carnap, \"Empiricism, §II, physical pp. 5-6",
+      "legacy_id": "CARNAP-ESO-II-P5-6",
       "locator": "§II (Frameworks of Entities), physical pp. 5-6",
       "claim_locator_prefixes": [
         "§II, p. 6"

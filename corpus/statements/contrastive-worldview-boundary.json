@@ -1,21 +1,23 @@
 {
-  "id": "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+  "id": "2a6f2dd0-5466-5b7e-be41-e97b4426b425",
+  "label": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported…",
+  "legacy_id": "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
   "paraphrase": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported exact-classifier characterization, inquiry-access versus truth-directed-policy boundary, successful-practice versus categorical-duty boundary, and truth-directed reflective-duty conditional. Comparative update, evidence-only classification, ideal truth policy and categorical authority remain distinct; no actual worldview, universally binding Bayesian norm or root premise is established. See docs/notes/contrastive-worldview-934.md for the stipulated scope and rival readings.",
   "lean_declaration": "TruthCore.Logic.ContrastiveWorldview.Certificate",
   "definition_ids": [
-    "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
-    "DEF-CONTRASTIVE-WORLDVIEW-CASE",
-    "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
-    "DEF-SCIENCE-INDUCTION-SELECTION",
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
-    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
-    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+    "a251bc98-6ce9-5066-80c3-b32c3fdfe5c7",
+    "dd957a86-5209-5878-801f-048b9e24f5cf",
+    "7aa39824-3098-50e7-acaa-15747e704555",
+    "dd18377d-63fa-5892-8087-b6441dff5b1c",
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "7b30afc5-c68a-55d0-839a-0de89c4cfee9",
+    "526d1d3c-86de-5835-a061-41e22cff70d1",
+    "c31c763a-c8e3-56ba-9def-79dcc818eb3d"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION",
-    "DISAMB-SCIENCE-INDUCTION-SELECTION",
-    "DISAMB-TRANSCENDENTAL-ACCESS-AND-DUTY",
-    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+    "9acaae93-332c-5e30-a925-657e712c7c1a",
+    "e977dc68-4774-5dc4-b8af-98a645631096",
+    "eaabcbaf-5407-5f0c-8112-5d90c6d9ea33",
+    "ba851630-7eec-5851-8ad2-d8eff7430e41"
   ]
 }

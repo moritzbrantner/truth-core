@@ -1,7 +1,9 @@
 {
-  "id": "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "id": "4f86d658-e9e3-5e11-a6cb-3f2c71a96554",
+  "label": "For every relation R on any type of beings: if every being is…, by Induction-on-accessibility",
+  "legacy_id": "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
+  "output_statement_id": "d1d68a01-7d72-5971-9fa2-fc5289238639",
   "rule": "induction-on-accessibility",
   "meaning": "Induct on the accessibility certificate of the series' last member: a series descending from an accessible being yields, after dropping its first member, a series descending from an accessible cause of it, which the induction hypothesis excludes.",
   "assumption_statement_ids": [],

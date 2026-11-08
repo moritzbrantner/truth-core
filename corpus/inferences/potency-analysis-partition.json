@@ -1,9 +1,11 @@
 {
-  "id": "INF-POTENCY-ANALYSIS-PARTITION",
+  "id": "a8f62d95-6720-57c0-ba06-3cc5ae5e98c9",
+  "label": "The partition of the shared question q f7: either a being is in potency in a…, by Case-analysis",
+  "legacy_id": "INF-POTENCY-ANALYSIS-PARTITION",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-POTENCY-ANALYSIS-PARTITION",
+  "output_statement_id": "23291bbc-50e1-5d7b-801c-dc962ddc6698",
   "rule": "case-analysis",
   "meaning": "Excluded middle on whether the biconditional fails somewhere, then on potency, capacity and act at the failing being and respect.",
   "assumption_statement_ids": [],

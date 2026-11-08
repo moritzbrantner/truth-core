@@ -1,25 +1,27 @@
 {
-  "id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "id": "61ac44a6-5af0-5ff0-82a4-ae0c0a7b69db",
+  "label": "The reduced nominal description suffices for the name 'GOD_2' to apply: if a being…, from operation",
+  "legacy_id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
   "premise_statement_ids": [
-    "STMT-NAME-GOD-IMPOSED-FROM-OPERATION",
-    "STMT-UNIVERSAL-CAUSE-OF-BEING-IS-MAXIMAL"
+    "709ad5d2-5be5-5023-897e-a0c8ea8bd5ab",
+    "57b88730-adcd-574b-933b-c509519e55cd"
   ],
-  "conclusion_statement_id": "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
+  "conclusion_statement_id": "e39a4fce-ccaf-5862-836e-9317923842f3",
   "inference_ids": [
-    "INF-NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION"
+    "ffdd8454-657f-5866-9b15-9d22b2309816"
   ],
   "meaning": "If the name 'God' applies to the only universal cause of being, and every universal cause of being is maximal in being, then it applies to the only maximum in being that causes the being of all others: any second universal cause would be a second maximum, against uniqueness. The maximality antecedent of the reduced leaf is not used. Two open analyst bridges.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-MAXIME-ENS",
-    "DEF-NOMINAL-DEFINITION"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "STMT-HARD-CASE-GOODS-CONTROL",
+  "id": "3f82d9ad-8ae7-5d49-9d04-82eaafd6aa06",
+  "label": "A single typed hard-case factual structure and shared independently stipulated good and damage…",
+  "legacy_id": "STMT-HARD-CASE-GOODS-CONTROL",
   "paraphrase": "A single typed hard-case factual structure and shared independently stipulated good and damage relations classify the victim’s bodily integrity as good and damaged in the violation case and the victim’s life as good and damaged in the killing case, while two supplied verdicts differ on both prohibitions. The good and damage relations are nonconstant. No actual goodness, permission, prohibition, categorical reason or metaphysical possibility follows, and richer accounts may exclude a verdict.",
   "lean_declaration": "TruthCore.Ethics.HardCaseGoods.GoodsOmission",
   "definition_ids": [
-    "DEF-HARD-CASE-TYPED-CONTROLS",
-    "DEF-HARD-CASE-NONCONSENT",
-    "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
-    "DEF-HARD-CASE-HUMAN-GOODS"
+    "a61f7f72-ff7c-5afd-8691-7f8d08a611d6",
+    "20fddea1-4b27-5021-8c0d-ecc5bef50a27",
+    "111420d8-cc79-5fde-9555-7305b010c929",
+    "2cba2f9b-fa0b-5422-ba5a-a11e9f35c25f"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
-    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+    "600cb96a-ffcc-591e-a4f1-8c7713a705f9",
+    "658195c2-4e01-5dea-ba09-e1a5f75517a6"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTENCE-INGREDIENT-AT",
+  "id": "b1c09de2-03da-5b1f-bd2f-4bdf6d130417",
+  "label": "At least one existential member of a…: For every admitted g whose effect is positive b, some…",
+  "legacy_id": "DEF-EXISTENCE-INGREDIENT-AT",
   "term": "at least one existential member of a selected full ground",
   "definition": "For every admitted g whose effect is positive b, some member f of the full record satisfies ExistenceRelated. Nonexistential members may remain. The chosen member alone need not ground the target, be indispensable, be true or be autonomous.",
   "basis": "stipulative",

@@ -1,16 +1,18 @@
 {
-  "id": "PLATO-THEAET-171E-172A-CONCESSION-A",
-  "statement_id": "STMT-RESTRICTED-MEASURE-CONCESSION",
-  "source_id": "PLATO-THEAET",
+  "id": "5fb9cc2b-00cf-547e-8629-2cd579f5dfc6",
+  "label": "Plato, Theaetetus 171e-172a: What the restricted doctrine concedes: outside its domain it is not…",
+  "legacy_id": "PLATO-THEAET-171E-172A-CONCESSION-A",
+  "statement_id": "6c7941b0-a94f-542e-9282-849642fe4d3e",
+  "source_id": "fcfc4cb0-ad17-5c8f-a8ff-ce41ddb2e1e1",
   "locator": "171e-172a",
   "interpretation": "What the restriction concedes: about health not every woman, child or beast is competent to heal itself (171e); about what is advantageous the Protagorean \"will agree\" (ὁμολογήσει) that one counsellor differs from another, and one city's opinion from another's, toward truth (πρὸς ἀλήθειαν), and would not dare say that whatever a city thinks advantageous will be so (172a). Read narrowly as the denial of the universal outside the domain: it is not the case that whatever seems so there is true for the one to whom it seems. Not read as a particular case of seeming without truth-for (constructively stronger, and not needed by PLATO-THEAET-CONCESSION-DEFEATS-MEASURE), nor as an endorsement of absolute truth.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PROTAGOREAN-MEASURE",
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-RELATIVE-TRUTH"
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41",
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

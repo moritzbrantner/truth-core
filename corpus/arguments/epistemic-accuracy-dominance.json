@@ -1,12 +1,14 @@
 {
-  "id": "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+  "id": "3504d583-9732-5db7-91ed-42ff34d59c7e",
+  "label": "For complementary credences r,s in, their projection remains in and sums to one",
+  "legacy_id": "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
+  "conclusion_statement_id": "a417c4b4-7f0e-5222-a74b-3c311fcb8133",
   "inference_ids": [
-    "INF-EPISTEMIC-ACCURACY-DOMINANCE"
+    "84bb47d8-bfda-51e7-ab69-8946afdb922c"
   ],
   "meaning": "For complementary credences r,s in [0,1], their projection ((1+r-s)/2,(1-r+s)/2) remains in [0,1] and sums to one. In each of the two possible truth states, summed binary squared error decreases by exactly (r+s-1)^2/2; if r+s differs from one the improvement is strict in both states. No probability estimate or calibration assumption is used. This restricted statewise dominance does not establish normative authority or dominate coherent wishful credences.",
   "definition_ids": [
-    "DEF-EPISTEMIC-ACCURACY"
+    "c89d6b19-0d84-5124-8289-99f130113c74"
   ]
 }

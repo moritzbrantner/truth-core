@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
+  "id": "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+  "label": "Logical consistency relative to mere…: For the bounded source reading, absence of a refutation by…",
+  "legacy_id": "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
   "term": "logical consistency relative to mere ideas",
   "definition": "For the bounded source reading, absence of a refutation by reasoning from the ideas alone, expressed as ¬refutes(description). This is an interpretive interface, not a specified complete calculus and not a Lean consistency theorem about Hume’s reasoning.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-GAP-HAS-REASON",
-  "argument_id": "HIDDENNESS-GAP-HAS-REASON",
+  "id": "3df3fd92-f000-556f-8f83-1a88caac1ecc",
+  "label": "Given God existing, the conscious belief…, from The Catholic comparison commitment: God… and 3 more",
+  "legacy_id": "HIDDENNESS-GAP-HAS-REASON",
+  "argument_id": "257cf330-0867-53c9-837b-ed7dd93e3581",
   "challenge_module": "TruthCore.Results.Hiddenness.GapHasReason.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.GapHasReason.Solution",
   "theorem": "TruthCore.Results.Hiddenness.GapHasReason.gapHasReason",

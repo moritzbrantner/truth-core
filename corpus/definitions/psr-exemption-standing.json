@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXEMPTION-STANDING",
+  "id": "80a258e8-3837-5a70-b63e-15f1920ed02b",
+  "label": "Exemption standing: For a demanded target and a stance's own claim: Uniform demands both",
+  "legacy_id": "DEF-EXEMPTION-STANDING",
   "term": "exemption standing",
   "definition": "For a demanded target and a stance's own claim: Uniform demands both. Selective demands only the target although the two agree on a supplied feature k. Restricted demands only the target and the two differ on k. Each standing is relative to k, and neither Selective nor Restricted says k is the right feature or a defensible line.",
   "basis": "stipulative",

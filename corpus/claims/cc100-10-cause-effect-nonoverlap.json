@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-CAUSE-EFFECT-NONOVERLAP",
-  "statement_id": "STMT-CC100-10-CAUSE-EFFECT-NONOVERLAP",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "23d7aadd-aa75-58c4-9ffe-48ad19735c34",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: A cause and its effect are distinct, and a cause…",
+  "legacy_id": "CC100-10-CAUSE-EFFECT-NONOVERLAP",
+  "statement_id": "e92f90df-945b-5566-93f6-64bed44553a3",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.21, C2, argument #10 Koons",
   "interpretation": "Preserve both the displayed distinctness wording and its literal nonoverlap parenthesis. Nonoverlap is stronger than mere numerical inequality under ordinary mereology; the parenthetical “i.e.” does not establish their equivalence. No replacement by a merely distinct-cause theorem is faithful without an additional scope argument. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

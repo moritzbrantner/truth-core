@@ -1,6 +1,8 @@
 {
-  "id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
-  "argument_id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "id": "1cdeb07f-0994-5197-9034-5924f531b339",
+  "label": "An actual move is defined by the selected…, from In the Catholic practice, the First Vatican…",
+  "legacy_id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "argument_id": "c1be70b7-8b69-500e-8c59-72156e30b298",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Witness.councilSuppliesDefinedMove",

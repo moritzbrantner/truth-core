@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REFERENCE-UP-TO-ISOMORPHISM",
+  "id": "bf20c36c-9b87-5db8-8eb3-a9ee5f691379",
+  "label": "Reference up to structure isomorphism: A structuralist interpretation identifies reference…",
+  "legacy_id": "DEF-REFERENCE-UP-TO-ISOMORPHISM",
   "term": "reference up to structure isomorphism",
   "definition": "A structuralist interpretation identifies reference assignments related by a bijection that also transports every function and relation interpretation. The original and transported models agree in this sense even when their name constants have different literal carrier values.",
   "basis": "stipulative",

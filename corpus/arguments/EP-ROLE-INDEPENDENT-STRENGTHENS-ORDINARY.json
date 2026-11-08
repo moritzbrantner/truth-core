@@ -1,17 +1,19 @@
 {
-  "id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "id": "9b6b4658-2ddf-506d-8f71-431a02d66e63",
+  "label": "Some subject, consideration and attitude toward…, from Some ordinary-role epistemic reason retains…",
+  "legacy_id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
   "premise_statement_ids": [
-    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
   ],
-  "conclusion_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "conclusion_statement_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "inference_ids": [
-    "INF-EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY"
+    "8104e872-b206-5d65-9bf5-0153752cf02e"
   ],
   "meaning": "Forget the universal force conjunct of an existing preference-independent reason to retain its ordinary-role witness. This registers a strength order, not an argument that either existential is actually instantiated.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

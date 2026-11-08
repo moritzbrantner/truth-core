@@ -1,11 +1,13 @@
 {
-  "id": "DEF-MORAL-MODUS-PONENS-VALIDITY",
+  "id": "1f9796c4-7fe6-5044-86de-e31efc7c477a",
+  "label": "Valid moral modus ponens in the…: For p, q and the conditional if p then q, validity requires that…",
+  "legacy_id": "DEF-MORAL-MODUS-PONENS-VALIDITY",
   "term": "valid moral modus ponens in the Frege–Geach comparison",
   "definition": "For p, q and the conditional if p then q, validity requires that p have the same meaning in its free-standing occurrence and in the conditional’s antecedent. Geach’s cat/little-brother example is the instance at issue. In Lean ValidMP p q is primitive; the constant-meaning requirement is an explicit necessary-condition premise, not a definition of validity or a proof that constant meaning suffices for validity. A joint model satisfying ValidMP is a consistency witness, not its explanation.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-COGNITIVISM-4-1-FREGE-POINT-VALIDITY-REQUIRES-CONSTANT-MEANING",
-    "SEP-MORAL-COGNITIVISM-4-1-GEACH-MODUS-PONENS-VALID"
+    "5c3d0194-d9a7-5b98-83ad-ab250678a02b",
+    "a48d1891-9b9a-5f05-960e-92921bf43cf8"
   ],
   "lean_declaration": "TruthCore.English.VanRoojen.ValidityRequiresConstantMeaningReading"
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-SUBJECTLESS-CONTROL",
+  "id": "9a9b3120-d8a1-5c79-b5d7-d353765906b7",
+  "label": "There is a one-episode interpretation in which a thought occurs and no…, by Model-construction",
+  "legacy_id": "INF-COGITO-SUBJECTLESS-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "output_statement_id": "981193aa-35f0-5098-8f58-86b028e50716",
   "rule": "model-construction",
   "meaning": "Interpret Occurs as always true and Bears as always false over Unit.",
   "assumption_statement_ids": [],

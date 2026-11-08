@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
-  "argument_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "id": "826023e5-670e-5afc-8619-8f329eff6008",
+  "label": "For every bearer and perfection in the fixed form/end…, from Stronger intensional proposition: the…",
+  "legacy_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "argument_id": "44f804e1-e373-5de3-91be-1dc00d3f3610",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessPropertyIdentity.entailsDueActuality",

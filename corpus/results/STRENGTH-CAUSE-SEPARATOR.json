@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-SEPARATOR",
-  "argument_id": "STRENGTH-CAUSE-SEPARATOR",
+  "id": "30544d35-4c58-5483-b31a-827decfab7f5",
+  "label": "In the specified Bool setting only false is generated and the CAUSE_2 relation is identity: the…",
+  "legacy_id": "STRENGTH-CAUSE-SEPARATOR",
+  "argument_id": "82a87baf-3550-5fcf-ba64-35711894b17f",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.separator",

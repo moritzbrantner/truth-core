@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-Q75-WEAK-AND-COMPLETE-SUBSISTENCE",
+  "id": "66a0e7ff-292d-5a31-b87c-9f648747fb13",
+  "label": "Subsistence: non-inherence versus completeness",
+  "legacy_id": "DISAMB-Q75-WEAK-AND-COMPLETE-SUBSISTENCE",
   "term": "subsistence: non-inherence versus completeness",
   "sense_definition_ids": [
-    "DEF-Q75-WEAK-SUBSISTENCE",
-    "DEF-Q75-COMPLETE-SUBSISTENCE"
+    "5448b824-575c-585d-8121-c69ce226ca9c",
+    "7c8f91df-84d3-5268-94cf-97e290392dc9"
   ],
-  "resolution": "The conclusion and operation/existence premise use only the weak sense. The complete human composite is not identified with its intellectual principle. Q.75 a.2 ad 1–2 permits an incomplete part in the first sense and reserves completeness for the second. Q.76 a.1 treats the soul as the form of the human body; no immortality inference is encoded."
+  "resolution": "The conclusion and operation/existence premise use only the weak sense. The complete human composite is not identified with its intellectual principle. Q.75 a.2 ad 1–2 permits an incomplete part in the first sense and reserves completeness for the second. Q.76 a.1 treats the soul as the form of the human body; no immortality inference is encoded.",
+  "term_label": "SUBSISTENCE_NON_INHERENCE_VERSUS_COMPLETENESS",
+  "senses": [
+    {
+      "id": "70eb2848-608c-4527-8540-ec204171fba6",
+      "label": "SUBSISTENCE_NON_INHERENCE_VERSUS_COMPLETENESS_1",
+      "definition_id": "5448b824-575c-585d-8121-c69ce226ca9c",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsInWeakSense"
+    },
+    {
+      "id": "efb1f117-8d02-49c1-8d4f-855dee1e0bd2",
+      "label": "SUBSISTENCE_NON_INHERENCE_VERSUS_COMPLETENESS_2",
+      "definition_id": "7c8f91df-84d3-5268-94cf-97e290392dc9",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsAsComplete"
+    }
+  ]
 }

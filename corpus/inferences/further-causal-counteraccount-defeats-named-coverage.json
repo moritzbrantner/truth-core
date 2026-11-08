@@ -1,9 +1,11 @@
 {
-  "id": "INF-FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "id": "180cd9ab-af18-506f-8fb5-c2f4b856738e",
+  "label": "Exact negation of the explicit named-case coverage hypothesis, not an…, by Constructive-proof",
+  "legacy_id": "INF-FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
   "input_statement_ids": [
-    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+    "a94a02e3-5e86-59f6-aa17-ad7f7914c914"
   ],
-  "output_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "output_statement_id": "bd355c11-ff47-57d8-af78-7f4c6be60973",
   "rule": "constructive-proof",
   "meaning": "An actual selected countercase outside every named productive branch contradicts the coverage hypothesis.",
   "assumption_statement_ids": [],

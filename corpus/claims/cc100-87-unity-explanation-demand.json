@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-UNITY-EXPLANATION-DEMAND",
-  "statement_id": "STMT-CC100-87-UNITY-EXPLANATION-DEMAND",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "97803eda-4a16-52d3-9490-8327b49bfd73",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The unity of the cosmos requires explanation",
+  "legacy_id": "CC100-87-UNITY-EXPLANATION-DEMAND",
+  "statement_id": "fd3ff3cc-1531-5d56-bb72-95a0bad5799b",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 1",
   "interpretation": "Retain the explanatory demand, without equating requires-explanation with an actually obtaining explanation, complete sufficient cause or a unique explanatory bearer. Cosmic unity is not automatically a Sum2 fusion or the unity of every arbitrary whole. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

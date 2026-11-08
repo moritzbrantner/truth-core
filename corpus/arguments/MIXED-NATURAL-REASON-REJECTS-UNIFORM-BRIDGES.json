@@ -1,20 +1,22 @@
 {
-  "id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "id": "ba2e49db-155e-5362-817a-ba75ee051695",
+  "label": "Both uniform interpretations fail: not every…, from A natural-knowability move answers to…",
+  "legacy_id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
   "premise_statement_ids": [
-    "STMT-NATURAL-REASON-IS-MIXED"
+    "1458d561-997b-5eff-a3b5-5b54382275db"
   ],
-  "conclusion_statement_id": "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED",
+  "conclusion_statement_id": "9b85baf4-bd6f-5ffd-87d9-5dd70b3a132c",
   "inference_ids": [
-    "INF-MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES"
+    "ec19b850-59e5-5b35-8550-c437f369b7ac"
   ],
   "meaning": "The nonshared witness defeats the universal shared bridge; the shared witness defeats universal nonsharedness. This is a local standard-profile constraint, not a refutation of the descriptive horizon or a whole worldview.",
   "definition_ids": [
-    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
-    "DEF-CONCILIAR-DEFINITION"
+    "f74c1b35-246a-5182-886e-0ff56e217925",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "aa836cb9-1853-5973-8907-89d232f0c8ce",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-LOCAL-CONTACT-COMPOSITION-SCOPE",
+  "id": "4ca60566-e921-5112-bdae-f9904885deec",
+  "label": "Definition-use audit of contact/continuity, one-made-of-all and local bodily motion found a…",
+  "legacy_id": "ATTEMPT-LOCAL-CONTACT-COMPOSITION-SCOPE",
   "outcome": "succeeded",
   "summary": "Definition-use audit of contact/continuity, one-made-of-all and local bodily motion found a consequential scope excess: the old composition premise covers all injective touching chains while the proof only calls it on local moved-mover chains. Preserve old source/frozen interface, register a weaker analyst sibling and sole-premise strength, derive the exact existing no-local-chain target with three unchanged premises, and export a populated local chain/whole plus unrelated touching chain lacking a whole. The stronger old theorem cannot simply be applied to the weaker premise; the new proof explicitly adapts its typed contact/whole/traversal contradiction, with no hidden transfer or classical choice. No actual aggregation, quantitative traversal or physical interpretation is established; no global necessity claim is made. See docs/notes/local-contact-composition.md.",
   "evidence": [
-    "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
-    "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
-    "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL"
+    "d071e5bd-d5f1-5584-a07d-21c7508c2d78",
+    "ea6c9674-4772-5a3e-b3b7-07f76db8b202",
+    "aabd5208-0f38-57ba-a8a8-67b052c2c4c2"
   ],
   "statement_ids": [
-    "STMT-TOUCHING-CHAIN-FORMS-ONE",
-    "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
-    "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN"
+    "9a36bdc4-75a6-5c39-9d70-88bd42ba38a5",
+    "f28c1cb0-e470-546a-bc9f-64d143403fe2",
+    "784a5e0b-5b35-5aa1-b95b-2974beb98e9b"
   ],
   "date": "2026-11-06",
   "kind": "derivation"

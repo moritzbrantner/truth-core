@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
-  "argument_id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "id": "e5d75b96-81c9-536f-b904-45e0d1dc765c",
+  "label": "Formal fact: a homogeneous scale of BEING_1 with a…, via homogeneous scale gives no cause of BEING_1",
+  "legacy_id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "argument_id": "9d79a6e1-a121-59ef-9fd4-e6e01a7d3469",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaHomogeneousScale.homogeneousScaleGivesNoCauseOfBeing",

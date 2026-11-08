@@ -1,10 +1,12 @@
 {
-  "id": "DEF-ARISTOTELIAN-GROWTH",
+  "id": "75f1d2b4-ddb7-5467-bdb0-0f28895826d5",
+  "label": "Growth, VII.5: An increaser acts on something increased, with a quantity of increase and elapsed…",
+  "legacy_id": "DEF-ARISTOTELIAN-GROWTH",
   "term": "growth (auxēsis), VII.5",
   "definition": "An increaser acts on something increased, with a quantity of increase and elapsed time. VII.5 treats these roles alongside alteration’s agent, patient and degree. The Lean reading lists the roles as proposition parameters; no quantitative model, identification with alteration, or universal linear response is thereby defined.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-250A28-GROWTH-AGENT-PATIENT-AMOUNT-TIME-A"
+    "09fee7d4-08eb-5df2-9c49-b7144c91bbac"
   ],
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.GrowthHasAgentPatientAmountTimeReading"
 }

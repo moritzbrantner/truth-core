@@ -1,10 +1,12 @@
 {
-  "id": "INF-CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
+  "id": "ccca5b23-babc-5275-b64a-a9895cb1f8c6",
+  "label": "Whatever unites two things into x is an efficient cause of x in some respect, by… (2)",
+  "legacy_id": "INF-CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
   "input_statement_ids": [
-    "STMT-UNITING-CAUSE-EFFICIENT-AT-SOME-TIME",
-    "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME"
+    "8e44a618-09cf-5ae0-8a0e-c8c7e60b5d26",
+    "db54a1a6-7e59-5378-939d-fa38be38db9e"
   ],
-  "output_statement_id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
+  "output_statement_id": "27d15954-567a-5321-b4ec-81bfe7ef1653",
   "rule": "constructive-proof",
   "meaning": "Explicit temporal-transfer transcription: historical efficient activity plus the uniter-restricted persistence premise yields the exact current efficient-uniter premise.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEREOLOGICAL-SUPPLEMENTATION",
+  "id": "491073fa-38af-5d98-a6b8-77bf9c472525",
+  "label": "Weak and strong mereological…: WeakSupplementation B says x<y has z≤y disjoint from x",
+  "legacy_id": "DEF-MEREOLOGICAL-SUPPLEMENTATION",
   "term": "weak and strong mereological supplementation",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.StrongSupplementation",
   "basis": "stipulative",

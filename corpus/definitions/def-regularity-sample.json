@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-SAMPLE",
+  "id": "5f156d0e-84a6-5471-8d5e-be68e594773e",
+  "label": "Sample restriction and coincidence: Sample selects only equal-valued pairs from independent binary…",
+  "legacy_id": "DEF-REGULARITY-SAMPLE",
   "term": "sample restriction and coincidence",
   "definition": "sample selects only equal-valued pairs from independent binary variables. The apparent equality in that sample does not hold off the diagonal. CoincidenceTest is a possibility of sampling-based accidental association, not a probability claim or a theory of all coincidence.",
   "basis": "stipulative",

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-AT-LEAST-AS-SUCH",
+  "id": "60a38244-5ba5-5b8d-9b9a-681bf21c2338",
+  "label": "If distinct cause and effect have a quality under a shared defining account, and the cause causes…",
+  "legacy_id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-AT-LEAST-AS-SUCH",
   "paraphrase": "If distinct cause and effect have a quality under a shared defining account, and the cause causes that quality in the effect, the cause is at least as such as the effect. This pairwise reading permits ties and weakens the source’s most-such wording; concrete applicability remains open.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.SynonymousCauseAtLeastReading",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-AT-LEAST-IN",
-    "DEF-SHARED-DEFINING-ACCOUNT"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "3533dc1b-25bf-5747-bdf9-a308b3da7e55",
+    "030b5151-2125-551c-93a3-fc32d034a3cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-BEING-UNIVOCITY"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

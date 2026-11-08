@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
+  "id": "dad0a85f-90ce-56de-88cb-1001168772b8",
+  "label": "A potential infinity by addition that could exceed every determinate magnitude would require an…",
+  "legacy_id": "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
   "paraphrase": "A potential infinity by addition that could exceed every determinate magnitude would require an actually infinite sensible body of the rejected kind.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnboundedAdditivePotentialRequiresActualInfiniteBodyReading"
 }

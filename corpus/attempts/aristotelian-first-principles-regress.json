@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-ARISTOTELIAN-FIRST-PRINCIPLES-REGRESS",
+  "id": "80d318fd-9625-51e6-8f40-92307a4e6da9",
+  "label": "Materialized/read complete primary Greek An.Post.I.2–3 from the pinned Bekker1837 First1KGreek…",
+  "legacy_id": "ATTEMPT-ARISTOTELIAN-FIRST-PRINCIPLES-REGRESS",
   "statement_ids": [
-    "STMT-ARISTOTLE-ANPOST-DEMONSTRATIVE-PREMISES",
-    "STMT-ARISTOTLE-ANPOST-SHARED-DEMONSTRATIVISM",
-    "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
-    "STMT-ARISTOTLE-ANPOST-IMMEDIATE-KNOWLEDGE",
-    "STMT-ARISTOTLE-ANPOST-SAME-RESPECT-PRIORITY",
-    "STMT-ARISTOTLE-ANPOST-CIRCULAR-SELF-RETURN",
-    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES",
-    "STMT-REGRESS-JUSTIFICATION-TRANSFER"
+    "d480c2cb-3c47-51ad-bf0c-24615b2afb23",
+    "4e0a7678-4e51-5adf-a167-7bf8b8100b9a",
+    "381cfe6c-0a1a-5c15-8098-4dd3d11b3ab8",
+    "8da76240-7b5c-5fbe-9d06-937b8ce3d3ae",
+    "166cb256-21c3-58e9-a9a5-45da118643d8",
+    "0756e84b-2069-5830-a861-86fd2e5df5ba",
+    "a669b17c-91bf-5525-bfba-f89b6e8e9438",
+    "913dbfbc-3730-55ca-b6dd-f04ec25eef83"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized/read complete primary Greek An.Post.I.2–3 from the pinned Bekker1837 First1KGreek edition. Six prose readings isolate demonstrative-premise norms, the opponents' shared demonstrativism, the conditional-only regress objection, Aristotle's positive immediate-knowledge reply and qualified circularity arguments. Rejected immediate=arbitrary dogma, actual traversal=dispositional availability, all generated warrant=all knowledge, finite necessary branch=global finite proof and epistemic no-regress=causal impossibility. Existing RegressSchema.justificationTransfer and CrossDomainBoundary already supply the exact structural controls; no new proof is justified. Independent entitlement, termination/access and applicability to strongest infinitist/holistic rivals remain open. Full source/argument/reuse/premise comparison in docs/notes/aristotelian-first-principles-and-regress.md. Root premise change none.",
   "evidence": [
-    "ARIST-APOST-71B-DEMONSTRATIVE-PREMISES",
-    "ARIST-APOST-72B-SHARED-DEMONSTRATIVISM",
-    "ARIST-APOST-72B-REGRESS-CONDITIONAL-KNOWLEDGE",
-    "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE",
-    "ARIST-APOST-72B-SAME-RESPECT-PRIORITY",
-    "ARIST-APOST-72B-CIRCULAR-SELF-RETURN"
+    "61785ae0-840f-514c-8cd9-78cdfd9e8193",
+    "c613c10e-55df-5ea0-b7a0-75a46342dad7",
+    "2e10769d-9e52-578a-9ad0-a8db7d972cc0",
+    "8beded56-bff7-5351-ae46-76a271f3c97f",
+    "a040f9b1-6478-51af-bd35-dfbadcf3cc33",
+    "42b1c753-1f36-590e-bf50-500ed108c0aa"
   ]
 }

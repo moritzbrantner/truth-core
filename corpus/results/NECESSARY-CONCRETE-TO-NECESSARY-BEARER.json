@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
-  "argument_id": "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "id": "033dd19f-6077-540d-a36c-d3b7ebe79a73",
+  "label": "At least one individual exists at the selected…, from Some concrete individual exists at w and at…",
+  "legacy_id": "NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "argument_id": "544b257d-30d4-5245-99f7-76f7fc777ba0",
   "challenge_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryWitnessConnection.necessaryBearer",

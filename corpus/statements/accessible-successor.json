@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACCESSIBLE-SUCCESSOR",
+  "id": "390ac3ab-48ec-596e-9890-4d2364e81cf9",
+  "label": "The supplied base world has at least one accessible successor; no population is asserted",
+  "legacy_id": "STMT-ACCESSIBLE-SUCCESSOR",
   "paraphrase": "The supplied base world has at least one accessible successor; no population is asserted.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.AccessibleSuccessor",
   "definition_ids": [
-    "DEF-FINITE-POPULATION-COVER",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "5dcbf9ee-d1a6-5238-8941-9a116508f291",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

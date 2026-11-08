@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
-  "argument_id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "id": "c1327a5d-daf3-5063-836c-9162fee09ff8",
+  "label": "One fixed Body interpretation jointly has the existing atomic full remainder/Sum1/Sum2 profile\u2026",
+  "legacy_id": "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "argument_id": "52ecd9f1-b34b-5fb4-ba02-df08acd8ea2c",
   "challenge_module": "TruthCore.Results.Mereology.ActualFusionProfile.Challenge",
   "solution_module": "TruthCore.Results.Mereology.ActualFusionProfile.Solution",
   "theorem": "TruthCore.Results.Mereology.ActualFusionProfile.checks",

@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
-  "statement_id": "STMT-NB-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "9255ccfb-e953-5f6f-b65e-a04dbdb4df23",
+  "label": "Unattributed website author, Necessary…: Within the outer supposition that no NECESSARY_BEING_4 is…",
+  "legacy_id": "NB-SURVEY-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY",
+  "statement_id": "62206d27-b24c-5a09-a78b-b24656062ed4",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C, step 11 inner proof and steps 12–13, with the note after step 20",
   "interpretation": "The inner C-is-necessary supposition is discharged at11, but outer NoPossibleNB remains through17. Preserve both nonempty and empty individual-roster branches. Empty C is an obtaining negative situation, not an empty situation domain; nonempty facts from the P1 reading do not guarantee an individual member of C. Step11 invokes the earlier possible-caused-thing CONTENT also recorded by STMT-NB-A4-POSSIBLE-CAUSED-THING; this is not a new A5 question, actual assent, or a guarantee that every entry route/session retained that report. Borrowed positive possibility, cause-capable domain and actual-concrete bearer interpretation remain explicit obligations. Existing JointCondition/EmptyHistory conditional results are reusable only with their own admission, EVER/now, class, causal and frame guards; no source soundness or new proof is credited.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

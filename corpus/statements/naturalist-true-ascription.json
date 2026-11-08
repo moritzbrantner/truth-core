@@ -1,9 +1,11 @@
 {
-  "id": "STMT-NATURALIST-TRUE-ASCRIPTION",
+  "id": "15b49fdc-d4c5-5cdc-978e-22b565a07617",
+  "label": "The interpretation contains a true moral sentence",
+  "legacy_id": "STMT-NATURALIST-TRUE-ASCRIPTION",
   "paraphrase": "The interpretation contains a true moral sentence. The historical statement ID and declaration name do not assert an Ascribes witness or the existence of a false sentence; the separate stronger ascription commitments make those boundaries explicit.",
   "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.TrueMoralAscriptionOccurs",
   "definition_ids": [
-    "DEF-NATURALIST-FINITE-INTERPRETATION",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH"
+    "e1858d69-a463-5e57-8722-0de4a22a3049",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0"
   ]
 }

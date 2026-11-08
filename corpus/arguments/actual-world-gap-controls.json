@@ -1,25 +1,27 @@
 {
-  "id": "ACTUAL-WORLD-GAP-CONTROLS",
+  "id": "a37ac625-ac91-59d5-9ca0-a6c45086aa8e",
+  "label": "On shared worlds and tagged #735 causal forms, with every world meeting the local record condition",
+  "legacy_id": "ACTUAL-WORLD-GAP-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACTUAL-WORLD-GAP-CONTROLS",
+  "conclusion_statement_id": "37d045da-61c2-523d-87d3-4eac8bfca166",
   "inference_ids": [
-    "INF-ACTUAL-WORLD-GAP-CONTROLS"
+    "831c655c-22ce-56c9-b652-c9ec28f6723c"
   ],
   "meaning": "On shared worlds and tagged #735 causal forms, with every world meeting the local record condition. Tagged #735 exercises stay coherent, jointly sufficient and locally powered at each tag, single and plural have tagged Supply of every event, and fixture edges match tagged group edges. With universal accessibility, actual and rival are distinct presence histories. The named edge table has an evidence-only selector at every world; the same table with names erased has none at any world. Brute: on each form the total fact has no reason, and the contingent PSR and closure fail at actual; on the chain every existent has a reason at every world and the member lift fails. Internal: a member reason for the total is false at rival and coextensive with the total in this fixture; contrastive closure holds iff the form is the chain; reasons are well-founded on single and plural and not on the chain, where the contingent PSR holds at every world. Copy: the record, tracking the table, is a reason for the total coextensive with it; on the chain, the member lift, closure and the contingent PSR hold. Ground: on each form the contingent PSR holds at every world, reasons are factive and not necessitating, the reason for the total is true at every world and at rival where the total fails, is independent of it, and closure fails at actual. Law: a contingent marker entails the total, is independent of it, has no reason at actual, and the contingent PSR and closure fail at actual. With identity accessibility there is no rival and the total is not contingent, a ground reason is true and entails the total on accessible worlds, and closure and well-foundedness hold on single internal. Three models each violate one clause of the local record condition at one world, with the other two holding there and tables equal, and totals different. These are analyst models, not defended ontologies or demonstrated possibilities; ground does not separate personal from impersonal, and no answer is shown true.",
   "definition_ids": [
-    "DEF-ACTUAL-WORLD-GAP-TOTAL",
-    "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
-    "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
-    "DEF-ACTUAL-WORLD-GAP-FIXTURE",
-    "DEF-PSR-REASON",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-ULTIMATE-ADEQUACY-COMPARISON"
+    "ed76fd1e-c0cb-5f15-bc56-984e7b7112e8",
+    "aede72da-3002-5532-b1d9-49ba7293ffed",
+    "bcca2db5-64bf-5a5d-9df4-6cee81555e8d",
+    "66c60425-d602-52de-a156-87540b01e312",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-WORLD-GAP-QUESTION",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "cde1330c-76b6-51a7-9106-c0bcdef0c000",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

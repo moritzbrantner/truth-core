@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+  "id": "bad67511-e5a3-52d4-850b-40a3cc36aa1d",
+  "label": "Nonempty assigned fixed constituent…: For fixed data K:F→Set B and account S:F→Prop, every f with…",
+  "legacy_id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
   "term": "nonempty assigned fixed constituent sets for account facts",
   "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsNonempty",
   "basis": "stipulative",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION",
+  "id": "a22e4d97-1bec-53bc-82f9-1135b05b9bde",
+  "label": "Independently supplied Maxime holds exactly for selected-perfection bearers whose represented…",
+  "legacy_id": "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION",
   "paraphrase": "OPEN calibration: independently supplied Maxime holds exactly for selected-perfection bearers whose represented degree strictly exceeds every distinct bearer. This definition excludes tied distinct greatest bearers; neither old maximality nor the greatest-degree source premise includes that exclusivity.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.StrictDefinition",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ANSELM-MONOLOGION",
+    "source_id": "b2f522f6-0dec-5ad8-ad14-12f69c009c2f",
     "edition_urn": "http://scta.info/resource/adcmon-c1/cod-Sv1Sv1",
     "language": "lat",
     "repository": "scta-texts/anselmmonologion",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "ANSELM-MONOLOGION-C1",
+      "id": "02acfd5b-367d-559b-b4a0-0a7c9a68ff1a",
+      "label": "Anselm of Canterbury, Monologion, Cap.1",
+      "legacy_id": "ANSELM-MONOLOGION-C1",
       "locator": "cap.1 (SCTA cod-Sv1Sv1; complete chapter)",
       "claim_locator_prefixes": [
         "cap.1 "

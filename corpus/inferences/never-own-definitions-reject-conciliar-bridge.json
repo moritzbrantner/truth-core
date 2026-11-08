@@ -1,10 +1,12 @@
 {
-  "id": "INF-NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "id": "25dab92d-0c63-5457-8b84-6ba757dd7b12",
+  "label": "Exact negation of conciliar definition is practice own standard: not every…, by Constructive-proof",
+  "legacy_id": "INF-NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
   "input_statement_ids": [
-    "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
-    "STMT-DEFINED-MOVE-EXISTS"
+    "717b0a61-29ac-585c-8174-2efb862bbccd",
+    "351278c7-dbf6-5279-8e18-35f979e3ade6"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "output_statement_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "rule": "constructive-proof",
   "meaning": "Use the actual Defined move: the old normative bridge endorses it, while the all-nonendorsed premise denies that endorsement. A nonempty definition witness is explicit; theology is not refuted.",
   "assumption_statement_ids": [],

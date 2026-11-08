@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PROPER-AND-PARTICIPATED-ETERNITY-DIFFER",
+  "id": "f724e807-67ee-51f2-a731-1f2eb407c913",
+  "label": "Aquinas reserves proper eternity to God and distinguishes participated or extended uses for never…",
+  "legacy_id": "STMT-PROPER-AND-PARTICIPATED-ETERNITY-DIFFER",
   "paraphrase": "Aquinas reserves proper eternity to God and distinguishes participated or extended uses for never ceasing, long duration, and stable being or operation; endless punishment still admits change.",
   "definition_ids": [
-    "DEF-ETERNAL",
-    "DEF-PARTICIPATED-ETERNITY"
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "a26cce29-0205-5671-a1b1-8ad3d962c82a"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

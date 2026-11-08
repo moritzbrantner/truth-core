@@ -1,7 +1,9 @@
 {
-  "id": "INF-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "id": "57142977-f844-5a4d-afd5-b2a485544a9a",
+  "label": "For every interpretation of being, respect, being moved, OPINING_2 and the respect of an…, by Proof",
+  "legacy_id": "INF-ELEATIC-RETORSION-SCHEMA-INSTANCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "output_statement_id": "6020afe1-f097-56c4-a98f-4452ee962be2",
   "rule": "proof",
   "meaning": "Suppose nothing is moved and someone opines it. The link makes that opining an occurring episode (the opiner moved in the respect of the opinion); it is a denial of every such episode, and the supposition makes the denial true. That is an accurate performed denial, which noAccurateDenial (#516) excludes. All philosophical conditions remain inside the universally quantified conditional.",
   "assumption_statement_ids": [],

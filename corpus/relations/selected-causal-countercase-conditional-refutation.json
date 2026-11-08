@@ -1,9 +1,11 @@
 {
-  "id": "REL-SELECTED-CAUSAL-COUNTERCASE-CONDITIONAL-REFUTATION",
+  "id": "2c70cc1e-d39b-5f09-b09f-ac0eab8056e1",
+  "label": "Exact negation of the original two-clause…… refutes Owner framework commitment: At the selected…",
+  "legacy_id": "REL-SELECTED-CAUSAL-COUNTERCASE-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "subject_id": "485ea590-894d-5bff-8165-74dbdbfdd3b4",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
   "note": "Exact checked conditional contradiction under the registered explicit premises, which remain OPEN. Neither the original approved commitment nor a coverage hypothesis is independently refuted by this registration."
 }

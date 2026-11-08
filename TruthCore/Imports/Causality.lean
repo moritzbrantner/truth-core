@@ -141,11 +141,13 @@ public import TruthCore.Causality.TemporalPrimaVia
 public import TruthCore.Causality.TermSenseForks
 public import TruthCore.Causality.TermSenseForks2
 public import TruthCore.Causality.TermSenseForks3
+public import TruthCore.Causality.TermSenseForks4
 public import TruthCore.Causality.UnderivedCommonSource
 public import TruthCore.Causality.UnderivedEssenceEsse
 public import TruthCore.Causality.UnderivedNonComposite
 public import TruthCore.Causality.UnderivedRootRoute
 public import TruthCore.Causality.UniqueFeedback
+public import TruthCore.Causality.UniqueRootQuartaControl
 public import TruthCore.Causality.WholePowerPerfection
 public import TruthCore.Causality.WholeRosterFoundation
 public import TruthCore.Causality.WorldSourceRegress

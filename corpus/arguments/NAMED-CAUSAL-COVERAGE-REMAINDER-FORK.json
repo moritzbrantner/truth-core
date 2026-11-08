@@ -1,18 +1,20 @@
 {
-  "id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "id": "9cc7d6da-16d9-5ad1-a490-7a6ccef09741",
+  "label": "Either the explicit named-case coverage hypothesis…, from Excluded middle as a general principle…",
+  "legacy_id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NAMED-CAUSAL-COVERAGE-OR-RELEVANT-REMAINDER",
+  "conclusion_statement_id": "ffed3ea4-0f7a-5c36-ba19-b304cf876eef",
   "inference_ids": [
-    "INF-NAMED-CAUSAL-COVERAGE-REMAINDER-FORK"
+    "54c3bbd9-b280-5507-a668-2b0d2e1485e6"
   ],
   "meaning": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S5-LAWS",
-  "argument_id": "MODAL-S5-LAWS",
+  "id": "b52d36f7-2e62-5d3e-b2dd-1550199b3812",
+  "label": "In every S5 frame, full-predicate actual, possible and necessary MC coincide at the root",
+  "legacy_id": "MODAL-S5-LAWS",
+  "argument_id": "a8fa4489-95c5-5a29-b2c6-d40deadd030e",
   "challenge_module": "TruthCore.Results.Modal.S5.Laws.Challenge",
   "solution_module": "TruthCore.Results.Modal.S5.Laws.Solution",
   "theorem": "TruthCore.Results.Modal.S5.Laws.checks",

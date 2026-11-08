@@ -1,24 +1,26 @@
 {
-  "id": "Q14-RECEPTION-DEFINITION-FORK",
+  "id": "819242eb-b3e7-5a2b-aacd-94b0a1edec0e",
+  "label": "Either the open named menu holds or all three…, from Excluded middle as a general principle…",
+  "legacy_id": "Q14-RECEPTION-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-Q14-CALIBRATION-FORK",
+  "conclusion_statement_id": "4cf0ec89-f028-59e6-b9f7-6c4064d71ce8",
   "inference_ids": [
-    "INF-Q14-RECEPTION-DEFINITION-FORK"
+    "9ae37ce2-87a8-524c-8b95-7f2b1404b677"
   ],
   "meaning": "Logical transcription of finite case analysis on three typed calibration propositions with explicit excluded middle. It proves neither named coverage nor philosophical completeness; controls separately witness overlap and remainder.",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-CAPACITY-CALIBRATION",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
-    "DEF-Q14-CHANGE-PROXY-CALIBRATION",
-    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
-    "DEF-Q14-RECEPTION-DEFINITION-MENU"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "f41b761b-7fea-537a-b03a-6a5c99f9b2e3",
+    "a63b614a-7a1a-5560-b919-10f303b955ff",
+    "4162125d-92e7-5eb2-8336-d743c6f494c1",
+    "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+    "72284cfd-e09b-57fe-8824-4b2d120e7fb1"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES",
-    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
   ]
 }

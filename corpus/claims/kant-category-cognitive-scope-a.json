@@ -1,15 +1,17 @@
 {
-  "id": "KANT-CATEGORY-COGNITIVE-SCOPE-A",
-  "statement_id": "STMT-KANT-CATEGORY-COGNITIVE-SCOPE",
-  "source_id": "KANT-CPR",
+  "id": "5fa97f31-dc20-5b2a-a0f2-9cf08fa8fbe7",
+  "label": "Immanuel Kant, Critique of Pure Reason…: Determining synthetic cognition through human categories…",
+  "legacy_id": "KANT-CATEGORY-COGNITIVE-SCOPE-A",
+  "statement_id": "3b5198a8-0463-5e7e-b3df-5f91c1a272ea",
+  "source_id": "6677e01b-8659-5803-a967-9cbaa66f46ca",
   "locator": "Analytic, Phenomena and Noumena, A238–241/B297–300; paragraph “That the understanding, therefore, cannot make”",
   "interpretation": "Read as a condition on legitimate objective cognition, not a restriction on what can exist. A priori knowledge of the conditions of experience remains included.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-SCOPE-WARRANT"
+    "674187f4-832b-5287-9ece-28c75772c54f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-SCOPE"
+    "ff5e8e42-dcb9-50f0-9173-e6f0a67e073c"
   ]
 }

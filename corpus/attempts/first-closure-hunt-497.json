@@ -1,30 +1,32 @@
 {
-  "id": "ATTEMPT-FIRST-CLOSURE-HUNT-497",
+  "id": "0b3597d5-7d60-5b72-b872-9b33a217c547",
+  "label": "First-closure hunt, over the 49 root-path open premises at the merge of #503",
+  "legacy_id": "ATTEMPT-FIRST-CLOSURE-HUNT-497",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-    "STMT-OPINION-IS-A-MOTION",
-    "STMT-ELEATIC-THESIS-IS-OPINED",
-    "STMT-MOTION-IS-A-CHANGE",
-    "STMT-CHANGE-UNREAL-BUT-APPEARS",
-    "STMT-ELEATIC-NOTHING-IS-MOVED",
-    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
-    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+    "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+    "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
+    "e7354ea4-d864-5b3f-b691-01fe745788bf",
+    "6f514548-195d-588b-b962-8dc99a69d767",
+    "5d37dd2a-6539-514d-bd74-1b2ad8021c8f",
+    "f538ec85-3bdd-526a-bcf6-11b4c0d9aaec",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "6ca87431-3383-58f6-9322-a1f0e8f0396b",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "a9622441-2db2-5d32-9b02-a9d283bd2949"
   ],
   "kind": "countermodel",
   "outcome": "blocked",
   "summary": "First-closure hunt (#497, fourth slice), over the 49 root-path open premises at the merge of #503. Question: is there a well-founded chain whose every member is proved from definitions, validly on the floor under a #500 basis, or closed earlier in the chain, and which ends in the closure of a root-path premise? Answer: none exists on the current records. (1) Logical: no root-path premise is provable from definitions. Each is a statement about free parameters, and TruthCore.Alternatives.FirstClosure gives a kernel-checked interpretation falsifying each of the 49 (theorems *_notLogical; zero axioms except finiteImmediatePredecessors_notLogical, which uses Mathlib's Set.infinite_univ). The only established statements that constrain anything are excluded middle and metatheorems about models, so no root-path premise follows from closed statements either. (2) Premises with a recorded bare-contradictory rival (ACTUALITY-ONLY-INSOFAR-AS-BEING, NOTHING-MOVES-EXCEPT-AS-IN-ACT, PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK, SECOND-MOVERS-MOVE-ONLY-AS-MOVED, ACT-SIMPLY-PRIOR-TO-POTENCY, SOMETHING-IS-MOVED-IN-THIS-WORLD via the Eleatic rival, NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER via CHANGE-WITHOUT-ANY-MOVER): common_ground is excluded by the rival, and rule (c), observation and retorsion all require that rival refuted from closed premises, which is a proof of the premise from closed premises. So their first closure needs closed premises that entail them. (3) Ranked chains. Rank 1, STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD (20 dependent arguments): ELEATIC-THESIS-SELF-REFUTING refutes the Eleatic rival from {STMT-OPINION-IS-A-MOTION, STMT-ELEATIC-THESIS-IS-OPINED}, and STMT-OPINION-IS-A-MOTION alone refutes STMT-CHANGE-UNREAL-BUT-APPEARS (theorem in the MCTAGGART-UNREALITY-OF-TIME-REFUTED config, no argument record yet). STMT-MOTION-IS-A-CHANGE is not on this chain: it is needed only for the McTaggart bundle refutation, whose conclusion is no recorded alternative. The chain is blocked at one link. STMT-ELEATIC-THESIS-IS-OPINED is observation-eligible (claim ARIST-PHYS-254A-ELEATIC-THESIS-HELD-A, no recorded rival) but was not marked: it closes nothing while the other link is open, and the floor is a last resort (decision 2026-10-27-01). STMT-OPINION-IS-A-MOTION fails observation honestly: it is not a manifest empirical fact but the classification of opining as a reduction from potency to act (DISAMB-MOTION), which Aristotle himself gives as a reputable opinion (δοκοῦσιν, ARIST-PHYS-254A-OPINION-IS-MOTION-A); and STMT-CHANGE-UNREAL-BUT-APPEARS, which grants judgings and denies all motion, entails its negation and can be refuted only through it, so an honest disagreement record listing that rival makes the closure circular, which the least fixpoint correctly refuses. It fails retorsion (its denial is consistent with being held) and common_ground (McTaggart 1908 leaves the question open). opinionGate certifies that every other chain member (Eleatic thesis held, motion is change, both McTaggart commitments) and both rivals hold in one interpretation where the target fails, so no closure of the target exists from this chain without STMT-OPINION-IS-A-MOTION. STMT-MOTION-IS-A-CHANGE as common_ground would need proponent claims stating it for each position on the question: the 1908 paper uses 'movement' only of events along the A series and never says that a thing being moved changes; no Eleatic text is pinned; Physics V.1, 225a34 ('every κίνησις is a μεταβολή', ARIST-PHYS-V-1) covers physical motion only, not the broad reduction of DISAMB-MOTION. Rank 2, STMT-ACT-SIMPLY-PRIOR-TO-POTENCY (21): its recorded rival is the bare contradictory, so closure needs a proof; the Night core leaves it standing (MODEL-NIGHT-COSMOGONY-RESIDUAL), so it needs at least the three open core members plus an unsourced premise that every potency is related to some actualization; STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR is not sourced by Metaphysics IX.8 (ATTEMPT-MET-IX-8-ACTUAL-MOVER-PRIORITY). Rank 3, STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING (31): its only core is itself (ATTEMPT-ACTUALITY-WITHOUT-BEING-ELIMINATION), circular. Rank 4, the other four bare-rival premises: no bundle has a pinned proponent text (ATTEMPT-RIVAL-TRIAGE-497). Rank 5, the 42 premises with no recorded rival: not logical (above); no common_ground marking is possible because no question/positions record with proponent claims exists for any of them; observation is mechanically met by any stating claim when no rival is recorded (23 such premises), but none is a manifest empirical fact. The nearest, STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE, which Aquinas says is found in things (AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A), is rejected: its documented rivals are value anti-realists (docs/alternatives/premises/things-more-and-less-good-true-noble.md) and 'more true' as ontological truth is a theoretical reading (DISAMB-TRUE). Tooling observation for lane C: the observation criterion has no mechanical safeguard when a premise has no recorded rival; its 'manifest empirical fact' test is review-only. No floor marking, refutes relation or result was added. Frontier delta: none (49 open, 8 bare, 41 sourced).",
   "evidence": [
-    "ELEATIC-THESIS-SELF-REFUTING",
-    "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
-    "GENERATION-FROM-NIGHT-REFUTED",
-    "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
-    "ARIST-PHYS-254A-OPINION-IS-MOTION-A",
-    "ARIST-PHYS-254A-ELEATIC-THESIS-HELD-A",
-    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A",
-    "MCTAGGART-1908-TIME-UNREAL-A"
+    "4c059ee9-0a2b-50a2-9a18-abe873b55aa1",
+    "62a1a744-7b69-5e94-b6ea-123aa7da6869",
+    "2f3e2b91-0d58-57dc-b6f2-e477598d3a08",
+    "3db73abe-e200-5099-92f8-84d8ab6c8c80",
+    "c528a52f-e379-5e00-a52b-66ac3a6c7041",
+    "9636ade4-2225-5dd5-b4e6-45d86dd9cf59",
+    "c558e6bc-a92e-5870-87df-740e16a9a977",
+    "3b61b433-0c67-542c-8a1e-9cb08b8a49f1"
   ],
   "blocker": "The cheapest first closure (STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD) needs exactly one more closed premise, STMT-OPINION-IS-A-MOTION, or a replacement that links judging to being moved. Closing it non-circularly needs McTaggart's own answer on whether an appearance of change is a change (The Nature of Existence II, ch. 44, 1927; to pin) handled under a #500 criterion, or a sourced, non-circular argument that opining is a reduction from potency to act. Then: mark STMT-ELEATIC-THESIS-IS-OPINED (observation), record an argument and result for STMT-OPINION-IS-A-MOTION refuting STMT-CHANGE-UNREAL-BUT-APPEARS, and record the two refutes relations."
 }

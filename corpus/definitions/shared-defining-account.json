@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SHARED-DEFINING-ACCOUNT",
+  "id": "030b5151-2125-551c-93a3-fc32d034a3cd",
+  "label": "Shared defining account of a quality: For a respect r, entities c and x have a shared defining…",
+  "legacy_id": "DEF-SHARED-DEFINING-ACCOUNT",
   "term": "shared defining account of a quality",
   "definition": "For a respect r, entities c and x have a shared defining account when there is a sense s such that Holds c r s and Holds x r s. Holds means that the entity has that quality under the indicated defining account, rather than merely that a common word is applied to each. The model treats the sense type and Holds relation as parameters; it does not define or establish any particular account or its real-world applicability.",
   "basis": "stipulative",

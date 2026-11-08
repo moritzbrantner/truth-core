@@ -1,8 +1,10 @@
 {
-  "id": "REL-CASE-NON-CONTRADICTION-REFUTES-DIALETHEIC-RIVAL",
+  "id": "92ddb9b6-2522-5dd0-b1d6-a15160ba6bd5",
+  "label": "Inside Lean's logic, no being both has and… refutes Dialetheic rival to non-contradiction for…",
+  "legacy_id": "REL-CASE-NON-CONTRADICTION-REFUTES-DIALETHEIC-RIVAL",
   "subject_kind": "argument",
-  "subject_id": "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "subject_id": "8a79f1f4-26fd-56c1-aed5-af197738fed2",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE"
+  "object_id": "e5097538-f9b9-5f7e-9060-12a087ca0f65"
 }

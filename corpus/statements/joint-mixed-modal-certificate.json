@@ -1,20 +1,22 @@
 {
-  "id": "STMT-JOINT-MIXED-MODAL-CERTIFICATE",
+  "id": "d7600948-349d-5d52-a949-8a6d5ebf461f",
+  "label": "Reuse exactly PSRStrength.ground false",
+  "legacy_id": "STMT-JOINT-MIXED-MODAL-CERTIFICATE",
   "lean_declaration": "TruthCore.Explanation.JointCondition.MixedCertificate",
   "paraphrase": "Reuse exactly PSRStrength.ground false. The ground fact holds at every world, choice is contingent at false, their fixed two-member joint condition is contingent at false, and the original ontic domain still contains an actual necessary ground individual. No old truth, cause or reason relation is changed; this is a formal consistency witness, not proof of metaphysical adequacy.",
   "definition_ids": [
-    "DEF-JOINT-MODAL-CONDITION",
-    "DEF-JOINT-CONTINGENT-MEMBER",
-    "DEF-JOINT-MEMBERWISE-NECESSITY",
-    "DEF-JOINT-MIXED-MODAL-CERTIFICATE",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-TOTALITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "f9233ceb-48d4-5fdb-b02e-14d5f34b7cca",
+    "af853242-ad66-5512-8ae4-6db09eb82a5b",
+    "3fe64c7a-e6c8-5f59-8468-b59a3f835a3b",
+    "58bb633b-16c7-583a-abb0-b7a5c4064a06",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "86760657-120c-5766-ac64-90080c9bc6b8",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING"
+    "88cf7f3c-6da7-57aa-8b8a-b9a6c0f836c0"
   ]
 }

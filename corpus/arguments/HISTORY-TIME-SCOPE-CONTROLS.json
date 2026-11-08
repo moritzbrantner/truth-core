@@ -1,21 +1,23 @@
 {
-  "id": "HISTORY-TIME-SCOPE-CONTROLS",
+  "id": "d79fd2d1-4f2f-5ec8-97ea-d6c5b67e5555",
+  "label": "Formal shared-timeline controls: for arbitrary History W B T and a fixed bearer…",
+  "legacy_id": "HISTORY-TIME-SCOPE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HISTORY-TIME-SCOPE-CONTROLS",
+  "conclusion_statement_id": "e8ce9035-1f8e-53ff-ab73-db9209a931d1",
   "inference_ids": [
-    "INF-HISTORY-TIME-SCOPE-CONTROLS"
+    "f01fcf71-32c8-500c-b434-d76b1062d866"
   ],
   "meaning": "Formal shared-timeline controls: for arbitrary History W B T and a fixed bearer, all-worlds/all-times presence implies one common time (using History.now), which implies worldwise possibly different witness times. All-worlds/all-times presence is equivalent to worldwise witness times together with within-world propagation from any presence time to every time. In a fixed Bool-world, Unit-bearer, Bool-time diagonal interpretation each world has presence but no common time exists and neither world is everlasting. In a separate synchronized interpretation a common false-time witness exists but all-times presence fails and neither world is everlasting. Ontic assignments are supplied but no coherence with IsAt is asserted. These are quantifier controls, not definitions of modal necessity, metaphysical possibility, conservation or sourced eternity. No root premise is discharged.",
   "definition_ids": [
-    "DEF-HISTORY-TIME-SCOPE",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-TEMPORAL-HISTORY-EVERLASTING",
-    "DEF-HISTORY-TIME-COMMON",
-    "DEF-HISTORY-TIME-WORLDWISE",
-    "DEF-HISTORY-TIME-ALL-TIMES"
+    "6ce344df-af88-5543-b255-56e3d4517b24",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+    "000637e0-7c0d-5819-b8df-f58a0b826453",
+    "a9886291-9c7c-59ac-808c-df4a1d657acd",
+    "16a95101-a6f2-573f-b73d-85d0e1f93dfc"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-TIME-SCOPE",
-    "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES"
+    "42948082-5c8f-5dfb-b762-5feb8e6a6fb4",
+    "92df85d7-aae7-57ac-b84e-3780ade842f1"
   ]
 }

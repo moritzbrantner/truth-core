@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-OBSERVATION",
+  "id": "b7145551-1504-5a09-a59e-e822f3ab83ae",
+  "label": "OBSERVATIONAL_CONSTANT_CONJUNCTION_1: Conjunction means equality of X and Y values in both indexed…",
+  "legacy_id": "DEF-REGULARITY-OBSERVATION",
   "term": "observational constant conjunction",
   "definition": "Conjunction means equality of X and Y values in both indexed background contexts. Nontrivial requires X to take both values. This binary co-occurrence abstraction deliberately omits Hume’s temporal succession; the temporal test supplies distinct ordered times separately.",
   "basis": "stipulative",

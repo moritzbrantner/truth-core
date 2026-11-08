@@ -1,14 +1,16 @@
 {
-  "id": "PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
+  "id": "1052098f-f266-5b82-9328-ec82a063f134",
+  "label": "For the SAME Before/now profile, every time up to…, from Excluded middle as a general principle…",
+  "legacy_id": "PAST-PREDECESSOR-FIRST-TIME-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-PAST-PREDECESSOR-OR-FIRST-TIME-FORK",
+  "conclusion_statement_id": "8893d392-ab94-52bc-a515-27690ef164ec",
   "inference_ids": [
-    "INF-PAST-PREDECESSOR-FIRST-TIME-COVERAGE"
+    "b74e2a98-b129-54a9-aa1a-34a3e60424c7"
   ],
   "meaning": "Exact old pointwise predecessor/first-time coverage under explicit excluded middle; neither ordering axioms nor temporal actuality or cardinal finiteness are smuggled in.",
   "definition_ids": [
-    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+    "de94687a-6789-5599-b38d-14bef31148fd"
   ]
 }

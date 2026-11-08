@@ -1,23 +1,25 @@
 {
-  "id": "HEADLESS-CAUSAL-ANCESTRY",
+  "id": "cdbe2cbe-86ec-5b1b-a0f3-e14c34c579ac",
+  "label": "For every supplied graph, each selected node’s full…, from Excluded middle as a general principle…",
+  "legacy_id": "HEADLESS-CAUSAL-ANCESTRY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-HEADLESS-CAUSAL-ANCESTRY",
+  "conclusion_statement_id": "318da910-bbef-5f08-a7ea-f808a64e3344",
   "inference_ids": [
-    "INF-HEADLESS-CAUSAL-ANCESTRY"
+    "55969d2c-4754-5de4-aacc-634259b07dd9"
   ],
   "meaning": "Use Mathlib ReflTransGen.head to extend any cone member by every incoming edge, and ReflTransGen.refl to recover predecessor availability at the selected node from its own headless cone. Explicit EM converts absence of sources to positive predecessor availability; the converse is constructive. Package these derived statements as one universal structural result. The separate actual_no_sources_iff_headless helper applies existing WorldSourceRegress.actualGraph and actualSource_iff to the same Ontic.Causes/world and existing-node subtype, with no identification of causation and grounding. Only logical-floor STMT-EXCLUDED-MIDDLE is an input. No choice, WF, acyclicity, irreflexivity, finite branching, linearity or population premise; no metaphysical premise discharged. This is an analyst branching-network reconstruction, not a proof that the survey intended every full cone by chain, that the required causal scope is actual/concrete, or that possible-world correspondences hold.",
   "definition_ids": [
-    "DEF-HEADLESS-CAUSAL-ANCESTRY",
-    "DEF-HEADLESS-ANCESTRY-CHARACTERIZATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "125597c9-6387-5f13-af97-4b364f0673e3",
+    "712e2f2b-4984-5a0d-bf5b-e47f356e0905",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

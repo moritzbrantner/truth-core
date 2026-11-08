@@ -1,21 +1,23 @@
 {
-  "id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "id": "738ad00d-1b85-5d3a-89e4-278c9f877e8f",
+  "label": "Six stipulated finite interpretations of the composition/uniting/causal vocabulary",
+  "legacy_id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "conclusion_statement_id": "65602595-151d-5e39-9429-32f1fca0dd66",
   "inference_ids": [
-    "INF-COMPOSITE-UNITING-CAUSE-CONTROLS"
+    "1116dc39-7cb2-55e1-80b7-091ab4a3be1c"
   ],
   "meaning": "Six explicit Bool/Unit interpretations (the composite is true, causal respects Unit). In the five omission cases the other four premises hold and CompositeHasAUnitingCauseReading fails at the composite true:\n- omitting two-distinct-components: true has the single component false, so the existing fifth-proof reading (a component other than itself) still holds, and nothing unites or causes;\n- omitting the uniting-cause principle (the formal shape of brute composition): true has components false and true, and nothing unites them;\n- omitting uniter-is-efficient (the shape of a self-uniting whole, as in priority monism): true unites itself and causes its own being, but nothing is an efficient cause;\n- omitting uniter-causes-being (the shape of composition without causal dependence of being, as in composition as identity): false efficiently unites true but causes no being;\n- omitting no-efficient-self-cause: true efficiently unites itself and causes its own being.\nA sixth interpretation satisfies all five: false efficiently unites true and causes its being. The rival labels name only which premise each interpretation rejects; these are stipulated formal controls, not models of those theories or claims of metaphysical possibility.",
   "definition_ids": [
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-UNITING-CAUSE",
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-SIMPLE"
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "f930c63f-f79a-507c-9462-b572480c6808",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-UNITING-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

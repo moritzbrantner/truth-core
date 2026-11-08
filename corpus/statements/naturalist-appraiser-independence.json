@@ -1,8 +1,10 @@
 {
-  "id": "STMT-NATURALIST-APPRAISER-INDEPENDENCE",
+  "id": "56421a6e-7887-5435-9e03-a6bd2ff9a919",
+  "label": "The naturalist realists take evaluative facts to be independent of appraisers’ moral beliefs…",
+  "legacy_id": "STMT-NATURALIST-APPRAISER-INDEPENDENCE",
   "paraphrase": "The naturalist realists take evaluative facts to be independent of appraisers’ moral beliefs; relational dependence on human needs or actual circumstances is compatible with this independence.",
   "definition_ids": [
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
-    "DEF-NATURALIST-REDUCTION-BASIS"
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+    "f5e58217-9b11-5ead-8372-481cc8ee371f"
   ]
 }

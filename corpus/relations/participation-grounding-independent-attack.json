@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-GROUNDING-INDEPENDENT-ATTACK",
+  "id": "da0f03e3-f409-5988-87dd-b25e265ec6de",
+  "label": "One finite assignment satisfying the… attacks The base feature grounds a candidate…",
+  "legacy_id": "REL-PARTICIPATION-GROUNDING-INDEPENDENT-ATTACK",
   "subject_kind": "argument",
-  "subject_id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "subject_id": "d8593cb5-33bd-575d-b87d-a269b429be09",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-GROUNDED-SELECTION",
+  "object_id": "738828f3-26d8-5842-a520-1023534349e9",
   "note": "Sensitivity objection: the proposed commitment needs additional justification; the finite model does not disprove that commitment in reality."
 }

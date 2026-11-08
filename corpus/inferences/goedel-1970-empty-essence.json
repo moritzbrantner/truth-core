@@ -1,7 +1,9 @@
 {
-  "id": "INF-GOEDEL-1970-EMPTY-ESSENCE",
+  "id": "c2f7a878-7da6-5e1d-b708-73f7b19d5356",
+  "label": "Lemma EmptyEssL of Gödel's 1970 variant: at every world, the empty…, by Definition-unfolding",
+  "legacy_id": "INF-GOEDEL-1970-EMPTY-ESSENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "output_statement_id": "4ab7c853-c138-50d8-82f9-26d62bd51da8",
   "rule": "definition-unfolding",
   "meaning": "AFP EmptyEssL (using Essence_def by auto). Unfolding Ess. and ❙⊃⇩N: whatever property x has, every existing individual that has the empty property has it at every accessible world, vacuously.",
   "assumption_statement_ids": [],

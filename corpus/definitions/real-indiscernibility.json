@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REAL-INDISCERNIBILITY",
+  "id": "efe8fb80-81fc-51c1-89d0-414338fcfe96",
+  "label": "First movers really indiscernible: Any two first movers have exactly the same real determinations…",
+  "legacy_id": "DEF-REAL-INDISCERNIBILITY",
   "term": "first movers really indiscernible",
   "definition": "Any two first movers have exactly the same real determinations: for first movers f and g and every d, Has f d iff Has g d.",
   "basis": "stipulative",

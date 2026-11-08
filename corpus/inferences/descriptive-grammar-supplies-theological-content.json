@@ -1,9 +1,11 @@
 {
-  "id": "INF-DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "id": "a40384e3-4fe2-5d11-9517-f7b348b80113",
+  "label": "Modest analyst content proposition: every move defined by the selected…, by Constructive-proof",
+  "legacy_id": "INF-DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
   "input_statement_ids": [
-    "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR"
+    "7c781606-d67a-5957-963f-8cdf99dd988e"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+  "output_statement_id": "9a438367-e1cc-511d-befc-c657f184bbbe",
   "rule": "constructive-proof",
   "meaning": "Project the theological-content component of the modest descriptive profile. Assembly transcription/sole-premise strength; the normative exclusion is still separate.",
   "assumption_statement_ids": [],

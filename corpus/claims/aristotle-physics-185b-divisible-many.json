@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185B-DIVISIBLE-MANY-A",
-  "statement_id": "STMT-DIVISIBLE-IMPLIES-MANY",
-  "source_id": "ARIST-PHYS",
+  "id": "341d3766-01bc-5ed3-82f3-a58b8d0a666e",
+  "label": "Aristotle, Physics I.2, 185b5-16: What is divisible has a plurality of parts and so is many in…",
+  "legacy_id": "ARIST-PHYS-185B-DIVISIBLE-MANY-A",
+  "statement_id": "8300334c-f6cf-597b-8183-3bf80618d7d8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185b5-16",
   "interpretation": "Second premise of the continuous-One objection: divisibility entails plurality of parts, so the subject is many in that respect. This does not assert metaphysical plurality under every description.",
   "status": "formalized"

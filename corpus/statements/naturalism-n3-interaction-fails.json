@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURALISM-N3-INTERACTION-FAILS",
+  "id": "69fcf3a8-922b-587a-be8d-cb843cf369a1",
+  "label": "N3i fails at the selected world",
+  "legacy_id": "STMT-NATURALISM-N3-INTERACTION-FAILS",
   "paraphrase": "N3i fails at the selected world (the negation of N3i).",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.InteractionNaturalismFails",
   "definition_ids": [
-    "DEF-NATURALISM-N3-INTERACTION"
+    "7fac7b7a-4440-51f5-9009-27b3e93d8535"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

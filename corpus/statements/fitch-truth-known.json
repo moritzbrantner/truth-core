@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-TRUTH-KNOWN",
+  "id": "a0e1c460-4e85-5fcc-825f-e5f8c1b40aa4",
+  "label": "If the selected content is actually true, it is known at that actual world; this fixes neither an…",
+  "legacy_id": "STMT-FITCH-TRUTH-KNOWN",
   "paraphrase": "If the selected content is actually true, it is known at that actual world; this fixes neither an agent nor a common knower beyond the supplied operator.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.TruthKnown",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-RELEVANT-STABILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

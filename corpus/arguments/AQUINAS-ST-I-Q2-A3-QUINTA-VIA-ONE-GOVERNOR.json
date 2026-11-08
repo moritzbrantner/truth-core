@@ -1,28 +1,30 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "id": "b72a5cf3-0695-5b59-98d8-9429c9f30fd8",
+  "label": "There is an intelligent first mover moved by none that directs every natural…, via one governor",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
   "premise_statement_ids": [
-    "STMT-NATURAL-BODIES-LACK-COGNITION",
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
-    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
-    "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
-    "STMT-DIRECTING-IS-MOVING",
-    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER"
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f",
+    "11914511-b067-55d3-b8cc-094311021d08",
+    "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136",
+    "c27dce66-864a-5a73-af62-0eeb4016514f"
   ],
-  "conclusion_statement_id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
+  "conclusion_statement_id": "f43962a3-1a34-593b-8856-a97336e8ce18",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR"
+    "f6a03707-efeb-5123-8222-a60dd201beb0"
   ],
   "meaning": "The scope step of the quinta via, through ad 2 and stage 1: one intelligent first mover moved by none directs every natural body. Composes AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED and uses the stage-1 uniqueness statement STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER. Also verified: entailsQuintaViaConclusion (it entails the literal conclusion), one countermodel for each scope premise (the two open bridges, on which ad 2 and the arrow simile only bear, and stage-1 uniqueness), and premisesJointlySatisfiable.",
   "definition_ids": [
-    "DEF-DIRECTOR-REGRESS-INTERFACE",
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-GOVERNMENT-DIRECTION-TO-END",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-MOTION-AS-REDUCTION"
+    "d9483f11-c76c-5ea9-aac3-0ed77076305b",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249"
   ]
 }

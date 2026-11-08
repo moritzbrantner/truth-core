@@ -1,9 +1,11 @@
 {
-  "id": "REL-SPIRITUAL-CHURCH-CRITERION-FAILURE-ALTERNATIVE-TO-CALIBRATION",
+  "id": "4c8c80ec-2765-59d6-8fda-a26056554e8e",
+  "label": "The selected Church predicate does not… alternative to On the selected society carrier, a body…",
+  "legacy_id": "REL-SPIRITUAL-CHURCH-CRITERION-FAILURE-ALTERNATIVE-TO-CALIBRATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
+  "subject_id": "713b1289-d9c5-5999-96f0-dc636e67f25c",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CHURCH-HAS-SPIRITUAL-CRITERION",
+  "object_id": "287ba0c4-57db-5306-98bc-3b6ce25ef17b",
   "note": "Exact negation of this fixed spiritual calibration; mere insufficiency for the visible stage target is not this negation."
 }

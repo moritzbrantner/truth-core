@@ -1,20 +1,22 @@
 {
-  "id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "id": "d516346b-9c7c-57a1-8a1e-c23370548daa",
+  "label": "Exact negation of the old…, from At the same designated arrangement a and…",
+  "legacy_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
   "premise_statement_ids": [
-    "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED"
+    "e35adb5f-73be-5db1-ae1b-8b5482d14512"
   ],
-  "conclusion_statement_id": "STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS",
+  "conclusion_statement_id": "7c1229ba-93e9-59bd-9383-3b21afb59d7e",
   "inference_ids": [
-    "INF-TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET"
+    "1a00c97f-2d2d-5c08-81bf-f719bf39d33e"
   ],
   "meaning": "Compose the EXISTING truthful-rival checks theorem for exact negation of the SAME old selection target. Retains its actual-truth and distinct-arrangement witnesses; old rival stays full strength.",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import contextlib
 import io
 import json
 import re
@@ -18,6 +19,8 @@ from attribution_check import AttributionError, validate_attribution
 from finite_models import validate_model, model_report, verify_models
 from configurations import validate_case, configuration_report, verify_case, verify_compositions
 from territory import format_territory, territory_report
+from corpus_ids import PROSE_LEGACY_RE, PROSE_UUID_RE, Aliases, AmbiguousId, is_uuid, legacy_uuid, order_key  # noqa: E402
+from identity_check import IdentityError, identity_warnings, validate_identity  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 CORPUS = ROOT / "corpus"
@@ -212,16 +215,16 @@ STRENGTHENS_PREDICATE = "strengthens"
 # through every verified non-transcription argument concluding it; only an
 # unverified or transcription argument for a routed statement is not walked.
 ROOT_ROUTE_PREDICATE = "root_route"
-DEFAULT_FRONTIER_ROOT = "STMT-CATHOLICISM-TRUE"
+DEFAULT_FRONTIER_ROOT = legacy_uuid("statement", "STMT-CATHOLICISM-TRUE")
 # Stage conclusions of the root skeleton (#156; CATHOLICISM-SKELETON, docs/catholic-case.md).
 # Views group statements by the stage conclusions that rest on them.
 STAGE_CONCLUSIONS = (
-    (1, "STMT-GOD-EXISTS"),
-    (2, "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"),
-    (3, "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"),
-    (4, "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"),
-    (5, "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"),
-    (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
+    (1, legacy_uuid("statement", "STMT-GOD-EXISTS")),
+    (2, legacy_uuid("statement", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES")),
+    (3, legacy_uuid("statement", "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE")),
+    (4, legacy_uuid("statement", "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE")),
+    (5, legacy_uuid("statement", "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH")),
+    (6, legacy_uuid("statement", "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH")),
 )
 # Depth of an open premise (#143, 2026-10-24; three categories by owner
 # decision on #987, 2026-11-05): "stated" when a claim on a pinned source
@@ -257,7 +260,7 @@ FLOOR_BASES = {FLOOR_RETORSION, FLOOR_COMMON_GROUND, FLOOR_OBSERVATION}
 # The documented legacy default: a marking made before #500 without a basis.
 # Only the statements listed here may omit the basis; they close as recorded.
 FLOOR_LEGACY = "legacy"
-LEGACY_FLOOR_STATEMENTS = {"STMT-EXCLUDED-MIDDLE"}
+LEGACY_FLOOR_STATEMENTS = {legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE")}
 # The floor is a last resort (#378, point 3: people disagree about what is
 # self-evident). Every marking except common_ground (whose recorded rivals'
 # agreement is its disagreement record) records the known disagreement:
@@ -713,7 +716,7 @@ def root_routes(
     choice is greedy: an exact minimum set cover over the whole graph is not
     attempted. Iteration runs to a fixpoint in which a statement's set only
     changes to a strictly smaller one, so it terminates and is deterministic
-    (proofs by argument ID). A sourced premise always stays a single leaf or
+    (proofs by argument order key: legacy id, else uuid). A sourced premise always stays a single leaf or
     becomes established, so adding a derivation under a sourced premise never
     raises a route's cost.
 
@@ -722,6 +725,15 @@ def root_routes(
     marked."""
     if root is None:
         return {"root": root, "cheapest_argument_id": None, "routes": []}
+
+    # Ties break by legacy id, else uuid (corpus_ids.order_key), so the uuid
+    # migration left every route choice as it was.
+    def argument_order(argument_id: str) -> str:
+        return order_key(argument_id, argument_by_id.get(argument_id))
+
+    def statement_order(statement_id: str) -> str:
+        return order_key(statement_id, statement_by_id.get(statement_id))
+
     results_by_argument: dict[str, list[str]] = {}
     for result in results:
         results_by_argument.setdefault(result["argument_id"], []).append(result["id"])
@@ -730,10 +742,13 @@ def root_routes(
         statement_ids.update(argument["premise_statement_ids"])
         statement_ids.add(argument["conclusion_statement_id"])
     proofs = sorted(
-        (argument_id, argument_by_id[argument_id])
-        for argument_id, result_ids in results_by_argument.items()
-        if argument_id in argument_by_id
-        and any(result_id not in transcription_results for result_id in result_ids)
+        (
+            (argument_id, argument_by_id[argument_id])
+            for argument_id, result_ids in results_by_argument.items()
+            if argument_id in argument_by_id
+            and any(result_id not in transcription_results for result_id in result_ids)
+        ),
+        key=lambda item: argument_order(item[0]),
     )
     expandable = {argument["conclusion_statement_id"] for _, argument in proofs}
     leaves: dict[str, frozenset[str] | None] = {}
@@ -784,15 +799,15 @@ def root_routes(
         # Seed only that core, then expand its dependents instead of giving each
         # proved intermediate an artificially cheap singleton fallback.
         core = min(
-            (reachable(statement_id) for statement_id in sorted(unresolved)),
-            key=lambda component: (len(component), tuple(sorted(component))),
+            (reachable(statement_id) for statement_id in sorted(unresolved, key=statement_order)),
+            key=lambda component: (len(component), tuple(sorted(map(statement_order, component)))),
         )
         for statement_id in core:
             leaves[statement_id] = frozenset({statement_id})
         propagate()
 
     entries: list[dict[str, Any]] = []
-    for argument_id in sorted(argument_by_id):
+    for argument_id in sorted(argument_by_id, key=argument_order):
         argument = argument_by_id[argument_id]
         if argument["conclusion_statement_id"] != root:
             continue
@@ -816,10 +831,10 @@ def root_routes(
             }
         )
     verified = [entry for entry in entries if entry["verified"]]
-    cheapest = min(verified, key=lambda entry: (entry["cost"], entry["argument_id"])) if verified else None
+    cheapest = min(verified, key=lambda entry: (entry["cost"], argument_order(entry["argument_id"]))) if verified else None
     if cheapest is not None:
         cheapest["cheapest"] = True
-    entries.sort(key=lambda entry: (not entry["verified"], entry["cost"], entry["argument_id"]))
+    entries.sort(key=lambda entry: (not entry["verified"], entry["cost"], argument_order(entry["argument_id"])))
     return {
         "root": root,
         "cheapest_argument_id": cheapest["argument_id"] if cheapest else None,
@@ -968,7 +983,11 @@ def frontier_report(
                 for argument_id in dependents.get(current, ()):
                     conclusion = argument_by_id[argument_id]["conclusion_statement_id"]
                     layer.append((argument_id, conclusion, current))
-            for argument_id, conclusion, current in sorted(layer):
+            for argument_id, conclusion, current in sorted(layer, key=lambda step: (
+                order_key(step[0], argument_by_id.get(step[0])),
+                order_key(step[1], statement_by_id.get(step[1])),
+                order_key(step[2], statement_by_id.get(step[2])),
+            )):
                 if argument_id not in visited_arguments:
                     visited_arguments.add(argument_id)
                     seen_arguments.append(argument_id)
@@ -981,7 +1000,7 @@ def frontier_report(
                     parent[conclusion] = (argument_id, current)
                     seen_statements.append(conclusion)
                     next_frontier.append(conclusion)
-            frontier = sorted(next_frontier)
+            frontier = sorted(next_frontier, key=lambda sid: order_key(sid, statement_by_id.get(sid)))
         path: list[str] | None = None
         if root is not None and root in parent:
             path = [root]
@@ -2114,8 +2133,6 @@ def format_floor_bases(routes: dict[str, Any]) -> list[str]:
 # Statements, claims and arguments link the senses they use through
 # `definition_ids`, and an ambiguity they must be read against through
 # `disambiguation_ids`.
-DEFINITION_PREFIX = "DEF-"
-DISAMBIGUATION_PREFIX = "DISAMB-"
 DEFINITION_BASES = {"sourced", "stipulative"}
 
 
@@ -2138,8 +2155,6 @@ def validate_definition(
     all_lean: str,
 ) -> None:
     require(definition, ["id", "term", "definition", "basis"], path)
-    if not definition["id"].startswith(DEFINITION_PREFIX):
-        raise CorpusError(f"{path.relative_to(ROOT)}: definition id must start with {DEFINITION_PREFIX}")
     basis = definition["basis"]
     if basis not in DEFINITION_BASES:
         raise CorpusError(
@@ -2166,18 +2181,16 @@ def validate_disambiguation(
     path: Path,
     disambiguation: dict[str, Any],
     definition_ids: set[str],
+    all_lean: str,
 ) -> None:
     require(disambiguation, ["id", "term", "resolution"], path)
-    if not disambiguation["id"].startswith(DISAMBIGUATION_PREFIX):
-        raise CorpusError(
-            f"{path.relative_to(ROOT)}: disambiguation id must start with {DISAMBIGUATION_PREFIX}"
-        )
     senses = require_string_list(disambiguation, "sense_definition_ids", path, allow_empty=False)
     if len(set(senses)) < 2:
         raise CorpusError(f"{path.relative_to(ROOT)}: a disambiguation needs at least two distinct senses")
     for sense in senses:
         if sense not in definition_ids:
             raise CorpusError(f"{path.relative_to(ROOT)}: unknown sense definition id {sense}")
+    validate_disambiguation_senses(path, disambiguation, all_lean)
 
 
 SENSE_FORK_FIELDS = ("coverage_statement_id", "exclusivity_statement_id", "fork_result_ids")
@@ -2233,15 +2246,30 @@ def validate_sense_fork(
             raise CorpusError(f"{relative}: fork result {result_id} must take {coverage} as a premise")
 
 
-PROSE_ID_RE = re.compile(r"\b(?:STMT|DEF|DISAMB)-[A-Z0-9]+(?:-[A-Z0-9]+)*\b")
+PROSE_ID_RE = PROSE_LEGACY_RE
 
 
 def validate_prose_ids(path: Path, record: dict[str, Any], fields: Iterable[str], known: set[str]) -> None:
-    """Statement, definition and disambiguation ids cited in prose must exist, so they can be found."""
+    """Statement, definition and disambiguation ids cited in prose must exist, so they can be found.
+
+    Prose may cite a record by uuid or by its legacy alias (`STMT-…`, `DEF-…`,
+    `DISAMB-…`); `known` holds both."""
     for field in fields:
-        for cited in PROSE_ID_RE.findall(str(record.get(field, ""))):
+        text = str(record.get(field, ""))
+        for cited in [*PROSE_ID_RE.findall(text), *PROSE_UUID_RE.findall(text)]:
             if cited not in known:
                 raise CorpusError(f"{path.relative_to(ROOT)}: {field} cites unknown id {cited}")
+
+
+def citable_ids(*indexes: dict[str, tuple[Path, dict[str, Any]]]) -> set[str]:
+    """Uuids and legacy aliases of the records in `indexes`."""
+    known: set[str] = set()
+    for index in indexes:
+        for record_id, (_, record) in index.items():
+            known.add(record_id)
+            if isinstance(record.get("legacy_id"), str):
+                known.add(record["legacy_id"])
+    return known
 
 
 def validate_term_links(
@@ -2294,6 +2322,305 @@ def validate_argument_senses(
             )
 
 
+# Sense-indexed terms (owner direction 2026-11-07). Every disambiguation names
+# its term with a `term_label` (upper snake case, e.g. PRIOR) and gives each
+# sense an opaque identity: `senses: [{id: <uuid4>, label: "PRIOR_1",
+# definition_id}]`. The uuid is the identity; the TERM_n label is display only.
+# Within one argument every disambiguated term resolves to exactly one sense,
+# unless a premise listed in `sense_bridges` relates the senses it uses. An
+# argument valid in several senses is recorded once per sense.
+UUID4_RE = re.compile(r"[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}")
+TERM_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*")
+SENSE_LABEL_RE = re.compile(r"[A-Z][A-Z0-9_]*_[1-9][0-9]*")
+SENSE_ALLOWLIST = Path("corpus") / "sense-index-allowlist.json"
+# A bridge is a premise relating two senses, or (owner decision 2026-11-08) the
+# argument's conclusion when the argument derives that relation.
+SENSE_BRIDGE_ROLES = ("premise", "conclusion")
+
+
+def is_uuid4(value: Any) -> bool:
+    """Opaque record identity (owner direction 2026-11-07): a lowercase uuid4."""
+    return isinstance(value, str) and UUID4_RE.fullmatch(value) is not None
+
+
+def validate_disambiguation_senses(path: Path, disambiguation: dict[str, Any], all_lean: str) -> None:
+    where = path.relative_to(ROOT)
+    term_label = disambiguation.get("term_label")
+    if not isinstance(term_label, str) or not TERM_LABEL_RE.fullmatch(term_label):
+        raise CorpusError(f"{where}: term_label must be an upper snake case term such as PRIOR")
+    senses = disambiguation.get("senses")
+    if not isinstance(senses, list) or any(
+        not isinstance(sense, dict)
+        or not {"id", "label", "definition_id"} <= set(sense) <= {"id", "label", "definition_id", "lean_declaration"}
+        for sense in senses
+    ):
+        raise CorpusError(
+            f"{where}: senses must be a list of {{id, label, definition_id[, lean_declaration]}} objects"
+        )
+    for sense in senses:
+        if not is_uuid4(sense["id"]):
+            raise CorpusError(f"{where}: sense id {sense['id']!r} must be a lowercase uuid4")
+        if not isinstance(sense["label"], str) or not SENSE_LABEL_RE.fullmatch(sense["label"]):
+            raise CorpusError(f"{where}: sense label {sense['label']!r} must look like TERM_1")
+        if "lean_declaration" in sense:
+            lean_tail_exists(path, sense["lean_declaration"], all_lean)
+    if [sense["definition_id"] for sense in senses] != disambiguation["sense_definition_ids"]:
+        raise CorpusError(f"{where}: senses must list sense_definition_ids in the same order")
+    for field in ("id", "label"):
+        values = [sense[field] for sense in senses]
+        if len(set(values)) != len(values):
+            raise CorpusError(f"{where}: sense {field}s must be distinct")
+
+
+def sense_index(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]]:
+    """Senses by uuid, and the senses each definition carries.
+
+    One sense uuid names one (term_label, definition, label) wherever it is
+    listed; a definition listed twice under one term label keeps one uuid.
+    """
+    by_id: dict[str, dict[str, Any]] = {}
+    by_definition: dict[str, list[dict[str, Any]]] = {}
+    term_definition: dict[tuple[str, str], str] = {}
+    for path, disambiguation in disambiguations:
+        for sense in disambiguation["senses"]:
+            entry = {"id": sense["id"], "label": sense["label"], "definition_id": sense["definition_id"],
+                     "term": disambiguation["term_label"]}
+            known = by_id.get(sense["id"])
+            if known is not None and known != entry:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: sense {sense['id']} is already {known['label']} "
+                    f"({known['definition_id']}) of {known['term']}"
+                )
+            key = (entry["term"], entry["definition_id"])
+            if term_definition.setdefault(key, sense["id"]) != sense["id"]:
+                raise CorpusError(
+                    f"{path.relative_to(ROOT)}: {entry['definition_id']} already has sense "
+                    f"{term_definition[key]} under {entry['term']}"
+                )
+            if known is None:
+                by_id[sense["id"]] = entry
+                by_definition.setdefault(entry["definition_id"], []).append(entry)
+    labels: dict[tuple[str, str], str] = {}
+    for entry in by_id.values():
+        if labels.setdefault((entry["term"], entry["label"]), entry["id"]) != entry["id"]:
+            raise CorpusError(f"corpus/disambiguations: sense label {entry['label']} names two senses")
+    return by_id, by_definition
+
+
+def argument_term_senses(
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    by_definition: dict[str, list[dict[str, Any]]],
+) -> dict[str, set[str]]:
+    """The sense uuids each disambiguated term takes in an argument, derived
+    from the definition_ids of the argument and of its conclusion, premise and
+    commitment statements."""
+    definitions = list(argument.get("definition_ids", []))
+    for statement_id in (
+        argument["conclusion_statement_id"],
+        *argument.get("premise_statement_ids", []),
+        *argument.get("commitment_statement_ids", []),
+    ):
+        definitions.extend(statement_index[statement_id][1].get("definition_ids", []))
+    used: dict[str, set[str]] = {}
+    for definition_id in definitions:
+        for sense in by_definition.get(definition_id, []):
+            used.setdefault(sense["term"], set()).add(sense["id"])
+    return used
+
+
+def bridged(term: str, used: set[str], bridges: list[dict[str, Any]]) -> bool:
+    """Whether the declared bridges for `term` connect every sense it uses."""
+    edges: dict[str, set[str]] = {}
+    for bridge in bridges:
+        if bridge["term"] == term:
+            edges.setdefault(bridge["from"], set()).add(bridge["to"])
+            edges.setdefault(bridge["to"], set()).add(bridge["from"])
+    start = min(used)
+    seen, frontier = {start}, [start]
+    while frontier:
+        for neighbour in edges.get(frontier.pop(), ()):
+            if neighbour not in seen:
+                seen.add(neighbour)
+                frontier.append(neighbour)
+    return used <= seen
+
+
+def load_sense_allowlist(root: Path | None = None) -> dict[str, Any]:
+    """The legacy allowlists (#1233): arguments that mixed senses, and senses
+    without a distinct Lean declaration, when the rules were introduced."""
+    path = (root or ROOT) / SENSE_ALLOWLIST
+    if not path.exists():
+        return {"arguments": {}, "senses_without_lean_declaration": []}
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except ValueError:
+        data = None
+    arguments = data.get("arguments") if isinstance(data, dict) else None
+    senses = data.get("senses_without_lean_declaration") if isinstance(data, dict) else None
+    if (
+        not isinstance(data, dict)
+        or set(data) != {"arguments", "senses_without_lean_declaration"}
+        or not isinstance(arguments, dict)
+        or any(
+            not isinstance(terms, dict)
+            or any(not isinstance(ids, list) or not all(isinstance(i, str) for i in ids) for ids in terms.values())
+            for terms in arguments.values()
+        )
+        or not isinstance(senses, list)
+        or not all(isinstance(sense, str) for sense in senses)
+    ):
+        raise CorpusError(
+            f"{SENSE_ALLOWLIST}: must be {{arguments: {{argument: {{term: [sense ids]}}}}, "
+            "senses_without_lean_declaration: [sense ids]}"
+        )
+    return data
+
+
+def senses_without_distinct_declaration(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    """Senses that are not their own Lean type: no `lean_declaration`, or the
+    same declaration as another sense of the same disambiguation."""
+    missing = []
+    for path, disambiguation in disambiguations:
+        declared = Counter(sense.get("lean_declaration") for sense in disambiguation["senses"])
+        for sense in disambiguation["senses"]:
+            declaration = sense.get("lean_declaration")
+            if declaration is None or declared[declaration] > 1:
+                missing.append({"path": path, "disambiguation_id": disambiguation["id"], "id": sense["id"],
+                                "label": sense["label"], "lean_declaration": declaration})
+    return missing
+
+
+def validate_sense_declarations(
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+    allowlist: dict[str, Any],
+) -> None:
+    """Each sense is a distinct Lean type, unless allowlisted as legacy."""
+    legacy = set(allowlist["senses_without_lean_declaration"])
+    for entry in senses_without_distinct_declaration(disambiguations):
+        if entry["id"] not in legacy:
+            reason = ("has no lean_declaration" if entry["lean_declaration"] is None
+                      else f"shares {entry['lean_declaration']} with another sense")
+            raise CorpusError(
+                f"{entry['path'].relative_to(ROOT)}: sense {entry['label']} {reason}; each sense must be "
+                "its own Lean type"
+            )
+
+
+def sense_mixing(
+    arguments: list[tuple[Path, dict[str, Any]]],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[dict[str, Any]]:
+    """Arguments whose terms take several senses without connecting bridges."""
+    by_id, by_definition = sense_index(disambiguations)
+    mixing = []
+    for path, argument in arguments:
+        if argument.get("sense_mixing_control") is True:
+            continue
+        used = argument_term_senses(argument, statement_index, by_definition)
+        for term in sorted(used):
+            senses = used[term]
+            if len(senses) > 1 and not bridged(term, senses, argument.get("sense_bridges", [])):
+                mixing.append({
+                    "path": path, "argument_id": argument["id"], "term": term,
+                    "sense_ids": sorted(senses),
+                    "labels": sorted(by_id[sense]["label"] for sense in senses),
+                })
+    return mixing
+
+
+def validate_argument_sense_fields(
+    path: Path,
+    argument: dict[str, Any],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    senses: tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]],
+    allowlist: dict[str, Any],
+) -> None:
+    """One sense per disambiguated term per argument, unless bridged (no equivocation)."""
+    where = path.relative_to(ROOT)
+    by_id, by_definition = senses
+    premises = set(argument.get("premise_statement_ids", []))
+    bridges = argument.get("sense_bridges", [])
+    if not isinstance(bridges, list):
+        raise CorpusError(f"{where}: sense_bridges must be a list")
+    for bridge in bridges:
+        if not isinstance(bridge, dict) or not (
+            {"term", "from", "to", "statement_id"} <= set(bridge) <= {"term", "from", "to", "statement_id", "role"}
+        ):
+            raise CorpusError(f"{where}: a sense bridge is {{term, from, to, statement_id[, role]}}")
+        if bridge.get("role", "premise") not in SENSE_BRIDGE_ROLES:
+            raise CorpusError(f"{where}: sense bridge role must be premise or conclusion")
+        for end in ("from", "to"):
+            sense = by_id.get(bridge[end])
+            if sense is None or sense["term"] != bridge["term"]:
+                raise CorpusError(f"{where}: sense bridge {end} {bridge[end]!r} is not a sense of {bridge['term']!r}")
+        if bridge["from"] == bridge["to"]:
+            raise CorpusError(f"{where}: a sense bridge relates two different senses")
+        if bridge.get("role", "premise") == "conclusion":
+            if bridge["statement_id"] != argument["conclusion_statement_id"]:
+                raise CorpusError(
+                    f"{where}: sense bridge statement {bridge['statement_id']} must be the conclusion (role conclusion)"
+                )
+        elif bridge["statement_id"] not in premises:
+            raise CorpusError(f"{where}: sense bridge statement {bridge['statement_id']} must be a premise")
+    control = argument.get("sense_mixing_control")
+    if control is not None and (control is not True or premises):
+        raise CorpusError(
+            f"{where}: sense_mixing_control is true only on a premise-free control or countermodel argument"
+        )
+    used = argument_term_senses(argument, statement_index, by_definition)
+    declared = argument.get("term_senses", {})
+    if not isinstance(declared, dict):
+        raise CorpusError(f"{where}: term_senses must map terms to sense ids")
+    for term, sense_id in declared.items():
+        sense = by_id.get(sense_id) if isinstance(sense_id, str) else None
+        if sense is None or sense["term"] != term:
+            raise CorpusError(f"{where}: term_senses {term} names {sense_id!r}, which is not a sense of {term}")
+        if term in used and sense_id not in used[term]:
+            labels = ", ".join(sorted(by_id[s]["label"] for s in used[term]))
+            raise CorpusError(f"{where}: term_senses gives {sense['label']} for {term}, but its statements use {labels}")
+    for term in sorted(used):
+        senses_used = used[term]
+        if len(senses_used) < 2 or control is True or bridged(term, senses_used, bridges):
+            continue
+        if senses_used <= set(allowlist["arguments"].get(argument["id"], {}).get(term, [])):
+            continue
+        labels = ", ".join(sorted(by_id[s]["label"] for s in senses_used))
+        raise CorpusError(
+            f"{where}: uses senses {labels} of {term} without a sense bridge; record one argument per "
+            "sense, or list the premise relating them in sense_bridges"
+        )
+
+
+def sense_mixing_warnings(
+    arguments: list[tuple[Path, dict[str, Any]]],
+    statement_index: dict[str, tuple[Path, dict[str, Any]]],
+    disambiguations: list[tuple[Path, dict[str, Any]]],
+) -> list[str]:
+    """Pre-existing arguments that mix senses (allowlisted): one summary warning."""
+    mixing = sense_mixing(arguments, statement_index, disambiguations)
+    count = len({entry["argument_id"] for entry in mixing})
+    warnings = []
+    if count:
+        warnings.append(
+            f"{count} pre-existing argument(s) use several senses of one term without a sense bridge "
+            f"({len(mixing)} term use(s), allowlisted in {SENSE_ALLOWLIST.as_posix()}; "
+            "see docs/notes/sense-index-migration.md)"
+        )
+    undeclared = len({entry["id"] for entry in senses_without_distinct_declaration(disambiguations)})
+    if undeclared:
+        warnings.append(
+            f"{undeclared} pre-existing sense(s) have no distinct Lean declaration, so they are not finished "
+            f"senses (allowlisted in {SENSE_ALLOWLIST.as_posix()}; see docs/notes/sense-index-migration.md)"
+        )
+    return warnings
+
+
 def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Iterable[str]) -> dict[str, Any]:
     """One result/provenance contract shared by corpus and configuration gates."""
     require(
@@ -2316,7 +2643,8 @@ def validate_result_config(path: Path, result: dict[str, Any], argument_ids: Ite
     validate_result_transcription(path.relative_to(ROOT), result)
     challenge = module_path(result["challenge_module"])
     solution = module_path(result["solution_module"])
-    canonical = f"results/{result['id']}/comparator.json"
+    # Comparator configs of migrated results stay at their legacy directory.
+    canonical = f"results/{result.get('legacy_id') or result['id']}/comparator.json"
     if result["comparator_config"] != canonical:
         raise CorpusError(f"{path.relative_to(ROOT)}: Comparator path must match executable gate: {canonical}")
     config_path = ROOT / canonical
@@ -2379,6 +2707,10 @@ def validate() -> dict[str, int]:
     disambiguation_index = index_by_id(disambiguations, "disambiguation")
     attempt_index = index_by_id(attempts, "attempt")
     models = registered_models(statement_index)
+    try:
+        validate_identity(ROOT)
+    except IdentityError as exc:
+        raise CorpusError(str(exc)) from exc
     registered_configurations(
         {sid: record for sid, (_, record) in statement_index.items()},
         {rid: record for rid, (_, record) in result_index.items()},
@@ -2390,7 +2722,7 @@ def validate() -> dict[str, int]:
             validate_attempt(attempt, set(statement_index), set(result_index) | set(claim_index))
         except ValueError as exc:
             raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
-        validate_prose_ids(path, attempt, ("summary", "blocker"), set(statement_index) | set(definition_index) | set(disambiguation_index))
+        validate_prose_ids(path, attempt, ("summary", "blocker"), citable_ids(statement_index, definition_index, disambiguation_index))
     definition_ids = set(definition_index)
     disambiguation_ids = set(disambiguation_index)
     used_definitions: set[str] = set()
@@ -2447,15 +2779,18 @@ def validate() -> dict[str, int]:
             raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
         used_definitions.update(validate_term_links(path, statement, definition_ids, disambiguation_ids))
 
-    citable = set(statement_index) | definition_ids | disambiguation_ids
+    citable = citable_ids(statement_index, definition_index, disambiguation_index)
     for path, definition in definitions:
         validate_definition(path, definition, claim_ids, all_lean)
         validate_prose_ids(path, definition, ("definition", "note"), citable)
     for path, disambiguation in disambiguations:
-        validate_disambiguation(path, disambiguation, definition_ids)
+        validate_disambiguation(path, disambiguation, definition_ids, all_lean)
         validate_sense_fork(path, disambiguation, statement_index, result_index, argument_index)
         validate_prose_ids(path, disambiguation, ("resolution",), citable)
         used_definitions.update(disambiguation["sense_definition_ids"])
+    senses = sense_index(disambiguations)
+    sense_allowlist = load_sense_allowlist()
+    validate_sense_declarations(disambiguations, sense_allowlist)
 
     for path, claim in claims:
         require(
@@ -2542,6 +2877,7 @@ def validate() -> dict[str, int]:
         validate_argument_derivation(path, argument, inference_index)
         used_definitions.update(validate_term_links(path, argument, definition_ids, disambiguation_ids))
         validate_argument_senses(path, argument, statement_index, disambiguations)
+        validate_argument_sense_fields(path, argument, statement_index, senses, sense_allowlist)
 
     entity_indexes = {
         "source": source_index,
@@ -2807,6 +3143,7 @@ def check_warnings() -> list[str]:
             f"for closure rule (c): {reason}"
         )
     warnings.extend(supports_gap_warnings(relations))
+    warnings.extend(identity_warnings(ROOT))
     warnings.extend(trivial_category_warnings())
     warnings.extend(strength_use_warnings(arguments, strength_order(relations, results, arguments)))
     for entry in report["floor"]:
@@ -2815,6 +3152,9 @@ def check_warnings() -> list[str]:
                 f"{entry['statement_id']}: self_evident basis {entry['basis']} is not met, so the marking "
                 f"closes nothing: {'; '.join(entry['reasons'])}"
             )
+    warnings.extend(sense_mixing_warnings(
+        load_dir("arguments"), index_by_id(load_dir("statements"), "statement"), load_dir("disambiguations")
+    ))
     return warnings
 
 
@@ -2967,13 +3307,9 @@ def revision_frontier(revision: str, root: str | None) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix="frontier-diff-") as directory:
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(directory, filter="data")
-        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
-        if root is not None:
-            command += ["--root", root]
-        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+        completed, report = revision_frontier_json(Path(directory), root)
     if completed.returncode != 0:
         raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
-    report = json.loads(completed.stdout)
     all_item_depths = {item["statement_id"]: item_depth(item) for item in report["items"]}
     return {**restrict_to_root(report), "all_item_depths": all_item_depths}
 
@@ -3028,15 +3364,78 @@ def revision_thickness(revision: str, root: str | None) -> dict[str, Any]:
     with tempfile.TemporaryDirectory(prefix="thickness-") as directory:
         with tarfile.open(fileobj=io.BytesIO(archive)) as tar:
             tar.extractall(directory, filter="data")
-        command = [sys.executable, str(Path(directory) / "scripts" / "corpus.py"), "frontier", "--json"]
-        if root is not None:
-            command += ["--root", root]
-        completed = subprocess.run(command, cwd=directory, capture_output=True, text=True)
+        completed, report = revision_frontier_json(Path(directory), root)
         if completed.returncode != 0:
             raise CorpusError(f"frontier at {revision} failed: {completed.stderr.strip()}")
+        if not uses_uuid_identity(Path(directory)):
+            from migrate_uuid import Migration
+            Migration(Path(directory)).run(write=True)
+
         def records(kind: str) -> list[dict[str, Any]]:
             return [json.loads(path.read_text()) for path in sorted((Path(directory) / "corpus" / kind).glob("*.json"))]
-        return thickness_report(json.loads(completed.stdout), records("arguments"), records("results"))
+        return thickness_report(report, records("arguments"), records("results"))
+
+
+def uses_uuid_identity(tree: Path) -> bool:
+    """Whether the corpus at `tree` was migrated to uuid ids (owner decision 2026-11-07)."""
+    for path in (tree / "corpus" / "statements").glob("*.json"):
+        return is_uuid(json.loads(path.read_text(encoding="utf-8")).get("id"))
+    return True
+
+
+def revision_frontier_json(tree: Path, root: str | None) -> tuple[Any, dict[str, Any] | None]:
+    """`frontier --json` by the corpus.py of an extracted revision.
+
+    A revision from before the uuid migration knows only legacy ids: it is
+    asked for the root's legacy id, and its report is converted to uuids by
+    the deterministic migration mapping, so a delta across the migration
+    shows only real changes."""
+    import subprocess
+
+    legacy = not uses_uuid_identity(tree)
+    command = [sys.executable, str(tree / "scripts" / "corpus.py"), "frontier", "--json"]
+    if root is not None:
+        command += ["--root", corpus_aliases().legacy(root) if legacy else root]
+    completed = subprocess.run(command, cwd=tree, capture_output=True, text=True)
+    if completed.returncode != 0:
+        return completed, None
+    report = json.loads(completed.stdout)
+    if legacy:
+        report = legacy_report_to_uuid(report, tree)
+    return completed, report
+
+
+def legacy_report_to_uuid(report: Any, tree: Path) -> Any:
+    """Map the legacy ids of a pre-migration report to their uuids.
+
+    Only arguments and results share legacy ids; a key naming results picks
+    the result, any other key the argument."""
+    from migrate_uuid import Migration
+
+    migration = Migration(tree)
+    migration.load()
+    table = migration.legacy
+
+    def convert(value: str, key: str) -> str:
+        kinds = table.get(value)
+        if not kinds:
+            return value
+        if len(kinds) == 1:
+            return next(iter(kinds.values()))
+        prefer = ("result", "argument") if "result" in key else ("argument", "result")
+        return next((kinds[kind] for kind in prefer if kind in kinds), next(iter(kinds.values())))
+
+    def walk(node: Any, key: str) -> Any:
+        if isinstance(node, dict):
+            return {(convert(k, key) if isinstance(k, str) else k): walk(v, k if isinstance(k, str) else key)
+                    for k, v in node.items()}
+        if isinstance(node, list):
+            return [walk(item, key) for item in node]
+        if isinstance(node, str):
+            return convert(node, key)
+        return node
+
+    return walk(report, "")
 
 
 def thickness_delta(base: dict[str, Any], head: dict[str, Any]) -> dict[str, Any]:
@@ -3141,7 +3540,8 @@ def thickness_queue(
                 shared = definitions & set(statements[other].get("definition_ids", []))
                 if other != statement_id and shared:
                     candidates.append({"statement_id": other, "shared_definition_ids": sorted(shared)})
-            candidates.sort(key=lambda item: (-len(item["shared_definition_ids"]), item["statement_id"]))
+            candidates.sort(key=lambda item: (-len(item["shared_definition_ids"]),
+                                              order_key(item["statement_id"], statements.get(item["statement_id"]))))
         attempts = sorted(
             attempts_by_statement.get(statement_id, []),
             key=lambda item: (item["outcome"] != "rejected", item["id"]),
@@ -3642,6 +4042,9 @@ def command_issues(args: argparse.Namespace) -> int:
     return 0
 
 
+ID_LIST_COMMANDS: set[Any] = set()
+
+
 def command_ids(directory: str):
     def command(_: argparse.Namespace) -> int:
         validate()
@@ -3649,6 +4052,7 @@ def command_ids(directory: str):
             print(record["id"])
         return 0
 
+    ID_LIST_COMMANDS.add(command)
     return command
 
 
@@ -3664,14 +4068,26 @@ BIND_TOOL = ROOT / "scripts" / "BindTypes.lean"
 THEORY_BUNDLE_PREFIXES = ["TruthCore.Comparison."]
 
 
-def bind_tool_input(results: list[tuple[Path, dict[str, Any]]]) -> dict[str, list[str]]:
-    """The modules to import and the theorems to describe, in result-id order."""
+def bind_tool_input(results: list[tuple[Path, dict[str, Any]]], senses: bool = False) -> dict[str, list[str]]:
+    """The modules to import and the theorems to describe, in result-id order.
+
+    With `senses`, also every sense's Lean constant and the theorems of results
+    whose argument declares `term_senses` (see `sense_bind_problems`); the tool
+    then appends one `sense_aliases` element to its output."""
     ordered = sorted((record for _, record in results), key=lambda record: record["id"])
     out = {
         "modules": sorted({record["solution_module"] for record in ordered}),
         "theorems": [record["theorem"] for record in ordered],
         "bundle_prefixes": THEORY_BUNDLE_PREFIXES,
     }
+    if senses:
+        arguments = {record["id"]: record for _, record in load_dir("arguments")}
+        out["sense_constants"] = sorted({
+            sense["lean_declaration"] for _, record in load_dir("disambiguations")
+            for sense in record.get("senses", []) if sense.get("lean_declaration")
+        })
+        out["sense_theorems"] = [record["theorem"] for record in ordered
+                                 if arguments.get(record.get("argument_id"), {}).get("term_senses")]
     from expression_contracts import selected_theorems
     selected = selected_theorems(ordered)
     if selected:
@@ -3723,9 +4139,9 @@ def is_corpus_constant(name: str | None) -> bool:
 # type it stands for; any other undeclared binding fails bind-check, and so
 # does a pin that no result uses any more.
 PINNED_UNDECLARED_BINDINGS: dict[tuple[str, str, str], str] = {
-    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-A", "conclusion", "STMT-COSMOS-HAS-CAUSE"):
+    (legacy_uuid("result", "PLATO-TIM-28A-28C-COSMOS-CAUSE-A"), "conclusion", legacy_uuid("statement", "STMT-COSMOS-HAS-CAUSE")):
         "∃ cause, Causes cause cosmos",
-    ("PLATO-TIM-28A-28C-COSMOS-CAUSE-B", "conclusion", "STMT-COSMOS-HAS-DISTINCT-CAUSE"):
+    (legacy_uuid("result", "PLATO-TIM-28A-28C-COSMOS-CAUSE-B"), "conclusion", legacy_uuid("statement", "STMT-COSMOS-HAS-DISTINCT-CAUSE")):
         "∃ cause, cause ≠ cosmos ∧ Causes cause cosmos",
 }
 
@@ -4336,9 +4752,10 @@ def command_bind_check(args: argparse.Namespace) -> int:
         described_list = json.loads(Path(args.lean_json).read_text(encoding="utf-8"))
     else:
         described_list = run_bind_tool(bind_tool_input(
-            selected + [(ROOT, binding) for binding, _ in schema_bindings]
+            selected + [(ROOT, binding) for binding, _ in schema_bindings], senses=True
         ))
     report = bind_report(described_list, schema_bindings, scope)
+    add_sense_bind_problems(report, described_list)
     # Registered model checks are global; a scoped run leaves them to the full gate.
     if not args.lean_json and scope is None:
         try:
@@ -4357,6 +4774,8 @@ def command_bind_check(args: argparse.Namespace) -> int:
                     )
             for problem in entry["problems"]:
                 print(f"mismatch: {entry['id']}: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
+        for problem in report["sense_aliases"]:
+            print(f"sense alias: {json.dumps(problem, ensure_ascii=False, sort_keys=True)}")
         summary = report["summary"]
         print(
             f"bind-check: {summary['bound']} bound, {summary['pinned']} pinned, "
@@ -4364,7 +4783,138 @@ def command_bind_check(args: argparse.Namespace) -> int:
         )
         for key in report["stale_pins"]:
             print(f"stale pin: {key} is not used by any result; remove it from PINNED_UNDECLARED_BINDINGS")
-    return 1 if report["summary"]["mismatch"] or report["stale_pins"] else 0
+    return 1 if report["summary"]["mismatch"] or report["stale_pins"] or report["sense_aliases"] else 0
+
+
+# Sense binding (owner direction 2026-11-07): each sense of a disambiguated term
+# is its own Lean constant (`senses[].lean_declaration`), so equivocation is a
+# type error rather than a record mismatch. For a result whose argument declares
+# `term_senses`, the heuristic is constant occurrence: BindTypes reports, for
+# every hypothesis and the result type, the sense constants reached from the
+# elaborated type (the type's constants and the values of TruthCore definitions
+# it uses, unfolded transitively, stopping at sense constants and at library
+# constants). The declared sense's constant must occur in some premise or the
+# conclusion, and no hypothesis or result may reach another sense constant of
+# the same term, except a hypothesis bound to a premise listed in
+# `sense_bridges` for that term, and the result type when the conclusion is a
+# declared bridge (`role: "conclusion"`). Each premise or conclusion statement
+# that links the declared sense must reach that sense's constant in its own
+# bound type, so a declaration taking the sense predicate as a parameter cannot
+# be instantiated with another predicate. A `sense_mixing_control` argument is
+# exempt. Separately, two senses of one disambiguation
+# whose constants are aliases (a definition whose eta-reduced value is the other
+# constant) are an error. The heuristic can miss equivocation hidden behind an
+# opaque or axiomatized constant, and it reports a sense reached only through
+# an unrelated definition; a finding is reviewed, not proved.
+def sense_bind_problems(
+    result: dict[str, Any],
+    argument: dict[str, Any],
+    described: dict[str, Any],
+    statements: dict[str, dict[str, Any]],
+    term_constants: dict[str, dict[str, str | None]],
+    definition_senses: dict[str, set[str]] | None = None,
+    binding: dict[str, Any] | None = None,
+) -> list[dict[str, Any]]:
+    """Sense problems of one result (see the comment above).
+
+    `binding` is the result's `bind_result` entry: it says which hypothesis
+    each premise statement bound to. With it, every premise or conclusion
+    statement that links the declared sense (through `definition_senses`,
+    definition id -> sense ids) must reach that sense's constant in its own
+    bound Lean type. This catches a declaration that takes the sense predicate
+    as a parameter and is instantiated with another (say, trivial) predicate.
+    """
+    problems: list[dict[str, Any]] = []
+    if "error" in described or argument.get("sense_mixing_control") is True:
+        return problems
+    binders = {binder["name"]: binder for binder in described.get("binders", []) if binder.get("prop")}
+    items = list(binders.items())
+    items.append(("result", described.get("result", {})))
+    if any("senses" not in item for _, item in items):
+        return [{"kind": "sense-description-missing", "detail": "rerun scripts/BindTypes.lean with sense_theorems"}]
+    bound: list[tuple[str, str, dict[str, Any]]] = []
+    if binding is not None:
+        for entry in binding.get("premises", []):
+            name = str(entry.get("hypothesis", "")).split(".", 1)[0]
+            if name in binders:
+                bound.append((entry["statement_id"], entry["hypothesis"], binders[name]))
+        if binding.get("conclusion"):
+            bound.append((argument["conclusion_statement_id"], "result", items[-1][1]))
+    for term, sense_id in sorted(argument.get("term_senses", {}).items()):
+        constants = term_constants.get(term, {})
+        declared = constants.get(sense_id)
+        if declared is None:
+            problems.append({"kind": "sense-without-lean-declaration", "term": term, "sense_id": sense_id})
+            continue
+        others = {constant for sid, constant in constants.items() if sid != sense_id and constant and constant != declared}
+        bridges = [bridge for bridge in argument.get("sense_bridges", []) if bridge.get("term") == term]
+        bridge_heads = {
+            statements.get(bridge["statement_id"], {}).get("lean_declaration")
+            for bridge in bridges if bridge.get("role", "premise") == "premise"
+        } - {None}
+        conclusion_bridge = any(bridge.get("role") == "conclusion" for bridge in bridges)
+        if not any(declared in item["senses"] for _, item in items):
+            problems.append({"kind": "declared-sense-not-mentioned", "term": term, "constant": declared})
+        for name, item in items:
+            if name == "result" and conclusion_bridge:
+                continue
+            if name != "result" and item.get("head") in bridge_heads:
+                continue
+            wrong = sorted(others & set(item["senses"]))
+            if wrong:
+                problems.append({"kind": "other-sense-mentioned", "term": term, "where": name,
+                                 "declared": declared, "constants": wrong})
+        for statement_id, where, item in bound:
+            links = set().union(*[(definition_senses or {}).get(d, set())
+                                  for d in statements.get(statement_id, {}).get("definition_ids", [])])
+            if sense_id in links and declared not in item["senses"]:
+                problems.append({"kind": "statement-sense-not-instantiated", "term": term,
+                                 "statement_id": statement_id, "where": where, "constant": declared})
+    return problems
+
+
+def add_sense_bind_problems(report: dict[str, Any], described_list: list[dict[str, Any]]) -> None:
+    """Fold sense-binding problems into a bind report (see `sense_bind_problems`)."""
+    statements = {record["id"]: record for _, record in load_dir("statements")}
+    arguments = {record["id"]: record for _, record in load_dir("arguments")}
+    results = {record["id"]: record for _, record in load_dir("results")}
+    disambiguations = [record for _, record in load_dir("disambiguations")]
+    term_constants: dict[str, dict[str, str | None]] = {}
+    definition_senses: dict[str, set[str]] = {}
+    for record in disambiguations:
+        for sense in record.get("senses", []):
+            term_constants.setdefault(record["term_label"], {})[sense["id"]] = sense.get("lean_declaration")
+            definition_senses.setdefault(sense["definition_id"], set()).add(sense["id"])
+    by_theorem = {entry.get("theorem"): entry for entry in described_list if "theorem" in entry}
+    for entry in report.get("results", []):
+        result = results.get(entry["id"])
+        if entry.get("kind") == "schema-registration" or result is None:
+            continue
+        argument = arguments[result["argument_id"]]
+        if not argument.get("term_senses"):
+            continue
+        problems = sense_bind_problems(result, argument, by_theorem.get(result["theorem"], {}), statements,
+                                       term_constants, definition_senses, entry)
+        if problems:
+            entry["problems"].extend(problems)
+            entry["status"] = "mismatch"
+    if "results" in report:
+        summary = Counter(entry["status"] for entry in report["results"])
+        report["summary"] = {status: summary.get(status, 0) for status in ("bound", "pinned", "mismatch")}
+    aliases = next((entry["sense_aliases"] for entry in described_list if "sense_aliases" in entry), {})
+    report["sense_aliases"] = []
+    legacy = set(load_sense_allowlist()["senses_without_lean_declaration"])
+    for record in disambiguations:
+        canonical: dict[str, str] = {}
+        for sense in record.get("senses", []):
+            constant = sense.get("lean_declaration")
+            if constant not in aliases or sense["id"] in legacy:
+                continue
+            target = aliases[constant]
+            if target in canonical and canonical[target] != constant:
+                report["sense_aliases"].append({"disambiguation_id": record["id"], "constants": sorted(
+                    [canonical[target], constant]), "canonical": target})
+            canonical.setdefault(target, constant)
 
 
 # --- Lean proof-term theorem reuse (#959): review only; no generated authority ----
@@ -4883,10 +5433,87 @@ def main() -> int:
     return main_with(None)
 
 
+_ALIASES: Aliases | None = None
+
+
+def corpus_aliases() -> Aliases:
+    """uuid / legacy id / label lookup over the working tree (loaded once)."""
+    global _ALIASES
+    if _ALIASES is None:
+        _ALIASES = Aliases.load(ROOT)
+    return _ALIASES
+
+
+# Command-line arguments that name corpus records, and the kinds tried in order.
+ID_ARGUMENTS: dict[str, tuple[str, ...]] = {
+    "root": ("statement",),
+    "statement_id": ("statement",),
+    "seed": ("statement",),
+    "premise": ("statement",),
+    "check": ("statement",),
+    "case": ("configuration",),
+    "argument": ("argument",),
+    "anchor": ("result",),
+    "target": ("argument", "result", "statement"),
+    "for_id": ("result", "statement", "configuration", "attempt", "argument"),
+    "result": ("result",),
+}
+
+
+def resolve_id(token: str, kinds: tuple[str, ...]) -> str:
+    """The uuid a command-line token names: a uuid, a legacy id or a label.
+
+    Kinds are tried in order; an unknown token is returned unchanged so the
+    command reports it."""
+    aliases = corpus_aliases()
+    for kind in kinds:
+        try:
+            found = aliases.resolve(token, (kind,))
+        except AmbiguousId as exc:
+            raise CorpusError(str(exc)) from exc
+        if found is not None:
+            return found
+    return token
+
+
+def resolve_arguments(args: argparse.Namespace) -> None:
+    for name, kinds in ID_ARGUMENTS.items():
+        value = getattr(args, name, None)
+        if isinstance(value, str) and value:
+            setattr(args, name, resolve_id(value, kinds))
+        elif isinstance(value, list) and all(isinstance(item, str) for item in value):
+            setattr(args, name, [resolve_id(item, kinds) for item in value])
+
+
+def humanize(text: str) -> str:
+    """Text output names records as `label [uuid8]` instead of bare uuids."""
+    aliases = corpus_aliases()
+    # A uuid that is a command argument ("materialize <uuid>") stays copyable.
+    return re.sub(r"(?<!materialize )" + PROSE_UUID_RE.pattern, lambda match: aliases.show(match.group(0)), text)
+
+
+MACHINE_OUTPUT_FLAGS = ("json", "all", "output", "build_input", "check_input")
+
+
+def machine_output(args: argparse.Namespace) -> bool:
+    if args.func is command_check or args.func in ID_LIST_COMMANDS:
+        return True
+    return any(getattr(args, flag, None) for flag in MACHINE_OUTPUT_FLAGS)
+
+
 def main_with(argv: list[str] | None) -> int:
     args = parser().parse_args(argv)
     try:
-        return args.func(args)
+        resolve_arguments(args)
+        if machine_output(args):
+            return args.func(args)
+        buffer = io.StringIO()
+        try:
+            with contextlib.redirect_stdout(buffer):
+                code = args.func(args)
+        finally:
+            sys.stdout.write(humanize(buffer.getvalue()))
+        return code
     except CorpusError as exc:
         print(f"corpus error: {exc}", file=sys.stderr)
         return 2

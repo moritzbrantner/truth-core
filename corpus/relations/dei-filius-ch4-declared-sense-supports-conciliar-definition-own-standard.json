@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH4-DECLARED-SENSE-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "bfd7e627-47c7-5a03-91e9-965e2174bb6a",
+  "label": "First Vatican Council, Dei Filius Ch. 4…… supports In the Catholic practice, whatever an…",
+  "legacy_id": "REL-DEI-FILIUS-CH4-DECLARED-SENSE-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH4-DECLARED-SENSE",
+  "subject_id": "cd268dff-ad1f-5a7d-a471-1f08c9655ea0",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "Dei Filius ch. 4 fixes the sense of dogmas to the sense the Church declared: by the practice's own self-description, meaning is fixed by its declarations, which is close to the grammatical reading of the bridge. Gap: it speaks of dogmas, and whether can. II.1 defines a dogma is a further step."
 }

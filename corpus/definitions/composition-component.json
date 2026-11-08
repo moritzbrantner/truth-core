@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMPOSITION-COMPONENT",
+  "id": "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+  "label": "Component of a composite: ComponentOf a x: a is one of the things x is composed of, whether a…",
+  "legacy_id": "DEF-COMPOSITION-COMPONENT",
   "term": "component of a composite (componens; Lean `ComponentOf`)",
   "definition": "`ComponentOf a x`: a is one of the things x is composed of, whether a quantitative part, matter or form, essence or esse, or another principle of the q.3 a.7 enumeration. Components are quantified over the same domain as the composite. `a ≠ b` for two components is numerical distinctness, the sense in which the parts of a homogeneous whole are diverse (q.3 a.7 co., fifth proof: pars aquae est aqua).",
   "basis": "stipulative",

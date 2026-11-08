@@ -1,24 +1,26 @@
 {
-  "id": "CAUSED-UNIVERSE-REFUTES-N2",
+  "id": "84ac831f-ec28-5b16-a694-5558e4346140",
+  "label": "N2 fails at the selected world, from At the selected world the spacetime whole… and 4 more",
+  "legacy_id": "CAUSED-UNIVERSE-REFUTES-N2",
   "premise_statement_ids": [
-    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
-    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-THESIS-CONTAINED-IN-SPACETIME",
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
+    "08087a25-43bd-53f2-9103-f3644c171324",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "5aed0767-9cad-5965-8912-e7b8ea11fd6e",
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "conclusion_statement_id": "STMT-NATURALISM-N2-FAILS",
+  "conclusion_statement_id": "c7122d59-f0db-54da-a019-880da5fd7be8",
   "inference_ids": [
-    "INF-CAUSED-UNIVERSE-REFUTES-N2"
+    "a41401aa-9731-581d-aea7-f9024c2b5189"
   ],
   "meaning": "Owner's steps (3)–(4): the existing cause of the spacetime whole is concrete by the activity clause of the weak causal-concreteness floor item, so N2 would make it satisfy the thesis predicate and, by containment, be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N2 fails; equivalently N2 commits its holder to no existing cause of the universe or to denying one of the other premises. This does not exclude causal edges from nonexisting candidates; that stronger conclusion would require a causal-endpoint existence premise. Conditional on the open caused-universe premise and bridges.",
   "definition_ids": [
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-PART-OF-SPACETIME"
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "1ea8b036-7a66-540a-be38-301a8db9077c",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

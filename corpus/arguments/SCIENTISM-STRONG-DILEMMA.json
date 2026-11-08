@@ -1,20 +1,22 @@
 {
-  "id": "SCIENTISM-STRONG-DILEMMA",
+  "id": "98451a18-269e-51a6-8469-7632b1b9f83f",
+  "label": "The scientism dilemma: if scientism…, from Scope premise: the formulation of scientism… and 1 more",
+  "legacy_id": "SCIENTISM-STRONG-DILEMMA",
   "premise_statement_ids": [
-    "STMT-SCIENTISM-IN-OWN-SCOPE",
-    "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED"
+    "2faf3d39-451f-5e25-8d78-9e11e07d4ff5",
+    "aa9893e1-e1c4-5d78-9d08-30086f0a4f5d"
   ],
-  "conclusion_statement_id": "STMT-STRONG-SCIENTISM-DILEMMA",
+  "conclusion_statement_id": "b2401d20-738d-56b9-9e80-a7ea2f3f7e4d",
   "inference_ids": [
-    "INF-SCIENTISM-STRONG-DILEMMA"
+    "148390b4-10a0-5895-975a-fa47028f447d"
   ],
   "meaning": "The scientism dilemma, by the self-application dilemma: if scientism's formulation is in its own scope and not empirically established, then if scientism holds the formulation is not established, and if the formulation is established scientism fails. It does not refute scientism held as true but unestablished, and its second premise is open.",
   "definition_ids": [
-    "DEF-STRONG-SCIENTISM",
-    "DEF-SCIENTISM-EPISTEMIC-FRAME",
-    "DEF-SELF-APPLICATION-NORM"
+    "fee8ffa5-ec96-5f31-8e71-525bb6249f68",
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d",
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

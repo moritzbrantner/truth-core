@@ -1,10 +1,12 @@
 {
-  "id": "DEF-Q75-COGNITIVE-SCOPE",
+  "id": "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+  "label": "Universal bodily cognition: In the local typed Model, Nature ranges over candidate natures and…",
+  "legacy_id": "DEF-Q75-COGNITIVE-SCOPE",
   "term": "universal bodily cognition (human intellectual capacity)",
   "definition": "In the local typed Model, Nature ranges over candidate natures and BodilyNature selects natures of bodies. CanUnderstand intellect n is capacity to understand that nature. UniversalBodilyCognition quantifies over every selected bodily nature, distributively. It neither asserts an actual exercise nor simultaneous omniscience. The intellectual principle is designated by a parameter; no universal predicate of all kinds of cognition or of divine knowing is introduced.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q75-A2-UNIVERSAL-BODILY-COGNITION"
+    "e6fb1e14-bf68-5ac5-a2ec-462f200bcf4d"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.UniversalBodilyCognition",
   "note": "The older primitive HasIntellect has no cognitive-domain semantics. This first human-intellect argument is not the converse of the highest-immateriality premise of q.14."

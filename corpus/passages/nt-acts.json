@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-ACTS",
+    "source_id": "79747e01-8944-50bb-9357-eafa221aa7ea",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg005.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-ACTS-1",
+      "id": "317c370c-a09b-5880-bea4-c89e224a564a",
+      "label": "New Testament, Acts, 1",
+      "legacy_id": "NT-ACTS-1",
       "locator": "1",
       "claim_locator_prefixes": [
         "1."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-ACTS-2",
+      "id": "aff13416-13ab-549a-85d5-5120eab62e61",
+      "label": "New Testament, Acts, 2",
+      "legacy_id": "NT-ACTS-2",
       "locator": "2",
       "claim_locator_prefixes": [
         "2."
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "NT-ACTS-17",
+      "id": "c1186089-4db8-5046-91d9-8ec845046e75",
+      "label": "New Testament, Acts, 17",
+      "legacy_id": "NT-ACTS-17",
       "locator": "17",
       "claim_locator_prefixes": [
         "17."

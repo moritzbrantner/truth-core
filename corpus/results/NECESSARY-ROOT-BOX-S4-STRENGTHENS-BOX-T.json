@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
-  "argument_id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "id": "f7704ae5-7e4b-59d0-a0d5-c790773a48a2",
+  "label": "Necessary-being node, possibilist box reading in…, from Necessary-being node, possibilist box… (4)",
+  "legacy_id": "NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "argument_id": "98a7ad0c-3c10-5ed5-a30b-f1bf97a036d5",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxS4ToBoxT",

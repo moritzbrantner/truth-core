@@ -1,16 +1,18 @@
 {
-  "id": "LEIBNIZ-45-INTRINSIC-REASON",
-  "statement_id": "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
-  "source_id": "LEIBNIZ-MONADOLOGY",
+  "id": "8463b828-f923-5fe2-9b48-12a588fdf61a",
+  "label": "Gottfried Wilhelm Leibniz, Monadology §45: The necessary being proposed as the final reason for…",
+  "legacy_id": "LEIBNIZ-45-INTRINSIC-REASON",
+  "statement_id": "a7bbd2fd-242c-5097-a9a3-581d25835890",
+  "source_id": "738fd471-e47c-57a1-96ae-ab295261c7dc",
   "locator": "§45",
   "interpretation": "Prose source reading of the closing retrospective a posteriori clause. It concerns the proposed final ground, not every individual satisfying a de re necessity predicate. It neither establishes an actual ground nor certifies the sufficiency or noncircularity of an intrinsic reason.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
-    "DEF-KANT-SUFFICIENT-REASON"
+    "61b2ea45-ab9d-537f-b43f-b9208c15a362",
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

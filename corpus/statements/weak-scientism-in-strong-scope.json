@@ -1,12 +1,14 @@
 {
-  "id": "STMT-WEAK-SCIENTISM-IN-STRONG-SCOPE",
+  "id": "c7c38492-0687-5174-9782-b10f34dd46e6",
+  "label": "The WEAK_2 thesis's own formulation is a claim within the strong scope",
+  "legacy_id": "STMT-WEAK-SCIENTISM-IN-STRONG-SCOPE",
   "paraphrase": "The weak thesis's own formulation is a claim within the strong scope.",
   "lean_declaration": "TruthCore.Logic.Scientism.WeakThesisInStrongScope",
   "definition_ids": [
-    "DEF-WEAK-SCIENTISM-RESTRICTED",
-    "DEF-SELF-APPLICATION-NORM"
+    "9424e383-2872-5587-8b54-c915516aa395",
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

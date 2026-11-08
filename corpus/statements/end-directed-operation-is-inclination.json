@@ -1,13 +1,15 @@
 {
-  "id": "STMT-END-DIRECTED-OPERATION-IS-INCLINATION",
+  "id": "87afc0da-6637-5707-9e40-9a4a14d095ad",
+  "label": "A thing operating through a form toward an end has an inclination following that form",
+  "legacy_id": "STMT-END-DIRECTED-OPERATION-IS-INCLINATION",
   "paraphrase": "OPEN analyst recognition premise: a thing operating through a form toward an end has an inclination following that form (orientation at the level of nature or power; no current exercise asserted).",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.EndDirectedOperationIsInclination",
   "definition_ids": [
-    "DEF-OPERATION-THROUGH-FORM-FOR-END",
-    "DEF-NATURAL-APPETITE-FORM-INCLINATION"
+    "fa727d21-0365-5c34-9d50-11221e90d6a2",
+    "678b9306-81f1-5c61-ab90-6e4594395b50"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE",
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82",
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

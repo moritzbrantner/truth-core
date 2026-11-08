@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
+  "id": "2c3a9bf1-f270-5dee-af6b-418dc01ef9a7",
+  "label": "Stopping by taking an unproved starting point for granted supplies no privilege through bare…",
+  "legacy_id": "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
   "paraphrase": "Stopping by taking an unproved starting point for granted supplies no privilege through bare concession: a contrary hypothesis could be conceded on the same basis, or the disputed conclusion itself could simply be assumed.",
   "definition_ids": [
-    "DEF-SEXTUS-ESTABLISHING-PROOF",
-    "DEF-SEXTUS-BARE-HYPOTHESIS"
+    "4eaa3fea-38a6-5642-bbe4-3b1b32ba7d00",
+    "1879d7b0-5fbb-523a-8615-5a2f61a2a1ef"
   ],
   "disambiguation_ids": [
-    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+    "d0ec5421-edd4-5c5d-a3de-fb1bb8ee5e7e"
   ]
 }

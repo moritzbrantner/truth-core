@@ -1,7 +1,9 @@
 {
-  "id": "INF-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "id": "ef3fd5a4-c51e-5bf3-b150-ddef9144fe89",
+  "label": "For any selected candidate, global well-founded actual-concrete…, by Restriction-of-well-founded-r…",
+  "legacy_id": "INF-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "output_statement_id": "5a6c06bf-96a1-5aa9-9a2e-95b4580ba6c9",
   "rule": "restriction-of-well-founded-relation-and-universal-domain",
   "meaning": "For any selected candidate, global well-founded actual-concrete grounding implies well-founded grounding on its complete actual ancestry cone, and global contingent concrete dependence implies contingent dependence within that cone. These scope implications, together with the combined local-but-not-global model, certify a strict weakening of both premises. They do not establish any instance of either local or global metaphysical premise.",
   "assumption_statement_ids": [],

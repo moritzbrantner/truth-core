@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-INTRINSIC-EXPLANATION-SOURCE-CONNECTION",
+  "id": "3c11cd59-9d1f-569a-8086-21dab8ca4278",
+  "label": "Materialized and read spinoza ethics elwes full, Ethics I definitions/axioms and propositions 1–11…",
+  "legacy_id": "ATTEMPT-INTRINSIC-EXPLANATION-SOURCE-CONNECTION",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
-    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+    "8550ca62-92d1-5ef0-af17-9de5bf272262",
+    "a7bbd2fd-242c-5097-a9a3-581d25835890",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239"
   ],
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read SPINOZA-ETHICS-ELWES-FULL, Ethics I definitions/axioms and propositions 1–11 including proofs, corollaries and notes. Precise findings preserved in docs/notes/ultimate-adequacy-integration-735.md: definition 1 distinguishes essence-involving-existence self-cause from productive self-causation; proposition 7 uses an explanatory fork, made explicit in proposition 8 note II commitments 3–4; proposition 11 second proof requires reasons for absence as well as presence. Rejected equating nonexternal production with necessary existence without the fork, intrinsic explanation with efficient self-production, Spinozan substance with our concrete/bearer vocabulary, or conceptual necessity with accessible-world necessity. Positive source clarification, no new claim/type, no philosophical premise discharge or root-frontier change. Existing owner-accepted actual existence retained.",
   "blocker": "Defend the intrinsic-nature-to-necessary-existence application with fixed identity/nature and accessibility; external reasons still require an independently justified actual concrete-ground bridge. The source classification and explanatory coverage are commitments rather than established truths.",
   "evidence": [
-    "NO-EXISTENTIAL-SELF-ACTUALIZATION"
+    "e60831c7-14fd-5225-9471-060dffa50386"
   ]
 }

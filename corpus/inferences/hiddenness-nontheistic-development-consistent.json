@@ -1,15 +1,17 @@
 {
-  "id": "INF-HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
+  "id": "5be2ef07-3c7c-5b29-ae3b-cc8b5f64861c",
+  "label": "The non-theistic core together with its positive developmental…, by Finite model construction",
+  "legacy_id": "INF-HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
   "input_statement_ids": [
-    "STMT-HIDDENNESS-NO-GOD",
-    "STMT-HIDDENNESS-GOD-LOVES",
-    "STMT-HIDDENNESS-ALWAYS-OPEN",
-    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
-    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF",
-    "STMT-HIDDENNESS-CONCEPT-NEEDED",
-    "STMT-HIDDENNESS-DEVELOPMENTAL-ACCOUNT"
+    "80f4e2eb-800b-57eb-8cf8-7f0e1cff1459",
+    "0edc0b38-46b0-567a-9f72-64e16b30c77b",
+    "962a62c9-f72a-54c4-949e-d1c5dad6f8e1",
+    "7a22ab5d-e728-58a0-b6f1-48d944e6e216",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009",
+    "4203e876-228a-557e-ab3f-30f1fe5434d2",
+    "e0f8a142-ef0a-56e8-950b-0da6cc27f09b"
   ],
-  "output_statement_id": "STMT-HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
+  "output_statement_id": "91050ae0-40a8-5538-a10c-a289ad37525b",
   "rule": "finite model construction",
   "meaning": "The non-theistic core together with its positive developmental replacement account has a finite interpretation. Religious concept possession varies with time and constrains belief, while nonbelief receives a developmental explanation. This is neither an empirical validation of universal coverage nor a completed cosmology or moral theory.",
   "assumption_statement_ids": [],

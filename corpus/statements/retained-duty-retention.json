@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RETAINED-DUTY-RETENTION",
+  "id": "d4e0402d-5848-57b8-97f5-43f5fe12beb3",
+  "label": "If return of the identical original object is owed before, that same return is owed after",
+  "legacy_id": "STMT-RETAINED-DUTY-RETENTION",
   "paraphrase": "If return of the identical original object is owed before, that same return is owed after. This conditional moral policy is an open input.",
   "lean_declaration": "TruthCore.Modal.RetainedDuty.Retention",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

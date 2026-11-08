@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-184A-ORDERS-KNOWABILITY-A",
-  "statement_id": "STMT-INQUIRY-KNOWABLE-TO-US-TO-NATURE",
-  "source_id": "ARIST-PHYS",
+  "id": "8d95eb46-d91d-5e46-a9ac-4811d39993f7",
+  "label": "Aristotle, Physics I.1, 184a16-21: Inquiry proceeds from what is clearer and more knowable to us…",
+  "legacy_id": "ARIST-PHYS-184A-ORDERS-KNOWABILITY-A",
+  "statement_id": "1173299d-daa9-5f97-9e24-214d97d2d904",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.1, 184a16-21",
   "interpretation": "Epistemic-order reading: Aristotle distinguishes what is initially clearer to us from what is clearer by nature and directs inquiry from the former toward the latter. No modern theory of evidence or psychological accessibility is substituted for the distinction.",
   "status": "formalized"

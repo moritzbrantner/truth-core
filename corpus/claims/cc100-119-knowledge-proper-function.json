@@ -1,15 +1,17 @@
 {
-  "id": "CC100-119-KNOWLEDGE-PROPER-FUNCTION",
-  "statement_id": "STMT-CC100-119-KNOWLEDGE-PROPER-FUNCTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "180d466d-b9d2-52ee-91e3-fd0143f8ae5c",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: We have knowledge, and we can have knowledge only if…",
+  "legacy_id": "CC100-119-KNOWLEDGE-PROPER-FUNCTION",
+  "statement_id": "1180554d-1e31-54bb-8d6d-ebb0adfe0372",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.280, argument #119 Knowledge as Proper Function, steps 1–2",
   "interpretation": "Preserve both actual knowledge and the can-only proper-function restriction. Proper functioning is not defined as design or reliable truth production; no cognitive mechanism or independent warrant is supplied. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

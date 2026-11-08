@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MORAL-SENTENCE-OCCURRENCE",
+  "id": "ecd403ac-5cbe-54a9-91de-90235600b5b0",
+  "label": "Moral sentence, occurrence, meaning…: Sentence is the carrier of repeatable sentences",
+  "legacy_id": "DEF-MORAL-SENTENCE-OCCURRENCE",
   "term": "moral sentence, occurrence, meaning and attitude expression in the Frege–Geach model",
   "definition": "Sentence is the carrier of repeatable sentences; Ctx distinguishes occurrences such as free-standing assertion and antecedent occurrence. meaning φ c is a value in the Meaning carrier; equality of these values is the model’s same-meaning test. Expresses φ c a says that occurrence expresses attitude a. Expressing an attitude is not asserting a descriptive report that one has it. Moral restricts the readings to moral sentences. The carriers and relations are primitive; equality of Meaning values is not a complete natural-language semantics.",
   "basis": "stipulative",

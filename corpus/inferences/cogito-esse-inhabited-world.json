@@ -1,12 +1,14 @@
 {
-  "id": "INF-COGITO-ESSE-INHABITED-WORLD",
+  "id": "a709149d-980d-5b8d-91a8-b5fdf09fcb5f",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, by Constructive-proof (2)",
+  "legacy_id": "INF-COGITO-ESSE-INHABITED-WORLD",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-EXISTING-IN-ACT-AT"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae"
   ],
-  "output_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "rule": "constructive-proof",
   "meaning": "Compose the existing inhabited-world theorem with COGITO-BEARER-CONCRETE-FROM-EXISTENCE. Concreteness is consistently HasEsseInRe InAct esse; no independent C premise remains. O, B, E and ExistingInActAt remain explicit. Transcription/instantiation, not independent closure of any open premise.",
   "assumption_statement_ids": [],

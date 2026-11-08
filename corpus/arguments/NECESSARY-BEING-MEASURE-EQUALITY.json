@@ -1,23 +1,25 @@
 {
-  "id": "NECESSARY-BEING-MEASURE-EQUALITY",
+  "id": "74c5fd65-5644-5926-a9ac-6c941eaeac8e",
+  "label": "The supplied arbitrary measure assigns equal values to the…, from For the supplied family of Ontic…",
+  "legacy_id": "NECESSARY-BEING-MEASURE-EQUALITY",
   "premise_statement_ids": [
-    "STMT-AE-VALID-NECESSARY-BEING-MODAL-INTERPRETATIONS"
+    "f52943fa-1235-5b2f-80d1-04c3973a9f6e"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-BEING-MEASURE-EQUALITY",
+  "conclusion_statement_id": "b427f81f-5a85-5507-9bf7-541af689388f",
   "inference_ids": [
-    "INF-NECESSARY-BEING-MEASURE-EQUALITY"
+    "4b60d4e5-94d6-597d-b1fa-6631d255e7b2"
   ],
   "meaning": "Within each supplied interpretation with Euclidean accessibility and selected-world reflexivity, unpack the accessible NecessaryBeing witness and reuse NonlimitingConcreteExistence.necessaryAtOrigin to retain the SAME c with existence and necessity at the selected standpoint. Conversely, selected-world reflexivity makes every actual NecessaryBeing an accessible one. The supplied almost-everywhere modal-validity premise therefore makes the two events agree almost everywhere; Mathlib measure_congr gives equality of their arbitrary measures. Witnesses may vary with the interpretation: no global c is selected. No positive threshold, actual NecessaryBeing, causal role, concreteness, God identity, probability interpretation or source/default entitlement follows.",
   "definition_ids": [
-    "DEF-NECESSARY-BEING-MEASURE-EVENTS",
-    "DEF-AE-VALID-NECESSARY-BEING-INTERPRETATIONS",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "84235d66-1a29-5e86-b691-58cc9ca34219",
+    "d949a0b2-e163-5323-98e3-14bbb1a047a8",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-BEING-MEASURE-AND-CREDENCE",
-    "DISAMB-NECESSARY"
+    "5a2fb46e-a1f7-586d-87ae-8e02fff6fd2c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

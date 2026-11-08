@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BEARER-SUPPORT-OUTCOMES",
+  "id": "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+  "label": "Terminus, cycle and endless support…: SupportTerminus m R Dependent w b x: x is an existing…",
+  "legacy_id": "DEF-BEARER-SUPPORT-OUTCOMES",
   "term": "terminus, cycle and endless support below a bearer",
   "definition": "`SupportTerminus m R Dependent w b x`: x is an existing support-ancestor of b with no existing direct supporter at w and fails `Dependent`. `SupportCycleBelow`: some ancestor of b reaches itself by one or more support edges. `EndlessSupportBelow`: some set contains b, contains only ancestors of b, and gives each member an existing direct supporter in the set. `BearerOutcome` is the disjunction of: accessibility with a terminus satisfying `Substance`; accessibility with a terminus failing it; a cycle; an endless set with no cycle. A terminus is a root of R at w only; a terminus failing `Substance` is not thereby a process or event.",
   "basis": "stipulative",

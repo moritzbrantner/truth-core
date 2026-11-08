@@ -1,22 +1,24 @@
 {
-  "id": "RUTTEN-CH6-CAUSE-EFFECT-NONOVERLAP",
-  "statement_id": "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "5e25447d-370c-5cc2-ba52-5423d0cf516c",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Every complete-cause candidate edge has cause and effect…",
+  "legacy_id": "RUTTEN-CH6-CAUSE-EFFECT-NONOVERLAP",
+  "statement_id": "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VI, printed p.127 premise5 and p.135 defense",
   "interpretation": "Preserve disjointness as absence of ANY common part, not just distinctness. Its priority-based defense is attributed rather than certified; a constitutive-ground relation cannot be substituted automatically. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

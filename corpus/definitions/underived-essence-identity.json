@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNDERIVED-ESSENCE-IDENTITY",
+  "id": "ecb3ac53-8e55-5a8f-8ef1-5bf2866e630f",
+  "label": "Same underived necessary bearer with…: UnderivedEssenceIdentity m R w p means there exists one n…",
+  "legacy_id": "DEF-UNDERIVED-ESSENCE-IDENTITY",
   "term": "same underived necessary bearer with represented essence–esse identity",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.UnderivedEssenceEsse.UnderivedEssenceIdentity",

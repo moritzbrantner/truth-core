@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING",
+  "id": "05392ecb-bde5-5fff-8c64-ab61c20bc96a",
+  "label": "Bodily involvement in an intellectual exercise: physical basis or bodily sharing",
+  "legacy_id": "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING",
   "term": "bodily involvement in an intellectual exercise: physical basis or bodily sharing",
   "sense_definition_ids": [
-    "DEF-MIND-PHYSICAL-BASIS",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
-  "resolution": "PhysicallyBased is a predicate of occurrences in the modern frame: the occurrence has a physical kind or is realized by a physical occurrence. BodyShares is a predicate of q.75 operations: the body participates in the exercise, and it excludes object-side phantasms (ad 3). No definition identifies them. STMT-INTELLECTUAL-EXERCISE-TOKENED and STMT-PHYSICAL-BASIS-IS-BODY-SHARING are the only passage between them, and both are explicit, unattributed and open. bridgeExit satisfies every other premise with a per-se operation and a physical token, so the passage is load-bearing."
+  "resolution": "PhysicallyBased is a predicate of occurrences in the modern frame: the occurrence has a physical kind or is realized by a physical occurrence. BodyShares is a predicate of q.75 operations: the body participates in the exercise, and it excludes object-side phantasms (ad 3). No definition identifies them. STMT-INTELLECTUAL-EXERCISE-TOKENED and STMT-PHYSICAL-BASIS-IS-BODY-SHARING are the only passage between them, and both are explicit, unattributed and open. bridgeExit satisfies every other premise with a per-se operation and a physical token, so the passage is load-bearing.",
+  "term_label": "BODILY_INVOLVEMENT_IN_AN_INTELLECTUAL_EXERCISE",
+  "senses": [
+    {
+      "id": "59346ca2-af7a-4c83-b06f-64b7438833ed",
+      "label": "BODILY_INVOLVEMENT_IN_AN_INTELLECTUAL_EXERCISE_1",
+      "definition_id": "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+      "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicallyBased"
+    },
+    {
+      "id": "ea47ee46-0c82-4aac-b9b7-081a32705a06",
+      "label": "BODILY_INVOLVEMENT_IN_AN_INTELLECTUAL_EXERCISE_2",
+      "definition_id": "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OperationAttribution"
+    }
+  ]
 }

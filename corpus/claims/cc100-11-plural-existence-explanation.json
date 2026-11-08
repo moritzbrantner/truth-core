@@ -1,15 +1,17 @@
 {
-  "id": "CC100-11-PLURAL-EXISTENCE-EXPLANATION",
-  "statement_id": "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "7557386e-7de4-550b-bd89-9a6ba69350d9",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: For any particular contingent concrete things, where…",
+  "legacy_id": "CC100-11-PLURAL-EXISTENCE-EXPLANATION",
+  "statement_id": "e0bef97f-590c-5f51-a8a3-60c0ace645ea",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.25, argument #11 Pruss and Rasmussen, step 1",
   "interpretation": "This is particular-plurality existence-fact coverage, not merely one existence fact per individual, ordinary Ontic causation, fact PSR for arbitrary truths or collective causal sufficiency. The parenthetical concrete meaning is possible causal capability; it does not select the repository’s concrete predicate without correspondence. Empty/singleton/totality admission and actual-world extent are not independently specified. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+    "d59566cf-a070-5e9a-aa4c-84620060ad92"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

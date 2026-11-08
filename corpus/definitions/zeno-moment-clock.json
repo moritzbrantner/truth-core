@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ZENO-MOMENT-CLOCK",
+  "id": "a93383c7-d914-54ef-9449-217154bd58b8",
+  "label": "Clock reading of a supertask moment: The real time assigned to each moment of the omega-plus-one…",
+  "legacy_id": "DEF-ZENO-MOMENT-CLOCK",
   "term": "clock reading of a supertask moment",
   "definition": "The real time assigned to each moment of the omega-plus-one supertask order (SupertaskMoment): stage n is read at its Zeno stage time and the distinct limit endpoint at time 1. It is an order embedding when SupertaskPrecedes a b holds exactly when a is read strictly before b.",
   "basis": "stipulative",

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION",
+  "id": "53bcdeda-a326-54ac-8a14-8a788a8e00ac",
+  "label": "Where the described dispute cannot be adjudicated, the skeptical procedure neither accepts nor…",
+  "legacy_id": "STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION",
   "paraphrase": "Where the described dispute cannot be adjudicated, the skeptical procedure neither accepts nor rejects the matter under investigation and ends in suspension of judgment.",
   "definition_ids": [
-    "DEF-SEXTUS-SUSPENSION"
+    "d5d1a656-0523-5e9e-811f-9d86a332e478"
   ],
   "disambiguation_ids": [
-    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+    "d0ec5421-edd4-5c5d-a3de-fb1bb8ee5e7e"
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "id": "INF-ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "id": "b985663d-be79-5c2d-90fb-ea50f41dae15",
+  "label": "Exact negation of revelation possible and recognizable on the unchanged…, by Constructive-proof (2)",
+  "legacy_id": "INF-ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
   "input_statement_ids": [
-    "STMT-GOD-EXISTS",
-    "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
-    "STMT-RECOGNITION-ANSWERS-TO-SHARED-REASON",
-    "STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON",
-    "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE"
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+    "3f303e5a-a3b2-57f4-accb-207139bf9d52",
+    "b025531d-6c4a-573a-a205-795fe8da514a",
+    "12605639-82ad-5434-9171-7c30107b3dfd",
+    "78f0ee30-2c2f-5223-9d80-a936735abdf0"
   ],
-  "output_statement_id": "STMT-REVELATION-CAPABILITY-REJECTED",
+  "output_statement_id": "4640876a-2e8f-5610-810c-6f222b4e36c1",
   "rule": "constructive-proof",
   "meaning": "Compose actual-to-admitted persistence with the imported admitted-insulation contradiction. Raw actual cut-off remains a real premise; without persistence it can coexist with capability. This is conditional and does not refute the actual-practice thesis.",
   "assumption_statement_ids": [],

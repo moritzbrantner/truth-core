@@ -1,11 +1,13 @@
 {
-  "id": "INF-GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "id": "ceb3b1ba-c7b5-5bc3-bfa4-3623b7d135d9",
+  "label": "Logical falsity, by Typed deductive composition (2)",
+  "legacy_id": "INF-GROUNDING-NECESSITATION-INCOMPATIBLE",
   "input_statement_ids": [
-    "STMT-FACT-CONTINGENT-AT",
-    "STMT-FACT-NECESSARY-AT",
-    "STMT-NECESSARY-TOTAL-CONDITION-IMPLICATION"
+    "baf22110-9b54-5c11-a44a-c8447518b824",
+    "d66a1553-2943-5c19-9156-d8c3240c90e8",
+    "ba4ae12f-e9c7-50c3-9079-40dcd78019d8"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "Typed deductive composition",
   "meaning": "Apply existing Kripke K to boxed q and boxed q→p, then contradict the accessible failure of actual contingent p. No reflexivity or S5.",
   "assumption_statement_ids": [],

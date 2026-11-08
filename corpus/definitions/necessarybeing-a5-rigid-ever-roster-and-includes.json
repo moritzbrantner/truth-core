@@ -1,11 +1,13 @@
 {
-  "id": "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
+  "id": "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+  "label": "Fixed current-or-past contingent…: For the selected possible W, C describes all and only the…",
+  "legacy_id": "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
   "term": "fixed current-or-past contingent roster C and counterfactual includes in A5",
   "definition": "For the selected possible W, C describes all and only the PARTICULAR contingent things existing or having existed there. The source note’s four bearers are illustrative; fixed roster identity differs from A3’s nonrigid first occurrence. Includes means that Y would obtain or exist were X actual. An empty individual roster can therefore be represented by a negative C, not absence of a situation. The source mixes present and having-ever-been wording without supplying a formal time/world/Fact interpretation.",
   "basis": "sourced",
   "claim_ids": [
-    "NB-SURVEY-A5-RIGID-EVER-HISTORY",
-    "NB-SURVEY-A5-HISTORY-CONTINGENCY-AND-CAUSABILITY"
+    "990565e2-27fa-592b-abc9-a6648b5290f1",
+    "9255ccfb-e953-5f6f-b65e-a04dbdb4df23"
   ],
   "note": "Do not reduce EVER commitments to present ExistsAt, assume a complete future history, treat inclusion as set membership, or infer that every required C is admitted as a fact token. Typed fixed-conjunction results cover positive member commitments only, not C’s full negative all-and-only content. Preservation of the same C at a possible caused occurrence remains an explicit interpretation obligation."
 }

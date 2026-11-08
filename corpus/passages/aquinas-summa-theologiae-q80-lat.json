@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "source_url": "https://www.corpusthomisticum.org/sth1077.html",
     "sha256": "sha256:d94d71351d8ec6edb379f1e0cae8859364a78e2aca5b915806b1f4b54fba5bdd",
     "wayback_url": "https://web.archive.org/web/20260417180138id_/https://www.corpusthomisticum.org/sth1077.html",
@@ -13,6 +13,9 @@
   },
   "passages": [
     {
+      "id": "2ca5cd92-df2e-54df-866f-d74435ae014f",
+      "label": "Thomas Aquinas, Summa theologiae, I q.80 a.1\u20132",
+      "legacy_id": "AQUINAS-ST-I-Q80",
       "html_selector": {
         "from": {
           "anchor": "31828"
@@ -23,7 +26,6 @@
       },
       "text_sha256": "sha256:19457f98dbc996b87674fbe0c1ec639b994163bf3b198c8131e78b414052ccb8",
       "incipit": "[31828] I\u00aa q. 80 pr. Deinde considerandum est de potentiis appetitivis.",
-      "id": "AQUINAS-ST-I-Q80",
       "locator": "I q.80 a.1\u20132",
       "claim_locator_prefixes": [
         "I q.80 a.1 ",

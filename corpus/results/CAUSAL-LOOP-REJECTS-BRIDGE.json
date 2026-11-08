@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-LOOP-REJECTS-BRIDGE",
-  "argument_id": "CAUSAL-LOOP-REJECTS-BRIDGE",
+  "id": "23a3b966-fdc9-5719-ba2c-497a3c8a9d86",
+  "label": "Some model satisfies jointly: the anchors, the #1113 bridge, N1, N2, N3 and N3i in the…",
+  "legacy_id": "CAUSAL-LOOP-REJECTS-BRIDGE",
+  "argument_id": "349381fa-5941-515e-ac7a-58a1988c1e0e",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.Loop.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.Loop.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.Loop.causalLoopRejectsBridge",

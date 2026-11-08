@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-JOHN-ABRAHAM-SAYING",
+  "id": "777e1ba1-f952-51e7-9001-f92ecd31ac6b",
+  "label": "The narrative attributes to Jesus the saying that contrasts before Abraham came to be with his…",
+  "legacy_id": "STMT-REPORTED-JOHN-ABRAHAM-SAYING",
   "paraphrase": "The narrative attributes to Jesus the saying that contrasts before Abraham came to be with his first-person I-am self-predication.",
   "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.ReportedAbrahamSaying",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

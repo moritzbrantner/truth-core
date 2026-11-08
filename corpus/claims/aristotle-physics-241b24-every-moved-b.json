@@ -1,17 +1,19 @@
 {
-  "id": "ARIST-PHYS-241B24-EVERY-MOVED-B",
-  "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
-  "source_id": "ARIST-PHYS",
+  "id": "f7769216-9aae-5a93-9329-04077e6fa122",
+  "label": "Aristotle, Physics VII.1, 241b24-242a15: Whatever is being moved is moved by something: some mover…",
+  "legacy_id": "ARIST-PHYS-241B24-EVERY-MOVED-B",
+  "statement_id": "33365614-ca04-5942-bc11-173dfbbad051",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VII.1, 241b24-242a15",
   "interpretation": "Typed reading of the chapter's thesis (Ἅπαν τὸ κινούμενον ὑπό τινος ἀνάγκη κινεῖσθαι): whatever is being moved has some mover, in some respect. It is respect-free, like the source sentence: it does not say that the mover moves it in the respect in which it is moved (which the prima via's STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER says), and 'by something' is not 'by another'. The chapter's own proof (by cases on an internal source of motion, then dividing the per se mover) is not typed here; see docs/typed-physics.md. Reading step: ὑπό τινος is taken as a per se mover (`MovesIn`). That is stronger than what the chapter's proof secures in the internal-source case (rest-dependence on a part, 242a1-4: ὃ δὲ ἠρεμεῖ μὴ κινουμένου τινός, ὡμολόγηται ὑπό τινος κινεῖσθαι) and stronger than VIII.4's literal conclusion, which admits a per accidens mover; it is not derived from either. Scope: physical motion, by instantiation of `MovedIn` (the Lean has no guard).",
-  "interpretation_of": "ARIST-PHYS-241B24-EVERY-MOVED-A",
+  "interpretation_of": "c09ffb81-edb7-58d6-b5ed-748e89edaf1a",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

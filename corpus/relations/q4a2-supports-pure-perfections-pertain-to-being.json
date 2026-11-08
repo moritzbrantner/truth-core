@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q4A2-SUPPORTS-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "id": "064c484c-6226-5301-a561-27ea00e2cb6e",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2… supports Every pure perfection is a perfection of…",
+  "legacy_id": "REL-Q4A2-SUPPORTS-PURE-PERFECTIONS-PERTAIN-TO-BEING",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
+  "subject_id": "5dd2d69f-02a5-5357-8cb5-1f028137db64",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "object_id": "c4fb87a6-047d-5f3d-b3e3-8dc0c4bbc946",
   "note": "ST I q.4 a.2 says the perfections of all things pertain to the perfection of being. The encoded statement restricts this to pure perfections, a weaker reading. It does not supply ad 3's distinction between participation in being and in every mode, or any causal transfer."
 }

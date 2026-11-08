@@ -1,6 +1,8 @@
 {
-  "id": "STEVENSON-FACTUAL-AGREEMENT",
-  "argument_id": "STEVENSON-FACTUAL-AGREEMENT",
+  "id": "a9604477-92a8-5f06-a830-06c5c2eb7a1a",
+  "label": "The three existing Stevenson commitments and the structured primary disagreement account are…",
+  "legacy_id": "STEVENSON-FACTUAL-AGREEMENT",
+  "argument_id": "d2596ea7-1846-5b98-8d27-d20a64bf2e53",
   "challenge_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.Solution",
   "theorem": "TruthCore.Results.Comparison.Metaethics.StevensonFactualAgreement.factualAgreementConsistent",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "id": "f071a9ab-b555-550f-a8ac-88bae6b5cf2b",
+  "label": "Every nonempty one-world local structure with a well-founded grounding relation…, by Direct-proof",
+  "legacy_id": "INF-WORLD-LOCAL-GROUNDING-DOUBLING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "output_statement_id": "b5680eae-4ee9-5fc3-9c71-5b74e4638619",
   "rule": "direct-proof",
   "meaning": "Construct disjoint tagged copies of any base local structure and prove population, sound existing distinct causal endpoints, well-foundedness, independently specified noninitial causal coverage and universal frame accessibility are preserved. Distinct world tags refute de re necessary concrete existence at the designated actual world. The proof is a universally quantified conditional construction, not an existential claim about metaphysical possibility.",
   "assumption_statement_ids": [],

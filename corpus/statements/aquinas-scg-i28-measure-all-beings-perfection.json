@@ -1,14 +1,16 @@
 {
-  "id": "STMT-AQUINAS-SCG-I28-MEASURE-ALL-BEINGS-PERFECTION",
+  "id": "18085727-7d45-58a3-8af2-497518c8d6a3",
+  "label": "Under the premise that each genus has a most-PERFECT_2 measure with degrees of approach, God, who…",
+  "legacy_id": "STMT-AQUINAS-SCG-I28-MEASURE-ALL-BEINGS-PERFECTION",
   "paraphrase": "Under the premise that each genus has a most-perfect measure with degrees of approach, God, who is his own being, is the common measure of beings and lacks no excellence appropriate to any particular thing.",
   "note": "Bare source reading, not bound to a Lean declaration; source fidelity does not establish premise truth or the applicability of its terms to current candidate roots.",
   "definition_ids": [
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-ESSE",
-    "DEF-UNIVERSALLY-PERFECT"
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-CONCEIVABILITY-TESTS",
+  "id": "289af5ea-ea65-590a-bd37-23cf9fc85e1b",
+  "label": "Bounded conditional laws and countermodels for issue #248: H and C yield ◇¬H and…, by Direct-proof",
+  "legacy_id": "INF-HUME-CONCEIVABILITY-TESTS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-CONCEIVABILITY-TESTS",
+  "output_statement_id": "9bbd9b83-6b79-503d-9448-af48d5d2bf6e",
   "rule": "direct-proof",
   "meaning": "Instantiate H at ¬H; use □H at the obtained witness for the conditional conflict. Apply MC to the singleton identity predicate; compose accessibility via symmetry and transitivity, and transport the two contingency witnesses to the origin. Construct independent Bool valuations for all countermodels. No source statement is a premise of this formal semantic test.",
   "assumption_statement_ids": [],

@@ -1,19 +1,21 @@
 {
-  "id": "BRUTE-ROOT-DISJUNCTION",
+  "id": "8241104a-77a0-5ebb-b112-f6857bdb659c",
+  "label": "For any selected actual world and fixed, rigid candidate-individual carrier: if the world contains…",
+  "legacy_id": "BRUTE-ROOT-DISJUNCTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BRUTE-ROOT-DISJUNCTION",
+  "conclusion_statement_id": "df62ec24-4a65-5030-8354-4aa08414ab74",
   "inference_ids": [
-    "INF-BRUTE-ROOT-DISJUNCTION"
+    "2de7d54c-85f3-5795-b704-f9f33b7460ba"
   ],
   "meaning": "Closed formal conditional partition: in the selected rigid-world semantics, no necessary concrete individual plus nonempty concrete reality requires either an actual contingent concrete root with no incoming ground from another actually existing concrete individual (brute only relative to this grounding relation, not shown absolutely unexplained) or non-well-foundedness of the selected world-local grounding relation over the whole candidate carrier (not identified with an infinite temporal past). Neither disjunct is independently ruled out; existential brute and existential absurdism are distinct.",
   "definition_ids": [
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

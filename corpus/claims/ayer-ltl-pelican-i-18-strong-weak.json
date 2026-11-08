@@ -1,15 +1,17 @@
 {
-  "id": "AYER-LTL-PELICAN-I-18-STRONG-WEAK",
-  "statement_id": "STMT-AYER-STRONG-AND-WEAK-VERIFIABILITY",
-  "source_id": "AYER-LTL-PELICAN",
+  "id": "89a07946-a362-51aa-9fc3-59b29934ec19",
+  "label": "A. J. Ayer, Language Ch: Ayer 1936: a proposition is verifiable in the strong sense if and only if…",
+  "legacy_id": "AYER-LTL-PELICAN-I-18-STRONG-WEAK",
+  "statement_id": "0d05ed0f-2ec5-59d9-bee5-9b49dda8c364",
+  "source_id": "1bbb77e6-62ac-5ee0-bbb4-0387b016e795",
   "locator": "ch. I, p. 18, \"A proposition is said to be verifiable, in the strong sense of the term, if, and only if, its truth could be conclusively established in experience.\"",
   "interpretation": "Ayer's distinction. The strong sense is what DEF-CONCLUSIVE-VERIFIABILITY types (a jointly possible finite set of observation statements entails the sentence); that typing of 'conclusively established in experience' is the analyst's.",
   "attribution": "The passage states that a proposition is strongly verifiable iff its truth could be conclusively established in experience and weakly verifiable if experience can render it probable, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

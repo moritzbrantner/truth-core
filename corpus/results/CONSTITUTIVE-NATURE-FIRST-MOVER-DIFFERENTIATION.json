@@ -1,6 +1,8 @@
 {
-  "id": "CONSTITUTIVE-NATURE-FIRST-MOVER-DIFFERENTIATION",
-  "argument_id": "CONSTITUTIVE-NATURE-FIRST-MOVER-DIFFERENTIATION",
+  "id": "d5ab9b25-a2c2-59a7-8c4d-79130b6dd991",
+  "label": "Two distinct first movers moved by none…, from Numerically different individuals cannot… and 4 more",
+  "legacy_id": "CONSTITUTIVE-NATURE-FIRST-MOVER-DIFFERENTIATION",
+  "argument_id": "08c74e03-579d-5992-8b1b-c578f121257a",
   "challenge_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.Solution",
   "theorem": "TruthCore.Results.Causality.ConstitutiveNatureUniqueness.differentiate",

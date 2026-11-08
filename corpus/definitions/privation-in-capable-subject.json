@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
+  "id": "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc",
+  "label": "Privation in a capable subject: Deprived x r: x lacks r in a way that is a privation, a lack in a…",
+  "legacy_id": "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
   "term": "privation in a capable subject (Deprived x r)",
   "definition": "Deprived x r: x lacks r in a way that is a privation, a lack in a subject apt to have r (steresis), not a mere negation. Example: the unshaped bronze lacks the statue's shape. Non-example: a number lacks a shape, but is not deprived of it. Structural properties: none built in; constrained only by STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION and STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE. In Lean a parameter Being -> Respect -> Prop.",
   "basis": "stipulative",

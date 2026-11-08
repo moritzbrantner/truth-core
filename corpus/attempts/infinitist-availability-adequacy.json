@@ -1,29 +1,31 @@
 {
-  "id": "ATTEMPT-INFINITIST-AVAILABILITY-ADEQUACY",
+  "id": "ef4894d3-355d-56f0-a400-9a98283a71c8",
+  "label": "Materialized and read the full Klein–Turri coauthored IEP article, repeated live bytes/text match",
+  "legacy_id": "ATTEMPT-INFINITIST-AVAILABILITY-ADEQUACY",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-KLEIN-TURRI-INFINITIST-NECESSARY-CONDITIONS",
-    "STMT-KLEIN-TURRI-REASON-ENHANCEMENT",
-    "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
-    "STMT-KLEIN-TURRI-AVAILABLE-REASONS",
-    "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
-    "STMT-KLEIN-TURRI-OPPOSED-CHAINS-CHALLENGE",
-    "STMT-KLEIN-TURRI-TRANSFER-ONLY-OBJECTION",
-    "STMT-REGRESS-SCHEMA-PACKAGE",
-    "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH"
+    "6e81d194-a8ed-55d2-95fb-657d8226cf20",
+    "13d24882-d20b-5c47-9d41-93441b9e8700",
+    "54255a4b-a301-58ad-a2ab-d379e0215d6d",
+    "88117977-1ea7-52bb-9398-94fd548da6d6",
+    "ad23230d-d1fd-5db2-b15f-035a874fda60",
+    "4222a24d-466a-5b60-b933-581454f7fb97",
+    "8d21e4af-7a17-5c6e-a834-ea5543be803a",
+    "85b7b6b8-eb34-59a6-8acd-79315ad253d6",
+    "b5810b6a-6394-5107-96a8-8ff56d0e7c1f"
   ],
   "kind": "source-search",
   "outcome": "succeeded",
   "summary": "Materialized and read the full Klein–Turri coauthored IEP article, repeated live bytes/text match. Recorded seven scoped readings and positive foundationalist/holistic/infinitist comparison in docs/notes/infinitist-justification-adequacy.md. The 1999 journal paper was a search lead, not a consulted passage; no journal-paper attribution is claimed. The source explicitly treats noncircularity/endlessness as necessary not jointly sufficient, distinguishes available reasons from actual infinite production and not-yet-reason-enhanced premises from wholly unjustified premises, restricts the enhancement/interrogation status and preserves proof-of-concept/opposed-chain/origin objections. Existing RegressSchema, Graph.grounded_eq_lfp and accessibilityAllowsUnboundedDepth already certify the structural controls; rejected duplicating a successor model or the arbitrary-finite-depth-versus-one-endless-chain control. No new theorem, contradiction of infinitism or causal/temporal transfer is claimed. Remaining blocker for an adequacy conclusion: independently defend the reasonhood/availability and transfer-or-generation norm, plus its actual applicability. Root premise delta none. A bounded 2024 Wayback fallback check produced a different selected text hash; it was not adopted as an equivalent witness.",
   "evidence": [
-    "KLEIN-TURRI-1-NECESSARY-CONDITIONS",
-    "KLEIN-TURRI-1-ENHANCEMENT",
-    "KLEIN-TURRI-3B-RESTRICTED-STATUS",
-    "KLEIN-TURRI-4A-AVAILABLE",
-    "KLEIN-TURRI-4B-PROOF-OF-CONCEPT",
-    "KLEIN-TURRI-4C-OPPOSED-CHAINS",
-    "KLEIN-TURRI-4D-ORIGIN-OBJECTION",
-    "REGRESS-SCHEMA-PACKAGE",
-    "REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH"
+    "ce507fea-aa94-54bf-8c58-87151aeb18fb",
+    "b082ea61-f9ce-5a3e-8c2b-76490df7d765",
+    "040a428d-cde5-56d8-b15e-d074250746e4",
+    "64d90b2a-16d6-5809-a6d9-04dbd6228a19",
+    "2a5f9150-0fd2-5fa0-8afe-8f0c6b3dd7fa",
+    "db980e60-f58d-5c86-a0e0-9edb59798500",
+    "3413f126-86cc-5a2d-9fa7-a15913ebf411",
+    "74e00870-e0d4-5467-8c09-a75b2a922ce5",
+    "c9da9c66-3a32-5d4a-84f4-9b70187ef1b9"
   ]
 }

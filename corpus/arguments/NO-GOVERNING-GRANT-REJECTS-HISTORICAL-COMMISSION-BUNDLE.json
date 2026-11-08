@@ -1,19 +1,21 @@
 {
-  "id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "id": "9dcd13c2-1065-5324-904b-916d4db13fab",
+  "label": "Exact negation of commission reports go back to…, from Jesus gave or promised none of the powers…",
+  "legacy_id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
   "premise_statement_ids": [
-    "STMT-NO-GOVERNING-GRANT"
+    "548d2c4e-c62f-5aad-af2f-58d2067ac64c"
   ],
-  "conclusion_statement_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "conclusion_statement_id": "a2deb7b1-b806-5875-af1f-b1635b0f51c2",
   "inference_ids": [
-    "INF-NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE"
+    "8fae82eb-1609-5ddf-81db-6f2d42e27594"
   ],
   "meaning": "The existing historical bundle supplies a governing grant, contradicting the universal absence of such grants. Matthew28 alone is not denied.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

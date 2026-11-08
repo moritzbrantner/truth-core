@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-SPACE-TRANSLATION-BOUNDARY",
+  "id": "05c7e8d0-3578-5a1d-a806-bdbd9329aa03",
+  "label": "Inventoried existing Newton, spatial, history-selection, criterion-factorization and…",
+  "legacy_id": "ATTEMPT-SPACE-TRANSLATION-BOUNDARY",
   "statement_ids": [
-    "STMT-SPACE-TRANSLATION-BOUNDARY",
-    "STMT-SPACE-AS-ORDER-OF-COEXISTENCE",
-    "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE",
-    "STMT-ALIKE-PLACES-MAY-BE-DISTINCT",
-    "STMT-VOLITION-MAY-SUFFICE-WITHOUT-EXTERNAL-SPATIAL-DIFFERENCE"
+    "90012868-1a8b-57d3-aac9-d6ddb80f8128",
+    "1f56b796-dd74-568f-8163-6a4ba8bc7443",
+    "7dd2af35-8ea3-53b8-ba7c-8993f96aad05",
+    "8b0aa573-2d31-5826-ba3f-385d83f429bc",
+    "81ec01fe-0050-5438-b309-1244471e6bed"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Inventoried existing Newton, spatial, history-selection, criterion-factorization and arrangement-dynamics content; no existing translation/covariance certificate matched. Materialized/read Leibniz ThirdPaper1–8 and Clarke ThirdReply1–8 from byte-pinned Newton Project1717 transcriptions; repeated historic archive copies match the selected text. Proved translation-orbit exactness for signed data, metric invariance, the inhabited fixed-point and covariant-selector obstruction, anchored normalization, a nondegenerate two-body control and empty-body control. Corrected two initial proof elaboration errors (metric lemma name and lambda parsing); frozen Challenge unchanged. Sources do not supply the analyst covariance norm; source-based reason/identity premises and both strongest positive replies remain independently open. Rejected unsigned-distance completeness, translation=physicalidentity and PSRalone→relationalism. Exact source locators, boundaries, open candidate and development binding persist in docs/notes/spatial-translation-and-reason.md. Root-premise delta none; final CI remains required.",
   "evidence": [
-    "SPACE-TRANSLATION-BOUNDARY"
+    "4e27fddd-212c-5c09-a2df-c05f4e740340"
   ]
 }

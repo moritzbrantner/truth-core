@@ -1,15 +1,17 @@
 {
-  "id": "CC100-7-EXPLANATION-NOT-CONTINGENT",
-  "statement_id": "STMT-CC100-7-EXPLANATION-NOT-CONTINGENT",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "5b4e30cf-2881-5f85-af95-25b05ab7231d",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The explanation under consideration of the contingent…",
+  "legacy_id": "CC100-7-EXPLANATION-NOT-CONTINGENT",
+  "statement_id": "de1e4a7d-a1dc-5c15-9546-b1dbc41c99ec",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.14, argument #7, step 4 referring to the explanation in step 3",
   "interpretation": "The source asserts this exclusion without its defense on the slide. Do not manufacture a proof by adding distribution, factivity, contingent self-explanation exclusion or necessitation. Under a factive necessitating reason reading, existing necessitating_reason_contingent instead makes a reason of a contingent fact contingent; that is a conditional semantic constraint, not a refutation of the slide or permission to strengthen its explanation relation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+    "2f2a31ee-4261-5d39-9f68-f43de4420290"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

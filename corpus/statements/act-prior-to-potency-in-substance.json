@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE",
+  "id": "d1258afa-b9f2-56e8-8ed0-7ae3512ac9d8",
+  "label": "Whatever is in POTENCY_1 in any respect has some being in act in that respect that is prior to it…",
+  "legacy_id": "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE",
   "paraphrase": "OPEN analyst premise (attribution deferred): whatever is in potency in any respect has some being in act in that respect that is prior to it in substance and perfection. Wider than the esse-restricted yield of ActPriorFromIncorruptibleFacts.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ActPriorInSubstance",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-PRIORITY-IN-SUBSTANCE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "21788f3f-80d3-5eb6-ad91-86a1a5077799"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

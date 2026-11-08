@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
+  "id": "a6232540-0d24-5ffb-86ae-32134169d6e3",
+  "label": "Scott's corollary C2: at every world a GOD_LIKE_5 being exists",
+  "legacy_id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
   "paraphrase": "Scott's corollary C2 (AFP GoedelGod.thy): at every world a God-like being exists.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikeActuallyExists",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

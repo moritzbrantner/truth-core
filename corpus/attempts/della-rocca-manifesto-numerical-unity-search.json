@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-DELLA-ROCCA-MANIFESTO-NUMERICAL-UNITY-SEARCH",
+  "id": "df92d311-28ac-5b68-a9a5-437c6ba575f8",
+  "label": "Followed the Della Rocca PSR p.6 n.9 lead to A Rationalist Manifesto: Spinoza and the Principle of\u2026",
+  "legacy_id": "ATTEMPT-DELLA-ROCCA-MANIFESTO-NUMERICAL-UNITY-SEARCH",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-TAPP-SHARED-SELF-POWER",
-    "STMT-ANSELM-COMMON-SELF-THROUGH",
-    "STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE"
+    "a08c44e9-b8b8-56f1-b622-b4aa5b550935",
+    "b3b28174-dab6-55e0-b510-eee9b04beb05",
+    "f5fd14f4-cc3b-5221-acd7-8bec0c1df9c0"
   ],
   "kind": "source-search",
   "outcome": "blocked",

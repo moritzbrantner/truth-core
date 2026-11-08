@@ -1,6 +1,8 @@
 {
-  "id": "NB-SURVEY-FIVE-TO-ONE",
-  "argument_id": "NB-SURVEY-FIVE-TO-ONE",
+  "id": "d8dd9de1-ccbe-5b56-897e-7c61a73a76d5",
+  "label": "It is possible for a cause to bring…, from It can be the case that some cause brings… and 1 more",
+  "legacy_id": "NB-SURVEY-FIVE-TO-ONE",
+  "argument_id": "5d3fab49-3705-5756-84db-1cb8b4be56b4",
   "challenge_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryBeingCountDescent.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryBeingCountDescent.fiveToOne",

@@ -1,18 +1,20 @@
 {
-  "id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
+  "id": "57da203d-7bd6-5a67-a704-231470a8ed02",
+  "label": "Inside Lean logic, ∧ ¬. A bounded conjunction of…, from Inside Lean logic, ¬. A logical theorem…",
+  "legacy_id": "PILOT-CONSEQUENCE-ENTAILS-CONJUNCTION",
   "premise_statement_ids": [
-    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+    "8efdfe70-cb76-575f-a13c-16a35cfb7c9e"
   ],
-  "conclusion_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "conclusion_statement_id": "06ff7c18-e729-507e-9678-5be8f7b9fa39",
   "inference_ids": [
-    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
-    "INF-PILOT-WITNESS-AND-CONSEQUENCE"
+    "43531889-7639-5aa7-976a-977e21db8f4c",
+    "8403ce2c-2cc9-50f7-8756-1e6d6bd7c6b4"
   ],
   "meaning": "The B → C bridge: recover a holding proposition from the supplied denial of universal failure using the imported pilot theorem, then pair that witness with the supplied premise. This is a logical conditional, not an independent ground for its premise.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

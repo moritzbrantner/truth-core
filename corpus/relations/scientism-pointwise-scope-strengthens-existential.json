@@ -1,10 +1,12 @@
 {
-  "id": "REL-SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "id": "a95c12e3-4da7-5875-989c-cc25face8044",
+  "label": "Every nonempirical established claim lies… strengthens If any nonempirical established claim…",
+  "legacy_id": "REL-SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
   "subject_kind": "statement",
-  "subject_id": "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE",
+  "subject_id": "eb89527e-a623-55f4-9363-3d1618311e5e",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
-  "verification_result_id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "object_id": "31cf9a3d-d80b-5f6a-920a-e515a246df53",
+  "verification_result_id": "5f4d05b7-b001-5383-bb5c-bf7485c1e21d",
   "note": "Exact checked one-premise coverage-strength implication; no premise is independently established. Strictness is retained in SCIENTISM-SCOPE-RIVAL-CONTROLS."
 }

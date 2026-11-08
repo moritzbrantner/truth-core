@@ -1,23 +1,25 @@
 {
-  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "id": "62d17953-9a3c-55c5-a5dc-982ac3490d5f",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every…, from active power",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
   "premise_statement_ids": [
-    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
-    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+    "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31"
   ],
-  "conclusion_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "conclusion_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
   "inference_ids": [
-    "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER"
+    "fb4dd90d-37d2-52fc-a697-873e5f2382e4"
   ],
   "meaning": "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
-    "DEF-POWER-CAPACITY-READING",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "acd05a1f-9ba3-5ed9-abd4-e748a1efce32",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

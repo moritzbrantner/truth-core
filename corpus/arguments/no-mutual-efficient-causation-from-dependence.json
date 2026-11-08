@@ -1,20 +1,22 @@
 {
-  "id": "NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "id": "ede78c78-fa4f-5907-a850-b930d176ba5e",
+  "label": "No two things efficiently cause each other, in any respects: if c efficiently…, from dependence",
+  "legacy_id": "NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
   "premise_statement_ids": [
-    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
-    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3"
   ],
-  "conclusion_statement_id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
+  "conclusion_statement_id": "0566122f-9b0c-5325-9d4c-335bcd7124e0",
   "inference_ids": [
-    "INF-NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE"
+    "bb1af2b8-9286-5bd8-8f70-bc20f4235be5"
   ],
   "meaning": "If c efficiently causes x and x efficiently caused c, then c would depend for its being on x (as x's effect) and not depend on x (as x's cause). Hence no two things efficiently cause each other in any respects.",
   "definition_ids": [
-    "DEF-DEPENDS-FOR-BEING",
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE"
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "f114f527-20e2-5997-8219-df7f0457cf63"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

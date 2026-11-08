@@ -1,12 +1,14 @@
 {
-  "id": "INF-GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "id": "cfbc102b-8206-5f5a-a2de-8ba17679a62a",
+  "label": "For every bearer and perfection in the fixed form/end profile, it is good…, by… (3)",
+  "legacy_id": "INF-GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
   "input_statement_ids": [
-    "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
-    "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
-    "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
-    "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+    "9108832f-0ef5-5036-8550-f405c7203ff4",
+    "40420659-5692-5b9c-ab26-36941f0a1a97",
+    "4c22019a-12c3-5cf6-adff-7288a3741e1a",
+    "50d8be94-f9c1-52af-bf43-fb2751915756"
   ],
-  "output_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "output_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
   "rule": "constructive-proof",
   "meaning": "Weaker conditional elimination reuses GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION on a singleton-admissibility restriction of the SAME proposal meanings at a supported correct witness. No global candidate classification or property identity is inferred.",
   "assumption_statement_ids": [],

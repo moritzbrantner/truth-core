@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-FACT-BOUNDARY",
+  "id": "1480288c-931a-5982-a9b8-1a6e8585d3f8",
+  "label": "Necessary explanatory fact for a…: NecessaryReasonForMember A a S means some fact r belongs to S…",
+  "legacy_id": "DEF-NECESSARY-FACT-BOUNDARY",
   "term": "necessary explanatory fact for a contingent account member",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.NecessaryFactBoundary.NecessaryReasonForMember",

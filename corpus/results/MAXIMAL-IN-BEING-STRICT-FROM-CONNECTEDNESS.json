@@ -1,7 +1,8 @@
 {
-  "id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "id": "847a7877-a421-5667-ad81-7b3d0a3e6fe0",
   "label": "Comparability in being makes a MAXIME_1 being MAXIME_3",
-  "argument_id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "legacy_id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS",
+  "argument_id": "c0be361f-bb29-50b3-8257-c013feb12fda",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximalInBeingIsStrictlyGreatest",

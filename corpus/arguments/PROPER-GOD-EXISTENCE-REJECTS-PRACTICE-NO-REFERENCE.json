@@ -1,22 +1,24 @@
 {
-  "id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
+  "id": "4b128de0-bfd3-57b1-b077-6b5da1f8a480",
+  "label": "The practice-use no-being thesis does not…, from For each being satisfying the selected… and 1 more",
+  "legacy_id": "PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE",
   "premise_statement_ids": [
-    "STMT-PROPER-REFERENCE-PRESERVED",
-    "STMT-GOD-EXISTS"
+    "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129"
   ],
-  "conclusion_statement_id": "STMT-PRACTICE-GOD-NO-REFERENCE-REJECTED",
+  "conclusion_statement_id": "3f1885a9-f067-5ef4-a21a-98f43ae5c83a",
   "inference_ids": [
-    "INF-PROPER-GOD-EXISTENCE-REJECTS-PRACTICE-NO-REFERENCE"
+    "e9608111-a8df-5375-a836-975db64856d0"
   ],
   "meaning": "Obtain an actual proper-God witness from the existing GodExists premise; transfer that very witness to practice reference, contradicting the raw practice no-reference thesis. Both existence and semantic transfer remain explicit and open.",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

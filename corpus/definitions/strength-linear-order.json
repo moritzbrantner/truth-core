@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRENGTH-LINEAR-ORDER",
+  "id": "27fc87cc-c230-5949-9460-c3ae4b4e1d25",
+  "label": "Mathematical linear order in the…: The supplied Mathlib LinearOrder α instance carries the…",
+  "legacy_id": "DEF-STRENGTH-LINEAR-ORDER",
   "term": "mathematical linear order in the strength-comparison fixture",
   "definition": "The supplied Mathlib LinearOrder α instance carries the ordinary ≤ and < laws, including reflexivity, antisymmetry, transitivity and totality. Strict x y is y > x, Weak x y is y ≥ x, Unequal x y is y ≠ x, and Equal x y is y = x. The same α, instance, x and y are shared across every certificate.",
   "basis": "stipulative",

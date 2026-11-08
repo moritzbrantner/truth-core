@@ -1,17 +1,19 @@
 {
-  "id": "STMT-NB-A9-REVISED-NONTRIVIAL-REDUCTIO",
+  "id": "9cd20eb9-ea62-5f7a-ad2f-6d762a206cf4",
+  "label": "In the revised must-exist context, with the source’s ordinary-to-nontrivial transfer and negative…",
+  "legacy_id": "STMT-NB-A9-REVISED-NONTRIVIAL-REDUCTIO",
   "paraphrase": "In the revised must-exist context, with the source’s ordinary-to-nontrivial transfer and negative NT report retained conditionally, the source repeats its eight-step reasoning: no possible Necessary Being gives hypothetical concrete-to-contingent ordinary entailment; the cross-kind report yields NT(concrete-and-necessary,contingent), contradicting the selected negative report. The hypothesis remains through1–6 and only7–8 discharges possibility. The generic revisit/keep invitation establishes no specific reaffirmation or actual retention, and no uniform revised-class substitution or complete NT/modal semantics is selected. This attributed revised-context reductio is not source soundness, a positive NT-to-noncontingency claim, actual/rigid necessary existence or a new causal premise.",
   "definition_ids": [
-    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abb6f562-d2b2-5b75-8e80-22a6344cc3b6",
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

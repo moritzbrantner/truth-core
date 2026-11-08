@@ -1,11 +1,13 @@
 {
-  "id": "DEF-SUPREMELY-GOOD",
+  "id": "58e0de99-6199-5851-8e03-381bca0d44f0",
+  "label": "Supremely good: Supreme goodness is goodness in the most excellent mode, as the first…",
+  "legacy_id": "DEF-SUPREMELY-GOOD",
   "term": "supremely good (summum bonum; Lean `IsSupremelyGood`)",
   "definition": "Supreme goodness is goodness in the most excellent mode, as the first, non-univocal cause from which all desired perfections flow (ST I q.6 a.2). Goodness itself adds desirability to being in act (DEF-GOOD-AS-BEING-IN-ACT). The case predicate IsSupremelyGood is the conjunction GoodIn g esse and CausesEveryPerfectionOfOthers InAct CausesIn g (DEF-CAUSE-OF-PERFECTION).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q5-A1-GOOD-SAME-AS-BEING",
-    "AQUINAS-ST-I-Q6-A2-PERFECTIONS-FLOW-FROM-FIRST-CAUSE"
+    "366d4218-398c-57a6-b718-49eb0a93074b",
+    "51d88a8e-f6db-59ba-86ca-43fae01c0bc5"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.IsSupremelyGood",
   "note": "The sourced sense motivates this case conjunction; Aquinas does not state that conjunction of abstract predicates as a definition. The case must interpret GoodIn and CausesIn accordingly; no new axiom is supplied here."

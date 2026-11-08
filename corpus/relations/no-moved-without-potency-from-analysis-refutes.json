@@ -1,9 +1,11 @@
 {
-  "id": "REL-NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS-REFUTES",
+  "id": "39e2e5f2-de8f-5c16-9f98-79a82942b4e9",
+  "label": "Negation of the Ash'arite rival moved… refutes Ash'arite occasionalist rival: things are…",
+  "legacy_id": "REL-NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS-REFUTES",
   "subject_kind": "argument",
-  "subject_id": "NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS",
+  "subject_id": "61d691f0-260c-5774-b1c1-ce0d83ef8dcb",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-MOVED-WITHOUT-POTENCY",
+  "object_id": "c2307406-009c-56ad-ba01-0025eeb27a7d",
   "note": "Checked conditional contradiction on the same predicates. Its premise, an Aristotelian analysis, is open, so it does not count for closure; it records that the rival must reject that analysis."
 }

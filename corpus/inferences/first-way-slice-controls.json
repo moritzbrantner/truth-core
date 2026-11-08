@@ -1,7 +1,9 @@
 {
-  "id": "INF-FIRST-WAY-SLICE-CONTROLS",
+  "id": "54f9239b-54eb-533f-8342-0da6ef6c03ac",
+  "label": "A universal conditional: under StrictForward, the link bridge…, by Explicit-model-and-theorem-co…",
+  "legacy_id": "INF-FIRST-WAY-SLICE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FIRST-WAY-SLICE-CONTROLS",
+  "output_statement_id": "3f806153-169f-5a0f-8671-7b15c26c9d11",
   "rule": "explicit-model-and-theorem-composition",
   "meaning": "Prove the conditional conflict from the strict-horn no-link lemma and check each of the four models by its definitions. The models are separate; none is a single world containing every profile.",
   "assumption_statement_ids": [],

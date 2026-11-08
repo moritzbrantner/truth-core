@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SUBSTRATUM-PRIOR-TO-CONTRARY-PREDICATES",
+  "id": "fb21c2c9-ed38-5ff5-8dcf-71806d98c76f",
+  "label": "If the contraries are predicated of a substratum, that substratum is prior to those predicates and…",
+  "legacy_id": "STMT-SUBSTRATUM-PRIOR-TO-CONTRARY-PREDICATES",
   "paraphrase": "If the contraries are predicated of a substratum, that substratum is prior to those predicates and is itself a principle.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SubstratumPriorToContraryPredicatesReading"
 }

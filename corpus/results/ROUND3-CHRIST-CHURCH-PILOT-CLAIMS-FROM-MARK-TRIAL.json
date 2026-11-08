@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
-  "argument_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+  "id": "d7ef26e1-1418-5db3-92e8-1ccbca3d90aa",
+  "label": "Jesus claimed divine authority in the existing case signature; the Gospel report…, from mark trial",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+  "argument_id": "dedaab0a-af73-5094-be80-c1aa84d8b433",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.pilotClaimsFromMarkTrial",

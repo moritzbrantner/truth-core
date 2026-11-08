@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-115-COMPARATIVE-INTELLIGIBILITY-EVIDENCE",
+  "id": "a529caff-85ac-585c-9e7d-3d63c1bf41f1",
+  "label": "Under the preceding aetiological and normative commitments, the intelligibility intuition is…",
+  "legacy_id": "STMT-CC100-115-COMPARATIVE-INTELLIGIBILITY-EVIDENCE",
   "paraphrase": "Under the preceding aetiological and normative commitments, the intelligibility intuition is evidence for theism over naturalism.",
   "definition_ids": [
-    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+    "c54f91c6-f3d4-5443-8308-58f92635e79d"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

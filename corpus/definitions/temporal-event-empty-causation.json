@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION",
+  "id": "f664912c-6ae4-53d2-ae52-e2529a815a74",
+  "label": "Empty causal relation on integer event…: IndependentCauses x y is False for all integers x,y",
+  "legacy_id": "DEF-TEMPORAL-EVENT-EMPTY-CAUSATION",
   "term": "empty causal relation on integer event times",
   "definition": "independentCauses x y is False for all integers x,y. It is separate from the usual temporal precedence relation x < y; unbounded temporal precedence therefore does not imply a descending independentCauses series.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
-  "argument_id": "AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "id": "a65fe9cd-cc25-56c7-bdad-043bf0de5792",
+  "label": "The PARTICULAR target b is not ContingentAt…, from Reuse Groups as a token record, with… and 3 more",
+  "legacy_id": "AUTONOMOUS-GROUND-TARGET-NOT-CONTINGENT",
+  "argument_id": "1c202ab4-d6bb-5f64-a16e-3cb0bc30e8f9",
   "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution",
   "theorem": "TruthCore.Results.Explanation.AutonomousGroundNecessity.targetNotContingent",

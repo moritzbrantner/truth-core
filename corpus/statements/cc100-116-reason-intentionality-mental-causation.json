@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
+  "id": "45d46cbf-0d36-5c3c-85bb-8685d895c2f1",
+  "label": "Reason involves intentionality and mental causation",
+  "legacy_id": "STMT-CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
   "paraphrase": "Reason involves intentionality and mental causation.",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

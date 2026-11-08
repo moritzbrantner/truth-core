@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I42-COMPLETING-DISTINCTION-FORK",
-  "statement_id": "STMT-AQUINAS-SCG-I42-COMPLETING-DISTINCTION-FORK",
-  "source_id": "AQUINAS-SCG",
+  "id": "2229fab3-f9a5-557a-86c9-066a9819bd3a",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: A distinguishing feature required to complete…",
+  "legacy_id": "AQUINAS-SCG-I42-COMPLETING-DISTINCTION-FORK",
+  "statement_id": "10520e39-f6ca-5301-a4de-88a7d21149f7",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [10], continuing the hypothesis of [9]",
   "interpretation": "Preserve included-in-nature versus specific-actuation alternatives and both stated objections. The source distinguishes genus-character from actual specification; it does not independently demonstrate exhaustion against every primitive whole-essence rival. Quiddity/being identity and acquisition-from-another are substantive source premises, not merely represented-map equality or the old three-horn root proxy. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

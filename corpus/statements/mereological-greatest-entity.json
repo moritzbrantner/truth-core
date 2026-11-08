@@ -1,10 +1,12 @@
 {
-  "id": "STMT-MEREOLOGICAL-GREATEST-ENTITY",
+  "id": "8460e867-8d7c-52b8-a69b-9ead0d8f46e3",
+  "label": "Some candidate in the supplied fixed partial order contains every candidate",
+  "legacy_id": "STMT-MEREOLOGICAL-GREATEST-ENTITY",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.GreatestEntity",
   "paraphrase": "Some candidate in the supplied fixed partial order contains every candidate. This is greatestness in that carrier, without ontological, modal, causal or grounding significance.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-AXIOM-COMPARISON"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "93b2805e-b8d8-56d2-bbfd-91d440ab9ba0"
   ]
 }

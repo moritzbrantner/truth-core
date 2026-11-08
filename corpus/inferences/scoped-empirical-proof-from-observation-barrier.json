@@ -1,9 +1,11 @@
 {
-  "id": "INF-SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "id": "416cf6f1-8a1e-5f5f-8cac-6ff968017699",
+  "label": "No target in the independently supplied scope has a finite satisfiable…, by Constructive-proof",
+  "legacy_id": "INF-SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
   "input_statement_ids": [
-    "STMT-EMPIRICAL-PROOF-SCOPED-BARRIER"
+    "4c77d030-56e2-5a68-95aa-3638d5317d15"
   ],
-  "output_statement_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "output_statement_id": "102172a9-d6ae-5370-a0c8-f1c3437cef1e",
   "rule": "constructive-proof",
   "meaning": "The explicit scoped structural barrier blocks the existing finite-observation proof standard. The imported helper specializes a proposed proof at a satisfiable observation world, then transfers all its observations to a target-false alternative. This is not general theological impossibility.",
   "assumption_statement_ids": [],

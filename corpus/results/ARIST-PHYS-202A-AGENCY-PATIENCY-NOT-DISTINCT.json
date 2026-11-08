@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
-  "argument_id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
+  "id": "71332779-cd10-54d3-9b3b-81436afc335b",
+  "label": "Agency and patiency are not two…, from If agency and patiency were two distinct… and 1 more",
+  "legacy_id": "ARIST-PHYS-202A-AGENCY-PATIENCY-NOT-DISTINCT",
+  "argument_id": "0b580e25-a33a-5691-b89e-2d03df1907ce",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.AgencyPatiency.agencyPatiencyNotDistinctMotions",

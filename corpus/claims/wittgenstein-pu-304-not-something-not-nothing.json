@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-PU-304-NOT-SOMETHING-NOT-NOTHING",
-  "statement_id": "STMT-PU-SENSATION-NOT-SOMETHING-NOT-NOTHING",
-  "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+  "id": "91a59acc-6f04-5ba9-b24d-08c74c840690",
+  "label": "Ludwig Wittgenstein, Philosophische…: PU §304: the sensation is not a something, but not a nothing…",
+  "legacy_id": "WITTGENSTEIN-PU-304-NOT-SOMETHING-NOT-NOTHING",
+  "statement_id": "a587c03c-3ee5-5b6c-ad37-ea93ee853649",
+  "source_id": "f37d35cc-4070-54d0-a686-2f6998f9a346",
   "locator": "§304, Sie ist kein Etwas, aber auch nicht ein Nichts",
   "interpretation": "§304: to the objection that he concludes the sensation itself is a nothing: 'Nicht doch. Sie ist kein Etwas, aber auch nicht ein Nichts! Das Ergebnis war nur, daß ein Nichts die gleichen Dienste täte wie ein Etwas, worüber sich nichts aussagen läßt. Wir verwarfen nur die Grammatik, die sich uns hier aufdrängen will.' He grants the difference between pain-behaviour with and without pain ('Welcher Unterschied könnte größer sein!').",
   "status": "formalized",

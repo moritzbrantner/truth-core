@@ -1,7 +1,9 @@
 {
-  "id": "INF-COMPLETE-RESPONSE-PARITY",
+  "id": "c8bc2219-38e4-532e-8aa0-e2a31b3f7a31",
+  "label": "Two supplied Boolean-scenario Exercises have identical occurrence tables…, by Explicit Bool-pair…",
+  "legacy_id": "INF-COMPLETE-RESPONSE-PARITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COMPLETE-RESPONSE-PARITY",
+  "output_statement_id": "e786c1ed-75b5-558a-8a91-64b2b54f4a56",
   "rule": "Explicit Bool-pair countermodel with finite case analysis, inherited #744 ancestry and #735 plural structure",
   "meaning": "An explicit strengthened single source has scenario-sufficient root-to-input and input-to-effect records. The existing plural model has the same public response and every record jointly sufficient, but no common input source and no least graph event. Constructive witnesses and counterexample scenarios establish the difference without assuming that record sufficiency is genuine causal production.",
   "assumption_statement_ids": [],

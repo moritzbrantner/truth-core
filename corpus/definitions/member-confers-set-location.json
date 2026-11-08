@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEMBER-CONFERS-SET-LOCATION",
+  "id": "d9c0e27f-e5b0-5cda-bdfb-bd20a4233f64",
+  "label": "Forward propagation of a represented\u2026: For represented sets s,t and a region r, actual\u2026",
+  "legacy_id": "DEF-MEMBER-CONFERS-SET-LOCATION",
   "term": "forward propagation of a represented member location",
   "definition": "For represented sets s,t and a region r, actual decode(t)\u2208decode(s) plus location of t at r implies location of s at r. This gives no converse and imposes no restriction at an empty-set representative. The populated Controls retain this forward rule while an existing empty-set representative is located and reverse support is false.",
   "basis": "stipulative",

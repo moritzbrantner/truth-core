@@ -1,6 +1,8 @@
 {
-  "id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
-  "argument_id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "id": "d92c62db-4438-53b9-b285-77174f1b8f70",
+  "label": "Each GOD_4 candidate with…, from Stronger open analyst calibration: on each…",
+  "legacy_id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "argument_id": "f4ccd3f5-07ca-58c8-bebe-ee0fed7053f7",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Strength.calibrationRealizes",

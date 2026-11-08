@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-MAPS-BATCH1-CONTROLS",
-  "argument_id": "CAUSAL-MAPS-BATCH1-CONTROLS",
+  "id": "86d080aa-4c6e-5f85-a86e-333c805d0093",
+  "label": "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other…",
+  "legacy_id": "CAUSAL-MAPS-BATCH1-CONTROLS",
+  "argument_id": "b025cac5-b3c6-5574-9757-ccf21ebb3717",
   "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.controls",

@@ -4,14 +4,16 @@
     "retrieved_at": "2026-11-05T19:53:26Z",
     "sha256": "sha256:18b71a159e804a14b623135ed5af4b9900976ed9b455b983fa2c83944fff6c3d",
     "kind": "web_snapshot",
-    "source_id": "TROGDON-GROUNDING-NECESSARY-2013",
+    "source_id": "0eaaae74-045f-5b97-ad0e-04474ea2b897",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Author-hosted published article; copyright2013 author/Wiley; public author copy, analytical paraphrases only."
   },
   "passages": [
     {
-      "id": "TROGDON-GROUNDING-NECESSARY-2013-ARTICLE",
+      "id": "24505ad7-573e-5d91-b084-cb9efb826545",
+      "label": "Kelly Trogdon, Grounding, Grounding: Necessary or Contingent?, complete supplied PDF…",
+      "legacy_id": "TROGDON-GROUNDING-NECESSARY-2013-ARTICLE",
       "locator": "Grounding: Necessary or Contingent?, complete supplied PDF including front matter and references",
       "claim_locator_prefixes": [
         "PDF p."

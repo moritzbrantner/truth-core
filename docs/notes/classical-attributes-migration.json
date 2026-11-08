@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "title": "Classical attribute assembly: bounded audit",
-  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+  "result_id": "a3b1cdba-0ab0-5e12-bca0-150028e68f6f",
   "base_head": "3cd9545a75c975314ea9ebd146d9757bbb754158",
-  "root": "STMT-CATHOLICISM-TRUE",
-  "designated_route": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "root": "53964cbe-5831-5812-af33-4d87896d47a7",
+  "designated_route": "3b0f4fa5-b147-557f-b169-dd789ce9b8c8",
   "route_costs_before": [
     31,
     32,
@@ -19,7 +19,7 @@
   "records": [
     {
       "kind": "results",
-      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+      "id": "a3b1cdba-0ab0-5e12-bca0-150028e68f6f",
       "path": "corpus/results/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES.json",
       "status": "repaired",
       "classification": "defect",
@@ -28,11 +28,11 @@
         "sha256": "8135903d72d59bf01063e5280c43e1380856c6725ee09d0b69b5668090f2eb77",
         "lean_declaration": null
       },
-      "reviewed_sha256": "8135903d72d59bf01063e5280c43e1380856c6725ee09d0b69b5668090f2eb77"
+      "reviewed_sha256": "2ffdb34e852e2975943b1e8de440d75fb547a729b259733e325ccecba38e0806"
     },
     {
       "kind": "arguments",
-      "id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+      "id": "1f42ffcd-1679-5db2-8df8-3d9bc005e7da",
       "path": "corpus/arguments/CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES.json",
       "status": "repaired",
       "classification": "defect",
@@ -42,11 +42,11 @@
         "lean_declaration": null,
         "prose": "Stage 2 (owner decision on #143, 2026-10-24, option (a)): the skeleton's open premise STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES, derived. The definitional bridge (Dei Filius ch. 1) lists nine attributes. Four are derived for whatever is God through its being maximal in being: one, simple, perfect, supremely good (CATHOLICISM-STAGE2-GOD-IS-ONE, -SIMPLE, -PERFECT, -SUPREMELY-GOOD, imported). The other five (infinite, immutable, eternal, intellect, will) are open premises, each supported by Dei Filius ch. 1, until their groups (ST I qq.7, 9, 10, 14, 19) are derived."
       },
-      "reviewed_sha256": "3ea831e5b2a2ce190dcca50d7939e05e1bd7eb5e029ced694f9c7305c8694c65"
+      "reviewed_sha256": "4b44314c4156ff495602a423188e64ca718027b447df282508ff65a1eb944263"
     },
     {
       "kind": "statements",
-      "id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+      "id": "7067553d-cad9-5d79-b6b2-912e35051530",
       "path": "corpus/statements/actuality-only-insofar-as-being.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -55,11 +55,11 @@
         "sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
       },
-      "reviewed_sha256": "75848f8e27015c87cd2e85edb98130a6765c434222e3abf23412c353b36eb75f"
+      "reviewed_sha256": "553e74ad31e39cb2b3366dfdc8fce91e122febf3a7458b98b631825a9e681576"
     },
     {
       "kind": "statements",
-      "id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "id": "5a594b1e-09b6-592c-862d-473874a6c49c",
       "path": "corpus/statements/at-most-one-maximum-in-being.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -68,11 +68,11 @@
         "sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be",
         "lean_declaration": "TruthCore.Case.Catholicism.AtMostOneMaximeEns"
       },
-      "reviewed_sha256": "669475f70f6608293ef50eda82c75329074e797c2ff6dd3e8800d7e7f42004be"
+      "reviewed_sha256": "43443fed7255305718efbfd098bf0215caeab50bee3c3e1f08bd8ca78ddc4adb"
     },
     {
       "kind": "statements",
-      "id": "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
+      "id": "f8ba2429-b4f1-5712-a4d3-798213963d34",
       "path": "corpus/statements/cause-of-being-causes-every-perfection.json",
       "status": "unresolved",
       "classification": "open_premise",
@@ -81,11 +81,11 @@
         "sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618",
         "lean_declaration": "TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection"
       },
-      "reviewed_sha256": "a0074f911e6012ce959c0b8d496eb825a063025bfefbabfb695ea04b3a4d5618"
+      "reviewed_sha256": "95dbbd68b9c7c136640846a7316a704b7d3e5011225db1218c68d43f1349ce38"
     },
     {
       "kind": "statements",
-      "id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
       "path": "corpus/statements/cause-of-quality-in-another-is-more-such.json",
       "status": "unresolved",
       "classification": "open_premise",
@@ -94,11 +94,11 @@
         "sha256": "9836e1565f01771addf65bedbaecfee5fc62836653a9814a5b6f6e373d09172a",
         "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading"
       },
-      "reviewed_sha256": "ad22d5713f374ca7e1615ea846f2098d54284fdb26e62bd2d0b7a1cd8f5322a2"
+      "reviewed_sha256": "abaca0b7190fa18d30244c57000bf9f5142d76d3c20feae2cb8ec88a49796852"
     },
     {
       "kind": "statements",
-      "id": "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
+      "id": "818a73cc-249d-5f9b-9c34-aee1f2cbf333",
       "path": "corpus/statements/classical-attributes-suffice.json",
       "status": "repaired",
       "classification": "defect",
@@ -108,11 +108,11 @@
         "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
         "prose": "Open definitional bridge: a being that is simple, perfect, good, one, infinite, immutable, eternal, and has intellect and will has the classical divine attributes (the skeleton's HasClassicalAttributes), after Dei Filius ch. 1."
       },
-      "reviewed_sha256": "a88ef716a10713d32564d6b67532581cd3c82c2f219cee2b5c96198bcc33607f"
+      "reviewed_sha256": "417e629c16230efdd9d748d6a7fba524a1171e6dc51dca56c8a9ce388a999ba2"
     },
     {
       "kind": "statements",
-      "id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+      "id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
       "path": "corpus/statements/composite-has-a-uniting-cause.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -121,24 +121,24 @@
         "sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading"
       },
-      "reviewed_sha256": "2a469927428ccca8598228d6bd6776da04292daa07b501be48c0d7bc628f7991"
+      "reviewed_sha256": "636269b382a997ecb56707fc9ace215cff7eee00adf09b8323572ed213a580f3"
     },
     {
       "kind": "statements",
-      "id": "STMT-EXCLUDED-MIDDLE",
+      "id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
       "path": "corpus/statements/excluded-middle.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM.",
+      "finding": "Reviewed scope metadata correction: object-level ExcludedMiddle declaration and legacy floor basis/justification remain unchanged. The serious withholding position targets universal assertion; exact analyst global negation remains an unrefuted logical rival. Disagreement metadata includes that complement. Focused actual-record regression prevents floor-removal from turning instance-denial refutation into proof of global EM. 2026-11-08 type audit: excluded-middle statement links the existing p ∨ ¬p definition instead of administrative self-evident marking; its proposition, binding and self_evident status are unchanged.",
       "before": {
         "sha256": "279edc03ac8141e2a580cefd9c9998f4dd260565e154c5856b4735abdda3eaa8",
         "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
       },
-      "reviewed_sha256": "852c967c753f4095ad19e84aa864325d4fcadda8c079b4e26da54e62110d46a8"
+      "reviewed_sha256": "2c5e512b6bf360c3c5c2842af7966ff43dd14a438d707b8c560b38272696ab79"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
+      "id": "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5",
       "path": "corpus/statements/god-has-classical-divine-attributes.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -147,11 +147,11 @@
         "sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasClassicalAttributes"
       },
-      "reviewed_sha256": "360ff5ab30ca29c81f8bbc62c8eee4f47bb55a6caf7d8a0fba76c753f1ef91ae"
+      "reviewed_sha256": "73924d847a61c6b551dc2d5bb612b1391a50bb7fc357094ef0cc855164151226"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-HAS-INTELLECT",
+      "id": "29818edd-9f5a-5414-baa2-9a7d0c8abf18",
       "path": "corpus/statements/god-has-intellect.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -160,11 +160,11 @@
         "sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
       },
-      "reviewed_sha256": "d5f642702b650ce2a11b65d5a2cd7d9db77062ee974e9f2a39ee335fca79ae29"
+      "reviewed_sha256": "8d17e7c24ce7bf66f87bc4e2c946305eae7363da8931bab5bde55ddfa1b50bb1"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-HAS-WILL",
+      "id": "66aecdd7-ea4e-55c6-9377-10db08893854",
       "path": "corpus/statements/god-has-will.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -173,11 +173,11 @@
         "sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
       },
-      "reviewed_sha256": "a42d8008d99a6abd0703f6c8319f77e746fb5788ed432e9db8c8b3b6f44e5309"
+      "reviewed_sha256": "10c3c78c362cc7a47b4d97238a43539c7a1d6343fa34f8630ef997b19c296b36"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-ETERNAL",
+      "id": "5bec93b3-9950-5e46-b243-cf5a4658b929",
       "path": "corpus/statements/god-is-eternal.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -186,11 +186,11 @@
         "sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
       },
-      "reviewed_sha256": "c1e64fde63395355d1c978140a85be20cb1aaa6676a64667518a23a5407e88af"
+      "reviewed_sha256": "2dba6f3648051bfddcb07c09947d9bf8973491f14a00853f48ffaf74d7fd3ee4"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-IMMUTABLE",
+      "id": "fb3802a8-d04c-5486-95a5-b7ab57857396",
       "path": "corpus/statements/god-is-immutable.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -199,11 +199,11 @@
         "sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsImmutable"
       },
-      "reviewed_sha256": "d4a57bf8e468f0103a05f4c6ae39269894899360acd903ba77057b2f784cb195"
+      "reviewed_sha256": "1db6f4608e643d10d20292b1684d02598453bd50abaebad6190ba0b205fa1a64"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-INFINITE",
+      "id": "b0132989-4810-58d9-8aa3-1c9c7a0dfa28",
       "path": "corpus/statements/god-is-infinite.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -212,11 +212,11 @@
         "sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
       },
-      "reviewed_sha256": "9a21c208a45aa3ae96dbff62550ca2ad4af069a6627f40363444eaad8547cd2b"
+      "reviewed_sha256": "b6f6679a0261c8749b987fd4e6051dc1cd4fb30e0ab442ce48f0710a6bdaf623"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-MAXIMAL-IN-BEING",
+      "id": "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
       "path": "corpus/statements/god-is-maximal-in-being.json",
       "status": "unresolved",
       "classification": "open_premise",
@@ -225,11 +225,11 @@
         "sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsMaximalInBeing"
       },
-      "reviewed_sha256": "1071a299a57acadb846854d6e6b6deea7061d02424f5f0d1cd4066e162ac40e3"
+      "reviewed_sha256": "2df0911959240a3c61e10a4f3fabe2ae6e11d6fd417515de603c0e75228fb2ca"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-ONE",
+      "id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
       "path": "corpus/statements/god-is-one.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -238,11 +238,11 @@
         "sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsOne"
       },
-      "reviewed_sha256": "d1f724ffea3003fa76047a7c5b50728fc95e55ae59244759e68c49bb28c39f72"
+      "reviewed_sha256": "f2b0189b13ed7d5bd34ab8900fe024575c9d6c382986036a919a69b28815623b"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-PERFECT",
+      "id": "2639f425-3d52-5ad9-bf03-12dd6d312804",
       "path": "corpus/statements/god-is-perfect.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -251,11 +251,11 @@
         "sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsPerfect"
       },
-      "reviewed_sha256": "4849f338a1fae9a3932504de22a38a2a0d6d678a7db421fc932c67d5d231bdf2"
+      "reviewed_sha256": "a737f50a2c99d76f1eeffcd5029f027b112b6b0502c55c55c8ee70982c83e099"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-SIMPLE",
+      "id": "9f4e5f17-e808-5c58-9eac-faacbb5c3a56",
       "path": "corpus/statements/god-is-simple.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -264,11 +264,11 @@
         "sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsSimple"
       },
-      "reviewed_sha256": "9a4fa4ab2ae8d80e7d9940ff49440dc2c1f6ea38f61ff0536551b0d4f38ba073"
+      "reviewed_sha256": "85c19283db687e608b0290d8cce937a50227621eed1e002ffa16a5d26e8edf9f"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOD-IS-SUPREMELY-GOOD",
+      "id": "e0dae79f-c042-5a08-a148-725d0468df91",
       "path": "corpus/statements/god-is-supremely-good.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -277,11 +277,11 @@
         "sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsSupremelyGood"
       },
-      "reviewed_sha256": "e3456da737bbbfa4978ba4d9acedd376dffe2a547d4cb9f0308a43040e0c43d7"
+      "reviewed_sha256": "f51249f000d8327209d6cbf8efe9e32856d221f5e85c9aa50f0259bbeb33306f"
     },
     {
       "kind": "statements",
-      "id": "STMT-GOODNESS-IS-ACTUALITY",
+      "id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
       "path": "corpus/statements/goodness-is-actuality.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -290,11 +290,11 @@
         "sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
       },
-      "reviewed_sha256": "d95e2195ff117c139f461af626e412bb61cd0bca4974cffdca876c0c73fa8bde"
+      "reviewed_sha256": "0bfb9e85a9f803078c0991c47dd614a360da8c165664bf74384ccbf5a74796f7"
     },
     {
       "kind": "statements",
-      "id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
       "path": "corpus/statements/maximum-in-genus-causes-all-in-genus.json",
       "status": "inspected",
       "classification": "open_premise",
@@ -303,11 +303,11 @@
         "sha256": "ed7c18f7fb990f68e527ac79ea76f2b5825087d76d44f8cc2ff2e053a42d1568",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
       },
-      "reviewed_sha256": "104b2ecb366125fef36c7e0fd0284c56c9043b8db42e482365128d2f7afb33da"
+      "reviewed_sha256": "52d91593b01896e9e4a3b35396742fcb5edfac1a738c9ec07db6f22fca92da04"
     },
     {
       "kind": "statements",
-      "id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+      "id": "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
       "path": "corpus/statements/perfections-of-effect-preexist-in-cause.json",
       "status": "repaired",
       "classification": "open_premise",
@@ -316,11 +316,11 @@
         "sha256": "9e4dd8b0d9199500efb3c4cb58f1b9a0109121a0b97cd46a1b3d52c3b227d3b0",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading"
       },
-      "reviewed_sha256": "3bb8352f5976cc00dc80fdeee788c44735c931d77bdad7f13a15ce80de577b1b"
+      "reviewed_sha256": "9564e24560ab1f55e55cf87e0ab882eea1ec6aba327de7db0038487c541b9b12"
     },
     {
       "kind": "inferences",
-      "id": "INF-AQUINAS-AT-MOST-ONE-MAXIME-ENS",
+      "id": "70eb6de6-f794-581e-b1c0-b08393d20683",
       "path": "corpus/inferences/aquinas-at-most-one-maxime-ens.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -329,11 +329,11 @@
         "sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897",
         "lean_declaration": null
       },
-      "reviewed_sha256": "8d99c6505f76d4848058b37b977ab21d64ff4c1e6c012610db204266837e2897"
+      "reviewed_sha256": "ea503be9ea52ee43f69858bd64908910e68b818c8aec9be2685cfad51169105c"
     },
     {
       "kind": "inferences",
-      "id": "INF-STAGE2-CLASSICAL-ATTRIBUTES",
+      "id": "7a33d6c5-fdd5-56a4-b760-2ecb90f54c35",
       "path": "corpus/inferences/stage2-classical-attributes.json",
       "status": "repaired",
       "classification": "defect",
@@ -343,11 +343,11 @@
         "lean_declaration": null,
         "prose": "Whatever is God has the nine attributes the definitional bridge lists, so it has the classical attributes."
       },
-      "reviewed_sha256": "b301225d2c365b418d9f4bbf060ea49923b0a32cc3093ff03c67d45069d4fee2"
+      "reviewed_sha256": "26ada7c89e0988eb52558d7654f4f3c1e10bfca110c3560f6813b0044f6be5a2"
     },
     {
       "kind": "inferences",
-      "id": "INF-STAGE2-GOD-IS-ONE",
+      "id": "af387ce9-5de5-5263-8e60-bbef0c8caf63",
       "path": "corpus/inferences/stage2-god-is-one.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -356,11 +356,11 @@
         "sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a183bbd3e59c170d9f435f27f20bb24cd54775b77ee1eeb5b4a75b3c98b1cafa"
+      "reviewed_sha256": "ff52dfe74542456414bde2a6c1b85edce228a91e55eff4d9d4e2d998af58ebf2"
     },
     {
       "kind": "inferences",
-      "id": "INF-STAGE2-GOD-IS-PERFECT",
+      "id": "815a0023-d253-5290-97a3-ec0838207a8b",
       "path": "corpus/inferences/stage2-god-is-perfect.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -369,11 +369,11 @@
         "sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d",
         "lean_declaration": null
       },
-      "reviewed_sha256": "682742d1c183286e5481283f80cc4e5634d958d7cc017fe83479424a1b984b3d"
+      "reviewed_sha256": "77d1fa8f85739256c0d4c789d7ff1cf49a6e85fae0abca07b28152e6d7e21ff9"
     },
     {
       "kind": "inferences",
-      "id": "INF-STAGE2-GOD-IS-SIMPLE",
+      "id": "d0bc83da-bc60-556d-87c2-2ca3ad1d7f55",
       "path": "corpus/inferences/stage2-god-is-simple.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -382,11 +382,11 @@
         "sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a",
         "lean_declaration": null
       },
-      "reviewed_sha256": "f543f8863a04d9930c057a007038a0292828db7c033bc24d61499602319dda6a"
+      "reviewed_sha256": "a7a65e8abb5af9036daad0d2eca0937c722d2628ea9c1b8df2197d842db062da"
     },
     {
       "kind": "inferences",
-      "id": "INF-STAGE2-GOD-IS-SUPREMELY-GOOD",
+      "id": "3b25adba-0b3d-58fd-b8d0-da717414afbc",
       "path": "corpus/inferences/stage2-god-is-supremely-good.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -395,11 +395,11 @@
         "sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "c4322a234bb460df9f882f8259283f6cecd2b4d40570768c27e5b1a270dcc4e2"
+      "reviewed_sha256": "313bf20e1509cc4b4a2500bb89ad6a2c85073dc32c80f887f0085db081eddf12"
     },
     {
       "kind": "definitions",
-      "id": "DEF-ACT",
+      "id": "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
       "path": "corpus/definitions/act.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -408,11 +408,11 @@
         "sha256": "8c6234dd02f06f7293da6dbb41bbd3c8b79f2a064582cccc942674f6dbd9a76f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "fa3233138862a58e5260bd6496bec804720aafafde1b87b88b7468593df4411a"
+      "reviewed_sha256": "b3157f592d401928d11c74dfff4bf19333e74f47d87babe4ea30c9d6d7948b3b"
     },
     {
       "kind": "definitions",
-      "id": "DEF-CAUSE-OF-PERFECTION",
+      "id": "211a6432-8b8f-53ed-85e3-75173bb15b24",
       "path": "corpus/definitions/cause-of-perfection.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -421,11 +421,11 @@
         "sha256": "14ec77a96530074043a3ce9795f02ce35e8a8fb43516a3a15870e56d488090e3",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
       },
-      "reviewed_sha256": "b751dcbc61b550e3a176589605c0f9423471cbb380990a7e764666774d59cf46"
+      "reviewed_sha256": "6e236e4e1c98163924d17e147e85cfd2a33e145a822bdb6084e7a6ee59417933"
     },
     {
       "kind": "definitions",
-      "id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+      "id": "c8f9c2fb-8c17-5fc8-b558-4a6fad659296",
       "path": "corpus/definitions/classical-attributes-bundle.json",
       "status": "repaired",
       "classification": "defect",
@@ -435,11 +435,11 @@
         "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
         "prose": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means ∀ g, σ.IsGod g → σ.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping."
       },
-      "reviewed_sha256": "a455088d1f6dec3f215058ecc0a1e5cbf277a12840e23e5e76fbd158d881cae5"
+      "reviewed_sha256": "550db15efaf8134cbefaf1bd31189e74ffade6f5e660553e0fcdcb5d3e4d3b76"
     },
     {
       "kind": "definitions",
-      "id": "DEF-ESSE",
+      "id": "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
       "path": "corpus/definitions/esse.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -448,11 +448,11 @@
         "sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading"
       },
-      "reviewed_sha256": "6f4a5f087692cee6d9fd1c4c096d6d271781f5eecf343b14d4563f6aa06ef748"
+      "reviewed_sha256": "4b7125592500da7e1c1a45ea94d9ba2d06eb4c2e605182bcb0dffeae38df8ae9"
     },
     {
       "kind": "definitions",
-      "id": "DEF-ESSENCE-THOMISTIC-NATURE",
+      "id": "183b48d2-1753-583d-aef9-4199cff86231",
       "path": "corpus/definitions/essence-thomistic-nature.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -461,11 +461,11 @@
         "sha256": "256b634683a261c9c539d84335321cf0a87c13bc43e28fc3ace8842898a8fc86",
         "lean_declaration": null
       },
-      "reviewed_sha256": "5057dfeabc0d63d565c1eb73a4cc499ce4c828bf87d3cd9782cd6308dba76354"
+      "reviewed_sha256": "afd7bc8253ebe399a2c4831c083ce86f85b27af2906f0f620e423bb22f1d34da"
     },
     {
       "kind": "definitions",
-      "id": "DEF-ETERNAL",
+      "id": "1291944d-a8b2-54eb-899d-66bd5f8b4762",
       "path": "corpus/definitions/eternal.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -474,11 +474,11 @@
         "sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
       },
-      "reviewed_sha256": "7f64a6e5204b513e05ac0cafb706816fa34d35f30c0733953e600254bb00c45e"
+      "reviewed_sha256": "2bfd4b67227a33a34dddbd72078caa0829f0cb9c19e84490875da0a5446e2c0a"
     },
     {
       "kind": "definitions",
-      "id": "DEF-GENUS-BROAD",
+      "id": "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
       "path": "corpus/definitions/genus-broad.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -487,11 +487,11 @@
         "sha256": "bd95fa3866e6359b6f802a4db8fb789cd2fe5ecc1137bf8431ae4ae48dbc9e7f",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading"
       },
-      "reviewed_sha256": "338b3360f23b2bd46acb2185415c3031c7ba3f2f7dde28da099be299cc212115"
+      "reviewed_sha256": "7be27c787aa551982f9d61c325ca6c4c3d02568e185901c63204149401075be1"
     },
     {
       "kind": "definitions",
-      "id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "id": "88f9f6e8-997b-5f7d-afa1-c501954c3807",
       "path": "corpus/definitions/god-of-classical-theism.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -500,11 +500,11 @@
         "sha256": "0db89c7e0f0c32183e391255225d564b1e855d0619058e3477ef4d18d6b2b43e",
         "lean_declaration": "TruthCore.Case.Catholicism.Signature"
       },
-      "reviewed_sha256": "e97f5e840cd41b6fcfb03b129e18a02647cf356493464fe230e6cf765fee60d1"
+      "reviewed_sha256": "99850d49917138e6d304b43be90af44bd397d2ffd18c6af3d1acde624a32091f"
     },
     {
       "kind": "definitions",
-      "id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "id": "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
       "path": "corpus/definitions/good-as-being-in-act.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -513,11 +513,11 @@
         "sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
       },
-      "reviewed_sha256": "c25303942cb21464cde14992db83645423adc9cea5fec2c1f324ab8687edd69d"
+      "reviewed_sha256": "b8df8b81d8a555730efe60316d1edd3a156cae99f2dc70f0403fe20ee4f8b3af"
     },
     {
       "kind": "definitions",
-      "id": "DEF-HAS-INTELLECT",
+      "id": "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
       "path": "corpus/definitions/intellect.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -526,11 +526,11 @@
         "sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasIntellect"
       },
-      "reviewed_sha256": "9c0750f696c52201a332606528c5030a9666bedb6353b2ef79fdd8f71e18651b"
+      "reviewed_sha256": "68342441282329e8ab0db0bcdd8a566b938866c5349449e94e538aa4edbb4aaf"
     },
     {
       "kind": "definitions",
-      "id": "DEF-HAS-WILL",
+      "id": "7c64b499-6dba-5e03-bdf3-5acea95d8836",
       "path": "corpus/definitions/will.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -539,11 +539,11 @@
         "sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864",
         "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
       },
-      "reviewed_sha256": "dfd544e34de8506b44fe89df3c3eafc38118a04929968f5d21eb7fee0a75b864"
+      "reviewed_sha256": "7efbedc235c119026e15cc8b2758f051e8467c95b09725cfd27304c06fea1a74"
     },
     {
       "kind": "definitions",
-      "id": "DEF-IMMUTABLE",
+      "id": "da5c0716-718e-5aaa-abec-95c9e93cac00",
       "path": "corpus/definitions/immutable.json",
       "status": "repaired",
       "classification": "defect",
@@ -553,11 +553,11 @@
         "lean_declaration": "TruthCore.Case.Catholicism.IsImmutable",
         "prose": "The case takes pure act, a sufficient condition in the first source argument, as its strong reading of altogether immutable. The source does not give a general biconditional identifying every use of immutability with this predicate. GodIsImmutable also permits an abstract Immutable parameter in the earlier group."
       },
-      "reviewed_sha256": "3a2837801322c882c86b22a4066784cde5a5ed5b4ecff7848db93713df346162"
+      "reviewed_sha256": "f44fae623a38c60b6eba746a5c96c7c3d7f4b7988afc15015c7944a559423931"
     },
     {
       "kind": "definitions",
-      "id": "DEF-IN-ACT-FORMALLY",
+      "id": "a5bda545-3e76-5240-808d-25f897a07be5",
       "path": "corpus/definitions/in-act-formally.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -566,11 +566,11 @@
         "sha256": "3575a6f229d79aab36ae187d9cff79515bc2b3ea4b6ea67142b9d80f5740fe8b",
         "lean_declaration": null
       },
-      "reviewed_sha256": "aea823f16243702a6e9845c338fc08c22b0a7dae7b7a86792b39e829ebf112d1"
+      "reviewed_sha256": "c4400aa87a336e0bf3c0121d9d8644fbe2a78bab03aeff26549ea82a722ca541"
     },
     {
       "kind": "definitions",
-      "id": "DEF-IN-ACT-VIRTUALLY",
+      "id": "f7833666-c764-5624-a766-708949d9feee",
       "path": "corpus/definitions/in-act-virtually.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -579,11 +579,11 @@
         "sha256": "cce492e875524e50c7ab8b9ccde2d4329996ab639a8ba7edeb9503ffeefeedc9",
         "lean_declaration": null
       },
-      "reviewed_sha256": "e5eb3e3f59936c6783e2cfedc23e48e3ebf5bc1f1b9bba08ed839aa6cf91f940"
+      "reviewed_sha256": "df703e3bbff97b25897d59a06c99536fccdba482e490848cda7e079d5d4eee73"
     },
     {
       "kind": "definitions",
-      "id": "DEF-INFINITE",
+      "id": "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
       "path": "corpus/definitions/infinite.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -592,24 +592,24 @@
         "sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf",
         "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
       },
-      "reviewed_sha256": "c3b5222ff51bbd4cf8ac245d6d3c024cd22e0d196b94f1959579572edf183fdf"
+      "reviewed_sha256": "d941dea3cfb0e4286c1753fe9d5adab679b20e8cf1247353211e38b8d1a22f3c"
     },
     {
       "kind": "definitions",
-      "id": "DEF-MAXIME-ENS",
+      "id": "a2a8de58-42e0-5481-b7fb-848ae8602036",
       "path": "corpus/definitions/maxime-ens.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
-      "finding": "Uses exactly the same IsMaximumIn at esse. Uniqueness follows from genus and causal-ascent assumptions plus explicit logical choice, not from the name. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes.",
+      "finding": "Uses exactly the same IsMaximumIn at esse. Uniqueness follows from genus and causal-ascent assumptions plus explicit logical choice, not from the name. Follow-up #1110: reviewed the exact Lean signature against this metadata-only locator/scope clarification. Exact field/predicate locator TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn. Primitive interpretation and open premise status remain explicit; no source attribution, theorem type, structural law or premise truth changes. 2026-11-08 type audit: MAXIME_ENS points directly to the IsMaximumIn body occurring in the frozen types, rather than its IsMaximalIn alias. Both spellings express InAct m r ∧ ∀ y, ¬ MoreIn r y m; no greatestness or new type distinction is claimed. The generic sixth sense remains an alias and an unfinished legacy distinction.",
       "before": {
         "sha256": "234c126e4e7111fb3facbda59fb7a3b14fa51f502dd2fedac3b603e50523c907",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "9fa797455e69ff269e1a5ba5a91bf1a3ccf73a6002c8cf37a8d113af19ff35b9"
+      "reviewed_sha256": "99c3dca09484d8823e897d272ee4fa83bbc9329e44e26062c1ee7172274411a3"
     },
     {
       "kind": "definitions",
-      "id": "DEF-MAXIMUM-IN-A-PERFECTION",
+      "id": "ad844320-77ce-5786-96d7-4b02f874269d",
       "path": "corpus/definitions/maximum-in-a-perfection.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -618,11 +618,11 @@
         "sha256": "91b4008b7bf95fac7aa469c0e1d442154d20848ff0ccc4d0850f1ec2ccb3f0c1",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
       },
-      "reviewed_sha256": "25eff42451fa9bf6dbd03a5b8db927e73e81c60467d77e337ccc8568d94047e8"
+      "reviewed_sha256": "dc256c915cb968ad5a3dd6a4f295827dde62a465d99b996140551674a112352c"
     },
     {
       "kind": "definitions",
-      "id": "DEF-MORE-IN",
+      "id": "5766de66-8a37-5b04-aa65-9eec53319f50",
       "path": "corpus/definitions/more-in.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -631,11 +631,11 @@
         "sha256": "ff39de51f1edda6ed56962b715fab2cccce0ecf415a576ccb80c42cc869d4f6a",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading"
       },
-      "reviewed_sha256": "3ff3133f23905d001015bf94732ef664f3a9b8c8dd412cc14d8ee4593597e3dc"
+      "reviewed_sha256": "52b08bf1603b10756080e99b33ffd80841327d06691219c66eb16ef11d9c5f9e"
     },
     {
       "kind": "definitions",
-      "id": "DEF-ONE-GOD",
+      "id": "d980bbd2-1a96-564c-bc0d-4065d7786715",
       "path": "corpus/definitions/one-god.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -644,11 +644,11 @@
         "sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69",
         "lean_declaration": "TruthCore.Case.Catholicism.IsTheOneGod"
       },
-      "reviewed_sha256": "4f16637dddb106061838c277b33238bc83ad629a282096297299e41e2991bb69"
+      "reviewed_sha256": "8bf80eca3051f0fe0ab8cb24c27405c7abb81d3d37ae5a3f78171e843ca28b6f"
     },
     {
       "kind": "definitions",
-      "id": "DEF-PURE-ACT",
+      "id": "a49e4cf1-ca4f-5519-9724-892af257cedb",
       "path": "corpus/definitions/pure-act.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -657,11 +657,11 @@
         "sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PureAct"
       },
-      "reviewed_sha256": "bd1b8ec42124ee36da7d26ec4e1aa876c24f41b453e9b60dedf9ec91b0a43c6c"
+      "reviewed_sha256": "774106de478398a33afa34868c0cc2df37b760927593ff0a4dec0f74cb0f7b01"
     },
     {
       "kind": "definitions",
-      "id": "DEF-RESPECT",
+      "id": "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
       "path": "corpus/definitions/respect.json",
       "status": "repaired",
       "classification": "reviewed_locator_clarification",
@@ -670,11 +670,11 @@
         "sha256": "2311bf6a4d5eae003aa035b80f4206ebda5655ba28555fb3cd15a26e2a094c4b",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
       },
-      "reviewed_sha256": "a5b6b75e7b57e7b51ca066df7ce50b054095485a6c0f692a09ad6ffeb6cddf47"
+      "reviewed_sha256": "8cb92cc276caaa74813c22240ca775a6ea2b84e811050b98f2d0fe80e2e9d820"
     },
     {
       "kind": "definitions",
-      "id": "DEF-SELF-EVIDENT-MARKING",
+      "id": "500ba323-cca5-5b35-8b75-947008256c43",
       "path": "corpus/definitions/self-evident-marking.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -683,11 +683,11 @@
         "sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45",
         "lean_declaration": null
       },
-      "reviewed_sha256": "6df24ee261285e03c405927f858f8bbaa01f95350dc5de847b27983290ac8a45"
+      "reviewed_sha256": "4f215907a1a6237e9d1ce5a0498dffed424b5d6955ea40585c3fc2be0c9f5030"
     },
     {
       "kind": "definitions",
-      "id": "DEF-SIMPLE",
+      "id": "85f7f569-ab4d-514b-aa2c-cf75171ad105",
       "path": "corpus/definitions/divine-simplicity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -696,11 +696,11 @@
         "sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b",
         "lean_declaration": "TruthCore.Case.Catholicism.IsSimple"
       },
-      "reviewed_sha256": "0a766149fe59b0960274a03ddaa64ad88cf2dba449387abc0fb2896a3623af2b"
+      "reviewed_sha256": "3f7053daf935e69a98bd30bf134f6f5eae9e521ead82580a69b5c14ddaa062b4"
     },
     {
       "kind": "definitions",
-      "id": "DEF-SUPREMELY-GOOD",
+      "id": "58e0de99-6199-5851-8e03-381bca0d44f0",
       "path": "corpus/definitions/supremely-good.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -709,11 +709,11 @@
         "sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba",
         "lean_declaration": "TruthCore.Case.Catholicism.IsSupremelyGood"
       },
-      "reviewed_sha256": "ada95d8ab50cf812d35688c491eb647b15075b78f199b51bab864528e3b298ba"
+      "reviewed_sha256": "297b884d55fcf3ffef509e49a730364357d34eb69738807b1fb08cb40efdb788"
     },
     {
       "kind": "definitions",
-      "id": "DEF-UNIVERSALLY-PERFECT",
+      "id": "5f851204-5991-5e16-87f1-e8b3ed729708",
       "path": "corpus/definitions/universally-perfect.json",
       "status": "unresolved",
       "classification": "intentional_abstraction",
@@ -722,11 +722,11 @@
         "sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99",
         "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect"
       },
-      "reviewed_sha256": "981634a8f400ff93a2bca0dd29765273bd96dd306f4bfe8dc9cb64c1d64aba99"
+      "reviewed_sha256": "06a988b515724f8d028f31413026e1699fa159a390a48f016034f1a78aa2ad2b"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-BEING",
+      "id": "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
       "path": "corpus/disambiguations/being.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -735,11 +735,11 @@
         "sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b",
         "lean_declaration": null
       },
-      "reviewed_sha256": "c6050d39b19f6cae0a116fe1a303867c0ca5d876ca67d6e5bf69ee7ebc981b4b"
+      "reviewed_sha256": "37779598bcd1010ebbbf48d24265ca33d77e84a5df84127c8e0ba1172363f95a"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-BEING-UNIVOCITY",
+      "id": "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
       "path": "corpus/disambiguations/being-univocity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -748,11 +748,11 @@
         "sha256": "9e7a915cc6f8df7088d1cdff4e63167f9de25e876f5834838b55eea7bea79fff",
         "lean_declaration": null
       },
-      "reviewed_sha256": "27d68442072c07f2442ecc7e09699a865993975dc6acc54b58e25a6501961b86"
+      "reviewed_sha256": "4e2830cf0795ae7e62147b84a9d952b5a081539274f1121bccc6a117593410c9"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-CAUSE",
+      "id": "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
       "path": "corpus/disambiguations/cause.json",
       "status": "inspected",
       "classification": "reviewed_semantic_note",
@@ -761,11 +761,11 @@
         "sha256": "4561c8873da1ef6463698be19ab1ee5055aad42412637f27c842c24c2c527c6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "c6559d5e0b2991ae2b66ace51e1b8ba8de8b71b48f840bba7d2576cea6262ab1"
+      "reviewed_sha256": "c19ed0bfadc2de9ea4fadd07ba01fb8c01c77992e2ff12f2e16268b6125a604b"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-ESSENCE",
+      "id": "1aef8986-ed29-564f-9803-d812d2ff63e1",
       "path": "corpus/disambiguations/essence.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -774,11 +774,11 @@
         "sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a1e8d9bf8760827372213c8f9450c9acac57e23ecd2080273ce407ee817220c5"
+      "reviewed_sha256": "efde4cfc2a9569e96731f08dd856ba9b1a9a54f6349fedef2bc57925fdf16b1e"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+      "id": "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
       "path": "corpus/disambiguations/eternity-and-temporal-perpetuity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -787,11 +787,11 @@
         "sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6",
         "lean_declaration": null
       },
-      "reviewed_sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6"
+      "reviewed_sha256": "8e543ec8364cb35b3eb5f48ff07475a494332dd7d820cccea51eb9d5d7a8eba6"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-GENUS",
+      "id": "4822a4f5-a93b-52dc-855a-00b7d57928d5",
       "path": "corpus/disambiguations/genus.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -800,24 +800,24 @@
         "sha256": "23d3a3d0c9fd999f6a2c4741377a27ac3df7d8c626af61ef570e39edc6abc856",
         "lean_declaration": null
       },
-      "reviewed_sha256": "c8041d357e52327ba9d44ddf1e495d59e9ef365475b96091830665e6e5ba64cf"
+      "reviewed_sha256": "a64e0e4ef60e5d78cb6bf06c607af39ca4ab81934cdfb9aa7c55f6c17a00f007"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-GOD",
+      "id": "205a39c3-915d-5fe4-8076-a9ff91329e08",
       "path": "corpus/disambiguations/god.json",
       "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Subsequent ALL migration: qualified the same-witness note to distinguish Q11-NATURE's explicit alternative uniqueness premises; original assembly sense unchanged.",
+      "finding": "Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Subsequent ALL migration: qualified the same-witness note to distinguish Q11-NATURE's explicit alternative uniqueness premises; original assembly sense unchanged. Follow-up review (term sense forks, batch 4): the appended fork paragraph names GOD_1-4 and their declarations (NominalGod and CalledGod are new, only in TruthCore.Causality.TermSenseForks4) and records the equivocation hazard of the God-generic naming declarations; the audited results still instantiate God with the signature's IsGod, so no step here changes sense.",
       "before": {
         "sha256": "505abaa8a562b6a41bc0c21e89aa85696ac66ef5fdf7e3561720c0a8561932f2",
         "lean_declaration": null
       },
-      "reviewed_sha256": "1be6875657b36c0dbf47536eabb6a22986951b0ab521e004cec3d7520ba38155"
+      "reviewed_sha256": "6f3706b3b6618916b0b48f980bcd104421200f8e44f28a3115ec98f5f1b7ed03"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
+      "id": "9880c06b-e689-5294-b349-badb981abbf6",
       "path": "corpus/disambiguations/good-practical-and-ontological.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -826,11 +826,11 @@
         "sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f",
         "lean_declaration": null
       },
-      "reviewed_sha256": "71274ce004898b2dff9a6ba321d9b7477fef30374433059a762a944c8ab34a6f"
+      "reviewed_sha256": "9910059afe25620b86ec4b59dc98eb6522a4fe786aeeff86efb83b00a254d110"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING",
+      "id": "9b16c72e-e8dc-5d69-88bf-0daf61ab2f9b",
       "path": "corpus/disambiguations/immutable-and-currently-unchanging.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -839,11 +839,11 @@
         "sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db",
         "lean_declaration": null
       },
-      "reviewed_sha256": "0225081949396993fc2f5e7ff96b14872ce1533d3841cf1676ff5dded21b33db"
+      "reviewed_sha256": "20c55fd304d5c9726f1d3abe1c848f7fb2f99051043ec8a631ff72bfe68fa4e0"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-IN-ACT",
+      "id": "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
       "path": "corpus/disambiguations/in-act.json",
       "status": "inspected",
       "classification": "adopted_potency_scope",
@@ -852,11 +852,11 @@
         "sha256": "d611f0ba3737ca2630ca3cbee8a618e86eb5385773ea453b31b36fc017435cac",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a99e2031fca519ee02d1a2108a4af8618879d4e33a5bfef6fce7096864b86626"
+      "reviewed_sha256": "d3e0018d711fe3889df979c5d5fa8098ed0fcab4d2a7e445fee0ac6e21417e42"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-INFINITY",
+      "id": "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
       "path": "corpus/disambiguations/infinity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -865,11 +865,11 @@
         "sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b",
         "lean_declaration": null
       },
-      "reviewed_sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b"
+      "reviewed_sha256": "07119fed70b8994d85170f2327abc97c7f694b0e7a39fdb967b348ac45b59b33"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-INTELLECT-AND-SENSE-COGNITION",
+      "id": "c0fda0ee-3508-5101-94ba-043e3eb28b0e",
       "path": "corpus/disambiguations/intellect-and-sense-cognition.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -878,24 +878,24 @@
         "sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3",
         "lean_declaration": null
       },
-      "reviewed_sha256": "3144bb838d6039d9c1b088c97d6119bcd63e96d653abfde7f91da62bf3d78ea3"
+      "reviewed_sha256": "9a24dab991962bfafdb32ace1ec15078dff6491e55c43a0f864a527f1efe2a29"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-MAXIME-ENS",
+      "id": "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
       "path": "corpus/disambiguations/maxime-ens.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "intentional_abstraction",
-      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names MAXIME_1-3 and their declarations (StrictlyGreatestIn is new, only in TruthCore.Causality.TermSenseForks3); the audited results still use the one merely-maximal IsMaximalIn at esse, so no step here changes sense.",
+      "finding": "Source-scope re-review for PR905: Merely maximal (nothing above), greatest represented degree (all bearer degrees below or equivalent) and strict primacy remain distinct. Greatest degree permits tied bearers; no uniqueness or strict supremacy enters the new source reading. The old maximality theorem interfaces remain unchanged; weakening an antecedent strengthens a causal conditional. Earlier recorded disposition (historical context, not the current source attribution): Existing sense separation retained. The selected result uses a single fixed vocabulary context and does not change sense across premises. The record constrains interpretation, not premise truth. Definition-fork re-review: the new paragraph preserves every original meaning and source boundary; only separate conditional interfaces are registered. The old selected-esse maximal causal premise follows from greatest-degree causation only with explicit maximal-to-greatest transfer, itself derived under supplied active-pair degree calibration, local directedness and excluded middle. Neither source attribution nor old theorem inputs gain those assumptions silently. #1111: the existing maximal/greatest distinction now explicitly includes the generic selected-perfection IsMaximumIn sense and its esse specialization; #1141 bridges/countermodels and open source-to-old-I boundary retained. No proof premise changed. Follow-up review (term sense forks, batch 3): the appended sense-fork pointer names MAXIME_1-3 and their declarations (StrictlyGreatestIn is new, only in TruthCore.Causality.TermSenseForks3); the audited results still use the one merely-maximal IsMaximalIn at esse, so no step here changes sense. 2026-11-08 type audit: MAXIME_ENS points directly to the IsMaximumIn body occurring in the frozen types, rather than its IsMaximalIn alias. Both spellings express InAct m r ∧ ∀ y, ¬ MoreIn r y m; no greatestness or new type distinction is claimed. The generic sixth sense remains an alias and an unfinished legacy distinction.",
       "before": {
         "sha256": "09f962384fd21f5a330426b296b4167a159e3fc4a30dd53f9d3bd9ab5ea0e713",
         "lean_declaration": null
       },
-      "reviewed_sha256": "2db34ac808b0a460e90b0524c69d4427ea4b67ad4bad8604aaa76e3861394295"
+      "reviewed_sha256": "82d39457391283c81fc8c368aafd80fc4d49a289aa5e5dbb9808632116c92e9d"
     },
     {
       "kind": "disambiguations",
-      "id": "DISAMB-ORDER-OF-BEING",
+      "id": "1795a62e-f78b-5f5b-94e7-9e7490824811",
       "path": "corpus/disambiguations/order-of-being.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
@@ -904,11 +904,11 @@
         "sha256": "8255fa5598731b6c0b3707cb2875dbab6c6c8bb9254e6c827a55c2d2a2af5a6e",
         "lean_declaration": null
       },
-      "reviewed_sha256": "4a546e33c9ebf82dacada9e99a6c441f4a0a7c58af3fd18951a63375e2c57dac"
+      "reviewed_sha256": "4318c6c024c36d54f642c0c0fb07d6e5af5b9a34210bed8d28f58f7b96472f68"
     },
     {
       "kind": "claims",
-      "id": "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
+      "id": "3bb5f9eb-f30e-5acc-98da-80b7c246448c",
       "path": "corpus/claims/vatican-i-dei-filius-ch1-one-true-living-god.json",
       "status": "repaired",
       "classification": "defect",
@@ -918,7 +918,20 @@
         "lean_declaration": null,
         "prose": "The council's confession of God's attributes (DS 3001): one, true, living, creator and lord, almighty, eternal, immense, incomprehensible, infinite in intellect, will and every perfection; one singular, altogether simple and unchangeable spiritual substance; really distinct from the world; most blessed; exalted above all. With 'bonitate sua' (DS 3002) for goodness. Kept as prose. It is the list that the definitional bridge STMT-CLASSICAL-ATTRIBUTES-SUFFICE abbreviates (owner decision on #143, 2026-10-24) and supports the five attributes not yet derived. As in the root (A), it states what the Church teaches; it is not used as a premise of the derivations."
       },
-      "reviewed_sha256": "0c57a1b17a19d10172166462d91f6a557a6c9c82d7fc9bd7d433c0acc8e94f26"
+      "reviewed_sha256": "1226de9dfec72d5fdf7ca691fdf2e1ad5a709396746d21b5d120b96cc4b9f047"
+    },
+    {
+      "kind": "definitions",
+      "id": "d8e2ed12-8089-5202-ae51-e807cf611c76",
+      "path": "corpus/definitions/excluded-middle-logical-holding.json",
+      "status": "inspected",
+      "classification": "bounded_inspection",
+      "finding": "Existing logical meaning of excluded middle: every proposition p has p ∨ ¬p, with locator TruthCore.Logic.ExcludedMiddle. Replaces the administrative marking link in the shared premise. No axiom, proof, premise truth or source attribution changes.",
+      "before": {
+        "sha256": "1daf00789d907d5cd73307519ed7f9e0ac2b42669b77422c5286d26638de5697",
+        "lean_declaration": "TruthCore.Logic.ExcludedMiddle"
+      },
+      "reviewed_sha256": "1daf00789d907d5cd73307519ed7f9e0ac2b42669b77422c5286d26638de5697"
     }
   ],
   "limits": [

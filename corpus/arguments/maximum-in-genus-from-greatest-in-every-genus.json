@@ -1,31 +1,33 @@
 {
-  "id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
+  "id": "c70736c4-3db1-542e-9599-df9a7b500e01",
+  "label": "What is MAXIMAL_5 in a GENUS_2 is the cause of that perfection in…, from greatest in every GENUS_2",
+  "legacy_id": "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS",
   "premise_statement_ids": [
-    "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS",
-    "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN",
-    "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS",
-    "STMT-EXCLUDED-MIDDLE"
+    "dc619ad6-11f3-5734-b258-3156b976fc31",
+    "e433b6f5-f24a-5172-b528-8419d2c49027",
+    "88b2caf5-03c9-5125-a206-3f39aed61fc4",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "conclusion_statement_id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
   "inference_ids": [
-    "INF-MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS"
+    "b40cbd65-d0d9-5648-9947-24a4032ea575"
   ],
   "meaning": "In every perfection r, a maximal bearer m is at the greatest represented degree: for any bearer x, some bearer z bounds x and m; z is not strictly above m (it would then be more r than m, against maximality), so by excluded middle z is at most m and x is at most m. The greatest-degree genus principle at every perfection then makes m the cause of r in all other bearers. Answers ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 for this target: the per-respect wrappers it named are now explicit OPEN premises (bare premises are allowed, owner direction 2026-11-07).",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GENUS-BROAD",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-PER-RESPECT-DEGREE-FAMILY",
-    "DEF-SELF-EVIDENT-MARKING"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "500ba323-cca5-5b35-8b75-947008256c43"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-GENUS",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-ORDER-OF-BEING"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

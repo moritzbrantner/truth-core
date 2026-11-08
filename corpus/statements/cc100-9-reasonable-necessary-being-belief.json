@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
+  "id": "7f3e3544-8431-528d-a004-8da7e53024c3",
+  "label": "If every possible explanation of contingent beings entails that a necessary being exists and a…",
+  "legacy_id": "STMT-CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
   "paraphrase": "If every possible explanation of contingent beings entails that a necessary being exists and a possible explanation is available, then, under PPE, it is reasonable to believe that a necessary being exists.",
   "definition_ids": [
-    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+    "1244292b-30ce-50d4-92dd-04ef6ac8ff72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

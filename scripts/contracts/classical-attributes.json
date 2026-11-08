@@ -45,7 +45,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; theorem proof body excluded. Alpha names and metadata ignored; no semantic normalization.",
-  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES",
+  "result_id": "a3b1cdba-0ab0-5e12-bca0-150028e68f6f",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.godHasClassicalAttributes",
   "type_sha256": "92a5cb4634e3a2a03893da60b72a080ba7624184187eff996f772499878741e1"

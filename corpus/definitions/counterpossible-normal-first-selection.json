@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
+  "id": "c6477081-dca9-5681-b4d7-95d38e7ee0a7",
+  "label": "Normal-first all-witness selection…: Selected origin A selects each normal u satisfying A. A…",
+  "legacy_id": "DEF-COUNTERPOSSIBLE-NORMAL-FIRST-SELECTION",
   "term": "normal-first all-witness selection with originating-context repair",
   "definition": "Selected origin A selects each normal u satisfying A. A repair u is selected only if no normal witness of A exists, u=origin and A holds at that repair. SelectedConditional universally evaluates its consequent on those selected states. The selector has success and no repairs for normal-witness antecedents; it is not claimed centered, nearest-world, serial, or a full Lewis/Stalnaker semantics. NormalConditional evaluates all normal A witnesses and is not material implication at the origin.",
   "basis": "stipulative",

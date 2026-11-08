@@ -1,11 +1,13 @@
 {
-  "id": "ARIST-PHYS-184A-NATURAL-SCIENCE-PRINCIPLES",
+  "id": "83099dfb-c03d-5b95-b4a1-3461d4a7791d",
+  "label": "The first task of natural science is to determine…, from For a subject with principles, causes, or…",
+  "legacy_id": "ARIST-PHYS-184A-NATURAL-SCIENCE-PRINCIPLES",
   "premise_statement_ids": [
-    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES"
+    "a669b17c-91bf-5525-bfba-f89b6e8e9438"
   ],
-  "conclusion_statement_id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
+  "conclusion_statement_id": "c663f5f9-ba6b-5eb1-b3e7-9646baa7bc55",
   "inference_ids": [
-    "INF-ARIST-PHYS-NATURAL-SCIENCE-PRINCIPLES-APPLICATION"
+    "4511d82d-ace1-55cf-b0ce-3ab3017356a4"
   ],
   "meaning": "Physics I.1 explicitly moves from the general methodological requirement to its immediate application in natural science: determine the principles of nature first."
 }

@@ -1,9 +1,11 @@
 {
-  "id": "DEF-RUSSELL-GENUINE-NAME",
+  "id": "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+  "label": "Genuine name in Russell’s strict use: A genuinely naming symbol names an object; meaningful…",
+  "legacy_id": "DEF-RUSSELL-GENUINE-NAME",
   "term": "genuine name in Russell’s strict use",
   "definition": "A genuinely naming symbol names an object; meaningful apparently singular negative existence claims instead involve descriptions. This is Russell’s semantic restriction, not a modal theorem about all names.",
   "basis": "sourced",
   "claim_ids": [
-    "RUSSELL-ATOMISM-VI-NAME"
+    "966b6704-f97d-53ee-b364-bdde909ecadb"
   ]
 }

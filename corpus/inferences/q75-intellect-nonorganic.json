@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "id": "b206ca27-7426-53e4-9431-6778ff9166dd",
+  "label": "No body can be the instrument through which the designated intellectual operation is…, by Reductio",
+  "legacy_id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
   "input_statement_ids": [
-    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
-    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
-    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION"
+    "f571b2a0-d5d1-5e8d-821e-582163055902",
+    "3a704795-c9b6-532e-bb8b-b4f4d2cf4fb8",
+    "5a8deceb-0289-5606-8046-c81bce1bed37"
   ],
-  "output_statement_id": "STMT-HUMAN-INTELLECT-USES-NO-BODILY-ORGAN",
+  "output_statement_id": "72c895c7-9a8b-513f-9c78-9cb64ebaedff",
   "rule": "reductio",
   "meaning": "Assume a bodily organ of intellectual exercise. Bodily determinacy supplies a constitutive nature of that organ. Organ interference then denies the universal capacity asserted by the cognitive premise, giving a contradiction. Discharge the temporary organ assumption; the earlier non-bodyhood conclusion is not a premise.",
   "assumption_statement_ids": [],

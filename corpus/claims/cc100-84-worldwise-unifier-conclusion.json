@@ -1,15 +1,17 @@
 {
-  "id": "CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
-  "statement_id": "STMT-CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "312b7734-5a8b-574f-bbb5-5175788c9b0f",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If some fact or other exists in every possible world…",
+  "legacy_id": "CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
+  "statement_id": "5c2908ce-c261-5b1b-a804-ce7524b5e9dd",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, steps 4–5 under step 3",
   "interpretation": "Retain the displayed conditional and application as source commitments. The unifier may vary by world and by fact. No common numerical unifier or rigid witness follows by rearranging quantifiers; no checked consequence is registered. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

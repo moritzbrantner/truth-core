@@ -3,6 +3,7 @@ import { Suspense } from "react";
 
 import { certifiedCores } from "@/app/atlas/atlas-model";
 import { buildAssumptionTree } from "@/lib/argument-forest";
+import { nameOf } from "@/lib/corpus";
 import { getPropositionGraph } from "@/lib/proposition-graph-data";
 import { getVerifiedConfigurations } from "@/lib/verified-configurations";
 import { AssumptionExplorer } from "./assumption-explorer";
@@ -18,6 +19,8 @@ export default function AssumptionsPage() {
   const cores = (verified?.cases ?? []).flatMap((configuration) => certifiedCores(configuration).map((core) => ({
     key: configuration.id + "::" + core.key,
     caseId: configuration.id,
+    caseLabel: nameOf(configuration.id),
+    resultLabels: Object.fromEntries(core.result_ids.map((id) => [id, nameOf(id)])),
     profile: `Profile ${configuration.semantics.id} · Logic ${configuration.semantics.logic} · Frame ${configuration.semantics.frame} · Domain ${configuration.semantics.domain} · Identity ${configuration.semantics.identity} · Vocabulary ${configuration.semantics.vocabulary}`,
     statementIds: core.statement_ids,
     resultIds: core.result_ids,

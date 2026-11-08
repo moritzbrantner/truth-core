@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-PHYSICS-FIRST-MOVED-WITHOUT-MOVER",
+  "id": "b8c861dc-72cd-5bde-83df-2f921c9c92e3",
+  "label": "#404 finite first-mover omission assignment MovedWithoutMover",
+  "legacy_id": "MODEL-PHYSICS-FIRST-MOVED-WITHOUT-MOVER",
   "description": "#404 finite first-mover omission assignment MovedWithoutMover. The third, successor-chain witness is infinite and excluded explicitly.",
   "vocabulary": "TYPED-PHYSICS-UNIT",
   "lean_declaration": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.model",
@@ -36,7 +38,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -46,7 +48,7 @@
       "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation0"
     },
     {
-      "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
+      "statement_id": "33365614-ca04-5942-bc11-173dfbbad051",
       "value": "violates",
       "arguments": [
         "Being",
@@ -57,7 +59,7 @@
       "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation1"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+      "statement_id": "0ac8f77a-e047-56ee-a4fe-267aa56c16d0",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -67,7 +69,7 @@
       "theorem": "TruthCore.Models.PhysicsFirstMover.MovedWithoutMover.evaluation2"
     },
     {
-      "statement_id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
+      "statement_id": "99ec3c56-d552-552d-a090-b757198637d7",
       "value": "violates",
       "arguments": [
         "Being",

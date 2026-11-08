@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
+  "id": "b8db29f3-f320-5324-96c1-add346c73260",
+  "label": "Magnitude is not actually infinite, but it is infinite by division and thus potentially infinite…",
+  "legacy_id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
   "paraphrase": "Magnitude is not actually infinite, but it is infinite by division and thus potentially infinite in the relevant sense.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MagnitudePotentiallyInfiniteByDivisionReading"
 }

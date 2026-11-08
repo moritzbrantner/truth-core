@@ -1,23 +1,25 @@
 {
-  "id": "RUTTEN-CH6-CAUSED-COMPOSITE-PROPER-PART",
-  "statement_id": "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "370e45f4-7245-5114-94d4-6867edee104c",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Every caused composite has a caused PROPER part",
+  "legacy_id": "RUTTEN-CH6-CAUSED-COMPOSITE-PROPER-PART",
+  "statement_id": "48bc5429-9243-561d-8266-24365b37aee9",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VI, printed p.127 premise6 and p.135 defense",
   "interpretation": "Preserve the CAUSED PROPER PART wording. Obtaining a caused simple requires the separately retained terminating descent. The p135 defense uses collective-uncausedness plus supplementation/CAI and is not silently treated as ordinary part-order logic. Full pinned chapter printed123–135/PDF125–137 was materialized and read; this attributes the primary source, unlike the separate McIntosh presentation. No independent premise truth, metaphysical possibility, necessity or God conclusion is established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

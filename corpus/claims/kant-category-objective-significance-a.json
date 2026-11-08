@@ -1,18 +1,20 @@
 {
-  "id": "KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE-A",
-  "statement_id": "STMT-KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE",
-  "source_id": "KANT-CPR",
+  "id": "b1c57851-d6e4-5321-bb85-661051489029",
+  "label": "Immanuel Kant, Critique of Pure Reason…: Categories apart from conditions of sensibility have a…",
+  "legacy_id": "KANT-CATEGORY-OBJECTIVE-SIGNIFICANCE-A",
+  "statement_id": "eaa3ec6d-de1b-5375-a0d7-cb53a6289578",
+  "source_id": "6677e01b-8659-5803-a967-9cbaa66f46ca",
   "locator": "Analytic, Phenomena and Noumena, A248/B305; paragraph “It may be advisable, therefore, to express ourselves thus.”",
   "interpretation": "Preserves the stronger objective-significance reading separately from the cognition-only scope reading. “No use” is qualified by the explicit retention of transcendental meaning and negative/limiting thought; this is no global thesis that thought creates things.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-SCOPE-WARRANT",
-    "DEF-KANT-LIMIT-CONCEPT",
-    "DEF-KANT-REAL-POSSIBILITY"
+    "674187f4-832b-5287-9ece-28c75772c54f",
+    "f86bce00-104a-5653-8efa-8b0dae727bc6",
+    "785c6195-9181-5926-9bfd-30e030e25e38"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-SCOPE",
-    "DISAMB-KANT-POSSIBILITY"
+    "ff5e8e42-dcb9-50f0-9173-e6f0a67e073c",
+    "3beb9f91-1fa1-5f15-9223-418da8039017"
   ]
 }

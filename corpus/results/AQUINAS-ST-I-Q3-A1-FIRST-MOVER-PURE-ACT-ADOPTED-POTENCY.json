@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
-  "argument_id": "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
+  "id": "7ecf10d2-4c29-5db6-853c-28abf96197f0",
+  "label": "Every first mover moved by none is\u2026, from Every first mover moved by none is the\u2026 and 2 more (2)",
+  "legacy_id": "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
+  "argument_id": "c6e42107-e5e0-57cb-9ee6-242f564faea5",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FirstMoverPureAct.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FirstMoverPureAct.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FirstMoverPureAct.firstMoverPureAct",

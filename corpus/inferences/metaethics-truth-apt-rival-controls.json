@@ -1,7 +1,9 @@
 {
-  "id": "INF-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "id": "abefda58-296a-558a-aa3a-88c5b0a5091e",
+  "label": "Two already constructed finite witnesses show: with no moral contents, both…, by Constructive-proof",
+  "legacy_id": "INF-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "output_statement_id": "da6946f2-0e98-50e2-a85d-40be7203265b",
   "rule": "constructive-proof",
   "meaning": "Export the prior checked empty-moral and neither-answer finite witnesses with the exact overlap/nonexhaustion properties relevant to alternative closure. Does not establish that the abstract predicates are entire philosophical theories.",
   "assumption_statement_ids": [],

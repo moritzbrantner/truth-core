@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BORROWED-POWER-PROFILE",
+  "id": "df1369a5-8710-57be-97ca-08ccb49f3314",
+  "label": "BORROWED_1, retained and self-exercised…: A profile cap s e says the bearer of event e has the…",
+  "legacy_id": "DEF-BORROWED-POWER-PROFILE",
   "term": "borrowed, retained and self-exercised power under a supplied profile",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Borrowed",

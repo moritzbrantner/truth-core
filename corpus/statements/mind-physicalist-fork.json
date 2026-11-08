@@ -1,15 +1,17 @@
 {
-  "id": "STMT-MIND-PHYSICALIST-FORK",
+  "id": "59a20b15-9722-526c-a91b-24cdf130ff91",
+  "label": "For the target kind of a frame, at least one of three holds: it has no occurrence; it has an…",
+  "legacy_id": "STMT-MIND-PHYSICALIST-FORK",
   "paraphrase": "For the target kind of a frame, at least one of three holds: it has no occurrence (eliminative); it has an occurrence and is itself a physical kind (reductive); or it has an occurrence, is not a physical kind, and every occurrence of it is physical or realized by something physical (nonreductive). These labels are defined by these conditions and are not readings of any author. The fork selects no branch.",
   "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.PhysicalistFork",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-MIND-PHYSICAL-BASIS",
-    "DEF-MIND-POSITIONS",
-    "DEF-PAPINEAU-PHYSICAL",
-    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+    "f0ce5083-0656-5227-9936-2db0ad2049ab",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "bdd6a7f4-e14f-5b04-bd27-1f13b409a500"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL"
+    "63d4170f-a2c8-5582-ad66-0aa7734e288d"
   ]
 }

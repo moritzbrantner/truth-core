@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "id": "fd141661-3c09-55a2-a76a-f56b426ef839",
+  "label": "At the selected world one candidate lacks esse in re and either possesses causal power or…",
+  "legacy_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
   "paraphrase": "At the selected world one candidate lacks esse in re and either possesses causal power or productively causes an effect. Both clauses retain the same witness and world; the concrete-to-esse calibration is a separate input.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SelectedCounter",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

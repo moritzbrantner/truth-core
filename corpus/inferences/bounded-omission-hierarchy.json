@@ -1,7 +1,9 @@
 {
-  "id": "INF-BOUNDED-OMISSION-HIERARCHY",
+  "id": "375d7808-dbe3-59d8-b23e-f1a1613a3236",
+  "label": "In the stipulated Kripke semantics, omission of every indexed selection of at…, by Direct-proof",
+  "legacy_id": "INF-BOUNDED-OMISSION-HIERARCHY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-BOUNDED-OMISSION-HIERARCHY",
+  "output_statement_id": "b6fa57d8-e471-5777-9fab-c771bd11f426",
   "rule": "direct-proof",
   "meaning": "Construct successor witnesses and restrict the bound. Reuse the existing Alternating.checks individual-contingency conjunct for bound 1; refute its bound 2 by enumerating the Boolean candidates. Enumerate the three rigid singleton populations to omit each pair, and use every-world population to refute whole-roster absence and bound 3. The proof is structural and may fail for another profile; it is not a transcription.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INTELLIGIBILITY-OF-THINGS",
+  "id": "347a22c0-55c4-54a4-805f-d6473db878e4",
+  "label": "Intelligibility of a thing: Intel: Respect is the respect of being knowable, that is, of standing…",
+  "legacy_id": "DEF-INTELLIGIBILITY-OF-THINGS",
   "term": "intelligibility of a thing (being knowable by intellect)",
   "definition": "intel : Respect is the respect of being knowable, that is, of standing in relation to an intellect as its object or as conformed to it (ST I q.16 a.1, a.3). Has x intel says x is intelligible; MoreIn intel x y says x is more intelligible than y. It is a respect like truth and being; nothing identifies it with either, and its links to them are the open premises STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY and STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING. It is not a human observer's actual knowing (q.16 a.1 calls that relation accidental) nor sentence truth (DISAMB-TRUE).",
   "basis": "stipulative",

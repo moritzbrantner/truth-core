@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "id": "3e978557-3d2d-59ed-8eee-f16be9cd854f",
+  "label": "One universally accessible two-world, two-individual model has a…, by Direct-proof",
+  "legacy_id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-COUNTERMODEL",
+  "output_statement_id": "98cd6bec-d39c-5db6-b1fd-096fa8f9aa5e",
   "rule": "direct-proof",
   "meaning": "Compose the Boolean-closure and stable-bearer results with the prior Scott world-isolation theorem. In a two-world universal frame, the chosen atom varies at one individual/world pair. Direct finite cases exclude world and individual names from the fragment, verify a non-invariant member, and establish a concrete essence lacking necessary exemplification for the other bearer.",
   "assumption_statement_ids": [],

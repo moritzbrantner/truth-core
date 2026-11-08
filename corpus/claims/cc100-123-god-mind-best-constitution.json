@@ -1,16 +1,18 @@
 {
-  "id": "CC100-123-GOD-MIND-BEST-CONSTITUTION",
-  "statement_id": "STMT-CC100-123-GOD-MIND-BEST-CONSTITUTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "953fc943-64ce-508b-8393-7b95779dbc71",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The best explanation of how every thing can have a…",
+  "legacy_id": "CC100-123-GOD-MIND-BEST-CONSTITUTION",
+  "statement_id": "a79b3e1e-e30b-569c-8822-10d06be3e013",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 4",
   "interpretation": "Retain best-explanation status, possibility wording can-have and partial constitution. No actual divine constitution follows just by selecting an explanatory proposal, and conscious quality does not by definition imply God-mind constitution. No unique/necessary God, person/bearer identity or causal-grounding dictionary is supplied. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+    "f0e96f0e-d540-57a3-bd89-4895863493b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

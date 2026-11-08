@@ -1,15 +1,17 @@
 {
-  "id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "id": "6020afe1-f097-56c4-a98f-4452ee962be2",
+  "label": "For every interpretation of being, respect, being moved, OPINING_2 and the respect of an opinion…",
+  "legacy_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
   "paraphrase": "For every interpretation of being, respect, being moved, opining and the respect of an opinion: if opining is being moved in the respect of that opinion and someone opines that nothing is moved, then it is not the case that nothing is moved. The instance of the performed-denial schema (STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL) whose presupposition link is STMT-OPINION-IS-A-MOTION.",
   "lean_declaration": "TruthCore.Alternatives.Retorsion.EleaticRetorsionInstance",
   "definition_ids": [
-    "DEF-PRESUPPOSITION-LINK",
-    "DEF-EPISODE-OCCURRENCE",
-    "DEF-ACCURATE-PERFORMED-DENIAL",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION"
+    "322dfd2b-04c6-5113-9ab6-6327e617d0c0",
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "901afe4d-3dc0-53fb-a18f-d2fd10d50527",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-BODILY-DETERMINACY",
-  "statement_id": "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
-  "source_id": "AQUINAS-ST",
+  "id": "9c6c9004-1985-56f1-89a9-2819cafa6a5e",
+  "label": "Thomas Aquinas, Summa theologiae I q.75 a.2…: Every body constitutively has some bodily nature",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-BODILY-DETERMINACY",
+  "statement_id": "3a704795-c9b6-532e-bb8b-b4f4d2cf4fb8",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.75 a.2 co.: Omne autem corpus habet aliquam naturam determinatam",
   "interpretation": "Every body has a determinate nature. A selected bodily-nature witness is naturally present in that body. This is constitutive possession, not a represented concept.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

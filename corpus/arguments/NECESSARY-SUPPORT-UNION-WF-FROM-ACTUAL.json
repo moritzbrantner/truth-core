@@ -1,23 +1,25 @@
 {
-  "id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+  "id": "8f822ee4-4511-57ac-b899-0790bfd6339c",
+  "label": "The union of every admitted world's direct existential-support edges among fixed de…, from actual",
+  "legacy_id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
   "premise_statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NO-NOVEL-NECESSARY-SUPPORT",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "bd983df2-058a-5503-89a1-bbebe87f958b",
+    "47a97912-335f-52f7-a715-63592368f0fe"
   ],
-  "conclusion_statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "conclusion_statement_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
   "inference_ids": [
-    "INF-NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL"
+    "25edba89-dcdf-5109-ae21-86b56a560bd4"
   ],
   "meaning": "If all possible necessary-to-necessary support edges are also actual and actual support is well founded, the restricted cross-world union is well founded. The converse fails in the certified varying-world countermodel.",
   "definition_ids": [
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-NO-NOVEL-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "a0763d0d-cd6b-5c08-a33a-f53ab8edd941",
+    "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

@@ -1,22 +1,24 @@
 {
-  "id": "STMT-MODAL-D-COUNTERMODELS",
+  "id": "2509c7a2-a6d1-521d-b2b7-3374f8f911d8",
+  "label": "Explicit serial finite pocket and fork frames witness possible full collapse without actual root…",
+  "legacy_id": "STMT-MODAL-D-COUNTERMODELS",
   "paraphrase": "Explicit serial finite pocket and fork frames witness possible full collapse without actual root collapse and contingent w=1 at the same root. Pocket has a closed two-cycle and a disconnected collapsed world; its root does not have necessary full collapse. Fork has necessary full collapse at the root without actual collapse. Both refute unrestricted possibility-implies-actuality with P(root) false but P true at accessible world 1. Edge flags, complete carriers and exact deterministic witness/counterexample lists are proved. These are semantic countermodels, not real-world possibilities.",
   "lean_declaration": "TruthCore.Modal.DResearch.WitnessChecks",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-SERIAL",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-D-POCKET",
-    "DEF-MODAL-D-FORK"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+    "1ef2d2af-b611-53dd-b1fa-86480e41ba6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

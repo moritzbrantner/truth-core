@@ -1,9 +1,23 @@
 {
-  "id": "CONVERGENT-ZENO-SCHEDULE",
+  "id": "cd15a31e-20ff-5b24-a994-6d52d6d43654",
+  "label": "The real-valued schedule whose stage n begins at time 1 - ^n is strictly increasing, every stage…",
+  "legacy_id": "CONVERGENT-ZENO-SCHEDULE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONVERGENT-ZENO-SCHEDULE",
-  "inference_ids": ["INF-CONVERGENT-ZENO-SCHEDULE"],
+  "conclusion_statement_id": "38034d91-4c0b-5964-b1e2-63f0940df526",
+  "inference_ids": [
+    "108fa857-7ca0-5db4-bff5-ea8a1d6f4817"
+  ],
   "meaning": "A premise-free mathematical model: the omega-plus-one supertask order of STMT-SUPERTASK-STABLE-ENDPOINT embeds into real time so that infinitely many stages, each strictly later than the last and with no last stage, fit before an endpoint at time 1 and have total duration 1. It is the convergent counterpart of the unit-cost control and refutes the bare inference from infinitely many stages to infinite total duration. It does not establish that infinitely many distinct physical operations can be performed in finite time (SU-REAL, #318 stays open), that the endpoint has a coherent output, or that anything explains the completion.",
-  "definition_ids": ["DEF-REAL-SEQUENCE-CONVERGENCE", "DEF-SUPERTASK-LIMIT-ENDPOINT", "DEF-UNCONDITIONAL-SUM", "DEF-ZENO-MOMENT-CLOCK", "DEF-ZENO-STAGE-DURATION", "DEF-ZENO-STAGE-TIME"],
-  "disambiguation_ids": ["DISAMB-SUPERTASK-ENDING", "DISAMB-SUPERTASK-LIMIT-NOTION"]
+  "definition_ids": [
+    "350637a5-0f31-57d2-8e70-c1240290e8f8",
+    "d564bb74-b5a6-50be-b390-3afb84887f32",
+    "66bac1f9-4891-5d3a-8977-c2215619f03f",
+    "a93383c7-d914-54ef-9449-217154bd58b8",
+    "852798a0-f932-5422-9065-c02a4cc405e3",
+    "6c5c1856-217e-5018-8096-4d75eb9ceafa"
+  ],
+  "disambiguation_ids": [
+    "fd6e6498-2f61-57db-accb-6168e6cd835d",
+    "d40c86a4-18dc-5250-beb0-dfb29be51e78"
+  ]
 }

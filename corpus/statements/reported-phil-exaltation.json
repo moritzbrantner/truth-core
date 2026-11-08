@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-PHIL-EXALTATION",
+  "id": "4fbdac84-adfc-5e86-9856-fa517b0ca8b2",
+  "label": "The letter presents God as highly exalting Christ Jesus and granting the name above every name…",
+  "legacy_id": "STMT-REPORTED-PHIL-EXALTATION",
   "paraphrase": "The letter presents God as highly exalting Christ Jesus and granting the name above every name, with the purpose that every knee in heaven, earth and under earth bow at Jesus’s name and every tongue confess Jesus Christ as Lord, to God the Father’s glory. Textual attribution only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.ReportedExaltation",
   "definition_ids": [
-    "DEF-PHIL-CHRISTOLOGY-REPORT"
+    "c9170618-ccb7-53ac-948d-35ad3ca39f65"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHIL-CHRISTOLOGY"
+    "10dde11a-643e-5295-89e6-27d15f130cb1"
   ]
 }

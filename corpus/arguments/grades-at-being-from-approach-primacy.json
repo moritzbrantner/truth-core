@@ -1,25 +1,27 @@
 {
-  "id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "id": "8eab5889-0f24-54c2-b303-a2b8b54fa4fc",
+  "label": "If some pair compares in the supplied esse respect, some in-act individual…, from approach primacy",
+  "legacy_id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
   "premise_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c"
   ],
-  "conclusion_statement_id": "STMT-GRADES-TO-MAXIMUM-AT-BEING",
+  "conclusion_statement_id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
   "inference_ids": [
-    "INF-GRADES-AT-BEING-FROM-APPROACH-PRIMACY"
+    "63427266-4a16-54c8-a8b9-3fa41ddef566"
   ],
   "meaning": "On the order of being by approach to a primary (ST I q.3 a.5 ad 2) with strict primacy (an open premise), the primary has being and nothing is more a being than it: anything that were would approach more nearly than the primary, while everything else approaches less nearly. So there is a maximum in being, whether or not grades are found.",
   "definition_ids": [
-    "DEF-BEING-ANALOGICAL",
-    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-STRICT-PRIMACY"
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-IN-ACT",
-    "DISAMB-ORDER-OF-BEING"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

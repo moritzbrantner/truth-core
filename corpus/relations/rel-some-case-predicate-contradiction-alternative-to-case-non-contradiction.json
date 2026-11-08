@@ -1,9 +1,11 @@
 {
-  "id": "REL-SOME-CASE-PREDICATE-CONTRADICTION-ALTERNATIVE-TO-CASE-NON-CONTRADICTION",
+  "id": "c4e12b91-f4c7-55f2-b4da-5abeb63c71c1",
+  "label": "Dialetheic rival to non-contradiction… alternative to Non-contradiction for the case…",
+  "legacy_id": "REL-SOME-CASE-PREDICATE-CONTRADICTION-ALTERNATIVE-TO-CASE-NON-CONTRADICTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE",
+  "subject_id": "e5097538-f9b9-5f7e-9060-12a087ca0f65",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CASE-NON-CONTRADICTION",
+  "object_id": "c425f0c5-6c3f-5115-ba04-3e61bd049e3b",
   "note": "Class: global_underminer for the case's logic. A dialetheist accepts some true contradictions; the classical refutation counts only relative to the F1 floor marking (D-L, #1007)."
 }

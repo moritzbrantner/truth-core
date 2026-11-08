@@ -1,20 +1,22 @@
 {
-  "id": "COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
+  "id": "ab00621c-2772-5456-a888-e6c276e0ee59",
+  "label": "Every candidate proposition accepted by the…, from At the designated labeled arrangement a…",
+  "legacy_id": "COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY",
   "premise_statement_ids": [
-    "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT"
+    "4f45ac2d-3bb1-5159-85db-0982225dfbd5"
   ],
-  "conclusion_statement_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "conclusion_statement_id": "7f6451e9-a533-5bfd-9899-16bb4164ecab",
   "inference_ids": [
-    "INF-COMPLETE-ARRANGEMENT-SELECTION-STRENGTHENS-FACTIVITY"
+    "675476f3-09a4-5326-a3db-2d1ecb5d830e"
   ],
   "meaning": "Sole-premise restriction from complete entailing selection to actual truth of every accepted candidate. True-only control witnesses strictness without independent adequacy.",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

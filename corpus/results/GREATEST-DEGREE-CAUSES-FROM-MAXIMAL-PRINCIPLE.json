@@ -1,6 +1,8 @@
 {
-  "id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
-  "argument_id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "id": "d787e47c-02cd-5ce9-923f-cc6d463bb387",
+  "label": "For an arbitrary selected perfection and supplied preorder of represented…, from MAXIMAL_5 principle",
+  "legacy_id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "argument_id": "99175796-43fd-5671-ab1e-5df3840f8474",
   "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
   "theorem": "TruthCore.Results.Causality.Round3FourthWay.greatestCausesFromMaximalPrinciple",

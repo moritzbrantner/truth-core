@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MIND-PHYSICAL-BASIS",
+  "id": "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+  "label": "PHYSICALLY_BASED_1; realized by: PhysicallyBased e means e is physical or RealizedBy e r for some…",
+  "legacy_id": "DEF-MIND-PHYSICAL-BASIS",
   "term": "physically based; realized by",
   "definition": "PhysicallyBased e means e is physical or RealizedBy e r for some physical r. RealizedBy relates a second-order occurrence, having some state that plays a role, to the first-order occurrence playing it. Example: a program step realized by a circuit event. Non-example: an effect of that circuit event, which is caused and not realized. It differs from causation in holding between an occurrence and what fills its role, with no assumed temporal order. No structural law is assumed. It is not bodily sharing in q.75 (DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING).",
   "basis": "stipulative",

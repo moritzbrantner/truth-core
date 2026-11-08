@@ -1,7 +1,9 @@
 {
-  "id": "INF-PSR-COLLAPSE-CORE",
+  "id": "a33f29bb-ef8c-5e16-ad3b-d937bbe85150",
+  "label": "Given that a conjunct is true wherever its aggregate is, no comparison…, by Model-construction",
+  "legacy_id": "INF-PSR-COLLAPSE-CORE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PSR-COLLAPSE-CORE",
+  "output_statement_id": "f3f3bf60-030c-5b49-874c-ef5a6c679af1",
   "rule": "model-construction",
   "meaning": "Prove the two inconsistencies generally from the lemma that a true necessitating reason for a contingent fact is contingent, and construct one deletion model for each member of the first bundle.",
   "assumption_statement_ids": [],

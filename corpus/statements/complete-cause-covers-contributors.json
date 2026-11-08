@@ -1,18 +1,20 @@
 {
-  "id": "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
+  "id": "55d1d0e7-f1b6-522b-9bf4-0514c998a828",
+  "label": "Every complete cause contains every supplied productive participant in producing its same effect…",
+  "legacy_id": "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS",
   "paraphrase": "Every complete cause contains every supplied productive participant in producing its same effect, under the fixed parthood order.",
   "lean_declaration": "TruthCore.Causality.CompleteCauseContributorCover.CompleteCauseCoversContributors",
   "definition_ids": [
-    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
-    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "a1834cd3-abaa-55f4-aeb4-195bc964c472",
+    "e7f5e58a-1199-5c33-912c-09a87ef554c4",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ],
   "note": "Covers is the existing upper-bound condition only; no fusion formation, no-extra-parts, causation of parts or cross-world sum identity is included. The participant family’s real interpretation remains OPEN."
 }

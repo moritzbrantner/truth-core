@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-BEING-MEASURE-EQUALITY",
-  "argument_id": "NECESSARY-BEING-MEASURE-EQUALITY",
+  "id": "7e5af3f2-8f50-5a4a-8b2e-90e7ea6384c4",
+  "label": "The supplied arbitrary measure assigns equal values to the…, from For the supplied family of Ontic…",
+  "legacy_id": "NECESSARY-BEING-MEASURE-EQUALITY",
+  "argument_id": "74c5fd65-5644-5926-a9ac-6c941eaeac8e",
   "challenge_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryBeingMeasure.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryBeingMeasure.measureEquality",

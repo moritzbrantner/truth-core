@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-IN-METAPH-V-L6-SUPPORTS-CAN-FAIL-OTHERWISE",
+  "id": "b83e92e5-0fc1-5ea7-9d5a-eb0cbc2a595a",
+  "label": "Thomas Aquinas, Sententia libri…: Whatever… supports Whatever can fail to be r…",
+  "legacy_id": "REL-AQUINAS-IN-METAPH-V-L6-SUPPORTS-CAN-FAIL-OTHERWISE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-IN-METAPH-V-L6-MORE-WAYS-OTHERWISE-A",
+  "subject_id": "3efb87e5-6659-5dcb-acec-1aa03de2c6d0",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-WHAT-CAN-FAIL-TO-BE-CAN-BE-OTHERWISE",
+  "object_id": "36c4f8ab-c833-56b7-8cfe-1cd46a6bcfa0",
   "note": "Partial support. The sentence ties being able to be in more ways to being able to be otherwise. Two steps to the bridge stay unattributed: that the two-way potency to r is an ability to be in more ways (it fails under the bare sense of 'can fail to be r', DISAMB-CAN-FAIL-TO-BE-OR-BE-OTHERWISE), and that the respect of being otherwise is r."
 }

@@ -1,17 +1,19 @@
 {
-  "id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a CONCRETE_6 individual…",
+  "legacy_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
   "paraphrase": "Every concrete individual that exists at w and is contingent at w (absent at some accessible world) has a concrete individual existing at w as a ground under the selected relation at w. It does not require the ground to be distinct from it or say that nothing else is ungrounded. An open premise, not attributed to any source; given excluded middle it is equivalent to there being no contingent actual root of the selected relation.",
   "lean_declaration": "TruthCore.Causality.BruteFoundationBoundary.EveryContingentGroundedAt",
   "definition_ids": [
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

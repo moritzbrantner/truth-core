@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
-  "argument_id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "id": "02b50f9d-694f-5dc1-a6ba-0fb995150cf7",
+  "label": "Under the separately recorded…, from V1 does not calibrate cognitive meaning… and 4 more",
+  "legacy_id": "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "argument_id": "28ff9f39-ce12-53f4-bbfe-bef8274ad5d8",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.NamedRejectionBound.namedRejection",

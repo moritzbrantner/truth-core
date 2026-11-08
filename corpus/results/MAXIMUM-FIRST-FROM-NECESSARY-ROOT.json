@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
-  "argument_id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "id": "934c0b41-aaa4-5165-a6d2-57b5f27b6bee",
+  "label": "Whatever is maximal in being is the first being, i.e. nothing other than it…, from NECESSARY_1 root",
+  "legacy_id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "argument_id": "f53dd124-1e36-5825-add7-181a52446635",
   "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.maximumFirstOfNecessaryRoot",

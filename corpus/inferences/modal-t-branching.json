@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-T-BRANCHING",
+  "id": "7b1ff49a-71da-58fa-934e-0fd92757eb4f",
+  "label": "The shared two-world reflexive branching model has a full- and fixed-language…, by Direct-proof",
+  "legacy_id": "INF-MODAL-T-BRANCHING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-T-BRANCHING",
+  "output_statement_id": "d0bd05b1-42dd-50b6-a2d3-f2daea45f38a",
   "rule": "direct-proof",
   "meaning": "Reuse the exact branching model and its existing root failures. Prove endpoint persistence by enumerating its only successor. Use self-access to refute necessary collapse, the independent atom and its negation to witness contingency and failure of possibility entails actuality, and the atom to prove language world extensionality.",
   "assumption_statement_ids": [],

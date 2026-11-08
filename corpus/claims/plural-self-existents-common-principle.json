@@ -1,17 +1,19 @@
 {
-  "id": "ANSELM-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
-  "statement_id": "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
-  "source_id": "ANSELM-MONOLOGION",
+  "id": "7e395c8e-8d4e-5b2f-8b59-920eb4cb5c20",
+  "label": "Anselm of Canterbury, Monologion Cap.3…: Proposed step: if several things each exist through…",
+  "legacy_id": "ANSELM-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+  "statement_id": "db843337-a0f8-5c76-b484-3261fc1311f2",
+  "source_id": "b2f522f6-0dec-5ad8-ad14-12f69c009c2f",
   "locator": "cap.3 paragraph adcmon-c3-d1e119, Si vero ipsa plura singula sunt per se clause",
   "interpretation": "Preserves the distinct independent-self-existents branch and the proposed one vis vel natura existendi per se. No numerical common nature, abstract-to-concrete realization or identity of supposed self-existents is proved by the source record.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ANSELMIAN-PER-ALIQUOD",
-    "DEF-ANSELMIAN-PER-SE",
-    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
-    "DEF-ANSELMIAN-HIGHEST-NATURE"
+    "5703c52a-6dc5-5bea-9e40-4f82329580da",
+    "94c57ba5-5ecb-545f-9cd9-932ac7b7b4a2",
+    "7e27ade0-f861-5ce7-8ff0-da747c1655ce",
+    "65605663-1180-5a11-9f7f-467bc46ef3c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+    "84fccfd4-8abe-521c-9b8b-ffc8785a24d3"
   ]
 }

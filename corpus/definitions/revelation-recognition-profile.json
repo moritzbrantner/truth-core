@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REVELATION-RECOGNITION-PROFILE",
+  "id": "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+  "label": "Admitted possible recognition of…: A RecognitionProfile indexes candidate situations, their…",
+  "legacy_id": "DEF-REVELATION-RECOGNITION-PROFILE",
   "term": "admitted possible recognition of revelation",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionProfile",

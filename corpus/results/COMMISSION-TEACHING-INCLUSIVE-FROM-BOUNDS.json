@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
-  "argument_id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "id": "0e160cd9-2619-5b07-a2e5-b53d18596cb3",
+  "label": "The selected governing predicate holds exactly for the existing narrow table or the…, from bounds",
+  "legacy_id": "COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "argument_id": "ff26da0a-d986-53bf-ae87-9b3b4d07c908",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.teachingInclusiveFromBounds",

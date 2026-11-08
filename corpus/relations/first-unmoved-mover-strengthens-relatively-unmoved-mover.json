@@ -1,10 +1,12 @@
 {
-  "id": "REL-FIRST-UNMOVED-MOVER-STRENGTHENS-RELATIVELY-UNMOVED-MOVER",
+  "id": "45fe0061-daac-535d-8068-142a2880fc27",
+  "label": "It is impossible that there be no first… strengthens It is impossible that there be no mover…",
+  "legacy_id": "REL-FIRST-UNMOVED-MOVER-STRENGTHENS-RELATIVELY-UNMOVED-MOVER",
   "subject_kind": "statement",
-  "subject_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+  "subject_id": "c1b68c21-fa36-5ab0-a499-444259eda78a",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING",
-  "verification_result_id": "AQUINAS-ST-I-Q2-A3-ABSOLUTE-READING-ENTAILS-RELATIVE",
+  "object_id": "621821f4-e2b4-50f6-a0ca-53941e7f843b",
+  "verification_result_id": "a5060bcf-63e7-500b-a838-90490f006b50",
   "note": "The absolute (a nullo movetur) and relative (unmoved as mover of its series) conclusions of the two First Way readings (#151). The model-quantified premise-free fact AQUINAS-ST-I-Q2-A3-ABSOLUTE-CONCLUSION-ENTAILS-RELATIVE proves the same entailment in every motion model; this registration binds it to the two statements. No strictness countermodel is registered."
 }

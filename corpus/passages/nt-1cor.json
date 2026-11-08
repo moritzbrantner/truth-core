@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-1COR",
+    "source_id": "0281ee66-52e8-5421-9bfa-277cbca8269e",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg007.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-1COR-15",
+      "id": "e07cbd44-5f04-5650-88ed-69eaaa7222b8",
+      "label": "Paul, First Corinthians, 15",
+      "legacy_id": "NT-1COR-15",
       "locator": "15",
       "claim_locator_prefixes": [
         "15."

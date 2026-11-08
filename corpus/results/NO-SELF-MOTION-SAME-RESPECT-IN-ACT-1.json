@@ -1,6 +1,8 @@
 {
-  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
-  "argument_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "id": "65046f67-bf8b-525a-9578-6d38710c07a7",
+  "label": "Nothing that is being moved in a…, from Nothing is moved except insofar as it is in… and 2 more (4)",
+  "legacy_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "argument_id": "b44126c7-fb70-57a6-a239-21bb49ce5fc1",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks2.noSelfMotionFormally",

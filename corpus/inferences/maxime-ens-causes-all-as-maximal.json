@@ -1,10 +1,12 @@
 {
-  "id": "INF-MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL",
+  "id": "ec15232b-2f4b-58fb-b259-46c6320e0c19",
+  "label": "There is something maximally being that is the cause of being to…, by Existential elimination… (2)",
+  "legacy_id": "INF-MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL",
   "input_statement_ids": [
-    "STMT-SOME-BEING-MAXIMAL-IN-BEING",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+    "fad8af3e-3e4e-582a-a592-0164bdd62527",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7"
   ],
-  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
   "rule": "Existential elimination and modus ponens",
   "meaning": "MAXIME_1 branch of the quarta via's last step: some being is MAXIMAL in being, and whatever is MAXIMAL in being causes being in every other being; so some MAXIMAL being causes being in every other being.",
   "assumption_statement_ids": [],

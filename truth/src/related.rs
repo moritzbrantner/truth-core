@@ -14,7 +14,8 @@ use serde_json::{Map, Value};
 use std::collections::{BTreeMap, BTreeSet, HashMap};
 
 pub const DEFAULT_LIMIT: i64 = 10;
-const CONFIGURATION_FALSE: &str = "STMT-CONFIGURATION-FALSE";
+/// `legacy_uuid("statement", "STMT-CONFIGURATION-FALSE")`.
+const CONFIGURATION_FALSE: &str = "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5";
 const STOP_WORDS: &str = "a an the is are of to and or in for that this its it with by from as not every all some only has have be being";
 
 /// Why a lookup failed; `Unknown` is an unknown exact ID.
@@ -424,10 +425,14 @@ pub fn related(
     for (other, group) in &tokens {
         let overlap: Vec<String> = own.intersection(group).cloned().collect();
         if overlap.len() >= 2 {
-            let score = overlap
+            // Match Python's lexical accumulation; libm's last bits must not reorder ties.
+            let score = (overlap
                 .iter()
                 .map(|word| (1.0 + tokens.len() as f64 / counts[word.as_str()] as f64).ln())
-                .sum::<f64>();
+                .sum::<f64>()
+                * 1e10)
+                .round()
+                / 1e10;
             text_scores.insert(other, score);
             add(
                 other,

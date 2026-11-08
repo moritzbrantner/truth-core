@@ -1,20 +1,22 @@
 {
-  "id": "INTELLECTUAL-INCLINATION-CONTROLS",
+  "id": "530bd805-2de8-5491-8347-9d6af18246cb",
+  "label": "Finite interpretations with one intellectual being and one intelligible and one natural form",
+  "legacy_id": "INTELLECTUAL-INCLINATION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-INTELLECTUAL-INCLINATION-CONTROLS",
+  "conclusion_statement_id": "c602d0ef-a3cf-55a0-ac6d-9e9e96088de4",
   "inference_ids": [
-    "INF-INTELLECTUAL-INCLINATION-CONTROLS"
+    "7a88889c-93a0-52b8-aea0-6a17e2bf14a4"
   ],
   "meaning": "Finite interpretations with one intellectual being and one intelligible and one natural form. Omitting the inclination premise, the intelligible-form premise (the being has only a natural form, whose inclination follows without will), or the recognition step makes will fail with the other two holding; all three hold together with will.",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-HAS-INTELLECT",
-    "DEF-NATURAL-APPETITE-FORM-INCLINATION",
-    "DEF-COGNITION-RELATIVE-APPETITE"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "678b9306-81f1-5c61-ab90-6e4594395b50",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE",
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
-    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058",
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82"
   ]
 }

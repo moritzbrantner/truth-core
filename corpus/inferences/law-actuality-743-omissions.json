@@ -1,7 +1,9 @@
 {
-  "id": "INF-LAW-ACTUALITY-743-OMISSIONS",
+  "id": "b9980335-86b9-54ee-84da-a4bb5baf9db6",
+  "label": "At every n the first unrecorded value identifies both laws but is not…, by Direct-proof",
+  "legacy_id": "INF-LAW-ACTUALITY-743-OMISSIONS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LAW-ACTUALITY-743-OMISSIONS",
+  "output_statement_id": "75d9a7c8-03f9-5053-ba6c-dad9004ce7b9",
   "rule": "direct-proof",
   "meaning": "Use the first unobserved value and exact state measurements for positive identification/determination. Restrict the correctness demand to the true-law candidate for the constant estimator. Keep law satisfaction unchanged while emptying represented existence and presence. Compose TruthCore.Results.Causality.ChainInstantiation.controls rather than reproving its prior omission models.",
   "assumption_statement_ids": [],

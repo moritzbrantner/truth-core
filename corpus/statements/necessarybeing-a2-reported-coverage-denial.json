@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
+  "id": "64ab0f61-b645-5ed9-bd6b-e127abb42133",
+  "label": "It is not necessary that every concrete thing belongs to a causal chain both lacking a first…",
+  "legacy_id": "STMT-NB-A2-REPORTED-COVERAGE-DENIAL",
   "paraphrase": "Conditional on the selected negative A2P1 answer: it is not necessary that every concrete thing belongs to a causal chain both lacking a first member and without even partial outside causes. Here concrete retains the question's cause-OR-effect capability domain; this is a reported input, not a proof of its truth or automatically the narrower A2c premise.",
   "definition_ids": [
-    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

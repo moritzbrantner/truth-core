@@ -1,6 +1,8 @@
 {
-  "id": "CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
-  "argument_id": "CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
+  "id": "89605d34-ecc7-5b4d-bff2-0784d130ba66",
+  "label": "The existential source-backed actual-concrete supply premise is equivalent to an actual concrete\u2026",
+  "legacy_id": "CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
+  "argument_id": "84e3a43a-7762-597c-afbc-9dff7fe39646",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.supplyRootEquivalence",

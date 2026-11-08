@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NECESSARY-IF-EXISTENT",
+  "id": "bd1281e6-75b3-5503-8c0a-f97213388c88",
+  "label": "At the named standpoint, every accessible world at which G holds accesses only G-WORLDS_9: \u25a1. This\u2026",
+  "legacy_id": "STMT-NECESSARY-IF-EXISTENT",
   "paraphrase": "At the named standpoint, every accessible world at which G holds accesses only G-worlds: \u25a1(G \u2192 \u25a1G). This does not assert any G-world.",
   "lean_declaration": "TruthCore.Modal.NecessaryIfExistent.NecessaryIf",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-NECESSARY-IF-EXISTENT-PROFILE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-IF-EXISTENT-SYMMETRY"
+    "7181df76-d6ed-5226-a34b-08910ddbe6a0"
   ]
 }

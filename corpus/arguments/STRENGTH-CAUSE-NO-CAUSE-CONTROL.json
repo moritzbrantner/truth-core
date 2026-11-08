@@ -1,16 +1,18 @@
 {
-  "id": "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+  "id": "722ffdec-7af9-52ca-a357-f96529299d26",
+  "label": "With every Bool entity generated and no causal pairs, the local alternative-CAUSE_2 condition holds…",
+  "legacy_id": "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL",
+  "conclusion_statement_id": "aafc7343-c635-52fa-8947-0542956ee8af",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-NO-CAUSE-CONTROL"
+    "724eb295-154e-5a49-9e41-853516436fa4"
   ],
   "meaning": "The empty-cause Bool control has D but not W, so D alone is not the strong principle.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

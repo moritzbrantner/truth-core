@@ -1,14 +1,16 @@
 {
-  "id": "AQUINAS-ST-I-II-Q94-A2-PER-SE-NOTUM-DEFINITION",
-  "statement_id": "STMT-PER-SE-NOTUM-PREDICATE-IN-SUBJECT",
-  "source_id": "AQUINAS-ST",
+  "id": "4ceea534-4c70-5160-a23b-20bc7e608be0",
+  "label": "Thomas Aquinas, Summa theologiae I ii q.94…: A proposition is self-evident in itself when its…",
+  "legacy_id": "AQUINAS-ST-I-II-Q94-A2-PER-SE-NOTUM-DEFINITION",
+  "statement_id": "eca56e14-0c31-559d-ab28-86f82a28c827",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I-II q.94 a.2 co.: Secundum se quidem quaelibet propositio dicitur per se nota, cuius praedicatum est de ratione subiecti; contingit tamen quod ignoranti definitionem subiecti, talis propositio non erit per se nota",
   "interpretation": "Aquinas distinguishes self-evidence in itself from self-evidence to us. Predicate-in-the-account-of-the-subject gives the first; someone ignorant of the subject’s definition need not recognize it. This is the definition used in the natural-law context, not a claim that a corpus premise has already earned a self_evident marking.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NATURAL-LAW-PER-SE-NOTA"
+    "e5479060-c1e7-5eea-ac3e-2b3a74f4db05"
   ],
   "disambiguation_ids": [
-    "DISAMB-PER-SE"
+    "002f42cb-3015-5644-80b3-d408538394e6"
   ]
 }

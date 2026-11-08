@@ -1,7 +1,11 @@
 {
-  "id": "DEF-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE",
+  "id": "ab6b1754-64b8-5e9e-9d7b-073c0e9f6b23",
+  "label": "Placed Fred particle's position…: In the Grim Placer thought experiment, a Fred particle marks a…",
+  "legacy_id": "DEF-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE",
   "term": "placed Fred particle's position persistence",
   "definition": "In the Grim Placer thought experiment, a Fred particle marks a warrant by occupying a position. Position persistence here means that this created-and-placed particle continues to occupy that position throughout the later remainder of the same stipulated GP sequence. It is within-sequence temporal persistence at a location, not existence in every possible world, necessary existence, persistence of every physical object or mere preservation of an abstract signal message.",
   "basis": "sourced",
-  "claim_ids": ["KOONS-GRIM-PLACER-PARTICLE-POSITION-PERSISTENCE"]
+  "claim_ids": [
+    "ac00b635-7ed6-54bf-8a14-aef55b8a2c91"
+  ]
 }

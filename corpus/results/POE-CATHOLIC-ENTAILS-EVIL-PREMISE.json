@@ -1,6 +1,8 @@
 {
-  "id": "POE-CATHOLIC-ENTAILS-EVIL-PREMISE",
-  "argument_id": "POE-CATHOLIC-ENTAILS-EVIL-PREMISE",
+  "id": "b64ce28f-59b0-5d8e-b6ab-cd1fcabbad48",
+  "label": "The sentence 'there is evil in the…, from An all-powerful being is able to eliminate… and 14 more",
+  "legacy_id": "POE-CATHOLIC-ENTAILS-EVIL-PREMISE",
+  "argument_id": "3672b1cf-a387-5463-9187-438a47ee099b",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicEntailsEvilPremise.catholicEntailsEvilPremise",

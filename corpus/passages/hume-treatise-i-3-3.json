@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20260915141302id_/https://davidhume.org/texts/t/1/3/3",
     "wayback_sha256": "sha256:88a0241b46a39f5221ea8506978e3c1d67621674d11c363d93f7748675c6c83b",
     "kind": "web_snapshot",
-    "source_id": "HUME-TREATISE",
+    "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Hume original English text (1739), public domain; Hume Texts Online digital presentation. Only hashes, locators and a short incipit committed; no license to the presentation asserted. A fixed 2026-09-15 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "HUME-TREATISE-I-3-3",
+      "id": "978696b9-80af-53db-8490-bc6f8bdab454",
+      "label": "David Hume, A Treatise of Human Nature, I.3.3 \u00a7\u00a71\u20139",
+      "legacy_id": "HUME-TREATISE-I-3-3",
       "locator": "I.3.3 \u00a7\u00a71\u20139",
       "claim_locator_prefixes": [
         "I.3.3,"

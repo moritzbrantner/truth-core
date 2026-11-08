@@ -14,7 +14,8 @@ use crate::transcription::Flag;
 use serde_json::{Map, Value, json};
 use std::collections::{BTreeMap, BTreeSet, HashMap, HashSet};
 
-pub const DEFAULT_ROOT: &str = "STMT-CATHOLICISM-TRUE";
+/// `legacy_uuid("statement", "STMT-CATHOLICISM-TRUE")`.
+pub const DEFAULT_ROOT: &str = "53964cbe-5831-5812-af33-4d87896d47a7";
 const QUEUE_CANDIDATE_LIMIT: usize = 5;
 const QUEUE_TEXT_ATTEMPT_LIMIT: usize = 5;
 
@@ -388,7 +389,20 @@ pub fn thickness_queue(frontier: &FrontierInputs, report: &Value, records: &Reco
                     candidates.push((shared, other));
                 }
             }
-            candidates.sort_by(|a, b| b.0.len().cmp(&a.0.len()).then(a.1.cmp(b.1)));
+            // Ties break by legacy id, else uuid (`corpus_ids.order_key`).
+            let order = |id: &str| {
+                statements
+                    .get(id)
+                    .and_then(|statement| statement.get("legacy_id"))
+                    .and_then(Value::as_str)
+                    .unwrap_or(id)
+                    .to_owned()
+            };
+            candidates.sort_by(|a, b| {
+                b.0.len()
+                    .cmp(&a.0.len())
+                    .then_with(|| order(a.1).cmp(&order(b.1)))
+            });
         }
         let mut attempts = attempts_by_statement
             .get(statement_id)

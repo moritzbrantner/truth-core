@@ -1,20 +1,22 @@
 {
-  "id": "SOURCE-FOREST-OMISSION-CONTROLS",
+  "id": "d27c08be-872c-5ca7-b2eb-e125e4d4f815",
+  "label": "The fixed fork, isolated pair, integer chain and empty graph witness the separate limits of…",
+  "legacy_id": "SOURCE-FOREST-OMISSION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SOURCE-FOREST-OMISSION-CONTROLS",
+  "conclusion_statement_id": "1c8ec5b3-fdc8-5cf2-882b-0cbd86b9ee61",
   "inference_ids": [
-    "INF-SOURCE-FOREST-OMISSION-CONTROLS"
+    "23678f61-c52d-50e3-ba25-6657290fe063"
   ],
   "meaning": "Verify the four fixed data tables: V-shaped connected WF/acyclic graph has distinct sources when unique immediate predecessor is dropped; isolated nodes drop connectivity; the connected left-unique integer chain has no source and is not WF; Empty retains universal structural conditions but has no node or source. Integer indices are nodes, not time. These are logical controls, not metaphysical possibility claims. The same Comparator config checks the frozen LeftUnique atMostOne/rooted corollaries.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-SOURCE-FOREST-CONTROLS"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "7afa1576-0569-5a72-8567-b7c582f957ad"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STRENGTH-ORDER-ALLOWED-CASES",
+  "id": "2eaec4c6-3095-5086-9813-f270fb8c7904",
+  "label": "For every mathematical linear order and shared x,y, y ≥ x holds exactly when y > x or y = x; no…",
+  "legacy_id": "STRENGTH-ORDER-ALLOWED-CASES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRENGTH-ORDER-ALLOWED-CASES",
+  "conclusion_statement_id": "4ea089d2-de35-52db-af6b-dee0f1de78c2",
   "inference_ids": [
-    "INF-STRENGTH-ORDER-ALLOWED-CASES"
+    "9a971d15-edc0-5919-85fd-de626375f400"
   ],
   "meaning": "Use pinned Mathlib le_iff_lt_or_eq and equality symmetry to obtain y ≥ x iff y > x or y = x. This disjunction selects no branch.",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

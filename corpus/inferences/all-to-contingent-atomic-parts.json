@@ -1,9 +1,11 @@
 {
-  "id": "INF-ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "id": "1f438e04-553d-58ed-a5d8-b6a38c5964cc",
+  "label": "Every actually contingent object at the selected world has a simple…, by Structural-restriction",
+  "legacy_id": "INF-ALL-TO-CONTINGENT-ATOMIC-PARTS",
   "input_statement_ids": [
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART"
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3"
   ],
-  "output_statement_id": "STMT-CONTINGENT-ATOMIC-PARTS",
+  "output_statement_id": "83fdeb19-900c-5416-a828-2a1c9da983e8",
   "rule": "structural-restriction",
   "meaning": "Structural restriction/assembly: specialize all-actual-object AtomicParts to actual contingent objects. No atomicity premise is established.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
+  "id": "e6b445d4-6d2e-5c7f-82f9-061810bf2ad3",
+  "label": "Necessary implication from total…: NecessaryImplication A a q p means at every accessible world…",
+  "legacy_id": "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
   "term": "necessary implication from total condition",
   "definition": "NecessaryImplication A a q p means at every accessible world truth of q implies truth of p. For the C/N/S interpretation q represents all relevant total-ground conditions including enablers; the theorem itself is a modal schema and does not establish that any supplied q is complete, actual or explanatory.",
   "basis": "stipulative",

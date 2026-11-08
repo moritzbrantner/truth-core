@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-CONTRASTIVE-WORLDVIEW",
-  "argument_id": "LOGIC-CONTRASTIVE-WORLDVIEW",
+  "id": "82e41e84-7319-579a-bbb6-426d7ab4dfde",
+  "label": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported…",
+  "legacy_id": "LOGIC-CONTRASTIVE-WORLDVIEW",
+  "argument_id": "ce93573d-14d7-5957-a971-abf1d0f574a7",
   "challenge_module": "TruthCore.Results.Logic.ContrastiveWorldview.Challenge",
   "solution_module": "TruthCore.Results.Logic.ContrastiveWorldview.Solution",
   "theorem": "TruthCore.Results.Logic.ContrastiveWorldview.certificate",

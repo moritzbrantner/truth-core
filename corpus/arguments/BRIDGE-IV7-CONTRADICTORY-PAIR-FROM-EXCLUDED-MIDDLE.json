@@ -1,11 +1,13 @@
 {
-  "id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "id": "6351bf87-7563-5c19-9720-9f160a740b3c",
+  "label": "Every state either has F or lacks it: no state lies between the two sides of…, from excluded middle",
+  "legacy_id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES",
+  "conclusion_statement_id": "78842acb-e26c-5d26-9995-cdb26e5ce9eb",
   "inference_ids": [
-    "INF-BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE"
+    "5b6a558d-857c-5764-b3df-3d197fc1bb9b"
   ],
   "meaning": "Bridge (#401), an instance of excluded middle: the conclusion of the change argument, *Metaphysics* IV.7, 1011b29-1012a1 (STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES: every state has F or lacks it), is an instance of excluded middle (STMT-EXCLUDED-MIDDLE) per state. The proof only instantiates the premise. It connects the change argument's conclusion to the self-evident principle; it says nothing about the change argument's own premises, which the withholder also withholds."
 }

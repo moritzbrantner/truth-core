@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "id": "d1f478e8-cc6f-5d8a-9303-a91f861a1518",
+  "label": "Some actual thing has the POTENCY_3 capacity for its act, by Reductio",
+  "legacy_id": "INF-CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
   "input_statement_ids": [
-    "STMT-SOME-CAPACITY-EXERCISED"
+    "b140eb14-da03-5623-9f30-0b71eb572d02"
   ],
-  "output_statement_id": "STMT-CAPACITY-NON-SIMULTANEITY-FAILS",
+  "output_statement_id": "578f43f1-814f-5109-b9fe-0eb7c2b0150d",
   "rule": "Reductio",
   "meaning": "Per-sense failure of the CAPACITY branch: a CAPACITY retained while exercised falsifies 'nothing in act has the CAPACITY for that act'.",
   "assumption_statement_ids": [],

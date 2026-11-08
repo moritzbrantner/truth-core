@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "OCKHAM-SUMMA-LOGICAE",
+    "source_id": "5b6a2b8d-3790-581e-b238-d1a60ad0a400",
     "source_url": "https://www.logicmuseum.com/x/index.php?title=Authors/Ockham/Summa_Logicae/Book_I/Chapter_17&oldid=7249&action=raw",
     "retrieved_at": "2026-10-28T20:12:21Z",
     "sha256": "sha256:e4cdea8dbca4893ce5f479df976ed0dbea16a4fd671c1792881878dc5485b0aa",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "OCKHAM-SL-I-17",
+      "id": "83442d67-0526-5754-ae03-f39e49e41b85",
+      "label": "William of Ockham, Summa logicae, Summa logicae I.17, whole chapter, Logic Museum revision…",
+      "legacy_id": "OCKHAM-SL-I-17",
       "locator": "Summa logicae I.17, whole chapter, Logic Museum revision 7249 (Latin with accompanying English)",
       "claim_locator_prefixes": [
         "I.17:"

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-NECESSARY-TARGET-ENTAILMENT-DOES-NOT-DISTINGUISH-FULLNESS",
+  "id": "82624d0f-1afe-587f-82f6-9cca9de0b8a8",
+  "label": "A necessary target truth can have merely partial grounds even though its proposition is modally…",
+  "legacy_id": "STMT-NECESSARY-TARGET-ENTAILMENT-DOES-NOT-DISTINGUISH-FULLNESS",
   "paraphrase": "A necessary target truth can have merely partial grounds even though its proposition is modally entailed by the propositions corresponding to those grounds; modal entailment alone does not distinguish full from partial grounding.",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

@@ -1,21 +1,23 @@
 {
-  "id": "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
+  "id": "90e85f77-9e24-56d5-af19-172fc28b55a1",
+  "label": "Weak, cause-of-being version of cause has what it gives: whatever causes a…, from preexistence",
+  "legacy_id": "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
   "premise_statement_ids": [
-    "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
-    "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT"
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+    "67aa5b5c-694b-50a1-90e5-d843234db924"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES",
+  "conclusion_statement_id": "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
   "inference_ids": [
-    "INF-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE"
+    "dfd5399a-8576-51ab-be97-95cbe6d81ab3"
   ],
   "meaning": "From ST I q.4 a.2 (the perfections of a thing whose being a cause causes are in that cause) and the OPEN premise that a caused perfection is had by its effect, a cause of a thing's being has every perfection it causes in that thing. Only this weak, cause-of-being version follows: the map's edge to the unrestricted STMT-CAUSE-HAS-WHAT-IT-GIVES would need every cause of a perfection to be a cause of being, which the heater refutes.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

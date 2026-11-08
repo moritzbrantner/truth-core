@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSARY-PART-FUSION-DECOMPOSITION",
+  "id": "3d6c4ada-6564-5eed-bd9a-b5ed890cc658",
+  "label": "Some candidate q is part of the SAME selected x and has no…, by Selected-necessary-fusion-ove…",
+  "legacy_id": "INF-NECESSARY-PART-FUSION-DECOMPOSITION",
   "input_statement_ids": [
-    "STMT-SELECTED-OBJECT-NOT-NECESSARY-AT",
-    "STMT-OVERLAP-EXTENSIONAL-PARTHOOD",
-    "STMT-SELECTED-NECESSARY-PARTS-FUSION-AT"
+    "dc48e98f-9630-53ed-8aac-d3a357dedbd9",
+    "645aaccf-04a8-5e87-bd89-cc2b9c2c65d5",
+    "1890c9c3-38b9-511a-bfb5-72aafbe88dae"
   ],
-  "output_statement_id": "STMT-HAS-NO-NECESSARY-PARTS-PART-AT",
+  "output_statement_id": "9823f6fa-d864-55b0-a015-cf3810c90915",
   "rule": "selected-necessary-fusion-overlap-separation-and-common-part-contradiction",
   "meaning": "If x has no necessary part, choose x itself. Otherwise use the selected necessary-parts fusion n and its explicit necessity. Fusion’s no-extra-parts clause plus overlap-extensional parthood place n below x. Nonnecessity of x makes x distinct from necessary n, so x is not part of n. Classical overlap separation yields a common part q of x and an object disjoint from n. Any necessary r below q would belong to the selected family and hence be below n by Fusion’s upper-bound clause, contradiction. Return the SAME candidate q without necessary parts. No actual existence, ordinary contingency, necessity-downward, unrestricted fusion, causal role or source truth follows.",
   "assumption_statement_ids": [],

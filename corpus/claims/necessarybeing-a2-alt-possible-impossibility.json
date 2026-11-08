@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY",
-  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "d1704753-def3-5c40-8314-b3d8e43ba867",
+  "label": "Unattributed website author, Necessary…: If a situation can be impossible, it is actually… (4)",
+  "legacy_id": "NB-SURVEY-A2-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "ebe396a1-6118-57c8-8199-2b814d0dee2c",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2C2, modal paragraph after causal step 11: recalled possible-impossibility report and contraposition",
   "interpretation": "The author recalls the affirmative answer to the A2P2B question and derives necessity of possibility by contraposition/duality. The input remains conditional on that answer; P2B itself only asks the question. No actual response, justified premise truth, formal S5 theorem or frame characterization is attributed. The following twelve-step suffix is already covered by the existing shared source/modal audit and is not duplicated.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abdbe5ff-2931-5574-bab7-f36e05f57c7c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

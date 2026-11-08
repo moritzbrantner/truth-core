@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-IN-METAPH",
+    "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
     "source_url": "https://www.corpusthomisticum.org/cmp09.html",
     "sha256": "sha256:2cd10ecea2d6db5d61c8a242a919f58dd8422d4b76c4b1e0ee7d7179fc786f32",
     "encoding": "iso-8859-1",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-IN-METAPH-IX-L7-L9",
+      "id": "3b257771-7d75-5842-9291-b75815b72244",
+      "label": "Thomas Aquinas, Sententia libri Metaphysicae, IX, lect. 7–9",
+      "legacy_id": "AQUINAS-IN-METAPH-IX-L7-L9",
       "locator": "IX, lect. 7–9",
       "html_selector": {
         "from": {

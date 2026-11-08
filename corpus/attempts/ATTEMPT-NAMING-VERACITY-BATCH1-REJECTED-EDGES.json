@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-NAMING-VERACITY-BATCH1-REJECTED-EDGES",
+  "id": "253f4671-7ae5-5b91-862a-867abcb123f5",
+  "label": "Four mapped edges rejected before certification. god names the fully described principle: the…",
+  "legacy_id": "ATTEMPT-NAMING-VERACITY-BATCH1-REJECTED-EDGES",
   "statement_ids": [
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
-    "STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS",
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+    "e39a4fce-ccaf-5862-836e-9317923842f3",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "5f00cb73-5899-5399-850d-47eec2c21291"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "rejected",
   "summary": "Four mapped edges rejected before certification (maps explorations/god-names-fully-described.toml, revelation-possible.toml, god-founded-authority-truth.toml). STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE: the mapped extra premise 'full description entails reduced' is idle, since the reduced naming leaf alone entails the fuller one by antecedent strengthening; certified instead as a strength registration. STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS: the source edge from STMT-MAXIME-ENS-IS-WHAT-WE-CALL-GOD cannot be typed without editing that untyped existing statement; replaced by the typed operation-naming derivation. STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE: omnipotence, noncontradiction and exclusive signs cannot entail the primitive Signature field RevealsRecognizably without a bridge to it; the analysis bridge STMT-RECOGNIZABLE-REVELATION-ANALYSIS was added. STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED: a single founder-guarantee premise whose consequent is the conclusion would be a transcription; split through assistance.",
   "evidence": [
-    "NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
-    "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
-    "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
-    "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED"
+    "5b1d8323-915e-527c-ab31-a12c090146d2",
+    "7280ac5f-a642-5cec-b37f-65269b95fc23",
+    "f1b8f06c-bacc-54a9-8506-1e4b1f7fd30b",
+    "863428ad-f963-5fdb-907c-8da1ba17b662"
   ]
 }

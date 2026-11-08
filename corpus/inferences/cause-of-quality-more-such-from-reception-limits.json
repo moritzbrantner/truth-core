@@ -1,14 +1,16 @@
 {
-  "id": "INF-CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
+  "id": "6e7a9c64-6ec9-5585-ad54-d798a652b0ba",
+  "label": "Whatever causes a quality in another thing is more such than that thing, by Universal instantiation…",
+  "legacy_id": "INF-CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
   "input_statement_ids": [
-    "STMT-CAUSE-HAS-WHAT-IT-GIVES",
-    "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
-    "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT",
-    "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
-    "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+    "376d6a5a-c179-5090-b57c-f9a371222899",
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
+    "39a4c28c-4a75-5918-96bf-16a5acd8e783",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "7030af77-c1d4-5f67-bc0c-875048d1b55c"
   ],
-  "output_statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "output_statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
   "rule": "Universal instantiation, modus ponens and modus tollens",
   "meaning": "Derives the Metaphysics II.1 / Posterior Analytics I.2 premise that a distinct cause of a quality is more such, from six OPEN analyst premises: the cause has what it gives; a perfection caused in another is received in it; reception limits by the recipient; limitation by z is only through reception in z; the cause's perfection is not received in its effect; and an unlimited possessor exceeds a limited one. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. It does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so it does not close a cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER.",
   "assumption_statement_ids": [],

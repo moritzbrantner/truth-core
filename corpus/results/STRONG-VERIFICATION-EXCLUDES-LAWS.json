@@ -1,6 +1,8 @@
 {
-  "id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
-  "argument_id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "id": "981c16b5-1564-57e7-bb3e-a2adc52a4ddc",
+  "label": "Strong verification excludes universal laws: in every setting with infinitely many individuals…",
+  "legacy_id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "argument_id": "5e9465e7-38a0-5fb7-aaeb-316fa19e1835",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.StrongVerificationLaws.strongVerificationExcludesLaws",

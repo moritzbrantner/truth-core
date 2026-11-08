@@ -1,6 +1,8 @@
 {
-  "id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
-  "argument_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "id": "81ca8216-ddf6-5d47-ba1b-a3473d306a9b",
+  "label": "Each of the three ¬F7 cells of q f7 has an interpretation in which something is moved",
+  "legacy_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "argument_id": "960820f3-cf61-53c4-8e16-e318cc292ae8",
   "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
   "theorem": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.cellsSurviveFloor",

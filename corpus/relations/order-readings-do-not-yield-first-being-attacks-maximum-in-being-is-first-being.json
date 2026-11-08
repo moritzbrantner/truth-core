@@ -1,9 +1,11 @@
 {
-  "id": "REL-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING-ATTACKS-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "id": "1058fada-0616-504e-a1e8-2b69ec1a0970",
+  "label": "Formal fact: a homogeneous scale of being… attacks Whatever is maximal in being is the first…",
+  "legacy_id": "REL-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING-ATTACKS-MAXIMUM-IN-BEING-IS-FIRST-BEING",
   "subject_kind": "statement",
-  "subject_id": "STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "subject_id": "fc556abf-c949-53fa-9184-c9eccf910223",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "object_id": "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
   "note": "Not a refutation: neither order reading of the grades of being supports the bridge, even with the causal order to the primary and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING (QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING). On the attribution order the bridge reduces to: nothing other than the primary is simply prior to it. See DISAMB-ORDER-OF-BEING."
 }

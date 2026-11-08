@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
-  "statement_id": "STMT-GOD-IS-PERFECT",
-  "source_id": "AQUINAS-ST",
+  "id": "8aa91569-b273-535a-ae34-1124d512bf41",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2 co: GOD_4 is PERFECT_2: whatever any being is in act…",
+  "legacy_id": "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
+  "statement_id": "2639f425-3d52-5ad9-bf03-12dd6d312804",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.4 a.2 co.: in Deo sunt perfectiones omnium rerum. Unde et dicitur universaliter perfectus",
   "interpretation": "God is called universally perfect because no nobility found in any genus is absent from him. The first proof distinguishes possession in the same account from preexistence in a cause in a more eminent way; it concludes that all perfections preexist in God eminently. The existing IsPerfect reading quantifies over perfection-respects of InAct, whose formal-or-virtual interpretation is required; it does not attribute mutually opposed creaturely forms to God in their creaturely manner.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-UNIVERSALLY-PERFECT",
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-IN-ACT-VIRTUALLY"
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "f7833666-c764-5624-a766-708949d9feee"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-GOD"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

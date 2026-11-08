@@ -1,13 +1,15 @@
 {
-  "id": "INF-UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "id": "c2b00f02-649b-52a2-83d6-98aed35eb12b",
+  "label": "There is at most one first mover moved by none, by Bridge to common nature…",
+  "legacy_id": "INF-UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
   "input_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
-    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
-    "STMT-UNLIMITED-BEINGS-SHARE-NATURE"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "78246da5-0b37-5b37-b821-1e8bdb41606c",
+    "74eb9113-552b-5ec6-8e09-68374305dd58",
+    "fb3315ca-9f34-528f-87f4-e591d8cdb28f"
   ],
-  "output_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "output_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
   "rule": "Bridge to common nature, then imported Q11 identity",
   "meaning": "Simplicity and first-being make each first mover lack a limiting principle. The OPEN bridge UnlimitedBeingsShareNature then gives one represented nature for first movers, and imported Q11NatureUniqueness.godIsOneFromNature with individuation and the adapter gives identity. Every-perfection is not used. No first mover is produced. The bridge is an unattributed open premise; its first-mover instance is not independent of uniqueness given individuation and the adapter, and only its reach beyond first movers exceeds uniqueness.",
   "assumption_statement_ids": [],

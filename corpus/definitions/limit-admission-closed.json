@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMIT-ADMISSION-CLOSED",
+  "id": "e45c109e-0311-5d0e-868b-49791595a013",
+  "label": "CLOSED_ADMISSION_1: A subset A of an ambient topological space is closed in Mathlib's sense\u2026",
+  "legacy_id": "DEF-LIMIT-ADMISSION-CLOSED",
   "term": "closed admission",
   "definition": "A subset A of an ambient topological space is closed in Mathlib's sense IsClosed A. Admitting every stage of a convergent sequence does not imply this policy. This is a mathematical sufficient bridge, not a metaphysical law. Converges is Tendsto atTop (nhds x), StagesAdmitted is range f \u2286 A, and LimitAdmitted is x \u2208 A.",
   "basis": "stipulative",

@@ -1,17 +1,19 @@
 {
-  "id": "EP-ROLE-DEFINITION-FORK",
+  "id": "3e15400e-0116-5959-9c87-b403834bfa40",
+  "label": "For every fixed comparison profile, one of the four…, from Excluded middle as a general principle…",
+  "legacy_id": "EP-ROLE-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-FORK",
+  "conclusion_statement_id": "54bc0ef3-964e-5d94-ab0f-afd646af6087",
   "inference_ids": [
-    "INF-EP-ROLE-DEFINITION-FORK"
+    "d76beb41-877f-5030-ae7e-fd3b30a37016"
   ],
   "meaning": "Logical structural-coverage transcription over the four calibration propositions and their explicit remainder. It does not show named coverage or eliminate an unlisted interpretation.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

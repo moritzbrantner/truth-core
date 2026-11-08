@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHYS-191B-PRIVATION-SUPPORTS-POTENCY-UNDER-PRIVATION",
+  "id": "2b18703b-2fd8-5a81-bb57-a61e9da07b50",
+  "label": "Aristotle, Physics I.8, 191b13-17: Nothing… supports To be in POTENCY_1 to r is to be capable of…",
+  "legacy_id": "REL-PHYS-191B-PRIVATION-SUPPORTS-POTENCY-UNDER-PRIVATION",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-191B-QUALIFIED-PRIVATION-A",
+  "subject_id": "388eb17b-ee62-5010-82f6-82f94402dc1f",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION",
+  "object_id": "3c0b7bb3-1526-55a9-b71e-0d5fb3148782",
   "note": "Physics I.8, 191b13-17 lets generation come incidentally from privation, non-being in its own respect, in a subject. It bears on the premise by pairing subject and privation as the starting point of change; that being in potency to r is exactly being capable of r and deprived of it is the analyst's identification, not stated in the passage."
 }

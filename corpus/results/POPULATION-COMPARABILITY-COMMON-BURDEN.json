@@ -1,6 +1,8 @@
 {
-  "id": "POPULATION-COMPARABILITY-COMMON-BURDEN",
-  "argument_id": "POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "id": "1ddd35b9-a00a-51d0-8a3d-9e7e440c39a6",
+  "label": "For the same two individuals, total, average and fixed critical-level strict comparisons coincide",
+  "legacy_id": "POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "argument_id": "ee3782d8-5da7-5699-9f73-f9cc697f7e53",
   "challenge_module": "TruthCore.Results.Ethics.PopulationComparability.Challenge",
   "solution_module": "TruthCore.Results.Ethics.PopulationComparability.Solution",
   "theorem": "TruthCore.Results.Ethics.PopulationComparability.controls",

@@ -1,6 +1,8 @@
 {
-  "id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
-  "argument_id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "id": "019b279f-84cc-5195-8186-ec83e7d92edb",
+  "label": "Logical falsity, from Numerically different individuals cannot… and 5 more",
+  "legacy_id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "argument_id": "1c85d603-bc98-5d94-be4c-bc43a4eed3c2",
   "challenge_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConstitutiveConfiguration.Solution",
   "theorem": "TruthCore.Results.Causality.ConstitutiveConfiguration.incompatible",

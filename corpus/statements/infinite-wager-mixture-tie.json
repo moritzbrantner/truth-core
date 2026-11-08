@@ -1,12 +1,14 @@
 {
-  "id": "STMT-INFINITE-WAGER-MIXTURE-TIE",
+  "id": "a67f12a4-3b5f-515d-b29e-d3a3c3a2db70",
+  "label": "In the stipulated nonnegative reward profile, all nonzero prior and action weights yield extended…",
+  "legacy_id": "STMT-INFINITE-WAGER-MIXTURE-TIE",
   "paraphrase": "In the stipulated nonnegative reward profile, all nonzero prior and action weights yield extended expectation top. Consequently choosing the rewarded act with probability one and one-half yields equal expectations despite distinct probabilities. Zero reward-state prior or zero rewarded-act probability yields zero expectation. This certifies algebraic ties, not rational obligation, doxastic control or religious truth.",
   "lean_declaration": "TruthCore.Decision.InfiniteWager.MixtureTie",
   "definition_ids": [
-    "DEF-INFINITE-WAGER-MIXTURE",
-    "DEF-INFINITE-WAGER-ACTION-WEIGHT"
+    "81dadaca-e74d-5ad4-ba23-2e3c06c2bafd",
+    "84740500-df36-5dda-bcd0-98fa9db1d8ff"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITE-WAGER-ACT-TRUTH"
+    "8106a5d4-d387-5566-a338-698079cc3677"
   ]
 }

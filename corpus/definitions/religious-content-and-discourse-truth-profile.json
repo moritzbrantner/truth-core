@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
+  "id": "05c208f5-5137-5984-b940-083faed296ac",
+  "label": "Religious sentence content, assertion…: A supplied sentence/content profile distinguishes the…",
+  "legacy_id": "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
   "term": "religious sentence content, assertion, fact representation and matched discourse truth",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.Profile",

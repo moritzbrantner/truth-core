@@ -1,10 +1,12 @@
 {
-  "id": "DEF-PER-SE-LINK-RELEVANT-RESPECT",
+  "id": "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+  "label": "Moves only as moved in the relevant…: A mover that is moved in a respect bearing on its moving is…",
+  "legacy_id": "DEF-PER-SE-LINK-RELEVANT-RESPECT",
   "term": "moves only as moved in the relevant respect (weak reading of the per se link)",
   "definition": "A mover that is moved in a respect bearing on its moving is a per se link (the hand's being moved bears on the stick's moving the stone; a man's digesting does not). The premise is one-directional: it does not say that only such movers are per se links. Reading B of the same sentence; it yields only a mover unmoved as mover of its series.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-B"
+    "00ca098a-ad5d-501d-aa72-07042e384ac3"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveAsMovedInRelevantRespectReading"
 }

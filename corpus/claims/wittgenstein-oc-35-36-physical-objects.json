@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-OC-35-36-PHYSICAL-OBJECTS",
-  "statement_id": "STMT-OC-PHYSICAL-OBJECTS-SENTENCE-NOT-FORMABLE",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "f288d9ba-ca52-5e10-956b-d50f2a538257",
+  "label": "Ludwig Wittgenstein, Über Gewißheit…: Über Gewißheit §§35-36: 'Es gibt physikalische Gegenstände'…",
+  "legacy_id": "WITTGENSTEIN-OC-35-36-PHYSICAL-OBJECTS",
+  "statement_id": "a4686b65-0326-5754-9b41-f8daeecdd362",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§§35-36, »Es gibt physikalische Gegenstände« Unsinn ... läßt sich ein Satz »Es gibt physikalische Gegenstände« nicht bilden",
   "interpretation": "§35: 'Und doch ist »Es gibt physikalische Gegenstände« Unsinn.' §36: the instruction 'A ist ein physikalischer Gegenstand' teaches the use of words, 'physikalischer Gegenstand' is 'ein logischer Begriff', 'Und darum läßt sich ein Satz »Es gibt physikalische Gegenstände« nicht bilden.' §35 also says 'Ich weiß nicht' to whether one can imagine there being no physical objects. The remark is about 'physical object', not about 'something' in general.",
   "status": "formalized",

@@ -1,6 +1,8 @@
 {
-  "id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
-  "argument_id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "id": "d52665d4-bef4-5b13-bac8-72ff890f9915",
+  "label": "At least one individual exists at the…, from The non-null object domain is inhabited and 5 more (2)",
+  "legacy_id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "argument_id": "43f9545d-20f1-5868-b634-5b5c1c92ec28",
   "challenge_module": "TruthCore.Results.Causality.ScopedActualCausality.Challenge",
   "solution_module": "TruthCore.Results.Causality.ScopedActualCausality.Solution",
   "theorem": "TruthCore.Results.Causality.ScopedActualCausality.necessaryBeing",

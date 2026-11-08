@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
-  "argument_id": "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "id": "19545864-2145-5c4b-b5c9-568c7cf0aeac",
+  "label": "The selected rigid n actually exists\u2026, from The chosen actual world accesses itself; no\u2026 and 5 more",
+  "legacy_id": "MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "argument_id": "40d1c0ae-108d-5285-82d7-e823ee50fbfa",
   "challenge_module": "TruthCore.Results.Modal.ExistenceDegrees.Challenge",
   "solution_module": "TruthCore.Results.Modal.ExistenceDegrees.Solution",
   "theorem": "TruthCore.Results.Modal.ExistenceDegrees.necessaryGlobalMaximum",

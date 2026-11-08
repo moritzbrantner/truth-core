@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-PERFORMED-DENIAL-RETORSION",
-  "argument_id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "id": "bfda68fd-6fd2-5a26-afe5-1ac99eb01ba3",
+  "label": "For any episode domain and occurrence/denial predicates, no actually occurring episode can both…",
+  "legacy_id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "argument_id": "768cabc8-a429-532b-b11c-457e203f12ca",
   "challenge_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Challenge",
   "solution_module": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution",
   "theorem": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial",

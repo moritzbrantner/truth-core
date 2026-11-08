@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-GROUND-RANK",
+  "id": "3a3ba531-1bef-5f38-b797-0582f704bac2",
+  "label": "Rank: Rank: Entity → Nat is a mathematical strict-order witness: each Ground edge strictly…",
+  "legacy_id": "DEF-PARM-GROUND-RANK",
   "term": "rank",
   "definition": "rank : Entity → Nat is a mathematical strict-order witness: each Ground edge strictly increases rank. It represents asymmetric dependence without reverse edges or cycles; it is not physical time, degree of reality or a source attribution.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "HUME-INDUCTION-SELECTIVITY",
-  "argument_id": "HUME-INDUCTION-SELECTIVITY",
+  "id": "b12998e1-aa83-5fff-9809-428de36162f8",
+  "label": "The selected theological withholding…, from The assessment assigns the same verdict… and 2 more",
+  "legacy_id": "HUME-INDUCTION-SELECTIVITY",
+  "argument_id": "1ab11c86-c109-52d9-9697-9004f37b4c16",
   "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Induction.selective",

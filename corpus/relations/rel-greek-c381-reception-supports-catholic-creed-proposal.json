@@ -1,9 +1,11 @@
 {
-  "id": "REL-GREEK-C381-RECEPTION-SUPPORTS-CATHOLIC-CREED-PROPOSAL",
+  "id": "dad23f27-637e-501d-86e6-1625011e0681",
+  "label": "Dicastery for Promoting Christian……: The… supports The Catholic Church definitively proposes…",
+  "legacy_id": "REL-GREEK-C381-RECEPTION-SUPPORTS-CATHOLIC-CREED-PROPOSAL",
   "subject_kind": "claim",
-  "subject_id": "DPCU-WCC-2025-GREEK-C381-RECEPTION",
+  "subject_id": "a9510c49-c905-548d-a5c5-65296f786cf6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+  "object_id": "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36",
   "note": "The quoted Catholic reception of the Greek 381 Symbol supports the scope of the Creed referred to in the CDF classification. It is evidence for an intertextual reading, not an inference proving revealed status or a formal equivalence between Greek and Latin formulas."
 }

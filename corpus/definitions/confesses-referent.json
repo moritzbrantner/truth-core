@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONFESSES-REFERENT",
+  "id": "690c81f2-b2ca-56a1-b77a-24bb49b75ced",
+  "label": "Confesses as naming a being: N.ConfessesReferent m n: the move m confesses, with the name n, that…",
+  "legacy_id": "DEF-CONFESSES-REFERENT",
   "term": "confesses as naming a being (a move)",
   "definition": "`N.ConfessesReferent m n`: the move m confesses, with the name n, that there is a being n names, as the confession of 'unum verum Deum ... Creatorem et Dominum' does. A property of the move's content, not a fact about reference.",
   "basis": "stipulative",

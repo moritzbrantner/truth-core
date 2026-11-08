@@ -1,6 +1,8 @@
 {
-  "id": "INTENTIONALITY943-SELF-ONLY-ACCURACY",
-  "argument_id": "INTENTIONALITY943-SELF-ONLY-ACCURACY",
+  "id": "2533cda3-1a18-51f5-9880-af9e6af0f0e0",
+  "label": "Every occurring target mental token…, from For any occurring target mental token, its… and 1 more",
+  "legacy_id": "INTENTIONALITY943-SELF-ONLY-ACCURACY",
+  "argument_id": "7a6d4e11-de74-5b47-a49d-9a8786584aa1",
   "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
   "theorem": "TruthCore.Results.Comparison.Intentionality943.selfOnlyAccuracy",

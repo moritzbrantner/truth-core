@@ -1,6 +1,8 @@
 {
-  "id": "PERFECTION-PREEXISTENCE-CONTROLS",
-  "argument_id": "PERFECTION-PREEXISTENCE-CONTROLS",
+  "id": "a87100f8-a9c2-5205-97a3-41d487e0c357",
+  "label": "Finite interpretations with two beings and two respects; excluded middle is not asserted",
+  "legacy_id": "PERFECTION-PREEXISTENCE-CONTROLS",
+  "argument_id": "26404f15-c1bd-548c-be82-ba67e83d3d8a",
   "challenge_module": "TruthCore.Results.Causality.PerfectionPreexistence.Challenge",
   "solution_module": "TruthCore.Results.Causality.PerfectionPreexistence.Solution",
   "theorem": "TruthCore.Results.Causality.PerfectionPreexistence.controls",

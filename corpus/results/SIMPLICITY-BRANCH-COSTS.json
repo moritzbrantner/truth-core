@@ -1,6 +1,8 @@
 {
-  "id": "SIMPLICITY-BRANCH-COSTS",
-  "argument_id": "SIMPLICITY-BRANCH-COSTS",
+  "id": "32a911e0-6d7f-55da-a631-7042f15d3208",
+  "label": "Over the #755 arena: no fact true at every accessible world strictly suffices for a contingent fact",
+  "legacy_id": "SIMPLICITY-BRANCH-COSTS",
+  "argument_id": "6946fbc3-f0a3-5cfb-ab6e-05a012aedfd8",
   "challenge_module": "TruthCore.Results.Modal.SimplicityCollapse.Challenge",
   "solution_module": "TruthCore.Results.Modal.SimplicityCollapse.Solution",
   "theorem": "TruthCore.Results.Modal.SimplicityCollapse.branchCosts",

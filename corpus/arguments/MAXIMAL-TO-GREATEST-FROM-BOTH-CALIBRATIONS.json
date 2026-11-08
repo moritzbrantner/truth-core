@@ -1,20 +1,22 @@
 {
-  "id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "id": "963f8e06-b06e-5093-bd89-c89c1c088f40",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a…, from both calibrations",
+  "legacy_id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
   "premise_statement_ids": [
-    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
-    "STMT-MAXIME-GREATEST-DEGREE-DEFINITION"
+    "078d4c69-9d31-56f0-8ddf-a3306f0d7a33",
+    "85975f1d-cac5-59f8-8104-bd112de183ad"
   ],
-  "conclusion_statement_id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "conclusion_statement_id": "2336e5b4-ba2f-5ffb-8798-0737505208c6",
   "inference_ids": [
-    "INF-MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS"
+    "8bb35b88-18a7-5de0-b575-b5e48da4c23c"
   ],
   "meaning": "Calibration transport transcription: two independently supplied calibrations of the SAME primitive superlative yield the one-way maximal-to-greatest interface. Coextension is not philosophical or source identity.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

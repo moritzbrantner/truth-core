@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-Q5-A1-GOODNESS-RELOCATION",
+  "id": "aa22911f-e73f-58c3-b4f5-61dabb26e97a",
+  "label": "Obligation of #352: relocate goodness is actuality onto ST I q.5 a.1 co.'s own argument",
+  "legacy_id": "ATTEMPT-Q5-A1-GOODNESS-RELOCATION",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-GOOD-IS-DESIRABLE",
-    "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
-    "STMT-PERFECT-INSOFAR-AS-IN-ACT"
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "ff35f485-9ac3-5160-b338-b1dfcdf3b0b5",
+    "060e7a1a-6c3d-5c8f-b67b-2d0a78044642",
+    "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Obligation (4) of #352: relocate STMT-GOODNESS-IS-ACTUALITY onto ST I q.5 a.1 co.'s own argument. Witness AQUINAS-ST-I-Q5-A1 materialized and read whole (co. and ad 1-3); AQUINAS-ST-I-Q4-A1 read for the earlier text the third step cites; Nicomachean Ethics I.1 (new passage ARIST-EN-I-1, Perseus grc2) materialized for the authority of the first step. The respondeo's three steps (ratio boni is the desirable; each thing is desirable insofar as it is perfect; each thing is perfect insofar as it is in act) are formalized per perfection as biconditionals over four independent parameters and derive exactly the existing reading GoodnessIsActualityReading (result AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY, zero axioms). Omission countermodels over Unit show each premise is needed, and a model of all three has something good. Definitional smuggling guarded: the first step is a ratio and could define GoodIn as DesirableIn; it is kept a premise, and were it a definition the conclusion would be analytic relative to it, moving the openness to that definition's fidelity. Fidelity notes: the second step's stated reason (all things desire their own perfection) supports only perfect-to-desirable; the converse rests on reading 'secundum quod' as a biconditional, the same reading the conclusion already receives. The article's last clause (esse est actualitas omnis rei) is not used. Rejected: attributing the per-perfection biconditional to Aristotle; EN I.1 speaks of the ends of arts and actions, so ARIST-EN-1094A-GOOD-WHAT-ALL-AIM-AT-A states its own statement and only supports STMT-GOOD-IS-DESIRABLE. Frontier effect: the target is now proved but rests on three open sourced premises, so open root-path premises go from 52 to 54; route costs are unchanged. This is a relocation, not a discharge.",
   "evidence": [
-    "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY",
-    "AQUINAS-ST-I-Q5-A1-GOOD-IS-DESIRABLE-A",
-    "AQUINAS-ST-I-Q5-A1-DESIRABLE-AS-PERFECT-A",
-    "AQUINAS-ST-I-Q5-A1-PERFECT-AS-IN-ACT-A",
-    "AQUINAS-ST-I-Q4-A1-PERFECT-AS-IN-ACT-A",
-    "ARIST-EN-1094A-GOOD-WHAT-ALL-AIM-AT-A"
+    "253b9147-b8e7-5a54-af4b-9707454122e4",
+    "5f8939e0-fe41-59f9-97ba-2bade78f60a8",
+    "fc9f7615-d913-567e-98f2-fdd6a184710a",
+    "c060fdcf-4aad-5794-992b-057271f04039",
+    "2bd254ef-74a0-59aa-a9d7-245bcb5f35a2",
+    "7ea55595-c6da-5c8d-a69d-0746a459328d"
   ],
   "blocker": "Closing the target now needs its three premises closed. None has a recorded rival; the nearest substantive rivals deny that goodness is a feature of being at all (Ayer, Stevenson, pinned for the metaethics comparison), so a common_ground basis is unavailable until their positions are related to these premises."
 }

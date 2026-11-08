@@ -1,16 +1,18 @@
 {
-  "id": "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
-  "statement_id": "STMT-WILL-FOLLOWS-INTELLECT",
-  "source_id": "AQUINAS-ST",
+  "id": "a5dccbe4-d4a1-53c8-a63f-cfb585784033",
+  "label": "Thomas Aquinas, Summa theologiae I q.19 a.1…: Whatever HAS_INTELLECT_1 HAS_WILL_1",
+  "legacy_id": "AQUINAS-ST-I-Q19-A1-WILL-FOLLOWS-INTELLECT",
+  "statement_id": "090be689-b77f-51a1-9d5d-caf339169e4b",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.19 a.1 co.: in quolibet habente intellectum, est voluntas",
   "interpretation": "Will follows intellect: as a natural thing tends to its form when it lacks it and rests in it when it has it, so an intellectual nature tends to and rests in the good apprehended through an intelligible form, and both belong to will. So in whatever has intellect there is will, and since God has intellect, he has will.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-HAS-INTELLECT"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE",
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058"
   ]
 }

@@ -1,23 +1,25 @@
 {
-  "id": "SCHELLENBERG-PRECIS-2025-NONRESISTANT-NONBELIEF",
-  "statement_id": "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF",
-  "source_id": "SCHELLENBERG-PRECIS-2025",
+  "id": "4bca8b2e-ee61-57d9-96cd-650a594c231e",
+  "label": "J. L. Schellenberg, Précis Précis, p. 3…: At the actual world some person at some time is capable…",
+  "legacy_id": "SCHELLENBERG-PRECIS-2025-NONRESISTANT-NONBELIEF",
+  "statement_id": "62d4c4c4-9834-5acb-ba7b-260e040c7009",
+  "source_id": "2f7a2f35-40db-5bae-9698-6dfb6051dc02",
   "locator": "Précis (2025), p. 3 premise 5; p. 7 contemporary doubt and hunter-gatherer examples; p. 10 premise 5 and note 5",
   "interpretation": "Attribution of the existential empirical premise, with capacity, time, nonbelief and absence of resistance causing the nonbelief kept separate. Doubt is included. Schellenberg argues from present doubt and earlier concept unavailability; pinning this argument does not independently establish those historical or psychological facts. No self-evident status or universal prehistoric capacity is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CAPACITY",
-    "DEF-HIDDENNESS-RESISTANCE",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
-    "DEF-HIDDENNESS-MODEL-SCOPE"
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE",
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

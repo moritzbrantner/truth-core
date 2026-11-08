@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEANING-NEGATION-CLOSURE",
+  "id": "63b0c6a5-8aa2-576e-a144-1557b7cffae9",
+  "label": "Meaningfulness closed under negation: MeaningClosedUnderNegation L meaningful: for every sentence…",
+  "legacy_id": "DEF-MEANING-NEGATION-CLOSURE",
   "term": "meaningfulness closed under negation (strong and weak)",
   "definition": "`MeaningClosedUnderNegation L meaningful` (strong): for every sentence s, if s is meaningful then its negation is meaningful. `MeaningClosedUnderNegationOfNegations L meaningful` (weak): for every s, if the negation of s is meaningful then its double negation is. `meaningful` is the pre-theoretic predicate (sense (2) of DISAMB-VERIFICATIONIST-MEANINGFUL), not a criterion's verdict.",
   "basis": "stipulative",

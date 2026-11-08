@@ -1,9 +1,11 @@
 {
-  "id": "REL-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-ATTACKS",
+  "id": "10618b36-7c7b-5954-830c-40b6e2f69970",
+  "label": "Immanuel Kant, Critique of Pure Reason…: In… attacks Open premise, the fuller nominal profile…",
+  "legacy_id": "REL-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-ATTACKS",
   "subject_kind": "claim",
-  "subject_id": "KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE-A",
+  "subject_id": "9cf26546-dad2-5e88-bfca-1dab7d874d02",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+  "object_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
   "note": "Warrant/completion challenge by analogy only: no identity between Kant’s target proof and this Thomist premise, no formal refutation and no closure. The per se/act-potency and nominal-definition readings must be assessed on their own terms."
 }

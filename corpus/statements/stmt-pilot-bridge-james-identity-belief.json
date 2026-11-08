@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-BRIDGE-JAMES-IDENTITY-BELIEF",
+  "id": "89f0b3bb-7519-52e6-8c02-42825e92783b",
+  "label": "Identify the James proposed in the finding within the brothers mentioned by John and Acts and read…",
+  "legacy_id": "STMT-PILOT-BRIDGE-JAMES-IDENTITY-BELIEF",
   "paraphrase": "Identify the James proposed in the finding within the brothers mentioned by John and Acts and read the earlier group nonbelief distributively and the later prayer as belief. These are contested identity, scope and belief readings; they are not stated by Josephus or by the appearance list.",
   "lean_declaration": "TruthCore.History.Resurrection.JamesIdentityBeliefBridge",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

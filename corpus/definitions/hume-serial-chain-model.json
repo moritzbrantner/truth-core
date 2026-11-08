@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-SERIAL-CHAIN-MODEL",
+  "id": "9d9edc75-41f4-5ec0-b502-3cd47a45519b",
+  "label": "Serial nontransitive necessary-denial…: Three distinct constructors root, middle and last; edges…",
+  "legacy_id": "DEF-HUME-SERIAL-CHAIN-MODEL",
   "term": "serial nontransitive necessary-denial countermodel",
   "definition": "Three distinct constructors root, middle and last; edges root→middle, middle→last and last→last. Root conception tests truth at middle, middle conceives nothing and last conceives everything. The separate unsoundRoot conception conceives everything at root as well. No metaphysical or epistemic adequacy is inferred from this table.",
   "basis": "stipulative",

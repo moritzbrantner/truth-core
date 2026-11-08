@@ -1,13 +1,15 @@
 {
-  "id": "STMT-FACT-NECESSARY-AT",
+  "id": "d66a1553-2943-5c19-9156-d8c3240c90e8",
+  "label": "The selected fact holds at every world accessible from the same evaluation world in the same Arena",
+  "legacy_id": "STMT-FACT-NECESSARY-AT",
   "paraphrase": "The selected fact holds at every world accessible from the same evaluation world in the same Arena. The existing StoppingPoints.NecessaryFact is reused; this does not assert actual truth on a nonreflexive frame, necessary individual existence or source fidelity.",
   "lean_declaration": "TruthCore.Explanation.StoppingPoints.NecessaryFact",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-BOXED-FACT-TRUTH",
-    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "0c3c8234-269b-55f6-8c96-34522dda62bf",
+    "e6b445d4-6d2e-5c7f-82f9-061810bf2ad3"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

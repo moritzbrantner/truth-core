@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-PU-258-NO-CRITERION",
-  "statement_id": "STMT-PU-PRIVATE-SIGN-NO-CRITERION",
-  "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+  "id": "b1180750-26b0-584f-b001-775b46bb6166",
+  "label": "Ludwig Wittgenstein, Philosophische…: PU §258: for a sign 'E' introduced by inwardly concentrating…",
+  "legacy_id": "WITTGENSTEIN-PU-258-NO-CRITERION",
+  "statement_id": "37a8abd3-a0bb-5020-ac3a-182e50a4ed59",
+  "source_id": "f37d35cc-4070-54d0-a686-2f6998f9a346",
   "locator": "§258, in unserm Falle habe ich ja kein Kriterium für die Richtigkeit",
   "interpretation": "§258, the diary sign 'E' fixed by concentrating attention on a sensation: 'Aber in unserm Falle habe ich ja kein Kriterium für die Richtigkeit. Man möchte hier sagen: richtig ist, was immer mir als richtig erscheinen wird. Und das heißt nur, daß hier von ›richtig‹ nicht geredet werden kann.' The case is the imagined private ostensive definition; the remark is not that memory is generally unreliable.",
   "status": "formalized",

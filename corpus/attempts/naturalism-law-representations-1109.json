@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109",
+  "id": "d92f06ff-17b8-5061-9bef-21e1b9eff15d",
+  "label": "Continued the actual laws remainder of #1109 after the mereological contrasts, using existing…",
+  "legacy_id": "ATTEMPT-NATURALISM-LAW-REPRESENTATIONS-1109",
   "statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-LAWS-AS-BEST-SYSTEM-THEOREMS",
-    "STMT-NATURALISM-IMMANENT-LAWS-INSTANTIATED",
-    "STMT-NATURALISM-LAW-REPRESENTATION-CONTROLS"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "34ffdbd8-07eb-5c1d-b38d-1a917c8f901b",
+    "48360846-0181-5904-9870-536de28d0ed7",
+    "6bf59031-036a-5e1e-a5ef-cd52f7e891e6"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -12,9 +14,9 @@
   "summary": "Continued the actual laws remainder of #1109 after the mereological contrasts, using existing Naturalism/Spatiotemporal and Hume.Regularity interfaces. Related/context/dossier searches found HUME-REGULARITY-TESTS (finite selected-theorem versus incidental-truth test) and LAW-ACTUALITY-743-CERTIFICATE (law satisfaction versus presence/identification); neither represents universal entities by existing instances. Added a disjoint bearer/law-representative domain and explicit world-relative population. Derived actual law instantiation from N1 in the concretely instance-derived location profile. Reused the certified BestSystemTest in three explicit controls. Description-only selected-rule content survives with existing located bearers and no existing law representatives. A located existing uninstantiated law survives N1 plus only the forward instance-to-location rule, with converse support explicitly false and the same law unlocated under the immanent criterion. This refutes the proposed inference from the forward bridge alone, not any worldview. Rejected equating a rule index or selected/true rule with an existing entity, inferring converse support from forward propagation, identifying a bearer instance with rule satisfaction, or advertising this disjoint profile as an exhaustive law ontology. No source claim or independent truth of premises is asserted.",
   "blocker": "Actual rule-to-universal/power interpretation, law selection/validity beyond the existing finite test, immanent-location applicability and concrete/physical criteria remain open. This does not formalize a full Armstrong/Lewis/Tooley/powers theory. The pure-set/nominalism and further F1/F6 logic controls originally required in #1109 remain active; U and causal whole-to-part bridge are unchanged.",
   "evidence": [
-    "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
-    "NATURALISM-LAW-REPRESENTATION-CONTROLS",
-    "HUME-REGULARITY-TESTS",
-    "LAW-ACTUALITY-743-CERTIFICATE"
+    "587651f6-e609-52c3-9c11-d01bc2ef9e3c",
+    "ef0c2c24-db26-5145-ad60-9898b2a389c4",
+    "db310235-e317-5d95-b61d-22a996e5fb49",
+    "f2164c77-b4f4-510b-a542-eb8ed95b3205"
   ]
 }

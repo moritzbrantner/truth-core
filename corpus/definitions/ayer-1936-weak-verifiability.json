@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AYER-1936-WEAK-VERIFIABILITY",
+  "id": "b756092b-697b-52f9-aa64-7e6da9e87b60",
+  "label": "WEAKLY_VERIFIABLE_2: WeaklyVerifiable1936 F s: for some further premises ps and observation…",
+  "legacy_id": "DEF-AYER-1936-WEAK-VERIFIABILITY",
   "term": "weakly verifiable (Ayer 1936)",
   "definition": "`WeaklyVerifiable1936 F s`: for some further premises ps and observation statement e, s together with ps entails e and ps alone does not entail e. The further premises are unrestricted.",
   "basis": "stipulative",

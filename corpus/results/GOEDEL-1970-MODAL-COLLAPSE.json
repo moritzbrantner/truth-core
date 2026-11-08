@@ -1,6 +1,8 @@
 {
-  "id": "GOEDEL-1970-MODAL-COLLAPSE",
-  "argument_id": "GOEDEL-1970-MODAL-COLLAPSE",
+  "id": "57e8aeb4-f250-5840-b153-354f72d74cb5",
+  "label": "Modal collapse: at every world, whatever…, from Gödel's 1970 axiom Ax2a: at every world… and 2 more",
+  "legacy_id": "GOEDEL-1970-MODAL-COLLAPSE",
+  "argument_id": "e2bf87dc-105d-59eb-ab9d-70492f0614b3",
   "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.ModalCollapse.modalCollapse",

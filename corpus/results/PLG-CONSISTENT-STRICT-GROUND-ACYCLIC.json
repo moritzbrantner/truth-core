@@ -1,6 +1,8 @@
 {
-  "id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
-  "argument_id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "id": "92c24bb5-763e-55d0-90b1-ef53d0bd0ab6",
+  "label": "In Fine's pure logic of ground, for every type of atoms and every PLG-consistent set S of assumed…",
+  "legacy_id": "PLG-CONSISTENT-STRICT-GROUND-ACYCLIC",
+  "argument_id": "a2e52fdf-ba66-5a2d-a7d8-9d915af06301",
   "challenge_module": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.Challenge",
   "solution_module": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.Solution",
   "theorem": "TruthCore.Results.Modern.Fine.StrictGroundAcyclic.consistentStrictGroundAcyclic",

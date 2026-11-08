@@ -1,10 +1,12 @@
 {
-  "id": "STMT-FULL-GROUNDS-NECESSITATE-TARGET-TRUTH",
+  "id": "9222f54b-c6a2-551a-a763-3ad2974bd199",
+  "label": "If a fact is fully grounded in a plurality of facts, the conjunction of the propositions…",
+  "legacy_id": "STMT-FULL-GROUNDS-NECESSITATE-TARGET-TRUTH",
   "paraphrase": "If a fact is fully grounded in a plurality of facts, the conjunction of the propositions corresponding to those grounds metaphysically necessitates the proposition corresponding to the grounded fact.",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

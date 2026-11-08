@@ -1,10 +1,12 @@
 {
-  "id": "INF-JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "id": "76d447de-1eea-547d-84fd-ef37db707788",
+  "label": "Jesus founded a visible, enduring society with an authority structure, by Constructive-proof (2)",
+  "legacy_id": "INF-JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
   "input_statement_ids": [
-    "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
-    "STMT-CHRIST-FOUNDED-SELECTED-CHURCH"
+    "ebf1192b-3bba-5783-a9a7-e0acbcaec91d",
+    "0f0a4a1e-87f2-509c-a6ef-928dc5a91193"
   ],
-  "output_statement_id": "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
+  "output_statement_id": "a8dfc0b8-140f-5351-a856-16a719251ac3",
   "rule": "constructive-proof",
   "meaning": "Definition-projection transcription: the selected founded Church witness has both aspects by the joint calibration, so that same society satisfies the old visible criterion. No second body or Catholic identity is substituted.",
   "assumption_statement_ids": [],

@@ -1,15 +1,17 @@
 {
-  "id": "CC100-6-EXPLANATION-GOD-BRIDGE",
-  "statement_id": "STMT-CC100-6-EXPLANATION-GOD-BRIDGE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "b3025297-c3b7-5aee-b4ec-537bf21aa01d",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If the universe has an explanation, its explanation is…",
+  "legacy_id": "CC100-6-EXPLANATION-GOD-BRIDGE",
+  "statement_id": "d5935adf-33d0-55cb-ba31-8d0074feb9ed",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.12, argument #6, step 4",
   "interpretation": "This is the displayed explicit naming/identity bridge, not an independently defended inference from explanation to God. No cause, maximum, uniqueness or attribute dictionary is supplied that identifies it with an existing God-route adapter. The record supplies no proof or truth closure.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+    "db230236-8eb0-5263-a930-94948bc9f6a5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

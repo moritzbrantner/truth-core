@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+  "id": "bef7bc03-167c-5e77-9839-2d0318323bc5",
+  "label": "A cause of every other actual being transfers…, from The cause of a thing's being causes each of…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+  "argument_id": "992770d3-fb5c-5362-93d0-1d08475e82f3",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.implication",

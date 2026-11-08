@@ -1,5 +1,7 @@
 {
-  "id": "STMT-POTENTIAL-INFINITE-NOT-FUTURE-COMPLETED-ACTUAL",
+  "id": "fc1e5b13-bdc4-5472-95f0-ea97f0a04d94",
+  "label": "Potential infinity does not mean that a completed actual infinite will later come to exist, as a…",
+  "legacy_id": "STMT-POTENTIAL-INFINITE-NOT-FUTURE-COMPLETED-ACTUAL",
   "paraphrase": "Potential infinity does not mean that a completed actual infinite will later come to exist, as a possible statue may later become an actual statue.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PotentialInfiniteNotFutureCompletedActualReading"
 }

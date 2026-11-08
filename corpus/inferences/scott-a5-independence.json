@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-A5-INDEPENDENCE",
+  "id": "f1a8c3db-9bef-5ddb-9c38-86a1f0daf208",
+  "label": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4…, by Direct-proof",
+  "legacy_id": "INF-SCOTT-A5-INDEPENDENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-A5-INDEPENDENCE",
+  "output_statement_id": "5668bf51-9e32-54dc-9a34-3eab079672de",
   "rule": "direct-proof",
   "meaning": "Construct a two-world S5 frame with a single individual and positivity evaluated at one designated world. Verify each of A1a–A4 and the possibility corollary, then exhibit a world-relative essence whose necessary exemplification fails. Thus A5 and T3 fail in an actual finite model; there is no premise that merely asserts the desired independence.",
   "assumption_statement_ids": [],

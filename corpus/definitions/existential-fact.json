@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTENTIAL-FACT",
+  "id": "0e6e4190-6feb-5056-b1d4-100cc9d2a1df",
+  "label": "Existential fact: ExistentialFact A d says the fact d is true at a world exactly when some…",
+  "legacy_id": "DEF-EXISTENTIAL-FACT",
   "term": "existential fact (necessary existential disjunction)",
   "definition": "ExistentialFact A d says the fact d is true at a world exactly when some candidate individual exists there. For a two-member roster it is the disjunction E a or E b. Necessity of d (NecessaryFact) is de dicto necessary population, not the necessity of any one individual. Concreteness is not modelled.",
   "basis": "stipulative",

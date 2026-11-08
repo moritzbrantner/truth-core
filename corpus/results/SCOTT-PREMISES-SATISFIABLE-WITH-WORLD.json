@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
-  "argument_id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "id": "2eb7b827-5266-5824-9a2b-c129bc29badd",
+  "label": "There is a Kripke model with at least one world, a symmetric frame and a positivity assignment on…",
+  "legacy_id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "argument_id": "c99f0eef-5d73-56ba-9a97-8b5b21e1024a",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.PremisesSatisfiableWithWorld.scottPremisesSatisfiableWithWorld",

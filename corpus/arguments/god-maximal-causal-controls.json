@@ -1,16 +1,18 @@
 {
-  "id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "id": "0154fa50-6a62-51e9-b5e5-9e745f55721f",
+  "label": "Positive witness: with a GOD_4 that causes the being of one other being and exceeds it in being…",
+  "legacy_id": "GOD-MAXIMAL-CAUSAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GOD-MAXIMAL-CAUSAL-CONTROLS",
+  "conclusion_statement_id": "63986768-cc10-59c6-833a-1535e2921f10",
   "inference_ids": [
-    "INF-GOD-MAXIMAL-CAUSAL-CONTROLS"
+    "2a75de10-f560-58e6-9bae-642942a38d75"
   ],
   "meaning": "Positive witness: a God that causes the being of one other being and exceeds it in being satisfies all six premises and the conclusion.",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-MORE-IN"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

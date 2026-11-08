@@ -1,6 +1,8 @@
 {
-  "id": "WORLD-INDEXED-SOURCES-NO-COMMON-BEARER",
-  "argument_id": "WORLD-INDEXED-SOURCES-NO-COMMON-BEARER",
+  "id": "63553c9a-e7fd-5326-9ca4-a467e9658c05",
+  "label": "In the fixed three-world interpretation every causal graph is well-founded and endpoint-sound, yet…",
+  "legacy_id": "WORLD-INDEXED-SOURCES-NO-COMMON-BEARER",
+  "argument_id": "7ea9448b-ce12-589b-8293-a002f824f03b",
   "challenge_module": "TruthCore.Results.Causality.WorldIndexedSources.Challenge",
   "solution_module": "TruthCore.Results.Causality.WorldIndexedSources.Solution",
   "theorem": "TruthCore.Results.Causality.WorldIndexedSources.checks",

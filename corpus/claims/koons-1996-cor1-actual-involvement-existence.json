@@ -1,17 +1,19 @@
 {
-  "id": "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
-  "statement_id": "STMT-KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
-  "source_id": "KOONS-NEW-LOOK-AUTHOR-PREPRINT-1996",
+  "id": "bf82ffba-2e6f-5dc9-a1d2-3069c3c87c03",
+  "label": "Robert C. Koons, A New Look at the…: A being involved in an actual fact actually exists",
+  "legacy_id": "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
+  "statement_id": "a7bdd16b-8dfc-5806-92bf-a59de429ff84",
+  "source_id": "63f6997a-8e9f-54a2-96c1-0ed79b9d97a4",
   "locator": "author preprint dated 18 December 1996, §7, Corollary 1, physical PDF p.9, second explanatory sentence",
   "interpretation": "The author expressly assumes this realization/factivity principle. Preserve the actual-fact guard and actual existence of the involved being; a bare tag or possible-fact membership does not supply involvement. No fixed world-independent candidate set or same-member all-world realization policy is stated by this sentence alone. This attribution is to the verified author preprint, not an asserted identical journal edition. No formal consequence or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

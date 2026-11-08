@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
-  "argument_id": "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "id": "b6bac955-5380-523b-8bdb-b0666f9420ce",
+  "label": "A specified two-world Boolean profile jointly satisfies concrete actual population, well-founded…",
+  "legacy_id": "NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
+  "argument_id": "3b8841ec-1f36-57ca-ae25-7d8a8aaeda2e",
   "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryConcreteUnderived.jointWitness",

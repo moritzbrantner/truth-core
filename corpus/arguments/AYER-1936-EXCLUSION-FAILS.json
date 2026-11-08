@@ -1,17 +1,19 @@
 {
-  "id": "AYER-1936-EXCLUSION-FAILS",
+  "id": "c93862da-e2c1-5ddc-aeda-9050b14a84b2",
+  "label": "No language and frame satisfy the V2 exclusion thesis: every sentence whose negation does not…",
+  "legacy_id": "AYER-1936-EXCLUSION-FAILS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-AYER-1936-EXCLUSION-FAILS",
+  "conclusion_statement_id": "b8e30c15-56d5-5d6e-94eb-611d58a7a415",
   "inference_ids": [
-    "INF-AYER-1936-EXCLUSION-FAILS"
+    "152e61aa-15d1-51ab-95d7-5851268a3934"
   ],
   "meaning": "From STMT-AYER-1936-CRITERION-TRIVIAL and no premises: a sentence whose negation does not entail some observation statement passes the 1936 test, so no frame satisfies the V2 exclusion thesis STMT-AYER-1936-EXCLUDES-METAPHYSICS, which this argument refutes.",
   "definition_ids": [
-    "DEF-AYER-1936-WEAK-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "b756092b-697b-52f9-aa64-7e6da9e87b60",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

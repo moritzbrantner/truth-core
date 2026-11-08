@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GOLDMAN-FALLIBLE-JUSTIFICATION",
+  "id": "956343ae-1360-52af-b3c4-e681830ec3d6",
+  "label": "Goldman allows justification-conferring processes to make errors and therefore permits justified…",
+  "legacy_id": "STMT-GOLDMAN-FALLIBLE-JUSTIFICATION",
   "paraphrase": "Goldman allows justification-conferring processes to make errors and therefore permits justified false beliefs; he leaves the required reliability threshold and frequency/propensity interpretation imprecise.",
   "definition_ids": [
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
-    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "73ca1400-cedf-5dbc-a478-e313e7ffa7ec",
+    "f38996f7-c982-5809-8215-392d0f6cb956"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+    "56b356a4-6acf-52a8-ae83-5edaf38a44f0"
   ]
 }

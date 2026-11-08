@@ -1,15 +1,17 @@
 {
-  "id": "STMT-DEFINITION-DICTIONARY-CONNECTIONS",
+  "id": "c42d1e07-4d99-5a32-8564-eb0f66cd4859",
+  "label": "For identical supplied dictionaries: CogitoConcrete.InhabitedConcreteAt m.ontic m.concrete w iff…",
+  "legacy_id": "STMT-DEFINITION-DICTIONARY-CONNECTIONS",
   "paraphrase": "For identical supplied dictionaries: CogitoConcrete.InhabitedConcreteAt m.ontic m.concrete w iff BruteFoundationBoundary.InhabitedAt m w; Kant NecessaryAt o w x iff GoedelGod.Box o.frame (fun v => o.ExistsAt v x) w; and AbstractConcreteDisjoint abstract concrete iff there exists a ConcreteAbstract.Classification with exactly those predicates. All carriers, worlds and predicates are universally quantified. These are definitional-body and proof-packaging connections, not philosophical identity, source identity, a frame law, actual population, arbitrary-predicate disjointness or exhaustiveness. No root premise is discharged.",
   "lean_declaration": "TruthCore.Causality.DefinitionDictionaryConnections.Connections",
   "definition_ids": [
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-ABSTRACT-CONCRETE-DISJOINTNESS",
-    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION"
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "8cf40502-3bca-5cdc-8bef-936828a47415",
+    "4088655a-8c5b-5533-b93d-ec4a4f767108"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

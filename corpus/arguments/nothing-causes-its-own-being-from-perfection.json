@@ -1,19 +1,21 @@
 {
-  "id": "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
+  "id": "a2857e5d-c620-5544-9841-24bcd0edd844",
+  "label": "UNITING-CAUSE_3, from perfection",
+  "legacy_id": "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
   "premise_statement_ids": [
-    "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+    "0a0c841c-5ebf-5f39-946b-0655a3c2ab57"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
+  "conclusion_statement_id": "b62a64ab-ac11-569a-b8e8-de51a74b058f",
   "inference_ids": [
-    "INF-NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION"
+    "2a47a007-4154-5399-80a3-b7021de9cf3d"
   ],
   "meaning": "Strength order within UNITING-CAUSE_3 / BECOMING-BEING-CAUSE_3: nothing causes a perfection in itself implies nothing causes its own being (r = esse). The strong version is conditionally refuted (SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION); the weak version survives that refutation.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-UNITING-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

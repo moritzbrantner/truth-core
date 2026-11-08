@@ -1,6 +1,8 @@
 {
-  "id": "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
-  "argument_id": "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "id": "708a38f3-c1dc-566e-80cc-872ab1cc8e89",
+  "label": "Two explicit interpretations have the same necessary underived unique actual source false, which…",
+  "legacy_id": "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "argument_id": "fa813834-2708-5dbd-ae51-29818c4206fa",
   "challenge_module": "TruthCore.Results.Causality.UnderivedNonComposite.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedNonComposite.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedNonComposite.omission_controls",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-NONIDENTITY",
+  "id": "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+  "label": "SEPARATION_2: Numerical SEPARATION_2 means f and the participating particular x are unequal in the…",
+  "legacy_id": "DEF-PLATONIC-NONIDENTITY",
   "term": "separation",
   "definition": "Numerical separation means f and the participating particular x are unequal in the common entity domain. Numerical inequality alone establishes no ontological independence.",
   "basis": "stipulative",

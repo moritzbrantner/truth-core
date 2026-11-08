@@ -1,15 +1,17 @@
 {
-  "id": "CC100-6-EXISTENCE-EXPLANATION",
-  "statement_id": "STMT-CC100-6-EXISTENCE-EXPLANATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "36f81ae4-a248-5726-b79f-aac1e8c844d0",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Everything that exists has an explanation, and the…",
+  "legacy_id": "CC100-6-EXISTENCE-EXPLANATION",
+  "statement_id": "e0c4f513-7505-5ab9-83e8-4a0dd4481b28",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.12, argument #6 Davis–Craig, steps 1–3",
   "interpretation": "McIntosh displays existence coverage, universe existence and their application. Attribute this outline only to the presentation, not the unread Davis/Craig references on p13. No all-world quantifier, fact-token dictionary, actual concrete causal bearer or sufficient/necessitating explanation is specified. Existing PSR existence predicates are conditional vocabulary reuse, not exact source aliases.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+    "db230236-8eb0-5263-a930-94948bc9f6a5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

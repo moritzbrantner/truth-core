@@ -1,9 +1,11 @@
 {
-  "id": "INF-ARIST-PHYS-ALT-PREDICATES-NOT-MOTION",
+  "id": "981a0e0d-fb76-57bc-a894-9d8739e4b9cc",
+  "label": "Motion is not identical with difference, inequality, or non-being, by Rejection by counterexample…",
+  "legacy_id": "INF-ARIST-PHYS-ALT-PREDICATES-NOT-MOTION",
   "input_statement_ids": [
-    "STMT-ALTERNATIVE-PREDICATES-DO-NOT-NECESSITATE-MOTION"
+    "4b6f1d70-b2fc-57e1-a06f-8437947d826d"
   ],
-  "output_statement_id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
+  "output_statement_id": "d2dd07b2-b867-54a1-8133-aed50fc90ed8",
   "rule": "rejection_by_counterexample_possibility",
   "meaning": "If each proposed predicate can hold without necessitating motion, none can be coextensive with motion.",
   "assumption_statement_ids": [],

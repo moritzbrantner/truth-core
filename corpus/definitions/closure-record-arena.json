@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CLOSURE-RECORD-ARENA",
+  "id": "29c54954-78a8-5fe8-96aa-161575653bd4",
+  "label": "Record arena with scenarios as worlds: The #755 arena of an Exercise: worlds are scenarios…",
+  "legacy_id": "DEF-CLOSURE-RECORD-ARENA",
   "term": "record arena with scenarios as worlds",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.arena",

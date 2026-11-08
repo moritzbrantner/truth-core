@@ -1,10 +1,12 @@
 {
-  "id": "REL-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "id": "e5f2bde9-18ba-56dc-944b-37a49e5e1ed4",
+  "label": "McTaggart-style rival: nothing is being… strengthens Some actual opiner of a supplied content…",
+  "legacy_id": "REL-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
   "subject_kind": "statement",
-  "subject_id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "subject_id": "5d37dd2a-6539-514d-bd74-1b2ad8021c8f",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
-  "verification_result_id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "object_id": "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720",
+  "verification_result_id": "14893355-1c80-52c6-890a-68fd0d3dc1e2",
   "note": "Sole-premise checked weakening, strict in the populated mixed-motion control. No reverse source/theory identity is claimed."
 }

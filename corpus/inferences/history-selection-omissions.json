@@ -1,7 +1,9 @@
 {
-  "id": "INF-HISTORY-SELECTION-OMISSIONS",
+  "id": "be15dd2e-dbba-5f80-8587-9915d5334f32",
+  "label": "Closed controls: isolating the actual accessibility component permits…, by Direct-proof",
+  "legacy_id": "INF-HISTORY-SELECTION-OMISSIONS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HISTORY-SELECTION-OMISSIONS",
+  "output_statement_id": "3e4dcb0e-6bda-5521-bc98-43e17f3950a4",
   "rule": "direct-proof",
   "meaning": "Compute the equality-accessibility and repeated-history assignments; an explicit internal marker distinguishes the actual Bool world and violates constant-vector invariance. Separate vacuous implication from actual candidate truth and compute both positive weights.",
   "assumption_statement_ids": [],

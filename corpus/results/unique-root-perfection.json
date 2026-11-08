@@ -1,6 +1,8 @@
 {
-  "id": "UNIQUE-ROOT-PERFECTION",
-  "argument_id": "UNIQUE-ROOT-PERFECTION",
+  "id": "d8f8398f-5699-5c67-8041-57303743aee4",
+  "label": "There exists ONE witness n that is an…, from There exists an actual concrete root n of… and 7 more",
+  "legacy_id": "UNIQUE-ROOT-PERFECTION",
+  "argument_id": "8e61d00e-e335-5e0f-9d98-f28b506cf200",
   "challenge_module": "TruthCore.Results.Causality.UniqueRootPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.UniqueRootPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.UniqueRootPerfection.derive",

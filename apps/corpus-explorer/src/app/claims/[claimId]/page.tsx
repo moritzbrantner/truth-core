@@ -5,6 +5,8 @@ import { StatusMark } from "@/components/status-mark";
 import { TermsSection } from "@/components/terms-section";
 import {
   alternativeClaims,
+  displayId,
+  displayName,
   findClaim,
   findSource,
   getCorpus,
@@ -50,9 +52,9 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
         {claim.witness === "unavailable" ? (
           <StatusMark tone="muted">Witness permanently unavailable · not byte-verified</StatusMark>
         ) : null}
-        <p className="font-mono text-xs text-[var(--muted)]">{claim.id}</p>
+        <p className="font-mono text-xs text-[var(--muted)]">{claim.label ?? claim.id} · {displayId(corpus, claim.id)}</p>
         <Link className="link-quiet text-xs" href={`/statements/${claim.statement_id}`}>
-          Statement {claim.statement_id} →
+          Statement {displayName(corpus, claim.statement_id)} →
         </Link>
       </div>
       <h1 className="mt-5 font-serif text-5xl leading-[0.98] tracking-[-0.05em] sm:text-6xl">
@@ -75,7 +77,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
             <StatusMark tone="muted">Not byte-verified</StatusMark>
           </div>
           <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
-            This claim cites passage <span className="font-mono text-base">{passage.id}</span> of a
+            This claim cites passage <span className="font-mono text-base">{passage.legacy_id ?? passage.label ?? passage.id}</span> of a
             copyrighted edition by page or section. No bytes are pinned, so no tool can re-check
             which text was read: a reader must consult the cited edition. It is allowed only where
             no pinnable witness exists, and can later be upgraded to one without changing this
@@ -121,7 +123,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
           </div>
           <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
             This claim is bound to media span{" "}
-            <span className="font-mono text-base">{passage.id}</span>. Only the span&apos;s
+            <span className="font-mono text-base">{passage.legacy_id ?? passage.label ?? passage.id}</span>. Only the span&apos;s
             timestamps and hash are stored; the transcript text is regenerated locally from
             youtube-corpus and rejected on a hash mismatch.
           </p>
@@ -171,7 +173,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
             <StatusMark tone="accent">Pinned web snapshot</StatusMark>
           </div>
           <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
-            This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
+            This claim is bound to passage <span className="font-mono text-base">{passage.legacy_id ?? passage.label ?? passage.id}</span>{" "}
             of a web page pinned by the hash of its bytes. No page text is stored; the selected
             range is re-extracted locally and rejected on any byte or text drift.
             {passage.translation
@@ -231,7 +233,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
             <StatusMark tone="accent">Pinned witness</StatusMark>
           </div>
           <p className="mt-4 text-lg leading-8 text-[var(--ink)]">
-            This claim is bound to passage <span className="font-mono text-base">{passage.id}</span>{" "}
+            This claim is bound to passage <span className="font-mono text-base">{passage.legacy_id ?? passage.label ?? passage.id}</span>{" "}
             in an immutable source snapshot. The snapshot is byte-verified separately from the
             scholarly interpretation below.
           </p>
@@ -298,7 +300,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
                 key={alternative.id}
               >
                 <span className="font-serif text-xl">{alternative.paraphrase}</span>
-                <span className="ml-3 text-sm text-[var(--muted)]">{alternative.id}</span>
+                <span className="ml-3 text-sm text-[var(--muted)]">{alternative.label ?? alternative.id}</span>
               </Link>
             ))}
           </div>
@@ -313,7 +315,7 @@ export default async function ClaimPage({ params }: ClaimPageProps) {
               <Link className="record-link" href={`/results/${result.id}`} key={result.id}>
                 <StatusMark tone="accent">Mechanically verified argument</StatusMark>
                 <p className="mt-3 font-serif text-2xl leading-tight">{result.meaning}</p>
-                <p className="mt-3 font-mono text-xs text-[var(--muted)]">{result.id}</p>
+                <p className="mt-3 font-mono text-xs text-[var(--muted)]">{result.label ?? result.id} · {displayId(corpus, result.id)}</p>
               </Link>
             ))}
           </div>

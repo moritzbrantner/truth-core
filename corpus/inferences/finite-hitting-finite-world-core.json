@@ -1,13 +1,15 @@
 {
-  "id": "INF-FINITE-HITTING-FINITE-WORLD-CORE",
+  "id": "d3027125-221d-50b4-ae27-958fb22bf602",
+  "label": "Logical falsity, by Compose-finite-hitting-contra… (2)",
+  "legacy_id": "INF-FINITE-HITTING-FINITE-WORLD-CORE",
   "input_statement_ids": [
-    "STMT-FINITE-HITTING-UNIVERSAL",
-    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-    "STMT-ABSENCE-AMALGAMATION",
-    "STMT-FINITE-HITTING-ONE-FINITE",
-    "STMT-FINITE-HITTING-NO-NECESSARY"
+    "bd993533-227d-5fc3-8072-7434121d6fde",
+    "7570cdf8-56b1-58dc-951d-e987959c2d29",
+    "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+    "83e47239-0986-5a54-b27a-8408b14ab442",
+    "39c29835-81e3-580f-a8ef-6dacb2a8473e"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "compose-finite-hitting-contradiction",
   "meaning": "Under an explicit universal-accessibility background and actual world, necessary population, absence amalgamation and one finite possible population contradict no fixed necessary individual. All three non-background policies remain open; no God identity or root discharge follows.",
   "assumption_statement_ids": [],

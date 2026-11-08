@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AGREEMENT-NECESSITATION-RULE",
+  "id": "c29692f7-8190-5f33-bcfc-1d74a5d5dde0",
+  "label": "Necessitation restricted to actuality…: For EVERY world predicate P, diagonal validity of…",
+  "legacy_id": "DEF-AGREEMENT-NECESSITATION-RULE",
   "term": "necessitation restricted to actuality agreement",
   "definition": "For EVERY world predicate P, diagonal validity of Agreement P implies its necessitated validity. This is a semantic schema over P, not an unrestricted object-language substitution or a theorem about a historical modal calculus.",
   "basis": "stipulative",

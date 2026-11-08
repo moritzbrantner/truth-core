@@ -1,8 +1,10 @@
 {
-  "id": "STMT-FAMILY-RESEMBLANCE-CLASSIFICATION",
+  "id": "0477c7e1-802d-573b-a22d-ef787c6d4eb5",
+  "label": "At least one competent ordinary classification can be sustained by overlapping similarity patterns…",
+  "legacy_id": "STMT-FAMILY-RESEMBLANCE-CLASSIFICATION",
   "paraphrase": "OPEN analyst formulation; attribution DEFERRED: At least one competent ordinary classification can be sustained by overlapping similarity patterns among its instances without any one feature in a specified, independently chosen classification-feature vocabulary belonging to every instance. The feature vocabulary is fixed independently of category membership; no claim denies every possible shared property, every disjunctive essence, or common natures for all concepts.",
   "definition_ids": [
-    "DEF-FAMILY-RESEMBLANCE-CLASSIFICATION"
+    "7c91f5f4-596b-5211-be68-fd44ea1dba0b"
   ],
   "note": "Unproved and unestablished. No Lean declaration, source claim or self-evidence marking. The bearing classification and strongest rivals are in docs/wittgenstein.md; existing formal boundaries do not establish this existential philosophical proposition."
 }

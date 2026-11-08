@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
-  "argument_id": "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
+  "id": "d36ad9c0-59fc-589a-a86b-89803ffd8342",
+  "label": "For every bearer and perfection in the fixed form/end profile…, from named definition elimination",
+  "legacy_id": "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
+  "argument_id": "f3f88b37-5b94-5e30-a190-9ff100f52da5",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessSemanticElimination.dueFromSemanticElimination",

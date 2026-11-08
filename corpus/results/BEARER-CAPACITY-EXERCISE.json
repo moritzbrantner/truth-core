@@ -1,6 +1,8 @@
 {
-  "id": "BEARER-CAPACITY-EXERCISE",
-  "argument_id": "BEARER-CAPACITY-EXERCISE",
+  "id": "da80929e-41a6-5552-9b55-a4df109539c1",
+  "label": "The exact #456 response compatibility theorem is reused",
+  "legacy_id": "BEARER-CAPACITY-EXERCISE",
+  "argument_id": "e39e1985-3427-511d-8c8c-cc4b1d979ded",
   "challenge_module": "TruthCore.Results.Modal.BearerExercise.Challenge",
   "solution_module": "TruthCore.Results.Modal.BearerExercise.Solution",
   "theorem": "TruthCore.Results.Modal.BearerExercise.checks",

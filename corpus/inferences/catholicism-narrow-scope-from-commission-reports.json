@@ -1,10 +1,12 @@
 {
-  "id": "INF-CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
+  "id": "587bca52-e5b8-5162-bece-e15f49b445e1",
+  "label": "For any being g: if Jesus holds a mandate from g, and Jesus…, by Case-analysis-on-disjunction…",
+  "legacy_id": "INF-CATHOLICISM-NARROW-SCOPE-FROM-COMMISSION-REPORTS",
   "input_statement_ids": [
-    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+    "da573220-03c0-5361-a1d7-e117e78e2b77",
+    "820771a7-1173-510f-88ec-445b203fb1fd"
   ],
-  "output_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "output_statement_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "rule": "case-analysis-on-disjunction-list-membership-universal-instantiation-and-modus-ponens",
   "meaning": "Fix g with HoldsMandate jesus g, and suppose Jesus founded the Catholic Church as a visible society with authority. From the report-to-event premise: teach is among Matthew 28's powers, so Jesus gave it; and by cases on the four governing reports, Jesus gave keys (Matthew 16), judgeAsChurch (Matthew 18), forgiveAndRetain (John 20) or shepherd (John 21), each of which Power.Governing classifies as governing. The founding-in-the-apostles premise at g then gives FoundedInMandate jesus g catholicChurch from the governing power and CommissionedToTeach jesus catholicChurch from teach.",
   "assumption_statement_ids": [],

@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-MODAL-K-COLLAPSE-MODES",
+  "id": "2d935e8e-a7d0-50db-999d-a5271406a372",
+  "label": "Actual, possible and necessary collapse versus possibility entails actuality",
+  "legacy_id": "DISAMB-MODAL-K-COLLAPSE-MODES",
   "term": "actual, possible and necessary collapse versus possibility entails actuality",
   "sense_definition_ids": [
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-K-FORK"
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "5e61ee7e-61d1-580b-89a9-f812e01b15ea"
   ],
-  "resolution": "Actual collapse is MC F D w; possible collapse is Dia F (MC F D) w; necessary collapse is Box F (MC F D) w. Their root and domain remain explicit. PossibilityActuality quantifies over admissible P and is not the definition of MC; their full-domain equivalence is proved. The fork witnesses compare all-predicate and fixed-language domains separately; ExtensionalCountermodels proves that both fork languages satisfy world extensionality, while duplicate-label language collapse does not. Contingency is independently witnessed by sink and branch at the common root, not inferred from collapse. No mathematical truth is transferred to metaphysical possibility, real-world contingency, Hume attribution or a cosmological conclusion."
+  "resolution": "Actual collapse is MC F D w; possible collapse is Dia F (MC F D) w; necessary collapse is Box F (MC F D) w. Their root and domain remain explicit. PossibilityActuality quantifies over admissible P and is not the definition of MC; their full-domain equivalence is proved. The fork witnesses compare all-predicate and fixed-language domains separately; ExtensionalCountermodels proves that both fork languages satisfy world extensionality, while duplicate-label language collapse does not. Contingency is independently witnessed by sink and branch at the common root, not inferred from collapse. No mathematical truth is transferred to metaphysical possibility, real-world contingency, Hume attribution or a cosmological conclusion.",
+  "term_label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY",
+  "senses": [
+    {
+      "id": "875fec90-d2e9-41eb-a14c-09688b1f4497",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_1",
+      "definition_id": "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
+    },
+    {
+      "id": "18ba9899-961d-4723-902b-487786d50e61",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_2",
+      "definition_id": "2a081357-c3f9-5ca0-a4b6-604f47258175",
+      "lean_declaration": "TruthCore.Modal.KResearch.PossibilityActuality"
+    },
+    {
+      "id": "275028c1-4b48-4662-971e-a03b13ddd97a",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_3",
+      "definition_id": "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+      "lean_declaration": "TruthCore.Modern.Hume.Conceivability.Contingent"
+    },
+    {
+      "id": "bc5fb83b-46c5-4237-a967-dd4584e4a776",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_VERSUS_POSSIBILITY_4",
+      "definition_id": "5e61ee7e-61d1-580b-89a9-f812e01b15ea",
+      "lean_declaration": "TruthCore.Modal.KResearch.fork"
+    }
+  ]
 }

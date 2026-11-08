@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "JUSTIN-APOLOGIA-SECUNDA",
+    "source_id": "7febe500-803b-58cc-9b37-637b7ef41782",
     "edition_urn": "urn:cts:greekLit:tlg0645.tlg002.perseus-grc2",
     "language": "grc",
     "repository": "OpenGreekAndLatin/First1KGreek",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "JUSTIN-2APOL-7",
+      "id": "7c224617-bd63-51a9-a165-c135031972c5",
+      "label": "Justin Martyr, Apologia secunda, 2 Apol. textpart 7",
+      "legacy_id": "JUSTIN-2APOL-7",
       "locator": "2 Apol. textpart 7 (common numbering 8)",
       "claim_locator_prefixes": [
         "textpart 7"
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "JUSTIN-2APOL-13",
+      "id": "6f763640-b5bf-50fe-8c51-59b53732eedb",
+      "label": "Justin Martyr, Apologia secunda, 2 Apol. textpart 13",
+      "legacy_id": "JUSTIN-2APOL-13",
       "locator": "2 Apol. textpart 13 (common numbering 13)",
       "claim_locator_prefixes": [
         "textpart 13"

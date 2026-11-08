@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+    "source_id": "f37d35cc-4070-54d0-a686-2f6998f9a346",
     "source_url": "https://www.wittgensteinproject.org/w/index.php?title=Philosophische_Untersuchungen&action=raw&oldid=14212",
     "retrieved_at": "2026-11-05T15:36:00Z",
     "sha256": "sha256:3166f2764b3ce78e5def717b64cf16c20d240234bfb0cf593a746423bf07b380",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "WITTGENSTEIN-PU-I",
+      "id": "b91af231-ca66-53b8-86e3-28d1cc4e38aa",
+      "label": "Ludwig Wittgenstein, Philosophische Untersuchungen, Part I §§1-693",
+      "legacy_id": "WITTGENSTEIN-PU-I",
       "locator": "Part I §§1-693 (whole text, raw wikitext)",
       "claim_locator_prefixes": [
         "§"

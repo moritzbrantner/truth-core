@@ -1,19 +1,21 @@
 {
-  "id": "AQUINAS-ST-I-Q6-A2-PERFECTIONS-FLOW-FROM-FIRST-CAUSE",
-  "statement_id": "STMT-ALL-PERFECTIONS-FLOW-FROM-GOD-AS-FIRST-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "51d88a8e-f6db-59ba-86ca-43fae01c0bc5",
+  "label": "Thomas Aquinas, Summa theologiae I q.6 a.2 co: All desired perfections flow from GOD_4 as from…",
+  "legacy_id": "AQUINAS-ST-I-Q6-A2-PERFECTIONS-FLOW-FROM-FIRST-CAUSE",
+  "statement_id": "459d4c97-9d8e-507d-9605-af6dac2d7d74",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.6 a.2 co.: inquantum omnes perfectiones desideratae effluunt ab eo, sicut a prima causa",
   "interpretation": "God is the supreme good simply because all desired perfections flow from him as from their first cause, not as from a univocal agent, so the good is in him most excellently. Kept as prose: it states of God what the open bridge STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION states of any cause of being, and supports it without stating it. Full-article re-reading preserves the desired-perfection, first-cause and nonunivocal qualifications. It does not assert a universally quantified transfer for every cause, nor identify an arbitrary universal esse source with God. See docs/notes/causal-perfection-transfer.md.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-UNIVERSALLY-PERFECT",
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-IN-ACT-VIRTUALLY",
-    "DEF-SUPREMELY-GOOD"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "f7833666-c764-5624-a766-708949d9feee",
+    "58e0de99-6199-5851-8e03-381bca0d44f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

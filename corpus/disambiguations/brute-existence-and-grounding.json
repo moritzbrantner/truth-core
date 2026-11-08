@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING",
+  "id": "e63036c5-d9c0-55d3-9704-e23efcbed127",
+  "label": "Brute existence fact versus grounding-brute root",
+  "legacy_id": "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING",
   "term": "brute existence fact versus grounding-brute root",
   "sense_definition_ids": [
-    "DEF-BRUTE-EXISTENCE-AT",
-    "DEF-NO-BRUTE-EXISTENCE-AT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+    "b0a3ca7f-2970-531c-9201-962393ef3a8f",
+    "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef"
   ],
-  "resolution": "NoBruteExistenceAt and BruteExistenceAt concern existence of tokens in the model explains relation at one selected world. A brute root relative to a directed grounding relation concerns absence of concrete incoming grounds; it can still carry stipulated explanation tokens. The compatibility certificate expands the old grounding rival with sound all-world explanation coverage while retaining its brute contingent root and lack of a necessary concrete individual. No conversion from tokens to adequate, concrete or noncircular grounds is assumed."
+  "resolution": "NoBruteExistenceAt and BruteExistenceAt concern existence of tokens in the model explains relation at one selected world. A brute root relative to a directed grounding relation concerns absence of concrete incoming grounds; it can still carry stipulated explanation tokens. The compatibility certificate expands the old grounding rival with sound all-world explanation coverage while retaining its brute contingent root and lack of a necessary concrete individual. No conversion from tokens to adequate, concrete or noncircular grounds is assumed.",
+  "term_label": "BRUTE_EXISTENCE_FACT_VERSUS_GROUNDING_BRUTE",
+  "senses": [
+    {
+      "id": "1b3facd5-b094-41e8-b013-0d6f380dab91",
+      "label": "BRUTE_EXISTENCE_FACT_VERSUS_GROUNDING_BRUTE_1",
+      "definition_id": "b0a3ca7f-2970-531c-9201-962393ef3a8f",
+      "lean_declaration": "TruthCore.Explanation.NoBruteExistence.BruteExistenceAt"
+    },
+    {
+      "id": "1a4add85-6f05-423b-b798-c33fab84152a",
+      "label": "BRUTE_EXISTENCE_FACT_VERSUS_GROUNDING_BRUTE_2",
+      "definition_id": "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+      "lean_declaration": "TruthCore.Explanation.NoBruteExistence.NoBruteExistenceAt"
+    },
+    {
+      "id": "0a7f0eb8-580b-44ee-8f02-f044ad8cf176",
+      "label": "BRUTE_EXISTENCE_FACT_VERSUS_GROUNDING_BRUTE_3",
+      "definition_id": "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+      "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualRoot"
+    }
+  ]
 }

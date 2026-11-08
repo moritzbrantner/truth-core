@@ -1,12 +1,14 @@
 {
-  "id": "AFP-GOEDELGOD-A2-A",
-  "statement_id": "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "f6b8237a-0303-5f8f-8db6-67c9de05405e",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Scott's axiom A2: at every world, if a property is…",
+  "legacy_id": "AFP-GOEDELGOD-A2-A",
+  "statement_id": "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, A2: \"[∀(λΦ. ∀(λΨ. (P Φ m∧ □ (∀(λx. Φ x m→ Ψ x))) m→ P Ψ))]\"",
   "interpretation": "Axiom A2 as stated in the theory ('A property necessarily implied by a positive property is positive'), with □ the theory's box over its accessibility relation r. The Lean statement curries the conjunction P Φ m∧ □(...) into two hypotheses, which is equivalent. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

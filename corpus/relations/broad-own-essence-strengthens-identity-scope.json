@@ -1,10 +1,12 @@
 {
-  "id": "REL-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "id": "497904e4-619c-5778-8776-d43168c73e7c",
+  "label": "For every being x and principle r, if the… strengthens Strictly weaker own-essence input…",
+  "legacy_id": "REL-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
   "subject_kind": "statement",
-  "subject_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "subject_id": "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
-  "verification_result_id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "object_id": "b9316115-41b9-57e3-bdef-35b6e2face1a",
+  "verification_result_id": "9882d958-d049-5286-9cdc-34df79fdf964",
   "note": "Sole-premise checked restriction. New infinity route uses the identity-scoped version; the old frozen broad interface is preserved."
 }

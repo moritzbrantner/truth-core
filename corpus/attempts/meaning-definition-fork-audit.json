@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-MEANING-DEFINITION-FORK-AUDIT",
+  "id": "69237cd4-5be6-557f-8ab5-5f3f8b41aa96",
+  "label": "Scoped V1/V2/V3/all-in-scope calibrations and open named coverage are separate propositions",
+  "legacy_id": "ATTEMPT-MEANING-DEFINITION-FORK-AUDIT",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-VERIFICATION-PRINCIPLE",
-    "STMT-MEANING-CALIBRATION",
-    "STMT-MEANING-NAMED-COVERAGE",
-    "STMT-MEANING-REMAINING-DEFINITION"
+    "12527c0e-3a83-5639-91e4-3eab30b2ec23",
+    "af40d9a3-0007-50be-94fb-2d22068c03dd",
+    "8c15181f-fbc7-538c-bcce-1e5381247d2f",
+    "32a7695e-6ccc-5d98-9c52-bbbd539d7f50"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Scoped V1/V2/V3/all-in-scope calibrations and open named coverage are separate propositions. Existing V1/V3 packages already include correct biconditionals, so rejected the reading that their closure proofs silently adopted a criterion. Compose existing V2 admission and correctly calibrated V3 refutation to discriminate definitions under explicit independent target requirements. Analytic-only control is a genuine nontrivial remaining extension and strictness witness; it is not a model of the joint rejection package. No source claim or owner-approved floor changed. Exact types, limits and remaining work in docs/notes/meaning-definition-fork.md. A failed binding attempt used raw logical heads (Not/Exists); changing only Solution aliases then failed Comparator statement identity. Original draft Challenges are preserved unchanged with their exact raw-form Solutions. New Bound Challenge/Solution siblings freeze the named-head forms and compose the same original proof, with no logical or premise strengthening.",
   "evidence": [
-    "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
-    "MEANING-DEFINITION-FORK",
-    "MEANING-V2-CALIBRATION-REJECTED",
-    "MEANING-V3-CALIBRATION-REJECTED",
-    "MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
-    "MEANING-DEFINITION-CONTROLS"
+    "ce6e9222-bdda-5174-abe4-afb152e1ec77",
+    "7ce87d40-c1e3-5aed-a71c-99a2c0b1cfcf",
+    "903d12fa-9d4b-59a0-b403-8b774f08e7d8",
+    "1730c593-657b-5491-93a1-f6c52098665f",
+    "02b50f9d-694f-5dc1-a6ba-0fb995150cf7",
+    "c199664c-295e-52eb-a5e6-12945a8bf998"
   ]
 }

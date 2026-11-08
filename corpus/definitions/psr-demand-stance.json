@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DEMAND-STANCE",
+  "id": "18c03398-75c1-5903-90a9-ba0d901b64ab",
+  "label": "Demand for reasons: A Stance lists what is accepted, what is core and what is demanded",
+  "legacy_id": "DEF-DEMAND-STANCE",
   "term": "demand for reasons (stance)",
   "definition": "A Stance lists what is accepted, what is core and what is demanded. Demanding p is the stance's own commitment that accepting p requires a reason. Honors S I w says everything S both demands and accepts is supported at w. NoneDemanded says nothing is demanded; CoreDemanded says every core commitment is. These bind only the stance that holds them.",
   "basis": "stipulative",

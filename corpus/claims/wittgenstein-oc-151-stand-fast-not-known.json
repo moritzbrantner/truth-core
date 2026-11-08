@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN",
-  "statement_id": "STMT-OC-MOORE-PROPOSITIONS-STAND-FAST-NOT-KNOWN",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "b4fe21b5-de80-59b6-8f95-c8e4dcaa7710",
+  "label": "Ludwig Wittgenstein, Über Gewißheit §151…: Über Gewißheit §151: Moore does not know what he claims…",
+  "legacy_id": "WITTGENSTEIN-OC-151-STAND-FAST-NOT-KNOWN",
+  "statement_id": "3288a854-00d2-522d-be9f-85d8c97ddb12",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§151, Moore weiß nicht, was er zu wissen behauptet, aber es steht für ihn fest",
   "interpretation": "§151: 'Ich möchte sagen: Moore weiß nicht, was er zu wissen behauptet, aber es steht für ihn fest, so wie auch für mich; es als feststehend zu betrachten, gehört zur Methode unseres Zweifelns und Untersuchens.' The remark is introduced with 'Ich möchte sagen'; it is a reading of Moore's propositions, not a general theory of knowledge.",
   "status": "formalized",

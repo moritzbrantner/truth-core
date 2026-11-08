@@ -20,8 +20,8 @@ export const fixture: GraphFixtureInput = {
     statement("NALT"),
   ],
   claims: [
-    { id: "CL-P1-A", statement_id: "P1", source_id: "SRC", locator: "1a", interpretation: "Reading A.", interpretation_group: "G", passage_id: "SRC-1" },
-    { id: "CL-P1-B", statement_id: "P2", source_id: "SRC", locator: "1a", interpretation: "Reading B.", interpretation_of: "CL-P1-A", passage_id: "SRC-1" },
+    { id: "CL-P1-A", legacy_id: "CL-P1-A", statement_id: "P1", source_id: "SRC", locator: "1a", interpretation: "Reading A.", interpretation_group: "G", passage_id: "SRC-1" },
+    { id: "CL-P1-B", legacy_id: "CL-P1-B", statement_id: "P2", source_id: "SRC", locator: "1a", interpretation: "Reading B.", interpretation_of: "CL-P1-A", passage_id: "SRC-1" },
     { id: "CL-SE", statement_id: "SE", source_id: "SRC2", locator: "2b", interpretation: "Per se nota.", passage_id: "SRC2-2" },
     { id: "CL-LONE", statement_id: "LONE", source_id: "SRC", locator: "3c", interpretation: "Just said.", passage_id: "SRC-3" },
   ],

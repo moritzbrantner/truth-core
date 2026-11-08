@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "id": "4a69d91a-9529-59e2-8ffa-ba2f4254cd70",
+  "label": "Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "argument_id": "8df2faad-cda4-5e37-b99b-1c5dca7be900",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.catholicismFromIntendedReading",

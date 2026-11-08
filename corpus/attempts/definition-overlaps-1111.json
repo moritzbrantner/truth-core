@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-DEFINITION-OVERLAPS-1111",
+  "id": "de50e3d1-0110-553c-9db9-27e477578655",
+  "label": "Resolved seven #1111 overlap findings without merging proposition/source identities. actual root…",
+  "legacy_id": "ATTEMPT-DEFINITION-OVERLAPS-1111",
   "statement_ids": [
-    "STMT-DEFINITION-DICTIONARY-CONNECTIONS",
-    "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
-    "STMT-HISTORY-TIME-SCOPE-CONTROLS",
-    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE"
+    "c42d1e07-4d99-5a32-8564-eb0f66cd4859",
+    "4ec11554-7c5f-5c7b-9de0-8bd817aa34b8",
+    "e8ce9035-1f8e-53ff-ab73-db9209a931d1",
+    "2336e5b4-ba2f-5ffb-8798-0737505208c6"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Resolved seven #1111 overlap findings without merging proposition/source identities. (1) DEF-ACTUAL-ROOT names the exact NecessaryRootFork.ActualRoot shared by three scope-qualified views. (2) The two inhabited-world bodies coincide only with identical Ontic, concrete predicate and world; removed stale unmerged-branch advice and certified the iff. (3) HistoryTimeScope is an overview, not a rival to Common: exact Worldwise/Common/AllTime member records reuse the existing implications and diagonal/synchronized separation witnesses. (4) Arbitrary-frame Box is shared with the KB embedding; symmetry/domain/classical policies are separate commitments. Kant fixed-object NecessaryAt is exactly Box of that object’s existence, while NecessaryBeing has an actual witness; certified only that dictionary equality. (5) Reused #1141 DISAMB-MAXIME-ENS and calibrated/directedness bridges for generic respect r versus esse, preserving incomparable/tied/remainder controls and open source-to-old-I transfer. (6) JointGroups.Groups is a container, Exercise.suffices a member predicate; central sufficiency/deletion definition remains scenario-relative and may be vacuous without allowed scenarios. (7) Classification.disjoint is a proof projection, AbstractConcreteDisjoint a predicate constructor: a direct alias is ill-typed because construction already requires the proof. Certified exact predicate-preserving packaging instead; retained both APIs and avoided importing the causal wrapper into the foundational classification. No interpretation or philosophical premise is established. Findings and locators persist in the associated DEF/DISAMB records; no new source claims, primitive criteria, frame laws or frozen Challenge edits.",
   "evidence": [
-    "DEFINITION-DICTIONARY-CONNECTIONS",
-    "HISTORY-TIME-SCOPE-CONTROLS",
-    "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
-    "MAXIME-DEFINITION-BOUNDARIES",
-    "JOINT-CAUSAL-GROUPS-CERTIFICATE"
+    "ed66cd71-96af-5686-bc1b-09d01ef66150",
+    "7e6de7aa-b796-5964-bede-a04f1a5fa20a",
+    "7fc3b7b0-2703-51d0-b1af-80b8626e8594",
+    "29fd4c62-0327-5599-aad8-15ee7c35cd6c",
+    "d242b717-5f31-55ed-a684-0db7c53c7395"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
+  "id": "eaf51b98-690b-5171-8f29-aaf426c09f55",
+  "label": "The original every-opiner designated-MOTION_3 norm or an actual opinion/nonmotion countertuple in…",
+  "legacy_id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
   "paraphrase": "The original every-opiner designated-motion norm or an actual opinion/nonmotion countertuple in the SAME respect. Explicit-EM structural coverage, not an exhaustive list of historical skeptical theories.",
   "lean_declaration": "TruthCore.Alternatives.OpiningMotionRivalCoverage.OpinionMotionFork",
   "definition_ids": [
-    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CHANGE-A-SERIES"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

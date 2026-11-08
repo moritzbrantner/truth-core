@@ -1,11 +1,13 @@
 {
-  "id": "INF-CAUSED-SIMPLE-PART-FROM-DESCENT",
+  "id": "5c81520b-4a57-5110-9fe5-f262d7cf3d28",
+  "label": "Every caused object has a caused simple part; the part may…, by Typed-well-founded-mereologic…",
+  "legacy_id": "INF-CAUSED-SIMPLE-PART-FROM-DESCENT",
   "input_statement_ids": [
-    "STMT-PROPER-PART-WELL-FOUNDEDNESS",
-    "STMT-CAUSED-COMPOSITE-HAS-CAUSED-PROPER-PART",
-    "STMT-EXCLUDED-MIDDLE"
+    "7b600323-f8d2-5b0b-9988-df4f1c805bae",
+    "48bc5429-9243-561d-8266-24365b37aee9",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-EVERY-CAUSED-OBJECT-HAS-CAUSED-SIMPLE-PART",
+  "output_statement_id": "ba30a28d-256c-5a9a-a1f2-a06d907b5036",
   "rule": "typed-well-founded-mereological-causal-composition",
   "meaning": "Proper-part well-founded induction with explicit EM: a caused composite has a caused strict part by P6; recurse and compose parthood. A simple object itself is its caused simple part. This derives the missing Step1 bridge rather than assuming it.",
   "assumption_statement_ids": [],

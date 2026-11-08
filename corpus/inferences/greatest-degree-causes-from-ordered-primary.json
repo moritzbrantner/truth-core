@@ -1,13 +1,15 @@
 {
-  "id": "INF-GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY",
+  "id": "3f7564da-527a-5c89-a6b1-6126761f4a96",
+  "label": "For an arbitrary selected perfection and supplied preorder of…, by Excluded middle on identity…",
+  "legacy_id": "INF-GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY",
   "input_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
-    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
-    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
-    "STMT-EXCLUDED-MIDDLE"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "30a8373c-5188-581b-b746-e319d71311e4",
+    "612078bf-5a68-5542-8b7b-f862f816ece0",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "output_statement_id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
   "rule": "Excluded middle on identity with the primary; strict order; instantiation",
   "meaning": "With degrees read as approach to a primary: a greatest-degree bearer is the primary, since anything else falls strictly short of the primary (strict primacy), while the primary is itself a bearer (first conjunct of the approach reading; only that conjunct is used) and so at most at the greatest degree. The primary causes the perfection in every creature having it (q.13 a.5, ordo ad causam), and everything else is a creature (open premise). So every greatest-degree bearer causes the perfection in all other bearers.",
   "assumption_statement_ids": [],

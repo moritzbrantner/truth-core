@@ -1,14 +1,16 @@
 {
-  "id": "NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES",
-  "statement_id": "STMT-PILOT-REPORT-PAUL-RECEIVED-APPEARANCES",
-  "source_id": "NT-1COR",
+  "id": "47246a54-1e0f-584d-bb8d-6d07cf8bf68d",
+  "label": "Paul, First Corinthians 15.3-8: The speaker says he transmitted what he received: death, burial…",
+  "legacy_id": "NT-1COR-PILOT-PAUL-RECEIVED-APPEARANCES",
+  "statement_id": "f7c4e2ea-23b6-546e-9420-9331193c3a8d",
+  "source_id": "0281ee66-52e8-5421-9bfa-277cbca8269e",
   "locator": "15.3-8",
   "interpretation": "The relative received/transmitted sequence is explicit; neither an absolute early date, a formula boundary nor James’s conversion is asserted. The meaning of ὤφθη is not decided as an external bodily encounter by this report.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

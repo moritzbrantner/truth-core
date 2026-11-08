@@ -1,9 +1,11 @@
 {
-  "id": "INF-COGITO-PERFORMED-DOUBT-SELF-REFUTING",
+  "id": "97b8676e-f2f5-5636-a411-284574c30b50",
+  "label": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes…, by Reductio",
+  "legacy_id": "INF-COGITO-PERFORMED-DOUBT-SELF-REFUTING",
   "input_statement_ids": [
-    "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT"
+    "1722a80f-47a4-5605-8b66-b3534e457bcb"
   ],
-  "output_statement_id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
+  "output_statement_id": "8697bb2d-f29d-5945-88ea-bb62d6a3e4e2",
   "rule": "Reductio",
   "meaning": "The retorsion step: if every performed doubt whether thought occurs is realized by an occurring thought (OPEN), then performing such a doubt falsifies its content 'no thought episode occurs'. It does not assert that any doubt is performed; an unperformed doubt can be true (EmptyEpisodeControl).",
   "assumption_statement_ids": [],

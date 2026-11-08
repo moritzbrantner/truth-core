@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
+  "id": "45eb2698-4ccd-59c7-a25b-5737edd84e2e",
+  "label": "Exact negation of the conditional Catholic-Church mandate scope on the same Signature and Agency",
+  "legacy_id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
   "paraphrase": "Exact negation of the conditional Catholic-Church mandate scope on the same Signature and Agency. A raw message-only conditional needs an actual mandate/founded-visible-body witness to imply this negation.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.CatholicMandateScopeRejected",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

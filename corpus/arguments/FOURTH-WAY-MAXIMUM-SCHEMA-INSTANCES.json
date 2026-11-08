@@ -1,25 +1,27 @@
 {
-  "id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "id": "f417a17b-b625-5d70-ac93-c13b89e40e96",
+  "label": "For each named respect, if all beings have it and its comparative is the strict part of one…",
+  "legacy_id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "conclusion_statement_id": "c7e171ba-c6a6-57c0-81c8-1db570be1544",
   "inference_ids": [
-    "INF-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES"
+    "5b1ea4e2-0f6e-5069-b0e5-f47b8f3f70e6"
   ],
   "meaning": "Conditional schema instances for being, goodness and truth: for each named respect, if all beings have it and its comparative is the strict part of one preorder, and every distinct cause of a perfection is more such, a maximum has no distinct cause of that same perfection. This proves the conditional transfer, not its domain-specific hypotheses.",
   "definition_ids": [
-    "DEF-MAXIMUM-ORDER-SCHEMA",
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-MORE-IN",
-    "DEF-GOOD-AS-BEING-IN-ACT",
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+    "67dc3765-8c32-505e-a546-b611387345c2",
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-CAUSE",
-    "DISAMB-MAXIME-ENS"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

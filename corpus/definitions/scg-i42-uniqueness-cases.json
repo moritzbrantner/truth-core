@@ -1,18 +1,20 @@
 {
-  "id": "DEF-SCG-I42-UNIQUENESS-CASES",
+  "id": "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
+  "label": "SUPERABUNDANT_PERFECTION_1, per-se…: The chapter distinguishes necessary-through-itself beings from…",
+  "legacy_id": "DEF-SCG-I42-UNIQUENESS-CASES",
   "term": "superabundant perfection, per-se necessity and differentiation cases in SCG I42",
   "definition": "The chapter distinguishes necessary-through-itself beings from caused necessities, a common notion from numerical identity, and accidental versus necessity-completing distinction. The accidental branch invokes essence-or-external causation; the completing branch distinguishes included nature from actual specification. Divine-nature multiplication additionally excludes essential differences, accidents and matter.",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-SCG-I42-SUPERABUNDANCE-UNIQUENESS",
-    "AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION",
-    "AQUINAS-SCG-I42-PER-SE-NECESSITY-ADDED-DISTINCTION",
-    "AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
-    "AQUINAS-SCG-I42-COMPLETING-DISTINCTION-FORK",
-    "AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
-    "AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
-    "AQUINAS-SCG-I42-DESIGNATED-NECESSITY-INCOMMUNICABILITY",
-    "AQUINAS-SCG-I42-DIVINE-NATURE-INDIVIDUATION-CASES"
+    "a16477c6-c23d-5e44-aa8f-cca7b5b3fb73",
+    "6f951222-6b1a-5a9e-b99f-595424c3e0c8",
+    "ce29cca7-34d3-54f1-91d7-5e3102b7e985",
+    "3ed97b9d-b84f-5c8c-8aee-9372af789137",
+    "2229fab3-f9a5-557a-86c9-066a9819bd3a",
+    "257068d7-7407-5ce4-ac2a-4165b166fae1",
+    "d259e584-887f-592d-87de-7521ee8afd1a",
+    "418b5067-58a2-54d5-946f-56c07f36b124",
+    "3a8adf24-6acc-5e76-bab5-68885608e03f"
   ],
   "note": "These are source argument commitments, not a formal case-exhaustion theorem or identity with the existing HasLimitingPrinciple disjunction. Application to the same root, addition-excluding esse, causal-ground correspondence and formal/eminent perfection remain open. No common predicate implies one object by definition."
 }

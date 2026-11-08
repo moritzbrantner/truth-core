@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NECESSARILY-UNDERIVED-ROTATING",
+  "id": "61361179-de22-5ee5-99f1-989529e01563",
+  "label": "Two worlds each have a well-founded direct-support DAG, but edge directions reverse between worlds",
+  "legacy_id": "MODEL-NECESSARILY-UNDERIVED-ROTATING",
   "description": "Two worlds each have a well-founded direct-support DAG, but edge directions reverse between worlds. All bearers are necessary, no contingent ground occurs; their global union cycles and no rigid underived being exists.",
   "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
   "lean_declaration": "TruthCore.Models.NecessarilyUnderived.rotating",
@@ -30,7 +32,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -41,7 +43,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNecessary"
     },
     {
-      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "statement_id": "47a97912-335f-52f7-a715-63592368f0fe",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -53,7 +55,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingActualWellFounded"
     },
     {
-      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -64,7 +66,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingReflexive"
     },
     {
-      "statement_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+      "statement_id": "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -76,7 +78,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNoContingentGround"
     },
     {
-      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "statement_id": "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
       "value": "violates",
       "arguments": [
         "World",
@@ -88,7 +90,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingNoLifting"
     },
     {
-      "statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+      "statement_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
       "value": "violates",
       "arguments": [
         "World",
@@ -100,7 +102,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.rotatingUnionNotWellFounded"
     },
     {
-      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
       "value": "violates",
       "arguments": [
         "World",

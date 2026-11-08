@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BEARER-SUPPORT-ANCESTRY",
+  "id": "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+  "label": "Support ancestry of a bearer…: SupportAncestor m R w x b is the reflexive-transitive closure of…",
+  "legacy_id": "DEF-BEARER-SUPPORT-ANCESTRY",
   "term": "support ancestry of a bearer; dependent ancestor",
   "definition": "`SupportAncestor m R w x b` is the reflexive-transitive closure of `PresentEsseSupport m R w`, so x is b or reached from b by a finite chain of direct supporters existing at w. `Dependent` is an unconstrained predicate, not defined as having a supporter. `BearerAncestryDependentsSupported` says that each existing ancestor of a bearer of an occurring thought that satisfies `Dependent` has an existing direct supporter at w.",
   "basis": "stipulative",

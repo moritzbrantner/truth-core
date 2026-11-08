@@ -1,11 +1,13 @@
 {
-  "id": "STMT-WELL-FOUNDED-FACT-DEPENDENCY",
+  "id": "355d1786-53fc-5931-8822-561255c4331b",
+  "label": "The supplied fact dependency R is WellFounded in Lean’s existing accessibility sense",
+  "legacy_id": "STMT-WELL-FOUNDED-FACT-DEPENDENCY",
   "paraphrase": "The supplied fact dependency R is WellFounded in Lean’s existing accessibility sense. No metaphysical applicability is independently established.",
   "lean_declaration": "WellFounded",
   "definition_ids": [
-    "DEF-FACT-DEPENDENCY-WELL-FOUNDED"
+    "303d8860-4e9b-5ae0-b726-a07e0f592df9"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

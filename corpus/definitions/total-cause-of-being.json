@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TOTAL-CAUSE-OF-BEING",
+  "id": "09542185-eb41-5874-8fd3-fe40ea68aeb4",
+  "label": "Total cause of a thing's being: TotalCauseOfBeing c x: c causes the whole being of x, not only its…",
+  "legacy_id": "DEF-TOTAL-CAUSE-OF-BEING",
   "term": "total cause of a thing's being (TotalCauseOfBeing c x)",
   "definition": "TotalCauseOfBeing c x: c causes the whole being of x, not only its coming to be in a presupposed subject, as a creator would and a generator does not. Example: (on the creation account) the first cause of a creature. Non-example: the parent, which causes the child's generation from presupposed matter, and the particular existential supporter of the CausalPerfectionTransfer roles. It is not universality (DEF-UNIVERSAL-ESSE-CAUSE-SCOPE), which STMT-UNIVERSAL-CAUSE-OF-BEING-IS-TOTAL relates to it as an open premise, and not mere enabling or counterfactual dependence.",
   "basis": "stipulative",

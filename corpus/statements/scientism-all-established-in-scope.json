@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SCIENTISM-ALL-ESTABLISHED-IN-SCOPE",
+  "id": "deea0f62-5827-5d15-a311-e5b4ce165684",
+  "label": "Every established claim lies in the supplied scope",
+  "legacy_id": "STMT-SCIENTISM-ALL-ESTABLISHED-IN-SCOPE",
   "paraphrase": "Every established claim lies in the supplied scope. An analyst OPEN coverage premise.",
   "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.AllEstablishedInScope",
   "definition_ids": [
-    "DEF-SCIENTISM-ESTABLISHED-SCOPE"
+    "2a8bc285-c92e-5e55-a838-077a76b658fe"
   ]
 }

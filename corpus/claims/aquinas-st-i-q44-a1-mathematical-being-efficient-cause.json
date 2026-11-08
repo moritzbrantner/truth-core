@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
-  "statement_id": "STMT-AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "7f2c178a-5e39-58ea-b63a-cd6613f70dbd",
+  "label": "Thomas Aquinas, Summa theologiae I q.44 a.1…: Mathematical things are abstract in reason, not in…",
+  "legacy_id": "AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE",
+  "statement_id": "ea4a1c2d-8b4b-57ee-871d-225839400fb6",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.44 a.1 ad 3, mathematica accipiuntur ut abstracta secundum rationem through causa agente",
   "interpretation": "Preserve the respect distinction between intellectual abstraction and esse. Do not identify mathematical propositions with efficient effects, posit separately subsisting mathematical objects by default or derive necessary-being actuality from an unconstrained modal predicate. The reply is source support for cause qua esse, not a formal conversion between IsAt, InAct and CausesNecessityOf. Reading is based on the verified complete Latin article and its objections/replies; no formal proof or independent premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
-    "DEF-ESSE",
-    "DEF-CAUSE-OF-PERFECTION"
+    "f114f527-20e2-5997-8219-df7f0457cf63",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

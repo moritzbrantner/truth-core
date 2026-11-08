@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
+  "id": "3fb0a456-3dc6-500b-a8b7-0915d2514037",
+  "label": "Typed analyst limitation classifier…: Reuse AFP Property W B = B→W→Prop, Box over supplied Frame…",
+  "legacy_id": "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
   "term": "typed analyst limitation classifier, backwards inclusion closure and possible exemplification",
   "definition": "Reuse AFP Property W B = B→W→Prop, Box over supplied Frame access and Dia as an accessible-world witness. L : Property W B→W→Prop is arbitrary until constrained by KnownLimitingAt, NonlimitingAt and BackwardClosedAt at one selected w. Closure pulls limitation backwards across Box(∀x,Phi→Psi). PossiblyExemplifiedAt is Dia(∃x,Phi). No frame axiom, actualist existence predicate, full deficiency-property model, Scott positivity or metaphysical classifier interpretation is built in.",
   "basis": "stipulative",

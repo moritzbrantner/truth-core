@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-D-LAWS",
+  "id": "a1dd2cff-65a7-5d6b-90c1-a86f24b63c4f",
+  "label": "Seriality plus identity-admissible root collapse forces self-access, by Direct-proof",
+  "legacy_id": "INF-MODAL-D-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-D-LAWS",
+  "output_statement_id": "888871a5-4d97-51e2-8def-bce4b69372c5",
   "rule": "direct-proof",
   "meaning": "Apply the shared identity-separation or extensional-separation theorem to a successor supplied by seriality. Substitute equality to obtain self-access; conversely singleton successors preserve every true predicate. Explicit existential witnesses establish nonvacuity, and two contrary possibilities contradict successor identity.",
   "assumption_statement_ids": [],

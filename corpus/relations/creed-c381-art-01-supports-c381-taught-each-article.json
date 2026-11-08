@@ -1,9 +1,11 @@
 {
-  "id": "REL-CREED-C381-ART-01-SUPPORTS-C381-TAUGHT-EACH-ARTICLE",
+  "id": "242d5d58-6c64-5f5d-a14f-fb4dbf2e432f",
+  "label": "First Council of Constantinople…: There is… supports The Council of Constantinople, in its…",
+  "legacy_id": "REL-CREED-C381-ART-01-SUPPORTS-C381-TAUGHT-EACH-ARTICLE",
   "subject_kind": "claim",
-  "subject_id": "CREED-C381-ART-01",
+  "subject_id": "9cf825f7-58ed-5e2e-9bd5-cf678f86ff65",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-C381-TAUGHT-EACH-ARTICLE-AS-REVEALED",
+  "object_id": "828bbf3f-cb29-5dc2-ac2b-731a81fe2226",
   "note": "Article 1 opens with 'we believe' (Pisteuomen), which governs the whole creed. That the council thereby taught each article as revealed, rather than professed it, is the analyst's reading; only article 1's claim is cited."
 }

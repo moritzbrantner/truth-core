@@ -1,16 +1,18 @@
 {
-  "id": "STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION",
+  "id": "f03798ba-e9d8-5594-b354-81fb9e9048c0",
+  "label": "Whenever an agent other than GOD_2 whose being GOD_2 causes moves something, that moving is an…",
+  "legacy_id": "STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION",
   "paraphrase": "Whenever an agent other than God whose being God causes moves something, that moving is an operation of the agent in some respect of its own in which it is in potency (a creature is not its own operation). Analyst formulation, open.",
   "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.CreatureInPotencyToItsOperation",
   "definition_ids": [
-    "DEF-OPERATION-RESPECT",
-    "DEF-POTENCY",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-MOTION-AS-REDUCTION"
+    "c195d490-07ab-5cbc-82e9-d0d7c82abd2e",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-CAUSE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

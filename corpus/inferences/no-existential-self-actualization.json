@@ -1,12 +1,14 @@
 {
-  "id": "INF-NO-EXISTENTIAL-SELF-ACTUALIZATION",
+  "id": "888fcd29-d244-5ec0-a626-8e10b08e5641",
+  "label": "For every a, Occurs a implies not produces a, by Composition of the existing…",
+  "legacy_id": "INF-NO-EXISTENTIAL-SELF-ACTUALIZATION",
   "input_statement_ids": [
-    "STMT-EXISTENTIAL-BEARER-PRIOR",
-    "STMT-EXISTENTIAL-PRODUCT-PRIOR",
-    "STMT-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
-    "STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+    "d07314a3-ac99-58df-8fa1-e21f0d53db5d",
+    "66b7ac36-56a9-5907-8dc2-3dfb69100c9c",
+    "e9da0216-07df-5c7f-b9e8-475d12671f59",
+    "37ae2e51-468c-5051-81ca-dfc6ae91f7b5"
   ],
-  "output_statement_id": "STMT-NO-EXISTENTIAL-SELF-PRODUCTION",
+  "output_statement_id": "8550ca62-92d1-5ef0-af17-9de5bf272262",
   "rule": "Composition of the existing two-step mixed-priority contradiction.",
   "meaning": "The pre-existing branch two-step priority proof is independently registered with four named OPEN mixed-domain premises: bearer-to-act priority, productive act-to-existence-token priority, irreflexivity and transitivity. Their cycle contradicts self-production. This is an analyst conditional with no modal, PSR, well-foundedness, actuality-of-token or necessary-being conclusion. The new named-interface proof imports the original theorem and controls; the original Challenge and proofs remain unchanged. See docs/notes/unique-feedback-explanation-311.md. No philosophical premise is discharged.",
   "assumption_statement_ids": [],

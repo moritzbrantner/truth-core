@@ -1,16 +1,18 @@
 {
-  "id": "STMT-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
+  "id": "0a06570b-1ca1-5bcc-97aa-53fc11343d71",
+  "label": "The fixed diamond is upstream-confluent, connected and well-founded, fails unique immediate…",
+  "legacy_id": "STMT-SOURCE-FOREST-CONFLUENCE-STRICTNESS",
   "lean_declaration": "TruthCore.Causality.SourceForest.ConfluenceStrictnessControl",
   "paraphrase": "The fixed diamond is upstream-confluent, connected and well-founded, fails unique immediate predecessors, and is rooted at one source with paths from every node; confluence strictly weakens that local restriction.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-SOURCE-FOREST-CONTROLS"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "7afa1576-0569-5a72-8567-b7c582f957ad"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

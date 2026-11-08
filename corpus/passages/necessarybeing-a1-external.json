@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a1c2.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A1-EXTERNAL",
+      "id": "3748e443-0f0f-5c87-bad0-90fa8e81ec35",
+      "label": "Unattributed website author, Necessary Being interactive survey, A1c2, numbered external-cause…",
+      "legacy_id": "NECESSARYBEING-A1-EXTERNAL",
       "locator": "A1c2, numbered external-cause argument 1–8",
       "claim_locator_prefixes": [
         "A1c2,"

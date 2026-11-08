@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-RESPONSE-INTERVENTION",
+  "id": "98d88d95-fff8-57a8-b7b5-73658fd2484e",
+  "label": "Actual action-changing acquisition…: ReviewInfluence says some change to the earlier review input…",
+  "legacy_id": "DEF-REASON-RESPONSE-INTERVENTION",
   "term": "actual action-changing acquisition intervention",
   "definition": "ReviewInfluence says some change to the earlier review input changes the selected actual action while external=false, reason=true and imposed=false stay fixed, compared with review=false. ExternalInfluence varies only external setting with review=false and the same reason/constraint. These are explicit action-sensitivity predicates under stipulated interventions, not flags for ownership, freedom, blame or actual physical ability under identical past and laws. Earlier acquisition dependence can be masked by a downstream imposed override.",
   "basis": "stipulative",

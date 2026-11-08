@@ -1,9 +1,11 @@
 {
-  "id": "INF-RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
+  "id": "e01bb50e-810f-5c1c-9785-ca6f72cfea6a",
+  "label": "Either the admitted situations cover the selected capability-recognition…, by Constructive-proof",
+  "legacy_id": "INF-RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-RECOGNITION-ADMISSIBILITY-CASES",
+  "output_statement_id": "b4eb1c11-7e1d-5fe0-9890-79334fb6fda6",
   "rule": "constructive-proof",
   "meaning": "EM checks coverage or an actual relevant correct-recognition witness outside the admitted subset, with none admitted. It handles the quantified remainder rather than assuming the selected admitted cases exhaust it.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHYS-201A-MOVED-SUPPORTS-MOVED-AS-UNACTUALIZED-CAPACITY",
+  "id": "6ebc2bd7-16d9-5d88-9b0a-9468051ca583",
+  "label": "Aristotle, Physics III.1, 201a10-11: A… supports Being moved in r is the actualization, qua…",
+  "legacy_id": "REL-PHYS-201A-MOVED-SUPPORTS-MOVED-AS-UNACTUALIZED-CAPACITY",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
+  "subject_id": "0a4a8418-056e-5d6d-b0a8-51b5ee4d0eb4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-UNACTUALIZED-CAPACITY",
+  "object_id": "76e0f716-8541-583b-94b4-bffae59c94bb",
   "note": "Physics III.1, 201a10-11 says motion is the actuality of the potential as such. The premise replaces 'the potential' by 'an unactualized capacity' (able to be r and not r in act), which is the Metaphysics IX.6 reading of potency, not something 201a10-11 states."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
+  "id": "0331d7b3-ad25-59d1-b4c2-94218ddda0ca",
+  "label": "Fallible finite-pool weighted-majority…: Before each round, Fin N experts supply Boolean advice",
+  "legacy_id": "DEF-FALLIBLE-WEIGHTED-CORRECTION",
   "term": "fallible finite-pool weighted-majority correction",
   "definition": "Before each round, Fin N experts supply Boolean advice. Rational weights start at one. predict compares the total false and true vote masses, breaking ties toward true. update halves weights disagreeing with observed feedback. weights at round n uses only earlier feedback; learner uses those weights and current advice. mistakes counts disagreements in the first n rounds. The separate truth stream evaluates actual error and never enters the update. Feedback corruption counts feedback/truth disagreement, not disagreement with a majority. All experts may be imperfect; no chance model is encoded.",
   "basis": "stipulative",

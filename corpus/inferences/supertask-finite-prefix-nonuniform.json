@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "id": "0d56a06f-eabf-5ae3-bcd8-65e9925b0ce3",
+  "label": "In a model whose worlds have arbitrary finite natural-number…, by Finite-capacity-countermodel…",
+  "legacy_id": "INF-SUPERTASK-FINITE-PREFIX-NONUNIFORM",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "output_statement_id": "dee0cff7-7d6f-563c-9d5c-e734beb5717b",
   "rule": "finite-capacity-countermodel-to-quantifier-shift",
   "meaning": "For each prefix n select a world with capacity n; for any proposed fixed capacity k, the prefix k+1 is too long. No modal axiom about physical worlds is introduced.",
   "assumption_statement_ids": [],

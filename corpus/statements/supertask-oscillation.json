@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "id": "45accc3c-f350-545e-8059-593e0c0e2b69",
+  "label": "An output that toggles at every natural-number-indexed stage has no terminal Boolean value under…",
+  "legacy_id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
   "paraphrase": "An output that toggles at every natural-number-indexed stage has no terminal Boolean value under eventual stability (DEF-SUPERTASK-STABLE-LIMIT). Under that criterion, an endless operation sequence need not have a terminal value, even if a limit endpoint is adjoined.",
   "lean_declaration": "TruthCore.Causality.AlternatingOutputHasNoStableLimit",
   "definition_ids": [
-    "DEF-SUPERTASK-STABLE-LIMIT"
+    "43bc2414-b12d-5820-96de-59489124f4f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUPERTASK-LIMIT-NOTION"
+    "d40c86a4-18dc-5250-beb0-dfb29be51e78"
   ]
 }

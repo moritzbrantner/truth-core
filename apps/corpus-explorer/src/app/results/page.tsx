@@ -42,7 +42,7 @@ export default function ResultsPage() {
                   {findStatement(corpus, result.argument.conclusion_statement_id)?.paraphrase ?? result.meaning}
                 </p>
                 <p className="mt-2 font-mono text-xs text-[var(--muted)]">
-                  {result.id} · {result.argument.premise_statement_ids.length} premises
+                  {result.label ?? result.id} · {result.argument.premise_statement_ids.length} premises
                 </p>
               </Link>
             ))}

@@ -1,14 +1,15 @@
 {
-  "id": "STMT-ONTIC-T-SCHEMA",
+  "id": "cb456382-efd6-554b-8ee4-c8fc193f876a",
   "label": "T schema: whatever is NECESSARY_2 (box of the route's frame) is true",
+  "legacy_id": "STMT-ONTIC-T-SCHEMA",
   "paraphrase": "OPEN modal principle, attribution deferred: the T schema 'necessarily p implies p' is valid on the route's modal frame (worlds = complete possible histories): for every proposition (every valuation of the sentence letter) and every world, if p holds at every world accessible from it, p holds there. The box is the frame's box, the same box as the route's NECESSARY_2 box-existence. By the T correspondence it is equivalent to reflexivity of the frame.",
   "lean_declaration": "TruthCore.Causality.ModalSenseSupport.OnticTSchemaValid",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
-    "DEF-KANT-MODAL-NECESSITY"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "92b3450c-ba41-5363-b27b-ef0e943dd7c2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-SIMPLE-A",
-  "statement_id": "STMT-INFINITE-SENSIBLE-BODY-NOT-SIMPLE",
-  "source_id": "ARIST-PHYS",
+  "id": "b48836b7-5f6f-5bee-a23a-07e140ded56f",
+  "label": "Aristotle, Physics III.5, 204b22-205a7: An actually infinite sensible body cannot instead be one…",
+  "legacy_id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-SIMPLE-A",
+  "statement_id": "a7c393e4-b6f7-5274-a856-04fd5678c896",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204b22-205a7",
   "interpretation": "Second branch of the physical case analysis: an infinite sensible body cannot be one simple body, either one of the familiar elements or an additional sensible element alongside them.",
   "status": "formalized"

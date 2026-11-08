@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
-  "argument_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "id": "3f98370d-d53a-5931-98ee-be63381ddafb",
+  "label": "Three exact populated two-role assignments: an edge from an absent candidate to an existing whole…",
+  "legacy_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "argument_id": "d764fd1d-c820-587b-b639-15a0764ee76b",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Controls.controls",

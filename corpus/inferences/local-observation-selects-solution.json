@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOCAL-OBSERVATION-SELECTS-SOLUTION",
+  "id": "40e6b918-8875-51de-9546-2f3d7ec2fb79",
+  "label": "For an infinite chain with each node's current activity…, by Induction-on-ordered-chain-in…",
+  "legacy_id": "INF-LOCAL-OBSERVATION-SELECTS-SOLUTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LOCAL-OBSERVATION-SELECTS-SOLUTION",
+  "output_statement_id": "481c73c8-1ef2-5c0d-a2e2-bfca6f6e6934",
   "rule": "induction-on-ordered-chain-index",
   "meaning": "From local activity equivalence, induction on the natural-number index propagates activity or its absence from index zero to each upstream link. The premise is an observed Boolean datum, not an independent grounding of its causal origin.",
   "assumption_statement_ids": [],

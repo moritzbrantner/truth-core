@@ -1,6 +1,8 @@
 {
-  "id": "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
-  "argument_id": "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "id": "25ee5fa9-8a89-5007-9fc5-815ba5d8fea0",
+  "label": "Logical falsity, from The represented negative fact is true at… and 2 more",
+  "legacy_id": "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "argument_id": "8e79f778-ed2c-566e-b3ea-cd2a618a5ba6",
   "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.Challenge",
   "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.Solution",
   "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Concrete.incompatible",

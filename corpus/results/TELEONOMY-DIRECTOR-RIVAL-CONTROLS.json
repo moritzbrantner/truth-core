@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
-  "argument_id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "id": "d58b2792-41c9-5a31-ab82-d8dff6057e46",
+  "label": "A finite empty-tending/no-cognition structure satisfies the universal director principle…",
+  "legacy_id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "argument_id": "b0a8b5d7-f29b-50ce-8a37-683758793aef",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.Controls.controls",

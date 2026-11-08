@@ -1,15 +1,67 @@
 {
-  "id": "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
+  "id": "623ddbf6-9683-5361-bae4-e348a00ec680",
+  "label": "Concrete and abstract",
+  "legacy_id": "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
   "term": "concrete and abstract",
   "sense_definition_ids": [
-    "DEF-ABSTRACT-ABSTRACTION-CRITERION",
-    "DEF-ABSTRACT-FREGE-CRITERION",
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CAUSAL-CAPACITY-CONCRETE",
-    "DEF-CONCRETE-CAUSAL-CRITERION",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CONCRETE-SPATIOTEMPORAL-CRITERION",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+    "7fb33727-84fc-5003-bba6-3000e624d343",
+    "d609a32e-8479-511d-85d6-c10d864dc85c",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "a8fa0c36-adcb-5221-b61f-41189f09f357",
+    "2b015a2c-4d31-5511-b391-41413edf45ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "4ea97730-c6b8-5205-8848-939d0dc68f76",
+    "ba85645e-b933-5a7f-a648-b527dea115fa"
   ],
-  "resolution": "The adopted sense (owner, #1103, 2026-11-06) is the esse criterion: concrete = having esse in re (DEF-CONCRETE-ESSE-IN-RE), abstract = its contradictory, having no esse in re (DEF-ABSTRACT-NO-ESSE-IN-RE). The owner excludes borderline cases, so this criterion draws an exact line: disjointness holds by non-contradiction and exhaustiveness by excluded middle (result CONCRETE-ABSTRACT-ESSE-DICHOTOMY). That exact dichotomy is a property of the esse criterion only. The causal, spatiotemporal, Fregean and abstraction criteria are rival senses that need not be exhaustive (SEP 'Abstract Objects' §§3–6 records items they leave unclassified or misclassify), and no statement passes from one of them to the adopted sense without an explicit bridge statement. The causal criterion in particular never defines concreteness. Had it done so, the capacity clause of the owner's causal principle would hold by definition (its activity clause would still need an exercise-to-power bridge); as it is, both clauses stay substantive. DEF-CAUSAL-CAPACITY-CONCRETE is a model-local capacity criterion of one finite test and does not fix the corpus sense. DEF-NECESSARY-INDIVIDUAL-CONCRETE uses a world-indexed supplied predicate, a different, world-varying sense; it is not the world-independent classification of DEF-CONCRETE-ABSTRACT-CLASSIFICATION. Paradigm anchors (DEF-CONCRETE-ABSTRACT-ANCHORS) fix that the reasoner is concrete and the set containing 2 is abstract under every intended interpretation."
+  "resolution": "The adopted sense (owner, #1103, 2026-11-06) is the esse criterion: concrete = having esse in re (DEF-CONCRETE-ESSE-IN-RE), abstract = its contradictory, having no esse in re (DEF-ABSTRACT-NO-ESSE-IN-RE). The owner excludes borderline cases, so this criterion draws an exact line: disjointness holds by non-contradiction and exhaustiveness by excluded middle (result CONCRETE-ABSTRACT-ESSE-DICHOTOMY). That exact dichotomy is a property of the esse criterion only. The causal, spatiotemporal, Fregean and abstraction criteria are rival senses that need not be exhaustive (SEP 'Abstract Objects' §§3–6 records items they leave unclassified or misclassify), and no statement passes from one of them to the adopted sense without an explicit bridge statement. The causal criterion in particular never defines concreteness. Had it done so, the capacity clause of the owner's causal principle would hold by definition (its activity clause would still need an exercise-to-power bridge); as it is, both clauses stay substantive. DEF-CAUSAL-CAPACITY-CONCRETE is a model-local capacity criterion of one finite test and does not fix the corpus sense. DEF-NECESSARY-INDIVIDUAL-CONCRETE uses a world-indexed supplied predicate, a different, world-varying sense; it is not the world-independent classification of DEF-CONCRETE-ABSTRACT-CLASSIFICATION. Paradigm anchors (DEF-CONCRETE-ABSTRACT-ANCHORS) fix that the reasoner is concrete and the set containing 2 is abstract under every intended interpretation.",
+  "term_label": "CONCRETE_AND_ABSTRACT",
+  "senses": [
+    {
+      "id": "65833adf-8f79-439d-bc2e-24b2feb5e348",
+      "label": "CONCRETE_AND_ABSTRACT_1",
+      "definition_id": "7fb33727-84fc-5003-bba6-3000e624d343"
+    },
+    {
+      "id": "551eb285-4455-407f-99a6-d79fac2d73b5",
+      "label": "CONCRETE_AND_ABSTRACT_2",
+      "definition_id": "d609a32e-8479-511d-85d6-c10d864dc85c",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.FregeCriterionAbstract"
+    },
+    {
+      "id": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+      "label": "CONCRETE_AND_ABSTRACT_3",
+      "definition_id": "632ad5ee-e94f-574d-bb37-c02b774984f4",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseAbstract"
+    },
+    {
+      "id": "5bf41f29-77ae-4b34-b48d-90d92af076e1",
+      "label": "CONCRETE_AND_ABSTRACT_4",
+      "definition_id": "a8fa0c36-adcb-5221-b61f-41189f09f357",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
+    },
+    {
+      "id": "c0fdbd00-6e0b-44e5-8a53-faa55a21a032",
+      "label": "CONCRETE_AND_ABSTRACT_5",
+      "definition_id": "2b015a2c-4d31-5511-b391-41413edf45ac",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.CausalCriterionConcrete"
+    },
+    {
+      "id": "b1175e6c-0519-4c19-98ae-b053616ec750",
+      "label": "CONCRETE_AND_ABSTRACT_6",
+      "definition_id": "008cb21a-256c-5a90-822c-acd4591d699a",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.HasEsseInRe"
+    },
+    {
+      "id": "4434d063-533a-40db-aac3-35dd6f33a08d",
+      "label": "CONCRETE_AND_ABSTRACT_7",
+      "definition_id": "4ea97730-c6b8-5205-8848-939d0dc68f76",
+      "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.SpatiotemporalCriterionConcrete"
+    },
+    {
+      "id": "cf4e8ce6-69e1-443d-b5af-9185182da878",
+      "label": "CONCRETE_AND_ABSTRACT_8",
+      "definition_id": "ba85645e-b933-5a7f-a648-b527dea115fa",
+      "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
+    }
+  ]
 }

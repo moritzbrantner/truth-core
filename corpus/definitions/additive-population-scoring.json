@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ADDITIVE-POPULATION-SCORING",
+  "id": "0f9d9a9c-4392-5f2a-bc0a-87e87121e2e0",
+  "label": "Separable anonymous additive…: Score f p sums the per-person real scores f",
+  "legacy_id": "DEF-ADDITIVE-POPULATION-SCORING",
   "term": "separable anonymous additive population scoring",
   "definition": "score f p sums the per-person real scores f(w). Additive f value asserts exact equality for every finite list; PositiveLifeScore f says every strictly positive welfare has strictly positive score. These are explicit ethical framework assumptions, not facts independently established by the theorem. List order is irrelevant to the sum; interpersonal cardinal comparability is stipulated.",
   "basis": "stipulative",

@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-RIVER-PROCESS-TURNOVER",
+  "id": "bf365fc9-918a-5d89-b2bc-d21189b91f56",
+  "label": "Reused Vitalism turnover fixture and scenario_has_turnover, derived changed-member obstruction to…",
+  "legacy_id": "ATTEMPT-RIVER-PROCESS-TURNOVER",
   "statement_ids": [
-    "STMT-PROCESS-TURNOVER-BOUNDARY",
-    "STMT-MEREO-SOUL-UNITY-INDEPENDENCE"
+    "cc149607-e48e-513d-9c1d-8ab38624c0b6",
+    "ced7c764-2125-5f69-8fe6-614b88095f63"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Reused Vitalism turnover fixture and scenario_has_turnover, derived changed-member obstruction to a fixed constituent extension and constructed two surviving interpretations. Rejected identifying phase inequality with process nonidentity, equating fixed extension with materialism, and attributing a contemporary profile to Heraclitus. Shared Lean diagnostics at f2db33e8, content SHA256 58004defb6a36bc197bc06a2a3ca829a68377774f64b6a85201f72dc1a9a5d2f, no diagnostics. Required final Comparator/NanoDa remain CI gates. Precise proof and source boundaries: docs/notes/river-process-turnover.md. No premise closure. Follow-up MATERIAL-CONSTITUTION-SCOPE compares enduring bearers with globally extensional temporal occurrence wholes under the same represented history; see docs/notes/material-constitution-scope.md. No applicability or root-premise discharge follows.",
   "evidence": [
-    "PROCESS-TURNOVER-BOUNDARY",
-    "MATERIAL-CONSTITUTION-SCOPE"
+    "ad91d5a9-040e-5075-9081-1422f40cb526",
+    "61d709e5-32af-5048-8276-896fceca23f6"
   ]
 }

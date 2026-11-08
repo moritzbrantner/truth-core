@@ -1,17 +1,19 @@
 {
-  "id": "EINSTEIN-1905-3-COORDINATE-TRANSFORMATION",
-  "statement_id": "STMT-EINSTEIN-1905-COORDINATE-TRANSFORMATION",
-  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "id": "61b76df7-46c5-5c3f-887e-22a6639e3b13",
+  "label": "Albert Einstein, On the Electrodynamics of…: Einstein assigns coordinate-time descriptions of the…",
+  "legacy_id": "EINSTEIN-1905-3-COORDINATE-TRANSFORMATION",
+  "statement_id": "fee2b4f5-eec7-5b58-b2a1-04401f7b6c2e",
+  "source_id": "feaccd27-3c07-5fdb-9ae1-0f8fcf158d2f",
   "locator": "§3, opening paragraphs through “linear on account of the properties of homogeneity”, and paragraph beginning “The wave under consideration”",
   "basis": "translation",
   "interpretation": "Prose-only primary-translation reading. The existing extractor omits equation images. This prose reading relies only on materialized prose, not on those image-only transformation equations. The rational quadratic-form certificate is independently specified by the analyst and is not attributed as the full source derivation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-EINSTEIN-CLOCK-TIME",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE"
+    "d349494b-d57b-5c7f-8d44-f7180abae1d8",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+    "8d688be8-d802-5679-bd53-d08374145abf"
   ]
 }

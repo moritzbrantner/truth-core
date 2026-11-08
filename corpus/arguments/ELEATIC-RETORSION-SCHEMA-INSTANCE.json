@@ -1,19 +1,21 @@
 {
-  "id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "id": "38d41941-fe1c-521b-b594-7cbaee357f47",
+  "label": "For every interpretation of being, respect, being moved, OPINING_2 and the respect of an opinion…",
+  "legacy_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "conclusion_statement_id": "6020afe1-f097-56c4-a98f-4452ee962be2",
   "inference_ids": [
-    "INF-ELEATIC-RETORSION-SCHEMA-INSTANCE"
+    "57142977-f844-5a4d-afd5-b2a485544a9a"
   ],
   "meaning": "The Eleatic retorsion (Physics VIII.3, 254a27-30) as the conditional instance of the performed-denial schema LOGIC-PERFORMED-DENIAL-RETORSION: if opining is being moved in the respect of that opinion and someone opines that nothing is moved, it is not the case that nothing is moved. This proves the conditional, not STMT-OPINION-IS-A-MOTION or STMT-ELEATIC-THESIS-IS-OPINED. ELEATIC-THESIS-SELF-REFUTING states the same conditional and is unchanged: its frozen Challenge imports only ActPotencyRegress, and Comparator rejects a Solution proof through a lemma outside the Challenge imports.",
   "definition_ids": [
-    "DEF-PRESUPPOSITION-LINK",
-    "DEF-EPISODE-OCCURRENCE",
-    "DEF-ACCURATE-PERFORMED-DENIAL",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION"
+    "322dfd2b-04c6-5113-9ab6-6327e617d0c0",
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "901afe4d-3dc0-53fb-a18f-d2fd10d50527",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

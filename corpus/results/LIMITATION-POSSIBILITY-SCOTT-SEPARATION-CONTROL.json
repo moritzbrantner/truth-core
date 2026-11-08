@@ -1,6 +1,8 @@
 {
-  "id": "LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
-  "argument_id": "LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
+  "id": "5e5a7d4d-22cf-5c77-97ef-f38e3913e8ea",
+  "label": "In ONE explicit Unit-world/Bool-individual formal…, from Excluded middle as a general principle…",
+  "legacy_id": "LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
+  "argument_id": "f0c4146c-b8e7-5b34-a322-029c38219691",
   "challenge_module": "TruthCore.Results.Modal.LimitationPossibility.Control.Challenge",
   "solution_module": "TruthCore.Results.Modal.LimitationPossibility.Control.Solution",
   "theorem": "TruthCore.Results.Modal.LimitationPossibility.Control.control",

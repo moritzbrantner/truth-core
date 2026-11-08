@@ -1,7 +1,9 @@
 {
-  "id": "INF-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "id": "b1333814-3cd9-5854-8be1-586ea8efb560",
+  "label": "For every Kantian ontic model and world: if every existing contingent…, by Well-founded-induction",
+  "legacy_id": "INF-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "output_statement_id": "7680c10f-33db-5221-a088-fface7647277",
   "rule": "well-founded-induction",
   "meaning": "Assume every existing being is contingent. By well-founded induction no being exists: an existing being would be contingent, hence have an existing cause, which by the induction hypothesis does not exist. This contradicts the given existent.",
   "assumption_statement_ids": [],

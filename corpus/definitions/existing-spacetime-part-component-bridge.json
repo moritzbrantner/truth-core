@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
+  "id": "bae75d6b-4bf8-5ef2-b3e0-facbfd03da1e",
+  "label": "Existing proper spacetime part as\u2026: ExistingProperPartsAreComponents o F ComponentOf w:= \u2200 x\u2026",
+  "legacy_id": "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
   "term": "existing proper spacetime part as composition component",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingProperPartsAreComponents",

@@ -1,6 +1,8 @@
 {
-  "id": "PURE-INDISCERNIBILITY-CONTROLS",
-  "argument_id": "PURE-INDISCERNIBILITY-CONTROLS",
+  "id": "5a398e97-a75b-5d14-a3f8-f99946aec6b9",
+  "label": "Finite interpretations and one general equivalence",
+  "legacy_id": "PURE-INDISCERNIBILITY-CONTROLS",
+  "argument_id": "ae77b37d-0836-5826-9ffe-42c8230a4491",
   "challenge_module": "TruthCore.Results.Causality.PureIndiscernibility.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureIndiscernibility.Solution",
   "theorem": "TruthCore.Results.Causality.PureIndiscernibility.controls",

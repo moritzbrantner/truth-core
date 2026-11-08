@@ -1,6 +1,8 @@
 {
-  "id": "PARM-RANKED-ASYMMETRY",
-  "argument_id": "PARM-RANKED-ASYMMETRY",
+  "id": "e25f2bd1-915e-52e6-ace1-6cc13e62fa96",
+  "label": "No explanatory Ground edge has its reverse, from Ground edges strictly increase a…",
+  "legacy_id": "PARM-RANKED-ASYMMETRY",
+  "argument_id": "3b5b2cc4-ac40-5815-b443-1f03ac785aae",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.RankedAsymmetry.rankedAsymmetry",

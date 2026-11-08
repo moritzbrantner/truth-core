@@ -1,10 +1,12 @@
 {
-  "id": "DEF-HOML-ACTUALIST-NECESSITY",
+  "id": "9010544f-188a-5d00-83dc-85d0c0b4052d",
+  "label": "Necessarily / possibly / exists: Kripke necessity over a frame, with the same □ and ◇ as the QML…",
+  "legacy_id": "DEF-HOML-ACTUALIST-NECESSITY",
   "term": "necessarily / possibly / exists (□, ◇ and the actualist quantifiers of the HOML embedding HOMLinHOL.thy; Lean `Box`, `Dia`, `ExistsAt`)",
   "definition": "Kripke necessity over a frame (`TruthCore.Modal.Frame`), with the same □ and ◇ as the QML KB embedding (DEF-QML-KB-NECESSITY, shared Lean `Box`, `Dia`). The embedding's assumptions, as in HOMLinHOL.thy: it axiomatizes S5 (Rrefl, Rsymm, Rtrans), but no frame condition is built into the Lean model, and a result that uses one states it as a premise (only Rsymm, STMT-ACCESSIBILITY-SYMMETRIC, is used); individuals are quantified actualistically, ❙∀⇧E and ❙∃⇧E ranging at each world over the individuals that exist there by the constant existsAt (the parameter `ex : ExistsAt World Ind`), so 'exists' in Ax4, Th2, Th3 and NecExist is that quantifier; properties are quantified possibilistically over every function `Ind → World → Prop` (full comprehension); validity ⌊_⌋ is truth at every world; HOL's types are non-empty, so a model has a world.",
   "basis": "sourced",
   "claim_ids": [
-    "AFP-NOTES-GOEDEL-HOMLINHOL-RSYMM-A"
+    "e83c451c-9ea8-56d9-9189-2ced82328ffb"
   ],
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box",
   "note": "Lean locator: TruthCore.Isabelle.AFP.GoedelGod.Box is the modal operator; the sibling possibility operator is TruthCore.Isabelle.AFP.GoedelGod.Dia. GoedelVariantHOML1.ExistsAt is only the carrier abbreviation Ind → World → Prop for the independently supplied ex predicate, not a necessity operator or an existence axiom. Actualist quantification is encoded by ex guards in the consuming HOML definitions, for example PropertyInclusion and NecessaryExistence. The record covers this vocabulary family, not one definition that enforces every advertised semantic commitment."

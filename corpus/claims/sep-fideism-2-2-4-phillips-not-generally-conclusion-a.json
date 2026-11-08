@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-2-2-4-PHILLIPS-NOT-GENERALLY-CONCLUSION-A",
-  "statement_id": "STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION",
-  "source_id": "SEP-FIDEISM",
+  "id": "76f71662-72d7-56c9-a008-e55b54243159",
+  "label": "Richard Amesbury, Fideism §2.2.4, 'not…: Late Phillips: religious beliefs depend for their sense…",
+  "legacy_id": "SEP-FIDEISM-2-2-4-PHILLIPS-NOT-GENERALLY-CONCLUSION-A",
+  "statement_id": "0a855093-d672-5697-80e3-2e34b74c0033",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§2.2.4, 'not generally the relation between conclusions and their justification'",
   "interpretation": "In the last decade of his life Phillips 'argued that religious beliefs depend for their sense and importance on non-religious features of human existence, but that the relation between the former and the latter is not generally the relation between conclusions and their justification.' Read with its quantifier: 'not generally', which allows some religious beliefs to stand as justified conclusions. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Phillips argued that religious beliefs depend for their sense on non-religious features of human existence but are not generally related to them as conclusions to their justification, which is the premise.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

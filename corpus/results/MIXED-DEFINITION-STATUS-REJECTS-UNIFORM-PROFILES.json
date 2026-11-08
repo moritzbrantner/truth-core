@@ -1,6 +1,8 @@
 {
-  "id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
-  "argument_id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "id": "4f7ad1fe-39f3-5225-9c69-c67612282563",
+  "label": "Both uniform endorsement profiles fail: not all…, from An actual defined move is endorsed by the…",
+  "legacy_id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "argument_id": "31be64a6-d8f8-5a6e-869e-344dfdfc3211",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Mixed.mixedRejectsUniform",

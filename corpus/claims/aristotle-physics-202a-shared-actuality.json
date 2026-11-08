@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-SHARED-ACTUALITY-A",
-  "statement_id": "STMT-MOVER-MOVED-SHARE-ONE-ACTUALITY",
-  "source_id": "ARIST-PHYS",
+  "id": "1a7b7151-d2cc-5d8b-9516-357cbb92159f",
+  "label": "Aristotle, Physics III.3, 202a14-20: The mover acting and the movable being moved share one…",
+  "legacy_id": "ARIST-PHYS-202A-SHARED-ACTUALITY-A",
+  "statement_id": "94366446-3f38-523e-a1c6-858c1e4de2de",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a14-20",
   "interpretation": "Shared-actuality reading: the actualization of the mover as acting on the movable is not another actualization from that of the movable as being moved. Distinct relations are retained so this does not collapse the later difference in account.",
   "status": "formalized"

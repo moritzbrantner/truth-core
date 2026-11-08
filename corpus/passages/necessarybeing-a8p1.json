@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a8p1.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A8P1",
+      "id": "545e098f-1542-5b8c-97ba-62b8bc7b5d66",
+      "label": "Unattributed website author, Necessary Being interactive survey, A8P1, complete interactive page",
+      "legacy_id": "NECESSARYBEING-A8P1",
       "locator": "A8P1, complete interactive page",
       "claim_locator_prefixes": [
         "A8P1,"

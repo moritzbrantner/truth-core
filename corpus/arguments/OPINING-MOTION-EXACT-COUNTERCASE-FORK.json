@@ -1,21 +1,23 @@
 {
-  "id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
+  "id": "d1836945-2719-5139-8c09-e037e6282012",
+  "label": "The original every-opiner designated-MOTION_3 norm…, from Excluded middle as a general principle…",
+  "legacy_id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
+  "conclusion_statement_id": "eaf51b98-690b-5171-8f29-aaf426c09f55",
   "inference_ids": [
-    "INF-OPINING-MOTION-EXACT-COUNTERCASE-FORK"
+    "29bedabc-416b-57c5-96e9-a49230d7ea99"
   ],
   "meaning": "Checked structural universal-or-actual-countertuple coverage under explicit excluded middle. A finite list containing only the stronger global-no-motion account is not used as exhaustive.",
   "definition_ids": [
-    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CHANGE-A-SERIES"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

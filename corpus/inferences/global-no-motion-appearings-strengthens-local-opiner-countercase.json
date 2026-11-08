@@ -1,9 +1,11 @@
 {
-  "id": "INF-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "id": "8e43b61f-7741-5fda-a19f-521bbe47890f",
+  "label": "Some actual opiner of a supplied content is not moved in the SAME asOpinion…, by Constructive-proof",
+  "legacy_id": "INF-GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
   "input_statement_ids": [
-    "STMT-CHANGE-UNREAL-BUT-APPEARS"
+    "5d37dd2a-6539-514d-bd74-1b2ad8021c8f"
   ],
-  "output_statement_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "output_statement_id": "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720",
   "rule": "constructive-proof",
   "meaning": "Sole-premise weakening of the existing strong raw account: its actual opiner and universal lack of motion provide a local designated-respect countertuple. Mixed-motion control rejects the converse, preserving the full raw account.",
   "assumption_statement_ids": [],

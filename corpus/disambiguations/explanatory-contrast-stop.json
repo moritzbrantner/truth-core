@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-EXPLANATORY-CONTRAST-STOP",
+  "id": "6a897910-d301-56c0-963d-d2f019de3de7",
+  "label": "Answering a contrast; stopping at the necessary",
+  "legacy_id": "DISAMB-EXPLANATORY-CONTRAST-STOP",
   "term": "answering a contrast; stopping at the necessary",
   "sense_definition_ids": [
-    "DEF-EXPLANATORY-CONTRAST",
-    "DEF-EXPLANATORY-TWO-WAY",
-    "DEF-EXPLANATORY-BEING-STOP",
-    "DEF-EXPLANATORY-REASON-CLOSED"
+    "b64af87d-c8ab-5063-babe-a2db2af5704e",
+    "25852763-3ba0-50ec-a123-8f161cf7a47b",
+    "164e3ef4-044c-5a0a-83ff-254fc683c04c",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07"
   ],
-  "resolution": "'Answers why this rather than otherwise' has two formal senses here. ContrastRelevant takes it as a reason false at the rival world; TwoWay takes it as one reason admitted for each outcome at its own world. A reason meeting the first varies; a necessary reason cannot meet it. 'Stops at the necessary' also has two senses. ReasonClosed allows a noncontingent member, which may be a fact that is no being's existence fact; BeingStop requires a necessary being's existence fact. No inference passes from one sense to the other. Comparison keeps them as separate conjuncts, and no attributed source is read as fixing either sense."
+  "resolution": "'Answers why this rather than otherwise' has two formal senses here. ContrastRelevant takes it as a reason false at the rival world; TwoWay takes it as one reason admitted for each outcome at its own world. A reason meeting the first varies; a necessary reason cannot meet it. 'Stops at the necessary' also has two senses. ReasonClosed allows a noncontingent member, which may be a fact that is no being's existence fact; BeingStop requires a necessary being's existence fact. No inference passes from one sense to the other. Comparison keeps them as separate conjuncts, and no attributed source is read as fixing either sense.",
+  "term_label": "ANSWERING_A_CONTRAST_STOPPING",
+  "senses": [
+    {
+      "id": "8c0b15bb-820d-4e9c-ad0d-643cd4f88569",
+      "label": "ANSWERING_A_CONTRAST_STOPPING_1",
+      "definition_id": "b64af87d-c8ab-5063-babe-a2db2af5704e",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ContrastRelevant"
+    },
+    {
+      "id": "8baa41b9-2107-4138-84ca-4e3b8fe14fda",
+      "label": "ANSWERING_A_CONTRAST_STOPPING_2",
+      "definition_id": "25852763-3ba0-50ec-a123-8f161cf7a47b",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.TwoWay"
+    },
+    {
+      "id": "ff10e1d1-992f-4521-b13b-360d868473d2",
+      "label": "ANSWERING_A_CONTRAST_STOPPING_3",
+      "definition_id": "164e3ef4-044c-5a0a-83ff-254fc683c04c",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.BeingStop"
+    },
+    {
+      "id": "b0946977-3f94-4c48-b95a-857307ebb4c3",
+      "label": "ANSWERING_A_CONTRAST_STOPPING_4",
+      "definition_id": "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+      "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed"
+    }
+  ]
 }

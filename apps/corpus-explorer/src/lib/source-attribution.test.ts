@@ -1,5 +1,6 @@
 import { expect, test } from "bun:test";
 
+import { legacyUuid } from "./corpus-ids";
 import { getDossier } from "./premise-dossier";
 import { getFrontierReport } from "./site-state";
 import { sourceAttribution } from "./source-attribution";
@@ -9,7 +10,7 @@ test("source attribution distinguishes direct claims, support alone, and bare pr
   // Conditional reconstruction can remove this target from frontier.items
   // while its source support remains unchanged. The dossier owns attribution
   // independently of whether the statement is an open item or a derived one.
-  const dossier = getDossier("STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION");
+  const dossier = getDossier(legacyUuid("statement", "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION"));
   const bridge = { stating_claims: dossier.claim_ids, supporting_claims: dossier.supporting_claim_ids };
   expect(bridge.stating_claims).toEqual([]);
   expect(bridge.supporting_claims).toHaveLength(2);
@@ -18,4 +19,4 @@ test("source attribution distinguishes direct claims, support alone, and bare pr
   expect(sourceAttribution(direct)).toContain("directly attribute this statement");
   const bare = items.find((item) => !item.stating_claims.length && !item.supporting_claims.length)!;
   expect(sourceAttribution(bare)).toContain("It is bare");
-});
+}, 300_000);

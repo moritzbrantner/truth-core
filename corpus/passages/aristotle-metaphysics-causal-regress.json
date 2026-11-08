@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ARIST-MET",
+    "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
     "edition_urn": "urn:cts:greekLit:tlg0086.tlg025.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,12 +12,22 @@
   },
   "passages": [
     {
-      "id": "ARIST-MET-II-2",
+      "id": "26d76611-c2a1-552b-8091-74c81997a8c2",
+      "label": "Aristotle, Metaphysics, II.2",
+      "legacy_id": "ARIST-MET-II-2",
       "locator": "II.2",
-      "claim_locator_prefixes": ["II.2,"],
+      "claim_locator_prefixes": [
+        "II.2,"
+      ],
       "cts_path": [
-        { "subtype": "book", "n": "2" },
-        { "subtype": "section", "n": "2" }
+        {
+          "subtype": "book",
+          "n": "2"
+        },
+        {
+          "subtype": "section",
+          "n": "2"
+        }
       ]
     }
   ],

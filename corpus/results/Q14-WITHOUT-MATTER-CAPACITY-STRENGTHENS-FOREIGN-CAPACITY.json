@@ -1,6 +1,8 @@
 {
-  "id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
-  "argument_id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "id": "c54152d4-dfa4-5496-ae27-116144bdde5d",
+  "label": "At the SAME chosen receiver, a form of another thing…, from The chosen receiver has aptitude for a…",
+  "legacy_id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "argument_id": "577a6c32-865a-5f45-99a9-445e340c97ea",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Strength.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Strength.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.foreignCapacityOfWithoutMatter",

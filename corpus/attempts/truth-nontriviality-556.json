@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-TRUTH-NONTRIVIALITY-556",
+  "id": "a41ad3ac-7449-55e7-bc69-02f0786b6b27",
+  "label": "Searched TruthCore and the corpus for the exact theorem: none existed",
+  "legacy_id": "ATTEMPT-TRUTH-NONTRIVIALITY-556",
   "date": "2026-10-30",
   "statement_ids": [
-    "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
-    "STMT-TRUTH-NONTRIVIALITY-CORE",
-    "STMT-TRUTH-COLLAPSE-CONTROLS",
-    "STMT-GLOBAL-NO-ABSOLUTE-TRUTH",
-    "STMT-SOME-ABSOLUTE-TRUTH"
+    "a919f81e-d9ff-5b7a-be38-c9473c042e8e",
+    "61f64a70-27c6-521b-babb-0d54b43e412a",
+    "e6f8513b-4ed5-58a8-831a-2cf3b2293d1f",
+    "bff72296-915a-543f-8903-182edf096dfc",
+    "f625ad83-909e-52e2-b74a-92b0725c1629"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Searched TruthCore and the corpus for the exact theorem: none existed. Proved ¬∀ P Q : Prop, P ↔ Q from the two existing witnesses; ∃ P Q, P ∧ ¬ Q got no statement, since the conjunction of those witnesses suffices. Rejected reading: treating that theorem as refuting relativism or nihilism. It constrains a truth predicate only through the hypothesis Expressive, and the controls have models of no absolute truth with expressive relative truth, of total nihilism, of global profile variation and of gluts. A first draft of the capture clause expected a contradiction; ThesisSchemaModel shows disquotation with capture is satisfiable and yields only ¬ GlobalNoAbsoluteTruth, with no witness of absolute truth. Exhaustive negation had to be stated disjunctively: from ¬ truth p → truth (neg p), collapse gives only ¬¬ truth p constructively. Profile for elimination: under Expressive, or exclusion with exhaustion on inhabited contents, predicate collapse is excluded; without those bridges nothing beyond Prop collapse is. Eliminated corpus rivals: none; STMT-GLOBAL-NO-ABSOLUTE-TRUTH stays surviving and no refutes relation is added. Strongest remaining rival: relative-truth relativism with expressive relative predicates. Remaining gaps: no source reading of any relativist or nihilist; whether any rival accepts Expressive, capture or exhaustion is open.",
   "evidence": [
-    "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
-    "TRUTH-NONTRIVIALITY-CORE",
-    "TRUTH-COLLAPSE-CONTROLS"
+    "f79ddcf6-2f42-5f55-a249-1e509705955f",
+    "fa3e85b3-531d-5504-b680-f3909dd50faf",
+    "e67a42c3-c904-58bd-8d4b-e9f2b8e51edc"
   ]
 }

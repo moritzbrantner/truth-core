@@ -1,10 +1,12 @@
 {
-  "id": "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "id": "c57ff288-f3c4-5491-a3fd-f5def9dee58f",
+  "label": "Necessary-being node, possibilist K… strengthens Necessary-being node, de dicto K reading…",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
   "subject_kind": "statement",
-  "subject_id": "STMT-NECESSARY-ROOT-BOX-K",
+  "subject_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-NECESSARY-ROOT-DE-DICTO-K",
-  "verification_result_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "object_id": "0efe7b16-bf54-51b8-9329-cf03b742ccfe",
+  "verification_result_id": "e74a1cda-c57c-5727-b0b8-da533b32fd26",
   "note": "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame)."
 }

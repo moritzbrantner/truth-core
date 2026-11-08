@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190B-TWO-THREE-SENSES-A",
-  "statement_id": "STMT-PRINCIPLES-TWO-IN-ONE-SENSE-THREE-IN-ANOTHER",
-  "source_id": "ARIST-PHYS",
+  "id": "6a7dcf63-ba73-5c05-9dc4-eb85ec0782ff",
+  "label": "Aristotle, Physics I.7, 190b29-191a7: The principles can be called two in one respect and three in…",
+  "legacy_id": "ARIST-PHYS-190B-TWO-THREE-SENSES-A",
+  "statement_id": "0716a7e2-5b26-531a-b84e-aec14717d963",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190b29-191a7",
   "interpretation": "Aristotle resolves I.6's aporia with a qualified count: two in one respect and three in another. The record does not collapse these respects into ordinary set cardinality or identify the I.6 disjunction with only one count.",
   "status": "formalized"

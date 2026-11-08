@@ -1,14 +1,16 @@
 {
-  "id": "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH",
-  "statement_id": "STMT-GIBBARD-INDICATIVE-NOT-MATERIAL-TRUTH",
-  "source_id": "GIBBARD-REPLY-2022",
+  "id": "add2d90b-631c-571d-a2ae-70d30fd6a1b4",
+  "label": "Allan Gibbard, Reply to Commentators Pp.\u2026: Gibbard denies truth values in his expanded full-truth\u2026",
+  "legacy_id": "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH",
+  "statement_id": "393081a1-2fa4-5a74-a1fa-691f1594048f",
+  "source_id": "7bf6eaf4-795e-5395-b882-d6f46abe5e80",
   "locator": "pp. 536\u2013538, response to McPherson and Perl, expanded truth and indicative conditionals",
   "interpretation": "Historical reading of the expressly qualified full-truth discussion, not a blanket denial of every truth-like status or of normative truth. It blocks attribution of the analyst support clause as Gibbard\u2019s indicative-conditional truth semantics: in that clause every point unsupported by the antecedent supports the conditional. The checked MP result remains separate.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GIBBARD-EXPANDED-TRUTH"
+    "3b684b57-3e4b-537c-925b-5cc172a6011a"
   ],
   "disambiguation_ids": [
-    "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT"
+    "d0ce6461-c127-532f-8bb4-150df0f19e14"
   ]
 }

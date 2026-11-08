@@ -1,19 +1,21 @@
 {
-  "id": "NB-SURVEY-A5-REVISED-HISTORY-REDUCTIO",
-  "statement_id": "STMT-NB-A5-REVISED-HISTORY-REDUCTIO",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "a146878c-9e67-5d5c-b93f-85d2c77ff8cb",
+  "label": "Unattributed website author, Necessary…: With the separately retained full A5P1 report and earlier…",
+  "legacy_id": "NB-SURVEY-A5-REVISED-HISTORY-REDUCTIO",
+  "statement_id": "0e453d79-b36c-5c51-99a7-25e014f5aac0",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C3, steps 1–20, step 11 inner proof and the fixed-roster note following step 20",
   "interpretation": "The prefix words match main A5 but the individual class/roster is now κ-related; do not alias the ordinary history argument or direct A3/A4 revised arguments. Keep the separately recalled FULL P1 content as an input without deriving it from the short prompt. Inner NecC is discharged11, outer NoPossibleκNB remains11–17 and is discharged18–20 only to possible κ Necessary Being. Earlier STMT-NB-A4-POSSIBLE-CAUSED-THING is borrowed CONTENT, not new assent or an all-entry-path/session guarantee. Situation contingency retains its stock modal-obtaining wording; no κ-to-Fact classification bridge is chosen. Exact current/past roster, empty negative C, fact admission/preservation, class/time/domain and actual concrete causal-bearer/externality gaps remain OPEN. Existing empty-history/count/modal proofs are guarded reuse, not source soundness or a new cause/witness export.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

@@ -1,9 +1,25 @@
 {
-  "id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
+  "id": "f561d4e4-ab8f-5d20-9926-d63a74df3b4e",
+  "label": "Eternal",
+  "legacy_id": "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY",
   "term": "eternal",
   "sense_definition_ids": [
-    "DEF-ETERNAL",
-    "DEF-ENDLESS-TEMPORAL-DURATION"
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "cb13f508-17f7-55b8-bf5d-52959b7a2ee5"
   ],
-  "resolution": "The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model."
+  "resolution": "The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model.",
+  "term_label": "ETERNAL",
+  "senses": [
+    {
+      "id": "25006a4a-4d3b-44b4-b937-7b86b5d3dc69",
+      "label": "ETERNAL_1",
+      "definition_id": "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal"
+    },
+    {
+      "id": "acd3635a-c1e1-4aa8-b639-652ba03d9e6b",
+      "label": "ETERNAL_2",
+      "definition_id": "cb13f508-17f7-55b8-bf5d-52959b7a2ee5"
+    }
+  ]
 }

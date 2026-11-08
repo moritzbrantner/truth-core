@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
+  "id": "7487ada7-a514-5287-aebf-a4ed32c43481",
+  "label": "BEGINNING_QUESTION_EMPIRICAL_CONTROL_9: The hidden Boolean content calibrates to existing…",
+  "legacy_id": "DEF-EMPIRICAL-BEGINNING-QUESTION-CONTROL",
   "term": "beginning-question empirical control",
   "definition": "The hidden Boolean content calibrates to existing PastIsFinite at now0: Nat with ordinary strict order has earliest0, Nat with reversed strict order has no earliest time. The observable coordinate is independent. This is an analyst earliest-time profile, not q46a2 source identity, actual chronology, metric duration, or an automatic beginning-of-being/beginning-with-time bridge.",
   "basis": "stipulative",

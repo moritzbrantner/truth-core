@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-CARNAP-V4-BRIDGE-1008",
+  "id": "5e5c6354-a8cb-53ad-ac68-acc4f9ab1345",
+  "label": "Owner request: find an honest bridge from 'the criterion is adopted, not asserted' to 'its…",
+  "legacy_id": "ATTEMPT-CARNAP-V4-BRIDGE-1008",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
-    "STMT-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL"
+    "6dc3f04a-5420-58bd-91f1-569b41c94ef1",
+    "6f3121b6-0782-5463-b5f2-73f052d79cbf"
   ],
   "kind": "refutation",
   "outcome": "blocked",
   "summary": "Owner request (#1008): find an honest bridge from 'the criterion is adopted, not asserted' to 'its formulation lies outside the scope it governs', or another route that defeats the proposal reading (V4). Route 1, the pragmatic-justification regress (on what grounds is the proposal adopted, and do those grounds need a meaning criterion?): Carnap's sourced answer (ESO §II, CARNAP-ESO-II-EFFICIENCY-FACT) is that the grounds are factual questions of efficiency, 'a matter of fact, based upon the content of our experiences', which advise acceptance. That the grounds need no further meaning criterion, so that no regress arises, is analyst's reasoning, not Carnap's: it assumes efficiency claims can be stated and assessed inside an accepted empirical language, which Carnap's passage suggests but does not argue. The search did not establish a regress against V4. Route 2, Quine 1951: as SEP reports it, the objection is that the internal/external distinction rests on the analytic/synthetic distinction (SEP-CARNAP-7-QUINE). It bites only if analyticity is rejected, which is no established floor item, and the entry reports the mainstream reply that Quine partly misunderstood Carnap; recorded as an attacks relation, not a refutation. Route 3 (analyst's reasoning, unsourced), self-application to Carnap's own metatheses (that external questions are not theoretical): Carnap could treat them as analytic in a constructed metalanguage, so the analytic disjunct of the standard is met and the dilemma's premise STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC fails for him. Result: no honest bridge; V4 stays open, as the owner allowed. What V4 cannot do is unchanged: it gives no ground for 'theology is meaningless' beyond 'not a sentence of the recommended language' (CRITERION-VERDICT-SILENT-ON-TRUTH blocks only the inference from failing a criterion to untruth). Follow-up 2026-11-06: ATTEMPT-CARNAP-V4-SURVIVOR-1008 supplies a joint model of an explicitly declared coordinate-language/pragmatic-adequacy reconstruction; it is not a full historical V4 model and does not repair any defeated-bridge search. The blocked outcome here remains unchanged.",
   "blocker": "A defeat of V4 needs either an established premise against framework-relative analyticity (Quine's route) or a sourced, defended bridge from non-assertive adoption to exclusion from scope; neither exists. Quine 1951 itself has no admissible witness (copyright; only an unofficial mirror found).",
   "evidence": [
-    "CARNAP-ESO-II-EFFICIENCY-FACT",
-    "SEP-CARNAP-7-QUINE",
-    "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
-    "CRITERION-VERDICT-SILENT-ON-TRUTH",
-    "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR"
+    "80203a87-5d80-544e-b1f9-330102c300a7",
+    "ac605db2-1a33-5964-b699-2b6e5ac15c1a",
+    "e9ddfb3a-d40f-596b-9932-265e785499e1",
+    "876b08d8-e508-5e59-80c9-219b592fc368",
+    "a50f9907-cccd-5538-a78d-970bad582992"
   ]
 }

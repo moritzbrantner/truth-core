@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q9A1-SUPPORTS-SUCCESSION-IS-BEING-MOVED",
+  "id": "1db690e7-4140-5139-9b52-38b1facba14a",
+  "label": "Thomas Aquinas, Summa theologiae I q.9 a.1… supports A living thing whose life-state differs…",
+  "legacy_id": "REL-Q9A1-SUPPORTS-SUCCESSION-IS-BEING-MOVED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q9-A1-SUCCESSION-REQUIRES-POTENCY",
+  "subject_id": "c609c248-06b6-5e59-97d6-9d8afef93039",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-SUCCESSION-IS-BEING-MOVED",
+  "object_id": "487fb7ab-609f-5695-b1b3-77fe21538c7f",
   "note": "The q.9 a.1 claim reads a life-state differing between two times as a change of some kind (quocumque modo mutatur). The encoded bridge adds that such a change within one living subject is a being moved in the Physics III.1 sense, as alteration is; the claim does not state this, and it does not extend to generation or corruption, which Physics V counts as changes but not motions."
 }

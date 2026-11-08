@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
-  "statement_id": "STMT-TLP-TRUE-PROPOSITIONS-ARE-NATURAL-SCIENCE",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "f03146a3-2198-522a-a5ba-787f05b1c4cb",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 4.11: the totality of true propositions is…",
+  "legacy_id": "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
+  "statement_id": "cb12a4ee-95ce-5580-8f9d-9f83a4138786",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 4.11, Die Gesamtheit der wahren Sätze ist die gesamte Naturwissenschaft",
   "interpretation": "4.11: 'Die Gesamtheit der wahren Sätze ist die gesamte Naturwissenschaft (oder die Gesamtheit der Naturwissenschaften).' 4.111: 'Die Philosophie ist keine der Naturwissenschaften.'",
   "status": "formalized",

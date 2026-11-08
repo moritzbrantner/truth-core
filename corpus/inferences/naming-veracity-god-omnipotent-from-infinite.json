@@ -1,10 +1,12 @@
 {
-  "id": "INF-NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "id": "16c49d65-b20f-5eb0-be94-65a24bfb7ed8",
+  "label": "Whatever is GOD_4 can do every task that involves no contradiction, by Syllogism through infinity",
+  "legacy_id": "INF-NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
   "input_statement_ids": [
-    "STMT-GOD-IS-INFINITE",
-    "STMT-INFINITE-ACT-HAS-INFINITE-POWER"
+    "b0132989-4810-58d9-8aa3-1c9c7a0dfa28",
+    "5ea1069d-84cd-5850-a8b0-adbce332296e"
   ],
-  "output_statement_id": "STMT-GOD-IS-OMNIPOTENT",
+  "output_statement_id": "0ec9bd34-cbf6-5838-9d45-6ae516504f23",
   "rule": "Syllogism through infinity",
   "meaning": "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate.",
   "assumption_statement_ids": [],

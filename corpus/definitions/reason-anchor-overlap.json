@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-ANCHOR-OVERLAP",
+  "id": "5288616c-ab16-5761-9b56-06d5ee05b8d6",
+  "label": "Unique anchor reason with cross-world…: AnchorOverlap means there is a world a where x exists…",
+  "legacy_id": "DEF-REASON-ANCHOR-OVERLAP",
   "term": "unique anchor reason with cross-world overlap",
   "definition": "AnchorOverlap means there is a world a where x exists, exactly one admitted reason r at a, and for every world v where x exists there is some token admitted at both a and v. Overlap witnesses may vary until anchor uniqueness identifies them. Nonvacuity, uniqueness and overlap are explicit conditional assumptions, not consequences of PSR.",
   "basis": "stipulative",

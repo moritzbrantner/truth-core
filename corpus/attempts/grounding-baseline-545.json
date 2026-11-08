@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-GROUNDING-BASELINE-545",
+  "id": "29db50e8-0ac2-5164-aff4-7e1a098d9022",
+  "label": "Approved a d formal baseline, source-free analyst policies",
+  "legacy_id": "ATTEMPT-GROUNDING-BASELINE-545",
   "date": "2026-11-05",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
-    "STMT-GROUNDING-NECESSITATION-CORE-MODELS",
-    "STMT-CONTINGENT-FULL-GROUND-TERMINUS",
-    "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
-    "STMT-GROUND-ENABLING-CYCLE-CONTROL",
-    "STMT-GENERAL-MODAL-REDUCT-INVARIANCE"
+    "56fbf7a6-1a69-59fd-99d8-7c4acb5b8930",
+    "9cf1c35b-11a0-54f0-8e94-5eecacae592c",
+    "7bc269e9-3fbb-5212-bf92-a45cf5701e83",
+    "f58e5d54-b3b8-5ed5-89d6-5bb0e3b072d6",
+    "6516d186-4380-5942-b00b-2f5cf12b2723",
+    "c331d37f-fcd0-5b8a-a469-739cdc1c0896"
   ],
   "evidence": [
-    "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
-    "GROUNDING-NECESSITATION-INCOMPATIBLE",
-    "GROUNDING-NECESSITATION-CORE-MODELS",
-    "CONTINGENT-FULL-GROUND-TERMINUS",
-    "CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
-    "GROUND-ENABLING-CYCLE-CONTROL",
-    "MODAL-CONDITION-CORE-INCOMPATIBLE",
-    "NECESSARY-FACT-BOUNDARY",
-    "EXPLANATORY-ADEQUACY-CORE",
-    "CONDENSATION-SUFFICIENCY-CERTIFICATE",
-    "GENERAL-MODAL-REDUCT-INVARIANCE"
+    "a48496d5-7ddd-5823-8480-55ef44026c86",
+    "be94dd81-e012-55aa-ba7c-c425caeb6c1c",
+    "007ac010-9145-5fa9-9256-b0fce5de9c24",
+    "a5046c7e-0610-5841-9bad-2a202dd7b6f8",
+    "7081ac39-bc97-5ada-b9e4-5eabf0439ce0",
+    "98fc619e-7d9f-5670-902a-717f877afcef",
+    "9fa3c643-a939-5978-9671-4ad798e1a2fb",
+    "d3ade0e2-d74c-5cf6-be0a-0e6c6c8f4d30",
+    "94ae21f5-ec46-575f-90f2-dec9ce70c27a",
+    "29afde99-ee02-5a95-ad82-6a5f61f999d5",
+    "56aa00d4-1bf6-509e-90c8-343672ca6e8e"
   ],
   "summary": "Approved A-D formal baseline, source-free analyst policies. Existing modal language/K, forced contingent descent and Mathlib SCC projection consumed. Arbitrary admitted complete-ground sets: actual member truth, linkage, joint sufficiency and WF explicit; terminal fact can differ from original x. Rejected importing stronger ReasonClosed/nonCopy/coverage merely to use necessaryReason; forced has the faithful lighter scope. Existing boxed-fact notion exported instead of duplicated. Raw-frame configuration specialization needed because current data-role parser does not admit three-carrier Arena, with all3 policies retained. Main frozen Challenge8b90bd4511916512238e2fdc5dbc4c499a54b0bafefff4341f2cf69664e2a04d and separate profile Challenge6f68af68f907aedf3c1f38ecc5fcc2c7514d9f026b584948b873af2c112ca733 compiled before their Solutions. Canonical modules build cleanly; final verification status is recorded in PR/current545 handoff. Scope/omissions/rejected interpretations in docs/notes/grounding-baseline-545.md. Shared convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Separate general reduct-functional companion covers internally quantified queries only under SAME access/existence/rigid-identity factorization; no ground argument or new syntax. Original seven gates passed before adding this independent companion; affected evidence only is rerun. Final evidence: all eight focused result builds/bindings/Comparator/NanoDa pass; original7 bound7/0 plus separately affected semantic companion bound1/0. Exact axiom probes: fiveempty, omission-map and SCC use approved3, generic reduct uses propext+Quot.sound. Raw3-policy configuration live verification, all9 finite evaluations and generated incompatibility composition pass; configuration-explorer7tests pass. Corpus/source manifests, attribution(no changed stating claims), bundle/module/generated/diff pass. Frontier90open(30bare,18supported,42stated), cheapest31 unchanged. Bounded shared-service corpus query and two modal-K fragment edits/goals accepted at supplied previewa2d97ecf dirtyfingerprintd9531f3a, submitted hashesb09bb627... andcdf065a3..., no diagnostics; canonical A-D used CLI because preview imports older. No full canonical-module certification inferred from preview. Explorer CI repair diagnosis: the sole missing source-index declaration was core WellFounded, not NecessaryFact export aliases; all advertised theorem names resolve. Rejected reusing FiniteBranching.WellFoundedPredecessors FQN because it already owns the distinct causal statement identity. A fact-specific wrapper preserved mathematical meaning and passed scoped binding but Comparator rejected its structurally different hypothesis against the unchanged frozen Challenge. Therefore wrapper replacement is not an acceptable repair to this frozen proof contract. Final repair restores all original Lean/proof/statement/definition inputs. Existing explorer index now resolves raw WellFounded using explicit official source-location metadata for inspected pinned Lean v4.35.0 src/Init/WF.lean:60; both declaration renderers use its external URL. No fetch, toolchain installation, source-kind change or verification authority added. Original eight proof certificates remain applicable.",
   "blocker": "All real-world modal/grounding/applicability and full-explanation policies remain OPEN; no P2-B productive existential-support defense or independent root premise closure."

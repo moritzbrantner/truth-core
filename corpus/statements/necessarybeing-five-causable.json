@@ -1,7 +1,13 @@
 {
-  "id": "STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE",
+  "id": "47df9071-0424-5aba-affd-6dc9675a8c27",
+  "label": "It can be the case that some cause brings about the situation in which at least five contingent…",
+  "legacy_id": "STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE",
   "paraphrase": "Conditional on the survey respondent's report: it can be the case that some cause brings about the situation in which at least five contingent things exist. The quantified possible-causability predicate is left uninterpreted; the statement is not a claim that five contingent things actually exist or are caused.",
   "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.FiveCausable",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "688f2e05-6390-5460-9bd0-190a819df1fa"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5"
+  ]
 }

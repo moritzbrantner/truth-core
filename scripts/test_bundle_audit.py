@@ -6,18 +6,21 @@ import unittest
 
 import bundle_audit
 from lean_test_support import requires_built
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 class BundleAuditTest(unittest.TestCase):
     def test_exact_live_record_coverage(self):
         audit = bundle_audit.check()
-        self.assertEqual(len(audit['records']), 69)
+        self.assertEqual(len(audit['records']), 70)
+        self.assertIn(legacy_uuid('definition', 'DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING'),
+                      {row['id'] for row in audit['records'] if row['kind'] == 'definitions'})
         self.assertEqual(sum(row['kind'] == 'statements' for row in audit['records']), 21)
 
     def test_all_specialization_and_consumer_scope(self):
         audit = bundle_audit.check(audit=json.loads(bundle_audit.AUDITS[1].read_text()))
-        self.assertEqual(len(audit['records']), 151)
-        self.assertTrue({'DEF-INDEPENDENT-POTENCY', 'DISAMB-POTENCY'} <=
+        self.assertEqual(len(audit['records']), 152)
+        self.assertTrue({legacy_uuid('definition', 'DEF-INDEPENDENT-POTENCY'), legacy_uuid('disambiguation', 'DISAMB-POTENCY')} <=
                         {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 5)
         missing = copy.deepcopy(audit)
@@ -37,12 +40,12 @@ class BundleAuditTest(unittest.TestCase):
             {(kind, record_id) for kind, ids in expected.items() for record_id in ids},
         )
         semantic_rows = {
-            'STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE': {
-                'DEF-REVELATION-RECOGNITION-PROFILE',
-                'DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE',
+            legacy_uuid('statement', 'STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE'): {
+                legacy_uuid('definition', 'DEF-REVELATION-RECOGNITION-PROFILE'),
+                legacy_uuid('disambiguation', 'DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE'),
             },
-            'STMT-CHRIST-FOUNDED-VISIBLE-CHURCH': {
-                'DEF-CHURCH-CRITERION-CALIBRATION',
+            legacy_uuid('statement', 'STMT-CHRIST-FOUNDED-VISIBLE-CHURCH'): {
+                legacy_uuid('definition', 'DEF-CHURCH-CRITERION-CALIBRATION'),
             },
         }
         for statement_id, required in semantic_rows.items():
@@ -51,12 +54,12 @@ class BundleAuditTest(unittest.TestCase):
             if required & links:
                 self.assertTrue(required <= links)
                 self.assertTrue(required <= {row['id'] for row in audit['records']})
-        self.assertTrue({'DEF-INDEPENDENT-POTENCY', 'DISAMB-POTENCY'} <=
+        self.assertTrue({legacy_uuid('definition', 'DEF-INDEPENDENT-POTENCY'), legacy_uuid('disambiguation', 'DISAMB-POTENCY')} <=
                         {row['id'] for row in audit['records']})
         self.assertEqual(sum(row['kind'] == 'results' for row in audit['records']), 11)
         self.assertEqual(len(audit['contract_baselines']), 11)
         missing = copy.deepcopy(audit)
-        missing['contract_baselines'].pop('CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS')
+        missing['contract_baselines'].pop(legacy_uuid('result', 'CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS'))
         with self.assertRaisesRegex(ValueError, 'scoped consumer'):
             bundle_audit.check(audit=missing)
 

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
-  "argument_id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "id": "ddfb436d-4893-57a2-81a4-ed2c04e4418e",
+  "label": "A weak thesis whose own formulation lies outside its demarcated domain is consistent: in a model…",
+  "legacy_id": "LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "argument_id": "09d1e2c1-2459-5c99-a5f8-ab0f570ac36f",
   "challenge_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Challenge",
   "solution_module": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.Solution",
   "theorem": "TruthCore.Results.Logic.SelfApplication.DemarcationOutsideConsistent.demarcationOutsideConsistent",

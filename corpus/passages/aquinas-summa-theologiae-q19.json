@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "edition_urn": "http://scta.info/resource/TAca84-d1e144/cod-cnLxE4",
     "language": "lat",
     "repository": "scta-texts/TAca84",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-Q19-A1",
+      "id": "2dc7a89a-5d81-5bf7-97b3-a429018d7e4a",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.1",
+      "legacy_id": "AQUINAS-ST-I-Q19-A1",
       "locator": "I q.19 a.1",
       "claim_locator_prefixes": [
         "I q.19 a.1 "
@@ -20,7 +22,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e182"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A2",
+      "id": "ea2050f1-e458-52da-ae3a-08e8e9530281",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.2",
+      "legacy_id": "AQUINAS-ST-I-Q19-A2",
       "locator": "I q.19 a.2",
       "claim_locator_prefixes": [
         "I q.19 a.2 "
@@ -28,7 +32,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e356"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A3",
+      "id": "8dfa4697-42fb-5fd4-966e-3c5d61f84389",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.3",
+      "legacy_id": "AQUINAS-ST-I-Q19-A3",
       "locator": "I q.19 a.3",
       "claim_locator_prefixes": [
         "I q.19 a.3 "
@@ -36,7 +42,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e576"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A4",
+      "id": "74e86e1a-2d6e-592b-95b3-10c3a725ea2e",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.4",
+      "legacy_id": "AQUINAS-ST-I-Q19-A4",
       "locator": "I q.19 a.4",
       "claim_locator_prefixes": [
         "I q.19 a.4 "
@@ -44,7 +52,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e920"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A5",
+      "id": "444cbd08-68f7-530c-9aaa-ef41d53b0c43",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.5",
+      "legacy_id": "AQUINAS-ST-I-Q19-A5",
       "locator": "I q.19 a.5",
       "claim_locator_prefixes": [
         "I q.19 a.5 "
@@ -52,7 +62,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e1195"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A7",
+      "id": "e44c34bf-3a79-5f6f-b246-8b083e444547",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.7",
+      "legacy_id": "AQUINAS-ST-I-Q19-A7",
       "locator": "I q.19 a.7",
       "claim_locator_prefixes": [
         "I q.19 a.7 "
@@ -60,7 +72,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e1788"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A8",
+      "id": "3da11f3a-0af0-547f-9503-10c62c04514c",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.8",
+      "legacy_id": "AQUINAS-ST-I-Q19-A8",
       "locator": "I q.19 a.8",
       "claim_locator_prefixes": [
         "I q.19 a.8 "
@@ -68,7 +82,9 @@
       "tei_xml_id": "TAca84-d1e144-Dd1e2067"
     },
     {
-      "id": "AQUINAS-ST-I-Q19-A10",
+      "id": "387d9039-678f-5bf1-8d24-f0ea906f8f5d",
+      "label": "Thomas Aquinas, Summa theologiae, I q.19 a.10",
+      "legacy_id": "AQUINAS-ST-I-Q19-A10",
       "locator": "I q.19 a.10",
       "claim_locator_prefixes": [
         "I q.19 a.10 "

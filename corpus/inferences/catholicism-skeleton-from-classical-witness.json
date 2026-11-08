@@ -1,16 +1,18 @@
 {
-  "id": "INF-CATHOLICISM-SKELETON-FROM-CLASSICAL-WITNESS",
+  "id": "f74d6867-2b5e-5fa2-9d17-6e5b9194b0a4",
+  "label": "Catholicism is true: the Catholic Church is a teaching…, by Existential-instantiation-and… (2)",
+  "legacy_id": "INF-CATHOLICISM-SKELETON-FROM-CLASSICAL-WITNESS",
   "input_statement_ids": [
-    "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
-    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
-    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
-    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
-    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
-    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+    "20a2b6a3-83e7-5ea0-be63-9dbc03c302b3",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267",
+    "a04f711a-53cc-59c5-902e-86b605fb73b4",
+    "dd2d9776-6550-5ee9-a206-dad03027c003",
+    "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"
   ],
-  "output_statement_id": "STMT-CATHOLICISM-TRUE",
+  "output_statement_id": "53964cbe-5831-5812-af33-4d87896d47a7",
   "rule": "existential-instantiation-and-identity-substitution",
   "meaning": "Choose the combined Stage1/Stage2 witness. Its explicit IsTheOneGod property transports its attributes to every IsGod instance, supplying the original skeleton's universal attributes input. Apply the imported catholicismSkeleton theorem with that same witness; retain every revelation, historical and teaching-authority premise. This is still a structural map at the historical bridges, not their verification.",
   "assumption_statement_ids": [],

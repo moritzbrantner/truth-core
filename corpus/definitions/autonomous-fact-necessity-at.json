@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
+  "id": "1545bb1e-f00a-5574-a3a9-ac7718c6fafb",
+  "label": "Necessity of autonomous facts at one…: Every label f classified autonomous holds at each world…",
+  "legacy_id": "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
   "term": "necessity of autonomous facts at one standpoint",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.AutonomousFactsNecessaryAt",

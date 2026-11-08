@@ -1,7 +1,9 @@
 {
-  "id": "INF-PSR-LATER-AXES-MAP",
+  "id": "a3d18080-7131-5704-863c-8d854f58a223",
+  "label": "Extends the existing PSR strength map and its collapse core, retaining the…, by Model-construction",
+  "legacy_id": "INF-PSR-LATER-AXES-MAP",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PSR-LATER-AXES-MAP",
+  "output_statement_id": "4c1de755-a0ad-5536-bfc8-db3fa6c57126",
   "rule": "model-construction",
   "meaning": "Apply existing strengthMap/collapseCore, psrScopeBoundary, bridgeLadder/stanceMap, core_contrast and named account lemmas, symmetry core_pair/core_necessary, productive Supply controls and foundationNormTest. Prove the normalized PMF conditioning specialization and named chance controls, the tracking-to-collapse composition and unrestricted-FactPSR productive-chain control.",
   "assumption_statement_ids": [],

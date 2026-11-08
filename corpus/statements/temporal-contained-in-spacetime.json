@@ -1,14 +1,16 @@
 {
-  "id": "STMT-TEMPORAL-CONTAINED-IN-SPACETIME",
+  "id": "92fc4279-0389-56be-81b6-d837affb1bde",
+  "label": "Whatever is successively TEMPORAL_1 in some series of the supplied family is a part of the…",
+  "legacy_id": "STMT-TEMPORAL-CONTAINED-IN-SPACETIME",
   "paraphrase": "Open premise: whatever is successively temporal in some series of the supplied family (present at an earlier and a later time with a change of state) is a part of the spacetime whole: no supplied temporal series, such as a second series or an aevum whose adjunct changes are recorded, has a successive bearer outside this spacetime.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.TemporalContainedInSpacetime",
   "definition_ids": [
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SUCCESSIVELY-TEMPORAL",
-    "DEF-TEMPORAL-SERIES"
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "c3dd15c9-b0a6-5b72-aef1-3b055d1c2941",
+    "8ed10810-ed80-56d4-b629-34d1ef6ae07f"
   ],
   "disambiguation_ids": [
-    "DISAMB-TEMPORAL-SENSE"
+    "bfeff900-79ef-51ec-a224-b6736f31d1c1"
   ]
 }

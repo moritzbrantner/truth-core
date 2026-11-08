@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PAST-RESOURCE-STOCK",
+  "id": "12b6271c-f67a-5d26-94a0-a17b6192a053",
+  "label": "Neutral real stock over a\u2026: The parameter S: Int \u2192 Real assigns a finite Archimedean real value to\u2026",
+  "legacy_id": "DEF-PAST-RESOURCE-STOCK",
   "term": "neutral real stock over a beginningless integer past",
   "definition": "The parameter S : Int \u2192 Real assigns a finite Archimedean real value to every integer time. The past is the entire half-line t\u2264now for a selected integer now. The same grid has arbitrarily earlier integer indices and one unit between t and t+1. No first time, finite elapsed duration, causal relation, event-count bound or physical interpretation of stock is built in. A world or history may later supply such a stock, but this result contains no modal-world index.",
   "basis": "stipulative",

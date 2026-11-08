@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE",
+  "id": "c63a69a4-2241-5855-8faf-85cb21510f55",
+  "label": "Same material extension",
+  "legacy_id": "DISAMB-MATERIAL-EXTENSION-TEMPORAL-SCOPE",
   "term": "same material extension",
   "sense_definition_ids": [
-    "DEF-MATERIAL-SLICE-COINCIDENCE",
-    "DEF-MATERIAL-TEMPORAL-WHOLE",
-    "DEF-MATERIAL-HISTORY-CORRESPONDENCE"
+    "a85963c3-2013-5d76-85c1-5bedf3430cc9",
+    "36e01780-ca8d-5f28-8053-1ddbc1ae5cd7",
+    "7a791ef4-6449-5258-b108-6a4a3d50fe61"
   ],
-  "resolution": "Exact constituent coincidence is indexed by one time; global extensional equality compares entire time/token occurrence sets. A correspondence preserves all represented observations without proving ontological identity. Material tokens are not all mereological parts: self-parts distinguish the overlapping temporal wholes. Enduring numerical persistence is a separate framework commitment, disputed by one-object and sortal-relative rivals. No metaphysical possibility, causal relation, substantial unity or root conclusion is inferred."
+  "resolution": "Exact constituent coincidence is indexed by one time; global extensional equality compares entire time/token occurrence sets. A correspondence preserves all represented observations without proving ontological identity. Material tokens are not all mereological parts: self-parts distinguish the overlapping temporal wholes. Enduring numerical persistence is a separate framework commitment, disputed by one-object and sortal-relative rivals. No metaphysical possibility, causal relation, substantial unity or root conclusion is inferred.",
+  "term_label": "SAME_MATERIAL_EXTENSION",
+  "senses": [
+    {
+      "id": "d7f06225-e549-4459-8caa-b61de3f847a9",
+      "label": "SAME_MATERIAL_EXTENSION_1",
+      "definition_id": "a85963c3-2013-5d76-85c1-5bedf3430cc9",
+      "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Coincident"
+    },
+    {
+      "id": "b0e1d2c9-a90b-4506-9202-8413fd396a90",
+      "label": "SAME_MATERIAL_EXTENSION_2",
+      "definition_id": "36e01780-ca8d-5f28-8053-1ddbc1ae5cd7",
+      "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Whole"
+    },
+    {
+      "id": "b91ed703-f749-46d4-a0d7-69e11bebd84a",
+      "label": "SAME_MATERIAL_EXTENSION_3",
+      "definition_id": "7a791ef4-6449-5258-b108-6a4a3d50fe61",
+      "lean_declaration": "TruthCore.Mereology.MaterialConstitutionScope.Correspondence"
+    }
+  ]
 }

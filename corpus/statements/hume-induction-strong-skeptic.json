@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-INDUCTION-STRONG-SKEPTIC",
+  "id": "5ac01ada-7496-50e0-9ae5-6f750dcf0679",
+  "label": "Every topic, including the persistence of habit, is denied EPISTEMIC_ENTITLEMENT_3",
+  "legacy_id": "STMT-HUME-INDUCTION-STRONG-SKEPTIC",
   "paraphrase": "Open stronger reconstruction: every topic, including the persistence of habit, is denied epistemic entitlement. This is not attributed to Hume.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.StrongSkeptic",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-ENTITLEMENT",
-    "DEF-HUME-INDUCTION-PRACTICE"
+    "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

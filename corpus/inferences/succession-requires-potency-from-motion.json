@@ -1,10 +1,12 @@
 {
-  "id": "INF-SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
+  "id": "4b416a2e-2932-538a-bcb4-d42a6d51d679",
+  "label": "Whatever is changed in any way is in some way in POTENCY_1, read…, by Succession is motion, motion…",
+  "legacy_id": "INF-SUCCESSION-REQUIRES-POTENCY-FROM-MOTION",
   "input_statement_ids": [
-    "STMT-SUCCESSION-IS-BEING-MOVED",
-    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+    "487fb7ab-609f-5695-b1b3-77fe21538c7f",
+    "0628359b-4a71-5c67-a84b-0fd80104aceb"
   ],
-  "output_statement_id": "STMT-SUCCESSION-REQUIRES-POTENCY",
+  "output_statement_id": "ebccb272-1275-5558-948a-4485504229a0",
   "rule": "Succession is motion, motion is actualized potency",
   "meaning": "A life whose state differs between two times at which it lives is being moved in some respect (STMT-SUCCESSION-IS-BEING-MOVED, supported by the q.9 a.1 claim), and whatever is being moved in a respect is in potency in it (left-to-right half of Physics III.1, STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY). Derives STMT-SUCCESSION-REQUIRES-POTENCY, which reaches the root with no recorded derivation. Potency is potency in the subject, the sense Physics III.1 uses and DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER selects for q.9 a.1. Both premises stay open.",
   "assumption_statement_ids": [],

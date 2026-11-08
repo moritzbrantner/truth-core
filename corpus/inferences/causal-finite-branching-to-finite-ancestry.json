@@ -1,10 +1,12 @@
 {
-  "id": "INF-CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY",
+  "id": "17447868-3fc0-5c7a-8c86-8a76ab4b60bd",
+  "label": "Every relatum has finitely many distinct upstream ancestors reachable by a…, by Direct-proof",
+  "legacy_id": "INF-CAUSAL-FINITE-BRANCHING-TO-FINITE-ANCESTRY",
   "input_statement_ids": [
-    "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
-    "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"
+    "a896d2b5-0fb5-539e-824a-9315f5c6bff1",
+    "42890b45-9325-56d3-8ae4-a6202e8c6ba6"
   ],
-  "output_statement_id": "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
+  "output_statement_id": "e529c42f-f0a2-5ebf-9ae1-459e7f798d31",
   "rule": "direct-proof",
   "meaning": "Well-founded cause-to-dependent predecessor links and finite direct fan-in jointly imply finite distinct transitive ancestry at each node. Either assumption alone is insufficient, as Lean counterexamples establish.",
   "assumption_statement_ids": [],

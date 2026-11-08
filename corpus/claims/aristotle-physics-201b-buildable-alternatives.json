@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201B-BUILDABLE-ALTERNATIVES-A",
-  "statement_id": "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
-  "source_id": "ARIST-PHYS",
+  "id": "ff05abdc-e59f-5dce-a46d-e5f464b30164",
+  "label": "Aristotle, Physics III.1, 201b9-11: For the actuality of the buildable qua buildable, the…",
+  "legacy_id": "ARIST-PHYS-201B-BUILDABLE-ALTERNATIVES-A",
+  "statement_id": "b41a52e0-c631-5273-a417-fcfb0c128c9e",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.1, 201b9-11",
   "interpretation": "Argument-premise reading of the buildable example: for the actuality specifically at issue, Aristotle considers building and the completed house as the alternatives. The claim is scoped to this example and does not impose a universal two-way classification of actuality.",
   "status": "formalized"

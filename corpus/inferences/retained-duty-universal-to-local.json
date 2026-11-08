@@ -1,9 +1,11 @@
 {
-  "id": "INF-RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "id": "05736dbe-05dd-5a02-be25-79ace4e0fec7",
+  "label": "For the fixed agent and identical original-return action only, duty at after…, by Modus-ponens",
+  "legacy_id": "INF-RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
   "input_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-OIC"
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b"
   ],
-  "output_statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+  "output_statement_id": "2cc0cc30-8404-5681-94ec-b5cf6e85a93f",
   "rule": "modus-ponens",
   "meaning": "Instantiation transcription: universal after-date OIC implies the original-return-only OIC instance. The universal policy is not required for the weaker operational incompatible cores.",
   "assumption_statement_ids": [],

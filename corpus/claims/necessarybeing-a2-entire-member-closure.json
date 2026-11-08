@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE",
-  "statement_id": "STMT-NB-A2-ENTIRE-MEMBER-CLOSURE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "05ceaa72-d0ec-56d8-accf-41946ef074dc",
+  "label": "Unattributed website author, Necessary\u2026: Necessarily, every cause-capable thing included in a\u2026",
+  "legacy_id": "NB-SURVEY-A2-ENTIRE-MEMBER-CLOSURE",
+  "statement_id": "c589f473-fb08-5414-8956-610bac604ee3",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2C, steps 1\u20134 and 7, with entire/ungrounded/head title attributes",
   "interpretation": "One coherent qualified closure/head commitment: an entire chain excludes outside causes of its members; each concrete chain-member is asserted to occur in an entire chain; closure plus internal head-uncausation yields uncausation. This is the source's asserted extension, not a stronger statement that every original chain as a whole is included in one larger linear chain. The step3 by-definition label supplies no independent metaphysical warrant.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

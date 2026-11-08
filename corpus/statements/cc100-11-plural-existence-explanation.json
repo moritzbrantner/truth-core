@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION",
+  "id": "e0bef97f-590c-5f51-a8a3-60c0ace645ea",
+  "label": "For any particular contingent concrete things, where concrete means something that possibly causes…",
+  "legacy_id": "STMT-CC100-11-PLURAL-EXISTENCE-EXPLANATION",
   "paraphrase": "For any particular contingent concrete things, where concrete means something that possibly causes something, there is an explanation of the fact that those things exist.",
   "definition_ids": [
-    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+    "d59566cf-a070-5e9a-aa4c-84620060ad92"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

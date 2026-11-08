@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-NECESSARY-PARTS-AT",
+  "id": "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+  "label": "No necessary parts at a selected modal…: NoNecessaryPartsAt m w x means for every p with p ≤ x…",
+  "legacy_id": "DEF-NO-NECESSARY-PARTS-AT",
   "term": "no necessary parts at a selected modal standpoint",
   "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt",
   "definition": "NoNecessaryPartsAt m w x means for every p with p ≤ x, NOT NecessaryAt m w p, in the existing Ontic and fixed Mathlib partial order. FamilyNoNecessaryPartsAt universally applies this SAME predicate to every member of one fixed Set. The object itself is a part under reflexivity; no actual-existence clause is included.",

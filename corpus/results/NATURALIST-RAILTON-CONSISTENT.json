@@ -1,6 +1,8 @@
 {
-  "id": "NATURALIST-RAILTON-CONSISTENT",
-  "argument_id": "NATURALIST-RAILTON-CONSISTENT",
+  "id": "cbdea820-f917-5fb5-814b-09944b8bb1c5",
+  "label": "The recorded Railton fragment is satisfiable with a true moral sentence, cognitive moral error and…",
+  "legacy_id": "NATURALIST-RAILTON-CONSISTENT",
+  "argument_id": "4968d1d9-cc33-54d5-a0a4-38a870f75d22",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonConsistent.railtonConsistent",

@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "id": "be985404-1b34-5473-a13f-9f5e165ca4c2",
+  "label": "At least one identical actual individual exists necessarily…, by Well-founded-induction-and-cl… (2)",
+  "legacy_id": "INF-NECESSARY-UNDERIVED-POSITIVE-LIFT",
   "input_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "STMT-NECESSARY-PREDECESSOR-LIFTING",
-    "STMT-EXCLUDED-MIDDLE"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "47a97912-335f-52f7-a715-63592368f0fe",
+    "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "output_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "rule": "well-founded-induction-and-classical-case-analysis",
   "meaning": "A positive existential witness follows from the constructive nonrefutation under explicit excluded middle. None of the structural support premises is established about reality; the conclusion asserts neither uniqueness nor divine attributes.",
   "assumption_statement_ids": [],

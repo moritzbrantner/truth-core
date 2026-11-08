@@ -1,8 +1,10 @@
 {
-  "id": "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
+  "id": "702e4171-b48d-5c5e-a016-6bfd5cc67225",
+  "label": "The sufficient reason for contingent things must lie outside their series however infinite, in a…",
+  "legacy_id": "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
   "paraphrase": "The sufficient reason for contingent things must lie outside their series however infinite, in a necessary substance.",
   "definition_ids": [
-    "DEF-KANT-SUFFICIENT-REASON",
-    "DEF-KANT-MODAL-NECESSITY"
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "id": "99e66c66-47d6-5ec3-84d8-5ccca113c96a",
+  "label": "For any claim type, world type and interpretation with…, by Constructive-semantic-proof",
+  "legacy_id": "INF-LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-REFLECTIVE-COHERENCE-BOUNDARY",
+  "output_statement_id": "993019a6-b156-59f9-9fc0-d2f2c510e844",
   "rule": "constructive-semantic-proof",
   "meaning": "Proves four general semantic implications from joint models, common-world satisfaction, and the stated truth condition for negation, without inferring a normative obligation.",
   "assumption_statement_ids": [],

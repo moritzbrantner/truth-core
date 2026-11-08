@@ -1,14 +1,16 @@
 {
-  "id": "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE",
+  "id": "62882166-d11a-5794-9c70-f93fa24b243f",
+  "label": "Proper being, internal unity, common…: Proper being is each thing’s own esse",
+  "legacy_id": "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE",
   "term": "proper being, internal unity, common numerical source and proper God in SCG I42[17–24]",
   "definition": "Proper being is each thing’s own esse. Internal unity concerns distinction within divine nature; numerical common-source unity concerns one source for all things. Proper divine being differs from dependent beings equivocally called gods and from divine-person distinctions.",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-SCG-I42-PROPER-BEING-UNITY",
-    "AQUINAS-SCG-I42-GREATEST-INTERNAL-UNITY",
-    "AQUINAS-SCG-I42-COMMON-BEING-NUMERICAL-SOURCE",
-    "AQUINAS-SCG-I42-GOVERNANCE-UNITY-ANALOGY",
-    "AQUINAS-SCG-I42-DIVINE-UNITY-CONFESSION"
+    "c0730486-1b9b-5e3f-9501-eabd8410300c",
+    "5a6af039-abd4-5d25-bd10-ce8fb057e33d",
+    "d8a7e981-0ab1-5ea5-a22d-718edf0906ae",
+    "f055ac70-ad77-5416-a4b4-3a229d30ac91",
+    "86e0d8eb-000f-5cac-abb8-8f0fac85c9e2"
   ],
   "note": "One own esse per thing is not automatically one common esse; greatest internal unity is not external numerical uniqueness. The agreement-to-one-source rule and its application to being require independent warrant and cannot be silently identified with Anselm through/self-power policies. Governance analogy and doctrinal confession add no actual root or source-role dictionary."
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-ADDITIONAL-GOVERNANCE-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "id": "08dad786-cde4-5058-a574-1cf63835ce3a",
+  "label": "The selected governing criterion matches… alternative to The selected governing predicate matches…",
+  "legacy_id": "REL-ADDITIONAL-GOVERNANCE-ALTERNATIVE-TO-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMMISSION-HAS-ADDITIONAL-GOVERNANCE-CRITERION",
+  "subject_id": "3d43b9e6-8254-5f9d-b952-5305f1fdc481",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+  "object_id": "3cff0d5a-d5e0-54f5-9eab-beb7f285cac4",
   "note": "A genuinely different selected criterion contradicts named coverage only. The controls give Other with opposite mandate-scope verdicts; it is not automatically a rival to the old institutional or mandate conclusion."
 }

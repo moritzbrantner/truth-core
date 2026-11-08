@@ -1,9 +1,11 @@
 {
-  "id": "REL-MATT-COMMISSION-SUPPORTS-MANDATE-SCOPE",
+  "id": "b276efa0-be55-5aff-98d9-a368c773defe",
+  "label": "New Testament, Matthew 28.18-20: Matthew… supports For any being g: if Jesus holds a mandate…",
+  "legacy_id": "REL-MATT-COMMISSION-SUPPORTS-MANDATE-SCOPE",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-28-18-20-COMMISSION-UNDER-AUTHORITY",
+  "subject_id": "26dd1e7d-aaa3-5754-a9dc-551ec2038c03",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
+  "object_id": "b139ab5a-695b-588a-b03d-b89659595ded",
   "note": "Matthew grounds the commission, with its teaching charge, in the authority given to Jesus ('therefore'). This bears on the premise that the founding was done in the exercise of the mandate and with a teaching commission. It does not supply the premise's universal scope over every visible authoritative society Jesus founded, nor the map from the eleven to such a society: those remain open, unattributed content (see docs/founding-authorization-source.md). Report-to-event and sincerity premises are not supplied."
 }

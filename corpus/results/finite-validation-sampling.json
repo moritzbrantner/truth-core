@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-VALIDATION-SAMPLING",
-  "argument_id": "FINITE-VALIDATION-SAMPLING",
+  "id": "cf5761ff-e4db-57eb-8159-39bd0ef69afb",
+  "label": "For every finite discrete measurable domain, arbitrary probability measure μ, supplied truthful…",
+  "legacy_id": "FINITE-VALIDATION-SAMPLING",
+  "argument_id": "639828fd-a8ec-5464-a29d-1c054f8fc4f9",
   "challenge_module": "TruthCore.Results.Logic.FiniteValidationLogic.Challenge",
   "solution_module": "TruthCore.Results.Logic.FiniteValidationLogic.Solution",
   "theorem": "TruthCore.Results.Logic.FiniteValidationLogic.samplingCertificate",

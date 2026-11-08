@@ -1,14 +1,16 @@
 {
-  "id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "id": "5ed36963-baa4-5c93-bd4e-e934dc3ebbf5",
+  "label": "Owner framework commitment: At the selected world w…, from Strong version, NOT approved: at the…",
+  "legacy_id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
   "premise_statement_ids": [
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG"
+    "35871d99-a2e5-5625-82c4-2b61836633a2"
   ],
-  "conclusion_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "conclusion_statement_id": "e27489c3-7419-5123-8476-386633e62532",
   "inference_ids": [
-    "INF-CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK"
+    "42e077ad-70ff-517d-925b-913190c56c76"
   ],
   "meaning": "Strength order (#1017): the strong causal-power concreteness principle (every causal sense) entails the weak, owner-approved one (efficient causation and causal power).",
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

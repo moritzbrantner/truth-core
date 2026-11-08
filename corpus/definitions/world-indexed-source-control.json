@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLD-INDEXED-SOURCE-CONTROL",
+  "id": "df5ca11b-b908-522c-9d65-ac72b677719c",
+  "label": "Acyclic-world changing existing\u2026: The fixed WorldIndexedSources.model has three Fin3 worlds\u2026",
+  "legacy_id": "DEF-WORLD-INDEXED-SOURCE-CONTROL",
   "term": "acyclic-world changing existing sources and a dependent necessary potential causer",
   "definition": "The fixed WorldIndexedSources.model has three Fin3 worlds, universal accessibility and Bool candidates. Candidate false exists in every world; true exists at 0 and 1 but not 2. Its only edges are true\u2192false at world0 and false\u2192true at world1; world2 has none. Every edge has distinct endpoints existing at its own world. JointControl includes raw worldwise WF, ActualAcyclic, base0 reflexivity, necessity and the universal other-directed potential role of false, WF of the necessary-only edge union, actual contingency of true with its incoming cause of false at0, and failure of both the no-contingent-predecessor bridge and named underivedness. Existing source VALUE sets are literal Set images of Graph.Source on Actual nodes, equal to {true},{false},{false}; there is no common rigid existing source. All worlds lie in StarterWorlds and none in RegressWorlds. Although absent true at2 is isolated in the raw candidate graph, it is not an actual starter. World-specific Nat ranks establish WF in predecessor direction and are not temporal coordinates. The overlay of all differently witnessed edges can cycle, but there is no such causal path inside a world; the necessary-only union is empty in this interpretation.",
   "basis": "stipulative",

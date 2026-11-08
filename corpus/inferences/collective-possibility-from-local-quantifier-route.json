@@ -1,11 +1,13 @@
 {
-  "id": "INF-COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
+  "id": "d7998bd3-6bde-5f50-9353-45f3d58f40ef",
+  "label": "Collective possibility: if every being can not-be, then it is possible that…, by Constructive-proof",
+  "legacy_id": "INF-COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
   "input_statement_ids": [
-    "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
-    "STMT-WHAT-CAN-NOT-BE-SOMETIME-IS-NOT",
-    "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE"
+    "42522254-9120-5ae4-bdeb-1545dc441839",
+    "5abdebb4-c386-54d1-9289-1360261f2389",
+    "5745f7e5-aab2-5ae9-aab5-a484f61e59da"
   ],
-  "output_statement_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "output_statement_id": "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
   "rule": "constructive-proof",
   "meaning": "Positive route transcription: individual possible absences realize separately, the local shift supplies a common realized absence, and the explicit realization interface makes it Possible. This supports the SAME collective premise rather than opposing it.",
   "assumption_statement_ids": [],

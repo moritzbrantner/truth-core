@@ -1,9 +1,11 @@
 {
-  "id": "REL-ELEATIC-THESIS-SELF-REFUTING-REFUTES",
+  "id": "14e6c35a-53b7-5bb9-85da-aa0fc593ed74",
+  "label": "The Eleatic thesis that nothing is moved… refutes Eleatic rival: nothing is being moved in…",
+  "legacy_id": "REL-ELEATIC-THESIS-SELF-REFUTING-REFUTES",
   "subject_kind": "argument",
-  "subject_id": "ELEATIC-THESIS-SELF-REFUTING",
+  "subject_id": "34a43b99-9969-5e5a-9d82-dcaebe5cc779",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ELEATIC-NOTHING-IS-MOVED",
+  "object_id": "f538ec85-3bdd-526a-bcf6-11b4c0d9aaec",
   "note": "Existing checked conditional refutation, recorded as a refutes relation (round 2 of the rival refutations). Its premises are open, so it does not count for closure until they are established (#391, #999)."
 }

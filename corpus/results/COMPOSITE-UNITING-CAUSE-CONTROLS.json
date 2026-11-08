@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
-  "argument_id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "id": "7047dfa6-c015-518e-889f-9f4717faaba0",
+  "label": "Six stipulated finite interpretations of the composition/uniting/causal vocabulary",
+  "legacy_id": "COMPOSITE-UNITING-CAUSE-CONTROLS",
+  "argument_id": "738ad00d-1b85-5d3a-89e4-278c9f877e8f",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CompositeUnitingCauseControls.checks",

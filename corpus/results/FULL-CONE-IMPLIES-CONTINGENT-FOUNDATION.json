@@ -1,6 +1,8 @@
 {
-  "id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
-  "argument_id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+  "id": "9493b5ba-284e-5d93-aab6-3337961eefb0",
+  "label": "Instantiate the existing…, from The selected grounds relation restricted to…",
+  "legacy_id": "FULL-CONE-IMPLIES-CONTINGENT-FOUNDATION",
+  "argument_id": "95c5d052-e17b-5829-8bff-41116148df74",
   "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentAncestry.contingentFoundationOfFull",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "id": "904ae447-787f-5470-a4f6-dea52f06a46f",
+  "label": "The named three-stage model jointly satisfies genuine…, by Mathlib Heyting semantics…",
+  "legacy_id": "INF-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "output_statement_id": "051d73e8-6328-5855-b0f7-ff20d20b1f1b",
   "rule": "Mathlib Heyting semantics and explicit finite-world model",
   "meaning": "Construct and verify one same three-world persistent-content model. Import the earlier epistemic frame certificate through its explicit three-world restriction; prove relational knowledge/possibility preserve the contents without adding worlds, check the individual algebraic epistemic laws, and witness full knowability and precise relevant stability/EM failure. This is a semantic-profile counterconfiguration, not a counterexample to old pointwise Lean Prop results, a refutation of the classical floor, a historical claim or root discharge.",
   "assumption_statement_ids": [],

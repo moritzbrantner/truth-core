@@ -1,21 +1,23 @@
 {
-  "id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "id": "7e9ca71a-643f-5bbc-8622-80144bd05480",
+  "label": "Either some bearer of an occurring thought has a concrete ground-ancestor that exists at w and at…",
+  "legacy_id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
   "paraphrase": "Either some bearer of an occurring thought has a concrete ground-ancestor (possibly itself) that exists at w and at every world accessible from w, or some bearer of an occurring thought has a concrete ground-ancestor (possibly itself) that exists at w, is contingent at w and has no concrete ground existing at w. The second horn is a root of the selected grounding relation only; it may have a non-concrete or unmodelled explanation.",
   "lean_declaration": "TruthCore.Causality.CogitoNecessaryConcrete.ThinkerAncestryRootFork",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

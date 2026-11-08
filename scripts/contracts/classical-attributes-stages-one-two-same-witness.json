@@ -66,7 +66,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical type and project dependencies. Existing Challenges unchanged; identity-decision Challenge frozen before proof verification.",
-  "result_id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS",
+  "result_id": "d1753206-5416-5b0c-9b76-bc4e2162d14a",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.StagesOneTwo.uniqueClassicalGodExists",
   "type_sha256": "c6582567fa8dee199c2d4b8a73318e6e9a0f7ba653acf7f1eba3179df7a78828"

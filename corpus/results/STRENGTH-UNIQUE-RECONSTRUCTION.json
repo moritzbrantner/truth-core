@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-UNIQUE-RECONSTRUCTION",
-  "argument_id": "STRENGTH-UNIQUE-RECONSTRUCTION",
+  "id": "9884d1dc-d038-5308-8d13-fc507afaa0cb",
+  "label": "For an arbitrary supplied type and predicate…, from For an arbitrary supplied type and… and 1 more",
+  "legacy_id": "STRENGTH-UNIQUE-RECONSTRUCTION",
+  "argument_id": "4979a72c-6dea-597b-9272-932c64aedc01",
   "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthUnique.reconstruction",

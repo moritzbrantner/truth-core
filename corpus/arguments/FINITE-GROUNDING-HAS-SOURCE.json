@@ -1,9 +1,18 @@
 {
-  "id": "FINITE-GROUNDING-HAS-SOURCE",
+  "id": "a047699e-9005-5e04-a090-3f287b8ee2fb",
+  "label": "For power generated inductively from intrinsic source power and finite successive transmissions…",
+  "legacy_id": "FINITE-GROUNDING-HAS-SOURCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-FINITE-GROUNDING-HAS-SOURCE",
-  "inference_ids": ["INF-FINITE-GROUNDING-HAS-SOURCE"],
+  "conclusion_statement_id": "c31d0473-124b-506e-aaa8-62f87391b074",
+  "inference_ids": [
+    "c255cef8-77e3-51d8-8193-ec92041f683a"
+  ],
   "meaning": "An axiom-free constructive result for the inductive interpretation of derived power. It does not establish that every real per se cause instantiates this interpretation. That bridge remains open.",
-  "definition_ids": ["DEF-FINITELY-GROUNDED-CAUSAL-POWER", "DEF-FINITE-CAUSAL-PATH"],
-  "disambiguation_ids": ["DISAMB-CAUSAL-POWER-GROUNDING"]
+  "definition_ids": [
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "822c9912-2313-584b-b2b7-77031da20107"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
+  ]
 }

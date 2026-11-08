@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-LAW-REPRESENTATION",
+  "id": "0a17ca95-b67c-52c9-b130-274155fb5e73",
+  "label": "Rule content, law representatives and\u2026: An analyst Representation separates bearers B from\u2026",
+  "legacy_id": "DEF-NATURALISM-LAW-REPRESENTATION",
   "term": "rule content, law representatives and actual instances",
   "definition": "An analyst Representation separates bearers B from rule-indexed law-entity candidates R using the disjoint domain B \u2295 R. Ontic presence of each class is supplied independently. ActualInstance requires an existing bearer that instantiates the represented universal. The predicate is not rule truth, a proof term, law selection, or merely a sentence mentioning a law. Distinct indices denote distinct right-summand candidates in this representation; arbitrary overlapping denotation is outside this profile.",
   "basis": "stipulative",

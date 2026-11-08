@@ -1,13 +1,15 @@
 {
-  "id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
-  "statement_id": "STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING",
-  "source_id": "AQUINAS-ST",
+  "id": "5dd2d69f-02a5-5357-8cb5-1f028137db64",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2 co: Every perfection of a thing pertains to its…",
+  "legacy_id": "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING",
+  "statement_id": "5c5281dd-089a-5c2c-bb3e-509cd422e404",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.4 a.2 co.: Omnium autem perfectiones pertinent ad perfectionem essendi: secundum hoc enim aliqua perfecta sunt, quod aliquo modo esse habent",
   "interpretation": "From the second proof (God as ipsum esse subsistens): the perfections of all things pertain to the perfection of being, since things are perfect insofar as they have being in some way. Kept as prose, not formalized; it supports the open bridge STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION, which adds the causal step that the cause of a thing's being causes what pertains to its being. Re-read the full pinned article in the causal-transfer investigation: the second proof specifically invokes subsistent esse; ad 3 distinguishes participation in being from participation in every mode. Neither this claim nor the first proof’s preexistence establishes causal responsibility for each particular actuality. Detailed boundaries: docs/notes/causal-perfection-transfer.md.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-UNIVERSALLY-PERFECT"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ]
 }

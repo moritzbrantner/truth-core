@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-NECESSARY-UNION-WF",
+  "id": "bb3af92a-7060-5e08-a82a-59a1337f8492",
+  "label": "Well-founded modal support union among…: The existing union of selected world-local…",
+  "legacy_id": "DEF-CONCRETE-NECESSARY-UNION-WF",
   "term": "well-founded modal support union among necessary concrete candidates",
   "definition": "The existing union of selected world-local existential-support arrows between necessary concrete candidates is well-founded. The union includes arrows from every admitted world, not merely accessible worlds. This neither follows from actual-world well-foundedness nor requires invariant edges.",
   "basis": "stipulative",

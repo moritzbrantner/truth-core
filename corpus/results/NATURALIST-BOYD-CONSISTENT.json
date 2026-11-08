@@ -1,6 +1,8 @@
 {
-  "id": "NATURALIST-BOYD-CONSISTENT",
-  "argument_id": "NATURALIST-BOYD-CONSISTENT",
+  "id": "45b4d89c-5bb6-5060-bcc9-04ad6525ff6e",
+  "label": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive…",
+  "legacy_id": "NATURALIST-BOYD-CONSISTENT",
+  "argument_id": "9e08866e-54f0-5443-90bd-65211f2dfd1d",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent.boydConsistent",

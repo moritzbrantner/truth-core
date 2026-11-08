@@ -1,25 +1,27 @@
 {
-  "id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "id": "a5c9bf60-40c3-5fce-aad4-fbc41758715e",
+  "label": "In the supplied interpreted scenario, C does not conceive full MC at the root",
+  "legacy_id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
   "paraphrase": "In the supplied interpreted scenario, C does not conceive full MC at the root. The formal rejection follows only conditionally from adopting S5, the unrestricted bridge and independent contingency; it does not refute Hume or establish a Catholic-case premise.",
   "lean_declaration": "TruthCore.Modal.S5Research.CollapseConceptionExcluded",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-S5-FRAME",
-    "DEF-MODAL-S5-COMPONENT",
-    "DEF-MODAL-S5-UNIFORM",
-    "DEF-MODAL-S5-SCENARIO",
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "b15f67c1-a524-5226-87c2-a3f78aff47a9",
+    "373312c4-9420-52fa-8590-0a77cdf956a4",
+    "32211feb-7d9e-5822-a9e0-e8a89374d6aa",
+    "9a3cef72-b144-5f91-9390-312bd4d96c94",
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-S5-COMPONENT-GLOBAL"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "3f8a4b51-4608-5404-b17b-822281581a38"
   ]
 }

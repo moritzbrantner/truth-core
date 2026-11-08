@@ -1,21 +1,23 @@
 {
-  "id": "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+  "id": "1b68d526-4d96-576e-915a-97e0516b58fa",
+  "label": "An order by approach to a primary, universal possession of the selected perfection, and the…",
+  "legacy_id": "ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE",
+  "conclusion_statement_id": "f08cd230-2016-5593-8f3a-f0e907c17646",
   "inference_ids": [
-    "INF-ATTRIBUTION-MAXIMUM-SCHEMA-INSTANCE"
+    "b039768f-da94-56cb-b28a-2540bd02e6e4"
   ],
   "meaning": "Conditional attribution-order schema instance: an order by approach to a primary, universal possession of the selected perfection, and the unrestricted cause-more-such condition imply that a maximum has no distinct cause of that same perfection. Strict primacy and primary-causes-creatures are not used. This proves the conditional transfer, not its domain-specific hypotheses.",
   "definition_ids": [
-    "DEF-MAXIMUM-ORDER-SCHEMA",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION"
+    "67dc3765-8c32-505e-a546-b611387345c2",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-CAUSE",
-    "DISAMB-MAXIME-ENS"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

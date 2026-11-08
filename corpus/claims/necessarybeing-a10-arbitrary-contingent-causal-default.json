@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
-  "statement_id": "STMT-NB-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "6df9a65c-e512-569b-83c9-23a635d87312",
+  "label": "Unattributed website author, Necessary…: For an arbitrarily chosen contingent thing X, the…",
+  "legacy_id": "NB-SURVEY-A10-ARBITRARY-CONTINGENT-CAUSAL-DEFAULT",
+  "statement_id": "81910509-0b00-5242-9870-22ab70d1899d",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10P1E, author’s qualified appears transition and full arbitrary-X question with cause/contingent/rule-of-thumb titles",
   "interpretation": "This preserves arbitrary selection as a distinct scope from P1’s general/encountered-class default and C’s selected possible first contingent. Neither random sampling, a supplied probability space/calibrated numerical bound, a selected-history applicability bridge nor modal possible-cause is established. The opening It appears transition is not an independently proved exhaustive irrelevance result: one route entered P1E through a parts denial and another through the angel/default detour, so no uniform retained negative-parts answer or retraction is invented. Affirmative continues to P2; negative escapes and uncertainty goes to P1B2. Counter-reasons/exceptions from the rule-of-thumb title remain explicit. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-A10-RECONSIDERATION-CASE",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "ffc4db54-6b73-55a0-a08e-caf2af6095b3",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0"
   ]
 }

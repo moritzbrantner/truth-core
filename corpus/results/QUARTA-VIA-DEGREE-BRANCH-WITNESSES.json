@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
-  "argument_id": "QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
+  "id": "17e86248-7630-5927-bf5f-917d4fbbf10b",
+  "label": "Two separately specified interpretations each jointly witness the…, via degree branch witnesses",
+  "legacy_id": "QUARTA-VIA-DEGREE-BRANCH-WITNESSES",
+  "argument_id": "930f418d-802b-5472-91e2-deb4c0d0304d",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeBranchWitnesses.branchWitnesses",

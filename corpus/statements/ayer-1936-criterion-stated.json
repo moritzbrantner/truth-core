@@ -1,10 +1,12 @@
 {
-  "id": "STMT-AYER-1936-CRITERION-STATED",
+  "id": "0caaf0d8-bf46-5fe5-ac41-fcaf7ff5b529",
+  "label": "Ayer 1936: it is the mark of a genuine factual proposition that some experiential propositions can…",
+  "legacy_id": "STMT-AYER-1936-CRITERION-STATED",
   "paraphrase": "Ayer 1936: it is the mark of a genuine factual proposition that some experiential propositions can be deduced from it in conjunction with certain other premises without being deducible from those other premises alone.",
   "definition_ids": [
-    "DEF-AYER-1936-WEAK-VERIFIABILITY"
+    "b756092b-697b-52f9-aa64-7e6da9e87b60"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

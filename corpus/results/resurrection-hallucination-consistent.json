@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-HALLUCINATION-CONSISTENT",
-  "argument_id": "RESURRECTION-HALLUCINATION-CONSISTENT",
+  "id": "abbc89bc-61b8-5ba0-9407-ace40e63b332",
+  "label": "The limited Hallucination pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-HALLUCINATION-CONSISTENT",
+  "argument_id": "0dfd79ee-ca73-50b9-8275-87f04edb198c",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.HallucinationConsistent.consistent",

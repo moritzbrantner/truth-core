@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
-  "argument_id": "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+  "id": "9ad63639-8a58-55ee-ac2a-da11a1dc6c5e",
+  "label": "The same actual de re necessary individual…, from At least one individual exists at the… and 9 more",
+  "legacy_id": "NECESSARY-UNION-UNDERIVED-ESSENCE-IDENTITY",
+  "argument_id": "87ed1132-1a59-5e93-b154-48f2a763f597",
   "challenge_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Direct.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedEssenceEsse.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedEssenceEsse.from_union_direct",

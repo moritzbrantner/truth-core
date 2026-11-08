@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHOICE-CONTEXT-ALTERNATIVE",
+  "id": "54150c17-a4b7-56ea-8874-ab274c412c2f",
+  "label": "SAME_CONTEXT_ALTERNATIVE_ACTION_2: SameContext requires equality of law AND equality of the full…",
+  "legacy_id": "DEF-CHOICE-CONTEXT-ALTERNATIVE",
   "term": "same-context alternative action",
   "definition": "SameContext requires equality of law AND equality of the full stipulated input; Alternative h asks for a history k meeting these equalities with action h different from action k. It does not merely ask whether some other history has a different output. Deterministic response excludes Alternative without inserting equality of outputs into SameContext.",
   "basis": "stipulative",

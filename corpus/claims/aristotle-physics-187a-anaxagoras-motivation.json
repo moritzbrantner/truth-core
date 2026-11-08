@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-187A-ANAXAGORAS-MOTIVATION-A",
-  "statement_id": "STMT-ANAXAGOREAN-ALREADY-PRESENT-MOTIVATION",
-  "source_id": "ARIST-PHYS",
+  "id": "0be7fe4d-ebfe-590e-8ab7-0afe76584332",
+  "label": "Aristotle, Physics I.4, 187a26-187b2: On the Anaxagorean account reconstructed here, what emerges…",
+  "legacy_id": "ARIST-PHYS-187A-ANAXAGORAS-MOTIVATION-A",
+  "statement_id": "7ae968c0-00c4-5ffd-867f-3983a6d216a8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.4, 187a26-187b2",
   "interpretation": "Attributed conclusion: Aristotle reconstructs Anaxagoras as treating what emerges as already present imperceptibly in the prior mixture. The premises motivating this conclusion are recorded separately and connected through an explicit inference application.",
   "status": "formalized"

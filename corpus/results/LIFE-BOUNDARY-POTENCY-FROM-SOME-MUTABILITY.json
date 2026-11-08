@@ -1,0 +1,12 @@
+{
+  "id": "87c6d32e-305a-5c11-b048-9677e4556789",
+  "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "argument_id": "158efe69-7391-5227-9f0b-6523d0360375",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks4.lifeBoundaryPotencyFromSomeMutability",
+  "comparator_config": "results/LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY/comparator.json",
+  "status": "solution-present",
+  "description": "MUTABLE_3 (IN_SOME_WAY) branch of the boundary use, the reading closest to q.10 a.1: whatever begins or ceases to live is mutable in itself or through another. In the first case it is in potency in itself; in the second the explicit sense bridge gives potency in itself. So whatever begins or ceases to live is in potency in itself in some respect. The same omission model shows the bridge is needed."
+}

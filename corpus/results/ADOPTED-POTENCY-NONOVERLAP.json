@@ -1,6 +1,8 @@
 {
-  "id": "ADOPTED-POTENCY-NONOVERLAP",
-  "argument_id": "ADOPTED-POTENCY-NONOVERLAP",
+  "id": "e374c69d-d5e5-547c-a8a1-f8de313e6f76",
+  "label": "In the adopted sense POTENCY_1 to a respect is…, from Non-contradiction for the case predicates…",
+  "legacy_id": "ADOPTED-POTENCY-NONOVERLAP",
+  "argument_id": "1563063f-3700-5eaf-b854-0cee8acb8d43",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.AdoptedPotencyNonOverlap.nonOverlap",

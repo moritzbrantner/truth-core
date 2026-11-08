@@ -1,6 +1,8 @@
 {
-  "id": "HISTORY-TIME-SCOPE-CONTROLS",
-  "argument_id": "HISTORY-TIME-SCOPE-CONTROLS",
+  "id": "7e6de7aa-b796-5964-bede-a04f1a5fa20a",
+  "label": "Formal shared-timeline controls: for arbitrary History W B T and a fixed bearer…",
+  "legacy_id": "HISTORY-TIME-SCOPE-CONTROLS",
+  "argument_id": "d79fd2d1-4f2f-5ec8-97ea-d6c5b67e5555",
   "challenge_module": "TruthCore.Results.Modal.HistoryTimeScope.Challenge",
   "solution_module": "TruthCore.Results.Modal.HistoryTimeScope.Solution",
   "theorem": "TruthCore.Results.Modal.HistoryTimeScope.controls",

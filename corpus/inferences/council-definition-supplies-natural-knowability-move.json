@@ -1,9 +1,11 @@
 {
-  "id": "INF-COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "id": "df44d4fb-1077-5973-97aa-e320fc882252",
+  "label": "Some move affirms natural knowability of God, by Constructive-proof",
+  "legacy_id": "INF-COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
   "input_statement_ids": [
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD"
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8"
   ],
-  "output_statement_id": "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS",
+  "output_statement_id": "ffe6c612-0712-5866-9c8b-ad431736209a",
   "rule": "constructive-proof",
   "meaning": "Project the actual natural-knowability move from the existing conciliar-definition premise. Assembly transcription; the Defined property is not needed for this weaker witness.",
   "assumption_statement_ids": [],

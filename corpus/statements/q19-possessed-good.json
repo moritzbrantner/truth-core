@@ -1,11 +1,13 @@
 {
-  "id": "STMT-WILL-INCLUDES-LOVE-OF-POSSESSED-GOOD",
+  "id": "90ce7aae-3721-54b4-9210-f84fe27297a6",
+  "label": "Will includes loving and delighting in possessed good, rather than only seeking what is absent…",
+  "legacy_id": "STMT-WILL-INCLUDES-LOVE-OF-POSSESSED-GOOD",
   "paraphrase": "Will includes loving and delighting in possessed good, rather than only seeking what is absent; divine will always possesses its principal object-good.",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-ACT-OF-WILL"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "9f448669-6387-5244-a2ec-f9f90618c037"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "id": "15b5aa02-60f1-5486-b058-93636f075651",
+  "label": "For each effect, any two incoming complete causes coincide, by Same-effect-mutual-parthood-a…",
+  "legacy_id": "INF-COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
   "input_statement_ids": [
-    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
-    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS"
+    "9cfaf9de-46cd-5a40-b23d-457e39b9d1a1",
+    "55d1d0e7-f1b6-522b-9bf4-0514c998a828"
   ],
-  "output_statement_id": "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT",
+  "output_statement_id": "326fd926-9f08-50d9-86fe-7199119a62d1",
   "rule": "same-effect-mutual-parthood-antisymmetry",
   "meaning": "For two complete causes c and d of the SAME effect e, ProducerParticipates puts c and d in the SAME supplied productive family. CompleteCauseCoversContributors gives c≤d and d≤c. The existing PartialOrder antisymmetry yields c=d, exactly existing UniqueCausePerEffect G. No cause or participant is asserted to exist, and participants is not defined from the complete-cause graph. Full fusion, overlap extensionality, object formation, cause-of-part inheritance, world rigidity, necessity and full first-cause uniqueness are not used or concluded. The two selected-context participant policies remain OPEN interpretations of the author’s total-cause discussion.",
   "assumption_statement_ids": [],

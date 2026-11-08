@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-RECORD",
+  "id": "8eaba896-98d9-52a7-83c2-bd44d790f08b",
+  "label": "Finite observed record and continuation: A Trace assigns a Boolean match to each natural-number…",
+  "legacy_id": "DEF-HUME-INDUCTION-RECORD",
   "term": "finite observed record and continuation",
   "definition": "A Trace assigns a Boolean match to each natural-number episode. Recorded f n says every episode strictly before n matched. n is outside the record. delayedFailure matches every prior episode and fails at n. These mathematical alternatives establish deductive underdetermination, not metaphysical possibility or equiprobability.",
   "basis": "stipulative",

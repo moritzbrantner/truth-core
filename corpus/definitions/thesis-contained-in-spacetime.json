@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THESIS-CONTAINED-IN-SPACETIME",
+  "id": "d2e06bdc-fce4-57ff-b0c0-14189bc21901",
+  "label": "Thesis predicate contained in spacetime: ContainedInSpacetime F P:= ∀ x, P x → PartOfSpacetime F…",
+  "legacy_id": "DEF-THESIS-CONTAINED-IN-SPACETIME",
   "term": "thesis predicate contained in spacetime",
   "definition": "`ContainedInSpacetime F P := ∀ x, P x → PartOfSpacetime F x`: whatever satisfies the naturalist's thesis predicate is a part of the spacetime whole.",
   "basis": "stipulative",

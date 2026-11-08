@@ -1,6 +1,8 @@
 {
-  "id": "MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
-  "argument_id": "MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
+  "id": "a164e3cd-b595-5550-9791-67290fed3ac3",
+  "label": "Strong supplementation is equivalent to the existing OverlapExtensionalParthood condition on the…",
+  "legacy_id": "MEREOLOGICAL-SEPARATION-CHARACTERIZATION",
+  "argument_id": "fef39da5-3983-5b20-a795-d6d831bbb601",
   "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
   "theorem": "TruthCore.Results.Mereology.SupplementationFusion.separationCharacterization",

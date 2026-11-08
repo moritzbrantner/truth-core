@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
+  "id": "5cbf8bf6-197e-5ecb-96f2-2b3cdcbbddce",
+  "label": "Given its reported inputs and preceding conditional history argument, the source takes possible…",
+  "legacy_id": "STMT-NB-A5-REDUCTIO-POSSIBLE-NECESSARY-BEING",
   "paraphrase": "Given its reported inputs and preceding conditional history argument, the source takes possible Necessary Being to contradict the outer no-possible-Necessary-Being assumption, rejects it and concludes possible Necessary Being at step20. C’s hypothetical causability and causal witness are not exported unconditionally. The following already represented modal suffix is distinct; this reading establishes neither actual existence nor a SAME rigid necessary individual or cause.",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

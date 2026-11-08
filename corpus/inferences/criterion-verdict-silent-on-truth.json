@@ -1,7 +1,9 @@
 {
-  "id": "INF-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "id": "2e66828b-a83b-5d0b-8caa-3accab6139e6",
+  "label": "A criterion's verdict settles nothing about truth: in some…, by Constructive-proof",
+  "legacy_id": "INF-CRITERION-VERDICT-SILENT-ON-TRUTH",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "output_statement_id": "57ee35c2-0a51-5b19-9afc-7042be15edab",
   "rule": "constructive-proof",
   "meaning": "A countermodel to the bridge from failing an adopted criterion to lacking truth: in a language whose worlds fix an observable and an unobservable coordinate, with observation statements those depending only on the observable one, the sentence 'the unobservable coordinate is set' is not analytic and not conclusively verifiable (any jointly satisfiable observations hold also where it is false), yet it is true at a world. This is consistency, not a defense of any sentence; it shows that the proposal reading (V4) classifies sentences without deciding their truth.",
   "assumption_statement_ids": [],

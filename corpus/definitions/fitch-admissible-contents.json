@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FITCH-ADMISSIBLE-CONTENTS",
+  "id": "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+  "label": "Admissible knowability contents: C is an explicit family of world-indexed predicates",
+  "legacy_id": "DEF-FITCH-ADMISSIBLE-CONTENTS",
   "term": "admissible knowability contents",
   "definition": "C is an explicit family of world-indexed predicates. RestrictedKnowability applies only at actuality and only to C; MooreAdmissible independently requires C to contain the Moore content. GlobalRestrictedEquivalence instead requires q(w) iff possible knowledge at every world. The survivor C contains all predicates invariant under equal values of its nonconstant atom, hence contains every Boolean combination of that atom. It excludes the Moore content; no epistemic syntax adequacy theorem is claimed.",
   "basis": "stipulative",

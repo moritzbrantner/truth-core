@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
+  "id": "5778890f-c620-54af-bac5-182462a976d1",
+  "label": "In the invoked S5 setting, if possibly a proposition explains the actual-world BCCP and an…",
+  "legacy_id": "STMT-CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
   "paraphrase": "In the invoked S5 setting, if possibly a proposition explains the actual-world BCCP and an explanation of that BCCP must involve a necessary being, then there is a proposition explaining that BCCP and involving a necessary being.",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

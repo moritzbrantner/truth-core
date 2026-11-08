@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
+  "id": "1f0978a8-aecc-5793-b386-caec409bdeee",
+  "label": "McTaggart's thesis in his own sense of CHANGE_1: no event changes in its A-series determinations…",
+  "legacy_id": "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
   "paraphrase": "McTaggart's thesis in his own sense of change: no event changes in its A-series determinations (future, present, past), and yet there are judgings and perceivings of things as in time.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.NoASeriesChangeButAppearsReading",
   "definition_ids": [
-    "DEF-A-SERIES-CHANGE",
-    "DEF-OPINING"
+    "6b30d5d8-9d30-51f1-9830-e356325c2529",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-2-2-4-PHILLIPS-DISTORTION-A",
-  "statement_id": "STMT-PHILLIPS-CONTEMPLATIVE-RESCUES-FROM-DISTORTION",
-  "source_id": "SEP-FIDEISM",
+  "id": "8c324e37-cbbf-59ea-a8df-4ff30688e541",
+  "label": "Richard Amesbury, Fideism §2.2.4, it casts a…: Phillips: his contemplative approach to the…",
+  "legacy_id": "SEP-FIDEISM-2-2-4-PHILLIPS-DISTORTION-A",
+  "statement_id": "889cad0a-f59a-5551-95af-fac1b5238254",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§2.2.4, it casts a liberating light on both belief and atheism",
   "interpretation": "The entry: Phillips 'contended that \"it casts a liberating light on both belief and atheism. Both are rescued from philosophical distortion\" (2005, 75)', and saw his disagreement with Nielsen as one between Nielsen's atheism and 'his own professed desire to do conceptual justice to rival points of view'. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Phillips held that his contemplative approach casts a liberating light on belief and atheism, rescuing both from philosophical distortion, and that his dispute with Nielsen was about doing conceptual justice to rival views, which is the premise.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

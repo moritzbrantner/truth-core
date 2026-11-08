@@ -1,9 +1,13 @@
 {
-  "id": "DEF-MUTABLE-THROUGH-ANOTHER",
+  "id": "df39ed3e-20d4-5132-b6dd-b782b64f470d",
   "term": "mutable through a power in another (q.9 a.2)",
-  "definition": "A thing is mutable through a power in another when some other being has the power to change it, above all the creator's power to cease giving it esse, whether or not the thing itself has any potency in its subject (ST I q.9 a.2 co.). No Lean declaration encodes this sense.",
+  "definition": "A thing is mutable through a power in another when some other being has the power to change it, above all the creator's power to cease giving it esse, whether or not the thing itself has any potency in its subject (ST I q.9 a.2 co.).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY"
-  ]
+    "d80b7c61-6454-5aff-a67e-d2c54667ede5"
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MutableThroughAnother",
+  "note": "Encoded by MutableThroughAnother PowerOver x := ∃ y r, y ≠ x ∧ PowerOver y x r over a typed power relation PowerOver y x r ('y can change x in respect r', above all by giving or withholding its esse); MUTABLE_2 of DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER (batch 4 of #1233). Examples: a creature whose esse the creator could withhold; a lump of clay the potter can reshape (it is also mutable in itself). Counterexample: on Aquinas' view God, whom no other being can change. Distinct from potency in the subject (DEF-POTENCY): the relation says nothing about potency in x, and the bridge from it to potency in x is the separate OPEN statement STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY. PowerOver is a framework input: it is not assumed irreflexive (hence the distinctness clause), transitive or well-founded, and its applicability to reality is open. DEF-MUTABILITY-IN-ANOTHER is the same q.9 a.2 sense recorded for DISAMB-MUTABILITY-CHANNEL and names the same declaration.",
+  "label": "Mutable through a power in another: A thing is mutable through a power in another when some other…",
+  "legacy_id": "DEF-MUTABLE-THROUGH-ANOTHER"
 }

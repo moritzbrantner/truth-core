@@ -1,6 +1,8 @@
 {
-  "id": "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
-  "argument_id": "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
+  "id": "5da29d43-b434-5f72-a2aa-f56823106f7d",
+  "label": "Whatever causes the being of a NECESSARY_1 being causes its necessity…, from necessity of being",
+  "legacy_id": "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
+  "argument_id": "30c06bc2-bf20-522a-b91b-18a67e347cec",
   "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
   "theorem": "TruthCore.Results.Causality.Round4Revisited.necessityFromConsistsInBeing",

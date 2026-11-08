@@ -1,7 +1,9 @@
 {
-  "id": "AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION",
-  "statement_id": "STMT-AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION",
-  "source_id": "AUGUSTINE-DE-CIVITATE-DEI",
+  "id": "c54c8ee2-fc85-5859-b434-b4990ae1bfc4",
+  "label": "Augustine of Hippo, De civitate Dei VIII.6…: Augustine, De civitate Dei VIII.6: the Platonist…",
+  "legacy_id": "AUGUSTINE-PLATONISTS-KNEW-GOD-FROM-CREATION",
+  "statement_id": "f214ef16-ec59-5d23-a927-be111b6c58b1",
+  "source_id": "608c0a10-8f83-5ca0-b24b-c4f76c63067a",
   "locator": "VIII.6, Ita quod notum est Dei, manifestauit eis ipse, cum ab eis inuisibilia eius per ea, quae facta sunt, intellecta conspecta sunt",
   "interpretation": "VIII.6: the philosophers 'uiderunt esse aliquid ubi prima esset incommutabilis ... atque ibi esse rerum principium rectissime crediderunt, quod factum non esset et ex quo facta cuncta essent. Ita quod notum est Dei, manifestauit eis ipse, cum ab eis inuisibilia eius per ea, quae facta sunt, intellecta conspecta sunt'. Augustine applies Rom 1:19-20 to pagan Platonists; he credits their reasoning (from changeability of forms), and says God showed it to them.",
   "status": "formalized",

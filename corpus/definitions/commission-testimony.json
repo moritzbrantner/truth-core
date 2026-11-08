@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMMISSION-TESTIMONY",
+  "id": "f8cfd9ac-819c-5a78-b51b-5688f88fa0ed",
+  "label": "Commission report resting on the…: RestsOnTestimonyOfThosePresent r: the commission report r goes…",
+  "legacy_id": "DEF-COMMISSION-TESTIMONY",
   "term": "commission report resting on the testimony of those present (Testimony.RestsOnTestimonyOfThosePresent)",
   "definition": "`RestsOnTestimonyOfThosePresent r`: the commission report r goes back, through its transmission, to the testimony of disciples present when the commission was given. Example: a report transmitted from one of the eleven of Matthew 28.16. Counterexample: a saying formed in a later community and attributed to the risen Jesus. It does not by itself say that the testimony is accurate; that is STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-CONTINGENT-MEMBER",
+  "id": "af853242-ad66-5512-8ae4-6db09eb82a5b",
+  "label": "A contingent member of the fixed joint…: Some f belongs to S and satisfies the existing Contingent…",
+  "legacy_id": "DEF-JOINT-CONTINGENT-MEMBER",
   "term": "a contingent member of the fixed joint condition",
   "definition": "Some f belongs to S and satisfies the existing Contingent A w f: it holds actually and fails at an accessible world. This does not say that every member is contingent or that f is individually sufficient or indispensable for an effect.",
   "basis": "stipulative",

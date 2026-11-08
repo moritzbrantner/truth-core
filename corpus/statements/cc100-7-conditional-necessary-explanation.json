@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-7-CONDITIONAL-NECESSARY-EXPLANATION",
+  "id": "c70ee2e6-74fd-5687-bc12-38bf5595b2ab",
+  "label": "If every contingent fact has an explanation, a contingent fact includes all other contingent…",
+  "legacy_id": "STMT-CC100-7-CONDITIONAL-NECESSARY-EXPLANATION",
   "paraphrase": "If every contingent fact has an explanation, a contingent fact includes all other contingent facts, and its explanation cannot itself be a contingent fact, then the explanation of all contingent facts is necessary.",
   "definition_ids": [
-    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+    "2f2a31ee-4261-5d39-9f68-f43de4420290"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

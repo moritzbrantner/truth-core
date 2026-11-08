@@ -1,11 +1,13 @@
 {
-  "id": "INF-MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
+  "id": "7210b7a5-fc76-5340-a5de-5bfffc5374db",
+  "label": "For any being g: if Jesus holds a mandate from g, and Jesus founded the…, by Constructive-proof",
+  "legacy_id": "INF-MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
   "input_statement_ids": [
-    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
-    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+    "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
+    "9981db29-aa03-56f8-a2de-a04eed444b91",
+    "8e5da2fb-6205-5431-983a-365ff9419143"
   ],
-  "output_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "output_statement_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "rule": "constructive-proof",
   "meaning": "Single-application transcription with explicit criterion: Matthew 28 gives teaching; the teaching-inclusive calibration makes that power governing; only the matching institutional bridge supplies founding-in-mandate and teaching commission for the old Catholic narrow scope. All three premises remain open.",
   "assumption_statement_ids": [],

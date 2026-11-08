@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-HAS-WILL", "paraphrase": "God has will (ST I q.19 a.1).", "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill", "definition_ids": ["DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM"]}
+{"id": "66aecdd7-ea4e-55c6-9377-10db08893854", "label": "GOD_4 HAS_WILL_1", "legacy_id": "STMT-GOD-HAS-WILL", "paraphrase": "God has will (ST I q.19 a.1).", "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill", "definition_ids": ["7c64b499-6dba-5e03-bdf3-5acea95d8836", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]}

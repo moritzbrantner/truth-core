@@ -1,21 +1,23 @@
 {
-  "id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "id": "25ce9863-88ad-53e6-9d11-e3c13b937102",
+  "label": "Owner framework commitment: At the selected world w, every…, from explicit coverage and elimination",
+  "legacy_id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
-    "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
-    "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES-FAIL"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0c1b8438-fef8-5e2e-b42a-49d9d2e1f2df",
+    "d75fefb5-07e7-590b-bba9-693dabd9da9d",
+    "488eb991-a56a-506e-bc04-dd0abf33b80f"
   ],
-  "conclusion_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "conclusion_statement_id": "e27489c3-7419-5123-8476-386633e62532",
   "inference_ids": [
-    "INF-CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION"
+    "799dd9a7-a5a8-5196-8768-336c863ed3bd"
   ],
   "meaning": "Conditional elimination composes the structural fork: only explicit coverage plus actual negation of all three countercases yields the EXACT old commitment. This does not provide warrant or replace its adopted floor.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONTINGENT-ATOMIC-PARTS",
+  "id": "100418df-e671-5455-b7de-4f4930d400df",
+  "label": "Simple parts of actually contingent…: ContingentAtomicParts m w requires each actual node x that…",
+  "legacy_id": "DEF-CONTINGENT-ATOMIC-PARTS",
   "term": "simple parts of actually contingent objects only",
   "basis": "stipulative",
   "definition": "ContingentAtomicParts m w requires each actual node x that is ContingentAt m w x.val to have a simple actual part a≤x in the SAME actual-node partial order. IsMin uses all actual nodes in that order, not merely contingent nodes. Neither x nor its part is declared concrete. Necessary objects have no atomicity requirement.",

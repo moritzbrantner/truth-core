@@ -1,9 +1,11 @@
 {
-  "id": "DEF-HINGE-NONSENSE",
+  "id": "1ef9cc6e-1bd9-53e5-9e48-ea908e73df8e",
+  "label": "HINGE_4: A HINGE_4 form of words lacks any application and so is nonsense",
+  "legacy_id": "DEF-HINGE-NONSENSE",
   "term": "hinge (nonsense reading)",
   "definition": "A hinge form of words lacks any application and so is nonsense (Read, Crary, as SEP-FIDEISM §4 reports).",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-FIDEISM-4-HINGES-NONSENSE-A"
+    "352e7177-e035-56e0-961c-f14da3b81ea1"
   ]
 }

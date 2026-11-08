@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUND-ENABLING-RULES",
+  "id": "cf9bec81-7df3-51fa-8389-04e06302dfb4",
+  "label": "Ground and enabling rule dependencies: The four-event groundRule has baseA→effectA and…",
+  "legacy_id": "DEF-GROUND-ENABLING-RULES",
   "term": "ground and enabling rule dependencies",
   "definition": "The four-event groundRule has baseA→effectA and baseB→effectB; enables has effectB→effectA and effectA→effectB. fullDependency is their union. SatisfiesRules requires one base and every relevant enabler for each effect; bases are true in both all-on/off assignments. These are candidate local rule links, not asserted complete metaphysical grounds or temporal causal loops. Mathlib SCCs of the full union put the distinct effects in one component.",
   "basis": "stipulative",

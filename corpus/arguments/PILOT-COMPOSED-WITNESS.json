@@ -1,18 +1,20 @@
 {
-  "id": "PILOT-COMPOSED-WITNESS",
+  "id": "6c94c2e1-73ca-56d1-8a8b-477fef30be2e",
+  "label": "Inside Lean logic, ∧ ¬. A bounded conjunction of the pilot witness and its logical consequence; no…",
+  "legacy_id": "PILOT-COMPOSED-WITNESS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "conclusion_statement_id": "06ff7c18-e729-507e-9678-5be8f7b9fa39",
   "inference_ids": [
-    "INF-LOGIC-SOME-PROPOSITION-HOLDS",
-    "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
-    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
-    "INF-PILOT-WITNESS-AND-CONSEQUENCE"
+    "0bc35bd4-441b-5846-a563-7583ddfff735",
+    "e9d9f726-4d14-5d3e-9fa9-b92f8558afcf",
+    "43531889-7639-5aa7-976a-977e21db8f4c",
+    "8403ce2c-2cc9-50f7-8756-1e6d6bd7c6b4"
   ],
   "meaning": "Reuse the pilot theorem constructing a proposition with a proof (A), apply its existing existential-elimination theorem to derive non-universal failure (B), then pass that actual intermediate to the checked B → C helper, which recovers a witness and pairs it with B. No new premise, axiom, source claim, or truth interpretation.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

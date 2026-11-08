@@ -1,6 +1,25 @@
 {
-  "id": "DISAMB-SUPERTASK-ENDING",
+  "id": "fd6e6498-2f61-57db-accb-6168e6cd835d",
   "term": "an endless task ends",
-  "sense_definition_ids": ["DEF-SUPERTASK-LAST-STAGE", "DEF-SUPERTASK-LIMIT-ENDPOINT"],
-  "resolution": "The no-final-stage observation concerns the absence of a greatest indexed operation. The positive mathematical model instead adjoins a distinct limit endpoint and supplies an explicitly stipulated stable output. The first fact does not contradict the second. Conversely, adjoining an abstract endpoint does not prove that such an omega-stage task can be physically or metaphysically executed in finite time; that requires a separate premise."
+  "sense_definition_ids": [
+    "d42a1375-ef07-584f-b6d1-90b78185c683",
+    "d564bb74-b5a6-50be-b390-3afb84887f32"
+  ],
+  "resolution": "The no-final-stage observation concerns the absence of a greatest indexed operation. The positive mathematical model instead adjoins a distinct limit endpoint and supplies an explicitly stipulated stable output. The first fact does not contradict the second. Conversely, adjoining an abstract endpoint does not prove that such an omega-stage task can be physically or metaphysically executed in finite time; that requires a separate premise.",
+  "term_label": "AN_ENDLESS_TASK_ENDS",
+  "senses": [
+    {
+      "id": "e23f2013-6162-41a9-87d3-9556e11bb3aa",
+      "label": "AN_ENDLESS_TASK_ENDS_1",
+      "definition_id": "d42a1375-ef07-584f-b6d1-90b78185c683"
+    },
+    {
+      "id": "9c1bf33e-89ef-4900-b5b4-c6a5628c13c4",
+      "label": "AN_ENDLESS_TASK_ENDS_2",
+      "definition_id": "d564bb74-b5a6-50be-b390-3afb84887f32",
+      "lean_declaration": "TruthCore.Causality.SupertaskPrecedes"
+    }
+  ],
+  "label": "An endless task ends",
+  "legacy_id": "DISAMB-SUPERTASK-ENDING"
 }

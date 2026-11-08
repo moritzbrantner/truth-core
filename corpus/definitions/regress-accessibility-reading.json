@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGRESS-ACCESSIBILITY-READING",
+  "id": "47e6944d-5de0-588d-8fc2-b8ddea140690",
+  "label": "NO_INFINITE_REGRESS_2, accessibility…: NoInfinitePerSeEfficientCauseSeriesReading R: every being is…",
+  "legacy_id": "DEF-REGRESS-ACCESSIBILITY-READING",
   "term": "no infinite regress, accessibility (well-foundedness) reading",
   "definition": "`NoInfinitePerSeEfficientCauseSeriesReading R`: every being is accessible under R (`∀ x, Acc R x`), i.e. R is well-founded in Lean core's sense. A being is accessible when every being that R-relates to it is accessible, so each being has a well-founded inductive certificate built from its per se causes. The certificate is well-founded, not of bounded finite depth: where a being has infinitely many immediate causes, every descending chain from it is finite yet the chains can be arbitrarily long (REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH).",
   "basis": "stipulative",

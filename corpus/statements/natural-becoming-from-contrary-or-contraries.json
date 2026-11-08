@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-BECOMING-FROM-CONTRARY-OR-CONTRARIES",
+  "id": "3d35019e-b46f-5f23-a603-e776bb1e03cc",
+  "label": "Natural becoming is from a contrary or from something derived from contraries",
+  "legacy_id": "STMT-NATURAL-BECOMING-FROM-CONTRARY-OR-CONTRARIES",
   "paraphrase": "Natural becoming is from a contrary or from something derived from contraries.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalBecomingFromContraryOrContrariesReading"
 }

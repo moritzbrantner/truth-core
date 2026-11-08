@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FULL-GROUND-JOINT-NECESSITATION",
+  "id": "7513f526-2dc5-5092-b453-78d880675bb4",
+  "label": "Whole-set modal necessitation: JointNecessitation requires truth of ALL members of each admitted…",
+  "legacy_id": "DEF-FULL-GROUND-JOINT-NECESSITATION",
   "term": "whole-set modal necessitation",
   "definition": "JointNecessitation requires truth of ALL members of each admitted candidate at an accessible world to imply truth of its same target there. It imposes no individual-member sufficiency. All relevant enabling conditions must be included for the complete-ground interpretation; whether they are included or the policy applies to real explanation remains open.",
   "basis": "stipulative",

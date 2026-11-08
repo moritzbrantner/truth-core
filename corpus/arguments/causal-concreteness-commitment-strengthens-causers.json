@@ -1,26 +1,28 @@
 {
-  "id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "id": "d026a672-1ec0-53b2-9f0f-729470fe897a",
+  "label": "OPEN activity clause alone: at the selected…, from Owner framework commitment: At the selected…",
+  "legacy_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
   "premise_statement_ids": [
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "conclusion_statement_id": "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT",
+  "conclusion_statement_id": "bc2af29f-8202-50f4-a177-b8dd21e135b1",
   "inference_ids": [
-    "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS"
+    "bc1f1d61-0b97-593b-a276-165d9eeb4bad"
   ],
   "meaning": "Strength registration (not modal): the common-ground commitment OwnerCommitmentAt is the conjunction of the capacity clause and the activity clause; its second conjunct is CausersRequireConcreteAt, the activity half used by the Cogito population step of the necessary-being route.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS",
-    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
-    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
-    "DEF-CONCRETE-CAUSAL-CRITERION",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "4088655a-8c5b-5533-b93d-ec4a4f767108",
+    "3c25665f-1639-5b85-8052-d4a2fc555365",
+    "2b015a2c-4d31-5511-b391-41413edf45ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-NECESSARY"
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

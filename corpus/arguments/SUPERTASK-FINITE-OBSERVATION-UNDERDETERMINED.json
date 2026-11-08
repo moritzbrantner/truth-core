@@ -1,8 +1,15 @@
 {
-  "id": "SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "id": "ead3d971-a4f4-5088-ae62-458f79f3613a",
+  "label": "For every finite cutoff, two Boolean stage sequences agree throughout the observed prefix while…",
+  "legacy_id": "SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
-  "inference_ids": ["INF-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED"],
+  "conclusion_statement_id": "3700c3e5-a288-577a-b489-4d1f319ce69a",
+  "inference_ids": [
+    "0970ea3b-e912-5bfe-a6ba-34d5197a5d99"
+  ],
   "meaning": "Two eventually stable Boolean streams are observationally indistinguishable through an arbitrarily chosen finite cutoff yet have different terminal values. The result concerns finite evidence, not the knowability of a fully specified stream.",
-  "definition_ids": ["DEF-SUPERTASK-FINITE-OBSERVATION", "DEF-SUPERTASK-STABLE-LIMIT"]
+  "definition_ids": [
+    "94faf901-08c1-50c8-bbb2-b9d1ef6edb37",
+    "43bc2414-b12d-5820-96de-59489124f4f1"
+  ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
+  "id": "822de823-f84c-5094-843c-bc655e3bb573",
+  "label": "There is one and the same being that is God, is the…, from There exists ONE SAME selected actual…",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
+  "argument_id": "b773170a-0219-53ef-872c-2144523ab39f",
   "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.project",

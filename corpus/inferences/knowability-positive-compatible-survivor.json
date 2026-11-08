@@ -1,7 +1,9 @@
 {
-  "id": "INF-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "id": "4829ef16-f651-5027-8101-c7c1aaff2d6a",
+  "label": "The existing four-world modal equivalence, used for both epistemic and…, by Constructive-proof",
+  "legacy_id": "INF-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "output_statement_id": "0ad85671-f0df-5a34-943d-898ebd0cad6c",
   "rule": "constructive-proof",
   "meaning": "Use the earlier modal equivalence for both epistemic and modal accessibility on the same four worlds and atom-invariant content family. Import its S5 properties and Boolean/nonconstant atom checks, prove the biconditional by content invariance, and compose admittedKnown. This jointly witnesses the three collapse assumptions with a true and a false value of an admitted nonconstant atom. It establishes nonvacuity of the formal background, not actual human knowledge or philosophical premise truth.",
   "assumption_statement_ids": [],

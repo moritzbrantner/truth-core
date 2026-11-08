@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
+  "id": "acd05a1f-9ba3-5ed9-abd4-e748a1efce32",
+  "label": "Intellectual operation requiring…: For every b and e, attribution of e as an intellectual exercise…",
+  "legacy_id": "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
   "term": "intellectual operation requiring actuality",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",

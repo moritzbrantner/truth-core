@@ -1,9 +1,11 @@
 {
-  "id": "REL-QUINE-ATTACKS-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
+  "id": "4b8db6f0-a1d5-509c-af79-634fd7433578",
+  "label": "Hannes Leitgeb and André Carus, Rudolf…… attacks Carnap 1950: questions about the existence…",
+  "legacy_id": "REL-QUINE-ATTACKS-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
   "subject_kind": "claim",
-  "subject_id": "SEP-CARNAP-7-QUINE",
+  "subject_id": "ac605db2-1a33-5964-b699-2b6e5ac15c1a",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
+  "object_id": "6f3121b6-0782-5463-b5f2-73f052d79cbf",
   "note": "Quine's objection, as reported. It rests on rejecting the analytic/synthetic distinction, which is not an established floor item, and the entry records the reply that Quine partly misunderstood Carnap. An objection, not a refutation; it supplies no bridge from 'adopted, not asserted' to 'outside its own scope'."
 }

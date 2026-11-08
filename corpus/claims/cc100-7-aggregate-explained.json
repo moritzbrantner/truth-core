@@ -1,15 +1,17 @@
 {
-  "id": "CC100-7-AGGREGATE-EXPLAINED",
-  "statement_id": "STMT-CC100-7-AGGREGATE-EXPLAINED",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "eb8a1737-6219-5ce3-a31e-6d00a7ec9b2b",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If every contingent fact has an explanation and a…",
+  "legacy_id": "CC100-7-AGGREGATE-EXPLAINED",
+  "statement_id": "cc63f6ba-3ad9-512b-b128-978596d84018",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.14, argument #7, step 3 under steps 1–2",
   "interpretation": "This is the displayed application to the admitted contingent aggregate, not a new checked theorem or one common reason for every fact. Distribution of an aggregate explanation to its members is not supplied merely by an explanation existing. No explanation-to-concrete-cause or actual individual bearer conversion is attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+    "2f2a31ee-4261-5d39-9f68-f43de4420290"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

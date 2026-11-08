@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
-  "argument_id": "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
+  "id": "a6418c8f-3332-58eb-ad04-726bd231fb5e",
+  "label": "There is at most one maximum in being: any two beings that are…, via attribution unique maximum",
+  "legacy_id": "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
+  "argument_id": "266a76d8-11ec-55e8-9757-67e04cc4be96",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionUniqueMaximum.attributionOrderUniqueMaximum",

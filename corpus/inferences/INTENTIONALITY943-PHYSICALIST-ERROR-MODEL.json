@@ -1,7 +1,9 @@
 {
-  "id": "INF-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "id": "ad4b3ce4-b943-5c68-b589-b1acd3209c9a",
+  "label": "There exist carriers and one joint interpretation of the old causal…, by Constructive-derivation",
+  "legacy_id": "INF-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "output_statement_id": "81c76d48-c2c6-57c9-9100-1572478e7950",
   "rule": "constructive-derivation",
   "meaning": "One finite interpretation jointly satisfies the old causal background and reductive kind classification, consumer content, a true affection report and an erroneous representation. It reuses MindPhysicalism.reductiveBackground rather than restating its causal consequences as assumptions. No general or empirical physicalism follows, and selectional history is stipulated in a primitive relation.",
   "assumption_statement_ids": [],

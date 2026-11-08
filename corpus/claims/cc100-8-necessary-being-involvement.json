@@ -1,15 +1,17 @@
 {
-  "id": "CC100-8-NECESSARY-BEING-INVOLVEMENT",
-  "statement_id": "STMT-CC100-8-NECESSARY-BEING-INVOLVEMENT",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "02ff85fa-c050-54db-84c0-91ff607f7f07",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: A proposition explains the actual-world BCCP only if…",
+  "legacy_id": "CC100-8-NECESSARY-BEING-INVOLVEMENT",
+  "statement_id": "08e84929-79ca-5765-b208-420d5461b5ce",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.16, argument #8, step 4",
   "interpretation": "This is an explicit open involvement restriction, not a demonstrated explanation-to-bearer theorem. Involvement is not identified with a proposition being necessary, a cause being exercised, or a particular concrete bearer existing at the actual world. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

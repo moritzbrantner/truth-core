@@ -1,10 +1,12 @@
 {
-  "id": "REL-DESCRIPTIVE-THEOLOGY-STRENGTHENS-CONTENT-COMPONENT",
+  "id": "f3383374-de67-57a7-a90c-2b60e3c5452c",
+  "label": "Modest analyst descriptive profile… strengthens Modest analyst content proposition: every…",
+  "legacy_id": "REL-DESCRIPTIVE-THEOLOGY-STRENGTHENS-CONTENT-COMPONENT",
   "subject_kind": "statement",
-  "subject_id": "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR",
+  "subject_id": "7c781606-d67a-5957-963f-8cdf99dd988e",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
-  "verification_result_id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "object_id": "9a438367-e1cc-511d-befc-c657f184bbbe",
+  "verification_result_id": "80ba21ea-6fd5-57ca-b59a-c99be03a1526",
   "note": "Project only the theological-content component; direct exclusion arguments use this weaker content premise."
 }

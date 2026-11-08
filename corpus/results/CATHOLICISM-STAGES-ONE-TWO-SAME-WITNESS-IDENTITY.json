@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY",
-  "argument_id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY",
+  "id": "f8094d16-0f0b-591c-a6e2-0bb4033f9d98",
+  "label": "There is one and the same being that is…, from Something in this world is being moved… and 29 more",
+  "legacy_id": "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS-IDENTITY",
+  "argument_id": "aad2f961-1d50-50f9-9a97-1c46c40627d9",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StagesOneTwoIdentity.uniqueClassicalGodExists",

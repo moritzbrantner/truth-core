@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-NECESSARY-SYMMETRY",
-  "argument_id": "MODAL-B-NECESSARY-SYMMETRY",
+  "id": "562ea2cc-eaf3-5318-90f8-1273fb43303a",
+  "label": "On every symmetric frame, actual full-predicate MC is equivalent to necessary full-predicate MC at…",
+  "legacy_id": "MODAL-B-NECESSARY-SYMMETRY",
+  "argument_id": "3cd28d4e-0194-5427-9ac5-26ecbd701b60",
   "challenge_module": "TruthCore.Results.Modal.B.NecessarySymmetry.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.NecessarySymmetry.Solution",
   "theorem": "TruthCore.Results.Modal.B.NecessarySymmetry.checks",

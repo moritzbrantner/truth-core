@@ -1,9 +1,11 @@
 {
-  "id": "REL-CCC-31-SUPPORTS-ORDINARY-USE-KNOWABILITY",
+  "id": "2e53e4d6-d8aa-5852-b256-75b4a4ecda7a",
+  "label": "Catholic Church, Catechism of the… supports Case-2 evidence, supported: some move of…",
+  "legacy_id": "REL-CCC-31-SUPPORTS-ORDINARY-USE-KNOWABILITY",
   "subject_kind": "claim",
-  "subject_id": "CCC-31-WAYS-CONVERGING-ARGUMENTS",
+  "subject_id": "1fd6148b-e36c-509b-bf8e-ba60f0179242",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+  "object_id": "f8ea0d75-23ec-5106-8dee-76ce64b69e3b",
   "note": "The Catechism presents the ways to God from the world and the person as arguments that allow certainty. Gaps as for CCC 36; and CCC 31 sets them apart from proof in the natural sciences, which a fideist may read as a distinct standard."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-ANSWER-MAPS-CORRECT",
-  "argument_id": "RESURRECTION-ANSWER-MAPS-CORRECT",
+  "id": "60ac665a-8795-5413-9c62-7cd0d16de7a7",
+  "label": "Each available answer in the pilot follows from its limited theory bundle, and the displayed…",
+  "legacy_id": "RESURRECTION-ANSWER-MAPS-CORRECT",
+  "argument_id": "99f14ca7-1438-531f-9ab0-6d3a74f298b7",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.AnswerMapsCorrect.answerMapsCorrect",

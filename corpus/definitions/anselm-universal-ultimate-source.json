@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-UNIVERSAL-ULTIMATE-SOURCE",
+  "id": "f45043be-450c-571c-abe5-2b8fca608138",
+  "label": "One actual universal ultimate source…: UniversalUltimateSourceAt m w y asserts y exists at w and…",
+  "legacy_id": "DEF-ANSELM-UNIVERSAL-ULTIMATE-SOURCE",
   "term": "one actual universal ultimate source at a world",
   "definition": "UniversalUltimateSourceAt m w y asserts y exists at w and every actually existing x at w satisfies UltimateThroughAt m w x y. UniqueUniversalUltimateSourceAt uses Mathlib ExistsUnique for this same predicate. All targets share this one witness, but no other-world causal scope, necessary existence or uniqueness of all necessary individuals is included.",
   "basis": "stipulative",

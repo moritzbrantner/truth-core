@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-ESSE-IN-RE",
+  "id": "008cb21a-256c-5a90-822c-acd4591d699a",
+  "label": "CONCRETE_6: having esse in re: HasEsseInRe InAct esse x:= InAct x esse: the candidate has its own…",
+  "legacy_id": "DEF-CONCRETE-ESSE-IN-RE",
   "term": "concrete: having esse in re (adopted sense)",
   "definition": "HasEsseInRe InAct esse x := InAct x esse: the candidate has its own act of existence in reality, read with the shared Aquinas vocabulary (DEF-ESSE) as being in the first sense of De ente c.1, which posits something in re. Being in the second sense (the truth of a proposition, in which privations 'are') does not count, and neither does a nature's esse in the soul (De ente c.2). Concreteness is NOT defined by causal power, spatial location or materiality. What esse in re further requires is left to downstream metaphysical questions.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENCE-INDUCTION-SELECTION",
+  "id": "dd18377d-63fa-5892-8087-b6441dff5b1c",
+  "label": "Representation-neutral selection at…: Recoding supplies Mathlib Equiv.Perm maps on evidence E and…",
+  "legacy_id": "DEF-SCIENCE-INDUCTION-SELECTION",
   "term": "representation-neutral selection at fixed finite evidence",
   "definition": "Recoding supplies Mathlib Equiv.Perm maps on evidence E and hypotheses H. Neutral answer means answer(r.evidence e)(r.hypothesis h) iff answer e h. SingletonAt says precisely one hypothesis h is admitted. Equivariant deterministic selection commutes with these maps. Finite records are Fin n to Bool; two candidate traces equal true before n and their candidate bit thereafter. recodedTrace applies the existing feature recoding after cutoff and fixes the observed record. Uniform means equality of the supplied outcome coordinate at all indices.",
   "basis": "stipulative",

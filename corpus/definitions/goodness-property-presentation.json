@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-PROPERTY-PRESENTATION",
+  "id": "35458083-6611-5561-af91-3f0f54a1266d",
+  "label": "Property identity versus extensional…: A presentation gives property referents, a denotation map…",
+  "legacy_id": "DEF-GOODNESS-PROPERTY-PRESENTATION",
   "term": "property identity versus extensional goodness agreement",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.PropertyPresentation",
   "basis": "stipulative",

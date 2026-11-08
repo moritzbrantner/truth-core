@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-NEGATION-RESPECTED",
+  "id": "ea573dda-0023-5e8d-9c6f-e870704751a5",
+  "label": "If the expressed negation of a content is true, the content is not true, under one truth predicate",
+  "legacy_id": "STMT-PILOT-NEGATION-RESPECTED",
   "paraphrase": "If the expressed negation of a content is true, the content is not true, under one truth predicate. This is the explicit open logical bridge in the contradiction test.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.NegationRespected",
   "definition_ids": [
-    "DEF-PILOT-OPINION-NEGATION"
+    "46f9ded9-24d0-50c7-99a2-bed6cfa29986"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-PILOT-OPPOSITION"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "54ba7f93-e24b-5d98-bb0e-d6e812c7853d"
   ]
 }

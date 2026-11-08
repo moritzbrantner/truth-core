@@ -1,22 +1,24 @@
 {
-  "id": "WILL-FROM-INTELLECTUAL-APPETITE",
+  "id": "36a29716-0939-5e64-ad1c-e5b64e90cc89",
+  "label": "Whatever has an inclination following an intelligible form HAS_WILL_1, from intellectual appetite",
+  "legacy_id": "WILL-FROM-INTELLECTUAL-APPETITE",
   "premise_statement_ids": [
-    "STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE",
-    "STMT-INTELLECTUAL-APPETITE-IS-WILL"
+    "8554d4f7-2c78-53f5-97c4-dffed1148941",
+    "f586a11b-dbda-53d1-9c21-8d75da74056f"
   ],
-  "conclusion_statement_id": "STMT-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "conclusion_statement_id": "b7b10ad2-fafe-552e-8bf4-205d49f2f070",
   "inference_ids": [
-    "INF-WILL-FROM-INTELLECTUAL-APPETITE"
+    "fb7eaef6-b103-5676-b81c-f956b0c0c243"
   ],
   "meaning": "Whatever has an inclination following an intelligible form has will, through an appetitive principle following intellect as the middle term: such an inclination belongs to an appetitive principle that follows intellectual apprehension (OPEN q.80 a.1-2 reading), and whatever has such a principle has will (OPEN q.80 a.2 / q.82 reading). It splits the near-definitional recognition step into the appetite classification and the identification of intellectual appetite with will.",
   "definition_ids": [
-    "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
-    "DEF-COGNITION-RELATIVE-APPETITE",
-    "DEF-HAS-WILL"
+    "4869f913-d360-5b9f-a361-2c4b7cf886df",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE",
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL",
-    "DISAMB-NATURAL-AND-COGNITIVE-APPETITE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058",
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82"
   ]
 }

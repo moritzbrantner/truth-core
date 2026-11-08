@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-NECESSARY-CARRIER",
+  "id": "6d9e4490-caab-5725-aead-7b010e700451",
+  "label": "Finite nonempty necessary carrier: The subtype of the fixed rigid Being carrier satisfying\u2026",
+  "legacy_id": "DEF-FINITE-NECESSARY-CARRIER",
   "term": "finite nonempty necessary carrier",
   "definition": "The subtype of the fixed rigid Being carrier satisfying NecessaryAt m w\u2080 is finite and inhabited. Finiteness of all beings is not required. Necessity alone need not imply actual existence on nonreflexive frames.",
   "basis": "stipulative",

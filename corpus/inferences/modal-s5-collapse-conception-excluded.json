@@ -1,17 +1,19 @@
 {
-  "id": "INF-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "id": "708ba453-7778-5816-9d3a-cad38de7ff43",
+  "label": "In the supplied interpreted scenario, C does not conceive full MC at the…, by Negation-introduction",
+  "legacy_id": "INF-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
   "input_statement_ids": [
-    "STMT-MODAL-S5-SCENARIO-FRAME",
-    "STMT-MODAL-S5-SCENARIO-BRIDGE",
-    "STMT-MODAL-S5-SCENARIO-CONTINGENCY"
+    "1bf444ef-5715-50fa-9058-51eddd8ef2c1",
+    "b9e511aa-6776-517b-9527-f141c345f6be",
+    "af2986b0-ca65-5b9b-83ce-6ae024e6a4d2"
   ],
-  "output_statement_id": "STMT-MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "output_statement_id": "a5c9bf60-40c3-5fce-aad4-fbc41758715e",
   "rule": "negation-introduction",
   "meaning": "Assume C(MC). Apply the unrestricted bridge at the root to obtain possible full MC. Compose B symmetry propagation with K no-contingency, then contradict the independent positive and negative witnesses. Discharge C(MC); the three interpreted premises stay open.",
   "assumption_statement_ids": [
-    "STMT-MODAL-S5-CONCEIVED-COLLAPSE"
+    "383fc8d0-cdaf-54f0-8035-767bf47cc8d3"
   ],
   "discharged_statement_ids": [
-    "STMT-MODAL-S5-CONCEIVED-COLLAPSE"
+    "383fc8d0-cdaf-54f0-8035-767bf47cc8d3"
   ]
 }

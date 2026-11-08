@@ -1,24 +1,26 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+  "id": "dcf9628e-0c9b-5106-986a-f629f0973530",
+  "label": "Jesus claimed to speak and act with divine authority, and he rose from the dead, from mark trial",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
   "premise_statement_ids": [
-    "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
-    "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
-    "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
-    "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM",
-    "STMT-PILOT-ROSE"
+    "759acbc1-17ea-50b4-905c-3aacea988e7e",
+    "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
+    "888895ec-e4f4-5fb1-87d1-14b1b2a2906c",
+    "ca658204-d3b4-5ecd-a1fe-1a37d033c615",
+    "f93a88f9-d8f9-5b2a-99ae-b0dea250403f"
   ],
-  "conclusion_statement_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "conclusion_statement_id": "a88d9b81-1246-5844-a119-4be2af4dd3f9",
   "inference_ids": [
-    "INF-ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL"
+    "d556905a-7334-5dc6-a7c6-61ddfcfb45cf"
   ],
   "meaning": "Stage 4 through the Mark 14 route: the claim conjunct is derived from the two Mark 14 reports through the historicity and interpretation bridges; the rising conjunct is the pilot's open premise STMT-PILOT-ROSE. Each of the five premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS).",
   "definition_ids": [
-    "DEF-JESUS-SPEECH-EVENT",
-    "DEF-MARK-HIGH-PRIEST-EXCHANGE",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+    "00c88ade-17c0-52b7-ab17-858319d4ab41",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE",
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85",
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

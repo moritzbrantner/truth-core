@@ -1,23 +1,25 @@
 {
-  "id": "COGITO-CONCRETE-OMISSION-CONTROLS",
+  "id": "5bada9c7-0861-5f45-85be-dfbc733cc723",
+  "label": "Nine finite interpretations over Unit: eight omission controls and one event-route model",
+  "legacy_id": "COGITO-CONCRETE-OMISSION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
+  "conclusion_statement_id": "560c30a8-be99-5b06-a0a0-9e86e3ff2803",
   "inference_ids": [
-    "INF-COGITO-CONCRETE-OMISSION-CONTROLS"
+    "a534d87b-7698-5fe9-a42f-b6ee2141e0c2"
   ],
   "meaning": "Nine explicit Unit-carrier interpretations: eight omission controls and one event-route model. Concrete fork: each of occurrence, bearer principle, bearer concreteness (an existing non-concrete bearer) and bearer existence at the world (a concrete nonexistent bearer) is needed, since omitting it leaves the other three true and no concrete existent at the world. Event route: an occurring episode embedded as a concrete existing entity with an empty bearer relation populates the world, so the bearer route is sufficient with its bridges but not necessary. Motion fork: each of occurrence, bearer principle, the opining bridge (a non-opining bearer) and opinion-as-motion (an unmoved opiner) is needed. Formal interpretations within the stipulated semantics, not metaphysical possibility certificates.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-BORNE-THOUGHT-AS-OPINING",
-    "DEF-EVENT-ROUTE-EMBEDDING",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "e266a89b-a236-5693-b5dc-559da3975a8b",
+    "71f85be2-298f-523c-b8cd-9c6bc69a4ea3",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
-    "DISAMB-MOTION",
-    "DISAMB-THOUGHT-VS-OPINING"
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "723ec152-7352-5715-b81c-faf771b6dcb4"
   ]
 }

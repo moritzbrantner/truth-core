@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NECESSARILY-UNDERIVED-SWITCHING",
+  "id": "6ba4d125-1bdb-5c55-b099-a17af558a467",
+  "label": "Cross-world alternating contingent mediators: necessary a,b and contingent c,d form locally…",
+  "legacy_id": "MODEL-NECESSARILY-UNDERIVED-SWITCHING",
   "description": "Cross-world alternating contingent mediators: necessary a,b and contingent c,d form locally well-founded b→c→a and a→d→b chains. Union of direct necessary-to-necessary edges is empty, yet no necessary individual is underived; the no-contingent-ground bridge is essential.",
   "vocabulary": "NECESSARILY-UNDERIVED-ESSE-SUPPORT",
   "lean_declaration": "TruthCore.Models.NecessarilyUnderived.switching",
@@ -32,7 +34,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -43,7 +45,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingNecessary"
     },
     {
-      "statement_id": "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+      "statement_id": "47a97912-335f-52f7-a715-63592368f0fe",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -55,7 +57,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingActualWellFounded"
     },
     {
-      "statement_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+      "statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -66,7 +68,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingReflexive"
     },
     {
-      "statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+      "statement_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -78,7 +80,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingUnionWellFounded"
     },
     {
-      "statement_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+      "statement_id": "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
       "value": "violates",
       "arguments": [
         "World",
@@ -90,7 +92,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingHasContingentGround"
     },
     {
-      "statement_id": "STMT-NECESSARY-PREDECESSOR-LIFTING",
+      "statement_id": "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
       "value": "violates",
       "arguments": [
         "World",
@@ -102,7 +104,7 @@
       "theorem": "TruthCore.Models.NecessarilyUnderived.switchingNoLifting"
     },
     {
-      "statement_id": "STMT-NECESSARILY-UNDERIVED",
+      "statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
       "value": "violates",
       "arguments": [
         "World",

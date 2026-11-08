@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-SELF-APPLICATION-DROPPED",
+  "id": "b7e39d82-9057-5b3d-963a-a47c2df74340",
+  "label": "A serial three-world nontransitive chain satisfies H, □H and C at its root…, by Direct-proof",
+  "legacy_id": "INF-HUME-SELF-APPLICATION-DROPPED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-SELF-APPLICATION-DROPPED",
+  "output_statement_id": "e81f482f-5e00-5c2c-8c61-2083e2cb26b6",
   "rule": "direct-proof",
   "meaning": "Use explicit constructor edge tables: the middle world satisfies H by empty conception, while the last world violates H on the false predicate. Change root conception to indiscriminate conception for the missing-bridge counterexample.",
   "assumption_statement_ids": [],

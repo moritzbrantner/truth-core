@@ -1,13 +1,15 @@
 {
-  "id": "INF-NECESSARY-FIRST-BEING-FIRST",
+  "id": "e6a13647-dfae-5d6b-866e-1c1c8a56306a",
+  "label": "Some n is an actual concretum at w, has no ACTUAL_CONCRETE_GROUND_1 under…, by… (3)",
+  "legacy_id": "INF-NECESSARY-FIRST-BEING-FIRST",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1"
   ],
-  "output_statement_id": "STMT-NECESSARY-FIRST-BEING-FIRST",
+  "output_statement_id": "73f6b3c8-b325-5ed8-b632-960a078a773b",
   "rule": "constructive-proof",
   "meaning": "Preserve the actual necessary root from WholeRosterFoundation.necessaryActualRoot; a distinct simply-prior predecessor gives a forbidden actual concrete ground through the open correspondence bridge. No maximum/convergence premise is used for this different conclusion. Relation applicability and the listed philosophical premises remain open; no premise is independently defended or discharged.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
-  "argument_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "id": "6364be2c-79a7-550b-994d-3ecd7fd8fe9d",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from causal power",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "argument_id": "fe08da3c-27e2-5f0c-b688-400e583d0be3",
   "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
   "theorem": "TruthCore.Results.Causality.Round4Revisited.inhabitedFromPower",

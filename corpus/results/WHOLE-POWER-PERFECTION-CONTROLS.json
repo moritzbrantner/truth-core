@@ -1,6 +1,8 @@
 {
-  "id": "WHOLE-POWER-PERFECTION-CONTROLS",
-  "argument_id": "WHOLE-POWER-PERFECTION-CONTROLS",
+  "id": "1d13aa5a-4d64-565f-8890-2bcc69a96745",
+  "label": "Finite interpretations; excluded middle is not asserted",
+  "legacy_id": "WHOLE-POWER-PERFECTION-CONTROLS",
+  "argument_id": "62f0ec2d-9cf7-5753-8ebe-f131b1049061",
   "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.WholePowerPerfection.controls",

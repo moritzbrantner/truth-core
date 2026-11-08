@@ -1,18 +1,20 @@
 {
-  "id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
+  "id": "922ad771-53c0-5637-a20f-19c16ea59a45",
+  "label": "Whatever a GOD_4 with the classical…, from Whoever confirms a proposition by a sign… and 2 more",
+  "legacy_id": "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH",
   "premise_statement_ids": [
-    "STMT-CONFIRMING-IS-ASSERTING",
-    "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
-    "STMT-GOD-KNOWS-ONLY-TRUTHS"
+    "b426b086-1b1c-5137-94e6-a2f17402481f",
+    "4d47d4ae-7aa9-5bba-8aa7-68f79ff8dfa9",
+    "ad56f066-2fef-58e6-8995-0ed8757b9b9c"
   ],
-  "conclusion_statement_id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+  "conclusion_statement_id": "c1deb2ee-770d-5030-9e5c-302e33028811",
   "inference_ids": [
-    "INF-NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH"
+    "194e6445-617a-502f-82b9-c0b85e3eb98c"
   ],
   "meaning": "Divine veracity split in two: what a God with the classical attributes confirms by a sign he asserts; what he asserts he holds as known (he does not deceive); what he holds as known is true (he is not deceived). So whatever he confirms is true. Three open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
   "definition_ids": [
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-VERACITY-ASSERTION-VOCABULARY"
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
   ]
 }

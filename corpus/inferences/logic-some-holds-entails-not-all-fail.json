@@ -1,9 +1,11 @@
 {
-  "id": "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "id": "e9d9f726-4d14-5d3e-9fa9-b92f8558afcf",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a philosophical independence…, by… (2)",
+  "legacy_id": "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
   "input_statement_ids": [
-    "STMT-SOME-LEAN-PROPOSITION-HOLDS"
+    "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a"
   ],
-  "output_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "output_statement_id": "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
   "rule": "constructive-proof",
   "meaning": "Eliminate the existential witness and contradict universal failure. One direction of explicit reciprocal entailment.",
   "assumption_statement_ids": [],

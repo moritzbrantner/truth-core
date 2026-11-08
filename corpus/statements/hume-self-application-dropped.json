@@ -1,19 +1,21 @@
 {
-  "id": "STMT-HUME-SELF-APPLICATION-DROPPED",
+  "id": "e81f482f-5e00-5c2c-8c61-2083e2cb26b6",
+  "label": "A serial three-world nontransitive chain satisfies H, □H and C at its root; seriality alone cannot…",
+  "legacy_id": "STMT-HUME-SELF-APPLICATION-DROPPED",
   "paraphrase": "A serial three-world nontransitive chain satisfies H, □H and C(□¬H) at its root; seriality alone cannot replace transitivity in the alternative conflict route. A second conception on that same frame satisfies C(¬H) but not ◇¬H and violates H, showing that conception of denial by itself does not provide possible denial.",
   "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.DroppedPremiseModels",
   "definition_ids": [
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE",
-    "DEF-HUME-TEST-FRAME",
-    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
-    "DEF-HUME-NECESSARY-DENIAL",
-    "DEF-HUME-ACTUAL-DENIAL",
-    "DEF-HUME-SERIAL-CHAIN-MODEL",
-    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b",
+    "995491ae-884a-5850-a853-2eebe60b8959",
+    "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+    "f4d05861-5f41-5a2d-831d-670f06e40104",
+    "0478df71-11e6-5d2d-b0db-544e7cb01c6c",
+    "9d9edc75-41f4-5ec0-b502-3cd47a45519b",
+    "aed2b81e-4746-5c71-8abd-5b3b5e9edb88"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
-    "DISAMB-HUME-DENIAL-SCOPE"
+    "427373ad-3ff7-524e-976c-595005a70338",
+    "c2ea5860-c282-59d7-b143-6467fed28bf9"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
+  "id": "415d5f69-5f5e-549c-aba9-a2c514e85c8e",
+  "label": "Local relativism about absolute truth: LocalNoAbsoluteTruth T D: within the domain D no content is…",
+  "legacy_id": "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
   "term": "local relativism about absolute truth",
   "definition": "`LocalNoAbsoluteTruth T D`: within the domain D no content is absolutely true; the restriction of the global thesis by a demarcation.",
   "basis": "stipulative",

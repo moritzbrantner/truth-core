@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
+  "id": "9a438367-e1cc-511d-befc-c657f184bbbe",
+  "label": "Modest analyst content proposition: every move defined by the selected practice council is a…",
+  "legacy_id": "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
   "paraphrase": "Modest analyst content proposition: every move defined by the selected practice council is a theological formulation. This does not itself exclude normative endorsement or a role in religious life.",
   "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionsAreTheological",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-UNITING-CAUSE-ACTUALITY",
+  "id": "896d4cb9-3c62-5230-a499-f23feae9d204",
+  "label": "Atemporal cause-in-esse versus an existing world-local causal predecessor",
+  "legacy_id": "DISAMB-UNITING-CAUSE-ACTUALITY",
   "term": "atemporal cause-in-esse versus an existing world-local causal predecessor",
   "sense_definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "afc7a0c6-0b7d-5a08-b406-3ecad83e36ca"
   ],
-  "resolution": "The q.3 CausesIn c x esse reading does not by its type supply world-indexed existence of c or a world-local Ontic.Causes edge. The two open interfaces state these separately. Sourcehood only excludes incoming edges from actual nodes; an absent candidate therefore cannot contradict sourcehood. Composite is the existing q.3 predicate, not the proper-part proxy in PowerExistenceBoundary. Neither interface is attributed to Aquinas, and no cause of becoming, temporal first cause, intrinsic reason, God identification or maximality is inferred."
+  "resolution": "The q.3 CausesIn c x esse reading does not by its type supply world-indexed existence of c or a world-local Ontic.Causes edge. The two open interfaces state these separately. Sourcehood only excludes incoming edges from actual nodes; an absent candidate therefore cannot contradict sourcehood. Composite is the existing q.3 predicate, not the proper-part proxy in PowerExistenceBoundary. Neither interface is attributed to Aquinas, and no cause of becoming, temporal first cause, intrinsic reason, God identification or maximality is inferred.",
+  "term_label": "ATEMPORAL_CAUSE_IN_ESSE",
+  "senses": [
+    {
+      "id": "8ea914b9-567f-4714-802f-f3ad639b890f",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_1",
+      "definition_id": "211a6432-8b8f-53ed-85e3-75173bb15b24",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
+    },
+    {
+      "id": "00e564e2-7170-44b7-a88d-076378ad675b",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_2",
+      "definition_id": "7439c292-82a4-530d-8144-a61a6c21f502",
+      "lean_declaration": "TruthCore.Causality.WorldSourceRegress.actualGraph"
+    },
+    {
+      "id": "02217238-2075-4f8f-bff9-eaf03d2ec2eb",
+      "label": "ATEMPORAL_CAUSE_IN_ESSE_3",
+      "definition_id": "afc7a0c6-0b7d-5a08-b406-3ecad83e36ca",
+      "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesPresent"
+    }
+  ]
 }

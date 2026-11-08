@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "ROWE-EVIL-ATHEISM-1979",
+    "source_id": "f716339a-30a2-511b-9be5-7daa1b76f6c3",
     "source_url": "https://rintintin.colorado.edu/~vancecd/phil201/Rowe.pdf",
     "retrieved_at": "2026-10-26T19:11:45Z",
     "sha256": "sha256:669ed1c16fd86a302fabde5e4c4b2ab97ac4383219421c59593f670a297c7c05",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "ROWE-EVIL-ATHEISM-1979-FULL",
+      "id": "88fbf299-059e-5da1-bdfc-84a9d009d3ae",
+      "label": "William L. Rowe, The Problem of Evil and Some Varieties of Atheism, Pp. 335–341, §§I–III",
+      "legacy_id": "ROWE-EVIL-ATHEISM-1979-FULL",
       "locator": "pp. 335–341, §§I–III",
       "claim_locator_prefixes": [
         "p. ",

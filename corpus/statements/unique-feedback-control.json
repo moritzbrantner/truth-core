@@ -1,11 +1,13 @@
 {
-  "id": "STMT-UNIQUE-FEEDBACK-CONTROL",
+  "id": "95095cc7-c88d-5d59-b1a8-e7cc9c447265",
+  "label": "The two sensitive Boolean gates a = not b and b = a and b jointly admit exactly one state…",
+  "legacy_id": "STMT-UNIQUE-FEEDBACK-CONTROL",
   "paraphrase": "The two sensitive Boolean gates a = not b and b = a and b jointly admit exactly one state, (true,false), without an observed boundary datum. Sensitivity is witnessed by truth-table variations of negation and of each conjunction input. This is mathematical satisfiability and uniqueness only.",
   "lean_declaration": "TruthCore.Causality.UniqueFeedback.Controls",
   "definition_ids": [
-    "DEF-UNIQUE-FEEDBACK-STATE"
+    "23c649fa-6acc-5816-954b-5de851e007c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIQUE-FEEDBACK-EXPLANATION"
+    "ecc78bf5-6f57-5bd6-a9fe-bad3db5fb9e3"
   ]
 }

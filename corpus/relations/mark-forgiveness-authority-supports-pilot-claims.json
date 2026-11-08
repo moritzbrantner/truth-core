@@ -1,9 +1,11 @@
 {
-  "id": "REL-MARK-FORGIVENESS-AUTHORITY-SUPPORTS-PILOT-CLAIMS",
+  "id": "40c17999-cde9-5a8c-ba11-445139046f55",
+  "label": "New Testament, Mark 2.10: The narrative… supports Jesus claimed divine authority in the…",
+  "legacy_id": "REL-MARK-FORGIVENESS-AUTHORITY-SUPPORTS-PILOT-CLAIMS",
   "subject_kind": "claim",
-  "subject_id": "NT-MARK-2-FORGIVENESS-AUTHORITY",
+  "subject_id": "82b2d5e9-1b54-5908-a786-dc438121a70a",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-JESUS-CLAIMS",
+  "object_id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
   "note": "Evidence concerning the authority question only. Transport to the actual-claim predicate requires explicit historical attribution and interpretive classification premises, including the Son of Man referent and the sense of divine authority. No inference application, historical conclusion, actual possession of authority, divine identity or resurrection follows here."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
-  "argument_id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "id": "0c3ab367-0025-5ec9-9958-b6181d0dcede",
+  "label": "A nonconstant predicate can be denoted by two distinct names without recognition of their identity",
+  "legacy_id": "UNRECOGNIZED-PROPERTY-IDENTITY-POSSIBLE",
+  "argument_id": "44dbd0dd-349e-52b0-afd7-a28466778cb6",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.UnrecognizedIdentityPossible.unrecognizedIdentityPossible",

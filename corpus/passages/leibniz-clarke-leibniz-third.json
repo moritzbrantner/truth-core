@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+    "source_id": "77710698-4fea-53c2-b6d7-5485434d28a7",
     "source_url": "https://newtonproject.ox.ac.uk/view/texts/normalized/THEM00230",
     "retrieved_at": "2026-10-28T20:22:43Z",
     "sha256": "sha256:b821551a14eebc5077abda38f94ce70e9dd44691c5f4e426471d7ac455b33dd3",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "LEIBNIZ-CLARKE-LEIBNIZ-III-1-8",
+      "id": "45182029-5ae1-5a28-bdc1-49ff3081cf7f",
+      "label": "Gottfried Wilhelm Leibniz and Samuel…, A Collection of Papers, Leibniz III §§1–8",
+      "legacy_id": "LEIBNIZ-CLARKE-LEIBNIZ-III-1-8",
       "locator": "Leibniz III §§1–8",
       "claim_locator_prefixes": [
         "Leibniz III §"

@@ -1,11 +1,13 @@
 {
-  "id": "REL-LIMIT-ADMISSION-SUPERTASK-SCHEMA",
+  "id": "8f4011f9-09c8-5148-81c7-ff425dc24170",
+  "label": "Every closed event-occupancy set… instance of schema For every topological space X…",
+  "legacy_id": "REL-LIMIT-ADMISSION-SUPERTASK-SCHEMA",
   "subject_kind": "statement",
-  "subject_id": "STMT-LIMIT-ADMISSION-SUPERTASK-TRANSFER",
+  "subject_id": "667f1ace-c9dc-555d-9f66-40a4263b643a",
   "predicate": "instance_of_schema",
   "object_kind": "statement",
-  "object_id": "STMT-LIMIT-ADMISSION-SCHEMA",
-  "verification_result_id": "LIMIT-ADMISSION",
+  "object_id": "3a4f93e1-40f5-58b1-9de4-5f678a3699c4",
+  "verification_result_id": "695a73ac-2b13-5219-8b88-a963c29e6688",
   "instance_theorem": "TruthCore.Results.Logic.LimitAdmission.supertaskTransfer",
   "schema_theorem": "TruthCore.Results.Logic.LimitAdmission.closureLaws",
   "note": "Separate typed conditional application of the shared closed-set limit theorem. Both obligations have frozen Challenges and are checked by LIMIT-ADMISSION Comparator/NanoDa and exact schema binding. This registration establishes no actual-domain closure policy and implies no cross-domain equivalence."

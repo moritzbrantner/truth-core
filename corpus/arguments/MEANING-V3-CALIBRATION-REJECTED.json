@@ -1,28 +1,30 @@
 {
-  "id": "MEANING-V3-CALIBRATION-REJECTED",
+  "id": "db3fb481-060a-5cd0-8a1f-365a56f69a97",
+  "label": "V3 fails to calibrate cognitive…, from Strong version: for every sentence, if it… and 2 more",
+  "legacy_id": "MEANING-V3-CALIBRATION-REJECTED",
   "premise_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
-    "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
-    "STMT-MEANING-EXCLUDED-NEGATION"
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
+    "8addbebd-9f1c-5726-ac12-02c4272f8b01",
+    "c22d6c3f-a3c5-5835-a973-bf81114972ab"
   ],
-  "conclusion_statement_id": "STMT-MEANING-NOT-V3-GLOBAL",
+  "conclusion_statement_id": "81956ae5-7b73-5203-8031-4c5d84834fc5",
   "inference_ids": [
-    "INF-MEANING-V3-CALIBRATION-REJECTED"
+    "d1cffcfd-52fe-5445-81db-ce2d340de30b"
   ],
   "meaning": "Instantiation/composition of the existing correctly calibrated V3 package refutation. Retains independent negation closure, Church setting and excluded negation. Does not apply a bare criterion verdict as cognitive meaning.",
   "definition_ids": [
-    "DEF-MEANING-CRITERION-CALIBRATION",
-    "DEF-MEANING-V1-DEFINITION",
-    "DEF-MEANING-V2-DEFINITION",
-    "DEF-MEANING-V3-DEFINITION",
-    "DEF-MEANING-ALL-IN-SCOPE",
-    "DEF-MEANING-NAMED-COVERAGE"
+    "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+    "174e16a5-0fda-5b18-976c-8f4f239656ae",
+    "86456f28-cadd-5976-9cff-ea771779c5b5",
+    "ab90f56f-7dca-5602-8464-0e24091d0d10",
+    "e527ec55-0b4e-5a8c-be97-d6c4a11fbe37",
+    "7edf53fe-0b8a-5bd2-b023-9e847c9ef46a"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "b6529c83-9b6c-56f4-a87e-39d31f4f2126"
   ],
   "strong_version_needed": {
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG": "The existing Ayer1946Closure proof applies closure at the arbitrary unnegated content y to obtain meaningful(neg y). Closure only for already-negated sentences does not supply that instance."
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad": "The existing Ayer1946Closure proof applies closure at the arbitrary unnegated content y to obtain meaningful(neg y). Closure only for already-negated sentences does not supply that instance."
   }
 }

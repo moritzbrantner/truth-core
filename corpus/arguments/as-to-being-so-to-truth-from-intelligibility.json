@@ -1,23 +1,25 @@
 {
-  "id": "AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY",
+  "id": "2db4a37a-449a-5765-a80c-722dde319d61",
+  "label": "As each thing stands in respect of being, so it stands in respect of truth…, from intelligibility",
+  "legacy_id": "AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY",
   "premise_statement_ids": [
-    "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY",
-    "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+    "1568610e-4df8-5f90-8200-8446b1cda8fb",
+    "2a0e7f12-b07a-5a60-9e25-9ca67f7bb490"
   ],
-  "conclusion_statement_id": "STMT-AS-TO-BEING-SO-TO-TRUTH",
+  "conclusion_statement_id": "5a948c37-a0c3-5438-87e6-b797b529f76e",
   "inference_ids": [
-    "INF-AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY"
+    "e50c79f4-4e06-5665-9410-3c713f69f6a4"
   ],
   "meaning": "Truth said of things goes with intelligibility (q.16 a.1, a.3), and intelligibility goes with being (q.16 a.3: each thing is knowable insofar as it has being); so a thing has truth exactly when it has being, and is more true exactly when it is more a being: Metaphysics II.1's 'as to being, so to truth'. A two-step chain through the distinct respect of intelligibility; both premises are OPEN readings supported by q.16 claims.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-INTELLIGIBILITY-OF-THINGS",
-    "DEF-MORE-IN",
-    "DEF-ONTOLOGICAL-TRUTH",
-    "DEF-ONTOLOGICAL-TRUTH-COMPARISON"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "347a22c0-55c4-54a4-805f-d6473db878e4",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-TRUE"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

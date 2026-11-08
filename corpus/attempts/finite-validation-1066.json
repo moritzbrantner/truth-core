@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-FINITE-VALIDATION-1066",
+  "id": "317bf043-b256-57fc-b6f5-07d9727d833b",
+  "label": "Related/dossiers and existing correction, adaptive-prediction, Hume and accuracy attempts…",
+  "legacy_id": "ATTEMPT-FINITE-VALIDATION-1066",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-FINITE-VALIDATION-SAMPLING",
-    "STMT-FINITE-VALIDATION-SELECTION-CONTROLS",
-    "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
-    "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
-    "STMT-HUME-INDUCTION-TESTS",
-    "STMT-EPISTEMIC-ACCURACY-CERTIFICATE"
+    "d80fc561-29a8-5d92-968f-c323c73eb2d7",
+    "d12f0b83-9590-59f1-bd7d-81e0089a8396",
+    "a901d185-4919-5d9c-8c6e-ec5415f975bc",
+    "2b0a7d08-8b7e-562e-926d-6738098ee652",
+    "8bba1b58-ae87-598d-8c28-6eed9a5e6943",
+    "e2a62f43-36a5-5494-bcf0-79eb3b744b26"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Related/dossiers and existing correction, adaptive-prediction, Hume and accuracy attempts inspected before invention. No existing product-sampling validation result found; the modal measure consumer concerns a different event equality. Derived the exact fixed-candidate acceptance probability from Mathlib Measure.pi_pi, and simultaneous predeclared-pool risk control using its finite union bound. A uniform four-point outside-pool memorizer supplies a posthoc-selection counterexample. A fixed bad candidate passes with positive probability at every finite horizon and Bad∩Pass=Pass, exposing invalid inference to posterior confidence. No realizability or good-expert assumption is used; n=0 and empty pools remain covered. Rejected opaque chance parameters, adversarial-to-iid equivocation, unrestricted posthoc singleton bounds, posterior reinterpretation and actual truth/normative discharge. Interpretation and remaining applicability burdens persist in docs/notes/fallible-correction-931.md. No source/claim/passage records. Ordinary Challenge independently elaborated before Solution, frozen SHA256 5b6bb48769bf7053fb9a94e85dd5e8aa3547b72738a33dbe8cd759ddf778a3b8. Focused Solution builds without warnings. Shared convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Exact binding 2/0 and both result Comparator plus independent NanoDa checks PASS; actual axioms for each theorem are exactly the approved Mathlib trio. Corpus, bundle, source-manifest, attribution, module-format, generator and whitespace checks PASS, retaining existing unrelated corpus warnings. Computed root frontier 90 (30 bare/18 supported/42 stated) and cheapest route 31 unchanged. Claim/type self-sweep preserves all sampling parameters, no realizability, no posterior reinterpretation, and no root-premise change. Final delivered-head CI/current-head review remain required.",
   "evidence": [
-    "FINITE-VALIDATION-SAMPLING",
-    "FINITE-VALIDATION-SELECTION-CONTROLS"
+    "cf5761ff-e4db-57eb-8159-39bd0ef69afb",
+    "daa8abba-7e3e-542b-aac8-d8bfa1b9b0ed"
   ],
   "blocker": "Deployment-aligned independent sampling, truthful labels and pool independence are explicit OPEN application assumptions. No posterior warrant, actual-world calibration, categorical normative authority, F6 strengthening or root-premise discharge. Strongest rivals remain adversarial/shifted environments, corrupted labels and unrestricted posthoc model choice."
 }

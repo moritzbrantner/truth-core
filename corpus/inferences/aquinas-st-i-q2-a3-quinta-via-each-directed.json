@@ -1,13 +1,15 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "id": "a6e3c066-cdbd-5cea-8644-dae8fa596ecd",
+  "label": "Each natural body is directed to something best for it by some knowing…, by Universal-modus-ponens",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
   "input_statement_ids": [
-    "STMT-NATURAL-BODIES-LACK-COGNITION",
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
-    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR"
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f"
   ],
-  "output_statement_id": "STMT-EACH-NATURAL-BODY-DIRECTED-BY-A-KNOWER",
+  "output_statement_id": "9b1ad50c-535e-5a4c-9f95-990a0e72cbc2",
   "rule": "universal-modus-ponens",
   "meaning": "Compose the first half; a natural body lacks cognition and tends to its end, so by the arrow-and-archer premise some knower directs it.",
   "assumption_statement_ids": [],

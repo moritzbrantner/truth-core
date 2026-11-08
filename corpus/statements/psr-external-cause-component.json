@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+  "id": "627f9018-3f9e-56da-ad08-fd6f1f61b3f8",
+  "label": "Every existent at every world has a distinct existing cause",
+  "legacy_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
   "lean_declaration": "TruthCore.Explanation.ExistencePSR.EveryExistentExternallyCaused",
   "paraphrase": "Every existent at every world has a distinct existing cause.",
   "definition_ids": [
-    "DEF-PSR-EXTERNAL-CAUSE"
+    "54db094b-3291-573d-ae9c-0f24162af2cf"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

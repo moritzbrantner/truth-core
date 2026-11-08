@@ -1,9 +1,11 @@
 {
-  "id": "REL-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH-ATTACKS-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "id": "7582f9c1-1120-528d-bfa3-b818285dbdcf",
+  "label": "Formal fact: on an order of being by… attacks Whatever causes a quality in another thing…",
+  "legacy_id": "REL-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH-ATTACKS-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
   "subject_kind": "statement",
-  "subject_id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
+  "subject_id": "29133b2b-8c00-5b59-a909-35ddcc4c3122",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "object_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
   "note": "Objection from the analogy of being: Metaphysics II.1 is stated for the synonymous quality, and on Aquinas' attribution order of being, with the open premise of strict primacy, it holds only with the primary as cause (QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH). Not a refutation: the unrestricted premise is consistent with the homogeneous scale (QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING), whose two-being model is by inspection also an order by approach to its top element; that second fact is not separately verified. It shows that its use at being with the primary as effect needs its own source. See DISAMB-ORDER-OF-BEING."
 }

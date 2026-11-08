@@ -1,22 +1,24 @@
 {
-  "id": "PERFECTION-PREEXISTENCE-CONTROLS",
+  "id": "26404f15-c1bd-548c-be82-ba67e83d3d8a",
+  "label": "Finite interpretations with two beings and two respects; excluded middle is not asserted",
+  "legacy_id": "PERFECTION-PREEXISTENCE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PERFECTION-PREEXISTENCE-CONTROLS",
+  "conclusion_statement_id": "19d972ce-3ef8-53f8-9362-9adf20086ed5",
   "inference_ids": [
-    "INF-PERFECTION-PREEXISTENCE-CONTROLS"
+    "d3f012d0-07e0-522c-8de9-8851de1d59d6"
   ],
   "meaning": "Finite interpretations with two beings and two respects (esse and one further perfection); excluded middle is not asserted. Omitting in turn the cause-of-being transfer, the cause-of-quality comparison, or 'more such has the perfection', with the other two holding, a cause of the being of a thing lacks that thing's further perfection. All three hold together with preexistence in a positive model with a nonvacuous cause.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-ESSE",
-    "DEF-MORE-IN"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-CAUSE",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-ORDER-OF-BEING"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

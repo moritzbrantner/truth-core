@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-CONTROLS",
-  "argument_id": "ROUND3-CHRIST-CHURCH-CONTROLS",
+  "id": "47011ff0-25d2-587e-844a-17d6b1a7b11f",
+  "label": "Controls of the round-3 Christ-and-Church batch: one finite model in which every premise and…",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-CONTROLS",
+  "argument_id": "f434df23-cd44-529e-8018-9d29097c6627",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.controls",

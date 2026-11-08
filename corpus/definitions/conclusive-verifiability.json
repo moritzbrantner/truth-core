@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCLUSIVE-VERIFIABILITY",
+  "id": "bd8abce7-0de2-528a-b7dd-f8418398846b",
+  "label": "CONCLUSIVELY_10 verifiable: ConclusivelyVerifiable F s: some finite list of observation statements…",
+  "legacy_id": "DEF-CONCLUSIVE-VERIFIABILITY",
   "term": "conclusively (strongly) verifiable",
   "definition": "`ConclusivelyVerifiable F s`: some finite list of observation statements that hold together at some world entails s.",
   "basis": "stipulative",

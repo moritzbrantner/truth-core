@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
+  "id": "98d4e36a-7bd5-5809-bff6-e472d124c9ec",
+  "label": "For every true proposition, possibly there is a proposition explaining it",
+  "legacy_id": "STMT-CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
   "paraphrase": "For every true proposition, possibly there is a proposition explaining it.",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

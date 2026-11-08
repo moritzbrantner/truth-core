@@ -1,9 +1,11 @@
 {
-  "id": "STMT-INDEXED-SIGNAL-EMISSION",
+  "id": "a5854c6c-1e20-52ef-b71b-312f1aca198a",
+  "label": "Every issuance at station n places its own numeric code some at output n",
+  "legacy_id": "STMT-INDEXED-SIGNAL-EMISSION",
   "paraphrase": "Every issuance at station n places its own numeric code some(n) at output n. This explicit open interface has no physical-causation or actual-world assertion.",
   "lean_declaration": "TruthCore.Causality.IndexedSignalReaper.Emission",
   "definition_ids": [
-    "DEF-INDEXED-SIGNAL-EMISSION",
-    "DEF-INDEXED-SIGNAL-PROVENANCE"
+    "5363be1b-9b13-55e1-a5e8-d4504b296218",
+    "549223a2-5c80-5e93-949c-fa6d970dd968"
   ]
 }

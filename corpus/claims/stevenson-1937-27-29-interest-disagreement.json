@@ -1,16 +1,18 @@
 {
-  "id": "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT",
-  "statement_id": "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
-  "source_id": "STEVENSON-EMOTIVE-MEANING-1937",
+  "id": "5ec439d2-9090-5497-8036-2a72ee04f7ae",
+  "label": "Charles Leslie Stevenson, The Emotive…: Interest disagreement is opposed favourable and…",
+  "legacy_id": "STEVENSON-1937-27-29-INTEREST-DISAGREEMENT",
+  "statement_id": "d0085789-434a-5a4a-a039-28eb9a8efbe2",
+  "source_id": "d4efa0ea-87c5-5962-b221-aa83274f79c2",
   "locator": "pp. 27–29, §V (interest versus belief disagreement; empirical reasons and the public-dole example)",
   "interpretation": "p. 27 gives opposed interests and neither party content to leave the other unchanged. pp. 28–29 allow empirical reasons to resolve some disagreements but deny that agreement on all consequences must settle the practical issue. Formalized as representability of this possibility in a shared interpretation, with a nonempty factual domain; no claim of actual people or omniscience. The sentence carrier indexes the object under moral discussion. This refines the earlier primitive attitude-clash reading without identifying interests with beliefs.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
-    "DEF-DISAGREEMENT-IN-ATTITUDE",
-    "DEF-MORAL-STATEMENT"
+    "f2276f97-01fe-5dd3-8c21-7b76364349a7",
+    "27212984-237d-5c5c-b9c3-9c9743b2a6c2",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-DISAGREEMENT"
+    "4cf1df76-5f0b-5b97-9cd8-e4616e994c6e"
   ]
 }

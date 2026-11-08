@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PATH-RELOCATION-DATING",
+  "id": "ed5ebda7-c7d0-5aff-a268-9579e87a852a",
+  "label": "RE_DATING_3, dated and undated contrast: ShiftInvariant C says moving every date by one step…",
+  "legacy_id": "DEF-PATH-RELOCATION-DATING",
   "term": "re-dating, dated and undated contrast",
   "definition": "ShiftInvariant C says moving every date by one step preserves C. shiftWorld gives the same path re-dated by one step. SameUpToDating f g says g is f after one common re-dating. A dated contrast treats f and its re-dating as rivals because their values at given times differ; an undated contrast compares paths only up to SameUpToDating. Changes f says some state differs from the next by value.",
   "basis": "stipulative",

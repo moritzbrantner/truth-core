@@ -1,10 +1,12 @@
 {
-  "id": "DEF-EVIL-AS-PRIVATION",
+  "id": "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+  "label": "EVIL_1, as privation: EVIL_1 is the privative removal of a good: the absence of a good that a…",
+  "legacy_id": "DEF-EVIL-AS-PRIVATION",
   "term": "evil (malum), as privation",
   "definition": "Evil is the privative removal of a good: the absence of a good that a subject is apt to have (a due good). The negative absence of a good not due (a man's lacking a deer's speed) is not evil.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q48-A3-EVIL-IS-PRIVATION"
+    "2c48a239-6361-53c3-8ce0-5c5db232a771"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsPrivationReading"
 }

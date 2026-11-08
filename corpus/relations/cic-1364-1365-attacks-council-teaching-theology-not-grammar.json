@@ -1,9 +1,11 @@
 {
-  "id": "REL-CIC-1364-1365-ATTACKS-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "id": "d42b164e-add7-5f13-81fd-2e1aa7c64400",
+  "label": "Catholic Church, Codex Iuris Canonici… attacks Fideist reply to the definition bridge…",
+  "legacy_id": "REL-CIC-1364-1365-ATTACKS-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
   "subject_kind": "claim",
-  "subject_id": "CIC-1364-1365-SANCTIONS",
+  "subject_id": "76b2b32c-3599-5e8d-841f-e82b11f327af",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "object_id": "e3b95cf8-45d7-5cbc-851e-2550e6bf5f73",
   "note": "Against the reply: the practice's own law treats teaching a conciliarly condemned doctrine as an offence against the faith, so the practice itself does not treat conciliar condemnations as optional theory about it. Not a refutation: the fideist can hold that law, too, is outside grammar; that is the open question of who fixes a practice's grammar."
 }

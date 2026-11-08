@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-STRENGTH-ARENA",
+  "id": "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+  "label": "PSR comparison arena: Arena reuses Ontic worlds, existence and causes, and adds a separate sort of…",
+  "legacy_id": "DEF-PSR-STRENGTH-ARENA",
   "term": "PSR comparison arena",
   "definition": "Arena reuses Ontic worlds, existence and causes, and adds a separate sort of facts with world-relative truth, an existence-fact map, a primitive relation explains w r f, and a primitive conjunct relation. Contingent A w f means f is true at w and false at some accessible world. Explained A w f means some fact is admitted as a reason for f at w. Explains is an interpreted parameter, not assumed causal, transitive, asymmetric, well-founded, contrastive or necessitating.",
   "basis": "stipulative",

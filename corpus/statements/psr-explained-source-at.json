@@ -1,7 +1,13 @@
 {
-  "id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
+  "label": "Some actual existent has a stipulated explanation of its existence fact but lacks an incoming…",
+  "legacy_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.ExplainedSourceAt",
   "paraphrase": "Some actual existent has a stipulated explanation of its existence fact but lacks an incoming cause from any existing entity at the selected world.",
-  "definition_ids": ["DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"],
-  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+  "definition_ids": [
+    "1cf9e750-5718-507c-b98e-034f06b36da3"
+  ],
+  "disambiguation_ids": [
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
+  ]
 }

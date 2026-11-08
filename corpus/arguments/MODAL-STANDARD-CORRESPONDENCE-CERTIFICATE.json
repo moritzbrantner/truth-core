@@ -1,13 +1,15 @@
 {
-  "id": "MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+  "id": "5638e542-b04a-5394-bafc-06b0f7b70bbd",
+  "label": "Universal assembly of the separately frozen one-atom T and D frame correspondences",
+  "legacy_id": "MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+  "conclusion_statement_id": "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
   "inference_ids": [
-    "INF-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE"
+    "8182a4c9-00b3-5c55-9d9a-d3929db2ddf3"
   ],
   "meaning": "Universal assembly of the separately frozen one-atom T and D frame correspondences. Valid quantifies over every valuation and every world. T validity is equivalent to reflexivity, by the characteristic valuation P(v)=access(w,v); D validity is equivalent to seriality, by the constant-true valuation. Reverse directions reuse axiomT_valid and axiomD_valid. There is no frame-property, inhabitedness, causal, temporal or explicit excluded-middle premise; empty world types satisfy both universal sides vacuously. Symmetry alone is the B axiom/KB frame condition, whereas standard B includes T (KTB here). This is frame/valuation correspondence, not Hilbert soundness/completeness or metaphysical frame truth. The wrapper is assembly, not an additional discovery. Root-premise delta none.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "92b3450c-ba41-5363-b27b-ef0e943dd7c2"
   ]
 }

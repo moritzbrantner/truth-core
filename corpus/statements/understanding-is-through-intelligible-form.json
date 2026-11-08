@@ -1,8 +1,10 @@
 {
-  "id": "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM",
+  "id": "73b3d83a-3699-5b19-87bb-fc43364a47d8",
+  "label": "Whatever actually understands something is in act through some intelligible form",
+  "legacy_id": "STMT-UNDERSTANDING-IS-THROUGH-INTELLIGIBLE-FORM",
   "paraphrase": "OPEN analyst reading of ST I q.14 a.2 and q.85 a.2: whatever actually understands something is in act through some intelligible form.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.UnderstandingIsThroughIntelligibleForm",
   "definition_ids": [
-    "DEF-UNDERSTANDS"
+    "0fa78db2-05d6-5c3e-b8c9-04124ccc5776"
   ]
 }

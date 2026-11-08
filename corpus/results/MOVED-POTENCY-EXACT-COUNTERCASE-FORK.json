@@ -1,6 +1,8 @@
 {
-  "id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
-  "argument_id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "id": "78797303-ad17-5b64-93c9-a87c25f5293b",
+  "label": "Either every moved tuple is in POTENCY_1, or some…, from Excluded middle as a general principle…",
+  "legacy_id": "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "argument_id": "4f65460e-b517-5a7f-8c03-57c5c4303454",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Coverage.coverage",
@@ -9,19 +11,19 @@
   "description": "Structural universal-or-actual-countertuple fork under explicit excluded middle. No named-worldview exhaustion or historical interpretation is inferred.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "target_statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
     "cases": [
       {
         "label": "moved-in-potency universal",
-        "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+        "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MovedOnlyAsInPotencyReading"
       },
       {
         "label": "actual moved/not-potent tuple",
-        "statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+        "statement_id": "86c76b02-e2f7-5db1-87b1-0b025c3e6040",
         "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.Countertuple"
       }
     ],
-    "survival_result_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES"
+    "survival_result_id": "ebca5ef3-a723-5d3d-98a2-3d4ec0e930e0"
   }
 }

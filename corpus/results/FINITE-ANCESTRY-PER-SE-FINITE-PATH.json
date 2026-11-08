@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
-  "argument_id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "id": "98991434-ec43-5e9c-b3d3-bdca82e57366",
+  "label": "Every being reaches, by a finite chain…, from Every relatum has finitely many distinct… and 2 more",
+  "legacy_id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "argument_id": "b8e47f26-a99f-5bf0-876e-45d32736e391",
   "challenge_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.CausalFinitism.finitePathsOfFiniteAncestry",

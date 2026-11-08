@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-EXPLANATORY-SELECTION-736",
+  "id": "694e09bd-c820-5871-843a-f90250b18059",
+  "label": "After related/dossier and exact theorem inventory, proved the new whole-vector characterization…",
+  "legacy_id": "ATTEMPT-EXPLANATORY-SELECTION-736",
   "date": "2026-10-30",
   "statement_ids": [
-    "STMT-HISTORY-SELECTION-CERTIFICATE",
-    "STMT-HISTORY-SELECTION-OMISSIONS",
-    "STMT-HISTORY-CONTRASTIVE-CONTROLS",
-    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
-    "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
-    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON"
+    "8cb72b43-74b2-5dad-ad9a-73eadae47602",
+    "3e4dcb0e-6bda-5521-bc98-43e17f3950a4",
+    "e096a433-8d5d-522d-96c4-83ad22be6e74",
+    "63e54d09-e859-5bee-91b9-a1b1d2476831",
+    "83c15757-801b-583f-a848-5a2c2b234024",
+    "a7bbd2fd-242c-5097-a9a3-581d25835890"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "After related/dossier and exact theorem inventory, proved the new whole-vector characterization and arbitrary-bundle exclusion; reused rather than repeated all-on/off, unique-feedback and source-plus-infinite-branch results. Composed beginningless Int signal uniqueness under a separately supplied gate law, source-free copying graph, and rooted/source-free selection comparison with unchanged presence/evidence. Added explicit disconnected, repeated, target-marker, false-truth and positive-weight controls. Materialized/read Monadology31–45 and Welchance1–3; precise source, semantic, rival, rejected interpretation and proof boundaries persist in docs/notes/explanatory-selection-736.md. Rejected treating per-token failure as a bundle theorem, gates as actual causes, a unique solution as explanation of its law, a target-copy discriminator as independent explanation, positive weights as adequacy, or a conditional criterion as defense of universal necessitation. The weakest open bridge is justified contrastive relevance for a claimed complete ultimate answer; the certified entailing specialization is stronger and disputed. Root/configuration comparison: no root premise added, removed or discharged, no existing configuration eliminated outside the explicit informational profile; no epistemic failure follows. Final certification and publication evidence belongs to the linked PR, not service diagnostics.",
   "evidence": [
-    "HISTORY-SELECTION-CERTIFICATE",
-    "HISTORY-SELECTION-OMISSIONS",
-    "HISTORY-CONTRASTIVE-CONTROLS",
-    "UNIQUE-FEEDBACK-CONTROL",
-    "ESSENTIAL-POWER-UNDERDETERMINED",
-    "CONFLUENT-SOURCE-REGRESS-OVERLAP",
-    "TARGET-COPY-ENTAILING-EXPANSION",
-    "CHAIN-INSTANTIATION-CONTROLS",
-    "REGRESS-SCHEMA-PACKAGE"
+    "4b8f07db-2a50-5826-ac09-083f0e088d64",
+    "de04e60a-a67f-51f0-981d-62472b22a81a",
+    "daa271be-cd04-5e03-bd3e-c7bad5c2eff3",
+    "b217ef67-6837-536f-8f5a-e7780e1f4a82",
+    "f488872b-4bc6-5898-8766-5e1c48d92f84",
+    "b06d45ee-a1da-5ce4-84be-4f2a8009ab07",
+    "41ef57dd-0e8e-559e-85a2-a5d50b522f9e",
+    "6c8cd838-b1a1-521f-860e-9289b89f0e60",
+    "74e00870-e0d4-5467-8c09-a75b2a922ce5"
   ]
 }

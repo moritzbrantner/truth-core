@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SCHLICK-MEANING-VERIFICATION",
+    "source_id": "dfe5e31d-6efc-5a7f-bc50-65abfc5f4f2a",
     "source_url": "https://www.uni-rostock.de/storages/uni-rostock/Alle_PHF/IPH/media/Schlick-Forschungsstelle/MSGA_I_6.pdf",
     "retrieved_at": "2026-11-05T15:19:33Z",
     "sha256": "sha256:4f4236dc9963e24c428c131022ea1ff8f27679b606a4d8a963123c45aba5572f",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "SCHLICK-MV-342",
+      "id": "add907e1-8a9b-5b4d-a066-2e2e8fcfc82c",
+      "label": "Moritz Schlick, \"Meaning and Verification\", MSGA I/6 p. 712",
+      "legacy_id": "SCHLICK-MV-342",
       "locator": "MSGA I/6 p. 712 (Philosophical Review p. 342)",
       "claim_locator_prefixes": [
         "p. 342"
@@ -24,7 +26,9 @@
       "incipit": "Meaning and Verification Ts 4 A 342 my own views about these matters. I can"
     },
     {
-      "id": "SCHLICK-MV-350-353",
+      "id": "de4451d5-9787-5131-a24c-83f5ae4cd31e",
+      "label": "Moritz Schlick, \"Meaning and Verification\", MSGA I/6 pp. 725-727",
+      "legacy_id": "SCHLICK-MV-350-353",
       "locator": "MSGA I/6 pp. 725-727 (Philosophical Review pp. 350-353)",
       "claim_locator_prefixes": [
         "pp. 350-353"

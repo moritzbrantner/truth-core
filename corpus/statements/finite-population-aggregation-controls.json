@@ -1,13 +1,15 @@
 {
-  "id": "STMT-FINITE-POPULATION-AGGREGATION-CONTROLS",
+  "id": "f45756f1-37c6-5886-b62b-c40ffe76ea93",
+  "label": "On a stipulated common cardinal interpersonal real welfare scale, every finite nonempty population…",
+  "legacy_id": "STMT-FINITE-POPULATION-AGGREGATION-CONTROLS",
   "paraphrase": "On a stipulated common cardinal interpersonal real welfare scale, every finite nonempty population profile and every strictly positive epsilon below its mean admit a larger finite profile of mean exactly epsilon and strictly greater total. Consequently no strict ranking on all such profiles coincides with both total and average ranking. Equal positive counts make total and average strict comparisons equivalent; zero mean cannot beat a positive total. Profiles summarize means and do not constrain each individual life; arbitrary finite count availability is mathematical background, not a feasibility result. This arithmetic constraint chooses no morally correct ranking and proves no claim about infinite populations. No existing root premise changes.",
   "lean_declaration": "TruthCore.Ethics.PopulationAggregation.Controls",
   "definition_ids": [
-    "DEF-FINITE-POPULATION-PROFILE",
-    "DEF-POPULATION-TOTAL-RANKING",
-    "DEF-POPULATION-AVERAGE-RANKING"
+    "fcd359f6-f75f-56fb-8698-d4dcd8e41507",
+    "c60b059a-7315-58e4-b957-e4116112cf12",
+    "9ecfcde0-3084-57ed-ac66-772360640b26"
   ],
   "disambiguation_ids": [
-    "DISAMB-POPULATION-MEAN-TOTAL-NORMATIVE-RANKING"
+    "cde82bca-7f45-5873-92ca-67e904ac2dd2"
   ]
 }

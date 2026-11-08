@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
+  "id": "675b22e7-a29e-579a-8626-ffaefdbfae7b",
+  "label": "The primitive superlative has the merely-MAXIMAL_5, greatest-degree or strict-supremacy calibration…",
+  "legacy_id": "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
   "paraphrase": "OPEN named coverage: the primitive superlative has the merely-maximal, greatest-degree or strict-supremacy calibration on this SAME profile. Overlap is permitted; no exhaustive philosophical or historical theory census is claimed.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.NamedCoverage",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

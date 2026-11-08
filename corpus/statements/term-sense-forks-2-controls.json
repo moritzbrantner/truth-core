@@ -1,17 +1,19 @@
 {
-  "id": "STMT-TERM-SENSE-FORKS-2-CONTROLS",
+  "id": "e3d48d91-8515-58fd-a64e-f2c827c9a474",
+  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which…",
+  "legacy_id": "STMT-TERM-SENSE-FORKS-2-CONTROLS",
   "paraphrase": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which BECOMING-BEING-CAUSE_1 holds (every participated thing has another cause of its coming to be), something is participated and nothing has another cause of its being; a nonvacuity witness for the BECOMING-BEING-CAUSE_2 route; per term, a model in which coverage holds and exclusivity fails, the two uses are read in different senses, every other premise of the joint theorem holds and its conclusion fails; per term, a model in which coverage fails and the rest holds with the conclusion failing; a model of the mixed in-act reading (mover formally or virtually, non-simultaneity formally) with self-motion; and a nonvacuity witness per joint theorem. Satisfiability and omission only; no model describes reality.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.TermSenseForks2Controls",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-UNITING-CAUSE",
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-IN-ACT-VIRTUALLY",
-    "DEF-CAUSE-OF-BECOMING"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "f930c63f-f79a-507c-9462-b572480c6808",
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "f7833666-c764-5624-a766-708949d9feee",
+    "e9630411-ffc6-534a-8509-bf357272dec9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE",
-    "DISAMB-IN-ACT",
-    "DISAMB-BECOMING-BEING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
   ]
 }

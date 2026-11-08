@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-MATT-PILOT-MATT-HOSTILE-THEFT-SUPPORTS-E2",
+  "id": "227c7390-8cc1-557b-932d-b307535764ad",
+  "label": "New Testament, Matthew 28.11-15: Matthew… supports The empty-tomb tradition includes Matthew’s…",
+  "legacy_id": "REL-NT-MATT-PILOT-MATT-HOSTILE-THEFT-SUPPORTS-E2",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-PILOT-MATT-HOSTILE-THEFT",
+  "subject_id": "c218a2be-597b-570c-a406-f37ea619747a",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E2"
+  "object_id": "f71ed22a-8a1e-5ce9-8c15-72f942c55c70"
 }

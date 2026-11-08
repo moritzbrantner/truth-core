@@ -1,9 +1,11 @@
 {
-  "id": "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY",
+  "id": "2473bc4f-5d3b-553c-9831-28f078f4496b",
+  "label": "HINGE_3: A HINGE_3 is not a proposition but a description of the animal certainty with which we act",
+  "legacy_id": "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY",
   "term": "hinge (non-propositional certainty reading)",
   "definition": "A hinge is not a proposition but a description of the animal certainty with which we act (Moyal-Sharrock, as SEP-FIDEISM §4 reports).",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A"
+    "83353a54-0aa3-5224-8c22-cb949381b8e6"
   ]
 }

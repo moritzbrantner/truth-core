@@ -1,12 +1,14 @@
 {
-  "id": "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
+  "id": "7f6bc715-c337-5618-8aa7-cef7414662dd",
+  "label": "Street classifies Railton’s account of individual non-moral good as anti-realist under her…",
+  "legacy_id": "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
   "paraphrase": "Street classifies Railton’s account of individual non-moral good as anti-realist under her taxonomy because the natural property identified with that good varies with the subject’s evaluative attitudes, including idealized attitudes.",
   "definition_ids": [
-    "DEF-STREET-STANCE-INDEPENDENCE",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
-    "DEF-RAILTON-NONMORAL-WELFARE"
+    "e1aab5d4-0115-53d3-ab0c-2a3ead63e6d3",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

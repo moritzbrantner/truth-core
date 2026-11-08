@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE",
+  "id": "3a1c20e9-3a17-5081-8e0b-e724bbc8996a",
+  "label": "Guarded source-coordinate counterparts…: Counterparts s w x v y requires x existing at w and y at…",
+  "legacy_id": "DEF-GROUNDING-IDENTITY-GUARDED-CORRESPONDENCE",
   "term": "guarded source-coordinate counterparts and local correspondence",
   "definition": "counterparts s w x v y requires x existing at w and y at v in the exact old doubled profile and equal source coordinates. SameLocalData matches existing rigid/doubled domains at each world uniquely in both directions, preserving concreteness and represented grounding/causing edges on matched existing endpoints. Exact relational composition includes every intermediate world and constructs an existing middle representative. This is not a global bijection of all candidates, literal identity, temporal transition, or preservation theorem for arbitrary modal formulas.",
   "basis": "stipulative",

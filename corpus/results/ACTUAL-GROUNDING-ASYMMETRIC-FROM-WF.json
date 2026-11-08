@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
-  "argument_id": "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
+  "id": "606d86ab-25b6-5a7a-94d5-829548e3da8d",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, from wf",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
+  "argument_id": "16539528-eac9-597d-bff3-520f3a054b04",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricFromWF",

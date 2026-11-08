@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-S4-SCOPE-BOUNDARY",
+  "id": "2b9b51cc-042c-543c-a811-1a3572b1ef39",
+  "label": "In the paired S4 configuration, right and twin form a distinct terminal pair that…, by Direct-proof",
+  "legacy_id": "INF-MODAL-S4-SCOPE-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-S4-SCOPE-BOUNDARY",
+  "output_statement_id": "0fadb5c3-3664-53da-8c9a-8537c3013ed2",
   "rule": "direct-proof",
   "meaning": "Induct over the fixed language to prove right/twin formula agreement and preserve formulas across their common successor rows. Use the full K successor-identity theorem to refute full collapse of each distinct label. No right-side successor has full collapse, refuting necessary possible full collapse. Enumerate language-collapse witnesses at every root successor. Agreement between distinct labels refutes language extensionality.",
   "assumption_statement_ids": [],

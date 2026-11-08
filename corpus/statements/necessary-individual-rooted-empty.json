@@ -1,16 +1,18 @@
 {
-  "id": "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
+  "id": "e5391d97-8d0f-55b4-b02e-1e89a9cc4760",
+  "label": "In one stipulated three-world, three-individual universal-accessibility model, an actually…",
+  "legacy_id": "STMT-NECESSARY-INDIVIDUAL-ROOTED-EMPTY",
   "paraphrase": "In one stipulated three-world, three-individual universal-accessibility model, an actually populated world has a single shared roster root in every populated successor, an accessible empty extension, no necessarily present individual and no successor-relative guarantee of population. Every present nonroot has an in-world root cause, and no two causal edges can compose. The construction does not satisfy an unrestricted PSR or establish metaphysical possibility.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.RootedEmptyCountermodel",
   "definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-SHARED-ROOT",
-    "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e9084b35-22bb-5ed7-b427-ae72e157cc6c",
+    "6ef56fd2-5ad8-5e8f-bbee-ca019af7b802",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-EMPTY-WORLD-FORK"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "e7bd0871-11c6-598c-b213-e17ff86ef168"
   ]
 }

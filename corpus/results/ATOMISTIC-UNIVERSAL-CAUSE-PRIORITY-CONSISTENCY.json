@@ -1,6 +1,8 @@
 {
-  "id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
-  "argument_id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "id": "4a9a186e-a31a-590b-be72-627b80efc284",
+  "label": "The existing two-object identity-parthood interpretation satisfies its old consistency package…",
+  "legacy_id": "ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "argument_id": "a42e9e54-9e71-53b6-90a3-60fda321ccd2",
   "challenge_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Challenge",
   "solution_module": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution",
   "theorem": "TruthCore.Results.Causality.AtomisticUniversalCausePriority.consistency",

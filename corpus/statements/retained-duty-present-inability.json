@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+  "id": "84d6dde8-a359-52cc-9411-714592cc8172",
+  "label": "The fixed agent lacks practical ability at after to return that identical original object",
+  "legacy_id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
   "paraphrase": "The fixed agent lacks practical ability at after to return that identical original object.",
   "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentInability",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

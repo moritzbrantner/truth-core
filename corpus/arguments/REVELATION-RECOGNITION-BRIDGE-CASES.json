@@ -1,22 +1,24 @@
 {
-  "id": "REVELATION-RECOGNITION-BRIDGE-CASES",
+  "id": "530858fb-c60a-50be-ad42-4b1e35479694",
+  "label": "Either capability is realized correctly in an…, from Excluded middle as a general principle…",
+  "legacy_id": "REVELATION-RECOGNITION-BRIDGE-CASES",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-RECOGNITION-BRIDGE-CASES-COVER",
+  "conclusion_statement_id": "e0785994-aceb-5d99-8e72-08233936a932",
   "inference_ids": [
-    "INF-REVELATION-RECOGNITION-BRIDGE-CASES"
+    "c7734cb3-2d11-5915-9ee4-45506fb21221"
   ],
   "meaning": "Explicit EM separates successful admitted realization/sharedness from failure of either bridge. No named philosophical definition, bridge adequacy or exhaustive real-possibility domain is established.",
   "definition_ids": [
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
-    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+    "5fd26045-b3db-5820-a055-cd8c89bc41e5"
   ]
 }

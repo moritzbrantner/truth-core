@@ -1,10 +1,12 @@
 {
-  "id": "INF-MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "id": "1a92d79f-4c47-5d96-80e3-6bc808f20cde",
+  "label": "The genus principle at being only: whatever is maximal in being causes the…, by Constructive-proof",
+  "legacy_id": "INF-MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
   "input_statement_ids": [
-    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
-    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    "2336e5b4-ba2f-5ffb-8798-0737505208c6",
+    "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379"
   ],
-  "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "output_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
   "rule": "constructive-proof",
   "meaning": "Explicit semantic transport transcription: source-shaped greatest-degree causal principle plus weak maximal-to-greatest interface yields the EXACT existing selected-esse all-merely-maximal causal premise. The selected respect instantiates esse without assuming every perfection is being.",
   "assumption_statement_ids": [],

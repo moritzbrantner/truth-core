@@ -113,7 +113,7 @@ export function ClaimExplorer({ claims, sources }: ClaimExplorerProps) {
                   {claim.paraphrase}
                 </h3>
               </Link>
-              <p className="mt-2 text-sm text-[var(--muted)]">{claim.id}</p>
+              <p className="mt-2 text-sm text-[var(--muted)]">{claim.label ?? claim.id}</p>
             </div>
             <div className="flex items-start gap-2 md:flex-col md:items-end">
               <StatusMark>Formalized</StatusMark>

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM",
+  "id": "02bcb70d-f2f5-52af-b050-3a033999a0f9",
+  "label": "If Jesus asserted, of a title he used of himself, authority to forgive sins on earth, he claimed…",
+  "legacy_id": "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM",
   "paraphrase": "OPEN interpretation bridge (attribution deferred): if Jesus asserted, of a title he used of himself, authority to forgive sins on earth, he claimed divine authority. Its rival, the delegated-agency reading of Mark 2.10, takes the assertion as a claim to authority given to a human agent, not divine authority.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.SelfAscribedForgivenessAuthorityIsDivineAuthorityClaim",
   "definition_ids": [
-    "DEF-JESUS-SPEECH-EVENT",
-    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+    "9c870b2c-9426-5519-831b-00c4658b116f",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-FORGIVENESS-AUTHORITY"
+    "9bbcd103-41cf-5063-9c34-ccca24008633"
   ]
 }

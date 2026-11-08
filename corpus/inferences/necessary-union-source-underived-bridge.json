@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "id": "2e5bf1f6-5a92-53c1-938e-55de8c5f335e",
+  "label": "For every selected model and support relation, a necessary-union…, by Typed-graph-derivation",
+  "legacy_id": "INF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "output_statement_id": "bd22c66a-329c-50aa-bc8d-148b3601a874",
   "rule": "typed-graph-derivation",
   "meaning": "Universal conditional source-to-common-underived bridge: actual reflexivity gives the source actual presence and no-contingent-ground lifts any existing incoming supporter into the necessary carrier, contradicting sourcehood. Neither background is established. The graph source itself supplies a necessary individual; this bridge does not need finite population or edge invariance.",
   "assumption_statement_ids": [],

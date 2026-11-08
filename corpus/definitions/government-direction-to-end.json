@@ -1,12 +1,14 @@
 {
-  "id": "DEF-GOVERNMENT-DIRECTION-TO-END",
+  "id": "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1",
+  "label": "Government and directing to an end: Government orders things governed to an end consisting in some…",
+  "legacy_id": "DEF-GOVERNMENT-DIRECTION-TO-END",
   "term": "government and directing to an end",
   "definition": "Government orders things governed to an end consisting in some good. Directs d x e represents d’s directing x toward e; Governs d x represents government of x by d. The encoded q.103 a.3 reading uses only directing-implies-governing. Q.103 a.6 distinguishes the design, or providence, from its execution through intermediaries. Neither this definition nor that text says every mover of a director in any respect directs its effects.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q103-A3-GOVERNMENT-IS-DIRECTING",
-    "AQUINAS-ST-I-Q103-A6-DESIGN-OF-GOVERNMENT",
-    "AQUINAS-ST-I-Q103-A6-THROUGH-INTERMEDIARIES"
+    "3f69e4ce-5951-5b8e-8c4c-1595a5259106",
+    "b3d1d3b9-a5a0-5021-af8f-98295af24d66",
+    "8e918dbb-36a8-5c59-abb3-31b9801de9b2"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.DirectingToAnEndIsGoverningReading"
 }

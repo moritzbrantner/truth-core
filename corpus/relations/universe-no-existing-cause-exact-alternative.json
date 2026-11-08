@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNIVERSE-NO-EXISTING-CAUSE-EXACT-ALTERNATIVE",
+  "id": "4f19e935-3418-5de7-9aca-2dc151c7c75f",
+  "label": "Exact negation of the existing… alternative to At the selected world the spacetime…",
+  "legacy_id": "REL-UNIVERSE-NO-EXISTING-CAUSE-EXACT-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "subject_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "object_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
   "note": "Exact matching-scope unrefuted negative, not a presumed complete list of historical accounts."
 }

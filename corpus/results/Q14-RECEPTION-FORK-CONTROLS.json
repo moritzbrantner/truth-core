@@ -1,6 +1,8 @@
 {
-  "id": "Q14-RECEPTION-FORK-CONTROLS",
-  "argument_id": "Q14-RECEPTION-FORK-CONTROLS",
+  "id": "9d6490e1-971c-5ba3-b093-e3a5210d2e58",
+  "label": "Separate checked controls retain exact empty/sensory/old-target omissions; material-only capacity…",
+  "legacy_id": "Q14-RECEPTION-FORK-CONTROLS",
+  "argument_id": "6cc1f499-5a25-5b05-b154-ada16b2019ee",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Controls.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.Controls.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.controls",

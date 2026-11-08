@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-ADOPTED-POTENCY-DEFINITION-1007",
+  "id": "99654f41-98aa-5ffe-88d7-ea75ee7eff28",
+  "label": "Adopted the owner\u2019s capacity-without-act definition explicitly while retaining the generic\u2026",
+  "legacy_id": "ATTEMPT-ADOPTED-POTENCY-DEFINITION-1007",
   "statement_ids": [
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-    "STMT-ADOPTED-POTENCY-NONOVERLAP"
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "ef721eab-3713-5b1a-970b-6ea30dec6cd9"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Adopted the owner\u2019s capacity-without-act definition explicitly while retaining the generic independent-predicate reading and frozen Challenges. From established F1 derive non-overlap for the adopted function; compose the existing conservative-analysis theorem as an additional definitional check. Eleven root-route siblings and Stage2 and pure-act helper siblings uniformly substitute the same adopted potency function in every hypothesis (including motion, priority, immutability, eternity and sufficiency) and supply the old hNotBoth proof from F1. The generic schema cannot be proved from this specialization, so its statement remains separate and open. DISAMB-POTENCY distinguishes unactualized capacity, independent generic potency, persistent capacity/power, actualist constraints on capacity and receptive potency. No rival is declared defeated by a definition. Night models satisfying generic non-overlap may still admit an adopted interpretation; priority and causal escape claims are not settled. All generic arguments mentioning the linked potency/capacity senses now link the disambiguation. The first shared-server edit exposed a universe-instantiation error in the F1 interface; the corrected edit passed with exact preview/content bindings. Required final proof gates are separate from interactive diagnostics.",
   "evidence": [
-    "ADOPTED-POTENCY-NONOVERLAP",
-    "ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE"
+    "e374c69d-d5e5-547c-a8a1-f8de313e6f76",
+    "a26e8e49-ca29-55f0-81e6-411d72543c25"
   ],
   "blocker": "No claim that the framework predicates capture every real use or every historical sense. Generic independent-predicate F7 remains open. The adopted interpretation adds no capacity-existence, causal-efficacy or modal bridge."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
+  "id": "6523a45a-b797-57ed-b323-27a0d14d7832",
+  "label": "Internal consistency of a worldview: A worldview is a predicate selecting explicitly held…",
+  "legacy_id": "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
   "term": "internal consistency of a worldview",
   "definition": "A worldview is a predicate selecting explicitly held claim-contents. It is semantically consistent under a specified interpretation when some single world satisfies every selected content. This does not require that each true consequence be explicitly believed or that any selected content be true in the actual world.",
   "basis": "stipulative",

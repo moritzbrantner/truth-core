@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-7-SILENCE",
-  "statement_id": "STMT-TLP-WHEREOF-ONE-CANNOT-SPEAK",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "9d26a999-369f-5e40-a5c8-6c2b1fd71ef8",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 7: whereof one cannot speak, thereof one…",
+  "legacy_id": "WITTGENSTEIN-TLP-7-SILENCE",
+  "statement_id": "8faf1c3e-5223-5eef-bd96-b96f519c8153",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 7, Wovon man nicht sprechen kann, darüber muss man schweigen",
   "interpretation": "7: 'Wovon man nicht sprechen kann, darüber muss man schweigen.'",
   "status": "formalized",

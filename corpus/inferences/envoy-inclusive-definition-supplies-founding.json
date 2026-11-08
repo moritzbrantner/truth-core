@@ -1,9 +1,11 @@
 {
-  "id": "INF-ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "id": "a8958a1a-1efa-593d-9963-c6830e81a1f2",
+  "label": "For any GOD_4 candidate g and society c: if Jesus founded c in the…, by Constructive-proof (2)",
+  "legacy_id": "INF-ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
   "input_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+    "5e683514-cb24-5115-9dbf-9f09f5a475d5"
   ],
-  "output_statement_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "output_statement_id": "51e4073d-ac0d-57f1-8bb7-53a604172b04",
   "rule": "constructive-proof",
   "meaning": "Definition-projection transcription: the envoy event is one disjunct in the explicitly assumed inclusive calibration. This conditional connection does not independently defend the definition or establish the old root premise.",
   "assumption_statement_ids": [],

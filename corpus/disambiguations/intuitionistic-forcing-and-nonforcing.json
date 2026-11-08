@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING",
+  "id": "44e4bb2b-dd95-5357-82eb-186f5c0a1281",
+  "label": "Future-forcing negation versus pointwise negation and non-forcing",
+  "legacy_id": "DISAMB-INTUITIONISTIC-FORCING-AND-NONFORCING",
   "term": "future-forcing negation versus pointwise negation and non-forcing",
   "sense_definition_ids": [
-    "DEF-INTUITIONISTIC-PERSISTENT-CONTENTS",
-    "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS"
+    "bc05d419-dfac-58cd-9239-58b3506a3d3b",
+    "854eaae1-7044-5c7c-9095-cc0caa525bf4"
   ],
-  "resolution": "The old Fitch Context/Moore uses pointwise Lean Prop negation. It is not silently identified with the new Heyting pseudocomplement, whose membership means every future information extension fails to force the content. The old frame, relational Knows and PossibleKnown are reused only through the checked matching-operator bridge. At stage1, p={1,2} and double-negated Kp are forced, while Kp and its intuitionistic negation are both unforced. Thus metalevel failure to force Kp is NOT object-level forcing of not Kp; this is not a classical Moore-unknown truth or a counterexample to the old Lean theorem. Relevant stability and excluded middle are unforced in this semantic profile; the repository established classical EM floor and F6 are unchanged. Mathlib classical reasoning about this finite model is separate from object-language validity."
+  "resolution": "The old Fitch Context/Moore uses pointwise Lean Prop negation. It is not silently identified with the new Heyting pseudocomplement, whose membership means every future information extension fails to force the content. The old frame, relational Knows and PossibleKnown are reused only through the checked matching-operator bridge. At stage1, p={1,2} and double-negated Kp are forced, while Kp and its intuitionistic negation are both unforced. Thus metalevel failure to force Kp is NOT object-level forcing of not Kp; this is not a classical Moore-unknown truth or a counterexample to the old Lean theorem. Relevant stability and excluded middle are unforced in this semantic profile; the repository established classical EM floor and F6 are unchanged. Mathlib classical reasoning about this finite model is separate from object-language validity.",
+  "term_label": "FUTURE_FORCING_NEGATION_VERSUS_POINTWISE_NEGATION",
+  "senses": [
+    {
+      "id": "51972fa1-b662-41d9-a00c-b308de52ec20",
+      "label": "FUTURE_FORCING_NEGATION_VERSUS_POINTWISE_NEGATION_1",
+      "definition_id": "bc05d419-dfac-58cd-9239-58b3506a3d3b",
+      "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.Content"
+    },
+    {
+      "id": "bff8dba9-72ba-4eb1-bcc9-9ecc6bbfa2a5",
+      "label": "FUTURE_FORCING_NEGATION_VERSUS_POINTWISE_NEGATION_2",
+      "definition_id": "854eaae1-7044-5c7c-9095-cc0caa525bf4",
+      "lean_declaration": "TruthCore.Logic.IntuitionisticKnowability.OperatorsExact"
+    }
+  ]
 }

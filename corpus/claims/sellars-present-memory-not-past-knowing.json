@@ -1,15 +1,17 @@
 {
-  "id": "SELLARS-EPM-37-TEMPORAL-REGRESS",
-  "statement_id": "STMT-SELLARS-PRESENT-MEMORY-NOT-PAST-KNOWING",
-  "source_id": "SELLARS-EMPIRICISM-MIND",
+  "id": "547f17ab-663c-5633-b5f2-96097549ccdc",
+  "label": "Wilfrid Sellars, Empiricism and the…: Sellars’s account requires present knowledge of relevant…",
+  "legacy_id": "SELLARS-EPM-37-TEMPORAL-REGRESS",
+  "statement_id": "df7a6d69-c1ab-5db1-abf6-489dfc266f2c",
+  "source_id": "4ca270ba-8c26-5a84-a66f-c39efe48f1f4",
   "locator": "VIII §37",
   "interpretation": "Now knowing or remembering earlier facts is not mere current belief about them. Sellars uses this distinction to answer the proposed backward temporal regress in §§36–37; he does not establish that every epistemic, causal or explanatory regress is harmless. The present ability to cite evidence and report-reliability knowledge remain required.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SELLARS-RECOGNIZED-REPORT-AUTHORITY",
-    "DEF-SELLARS-TEMPORAL-EVIDENCE"
+    "1ab12c15-522b-5567-a514-a994061469e1",
+    "a1378229-2a3a-561a-ba71-a2c32a8bca10"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELLARS-FOUNDATION-RELIABILITY-AND-RECIPROCITY"
+    "46f172ac-9758-5e8a-a771-8faa87cddfa7"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "id": "db4891ab-b018-5384-9c0b-22fd13493a0b",
+  "label": "Analyst formulation, attribution deferred: for any proposed…, by Accessibility-transfer-and-ex…",
+  "legacy_id": "INF-PER-SE-HISTORICAL-SERIES-DISTINCTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "output_statement_id": "9ce7ab53-355e-5035-b860-69276b2a5116",
   "rule": "accessibility-transfer-and-explicit-model",
   "meaning": "Compose the existing accessibility-excludes-series theorem with an explicit edge dictionary. Construct the Option Nat common-essential-source/historical-successor witness. Neither the well-foundedness premise of any root route nor the causal applicability of either relation is established.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-FINITE-HITTING-FIXED",
+  "id": "53af49d6-e60f-5a18-b553-79a04f6d4103",
+  "label": "Rigid Bool candidates, universal Bool worlds, actual false",
+  "legacy_id": "MODEL-FINITE-HITTING-FIXED",
   "description": "Rigid Bool candidates, universal Bool worlds, actual false. Each world contains the singleton false; the positive background omits no-necessity. Only zero-axiom components are registered; O/K and infinite models remain exact Lean certificates, not finite-registry statuses.",
   "vocabulary": "finite-hitting-universal-component",
   "lean_declaration": "TruthCore.Modal.FiniteHitting.FiniteControls.frame",
@@ -30,7 +32,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-FINITE-HITTING-UNIVERSAL",
+      "statement_id": "bd993533-227d-5fc3-8072-7434121d6fde",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -39,7 +41,7 @@
       "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.universal"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "statement_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -51,7 +53,7 @@
       "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Fixed.population"
     },
     {
-      "statement_id": "STMT-FINITE-HITTING",
+      "statement_id": "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -61,7 +63,7 @@
       "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Fixed.hitting"
     },
     {
-      "statement_id": "STMT-ABSENCE-AMALGAMATION",
+      "statement_id": "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -73,7 +75,7 @@
       "theorem": "TruthCore.Modal.FiniteHitting.FiniteControls.Fixed.amalgamation"
     },
     {
-      "statement_id": "STMT-FINITE-HITTING-NO-NECESSARY",
+      "statement_id": "39c29835-81e3-580f-a8ef-6dacb2a8473e",
       "value": "violates",
       "arguments": [
         "W",

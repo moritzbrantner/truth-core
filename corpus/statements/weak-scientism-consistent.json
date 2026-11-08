@@ -1,13 +1,15 @@
 {
-  "id": "STMT-WEAK-SCIENTISM-CONSISTENT",
+  "id": "f4afb5e8-b0bc-5301-88c9-6b3bd36e2153",
+  "label": "WEAK_2 scientism survives self-application: in a model the restricted norm holds, its own…",
+  "legacy_id": "STMT-WEAK-SCIENTISM-CONSISTENT",
   "paraphrase": "Weak scientism survives self-application: in a model the restricted norm holds, its own formulation lies outside its domain and is established non-empirically, and some claim in the domain is established empirically. Consistency, not a defense; its cost is the concession of non-empirical knowledge.",
   "lean_declaration": "TruthCore.Logic.Scientism.WeakScientismConsistent",
   "definition_ids": [
-    "DEF-WEAK-SCIENTISM-RESTRICTED",
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+    "9424e383-2872-5587-8b54-c915516aa395",
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

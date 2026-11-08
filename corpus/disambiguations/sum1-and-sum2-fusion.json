@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-SUM1-AND-SUM2-FUSION",
+  "id": "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+  "label": "Sum and fusion",
+  "legacy_id": "DISAMB-SUM1-AND-SUM2-FUSION",
   "term": "sum and fusion",
   "sense_definition_ids": [
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
-  "resolution": "Sum1 means Mathlib least upper bound. Sum2 means existing upper bound plus no-extra-parts common overlap. They are not identified by terminology or by strong supplementation alone. Their pointwise agreement on nonempty families is proved under exact complementation. All-family quantification ranges over Lean Sets; no first-order-schema equivalence, substantial unity or composition as identity is asserted."
+  "resolution": "Sum1 means Mathlib least upper bound. Sum2 means existing upper bound plus no-extra-parts common overlap. They are not identified by terminology or by strong supplementation alone. Their pointwise agreement on nonempty families is proved under exact complementation. All-family quantification ranges over Lean Sets; no first-order-schema equivalence, substantial unity or composition as identity is asserted.",
+  "term_label": "SUM_AND_FUSION",
+  "senses": [
+    {
+      "id": "cf3dcfe7-01e1-4c8f-8106-d8b4bb6c4e99",
+      "label": "SUM_AND_FUSION_1",
+      "definition_id": "82e3885b-a845-5116-949e-07cb05353bf7",
+      "lean_declaration": "TruthCore.Mereology.SumOneComplementation.UnrestrictedSumOne"
+    },
+    {
+      "id": "443a4d2e-4beb-4880-a2c3-100a8f7beb1b",
+      "label": "SUM_AND_FUSION_2",
+      "definition_id": "9ec56dce-572e-5230-8247-6b3e994cb98a",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
+    }
+  ]
 }

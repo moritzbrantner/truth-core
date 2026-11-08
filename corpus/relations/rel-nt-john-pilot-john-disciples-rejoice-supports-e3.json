@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE-SUPPORTS-E3",
+  "id": "7c319cc3-64fc-59ca-9473-42ae58356895",
+  "label": "New Testament, John 20.19-25: John narrates… supports Cephas and at least one further disciple…",
+  "legacy_id": "REL-NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE-SUPPORTS-E3",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE",
+  "subject_id": "9837e0c8-b547-56e4-8376-199039f5acb5",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E3"
+  "object_id": "c2f63731-873e-5e82-ad62-b6ba015aa508"
 }

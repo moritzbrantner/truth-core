@@ -1,27 +1,29 @@
 {
-  "id": "STMT-PARM-SPATIAL-DILEMMA",
+  "id": "09cbec38-b5a3-5e2b-989e-daa3dbb195d5",
+  "label": "Every PARTICIPATION_3 is either allocation of the whole FORM_1 to a bearer or allocation of one of…",
+  "legacy_id": "STMT-PARM-SPATIAL-DILEMMA",
   "paraphrase": "Every participation is either allocation of the whole Form to a bearer or allocation of one of its proper constituents. This is the spatial dilemma under examination, not a definition of participation.",
   "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.SpatialDilemma",
   "definition_ids": [
-    "DEF-PARM-PART-ALLOCATION",
-    "DEF-PARM-PROPER-PART",
-    "DEF-PARM-WHOLE-PRESENCE",
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PLATONIC-INTELLIGIBLE",
-    "DEF-PLATONIC-NONIDENTITY",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "f16f85ba-4060-520c-9b52-43c4154760f5",
+    "b069f13c-3fd8-541c-b3b0-dba040498e7d",
+    "b5f94c92-b4cd-5bcc-a6d4-6e3fe2d1ad60",
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+    "076d18ea-7436-52cd-bbb9-ee6c0842e2c3",
+    "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PARM-PRESENCE",
-    "DISAMB-PARM-SEPARATION",
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-PREDICATION",
-    "DISAMB-PLATONIC-SEPARATION"
+    "94cbac02-1a9b-585f-b69d-90ca8e29c8b0",
+    "2e81d282-81fe-5f88-a787-ae9ad3403164",
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f",
+    "e8547175-8208-5cc0-b5bb-39577315f2ac"
   ]
 }

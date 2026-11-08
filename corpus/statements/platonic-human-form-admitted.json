@@ -1,19 +1,21 @@
 {
-  "id": "STMT-PLATONIC-HUMAN-FORM-ADMITTED",
+  "id": "c67354f7-b405-5fc6-b4c7-e2b8f274d259",
+  "label": "Optional unattributed open premise: the human quality lies in the admitted range",
+  "legacy_id": "STMT-PLATONIC-HUMAN-FORM-ADMITTED",
   "paraphrase": "Optional unattributed open premise: the human quality lies in the admitted range. The young Socrates’ uncertainty in Parmenides 130c does not establish this premise.",
   "lean_declaration": "TruthCore.Greek.Plato.Forms.HumanFormAdmitted",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
-    "DEF-PLATONIC-HUMAN-NATURE",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "45996402-d8f0-59fa-b438-fd8c773800d4",
+    "09650b37-d088-51d1-a423-4fdba7f96d29",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-HUMAN",
-    "DISAMB-PLATONIC-PREDICATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "378d09f1-a359-5770-ab2c-aba739029474",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f"
   ]
 }

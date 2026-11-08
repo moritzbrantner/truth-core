@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-FALLIBLE-CORRECTION-931",
+  "id": "6d18f58f-33cc-54a9-8d5e-a44557d6f018",
+  "label": "Derived finite rational weighted-majority potential and expert-weight bounds for arbitrary…",
+  "legacy_id": "ATTEMPT-FALLIBLE-CORRECTION-931",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
-    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "STMT-EPISTEMIC-ACCURACY-CERTIFICATE",
-    "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+    "a901d185-4919-5d9c-8c6e-ec5415f975bc",
+    "6df7921a-29b6-5574-8952-f27497140a53",
+    "35901b8a-de6e-5e0d-9044-c86f55670b00",
+    "e2a62f43-36a5-5494-bcf0-79eb3b744b26",
+    "a417c4b4-7f0e-5222-a74b-3c311fcb8133",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "bea77d88-037f-5ff1-9798-a99bbbc27206",
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Derived finite rational weighted-majority potential and expert-weight bounds for arbitrary advice/feedback streams, corruption transfer to actual truth, and a two-expert ten-error budget allowing two expert errors and one false label. Concrete traces prove correction and misleading updates; constant false feedback yields indefinitely false answers after the initial tie, recovering in a false actual world but failing in a true one. Applied the existing characterization to shared reports rather than reimplementing exact access. Composed both #930 accuracy certificates and #929 boundary unchanged. Rejected coherence implies accuracy, apparent success self-certifies reliability, occasional correction gives an exact classifier, and a mathematical guarantee entails normative warrant. Positive restricted warrant argument, independent-check motivation, rival epistemologies and actual-error/ontology limits persist in docs/notes/fallible-correction-931.md. No new sources/claims/passages. Reused exact existing CogitoSubject.subjectlessControl, nonSubstantialBearerModel and CogitoConcrete.omissionControls in the linked ontological boundary discussion; no bearer/concreteness bridge is silently supplied.",
   "evidence": [
-    "LOGIC-FALLIBLE-CORRECTION",
-    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "LOGIC-EPISTEMIC-ACCURACY",
-    "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
-    "COGITO-SUBJECTLESS-CONTROL",
-    "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
-    "COGITO-CONCRETE-OMISSION-CONTROLS"
+    "25f65c4f-2cdc-5b6d-bfb6-a666d4180e8d",
+    "0590fe21-edb9-5915-9837-62560c8f40e2",
+    "e3c27a3c-6056-5753-8c0d-232bb901e342",
+    "49eb8702-ac7a-54e9-90e1-bcd38601b40b",
+    "77c391d3-5d64-5c64-b873-93f4c12907ed",
+    "6cffb105-b943-5f7a-9bbd-9bb5d3e760de",
+    "960bfe08-9259-5125-8322-59ced63e25e0",
+    "145f91e4-a908-5c1e-b474-d27e446235fb"
   ],
   "blocker": "No actual feedback calibration, empirically justified numerical corruption bound, good expert pool or future generalization is established. The restricted epistemic reason-giving bridge has positive explanatory support but remains open against the goal-relative rival. #931 remains open for real-application warrant. F6 retained, no root premise change or closure. Full4442-job build, exact1-result binding and Comparator plus independent result NanoDa PASS. Corpus, bundle audit, source-manifest, attribution, module-format, generators and whitespace checks PASS. Final delivered-head CI/current-head review remain required. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Proof inputs are unchanged by the fresh-main825ae2607b59bd02ee80610ec9aff625120a89f4 metadata/docs merge; the new OPEN ordinary-role and authority dossiers are retained without inheriting F6 approval."
 }

@@ -1,20 +1,22 @@
 {
-  "id": "STMT-GOEDEL-1970-NO-POSSIBLE-ACTUALIST-GOD-LIKE",
+  "id": "0465695f-0070-574b-b07c-dadfcea317ef",
+  "label": "In the encoded 1970 actualist interpretation, at every world it is false that some accessible…",
+  "legacy_id": "STMT-GOEDEL-1970-NO-POSSIBLE-ACTUALIST-GOD-LIKE",
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.ActualistPossibilityBoundary.NoPossibleActualistGodLike",
   "paraphrase": "In the encoded 1970 actualist interpretation, at every world it is false that some accessible world contains an existing God-like individual. This excludes the possibility antecedent of its Th3, not actual God-likeness at a world with no accessibility edges, ordinary God existence, or Scott’s different theory.",
   "definition_ids": [
-    "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-GOD-LIKE-GOEDEL-1970",
-    "DEF-HOML-ACTUALIST-NECESSITY",
-    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
-    "DEF-QML-KB-NECESSITY"
+    "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+    "449a3134-3201-5f8b-bae0-76bd666e3818",
+    "9010544f-188a-5d00-83dc-85d0c0b4052d",
+    "9400c10f-e80b-5241-b9b6-e59c15631e19",
+    "6300d642-4116-591e-bac8-7af32093ea6d",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-EXISTS",
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "620f1cde-0f67-5ecd-a96c-2851588725d5",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

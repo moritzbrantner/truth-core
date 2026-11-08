@@ -1,7 +1,9 @@
 {
-  "id": "ATTEMPT-POTENCY-ANALYSIS-PARTITION-1007",
+  "id": "495ead90-c28d-5b79-bf72-6f85aa8996d4",
+  "label": "The owner's worldview argument for F7, built as a partition by the shared question q f7 so that\u2026",
+  "legacy_id": "ATTEMPT-POTENCY-ANALYSIS-PARTITION-1007",
   "statement_ids": [
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
   "date": "2026-11-05",
   "kind": "countermodel",
@@ -9,7 +11,7 @@
   "summary": "The owner's worldview argument for F7 (#1007), built as a partition by the shared question Q-F7 so that exhaustiveness follows from excluded middle (POTENCY-ANALYSIS-PARTITION), not from a hand-picked list. The \u00acF7 family splits into three cells: (a) potency with act in the same respect (Scotus' virtual act, Hegel's moving body), (b) potency without capacity, (c) unexercised capacity without potency. All three survive the approved floor (POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR): each has an interpretation with something moved (F4); F1 holds everywhere; F3 and F6 use other vocabulary. F7 is equivalent to the three cell-excluding constraints (f7IffCellConstraints), so the argument goes through only with floor items that jointly entail F7. Result: open alternative, no premise closes, cost 0. Owner continuation 2026-11-06: the later definition decision adopts the capacity-without-act sense rather than refuting these generic cells. ADOPTED-POTENCY-NONOVERLAP concerns the adopted function only. The original generic cells and survivor certificates remain valid under DEF-INDEPENDENT-POTENCY; a change of interpretation is not a counted refutation.",
   "blocker": "Generic cell defeat remains unresolved. The owner instead adopted the unactualized-capacity configuration in #1007 comment 6685335011; that interpretation does not prove non-overlap for every independent potency predicate or refute other senses. Applicability of the adopted InAct and CanBe framework inputs remains open.",
   "evidence": [
-    "POTENCY-ANALYSIS-PARTITION",
-    "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR"
+    "cfb46686-5d78-53b5-b62b-3da52d07cb17",
+    "81ca8216-ddf6-5d47-ba1b-a3473d306a9b"
   ]
 }

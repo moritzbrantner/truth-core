@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+  "id": "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36",
+  "label": "The Catholic Church definitively proposes every article of the NICENE_CONSTANTINOPOLITAN_CREED_1 as…",
+  "legacy_id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
   "paraphrase": "The Catholic Church definitively proposes every article of the Nicene-Constantinopolitan Creed as divinely revealed.",
   "lean_declaration": "TruthCore.Case.Catholicism.CatholicChurchDefinitivelyProposesCreed",
   "definition_ids": [
-    "DEF-CATHOLICISM-TRUE-PHASE-1",
-    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
-    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
-    "DEF-CREED-GREEK-C381-CONTENT"
+    "e5f5bc14-e629-5a12-b8da-24944704f1f0",
+    "073468e1-25d6-5d46-836c-c6e8f230809d",
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc",
+    "e67ab833-b652-53a1-aa13-e58389158dde"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREED-CONTENT-AND-FORMULA"
+    "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a"
   ]
 }

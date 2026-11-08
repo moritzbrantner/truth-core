@@ -1,6 +1,8 @@
 {
-  "id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
-  "argument_id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "id": "eb7995ee-9e0d-543e-9eef-13c3dca9b959",
+  "label": "Formal fact: if every POTENCY_1 is of the contradictory, a being that…, from incorruptible facts",
+  "legacy_id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "argument_id": "f8cd50e1-26cd-5e79-981e-f7c176b67c19",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.ActPotencyFacts.ActPriorFromIncorruptible.actPriorFromIncorruptibleFacts",

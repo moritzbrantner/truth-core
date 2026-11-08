@@ -1,7 +1,9 @@
 {
-  "id": "INF-BCCF-DERIVATIVE-REPLY",
+  "id": "8e670021-0e57-5617-8569-033532233bdb",
+  "label": "With plural reasons at a world, by Model-construction",
+  "legacy_id": "INF-BCCF-DERIVATIVE-REPLY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-BCCF-DERIVATIVE-REPLY",
+  "output_statement_id": "775b08d6-e2bc-5ac7-81c5-cad0dca36d61",
   "rule": "model-construction",
   "meaning": "Prove the general conditionals over any arena and plural relation, then construct the named models and check each listed condition in them.",
   "assumption_statement_ids": [],

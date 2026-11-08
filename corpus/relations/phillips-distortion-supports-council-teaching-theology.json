@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-DISTORTION-SUPPORTS-COUNCIL-TEACHING-THEOLOGY",
+  "id": "08e70245-31c2-5b7f-8e00-c9de186ff61e",
+  "label": "Richard Amesbury, Fideism §2.2.4, it casts… supports Fideist reply to the definition bridge…",
+  "legacy_id": "REL-PHILLIPS-DISTORTION-SUPPORTS-COUNCIL-TEACHING-THEOLOGY",
   "subject_kind": "claim",
-  "subject_id": "SEP-FIDEISM-2-2-4-PHILLIPS-DISTORTION-A",
+  "subject_id": "8c324e37-cbbf-59ea-a8df-4ff30688e541",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "object_id": "e3b95cf8-45d7-5cbc-851e-2550e6bf5f73",
   "note": "Phillips speaks of rescuing belief and atheism from philosophical distortion. He does not mention councils or doctrinal definitions; that conciliar teaching is such a distortion, or is theology rather than grammar, is the reconstruction's step."
 }

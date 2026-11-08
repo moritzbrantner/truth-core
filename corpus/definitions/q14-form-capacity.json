@@ -1,5 +1,7 @@
 {
-  "id": "DEF-Q14-FORM-CAPACITY",
+  "id": "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+  "label": "Aptitude for the form of another thing: ForeignFormCapacity m x witnesses a possible form f of…",
+  "legacy_id": "DEF-Q14-FORM-CAPACITY",
   "term": "aptitude for the form of another thing",
   "definition": "ForeignFormCapacity m x witnesses a possible form f of another thing and a mode in which x can have it. ForeignForm is provenance of the form, not inequality in species to x's own form. CanHaveForm is aptitude, not an actual event of acquisition or a constitutive bodily property. Cognitive is a primitive predicate for the cognitive nature under discussion; it is not defined as immateriality, intellect, or information processing.",
   "basis": "stipulative",

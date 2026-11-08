@@ -1,27 +1,29 @@
 {
-  "id": "STMT-FIRST-WAY-SLICE-ROUTE-OUTCOME",
+  "id": "d1e57427-c243-59f4-bd11-11823fd22f34",
+  "label": "At each time at which something is moved, it cannot be lacking that some being moves something at…",
+  "legacy_id": "STMT-FIRST-WAY-SLICE-ROUTE-OUTCOME",
   "paraphrase": "At each time at which something is moved, it cannot be lacking that some being moves something at that time and is moved in no respect at that time. No nonempty finite closed walk of event edges exists. And either every edge is strictly forward and each mover of another at t is moved in no respect at t, or no edge is backward and some edge is simultaneous. Unmoved at t is not unmoved at every time; the event relation need not be well-founded.",
   "lean_declaration": "TruthCore.Causality.TemporalPrimaVia.SliceRouteOutcome",
   "definition_ids": [
-    "DEF-TEMPORAL-DIRECTION-PROFILES",
-    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
-    "DEF-TEMPORAL-MOTION-PROJECTION",
-    "DEF-TIME-SLICED-FIRST-MOVER",
-    "DEF-PER-SE-LINK-ON-SIMULTANEOUS-EDGE",
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-PER-SE-LINK-STRONG",
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "60f8aca0-80c5-55e9-a26d-bfff260a7060",
+    "4ffdfea6-0a5a-513c-a710-050648c260bf",
+    "cacb293c-7ae7-52db-967a-776b4ac5dc97",
+    "939b42aa-ff78-54d7-b419-f2ae94c8f832",
+    "284b5822-af4c-5110-9f89-07983274ecb2",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNMOVED-AT-A-TIME",
-    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
-    "DISAMB-PER-SE-LINK",
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+    "215fdc0a-7005-510d-91da-84fcbc77a9dc",
+    "b4da30a9-86f7-57cc-a0c9-17b5dd216ccd",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

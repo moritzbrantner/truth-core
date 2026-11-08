@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-1949-TRIVIALIZATION",
-  "argument_id": "CHURCH-1949-TRIVIALIZATION",
+  "id": "c3572a88-7571-5316-8581-c2925f70cb91",
+  "label": "Church's trivialization of Ayer's 1946 criterion: in any TRUTH_CONDITIONAL_LANGUAGE_4 with three…",
+  "legacy_id": "CHURCH-1949-TRIVIALIZATION",
+  "argument_id": "da248abf-a29d-5617-afe8-ed278ca610c8",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Church.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Church.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Church.churchTrivialization",

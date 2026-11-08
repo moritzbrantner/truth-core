@@ -41,10 +41,9 @@ class DefinitionTest(unittest.TestCase):
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_definition(DEFINITION_PATH, definition(basis="stipulative"), set(), LEAN)
 
-    def test_rejects_unknown_basis_prefix_and_lean_declaration(self) -> None:
+    def test_rejects_unknown_basis_and_lean_declaration(self) -> None:
         bad = (
             definition(basis="obvious", note="n"),
-            definition(id="X", basis="stipulative", note="n"),
             definition(basis="stipulative", note="n", lean_declaration="A.Missing"),
         )
         for record in bad:
@@ -60,16 +59,22 @@ class DefinitionTest(unittest.TestCase):
 
 class DisambiguationTest(unittest.TestCase):
     def test_needs_two_known_senses(self) -> None:
-        record = {"id": "DISAMB-X", "term": "x", "resolution": "r", "sense_definition_ids": ["DEF-A", "DEF-B"]}
-        corpus.validate_disambiguation(DISAMBIGUATION_PATH, record, {"DEF-A", "DEF-B"})
+        record = {"id": "DISAMB-X", "term": "x", "resolution": "r", "sense_definition_ids": ["DEF-A", "DEF-B"],
+                  "term_label": "X", "senses": [
+                      {"id": "11111111-1111-4111-8111-111111111111", "label": "X_1", "definition_id": "DEF-A"},
+                      {"id": "22222222-2222-4222-8222-222222222222", "label": "X_2", "definition_id": "DEF-B"}]}
+        corpus.validate_disambiguation(DISAMBIGUATION_PATH, record, {"DEF-A", "DEF-B"}, "")
+        with self.assertRaises(corpus.CorpusError):
+            corpus.validate_disambiguation(DISAMBIGUATION_PATH, {**record, "senses": record["senses"][:1]},
+                                           {"DEF-A", "DEF-B"}, "")
         for senses in (["DEF-A"], ["DEF-A", "DEF-A"], ["DEF-A", "DEF-UNKNOWN"]):
             with self.subTest(senses=senses), self.assertRaises(corpus.CorpusError):
                 corpus.validate_disambiguation(
-                    DISAMBIGUATION_PATH, {**record, "sense_definition_ids": senses}, {"DEF-A", "DEF-B"}
+                    DISAMBIGUATION_PATH, {**record, "sense_definition_ids": senses}, {"DEF-A", "DEF-B"}, ""
                 )
         with self.assertRaises(corpus.CorpusError):
             corpus.validate_disambiguation(
-                DISAMBIGUATION_PATH, {**record, "resolution": ""}, {"DEF-A", "DEF-B"}
+                DISAMBIGUATION_PATH, {**record, "resolution": ""}, {"DEF-A", "DEF-B"}, ""
             )
 
 

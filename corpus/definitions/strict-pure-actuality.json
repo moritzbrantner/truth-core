@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRICT-PURE-ACTUALITY",
+  "id": "b5ac268c-7497-5780-a154-3f84c34ac709",
+  "label": "STRICT_PURE_ACTUALITY_2: Every real determination of a first mover is a pure perfection: for every…",
+  "legacy_id": "DEF-STRICT-PURE-ACTUALITY",
   "term": "strict pure actuality",
   "definition": "Every real determination of a first mover is a pure perfection: for every first mover f and every d with Has f d, Pure d.",
   "basis": "stipulative",

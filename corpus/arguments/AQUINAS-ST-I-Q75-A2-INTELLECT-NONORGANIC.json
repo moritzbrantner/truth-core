@@ -1,25 +1,27 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "id": "0bd5b32f-838a-52c2-a8b1-c4dc96a428b5",
+  "label": "No body can be the instrument…, from The designated human intellectual principle… and 2 more",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
   "premise_statement_ids": [
-    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
-    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
-    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION"
+    "f571b2a0-d5d1-5e8d-821e-582163055902",
+    "3a704795-c9b6-532e-bb8b-b4f4d2cf4fb8",
+    "5a8deceb-0289-5606-8046-c81bce1bed37"
   ],
-  "conclusion_statement_id": "STMT-HUMAN-INTELLECT-USES-NO-BODILY-ORGAN",
+  "conclusion_statement_id": "72c895c7-9a8b-513f-9c78-9cb64ebaedff",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC"
+    "b206ca27-7426-53e4-9431-6778ff9166dd"
   ],
   "meaning": "Conditional organ inference of q.75 a.2 from the two existing cognitive-scope and bodily-determinacy premises and the new source-attributed organ-interference premise. Three omission controls exhibit an organ when any premise is removed; the organ-interference control also retains non-bodyhood and the old interference premise. The controls test formal-schema entailment, not metaphysical possibility or a whole physicalist theory. No root premise is discharged.",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE",
-    "DEF-Q75-ORGAN-EXERCISE",
-    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9",
+    "35a01636-e163-5b03-80b0-22e83004cfe6",
+    "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "0ad6390d-a011-5319-800a-f95750632746",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

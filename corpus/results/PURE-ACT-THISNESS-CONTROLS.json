@@ -1,6 +1,8 @@
 {
-  "id": "PURE-ACT-THISNESS-CONTROLS",
-  "argument_id": "PURE-ACT-THISNESS-CONTROLS",
+  "id": "7349a3d5-f4c0-5464-bf00-d97e8b505715",
+  "label": "Finite interpretations",
+  "legacy_id": "PURE-ACT-THISNESS-CONTROLS",
+  "argument_id": "9baee62c-94ec-5764-97bf-9ad93fa22cff",
   "challenge_module": "TruthCore.Results.Causality.PureActThisness.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureActThisness.Solution",
   "theorem": "TruthCore.Results.Causality.PureActThisness.controls",

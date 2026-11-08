@@ -1,9 +1,11 @@
 {
-  "id": "INF-DIVINE-FOUNDING-DEFINITION-CASES",
+  "id": "519d0fbc-1626-5e30-a82b-c14dd891692c",
+  "label": "For the fixed semantic profile, the direct-only reading holds, or the…, by Constructive-proof",
+  "legacy_id": "INF-DIVINE-FOUNDING-DEFINITION-CASES",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-DIVINE-FOUNDING-READING-CASES-COVER",
+  "output_statement_id": "ae7fff46-855c-5430-a584-0def2a18e2f4",
   "rule": "constructive-proof",
   "meaning": "Logical case coverage with a precise remainder follows by two instances of excluded middle. It neither eliminates a case nor proves named-only coverage.",
   "assumption_statement_ids": [],

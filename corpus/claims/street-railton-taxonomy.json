@@ -1,16 +1,18 @@
 {
-  "id": "STREET-RAILTON-WELFARE-TAXONOMY",
-  "statement_id": "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
-  "source_id": "STREET-DARWINIAN-DILEMMA",
+  "id": "da00ed9c-bef3-555f-8af8-c968dcca0d34",
+  "label": "Sharon Street, A Darwinian Dilemma for…: Street classifies Railton’s account of individual…",
+  "legacy_id": "STREET-RAILTON-WELFARE-TAXONOMY",
+  "statement_id": "7f6bc715-c337-5618-8aa7-cef7414662dd",
+  "source_id": "d7ffb39e-a815-5d14-902f-3594feef66ef",
   "locator": "pp. 136–139, §7: value naturalism; especially p. 137 and note 42",
   "interpretation": "Street’s classification of the individual-welfare account only; not a reclassification of every Railton commitment, a refutation, or an identification of welfare with impartial moral rightness. The project’s appraiser-independence vocabulary is weaker, and Railton’s own natural-basis explanatory order remains separately recorded.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-STREET-STANCE-INDEPENDENCE",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
-    "DEF-RAILTON-NONMORAL-WELFARE"
+    "e1aab5d4-0115-53d3-ab0c-2a3ead63e6d3",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

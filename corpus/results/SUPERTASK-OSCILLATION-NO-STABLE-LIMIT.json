@@ -1,6 +1,8 @@
 {
-  "id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
-  "argument_id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "id": "8298d052-3432-5e27-9d7f-04f938b1fc68",
+  "label": "An output that toggles at every natural-number-indexed stage has no terminal Boolean value under…",
+  "legacy_id": "SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "argument_id": "c8461dc8-b179-57b5-b5f4-09d85efd0851",
   "challenge_module": "TruthCore.Results.Causality.SupertaskOscillation.Challenge",
   "solution_module": "TruthCore.Results.Causality.SupertaskOscillation.Solution",
   "theorem": "TruthCore.Results.Causality.SupertaskOscillation.supertaskOscillation",

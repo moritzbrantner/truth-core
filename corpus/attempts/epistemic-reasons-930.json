@@ -1,31 +1,33 @@
 {
-  "id": "ATTEMPT-EPISTEMIC-REASONS-930",
+  "id": "99902755-3eec-5ad1-a2b9-355412bb265a",
+  "label": "Positive analyst argument for a defeasible epistemic reason against wishful distortion, with…",
+  "legacy_id": "ATTEMPT-EPISTEMIC-REASONS-930",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-EPISTEMIC-ACCURACY-CERTIFICATE",
-    "STMT-EPISTEMIC-ACCURACY-DOMINANCE",
-    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-THRESHOLD-BELIEF-CORE",
-    "STMT-THRESHOLD-BELIEF-UNIFORM",
-    "STMT-THRESHOLD-BELIEF-SUPPORT",
-    "STMT-THRESHOLD-BELIEF-SKEW"
+    "e2a62f43-36a5-5494-bcf0-79eb3b744b26",
+    "a417c4b4-7f0e-5222-a74b-3c311fcb8133",
+    "27b621ae-2f38-58a5-90c0-378ef2da7c4b",
+    "35901b8a-de6e-5e0d-9044-c86f55670b00",
+    "ab0e2471-5147-54bc-a13a-ca53f6857947",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "1109d983-5dbd-5b2d-ad9e-b0dc9e7be588",
+    "b2fe5298-9337-51e6-a56e-350fcabaa079",
+    "3cfdc070-eb49-531a-baa4-352f97a13dae",
+    "ed75d6fc-e142-5a41-8c5d-cfd41d987d50"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Positive analyst argument for a defeasible epistemic reason against wishful distortion, with reasons for its truth-standard, restricted independence and normative correction bridge. Knife/chess objection defeats automatic categorical duty but does not settle the defended domain-relative reason claim. Strong goal-relative rival accepts correctness/error algebra while rejecting its preference-independent reason-giving force. New expected-error regret, strict optimum, robust uncertain-assessment comparison and numerical comfort tradeoff formalized separately. No renamed Ought-to-Reason bridge or universal anti-skeptic claim. Attribution deferred; no source/claim/passages added. Details, rejected shortcuts, internalist/reliabilist and constitutive/practical distinctions persist in docs/notes/epistemic-reasons-930.md. Added probability-free statewise strict dominance for incoherent complementary credences: coherence projection improves summed Brier error in both truth states by exactly (r+s-1)^2/2. This removes probability-access/calibration assumptions for that restricted case, not for coherent wishful distortion generally. Inspected existing F6 common-ground floor and nihilism retorsion: existential acceptance does not identify concrete reasons or refute the nihilist; no duplicate Reason vocabulary or retorsion result.\n\n1063 threshold/full-belief follow-up (2026-11-06): no prior lottery/Lockean/preface result found after related/dossier and typed corpus search. Formalized the GENERAL finite heavy-core characterization, derived exact uniform closure boundary and every fixed subcertainty threshold lottery failure, finite union-bound degradation/threshold-one closure, and a nontrivial skew closed-consistent fallible model. Rejected pro tanto reason entails full belief, individually licensed implies jointly licensed, all threshold policies fail, probability one entails logical necessity, and a model supplies actual warrant. Attribution deferred; SEP Formal Representations of Belief4.2.2 and Epistemic Paradoxes3–4 are navigation only. Original Challenge frozen before Solutions at f683a206, SHA2810d7ac57cdf7fc6c945a556c550d3db82fabbc2af470cabb6cf6282b584dad. Existing Accuracy/Contrastive/Hume results inspected and retained as context, not restated as premises. Focused Solution build passed warning-free. All four new results pass Comparator plus independent NanoDa with exactly the permitted Mathlib trio, four exact bindings and zero mismatches. Corpus/source-manifest/attribution/module-format/generator/whitespace checks pass. The original Challenge remains unchanged. Main merges changed no relevant proof input; accepted checks are reused. Computed root90→90 (30bare/18supported/42stated), cheapest31→31. Final delivered-head CI/review remains pending; no philosophical premise is discharged.",
   "evidence": [
-    "LOGIC-EPISTEMIC-ACCURACY",
-    "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
-    "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "THRESHOLD-BELIEF-CORE",
-    "THRESHOLD-BELIEF-UNIFORM",
-    "THRESHOLD-BELIEF-SUPPORT",
-    "THRESHOLD-BELIEF-SKEW"
+    "49eb8702-ac7a-54e9-90e1-bcd38601b40b",
+    "77c391d3-5d64-5c64-b873-93f4c12907ed",
+    "5cc22cdb-1c6a-51b7-a427-d67200e2076c",
+    "e3c27a3c-6056-5753-8c0d-232bb901e342",
+    "02304e21-083a-59f1-9386-6d50c8fad27c",
+    "e11c8e74-1bb4-51a3-aaf8-44b1199a1170",
+    "20268de2-567f-5d73-8154-963107e7cd63",
+    "2aab3e6d-52b9-55f3-82d1-a3c3abb2242a",
+    "2e5b3dae-5b1f-5bd5-af84-4ff2d7ff8eaa"
   ],
   "blocker": "The reason-giving correction bridge has philosophical support but remains open against a coherent revisionary goal-relative rival; actual warrant/calibration for a probability interval is not supplied. Formal consequence does not establish normativity. No root premise discharge. Full4438-job build, exact2-result binding and BOTH Comparator plus independent result NanoDa checks PASS. Corpus/bundle/source-manifest/attribution/module-format/generator/whitespace checks PASS. An optional library invocation still present in the running shell used unsupported positional arguments and returned usage without running library verification; no proof failure, final-head CI supplies library coverage. Unchanged proof evidence is retained across the unrelated Ethics-only main merge; convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0."
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-MATT-16-SUPPORTS-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH",
+  "id": "bfa19d47-c2f0-5fa8-981b-094baf48c1ea",
+  "label": "New Testament, Matthew 16.18-19: Matthew… supports Any two visible societies with an authority…",
+  "legacy_id": "REL-MATT-16-SUPPORTS-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-16-18-19-CHURCH-ON-ROCK-KEYS-BINDING",
+  "subject_id": "04c15458-22f6-51b2-bf8f-c49bff340401",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-JESUS-FOUNDED-AT-MOST-ONE-VISIBLE-CHURCH",
+  "object_id": "e0e35789-1b8d-5fd7-a5a5-b5ab20d20fee",
   "note": "Matthew reports Jesus speaking of 'my ekklesia' in the singular. That Jesus founded at most one visible society with authority, and that societies are identified through time, are the analyst's; the report is a promise ('I will build') and says nothing about other societies."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "FIDEISM-GRAMMAR-CASES-PARTITION",
-  "argument_id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "id": "7c61a464-0c38-5312-a079-e3ca2527b70a",
+  "label": "Every practice lies in one of three cells: its…, from Excluded middle as a general principle…",
+  "legacy_id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "argument_id": "c69cff48-2daf-5b65-ae6a-8cbdecd26b43",
   "challenge_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.FideismGrammarPartition.Solution",
   "theorem": "TruthCore.Results.Alternatives.FideismGrammarPartition.partition",

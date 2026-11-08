@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUM1-COMPLEMENTATION-RIVALS",
+  "id": "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+  "label": "Sum1 and exact-remainder omission…: JoinRival has three incomparable atoms a,b,c below one top…",
+  "legacy_id": "DEF-SUM1-COMPLEMENTATION-RIVALS",
   "term": "Sum1 and exact-remainder omission controls",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.RivalCertificate",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POPULATION-AVERAGE-RANKING",
+  "id": "9ecfcde0-3084-57ed-ac66-772360640b26",
+  "label": "STRICT_AVERAGE_RANKING_3: AverageRanking r means that r p q holds exactly when q has strictly…",
+  "legacy_id": "DEF-POPULATION-AVERAGE-RANKING",
   "term": "strict average ranking",
   "definition": "AverageRanking r means that r p q holds exactly when q has strictly greater mean than p. It uses the same scale and domain as TotalRanking, so differing counts can reverse the two comparisons.",
   "basis": "stipulative",

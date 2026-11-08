@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CATHOLIC-RECEPTION-OF-GREEK-C381-SYMBOL",
+  "id": "0aed2de3-3850-548f-81df-b644ed95f835",
+  "label": "The Catholic Church acknowledges the Greek Symbol professed at Constantinople in 381 as an…",
+  "legacy_id": "STMT-CATHOLIC-RECEPTION-OF-GREEK-C381-SYMBOL",
   "paraphrase": "The Catholic Church acknowledges the Greek Symbol professed at Constantinople in 381 as an ecumenical, normative and irrevocable expression of the common faith; particular liturgical professions may not contradict it.",
   "definition_ids": [
-    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
-    "DEF-CREED-GREEK-C381-CONTENT"
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc",
+    "e67ab833-b652-53a1-aa13-e58389158dde"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREED-CONTENT-AND-FORMULA"
+    "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a"
   ]
 }

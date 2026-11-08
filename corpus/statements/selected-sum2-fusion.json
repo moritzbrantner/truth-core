@@ -1,17 +1,19 @@
 {
-  "id": "STMT-SELECTED-SUM2-FUSION",
+  "id": "7f6e2365-5087-553c-8245-cb2205becb05",
+  "label": "The selected object satisfies the already-defined Sum2 Fusion of the supplied family in the fixed…",
+  "legacy_id": "STMT-SELECTED-SUM2-FUSION",
   "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion",
   "paraphrase": "The selected object satisfies the already-defined Sum2 Fusion of the supplied family in the fixed partial-order carrier: every selected member is a part of it, and every part of it overlaps a selected member. This is a supplied mathematical premise, not unrestricted all-subset fusion, a universal entity, actual Ontic existence or a source A2 identification.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "8faca70d-391a-5223-b3e8-2482038ac3ce",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

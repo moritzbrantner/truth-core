@@ -1,0 +1,14 @@
+{
+  "id": "2a1c1068-06e1-5cd3-b09a-0293e5671f38",
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
+  "legacy_id": "INF-LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "input_statement_ids": [
+    "473f3a7f-0730-5bdc-a7e2-772c8372ffd7",
+    "138a151b-285a-5181-829b-5464968164ac"
+  ],
+  "output_statement_id": "812b52b3-de7d-5982-93a9-e46b6e169616",
+  "rule": "Hypothetical syllogism through the sense bridge",
+  "meaning": "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

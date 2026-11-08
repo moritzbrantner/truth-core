@@ -1,18 +1,20 @@
 {
-  "id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "id": "5e9465e7-38a0-5fb7-aaeb-316fa19e1835",
+  "label": "Strong verification excludes universal laws: in every setting with infinitely many individuals…",
+  "legacy_id": "STRONG-VERIFICATION-EXCLUDES-LAWS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "conclusion_statement_id": "256d6e71-ae71-52b1-ba03-bc3c9593ec50",
   "inference_ids": [
-    "INF-STRONG-VERIFICATION-EXCLUDES-LAWS"
+    "6103f6df-ce84-51d7-bee7-d7c9da67a6f8"
   ],
   "meaning": "From no premises, for every law setting: suppose finitely many jointly satisfiable observation statements entailed the law 'every R is B'. They are about finitely many individuals; pick one, a, that none is about, and vary the world where they all hold so that a is an R and not B. They still hold, so the law holds there, yet a is a counterinstance. So the law is not conclusively verifiable. Its negation is: the observations R a and not-B a, when jointly possible, entail it. The hypotheses are satisfiable (lawSettingInhabited). That laws are therefore meaningless by V1 conflicts with no established floor item: the defeat needs an open premise (laws are meaningful, or meaningfulness is closed under negation).",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-UNIVERSAL-LAW-SETTING"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "13a5c026-997e-5198-b77e-ccd215344107"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

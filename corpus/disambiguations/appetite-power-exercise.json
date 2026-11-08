@@ -1,10 +1,31 @@
 {
-  "id": "DISAMB-APPETITE-POWER-AND-EXERCISE",
+  "id": "941efd70-d56f-53f9-b5f9-8acd36711a54",
+  "label": "Having will or appetite versus exercising it",
+  "legacy_id": "DISAMB-APPETITE-POWER-AND-EXERCISE",
   "term": "having will or appetite versus exercising it",
   "sense_definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-COGNITION-RELATIVE-APPETITE",
-    "DEF-ACT-OF-WILL"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c",
+    "9f448669-6387-5244-a2ec-f9f90618c037"
   ],
-  "resolution": "The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast."
+  "resolution": "The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast.",
+  "term_label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING",
+  "senses": [
+    {
+      "id": "82f9f21d-b563-48b4-ad96-5384d148ca12",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_1",
+      "definition_id": "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+      "lean_declaration": "TruthCore.Case.Catholicism.GodHasWill"
+    },
+    {
+      "id": "183bff99-a67d-46f9-ae43-a68cba27119c",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_2",
+      "definition_id": "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
+    },
+    {
+      "id": "9931b112-52ba-466c-945a-c5cd7f73a8f3",
+      "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_3",
+      "definition_id": "9f448669-6387-5244-a2ec-f9f90618c037"
+    }
+  ]
 }

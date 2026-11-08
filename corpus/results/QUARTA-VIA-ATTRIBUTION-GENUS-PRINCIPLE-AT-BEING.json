@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
-  "argument_id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
+  "id": "a5d1dd3d-eacb-5bb2-9d79-e16a3341a052",
+  "label": "The genus principle at being only: whatever is maximal…, via attribution genus principle at being",
+  "legacy_id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
+  "argument_id": "18fe3293-895f-5fe1-b142-14d33b6c1ae9",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaAttributionGenusAtBeing.attributionOrderGenusPrincipleAtBeing",

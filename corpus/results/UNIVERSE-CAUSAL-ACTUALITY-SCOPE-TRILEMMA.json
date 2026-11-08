@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
-  "argument_id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "id": "2005b2aa-ceca-555c-822e-85adcce20975",
+  "label": "Structural trilemma on the SAME generic…, from Excluded middle as a general principle…",
+  "legacy_id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "argument_id": "f5e9bf3f-d0dd-52c7-ba85-5a1b7478073d",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.Coverage.coverage",
@@ -9,24 +11,24 @@
   "description": "Checked structural trilemma distinguishes existing-causer, no-edge, and only-absent-causer assignments without claiming philosophical theories exhaustive.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "target_statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
     "cases": [
       {
         "label": "existing causer",
-        "statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+        "statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
         "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseHasExistingCause"
       },
       {
         "label": "no causal edge",
-        "statement_id": "STMT-UNIVERSE-UNCAUSED",
+        "statement_id": "0d563c5b-413a-5463-b556-adbb34bf458e",
         "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseUncaused"
       },
       {
         "label": "candidate edges but no existing causer",
-        "statement_id": "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS",
+        "statement_id": "516be275-934a-59e1-bbb2-02fc3b57a936",
         "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.OnlyAbsentCausers"
       }
     ],
-    "survival_result_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES"
+    "survival_result_id": "3f98370d-d53a-5931-98ee-be63381ddafb"
   }
 }

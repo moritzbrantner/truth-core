@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-INSTITUTED-SUPPORTS-CATHOLIC-CHURCH-JESUS-FOUNDED",
+  "id": "4117d874-9126-5651-bf60-fbedc51a6b00",
+  "label": "First Vatican Council, Dei Filius Ch. 3…… supports The Catholic Church is a visible society…",
+  "legacy_id": "REL-DEI-FILIUS-INSTITUTED-SUPPORTS-CATHOLIC-CHURCH-JESUS-FOUNDED",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-CHURCH-GOD-FOUNDED-TEACHER",
+  "subject_id": "451a554f-e9d9-52d9-bd5b-c1a74a10d140",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY",
+  "object_id": "d453e09f-fb59-595e-92a3-150339d36c71",
   "note": "Dei Filius ch. 3 says God instituted the Church through his only-begotten Son, as guardian and teacher of the revealed word. Reading 'through the Son' as Jesus' founding act, and the instituted Church as the Catholic Church as a visible society with authority, is the analyst's reading of the encoded statement."
 }

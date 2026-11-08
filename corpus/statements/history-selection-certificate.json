@@ -1,17 +1,19 @@
 {
-  "id": "STMT-HISTORY-SELECTION-CERTIFICATE",
+  "id": "8cb72b43-74b2-5dad-ad9a-73eadae47602",
+  "label": "For any typed history and admitted truth-vector, determining the complete supplied history among…",
+  "legacy_id": "STMT-HISTORY-SELECTION-CERTIFICATE",
   "paraphrase": "For any typed history and admitted truth-vector, determining the complete supplied history among accessible worlds is equivalent to existence of an evidence-only candidate satisfying the entailing discriminator. An accessible different history with the same whole vector defeats every such candidate, including arbitrary infinitary recombinations. Composed controls retain existing all-on/off transmission, a unique beginningless Int signal under an independent gate law, a source-free copying graph, identical selection failures and internal-marker successes for source-free and rooted presence histories, and the existing source-plus-infinite-branch model. These are conditional informational constraints and stipulated models, not metaphysical adequacy or actuality.",
   "lean_declaration": "TruthCore.Explanation.HistorySelection.Certificate",
   "definition_ids": [
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-HISTORY-SELECTION-CONTROLS",
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-UNIQUE-FEEDBACK-STATE",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "23c649fa-6acc-5816-954b-5de851e007c1",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

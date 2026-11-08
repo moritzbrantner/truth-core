@@ -1,15 +1,17 @@
 {
-  "id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "id": "6cc8853d-f5e1-5d92-9481-780754e4e61d",
+  "label": "Each thing that can not-be is, at…, from The past is infinite: before every time up… and 1 more",
+  "legacy_id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
   "premise_statement_ids": [
-    "STMT-PAST-IS-INFINITE",
-    "STMT-PLENITUDE-OVER-INFINITE-PAST"
+    "d256e6d2-7f6e-51f2-b2f7-632344f12f09",
+    "b9baf50d-5e76-5eb6-86b5-ef888a241497"
   ],
-  "conclusion_statement_id": "STMT-WHAT-CAN-NOT-BE-SOMETIME-IS-NOT",
+  "conclusion_statement_id": "5abdebb4-c386-54d1-9289-1360261f2389",
   "inference_ids": [
-    "INF-BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT"
+    "bfb0e703-6b2f-5fd6-bb47-10cf4f4cd9a5"
   ],
   "meaning": "Bridge (#401): the tertia via's \"what can not-be, at some time is not\" (STMT-WHAT-CAN-NOT-BE-SOMETIME-IS-NOT) follows from the plenitude principle over an infinite past (STMT-PLENITUDE-OVER-INFINITE-PAST) together with an infinite past (STMT-PAST-IS-INFINITE). For a being that can not-be, the possibility of its not being is realized at some past time; so at some time it is not. The bridge uses only the past time that plenitude supplies, not its being before now.",
   "definition_ids": [
-    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+    "de94687a-6789-5599-b38d-14bef31148fd"
   ]
 }

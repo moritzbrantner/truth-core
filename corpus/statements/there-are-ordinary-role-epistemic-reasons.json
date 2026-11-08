@@ -1,12 +1,14 @@
 {
-  "id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
+  "label": "Some subject, consideration and attitude toward assessable content instantiate both attributed…",
+  "legacy_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
   "paraphrase": "Some subject, consideration and attitude toward assessable content instantiate both attributed reason status and favorable epistemic bearing in applicable circumstances. Favoring is separately interpreted rather than identified with production or reward. This analyst role existential remains open; it neither asserts preference-independent force nor inherits F6 approval.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
-    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE"
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "58ca78b4-33a8-5c4f-a3ee-e206d193f52a"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ],
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.SomeOrdinaryReason"
 }

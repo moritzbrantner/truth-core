@@ -1,14 +1,16 @@
 {
-  "id": "NT-JOHN-ABRAHAM-SAYING",
-  "statement_id": "STMT-REPORTED-JOHN-ABRAHAM-SAYING",
-  "source_id": "NT-JOHN",
+  "id": "34998c55-6f2c-50b6-8fa4-5a0f614ab730",
+  "label": "New Testament, John 8.58: The narrative attributes to Jesus the saying that contrasts before…",
+  "legacy_id": "NT-JOHN-ABRAHAM-SAYING",
+  "statement_id": "777e1ba1-f952-51e7-9001-f92ecd31ac6b",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "8.58",
   "interpretation": "The speech form retains the before-clause and I-am wording without silently supplying God, timelessness, or an ideal-existence complement. Personal preexistence is a substantive reading of the temporal contrast; its status and stronger divine-identity readings are discussed in docs/john-abraham-saying.md.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-ACTUAL-DENIAL",
+  "id": "0478df71-11e6-5d2d-b0db-544e7cb01c6c",
+  "label": "World-relative denial of the…: At world v, ¬StrongBridge F C v",
+  "legacy_id": "DEF-HUME-ACTUAL-DENIAL",
   "term": "world-relative denial of the unrestricted bridge",
   "definition": "At world v, ¬StrongBridge F C v. Denying this actual-world claim differs from Box F of that denial and from denying Box F H. No source endorsement is built in.",
   "basis": "stipulative",

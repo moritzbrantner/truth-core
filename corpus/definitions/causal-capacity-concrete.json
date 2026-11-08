@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-CAPACITY-CONCRETE",
+  "id": "a8fa0c36-adcb-5221-b61f-41189f09f357",
+  "label": "Concreteness by intervention response…: In this test the supplied concreteness criterion is…",
+  "legacy_id": "DEF-CAUSAL-CAPACITY-CONCRETE",
   "term": "concreteness by intervention response capacity",
   "definition": "In this test the supplied concreteness criterion is Capacity F ex response. ConcreteAt therefore requires present existence and a witnessed accessible response difference. The criterion is computed from a response table, not an unconstrained has-power atom. Lack of this outgoing capacity does not classify an entity as abstract. Spatial location and independence/actuality are separate unencoded criteria.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt",

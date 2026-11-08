@@ -1,6 +1,8 @@
 {
-  "id": "EP-ROLE-INDEPENDENT-FROM-THIN",
-  "argument_id": "EP-ROLE-INDEPENDENT-FROM-THIN",
+  "id": "73f46094-27ea-5eff-8e1b-1254af59b8c5",
+  "label": "Some ordinary-role epistemic reason retains pro tanto normative force across every…, from thin",
+  "legacy_id": "EP-ROLE-INDEPENDENT-FROM-THIN",
+  "argument_id": "e0c99541-7743-5fca-a65c-cc1146f37ae3",
   "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFromThin.independentFromThin",

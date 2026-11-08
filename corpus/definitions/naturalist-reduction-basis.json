@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NATURALIST-REDUCTION-BASIS",
+  "id": "f5e58217-9b11-5ead-8372-481cc8ee371f",
+  "label": "Natural reduction basis and natural…: Railton’s objective-interest truthmaker is a relational…",
+  "legacy_id": "DEF-NATURALIST-REDUCTION-BASIS",
   "term": "natural reduction basis and natural definition",
   "definition": "Railton’s objective-interest truthmaker is a relational, dispositional constellation of natural facts; idealized desires track it. Boyd instead permits causally important property clusters and mechanisms with no analytic definition or reduction into physics vocabulary. Sharing naturalism does not identify these accounts.",
   "basis": "sourced",
   "claim_ids": [
-    "RAILTON-175-TRUTHMAKER",
-    "BOYD-45-SEMANTIC-REPLY"
+    "6b8e734b-1119-546c-8ef4-e81a63574557",
+    "bf097963-af60-531a-9c75-25a36a3d5199"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-  "argument_id": "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "id": "e3c27a3c-6056-5753-8c0d-232bb901e342",
+  "label": "Within the fixed semantics of PR #924, any exact data-relative classifier for a content's truth…",
+  "legacy_id": "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "argument_id": "3bde1625-357d-5492-bafa-7dec04c13c65",
   "challenge_module": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Challenge",
   "solution_module": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.Solution",
   "theorem": "TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.boundary",

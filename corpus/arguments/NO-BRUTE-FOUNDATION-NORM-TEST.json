@@ -1,26 +1,28 @@
 {
-  "id": "NO-BRUTE-FOUNDATION-NORM-TEST",
+  "id": "19884ae4-3ba5-5d92-98d4-d27808315b16",
+  "label": "A contingent truth with a reason, with any two terminal facts supplying it being the same, under…",
+  "legacy_id": "NO-BRUTE-FOUNDATION-NORM-TEST",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "conclusion_statement_id": "87ea6f2c-0caf-589d-923d-3904cfd9fd53",
   "inference_ids": [
-    "INF-NO-BRUTE-FOUNDATION-NORM-TEST"
+    "6c351406-e39d-5bd7-97ae-4d70ce791b91"
   ],
   "meaning": "Tests the owner's candidate no-brute-indispensable-foundation norm: its implication, its survivors and its independence from evidence. The norm is open throughout; see docs/notes/stopping-points-746.md.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-SCOPE",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-PSR-REASON-INDEPENDENT",
-    "DEF-PSR-RESTRICTED-SCOPE",
-    "DEF-EPISTEMIC-SUPPORT",
-    "DEF-STOP-TERMINAL",
-    "DEF-STOP-FOUNDATION",
-    "DEF-NO-BRUTE-FOUNDATION-NORM"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "566c9d5f-0cd9-5c6b-87f2-855956d9d35f",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+    "fad6a806-713b-5318-8309-488af704d614",
+    "02c59c61-4cd1-5698-9338-e4a37ebf71f4",
+    "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
+    "6e0ea660-b90e-5941-8854-9f3065da893d",
+    "69debc99-edc7-545b-b91c-a082bf7b2f87"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-BRUTE-TERMINAL-UNREASONED",
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "7aba7955-aa37-5b08-a170-8420d6142d78",
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

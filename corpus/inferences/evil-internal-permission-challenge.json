@@ -1,9 +1,11 @@
 {
-  "id": "INF-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "id": "7d1c1375-48d5-5ee2-a732-1240cf8e7dc1",
+  "label": "In the supplied Rowe frame, existence of an omniscient, omnipotent, wholly…, by Constructive-proof",
+  "legacy_id": "INF-EVIL-INTERNAL-PERMISSION-CHALLENGE",
   "input_statement_ids": [
-    "STMT-ROWE-GRATUITOUS-SUFFERING"
+    "8eebfefd-e24a-52f0-bf85-5ced6b569eae"
   ],
-  "output_statement_id": "STMT-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "output_statement_id": "1f2dec4f-e494-50f7-a1df-ffd84f4f5c3c",
   "rule": "constructive-proof",
   "meaning": "Reuse the checked typed Rowe deductive core: actual gratuitous suffering implies that target narrow-theism attributes conflict with the target permission constraint. This is a hypothetical internal critique independent of any critic moral sentence's truth predicate. Neither gratuitous suffering nor the permission rule is independently established.",
   "assumption_statement_ids": [],

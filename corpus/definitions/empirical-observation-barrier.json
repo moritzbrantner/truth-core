@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EMPIRICAL-OBSERVATION-BARRIER",
+  "id": "59abe96c-f4aa-557f-beb0-9c33a2e01ec1",
+  "label": "OBSERVATION_INDISTINGUISHABILITY_BARRIER_6: Every world making the target true has a world making…",
+  "legacy_id": "DEF-EMPIRICAL-OBSERVATION-BARRIER",
   "term": "observation-indistinguishability barrier",
   "definition": "Every world making the target true has a world making it false with exactly the same truth verdicts for every observation sentence. This structural relation blocks finite satisfiable observation premises from entailing the target. It is a candidate barrier for one empirical standard, not theological:=unverifiable.",
   "basis": "stipulative",

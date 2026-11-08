@@ -1,22 +1,24 @@
 {
-  "id": "BCCF-DERIVATIVE-REPLY",
+  "id": "b635635e-d792-5248-b5db-ad8e0d3047fb",
+  "label": "With plural reasons at a world",
+  "legacy_id": "BCCF-DERIVATIVE-REPLY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BCCF-DERIVATIVE-REPLY",
+  "conclusion_statement_id": "775b08d6-e2bc-5ac7-81c5-cad0dca36d61",
   "inference_ids": [
-    "INF-BCCF-DERIVATIVE-REPLY"
+    "8e670021-0e57-5617-8569-033532233bdb"
   ],
   "meaning": "An axiom-free set of conditionals and models for #365. It accepts and rejects no member and attributes nothing to a source. Interpretation, sourced readings and limits are in docs/notes/bccf-sources-365.md.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-TOTALITY",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-PSR-REASON-DISTRIBUTION",
-    "DEF-BCCF-PLURAL-REASON",
-    "DEF-BCCF-DIRECT-CLASS"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "86760657-120c-5766-ac64-90080c9bc6b8",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "1ac12831-1341-5fb5-9624-07f083eb4d19",
+    "6bead600-5f07-57aa-b0b9-9235f7bf8859",
+    "837b6e34-2082-51d3-9214-45a36ce9e2aa"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-BCCF-DERIVATIVE-REPLY"
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "0fc5e01d-7eec-5c5a-a72a-a3726352e96c"
   ]
 }

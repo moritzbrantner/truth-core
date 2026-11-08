@@ -1,15 +1,17 @@
 {
-  "id": "INF-TEMPORAL-RECIPROCAL-FORK-USE",
+  "id": "5accc1c8-bec4-5513-a8d1-78fe4bfd7624",
+  "label": "Each reciprocal pair of event edges C e f and C f e has equal exercise…, by Disjunction elimination",
+  "legacy_id": "INF-TEMPORAL-RECIPROCAL-FORK-USE",
   "input_statement_ids": [
-    "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
-    "STMT-EVENT-CAUSATION-NONBACKWARD",
-    "STMT-EVENT-MOTION-PROJECTION",
-    "STMT-TIME-SLICED-LOCATED-MOTION",
-    "STMT-TIME-SLICED-POTENTIAL-MOTION",
-    "STMT-TIME-SLICED-ACTUAL-MOVER",
-    "STMT-TIME-SLICED-NOT-ACT-AND-POTENCY"
+    "2e6a7c42-730f-550f-a277-0891b7d806ae",
+    "6210b0e1-936d-5a77-a1ac-a13d330d9480",
+    "5d71a565-0593-58b6-9b3a-ab6c17af62b3",
+    "1a437bde-9abf-5d67-b2bc-8efa49ea0faf",
+    "c19f0770-7898-5103-aa30-c626a245cd5c",
+    "1692ce06-db84-55ad-9d5a-743c35d427c0",
+    "2c4677e4-0de2-50aa-81b5-5ec9a9d2a2ed"
   ],
-  "output_statement_id": "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "output_statement_id": "eb81571a-da65-58d4-88ea-ed064069ae2b",
   "rule": "disjunction_elimination",
   "meaning": "Fork applied here: TEMPORAL-DIRECTION-FRAMEWORK is instantiated and case-split in Reciprocal.consume. Strict forward rules out the reciprocal walk; explicit NoBackward rejects the backward witness. The remaining horn forces the two exercise times equal; exact imported CONSECUTIVE-MOVER-RESPECTS then rejects equal target respects under the event projection and four time-slice premises. All six advertised premises remain. The simultaneous alternating circle is jointly witnessed in TEMPORAL-ACTUALIZATION-CONTROLS, not eliminated. This connects #591/#310/#440 without selecting an actual metaphysical theory or closing a root premise.",
   "assumption_statement_ids": [],

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-DIVINE-NAMES-ANALOGICAL",
+  "id": "acddefeb-3af8-5ac0-bbe7-57368df3828f",
+  "label": "Names of perfections are said of GOD_4 and creatures neither univocally nor purely equivocally but…",
+  "legacy_id": "STMT-DIVINE-NAMES-ANALOGICAL",
   "paraphrase": "Names of perfections are said of God and creatures neither univocally nor purely equivocally but analogically, according to the order of the creature to God as its principle and cause.",
   "definition_ids": [
-    "DEF-BEING-ANALOGICAL",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-GOD"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

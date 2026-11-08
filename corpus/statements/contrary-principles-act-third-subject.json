@@ -1,5 +1,7 @@
 {
-  "id": "STMT-CONTRARY-PRINCIPLES-ACT-ON-THIRD-SUBJECT",
+  "id": "7a645f30-bc0a-55e0-a185-758d935c5e47",
+  "label": "Opposed principles do not produce one another directly; both act upon a third subject distinct…",
+  "legacy_id": "STMT-CONTRARY-PRINCIPLES-ACT-ON-THIRD-SUBJECT",
   "paraphrase": "Opposed principles do not produce one another directly; both act upon a third subject distinct from them.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContraryPrinciplesActOnThirdSubjectReading"
 }

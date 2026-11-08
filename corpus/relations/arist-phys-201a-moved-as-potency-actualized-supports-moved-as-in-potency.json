@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-SUPPORTS-MOVED-AS-IN-POTENCY",
+  "id": "5eaff7e9-117b-54f0-9161-5da929e3392a",
+  "label": "Aristotle, Physics III.1, 201a10-11: A… supports Nothing is moved except insofar as it is in…",
+  "legacy_id": "REL-ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-SUPPORTS-MOVED-AS-IN-POTENCY",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
+  "subject_id": "0a4a8418-056e-5d6d-b0a8-51b5ee4d0eb4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "object_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "note": "The respect-indexed III.1 definition entails the premise, but is no stronger than it (ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE)."
 }

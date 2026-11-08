@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-EQUIVALENCE",
-  "argument_id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "id": "21025c5a-8e53-5d35-9044-d8239329dac7",
+  "label": "For every shared entity type with decidable equality, generation predicate and CAUSE_2 relation…",
+  "legacy_id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "argument_id": "c64a25ba-8890-538a-9f83-33ed4e6b6895",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.equivalence",

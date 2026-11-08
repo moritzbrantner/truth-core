@@ -1,19 +1,21 @@
 {
-  "id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "id": "7f17e7ee-0ada-5041-8582-a46b04d39bc0",
+  "label": "Second-order test for local relativism: a local thesis inside its own domain is not absolutely…",
+  "legacy_id": "RELATIVISM-LOCAL-SECOND-ORDER",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+  "conclusion_statement_id": "b42eedf1-2b98-526f-aaee-d15176319c78",
   "inference_ids": [
-    "INF-RELATIVISM-LOCAL-SECOND-ORDER"
+    "911a1a97-197c-53c1-847d-648aa79b76b9"
   ],
   "meaning": "The demarcation test (imported from LOGIC-DEMARCATION-TEST) applied to local relativism: a local thesis inside its own domain falls back to the relative horn; outside, if absolutely true, it is an absolute truth and defeats global relativism.",
   "definition_ids": [
-    "DEF-LOCAL-NO-ABSOLUTE-TRUTH",
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-ABSOLUTE-TRUTH"
+    "415d5f69-5f5e-549c-aba9-a2c514e85c8e",
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68",
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

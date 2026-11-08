@@ -1,6 +1,8 @@
 {
-  "id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
-  "argument_id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "id": "ae18d5dd-8202-5d90-81a7-190e5730c056",
+  "label": "Exact negation of the old…, from Some actual opiner of a supplied content is…",
+  "legacy_id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "argument_id": "25f9d224-35b9-5e84-b9bc-8fec0be53238",
   "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.CounterFailure.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.CounterFailure.Solution",
   "theorem": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.CounterFailure.counterFailure",

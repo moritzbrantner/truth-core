@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-CONTINGENCY-LOCALIZATION",
-  "argument_id": "JOINT-CONTINGENCY-LOCALIZATION",
+  "id": "cfba23fc-8999-55ca-a229-477feb0c6659",
+  "label": "Some f belongs to S and satisfies the existing…, from The fixed selected conjunction actually…",
+  "legacy_id": "JOINT-CONTINGENCY-LOCALIZATION",
+  "argument_id": "fbf6b3fe-7ce8-52fb-b7ee-f0df828ec9df",
   "challenge_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Solution",
   "theorem": "TruthCore.Results.Explanation.JointContingencyLocalization.localize",

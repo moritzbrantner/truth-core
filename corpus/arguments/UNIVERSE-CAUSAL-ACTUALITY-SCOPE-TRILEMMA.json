@@ -1,15 +1,17 @@
 {
-  "id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
+  "id": "f5e9bf3f-d0dd-52c7-ba85-5a1b7478073d",
+  "label": "Structural trilemma on the SAME generic…, from Excluded middle as a general principle…",
+  "legacy_id": "UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-UNIVERSE-EXISTING-CAUSE-NO-CAUSE-ABSENT-CAUSERS-TRILEMMA",
+  "conclusion_statement_id": "b467445b-e146-5dce-9658-0ac9e4e1239a",
   "inference_ids": [
-    "INF-UNIVERSE-CAUSAL-ACTUALITY-SCOPE-TRILEMMA"
+    "7f57ff4c-36ed-5d69-91d8-0bc547d7d33b"
   ],
   "meaning": "Checked structural trilemma distinguishes existing-causer, no-edge, and only-absent-causer assignments without claiming philosophical theories exhaustive.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
-  "argument_id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "id": "941cfcb3-5ef8-5493-8837-4a2c8081ea29",
+  "label": "The selected Church predicate applies exactly when the same society…, from aspect inclusions",
+  "legacy_id": "CHURCH-JOINT-CRITERION-FROM-ASPECT-INCLUSIONS",
+  "argument_id": "e0607272-250a-50be-87ef-7d985d046ed1",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.churchJointFromAspects",

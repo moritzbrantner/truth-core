@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206B-INFINITE-OUTSIDE-A",
-  "statement_id": "STMT-INFINITE-ALWAYS-SOMETHING-OUTSIDE",
-  "source_id": "ARIST-PHYS",
+  "id": "6edbaca8-9af4-5bf8-809c-356a1b9d1ed0",
+  "label": "Aristotle, Physics III.6, 206b33-207a14: A quantity is infinite when, however much has been taken…",
+  "legacy_id": "ARIST-PHYS-206B-INFINITE-OUTSIDE-A",
+  "statement_id": "809d40bc-e209-5093-b75a-e4d48ba388f1",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206b33-207a14",
   "interpretation": "Definition-like formulation: infinity belongs to a quantity for which something further can always be taken beyond what has already been taken. This opposes treating the infinite as a finished whole with nothing outside it.",
   "status": "formalized"

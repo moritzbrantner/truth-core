@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRENGTH-ORDER-DELTA-FORWARD",
+  "id": "c150cff4-29d0-565a-b872-7f6a7127b4be",
+  "label": "For the same mathematical x,y, y is not equal to x; this is proposed…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-ORDER-DELTA-FORWARD",
   "input_statement_ids": [
-    "STMT-STRENGTH-ORDER-GREATER"
+    "51bb0eeb-f3fb-5ce1-9e11-a127788f8506"
   ],
-  "output_statement_id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "output_statement_id": "9b7e39ea-f8d1-5762-add4-8d3b880652f1",
   "rule": "typed_strength_comparison",
   "meaning": "Apply pinned Mathlib ne_of_gt to the same ordered x,y.",
   "assumption_statement_ids": [],

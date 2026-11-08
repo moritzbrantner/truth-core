@@ -1,7 +1,9 @@
 {
-  "id": "INF-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "id": "32e9d3db-e843-5ca0-b96a-3646198ab223",
+  "label": "Under the explicit tagged-world realization, the SAME Unit concrete bearer…, by Model-construction",
+  "legacy_id": "INF-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "output_statement_id": "59fb5678-140d-50c9-aae1-5193bd5c4bbc",
   "rule": "model-construction",
   "meaning": "Realize the supplied intervention outputs as existence of the same rigid bearer at explicitly tagged setting worlds; prove observational reduction, actual concreteness/contingency/coherence and a setting-world difference. Reuse the original checked verification-independence result.",
   "assumption_statement_ids": [],

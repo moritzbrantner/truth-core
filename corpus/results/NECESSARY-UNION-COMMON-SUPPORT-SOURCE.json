@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
-  "argument_id": "NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
+  "id": "a52b95fc-0990-548b-9788-ac86201d7470",
+  "label": "Some same named actual necessarily…, from At least one individual exists at the… and 6 more",
+  "legacy_id": "NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
+  "argument_id": "0404571e-999f-50b4-830e-b7d3e41f2567",
   "challenge_module": "TruthCore.Results.Causality.UnderivedCommonSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedCommonSource.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedCommonSource.from_union",

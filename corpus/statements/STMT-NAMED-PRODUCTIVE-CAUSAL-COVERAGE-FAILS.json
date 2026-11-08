@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "id": "bd355c11-ff47-57d8-af78-7f4c6be60973",
+  "label": "Exact negation of the explicit named-case coverage hypothesis, not an unspecified claim that more…",
+  "legacy_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
   "paraphrase": "Exact negation of the explicit named-case coverage hypothesis, not an unspecified claim that more theories might be found.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCoverageFails",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

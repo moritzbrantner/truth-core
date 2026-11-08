@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TARGET-COPY-ENTAILING-EXPANSION",
+  "id": "c533d18c-a130-57b9-9ba1-71fc6046e738",
+  "label": "Target-copying modal reason expansion…: Copied m retains the whole existing…",
+  "legacy_id": "DEF-TARGET-COPY-ENTAILING-EXPANSION",
   "term": "target-copying modal reason expansion and common populated arena",
   "definition": "copied m retains the whole existing BruteFoundationBoundary.Profile m. A reason is an existing ExistenceFact tag; reasonPresent w (fact x) is concrete x and ExistsAt w x, while explains w r x additionally requires r=fact x. EntailingCoverage conjoins existing ExplanationSound, LocallyExplained and NecessitatesExistenceAt for every admitted link, not necessity of all reasons. arena g fixes universal Bool accessibility, rigid Nat candidates all actual/concrete, and assigns both Causes and grounds to the supplied graph edge. single has edge y=0 and x≠0; plural has y≤1 and 2≤x; descending has y=x+1. Sources are the existing Graph.Source predicate, relation-relative; all nodes are actual in these controls.",
   "basis": "stipulative",

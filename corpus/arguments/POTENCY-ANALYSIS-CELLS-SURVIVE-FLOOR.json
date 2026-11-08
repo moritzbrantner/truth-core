@@ -1,17 +1,20 @@
 {
-  "id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "id": "960820f3-cf61-53c4-8e16-e318cc292ae8",
+  "label": "Each of the three ¬F7 cells of q f7 has an interpretation in which something is moved",
+  "legacy_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "conclusion_statement_id": "1cdafe00-9370-5eb2-937c-a3d577230f30",
   "inference_ids": [
-    "INF-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR"
+    "b507d355-dedc-5d19-bd13-802691f501f5"
   ],
   "meaning": "The owner's worldview argument for F7 (#1007), second step: no ¬F7 cell is defeated by the approved floor. Each cell has a one-being, one-respect interpretation in which something is moved (F4); F1 is a theorem and so holds there; F3 and F6 use vocabulary absent here. So F7 stays an open alternative: defeating the cells needs floor items that jointly entail F7 (POTENCY-ANALYSIS-PARTITION, f7IffCellConstraints).",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-MOTION-AS-REDUCTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

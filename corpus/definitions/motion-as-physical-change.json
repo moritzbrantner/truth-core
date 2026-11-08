@@ -1,10 +1,12 @@
 {
-  "id": "DEF-MOTION-AS-PHYSICAL-CHANGE",
+  "id": "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+  "label": "MOTION_2, as Aristotle's physical change: Change is the actuality of what is potentially, precisely…",
+  "legacy_id": "DEF-MOTION-AS-PHYSICAL-CHANGE",
   "term": "motion (kinesis), as Aristotle's physical change",
   "definition": "Change is the actuality of what is potentially, precisely as such (Physics III.1, 201a10-11); motion in the strict sense is change in quality, quantity or place of a physical subject (Physics V.1-2).",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-201A-CHANGE-A",
-    "ARIST-PHYS-226A-226B-THREE-MOTION-CATEGORIES-A"
+    "381b242c-7eea-5531-a05f-855adbaa772f",
+    "d348e8b6-db66-5f48-9d3a-7b420d58a7aa"
   ]
 }

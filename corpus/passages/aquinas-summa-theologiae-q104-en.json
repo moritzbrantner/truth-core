@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "source_url": "https://www.newadvent.org/summa/1104.htm",
     "retrieved_at": "2026-10-25T20:03:36Z",
     "sha256": "sha256:3580c77dbd3216d5cb3d6ff99c24c424db3e015c61f35714cc0415cd259f55b2",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-Q104-A1-EN",
+      "id": "f74e1b94-6c4e-5604-a369-42b30549e0f5",
+      "label": "Thomas Aquinas, Summa theologiae, I q.104 a.1",
+      "legacy_id": "AQUINAS-ST-I-Q104-A1-EN",
       "locator": "I q.104 a.1",
       "claim_locator_prefixes": [
         "I q.104 a.1 "

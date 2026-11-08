@@ -1,9 +1,11 @@
 {
-  "id": "REL-ANTIREALIST-ORDER-ALTERNATIVE-TO-REALIST-ORDER-OF-EXPLANATION",
+  "id": "164b88d3-66f6-58e9-aeeb-20509106428c",
+  "label": "The universal realist explanatory-order… alternative to Realism: our moral thought and talk is…",
+  "legacy_id": "REL-ANTIREALIST-ORDER-ALTERNATIVE-TO-REALIST-ORDER-OF-EXPLANATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+  "subject_id": "b66303c9-7577-51be-b823-3ae18ba239b4",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-REALIST-ORDER-OF-EXPLANATION",
+  "object_id": "dad9ae00-e470-51e8-b2df-16b4d8557373",
   "note": "Exact negative endpoint under the SAME moral/reverse-explanation predicates. ANTIREALIST-ORDER-GUARDED-NOT-REALIST retains the full raw anti-order, the separately OPEN existing ExplanatoryOrderAsymmetric premise and the Geach moral witness. Without asymmetry both raw directions can hold; without moral population both universals can hold vacuously; with population/asymmetry both may fail (EXPLANATORY-ORDER-RIVAL-CONTROLS). Neither raw source account is weakened or identified with the exact negative. No complete historical-worldview or real explanatory-cycle claim."
 }

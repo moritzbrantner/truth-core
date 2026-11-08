@@ -1,23 +1,25 @@
 {
-  "id": "DESIGNATED-NECESSITATION-CERTIFICATE",
+  "id": "473cf96d-e0f4-5b64-9316-5e5d8b6d825a",
+  "label": "On one fixed Kripke frame and arbitrary designation policy D, semantic necessitation for every…",
+  "legacy_id": "DESIGNATED-NECESSITATION-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-DESIGNATED-NECESSITATION-CERTIFICATE",
+  "conclusion_statement_id": "f2dd52e7-1571-5320-88b8-9d24c061ff66",
   "inference_ids": [
-    "INF-DESIGNATED-NECESSITATION-CERTIFICATE"
+    "0e4a6d7a-c1dc-5bbd-b0a4-aa35d65c2f04"
   ],
   "meaning": "On one fixed Kripke frame and arbitrary designation policy D, semantic necessitation for every context-independent predicate holds iff D is successor-closed. For a supplied two-index F, closure plus the explicit one-way edge-local content-transport bridge suffices; necessity for each individual F is not claimed. For all two-index denotations, and already for every explicit actuality-agreement schema P(e) iff P(a), the rule holds iff each admitted world has only identity successors (self-access not required). The ordinary Holds fragment obeys the closed-policy rule; all-world Valid admits box. Empty designation admits the unrestricted rule vacuously. Both populated universal-frame controls reuse the SAME ContingentOnly ontology with a necessary candidate, a contingent candidate and both old domain policies failing: existence-restricted D with independent existence-content fails closure and necessitation despite transport; D=True repairs closure and retains the independent rule, while actuality-agreement remains diagonal-valid but fails transport and necessitation. A generic history-control composition imports the existing diagonal/rigid boundary to refute necessitation under a rival, rather than claiming that boundary as new. These are denotation-level correspondences and joint formal controls, not proof-calculus adequacy, metaphysical possibility or a root-premise discharge. Generic targets require no nonempty designation/domain, frame law, causal policy or excluded middle. Attribution deferred; no source claim or domain law is changed.",
   "definition_ids": [
-    "DEF-DIAGONAL-VALID",
-    "DEF-NECESSITATED-VALID",
-    "DEF-DESIGNATION-SUCCESSOR-CLOSED",
-    "DEF-INDEPENDENT-NECESSITATION-RULE",
-    "DEF-DESIGNATION-CONTENT-TRANSPORT",
-    "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
-    "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
-    "DEF-ACTUALITY-AGREEMENT",
-    "DEF-AGREEMENT-NECESSITATION-RULE"
+    "2a9a7da1-bb3a-513e-91ab-fe900ae6baea",
+    "d6a48e74-815c-5f8d-879e-9e1d5698fe51",
+    "8bfed956-49be-58b3-9cf5-6bc5246619f8",
+    "cd27d534-d3cf-5615-947f-222624bac7a5",
+    "ef6aff53-7a9b-5436-9c67-fabf2cd84601",
+    "4f333120-bae3-5be9-a13a-641ae97328eb",
+    "b98dbaf6-663a-5bdc-9206-55790153979a",
+    "c4ad27bb-2e78-5e95-9f56-ca479bd85792",
+    "c29692f7-8190-5f33-bcfc-1d74a5d5dde0"
   ],
   "disambiguation_ids": [
-    "DISAMB-DESIGNATED-VALIDITY-AND-NECESSITY"
+    "d80f97b1-15a0-5315-b280-72d780060768"
   ]
 }

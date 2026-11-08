@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SET-LOCATION-MEMBER-SUPPORT",
+  "id": "792ff3b6-9a4e-5352-a802-d80e30eff0cb",
+  "label": "Location supported by a represented\u2026: Every located right-summand set representative has some\u2026",
+  "legacy_id": "DEF-SET-LOCATION-MEMBER-SUPPORT",
   "term": "location supported by a represented strict member",
   "definition": "Every located right-summand set representative has some located representative decoding to an actual strict member. The located member may occupy another region. Only the witnessed member must be represented; no full closure under membership is imposed. No candidate-presence guard is used: this is a supplied rule of location, and the unlocation theorem needs no existential premise. Actual Mathlib membership/foundation supplies the induction, not a bespoke order. Applicability of this support criterion remains open.",
   "basis": "stipulative",

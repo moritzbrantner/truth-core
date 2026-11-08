@@ -1,9 +1,25 @@
 {
-  "id": "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
+  "id": "54f33165-05df-5205-807a-04154b5fd6ad",
+  "label": "Participation",
+  "legacy_id": "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
   "term": "participation",
   "sense_definition_ids": [
-    "DEF-PARTICIPATED-ESSE",
-    "DEF-PLATONIC-PARTICIPATION"
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914"
   ],
-  "resolution": "The q.44 reading concerns derivative esse as contrasted with essential/subsistent esse. It does not identify this source meaning with Plato's participation relation; no statement IDs or Lean declarations are merged by the shared word."
+  "resolution": "The q.44 reading concerns derivative esse as contrasted with essential/subsistent esse. It does not identify this source meaning with Plato's participation relation; no statement IDs or Lean declarations are merged by the shared word.",
+  "term_label": "PARTICIPATION",
+  "senses": [
+    {
+      "id": "23673b54-414b-4320-9df0-066d19c6f716",
+      "label": "PARTICIPATION_4",
+      "definition_id": "14d30c53-51c2-502d-b009-247dac0421e0"
+    },
+    {
+      "id": "4bdeb5fc-260b-42df-86af-3da72bc078f9",
+      "label": "PARTICIPATION_1",
+      "definition_id": "8504bbdf-329b-5e23-9d12-0faf94e00914",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ORDER-HOMOGENEOUS-CAUSAL-CONTROL",
+  "id": "10cd4563-464e-592a-8b6f-e00776b232e6",
+  "label": "#386 HomogeneousCausalControl assignment on the original Boolean beings and order",
+  "legacy_id": "MODEL-ORDER-HOMOGENEOUS-CAUSAL-CONTROL",
   "description": "#386 HomogeneousCausalControl assignment on the original Boolean beings and order. The tied assignment also witnesses failure of uniqueness; NoCausalOrder is the homogeneous no-cause witness. Joint degree-fork control: the unchanged Boolean strict chain has a strict universal causal top at true, satisfies the full homogeneous-scale/genus/cause-more/grades background, and violates the unbounded-degree branch. The sole Unit respect aliases the named fixture perfections, without a source-identity claim.",
   "vocabulary": "QUARTA-ORDER",
   "lean_declaration": "TruthCore.Models.Order.HomogeneousCausalControl.model",
@@ -45,7 +47,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+      "statement_id": "82286a91-a610-52d2-9f28-2cc459a75ac7",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -61,7 +63,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+      "statement_id": "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -73,7 +75,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation1"
     },
     {
-      "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+      "statement_id": "30a8373c-5188-581b-b746-e319d71311e4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -87,7 +89,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation2"
     },
     {
-      "statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+      "statement_id": "612078bf-5a68-5542-8b7b-f862f816ece0",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -97,7 +99,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation3"
     },
     {
-      "statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+      "statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -110,7 +112,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation4"
     },
     {
-      "statement_id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+      "statement_id": "5a594b1e-09b6-592c-862d-473874a6c49c",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -122,7 +124,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation5"
     },
     {
-      "statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "statement_id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -134,7 +136,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation6"
     },
     {
-      "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -145,7 +147,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation7"
     },
     {
-      "statement_id": "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
+      "statement_id": "70e98bb5-a96d-5d69-870d-e6bd0df2b813",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -157,7 +159,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation8"
     },
     {
-      "statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+      "statement_id": "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -170,7 +172,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation9"
     },
     {
-      "statement_id": "STMT-HOMOGENEOUS-BEING-SCALE",
+      "statement_id": "038bae3c-2917-508b-a6fc-2998faa0c908",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -183,7 +185,7 @@
       "theorem": "TruthCore.Models.Order.HomogeneousCausalControl.evaluation10"
     },
     {
-      "statement_id": "STMT-QUARTA-VIA-STRICT-CAUSAL-TOP",
+      "statement_id": "7f3c9963-09f7-5577-95a5-ab93fb3c8b7e",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -196,7 +198,7 @@
       "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.strictTop"
     },
     {
-      "statement_id": "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+      "statement_id": "15c570f5-1a38-54b8-a20a-175f334fff3e",
       "value": "violates",
       "arguments": [
         "Being",
@@ -207,7 +209,7 @@
       "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.notUnbounded"
     },
     {
-      "statement_id": "STMT-QUARTA-VIA-DEGREE-FORK",
+      "statement_id": "a8b5ee13-71a3-56cf-8ab0-7786c2135cc1",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -220,7 +222,7 @@
       "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.fork"
     },
     {
-      "statement_id": "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
+      "statement_id": "a9622441-2db2-5d32-9b02-a9d283bd2949",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -233,7 +235,7 @@
       "theorem": "TruthCore.Models.QuartaViaDegreeFork.FiniteTop.grades"
     },
     {
-      "statement_id": "STMT-GRADES-HAVE-A-MAXIMUM",
+      "statement_id": "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
       "value": "satisfies",
       "arguments": [
         "Being",

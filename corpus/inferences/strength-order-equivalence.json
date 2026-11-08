@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-ORDER-EQUIVALENCE",
+  "id": "9f39b3fa-7d90-53d6-89ca-8f4892abe8ac",
+  "label": "For every mathematical linear order and shared x,y, y > x holds…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-ORDER-EQUIVALENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
+  "output_statement_id": "c883b9ad-44da-57b7-bcb2-164c09374233",
   "rule": "typed_strength_comparison",
   "meaning": "Compose all three obligations to obtain y > x iff y ≥ x and y ≠ x under the same mathematical LinearOrder.",
   "assumption_statement_ids": [],

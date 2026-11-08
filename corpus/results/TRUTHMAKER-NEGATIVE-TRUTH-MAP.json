@@ -1,6 +1,8 @@
 {
-  "id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
-  "argument_id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "id": "c121111a-9ed3-5f20-bca0-6fbeee8ceb04",
+  "label": "Absolute eligible-maker emptiness, coverage of its true negative fact and world immanence are…",
+  "legacy_id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "argument_id": "5d1c925f-8b29-5c8e-9835-ef2e7d4247ec",
   "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Challenge",
   "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Solution",
   "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.negativeMap",

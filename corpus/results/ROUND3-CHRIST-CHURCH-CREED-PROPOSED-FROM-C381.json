@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
-  "argument_id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "id": "7b423d9a-cba6-5146-9580-6bc8fcb5aa41",
+  "label": "The Catholic Church definitively proposes every article of the…, from c381",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "argument_id": "61dcfd8b-2a6d-56da-baf8-392b10d5db00",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.creedProposedFromC381",

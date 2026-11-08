@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-SOURCE-UNIQUENESS",
+  "id": "4477b0a6-c85d-5749-b0e4-e39de2bdad91",
+  "label": "Existence and uniqueness of an actual…: UniqueUltimateSourceAt uses Mathlib ExistsUnique on…",
+  "legacy_id": "DEF-ANSELM-SOURCE-UNIQUENESS",
   "term": "existence and uniqueness of an actual ultimate source",
   "definition": "UniqueUltimateSourceAt uses Mathlib ExistsUnique on UltimateSourceAt at one world. SomeUltimateSourceAt gives existence only; AtMostOneUltimateSourceAt gives pairwise identity only. No unique necessary being, God, universal modal source or source of every explanandum is asserted by these definitions.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UniqueUltimateSourceAt",

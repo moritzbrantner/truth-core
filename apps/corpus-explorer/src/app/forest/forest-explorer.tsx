@@ -7,6 +7,7 @@ import { TREE_MEANING_LIMIT, type ForestArgument, type ForestModel, type ForestS
 import { sortAssumptionArguments, type AssumptionRelevance, type RouteReadiness } from "@/lib/assumption-relevance";
 import type { AssumptionScenario } from "@/lib/argument-scenarios";
 import styles from "./forest.module.css";
+import { shortId } from "@/lib/corpus-ids";
 
 export type TreeProps = {
   model: ForestTreeModel;
@@ -82,13 +83,13 @@ export function StatementBranch({
         </span>
       </button>
       {canExpand ? <button type="button" className={styles.expand}
-        aria-label={(isExpanded ? "Collapse arguments for " : (exhaustive ? "Expand all arguments for " : "Expand arguments for ")) + statement.id}
+        aria-label={(isExpanded ? "Collapse arguments for " : (exhaustive ? "Expand all arguments for " : "Expand arguments for ")) + statement.paraphrase}
         aria-expanded={isExpanded} onClick={() => onToggle(exhaustive ? path : id)}>
         {isExpanded ? "−" : "+"}
       </button> : null}
     </div>
     {scenario && onAssume ? <div className={styles.assumptionButtons} role="group"
-      aria-label={"Hypothetical truth of " + statement.id}>
+      aria-label={"Hypothetical truth of " + statement.paraphrase}>
       <button type="button" aria-pressed={assumedTrue}
         onClick={() => onAssume(id, assumedTrue ? "clear" : "true")}>True</button>
       <button type="button" aria-pressed={assumedFalse}
@@ -195,7 +196,7 @@ function Inspector({ statement, onFocus, onFlip, flipped }: {
   const search = new URLSearchParams({ view: "focus", node: statement.id, sel: statement.id });
   return <aside className={styles.inspector} aria-label="Selected proposition">
     <div className={styles.inspectorTop}>
-      <div><span className={styles.eyebrow}>Selected proposition</span><span className={styles.mono}>{statement.id}</span></div>
+      <div><span className={styles.eyebrow}>Selected proposition</span><span className={styles.mono}>{shortId(statement.id)}</span></div>
       <span className={styles.statusPill} data-status={statement.status}>{statement.statusLabel}</span>
     </div>
     <p className={styles.fullParaphrase}>{statement.paraphrase}</p>

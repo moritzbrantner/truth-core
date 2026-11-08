@@ -1,10 +1,12 @@
 {
-  "id": "REL-INSTITUTION-LINK-STRENGTHENS-GOVERNING-EVENT-COMPONENT",
+  "id": "c23a7873-d902-51fc-af83-cc0df7bbbc1c",
+  "label": "For any being g: if Jesus holds a mandate… strengthens Weak institutional transfer: whenever…",
+  "legacy_id": "REL-INSTITUTION-LINK-STRENGTHENS-GOVERNING-EVENT-COMPONENT",
   "subject_kind": "statement",
-  "subject_id": "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
+  "subject_id": "820771a7-1173-510f-88ec-445b203fb1fd",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
-  "verification_result_id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "object_id": "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
+  "verification_result_id": "e744cb95-23c7-5b6d-b851-81789246119d",
   "note": "The checked sole-premise certificate projects the weaker component; substantive consequences use that weak component. No source claim is relabelled."
 }

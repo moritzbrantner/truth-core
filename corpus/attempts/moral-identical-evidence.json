@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-MORAL-IDENTICAL-EVIDENCE",
+  "id": "84ebc806-36b5-50c6-b9b2-37449ed96cb8",
+  "label": "Applied the existing exact criterion to finite moral prohibition assignments and three explicitly\u2026",
+  "legacy_id": "ATTEMPT-MORAL-IDENTICAL-EVIDENCE",
   "statement_ids": [
-    "STMT-MORAL-ACCESS-FIBER-CONTROLS",
-    "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
-    "STMT-BOYD-EMPIRICAL-MORAL-INQUIRY",
-    "STMT-RAILTON-FALLIBLE-MORAL-LEARNING",
-    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW"
+    "62864d2a-6f3e-5dd1-b804-5ca5ab8450b3",
+    "69c528d9-b09e-583c-9dd2-2ee92fa2879f",
+    "f3e174ca-c2d1-50f5-aaef-271838144319",
+    "a44a1866-236d-5744-96b4-ce5af587f27e",
+    "d3719938-01ef-58f8-8ffb-d4fc88c7aa28"
   ],
   "date": "2026-10-29",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Applied the existing exact criterion to finite moral prohibition assignments and three explicitly restricted controls. Rejected treating the thin opposite-truth pair as metaphysically admissible under every rival, and rejected formalizing Enoch\u2019s modest third-factor correlation as an exceptionless classifier. Reread materialized q94 aa2/4, Railton193\u2013195, Boyd\u00a7\u00a74.4\u20134.5 and Enoch\u00a7\u00a75.1\u20135.3: natural-law particular judgment and naturalist inquiry remain fallible; Enoch\u2019s qualified pro-tanto survival bridge does not yield categorical innocent-killing prohibition. Analyst controls expose constitutive/sufficient/categorical assumptions without attributing those exact Boolean conditions to authors. Source locators, interpretation boundaries, strongest replies and remaining specific normative/access obligations persist in docs/naturalistic-moral-realism.md, Identical-evidence test. No root premise discharged.",
   "evidence": [
-    "MORAL-ACCESS-FIBER-CONTROLS",
-    "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+    "1daaeb32-990a-5776-aca2-809537fcb48a",
+    "dac4ec84-f716-5dea-87d1-e367474f7f8b",
     "PR-658"
   ]
 }

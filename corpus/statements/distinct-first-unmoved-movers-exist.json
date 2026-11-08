@@ -1,8 +1,10 @@
 {
-  "id": "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
+  "id": "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+  "label": "There exist two distinct first unmoved movers in the supplied interpretation",
+  "legacy_id": "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
   "paraphrase": "There exist two distinct first unmoved movers in the supplied interpretation. This is an explicit positive witness, not empirical or metaphysical existence.",
   "lean_declaration": "TruthCore.Causality.ConstitutiveConfiguration.DistinctFirstMoversExist",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d"
   ]
 }

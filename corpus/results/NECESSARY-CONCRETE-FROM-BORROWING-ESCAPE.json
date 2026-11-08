@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
-  "argument_id": "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
+  "id": "dbfae638-c7e2-581e-b0d1-d1ef1754d5d1",
+  "label": "Some concrete individual exists at w and at every world accessible from w…, from borrowing escape",
+  "legacy_id": "NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
+  "argument_id": "0d88a858-0ae4-5832-a55f-e8d5bf69b5df",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.necessaryConcreteOfBorrowingEscape",

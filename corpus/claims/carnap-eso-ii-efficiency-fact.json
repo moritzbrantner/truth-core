@@ -1,7 +1,9 @@
 {
-  "id": "CARNAP-ESO-II-EFFICIENCY-FACT",
-  "statement_id": "STMT-CARNAP-ADOPTION-ADVISED-BY-EMPIRICAL-EFFICIENCY",
-  "source_id": "CARNAP-ESO",
+  "id": "80203a87-5d80-544e-b1f9-330102c300a7",
+  "label": "Rudolf Carnap, \"Empiricism §II, p. 6: Carnap 1950: the decision to accept a framework, though not…",
+  "legacy_id": "CARNAP-ESO-II-EFFICIENCY-FACT",
+  "statement_id": "3c931390-d63d-5f4f-830e-cdc2fb8c8721",
+  "source_id": "d1ff237f-70ee-5ad8-897f-e4f0fa82d335",
   "locator": "§II, p. 6, \"This is a matter of fact, based upon the content of our experiences.\"",
   "interpretation": "Carnap's answer to 'on what grounds is a framework adopted?': the decision is influenced by theoretical knowledge, questions of a language's efficiency are theoretical questions of degree, and the thing language's efficiency is a matter of fact based on experience, which makes it advisable to accept it, not confirming evidence for the reality of the thing world. The passage gives the rationale only; it does not address whether those grounds need a further meaning criterion. The inference that no regress arises is the analyst's (ATTEMPT-CARNAP-V4-BRIDGE-1008), not Carnap's.",
   "attribution": "The passage states that the decision to accept the thing language is influenced by theoretical knowledge, that questions about its efficiency are theoretical questions of degree, and that its efficiency is a matter of fact based on experience which makes it advisable to accept it, which is the premise.",

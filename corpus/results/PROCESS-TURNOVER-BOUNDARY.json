@@ -1,6 +1,8 @@
 {
-  "id": "PROCESS-TURNOVER-BOUNDARY",
-  "argument_id": "PROCESS-TURNOVER-BOUNDARY",
+  "id": "ad91d5a9-040e-5075-9081-1422f40cb526",
+  "label": "In the existing two-cohort turnover fixture, every carrier assignment preserving operational…",
+  "legacy_id": "PROCESS-TURNOVER-BOUNDARY",
+  "argument_id": "aba54b51-1e60-5dd3-b360-e8b40d0c0ec8",
   "challenge_module": "TruthCore.Results.Mereology.ProcessTurnover.Challenge",
   "solution_module": "TruthCore.Results.Mereology.ProcessTurnover.Solution",
   "theorem": "TruthCore.Results.Mereology.ProcessTurnover.certificate",

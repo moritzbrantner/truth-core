@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEREO-INTERVENTION-DYNAMICS",
+  "id": "dae36b91-d8eb-5d37-a499-0d34e9941925",
+  "label": "Closed macro intervention dynamics: A description map semiconjugates every primitive transition in…",
+  "legacy_id": "DEF-MEREO-INTERVENTION-DYNAMICS",
   "term": "closed macro intervention dynamics",
   "definition": "A description map semiconjugates every primitive transition in an explicitly specified intervention family to a macro transition. The exact existence criterion is preservation of equality of selected coarse data. This entails agreement over all finite histories in that family, not unrestricted causal or explanatory reduction.",
   "basis": "stipulative",

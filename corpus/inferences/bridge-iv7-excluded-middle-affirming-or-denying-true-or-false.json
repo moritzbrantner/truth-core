@@ -1,10 +1,12 @@
 {
-  "id": "INF-BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "id": "67e56d9e-1597-5fc3-ba3b-0da6ceaa3fad",
+  "label": "Thought, in affirming or denying, is thereby true or false, by Case-analysis",
+  "legacy_id": "INF-BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-THOUGHT-TRUE-OR-FALSE-BY-COMPOSITION"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "b7f66357-c688-5bad-bf34-14ef9f3a87aa"
   ],
-  "output_statement_id": "STMT-AFFIRMING-OR-DENYING-THOUGHT-IS-TRUE-OR-FALSE",
+  "output_statement_id": "44dd6cf2-2f7b-5c90-9258-c9b39e3ba87e",
   "rule": "case-analysis",
   "meaning": "An affirming or denying thought: by excluded middle its object holds or not; in each of the four cases composition makes it true or false.",
   "assumption_statement_ids": [],

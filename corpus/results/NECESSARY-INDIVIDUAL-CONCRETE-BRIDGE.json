@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
-  "argument_id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "id": "8b4e2a02-0140-5ee1-87fa-b231176297d7",
+  "label": "In the same inhabited two-world universal frame, with all two roster members existing everywhere…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "argument_id": "d32c6b5d-eaa7-5f8c-a18a-b37b6bffa3f2",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteBridge.checks",

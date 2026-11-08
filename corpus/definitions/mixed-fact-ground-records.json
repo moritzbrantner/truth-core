@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MIXED-FACT-GROUND-RECORDS",
+  "id": "b46db868-0f46-5a62-87b7-b4c9fd555965",
+  "label": "Complete joint fact-ground record: Reuse Groups as a token record, with h.members g = contributors…",
+  "legacy_id": "DEF-MIXED-FACT-GROUND-RECORDS",
   "term": "complete joint fact-ground record",
   "definition": "Reuse Groups as a token record, with h.members g = contributors g ∪ enablers g as the COMPLETE antecedent list. AutonomousFullGround h autonomous b requires some admitted g targeting positive b and autonomy of every member. Here autonomous is an independently supplied predicate on labels, meant for the not-apt-for-grounding status rather than literal self-grounding. Admission is an explicitly supplied ground-record interpretation, not proof of truth or sufficiency. Exercise and physical causal semantics are not used.",
   "basis": "stipulative",

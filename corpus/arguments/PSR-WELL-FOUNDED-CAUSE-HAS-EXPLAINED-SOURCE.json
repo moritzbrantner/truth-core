@@ -1,18 +1,24 @@
 {
-  "id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+  "id": "9c002580-719e-5f38-8fc2-9a147b4fa065",
+  "label": "Some actual existent has a stipulated…, from At least one individual actually exists at… and 2… (2)",
+  "legacy_id": "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
   "premise_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-PSR-EXISTENCE-COMPONENT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
+    "27bdc583-788a-5dc0-8448-0be5e6237310"
   ],
-  "conclusion_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
-  "inference_ids": ["INF-PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE"],
+  "conclusion_statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
+  "inference_ids": [
+    "f19b96a9-141b-5970-a320-d4c2316ea768"
+  ],
   "meaning": "In a populated causal world, well-founded efficient causes ensure a causally uncaused actual existent; existence-PSR assigns an explanation token to its existence fact. No interpretation of that token as intrinsically adequate, or as God, is earned.",
   "definition_ids": [
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
-    "DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "069600c3-2ddc-5977-8717-3a278683f73e",
+    "1cf9e750-5718-507c-b98e-034f06b36da3"
   ],
-  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"]
+  "disambiguation_ids": [
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
+  ]
 }

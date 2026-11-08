@@ -1,6 +1,8 @@
 {
-  "id": "COMMON-RANK-TO-UNION-WF",
-  "argument_id": "COMMON-RANK-TO-UNION-WF",
+  "id": "b3e9c9b7-4475-5582-852d-32e65f980505",
+  "label": "The union of every admitted world's direct…, from An OPEN framework presentation of union…",
+  "legacy_id": "COMMON-RANK-TO-UNION-WF",
+  "argument_id": "47a957e3-3a0c-53c8-9c18-dc0302f92e64",
   "challenge_module": "TruthCore.Results.Causality.CommonPriority.Challenge",
   "solution_module": "TruthCore.Results.Causality.CommonPriority.Solution",
   "theorem": "TruthCore.Results.Causality.CommonPriority.rank_to_union",

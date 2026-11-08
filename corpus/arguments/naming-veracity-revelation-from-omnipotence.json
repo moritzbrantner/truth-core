@@ -1,22 +1,24 @@
 {
-  "id": "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
+  "id": "fc5eae96-fc0c-5464-9e6f-d78bd5e7d976",
+  "label": "Whatever is GOD_4 can reveal, and can make a revelation recognizable as his by…, from omnipotence",
+  "legacy_id": "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
   "premise_statement_ids": [
-    "STMT-GOD-IS-OMNIPOTENT",
-    "STMT-REVELATION-INVOLVES-NO-CONTRADICTION",
-    "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE",
-    "STMT-RECOGNIZABLE-REVELATION-ANALYSIS"
+    "0ec9bd34-cbf6-5838-9d45-6ae516504f23",
+    "44696042-51ee-58d0-b462-165ae93680a5",
+    "30b2064f-8346-5deb-b58f-46b348d9f3c3",
+    "f2504092-91c0-53f1-a59b-2402ccb7b0a7"
   ],
-  "conclusion_statement_id": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
+  "conclusion_statement_id": "5fc7a6f9-94d7-5938-9e32-b2614c159646",
   "inference_ids": [
-    "INF-NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE"
+    "561d7cee-3f2e-5f56-9c56-a2019706d3a5"
   ],
   "meaning": "Revealing with signs involves no contradiction, so an omnipotent God can do it; only God can give those signs; and, by the open analysis of the primitive RevealsRecognizably, a being that can reveal with signs only God can give reveals recognizably. So every God reveals recognizably. Four open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
   "definition_ids": [
-    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-REVELATION-RECOGNITION-PROFILE"
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866"
   ],
   "disambiguation_ids": [
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE"
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602"
   ]
 }

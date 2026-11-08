@@ -1,6 +1,8 @@
 {
-  "id": "NAME-APPLICATION-TRANSFER-MODELS",
-  "argument_id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "id": "a8034644-2614-56ae-a6e4-d1c20ec4d8a7",
+  "label": "Three finite controls witness: proper inhabitation with practice no-reference and lost transfer…",
+  "legacy_id": "NAME-APPLICATION-TRANSFER-MODELS",
+  "argument_id": "e3045249-66b9-5bc1-aa55-980f71d7fcfa",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Models.transferModels",

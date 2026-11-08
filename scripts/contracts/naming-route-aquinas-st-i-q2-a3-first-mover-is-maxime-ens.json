@@ -27,7 +27,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
-  "result_id": "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS",
+  "result_id": "790f1b54-aca7-5f38-b3a7-42e99b1be3de",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.FirstMoverIsMaximeEns.firstMoverIsMaximeEns",
   "type_sha256": "f4427472be0ebfd9783fa6f2607c63090cd6d71fdaeea4a2574323db24fe0cee"

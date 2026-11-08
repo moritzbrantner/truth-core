@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY",
+  "id": "c31c763a-c8e3-56ba-9def-79dcc818eb3d",
+  "label": "Categorical action duty in the agency…: A separately interpreted predicate on actions, represented…",
+  "legacy_id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY",
   "term": "categorical action duty in the agency control",
   "definition": "A separately interpreted predicate on actions, represented by GoalPractice.categoricalOught. It does not depend by definition on what an agent values, performs or successfully produces. Its intended contrast is with a conditional means-end requirement; it is not a theory of objectively binding morality or its justification.",
   "basis": "stipulative",

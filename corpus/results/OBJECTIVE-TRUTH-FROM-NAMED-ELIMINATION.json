@@ -1,6 +1,8 @@
 {
-  "id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
-  "argument_id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "id": "3081f575-fefa-55d0-97f3-cef393309611",
+  "label": "Analyst definition proposition: in this fixed profile, a sentence is…, from named elimination",
+  "legacy_id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "argument_id": "a3281a44-78c4-5b61-aa37-852a619d4fbb",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.NamedElimination.namedElimination",

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-203B-INFINITE-PROBLEM-A",
-  "statement_id": "STMT-INFINITE-PROBLEM-TWO-SIDED",
-  "source_id": "ARIST-PHYS",
+  "id": "12021822-21a4-5802-bd1d-34fab8de6e29",
+  "label": "Aristotle, Physics III.4, 203b30-204a1: The problem of the infinite is dialectically difficult…",
+  "legacy_id": "ARIST-PHYS-203B-INFINITE-PROBLEM-A",
+  "statement_id": "fb5a993a-6be0-5bfe-96c1-20a1ccee7243",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 203b30-204a1",
   "interpretation": "Dialectical framing: unrestricted affirmation and unrestricted denial of the infinite both generate difficulties, so the question must be resolved by distinguishing how the infinite exists.",
   "status": "formalized"

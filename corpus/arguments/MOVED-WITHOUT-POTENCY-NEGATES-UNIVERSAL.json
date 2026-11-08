@@ -1,23 +1,25 @@
 {
-  "id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "id": "cba6df93-a4d1-5c19-8b87-6dbbded760a3",
+  "label": "Exact negation of the original…, from Some actual moved tuple is not in POTENCY_1…",
+  "legacy_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
   "premise_statement_ids": [
-    "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"
+    "86c76b02-e2f7-5db1-87b1-0b025c3e6040"
   ],
-  "conclusion_statement_id": "STMT-MOVED-ONLY-AS-IN-POTENCY-FAILS",
+  "conclusion_statement_id": "09501f9a-6874-5165-8062-6299539b4e95",
   "inference_ids": [
-    "INF-MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL"
+    "ddff46b5-d573-54d4-82ac-a580c60358bd"
   ],
   "meaning": "An actual moved/not-potent tuple contradicts the exact old universal under the SAME MovedIn/InPotency dictionary, independent of a historical theory label.",
   "definition_ids": [
-    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-POTENCY",
-    "DEF-MOTION-AS-REDUCTION"
+    "2d9a0a6a-3406-55f0-ad49-d9963fdaf116",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

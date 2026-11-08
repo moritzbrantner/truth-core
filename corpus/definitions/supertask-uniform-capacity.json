@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-UNIFORM-CAPACITY",
+  "id": "aa46a6e0-9e62-5221-9646-ec4486259204",
+  "label": "One world's capacity for every prefix: A single finite-capacity model world would have to…",
+  "legacy_id": "DEF-SUPERTASK-UNIFORM-CAPACITY",
   "term": "one world's capacity for every prefix",
   "definition": "A single finite-capacity model world would have to accommodate every natural-number-sized prefix, rather than choosing a new capacity world for each prefix.",
   "basis": "stipulative",

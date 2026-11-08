@@ -1,6 +1,8 @@
 {
-  "id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
-  "argument_id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "id": "3ed5f330-638c-5fb3-92a4-b36058b79627",
+  "label": "A being is being moved in a respect exactly when it is potentially so…, from unactualized capacity",
+  "legacy_id": "BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "argument_id": "08333363-5a42-50ac-bdcb-c35086fe9271",
   "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
   "theorem": "TruthCore.Results.Causality.Round3CogitoBase.beingMovedFromUnactualizedCapacity",

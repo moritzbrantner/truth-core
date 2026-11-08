@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
+  "id": "afc7a0c6-0b7d-5a08-b406-3ecad83e36ca",
+  "label": "Actuality and correspondence of a…: UnitingCausesPresent says that a distinct CausesIn c x esse…",
+  "legacy_id": "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
   "term": "actuality and correspondence of a uniting cause",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.UnitingCausesPresent",

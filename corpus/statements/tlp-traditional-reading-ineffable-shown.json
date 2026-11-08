@@ -1,10 +1,12 @@
 {
-  "id": "STMT-TLP-TRADITIONAL-READING-INEFFABLE-SHOWN",
+  "id": "48336917-2c3a-58a7-9250-3dd6a8f57eab",
+  "label": "Traditional reading of the Tractatus: beyond the bounds of language there is something that cannot…",
+  "legacy_id": "STMT-TLP-TRADITIONAL-READING-INEFFABLE-SHOWN",
   "paraphrase": "Traditional reading of the Tractatus (as reported): beyond the bounds of language there is something that cannot be put into words but is shown, the mystical; the book bans traditional metaphysics to the realm of nonsense yet accepts the existence of the unsayable.",
   "definition_ids": [
-    "DEF-TLP-NONSENSE-ILLUMINATING"
+    "44b1fb35-d7ec-57fc-8a89-1830af53e0ce"
   ],
   "disambiguation_ids": [
-    "DISAMB-TLP-NONSENSE"
+    "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8"
   ]
 }

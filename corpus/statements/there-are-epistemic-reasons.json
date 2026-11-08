@@ -1,15 +1,17 @@
 {
-  "id": "STMT-THERE-ARE-EPISTEMIC-REASONS",
+  "id": "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+  "label": "There are epistemic reasons: some agent has an epistemic reason to believe some content",
+  "legacy_id": "STMT-THERE-ARE-EPISTEMIC-REASONS",
   "paraphrase": "There are epistemic reasons: some agent has an epistemic reason to believe some content. Floor item F6 (#1007).",
   "lean_declaration": "TruthCore.Logic.EpistemicReasons.ThereAreEpistemicReasons",
   "self_evident": {
     "basis": "common_ground",
     "justification_ids": [
-      "EPISTEMIC-NIHILISM-SELF-UNDERMINING"
+      "ec80b13d-0c87-5f71-bc70-16b42dc4c0e6"
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-GLOBAL-EPISTEMIC-NIHILISM"
+        "38f44eff-5a6b-5e0d-a332-353af432ba1a"
       ]
     },
     "owner_approval": {

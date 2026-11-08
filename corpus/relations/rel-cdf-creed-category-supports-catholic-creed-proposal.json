@@ -1,9 +1,11 @@
 {
-  "id": "REL-CDF-CREED-CATEGORY-SUPPORTS-CATHOLIC-CREED-PROPOSAL",
+  "id": "96256fe8-1f64-53b1-9164-a4c82201fe9f",
+  "label": "Congregation for the Doctrine of the……: The… supports The Catholic Church definitively proposes…",
+  "legacy_id": "REL-CDF-CREED-CATEGORY-SUPPORTS-CATHOLIC-CREED-PROPOSAL",
   "subject_kind": "claim",
-  "subject_id": "CDF-1998-CREED-PROPOSED-AS-REVEALED",
+  "subject_id": "7748075b-143b-5167-93cd-990a67508f41",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED",
+  "object_id": "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36",
   "note": "The CDF classification supplies proposal-status evidence for the Creed in the Catholic profession. The Greek scope is identified by the separate reception quotation. The two readings jointly support the root’s institutional-status reading; this relation is evidence, not a kernel-verified inference or an assertion of textual/translation identity."
 }

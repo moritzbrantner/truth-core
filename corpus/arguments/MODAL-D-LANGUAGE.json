@@ -1,27 +1,29 @@
 {
-  "id": "MODAL-D-LANGUAGE",
+  "id": "d88c0cb3-30e6-5d4c-858d-94e37cb4ba22",
+  "label": "An explicit serial Bool two-cycle with constant atomic valuation has fixed-language MC at both…",
+  "legacy_id": "MODAL-D-LANGUAGE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-D-LANGUAGE",
+  "conclusion_statement_id": "558f37ec-b678-51c5-b15c-50db3eb2ee2d",
   "inference_ids": [
-    "INF-MODAL-D-LANGUAGE"
+    "a748f3fd-d896-591d-a863-02f3c58fb76b"
   ],
   "meaning": "A direct constructive mathematical test for D serial frames and explicit proposition domains, not a source claim, transcription, frontier closure or refutation of Hume. Structural induction proves formula agreement across the serial two-cycle, including box and diamond through the single opposite successor. Transport formula truth to prove restricted MC; the equality predicate refutes full MC and would contradict language agreement if expressible. Direct constructor distinctness refutes world extensionality.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-SERIAL",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-D-CYCLE"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "e104adf1-3729-5386-90b8-409504fd82cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

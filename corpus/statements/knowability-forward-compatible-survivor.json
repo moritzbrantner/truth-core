@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+  "id": "0d4b9c32-b210-57f5-b6a1-3e7cce019574",
+  "label": "On the existing four worlds, epistemic blocks {0,1},{2},{3}, atom true at0,2 and atom-invariant…",
+  "legacy_id": "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
   "paraphrase": "On the existing four worlds, epistemic blocks {0,1},{2},{3}, atom true at0,2 and atom-invariant contents, universal modal accessibility gives E inclusion in R, epistemic and modal S5, factivity, Boolean closure and global forward knowability with actual ignorance. The stronger biconditional fails and the Moore content remains inadmissible.",
   "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.ForwardSurvivor",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

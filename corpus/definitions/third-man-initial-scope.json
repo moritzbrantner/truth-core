@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THIRD-MAN-INITIAL-SCOPE",
+  "id": "4046121a-c2c0-5f01-aa3d-4dac4605e1b0",
+  "label": "FORMATION_SCOPE_2: InitialScope admits every pair of ordinary particulars as an eligible list",
+  "legacy_id": "DEF-THIRD-MAN-INITIAL-SCOPE",
   "term": "formation scope",
   "definition": "InitialScope admits every pair of ordinary particulars as an eligible list. Eligibility is an explicit List Entity → Prop parameter, not a consequence of exemplification.",
   "basis": "stipulative",

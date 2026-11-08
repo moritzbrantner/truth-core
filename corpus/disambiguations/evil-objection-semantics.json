@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-EVIL-OBJECTION-SEMANTICS",
+  "id": "eb8b6927-4ee4-51e8-985b-061003656ba4",
+  "label": "Evil, disapproval and internal objection",
+  "legacy_id": "DISAMB-EVIL-OBJECTION-SEMANTICS",
   "term": "evil, disapproval and internal objection",
   "sense_definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
-  "resolution": "The critic's own selected moral evil utterance, expression of disapproval, non-moral suffering report and report of a target-internal logical conflict are distinct roles. Strict truthlessness blocks the own-true-premise use only when all four recorded semantic/classification bridges hold. An affective account by itself does not entail truthlessness. The internal challenge uses target Rowe standards, whose actual gratuitous-suffering and permission commitments remain separate. Catholic privation of due good, voluntary culpa, suffering, stance-independent wrongness and an attitude are not silently identified. RemainingUse is the exact negation of all three named diagnostic conditions. NamedUseCoverage must be supplied or proved separately; retaining Other gives a proved coverage theorem with explicit excluded middle, without exhaustiveness of all philosophical schools. The explicit models establish these formal boundaries, not that any actual thinker endorses the configurations."
+  "resolution": "The critic's own selected moral evil utterance, expression of disapproval, non-moral suffering report and report of a target-internal logical conflict are distinct roles. Strict truthlessness blocks the own-true-premise use only when all four recorded semantic/classification bridges hold. An affective account by itself does not entail truthlessness. The internal challenge uses target Rowe standards, whose actual gratuitous-suffering and permission commitments remain separate. Catholic privation of due good, voluntary culpa, suffering, stance-independent wrongness and an attitude are not silently identified. RemainingUse is the exact negation of all three named diagnostic conditions. NamedUseCoverage must be supplied or proved separately; retaining Other gives a proved coverage theorem with explicit excluded middle, without exhaustiveness of all philosophical schools. The explicit models establish these formal boundaries, not that any actual thinker endorses the configurations.",
+  "term_label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION",
+  "senses": [
+    {
+      "id": "999ebfb8-fb72-4285-a224-e1f5e693dea8",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_1",
+      "definition_id": "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+      "lean_declaration": "TruthCore.Metaethics.EvilObjection.Critic"
+    },
+    {
+      "id": "3fde327f-3702-4b47-8040-cf3bb19aae4c",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_2",
+      "definition_id": "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+      "lean_declaration": "TruthCore.Metaethics.EvilObjection.RemainingUse"
+    },
+    {
+      "id": "80a028e3-2e26-42d2-9cd3-1bca8f7089e1",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_3",
+      "definition_id": "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+      "lean_declaration": "TruthCore.Metaethics.EvilObjection.InternalPermissionChallenge"
+    },
+    {
+      "id": "bb7184d9-36f8-4bc9-9e83-e5435a74c37c",
+      "label": "EVIL_DISAPPROVAL_AND_INTERNAL_OBJECTION_4",
+      "definition_id": "c691e9a5-d493-5ee2-9efb-e52db55751cd",
+      "lean_declaration": "TruthCore.Metaethics.EvilObjection.BadnessAsDisapproval"
+    }
+  ]
 }

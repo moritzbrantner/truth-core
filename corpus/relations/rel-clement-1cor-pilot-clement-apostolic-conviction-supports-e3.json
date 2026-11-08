@@ -1,9 +1,11 @@
 {
-  "id": "REL-CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION-SUPPORTS-E3",
+  "id": "c9427179-488f-5494-90a5-90e1a283fe2f",
+  "label": "Clement of Rome, First Corinthians 42.3… supports Cephas and at least one further disciple…",
+  "legacy_id": "REL-CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION-SUPPORTS-E3",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION",
+  "subject_id": "3f58ba6c-6145-5138-8b96-4a807fb76c55",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E3"
+  "object_id": "c2f63731-873e-5e82-ad62-b6ba015aa508"
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "id": "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a",
+  "label": "Inside Lean logic, ∃ P: Prop, P. This asserts only a proof inhabiting some proposition; it does…",
+  "legacy_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
   "paraphrase": "Inside Lean logic, ∃ P : Prop, P. This asserts only a proof inhabiting some proposition; it does not identify logical proof with external or attitude-independent truth.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionHolds",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

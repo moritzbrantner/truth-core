@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
+  "id": "4bec6a3a-8ce8-51cd-8657-265ae830eab1",
+  "label": "Appraiser independence in objective…: The evaluative fact is not made true just by an appraiser…",
+  "legacy_id": "DEF-NATURALIST-APPRAISER-INDEPENDENCE",
   "term": "appraiser independence in objective naturalistic moral realism",
   "definition": "The evaluative fact is not made true just by an appraiser accepting it. Relational dependence on human needs, psychology or actual effects of choices remains possible. Boyd says largely independent; no invariance under arbitrary changes to all minds or worlds is claimed.",
   "basis": "sourced",
   "claim_ids": [
-    "RAILTON-165-APPRAISER-INDEPENDENCE",
-    "BOYD-11-APPRAISER-INDEPENDENCE"
+    "f7dcdd86-cd3d-579b-ab74-542db73363f0",
+    "1736393d-5e66-512b-9226-a2089d35303f"
   ]
 }

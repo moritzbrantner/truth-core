@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-PSR-MUTUAL-CAUSES",
+  "id": "aeef40df-f1e0-55d4-919b-7922fa20c2de",
+  "label": "Two distinct actual existents cause one another at a single world and each has a stipulated…",
+  "legacy_id": "MODEL-PSR-MUTUAL-CAUSES",
   "description": "Two distinct actual existents cause one another at a single world and each has a stipulated intrinsic explanation token. PSR, soundness, population and universal external causation hold, but causal well-foundedness and an uncaused explained source fail.",
   "vocabulary": "EXISTENCE-PSR",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.mutualCauses",
@@ -12,64 +14,109 @@
   "carriers": [
     {
       "binding": "World",
-      "elements": ["Unit.unit"],
+      "elements": [
+        "Unit.unit"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
     },
     {
       "binding": "Being",
-      "elements": ["false", "true"],
+      "elements": [
+        "false",
+        "true"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
     }
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "statement_id": "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesSound"
     },
     {
-      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "statement_id": "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesPSR"
     },
     {
-      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "statement_id": "627f9018-3f9e-56da-ad08-fd6f1f61b3f8",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesExternal"
     },
     {
-      "statement_id": "STMT-PSR-POPULATED-AT",
+      "statement_id": "43f09b83-776d-57b8-a5b3-b84715e48fc2",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesPopulated"
     },
     {
-      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "statement_id": "27bdc583-788a-5dc0-8448-0be5e6237310",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesNotWF"
     },
     {
-      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.mutualCausesNoExplainedSource"
     },
     {
-      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "statement_id": "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.mutualNoBrute"
     },
     {
-      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "statement_id": "fcf3a68a-d353-5f8b-9e01-995643caa2f9",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.mutualNotBrute"
     }
   ],
-  "modules": ["TruthCore.Explanation.WellFoundedSource", "TruthCore.Models.PSRLocalControls"]
+  "modules": [
+    "TruthCore.Explanation.WellFoundedSource",
+    "TruthCore.Models.PSRLocalControls"
+  ]
 }

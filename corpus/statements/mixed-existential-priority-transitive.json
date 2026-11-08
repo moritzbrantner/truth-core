@@ -1,11 +1,13 @@
 {
-  "id": "STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+  "id": "37ae2e51-468c-5051-81ca-dfc6ae91f7b5",
+  "label": "SimplePriorityTransitiveReading applied to the same Prior on Sum B E. This OPEN condition permits…",
+  "legacy_id": "STMT-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
   "paraphrase": "SimplePriorityTransitiveReading applied to the same Prior on Sum B E. This OPEN condition permits composition of bearer-to-act and act-to-product priority; transitivity of another relation or irreflexivity alone does not supply it.",
   "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.TransitivePriority",
   "definition_ids": [
-    "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+    "7d75b813-a6d4-5fea-951b-fec95eaf4fd7"
   ],
   "disambiguation_ids": [
-    "DISAMB-MIXED-EXISTENTIAL-PRIORITY"
+    "800029ee-6554-5995-9b23-72ff1e57db2b"
   ]
 }

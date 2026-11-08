@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE-SUPPORTS-THINKER-LIVES",
+  "id": "946bd61a-6bf5-5de4-910f-3e7d6907f26f",
+  "label": "Thomas Aquinas, Summa theologiae I q.18… supports Whatever bears an occurring thought lives…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE-SUPPORTS-THINKER-LIVES",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "subject_id": "611be1f0-c207-5f35-bc2a-e7a1114c6598",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THINKER-LIVES",
+  "object_id": "0ce7b6c5-6e52-56ea-9377-8328b67765e7",
   "note": "The claim's reading of q.18 a.3 co. records that things live insofar as they act from themselves; the same pinned passage classes understanding as an action that remains in the agent and says that what understands itself is said to move itself. That bears on this premise. Gaps: the claim states the highest-life thesis about God, not the universal that every bearer of an occurring thought lives; the cogito's thought episode and bearer (DEF-THOUGHT-OCCURRENCE, DEF-THOUGHT-BEARER) are not Aquinas's vocabulary."
 }

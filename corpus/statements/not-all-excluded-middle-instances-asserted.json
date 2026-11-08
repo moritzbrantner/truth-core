@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "id": "17bf5303-72ee-5dbf-bf6f-056f738cc223",
+  "label": "The supplied stage-indexed assertion policy does not assert every excluded-middle instance…",
+  "legacy_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
   "paraphrase": "The supplied stage-indexed assertion policy does not assert every excluded-middle instance everywhere. Exact negation of the universal assertion policy, not object-level denial of excluded middle.",
   "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.NotAllInstancesAsserted",
   "definition_ids": [
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING",
-    "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
-    "DEF-EXCLUDED-MIDDLE-WITHHOLDING-POLICY"
+    "d8e2ed12-8089-5202-ae51-e807cf611c76",
+    "284efb0a-b669-5b91-b0ea-2b7b68bef70d",
+    "bdab9d27-6b41-5a06-8e64-e696fa48d9c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+    "12425707-e469-5574-b064-4f5e171cfb65"
   ]
 }

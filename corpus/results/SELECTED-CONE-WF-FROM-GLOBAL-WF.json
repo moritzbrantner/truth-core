@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
-  "argument_id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "id": "f958b090-15ec-5231-8b13-7e87294a60bc",
+  "label": "The selected grounds relation restricted to the subtype of all actual CONCRETE_6…, from global wf",
+  "legacy_id": "SELECTED-CONE-WF-FROM-GLOBAL-WF",
+  "argument_id": "56f129f6-efbf-5dc7-9033-7670d1c66be7",
   "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
   "theorem": "TruthCore.Results.Causality.Round3CogitoBase.selectedConeWFFromGlobalWF",

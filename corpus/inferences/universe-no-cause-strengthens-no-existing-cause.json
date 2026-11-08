@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "id": "6af4a7ab-a0df-513a-99d2-3dbcfc1d5203",
+  "label": "Exact negation of the existing UniverseHasExistingCause at the SAME…, by Constructive-proof (2)",
+  "legacy_id": "INF-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
   "input_statement_ids": [
-    "STMT-UNIVERSE-UNCAUSED"
+    "0d563c5b-413a-5463-b556-adbb34bf458e"
   ],
-  "output_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "output_statement_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
   "rule": "constructive-proof",
   "meaning": "Sole-premise scope order: no causal edge implies no existing causer. The absent-edge control rejects the converse on a generic signature while expressly violating the intended actuality policy.",
   "assumption_statement_ids": [],

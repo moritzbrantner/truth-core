@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-186A-PARMENIDES-UNIVOCAL-A",
-  "statement_id": "STMT-PARMENIDEAN-UNIVOCAL-BEING-REJECTED",
-  "source_id": "ARIST-PHYS",
+  "id": "c2cbef5e-eb9d-5eda-b35d-3719416a4aa9",
+  "label": "Aristotle, Physics I.3, 186a23-32: Parmenides's argument fails where it treats being as if it were…",
+  "legacy_id": "ARIST-PHYS-186A-PARMENIDES-UNIVOCAL-A",
+  "statement_id": "033e2708-6641-5155-9e19-8662ea54749a",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 186a23-32",
   "interpretation": "Aristotle's first diagnosis of Parmenides is semantic: the argument treats being as univocal even though being is said in several senses. This is consistent with, and more specifically applied than, the I.2 many-senses claim.",
   "status": "formalized"

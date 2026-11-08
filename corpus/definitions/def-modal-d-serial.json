@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-D-SERIAL",
+  "id": "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+  "label": "Serial accessibility: Serial F means every world w has at least one successor v with F.access w v",
+  "legacy_id": "DEF-MODAL-D-SERIAL",
   "term": "serial accessibility (D)",
   "definition": "Serial F means every world w has at least one successor v with F.access w v. It says nothing about reflexivity, symmetry, transitivity or connections between components. A non-reflexive world can occur in D, although full-predicate MC at that world is impossible.",
   "basis": "stipulative",

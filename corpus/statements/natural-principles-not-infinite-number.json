@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-PRINCIPLES-NOT-INFINITE-IN-NUMBER",
+  "id": "8d161c9c-25dd-5466-953d-b4a48b262cc9",
+  "label": "The natural principles are not infinite in number; a finite set is sufficient and preserves the…",
+  "legacy_id": "STMT-NATURAL-PRINCIPLES-NOT-INFINITE-IN-NUMBER",
   "paraphrase": "The natural principles are not infinite in number; a finite set is sufficient and preserves the knowability and priority Aristotle requires of principles.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrinciplesNotInfiniteInNumberReading"
 }

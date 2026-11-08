@@ -1,7 +1,9 @@
 {
-  "id": "INF-ULTIMATE-EXPLANATION-OMISSIONS",
+  "id": "976ba023-56ac-5e51-8c9c-f6a78544dcdd",
+  "label": "Explicit omission controls: an inconsistent initial value and observed prefix…, by Direct-proof",
+  "legacy_id": "INF-ULTIMATE-EXPLANATION-OMISSIONS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ULTIMATE-EXPLANATION-OMISSIONS",
+  "output_statement_id": "f273e256-bd8a-50b4-acb9-c86f03bc99b1",
   "rule": "direct-proof",
   "meaning": "Explicit omission controls: an inconsistent initial value and observed prefix empties the evidence cell and makes accuracy/optimality vacuous; a grounded scope with a false forecast still makes an error; the toggle profile is deterministic but the constant-on trace fails it. These are mathematical controls, not metaphysical or epistemic closure.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER",
+  "id": "a47c7b40-a5da-54f6-ab18-a2f82e7b2efd",
+  "label": "Analyst transfer of moral/welfare…: BoydAspectFragment reuses ClusterGoodnessReading on…",
+  "legacy_id": "DEF-GOODNESS-ASPECT-SCOPE-TRANSFER",
   "term": "analyst transfer of moral/welfare fragments to aspect ascriptions",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.BoydAspectFragment",
   "basis": "stipulative",

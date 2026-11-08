@@ -1,6 +1,8 @@
 {
-  "id": "THRESHOLD-BELIEF-CORE",
-  "argument_id": "THRESHOLD-BELIEF-CORE",
+  "id": "e11c8e74-1bb4-51a3-aaf8-44b1199a1170",
+  "label": "For every finite measurable space with measurable singletons and normalized Mathlib probability…",
+  "legacy_id": "THRESHOLD-BELIEF-CORE",
+  "argument_id": "826fa4b0-17dd-59ea-8b6a-4adc34a5711b",
   "challenge_module": "TruthCore.Results.Logic.ThresholdBelief.Challenge",
   "solution_module": "TruthCore.Results.Logic.ThresholdBelief.Solution",
   "theorem": "TruthCore.Results.Logic.ThresholdBelief.core",

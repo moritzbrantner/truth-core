@@ -1,6 +1,8 @@
 {
-  "id": "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
-  "argument_id": "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+  "id": "62a1a744-7b69-5e94-b6ea-123aa7da6869",
+  "label": "McTaggart's bundle on change does not hold…, from Opinion and imagination are motions… and 1 more",
+  "legacy_id": "MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+  "argument_id": "bd57380b-e9b3-5a81-9e62-79d31e209c99",
   "challenge_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.Solution",
   "theorem": "TruthCore.Results.Alternatives.McTaggartUnrealityOfTimeRefuted.unrealityOfTimeFalse",

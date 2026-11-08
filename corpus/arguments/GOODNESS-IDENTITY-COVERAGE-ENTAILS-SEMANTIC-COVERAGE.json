@@ -1,20 +1,22 @@
 {
-  "id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "id": "4f391388-5715-5f28-93f7-f0b4fbea073c",
+  "label": "Every admissible definition proposal in the…, from Every admissible proposal is identical as a…",
+  "legacy_id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
   "premise_statement_ids": [
-    "STMT-GOODNESS-NAMED-DEFINITIONS-COVER"
+    "cb290349-4d73-5a87-a049-a58c24537b23"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "conclusion_statement_id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
   "inference_ids": [
-    "INF-GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE"
+    "0cdfda1b-86c9-5548-81f8-462009242228"
   ],
   "meaning": "An identical named candidate has pointwise identical extension; map each identity case to semantic coextension. The strong identity coverage is not required in the core elimination.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
-    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab",
+    "ea819c3e-09bb-5000-85f8-e4b28e34aead"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-ACTUAL-WORLD-GAP-QUESTION",
+  "id": "cde1330c-76b6-51a7-9106-c0bcdef0c000",
+  "label": "Why this complete history: diagonal, rigid total, named table and contrastive reason",
+  "legacy_id": "DISAMB-ACTUAL-WORLD-GAP-QUESTION",
   "term": "why this complete history: diagonal, rigid total, named table and contrastive reason",
   "sense_definition_ids": [
-    "DEF-ACTUAL-WORLD-GAP-TOTAL",
-    "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
-    "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE"
+    "ed76fd1e-c0cb-5f15-bc56-984e7b7112e8",
+    "aede72da-3002-5532-b1d9-49ba7293ffed",
+    "bcca2db5-64bf-5a5d-9df4-6cee81555e8d"
   ],
-  "resolution": "Why does the world one is at have its own history? is the diagonal: holds w (total w) at every world, with nothing to answer. Why does the total fact of a obtain? is rigid and is contingent when a has a rival. Both are in the Schema and neither is identified with the other. A named edge table is an object-level fact about this history, and under LocalRecord it agrees with the total, while the same table with names erased does not separate the worlds; selection results use the sense they state. Having a reason (Explained), having a reason independent of the total (IndependentOf), having a reason false at the rival (ContrastiveClosure) and a reason entailing the total are four separate conditions. No result moves from one to another without a stated hypothesis. Actuality is never a world-selecting event here, and accessibility is not real possibility."
+  "resolution": "Why does the world one is at have its own history? is the diagonal: holds w (total w) at every world, with nothing to answer. Why does the total fact of a obtain? is rigid and is contingent when a has a rival. Both are in the Schema and neither is identified with the other. A named edge table is an object-level fact about this history, and under LocalRecord it agrees with the total, while the same table with names erased does not separate the worlds; selection results use the sense they state. Having a reason (Explained), having a reason independent of the total (IndependentOf), having a reason false at the rival (ContrastiveClosure) and a reason entailing the total are four separate conditions. No result moves from one to another without a stated hypothesis. Actuality is never a world-selecting event here, and accessibility is not real possibility.",
+  "term_label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID",
+  "senses": [
+    {
+      "id": "c8d6d5f3-1252-447c-9aea-9141a641d143",
+      "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_1",
+      "definition_id": "ed76fd1e-c0cb-5f15-bc56-984e7b7112e8",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.Case"
+    },
+    {
+      "id": "7f14b209-bdeb-4ac2-b89c-00b6f1f42c7c",
+      "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_2",
+      "definition_id": "aede72da-3002-5532-b1d9-49ba7293ffed",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.LocalRecord"
+    },
+    {
+      "id": "3befafe8-2878-426c-84c3-88825f80ec88",
+      "label": "WHY_THIS_COMPLETE_HISTORY_DIAGONAL_RIGID_3",
+      "definition_id": "bcca2db5-64bf-5a5d-9df4-6cee81555e8d",
+      "lean_declaration": "TruthCore.Explanation.ActualWorldGap.ContrastiveClosure"
+    }
+  ]
 }

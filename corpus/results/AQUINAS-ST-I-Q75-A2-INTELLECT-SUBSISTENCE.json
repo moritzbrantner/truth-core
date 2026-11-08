@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
-  "argument_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "id": "d2c38907-a339-5131-8028-3e878888cc7f",
+  "label": "The designated intellectual…, from The designated human intellectual principle… and 5 more",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "argument_id": "5651d936-1eea-58e2-b8c5-e7c512880f54",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectSubsistence.intellectSubsistsInWeakSense",

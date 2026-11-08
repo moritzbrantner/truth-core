@@ -1,7 +1,9 @@
 {
-  "id": "INF-ULTIMATE-EXPLANATION-PREDICTION",
+  "id": "9dc49fb5-2735-55d9-8bcd-94c933faad51",
+  "label": "At each observed cutoff, a supplied stable copy-law profile has a nonempty…, by Direct-proof",
+  "legacy_id": "INF-ULTIMATE-EXPLANATION-PREDICTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ULTIMATE-EXPLANATION-PREDICTION",
+  "output_statement_id": "83bad780-5acf-5235-a30b-8572b3d2cb2a",
   "rule": "direct-proof",
   "meaning": "At each observed cutoff, a supplied stable copy-law profile has a nonempty evidence cell, exact persistence predictions and an outcome-wise optimal bet irrespective of the supplied Scope ground. A shared-prefix open-future profile admits true/false next values, defeats exact prediction and every outcome-wise optimal action but retains a safe action; even a grounded scope can accompany this failure. Adding the stable-law restriction strictly narrows that cell and improves prediction. Reuses both Hume test certificates; no empirical or normative entitlement conclusion.",
   "assumption_statement_ids": [],

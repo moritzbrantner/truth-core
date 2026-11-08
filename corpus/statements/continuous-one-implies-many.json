@@ -1,5 +1,7 @@
 {
-  "id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "id": "687d949c-46fc-59f1-ab31-4268c4f2ae9a",
+  "label": "If the One is continuous, it is many in respect of its divisible parts",
+  "legacy_id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
   "paraphrase": "If the One is continuous, it is many in respect of its divisible parts.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContinuousOneImpliesManyReading"
 }

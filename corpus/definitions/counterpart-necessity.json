@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPART-NECESSITY",
+  "id": "926e4512-986f-594b-94b5-243805ad4918",
+  "label": "CounterpartNecessaryAt in issue #470: Existing source bearer x has, at each accessible v, an\u2026",
+  "legacy_id": "DEF-COUNTERPART-NECESSITY",
   "term": "CounterpartNecessaryAt in issue #470",
   "definition": "Existing source bearer x has, at each accessible v, an existing y linked by the four-place relation c w x v y. This does not imply x=y.",
   "basis": "stipulative",

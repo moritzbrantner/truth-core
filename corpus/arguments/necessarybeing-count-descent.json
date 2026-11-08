@@ -1,9 +1,21 @@
 {
-  "id": "NB-SURVEY-FIVE-TO-ONE",
-  "premise_statement_ids": ["STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE", "STMT-NB-COUNT-CAUSABILITY-DESCENT"],
-  "conclusion_statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
-  "inference_ids": ["INF-NB-SURVEY-FIVE-TO-ONE"],
+  "id": "5d3fab49-3705-5756-84db-1cb8b4be56b4",
+  "label": "It is possible for a cause to bring…, from It can be the case that some cause brings… and 1 more",
+  "legacy_id": "NB-SURVEY-FIVE-TO-ONE",
+  "premise_statement_ids": [
+    "47df9071-0424-5aba-affd-6dc9675a8c27",
+    "6e793839-3aaa-5908-967c-d43201232e74"
+  ],
+  "conclusion_statement_id": "5a19d7bf-50dd-58ab-89a1-4ce361c3f597",
+  "inference_ids": [
+    "cfe962c2-a214-5a1f-92ed-ea987cb1a9db"
+  ],
   "meaning": "Partial reconstruction of NecessaryBeing.com A7c steps 1–3. Under a primitive possible-causability predicate for situations with a cardinal lower bound, the two reader-reported premises yield the one-contingent possibility by four finite decrement instantiations; the bound result is a transcription by instantiation and closes nothing while its premises are open. This neither proves the reader's transfer report nor reaches a noncontingent cause, S5 modal upgrade or God. It introduces no new premise on the root path.",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY", "DEF-NB-COUNT-DESCENT"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "688f2e05-6390-5460-9bd0-190a819df1fa",
+    "d0730fc2-cd03-5526-b082-0e5fc87e2966"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5"
+  ]
 }

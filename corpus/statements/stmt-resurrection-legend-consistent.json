@@ -1,16 +1,18 @@
 {
-  "id": "STMT-RESURRECTION-LEGEND-CONSISTENT",
+  "id": "a22773b4-bffc-5b43-b4a8-fd5b5f5ca537",
+  "label": "The limited Legend pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "STMT-RESURRECTION-LEGEND-CONSISTENT",
   "paraphrase": "The limited Legend pilot bundle is jointly satisfiable with E0–E5. This does not establish its truth, causal adequacy, complete-worldview consistency or the historical findings; shared findings and account commitments remain open.",
   "lean_declaration": "TruthCore.Comparison.Resurrection.LegendConsistent",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY",
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-RESURRECTION-PILOT-COVERAGE",
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9",
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "c1979405-382d-54aa-bfa8-56864a291738",
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

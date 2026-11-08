@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-ANAXAGORAS-ALREADY-PRESENT",
+  "id": "d494c72c-c8ca-5469-9855-68e3265eb0a3",
+  "label": "On the Anaxagorean account reconstructed here, what emerges was already…, by Attributed motivation",
+  "legacy_id": "INF-ARIST-PHYS-ANAXAGORAS-ALREADY-PRESENT",
   "input_statement_ids": [
-    "STMT-NOTHING-FROM-ABSOLUTE-NOT-BEING",
-    "STMT-CONTRARIES-COME-FROM-ONE-ANOTHER"
+    "ae5fad7b-6e2c-5cac-bb8c-f1089b5c9340",
+    "9572f596-5eb8-511d-9ae4-1fa3a2ef0d53"
   ],
-  "output_statement_id": "STMT-ANAXAGOREAN-ALREADY-PRESENT-MOTIVATION",
+  "output_statement_id": "7ae968c0-00c4-5ffd-867f-3983a6d216a8",
   "rule": "attributed_motivation",
   "meaning": "In Aristotle's reconstruction, rejecting generation from absolute not-being together with the emergence of contraries motivates Anaxagoras's conclusion that what appears was already present imperceptibly in the mixture.",
   "assumption_statement_ids": [],

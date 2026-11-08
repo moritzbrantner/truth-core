@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
-  "argument_id": "HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "id": "7595c7b2-0af3-5bcf-b79e-f16c89ff567d",
+  "label": "Transcription of the proposed…, from Every actual instance of nonbelief is… and 1 more",
+  "legacy_id": "HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "argument_id": "36263bcc-93e5-5478-88c0-1e58b517ed60",
   "challenge_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.Solution",
   "theorem": "TruthCore.Results.Hiddenness.GapHasDevelopmentalAccount.gapHasDevelopmentalAccount",

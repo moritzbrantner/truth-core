@@ -1,16 +1,17 @@
 {
-  "id": "STMT-EXISTING-IN-ACT-AT",
+  "id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
+  "label": "Selected-world one-way contract: each individual represented as existent in re is in act in the…",
+  "legacy_id": "STMT-EXISTING-IN-ACT-AT",
   "lean_declaration": "TruthCore.Causality.ExistenceActuality.ExistingInActAt",
   "paraphrase": "Selected-world one-way contract: each individual represented as existent in re is in act in the supplied esse respect. Adopted for the intended esse-profile specialization (owner #1113), but not asserted for arbitrary Ontic assignments. No converse, all-perfection claim or source attribution is asserted.",
   "definition_ids": [
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-COGITO-ESSE-PROFILE"
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-IN-ACT"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

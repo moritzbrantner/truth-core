@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-B-CLOSURE",
+  "id": "4084be19-a107-5409-8fd8-8f9ff2f82aed",
+  "label": "Negation and box closure of an…: The domain assumptions in LanguagePropagation require D P to…",
+  "legacy_id": "DEF-MODAL-B-CLOSURE",
   "term": "negation and box closure of an admissibility domain",
   "definition": "The domain assumptions in LanguagePropagation require D P to imply D (fun x => not P x) and D (Box F P), for every P. With explicitly quantified excluded middle, collapse at v gives two-way agreement along v-to-w; applying collapse twice, first to P and then to Box P, transfers collapse to w. World extensionality, identity predicates, reflexivity and transitivity are not required by this conditional theorem.",
   "basis": "stipulative",

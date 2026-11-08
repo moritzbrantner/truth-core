@@ -1,9 +1,11 @@
 {
-  "id": "REL-SOME-CAUSES-ARE-SETS-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "id": "29ae1386-31e9-5cc0-a4c5-bf6e7e7b3fb8",
+  "label": "Some causes are sets: ordinary physical… attacks Owner framework commitment: At the selected…",
+  "legacy_id": "REL-SOME-CAUSES-ARE-SETS-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
   "subject_kind": "statement",
-  "subject_id": "STMT-SOME-CAUSES-ARE-SETS",
+  "subject_id": "f62f372c-1ac6-528e-a95b-4876ff056bd0",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
   "note": "Lewis's events-as-sets, reported by SEP §3.2: if events are sets and sets are abstract, abstract things cause. Definition audit: retained as a full-strength semantic objection. Automatic opposition requires productive/no-esse and SAME-selected-world interfaces; those are now explicit sibling propositions and checked arguments. The exact selected-profile negative is the formal alternative. See docs/notes/causal-concrete-rival-boundary.md."
 }

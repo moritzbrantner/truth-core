@@ -1,13 +1,15 @@
 {
-  "id": "INF-COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "id": "0f368fbd-0ecc-518b-b98a-44df26d430e4",
+  "label": "Every composite has a cause, other than itself, of its being: things…, by Constructive-proof (2)",
+  "legacy_id": "INF-COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
   "input_statement_ids": [
-    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-    "STMT-UNITING-CAUSE-EFFICIENT-AT-SOME-TIME",
-    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-    "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME"
+    "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+    "58445bd6-264b-53cf-8951-d052022f8e47",
+    "8e44a618-09cf-5ae0-8a0e-c8c7e60b5d26",
+    "fbee7f15-f54b-5a67-9773-3c09ca7015f4",
+    "d15ded6f-1895-5d2d-b967-a14165c49bda"
   ],
-  "output_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "output_statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
   "rule": "constructive-proof",
   "meaning": "Compose the imported original composite-uniter theorem at the existential-time efficient relation. All-time no-self excludes self-production at the witnessed activity time, deriving distinctness. No persistence or selected-time efficient-composer bridge is required. The SAME independent CausesIn and esse conclude the original target.",
   "assumption_statement_ids": [],

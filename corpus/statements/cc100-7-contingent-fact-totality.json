@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-7-CONTINGENT-FACT-TOTALITY",
+  "id": "39c10489-a8ac-5b2b-ad78-423ecb1f044b",
+  "label": "Every contingent fact has an explanation, and there is a contingent fact that includes all other…",
+  "legacy_id": "STMT-CC100-7-CONTINGENT-FACT-TOTALITY",
   "paraphrase": "Every contingent fact has an explanation, and there is a contingent fact that includes all other contingent facts.",
   "definition_ids": [
-    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+    "2f2a31ee-4261-5d39-9f68-f43de4420290"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

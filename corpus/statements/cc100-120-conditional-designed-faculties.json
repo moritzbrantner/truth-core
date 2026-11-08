@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
+  "id": "d946f4ea-f98a-5549-9200-05fc32efce38",
+  "label": "Under the account of epistemic probability in terms of properly functioning faculties and the…",
+  "legacy_id": "STMT-CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
   "paraphrase": "Under the account of epistemic probability in terms of properly functioning faculties and the premise that our faculties have a proper function only if designed, our cognitive faculties are designed.",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

@@ -1,21 +1,23 @@
 {
-  "id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "id": "25f9d224-35b9-5e84-b9bc-8fec0be53238",
+  "label": "Exact negation of the old…, from Some actual opiner of a supplied content is…",
+  "legacy_id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
   "premise_statement_ids": [
-    "STMT-OPINER-LACKS-ITS-OPINION-MOTION"
+    "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720"
   ],
-  "conclusion_statement_id": "STMT-OPINING-MOTION-NORM-FAILS",
+  "conclusion_statement_id": "128d9fde-57e0-5a1f-afad-5b2b4885ebae",
   "inference_ids": [
-    "INF-EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM"
+    "77cfea5e-6c82-5627-a6c1-3ae1787aad40"
   ],
   "meaning": "An actual opiner lacking the SAME designated motion contradicts the old universal opining norm. No global-no-motion premise or historical-school identification is required.",
   "definition_ids": [
-    "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CHANGE-A-SERIES"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

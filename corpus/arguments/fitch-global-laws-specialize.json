@@ -1,20 +1,22 @@
 {
-  "id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "id": "3ac684d0-2d29-5e67-8383-16815257ebd3",
+  "label": "At every world modally accessible from actuality…, from At every world and for every content…",
+  "legacy_id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
   "premise_statement_ids": [
-    "STMT-FITCH-GLOBAL-LAWS"
+    "ba7c90ea-1439-5804-ac44-cb5621d8518a"
   ],
-  "conclusion_statement_id": "STMT-FITCH-RELEVANT-LAWS",
+  "conclusion_statement_id": "51c7ef24-a720-52f1-8f04-49f242269266",
   "inference_ids": [
-    "INF-FITCH-GLOBAL-LAWS-SPECIALIZE"
+    "faef9750-7e02-570a-b8a5-7fbcc5ec1ac4"
   ],
   "meaning": "Specialize global factivity and conjunction extraction to the selected Moore content at each accessed world. This records a strong-to-weak law relation; the obstruction uses only the weak laws.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-FITCH-RELEVANT-STABILITY",
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

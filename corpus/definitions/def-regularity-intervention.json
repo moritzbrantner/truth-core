@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-INTERVENTION",
+  "id": "d0105d0e-8e28-5165-8235-ff91bf25c418",
+  "label": "Intervention response and causal…: Experiment.setX is Y after surgically setting X to x with…",
+  "legacy_id": "DEF-REGULARITY-INTERVENTION",
   "term": "intervention response and causal efficacy",
   "definition": "Experiment.setX(u,x) is Y after surgically setting X to x with background u fixed; setY reverses the roles. Changes requires an actual contrast between the two settings in at least one context. Ideal intervention tables are stipulated model inputs, not inferred from correlation, and correspond only to the deterministic binary specialization of Woodward’s total-cause criterion.",
   "basis": "stipulative",

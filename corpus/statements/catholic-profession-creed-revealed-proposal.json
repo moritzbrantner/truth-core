@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CATHOLIC-PROFESSION-CREED-REVEALED-PROPOSAL",
+  "id": "a7cf152b-52b9-5f16-a547-609085e24b61",
+  "label": "The articles of the NICENE_CONSTANTINOPOLITAN_CREED_2 used in the Catholic profession belong to the…",
+  "legacy_id": "STMT-CATHOLIC-PROFESSION-CREED-REVEALED-PROPOSAL",
   "paraphrase": "The articles of the Nicene-Constantinopolitan Creed used in the Catholic profession belong to the category of Church teaching proposed as formally revealed and irreformable by solemn judgment or ordinary and universal magisterium.",
   "definition_ids": [
-    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
-    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
-    "DEF-CREED-CATHOLIC-PROFESSION-FORMULA"
+    "073468e1-25d6-5d46-836c-c6e8f230809d",
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc",
+    "24ee54ec-d84a-572e-b3b9-134da286f1e6"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREED-CONTENT-AND-FORMULA"
+    "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a"
   ]
 }

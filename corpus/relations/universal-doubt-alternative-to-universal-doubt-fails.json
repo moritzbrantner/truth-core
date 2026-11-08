@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNIVERSAL-DOUBT-ALTERNATIVE-TO-UNIVERSAL-DOUBT-FAILS",
+  "id": "1c886290-7c8c-5cf0-a54c-145541445974",
+  "label": "Universal doubt: something is doubted… alternative to Universal doubt does not hold: whoever…",
+  "legacy_id": "REL-UNIVERSAL-DOUBT-ALTERNATIVE-TO-UNIVERSAL-DOUBT-FAILS",
   "subject_kind": "statement",
-  "subject_id": "STMT-UNIVERSAL-DOUBT",
+  "subject_id": "b30587bf-d5c6-501a-b782-bb6529832a01",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "object_id": "1994160a-2ec3-5619-8562-10e227431254",
   "note": "Off the root routes. The universal doubter is refuted conditionally by WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS, whose one premise (Über Gewißheit §341) is stated but not established; under #999 no refutes relation is recorded."
 }

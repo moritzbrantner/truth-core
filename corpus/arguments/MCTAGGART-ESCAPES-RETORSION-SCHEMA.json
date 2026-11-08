@@ -1,21 +1,23 @@
 {
-  "id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "id": "d4fb232a-e1b3-571b-b20a-07c1bd863cd2",
+  "label": "McTaggart's answer escapes the performed-denial retorsion at the PRESUPPOSITION_LINK_2: for every…",
+  "legacy_id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "conclusion_statement_id": "b51bd293-a8f9-5a06-8f9d-ff73c3d3da05",
   "inference_ids": [
-    "INF-MCTAGGART-ESCAPES-RETORSION-SCHEMA"
+    "67213db2-d64b-5b06-b53b-08515d27560b"
   ],
   "meaning": "Certified escape record: McTaggart's 1927 answer (STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE) rejects the presupposition link of the performed-denial retorsion, outright for change and with the open bridge STMT-MOTION-IS-A-CHANGE for motion, and one model satisfies his commitments and both held theses. It does not show that his position is true or coherent overall, only that the schema gives no retorsion against it from the encoded commitments. Surviving, parked (#515): no further attempt is budgeted.",
   "definition_ids": [
-    "DEF-PRESUPPOSITION-LINK",
-    "DEF-EPISODE-OCCURRENCE",
-    "DEF-EPISODIC-STATE-VARIATION",
-    "DEF-OPINING",
-    "DEF-CHANGE-GENERAL",
-    "DEF-MOTION-AS-REDUCTION"
+    "322dfd2b-04c6-5113-9ab6-6327e617d0c0",
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "0328d44e-ee8e-54b5-bb65-59b197ce3ac1",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "9bd881c9-2227-5883-9595-96db5e630da3",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES",
-    "DISAMB-MOTION"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

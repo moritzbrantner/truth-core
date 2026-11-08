@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A5-NEGATED-NECESSARY-UNCAUSABILITY",
-  "statement_id": "STMT-NB-A5-NEGATED-NECESSARY-UNCAUSABILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "c0fca5d8-5ca0-5066-9d3f-337c8e9fc792",
+  "label": "Unattributed website author, Necessary…: Conditional on the negative A5P1 answer, the source…",
+  "legacy_id": "NB-SURVEY-A5-NEGATED-NECESSARY-UNCAUSABILITY",
+  "statement_id": "2f08816c-f852-5468-9c8f-d7db67d8cec4",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5P1, complete necessary-conditional question, contingent-situation/obtain titles and negative-answer continuation",
   "interpretation": "The question is not actual respondent assent. A5C2–3 names the whole conditional Something Uncausable and attributes its nonnecessity. Retain obtaining-situation membership inside the conditional and the scope of the outer necessity; do not replace this by the shorter alternate question or by a claim that every actual situation actually has a cause.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

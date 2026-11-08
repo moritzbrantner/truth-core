@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-IN-SENSE",
+  "id": "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+  "label": "Necessary in sense s: Sense-relative necessary-being predicate over the finite enum Sense, defined…",
+  "legacy_id": "DEF-NECESSARY-IN-SENSE",
   "term": "necessary in sense s (NecessaryIn s m w CN x)",
   "definition": "Sense-relative necessary-being predicate over the finite enum Sense, defined by cases: boxK = Holds frame V w (box (atom x)) for the existence valuation V (x exists at every world accessible from w; frame class K; the same as Kant's NecessaryAt, by Iff.rfl); actualistK = x exists at w and boxK; deDictoK = Box frame (fun v => exists y, y exists at v) w (necessarily something exists; necessity of the proposition, not of x); boxT, boxS4, boxB, boxS5 = FrameSatisfies KT / S4 / KTB / S5 of the route's frame and boxK; tertiaVia = IsNecessary of ST I q.2 a.3 with possibility read as the frame's diamond at w; perSe = IsNecessaryPerSe under the same possibility for a supplied relation 'c causes the necessity of x'. Worlds are complete possible histories; none of the senses is eternity or immutability (#469). Strength order: S5 -> S4 -> T -> actualist K -> K -> {de dicto K, tertia via}; S5 -> KTB -> T; per se -> tertia via.",
   "basis": "stipulative",

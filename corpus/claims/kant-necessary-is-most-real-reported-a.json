@@ -1,13 +1,15 @@
 {
-  "id": "KANT-NECESSARY-IS-MOST-REAL-REPORTED-A",
-  "statement_id": "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
-  "source_id": "KANT-CPR",
+  "id": "45619c63-d249-5562-a915-9a6406f90efa",
+  "label": "Immanuel Kant, Critique of Pure Reason…: Every absolutely necessary being is most real: the…",
+  "legacy_id": "KANT-NECESSARY-IS-MOST-REAL-REPORTED-A",
+  "statement_id": "2107b9df-b7bc-5f62-af64-9c23f6819c08",
+  "source_id": "6677e01b-8659-5803-a967-9cbaa66f46ca",
   "locator": "Ideal, section V, A608/B636; paragraph “If the proposition”",
   "interpretation": "Reported opponent premise, expressly criticized by Kant. Lean uses a de re modal surrogate and interpreted positive features; the source does not endorse that semantics or establish the premise.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-REALITY-PROFILE"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-203B-PRINCIPLE-WOULD-LIMIT-A",
-  "statement_id": "STMT-INFINITE-PRINCIPLE-WOULD-LIMIT",
-  "source_id": "ARIST-PHYS",
+  "id": "2af54c67-cf9c-550a-ac0c-923004440144",
+  "label": "Aristotle, Physics III.4, 203b4-15: If the infinite in the unbounded sense had a prior principle…",
+  "legacy_id": "ARIST-PHYS-203B-PRINCIPLE-WOULD-LIMIT-A",
+  "statement_id": "b9ac6e25-2322-5972-a760-0852f2b20680",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 203b4-15",
   "interpretation": "Dialectical premise in Aristotle's explanation of why the infinite has been treated as a principle: a prior principle of what is unbounded would constitute a boundary. This is not yet Aristotle's final positive account of infinity.",
   "status": "formalized"

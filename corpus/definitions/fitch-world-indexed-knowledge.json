@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
+  "id": "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+  "label": "World-indexed knowledge and possible\u2026: A Context supplies an actual world, a modal Frame and\u2026",
+  "legacy_id": "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
   "term": "world-indexed knowledge and possible knowledge",
   "definition": "A Context supplies an actual world, a modal Frame and K:(W\u2192Prop)\u2192W\u2192Prop. PossibleKnown c p w means some modally accessible v knows the same predicate p at v; Moore c p w means p holds but Kp fails at that very world. RelevantLaws require factivity and left-conjunct extraction only for this Moore content at worlds accessible from actuality. No actual-only necessitation, agent/time quantification, or relationship between modal and epistemic alternatives is implicit.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-IDENTITY",
+  "id": "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+  "label": "IDENTITY_PREDICATE_ADMISSIBILITY_3: IdentityAdmissible D w means D admits the predicate v = w",
+  "legacy_id": "DEF-MODAL-FIXTURE-IDENTITY",
   "term": "identity-predicate admissibility",
   "definition": "IdentityAdmissible D w means D admits the predicate v = w. Only this admission and local MC are needed to identify accessible successors with the root. Full world-predicate comprehension admits it; fixed languages and corpus inventories need not.",
   "basis": "stipulative",

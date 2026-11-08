@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-SCG-I2-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "ee85b99c-5771-5dc4-9b5a-ed4207f03cda",
+  "label": "Thomas Aquinas, Summa contra gentiles I.2…… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-AQUINAS-SCG-I2-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-SCG-I-2-NATURAL-REASON-ALL-ASSENT",
+  "subject_id": "41aa4c59-6eb1-5b27-8e71-6b1a26c7cb3a",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "SCG I.2 n.4 names natural reason as that 'cui omnes assentire coguntur', invoked against Muslims and pagans, who share no scriptural authority with Christians: scholastic usage of natural reason as reason shared with outsiders to Christianity. Gaps: whether the pagans meant are outside every theological horizon is not stated (a further bridge); and Aquinas is a theologian of the practice, not its council, so that Vatican I's 'naturali humanae rationis lumine' has his sense is a reading step."
 }

@@ -1,33 +1,35 @@
 {
-  "id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "id": "d602ba9e-d74c-5156-bfc5-8e581041e285",
+  "label": "GOD_4 is one: whatever is GOD_4 is the same, from nature",
+  "legacy_id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
   "premise_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
-    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "bf422bd7-67a6-58c5-9b1f-c73e08f20b21",
+    "0730d46f-4604-5750-9a64-de664f064b31"
   ],
-  "conclusion_statement_id": "STMT-GOD-IS-ONE",
+  "conclusion_statement_id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE"
+    "1aa81ce9-e3cf-5502-b389-649c927cae5b"
   ],
   "meaning": "Q.11 a.3 first-proof reading: transport each God’s individuating basis through suppositum/nature identity to the common divine nature, then apply the explicit incommunicability principle. Equality of beings is derived, not assumed; no maximality, perfection, naming converse, or excluded middle is used. The three principles remain sourced but undefended. The same Comparator config additionally checks the frozen comparison lemma maximalityFromNamedMaximumAndUniqueness: GodIsOne plus an explicitly named maximal witness implies GodIsMaximalInBeing by equality transport. That auxiliary conditional is not registered as a global derivation of the old bridge.",
   "definition_ids": [
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
-    "DEF-Q11-COMMON-DIVINE-NATURE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-ONE-GOD",
-    "DEF-MAXIME-ENS",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-MORE-IN"
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "06ecb76b-03a1-52cc-975c-5dbfa74857ba",
+    "248eac32-3f30-5fa3-a34a-7c218d01021b",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q11-SUPPOSITUM-NATURE",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-ESSENCE",
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

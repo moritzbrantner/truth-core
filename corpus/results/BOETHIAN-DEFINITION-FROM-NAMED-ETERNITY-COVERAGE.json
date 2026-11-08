@@ -1,6 +1,8 @@
 {
-  "id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
-  "argument_id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "id": "5eb212da-7d2f-51ca-84e0-9377649dbb98",
+  "label": "For every being in the supplied duration profile, primitive Eternal…, from named eternity coverage",
+  "legacy_id": "BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "argument_id": "cddbd5b0-713b-5bde-9b95-2c70b455d582",
   "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Challenge",
   "solution_module": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution",
   "theorem": "TruthCore.Results.Causality.EternityDefinitions.NamedElimination.namedElimination",

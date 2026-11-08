@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "PASNAU-MIND-HUMAN-NATURE",
+    "source_id": "5cc64f53-738a-5a24-8817-e5b6901ecd29",
     "source_url": "https://spot.colorado.edu/~pasnau/inprint/pasnau.mindandnature.pdf",
     "sha256": "sha256:b317cca7d8aad1d691c686f6b4e848924a4fdfae76ec3cfc4e89524e4a6de61e",
     "wayback_url": "https://web.archive.org/web/20250806031630id_/https://spot.colorado.edu/~pasnau/inprint/pasnau.mindandnature.pdf",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "PASNAU-MIND-HUMAN-NATURE-353-357",
+      "id": "67bf2590-e801-5f18-9724-cb3d2696e462",
+      "label": "Robert Pasnau, Philosophy of Mind and Human Nature, Pp.353–357",
+      "legacy_id": "PASNAU-MIND-HUMAN-NATURE-353-357",
       "locator": "pp.353–357 (physical PDF pages 6–10)",
       "claim_locator_prefixes": [
         "pp.353–357 "

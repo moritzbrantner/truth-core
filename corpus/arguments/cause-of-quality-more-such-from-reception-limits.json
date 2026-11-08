@@ -1,31 +1,33 @@
 {
-  "id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
+  "id": "924302df-70a7-52c9-8288-56f08369db75",
+  "label": "Whatever causes a quality in another thing is more such than that thing, from reception limits",
+  "legacy_id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
   "premise_statement_ids": [
-    "STMT-CAUSE-HAS-WHAT-IT-GIVES",
-    "STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT",
-    "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT",
-    "STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-CAUSE-HAS-PERFECTION-NOT-AS-RECEIVED-IN-EFFECT",
-    "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED"
+    "376d6a5a-c179-5090-b57c-f9a371222899",
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
+    "39a4c28c-4a75-5918-96bf-16a5acd8e783",
+    "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+    "7030af77-c1d4-5f67-bc0c-875048d1b55c"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+  "conclusion_statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
   "inference_ids": [
-    "INF-CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS"
+    "6e7a9c64-6ec9-5585-ad54-d798a652b0ba"
   ],
   "meaning": "Derives the Metaphysics II.1 / Posterior Analytics I.2 premise that a distinct cause of a quality is more such, from six OPEN analyst premises: the cause has what it gives; a perfection caused in another is received in it; reception limits by the recipient; limitation by z is only through reception in z; the cause's perfection is not received in its effect; and an unlimited possessor exceeds a limited one. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. It does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so it does not close a cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-PERFECTION-LIMITED-BY",
-    "DEF-PERFECTION-RECEIVED-IN"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-IN-ACT",
-    "DISAMB-ORDER-OF-BEING"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

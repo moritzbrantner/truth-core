@@ -1,19 +1,21 @@
 {
-  "id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "id": "2597b819-0089-5e8b-96fb-052944c27b14",
+  "label": "Weak version: for every sentence, if its negation…, from Strong version: for every sentence, if it…",
+  "legacy_id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
   "premise_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad"
   ],
-  "conclusion_statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "conclusion_statement_id": "3f979107-8ac1-557c-8e10-b3cfa3a7ba78",
   "inference_ids": [
-    "INF-MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK"
+    "eee39530-3c68-576d-b089-382fe93cac3f"
   ],
   "meaning": "The strong version of negation closure entails the weak one by instantiation: closure at every sentence gives closure at every negated sentence. Records the strengthening between the -STRONG and -WEAK sibling statements (#1017).",
   "definition_ids": [
-    "DEF-MEANING-NEGATION-CLOSURE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

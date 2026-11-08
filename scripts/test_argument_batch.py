@@ -4,6 +4,10 @@
 from __future__ import annotations
 
 import sys
+import json
+import tempfile
+import uuid
+from unittest.mock import patch
 import unittest
 from pathlib import Path
 
@@ -62,10 +66,64 @@ class ChallengeTextTest(unittest.TestCase):
             argument_batch.challenge_text(SOLUTION, ["absent"])
 
 
-class SlugTest(unittest.TestCase):
-    def test_slug_drops_prefix(self) -> None:
-        self.assertEqual(argument_batch.slug("STMT-FOO-BAR"), "foo-bar")
-        self.assertEqual(argument_batch.slug("FOO-FROM-BAR"), "foo-from-bar")
+class HandlesTest(unittest.TestCase):
+    """Spec handles resolve to uuids; new records get uuid4 ids and plain labels."""
+
+    def test_legacy_handle_resolves_and_new_records_need_a_plain_label(self) -> None:
+        from corpus_ids import is_uuid, legacy_uuid
+
+        handles = argument_batch.Handles()
+        self.assertEqual(handles.get("statement", "STMT-EXCLUDED-MIDDLE"),
+                         legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE"))
+        minted = handles.get("statement", "brand new handle", "A brand new proposition for the test")
+        self.assertTrue(is_uuid(minted))
+        self.assertNotEqual(minted, legacy_uuid("statement", "brand new handle"))
+        self.assertEqual(handles.ref("statement", "brand new handle"), minted)
+        with self.assertRaises(SystemExit):
+            handles.get("statement", "STMT-NOT-A-RECORD-YET")
+
+
+class SenseForkGenerationTest(unittest.TestCase):
+    def test_uuid_fork_records_are_stable_across_regeneration(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            corpus = root / "corpus"
+            statement_id = str(uuid.uuid4())
+            senses = [str(uuid.uuid4()), str(uuid.uuid4())]
+            for kind, records in {
+                "statements": [{"id": statement_id, "label": "A test proposition", "paraphrase": "A"}],
+                "disambiguations": [{"id": str(uuid.uuid4()), "term_label": "PRIOR", "senses": [
+                    {"id": sid, "label": f"PRIOR_{n}"} for n, sid in enumerate(senses, 1)]}],
+            }.items():
+                (corpus / kind).mkdir(parents=True)
+                for record in records:
+                    (corpus / kind / f"{record['id']}.json").write_text(json.dumps(record))
+            spec = {
+                "batch": {"vocab": "TruthCore.Test", "results": "TruthCore.Results.Test"},
+                "argument": [{"label": "Priority consequence", "rule": "identity", "meaning": "A implies A",
+                    "for_each_sense": {"term": "PRIOR", "senses": ["PRIOR_1", "PRIOR_2"]},
+                    "cases": {f"PRIOR_{n}": {"theorem": f"case{n}", "premises": [statement_id],
+                                               "conclusion": statement_id} for n in (1, 2)}}],
+            }
+            with patch.object(argument_batch, "ROOT", root), patch.object(argument_batch, "CORPUS", corpus):
+                self.assertTrue(argument_batch.build_records(spec, True))
+                records = [json.loads(p.read_text()) for p in (corpus / "arguments").glob("*.json")]
+                self.assertEqual({r["term_senses"]["PRIOR"] for r in records}, set(senses))
+                self.assertEqual(len({r["id"] for r in records}), 2)
+                self.assertEqual(argument_batch.build_records(spec, False), [])
+
+
+class CommandSmokeTests(unittest.TestCase):
+    def test_empty_map(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "map.toml"
+            path.write_text('target = "test"\n')
+            self.assertEqual(argument_batch.check_map(path, False), 0)
+
+    def test_fix_without_arguments(self):
+        from subprocess import CompletedProcess
+        with patch.object(argument_batch.subprocess, "run", return_value=CompletedProcess([], 0, "", "")):
+            self.assertEqual(argument_batch.fix_disambiguations({}), 0)
 
 
 if __name__ == "__main__":

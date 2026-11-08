@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-PSR-WELL-FOUNDED-EXPLAINED-SOURCE",
+  "id": "ac6a95b9-7bc6-5b41-b76b-ceafd844b685",
+  "label": "At a populated model world, well-founded causal predecessors yield an actual existent with no…",
+  "legacy_id": "ATTEMPT-PSR-WELL-FOUNDED-EXPLAINED-SOURCE",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-PSR-EXISTENCE-COMPONENT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
-    "STMT-PSR-EXPLAINED-SOURCE-AT",
-    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
+    "27bdc583-788a-5dc0-8448-0be5e6237310",
+    "e41595d4-5911-57a5-aca4-e928fed4bfe2",
+    "627f9018-3f9e-56da-ad08-fd6f1f61b3f8"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "At a populated model world, well-founded causal predecessors yield an actual existent with no incoming cause from another actual existent; existence-PSR adds a stipulated reason for its existence fact. Removing causal well-foundedness permits a mutually-causing pair satisfying PSR and universal external causation; removing population makes universal predicates vacuous. Explicitly non-divine and non-modal conclusion; adequacy of explanatory reasons unestablished. See docs/causal-finite-branching-and-psr-syllogisms.md. A later operational configuration adapter now exposes the already existing all_external_causes_impossible theorem as a three-listed-premise ConfigurationFalse result: selected-world population, selected-world full causal WF, and all-world EveryExistentExternallyCaused. No explanation/PSR premise is used. CONFIG-LOCAL-EXISTENCE-PSR registers it and the three-atom selection; unchanged registered EmptyWorld (drop population), MutualCauses (drop WF), and Intrinsic (drop external causation) supply the single-removal interpretations. This is reuse and propagation, not a new philosophical discovery, new model, or root-premise closure. Existing model certificates are trusted rather than rerun. The frozen CausalHarvest Challenge and single persistent-session Solution diagnostics cover this adapter; final delivered CI, not local repeated Comparator/model gates, is authoritative.",
   "evidence": [
-    "PSR-WELL-FOUNDED-CAUSE-HAS-EXPLAINED-SOURCE",
+    "92cd4ef4-9c6b-5888-9263-14984cef0280",
     "PR-481",
-    "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE"
+    "ac70423f-9820-5696-83a7-381a5303a6f7"
   ]
 }

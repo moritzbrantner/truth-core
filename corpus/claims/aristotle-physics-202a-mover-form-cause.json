@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-MOVER-FORM-CAUSE-A",
-  "statement_id": "STMT-MOVER-FORM-SOURCE-CAUSE-CHANGE",
-  "source_id": "ARIST-PHYS",
+  "id": "8f48dfb0-fa25-5fd0-a497-03cffd097a5a",
+  "label": "Aristotle, Physics III.2, 202a9-12: A mover, insofar as it acts as mover, carries a form that…",
+  "legacy_id": "ARIST-PHYS-202A-MOVER-FORM-CAUSE-A",
+  "statement_id": "78d52d14-9b7f-583b-b55e-df631827ab49",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.2, 202a9-12",
   "interpretation": "Form-as-source reading: the mover qua mover brings or carries a form that is source and cause of the change. The human-generates-human example supports the relation, but this claim does not identify every efficient cause with a form or collapse Aristotle's causal modes.",
   "status": "formalized"

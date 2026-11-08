@@ -1,16 +1,18 @@
 {
-  "id": "CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
-  "statement_id": "STMT-CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "a5598bde-cf56-5629-85e5-8e1baa9e6b45",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If we know mathematical objects and knowledge requires…",
+  "legacy_id": "CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
+  "statement_id": "f21bd3ed-61de-5b87-9f84-4653b3cb3172",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 3 under steps 1–2",
   "interpretation": "Retain the displayed application conditionally. Proposition/object and abstract-object/causal-explanation correspondence remain interpretive obligations. No particular divine provider, necessary object or complete explanation follows merely from a connection existing. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+    "2fe8632c-590d-5b5f-86ef-79abcf51044b"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

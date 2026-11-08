@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
-  "argument_id": "TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
+  "id": "734bfca4-26fb-5520-a56e-bd6923ba592d",
+  "label": "Reuses #179’s complete two-archer model",
+  "legacy_id": "TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
+  "argument_id": "8703b478-fc9a-56c1-8464-95586125b38e",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.LocalUniversalScope.localUniversalScope",

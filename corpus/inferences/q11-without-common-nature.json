@@ -1,7 +1,9 @@
 {
-  "id": "INF-Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
+  "id": "565dcafa-c365-5186-9185-ef8180a441e4",
+  "label": "A finite local model satisfies incommunicable individuating bases and…, by Verified-result",
+  "legacy_id": "INF-Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-Q11-UNIQUENESS-FAILS-WITHOUT-COMMON-NATURE",
+  "output_statement_id": "a63e2c9f-902c-546e-94b3-dfa5f11d7e59",
   "rule": "verified-result",
   "meaning": "Concrete Bool countermodel to local entailment with one Q11 principle omitted. Every other advertised Q11 premise holds for two distinct IsGod instances, while GodIsOne fails. This tests necessity only for this local argument; it is not a source-faithful theology, a model of the full root premises, or a refutation of the omitted claim.",
   "assumption_statement_ids": [],

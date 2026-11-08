@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-  "statement_id": "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-  "source_id": "AQUINAS-ST",
+  "id": "b69b9bb1-486e-586c-8b35-e51fac9c0e20",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1 co: For every being x: if the act of being of x is…",
+  "legacy_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "statement_id": "1304b462-4a10-5dd0-995a-db5feb21d98e",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.7 a.1 co.: Cum igitur esse divinum non sit esse receptum in aliquo ... manifestum est quod ipse Deus sit infinitus et perfectus",
   "interpretation": "After 'forma ... per hoc quod recipitur in materia, fit forma determinate huius rei' and 'illud autem quod est maxime formale omnium, est ipsum esse', Aquinas infers infinity from the bare fact that the divine esse is not received in anything. The inference needs, as its warrant restricted to esse, that an esse that is not received in anything is not limited: equivalently, limited esse is received. The reading states that warrant; the sentence itself states only its application to God. It is restricted to esse, because a.2 co. lets a subsistent created form be unlimited with respect to matter while its esse is limited, and that case is consistent with the reading since its esse is received. That the warrant is true of every limitation of esse, and not only of the ordinary cases the article mentions, is not argued in the passage and remains open.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSE"
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSE-LIMITATION"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "19190b6e-359f-590c-b434-4e6f5803da4f"
   ]
 }

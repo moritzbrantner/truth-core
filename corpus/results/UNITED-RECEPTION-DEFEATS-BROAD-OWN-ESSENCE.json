@@ -1,6 +1,8 @@
 {
-  "id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
-  "argument_id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "id": "3bbde972-5fc9-5a33-a348-41fdfda346d0",
+  "label": "Exact negation of the original broad…, from The canonical reception relation holds in… and 1 more",
+  "legacy_id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "argument_id": "ecaadc17-38bd-505e-8bf1-ac737f8bb06c",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.OwnEssenceFailure.ownEssenceFailure",

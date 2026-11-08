@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TWO-RELATION-POSSIBILITY",
+  "id": "978b9b69-3707-52e4-9205-127e9a5ebe77",
+  "label": "Two-relation modal admissibility on…: Reuse Frame.access and the existing GoedelGod MProp, Box and…",
+  "legacy_id": "DEF-TWO-RELATION-POSSIBILITY",
   "term": "two-relation modal admissibility on candidate descriptions",
   "definition": "Reuse Frame.access and the existing GoedelGod MProp, Box and Dia: Box F P w means every F-accessible candidate satisfies P; Dia F P w means some F-accessible candidate satisfies P. IncludedAt E M w means every E-successor of w is an M-successor. TransferLaws quantifies over every predicate, permitting singleton tests. OmissionControl fixes Bool descriptions, E universal, M identity, origin false and P(v) := v = true. Both frames are equivalences. The carrier is candidate descriptions rather than an assertion that all its members are genuinely metaphysically possible; M is the explicitly stipulated stronger admission filter.",
   "basis": "stipulative",

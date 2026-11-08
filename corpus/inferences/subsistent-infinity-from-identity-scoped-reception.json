@@ -1,13 +1,15 @@
 {
-  "id": "INF-SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "id": "64d124bc-5791-57ee-9f0b-36318aa9db6a",
+  "label": "What is its own subsistent being is INFINITE_1, by Constructive-proof",
+  "legacy_id": "INF-SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
   "input_statement_ids": [
-    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
-    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
-    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
-    "STMT-UNLIMITED-ESSE-IS-INFINITE"
+    "1304b462-4a10-5dd0-995a-db5feb21d98e",
+    "b9316115-41b9-57e3-bdef-35b6e2face1a",
+    "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2",
+    "14325c83-1c3f-5afb-b63f-52b0c2b2a326",
+    "be1289df-3c43-5595-99b5-1fb8d38164be"
   ],
-  "output_statement_id": "STMT-SUBSISTENT-BEING-IS-INFINITE",
+  "output_statement_id": "75a37a91-732d-510c-9abc-b37c988c5c63",
   "rule": "constructive-proof",
   "meaning": "Compose the unchanged original subsistentBeingIsInfinite theorem over the subtype of SAME bearers whose esse=essence. The old broad own-essence input is replaced by the strictly weaker identity-scoped law; all other original limitation/receptive-potency/irreflexivity/infinity inputs remain explicit. Exact original target, no arbitrary soul-exclusion rule.",
   "assumption_statement_ids": [],

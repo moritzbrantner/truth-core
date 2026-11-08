@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
+  "id": "fa2a2cea-da94-5b66-93fe-3817ad910157",
+  "label": "An exact Nat×Bool interpretation satisfies local-chain composition and has…, by Constructive-proof",
+  "legacy_id": "INF-LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LOCAL-CHAIN-COMPOSITION-POPULATED-STRICTNESS",
+  "output_statement_id": "dfbf4e4f-1a47-5cb7-9df6-292ebf8cddf7",
   "rule": "constructive-proof",
   "meaning": "A populated local-chain interpretation satisfies weak composition while a distinct injective touching chain lacks any whole, refuting the reverse scope implication. The actual local chain and its whole are exported rather than made vacuous. This interpretation does not satisfy all four regress premises and is not claimed physically possible.",
   "assumption_statement_ids": [],

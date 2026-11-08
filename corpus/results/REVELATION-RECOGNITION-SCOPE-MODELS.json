@@ -1,6 +1,8 @@
 {
-  "id": "REVELATION-RECOGNITION-SCOPE-MODELS",
-  "argument_id": "REVELATION-RECOGNITION-SCOPE-MODELS",
+  "id": "ce059df8-6c75-59e6-9a7c-2457395ed327",
+  "label": "Six schema controls witness actual cut-off with capability and nonactual shared recognition…",
+  "legacy_id": "REVELATION-RECOGNITION-SCOPE-MODELS",
+  "argument_id": "210d65cf-2956-5ca8-b759-f95577378f78",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Models.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Models.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Models.recognitionModels",

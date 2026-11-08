@@ -1,9 +1,11 @@
 {
-  "id": "REL-MEASURE-DOCTRINE-ALTERNATIVE-TO-ITS-FAILURE",
+  "id": "26e3bd75-ce8b-5833-a0fc-297b07933d5b",
+  "label": "Protagoras's measure doctrine as… alternative to The unrestricted measure doctrine fails…",
+  "legacy_id": "REL-MEASURE-DOCTRINE-ALTERNATIVE-TO-ITS-FAILURE",
   "subject_kind": "statement",
-  "subject_id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
+  "subject_id": "534a41b0-1001-5824-8d35-938bdaef3e2f",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "object_id": "4c3e472c-dd45-55e3-8ec1-15360eb8a59a",
   "note": "Self-application does not refute the qualified doctrine: horn 2 (PLATO-THEAET-PERITROPE-RELATIVE-HORN) is consistent (PLATO-THEAET-PERITROPE-MODELS). Its failure follows only from the restricted doctrine's own concession (PLATO-THEAET-CONCESSION-DEFEATS-MEASURE), i.e. against a relativist who makes the 172a retreat. Surviving rival; cost: privacy of truth."
 }

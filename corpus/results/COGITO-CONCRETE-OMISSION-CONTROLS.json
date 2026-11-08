@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-CONCRETE-OMISSION-CONTROLS",
-  "argument_id": "COGITO-CONCRETE-OMISSION-CONTROLS",
+  "id": "145f91e4-a908-5c1e-b474-d27e446235fb",
+  "label": "Nine finite interpretations over Unit: eight omission controls and one event-route model",
+  "legacy_id": "COGITO-CONCRETE-OMISSION-CONTROLS",
+  "argument_id": "5bada9c7-0861-5f45-85be-dfbc733cc723",
   "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoConcrete.omissionControls",

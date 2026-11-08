@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
-  "argument_id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
+  "id": "a83c851e-1c41-5921-8b3b-1215c1b6009a",
+  "label": "Some f belongs to S and satisfies the…, from Every condition in the fixed selected set… and 3 more",
+  "legacy_id": "JOINT-GROUND-EFFECT-CONTINGENT-MEMBER",
+  "argument_id": "0757889f-b4d5-583f-abec-02347ec9edf8",
   "challenge_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointGroundEffectContingency.Solution",
   "theorem": "TruthCore.Results.Explanation.JointGroundEffectContingency.contingentMember",

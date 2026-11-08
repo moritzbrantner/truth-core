@@ -1,23 +1,25 @@
 {
-  "id": "STMT-UNDERIVED-ROUTE-EXIT",
+  "id": "7f01ca6f-b2fc-58e7-b9fe-f0cae79e0bf1",
+  "label": "At w at least one holds: some individual exists at w and at every accessible world and has no…",
+  "legacy_id": "STMT-UNDERIVED-ROUTE-EXIT",
   "paraphrase": "At w at least one holds: some individual exists at w and at every accessible world and has no existing supporter at any world; or the selected relation is not well-founded on actual concreta; or some actual root is contingent, with an accessible world lacking it; or the present-support premise fails; or the concrete-supporters premise fails. The alternatives can overlap, and none is asserted.",
   "lean_declaration": "TruthCore.Causality.UnderivedRootRoute.UnderivedRouteExit",
   "definition_ids": [
-    "DEF-UNDERIVED-ROOT-ROUTE",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd"
   ]
 }

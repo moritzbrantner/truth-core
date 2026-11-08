@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
-  "argument_id": "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
+  "id": "41e0c989-b0db-545c-8794-16469b07da37",
+  "label": "One SAME finite profile satisfies historical production, selected-time no-self, the existing…",
+  "legacy_id": "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL",
+  "argument_id": "e74e5d16-9c44-571f-bd10-c0e67ed4c99c",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCountermodel.Bound.pastSelfCountermodel",

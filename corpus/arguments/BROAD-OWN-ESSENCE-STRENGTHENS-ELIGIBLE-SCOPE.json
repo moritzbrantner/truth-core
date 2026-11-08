@@ -1,20 +1,22 @@
 {
-  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "id": "46ce053d-17db-500c-816d-c29055d693a3",
+  "label": "A scope-restricted sibling of the original…, from For every being x and principle r, if the…",
+  "legacy_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
   "premise_statement_ids": [
-    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+    "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7"
   ],
-  "conclusion_statement_id": "STMT-ELIGIBLE-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "conclusion_statement_id": "7590d341-29a1-5d3d-8d0e-9564914608de",
   "inference_ids": [
-    "INF-BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE"
+    "355b4f02-3e2f-5fc1-8d59-ec7aabcafafa"
   ],
   "meaning": "Exact sole-premise scope strength: the original broad law implies the supplied eligible-bearer restriction. No source eligibility criterion is adopted.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

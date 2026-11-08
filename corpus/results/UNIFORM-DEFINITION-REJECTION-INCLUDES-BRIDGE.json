@@ -1,6 +1,8 @@
 {
-  "id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
-  "argument_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "id": "6b0e230f-28d3-593b-8432-8ebc50e2790f",
+  "label": "Exact negation of conciliar definition is…, from Both uniform endorsement profiles fail: not…",
+  "legacy_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "argument_id": "060ec4cf-12e5-5c5e-aa3e-7926d8a50599",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Projection.uniformRejectionIncludesBridge",

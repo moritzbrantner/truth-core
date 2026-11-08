@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189B-COMMON-BEFORE-PARTICULAR-A",
-  "statement_id": "STMT-COMMON-GENERATION-BEFORE-PARTICULAR-KINDS",
-  "source_id": "ARIST-PHYS",
+  "id": "6971f0c4-d990-540b-a7e4-0aa59b1f60cd",
+  "label": "Aristotle, Physics I.7, 189b30-34: The account of coming-to-be should first consider features…",
+  "legacy_id": "ARIST-PHYS-189B-COMMON-BEFORE-PARTICULAR-A",
+  "statement_id": "b66c230d-89f0-5a00-b914-0e789b9fd08f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 189b30-34",
   "interpretation": "Methodological ordering: Aristotle begins with what is common to all coming-to-be before turning to kinds. This is a local order of inquiry, not a claim that universal knowledge is always temporally acquired first.",
   "status": "formalized"

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-BECOMING-HAS-UNDERLYING-SUBJECT",
+  "id": "96527660-7bd9-55c0-88d4-99527d5cf0b1",
+  "label": "Every case of becoming has an underlying subject that is numerically one while its…",
+  "legacy_id": "STMT-BECOMING-HAS-UNDERLYING-SUBJECT",
   "paraphrase": "Every case of becoming has an underlying subject that is numerically one while its subject-description and privative description differ in account.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BecomingHasUnderlyingSubjectReading"
 }

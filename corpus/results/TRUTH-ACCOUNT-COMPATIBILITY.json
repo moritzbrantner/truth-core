@@ -1,6 +1,8 @@
 {
-  "id": "TRUTH-ACCOUNT-COMPATIBILITY",
-  "argument_id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "id": "74f123ce-4e4f-5d02-b505-95a0d8a5e4ce",
+  "label": "The complete existing encoded intuitionist framework, assertion/proof condition and global…",
+  "legacy_id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "argument_id": "5ef7bff1-57b7-5905-87a8-cbe63286e341",
   "challenge_module": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.Solution",
   "theorem": "TruthCore.Results.Logic.TruthAccountCompatibility.Compatibility.jointEncodedAccounts",

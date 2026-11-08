@@ -1,16 +1,18 @@
 {
-  "id": "STMT-CASE-NON-CONTRADICTION",
+  "id": "c425f0c5-6c3f-5115-ba04-3e61bd049e3b",
+  "label": "Non-contradiction for the case predicates: for every predicate of beings in respects, nothing both…",
+  "legacy_id": "STMT-CASE-NON-CONTRADICTION",
   "paraphrase": "Non-contradiction for the case predicates: for every predicate of beings in respects, nothing both has it and lacks it in the same respect (Aristotle, Metaphysics IV.3, 1005b19-20).",
   "lean_declaration": "TruthCore.Logic.CaseNonContradiction.CasePredicateNonContradiction",
   "self_evident": {
     "basis": "retorsion",
     "justification_ids": [
-      "LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE"
+      "a7ecf1fe-a234-5de6-bb72-bf76309c5ea3"
     ],
-    "denial_statement_id": "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE",
+    "denial_statement_id": "e5097538-f9b9-5f7e-9060-12a087ca0f65",
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-SOME-CASE-PREDICATE-CONTRADICTION-TRUE"
+        "e5097538-f9b9-5f7e-9060-12a087ca0f65"
       ]
     },
     "owner_approval": {

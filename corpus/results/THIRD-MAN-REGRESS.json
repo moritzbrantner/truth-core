@@ -1,6 +1,8 @@
 {
-  "id": "THIRD-MAN-REGRESS",
-  "argument_id": "THIRD-MAN-REGRESS",
+  "id": "c1c5df47-6c77-5511-9d60-dafc4fd03b45",
+  "label": "Some single admitted quality has n…, from There are two distinct particulars sharing… and 5 more",
+  "legacy_id": "THIRD-MAN-REGRESS",
+  "argument_id": "154637dd-4383-5fbb-9546-a6f8d53fa306",
   "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.Regress.regress",

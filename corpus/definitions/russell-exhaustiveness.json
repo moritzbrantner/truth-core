@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-EXHAUSTIVENESS",
+  "id": "ddef645b-61e3-5df3-97a5-880f318f2e96",
+  "label": "EXPLANATORY_SUFFICIENCY_BRIDGE_3: GroundingDetermined F says all sound asymmetric grounding…",
+  "legacy_id": "DEF-RUSSELL-EXHAUSTIVENESS",
   "term": "explanatory sufficiency bridge",
   "definition": "GroundingDetermined F says all sound asymmetric grounding expansions of the fixed F extension agree on every grounding edge. This is a precise additional sufficiency target in the test, not the whole meaning of A2, not Russell’s attributed assertion, and not a claim that every why-question has an answer.",
   "basis": "stipulative",

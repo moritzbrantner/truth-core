@@ -1,15 +1,17 @@
 {
-  "id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-B",
-  "statement_id": "STMT-PILOT-OPPOSED-OPINIONS",
-  "source_id": "ARIST-MET",
+  "id": "3de42839-a8c1-5dc6-a97d-bc62d1c10e04",
+  "label": "Aristotle, Metaphysics IV.5, 1009a9-12: People hold OPPOSED_OPINIONS_1, with the opposition…",
+  "legacy_id": "ARIST-MET-1009A-CONFLICTING-OPINIONS-B",
+  "statement_id": "8c358e24-6fc7-5553-8a76-06b09175ca1f",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.5, 1009a9-12",
   "interpretation": "The parenthesis says people opine opposites (τἀναντία) to one another. This weaker reading records opposition without interpreting it as an expressed negation or assigning it the truth conditions of logical negation. It preserves a defensible reading alongside the contradictory-content reading suggested by the following being/not-being conclusion. No statement equivalence is implied.",
-  "interpretation_of": "ARIST-MET-1009A-CONFLICTING-OPINIONS-A",
+  "interpretation_of": "be56ae94-2be8-5dc6-8de5-6b220afc526c",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PILOT-OPINION-OPPOSITION"
+    "23a26ace-4247-5433-b9f2-5a0e60c00afc"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-OPPOSITION"
+    "54ba7f93-e24b-5d98-bb0e-d6e812c7853d"
   ]
 }

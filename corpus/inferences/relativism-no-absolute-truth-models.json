@@ -1,7 +1,9 @@
 {
-  "id": "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "id": "6b09d43f-2aa4-5634-8658-67d2b16f7b9c",
+  "label": "Two models: the scoped, disquoting no-absolute-truth thesis holds while its…, by Constructive-proof",
+  "legacy_id": "INF-RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+  "output_statement_id": "3ecdf33e-621c-5f6f-99a3-1ad2f079fe9e",
   "rule": "constructive-proof",
   "meaning": "Horn 2 and the exemption are consistent: the relative assertion of the self-applying thesis is met while the thesis is not true for the other agent; and an exempted thesis can be asserted absolutely.",
   "assumption_statement_ids": [],

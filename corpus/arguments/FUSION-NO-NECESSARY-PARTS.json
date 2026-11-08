@@ -1,25 +1,27 @@
 {
-  "id": "FUSION-NO-NECESSARY-PARTS",
+  "id": "06906628-1d20-5b5f-b049-50461ad0fcbc",
+  "label": "No part of the selected object satisfies…, from The selected object satisfies the… and 2 more",
+  "legacy_id": "FUSION-NO-NECESSARY-PARTS",
   "premise_statement_ids": [
-    "STMT-SELECTED-SUM2-FUSION",
-    "STMT-FUSION-FAMILY-NO-NECESSARY-PARTS-AT",
-    "STMT-NECESSITY-DOWNWARD-ALONG-PARTHOOD-AT"
+    "7f6e2365-5087-553c-8245-cb2205becb05",
+    "051d8623-5666-5db1-a42b-58622bc4d6da",
+    "e65cb74d-df62-5221-b09c-099a3b904a3d"
   ],
-  "conclusion_statement_id": "STMT-NO-NECESSARY-PARTS-AT",
+  "conclusion_statement_id": "589bdaa6-ecff-5cb5-b458-fc01eab86458",
   "inference_ids": [
-    "INF-FUSION-NO-NECESSARY-PARTS"
+    "ddbef1de-1678-516f-a05a-70dd07a01520"
   ],
   "meaning": "Suppose p is a necessary part of the selected sum. Existing Fusion’s no-extra-parts clause gives a family member x overlapping p, hence a common part q of p and x. Explicit downward necessity along parthood makes q necessary from p. But the family premise says x has no necessary part q, contradiction. Retain the SAME Ontic, w, fixed order, family and sum. No actual existence, ordinary contingency, nonempty actual population, cause, source scope or frame property is inferred. The full Fusion premise is retained even though this proof uses its no-extra-parts clause; no minimality is claimed.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "8faca70d-391a-5223-b3e8-2482038ac3ce",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
+  "id": "95b66ff1-44df-5aeb-854e-0e24afa0b36a",
+  "label": "The selected Church predicate does not coextend with the selected…, by Existential elimination…",
+  "legacy_id": "INF-CHURCH-SPIRITUAL-CRITERION-FAILS-FROM-INVISIBLE-COMMUNION",
   "input_statement_ids": [
-    "STMT-SELECTED-CHURCH-IS-VISIBLE",
-    "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE"
+    "d13f6ca0-0b66-5f86-8994-0e2c91deafbf",
+    "b21a4851-8bfc-50df-9413-2223d212ca0b"
   ],
-  "output_statement_id": "STMT-CHURCH-SPIRITUAL-CRITERION-FAILS",
+  "output_statement_id": "713b1289-d9c5-5999-96f0-dc636e67f25c",
   "rule": "Existential elimination, biconditional elimination, reductio",
   "meaning": "The spiritual calibration (Church iff spiritual community) is false: under it the invisible spiritual community given by the OPEN witness premise would be the Church, and the Church is visible (OPEN). Actual negation of the calibration, not mere insufficiency; it does not deny that the Church is a spiritual community.",
   "assumption_statement_ids": [],

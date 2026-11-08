@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-186B-DEFINITIONAL-PLURALITY-A",
-  "statement_id": "STMT-SUBSTANCE-ALLOWS-DEFINITIONAL-PLURALITY",
-  "source_id": "ARIST-PHYS",
+  "id": "bedd92ad-397f-531a-afd5-0072949a60ef",
+  "label": "Aristotle, Physics I.3, 186b12-33: A substance can contain a plurality of genuine definitional…",
+  "legacy_id": "ARIST-PHYS-186B-DEFINITIONAL-PLURALITY-A",
+  "statement_id": "e9a3c578-31f7-547b-9e49-c2f853f2573c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 186b12-33",
   "interpretation": "Aristotle argues from definitional structure that a substance such as man contains genuine constituents such as animal and biped in its account. The claim preserves the anti-monist plurality point without settling a later theory of essence.",
   "status": "formalized"

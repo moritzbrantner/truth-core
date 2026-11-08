@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
-  "argument_id": "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+  "id": "4c85f520-3c8d-5d21-b768-f6493f463b94",
+  "label": "Something in this world is being moved; this is evident to the senses, from thought",
+  "legacy_id": "COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+  "argument_id": "5ee88057-2921-5907-aa3e-539a76110a8c",
   "challenge_module": "TruthCore.Results.Logic.CogitoConcrete.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoConcrete.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoConcrete.somethingMovedOfThought",

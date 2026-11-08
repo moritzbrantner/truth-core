@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-SWOON-CONSISTENT",
+  "id": "9dd27b4a-2d2c-58e9-8bf0-18dc452faa92",
+  "label": "The limited Swoon pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-SWOON-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-SWOON-CONSISTENT",
+  "output_statement_id": "2c0e47ea-626a-5534-8728-008eb09df3f8",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

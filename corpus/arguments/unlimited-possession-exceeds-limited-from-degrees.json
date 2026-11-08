@@ -1,23 +1,25 @@
 {
-  "id": "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
+  "id": "1fbc8de7-58d2-54b8-9935-832bc0acd0e7",
+  "label": "If c has r, x has r limited by x's own capacity, and c's having r is not limited by…, from degrees",
+  "legacy_id": "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
   "premise_statement_ids": [
-    "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
-    "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY",
-    "STMT-GREATER-DEGREE-IS-MORE"
+    "a961a13e-6caf-5864-ba84-10773f0c8b2e",
+    "f6677834-6328-5588-a288-0e0d815876ff",
+    "9eaa3b6e-ad2f-5776-ab26-03cfa9f54ad8"
   ],
-  "conclusion_statement_id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
+  "conclusion_statement_id": "7030af77-c1d4-5f67-bc0c-875048d1b55c",
   "inference_ids": [
-    "INF-UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES"
+    "befe79c0-0845-58cf-b2b0-d3b5b42938d6"
   ],
   "meaning": "Derives the batch 1 bridge that an unlimited possessor of r exceeds a limited one from three OPEN premises on a preorder of degrees: x, limited by x, has r within x's capacity; c, having r not limited by x, has it beyond x's capacity; so x's degree is strictly below c's (le then lt), and the greater degree is more. The degree preorder is a parameter; comparability of a haver's degree with a capacity is carried by the second premise.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-DEGREE-AND-CAPACITY",
-    "DEF-MORE-IN",
-    "DEF-PERFECTION-LIMITED-BY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-IN-ACT"
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

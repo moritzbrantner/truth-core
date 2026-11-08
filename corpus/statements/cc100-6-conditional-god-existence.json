@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-6-CONDITIONAL-GOD-EXISTENCE",
+  "id": "0b6cbe9a-df63-5af6-a5f0-8984050945a1",
+  "label": "If everything that exists has an explanation, the universe exists, and its explanation is God…",
+  "legacy_id": "STMT-CC100-6-CONDITIONAL-GOD-EXISTENCE",
   "paraphrase": "If everything that exists has an explanation, the universe exists, and its explanation is God whenever it has an explanation, then God exists.",
   "definition_ids": [
-    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+    "db230236-8eb0-5263-a930-94948bc9f6a5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

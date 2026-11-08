@@ -1,11 +1,13 @@
 {
-  "id": "INF-INTENTIONALITY943-ERROR-CORE",
+  "id": "4b222164-f56b-5ebb-9421-cec0c2d1ffeb",
+  "label": "Logical falsity, by Constructive-derivation",
+  "legacy_id": "INF-INTENTIONALITY943-ERROR-CORE",
   "input_statement_ids": [
-    "STMT-INTENTIONALITY943-ERROR",
-    "STMT-INTENTIONALITY943-REPORT-CORRECT",
-    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+    "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
+    "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51",
+    "d49bede3-ad6e-5f07-a642-19b526eb2f61"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "constructive-derivation",
   "meaning": "Take the existing false-content token and situation, apply the qualified report premise there, and transport report truth to content truth through the tested equivalence, contradicting that same token’s false content. Three single-deletion models show inclusion-minimality in this fixed semantics, not minimum cardinality across other vocabularies. The misleading replacement of external content by a correct internal report fails; neither mental/physical identity nor physical realization is a premise of this core.",
   "assumption_statement_ids": [],

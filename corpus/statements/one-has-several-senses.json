@@ -1,5 +1,7 @@
 {
-  "id": "STMT-ONE-HAS-SEVERAL-SENSES",
+  "id": "e50f97ad-c416-5c7d-82c5-b6e0b77a7381",
+  "label": "One is said in several senses, including continuity, indivisibility, and sameness in definition or…",
+  "legacy_id": "STMT-ONE-HAS-SEVERAL-SENSES",
   "paraphrase": "One is said in several senses, including continuity, indivisibility, and sameness in definition or essence.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.OneHasSeveralSensesReading"
 }

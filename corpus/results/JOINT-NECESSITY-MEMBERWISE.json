@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-NECESSITY-MEMBERWISE",
-  "argument_id": "JOINT-NECESSITY-MEMBERWISE",
+  "id": "73529d90-6e80-57fc-a614-a33e39c0648b",
+  "label": "For every arena, fixed set and world, joint necessity is equivalent to necessity of each selected…",
+  "legacy_id": "JOINT-NECESSITY-MEMBERWISE",
+  "argument_id": "2058b8ef-3897-54e3-8ade-217f6f2bc8d8",
   "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
   "theorem": "TruthCore.Results.Explanation.JointCondition.necessityEquivalence",

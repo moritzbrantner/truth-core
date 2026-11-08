@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED",
+  "id": "ad2df87a-b74c-5123-b5e4-e021cc36dc4a",
+  "label": "The supplied counter-witness world is the selected world",
+  "legacy_id": "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED",
   "paraphrase": "OPEN world identification: the supplied counter-witness world is the selected world. Accessibility or mere possibility is not substituted for this equality.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.CounterWorldIsSelected",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

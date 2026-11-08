@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-IN-PHYS",
+    "source_id": "235966cc-024d-5630-9426-50912ce6af4f",
     "source_url": "https://isidore.co/aquinas/english/Physics7.htm",
     "retrieved_at": "2026-10-24T01:22:29Z",
     "sha256": "sha256:59ff52bdd6c70ee90beed85693faa0bdb9ecce3bda08920e38f5723032f4531b",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-IN-PHYS-VII-L1-EN",
+      "id": "fbca7595-aa8b-5ab6-8a01-230330f2fbe6",
+      "label": "Thomas Aquinas, In octo libros Physicorum Aristotelis expositio, VII, lect. 1",
+      "legacy_id": "AQUINAS-IN-PHYS-VII-L1-EN",
       "locator": "VII, lect. 1",
       "claim_locator_prefixes": [
         "VII, lect. 1 "
@@ -35,7 +37,9 @@
       "incipit": "BOOK VII\nLecture 1\nIt is necessary that whatever is moved, be moved by another."
     },
     {
-      "id": "AQUINAS-IN-PHYS-VII-L2-EN",
+      "id": "2943ad17-bee9-549a-aad1-25bd63e87391",
+      "label": "Thomas Aquinas, In octo libros Physicorum Aristotelis expositio, VII, lect. 2",
+      "legacy_id": "AQUINAS-IN-PHYS-VII-L2-EN",
       "locator": "VII, lect. 2",
       "claim_locator_prefixes": [
         "VII, lect. 2 "

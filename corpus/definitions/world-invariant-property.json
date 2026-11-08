@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLD-INVARIANT-PROPERTY",
+  "id": "9c889aee-c88e-59ee-bd2e-ba0f7adde9da",
+  "label": "WORLD_INVARIANT_PROPERTY_2: WorldInvariantProperty Φ holds when the intensional property Φ has the…",
+  "legacy_id": "DEF-WORLD-INVARIANT-PROPERTY",
   "term": "world-invariant property (analytical admissibility condition)",
   "definition": "`WorldInvariantProperty Φ` holds when the intensional property Φ has the same truth value of each fixed individual at every pair of worlds. It excludes world-indexed properties such as `y = x ∧ v = w`, which may hold of an individual only at a selected world. It does not impose an actual-existence predicate or claim that only such properties are metaphysically real.",
   "basis": "stipulative",

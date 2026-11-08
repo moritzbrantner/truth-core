@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
-  "argument_id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+  "id": "32656e6f-dffc-5186-9a38-562da54e1594",
+  "label": "The union of every admitted world's direct existential-support edges among fixed de…, from actual",
+  "legacy_id": "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
+  "argument_id": "8f822ee4-4511-57ac-b899-0790bfd6339c",
   "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.UnionFromActual.checks",

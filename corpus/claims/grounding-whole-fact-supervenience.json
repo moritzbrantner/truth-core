@@ -1,15 +1,17 @@
 {
-  "id": "LEUENBERGER-WHOLE-FACT-SUPERVENIENCE",
-  "source_id": "LEUENBERGER-GROUNDING-NECESSITY-2014",
-  "statement_id": "STMT-GROUNDING-SUPERVENES-ON-WHOLE-FACT-BASE",
+  "id": "188159b7-91d3-5f1c-a6c0-a3ba15e4a0f1",
+  "label": "Stephan Leuenberger, Grounding and…: If two worlds agree on which facts obtain, they agree on…",
+  "legacy_id": "LEUENBERGER-WHOLE-FACT-SUPERVENIENCE",
+  "source_id": "2aaa4e3d-11ea-555f-adf1-ea404fc44d21",
+  "statement_id": "b46f5a59-54ea-501d-8301-b3e26ed2e3a6",
   "locator": "PDF p. 20 (article p.17), Supervenience of Grounding",
   "interpretation": "His facts do not include grounding-relation instances as further facts. Equality only of bearer-existence facts is not the complete supervenience base.",
   "attribution": "The passage states if two worlds agree on which facts obtain, they agree on which facts ground which; this proposed supervenience principle uses all facts, not just a selected pair of relata, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-TRANSFER",
-  "argument_id": "RETAINED-DUTY-TRANSFER",
+  "id": "f19031d0-d1aa-5114-b31d-cd94cc3ec075",
+  "label": "The fixed agent owes return of the identical…, from The fixed agent owes return of the… and 1 more",
+  "legacy_id": "RETAINED-DUTY-TRANSFER",
+  "argument_id": "b7823941-1f74-5622-90ed-c8efd55cebbb",
   "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDuty.retentionTransfer",

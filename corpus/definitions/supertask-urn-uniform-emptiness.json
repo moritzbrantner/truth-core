@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS",
+  "id": "a03f9f45-b682-55d2-96c1-7b987d2f25ec",
+  "label": "Uniform eventual emptiness of the urn: There is one finite cutoff after which every later stage is…",
+  "legacy_id": "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS",
   "term": "uniform eventual emptiness of the urn",
   "definition": "There is one finite cutoff after which every later stage is empty of every ball. This global cutoff must work simultaneously for all possible ball identifiers.",
   "basis": "stipulative",

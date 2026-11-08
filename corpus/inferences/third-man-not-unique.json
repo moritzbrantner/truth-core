@@ -1,9 +1,11 @@
 {
-  "id": "INF-THIRD-MAN-NOT-UNIQUE",
+  "id": "496db4b3-182d-58a7-b02e-0894a099a7db",
+  "label": "Numerical uniqueness of the Form for each admitted quality fails in this…, by List-elimination",
+  "legacy_id": "INF-THIRD-MAN-NOT-UNIQUE",
   "input_statement_ids": [
-    "STMT-THIRD-MAN-UNBOUNDED"
+    "74313bbc-bb2f-5600-9fc0-acf71b80e651"
   ],
-  "output_statement_id": "STMT-THIRD-MAN-NOT-UNIQUE",
+  "output_statement_id": "8294d955-23e8-5d9e-b2a5-1d61d5bc35d1",
   "rule": "list-elimination",
   "meaning": "Take the length-two list from the earlier unboundedness result. Its first two distinct Forms have the same admitted quality, contradicting UniqueForms. Composed with either regress argument, adding numerical uniqueness is inconsistent; no contradiction follows without that additional commitment.",
   "assumption_statement_ids": [],

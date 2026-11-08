@@ -1,6 +1,8 @@
 {
-  "id": "INFINITE-WAGER-MIXTURE-TIE",
-  "argument_id": "INFINITE-WAGER-MIXTURE-TIE",
+  "id": "288c4ae1-364c-5719-b8d1-16d17a477a8a",
+  "label": "In the stipulated nonnegative reward profile, all nonzero prior and action weights yield extended…",
+  "legacy_id": "INFINITE-WAGER-MIXTURE-TIE",
+  "argument_id": "3776944c-8ff7-5e13-be98-3771220bc7c0",
   "challenge_module": "TruthCore.Results.Decision.InfiniteWager.Challenge",
   "solution_module": "TruthCore.Results.Decision.InfiniteWager.Solution",
   "theorem": "TruthCore.Results.Decision.InfiniteWager.mixtureTie",

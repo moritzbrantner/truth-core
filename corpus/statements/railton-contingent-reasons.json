@@ -1,11 +1,13 @@
 {
-  "id": "STMT-RAILTON-CONTINGENT-REASONS",
+  "id": "f5d0ade5-56e1-52ce-867f-5d802c1c8dd1",
+  "label": "Railton allows moral obligations without an instrumental reason for every agent regardless of…",
+  "legacy_id": "STMT-RAILTON-CONTINGENT-REASONS",
   "paraphrase": "Railton allows moral obligations without an instrumental reason for every agent regardless of their ends, while explaining the importance of impartial justification and seeking social conditions aligning individual and social rationality.",
   "definition_ids": [
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-NATURALIST-CATEGORICAL-REASONS"
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "4bf71609-9f30-5161-b188-ffa1cce02bb4"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

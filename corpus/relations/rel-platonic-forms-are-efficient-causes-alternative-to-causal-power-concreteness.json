@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
+  "id": "9706a4ca-5efd-5b33-8e0d-7ace95585800",
+  "label": "Platonic Forms are causes in the productive… attacks Owner framework commitment: At the selected…",
+  "legacy_id": "REL-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES-ALTERNATIVE-TO-CAUSAL-POWER-CONCRETENESS",
   "subject_kind": "statement",
-  "subject_id": "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
+  "subject_id": "68b19b67-b819-5991-9fac-866df0ab0a03",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
   "note": "Rival only on the productive reading of Phaedo 100b–e together with Forms lacking esse in re; the explanatory reading is compatible with the weak version. Definition audit: retained as a full-strength semantic objection. Automatic opposition requires productive/no-esse and SAME-selected-world interfaces; those are now explicit sibling propositions and checked arguments. The exact selected-profile negative is the formal alternative. See docs/notes/causal-concrete-rival-boundary.md."
 }

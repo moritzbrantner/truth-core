@@ -1,13 +1,15 @@
 {
-  "id": "ATTEMPT-NATURALISM-MEREOLOGICAL-CONTRASTS-1109",
+  "id": "cee8bc44-3b40-503d-81f2-ab0531c34846",
+  "label": "Logic-first continuation of #1109 showcase \u00a74, attribution deferred",
+  "legacy_id": "ATTEMPT-NATURALISM-MEREOLOGICAL-CONTRASTS-1109",
   "statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
-    "STMT-GOD-IS-SIMPLE",
-    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
-    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
-    "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
-    "STMT-SPACETIME-WHOLE-UNLOCATED"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+    "9f4e5f17-e808-5c58-9eac-faacbb5c3a56",
+    "d677b0c4-ce93-5d51-a157-17105d546228",
+    "c4e3fb4f-6efc-5389-ad00-8fd11e807d1b",
+    "0cdd5abe-664c-50b9-85e7-d55dd070ee71",
+    "6b196f0f-c867-520d-b853-ed7ed32f65aa"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -15,13 +17,13 @@
   "summary": "Logic-first continuation of #1109 showcase \u00a74, attribution deferred. Reused N1 and the existing Spatiotemporal.Frame, Case.RemoteFromAll and IsSimple dictionaries. Found the original expected prose omitted the component\u2192Composite bridge: existing composite-has-component readings supply no converse. Added only weak selected-world propositions about existing proper parts/components of the same selected whole. Constructively proved that N1 plus those two bridges makes an existing simple remote being incompatible with a distinct pair; composed with an explicit TwoExist input to exclude that specified existent, without positive equality, excluded middle or independent whole existence. Exported populated full-background and four omitted-input controls, including the sole-existing located self-part whole and occupant N1 surviving failed part N1, plus an occupant-N1/unlocated-absent-whole profile with another existing located candidate. An occupant sibling reuses the exact existing thesis-containment bridge to transport Located-N1 into the checked part-based exclusion; without that bridge the exported control retains occupant N1. The occupant whole self-application result is explicitly a logical transcription/instantiation. Rejected treating ComponentOf/Composite API parameters as definitionally connected, contraposing a one-way God-naming implication from absence of a described being, identifying location with proper parthood or power-presence, or claiming these narrow controls satisfy the earlier full F3/F4/F6 survivor profile. No refutes/alternative_to on a root naming leaf, floor or source claim is added. Remaining laws/math/logic work is explicit in docs/showcase-naturalism.md \u00a74. In particular instance\u2192location alone cannot give instantiated universals from N1, and positive member\u2192set location propagation alone cannot give pure-set unlocation; their converse/support and representation/foundation interfaces remain unencoded. Corrected the showcase's anchor scope: {2} is the singleton-set candidate, not the number 2; abstractness plus the existing-in-re/concrete bridge does not establish nonexistence of every number or pure set. Broader Thomist numerical ontology is retained only as working historical orientation, attribution deferred.",
   "blocker": "The two composition bridges, part-N1 interpretation, actual distinct population and same-dictionary God-characterization applicability remain open. The component-without-composition control is only an API underconstraint test, outside the intended intrinsic-component dictionary. Required laws, mathematical nominalism/pure-set membership-location and additional logic/reason interfaces are not completed by this batch.",
   "evidence": [
-    "NATURALISM-REMOTE-SIMPLE-POPULATION",
-    "NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
-    "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
-    "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
-    "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
-    "NATURALISM-N1-ENTAILS-N2",
-    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
-    "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE"
+    "4f64bf4c-26df-50de-b6f1-2477585c8d8f",
+    "4d0e6b3c-6c90-5dcb-822c-50cc6f915751",
+    "533d45e9-03d9-5977-8cf0-d215d0cb1682",
+    "22aef119-48a0-538e-828d-bb7ee8d6f5a1",
+    "e2744e44-9252-5a2b-a95e-57fe091fa9d7",
+    "d55672da-6600-5dfa-8eb5-93300d2f2984",
+    "02881a46-16b8-555e-b29c-e4bba2877eb9",
+    "f743bb35-d96e-5312-9e8f-a909fc4bdb34"
   ]
 }

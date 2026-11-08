@@ -1,26 +1,28 @@
 {
-  "id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "id": "6ac62cc4-b984-5367-8915-5923bfca1893",
+  "label": "Any two beings, each having every pure perfection…, from Any two beings, first movers or not, that…",
+  "legacy_id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
   "premise_statement_ids": [
-    "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL"
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a"
   ],
-  "conclusion_statement_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
+  "conclusion_statement_id": "95879657-de3a-5053-ae90-54a14345e084",
   "inference_ids": [
-    "INF-PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS"
+    "304df9bc-61dd-5f5a-82ca-ba539471d5ee"
   ],
   "meaning": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order.",
   "definition_ids": [
-    "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
-    "DEF-SCG-I42-UNIQUENESS-CASES",
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-UNRESTRICTED-PURE-PERFECTION"
+    "a54bf095-fc46-59d8-81a2-f5b3cf2c9cd5",
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754"
   ],
   "disambiguation_ids": [
-    "DISAMB-PURE-ACT-STRICTNESS",
-    "DISAMB-PERFECTION-SCOPE",
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-THISNESS-REAL-BARE"
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
   ]
 }

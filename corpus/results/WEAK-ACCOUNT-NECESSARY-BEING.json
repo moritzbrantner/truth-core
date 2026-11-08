@@ -1,6 +1,8 @@
 {
-  "id": "WEAK-ACCOUNT-NECESSARY-BEING",
-  "argument_id": "WEAK-ACCOUNT-NECESSARY-BEING",
+  "id": "56278c18-0aa8-5804-84d5-9a6d588b48e8",
+  "label": "At least one individual exists at the…, from Excluded middle as a general principle… and 4 more",
+  "legacy_id": "WEAK-ACCOUNT-NECESSARY-BEING",
+  "argument_id": "29d84429-85ae-5d13-b595-75dc5b6a5b30",
   "challenge_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Explanation.WeakAccountNecessaryBeing.necessaryBeing",

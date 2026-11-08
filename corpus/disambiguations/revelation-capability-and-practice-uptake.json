@@ -1,9 +1,25 @@
 {
-  "id": "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
+  "id": "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+  "label": "Recognizable revelation",
+  "legacy_id": "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
   "term": "recognizable revelation",
   "sense_definition_ids": [
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
   ],
-  "resolution": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE remains the original root capability, not an actual correct practice move. STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON concerns the actual practice supplied to CutOffReading. RecognitionProfile and its open realization/calibration propositions connect capability to a possible correct move; shared recognition, candidate realization, admissible-situation coverage and persistence of actual insulation are separate assumptions. An explicit outside-admitted witness is a surviving relevant alternative to coverage. The existing root rival relation now uses the exact capability negation as subject, derived conditionally from raw actual cut-off and these additional premises. No actual recognition, exhaustive modal profile or philosophical-theory exhaustion is inferred."
+  "resolution": "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE remains the original root capability, not an actual correct practice move. STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON concerns the actual practice supplied to CutOffReading. RecognitionProfile and its open realization/calibration propositions connect capability to a possible correct move; shared recognition, candidate realization, admissible-situation coverage and persistence of actual insulation are separate assumptions. An explicit outside-admitted witness is a surviving relevant alternative to coverage. The existing root rival relation now uses the exact capability negation as subject, derived conditionally from raw actual cut-off and these additional premises. No actual recognition, exhaustive modal profile or philosophical-theory exhaustion is inferred.",
+  "term_label": "RECOGNIZABLE_REVELATION",
+  "senses": [
+    {
+      "id": "30a5ce57-c9e0-448d-b2b0-449cd7cbe3c5",
+      "label": "RECOGNIZABLE_REVELATION_1",
+      "definition_id": "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+      "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.RecognitionProfile"
+    },
+    {
+      "id": "030fd6db-ddfd-4995-8801-68c3d1c34705",
+      "label": "RECOGNIZABLE_REVELATION_2",
+      "definition_id": "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-FORM-END-CONTROLS",
+  "id": "fd00f6f7-5f24-587b-b3b5-d6e163bf09b1",
+  "label": "Fixed finite goodness comparison…: Artifact has exactly two named bearers, knife and…",
+  "legacy_id": "DEF-GOODNESS-FORM-END-CONTROLS",
   "term": "fixed finite goodness comparison profiles",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.artifact",
   "basis": "stipulative",

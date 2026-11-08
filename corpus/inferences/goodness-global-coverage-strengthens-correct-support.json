@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "id": "5e453a75-5c8f-5a85-aec4-94b968c65bf7",
+  "label": "If the chosen class contains any correct admissible account, it contains…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
   "input_statement_ids": [
-    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER"
+    "be5a4cc5-1bac-549c-af6d-992ca07193a1"
   ],
-  "output_statement_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+  "output_statement_id": "9108832f-0ef5-5036-8550-f405c7203ff4",
   "rule": "constructive-proof",
   "meaning": "Global semantic coverage implies conditional existential named correct-account support. No correct account or philosophical coverage is independently established.",
   "assumption_statement_ids": [],

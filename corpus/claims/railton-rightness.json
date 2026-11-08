@@ -1,15 +1,17 @@
 {
-  "id": "RAILTON-190-IMPARTIAL-RIGHTNESS",
-  "statement_id": "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
-  "source_id": "RAILTON-MORAL-REALISM",
+  "id": "9b4e6db4-e443-57f9-81d2-9c367a60efd9",
+  "label": "Peter Railton, Moral Realism Pp. 190–191, §IV: Moral rightness is assessed by fully informed…",
+  "legacy_id": "RAILTON-190-IMPARTIAL-RIGHTNESS",
+  "statement_id": "c0810066-1cf2-5de3-b59c-6ca31e49e3a4",
+  "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
   "locator": "pp. 190–191, §IV: social rationality and equal consideration",
   "interpretation": "The criterion counts all potentially affected individuals equally under full and vivid information. Footnote 31 requires interpersonal comparison without a single substance such as pleasure. The Lean predicate names this substantive criterion without proving it realizable or normatively sufficient.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-NATURALIST-REDUCTION-BASIS"
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "f5e58217-9b11-5ead-8372-481cc8ee371f"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

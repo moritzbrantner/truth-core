@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PRINCIPLE-ALTERNATIVES",
+  "id": "064922d2-826a-53ca-8f15-3170c69c7ee7",
+  "label": "The principles sought are one or many; if one, motionless or moving; if many, finite or infinite…",
+  "legacy_id": "STMT-PRINCIPLE-ALTERNATIVES",
   "paraphrase": "The principles sought are one or many; if one, motionless or moving; if many, finite or infinite in plurality.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.PrincipleAlternativesReading"
 }

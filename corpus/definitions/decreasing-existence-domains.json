@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DECREASING-EXISTENCE-DOMAINS",
+  "id": "e8e991a4-e04b-53f5-a960-3b5efdc9c939",
+  "label": "DECREASING_EXISTENCE_DOMAINS_3: Along every accessibility edge w\u2192v, each candidate existing at v\u2026",
+  "legacy_id": "DEF-DECREASING-EXISTENCE-DOMAINS",
   "term": "decreasing existence domains",
   "definition": "Along every accessibility edge w\u2192v, each candidate existing at v already exists at w. This does not assert that anyone exists, nor that all candidates are necessary.",
   "basis": "stipulative",

@@ -1,12 +1,14 @@
 {
-  "id": "INF-LIMITATION-SEPARATION",
+  "id": "8a881a78-9150-56aa-885d-b9d029d5bff9",
+  "label": "One individual at one world accessible from selected w…, by Limitation-separation-and-sam…",
+  "legacy_id": "INF-LIMITATION-SEPARATION",
   "input_statement_ids": [
-    "STMT-LIMITATION-KNOWN-LIMITING-AT",
-    "STMT-LIMITATION-NONLIMITING-AT",
-    "STMT-LIMITATION-BACKWARD-CLOSED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "5add3fbf-3a70-553f-86e8-b43c5d7d8714",
+    "c61bf00b-0026-541a-8087-2dea7e3dfc8c",
+    "fb7dac91-f7cc-560e-95cc-d5cb80201bdc",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-LIMITATION-SEPARATION-WITNESS",
+  "output_statement_id": "25b84fd3-2d22-55c6-b36c-0cf45abfef91",
   "rule": "limitation-separation-and-same-individual-modal-consequence",
   "meaning": "From SAME known-limiting Q, nonlimiting Phi, backward closure and explicit EM, derive an accessible individual with Phi and not Q. If no such witness existed, EM on Q at each Phi-exemplar would give boxed universal Phi-to-Q inclusion, so closure would classify Phi limiting, contradicting nonlimitation. Typed reuse of the existing property/classifier vocabulary; a new direct stronger proof rather than an invalid projection from the old weaker possible-exemplification result. No frame law, source interpretation or necessity is added.",
   "assumption_statement_ids": [],

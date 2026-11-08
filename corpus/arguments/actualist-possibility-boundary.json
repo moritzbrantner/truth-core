@@ -1,27 +1,29 @@
 {
-  "id": "ACTUALIST-POSSIBILITY-BOUNDARY",
+  "id": "479efd00-820d-5d4b-9576-142d30b5f720",
+  "label": "In the encoded 1970 actualist…, from Gödel's 1970 axiom Ax3: at every world… and 1 more",
+  "legacy_id": "ACTUALIST-POSSIBILITY-BOUNDARY",
   "premise_statement_ids": [
-    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-ACCESSIBILITY-SYMMETRIC"
+    "8aa0a46a-473f-544c-9686-9e028d0285e3",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf"
   ],
-  "conclusion_statement_id": "STMT-GOEDEL-1970-NO-POSSIBLE-ACTUALIST-GOD-LIKE",
+  "conclusion_statement_id": "0465695f-0070-574b-b07c-dadfcea317ef",
   "inference_ids": [
-    "INF-ACTUALIST-POSSIBILITY-BOUNDARY"
+    "627487f0-5360-529a-b136-a4662b1f00e6"
   ],
   "meaning": "From necessary-existence positivity alone, a God-like individual has 1970 NecessaryExistence. The already proved EmptyPropertyIsEssence makes the empty property one of its essences, so any accessible successor would have an existing individual with False. A possibility witness supplies an edge into the God-like world; symmetry supplies its outgoing reverse edge, giving contradiction. Only Ax3 and symmetry are retained: Ax2a, Ax2b/A4, Ax4, reflexivity and excluded middle are not premises. This proves the 1970 actualist Th3 antecedent is impossible even though its smaller axiom bundle is satisfiable; it does not prove theism false, Scott inconsistent, or the partial axioms inconsistent.",
   "definition_ids": [
-    "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-GOD-LIKE-GOEDEL-1970",
-    "DEF-HOML-ACTUALIST-NECESSITY",
-    "DEF-NECESSARY-EXISTENCE-GOEDEL-1970",
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
-    "DEF-QML-KB-NECESSITY"
+    "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+    "449a3134-3201-5f8b-bae0-76bd666e3818",
+    "9010544f-188a-5d00-83dc-85d0c0b4052d",
+    "9400c10f-e80b-5241-b9b6-e59c15631e19",
+    "6300d642-4116-591e-bac8-7af32093ea6d",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-EXISTS",
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "620f1cde-0f67-5ecd-a96c-2851588725d5",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

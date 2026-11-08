@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-191A-UNDERLYING-ANALOGY-A",
-  "statement_id": "STMT-UNDERLYING-NATURE-KNOWN-BY-ANALOGY",
-  "source_id": "ARIST-PHYS",
+  "id": "4267beb6-7c77-5438-b3cc-2d3033a919dc",
+  "label": "Aristotle, Physics I.7, 191a7-12: The underlying nature is known by analogy, as bronze stands to a…",
+  "legacy_id": "ARIST-PHYS-191A-UNDERLYING-ANALOGY-A",
+  "statement_id": "28958a50-fb4a-595e-b06c-1fc1287dc53a",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 191a7-12",
   "interpretation": "The underlying nature is scientifically accessible by an analogy of material to formed result, illustrated by bronze/statue and wood/bed. Analogical role is not treated as literal identity among substrates.",
   "status": "formalized"

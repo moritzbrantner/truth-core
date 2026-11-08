@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { auditRecordHref, type BundleAudit } from "@/lib/bundle-audit";
+import { nameOf } from "@/lib/corpus";
 
 export function BundleAuditSection({ audit }: { audit?: BundleAudit }) {
   if (!audit) return null;
@@ -18,7 +19,7 @@ export function BundleAuditSection({ audit }: { audit?: BundleAudit }) {
         {audit.records.map((row) => {
           const href = auditRecordHref(row.kind, row.id);
           return <li className="min-w-0 border-l border-[var(--line)] pl-3 text-sm leading-6" key={`${row.kind}/${row.id}`}>
-            <p className="break-all font-mono text-xs">{href ? <Link className="link-quiet" href={href}>{row.id}</Link> : row.id}</p>
+            <p className="break-all font-mono text-xs">{href ? <Link className="link-quiet" href={href}>{nameOf(row.id)}</Link> : nameOf(row.id)}</p>
             <p className="eyebrow mt-1">{row.status} · {row.classification.replaceAll("_", " ")}</p>
             <p>{row.finding}</p>
             <details className="mt-1 text-xs text-[var(--muted)]">

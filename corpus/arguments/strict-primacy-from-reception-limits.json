@@ -1,29 +1,31 @@
 {
-  "id": "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
+  "id": "c8002f3e-0914-5902-b385-3c4e65d69e06",
+  "label": "Strict primacy: everything other than the primary approaches it less nearly…, from reception limits",
+  "legacy_id": "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
   "premise_statement_ids": [
-    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
-    "STMT-CREATURE-ESSE-IS-RECEIVED",
-    "STMT-RECEIVED-ESSE-IS-LIMITED",
-    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-PRIMARY-ESSE-UNRECEIVED",
-    "STMT-LIMITED-ESSE-APPROACHES-LESS"
+    "612078bf-5a68-5542-8b7b-f862f816ece0",
+    "29e71e43-1d34-5008-8811-897fbddda209",
+    "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+    "1304b462-4a10-5dd0-995a-db5feb21d98e",
+    "e2462fa8-1958-5ab7-827d-fb99c2175f02",
+    "fd2c8710-988f-527f-a81a-2566fe10e3f9"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+  "conclusion_statement_id": "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
   "inference_ids": [
-    "INF-STRICT-PRIMACY-FROM-RECEPTION-LIMITS"
+    "6c5162d4-8d9e-5a43-b2b7-aa4cb9a04f06"
   ],
   "meaning": "Derives strict primacy (nothing other than the primary approaches it as nearly as it stands) from the q.7 reception account: another thing is a creature, so its esse is received (OPEN generalization of q.7 a.2), so limited (STMT-RECEIVED-ESSE-IS-LIMITED); the primary's esse is received in nothing (OPEN reading of q.7 a.1), so by the stated q.7 a.1 warrant that limited esse is received it is not limited; and limited esse approaches less nearly than unlimited (OPEN bridge). Degrees of approach lie in a parameter preorder.",
   "definition_ids": [
-    "DEF-CREATURE",
-    "DEF-ESSE",
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-STRICT-PRIMACY"
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ORDER-OF-BEING"
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

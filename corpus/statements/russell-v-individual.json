@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RUSSELL-INDIVIDUAL-RESTRICTION",
+  "id": "550cc92a-452d-5696-8275-c26db8cebc0f",
+  "label": "Russell rejects applying the same existence notion as a meaningful predicate of an actually named…",
+  "legacy_id": "STMT-RUSSELL-INDIVIDUAL-RESTRICTION",
   "paraphrase": "Russell rejects applying the same existence notion as a meaningful predicate of an actually named individual.",
   "definition_ids": [
-    "DEF-RUSSELL-GENUINE-NAME",
-    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+    "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+    "5873c837-35ba-5ca2-91a8-07808c67e461"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

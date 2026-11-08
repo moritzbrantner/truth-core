@@ -1,19 +1,21 @@
 {
-  "id": "PLATO-TIM-52A-THREE-KINDS",
-  "statement_id": "STMT-PLATONIC-TIM-52A-THREE-KINDS",
-  "source_id": "PLATO-TIM",
+  "id": "29e71914-4da3-5534-931a-bb9b897f1144",
+  "label": "Plato, Timaeus 52a–d: Timaeus distinguishes stable intelligible being, its generated sensible…",
+  "legacy_id": "PLATO-TIM-52A-THREE-KINDS",
+  "statement_id": "8f11af80-09cc-55a9-bd03-749d68778bc7",
+  "source_id": "1d9ebf15-85ad-54cf-9d5d-b1753bf6e812",
   "locator": "52a–d",
   "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Timaeus distinguishes stable intelligible being, its generated sensible namesake/image, and the receptacle or space. The Forms vocabulary models only the first-to-second relation; it does not erase the third kind or purport to exhaust the passage.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-EXEMPLAR",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-IMITATION",
-    "DEF-PLATONIC-INTELLIGIBLE"
+    "4b5717bb-05ab-5d14-b95b-3143d8f8cd26",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "cd195b17-e7f9-5199-9e4a-b7645007806e",
+    "076d18ea-7436-52cd-bbb9-ee6c0842e2c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-LIKENESS",
-    "DISAMB-PLATONIC-PARTICIPATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "2d7d9715-6d9a-5bff-84ec-5e3209f72e75",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c"
   ]
 }

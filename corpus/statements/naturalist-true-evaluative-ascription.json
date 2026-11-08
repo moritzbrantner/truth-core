@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION",
+  "id": "e950ca40-f199-5faa-900a-f107807b3725",
+  "label": "A true moral sentence actually ascribes the theory’s relevant evaluative property to an act",
+  "legacy_id": "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION",
   "paraphrase": "A true moral sentence actually ascribes the theory’s relevant evaluative property to an act. The separate ascribed-error commitment supplies a false ascription as well.",
   "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.TrueEvaluativeAscriptionOccurs",
   "definition_ids": [
-    "DEF-NATURALIST-FINITE-INTERPRETATION",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-MORAL-ERROR",
-    "DEF-MORAL-STATEMENT",
-    "DEF-TRUTH-VALUE"
+    "e1858d69-a463-5e57-8722-0de4a22a3049",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac"
   ]
 }

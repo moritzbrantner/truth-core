@@ -1,6 +1,8 @@
 {
-  "id": "SCIENCE-INDUCTION-SELECTION",
-  "argument_id": "SCIENCE-INDUCTION-SELECTION",
+  "id": "6cf4fc73-3265-5712-a0aa-c30a8cb3c299",
+  "label": "Under a supplied invertible evidence/hypothesis recoding, a neutral set-valued answer at fixed…",
+  "legacy_id": "SCIENCE-INDUCTION-SELECTION",
+  "argument_id": "d86f9d9f-d298-5b45-85a6-c555aab84279",
   "challenge_module": "TruthCore.Results.Science.InductionSelection.Challenge",
   "solution_module": "TruthCore.Results.Science.InductionSelection.Solution",
   "theorem": "TruthCore.Results.Science.InductionSelection.certificate",

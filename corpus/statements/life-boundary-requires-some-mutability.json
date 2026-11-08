@@ -1,0 +1,14 @@
+{
+  "id": "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
+  "label": "Whatever begins or ceases to live is MUTABLE_3: mutable in itself or through another",
+  "legacy_id": "STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY",
+  "paraphrase": "MUTABLE_3, OPEN analyst premise (attribution deferred): whatever begins or ceases to live is mutable in some way, in potency in itself in some respect or in another being's power. The contrapositive of q.10 a.1 ('what is altogether immutable can have neither beginning nor end') with 'altogether immutable' read as immutable through both of q.9 a.2's channels; the weakest of the three boundary readings.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.LifeBoundaryRequiresSomeMutability",
+  "definition_ids": [
+    "63420c26-d66a-585c-899a-964a997f83eb",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

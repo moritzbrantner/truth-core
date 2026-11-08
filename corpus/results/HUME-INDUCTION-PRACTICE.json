@@ -1,6 +1,8 @@
 {
-  "id": "HUME-INDUCTION-PRACTICE",
-  "argument_id": "HUME-INDUCTION-PRACTICE",
+  "id": "6be97965-177e-5af2-a808-c71b0cfe8041",
+  "label": "The blanket entitlement-denying…, from Each instance of practical reliance offered… and 1 more",
+  "legacy_id": "HUME-INDUCTION-PRACTICE",
+  "argument_id": "73a864fd-a48d-5b1d-b73b-e10580627091",
   "challenge_module": "TruthCore.Results.Modern.Hume.Induction.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Induction.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Induction.practice",

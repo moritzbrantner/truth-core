@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-PRESENTATION",
+  "id": "38c45adf-0bcb-529d-a2c4-310d4bf0e5f3",
+  "label": "Presentation: Presents r f is a proposed truth-preserving cognitive presentation of object f by r…",
+  "legacy_id": "DEF-PARM-PRESENTATION",
   "term": "presentation",
   "definition": "Presents r f is a proposed truth-preserving cognitive presentation of object f by r, not necessarily likeness, identity or a physical part. Its epistemic warrant is an open premise. MediatedTransfer explicitly requires successful Direct access to it.",
   "basis": "stipulative",

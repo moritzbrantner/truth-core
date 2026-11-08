@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-THROUGH-COVERAGE",
+  "id": "8f9873ba-68cb-5415-ac32-f19762f794bf",
+  "label": "Every actual existent is through…: For every x existing at w, some y satisfies through w x y. y…",
+  "legacy_id": "DEF-ANSELM-THROUGH-COVERAGE",
   "term": "every actual existent is through something",
   "definition": "For every x existing at w, some y satisfies through w x y. y may equal x. This is the typed open version of the through-something demand; unlike the existing existence-PSR, it requires a bearer-valued through relation rather than an arbitrary reason token.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.CoverageAt",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXTERNAL-CANDIDATE-NECESSITY",
+  "id": "93bd22a1-249f-5dd5-9d06-5b555b37faf3",
+  "label": "For every explicitly typed complete-history modal scenario, world and rigid…, by Direct-proof",
+  "legacy_id": "INF-EXTERNAL-CANDIDATE-NECESSITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXTERNAL-CANDIDATE-NECESSITY-EQUIVALENCE",
+  "output_statement_id": "5fbb64d4-b277-5413-b910-4c61e2dc1f6a",
   "rule": "direct-proof",
   "meaning": "Constructively identify necessity with the failure of concrete contingency in one direction; under classical case analysis, absence of an accessible nonexistence witness yields universal accessible existence in the other. Do not assume a source is a cause or merely that no contradiction was found.",
   "assumption_statement_ids": [],

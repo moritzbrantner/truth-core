@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT",
+  "id": "b9d9dc28-d20d-5643-9385-874f0eb334cc",
+  "label": "Unattributed bridge, open: whatever is being moved in a respect of PHYSICAL_2 MOTION_1 undergoes an…",
+  "legacy_id": "STMT-PHYSICAL-MOTION-IS-PHYSICAL-EFFECT",
   "paraphrase": "Unattributed bridge, open: whatever is being moved in a respect of physical motion (place, quality or quantity) undergoes an occurrence, its being moved in that respect, that is physical in Papineau's sense and is an effect.",
   "lean_declaration": "TruthCore.Alternatives.PhysicalCompleteness.PhysicalMotionIsPhysicalEffect",
   "definition_ids": [
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-PAPINEAU-PHYSICAL",
-    "DEF-MOTION-AS-REDUCTION"
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL",
-    "DISAMB-MOTION"
+    "63d4170f-a2c8-5582-ad66-0aa7734e288d",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

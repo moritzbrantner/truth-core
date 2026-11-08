@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-N3",
+  "id": "294b6100-7b0d-5012-848c-e2ccabe22079",
+  "label": "CAUSAL_POWER_NATURALISM_3: CausalPowerNaturalism hasCausalPower P w:= ∀ x, hasCausalPower w x → P x…",
+  "legacy_id": "DEF-NATURALISM-N3",
   "term": "causal-power naturalism (N3)",
   "definition": "`CausalPowerNaturalism hasCausalPower P w := ∀ x, hasCausalPower w x → P x`: everything with causal power at w satisfies P.",
   "basis": "stipulative",

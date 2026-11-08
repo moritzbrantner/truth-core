@@ -1,6 +1,8 @@
 {
-  "id": "PARM-SPATIAL-READING",
-  "source_id": "PLATO-PARM",
+  "id": "a90eda79-260c-5134-ac83-784a5e28ec87",
+  "label": "Decide whether whole/part distribution or whole-exclusive localization is faithful to…",
+  "legacy_id": "PARM-SPATIAL-READING",
+  "source_id": "665bdac6-e83f-5b25-8b38-995165ccc42e",
   "locator": "131a–e",
   "priority": 310,
   "goal": "Decide whether whole/part distribution or whole-exclusive localization is faithful to participation, rather than assuming it from numerical unity. Defend or reject the spatial dilemma and indivisibility commitments; keep the day and sail readings distinct. The property/size examples still require their own predication and comparative-size semantics.",

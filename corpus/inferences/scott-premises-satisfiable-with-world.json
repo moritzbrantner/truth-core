@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "id": "c7c7a828-ea68-57f5-906a-99f49e3b678b",
+  "label": "There is a Kripke model with at least one world, a symmetric frame and a…, by Explicit-model",
+  "legacy_id": "INF-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "output_statement_id": "097f5dbd-7ab3-5f3f-99d1-fb92b95d853c",
   "rule": "explicit-model",
   "meaning": "Exhibit one world, one individual, universal accessibility and the positivity assignment 'positive exactly when the one individual has it'; every axiom reduces to a tautology about that individual.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "INF-FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE",
+  "id": "fa94540b-826f-5b74-9f05-50eb8f6ddd03",
+  "label": "IN-ACT_1, formal reading: nothing is formally in act and in…, by Disjunction introduction…",
+  "legacy_id": "INF-FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE",
   "input_statement_ids": [
-    "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+    "d9daeb1e-1749-5473-9fae-04184dd5e40c"
   ],
-  "output_statement_id": "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY",
+  "output_statement_id": "b146ab97-8de5-5e54-ac5d-51ba3a3b0171",
   "rule": "Disjunction introduction under negation",
   "meaning": "Explicit sense bridge IN-ACT_3 → IN-ACT_1 (strength order): inclusive non-simultaneity implies formal non-simultaneity. The order runs opposite to the mover premise, so neither uniform reading is weaker in both premises.",
   "assumption_statement_ids": [],

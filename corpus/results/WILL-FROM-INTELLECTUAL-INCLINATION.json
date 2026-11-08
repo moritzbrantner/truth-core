@@ -1,6 +1,8 @@
 {
-  "id": "WILL-FROM-INTELLECTUAL-INCLINATION",
-  "argument_id": "WILL-FROM-INTELLECTUAL-INCLINATION",
+  "id": "9b390598-4e9d-5183-a012-ee8fd1176f50",
+  "label": "Whatever HAS_INTELLECT_1 HAS_WILL_1, from intellectual inclination",
+  "legacy_id": "WILL-FROM-INTELLECTUAL-INCLINATION",
+  "argument_id": "22a7366c-57ed-5f39-8421-89e6664fa4e0",
   "challenge_module": "TruthCore.Results.Causality.IntellectualInclination.Challenge",
   "solution_module": "TruthCore.Results.Causality.IntellectualInclination.Solution",
   "theorem": "TruthCore.Results.Causality.IntellectualInclination.willFromIntellectualInclination",

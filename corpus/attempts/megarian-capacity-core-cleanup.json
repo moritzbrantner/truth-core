@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-MEGARIAN-CAPACITY-CORE-CLEANUP",
+  "id": "f84aa0bc-b1e3-53c0-9dc3-e39b9bed3624",
+  "label": "Incompatibility clean-up pass, first slice",
+  "legacy_id": "ATTEMPT-MEGARIAN-CAPACITY-CORE-CLEANUP",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
-    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
-    "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R"
+    "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+    "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+    "811fe80c-3bdd-5e41-9f1b-f94bec9178ef",
+    "53225d00-bd26-50e0-b05e-403c88431cd3"
   ],
   "kind": "refutation",
   "outcome": "succeeded",
   "summary": "Incompatibility clean-up pass, first slice (#576). Inventory of certified cores on main before the slice: two ConfigurationFalse cores in the Kripke necessary-individual vocabulary (NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE, NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE), already registered in CONFIG-NECESSARY-INDIVIDUAL; three cores from refutes relations (premises plus refuted statement, outside this vocabulary); and refutation-shaped results whose conclusion is the negation of a rival (MEGARIAN-THESIS-ABOLISHES-MOTION, MCTAGGART-UNREALITY-OF-TIME-REFUTED, GENERATION-FROM-NIGHT-REFUTED, ELEATIC-THESIS-SELF-REFUTING, GOEDEL-1970-INCONSISTENT with conclusion STMT-MODEL-HAS-NO-WORLD), which the territory matrix does not read as cores (#548). Seed: no statement of the Kripke modal, necessary-being or Cogito vocabularies (TruthCore/Modal, the necessary-individual and necessarily-underived cases, #533-#555) is an open root-path premise, so a core there cannot reach the root-seeded territory matrix; the necessary-individual cores stay registered where they are. The one possibility/actuality vocabulary that touches a root-path premise is the Metaphysics IX.3 capacity vocabulary: the recorded rival STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING (alternative to STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY) is refuted by MEGARIAN-THESIS-ABOLISHES-MOTION from the root-path premise STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD and two sourced Aristotelian premises. Result: the four statements, under one profile sharing Being, Respect, MovedIn, InAct and CanBe, are jointly inconsistent (MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE, zero axioms, composing megarianThesisFalse). Every member is a held position with a sourced claim (ARIST-MET-1046B-MEGARIAN-A, AQUINAS-ST-I-Q2-A3-MOTION-EVIDENT-A, ARIST-PHYS-201B-MOTION-INCOMPLETE-NOT-YET-A, ARIST-MET-1047A-UNABLE-DOES-NOT-COME-TO-BE-A), so the core is not an 'anything plus a strong premise' core. Minimality: each of the four maximal proper subsets has a registered Unit model (MODEL-MEGARIAN-CAPACITY-UNACTUALIZED-ABILITY, -NOTHING-MOVED, -MOVED-ALREADY-ACTUAL, -MOVED-WITHOUT-ABILITY), recorded as CONFIG-MEGARIAN-CAPACITY-MOTION. Classification: the full set is verified incompatible; the four maximal subsets are model witnessed; nothing in the profile is unresolved. Rejected seeds, with reasons: (1) GOEDEL-1970-INCONSISTENT is modal, but its conclusion is 'the model has no world', a consequence for one encoding of Goedel's axioms and not a held position against a root-path premise. (2) The Megarian thesis against STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY with STMT-POTENCY-IS-UNACTUALIZED-CAPACITY (the rival relation's 'leaves nothing in potency') needs the InPotency predicate in the same profile; it is the natural second core in this vocabulary and was not attempted here. (3) Bridging the capacity predicate CanBe to a Kripke possibility operator was rejected: no reviewed interpretive record relates them, and the clean-up pass compares only within one vocabulary. Premise delta: none. The core closes no premise; it shows that holding the Megarian thesis forces denying present motion, motion's incompleteness or the ability of what is moved.\n\nDefinition/rival follow-up: encoded the prior explicitly unattempted InPotency bridge. The raw Megarian thesis is compatible with moved-in-potency without actual movement or the same-sense potency analysis, so its automatic alternative_to edge becomes attacks. A sole-premise checked restriction of the old full analysis to its forward direction at actually moved tuples is sufficient; Megarian thesis plus actual movement plus this weaker interpretation yields the EXACT existing MovedWithoutPotency rival. Exact countercase→negated universal and explicit-EM structural coverage keep genuine opposition and exhaustion visible. Four extensions of old Unit model fields witness both omitted-input coexistence cases, the guarded countercase and strictness of the weak analysis. No source claim or frozen Challenge changed, no source/real-world sense selected. See docs/notes/megarian-moved-potency-boundary.md.\n\nPre-push claim/type sweep: the old moved-without-potency candidate paraphrase includes a full divine re-creation story, while its existing Lean envelope only states an existential moved/not-potent tuple. Preserve that historical candidate; new guarded consequences and structural fork use a separate precise analyst countertuple sibling. A one-way old-envelope projection asserts no philosophical identity or reverse derivation of the re-creation theory. The unrefuted exact countertuple prevents finite-list closure from refuting only that stronger story.",
   "evidence": [
-    "MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE",
-    "MEGARIAN-THESIS-ABOLISHES-MOTION",
-    "ARIST-MET-1046B-MEGARIAN-A",
-    "AQUINAS-ST-I-Q2-A3-MOTION-EVIDENT-A",
-    "ARIST-PHYS-201B-MOTION-INCOMPLETE-NOT-YET-A",
-    "ARIST-MET-1047A-UNABLE-DOES-NOT-COME-TO-BE-A",
-    "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
-    "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
-    "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
-    "MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
-    "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
-    "OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE"
+    "c0656af8-2e01-56a4-b187-d2701f34278e",
+    "bede1bdc-db1d-519b-adb5-78ea3b427491",
+    "22e70304-f1c2-588a-8693-374048e1ed43",
+    "c5e6b7dd-d8a5-58da-b130-e87cdc7487f4",
+    "db5c40f5-f36c-5765-92c2-187aeaa96d3f",
+    "82f6a067-461b-59df-ad2b-c8e34d89222b",
+    "b58631e6-8d61-59c7-85ab-a814a9086595",
+    "0a6735d7-e6cf-5539-b038-326c0194eb2f",
+    "b73d1c10-2a79-5c98-a7a6-be5729672b63",
+    "78797303-ad17-5b64-93c9-a87c25f5293b",
+    "ebca5ef3-a723-5d3d-98a2-3d4ec0e930e0",
+    "cbe881d3-93c8-5d40-ada9-ce201f97c0a5"
   ]
 }

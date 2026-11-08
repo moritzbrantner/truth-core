@@ -1,6 +1,8 @@
 {
-  "id": "FUSION-NO-NECESSARY-PARTS",
-  "argument_id": "FUSION-NO-NECESSARY-PARTS",
+  "id": "c3073ba5-83e3-5f93-a8f7-1c49f5a09afc",
+  "label": "No part of the selected object satisfies…, from The selected object satisfies the… and 2 more",
+  "legacy_id": "FUSION-NO-NECESSARY-PARTS",
+  "argument_id": "06906628-1d20-5b5f-b049-50461ad0fcbc",
   "challenge_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Challenge",
   "solution_module": "TruthCore.Results.Mereology.FusionNoNecessaryParts.Solution",
   "theorem": "TruthCore.Results.Mereology.FusionNoNecessaryParts.noNecessaryParts",

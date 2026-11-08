@@ -1,6 +1,8 @@
 {
-  "id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
-  "argument_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "id": "15723b4f-7044-599a-9a37-273f75ef5f81",
+  "label": "Exact negation of the old CompleteRequiresSelection…, from Some candidate accepted by the supplied…",
+  "legacy_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "argument_id": "34cc3a4b-c291-5f42-8766-bac657fa5f39",
   "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.Challenge",
   "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.Solution",
   "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.FalseSelectionFailure.falseSelectionFailure",

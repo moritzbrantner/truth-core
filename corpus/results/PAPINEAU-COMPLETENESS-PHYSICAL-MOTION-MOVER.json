@@ -1,6 +1,8 @@
 {
-  "id": "PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER",
-  "argument_id": "PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER",
+  "id": "d2ec6234-c77d-59a2-986c-6a9da82302b0",
+  "label": "Whatever is moved in a respect of PHYSICAL_2…, from The completeness of physics: every… and 2 more",
+  "legacy_id": "PAPINEAU-COMPLETENESS-PHYSICAL-MOTION-MOVER",
+  "argument_id": "6f7b5e7e-ae2a-57de-aa26-8069e1a84ed0",
   "challenge_module": "TruthCore.Results.Comparison.PhysicalCompleteness.Challenge",
   "solution_module": "TruthCore.Results.Comparison.PhysicalCompleteness.Solution",
   "theorem": "TruthCore.Results.Comparison.PhysicalCompleteness.everyPhysicalMotionHasAMoverFromCompleteness",

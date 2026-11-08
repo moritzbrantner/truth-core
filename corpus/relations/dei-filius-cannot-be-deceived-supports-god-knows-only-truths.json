@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CANNOT-BE-DECEIVED-SUPPORTS-GOD-KNOWS-ONLY-TRUTHS",
+  "id": "4cd87643-f2a6-5e4d-b15c-d515ec2a3327",
+  "label": "First Vatican Council, Dei Filius Ch. 3…… supports Whatever is GOD_4 and has the classical…",
+  "legacy_id": "REL-DEI-FILIUS-CANNOT-BE-DECEIVED-SUPPORTS-GOD-KNOWS-ONLY-TRUTHS",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-GOD-CANNOT-DECEIVE",
+  "subject_id": "0e85ee1a-d6ff-5fde-be3c-6b0df74f7875",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-KNOWS-ONLY-TRUTHS",
+  "object_id": "ad56f066-2fef-58e6-8995-0ed8757b9b9c",
   "note": "Dei Filius ch. 3 para. 1: God revealing cannot be deceived (nec falli). Reading 'not deceived' as holding as known only truths is the analyst's; the council does not state it in these terms."
 }

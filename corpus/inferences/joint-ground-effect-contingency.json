@@ -1,12 +1,14 @@
 {
-  "id": "INF-JOINT-GROUND-EFFECT-CONTINGENCY",
+  "id": "f2653af2-78dd-56d3-97ca-e5d51fbf1108",
+  "label": "The fixed selected conjunction actually holds and fails at some…, by Same-effect-failure-contradic…",
+  "legacy_id": "INF-JOINT-GROUND-EFFECT-CONTINGENCY",
   "input_statement_ids": [
-    "STMT-JOINT-CONDITION-ACTUAL",
-    "STMT-FACT-CONTINGENT-AT",
-    "STMT-WHOLE-GROUND-NECESSITATES-TARGET-AT",
-    "STMT-SELECTED-POSITIVE-GROUND-RECORD"
+    "81649957-e59e-52ed-9822-83ce111561b1",
+    "baf22110-9b54-5c11-a44a-c8447518b824",
+    "0af47160-bf4d-5817-9fbd-3745b6058388",
+    "eae50d59-54c2-5945-9232-030178399a6c"
   ],
-  "output_statement_id": "STMT-JOINT-CONDITION-CONTINGENT",
+  "output_statement_id": "67ce8287-43a1-5b80-a788-5517af72a357",
   "rule": "same-effect-failure-contradicts-full-ground-joint-truth-under-explicit-necessitation",
   "meaning": "Use the existing whole-ground modal necessitation with the two explicit selected-record guards. Contingency of positive b supplies an accessible SAME failure world v. If all members of THIS g held at v, whole necessitation would make that SAME positive b true there, contradicting its failure. Combine this joint failure with supplied actual JointTrue to obtain existing JointContingent of h.members g. No frame, coherence, autonomy, causal, concrete-bearer, R or ingredient premise is added. The effect’s actual truth remains in the retained Contingent input, although this joint-failure proof uses only its accessible-absence field; no minimality is claimed.",
   "assumption_statement_ids": [],

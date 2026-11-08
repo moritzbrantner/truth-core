@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-GAL-PILOT-PAUL-MET-JAMES-SUPPORTS-E5",
+  "id": "c40520a5-4187-540e-a946-db08ffc0faf3",
+  "label": "Paul, Galatians 1.18-19: Paul says he saw… supports The James proposed as Jesus’s brother…",
+  "legacy_id": "REL-NT-GAL-PILOT-PAUL-MET-JAMES-SUPPORTS-E5",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-GAL-PILOT-PAUL-MET-JAMES",
+  "subject_id": "f39b1efa-b512-53f4-a0e7-3f78042bf29b",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E5"
+  "object_id": "13679582-3a52-5a81-ad0c-dba8b159a8d7"
 }

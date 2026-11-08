@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "id": "9b41cde5-32f7-5a34-becf-1f34c554061e",
+  "label": "For each being satisfying the selected proper God predicate, the selected…, by Constructive-proof",
+  "legacy_id": "INF-GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
   "input_statement_ids": [
-    "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION"
+    "e96fc9f3-d4c4-5670-9e98-b95f8a2bb509"
   ],
-  "output_statement_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "output_statement_id": "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
   "rule": "constructive-proof",
   "meaning": "Project the proper-to-practice direction of each shared-extension equivalence. This registers the strong-to-weak comparison; no identity of meanings is inferred.",
   "assumption_statement_ids": [],

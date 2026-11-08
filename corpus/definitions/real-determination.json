@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REAL-DETERMINATION",
+  "id": "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+  "label": "Real determination: Has x d: d is a real determination of x, an intrinsic constituent or a real…",
+  "legacy_id": "DEF-REAL-DETERMINATION",
   "term": "real determination (Has x d)",
   "definition": "Has x d: d is a real determination of x, an intrinsic constituent or a real relation of x. A mere description true of x, such as 'is identical with x' or an extrinsic denomination, is not a real determination unless an interpretation makes it one. The carrier D of determinations is a parameter.",
   "basis": "stipulative",

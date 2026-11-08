@@ -1,7 +1,9 @@
 {
-  "id": "INF-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "id": "75021acf-7de1-576f-adf2-6c944c8066c9",
+  "label": "For arbitrary candidate carriers and physical/phenomenal report…, by Existing-box-transfer-and-typ…",
+  "legacy_id": "INF-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-KNOWLEDGE-ADMISSIBILITY-CERTIFICATE",
+  "output_statement_id": "0dcd6d2e-96a2-55e3-a098-8c2d13c5fee2",
   "rule": "existing-box-transfer-and-typed-report-update-comparison",
   "meaning": "Compose PossibilityTransfer.box_transfer_iff with known physical equality and actual-relative report supervenience. Certify a fixed nonempty learning episode and its arbitrary physical predicates, then compare two metaphysical equivalence relations. Apply the general law to initial phenomenal ignorance to derive the survivor inclusion failure; exhibit a twin for the rival.",
   "assumption_statement_ids": [],

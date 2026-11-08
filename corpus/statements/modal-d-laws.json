@@ -1,20 +1,22 @@
 {
-  "id": "STMT-MODAL-D-LAWS",
+  "id": "888871a5-4d97-51e2-8def-bce4b69372c5",
+  "label": "Seriality plus identity-admissible root collapse forces self-access",
+  "legacy_id": "STMT-MODAL-D-LAWS",
   "paraphrase": "Seriality plus identity-admissible root collapse forces self-access. In D, full-predicate MC is equivalent to a nonempty singleton successor set containing the root. The restricted-domain route additionally supplies excluded middle, negation closure and world extensionality. Seriality makes true admissible propositions at an MC world possible, makes Box MC imply Dia MC, and prevents vacuous Box False. Actual full MC excludes same-root contingency even without seriality. All assumptions are quantified explicitly; no world uniqueness or philosophical premise is established.",
   "lean_declaration": "TruthCore.Modal.DResearch.LawChecks",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-SERIAL",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

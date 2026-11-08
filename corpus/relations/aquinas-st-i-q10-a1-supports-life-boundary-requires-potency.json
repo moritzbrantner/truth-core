@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q10-A1-SUPPORTS-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "id": "c8f62698-6a19-5d14-ab56-3effb6626a8b",
+  "label": "Thomas Aquinas, Summa theologiae I q.10… supports Whatever begins or ceases to live between…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q10-A1-SUPPORTS-LIFE-BOUNDARY-REQUIRES-POTENCY",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q10-A1-IMMUTABLE-NO-BEGINNING-END",
+  "subject_id": "ef658460-4796-5b0d-86de-7a9bf62b553e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "object_id": "812b52b3-de7d-5982-93a9-e46b6e169616",
   "note": "By contraposition the sentence gives: what begins or ends is not altogether immutable. The open premise strengthens 'not altogether immutable' to 'in potency in its subject in some respect', which q.9 a.2's mutability through another does not supply."
 }

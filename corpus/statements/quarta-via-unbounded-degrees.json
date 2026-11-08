@@ -1,24 +1,26 @@
 {
-  "id": "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
+  "id": "15c570f5-1a38-54b8-a20a-175f334fff3e",
+  "label": "For every BEING_1 x, some BEING_1 y is more such than x in the selected perfection",
+  "legacy_id": "STMT-QUARTA-VIA-UNBOUNDED-DEGREES",
   "paraphrase": "For every being x, some being y is more such than x in the selected perfection. This is extension of degree comparisons, not an assertion of causal edges or a causal chain. The predicate alone is vacuous on an empty carrier.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.QuartaViaUnboundedDegrees",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-RESPECT",
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-MORE-IN",
-    "DEF-MAXIME-ENS",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-BEING-UNIVOCAL"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "3c9fbe24-66c5-587e-9f7a-df0783510328"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT",
-    "DISAMB-MAXIME-ENS"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

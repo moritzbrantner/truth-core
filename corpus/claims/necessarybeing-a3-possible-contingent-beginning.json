@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A3-POSSIBLE-CONTINGENT-BEGINNING",
-  "statement_id": "STMT-NB-A3-POSSIBLE-CONTINGENT-BEGINNING",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "4b481179-188c-5687-b9b7-ce19fce7b035",
+  "label": "Unattributed website author, Necessary…: Conditional on selecting the affirmative A3P2 answer… (2)",
+  "legacy_id": "NB-SURVEY-A3-POSSIBLE-CONTINGENT-BEGINNING",
+  "statement_id": "5a9c16d5-2b9f-58bf-8d4c-deb82b2acfe2",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A3P2, question, possible/beginning/contingent title attributes and affirmative-answer continuation",
   "interpretation": "The source question is interpreted conditionally, not as actual assent or independent truth. Immediate A3C steps1–4 and its note clarify the nonrigid none-to-some reading; no fixed actual roster, simultaneous beginning of each actual individual or encoded Scenario beginning predicate is attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

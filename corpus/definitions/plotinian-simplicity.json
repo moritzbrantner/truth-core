@@ -1,11 +1,13 @@
 {
-  "id": "DEF-PLOTINIAN-SIMPLICITY",
+  "id": "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7",
+  "label": "Genuine unity and simplicity in…: Genuine unity excludes all combination and composition",
+  "legacy_id": "DEF-PLOTINIAN-SIMPLICITY",
   "term": "genuine unity and simplicity in Plotinus V.4",
   "definition": "Genuine unity excludes all combination and composition. It is not merely material atomism or the numerical singularity of an object. V.4.1 denies that bodies possess this first-principle simplicity, and V.4.2 denies it of Intellect. Its application to another ontology requires an explicit interpretation of the relevant composition.",
   "basis": "sourced",
   "claim_ids": [
-    "PLOTINUS-V4-FIRST-SELF-STANDING",
-    "PLOTINUS-V4-BODY-NOT-FIRST",
-    "PLOTINUS-V4-INTELLECT-NOT-FIRST"
+    "ead613bc-900f-5205-9c41-f2c1e6340c0b",
+    "7fa5bc9e-2921-5506-a3cf-acd793e62ce3",
+    "e8f6b584-a62d-59ed-b78a-451fb3574666"
   ]
 }

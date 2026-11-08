@@ -1,11 +1,13 @@
 {
-  "id": "INF-EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
+  "id": "37115546-6ccf-5e1a-8bcf-ce767894472d",
+  "label": "Logical falsity, by Direct-proof (2)",
+  "legacy_id": "INF-EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
   "input_statement_ids": [
-    "STMT-CONCRETE-EMPTY-TRUTH-AT",
-    "STMT-NEGATIVE-TRUTH-NEEDS-MAKER-AT",
-    "STMT-CONCRETE-MAKER-POLICY"
+    "7baa582c-274f-55f2-a62b-7a3fc776057a",
+    "012a5ae5-c5f5-595a-8046-246f6f22683c",
+    "c3e23569-d097-50e2-91ab-cad094e79162"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "direct-proof",
   "meaning": "Concrete absence interpreted by ConcreteEmptyFact and actually true here, negative coverage here, and ConcreteMaker imply False. This is the missing general concrete bridge. Merely admitting an existing abstract maker does not satisfy ConcreteMaker.",
   "assumption_statement_ids": [],

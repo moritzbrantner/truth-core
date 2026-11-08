@@ -1,6 +1,8 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
-  "argument_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "id": "4658a923-e4d9-54f6-ad6d-ded45a416599",
+  "label": "The imported global quantifier-shift refutation coexists with both outcomes: commonAbsence…",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "argument_id": "f881ee2d-e1ee-5027-9580-1598ed0d722a",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.Controls.controls",

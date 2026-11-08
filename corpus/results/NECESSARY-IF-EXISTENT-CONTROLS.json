@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-CONTROLS",
-  "argument_id": "NECESSARY-IF-EXISTENT-CONTROLS",
+  "id": "ceeb12bd-8442-511a-995f-a105e953887e",
+  "label": "The fixed Bool interpretations certify: an S4 boxed-conditional model with both possibilities and…",
+  "legacy_id": "NECESSARY-IF-EXISTENT-CONTROLS",
+  "argument_id": "9676146a-e4f2-5e1a-96bd-d8ac97ca4b6a",
   "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.controls",

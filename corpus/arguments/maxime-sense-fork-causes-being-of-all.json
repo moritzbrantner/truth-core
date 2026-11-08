@@ -1,28 +1,55 @@
 {
-  "id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "id": "312639cc-b428-5f6b-a299-f852720125ec",
   "label": "Whichever single sense maxime takes, a MAXIME_1 being causes being in all others",
   "premise_statement_ids": [
-    "STMT-MAXIME-SENSES-EXHAUSTIVE",
-    "STMT-MAXIME-SENSE-UNIQUE",
-    "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
-    "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS",
-    "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
-    "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+    "89a4b3a6-c839-5599-b627-c55c2ba25b5f",
+    "2cdfbe6c-c889-5959-9241-81ecc4761c5a",
+    "55a94a55-234d-50e1-8fda-1429ed5d2d3d",
+    "bdd770f7-f218-5d5d-887b-0b4efdb6318d",
+    "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
+    "a370254d-59b8-56a2-9552-0008e9baf2b3"
   ],
-  "conclusion_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "conclusion_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
   "inference_ids": [
-    "INF-MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
+    "1d33d7b9-fe1e-5851-a634-f6ce7c697165"
   ],
   "meaning": "Optional summary over MAXIME_1-3. Coverage reads both uses of the superlative (existence, causal) in selected senses; exclusivity makes them one sense, so the witness of the existence use falls under the causal use and causes being in every other being; whichever sense it is, the witness is MAXIMAL in being, directly or through a sense bridge. The controls give a model of coverage without exclusivity (existence MAXIMAL, causal GREATEST-degree, incomparable degrees) in which the conclusion fails.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIME-ENS",
-    "DEF-ROUTE-SENSE-SELECTION"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
-  ]
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "89a4b3a6-c839-5599-b627-c55c2ba25b5f"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "89a4b3a6-c839-5599-b627-c55c2ba25b5f"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "statement_id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155"
+    },
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3"
+    }
+  ],
+  "legacy_id": "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL"
 }

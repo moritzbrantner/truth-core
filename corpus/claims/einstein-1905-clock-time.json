@@ -1,17 +1,19 @@
 {
-  "id": "EINSTEIN-1905-1-CLOCK-TIME",
-  "statement_id": "STMT-EINSTEIN-1905-CLOCK-TIME",
-  "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+  "id": "2b7a3431-5e29-5c91-a0ff-a23a0eb78fcb",
+  "label": "Albert Einstein, On the Electrodynamics of…: Einstein defines remote clock synchronization by a…",
+  "legacy_id": "EINSTEIN-1905-1-CLOCK-TIME",
+  "statement_id": "51b7dabe-a4db-5a62-93d5-f9bee9c8c7aa",
+  "source_id": "feaccd27-3c07-5fdb-9ae1-0f8fcf158d2f",
   "locator": "§1, paragraphs beginning “But it is not possible without further assumption” and “We assume that this definition”, ending “the time of the stationary system”",
   "basis": "translation",
   "interpretation": "Prose-only primary-translation reading. This records his frame-clock construction and its explicit assumptions, not proof that the convention is uniquely warranted or that a global metaphysical present is impossible.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-EINSTEIN-CLOCK-TIME",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE"
+    "d349494b-d57b-5c7f-8d44-f7180abae1d8",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+    "8d688be8-d802-5679-bd53-d08374145abf"
   ]
 }

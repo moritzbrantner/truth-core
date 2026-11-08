@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CHURCH-SPIRITUAL-COMMUNITY",
+  "id": "c8918ccb-dd56-5b90-83d6-13a21bbe5f1b",
+  "label": "Church as spiritual community and…: The spiritual community and mystical body of Christ named…",
+  "legacy_id": "DEF-CHURCH-SPIRITUAL-COMMUNITY",
   "term": "Church as spiritual community and mystical body",
   "definition": "The spiritual community and mystical body of Christ named alongside the visible society in Lumen gentium §8. The source presents these as aspects of one complex reality, not as two independent churches.",
   "basis": "sourced",
   "claim_ids": [
-    "VATICAN-II-LG-8-CHRIST-FOUNDED-VISIBLE-CHURCH"
+    "e0b48c65-90b6-584b-b1ba-f0dd39fa2fbf"
   ],
   "note": "Recorded to prevent treating merely spiritual communion as the whole meaning of the stage-5 visible-society predicate. The skeleton has no separate formal predicate for this spiritual aspect, and this definition adds none."
 }

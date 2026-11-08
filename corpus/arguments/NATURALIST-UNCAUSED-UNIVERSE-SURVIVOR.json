@@ -1,17 +1,19 @@
 {
-  "id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "id": "f242e71f-de13-5d75-8f8b-cd16bcb57a99",
+  "label": "Some model satisfies jointly: the concrete/abstract anchors, the owner's #1113 bridge, N1 in all…",
+  "legacy_id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "conclusion_statement_id": "a5f01429-1349-503e-a369-4cb9f9ed8fe0",
   "inference_ids": [
-    "INF-NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR"
+    "e35a5021-86c4-5a3e-b52b-b151f9b71fcb"
   ],
   "meaning": "A model with the spacetime whole, its stages part n (each caused by part (n+1)) and a non-existent number two: every existent is located in the one region, related to every existent and a part of the whole; nothing causes the whole, and the stages form the injective regress n ↦ part n. It satisfies every conjunct of the survivor statement, so the brute-universe and regress escapes are consistent with N1–N3i and with every listed floor item.",
   "definition_ids": [
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-PART-OF-SPACETIME"
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL",
-    "DISAMB-NATURALISM-VARIANT"
+    "1ea8b036-7a66-540a-be38-301a8db9077c",
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

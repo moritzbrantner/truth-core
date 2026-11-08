@@ -1,10 +1,12 @@
 {
-  "id": "INF-Q14-RECEPTION-MODE-ELIMINATION",
+  "id": "15fed3d4-0cdb-52ad-a65a-c1fbf3c2430b",
+  "label": "The chosen receiver has aptitude for a foreign form without matter; this…, by Constructive-proof",
+  "legacy_id": "INF-Q14-RECEPTION-MODE-ELIMINATION",
   "input_statement_ids": [
-    "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
-    "STMT-Q14-NO-MATERIAL-RECEPTION-AT"
+    "079fbf4c-49a3-518c-9577-064ff73591e4",
+    "365f37a0-02f0-5654-83ea-f90d59facdb5"
   ],
-  "output_statement_id": "STMT-Q14-WITHOUT-MATTER-CAPACITY-AT",
+  "output_statement_id": "8d26d75c-f97b-51b7-9ba7-b075ee0ca100",
   "rule": "constructive-proof",
   "meaning": "Reuses the exact existing FormReception.availableFormWithoutMatter case analysis. Positive aptitude plus exclusion of material mode yields without-matter aptitude at the SAME receiver; no intellect, actual event or old structural bridge is inferred.",
   "assumption_statement_ids": [],

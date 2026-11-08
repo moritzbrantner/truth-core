@@ -174,6 +174,193 @@ unresolved bridges; conditional consequence does not establish premise truth.
 
 ## Current delivery and parallel work
 
+
+### Structure reconciliation (2026-11-08)
+
+Reconciliation baseline: main `6849d366137611882c1b96e351ef8733d3a901af`;
+preserved research branch
+`research/lean-existential-self-actualization-20261031` at
+`a2d97ecf1429e86b3e12f15b91b735f85e27822e`. Both are on origin.
+This section supersedes the delivery next-step text below for the already
+integrated unique-root batch; the historical verification observations remain.
+
+All 863 result paths and 865 argument paths on that research branch exist on
+this main. This is a path-preservation audit, not a claim that every old record
+is unchanged or newly verified. In particular, the three branch-added result
+records ATOMIC-SOURCE-TO-GRAPH-SOURCE-WITNESS,
+UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR and
+SOURCE-FUNCTIONALITY-WELL-FOUNDED are byte-identical to main.
+Do not replay the long branch wholesale.
+
+The newest stash is redundant with newer main for UNIQUE-ROOT-PERFECTION:
+main retains the frozen Challenge and uses the public-module Solution, adds
+DISAMB-MAXIME-ENS to the argument, and retains the updated certification findings
+in the attempt. The logic-first policy and skill text from that stash are also
+already present. Keep the stash as recovery history; do not pop it over main.
+The three older stashes contain the deferred DependentNecessary control and
+NecessaryUltimateSource edits. They remain unintegrated research, not certified
+new results or evidence that their old priority should be restored.
+
+The old branch also retains material absent from main: eight A6/A7 statement
+paths, two definition paths, one disambiguation path, twenty claim paths and
+26 passage paths. The exact files are recoverable from the preserved branch
+under `corpus/` with `necessarybeing-a6`, `necessarybeing-a7`, and the A1/home/
+instructions/context passage names. Preserve these source-reading leads there;
+source acquisition and attribution remain deferred. Do not copy their old
+identities or overwrite the newer necessary-individual-domain definition,
+which now distinguishes a primitive carrier from its consuming DeRe formula.
+A future selected logic task must reuse current vocabulary and encode any
+missing consequence as an explicitly stipulated formulation.
+
+Current structure work, inspected at these heads:
+
+| PR | Head | Consequence for this research |
+| --- | --- | --- |
+| [#1235](https://github.com/moritzbrantner/truth-core/pull/1235) | `b968783b4b0c46e74251983c22e1f0d230971e8b` | Sense UUIDs, TERM_n labels, one sense per argument or explicit bridges, Lean occurrence checks, shrinking legacy exceptions. |
+| [#1240](https://github.com/moritzbrantner/truth-core/pull/1240) | `11267c56874544ceb57fe65d6a43a643abd294a0` | Record UUIDs and labels; keep migrated identities, legacy aliases and Lean declaration names. Its stale modal-batch PR body was corrected during reconciliation; see `docs/notes/uuid-migration.md`. |
+| [#1242](https://github.com/moritzbrantner/truth-core/pull/1242) | `41fe0988441ad1d83449e0c59fe8952fff39d68c` | Recursively define consequential vocabulary; distinct constants and labels are insufficient. Explicit primitives retain open semantic obligations. |
+| [#1241](https://github.com/moritzbrantner/truth-core/pull/1241) | `a3f0b359b186da39afdb97525e816a2b4ea06669` | Adds an open actual-contingent node and modal rival refutations; it does not independently establish contingency or the necessary-root premises. |
+
+These PRs were open, not drafts, when inspected. #1235 and #1240 reported merge
+conflicts; this reconciliation does not merge or certify their combined tree.
+#1240's migration already rewrites the sense allowlist's argument keys and leaves
+sense UUIDs intact; preserve that behavior when updating it against #1235.
+The two migrations must be tested together on fresh main before adoption.
+
+UNIQUE-ROOT-PERFECTION already has argument UUID
+`8e61d00e-e335-5e0f-9d98-f28b506cf200` in #1240. Reuse it. In #1235 its legacy
+argument is allowlisted for seven mixed-term groups: intrinsic productive
+contribution/source-backed supply, maximality, NECESSARY, individual necessity,
+nonnecessary/contingent root, PER_SE, and well-foundedness/anti-brute root.
+This does not refute the existing theorem, but its broad definition links are
+not a completed account of the senses its bound type uses.
+
+**Audit completed, 2026-11-08**, on `research/unique-root-sense-audit`, based on
+main `92f0f6e668ff47dce0134a54b718688c90703ea5`. The structure PRs above are now
+merged. All eight hypothesis types and the conclusion were compared with the
+actual definitions; the earlier proof and countermodel evidence is reused.
+
+| Flagged group | Actual type and disposition |
+| --- | --- |
+| Productive contribution / source-backed supply | Neither Supply predicate occurs. Remove inherited links; no identification or bridge is asserted. |
+| Maximality | `IsMaximumIn InAct MoreIn esse n` is merely maximal: in act at esse, with no strictly-more candidate. No totality, strict greatestness or uniqueness follows from this definition. Select sense 1 and locate its actual body; the generic sense 6 uses an alias of that same body and remains legacy debt, not a new distinct type. |
+| NECESSARY | `NecessaryAt m.ontic w n` keeps the same individual across accessible worlds. Select sense 2. No necessity-per-se or special modal-frame law occurs. Actual presence comes separately from roothood. |
+| Individual necessity / exemplification | Neither DeDicto nor modalPossible occurs. Remove inherited links. The explicit NecessaryAt quantifier is the reading actually consumed. |
+| Nonnecessary / contingent root | Neither predicate occurs. The supplied necessary root is retained; no contingency premise is added or established. |
+| PER_SE | No IsNecessaryPerSe occurs. EM links the existing logical definition `∀ p, p ∨ ¬p`, rather than the administrative self-evident marking; its established status is unchanged. |
+| Well-foundedness / anti-brute root | Select the actual-root sense 2: actual/concrete at w, with no incoming guarded grounding edge. No ancestry, Acc or WellFounded occurs. The separate esse-cause interface needs one edge, so a definition now locates ActualConcreteGround directly instead of GroundAncestor. |
+
+The three remaining senses are declared in `term_senses` and checked against the
+real Lean telescope: eight hypotheses and one conclusion, one bound result,
+zero mismatches. Both maximality aliases retain their legacy exceptions, because
+two spellings do not give distinct types. The check is constant-occurrence
+binding, not proof of philosophical meaning. No artificial bridge or mixing
+control was introduced to clear warnings.
+
+The two grade-producing arguments now link the same at-being maximality as their
+shared conclusion. Shared statement link corrections remove other inherited
+mixing entries mechanically; those consumers have not thereby received an
+independent philosophical audit. The ratchet shrinks from 915/1974 to 914/1928
+arguments/term uses. The 268 unfinished declaration exceptions are retained.
+Reviewed migration manifests include the corrected logical EM definition and
+explain the maximality locator correction; hashes follow those explicit reviews.
+
+Recursive meaning is bounded explicitly: roothood uses present concrete guards
+and the supplied grounding edge; necessity uses accessibility and existence;
+maximality uses the supplied esse/InAct/MoreIn; perfection transfers that same
+InAct for every candidate and respect. Profile concrete/grounds, the respect
+carrier, esse value and actuality/comparison dictionaries remain primitive
+inputs with OPEN semantic applicability. ExistingInActAt is only one-way.
+The distinct-agent cause-to-ground interface remains an explicit OPEN premise.
+The conclusion contains no GoodIn or CausesIn dictionary, moral goodness,
+omniscience or God naming; its definition now says so. No source claim or
+source reading was changed. Claim/type self-sweep found no added premise,
+identity transport, world transport or hidden order law. The Challenge hash
+remains `3ad42e2c61b1d3000750d395b06818869390badd97e9a8ec8725017bf5f3768c`.
+
+**Remaining philosophical work, outside this audit:** this result does not yet
+reach `STMT-CATHOLICISM-TRUE`. A connection needs an explicit bridge from this
+selected-root/perfection package to the root-route God's identifying/attribute
+requirements. The current type supplies neither that identification nor
+explanatory adequacy; there is no justified bridge to register as proved. No
+premise is discharged by the metadata changes. Use the computed frontier delta
+in the PR, not a hand-reconstructed claim of root progress. Final CI and the
+current-head review remain the delivery gates.
+
+Shared conventions sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+### Current root connection after #1244 (2026-11-08)
+
+Proof implementation head `87aaf14599147570cd812aa69ba73201f30af2fc`
+in [PR #1245](https://github.com/moritzbrantner/truth-core/pull/1245).
+Branch `research/unique-root-quarta-connection`, based on main
+`44aa6abb72ad5fb674b391c0ea484888f16b2946`; the delivery commit is the commit
+containing this section. This supersedes the earlier claim that no connection
+can yet be registered: an openly conditional structural connection is available.
+
+Target: `STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL` on the cheapest existing root
+route, `CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL` (`fa24c576`). Reuse:
+`UNIQUE-ROOT-PERFECTION` / `UniqueRootPerfection.derive` and its exact existing
+`NecessaryPerfectRootAt`, `MaximumInBeingCausesAllBeingsReading` and
+`MaximeEnsCausesBeingOfAllReading` vocabulary. Missing step: project the maximum
+in esse from the package and instantiate the at-being genus policy for it.
+Premise comparison: consume the existing package and existing genus policy;
+add no premise, naming converse, totality, world transport or sense bridge.
+This connects results; it does not independently defend either input.
+
+The new result `fb0a20d6-b236-4cef-841c-737f795d976c` performs that step.
+The full root DAG is `explorations/unique-root-quarta.toml`, with the exact
+16-premise existing downstream route retained. The stronger alternative
+`NecessaryClassicalGodRoot.derive` reconstructs a necessary root from population,
+whole-roster and contingent-dependence policies before deriving attributes;
+it is unnecessary for this contact and would obscure the selected package's
+actual contribution. No full-genus policy is inferred from the at-being policy.
+
+The exact remaining identification boundary is the existing
+`GodNamesTheFullyDescribedPrinciple` premise: identifying the causal maximum
+with `σ.IsGod` still requires the fuller description and its nominal policy.
+The existing downstream causal-perfection, first-being, classical-attribute,
+revelation, resurrection, Church identity and teaching-truth premises remain
+explicit and OPEN. Neither necessity nor perfection supplies that identification.
+A direct perfection-to-causality inference fails in the omission control.
+No competing worldview is thereby refuted or Catholicism established.
+
+Verification: focused Solution build, scoped binding (three results, zero
+mismatches), zero-permitted-axiom Comparator and NanoDa passed for the connection
+and controls. A composed consumer directly applies `UniqueRootPerfection.derive`
+to all eight original inputs before this bridge, addressing the independent
+review finding about theorem reuse. The finite positive control has two existing candidates and a
+nonempty causal edge; omitting genus preserves the unique necessary perfect
+root with no causal edges; omitting the package permits empty actuality and
+vacuous genus. These are consequence tests, not real metaphysical accounts.
+Claim/type self-sweep: same profile, world, esse and dictionaries; no attribution,
+new meaning or hidden hypothesis. Necessity, uniqueness and perfection are
+surplus to the maximum projection. No added or changed stating claims.
+
+The required map/fix commands exposed stray undefined-variable expressions in
+`argument_batch.py`; two unused lines were removed and command smoke regressions
+added (six focused tests pass). No service was configured for this task; CLI
+verification reused the existing warm build and verifier setup. The prior
+service experiment is retained below and was not repeated.
+
+Computed frontier comparison: open premises reaching the root 353 → 374
+(217 → 232 bare, 96 supported unchanged, 40 → 46 stated); cheapest route
+cost 28 → 28. These are newly connected existing obligations, not newly
+asserted premises or discharged obligations.
+
+Delivery follow-up: the first CI passed corpus/Lean and the Comparator library,
+but truth-cli parity failed because its context test indexed `legacy_id` on
+the first statement, now a legitimate UUID-native record without that optional
+alias. The test now explicitly covers records with and without aliases, for
+both context and dossier lookup; proof inputs and premise delta are unchanged.
+
+Current delivery evidence: computed premise delta and thickness are included in
+the PR; delivered-head CI and independent review govern merge. Next research
+step: examine the existing full-description naming boundary and its actual
+attribute prerequisites, keeping revelation/history separate. Shared policy
+sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
 ### Unique necessary actual root to perfection (2026-11-05)
 
 The `agent/unique-root-perfection` batch (verified implementation

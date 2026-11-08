@@ -1,6 +1,8 @@
 {
-  "id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
-  "argument_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "id": "c989c5dc-dbd8-59b6-9321-c9a8e5b85493",
+  "label": "For each being satisfying the selected proper God…, from Stronger open analyst calibration: proper…",
+  "legacy_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "argument_id": "d4ca027d-77b4-5582-a905-968f77c8a725",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.coextensionPreserves",

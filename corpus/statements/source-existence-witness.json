@@ -1,18 +1,20 @@
 {
-  "id": "STMT-GRAPH-HAS-SOURCE-WITNESS",
+  "id": "88ba7081-d9a1-57a4-a4b9-66c86f2d20bd",
+  "label": "The selected graph has at least one graph-relative source",
+  "legacy_id": "STMT-GRAPH-HAS-SOURCE-WITNESS",
   "lean_declaration": "TruthCore.Causality.SourceWitness.HasSource",
   "paraphrase": "Open structural input: the selected graph has at least one graph-relative source. For an actualGraph, this witness is actually present in the selected world; no WF or uniqueness is assumed by this input.",
   "definition_ids": [
-    "DEF-SOURCE-EXISTENCE-WITNESS",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
-    "DEF-FINITE-CAUSAL-PATH"
+    "3bc85e01-5f9f-524c-be4f-b07a39298c29",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a",
+    "822c9912-2313-584b-b2b7-77031da20107"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

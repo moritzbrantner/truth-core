@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
-  "argument_id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "id": "265dd552-22b9-54a5-aa2d-15eb92c22353",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2 by the…, from contact",
+  "legacy_id": "ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "argument_id": "0ee401a5-e300-52b6-8f47-f8df8fa3710d",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.LocalRegressFromContact.localRegressFromContact",

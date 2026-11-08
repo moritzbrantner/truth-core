@@ -1,20 +1,22 @@
 {
-  "id": "LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY",
+  "id": "016662fc-3318-5ebf-b9e3-067a80d1aae6",
+  "label": "Whatever begins or ceases to live between an earlier and a later time of the…, from immutability",
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "aec71162-953c-5236-b04c-a7486b2d0d20"
   ],
-  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "conclusion_statement_id": "812b52b3-de7d-5982-93a9-e46b6e169616",
   "inference_ids": [
-    "INF-LIFE-BOUNDARY-POTENCY-FROM-IMMUTABILITY"
+    "659e47df-88d0-58e8-a596-ddf4c15f9773"
   ],
   "meaning": "Contrapositive of ST I q.10 a.1 under excluded middle: whatever is in potency in no respect has no beginning or end of life (STMT-IMMUTABLE-HAS-NO-LIFE-BOUNDARY, supported by the q.10 a.1 claim), so whatever begins or ceases to live is in potency in some respect. Derives STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, which reaches the root without a derivation. This is a logical rearrangement: the gap the target carried (potency in the subject versus in another) now sits in the reading of 'omnino immutabile'. Both premises stay open.",
   "definition_ids": [
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-POTENCY",
-    "DEF-PURE-ACT"
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
   ]
 }

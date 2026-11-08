@@ -1,6 +1,8 @@
 {
-  "id": "LAW-ACTUALITY-743-OMISSIONS",
-  "argument_id": "LAW-ACTUALITY-743-OMISSIONS",
+  "id": "1f678ab6-cc89-5796-b3fd-c4be88298e16",
+  "label": "At every n the first unrecorded value identifies both laws but is not record-only; full value…",
+  "legacy_id": "LAW-ACTUALITY-743-OMISSIONS",
+  "argument_id": "ad6f78eb-b4ef-5dd6-a457-2f543f34fbd6",
   "challenge_module": "TruthCore.Results.Explanation.LawActuality.Challenge",
   "solution_module": "TruthCore.Results.Explanation.LawActuality.Solution",
   "theorem": "TruthCore.Results.Explanation.LawActuality.omissions",

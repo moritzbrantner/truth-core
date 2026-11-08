@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MODAL-FIXTURE-CHECKS",
+  "id": "9863029b-0dad-51ad-a3d5-f41eb9d47277",
+  "label": "Mathematical fixture laws with exact quantified assumptions: IDENTITY_PREDICATE_ADMISSIBILITY_3 and…",
+  "legacy_id": "STMT-MODAL-FIXTURE-CHECKS",
   "paraphrase": "Mathematical fixture laws with exact quantified assumptions: identity-predicate admissibility and root MC separate successors; full-predicate MC agrees with Hume Collapse; excluded middle, negation closure and world extensionality give a separate identity route. Finite Boolean evaluation agrees with Holds. Explicit duplicate-label and branching fixtures distinguish fixed-language, corpus-inventory and full-predicate collapse, with root evaluations and accessible witnesses. No metaphysical possibility or source interpretation is asserted.",
   "lean_declaration": "TruthCore.Modal.ResearchFinite.Checks",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY"
+    "70eab05f-3fde-575b-9de1-6692e7b71974"
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RUSSELL-EXACT-NUMBER-CONTINGENT",
+  "id": "9bef7771-9458-5639-9270-0940d1c80b78",
+  "label": "Existence of a universe and its exact number of things are empirical, not logical, matters on…",
+  "legacy_id": "STMT-RUSSELL-EXACT-NUMBER-CONTINGENT",
   "paraphrase": "Existence of a universe and its exact number of things are empirical, not logical, matters on Russell’s account.",
   "definition_ids": [
-    "DEF-RUSSELL-FINITE-EXTENSION",
-    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+    "36e83237-9dc6-5803-a9b8-a053c6d663a6",
+    "5873c837-35ba-5ca2-91a8-07808c67e461"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

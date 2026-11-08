@@ -1,9 +1,11 @@
 {
-  "id": "INF-PARM-RANKED-ASYMMETRY",
+  "id": "c725b175-b20e-5fd8-a2b7-d6a863a8bfa6",
+  "label": "No explanatory Ground edge has its reverse, by Typed-consequence",
+  "legacy_id": "INF-PARM-RANKED-ASYMMETRY",
   "input_statement_ids": [
-    "STMT-PARM-RANKED-GROUND"
+    "a6e152ba-96fe-5f86-8ef0-a9ff9a85155a"
   ],
-  "output_statement_id": "STMT-PARM-ASYMMETRIC-GROUND",
+  "output_statement_id": "421753f3-8c96-5aff-a9cc-ec0fdd7a5fd7",
   "rule": "typed-consequence",
   "meaning": "A reverse Ground edge would give rank f < rank x < rank f, violating irreflexivity of natural-number strict order. An explicit open order witness yields asymmetric dependence, without a cause of temporal change.",
   "assumption_statement_ids": [],

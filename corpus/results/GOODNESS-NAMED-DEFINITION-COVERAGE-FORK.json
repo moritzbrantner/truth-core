@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
-  "argument_id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "id": "c2a63064-5045-5901-b495-e58030ba1ebc",
+  "label": "Stronger identity-scope fork: named candidate…, from Excluded middle as a general principle…",
+  "legacy_id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "argument_id": "0b47df39-b67d-5796-b627-f091b4109a63",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessNamedCoverage.coverageOrFurtherDefinition",
@@ -8,19 +10,19 @@
   "status": "solution-present",
   "description": "Zero-axiom logical scope fork. It proves neither named coverage nor a further real definition; the named-space models separately witness both abstract branches.",
   "case_split": {
-    "target_statement_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER",
+    "target_statement_id": "cb290349-4d73-5a87-a049-a58c24537b23",
     "cases": [
       {
         "label": "Named proposals cover admissible definitions",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.NamedCoverage",
-        "statement_id": "STMT-GOODNESS-NAMED-DEFINITIONS-COVER"
+        "statement_id": "cb290349-4d73-5a87-a049-a58c24537b23"
       },
       {
         "label": "Additional relevant definition",
         "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.AdditionalRelevantDefinition",
-        "statement_id": "STMT-GOODNESS-ADDITIONAL-RELEVANT-DEFINITION"
+        "statement_id": "e189cd12-e2a1-5fec-801a-e2b2bd17ccc0"
       }
     ],
-    "survival_result_id": "GOODNESS-FORM-END-BOUNDARIES"
+    "survival_result_id": "122aced4-9788-560c-beac-78f70ec398da"
   }
 }

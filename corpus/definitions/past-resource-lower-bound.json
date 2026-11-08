@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PAST-RESOURCE-LOWER-BOUND",
+  "id": "230a64cf-b1cf-579c-b1d7-ddd1db5677b4",
+  "label": "One resource lower bound throughout\u2026: PastLowerBound S now L says L\u2264S t for every integer t\u2264now\u2026",
+  "legacy_id": "DEF-PAST-RESOURCE-LOWER-BOUND",
   "term": "one resource lower bound throughout the past",
   "definition": "PastLowerBound S now L says L\u2264S t for every integer t\u2264now, including now. L is one fixed real constant for the whole past, not a varying bound or a finite observed interval. Combined with the finite real value S now, it bounds the accumulated past-to-present stock increase by S now\u2212L. It asserts no finite duration since a first event.",
   "basis": "stipulative",

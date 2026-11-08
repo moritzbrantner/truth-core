@@ -1,6 +1,8 @@
 {
-  "id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
-  "argument_id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
+  "id": "1da45265-793e-5a79-9958-91a824c0b0d5",
+  "label": "Exact inhabited Bool/Unit interpretation has a stationary opiner and a distinct moved being…",
+  "legacy_id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
+  "argument_id": "81e5b096-cff0-5d19-b091-a2f9158f9724",
   "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.Solution",
   "theorem": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Controls.controls",

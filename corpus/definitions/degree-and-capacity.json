@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DEGREE-AND-CAPACITY",
+  "id": "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7",
+  "label": "Degree of a perfection and capacity…: Deg y r: the degree in which y has the perfection r; cap z…",
+  "legacy_id": "DEF-DEGREE-AND-CAPACITY",
   "term": "degree of a perfection and capacity for it (deg y r, cap z r)",
   "definition": "deg y r: the degree in which y has the perfection r; cap z r: the measure of r that z can take. Both lie in one preorder of degrees per batch (a parameter D with a Mathlib Preorder). This is a measure reading of 'to the measure of z's capacity' in DEF-PERFECTION-LIMITED-BY. Example: the heat of the fire exceeds what the wood can take; the wood's heat is within it. Nothing makes degrees of different respects comparable, and nothing here says every two degrees are comparable: the open premise STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY carries the comparability it needs. Degrees are not quantities in a physical sense.",
   "basis": "stipulative",

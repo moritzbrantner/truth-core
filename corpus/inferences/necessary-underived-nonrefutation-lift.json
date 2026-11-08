@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+  "id": "374601cd-dad5-5ce4-8d9c-4e4cd7e7b426",
+  "label": "Denying the existence of one rigid de re necessary bearer without…, by Well-founded-induction",
+  "legacy_id": "INF-NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
   "input_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "STMT-NECESSARY-PREDECESSOR-LIFTING"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "47a97912-335f-52f7-a715-63592368f0fe",
+    "2a9378b4-3dad-591b-a88e-1907a79f1fa5"
   ],
-  "output_statement_id": "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED",
+  "output_statement_id": "2bd3f370-44d6-53eb-b3f4-b4b07a9a7e80",
   "rule": "well-founded-induction",
   "meaning": "A de re necessary actual bearer plus a well-founded actual support graph and cross-world necessary-predecessor lifting constructively refutes the claim that no necessarily underived individual exists. The strong lifting principle remains independently unjustified; this does not establish a concrete God.",
   "assumption_statement_ids": [],

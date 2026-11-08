@@ -1,6 +1,8 @@
 {
-  "id": "ATOMLESS-COMPLETE-FUSION-MODEL",
-  "argument_id": "ATOMLESS-COMPLETE-FUSION-MODEL",
+  "id": "6958baa2-9236-5459-a023-8a4a84d924b3",
+  "label": "The nonempty Mathlib regular open real regions jointly satisfy exact remainders, every…",
+  "legacy_id": "ATOMLESS-COMPLETE-FUSION-MODEL",
+  "argument_id": "a13c8147-57dd-5b93-8fdf-136874c3665d",
   "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
   "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
   "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.gunkModel",

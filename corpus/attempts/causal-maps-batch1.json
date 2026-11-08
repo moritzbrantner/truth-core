@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-CAUSAL-MAPS-BATCH1",
+  "id": "df5581ce-d781-5f45-aa96-442094b7e6df",
+  "label": "Batch certification of three exploration maps",
+  "legacy_id": "ATTEMPT-CAUSAL-MAPS-BATCH1",
   "statement_ids": [
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT",
-    "STMT-NOTHING-PRIOR-TO-ITSELF",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES",
-    "STMT-NO-MUTUAL-EFFICIENT-CAUSATION"
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450",
+    "32d77f18-a9c2-5486-b51c-a24f32863af4",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
+    "0566122f-9b0c-5325-9d4c-335bcd7124e0"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Batch certification of three exploration maps (explorations/cause-of-quality-more-such.toml, efficient-cause-prior.toml, nothing-moves-except-in-act.toml). (1) The Metaphysics II.1 'cause of a quality is more such' premise from six open reception/limitation premises; the map's single 'unlimited by that recipient' step needed both directions of reception<->limitation relativized to the limiter z, plus the effect's reception of what is caused in it. It avoids q.4 a.2 preexistence, so no cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER. (2) The secunda via premises 'efficient cause is prior' and 'nothing prior to itself' from a dependence analysis of priority, split into its sufficient and necessary directions so each derivation uses the weakest one; plus two side results from dependence alone: nothing is its own efficient cause (second route bypassing priority) and no mutual efficient causation. (3) The prima via 'moves only as in act' by cases on mover = moved: a distinct mover causes, so is more such, so is in act; a self-mover moves by a distinct part, which is in act by the first case, and the whole is in act through its part. This answers the self-mover gap of ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 without STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT (itself derived from the target). Controls: 21 omission models from scripts/countermodel.py (Fin carriers renamed to Bool/Unit so decide is axiom-free), plus one hand-written joint witness with nonempty causing, moving, self-moving and efficient-causing relations; excluded middle has no omission model within the bounds. Rejected edges are recorded in ATTEMPT-CAUSAL-MAPS-BATCH1-REJECTED-EDGES.",
   "evidence": [
-    "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
-    "CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE",
-    "EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE",
-    "NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE",
-    "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
-    "NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
-    "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
-    "CAUSAL-MAPS-BATCH1-CONTROLS"
+    "36420e1a-d357-5ed1-be89-8c03a1c2c02e",
+    "41ccadda-be7e-5078-af8d-c199a8b671e0",
+    "695c2113-50b7-5b6c-ab51-e3cc02526d99",
+    "1d070db9-05a7-56b4-a9b7-b18939b7e1ab",
+    "fab93fb8-d00b-5e3a-ada0-c57b25f1b105",
+    "0eec14cf-f843-5167-aae1-c5b185e393a2",
+    "f01de122-4f0d-57e8-a94d-26ad841e93af",
+    "86d080aa-4c6e-5f85-a86e-333c805d0093"
   ],
   "blocker": "Every new premise is open. Supported (claim bears on it, gap noted): cause has what it gives (q.4 a.2, scoped to causes of being), received perfection is limited (q.7 a.1-2), limitation only through reception (q.7 a.1, which its claim restricts to esse: the generalization is in tension with that restriction), effect depends on its efficient cause (q.44 a.1 ad 2), self-mover moves by a distinct part (Physics VIII.4; VIII.5 unpinned). Bare analyst premises: caused perfection is had; perfection caused in another is received in it; cause's perfection not received in its effect; unlimited possession exceeds limited; efficient cause not dependent on effect; both directions of priority as nonmutual dependence; mover causes what it moves to (crosses DISAMB-CAUSE as an explicit bridge); whole in act through its part (contestable for wholes that are so only in a part)."
 }

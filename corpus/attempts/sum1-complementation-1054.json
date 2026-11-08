@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-SUM1-COMPLEMENTATION-1054",
+  "id": "2ba243db-d6ce-5df0-8bac-4a292ee3eb7c",
+  "label": "Issue #1054; analyst formulations, attribution deferred",
+  "legacy_id": "ATTEMPT-SUM1-COMPLEMENTATION-1054",
   "statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION",
-    "STMT-STRONG-SUPPLEMENTATION",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM1",
-    "STMT-SUM1-SUM2-COMPARISON",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM2",
-    "STMT-SUM1-COMPLEMENTATION-RIVALS"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
+    "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
+    "db4f8c85-6854-5864-b7f0-a72d9dc32894",
+    "9a9e0948-0b39-5698-8408-3a9ee994d124",
+    "852d279c-58c6-522a-b3a7-b71faab17749",
+    "f63c2b0e-3a45-53a5-a052-f41b7b9f660d"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Issue #1054; analyst formulations, attribution deferred. Reused existing common-part Overlap, Sum2 Fusion/Unrestricted, Mathlib PartialOrder/IsLUB and imported #1052 separationCharacterization. Exact complementation implies SS and pointwise Sum1 iff Sum2 for nonempty families; all-nonempty formation transfer is a composition/transcription corollary, not an independent philosophical bridge. One three-atoms-plus-top model jointly satisfies SS and every nonempty-Set Sum1 but lacks the selected pair Sum2 and exact complementation; two incomparable atoms jointly satisfy complementation but lack pair Sum1/Sum2. Both lack a null object. No new greatest-whole theorem is added: inhabited-carrier Sum1 alone supplies a greatest member, so C would be redundant. Related/context/dossiers inspected. Initial draft Challenge hash678abe17798773528ee4154b6e1f4827fbb91fa0058d4f66d7e62c2fe71ef184 had ambiguous RivalCertificate due to two opens; before any rival certification, narrowed the old open to StrongSupplementation. Corrected compiling Challenge hashdebab75ea8aef1f35ed55a0136c52d1c64c09bb55d271bb931e601557f742d51 is unchanged for all accepted Solution evidence. No intended theorem or premise changed. Warning-free Solution build, bindings4/0, all4 Comparator and independent NanoDa checks PASS. No source/claim/passage, new dependency, tooling or service edits. Final delivered-head CI/review remain required. Shared conventions sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Proof rationale, discarded stronger-premise corollary and semantic boundaries persist in docs/notes/universal-fusion-grounding.md.",
   "evidence": [
-    "STRONG-FROM-COMPLEMENTATION",
-    "SUM1-SUM2-COMPARISON",
-    "UNRESTRICTED-SUM1-TO-SUM2",
-    "SUM1-COMPLEMENTATION-RIVALS"
+    "b3a40ca9-5e1a-57ab-abfa-33a1eeec9cd8",
+    "7d2baf85-bb47-58e5-bdcc-c5b3d0513b88",
+    "8f742ce9-4502-5ae8-a234-389c869925d5",
+    "557c6f98-2323-54a1-96eb-aeff84f88840"
   ],
   "blocker": "Actual applicability of the chosen partial-order parthood and exact-remainder commitment remains OPEN; no substantial unity, actual ontology, modal necessity, causal source or Catholicism root premise is discharged. These Mathlib controls are not zero-axiom finite-registry registrations."
 }

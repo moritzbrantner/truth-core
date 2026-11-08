@@ -1,10 +1,12 @@
 {
-  "id": "INF-NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
+  "id": "5da74e10-68d5-5428-b596-72a25a068d13",
+  "label": "Exact negation of NATURAL_REASON_2 is shared reason: it is not the case…, by Constructive-proof (2)",
+  "legacy_id": "INF-NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
   "input_statement_ids": [
-    "STMT-NATURAL-REASON-NEVER-SHARED",
-    "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS"
+    "106640c2-2d92-5088-a977-1b5c0a5e30eb",
+    "ffe6c612-0712-5866-9c8b-ad431736209a"
   ],
-  "output_statement_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
+  "output_statement_id": "490f4796-81ee-5c42-95d2-2f2a6713c654",
   "rule": "constructive-proof",
   "meaning": "Use the actual natural-knowability move: sharedness would follow by the old shared bridge and is denied by the all-nonshared premise. Both uniform readings can hold vacuously without such a witness; no descriptive horizon is refuted.",
   "assumption_statement_ids": [],

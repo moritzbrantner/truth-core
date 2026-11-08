@@ -1,10 +1,12 @@
 {
-  "id": "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
+  "id": "a696033a-4e98-5b14-9312-977ad8f65ca4",
+  "label": "UNIVERSAL_2: An utterance signifying many through voluntary institution, as contrasted with a…",
+  "legacy_id": "DEF-UNIVERSAL-CONVENTIONAL-SIGN",
   "term": "universal",
   "definition": "An utterance signifying many through voluntary institution, as contrasted with a naturally universal mental intention. The claim about conventional vocal signs is not a claim that natural mental concepts or their objects are arbitrary.",
   "basis": "sourced",
   "claim_ids": [
-    "OCKHAM-SL-I14-NATURAL-CONVENTIONAL",
-    "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY"
+    "7340b036-478b-5f54-8dc0-716731b23318",
+    "b67e0fc0-b0a3-533e-b195-b9ffdbf9ad32"
   ]
 }

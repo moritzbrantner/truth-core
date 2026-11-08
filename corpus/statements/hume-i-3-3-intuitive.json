@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-I-3-3-INTUITIVE",
+  "id": "d93fadf4-580e-5ef7-906b-684258e94646",
+  "label": "Hume denies that the maxim that whatever begins to exist has a cause displays intuitive certainty…",
+  "legacy_id": "STMT-HUME-I-3-3-INTUITIVE",
   "paraphrase": "Hume denies that the maxim that whatever begins to exist has a cause displays intuitive certainty under his comparison-of-ideas account; he allows an opponent to propose and defend another infallible relation.",
   "definition_ids": [
-    "DEF-HUME-IDEA-CERTAINTY",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "48cf1e70-6343-52f0-88c3-995c051156b6",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

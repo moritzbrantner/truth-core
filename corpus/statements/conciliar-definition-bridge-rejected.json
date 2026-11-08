@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
+  "label": "Exact negation of conciliar definition is practice own standard: not every defined move is…",
+  "legacy_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
   "paraphrase": "Exact negation of STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD: not every defined move is endorsed by the practice own standards. It is not merely a descriptive theological classification or an absence of natural knowledge.",
   "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionBridgeRejected",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

@@ -1,17 +1,21 @@
 {
-  "id": "STMT-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
+  "id": "f5e6708e-80bb-552f-b91c-cd6be08c6489",
+  "label": "Two finite, universally accessible, explanation-sound models separate the commitments: every…",
+  "legacy_id": "STMT-PSR-EXISTENCE-SCOPE-COUNTERMODELS",
   "paraphrase": "Two finite, universally accessible, explanation-sound models separate the commitments: (1) every existence fact at every world has some stipulated explanation and some individual exists at world false and at every world, yet not every existent has a distinct existing cause (at least one existent at some world lacks one); and (2) every contingent existent's existence fact has some stipulated explanation, an individual that exists at world false but not at some world (so the contingent-only principle applies non-vacuously there) and a necessarily existing individual both exist, yet some existent at some world lacks any explanation of its existence fact. Thus an existence-PSR need not entail that every existent is externally caused, and a contingent-only existence-PSR need not entail the existence-PSR. The certified type does not say that no existent is caused, that any explanation is intrinsic, or which existent in (2) is unexplained; the concrete witnesses have those further properties, but they are not part of this statement. Reasons and their adequacy are stipulated, not vindicated.",
   "definition_ids": [
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-PSR-REASON",
-    "DEF-PSR-SOUNDNESS",
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-PSR-CONTINGENT-SCOPE",
-    "DEF-PSR-EXTERNAL-CAUSE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "70fccbe6-be10-5709-9d73-53a436b97f25",
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
+    "54db094b-3291-573d-ae9c-0f24162af2cf",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
-  "disambiguation_ids": ["DISAMB-PSR-EXPLANATION-CAUSE"],
+  "disambiguation_ids": [
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
+  ],
   "lean_declaration": "TruthCore.Explanation.ExistencePSR.PsrScopeBoundary"
 }

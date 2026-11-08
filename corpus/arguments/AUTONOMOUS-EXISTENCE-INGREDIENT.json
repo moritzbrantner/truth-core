@@ -1,25 +1,27 @@
 {
-  "id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "id": "cf7d1a04-1925-512b-9ad9-720b29a4155c",
+  "label": "There exist an admitted g targeting…, from Reuse Groups as a token record, with… and 1 more",
+  "legacy_id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
   "premise_statement_ids": [
-    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
-    "STMT-EXISTENCE-INGREDIENT-AT"
+    "9e43b06d-62f3-5f2a-9599-c19df184bd5c",
+    "996d8cb2-434a-5b8a-a110-9c78a416f6bd"
   ],
-  "conclusion_statement_id": "STMT-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "conclusion_statement_id": "809d95fb-ca16-514c-aa5b-c6b847cecacb",
   "inference_ids": [
-    "INF-AUTONOMOUS-EXISTENCE-INGREDIENT"
+    "93e11d29-bbf8-591a-98a9-4dcb2911f9e2"
   ],
   "meaning": "Direct typed joint-record extraction: an ultimate ground with all autonomous members plus at least one existence-related member per target record yields an autonomous existence-related member in that same full ground, retaining every antecedent. No descent/WF assumption, truth, sufficient individual ingredient, actual bearer or necessary being is inferred. The strong full-ground input supplies autonomous members directly; no termination or absence-of-incoming-ground theorem is claimed.",
   "definition_ids": [
-    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
-    "DEF-MIXED-FACT-GROUND-RECORDS",
-    "DEF-EXISTENCE-INGREDIENT-AT",
-    "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
-    "DEF-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT"
+    "e21a82a2-5129-554c-947e-597f22a567ab",
+    "b46db868-0f46-5a62-87b7-b4c9fd555965",
+    "b1c09de2-03da-5b1f-bd2f-4bdf6d130417",
+    "856ec6b4-90e6-5485-ad15-6045a03dc635",
+    "57b8207e-2c26-58e6-8f96-f2d0eafba8a5",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "56cc187b-3051-512f-83b9-549fab0049c4"
   ],
   "disambiguation_ids": [
-    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD"
+    "6bfbf069-4e30-59c5-a265-fa87d4463b33"
   ]
 }

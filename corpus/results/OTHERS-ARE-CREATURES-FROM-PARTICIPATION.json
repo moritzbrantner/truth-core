@@ -1,6 +1,8 @@
 {
-  "id": "OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
-  "argument_id": "OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
+  "id": "c586e910-324a-5ca9-a840-092b55f5f97f",
+  "label": "Everything other than the primary is a creature, from participation",
+  "legacy_id": "OTHERS-ARE-CREATURES-FROM-PARTICIPATION",
+  "argument_id": "38bef29c-ff2d-5f34-96f9-f6a35fb2293d",
   "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
   "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.othersAreCreatures",

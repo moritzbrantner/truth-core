@@ -1,16 +1,18 @@
 {
-  "id": "SEXTUS-I170-177-DISPUTED-CRITERION",
-  "statement_id": "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
-  "source_id": "SEXTUS-OUTLINES-PYRRHONISM",
+  "id": "cbeaf427-77e4-5fff-8e45-f3df419e7f43",
+  "label": "Sextus Empiricus, Outlines of Pyrrhonism…: In the sensible/intellectual inquiry described by…",
+  "legacy_id": "SEXTUS-I170-177-DISPUTED-CRITERION",
+  "statement_id": "8ac3ed7c-edc7-5dc7-b82f-6b6457e29a2a",
+  "source_id": "6f868820-d2b4-5807-acbb-e95fac6a3f42",
   "locator": "I.170–177",
   "interpretation": "Source reading in prose only, not a Lean theorem. The sensible/intellectual taxonomy and continuing dispute are background commitments of this source argument. This records its concrete application, not a checked exhaustive partition of all epistemologies or a proof that disagreement alone always defeats knowledge.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-SEXTUS-ESTABLISHING-PROOF",
-    "DEF-SEXTUS-BARE-HYPOTHESIS"
+    "4eaa3fea-38a6-5642-bbe4-3b1b32ba7d00",
+    "1879d7b0-5fbb-523a-8615-5a2f61a2a1ef"
   ],
   "disambiguation_ids": [
-    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+    "d0ec5421-edd4-5c5d-a3de-fb1bb8ee5e7e"
   ]
 }

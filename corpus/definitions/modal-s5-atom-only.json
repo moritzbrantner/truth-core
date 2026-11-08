@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-ATOM-ONLY",
+  "id": "2e6ae9f0-23ac-5357-9b57-d084c4a27380",
+  "label": "Atom-only inventory versus fixed…: AtomOnly contains exactly pairP, unlike expressible, which…",
+  "legacy_id": "DEF-MODAL-S5-ATOM-ONLY",
   "term": "atom-only inventory versus fixed language",
   "definition": "atomOnly contains exactly pairP, unlike expressible, which contains every formula denotation and hence negations. The inventory separates the two labels but lacks negation closure; it can satisfy possible inventory collapse at a root that fails actual inventory collapse even in S5.",
   "basis": "stipulative",

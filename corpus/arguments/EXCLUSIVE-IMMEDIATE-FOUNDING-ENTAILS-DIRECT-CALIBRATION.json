@@ -1,24 +1,26 @@
 {
-  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "id": "dca4dc97-67bb-5bb5-9fd1-687a4a695361",
+  "label": "A society counts as founded by GOD_4 as a…, from Stronger, openly stipulated reading in this…",
+  "legacy_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
   "premise_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE"
+    "75910ff0-16d2-587a-8e92-fb707e3c3529"
   ],
-  "conclusion_statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "conclusion_statement_id": "fc6eabd0-78f3-5a52-8041-73101a0e1dd5",
   "inference_ids": [
-    "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION"
+    "0843cdf6-2147-54c1-b920-93d81997fab6"
   ],
   "meaning": "Strength-order comparison: the exclusive Jesus-scope reading includes the minimal direct calibration. Operational calibration and positive elimination use the weaker reading; the contradiction needs the extra exclusion.",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ],
   "strong_version_needed": {
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE": "This certificate registers the strong-to-weak implication."
+    "75910ff0-16d2-587a-8e92-fb707e3c3529": "This certificate registers the strong-to-weak implication."
   }
 }

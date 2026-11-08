@@ -1,6 +1,8 @@
 {
-  "id": "PARTICIPATION-UNDERDETERMINED",
-  "argument_id": "PARTICIPATION-UNDERDETERMINED",
+  "id": "aaf61bde-5fc5-553f-b612-3b756c1bd757",
+  "label": "There exist two four-entity, one-quality interpretations satisfying the eleven generic Form…",
+  "legacy_id": "PARTICIPATION-UNDERDETERMINED",
+  "argument_id": "e5d55b84-e98e-5637-95c0-692c40b63576",
   "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.assignmentUnderdetermined",

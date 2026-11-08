@@ -1,9 +1,11 @@
 {
-  "id": "INF-PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+  "id": "279dfff6-bd51-597b-aa95-38e8ed8015c4",
+  "label": "For the SAME supplied per-se link, the old accessibility/WF premise holds…, by Constructive-proof",
+  "legacy_id": "INF-PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
+  "output_statement_id": "75b40a55-84b2-5744-8898-7e699d034223",
   "rule": "constructive-proof",
   "meaning": "Compose the EXISTING REGRESS-READINGS-COINCIDE-CLASSICALLY theorem to prove WF or an actual Nat-indexed descending series. The imported reverse direction uses approved classical choice; not a constructive-exhaustion claim or real-world causal well-foundedness.",
   "assumption_statement_ids": [],

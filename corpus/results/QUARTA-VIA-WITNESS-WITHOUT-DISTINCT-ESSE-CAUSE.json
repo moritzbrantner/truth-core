@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
-  "argument_id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "id": "494352f0-f0d9-574b-a9ec-d9c54edaf5a7",
+  "label": "Import quartaVia to obtain the same maximum that causes…, via witness without distinct esse cause",
+  "legacy_id": "QUARTA-VIA-WITNESS-WITHOUT-DISTINCT-ESSE-CAUSE",
+  "argument_id": "87dd8489-f336-52f7-904f-96cc97d60c86",
   "challenge_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.quartaViaWitness",

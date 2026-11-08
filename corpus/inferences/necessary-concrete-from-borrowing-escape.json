@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
+  "id": "35a6465b-3a4e-5f59-9cfb-788bd2b4b384",
+  "label": "Some concrete individual exists at w and at every world…, by Whole-roster-borrowing-cut-an…",
+  "legacy_id": "INF-NECESSARY-CONCRETE-FROM-BORROWING-ESCAPE",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "e27ea8e3-b61d-55a4-aea3-25adf8ff6c2d",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "whole-roster-borrowing-cut-and-existing-necessary-source-composition",
   "meaning": "Actual concrete population and the existing no-self-contained-borrowing cut yield source-backed actual concrete supply: apply the cut to the entire actual roster; a wholly external supplier is impossible because its contributors are nonempty. Compose the earlier supply/source extraction and contingent-root exclusion to derive necessary concrete existence. No necessary witness is assumed. The borrowing-cut application and contingent dependence remain substantive philosophical premises; this is their composed consequence, not an independent defense of either.",
   "assumption_statement_ids": [],

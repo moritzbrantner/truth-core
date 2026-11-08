@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-WORLD-ISOLATION",
-  "argument_id": "SCOTT-NE-WORLD-ISOLATION",
+  "id": "a70ae7e0-c702-5792-ba9d-ccab5355da27",
+  "label": "In the unrestricted higher-order Scott/AFP embedding, an individual satisfies the formal predicate…",
+  "legacy_id": "SCOTT-NE-WORLD-ISOLATION",
+  "argument_id": "39d861f4-a264-565c-910a-283b1cb3d97e",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.NecessaryExistenceWorldIsolation.checks",

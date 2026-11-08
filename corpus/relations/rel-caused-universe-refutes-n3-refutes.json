@@ -1,9 +1,11 @@
 {
-  "id": "REL-CAUSED-UNIVERSE-REFUTES-N3",
+  "id": "0013625d-5184-514f-b164-2dc429353295",
+  "label": "N3 fails at the selected world, from At the… refutes N3, CAUSAL_POWER_NATURALISM_3: at the…",
+  "legacy_id": "REL-CAUSED-UNIVERSE-REFUTES-N3",
   "subject_kind": "argument",
-  "subject_id": "CAUSED-UNIVERSE-REFUTES-N3",
+  "subject_id": "d343d1c4-554a-549f-a025-a67c4d01ba83",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-NATURALISM-N3",
+  "object_id": "b3968a11-82d8-584b-8c04-772b7e157a8b",
   "note": "Conditional consequence-defeat (#1007, owner argument on #1109): it rests on the open caused-universe premise and bridges, so it does not count (#999). The naturalist escapes are certified: NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR (brute universe, regress) and CAUSAL-LOOP-REJECTS-BRIDGE (bridge denied)."
 }

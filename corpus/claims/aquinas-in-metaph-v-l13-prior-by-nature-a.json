@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-IN-METAPH-V-L13-PRIOR-BY-NATURE-A",
-  "statement_id": "STMT-AQUINAS-PRIOR-BY-NATURE-CAN-BE-WITHOUT",
-  "source_id": "AQUINAS-IN-METAPH",
+  "id": "ab5ec574-cd80-5c16-b391-328245425d21",
+  "label": "Thomas Aquinas, Sententia libri…: Things are called prior by nature and substance, that is in the…",
+  "legacy_id": "AQUINAS-IN-METAPH-V-L13-PRIOR-BY-NATURE-A",
+  "statement_id": "fa759767-0de7-5b9b-a3bd-3106d6e1dedc",
+  "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
   "locator": "V, lect. 13 n. 15",
   "interpretation": "'Quaedam dicuntur esse priora, secundum naturam et substantiam, idest secundum naturalem ordinem in essendo ... secundum quod priora dicuntur, quae possunt esse sine aliis et illa non possunt esse sine eis. Et hoc est prius a quo non convertitur essendi consequentia.' Read as Aquinas' report of the first mode of priority in being, which he endorses at n. 18 as the mode all others reduce to. 'Possunt' is read as real possibility (DEF-CAN-BE-WITHOUT). Not read: that this priority is the simple priority of DEF-SIMPLE-PRIORITY, that it is a cause of being, or Plato's applications (universals before singulars), which the text reports without endorsing.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CAN-BE-WITHOUT"
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ],
   "attribution": "The passage states that things are called prior by nature and substance, in the order of being, which can be without the others while the others cannot be without them, which is the premise."
 }

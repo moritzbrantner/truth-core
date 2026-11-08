@@ -1,24 +1,26 @@
 {
-  "id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "id": "d4ca027d-77b4-5582-a905-968f77c8a725",
+  "label": "For each being satisfying the selected proper God…, from Stronger open analyst calibration: proper…",
+  "legacy_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
   "premise_statement_ids": [
-    "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION"
+    "e96fc9f3-d4c4-5670-9e98-b95f8a2bb509"
   ],
-  "conclusion_statement_id": "STMT-PROPER-REFERENCE-PRESERVED",
+  "conclusion_statement_id": "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
   "inference_ids": [
-    "INF-GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE"
+    "9b41cde5-32f7-5a34-becf-1f34c554061e"
   ],
   "meaning": "Project the proper-to-practice direction of each shared-extension equivalence. This registers the strong-to-weak comparison; no identity of meanings is inferred.",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ],
   "strong_version_needed": {
-    "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION": "This argument registers its strong-to-weak comparison; consequence arguments use only one-way preservation."
+    "e96fc9f3-d4c4-5670-9e98-b95f8a2bb509": "This argument registers its strong-to-weak comparison; consequence arguments use only one-way preservation."
   }
 }

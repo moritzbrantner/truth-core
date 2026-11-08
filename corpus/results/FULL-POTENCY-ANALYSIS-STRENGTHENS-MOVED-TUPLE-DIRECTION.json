@@ -1,6 +1,8 @@
 {
-  "id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
-  "argument_id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "id": "b58631e6-8d61-59c7-85ab-a814a9086595",
+  "label": "Weak OPEN POTENCY_1 interpretation needed by the…, from A being is in POTENCY_1 in a respect…",
+  "legacy_id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "argument_id": "349e0d34-a6c8-5cbe-ba33-f0325aacc437",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.AnalysisStrength.analysisStrength",

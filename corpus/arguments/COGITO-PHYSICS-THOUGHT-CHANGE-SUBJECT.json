@@ -1,23 +1,25 @@
 {
-  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+  "id": "280040af-b027-529c-8dd3-58d7d9505f8a",
+  "label": "Some actual thought is a change that is…, from Some thought episode occurs under the… and 2 more",
+  "legacy_id": "COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-THOUGHT-CHANGE-CLASSIFICATION",
-    "STMT-CHANGE-ACTUALITY-OF-POTENTIAL"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "4791525a-9c60-59e7-bc94-bcf2f368f0af",
+    "1d9604fd-a01b-5341-84de-41a01d1d12ae"
   ],
-  "conclusion_statement_id": "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS",
+  "conclusion_statement_id": "1fd408c7-945f-56f3-b37d-7c89b54ad730",
   "inference_ids": [
-    "INF-COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT"
+    "c8866298-4b68-58a0-8aec-4ca15f2b0ed3"
   ],
   "meaning": "Conditional transcription/assembly using the existing Aristotle Physics III.1 proposition; the actual thought, thought-as-change bridge and source-derived change reading are not independently established. It does not prove every act has a bearer, physical motion, an enduring self, or substance.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-CHANGE-CLASSIFICATION",
-    "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "a298c8b6-9c0f-51a5-8778-9022c22622d5",
+    "51def74f-c241-5704-862f-7c8b265ba02c",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOUGHT-EPISODE-VS-CHANGE",
-    "DISAMB-MOTION"
+    "42f77a36-a0f6-5b52-a428-1a7af0613503",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

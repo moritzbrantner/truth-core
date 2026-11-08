@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
+  "id": "1fb30e0b-ee4e-567b-a45c-6d12be8e2588",
+  "label": "If every moral obligation necessarily supplies an agent-relative reason independent of contingent…",
+  "legacy_id": "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
   "paraphrase": "If every moral obligation necessarily supplies an agent-relative reason independent of contingent ends, the proponents’ rejection of that necessity requires a defense. That requirement is disputed rather than built into moral realism.",
   "definition_ids": [
-    "DEF-NATURALIST-CATEGORICAL-REASONS",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+    "4bf71609-9f30-5161-b188-ffa1cce02bb4",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

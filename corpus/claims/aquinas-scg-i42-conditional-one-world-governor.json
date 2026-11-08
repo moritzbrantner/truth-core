@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
-  "statement_id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
-  "source_id": "AQUINAS-SCG",
+  "id": "09548d12-377f-5350-857d-976e7342cfe3",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: If world parts are mutually ordered always or for the…",
+  "legacy_id": "AQUINAS-SCG-I42-CONDITIONAL-ONE-WORLD-GOVERNOR",
+  "statement_id": "087aef0b-e529-5a19-a22e-55dd66fb6d56",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [7], application from observed world order through no-other-world conclusion",
   "interpretation": "Retain the observed mutual-service pattern, nonaccidentality inference and NO OTHER WORLD scope premise. One governor of this whole world does not automatically cover independent realms or all possible worlds. God is the source’s name for that governor, not an independently established unique necessary concrete bearer or full divine signature. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+    "14ec3301-ad2c-58da-8095-c64bf229bb2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

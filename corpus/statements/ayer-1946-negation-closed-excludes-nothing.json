@@ -1,15 +1,17 @@
 {
-  "id": "STMT-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "id": "52807ed7-0b9f-512a-a9af-c90713dff861",
+  "label": "If literal meaningfulness by the 1946 criterion is closed under negation, then, given Church's…",
+  "legacy_id": "STMT-AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
   "paraphrase": "If literal meaningfulness by the 1946 criterion is closed under negation (a sentence whose negation is meaningful is meaningful), then, given Church's three observation statements, no sentence fails to be literally meaningful (for every sentence, it is not the case that it is not meaningful).",
   "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946NegationClosedExcludesNothing",
   "definition_ids": [
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-LITERAL-MEANINGFULNESS-1946"
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT",
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd",
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

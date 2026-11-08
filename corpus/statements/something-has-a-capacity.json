@@ -1,12 +1,13 @@
 {
-  "id": "STMT-SOMETHING-HAS-A-CAPACITY",
+  "id": "7f04635f-c157-56b1-b4fd-35a6b5da9e5f",
   "label": "Something has a POTENCY_3 capacity for some respect",
+  "legacy_id": "STMT-SOMETHING-HAS-A-CAPACITY",
   "paraphrase": "OPEN analyst premise (attribution deferred): something has a capacity for some respect.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.SomethingHasACapacity",
   "definition_ids": [
-    "DEF-CAPACITY-TO-BE"
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY"
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ]
 }

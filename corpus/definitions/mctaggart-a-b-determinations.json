@@ -1,10 +1,12 @@
 {
-  "id": "DEF-MCTAGGART-A-B-DETERMINATIONS",
+  "id": "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+  "label": "A determinations and B relations in…: Past, present and future are the A determinations McTaggart…",
+  "legacy_id": "DEF-MCTAGGART-A-B-DETERMINATIONS",
   "term": "A determinations and B relations in McTaggart’s time argument",
   "definition": "Past, present and future are the A determinations McTaggart says an event successively bears. Earlier and later are B relations he treats as permanent between events. A reference-time argument in an analyst’s semantics, an objectively privileged present and a second temporal reality are distinct possible commitments. The definition does not decide which is required for actual time.",
   "basis": "sourced",
   "claim_ids": [
-    "MCTAGGART-1908-A-B-DETERMINATIONS",
-    "MCTAGGART-1908-SUCCESSIVE-REPLY"
+    "db614b85-9bba-5c03-a3f2-22e4baa3fccf",
+    "6f542aa2-f34d-5a1e-a2b6-8cb958560900"
   ]
 }

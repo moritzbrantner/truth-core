@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
+  "id": "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
+  "label": "The narrative attributes to Jesus a prediction that the addressed hearers will see the Son of Man…",
+  "legacy_id": "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
   "paraphrase": "The narrative attributes to Jesus a prediction that the addressed hearers will see the Son of Man seated at the right of Power and coming with heaven’s clouds.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedSonOfManPrediction",
   "definition_ids": [
-    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+    "00c88ade-17c0-52b7-ab17-858319d4ab41"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+    "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85"
   ]
 }

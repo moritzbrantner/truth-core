@@ -1,25 +1,27 @@
 {
-  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "id": "04c1d763-eeb5-5f60-84f9-66ec1d732028",
+  "label": "The existing Jesus-envoy-founding…, from Stronger, openly stipulated reading in this… and 1 more",
+  "legacy_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
   "premise_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE",
-    "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS"
+    "75910ff0-16d2-587a-8e92-fb707e3c3529",
+    "1e65befc-0bd5-5e4f-bba2-a1195ef9b4c9"
   ],
-  "conclusion_statement_id": "STMT-JESUS-ENVOY-FOUNDING-BRIDGE-FAILS",
+  "conclusion_statement_id": "ac82074b-e5b0-54bd-b938-605c2e8e0e7e",
   "inference_ids": [
-    "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE"
+    "d6d41570-06f1-5ad8-aab8-12430f2f67a2"
   ],
   "meaning": "With a real God-candidate/Jesus-envoy event, the old bridge would give target founding, immediate calibration would give direct founding, and the extra exclusion denies it. Both extra scope and nonvacuity remain explicit; the weaker calibration permits the opposite verdict.",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ],
   "strong_version_needed": {
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE": "The extra exclusion supplies the contradiction; minimal direct calibration alone can coexist with a nonempty envoy event and the bridge, as the first model witnesses."
+    "75910ff0-16d2-587a-8e92-fb707e3c3529": "The extra exclusion supplies the contradiction; minimal direct calibration alone can coexist with a nonempty envoy event and the bridge, as the first model witnesses."
   }
 }

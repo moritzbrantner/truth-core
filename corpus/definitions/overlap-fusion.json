@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OVERLAP-FUSION",
+  "id": "5a195922-93f5-5792-aeed-a532e32b1e4b",
+  "label": "OVERLAP_PROFILE_SUM3_FUSION_2: OverlapFusion family u says for every p, Overlap p u iff some x in…",
+  "legacy_id": "DEF-OVERLAP-FUSION",
   "term": "overlap-profile Sum3 fusion",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.OverlapFusion",
   "basis": "stipulative",

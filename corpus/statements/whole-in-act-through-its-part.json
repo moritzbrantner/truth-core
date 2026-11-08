@@ -1,12 +1,14 @@
 {
-  "id": "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART",
+  "id": "f1a124b6-5df4-5488-9411-5f85f9fee173",
+  "label": "A whole is in act in a respect in which one of its parts is in act",
+  "legacy_id": "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART",
   "paraphrase": "OPEN analyst premise: a whole is in act in a respect in which one of its parts is in act (an animal whose heart is hot is, in that part, actually hot). Contestable: on a strict reading a whole is so only if it is so throughout.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.WholeInActThroughItsPart",
   "definition_ids": [
-    "DEF-MOVER-PART",
-    "DEF-ACT"
+    "701c8996-8d37-546d-9610-26b758dd04e8",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

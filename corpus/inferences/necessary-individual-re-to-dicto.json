@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "id": "d433f16d-27c6-5609-a1fa-0428f340056c",
+  "label": "Stipulated mathematical configuration component, not an attributed source…, by Direct-proof (2)",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-RE-TO-DICTO",
   "input_statement_ids": [
-    "STMT-NECESSARY-INDIVIDUAL-DE-RE"
+    "b62deb46-c451-5971-a569-cc5c0f44a398"
   ],
-  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+  "output_statement_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
   "rule": "direct-proof",
   "meaning": "A fixed necessary bearer supplies a bearer at each successor. Reuse deRe_to_deDicto. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
   "assumption_statement_ids": [],

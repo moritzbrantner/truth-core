@@ -1,19 +1,21 @@
 {
-  "id": "PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "id": "a89232bc-d768-5410-b010-82ba0230a889",
+  "label": "A selected-world productive cause is a supplied Form and lacks esse…, from explicit classification",
+  "legacy_id": "PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
   "premise_statement_ids": [
-    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-FORM",
-    "STMT-SELECTED-PRODUCTIVE-FORM-CAUSERS-LACK-ESSE"
+    "ebc413af-9649-5727-bd07-61f2872eb5c7",
+    "d77aa6f6-7222-54f2-b7a3-4f0a3c095fec"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "conclusion_statement_id": "0cd70d4e-2d9a-5f28-843f-b12474c47c48",
   "inference_ids": [
-    "INF-PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION"
+    "bba00e3d-6614-527f-8ee6-70bf100b710a"
   ],
   "meaning": "Guarded interpretation transcription: productive Form plus explicit no-esse classification; separateness alone does not supply the latter.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

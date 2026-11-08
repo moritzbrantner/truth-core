@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A7-DIVERSE-UNITED-BY-CAUSE",
-  "statement_id": "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "78cc9f45-d26d-5482-bca1-e92a6de85376",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.7…: For any thing x and any two numerically distinct…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A7-DIVERSE-UNITED-BY-CAUSE",
+  "statement_id": "58445bd6-264b-53cf-8951-d052022f8e47",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.7 co., third proof: quae enim secundum se diversa sunt, non conveniunt in aliquod unum, nisi per aliquam causam adunantem ipsa",
   "interpretation": "Things diverse in themselves do not come together into some one thing except through some cause uniting them. Read as: for any two distinct components a, b of x, something unites a and b into x. Diversa is read as numerical distinctness, because the proof concludes of every composite (omne compositum), including the homogeneous wholes of the fifth proof whose parts differ only in number. 'Come together into one' is read as both being components of the one x. Nothing about the uniter's distinctness from x, its kind of causality or what it causes is part of this reading.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-UNITING-CAUSE"
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

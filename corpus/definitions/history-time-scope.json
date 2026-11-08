@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-TIME-SCOPE",
+  "id": "6ce344df-af88-5543-b255-56e3d4517b24",
+  "label": "Shared-timeline presence scopes and…: For History W B T and bearer x, Worldwise means ∀w ∃t IsAt w…",
+  "legacy_id": "DEF-HISTORY-TIME-SCOPE",
   "term": "shared-timeline presence scopes and within-world propagation",
   "definition": "For History W B T and bearer x, Worldwise means ∀w ∃t IsAt w x t; Common means ∃t ∀w IsAt w x t; AllTime means ∀w ∀t IsAt w x t. Uniform means ∀w s t, IsAt w x s → IsAt w x t. W, B and T are separate types and T is shared by all worlds. History.now provides a time even with no world or bearer inhabitants. No order or accessibility restriction is used.",
   "basis": "stipulative",

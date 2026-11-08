@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
+  "id": "31cf9a3d-d80b-5f6a-920a-e515a246df53",
+  "label": "If any nonempirical established claim exists, some such claim lies in scope; not necessarily every…",
+  "legacy_id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
   "paraphrase": "If any nonempirical established claim exists, some such claim lies in scope; not necessarily every such claim. OPEN analyst witness-transfer premise, sufficient for the guarded negative result.",
   "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.SomeNonEmpiricalWitnessInScope",
   "definition_ids": [
-    "DEF-SCIENTISM-EXISTENTIAL-COUNTEREXAMPLE-SCOPE"
+    "a84b7d0d-696d-55ed-9598-62ec8db09117"
   ]
 }

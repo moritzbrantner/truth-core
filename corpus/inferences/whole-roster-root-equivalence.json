@@ -1,10 +1,12 @@
 {
-  "id": "INF-WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "id": "57a17087-56a9-5015-80a2-854743cb802c",
+  "label": "Under actual concrete population and explicit excluded middle…, by Whole-roster-exact-strength",
+  "legacy_id": "INF-WHOLE-ROSTER-ROOT-EQUIVALENCE",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "output_statement_id": "1ef2639e-4c61-5e02-853e-752c30da65f8",
   "rule": "whole-roster-exact-strength",
   "meaning": "Under actual concrete population and explicit excluded middle, whole-roster nontrapping is equivalent to an actual concrete root of the SAME selected grounding relation existing. Import the existing actualRootExists for the forward direction; an actual root contradicts the whole-roster Trap source-free clause for the reverse direction. This audits the foundation premise’s exact strength, not independent actuality, explanatory adequacy, modal necessity or uniqueness.",
   "assumption_statement_ids": [],

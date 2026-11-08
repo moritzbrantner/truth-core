@@ -1,6 +1,8 @@
 {
-  "id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
-  "argument_id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "id": "c3b6ee71-b0b0-558d-8aa8-5a1a80db4120",
+  "label": "At least one individual exists at the selected\u2026, from Some SAME rigid individual satisfies the\u2026",
+  "legacy_id": "SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "argument_id": "a6edde9a-fc85-5774-abe1-5086fd08c976",
   "challenge_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Challenge",
   "solution_module": "TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution",
   "theorem": "TruthCore.Results.Causality.ScenarioNecessaryWitness.necessaryBearer",

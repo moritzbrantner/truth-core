@@ -1,10 +1,12 @@
 {
-  "id": "REL-EXCLUSIVE-IMMEDIATE-FOUNDING-STRENGTHENS-DIRECT-CALIBRATION",
+  "id": "fa4d98d1-a2c6-5b3e-990b-1157518322bb",
+  "label": "Stronger, openly stipulated reading in… strengthens A society counts as founded by GOD_4 as a…",
+  "legacy_id": "REL-EXCLUSIVE-IMMEDIATE-FOUNDING-STRENGTHENS-DIRECT-CALIBRATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE",
+  "subject_id": "75910ff0-16d2-587a-8e92-fb707e3c3529",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
-  "verification_result_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "object_id": "fc6eabd0-78f3-5a52-8041-73101a0e1dd5",
+  "verification_result_id": "3cd63b38-7680-5ae8-8d3d-d3fb63c19262",
   "note": "The stronger Jesus-scope reading explicitly conjoins direct calibration and exclusion of simultaneous direct/commissioned events. The positive comparison uses only the minimal calibration. The finite overlap model makes the need for the additional exclusion concrete; no full exclusion of every creature is inferred."
 }

@@ -46,7 +46,7 @@ export function TermsSection({ corpus, records, title = "Terms and senses" }: { 
                 ))}
                 {" · "}
                 <Link className="link-quiet font-mono" href={`/definitions#${disambiguation.id}`}>
-                  {disambiguation.id}
+                  {disambiguation.label ?? disambiguation.id}
                 </Link>
               </p>
             </div>

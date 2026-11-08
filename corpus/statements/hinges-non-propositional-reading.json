@@ -1,10 +1,12 @@
 {
-  "id": "STMT-HINGES-NON-PROPOSITIONAL-READING",
+  "id": "98cb409f-a883-5f05-b788-6c56ae74f159",
+  "label": "Reading of Über Gewißheit: hinges are not propositions at all but phenomenological descriptions of…",
+  "legacy_id": "STMT-HINGES-NON-PROPOSITIONAL-READING",
   "paraphrase": "Reading of Über Gewißheit (as reported; Moyal-Sharrock): hinges are not propositions at all but phenomenological descriptions of the animal certainty with which we move about in the world; they are neither beliefs nor empty propositions.",
   "definition_ids": [
-    "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY"
+    "2473bc4f-5d3b-553c-9831-28f078f4496b"
   ],
   "disambiguation_ids": [
-    "DISAMB-HINGE-STATUS"
+    "988283f3-1e54-5296-aa5e-9726e52987ab"
   ]
 }

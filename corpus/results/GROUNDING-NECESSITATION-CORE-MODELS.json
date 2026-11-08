@@ -1,6 +1,8 @@
 {
-  "id": "GROUNDING-NECESSITATION-CORE-MODELS",
-  "argument_id": "GROUNDING-NECESSITATION-CORE-MODELS",
+  "id": "007ac010-9145-5fa9-9256-b0fce5de9c24",
+  "label": "On arbitrary accessibility, actual contingency of p, boxed truth of q and boxed q→p are inconsistent",
+  "legacy_id": "GROUNDING-NECESSITATION-CORE-MODELS",
+  "argument_id": "35593191-36e7-526c-b742-22a3b655c783",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.necessitationCore",

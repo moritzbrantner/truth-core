@@ -1,7 +1,9 @@
 {
-  "id": "INF-EP-ROLE-DEFINITION-BOUNDARIES",
+  "id": "898b7736-d25d-5e1b-86fe-281ebc86d579",
+  "label": "Explicit finite interpretations distinguish ordinary support from…, by Constructive-proof",
+  "legacy_id": "INF-EP-ROLE-DEFINITION-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EPISTEMIC-REASON-DEFINITION-BOUNDARIES",
+  "output_statement_id": "68bf2a61-ebc6-5163-b16e-8bbae860be12",
   "rule": "constructive-proof",
   "meaning": "Finite structured controls: role favoring can be fallible and fail to produce belief; goal-relative force can exist at the actual preference without preference-independent force; bare production/reward need not yield an ordinary-role reason; all four calibrations can coexist; a genuine remaining profile and missing-presentation control expose the exact coverage/representation burdens. No actual normative instance is established.",
   "assumption_statement_ids": [],

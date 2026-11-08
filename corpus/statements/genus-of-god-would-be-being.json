@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GENUS-OF-GOD-WOULD-BE-BEING",
+  "id": "a314f44a-f7fd-57ed-b78c-150da76e23b0",
+  "label": "If GOD_4 were properly in some genus, that genus would be being",
+  "legacy_id": "STMT-GENUS-OF-GOD-WOULD-BE-BEING",
   "paraphrase": "If God were properly in some genus, that genus would be being.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GenusOfGodWouldBeBeingReading",
   "definition_ids": [
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

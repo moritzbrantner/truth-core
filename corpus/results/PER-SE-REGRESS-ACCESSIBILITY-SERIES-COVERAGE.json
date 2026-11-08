@@ -1,6 +1,8 @@
 {
-  "id": "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
-  "argument_id": "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+  "id": "c640f7d4-6ad2-5339-b103-fa5b3e9ad1a0",
+  "label": "For the SAME supplied per-se link, the old…, from Excluded middle as a general principle…",
+  "legacy_id": "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+  "argument_id": "806b555d-f12a-5044-b2da-315c90bb7a55",
   "challenge_module": "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.Solution",
   "theorem": "TruthCore.Results.Causality.RegressRivalCoverage.Coverage.coverage",
@@ -9,16 +11,16 @@
   "description": "Compose the EXISTING REGRESS-READINGS-COINCIDE-CLASSICALLY theorem to prove WF or an actual Nat-indexed descending series. The imported reverse direction uses approved classical choice; not a constructive-exhaustion claim or real-world causal well-foundedness.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+    "target_statement_id": "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
     "cases": [
       {
         "label": "accessibility",
-        "statement_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+        "statement_id": "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeEfficientCauseSeriesReading"
       },
       {
         "label": "actual descending series",
-        "statement_id": "STMT-INFINITE-PER-SE-CAUSE-SERIES",
+        "statement_id": "1c07b567-4021-5208-a6d2-381abdadf62d",
         "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.InfinitePerSeCauseSeriesReading"
       }
     ]

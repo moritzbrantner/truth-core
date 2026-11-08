@@ -1,13 +1,15 @@
 {
-  "id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+  "id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+  "label": "Some ordinary-role epistemic reason retains pro tanto normative force across every supplied…",
+  "legacy_id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
   "paraphrase": "Some ordinary-role epistemic reason retains pro tanto normative force across every supplied preference alternative while relevant evidence and circumstances are fixed. The actual preference is included by the profile. This open analyst existential asserts no overriding duty, agent-neutrality, factivity, infallible access, irreducibility or personal ground, and inherits no F6 approval.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
-    "DEF-EPISTEMIC-REASON-ORDINARY-ROLE",
-    "DEF-EPISTEMIC-REASON-PREFERENCE-INDEPENDENT-ROLE"
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+    "603ba4fa-53ac-5de1-b0de-393209fa8faf"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ],
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.SomePreferenceIndependentReason"
 }

@@ -1,13 +1,15 @@
 {
-  "id": "INF-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "id": "3f344cbb-dc1f-5fc2-b9fb-b787478b8c69",
+  "label": "Under the separately recorded rejection/demarcation premises, all four…, by Constructive-proof",
+  "legacy_id": "INF-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
   "input_statement_ids": [
-    "STMT-MEANING-NOT-V1-GLOBAL",
-    "STMT-MEANING-V2-EXCLUDED-TARGET",
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
-    "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
-    "STMT-MEANING-EXCLUDED-NEGATION"
+    "a7a75d73-0695-50aa-a2ef-10f43bb48aa6",
+    "ed056065-c976-5bb2-920c-779dd97f45eb",
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
+    "8addbebd-9f1c-5726-ac12-02c4272f8b01",
+    "c22d6c3f-a3c5-5835-a973-bf81114972ab"
   ],
-  "output_statement_id": "STMT-MEANING-NAMED-DEMARCATING-ACCOUNTS-FAIL",
+  "output_statement_id": "6550c86d-c9a9-5552-a9cd-99c709066bd8",
   "rule": "constructive-proof",
   "meaning": "Compose the checked V2/V3 calibration rejections, explicit not-V1 input and excluded negation to reject all four named global accounts. This yields the remainder without assuming named coverage; if coverage is additionally demanded, those inputs conflict. Joint philosophical applicability and a model of this entire bundle remain open.",
   "assumption_statement_ids": [],

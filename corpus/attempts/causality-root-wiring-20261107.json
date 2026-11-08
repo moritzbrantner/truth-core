@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-CAUSALITY-ROOT-WIRING-20261107",
+  "id": "9715d350-cbcd-57b5-bee0-5cc4fea02310",
+  "label": "Root wiring of disconnected Causality results",
+  "legacy_id": "ATTEMPT-CAUSALITY-ROOT-WIRING-20261107",
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
-    "STMT-COGITO-THOUGHT-OCCURS"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad"
   ],
   "summary": "Root wiring of disconnected Causality results (map explorations/causality-root-wiring.toml, spec specs/causality-root-wiring.toml). Eight derivations make verified conclusions that no designated-route argument consumed into premises of arguments concluding designated-route statements: the owner-approved floor STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS replaces its open halves in the two Round 4 Cogito derivations (composing inhabitedFromProduction and inhabitedFromPower), and five rival-refutation conclusions plus the Cogito retorsion yield the principles their rivals denied (excluded middle where needed; the Scotist case is constructive). Nine previously disconnected results now reach the root; the two NECESSARY-CLASSICAL-GOD-CASE route costs drop by one (STMT-CAUSERS-REQUIRE-CONCRETENESS-AT leaves them). Stated route premises stay single leaves: no route premise other than that one is established.",
   "evidence": [
-    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY",
-    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER",
-    "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
-    "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
-    "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
-    "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION",
-    "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION",
-    "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
-    "ROOT-WIRING-CONTROLS"
+    "04066382-c683-5ea1-9de9-5680ead7e6f8",
+    "cc3d9a6d-8340-53f7-9d03-13779a1f0487",
+    "e0677f8f-730a-5f01-91c7-3601a8f3a84b",
+    "e10801cc-dc1e-5595-818b-dec1b373697c",
+    "1b902c08-27b9-5b1a-9030-59b135e81d95",
+    "3da8901c-2fb8-5d01-8f4b-22da6ca0a8e5",
+    "ee08c884-bdc3-5c64-90d2-b14a676d2279",
+    "a89475b3-be1e-5df3-bbc6-6243434aa107",
+    "6e7d86fe-21e0-537d-9ad7-ca2d3a5cd010"
   ]
 }

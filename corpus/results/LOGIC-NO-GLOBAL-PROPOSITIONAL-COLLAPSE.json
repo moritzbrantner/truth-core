@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
-  "argument_id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "id": "f79ddcf6-2f42-5f55-a249-1e509705955f",
+  "label": "Inside Lean logic, ¬. A logical theorem about Prop, not about contents, agents, concrete things or…",
+  "legacy_id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "argument_id": "6a7f2ea8-64a3-5c84-905e-97f2a4ac0dd1",
   "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.Solution",
   "theorem": "TruthCore.Results.Logic.TruthNontriviality.PropositionalCollapse.noGlobalPropositionalCollapse",

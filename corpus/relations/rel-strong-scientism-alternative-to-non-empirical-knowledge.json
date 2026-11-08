@@ -1,9 +1,11 @@
 {
-  "id": "REL-STRONG-SCIENTISM-ALTERNATIVE-TO-NON-EMPIRICAL-KNOWLEDGE",
+  "id": "df858aa1-28c9-5a32-b6e7-ad045230ee94",
+  "label": "There is no established claim failing… alternative to Some established claim is not…",
+  "legacy_id": "REL-STRONG-SCIENTISM-ALTERNATIVE-TO-NON-EMPIRICAL-KNOWLEDGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-NO-NONEMPIRICAL-ESTABLISHED",
+  "subject_id": "66e84d62-f22c-5b48-bc33-4dc193de30dd",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
+  "object_id": "70118ddd-8477-5112-bc2e-10600f700f21",
   "note": "Exact negative existential endpoint under the SAME EpistemicFrame. The existing generic ScopedScientism needs independently OPEN existential witness-transfer scope coverage for this consequence; stronger all-established and pointwise coverage siblings are registered separately. Original selfapplication premises/results remain unchanged. A populated outside-scope overlap shows generic scoped scientism is compatible with nonempirical establishment. See docs/notes/scientism-meaning-rival-boundary.md."
 }

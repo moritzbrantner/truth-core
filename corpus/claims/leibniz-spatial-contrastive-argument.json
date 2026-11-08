@@ -1,17 +1,19 @@
 {
-  "id": "LEIBNIZ-III-5-7-SPATIAL-REASON",
-  "statement_id": "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE",
-  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "id": "cec9588c-0830-570c-9e2f-4fe264739851",
+  "label": "Gottfried Wilhelm Leibniz and Samuel…, A…: Leibniz argues that uniform absolute space supplies no…",
+  "legacy_id": "LEIBNIZ-III-5-7-SPATIAL-REASON",
+  "statement_id": "7dd2af35-8ea3-53b8-ba7c-8993f96aad05",
+  "source_id": "77710698-4fea-53c2-b6d7-5485434d28a7",
   "locator": "Leibniz III §§5,7",
   "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-LEIBNIZ-RELATIONAL-SPACE",
-    "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON"
+    "103154b6-9ee2-5851-9c07-1e6d9e7d0ed1",
+    "920f6d09-a72b-5803-992a-1ce4e4f161e5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIAL-DATA-IDENTITY",
-    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+    "38b56008-c4ca-5fd9-9a61-046338e87cf7",
+    "f2ec41bf-3c75-5a75-9da3-296c659d2e98"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-MANNER-OPEN",
+  "id": "a807e0c7-09b7-5fb7-a2a1-38dea17cd583",
+  "label": "Plato, Phaedo 100d: Socrates does not… supports An optional reply treats participation as a…",
+  "legacy_id": "REL-PARTICIPATION-MANNER-OPEN",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PHAEDO-100D-MANNER-OPEN",
+  "subject_id": "e2e8e3a8-43c2-5cc7-8ef8-1f788493a944",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-PRIMITIVE-REPLY",
+  "object_id": "78e274ed-b4f3-540f-a301-23d09c491376",
   "note": "Leaving the manner unspecified leaves space for this reply; it does not assert primitiveness or its adequacy."
 }

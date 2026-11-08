@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "OPPY-UNIVERSE-NO-CAUSE-2020",
+    "source_id": "5d31a819-3cb0-594c-89ad-acf4c340ac4e",
     "source_url": "https://catalogimages.wiley.com/images/db/pdf/9781119028451.excerpt.pdf",
     "retrieved_at": "2026-10-30T12:45:00Z",
     "sha256": "sha256:1c4af32eee55cf9d0728d50221ec95c13027d9d577ad561a9cc060153c1ee30e",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "OPPY-UNIVERSE-NO-CAUSE-13-22",
+      "id": "f8403e5f-2154-5aec-ac72-49b67a9f88d3",
+      "label": "Graham Oppy, The Universe Does Not Have a Cause, The Universe Does Not Have a Cause, pp.13\u201322\u2026",
+      "legacy_id": "OPPY-UNIVERSE-NO-CAUSE-13-22",
       "locator": "The Universe Does Not Have a Cause, pp.13\u201322, \u00a7\u00a7I\u2013VII (complete Oppy chapter with immediate Koons reply context on p.22)",
       "claim_locator_prefixes": [
         "\u00a7"

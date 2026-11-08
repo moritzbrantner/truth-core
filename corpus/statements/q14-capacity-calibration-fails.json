@@ -1,13 +1,15 @@
 {
-  "id": "STMT-Q14-CAPACITY-CALIBRATION-FAILS",
+  "id": "ab8d6a1d-674f-5c21-901a-fd1d8fc19cf8",
+  "label": "The scoped foreign-form-capacity calibration fails on this SAME model/scope; no global refutation…",
+  "legacy_id": "STMT-Q14-CAPACITY-CALIBRATION-FAILS",
   "paraphrase": "The scoped foreign-form-capacity calibration fails on this SAME model/scope; no global refutation of cognition theories follows.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.CapacityCalibrationFails",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-CAPACITY-CALIBRATION"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "f41b761b-7fea-537a-b03a-6a5c99f9b2e3"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

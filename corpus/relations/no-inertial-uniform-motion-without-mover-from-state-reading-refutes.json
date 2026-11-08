@@ -1,9 +1,11 @@
 {
-  "id": "REL-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING-REFUTES",
+  "id": "c3cabe3e-917c-5510-9919-88a3a8beca5d",
+  "label": "Negation of the inertial rival inertial… refutes Inertial rival: some body is being moved in…",
+  "legacy_id": "REL-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING-REFUTES",
   "subject_kind": "argument",
-  "subject_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "subject_id": "ba077630-3991-5ee1-9a94-cfa04c8c0e5a",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "object_id": "e97ade2e-b3a3-538e-95b1-131e3b7f4961",
   "note": "Checked conditional contradiction on the same predicates. Its premises are open, so it does not count for closure; it records which deeper premises the rival must reject."
 }

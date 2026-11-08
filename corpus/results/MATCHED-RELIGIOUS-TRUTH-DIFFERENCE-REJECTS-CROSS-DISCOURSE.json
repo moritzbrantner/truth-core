@@ -1,6 +1,8 @@
 {
-  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
-  "argument_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "id": "7d880f9a-ad7c-5340-a905-442092e9711b",
+  "label": "Exact negation of the stronger analyst…, from An actual selected religious sentence has…",
+  "legacy_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-CROSS-DISCOURSE",
+  "argument_id": "50c3aee7-c440-5343-aa45-d2ec1a7fa611",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Rejection.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Rejection.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.matchedDifferenceRejectsCrossDiscourse",

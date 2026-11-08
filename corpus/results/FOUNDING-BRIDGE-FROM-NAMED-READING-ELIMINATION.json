@@ -1,6 +1,8 @@
 {
-  "id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
-  "argument_id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "id": "d8c28adc-c3e4-5a6c-bf04-d2ec969056a3",
+  "label": "For any GOD_4 candidate g and society c: if Jesus founded c in the…, from named reading elimination",
+  "legacy_id": "FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION",
+  "argument_id": "4cdb2555-e8e0-594c-ae9d-6462234e082e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Elimination.namedElimination",

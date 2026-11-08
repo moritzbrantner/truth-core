@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
+  "id": "03e60733-2344-5ed7-a05b-6c1a021133fd",
+  "label": "The sufficient-reason demand is not restricted to reasons known by human inquirers",
+  "legacy_id": "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
   "paraphrase": "The sufficient-reason demand is not restricted to reasons known by human inquirers.",
   "definition_ids": [
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+    "f742be24-23e4-580e-b670-b509534745c2"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

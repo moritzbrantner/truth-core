@@ -8,13 +8,8 @@ fi
 
 RESULT_ID="$1"
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
-CONFIG="$ROOT/results/$RESULT_ID/comparator.json"
+CONFIG="$(python3 "$ROOT/scripts/result_configs.py" "$RESULT_ID")"
 WORK="${TRUTH_CORE_VERIFIER_HOME:-$HOME/.cache/truth-core-verifier}"
-
-if [[ ! -f "$CONFIG" ]]; then
-  echo "unknown result or missing Comparator config: $RESULT_ID" >&2
-  exit 2
-fi
 
 # Reject any permitted axiom outside docs/axiom-policy.md before running Comparator.
 python3 - "$ROOT" "$CONFIG" <<'PY'

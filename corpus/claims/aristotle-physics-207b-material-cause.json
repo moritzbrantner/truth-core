@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-INFINITE-MATERIAL-CAUSE-A",
-  "statement_id": "STMT-INFINITE-MATERIAL-CAUSE-PRIVATION",
-  "source_id": "ARIST-PHYS",
+  "id": "76dac1da-b14a-5c82-a8cc-0b93a28324f5",
+  "label": "Aristotle, Physics III.7, 207b34-208a4: Within Aristotle's four-cause scheme the infinite is a…",
+  "legacy_id": "ARIST-PHYS-207B-INFINITE-MATERIAL-CAUSE-A",
+  "statement_id": "daf3e6e2-e6df-5850-8f5c-d0badc0c1f77",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b34-208a4",
   "interpretation": "Causal classification: in the four-cause framework Aristotle assigns infinity the role of matter, calls its being privation, identifies the underlying subject as continuous and sensible, and again treats it as contained rather than containing.",
   "status": "formalized"

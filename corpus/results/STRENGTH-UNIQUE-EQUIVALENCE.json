@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-UNIQUE-EQUIVALENCE",
-  "argument_id": "STRENGTH-UNIQUE-EQUIVALENCE",
+  "id": "e3aea651-fe22-5812-8e64-becbe2c366e8",
+  "label": "For every supplied type and predicate P, unique existence holds exactly when existence and at most…",
+  "legacy_id": "STRENGTH-UNIQUE-EQUIVALENCE",
+  "argument_id": "3256e69d-25fb-592f-98de-c8e054223356",
   "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthUnique.equivalence",

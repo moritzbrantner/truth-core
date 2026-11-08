@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED",
-  "statement_id": "STMT-AQUINAS-MATHEMATICALS-ABSTRACTED-BY-INTELLECT-NOT-IN-RE",
-  "source_id": "AQUINAS-ST",
+  "id": "b037c41e-7932-5864-8c81-87e519c7e004",
+  "label": "Thomas Aquinas, Summa theologiae I q.85 a.1…: Numbers, dimensions and figures can be considered by…",
+  "legacy_id": "AQUINAS-ST-I-Q85-A1-AD2-MATHEMATICALS-ABSTRACTED",
+  "statement_id": "117fc030-319d-5509-a563-5fcff047177b",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.85 a.1 ad 2 [32018]: quantitates, ut numeri et dimensiones et figurae ... possunt considerari absque qualitatibus sensibilibus ... Plato ... omnia quae diximus abstrahi per intellectum, posuit abstracta esse secundum rem",
   "interpretation": "ad 2: quantities such as numbers, dimensions and figures can be considered by the intellect without sensible qualities, i.e. abstracted from sensible matter, though not from common intelligible matter; Plato, not considering the two modes of abstraction, 'omnia quae diximus abstrahi per intellectum, posuit abstracta esse secundum rem'. ad 1 (same passage) adds that to abstract by simple consideration what is not abstract secundum rem involves no falsity, because 'alius sit modus intelligentis in intelligendo, quam modus rei in existendo'. Read here: what the intellect abstracts, numbers included, is not thereby abstract in reality, and Plato's contrary is rejected. Not read: whether quantity itself exists in re as an accident of substance (Aquinas holds it does), or any claim about sets.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "attribution": "The passage states that numbers, dimensions and figures can be considered by the intellect apart from sensible qualities, and that Plato erred in positing that what the intellect abstracts is abstract in reality, which is the premise."
 }

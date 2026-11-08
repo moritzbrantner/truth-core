@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
-  "argument_id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "id": "56015ea9-b23d-5bce-a2fe-f9d142e2e1b4",
+  "label": "For arbitrary worlds, individuals, Kripke frames, bearers and evaluation worlds, the stipulated…",
+  "legacy_id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "argument_id": "0d19f267-6a71-5d61-afbb-644d07b3bae6",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.FullFilterRecoversScott.checks",

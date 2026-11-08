@@ -1,10 +1,12 @@
 {
-  "id": "REL-EPISTEMIC-INDEPENDENT-ROLE-STRENGTHENS-ORDINARY",
+  "id": "fe3b7ff6-7f36-5994-a7eb-b232f594d937",
+  "label": "Some ordinary-role epistemic reason… strengthens Some subject, consideration and attitude…",
+  "legacy_id": "REL-EPISTEMIC-INDEPENDENT-ROLE-STRENGTHENS-ORDINARY",
   "subject_kind": "statement",
-  "subject_id": "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS",
+  "subject_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "object_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "note": "The stronger existing analyst existential includes an ordinary-role reason with universal force. The registered result forgets only force; no F6 approval is transferred and no comparison of the two raw attribution-definition calibrations is inferred.",
-  "verification_result_id": "EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY"
+  "verification_result_id": "dbdb04d7-79b4-5c34-98a6-38efb6382f7b"
 }

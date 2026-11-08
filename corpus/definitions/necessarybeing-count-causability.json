@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NB-COUNT-CAUSABILITY",
+  "id": "688f2e05-6390-5460-9bd0-190a819df1fa",
+  "label": "Possible cause of an…: The uninterpreted predicate causableAtLeast: Nat → Prop represents that it…",
+  "legacy_id": "DEF-NB-COUNT-CAUSABILITY",
   "term": "possible cause of an at-least-n-contingents situation (A7 abstract representation)",
   "definition": "The uninterpreted predicate `causableAtLeast : Nat → Prop` represents that it is possible for something to cause a situation with at least n contingent things. It is not a count of actually existing things and does not identify individual witnesses, possible worlds, temporal precedence, or the cause. Monotonicity and count-transfer are not built into it.",
   "basis": "stipulative",

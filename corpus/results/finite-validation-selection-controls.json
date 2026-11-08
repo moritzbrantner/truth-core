@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-VALIDATION-SELECTION-CONTROLS",
-  "argument_id": "FINITE-VALIDATION-SELECTION-CONTROLS",
+  "id": "daa8abba-7e3e-542b-aac8-d8bfa1b9b0ed",
+  "label": "On a genuine uniform four-point probability space with truthful labels constantly equal to Boolean…",
+  "legacy_id": "FINITE-VALIDATION-SELECTION-CONTROLS",
+  "argument_id": "2f89bb45-b7fc-56c7-bfce-da56bcbbb2b9",
   "challenge_module": "TruthCore.Results.Logic.FiniteValidationLogic.Challenge",
   "solution_module": "TruthCore.Results.Logic.FiniteValidationLogic.Solution",
   "theorem": "TruthCore.Results.Logic.FiniteValidationLogic.selectionControls",

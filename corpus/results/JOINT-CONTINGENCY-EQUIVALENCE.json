@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-CONTINGENCY-EQUIVALENCE",
-  "argument_id": "JOINT-CONTINGENCY-EQUIVALENCE",
+  "id": "a47598b0-3a92-5cb0-8549-0278a0f1ed17",
+  "label": "Under classical logic, the SAME fixed selected conjunction is contingent exactly when it is…",
+  "legacy_id": "JOINT-CONTINGENCY-EQUIVALENCE",
+  "argument_id": "6c6afec9-c7e5-5da5-af95-fbdf535cebab",
   "challenge_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointContingencyLocalization.Solution",
   "theorem": "TruthCore.Results.Explanation.JointContingencyLocalization.equivalence",

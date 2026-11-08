@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+  "id": "4f194c7b-c2f8-5701-b5e7-4c23d2d5a1a2",
+  "label": "No self-contained borrowing of actual…: The existing Escape cut principle holds for the recorded…",
+  "legacy_id": "DEF-ACTUAL-CONCRETE-BORROWING-ESCAPE",
   "term": "no self-contained borrowing of actual concrete existence",
   "definition": "The existing Escape cut principle holds for the recorded actual-concrete existential-grounding graph, with intrinsic set to its sources and every roster member active: each nonempty set contains a source or contains the effect of an admitted supplier whose whole contributor set lies outside it. This is a substantive no-self-contained-borrowing premise, not implied by actual existence, local coherence, or supplying merely some member.",
   "basis": "stipulative",

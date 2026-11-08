@@ -1,10 +1,12 @@
 {
-  "id": "ARIST-MET-1003A-BEING-QUA-BEING-B",
-  "statement_id": "STMT-BEING-QUA-BEING-DISTRIBUTIVE",
-  "source_id": "ARIST-MET",
+  "id": "f2515a00-ae3a-5ff1-8333-02f55c4e9232",
+  "label": "Aristotle, Metaphysics IV.1, 1003a21-26: One inquiry covers every being as being and what belongs…",
+  "legacy_id": "ARIST-MET-1003A-BEING-QUA-BEING-B",
+  "statement_id": "7bdaea11-832a-5977-a534-77d3ab175f96",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.1, 1003a21-26",
   "interpretation_group": "ARIST-MET-1003A-BEING-QUA-BEING",
-  "interpretation_of": "ARIST-MET-1003A-BEING-QUA-BEING-A",
+  "interpretation_of": "2c0a42e2-62fa-57d7-9d0e-33d71507ab1b",
   "interpretation": "Distributive-scope reading: one inquiry studies every entity insofar as it is being, and the attributes that belong to each such entity in its own right. This represents the passage's universal-scope contrast with particular sciences, while keeping it separate from the formal-object reading and making no claim that being is univocal or that per se means necessity or essence.",
   "status": "formalized"
 }

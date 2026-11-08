@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-EMPTY-TRUTHMAKER-ETI",
+  "id": "82dc75eb-3532-5dd4-abcb-4cca2d0c8e60",
+  "label": "Exact accessible-world E/T/I core from #554, with all single deletions factive and finite",
+  "legacy_id": "CONFIG-EMPTY-TRUTHMAKER-ETI",
   "description": "Exact accessible-world E/T/I core from #554, with all single deletions factive and finite. Status/minimality computed from live certificates; no metaphysical premise is established.",
-  "seed_statement_id": "STMT-EMPTY-TRUTHMAKER-E",
+  "seed_statement_id": "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
   "semantics": {
     "id": "empty-truthmaker-accessible-single-negative",
     "logic": "Constructive Lean; zero axioms. Factivity is an independent fourth displayed policy retained by every deletion model, not required for contradiction.",
@@ -47,22 +49,14 @@
       "a"
     ],
     "applications": {
-      "STMT-EMPTY-TRUTHMAKER-E": [
+      "99e8ebc7-5707-5116-bc97-a1ea23bc88d3": [
         "W",
         "B",
         "F",
         "present",
         "a"
       ],
-      "STMT-EMPTY-TRUTHMAKER-T": [
-        "W",
-        "B",
-        "F",
-        "present",
-        "makes",
-        "a"
-      ],
-      "STMT-EMPTY-TRUTHMAKER-I": [
+      "711d5039-6e3e-5166-bcc0-ec0467806922": [
         "W",
         "B",
         "F",
@@ -70,7 +64,15 @@
         "makes",
         "a"
       ],
-      "STMT-EMPTY-TRUTHMAKER-FACTIVITY": [
+      "3ea2491f-ba65-5783-b923-d931254eb3c8": [
+        "W",
+        "B",
+        "F",
+        "present",
+        "makes",
+        "a"
+      ],
+      "8347a59b-76ca-5873-9dbf-24a9ea58078d": [
         "W",
         "B",
         "F",
@@ -85,52 +87,52 @@
     {
       "id": "exact-eti-core",
       "statement_ids": [
-        "STMT-EMPTY-TRUTHMAKER-E",
-        "STMT-EMPTY-TRUTHMAKER-T",
-        "STMT-EMPTY-TRUTHMAKER-I"
+        "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+        "711d5039-6e3e-5166-bcc0-ec0467806922",
+        "3ea2491f-ba65-5783-b923-d931254eb3c8"
       ]
     },
     {
       "id": "eti-with-factivity",
       "statement_ids": [
-        "STMT-EMPTY-TRUTHMAKER-E",
-        "STMT-EMPTY-TRUTHMAKER-T",
-        "STMT-EMPTY-TRUTHMAKER-I",
-        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+        "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+        "711d5039-6e3e-5166-bcc0-ec0467806922",
+        "3ea2491f-ba65-5783-b923-d931254eb3c8",
+        "8347a59b-76ca-5873-9dbf-24a9ea58078d"
       ]
     },
     {
       "id": "omit-e",
       "statement_ids": [
-        "STMT-EMPTY-TRUTHMAKER-T",
-        "STMT-EMPTY-TRUTHMAKER-I",
-        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+        "711d5039-6e3e-5166-bcc0-ec0467806922",
+        "3ea2491f-ba65-5783-b923-d931254eb3c8",
+        "8347a59b-76ca-5873-9dbf-24a9ea58078d"
       ]
     },
     {
       "id": "omit-t",
       "statement_ids": [
-        "STMT-EMPTY-TRUTHMAKER-E",
-        "STMT-EMPTY-TRUTHMAKER-I",
-        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+        "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+        "3ea2491f-ba65-5783-b923-d931254eb3c8",
+        "8347a59b-76ca-5873-9dbf-24a9ea58078d"
       ]
     },
     {
       "id": "omit-i",
       "statement_ids": [
-        "STMT-EMPTY-TRUTHMAKER-E",
-        "STMT-EMPTY-TRUTHMAKER-T",
-        "STMT-EMPTY-TRUTHMAKER-FACTIVITY"
+        "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+        "711d5039-6e3e-5166-bcc0-ec0467806922",
+        "8347a59b-76ca-5873-9dbf-24a9ea58078d"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE"
+    "715d32ab-6d89-56ab-af36-ff78fd67c7eb"
   ],
   "implication_result_ids": [],
   "model_bindings": [
     {
-      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-E",
+      "model_id": "e682683e-a981-5f6b-b8fd-9f28579226ba",
       "parameters": {
         "W": "W",
         "B": "B",
@@ -141,7 +143,7 @@
       }
     },
     {
-      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-T",
+      "model_id": "fdeabe98-955c-5e91-81d6-6911f4a76010",
       "parameters": {
         "W": "W",
         "B": "B",
@@ -152,7 +154,7 @@
       }
     },
     {
-      "model_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-I",
+      "model_id": "bf42820a-efb4-523b-945f-9422e98f2039",
       "parameters": {
         "W": "W",
         "B": "B",

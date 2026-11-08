@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FITCH-RELEVANT-STABILITY",
+  "id": "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+  "label": "Stability of relevant actual knowledge: KnowledgeStable c p is the explicit…",
+  "legacy_id": "DEF-FITCH-RELEVANT-STABILITY",
   "term": "stability of relevant actual knowledge",
   "definition": "KnowledgeStable c p is the explicit double-negation-elimination implication for Kp at the selected actual world. It is sufficient to upgrade DoubleNegatedKnowledge to TruthKnown, and does not assume unrestricted excluded middle or any actual knowledge witness. Constructive no-unknown truth and actual positive knowledge are distinguished.",
   "basis": "stipulative",

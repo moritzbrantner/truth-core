@@ -1,13 +1,15 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
+  "id": "9ef948d9-29d9-56b8-a06c-75d1baa3222f",
+  "label": "Every first mover moved by none is the maximal being: it is identical with…, by Direct-proof",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-MAXIME-ENS-IDENTITY",
   "input_statement_ids": [
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-MAXIME-ENS-IS-GOD",
-    "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "957a71fe-ba7e-5633-bef2-f5d287362fc5",
+    "777646a5-3f40-5508-b59a-5e019cf2edce"
   ],
-  "output_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS",
+  "output_statement_id": "46326b43-ec14-551a-8eaf-3230f57572c6",
   "rule": "direct-proof",
   "meaning": "Separate sufficient interface under explicit DecidableEq Being; neither instance is independently established. Retain all original nonlogical premises and the same conclusion. Naming is one-way and does not supply a maximum; identity relates supplied witnesses and supplies neither witness. No necessity, minimality, strict-strength or philosophical premise discharge is claimed.",
   "assumption_statement_ids": [],

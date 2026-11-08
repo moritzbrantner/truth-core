@@ -1,15 +1,17 @@
 {
-  "id": "PLOTINUS-V4-FIRST-UNIQUE",
-  "statement_id": "STMT-PLOTINIAN-FIRST-UNIQUE",
-  "source_id": "PLOTINUS-ENNEADS",
+  "id": "e5ad16ec-48dd-56ff-aa82-bdb9262a7bdb",
+  "label": "Plotinus, Enneads V.4.1, τὸ δὴ τοιοῦτον ἓν…: There can be only one first principle of the…",
+  "legacy_id": "PLOTINUS-V4-FIRST-UNIQUE",
+  "statement_id": "39946341-17c6-5b19-b84d-8dafce9acde0",
+  "source_id": "4e88cb1d-0567-56e7-8861-0e4669f50036",
   "locator": "V.4.1, τὸ δὴ τοιοῦτον ἓν μόνον ... οὐχ ἓν ἂν εἴη τὰ ἄμφω",
   "interpretation": "Source reading recorded in prose only. Records Plotinus’s uniqueness conclusion and his reason that another such principle would leave the pair not one. It does not advertise a verified inference from individual simplicity or refute plural simples without the source’s stronger unity and global-priority commitments.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

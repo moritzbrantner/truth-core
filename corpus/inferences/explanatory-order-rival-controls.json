@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "id": "a645fb17-166c-5bfd-a436-e8e9a9d329b5",
+  "label": "Populated moral scope permits both raw explanatory directions when…, by Constructive-proof",
+  "legacy_id": "INF-EXPLANATORY-ORDER-RIVAL-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "output_statement_id": "89de23ee-8d88-52a9-b2e9-dad5049b69ae",
   "rule": "constructive-proof",
   "meaning": "Exact populated-both, empty-both and populated-neither controls retain asymmetry status and moral witnesses. They block inferring preferred order merely by refuting a stronger raw account.",
   "assumption_statement_ids": [],

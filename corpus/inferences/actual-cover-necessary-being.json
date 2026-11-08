@@ -1,20 +1,22 @@
 {
-  "id": "INF-ACTUAL-COVER-NECESSARY-BEING",
+  "id": "9b85f775-9322-5440-931d-86024117ad83",
+  "label": "At least one individual exists at the selected world and at…, by Conditional-actual-cover-and…",
+  "legacy_id": "INF-ACTUAL-COVER-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-COVER",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-CAUSE-NOT-PART-OF-EFFECT-AT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "d396a866-820f-5d6a-a831-9adbb1e4dd7a",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "8361dfab-7f97-5fa5-9458-af40bc84c52b"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "conditional-actual-cover-and-causal-nonparthood-scoped-reductio",
   "meaning": "Under scoped denial of bare actual NE, selected-world reflexivity actualizes every proposed necessary candidate and so makes every candidate have no necessary parts. Existing owner population supplies an actual member; conditional selected-family cover formation supplies an actual cover there. The unregistered selected-cover tail uses strict causal coverage to choose a cause, actual endpoints to actualize it, and the scoped classification to put it in the SAME covered family. Existing Covers places the cause below its effect, contradicting the explicit causal nonparthood policy. Discharge the scoped denial classically to SOME bare actual NE. No Fusion, no-extra-parts clause, common-part nonoverlap, actual-part law or source/default warrant is inferred.",
   "assumption_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ],
   "discharged_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ]
 }

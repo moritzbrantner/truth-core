@@ -1,19 +1,21 @@
 {
-  "id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
+  "id": "4ec9be0b-3849-501b-a1a0-f0b2907ec1d7",
+  "label": "Necessary-being node, possibilist box reading in…, from Necessary-being node, possibilist box… (2)",
+  "legacy_id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
   "premise_statement_ids": [
-    "STMT-NECESSARY-ROOT-BOX-S5"
+    "7089ce3d-3855-5bfb-a3c3-c202e8ff458a"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-ROOT-BOX-S4",
+  "conclusion_statement_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
   "inference_ids": [
-    "INF-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4"
+    "ba02b61d-a449-5fd0-b6de-4b4645a654cd"
   ],
   "meaning": "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4.",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-NECESSARY-IN-SENSE"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

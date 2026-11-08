@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-RETAINED-DUTY-NEVEROWED",
+  "id": "360c3c1c-db0c-5c3f-b5e0-5984f74709f9",
+  "label": "Closed dated/action-indexed neverOwed interpretation",
+  "legacy_id": "MODEL-RETAINED-DUTY-NEVEROWED",
   "description": "Closed dated/action-indexed neverOwed interpretation. Values certify only the explicit Case fields and policies, not moral truth or real-world feasibility. See retained-duty controls and existing deontology note for omission and vacuity boundaries.",
   "vocabulary": "RETAINED-DUTY",
   "lean_declaration": "TruthCore.Modal.RetainedDuty.neverOwed",
@@ -30,7 +32,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+      "statement_id": "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
       "value": "violates",
       "arguments": [
         "s"
@@ -38,7 +40,7 @@
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.neverOwed0"
     },
     {
-      "statement_id": "STMT-RETAINED-DUTY-PRESENT-INABILITY",
+      "statement_id": "84d6dde8-a359-52cc-9411-714592cc8172",
       "value": "satisfies",
       "arguments": [
         "s"
@@ -46,7 +48,7 @@
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.neverOwed1"
     },
     {
-      "statement_id": "STMT-RETAINED-DUTY-PRESENT-OIC",
+      "statement_id": "257ca27d-fdf4-5cb1-873d-3970cab1ad6b",
       "value": "satisfies",
       "arguments": [
         "s"
@@ -54,7 +56,7 @@
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.neverOwed2"
     },
     {
-      "statement_id": "STMT-RETAINED-DUTY-INITIAL-DUTY",
+      "statement_id": "4d4355d0-a338-59fc-af25-33c5c195fea8",
       "value": "violates",
       "arguments": [
         "s"
@@ -62,7 +64,7 @@
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.neverOwed3"
     },
     {
-      "statement_id": "STMT-RETAINED-DUTY-RETENTION",
+      "statement_id": "d4e0402d-5848-57b8-97f5-43f5fe12beb3",
       "value": "satisfies",
       "arguments": [
         "s"
@@ -70,7 +72,7 @@
       "theorem": "TruthCore.Results.Modal.RetainedDuty.Evaluations.neverOwed4"
     },
     {
-      "statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+      "statement_id": "2cc0cc30-8404-5681-94ec-b5cf6e85a93f",
       "value": "satisfies",
       "arguments": [
         "s"

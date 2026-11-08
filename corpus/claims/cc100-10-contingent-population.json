@@ -1,15 +1,17 @@
 {
-  "id": "CC100-10-CONTINGENT-POPULATION",
-  "statement_id": "STMT-CC100-10-CONTINGENT-POPULATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "577b961a-683e-5319-a2b6-5b82742a795f",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: There are contingent things",
+  "legacy_id": "CC100-10-CONTINGENT-POPULATION",
+  "statement_id": "f0502fa1-deea-54e8-bdb2-a8aae16439a6",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.23, argument #10 simplified, step 1",
   "interpretation": "Preserve the explicit asserted population premise, rather than treating the later guarded cosmos conditional as providing its own antecedent. No exact existing bare population statement matched the source; typed cogito/member certificates have additional semantics. No concrete population, beginning or actual grounded individual is silently added. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+    "2c84f385-fd4b-5e7a-9d0d-84476104cf80"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

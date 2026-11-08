@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a7c.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A7-DESCENT",
+      "id": "f3b21ac1-01f6-5e0f-847f-278484f88506",
+      "label": "Unattributed website author, Necessary Being interactive survey, A7c, numbered finite-descent…",
+      "legacy_id": "NECESSARYBEING-A7-DESCENT",
       "locator": "A7c, numbered finite-descent argument 1–7 and modal suffix",
       "claim_locator_prefixes": [
         "A7c,"

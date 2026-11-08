@@ -1,11 +1,13 @@
 {
-  "id": "INF-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "id": "e04e2c58-1270-53c3-8f41-7b25c50783c2",
+  "label": "Whatever is in potency in no respect is eternal in Boethius' typed sense: it…, by Direct-proof",
+  "legacy_id": "INF-IMMUTABLE-IS-BOETHIAN-ETERNAL",
   "input_statement_ids": [
-    "STMT-SUCCESSION-REQUIRES-POTENCY",
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
-    "STMT-PURE-ACT-LIVES"
+    "ebccb272-1275-5558-948a-4485504229a0",
+    "812b52b3-de7d-5982-93a9-e46b6e169616",
+    "1773079b-236a-5f7d-b1e9-fb8f23202341"
   ],
-  "output_statement_id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "output_statement_id": "e874fe7d-e1a9-544c-8c8c-b8b6dce934d3",
   "rule": "direct-proof",
   "meaning": "Let x be in potency in no respect. If its life had succession (STMT-SUCCESSION-REQUIRES-POTENCY) or began or ended (STMT-LIFE-BOUNDARY-REQUIRES-POTENCY), x would be in potency in some respect, contradicting pure act; so its life is all at once and interminable. By STMT-PURE-ACT-LIVES it lives at some time. These are the three conjuncts of DEF-BOETHIAN-ETERNAL.",
   "assumption_statement_ids": [],

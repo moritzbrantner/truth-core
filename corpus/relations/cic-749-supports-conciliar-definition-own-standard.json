@@ -1,9 +1,11 @@
 {
-  "id": "REL-CIC-749-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "10d76073-2b13-576c-8ce4-2545a77a8026",
+  "label": "Catholic Church, Codex Iuris Canonici… supports In the Catholic practice, whatever an…",
+  "legacy_id": "REL-CIC-749-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "claim",
-  "subject_id": "CIC-749-COUNCIL-TEACHERS-AND-JUDGES",
+  "subject_id": "07af4e47-5b5c-5ad9-9b16-e3b89ed33d33",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "Can. 749 §2 makes bishops in an ecumenical council teachers and judges of faith for the universal Church when they declare a doctrine to be held definitively. This bears on the bridge: the practice's own law gives conciliar declarations normative standing. It does not show that every canon of Dei Filius is such a declaration (§3: nothing counts as infallibly defined unless that is manifest), nor that normative standing is endorsement 'by the practice's own standards' in the grammatical sense of DEF-PRACTICE-OWN-STANDARD."
 }

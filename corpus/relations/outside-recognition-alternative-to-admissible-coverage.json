@@ -1,9 +1,11 @@
 {
-  "id": "REL-OUTSIDE-RECOGNITION-ALTERNATIVE-TO-ADMISSIBLE-COVERAGE",
+  "id": "3e3e207f-9272-51ed-8b80-4ece013e15b6",
+  "label": "An additional relevant situation exists… alternative to For each GOD_4 candidate with the…",
+  "legacy_id": "REL-OUTSIDE-RECOGNITION-ALTERNATIVE-TO-ADMISSIBLE-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-OUTSIDE-ADMISSIBLE-RECOGNITION",
+  "subject_id": "1e7f04ef-d66b-50be-82e7-4151990719c0",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ADMISSIBLE-RECOGNITION-COVERAGE",
+  "object_id": "a1f0b628-af2f-5e58-83ed-5e17ac8ab63b",
   "note": "An actual relevant God/capability/correct-recognition witness exists outside the admitted subset and no admitted witness exists. It contradicts coverage in the fixed candidate carrier; it is not an asserted census of real possible situations."
 }

@@ -1,22 +1,24 @@
 {
-  "id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "id": "443440e6-a0b8-5f25-9511-cd9021264cf4",
+  "label": "Weak institutional transfer: whenever Jesus holds…, from For any being g: if Jesus holds a mandate…",
+  "legacy_id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
   "premise_statement_ids": [
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"
+    "820771a7-1173-510f-88ec-445b203fb1fd"
   ],
-  "conclusion_statement_id": "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
+  "conclusion_statement_id": "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
   "inference_ids": [
-    "INF-INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT"
+    "e0067ac0-a188-52d6-8d23-f552f8b0b7e4"
   ],
   "meaning": "Project only the governing-event institutional consequence needed to confront the message rival. The old teaching component is unnecessary for this target.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ],
   "strong_version_needed": {
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES": "This sole-premise projection certifies the registered strong-to-weak order; consequence arguments use the needed weak component."
+    "820771a7-1173-510f-88ec-445b203fb1fd": "This sole-premise projection certifies the registered strong-to-weak order; consequence arguments use the needed weak component."
   }
 }

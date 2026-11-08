@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A9-ALT-POSSIBLE-IMPOSSIBILITY",
-  "statement_id": "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "6bf9dace-68c9-542f-935b-0b54aab9e2aa",
+  "label": "Unattributed website author, Necessary…: If a situation can be impossible, it is actually impossible",
+  "legacy_id": "NB-SURVEY-A9-ALT-POSSIBLE-IMPOSSIBILITY",
+  "statement_id": "ebe396a1-6118-57c8-8199-2b814d0dee2c",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A9C2, modal paragraph following step 8, with A9P3B question context",
   "interpretation": "Reuse the existing A2 alternate possible-impossibility report. P3B and the C2 modal paragraph exactly match the previously recorded alternate meaning; this is not actual assent, independent possibility truth or a new verified S5/frame principle. The C2 eight-step prefix exactly matches main A9 and reuses its existing NT/classification readings without new causal availability or a duplicate proof.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-ALT-IMPOSSIBILITY-REPORT",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abdbe5ff-2931-5574-bab7-f36e05f57c7c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "ATTEMPT-COUNTERPART-NECESSITY-CONTROLS",
+  "id": "da261634-d970-57df-beab-f4c0dffd5034",
+  "label": "Closed stipulative controls: total functional injective surjective singleton correspondence…",
+  "legacy_id": "ATTEMPT-COUNTERPART-NECESSITY-CONTROLS",
   "statement_ids": [
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-COUNTERPART-NECESSITY-CONTROLS"
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "623b4201-ccb7-56da-99b2-d8d236ec96ce"
   ],
   "date": "2026-10-28",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Closed stipulative controls: total functional injective surjective singleton correspondence between two differently populated worlds yields counterpart necessity but no rigid necessary being or identity bridge. Missing links preserve functionality/injectivity but lose counterpart necessity; many-to-one links preserve totality/functionality and counterpart necessity for a rigidly contingent bearer; nontransitive two-way cross-links omit reflexive links and lose counterpart necessity. No historical attribution, canonical identity replacement, metaphysical possibility or root-premise discharge. Rejected inference: even a bijection between each pair of world-local singleton populations cannot give Lean equality. IdentityBridge is sufficient for rigid recovery by substitution, not independently defended and not necessary for arbitrary relations (extra off-domain edges can violate it). Source attribution paused; no claims created. Remaining philosophical gap: warrant for whichever identity/counterpart semantics is adopted.",
   "evidence": [
-    "COUNTERPART-NECESSITY-CONTROLS"
+    "1c58cd1a-022c-52b2-8bad-a55c1d2db1ce"
   ]
 }

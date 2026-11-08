@@ -1,15 +1,17 @@
 {
-  "id": "CC100-6-CONDITIONAL-GOD-EXISTENCE",
-  "statement_id": "STMT-CC100-6-CONDITIONAL-GOD-EXISTENCE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "f40d34da-0f39-52ed-a15a-eefb97ac1661",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If everything that exists has an explanation, the…",
+  "legacy_id": "CC100-6-CONDITIONAL-GOD-EXISTENCE",
+  "statement_id": "0b6cbe9a-df63-5af6-a5f0-8984050945a1",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.12, argument #6, step 5 under steps 1–4",
   "interpretation": "The displayed conclusion is retained conditionally on its philosophical premises. It is not independently established God existence, a new formal result or an existence proof from an undefined label alone. The explanation-object and God-bearer interpretation remains OPEN; no particular existing necessary witness is silently renamed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+    "db230236-8eb0-5263-a930-94948bc9f6a5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

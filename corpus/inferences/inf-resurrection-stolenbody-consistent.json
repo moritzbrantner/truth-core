@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-STOLENBODY-CONSISTENT",
+  "id": "bfaf8ca4-19ba-5e0e-ab6e-3ca47155d5f4",
+  "label": "The limited StolenBody pilot bundle is jointly satisfiable with E0–E5, by Constructive-model",
+  "legacy_id": "INF-RESURRECTION-STOLENBODY-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-STOLENBODY-CONSISTENT",
+  "output_statement_id": "e3c39aad-5366-5ea7-91b7-4b43b9014bf8",
   "rule": "constructive-model",
   "meaning": "Exhibit model and check every conjunct of the advertised limited theory bundle.",
   "assumption_statement_ids": [],

@@ -1,22 +1,24 @@
 {
-  "id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "id": "9bca2274-980c-5827-a5cc-492e06f81c86",
+  "label": "Every being reaches, by a finite chain of…, from Excluded middle as a general principle… and 2 more",
+  "legacy_id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-FINITE-GROUNDING-HAS-SOURCE",
-    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "c31d0473-124b-506e-aaa8-62f87391b074",
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9"
   ],
-  "conclusion_statement_id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
+  "conclusion_statement_id": "99b1a274-ce1a-5019-9b0f-5cc6e70b07dc",
   "inference_ids": [
-    "INF-BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING"
+    "95e3b3c7-8479-5259-9e94-dd8e933ca1f9"
   ],
   "meaning": "Bridge (#401): the secunda via's no-regress premise (STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES: the per se link CausesAsCaused is well-founded), with excluded middle (STMT-EXCLUDED-MIDDLE) and the finite-grounding theorem of TruthCore.Causality.EssentialPower (STMT-FINITE-GROUNDING-HAS-SOURCE), yields that every being reaches by a finite per se path a being with no per se cause upstream (STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED). By well-founded induction every being is finitely grounded in the inductive sense, with \"intrinsic\" read as \"has no per se cause\": excluded middle splits on whether it has an upstream per se cause; if so it borrows from that cause, which is grounded by the induction hypothesis. The finite-grounding theorem then gives the finite path. Only the path structure of FinitelyGroundedPower is used, not a power semantics (DISAMB-CAUSAL-POWER-GROUNDING).",
   "definition_ids": [
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK"
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-CAUSAL-SERIES"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
   ]
 }

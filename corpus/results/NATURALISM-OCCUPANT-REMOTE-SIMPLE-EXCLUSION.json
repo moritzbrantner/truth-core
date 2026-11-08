@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
-  "argument_id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "id": "533d45e9-03d9-5977-8cf0-d215d0cb1682",
+  "label": "No candidate existing at the…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 4 more",
+  "legacy_id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "argument_id": "89ee4e80-03e3-57e0-b290-ea974075f771",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Occupant.occupantNoExistingSimpleRemote",

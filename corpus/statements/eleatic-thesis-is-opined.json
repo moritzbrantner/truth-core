@@ -1,9 +1,11 @@
 {
-  "id": "STMT-ELEATIC-THESIS-IS-OPINED",
+  "id": "e7354ea4-d864-5b3f-b691-01fe745788bf",
+  "label": "The Eleatic thesis is held: someone opines that nothing is moved",
+  "legacy_id": "STMT-ELEATIC-THESIS-IS-OPINED",
   "paraphrase": "The Eleatic thesis is held: someone opines that nothing is moved.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.EleaticThesisIsOpinedReading",
   "definition_ids": [
-    "DEF-OPINING",
-    "DEF-MOTION-AS-REDUCTION"
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ]
 }

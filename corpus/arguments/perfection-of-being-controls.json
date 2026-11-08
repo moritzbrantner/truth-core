@@ -1,20 +1,22 @@
 {
-  "id": "PERFECTION-OF-BEING-CONTROLS",
+  "id": "f96648da-0812-59b2-9e59-241f498a1fd9",
+  "label": "One being, two respects, in act in the perfection only",
+  "legacy_id": "PERFECTION-OF-BEING-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PERFECTION-OF-BEING-CONTROLS",
+  "conclusion_statement_id": "a2fd9fad-8afd-5b81-9e37-075a4adeb52c",
   "inference_ids": [
-    "INF-PERFECTION-OF-BEING-CONTROLS"
+    "3a5748f4-f7b1-5071-b70b-8263773b9497"
   ],
   "meaning": "One being, two respects (esse and one perfection), in act in the perfection only. Without the q.5 a.1 biconditional it is in act without being perfect; without the q.4 a.2 clause it is perfect without having being; in both cases it lacks being. With everything in act both premises and the conclusion hold.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-PERFECT-IN-A-PERFECTION",
-    "DEF-UNIVERSALLY-PERFECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "bf9ced33-dbd9-5921-99ef-e1e92fa7e063",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-IN-ACT",
-    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "b4099355-0e3b-510a-9398-8ef97b4881b1"
   ]
 }

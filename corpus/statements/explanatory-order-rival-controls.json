@@ -1,10 +1,12 @@
 {
-  "id": "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "id": "89de23ee-8d88-52a9-b2e9-dad5049b69ae",
+  "label": "Populated moral scope permits both raw explanatory directions when asymmetry fails; empty moral…",
+  "legacy_id": "STMT-EXPLANATORY-ORDER-RIVAL-CONTROLS",
   "paraphrase": "Populated moral scope permits both raw explanatory directions when asymmetry fails; empty moral scope permits both with asymmetry; populated scope with asymmetry can reject both. Exact predicate controls, not historical whole-theory or real explanatory-cycle models.",
   "lean_declaration": "TruthCore.Metaethics.ExplanationRivalBoundary.Controls",
   "definition_ids": [
-    "DEF-EXPLANATORY-ORDER-NEGATIVE-SCOPE",
-    "DEF-ORDER-OF-EXPLANATION",
-    "DEF-MORAL-STATEMENT"
+    "6da4a918-cac8-5ecc-9800-8a46fec6825d",
+    "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ]
 }

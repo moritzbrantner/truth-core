@@ -1,5 +1,7 @@
 {
-  "id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
+  "id": "bd4d89fa-a3c0-5bd7-85f0-a7b8213c653d",
+  "label": "The actuality of the buildable precisely qua buildable is the process of building",
+  "legacy_id": "STMT-BUILDABLE-ACTUALITY-IS-BUILDING",
   "paraphrase": "The actuality of the buildable precisely qua buildable is the process of building.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BuildableActualityIsBuildingReading"
 }

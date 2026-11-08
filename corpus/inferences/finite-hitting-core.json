@@ -1,12 +1,14 @@
 {
-  "id": "INF-FINITE-HITTING-CORE",
+  "id": "aa654f28-5736-5cb2-b434-d15054b584bc",
+  "label": "Logical falsity, by Compose-finite-hitting-contra…",
+  "legacy_id": "INF-FINITE-HITTING-CORE",
   "input_statement_ids": [
-    "STMT-FINITE-HITTING-UNIVERSAL",
-    "STMT-FINITE-HITTING",
-    "STMT-ABSENCE-AMALGAMATION",
-    "STMT-FINITE-HITTING-NO-NECESSARY"
+    "bd993533-227d-5fc3-8072-7434121d6fde",
+    "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+    "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+    "39c29835-81e3-580f-a8ef-6dacb2a8473e"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "compose-finite-hitting-contradiction",
   "meaning": "Under an explicit universal-accessibility background and actual world, finite hitting and absence amalgamation contradict no fixed necessary individual. This eliminates every superset in the same semantics; it does not identify which commitment to reject.",
   "assumption_statement_ids": [],

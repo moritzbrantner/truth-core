@@ -1,30 +1,32 @@
 {
-  "id": "LOGIC-CONTRASTIVE-WORLDVIEW",
+  "id": "ce93573d-14d7-5957-a971-abf1d0f574a7",
+  "label": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported…",
+  "legacy_id": "LOGIC-CONTRASTIVE-WORLDVIEW",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+  "conclusion_statement_id": "2a6f2dd0-5466-5b7e-be41-e97b4426b425",
   "inference_ids": [
-    "INF-CONTRASTIVE-WORLDVIEW-CORE",
-    "INF-CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "INF-LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "INF-LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "INF-LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-    "INF-CONTRASTIVE-WORLDVIEW-BOUNDARY"
+    "b827efeb-cb88-55c2-bb50-a0efe9ff7579",
+    "5c584fb7-3ab3-5de2-8b8a-f2a76e4790a1",
+    "45cc73a3-89b9-5bb4-a95c-a5f57e67b18c",
+    "96165ebe-adf0-5375-b708-2211570b420d",
+    "a1d7c279-c08a-5d82-bc4d-91b57ccde61a",
+    "bcad97d4-7471-547e-b3b9-c0faa0767927"
   ],
   "meaning": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported exact-classifier characterization, inquiry-access versus truth-directed-policy boundary, successful-practice versus categorical-duty boundary, and truth-directed reflective-duty conditional. Comparative update, evidence-only classification, ideal truth policy and categorical authority remain distinct; no actual worldview, universally binding Bayesian norm or root premise is established. See docs/notes/contrastive-worldview-934.md for the stipulated scope and rival readings.",
   "definition_ids": [
-    "DEF-CONTRASTIVE-WORLDVIEW-BAYES",
-    "DEF-CONTRASTIVE-WORLDVIEW-CASE",
-    "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
-    "DEF-SCIENCE-INDUCTION-SELECTION",
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
-    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE",
-    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+    "a251bc98-6ce9-5066-80c3-b32c3fdfe5c7",
+    "dd957a86-5209-5878-801f-048b9e24f5cf",
+    "7aa39824-3098-50e7-acaa-15747e704555",
+    "dd18377d-63fa-5892-8087-b6441dff5b1c",
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "7b30afc5-c68a-55d0-839a-0de89c4cfee9",
+    "526d1d3c-86de-5835-a061-41e22cff70d1",
+    "c31c763a-c8e3-56ba-9def-79dcc818eb3d"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION",
-    "DISAMB-SCIENCE-INDUCTION-SELECTION",
-    "DISAMB-TRANSCENDENTAL-ACCESS-AND-DUTY",
-    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION"
+    "9acaae93-332c-5e30-a925-657e712c7c1a",
+    "e977dc68-4774-5dc4-b8af-98a645631096",
+    "eaabcbaf-5407-5f0c-8112-5d90c6d9ea33",
+    "ba851630-7eec-5851-8ad2-d8eff7430e41"
   ]
 }

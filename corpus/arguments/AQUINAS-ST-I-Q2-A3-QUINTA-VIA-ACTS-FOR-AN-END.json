@@ -1,13 +1,15 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "id": "a5109c94-45f4-5e4f-b803-371a69c244cc",
+  "label": "Each natural body tends, not by chance, to something that is best for it as…, via acts for an end",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
   "premise_statement_ids": [
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION"
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb"
   ],
-  "conclusion_statement_id": "STMT-NATURAL-BODIES-ACT-FOR-AN-END-NOT-BY-CHANCE",
+  "conclusion_statement_id": "388ad433-b799-5e60-bd45-e80443b85479",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END"
+    "670ec31e-444a-53fa-b858-71d97a1c21ba"
   ],
   "meaning": "ST I q.2 a.3 co., quinta via, first half: natural bodies act for an end, not by chance but from intention (tending). The Comparator config also verifies necessityModel (the chance-or-intention dichotomy is needed: regular best outcomes, not by chance, with no tending, the formal skeleton of a selection or material-necessity account) and chanceModel (the no-chance premise is needed)."
 }

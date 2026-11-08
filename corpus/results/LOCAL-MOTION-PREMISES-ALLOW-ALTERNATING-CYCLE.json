@@ -1,6 +1,8 @@
 {
-  "id": "LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
-  "argument_id": "LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
+  "id": "8ea97e05-6ee8-50ee-af73-f9be02f59ce6",
+  "label": "The single existing registered NRegress interpretation jointly satisfies motion-in-the-moved…",
+  "legacy_id": "LOCAL-MOTION-PREMISES-ALLOW-ALTERNATING-CYCLE",
+  "argument_id": "766f46f1-e811-5b8a-865b-e5f4c3f475b4",
   "challenge_module": "TruthCore.Results.Alternatives.RespectAlternatingCycle.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RespectAlternatingCycle.Solution",
   "theorem": "TruthCore.Results.Alternatives.RespectAlternatingCycle.localPremisesAllowAlternatingCycle",

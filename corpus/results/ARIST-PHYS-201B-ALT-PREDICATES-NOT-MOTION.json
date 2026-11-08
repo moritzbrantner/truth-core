@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
-  "argument_id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
+  "id": "cff9ac04-1b40-5b27-82cd-5e3e004869fd",
+  "label": "Motion is not identical with difference…, from Being different, unequal, or a non-being…",
+  "legacy_id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
+  "argument_id": "1bd97b66-cf71-5e19-a9bb-9ef047e452d8",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.AlternativePredicates.motionNotIdenticalWithAlternatives",

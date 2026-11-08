@@ -1,27 +1,29 @@
 {
-  "id": "RUTTEN-CH6-PROPER-PART-TERMINATION",
-  "statement_id": "STMT-PROPER-PART-WELL-FOUNDEDNESS",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "9a1189d6-b4a1-525f-baa7-07f0090ae734",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Strict proper-part descent on the fixed non-null object… (2)",
+  "legacy_id": "RUTTEN-CH6-PROPER-PART-TERMINATION",
+  "statement_id": "7b600323-f8d2-5b0b-9988-df4f1c805bae",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VI, printed p.127 Step1 and pp.129–131 P2 defense",
   "interpretation": "Record the termination that Step1 invokes on p.127 and the pp.129–131 qualitative P2 defense, NOT the literal wording or an immediate consequence of original listed P2 (ultimate composition from simples). The later explicit correction in ChapterVII pp.155–156 distinguishes atomicity from termination and adopts an adjusted P2 excluding infinite proper-part descent; that passage has its own claim. Standard WellFounded strict parthood is the classical order rendering of this invoked/adjusted termination policy, not causal well-foundedness or a theorem from mere atomicity. Footnote186 disclaims a mathematical finite-to-infinite limit argument. Full ChapterVI and the separately pinned bounded ChapterVII reply were read. This claim attributes the Step1 invocation, not independent premise truth, actuality, necessity or God.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART",
-    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
-    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
-    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00",
+    "dd3d4361-4d99-568d-9479-f4c631bfc352",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b",
+    "0ec36774-a6bd-58cd-80c1-3b3e575cb272"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

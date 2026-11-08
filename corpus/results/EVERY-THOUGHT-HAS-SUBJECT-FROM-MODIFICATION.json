@@ -1,6 +1,8 @@
 {
-  "id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
-  "argument_id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "id": "2026fa63-eb21-5b14-876a-9cc852fc54d2",
+  "label": "The bearer principle: every occurring thought episode is borne by some subject, from modification",
+  "legacy_id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "argument_id": "99c9f696-0d51-5132-9609-916e1a4d28bb",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.everyThoughtHasSubjectFromModification",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ZENO-STAGE-TIME",
+  "id": "6c5c1856-217e-5018-8096-4d75eb9ceafa",
+  "label": "Zeno stage time: The real clock time at which stage n of the convergent schedule begins: 1 - ^n…",
+  "legacy_id": "DEF-ZENO-STAGE-TIME",
   "term": "Zeno stage time",
   "definition": "The real clock time at which stage n of the convergent schedule begins: 1 - (1/2)^n, measured in units of the whole schedule, so stage 0 begins at time 0 and each later stage begins halfway between the previous stage time and 1.",
   "basis": "stipulative",

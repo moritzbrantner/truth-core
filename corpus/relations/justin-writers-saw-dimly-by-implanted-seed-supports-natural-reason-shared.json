@@ -1,9 +1,11 @@
 {
-  "id": "REL-JUSTIN-WRITERS-SAW-DIMLY-BY-IMPLANTED-SEED-SUPPORTS-NATURAL-REASON-SHARED",
+  "id": "0e1e9ec2-4064-5d74-9956-383cfae5843a",
+  "label": "Justin Martyr, Apologia secunda Textpart…… supports A move that affirms that God can be known…",
+  "legacy_id": "REL-JUSTIN-WRITERS-SAW-DIMLY-BY-IMPLANTED-SEED-SUPPORTS-NATURAL-REASON-SHARED",
   "subject_kind": "claim",
-  "subject_id": "JUSTIN-WRITERS-SAW-DIMLY-BY-IMPLANTED-SEED",
+  "subject_id": "d51bc1e9-4e9a-5e19-b548-9f3f0ac3591c",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+  "object_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
   "note": "Patristic usage: all writers, Christian or not, could see the things that are, dimly, through the implanted seed. Gap: 'dimly' and 'in part'; and the account of why they see is Christian, which a fideist may read as an internal theological description of outsiders."
 }

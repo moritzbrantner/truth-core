@@ -1,7 +1,9 @@
 {
-  "id": "INF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "id": "e3a6d177-1e0a-5a29-b4fc-1e8364855ea3",
+  "label": "A mathematically defined acyclic infinite causal relation can have a source in…, by Direct-proof",
+  "legacy_id": "INF-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "output_statement_id": "bf38e72b-e1c9-5eb4-ad9d-d909aad36277",
   "rule": "direct-proof",
   "meaning": "The reverse successor relation on natural numbers is a constructive mathematical countermodel to inferring global causally minimal nodes from their existence in every finite induced restriction, even while all finite directed cycles are excluded.",
   "assumption_statement_ids": [],

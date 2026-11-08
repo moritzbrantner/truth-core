@@ -1,9 +1,11 @@
 {
-  "id": "DEF-ENOCH-THIRD-FACTOR-ACCESS",
+  "id": "daa6a2fe-5251-56b4-b808-cc21ce759a03",
+  "label": "Third-factor moral-access explanation…: A proposed explanation linking selected-for normative…",
+  "legacy_id": "DEF-ENOCH-THIRD-FACTOR-ACCESS",
   "term": "third-factor moral-access explanation in Enoch",
   "definition": "A proposed explanation linking selected-for normative judgments and normative truth through independently valued survival: causal evolutionary influence on belief together with a noncausal normative/constitutive connection. Survival is only qualifiedly good, not good because selected. The reply relies on a suitable belief–action mechanism, reasonably good starting points and reasoning; it does not claim causal influence of basic normative truths or full counterfactual robustness.",
   "basis": "sourced",
   "claim_ids": [
-    "ENOCH-THIRD-FACTOR-ACCESS-REPLY"
+    "dac4ec84-f716-5dea-87d1-e367474f7f8b"
   ]
 }

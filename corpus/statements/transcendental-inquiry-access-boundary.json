@@ -1,17 +1,19 @@
 {
-  "id": "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
+  "id": "35901b8a-de6e-5e0d-9044-c86f55670b00",
+  "label": "Within the fixed semantics of PR #924, any exact data-relative classifier for a content's truth…",
+  "legacy_id": "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
   "paraphrase": "Within the fixed semantics of PR #924, any exact data-relative classifier for a content's truth requires equal-report states to agree on that content's truth (specializing the established correction-criterion characterization). But there is a joint Boolean model with a truth-directed policy selecting an actually true empty worldview while constant reports cannot classify a nonconstant truth, and a second joint model where identity reports can classify that truth while an admitted policy selects a false worldview. Neither extensional criterion availability nor a norm of truth-directed worldview selection entails the other. The models say nothing about accessible, warranted correction or independently justified norms.",
   "lean_declaration": "TruthCore.Logic.TranscendentalPractice.InquiryAccessBoundary",
   "definition_ids": [
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-WARRANTED-CORRECTION-STANDARD",
-    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
-    "DEF-REFLECTIVE-EPISTEMIC-POLICY",
-    "DEF-TRUTH-DIRECTED-EPISTEMIC-BRIDGE"
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "63f0647d-d7f6-5101-ba15-efdcdb6e6530",
+    "6523a45a-b797-57ed-b323-27a0d14d7832",
+    "7b30afc5-c68a-55d0-839a-0de89c4cfee9",
+    "526d1d3c-86de-5835-a061-41e22cff70d1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRANSCENDENTAL-ACCESS-AND-DUTY",
-    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
-    "DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT"
+    "eaabcbaf-5407-5f0c-8112-5d90c6d9ea33",
+    "ba851630-7eec-5851-8ad2-d8eff7430e41",
+    "5b440f8d-09d4-54c8-b885-caa306dcf30a"
   ]
 }

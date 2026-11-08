@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHOICE-CONTEXT-TABLE",
+  "id": "02bd8b01-1bf4-558f-861c-632049e17c1f",
+  "label": "Stipulated complete input and response…: History separately stores a Boolean law selector, prior…",
+  "legacy_id": "DEF-CHOICE-CONTEXT-TABLE",
   "term": "stipulated complete input and response law",
   "definition": "History separately stores a Boolean law selector, prior preference and imposed constraint. input includes both preference and imposed constraint. response forces true when constrained; otherwise law false follows preference and law true reverses it. action is that response applied to the recorded law and input. The input is complete only for this defined table; it is not claimed to encode the complete physical past.",
   "basis": "stipulative",

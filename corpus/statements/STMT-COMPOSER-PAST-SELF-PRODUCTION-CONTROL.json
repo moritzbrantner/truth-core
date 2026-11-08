@@ -1,11 +1,13 @@
 {
-  "id": "STMT-COMPOSER-PAST-SELF-PRODUCTION-CONTROL",
+  "id": "93fb4bfe-1e29-5704-abeb-cf7000bb5846",
+  "label": "One SAME finite profile satisfies historical production, selected-time no-self, the existing…",
+  "legacy_id": "STMT-COMPOSER-PAST-SELF-PRODUCTION-CONTROL",
   "paraphrase": "One SAME finite profile satisfies historical production, selected-time no-self, the existing two-components/uniter-causes-being/diverse-union premises and an actual composite, while the existing distinct-uniter conclusion fails. Thus a current-time self-causation ban cannot replace all-time no-self in the historical route. Does not propose actual self-production.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.PastSelfControl",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

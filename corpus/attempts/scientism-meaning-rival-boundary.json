@@ -1,23 +1,25 @@
 {
-  "id": "ATTEMPT-SCIENTISM-MEANING-RIVAL-BOUNDARY",
+  "id": "95ba2b9f-be1b-5c34-b8bb-503f7ac01e2c",
+  "label": "Three remaining exact alternative-edge cases audited",
+  "legacy_id": "ATTEMPT-SCIENTISM-MEANING-RIVAL-BOUNDARY",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-STRONG-SCIENTISM",
-    "STMT-SOME-NON-EMPIRICAL-ESTABLISHED",
-    "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT",
-    "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
-    "STMT-KRIPKE-NO-FACT-OF-MEANING",
-    "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION"
+    "d190bb85-c7ac-5254-b76b-c33ade4543e3",
+    "70118ddd-8477-5112-bc2e-10600f700f21",
+    "bed6b857-dcb0-5f8e-a859-d21cfaa0b31b",
+    "5b74aa8d-ce6d-5c20-9365-4a6eaeba916c",
+    "bebc4578-30d8-5805-91e1-cde4b3b86eaa",
+    "97d4cd02-c515-594b-b8f3-4f67370a0929"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Three remaining exact alternative-edge cases audited. Generic ScopedScientism needs explicit witness-transfer coverage to exclude nonempirical establishment; added all-established, pointwise failing-witness and existential transfer siblings with checked strength order, two strictness controls and populated outside-scope overlap. Invariant meaning coexists with occasion meaning under constant expression; derive existing exact occasion failure from invariant meaning plus unchanged free-attitude/actual antecedent-loss/moral-witness premises, retain populated controls. Kripke no-fact and PU noninterpretive-grasp raw readings concern different factual/practical scopes; existing exact regress theorem/fork does not identify them. Reclassified that raw edge attacks, preserving full source meanings/internal fork. Synthetic actual-record regression refutations reproduce three legacy false-closure paths and verify corrected targets remain open. Existing selfapplication results, source claims, frozen Challenges, floors and engine authority unchanged. Rejected silent universal scope, unguarded opposite-account incompatibility and raw/source-shadow identity. Detailed findings and remaining applicability/interpretation bridges in docs/notes/scientism-meaning-rival-boundary.md. Extended use audit: all79 coordinator-selected outside-disambiguation truth/ethics definition texts and84 selected exact consuming types inspected with complete linked consumer IDs. Existing reflective ought/consistency/truth, knowledge/report/warrant, moral/descriptive/plan, scoring and hard-case interfaces retain independent premises/controls; no additional invalid inference found. A separate sufficient correct-account support weakening for goodness was identified and authorized. Full per-ID findings and actual coverage limits persist in docs/notes/truth-definition-use-audit.md and its linked JSON; prior inventory membership is not claimed to be prior full reading.",
   "evidence": [
-    "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
-    "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
-    "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
-    "SCIENTISM-SCOPE-RIVAL-CONTROLS",
-    "INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
-    "MEANING-RIVAL-BOUNDARY-CONTROLS"
+    "c0f1bcbf-ee6b-535e-ad8e-0a5ca7b51df0",
+    "5f4d05b7-b001-5383-bb5c-bf7485c1e21d",
+    "2a84bfbe-37eb-5010-8c20-58a30fbf878c",
+    "6856e66a-70f2-53ac-bd0f-15eda7f93f4e",
+    "552f4419-a56d-57c6-80c5-1a5f34500e5a",
+    "0dd4739f-89e1-5cc9-bd6f-47762ec58912"
   ]
 }

@@ -1,24 +1,26 @@
 {
-  "id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "id": "d9df15d3-a27b-504d-9084-9eb76129da35",
+  "label": "In the supplied Rowe frame, existence of an…, from Some occurring intense suffering could be…",
+  "legacy_id": "EVIL-INTERNAL-PERMISSION-CHALLENGE",
   "premise_statement_ids": [
-    "STMT-ROWE-GRATUITOUS-SUFFERING"
+    "8eebfefd-e24a-52f0-bf85-5ced6b569eae"
   ],
-  "conclusion_statement_id": "STMT-EVIL-INTERNAL-PERMISSION-CHALLENGE",
+  "conclusion_statement_id": "1f2dec4f-e494-50f7-a1df-ffd84f4f5c3c",
   "inference_ids": [
-    "INF-EVIL-INTERNAL-PERMISSION-CHALLENGE"
+    "7d1c1375-48d5-5ee2-a732-1240cf8e7dc1"
   ],
   "meaning": "Reuse the checked typed Rowe deductive core: actual gratuitous suffering implies that target narrow-theism attributes conflict with the target permission constraint. This is a hypothetical internal critique independent of any critic moral sentence's truth predicate. Neither gratuitous suffering nor the permission rule is independently established.",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

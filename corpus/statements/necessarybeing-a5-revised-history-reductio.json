@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NB-A5-REVISED-HISTORY-REDUCTIO",
+  "id": "0e453d79-b36c-5c51-99a7-25e014f5aac0",
+  "label": "With the separately retained full A5P1 report and earlier possible-caused-thing content as…",
+  "legacy_id": "STMT-NB-A5-REVISED-HISTORY-REDUCTIO",
   "paraphrase": "With the separately retained full A5P1 report and earlier possible-caused-thing content as conditional inputs, the source repeats the nested exact-history argument under the revised κ individual classification: suppose no κ Necessary Being is possible; construct the fixed current-or-past roster C; dispute C’s necessity in nonempty/empty-roster cases; apply situation-causability coverage; and assert a possible noncontingent cause and possible κ Necessary Being. Inner NecC is discharged at11; outer NoPossibleκNB persists through17 and only18–20 discharges possible κ Necessary Being. Hypothetical C-causability/cause is not exported. Stock contingent-situation wording remains modal possible/nonnecessary obtaining, not automatically the κ individual-existence classification. This is an attributed conditional history reductio, not its soundness, an entailment from the short prompt, an actual causal event or a rigid actual necessary witness.",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

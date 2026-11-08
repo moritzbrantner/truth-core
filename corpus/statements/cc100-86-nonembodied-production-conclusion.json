@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
+  "id": "041f2c0d-f0a4-5103-bfc8-ae4fd4b569b7",
+  "label": "If every whole is made by an intelligent agent and some wholes cannot be made by embodied agents…",
+  "legacy_id": "STMT-CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
   "paraphrase": "If every whole is made by an intelligent agent and some wholes cannot be made by embodied agents, some wholes made by intelligent agents are not made by embodied agents.",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

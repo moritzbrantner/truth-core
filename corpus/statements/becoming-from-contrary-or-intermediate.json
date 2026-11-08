@@ -1,5 +1,7 @@
 {
-  "id": "STMT-BECOMING-FROM-CONTRARY-OR-INTERMEDIATE",
+  "id": "405a6eaf-102c-5b36-87e2-2f97fb42f7ad",
+  "label": "What naturally comes to be or passes away does so from or into a contrary or an intermediate state",
+  "legacy_id": "STMT-BECOMING-FROM-CONTRARY-OR-INTERMEDIATE",
   "paraphrase": "What naturally comes to be or passes away does so from or into a contrary or an intermediate state.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BecomingFromContraryOrIntermediateReading"
 }

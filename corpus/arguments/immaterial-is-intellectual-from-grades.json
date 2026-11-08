@@ -1,23 +1,25 @@
 {
-  "id": "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+  "id": "2754fc54-f185-5819-b775-08f1774492cf",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and form nor a component…, from grades",
+  "legacy_id": "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
   "premise_statement_ids": [
-    "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
-    "STMT-SOME-BEING-HAS-INTELLECT",
-    "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"
+    "0bdb0436-34ad-5409-9bdf-20cd4bcc4fb8",
+    "5854ef2b-41dd-5617-99d2-f53a850c35fd",
+    "44000fce-47be-5597-b176-61e2f270199c"
   ],
-  "conclusion_statement_id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+  "conclusion_statement_id": "180f5ad2-a421-541a-85c9-9bca578b4a43",
   "inference_ids": [
-    "INF-IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES"
+    "3432addb-1d06-5337-bedc-381c17555e73"
   ],
   "meaning": "What is altogether immaterial has intellect, from three OPEN premises: intellect (the power, not an actual reception) is closed upward along grades of immateriality, something has intellect, and the altogether immaterial is at least as immaterial as every being. Unlike the q.14 calibration assemblies it does not pass through reception capacities; the abstract-object objection falls on the first premise.",
   "definition_ids": [
-    "DEF-ALTOGETHER-IMMATERIAL",
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-GRADE-OF-IMMATERIALITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-REMOTE-FROM-ALL"
+    "dace8e73-8b5b-5378-8e62-17d534413168",
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "f68341ad-1d8f-51e7-83ce-1ae169bd9bb2",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

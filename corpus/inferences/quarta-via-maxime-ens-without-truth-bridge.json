@@ -1,13 +1,15 @@
 {
-  "id": "INF-QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
+  "id": "4c1f3f81-bc17-5302-8234-968bce67fe52",
+  "label": "There is something maximally being that is the cause of being to every other being, by Case-analysis",
+  "legacy_id": "INF-QUARTA-VIA-MAXIME-ENS-WITHOUT-TRUTH-BRIDGE",
   "input_statement_ids": [
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-EXCLUDED-MIDDLE"
+    "a9622441-2db2-5d32-9b02-a9d283bd2949",
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
   "rule": "case-analysis",
   "meaning": "Grades of truth with the maximum principle give a being having truth; actuality only insofar as being gives it esse. Excluded middle splits: some being is maximal in esse, or every being having esse has a being more such than it. In the second case that comparison triggers the maximum principle at esse, and its maximal being, having esse, has a being more such than it, a contradiction. The genus principle at esse then gives causation of esse in every other being having esse. The witness is not shown to be maximally true. No scale, order, totality, causal ascent or truth bridge is used. Grades of truth supply only a being having esse; any respect with grades would do. In the case with a comparison above a being having esse, the maximum principle at esse carries the maximum. In the flat case, with no such comparison, that being is vacuously maximal and the principle at esse is unused; flatBranch shows the genus principle and cause-more-such then leave at most one being having esse. MoreIn does not entail InAct (flatMaximum), so the maximum does not presuppose grades of being.",
   "assumption_statement_ids": [],

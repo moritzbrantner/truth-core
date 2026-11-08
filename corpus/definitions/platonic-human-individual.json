@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+  "id": "45996402-d8f0-59fa-b438-fd8c773800d4",
+  "label": "MAN_HUMAN_1: A human individual such as Socrates is a possible entity in the bearer domain, not…",
+  "legacy_id": "DEF-PLATONIC-HUMAN-INDIVIDUAL",
   "term": "man/human",
   "definition": "A human individual such as Socrates is a possible entity in the bearer domain, not itself the quality human. The vocabulary does not require every entity or particular to be human.",
   "basis": "stipulative",

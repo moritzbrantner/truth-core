@@ -1,7 +1,9 @@
 {
-  "id": "INF-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "id": "aaff6651-f8a1-5129-b5a0-6f29361b75fd",
+  "label": "Given explicit EM, an actual contingent fact, WF of the supplied…, by Explicit typed deduction and…",
+  "legacy_id": "INF-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS-CONTROLS",
+  "output_statement_id": "f58e5d54-b3b8-5ed5-89d6-5bb0e3b072d6",
   "rule": "Explicit typed deduction and matched model construction",
   "meaning": "Arbitrary-set terminus schema, matched consistency model and four one-policy deletion controls.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-CONTINGENT-SCOPE",
+  "id": "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
+  "label": "CONTINGENT_ONLY_EXISTENCE_PSR_4: ContingentPSR requires a stipulated explanation for the existence…",
+  "legacy_id": "DEF-PSR-CONTINGENT-SCOPE",
   "term": "contingent-only existence-PSR",
   "definition": "ContingentPSR requires a stipulated explanation for the existence fact of every individual that actually exists and fails to exist at an accessible world. It does not impose the same demand on an individual existing at every accessible world; that omission is the precise contrast tested here.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNDERSTANDS",
+  "id": "0fa78db2-05d6-5c3e-b8c9-04124ccc5776",
+  "label": "Understanding something: Understands x q: x actually understands q, not merely has the power to",
+  "legacy_id": "DEF-UNDERSTANDS",
   "term": "understanding something (Understands x q)",
   "definition": "Understands x q: x actually understands q (intelligere in actu), not merely has the power to (HasIntellect, DEF-HAS-INTELLECT). The object type is a free parameter (things, natures, propositions). Example: a geometer considering the triangle. Counterexample: a human intellect before any act of understanding (q.79 a.2: the possible intellect as a tabula rasa). In Lean a parameter B -> Q -> Prop.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+  "id": "dca6f7dd-4f9e-5a6e-98c8-128e881954e9",
+  "label": "Every existing Ontic interpretation has an expansion with exactly the same…, by Constructive model…",
+  "legacy_id": "INF-WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+  "output_statement_id": "9bc720e5-ff69-5cdf-bc16-04495aaf1489",
   "rule": "Constructive model expansion, projection and unchanged named-model controls",
   "meaning": "Assign each existent its matching intrinsic-tag existence reason, preserving the original ontology by record projection. Construct the four weak clauses directly; expand an arbitrary ontology to reflect any universal ontic-property claim, and project for the reverse direction. Reuse fixedEffects and alternatingEffects without changing either ontology to witness actual causal coexistence and failure of unguarded explanation persistence.",
   "assumption_statement_ids": [],

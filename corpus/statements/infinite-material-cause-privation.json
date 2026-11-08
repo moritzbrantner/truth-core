@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITE-MATERIAL-CAUSE-PRIVATION",
+  "id": "daf3e6e2-e6df-5850-8f5c-d0badc0c1f77",
+  "label": "Within Aristotle's four-cause scheme the infinite is a material cause, its being is privation, its…",
+  "legacy_id": "STMT-INFINITE-MATERIAL-CAUSE-PRIVATION",
   "paraphrase": "Within Aristotle's four-cause scheme the infinite is a material cause, its being is privation, its subject is continuous and sensible, and qua infinite it is contained rather than containing.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteMaterialCausePrivationReading"
 }

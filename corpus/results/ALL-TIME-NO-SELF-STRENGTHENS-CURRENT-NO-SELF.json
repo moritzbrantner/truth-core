@@ -1,6 +1,8 @@
 {
-  "id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
-  "argument_id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+  "id": "8e634495-e003-5cf1-b565-510ecbf13eb1",
+  "label": "Nothing is the efficient cause of itself, in…, from At every admitted time, nothing efficiently…",
+  "legacy_id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+  "argument_id": "0f804637-dafb-5a24-80c8-9250f288322d",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NoSelfStrength.Bound.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NoSelfStrength.Bound.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.NoSelfStrength.Bound.noSelfStrength",

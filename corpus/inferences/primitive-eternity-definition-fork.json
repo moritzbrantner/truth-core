@@ -1,9 +1,11 @@
 {
-  "id": "INF-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "id": "65ebdf17-8471-53f4-89ed-2cbc9b7fd799",
+  "label": "For every supplied duration profile, either the two named calibrations…, by Constructive-proof",
+  "legacy_id": "INF-PRIMITIVE-ETERNITY-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "output_statement_id": "aeaf4816-1220-58d1-b486-1effd7269b38",
   "rule": "constructive-proof",
   "meaning": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
   "assumption_statement_ids": [],

@@ -1,28 +1,30 @@
 {
-  "id": "STMT-ACTUAL-COVER-NONPART-STRICTNESS",
+  "id": "804d14e7-48cb-520e-a45a-204f553071fa",
+  "label": "One coherent three-object, two-world interpretation satisfies all six premises of the existing…",
+  "legacy_id": "STMT-ACTUAL-COVER-NONPART-STRICTNESS",
   "paraphrase": "One coherent three-object, two-world interpretation satisfies all six premises of the existing actual-cover NE route while admitting actual overlapping source/effect with a shared proper part and neither included in the other. The necessary source causes both contingent family members; the effect actually covers their nonempty no-necessary-parts family. CauseNotPartOfEffectAt holds and CauseEffectNonoverlapAt fails. An explicit IntendedProfile witness satisfies the required concrete causal-power interpretation with no abstract candidates. The existing fromPopulation theorem supplies bare NE; no new NE derivation, physical applicability, global minimality or constitutive-support repair follows.",
   "lean_declaration": "TruthCore.Causality.ActualCoverStrictness.Certificate",
   "definition_ids": [
-    "DEF-ACTUAL-COVER-NONPART-STRICTNESS",
-    "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
-    "DEF-CAUSE-NOT-PART-OF-EFFECT",
-    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-PRESENT-ESSE-SUPPORT"
+    "2d202548-556f-510e-bb2f-b4fc3d876a10",
+    "e29757fc-62c4-5a3d-8521-699d5887ea7f",
+    "c8de77f7-e2bb-500f-985b-5c4907b02fd2",
+    "c47495e8-91a6-53e8-88aa-5672c3bdc314",
+    "84b1dc2c-48e6-5465-af21-48015fbf3cbe",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-COVER-NONPART-AND-FUSION-NONOVERLAP",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
-    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "7977cffc-b9a1-5ad6-8a18-4acabd7e15b2",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2",
+    "6ded9b1f-94fc-5f81-8e71-24ce27962165",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

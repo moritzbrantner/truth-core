@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-QUARTA-VIA-GRADES-CAUSAL-ASCENT-341",
+  "id": "98a07968-53e3-5099-aa4e-2e0f52b2102d",
+  "label": "#341 consolidation",
+  "legacy_id": "ATTEMPT-QUARTA-VIA-GRADES-CAUSAL-ASCENT-341",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
-    "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION"
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "f29a6b53-475f-5a28-9224-8ca5d7484366",
+    "5cda1946-b22e-52dc-9524-a3611c63585c"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "#341 consolidation. Materialized/read ST I q.2 a.3 (quarta via), ST I q.44 a.1 and In Metaph. II lect. 2 in full. Derived STMT-GRADES-HAVE-A-MAXIMUM by well-founded induction along distinct causes of a perfection from four nonlogical premises plus excluded middle: more-such-has-the-perfection (read from q.2 a.3, exceeding side only), the existing unrestricted cause-more-such (already on the Fourth Way root route), exceeded-is-caused (unattributed; q.44 a.1 supports it at esse via participation, does not state it) and no infinite regress of causes of a perfection (unattributed: In Metaph. II l.2 n.11 and the secunda via deny an infinite line only within one species of cause; a first version attributed it to n.11 as a reading step, and review on PR #982 correctly rejected that because well-founded modes can have a non-well-founded union, so it is now supported, not stated). One Boolean omission fixture per premise. Considered and set aside: (A) the order-only route, bearer premise plus ascending well-foundedness of MoreIn itself, which is shorter but its well-foundedness premise has no source read here (no text denies an infinite ascent of degrees as such); (B) Zorn's chain-bound condition, which on a homogeneous scale suffices (zornMaximum) and is weaker than ascending well-foundedness, but presupposes an order on degrees that Aquinas' analogical reading does not supply and still needs its own existence premise (every chain bounded on the scale). Maximal versus greatest: directedness plus antisymmetry make a maximal grade the unique greatest one (directedMaximalIsGreatest); without them INFINITE-GREATEST-WHOLE-CONTROL and MaximumNeedNotBeUnique already give incomparable or tied maxima. Rejected: an approach-to-a-maximum premise that presupposes the maximum (a transcription of the conclusion). Not done: target 4's first-cause-is-maximal with Acc, formal versus virtual containment, and the mapping of the other two frontier premises. Because GRADES is sourced, the root-route cost cannot fall by this derivation alone (corpus.py root_routes); it moves the closure burden to the four premises.",
   "evidence": [
-    "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
-    "AQUINAS-ST-I-Q2-A3-MORE-SUCH-HAS-PERFECTION-A",
-    "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
-    "AQUINAS-ST-I-Q2-A3-NO-INFINITE-EFFICIENT-CAUSES-A"
+    "1b988b36-9c72-5611-9f1a-3c4ca22578e4",
+    "62711aea-d6ea-5e81-8f04-c4422691dafc",
+    "11b0106d-9061-54c3-bc53-82a3acaaddd2",
+    "69d186f9-f2b6-5ba3-bc60-c523706d36ad"
   ]
 }

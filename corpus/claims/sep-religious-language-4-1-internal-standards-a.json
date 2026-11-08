@@ -1,12 +1,14 @@
 {
-  "id": "SEP-RELIGIOUS-LANGUAGE-4-1-INTERNAL-STANDARDS-A",
-  "statement_id": "STMT-WF-RELIGION-INTERNAL-GRAMMAR",
-  "source_id": "SEP-RELIGIOUS-LANGUAGE",
+  "id": "fc781bfa-6d8f-5642-9b4c-ca86b62f65c4",
+  "label": "Michael Scott, Religious Language §4.1…: WITTGENSTEINIAN_FIDEISM_2, commitment 1: whatever the…",
+  "legacy_id": "SEP-RELIGIOUS-LANGUAGE-4-1-INTERNAL-STANDARDS-A",
+  "statement_id": "305a8728-776f-556f-b4f4-d43e63dc9c2e",
+  "source_id": "749f3ba0-be0a-5609-ad1d-e735dd6df917",
   "locator": "§4.1, 'realism-relevant concepts are understood as language game internal concepts'",
   "interpretation": "Religious minimalists (Putnam; Phillips in his later writings) 'agree' that 'realism-relevant concepts are understood as language game internal concepts. To know what makes for truth in religion, for instance, we need to look at the internal standards of justification that inform religious discourse.' Read as: what the practice's own standards of justification endorse is correct in it. This is the minimalist variant (WF-P2); §4.2 adds that minimalists allow outside evidence to inform religious judgement, so it does not carry the cut-off thesis. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that religious minimalists take truth in religion to be fixed by the internal standards of justification of religious discourse, which is the premise that what the practice's own standards endorse is correct in it.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

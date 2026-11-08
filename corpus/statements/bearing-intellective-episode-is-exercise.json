@@ -1,10 +1,12 @@
 {
-  "id": "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE",
+  "id": "84c57a8c-d9a2-5672-8b7f-200117f13497",
+  "label": "Whoever bears an intellective episode is attributed it as an intellectual exercise",
+  "legacy_id": "STMT-BEARING-INTELLECTIVE-EPISODE-IS-EXERCISE",
   "paraphrase": "OPEN analyst premise: whoever bears an intellective episode is attributed it as an intellectual exercise.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.BearingIntellectiveEpisodeIsExercise",
   "definition_ids": [
-    "DEF-INTELLECTIVE-EPISODE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "f61bbc23-dd58-5bf5-95a5-f1ddc1e407c0",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ]
 }

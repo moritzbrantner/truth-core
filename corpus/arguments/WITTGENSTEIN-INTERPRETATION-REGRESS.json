@@ -1,19 +1,21 @@
 {
-  "id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "id": "865ce2ca-0141-56bb-b7c9-c98e54b953a4",
+  "label": "No application of a rule, and no…, from An application of a rule is DETERMINED_2… and 1 more",
+  "legacy_id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
   "premise_statement_ids": [
-    "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
-    "STMT-NO-ENDLESS-INTERPRETATION-REGRESS"
+    "7c056d7f-d0b5-5315-bc54-068dcb618858",
+    "5218e5c6-d9fc-5ddb-9861-42e1bd00aef7"
   ],
-  "conclusion_statement_id": "STMT-NO-RULE-APPLICATION-DETERMINED",
+  "conclusion_statement_id": "4c06906d-c081-5d2e-8c6b-8dbe9f9c3a18",
   "inference_ids": [
-    "INF-WITTGENSTEIN-INTERPRETATION-REGRESS"
+    "be6efd38-6f80-50b0-83a3-8aff25484085"
   ],
   "meaning": "The shape of the regress in PU §§198, 201 (#1010). If every item, an application of a rule or an interpretation of it, is determined only through a determined interpretation of it, and there is no endless chain of interpretations, then nothing is determined: the paradox of §201's first sentence. The fork theorem in the same config (regressFork) shows that the two premises are inconsistent with STMT-SOME-RULE-APPLICATION-DETERMINED, so a reader must give up one of the three: the diagnostic reading of §201 gives up the interpretation premise (STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION), Kripke's sceptic (as reported, STMT-KRIPKE-NO-FACT-OF-MEANING) denies factual determination, which this vocabulary maps, unattributed, to giving up STMT-SOME-RULE-APPLICATION-DETERMINED, and an endless regress gives up finiteness. Each premise is needed (needsOnlyThroughInterpretation, needsNoEndless). The result attributes neither premise to Wittgenstein and settles no reading (DISAMB-RULE-FOLLOWING-PARADOX). Off the root routes.",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "disambiguation_ids": [
-    "DISAMB-RULE-FOLLOWING-PARADOX"
+    "a8566ae9-153c-5329-b680-2755193dab9b"
   ]
 }

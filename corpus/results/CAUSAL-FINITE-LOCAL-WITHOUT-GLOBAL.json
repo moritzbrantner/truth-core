@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
-  "argument_id": "CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "id": "222e5cdf-b40c-5288-a964-589d7f4f538c",
+  "label": "A mathematically defined acyclic infinite causal relation can have a source in every finite…",
+  "legacy_id": "CAUSAL-FINITE-LOCAL-WITHOUT-GLOBAL",
+  "argument_id": "f82337aa-f127-5116-a706-d934ffe39781",
   "challenge_module": "TruthCore.Results.Causality.FiniteRestriction.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteRestriction.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteRestriction.checks",

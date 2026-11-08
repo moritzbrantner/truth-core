@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDIVIDUAL-AFFINE-WELFARE-REFRAMING",
+  "id": "6e332592-e6f9-5e38-ad4f-890f9aa7b3f8",
+  "label": "Individual positive affine welfare…: A Pair names the same two individuals across alternatives.…",
+  "legacy_id": "DEF-INDIVIDUAL-AFFINE-WELFARE-REFRAMING",
   "term": "individual positive affine welfare reframing",
   "definition": "A Pair names the same two individuals across alternatives. reframe a b u v applies a*x1+u to the first and b*x2+v to the second, with a,b strictly positive. Both alternatives use identical parameters. Each person's own order is preserved; the cross-person relative unit may change. AllPrefer uses the existing total, mean and critical arithmetic on the two-entry lists; c is fixed across alternatives. Invariance under this class is an explicit proposed adequacy standard, not a proved requirement of morality. A calibrated interpersonal scale may legitimately reject independent changes of unit. Fixed identity and count are essential; variable-population origin/critical-level effects are outside this theorem.",
   "basis": "stipulative",

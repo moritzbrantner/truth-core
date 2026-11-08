@@ -1,26 +1,28 @@
 {
-  "id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "id": "41b38622-3398-5827-af5c-086c73aa88bf",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed…, from existence",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
   "premise_statement_ids": [
-    "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
-    "STMT-EXISTING-IN-ACT-AT"
+    "3b13b39c-9d1c-5324-8327-0329f26e083c",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae"
   ],
-  "conclusion_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "conclusion_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
   "inference_ids": [
-    "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE"
+    "ef5a5496-3a69-5f1c-9f7f-cb783a368d9b"
   ],
   "meaning": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-COGITO-ESSE-PROFILE",
-    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
-    "DEF-ESSE",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+    "acd05a1f-9ba3-5ed9-abd4-e748a1efce32",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-IN-ACT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

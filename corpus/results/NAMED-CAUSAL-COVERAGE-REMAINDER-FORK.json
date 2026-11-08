@@ -1,6 +1,8 @@
 {
-  "id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
-  "argument_id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "id": "56ad5dfc-44b6-5c50-a53d-0f5e08beac05",
+  "label": "Either the explicit named-case coverage hypothesis…, from Excluded middle as a general principle…",
+  "legacy_id": "NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "argument_id": "9cc7d6da-16d9-5ad1-a490-7a6ccef09741",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.CoverageRemainder.coverageRemainder",
@@ -9,19 +11,19 @@
   "description": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+    "target_statement_id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
     "cases": [
       {
         "label": "named-case coverage hypothesis",
-        "statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+        "statement_id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCoverage"
       },
       {
         "label": "actual relevant remainder",
-        "statement_id": "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT",
+        "statement_id": "a94a02e3-5e86-59f6-aa17-ad7f7914c914",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.OtherCounter"
       }
     ],
-    "survival_result_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+    "survival_result_id": "105ad261-8897-573c-b403-0a1bd42acc13"
   }
 }

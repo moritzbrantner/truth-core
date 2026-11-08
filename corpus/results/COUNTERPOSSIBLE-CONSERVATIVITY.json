@@ -1,6 +1,8 @@
 {
-  "id": "COUNTERPOSSIBLE-CONSERVATIVITY",
-  "argument_id": "COUNTERPOSSIBLE-CONSERVATIVITY",
+  "id": "d8355360-6ecc-5c8e-8a53-47a99f32e5d7",
+  "label": "Two interpretations reuse the exact active AND and idle lookup mechanisms on normal backgrounds",
+  "legacy_id": "COUNTERPOSSIBLE-CONSERVATIVITY",
+  "argument_id": "69122f09-0263-5cb8-b20f-237f0852d41c",
   "challenge_module": "TruthCore.Results.Modal.CounterpossibleConservativity.Challenge",
   "solution_module": "TruthCore.Results.Modal.CounterpossibleConservativity.Solution",
   "theorem": "TruthCore.Results.Modal.CounterpossibleConservativity.certificate",

@@ -1,15 +1,17 @@
 {
-  "id": "CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
-  "statement_id": "STMT-CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "6d1d7033-29f6-594a-9a6b-540cc3f37009",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If the existence of any particular contingent concrete…",
+  "legacy_id": "CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
+  "statement_id": "8ee4d1a9-1aa7-5305-8b0f-7131bb7d7f5c",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.25, argument #11, step 3 under steps 1–2",
   "interpretation": "The displayed conclusion is retained conditionally; applying the particular-plurality coverage to the admitted all-existing totality remains a scope/admission burden. No actual concrete bearer, rigid modal witness, uniqueness or God identity is proved here. STMT-NECESSARY-CONCRETE-AT carries explicit actual existence, a particular frame and same-individual modality, so is not silently aliased with this unelaborated source conclusion. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+    "d59566cf-a070-5e9a-aa4c-84620060ad92"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

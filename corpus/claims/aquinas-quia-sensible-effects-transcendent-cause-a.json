@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE-A",
-  "statement_id": "STMT-AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE",
-  "source_id": "AQUINAS-SCG",
+  "id": "1e26da17-2577-510d-87f8-74375b445269",
+  "label": "Thomas Aquinas, Summa contra gentiles I.12 –: One can, according to Aquinas, demonstrate that God…",
+  "legacy_id": "AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE-A",
+  "statement_id": "eaf00668-46f2-5817-9f45-51a4010701e7",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "locator": "I.12 [6]–[9]",
   "interpretation": "Independent primary counterreading: origin of knowledge in sense need not confine the conclusion to a sensible cause. It predates Kant, so its use as a reply is this inquiry’s reconstruction; the validity and extra-empirical application are still open.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-QUIA-DEMONSTRATION",
-    "DEF-KANT-SCOPE-WARRANT",
-    "DEF-KANT-DIVINE-NAME-EFFECTS"
+    "e359370f-f532-596d-a455-6823a94f4d0f",
+    "674187f4-832b-5287-9ece-28c75772c54f",
+    "3cf7066c-e32a-5e30-b59a-2ce842ce52c4"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-SCOPE",
-    "DISAMB-KANT-GOD-IDENTIFICATION"
+    "ff5e8e42-dcb9-50f0-9173-e6f0a67e073c",
+    "9f89b936-bfc5-5c6a-b611-f1b82befe8dc"
   ]
 }

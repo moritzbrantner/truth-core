@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPATIOTEMPORAL-LOCATED",
+  "id": "ddde7152-b698-5a85-8060-b8c6c9905758",
+  "label": "SPATIOTEMPORAL_2: Located F x:= ∃ r, F.locatedAt x r: x occupies some region",
+  "legacy_id": "DEF-SPATIOTEMPORAL-LOCATED",
   "term": "spatiotemporal (occupant sense)",
   "definition": "`Located F x := ∃ r, F.locatedAt x r`: x occupies some region. The proposition is that of the rival concreteness criterion SpatiotemporalCriterionConcrete (DEF-CONCRETE-SPATIOTEMPORAL-CRITERION), reused as a property and not as a criterion of concreteness. Occupation is dimensive location; presence by power (ST I q.8 a.3, q.52 a.1) is not represented.",
   "basis": "stipulative",

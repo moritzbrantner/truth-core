@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LOCAL-TRANSMISSION",
+  "id": "5214c7ea-0683-53b8-b37b-178d5136d20c",
+  "label": "Local transmission of activity: Every member of a chain is active if and only if its immediate…",
+  "legacy_id": "DEF-LOCAL-TRANSMISSION",
   "term": "local transmission of activity",
   "definition": "Every member of a chain is active if and only if its immediate predecessor is active, without stipulating an initiating source. This captures only a weak local equivalence; it does not establish a full metaphysics of derivative efficient causal power.",
   "basis": "stipulative",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING",
+  "id": "cee90994-d4f3-560f-8f7c-e336dbb6b330",
+  "label": "The occasion reading of EMOTIVISM_4 is… alternative to EMOTIVISM_4, occasion reading: the…",
+  "legacy_id": "REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING",
   "subject_kind": "statement",
-  "subject_id": "STMT-EMOTIVIST-MEANING-FAILS",
+  "subject_id": "3409bee3-9d35-5256-b8d0-31ab07dd9cd5",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE",
+  "object_id": "5b74aa8d-ce6d-5c20-9365-4a6eaeba916c",
   "note": "Exact existing occasion-meaning negation, not raw invariant meaning. INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION retains full invariant meaning, existing free attitude expression, actual antecedent loss and the moral witness; without actual loss both accounts coexist with constant Expresses. No source meanings weakened or complete theories identified."
 }

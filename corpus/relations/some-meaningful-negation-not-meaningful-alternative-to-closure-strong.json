@@ -1,9 +1,11 @@
 {
-  "id": "REL-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-STRONG",
+  "id": "fbc5968c-2596-5fbd-900a-35b348bbc147",
+  "label": "The denial of the strong floor item… alternative to Strong version: for every sentence, if…",
+  "legacy_id": "REL-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL-ALTERNATIVE-TO-CLOSURE-STRONG",
   "subject_kind": "statement",
-  "subject_id": "STMT-SOME-MEANINGFUL-NEGATION-NOT-MEANINGFUL",
+  "subject_id": "2c0d4ee4-42f9-5a4f-a65c-b4ca29d26889",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG",
+  "object_id": "afa7a288-a1d5-5958-a1d0-3f68d4d186ad",
   "note": "Class: recorded rival of an owner-approved floor item (strong version). No source states it as a thesis; it follows from V1 with testable laws (the content of STRONG-VERIFICATIONISM-WITH-LAWS-FAILS read contrapositively). Not refuted here."
 }

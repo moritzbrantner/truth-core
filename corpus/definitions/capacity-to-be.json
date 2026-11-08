@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CAPACITY-TO-BE",
+  "id": "00ab0133-e353-5a2e-a231-b24a5c85107a",
+  "label": "ABILITY_TO_BE_1: CanBe x r: x is able to be r, as the knower who is not contemplating is able to…",
+  "legacy_id": "DEF-CAPACITY-TO-BE",
   "term": "ability to be (dynaton)",
   "definition": "`CanBe x r`: x is able to be r, as the knower who is not contemplating is able to contemplate and the wood is able to have the Hermes cut out of it. A primitive of the Metaphysics IX.6 analysis of potency; it says nothing about whether x is actually r, and nothing in the case constrains it beyond that analysis.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A"
+    "4eb6f90c-55cd-59bd-8a25-48f9e09196a2"
   ],
   "lean_declaration": "TruthCore.Causality.TermSenseForks.CapacityPotency",
   "note": "Sense fork batch 3 (POTENCY_3): CapacityPotency CanBe x r := CanBe x r is the sense's own declaration, so that capacity statements mention neither adopted nor independent potency. The CanBe parameter of PotencyIsUnactualizedCapacityReading is the same relation."

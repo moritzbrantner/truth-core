@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-UNIQUE-IMPLICATION",
-  "argument_id": "STRENGTH-UNIQUE-IMPLICATION",
+  "id": "e90ac0a8-d075-5219-9c9e-c65d159ceb3a",
+  "label": "For an arbitrary supplied type and predicate P, at least…, from For an arbitrary supplied type and…",
+  "legacy_id": "STRENGTH-UNIQUE-IMPLICATION",
+  "argument_id": "dbd2edfd-b268-51f5-9e8a-f892f2d58b28",
   "challenge_module": "TruthCore.Results.Logic.StrengthUnique.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthUnique.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthUnique.implication",

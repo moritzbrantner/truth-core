@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NAME-APPLICATION-TRANSFER-CASES-COVER",
+  "id": "42aa5dcb-f3a3-5e87-91d0-bc63c3f35f69",
+  "label": "Either every proper instance is preserved in practice reference, or a proper instance lost by…",
+  "legacy_id": "STMT-NAME-APPLICATION-TRANSFER-CASES-COVER",
   "paraphrase": "Either every proper instance is preserved in practice reference, or a proper instance lost by practice reference exists. Structural coverage uses explicit excluded middle; it is not an exhaustive list of reference theories.",
   "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.TransferCasesCover",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

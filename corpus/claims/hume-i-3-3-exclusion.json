@@ -1,16 +1,18 @@
 {
-  "id": "HUME-TREATISE-I-3-3-EXCLUSION-A",
-  "statement_id": "STMT-HUME-I-3-3-EXCLUSION",
-  "source_id": "HUME-TREATISE",
+  "id": "64f115bf-4568-52c9-9c39-4c8462a152e8",
+  "label": "David Hume, A Treatise of Human Nature…: Hume says that excluding every cause excludes both the…",
+  "legacy_id": "HUME-TREATISE-I-3-3-EXCLUSION-A",
+  "statement_id": "4f1bea90-3ef9-5590-809c-032547f5b62e",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.3, §§5–7 (SBN 80–82)",
   "interpretation": "A semantic and argumentative distinction inside the hypothetical denial. It neither establishes the truth of uncaused existence nor licenses arbitrary world predicates as conceivable. No cause entity called nothing is introduced.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-CAUSE-EXCLUSION",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "7baf3658-612c-53ba-a8fa-b7a2bc4cf5c4",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

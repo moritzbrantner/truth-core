@@ -1,16 +1,18 @@
 {
-  "id": "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY",
-  "statement_id": "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER",
-  "source_id": "AQUINAS-ST",
+  "id": "d80b7c61-6454-5aff-a67e-d2c54667ede5",
+  "label": "Thomas Aquinas, Summa theologiae I q.9 a.2 co: Aquinas distinguishes mutability through POTENCY_1…",
+  "legacy_id": "AQUINAS-ST-I-Q9-A2-EXTERNAL-MUTABILITY",
+  "statement_id": "2ff8536f-e868-524b-8b7b-3a10331023be",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.9 a.2 co.: mutabile potest aliquid dici dupliciter",
   "interpretation": "The external channel is the creator's power to originate or withdraw creaturely esse; it is not asserted to be an intrinsic InPotency of the creature. This is an attributed metaphysical claim, not a formal identification of sustaining dependence with CausesIn or an assertion that arbitrary modal powers are causes.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MUTABILITY-IN-ANOTHER",
-    "DEF-POTENCY",
-    "DEF-ESSE"
+    "f2aefafa-0e58-5e0f-9d66-cc3ef34bcb4f",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-MUTABILITY-CHANNEL"
+    "7edf933a-88b6-5c64-82df-4ef40becd970"
   ]
 }

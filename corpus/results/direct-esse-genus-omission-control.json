@@ -1,6 +1,8 @@
 {
-  "id": "DIRECT-ESSE-GENUS-OMISSION-CONTROL",
-  "argument_id": "DIRECT-ESSE-GENUS-OMISSION-CONTROL",
+  "id": "df46d8e4-128e-53ee-9485-2af2654308e4",
+  "label": "Consume the ORIGINAL…, from Excluded middle as a general principle…",
+  "legacy_id": "DIRECT-ESSE-GENUS-OMISSION-CONTROL",
+  "argument_id": "542c8b60-7879-5c3c-852f-8bc622687e81",
   "challenge_module": "TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Challenge",
   "solution_module": "TruthCore.Results.Causality.DirectEsseGenusOmissionControl.Solution",
   "theorem": "TruthCore.Results.Causality.DirectEsseGenusOmissionControl.checks",

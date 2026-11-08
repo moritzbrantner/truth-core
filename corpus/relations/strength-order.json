@@ -1,27 +1,29 @@
 {
-  "id": "REL-STRENGTH-ORDER",
+  "id": "3d50b4a2-0d48-58d4-aef3-e78293fb9889",
+  "label": "For the supplied mathematical linear… strength comparison For the supplied mathematical linear…",
+  "legacy_id": "REL-STRENGTH-ORDER",
   "subject_kind": "statement",
-  "subject_id": "STMT-STRENGTH-ORDER-GREATER",
+  "subject_id": "51bb0eeb-f3fb-5ce1-9e11-a127788f8506",
   "predicate": "strength_comparison",
   "object_kind": "statement",
-  "object_id": "STMT-STRENGTH-ORDER-AT-LEAST",
+  "object_id": "d104c7e0-3e5b-53d2-9437-8e8a1024be8d",
   "comparison_spec": "TruthCore.Logic.Strength.Order.spec",
-  "delta_statement_id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "delta_statement_id": "9b7e39ea-f8d1-5762-add4-8d3b880652f1",
   "background_statement_ids": [],
   "evidence_result_ids": {
-    "implication": "STRENGTH-ORDER-IMPLICATION",
-    "delta_forward": "STRENGTH-ORDER-DELTA-FORWARD",
-    "reconstruction": "STRENGTH-ORDER-RECONSTRUCTION",
-    "equivalence": "STRENGTH-ORDER-EQUIVALENCE",
-    "allowed_cases": "STRENGTH-ORDER-ALLOWED-CASES",
-    "remainder_identity": "STRENGTH-ORDER-REMAINDER-IDENTITY"
+    "implication": "ebdd9c00-2231-5e80-96a9-55b377a2ead6",
+    "delta_forward": "8a9a4e69-5bc2-57ac-a3f8-281b6fbdfeaf",
+    "reconstruction": "8486f47d-4ab4-503e-aebd-08e65b112b71",
+    "equivalence": "3648f9c4-fac1-5a49-b361-14477cdcf461",
+    "allowed_cases": "52d1a27d-0219-559c-9d56-f12fecda76f7",
+    "remainder_identity": "a53b181f-da51-515f-a574-579081bec447"
   },
   "separator": {
     "setting": "TruthCore.Logic.Strength.Order.zeroSetting",
-    "result_id": "STRENGTH-ORDER-SEPARATOR"
+    "result_id": "8692a9cf-1407-565d-94b6-cb7a08b47f96"
   },
   "note": "Under the supplied mathematical LinearOrder, strict comparison is non-strict comparison plus inequality. Equality is the exact admitted-only remainder, with a checked zero/zero separating setting. These identities do not transfer to primitive AtLeastIn or MoreIn relations by their names: the compatibility laws remain separate premises. Actual theorem axioms and class-law parameters are reported by the producer.",
-  "remainder_statement_id": "STMT-STRENGTH-ORDER-EQUAL",
+  "remainder_statement_id": "b69b0592-9e4f-5fb8-986b-f189eee01b9d",
   "statement_parameter_indices": {
     "stronger": [
       0,

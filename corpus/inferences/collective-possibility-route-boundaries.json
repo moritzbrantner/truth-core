@@ -1,7 +1,9 @@
 {
-  "id": "INF-COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "id": "b1e8af0b-32f0-5dcb-ae81-dfd15b8e6295",
+  "label": "The imported global quantifier-shift refutation coexists with both…, by Constructive-proof",
+  "legacy_id": "INF-COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
+  "output_statement_id": "5c89e68e-c76d-50d7-988e-4dc75ae01cd7",
   "rule": "constructive-proof",
   "meaning": "Reuse the unchanged global quantifier-shift refutation while checking local survival, target true/false and missing-realization-interface controls. Refuting a universal proof method settles none of those local target verdicts.",
   "assumption_statement_ids": [],

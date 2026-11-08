@@ -1,14 +1,16 @@
 {
-  "id": "DEF-CC100-116-REASON-PERSONAL-EXPLANATION",
+  "id": "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5",
+  "label": "Reason, intentionality/mental…: Reason is said to involve intentionality and mental causation…",
+  "legacy_id": "DEF-CC100-116-REASON-PERSONAL-EXPLANATION",
   "term": "reason, intentionality/mental causation, personal explanation and theistic best explanation in #116",
   "definition": "Reason is said to involve intentionality and mental causation; their explanations are restricted to personal explanations. A further explicit bridge ranks a theistic account as best. These are source explanatory commitments, not identities between mental causation, formal reasons, actual grounding or a divine individual.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-116-REASON-INTENTIONALITY-MENTAL-CAUSATION",
-    "CC100-116-PERSONAL-EXPLANATION-RESTRICTION",
-    "CC100-116-CONDITIONAL-PERSONAL-REASON-EXPLANATION",
-    "CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
-    "CC100-116-CONDITIONAL-THEISTIC-BEST-EXPLANATION"
+    "03447509-efa7-5011-8a86-69ca32527689",
+    "3fd39f28-0eae-5953-99df-2ab59617d659",
+    "50371774-f028-5ed5-8434-3ba797bb84b7",
+    "a5924e01-b6ab-53e2-8a0c-dfad86a31e0d",
+    "1035c891-7fb2-5f24-9c9f-f802435e6add"
   ],
   "note": "Can-only restricts admissible explanation, not existence of an actual explanation. Personal-to-theistic ranking, involvement-to-explanation transfer, comparative adequacy and best-explanation-to-truth remain open; no God signature, unique/necessary bearer or causal dictionary is selected."
 }

@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20251217204903id_/https://joelvelasco.net/teaching/3865/lewis%2094%20-%20humean%20supervenience%20debugged.pdf",
     "wayback_sha256": "sha256:9e16bdd43c79e7e1e249c1639d34c9a38b019bf09e349bd1a98c130f341f5d04",
     "kind": "web_snapshot",
-    "source_id": "LEWIS-HUMEAN-SUPERVENIENCE",
+    "source_id": "99106b74-a687-5071-8fa3-ab97db0a4de3",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Copyright held by author/publisher; publicly accessible primary paper. No redistribution license asserted. Only hashes, locators and short incipit committed. A fixed 2025-12-17 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "LEWIS-HUMEAN-SUPERVENIENCE",
+      "id": "5cee2974-a327-5aaa-a79c-9415ba5d8728",
+      "label": "David Lewis, Humean Supervenience Debugged, Pp. 478\u2013482, complete \u00a7\u00a73\u20134 with immediate page context",
+      "legacy_id": "LEWIS-HUMEAN-SUPERVENIENCE",
       "locator": "pp. 478\u2013482, complete \u00a7\u00a73\u20134 with immediate page context",
       "claim_locator_prefixes": [
         "pp."

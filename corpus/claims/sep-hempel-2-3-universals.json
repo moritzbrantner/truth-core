@@ -1,15 +1,17 @@
 {
-  "id": "SEP-HEMPEL-2-3-UNIVERSALS",
-  "statement_id": "STMT-HEMPEL-VERIFIABILITY-EXCLUDES-UNIVERSALS",
-  "source_id": "SEP-HEMPEL",
+  "id": "544a5f43-0617-516e-8b7a-dcdc89c83bcd",
+  "label": "James H. Fetzer, Carl Hempel §2.3: Hempel 1950: the verifiability criterion makes existential…",
+  "legacy_id": "SEP-HEMPEL-2-3-UNIVERSALS",
+  "statement_id": "c40631a3-c697-5e8d-a1cf-2bbf48f25226",
+  "source_id": "427f4263-d7a4-5ee8-9601-cc67e1f28ad5",
   "locator": "§2.3, \"the verifiability criterion implies that existential generalizations are meaningful, but that universal generalizations are not\"",
   "interpretation": "The entry reports Hempel's 1950-51 results, with the stork example: 'at least one stork is red-legged' is verifiable, its negation is not. Attribution reading on a secondary witness: what the entry says Hempel demonstrated.",
   "attribution": "The passage states that Hempel showed the verifiability criterion makes existential generalizations meaningful but universal generalizations, including laws, not, and that with meaningfulness closed under negation it yields counterintuitive if not inconsistent consequences, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

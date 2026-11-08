@@ -1,9 +1,11 @@
 {
-  "id": "REL-EXACT-OPINER-NONMOTION-CONDITIONAL-REFUTATION",
+  "id": "66fd07a8-7e8d-5270-9f6b-9f3ddcddbb9d",
+  "label": "Exact negation of the old…, from Some… refutes Opinion and imagination are motions…",
+  "legacy_id": "REL-EXACT-OPINER-NONMOTION-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "EXACT-OPINER-NONMOTION-DEFEATS-OPINING-NORM",
+  "subject_id": "25f9d224-35b9-5e84-b9bc-8fec0be53238",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-OPINION-IS-A-MOTION",
+  "object_id": "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
   "note": "Conditional contradiction only. The actual local countertuple remains OPEN, so no independent refutation or floor change is asserted."
 }

@@ -1,25 +1,27 @@
 {
-  "id": "STMT-SELECTED-CONE-WELL-FOUNDED",
+  "id": "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
+  "label": "The selected grounds relation restricted to the subtype of all actual CONCRETE_6 ancestors of…",
+  "legacy_id": "STMT-SELECTED-CONE-WELL-FOUNDED",
   "lean_declaration": "TruthCore.Causality.SelectedAncestry.ConeWellFounded",
   "paraphrase": "The selected grounds relation restricted to the subtype of all actual concrete ancestors of selected is well-founded. Unrelated actual grounding, non-concrete or absent candidates and other worlds are unconstrained. This is a local foundation premise, not a bound on total graph size or a finite observational report.",
   "definition_ids": [
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

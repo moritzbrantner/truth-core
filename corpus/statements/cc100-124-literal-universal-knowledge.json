@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
+  "id": "84d08916-075c-5017-9109-fc00d4b58bce",
+  "label": "If every true proposition is possibly known by someone, then for every proposition p there is…",
+  "legacy_id": "STMT-CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
   "paraphrase": "If every true proposition is possibly known by someone, then for every proposition p there is someone who knows p.",
   "definition_ids": [
-    "DEF-CC100-124-KNOWABILITY-KNOWER",
-    "DEF-CC100-124-LITERAL-SCOPE"
+    "baca53c3-3a52-559d-989f-78fb8400824f",
+    "e27a6a4e-7a61-5ae2-8ef5-b94213a8c612"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "6cee2bde-0599-53c0-a41a-39220144f3ca",
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

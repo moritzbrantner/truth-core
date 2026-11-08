@@ -1,10 +1,12 @@
 {
-  "id": "INF-CURRENT-COMPOSER-FROM-ATTRIBUTION",
+  "id": "04d446a0-44f8-569c-b8f7-a76dc08ece1e",
+  "label": "Whatever unites two things into x is an efficient cause of x in some respect, by Constructive-proof",
+  "legacy_id": "INF-CURRENT-COMPOSER-FROM-ATTRIBUTION",
   "input_statement_ids": [
-    "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION",
-    "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE"
+    "1ad18c70-4db9-50a0-8605-fa860709a10a",
+    "f3b79f16-5c0b-5b20-92c5-7fae38239ec7"
   ],
-  "output_statement_id": "STMT-UNITING-CAUSE-IS-EFFICIENT",
+  "output_statement_id": "27d15954-567a-5321-b4ec-81bfe7ef1653",
   "rule": "constructive-proof",
   "meaning": "Calibration transcription: the original independent composer attribution yields the EXACT existing current uniter-efficient premise only under selected-time calibration.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-MODAL-VARIABLE-EFFECTS",
+  "id": "5ecfee94-f8d1-5e8a-b160-435f603d7d42",
+  "label": "Universal two-world frame, necessary particular source and three rigid candidate individuals",
+  "legacy_id": "MODEL-MODAL-VARIABLE-EFFECTS",
   "description": "Universal two-world frame, necessary particular source and three rigid candidate individuals. The source has a distinct existing effect in each world, but no one effect is caused in both worlds; the first effect is contingent. World-indexed causal edges have only the displayed coherence constraints.",
   "vocabulary": "MODAL-CAUSATION",
   "lean_declaration": "TruthCore.Modal.NecessaryVariableEffects.alternatingEffects",
@@ -14,7 +16,10 @@
   "carriers": [
     {
       "binding": "World",
-      "elements": ["false", "true"],
+      "elements": [
+        "false",
+        "true"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
     },
     {
@@ -29,41 +34,76 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+      "statement_id": "af7122ff-3e09-5626-9d51-3937800ecd80",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Ontic"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.effectsSound"
     },
     {
-      "statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+      "statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Ontic", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.sourceNecessary"
     },
     {
-      "statement_id": "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
+      "statement_id": "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "source"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.sourceNecessaryAt"
     },
     {
-      "statement_id": "STMT-MODAL-NECESSARY-CAUSES-SOMETHING",
+      "statement_id": "b11fad98-aced-56b7-bdfd-0e63fc6cd0a3",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "source"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.alwaysCausesSomething"
     },
     {
-      "statement_id": "STMT-MODAL-SAME-NECESSARY-EFFECT",
+      "statement_id": "6f27a82f-c972-507c-a700-9d8bd13f351c",
       "value": "violates",
-      "arguments": ["World", "Being", "Ontic", "world", "source"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "source"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.noFixedEffect"
     },
     {
-      "statement_id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
+      "statement_id": "e4d54207-5e44-52db-a984-08e6428de881",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Ontic", "world", "effect"],
+      "arguments": [
+        "World",
+        "Being",
+        "Ontic",
+        "world",
+        "effect"
+      ],
       "theorem": "TruthCore.Modal.NecessaryVariableEffects.firstEffectContingent"
     }
   ],
-  "modules": ["TruthCore.Modal.NecessaryVariableEffects"]
+  "modules": [
+    "TruthCore.Modal.NecessaryVariableEffects"
+  ]
 }

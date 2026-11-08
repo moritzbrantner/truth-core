@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HOMOGENEOUS-SCALE",
+  "id": "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+  "label": "Homogeneous scale of being: HomogeneousScaleReading InAct MoreIn r over a Mathlib Preorder on the…",
+  "legacy_id": "DEF-HOMOGENEOUS-SCALE",
   "term": "homogeneous scale of being (univocal order model)",
   "definition": "`HomogeneousScaleReading InAct MoreIn r` over a Mathlib `Preorder` on the beings: every being has r, and x is more r than y exactly when y < x. Ties are allowed; a maximum is just a maximal element (`IsMax`) of the one scale, a grade homogeneous with the others.",
   "basis": "stipulative",

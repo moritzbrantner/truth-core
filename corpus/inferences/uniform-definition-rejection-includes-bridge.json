@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "id": "d9a01543-5da4-5f0f-8df9-fdd2f2fefe77",
+  "label": "Exact negation of conciliar definition is practice own standard: not every…, by… (3)",
+  "legacy_id": "INF-UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
   "input_statement_ids": [
-    "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED"
+    "3915fbb1-6020-5f07-aab9-c65793b8a7de"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "output_statement_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "rule": "constructive-proof",
   "meaning": "Project the exact old-bridge rejection from rejection of both uniform profiles. Assembly transcription and sole-premise strength; this is the explicit graph connection from the mixed case.",
   "assumption_statement_ids": [],

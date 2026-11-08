@@ -1,6 +1,8 @@
 {
-  "id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
-  "argument_id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "id": "0d4ffc5b-3dda-5c8d-a22c-703192d408cd",
+  "label": "Exact negation of NATURAL_REASON_2 is shared reason…, from Both uniform interpretations fail: not…",
+  "legacy_id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "argument_id": "96fc5477-f776-553d-b8f3-8fbaedd2aefb",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Projection.uniformRejectionIncludesShared",

@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
-  "statement_id": "STMT-UNLIMITED-ESSE-IS-INFINITE",
-  "source_id": "AQUINAS-ST",
+  "id": "153eef01-d362-5aa5-862f-e12f3cae6b52",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1 co: For every being x: if the esse of x is not limited…",
+  "legacy_id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
+  "statement_id": "be1289df-3c43-5595-99b5-1fb8d38164be",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.7 a.1 co.: Considerandum est igitur quod infinitum dicitur aliquid ex eo quod non est finitum",
   "interpretation": "Something is called infinite because it is not finite (limited). In the article infinity 'ex parte formae non determinatae per materiam' is that of perfection, and esse is the most formal of all; q.7 a.2 co. denies infinity simpliciter to a subsistent created form exactly because its esse is received and contracted to a determinate nature. Read as: a being whose esse is not limited is infinite in this sense of perfection. Only this sufficient condition is formalized; the primitive Infinite is not defined by it, and quantitative infinity (a.1 ad 2) is excluded.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSE-LIMITED",
-    "DEF-INFINITE",
-    "DEF-ESSE"
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-INFINITY"
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6"
   ]
 }

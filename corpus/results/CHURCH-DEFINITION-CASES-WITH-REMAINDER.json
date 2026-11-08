@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
-  "argument_id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "id": "87077116-82a1-5f8a-a531-547be4e67851",
+  "label": "The visible, spiritual, joint-aspect or explicit…, from Excluded middle as a general principle…",
+  "legacy_id": "CHURCH-DEFINITION-CASES-WITH-REMAINDER",
+  "argument_id": "455f1107-df5d-56d5-86ba-eb231d751ed1",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Coverage.criterionCoverage",
@@ -9,29 +11,29 @@
   "description": "Three explicit EM instances check visible, spiritual, joint-aspect or neither-named-extension coverage. Named coverage is not proved and exclusivity is not claimed.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION",
+    "target_statement_id": "ebf1192b-3bba-5783-a9a7-e0acbcaec91d",
     "cases": [
       {
         "label": "visible criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.VisibleCriterion",
-        "statement_id": "STMT-CHURCH-HAS-VISIBLE-CRITERION"
+        "statement_id": "c2e79f3b-6c9d-577a-88ed-ec6da56a2cf9"
       },
       {
         "label": "spiritual criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.SpiritualCriterion",
-        "statement_id": "STMT-CHURCH-HAS-SPIRITUAL-CRITERION"
+        "statement_id": "287ba0c4-57db-5306-98bc-3b6ce25ef17b"
       },
       {
         "label": "joint-aspect criterion",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.JointAspectCriterion",
-        "statement_id": "STMT-CHURCH-HAS-JOINT-ASPECT-CRITERION"
+        "statement_id": "ebf1192b-3bba-5783-a9a7-e0acbcaec91d"
       },
       {
         "label": "additional Church extension",
         "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.AdditionalChurchCriterion",
-        "statement_id": "STMT-CHURCH-HAS-ADDITIONAL-CRITERION"
+        "statement_id": "438b2b09-f4a3-539a-8d4d-3c6c06afb20a"
       }
     ],
-    "survival_result_id": "CHURCH-DEFINITION-INTERPRETATION-MODELS"
+    "survival_result_id": "1b431a88-e968-5bbe-be7b-eed9cdb6c2c2"
   }
 }

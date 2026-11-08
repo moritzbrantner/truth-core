@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLAN-STATE-SUPPORT",
+  "id": "2b5fce13-1e2b-535d-9d16-a58274d04626",
+  "label": "Support at a descriptive/plan point: A factual atom is supported when its factual valuation is\u2026",
+  "legacy_id": "DEF-PLAN-STATE-SUPPORT",
   "term": "support at a descriptive/plan point",
   "definition": "A factual atom is supported when its factual valuation is true; a forbidden-action atom when the permission plan assigns false; a conditional when its antecedent is unsupported or its consequent supported. The material conditional clause is stipulated and is not attributed to an unavailable primary text.",
   "basis": "stipulative",

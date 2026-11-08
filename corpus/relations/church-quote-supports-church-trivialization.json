@@ -1,9 +1,11 @@
 {
-  "id": "REL-CHURCH-QUOTE-SUPPORTS-CHURCH-TRIVIALIZATION",
+  "id": "6797f018-2f89-5bba-b0f2-39a12aea1313",
+  "label": "Jennifer Hart Weed, Religious Language §2a… supports Church's trivialization of Ayer's 1946…",
+  "legacy_id": "REL-CHURCH-QUOTE-SUPPORTS-CHURCH-TRIVIALIZATION",
   "subject_kind": "claim",
-  "subject_id": "IEP-REL-LANG-2A-CHURCH",
+  "subject_id": "e9b942ad-581e-5833-acca-86d70e434ab6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CHURCH-1949-TRIVIALIZATION",
+  "object_id": "24bc4f45-7a05-51ae-b3ba-0a5ee68119c4",
   "note": "Gap, in the direction of a stronger theorem: the Lean statement uses only two of Church's non-entailments (O1 does not entail O3, O3 does not entail O2) and states the disjunction constructively (if not-S is not directly verifiable, S is indirectly verifiable). Every step of Church's quoted proof is a step of the Lean proof."
 }

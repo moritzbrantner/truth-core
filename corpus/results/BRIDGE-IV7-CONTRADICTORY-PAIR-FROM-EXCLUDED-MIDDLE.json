@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
-  "argument_id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "id": "29fe4476-ee77-5eda-97eb-6a1d4d852daa",
+  "label": "Every state either has F or lacks it: no state lies between the two sides of…, from excluded middle",
+  "legacy_id": "BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "argument_id": "6351bf87-7563-5c19-9720-9f160a740b3c",
   "challenge_module": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.Challenge",
   "solution_module": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.Solution",
   "theorem": "TruthCore.Results.Bridges.IV7ContradictoryPairFromExcludedMiddle.contradictoryPairDecidedOfExcludedMiddle",

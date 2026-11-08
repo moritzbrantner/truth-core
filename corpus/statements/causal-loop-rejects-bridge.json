@@ -1,16 +1,18 @@
 {
-  "id": "STMT-CAUSAL-LOOP-REJECTS-BRIDGE",
+  "id": "36e0c28f-7799-5b94-a92f-1e9641734a21",
+  "label": "Some model satisfies jointly: the anchors, the #1113 bridge, N1, N2, N3 and N3i in the…",
+  "legacy_id": "STMT-CAUSAL-LOOP-REJECTS-BRIDGE",
   "paraphrase": "Some model satisfies jointly: the anchors, the #1113 bridge, N1, N2, N3 and N3i in the part-of-spacetime sense, the weak causal-concreteness floor item, the exercise-to-power reading, no self-causation, containment, that the whole satisfies the thesis, and that the spacetime whole has an existing cause, while the whole-to-part bridge fails; and there is a causal loop through the cause: some existing proper part c of spacetime causes the whole, and c and a distinct proper part d cause each other. It certifies that a naturalist who grants a caused universe can escape by a causal loop that denies the bridge.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausalLoopRejectsBridge",
   "definition_ids": [
-    "DEF-CAUSING-WHOLE-CAUSES-PARTS",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS",
-    "DEF-NATURALISM-N1",
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-UNIVERSE-HAS-EXISTING-CAUSE"
+    "b08eee83-058e-507e-8b94-e7b448a6bf39",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "b5879267-0c69-579d-b992-819336a19028"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

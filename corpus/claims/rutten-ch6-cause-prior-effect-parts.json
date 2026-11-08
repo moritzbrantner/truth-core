@@ -1,27 +1,29 @@
 {
-  "id": "RUTTEN-CH6-CAUSE-PRIOR-EFFECT-PARTS",
-  "statement_id": "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "ff074536-9ca5-5266-a0cb-e735d6376226",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Every complete-cause edge makes its cause existentially…",
+  "legacy_id": "RUTTEN-CH6-CAUSE-PRIOR-EFFECT-PARTS",
+  "statement_id": "7b64240e-6483-5c85-a3c9-b2f6194ba7cb",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VI, printed p.135 P5 defense; p.124 footnote174",
   "interpretation": "The P5 defense explicitly asserts priority of an existence-producing cause to its effect AND EACH OF ITS PARTS. This is an additional priority interface, not derived from cause-to-effect and proper-part-to-whole alone. Includes the improper part under standard reflexive parthood. Full materialized chapter printed123–135/PDF125–137 was read, and these precise contexts reread. Source assertion is not independent premise truth, actuality, necessity or God.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART",
-    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
-    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
-    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00",
+    "dd3d4361-4d99-568d-9479-f4c631bfc352",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b",
+    "0ec36774-a6bd-58cd-80c1-3b3e575cb272"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

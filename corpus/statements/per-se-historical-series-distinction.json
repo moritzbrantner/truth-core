@@ -1,15 +1,17 @@
 {
-  "id": "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "id": "9ce7ab53-355e-5035-b860-69276b2a5116",
+  "label": "Analyst formulation, attribution deferred: for any proposed historical and essential relations…",
+  "legacy_id": "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
   "paraphrase": "Analyst formulation, attribution deferred: for any proposed historical and essential relations, well-founded essential dependence excludes a Nat-indexed historical descent if every historical edge is essential. Without that dictionary, a concrete Option Nat model has nonempty well-founded essential dependence (none sustains each some n), while the same some n form an injective infinite historical descent with a historical predecessor for every member and no historical edge essential. Formal relation-level compatibility only, not metaphysical possibility, actual history, a temporal/intervention semantics or permission for all per-accidens series. Existing finite-depth and Second Way omission controls are reused unchanged.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerSeHistoricalSeriesDistinction",
   "definition_ids": [
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-PER-ACCIDENS-ORDERED-SERIES",
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES"
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "6ed9fbb9-f419-5eee-9ef5-a2c4f0f1ffa7",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "21910345-6932-5931-8953-493c8f7e1000"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

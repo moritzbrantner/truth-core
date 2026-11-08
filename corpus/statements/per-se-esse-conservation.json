@@ -1,12 +1,14 @@
 {
-  "id": "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
+  "id": "303d4ae5-a990-55ea-8b61-173b5ba215d3",
+  "label": "God's direct, per-se conservation of a creature's esse is the continuation of God's action giving…",
+  "legacy_id": "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE",
   "paraphrase": "God's direct, per-se conservation of a creature's esse is the continuation of God's action giving it esse, rather than merely preventing a corrupting event.",
   "definition_ids": [
-    "DEF-PER-SE-ESSE-CONSERVATION",
-    "DEF-PER-ACCIDENS-PRESERVATION",
-    "DEF-ESSE"
+    "56989bd0-a232-56ea-9093-c89350effff4",
+    "8d71c8ed-2df6-583b-8a39-8526a4e7e110",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRESERVATION-MODE"
+    "89d65409-48a7-5ecb-a697-f81c5098ee5f"
   ]
 }

@@ -4,14 +4,16 @@
     "retrieved_at": "2026-11-05T19:54:41Z",
     "sha256": "sha256:af0aa004d7c1ce418d7df24e8da20ffebb71d1ecdd7040b35b0989563512b001",
     "kind": "web_snapshot",
-    "source_id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021",
+    "source_id": "ea711c09-6c9b-5dc1-b825-f9807c128a37",
     "encoding": "utf-8",
     "language": "eng",
     "license": "Copyright2019 Taylor & Francis; complete archived public PhilPapers author deposit; no book/publisher paywall bypass. Older/later1MiB-truncated archive captures rejected."
   },
   "passages": [
     {
-      "id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021-ARTICLE",
+      "id": "0ef26ec8-b42a-59aa-89ef-7b13d90a2b77",
+      "label": "Kevin Richardson, Grounding is Necessary and Contingent, Grounding is Necessary and Contingent…",
+      "legacy_id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021-ARTICLE",
       "locator": "Grounding is Necessary and Contingent, complete supplied PDF including front matter and references",
       "claim_locator_prefixes": [
         "PDF p.",

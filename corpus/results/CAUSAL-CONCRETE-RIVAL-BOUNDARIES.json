@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
-  "argument_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
+  "id": "105ad261-8897-573c-b403-0a1bd42acc13",
+  "label": "Three exact finite controls: compatible productive set/Form and nonproductive math relevance…",
+  "legacy_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
+  "argument_id": "29240c05-c980-56c9-82cd-bf9633516003",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.Controls.controls",

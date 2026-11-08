@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
+  "id": "fc2912b3-613c-52cc-84d3-9135cc456efe",
+  "label": "Every power satisfying the selected governing predicate is governing in the fixed table or is the…",
+  "legacy_id": "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
   "paraphrase": "OPEN analyst premise, attribution deferred: every power satisfying the selected governing predicate is governing in the fixed table or is the power to teach. A criterion that also counts baptizing, preaching or making disciples as governing falsifies it.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedGoverningWithinTableOrTeaching",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA"
+    "4bd8469b-0101-5628-b94d-daa4264972d5"
   ]
 }

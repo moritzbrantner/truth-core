@@ -1,15 +1,17 @@
 {
-  "id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual…",
+  "legacy_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
   "paraphrase": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual exercise requires its bearer to be in act in some respect. No act-of-esse, indexed existence, bodily independence or subsistence conclusion is included; exact q75 attribution is deferred.",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",
   "definition_ids": [
-    "DEF-COGITO-INTELLECTUAL-EXERCISE-IN-ACT",
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-ACT"
+    "acd05a1f-9ba3-5ed9-abd4-e748a1efce32",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
-    "DISAMB-IN-ACT"
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "note": "Open analyst input of the independently registered COGITO-BEARER-CONCRETE-FROM-OPERATION conditional argument. Previously checked only as a companion theorem in the existence-route configuration; now visible in the argument graph. No premise truth, source attribution or floor approval is inferred. See docs/notes/cogito-esse-1113.md and ATTEMPT-COGITO-ESSE-1113."
 }

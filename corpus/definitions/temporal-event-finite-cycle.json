@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
+  "id": "4ffdfea6-0a5a-513c-a710-050648c260bf",
+  "label": "Finite event cycle and entity feedback: EventAcyclic C is ∀ e, ¬ Relation.TransGen C e e, where…",
+  "legacy_id": "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
   "term": "finite event cycle and entity feedback",
   "definition": "EventAcyclic C is ∀ e, ¬ Relation.TransGen C e e, where Mathlib TransGen is nonempty finite reachability. BeingEdge bearer C x y projects an edge between particular event tokens to their bearers. A closed walk in the projected graph need not lift to a closed walk over event tokens. ReciprocalConstraint says each pair C e f and C f e has equal exercise times and different target event respects; it is only a two-edge constraint and not universal acyclicity or well-foundedness.",
   "basis": "stipulative",

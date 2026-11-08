@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE",
-  "statement_id": "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
-  "source_id": "AQUINAS-ST",
+  "id": "40aefb2e-c9b3-5bb1-8802-96bbc4e2ed83",
+  "label": "Thomas Aquinas, Summa theologiae I q.104…: An agent can cause an effect's coming-to-be without…",
+  "legacy_id": "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE",
+  "statement_id": "91062e01-6ddb-5764-8400-ce5d2a30778c",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.104 a.1 co.: cause of becoming and cause of being",
   "interpretation": "The builder example illustrates a cause of the house's becoming whose ceased building does not end the house's being. The article contrasts this with a cause of being as such, on whose action the effect's being depends. The distinction does not deny every causal contribution of the builder and does not say that all preservation is direct conservation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CAUSE-OF-BECOMING",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-PER-SE-ESSE-CONSERVATION"
+    "e9630411-ffc6-534a-8509-bf357272dec9",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "56989bd0-a232-56ea-9093-c89350effff4"
   ],
   "disambiguation_ids": [
-    "DISAMB-BECOMING-BEING-CAUSE",
-    "DISAMB-PRESERVATION-MODE"
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "89d65409-48a7-5ecb-a697-f81c5098ee5f"
   ],
   "basis": "translation"
 }

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "RUTTEN-RENEWED-THEISM-2012",
+    "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
     "source_url": "https://www.gjerutten.nl/TowardsARenewedCaseForTheism_ERutten.pdf",
     "retrieved_at": "2026-11-01T16:11:11Z",
     "sha256": "sha256:aaf4942b77a4f54f3c5d26f56f9d3880e2afd97425eeb478b3a71128bb5028d0",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "RUTTEN-RENEWED-THEISM-CH6",
+      "id": "59fe8ad6-939d-5a95-bb0d-fda4886601ae",
+      "label": "Gerardus Johannes Emanuel Rutten, A Critical Assessment of Contemporary Cosmological Arguments…",
+      "legacy_id": "RUTTEN-RENEWED-THEISM-CH6",
       "locator": "2012 dissertation, chapter VI, printed pp.123–135 (physical PDF pp.125–137)",
       "claim_locator_prefixes": [
         "2012 dissertation, chapter VI,"

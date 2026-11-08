@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS",
-  "argument_id": "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS",
+  "id": "c1cff78f-c1e0-5b6b-a204-204c572af4ba",
+  "label": "Jesus founded at least one society satisfying the selected Church predicate, from commission reports",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-COMMISSION-REPORTS",
+  "argument_id": "cce0145f-4c3c-5dfb-b96c-9665ae101e0c",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.selectedChurchFromCommissionReports",

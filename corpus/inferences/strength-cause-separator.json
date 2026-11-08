@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-CAUSE-SEPARATOR",
+  "id": "ec69db89-2105-59c0-b87d-2a4beb8a3955",
+  "label": "In the specified Bool setting only false is generated and the…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-CAUSE-SEPARATOR",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
+  "output_statement_id": "478e6119-f52b-5b9b-85f5-9008b5fb8dfc",
   "rule": "typed_strength_comparison",
   "meaning": "The specified identity-only Bool setting satisfies W and not S under exactly the same empty background and decidable identity.",
   "assumption_statement_ids": [],

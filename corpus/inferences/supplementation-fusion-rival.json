@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPPLEMENTATION-FUSION-RIVAL",
+  "id": "82ebfc8a-788b-5aa6-af12-a2e940fc1467",
+  "label": "The fixed four-object Mathlib partial order has a,b strictly…, by Typed-partial-order-supplemen…",
+  "legacy_id": "INF-SUPPLEMENTATION-FUSION-RIVAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPPLEMENTATION-FUSION-RIVAL",
+  "output_statement_id": "c80e71d4-14a5-5ea5-82ca-0738f38c42c3",
   "rule": "typed-partial-order-supplementation-and-fusion",
   "meaning": "Certify one fixed four-object partial order jointly, quantifying over every nonempty Set for Sum3. Two distinct composites share the same proper parts and are duplicate selected Sum2 fusions. Their missing common upper bound refutes existing unrestricted Sum2; strong supplementation, overlap extensionality, greatest entity and null object fail. This witnesses the stated mathematical rival only, not actual ontology or full classical extensional mereology.",
   "assumption_statement_ids": [],

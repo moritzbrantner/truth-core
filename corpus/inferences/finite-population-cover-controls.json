@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-POPULATION-COVER-CONTROLS",
+  "id": "1fae3a87-545a-5524-95dc-157870a176cc",
+  "label": "The alternating model fails amalgamation; infinite Nat tails are populated and…, by Direct-proof",
+  "legacy_id": "INF-FINITE-POPULATION-COVER-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-POPULATION-COVER-CONTROLS",
+  "output_statement_id": "d846e44f-718c-5850-b6f5-5b90220cb75a",
   "rule": "direct-proof",
   "meaning": "The alternating model fails amalgamation; infinite Nat tails are populated and individually contingent with amalgamation but have neither DeRe nor finite population cover; with no successors even an empty roster satisfies cover, amalgamation and contingency without joint absence.",
   "assumption_statement_ids": [],

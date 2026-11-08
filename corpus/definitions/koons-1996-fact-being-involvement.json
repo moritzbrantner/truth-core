@@ -1,14 +1,16 @@
 {
-  "id": "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
+  "id": "a3b179ce-b769-55bc-bda1-a2cb8626f36f",
+  "label": "POSSIBLE_FACT_2, actual obtaining…: Possible concrete facts/events/states of affairs are distinct…",
+  "legacy_id": "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT",
   "term": "possible fact, actual obtaining, involved being/property and necessary being/system in Koons1996 Corollary1",
   "definition": "Possible concrete facts/events/states of affairs are distinct from propositions. Actuality is a possible fact obtaining. Corollary1 presumes every fact includes some being and a property of it, assumes actual involvement requires the being’s actual existence, and infers necessary existence of some being or system from a necessary fact.",
   "basis": "stipulative",
   "claim_ids": [
-    "KOONS-1996-COR1-FIXED-FACT-MODAL-DOMAIN",
-    "KOONS-1996-COR1-FACT-BEING-PROPERTY-INVOLVEMENT",
-    "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE",
-    "KOONS-1996-COR1-CONDITIONAL-NECESSARY-FACT-BEING",
-    "KOONS-1996-COR1-CONDITIONAL-COSMOS-CAUSE-BEING"
+    "b3eaf159-dcdf-5823-8822-e7e24f97112f",
+    "9d4b05a7-07c7-5e78-a0c5-7d4390b6b68c",
+    "bf82ffba-2e6f-5dc9-a1d2-3069c3c87c03",
+    "c14513b7-07e8-5065-a46d-a341c12c31b2",
+    "1039a9fa-9ba4-50e4-b6d1-3c5288f0b10b"
   ],
   "note": "Editorial source glossary, not a new formal framework. Fixed fact domain differs from fixed bearer constitution and all-world realization. Source T connects necessity and actual obtaining; the existing Arena consumer instead explicitly retains both actual and boxed truth without assuming reflexivity. No arbitrary K assignment proves real involvement, and no cause-fact is identified with an ordinary causing individual or classical God."
 }

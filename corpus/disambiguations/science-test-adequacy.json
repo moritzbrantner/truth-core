@@ -1,12 +1,44 @@
 {
-  "id": "DISAMB-SCIENCE-TEST-ADEQUACY",
+  "id": "fc31f2fd-5fee-5233-8567-5522662cee5b",
+  "label": "Experimental success, auxiliary trust, certainty, judgment and calibration",
+  "legacy_id": "DISAMB-SCIENCE-TEST-ADEQUACY",
   "term": "experimental success, auxiliary trust, certainty, judgment and calibration",
   "sense_definition_ids": [
-    "DEF-SCIENCE-THEORY-LADEN-TEST",
-    "DEF-SCIENCE-CRUCIAL-TEST-CERTAINTY",
-    "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE",
-    "DEF-CONSTANT-ADDITIVE-CALIBRATION",
-    "DEF-INPUT-DEPENDENT-CALIBRATION"
+    "2835b1dc-9019-5f31-9fbb-b1ff121b54e1",
+    "3d5f56b8-b1a0-58cb-bf9a-772dbc92618f",
+    "ebb31a86-84eb-566c-a270-7dfe924d9796",
+    "bcf84d19-5115-5e99-9197-a54a59499617",
+    "f83ac5df-d7a9-5daf-bf7d-e3cb8834dcd8"
   ],
-  "resolution": "Practical application, testing a theoretical ensemble, selecting a faulty member, and establishing the unique true theory are different tasks. Duhem does not equate lack of deductive certainty with absence of rational empirical choice. In the analyst model, agreement means exact predicted response equality, not shared true laws or a sufficient ontological explanation. A common anchor is a supplied equality, not epistemic justification for that value; identifying profiles under constant bias proves neither actual instrument stability nor independence of calibration. Input-dependent bias is a separate control, not silently included in the constant-bias identification theorem. No claim here transfers a scientific or epistemic regress norm automatically to causal activity."
+  "resolution": "Practical application, testing a theoretical ensemble, selecting a faulty member, and establishing the unique true theory are different tasks. Duhem does not equate lack of deductive certainty with absence of rational empirical choice. In the analyst model, agreement means exact predicted response equality, not shared true laws or a sufficient ontological explanation. A common anchor is a supplied equality, not epistemic justification for that value; identifying profiles under constant bias proves neither actual instrument stability nor independence of calibration. Input-dependent bias is a separate control, not silently included in the constant-bias identification theorem. No claim here transfers a scientific or epistemic regress norm automatically to causal activity.",
+  "term_label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT",
+  "senses": [
+    {
+      "id": "9377ac9c-bcec-4229-a921-cefc12a85dc8",
+      "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_1",
+      "definition_id": "2835b1dc-9019-5f31-9fbb-b1ff121b54e1"
+    },
+    {
+      "id": "549f4839-6442-4eb9-8448-e22e60e12902",
+      "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_2",
+      "definition_id": "3d5f56b8-b1a0-58cb-bf9a-772dbc92618f"
+    },
+    {
+      "id": "6f401182-a754-46d4-9c82-64190a4d5698",
+      "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_3",
+      "definition_id": "ebb31a86-84eb-566c-a270-7dfe924d9796"
+    },
+    {
+      "id": "99f944c6-ac62-4042-81c1-de139304fcd0",
+      "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_4",
+      "definition_id": "bcf84d19-5115-5e99-9197-a54a59499617",
+      "lean_declaration": "TruthCore.Science.MeasurementCalibration.SameReadings"
+    },
+    {
+      "id": "75e45056-ef71-4d50-94d8-f39a0de0e6c5",
+      "label": "EXPERIMENTAL_SUCCESS_AUXILIARY_TRUST_CERTAINTY_JUDGMENT_5",
+      "definition_id": "f83ac5df-d7a9-5daf-bf7d-e3cb8834dcd8",
+      "lean_declaration": "TruthCore.Science.MeasurementCalibration.SameVariableReadings"
+    }
+  ]
 }

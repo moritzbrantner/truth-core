@@ -1,16 +1,18 @@
 {
-  "id": "KLEIN-TURRI-4C-OPPOSED-CHAINS",
-  "statement_id": "STMT-KLEIN-TURRI-OPPOSED-CHAINS-CHALLENGE",
-  "source_id": "KLEIN-TURRI-INFINITISM",
+  "id": "db980e60-f58d-5c86-a0e0-9edb59798500",
+  "label": "Peter D. Klein and John Turri, Infinitism…: The article presents the opposed-chain objection to…",
+  "legacy_id": "KLEIN-TURRI-4C-OPPOSED-CHAINS",
+  "statement_id": "4222a24d-466a-5b60-b933-581454f7fb97",
+  "source_id": "d148e888-733b-5c82-8557-f453930be43d",
   "locator": "§4c, affirmation/denial constructions and final paragraph",
   "interpretation": "Prose reading only. Bare shape does not settle which chain has epistemic authority; the reported availability restriction needs independent defense, and the objection is not recorded as an established defeat of all infinitism.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+    "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e"
   ]
 }

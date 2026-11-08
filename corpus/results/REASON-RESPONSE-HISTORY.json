@@ -1,6 +1,8 @@
 {
-  "id": "REASON-RESPONSE-HISTORY",
-  "argument_id": "REASON-RESPONSE-HISTORY",
+  "id": "429127f4-1e56-54c3-8678-f8c0dcd656cc",
+  "label": "In a stipulated two-stage deterministic mechanism using the exact ChoiceContext action, copying…",
+  "legacy_id": "REASON-RESPONSE-HISTORY",
+  "argument_id": "3e6d2589-afc6-5c3c-a8bc-075190158bde",
   "challenge_module": "TruthCore.Results.Modal.ReasonResponseHistory.Challenge",
   "solution_module": "TruthCore.Results.Modal.ReasonResponseHistory.Solution",
   "theorem": "TruthCore.Results.Modal.ReasonResponseHistory.certificate",

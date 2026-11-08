@@ -1,6 +1,8 @@
 {
-  "id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
-  "argument_id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "id": "9ef3d66b-c7bd-56ab-84a5-dc35384cf365",
+  "label": "A nonempty schema interpretation retains matched religious truth invariance but fails local…",
+  "legacy_id": "RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "argument_id": "22d259bc-0424-58db-acc0-637a988a952b",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.DescriptionModel.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.nonDescriptiveModel",

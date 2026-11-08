@@ -1,17 +1,19 @@
 {
-  "id": "INF-WHOLE-ROSTER-NECESSARY-CONCRETE",
+  "id": "11b95123-9e23-5dc2-a6bd-8b68128198e0",
+  "label": "Some concrete individual exists at w and at every world accessible from w…, by Constructive-proof",
+  "legacy_id": "INF-WHOLE-ROSTER-NECESSARY-CONCRETE",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "constructive-proof",
   "meaning": "Actual population and whole-roster nontrapping yield a source of the selected actual concrete relation: otherwise nonempty contributor records make the whole roster a Trap. Contingent dependence and explicit excluded middle exclude contingency of that same actual root, yielding existing NecessaryConcreteAt. No all-subsets cut, WF or inductive Supply assumption is used. No uniqueness, full explanatory completion or independent premise defense is asserted.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": [],
   "disambiguation_ids": [
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959"
   ]
 }

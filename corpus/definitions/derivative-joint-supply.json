@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+  "id": "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+  "label": "JOINT_CONTRIBUTOR_SUPPLY_3, local…: Supply inductively admits independently specified intrinsic…",
+  "legacy_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
   "term": "joint contributor supply, local productive activity and borrowing-cut escape",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply",

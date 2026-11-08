@@ -1,18 +1,20 @@
 {
-  "id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
+  "id": "42ba31ab-e815-512d-906f-67b64eae56fe",
+  "label": "One finite profile has an actual union, same-act communication and canonical reception by the…",
+  "legacy_id": "IDENTITY-SCOPED-RECEPTION-STRICTNESS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-IDENTITY-SCOPED-RECEPTION-STRICTNESS-CONTROL",
+  "conclusion_statement_id": "9d08831a-e912-5f90-96c1-2c33bc4a0461",
   "inference_ids": [
-    "INF-IDENTITY-SCOPED-RECEPTION-STRICTNESS"
+    "3ebe50be-224f-5817-b9d6-8e065f4d39c0"
   ],
   "meaning": "Finite strictness profile: broad own-essence fails at an actual nonidentity soul-labelled reception tuple while the identity-scoped premise holds and an identity candidate exists. This does not claim the entire five-premise infinity bundle.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-REPORT-PAUL-RECEIVED-APPEARANCES",
+  "id": "f7c4e2ea-23b6-546e-9420-9331193c3a8d",
+  "label": "The speaker says he transmitted what he received: death, burial, rising and appearances to Cephas…",
+  "legacy_id": "STMT-PILOT-REPORT-PAUL-RECEIVED-APPEARANCES",
   "paraphrase": "The speaker says he transmitted what he received: death, burial, rising and appearances to Cephas, the Twelve, more than five hundred at once, James, all the apostles, and himself. Textual report only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.FirstCorinthians.PaulReceivedAppearances",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

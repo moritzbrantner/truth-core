@@ -1,17 +1,19 @@
 {
-  "id": "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC",
+  "id": "97c779cd-6171-5734-93ef-c06b15941437",
+  "label": "Inside each world, the existing individuals with that world's Causes edges form an acyclic graph…",
+  "legacy_id": "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC",
   "lean_declaration": "TruthCore.Causality.WorldSourceRegress.ActualAcyclic",
   "paraphrase": "Inside each world, the existing individuals with that world's Causes edges form an acyclic graph: no actual node has a nonempty finite return path. No cross-world causal overlay or world-accessibility condition is imposed.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

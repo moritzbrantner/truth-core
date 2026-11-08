@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-COUNTERMODELS",
+  "id": "a73eb5f2-ad09-5f53-8b62-a4377bc3b17d",
+  "label": "The explicit three-world chain is reflexive and symmetric but not transitive, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-COUNTERMODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-COUNTERMODELS",
+  "output_statement_id": "8de85d86-3629-5331-a025-33cfc50c5d91",
   "rule": "direct-proof",
   "meaning": "Check each finite edge and atom by constructor cases. Compose the K full-collapse characterization, use p or Box p or not-p to reject modal-language MC, and exhibit the inventory counterexample using left and right witnesses.",
   "assumption_statement_ids": [],

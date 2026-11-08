@@ -1,21 +1,26 @@
 {
-  "id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "id": "99d3480d-f9f4-5410-986c-a78f6b06c3a0",
   "premise_statement_ids": [
-    "STMT-SUCCESSION-REQUIRES-POTENCY",
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
-    "STMT-PURE-ACT-LIVES",
-    "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY"
+    "ebccb272-1275-5558-948a-4485504229a0",
+    "812b52b3-de7d-5982-93a9-e46b6e169616",
+    "1773079b-236a-5f7d-b1e9-fb8f23202341",
+    "a35acca8-cc3e-51ff-98f1-4491d3f0c119"
   ],
-  "conclusion_statement_id": "STMT-IMMUTABLE-IS-ETERNAL",
+  "conclusion_statement_id": "0659227c-0979-579c-910b-03a1967f49c5",
   "inference_ids": [
-    "INF-IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN"
+    "4e467421-71aa-50ff-b5fe-b1a6b6d9f645"
   ],
   "meaning": "Compose the existing typed immutableIsBoethianEternal theorem with the explicit one-way recognition transfer to the EXACT all-beings ImmutableIsEternalReading root premise. Succession-to-subject-potency, boundary-to-subject-potency, and pure-act-has-life stay separately visible. No inference from immutable to alive is hidden in a definition.",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
-  ]
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
+  ],
+  "strong_version_needed": {
+    "812b52b3-de7d-5982-93a9-e46b6e169616": "Its pure-act conclusion quantifies over potency in the subject (MUTABLE_1), so the boundary premise is needed in that sense; the weaker MUTABLE_3 reading STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY reaches it only with the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY; batch 4 of #1233)."
+  },
+  "label": "What is altogether IMMUTABLE_1, in potency in no respect, is ETERNAL_1…, from typed boethian",
+  "legacy_id": "IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN"
 }

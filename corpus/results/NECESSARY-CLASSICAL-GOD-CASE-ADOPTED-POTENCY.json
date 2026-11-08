@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-CASE-ADOPTED-POTENCY",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-CASE-ADOPTED-POTENCY",
+  "id": "142d696d-6dfd-57dc-8ded-d6f34908f33a",
+  "label": "Catholicism is TRUE_1: the Catholic\u2026, from Some candidate is CONCRETE_6 and exists at\u2026 and 31 more",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-CASE-ADOPTED-POTENCY",
+  "argument_id": "1deb1d29-d514-591d-9b2d-26eb4401d371",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.NecessaryClassicalGodCase.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.NecessaryClassicalGodCase.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.NecessaryClassicalGodCase.derive",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "id": "96165ebe-adf0-5375-b708-2211570b420d",
+  "label": "For any typed goal-and-action profile, if a valued end is in…, by Constructive-conditional-proo…",
+  "legacy_id": "INF-LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
+  "output_statement_id": "ab0e2471-5147-54bc-a13a-ca53f6857947",
   "rule": "constructive-conditional-proof-and-finite-countermodels",
   "meaning": "Eliminate the realized-end witness using uniqueness of the effective action to derive performance. Independently check two inhabited two-action profiles with identical ends, effects and behavior, assigning and withholding a categorical-duty predicate. The successful goal does not supply a deontic bridge or any claim of actual objective duties.",
   "assumption_statement_ids": [],

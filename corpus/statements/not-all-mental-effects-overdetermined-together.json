@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NOT-ALL-MENTAL-EFFECTS-OVERDETERMINED-TOGETHER",
+  "id": "35380f79-235f-5d39-9cbf-a6d07772029e",
+  "label": "Not every PHYSICAL_2 effect of every occurrence of the target mental kind is overdetermined by that…",
+  "legacy_id": "STMT-NOT-ALL-MENTAL-EFFECTS-OVERDETERMINED-TOGETHER",
   "paraphrase": "Not every physical effect of every occurrence of the target mental kind is overdetermined by that occurrence. This requires only one such cause and effect pair, and says nothing of any other occurrence.",
   "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.NotAllOverdeterminedTogether",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-MIND-PHYSICAL-BASIS",
-    "DEF-MIND-PREMISE-3-COLLECTIVE",
-    "DEF-PAPINEAU-PHYSICAL",
-    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+    "103b1f9f-c1c8-5e42-8378-6b01f8ab8e3b",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "bdd6a7f4-e14f-5b04-bd27-1f13b409a500"
   ],
   "disambiguation_ids": [
-    "DISAMB-PAPINEAU-PREMISE-3-SCOPE"
+    "35f7bb2c-9506-5ce6-8676-05da4e761177"
   ]
 }

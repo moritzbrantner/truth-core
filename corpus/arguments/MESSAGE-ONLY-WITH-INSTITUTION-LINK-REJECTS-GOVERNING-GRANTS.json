@@ -1,21 +1,23 @@
 {
-  "id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "id": "fd6a0afa-c4f3-5f2c-a33d-725421eceae6",
+  "label": "Jesus gave or promised none of the…, from Rival to mandate covers jesus founding of… and 2 more",
+  "legacy_id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
   "premise_statement_ids": [
-    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
-    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
-    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+    "f984563a-ae82-507e-b374-aff896f48ee9",
+    "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
+    "68bcf931-603b-5f03-a077-18f16f9428bd"
   ],
-  "conclusion_statement_id": "STMT-NO-GOVERNING-GRANT",
+  "conclusion_statement_id": "548d2c4e-c62f-5aad-af2f-58d2067ac64c",
   "inference_ids": [
-    "INF-MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS"
+    "80975878-f19e-583f-a21f-11d9e49696d7"
   ],
   "meaning": "An actual mandator and founded visible body make the institutional link nonvacuous. A governing grant would then give the very founding-in-mandate the raw rival denies.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

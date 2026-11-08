@@ -1,7 +1,9 @@
 {
-  "id": "INF-PARM-NONSPATIAL-REPLY",
+  "id": "81132595-d8fd-5eb9-abb4-1aafcef3d625",
+  "label": "A finite interpretation satisfies the existing separated explanatory Forms…, by Model-construction",
+  "legacy_id": "INF-PARM-NONSPATIAL-REPLY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PARM-NONSPATIAL-POSSIBLE",
+  "output_statement_id": "564162f4-6f41-5747-8f39-24e06efc7b03",
   "rule": "model-construction",
   "meaning": "Compose the existing PLATONIC-SELF-PREDICATING-CONSISTENT theorem with the whole/part objection theorem. Keep its two-particular unique-Form separated-causal commitments, interpret all proper-part and spatial allocation predicates as empty, and retain participation. This is a finite countermodel to the necessity of spatial distribution, not an account of why participation explains.",
   "assumption_statement_ids": [],

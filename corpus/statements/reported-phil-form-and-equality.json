@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-PHIL-FORM-AND-EQUALITY",
+  "id": "2b67b7e9-59b2-5af9-bde4-7d9914b6702f",
+  "label": "The letter presents Christ Jesus as existing in God’s form and not regarding being equal with God…",
+  "legacy_id": "STMT-REPORTED-PHIL-FORM-AND-EQUALITY",
   "paraphrase": "The letter presents Christ Jesus as existing in God’s form and not regarding being equal with God as harpagmos; the disputed noun is retained without choosing acquisition, retention or exploitation. Textual attribution only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.ReportedFormAndEquality",
   "definition_ids": [
-    "DEF-PHIL-CHRISTOLOGY-REPORT"
+    "c9170618-ccb7-53ac-948d-35ad3ca39f65"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHIL-CHRISTOLOGY"
+    "10dde11a-643e-5295-89e6-27d15f130cb1"
   ]
 }

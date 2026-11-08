@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-FIXTURE-CHECKS",
-  "argument_id": "MODAL-FIXTURE-CHECKS",
+  "id": "73a77488-4f88-516d-824a-eb1474ab61dd",
+  "label": "Mathematical fixture laws with exact quantified assumptions: IDENTITY_PREDICATE_ADMISSIBILITY_3 and…",
+  "legacy_id": "MODAL-FIXTURE-CHECKS",
+  "argument_id": "1fd8b093-e50d-552b-bbe4-255d15cd3762",
   "challenge_module": "TruthCore.Results.Modal.ResearchFixture.Challenge",
   "solution_module": "TruthCore.Results.Modal.ResearchFixture.Solution",
   "theorem": "TruthCore.Results.Modal.ResearchFixture.checks",

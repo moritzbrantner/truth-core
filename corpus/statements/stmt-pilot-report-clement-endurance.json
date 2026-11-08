@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-REPORT-CLEMENT-ENDURANCE",
+  "id": "f67fea12-ecae-5635-87a6-f0ef37abd1c0",
+  "label": "First Clement praises Peter and Paul as apostles who endured suffering, and speaks of their…",
+  "legacy_id": "STMT-PILOT-REPORT-CLEMENT-ENDURANCE",
   "paraphrase": "First Clement praises Peter and Paul as apostles who endured suffering, and speaks of their departure from the world or place of glory. Textual report only.",
   "lean_declaration": "TruthCore.Greek.Clement.FirstCorinthians.ClementEndurance",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

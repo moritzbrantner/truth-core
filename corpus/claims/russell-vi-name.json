@@ -1,18 +1,20 @@
 {
-  "id": "RUSSELL-ATOMISM-VI-NAME",
-  "statement_id": "STMT-RUSSELL-GENUINE-NAME-DENOTES",
-  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "id": "966b6704-f97d-53ee-b364-bdde909ecadb",
+  "label": "Bertrand Russell, The Philosophy of Logical…: A genuine name must name something; meaningful…",
+  "legacy_id": "RUSSELL-ATOMISM-VI-NAME",
+  "statement_id": "15f1f3dc-9dbb-52d0-bdab-7209c8db74b1",
+  "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
   "locator": "VI.78–81",
   "interpretation": "A genuine name must name something; meaningful negative existence about Romulus is analyzed through a description. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RUSSELL-GENUINE-NAME",
-    "DEF-RUSSELL-CONTEXTUAL-NAME",
-    "DEF-RUSSELL-DESCRIPTION"
+    "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+    "0cffde19-8afb-5fe5-9e0f-ef9a11283845",
+    "9df718d1-8bfb-519b-b9f5-f58f6d2c256f"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

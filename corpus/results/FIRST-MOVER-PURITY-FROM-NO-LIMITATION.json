@@ -1,6 +1,8 @@
 {
-  "id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
-  "argument_id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
+  "id": "c6c4bbf7-8611-5fca-9f65-96b1d58da624",
+  "label": "Every real determination of a first mover moved by none is a pure perfection…, from no limitation",
+  "legacy_id": "FIRST-MOVER-PURITY-FROM-NO-LIMITATION",
+  "argument_id": "a52001cd-0082-5a79-b6ef-a49989155d56",
   "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
   "theorem": "TruthCore.Results.Causality.RootPurity.firstMoverPurityFromNoLimitation",

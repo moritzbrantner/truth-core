@@ -1,6 +1,8 @@
 {
-  "id": "ATOMIC-COMPLETE-FUSION-MODEL",
-  "argument_id": "ATOMIC-COMPLETE-FUSION-MODEL",
+  "id": "350171f3-d853-5669-b1d7-5daa6c780aa4",
+  "label": "The unchanged nonempty-subsets-of-Bool Body jointly satisfies the same…",
+  "legacy_id": "ATOMIC-COMPLETE-FUSION-MODEL",
+  "argument_id": "f2ed853b-53cc-593a-b0cb-7b0c67209290",
   "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
   "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
   "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.atomicModel",

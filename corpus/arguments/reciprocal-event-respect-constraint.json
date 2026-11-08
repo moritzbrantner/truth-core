@@ -1,33 +1,36 @@
 {
-  "id": "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "id": "81d550c4-36a8-5497-ae87-ede1c8b02a68",
+  "label": "Each reciprocal pair of event edges C…, from Every edge in the selected event relation… and 5 more",
+  "legacy_id": "RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
   "premise_statement_ids": [
-    "STMT-EVENT-CAUSATION-NONBACKWARD",
-    "STMT-EVENT-MOTION-PROJECTION",
-    "STMT-TIME-SLICED-LOCATED-MOTION",
-    "STMT-TIME-SLICED-POTENTIAL-MOTION",
-    "STMT-TIME-SLICED-ACTUAL-MOVER",
-    "STMT-TIME-SLICED-NOT-ACT-AND-POTENCY"
+    "6210b0e1-936d-5a77-a1ac-a13d330d9480",
+    "5d71a565-0593-58b6-9b3a-ab6c17af62b3",
+    "1a437bde-9abf-5d67-b2bc-8efa49ea0faf",
+    "c19f0770-7898-5103-aa30-c626a245cd5c",
+    "1692ce06-db84-55ad-9d5a-743c35d427c0",
+    "2c4677e4-0de2-50aa-81b5-5ec9a9d2a2ed"
   ],
-  "conclusion_statement_id": "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT",
+  "conclusion_statement_id": "eb81571a-da65-58d4-88ea-ed064069ae2b",
   "inference_ids": [
-    "INF-TEMPORAL-DIRECTION-FRAMEWORK",
-    "INF-TEMPORAL-RECIPROCAL-FORK-USE"
+    "1f3bee85-20c2-5d7c-ae7d-36573f785b54",
+    "5accc1c8-bec4-5513-a8d1-78fe4bfd7624"
   ],
   "meaning": "Apply imported TEMPORAL-DIRECTION-FRAMEWORK at the same clock/relation. The strict horn contradicts reciprocal event edges via its finite-cycle theorem. The backward horn contradicts the explicit NoBackward premise. In the remaining non-backward/simultaneous horn the reciprocal edges must have equal exercise times. At that same time, import CONSECUTIVE-MOVER-RESPECTS and feed the two projected canonical mover edges plus the four lifted local premises; the event respects must differ. Thus the two branches inconsistent with the supplied reciprocal pair and NoBackward are conditionally excluded, while the simultaneous alternating-respect branch has a joint control in TEMPORAL-ACTUALIZATION-CONTROLS. None of these premises is independently established. Intended and actual root-route/open-premise delta zero; STMT-NO-INFINITE-PER-SE-MOVER-SERIES remains open.",
   "definition_ids": [
-    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
-    "DEF-TEMPORAL-DIRECTION-PROFILES",
-    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
-    "DEF-TEMPORAL-MOTION-PROJECTION",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "962f5a85-018c-5d4d-967c-1047db5fecf0",
+    "60f8aca0-80c5-55e9-a26d-bfff260a7060",
+    "4ffdfea6-0a5a-513c-a710-050648c260bf",
+    "cacb293c-7ae7-52db-967a-776b4ac5dc97",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "b4da30a9-86f7-57cc-a0c9-17b5dd216ccd",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

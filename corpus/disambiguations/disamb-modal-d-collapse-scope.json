@@ -1,12 +1,47 @@
 {
-  "id": "DISAMB-MODAL-D-COLLAPSE-SCOPE",
+  "id": "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+  "label": "Actual, possible and necessary collapse in serial frames",
+  "legacy_id": "DISAMB-MODAL-D-COLLAPSE-SCOPE",
   "term": "actual, possible and necessary collapse in serial frames",
   "sense_definition_ids": [
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-D-CYCLE",
-    "DEF-MODAL-D-POCKET",
-    "DEF-MODAL-D-FORK"
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "e104adf1-3729-5386-90b8-409504fd82cb",
+    "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+    "1ef2d2af-b611-53dd-b1fa-86480e41ba6a"
   ],
-  "resolution": "Actual MC, Dia MC and Box MC use the same explicitly supplied root, frame and proposition domain but are different propositions. The fork has Dia MC and Box MC without actual MC; this persists for its fixed language. In pocket, changing only the domain changes Box MC from false under all predicates to true under fixed-language denotations, because the closed two-cycle is language-indistinguishable. The separate Bool cycle has language-relative MC without full MC or world extensionality. Extensionality of world labels is an explicit conditional assumption; Lean propext is neither assumed nor used. Mathematical successor worlds are not silently identified with metaphysical possibilities; no Humean bridge or philosophical conclusion follows from these witnesses."
+  "resolution": "Actual MC, Dia MC and Box MC use the same explicitly supplied root, frame and proposition domain but are different propositions. The fork has Dia MC and Box MC without actual MC; this persists for its fixed language. In pocket, changing only the domain changes Box MC from false under all predicates to true under fixed-language denotations, because the closed two-cycle is language-indistinguishable. The separate Bool cycle has language-relative MC without full MC or world extensionality. Extensionality of world labels is an explicit conditional assumption; Lean propext is neither assumed nor used. Mathematical successor worlds are not silently identified with metaphysical possibilities; no Humean bridge or philosophical conclusion follows from these witnesses.",
+  "term_label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE",
+  "senses": [
+    {
+      "id": "d3e28f8c-1544-448c-96f2-55b1ca83f6f2",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_1",
+      "definition_id": "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+      "lean_declaration": "TruthCore.Modal.ResearchFixture.MC"
+    },
+    {
+      "id": "472267bc-4e5e-4648-9902-76b8f6e6f3b1",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_2",
+      "definition_id": "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Dia"
+    },
+    {
+      "id": "c85b83b9-485f-483f-814a-8ea8cee09289",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_3",
+      "definition_id": "e104adf1-3729-5386-90b8-409504fd82cb",
+      "lean_declaration": "TruthCore.Modal.DResearch.cycle"
+    },
+    {
+      "id": "7d2b60de-13c4-4695-8730-e7925af51901",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_4",
+      "definition_id": "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+      "lean_declaration": "TruthCore.Modal.DResearch.pocket"
+    },
+    {
+      "id": "54151fa5-1e9d-4910-b934-e3627ce8cd5b",
+      "label": "ACTUAL_POSSIBLE_AND_NECESSARY_COLLAPSE_5",
+      "definition_id": "1ef2d2af-b611-53dd-b1fa-86480e41ba6a",
+      "lean_declaration": "TruthCore.Modal.DResearch.fork"
+    }
+  ]
 }

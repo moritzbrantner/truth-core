@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
+  "id": "673efbf1-8a4f-550d-901e-28833199adab",
+  "label": "If every internal explanation of cosmic unity is by parts or natural laws, and neither parts nor…",
+  "legacy_id": "STMT-CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
   "paraphrase": "If every internal explanation of cosmic unity is by parts or natural laws, and neither parts nor natural laws can explain it, the unity of the cosmos cannot be explained by something internal to it.",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

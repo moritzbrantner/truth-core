@@ -1,10 +1,12 @@
 {
-  "id": "REL-COUNCIL-NATURAL-DEFINITION-STRENGTHENS-MOVE-EXISTENCE",
+  "id": "55436260-4e8a-5fb3-94d6-6695717282b4",
+  "label": "In the Catholic practice, the First… strengthens Some move affirms natural knowability of…",
+  "legacy_id": "REL-COUNCIL-NATURAL-DEFINITION-STRENGTHENS-MOVE-EXISTENCE",
   "subject_kind": "statement",
-  "subject_id": "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+  "subject_id": "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-KNOWABILITY-MOVE-EXISTS",
-  "verification_result_id": "COUNCIL-DEFINITION-SUPPLIES-NATURAL-KNOWABILITY-MOVE",
+  "object_id": "ffe6c612-0712-5866-9c8b-ad431736209a",
+  "verification_result_id": "06e47a73-ffad-5511-bb20-079f56d2f495",
   "note": "The existing defined-move premise includes an actual natural-knowability move. Defeating incompatible universal standard readings needs only that weak witness, while the old grammar argument still needs Defined."
 }

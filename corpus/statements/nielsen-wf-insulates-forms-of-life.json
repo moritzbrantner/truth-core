@@ -1,7 +1,9 @@
 {
-  "id": "STMT-NIELSEN-WF-INSULATES-FORMS-OF-LIFE",
+  "id": "7e246a09-29d5-5e30-9994-673d0c60afa0",
+  "label": "Nielsen's charge: on the Wittgensteinian view no philosophical or other reasonable criticism, or…",
+  "legacy_id": "STMT-NIELSEN-WF-INSULATES-FORMS-OF-LIFE",
   "paraphrase": "Nielsen's charge (as reported): on the Wittgensteinian view no philosophical or other reasonable criticism, or defence, of any form of life is possible, Christianity included, so religious beliefs are compartmentalized and insulated from non-religious evaluation.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

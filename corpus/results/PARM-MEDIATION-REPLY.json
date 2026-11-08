@@ -1,6 +1,8 @@
 {
-  "id": "PARM-MEDIATION-REPLY",
-  "argument_id": "PARM-MEDIATION-REPLY",
+  "id": "0d0c558f-07b7-57f2-866b-5b06b616b46e",
+  "label": "Knowledge is not confined to one realm…, from Human cognitive modes do not occupy the… and 2 more",
+  "legacy_id": "PARM-MEDIATION-REPLY",
+  "argument_id": "ce8a595d-485f-5803-b37d-3cf53c700ef1",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.MediationReply.mediationReply",

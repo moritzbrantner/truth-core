@@ -1,6 +1,8 @@
 {
-  "id": "PARTICIPATION-AGREEMENT",
-  "argument_id": "PARTICIPATION-AGREEMENT",
+  "id": "eb4ae28f-0663-585f-8cc2-34df1f202d0e",
+  "label": "Two interpretations agree on F-exemplification for…, from Two interpretations have coextension…",
+  "legacy_id": "PARTICIPATION-AGREEMENT",
+  "argument_id": "92539fa2-16f8-590e-a11d-ea527ca9dbd6",
   "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.selectorAgreement",

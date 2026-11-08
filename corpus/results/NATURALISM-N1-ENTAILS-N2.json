@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-N1-ENTAILS-N2",
-  "argument_id": "NATURALISM-N1-ENTAILS-N2",
+  "id": "d55672da-6600-5dfa-8eb5-93300d2f2984",
+  "label": "N2, CONCRETE_NATURALISM_2: at the selected…, from N1, EXISTENCE_NATURALISM_1: at the selected…",
+  "legacy_id": "NATURALISM-N1-ENTAILS-N2",
+  "argument_id": "eec6c463-8436-54f6-ab1a-387415bd01b0",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.N1EntailsN2.n1EntailsN2",

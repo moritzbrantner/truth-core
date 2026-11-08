@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-EMPTY-TRUTHMAKER",
+  "id": "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+  "label": "Concrete-only emptiness versus…: ConcreteEmptyFact A C e says e is true exactly where no roster…",
+  "legacy_id": "DEF-CONCRETE-EMPTY-TRUTHMAKER",
   "term": "concrete-only emptiness versus abstract makers",
   "definition": "ConcreteEmptyFact A C e says e is true exactly where no roster member satisfies supplied Concrete predicate C. This does not imply no one exists. ConcreteMaker separately restricts every maker to that C extension. abstractArena has an existing eligible maker and no concrete candidates.",
   "basis": "stipulative",

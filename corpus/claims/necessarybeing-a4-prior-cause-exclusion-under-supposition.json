@@ -1,21 +1,23 @@
 {
-  "id": "NB-SURVEY-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
-  "statement_id": "STMT-NB-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "94b4071b-0f98-5f33-b3e9-4eaf2b50b335",
+  "label": "Unattributed website author, Necessary…: Under the same no-possible-Necessary-Being supposition…",
+  "legacy_id": "NB-SURVEY-A4-PRIOR-CAUSE-EXCLUSION-UNDER-SUPPOSITION",
+  "statement_id": "bb00d0d1-718a-5fd6-837a-2712a678f730",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A4C, causal steps 10–14, cause/event/Necessary Being title attributes and note 2 after step 17",
   "interpretation": "This exclusion and possible noncontingent cause remain UNDER the step1 supposition. The positive contradiction works given an earlier existing causal bearer on the no-contingents side of the SAME first event. Prior explaining condition alone supplies neither that temporal/existence interpretation nor an existing concrete individual; those correspondence obligations remain unattributed OPEN. Note2 is nonrigid, not a fixed actual roster or a member-to-fusion inference. Do not export the hypothetical causal witness after discharging the supposition.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
-    "DEF-NB-A4-FIRST-EXEMPLIFICATION"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "a6885928-bd3d-5ec6-b89a-6fc0ef88aaaa",
+    "6c717105-e9e1-58ef-9342-22b0c1b53be2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

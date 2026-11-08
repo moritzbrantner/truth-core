@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
+  "id": "5c2908ce-c261-5b1b-a804-ce7524b5e9dd",
+  "label": "If some fact or other exists in every possible world, there must be an external fact-unifier in…",
+  "legacy_id": "STMT-CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
   "paraphrase": "If some fact or other exists in every possible world, there must be an external fact-unifier in every possible world; some fact or other exists in every possible world, so an external fact-unifier exists in every possible world.",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

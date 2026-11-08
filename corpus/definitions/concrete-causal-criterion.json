@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-CAUSAL-CRITERION",
+  "id": "2b015a2c-4d31-5511-b391-41413edf45ac",
+  "label": "Concrete by causal efficacy: CausalCriterionConcrete hasCausalPower x:= ∃ w, hasCausalPower w x…",
+  "legacy_id": "DEF-CONCRETE-CAUSAL-CRITERION",
   "term": "concrete by causal efficacy (rival criterion)",
   "definition": "CausalCriterionConcrete hasCausalPower x := ∃ w, hasCausalPower w x: concrete iff it has causal power at some world. This is the causal-inefficacy criterion of the Way of Negation read from the concrete side. It is a sibling sense, NOT the definition of concreteness used by the owner's principle.",
   "basis": "stipulative",

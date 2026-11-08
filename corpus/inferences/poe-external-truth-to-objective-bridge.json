@@ -1,13 +1,15 @@
 {
-  "id": "INF-POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
+  "id": "279780c7-0ea5-51a0-b95c-5d47fb8091b4",
+  "label": "The selected external moral-evil premise does not satisfy the supplied…, by Constructive-proof",
+  "legacy_id": "INF-POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
   "input_statement_ids": [
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
-    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
-    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD",
-    "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT"
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "5844b7cb-6430-54de-abab-6aec98e7f9b2",
+    "1ffc758d-f400-5e2a-9ad7-37f051fc2dc2",
+    "c13c7cac-faa8-5c54-b064-29c47ba049ae",
+    "40840c3d-90da-5237-b2a3-8ea9519b5c9c"
   ],
-  "output_statement_id": "STMT-EXTERNAL-EVIL-PREMISE-NOT-OBJECTIVE",
+  "output_statement_id": "1aa52dcb-7d39-507c-89ce-73629cdc0abd",
   "rule": "constructive-proof",
   "meaning": "Compose the exact imported POE-EXTERNAL-PREMISE-VS-EMOTIVISM theorem with the weakest explicit objective-implies-truth condition. The four original semantic/classification premises remain visible. This conditional external-premise result does not defeat internal critique or infer the truth-component bridge from an uncalibrated predicate.",
   "assumption_statement_ids": [],

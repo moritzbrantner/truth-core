@@ -1,10 +1,12 @@
 {
-  "id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+  "id": "53225d00-bd26-50e0-b05e-403c88431cd3",
+  "label": "What is being moved toward r is able to be r: what is unable to come to be does not come to be",
+  "legacy_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
   "paraphrase": "What is being moved toward r is able to be r: what is unable to come to be does not come to be.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedIsAbleToBeReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-CAPACITY-TO-BE"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
   ]
 }

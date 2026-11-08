@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
-  "argument_id": "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+  "id": "47bc564a-035f-57f1-8b6c-0f45b58f68bd",
+  "label": "The existing raven law lacks a finite observation proof despite failing the proposed global…",
+  "legacy_id": "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER",
+  "argument_id": "56be2c60-6ec3-5399-bc6b-4fc0ce581641",
   "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.Solution",
   "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Finitary.finitary",

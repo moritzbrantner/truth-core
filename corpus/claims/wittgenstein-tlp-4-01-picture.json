@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-4-01-PICTURE",
-  "statement_id": "STMT-TLP-PROPOSITION-IS-PICTURE",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "b4a70cfd-34d2-564d-8d2b-cf3897345877",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 4.01: the proposition is a picture of…",
+  "legacy_id": "WITTGENSTEIN-TLP-4-01-PICTURE",
+  "statement_id": "ca3570cd-6d32-5a27-9caa-ea635ff85cea",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 4.01, Der Satz ist ein Bild der Wirklichkeit",
   "interpretation": "4.01: 'Der Satz ist ein Bild der Wirklichkeit. Der Satz ist ein Modell der Wirklichkeit, so wie wir sie uns denken.' (Ogden: 'The proposition is a picture of reality.') Read from the German.",
   "status": "formalized",

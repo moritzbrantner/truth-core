@@ -1,10 +1,12 @@
 {
-  "id": "STMT-WEAK-SUPPLEMENTATION",
+  "id": "0880e645-8d9b-5edf-9de6-8b628424716f",
+  "label": "Every proper part of a whole leaves some part of that whole disjoint from it, under the supplied…",
+  "legacy_id": "STMT-WEAK-SUPPLEMENTATION",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.WeakSupplementation",
   "paraphrase": "Every proper part of a whole leaves some part of that whole disjoint from it, under the supplied fixed Mathlib partial order and existing common-part overlap.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "491073fa-38af-5d98-a6b8-77bf9c472525"
   ]
 }

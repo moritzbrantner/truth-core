@@ -1,17 +1,19 @@
 {
-  "id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
+  "id": "59168620-b291-58bf-8c03-b677e9b38502",
+  "label": "The proper-sense unique pure-act first-mover naming leaf is false: not every pure-act first…",
+  "legacy_id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
   "paraphrase": "The proper-sense unique pure-act first-mover naming leaf is false: not every pure-act first unmoved mover that is the only such mover satisfies the proper God predicate. Exact negation of the original leaf.",
   "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.PureActNominalNamingFails",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-PURE-ACT"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

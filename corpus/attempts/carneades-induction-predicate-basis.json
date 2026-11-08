@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-CARNEADES-INDUCTION-PREDICATE-BASIS",
+  "id": "1de96183-2621-5019-bde2-2817b5ba9da4",
+  "label": "Read complete public Carneades.org auto captions for ye9qprxFP28, with exact\u2026",
+  "legacy_id": "ATTEMPT-CARNEADES-INDUCTION-PREDICATE-BASIS",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-HUME-INDUCTION-TESTS",
-    "STMT-SCIENCE-PREDICATE-RECODING",
-    "STMT-SCIENCE-INDUCTION-SELECTION"
+    "8bba1b58-ae87-598d-8c28-6eed9a5e6943",
+    "e18155d6-45db-5815-9af1-ab0ef23c530d",
+    "5465fccb-01d6-55b9-b0c2-cd4bf2758bcc"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Read complete public Carneades.org auto captions for ye9qprxFP28 (00:00\u201303:40), with exact source/timestamps/download hash, provisional interpretation and rejected readings in docs/notes/carneades-induction.md. Existing Hume finite-prefix controls were reused as a boundary, not duplicated. Constructed a distinct stipulative two-phase recoding/factorization control: invertibility and extensional transport preserve information but not fixed-coordinate phase independence. Shared Lean development service accepted the exact combined vocabulary/proof with no diagnostics; final CI verification remains required. No source claim or historical attribution established; media materialization/audio verification remain undone. Relevant physical feature selection and normative/pragmatic preference remain open, and inability of deduction is not identified with irrational induction. Intended/actual root premise delta zero. Owner logic-first extension #1036: attribution is now deferred, not a prerequisite. Proved general recoding symmetry closure, singleton fixed-point requirement and incompatible deterministic selector bundle. Witnessed omission of evidence symmetry, equivariance and singleton output; instantiated finite-record restriction commuting with future recoding. Added original/recoded uniformity criteria selecting opposite candidates, with their warrant open. Rejected finite-prefix repetition, opaque selector flags, syntactic-disjunction-to-unnaturalness and uncertainty-to-irrationality inferences. No new sources/claims/passages; existing witness notes retained as provisional history. Root frontier premises retained unchanged; no root premise discharged.",
   "evidence": [
-    "HUME-INDUCTION-TESTS",
-    "SCIENCE-PREDICATE-RECODING",
-    "SCIENCE-INDUCTION-SELECTION"
+    "6b5655f1-ceb2-5e64-b70f-624e6cf7177c",
+    "ab25ae9b-9fb4-5ed9-b755-e03aeb9a3a42",
+    "6cf4fc73-3265-5712-a0aa-c30a8cb3c299"
   ]
 }

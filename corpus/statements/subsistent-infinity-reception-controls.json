@@ -1,20 +1,22 @@
 {
-  "id": "STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
+  "id": "01d94ce9-c518-5c04-991e-a1224b0bb847",
+  "label": "Six stipulated finite interpretations of the shared…",
+  "legacy_id": "STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS",
   "paraphrase": "Six stipulated finite interpretations of the shared essence/esse/reception/limitation/receptive-potency vocabulary. Each of STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION, STMT-ESSE-RECEIVED-IN-OWN-ESSENCE, STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE, STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF and STMT-UNLIMITED-ESSE-IS-INFINITE has an interpretation in which it fails, the other four hold, and STMT-SUBSISTENT-BEING-IS-INFINITE fails. The five cases are: a limited unreceived esse; an esse received in a principle other than the essence; an esse received in itself with no receptive potency; an esse received in and in potency to itself; and nothing limited and nothing infinite. A sixth interpretation satisfies all five. It has a being whose esse is its essence, and another being whose esse differs from its essence, is received in that essence, is limited and is not infinite. These are formal interpretations, not claims that any is metaphysically possible.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.Control.Certificate",
   "definition_ids": [
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-RECEPTIVE-POTENCY",
-    "DEF-INFINITE",
-    "DEF-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-RECEPTIVE-POTENCY",
-    "DISAMB-INFINITY",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "8bb31748-e20f-5266-ac39-c442faab6622",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "INF-Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
+  "id": "924f18ea-41dd-5522-a366-e3331e0c368e",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and form nor a…, by… (2)",
+  "legacy_id": "INF-Q14-OLD-INTELLECT-TARGET-FROM-CAPACITY-CALIBRATION",
   "input_statement_ids": [
-    "STMT-Q14-STRUCTURAL-SCOPE-COVERED",
-    "STMT-Q14-STRUCTURAL-CAPACITY-AVAILABLE",
-    "STMT-Q14-CAPACITY-CALIBRATION"
+    "f42c2f3d-5ae7-5377-a9c5-54c31cc038e4",
+    "2a918a0d-5dbe-5a9f-baad-4be4c34e5de3",
+    "938eace1-ee6f-5f48-baaa-d3b64ecb0215"
   ],
-  "output_statement_id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+  "output_statement_id": "180f5ad2-a421-541a-85c9-9bca578b4a43",
   "rule": "constructive-proof",
   "meaning": "Transcription/assembly to the EXACT old target: scope coverage, positive structural-to-capacity availability and an OPEN capacity-to-intellect coextension calibration. No mode/acquisition premise is needed for this branch; the calibration is not independently established.",
   "assumption_statement_ids": [],

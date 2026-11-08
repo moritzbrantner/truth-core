@@ -1,15 +1,17 @@
 {
-  "id": "ARIST-MET-1009A-ALL-OPINIONS-TRUE-A",
-  "statement_id": "STMT-ALL-OPINIONS-TRUE-UNINDEXED",
-  "source_id": "ARIST-MET",
+  "id": "4aaa53bd-e4ce-562f-859e-aaff170252d7",
+  "label": "Aristotle, Metaphysics IV.5, 1009a6-15: Every opinion held by any person is true, using one…",
+  "legacy_id": "ARIST-MET-1009A-ALL-OPINIONS-TRUE-A",
+  "statement_id": "0f48ce7b-79f5-54ae-899d-c48c7158f821",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.5, 1009a6-15",
   "interpretation": "Aristotle introduces the Protagorean account and considers the hypothesis that all opinions and appearances are true. This schema records the all-opinions component only, under a single truth predicate, without claiming that it is Protagoras’s own wording, a complete account of appearances, or every modern relativism. It is an attributed target, not Aristotle’s assent.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ALL-OPINIONS-TRUE-UNINDEXED"
+    "7a4b052f-4176-59e6-9070-9ed3ab41869d"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE"
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

@@ -1,29 +1,31 @@
 {
-  "id": "RESURRECTION-STOLENBODY-CONSISTENT",
+  "id": "cdf0ec3a-1768-554c-91ec-d0a8081173ed",
+  "label": "The limited StolenBody pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-STOLENBODY-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-RESURRECTION-STOLENBODY-CONSISTENT",
+  "conclusion_statement_id": "e3c39aad-5366-5ea7-91b7-4b43b9014bf8",
   "inference_ids": [
-    "INF-RESURRECTION-STOLENBODY-CONSISTENT"
+    "bfaf8ca4-19ba-5e0e-ab6e-3ca47155d5f4"
   ],
   "commitment_statement_ids": [
-    "STMT-PILOT-E0",
-    "STMT-PILOT-E1",
-    "STMT-PILOT-E2",
-    "STMT-PILOT-E3",
-    "STMT-PILOT-E4",
-    "STMT-PILOT-E5",
-    "STMT-PILOT-THEFT-ACCOUNT"
+    "e26f46c8-82df-546f-afb0-8b195c196400",
+    "0914a4ef-af73-5882-849d-f25e254db435",
+    "f71ed22a-8a1e-5ce9-8c15-72f942c55c70",
+    "c2f63731-873e-5e82-ad62-b6ba015aa508",
+    "a433dc59-32dc-5ffd-9204-0569d53af7db",
+    "13679582-3a52-5a81-ad0c-dba8b159a8d7",
+    "6f3dcbf8-cbe7-5d0c-825c-99e21c4cf0ce"
   ],
   "meaning": "Construct an explicit finite model for the StolenBody pilot bundle, preserving all common findings. Model consistency is not historical confirmation or proof of a complete metaphysical system.",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY",
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-RESURRECTION-PILOT-COVERAGE",
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9",
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "c1979405-382d-54aa-bfa8-56864a291738",
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-ATTACKS",
+  "id": "652a308f-70c0-5996-a46d-6059b78a6845",
+  "label": "Immanuel Kant, Critique of Pure Reason…… attacks A PER_SE_1 ordered series of moved movers…",
+  "legacy_id": "REL-KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-ATTACKS",
   "subject_kind": "claim",
-  "subject_id": "KANT-COSMOLOGICAL-CAUSAL-SCOPE-OBJECTION-A",
+  "subject_id": "5d34794e-2a86-526d-bb1a-30473c9b9ecf",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+  "object_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
   "note": "Warrant/completion challenge by analogy only: no identity between Kant’s target proof and this Thomist premise, no formal refutation and no closure. The per se/act-potency and nominal-definition readings must be assessed on their own terms."
 }

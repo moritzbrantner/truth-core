@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY",
+  "id": "d93acdf0-12aa-5d47-bd75-7df4e3b65204",
+  "label": "Weak OPEN POTENCY_1 interpretation needed by the Megarian counterargument: only at an actually…",
+  "legacy_id": "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY",
   "paraphrase": "Weak OPEN potency interpretation needed by the Megarian counterargument: only at an actually moved tuple, potency entails capacity and nonactuality in the SAME respect and same supplied act/capacity dictionary. No converse or claim about unmoved tuples.",
   "lean_declaration": "TruthCore.Alternatives.MegarianMovedPotencyBoundary.AnalysisOnMoved",
   "definition_ids": [
-    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-POTENCY",
-    "DEF-MOTION-AS-REDUCTION"
+    "2d9a0a6a-3406-55f0-ad49-d9963fdaf116",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

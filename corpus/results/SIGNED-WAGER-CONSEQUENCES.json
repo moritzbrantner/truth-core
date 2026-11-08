@@ -1,6 +1,8 @@
 {
-  "id": "SIGNED-WAGER-CONSEQUENCES",
-  "argument_id": "SIGNED-WAGER-CONSEQUENCES",
+  "id": "7145d7d7-edaf-52aa-bbea-a0440136506f",
+  "label": "Signed finite costs do not prevent top expected utility when a single rewarded policy has positive…",
+  "legacy_id": "SIGNED-WAGER-CONSEQUENCES",
+  "argument_id": "f1dac64f-934c-5d26-a0f6-9518a1abd590",
   "challenge_module": "TruthCore.Results.Decision.SignedWager.Challenge",
   "solution_module": "TruthCore.Results.Decision.SignedWager.Solution",
   "theorem": "TruthCore.Results.Decision.SignedWager.signedConsequences",

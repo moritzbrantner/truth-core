@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-COOPERATION-CERTIFICATE",
-  "argument_id": "JOINT-COOPERATION-CERTIFICATE",
+  "id": "51c2e397-abcd-517e-ab06-fa2b4f961ff9",
+  "label": "For two distinct contributors of one exercised record in a coherent exercise, where that record is…",
+  "legacy_id": "JOINT-COOPERATION-CERTIFICATE",
+  "argument_id": "715da1fa-5fec-5805-abbf-52395a1fba77",
   "challenge_module": "TruthCore.Results.Explanation.JointCooperation.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointCooperation.Solution",
   "theorem": "TruthCore.Results.Explanation.JointCooperation.certificate",

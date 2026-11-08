@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
-  "argument_id": "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
+  "id": "8ab64896-3c1d-5433-b125-439f50b9c781",
+  "label": "Bridge premise: for any GOD_4 with the classical attributes who can reveal…, from attested mandate",
+  "legacy_id": "CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
+  "argument_id": "dc4bc511-0249-5a6e-8667-9ed57c05bc97",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.DivineFounding.bridge_from_attested_mandate",

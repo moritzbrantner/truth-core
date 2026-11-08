@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-NO-THOUGHT-CONTROL",
-  "argument_id": "COGITO-NO-THOUGHT-CONTROL",
+  "id": "07e2cb6e-5554-5784-9129-0ac1616fe41e",
+  "label": "There is an interpretation in which the bearer principle holds, no thought occurs and no thinking…",
+  "legacy_id": "COGITO-NO-THOUGHT-CONTROL",
+  "argument_id": "667beff4-6f8b-5470-a059-96c943e0dac0",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.noThoughtControl",

@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-PHYS-255B-NATURAL-SELF-OR-PASSIVE-A",
-  "statement_id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
-  "source_id": "ARIST-PHYS",
+  "id": "ce222c24-8bc5-5def-8ccf-fba21d625cf6",
+  "label": "Aristotle, Physics VIII.4, 255b29-33: Every natural motion is either the motion of a thing…",
+  "legacy_id": "ARIST-PHYS-255B-NATURAL-SELF-OR-PASSIVE-A",
+  "statement_id": "678cd483-ade2-5b1b-b60c-da1790f46497",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.4, 255b29-33",
   "interpretation": "Natural motions divide into those of things moved by themselves and those of things not moved by themselves, as the light and the heavy (255b32-33). Reading step: the second kind is stated positively from 255b29-31 (such things have a principle of motion, not of moving or acting, but of being acted on), which the text says of the light and the heavy, its example (οἷον); the reading extends it to every natural motion that is not a self-motion. The positive form keeps the division from being an instance of excluded middle.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NATURAL-AND-FORCED-MOTION",
-    "DEF-PASSIVE-NATURAL-MOTION",
-    "DEF-SELF-MOTION-ARISTOTLE"
+    "1c6106a7-96af-5adb-8b27-e171ce778371",
+    "2ee58a9e-2d2a-5120-a9f5-15236da7def4",
+    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-SELF-MOTION"
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

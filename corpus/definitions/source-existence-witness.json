@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SOURCE-EXISTENCE-WITNESS",
+  "id": "3bc85e01-5f9f-524c-be4f-b07a39298c29",
+  "label": "An existing graph-relative source as a…: HasSource G is existence of a node s with Graph.Source s…",
+  "legacy_id": "DEF-SOURCE-EXISTENCE-WITNESS",
   "term": "an existing graph-relative source as a separate input",
   "lean_declaration": "TruthCore.Causality.SourceWitness.HasSource",
   "basis": "stipulative",

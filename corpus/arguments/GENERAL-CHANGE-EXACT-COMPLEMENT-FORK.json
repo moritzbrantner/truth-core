@@ -1,17 +1,19 @@
 {
-  "id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
+  "id": "81c8fb8a-bc4d-54bf-9386-50377f1969a0",
+  "label": "Either some candidate changes in the supplied…, from Excluded middle as a general principle…",
+  "legacy_id": "GENERAL-CHANGE-EXACT-COMPLEMENT-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
+  "conclusion_statement_id": "dc94e33a-8755-5518-a3ec-b5d573afe53c",
   "inference_ids": [
-    "INF-GENERAL-CHANGE-EXACT-COMPLEMENT-FORK"
+    "034a57fc-5d42-5907-abdf-dd1cbf5ce67b"
   ],
   "meaning": "Structural some-change/no-general-change fork under explicit excluded middle. Refuting only the stronger sourced McTaggart bundle cannot exhaust every exact no-change counteraccount.",
   "definition_ids": [
-    "DEF-CHANGE-GENERAL"
+    "9bd881c9-2227-5883-9595-96db5e630da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS",
-  "argument_id": "FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS",
+  "id": "a4558f9c-3063-5d3b-b8a3-164e26160ed2",
+  "label": "A per se ordered series of efficient…, from Every relatum has finitely many distinct… and 2 more",
+  "legacy_id": "FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS",
+  "argument_id": "b58472dd-912e-5cb3-a23b-c3c4ae058c2c",
   "challenge_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.CausalFinitism.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.CausalFinitism.perSeNoRegressOfFiniteAncestry",

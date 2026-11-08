@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
-  "argument_id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "id": "909b28df-7842-530a-a006-e07d70e5e5e1",
+  "label": "Each thing that can not-be is, at…, from The past is infinite: before every time up… and 1 more",
+  "legacy_id": "BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "argument_id": "6cc8853d-f5e1-5d92-9481-780754e4e61d",
   "challenge_module": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.Challenge",
   "solution_module": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.Solution",
   "theorem": "TruthCore.Results.Bridges.TertiaPlenitudePossibleNotBeSometimeIsNot.whatCanNotBeSometimeIsNotOfPlenitude",

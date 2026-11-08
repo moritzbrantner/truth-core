@@ -1,9 +1,11 @@
 {
-  "id": "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
+  "id": "2107b9df-b7bc-5f62-af64-9c23f6819c08",
+  "label": "Every absolutely necessary being is most real: the disputed premise of the cosmological proof…",
+  "legacy_id": "STMT-KANT-NECESSARY-IS-MOST-REAL-REPORTED",
   "paraphrase": "Every absolutely necessary being is most real: the disputed premise of the cosmological proof reported by Kant.",
   "definition_ids": [
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-REALITY-PROFILE"
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d"
   ],
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryIsMostReal"
 }

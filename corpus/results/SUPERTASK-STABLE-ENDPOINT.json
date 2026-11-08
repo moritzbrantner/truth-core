@@ -1,6 +1,8 @@
 {
-  "id": "SUPERTASK-STABLE-ENDPOINT",
-  "argument_id": "SUPERTASK-STABLE-ENDPOINT",
+  "id": "82fe02ec-9a01-5643-8be0-bd0f647961b2",
+  "label": "A natural-number-indexed sequence of stages with no last stage can be ordered before a distinct…",
+  "legacy_id": "SUPERTASK-STABLE-ENDPOINT",
+  "argument_id": "8d6940af-e81f-51db-8c29-ba9718b80f67",
   "challenge_module": "TruthCore.Results.Causality.SupertaskStableEndpoint.Challenge",
   "solution_module": "TruthCore.Results.Causality.SupertaskStableEndpoint.Solution",
   "theorem": "TruthCore.Results.Causality.SupertaskStableEndpoint.supertaskStableEndpoint",

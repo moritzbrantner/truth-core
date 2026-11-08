@@ -1,10 +1,12 @@
 {
-  "id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION",
+  "id": "766dc232-649f-53b4-acd9-ecfbafda603c",
+  "label": "Under the displayed likelihood comparison and confirmation rule, general cognitive reliability…",
+  "legacy_id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-CONFIRMATION",
   "paraphrase": "Under the displayed likelihood comparison and confirmation rule, general cognitive reliability confirms theism over naturalism.",
   "definition_ids": [
-    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+    "bef73b95-e123-5b57-80ae-e5923d50ae74"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

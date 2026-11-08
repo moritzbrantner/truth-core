@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME",
+  "id": "d15ded6f-1895-5d2d-b967-a14165c49bda",
+  "label": "At every admitted time, nothing efficiently causes itself in any respect",
+  "legacy_id": "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME",
   "paraphrase": "Open framework premise: at every admitted time, nothing efficiently causes itself in any respect. Stronger than the existing selected-time no-self-efficient-cause premise. No assertion is made about events outside the admitted time domain.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.AllTimeNoSelf",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

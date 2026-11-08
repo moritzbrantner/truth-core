@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDISPENSABLE-CONDITION",
+  "id": "da136be6-0985-5a05-b542-a3a77bc13776",
+  "label": "Indispensable condition of a record: A member of a record, contributor or enabler, whose deletion…",
+  "legacy_id": "DEF-INDISPENSABLE-CONDITION",
   "term": "indispensable condition of a record",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.IndispensableCondition",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-RESPONSE-ACQUISITION",
+  "id": "184910cf-7d7e-5afb-9ea9-78e468498b76",
+  "label": "Two-stage acquisition of a…: Acquisition is a Boolean function of review and external-setting…",
+  "legacy_id": "DEF-REASON-RESPONSE-ACQUISITION",
   "term": "two-stage acquisition of a reason-signal response selector",
   "definition": "Acquisition is a Boolean function of review and external-setting inputs. selfReview copies review, externalBypass copies external setting. record uses its output as the existing ChoiceContext.History law field and separately records a reason-signal preference and imposed constraint; run uses the exact old action function. The inputs are toy mechanism interpretations, not autonomous agents or independently established causal variables. SignalSensitive requires different actions for the two reason-signal values at every fixed acquisition input when imposed=false; it is not correct appreciation of rational reasons.",
   "basis": "stipulative",

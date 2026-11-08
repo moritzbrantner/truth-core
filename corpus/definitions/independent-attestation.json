@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEPENDENT-ATTESTATION",
+  "id": "61a7a341-a027-5652-9559-54fad7e248ca",
+  "label": "Strand, independent reports and…: StrandOf assigns each commission report to its Gospel strand…",
+  "legacy_id": "DEF-INDEPENDENT-ATTESTATION",
   "term": "strand, independent reports and multiple attestation (Strand, strandOf, Tradition.Independent, AttestedIn)",
   "definition": "strandOf assigns each commission report to its Gospel strand: Matthew 16, 18 and 28 to the Matthean, John 20 and 21 to the Johannine. AttestedIn F r: report r names some power of family F (a textual fact fixed by CommissionReport.powers). Tradition.Independent r₁ r₂: the commission saying of r₁ neither derives from that of r₂ nor shares a written source with it; it is an uninterpreted parameter, and distinct strands are not assumed independent. A family is multiply attested when two independent reports each name a power of it. Independence of reports is a literary relation; it does not make either report historical.",
   "basis": "stipulative",

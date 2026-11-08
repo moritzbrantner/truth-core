@@ -1,13 +1,53 @@
 {
-  "id": "DISAMB-MAXIME-ENS",
+  "id": "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+  "label": "Maximal in a selected perfection, greatest degree, and maxime ens",
+  "legacy_id": "DISAMB-MAXIME-ENS",
   "term": "maximal in a selected perfection, greatest degree, and maxime ens",
   "sense_definition_ids": [
-    "DEF-MAXIME-ENS",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-GREATEST-CONCEIVABLE-BEING",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION"
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "aa47013a-14cc-5ad2-be74-5ae5dc33f027",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
   ],
-  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Source-attribution correction2026-11-01: AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now supports STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS, using DEF-GREATEST-DEGREE-IN-A-PERFECTION. It does not support the old unrestricted maximality principle I or its fixed-esse instance Iesse. Greatest represented degree allows ties without strict supremacy or uniqueness. The weak maximal abstraction can preserve a weaker existential consequence of greatestness under an appropriate order interpretation (as with H); putting it in an implication antecedent instead strengthens the causal conditional. No old definition, proof premise or formal consequence changes, and no totality or source-to-old-I bridge is supplied. MaximumDefinitionFork registers exact conditional bridges: selected-perfection active-pair strict degree calibration plus local directedness and explicit excluded middle imply maximal-to-greatest, which with the unchanged greatest-degree causal principle yields the exact old selected-esse causal premise. This does not make the old stronger conditional directly sourced. Primitive superlative calibrations distinguish merely maximal, greatest with ties and strict supremacy; named coverage remains OPEN with a selective-tie remainder. Finite incomparable controls block automatic source-to-old-I transfer; tied controls block uniqueness. No global homogeneous being scale is assumed. General-perfection scope: DEF-MAXIMUM-IN-A-PERFECTION quantifies at a supplied respect r; maxime ens specializes r to esse. Reuse the same distinction for general maximality and GreatestDegreeBearer, holding the active domain and selected respect fixed. MoreIn need not represent an order or a degree comparison; the #1141 calibration/directedness bridges and finite countermodels are essential, not implicit in the words maximum or greatest. Sense fork (batch 3, #1233 B; docs/notes/load-bearing-terms.md): the quarta via's last step uses the superlative twice (something is maxime ens; what is maxime in being causes being in all others). Its readings are three senses, each its own declaration: MAXIME_1 = DEF-MAXIME-ENS (IsMaximalIn at esse), MAXIME_2 = DEF-GREATEST-DEGREE-IN-A-PERFECTION (GreatestDegreeBearer at esse), MAXIME_3 = DEF-GREATEST-BEING-STRICT (StrictlyGreatestIn at esse). Coverage STMT-MAXIME-SENSES-EXHAUSTIVE and exclusivity STMT-MAXIME-SENSE-UNIQUE are OPEN premises. At the root-route node STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS (the causal principle at being, MAXIMAL antecedent) the per-sense arguments are MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL, the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE (MAXIME_2) and MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST, the last through the bridge STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST (derived from STMT-MORE-IN-BEING-CONNECTED). At the quarta via's existential conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL, which no root argument consumes yet, the per-sense arguments MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE and -AS-STRICTLY-GREATEST conclude it; MAXIME_2 and MAXIME_3 pass to the MAXIMAL conclusion only through the explicit sense bridges STMT-GREATEST-IN-BEING-IS-MAXIMAL (derived from STMT-MORE-IN-BEING-TRACKS-DEGREE) and STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL (derived from STMT-MORE-IN-IS-ASYMMETRIC). Summary MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL; TERM-SENSE-FORKS-3-CONTROLS shows the mixed reading (existence MAXIMAL, causal GREATEST-degree) fails. Not senses of this use: DEF-GREATEST-CONCEIVABLE-BEING (Anselm's conceptual description; no root statement uses it, and a rival who reads the quarta via so denies coverage), DEF-MAXIMUM-CALIBRATION-PROFILE (bridge vocabulary relating the senses, not a reading) and DEF-MAXIMUM-IN-A-PERFECTION (MAXIME_1's declaration at a general respect)."
+  "resolution": "The case uses the weakest sense: maximal in being, nothing being more a being (`IsMaximumIn InAct MoreIn esse`). It does not assume a strict maximum that exceeds every other being, and it does not use Anselm's conceptual description. Uniqueness is derived (AQUINAS-ST-I-Q2-A3-AT-MOST-ONE-MAXIME-ENS), not built in. A reviewer who reads 'maxime ens' as 'the greatest possible being' is reading a stronger sense than any premise asserts. Source-attribution correction2026-11-01: AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A now supports STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS, using DEF-GREATEST-DEGREE-IN-A-PERFECTION. It does not support the old unrestricted maximality principle I or its fixed-esse instance Iesse. Greatest represented degree allows ties without strict supremacy or uniqueness. The weak maximal abstraction can preserve a weaker existential consequence of greatestness under an appropriate order interpretation (as with H); putting it in an implication antecedent instead strengthens the causal conditional. No old definition, proof premise or formal consequence changes, and no totality or source-to-old-I bridge is supplied. MaximumDefinitionFork registers exact conditional bridges: selected-perfection active-pair strict degree calibration plus local directedness and explicit excluded middle imply maximal-to-greatest, which with the unchanged greatest-degree causal principle yields the exact old selected-esse causal premise. This does not make the old stronger conditional directly sourced. Primitive superlative calibrations distinguish merely maximal, greatest with ties and strict supremacy; named coverage remains OPEN with a selective-tie remainder. Finite incomparable controls block automatic source-to-old-I transfer; tied controls block uniqueness. No global homogeneous being scale is assumed. General-perfection scope: DEF-MAXIMUM-IN-A-PERFECTION quantifies at a supplied respect r; maxime ens specializes r to esse. Reuse the same distinction for general maximality and GreatestDegreeBearer, holding the active domain and selected respect fixed. MoreIn need not represent an order or a degree comparison; the #1141 calibration/directedness bridges and finite countermodels are essential, not implicit in the words maximum or greatest. Sense fork (batch 3, #1233 B; docs/notes/load-bearing-terms.md): the quarta via's last step uses the superlative twice (something is maxime ens; what is maxime in being causes being in all others). Its readings are three senses, each its own declaration: MAXIME_1 = DEF-MAXIME-ENS (IsMaximalIn at esse), MAXIME_2 = DEF-GREATEST-DEGREE-IN-A-PERFECTION (GreatestDegreeBearer at esse), MAXIME_3 = DEF-GREATEST-BEING-STRICT (StrictlyGreatestIn at esse). Coverage STMT-MAXIME-SENSES-EXHAUSTIVE and exclusivity STMT-MAXIME-SENSE-UNIQUE are OPEN premises. At the root-route node STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS (the causal principle at being, MAXIMAL antecedent) the per-sense arguments are MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL, the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE (MAXIME_2) and MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST, the last through the bridge STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST (derived from STMT-MORE-IN-BEING-CONNECTED). At the quarta via's existential conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL, which no root argument consumes yet, the per-sense arguments MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE and -AS-STRICTLY-GREATEST conclude it; MAXIME_2 and MAXIME_3 pass to the MAXIMAL conclusion only through the explicit sense bridges STMT-GREATEST-IN-BEING-IS-MAXIMAL (derived from STMT-MORE-IN-BEING-TRACKS-DEGREE) and STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL (derived from STMT-MORE-IN-IS-ASYMMETRIC). Summary MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL; TERM-SENSE-FORKS-3-CONTROLS shows the mixed reading (existence MAXIMAL, causal GREATEST-degree) fails. Not senses of this use: DEF-GREATEST-CONCEIVABLE-BEING (Anselm's conceptual description; no root statement uses it, and a rival who reads the quarta via so denies coverage), DEF-MAXIMUM-CALIBRATION-PROFILE (bridge vocabulary relating the senses, not a reading) and DEF-MAXIMUM-IN-A-PERFECTION (MAXIME_1's declaration at a general respect).",
+  "term_label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+  "senses": [
+    {
+      "id": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_1",
+      "definition_id": "a2a8de58-42e0-5481-b7fb-848ae8602036",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximumIn"
+    },
+    {
+      "id": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_2",
+      "definition_id": "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.StrictlyGreatestIn"
+    },
+    {
+      "id": "db9c6264-7835-450c-8875-668a024d414a",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_3",
+      "definition_id": "aa47013a-14cc-5ad2-be74-5ae5dc33f027"
+    },
+    {
+      "id": "517baa9d-7981-4e2a-bdae-045467cb29fc",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_4",
+      "definition_id": "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeBearer"
+    },
+    {
+      "id": "230f0729-018b-48e4-a148-3fe610dc2995",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_5",
+      "definition_id": "18c78a19-096c-5987-8517-a67edaede564",
+      "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.Frame"
+    },
+    {
+      "id": "a833bcdb-8e99-4079-8cb6-fc1295eb690f",
+      "label": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST_6",
+      "definition_id": "ad844320-77ce-5786-96d7-4b02f874269d",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsMaximalIn"
+    }
+  ]
 }

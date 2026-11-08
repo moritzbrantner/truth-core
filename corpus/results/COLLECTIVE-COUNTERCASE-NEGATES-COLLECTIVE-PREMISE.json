@@ -1,6 +1,8 @@
 {
-  "id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
-  "argument_id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "id": "22f83b9a-18d7-5422-bc6d-74e81c3d2339",
+  "label": "Exact negation of the original…, from Each being can not-be, yet common absence…",
+  "legacy_id": "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
+  "argument_id": "4a87de05-3120-50f4-b26b-641ef97621d1",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.CountercaseProjection.countercaseProjection",

@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-MIXED-CONTROL",
-  "argument_id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "id": "11b42a11-26d7-5575-950e-d728800f1213",
+  "label": "The Bool relation containing every pair satisfies the local alternative-CAUSE_2 condition and also…",
+  "legacy_id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "argument_id": "0f42559b-7694-55b8-9574-e18136893394",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.mixedControl",

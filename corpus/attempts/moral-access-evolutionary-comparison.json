@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-MORAL-ACCESS-EVOLUTIONARY-COMPARISON",
+  "id": "411e43bf-aed5-5ed2-9091-9db1fbd94e20",
+  "label": "Read materialized Street2006 §§2–7 and Enoch2010 §§3–5, plus existing Boyd/Railton and q94 witnesses",
+  "legacy_id": "ATTEMPT-MORAL-ACCESS-EVOLUTIONARY-COMPARISON",
   "statement_ids": [
-    "STMT-STREET-STANCE-INDEPENDENT-REALISM",
-    "STMT-STREET-DARWINIAN-ACCESS-CHALLENGE",
-    "STMT-STREET-RAILTON-WELFARE-TAXONOMY",
-    "STMT-ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
-    "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
-    "STMT-BOYD-EMPIRICAL-MORAL-INQUIRY",
-    "STMT-RAILTON-FALLIBLE-MORAL-LEARNING",
-    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW",
-    "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION"
+    "03baa667-a235-5e7f-96d2-46c3d1757bb3",
+    "8345891e-aa3b-5cf7-8b41-cdcc61f4c0f7",
+    "7f6bc715-c337-5618-8aa7-cef7414662dd",
+    "b35cb288-503f-5471-b417-23502ca81054",
+    "69c528d9-b09e-583c-9dd2-2ee92fa2879f",
+    "f3e174ca-c2d1-50f5-aaef-271838144319",
+    "a44a1866-236d-5744-96b4-ce5af587f27e",
+    "d3719938-01ef-58f8-8ffb-d4fc88c7aa28",
+    "51f49102-83d2-5734-b5d2-873ac6b2be90"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Read materialized Street2006 §§2–7 and Enoch2010 §§3–5, plus existing Boyd/Railton and q94 witnesses. Found Street’s stronger taxonomy explicitly excludes Railton individual welfare; preserved Enoch’s noncausal third-factor reply and normative/empirical commitments alongside naturalist and Catholic access accounts. Rejected a new opaque Darwinian-dilemma theorem: exclusion of all third-factor explanations and skeptical probability do not follow from the existing fitness/truth control (#651). No new result, no root-premise reduction, no defended adequacy from sourced answers. Source scope, extraction caveats, strongest replies and next test persisted in docs/naturalistic-moral-realism.md, Moral access comparison section. Initial Street web-hashes requested58 physical pages but witness is29 two-up pages; corrected range, raw bytes unchanged. Delivered-head CI40760201489 at ae347c1c then exposed Street two-up PDF extraction drift: raw e7edd6b8…5123 unchanged, local Poppler26.01 text9add9397…92671 versus Ubuntu24.04 Poppler24.02.0-1ubuntu9.11 text93cbc304…b41e90. Upgraded same passage to SJSU published58page one-up witness after materialization/rereading; raw5925edb3…7fd72, normalizedc4900679…0359 identical on Poppler26.01 and24.02. No hash merely repinned to CI, no extractor/integrity change and no claim interpretation change. Full hashes and failed-run evidence in existing note.",
   "evidence": [
-    "STREET-STANCE-INDEPENDENT-REALISM",
-    "STREET-DARWINIAN-ACCESS-CHALLENGE",
-    "STREET-RAILTON-WELFARE-TAXONOMY",
-    "ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
-    "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+    "2e2d5ded-4d67-5a86-b0b3-afd34b9c5319",
+    "69b13fd8-7d95-5593-a983-7b7a7f3b2ef5",
+    "da00ed9c-bef3-555f-8af8-c968dcca0d34",
+    "300b54de-b1cb-5272-a584-df81de5b5a58",
+    "dac4ec84-f716-5dea-87d1-e367474f7f8b",
     "PR-651"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "REL-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "id": "b350b011-80db-5dc4-9130-3cff9c4e3b65",
+  "label": "Every admissible definition proposal in… strengthens If the chosen class contains any correct…",
+  "legacy_id": "REL-GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "subject_id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
-  "verification_result_id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "object_id": "9108832f-0ef5-5036-8550-f405c7203ff4",
+  "verification_result_id": "2d8e3fab-9f8f-5074-b15f-bcc3782036a1",
   "note": "The one-premise checked implication retains correct-account existence only as the antecedent of conditional support. Strictness has an actual correct named account plus wrong admissible unnamed account, not empty-correctness vacuity."
 }

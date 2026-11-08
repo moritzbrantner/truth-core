@@ -1,26 +1,28 @@
 {
-  "id": "STMT-WORLD-INDEXED-SOURCE-CONTROL",
+  "id": "c7cba31c-66af-5f70-823a-c50941c206ad",
+  "label": "In the fixed three-world interpretation every causal graph is well-founded and endpoint-sound, yet…",
+  "legacy_id": "STMT-WORLD-INDEXED-SOURCE-CONTROL",
   "lean_declaration": "TruthCore.Models.WorldIndexedSources.JointControl",
   "paraphrase": "In the fixed three-world interpretation every causal graph is well-founded and endpoint-sound, yet existing sources vary as {true},{false},{false} with no common bearer. Selected false is necessary and a universal potential causer with a well-founded necessary-only union, but receives an actual contingent cause at world0; the no-contingent-predecessor bridge and named underivedness fail. StarterWorlds is all worlds and RegressWorlds empty.",
   "definition_ids": [
-    "DEF-WORLD-INDEXED-SOURCE-CONTROL",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "DEF-NAMED-NECESSARILY-UNDERIVED"
+    "df5ca11b-b908-522c-9d65-ac72b677719c",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1",
+    "1875d575-2a60-5000-b403-0ab090078a7a"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-CAUSE"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

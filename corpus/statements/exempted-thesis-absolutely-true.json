@@ -1,12 +1,14 @@
 {
-  "id": "STMT-EXEMPTED-THESIS-ABSOLUTELY-TRUE",
+  "id": "b20ea84d-b227-5f76-a898-c8467dd57442",
+  "label": "The exempted thesis is ABSOLUTELY_TRUE_1, as its absolute assertion presents it",
+  "legacy_id": "STMT-EXEMPTED-THESIS-ABSOLUTELY-TRUE",
   "paraphrase": "The exempted thesis is absolutely true, as its absolute assertion presents it. The horn under examination, not an attributed claim.",
   "lean_declaration": "TruthCore.Logic.Relativism.ExemptedThesisAbsolutelyTrue",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH",
-    "DEF-ASSERTION-COMMITMENT"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+    "33f7d5de-205d-573f-bc19-e0311fccbe93"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

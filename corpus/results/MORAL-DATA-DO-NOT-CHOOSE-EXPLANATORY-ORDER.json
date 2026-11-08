@@ -1,6 +1,8 @@
 {
-  "id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
-  "argument_id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "id": "ec911919-9097-5947-80d9-a708943d9878",
+  "label": "Encoding independence: the q.94 moral-error and correction-needed readings plus a fixed-privation…",
+  "legacy_id": "MORAL-DATA-DO-NOT-CHOOSE-EXPLANATORY-ORDER",
+  "argument_id": "077edbd6-e0e7-56ca-9f41-bcb3aeb59f26",
   "challenge_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Challenge",
   "solution_module": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.Solution",
   "theorem": "TruthCore.Results.Comparison.QuasiRealism.SharedDataDoNotChooseOrder.sharedDataDoNotChooseOrder",

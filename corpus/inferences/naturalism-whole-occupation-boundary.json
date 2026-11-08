@@ -1,10 +1,12 @@
 {
-  "id": "INF-NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "id": "4d280b41-c626-5cc9-9ff6-d9f643529e6e",
+  "label": "The selected spacetime whole does not exist at the selected world, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-SPACETIME-WHOLE-UNLOCATED"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "6b196f0f-c867-520d-b853-ed7ed32f65aa"
   ],
-  "output_statement_id": "STMT-SPACETIME-WHOLE-ABSENT-AT",
+  "output_statement_id": "d675f693-5892-5246-bbab-7a86e9ce3e17",
   "rule": "constructive-proof",
   "meaning": "Logical transcription/instantiation of occupant N1 at the selected whole: if the whole occupies no region it does not exist at that world. This scope consequence does not establish relationalism or refute the located-whole escape.",
   "assumption_statement_ids": [],

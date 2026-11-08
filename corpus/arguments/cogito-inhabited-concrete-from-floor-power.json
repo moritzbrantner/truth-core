@@ -1,37 +1,47 @@
 {
-  "id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER",
+  "id": "7bd58160-57d6-5372-90c9-950e4a9d15a0",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "conclusion_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "inference_ids": [
-    "INF-COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER"
+    "4a8599af-46cd-5545-9ebb-4d3add28d343"
   ],
   "meaning": "Some concrete candidate exists at w, by the existing Round 4 capacity derivation (inhabitedFromPower, imported and applied), with the owner-approved floor commitment supplying the capacity clause that the old argument took as the bare premise STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT, for the same hasCausalPower predicate as STMT-INTELLECTUAL-EXERCISER-HAS-POWER. The other five premises are unchanged and remain OPEN. It does not establish the floor commitment or infer capacity from exercise.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS",
-    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
-    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-POWER-CAPACITY-READING",
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-THOUGHT-BEARER",
-    "DEF-THOUGHT-OCCURRENCE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "4088655a-8c5b-5533-b93d-ec4a4f767108",
+    "3c25665f-1639-5b85-8052-d4a2fc555365",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-IN-ACT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
-  ]
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CONCRETE_AND_ABSTRACT",
+      "from": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+      "to": "b1175e6c-0519-4c19-98ae-b053616ec750",
+      "statement_id": "e27489c3-7419-5123-8476-386633e62532"
+    }
+  ],
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from floor power",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER"
 }

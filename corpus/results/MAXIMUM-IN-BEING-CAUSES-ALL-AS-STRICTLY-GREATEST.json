@@ -1,7 +1,8 @@
 {
-  "id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "id": "0a95d946-d7d5-559e-bd0e-66841d6beb62",
   "label": "The MAXIME_3 causal principle with a bridge: a MAXIME_1 being causes being in all others",
-  "argument_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "legacy_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "argument_id": "5106f118-f068-5481-a955-9a17cffb700f",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximumInBeingCausesAllStrict",

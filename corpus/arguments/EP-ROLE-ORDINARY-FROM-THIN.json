@@ -1,19 +1,21 @@
 {
-  "id": "EP-ROLE-ORDINARY-FROM-THIN",
+  "id": "a4300bda-89d3-52ed-a517-c4eab36cfd5b",
+  "label": "Some subject, consideration and attitude toward assessable content instantiate both…, from thin",
+  "legacy_id": "EP-ROLE-ORDINARY-FROM-THIN",
   "premise_statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
-    "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "1b74e22c-3e2e-5328-b587-6dc2517f5e3f",
+    "eaee221f-3b1c-57c6-8817-789c12e71867"
   ],
-  "conclusion_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "conclusion_statement_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "inference_ids": [
-    "INF-EP-ROLE-ORDINARY-FROM-THIN"
+    "0b43f45f-808b-590c-a645-ff5403f1bc01"
   ],
   "meaning": "Calibration transcription: thin F6 plus its explicit consideration presentation and ordinary-role definition yields an ordinary-role witness. No actual favorable bearing is proved from the name epistemic reason.",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

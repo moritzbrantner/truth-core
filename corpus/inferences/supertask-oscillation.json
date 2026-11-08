@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "id": "c7dd94a3-6745-5c64-ad0d-ea99b0b8c752",
+  "label": "An output that toggles at every natural-number-indexed stage…, by Successor-contradicts-eventua…",
+  "legacy_id": "INF-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPERTASK-OSCILLATION-NO-STABLE-LIMIT",
+  "output_statement_id": "45accc3c-f350-545e-8059-593e0c0e2b69",
   "rule": "successor-contradicts-eventual-constancy",
   "meaning": "Assume a terminal value is constant after a cutoff. At the cutoff and at its successor the outputs must be equal to that terminal value, but the recursive toggle rule makes them opposites.",
   "assumption_statement_ids": [],

@@ -1,24 +1,26 @@
 {
-  "id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "id": "ba077630-3991-5ee1-9a94-cfa04c8c0e5a",
+  "label": "Negation of the inertial rival inertial uniform MOTION_1 without mover on the…, from state reading",
+  "legacy_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
   "premise_statement_ids": [
-    "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
-    "STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE"
+    "33fc6c10-b5b4-50b5-86fe-75a73a894ed3",
+    "0d28f7f1-479f-5751-947a-f3bab5b63601"
   ],
-  "conclusion_statement_id": "STMT-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "conclusion_statement_id": "f9f371cb-5991-5e43-8426-1a73d2f9ab06",
   "inference_ids": [
-    "INF-NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING"
+    "17c0200c-2b2c-5cb2-aec9-a7d67c4d538c"
   ],
   "meaning": "Conditional refutation of the inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER. A body moved uniformly in a straight line with nothing moving it perseveres in that motion (STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE), and on the state reading a body persevering in uniform rectilinear motion is not thereby being moved in that respect (STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED); so no such body is being moved, against the rival. The rival therefore needs the becoming reading of DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING, or must deny that a moverless uniformly moving body perseveres. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). It does not decide between the state and becoming readings, and both premises are open, so the refutation does not count for closure.",
   "definition_ids": [
-    "DEF-UNIFORM-MOTION-AS-STATE",
-    "DEF-NEWTONIAN-PERSEVERANCE",
-    "DEF-UNIFORM-LOCAL-MOTION",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "0cdee911-8c9a-5e0d-b146-425a7a9470f1",
+    "fc8cc73a-13b4-5694-9270-123389a1b506",
+    "ff80ac33-b0be-511a-a7e9-290f6a7be7fb",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING",
-    "DISAMB-MOTION",
-    "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER"
+    "ce9075bd-ebe1-5223-a8f4-cbf00ed84f6d",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "90cb2e36-4292-5a78-8217-7aab88ded1b8"
   ]
 }

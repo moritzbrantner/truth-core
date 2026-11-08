@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
-  "argument_id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "id": "6c7eaa48-8c27-5b01-80a1-669ad9567110",
+  "label": "Weak version: for every sentence, if its negation…, from Strong version: for every sentence, if it…",
+  "legacy_id": "MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "argument_id": "2597b819-0089-5e8b-96fb-052944c27b14",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.NegationClosureStrongWeak.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.NegationClosureStrongWeak.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.NegationClosureStrongWeak.negationClosureStrongEntailsWeak",

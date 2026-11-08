@@ -1,14 +1,16 @@
 {
-  "id": "NT-JOHN-STONE-REACTION",
-  "statement_id": "STMT-REPORTED-JOHN-STONE-REACTION",
-  "source_id": "NT-JOHN",
+  "id": "cd8d1b26-b5e3-5f1a-b73a-22b996d086b9",
+  "label": "New Testament, John 8.59: The narrative says the interlocutors took stones in order to throw them…",
+  "legacy_id": "NT-JOHN-STONE-REACTION",
+  "statement_id": "1ff54b8e-8bc4-52d4-8226-3cb2fe99c3bc",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "8.59",
   "interpretation": "The narrated action and intention are retained without inventing an explicit blasphemy charge or inferring the truth of a theological interpretation from hostility. See docs/john-abraham-saying.md.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTENCE-FACT-NECESSITATION",
+  "id": "5e797e6e-258c-5070-bd69-cb49f78ec98c",
+  "label": "EXISTENCE_FACT_MODAL_NECESSITATION_2: TruthNecessitation m R says each selected direct support edge…",
+  "legacy_id": "DEF-EXISTENCE-FACT-NECESSITATION",
   "term": "Existence-fact modal necessitation",
   "definition": "TruthNecessitation m R says each selected direct support edge at w has a source-existence proposition that entails target existence at every world accessible from w. It is a necessary modal condition only: it neither defines full grounds nor distinguishes partial from full support. NecessarySupportStable instead constrains the support relation itself.",
   "lean_declaration": "TruthCore.Causality.CommonPriority.TruthNecessitation",

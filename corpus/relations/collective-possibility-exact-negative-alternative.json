@@ -1,9 +1,11 @@
 {
-  "id": "REL-COLLECTIVE-POSSIBILITY-EXACT-NEGATIVE-ALTERNATIVE",
+  "id": "3c45a1d8-157c-5dd5-82c9-c5f93c09c811",
+  "label": "Exact negation of the original… alternative to Collective possibility: if every being…",
+  "legacy_id": "REL-COLLECTIVE-POSSIBILITY-EXACT-NEGATIVE-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "subject_id": "dbd03eab-fccb-5f7d-8891-7fe2431863eb",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "object_id": "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
   "note": "Exact unrefuted analyst complement of the same conditional. The existing perpetual-succession rival is preserved separately; refuting a positive proof method or a finite named roster cannot establish this premise."
 }

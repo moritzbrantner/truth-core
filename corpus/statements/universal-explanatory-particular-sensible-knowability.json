@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNIVERSAL-EXPLANATORY-PARTICULAR-SENSIBLE-KNOWABILITY",
+  "id": "00739e8d-415f-58e9-ba42-82fc86e70212",
+  "label": "Universals are more knowable in the order of account, while particulars are more familiar in the…",
+  "legacy_id": "STMT-UNIVERSAL-EXPLANATORY-PARTICULAR-SENSIBLE-KNOWABILITY",
   "paraphrase": "Universals are more knowable in the order of account, while particulars are more familiar in the order of sense.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UniversalExplanatoryParticularSensibleKnowabilityReading"
 }

@@ -1,15 +1,17 @@
 {
-  "id": "STMT-MOVER-IS-EFFICIENT-CAUSE",
+  "id": "a7d2b839-5873-585e-ae86-4ec36c563b10",
+  "label": "Whatever moves another in a respect is an efficient CAUSE_3 of it in that respect",
+  "legacy_id": "STMT-MOVER-IS-EFFICIENT-CAUSE",
   "paraphrase": "Open bridge, analyst formulation (attribution deferred): whatever moves another in a respect is an efficient cause of it in that respect. It links the prima via's moving (MovesIn) to the secunda via's efficient causing (EfficientlyCausesIn), which DEF-EFFICIENT-CAUSING keeps distinct; Aristotle's mover mode of cause (the source of change, DEF-ARISTOTELIAN-CAUSE-MODES) motivates it. Occasionalists deny it of creaturely movers.",
   "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.MoverIsEfficientCauseReading",
   "definition_ids": [
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-ARISTOTELIAN-CAUSE-MODES",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "d57222e9-d0f2-5fd4-97c3-b5f0462dd623",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-CAUSE"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

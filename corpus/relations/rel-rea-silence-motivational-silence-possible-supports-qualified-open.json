@@ -1,9 +1,11 @@
 {
-  "id": "REL-REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE-SUPPORTS-QUALIFIED-OPEN",
+  "id": "d8c1c820-749c-5c6c-be0f-bdab758a3925",
+  "label": "Michael C. Rea, Divine Hiddenness Divine…… supports Perfect love provides immediate conscious… (3)",
+  "legacy_id": "REL-REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE-SUPPORTS-QUALIFIED-OPEN",
   "subject_kind": "claim",
-  "subject_id": "REA-SILENCE-MOTIVATIONAL-SILENCE-POSSIBLE",
+  "subject_id": "b5f45878-4234-5c06-ba40-30c2f4fc7268",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-HIDDENNESS-QUALIFIED-OPEN",
+  "object_id": "2835fac8-35cb-56cf-85e4-cbde536a94a2",
   "note": "A possible reply resource, not a logical derivation or evidence that every actual case has a sufficient reason. The target remains a stronger, unattributed open comparison premise."
 }

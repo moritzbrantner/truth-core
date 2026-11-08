@@ -1,0 +1,14 @@
+{
+  "id": "138a151b-285a-5181-829b-5464968164ac",
+  "label": "Sense bridge MUTABLE_2 to MUTABLE_1: what another can change is in potency in itself",
+  "legacy_id": "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY",
+  "paraphrase": "OPEN sense bridge MUTABLE_2 to MUTABLE_1 (attribution deferred): whatever some other being has power to change is in potency in itself in some respect. Q.9 a.2 keeps the two channels apart; a dependent being with no potency in itself (an emanated pure intelligence) would deny this bridge.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SubjectOfAnothersPowerHasPotency",
+  "definition_ids": [
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

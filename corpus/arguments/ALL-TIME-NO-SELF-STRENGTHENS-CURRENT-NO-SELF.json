@@ -1,17 +1,19 @@
 {
-  "id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
+  "id": "0f804637-dafb-5a24-80c8-9250f288322d",
+  "label": "Nothing is the efficient cause of itself, in…, from At every admitted time, nothing efficiently…",
+  "legacy_id": "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
   "premise_statement_ids": [
-    "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME"
+    "d15ded6f-1895-5d2d-b967-a14165c49bda"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "conclusion_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
   "inference_ids": [
-    "INF-ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF"
+    "03c1acdb-6815-5b01-afc1-5e2357070d3d"
   ],
   "meaning": "Logical strength registration: every-admitted-time no-self-causation implies the original selected-time no-self premise; past-self control separates converse.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }
