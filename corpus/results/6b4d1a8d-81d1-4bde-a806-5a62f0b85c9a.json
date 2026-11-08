@@ -1,0 +1,11 @@
+{
+  "id": "6b4d1a8d-81d1-4bde-a806-5a62f0b85c9a",
+  "label": "Due actuality from ideal consensus and explicit semantic bridges",
+  "argument_id": "cd378970-dfc0-4446-8e39-0ce098b0fd2d",
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Solution",
+  "theorem": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.consensusToDue",
+  "comparator_config": "results/6b4d1a8d-81d1-4bde-a806-5a62f0b85c9a/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional comparison of a unanimous ideal-attitude reduction with due actuality: aspectwise sound witnesses and universal acceptance suffice for coextension. No actual idealization, premise truth, property identity or practical authority is established; the unrestricted root leaf still needs AllActualitiesDue."
+}

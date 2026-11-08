@@ -1,0 +1,23 @@
+target = "STMT-GOODNESS-IS-ACTUALITY"
+[[node]]
+id = "STMT-GOODNESS-IS-ACTUALITY"
+[[node]]
+id = "STMT-GOODNESS-DUE-TO-FORM-AND-END"
+[[node]]
+id = "Ideal consensus identifies goodness in the supplied profile"
+new = true
+text = "Goodness coextends with unanimous ideal approval."
+[[node]]
+id = "Due actualities receive all ideal approvals"
+new = true
+text = "Each due actuality receives every ideal assessor's approval."
+[[node]]
+id = "Each aspect has a sound ideal assessor"
+new = true
+text = "For each aspect some ideal assessor approves only if it is a due actuality."
+[[edge]]
+premises = ["Ideal consensus identifies goodness in the supplied profile", "Due actualities receive all ideal approvals", "Each aspect has a sound ideal assessor"]
+conclusion = "STMT-GOODNESS-DUE-TO-FORM-AND-END"
+kind = "bridge"
+status = "certified"
+note = "Conditional compatibility with an ideal-attitude reduction; the three semantic bridges remain open. Existing AllActualitiesDue bridge still needed for unrestricted root coextension."

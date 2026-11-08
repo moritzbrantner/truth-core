@@ -17,6 +17,7 @@ public import TruthCore.Results.Metaethics.GoodnessCoverageStrength.Solution
 public import TruthCore.Results.Metaethics.GoodnessDueToUnrestricted.Solution
 public import TruthCore.Results.Metaethics.GoodnessFormEndBoundary.Solution
 public import TruthCore.Results.Metaethics.GoodnessFormEndFork.Solution
+public import TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Solution
 public import TruthCore.Results.Metaethics.GoodnessNamedCoverage.Solution
 public import TruthCore.Results.Metaethics.GoodnessNamedElimination.Solution
 public import TruthCore.Results.Metaethics.GoodnessPropertyIdentity.Solution

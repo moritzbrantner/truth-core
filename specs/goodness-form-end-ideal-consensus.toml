@@ -1,0 +1,44 @@
+[batch]
+vocab = "TruthCore.Metaethics.GoodnessFormEndIdealConsensus"
+results = "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus"
+definitions = ["eb77a094-aec3-429c-b471-005f19a97330", "68191121-85f6-5bce-b32e-1900c8b52f57"]
+
+[[statement]]
+id = "Ideal consensus identifies goodness in the supplied profile"
+lean = "Reduction"
+paraphrase = "Open analyst reduction: for every bearer and perfection, goodness in that respect is equivalent to approval by every supplied ideal assessor."
+definitions = ["eb77a094-aec3-429c-b471-005f19a97330", "68191121-85f6-5bce-b32e-1900c8b52f57"]
+
+[[statement]]
+id = "Due actualities receive all ideal approvals"
+lean = "Acceptance"
+paraphrase = "Open semantic bridge: every due actuality receives approval from every supplied ideal assessor."
+definitions = ["eb77a094-aec3-429c-b471-005f19a97330", "68191121-85f6-5bce-b32e-1900c8b52f57"]
+
+[[statement]]
+id = "Each aspect has a sound ideal assessor"
+lean = "SoundWitness"
+paraphrase = "Open semantic bridge: for every bearer and perfection there exists a supplied ideal assessor whose approval of that aspect implies its due actuality. The witness may depend on the aspect."
+definitions = ["eb77a094-aec3-429c-b471-005f19a97330", "68191121-85f6-5bce-b32e-1900c8b52f57"]
+
+[[statement]]
+id = "Ideal consensus due actuality finite controls"
+lean = "Controls"
+paraphrase = "The fixed artifact interpretations jointly witness compatibility, failure after omitting each of the three semantic bridges, and vacuous consensus with an empty assessor class. These are formal interpretations, not metaphysical possibility claims."
+definitions = ["eb77a094-aec3-429c-b471-005f19a97330", "68191121-85f6-5bce-b32e-1900c8b52f57"]
+
+[[argument]]
+id = "Due actuality from ideal consensus and explicit semantic bridges"
+theorem = "consensusToDue"
+premises = ["Ideal consensus identifies goodness in the supplied profile", "Due actualities receive all ideal approvals", "Each aspect has a sound ideal assessor"]
+conclusion = "STMT-GOODNESS-DUE-TO-FORM-AND-END"
+rule = "instantiate unanimous approval at the sound assessor; reverse by universal acceptance"
+meaning = "Conditional comparison of a unanimous ideal-attitude reduction with due actuality: aspectwise sound witnesses and universal acceptance suffice for coextension. No actual idealization, premise truth, property identity or practical authority is established; the unrestricted root leaf still needs AllActualitiesDue."
+
+[[argument]]
+id = "Ideal consensus comparison has compatibility and omission controls"
+theorem = "controls"
+premises = []
+conclusion = "Ideal consensus due actuality finite controls"
+rule = "explicit finite artifact interpretations"
+meaning = "On the existing knife and counterweight profile, exact assessors satisfy every bridge. Permissive and rejecting assessors respectively omit soundness and acceptance; a due-accurate assessor with surplus goodness omits Reduction. Each omitted bridge leaves the due thesis false. Empty consensus also satisfies Acceptance while sound witnesses fail. No historical rival is refuted."

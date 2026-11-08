@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Metaethics.GoodnessFormEndIdealConsensus.consensusToDue"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

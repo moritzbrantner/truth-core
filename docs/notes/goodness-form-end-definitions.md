@@ -165,3 +165,41 @@ No source, passage or attributed claim is added. The current owner proposal and
 all new formulations are analyst propositions with attribution deferred. The
 original root statement and generic Challenges stay unchanged; computed
 `corpus.py frontier-diff` reports the actual root-premise effect.
+
+## Ideal consensus comparison (#1116, 2026-11-08)
+
+`GoodnessFormEndIdealConsensus` compares the existing due-actuality thesis with
+an analyst ideal-attitude reduction: aspect goodness iff every supplied ideal
+assessor approves. This uses universal agreement, rather than a current urge or
+one arbitrarily selected person's approval. The class and its idealization are
+stipulated inputs; no historical theory is attributed this definition.
+
+The sufficient bridges are `Acceptance` (due actualities receive every approval)
+and `SoundWitness` (each aspect has some assessor whose approval implies its
+due actuality). To derive due actuality from goodness, instantiate unanimous
+approval at that aspect's sound assessor. For the reverse direction, acceptance
+supplies consensus and the reduction supplies goodness. The sound assessor may
+vary by aspect; universal assessor infallibility is unnecessary. None of these
+open bridges establishes a real ideal observer, a categorical reason, or property
+identity. This is a structural conditional comparison, not an independent
+argument establishing the due thesis.
+
+The unchanged knife/counterweight standard supplies the positive model. A
+permissive assessor agrees with unrestricted actuality but approves the knife's
+non-due mass, so acceptance and reduction do not imply soundness or the thesis.
+A rejecting assessor omits the knife's due existence: reduction and soundness
+do not imply acceptance or the thesis. An assessor tracking due actuality with
+surplus goodness satisfies both semantic bridges but fails reduction and the
+thesis. Finally, an empty class approves everything unanimously but cannot
+supply the sound witness on this nonempty domain. These are explicit finite
+interpretations, not real-world or metaphysical possibility claims.
+
+Rejected inference: form/end semantics by itself refutes ideal-attitude
+reduction. The positive model permits both accounts to agree extensionally.
+Rejected shortcut: take unanimity alone as a correctness guarantee; the empty
+class and permissive model block it. No new coverage or exclusivity claim about
+all philosophical accounts is made: the existing definition space's `.other`
+option and open coverage remain. The existing arbitrary coextension bridge
+still requires `AllActualitiesDue`; no generic is/ought result is repeated and
+no practical-authority bridge is supplied. Real warrant for due standards and
+for the idealization/correctness bridges remains the investigation's blocker.

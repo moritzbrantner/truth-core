@@ -1,0 +1,9 @@
+{
+  "id": "eb77a094-aec3-429c-b471-005f19a97330",
+  "label": "Ideal consensus and due actuality comparison",
+  "term": "ideal consensus about due actuality",
+  "definition": "Consensus means approval by every assessor in a supplied class. Reduction identifies aspect goodness with that consensus. Acceptance requires every due actuality to receive all approvals. SoundWitness requires for each aspect some assessor whose approval implies due actuality; it need not be the same assessor for every aspect. These are open analyst bridges, not a historical attribution or practical obligation.",
+  "basis": "stipulative",
+  "note": "Issue #1116. Empty classes make consensus vacuous; Controls tests that case and omission of each bridge. No claim that real ideal assessors exist or that an idealization is normatively authoritative. See docs/notes/goodness-form-end-definitions.md.",
+  "lean_declaration": "TruthCore.Metaethics.GoodnessFormEndIdealConsensus.Assessment"
+}
