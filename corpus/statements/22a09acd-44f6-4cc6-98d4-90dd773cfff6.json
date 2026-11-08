@@ -1,0 +1,11 @@
+{
+  "id": "22a09acd-44f6-4cc6-98d4-90dd773cfff6",
+  "label": "Accidental mover coverage supplies a per-se mover",
+  "paraphrase": "OPEN conversion premise: any subject with a per-accidens mover in a respect has some per-se mover in that respect, not necessarily the accidental mover.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.AccidentalHasPerSeMover",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4"
+  ]
+}

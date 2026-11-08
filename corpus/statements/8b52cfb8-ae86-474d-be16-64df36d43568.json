@@ -1,0 +1,11 @@
+{
+  "id": "8b52cfb8-ae86-474d-be16-64df36d43568",
+  "label": "A distinct same-respect mover supplies some same-respect mover",
+  "paraphrase": "For each subject and respect, a distinct per-se mover supplies some per-se mover in that respect.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.AnotherGivesSomething",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb"
+  ]
+}

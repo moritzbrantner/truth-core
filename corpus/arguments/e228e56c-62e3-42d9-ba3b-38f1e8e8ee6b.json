@@ -1,0 +1,43 @@
+{
+  "id": "e228e56c-62e3-42d9-ba3b-38f1e8e8ee6b",
+  "label": "MOTION_1 and MOTION_2 mover coverage from physical and residual coverage",
+  "premise_statement_ids": [
+    "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+    "d758b09d-9f7c-4641-bc9b-3916fa3f37d4",
+    "0ab65393-65df-40fc-b911-f5c2eaf8db08"
+  ],
+  "conclusion_statement_id": "59f993dc-9d2d-4d0e-90b9-386b8e686fd3",
+  "inference_ids": [
+    "6f620141-6b40-495a-b0f0-cc806554b69f"
+  ],
+  "meaning": "Cases on typed motion readings: the physical branch uses physical coverage; the broad branch uses the scoped root derivation with its explicit residual and coverage premises.",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MOTION",
+      "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+      "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
+      "statement_id": "0ab65393-65df-40fc-b911-f5c2eaf8db08",
+      "role": "premise"
+    },
+    {
+      "term": "MOTION",
+      "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+      "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
+      "statement_id": "59f993dc-9d2d-4d0e-90b9-386b8e686fd3",
+      "role": "conclusion"
+    }
+  ],
+  "term_senses": {
+    "MOTION": "38074911-d62e-44e1-b71c-66b5882f0ff3"
+  }
+}

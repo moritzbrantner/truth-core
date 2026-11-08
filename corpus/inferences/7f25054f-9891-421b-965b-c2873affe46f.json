@@ -1,0 +1,14 @@
+{
+  "id": "7f25054f-9891-421b-965b-c2873affe46f",
+  "label": "Broad MOTION_1 mover route from physical and residual coverage (inference)",
+  "input_statement_ids": [
+    "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+    "d758b09d-9f7c-4641-bc9b-3916fa3f37d4",
+    "0ab65393-65df-40fc-b911-f5c2eaf8db08"
+  ],
+  "output_statement_id": "4a952b96-be5f-5493-8277-985248151d01",
+  "rule": "typed witness elimination and case analysis",
+  "meaning": "Cases on instance coverage: physical moved instances use existing physical mover coverage; residual instances use the explicit residual premise. Does not discharge either premise or assert all reduction is physical.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

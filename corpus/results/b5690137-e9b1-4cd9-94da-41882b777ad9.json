@@ -1,0 +1,11 @@
+{
+  "id": "b5690137-e9b1-4cd9-94da-41882b777ad9",
+  "label": "The mover fork under accidental conversion",
+  "argument_id": "c1ab1c3b-7241-418f-9c5b-cc0448020a47",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.moverFork",
+  "comparator_config": "results/b5690137-e9b1-4cd9-94da-41882b777ad9/comparator.json",
+  "status": "solution-present",
+  "description": "Cases on the three typed mover meanings; the accidental branch retains the explicit open conversion premise."
+}

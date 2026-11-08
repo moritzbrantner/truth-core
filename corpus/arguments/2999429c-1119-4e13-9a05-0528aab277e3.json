@@ -1,0 +1,35 @@
+{
+  "id": "2999429c-1119-4e13-9a05-0528aab277e3",
+  "label": "Broad MOTION_1 mover route from physical and residual coverage",
+  "premise_statement_ids": [
+    "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+    "d758b09d-9f7c-4641-bc9b-3916fa3f37d4",
+    "0ab65393-65df-40fc-b911-f5c2eaf8db08"
+  ],
+  "conclusion_statement_id": "4a952b96-be5f-5493-8277-985248151d01",
+  "inference_ids": [
+    "7f25054f-9891-421b-965b-c2873affe46f"
+  ],
+  "meaning": "Cases on instance coverage: physical moved instances use existing physical mover coverage; residual instances use the explicit residual premise. Does not discharge either premise or assert all reduction is physical.",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MOTION",
+      "from": "2ddf9d53-00b1-4c63-9197-ee632aba310d",
+      "to": "38074911-d62e-44e1-b71c-66b5882f0ff3",
+      "statement_id": "0ab65393-65df-40fc-b911-f5c2eaf8db08",
+      "role": "premise"
+    }
+  ]
+}

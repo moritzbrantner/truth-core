@@ -1,0 +1,9 @@
+{
+  "id": "65a14f55-dc2d-43ce-8579-45efbaa09c5c",
+  "label": "The mover use selects at most one reading",
+  "paraphrase": "OPEN selection exclusivity: any two selected mover constructors are equal. The meanings need not have disjoint extensions.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MoverExclusive",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

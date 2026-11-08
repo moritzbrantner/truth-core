@@ -1,0 +1,10 @@
+{
+  "id": "a18e4325-b313-49c2-8f59-be3ae1ebd190",
+  "label": "Motion and mover fork finite controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "fe2bdb05-1ac0-4ae2-951f-b18b67393e01",
+  "rule": "typed witness elimination and case analysis",
+  "meaning": "Concrete finite controls and nonvacuity only, not real-world applicability or premise truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

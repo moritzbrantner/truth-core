@@ -1,0 +1,10 @@
+{
+  "id": "65dc12d8-2ad6-4493-87d0-df309771ffc6",
+  "label": "MOTION_2 restricts MOTION_1 reduction (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f3690999-7bd0-47fb-a84d-b2db0f86e9b5",
+  "rule": "typed witness elimination and case analysis",
+  "meaning": "Projection of the physical witness retains its broad moved witness; this does not identify arbitrary physical states with reductions.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

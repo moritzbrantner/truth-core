@@ -1,0 +1,30 @@
+{
+  "id": "ccac26e2-00fb-45dc-afed-464333b72f24",
+  "label": "Distinct mover gives some mover",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "8b52cfb8-ae86-474d-be16-64df36d43568",
+  "inference_ids": [
+    "3593f43a-daf8-44be-adf0-285e71cfb415"
+  ],
+  "meaning": "Witness projection drops distinctness while retaining mover and respect.",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb"
+  ],
+  "term_senses": {
+    "MOVED_BY_SOMETHING_BY_ANOTHER_PER": "673bff63-58f5-4df9-a528-9f6733699774"
+  },
+  "sense_bridges": [
+    {
+      "term": "MOVED_BY_SOMETHING_BY_ANOTHER_PER",
+      "from": "0b6ce1fd-fc0f-44d9-8215-96dd595364c0",
+      "to": "673bff63-58f5-4df9-a528-9f6733699774",
+      "statement_id": "8b52cfb8-ae86-474d-be16-64df36d43568",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
+  ]
+}

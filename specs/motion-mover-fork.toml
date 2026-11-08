@@ -1,0 +1,161 @@
+[batch]
+vocab = "TruthCore.Causality.MotionMoverFork"
+results = "TruthCore.Results.Causality.MotionMoverFork"
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "0ab65393-65df-40fc-b911-f5c2eaf8db08"
+lean = "MotionCoverage"
+paraphrase = "OPEN scope premise: every broad moved instance is in a physical respect or the explicitly supplied residual class."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "d758b09d-9f7c-4641-bc9b-3916fa3f37d4"
+lean = "ResidualHasMover"
+paraphrase = "OPEN residual premise: every broad moved instance in a residual respect has a per-se mover in that same respect."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "013005c0-7824-48b3-9001-e83183a6be69"
+lean = "MotionExclusive"
+paraphrase = "OPEN optional partition premise: no respect belongs to both the physical and residual classes; the root theorem does not require it."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "22a09acd-44f6-4cc6-98d4-90dd773cfff6"
+lean = "AccidentalHasPerSeMover"
+paraphrase = "OPEN conversion premise: any subject with a per-accidens mover in a respect has some per-se mover in that respect, not necessarily the accidental mover."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "94b121aa-dea5-5740-9287-91fb8b4fcfd4"]
+
+[[statement]]
+id = "8b52cfb8-ae86-474d-be16-64df36d43568"
+lean = "AnotherGivesSomething"
+paraphrase = "For each subject and respect, a distinct per-se mover supplies some per-se mover in that respect."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "7b016011-d896-532f-b6fb-2bd7c2a54bbb"]
+
+[[statement]]
+id = "f3690999-7bd0-47fb-a84d-b2db0f86e9b5"
+lean = "PhysicalGivesBroad"
+paraphrase = "A physical-motion witness contains a broad-reduction witness in the same respect, under the explicitly restricted physical interpretation."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "ab0d1d6b-b777-51cc-ae11-c033081830e8"]
+label = "MOTION_2 witnesses MOTION_1 reduction"
+
+[[statement]]
+id = "c8451a5e-83ae-4952-bcb0-5d2c6ea2596c"
+lean = "MoverForkSound"
+paraphrase = "Each of the three typed mover readings supplies a per-se mover in some respect, conditional on explicit conversion for the accidental branch. The by-another reading is respect-free, so this does not establish a same-respect mover."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "7b016011-d896-532f-b6fb-2bd7c2a54bbb", "94b121aa-dea5-5740-9287-91fb8b4fcfd4"]
+
+[[statement]]
+id = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3"
+lean = "MotionForkSound"
+paraphrase = "Both typed motion readings have same-respect mover coverage, conditional on physical mover coverage, residual mover coverage and instance coverage."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "ab0d1d6b-b777-51cc-ae11-c033081830e8"]
+label = "The MOTION_1 and MOTION_2 fork has same-respect mover coverage"
+
+[[statement]]
+id = "10749aec-cb49-4c43-8d48-aea2a30ff80a"
+lean = "MoverCoverage"
+paraphrase = "OPEN selection coverage: some one of the three finite mover constructors is selected for the route use."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "65a14f55-dc2d-43ce-8579-45efbaa09c5c"
+lean = "MoverExclusive"
+paraphrase = "OPEN selection exclusivity: any two selected mover constructors are equal. The meanings need not have disjoint extensions."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "2e557edd-3ac3-4c21-a50c-734d611a6685"
+lean = "MotionReadingCoverage"
+paraphrase = "OPEN selection coverage: some one of the two finite motion constructors is selected for the route use."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "b561520c-8dee-491f-873b-bf9d648be71b"
+lean = "MotionReadingExclusive"
+paraphrase = "OPEN selection exclusivity: any two selected motion constructors are equal; physical and broad extensions need not be disjoint."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "fe2bdb05-1ac0-4ae2-951f-b18b67393e01"
+lean = "Controls"
+paraphrase = "Finite certificate: a model with physical and residual moved instances satisfies all three root premises and exclusivity; omitting each root premise permits failure of the broad conclusion. A self-link separates something from another; an accidental-only link separates accidental from per-se; singleton selections satisfy coverage and exclusivity."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e"]
+
+[[statement]]
+id = "A distinct mover in some respect supplies a mover in some respect"
+lean = "AnotherAnyGivesSomethingAny"
+paraphrase = "The Physics VIII.5 typed distinct-mover witness supplies a per-se mover in some respect; no same-respect alignment is asserted."
+definitions = ["39577c15-a681-40f5-82a5-b5b9bfd7ff6e", "a7904c82-eef8-58e4-ac7c-0bb93374cb43", "7b016011-d896-532f-b6fb-2bd7c2a54bbb"]
+
+[[argument]]
+id = "ccac26e2-00fb-45dc-afed-464333b72f24"
+theorem = "anotherGivesSomething"
+premises = []
+conclusion = "8b52cfb8-ae86-474d-be16-64df36d43568"
+rule = "typed witness elimination and case analysis"
+meaning = "Witness projection drops distinctness while retaining mover and respect."
+senses = {MOVED_BY_SOMETHING_BY_ANOTHER_PER = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1"}
+sense_bridges = [{term = "MOVED_BY_SOMETHING_BY_ANOTHER_PER", from = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_2", to = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1", statement_id = "8b52cfb8-ae86-474d-be16-64df36d43568", role = "conclusion"}]
+
+[[argument]]
+id = "077e99bd-fcfd-4021-bd2f-d3e991e4710a"
+label = "MOTION_2 restricts MOTION_1 reduction"
+theorem = "physicalGivesBroad"
+premises = []
+conclusion = "f3690999-7bd0-47fb-a84d-b2db0f86e9b5"
+rule = "typed witness elimination and case analysis"
+meaning = "Projection of the physical witness retains its broad moved witness; this does not identify arbitrary physical states with reductions."
+senses = {MOTION = "MOTION_1"}
+sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "f3690999-7bd0-47fb-a84d-b2db0f86e9b5", role = "conclusion"}]
+
+[[argument]]
+id = "c1ab1c3b-7241-418f-9c5b-cc0448020a47"
+theorem = "moverFork"
+premises = ["22a09acd-44f6-4cc6-98d4-90dd773cfff6"]
+conclusion = "c8451a5e-83ae-4952-bcb0-5d2c6ea2596c"
+rule = "typed witness elimination and case analysis"
+meaning = "Cases on the three typed mover meanings; the accidental branch retains the explicit open conversion premise."
+senses = {MOVED_BY_SOMETHING_BY_ANOTHER_PER = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1"}
+sense_bridges = [{term = "MOVED_BY_SOMETHING_BY_ANOTHER_PER", from = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_2", to = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1", statement_id = "c8451a5e-83ae-4952-bcb0-5d2c6ea2596c", role = "conclusion"}, {term = "MOVED_BY_SOMETHING_BY_ANOTHER_PER", from = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_3", to = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1", statement_id = "22a09acd-44f6-4cc6-98d4-90dd773cfff6", role = "premise"}]
+
+[[argument]]
+id = "2999429c-1119-4e13-9a05-0528aab277e3"
+theorem = "broadFromPhysicalAndResidual"
+premises = ["STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER", "d758b09d-9f7c-4641-bc9b-3916fa3f37d4", "0ab65393-65df-40fc-b911-f5c2eaf8db08"]
+conclusion = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+rule = "typed witness elimination and case analysis"
+meaning = "Cases on instance coverage: physical moved instances use existing physical mover coverage; residual instances use the explicit residual premise. Does not discharge either premise or assert all reduction is physical."
+sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "0ab65393-65df-40fc-b911-f5c2eaf8db08", role = "premise"}]
+label = "Broad MOTION_1 mover route from physical and residual coverage"
+
+[[argument]]
+id = "e228e56c-62e3-42d9-ba3b-38f1e8e8ee6b"
+theorem = "motionFork"
+premises = ["STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER", "d758b09d-9f7c-4641-bc9b-3916fa3f37d4", "0ab65393-65df-40fc-b911-f5c2eaf8db08"]
+conclusion = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3"
+rule = "typed witness elimination and case analysis"
+meaning = "Cases on typed motion readings: the physical branch uses physical coverage; the broad branch uses the scoped root derivation with its explicit residual and coverage premises."
+label = "MOTION_1 and MOTION_2 mover coverage from physical and residual coverage"
+sense_bridges = [{term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "0ab65393-65df-40fc-b911-f5c2eaf8db08", role = "premise"}, {term = "MOTION", from = "MOTION_2", to = "MOTION_1", statement_id = "59f993dc-9d2d-4d0e-90b9-386b8e686fd3", role = "conclusion"}]
+senses = {MOTION = "MOTION_1"}
+
+[[argument]]
+id = "a0fdb786-6fa2-46d7-9c7c-b4ef67d4434e"
+theorem = "controls"
+premises = []
+conclusion = "fe2bdb05-1ac0-4ae2-951f-b18b67393e01"
+rule = "typed witness elimination and case analysis"
+meaning = "Concrete finite controls and nonvacuity only, not real-world applicability or premise truth."
+sense_mixing_control = true
+
+[[argument]]
+id = "Distinct mover supplies respect-free mover coverage"
+theorem = "anotherAnyGivesSomethingAny"
+premises = []
+conclusion = "A distinct mover in some respect supplies a mover in some respect"
+rule = "existential witness projection"
+meaning = "Drop distinctness from the existing respect-free MovedByAnother witness; retain the witnessed respect, without aligning it with any separately observed motion."
+senses = {MOVED_BY_SOMETHING_BY_ANOTHER_PER = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1"}
+sense_bridges = [{term = "MOVED_BY_SOMETHING_BY_ANOTHER_PER", from = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_2", to = "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1", statement_id = "A distinct mover in some respect supplies a mover in some respect", role = "conclusion"}]

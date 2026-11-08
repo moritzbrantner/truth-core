@@ -1,0 +1,11 @@
+{
+  "id": "59f993dc-9d2d-4d0e-90b9-386b8e686fd3",
+  "label": "The MOTION_1 and MOTION_2 fork has same-respect mover coverage",
+  "paraphrase": "Both typed motion readings have same-respect mover coverage, conditional on physical mover coverage, residual mover coverage and instance coverage.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MotionForkSound",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8"
+  ]
+}

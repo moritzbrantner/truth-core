@@ -1,0 +1,9 @@
+{
+  "id": "0ab65393-65df-40fc-b911-f5c2eaf8db08",
+  "label": "Physical or residual motion covers the broad mover route",
+  "paraphrase": "OPEN scope premise: every broad moved instance is in a physical respect or the explicitly supplied residual class.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.MotionCoverage",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

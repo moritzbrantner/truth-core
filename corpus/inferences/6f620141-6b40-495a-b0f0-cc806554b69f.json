@@ -1,0 +1,14 @@
+{
+  "id": "6f620141-6b40-495a-b0f0-cc806554b69f",
+  "label": "MOTION_1 and MOTION_2 mover coverage from physical and residual coverage (inference)",
+  "input_statement_ids": [
+    "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+    "d758b09d-9f7c-4641-bc9b-3916fa3f37d4",
+    "0ab65393-65df-40fc-b911-f5c2eaf8db08"
+  ],
+  "output_statement_id": "59f993dc-9d2d-4d0e-90b9-386b8e686fd3",
+  "rule": "typed witness elimination and case analysis",
+  "meaning": "Cases on typed motion readings: the physical branch uses physical coverage; the broad branch uses the scoped root derivation with its explicit residual and coverage premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

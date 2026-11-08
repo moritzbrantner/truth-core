@@ -1,0 +1,9 @@
+{
+  "id": "fe2bdb05-1ac0-4ae2-951f-b18b67393e01",
+  "label": "Finite controls for the motion and mover fork",
+  "paraphrase": "Finite certificate: a model with physical and residual moved instances satisfies all three root premises and exclusivity; omitting each root premise permits failure of the broad conclusion. A self-link separates something from another; an accidental-only link separates accidental from per-se; singleton selections satisfy coverage and exclusivity.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.Controls",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e"
+  ]
+}

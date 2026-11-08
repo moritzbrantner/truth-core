@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.MotionMoverFork.anotherAnyGivesSomethingAny"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

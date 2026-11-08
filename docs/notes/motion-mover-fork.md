@@ -1,122 +1,93 @@
-# Motion/mover fork: bounded investigation
+# Scoped motion and mover fork
 
-Target: `STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER`, on the first-mover route.
-Analyst formulations; attribution deferred. This records development experiments,
-not a certified batch or a premise discharge.
+Target: `STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER`, on the first-mover root route.
+Analyst formulations; attribution deferred. The finite readings below are the
+selected research scope. The original Physics VIII.4 attempt remains a failed
+derivation of per-se coverage from the literal per-accidens division.
 
-## Reuse and result boundaries
+## Typed meanings and consequences
 
-The existing Physics VIII.4 literal/per-se separation and its omission model
-already reject deriving a per-se mover from the literal per-accidens disjunction.
-See `ATTEMPT-PHYSICS-VIII4-LITERAL-PER-SE` and `docs/typed-physics.md`.
-`STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER` is guarded by physical respects;
-`STMT-EVERY-MOVED-THING-HAS-SOME-MOVER` drops the same-respect requirement.
-Neither is silently identified with the broad prima-via premise.
+`TruthCore.Causality.MotionMoverFork` provides distinct inductive witness types:
 
-Four small proof experiments below were accepted without diagnostics by the
-coordinator's Lean preview at clean `fb544e6f425e89b1193cf4c9baa3b0825640d7b6`.
-They have not passed binding, Comparator, NanoDa or final build gates, and are
-not registered results. No source attribution or real-world applicability follows.
+- `BroadMotion`: the existing primitive reduction-from-potency-to-act witness.
+- `PhysicalMotion`: that witness together with physical-respect classification.
+- `SomeMover`: a per-se mover witness in the given respect, allowing self-links.
+- `AnotherMoverAnyRespect`: the existing Physics VIII.5 distinct-mover witness
+  in some respect. `AnotherMover` is its explicitly same-respect refinement.
+- `AccidentalMover`: a witness of the separate per-accidens relation.
 
-1. A distinct mover in some respect supplies a mover in some respect.
-2. The converse fails on a singleton self-link. This does **not** refute the
-   distinct-part analysis of an animal's self-motion: that requires representing
-   the parts, absent from this singleton model.
-3. Physical coverage plus explicit residual coverage and a physical/nonphysical
-   case split yields the broad mover premise. The residual premise remains OPEN;
-   this is a scope decomposition, not independent support for movers.
-4. Physical-only coverage can hold while broad reduction has no mover: the
-   countermodel has one moved subject, a nonphysical respect, and no mover links.
-   It is nonvacuous for broad reduction and vacuous for physical motion, exactly
-   the scope gap being tested.
+`MotionSense` and `MoverSense` select these meaning-bearing witness types. The
+selection coverage and exclusivity statements are explicit open hypotheses for
+a use's interpretation. Exclusivity means one constructor is selected, not that
+extensions are disjoint. The batch proves universal branch coverage by cases,
+which is stronger than a conclusion restricted to a selected constructor; it
+therefore does not need to assume selection coverage or exclusivity.
 
-An inertial state must not be identified with passage from potency to act merely
-because the word motion occurs. A model of uniform motion without a sustaining
-mover only challenges a premise whose selected meaning includes that state.
-No inertial-state/change bridge is proved here. Per-accidens moving remains a
-separate primitive and supplies no per-se link without an explicit premise.
+The wrappers do not pretend to define the underlying metaphysical relations:
+`MovedIn`, `MovesIn`, the physical classification and accidental moving retain
+their existing primitive interpretations and open applicability obligations.
+Heating is the physical example. An intellectual reduction is a stipulated
+nonphysical framework example, not an independently established empirical case.
+No transitivity, asymmetry, irreflexivity or well-foundedness is assumed here.
 
-## Remaining encoding and connection
+Physical motion entails broad reduction in this restricted interpretation;
+the converse fails for a broad moved witness in a nonphysical respect. A
+same-respect distinct mover entails a same-respect some mover. The respect-free
+Physics VIII.5 reading entails only a mover in some respect. The joint mover
+fork retains this weaker common conclusion: no unnoticed respect-alignment
+assumption upgrades it to the prima via's same-respect mover premise.
 
-The two owned disambiguations still need meaning-bearing distinct sense types,
-typed choice with Other, open coverage and exclusivity statements, branch results
-and the joint theorem. The experiment below is intentionally insufficient for
-that migration: it does not replace the existing primitive `MovedIn` declarations
-with completed definitions or settle the causal interpretation. The next batch
-should reuse the physical branch, add an explicit nonphysical branch rather than
-assert that all reduction is physical, and keep any bridge back to the existing
-root signature open. Test omission of the residual branch and physical branch
-with actual moved witnesses. The singleton witness only tests distinctness.
+The accidental branch supplies a per-se mover only under the explicit OPEN
+`AccidentalHasPerSeMover` premise. It requires some per-se mover of the subject,
+not that the accidental mover itself be per se. It does not identify the two
+relations or derive per-se coverage from the literal Physics VIII.4 division.
 
-## Reproducible development artifact
+## Root connection and exact scope
 
-This exact full content was submitted twice through `scripts/agent_lean.py` at
-`Scratch/motion/MotionMoverFork.lean`, session `parallel-round`. The first version
-omitted `physicalOnlyInsufficient`; the second is below. Second content SHA-256:
-`d1d55b2b19e3683c712646c4636cf8cd466f19c30fe408cb5f458760a31cb600`.
-The shared preview remained clean at the revision above. It is development evidence
-only; extract the block to a temporary Lean file to repeat diagnostics.
+`broadFromPhysicalAndResidual` derives the existing root-route premise from:
 
-```lean
-import TruthCore.Greek.Aristotle.Physics.Typed.Motion
-open TruthCore.Greek.Aristotle.Physics.Typed
-open TruthCore.Latin.Aquinas.SummaTheologiae
-namespace MotionMoverForkExperiment
--- A distinct mover in some respect supplies a mover in some respect.
-theorem anotherGivesSomething {B R : Type} (moves : B → B → R → Prop)
-    (x : B) (h : MovedByAnother moves x) : ∃ y r, moves y x r := by
-  obtain ⟨y, r, _, hm⟩ := h
-  exact ⟨y, r, hm⟩
--- A singleton self-link refutes the converse. It does not claim that real
--- animals have no distinct moving parts.
-theorem selfLinkNotAnother :
-    (∃ y r : Unit, (fun (_ _ _ : Unit) => True) y () r) ∧
-    ¬ MovedByAnother (fun (_ _ _ : Unit) => True) () := by
-  constructor
-  · exact ⟨(), (), True.intro⟩
-  · rintro ⟨y, r, hne, _⟩
-    exact hne (Subsingleton.elim _ _)
--- Physical coverage alone need not extend to broad reduction; the missing
--- branch must be supplied explicitly rather than identifying the two senses.
-theorem physicalAndResidual {B R : Type} (physical : R → Prop)
-    (moved : B → R → Prop) (moves : B → B → R → Prop)
-    (hp : EveryPhysicalMotionHasAPerSeMoverReading physical moved moves)
-    (hr : ∀ x r, moved x r → ¬ physical r → ∃ y, moves y x r)
-    (hc : ∀ x r, moved x r → physical r ∨ ¬ physical r) :
-    ReducedOnlyByAMoverReading moved moves := by
-  intro x r hm
-  cases hc x r hm with
-  | inl h => exact hp x r h hm
-  | inr h => exact hr x r hm h
--- A nonphysical reduction with no mover satisfies the physical restriction.
-theorem physicalOnlyInsufficient :
-    EveryPhysicalMotionHasAPerSeMoverReading (fun (_ : Unit) => False)
-      (fun _ _ : Unit => True) (fun _ _ _ : Unit => False) ∧
-    ¬ ReducedOnlyByAMoverReading (fun _ _ : Unit => True)
-      (fun _ _ _ : Unit => False) := by
-  constructor
-  · intro x r hp
-    exact False.elim hp
-  · intro h
-    obtain ⟨y, hy⟩ := h () () True.intro
-    exact hy
-end MotionMoverForkExperiment
-```
+1. Existing `STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER`.
+2. `ResidualHasMover`: moved instances in an explicitly supplied residual class
+   have per-se movers in the same respect.
+3. `MotionCoverage`: every broad moved instance is physical or residual.
 
-## Setup and service experiment
+Unlike the existing all-reduction-is-physical route, this permits genuinely
+nonphysical reductions. Both new premises remain OPEN. It is a new conditional
+connection, not a discharge or independent defense of the mover principle.
+Optional `MotionExclusive` excludes overlap between the two classes; the weakest
+root proof does not need this extra assumption. The root theorem branches on
+coverage, and `motionFork` establishes mover coverage for each typed motion sense.
 
-The supplied isolated checkout is a Git worktree without `.lake`. The documented
-`prepare-worker.py` refuses worktrees, so no cold build, dependency copy or owner
-checkout mutation was attempted. A standalone warm canonical clone is needed
-before producing the requested certified batch; the coordinator retains setup
-ownership. No heavy jobs remain running.
+The model controls exhibit both a physical and a residual moved instance with
+movers and exclusive classes, so the joint bundle is nonvacuous. Removing each
+of physical coverage, residual coverage or instance coverage permits a concrete
+moved subject with no mover. The root implication could therefore have failed.
 
-The UUID corpus query succeeded with revision/input binding. The legacy-ID query
-returned `no corpus record with id STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER`;
-use the UUID `6882f4cf-2869-5fe2-ae79-b1dfd6f88026` with this endpoint. The CLI dossier
-accepts the legacy alias. Two full edits used the same persistent preview session:
-service elaboration was 1.527s then 0.206s, with no diagnostics. Retain the service
-for proof development; revise alias handling. These are two incremental edits,
-not a benchmark against CLI compilation or final verification.
+## Rivals and rejected identifications
 
-Convention source revision: `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+The singleton self-link model satisfies 'some mover' but has no distinct mover.
+It does **not** refute animal self-motion analyzed through distinct moving parts;
+that interpretation needs an actual representation of the parts. The model
+only separates the two quantified mover conditions.
+
+An inertial state is not automatically a passage from potency to act. A model
+of uniform motion without a sustaining mover challenges a premise only when
+the selected motion predicate includes that state. No inertial-state/change
+bridge is claimed here.
+
+An accidental-only link with no per-se links refutes unconditional accidental
+to per-se conversion. A nonphysical broad reduction with no mover satisfies
+physical-only coverage vacuously but refutes broad coverage nonvacuously. These
+preserve and refine the earlier preview findings; source attribution is deferred.
+
+## Reproduction and remaining obligations
+
+The seven result records are generated from `specs/motion-mover-fork.toml`.
+The exploration map is `explorations/motion-mover-fork.toml`. The frozen Challenge
+and Solution live under `TruthCore/Results/Causality/MotionMoverFork/`.
+`controls` contains the finite witnesses and omission models.
+
+The remaining philosophical obligations are the residual mover premise, instance
+coverage and the accidental conversion premise; all remain open. A proposed
+use of the respect-free mover theorem on the same-respect root route also needs
+an explicit alignment bridge. No such alignment is silently supplied here.

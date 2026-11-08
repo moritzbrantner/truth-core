@@ -1,0 +1,11 @@
+{
+  "id": "f3690999-7bd0-47fb-a84d-b2db0f86e9b5",
+  "label": "MOTION_2 witnesses MOTION_1 reduction",
+  "paraphrase": "A physical-motion witness contains a broad-reduction witness in the same respect, under the explicitly restricted physical interpretation.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.PhysicalGivesBroad",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8"
+  ]
+}

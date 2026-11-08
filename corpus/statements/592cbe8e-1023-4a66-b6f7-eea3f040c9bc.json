@@ -1,0 +1,11 @@
+{
+  "id": "592cbe8e-1023-4a66-b6f7-eea3f040c9bc",
+  "label": "A distinct mover in some respect supplies a mover in some respect",
+  "paraphrase": "The Physics VIII.5 typed distinct-mover witness supplies a per-se mover in some respect; no same-respect alignment is asserted.",
+  "lean_declaration": "TruthCore.Causality.MotionMoverFork.AnotherAnyGivesSomethingAny",
+  "definition_ids": [
+    "39577c15-a681-40f5-82a5-b5b9bfd7ff6e",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb"
+  ]
+}

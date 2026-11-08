@@ -1,0 +1,11 @@
+{
+  "id": "630d75d5-40b5-4ab6-acbd-44e674ba4d12",
+  "label": "Distinct mover gives some mover",
+  "argument_id": "ccac26e2-00fb-45dc-afed-464333b72f24",
+  "challenge_module": "TruthCore.Results.Causality.MotionMoverFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMoverFork.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMoverFork.anotherGivesSomething",
+  "comparator_config": "results/630d75d5-40b5-4ab6-acbd-44e674ba4d12/comparator.json",
+  "status": "solution-present",
+  "description": "Witness projection drops distinctness while retaining mover and respect."
+}
