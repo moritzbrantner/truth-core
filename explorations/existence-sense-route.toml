@@ -1,0 +1,10 @@
+target = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+[[node]]
+id = "STMT-NECESSARY-ROOT-BOX-K"
+[[node]]
+id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+[[edge]]
+premises = ["STMT-NECESSARY-ROOT-BOX-K"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+kind = "derivation"
+status = "mapped"

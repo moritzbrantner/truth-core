@@ -1,0 +1,29 @@
+{
+  "id": "b7946610-9304-4b67-8639-50c94009d6de",
+  "label": "Root box K already entails actualist K",
+  "premise_statement_ids": [
+    "cdf897a8-5490-561a-b9d2-507486a3f192"
+  ],
+  "conclusion_statement_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+  "inference_ids": [
+    "f077d41c-a6f8-489b-bd9d-8dba7b105dfb"
+  ],
+  "meaning": "Unpack the box-K root witness n. RootFacts includes ActualRoot, whose ActualConcrete conjunct supplies ExistsAt w n. Pair this with the same box-existence proof to obtain the actualist-K node. No reflexivity, coverage or existence-to-esse premise is added; the existing RootFacts guard already carries actuality. This closes no independent premise and proves no act-in-esse calibration.",
+  "definition_ids": [
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "5bd704bb-4915-4657-9801-022247312147"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "to": "5afa4a29-c3b8-46cc-9461-cbeb97e36a15",
+      "statement_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+      "role": "conclusion"
+    }
+  ]
+}

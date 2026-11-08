@@ -12,14 +12,14 @@ disambiguations = ["DISAMB-NECESSARY"]
 id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
 lean = "NecessaryRootActualistK"
 paraphrase = "Necessary-being node, actualist K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n exists at w and at every world accessible from w (Kripke box of 'n exists' at w, frame class K: no frame condition). The box is the route's own NecessaryAt, definitionally."
-definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
 disambiguations = ["DISAMB-NECESSARY"]
 
 [[statement]]
 id = "STMT-NECESSARY-ROOT-BOX-K"
 lean = "NecessaryRootBoxK"
 paraphrase = "Necessary-being node, possibilist K reading: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, and n exists at every world accessible from w (Kripke box of the atom 'n exists' at w, frame class K). Actual existence of n is not part of the necessity clause."
-definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-FIXTURE-FRAME", "DEF-NECESSARY-IN-SENSE"]
+definitions = ["DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
 disambiguations = ["DISAMB-NECESSARY"]
 
 [[statement]]

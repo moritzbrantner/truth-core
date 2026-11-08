@@ -1,0 +1,9 @@
+{
+  "id": "5bd704bb-4915-4657-9801-022247312147",
+  "label": "NECESSARY_12: actualist K necessity of the same actual root",
+  "term": "actualist K necessary-root reading",
+  "definition": "NecessaryRootActualistK sigma m w CN means there is one candidate n with ExistsAt w n and BoxExistsAt m.ontic w n, together with RootFacts sigma m w n. BoxExistsAt is de re existence at every accessible world. RootFacts separately requires an actual concrete ungrounded root, God, uniqueness as God and classical attributes. Actuality guards the same witness; it is not inferred from candidate-domain membership or from the box. CN is unused in this branch. This is the root-constrained actualist K reading, not a property of a frame and not a universal quantifier policy.",
+  "basis": "stipulative",
+  "note": "Analyst formulation, attribution deferred. Reuses the existing distinct meaning-bearing NecessaryRootActualistK declaration and its NecessaryIn .actualistK case; no opaque primitive is introduced. The root theorem connects this reading with the box-K root node because their common RootFacts already carries actuality. Outside RootFacts, an empty existence extension on a no-edge frame separates box-existence from actuality. Applicability of the supplied Ontic existence extension to act in esse remains open.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootActualistK"
+}

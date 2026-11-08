@@ -1,0 +1,10 @@
+{
+  "id": "9e4aed6c-96fa-4cdf-842a-beb01e555e69",
+  "label": "Root existence guard and empty-extension control",
+  "paraphrase": "The existing one-point root model satisfies both the box K and actualist K root nodes. A separate one-candidate Ontic with no accessibility edges and empty existence extension satisfies some candidate's box-existence while no candidate actually exists. These are logical fixtures only, not metaphysical possibility claims.",
+  "lean_declaration": "TruthCore.Causality.ExistenceSenseRoute.Controls",
+  "definition_ids": [
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+  ]
+}

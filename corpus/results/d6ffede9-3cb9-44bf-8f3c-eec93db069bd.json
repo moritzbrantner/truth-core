@@ -1,0 +1,11 @@
+{
+  "id": "d6ffede9-3cb9-44bf-8f3c-eec93db069bd",
+  "label": "Root existence guard controls",
+  "argument_id": "2ec8ea64-21c2-419a-a49b-bc5589afafa9",
+  "challenge_module": "TruthCore.Results.Causality.ExistenceSenseRoute.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ExistenceSenseRoute.Solution",
+  "theorem": "TruthCore.Results.Causality.ExistenceSenseRoute.controls",
+  "comparator_config": "results/d6ffede9-3cb9-44bf-8f3c-eec93db069bd/comparator.json",
+  "status": "solution-present",
+  "description": "The positive root fixture is reused from NecessarySenseFork.nonvacuity. In the negative fixture Unit has a candidate and box-existence holds vacuously, yet ExistsAt is empty. Thus domain inhabitation or bare box-existence cannot replace the actual-root guard. This is a non-entailment model, not a refutation of actual existence."
+}
