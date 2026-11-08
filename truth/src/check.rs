@@ -2183,6 +2183,7 @@ struct Loaded {
     definitions: Vec<Record>,
     disambiguations: Vec<Record>,
     attempts: Vec<Record>,
+    inferences: Vec<Record>,
 }
 
 fn validate(
@@ -2913,6 +2914,7 @@ fn validate(
             definitions,
             disambiguations,
             attempts,
+            inferences,
         },
         counts,
     ))
@@ -3041,10 +3043,12 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
         claims: loaded.claims.iter().map(|r| &r.fields).collect(),
         attempts: loaded.attempts.iter().map(|r| &r.fields).collect(),
         definitions: loaded.definitions.iter().map(|r| &r.fields).collect(),
+        inferences: loaded.inferences.iter().map(|r| &r.fields).collect(),
     };
-    let kinds = thickness::transcription_kinds(root, &records.results);
-    let transcription_results: HashSet<String> = kinds.keys().cloned().collect();
-    let frontier = thickness::frontier_inputs(thickness::DEFAULT_ROOT, &records, kinds);
+    let flags = crate::frontier::transcription_flags(root, &records);
+    let frontier = thickness::frontier_inputs(thickness::DEFAULT_ROOT, &records, &flags);
+    let transcription_results: HashSet<String> =
+        frontier.transcription_results.keys().cloned().collect();
     let mut warnings = Vec::new();
 
     let registration = &frontier.registration_arguments;

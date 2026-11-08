@@ -18,7 +18,8 @@
     {
       "id": "4d165ba0-7511-4a04-9795-d1f0b7490588",
       "label": "PRIOR_2",
-      "definition_id": "DEF-PRIORITY-IN-TIME"
+      "definition_id": "DEF-PRIORITY-IN-TIME",
+      "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorityFrame.PriorInTime"
     },
     {
       "id": "66a09f6e-13e1-40a0-b18b-9fb2d222d63f",

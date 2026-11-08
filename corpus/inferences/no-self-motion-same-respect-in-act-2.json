@@ -1,0 +1,13 @@
+{
+  "id": "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
+  "input_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT",
+    "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"
+  ],
+  "output_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "rule": "Reductio",
+  "meaning": "Per-sense argument, IN-ACT_2 (virtual act): both act premises read virtually give no self-motion in the same respect. The virtual mover premise avoids the counterexamples of causes that produce what they do not formally have; the virtual non-simultaneity premise carries the burden.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

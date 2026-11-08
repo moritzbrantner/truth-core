@@ -1,0 +1,10 @@
+{
+  "id": "REL-NO-SELF-PERFECTION-STRENGTHENS-NO-OWN-BEING",
+  "subject_kind": "statement",
+  "subject_id": "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
+  "verification_result_id": "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION",
+  "note": "Strength order within the perfection sense of 'cause': the esse instance. A subject causing a proper accident in itself separates them (the strong version fails, the weak one may hold); no strictness control in this batch."
+}

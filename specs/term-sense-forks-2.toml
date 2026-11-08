@@ -1,0 +1,290 @@
+# Sense forks, batch 2: "uniting cause", "in act", "cause of becoming or being".
+# Owner direction (sense-indexed terms): one argument per sense, ID suffix -TERM-n,
+# senses labelled TERM_n in the disambiguation's sense order; joint theorems are optional summaries.
+# (docs/notes/load-bearing-terms.md; explorations/term-sense-forks-2.toml).
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+# Coverage and exclusivity feed existing root-route nodes through the joint theorems.
+
+[batch]
+vocab = "TruthCore.Causality.TermSenseForks"
+results = "TruthCore.Results.Causality.TermSenseForks2"
+
+# ---- "uniting cause" ----
+
+[[statement]]
+id = "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+lean = "UnitingCauseSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'causes' in the uniting-cause step of ST I q.3 a.7 (the uniter causes the composite; nothing causes itself) is read in one of three senses, uniting components into it (UNITING-CAUSE_1), efficient causing in some respect (UNITING-CAUSE_2), or causing the composite's being, CausesIn c x esse (UNITING-CAUSE_3), selected by the route's reading, and the use's relation is exactly that sense's relation. UNITING-CAUSE_4, the temporal composer profile, is a calibration of sense 2 with its own fork; a further sense (for example grounding) denies coverage."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-UNITING-CAUSE", "DEF-EFFICIENT-CAUSING", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-UNITING-CAUSE"]
+
+[[statement]]
+id = "STMT-UNITING-CAUSE-SENSE-UNIQUE"
+lean = "UnitingCauseSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'causes' in the uniting-cause step selects at most one of the three senses, so both uses take the same one. A constraint on the reading choice, not a claim that efficient causing, causing being and uniting have disjoint extensions."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-UNITING-CAUSE"]
+
+[[statement]]
+id = "STMT-UNITER-CAUSES-IN-ROUTE-SENSE"
+lean = "UniterCausesInRouteSense"
+paraphrase = "OPEN analyst premise (attribution deferred): whatever unites components into x causes x, 'causes' in the route's reading of its first use. Read as efficient causing it is STMT-UNITING-CAUSE-IS-EFFICIENT."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-UNITING-CAUSE"]
+disambiguations = ["DISAMB-UNITING-CAUSE"]
+
+[[statement]]
+id = "STMT-UNITING-ROUTE-NO-SELF-CAUSE"
+lean = "NothingCausesItselfInRouteUse"
+paraphrase = "OPEN analyst premise (attribution deferred): nothing causes itself, 'causes' in the route's reading of its second use in the uniting-cause step. Read as efficient causing it follows from STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-UNITING-CAUSE"]
+
+[[statement]]
+id = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+lean = "NothingCausesItsOwnBeing"
+paraphrase = "UNITING-CAUSE_3 (also BECOMING-BEING-CAUSE_3). OPEN analyst premise (attribution deferred): nothing causes its own being (no x with CausesIn x x esse). The esse instance of STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION; unlike that rival it is not refuted by a subject causing its proper accidents (navigation: ST I q.3 a.4 denies that a thing's essential principles suffice for its esse)."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-UNITING-CAUSE", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NOTHING-UNITES-ITSELF"
+lean = "NothingUnitesItself"
+paraphrase = "UNITING-CAUSE_1. OPEN analyst premise (attribution deferred): nothing unites components into itself. Brute composition and composition as identity reject it."
+definitions = ["DEF-UNITING-CAUSE"]
+disambiguations = ["DISAMB-UNITING-CAUSE"]
+
+# ---- "in act" ----
+
+[[statement]]
+id = "STMT-IN-ACT-SENSES-EXHAUSTIVE"
+lean = "InActSensesExhaustive"
+paraphrase = "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in act' in the prima via step (the mover is in act; nothing is in act and in potency in the same respect) is read as formal act (IN-ACT_1), virtual act (IN-ACT_2) or formal-or-virtual act (IN-ACT_3), selected by the route's reading, and the use's predicate is exactly that sense's predicate."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-IN-ACT-FORMALLY", "DEF-IN-ACT-VIRTUALLY", "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-IN-ACT-SENSE-UNIQUE"
+lean = "InActSenseUnique"
+paraphrase = "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in act' in the prima via step selects at most one sense, so both uses take the same one. Not a disjointness claim; formal act implies formal-or-virtual act."
+definitions = ["DEF-ROUTE-SENSE-SELECTION"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+lean = "MovesOnlyAsFormallyInAct"
+paraphrase = "IN-ACT_1, formal reading (attribution deferred): whatever moves something in a respect is formally in act in that respect, as fire that is hot makes the wood hot."
+definitions = ["DEF-IN-ACT-FORMALLY", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY"
+lean = "MovesOnlyAsInActFormallyOrVirtually"
+paraphrase = "IN-ACT_3, inclusive reading (attribution deferred): whatever moves something in a respect is in act in that respect formally or virtually (univoce vel eminentius, ST I q.4 a.2)."
+definitions = ["DEF-IN-ACT-FORMALLY-OR-VIRTUALLY", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+lean = "NothingFormallyInActAndInPotency"
+paraphrase = "IN-ACT_1, formal reading (attribution deferred): nothing is formally in act and in potency in the same respect."
+definitions = ["DEF-IN-ACT-FORMALLY", "DEF-POTENCY"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+lean = "NothingInActFormallyOrVirtuallyAndInPotency"
+paraphrase = "IN-ACT_3, inclusive reading (attribution deferred): nothing is in act formally or virtually and in potency in the same respect. Stronger than the formal reading: it also excludes having a perfection virtually while being in potency to it formally."
+definitions = ["DEF-IN-ACT-FORMALLY-OR-VIRTUALLY", "DEF-POTENCY"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-TERM-SENSE-FORKS-2-CONTROLS"
+lean = "TermSenseForks2Controls"
+paraphrase = "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which BECOMING-BEING-CAUSE_1 holds (every participated thing has another cause of its coming to be), something is participated and nothing has another cause of its being; a nonvacuity witness for the BECOMING-BEING-CAUSE_2 route; per term, a model in which coverage holds and exclusivity fails, the two uses are read in different senses, every other premise of the joint theorem holds and its conclusion fails; per term, a model in which coverage fails and the rest holds with the conclusion failing; a model of the mixed in-act reading (mover formally or virtually, non-simultaneity formally) with self-motion; and a nonvacuity witness per joint theorem. Satisfiability and omission only; no model describes reality."
+definitions = ["DEF-ROUTE-SENSE-SELECTION", "DEF-UNITING-CAUSE", "DEF-IN-ACT-FORMALLY", "DEF-IN-ACT-VIRTUALLY", "DEF-CAUSE-OF-BECOMING"]
+disambiguations = ["DISAMB-UNITING-CAUSE", "DISAMB-IN-ACT", "DISAMB-BECOMING-BEING-CAUSE"]
+
+[[statement]]
+id = "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT"
+lean = "MovesOnlyAsVirtuallyInAct"
+paraphrase = "IN-ACT_2, virtual reading (attribution deferred): whatever moves something in a respect is virtually (eminently) in act in that respect, having the perfection as a power to produce it."
+definitions = ["DEF-IN-ACT-VIRTUALLY", "DEF-MOTION-AS-REDUCTION"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"
+lean = "NothingVirtuallyInActAndInPotency"
+paraphrase = "IN-ACT_2, virtual reading (attribution deferred): nothing is virtually in act and in potency in the same respect. It excludes having the power to produce a perfection while being in potency to it, a stronger demand than Metaphysics IX.6 states (DISAMB-IN-ACT)."
+definitions = ["DEF-IN-ACT-VIRTUALLY", "DEF-POTENCY"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+# ---- "cause" of becoming or being ----
+
+[[statement]]
+id = "STMT-PARTICIPATED-HAS-DISTINCT-ESSE"
+lean = "ParticipatedHasDistinctEsse"
+paraphrase = "OPEN analyst bridge (attribution deferred): whatever has being by participation actually exists with esse distinct from its essence."
+definitions = ["DEF-PARTICIPATED-ESSE", "DEF-ESSE"]
+disambiguations = ["DISAMB-THOMISTIC-ESSE-PARTICIPATION"]
+
+[[statement]]
+id = "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+lean = "ParticipatedHasExternalEsseCause"
+paraphrase = "BECOMING-BEING-CAUSE_2 (attribution deferred): whatever has being by participation has another, actually existing being that efficiently causes its esse (the q.3 a.4 external cause of esse)."
+definitions = ["DEF-EXTERNAL-CAUSE-OF-ESSE", "DEF-PARTICIPATED-ESSE"]
+disambiguations = ["DISAMB-BECOMING-BEING-CAUSE"]
+
+[[statement]]
+id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE-OF-BECOMING"
+lean = "ParticipatedHasOtherCauseOfBecoming"
+paraphrase = "BECOMING-BEING-CAUSE_1, rival reading of q.44 a.1 ad 1 (attribution deferred): whatever has being by participation has a cause, other than itself, of its coming to be."
+definitions = ["DEF-CAUSE-OF-BECOMING", "DEF-PARTICIPATED-ESSE"]
+disambiguations = ["DISAMB-BECOMING-BEING-CAUSE"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE"
+theorem = "compositeUnitingCauseBySenseFork"
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE", "STMT-UNITING-CAUSE-SENSE-UNIQUE", "STMT-UNITER-CAUSES-IN-ROUTE-SENSE", "STMT-UNITING-ROUTE-NO-SELF-CAUSE"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+rule = "Coverage and exclusivity give one sense for both uses (equality of relations), then modus tollens"
+meaning = "Optional summary over UNITING-CAUSE_1-3 (joint sense fork) for the uniting-cause step of ST I q.3 a.7. A composite has two distinct components, which some c unites, and c causes the composite's being. Coverage reads both uses of 'causes' (the uniter causes x; nothing causes itself) in selected senses among efficient causing, causing being and uniting; exclusivity makes them one sense, so whichever it is, c causes x and nothing causes itself in it, hence c is not x. Every composite therefore has a distinct cause of its being. The controls show the step fails when the two uses are read in different senses (coverage without exclusivity). COMPOSITE-UNITING-CAUSE-FROM-UNION is the UNITING-CAUSE_2 instance."
+
+[[argument]]
+id = "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3"
+theorem = "compositeUnitingCauseFromOwnBeing"
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-NOTHING-CAUSES-ITS-OWN-BEING"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+rule = "Universal instantiation, existential elimination and modus tollens"
+meaning = "Per-sense argument, UNITING-CAUSE_3 (causing being): the uniter causes the composite's being, and nothing causes its own being, so the uniter is distinct from the composite. This route drops STMT-UNITING-CAUSE-IS-EFFICIENT and STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF, using the open premise STMT-NOTHING-CAUSES-ITS-OWN-BEING instead."
+
+[[argument]]
+id = "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
+theorem = "compositeUnitingCauseFromNoSelfUniting"
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-NOTHING-UNITES-ITSELF"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+rule = "Universal instantiation, existential elimination and modus tollens"
+meaning = "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being."
+
+[[argument]]
+id = "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION"
+theorem = "nothingCausesItsOwnBeingFromPerfection"
+premises = ["STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+rule = "Universal instantiation"
+meaning = "Strength order within UNITING-CAUSE_3 / BECOMING-BEING-CAUSE_3: nothing causes a perfection in itself implies nothing causes its own being (r = esse). The strong version is conditionally refuted (SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION); the weak version survives that refutation."
+
+[[argument]]
+id = "IN-ACT-SENSE-FORK-NO-SELF-MOTION"
+theorem = "noSelfMotionByActSenseFork"
+premises = ["STMT-IN-ACT-SENSES-EXHAUSTIVE", "STMT-IN-ACT-SENSE-UNIQUE", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Coverage and exclusivity give one sense for both uses (equality of predicates), then reductio"
+meaning = "Optional summary over IN-ACT_1-3 (joint sense fork) for the prima via step. Coverage reads both uses of 'in act' (the mover is in act; nothing is in act and in potency in the same respect) in selected senses among formal, virtual and formal-or-virtual act; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there and in act there in that one sense, which non-simultaneity excludes. The controls give the mixed reading (mover virtually in act, non-simultaneity formal) with self-motion: the step needs one sense, not a particular one."
+
+[[argument]]
+id = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1"
+theorem = "noSelfMotionFormally"
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT", "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Reductio"
+meaning = "Per-sense argument, IN-ACT_1 (formal act): both act premises read formally give no self-motion in the same respect. The formal mover premise faces causes that produce what they do not formally have."
+
+[[argument]]
+id = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3"
+theorem = "noSelfMotionFormallyOrVirtually"
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY", "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Reductio"
+meaning = "Per-sense argument, IN-ACT_3 (formal-or-virtual act): both act premises read inclusively give no self-motion in the same respect. The inclusive non-simultaneity premise is the stronger one: it must exclude virtual act together with formal potency."
+
+[[argument]]
+id = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2"
+theorem = "noSelfMotionVirtually"
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT", "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+rule = "Reductio"
+meaning = "Per-sense argument, IN-ACT_2 (virtual act): both act premises read virtually give no self-motion in the same respect. The virtual mover premise avoids the counterexamples of causes that produce what they do not formally have; the virtual non-simultaneity premise carries the burden."
+
+[[argument]]
+id = "PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2"
+theorem = "participatedExternalEsseCause"
+premises = ["STMT-PARTICIPATED-HAS-DISTINCT-ESSE", "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"]
+conclusion = "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+rule = "Universal instantiation and modus ponens"
+meaning = "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause."
+
+[[argument]]
+id = "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2"
+theorem = "participatedHasOtherCauseFromExternal"
+premises = ["STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"]
+conclusion = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+rule = "Existential elimination and conjunction elimination"
+meaning = "Explicit sense bridge BECOMING-BEING-CAUSE_2 → BECOMING-BEING-CAUSE_3 (strength order): an actually existing external efficient cause of a thing's esse is another being that causes its being (CausesIn c x esse), so the participated has another cause of its being, the root-path statement. With PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 it gives a route to STMT-PARTICIPATED-HAS-OTHER-CAUSE through sense 2. Sense 1 (cause of becoming) gives no such route: the controls model it with no cause of being."
+
+[[argument]]
+id = "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
+theorem = "movesAsInActInclusiveFromFormal"
+premises = ["STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"]
+conclusion = "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY"
+rule = "Disjunction introduction"
+meaning = "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one."
+
+[[argument]]
+id = "FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE"
+theorem = "nonSimultaneityFormalFromInclusive"
+premises = ["STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+rule = "Disjunction introduction under negation"
+meaning = "Explicit sense bridge IN-ACT_3 → IN-ACT_1 (strength order): inclusive non-simultaneity implies formal non-simultaneity. The order runs opposite to the mover premise, so neither uniform reading is weaker in both premises."
+
+[[argument]]
+id = "TERM-SENSE-FORKS-2-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-TERM-SENSE-FORKS-2-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the uniting-cause and in-act forks: exclusivity and coverage omission models for both joint theorems, the mixed in-act reading with self-motion, and a nonvacuity witness per joint theorem. Omission models for the remaining premises are not repeated here; COMPOSITE-UNITING-CAUSE-CONTROLS and the prima via controls give them for the efficient and single-InAct instances of the same premises. Satisfiability and omission only; no model describes reality."
+
+# ---- Relations ----
+
+[[relation]]
+id = "REL-NO-SELF-PERFECTION-STRENGTHENS-NO-OWN-BEING"
+subject_kind = "statement"
+subject_id = "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+verification_result_id = "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION"
+note = "Strength order within the perfection sense of 'cause': the esse instance. A subject causing a proper accident in itself separates them (the strong version fails, the weak one may hold); no strictness control in this batch."
+
+[[relation]]
+id = "REL-FORMAL-MOVER-ACT-STRENGTHENS-INCLUSIVE"
+subject_kind = "statement"
+subject_id = "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY"
+verification_result_id = "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
+note = "Strength order between senses of 'in act' in the mover premise. A mover virtually but not formally in act separates them (as in the mixed-reading control)."
+
+[[relation]]
+id = "REL-INCLUSIVE-NON-SIMULTANEITY-STRENGTHENS-FORMAL"
+subject_kind = "statement"
+subject_id = "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+verification_result_id = "FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE"
+note = "Strength order between senses of 'in act' in the non-simultaneity premise; the opposite direction to the mover premise. The mixed-reading control satisfies the weak version and violates the strong one."
+
+[[relation]]
+id = "REL-EXTERNAL-ESSE-CAUSE-STRENGTHENS-OTHER-CAUSE"
+subject_kind = "statement"
+subject_id = "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+verification_result_id = "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2"
+note = "Strength order BECOMING-BEING-CAUSE_2 over BECOMING-BEING-CAUSE_3: the external cause must also actually exist. No strictness control in this batch."

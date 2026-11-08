@@ -1,0 +1,207 @@
+# Sense forks, batch 2 (docs/notes/load-bearing-terms.md): one argument per sense (-TERM-n),
+# joint theorems as optional summaries. Analyst formulations, attribution deferred.
+target = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+
+[[node]]
+id = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+
+[[node]]
+id = "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS"
+
+[[node]]
+id = "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+
+[[node]]
+id = "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE"
+
+[[node]]
+id = "STMT-IN-ACT-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-IN-ACT-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+
+[[node]]
+id = "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY"
+
+[[node]]
+id = "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+
+[[node]]
+id = "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"
+
+[[node]]
+id = "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-NOTHING-UNITES-ITSELF"
+
+[[node]]
+id = "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-DISTINCT-ESSE"
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+
+[[node]]
+id = "STMT-TERM-SENSE-FORKS-2-CONTROLS"
+
+[[node]]
+id = "STMT-UNITER-CAUSES-IN-ROUTE-SENSE"
+
+[[node]]
+id = "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING"
+
+[[node]]
+id = "STMT-UNITING-CAUSE-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-UNITING-ROUTE-NO-SELF-CAUSE"
+
+[[edge]]
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE", "STMT-UNITING-CAUSE-SENSE-UNIQUE", "STMT-UNITER-CAUSES-IN-ROUTE-SENSE", "STMT-UNITING-ROUTE-NO-SELF-CAUSE"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+kind = "derivation"
+status = "certified"
+argument = "UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE"
+note = "Coverage and exclusivity give one sense for both uses (equality of relations), then modus tollens."
+
+[[edge]]
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-NOTHING-CAUSES-ITS-OWN-BEING"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+kind = "derivation"
+status = "certified"
+argument = "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3"
+note = "Universal instantiation, existential elimination and modus tollens."
+
+[[edge]]
+premises = ["STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS", "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE", "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING", "STMT-NOTHING-UNITES-ITSELF"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+kind = "derivation"
+status = "certified"
+argument = "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
+note = "Universal instantiation, existential elimination and modus tollens."
+
+[[edge]]
+premises = ["STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+kind = "derivation"
+status = "certified"
+argument = "NOTHING-CAUSES-ITS-OWN-BEING-FROM-PERFECTION"
+note = "Universal instantiation."
+
+[[edge]]
+premises = ["STMT-IN-ACT-SENSES-EXHAUSTIVE", "STMT-IN-ACT-SENSE-UNIQUE", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "IN-ACT-SENSE-FORK-NO-SELF-MOTION"
+note = "Coverage and exclusivity give one sense for both uses (equality of predicates), then reductio."
+
+[[edge]]
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT", "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1"
+note = "Reductio."
+
+[[edge]]
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY", "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3"
+note = "Reductio."
+
+[[edge]]
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT", "STMT-NOTHING-VIRTUALLY-IN-ACT-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2"
+note = "Reductio."
+
+[[edge]]
+premises = ["STMT-PARTICIPATED-HAS-DISTINCT-ESSE", "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"]
+conclusion = "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"
+kind = "derivation"
+status = "certified"
+argument = "PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2"
+note = "Universal instantiation and modus ponens."
+
+[[edge]]
+premises = ["STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE"]
+conclusion = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+kind = "derivation"
+status = "certified"
+argument = "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2"
+note = "Existential elimination and conjunction elimination."
+
+[[edge]]
+premises = ["STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"]
+conclusion = "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY"
+kind = "derivation"
+status = "certified"
+argument = "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
+note = "Disjunction introduction."
+
+[[edge]]
+premises = ["STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"]
+conclusion = "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+kind = "derivation"
+status = "certified"
+argument = "FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE"
+note = "Disjunction introduction under negation."
+
+[[edge]]
+premises = ["STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY", "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "rejected"
+note = "Mixed reading IN-ACT_3 mover with IN-ACT_1 non-simultaneity: refuted by the TERM-SENSE-FORKS-2-CONTROLS model."
+
+[[edge]]
+premises = ["STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION"]
+conclusion = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+kind = "derivation"
+status = "rejected"
+note = "The unrestricted no-self-perfection premise is conditionally refuted (proper accidents); UNITING-CAUSE_3 uses only its esse instance."
+
+[[node]]
+id = "STMT-PARTICIPATED-HAS-OTHER-CAUSE-OF-BECOMING"
+
+[[edge]]
+premises = ["STMT-PARTICIPATED-HAS-OTHER-CAUSE-OF-BECOMING"]
+conclusion = "STMT-PARTICIPATED-HAS-OTHER-CAUSE"
+kind = "derivation"
+status = "rejected"
+note = "BECOMING-BEING-CAUSE_1 fails: the TERM-SENSE-FORKS-2-CONTROLS model has another cause of coming to be for every participated thing and no cause of being."

@@ -1,0 +1,11 @@
+{
+  "id": "STMT-ROOT-WIRING-CONTROLS",
+  "paraphrase": "Finite interpretations for the eight root-wiring derivations: for the premise that carries each derivation (the owner-approved concreteness commitment, the rival refutation, the performed doubt and the retorsion), a model on Unit or Bool in which the other non-logical premises hold and the conclusion fails, and one joint model in which every premise and conclusion holds with populated antecedents (a thinking, existing, causing and empowered concrete bearer; a being in act in esse; a being moved in potency; a per se mover link that is a per se cause link; a performed doubt realized by an occurring thought). Excluded middle is not omitted: it has no finite countermodel in a classical metatheory. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.RootWiring.Control.Certificate",
+  "definition_ids": [
+    "DEF-ACT",
+    "DEF-POTENCY",
+    "DEF-THOUGHT-BEARER",
+    "DEF-ESSE"
+  ]
+}

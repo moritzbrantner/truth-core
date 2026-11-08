@@ -1,0 +1,23 @@
+{
+  "id": "ATTEMPT-TERM-SENSE-FORKS-2-20261107",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+    "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+    "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE",
+    "STMT-UNITING-CAUSE-SENSE-UNIQUE",
+    "STMT-IN-ACT-SENSES-EXHAUSTIVE",
+    "STMT-IN-ACT-SENSE-UNIQUE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Sense forks batch 2 (docs/notes/load-bearing-terms.md), restructured per the owner's sense-indexed terms direction: one argument per sense with suffix -TERM-n as the primary results. Uniting cause to STMT-COMPOSITE-HAS-A-UNITING-CAUSE: COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1 and -3 (new; -3 drops the efficient bridge and the secunda via premise), with the existing efficient and temporal routes as senses 2 and 4. In act to STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT: NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1, -2, -3 (sense 3, formal-or-virtual, added to the disambiguation); the mixed reading is refuted by a control model; strength orders run in opposite directions in the two premises. Becoming/being to STMT-PARTICIPATED-HAS-OTHER-CAUSE: sense 2 reaches it through q.3 a.4 and an explicit sense bridge; sense 1 fails in a control model. Joint coverage/exclusivity theorems are kept as optional summaries whose conclusions are root-route nodes. Rejected leads: (1) forking DISAMB-UNITING-CAUSE-ACTUALITY, because its senses are interface bridges between CausesIn esse and the world-indexed causal graph, not rival readings of one use, and it reaches the root only through the shared DEF-CAUSE-OF-PERFECTION; (2) a uniting-cause constructor for the temporal composer profile in the summary enum, because it is a time calibration of the efficient sense with its own checked fork; (3) routing sense 1 of becoming/being to the root, because a cause of coming to be need not cause being (q.104), as the control model shows.",
+  "blocker": "Coverage and exclusivity of both summary forks are OPEN frontier premises. STMT-NOTHING-CAUSES-ITS-OWN-BEING, STMT-NOTHING-UNITES-ITSELF and STMT-PARTICIPATED-HAS-DISTINCT-ESSE are open; brute composition and composition as identity reject STMT-NOTHING-UNITES-ITSELF. The virtual non-simultaneity premise is stronger than Metaphysics IX.6 states.",
+  "evidence": [
+    "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+    "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2",
+    "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2",
+    "TERM-SENSE-FORKS-2-CONTROLS"
+  ]
+}

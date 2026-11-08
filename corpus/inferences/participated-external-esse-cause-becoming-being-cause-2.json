@@ -1,0 +1,12 @@
+{
+  "id": "INF-PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2",
+  "input_statement_ids": [
+    "STMT-PARTICIPATED-HAS-DISTINCT-ESSE",
+    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+  ],
+  "output_statement_id": "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

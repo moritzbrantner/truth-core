@@ -2236,6 +2236,18 @@
         "c0fdbd00-6e0b-44e5-8a53-faa55a21a032"
       ]
     },
+    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY": {
+      "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE": [
+        "16318101-d4c4-4ea8-a28e-406fc06ca152",
+        "1c99ce91-24fc-4896-b1cc-ec13e1797d40"
+      ]
+    },
+    "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER": {
+      "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE": [
+        "16318101-d4c4-4ea8-a28e-406fc06ca152",
+        "1c99ce91-24fc-4896-b1cc-ec13e1797d40"
+      ]
+    },
     "COGITO-INHABITED-CONCRETE-WORLD": {
       "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE": [
         "16318101-d4c4-4ea8-a28e-406fc06ca152",
@@ -6981,6 +6993,12 @@
         "439a2e92-f3f6-4a58-bba6-28de095ee818"
       ]
     },
+    "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION": {
+      "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED": [
+        "5252f7f4-95a7-42f3-a420-23770702a0f4",
+        "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6"
+      ]
+    },
     "OBJECTIVE-TRUTH-DEFINITION-CONTROLS": {
       "OBJECTIVE_TRUTH_LEGACY_PARAMETER_ACTUAL_STABLE": [
         "75214072-0a6a-4ede-a3a0-f4202d20f34d",
@@ -7465,6 +7483,12 @@
       "SERIES_OF_CAUSES": [
         "1f94774f-4c51-4448-bcf7-898a40648a95",
         "be30bf4e-59fd-43b8-8c85-905ec7c86387"
+      ]
+    },
+    "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION": {
+      "PER_SE": [
+        "466d3a02-acfc-456c-b1cb-5d7ebf54d2ca",
+        "df046130-853b-41ae-b3fb-afc126d06c0d"
       ]
     },
     "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE": {
@@ -9584,6 +9608,12 @@
         "7c82a2d0-0bab-4617-bd8c-935c38571767"
       ]
     },
+    "TERM-SENSE-FORKS-2-CONTROLS": {
+      "IN_ACT": [
+        "11162ab5-08ee-44a2-aa1c-c6ffd1c76fd4",
+        "7b3e570e-7557-402d-95ac-f33ebcefa0ca"
+      ]
+    },
     "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS": {
       "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST": [
         "9bea9a43-3a87-4d62-86de-e5873aea62f8",
@@ -10404,7 +10434,6 @@
     "081ed52f-3136-4a72-a31c-1899af452b1e",
     "0880f9a4-82ef-443a-8b19-9801ea5c820c",
     "09d88a5c-a747-4dc7-af6d-97325cf023c1",
-    "0a95cca4-2a58-4bbc-93de-b8a05560801e",
     "0b0098ee-4dba-41dd-a87a-c384fcd66f40",
     "0b1040aa-282f-48c7-a521-90075fa1199b",
     "0b3b0f28-dd89-4775-a309-dfa47375308e",
@@ -10413,7 +10442,6 @@
     "0bac37f8-287c-4b1a-80f2-a6839176d713",
     "0be9605a-c525-448d-9223-f95d95f12a46",
     "0c39fa14-8d6b-483f-b8eb-e2b5b1bf58cc",
-    "0d3718b1-217b-4a2b-b544-cdf27127db4b",
     "0daacac9-7b01-4038-be70-8a98a0b3d17d",
     "0e19a423-f41a-4ba8-a870-8ae98f074a49",
     "0e67d9fb-5065-4d77-8ae7-6e29a2d5166e",
@@ -10422,7 +10450,6 @@
     "100f747e-34c3-4866-9b22-017e5508c0ca",
     "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
     "10a18663-b109-4aa0-958d-079d40ba17b5",
-    "11162ab5-08ee-44a2-aa1c-c6ffd1c76fd4",
     "112b76a5-41d9-4ab2-a880-67bc775df5bb",
     "126428c3-24cf-4ece-b433-e13f55cb2a14",
     "14ab6e9c-2731-4fdc-9be9-3dc11766dd70",
@@ -10431,7 +10458,6 @@
     "17e5feb7-9116-4b99-9684-569dc33f0f75",
     "183bff99-a67d-46f9-ae43-a68cba27119c",
     "19c12309-eae0-4aa7-a777-00e7d8a4177f",
-    "1aa9c5d4-e3d6-4817-a778-192a026e67a3",
     "1b385556-96fc-4538-ba28-a70646b4ffbd",
     "1b9ba48e-9bff-45e5-a341-53a179415a72",
     "1c7d6a4b-fd1b-4134-acf7-20131842b778",
@@ -10485,7 +10511,6 @@
     "4bdeb5fc-260b-42df-86af-3da72bc078f9",
     "4c2d9b96-8594-472d-8e5d-e41a47df21d4",
     "4ce00651-2da5-4699-ac2d-dd273949871f",
-    "4d165ba0-7511-4a04-9795-d1f0b7490588",
     "4d4d9f8b-8718-490d-af2a-fa7c65123378",
     "4dd4c628-7ee3-4bd4-9573-9983c238a323",
     "4f63bd47-86a8-4076-ab17-208c0022aa18",
@@ -10534,7 +10559,6 @@
     "767ae7b8-e8af-415e-b98c-1d730fee0a3f",
     "79a9ec0d-73b4-40d1-b1fc-9f8d3913eb5f",
     "7a1c93bb-be03-4bcb-b572-a5c18da9317e",
-    "7b3e570e-7557-402d-95ac-f33ebcefa0ca",
     "7c564234-9ff5-48c4-a1e6-7405c1eaae7c",
     "7cd07a09-9739-4fc1-a639-59cfd326eb45",
     "7d8a0a80-1d80-40cc-97a9-346a10c8592d",

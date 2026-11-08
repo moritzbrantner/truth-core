@@ -1,0 +1,26 @@
+{
+  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3",
+  "premise_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "inference_ids": [
+    "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3"
+  ],
+  "meaning": "Per-sense argument, IN-ACT_3 (formal-or-virtual act): both act premises read inclusively give no self-motion in the same respect. The inclusive non-simultaneity premise is the stronger one: it must exclude virtual act together with formal potency.",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "DEF-MOTION-AS-REDUCTION",
+    "DEF-POTENCY",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT",
+    "DISAMB-MOTION"
+  ],
+  "strong_version_needed": {
+    "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY": "Each per-sense argument keeps both act premises in its one sense (IN-ACT_3). The weak IN-ACT_1 non-simultaneity with the IN-ACT_3 mover premise is the mixed reading, which the TERM-SENSE-FORKS-2-CONTROLS model refutes."
+  }
+}

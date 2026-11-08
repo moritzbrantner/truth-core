@@ -1,0 +1,10 @@
+{
+  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "argument_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.compositeUnitingCauseFromNoSelfUniting",
+  "comparator_config": "results/COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being."
+}

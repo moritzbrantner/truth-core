@@ -1,0 +1,27 @@
+{
+  "id": "PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2",
+  "premise_statement_ids": [
+    "STMT-PARTICIPATED-HAS-DISTINCT-ESSE",
+    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-PARTICIPATED-HAS-EXTERNAL-ESSE-CAUSE",
+  "inference_ids": [
+    "INF-PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2"
+  ],
+  "meaning": "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause.",
+  "definition_ids": [
+    "DEF-ESSE",
+    "DEF-ESSENCE-THOMISTIC-NATURE",
+    "DEF-EXTERNAL-CAUSE-OF-ESSE",
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-BECOMING-BEING-CAUSE",
+    "DISAMB-BEING",
+    "DISAMB-ESSENCE",
+    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON",
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+  ]
+}

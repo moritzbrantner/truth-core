@@ -1,0 +1,10 @@
+{
+  "id": "FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE",
+  "argument_id": "FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.nonSimultaneityFormalFromInclusive",
+  "comparator_config": "results/FORMAL-NON-SIMULTANEITY-FROM-INCLUSIVE/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit sense bridge IN-ACT_3 → IN-ACT_1 (strength order): inclusive non-simultaneity implies formal non-simultaneity. The order runs opposite to the mover premise, so neither uniform reading is weaker in both premises."
+}

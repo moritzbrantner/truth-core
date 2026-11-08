@@ -1,0 +1,13 @@
+{
+  "id": "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "input_statement_ids": [
+    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
+    "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+  ],
+  "output_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "rule": "Reductio",
+  "meaning": "Per-sense argument, IN-ACT_1 (formal act): both act premises read formally give no self-motion in the same respect. The formal mover premise faces causes that produce what they do not formally have.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

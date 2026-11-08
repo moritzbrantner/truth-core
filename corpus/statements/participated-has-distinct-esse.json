@@ -1,0 +1,12 @@
+{
+  "id": "STMT-PARTICIPATED-HAS-DISTINCT-ESSE",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever has being by participation actually exists with esse distinct from its essence.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ParticipatedHasDistinctEsse",
+  "definition_ids": [
+    "DEF-PARTICIPATED-ESSE",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+  ]
+}

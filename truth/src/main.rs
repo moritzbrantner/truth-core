@@ -1,18 +1,20 @@
 use serde_json::{Value, json};
 use std::{collections::BTreeMap, env, ffi::OsString, path::PathBuf, process::ExitCode};
-use truth::{Corpus, bridges, check, context, dossier, related, thickness};
+use truth::{Corpus, bridges, check, context, dossier, frontier, related, thickness};
 
 const HELP: &str = "Usage: truth [--root PATH] [--json] status
        truth [--root PATH] [--json] check
        truth [--root PATH] [--json] inspect ID
        truth [--root PATH] [--json] thickness [--queue] [--frontier-root STATEMENT-ID]
+       truth [--root PATH] [--json] frontier [--reaching-root] [--routes] [--frontier-root STATEMENT-ID]
+       truth [--root PATH] [--json] frontier-diff --base REV [--head REV] [--frontier-root STATEMENT-ID]
        truth [--root PATH] [--json] bridges --constants FILE (--queue-file FILE | --target ID)...
              [--targets N] [--top K] [--pool M]
        truth [--root PATH] [--json] related STATEMENT-ID [--limit N]
-       truth [--root PATH] [--json] dossier (STATEMENT-ID | --all) --frontier-json FILE [--limit N]
-       truth [--root PATH] [--json] context TARGET --frontier-json FILE [--limit N] [--related N]
+       truth [--root PATH] [--json] dossier (STATEMENT-ID | --all) [--frontier-json FILE] [--limit N]
+       truth [--root PATH] [--json] context TARGET [--frontier-json FILE] [--limit N] [--related N]
 
-dossier and context read the frontier report from FILE, written by
+dossier and context compute the frontier in-process, or read it from FILE, written by
 `python3 scripts/corpus.py frontier --json [--root STATEMENT-ID]` on the same checkout.";
 
 fn usage(message: impl Into<String>) -> (u8, Value) {
@@ -85,8 +87,8 @@ fn thickness_command(
     queue: bool,
 ) -> (Value, String) {
     let records = thickness::Records::from_corpus(corpus);
-    let kinds = thickness::transcription_kinds(root, &records.results);
-    let frontier = thickness::frontier_inputs(frontier_root, &records, kinds);
+    let flags = frontier::transcription_flags(root, &records);
+    let frontier = thickness::frontier_inputs(frontier_root, &records, &flags);
     let report = thickness::thickness_report(&frontier, &records);
     if queue {
         let queue = thickness::thickness_queue(&frontier, &report, &records);
@@ -102,6 +104,79 @@ fn thickness_command(
             text,
         )
     }
+}
+
+#[derive(Default)]
+struct FrontierArgs {
+    reaching_root: bool,
+    routes: bool,
+    base: Option<String>,
+    head: Option<String>,
+}
+
+/// `frontier`: JSON as `scripts/corpus.py frontier --json` prints it (plus
+/// `input_identity`; `next_steps` only without `--routes`, as in Python), and
+/// the same text as the Python command. Only the requested form is computed.
+fn frontier_command_output(
+    root: &std::path::Path,
+    corpus: &Corpus,
+    frontier_root: &str,
+    args: &FrontierArgs,
+    machine: bool,
+) -> (Value, String) {
+    let next_steps = machine && !args.routes;
+    let report =
+        frontier::current_frontier(root, corpus, frontier_root, args.reaching_root, next_steps);
+    let identity = json!(corpus.input_identity());
+    if args.routes {
+        let mut routes = report["routes"].clone();
+        let text = if machine {
+            String::new()
+        } else {
+            frontier::format_routes(&routes)
+        };
+        routes["input_identity"] = identity;
+        return (routes, text);
+    }
+    let text = if machine {
+        String::new()
+    } else {
+        frontier::format_frontier(&report)
+    };
+    let mut report = report;
+    report["input_identity"] = identity;
+    (report, text)
+}
+
+/// `frontier-diff`: Python `frontier_delta` between the base revision and the
+/// head revision or working tree (see `frontier::revision_frontier` for the
+/// engine each revision uses).
+fn frontier_diff_output(
+    root: &std::path::Path,
+    corpus: &Corpus,
+    frontier_root: &str,
+    args: &FrontierArgs,
+) -> Result<(Value, String), (u8, Value)> {
+    let failed = |message: String| (1, json!({"code": "revision_error", "message": message}));
+    let base_revision = args.base.as_deref().unwrap_or_default();
+    let (base, base_engine) =
+        frontier::revision_frontier(root, base_revision, frontier_root).map_err(failed)?;
+    let (head, head_engine) = match args.head.as_deref() {
+        Some(revision) => {
+            frontier::revision_frontier(root, revision, frontier_root).map_err(failed)?
+        }
+        None => (
+            frontier::current_frontier(root, corpus, frontier_root, true, false),
+            "rust",
+        ),
+    };
+    let mut delta = frontier::frontier_delta(&base, &head);
+    delta["base"] = json!(base_revision);
+    delta["head"] = json!(args.head.as_deref().unwrap_or("working tree"));
+    let text = frontier::format_frontier_delta(&delta);
+    delta["engines"] = json!({"base": base_engine, "head": head_engine});
+    delta["input_identity"] = json!(corpus.input_identity());
+    Ok((delta, text))
 }
 
 #[derive(Default)]
@@ -135,24 +210,39 @@ fn with_identity(value: impl serde::Serialize, corpus: &Corpus) -> Value {
     value
 }
 
+/// The frontier view `dossier` and `context` read: from `--frontier-json
+/// FILE` (a `corpus.py frontier --json` report) when given, otherwise
+/// computed in-process by the Rust frontier on this checkout.
 fn frontier_view(
+    root: &std::path::Path,
+    corpus: &Corpus,
     args: &ResearchArgs,
     frontier_root: &str,
 ) -> Result<dossier::FrontierView, (u8, Value)> {
-    let path = args.frontier.as_deref().ok_or_else(|| {
-        usage("dossier and context require --frontier-json FILE (corpus.py frontier --json)")
-    })?;
-    let view = dossier::FrontierView::from_report(&read_json(path)?)
-        .map_err(|error| input_error(path, error))?;
-    if frontier_root != thickness::DEFAULT_ROOT && view.root.as_deref() != Some(frontier_root) {
-        return Err(usage(format!(
-            "--frontier-root {frontier_root} differs from the report root {}",
-            view.root.as_deref().unwrap_or("None")
-        )));
-    }
+    let (view, source) = match args.frontier.as_deref() {
+        Some(path) => {
+            let view = dossier::FrontierView::from_report(&read_json(path)?)
+                .map_err(|error| input_error(path, error))?;
+            if frontier_root != thickness::DEFAULT_ROOT
+                && view.root.as_deref() != Some(frontier_root)
+            {
+                return Err(usage(format!(
+                    "--frontier-root {frontier_root} differs from the report root {}",
+                    view.root.as_deref().unwrap_or("None")
+                )));
+            }
+            (view, path)
+        }
+        None => {
+            let report = frontier::current_frontier(root, corpus, frontier_root, false, false);
+            let view = dossier::FrontierView::from_report(&report)
+                .map_err(|error| input_error("corpus", error))?;
+            (view, "corpus")
+        }
+    };
     if !view.root_known {
         return Err(input_error(
-            path,
+            source,
             format!(
                 "unknown root statement: {}",
                 view.root.as_deref().unwrap_or("None")
@@ -191,7 +281,7 @@ fn research_command(
             {
                 return Err(unknown(&format!("unknown statement: {id}")));
             }
-            let view = frontier_view(args, frontier_root)?;
+            let view = frontier_view(root, corpus, args, frontier_root)?;
             if args.all {
                 let all: serde_json::Map<String, Value> = index
                     .statement_ids()
@@ -221,7 +311,7 @@ fn research_command(
                     context::TargetError::Unknown(message) => unknown(&message),
                     context::TargetError::Ambiguous(message) => invalid_target(&message),
                 })?;
-            let view = frontier_view(args, frontier_root)?;
+            let view = frontier_view(root, corpus, args, frontier_root)?;
             let count = args.related.unwrap_or(context::DEFAULT_RELATED);
             let mut matches = Vec::new();
             if count != 0 {
@@ -289,12 +379,14 @@ fn check_command(root: &std::path::Path) -> Result<(Value, Option<String>), (u8,
 /// Arguments stay OS-native so a non-UTF-8 `--root` path works; every other
 /// argument must be UTF-8 text and is otherwise a usage error.
 fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
+    let machine = args.iter().any(|arg| arg == "--json");
     let mut root = PathBuf::from(".");
     let mut positional = Vec::new();
     let mut bridge = BridgeArgs::default();
     let mut bridge_flags = false;
     let mut queue = false;
     let mut frontier_root = thickness::DEFAULT_ROOT.to_owned();
+    let mut frontier = FrontierArgs::default();
     let mut research = ResearchArgs::default();
     let mut args = args.iter();
     while let Some(arg) = args.next() {
@@ -307,6 +399,21 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         match arg {
             "--json" => {}
             "--queue" => queue = true,
+            "--reaching-root" => frontier.reaching_root = true,
+            "--routes" => frontier.routes = true,
+            "--base" | "--head" => {
+                let value = args
+                    .next()
+                    .and_then(|value| value.to_str())
+                    .filter(|value| !value.is_empty())
+                    .ok_or_else(|| usage(format!("{arg} requires a revision")))?
+                    .to_owned();
+                if arg == "--base" {
+                    frontier.base = Some(value);
+                } else {
+                    frontier.head = Some(value);
+                }
+            }
             "--frontier-root" => {
                 frontier_root = args
                     .next()
@@ -396,7 +503,11 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
                 "dossier" => research.related.is_none(),
                 _ => true,
             };
-            if !applies || queue {
+            let frontier_flags = frontier.reaching_root
+                || frontier.routes
+                || frontier.base.is_some()
+                || frontier.head.is_some();
+            if !applies || queue || frontier_flags {
                 return Err(usage(format!("an option does not apply to {command}")));
             }
             Some((*command, target))
@@ -418,17 +529,32 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
         return research_command(&root, &corpus, command, target, &research, &frontier_root);
     }
     let thickness = matches!(positional.as_slice(), ["thickness"]);
+    let command = positional.first().copied().unwrap_or_default();
+    let frontier_command = matches!(positional.as_slice(), ["frontier"] | ["frontier-diff"]);
     let (id, bridges) = match positional.as_slice() {
-        ["status"] | ["thickness"] if !bridge_flags => (None, false),
+        ["status"] | ["thickness"] | ["frontier"] | ["frontier-diff"] if !bridge_flags => {
+            (None, false)
+        }
         ["inspect", id] if !id.is_empty() && !bridge_flags => (Some(*id), false),
         ["bridges"] => (None, true),
         _ => return Err(usage(HELP)),
     };
-    if !thickness && (queue || frontier_root != thickness::DEFAULT_ROOT) {
-        return Err((
-            2,
-            json!({"code":"usage", "message":"--queue and --frontier-root apply only to thickness"}),
+    if !thickness && queue {
+        return Err(usage("--queue applies only to thickness"));
+    }
+    if !thickness && !frontier_command && frontier_root != thickness::DEFAULT_ROOT {
+        return Err(usage(
+            "--frontier-root applies only to thickness, frontier, frontier-diff, dossier and context",
         ));
+    }
+    if command != "frontier" && (frontier.reaching_root || frontier.routes) {
+        return Err(usage("--reaching-root and --routes apply only to frontier"));
+    }
+    if command != "frontier-diff" && (frontier.base.is_some() || frontier.head.is_some()) {
+        return Err(usage("--base and --head apply only to frontier-diff"));
+    }
+    if command == "frontier-diff" && frontier.base.is_none() {
+        return Err(usage("frontier-diff requires --base REV"));
     }
     let corpus = Corpus::load(&root).map_err(|error| {
         (
@@ -438,6 +564,15 @@ fn run(args: &[OsString]) -> Result<(Value, Option<String>), (u8, Value)> {
     })?;
     if thickness {
         let (output, text) = thickness_command(&root, &corpus, &frontier_root, queue);
+        return Ok((output, Some(text)));
+    }
+    if command == "frontier" {
+        let (output, text) =
+            frontier_command_output(&root, &corpus, &frontier_root, &frontier, machine);
+        return Ok((output, Some(text)));
+    }
+    if command == "frontier-diff" {
+        let (output, text) = frontier_diff_output(&root, &corpus, &frontier_root, &frontier)?;
         return Ok((output, Some(text)));
     }
     let mut output = json!({

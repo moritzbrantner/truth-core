@@ -3,6 +3,7 @@ pub mod bridges;
 pub mod check;
 pub mod context;
 pub mod dossier;
+pub mod frontier;
 mod kernels;
 pub mod pyfmt;
 pub mod related;

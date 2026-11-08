@@ -1,0 +1,10 @@
+{
+  "id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "argument_id": "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.notActAndPotencyFromRefutation",
+  "comparator_config": "results/NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Nothing is in act and in potency in the same respect (the Prima Via principle, per thing and respect), from the conclusion of NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS (no thing and respect witness the Scotist rival, on the same InAct and InPotency). Constructive; no excluded middle. It adds a route to the premise through the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), which stays OPEN as before; no time index is added or removed."
+}

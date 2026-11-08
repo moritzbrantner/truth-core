@@ -5,5 +5,7 @@
   "basis": "sourced",
   "claim_ids": [
     "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.BecomingBeingFrame.CausesOrigin",
+  "note": "Lean: a primitive parameter of the sense-fork frame (its own declaration, distinct from the other senses of its disambiguation); it carries no definitional body."
 }

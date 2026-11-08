@@ -1,0 +1,10 @@
+{
+  "id": "UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE",
+  "argument_id": "UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.compositeUnitingCauseBySenseFork",
+  "comparator_config": "results/UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over UNITING-CAUSE_1-3 (joint sense fork) for the uniting-cause step of ST I q.3 a.7. A composite has two distinct components, which some c unites, and c causes the composite's being. Coverage reads both uses of 'causes' (the uniter causes x; nothing causes itself) in selected senses among efficient causing, causing being and uniting; exclusivity makes them one sense, so whichever it is, c causes x and nothing causes itself in it, hence c is not x. Every composite therefore has a distinct cause of its being. The controls show the step fails when the two uses are read in different senses (coverage without exclusivity). COMPOSITE-UNITING-CAUSE-FROM-UNION is the UNITING-CAUSE_2 instance."
+}

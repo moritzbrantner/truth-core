@@ -31,7 +31,8 @@
     {
       "id": "0a95cca4-2a58-4bbc-93de-b8a05560801e",
       "label": "UNDERIVED_POWER_VERSUS_UNDERIVED_EXISTENCE_4",
-      "definition_id": "DEF-EXTERNAL-CAUSE-OF-ESSE"
+      "definition_id": "DEF-EXTERNAL-CAUSE-OF-ESSE",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.HasExternalEsseCause"
     }
   ]
 }

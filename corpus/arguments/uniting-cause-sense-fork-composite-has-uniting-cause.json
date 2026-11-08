@@ -1,0 +1,44 @@
+{
+  "id": "UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE",
+  "premise_statement_ids": [
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE",
+    "STMT-UNITING-CAUSE-SENSE-UNIQUE",
+    "STMT-UNITER-CAUSES-IN-ROUTE-SENSE",
+    "STMT-UNITING-ROUTE-NO-SELF-CAUSE"
+  ],
+  "conclusion_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "inference_ids": [
+    "INF-UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE"
+  ],
+  "meaning": "Optional summary over UNITING-CAUSE_1-3 (joint sense fork) for the uniting-cause step of ST I q.3 a.7. A composite has two distinct components, which some c unites, and c causes the composite's being. Coverage reads both uses of 'causes' (the uniter causes x; nothing causes itself) in selected senses among efficient causing, causing being and uniting; exclusivity makes them one sense, so whichever it is, c causes x and nothing causes itself in it, hence c is not x. Every composite therefore has a distinct cause of its being. The controls show the step fails when the two uses are read in different senses (coverage without exclusivity). COMPOSITE-UNITING-CAUSE-FROM-UNION is the UNITING-CAUSE_2 instance.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-EFFICIENT-CAUSING",
+    "DEF-ESSE",
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-SIMPLE",
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-UNITING-CAUSE"
+  ],
+  "sense_bridges": [
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "018d4f0a-2276-42a7-b20d-b0fe6c9c3714",
+      "statement_id": "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+    },
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
+      "statement_id": "STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE"
+    }
+  ]
+}

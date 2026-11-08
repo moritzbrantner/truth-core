@@ -1,0 +1,33 @@
+{
+  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "premise_statement_ids": [
+    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
+    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
+    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
+    "STMT-NOTHING-CAUSES-ITS-OWN-BEING"
+  ],
+  "conclusion_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "inference_ids": [
+    "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3"
+  ],
+  "meaning": "Per-sense argument, UNITING-CAUSE_3 (causing being): the uniter causes the composite's being, and nothing causes its own being, so the uniter is distinct from the composite. This route drops STMT-UNITING-CAUSE-IS-EFFICIENT and STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF, using the open premise STMT-NOTHING-CAUSES-ITS-OWN-BEING instead.",
+  "definition_ids": [
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-COMPOSITION-COMPONENT",
+    "DEF-ESSE",
+    "DEF-SIMPLE",
+    "DEF-UNITING-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-CAUSE",
+    "DISAMB-UNITING-CAUSE"
+  ],
+  "sense_bridges": [
+    {
+      "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
+      "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
+      "to": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
+      "statement_id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING"
+    }
+  ]
+}
