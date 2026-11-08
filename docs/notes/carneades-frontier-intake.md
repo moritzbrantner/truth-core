@@ -211,3 +211,11 @@ Dossiers inspected: `STMT-HISTORY-CONTRASTIVE-CONTROLS`,
 `STMT-KANT-COSMOLOGICAL-ONTOLOGICAL-DEPENDENCE`, and
 `STMT-SELECTED-EFFECT-BRIDGE-CERTIFICATE`. No Lean command was run, no theorem
 or source claim added, and no target/root premise added, removed or discharged.
+
+## Coverage follow-up (2026-11-08)
+
+The broader current-main family assessment is maintained in the existing
+[alternatives campaign](../alternatives-campaign.md#god-existence-coverage-cycle-main-audit-2026-11-08).
+It uses public course outlines as a spine and existing Lean/corpus evidence,
+with explicit absence-search limits and no new historical attribution. The
+original caption findings and their witness limitations above remain intact.
