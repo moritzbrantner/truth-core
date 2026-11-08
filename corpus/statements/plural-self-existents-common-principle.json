@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
+  "id": "db843337-a0f8-5c76-b484-3261fc1311f2",
+  "label": "Proposed step: if several things each exist through themselves, they have one power or nature of…",
+  "legacy_id": "STMT-PLURAL-SELF-EXISTENTS-COMMON-PRINCIPLE",
   "paraphrase": "Proposed step: if several things each exist through themselves, they have one power or nature of self-existence through which they can exist through themselves. The step posits a common basis; it is not established merely by common predication.",
   "note": "Open source reading from the pinned Latin witness; no Lean declaration or verified inference advertised. Application audit: docs/notes/necessary-simple-plurality.md.",
   "definition_ids": [
-    "DEF-ANSELMIAN-PER-ALIQUOD",
-    "DEF-ANSELMIAN-PER-SE",
-    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
-    "DEF-ANSELMIAN-HIGHEST-NATURE"
+    "5703c52a-6dc5-5bea-9e40-4f82329580da",
+    "94c57ba5-5ecb-545f-9cd9-932ac7b7b4a2",
+    "7e27ade0-f861-5ce7-8ff0-da747c1655ce",
+    "65605663-1180-5a11-9f7f-467bc46ef3c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+    "84fccfd4-8abe-521c-9b8b-ffc8785a24d3"
   ]
 }

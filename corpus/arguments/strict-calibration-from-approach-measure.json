@@ -1,25 +1,27 @@
 {
-  "id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "id": "fd940c01-f6ca-5b5a-885c-d5c74b40f468",
+  "label": "For two bearers of the selected perfection, MoreIn holds exactly when the…, from approach measure",
+  "legacy_id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
   "premise_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "331f4751-598a-5f67-ab1f-eb4a12d17bf5"
   ],
-  "conclusion_statement_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
+  "conclusion_statement_id": "70508140-d427-5a99-9be0-ae12ac905302",
   "inference_ids": [
-    "INF-STRICT-CALIBRATION-FROM-APPROACH-MEASURE"
+    "fdb7dab8-2763-58c2-8442-302a95d57654"
   ],
   "meaning": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality.",
   "definition_ids": [
-    "DEF-BEING-ANALOGICAL",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-ORDER-OF-BEING"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

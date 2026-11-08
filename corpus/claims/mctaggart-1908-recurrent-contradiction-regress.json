@@ -1,15 +1,17 @@
 {
-  "id": "MCTAGGART-1908-RECURRENT-CONTRADICTION-REGRESS",
-  "statement_id": "STMT-MCTAGGART-RECURRENT-CONTRADICTION-REGRESS",
-  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "id": "4d383c21-2e3e-5981-b35c-4de2757bb233",
+  "label": "J. M. E. McTaggart, The Unreality of Time…: McTaggart describes a further A series introduced to…",
+  "legacy_id": "MCTAGGART-1908-RECURRENT-CONTRADICTION-REGRESS",
+  "statement_id": "d0a55fe7-7309-5985-a7bd-84a429f527bc",
+  "source_id": "2f0db41b-6ac4-5df9-be14-4c5eee8731a8",
   "locator": "The Unreality of Time, paragraph beginning 'The difficulty may be put in another way'",
   "interpretation": "This is his proposed viciousness criterion for this particular explanatory regress. It does not establish that a second index necessarily is another objectively changing A series, that all infinite hierarchies are contradictory, or that an unbounded temporal past is impossible. Those bridges remain open. Source reading in prose only; no new Lean declaration or result.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MCTAGGART-A-B-DETERMINATIONS",
-    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+    "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+    "350dfa15-f6b3-542d-b411-89f3a03e3581"
   ],
   "disambiguation_ids": [
-    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+    "7ac133b4-4dc6-560d-9a62-498dad9b64a4"
   ]
 }

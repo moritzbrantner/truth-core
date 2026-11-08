@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION",
+  "id": "5a229a9d-9186-58f7-b5b9-c6c20223400d",
+  "label": "A change in a respect of a subject that is present at both ends is a being moved in that respect…",
+  "legacy_id": "STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION",
   "paraphrase": "OPEN analyst reading of Physics V.1: a change in a respect of a subject that is present (lives) at both ends is a being moved in that respect, not generation or corruption. MovedIn is untimed, as in STMT-SUCCESSION-IS-BEING-MOVED.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.ChangeOfPersistingSubjectIsMotion",
   "definition_ids": [
-    "DEF-CHANGE-BETWEEN-TIMES",
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-MOTION-AS-REDUCTION"
+    "04c061b1-85ea-573f-8243-3b482c5fce23",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

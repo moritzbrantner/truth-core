@@ -1,15 +1,17 @@
 {
-  "id": "STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "id": "22189ad9-992c-5d8f-92ae-a64ec982f484",
+  "label": "Whatever is moved in a respect of physical MOTION_2 is moved in that respect by something, per se…",
+  "legacy_id": "STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS",
   "paraphrase": "Whatever is moved in a respect of physical motion is moved in that respect by something, per se or per accidens.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryMovedThingMovedPerSeOrPerAccidensReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PER-ACCIDENS-MOVER",
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

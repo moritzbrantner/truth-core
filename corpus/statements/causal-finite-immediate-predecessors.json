@@ -1,7 +1,13 @@
 {
-  "id": "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
+  "id": "a896d2b5-0fb5-539e-824a-9315f5c6bff1",
+  "label": "Every node has finitely many distinct direct causal predecessors; the graph itself may be infinite",
+  "legacy_id": "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
   "lean_declaration": "TruthCore.Causality.FiniteBranching.FiniteImmediatePredecessors",
   "paraphrase": "Every node has finitely many distinct direct causal predecessors; the graph itself may be infinite.",
-  "definition_ids": ["DEF-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"],
-  "disambiguation_ids": ["DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"]
+  "definition_ids": [
+    "f6a031cc-c0ce-5d73-9ae4-d1f2134ddc61"
+  ],
+  "disambiguation_ids": [
+    "bedfab81-905c-5d1a-b834-e20b8007b3da"
+  ]
 }

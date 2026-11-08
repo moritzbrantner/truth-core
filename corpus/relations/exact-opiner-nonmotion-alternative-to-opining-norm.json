@@ -1,9 +1,11 @@
 {
-  "id": "REL-EXACT-OPINER-NONMOTION-ALTERNATIVE-TO-OPINING-NORM",
+  "id": "c16cb0c0-7526-5613-8f34-2753043a283f",
+  "label": "Some actual opiner of a supplied content… alternative to Opinion and imagination are motions…",
+  "legacy_id": "REL-EXACT-OPINER-NONMOTION-ALTERNATIVE-TO-OPINING-NORM",
   "subject_kind": "statement",
-  "subject_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+  "subject_id": "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-OPINION-IS-A-MOTION",
+  "object_id": "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
   "note": "Exact matching-sense countertuple under the SAME designated respect; preserves the full stronger raw account separately. Refuting that stronger account alone does not exhaust denial of the universal norm."
 }

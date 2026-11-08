@@ -1,6 +1,8 @@
 {
-  "id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
-  "argument_id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "id": "53454b2a-ba45-5694-8ef7-8c5a649aad12",
+  "label": "For each effect, any two incoming…, from Every complete producer of an effect is a… and 1 more",
+  "legacy_id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "argument_id": "60a6dbd6-06ae-545a-a049-4fcc17e58442",
   "challenge_module": "TruthCore.Results.Causality.CompleteCauseContributorCover.Challenge",
   "solution_module": "TruthCore.Results.Causality.CompleteCauseContributorCover.Solution",
   "theorem": "TruthCore.Results.Causality.CompleteCauseContributorCover.uniqueCause",

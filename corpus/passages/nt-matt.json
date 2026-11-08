@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-MATT",
+    "source_id": "ddaa62d0-a20e-51cc-a8d5-62322f814a20",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg001.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-MATT-28",
+      "id": "ed22ccb3-9b21-5cdc-9f21-61f3207c4a8b",
+      "label": "New Testament, Matthew, 28",
+      "legacy_id": "NT-MATT-28",
       "locator": "28",
       "claim_locator_prefixes": [
         "28."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-MATT-27",
+      "id": "2ebf8cad-8aef-5678-8bbc-826ff243e366",
+      "label": "New Testament, Matthew, 27",
+      "legacy_id": "NT-MATT-27",
       "locator": "27",
       "claim_locator_prefixes": [
         "27."
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "NT-MATT-26",
+      "id": "fa985277-811e-524a-8833-95d9fd30d44c",
+      "label": "New Testament, Matthew, 26",
+      "legacy_id": "NT-MATT-26",
       "locator": "26",
       "claim_locator_prefixes": [
         "26."
@@ -51,7 +57,9 @@
       ]
     },
     {
-      "id": "NT-MATT-16",
+      "id": "788aed30-faa1-5058-9af7-a11bce946120",
+      "label": "New Testament, Matthew, 16",
+      "legacy_id": "NT-MATT-16",
       "locator": "16",
       "claim_locator_prefixes": [
         "16."
@@ -64,7 +72,9 @@
       ]
     },
     {
-      "id": "NT-MATT-18",
+      "id": "dada69a1-ac24-5c04-b991-f2a519361803",
+      "label": "New Testament, Matthew, 18",
+      "legacy_id": "NT-MATT-18",
       "locator": "18",
       "claim_locator_prefixes": [
         "18."

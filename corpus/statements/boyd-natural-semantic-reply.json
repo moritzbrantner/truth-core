@@ -1,11 +1,13 @@
 {
-  "id": "STMT-BOYD-NATURAL-SEMANTIC-REPLY",
+  "id": "b5554e65-ff84-58d2-87c3-49f15dabcce9",
+  "label": "Boyd treats moral goodness as naturally and causally defined, without requiring analytic…",
+  "legacy_id": "STMT-BOYD-NATURAL-SEMANTIC-REPLY",
   "paraphrase": "Boyd treats moral goodness as naturally and causally defined, without requiring analytic definitions; diverse conceptions can share a causally regulated referent. The success of that epistemic access remains to be defended.",
   "definition_ids": [
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURALIST-REDUCTION-BASIS"
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "f5e58217-9b11-5ead-8372-481cc8ee371f"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

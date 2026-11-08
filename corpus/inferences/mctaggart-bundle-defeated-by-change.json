@@ -1,9 +1,11 @@
 {
-  "id": "INF-MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "id": "b127bd1f-44d6-57cd-8923-e99c18a0f669",
+  "label": "McTaggart's bundle on change does not hold: it is not the case both that no…, by Modus-tollens",
+  "legacy_id": "INF-MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
   "input_statement_ids": [
-    "STMT-SOMETHING-CHANGES"
+    "bef22027-4f6d-5722-9597-e4dec273ebdd"
   ],
-  "output_statement_id": "STMT-MCTAGGART-UNREALITY-OF-TIME-FALSE",
+  "output_statement_id": "b6d80431-0884-54d0-a58e-8070628cac8f",
   "rule": "modus-tollens",
   "meaning": "The bundle entails that nothing changes; something changes; so the bundle fails.",
   "assumption_statement_ids": [],

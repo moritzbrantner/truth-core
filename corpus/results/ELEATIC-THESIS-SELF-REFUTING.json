@@ -1,6 +1,8 @@
 {
-  "id": "ELEATIC-THESIS-SELF-REFUTING",
-  "argument_id": "ELEATIC-THESIS-SELF-REFUTING",
+  "id": "4c059ee9-0a2b-50a2-9a18-abe873b55aa1",
+  "label": "The Eleatic thesis that nothing is moved is…, from Opinion and imagination are motions… and 1 more",
+  "legacy_id": "ELEATIC-THESIS-SELF-REFUTING",
+  "argument_id": "34a43b99-9969-5e5a-9d82-dcaebe5cc779",
   "challenge_module": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.Solution",
   "theorem": "TruthCore.Results.Alternatives.EleaticRestSelfRefuting.eleaticThesisFalse",

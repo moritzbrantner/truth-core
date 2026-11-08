@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EFFICIENT-CAUSING",
+  "id": "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+  "label": "EFFICIENT_CAUSING_2: EfficientlyCausesIn c x r: c is, here and now, an efficient cause of x's being…",
+  "legacy_id": "DEF-EFFICIENT-CAUSING",
   "term": "efficient causing (causa efficiens; Lean `EfficientlyCausesIn`)",
   "definition": "`EfficientlyCausesIn c x r`: c is, here and now, an efficient cause of x's being r, the cause from which x's being r proceeds as from an agent. A parameter of the secunda via vocabulary (TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3SecundaVia.lean), read at one time like the prima via's moving. It is not identified with moving (`MovesIn`) or with causing a perfection (`CausesIn`, DISAMB-CAUSE).",
   "basis": "stipulative",

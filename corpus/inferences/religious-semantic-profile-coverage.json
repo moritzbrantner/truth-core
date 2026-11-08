@@ -1,9 +1,11 @@
 {
-  "id": "INF-RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "id": "b7ce872f-5a6a-5b04-abaa-250ba576bf3c",
+  "label": "The stronger local-plus-invariant profile, or local status with an actual…, by Constructive-proof",
+  "legacy_id": "INF-RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-SEMANTIC-CASES",
+  "output_statement_id": "37cd0028-0bd2-518c-a69c-13ffb8aebdc6",
   "rule": "constructive-proof",
   "meaning": "Explicit excluded middle yields local-plus-invariant, local-plus-actual-matched-difference, or local failure. The local menu has an explicit further option; no census of historical theories is proved.",
   "assumption_statement_ids": [],

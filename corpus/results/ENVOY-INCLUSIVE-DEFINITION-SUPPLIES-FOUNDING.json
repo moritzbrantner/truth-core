@@ -1,6 +1,8 @@
 {
-  "id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
-  "argument_id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "id": "f75c836a-e9ae-572a-80b7-474bed64d02a",
+  "label": "For any GOD_4 candidate g and society c: if Jesus…, from Founded as a teaching authority coextends…",
+  "legacy_id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "argument_id": "4e8e50bb-b9e0-52d8-a111-e5129be68974",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Inclusive.inclusiveSuppliesEnvoy",

@@ -1,6 +1,8 @@
 {
-  "id": "TERM-SENSE-FORKS-2-CONTROLS",
-  "argument_id": "TERM-SENSE-FORKS-2-CONTROLS",
+  "id": "07959b3c-475e-55d4-9cab-a6bb2687539f",
+  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which…",
+  "legacy_id": "TERM-SENSE-FORKS-2-CONTROLS",
+  "argument_id": "8a399106-9a87-5f67-8b71-0f7f9935560d",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks2.controls",

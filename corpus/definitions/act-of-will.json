@@ -1,10 +1,12 @@
 {
-  "id": "DEF-ACT-OF-WILL",
+  "id": "9f448669-6387-5244-a2ec-f9f90618c037",
+  "label": "EXERCISE_OF_WILL_3, including love of…: An act of willing can seek absent good, love and delight in…",
+  "legacy_id": "DEF-ACT-OF-WILL",
   "term": "exercise of will, including love of possessed good",
   "definition": "An act of willing can seek absent good, love and delight in possessed good, or communicate possessed good insofar as possible. Mentioning such an act does not by itself assert that every being with intellectual power is performing a particular seeking act now.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q19-A1-POSSESSED-GOOD-WILL",
-    "AQUINAS-ST-I-Q19-A2-WILL-COMMUNICATES-POSSESSED-GOOD"
+    "01005f7f-b540-5f1b-96af-05efa6650f83",
+    "1513d7a2-c790-5a53-b857-8173814f3179"
   ]
 }

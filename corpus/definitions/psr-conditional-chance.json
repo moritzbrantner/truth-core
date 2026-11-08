@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-CONDITIONAL-CHANCE",
+  "id": "4e575953-5a88-5ae9-a23a-2dcd5d74387e",
+  "label": "Conditional event probability and…: ChanceGiven μ A r f is the probability of the intersection of…",
+  "legacy_id": "DEF-PSR-CONDITIONAL-CHANCE",
   "term": "conditional event probability and probability raising",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.Raises",

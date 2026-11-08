@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNCONDITIONAL-SUM",
+  "id": "66bac1f9-4891-5d3a-8977-c2215619f03f",
+  "label": "Sum of infinitely many durations: A family of real numbers f n has sum S when the finite partial…",
+  "legacy_id": "DEF-UNCONDITIONAL-SUM",
   "term": "sum of infinitely many durations",
   "definition": "A family of real numbers f n has sum S when the finite partial sums over finite sets of indices converge to S along the directed set of all finite sets; in Lean this is Mathlib's HasSum f S. For the nonnegative stage durations used here it coincides with the ordinary limit of the partial sums f 0 + ... + f (n-1).",
   "basis": "stipulative",

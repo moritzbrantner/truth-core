@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+  "id": "0e46bfe6-5b88-5209-bb7c-de08c176b7fb",
+  "label": "SEPARATION_2: ParticipantNonidentity quantifies over every admitted quality q, every Form f of q…",
+  "legacy_id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
   "term": "separation",
   "definition": "ParticipantNonidentity quantifies over every admitted quality q, every Form f of q and every entity x: participation of x in f implies f ≠ x, including when x is another Form. It neither defines ontological independence nor follows from particulars-only nonidentity.",
   "basis": "stipulative",

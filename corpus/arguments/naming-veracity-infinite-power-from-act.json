@@ -1,17 +1,19 @@
 {
-  "id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
+  "id": "af6886b8-2db7-5c06-b347-2b6f2a02f7b2",
+  "label": "What is INFINITE_1 can do every task that involves no contradiction, from act",
+  "legacy_id": "NAMING-VERACITY-INFINITE-POWER-FROM-ACT",
   "premise_statement_ids": [
-    "STMT-INFINITE-IS-UNLIMITED-ACT",
-    "STMT-ACTIVE-POWER-FOLLOWS-ACT",
-    "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS"
+    "0471efe6-a439-5e04-ac82-0c19f2ed3f72",
+    "d61eda33-7f6c-52a8-a905-e16661520f23",
+    "35777f40-ef62-5037-b920-78935b586d91"
   ],
-  "conclusion_statement_id": "STMT-INFINITE-ACT-HAS-INFINITE-POWER",
+  "conclusion_statement_id": "5ea1069d-84cd-5850-a8b0-adbce332296e",
   "inference_ids": [
-    "INF-NAMING-VERACITY-INFINITE-POWER-FROM-ACT"
+    "d0b23752-0269-5b0b-9e58-03d533e0aab5"
   ],
   "meaning": "A consistent task requires only possible perfections; what is infinite is in act in every possible perfection; and a being can do a task when it is in act in every perfection the task requires. So what is infinite can do every consistent task. Three open premises.",
   "definition_ids": [
-    "DEF-ACTIVE-POWER-TASK-VOCABULARY",
-    "DEF-INFINITE"
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d"
   ]
 }

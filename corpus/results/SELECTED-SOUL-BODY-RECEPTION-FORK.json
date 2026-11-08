@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
-  "argument_id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "id": "c08530ed-1bd9-59b7-bbeb-dfd28dbe6916",
+  "label": "For every supplied selected role/state profile…, from Excluded middle as a general principle…",
+  "legacy_id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "argument_id": "f867d897-8fa0-5b34-ae35-bd0ae734fd5a",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.SelectedCoverage.selectedCoverage",
@@ -9,19 +11,19 @@
   "description": "Selected-tuple structural fork under explicit excluded middle; neither source sense is thereby adopted.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+    "target_statement_id": "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
     "cases": [
       {
         "label": "canonical reception",
-        "statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+        "statement_id": "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
         "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedReception"
       },
       {
         "label": "distinct communication sense",
-        "statement_id": "STMT-SELECTED-BODY-DOES-NOT-CANONICALLY-RECEIVE-SOUL-ESSE",
+        "statement_id": "8713075f-883c-5eb3-9f8b-8beffa469d2f",
         "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedNonReception"
       }
     ],
-    "survival_result_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES"
+    "survival_result_id": "5698c98a-c508-5e3d-828e-639e84e68a3d"
   }
 }

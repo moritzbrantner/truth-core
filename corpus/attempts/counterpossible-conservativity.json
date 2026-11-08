@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-COUNTERPOSSIBLE-CONSERVATIVITY",
+  "id": "321b4e9c-3418-516c-b584-565ced4a7661",
+  "label": "Inspected exact old intervention tables, strict absence enabling and modal-grounding/source-note…",
+  "legacy_id": "ATTEMPT-COUNTERPOSSIBLE-CONSERVATIVITY",
   "statement_ids": [
-    "STMT-COUNTERPOSSIBLE-CONSERVATIVITY",
-    "STMT-MECHANISM-INTERVENTION-PARITY",
-    "STMT-EXPLANATORY-SYMMETRY-COMPARISON"
+    "ade631f5-0ef4-5d7b-a0b6-253098c87797",
+    "268243ba-d944-5863-a4e7-b46145877179",
+    "7cc986d5-db68-58e2-95d2-3ecc6a885994"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Inspected exact old intervention tables, strict absence enabling and modal-grounding/source-note boundaries. Imported natural agreement and active/idle sensitivity rather than re-proving them. Constructed one shared normal model on (true,u), with normally necessary PUBLIC a and contingent effect, and separate repairs clamping only that public input. Proved general normal-witness conservativity, predicate-interpretation agreement on all normal states, success and exact repair selection, then opposite public-a-off effect evaluations from old equations. Normal-only evaluation is vacuous for both consequents. Rejected equating public clamp with latent-source/bearer nonexistence: latent first stays true; frozen source identifiers are explicitly public labels. Enlarging modal access instead loses public-atom necessity. No real counterpossible truth, metaphysical possibility, full closest-world semantics, causal/grounding adequacy or root discharge follows. See docs/notes/counterpossible-conservativity.md.",
   "evidence": [
-    "COUNTERPOSSIBLE-CONSERVATIVITY"
+    "d8355360-6ecc-5c8e-8a53-47a99f32e5d7"
   ]
 }

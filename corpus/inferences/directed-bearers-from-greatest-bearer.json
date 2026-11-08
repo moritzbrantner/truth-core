@@ -1,9 +1,11 @@
 {
-  "id": "INF-DIRECTED-BEARERS-FROM-GREATEST-BEARER",
+  "id": "7732534a-55e6-5973-bb10-597efa4c783a",
+  "label": "Each pair of selected-perfection bearers has a bearer at a…, by Upper bound of the image set",
+  "legacy_id": "INF-DIRECTED-BEARERS-FROM-GREATEST-BEARER",
   "input_statement_ids": [
-    "STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE"
+    "3b078622-0815-5f3c-9bc0-703de1c53a68"
   ],
-  "output_statement_id": "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED",
+  "output_statement_id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
   "rule": "Upper bound of the image set",
   "meaning": "If some bearer of the selected perfection is at its greatest represented degree, that bearer bounds every pair of bearers, so the bearers are directed. The existence of a greatest bearer is an OPEN analyst premise; directedness does not give it back on infinite carriers.",
   "assumption_statement_ids": [],

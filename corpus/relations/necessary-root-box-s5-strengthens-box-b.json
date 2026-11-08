@@ -1,10 +1,12 @@
 {
-  "id": "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "id": "48bc65ed-d3a0-563b-a32f-c5db20a99169",
+  "label": "Necessary-being node, possibilist box… strengthens Necessary-being node, possibilist box… (2)",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
   "subject_kind": "statement",
-  "subject_id": "STMT-NECESSARY-ROOT-BOX-S5",
+  "subject_id": "7089ce3d-3855-5bfb-a3c3-c202e8ff458a",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-NECESSARY-ROOT-BOX-B",
-  "verification_result_id": "NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-B",
+  "object_id": "12e11583-51e9-5c42-a51f-0debdb152818",
+  "verification_result_id": "3621907c-61a7-5a66-8119-92862c05005b",
   "note": "Strength registration: the S5 node implies the KTB node, applying the existing Cube theorem s5_implies_ktb."
 }

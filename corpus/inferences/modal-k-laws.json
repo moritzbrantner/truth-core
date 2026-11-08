@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-K-LAWS",
+  "id": "7ec502ca-7c3c-5ecf-b8cd-b6f62ee3803e",
+  "label": "On every arbitrary K frame, full-predicate MC is equivalent both to every…, by Direct-proof",
+  "legacy_id": "INF-MODAL-K-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-K-LAWS",
+  "output_statement_id": "0d0b6e3c-6207-5284-bf0b-7dce386ba347",
   "rule": "direct-proof",
   "meaning": "Instantiate full MC at equality, transport predicates along the resulting world equality, and use the converse equality predicate under possibility entails actuality. Eliminate impossible edges at a dead end. Transport both independent contingency witnesses back to the root to derive a contradiction.",
   "assumption_statement_ids": [],

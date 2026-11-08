@@ -1,6 +1,8 @@
 {
-  "id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
-  "argument_id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "id": "640c65cf-e68b-59b3-ba84-00230570e4e3",
+  "label": "A chain with infinitely many predecessors, all active and agreeing locally about activity, has a…",
+  "legacy_id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "argument_id": "d6369ed4-f04b-57e3-85d5-c64066d7c8df",
   "challenge_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Challenge",
   "solution_module": "TruthCore.Results.Causality.InfiniteLocalTransmission.Solution",
   "theorem": "TruthCore.Results.Causality.InfiniteLocalTransmission.infiniteLocalTransmission",

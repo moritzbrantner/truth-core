@@ -1,9 +1,11 @@
 {
-  "id": "STMT-GRAMMAR-FIXED-BY-NEITHER",
+  "id": "28778ada-ab07-50bf-b3b8-d7d1ae65b7a1",
+  "label": "The third view, unattributed: a practice's grammar is fixed neither by its recognized authorities…",
+  "legacy_id": "STMT-GRAMMAR-FIXED-BY-NEITHER",
   "paraphrase": "The third view, unattributed: a practice's grammar is fixed neither by its recognized authorities nor by its ordinary practitioners' use, but, for instance, by a philosopher's rational reconstruction of the practice. Recorded as the third cell of the partition; no source is recorded that holds it of the Catholic practice, and a fideist who holds that religion is governed by its own internal grammar (STMT-WF-RELIGION-INTERNAL-GRAMMAR) would have to say whose grammar that is.",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.GrammarFixedByNeitherReading",
   "definition_ids": [
-    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
-    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE"
+    "b1138a4f-b857-5584-bfa9-450dcbc6ccc0",
+    "4a289628-1440-5838-b10d-6fa6108971d3"
   ]
 }

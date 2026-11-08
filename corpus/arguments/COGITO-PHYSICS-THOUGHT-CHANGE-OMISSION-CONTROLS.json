@@ -1,17 +1,19 @@
 {
-  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "id": "056d7d44-b263-598e-b44f-7db432f69692",
+  "label": "Three independent finite interpretations omit, respectively, actual thought, thought-as-change…",
+  "legacy_id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "conclusion_statement_id": "2466528e-e5fc-5b31-8282-daca3e45c2ad",
   "inference_ids": [
-    "INF-COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS"
+    "cf2a42c9-9d27-53e7-87a5-1cd2df4e65d4"
   ],
   "meaning": "Three explicit countermodels establish independence of the occurrence, thought-as-change, and source-reading premises within the stipulated typed semantics. They do not establish metaphysical possibility.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-CHANGE-CLASSIFICATION",
-    "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "a298c8b6-9c0f-51a5-8778-9022c22622d5",
+    "51def74f-c241-5704-862f-7c8b265ba02c"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+    "42f77a36-a0f6-5b52-a428-1a7af0613503"
   ]
 }

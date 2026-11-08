@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
-  "argument_id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "id": "2d8e3fab-9f8f-5074-b15f-bcc3782036a1",
+  "label": "If the chosen class contains any correct…, from Every admissible definition proposal in the…",
+  "legacy_id": "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
+  "argument_id": "2ec76a02-ea5c-5d5f-8cb9-f419653576a3",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Strength.globalCoverageImpliesSupport",

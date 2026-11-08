@@ -1,20 +1,22 @@
 {
-  "id": "KOONS-FOURTH-WAY-2022-STEP11-ACTUAL-NECESSARY-INVARIANCE-A",
-  "statement_id": "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
-  "source_id": "KOONS-FOURTH-WAY-RECONSTRUCTION-2022",
+  "id": "c9878896-ab2b-56b9-a90c-f30e29107f2f",
+  "label": "Robert C. Koons, A Further Reconstruction…: If the selected rigid n exists at the standpoint and…",
+  "legacy_id": "KOONS-FOURTH-WAY-2022-STEP11-ACTUAL-NECESSARY-INVARIANCE-A",
+  "statement_id": "59149353-2f74-54de-9035-08640c4e24a9",
+  "source_id": "186812bf-45e5-53d3-87ec-195f67ef20cb",
   "locator": "A Further Reconstruction of the Fourth Way (2022-01-23), step 11",
   "witness": "unavailable",
   "interpretation": "Guarded selected-individual reading of step11: if n is actually present at the standpoint and exists at every root-accessible world, its degree at each such world is equivalent in the shared preorder to its degree at the standpoint. Actual presence and necessary presence are BOTH antecedents of the bound proposition. Same degree is weakened to mutual non-strict comparison, not strengthened to equality of labels; the quantification is explicitly relative to the admitted root-accessible family. This asserts neither an actual nor a necessary individual, and it is not a consequence of modal necessity alone: invariance is the additional conditional commitment attributed here. The bare analyst NecessaryDegreeInvariant has no actual-presence antecedent and can constrain absent-base grades on nonreflexive frames; that stronger condition is not this source claim. The source supplies no universal numerical intensity representation or uniqueness conclusion.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-PREORDER-DEGREE-INVARIANCE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "14bf73ee-a52e-5b4c-bde2-9e6f31de6a1b"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-DEGREE-PRESENCE",
-    "DISAMB-NECESSARY"
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "id": "effaa1ff-ec42-58ac-a7bd-24cbecd0f2c7",
+  "label": "In the two cells where the practice fixes its own grammar, both fideist bundles fail of the…",
+  "legacy_id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
   "paraphrase": "In the two cells where the practice fixes its own grammar (by its authorities or by its ordinary use), both fideist bundles fail of the Catholic practice: the cut-off pair (internal grammar and cut-off) and the reference bundle (internal grammar, grammar-fixed reference and the no-being reconstruction). Nothing is claimed for the third cell.",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.FideismFailsInAuthorityAndUseCases",
   "definition_ids": [
-    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
-    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE",
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-CORRECT-MOVE-IN-PRACTICE",
-    "DEF-PRACTICE-OWN-STANDARD"
+    "b1138a4f-b857-5584-bfa9-450dcbc6ccc0",
+    "4a289628-1440-5838-b10d-6fa6108971d3",
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON",
-    "DISAMB-NAME-APPLICATION"
+    "acb50043-141e-546e-b296-4601bae89bec",
+    "89e123bb-17d4-5c95-917f-8b1196e38b96"
   ]
 }

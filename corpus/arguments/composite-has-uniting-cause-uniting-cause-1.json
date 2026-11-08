@@ -1,33 +1,35 @@
 {
-  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1",
+  "id": "7126eeb8-6052-552e-b513-2b099cde439a",
   "premise_statement_ids": [
-    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-    "STMT-NOTHING-UNITES-ITSELF"
+    "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+    "58445bd6-264b-53cf-8951-d052022f8e47",
+    "fbee7f15-f54b-5a67-9773-3c09ca7015f4",
+    "828fc834-25ad-534c-8212-f6745ae02b96"
   ],
-  "conclusion_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "conclusion_statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
   "inference_ids": [
-    "INF-COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
+    "f95a53c7-ccb2-5e4a-bdc7-0c00f357ed89"
   ],
   "meaning": "Per-sense argument, UNITING-CAUSE_1 (uniting): if nothing unites components into itself, the uniter is distinct from the composite, and it causes the composite's being.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-ESSE",
-    "DEF-SIMPLE",
-    "DEF-UNITING-CAUSE"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-UNITING-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ],
   "sense_bridges": [
     {
       "term": "UNITING_CAUSE_VERSUS_EFFICIENT_CAUSE",
       "from": "a7854292-a7cb-403d-b926-f61af1bb435b",
       "to": "2478812d-d2cd-4182-8ad0-d27a4bdb9ff2",
-      "statement_id": "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING"
+      "statement_id": "fbee7f15-f54b-5a67-9773-3c09ca7015f4"
     }
-  ]
+  ],
+  "label": "Every composite has a cause, other than itself…, from Every composite has at least two… and 3 more",
+  "legacy_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1"
 }

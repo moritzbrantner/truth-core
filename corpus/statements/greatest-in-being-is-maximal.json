@@ -1,14 +1,15 @@
 {
-  "id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
+  "id": "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
   "label": "A MAXIME_2 (greatest-degree) being is MAXIME_1 (maximal) in being",
+  "legacy_id": "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
   "paraphrase": "OPEN sense bridge MAXIME_2 to MAXIME_1 (attribution deferred): whatever has the GREATEST represented degree of being is MAXIMAL in being, nothing being more a being than it.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.GreatestInBeingIsMaximal",
   "definition_ids": [
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIME-ENS",
-    "DEF-ESSE"
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

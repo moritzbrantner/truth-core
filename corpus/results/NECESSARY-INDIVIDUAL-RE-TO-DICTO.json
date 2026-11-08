@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
-  "argument_id": "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "id": "880f6f37-3307-5cce-b0dc-da91d9524efa",
+  "label": "Stipulated mathematical configuration component, not…, from Stipulated mathematical configuration…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
+  "argument_id": "2feb91b4-8f89-5d31-a3cf-0cfb23a877b4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReToDicto.checks",

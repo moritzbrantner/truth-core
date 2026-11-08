@@ -1,9 +1,11 @@
 {
-  "id": "REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-MANDATE-SCOPE-OF-CATHOLIC-CHURCH",
+  "id": "ac51b534-dc14-5e92-92bc-c6d580aebd4c",
+  "label": "Exact negation of the conditional… alternative to For any being g: if Jesus holds a…",
+  "legacy_id": "REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-MANDATE-SCOPE-OF-CATHOLIC-CHURCH",
   "subject_kind": "statement",
-  "subject_id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
+  "subject_id": "45eb2698-4ccd-59c7-a25b-5737edd84e2e",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "object_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "note": "The endpoint is now the exact negation of Catholic-only mandate scope on the same Signature/Agency. The raw message-only conditional and all source claims remain unchanged; ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE derives opposition only with an actual mandate and founded visible Catholic-body witness, reusing FoundingScope.messageRival_excludes_scope. MESSAGE-SCOPE-BOUNDARY-CONTROLS checks coexistence with an unrealized joint antecedent and opposition with an actual joint witness. EMPTY-MANDATE-CATHOLIC-SCOPE-COEXISTENCE separately exports absence of every Jesus mandate while retaining actual Catholic founding and visibility. Historical grant/promise of teaching powers alone still does not establish institutional founding. No source is attributed the new exact negation."
 }

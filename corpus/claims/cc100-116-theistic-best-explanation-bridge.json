@@ -1,15 +1,17 @@
 {
-  "id": "CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
-  "statement_id": "STMT-CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "a5924e01-b6ab-53e2-8a0c-dfad86a31e0d",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If reason can have only a personal explanation, its…",
+  "legacy_id": "CC100-116-THEISTIC-BEST-EXPLANATION-BRIDGE",
+  "statement_id": "339f2eb8-d089-5100-82ea-acc3107d0f68",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.274, argument #116 Argument from Reason, step 4",
   "interpretation": "This is the explicit open bridge from a personal-only explanatory restriction to a theistic best explanation. Personal does not by definition mean divine, unique, necessary or God-like. No ranking criterion, exhaustive alternatives or independent comparative warrant is supplied. Attribution is to McIntosh’s presentation only, not the unread Ross/Hasker/Reppert/Goetz works referenced on p275. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-116-REASON-PERSONAL-EXPLANATION"
+    "54bd3f5c-02de-55b4-a0dc-1c4f442cbbf5"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

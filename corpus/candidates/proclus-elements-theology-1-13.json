@@ -1,6 +1,8 @@
 {
-  "id": "PROCLUS-ELEMENTS-THEOLOGY-1-13",
-  "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
+  "id": "32c4d2a1-eb83-5ac1-b511-e282a025e111",
+  "label": "Work propositions 1–13 in source order under issue #359",
+  "legacy_id": "PROCLUS-ELEMENTS-THEOLOGY-1-13",
+  "source_id": "cdf4f9ed-205c-5ca0-abe6-f7eee8a49108",
   "locator": "props. 1–13 (Taylor 1816, vol. II, pp. 300–310)",
   "priority": 100,
   "goal": "Work propositions 1–13 in source order under issue #359. The complete materialized Taylor range PROCLUS-ET-1-13-TAYLOR has been read. Proposition 2 has a completed bounded received-unity/nonidentity reading, PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST; this is an attributed commitment, not a defended consequence or completed participation schema. See docs/proclus-unity.md and ATTEMPT-PROCLUS-ET-1-2-UNITY-READING. Proposition 1 still requires faithful whole/constituent and actual-infinity semantics and independently warranted impossibility premises; modern infinite-cardinality and finite-only replacements are rejected. Proposition 2 still needs an independent account of something-besides/received unity that derives otherness without assuming it; an essential-quality inventory is not sourced by the passage. Props. 3–13 have been read for context but their substantive argument clusters remain to be extracted and defended. Preserve the full range and resume its unresolved interpretive/formal work in source order, rather than treating lack of proof as unread text. Distinguish unity from identity, productive superiority from a univocal degree comparison, and epistemic regress premises from ontological well-foundedness. Investigate an issue #412 instance only after a genuine independently warranted participation inference is verified.",

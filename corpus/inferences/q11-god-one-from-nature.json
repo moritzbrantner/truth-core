@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "id": "1aa81ce9-e3cf-5502-b389-649c927cae5b",
+  "label": "GOD_4 is one: whatever is GOD_4 is the same, by Verified-result",
+  "legacy_id": "INF-AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
   "input_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
-    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "bf422bd7-67a6-58c5-9b1f-c73e08f20b21",
+    "0730d46f-4604-5750-9a64-de664f064b31"
   ],
-  "output_statement_id": "STMT-GOD-IS-ONE",
+  "output_statement_id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
   "rule": "verified-result",
   "meaning": "Q.11 a.3 first-proof reading: transport each God’s individuating basis through suppositum/nature identity to the common divine nature, then apply the explicit incommunicability principle. Equality of beings is derived, not assumed; no maximality, perfection, naming converse, or excluded middle is used. The three principles remain sourced but undefended.",
   "assumption_statement_ids": [],

@@ -1,10 +1,12 @@
 {
-  "id": "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "id": "324b169a-2732-52d3-86d7-50051f1526d2",
+  "label": "Owner framework commitment: At the… strengthens OPEN activity clause alone: at the…",
+  "legacy_id": "REL-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
   "subject_kind": "statement",
-  "subject_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "subject_id": "e27489c3-7419-5123-8476-386633e62532",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT",
-  "verification_result_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-CAUSERS",
+  "object_id": "bc2af29f-8202-50f4-a177-b8dd21e135b1",
+  "verification_result_id": "ce711192-b5bf-55d0-a746-22e3f0e3042a",
   "note": "The activity half of the owner's two-clause concreteness commitment; the commitment is a met common-ground floor item, so the half is established via strength."
 }

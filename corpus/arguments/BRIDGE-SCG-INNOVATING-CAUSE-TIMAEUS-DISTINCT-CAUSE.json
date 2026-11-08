@@ -1,21 +1,23 @@
 {
-  "id": "BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
+  "id": "08dba28f-776e-565d-b579-9ee0cf3c1e8d",
+  "label": "Anything that comes to be has some distinct…, from What comes to be anew takes its origin from…",
+  "legacy_id": "BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE",
   "premise_statement_ids": [
-    "STMT-WHAT-COMES-TO-BE-ANEW-HAS-INNOVATING-CAUSE"
+    "882e3f88-bf2b-5fee-828b-8f7980268503"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "conclusion_statement_id": "9709d14f-1324-58f1-8889-1110881c5b44",
   "inference_ids": [
-    "INF-BRIDGE-SCG-INNOVATING-CAUSE-TIMAEUS-DISTINCT-CAUSE"
+    "96b9d51c-2b59-5d8a-bd1c-cdf122d5fd66"
   ],
   "meaning": "Bridge (#401), a transcription (invariant 16): the *Summa contra Gentiles* I.13 premise that whatever comes to be anew has an innovating cause other than itself (STMT-WHAT-COMES-TO-BE-ANEW-HAS-INNOVATING-CAUSE) is the instance of the Timaeus distinct-cause schema, *Timaeus* 28a (STMT-CAUSE-PRINCIPLE-DISTINCT), in which \"comes to be\" is read as \"comes to be anew\" (ComesToBeAnew: is after not being, or began with time) and \"causes\" as \"causes the origin of\". The proof is the premise. It does not say that Plato's \"comes to be\" means temporal beginning (DISAMB-COMING-TO-BE): only that the SCG principle is one reading of the Timaeus schema, so the Timaeus results apply to it.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-CAUSE-OF-ORIGIN",
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-TEMPORAL-EXISTENCE-BEGINNING"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "de94687a-6789-5599-b38d-14bef31148fd"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMING-TO-BE",
-    "DISAMB-PLATONIC-CAUSE"
+    "117bfae1-68c7-5891-a971-79e24325eb76",
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

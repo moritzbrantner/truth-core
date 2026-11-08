@@ -1,9 +1,11 @@
 {
-  "id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "id": "5acfe2ff-3e3c-5f0c-85e1-75d086ddf5c0",
+  "label": "Exact negation of the selected-whole-causer actuality policy, by Constructive-proof",
+  "legacy_id": "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
   "input_statement_ids": [
-    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+    "516be275-934a-59e1-bbb2-02fc3b57a936"
   ],
-  "output_statement_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "output_statement_id": "61453557-633f-57ea-962f-6c98c1810df3",
   "rule": "constructive-proof",
   "meaning": "An actual candidate edge plus absence of every existing causer contradicts selected-whole-causer actuality. This excludes the remainder when that independently supplied intended policy holds.",
   "assumption_statement_ids": [],

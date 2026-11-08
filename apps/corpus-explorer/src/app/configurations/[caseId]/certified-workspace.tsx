@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 
 import { selectedConfiguration } from "@/lib/configuration-selection";
 import type { VerifiedConfigurationBundle, VerifiedConfigurationCase } from "@/lib/verified-configurations";
+import { shortId } from "@/lib/corpus-ids";
 
 type Props = {
   configuration: VerifiedConfigurationCase;
@@ -12,7 +13,11 @@ type Props = {
   statements: Record<string, { id: string; paraphrase: string }>;
 };
 
-export function CertifiedWorkspace({ configuration, producer, statements }: Props) {
+export function CertifiedWorkspace({ configuration, producer, statements, names = {} }: Props & {
+  /** Display labels of the records the configuration cites, by id. */
+  names?: Record<string, string>;
+}) {
+  const name = (id: string) => names[id] ?? id;
   const query = useSearchParams();
   const preset = query.get("set");
   const defaultSet = configuration.configurations.find((entry) => entry.status === "model witnessed" && entry.statement_ids.includes(configuration.seed_statement_id)) ?? configuration.configurations[0];
@@ -34,13 +39,13 @@ export function CertifiedWorkspace({ configuration, producer, statements }: Prop
   return <>
     <nav aria-label="Named assumption sets" className="mt-5 flex flex-wrap gap-4">
       {configuration.configurations.map((entry) => <Link className="link-quiet text-sm" key={entry.id}
-        href={`/configurations/${configuration.id}?set=${entry.id}`} scroll={false}>{entry.id}</Link>)}
+        href={`/configurations/${configuration.id}?set=${entry.id}`} scroll={false}>{name(entry.id)}</Link>)}
     </nav>
     <fieldset className="mt-6 grid gap-4">
       <legend className="font-medium">Selected assumptions</legend>
       {configuration.assumption_space.statement_ids.map((id) => <label className="flex cursor-pointer items-start gap-3" key={id}>
         <input type="checkbox" className="mt-1 size-4 shrink-0" checked={chosen.includes(id)} onChange={() => toggle(id)} />
-        <span><span className="block font-mono text-xs">{id}</span><span className="mt-1 block text-sm leading-6">{statements[id]?.paraphrase ?? id}</span></span>
+        <span><span className="block font-mono text-xs">{shortId(id)}</span><span className="mt-1 block text-sm leading-6">{statements[id]?.paraphrase ?? id}</span></span>
       </label>)}
     </fieldset>
     {invalidPreset || selected.error ? <p role="alert" className="mt-5">{invalidPreset ? "This named assumption set is unavailable." : selected.error}</p> : null}
@@ -50,31 +55,31 @@ export function CertifiedWorkspace({ configuration, producer, statements }: Prop
       {result.unresolved_reason ? <p className="mt-3 text-sm">{result.unresolved_reason}</p> : null}
       {result.incompatible_cores.map((core) => <div className="mt-5" key={core.result_id}>
         <h3 className="font-medium">Certified incompatible core</h3>
-        <ul className="mt-2">{core.statement_ids.map((id) => <li key={id}><Link className="link-quiet font-mono text-xs" href={`/statements/${id}`}>{id}</Link></li>)}</ul>
+        <ul className="mt-2">{core.statement_ids.map((id) => <li key={id}><Link className="link-quiet font-mono text-xs" href={`/statements/${id}`}>{statements[id]?.paraphrase ?? name(id)}</Link></li>)}</ul>
         <p className="mt-2 text-sm">{core.minimality}</p>
         <ol className="mt-3 grid gap-2">{core.result_ids.map((id, index) => <li key={id}>
-          <Link className="link-quiet font-mono text-xs" href={`/results/${id}`}>{id}</Link>
+          <Link className="link-quiet font-mono text-xs" href={`/results/${id}`}>{name(id)}</Link>
           <p className="mt-1 font-mono text-xs">{core.theorems[index]}</p>
         </li>)}</ol>
         <details className="mt-3 text-sm"><summary>Single-premise removal evidence</summary>
-          <ul className="mt-2">{core.removal_evidence.map((entry) => <li key={entry.removed_statement_id}>{entry.removed_statement_id}: {entry.model_ids.join(", ") || "no matching certified witness"}</li>)}</ul>
+          <ul className="mt-2">{core.removal_evidence.map((entry) => <li key={entry.removed_statement_id}>{statements[entry.removed_statement_id]?.paraphrase ?? name(entry.removed_statement_id)}: {entry.model_ids.map(name).join(", ") || "no matching certified witness"}</li>)}</ul>
         </details>
       </div>)}
       {result.model_witnesses.map((model) => <div className="mt-5" key={model.model_id}>
-        <h3 className="font-mono text-xs">{model.model_id}</h3>
+        <h3 className="font-mono text-xs">{name(model.model_id)}</h3>
         <p className="mt-2 text-sm">This assignment satisfies every selected statement in the named formal profile.</p>
         <details className="mt-3 text-sm"><summary>Selected evaluations and certificates</summary>
           <p className="mt-2 font-mono text-xs">{model.lean_declaration}</p>
           <ul className="mt-2 grid gap-2">{model.evaluations.filter((entry) => chosen.includes(entry.statement_id)).map((entry) => <li key={entry.statement_id}>
-            <p className="font-mono text-xs">{entry.statement_id}</p><p className="mt-1 font-mono text-xs">{entry.theorem}</p>
+            <p className="font-mono text-xs">{statements[entry.statement_id]?.paraphrase ?? name(entry.statement_id)}</p><p className="mt-1 font-mono text-xs">{entry.theorem}</p>
           </li>)}</ul>
         </details>
       </div>)}
       {implications.length > 0 ? <div className="mt-5"><h3 className="font-medium">Verified conditional applications</h3>
         <ul className="mt-2 grid gap-3">{implications.map((entry) => <li key={entry.result_id}>
-          <Link className="link-quiet font-mono text-xs" href={`/statements/${entry.conclusion_statement_id}`}>{entry.conclusion_statement_id}</Link>
-          <p className="mt-1 text-sm">From {entry.premise_statement_ids.join(", ")}</p>
-          <Link className="link-quiet font-mono text-xs" href={`/results/${entry.result_id}`}>{entry.result_id}</Link>
+          <Link className="link-quiet font-mono text-xs" href={`/statements/${entry.conclusion_statement_id}`}>{name(entry.conclusion_statement_id)}</Link>
+          <p className="mt-1 text-sm">From {entry.premise_statement_ids.map((id) => statements[id]?.paraphrase ?? name(id)).join(", ")}</p>
+          <Link className="link-quiet font-mono text-xs" href={`/results/${entry.result_id}`}>{name(entry.result_id)}</Link>
           <p className="mt-1 font-mono text-xs">{entry.theorem}</p>
         </li>)}</ul>
       </div> : null}

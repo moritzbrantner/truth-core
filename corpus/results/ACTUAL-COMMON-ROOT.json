@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-COMMON-ROOT",
-  "argument_id": "ACTUAL-COMMON-ROOT",
+  "id": "4789c548-15b1-5c38-9193-12635b443def",
+  "label": "One actual concrete root at w…, from Some candidate is CONCRETE_6 and exists at… and 6 more",
+  "legacy_id": "ACTUAL-COMMON-ROOT",
+  "argument_id": "5b11ab4d-8585-5b73-93a2-2792ee0ff5a8",
   "challenge_module": "TruthCore.Results.Causality.ActualCommonRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActualCommonRoot.Solution",
   "theorem": "TruthCore.Results.Causality.ActualCommonRoot.commonRoot",

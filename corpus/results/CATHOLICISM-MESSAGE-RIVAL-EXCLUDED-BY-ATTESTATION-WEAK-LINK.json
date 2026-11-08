@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
-  "argument_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "id": "64274105-3921-501b-9fb9-128eceffdd7b",
+  "label": "For any being g: if Jesus holds a mandate from g, founded the Catholic…, by attestation weak link",
+  "legacy_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "argument_id": "3753fb36-383e-58e5-b25e-197b02be4aa1",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Attestation.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.weakLinkAttestationRejectsMessage",

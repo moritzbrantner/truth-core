@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POPULATION-TOTAL-RANKING",
+  "id": "c60b059a-7315-58e4-b957-e4116112cf12",
+  "label": "STRICT_TOTAL_RANKING_2: TotalRanking r means that r p q holds exactly when profile q has strictly…",
+  "legacy_id": "DEF-POPULATION-TOTAL-RANKING",
   "term": "strict total ranking",
   "definition": "TotalRanking r means that r p q holds exactly when profile q has strictly greater count-times-mean total than profile p. This is a stipulated ordering policy on summaries, not a morally authoritative ought or maximal feasible choice.",
   "basis": "stipulative",

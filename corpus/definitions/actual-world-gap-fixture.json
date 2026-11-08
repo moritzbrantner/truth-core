@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-WORLD-GAP-FIXTURE",
+  "id": "66c60425-d602-52de-a156-87540b01e312",
+  "label": "Shared answers fixture: Case o k p fixes accessibility, the #735 causal form k and the answer p",
+  "legacy_id": "DEF-ACTUAL-WORLD-GAP-FIXTURE",
   "term": "shared answers fixture",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ActualWorldGap.case",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-PARTICIPATION-GROUNDING-INDEPENDENT",
+  "id": "97109c34-cc91-5dfb-a894-df658bfc7bfd",
+  "label": "One finite assignment satisfying the generic Form principles and a…, by Finite-model-construction",
+  "legacy_id": "INF-PARTICIPATION-GROUNDING-INDEPENDENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PARTICIPATION-GROUNDING-INDEPENDENT",
+  "output_statement_id": "66d149f5-eee2-5918-84b8-925c1330a98e",
   "rule": "finite-model-construction",
   "meaning": "Construct the same classification and base with an empty explanatory account and a separate directed base-to-participation account. Different Fact constructors prevent reverse grounding. Formative and identification extensions also differ. This verifies compatibility and non-entailment, not mechanism adequacy.",
   "assumption_statement_ids": [],

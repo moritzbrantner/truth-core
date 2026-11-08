@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-CONDITION-CORE-PROFILE",
+  "id": "2a5e46b8-69be-5de3-9d19-b15e11d87136",
+  "label": "Raw-frame C/N/S specialization: ConditionArena constructs the same existing basic arena from a…",
+  "legacy_id": "DEF-MODAL-CONDITION-CORE-PROFILE",
   "term": "raw-frame C/N/S specialization",
   "definition": "conditionArena constructs the same existing basic arena from a Kripke frame and fact valuation. ConditionContingent, ConditionNecessary and ConditionImplication specialize the same arena predicates without any new policy. This exposes data-only frame/valuation roles to the existing configuration tool, which does not accept a three-carrier Arena parameter; no policy is discarded to fit a bound.",
   "basis": "stipulative",

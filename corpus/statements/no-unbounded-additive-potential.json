@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
+  "id": "41e0a6b3-eef0-50bb-9a88-c513a0c20223",
+  "label": "There is no potential infinity by addition that exceeds every determinate magnitude",
+  "legacy_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
   "paraphrase": "There is no potential infinity by addition that exceeds every determinate magnitude.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoUnboundedAdditivePotentialReading"
 }

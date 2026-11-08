@@ -1,20 +1,22 @@
 {
-  "id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "id": "7bdd5abb-a42e-523f-9d58-1160e356446f",
+  "label": "The existing universal…, from Some noncognitive member broadly tends to…",
+  "legacy_id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
   "premise_statement_ids": [
-    "STMT-UNDIRECTED-NONCOGNITIVE-TENDING-WITNESS"
+    "dede2803-97ba-5df3-ac1b-18dd344e1f3c"
   ],
-  "conclusion_statement_id": "STMT-NOT-NONCOGNITIVE-TENDING-DIRECTOR-PRINCIPLE",
+  "conclusion_statement_id": "03d40e6a-f98d-5a95-b86f-db6584386922",
   "inference_ids": [
-    "INF-UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE"
+    "05e2644d-8f2c-5bb6-b7da-7ec8710aa299"
   ],
   "meaning": "Specialize the existing universal director principle at the explicit noncognitive tending witness and contradict its absence of a director. Same predicates and end are retained. This rejects no mechanism, source profile or intended reality interpretation.",
   "definition_ids": [
-    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-TELEONOMY-MODEL-SCOPE"
+    "4404df1d-a1c1-5e61-8f8d-24e9b60f6ad5",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "b5b918e7-b170-5d37-acad-10004f3570b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO",
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249",
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

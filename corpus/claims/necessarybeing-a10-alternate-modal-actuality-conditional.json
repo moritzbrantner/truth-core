@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A10-ALTERNATE-MODAL-ACTUALITY-CONDITIONAL",
-  "statement_id": "STMT-NB-A10-MODAL-ACTUALITY-CONDITIONAL",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "ffad35e9-cbfd-55f6-881a-07384eb0445f",
+  "label": "Unattributed website author, Necessary…: A10C presents the conditional escalation from possible… (2)",
+  "legacy_id": "NB-SURVEY-A10-ALTERNATE-MODAL-ACTUALITY-CONDITIONAL",
+  "statement_id": "91aa6a43-053f-58ef-8483-711d1c4dd5cd",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10C2, modal introduction recalling original invariance and numbered deduction 1–12, with A10P3B question context",
   "interpretation": "The suffix matches main A10’s conditional argument, including the original individual-invariance recall despite P3B asking a different alternate input. Preserve that discrepancy; do not attribute A2’s explicit alternate derivation here. The prefix retains prima-facie default/possibility warrant and defeaters; those do not establish premise1 Dia N. No modal frame truth, N-to-Box-N warrant, rigid witness or probability transport is verified.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "849896d5-dde0-5f60-a951-788992e3726d"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

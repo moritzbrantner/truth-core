@@ -1,9 +1,11 @@
 {
-  "id": "INF-OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
+  "id": "b5b36863-d970-532b-aaa4-a40854e3ec2b",
+  "label": "Some actual moved tuple is not in POTENCY_1 in the SAME respect under the…, by… (2)",
+  "legacy_id": "INF-OCCASIONALIST-CANDIDATE-ENVELOPE-TO-ACTUAL-COUNTERTUPLE",
   "input_statement_ids": [
-    "STMT-MOVED-WITHOUT-POTENCY"
+    "c2307406-009c-56ad-ba01-0025eeb27a7d"
   ],
-  "output_statement_id": "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "output_statement_id": "86c76b02-e2f7-5db1-87b1-0b025c3e6040",
   "rule": "constructive-proof",
   "meaning": "Projection transcription of only the existing candidate Lean envelope into the precise analyst countertuple. The old source/candidate paraphrase includes a re-creation story not encoded by that envelope; no reverse implication or derivation of the full historical view is claimed.",
   "assumption_statement_ids": [],

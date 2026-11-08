@@ -1,9 +1,11 @@
 {
-  "id": "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
+  "id": "4d47d4ae-7aa9-5bba-8aa7-68f79ff8dfa9",
+  "label": "Whatever is GOD_4 and has the classical attributes asserts only what he holds as known",
+  "legacy_id": "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS",
   "paraphrase": "OPEN (attribution deferred): whatever is God and has the classical attributes asserts only what he holds as known (sincerity: he does not deceive).",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.GodAssertsOnlyWhatHeKnows",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-VERACITY-ASSERTION-VOCABULARY"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
   ]
 }

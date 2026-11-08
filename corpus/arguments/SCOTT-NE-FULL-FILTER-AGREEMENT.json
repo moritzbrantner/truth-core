@@ -1,20 +1,22 @@
 {
-  "id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "id": "0d19f267-6a71-5d61-afbb-644d07b3bae6",
+  "label": "For arbitrary worlds, individuals, Kripke frames, bearers and evaluation worlds, the stipulated…",
+  "legacy_id": "SCOTT-NE-FULL-FILTER-AGREEMENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "conclusion_statement_id": "a704f3cc-57dc-53a6-adef-a4c7c3891190",
   "inference_ids": [
-    "INF-SCOTT-NE-FULL-FILTER-AGREEMENT"
+    "f58dd548-c088-5bec-8d30-8f79ec5b5651"
   ],
   "meaning": "A conservative-extension sanity check for a stipulative admissible-property filter. Only the currently defined Scott/AFP modal operators, essence and necessary existence are reused; no historical reading, positive-property principle or metaphysical admissibility rule is inferred from it.",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-FILTERED-ESSENCE",
-    "DEF-FILTERED-NECESSARY-EXISTENCE",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+    "6c825ee1-db34-5cf7-933f-689d3e615f19",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-NECESSARY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

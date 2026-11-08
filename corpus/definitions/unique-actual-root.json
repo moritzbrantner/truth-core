@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIQUE-ACTUAL-ROOT",
+  "id": "9aa95dab-4e15-56e4-b9cf-8ad8aef87540",
+  "label": "Unique actual concrete root of…: There is n with existing ActualRoot m w n, and every x with…",
+  "legacy_id": "DEF-UNIQUE-ACTUAL-ROOT",
   "term": "unique actual concrete root of selected grounds at one world",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ActualRootUniqueness.UniqueActualRootAt",

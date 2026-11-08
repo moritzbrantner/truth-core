@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-FIXTURE-CHECKS",
+  "id": "a24c8942-9af2-58aa-a990-34cc108ca19e",
+  "label": "Mathematical fixture laws with exact quantified assumptions…, by Direct-proof",
+  "legacy_id": "INF-MODAL-FIXTURE-CHECKS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-FIXTURE-CHECKS",
+  "output_statement_id": "9863029b-0dad-51ad-a3d5-f41eb9d47277",
   "rule": "direct-proof",
   "meaning": "Instantiate MC at the root equality predicate; separately derive truth agreement using explicit excluded middle and negation closure and apply the extensionality hypothesis. Structural induction proves finite evaluator correctness. Explicit Bool models witness differences between scopes. Assumptions are quantified inside Checks; no source claims are premises.",
   "assumption_statement_ids": [],

@@ -1,16 +1,18 @@
 {
-  "id": "INF-ATOMISTIC-NECESSARY-CONSTITUENT",
+  "id": "066aa261-0f9e-5e66-9727-37ca2f5a1620",
+  "label": "At least one individual exists at the selected world and at…, by Actual-source-necessary-const…",
+  "legacy_id": "INF-ATOMISTIC-NECESSARY-CONSTITUENT",
   "input_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "bbe8900a-7d33-5e6b-a76c-1947ecf7fa6e"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "actual-source-necessary-constituent-composition",
   "meaning": "Import AtomisticCausalSource.source on the existing actualGraph m w, using the actual subtype with the order inherited from the SAME ambient PartialOrder B. Its chosen source s is actual by subtype membership. If s had no ambient necessary parts, CF3 would give an incoming cause; CF4 makes that cause actual, contradicting the imported actualSource_iff characterization. Supplied EM therefore yields p ≤ s with NecessaryAt m w p. The selected-world actual-parts policy makes p actually exist. Conclude the EXISTING NecessaryBeing endpoint for p, not necessity of s. The part may equal s; no properness, distinctness or outgoing role follows. No activity, LocalCausalPrinciple, reflexive accessibility, global WF, no-necessary-parts cover, concreteness or full author first-cause conclusion is assumed or inferred. The complete-production interpretation and all three one-world policy applications remain OPEN.",
   "assumption_statement_ids": [],

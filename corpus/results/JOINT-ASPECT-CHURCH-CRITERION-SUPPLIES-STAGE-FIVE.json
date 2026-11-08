@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
-  "argument_id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "id": "5e6cefee-4db2-5ef3-b071-8e235e7989ba",
+  "label": "Jesus founded a visible, enduring society…, from The selected Church predicate applies… and 1 more",
+  "legacy_id": "JOINT-ASPECT-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "38517c44-7b2d-5cc2-a551-3d5bf2455f63",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Joint.jointCriterionSuppliesStageFive",

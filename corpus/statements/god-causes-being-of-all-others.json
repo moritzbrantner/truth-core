@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS",
+  "id": "86d02b69-87eb-5594-9958-ccaa5fe6b685",
+  "label": "Whatever is GOD_4 causes the being of every other being",
+  "legacy_id": "STMT-GOD-CAUSES-BEING-OF-ALL-OTHERS",
   "paraphrase": "Whatever is God causes the being of every other being. Causal converse of ST I q.2 a.3's naming sentence (what is the cause of being and of every perfection to all beings, this we call God), read for being only.",
   "lean_declaration": "TruthCore.Causality.GodMaximalCausal.GodCausesBeingOfAllOthers",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

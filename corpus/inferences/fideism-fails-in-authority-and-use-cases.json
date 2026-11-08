@@ -1,15 +1,17 @@
 {
-  "id": "INF-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "id": "25cb39ea-f782-5613-ad81-0a905b306020",
+  "label": "In the two cells where the practice fixes its own grammar, both fideist bundles…, by Case-analysis",
+  "legacy_id": "INF-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
   "input_statement_ids": [
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
-    "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
-    "STMT-NATURAL-REASON-IS-SHARED-REASON",
-    "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
-    "STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD",
-    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
-    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
+    "f631f688-bb91-54d2-8662-b7c77a57c082",
+    "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
+    "2b8d88d0-e415-5a05-9aff-ded493da71fd",
+    "1bc99599-80d3-52c3-945c-41be3b89a26a",
+    "f8ea0d75-23ec-5106-8dee-76ce64b69e3b",
+    "0d795e49-20b7-58b2-ac42-6f63accda4fe"
   ],
-  "output_statement_id": "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "output_statement_id": "effaa1ff-ec42-58ac-a7bd-24cbecd0f2c7",
   "rule": "case-analysis",
   "meaning": "Case on the disjunction. Authorities: the definition bridge follows, apply the two earlier results. Ordinary use: the ordinary-use knowability move is own standard, hence correct, and answers to shared reason, against cut-off; the ordinary-use confession is correct, so 'God' refers, against no-being.",
   "assumption_statement_ids": [],

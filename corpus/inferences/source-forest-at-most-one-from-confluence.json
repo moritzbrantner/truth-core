@@ -1,10 +1,12 @@
 {
-  "id": "INF-SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "id": "524236a9-9238-50c2-a6b1-d063963cc6e9",
+  "label": "Any two graph-relative sources are equal; no source exists merely by this…, by Direct-proof",
+  "legacy_id": "INF-SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
   "input_statement_ids": [
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
-    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT"
+    "eb88842a-1dc7-5632-a0e0-556eec39864a",
+    "1a575754-6316-5d66-ac5b-db8fb4cf1aef"
   ],
-  "output_statement_id": "STMT-SOURCE-FOREST-AT-MOST-ONE-SOURCE",
+  "output_statement_id": "861e20d6-7d65-5856-85cf-0cd0d0c167f3",
   "rule": "direct-proof",
   "meaning": "Mathlib equivalence_join turns upstream confluence into equivalence of having a common finite upstream extension. Every graph edge lies in that equivalence, so EqvGen causal connectivity joins any two sources. A source admits no nontrivial upstream path, forcing the common extension to equal each source. No WF, nonemptiness, acyclicity, necessary existence or divine predicate is used.",
   "assumption_statement_ids": [],

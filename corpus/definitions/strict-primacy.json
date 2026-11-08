@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRICT-PRIMACY",
+  "id": "7bd0b128-b6df-5ef3-9291-71699b91db38",
+  "label": "Strict primacy: StrictPrimacyReading near p: every x other than p approaches p less nearly than p…",
+  "legacy_id": "DEF-STRICT-PRIMACY",
   "term": "strict primacy (nothing else reaches the primary)",
   "definition": "`StrictPrimacyReading near p`: every x other than p approaches p less nearly than p stands (near x < near p). Identity-sensitive: it rules out any other thing tied with p, not only any thing exceeding it.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "BEARER-REGRESS-CONTROLS",
-  "argument_id": "BEARER-REGRESS-CONTROLS",
+  "id": "bdc69a14-36ae-593d-901f-34a4d8413710",
+  "label": "Logical models and exclusions",
+  "legacy_id": "BEARER-REGRESS-CONTROLS",
+  "argument_id": "c772b5be-77ab-52fc-89f1-14506ab5a777",
   "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
   "theorem": "TruthCore.Results.Causality.BearerRegress.controls",

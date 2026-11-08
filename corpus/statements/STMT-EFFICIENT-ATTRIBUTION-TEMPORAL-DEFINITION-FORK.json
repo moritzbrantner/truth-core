@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
+  "id": "16dc76c9-00c8-57ac-af49-e027eae8411a",
+  "label": "Structural fork: for every supplied profile, named temporal calibrations cover, or both fail",
+  "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION-FORK",
   "paraphrase": "Structural fork: for every supplied profile, named temporal calibrations cover, or both fail. Conditional on explicit excluded middle. Does not establish named philosophical coverage.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.DefinitionFork",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULARITY-LAW-SELECTION",
+  "id": "c0a65542-5ceb-54c5-ba9c-74fa90af81c2",
+  "label": "Law versus true accidental regularity: BestSystemReading identifies laws with theorems of a…",
+  "legacy_id": "DEF-REGULARITY-LAW-SELECTION",
   "term": "law versus true accidental regularity",
   "definition": "BestSystemReading identifies laws with theorems of a selected system. Selection must independently earn truth, simplicity, strength and, for probabilistic systems, fit. The toy Regularity language distinguishes a pattern theorem from an incidental truth; it does not implement those standards, chances, or a full account of causation.",
   "basis": "stipulative",

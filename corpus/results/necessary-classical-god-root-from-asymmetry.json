@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY",
+  "id": "5568bb2e-53fa-56cb-9405-799ead52adb4",
+  "label": "There exists ONE SAME selected actual concrete necessary root n retaining the…, from asymmetry",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-ASYMMETRY",
+  "argument_id": "db2dead0-da83-516a-a839-65b0ce09d417",
   "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.derive",

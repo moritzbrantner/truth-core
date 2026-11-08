@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "id": "162fe185-42dc-505d-861c-b0a50eb7fd4b",
+  "label": "Each natural body tends, not by chance, to something that is best for it as…, via acts for an end",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "argument_id": "a5109c94-45f4-5e4f-b803-371a69c244cc",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaActsForAnEnd.actsForAnEnd",

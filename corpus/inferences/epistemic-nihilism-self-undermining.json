@@ -1,7 +1,9 @@
 {
-  "id": "INF-EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "id": "fe5393cc-a409-52ed-93af-98cd82454b10",
+  "label": "The owner's retorsion: if there are no epistemic reasons, then no one…, by Universal-instantiation",
+  "legacy_id": "INF-EPISTEMIC-NIHILISM-SELF-UNDERMINING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "output_statement_id": "4963e32f-b9e6-55ce-8c6c-811ff9db6513",
   "rule": "universal-instantiation",
   "meaning": "Nihilism says no agent has a reason to believe any content; instantiate the content with nihilism itself.",
   "assumption_statement_ids": [],

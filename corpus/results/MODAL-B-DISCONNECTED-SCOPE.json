@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-DISCONNECTED-SCOPE",
-  "argument_id": "MODAL-B-DISCONNECTED-SCOPE",
+  "id": "4d171e67-bc71-5aae-9874-cba1d1199386",
+  "label": "A finite reflexive symmetric frame has actual, possible and necessary full MC at an isolated root…",
+  "legacy_id": "MODAL-B-DISCONNECTED-SCOPE",
+  "argument_id": "21332e32-052b-563e-af81-3712a2f17b84",
   "challenge_module": "TruthCore.Results.Modal.B.DisconnectedScope.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.DisconnectedScope.Solution",
   "theorem": "TruthCore.Results.Modal.B.DisconnectedScope.checks",

@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-GAL",
+    "source_id": "74b27609-9e7a-5018-9316-e58702ac3b7f",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg009.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-GAL-1",
+      "id": "3b0507b8-f403-521c-8e63-1a1561ba529d",
+      "label": "Paul, Galatians, 1",
+      "legacy_id": "NT-GAL-1",
       "locator": "1",
       "claim_locator_prefixes": [
         "1."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-GAL-2",
+      "id": "0288f4af-e2c7-5468-a712-09e84bc9f719",
+      "label": "Paul, Galatians, 2",
+      "legacy_id": "NT-GAL-2",
       "locator": "2",
       "claim_locator_prefixes": [
         "2."

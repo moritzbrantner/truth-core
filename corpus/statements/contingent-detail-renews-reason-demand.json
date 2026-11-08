@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
+  "id": "83c15757-801b-583f-a848-5a2c2b234024",
+  "label": "Adding prior or more detailed contingent reasons, each still requiring analysis for its reason…",
+  "legacy_id": "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
   "paraphrase": "Adding prior or more detailed contingent reasons, each still requiring analysis for its reason, does not settle the final sufficient reason of the contingent series.",
   "definition_ids": [
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND",
-    "DEF-KANT-SUFFICIENT-REASON"
+    "f742be24-23e4-580e-b670-b509534745c2",
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

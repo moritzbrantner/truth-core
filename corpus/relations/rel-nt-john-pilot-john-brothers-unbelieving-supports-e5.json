@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING-SUPPORTS-E5",
+  "id": "17d3e631-7537-58e8-9bb9-0cf0bfc8cc8c",
+  "label": "New Testament, John 7.3-5: John says… supports The James proposed as Jesus’s brother…",
+  "legacy_id": "REL-NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING-SUPPORTS-E5",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING",
+  "subject_id": "9bc58cc8-b6fb-5fc1-9d7a-faa25220252e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E5"
+  "object_id": "13679582-3a52-5a81-ad0c-dba8b159a8d7"
 }

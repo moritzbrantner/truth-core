@@ -1,6 +1,8 @@
 {
-  "id": "REGRESS-SCHEMA-PACKAGE",
-  "argument_id": "REGRESS-SCHEMA-PACKAGE",
+  "id": "74e00870-e0d4-5467-8c09-a75b2a922ce5",
+  "label": "The structural schema and all six distinct conditional transfers hold",
+  "legacy_id": "REGRESS-SCHEMA-PACKAGE",
+  "argument_id": "669b8e1d-e47e-5690-a30a-c8d9af296d36",
   "challenge_module": "TruthCore.Results.Logic.RegressSchema.Challenge",
   "solution_module": "TruthCore.Results.Logic.RegressSchema.Solution",
   "theorem": "TruthCore.Results.Logic.RegressSchema.regressSchemaPackage",

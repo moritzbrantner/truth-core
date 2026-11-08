@@ -1,24 +1,26 @@
 {
-  "id": "TAPP-HVEP1-SHARED-SELF-POWER",
-  "statement_id": "STMT-TAPP-SHARED-SELF-POWER",
-  "source_id": "TAPP-UNIQUENESS-MONOLOGION-2014",
+  "id": "adb39552-6b07-56d2-bfa3-4c179c76d212",
+  "label": "Christian Tapp, The Uniqueness of God in…: There exists one c such that every x satisfying through…",
+  "legacy_id": "TAPP-HVEP1-SHARED-SELF-POWER",
+  "statement_id": "a08c44e9-b8b8-56f1-b622-b4aa5b550935",
+  "source_id": "28e3e25f-e54e-5b79-9c38-773ac64e3d30",
   "locator": "§3.2 pp.83–84, HVEP1; §6 pp.89–90, premise22",
   "interpretation": "Primary reading of Tapp’s own explicit global common-witness premise, represented at one selected world. This is the reconstruction’s stronger numerical common-power assumption, not a proof from shared predication and not a claim that Anselm literally states this modern typed formula.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ANSELM-THROUGH-CONTEXT",
-    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
-    "DEF-ANSELM-SOURCE-ACTUALITY",
-    "DEF-ANSELM-THROUGH-COVERAGE",
-    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
-    "DEF-TAPP-SHARED-SELF-POWER",
-    "DEF-TAPP-SELF-POWER-THROUGH",
-    "DEF-ANSELM-SOURCE-UNIQUENESS",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "687881da-fd85-595d-8649-ab6e1f9b7ab2",
+    "6e99c5cc-2d8c-546e-8475-242fa956e7c5",
+    "bfc6b432-2215-558b-96af-1e28ee037ef4",
+    "8f9873ba-68cb-5415-ac32-f19762f794bf",
+    "4967cf8c-a7cc-5253-9288-37473b931b97",
+    "c53a0cc8-bcdc-592c-8e46-bf75b4aa749c",
+    "ca8a9ffd-a7aa-57a1-b875-94308b836b07",
+    "4477b0a6-c85d-5749-b0e4-e39de2bdad91",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+    "127e3934-efe5-57f9-b754-4ce22d36aeb8"
   ]
 }

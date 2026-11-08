@@ -1,10 +1,12 @@
 {
-  "id": "INF-SCOTT-C",
+  "id": "a896e994-c62c-5da0-88b0-a34ac9c9a5a6",
+  "label": "Scott's corollary C: at every world, possibly a GOD_LIKE_5 being exists, by Universal-instantiation",
+  "legacy_id": "INF-SCOTT-C",
   "input_statement_ids": [
-    "STMT-SCOTT-GOD-LIKE-POSITIVE",
-    "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED"
+    "a6b42d40-6d62-5fbb-85e4-5a37c6ca4a3e",
+    "c6ebeb52-a198-55c8-b132-08fba8d3838f"
   ],
-  "output_statement_id": "STMT-SCOTT-GOD-LIKE-POSSIBLY-EXISTS",
+  "output_statement_id": "d82dc8d8-3190-53bc-9ffd-f842ec907264",
   "rule": "universal-instantiation",
   "meaning": "AFP C (metis A3 T1). T1 instantiated at the property of being God-like, which is positive (A3).",
   "assumption_statement_ids": [],

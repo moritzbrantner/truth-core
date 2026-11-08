@@ -1,6 +1,8 @@
 {
-  "id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
-  "argument_id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "id": "14893355-1c80-52c6-890a-68fd0d3dc1e2",
+  "label": "Some actual opiner of a supplied content is not…, from McTaggart-style rival: nothing is being…",
+  "legacy_id": "GLOBAL-NO-MOTION-APPEARINGS-STRENGTHENS-LOCAL-OPINER-COUNTERCASE",
+  "argument_id": "c1d42269-de01-53c0-930d-eef977c37944",
   "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.Solution",
   "theorem": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.rivalStrength",

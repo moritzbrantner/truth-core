@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-CAUSAL-CONCRETENESS-CAPACITY",
+  "id": "63162530-ff9f-539a-af19-3458e48e6a9e",
+  "label": "Causal power and concreteness",
+  "legacy_id": "DISAMB-CAUSAL-CONCRETENESS-CAPACITY",
   "term": "causal power and concreteness",
   "sense_definition_ids": [
-    "DEF-INTERVENTION-RESPONSE-CAPACITY",
-    "DEF-CAUSAL-CAPACITY-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE"
+    "c68008d0-5517-5907-9333-ce8a6f1e5f23",
+    "a8fa0c36-adcb-5221-b61f-41189f09f357",
+    "ba85645e-b933-5a7f-a648-b527dea115fa"
   ],
   "resolution": "The new response test gives an explicit finite instance of the capacity sense: an accessible manifestation can exist while every actual response is dormant. It does not use actual transmitted power or identify capacity with actual exercise. The generic ConcreteAt predicate now receives this computed capacity criterion only in this model. No claim is made that spatial location or underived actuality is this same criterion, or that a recipient lacking outgoing capacity is abstract. Literal identity and necessity retain DISAMB-NECESSARY-INDIVIDUAL-SCOPE. The comparison senses DEF-POWER-CAPACITY-READING and DEF-ACTUAL-POWER-TRANSMISSION-READING are already disambiguated by the existing power-existence scope record; no existing argument is reclassified.",
   "term_label": "CAUSAL_POWER_AND_CONCRETENESS",
@@ -12,19 +14,19 @@
     {
       "id": "434e5d67-183d-47cd-9b4e-16e5245b0951",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_1",
-      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY",
+      "definition_id": "c68008d0-5517-5907-9333-ce8a6f1e5f23",
       "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Capacity"
     },
     {
       "id": "62e5c1a8-e14b-4c2d-bf9a-ae255ec0eb2c",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_2",
-      "definition_id": "DEF-CAUSAL-CAPACITY-CONCRETE",
+      "definition_id": "a8fa0c36-adcb-5221-b61f-41189f09f357",
       "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     },
     {
       "id": "0b3b0f28-dd89-4775-a309-dfa47375308e",
       "label": "CAUSAL_POWER_AND_CONCRETENESS_3",
-      "definition_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+      "definition_id": "ba85645e-b933-5a7f-a648-b527dea115fa",
       "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
     }
   ]

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-ROUTE-FAILURE-PATTERN",
+  "id": "502e8eac-364b-5cf9-8464-60a9ae30a5c8",
+  "label": "Indexed route and exhaustive failure\u2026: For premise family premises: I \u2192 Prop, Complete premises\u2026",
+  "legacy_id": "DEF-JOINT-ROUTE-FAILURE-PATTERN",
   "term": "indexed route and exhaustive failure consequence",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.JointRouteFailure.Complete",

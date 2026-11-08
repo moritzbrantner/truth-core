@@ -1,32 +1,34 @@
 {
-  "id": "NECESSARY-ROOT-TRILEMMA",
+  "id": "b48d4d6b-a0e1-5521-bb73-c5956ce49db3",
+  "label": "At w, one of: some concrete…, from Some candidate is CONCRETE_6 and exists at… and 1 more",
+  "legacy_id": "NECESSARY-ROOT-TRILEMMA",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-ROOT-TRILEMMA",
+  "conclusion_statement_id": "b0607c1b-8c73-52f1-a052-85852e570f28",
   "inference_ids": [
-    "INF-NECESSARY-ROOT-TRILEMMA"
+    "62f8b932-eeb7-59e6-b216-d47574bf42e6"
   ],
   "meaning": "Exhaustive three-way fork, with coverage only: the first horn overlaps each of the others (STMT-NECESSARY-ROOT-CONTROLS). It adds no premise over a case split on well-foundedness and the coverage theorem, and its content is in that theorem. All three horns are witnessed in logical models, with non-well-foundedness witnessed both by a cycle and by an acyclic unending descent. No horn is asserted.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

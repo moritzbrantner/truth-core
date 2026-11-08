@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-GOODNESS-FORM-END-FORKS-1116",
+  "id": "7f03caed-fc38-593e-a1dc-cd97f5641130",
+  "label": "Owner selected a proposition, superseding adopted-definition proposal",
+  "legacy_id": "ATTEMPT-GOODNESS-FORM-END-FORKS-1116",
   "statement_ids": [
-    "STMT-GOODNESS-DUE-TO-FORM-AND-END",
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
-    "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION"
+    "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "be5a4cc5-1bac-549c-af6d-992ca07193a1",
+    "a6f933f6-9700-55a6-804a-bba8e13e85bf"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -12,16 +14,16 @@
   "summary": "Owner selected a proposition, superseding adopted-definition proposal (#1116). Encoded due-actuality coextension over typed forms/ends/perfections, a structural surplus/omission fork under explicit excluded middle, and separate philosophical named coverage with an explicit additional-definition alternative. Core elimination uses weak pointwise-coextension coverage, one correct admissible account and actual failures of feature/approval accounts; stronger candidate-ID coverage is preserved with a certified strength relation. Fixed models witness all structural cells, their overlap, a genuinely extension-different fourth account, and failure of deriving the target from only the two named failures. The new thesis yields the old unrestricted root leaf exactly with AllActualitiesDue; a non-due actual knife mass prevents silently identifying them. Boyd positive-case aspect-transfer instances occupy all three cells under fixed nonempty criteria; Railton welfare-aspect instances survive or fail depending on the supplied interest criterion. These are explicit schema transfers, not source attributions or full historical-theory defeats. Existing exact-classifier proof is imported; coarse data fail and form-sensitive classification survives. Property identity is stronger than coextension; no Moore simplicity/indefinability verdict is inferred. Details, rejected alias-based coverage shortcut, fixed witnesses and encoding gaps persist in docs/notes/goodness-form-end-definitions.md. Registered the exact two-premise bridge to the existing unrestricted route leaf rather than hiding it in a certificate. This exposes the proposed thesis, semantic coverage, correct-account and rival-failure commitments, and AllActualitiesDue on the reaching-root frontier; the computed delta reports them honestly. This is conditional configuration progress, not a reduction in bare premises. Outside-disambiguation consequential-use audit found a further sufficient support weakening: classify some correct admissible account rather than every admissible proposal. New CorrectAccountSupport is conditional on old correct-account existence and may transfer to a different witness. Global semantic coverage strengthens it; weaker elimination composes the unchanged old theorem on a singleton-admissibility restriction; a widened original artifact space retains a correct named .due and wrong admissible extension-unnamed .other plus every weaker input while global coverage fails. Property identity/source claims/old Challenges remain unchanged. Full79 definition dispositions and exact consumer/type boundaries persist in docs/notes/truth-definition-use-audit.md and its linked JSON. Computed comparison at base f6347d273ba44bd4a99098e6c9a2b25f8ed0813d: reaching-root open premises126\u2192127, adding the bare CorrectAccountSupport input; cheapest adopted-potency route30\u219230. This exposes a separate weaker sufficient configuration, not a premise discharge or frontier-count reduction. P1 correction discussion4497633832: initial doc disclaimer about correct proposals was false. Added checked equivalence of conditional support and semantic named coverage of EVERY admissible CORRECT account on the SAME dictionary; coextension through GoodIn transports membership. The .other strictness witness is explicitly WRONG, so only arbitrary-admissible coverage is separated. No new OPEN/root premise or old Challenge change.",
   "blocker": "All candidate truth/coverage inputs remain unestablished. Need actual arguments fixing due status and rival criteria or a meaningful further-definition proposal; no root premise becomes established and no floor closes. The bridge from restricted due goodness to unrestricted root coextension remains explicit. Source attribution, aggregate degrees, real final causation and categorical practical authority are not established by the current encoding.",
   "evidence": [
-    "GOODNESS-FORM-END-DEFINITION-FORK",
-    "GOODNESS-SEMANTIC-NAMED-COVERAGE-FORK",
-    "GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION",
-    "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
-    "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
-    "GOODNESS-FORM-END-BOUNDARIES",
-    "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
-    "GOODNESS-GLOBAL-COVERAGE-STRENGTHENS-CORRECT-SUPPORT",
-    "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
-    "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
-    "GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE"
+    "0cae0563-0ac2-5c3f-81e9-7493d4dc3894",
+    "9982ff14-c9c3-58c9-a1b1-dfb0ee81e98e",
+    "d36ad9c0-59fc-589a-a86b-89803ffd8342",
+    "c3d7e98f-fe13-5dd2-85f9-2a93b55cbd50",
+    "826023e5-670e-5afc-8619-8f329eff6008",
+    "122aced4-9788-560c-beac-78f70ec398da",
+    "3b3495cb-f79c-51af-8473-31b75ba452cc",
+    "2d8e3fab-9f8f-5074-b15f-bcc3782036a1",
+    "9005815b-b469-5ee6-b252-546f11f12d8c",
+    "20d8056e-e0db-5c20-b386-f4211e085e21",
+    "7182ccf9-5ea0-56c5-8e4d-b57f2500d29e"
   ]
 }

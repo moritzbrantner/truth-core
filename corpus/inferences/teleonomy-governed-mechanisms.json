@@ -1,7 +1,9 @@
 {
-  "id": "INF-TELEONOMY-GOVERNED-MECHANISMS",
+  "id": "65d2d8e4-b34b-5c73-8520-98eda751fe6a",
+  "label": "The closed facts about the selection filter and the coupling…, by Finite model construction or…",
+  "legacy_id": "INF-TELEONOMY-GOVERNED-MECHANISMS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TELEONOMY-GOVERNED-MECHANISMS",
+  "output_statement_id": "0cb5a545-3c8c-5faa-be9e-6fc969266c5c",
   "rule": "finite_model_construction_or_composition",
   "meaning": "Exactly the same selection filter and coupling dynamics coexist with broad immanent tending and one intelligent director. Thus mechanism alone implies neither atheism nor rejection of broad final causality. Logical compatibility, not an attributed theological interpretation.",
   "assumption_statement_ids": [],

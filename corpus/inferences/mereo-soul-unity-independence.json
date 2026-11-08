@@ -1,7 +1,9 @@
 {
-  "id": "INF-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "id": "dc3d5550-b302-5dc0-84d8-fed57f3d07b3",
+  "label": "Within a finite two-phase material-turnover signature, a vitalist…, by Explicit finite model…",
+  "legacy_id": "INF-MEREO-SOUL-UNITY-INDEPENDENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "output_statement_id": "ced7c764-2125-5f69-8fe6-614b88095f63",
   "rule": "explicit finite model construction",
   "meaning": "Instantiate the same complete material and process relations with three distinct assignments to two primitive metaphysical predicates, then exhibit both observational equivalences and the divergent unity/soul assignments.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-ORDERS-KNOWABILITY-A",
-  "statement_id": "STMT-UNIVERSAL-EXPLANATORY-PARTICULAR-SENSIBLE-KNOWABILITY",
-  "source_id": "ARIST-PHYS",
+  "id": "546a076d-b878-581f-9919-5e6fcdda9c91",
+  "label": "Aristotle, Physics I.5, 189a5-9: Universals are more knowable in the order of account, while…",
+  "legacy_id": "ARIST-PHYS-189A-ORDERS-KNOWABILITY-A",
+  "statement_id": "00739e8d-415f-58e9-ba42-82fc86e70212",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 189a5-9",
   "interpretation": "Aristotle distinguishes relative orders of knowability: universals by account and particulars by sense. Neither side is promoted to unqualified epistemic priority.",
   "status": "formalized"

@@ -1,18 +1,20 @@
 {
-  "id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
+  "label": "At the reading world w, whatever causes the necessity of something other than itself is CONCRETE_6…",
+  "legacy_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
   "paraphrase": "Open bridge, not attributed to any source: at the reading world w, whatever causes the necessity of something other than itself is concrete, exists at w and stands in the profile's selected relation at w to it. An absent or non-concrete cause of necessity would falsify it.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.NecessityCausesAreActualConcreteGrounds",
   "definition_ids": [
-    "DEF-ROUTE-BRIDGE-MODAL-READING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "30dfba72-8196-542a-85d9-d2e98d7f11c5",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CAUSE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
+  "id": "75b40a55-84b2-5744-8898-7e699d034223",
+  "label": "For the SAME supplied per-se link, the old accessibility/WF premise holds or an actual Nat-indexed…",
+  "legacy_id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
   "paraphrase": "For the SAME supplied per-se link, the old accessibility/WF premise holds or an actual Nat-indexed descending series exists. Members need not be distinct, so cycles are included. Explicit-EM coverage composes the old classical-choice coincidence theorem; it establishes neither branch for a real causal relation.",
   "lean_declaration": "TruthCore.Causality.RegressRivalCoverage.RegressFork",
   "definition_ids": [
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES"
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "21910345-6932-5931-8953-493c8f7e1000"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

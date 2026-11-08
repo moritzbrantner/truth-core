@@ -1,7 +1,9 @@
 {
-  "id": "INF-STRENGTH-CAUSE-NO-CAUSE-CONTROL",
+  "id": "724eb295-154e-5a49-9e41-853516436fa4",
+  "label": "With every Bool entity generated and no causal pairs, the local…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-CAUSE-NO-CAUSE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CAUSE-READINGS-NO-CAUSE-DELTA-CONTROL",
+  "output_statement_id": "aafc7343-c635-52fa-8947-0542956ee8af",
   "rule": "typed_strength_comparison",
   "meaning": "The empty-cause Bool control has D but not W, so D alone is not the strong principle.",
   "assumption_statement_ids": [],

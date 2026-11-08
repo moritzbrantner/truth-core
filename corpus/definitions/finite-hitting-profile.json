@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-HITTING-PROFILE",
+  "id": "6f1b9a55-01d5-5894-95fc-f067077e2bda",
+  "label": "FINITE_HITTING_1, finite possible…: Hitting p supplies a finite list with at least one member…",
+  "legacy_id": "DEF-FINITE-HITTING-PROFILE",
   "term": "finite hitting, finite possible population and compact profile space",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.FiniteHitting.Hitting",

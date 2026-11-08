@@ -1,7 +1,8 @@
 {
-  "id": "TERM-SENSE-FORKS-4-CONTROLS",
+  "id": "6df6e803-d83f-5fca-b4ca-3b714defa5a1",
   "label": "Controls for the MUTABLE and GOD sense forks",
-  "argument_id": "TERM-SENSE-FORKS-4-CONTROLS",
+  "legacy_id": "TERM-SENSE-FORKS-4-CONTROLS",
+  "argument_id": "5dc3bc1b-77b5-59b0-a49c-a6fc1849d4d7",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.termSenseForks4Controls",

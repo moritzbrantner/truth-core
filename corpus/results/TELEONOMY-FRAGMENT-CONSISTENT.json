@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-FRAGMENT-CONSISTENT",
-  "argument_id": "TELEONOMY-FRAGMENT-CONSISTENT",
+  "id": "0c7acbfc-c702-58ce-8688-d1a33a7ee7f2",
+  "label": "Three independently verified concrete constructions each hold: the finite differential-retention…",
+  "legacy_id": "TELEONOMY-FRAGMENT-CONSISTENT",
+  "argument_id": "db44f6ba-2ef2-5bcb-a528-205e349e2804",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.FragmentConsistent.fragmentConsistent",

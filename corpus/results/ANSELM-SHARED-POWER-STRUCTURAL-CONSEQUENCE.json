@@ -1,6 +1,8 @@
 {
-  "id": "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
-  "argument_id": "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+  "id": "427ae645-aa09-54c0-8d95-6b12f26974cb",
+  "label": "One same candidate c is a through-source…, from There exists one c such that every x… and 1 more",
+  "legacy_id": "ANSELM-SHARED-POWER-STRUCTURAL-CONSEQUENCE",
+  "argument_id": "a55c0ace-ad53-5419-a7e4-072af0d7beb3",
   "challenge_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.Solution",
   "theorem": "TruthCore.Results.Explanation.AnselmCommonSourceAudit.forgetPower",

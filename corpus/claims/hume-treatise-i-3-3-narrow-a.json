@@ -1,18 +1,20 @@
 {
-  "id": "HUME-TREATISE-I-3-3-NARROW-A",
-  "statement_id": "STMT-HUME-NARROW-IDEAS-WITHHOLDING",
-  "source_id": "HUME-TREATISE",
+  "id": "1610c5ed-7430-59ed-a338-7d9858b8107d",
+  "label": "David Hume, A Treatise of Human Nature…: In the bounded I.3.3 §3 reading: the description of an…",
+  "legacy_id": "HUME-TREATISE-I-3-3-NARROW-A",
+  "statement_id": "b92eeb0b-4312-5505-8389-cd279b3c64e4",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.3, §3 (SBN 79–80)",
   "interpretation": "The passage separates the ideas of cause and beginning and says this separation involves no contradiction refutable by reasoning from mere ideas. We record only that bounded nondemonstrability conclusion. The words about actual separation being so far possible also motivate stronger readings, but this claim does not endorse an unrestricted metaphysical bridge, its necessity, or C(¬H)/C(MC). §§1–7 and §§8–9 were read as context; §§5–7 reject converting no cause into self-cause or nothing-as-cause. Parameterization marks the unimplemented account of mere-ideas refutation, not a proof of historical fidelity.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
-    "DEF-HUME-TEST-DEMONSTRABILITY",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+    "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

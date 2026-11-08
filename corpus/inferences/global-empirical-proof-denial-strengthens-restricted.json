@@ -1,9 +1,11 @@
 {
-  "id": "INF-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "id": "cc236225-8c8e-5147-853d-e76dcc0acd30",
+  "label": "No target in the independently supplied scope has a finite satisfiable…, by Constructive-proof (2)",
+  "legacy_id": "INF-GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
   "input_statement_ids": [
-    "STMT-EMPIRICAL-PROOF-GLOBAL-DENIAL"
+    "1e9fc224-a6cf-52cd-adc1-c08bcf525104"
   ],
-  "output_statement_id": "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL",
+  "output_statement_id": "102172a9-d6ae-5370-a0c8-f1c3437cef1e",
   "rule": "constructive-proof",
   "meaning": "Logical strength instantiation: global finite-observation proof denial implies its restriction to an independently supplied scope. The control refutes the converse. No historical global skeptic or proof standard adoption.",
   "assumption_statement_ids": [],

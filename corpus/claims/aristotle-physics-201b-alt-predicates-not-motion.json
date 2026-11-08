@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION-A",
-  "statement_id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
-  "source_id": "ARIST-PHYS",
+  "id": "668eaa21-e65b-590e-9c19-6690417ca23b",
+  "label": "Aristotle, Physics III.2, 201b19-24: Motion is not identical with difference, inequality, or…",
+  "legacy_id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION-A",
+  "statement_id": "d2dd07b2-b867-54a1-8133-aed50fc90ed8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.2, 201b19-24",
   "interpretation": "Conclusion reading of Aristotle's rejection of proposed classifications of motion as difference, inequality, or non-being. Predicate coextension is used only as a weak formal test of the proposed identification, not as a general theory of metaphysical identity.",
   "status": "formalized"

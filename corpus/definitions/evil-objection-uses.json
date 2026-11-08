@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EVIL-OBJECTION-USES",
+  "id": "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+  "label": "Problem-of-evil use modes and…: For fixed Critic c and Rowe Sig s, OwnTruePremise c is c.Holds…",
+  "legacy_id": "DEF-EVIL-OBJECTION-USES",
   "term": "problem-of-evil use modes and remaining use",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.RemainingUse",

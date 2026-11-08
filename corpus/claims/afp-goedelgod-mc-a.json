@@ -1,11 +1,13 @@
 {
-  "id": "AFP-GOEDELGOD-MC-A",
-  "statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "b4dc45d0-9c35-5d47-a835-e2f1d8523ffb",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Modal collapse: at every world, whatever proposition is…",
+  "legacy_id": "AFP-GOEDELGOD-MC-A",
+  "statement_id": "f8207978-1cbb-51fd-921f-b283c1dbf9a2",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, MC: \"[∀(λΦ.(Φ m→ (□ Φ)))]\"",
   "interpretation": "Lemma MC in the theory's section 'Modal Collapse': the theory says Gödel's axioms 'have been criticized for entailing the so-called modal collapse' and that the prover Satallax confirms it, but it leaves the lemma unproved in Isabelle (oops). The claim attributes only that the theory states MC as a consequence its axioms are reported to entail, not an Isabelle proof of it. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-QML-KB-NECESSITY"
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "CC100-123-CONDITIONAL-PROBABLE-GOD",
-  "statement_id": "STMT-CC100-123-CONDITIONAL-PROBABLE-GOD",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "b6b6d37d-d456-5342-85b2-9bea709ada7c",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the preceding intrinsic-quality, conscious-state…",
+  "legacy_id": "CC100-123-CONDITIONAL-PROBABLE-GOD",
+  "statement_id": "d2c99f76-d59f-56d4-8770-43f98566c1cb",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.288, argument #123 Idealism, step 5 under steps 1–4",
   "interpretation": "This is the displayed probable conclusion retained conditionally, not actual/necessary existence, a numeric posterior or a same selected concrete God witness. Best explanation-to-probable existence remains an open evidential bridge; probably is not certainty. Attribution is to McIntosh’s presentation only, not unread Berkeley/Adams/Hunter/Spiegel works referenced on p289. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+    "f0e96f0e-d540-57a3-bd89-4895863493b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

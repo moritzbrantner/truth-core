@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OPTIMAL-CREATION-OUTPUTS",
+  "id": "2d069414-67f7-5bba-b750-830f06caf84d",
+  "label": "Total optimal positive outputs: At the selected world and accessible worlds, every output is an…",
+  "legacy_id": "DEF-OPTIMAL-CREATION-OUTPUTS",
   "term": "total optimal positive outputs",
   "definition": "At the selected world and accessible worlds, every output is an optimal candidate, and every performance has at least one output. This is a positive-output restriction beyond at-most-one output or necessary willing. It excludes no-creation outcomes at performance worlds; no-output is not modeled as an existent effect. The original Option Bool none remains the source, not no creation.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-THOUGHT-CHANGE-CLASSIFICATION",
+  "id": "4791525a-9c60-59e7-bc94-bcf2f368f0af",
+  "label": "Every selected thought episode is change in the sense governed by the existing Physics III.1…",
+  "legacy_id": "STMT-THOUGHT-CHANGE-CLASSIFICATION",
   "paraphrase": "Every selected thought episode is change in the sense governed by the existing Physics III.1 reading; this is an open bridge, not a consequence of occurrence.",
   "lean_declaration": "TruthCore.Logic.ThoughtChangeSubject.ThoughtChangeBridge",
   "definition_ids": [
-    "DEF-THOUGHT-CHANGE-CLASSIFICATION"
+    "a298c8b6-9c0f-51a5-8778-9022c22622d5"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOUGHT-EPISODE-VS-CHANGE"
+    "42f77a36-a0f6-5b52-a428-1a7af0613503"
   ]
 }

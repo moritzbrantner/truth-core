@@ -1,6 +1,8 @@
 {
-  "id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
-  "argument_id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+  "id": "86c71efa-cac3-5bcd-b748-1ef0c0255de0",
+  "label": "There exists an actual concrete root n of the profile selected relation at w, n…, from asymmetry",
+  "legacy_id": "DIRECT-ESSE-ROOT-UNIQUENESS-FROM-ASYMMETRY",
+  "argument_id": "e9efc513-7257-5bdd-bf73-ae02782acd97",
   "challenge_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Challenge",
   "solution_module": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution",
   "theorem": "TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.uniqueRoot",

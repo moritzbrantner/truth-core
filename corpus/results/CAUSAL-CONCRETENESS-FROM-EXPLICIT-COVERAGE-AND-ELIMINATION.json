@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
-  "argument_id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "id": "da23017d-7eff-5baa-9370-b5a0c33ec15d",
+  "label": "Owner framework commitment: At the selected world w, every…, from explicit coverage and elimination",
+  "legacy_id": "CAUSAL-CONCRETENESS-FROM-EXPLICIT-COVERAGE-AND-ELIMINATION",
+  "argument_id": "25ce9863-88ad-53e6-9d11-e3c13b937102",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedElimination.namedElimination",

@@ -1,13 +1,15 @@
 {
-  "id": "ARIST-PHYS-242B23-CHAIN-UNITY-B",
-  "statement_id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
-  "source_id": "ARIST-PHYS",
+  "id": "ef8f238a-e7ed-58d8-b66f-14b4ee06d654",
+  "label": "Aristotle, Physics VII.1, 242b23-27: If each member of an infinite chain touches or is continuous…",
+  "legacy_id": "ARIST-PHYS-242B23-CHAIN-UNITY-B",
+  "statement_id": "9a36bdc4-75a6-5c39-9d70-88bd42ba38a5",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VII.1, 242b23-27",
   "interpretation": "Typed reading over chains indexed by the natural numbers: if each member touches or is continuous with the next, some one thing is made of them all (242b26: ὥστʼ εἶναί τι ἐξ ἁπάντων ἕν). The -A reading states the same step for the hypothesised chain with atoms. The reading does not say whether the one thing is finite or infinite; 242b27-29 says this makes no difference. Chains are injective (infinitely many distinct members: ἄπειρα τὰ κινοῦντα, 242b12; ἀπείρων ὄντων, 242b29), so a finite cycle of mutual movers is not such a chain and is not excluded. The sentence is said of the hypothesised chain; the reading generalizes it to every injective touching chain.",
-  "interpretation_of": "ARIST-PHYS-242B23-CHAIN-UNITY-A",
+  "interpretation_of": "4483357d-6127-5bb1-9f3e-8b51e6ac04af",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONTACT-OR-CONTINUITY",
-    "DEF-ONE-MADE-OF-ALL"
+    "f505cd6a-9513-51c4-a473-6b57637f3e8d",
+    "86ebf09a-e067-5524-8e72-db502ae5a9f4"
   ]
 }

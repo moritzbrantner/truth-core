@@ -1,11 +1,13 @@
 {
-  "id": "REL-OBJECTIVE-TRUTH-ACTUAL-STABLE-STRENGTHENS-TRUTH-COMPONENT",
+  "id": "2686634a-da19-5305-8873-08b6128b9129",
+  "label": "Analyst definition proposition: in this… strengthens Every sentence satisfying the supplied…",
+  "legacy_id": "REL-OBJECTIVE-TRUTH-ACTUAL-STABLE-STRENGTHENS-TRUTH-COMPONENT",
   "subject_kind": "statement",
-  "subject_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "subject_id": "326adc2f-b56d-58af-802e-9bf3a6f46c61",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT",
-  "verification_result_id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
-  "strictness_result_id": "OBJECTIVE-TRUTH-DEFINITION-CONTROLS",
+  "object_id": "40840c3d-90da-5237-b2a3-8ea9519b5c9c",
+  "verification_result_id": "489f716a-6306-5e51-be37-f46df5448b3f",
+  "strictness_result_id": "b0ae9897-6c8e-57de-8b92-d852600f9cf8",
   "note": "Actual-stable calibration entails the forward truth-component bridge under the same frame. The explicit actual-only and remaining controls have the bridge without actual-stable calibration. The external-evil composition uses only the weak bridge; no actual-stable commitment is silently imported."
 }

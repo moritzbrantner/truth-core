@@ -1,12 +1,14 @@
 {
-  "id": "STMT-AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
+  "id": "4cacfafa-814b-5055-9ff5-55e5fcc87ca4",
+  "label": "If several movers move together, none is a perfect mover; together they take the place of one…",
+  "legacy_id": "STMT-AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
   "paraphrase": "If several movers move together, none is a perfect mover; together they take the place of one perfect mover, which is unsuitable for the first mover because the perfect is prior to the imperfect.",
   "definition_ids": [
-    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+    "14ec3301-ad2c-58da-8095-c64bf229bb2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A8-POSSIBLE-NONEXISTENCE-LIMITING",
-  "statement_id": "STMT-NB-A8-POSSIBLE-NONEXISTENCE-LIMITING",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "a2fc3304-7c08-5633-a314-968d3f99d6c7",
+  "label": "Unattributed website author, Necessary…: Conditional on the selected affirmative report, the…",
+  "legacy_id": "NB-SURVEY-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+  "statement_id": "e3c69f86-c21a-5d9f-abdc-873b079fbb6b",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A8P3, complete possible-nonexistence question and affirmative-answer continuation; A8C step 3",
   "interpretation": "Keep the positive limitation report separate from P2’s negative report and source1’s definition. Main uses it at C3; the linked C2 alternate does not need this affirmative answer. Do not identify possible absence with current absence, a fact-reason, arbitrary entities’ contingency or the root structural limiting-principle proxy.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

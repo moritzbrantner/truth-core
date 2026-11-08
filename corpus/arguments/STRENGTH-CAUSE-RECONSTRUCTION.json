@@ -1,19 +1,21 @@
 {
-  "id": "STRENGTH-CAUSE-RECONSTRUCTION",
+  "id": "23054864-62af-5a7a-8f21-249e41215f70",
+  "label": "Anything that comes to be has some…, from Anything that comes to be has some CAUSE_2 and 1 more",
+  "legacy_id": "STRENGTH-CAUSE-RECONSTRUCTION",
   "premise_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-BROAD",
-    "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "915e3df5-0975-5461-9fd6-83094ab526f3",
+    "5c2aeb5a-042c-5fd6-999c-10ac39de6834"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "conclusion_statement_id": "9709d14f-1324-58f1-8889-1110881c5b44",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-RECONSTRUCTION"
+    "36d5329f-34f5-5851-8c43-a71d55215041"
   ],
   "meaning": "Under shared decidable identity, retain the broad principle witness when distinct; if that witness is the entity itself, use the local alternative-cause condition. No global irreflexivity is assumed.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

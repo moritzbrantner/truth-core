@@ -1,9 +1,11 @@
 {
-  "id": "REL-CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE-SUPPORTS-E3",
+  "id": "361b2cae-343e-5fc4-9e5f-02411e7d84d4",
+  "label": "Clement of Rome, First Corinthians 5.2-7… supports Cephas and at least one further disciple…",
+  "legacy_id": "REL-CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE-SUPPORTS-E3",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "CLEMENT-1COR-PILOT-CLEMENT-ENDURANCE",
+  "subject_id": "cdc85ef8-c13b-5465-80e0-2c28e9e38345",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E3"
+  "object_id": "c2f63731-873e-5e82-ad62-b6ba015aa508"
 }

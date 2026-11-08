@@ -1,6 +1,8 @@
 {
-  "id": "FIRST-WAY-SLICE-CONTROLS",
-  "argument_id": "FIRST-WAY-SLICE-CONTROLS",
+  "id": "6b56e320-bccc-5656-a862-f797bfa63ab8",
+  "label": "A universal conditional: under StrictForward, the link bridge, the time-sliced strong PER_SE_1…",
+  "legacy_id": "FIRST-WAY-SLICE-CONTROLS",
+  "argument_id": "e0bf885e-22fd-59ce-b937-aff2d5abd878",
   "challenge_module": "TruthCore.Results.Causality.TemporalPrimaVia.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.TemporalPrimaVia.Controls.controls",

@@ -1,6 +1,8 @@
 {
-  "id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
-  "argument_id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "id": "3ed2829f-bde0-5350-a53a-d7ba6ce0facf",
+  "label": "What is its own subsistent being is INFINITE_1, from identity scoped reception",
+  "legacy_id": "SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION",
+  "argument_id": "0a26eff0-44d9-531a-bb1a-713649f6625d",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.InfinityFromIdentityScope.infinityFromIdentityScope",

@@ -1,11 +1,13 @@
 {
-  "id": "INF-UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
+  "id": "b17ca09a-8eb3-5142-8f3a-c294925dc05f",
+  "label": "Exact negation of the eligibility-restricted own-essence principle, by Constructive-proof",
+  "legacy_id": "INF-UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
   "input_statement_ids": [
-    "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
-    "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE",
-    "STMT-SELECTED-SOUL-IS-IN-RESTRICTED-RECEPTION-SCOPE"
+    "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
+    "60b32382-3cf4-541b-88af-0c80a47d56a2",
+    "11745172-e7ef-5fcf-8195-864df4ff53d2"
   ],
-  "output_statement_id": "STMT-ELIGIBLE-OWN-ESSENCE-RECEPTION-PRINCIPLE-FAILS",
+  "output_statement_id": "e1b6e0ee-f874-56e9-96fd-c456e59ad550",
   "rule": "constructive-proof",
   "meaning": "The same countertuple defeats the scope-restricted law if that soul bearer is explicitly eligible; merely naming a restriction does not avoid the objection.",
   "assumption_statement_ids": [],

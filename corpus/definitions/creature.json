@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CREATURE",
+  "id": "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+  "label": "Creature: Creature x: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to…",
+  "legacy_id": "DEF-CREATURE",
   "term": "creature (creatura)",
   "definition": "`Creature x`: x is one of the things ST I q.13 a.5 calls creatures, which are ordered to God as to their principle and cause. In Lean it is an uninterpreted predicate on beings; only the open premise `OthersAreCreaturesReading Creature p` links it to the primary, by saying that everything other than p falls under it.",
   "basis": "stipulative",

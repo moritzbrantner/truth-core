@@ -1,6 +1,8 @@
 {
-  "id": "TRUTHMAKER-RESTRICTED-SEPARATION",
-  "argument_id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "id": "490e2769-1e74-5292-ae4b-8a7db71634ed",
+  "label": "In the existing truthmakers arena, existence-label coverage is sound, the existential fact is true…",
+  "legacy_id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "argument_id": "e5095b04-1dfe-59cd-b8e7-3466c39843cc",
   "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Challenge",
   "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Restricted.Solution",
   "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.restrictedSeparation",

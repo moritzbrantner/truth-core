@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
+  "id": "b62a64ab-ac11-569a-b8e8-de51a74b058f",
+  "label": "UNITING-CAUSE_3",
+  "legacy_id": "STMT-NOTHING-CAUSES-ITS-OWN-BEING",
   "paraphrase": "UNITING-CAUSE_3 (also BECOMING-BEING-CAUSE_3). OPEN analyst premise (attribution deferred): nothing causes its own being (no x with CausesIn x x esse). The esse instance of STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION; unlike that rival it is not refuted by a subject causing its proper accidents (navigation: ST I q.3 a.4 denies that a thing's essential principles suffice for its esse).",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingCausesItsOwnBeing",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE",
-    "DISAMB-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

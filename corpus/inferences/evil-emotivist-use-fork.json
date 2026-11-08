@@ -1,13 +1,15 @@
 {
-  "id": "INF-EVIL-EMOTIVIST-USE-FORK",
+  "id": "c42c24b4-8aae-5d07-b4bc-613b2935b40a",
+  "label": "The selected evil utterance is not true under the critic's strict truthless…, by Constructive-proof",
+  "legacy_id": "INF-EVIL-EMOTIVIST-USE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
-    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
-    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "5844b7cb-6430-54de-abab-6aec98e7f9b2",
+    "1ffc758d-f400-5e2a-9ad7-37f051fc2dc2",
+    "c13c7cac-faa8-5c54-b064-29c47ba049ae"
   ],
-  "output_statement_id": "STMT-EVIL-EMOTIVIST-USE-FORK",
+  "output_statement_id": "7c8e9ab3-9f99-5363-9dc9-2344f3a03cf2",
   "rule": "constructive-proof",
   "meaning": "Compose the existing external-emotivism theorem with the checked coverage-with-remainder result: under all four strict semantic bridges the own-true-premise branch is excluded, leaving internal challenge, affective protest or explicit remaining use. This classifies a limitation of one objection-use, not falsehood of emotivism or proof of God.",
   "assumption_statement_ids": [],

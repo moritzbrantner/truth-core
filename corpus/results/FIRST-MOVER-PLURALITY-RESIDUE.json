@@ -1,6 +1,8 @@
 {
-  "id": "FIRST-MOVER-PLURALITY-RESIDUE",
-  "argument_id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "id": "bd1550cd-c5ae-5b72-834a-e55fb04be10b",
+  "label": "For the supplied first-mover, act and…, from Numerically different individuals cannot… and 2 more",
+  "legacy_id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "argument_id": "7500dabc-7aa8-53ef-8462-77e210967420",
   "challenge_module": "TruthCore.Results.Causality.RootMultiplication.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootMultiplication.Solution",
   "theorem": "TruthCore.Results.Causality.RootMultiplication.residue",

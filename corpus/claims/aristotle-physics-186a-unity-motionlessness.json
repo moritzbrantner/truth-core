@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-186A-UNITY-MOTIONLESSNESS-A",
-  "statement_id": "STMT-UNITY-DOES-NOT-ENTAIL-MOTIONLESSNESS",
-  "source_id": "ARIST-PHYS",
+  "id": "241d2905-5f34-5cb2-8ea5-f05b6660dbd1",
+  "label": "Aristotle, Physics I.3, 186a16-19: Being one does not by itself entail being motionless",
+  "legacy_id": "ARIST-PHYS-186A-UNITY-MOTIONLESSNESS-A",
+  "statement_id": "ea731a33-d443-5dc6-943a-57c6e8fd0f47",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 186a16-19",
   "interpretation": "Aristotle rejects the transition from unity to motionlessness by pointing out that unified things can move and asking why the whole could not likewise move or alter. This records rejection of the entailment, not a proof that every unity moves.",
   "status": "formalized"

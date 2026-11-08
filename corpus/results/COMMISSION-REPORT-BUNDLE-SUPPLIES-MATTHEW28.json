@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
-  "argument_id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "id": "bada91b4-2461-55c9-a03c-626ab45a80b9",
+  "label": "The substance of the Matthew 28 commission goes…, from Report-to-event premise: the commission…",
+  "legacy_id": "COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28",
+  "argument_id": "ae3effcb-5121-5f22-8566-4a6427f853d4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Witness.reportsSupplyMatthew28",

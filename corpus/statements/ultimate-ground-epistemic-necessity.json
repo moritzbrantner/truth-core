@@ -1,19 +1,21 @@
 {
-  "id": "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY",
+  "id": "e519065f-2b96-5214-a506-54e42eb7c494",
+  "label": "Even when relevant local evidence, a genuinely reliable process and ordinary defeater conditions…",
+  "legacy_id": "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY",
   "paraphrase": "OPEN proposed bridge for the identified method and domain: even when relevant local evidence, a genuinely reliable process and ordinary defeater conditions are retained, absence of an adequate ultimate explanation defeats that method’s epistemic entitlement. This is an unattributed disputed additional norm, not entailed by the mathematical controls or asserted by Hume, Goldman, Lewis, Bird or Aquinas.",
   "definition_ids": [
-    "DEF-ULTIMATE-EXPLANATION-PROFILE",
-    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
-    "DEF-ULTIMATE-EXPLANATION-DECISION",
-    "DEF-REGULARITY-GROUND",
-    "DEF-REGULARITY-SCOPE",
-    "DEF-HUME-INDUCTION-RECORD",
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM"
+    "58d12f26-3402-5f67-b768-3c71f3381894",
+    "4f301d77-0699-5fbb-b931-41b20b839266",
+    "3ecfe3fd-61e4-58a3-adb3-483bf24f7a15",
+    "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+    "ce45a505-6455-5763-8552-3dd9e7e00b83",
+    "8eaba896-98d9-52a7-83c2-bd44d790f08b",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b"
   ],
   "disambiguation_ids": [
-    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE",
-    "DISAMB-REGULARITY-CAUSAL-SENSES"
+    "215a6dac-a98b-578e-be77-4a76d14d8671",
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe",
+    "f4a648a1-553b-5318-b5c7-df0798634816"
   ]
 }

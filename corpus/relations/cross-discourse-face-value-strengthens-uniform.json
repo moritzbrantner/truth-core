@@ -1,10 +1,12 @@
 {
-  "id": "REL-CROSS-DISCOURSE-FACE-VALUE-STRENGTHENS-UNIFORM",
+  "id": "72bb0c06-56a0-581c-b4ee-f57db16c44ec",
+  "label": "Stronger analyst profile combining local… strengthens Whenever a selected religious sentence is…",
+  "legacy_id": "REL-CROSS-DISCOURSE-FACE-VALUE-STRENGTHENS-UNIFORM",
   "subject_kind": "statement",
-  "subject_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "subject_id": "b917f813-5020-5506-b7cd-eac478ddff72",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
-  "verification_result_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "object_id": "1ff9aed4-fa1d-56e0-b9b8-ef79e8395e8e",
+  "verification_result_id": "d21b3680-58a7-59e7-831c-419885389264",
   "note": "Sole-premise checked projection between new analyst profiles; no old source statement is relabelled or strengthened."
 }

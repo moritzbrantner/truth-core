@@ -1,7 +1,9 @@
 {
-  "id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
-  "statement_id": "STMT-CARNAP-EXTERNAL-QUESTIONS-PRACTICAL",
-  "source_id": "CARNAP-ESO",
+  "id": "e9ddfb3a-d40f-596b-9932-265e785499e1",
+  "label": "Rudolf Carnap, \"Empiricism §II, p. 4: Carnap 1950: questions about the existence or reality of a…",
+  "legacy_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "statement_id": "6f3121b6-0782-5463-b5f2-73f052d79cbf",
+  "source_id": "d1ff237f-70ee-5ad8-897f-e4f0fa82d335",
   "locator": "§II, p. 4, \"not a theoretical question as their formulation seems to suggest, but rather a practical question\"",
   "interpretation": "Variant V4: the choice of a linguistic framework, and with it of what counts as meaningful, is a practical decision guided by efficiency, fruitfulness and simplicity, not a truth. On p. 5: 'there is no such belief or assertion or assumption, because it is not a theoretical question.'",
   "attribution": "The passage states that external questions about the reality of a framework are not theoretical but practical questions about accepting a form of language, and that accepting it is no belief, assertion or assumption, which is the premise.",

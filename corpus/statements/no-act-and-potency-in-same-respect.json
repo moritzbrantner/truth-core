@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "id": "f6003a4c-fc27-5b0a-acf9-97515d131755",
+  "label": "Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct and InPotency…",
+  "legacy_id": "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT",
   "paraphrase": "Negation of the Scotist rival STMT-ACT-AND-POTENCY-IN-SAME-RESPECT on the same InAct and InPotency: nothing is in act and in potency in one respect.",
   "lean_declaration": "TruthCore.Causality.AristotelianRivalRefutations.NoActAndPotencyInSameRespect",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

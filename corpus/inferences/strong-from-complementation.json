@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRONG-FROM-COMPLEMENTATION",
+  "id": "a05dc18a-05a4-5347-a8b7-1155cd8d7b91",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y…, by Typed-partial-order-exact-rem…",
+  "legacy_id": "INF-STRONG-FROM-COMPLEMENTATION",
   "input_statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27"
   ],
-  "output_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "output_statement_id": "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
   "rule": "typed-partial-order-exact-remainder-and-join",
   "meaning": "Take the exact remainder of x minus y. Reflexive self-parthood shows it is a part of x disjoint from y, supplying the existing strong-supplementation witness. No sum-formation assumption is used.",
   "assumption_statement_ids": [],

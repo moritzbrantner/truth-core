@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-WORLD-GAP-CONTROLS",
-  "argument_id": "ACTUAL-WORLD-GAP-CONTROLS",
+  "id": "ed5b401c-312a-58ab-afe5-2e5df01cd505",
+  "label": "On shared worlds and tagged #735 causal forms, with every world meeting the local record condition",
+  "legacy_id": "ACTUAL-WORLD-GAP-CONTROLS",
+  "argument_id": "a37ac625-ac91-59d5-9ca0-a6c45086aa8e",
   "challenge_module": "TruthCore.Results.Explanation.ActualWorldGap.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ActualWorldGap.Solution",
   "theorem": "TruthCore.Results.Explanation.ActualWorldGap.controls",

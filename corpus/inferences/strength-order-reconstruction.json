@@ -1,10 +1,12 @@
 {
-  "id": "INF-STRENGTH-ORDER-RECONSTRUCTION",
+  "id": "5ae46793-4648-55fd-a8c2-b7e68b08d0fb",
+  "label": "For the supplied mathematical linear order and x,y, y is strictly…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-ORDER-RECONSTRUCTION",
   "input_statement_ids": [
-    "STMT-STRENGTH-ORDER-AT-LEAST",
-    "STMT-STRENGTH-ORDER-UNEQUAL"
+    "d104c7e0-3e5b-53d2-9437-8e8a1024be8d",
+    "9b7e39ea-f8d1-5762-add4-8d3b880652f1"
   ],
-  "output_statement_id": "STMT-STRENGTH-ORDER-GREATER",
+  "output_statement_id": "51bb0eeb-f3fb-5ce1-9e11-a127788f8506",
   "rule": "typed_strength_comparison",
   "meaning": "Apply pinned Mathlib lt_of_le_of_ne with the correctly oriented inequality in the same supplied LinearOrder.",
   "assumption_statement_ids": [],

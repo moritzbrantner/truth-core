@@ -1,6 +1,8 @@
 {
-  "id": "MANY-CAUSE-ONE-PER-ACCIDENS",
-  "source_id": "AQUINAS-ST",
+  "id": "e0dbfc8e-ac4c-5cc9-b2ce-55ace10f5a9c",
+  "label": "Read and formalize the reason Aquinas gives for one orderer: one is the per se cause of one, and…",
+  "legacy_id": "MANY-CAUSE-ONE-PER-ACCIDENS",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.11 a.3 co., third proof: per se unius unum est causa, et multa non sunt causa unius nisi per accidens, inquantum scilicet sunt aliquo modo unum",
   "priority": 436,
   "goal": "Read and formalize the reason Aquinas gives for one orderer: one is the per se cause of one, and many cause one only per accidens, insofar as they are in some way one. Define per se versus per accidens causing so that it can differ between a producing pair and an idle pair that occur at the same scenarios, and test it against a plural rival and one source under the same standard.",

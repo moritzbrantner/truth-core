@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q19-A1-DIVINE-WILL-NOT-EXTERNALLY-MOVED",
-  "statement_id": "STMT-DIVINE-WILL-NOT-MOVED-BY-ANOTHER",
-  "source_id": "AQUINAS-ST",
+  "id": "c051288f-18fe-5239-99c7-14f8e789dbfb",
+  "label": "Thomas Aquinas, Summa theologiae I q.19 a.1…: Divine willing is divine being; divine will is not…",
+  "legacy_id": "AQUINAS-ST-I-Q19-A1-DIVINE-WILL-NOT-EXTERNALLY-MOVED",
+  "statement_id": "8a24e93a-016e-54ef-a34c-95fff4f077a9",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.19 a.1 co.; ad 3",
   "interpretation": "Read the reply with the corpus: the language of motion for understanding and willing is qualified, and no passive creaturely appetite or transition from unrealized potency is asserted of God.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-DIVINE-WILL-ACT"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "801225d9-ddd5-540f-96db-22778e09cd6e"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"
+    "1d765cae-eca9-558f-9542-8291df359058"
   ]
 }

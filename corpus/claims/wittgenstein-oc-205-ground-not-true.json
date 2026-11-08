@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-OC-205-GROUND-NOT-TRUE",
-  "statement_id": "STMT-OC-IF-TRUTH-IS-GROUNDED-GROUND-NOT-TRUE",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "bd00e33d-144d-50cf-97b0-941676699bea",
+  "label": "Ludwig Wittgenstein, Über Gewißheit §205…: Über Gewißheit §205, conditional: if the true is what…",
+  "legacy_id": "WITTGENSTEIN-OC-205-GROUND-NOT-TRUE",
+  "statement_id": "17db4fcc-33b9-5561-871d-949b6e119af7",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§205, Wenn das Wahre das Begründete ist, dann ist der Grund nicht wahr, noch falsch",
   "interpretation": "§205: 'Wenn das Wahre das Begründete ist, dann ist der Grund nicht wahr, noch falsch.' Recorded as a conditional only; whether Wittgenstein accepts the antecedent is the disputed question behind the 'neither true nor false' reading of hinges.",
   "status": "formalized",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
+  "id": "d3b970fa-abdd-553e-baa9-0a337fa24c26",
+  "label": "Causal realization of outputs: At every v, if a is performed there and x is its output, then the…",
+  "legacy_id": "DEF-SELECTED-EFFECT-REALIZED-OUTPUT",
   "term": "causal realization of outputs",
   "definition": "At every v, if a is performed there and x is its output, then the selected source Causes x at v. SoundDistinctCauses is separately required to infer existence of the effect from such a causal edge.",
   "basis": "stipulative",

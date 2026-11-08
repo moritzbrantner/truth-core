@@ -1,6 +1,8 @@
 {
-  "id": "EXPLANATORY-SYMMETRY-CORE",
-  "argument_id": "EXPLANATORY-SYMMETRY-CORE",
+  "id": "9564115f-77a3-5bd2-8aac-94e1ac2ce0d2",
+  "label": "No frame has two worlds a and v that agree on the truth of the whole base, with base-fixed…",
+  "legacy_id": "EXPLANATORY-SYMMETRY-CORE",
+  "argument_id": "b9468848-a1d7-5f69-8b41-2e921059bc3e",
   "challenge_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ExplanatorySymmetry.Solution",
   "theorem": "TruthCore.Results.Explanation.ExplanatorySymmetry.core",

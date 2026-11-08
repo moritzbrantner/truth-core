@@ -1,15 +1,17 @@
 {
-  "id": "STRENGTH-ORDER-RECONSTRUCTION",
+  "id": "834c984f-52e1-5961-b568-4125be6b4cd8",
+  "label": "For the supplied mathematical linear…, from For the supplied mathematical linear order… and 1 more",
+  "legacy_id": "STRENGTH-ORDER-RECONSTRUCTION",
   "premise_statement_ids": [
-    "STMT-STRENGTH-ORDER-AT-LEAST",
-    "STMT-STRENGTH-ORDER-UNEQUAL"
+    "d104c7e0-3e5b-53d2-9437-8e8a1024be8d",
+    "9b7e39ea-f8d1-5762-add4-8d3b880652f1"
   ],
-  "conclusion_statement_id": "STMT-STRENGTH-ORDER-GREATER",
+  "conclusion_statement_id": "51bb0eeb-f3fb-5ce1-9e11-a127788f8506",
   "inference_ids": [
-    "INF-STRENGTH-ORDER-RECONSTRUCTION"
+    "5ae46793-4648-55fd-a8c2-b7e68b08d0fb"
   ],
   "meaning": "Apply pinned Mathlib lt_of_le_of_ne with the correctly oriented inequality in the same supplied LinearOrder.",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

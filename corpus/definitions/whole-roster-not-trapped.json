@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WHOLE-ROSTER-NOT-TRAPPED",
+  "id": "c2c8b139-fb8a-5ce2-8add-ec55a60d8b0b",
+  "label": "Whole actual concrete roster not\u2026: If the entire actual concrete roster at w is nonempty, that\u2026",
+  "legacy_id": "DEF-WHOLE-ROSTER-NOT-TRAPPED",
   "term": "whole actual concrete roster not trapped in borrowing",
   "definition": "If the entire actual concrete roster at w is nonempty, that entire roster is not a borrowing Trap under the recorded selected grounding graph, with intrinsic interpreted as graph sourcehood. Only Set.univ is tested: no condition on proper subsets, all-branch well-foundedness or finite chain lengths is imposed. This graph-source interpretation and its application to real existential explanation remain open, and are not automatically identified with the owner\u2019s verbal explanatory commitment.",
   "basis": "stipulative",

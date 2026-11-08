@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "id": "9c80cf89-1b2a-5adf-8c73-28fd9bb8342b",
+  "label": "Three populated Bool controls: scoped scientism coexists with a nonempirical established claim…",
+  "legacy_id": "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
   "paraphrase": "Three populated Bool controls: scoped scientism coexists with a nonempirical established claim outside scope and an empirical established claim inside; pointwise coverage can hold nonvacuously while all-established coverage fails; existential transfer can hold nonvacuously while pointwise coverage fails. These are exact predicate profiles, not a complete theory of knowledge.",
   "lean_declaration": "TruthCore.Logic.ScientismScopeBoundary.Controls",
   "definition_ids": [
-    "DEF-SCIENTISM-EPISTEMIC-FRAME",
-    "DEF-SCIENTISM-ESTABLISHED-SCOPE",
-    "DEF-SCIENTISM-POINTWISE-COUNTEREXAMPLE-SCOPE",
-    "DEF-SCIENTISM-EXISTENTIAL-COUNTEREXAMPLE-SCOPE"
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d",
+    "2a8bc285-c92e-5e55-a838-077a76b658fe",
+    "64baccd8-5a16-5bcf-8bd8-7ee81d520732",
+    "a84b7d0d-696d-55ed-9598-62ec8db09117"
   ]
 }

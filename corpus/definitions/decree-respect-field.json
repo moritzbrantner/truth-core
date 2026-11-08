@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DECREE-RESPECT-FIELD",
+  "id": "9f05ee43-73f8-5158-a2f2-ab3c6046c6cc",
+  "label": "Decree as a respect in a field: A respect d in a field O true of g at w, at most one field member…",
+  "legacy_id": "DEF-DECREE-RESPECT-FIELD",
   "term": "decree as a respect in a field",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Decreed",

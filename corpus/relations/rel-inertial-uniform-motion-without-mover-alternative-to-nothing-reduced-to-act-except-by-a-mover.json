@@ -1,9 +1,11 @@
 {
-  "id": "REL-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "id": "6469f382-df0e-54a4-972a-335472802938",
+  "label": "Inertial rival: some body is being moved… alternative to Whatever is being moved in a respect is…",
+  "legacy_id": "REL-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-ALTERNATIVE-TO-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
   "subject_kind": "statement",
-  "subject_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "subject_id": "e97ade2e-b3a3-538e-95b1-131e3b7f4961",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "object_id": "4a952b96-be5f-5493-8277-985248151d01",
   "note": "Class: not yet attackable; a rival to the reading of the premise more than a sourced counterexample. Unattributed: Newton's first law (STMT-NEWTON-LEX-I-CHANGE-OF-STATE-ONLY-BY-IMPRESSED-FORCE, sourced) is conditional and requires an impressed force only for a change of state; it asserts no force-free moving body. The rival adds that such a body exists and that its uniform motion is a being moved in the sense of DEF-MOTION-AS-REDUCTION. Thomists divide on the reply (#497, inertia bridge): Bulliot (1894, as reported by Garrigou-Lagrange 1914, p. 250) accepts that uniform motion is a state and no reduction from potency to act; Garrigou-Lagrange holds that it is a becoming and denies instead that it continues without a mover (pp. 252-254, 760-761). Result INERTIAL-OBJECTION-YIELDS-RIVAL derives this rival from the bundle TruthCore.Comparison.Inertia.InertialObjection (Newton's Def. III-IV, sourced; a persevering body and a mover bridge, unattributed; the becoming reading, sourced to Garrigou-Lagrange) with STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT, and certifies that on the state reading the Newtonian commitments and this premise are compatible (DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING). Still missing: a source that asserts the existential, and a pinned modern statement of the objection."
 }

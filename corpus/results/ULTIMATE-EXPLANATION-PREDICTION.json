@@ -1,6 +1,8 @@
 {
-  "id": "ULTIMATE-EXPLANATION-PREDICTION",
-  "argument_id": "ULTIMATE-EXPLANATION-PREDICTION",
+  "id": "3d8486c8-76ac-5adb-bfcb-50f9ca7614cc",
+  "label": "At each observed cutoff, a supplied stable copy-law profile has a nonempty evidence cell, exact…",
+  "legacy_id": "ULTIMATE-EXPLANATION-PREDICTION",
+  "argument_id": "40ec5f77-408a-5382-82b9-960d8a9dfe5c",
   "challenge_module": "TruthCore.Results.Epistemology.UltimateExplanation.Challenge",
   "solution_module": "TruthCore.Results.Epistemology.UltimateExplanation.Solution",
   "theorem": "TruthCore.Results.Epistemology.UltimateExplanation.certificate",

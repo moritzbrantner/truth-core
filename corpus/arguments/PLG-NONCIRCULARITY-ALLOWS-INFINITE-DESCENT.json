@@ -1,13 +1,15 @@
 {
-  "id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "id": "c05fdcc2-ab14-5ab3-876d-8b45378091cc",
+  "label": "There is a PLG-consistent set of sequents over the natural numbers from which n + 1 ≺ n is…",
+  "legacy_id": "PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT",
+  "conclusion_statement_id": "73707346-9ddf-5c21-92d7-952739a9dc2b",
   "inference_ids": [
-    "INF-PLG-NONCIRCULARITY-ALLOWS-INFINITE-DESCENT"
+    "6d60d00b-9462-511c-bcf7-9b07e29fb407"
   ],
   "meaning": "A countermodel showing that PLG's acyclicity does not extend to well-foundedness on infinitely many atoms: the consistent assumptions n + 1 ≺ n (all n) derive an infinite descending chain of strict ground. With PLG-CONSISTENT-STRICT-GROUND-ACYCLIC this locates the gap exactly: a no-infinite-descent premise about ground is not supplied by the pure logic of strict ground and must be added and defended separately. It is not a claim that actual ground descends infinitely, and it uses a stipulated rank interpretation rather than Fine's fact semantics.",
   "definition_ids": [
-    "DEF-FINE-PLG-DERIVABILITY",
-    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+    "df5284cb-8f1f-5b61-9b1c-ee4c1544b469",
+    "5d9a94e0-d64b-53ca-b9cc-504735060e0a"
   ]
 }

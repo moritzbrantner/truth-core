@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHURCH-CRITERION-CALIBRATION",
+  "id": "ae24d537-d95b-5b41-a7be-d43fe4ca46c4",
+  "label": "Selected Church criterion calibration: A selected Church predicate and a spiritual-community…",
+  "legacy_id": "DEF-CHURCH-CRITERION-CALIBRATION",
   "term": "selected Church criterion calibration",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.ChurchDefinitions.JointAspectCriterion",

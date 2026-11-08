@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-MODAL-GROUNDING-UNION",
+  "id": "7314147f-f3f5-5db9-9075-0d9a3e69ecaa",
+  "label": "Modal grounding union elimination rule under the #477 loop: actual reflexivity, no contingent…",
+  "legacy_id": "CONFIG-MODAL-GROUNDING-UNION",
   "description": "Modal grounding union elimination rule (#542) under the #477 loop: actual reflexivity, no contingent ground of a necessary bearer and a well-founded cross-world union of necessary-to-necessary support, with a necessary bearer and explicit excluded middle, yield a necessarily underived bearer; edge invariance is not needed. Selections drop each union-route premise against the registered finite controls (rotating cross-world cycle, switching contingent ground, varying edges). Certified witnesses outside this finite-model registry: PARITY-UNION-REGRESS (Nat carrier: two locally depth-one worlds whose cycle-free union has an infinite descending regress) and FINITE-NECESSARY-UNION-CLASSIFICATION (classical, so outside this zero-axiom profile). Configurations are inputs; statuses are computed only from live certificates. No premise is established and no root premise closes. #950 adds an explicitly OPEN equivalent common-rank presentation via an arbitrary WF codomain. It is not a defense or a weaker premise. The three new configuration bridge certificates remain zero-axiom; the separate parity comparison uses the approved Mathlib axiom set.",
-  "seed_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "seed_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "semantics": {
     "id": "necessarily-underived-esse-support-shared-ontic",
     "logic": "Constructive Lean propositions; excluded middle enters only as the explicit statement STMT-EXCLUDED-MIDDLE. Certificates are zero-axiom.",
@@ -43,69 +45,69 @@
       "w0"
     ],
     "applications": {
-      "STMT-KANT-CONVERSION-NECESSARY-WITNESS": [
+      "c778a6ca-e756-56ac-aa68-c81e9883ca7c": [
         "World",
         "Being",
         "m",
         "w0"
       ],
-      "STMT-ACTUAL-MODAL-REFLEXIVITY": [
+      "2b20b5af-d653-56ba-8001-35903fb3d1ea": [
         "World",
         "Being",
         "m",
         "w0"
       ],
-      "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY": [
-        "World",
-        "Being",
-        "m",
-        "supportsEsse",
-        "w0"
-      ],
-      "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT": [
+      "96d25c42-71aa-5fa0-841d-9aa62d91e1be": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-EXCLUDED-MIDDLE": [],
-      "STMT-NECESSARILY-UNDERIVED": [
+      "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-NO-NOVEL-NECESSARY-SUPPORT": [
+      "ee4ab504-c8fe-59bc-bc96-7cbeefed6410": [],
+      "d236f537-dd57-50ec-9676-cee87b19242a": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT": [
+      "bd983df2-058a-5503-89a1-bbebe87f958b": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-NECESSARY-PREDECESSOR-LIFTING": [
+      "47a97912-335f-52f7-a715-63592368f0fe": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-NONREFUTABLE-NECESSARILY-UNDERIVED": [
+      "2a9378b4-3dad-591b-a88e-1907a79f1fa5": [
         "World",
         "Being",
         "m",
         "supportsEsse",
         "w0"
       ],
-      "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK": [
+      "2bd3f370-44d6-53eb-b3f4-b4b07a9a7e80": [
+        "World",
+        "Being",
+        "m",
+        "supportsEsse",
+        "w0"
+      ],
+      "9240fa60-3e34-59a7-867e-f7a2294c6660": [
         "World",
         "Being",
         "m",
@@ -119,104 +121,104 @@
     {
       "id": "union-route",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-        "STMT-EXCLUDED-MIDDLE"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
       ]
     },
     {
       "id": "union-route-from-actual-wf",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-NO-NOVEL-NECESSARY-SUPPORT",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-        "STMT-EXCLUDED-MIDDLE"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "bd983df2-058a-5503-89a1-bbebe87f958b",
+        "47a97912-335f-52f7-a715-63592368f0fe",
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
       ]
     },
     {
       "id": "lifting-route",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-        "STMT-NECESSARY-PREDECESSOR-LIFTING",
-        "STMT-EXCLUDED-MIDDLE"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "47a97912-335f-52f7-a715-63592368f0fe",
+        "2a9378b4-3dad-591b-a88e-1907a79f1fa5",
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
       ]
     },
     {
       "id": "lifting-route-constructive",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-        "STMT-NECESSARY-PREDECESSOR-LIFTING"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "47a97912-335f-52f7-a715-63592368f0fe",
+        "2a9378b4-3dad-591b-a88e-1907a79f1fa5"
       ]
     },
     {
       "id": "union-background-without-excluded-middle",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059"
       ]
     },
     {
       "id": "drop-union-wf-actual-wf-only",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "47a97912-335f-52f7-a715-63592368f0fe"
       ]
     },
     {
       "id": "drop-no-contingent-ground",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+        "47a97912-335f-52f7-a715-63592368f0fe"
       ]
     },
     {
       "id": "union-wf-without-edge-invariance",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-        "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-        "STMT-NECESSARILY-UNDERIVED"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+        "47a97912-335f-52f7-a715-63592368f0fe",
+        "d236f537-dd57-50ec-9676-cee87b19242a"
       ]
     },
     {
       "id": "same-union-route-via-common-rank",
       "statement_ids": [
-        "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-        "STMT-ACTUAL-MODAL-REFLEXIVITY",
-        "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-        "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK",
-        "STMT-EXCLUDED-MIDDLE"
+        "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+        "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+        "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+        "9240fa60-3e34-59a7-867e-f7a2294c6660",
+        "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
       ]
     }
   ],
   "incompatibility_result_ids": [],
   "implication_result_ids": [
-    "NECESSARY-UNDERIVED-POSITIVE-UNION",
-    "NECESSARY-SUPPORT-UNION-WF-FROM-ACTUAL",
-    "NECESSARY-PREDECESSOR-LIFT-FROM-BRIDGES",
-    "NECESSARY-UNDERIVED-POSITIVE-LIFT",
-    "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
-    "COMMON-RANK-TO-UNION-WF",
-    "UNION-WF-TO-COMMON-RANK",
-    "NECESSARILY-UNDERIVED-FROM-COMMON-RANK"
+    "68f03fe4-b6c6-567e-bae5-7bea3db947cc",
+    "32656e6f-dffc-5186-9a38-562da54e1594",
+    "c00992ee-ad04-5fa5-9e00-88ac359261ec",
+    "01da1ff3-2f64-50b6-902c-2ba41e1b6252",
+    "2121d6bd-7841-5c8a-b2c5-5fec7442f161",
+    "b3e9c9b7-4475-5582-852d-32e65f980505",
+    "5e35c4e8-fa41-5d31-8e1d-5f1411391c18",
+    "f4ee4f36-ffdb-56e7-a465-57771aeaa600"
   ],
   "model_bindings": [
     {
-      "model_id": "MODEL-NECESSARILY-UNDERIVED-EMPTY",
+      "model_id": "4a11da14-8b64-59e7-846c-ba0493b75684",
       "parameters": {
         "World": "World",
         "Being": "Being",
@@ -226,7 +228,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARILY-UNDERIVED-LOOP",
+      "model_id": "524047cc-fb3a-5ef4-902d-4ec10689dae4",
       "parameters": {
         "World": "World",
         "Being": "Being",
@@ -236,7 +238,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARILY-UNDERIVED-ROTATING",
+      "model_id": "61361179-de22-5ee5-99f1-989529e01563",
       "parameters": {
         "World": "World",
         "Being": "Being",
@@ -246,7 +248,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARILY-UNDERIVED-SWITCHING",
+      "model_id": "6ba4d125-1bdb-5c55-b099-a17af558a467",
       "parameters": {
         "World": "World",
         "Being": "Being",
@@ -256,7 +258,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARILY-UNDERIVED-VARYING",
+      "model_id": "a57b98fb-a950-5dfd-97e8-2845fdeaac08",
       "parameters": {
         "World": "World",
         "Being": "Being",

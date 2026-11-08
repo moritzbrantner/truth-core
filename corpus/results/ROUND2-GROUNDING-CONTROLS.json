@@ -1,6 +1,8 @@
 {
-  "id": "ROUND2-GROUNDING-CONTROLS",
-  "argument_id": "ROUND2-GROUNDING-CONTROLS",
+  "id": "59d1be21-3572-5381-8674-06d17ec79c97",
+  "label": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a…",
+  "legacy_id": "ROUND2-GROUNDING-CONTROLS",
+  "argument_id": "2095ff05-db1b-5ff7-9bb5-69737559ae8c",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.controls",

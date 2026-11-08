@@ -1,25 +1,27 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
+  "id": "d0976d04-3ef2-5528-aa26-d87089886c33",
+  "label": "GOD_4 is not properly in any GENUS_1, from Every GENUS_1 has at least one differentia… and 4 more",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
   "premise_statement_ids": [
-    "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
-    "STMT-DIFFERENTIAE-ARE-BEINGS",
-    "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE",
-    "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
-    "STMT-GENUS-OF-GOD-WOULD-BE-BEING"
+    "b90bbae6-7979-581c-aca2-e278b2309336",
+    "7ddbed37-7f99-53ab-8eb2-bd8e8e9e0472",
+    "b792ed75-8e20-5547-aa0d-cc19bf62ed56",
+    "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
+    "a314f44a-f7fd-57ed-b78c-150da76e23b0"
   ],
-  "conclusion_statement_id": "STMT-GOD-IN-NO-GENUS",
+  "conclusion_statement_id": "94e04d71-f5e3-5d0b-99fd-1fa01df090e9",
   "inference_ids": [
-    "INF-ARIST-MET-998B-BEING-NOT-A-GENUS",
-    "INF-AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS"
+    "b3b2b14f-9c27-5130-ae69-7b532205da1d",
+    "edfb0e73-4cd8-5994-9e2d-282bb6da20f4"
   ],
   "meaning": "ST I q.3 a.5 co., second proof: being is not a genus (derived by Aristotle's argument, imported), whatever God were properly in would be a genus, and it would be being; so God is in no genus properly. The Comparator config also verifies countermodels for the two Aquinas premises.",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS",
-    "DISAMB-GOD"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

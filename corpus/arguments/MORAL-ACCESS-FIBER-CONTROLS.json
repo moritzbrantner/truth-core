@@ -1,17 +1,19 @@
 {
-  "id": "MORAL-ACCESS-FIBER-CONTROLS",
+  "id": "d280bc59-6cad-5cf9-b7e3-a4872c020b3c",
+  "label": "Four analyst access controls for whether deliberately killing an innocent person in a specified…",
+  "legacy_id": "MORAL-ACCESS-FIBER-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MORAL-ACCESS-FIBER-CONTROLS",
+  "conclusion_statement_id": "62864d2a-6f3e-5dd1-b804-5ca5ab8450b3",
   "inference_ids": [
-    "INF-MORAL-ACCESS-FIBER-CONTROLS"
+    "1294dc62-20cc-5d26-9ebc-07483debc78a"
   ],
   "meaning": "Instantiates the existing exact criterion to distinguish missing observational discrimination from open constitutive, categorical and sufficient normative bridges. No moral account or actual moral proposition is established or refuted.",
   "definition_ids": [
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-MORAL-ACCESS-FIBER-TEST"
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "d2839b40-db5c-5fd2-8503-3b7922ba01a8"
   ],
   "disambiguation_ids": [
-    "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "ba851630-7eec-5851-8ad2-d8eff7430e41",
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

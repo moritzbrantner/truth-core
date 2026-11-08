@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE",
+  "id": "98755509-18d3-5282-bd66-47202d916266",
+  "label": "OPEN analyst calibration: if x is more r than y, x's represented degree of r is strictly higher…",
+  "legacy_id": "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE",
   "paraphrase": "OPEN analyst calibration (one direction, every respect, every pair): if x is more r than y, x's represented degree of r is strictly higher than y's.",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.MoreInExceedsDegree",
   "definition_ids": [
-    "DEF-MORE-IN",
-    "DEF-PER-RESPECT-DEGREE-FAMILY"
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "8323604a-2e7a-554c-9b32-d82e5201271d"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

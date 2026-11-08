@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
+  "id": "927f8833-f8e9-546c-b039-b3c8c3852d3b",
+  "label": "Goldman offers a case in which compelling original evidence may justify a belief and memory may…",
+  "legacy_id": "STMT-GOLDMAN-MEMORY-WITHOUT-RECONSTRUCTED-EVIDENCE",
   "paraphrase": "Goldman offers a case in which compelling original evidence may justify a belief and memory may preserve that status after the evidence is forgotten, leaving the subject unable to demonstrate why the belief is justified.",
   "definition_ids": [
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-GOLDMAN-CONDITIONAL-PROCESS-RELIABILITY",
-    "DEF-GOLDMAN-AVAILABLE-PROCESS-QUALIFICATION"
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "73ca1400-cedf-5dbc-a478-e313e7ffa7ec",
+    "f38996f7-c982-5809-8215-392d0f6cb956"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOLDMAN-STATUS-ACCESS-AND-REVISION"
+    "56b356a4-6acf-52a8-ae83-5edaf38a44f0"
   ]
 }

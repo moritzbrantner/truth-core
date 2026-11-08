@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "id": "37c8884b-0a71-5573-b251-80ab7153ee42",
+  "label": "If the One is continuous, it is many…, from If the alleged One is one by continuity, it… and 1 more",
+  "legacy_id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
   "premise_statement_ids": [
-    "STMT-CONTINUOUS-ONE-IMPLIES-DIVISIBLE",
-    "STMT-DIVISIBLE-IMPLIES-MANY"
+    "254db92e-fedf-50a9-ab90-cd4bb18c2eed",
+    "8300334c-f6cf-597b-8183-3bf80618d7d8"
   ],
-  "conclusion_statement_id": "STMT-CONTINUOUS-ONE-IMPLIES-MANY",
+  "conclusion_statement_id": "687d949c-46fc-59f1-ab31-4268c4f2ae9a",
   "inference_ids": [
-    "INF-ARIST-PHYS-CONTINUOUS-ONE-MANY"
+    "2f245e14-03ed-5fdd-8203-700202a8beb2"
   ],
   "meaning": "Aristotle's Physics I.2 test of continuous unity: continuity entails divisibility, and divisibility entails plurality of parts, so the alleged One is many in that respect."
 }

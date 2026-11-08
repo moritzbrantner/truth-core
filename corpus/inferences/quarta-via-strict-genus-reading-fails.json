@@ -1,7 +1,9 @@
 {
-  "id": "INF-QUARTA-VIA-STRICT-GENUS-READING-FAILS",
+  "id": "1dd54a32-2a24-5ab5-a391-7296def76394",
+  "label": "Formal fact: with 'GENUS_1' in the quarta via's GENUS_1 principle read strictly…, by Countermodel",
+  "legacy_id": "INF-QUARTA-VIA-STRICT-GENUS-READING-FAILS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA",
+  "output_statement_id": "53e52f95-364d-50fa-bdd7-4548d13eae32",
   "rule": "countermodel",
   "meaning": "A two-being model with respects esse, animal (a strict genus) and rational (its differentia) satisfies the three other quarta via premises, the strict genus principle and Aristotle's three premises, but its maximum in being causes no other being's being.",
   "assumption_statement_ids": [],

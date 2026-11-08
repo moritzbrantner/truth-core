@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-SOME-PROPOSITION-HOLDS",
+  "id": "0bc35bd4-441b-5846-a563-7583ddfff735",
+  "label": "Inside Lean logic, ∃ P: Prop, P. This asserts only a proof inhabiting some…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-SOME-PROPOSITION-HOLDS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "output_statement_id": "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a",
   "rule": "constructive-proof",
   "meaning": "A direct witness True and its constructor prove the exact existential inside Lean logic. No source or philosophical independence premise.",
   "assumption_statement_ids": [],

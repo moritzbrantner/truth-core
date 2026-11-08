@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
+  "id": "74e6880f-d90b-51ed-a710-5aace3f44cff",
+  "label": "Finite origin-code admissibility along…: If station n outputs a numeric code j, then n<=j",
+  "legacy_id": "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
   "term": "finite origin-code admissibility along an indexed channel",
   "definition": "If station n outputs a numeric code j, then n<=j. Upstream stations have increasing natural-number indices; a code names its own or a strictly earlier station. This property constrains every output, not only one observed downstream output.",
   "basis": "stipulative",

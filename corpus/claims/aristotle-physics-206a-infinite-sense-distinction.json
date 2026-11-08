@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-INFINITE-SENSE-DISTINCTION-A",
-  "statement_id": "STMT-INFINITE-EXISTS-ONE-SENSE-NOT-ANOTHER",
-  "source_id": "ARIST-PHYS",
+  "id": "5c163624-e566-5574-9ec7-33c1fcd00b29",
+  "label": "Aristotle, Physics III.6, 206a8-18: The infinite exists in one sense and not in another: its…",
+  "legacy_id": "ARIST-PHYS-206A-INFINITE-SENSE-DISTINCTION-A",
+  "statement_id": "f59158ec-b64a-5af5-baad-438ec116205a",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206a8-18",
   "interpretation": "Governing distinction of III.6: the infinite exists in a qualified potential/successive sense but not as a completed actual infinite. The source's addition/division distinction is preserved rather than mapped onto a modern set-theoretic notion.",
   "status": "formalized"

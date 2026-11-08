@@ -1,11 +1,13 @@
 {
-  "id": "INF-PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+  "id": "65fdc413-9aae-57f5-8581-32e3404bdec0",
+  "label": "Some actual existent has a stipulated explanation of its existence fact but lacks…, by Direct-proof",
+  "legacy_id": "INF-PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
   "input_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-NO-BRUTE-EXISTENCE-AT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
+    "27bdc583-788a-5dc0-8448-0be5e6237310"
   ],
-  "output_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "output_statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
   "rule": "direct-proof",
   "meaning": "At one populated world, reuse existingSource_of_wellFounded to obtain an actual existent without any incoming existing efficient cause, including a self-cause; local explanation coverage supplies a reason for its positive existence fact. The prior global existence-PSR premise is replaced by coverage at this world only. No adequate explanation, necessity, uniqueness, or divinity follows.",
   "assumption_statement_ids": [],

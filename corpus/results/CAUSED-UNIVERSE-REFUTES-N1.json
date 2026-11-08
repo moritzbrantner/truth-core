@@ -1,6 +1,8 @@
 {
-  "id": "CAUSED-UNIVERSE-REFUTES-N1",
-  "argument_id": "CAUSED-UNIVERSE-REFUTES-N1",
+  "id": "9a2a5dc6-caa6-5b88-8274-1fe05f699c80",
+  "label": "N1 fails at the selected world…, from At the selected world the spacetime whole… and 3 more",
+  "legacy_id": "CAUSED-UNIVERSE-REFUTES-N1",
+  "argument_id": "2d5fe396-e5b3-5558-871f-8671280de99a",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.RefutesN1.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.RefutesN1.causedUniverseRefutesN1",

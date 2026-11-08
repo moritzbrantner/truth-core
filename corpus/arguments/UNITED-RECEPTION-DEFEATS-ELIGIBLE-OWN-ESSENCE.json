@@ -1,22 +1,24 @@
 {
-  "id": "UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
+  "id": "d582867d-734a-5331-95ac-a0cdf4e7e731",
+  "label": "Exact negation of the…, from The canonical reception relation holds in… and 2 more",
+  "legacy_id": "UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE",
   "premise_statement_ids": [
-    "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
-    "STMT-SELECTED-BODILY-RECIPIENT-IS-NOT-SOUL-ESSENCE",
-    "STMT-SELECTED-SOUL-IS-IN-RESTRICTED-RECEPTION-SCOPE"
+    "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
+    "60b32382-3cf4-541b-88af-0c80a47d56a2",
+    "11745172-e7ef-5fcf-8195-864df4ff53d2"
   ],
-  "conclusion_statement_id": "STMT-ELIGIBLE-OWN-ESSENCE-RECEPTION-PRINCIPLE-FAILS",
+  "conclusion_statement_id": "e1b6e0ee-f874-56e9-96fd-c456e59ad550",
   "inference_ids": [
-    "INF-UNITED-RECEPTION-DEFEATS-ELIGIBLE-OWN-ESSENCE"
+    "b17ca09a-8eb3-5142-8f3a-c294925dc05f"
   ],
   "meaning": "The same countertuple defeats the scope-restricted law if that soul bearer is explicitly eligible; merely naming a restriction does not avoid the objection.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EVIL-OBJECTION-CRITIC",
+  "id": "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+  "label": "CRITIC_UTTERANCE_SEMANTICS_1: Critic supplies a sentence type\u2026",
+  "legacy_id": "DEF-EVIL-OBJECTION-CRITIC",
   "term": "critic utterance semantics",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.Critic",

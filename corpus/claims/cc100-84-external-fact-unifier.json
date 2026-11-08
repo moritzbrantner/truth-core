@@ -1,15 +1,17 @@
 {
-  "id": "CC100-84-EXTERNAL-FACT-UNIFIER",
-  "statement_id": "STMT-CC100-84-EXTERNAL-FACT-UNIFIER",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "e14243d6-a5d0-5c46-91c1-ae8f6ef6d28e",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Facts can be unities of constituents only if there is…",
+  "legacy_id": "CC100-84-EXTERNAL-FACT-UNIFIER",
+  "statement_id": "be6801f4-5a12-5eb6-9229-61e63e33f963",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.206, argument #84 Unities: Facts, step 2",
   "interpretation": "External is relative to the fact being unified, not automatically external to all facts or the cosmos. The requirement is asserted, not independently defended; no one common unifier, causal-grounding relation or complete explanation is supplied. Attribution is to McIntosh’s presentation only, not the unread Vallicella article referenced on p207. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

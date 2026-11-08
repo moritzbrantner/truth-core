@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-RESPONSE-PRESENT-DATA",
+  "id": "02a62efa-387e-5ccf-8926-47e3ba0a89fc",
+  "label": "Present decision record and entire…: Observe includes the selected actual ChoiceContext.History at…",
+  "legacy_id": "DEF-REASON-RESPONSE-PRESENT-DATA",
   "term": "present decision record and entire modeled reason-response map",
   "definition": "observe includes the selected actual ChoiceContext.History at review=external=false, reason=true and imposed=false, plus the entire Bool-to-Bool reason-response function at that acquired selector and constraint status. It omits the acquisition function. Adding that function provides the enriched data control. AdmitsCriterion retains its existing arbitrary Prop-valued exact-classifier meaning, with the intervention predicate as the classified property rather than a normative correctness or justification claim.",
   "basis": "stipulative",

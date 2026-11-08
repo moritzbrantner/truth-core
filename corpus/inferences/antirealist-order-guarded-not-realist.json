@@ -1,11 +1,13 @@
 {
-  "id": "INF-ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "id": "82fc4fda-5a3d-52a3-825b-51af40e35890",
+  "label": "The universal realist explanatory-order reading fails under the shared…, by Constructive-proof",
+  "legacy_id": "INF-ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
   "input_statement_ids": [
-    "STMT-ANTIREALIST-ORDER-OF-EXPLANATION",
-    "STMT-EXPLANATORY-ORDER-ASYMMETRIC",
-    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+    "7eb2ee33-2ed4-5f56-a540-0743ff871a4a",
+    "3d253af8-a9c3-54ca-b1d9-ccb7fc86a302",
+    "58e2c7be-0cbf-5483-aaf4-2ab4087ae49b"
   ],
-  "output_statement_id": "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+  "output_statement_id": "b66303c9-7577-51be-b823-3ae18ba239b4",
   "rule": "constructive-proof",
   "meaning": "Full anti-order plus separately supplied asymmetry and the explicit moral witness contradict the realist universal at that same content. No opposite-direction incompatibility is silently defined in.",
   "assumption_statement_ids": [],

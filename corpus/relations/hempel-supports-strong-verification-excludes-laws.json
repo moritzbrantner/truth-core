@@ -1,9 +1,11 @@
 {
-  "id": "REL-HEMPEL-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "id": "9462f1cc-2a0b-5a4f-9ca3-d3c04e1eec99",
+  "label": "James H. Fetzer, Carl Hempel §2.3: Hempel… supports Strong verification excludes universal…",
+  "legacy_id": "REL-HEMPEL-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
   "subject_kind": "claim",
-  "subject_id": "SEP-HEMPEL-2-3-UNIVERSALS",
+  "subject_id": "544a5f43-0617-516e-8b7a-dcdc89c83bcd",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "object_id": "256d6e71-ae71-52b1-ba03-bc3c9593ec50",
   "note": "Gap: the entry reports Hempel's result informally, both halves included (universals not verifiable, their existential negations verifiable). The structural setting of the Lean statement is the analyst's."
 }

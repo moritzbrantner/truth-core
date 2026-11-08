@@ -1,11 +1,13 @@
 {
-  "id": "INF-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "id": "22732bdf-8ad9-5344-8779-6b4a6f4ef2dc",
+  "label": "Negation of the occasionalist rival occasionalist mover link without…, by Rival excluded by deeper…",
+  "legacy_id": "INF-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
   "input_statement_ids": [
-    "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER",
-    "STMT-MOVER-IS-EFFICIENT-CAUSE",
-    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+    "9c252f24-3d84-5246-9551-2637c0fe6379",
+    "a7d2b839-5873-585e-ae86-4ec36c563b10",
+    "8a22ae75-4198-5a32-ae52-bad2848a50a5"
   ],
-  "output_statement_id": "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE",
+  "output_statement_id": "0300cfd9-7f62-5270-801f-01f860d7b506",
   "rule": "Rival excluded by deeper premises",
   "meaning": "Conditional refutation of the occasionalist rival STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE. If y moves x as moved, then y is distinct from x, moves x in some respect r and is moved by some z in some respect r' (STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER); every mover efficiently causes what it moves in that respect (STMT-MOVER-IS-EFFICIENT-CAUSE), so y efficiently causes x and z efficiently causes y; by the Second Way's per se ordering premise (STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED) y causes x as caused. The occasionalist, for whom the stick is only an occasion, must deny the mover/efficient-cause bridge, not only STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). All three premises are open, so the refutation does not count for closure.",
   "assumption_statement_ids": [],

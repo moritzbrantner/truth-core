@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-TLP-NONSENSE",
+  "id": "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8",
+  "label": "Nonsense in the Tractatus",
+  "legacy_id": "DISAMB-TLP-NONSENSE",
   "term": "nonsense (Unsinn) in the Tractatus",
   "sense_definition_ids": [
-    "DEF-TLP-NONSENSE-ILLUMINATING",
-    "DEF-TLP-NONSENSE-PLAIN"
+    "44b1fb35-d7ec-57fc-8a89-1830af53e0ce",
+    "d94541de-78e7-5634-a11c-9d7d81b6e58f"
   ],
   "resolution": "STMT-TLP-TRADITIONAL-READING-INEFFABLE-SHOWN takes the illuminating sense, STMT-TLP-RESOLUTE-READING-NO-INEFFABLE the plain sense; STMT-TLP-INEXPRESSIBLE-SHOWS-ITSELF and STMT-TLP-PHILOSOPHICAL-PROPOSITIONS-NONSENSICAL quote the text and take neither. The rival STMT-TLP-GOD-SENTENCES-NONSENSICAL is reconstructed on the traditional reading; on the resolute reading the propositions it is reconstructed from are themselves plain nonsense and the book points at no ineffable truths, so the reconstruction is not the book's thesis and the book supplies no rival (the book's self-application, 6.54, is the subject of #1008). No record passes from one sense to the other.",
   "term_label": "NONSENSE_IN_THE_TRACTATUS",
@@ -11,12 +13,12 @@
     {
       "id": "9e5fc5b8-e6db-4d69-b094-bc380b0dfbc4",
       "label": "NONSENSE_IN_THE_TRACTATUS_1",
-      "definition_id": "DEF-TLP-NONSENSE-ILLUMINATING"
+      "definition_id": "44b1fb35-d7ec-57fc-8a89-1830af53e0ce"
     },
     {
       "id": "32db67b2-ce5e-4f08-8795-7a6d281a20c2",
       "label": "NONSENSE_IN_THE_TRACTATUS_2",
-      "definition_id": "DEF-TLP-NONSENSE-PLAIN"
+      "definition_id": "d94541de-78e7-5634-a11c-9d7d81b6e58f"
     }
   ]
 }

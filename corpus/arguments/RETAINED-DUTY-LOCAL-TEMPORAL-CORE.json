@@ -1,22 +1,24 @@
 {
-  "id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+  "id": "e2ec8238-9f7f-5ab7-87f5-768aa07a2a7c",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 3 more (2)",
+  "legacy_id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-INITIAL-DUTY",
-    "STMT-RETAINED-DUTY-RETENTION",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-LOCAL-OIC"
+    "4d4355d0-a338-59fc-af25-33c5c195fea8",
+    "d4e0402d-5848-57b8-97f5-43f5fe12beb3",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "2cc0cc30-8404-5681-94ec-b5cf6e85a93f"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-RETAINED-DUTY-TRANSFER",
-    "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE"
+    "266e31b5-d355-526e-a00d-0e89b7dc2d8d",
+    "2a82e3c4-4788-53d5-9cf5-fbef3d2f6404"
   ],
   "meaning": "Operational temporal core: imported initial-duty/retention transfer gives present original-return duty, then the local direct core yields falsity. Universal OIC and policies about compensation/debt repayment are unnecessary. Every single omission is witnessed under the same typed Case.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
-  "argument_id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "id": "52fa2ae2-e92d-588c-9693-51eb48dc6a85",
+  "label": "For every designated arrangement, a false-only judgment accepts an actual-false candidate and…",
+  "legacy_id": "ARRANGEMENT-SELECTION-FACTIVITY-BOUNDARIES",
+  "argument_id": "f2a05c4a-3218-58c9-b7ab-5c2b3cfd4c5c",
   "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.Controls.controls",

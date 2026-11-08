@@ -1,16 +1,18 @@
 {
-  "id": "STMT-BRUTE-EXISTENCE-AT",
+  "id": "fcf3a68a-d353-5f8b-9e01-995643caa2f9",
+  "label": "Some individual actually exists at the selected world and has no reason for its existence fact…",
+  "legacy_id": "STMT-BRUTE-EXISTENCE-AT",
   "lean_declaration": "TruthCore.Explanation.NoBruteExistence.BruteExistenceAt",
   "paraphrase": "Some individual actually exists at the selected world and has no reason for its existence fact according to the model explains relation.",
   "definition_ids": [
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-PSR-REASON",
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-NO-BRUTE-EXISTENCE-AT",
-    "DEF-BRUTE-EXISTENCE-AT"
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+    "b0a3ca7f-2970-531c-9201-962393ef3a8f"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "e63036c5-d9c0-55d3-9704-e23efcbed127"
   ]
 }

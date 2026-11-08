@@ -1,20 +1,22 @@
 {
-  "id": "STMT-REDUCED-NOMINAL-NAMING-FAILS",
+  "id": "009381d2-b1fb-5bfc-ad27-00f1fba03fef",
+  "label": "The proper-sense reduced naming leaf is false: it is not the case that every unique maximum…",
+  "legacy_id": "STMT-REDUCED-NOMINAL-NAMING-FAILS",
   "paraphrase": "The proper-sense reduced naming leaf is false: it is not the case that every unique maximum causing all being satisfies the proper God predicate. Exact negation of the original leaf; reference transfer and witness conditions belong to the deriving argument.",
   "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.ReducedNominalNamingFails",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-NOMINAL-DEFINITION"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

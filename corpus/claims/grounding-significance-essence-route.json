@@ -1,15 +1,17 @@
 {
-  "id": "TROGDON-SIGNIFICANCE-ESSENCE-ROUTE",
-  "source_id": "TROGDON-GROUNDING-NECESSARY-2013",
-  "statement_id": "STMT-SIGNIFICANCE-ESSENCE-ROUTE-TO-NECESSITATION",
+  "id": "d359e09c-45f2-59cd-8ddb-79f99d5b25d2",
+  "label": "Kelly Trogdon, Grounding PDF p. 3…: The proposed argument for grounding necessitation uses…",
+  "legacy_id": "TROGDON-SIGNIFICANCE-ESSENCE-ROUTE",
+  "source_id": "0eaaae74-045f-5b97-ad0e-04474ea2b897",
+  "statement_id": "dfccfdac-4ec0-5590-9a06-f77873b20036",
   "locator": "PDF p. 3 (printed p.467), significance/essence and argument (1)–(5)",
   "interpretation": "Records the proposed argument and its additional principles, not their establishment or an argument for a common priority rank.",
   "attribution": "The passage states the proposed argument for grounding necessitation uses significance and essence principles, together with necessity of essential truths, to obtain modal entailment from full grounding, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

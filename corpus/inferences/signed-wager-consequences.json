@@ -1,7 +1,9 @@
 {
-  "id": "INF-SIGNED-WAGER-CONSEQUENCES",
+  "id": "ed20babf-6bfe-5985-a249-8bb2d3f7b9e4",
+  "label": "Signed finite costs do not prevent top expected utility when a single rewarded…, by Direct-proof",
+  "legacy_id": "INF-SIGNED-WAGER-CONSEQUENCES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SIGNED-WAGER-CONSEQUENCES",
+  "output_statement_id": "0439b0b6-aa6b-51ca-804a-6f933c9624df",
   "rule": "direct-proof",
   "meaning": "Compute guarded EReal expectations under explicit probability assumptions and construct the typed conditional model. No theological premise discharged.",
   "assumption_statement_ids": [],

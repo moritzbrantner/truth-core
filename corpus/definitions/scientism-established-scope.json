@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENTISM-ESTABLISHED-SCOPE",
+  "id": "2a8bc285-c92e-5e55-a838-077a76b658fe",
+  "label": "All established claims in scope: Every established claim is in the supplied scientism scope",
+  "legacy_id": "DEF-SCIENTISM-ESTABLISHED-SCOPE",
   "term": "all established claims in scope",
   "definition": "Every established claim is in the supplied scientism scope. Stronger than pointwise coverage of only nonempirical established claims; not built into ScopedScientism.",
   "basis": "stipulative",

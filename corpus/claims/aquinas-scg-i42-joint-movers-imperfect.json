@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
-  "statement_id": "STMT-AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
-  "source_id": "AQUINAS-SCG",
+  "id": "72ea7c02-dd18-51f7-affd-400ffa120b27",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: If several movers move together, none is a perfect…",
+  "legacy_id": "AQUINAS-SCG-I42-JOINT-MOVERS-IMPERFECT",
+  "statement_id": "4cacfafa-814b-5055-9ff5-55e5fcc87ca4",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [5], simultaneous-moving branch",
   "interpretation": "Retain the source’s together-to-partial-imperfection assertion rather than independently proving it. Perfect mover concerns adequate moving, not automatically every formal/eminent perfection. Genuine jointly indispensable partial contributors differ from independently sufficient cooperation, redundancy or alternatives; no assumption that all cooperative movers are partial is warranted merely by group membership. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+    "14ec3301-ad2c-58da-8095-c64bf229bb2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

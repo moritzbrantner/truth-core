@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
+  "id": "c47495e8-91a6-53e8-88aa-5672c3bdc314",
+  "label": "Actual selected fusion and conditional…: ActualNoNecessaryPartsFamily m w is exactly {x |…",
+  "legacy_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
   "term": "actual selected fusion and conditional formation for actual candidates without necessary parts",
   "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualFusionAt",
   "basis": "stipulative",

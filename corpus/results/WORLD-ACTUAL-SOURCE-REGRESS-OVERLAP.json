@@ -1,6 +1,8 @@
 {
-  "id": "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
-  "argument_id": "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "id": "c9f2dea0-cb03-5305-ba0e-fa01c0c07e70",
+  "label": "In the fixed infinite Option Nat interpretation, the same actual some0 has a finite path to source…",
+  "legacy_id": "WORLD-ACTUAL-SOURCE-REGRESS-OVERLAP",
+  "argument_id": "8f4a72ae-eabb-5eb0-b73b-c4a403700092",
   "challenge_module": "TruthCore.Results.Causality.WorldSourceRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
   "theorem": "TruthCore.Results.Causality.WorldSourceRegress.overlapControl",

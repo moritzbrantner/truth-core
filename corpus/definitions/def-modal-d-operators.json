@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-D-OPERATORS",
+  "id": "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+  "label": "World-relative modal operators and…: Dia F P w means there exists v with F.access w v and P v",
+  "legacy_id": "DEF-MODAL-D-OPERATORS",
   "term": "world-relative modal operators and actual truth",
   "definition": "Dia F P w means there exists v with F.access w v and P v; Box F P w means every F-accessible v satisfies P. Actual truth is P w. In particular possible collapse is Dia F (MC F D) w and necessary collapse is Box F (MC F D) w, distinct from actual MC F D w. No conceivability predicate or conceivability-to-possibility bridge is assumed.",
   "basis": "stipulative",

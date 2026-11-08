@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-SCG",
+    "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
     "source_url": "https://isidore.co/aquinas/english/ContraGentiles1.htm",
     "retrieved_at": "2026-10-24T01:22:15Z",
     "sha256": "sha256:c46d9f71e075b6cd4508e37331029b32aff5432f2aff502a3015fcd93e6dd45c",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-SCG-I-28-EN",
+      "id": "56862eac-c959-5a6f-9a48-e347b986bd15",
+      "label": "Thomas Aquinas, Summa contra gentiles, I.28",
+      "legacy_id": "AQUINAS-SCG-I-28-EN",
       "locator": "I.28",
       "claim_locator_prefixes": [
         "I.28 "

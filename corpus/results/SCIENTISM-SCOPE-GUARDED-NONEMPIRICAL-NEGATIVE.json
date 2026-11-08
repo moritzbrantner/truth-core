@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
-  "argument_id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "id": "2a84bfbe-37eb-5010-8c20-58a30fbf878c",
+  "label": "There is no established claim failing…, from Scientism with explicit scope: every… and 1 more",
+  "legacy_id": "SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "argument_id": "ea633266-9f8b-5908-95e9-7c79addb09d0",
   "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.Solution",
   "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.GuardedNegative.guardedNegative",

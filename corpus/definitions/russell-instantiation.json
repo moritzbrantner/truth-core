@@ -1,10 +1,12 @@
 {
-  "id": "DEF-RUSSELL-INSTANTIATION",
+  "id": "988c2502-f555-5ff5-ac9d-aa5649d388de",
+  "label": "Instantiation: F x is the truth of a predication at a typed candidate",
+  "legacy_id": "DEF-RUSSELL-INSTANTIATION",
   "term": "instantiation",
   "definition": "F x is the truth of a predication at a typed candidate. Inst evaluates the finite Boolean extension at x. This is not Form participation, metaphysical dependence, or an existential property.",
   "basis": "sourced",
   "claim_ids": [
-    "RUSSELL-ATOMISM-V-NONEMPTY"
+    "da14fe0e-1845-544c-8830-2b1d57790743"
   ],
   "lean_declaration": "TruthCore.Modern.Russell.Existence.Inst"
 }

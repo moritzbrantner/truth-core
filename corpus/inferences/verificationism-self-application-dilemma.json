@@ -1,11 +1,13 @@
 {
-  "id": "INF-VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "id": "991e7eeb-3a75-522c-8f32-0a2a61c20fe0",
+  "label": "The verificationist self-application dilemma: if the principle holds, its…, by Constructive-proof",
+  "legacy_id": "INF-VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
   "input_statement_ids": [
-    "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
-    "STMT-VERIFICATION-PRINCIPLE-NOT-ANALYTIC",
-    "STMT-VERIFICATION-PRINCIPLE-NOT-VERIFIABLE"
+    "6dc3f04a-5420-58bd-91f1-569b41c94ef1",
+    "4e72c49e-1089-559e-9f35-7776071d0818",
+    "18b8adb3-fdd4-57c0-8125-64f0c7e2ebe9"
   ],
-  "output_statement_id": "STMT-VERIFICATIONIST-DILEMMA",
+  "output_statement_id": "a2b1e855-ac29-532d-a3e7-ac8d4d585150",
   "rule": "constructive-proof",
   "meaning": "The verificationist instance of the self-application dilemma (LOGIC-SELF-APPLICATION-DILEMMA), for any variant's verifiability predicate: norm with the given scope, standard analytic-or-verifiable, acceptance predicate meaningful. If the principle's formulation is in its own scope and is neither analytic nor verifiable, then if the principle holds its formulation is not meaningful, and if the formulation is meaningful the principle fails. All three premises are open, so this conditional defeat counts toward nothing under #999. It does not touch the proposal reading (V4), which denies the scope premise (LOGIC-SELF-APPLICATION-SCOPE-NEEDED). For the 1946 criterion the third premise is in tension with Church's trivialization.",
   "assumption_statement_ids": [],

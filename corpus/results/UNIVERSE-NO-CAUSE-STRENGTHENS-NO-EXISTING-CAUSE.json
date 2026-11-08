@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
-  "argument_id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "id": "73d18ddd-a492-55db-9796-04906334557a",
+  "label": "Exact negation of the existing UniverseHasExistingCause…, from The brute-universe position: at the…",
+  "legacy_id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "argument_id": "d2bc3352-7139-5365-a31b-655019e10273",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.UncausedStrength.uncausedStrength",

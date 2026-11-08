@@ -1,11 +1,13 @@
 {
-  "id": "STMT-IN-ACT-SENSE-UNIQUE",
+  "id": "8f5a1859-3bfa-563b-b30c-d1a61d5864a4",
+  "label": "The route's reading of 'in act' in the prima via step selects at most one sense, so both uses take…",
+  "legacy_id": "STMT-IN-ACT-SENSE-UNIQUE",
   "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in act' in the prima via step selects at most one sense, so both uses take the same one. Not a disjointness claim; formal act implies formal-or-virtual act.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.InActSenseUnique",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "CONSECUTIVE-MOVER-RESPECTS",
-  "argument_id": "CONSECUTIVE-MOVER-RESPECTS",
+  "id": "feddbc03-7ef5-5479-aa24-593c46d45023",
+  "label": "Whenever z moves y in respect r and y moves x…, from MOTION_2 is in the moved: whenever… and 3 more",
+  "legacy_id": "CONSECUTIVE-MOVER-RESPECTS",
+  "argument_id": "175a2cc4-54f4-5f3c-84fb-9c0e1979174d",
   "challenge_module": "TruthCore.Results.Alternatives.RespectSwitch.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RespectSwitch.Solution",
   "theorem": "TruthCore.Results.Alternatives.RespectSwitch.consecutiveRespects",

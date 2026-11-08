@@ -1,7 +1,9 @@
 {
-  "id": "INF-DESIGNATED-NECESSITATION-CERTIFICATE",
+  "id": "0e4a6d7a-c1dc-5bbd-b0a4-aa35d65c2f04",
+  "label": "On one fixed Kripke frame and arbitrary designation policy D, semantic…, by Direct-proof",
+  "legacy_id": "INF-DESIGNATED-NECESSITATION-CERTIFICATE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-DESIGNATED-NECESSITATION-CERTIFICATE",
+  "output_statement_id": "f2dd52e7-1571-5320-88b8-9d24c061ff66",
   "rule": "direct-proof",
   "meaning": "On one fixed Kripke frame and arbitrary designation policy D, semantic necessitation for every context-independent predicate holds iff D is successor-closed. For a supplied two-index F, closure plus the explicit one-way edge-local content-transport bridge suffices; necessity for each individual F is not claimed. For all two-index denotations, and already for every explicit actuality-agreement schema P(e) iff P(a), the rule holds iff each admitted world has only identity successors (self-access not required). The ordinary Holds fragment obeys the closed-policy rule; all-world Valid admits box. Empty designation admits the unrestricted rule vacuously. Both populated universal-frame controls reuse the SAME ContingentOnly ontology with a necessary candidate, a contingent candidate and both old domain policies failing: existence-restricted D with independent existence-content fails closure and necessitation despite transport; D=True repairs closure and retains the independent rule, while actuality-agreement remains diagonal-valid but fails transport and necessitation. A generic history-control composition imports the existing diagonal/rigid boundary to refute necessitation under a rival, rather than claiming that boundary as new. These are denotation-level correspondences and joint formal controls, not proof-calculus adequacy, metaphysical possibility or a root-premise discharge. Generic targets require no nonempty designation/domain, frame law, causal policy or excluded middle. Attribution deferred; no source claim or domain law is changed.",
   "assumption_statement_ids": [],

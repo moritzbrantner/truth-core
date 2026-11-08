@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
+  "id": "aa9893e1-e1c4-5d78-9d08-30086f0a4f5d",
+  "label": "The scientistic thesis is not itself established by empirical evidence",
+  "legacy_id": "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED",
   "paraphrase": "The scientistic thesis is not itself established by empirical evidence. An open premise, stated by critics of scientism (witness pending).",
   "lean_declaration": "TruthCore.Logic.Scientism.ScientismNotEmpiricallyEstablished",
   "definition_ids": [
-    "DEF-SCIENTISM-EPISTEMIC-FRAME",
-    "DEF-STRONG-SCIENTISM"
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d",
+    "fee8ffa5-ec96-5f31-8e71-525bb6249f68"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

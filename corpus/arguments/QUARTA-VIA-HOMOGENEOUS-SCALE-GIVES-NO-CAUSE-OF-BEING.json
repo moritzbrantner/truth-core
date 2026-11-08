@@ -1,17 +1,19 @@
 {
-  "id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "id": "9d79a6e1-a121-59ef-9fd4-e6e01a7d3469",
+  "label": "Formal fact: a homogeneous scale of BEING_1 with a…, via homogeneous scale gives no cause of BEING_1",
+  "legacy_id": "QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING",
+  "conclusion_statement_id": "a3e0cd2b-94db-52b2-a187-da1377b22117",
   "inference_ids": [
-    "INF-QUARTA-VIA-HOMOGENEOUS-SCALE-GIVES-NO-CAUSE-OF-BEING"
+    "4e450ba6-33d6-5924-85d4-e992f3b931e4"
   ],
   "meaning": "Countermodel and model, from no premises: on the univocal reading the order of being gives no cause of being, but is consistent with the genus principle and Metaphysics II.1. On that reading both stay open premises with no support from the order.",
   "definition_ids": [
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-BEING-UNIVOCAL"
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "3c9fbe24-66c5-587e-9f7a-df0783510328"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-BEING-UNIVOCITY"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

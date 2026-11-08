@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INCLUSIVE-PAST-ACCESSIBILITY",
+  "id": "b0a7367e-61e6-5a4a-a03e-c125756affa6",
+  "label": "INCLUSIVE_PAST_ACCESSIBILITY_2: For a supplied Preorder T, accessibility from t to s means s\u2264t\u2026",
+  "legacy_id": "DEF-INCLUSIVE-PAST-ACCESSIBILITY",
   "term": "inclusive-past accessibility",
   "definition": "For a supplied Preorder T, accessibility from t to s means s\u2264t, including the current time. This inline instance of the existing Frame is reflexive and serial regardless of whether an earliest time exists. Inclusive self-access does not supply a strictly earlier time.",
   "basis": "stipulative",

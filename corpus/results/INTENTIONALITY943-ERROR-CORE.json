@@ -1,6 +1,8 @@
 {
-  "id": "INTENTIONALITY943-ERROR-CORE",
-  "argument_id": "INTENTIONALITY943-ERROR-CORE",
+  "id": "64465028-3d58-5e13-90d4-8e2f405c119f",
+  "label": "Logical falsity, from At least one occurring token of the target… and 2 more",
+  "legacy_id": "INTENTIONALITY943-ERROR-CORE",
+  "argument_id": "aafe78da-6ab7-547e-8e1f-83b5e56774b7",
   "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
   "theorem": "TruthCore.Results.Comparison.Intentionality943.errorCore",

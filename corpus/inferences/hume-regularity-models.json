@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-REGULARITY-MODELS",
+  "id": "cca4fbef-5cc1-5e0d-ace4-8b6e1ea5269c",
+  "label": "The selected thin bundles each have an explicit finite model: nontrivial observed…, by Direct-proof",
+  "legacy_id": "INF-HUME-REGULARITY-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-REGULARITY-MODELS",
+  "output_statement_id": "5e425206-7d54-55ea-844a-923b70f9d260",
   "rule": "direct-proof",
   "meaning": "Supply the fork, forward chain and scoped brute models and directly check every conjunct of their respective bundles. No observational-sufficiency claim is part of BareObservational; its stronger proposed sufficiency inference is separately refuted by Checks.",
   "assumption_statement_ids": [],

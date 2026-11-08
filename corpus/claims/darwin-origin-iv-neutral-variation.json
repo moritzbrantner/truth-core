@@ -1,18 +1,20 @@
 {
-  "id": "DARWIN-ORIGIN-IV-NEUTRAL-VARIATION",
-  "statement_id": "STMT-TELEONOMY-NEUTRAL-VARIATION",
-  "source_id": "DARWIN-ORIGIN",
+  "id": "b1ad0240-bc4d-53d3-af63-7da3d5368833",
+  "label": "Charles Darwin, On the Origin of Species…: Darwin says variations that are neither useful nor…",
+  "legacy_id": "DARWIN-ORIGIN-IV-NEUTRAL-VARIATION",
+  "statement_id": "9ab464ba-460f-5b91-89bd-d5af57016616",
+  "source_id": "031c0547-8313-5c01-88d2-6fe64e58ef24",
   "locator": "IV, natural selection, opening paragraph: Variations neither useful nor injurious",
   "interpretation": "Restricts the explanatory mechanism; does not deny neutral inheritance or claim all traits are adaptations.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

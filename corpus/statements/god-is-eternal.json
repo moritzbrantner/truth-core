@@ -1,1 +1,1 @@
-{"id": "STMT-GOD-IS-ETERNAL", "paraphrase": "God is eternal (ST I q.10 a.2).", "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal", "definition_ids": ["DEF-ETERNAL", "DEF-GOD-OF-CLASSICAL-THEISM"]}
+{"id": "5bec93b3-9950-5e46-b243-cf5a4658b929", "label": "GOD_4 is ETERNAL_1", "legacy_id": "STMT-GOD-IS-ETERNAL", "paraphrase": "God is eternal (ST I q.10 a.2).", "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal", "definition_ids": ["1291944d-a8b2-54eb-899d-66bd5f8b4762", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]}

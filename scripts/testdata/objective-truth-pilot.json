@@ -1,10 +1,39 @@
 {
   "description": "Issue #207: real canonical statement/argument IDs, tested with different available verifier records. Reciprocal arrows do not establish themselves; adding a real premise-free result grounds the cluster. The unverified case is merely a cyclic graph.",
-  "statement_ids": ["STMT-SOME-LEAN-PROPOSITION-HOLDS", "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"],
-  "argument_ids": ["LOGIC-SOME-PROPOSITION-HOLDS", "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"],
+  "statement_ids": [
+    "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a",
+    "8efdfe70-cb76-575f-a13c-16a35cfb7c9e"
+  ],
+  "argument_ids": [
+    "9ea473d3-5375-50b0-8d0b-20c4209ee77f",
+    "ec000eff-7de6-5ffc-b126-0b9bc328b741",
+    "c5c9ff49-a3ec-557c-a25a-ae360a25d478"
+  ],
   "cases": [
-    {"id": "unverified-cycle", "result_ids": [], "expected_established": []},
-    {"id": "verified-reciprocal-only", "result_ids": ["LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"], "expected_established": []},
-    {"id": "grounded-reciprocal", "result_ids": ["LOGIC-SOME-PROPOSITION-HOLDS", "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL", "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"], "expected_established": ["STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS", "STMT-SOME-LEAN-PROPOSITION-HOLDS"]}
+    {
+      "id": "unverified-cycle",
+      "result_ids": [],
+      "expected_established": []
+    },
+    {
+      "id": "verified-reciprocal-only",
+      "result_ids": [
+        "71ac7c71-9ea4-5cf0-a92a-25e01d79a9d2",
+        "e630f67c-488b-56f1-8d05-d2b9e19b88a0"
+      ],
+      "expected_established": []
+    },
+    {
+      "id": "grounded-reciprocal",
+      "result_ids": [
+        "7bcb4ebe-20c5-5221-85ca-2d47bd7236a7",
+        "71ac7c71-9ea4-5cf0-a92a-25e01d79a9d2",
+        "e630f67c-488b-56f1-8d05-d2b9e19b88a0"
+      ],
+      "expected_established": [
+        "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
+        "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a"
+      ]
+    }
   ]
 }

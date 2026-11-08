@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "id": "0a50ba83-6fe6-5f31-9e03-18f00bf6b941",
+  "label": "At the reading world w, whatever causes the necessity of something…, by Universal instantiation…",
+  "legacy_id": "INF-NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
   "input_statement_ids": [
-    "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
-    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
-    "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+    "71454b27-1943-5bb4-a1f4-4a1bb716082a",
+    "d6e558d0-131a-553a-a183-fa73aed91281",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
   ],
-  "output_statement_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "output_statement_id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
   "rule": "Universal instantiation, conjunction elimination and modus ponens",
   "meaning": "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding.",
   "assumption_statement_ids": [],

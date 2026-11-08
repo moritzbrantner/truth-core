@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-SIMPLICITY-COLLAPSE-555",
+  "id": "0f1b4870-c9e3-5cef-9142-462d4a9dda4c",
+  "label": "Tested whether a necessary simple ground can explain contingent things without making them necessary",
+  "legacy_id": "ATTEMPT-SIMPLICITY-COLLAPSE-555",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-SIMPLICITY-COLLAPSE-CORE",
-    "STMT-SIMPLICITY-ROOT-EXPOSURE",
-    "STMT-SIMPLICITY-BRANCH-COSTS",
-    "STMT-GOD-IS-SIMPLE"
+    "069506dc-ddac-5ff3-a7e8-3a44be023e43",
+    "23343381-fbb5-59aa-881d-3b5ee6d741da",
+    "d408dc47-ef80-5b0b-a8c2-e79566775fce",
+    "9f4e5f17-e808-5c58-9eac-faacbb5c3a56"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Tested whether a necessary simple ground can explain contingent things without making them necessary. Findings: act necessity, strict efficacy and a contingent effect are inconsistent in modal K without the bearer's necessity, and each deletion has a model. The root-route readings give collapse only with ModalCapacity and a decree treated as a respect, and each is deletable. At the level of explanation, the optional-act and extrinsic-effect replies do not remove the nonnecessitating link: every reason-closed founded account of a contingent fact has one and is not contrast-relevant, and relocated shows the gap moved one step behind the act. Among closed founded accounts, keeping necessitation throughout requires a target that is not contingent. Rejected: deriving act necessity from simplicity, because no checked or sourced bridge exists and the identity of act and being gives it only through BeingCarriesAct, a stated condition. Rejected: an enabling condition as a solution, because a true condition must itself be contingent and the effect itself qualifies. Rejected: attributing any horn to a source: the SEP Divine Simplicity entry and Vincent 2026 named in #555 were not read for this work and remain leads.",
   "blocker": "Whether simplicity entails act necessity or an identity of act and being, whether ModalCapacity holds, whether a decree is a respect, and whether contrast relevance is demanded are all open. No root premise discharged.",
   "evidence": [
-    "SIMPLICITY-COLLAPSE-CORE",
-    "SIMPLICITY-ROOT-EXPOSURE",
-    "SIMPLICITY-BRANCH-COSTS",
-    "SELECTED-EFFECT-BRIDGE-CERTIFICATE",
-    "EXPLANATORY-ADEQUACY-CORE",
-    "EXPLANATORY-SYMMETRY-CORE"
+    "6ef579ca-3680-5450-bca2-ffa243b36cb1",
+    "9cac6a2b-b4a6-523d-98b3-e0dab1989c75",
+    "32a911e0-6d7f-55da-a631-7042f15d3208",
+    "205b0b76-4626-50b9-a1d2-60e80f3b8bc1",
+    "94ae21f5-ec46-575f-90f2-dec9ce70c27a",
+    "9564115f-77a3-5bd2-8aac-94e1ac2ce0d2"
   ]
 }

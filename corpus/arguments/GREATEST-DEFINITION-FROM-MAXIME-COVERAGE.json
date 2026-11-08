@@ -1,21 +1,23 @@
 {
-  "id": "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+  "id": "9846490f-b9d5-5137-b4ab-2c189558bac7",
+  "label": "Independently supplied Maxime holds exactly for the existing…, from maxime coverage",
+  "legacy_id": "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
   "premise_statement_ids": [
-    "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
-    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION-FAILS",
-    "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION-FAILS"
+    "675b22e7-a29e-579a-8626-ffaefdbfae7b",
+    "aee5daab-cb7a-54ff-b6ca-82dbcd061794",
+    "54cc2502-0b6c-5ea1-b186-50d766c5222a"
   ],
-  "conclusion_statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+  "conclusion_statement_id": "85975f1d-cac5-59f8-8104-bd112de183ad",
   "inference_ids": [
-    "INF-GREATEST-DEFINITION-FROM-MAXIME-COVERAGE"
+    "fa8ffeb8-c342-5b9a-99bd-1a247bca6f06"
   ],
   "meaning": "Exact disjunct elimination requires named coverage and actual negations of merely-maximal and strict-supremacy calibrations. Inadequacy for an argument is not silently taken as falsity.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

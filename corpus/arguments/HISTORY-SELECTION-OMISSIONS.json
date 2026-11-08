@@ -1,21 +1,23 @@
 {
-  "id": "HISTORY-SELECTION-OMISSIONS",
+  "id": "65527afc-9ad0-58e2-b13e-2674a3988cc7",
+  "label": "Closed controls: isolating the actual accessibility component permits determination despite a…",
+  "legacy_id": "HISTORY-SELECTION-OMISSIONS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HISTORY-SELECTION-OMISSIONS",
+  "conclusion_statement_id": "3e4dcb0e-6bda-5521-bc98-43e17f3950a4",
   "inference_ids": [
-    "INF-HISTORY-SELECTION-OMISSIONS"
+    "be15dd2e-dbba-5f80-8587-9915d5334f32"
   ],
   "meaning": "Compute the equality-accessibility and repeated-history assignments; an explicit internal marker distinguishes the actual Bool world and violates constant-vector invariance. Separate vacuous implication from actual candidate truth and compute both positive weights.",
   "definition_ids": [
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-HISTORY-SELECTION-CONTROLS",
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-UNIQUE-FEEDBACK-STATE",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "23c649fa-6acc-5816-954b-5de851e007c1",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

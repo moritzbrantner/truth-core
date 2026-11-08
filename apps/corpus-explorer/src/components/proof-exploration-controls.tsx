@@ -25,7 +25,7 @@ export function ProofExplorationControls({ graph, target, state, start, hide }: 
     }}>
       <label className="field-label">Proof goal
         <select className="field-control" defaultValue={target} key={target} name="goal" required>
-          {graph.statements.map((statement) => <option key={statement.id} value={statement.id}>{statement.id}</option>)}
+          {graph.statements.map((statement) => <option key={statement.id} value={statement.id}>{statement.paraphrase.length > 90 ? `${statement.paraphrase.slice(0, 89)}…` : statement.paraphrase}</option>)}
         </select>
       </label>
       <label className="field-label">Exploration budget (visits)

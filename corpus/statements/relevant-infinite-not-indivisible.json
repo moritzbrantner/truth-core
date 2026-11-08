@@ -1,5 +1,7 @@
 {
-  "id": "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE",
+  "id": "62b9c061-439c-5b3a-a619-86875e75475c",
+  "label": "The infinite relevant to Aristotle's physical inquiry is not an indivisible item in the merely…",
+  "legacy_id": "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE",
   "paraphrase": "The infinite relevant to Aristotle's physical inquiry is not an indivisible item in the merely privative sense; it is the unbounded or untraversable sense.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.RelevantInfiniteNotIndivisibleReading"
 }

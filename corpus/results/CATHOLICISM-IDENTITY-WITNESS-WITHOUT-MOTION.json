@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
-  "argument_id": "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "id": "d69362f4-6ea7-5a0f-96b1-52d611364cac",
+  "label": "There is one and the same being that is…, from Nothing is simultaneously in act and in… and 21 more",
+  "legacy_id": "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
+  "argument_id": "c8aa7df3-c97b-5805-8cf7-d59850b92dd4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.IdentityWitness.uniqueClassicalGodIdentityWithoutMotion",

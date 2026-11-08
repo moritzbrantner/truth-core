@@ -1,14 +1,16 @@
 {
-  "id": "ARIST-MET-1003A-BEING-SAID-PROS-HEN-A",
-  "statement_id": "STMT-BEING-SAID-PROS-HEN",
-  "source_id": "ARIST-MET",
+  "id": "4db31058-d927-5b0b-8b56-9b335488f15d",
+  "label": "Aristotle, Metaphysics IV.2, 1003a33-b10: BEING_2 is said in many ways, but all in relation to one…",
+  "legacy_id": "ARIST-MET-1003A-BEING-SAID-PROS-HEN-A",
+  "statement_id": "d62dfe96-6814-571d-ae20-ccbb91e5b511",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.2, 1003a33-b10",
   "interpretation": "Read as stated: being is said in many ways, but in relation to one nature and one principle and not homonymously, as 'healthy' is said of what preserves, produces, signifies or receives health; some things are called beings as substances, others as affections of substance, a way to substance, its destructions, privations, qualities, or what produces it. Not formalized. It supplies the 'pros hen' sense of DEF-BEING-ANALOGICAL; it does not say that being admits of more and less, nor that the primary sense is God (the primary here is substance).",
   "status": "formalized",
   "definition_ids": [
-    "DEF-BEING-ANALOGICAL"
+    "954583f0-97f4-5f94-8fce-9e52ea267929"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-OPPOSES-UNIFORM",
+  "id": "e13ece73-119b-5427-be98-0c136b079bd4",
+  "label": "An actual selected religious sentence… alternative to Whenever a selected religious sentence…",
+  "legacy_id": "REL-MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-OPPOSES-UNIFORM",
   "subject_kind": "statement",
-  "subject_id": "STMT-RELIGIOUS-MATCHED-TRUTH-DIFFERENCE",
+  "subject_id": "8b39e3a5-1388-59eb-ad08-7d11e3a6497c",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "object_id": "1ff9aed4-fa1d-56e0-b9b8-ef79e8395e8e",
   "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
 }

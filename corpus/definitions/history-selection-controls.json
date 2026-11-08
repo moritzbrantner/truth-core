@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-SELECTION-CONTROLS",
+  "id": "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+  "label": "Beginningless unique signal and…: GlobalLaw signal requires the existing UniqueFeedback.Consistent…",
+  "legacy_id": "DEF-HISTORY-SELECTION-CONTROLS",
   "term": "beginningless unique signal and common-explanandum selection controls",
   "definition": "GlobalLaw signal requires the existing UniqueFeedback.Consistent equations at every Int time. fixedSignal is constantly (true,false); predecessor is the Int successor upstream graph, a source-free copying dependency with fixedSignal constant along every edge. The extra gate law is an independently supplied structural constraint, not a consequence of the copying rule. rooted keeps chains presence, times, accessibility and reason truth, replacing its causes by an actual source (w,0) related to every other actual node. isolated changes only accessibility to equality; repeated has one present Unit bearer at every Nat time in both worlds. weight assigns actual false weight2 and rival true weight1, both positive.",
   "basis": "stipulative",

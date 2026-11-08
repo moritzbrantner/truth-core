@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSARY-IF-EXISTENT-POSITIVE",
+  "id": "7758b424-ab32-57e4-8301-51f6415f1e3f",
+  "label": "G holds at every world accessible from the named standpoint\u2026, by Verified-mathematical-consequ\u2026",
+  "legacy_id": "INF-NECESSARY-IF-EXISTENT-POSITIVE",
   "input_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-NECESSARY-IF-EXISTENT",
-    "STMT-NECESSARY-IF-POSSIBLE-EXISTENCE"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "bd1281e6-75b3-5503-8c0a-f97213388c88",
+    "dda96283-22ca-5580-bdc5-56a21ade6cc3"
   ],
-  "output_statement_id": "STMT-NECESSARY-IF-NECESSARY-EXISTENCE",
+  "output_statement_id": "9a847482-82a0-5a76-987b-a9b46d38b7da",
   "rule": "verified-mathematical-consequence",
   "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-NECESSARY-IF-POSSIBLE-EXISTENCE, derive: G holds at every world accessible from the named standpoint (\u25a1G); this is neither frame-global truth nor the individual property Scott NE.",
   "assumption_statement_ids": [],

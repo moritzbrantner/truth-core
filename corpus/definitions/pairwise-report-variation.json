@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PAIRWISE-REPORT-VARIATION",
+  "id": "57534b14-5072-5636-8ceb-994b9e0190ae",
+  "label": "Individual and pairwise\u2026: IndividualVariation realizes both Boolean values of each selected report",
+  "legacy_id": "DEF-PAIRWISE-REPORT-VARIATION",
   "term": "individual and pairwise elementary-report variation",
   "definition": "IndividualVariation realizes both Boolean values of each selected report. PairwiseVariation realizes every assignment to every ordered pair of distinct selected reports. In the parity-constrained subtype of old Nat\u2192Bool\u00d7Bool worlds, p=r0, q=b0 and r=r1 satisfy r=p XOR q; pair/individual variation holds although full triple realization fails. This is possibilistic assignment variation, not probabilistic independence or causal autonomy.",
   "basis": "stipulative",

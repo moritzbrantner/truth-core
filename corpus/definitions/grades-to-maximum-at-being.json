@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GRADES-TO-MAXIMUM-AT-BEING",
+  "id": "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+  "label": "Grades imply a maximum at the supplied…: At the supplied esse respect, existence of a pair related…",
+  "legacy_id": "DEF-GRADES-TO-MAXIMUM-AT-BEING",
   "term": "grades imply a maximum at the supplied esse respect",
   "definition": "At the supplied esse respect, existence of a pair related by MoreIn entails existence of an in-act individual with no greater individual in that same respect. No other respect is constrained.",
   "basis": "stipulative",

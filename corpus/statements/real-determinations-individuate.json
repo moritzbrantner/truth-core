@@ -1,13 +1,15 @@
 {
-  "id": "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
+  "id": "abe615df-25ae-5aa9-8611-140ca98ae522",
+  "label": "Any two beings, first movers or not, that have the same real determinations are one and the same…",
+  "legacy_id": "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
   "paraphrase": "OPEN, unattributed identity of real indiscernibles: any two beings, first movers or not, that have the same real determinations are one and the same being.",
   "lean_declaration": "TruthCore.Causality.PureActThisness.RealDeterminationsIndividuate",
   "definition_ids": [
-    "DEF-REAL-DETERMINATION",
-    "DEF-PURE-PERFECTION",
-    "DEF-IDENTITY-OF-REAL-INDISCERNIBLES"
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "9fc4d899-6e47-5537-902d-65606751da68"
   ],
   "disambiguation_ids": [
-    "DISAMB-THISNESS-REAL-BARE"
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
   ]
 }

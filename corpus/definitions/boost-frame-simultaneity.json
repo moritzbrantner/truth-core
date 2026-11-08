@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOOST-FRAME-SIMULTANEITY",
+  "id": "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+  "label": "COORDINATE_FRAME_SIMULTANEITY_2: Simultaneous p q is equality p.1=q.1 of supplied coordinate times",
+  "legacy_id": "DEF-BOOST-FRAME-SIMULTANEITY",
   "term": "coordinate-frame simultaneity",
   "definition": "Simultaneous p q is equality p.1=q.1 of supplied coordinate times. The transformed comparison uses the first coordinates of boost p and boost q.",
   "basis": "stipulative",

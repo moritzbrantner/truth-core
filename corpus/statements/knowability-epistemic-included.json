@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
+  "id": "2ece7f86-d7fe-5327-894e-0d8cb4f864c7",
+  "label": "Every epistemic alternative is modally accessible from the same world",
+  "legacy_id": "STMT-KNOWABILITY-EPISTEMIC-INCLUDED",
   "paraphrase": "Every epistemic alternative is modally accessible from the same world. This is an explicit open compatibility bridge.",
   "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.Included",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

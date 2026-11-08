@@ -1,11 +1,13 @@
 {
-  "id": "STMT-KANT-MOST-REAL-NONDIFFERENCE-REPORTED",
+  "id": "e2f4b27c-6869-5cd5-b8e2-cd0c6ac63a95",
+  "label": "The most-real beings do not differ in any respect, in Kant’s reported conversion",
+  "legacy_id": "STMT-KANT-MOST-REAL-NONDIFFERENCE-REPORTED",
   "paraphrase": "The most-real beings do not differ in any respect, in Kant’s reported conversion.",
   "definition_ids": [
-    "DEF-KANT-REALITY-PROFILE",
-    "DEF-KANT-REALITY-INDISCERNIBILITY"
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
+    "79c08b30-2adf-59e1-b607-3f5cb485946a"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-REALITY-IDENTITY"
+    "29947523-056c-5415-a9e7-c6968fb926e1"
   ]
 }

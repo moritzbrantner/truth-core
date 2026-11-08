@@ -8,18 +8,19 @@ import re
 import subprocess
 import tempfile
 from typing import Any
+from corpus_ids import legacy_uuid  # noqa: E402
 
 SCHEMA_VERSION = 1
 CORPUS_KINDS = ("statements", "definitions", "disambiguations", "arguments", "results", "relations", "claims", "inferences")
 FIRST_SLICE = (
-    "STMT-CAUSE-PRINCIPLE-BROAD",
-    "STMT-CAUSE-PRINCIPLE-DISTINCT",
-    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
-    "STMT-CLASSICAL-ATTRIBUTES-SUFFICE",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
-    "STMT-MAXIME-ENS-IS-GOD",
-    "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS",
-    "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
+    legacy_uuid("statement", "STMT-CAUSE-PRINCIPLE-BROAD"),
+    legacy_uuid("statement", "STMT-CAUSE-PRINCIPLE-DISTINCT"),
+    legacy_uuid("statement", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"),
+    legacy_uuid("statement", "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"),
+    legacy_uuid("statement", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"),
+    legacy_uuid("statement", "STMT-MAXIME-ENS-IS-GOD"),
+    legacy_uuid("statement", "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS"),
+    legacy_uuid("statement", "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT"),
 )
 NOTES = [
     "Derived presentation of elaborated Lean expressions, not proof support or semantic equivalence.",

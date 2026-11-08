@@ -1,8 +1,10 @@
 {
-  "id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
+  "id": "f43962a3-1a34-593b-8856-a97336e8ce18",
+  "label": "There is an intelligent first mover moved by none that directs every natural body to an end",
+  "legacy_id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
   "paraphrase": "There is an intelligent first mover moved by none that directs every natural body to an end.",
   "lean_declaration": "TruthCore.Case.Catholicism.OneIntelligentFirstMoverGovernsNature",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d"
   ]
 }

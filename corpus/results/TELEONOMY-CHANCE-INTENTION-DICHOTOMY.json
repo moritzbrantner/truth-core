@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
-  "argument_id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "id": "a101881b-28c6-5684-b859-d559c1fc1f07",
+  "label": "Reuses #179’s necessityModel: regular beneficial recurrence and nonchance do not entail the…",
+  "legacy_id": "TELEONOMY-CHANCE-INTENTION-DICHOTOMY",
+  "argument_id": "312da820-f9f5-564d-b513-eb498a49a822",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.ChanceIntentionDichotomy.chanceIntentionDichotomy",

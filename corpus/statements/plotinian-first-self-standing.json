@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PLOTINIAN-FIRST-SELF-STANDING",
+  "id": "28c6f237-beb0-5236-a2b4-677a51cf0ed5",
+  "label": "There must be a self-standing first principle, prior to all subsequent things and free of…",
+  "legacy_id": "STMT-PLOTINIAN-FIRST-SELF-STANDING",
   "paraphrase": "There must be a self-standing first principle, prior to all subsequent things and free of combination and composition, genuinely one rather than something else that merely has unity.",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

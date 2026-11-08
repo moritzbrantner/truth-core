@@ -1,26 +1,28 @@
 {
-  "id": "BEARER-REGRESS-CONTROLS",
+  "id": "c772b5be-77ab-52fc-89f1-14506ab5a777",
+  "label": "Logical models and exclusions",
+  "legacy_id": "BEARER-REGRESS-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BEARER-REGRESS-CONTROLS",
+  "conclusion_statement_id": "3f0871de-1c36-5992-816a-88274e435aba",
   "inference_ids": [
-    "INF-BEARER-REGRESS-CONTROLS"
+    "50811604-b767-5c7e-ba0c-cf503710d142"
   ],
   "meaning": "Branch witnesses for the four outcome forms and the bundle case, two non-exclusivity models, omission models for the ancestry premise and each bridge, a contingent terminus and a negative-test control, plus the universal exclusion of the nonterminating forms by the terminus forms. Logical models only; no premise is discharged and none is claimed metaphysically possible.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-BEARER-SUPPORT-ANCESTRY",
-    "DEF-BEARER-SUPPORT-OUTCOMES",
-    "DEF-CATEGORIES-SUBJECT-RELATIONS",
-    "DEF-COGITO-SUBSTANCE-PREDICATE",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+    "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+    "bba020f8-c553-542e-a54a-250e2d116dc7",
+    "f31b2ba4-190d-56f8-903e-9953ae139773",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARS-INHERES-SUPPORTS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "f83e9a34-7994-5eb1-8431-50776f097f58",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

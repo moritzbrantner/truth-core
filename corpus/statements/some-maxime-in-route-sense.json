@@ -1,13 +1,14 @@
 {
-  "id": "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
+  "id": "55a94a55-234d-50e1-8fda-1429ed5d2d3d",
   "label": "Something is maxime ens in the route's reading of the existence use",
+  "legacy_id": "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
   "paraphrase": "OPEN analyst premise (attribution deferred): something is maxime ens, the superlative in the route's reading of its existence use.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeMaximeInRouteSense",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-MAXIME-ENS"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

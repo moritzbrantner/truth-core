@@ -1,9 +1,11 @@
 {
-  "id": "REL-CCC-185-189-SUPPORTS-ORDINARY-USE-CONFESSES",
+  "id": "e01f15bb-e39f-525f-8a7a-a76d853bde1a",
+  "label": "Catholic Church, Catechism of the… supports Case-2 evidence, supported: some move of… (4)",
+  "legacy_id": "REL-CCC-185-189-SUPPORTS-ORDINARY-USE-CONFESSES",
   "subject_kind": "claim",
-  "subject_id": "CCC-185-189-CREED-PROFESSED",
+  "subject_id": "4d0385c3-e6d5-5a39-bb11-bb7571860ea8",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD",
+  "object_id": "0d795e49-20b7-58b2-ac42-6f63accda4fe",
   "note": "The creed is the common, normative language of faith that Christians profess, first at Baptism. Gap: the Catechism describes the profession; how ordinary believers understand it, and that it is a confession in the sense of DEF-CONFESSES-REFERENT, is the reading."
 }

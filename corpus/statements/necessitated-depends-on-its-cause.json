@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
+  "id": "71454b27-1943-5bb4-a1f4-4a1bb716082a",
+  "label": "Whatever has its necessity caused by c depends for its being on c",
+  "legacy_id": "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE",
   "paraphrase": "OPEN analyst premise: whatever has its necessity caused by c depends for its being on c.",
   "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessitatedDependsOnItsCause",
   "definition_ids": [
-    "DEF-NECESSARY-PER-SE",
-    "DEF-DEPENDS-FOR-BEING"
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

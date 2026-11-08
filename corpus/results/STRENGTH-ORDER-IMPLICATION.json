@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-IMPLICATION",
-  "argument_id": "STRENGTH-ORDER-IMPLICATION",
+  "id": "ebdd9c00-2231-5e80-96a9-55b377a2ead6",
+  "label": "For the supplied mathematical linear order and…, from For the supplied mathematical linear order…",
+  "legacy_id": "STRENGTH-ORDER-IMPLICATION",
+  "argument_id": "872d82a5-04f1-5141-8707-8ab789792a04",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.implication",

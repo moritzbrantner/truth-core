@@ -1,17 +1,19 @@
 {
-  "id": "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT",
+  "id": "bcbfc8d8-eb60-5111-bc5b-d33c76492a5e",
+  "label": "Every located set representative has a located representative of an actual strict member…",
+  "legacy_id": "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT",
   "paraphrase": "Open location criterion: every located set representative has a located representative of an actual strict member, interpreted through a map into Mathlib.ZFSet. The member need not occupy the same region. Full membership closure, all-set coverage and object-level presence are not assumed.",
   "lean_declaration": "TruthCore.Ontology.NaturalismSets.SetLocationHasMemberSupport",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NATURALISM-SET-REPRESENTATIVES",
-    "DEF-SET-LOCATION-MEMBER-SUPPORT",
-    "DEF-MEMBER-CONFERS-SET-LOCATION"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "724bf396-ab5d-51da-b750-4bbc244d4f32",
+    "792ff3b6-9a4e-5352-a802-d80e30eff0cb",
+    "d9c0e27f-e5b0-5cda-bdfb-bd20a4233f64"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL"
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ]
 }

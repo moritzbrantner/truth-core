@@ -1,6 +1,8 @@
 {
-  "id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
-  "argument_id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "id": "a259c28f-0651-535c-b629-5bcd1c07178d",
+  "label": "Two nonempty controls: the raw message-only rival coexists with the full historical commission…",
+  "legacy_id": "MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "argument_id": "bb616ef2-90f0-55ae-b8a3-10a82fc49770",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Models.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Models.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageReportModels",

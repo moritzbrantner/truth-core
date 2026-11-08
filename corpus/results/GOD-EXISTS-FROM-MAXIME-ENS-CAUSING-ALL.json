@@ -1,7 +1,8 @@
 {
-  "id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "id": "d9db435c-005b-5f23-835c-7f6c4f1d5e88",
   "label": "Stage 1 from the quarta via's conclusion: a MAXIME_1 being causing all being is God",
-  "argument_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "legacy_id": "GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL",
+  "argument_id": "678ff65f-14b7-5e62-8880-0d9ed2205063",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.godExistsFromMaximeEnsCausingAll",

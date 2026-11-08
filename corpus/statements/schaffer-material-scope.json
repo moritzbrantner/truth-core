@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
+  "id": "c9e39383-4517-5681-a437-f2e92bda907f",
+  "label": "Schaffer assumes a material cosmos with proper parts; his comparison concerns actual material…",
+  "legacy_id": "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
   "paraphrase": "Schaffer assumes a material cosmos with proper parts; his comparison concerns actual material objects, excluding deities and spirits from its scope.",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

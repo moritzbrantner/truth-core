@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
+  "id": "26cfa7e9-1a3d-599a-af6b-cd046586be34",
+  "label": "Natural universality belongs to a mental intention as a naturally predicable sign of many; an…",
+  "legacy_id": "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
   "paraphrase": "Natural universality belongs to a mental intention as a naturally predicable sign of many; an uttered word has conventional universality by voluntary institution. These are different accounts of signification.",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

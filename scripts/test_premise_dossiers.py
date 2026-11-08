@@ -7,7 +7,7 @@ from premise_dossiers import dossier_index, validate_attempt
 
 
 def attempt(**overrides):
-    return {"id": "ATTEMPT-EXAMPLE", "statement_ids": ["P"], "date": "2026-10-26",
+    return {"id": "0b6f3a52-6d0e-4c3b-8f43-6a0d3c1f9e21", "statement_ids": ["P"], "date": "2026-10-26",
             "kind": "derivation", "outcome": "failed", "summary": "The proposed inference did not follow.",
             "evidence": ["RESULT", "CLAIM", "PR-413"], **overrides}
 
@@ -52,7 +52,7 @@ class DossierTests(unittest.TestCase):
         self.assertTrue(dossiers["P"]["route_contributions"][0]["open_leaf"])
         self.assertEqual(dossiers["P"]["route_contributions"][0]["cost"], 1)
         self.assertFalse(dossiers["R"]["route_contributions"][0]["open_leaf"])
-        self.assertEqual(dossiers["P"]["countermodel_attempt_ids"], ["ATTEMPT-EXAMPLE"])
+        self.assertEqual(dossiers["P"]["countermodel_attempt_ids"], ["0b6f3a52-6d0e-4c3b-8f43-6a0d3c1f9e21"])
         self.assertEqual(dossiers["R"]["countermodel_attempt_ids"], [])
 
     def test_inference_and_sense_links_are_included(self):

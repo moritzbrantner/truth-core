@@ -1,15 +1,16 @@
 {
-  "id": "STMT-POTENCY-SENSES-EXHAUSTIVE",
+  "id": "887dea7d-64aa-54bb-8890-c105cd573f47",
   "label": "In potency is read as POTENCY_1, POTENCY_2 or POTENCY_3 in both prima via uses",
+  "legacy_id": "STMT-POTENCY-SENSES-EXHAUSTIVE",
   "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of 'in potency' in the prima via step (what is moved is in potency; nothing is in act and in potency in the same respect) is read as ADOPTED potency (POTENCY_1, capacity without the act), INDEPENDENT potency (POTENCY_2, the primitive InPotency relation) or bare CAPACITY (POTENCY_3, whether or not exercised), selected by the route's reading, and the use's predicate is exactly that sense's predicate.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.PotencySensesExhaustive",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-POTENCY",
-    "DEF-INDEPENDENT-POTENCY",
-    "DEF-CAPACITY-TO-BE"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY"
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ]
 }

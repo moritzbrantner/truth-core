@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "id": "cf2a42c9-9d27-53e7-87a5-1cd2df4e65d4",
+  "label": "Three independent finite interpretations omit, respectively, actual…, by Constructive-proof",
+  "legacy_id": "INF-COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "output_statement_id": "2466528e-e5fc-5b31-8282-daca3e45c2ad",
   "rule": "constructive-proof",
   "meaning": "Construct three independent Unit-carrier interpretations, each satisfying two of the three advertised premises and falsifying the third and the subject conclusion.",
   "assumption_statement_ids": [],

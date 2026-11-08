@@ -1,6 +1,8 @@
 {
-  "id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
-  "argument_id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "id": "d9071aa3-ad8e-514c-99fb-9a1f8a17a0fb",
+  "label": "Whatever is more such than something has the perfection itself: what is…, from positive degree",
+  "legacy_id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "argument_id": "cf4db879-8db5-56b2-b291-a50ad691ec2f",
   "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
   "theorem": "TruthCore.Results.Causality.Round3FourthWay.moreSuchFromPositiveDegree",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
+  "id": "5dfe8784-faad-5c96-b40e-0cb89b30ba63",
+  "label": "Binary belief/polarity response…: Act belief polarity follows belief when polarity=false and…",
+  "legacy_id": "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
   "term": "binary belief/polarity response mechanism",
   "definition": "act belief polarity follows belief when polarity=false and reverses it when polarity=true. belief is one binary representation at each input; target is its independently supplied true value and successful response. Successful requires act=target at every input. Direct requires polarity=false everywhere. Polarity is a thin action-preference proxy; the Boolean rule supplies no complete account of desire, content or agency.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "REL-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES-INSTANCE-OF-SCHEMA",
+  "id": "df232b56-acfa-5ac6-90bb-f196c0334478",
+  "label": "For each named respect, if all beings… instance of schema For every preorder with a…",
+  "legacy_id": "REL-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES-INSTANCE-OF-SCHEMA",
   "predicate": "instance_of_schema",
   "subject_kind": "statement",
-  "subject_id": "STMT-FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "subject_id": "c7e171ba-c6a6-57c0-81c8-1db570be1544",
   "object_kind": "statement",
-  "object_id": "STMT-MAXIMUM-ORDER-SCHEMA",
-  "verification_result_id": "MAXIMUM-ORDER-SCHEMA",
+  "object_id": "be510bc8-fa1f-597e-98a8-30db162a15cc",
+  "verification_result_id": "a83d979d-d2d7-5fbc-8a0a-0acb668febc6",
   "instance_theorem": "TruthCore.Results.Logic.MaximumOrderSchema.fourthWayMaximumSchemaInstances",
   "schema_theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",
   "note": "Verified conditional transfer through the #386 order representation and the generic strict-causal-ascent theorem. The source-shaped representation and causal comparative remain inside the instance statement; registration neither sources those hypotheses nor closes a philosophical frontier premise."

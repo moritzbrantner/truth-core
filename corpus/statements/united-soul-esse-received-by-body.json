@@ -1,11 +1,13 @@
 {
-  "id": "STMT-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
+  "id": "daa5f6c7-68b9-53fa-aab2-687318830692",
+  "label": "While the human soul is united to the body, the body is the subject that receives the soul's esse…",
+  "legacy_id": "STMT-UNITED-SOUL-ESSE-RECEIVED-BY-BODY",
   "paraphrase": "While the human soul is united to the body, the body is the subject that receives the soul's esse, although that esse does not depend on the body. Nothing is said about the separated soul, whose esse belongs to it alone without the body. The full source assertion, including dependence and separated-state contrasts, remains unbound; separate analyst siblings now encode union, communication, act identity, sense transfer and recipient distinction with checked conditional consequences. Neither interpretation of canonical reception is assigned to this source claim.",
   "definition_ids": [
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSE"
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
   ]
 }

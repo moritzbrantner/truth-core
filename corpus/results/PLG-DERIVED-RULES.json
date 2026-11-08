@@ -1,6 +1,8 @@
 {
-  "id": "PLG-DERIVED-RULES",
-  "argument_id": "PLG-DERIVED-RULES",
+  "id": "08f03503-49e9-5fd1-a64c-148a0bb3d128",
+  "label": "In Fine's pure logic of ground, for every type of atoms and every set of assumed sequents…",
+  "legacy_id": "PLG-DERIVED-RULES",
+  "argument_id": "5f8d8d12-64d1-5a24-b147-91dffe3850bd",
   "challenge_module": "TruthCore.Results.Modern.Fine.PlgDerivedRules.Challenge",
   "solution_module": "TruthCore.Results.Modern.Fine.PlgDerivedRules.Solution",
   "theorem": "TruthCore.Results.Modern.Fine.PlgDerivedRules.plgDerivedRules",

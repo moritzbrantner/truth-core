@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
+  "id": "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+  "label": "Modal causal opportunity for a…: In analyst-defined Scenario World Being, PossiblyBeginsAt s w…",
+  "legacy_id": "DEF-POSSIBLE-CAUSAL-OPPORTUNITY",
   "term": "modal causal opportunity for a beginning of contingent concrete reality",
   "definition": "In analyst-defined Scenario World Being, PossiblyBeginsAt s w asserts accessibility of some complete history with a stipulated first obtaining (beginsContingency) and at least one existent contingent concrete individual. CausalOpportunityAt s w asserts that if this beginning is possible, an accessible history contains an external, currently existing concrete causal bearer of that state. The totality-level causal relation is separate from efficient causation of each member. Unlike an unrestricted PSR, actual beginnings need not be caused. The possibility and adequacy of the premise remain independent metaphysical obligations.",
   "basis": "stipulative",

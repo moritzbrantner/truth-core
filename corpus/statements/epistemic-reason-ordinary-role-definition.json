@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION",
+  "id": "eaee221f-3b1c-57c6-8817-789c12e71867",
+  "label": "Candidate ordinary-role meaning: an attributed consideration counts as a reason for an attitude…",
+  "legacy_id": "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION",
   "paraphrase": "Candidate ordinary-role meaning: an attributed consideration counts as a reason for an attitude iff its content is assessable, it applies in the selected circumstances and it has favorable epistemic bearing. The favorable bearing is an independently interpreted framework relation, not defined as production, reward or preference-independent force.",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.OrdinaryDefinition",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

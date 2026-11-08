@@ -1,9 +1,11 @@
 {
-  "id": "REL-EPISTEMIC-PRODUCTION-FAILURE-ALTERNATIVE-TO-DEFINITION",
+  "id": "bff97b6f-6046-5bbf-b91e-5fd102f9246d",
+  "label": "The selected attributed reason relation… alternative to Candidate bare production meaning: an…",
+  "legacy_id": "REL-EPISTEMIC-PRODUCTION-FAILURE-ALTERNATIVE-TO-DEFINITION",
   "subject_kind": "statement",
-  "subject_id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION-FAILS",
+  "subject_id": "c3ed0f71-aa20-5e44-acc9-b844922cc0d7",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EPISTEMIC-REASON-BARE-PRODUCTION-DEFINITION",
+  "object_id": "6b6b137c-805d-5c1e-b41f-d176e7cf8e7a",
   "note": "Exact profile-specific negation of this bare-production calibration, not a denial of naturalistic realization."
 }

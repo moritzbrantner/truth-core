@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-E3",
+  "id": "c2f63731-873e-5e82-ad62-b6ba015aa508",
+  "label": "Cephas and at least one further disciple had experiences they sincerely interpreted as encounters…",
+  "legacy_id": "STMT-PILOT-E3",
   "paraphrase": "Cephas and at least one further disciple had experiences they sincerely interpreted as encounters with Jesus; the cause is open.",
   "lean_declaration": "TruthCore.History.Resurrection.SincereExperiences",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

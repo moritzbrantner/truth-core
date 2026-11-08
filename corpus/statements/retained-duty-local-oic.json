@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+  "id": "2cc0cc30-8404-5681-94ec-b5cf6e85a93f",
+  "label": "For the fixed agent and identical original-return action only, duty at after implies practical…",
+  "legacy_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
   "paraphrase": "For the fixed agent and identical original-return action only, duty at after implies practical ability at after. No OIC for compensation or debt repayment is assumed.",
   "lean_declaration": "TruthCore.Modal.RetainedDuty.LocalOIC",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

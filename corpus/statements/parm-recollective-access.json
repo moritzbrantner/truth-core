@@ -1,28 +1,30 @@
 {
-  "id": "STMT-PARM-RECOLLECTIVE-ACCESS",
+  "id": "c272a798-e8c3-55f8-9465-dca0fdefade7",
+  "label": "From seeing equal sticks or stones we think of and acquire knowledge of the Equal itself, which…",
+  "legacy_id": "STMT-PARM-RECOLLECTIVE-ACCESS",
   "paraphrase": "From seeing equal sticks or stones we think of and acquire knowledge of the Equal itself, which differs from them. This is a recollective access proposal, presupposing the relevant prior knowledge in its surrounding argument; it does not license universal transfer from any perceived resemblance or an empirical derivation of Forms.",
   "definition_ids": [
-    "DEF-PARM-AGENT-MODES",
-    "DEF-PARM-DIRECT-COGNITION",
-    "DEF-PARM-KNOWLEDGE",
-    "DEF-PARM-PRESENTATION",
-    "DEF-PARM-REALM-CLOSURE",
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PLATONIC-INTELLIGIBLE",
-    "DEF-PLATONIC-NONIDENTITY",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "a5ea40ca-d78b-5fad-8fa1-a7e35602ad26",
+    "80cbb7c2-281a-5045-9221-cd15f9647596",
+    "e8f75ab4-06f8-504e-a90e-728229729216",
+    "38c45adf-0bcb-529d-a2c4-310d4bf0e5f3",
+    "9c0ca5cc-5c7b-51e1-8a54-9cde0829c0c2",
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+    "076d18ea-7436-52cd-bbb9-ee6c0842e2c3",
+    "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PARM-KNOWLEDGE",
-    "DISAMB-PARM-SEPARATION",
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-PREDICATION",
-    "DISAMB-PLATONIC-SEPARATION"
+    "5a295045-b91a-5c62-ac84-9b24bb399ddd",
+    "2e81d282-81fe-5f88-a787-ae9ad3403164",
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f",
+    "e8547175-8208-5cc0-b5bb-39577315f2ac"
   ]
 }

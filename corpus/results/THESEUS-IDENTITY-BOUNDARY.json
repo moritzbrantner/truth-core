@@ -1,6 +1,8 @@
 {
-  "id": "THESEUS-IDENTITY-BOUNDARY",
-  "argument_id": "THESEUS-IDENTITY-BOUNDARY",
+  "id": "40b4ee29-efd1-5d23-8bc4-98a7e9a88ee8",
+  "label": "In a four-occurrence, two-slot replacement/reassembly fixture with fixed component inventories…",
+  "legacy_id": "THESEUS-IDENTITY-BOUNDARY",
+  "argument_id": "26f2e54f-aa99-5a65-a9d8-1398956b18fa",
   "challenge_module": "TruthCore.Results.Mereology.TheseusIdentity.Challenge",
   "solution_module": "TruthCore.Results.Mereology.TheseusIdentity.Solution",
   "theorem": "TruthCore.Results.Mereology.TheseusIdentity.certificate",

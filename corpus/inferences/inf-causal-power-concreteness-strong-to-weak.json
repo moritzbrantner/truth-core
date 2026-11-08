@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "id": "42e077ad-70ff-517d-925b-913190c56c76",
+  "label": "Owner framework commitment: At the selected world w, every candidate…, by Conjunction-elimination",
+  "legacy_id": "INF-CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
   "input_statement_ids": [
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG"
+    "35871d99-a2e5-5625-82c4-2b61836633a2"
   ],
-  "output_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "output_statement_id": "e27489c3-7419-5123-8476-386633e62532",
   "rule": "conjunction-elimination",
   "meaning": "The strong version is the weak version conjoined with a clause about the other causal senses; project the first conjunct.",
   "assumption_statement_ids": [],

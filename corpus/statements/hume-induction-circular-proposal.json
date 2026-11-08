@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-INDUCTION-CIRCULAR-PROPOSAL",
+  "id": "77c2a0e5-3cda-54a9-8210-9cf7fb6fd87d",
+  "label": "Proposed probable experiential arguments for uniformity depend on that uniformity",
+  "legacy_id": "STMT-HUME-INDUCTION-CIRCULAR-PROPOSAL",
   "paraphrase": "Proposed probable experiential arguments for uniformity depend on that uniformity. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.CircularProposal",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-CIRCLE",
-    "DEF-HUME-INDUCTION-FOUNDATION"
+    "c5f45879-1d0c-5de6-93db-de53ffd8bdaa",
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

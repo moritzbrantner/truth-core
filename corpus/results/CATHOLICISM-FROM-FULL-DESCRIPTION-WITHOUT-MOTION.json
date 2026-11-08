@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
-  "argument_id": "CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
+  "id": "edf15c32-df1f-5d2c-8c84-c3ce51e9616a",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching…, from full description without MOTION_1",
+  "legacy_id": "CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
+  "argument_id": "e02bea79-5a3a-5a28-9214-6b98007aaccf",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootFull.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootFull.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.RootFull.catholicismFullDescriptionWithoutMotion",

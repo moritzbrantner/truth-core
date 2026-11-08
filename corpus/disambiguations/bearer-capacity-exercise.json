@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-BEARER-CAPACITY-EXERCISE",
+  "id": "f7c87b13-1892-5597-88e6-3216e4130abb",
+  "label": "Essential power versus actual exercise",
+  "legacy_id": "DISAMB-BEARER-CAPACITY-EXERCISE",
   "term": "essential power versus actual exercise",
   "sense_definition_ids": [
-    "DEF-BEARER-CAPACITY-EXERCISE",
-    "DEF-INTERVENTION-RESPONSE-CAPACITY"
+    "e42cac1d-9e6b-57f6-b023-4c9204b9464c",
+    "c68008d0-5517-5907-9333-ce8a6f1e5f23"
   ],
   "resolution": "Capacity is the existing accessible intervention-response difference. directed is independent world-invariant relational data about a rigid candidate, even if that candidate is absent. Neither is identified with a full intrinsic directed power. ExercisesCausation means an actual outgoing edge with existing distinct endpoints in the checked adapters. ManifestationRule is an explicit unsourced bridge, not hidden in power or necessity. Necessary activity fixes no recipient; the existing alternating-effects control preserves a contingent effect and failure of propositional collapse.",
   "term_label": "ESSENTIAL_POWER_VERSUS_ACTUAL_EXERCISE",
@@ -11,13 +13,13 @@
     {
       "id": "3693fa6d-4158-41cb-9ae1-e99c0ab821a6",
       "label": "ESSENTIAL_POWER_VERSUS_ACTUAL_EXERCISE_1",
-      "definition_id": "DEF-BEARER-CAPACITY-EXERCISE",
+      "definition_id": "e42cac1d-9e6b-57f6-b023-4c9204b9464c",
       "lean_declaration": "TruthCore.Modal.BearerExercise.responseOntic"
     },
     {
       "id": "3c0186f7-bfd6-4efa-9b7c-e3adf6b7d3f7",
       "label": "ESSENTIAL_POWER_VERSUS_ACTUAL_EXERCISE_2",
-      "definition_id": "DEF-INTERVENTION-RESPONSE-CAPACITY",
+      "definition_id": "c68008d0-5517-5907-9333-ce8a6f1e5f23",
       "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Capacity"
     }
   ]

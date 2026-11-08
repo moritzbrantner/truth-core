@@ -1,16 +1,18 @@
 {
-  "id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "id": "48a104c9-ac4c-5b9a-9caf-abfb88ffa1af",
+  "label": "The existing propositional modal language with existence/rigid-equality atoms is invariant under…",
+  "legacy_id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "conclusion_statement_id": "56fbf7a6-1a69-59fd-99d8-7c4acb5b8930",
   "inference_ids": [
-    "INF-MODAL-REDUCT-GROUNDING-INDEPENDENCE"
+    "92fe6845-7698-56ca-87e6-47b369163e98"
   ],
   "meaning": "Ground-free existing modal-language structural induction and exact common-reduct grounded/ungrounded models.",
   "definition_ids": [
-    "DEF-GROUNDING-MODAL-REDUCT",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "aed2a89e-2482-5cd3-921f-69524c6c70c5",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

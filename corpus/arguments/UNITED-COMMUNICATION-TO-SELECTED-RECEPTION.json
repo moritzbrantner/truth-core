@@ -1,23 +1,25 @@
 {
-  "id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "id": "855311f3-b2f5-577c-9aad-776d6eeb20f3",
+  "label": "The canonical reception relation…, from The selected whole human is united with its… and 3 more",
+  "legacy_id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
   "premise_statement_ids": [
-    "STMT-SELECTED-HUMAN-SOUL-BODY-UNION",
-    "STMT-SELECTED-UNION-COMMUNICATES-SOUL-ACT-TO-BODY",
-    "STMT-COMMUNICATED-ACT-IS-SELECTED-SOUL-ESSE",
-    "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION"
+    "1754944c-4901-59cb-816c-7e6eab3ea73d",
+    "2a8222ee-86bd-553b-bf33-4c95185092ce",
+    "50aa035b-3e99-5489-8e00-815f5d75c1af",
+    "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+  "conclusion_statement_id": "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
   "inference_ids": [
-    "INF-UNITED-COMMUNICATION-TO-SELECTED-RECEPTION"
+    "4f5352b3-05f0-55e1-ab59-0fbee3d3b7dd"
   ],
   "meaning": "Explicit interpretation transport transcription: actual selected union, conditional communication, same-act identity and same-sense transfer yield canonical reception of the SAME bearer/recipient/state.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

@@ -1,19 +1,21 @@
 {
-  "id": "INF-REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "id": "adffe6a9-c79f-56c8-aad3-187cb09fb400",
+  "label": "At least one individual exists at the selected world and at…, by Actual-reflexivity-necessity…",
+  "legacy_id": "INF-REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+    "523917cf-d978-5a15-87fc-61186d7e59de",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "21265cfa-522d-5151-9435-b4e8f55c0c0f"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "actual-reflexivity-necessity-actualization-and-scoped-fusion-reductio",
   "meaning": "Use existing selected-world ActualReflexive to actualize ANY NecessaryAt p directly by evaluating its universal definition at w. A shared unregistered helper consumes that pointwise actualization; it does not derive actual-part existence. Under scoped denial of any actual NE, every candidate has no necessary parts, since any necessary part would be actual and would witness the denied NE. Actual sum/C3 gives cause c, C1 makes c actual, the scoped classification places c in the exact fusion family, and Fusion.upper plus reflexivity gives forbidden cause/effect overlap. Discharge the scoped denial classically to SOME bare actual NE, not necessity of the selected c. CF2 is replaced ONLY by MF2; no L1/L2/A1, Euclidean/S5/PSR/concreteness or source-truth premise is added.",
   "assumption_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ],
   "discharged_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ]
 }

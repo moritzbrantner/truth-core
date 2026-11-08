@@ -24,6 +24,8 @@ and truthful source-claim boundaries remain in force.
 
 See AGENTS.md, "Connect every library to the case".
 
+Identity: corpus ids are opaque uuids. Never mint a readable id; give each new record a plain, sense-tagged `label` (`python3 scripts/new_id.py` mints ids, `argument_batch.py` does it for specs). Commands accept a uuid, legacy id (`STMT-…`) or label.
+
 When reconciling an older research branch, compare its records with current main
 before replaying commits or restoring a stash. Preserve newer definitions,
 disambiguations, module declarations and verified findings. A commit absent from

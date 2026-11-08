@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-PRIMITIVE-INSTANTIATION",
-  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "id": "9f1d5327-e0b5-5152-89ea-21464db79d8d",
+  "label": "Evaluate whether and where actual instantiation is a legitimate primitive or instead requires a…",
+  "legacy_id": "RUSSELL-PRIMITIVE-INSTANTIATION",
+  "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
   "locator": "V.71–77; VI.78–91",
   "priority": 100,
   "goal": "Evaluate whether and where actual instantiation is a legitimate primitive or instead requires a noncircular ground. Do not assume that every why-question has an answer; the finite independence result settles neither stopping-point adequacy nor actual grounds. The conditional STMT-RUSSELL-GROUNDING-PROJECTION exposes STMT-RUSSELL-REALIZED and STMT-RUSSELL-INSTANCE-BASIS-LAW as separate open inputs; defend, replace or decline that sufficient basis norm rather than treating it as established.",

@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MEANING-REMAINING-DEFINITION",
+  "id": "32a7695e-6ccc-5d98-9c52-bbbd539d7f50",
+  "label": "None of V1, V2, V3 or all-in-scope meaningfulness calibrates the current meaning predicate on the…",
+  "legacy_id": "STMT-MEANING-REMAINING-DEFINITION",
   "paraphrase": "None of V1, V2, V3 or all-in-scope meaningfulness calibrates the current meaning predicate on the same scope. This additional-extension rival opposes named coverage, not every meaningfulness claim.",
   "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.RemainingDefinition",
   "definition_ids": [
-    "DEF-MEANING-CRITERION-CALIBRATION",
-    "DEF-MEANING-V1-DEFINITION",
-    "DEF-MEANING-V2-DEFINITION",
-    "DEF-MEANING-V3-DEFINITION",
-    "DEF-MEANING-ALL-IN-SCOPE",
-    "DEF-MEANING-NAMED-COVERAGE"
+    "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+    "174e16a5-0fda-5b18-976c-8f4f239656ae",
+    "86456f28-cadd-5976-9cff-ea771779c5b5",
+    "ab90f56f-7dca-5602-8464-0e24091d0d10",
+    "e527ec55-0b4e-5a8c-be97-d6c4a11fbe37",
+    "7edf53fe-0b8a-5bd2-b023-9e847c9ef46a"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "b6529c83-9b6c-56f4-a87e-39d31f4f2126"
   ]
 }

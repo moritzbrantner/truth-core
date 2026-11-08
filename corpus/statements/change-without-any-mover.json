@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CHANGE-WITHOUT-ANY-MOVER",
+  "id": "2d00b16f-c892-5d43-9296-331961843abd",
+  "label": "Indeterminist rival: some change happens while nothing moves the changing thing in that respect…",
+  "legacy_id": "STMT-CHANGE-WITHOUT-ANY-MOVER",
   "paraphrase": "Indeterminist rival: some change happens while nothing moves the changing thing in that respect, motivated by the standard reading of quantum mechanics (attribution waits for a witness), on which a nucleus decays with no determining cause.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ChangeWithoutAnyMoverReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

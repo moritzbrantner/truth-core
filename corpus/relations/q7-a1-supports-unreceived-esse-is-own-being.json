@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-SUPPORTS-UNRECEIVED-ESSE-IS-OWN-BEING",
+  "id": "fb3f6897-347d-5d37-96bc-5b990fc3cf9e",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports For every being x, if the esse of x is…",
+  "legacy_id": "REL-Q7-A1-SUPPORTS-UNRECEIVED-ESSE-IS-OWN-BEING",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE",
+  "subject_id": "c5ad4c45-91a0-5554-bd5f-880f950d5066",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-UNRECEIVED-ESSE-IS-OWN-BEING",
+  "object_id": "bc1810e5-1070-5585-9b0f-e17ca3547ac7",
   "note": "Q.7 a.1 co. says of God that his esse 'non sit esse receptum in aliquo, sed ipse sit suum esse subsistens', and ad 3 that his esse is 'per se subsistens non receptum in aliquo', and that a subsistent whiteness, 'ex hoc ipso quod non esset in alio', would differ from all whiteness in a subject. The passage asserts both of God and never infers subsistence from non-reception; it does not state the general conditional that whatever has unreceived esse is its own being. The existing claim reads the sentence through a represented essence/esse equality, not through own being."
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "id": "1db08746-5970-5825-a7a5-86666799336a",
+  "label": "The exact meaningful-divine-arguability proposition fails under this same…, by Constructive-proof",
+  "legacy_id": "INF-NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
   "input_statement_ids": [
-    "STMT-TLP-PROFILE-NO-MEANINGFUL-DIVINE"
+    "7969efe1-0d11-553d-bccb-6afe1758df88"
   ],
-  "output_statement_id": "STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE",
+  "output_statement_id": "b74c90bd-fa08-5e72-b687-ab8bfc589fae",
   "rule": "constructive-proof",
   "meaning": "Semantic projection transcription: no meaningful divine content excludes an arguable meaningful divine content under the SAME profile, regardless of its explicitly selected argument standard. This is not an inference from a Tractatus source passage or a proof of its strong meaning denial.",
   "assumption_statement_ids": [],

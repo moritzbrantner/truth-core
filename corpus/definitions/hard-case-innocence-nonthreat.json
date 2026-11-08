@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
+  "id": "111420d8-cc79-5fde-9555-7305b010c929",
+  "label": "Stipulated innocent and nonthreatening…: The model separately supplies innocent and nonthreatening…",
+  "legacy_id": "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
   "term": "stipulated innocent and nonthreatening victim",
   "definition": "The model separately supplies innocent and nonthreatening predicates, each applied to the victim in the killing context; neither is defined from or entails the other.",
   "basis": "stipulative",

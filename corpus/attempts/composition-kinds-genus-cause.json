@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-COMPOSITION-KINDS-GENUS-CAUSE",
+  "id": "ac8ef989-6159-571f-a052-c06327044a4f",
+  "label": "Inventoried the four composition senses and materialized/read full q3a5 and q3a7",
+  "legacy_id": "ATTEMPT-COMPOSITION-KINDS-GENUS-CAUSE",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS",
-    "STMT-Q3A4-DISTINCT-ESSE-CAUSE-DICHOTOMY",
-    "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
-    "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
-    "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
-    "STMT-GENUS-CAUSE-BOUNDARY"
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "d7741cdc-881b-5bda-85ce-d70223162f78",
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "61bd42e5-69fe-53ef-9972-c9f28b2b6d14",
+    "33ad148b-ceab-5856-a4f8-c999a1dba644",
+    "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
+    "bccb66e8-3508-5618-90a7-8312cdf37f80"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Inventoried the four composition senses and materialized/read full q3a5 and q3a7. Current Article7 formal inclusions cover matter/form and essence/esse, not genus/differentia realization. Reused BeingNotAGenus.beingNotAGenus and EssenceEsseExternalCause.premiseOmissionsAndControl positive witness to build three joint interpretations: fixed actual strict-genus taxonomy with a distinct-esse efficient cause; same noncausal Profile fields with every cause edge erased, preserving no-efficient-self-cause but losing causal exhaustiveness; and an edge-free same-actuality identity copy with vacuous q3a4 premises. These are not countermodels to full q3a5 real composition or proofs of metaphysical possibility. Rejected treating conceptual terms as material components, generic quiddity as complete essence, source assertion as defense, or represented lack of cause as independently established absence of every form of dependence. All root premises retained. Precise source context, theorem reuse and remaining bridge are persisted in docs/notes/composition-causal-scope.md.",
   "evidence": [
-    "GENUS-CAUSE-BOUNDARY",
-    "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
-    "AQUINAS-ST-I-Q3-A5-GENUS-ESSE-DISTINCTION"
+    "ad12029a-ab6b-58df-a24b-1c30228fc648",
+    "e287801d-cc36-5088-8dd3-6fc9b8ba5ed5",
+    "ed34b6e5-95e6-5964-be7c-aefc34545118"
   ]
 }

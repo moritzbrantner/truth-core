@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-BOOLEAN-STABLE-BEARER",
-  "argument_id": "SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "id": "f98210ad-2658-55af-aaea-34ddd28d5467",
+  "label": "In any frame of the Scott-style constant-domain embedding, if the generating atom has the same…",
+  "legacy_id": "SCOTT-NE-BOOLEAN-STABLE-BEARER",
+  "argument_id": "4746abdc-e0e6-531e-b03a-7e0ffcc981a6",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentStableBearerNE.checks",

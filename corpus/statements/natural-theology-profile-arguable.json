@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURAL-THEOLOGY-PROFILE-ARGUABLE",
+  "id": "563c5fc9-76dd-5d21-b936-3c4a5b82332c",
+  "label": "Some meaningful divine content has a world-grounded admitted argument meeting the selected profile…",
+  "legacy_id": "STMT-NATURAL-THEOLOGY-PROFILE-ARGUABLE",
   "paraphrase": "Some meaningful divine content has a world-grounded admitted argument meeting the selected profile standard. This relative analyst proposition does not identify formal consequence, warrant and empirical verification or silently encode the broader old natural-theology presupposition.",
   "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.NaturalTheologyArguable",
   "definition_ids": [
-    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
-    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
-    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
-    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+    "d36e7feb-8303-5aad-8676-461a0666e719",
+    "99cecaa6-fc74-5545-b2a6-b3bf97946cc2",
+    "51a9b67d-90df-5f3d-a342-625a3fdd6742",
+    "365dce7f-5a98-5735-ad4d-a9623e87508f"
   ]
 }

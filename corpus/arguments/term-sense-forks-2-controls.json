@@ -1,22 +1,24 @@
 {
-  "id": "TERM-SENSE-FORKS-2-CONTROLS",
+  "id": "8a399106-9a87-5f67-8b71-0f7f9935560d",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TERM-SENSE-FORKS-2-CONTROLS",
+  "conclusion_statement_id": "e3d48d91-8515-58fd-a64e-f2c827c9a474",
   "inference_ids": [
-    "INF-TERM-SENSE-FORKS-2-CONTROLS"
+    "89cd07d9-275c-5a20-8fc6-b904e635b2dc"
   ],
   "meaning": "Finite interpretations for the uniting-cause and in-act forks: exclusivity and coverage omission models for both joint theorems, the mixed in-act reading with self-motion, and a nonvacuity witness per joint theorem. Omission models for the remaining premises are not repeated here; COMPOSITE-UNITING-CAUSE-CONTROLS and the prima via controls give them for the efficient and single-InAct instances of the same premises. Satisfiability and omission only; no model describes reality.",
   "definition_ids": [
-    "DEF-CAUSE-OF-BECOMING",
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-IN-ACT-VIRTUALLY",
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-UNITING-CAUSE"
+    "e9630411-ffc6-534a-8509-bf357272dec9",
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "f7833666-c764-5624-a766-708949d9feee",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-BECOMING-BEING-CAUSE",
-    "DISAMB-IN-ACT",
-    "DISAMB-UNITING-CAUSE"
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ],
-  "sense_mixing_control": true
+  "sense_mixing_control": true,
+  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being forks: a model in which…",
+  "legacy_id": "TERM-SENSE-FORKS-2-CONTROLS"
 }

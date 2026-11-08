@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-BRANCH-CONTROLS",
-  "argument_id": "RETAINED-DUTY-BRANCH-CONTROLS",
+  "id": "06cfde80-3d53-5494-985b-f731a36bc131",
+  "label": "A typed complete-future Plan has separate feasible and ideal branches, dated practical abilities…",
+  "legacy_id": "RETAINED-DUTY-BRANCH-CONTROLS",
+  "argument_id": "e1bb1eb8-bfeb-5d44-a648-a09c731fb98f",
   "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDuty.branching",

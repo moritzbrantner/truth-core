@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-208A-THOUGHT-MAGNITUDE-A",
-  "statement_id": "STMT-MENTAL-MAGNIFICATION-NOT-REAL-MAGNITUDE",
-  "source_id": "ARIST-PHYS",
+  "id": "d06d550b-f9f0-59da-956f-b78b31ee215d",
+  "label": "Aristotle, Physics III.8, 208a14-20: Unlimited magnification in thought does not entail a…",
+  "legacy_id": "ARIST-PHYS-208A-THOUGHT-MAGNITUDE-A",
+  "statement_id": "f05583c2-d75d-5082-a699-eb0a7ddb484f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.8, 208a14-20",
   "interpretation": "Anti-projection rebuttal: being able to magnify something indefinitely in thought does not make the thing itself correspondingly large or infinite. The formal statement rejects the entailment rather than denying accidental agreement between thought and reality.",
   "status": "formalized"

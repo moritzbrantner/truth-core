@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-SENSE-FORK",
-  "argument_id": "NECESSARY-SENSE-FORK",
+  "id": "0be30603-77ec-52e5-a90e-4e2a3bed872d",
+  "label": "Fork node: the intended reading of…, from Some candidate is CONCRETE_6 and exists at… and 27 more",
+  "legacy_id": "NECESSARY-SENSE-FORK",
+  "argument_id": "60193114-cdcd-5387-96e3-87d0d8894f76",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.forkOnIntendedReading",

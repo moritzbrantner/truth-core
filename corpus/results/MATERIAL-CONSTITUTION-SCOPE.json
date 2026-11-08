@@ -1,6 +1,8 @@
 {
-  "id": "MATERIAL-CONSTITUTION-SCOPE",
-  "argument_id": "MATERIAL-CONSTITUTION-SCOPE",
+  "id": "61d709e5-32af-5048-8276-896fceca23f6",
+  "label": "In one stipulated two-time, one-token history, distinct statue/lump bearer labels share a nonempty…",
+  "legacy_id": "MATERIAL-CONSTITUTION-SCOPE",
+  "argument_id": "a31f2dae-d5fe-5cbb-afab-e98fc033f4da",
   "challenge_module": "TruthCore.Results.Mereology.MaterialConstitutionScope.Challenge",
   "solution_module": "TruthCore.Results.Mereology.MaterialConstitutionScope.Solution",
   "theorem": "TruthCore.Results.Mereology.MaterialConstitutionScope.certificate",

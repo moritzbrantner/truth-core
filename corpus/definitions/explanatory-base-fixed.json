@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-BASE-FIXED",
+  "id": "fadca7e0-16af-53c0-a1ec-be79471754b6",
+  "label": "Base-fixed favouring: Worlds agreeing on the truth of every base fact agree on the favouring by…",
+  "legacy_id": "DEF-EXPLANATORY-BASE-FIXED",
   "term": "base-fixed favouring",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.BaseFixed",

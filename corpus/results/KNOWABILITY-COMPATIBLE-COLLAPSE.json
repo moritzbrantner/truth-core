@@ -1,6 +1,8 @@
 {
-  "id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
-  "argument_id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "id": "01be645f-fee8-5629-aa49-755304f86255",
+  "label": "At every world, every true content in the…, from The chosen frame is Euclidean: any two… and 2 more",
+  "legacy_id": "KNOWABILITY-COMPATIBLE-COLLAPSE",
+  "argument_id": "4d931861-f9d2-5bc0-ba38-1faf280665f7",
   "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
   "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.admittedKnown",

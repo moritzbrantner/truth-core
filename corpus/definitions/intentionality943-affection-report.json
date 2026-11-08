@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INTENTIONALITY943-AFFECTION-REPORT",
+  "id": "b4eaa5d6-8e85-5ec3-9ed1-f8d5905f92c7",
+  "label": "Qualified report of one’s own affection: Report e w evaluates a report of the token’s own affection",
+  "legacy_id": "DEF-INTENTIONALITY943-AFFECTION-REPORT",
   "term": "qualified report of one’s own affection",
   "definition": "Report e w evaluates a report of the token’s own affection; AffectionReportCorrect requires this report true where a target token occurs, explicitly restricting it to the affection as it is affected. This is a stipulated ideal-report restriction, not a thesis of infallibility for ordinary introspection; comparison to the historical honey argument is deferred. It differs from judging whether honey is actually bitter. The report/content equivalence is tested separately. Its actual cognitive applicability remains OPEN.",
   "basis": "stipulative",

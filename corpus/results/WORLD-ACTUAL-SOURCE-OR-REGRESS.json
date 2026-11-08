@@ -1,6 +1,8 @@
 {
-  "id": "WORLD-ACTUAL-SOURCE-OR-REGRESS",
-  "argument_id": "WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "id": "ce67d8c1-0035-56d4-b1ab-301244a482ab",
+  "label": "Every actual individual in each world has a\u2026, from Inside each world, the existing individuals\u2026",
+  "legacy_id": "WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "argument_id": "468b4523-7551-50b8-b34a-870a79273c07",
   "challenge_module": "TruthCore.Results.Causality.WorldSourceRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.WorldSourceRegress.Solution",
   "theorem": "TruthCore.Results.Causality.WorldSourceRegress.checks",

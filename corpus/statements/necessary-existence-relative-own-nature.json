@@ -1,10 +1,12 @@
 {
-  "id": "STMT-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE",
+  "id": "7e91c50c-edc1-5947-b706-771f1d48239f",
+  "label": "Existence necessary relative to the thing itself is expressed as its being essential to that thing…",
+  "legacy_id": "STMT-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE",
   "paraphrase": "Existence necessary relative to the thing itself is expressed as its being essential to that thing that it exists, or as its existence being grounded in its own essence. This stronger reading is distinguished from existence necessary relative to the whole world, whose grounds may instead concern other things. These source formulations are not a proved equivalence with a Kripke necessary-existence predicate.",
   "definition_ids": [
-    "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE"
+    "d21ae4c5-8030-53b4-ae8f-48041355865c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE"
+    "13843b8b-4ef3-500e-949d-27e78b9dfaf9"
   ]
 }

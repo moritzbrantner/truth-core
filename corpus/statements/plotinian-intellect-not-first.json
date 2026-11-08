@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PLOTINIAN-INTELLECT-NOT-FIRST",
+  "id": "6218cce5-6152-5cb0-9810-b62645bd3618",
+  "label": "Intellect is not the absolutely simple first: its thinking turns to the intelligible, and it is…",
+  "legacy_id": "STMT-PLOTINIAN-INTELLECT-NOT-FIRST",
   "paraphrase": "Intellect is not the absolutely simple first: its thinking turns to the intelligible, and it is both intelligible and thinking, already two and many in the intelligible sense.",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY",
-    "DEF-PLOTINIAN-INTELLECT-DUALITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7",
+    "83516bdf-9ae1-5ed7-a337-5dafc4dea266"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

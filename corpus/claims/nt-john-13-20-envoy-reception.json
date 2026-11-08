@@ -1,7 +1,9 @@
 {
-  "id": "NT-JOHN-13-20-ENVOY-RECEPTION",
-  "statement_id": "STMT-REPORTED-JOHN-ENVOY-RECEPTION",
-  "source_id": "NT-JOHN",
+  "id": "9ef8b266-9889-553b-bd76-29b6389138ca",
+  "label": "New Testament, John 13.20: John reports that Jesus said that whoever receives anyone he sends…",
+  "legacy_id": "NT-JOHN-13-20-ENVOY-RECEPTION",
+  "statement_id": "723e1bea-e89c-52b3-a865-cf471cd98496",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "13.20",
   "interpretation": "'Whoever receives anyone I send receives me, and whoever receives me receives the one who sent me.' With 13.16 (an envoy, apostolos, is not greater than the one who sent him) read as stating a representation principle for reception: receiving the one sent counts as receiving the sender, and this carries over from the Father to Jesus to those Jesus sends. Textual report only. The verse concerns reception of an envoy, not the envoy's own acts, and not founding.",
   "status": "formalized"

@@ -1,14 +1,15 @@
 {
-  "id": "STMT-MORE-IN-BEING-TRACKS-DEGREE",
+  "id": "c323e046-067c-5228-a4a8-55df7bdeb397",
   "label": "Whatever is more a being than m has a higher represented degree of being",
+  "legacy_id": "STMT-MORE-IN-BEING-TRACKS-DEGREE",
   "paraphrase": "OPEN analyst premise (attribution deferred): whatever is more a being than m has being and a strictly higher represented degree of being than m. One direction of the strict degree calibration (STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE), at esse only and with the comparison's left relatum required to have being.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.MoreInBeingTracksDegree",
   "definition_ids": [
-    "DEF-MORE-IN",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-ESSE"
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

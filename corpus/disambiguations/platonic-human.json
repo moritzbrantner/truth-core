@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PLATONIC-HUMAN",
+  "id": "378d09f1-a359-5770-ab2c-aba739029474",
+  "label": "Man/human",
+  "legacy_id": "DISAMB-PLATONIC-HUMAN",
   "term": "man/human",
   "sense_definition_ids": [
-    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
-    "DEF-PLATONIC-HUMAN-NATURE"
+    "45996402-d8f0-59fa-b438-fd8c773800d4",
+    "09650b37-d088-51d1-a423-4fdba7f96d29"
   ],
   "resolution": "The human quality and its bearers are distinct semantic roles. Parmenides 130c expresses uncertainty about a separate human Form; the optional HumanFormAdmitted proposition remains unattributed and open. No self-predication rule turns the Form into a biological individual by definition.",
   "term_label": "MAN_HUMAN",
@@ -11,13 +13,13 @@
     {
       "id": "0afb1b2c-e6df-40e8-b689-69bbadd35ab1",
       "label": "MAN_HUMAN_1",
-      "definition_id": "DEF-PLATONIC-HUMAN-INDIVIDUAL",
+      "definition_id": "45996402-d8f0-59fa-b438-fd8c773800d4",
       "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "b2e636e7-2a07-4f03-a05d-5df0af9ba2b5",
       "label": "MAN_HUMAN_2",
-      "definition_id": "DEF-PLATONIC-HUMAN-NATURE",
+      "definition_id": "09650b37-d088-51d1-a423-4fdba7f96d29",
       "lean_declaration": "TruthCore.Greek.Plato.Forms.HumanFormAdmitted"
     }
   ]

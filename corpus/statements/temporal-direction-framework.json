@@ -1,21 +1,23 @@
 {
-  "id": "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
+  "id": "2e6a7c42-730f-550f-a277-0891b7d806ae",
+  "label": "For every event carrier, linearly ordered time carrier, clock and causal relation, exactly one of…",
+  "legacy_id": "STMT-TEMPORAL-DIRECTION-FRAMEWORK",
   "paraphrase": "For every event carrier, linearly ordered time carrier, clock and causal relation, exactly one of these semantic horns holds: every edge is strictly forward; all edges are non-backward and at least one is simultaneous; or at least one edge is backward. Coverage and pairwise incompatibility are separately certified. In the strict horn no nonempty finite directed event walk returns to its start. No populated carrier, actual chronology, theory of passage, well-foundedness, physical possibility or exhaustive list of named metaphysical theories is asserted.",
   "lean_declaration": "TruthCore.Causality.TemporalActualization.Framework",
   "definition_ids": [
-    "DEF-TEMPORAL-ACTUALIZATION-PROFILE",
-    "DEF-TEMPORAL-DIRECTION-PROFILES",
-    "DEF-TEMPORAL-EVENT-FINITE-CYCLE",
-    "DEF-TEMPORAL-MOTION-PROJECTION",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "962f5a85-018c-5d4d-967c-1047db5fecf0",
+    "60f8aca0-80c5-55e9-a26d-bfff260a7060",
+    "4ffdfea6-0a5a-513c-a710-050648c260bf",
+    "cacb293c-7ae7-52db-967a-776b4ac5dc97",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVENT-BEING-TEMPORAL-PRIORITY",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+    "b4da30a9-86f7-57cc-a0c9-17b5dd216ccd",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
-  "statement_id": "STMT-CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "73cb864d-d9e7-5950-8cda-73c73d01ba8d",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If every possible explanation of contingent beings…",
+  "legacy_id": "CC100-9-REASONABLE-NECESSARY-BEING-BELIEF",
+  "statement_id": "7f3e3544-8431-528d-a004-8da7e53024c3",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.18, argument #9, steps 4–5 with PPE and step 2",
   "interpretation": "The displayed entailment restriction and epistemic conclusion are retained without changing reasonable belief into actual existence. The conclusion does not carry the proposed explanation’s unique or willing attributes. No actual or rigid necessary witness, explanation token, God identity or formal argument is registered. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-9-POSSIBLE-EXPLANATION-BELIEF"
+    "1244292b-30ce-50d4-92dd-04ef6ac8ff72"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

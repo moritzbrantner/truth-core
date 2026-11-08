@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-MOOREAN-FLOOR-CANDIDATES-1119",
+  "id": "f18560c2-2c02-5393-8cb0-a08f5779457b",
+  "label": "Prepared the first ranked Moorean candidate batch in docs/notes/moorean-floor-candidates.md…",
+  "legacy_id": "ATTEMPT-MOOREAN-FLOOR-CANDIDATES-1119",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
-    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
-    "STMT-NATURAL-REASON-IS-SHARED-REASON",
-    "STMT-UNIVERSE-HAS-EXISTING-CAUSE"
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
+    "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
+    "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
+    "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe"
   ],
   "kind": "derivation",
   "outcome": "blocked",
   "summary": "Prepared the first ranked Moorean candidate batch in docs/notes/moorean-floor-candidates.md, reusing exact frozen fideism and naturalism theorem types. The leading three inputs target the conditional fideist pair defeat; the fourth is the lower-impact existing-cause framework commitment. In-memory authoritative frontier probes show no route-cost change from settling any item alone, both interpretation bridges, or all three fideism inputs. The latter establishes only the pair-failure conclusion: CutOffReading alone remains unrefuted, no refutes registration targets it, and revelation remains unestablished. Rejected redundant new floors for strong verificationism and the1908 McTaggart bundle because approved negation closure/F3 already do that work. Also rejected treating non-Christian knowers as outside every theological horizon, ¬existing-cause as uncaused, and no efficient cause as no PSR explanation. No approval, theorem, proposition, source claim or relation is added. Owner steering: floor approval is not a prerequisite to conditional exploration; the next logical work is to type competing rival scopes/readings and study their consequences, including whether an objection loses force without a global worldview refutation.",
   "blocker": "A counted defense of revelation still requires an exact checked refutation of its recorded single CutOffReading rival, rather than only ¬(InternalGrammarReading ∧ CutOffReading), with every premise established in the same intended practice. Candidate approvals remain owner decisions; current proposals guarantee no root-route reduction.",
   "evidence": [
-    "WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE",
-    "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
-    "FIDEISM-GRAMMAR-CASES-PARTITION",
-    "CAUSED-UNIVERSE-REFUTES-N1",
-    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
-    "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
-    "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+    "e66766c7-1749-5e2b-b604-29294f4e1b09",
+    "bf94262e-82ad-53ab-84f1-2103bf503916",
+    "7c61a464-0c38-5312-a079-e3ca2527b70a",
+    "9a2a5dc6-caa6-5b88-8274-1fe05f699c80",
+    "02881a46-16b8-555e-b29c-e4bba2877eb9",
+    "8aa484b7-c76f-50a2-975f-0e4340e439f6",
+    "a965c08c-85da-5a22-ab9c-d8f695fb2e54",
     "PR-1117"
   ]
 }

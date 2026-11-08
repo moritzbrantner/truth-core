@@ -1,19 +1,20 @@
 {
-  "id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "id": "f2e58263-179e-5322-bb66-42151ce77c21",
+  "label": "GOD_1: 'God is maximal in being' read nominally is analytic",
+  "legacy_id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NOMINAL-GOD-IS-MAXIMAL-IN-BEING",
+  "conclusion_statement_id": "c25557cb-2ec4-5694-a336-199fb633b571",
   "inference_ids": [
-    "INF-NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC"
+    "aa4a5b17-c6bf-58de-abec-d22ac88c33f8"
   ],
   "meaning": "GOD_1 (NOMINAL) branch of the converse premise: read as what the name signifies, whatever is God is maximal in being, with no premise. Recorded as its own statement, distinct from the GOD_4 premise STMT-GOD-IS-MAXIMAL-IN-BEING.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-MAXIME-ENS"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
-  ],
-  "label": "GOD_1: 'God is maximal in being' read nominally is analytic"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
 }

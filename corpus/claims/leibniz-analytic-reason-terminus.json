@@ -1,15 +1,17 @@
 {
-  "id": "LEIBNIZ-33-35-ANALYTIC-TERMINUS",
-  "statement_id": "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
-  "source_id": "LEIBNIZ-MONADOLOGY",
+  "id": "671681e1-d43c-5296-a039-2f7acd41766b",
+  "label": "Gottfried Wilhelm Leibniz, Monadology §§33–35: A necessary truth admits analysis into primary…",
+  "legacy_id": "LEIBNIZ-33-35-ANALYTIC-TERMINUS",
+  "statement_id": "2ea7fa39-9f89-58f3-a5c4-7be6d9fb814c",
+  "source_id": "738fd471-e47c-57a1-96ae-ab295261c7dc",
   "locator": "§§33–35",
   "interpretation": "Prose reading of the proposed analytical termination for truths of reasoning. It is not a claim that any arbitrarily selected axiom is self-justifying or that an existence explanation must be a finite psychological performance.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-LEIBNIZ-ANALYTIC-TERMINUS"
+    "b186b7ea-705b-5a2b-906c-57b9064d14aa"
   ],
   "disambiguation_ids": [
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS"
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825"
   ]
 }

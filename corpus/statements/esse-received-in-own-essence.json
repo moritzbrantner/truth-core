@@ -1,14 +1,16 @@
 {
-  "id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "id": "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
+  "label": "For every being x and principle r, if the esse of x is received in r, then r is the essence of x",
+  "legacy_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
   "paraphrase": "Open, unattributed premise: for every being x and principle r, if the esse of x is received in r, then r is the essence of x. De ente c.4 and ST I q.7 a.2 say this only for created intellectual substances and subsistent created forms; the generalization is not attributed to them. It does not assert that any esse is received and says nothing about forms received in matter.",
   "lean_declaration": "TruthCore.Causality.EsseReception.EsseReceivedOnlyInOwnEssence",
   "definition_ids": [
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

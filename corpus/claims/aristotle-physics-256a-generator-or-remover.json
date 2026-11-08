@@ -1,17 +1,19 @@
 {
-  "id": "ARIST-PHYS-256A-GENERATOR-OR-REMOVER-A",
-  "statement_id": "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER",
-  "source_id": "ARIST-PHYS",
+  "id": "934596fd-9da8-5faa-a524-f4b2eafafcd7",
+  "label": "Aristotle, Physics VIII.4, 255b24-27…: The natural MOTION_2 of a thing not moved by itself, as of…",
+  "legacy_id": "ARIST-PHYS-256A-GENERATOR-OR-REMOVER-A",
+  "statement_id": "d09bb992-0783-556c-bcf3-2d840835d5f8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.4, 255b24-27, 255b35-256a2",
   "interpretation": "Literal reading: the light and the heavy are moved either by what generated them and made them light or heavy, or by what removed the hindrance (255b35-256a2). The remover moves only per accidens (255b24-27: κατὰ συμβεβηκὸς γὰρ κινεῖ, like the wall that a rebounding ball does not move). Reading steps: the generator is read as a per se mover of the motion in its respect (the place), and the statement is extended from the light and the heavy to every natural motion that is not a self-motion. The inclusive 'or' admits a motion whose only mover is the per accidens remover; excluding that case is not attributed here and is the separate open premise STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PASSIVE-NATURAL-MOTION",
-    "DEF-PER-ACCIDENS-MOVER"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "2ee58a9e-2d2a-5120-a9f5-15236da7def4",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
+  "id": "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+  "label": "A thought occurs versus something concrete exists in the world",
+  "legacy_id": "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
   "term": "a thought occurs versus something concrete exists in the world",
   "sense_definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-EVENT-ROUTE-EMBEDDING"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "71f85be2-298f-523c-b8cd-9c6bc69a4ea3"
   ],
   "resolution": "Occurs e (DEF-THOUGHT-OCCURRENCE) is a primitive predicate of episodes, not world-indexed, over a carrier separate from the candidate domain E. Population (DEF-INHABITED-CONCRETE-WORLD) needs a member of E that is concrete and exists at w. No result passes from the first to the second without an explicit bridge: either the bearer route (STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT, then STMT-COGITO-BEARER-IS-CONCRETE and STMT-COGITO-BEARER-EXISTS-AT-WORLD, kept separate because each has its own omission model) or the event route (DEF-EVENT-ROUTE-EMBEDDING, a transcription). 'Exists' is world-relative existence in the Ontic signature (m.ExistsAt w b), not the truth of a sentence 'b exists' and not the possibilist quantifier over E; 'concrete' is the supplied predicate, not 'material' and not 'substance'.",
   "term_label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE",
@@ -12,19 +14,19 @@
     {
       "id": "1c99ce91-24fc-4896-b1cc-ec13e1797d40",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_1",
-      "definition_id": "DEF-THOUGHT-OCCURRENCE",
+      "definition_id": "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
       "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs"
     },
     {
       "id": "16318101-d4c4-4ea8-a28e-406fc06ca152",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_2",
-      "definition_id": "DEF-INHABITED-CONCRETE-WORLD",
+      "definition_id": "1b8baf77-84fa-5513-a138-7fa14840dd87",
       "lean_declaration": "TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt"
     },
     {
       "id": "02584ae6-3fb7-497f-8d42-644e1b943fc0",
       "label": "A_THOUGHT_OCCURS_VERSUS_SOMETHING_CONCRETE_3",
-      "definition_id": "DEF-EVENT-ROUTE-EMBEDDING",
+      "definition_id": "71f85be2-298f-523c-b8cd-9c6bc69a4ea3",
       "lean_declaration": "TruthCore.Logic.CogitoConcrete.OccurringEpisodeIsActualConcrete"
     }
   ]

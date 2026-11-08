@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
-  "argument_id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "id": "e0acfa26-5021-5b69-82c2-1fa0c4bf4c58",
+  "label": "A composite cannot be scientifically…, from Principles infinite both in multitude and… and 1 more",
+  "legacy_id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "argument_id": "86407949-d86e-550b-b7f8-6f933e5c364e",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.InfinitePrinciplesUnknowable.compositeNotKnowableFromInfinitePrinciples",

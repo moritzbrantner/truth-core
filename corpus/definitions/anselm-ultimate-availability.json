@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSELM-ULTIMATE-AVAILABILITY",
+  "id": "4967cf8c-a7cc-5253-9288-37473b931b97",
+  "label": "Ultimate source available for a…: For any through w x y, some z satisfies UltimateThroughAt m w x z",
+  "legacy_id": "DEF-ANSELM-ULTIMATE-AVAILABILITY",
   "term": "ultimate source available for a through fact",
   "definition": "For any through w x y, some z satisfies UltimateThroughAt m w x z. This is the substantive EP+3 availability premise, not a proved termination or adequate-supply principle. It is not identified with actual WF, inductive Supply or borrowing Escape.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.UltimateAvailableAt",

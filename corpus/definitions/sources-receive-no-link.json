@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SOURCES-RECEIVE-NO-LINK",
+  "id": "31af2035-e8b5-51a6-b1be-c5ed687a5123",
+  "label": "Intrinsic sources receive no per se link: SourcesReceiveNoLink R src: no being R-relates to an…",
+  "legacy_id": "DEF-SOURCES-RECEIVE-NO-LINK",
   "term": "intrinsic sources receive no per se link",
   "definition": "`SourcesReceiveNoLink R src`: no being R-relates to an intrinsic source, i.e. nothing causes a source as a caused cause.",
   "basis": "stipulative",

@@ -1,8 +1,15 @@
 {
-  "id": "LOGIC-EMPTY-EPISODE-CONTROL",
+  "id": "f6846c20-a34a-5ece-b7d0-8fce84bcf510",
+  "label": "There is an empty-episode interpretation in which no episode occurs and the content of the…",
+  "legacy_id": "LOGIC-EMPTY-EPISODE-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
-  "inference_ids": ["INF-LOGIC-EMPTY-EPISODE-CONTROL"],
+  "conclusion_statement_id": "81a85cbd-3661-5b1b-bff3-f2f3b43edc56",
+  "inference_ids": [
+    "29765723-b9f5-5158-90a8-03afc6a96131"
+  ],
   "meaning": "Construct a source-free interpretation showing that no actual episode can be inferred from retorsion alone.",
-  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-ACCURATE-PERFORMED-DENIAL"]
+  "definition_ids": [
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "901afe4d-3dc0-53fb-a18f-d2fd10d50527"
+  ]
 }

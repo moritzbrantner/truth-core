@@ -1,7 +1,9 @@
 {
-  "id": "INF-ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "id": "b5fe93a8-d996-5866-ac16-fea58dce4c31",
+  "label": "A two-entity interpretation has a same-account causal edge, equal at-least\u2026, by Model-construction",
+  "legacy_id": "INF-ARISTOTLE-SYNONYMY-TIE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SYNONYMY-TIE-CONTROL",
+  "output_statement_id": "bab3c60d-f812-541d-974a-7c63cf28bfa9",
   "rule": "model-construction",
   "meaning": "Two distinct entities share the account and are related causally. A constant natural-number degree maps both to zero; at-least is the induced \u2264 comparison and more is its strict < comparison. This same-account tie satisfies the non-strict but not the strict principle.",
   "assumption_statement_ids": [],

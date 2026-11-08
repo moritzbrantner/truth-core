@@ -1,11 +1,13 @@
 {
-  "id": "INF-QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
+  "id": "acba3fd4-b002-5c8e-bd8d-cc57dad074df",
+  "label": "There is at most one maximum in being: any two beings that are each maximal in…, by Direct-proof",
+  "legacy_id": "INF-QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
   "input_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
-    "STMT-EXCLUDED-MIDDLE"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-AT-MOST-ONE-MAXIMUM-IN-BEING",
+  "output_statement_id": "5a594b1e-09b6-592c-862d-473874a6c49c",
   "rule": "direct-proof",
   "meaning": "On the attribution order with strict primacy every maximum in being is the primary (by excluded middle), so any two maxima are the same.",
   "assumption_statement_ids": [],

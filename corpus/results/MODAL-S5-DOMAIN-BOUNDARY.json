@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S5-DOMAIN-BOUNDARY",
-  "argument_id": "MODAL-S5-DOMAIN-BOUNDARY",
+  "id": "64f3293f-e58a-5b4d-b126-eb6feaee490f",
+  "label": "In the universal two-world S5 frame, the atom-only inventory is world-extensional yet possible…",
+  "legacy_id": "MODAL-S5-DOMAIN-BOUNDARY",
+  "argument_id": "d5648baf-a877-5136-8543-ec12b933f277",
   "challenge_module": "TruthCore.Results.Modal.S5.DomainBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.S5.DomainBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.S5.DomainBoundary.checks",

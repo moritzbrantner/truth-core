@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
-  "argument_id": "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
+  "id": "1b988b36-9c72-5611-9f1a-3c4ca22578e4",
+  "label": "Wherever things are more and less in some perfection, there…, via grades maximum from causal ascent",
+  "legacy_id": "QUARTA-VIA-GRADES-MAXIMUM-FROM-CAUSAL-ASCENT",
+  "argument_id": "1dff22d0-34f1-5244-bc7d-2b0c978db109",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaGradesFromCausalAscent.gradesHaveAMaximum",

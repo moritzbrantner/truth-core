@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "id": "a2ad5642-5dfc-5298-984b-2f6dfd72c8f2",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a…, from prima via with classical attributes identity",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "argument_id": "57cedd02-c0c6-5556-a43e-17be2b367986",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithClassicalAttributesIdentity.catholicismFromPrimaViaWithClassicalAttributes",

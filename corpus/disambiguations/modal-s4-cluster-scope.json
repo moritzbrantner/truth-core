@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-MODAL-S4-CLUSTER-SCOPE",
+  "id": "cf163892-fea4-58b3-b994-fbefb67963d6",
+  "label": "Terminal cluster, full collapse and language collapse",
+  "legacy_id": "DISAMB-MODAL-S4-CLUSTER-SCOPE",
   "term": "terminal cluster, full collapse and language collapse",
   "sense_definition_ids": [
-    "DEF-MODAL-S4-CLUSTER",
-    "DEF-MODAL-S4-LANGUAGE",
-    "DEF-MODAL-S4-POCKETS"
+    "a97035e4-65f3-5c10-b2f3-8684762e0a01",
+    "05b1498f-12d1-5e98-970d-1af8bf9e69f0",
+    "9a1a3a4a-2fa8-518b-bbbf-ac15782fdee4"
   ],
   "resolution": "A terminal component is an accessibility fact, not the assertion that its worlds satisfy MC. Full-predicate MC makes every successor identical to the root by the imported K law, so the mutual-accessibility set of a full-collapsed world contains at most that world. Reflexivity, including on S4 frames, supplies membership of the world itself and makes the set singleton; without reflexivity it may be empty. The paired right/twin terminal cluster instead has MC only relative to its fixed two-atom language and fails world extensionality for that domain. The unpaired configuration has language extensionality and still refutes possible MC implies actual MC. All predicates satisfy world extensionality independently of the finite model. No identity follows from agreement on only a finite corpus inventory.",
   "term_label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE",
@@ -12,19 +14,19 @@
     {
       "id": "556efc2a-db75-4596-bea8-ff56a13e20a7",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_1",
-      "definition_id": "DEF-MODAL-S4-CLUSTER",
+      "definition_id": "a97035e4-65f3-5c10-b2f3-8684762e0a01",
       "lean_declaration": "TruthCore.Modal.S4Research.SameCluster"
     },
     {
       "id": "07bf86c6-92ee-401f-82b9-3b4df412f2ef",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_2",
-      "definition_id": "DEF-MODAL-S4-LANGUAGE",
+      "definition_id": "05b1498f-12d1-5e98-970d-1af8bf9e69f0",
       "lean_declaration": "TruthCore.Modal.S4Research.language"
     },
     {
       "id": "97f82498-4f90-4bd5-8361-7316601ede00",
       "label": "TERMINAL_CLUSTER_FULL_COLLAPSE_AND_LANGUAGE_3",
-      "definition_id": "DEF-MODAL-S4-POCKETS",
+      "definition_id": "9a1a3a4a-2fa8-518b-bbbf-ac15782fdee4",
       "lean_declaration": "TruthCore.Modal.S4Research.pockets"
     }
   ]

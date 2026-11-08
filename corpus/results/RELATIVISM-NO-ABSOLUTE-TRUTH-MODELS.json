@@ -1,6 +1,8 @@
 {
-  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
-  "argument_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "id": "6fee2b02-5bb9-534f-830d-81694aacfc33",
+  "label": "Two models: the scoped, disquoting no-absolute-truth thesis holds while its speaker's relative…",
+  "legacy_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS",
+  "argument_id": "fcf2e749-76a3-5da6-9ebf-74d0bef5d2a0",
   "challenge_module": "TruthCore.Results.Logic.Relativism.Models.Challenge",
   "solution_module": "TruthCore.Results.Logic.Relativism.Models.Solution",
   "theorem": "TruthCore.Results.Logic.Relativism.Models.noAbsoluteTruthModels",

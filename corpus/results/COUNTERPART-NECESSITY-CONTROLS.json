@@ -1,6 +1,8 @@
 {
-  "id": "COUNTERPART-NECESSITY-CONTROLS",
-  "argument_id": "COUNTERPART-NECESSITY-CONTROLS",
+  "id": "1c58cd1a-022c-52b2-8bad-a55c1d2db1ce",
+  "label": "A literal-identity control has one actually present necessary bearer and equality counterparts",
+  "legacy_id": "COUNTERPART-NECESSITY-CONTROLS",
+  "argument_id": "f2de7663-8a6b-53f7-95cd-0daac9df01e6",
   "challenge_module": "TruthCore.Results.Modal.CounterpartNecessityControls.Challenge",
   "solution_module": "TruthCore.Results.Modal.CounterpartNecessityControls.Solution",
   "theorem": "TruthCore.Results.Modal.CounterpartNecessityControls.controls",

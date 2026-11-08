@@ -1,9 +1,11 @@
 {
-  "id": "INF-MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "id": "d8422f56-754b-5a64-9e5e-d5552ff1af43",
+  "label": "The VERIFICATION_PRINCIPLE_2 with explicit scope, for a variant's…, by Constructive-proof",
+  "legacy_id": "INF-MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
   "input_statement_ids": [
-    "STMT-MEANING-CALIBRATION"
+    "af40d9a3-0007-50be-94fb-2d22068c03dd"
   ],
-  "output_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+  "output_statement_id": "12527c0e-3a83-5639-91e4-3eab30b2ec23",
   "rule": "constructive-proof",
   "meaning": "Full calibration entails the existing one-way principle; the reverse fails in the nontrivial analytic-only control. No criterion is adopted.",
   "assumption_statement_ids": [],

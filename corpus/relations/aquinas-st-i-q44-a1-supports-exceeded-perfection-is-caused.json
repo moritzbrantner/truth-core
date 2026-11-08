@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q44-A1-SUPPORTS-EXCEEDED-PERFECTION-IS-CAUSED",
+  "id": "5c10ef67-df9d-56b0-849c-4a6909b1a5d3",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Whatever has a perfection and is exceeded…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q44-A1-SUPPORTS-EXCEEDED-PERFECTION-IS-CAUSED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "subject_id": "11b0106d-9061-54c3-bc53-82a3acaaddd2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-EXCEEDED-PERFECTION-IS-CAUSED",
+  "object_id": "f29a6b53-475f-5a28-9224-8ca5d7484366",
   "note": "ST I q.44 a.1 co. says that what is found in something by participation is caused in it by that to which it belongs essentially, and that things diversified by diverse participation of esse, as more or less perfect, are caused; ad 1 that being by participation entails being caused by another. It bears on the premise at r = esse but does not state it: that being exceeded in a perfection is having it by participation, and the extension to every perfection, belong to the premise, not the source."
 }

@@ -1,10 +1,12 @@
 {
-  "id": "INF-UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "id": "aa0c21a3-0eb0-56e6-8569-edb7dc2d88cb",
+  "label": "At the selected world the spacetime whole has an existing cause of its…, by Constructive-proof",
+  "legacy_id": "INF-UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
   "input_statement_ids": [
-    "STMT-SPACETIME-WHOLE-HAS-A-CANDIDATE-CAUSE",
-    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+    "d1e62bf3-2abe-5e98-be4a-f481e4ffb519",
+    "41e17b00-09de-5a6d-a0ea-a1aed538244b"
   ],
-  "output_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "output_statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
   "rule": "constructive-proof",
   "meaning": "Explicit witness/actuality transport to the EXACT old UniverseHasExistingCause. A bare candidate edge does not smuggle in its causer actual existence.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
-  "argument_id": "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
+  "id": "8c6d4065-ca53-5a5f-924f-cd3d1d7639b3",
+  "label": "If c has r, x has r limited by x's own capacity, and c's having r is not limited by…, from degrees",
+  "legacy_id": "UNLIMITED-POSSESSION-EXCEEDS-LIMITED-FROM-DEGREES",
+  "argument_id": "1fbc8de7-58d2-54b8-9935-832bc0acd0e7",
   "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
   "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.unlimitedPossessionExceedsLimited",

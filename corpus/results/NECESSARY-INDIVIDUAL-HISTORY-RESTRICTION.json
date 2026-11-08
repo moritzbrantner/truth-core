@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
-  "argument_id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "id": "abfc2e61-b9d6-5918-bfbb-82cbedfcd606",
+  "label": "An explicitly two-history, universal-accessibility model preserves the three-world control's exact…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "argument_id": "f6d0c06b-75b6-5dd8-a8ac-c3d4b23c6388",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.HistoryRestriction.checks",

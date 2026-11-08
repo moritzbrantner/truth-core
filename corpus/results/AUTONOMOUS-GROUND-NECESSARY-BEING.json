@@ -1,6 +1,8 @@
 {
-  "id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
-  "argument_id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "id": "74090fa3-d351-5793-99c3-20eded4854e8",
+  "label": "At least one individual exists at the…, from The PARTICULAR supplied candidate b is… and 4 more",
+  "legacy_id": "AUTONOMOUS-GROUND-NECESSARY-BEING",
+  "argument_id": "6558769c-cc46-52e6-8949-1cdfe75957c4",
   "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AutonomousGroundNecessity.Solution",
   "theorem": "TruthCore.Results.Explanation.AutonomousGroundNecessity.necessaryBeing",

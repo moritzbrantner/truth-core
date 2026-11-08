@@ -1,11 +1,13 @@
 {
-  "id": "INF-PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "id": "05e322ac-0bf2-5eb1-a225-9f6aea4c14cf",
+  "label": "Whatever moves another only as moved is, in that, an efficient cause…, by Universal instantiation…",
+  "legacy_id": "INF-PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
   "input_statement_ids": [
-    "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER",
-    "STMT-MOVER-IS-EFFICIENT-CAUSE",
-    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+    "9c252f24-3d84-5246-9551-2637c0fe6379",
+    "a7d2b839-5873-585e-ae86-4ec36c563b10",
+    "8a22ae75-4198-5a32-ae52-bad2848a50a5"
   ],
-  "output_statement_id": "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+  "output_statement_id": "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
   "rule": "Universal instantiation, existential elimination, modus ponens",
   "meaning": "Every per se mover link is a per se cause link, from three existing open premises and no new one: a per se mover link is a moving of x by a distinct y that is itself moved by some z; every moving in a respect is efficient causing in that respect (so y efficiently causes x and z efficiently causes y); and an efficient cause other than its effect that is itself efficiently caused causes only as caused (the Second Way reading). This is the positive form of the conditional refutation of the occasionalist rival in RIVAL-REFUTATIONS-ROUND2; it links MovesAsMoved to MovesIn and CausesAsCaused to EfficientlyCausesIn.",
   "assumption_statement_ids": [],

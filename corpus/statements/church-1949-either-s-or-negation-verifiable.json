@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CHURCH-1949-EITHER-S-OR-NEGATION-VERIFIABLE",
+  "id": "7b0fcb04-0562-5621-993e-8b2aa9354eb4",
+  "label": "Church 1949: given three observation-statements O1, O2, O3 none of which taken alone entails any…",
+  "legacy_id": "STMT-CHURCH-1949-EITHER-S-OR-NEGATION-VERIFIABLE",
   "paraphrase": "Church 1949: given three observation-statements O1, O2, O3 none of which taken alone entails any of the others, any statement S whatever is such that either it or its negation is verifiable under Ayer's 1946 definition, by way of the directly verifiable statement (not-O1 and O2) or (O3 and not-S).",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-CHURCH-SENTENCE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "97f9d81e-1b60-5ad8-8947-54bd4f09754f"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

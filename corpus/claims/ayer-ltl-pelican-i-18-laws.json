@@ -1,15 +1,17 @@
 {
-  "id": "AYER-LTL-PELICAN-I-18-LAWS",
-  "statement_id": "STMT-AYER-LAWS-NOT-CONCLUSIVELY-VERIFIABLE",
-  "source_id": "AYER-LTL-PELICAN",
+  "id": "47807db0-ade3-5be0-80e2-2c6967018684",
+  "label": "A. J. Ayer, Language Ch: Ayer 1936: general propositions of law are designed to cover an infinite…",
+  "legacy_id": "AYER-LTL-PELICAN-I-18-LAWS",
+  "statement_id": "a59382df-c66f-5a26-a747-4b4160734995",
+  "source_id": "1bbb77e6-62ac-5ee0-bbb4-0387b016e795",
   "locator": "ch. I, p. 18, \"they cannot, even in principle, be verified conclusively\"",
   "interpretation": "Defeat 2 in the movement's own words: Ayer's argument against the strong criterion ('our argument will prove too much'), with examples 'arsenic is poisonous', 'all men are mortal'.",
   "attribution": "The passage states that general propositions of law, covering an infinite number of cases, cannot even in principle be verified conclusively, so that the conclusive criterion obliges us to treat them like metaphysical statements, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

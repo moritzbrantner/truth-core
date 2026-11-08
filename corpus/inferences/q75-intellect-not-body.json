@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "id": "70a8727e-a49a-5d04-aa2f-f5ca82268b87",
+  "label": "The designated human intellectual principle is not a body, by Reductio",
+  "legacy_id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
   "input_statement_ids": [
-    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
-    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
-    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION"
+    "f571b2a0-d5d1-5e8d-821e-582163055902",
+    "3a704795-c9b6-532e-bb8b-b4f4d2cf4fb8",
+    "bc8dc198-3639-52f9-b3e2-d8a0a1b1875c"
   ],
-  "output_statement_id": "STMT-HUMAN-INTELLECT-IS-NOT-A-BODY",
+  "output_statement_id": "32fe3c54-15cd-500f-a85d-e24ce404fec7",
   "rule": "reductio",
   "meaning": "Assume the designated intellectual principle is a body. Bodily determinacy supplies a naturally possessed bodily nature; interference then denies the universal cognitive capacity supplied by the first premise. Discharge the temporary bodily assumption. No particular inaccessible object is selected from a negated universal.",
   "assumption_statement_ids": [],

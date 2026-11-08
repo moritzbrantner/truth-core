@@ -1,15 +1,17 @@
 {
-  "id": "BOYD-45-SEMANTIC-REPLY",
-  "statement_id": "STMT-BOYD-NATURAL-SEMANTIC-REPLY",
-  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "id": "bf097963-af60-531a-9c75-25a36a3d5199",
+  "label": "Richard N. Boyd, How to be a Moral Realist…: Boyd treats moral goodness as naturally and causally…",
+  "legacy_id": "BOYD-45-SEMANTIC-REPLY",
+  "statement_id": "b5554e65-ff84-58d2-87c3-49f15dabcce9",
+  "source_id": "277ef663-b70c-5541-a6c4-f67fd04c205a",
   "locator": "reprint §§3.6–3.8 and 4.5, pp. 320–325 and 335–338",
   "interpretation": "Source reading recorded in prose only. The proposal and its qualifications are retained; it is neither a mechanically verified empirical conclusion nor an established normative bridge.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-NATURALIST-REDUCTION-BASIS"
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "f5e58217-9b11-5ead-8372-481cc8ee371f"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

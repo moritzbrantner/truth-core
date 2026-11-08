@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PROCESS-TURNOVER-REPRESENTATION",
+  "id": "65b8fe40-a586-54f8-80dd-fe36d95bc86f",
+  "label": "PROCESS_CARRIER_1, continuation…: PreservesContinuity s carrier requires carrier p = carrier q for…",
+  "legacy_id": "DEF-PROCESS-TURNOVER-REPRESENTATION",
   "term": "process carrier, continuation preservation and constituent representation",
   "definition": "PreservesContinuity s carrier requires carrier p = carrier q for every s.Continuity p q. FixedExtension s carrier parts requires s.MemberAt p c iff parts (carrier p) c: constituents have no time argument. DynamicExtension adds the phase argument to parts. Phase, Component, Scenario and scenario are reused from Mereology.Vitalism. No process is defined as a substance, soul or river.",
   "basis": "stipulative",

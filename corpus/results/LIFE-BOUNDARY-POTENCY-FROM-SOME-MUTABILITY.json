@@ -1,7 +1,8 @@
 {
-  "id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "id": "87c6d32e-305a-5c11-b048-9677e4556789",
   "label": "MUTABLE_3: a life boundary requires potency, from mutability in some way and a sense bridge",
-  "argument_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+  "argument_id": "158efe69-7391-5227-9f0b-6523d0360375",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.lifeBoundaryPotencyFromSomeMutability",

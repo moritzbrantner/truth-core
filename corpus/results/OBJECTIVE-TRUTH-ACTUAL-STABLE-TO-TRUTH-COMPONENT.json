@@ -1,6 +1,8 @@
 {
-  "id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
-  "argument_id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "id": "489f716a-6306-5e51-be37-f46df5448b3f",
+  "label": "Every sentence satisfying the supplied objective…, from Analyst definition proposition: in this…",
+  "legacy_id": "OBJECTIVE-TRUTH-ACTUAL-STABLE-TO-TRUTH-COMPONENT",
+  "argument_id": "ef2848bf-d993-51a1-bb0b-19a473296054",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ProfileToTruth.profileToTruth",

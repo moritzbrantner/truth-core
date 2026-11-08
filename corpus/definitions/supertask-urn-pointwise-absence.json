@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-URN-POINTWISE-ABSENCE",
+  "id": "7c4a29a2-7ded-5576-bfed-2c12344d8bfe",
+  "label": "BALL_BY_BALL_EVENTUAL_ABSENCE_1: For each individually fixed ball identifier b there is a possibly…",
+  "legacy_id": "DEF-SUPERTASK-URN-POINTWISE-ABSENCE",
   "term": "ball-by-ball eventual absence",
   "definition": "For each individually fixed ball identifier b there is a possibly b-dependent cutoff stage after which b is absent. In the simplified urn, stage n contains balls n+1 through 2n.",
   "basis": "stipulative",

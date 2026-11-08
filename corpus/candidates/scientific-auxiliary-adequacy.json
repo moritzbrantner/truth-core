@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTIFIC-AUXILIARY-ADEQUACY",
-  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "id": "ea4255e4-72ba-575b-aca2-a04f96c80ef6",
+  "label": "Defend the actual reliability, independence and scope of auxiliary commitments that allow an…",
+  "legacy_id": "SCIENTIFIC-AUXILIARY-ADEQUACY",
+  "source_id": "e908d7ce-7ac5-53b6-8882-5e05e364ca2c",
   "locator": "Seconde partie, VI §§II–III and X",
   "priority": 425,
   "goal": "Defend the actual reliability, independence and scope of auxiliary commitments that allow an experimental discrepancy to identify the disputed physical theory rather than another part of the tested ensemble. In a real additive-calibration application, independently justify the common reference, constant-bias assumption and model adequacy; do not infer these from matching responses. Compare realist and instrumentalist positive explanations and explicit alternative coverage rather than demanding infallibility or treating every repair as equally rational.",

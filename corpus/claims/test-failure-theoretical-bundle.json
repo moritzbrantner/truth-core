@@ -1,14 +1,16 @@
 {
-  "id": "DUHEM-VI-II-FAILURE-BUNDLE",
-  "statement_id": "STMT-TEST-FAILURE-THEORETICAL-BUNDLE",
-  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "id": "448b57c7-c790-5a86-954e-4c9cf0cf61d8",
+  "label": "Pierre Duhem, La Théorie physique Seconde…: A failed physical prediction puts the…",
+  "legacy_id": "DUHEM-VI-II-FAILURE-BUNDLE",
+  "statement_id": "8c77646e-e8e7-52c5-a186-caba75118bcd",
+  "source_id": "e908d7ce-7ac5-53b6-8882-5e05e364ca2c",
   "locator": "Seconde partie, VI §II, pp.303–307",
   "interpretation": "Prose source reading only; no attributed Lean theorem. The source’s scope is the physical experimental procedure with theoretical auxiliaries, not a proof that no hypothesis can ever be rationally rejected. The retained confidence is an explicit condition of fault attribution, not established infallibility.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCIENCE-THEORY-LADEN-TEST"
+    "2835b1dc-9019-5f31-9fbb-b1ff121b54e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENCE-TEST-ADEQUACY"
+    "fc31f2fd-5fee-5233-8567-5522662cee5b"
   ]
 }

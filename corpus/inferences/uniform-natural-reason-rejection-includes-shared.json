@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "id": "0d83279a-8e7f-578c-89ef-cd31d27e831c",
+  "label": "Exact negation of NATURAL_REASON_2 is shared reason: it is not the case…, by Constructive-proof",
+  "legacy_id": "INF-UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
   "input_statement_ids": [
-    "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED"
+    "9b85baf4-bd6f-5ffd-87d9-5dd70b3a132c"
   ],
-  "output_statement_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
+  "output_statement_id": "490f4796-81ee-5c42-95d2-2f2a6713c654",
   "rule": "constructive-proof",
   "meaning": "Project the exact rejection of the old shared bridge from rejection of both uniform readings. Assembly transcription; this is the shared-scope connection used by the rival endpoint.",
   "assumption_statement_ids": [],

@@ -1,14 +1,16 @@
 {
-  "id": "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A",
-  "statement_id": "STMT-THINGS-TRUE-BY-CONFORMITY-TO-ORIGINATING-INTELLECT",
-  "source_id": "AQUINAS-ST",
+  "id": "c9ad52b9-4eeb-5968-93d7-86e736a5d817",
+  "label": "Thomas Aquinas, Summa theologiae I q.16 a.1…: A thing is called TRUE_1 absolutely by its relation…",
+  "legacy_id": "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A",
+  "statement_id": "26a25bff-0fd2-562d-a0c1-81cee02f3782",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.16 a.1 co., from Unde unaquaeque res dicitur vera absolute through secundum quod comparantur ad intellectum ut ad principium",
   "interpretation": "Aquinas distinguishes a thing’s per se relation to an intellect on which it depends in being from its accidental relation to an observer. Truth said of things is conformity to that originating intellect: the house to its maker’s conceived form, the natural stone to its proper nature according to the divine intellect. This is Aquinas’s theological account, not an argument here that such an intellect exists. It does not identify truth of things with the truth of an observer’s sentence or define a numerical degree of truth.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ONTOLOGICAL-TRUTH"
+    "b412016a-43c1-5c4a-abb0-4e53d343d508"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

@@ -1,13 +1,15 @@
 {
-  "id": "INF-ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "id": "ddc3c2f1-47f6-5bd0-81e6-1d53f8e26b42",
+  "label": "Whatever is moved in a respect of physical MOTION_2 is moved in that respect by…, by Proof-by-cases",
+  "legacy_id": "INF-ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
   "input_statement_ids": [
-    "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
-    "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
-    "STMT-FORCED-MOTION-BY-ANOTHER",
-    "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
-    "STMT-PASSIVE-NATURAL-MOTION-BY-GENERATOR-OR-REMOVER"
+    "6b13095f-588e-5ef5-af79-9f1170a4e141",
+    "678cd483-ade2-5b1b-b60c-da1790f46497",
+    "2d1b4c22-faa3-5433-9da4-4dfd880f8207",
+    "5d9eba3a-5add-52ff-b3b7-cf2c3fd98f2f",
+    "d09bb992-0783-556c-bcf3-2d840835d5f8"
   ],
-  "output_statement_id": "STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "output_statement_id": "22189ad9-992c-5d8f-92ae-a64ec982f484",
   "rule": "proof-by-cases",
   "meaning": "Case analysis on Physics VIII.4's division: a moved thing is moved by force (then another moves it) or by nature; a natural motion is a self-motion (then something moves it) or the motion of something light or heavy (then its generator moves it, or the remover of a hindrance per accidens).",
   "assumption_statement_ids": [],

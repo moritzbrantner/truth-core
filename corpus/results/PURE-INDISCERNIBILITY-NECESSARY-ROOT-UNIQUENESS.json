@@ -1,6 +1,8 @@
 {
-  "id": "PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS",
-  "argument_id": "PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS",
+  "id": "88a487f6-c893-51ad-9244-f2a27c119e09",
+  "label": "There exists an actual concrete root…, from Some candidate is CONCRETE_6 and exists at… and 6… (2)",
+  "legacy_id": "PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS",
+  "argument_id": "c84c4a2a-37b1-5313-91fb-63e3e37de09f",
   "challenge_module": "TruthCore.Results.Causality.PureActRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureActRoot.Solution",
   "theorem": "TruthCore.Results.Causality.PureActRoot.uniqueRootFromPureIndiscernibility",

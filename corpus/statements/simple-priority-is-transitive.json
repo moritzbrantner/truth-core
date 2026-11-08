@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE",
+  "id": "7ad36aca-d55e-5b66-92fa-30749333df4f",
+  "label": "Simple priority is transitive: what is SIMPLY_PRIOR_1 to something SIMPLY_PRIOR_1 to x is…",
+  "legacy_id": "STMT-SIMPLE-PRIORITY-IS-TRANSITIVE",
   "paraphrase": "Simple priority is transitive: what is simply prior to something simply prior to x is simply prior to x.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.SimplePriorityTransitiveReading",
   "definition_ids": [
-    "DEF-SIMPLE-PRIORITY"
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "REL-COMPOSER-TEMPORAL-OTHER-OPPOSES-NAMED-COVERAGE",
-  "subject_id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
-  "object_id": "STMT-EFFICIENT-ATTRIBUTION-NAMED-TEMPORAL-DEFINITIONS-COVER",
+  "id": "23d59f02-6e60-57d1-abbe-768bb526bb70",
+  "label": "Both supplied named calibrations fail alternative to The independently supplied attribution…",
+  "legacy_id": "REL-COMPOSER-TEMPORAL-OTHER-OPPOSES-NAMED-COVERAGE",
+  "subject_id": "f6799609-72bd-5b35-974c-2e497e1c1837",
+  "object_id": "a1d4003f-92b6-510a-95f5-e282afad92fa",
   "note": "Both named calibrations fail; this opposes coverage, not the original independent composer attribution or the composite conclusion.",
   "predicate": "alternative_to",
   "subject_kind": "statement",

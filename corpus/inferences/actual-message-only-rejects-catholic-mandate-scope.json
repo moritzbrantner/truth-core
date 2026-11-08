@@ -1,10 +1,12 @@
 {
-  "id": "INF-ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
+  "id": "efc060dc-bc1d-5d33-ba32-9f2f5f9b5d56",
+  "label": "Exact negation of the conditional Catholic-Church mandate scope on the same…, by Constructive-proof",
+  "legacy_id": "INF-ACTUAL-MESSAGE-ONLY-REJECTS-CATHOLIC-MANDATE-SCOPE",
   "input_statement_ids": [
-    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
-    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+    "f984563a-ae82-507e-b374-aff896f48ee9",
+    "68bcf931-603b-5f03-a077-18f16f9428bd"
   ],
-  "output_statement_id": "STMT-CATHOLIC-MANDATE-SCOPE-REJECTED",
+  "output_statement_id": "45eb2698-4ccd-59c7-a25b-5737edd84e2e",
   "rule": "constructive-proof",
   "meaning": "Reuse FoundingScope.messageRival_excludes_scope with an actual mandate and founded visible Catholic body; the raw conditional alone does not negate the other conditional.",
   "assumption_statement_ids": [],

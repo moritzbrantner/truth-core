@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-SELF-APPLICATION-DILEMMA",
+  "id": "15f2ba61-757b-502d-a249-2cda603eb026",
+  "label": "For every NORM_ON_CLAIMS_3 and every claim in its scope that fails its…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-SELF-APPLICATION-DILEMMA",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SELF-APPLICATION-DILEMMA",
+  "output_statement_id": "620f5e6c-d3dd-56a8-97c3-1603245b281c",
   "rule": "constructive-proof",
   "meaning": "The reusable retorsion schema, premise-free: a claim in a norm's scope that fails its standard is unacceptable if the norm holds and a counterexample if it is acceptable.",
   "assumption_statement_ids": [],

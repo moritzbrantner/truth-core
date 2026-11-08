@@ -1,30 +1,30 @@
 {
-  "id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+  "id": "8a29551f-afa7-5336-a699-fa534a0d0143",
   "premise_statement_ids": [
-    "STMT-GOD-SENSES-EXHAUSTIVE",
-    "STMT-GOD-SENSE-UNIQUE",
-    "STMT-ROUTE-NAMES-DESCRIBED-PRINCIPLE",
-    "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES"
+    "2541318c-0e5a-5e1a-a732-a9ec1768690e",
+    "8514b173-d4a8-5a74-be34-f59dcc992d72",
+    "9506655b-7aef-5946-8af0-1871c639c7a3",
+    "e8ead27c-e836-53eb-85ed-0f8ed1d386cc"
   ],
-  "conclusion_statement_id": "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES",
+  "conclusion_statement_id": "d1aae8a7-f8fa-53fe-b7bd-9aae1a0cf0a2",
   "inference_ids": [
-    "INF-GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES"
+    "9d265053-ebe8-5041-9035-125b43a43f18"
   ],
   "meaning": "Optional summary over GOD_1-4. Coverage reads both uses of 'God' on the designated root route (naming, attributes) in selected senses; exclusivity makes them one sense. So whatever meets the full description is God in that sense and has the classical attributes. The controls give the mixed reading (naming GOD_1, attributes GOD_4): the naming holds analytically, the described principle is not the classical God and lacks the attributes.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-MAXIME-ENS",
-    "DEF-REMOTE-FROM-ALL",
-    "DEF-ROUTE-SENSE-SELECTION"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "c8f9c2fb-8c17-5fc8-b558-4a6fad659296",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ],
   "label": "GOD fork summary: the fully described principle has the classical attributes",
   "sense_bridges": [
@@ -32,19 +32,20 @@
       "term": "GOD",
       "from": "295c9096-50b8-4ccd-960e-f833730a0774",
       "to": "b11d7317-49bb-4c03-b1aa-fefada6943ff",
-      "statement_id": "STMT-GOD-SENSES-EXHAUSTIVE"
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
     },
     {
       "term": "GOD",
       "from": "295c9096-50b8-4ccd-960e-f833730a0774",
       "to": "b7754ffd-e139-42d1-bf84-77579fa650cf",
-      "statement_id": "STMT-GOD-SENSES-EXHAUSTIVE"
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
     },
     {
       "term": "GOD",
       "from": "295c9096-50b8-4ccd-960e-f833730a0774",
       "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
-      "statement_id": "STMT-GOD-SENSES-EXHAUSTIVE"
+      "statement_id": "2541318c-0e5a-5e1a-a732-a9ec1768690e"
     }
-  ]
+  ],
+  "legacy_id": "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES"
 }

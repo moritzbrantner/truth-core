@@ -1,14 +1,16 @@
 {
-  "id": "INF-MODAL-FORK-KTB",
+  "id": "1b93b5c8-4d30-57bc-af73-57875deec064",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application…",
+  "legacy_id": "INF-MODAL-FORK-KTB",
   "input_statement_ids": [
-    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
-    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
-    "STMT-NECESSARY-ROOT-BOX-K",
-    "STMT-ONTIC-T-SCHEMA",
-    "STMT-ONTIC-B-SCHEMA",
-    "STMT-INTENDED-BOX-B"
+    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
+    "c3afabb3-3442-5b29-83bf-7114354b345a",
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "cb456382-efd6-554b-8ee4-c8fc193f876a",
+    "98bede5a-c5ff-5c26-9af0-10d526d422e2",
+    "1c0a4898-0c89-5b37-b4c8-ba80d4bd0a41"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
+  "output_statement_id": "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
   "rule": "Theorem application (T correspondence; B correspondence of the convergence certificate), conjunction and existential introduction",
   "meaning": "KTB branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and B schemas and the OPEN reading premise (box-existence in KTB, and only that) give the fork node. Reflexivity from the T correspondence, symmetry from the B correspondence of the ConvergenceCertificate. Without the B schema the branch fails on the two-world order false <= true (controls).",
   "assumption_statement_ids": [],

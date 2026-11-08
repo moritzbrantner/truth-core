@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-MATHEMATICS-FINITE-A",
-  "statement_id": "STMT-MATHEMATICS-ARBITRARY-FINITE-NOT-ACTUAL-INFINITE",
-  "source_id": "ARIST-PHYS",
+  "id": "b9f3fe4a-859a-5414-b7a7-912089f3abd0",
+  "label": "Aristotle, Physics III.7, 207b27-34: Mathematical proof does not require an actually infinite…",
+  "legacy_id": "ARIST-PHYS-207B-MATHEMATICS-FINITE-A",
+  "statement_id": "7d0e5e09-50cd-5490-bf3f-7d60bcc00f2c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b27-34",
   "interpretation": "Methodological claim: the mathematician need not posit an actually infinite magnitude; for the proofs Aristotle has in view it suffices that a finite magnitude can be produced or extended as far as desired. The claim is not universalized to every later mathematical framework.",
   "status": "formalized"

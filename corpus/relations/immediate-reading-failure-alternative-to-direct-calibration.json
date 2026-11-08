@@ -1,9 +1,11 @@
 {
-  "id": "REL-IMMEDIATE-READING-FAILURE-ALTERNATIVE-TO-DIRECT-CALIBRATION",
+  "id": "990570ba-4b26-5d2f-8903-28c2c6e59bb2",
+  "label": "The direct-only calibration fails in the… alternative to A society counts as founded by GOD_4 as…",
+  "legacy_id": "REL-IMMEDIATE-READING-FAILURE-ALTERNATIVE-TO-DIRECT-CALIBRATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+  "subject_id": "15de8ad9-6fba-5177-9345-aaee59f77be0",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "object_id": "fc6eabd0-78f3-5a52-8041-73101a0e1dd5",
   "note": "Exact contextual negation of the direct-only calibration in one supplied signature/agency/direct relation. It does not refute immediate founding universally or identify the inclusive interpretation as exhaustive."
 }

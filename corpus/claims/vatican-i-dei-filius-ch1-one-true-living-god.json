@@ -1,20 +1,22 @@
 {
-  "id": "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
-  "statement_id": "STMT-DEI-FILIUS-ONE-TRUE-LIVING-GOD",
-  "source_id": "VATICAN-I-DEI-FILIUS",
+  "id": "3bb5f9eb-f30e-5acc-98da-80b7c246448c",
+  "label": "First Vatican Council, Dei Filius Ch. 1…: The Church believes and confesses one true and living…",
+  "legacy_id": "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD",
+  "statement_id": "9aa19f39-aee2-55cc-8030-3a43a8bcf997",
+  "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
   "locator": "ch. 1, unum esse Deum verum et vivum ... intellectu ac voluntate omnique perfectione infinitum: qui cum sit una singularis, simplex omnino et incommutabilis substantia spiritualis",
   "interpretation": "The council's confession of God's attributes (DS 3001): one, true, living, creator and lord, almighty, eternal, immense, incomprehensible, infinite in intellect, will and every perfection; one singular, altogether simple and unchangeable spiritual substance; really distinct from the world; most blessed; exalted above all. With 'bonitate sua' (DS 3002) for goodness. Kept as prose. It motivates the intended attribute list of the explicit one-way premise STMT-CLASSICAL-ATTRIBUTES-SUFFICE (owner decision on #143, 2026-10-24) and supports the intended readings of the five attribute inputs. The text does not assert a universal bridge over arbitrary predicates or define the skeleton field. As in the root (A), it states what the Church teaches; it is not used as a premise of the derivations.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ONE-GOD",
-    "DEF-ETERNAL",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-SIMPLE",
-    "DEF-UNIVERSALLY-PERFECT",
-    "DEF-SUPREMELY-GOOD",
-    "DEF-INFINITE",
-    "DEF-IMMUTABLE",
-    "DEF-HAS-INTELLECT",
-    "DEF-HAS-WILL"
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "58e0de99-6199-5851-8e03-381bca0d44f0",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "MERRICKS-PRECIS-EXISTENCE-RESIDUE",
-  "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
-  "statement_id": "STMT-ONLY-MERE-EXISTENCE-TRUTHS-MUST-HAVE-TRUTHMAKERS",
+  "id": "91561df5-86cc-5a95-8a69-dd1bd036376f",
+  "label": "Trenton Merricks, Précis of Truth and…: Only truths about the mere existence of something must…",
+  "legacy_id": "MERRICKS-PRECIS-EXISTENCE-RESIDUE",
+  "source_id": "8d7acf88-524d-59e4-ae1a-285d9d1a931b",
+  "statement_id": "9a753edd-e0c7-5878-8660-926c6ec1255f",
   "locator": "PDF p. 3, paragraph beginning Truth and Ontology concludes",
   "interpretation": "The necessity demand is restricted to mere-existence truths. Merricks still rejects the doctrine Truthmaker rather than endorsing it with curtailed scope. The analyst per-individual ExistenceScope is narrower and not identified with this whole class.",
   "attribution": "The passage states that only truths about mere existence must have truthmakers, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
-    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+    "e201b423-f0e4-5026-a88d-1c1a8e452638",
+    "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

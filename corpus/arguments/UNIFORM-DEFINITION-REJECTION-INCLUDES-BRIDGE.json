@@ -1,23 +1,25 @@
 {
-  "id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
+  "id": "060ec4cf-12e5-5c5e-aa3e-7926d8a50599",
+  "label": "Exact negation of conciliar definition is…, from Both uniform endorsement profiles fail: not…",
+  "legacy_id": "UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE",
   "premise_statement_ids": [
-    "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED"
+    "3915fbb1-6020-5f07-aab9-c65793b8a7de"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "conclusion_statement_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "inference_ids": [
-    "INF-UNIFORM-DEFINITION-REJECTION-INCLUDES-BRIDGE"
+    "d9a01543-5da4-5f0f-8df9-fdd2f2fefe77"
   ],
   "meaning": "Project the exact old-bridge rejection from rejection of both uniform profiles. Assembly transcription and sole-premise strength; this is the explicit graph connection from the mixed case.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ],
   "strong_version_needed": {
-    "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
+    "3915fbb1-6020-5f07-aab9-c65793b8a7de": "This certificate registers the sole-premise strong-to-weak projection; consequence arguments use only the needed weak component."
   }
 }

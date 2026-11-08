@@ -1,15 +1,17 @@
 {
-  "id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+  "id": "15de8ad9-6fba-5177-9345-aaee59f77be0",
+  "label": "The direct-only calibration fails in the selected signature, agency and direct-founding relation",
+  "legacy_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
   "paraphrase": "The direct-only calibration fails in the selected signature, agency and direct-founding relation. This is a contextual negation, not a universal rejection of immediate divine founding.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.ImmediateReadingFails",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

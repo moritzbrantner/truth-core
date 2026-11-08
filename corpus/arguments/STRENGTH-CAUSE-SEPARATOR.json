@@ -1,16 +1,18 @@
 {
-  "id": "STRENGTH-CAUSE-SEPARATOR",
+  "id": "82a87baf-3550-5fcf-ba64-35711894b17f",
+  "label": "In the specified Bool setting only false is generated and the CAUSE_2 relation is identity: the…",
+  "legacy_id": "STRENGTH-CAUSE-SEPARATOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSE-READINGS-SELF-ONLY-SEPARATOR",
+  "conclusion_statement_id": "478e6119-f52b-5b9b-85f5-9008b5fb8dfc",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-SEPARATOR"
+    "ec69db89-2105-59c0-b87d-2a4beb8a3955"
   ],
   "meaning": "The specified identity-only Bool setting satisfies W and not S under exactly the same empty background and decidable identity.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

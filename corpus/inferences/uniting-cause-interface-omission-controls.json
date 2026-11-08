@@ -1,7 +1,9 @@
 {
-  "id": "INF-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "id": "619d22f1-df35-5cab-875e-e4e8c6b14406",
+  "label": "Two explicit interpretations have the same necessary underived unique actual…, by Direct-proof",
+  "legacy_id": "INF-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "output_statement_id": "160e5e3f-0878-5804-afdd-af1d54d18ebf",
   "rule": "direct-proof",
   "meaning": "Construct two explicit Unit-world Bool-being interpretations separating the two actuality interfaces, with the same necessary underived unique actual source false still composite. These are logical omission controls, not source readings or metaphysical possibility claims.",
   "assumption_statement_ids": [],

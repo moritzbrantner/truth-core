@@ -1,6 +1,8 @@
 {
-  "id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
-  "argument_id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "id": "a7a93c29-d754-59ee-96b7-e469ab39bf4b",
+  "label": "Jesus founded a visible, enduring…, from On the selected society carrier, a body… and 1 more",
+  "legacy_id": "VISIBLE-CHURCH-CRITERION-SUPPLIES-STAGE-FIVE",
+  "argument_id": "a0b834e1-be38-5f36-a9f3-c517a45144d9",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Visible.visibleCriterionSuppliesStageFive",

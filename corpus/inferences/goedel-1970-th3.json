@@ -1,10 +1,12 @@
 {
-  "id": "INF-GOEDEL-1970-TH3",
+  "id": "d6be7882-73e8-5c18-89e1-c47641b37523",
+  "label": "Gödel's 1970 theorem Th3: at every world, if possibly an existing…, by Universal-instantiation",
+  "legacy_id": "INF-GOEDEL-1970-TH3",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-GOD-LIKE-IMPLIES-NECESSARILY-EXISTS",
-    "STMT-ACCESSIBILITY-SYMMETRIC"
+    "9828ffa7-fa30-5220-a946-872f2aedfb5f",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf"
   ],
-  "output_statement_id": "STMT-GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "output_statement_id": "e29fa057-3742-5de8-85b7-7066ffadb538",
   "rule": "universal-instantiation",
   "meaning": "AFP Th3 (Th2 and Rsymm). If a God-like x exists at some v accessible from w, then by Th2 at v and symmetry a God-like individual exists at w, and by Th2 at w one exists at every world accessible from w.",
   "assumption_statement_ids": [],

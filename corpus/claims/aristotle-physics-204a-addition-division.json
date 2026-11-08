@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204A-ADDITION-DIVISION-A",
-  "statement_id": "STMT-INFINITE-ADDITION-DIVISION-MODES",
-  "source_id": "ARIST-PHYS",
+  "id": "b1bf8f36-71c3-5081-9435-a6317c0991c6",
+  "label": "Aristotle, Physics III.4, 204a6: What is infinite may be infinite with respect to addition…",
+  "legacy_id": "ARIST-PHYS-204A-ADDITION-DIVISION-A",
+  "statement_id": "31adcaee-70cf-5ba8-bb54-58f00805ee31",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 204a6",
   "interpretation": "Structural distinction: infinity may concern addition, division, or both. This becomes important in Aristotle's later positive account and is kept separate from the traversal-sense taxonomy.",
   "status": "formalized"

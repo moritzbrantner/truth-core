@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-PHIL-HUMILIATION",
+  "id": "4f7d7fa3-5fce-575c-9753-411aa370644d",
+  "label": "The letter presents Christ Jesus as emptying himself by taking slave form in human likeness, and…",
+  "legacy_id": "STMT-REPORTED-PHIL-HUMILIATION",
   "paraphrase": "The letter presents Christ Jesus as emptying himself by taking slave form in human likeness, and as found human, humbling himself in obedience through death on a cross. Textual attribution only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Philippians.Christology.ReportedHumiliation",
   "definition_ids": [
-    "DEF-PHIL-CHRISTOLOGY-REPORT"
+    "c9170618-ccb7-53ac-948d-35ad3ca39f65"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHIL-CHRISTOLOGY"
+    "10dde11a-643e-5295-89e6-27d15f130cb1"
   ]
 }

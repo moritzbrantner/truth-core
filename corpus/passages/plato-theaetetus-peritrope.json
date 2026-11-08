@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLATO-THEAET",
+    "source_id": "fcfc4cb0-ad17-5c8f-a8ff-ce41ddb2e1e1",
     "edition_urn": "urn:cts:greekLit:tlg0059.tlg006.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLATO-THEAET-169",
+      "id": "76f0a5b4-0ba5-5df8-b8b9-3fb60b2bfaf1",
+      "label": "Plato, Theaetetus, 169",
+      "legacy_id": "PLATO-THEAET-169",
       "locator": "169",
       "claim_locator_prefixes": [
         "169"
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "PLATO-THEAET-170",
+      "id": "de9be960-eb30-5219-9383-0524474e2a9e",
+      "label": "Plato, Theaetetus, 170",
+      "legacy_id": "PLATO-THEAET-170",
       "locator": "170",
       "claim_locator_prefixes": [
         "170"
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "PLATO-THEAET-171",
+      "id": "afd817b9-6f8c-51bc-a26d-73c2dddb46a0",
+      "label": "Plato, Theaetetus, 171",
+      "legacy_id": "PLATO-THEAET-171",
       "locator": "171",
       "claim_locator_prefixes": [
         "171"
@@ -51,7 +57,9 @@
       ]
     },
     {
-      "id": "PLATO-THEAET-172",
+      "id": "25d14b5c-4229-5c70-827e-7bb1eeaa9ee2",
+      "label": "Plato, Theaetetus, 172",
+      "legacy_id": "PLATO-THEAET-172",
       "locator": "172",
       "claim_locator_prefixes": [
         "172"

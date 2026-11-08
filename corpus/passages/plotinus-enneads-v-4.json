@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLOTINUS-ENNEADS",
+    "source_id": "4e88cb1d-0567-56e7-8861-0e4669f50036",
     "edition_urn": "urn:cts:greekLit:tlg2000.tlg001.1st1K-grc1",
     "language": "grc",
     "repository": "OpenGreekAndLatin/First1KGreek",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLOTINUS-ENN-V-4",
+      "id": "d40b913f-3b10-5d90-9740-3f98a7810528",
+      "label": "Plotinus, Enneads, V.4, complete treatise",
+      "legacy_id": "PLOTINUS-ENN-V-4",
       "locator": "V.4, complete treatise (chapters 1–2)",
       "claim_locator_prefixes": [
         "V.4.1",

@@ -1,21 +1,22 @@
 {
-  "id": "NOMINAL-GOD-NAMING-IS-ANALYTIC",
+  "id": "eadd6b96-8218-55d3-87ef-4c76a879a3fc",
+  "label": "GOD_1: the naming premise read nominally is analytic",
+  "legacy_id": "NOMINAL-GOD-NAMING-IS-ANALYTIC",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE",
+  "conclusion_statement_id": "21043f97-fcc6-5f0f-94f9-c4786bdb8cd3",
   "inference_ids": [
-    "INF-NOMINAL-GOD-NAMING-IS-ANALYTIC"
+    "ad1e01b8-9eeb-5d59-807b-4d8572079c66"
   ],
   "meaning": "GOD_1 (NOMINAL) branch of the naming use: read as what the name signifies, 'the fully described principle is God' needs no premise. Recorded as its own statement so that it cannot be taken for the GOD_4 root premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, whose Lean declaration is generic in the God predicate.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-MAXIME-ENS",
-    "DEF-NOMINAL-DEFINITION",
-    "DEF-REMOTE-FROM-ALL"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-MAXIME-ENS"
-  ],
-  "label": "GOD_1: the naming premise read nominally is analytic"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
 }

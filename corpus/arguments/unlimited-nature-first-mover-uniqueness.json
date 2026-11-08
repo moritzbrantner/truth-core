@@ -1,36 +1,38 @@
 {
-  "id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "id": "6acf2716-18b0-5e61-9213-e3f1d54c006f",
+  "label": "There is at most one first mover moved…, from Numerically different individuals cannot… and 4… (2)",
+  "legacy_id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
   "premise_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
-    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
-    "STMT-UNLIMITED-BEINGS-SHARE-NATURE"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "78246da5-0b37-5b37-b821-1e8bdb41606c",
+    "74eb9113-552b-5ec6-8e09-68374305dd58",
+    "fb3315ca-9f34-528f-87f4-e591d8cdb28f"
   ],
-  "conclusion_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "conclusion_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
   "inference_ids": [
-    "INF-UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS"
+    "c2b00f02-649b-52a2-83d6-98aed35eb12b"
   ],
   "meaning": "Simplicity and first-being make each first mover lack a limiting principle. The OPEN bridge UnlimitedBeingsShareNature then gives one represented nature for first movers, and imported Q11NatureUniqueness.godIsOneFromNature with individuation and the adapter gives identity. Every-perfection is not used. No first mover is produced. The bridge is an unattributed open premise; its first-mover instance is not independent of uniqueness given individuation and the adapter, and only its reach beyond first movers exceeds uniqueness.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
-    "DEF-Q11-COMMON-DIVINE-NATURE",
-    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
-    "DEF-ESSE",
-    "DEF-SIMPLE",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-FIRST-BEING"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "06ecb76b-03a1-52cc-975c-5dbfa74857ba",
+    "248eac32-3f30-5fa3-a34a-7c218d01021b",
+    "cd8adf42-1085-5d98-a799-1d086e5a3adb",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "8f67132e-5c8d-5132-a04b-6d194240cb4a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
-    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "06fb4f51-ff5f-5c5e-b947-844f20de4174",
+    "efedeffa-2bfa-569a-93d8-d4f682817086"
   ]
 }

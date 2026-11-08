@@ -1,14 +1,16 @@
 {
-  "id": "NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING",
-  "statement_id": "STMT-PILOT-REPORT-JOHN-BROTHERS-UNBELIEVING",
-  "source_id": "NT-JOHN",
+  "id": "9bc58cc8-b6fb-5fc1-9d7a-faa25220252e",
+  "label": "New Testament, John 7.3-5: John says Jesus’s brothers did not believe in him",
+  "legacy_id": "NT-JOHN-PILOT-JOHN-BROTHERS-UNBELIEVING",
+  "statement_id": "9bea35f2-4ff6-5288-946a-df51003ab1ee",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "7.3-5",
   "interpretation": "The plural group statement does not name James or individually settle his belief; distributing it to this James requires an identity and scope reading.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

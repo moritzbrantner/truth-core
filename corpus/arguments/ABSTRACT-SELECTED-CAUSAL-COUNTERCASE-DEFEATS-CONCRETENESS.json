@@ -1,19 +1,21 @@
 {
-  "id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "id": "485ea590-894d-5bff-8165-74dbdbfdd3b4",
+  "label": "Exact negation of the original two-clause…, from In this supplied causal profile, the… and 1 more",
+  "legacy_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
   "premise_statement_ids": [
-    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE",
-    "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE"
+    "0c1b8438-fef8-5e2e-b42a-49d9d2e1f2df",
+    "fd141661-3c09-55a2-a76a-f56b426ef839"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "conclusion_statement_id": "a1de3d6a-aed9-5b38-a4b1-4f41101c7d96",
   "inference_ids": [
-    "INF-ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS"
+    "98e49a59-617b-5b73-98d2-6ebd4d4764c6"
   ],
   "meaning": "A no-esse capacity or productive-causer witness contradicts the SAME original two-clause commitment only with the explicit concrete/esse calibration.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

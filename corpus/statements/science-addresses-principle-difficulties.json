@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SCIENCE-ADDRESSES-PRINCIPLE-DIFFICULTIES",
+  "id": "60e418cc-881a-5f69-9a10-412fdfef4490",
+  "label": "A science need not answer every arbitrary challenge, but it should answer difficulties falsely…",
+  "legacy_id": "STMT-SCIENCE-ADDRESSES-PRINCIPLE-DIFFICULTIES",
   "paraphrase": "A science need not answer every arbitrary challenge, but it should answer difficulties falsely derived from its own principles.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ScienceAddressesPrincipleBasedDifficultiesReading"
 }

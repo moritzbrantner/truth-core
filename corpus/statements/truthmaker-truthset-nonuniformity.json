@@ -1,18 +1,20 @@
 {
-  "id": "STMT-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
+  "id": "e253ee8b-a65c-5509-9fc7-d796787f7f99",
+  "label": "On the same alternating two-world ontology, Fact is every Bool-to-Prop truth set, holds is…",
+  "legacy_id": "STMT-TRUTHMAKER-TRUTHSET-NONUNIFORMITY",
   "paraphrase": "On the same alternating two-world ontology, Fact is every Bool-to-Prop truth set, holds is evaluation, and negation/conjunction closure is witnessed. Sound world-immanent makers cover every represented true proposition and satisfy maker necessitation; existence labels are coherent. The constant true proposition is necessary and has local makers, but no uniform maker and no necessary individual. This covers the whole specified propositional truth-set language, not every substantive metaphysical or aboutness thesis of unrestricted historical theories.",
   "lean_declaration": "TruthCore.Explanation.TruthmakerTheories.TruthSetMap",
   "definition_ids": [
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-TRUTHMAKER-SCOPE-PROFILES",
-    "DEF-TRUTHMAKER-UNIFORMITY",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-INSTANCE-GROUNDING"
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "1d3220e2-a6b2-51f5-87e7-a703690dee75",
+    "af6281dc-b6a1-573f-b1ea-d04f0194889f",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

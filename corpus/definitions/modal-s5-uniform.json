@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-UNIFORM",
+  "id": "32211feb-7d9e-5822-a9e0-e8a89374d6aa",
+  "label": "Uniform truth on a component: ComponentUniform F D w means every pair of worlds accessible from…",
+  "legacy_id": "DEF-MODAL-S5-UNIFORM",
   "term": "uniform truth on a component",
   "definition": "ComponentUniform F D w means every pair of worlds accessible from root w agrees at each admissible predicate in D. Agreement is not label identity; restricted-domain identity needs a separate extensionality premise.",
   "basis": "stipulative",

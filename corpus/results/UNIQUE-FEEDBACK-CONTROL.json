@@ -1,6 +1,8 @@
 {
-  "id": "UNIQUE-FEEDBACK-CONTROL",
-  "argument_id": "UNIQUE-FEEDBACK-CONTROL",
+  "id": "b217ef67-6837-536f-8f5a-e7780e1f4a82",
+  "label": "The two sensitive Boolean gates a = not b and b = a and b jointly admit exactly one state…",
+  "legacy_id": "UNIQUE-FEEDBACK-CONTROL",
+  "argument_id": "1260efda-84ab-55fe-8179-1eb83dba2081",
   "challenge_module": "TruthCore.Results.Causality.UniqueFeedback.Challenge",
   "solution_module": "TruthCore.Results.Causality.UniqueFeedback.Solution",
   "theorem": "TruthCore.Results.Causality.UniqueFeedback.controls",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-LAWS",
+  "id": "0b1b7bf6-3d37-51a7-936c-697eb6514a2f",
+  "label": "Exact conditional quantifier laws: a fixed necessary witness implies necessary…, by Direct-proof",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-LAWS",
+  "output_statement_id": "fc902dc1-83ef-51de-8ddb-66e98c407bec",
   "rule": "direct-proof",
   "meaning": "Direct witness construction and elimination; all conditional hypotheses are inside the quantified law contract.",
   "assumption_statement_ids": [],

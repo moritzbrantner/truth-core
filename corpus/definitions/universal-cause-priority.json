@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIVERSAL-CAUSE-PRIORITY",
+  "id": "0ec36774-a6bd-58cd-80c1-3b3e575cb272",
+  "label": "Uncaused cause prior to every caused…: There are N and M such that N has no incoming G-edge, N…",
+  "legacy_id": "DEF-UNIVERSAL-CAUSE-PRIORITY",
   "term": "uncaused cause prior to every caused object",
   "definition": "There are N and M such that N has no incoming G-edge, N causes M, M covers all caused simples, and N is Prior to every G-caused object.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "DIRECT-ESSE-ROOT-PERFECTION",
-  "argument_id": "DIRECT-ESSE-ROOT-PERFECTION",
+  "id": "0e6558ab-01e7-545c-af41-0cb6b1142635",
+  "label": "There exists ONE witness n that is an…, from Some candidate is CONCRETE_6 and exists at… and 9 more",
+  "legacy_id": "DIRECT-ESSE-ROOT-PERFECTION",
+  "argument_id": "9253999d-af49-5fe5-a7ea-e34e2bf628d3",
   "challenge_module": "TruthCore.Results.Causality.DirectEsseRootPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.DirectEsseRootPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.DirectEsseRootPerfection.derive",

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "media_span",
-    "source_id": "CAPTURING-CHRISTIANITY-100",
+    "source_id": "fc956ff3-b897-519a-b939-aa21fadd522b",
     "youtube_id": "Qi7ANgO2ZBU",
     "transcript_source": "caption_auto",
     "language": "en",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "CAPTURING-CHRISTIANITY-100-DEPENDENCE",
+      "id": "72b049ad-fccc-5eb7-9f37-117d826d139c",
+      "label": "Chad McIntosh, Over 100 Arguments for the Existence of God (2), Chad McIntosh and Cameron\u2026",
+      "legacy_id": "CAPTURING-CHRISTIANITY-100-DEPENDENCE",
       "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 1585\u20131805 seconds",
       "start_seconds": 1585,
       "end_seconds": 1805,
@@ -26,7 +28,9 @@
       "span_sha256": "sha256:f3b27709feb77f7ec4c833755bb9d75c4112400a6539195737ca1a054cd26731"
     },
     {
-      "id": "CAPTURING-CHRISTIANITY-100-UNITY",
+      "id": "b6640491-7e6f-569f-ad94-85eddf0c6081",
+      "label": "Chad McIntosh, Over 100 Arguments for the Existence of God (2), Chad McIntosh and Cameron\u2026 (2)",
+      "legacy_id": "CAPTURING-CHRISTIANITY-100-UNITY",
       "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 10310\u201310515 seconds",
       "start_seconds": 10310,
       "end_seconds": 10515,
@@ -39,7 +43,9 @@
       "span_sha256": "sha256:6230f1deec5fb81c11c625f579ba9785225f6bd1018fc732464dc47bc737c671"
     },
     {
-      "id": "CAPTURING-CHRISTIANITY-100-INTELLIGIBILITY",
+      "id": "d2606299-4265-5136-9d12-b7ed4c510b66",
+      "label": "Chad McIntosh, Over 100 Arguments for the Existence of God (2), Chad McIntosh and Cameron\u2026 (4)",
+      "legacy_id": "CAPTURING-CHRISTIANITY-100-INTELLIGIBILITY",
       "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 11695\u201311770 seconds",
       "start_seconds": 11695,
       "end_seconds": 11770,
@@ -52,7 +58,9 @@
       "span_sha256": "sha256:0f4de04de23554f347d355ab91de294ff46cdfece5ba392dee42e1a46bca1fdf"
     },
     {
-      "id": "CAPTURING-CHRISTIANITY-100-KNOWABILITY",
+      "id": "c746284b-38ad-5859-8328-2947454f221f",
+      "label": "Chad McIntosh, Over 100 Arguments for the Existence of God (2), Chad McIntosh and Cameron\u2026 (3)",
+      "legacy_id": "CAPTURING-CHRISTIANITY-100-KNOWABILITY",
       "locator": "Chad McIntosh and Cameron Bertuzzi, Over 100 Arguments for the Existence of God (Capturing Christianity, 2021-02-25), 12125\u201312175 seconds",
       "start_seconds": 12125,
       "end_seconds": 12175,

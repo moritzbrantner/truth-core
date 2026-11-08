@@ -1,33 +1,35 @@
 {
-  "id": "SELECTED-CONE-NECESSARY-CONCRETE",
+  "id": "3886c4ba-7753-5826-86db-5fe73495c40a",
+  "label": "Some concrete individual exists at w…, from The specified candidate is CONCRETE_6 and… and 3 more",
+  "legacy_id": "SELECTED-CONE-NECESSARY-CONCRETE",
   "premise_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-SELECTED-CONE-WELL-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "conclusion_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "inference_ids": [
-    "INF-SELECTED-CONE-NECESSARY-CONCRETE"
+    "7c36f08d-473e-5930-b047-03a5681cfdfa"
   ],
   "meaning": "Import the one-cone necessary-root result and project the same actual necessary concrete ancestor to the existing shared necessary-concrete statement. Retains the selected actual candidate, complete-cone foundation, local contingent dependence and explicit excluded middle. Does not assume necessary population anew or prove unity, all-world underivedness or God.",
   "definition_ids": [
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-187A-PARTICULAR-NOT-BEING-A",
-  "statement_id": "STMT-PARTICULAR-NOT-BEING-POSSIBLE",
-  "source_id": "ARIST-PHYS",
+  "id": "91abdcee-1efd-5d8d-a3d7-3df01da1ccd7",
+  "label": "Aristotle, Physics I.3, 187a1-6: Even if absolute not-being is excluded, particular…",
+  "legacy_id": "ARIST-PHYS-187A-PARTICULAR-NOT-BEING-A",
+  "statement_id": "45b58a91-f148-526d-a0d4-0f63e456f68c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 187a1-6",
   "interpretation": "Qualified not-being reading: exclusion of absolute not-being does not force exclusion of every particular not-being. Something can fail to be a particular thing without being nothing without qualification.",
   "status": "formalized"

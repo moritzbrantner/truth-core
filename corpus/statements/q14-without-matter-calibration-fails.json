@@ -1,13 +1,15 @@
 {
-  "id": "STMT-Q14-WITHOUT-MATTER-CALIBRATION-FAILS",
+  "id": "8e05fc5c-4ec6-5fb4-9332-afafb35e9f21",
+  "label": "The scoped without-matter-capacity calibration fails on this SAME model/scope; no source or…",
+  "legacy_id": "STMT-Q14-WITHOUT-MATTER-CALIBRATION-FAILS",
   "paraphrase": "The scoped without-matter-capacity calibration fails on this SAME model/scope; no source or actual-world falsity is inferred.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.WithoutMatterCalibrationFails",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "a63b614a-7a1a-5560-b919-10f303b955ff"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

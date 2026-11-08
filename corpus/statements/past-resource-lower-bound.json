@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PAST-RESOURCE-LOWER-BOUND",
+  "id": "726d1463-194f-51f3-a7ea-d3cc38bd966c",
+  "label": "One real L bounds the stock S from below at every integer time t\u2264now",
+  "legacy_id": "STMT-PAST-RESOURCE-LOWER-BOUND",
   "paraphrase": "One real L bounds the stock S from below at every integer time t\u2264now. The bound is uniform over the whole beginningless integer past; no finite elapsed-time budget is asserted.",
   "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound",
   "definition_ids": [
-    "DEF-PAST-RESOURCE-STOCK",
-    "DEF-PAST-RESOURCE-LOWER-BOUND",
-    "DEF-PAST-RESOURCE-UNIFORM-GROWTH"
+    "12b6271c-f67a-5d26-94a0-a17b6192a053",
+    "230a64cf-b1cf-579c-b1d7-ddd1db5677b4",
+    "b0944d60-ed09-519f-914b-899491e0e836"
   ],
   "disambiguation_ids": [
-    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+    "73c7ce46-6282-5403-ab0a-5b4f42e759fa"
   ]
 }

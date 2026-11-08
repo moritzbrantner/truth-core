@@ -1405,7 +1405,21 @@ def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
         capture_output=True,
         text=True,
     ).stdout
-    return [line for line in output.splitlines() if line]
+    files = [line for line in output.splitlines() if line]
+    # A manifest the uuid migration only re-identified changes no witness.
+    return [name for name in files if not identity_only_manifest(name, base, head, root)]
+
+
+def identity_only_manifest(name: str, base: str, head: str, root: Path) -> bool:
+    if not (name.startswith("corpus/passages/") and name.endswith(".json")):
+        return False
+    from corpus_ids import identity_only_change
+
+    def read(revision: str) -> Any:
+        completed = subprocess.run(["git", "show", f"{revision}:{name}"], cwd=root, capture_output=True, text=True)
+        return json.loads(completed.stdout) if completed.returncode == 0 else None
+
+    return identity_only_change("passages", read(base), read(head))
 
 
 def changed_passage_ids(
@@ -1802,6 +1816,16 @@ def parser() -> argparse.ArgumentParser:
     return result
 
 
+def resolve_passage_id(token: str) -> str:
+    """A passage named by uuid, legacy id or label (uuid identity, 2026-11-07)."""
+    from corpus_ids import Aliases, AmbiguousId
+
+    try:
+        return Aliases.load(ROOT).resolve(token, ("passage",)) or token
+    except AmbiguousId as exc:
+        raise SourceEvidenceError(str(exc)) from exc
+
+
 def main() -> int:
     args = parser().parse_args()
     try:
@@ -1822,9 +1846,9 @@ def main() -> int:
             selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
             return verify_all(export, selected)
         if args.command == "materialize":
-            return materialize(args.passage_id, args.output, args.export)
+            return materialize(resolve_passage_id(args.passage_id), args.output, args.export)
         if args.command == "raw-witness":
-            return raw_witness(args.passage_id, args.path, args.output)
+            return raw_witness(resolve_passage_id(args.passage_id), args.path, args.output)
         if args.command == "web-hashes":
             return web_hashes(args.url, args.encoding, args.selector, args.wayback, args.pdf_pages, args.raw_text)
         raise AssertionError(f"unexpected command {args.command}")

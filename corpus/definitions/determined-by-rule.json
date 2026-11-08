@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DETERMINED-BY-RULE",
+  "id": "d4a9bed5-48d8-57fb-bac8-f957777cc4ae",
+  "label": "DETERMINED_2: DETERMINED_2 a: at a, what accords with the rule and what goes against it is fixed",
+  "legacy_id": "DEF-DETERMINED-BY-RULE",
   "term": "determined (what accords with the rule is fixed)",
   "definition": "`Determined a`: at a, what accords with the rule and what goes against it is fixed. Neutral between the readings: it does not say that the fixing is a fact about the speaker (Kripke) or is exhibited in practice (§201).",
   "basis": "stipulative",

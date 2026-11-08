@@ -1,11 +1,13 @@
 {
-  "id": "INF-EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
+  "id": "bd584562-99a4-5e29-b91b-5d1957cbc86b",
+  "label": "Selected-world one-way contract: each individual represented as…, by Universal instantiation… (2)",
+  "legacy_id": "INF-EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
   "input_statement_ids": [
-    "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER",
-    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+    "ae68972c-175a-5e68-86fb-f69fa30e2054",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
   ],
-  "output_statement_id": "STMT-EXISTING-IN-ACT-AT",
+  "output_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
   "rule": "Universal instantiation, existential elimination, modus ponens",
   "meaning": "Derives the esse contract through the OPEN Eleatic principle (every existent at w has causal power), the q.25 a.1 reading (whatever has active power is in act in some respect) and the q.4 a.1 ad 3 reading (act in some respect implies act of esse). A Platonist about causally inert abstracta rejects the Eleatic premise, not the derivation.",
   "assumption_statement_ids": [],

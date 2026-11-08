@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-OBJ2-NATURE-SUFFICES-A",
-  "statement_id": "STMT-NATURAL-EFFECTS-EXPLAINED-BY-NATURE-WITHOUT-GOD",
-  "source_id": "AQUINAS-ST",
+  "id": "2ba3881d-46e2-56c7-b2b8-a7b6f684d60a",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: Everything that appears in the world can be accounted…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-OBJ2-NATURE-SUFFICES-A",
+  "statement_id": "4b498d8e-1799-52c1-a2e7-9e5403978048",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 arg. 2: omnia quae apparent in mundo, possunt compleri per alia principia, supposito quod Deus non sit",
   "interpretation": "The naturalist parsimony objection in Aquinas' own text: natural things reduce to nature as their principle, purposive things to human reason or will, so positing God is unnecessary. Recorded as an objection to the arrow-and-archer premise; ad 2 answers it (nature works for a determinate end by a higher agent's direction).",
   "status": "formalized"

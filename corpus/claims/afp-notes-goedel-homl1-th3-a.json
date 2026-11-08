@@ -1,17 +1,19 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-TH3-A",
-  "statement_id": "STMT-GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "76801b45-cc24-5bee-9e4c-3195f04c4bee",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: Gödel's 1970 theorem Th3: at every world, if possibly…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-TH3-A",
+  "statement_id": "e29fa057-3742-5de8-85b7-7066ffadb538",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, Th3: \"⌊❙◇(❙∃⇧Ex. G x) ❙⊃ ❙□(❙∃⇧Ey. G y)⌋\"",
   "interpretation": "Theorem Th3 as stated in the theory, proved there from Th2 and Rsymm. The theory does not state that a God-like being possibly exists, so Th3 is its last existence theorem; the claim does not say the theory derives that a God-like being exists. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOD-LIKE-GOEDEL-1970",
-    "DEF-HOML-ACTUALIST-NECESSITY"
+    "449a3134-3201-5f8b-bae0-76bd666e3818",
+    "9010544f-188a-5d00-83dc-85d0c0b4052d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTS",
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY"
+    "620f1cde-0f67-5ecd-a96c-2851588725d5",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

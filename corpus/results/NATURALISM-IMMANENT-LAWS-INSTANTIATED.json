@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
-  "argument_id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "id": "587651f6-e609-52c3-9c11-d01bc2ef9e3c",
+  "label": "Under occupant N1 in the explicitly constructed…, from N1, EXISTENCE_NATURALISM_1: at the selected…",
+  "legacy_id": "NATURALISM-IMMANENT-LAWS-INSTANTIATED",
+  "argument_id": "4a020329-6f7f-56b5-9c19-6d1b5c193fe8",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismLaws.Instantiation.instantiated",

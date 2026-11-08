@@ -1,9 +1,11 @@
 {
-  "id": "REL-ACCEPTED-FALSE-CONDITIONAL-FACTIVITY-REFUTATION",
+  "id": "c2643cbf-9dc7-551d-b6c2-5b20a4475cd9",
+  "label": "Exact negation of the accepted-candidate…… refutes Every candidate proposition accepted by the…",
+  "legacy_id": "REL-ACCEPTED-FALSE-CONDITIONAL-FACTIVITY-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "subject_id": "de596c5f-2ca9-5e92-81b6-a2304f30e091",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE",
+  "object_id": "7f6451e9-a533-5bfd-9899-16bb4164ecab",
   "note": "Checked matching-profile conditional contradiction only. The actual accepted-countercase premise remains OPEN; this is no independent metaphysical refutation or warrant for an explanatory judgment."
 }

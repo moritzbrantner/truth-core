@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "id": "0970ea3b-e912-5bfe-a6ba-34d5197a5d99",
+  "label": "For every finite cutoff, two Boolean stage sequences agree…, by Two-eventually-stable-sequenc…",
+  "legacy_id": "INF-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "output_statement_id": "3700c3e5-a288-577a-b489-4d1f319ce69a",
   "rule": "two-eventually-stable-sequences-with-common-finite-prefix",
   "meaning": "For arbitrary cutoff k, construct constant-false and false-through-k-then-true sequences. Both satisfy eventual stability and disagree only after the observed prefix.",
   "assumption_statement_ids": [],

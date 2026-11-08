@@ -1,7 +1,9 @@
 {
-  "id": "INF-GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
+  "id": "b89e56a8-2c7a-5260-a49b-04fc76b0e113",
+  "label": "Conditional existential named support is equivalent to coverage of every…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-SUPPORT-EQUIVALENT-TO-CORRECT-COVERAGE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GOODNESS-SUPPORT-EQUIVALENT-CORRECT-COVERAGE",
+  "output_statement_id": "8604443d-34fc-5498-b48b-03dcb2ed0d41",
   "rule": "constructive-proof",
   "meaning": "Conditional existential named support is equivalent to coverage of every admissible CORRECT account under the SAME goodness/denotation dictionary. Correct accounts coextend with each other and named membership transports along that coextension. This neither asserts a correct account exists nor covers wrong admissible candidates or property identities.",
   "assumption_statement_ids": [],

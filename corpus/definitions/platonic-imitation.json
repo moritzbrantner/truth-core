@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-IMITATION",
+  "id": "cd195b17-e7f9-5199-9e4a-b7645007806e",
+  "label": "LIKENESS_2: Imitates x f is directed image-to-model dependence, distinct from a generic resemblance…",
+  "legacy_id": "DEF-PLATONIC-IMITATION",
   "term": "likeness",
   "definition": "Imitates x f is directed image-to-model dependence, distinct from a generic resemblance Like. The painter’s imitation of an artifact’s appearance is not automatically a direct imitation of a Form.",
   "basis": "stipulative",

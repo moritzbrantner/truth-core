@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
-  "argument_id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "id": "b40aa9d2-64cb-5af7-9233-6dbef3e2ca66",
+  "label": "Whatever is being moved in a respect…, from Whatever is moved in a respect of physical… and 1 more",
+  "legacy_id": "ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "argument_id": "93594d6c-5c2e-5eca-ab26-b700cc25644b",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.PrimaViaPremiseFromPhysicalScope.primaViaPremiseFromPhysicalScope",

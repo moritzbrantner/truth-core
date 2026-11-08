@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-REPORT-PAUL-MET-JAMES",
+  "id": "abbe4106-f41e-5183-94c7-c36d9635af15",
+  "label": "Paul says he saw James, the Lord’s brother, during his visit to Cephas",
+  "legacy_id": "STMT-PILOT-REPORT-PAUL-MET-JAMES",
   "paraphrase": "Paul says he saw James, the Lord’s brother, during his visit to Cephas. Textual report only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Galatians.PaulMetJames",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

@@ -1,21 +1,23 @@
 {
-  "id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "id": "78de92ec-c3ca-5fb9-9467-b00b00df16a6",
+  "label": "Exact negation of conciliar…, from Every defined move lacks endorsement by the… and 1 more",
+  "legacy_id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
   "premise_statement_ids": [
-    "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD",
-    "STMT-DEFINED-MOVE-EXISTS"
+    "717b0a61-29ac-585c-8174-2efb862bbccd",
+    "351278c7-dbf6-5279-8e18-35f979e3ade6"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "conclusion_statement_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "inference_ids": [
-    "INF-NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE"
+    "25dab92d-0c63-5457-8b84-6ba757dd7b12"
   ],
   "meaning": "Use the actual Defined move: the old normative bridge endorses it, while the all-nonendorsed premise denies that endorsement. A nonempty definition witness is explicit; theology is not refuted.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

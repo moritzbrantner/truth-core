@@ -1,6 +1,8 @@
 {
-  "id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
-  "argument_id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "id": "7f79db4a-5df7-5379-8686-c9ae05afc4ac",
+  "label": "The existing four-world modal equivalence, used for both epistemic and modal alternatives, jointly…",
+  "legacy_id": "KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "argument_id": "504295d4-07f1-5d0a-aa86-8ae0182371a0",
   "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Positive.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
   "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.positiveSurvivor",

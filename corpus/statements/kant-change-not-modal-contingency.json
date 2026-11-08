@@ -1,11 +1,13 @@
 {
-  "id": "STMT-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
+  "id": "6c61f613-349c-5e5f-936b-bf77cbec2674",
+  "label": "Temporal succession of opposite states does not by itself establish that the opposed state could…",
+  "legacy_id": "STMT-KANT-CHANGE-NOT-MODAL-CONTINGENCY",
   "paraphrase": "Temporal succession of opposite states does not by itself establish that the opposed state could have obtained at the very same time.",
   "definition_ids": [
-    "DEF-KANT-EMPIRICAL-CONTINGENCY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "7d7a0401-4606-522d-b78c-5c12b799e3cf",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-CONTINGENCY"
+    "35fa7162-6cb3-52e1-ac5b-66afc318c74f"
   ]
 }

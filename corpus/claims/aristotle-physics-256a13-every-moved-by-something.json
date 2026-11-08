@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-PHYS-256A13-EVERY-MOVED-BY-SOMETHING-A",
-  "statement_id": "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
-  "source_id": "ARIST-PHYS",
+  "id": "18e10017-8158-5f96-88a4-1cca022b3c0e",
+  "label": "Aristotle, Physics VIII.5, 256a13-14: Whatever is being moved is moved by something: some mover…",
+  "legacy_id": "ARIST-PHYS-256A13-EVERY-MOVED-BY-SOMETHING-A",
+  "statement_id": "33365614-ca04-5942-bc11-173dfbbad051",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.5, 256a13-14",
   "interpretation": "VIII.5 takes as the premise of its argument that everything moved is necessarily moved by something (εἰ δὴ ἀνάγκη πᾶν τὸ κινούμενον ὑπό τινός τε κινεῖσθαι), the thesis VIII.4 argued. Read respect-free, as the VII.1 sentence, and with ὑπό τινος taken as a per se mover (`MovesIn`). That is a stronger reading than VIII.4's literal conclusion STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS, which admits a per accidens mover, and it is not derived from it; it is also not restricted by a guard to physical motion, so it is accepted only under a physical instantiation of `MovedIn`.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

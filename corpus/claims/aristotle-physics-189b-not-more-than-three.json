@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189B-NOT-MORE-THAN-THREE-A",
-  "statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-MORE-THAN-THREE",
-  "source_id": "ARIST-PHYS",
+  "id": "c265cd8e-b0b7-5460-be59-e53c6acc3bc9",
+  "label": "Aristotle, Physics I.6, 189b16-27: The number of primary natural principles is not greater than…",
+  "legacy_id": "ARIST-PHYS-189B-NOT-MORE-THAN-THREE-A",
+  "statement_id": "675b6d4b-ea9b-595b-a20f-79fa39ff0ab0",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189b16-27",
   "interpretation": "Upper-bound conclusion: one subject suffices for being acted on and a second primary contrariety would require a needless additional structure or reduce to the first. The record does not impose a modern optimization principle.",
   "status": "formalized"

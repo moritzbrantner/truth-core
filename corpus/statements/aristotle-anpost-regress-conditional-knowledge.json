@@ -1,12 +1,14 @@
 {
-  "id": "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
+  "id": "381cfe6c-0a1a-5c15-8098-4dd3d11b3ab8",
+  "label": "In the reported regress objection, an endless ascent leaves prior premises untraversed, while…",
+  "legacy_id": "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
   "paraphrase": "In the reported regress objection, an endless ascent leaves prior premises untraversed, while stopping at undemonstrated starting points leaves them unknown if only demonstration counts as knowing; conclusions from such starting points are then known only conditionally on them.",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

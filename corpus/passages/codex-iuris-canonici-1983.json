@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CODEX-IURIS-CANONICI-1983",
+    "source_id": "447910c6-269d-54a7-901e-1c7ad5306d07",
     "source_url": "https://www.vatican.va/archive/cod-iuris-canonici/latin/documents/cic_liberIII_la.html",
     "retrieved_at": "2026-11-06T07:51:49Z",
     "sha256": "sha256:9184880a33a2066e1b7e0ce5c0972c04293fb8f2018ff5434e705578c67b3316",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "CIC-1983-747-755",
+      "id": "39e0752a-70cc-5717-89d4-31d46c31ff7c",
+      "label": "Catholic Church, Codex Iuris Canonici, Book III, cann. 747-755",
+      "legacy_id": "CIC-1983-747-755",
       "locator": "Book III, cann. 747-755",
       "claim_locator_prefixes": [
         "can. 74",

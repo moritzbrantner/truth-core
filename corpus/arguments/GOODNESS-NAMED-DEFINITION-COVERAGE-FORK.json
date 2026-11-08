@@ -1,19 +1,21 @@
 {
-  "id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "id": "0b47df39-b67d-5796-b627-f091b4109a63",
+  "label": "Stronger identity-scope fork: named candidate…, from Excluded middle as a general principle…",
+  "legacy_id": "GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-NAMED-COVERAGE-FORK",
+  "conclusion_statement_id": "6841941f-12fb-5ee0-bf46-344699c31806",
   "inference_ids": [
-    "INF-GOODNESS-NAMED-DEFINITION-COVERAGE-FORK"
+    "b5663716-1922-5ad0-9549-9da8a5e5c5e5"
   ],
   "meaning": "Excluded middle over NamedCoverage and the existence of an admissible unnamed candidate yields coverage or an explicit further-definition witness. This makes scope uncertainty a proposition rather than a perpetual implicit caveat.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

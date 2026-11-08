@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-GROUNDING-FINITE-RANK",
+  "id": "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+  "label": "Finite grounding rank of actual concreta: ActualGroundingFiniteRank m w: some function rank from…",
+  "legacy_id": "DEF-ACTUAL-GROUNDING-FINITE-RANK",
   "term": "finite grounding rank of actual concreta",
   "definition": "ActualGroundingFiniteRank m w: some function rank from candidates to natural numbers decreases along every actual concrete grounding edge at w (if actual concretum y grounds actual concretum x, rank y < rank x). Ordinary meaning: every actual concretum sits at a finite grounding level. Example: a stack of three blocks, ranked 0, 1, 2 from the bottom. Counterexample: one concretum grounding itself; or an omega+1 hierarchy in which a top element is grounded by every finite level (well-founded, but with no Nat rank). Structural properties: implies well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK) and so irreflexivity and asymmetry; strictly stronger than well-foundedness. It concerns only actual concrete edges at w.",
   "basis": "stipulative",

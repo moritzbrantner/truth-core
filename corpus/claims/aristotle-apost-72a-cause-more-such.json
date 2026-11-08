@@ -1,17 +1,19 @@
 {
-  "id": "ARIST-APOST-72A-CAUSE-MORE-SUCH",
-  "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-  "source_id": "ARIST-APOST",
+  "id": "64ac8fd9-6a3a-5fe9-8a59-8c4ad4fb71db",
+  "label": "Aristotle, Posterior Analytics I.2, 72a29–30: Whatever causes a quality in another thing is more…",
+  "legacy_id": "ARIST-APOST-72A-CAUSE-MORE-SUCH",
+  "statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.2, 72a29–30: ἀεὶ γὰρ δι᾿ ὃ ὑπάρχει ἕκαστον, ἐκεῖνο μᾶλλον ὑπάρχει, οἷον δι᾿ ὃ φιλοῦμεν, ἐκεῖνο φίλον μᾶλλον",
   "interpretation": "The passage states that always, that because of which each attribute belongs to something itself has that attribute more (that because of which we love something is more loved), which is the premise: if y, other than x, is a cause of x's being r, then y is more r than x. 'δι᾿ ὃ ὑπάρχει' (that because of which it belongs) is read as y being a cause of x's having r (CausesIn y x r), and 'ἐκεῖνο μᾶλλον ὑπάρχει' as the same attribute belonging more to the cause (MoreIn r y x), as the example's φίλον ... μᾶλλον shows. 'ἀεὶ' gives the universal quantifier, and the sentence carries no synonymy or same-sense condition, unlike Metaphysics II.1, 993b24-26. The premise adds the condition y ≠ x, so it is no stronger than the sentence. Aristotle uses the principle for epistemic grounds (premises are known more than conclusions), but states it generally and illustrates it with a non-epistemic cause of loving. A restricted reading, for example Aquinas' attribution-order restriction (STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH, which attacks this premise), would be a different and weaker statement; it is not claimed here. That the principle is true of equivocal or analogical causes, including causes of being, is not argued in the passage and remains open.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-ORDER-OF-BEING"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

@@ -1,18 +1,20 @@
 {
-  "id": "STMT-EVIL-EMOTIVIST-USE-FORK",
+  "id": "7c8e9ab3-9f99-5363-9dc9-2344f3a03cf2",
+  "label": "The selected evil utterance is not true under the critic's strict truthless semantics",
+  "legacy_id": "STMT-EVIL-EMOTIVIST-USE-FORK",
   "paraphrase": "The selected evil utterance is not true under the critic's strict truthless semantics. The target-internal challenge, affective protest, or explicit remaining-use condition holds. This is a diagnostic fork for one critic/target interpretation, not a refutation of every use of a problem-of-evil objection.",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.EmotivistUseFork",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

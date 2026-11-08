@@ -1,6 +1,8 @@
 {
-  "id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
-  "argument_id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "id": "42df5095-2e09-5970-afdc-4f7484fcc15d",
+  "label": "There exist an admitted g targeting…, from Reuse Groups as a token record, with… and 1 more",
+  "legacy_id": "AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "argument_id": "cf7d1a04-1925-512b-9ad9-720b29a4155c",
   "challenge_module": "TruthCore.Results.Explanation.ExistenceIngredient.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ExistenceIngredient.Solution",
   "theorem": "TruthCore.Results.Explanation.ExistenceIngredient.extract",

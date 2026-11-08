@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
-  "argument_id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "id": "a53b181f-da51-515f-a574-579081bec447",
+  "label": "For every mathematical linear order and shared x,y, equality y = x is exactly the remainder y ≥ x…",
+  "legacy_id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "argument_id": "d7e70a00-f3a1-5674-8fa5-8a7f7f0cefce",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.remainderIdentity",

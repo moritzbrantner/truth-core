@@ -1,6 +1,8 @@
 {
-  "id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
-  "argument_id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "id": "8d641605-779d-502d-b753-edad9f7111ce",
+  "label": "Exact negation of commission reports…, from Rival to mandate covers jesus founding of… and 2 more",
+  "legacy_id": "MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS",
+  "argument_id": "cbb25cdb-a760-561d-ba54-fef236d1eaf5",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Composition.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageOnlyRejectsHistoricalBundle",

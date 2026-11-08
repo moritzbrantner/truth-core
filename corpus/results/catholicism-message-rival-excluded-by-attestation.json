@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
-  "argument_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+  "id": "580d72e3-9508-57d7-900a-e3fc7bc9954a",
+  "label": "For any being g: if Jesus holds a mandate from g, founded the Catholic Church, and…, by attestation",
+  "legacy_id": "CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION",
+  "argument_id": "960112bd-b34e-54e1-84ff-ee80c90c8728",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionAttestation.message_rival_excluded_by_attestation",

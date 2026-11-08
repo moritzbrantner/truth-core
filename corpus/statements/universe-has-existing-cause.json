@@ -1,13 +1,15 @@
 {
-  "id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
+  "label": "At the selected world the spacetime whole has an existing cause of its existence, not merely of a…",
+  "legacy_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
   "paraphrase": "Open premise (owner formulation): at the selected world the spacetime whole has an existing cause of its existence (dependence or conservation), not merely of a temporal beginning.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseHasExistingCause",
   "definition_ids": [
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-UNIVERSE-HAS-EXISTING-CAUSE"
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "b5879267-0c69-579d-b992-819336a19028"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

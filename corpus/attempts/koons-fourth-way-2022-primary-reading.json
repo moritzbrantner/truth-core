@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-KOONS-FOURTH-WAY-2022-PRIMARY-READING",
+  "id": "4d8b8f59-d751-5949-a210-29e7e0f3c2a1",
+  "label": "Bounded primary-author witness search for issue #345 following the degree fork/core investigation",
+  "legacy_id": "ATTEMPT-KOONS-FOURTH-WAY-2022-PRIMARY-READING",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-GRADES-HAVE-A-MAXIMUM",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+    "6c27657f-a2bf-5c1d-963c-c154b66bfa85",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
   ],
   "kind": "reading",
   "outcome": "succeeded",

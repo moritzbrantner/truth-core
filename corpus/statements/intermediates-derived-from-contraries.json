@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INTERMEDIATES-DERIVED-FROM-CONTRARIES",
+  "id": "7fd16d31-b580-5fce-bd97-349864ddb96e",
+  "label": "Intermediate states relevant to natural becoming are derived from contraries",
+  "legacy_id": "STMT-INTERMEDIATES-DERIVED-FROM-CONTRARIES",
   "paraphrase": "Intermediate states relevant to natural becoming are derived from contraries.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.IntermediatesDerivedFromContrariesReading"
 }

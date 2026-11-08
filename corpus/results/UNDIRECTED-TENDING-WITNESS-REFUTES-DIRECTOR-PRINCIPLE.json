@@ -1,6 +1,8 @@
 {
-  "id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
-  "argument_id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "id": "580667ca-040e-562c-85fe-bd950a9e1911",
+  "label": "The existing universal…, from Some noncognitive member broadly tends to…",
+  "legacy_id": "UNDIRECTED-TENDING-WITNESS-REFUTES-DIRECTOR-PRINCIPLE",
+  "argument_id": "7bdd5abb-a42e-523f-9d58-1160e356446f",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.DirectorRivalBoundary.ExactRival.exactRival",

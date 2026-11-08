@@ -1,15 +1,17 @@
 {
-  "id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
+  "id": "5758bd1a-bcde-514a-9d60-cf363e3a6915",
+  "label": "Exact negation of the selected-whole-causer…, from A candidate edge to the selected whole…",
+  "legacy_id": "ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY",
   "premise_statement_ids": [
-    "STMT-SPACETIME-WHOLE-HAS-ONLY-ABSENT-CANDIDATE-CAUSERS"
+    "516be275-934a-59e1-bbb2-02fc3b57a936"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-WHOLE-CAUSER-ACTUALITY-FAILS",
+  "conclusion_statement_id": "61453557-633f-57ea-962f-6c98c1810df3",
   "inference_ids": [
-    "INF-ABSENT-ONLY-UNIVERSE-CAUSERS-DEFEAT-ACTUALITY-POLICY"
+    "5acfe2ff-3e3c-5f0c-85e1-75d086ddf5c0"
   ],
   "meaning": "An actual candidate edge plus absence of every existing causer contradicts selected-whole-causer actuality. This excludes the remainder when that independently supplied intended policy holds.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

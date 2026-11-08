@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-EMPTY-EPISODE-CONTROL",
+  "id": "29765723-b9f5-5158-90a8-03afc6a96131",
+  "label": "There is an empty-episode interpretation in which no episode occurs and the…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-EMPTY-EPISODE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+  "output_statement_id": "81a85cbd-3661-5b1b-bff3-f2f3b43edc56",
   "rule": "constructive-proof",
   "meaning": "An interpretation with an always-false occurrence predicate witnesses the truth of the global nonoccurrence claim without any performed denial.",
   "assumption_statement_ids": [],

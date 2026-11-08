@@ -1,21 +1,23 @@
 {
-  "id": "COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
+  "id": "3f99dbab-fc6c-52f0-9c01-ba850f77ddb9",
+  "label": "Every bearer of an occurring thought episode exists at the selected…, from world indexed occurrence",
+  "legacy_id": "COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
   "premise_statement_ids": [
-    "STMT-OCCURRING-THOUGHT-OCCURS-AT-WORLD",
-    "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS"
+    "eb7c7da6-f772-5cda-a70d-260ce466e54e",
+    "f8b47cda-5ebf-532d-b951-b4f756076cc9"
   ],
-  "conclusion_statement_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
+  "conclusion_statement_id": "c821487b-9c5e-5836-bf27-dcb47f210c94",
   "inference_ids": [
-    "INF-COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE"
+    "6748617e-4104-53e7-aee0-b0fa271496a1"
   ],
   "meaning": "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there.",
   "definition_ids": [
-    "DEF-EPISODE-OCCURS-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-THOUGHT-BEARER",
-    "DEF-THOUGHT-OCCURRENCE"
+    "1943bfbb-396f-5f22-883b-b775d0f8e109",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ],
   "disambiguation_ids": [
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

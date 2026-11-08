@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-STANDARD",
+  "id": "f93e95f6-c139-5371-b544-8f0311ec60a7",
+  "label": "Equal standard for equally relevant…: UniformStandard preserves epistemic verdicts only for pairs…",
+  "legacy_id": "DEF-HUME-INDUCTION-STANDARD",
   "term": "equal standard for equally relevant evidence",
   "definition": "UniformStandard preserves epistemic verdicts only for pairs the supplied sameBasis relation identifies. SameScienceTheology supplies a particular such pair; interchange of theology and cosmology does not supply it. Differentiated experience can justify differentiated verdicts.",
   "basis": "stipulative",

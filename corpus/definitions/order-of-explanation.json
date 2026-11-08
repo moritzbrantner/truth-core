@@ -1,12 +1,14 @@
 {
-  "id": "DEF-ORDER-OF-EXPLANATION",
+  "id": "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+  "label": "ORDER_OF_EXPLANATION_1: Dreier's criterion for realism and anti-realism, as SEP §5.2 reports it",
+  "legacy_id": "DEF-ORDER-OF-EXPLANATION",
   "term": "order of explanation (Lean `TruthExplainsTalk`, `TalkExplainsTruth`, `SuitedToExplainTalk`)",
   "definition": "Dreier's criterion for realism and anti-realism, as SEP §5.2 reports it. `TruthExplainsTalk φ`: the truth conditions of the moral sentence φ (the truth or property it is about) explain our thought and talk with φ; this is the realist order. `TalkExplainsTruth φ`: our use of φ in thought and talk explains its truth conditions; this is the anti-realist order. `SuitedToExplainTalk φ`: the truth conditions of φ are suited to explain that thought and talk, which is weaker than explaining it. 'Explain' is left primitive. That the two orders exclude each other is not part of the definition; it is the separate open premise STMT-EXPLANATORY-ORDER-ASYMMETRIC.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-COGNITIVISM-5-2-DREIER-REALIST-ORDER",
-    "SEP-MORAL-COGNITIVISM-5-2-DREIER-ANTIREALIST-ORDER",
-    "SEP-MORAL-COGNITIVISM-5-2-DREIER-ROBUST-SUITED-TO-EXPLAIN"
+    "baa70311-f3ff-5365-a800-3f9f794378c3",
+    "8450ecce-538d-5222-8abe-b59e66290c54",
+    "971be1f9-47c5-5ff0-b6f9-ac4f46fdbea9"
   ],
   "lean_declaration": "TruthCore.English.VanRoojen.AntirealistOrderOfExplanationReading"
 }

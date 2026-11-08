@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRONG-SCIENTISM",
+  "id": "fee8ffa5-ec96-5f31-8e71-525bb6249f68",
+  "label": "STRONG_SCIENTISM_1: Every established claim in scope is empirically established, with every claim…",
+  "legacy_id": "DEF-STRONG-SCIENTISM",
   "term": "strong scientism",
   "definition": "Every established claim in scope is empirically established, with every claim to knowledge in scope (`ScopedScientism E scope`).",
   "basis": "stipulative",

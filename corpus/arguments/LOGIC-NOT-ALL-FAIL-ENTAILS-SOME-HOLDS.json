@@ -1,17 +1,19 @@
 {
-  "id": "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
+  "id": "c5c9ff49-a3ec-557c-a25a-ae360a25d478",
+  "label": "Inside Lean logic, ∃ P: Prop, P. This asserts only…, from Inside Lean logic, ¬. A logical theorem…",
+  "legacy_id": "LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS",
   "premise_statement_ids": [
-    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+    "8efdfe70-cb76-575f-a13c-16a35cfb7c9e"
   ],
-  "conclusion_statement_id": "STMT-SOME-LEAN-PROPOSITION-HOLDS",
+  "conclusion_statement_id": "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a",
   "inference_ids": [
-    "INF-LOGIC-NOT-ALL-FAIL-ENTAILS-SOME-HOLDS"
+    "43531889-7639-5aa7-976a-977e21db8f4c"
   ],
   "meaning": "Use the proved proposition not-every-proposition-fails itself as the existential witness. Reverse implication preserves statement identity.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

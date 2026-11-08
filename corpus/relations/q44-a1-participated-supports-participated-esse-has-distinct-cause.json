@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "id": "6094905c-cbc9-525d-9fdf-ebba40086001",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Whatever has ESSE_BY_PARTICIPATION_1 has…",
+  "legacy_id": "REL-Q44-A1-PARTICIPATED-SUPPORTS-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "subject_id": "11b0106d-9061-54c3-bc53-82a3acaaddd2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "object_id": "732302a1-f7bf-594d-9a8a-cb4bd00687a7",
   "note": "Q.44 a.1 co. says a being that has esse by participation is caused by another. The premise reads 'caused by another' as: some distinct c causes its esse in the CausesIn vocabulary. The passage's 'another' is the cause of its being, so the gap is the vocabulary choice, not the scope."
 }

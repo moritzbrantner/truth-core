@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-COGITO-SUBJECT-CONSOLIDATION",
+  "id": "273633ef-ea40-5456-9cd6-f9b197a8c6c2",
+  "label": "Consolidation of #523, #524 and #525. #525's act/bearer vocabulary duplicated this schema and was…",
+  "legacy_id": "ATTEMPT-COGITO-SUBJECT-CONSOLIDATION",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-SOME-THINKING-SUBJECT",
-    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE",
-    "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "0315d471-5093-59e3-a435-b7beff4c48a4",
+    "06431215-6cc4-53ad-9609-4604f7615440",
+    "b236fc8b-a944-5b2e-8664-d68fae372d47"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Consolidation of #523, #524 and #525 (issue #532). #525's act/bearer vocabulary (SomeAct, EveryActHasBearer, ActualBearer, BearerInference, BearerlessActModel) duplicated this schema and was replaced by it. Its substance step was kept: a bearer is not thereby a substance (non-substantial bearer model), and a substantial bearer needs a separate open substance principle. Event ontology, bundle theories and mereology remain uncontested-by-proof rivals to both principles. Occurrence plus the open bearer principle yields a thinking subject by instantiation only. Three finite controls show that neither premise suffices alone and that the principle gives no unique bearer. Rejected: #524's premise-free `SubjectInference` packing (it hides both open premises from bind-check), its duplicate `SubjectlessEpisodeModel`, and `FirstPersonWithoutBearerModel` (its `FirstPerson` predicate is unconstrained and set to True, so it adds nothing to the subjectless control; invariant 16). Treating a thought as already someone's act builds subjecthood into the premise. A non-circular route must justify the bearer principle independently and face impersonal-event / no-self readings.",
   "evidence": [
-    "COGITO-SUBJECT-FROM-OCCURRENCE",
-    "COGITO-SUBJECTLESS-CONTROL",
-    "COGITO-NO-THOUGHT-CONTROL",
-    "COGITO-MULTIPLE-BEARERS-MODEL",
+    "d2cb9100-2980-5e83-a278-294346f7fb93",
+    "6cffb105-b943-5f7a-9bbd-9bb5d3e760de",
+    "07e2cb6e-5554-5784-9129-0ac1616fe41e",
+    "3fdeab83-1fcd-572a-8bac-af80bb0016cf",
     "PR-523",
     "PR-524",
     "PR-525"

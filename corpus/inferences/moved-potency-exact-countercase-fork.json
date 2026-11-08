@@ -1,9 +1,11 @@
 {
-  "id": "INF-MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
+  "id": "8968c3e0-dca2-540c-834d-d8e961094589",
+  "label": "Either every moved tuple is in POTENCY_1, or some actual moved tuple is not…, by Constructive-proof",
+  "legacy_id": "INF-MOVED-POTENCY-EXACT-COUNTERCASE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-MOVED-IN-POTENCY-OR-EXACT-COUNTERTUPLE",
+  "output_statement_id": "5c5bd564-13a5-5280-8df2-cf930bfca54f",
   "rule": "constructive-proof",
   "meaning": "Structural universal-or-actual-countertuple fork under explicit excluded middle. No named-worldview exhaustion or historical interpretation is inferred.",
   "assumption_statement_ids": [],

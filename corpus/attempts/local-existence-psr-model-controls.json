@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-LOCAL-EXISTENCE-PSR-MODEL-CONTROLS",
+  "id": "c1e220a3-7a03-52c6-9461-0e11d7a1312d",
+  "label": "On unchanged registered interpretations, Intrinsic is populated/no-brute/well-founded without…",
+  "legacy_id": "ATTEMPT-LOCAL-EXISTENCE-PSR-MODEL-CONTROLS",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-NO-BRUTE-EXISTENCE-AT",
-    "STMT-BRUTE-EXISTENCE-AT",
-    "STMT-PSR-POPULATED-AT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
-    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
-    "STMT-PSR-EXPLAINED-SOURCE-AT"
+    "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
+    "fcf3a68a-d353-5f8b-9e01-995643caa2f9",
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "27bdc583-788a-5dc0-8448-0be5e6237310",
+    "627f9018-3f9e-56da-ad08-fd6f1f61b3f8",
+    "e41595d4-5911-57a5-aca4-e928fed4bfe2"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "On unchanged registered interpretations, Intrinsic is populated/no-brute/well-founded without universal external causes; ContingentOnly is populated/brute/well-founded without universal external causes (its brute witness false is necessary; the contingent true individual is explained); MutualCauses is populated/no-brute/universally externally caused but not well-founded; EmptyWorld is no-brute/well-founded/universally externally caused vacuously and unpopulated. WorldwiseAlternating has the same local five-axis mask as Intrinsic while its old nonstable-reason evaluation remains unchanged. All positive and negative local labels use the same selected world and same explains data. NoBrute/Brute bookkeeping alone is not philosophical elimination; explanatory adequacy and the grounding-brute boundary remain independent. Global external causation is explicitly distinguished from local explanation coverage. Existing all_external_causes_impossible is not registered as a new configuration result here: the separately checked local no-brute/brute incompatibility is logical bookkeeping only, not a newly discovered philosophical dilemma. No causal-core or global minimality claim is made. Model/causal data and prior evaluations are preserved. Root-premise delta none. Focused helper build and filtered five-model gate passed: 62 exact certificates, no axioms. Corpus static check passed with copied peer metadata. Generated exact configuration binding check exposed a token-substitution bug: role Model was replaced inside qualified ExistencePSR.Model, rejecting the generated witness typings. No proof was accepted from that failing source; The coordinator fixed substitution to preserve qualified constructors; rerun generated exact theorem/model binding and axiom checks passed. The two general theorem specializations themselves passed the expected zero/approved-three axiom reports. Coordinator live configuration verification then passed both selected original Comparator/NanoDa results, the composed bookkeeping core, and all five models with 62 zero-axiom certificates. The four named joint profiles are model witnessed; the local-coverage/counterposition selection is verified incompatible with single-removal witnesses. Minimality concerns only this logical pair, not a philosophical causal core. This run used the isolated models workspace with exact copied proof dependencies; final integrated CI remains separate. Sixth axis ExplainedSourceAt exposes the reused local implication from population, local no-brute coverage and causal well-foundedness (approved Mathlib axiom policy). Intrinsic, Alternating and ContingentOnly each have an explained existent without incoming existing causes; MutualCauses and EmptyWorld do not. In ContingentOnly the explained contingent individual and the unexplained necessary individual coexist: a brute fact does not exclude another explained source.",
   "evidence": [
-    "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
-    "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE"
+    "bdbdecf6-2415-5840-ba1a-04aed3663db4",
+    "ceecd074-908a-567f-8551-16885f5d9639"
   ]
 }

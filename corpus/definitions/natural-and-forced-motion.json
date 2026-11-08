@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NATURAL-AND-FORCED-MOTION",
+  "id": "1c6106a7-96af-5adb-8b27-e171ce778371",
+  "label": "Moved by nature, moved by force: A thing is moved by nature in a respect when the source of that…",
+  "legacy_id": "DEF-NATURAL-AND-FORCED-MOTION",
   "term": "moved by nature, moved by force (φύσει, βίᾳ καὶ παρὰ φύσιν)",
   "definition": "A thing is moved by nature in a respect when the source of that motion is in it, as fire moves up and an animal moves itself; it is moved by force and contrary to nature when it is moved against that source, as earth moved up (Physics VIII.4, 254b12-24). Lean: the primitives `ByNature` and `ByForce` of TruthCore.Greek.Aristotle.Physics.Typed; nothing defines them.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-255B-FORCED-BY-ANOTHER-A",
-    "ARIST-PHYS-255B-NATURAL-OR-FORCED-A"
+    "f0f65f08-d7b2-5ca1-a13e-4e436ba9cb31",
+    "2695048e-d34d-5928-8e32-d7ca8f1f23c4"
   ]
 }

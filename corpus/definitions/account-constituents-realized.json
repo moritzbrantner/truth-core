@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+  "id": "bab3155b-8b00-52f4-9e97-cadfbb2f2a2c",
+  "label": "Account-scoped all-world realization…: For all f with S f, all worlds v and all b∈K f, A.holds v f…",
+  "legacy_id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
   "term": "account-scoped all-world realization of assigned fixed constituents",
   "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsRealized",
   "basis": "stipulative",

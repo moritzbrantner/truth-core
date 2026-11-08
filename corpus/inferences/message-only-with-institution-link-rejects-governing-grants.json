@@ -1,11 +1,13 @@
 {
-  "id": "INF-MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "id": "80975878-f19e-583f-a21f-11d9e49696d7",
+  "label": "Jesus gave or promised none of the powers in the unchanged governing table, by Constructive-proof",
+  "legacy_id": "INF-MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
   "input_statement_ids": [
-    "STMT-JESUS-MANDATE-COVERS-ONLY-MESSAGE",
-    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
-    "STMT-ACTUAL-MANDATED-CATHOLIC-FOUNDING"
+    "f984563a-ae82-507e-b374-aff896f48ee9",
+    "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
+    "68bcf931-603b-5f03-a077-18f16f9428bd"
   ],
-  "output_statement_id": "STMT-NO-GOVERNING-GRANT",
+  "output_statement_id": "548d2c4e-c62f-5aad-af2f-58d2067ac64c",
   "rule": "constructive-proof",
   "meaning": "An actual mandator and founded visible body make the institutional link nonvacuous. A governing grant would then give the very founding-in-mandate the raw rival denies.",
   "assumption_statement_ids": [],

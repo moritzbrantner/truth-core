@@ -1,7 +1,9 @@
 {
-  "id": "INF-MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "id": "64950ca6-dffa-5560-88e9-1a81dd5868b8",
+  "label": "Two schema controls: the raw message-only and Catholic mandate-scope…, by Constructive-proof",
+  "legacy_id": "INF-MESSAGE-SCOPE-BOUNDARY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MESSAGE-SCOPE-BOUNDARY-MODELS",
+  "output_statement_id": "c9d393c8-5a13-50eb-a1b5-08d61b92e69a",
   "rule": "constructive-proof",
   "meaning": "Coexistence with an unrealized joint mandate/body antecedent and exact opposition with an actual joint witness. The concrete first construction has no mandate, but this coarse registered target exports only absence of the joint antecedent; the explicit empty-mandate sibling certifies the stronger distinction.",
   "assumption_statement_ids": [],

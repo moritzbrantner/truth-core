@@ -1,12 +1,14 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A",
-  "statement_id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
-  "source_id": "AQUINAS-ST",
+  "id": "1967a468-ceeb-5d38-a621-3991375b38c3",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.5 co: Whatever a thing is in properly, as a species is…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-IN-GENUS-AS-SPECIES-A",
+  "statement_id": "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.5 co.: aliquid est in genere dupliciter. Uno modo, simpliciter et proprie; sicut species, quae sub genere continentur",
   "interpretation": "Read the first way of being in a genus (properly, as species contained under a genus) as: what a thing is properly in is a strict genus. The second way, by reduction (as the point is reduced to quantity and blindness to sight), is not formalized; Aquinas denies it of God by a separate argument (God is principle of all esse, not of one genus).",
   "status": "formalized",
   "definition_ids": [
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GENUS-STRICT"
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1"
   ]
 }

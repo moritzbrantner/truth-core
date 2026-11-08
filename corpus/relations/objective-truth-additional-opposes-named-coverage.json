@@ -1,9 +1,11 @@
 {
-  "id": "REL-OBJECTIVE-TRUTH-ADDITIONAL-OPPOSES-NAMED-COVERAGE",
+  "id": "a97c0164-502b-533e-bd66-498b7461caf2",
+  "label": "The current objective classifier in the… alternative to The current objective classifier…",
+  "legacy_id": "REL-OBJECTIVE-TRUTH-ADDITIONAL-OPPOSES-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-OBJECTIVE-TRUTH-ADDITIONAL-DEFINITION",
+  "subject_id": "7f83d264-31da-5749-a87f-00546e92fade",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
+  "object_id": "6cdc4062-245e-5f84-9b1c-117673045506",
   "note": "RemainingDefinition is exactly the conjunction of negations of the three calibrations in NamedCoverage, under the same frame/comparison class. This additional-extension branch opposes named coverage, not every target truth-component claim: the checked remaining classifier itself satisfies objective-implies-truth. No refutes relation or counted defeat is registered."
 }

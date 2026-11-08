@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-RESTRICTED-INSTANCE",
-  "argument_id": "FITCH-RESTRICTED-INSTANCE",
+  "id": "2e89386e-9f39-5f5e-bbbe-8f44e88685a4",
+  "label": "If the selected Moore conjunction is…, from Every actually true content in the supplied… and 1 more",
+  "legacy_id": "FITCH-RESTRICTED-INSTANCE",
+  "argument_id": "6f57cc04-7f6f-5e83-b334-d07a36deba13",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.restrictedInstance",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
+  "id": "3fb2bd92-d135-5db1-8fe3-a3caa18a12ca",
+  "label": "Conditional existential support for a…: If a correct admissible account exists, some admissible…",
+  "legacy_id": "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
   "term": "conditional existential support for a correct named goodness account",
   "definition": "If a correct admissible account exists, some admissible correct account has the extension of one of the supplied named due/feature/approval accounts. The witness may differ from the original existential witness. It asserts no existence and need not classify every admissible proposal. It is equivalent to semantic named coverage of EVERY admissible CORRECT proposal: all correct proposals coextend with the same GoodIn relation. Global SemanticNamedCoverage is stronger, as a populated wrong-unnamed-account control verifies.",
   "basis": "stipulative",

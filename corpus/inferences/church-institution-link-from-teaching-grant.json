@@ -1,11 +1,13 @@
 {
-  "id": "INF-CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT",
+  "id": "f0cdd8d6-bcea-565e-a97c-519019631416",
+  "label": "Whenever Jesus holds a mandate from g and founded the Catholic…, by Universal generalization…",
+  "legacy_id": "INF-CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT",
   "input_statement_ids": [
-    "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES",
-    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
-    "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"
+    "820771a7-1173-510f-88ec-445b203fb1fd",
+    "fc2912b3-613c-52cc-84d3-9135cc456efe",
+    "1bd154e6-6ff4-5810-baff-e10433d1766a"
   ],
-  "output_statement_id": "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+  "output_statement_id": "8e5da2fb-6205-5431-983a-365ff9419143",
   "rule": "Universal generalization, conjunction elimination, proof by cases",
   "meaning": "The criterion-matched institutional link for the selected governing predicate, from the existing old link (STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES, for table-governing powers and the teaching commission), the OPEN bound that every selected power is table-governing or teaching, and the OPEN bridge that giving the power to teach founds the Church in the mandate. A selected power given is split into the table case (old link) and the teaching case (new bridge).",
   "assumption_statement_ids": [],

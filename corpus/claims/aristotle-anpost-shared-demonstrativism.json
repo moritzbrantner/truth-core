@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-APOST-72B-SHARED-DEMONSTRATIVISM",
-  "statement_id": "STMT-ARISTOTLE-ANPOST-SHARED-DEMONSTRATIVISM",
-  "source_id": "ARIST-APOST",
+  "id": "c613c10e-55df-5ea0-b7a0-75a46342dad7",
+  "label": "Aristotle, Posterior Analytics I.3, 72b5–18: Aristotle presents both the regress-skeptical…",
+  "legacy_id": "ARIST-APOST-72B-SHARED-DEMONSTRATIVISM",
+  "statement_id": "4e0a7678-4e51-5adf-a167-7bf8b8100b9a",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.3, 72b5–18",
   "interpretation": "This records a common premise of the two positions reconstructed in this passage, not a claim that every historical skeptic, coherentist or infinitist accepts it. Aristotle rejects their shared restriction in his own reply.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
-  "argument_id": "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "id": "28a794d6-0e79-5abd-a5ce-b54ba38a1932",
+  "label": "Two exact omission models each retain an actual selected concretum and one of local cone…",
+  "legacy_id": "SELECTED-CONE-OMISSIONS-AND-STRICTNESS",
+  "argument_id": "850b2339-9186-5c48-99ab-72791b817328",
   "challenge_module": "TruthCore.Results.Causality.SelectedAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelectedAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.SelectedAncestry.controls",

@@ -1,25 +1,27 @@
 {
-  "id": "STMT-ULTIMATE-ADEQUACY-EPISTEMIC",
+  "id": "313b5ab5-0f69-5360-8a79-38961d3f64b2",
+  "label": "Compose the existing #737 Integration without altering its original history/projection models and…",
+  "legacy_id": "STMT-ULTIMATE-ADEQUACY-EPISTEMIC",
   "lean_declaration": "TruthCore.Explanation.UltimateAdequacy.EpistemicComparison",
   "paraphrase": "Compose the existing #737 Integration without altering its original history/projection models and instantiate the existing #677 conservative weak-token expansion at every new exact modal overlay. This preserves all actual signatures. It does not identify the old epistemic fixtures with the new exercise fixtures or establish agent entitlement; it carries the established local-prediction/whole-selection separation alongside the new ontic discriminator. This is a reuse composition, not an independent epistemic advance.",
   "definition_ids": [
-    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-PSR-REASON",
-    "DEF-ULTIMATE-EXPLANATION-PROFILE",
-    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
-    "DEF-ULTIMATE-EXPLANATION-DECISION",
-    "DEF-WEAK-EXPLANATION-EXPANSION"
+    "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "58d12f26-3402-5f67-b768-3c71f3381894",
+    "4f301d77-0699-5fbb-b931-41b20b839266",
+    "3ecfe3fd-61e4-58a3-adb3-483bf24f7a15",
+    "71e20f7f-8433-573c-a061-b675735df433"
   ],
   "disambiguation_ids": [
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC"
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "215a6dac-a98b-578e-be77-4a76d14d8671"
   ]
 }

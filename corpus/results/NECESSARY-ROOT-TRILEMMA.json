@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-TRILEMMA",
-  "argument_id": "NECESSARY-ROOT-TRILEMMA",
+  "id": "6b309ca5-ca2b-5aa9-8dcc-5cc622ca4a0b",
+  "label": "At w, one of: some concrete…, from Some candidate is CONCRETE_6 and exists at… and 1 more",
+  "legacy_id": "NECESSARY-ROOT-TRILEMMA",
+  "argument_id": "b48d4d6b-a0e1-5521-bb73-c5956ce49db3",
   "challenge_module": "TruthCore.Results.Causality.NecessaryRootFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryRootFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryRootFork.necessaryRootTrilemma",

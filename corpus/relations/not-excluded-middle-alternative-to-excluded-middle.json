@@ -1,9 +1,11 @@
 {
-  "id": "REL-NOT-EXCLUDED-MIDDLE-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
+  "id": "c4166f1c-8f3b-57ea-8ce0-0990cfcd1c5f",
+  "label": "General excluded middle fails: not every… alternative to Excluded middle as a general principle…",
+  "legacy_id": "REL-NOT-EXCLUDED-MIDDLE-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-NOT-EXCLUDED-MIDDLE",
+  "subject_id": "c3184817-ab16-5bb7-9e10-c7251ca8f10f",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EXCLUDED-MIDDLE",
+  "object_id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
   "note": "Exact global complement in the same logic, unrefuted and analyst-only. The constructive refutation of ∃p¬(p∨¬p) does not refute this ¬∀p(p∨¬p) statement. No historical attribution or coverage proof is inferred."
 }

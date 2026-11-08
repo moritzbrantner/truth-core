@@ -1,6 +1,8 @@
 {
-  "id": "CONDENSATION-SUFFICIENCY-CERTIFICATE",
-  "argument_id": "CONDENSATION-SUFFICIENCY-CERTIFICATE",
+  "id": "29afde99-ee02-5a95-ad82-6a5f61f999d5",
+  "label": "Under the #733/#734 joint-group profile: for every graph, Mathlib strongly connected component…",
+  "legacy_id": "CONDENSATION-SUFFICIENCY-CERTIFICATE",
+  "argument_id": "1126b91d-80b3-5456-a540-beeeb9418278",
   "challenge_module": "TruthCore.Results.Explanation.CondensationSufficiency.Challenge",
   "solution_module": "TruthCore.Results.Explanation.CondensationSufficiency.Solution",
   "theorem": "TruthCore.Results.Explanation.CondensationSufficiency.certificate",

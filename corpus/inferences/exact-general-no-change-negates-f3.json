@@ -1,9 +1,11 @@
 {
-  "id": "INF-EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "id": "fb7ad45e-23a4-5253-8718-49442185f999",
+  "label": "Exact negation of F3 SomethingChangesReading under the SAME general Changes…, by Constructive-proof",
+  "legacy_id": "INF-EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
   "input_statement_ids": [
-    "STMT-NOTHING-CHANGES-IN-GENERAL"
+    "cc003313-0847-5a43-85d1-e025f909f48f"
   ],
-  "output_statement_id": "STMT-GENERAL-SOME-CHANGE-FAILS",
+  "output_statement_id": "ec36a144-0df5-5439-b6ae-290432ba3fc2",
   "rule": "constructive-proof",
   "meaning": "Universal absence of the SAME general change contradicts F3 actual change witness. No A-series/general-change or appearance/actual-change transfer is hidden.",
   "assumption_statement_ids": [],

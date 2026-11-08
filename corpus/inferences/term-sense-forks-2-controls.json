@@ -1,7 +1,9 @@
 {
-  "id": "INF-TERM-SENSE-FORKS-2-CONTROLS",
+  "id": "89cd07d9-275c-5a20-8fc6-b904e635b2dc",
+  "label": "Finite interpretations for the uniting-cause, in-act and becoming/being…, by Explicit finite…",
+  "legacy_id": "INF-TERM-SENSE-FORKS-2-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TERM-SENSE-FORKS-2-CONTROLS",
+  "output_statement_id": "e3d48d91-8515-58fd-a64e-f2c827c9a474",
   "rule": "Explicit finite interpretations",
   "meaning": "Finite interpretations for the uniting-cause and in-act forks: exclusivity and coverage omission models for both joint theorems, the mixed in-act reading with self-motion, and a nonvacuity witness per joint theorem. Omission models for the remaining premises are not repeated here; COMPOSITE-UNITING-CAUSE-CONTROLS and the prima via controls give them for the efficient and single-InAct instances of the same premises. Satisfiability and omission only; no model describes reality.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE",
-  "argument_id": "LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE",
+  "id": "51fbfab7-2469-59d6-b016-44758cf5441c",
+  "label": "Some SAME rigid individual satisfies the…, from The chosen frame is Euclidean: any two… and 3 more",
+  "legacy_id": "LOCAL-FRAME-POSSIBLE-EXTERNAL-CAUSE",
+  "argument_id": "81676321-9948-58d8-832c-34458d552973",
   "challenge_module": "TruthCore.Results.Causality.LocalFramePossibleExternalCause.Challenge",
   "solution_module": "TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution",
   "theorem": "TruthCore.Results.Causality.LocalFramePossibleExternalCause.necessaryConcrete",

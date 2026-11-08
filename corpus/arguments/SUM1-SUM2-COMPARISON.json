@@ -1,25 +1,27 @@
 {
-  "id": "SUM1-SUM2-COMPARISON",
+  "id": "45f01fbb-9661-5dc4-863c-d16a423a296b",
+  "label": "For every nonempty family and every candidate…, from For every x,y in the supplied fixed partial…",
+  "legacy_id": "SUM1-SUM2-COMPARISON",
   "premise_statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27"
   ],
-  "conclusion_statement_id": "STMT-SUM1-SUM2-COMPARISON",
+  "conclusion_statement_id": "9a9e0948-0b39-5698-8408-3a9ee994d124",
   "inference_ids": [
-    "INF-SUM1-SUM2-COMPARISON"
+    "baabaa38-0bc0-5534-adbb-418618b241ed"
   ],
   "meaning": "If part p of a nonempty-family least upper bound overlaps no selected member, exact complementation supplies a remainder containing every selected member. Leastness puts the whole inside that remainder, contradicting reflexive overlap of p. Conversely, the no-extra-parts clause supplies overlap inclusion into any upper bound; import the existing separationCharacterization theorem with strong supplementation derived from complementation to obtain containment. The nonempty guard is explicit; neither atomism nor all-family formation is needed.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON",
-    "DEF-SUM1-COMPLEMENTATION-RIVALS",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701",
+    "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

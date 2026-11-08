@@ -1,8 +1,10 @@
 {
-  "id": "STMT-INDEXED-SIGNAL-INDEX-ADMISSIBLE",
+  "id": "bd8c4f8f-8058-5f0f-9ca5-14892044e2f3",
+  "label": "Every numeric code j at station n's output satisfies n<=j, under the same Nat indexing with…",
+  "legacy_id": "STMT-INDEXED-SIGNAL-INDEX-ADMISSIBLE",
   "paraphrase": "Every numeric code j at station n's output satisfies n<=j, under the same Nat indexing with upstream direction increasing. This global quantification of a local output bound is an explicit open interface premise.",
   "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.IndexAdmissible",
   "definition_ids": [
-    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY"
+    "74e6880f-d90b-51ed-a710-5aace3f44cff"
   ]
 }

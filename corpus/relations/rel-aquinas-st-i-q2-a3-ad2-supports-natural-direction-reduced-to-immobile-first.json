@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q2-A3-AD2-SUPPORTS-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+  "id": "550d903c-e14c-5e1c-b4f5-1be0c5fd5a78",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports Whatever directs a natural body to an end…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q2-A3-AD2-SUPPORTS-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-AD2-REDUCTION-TO-IMMOBILE-FIRST-A",
+  "subject_id": "5a3ee5cf-eeef-5f2f-a97d-52d1adc1c6fc",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+  "object_id": "11914511-b067-55d3-b8cc-094311021d08",
   "note": "ad 2 reduces nature's directed working to a first, immovable cause. The bridge adds that this cause directs each body to the same end and is knowing and intelligent; those steps stay open."
 }

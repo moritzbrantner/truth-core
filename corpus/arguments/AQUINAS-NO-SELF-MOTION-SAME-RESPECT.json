@@ -1,23 +1,26 @@
 {
-  "id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
+  "id": "a5ddef5b-9552-51d5-8d6a-ddfabf415fb1",
+  "label": "Nothing that is being moved in a…, from Nothing is moved except insofar as it is in… and 2 more (3)",
+  "legacy_id": "AQUINAS-NO-SELF-MOTION-SAME-RESPECT",
   "premise_statement_ids": [
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "conclusion_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT"
+    "161d4c90-66c7-5a51-a1c0-7e140b931e80"
   ],
   "meaning": "A standalone verification of the existing first-way intermediate inference: the three explicit act/potency laws imply that a subject being moved in a respect cannot move itself in that same respect. No motion premise is supplied for a merely existing or modally contingent subject; there is no blanket ban on intrinsic explanation, cross-respect activity or temporally separated feedback. The source is the already registered ST I q.2 a.3 first-way reading, materialized and reread without changing its claims. This connects existing statements; every philosophical premise remains open and no root premise is discharged. See docs/power-existence-scope-boundary.md.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

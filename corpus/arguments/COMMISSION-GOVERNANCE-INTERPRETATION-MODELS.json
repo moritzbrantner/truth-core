@@ -1,23 +1,25 @@
 {
-  "id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "id": "c111b317-fdf2-529f-8df4-c88b220159d5",
+  "label": "Four nonvacuous controls witness old narrow bridge true/broader bridge false with Matthew 28 and…",
+  "legacy_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-MODELS",
+  "conclusion_statement_id": "84c419d5-1e82-533f-9d6d-054f6f1e4f97",
   "inference_ids": [
-    "INF-COMMISSION-GOVERNANCE-INTERPRETATION-MODELS"
+    "9b6aa051-e95d-50e5-b80f-2c8967d7cdff"
   ],
   "meaning": "Reuse Commissions.messageRival_compatible_with_mt28 to witness old narrow link true/broader link false with a real mandate and founded visible body. A full commissioning controls consistency. Baptize-inclusive Other admits the target; no-governing Other rejects it with a matching bridge and the same nonempty context. These are schema controls, not history.",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

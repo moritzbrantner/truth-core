@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-LANGUAGE-PROPAGATION",
+  "id": "3f829a8f-c957-5a79-8cab-71b823f99faa",
+  "label": "On a symmetric frame, possible domain-relative MC entails actual MC if the domain…, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-LANGUAGE-PROPAGATION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-LANGUAGE-PROPAGATION",
+  "output_statement_id": "40aa0074-0a7c-566f-9710-077ce88a8078",
   "rule": "direct-proof",
   "meaning": "Use the shared collapse-agreement theorem along the back-edge to carry root P to witness P. Collapse at the witness gives Box P there; box closure permits a second MC application, giving Box P at the root.",
   "assumption_statement_ids": [],

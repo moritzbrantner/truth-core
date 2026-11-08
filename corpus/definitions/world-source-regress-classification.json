@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
+  "id": "ea2b66f0-516d-53f5-99fa-098ee4a7138a",
+  "label": "Actual-node source-path or injective\u2026: SourcePath G x is existence of s with the existing\u2026",
+  "legacy_id": "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
   "term": "actual-node source-path or injective anchored regress and world labels",
   "definition": "SourcePath G x is existence of s with the existing FiniteCausalPath G.edge x s and Graph.Source s. This finite path walks upstream, opposite the causal arrows; its zero-length same case at a source is not a self-cause. AnchoredRegress G x is a function f:Nat\u2192Node with f0=x, injective, and edge f(n+1) (fn) for all n. On an actualGraph every node of both paths/chains exists in the same fixed world. Nat indices count positions, not temporal instants. StarterWorlds m consists of worlds with some actual Graph.Source, not a source for every node or a temporal first event. RegressWorlds m consists of worlds with some actual anchored injective regress. WorldClassification conjoins the pointwise source-path-or-regress coverage, equality of the populated-world set {w | \u2203x,ExistsAt w x} with StarterWorlds\u222aRegressWorlds, and a source in every world with finite actual carrier and explicit population. Empty worlds have neither label; finite candidate domains are not silently assumed. The horns and world sets may overlap. SourcePath is not Acc; accessibility excludes all infinite predecessor chains, while one source path can coexist with another infinite branch.",
   "basis": "stipulative",

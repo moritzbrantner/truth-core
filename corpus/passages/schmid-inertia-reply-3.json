@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SCHMID-INERTIA-REPLY-3",
+    "source_id": "f5bfdc82-6569-5191-8187-33c5bb3ff05a",
     "source_url": "https://public-api.wordpress.com/rest/v1.1/sites/majestyofreason.wordpress.com/posts/2136?fields=ID,site_ID,date,modified,slug,URL,title,content",
     "retrieved_at": "2026-10-28T22:10:18Z",
     "sha256": "sha256:a3a55e8a28a65dc3d5e02db414a404c4382ee6e25d27c87aa716825f6812946e",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "SCHMID-INERTIA-REPLY-3-ARTICLE",
+      "id": "79716a2e-0b51-549c-9041-368c2b755735",
+      "label": "Joseph C. Schmid, Feser on Schmid on Existential Inertia, Part 3: complete article in WordPress…",
+      "legacy_id": "SCHMID-INERTIA-REPLY-3-ARTICLE",
       "locator": "Part 3: complete article in WordPress single-post API content, excluding reader comments",
       "claim_locator_prefixes": [
         "Part 3: "

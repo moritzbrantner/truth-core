@@ -1,9 +1,11 @@
 {
-  "id": "INF-PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "id": "a127ff83-bae7-5249-bdcf-efa2e5802383",
+  "label": "The unrestricted measure doctrine fails: not everything that seems so to…, by Constructive-proof",
+  "legacy_id": "INF-PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
   "input_statement_ids": [
-    "STMT-RESTRICTED-MEASURE-CONCESSION"
+    "6c7941b0-a94f-542e-9282-849642fe4d3e"
   ],
-  "output_statement_id": "STMT-MEASURE-DOCTRINE-FAILS",
+  "output_statement_id": "4c3e472c-dd45-55e3-8ec1-15360eb8a59a",
   "rule": "constructive-proof",
   "meaning": "What the restricted measure doctrine concedes (Theaetetus 171e-172a), read narrowly as the denial of the doctrine outside its domain, defeats the unrestricted doctrine, which would give it there (the restriction of a norm on (agent, content) pairs). No particular case of seeming without truth-for is assumed. The restricted and the unrestricted doctrine cannot both be held with the concession.",
   "assumption_statement_ids": [],

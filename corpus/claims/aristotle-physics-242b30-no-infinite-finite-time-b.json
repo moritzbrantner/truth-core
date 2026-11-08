@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-242B30-NO-INFINITE-FINITE-TIME-B",
-  "statement_id": "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME",
-  "source_id": "ARIST-PHYS",
+  "id": "e64f12c6-e6e9-5a8f-a0a4-625654208c8e",
+  "label": "Aristotle, Physics VII.1, 242b30-243a1: Nothing, finite or infinite, goes through an infinite…",
+  "legacy_id": "ARIST-PHYS-242B30-NO-INFINITE-FINITE-TIME-B",
+  "statement_id": "2d51f33a-50aa-5ecf-8d75-87afd4bb145d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VII.1, 242b30-243a1",
   "interpretation": "Typed reading: nothing, finite or infinite, goes through an infinite motion in a finite time (ἀμφοτέρως δὲ ἀδύνατον). Aristotle relies here on Physics VI.7; the reading records only the impossibility claim, as a universal over things.",
-  "interpretation_of": "ARIST-PHYS-242B30-NO-INFINITE-FINITE-TIME-A",
+  "interpretation_of": "011785d9-5564-50e7-9617-ed5a0be9f707",
   "status": "formalized",
   "definition_ids": [
-    "DEF-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+    "0bd5e4e7-d0ab-5edf-aaed-4a9f7832e61b"
   ]
 }

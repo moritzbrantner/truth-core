@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MATERIAL-SLICE-COINCIDENCE",
+  "id": "a85963c3-2013-5d76-85c1-5bedf3430cc9",
+  "label": "Time-indexed material constituent…: Coincident c t x y requires the very same material tokens at…",
+  "legacy_id": "DEF-MATERIAL-SLICE-COINCIDENCE",
   "term": "time-indexed material constituent coincidence",
   "definition": "Coincident c t x y requires the very same material tokens at time t and a nonempty token slice. It does not assert equal mass, shape, all mereological parts or bearer identity. SliceIdentity is the separately tested bridge from any such coincidence to ordinary numerical bearer equality. Divergent e t x y says x is absent and y present at the same time in one history, not different modal worlds.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "RECEPTION-LIMITATION-CONTROLS",
-  "argument_id": "RECEPTION-LIMITATION-CONTROLS",
+  "id": "76089a5e-b830-555c-a26d-ed727e0b4ee8",
+  "label": "Finite one-being interpretations: for each of the four derivations unlimited is own being from…",
+  "legacy_id": "RECEPTION-LIMITATION-CONTROLS",
+  "argument_id": "33f6d708-086d-5321-8cd3-cf15e8a5c32d",
   "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
   "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
   "theorem": "TruthCore.Results.Causality.ReceptionLimitation.controls",

@@ -51,7 +51,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical type and project dependencies. Existing Challenges unchanged; identity-decision Challenge frozen before proof verification.",
-  "result_id": "CATHOLICISM-STAGE2-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "result_id": "538676bd-2959-5e90-876f-8f74253975ba",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.godHasClassicalAttributes",
   "type_sha256": "01ba0b84568c0524ae7ea22656fd514276956acae7a96ac41118abd5b7c4b10a"

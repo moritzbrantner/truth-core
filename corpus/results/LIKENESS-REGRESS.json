@@ -1,6 +1,8 @@
 {
-  "id": "LIKENESS-REGRESS",
-  "argument_id": "LIKENESS-REGRESS",
+  "id": "438c51f7-62b9-5b56-a790-0fc60a672560",
+  "label": "Some single admitted quality has n…, from Eligible lists remain eligible when any… and 5 more",
+  "legacy_id": "LIKENESS-REGRESS",
+  "argument_id": "c6f64e03-2042-5c84-aa59-f7d680fe78ae",
   "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.LikenessRegress.likenessRegress",

@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER",
-  "argument_id": "ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER",
+  "id": "344bbb20-2351-5e78-af54-a9c2bfdaf07a",
+  "label": "It is impossible that there be no mover that is not MOVED_BY_ANOTHER_2, by another",
+  "legacy_id": "ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER",
+  "argument_id": "72777337-cbb2-5cb5-90bc-e09fda541e55",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.FirstMoverNotMovedByAnother.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.FirstMoverNotMovedByAnother.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.FirstMoverNotMovedByAnother.firstMoverNotMovedByAnother",

@@ -1,25 +1,27 @@
 {
-  "id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "id": "f4ccd3f5-07ca-58c8-bebe-ee0fed7053f7",
+  "label": "Each GOD_4 candidate with…, from Stronger open analyst calibration: on each…",
+  "legacy_id": "REVELATION-CALIBRATION-ENTAILS-REALIZATION",
   "premise_statement_ids": [
-    "STMT-RECOGNITION-CAPACITY-DEFINITION"
+    "c27a8733-1df9-53ec-8bb7-1ad316340eb5"
   ],
-  "conclusion_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "conclusion_statement_id": "3f303e5a-a3b2-57f4-accb-207139bf9d52",
   "inference_ids": [
-    "INF-REVELATION-CALIBRATION-ENTAILS-REALIZATION"
+    "4f994789-04f6-5858-ae47-1c017be1b21e"
   ],
   "meaning": "The full calibration implies its forward realization direction, pointwise on God candidates. This assembly transcription registers strength; capability-conflict arguments use the weaker realization.",
   "definition_ids": [
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-WITTGENSTEINIAN-FIDEISM",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-REVELATION-ACTUAL-PRACTICE-RECOGNITION"
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
-    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+    "5fd26045-b3db-5820-a055-cd8c89bc41e5"
   ],
   "strong_version_needed": {
-    "STMT-RECOGNITION-CAPACITY-DEFINITION": "This argument registers strong-to-weak calibration. Consequence arguments use only forward realization."
+    "c27a8733-1df9-53ec-8bb7-1ad316340eb5": "This argument registers strong-to-weak calibration. Consequence arguments use only forward realization."
   }
 }

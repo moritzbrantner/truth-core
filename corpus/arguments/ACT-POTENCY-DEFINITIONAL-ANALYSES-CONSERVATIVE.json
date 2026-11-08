@@ -1,3 +1,20 @@
-{"id": "ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE", "premise_statement_ids": [], "conclusion_statement_id": "STMT-ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE", "inference_ids": ["INF-ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE"], "meaning": "The guard against definitional smuggling, from no premises: defining potency (Metaphysics IX.6) or being moved (Physics III.1) in the way the case's definition records describe them would make STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT or STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic, but would discharge nothing: each analysis is satisfiable exactly when its premise holds, so the open question would only move to the analysis's fidelity.", "definition_ids": ["DEF-POTENCY", "DEF-CAPACITY-TO-BE", "DEF-ACTUALIZATION-QUA-POTENTIAL", "DEF-MOTION-AS-REDUCTION"],
-  "disambiguation_ids": ["DISAMB-POTENCY"]
+{
+  "id": "b03c1dda-5f8e-5a85-9796-029eae0c26bd",
+  "label": "Formal fact: the Metaphysics IX.6 analysis of POTENCY_1 as unactualized ability entails that…",
+  "legacy_id": "ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "88a06a9b-2e9c-59ab-9f7b-608749ead5d7",
+  "inference_ids": [
+    "9b5ed1f2-1fbc-5c50-a427-847d8844e4d5"
+  ],
+  "meaning": "The guard against definitional smuggling, from no premises: defining potency (Metaphysics IX.6) or being moved (Physics III.1) in the way the case's definition records describe them would make STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT or STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic, but would discharge nothing: each analysis is satisfiable exactly when its premise holds, so the open question would only move to the analysis's fidelity.",
+  "definition_ids": [
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
 }

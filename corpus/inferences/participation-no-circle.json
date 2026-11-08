@@ -1,9 +1,11 @@
 {
-  "id": "INF-PARTICIPATION-NO-CIRCLE",
+  "id": "2fcdebc7-44f7-5c23-b8bd-4732b5a8518b",
+  "label": "For the specified bearer, Form and quality, exemplification and…, by Asymmetry-elimination",
+  "legacy_id": "INF-PARTICIPATION-NO-CIRCLE",
   "input_statement_ids": [
-    "STMT-PARTICIPATION-ASYMMETRY"
+    "f3a39613-fa70-591b-9d88-2df5740d9c3f"
   ],
-  "output_statement_id": "STMT-PARTICIPATION-NO-CIRCLE",
+  "output_statement_id": "7a8228a2-ef81-52cf-84c2-027b2647a4c8",
   "rule": "asymmetry-elimination",
   "meaning": "For the specified fact tokens, project both asserted edges of CircularExplanation and apply grounding asymmetry to exclude their conjunction. The iff of coextension supplies neither edge.",
   "assumption_statement_ids": [],

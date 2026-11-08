@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-HISTORY-BEGINNING",
+  "id": "60b36398-a152-552a-a413-ef649e5b7b1f",
+  "label": "First presence at a supplied time…: BeginsAt h w x t requires IsAt w x t and absence of x at every…",
+  "legacy_id": "DEF-TEMPORAL-HISTORY-BEGINNING",
   "term": "first presence at a supplied time under the chosen temporal order",
   "definition": "BeginsAt h w x t requires IsAt w x t and absence of x at every s strictly earlier than t in the supplied Mathlib Preorder. It asserts neither later persistence nor modal contingency, nor a cause of the beginning. Arbitrary preorders need not compare all times; the control uses Int standard linear order and t=0. All earlier integer times are absent and all nonnegative times present by that control assignment.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190A-SUBJECT-PERSISTS-A",
-  "statement_id": "STMT-SUBJECT-PERSISTS-OPPOSITE-DOES-NOT",
-  "source_id": "ARIST-PHYS",
+  "id": "b5453aa4-3390-5878-9836-91ff6c8c0492",
+  "label": "Aristotle, Physics I.7, 190a5-13: In a change such as becoming musical, the human subject persists…",
+  "legacy_id": "ARIST-PHYS-190A-SUBJECT-PERSISTS-A",
+  "statement_id": "15db7a72-b91b-5f40-bbf3-99898dfa802c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190a5-13",
   "interpretation": "In the musical-man example, the man persists while the unmusical condition does not. The claim preserves the subject/opposite distinction without making persistence a universal definition of substance.",
   "status": "formalized"

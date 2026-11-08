@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-MODAL-GRAPH-EDGE-PATH",
+  "id": "a60dac42-97d0-55a5-a344-1873700d54ff",
+  "label": "One-step accessibility edge, finite path and reflexive-transitive closure",
+  "legacy_id": "DISAMB-MODAL-GRAPH-EDGE-PATH",
   "term": "one-step accessibility edge, finite path and reflexive-transitive closure",
   "sense_definition_ids": [
-    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
-    "DEF-MODAL-GRAPH-PATH-CLOSURE"
+    "6db24697-d2c8-58f4-9065-893bbcc9f843",
+    "19fefb43-7d00-554b-b134-511431b1e931"
   ],
   "resolution": "The graph adapter preserves one-step F.access exactly. Quiver reachability adds nil paths and all finite composites, so using it as the modal accessibility relation can change Holds. Identification requires explicit reflexivity and transitivity in its own clause. The box-persistence conclusion remains boxed even at a nil endpoint; it does not infer unboxed truth without the relevant self-access. Successor-cone equality needs transitivity and Euclideanness, and says nothing about identity of the endpoint worlds or unrelated components. The dead-end counterexample rejects unconditional replacement of access by its closure; no global Quiver instance or frame condition is silently installed.",
   "term_label": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH",
@@ -11,13 +13,13 @@
     {
       "id": "9388f01b-4918-4472-97c3-93e1b897c38c",
       "label": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH_1",
-      "definition_id": "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
+      "definition_id": "6db24697-d2c8-58f4-9065-893bbcc9f843",
       "lean_declaration": "TruthCore.Modal.Frame.toQuiver"
     },
     {
       "id": "a743d896-ff15-430d-9ec6-dbbf98ef6328",
       "label": "ONE_STEP_ACCESSIBILITY_EDGE_FINITE_PATH_2",
-      "definition_id": "DEF-MODAL-GRAPH-PATH-CLOSURE",
+      "definition_id": "19fefb43-7d00-554b-b134-511431b1e931",
       "lean_declaration": "TruthCore.Modal.GraphBridgeCertificate"
     }
   ]

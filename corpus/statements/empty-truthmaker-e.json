@@ -1,15 +1,17 @@
 {
-  "id": "STMT-EMPTY-TRUTHMAKER-E",
+  "id": "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+  "label": "Some world accessible from the selected root has no existent in the fixed eligible maker roster",
+  "legacy_id": "STMT-EMPTY-TRUTHMAKER-E",
   "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.EmptyPossible",
   "paraphrase": "Some world accessible from the selected root has no existent in the fixed eligible maker roster.",
   "definition_ids": [
-    "DEF-EMPTY-TRUTHMAKER-SCOPED",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-BEARER-TRUTHMAKING"
+    "6a6f1b64-af87-5927-b737-6a2b395ca3ba",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
-    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78",
+    "ec276045-4055-565e-89b4-75ee5897ecea"
   ],
   "note": "Source-free conditional framework commitment; not independently defended. Candidate inhabitedness does not imply existence; the eligible roster need not exhaust reality."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
-  "argument_id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "id": "41e38c08-0395-5ded-84ec-29aa615cb38e",
+  "label": "The canonical reception relation…, from The selected whole human is united with its… and 3 more",
+  "legacy_id": "UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "argument_id": "855311f3-b2f5-577c-9aad-776d6eeb20f3",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.ReceptionTransfer.receptionTransfer",

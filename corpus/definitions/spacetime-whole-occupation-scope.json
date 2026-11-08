@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
+  "id": "d438a89b-9dee-5db2-9d39-60dea5049396",
+  "label": "Whole occupation and existence scope: WholeUnlocated F:= \u00acSpatiotemporal.Located F F.whole",
+  "legacy_id": "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
   "term": "whole occupation and existence scope",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.WholeUnlocated",

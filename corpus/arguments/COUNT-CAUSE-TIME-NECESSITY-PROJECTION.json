@@ -1,28 +1,30 @@
 {
-  "id": "COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
+  "id": "6d38a20b-4b59-5518-9110-1bee2f3f16cb",
+  "label": "At least one individual exists at the selected…, from There are an accessible history v and the…",
+  "legacy_id": "COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
   "premise_statement_ids": [
-    "STMT-COUNT-CAUSE-TIME-NECESSARY-WITNESS"
+    "f8c90eac-1d63-5808-ba4a-5e1a14ea2748"
   ],
-  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "conclusion_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "inference_ids": [
-    "INF-COUNT-CAUSE-TIME-NECESSITY-PROJECTION"
+    "356aad44-3124-5259-afad-8b9d29978288"
   ],
   "meaning": "Assembly/transcription: select the SAME individual from the richer concrete count-cause witness and retain actual existence and NecessaryAt at w. Forget concreteness, accessible-history necessity and cause role. One composite OPEN input, not an independently defended one-premise existence proof or philosophical discharge.",
   "definition_ids": [
-    "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
-    "DEF-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
-    "DEF-COUNT-TEMPORAL-THRESHOLD",
-    "DEF-COUNT-TEMPORAL-POSSIBLE-COUNT",
-    "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "ea28196e-ff2e-5eb8-b3fe-fa3b9c8d2a61",
+    "f48e806e-d2e1-5c76-9be5-a53f42d856ae",
+    "52766381-e6ac-5634-a69b-e59f1ecafbff",
+    "c5021a71-a928-504c-a7c5-457905258117",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-CAUSABILITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY"
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

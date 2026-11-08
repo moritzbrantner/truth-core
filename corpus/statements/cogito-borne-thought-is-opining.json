@@ -1,14 +1,16 @@
 {
-  "id": "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
+  "id": "a082d5be-9db6-5a35-add6-3944aab819f6",
+  "label": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e, Occurs e → Bears…",
+  "legacy_id": "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
   "paraphrase": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e, Occurs e → Bears b e → Opines b (content e). An open bridge from the Cogito bearer vocabulary to the opining vocabulary of STMT-OPINION-IS-A-MOTION. It holds only if every bearer of an occurring episode opines the content assigned to it; a borne episode whose bearer opines nothing (for example a willing that is no opining) falsifies it.",
   "lean_declaration": "TruthCore.Logic.CogitoConcrete.BorneThoughtIsOpining",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-OPINING",
-    "DEF-BORNE-THOUGHT-AS-OPINING"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "e266a89b-a236-5693-b5dc-559da3975a8b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOUGHT-VS-OPINING"
+    "723ec152-7352-5715-b81c-faf771b6dcb4"
   ]
 }

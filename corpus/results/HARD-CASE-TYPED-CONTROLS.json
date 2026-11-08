@@ -1,6 +1,8 @@
 {
-  "id": "HARD-CASE-TYPED-CONTROLS",
-  "argument_id": "HARD-CASE-TYPED-CONTROLS",
+  "id": "f60099fc-418b-585d-9ea9-876f6bf74a9d",
+  "label": "One explicitly specified factual structure represents nonconsensual violation and deliberate…",
+  "legacy_id": "HARD-CASE-TYPED-CONTROLS",
+  "argument_id": "32b1f78f-3557-59e8-bfb5-69dd3187e126",
   "challenge_module": "TruthCore.Results.Ethics.HardCaseTyped.Challenge",
   "solution_module": "TruthCore.Results.Ethics.HardCaseTyped.Solution",
   "theorem": "TruthCore.Results.Ethics.HardCaseTyped.certificate",

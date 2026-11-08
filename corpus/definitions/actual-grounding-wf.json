@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-GROUNDING-WF",
+  "id": "58fee8ed-9b44-5399-95c8-5d239bea898d",
+  "label": "WELL_FOUNDED_ACTUAL_GROUNDING_1: Over the #505 Profile, ActualConcrete m w x means concrete x and…",
+  "legacy_id": "DEF-ACTUAL-GROUNDING-WF",
   "term": "well-founded actual grounding",
   "definition": "Over the #505 Profile, ActualConcrete m w x means concrete x and ExistsAt w x. ActualGroundingWF m w is Lean's WellFounded of grounds w restricted to the subtype of actual concreta. It constrains only edges between actual concreta at w: cycles and descending chains through absent or non-concrete candidates are unconstrained. Non-well-foundedness of it is not by itself a cycle, nor a completed temporal process.",
   "basis": "stipulative",

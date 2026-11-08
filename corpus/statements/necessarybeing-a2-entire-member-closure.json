@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NB-A2-ENTIRE-MEMBER-CLOSURE",
+  "id": "c589f473-fb08-5414-8956-610bac604ee3",
+  "label": "Necessarily, every cause-capable thing included in a causal chain is included in an entire chain",
+  "legacy_id": "STMT-NB-A2-ENTIRE-MEMBER-CLOSURE",
   "paraphrase": "Necessarily, every cause-capable thing included in a causal chain is included in an entire chain. Necessarily, entire chains have no outside causes of members and are thereby ungrounded in the source sense; any internal head of an entire chain has no cause. This records the qualified membership/closure and head commitment as an open source reading, not a proof that every causal chain is linear or that its collective whole is caused.",
   "definition_ids": [
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

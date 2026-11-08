@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-MOVED-BY-SOMETHING",
+  "id": "9a798385-cf7b-54a4-833d-da5f27ce8a90",
+  "label": "Moved by something, by another, per accidens",
+  "legacy_id": "DISAMB-MOVED-BY-SOMETHING",
   "term": "moved by something (ὑπό τινος), by another, per accidens",
   "sense_definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVED-BY-ANOTHER",
-    "DEF-PER-ACCIDENS-MOVER"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb",
+    "94b121aa-dea5-5740-9287-91fb8b4fcfd4"
   ],
   "resolution": "Three different claims about a moved thing's mover. 'By something' (ὑπό τινος) allows the thing itself; 'by another' (ὑπʼ ἄλλου, `MovedByAnother`) requires a distinct mover; a per accidens mover (`MovesPerAccidensIn`) is a mover only in a way. `MovesIn` is always per se moving, in the sense of DEF-MOTION-AS-REDUCTION. The literal reading of Physics VIII.4 (STMT-EVERY-MOVED-THING-MOVED-PER-SE-OR-PER-ACCIDENS) keeps the per accidens disjunct; a per se mover for physical motion follows only with the added, unattributed premise STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER, and result ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS shows the literal reading does not yield STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER. STMT-EVERY-MOVED-THING-HAS-SOME-MOVER is respect-free 'by something'; it is not the prima via's respect-indexed premise and is not identified with it. The same words ὑπό τινος are read differently at different places, and each record says which: at VIII.4, 256a2-3 (literal) per se or per accidens, in the same respect; in the forced and self-motion branches per se, in the same respect; at VII.1, 241b24 and VIII.5, 256a13-14 (STMT-EVERY-MOVED-THING-HAS-SOME-MOVER) per se, in some respect. The last is a stronger reading than VIII.4's literal conclusion and is not derived from it.",
   "term_label": "MOVED_BY_SOMETHING_BY_ANOTHER_PER",
@@ -12,18 +14,18 @@
     {
       "id": "673bff63-58f5-4df9-a528-9f6733699774",
       "label": "MOVED_BY_SOMETHING_BY_ANOTHER_PER_1",
-      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "definition_id": "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     },
     {
       "id": "0b6ce1fd-fc0f-44d9-8215-96dd595364c0",
       "label": "MOVED_BY_SOMETHING_BY_ANOTHER_PER_2",
-      "definition_id": "DEF-MOVED-BY-ANOTHER"
+      "definition_id": "7b016011-d896-532f-b6fb-2bd7c2a54bbb"
     },
     {
       "id": "a62f3fa5-7e7b-4db0-a4ac-46624d472818",
       "label": "MOVED_BY_SOMETHING_BY_ANOTHER_PER_3",
-      "definition_id": "DEF-PER-ACCIDENS-MOVER"
+      "definition_id": "94b121aa-dea5-5740-9287-91fb8b4fcfd4"
     }
   ]
 }

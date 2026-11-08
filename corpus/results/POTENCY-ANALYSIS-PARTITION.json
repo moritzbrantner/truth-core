@@ -1,6 +1,8 @@
 {
-  "id": "POTENCY-ANALYSIS-PARTITION",
-  "argument_id": "POTENCY-ANALYSIS-PARTITION",
+  "id": "cfb46686-5d78-53b5-b62b-3da52d07cb17",
+  "label": "The partition of the shared question q f7: either a…, from Excluded middle as a general principle…",
+  "legacy_id": "POTENCY-ANALYSIS-PARTITION",
+  "argument_id": "24b0ed04-6e7d-5952-abab-bcd17ca794ab",
   "challenge_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution",
   "theorem": "TruthCore.Results.Alternatives.PotencyAnalysisPartition.partition",
@@ -8,12 +10,12 @@
   "status": "solution-present",
   "description": "Zero-axiom; excluded middle is a hypothesis. Exhaustiveness of the Q-F7 partition, with cellsDenyF7 and f7IffCellConstraints in the Comparator config. It establishes the partition, not F7.",
   "case_split": {
-    "target_statement_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+    "target_statement_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
     "cases": [
       {
         "label": "Potency and act in the same respect",
         "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.PotencyWithActCell",
-        "statement_id": "STMT-ACT-AND-POTENCY-IN-SAME-RESPECT"
+        "statement_id": "3ea60632-887d-53ff-88a3-b92596d15b8d"
       },
       {
         "label": "Potency without capacity",
@@ -24,7 +26,7 @@
         "lean_declaration": "TruthCore.Alternatives.PotencyAnalysisPartition.UnexercisedCapacityWithoutPotencyCell"
       }
     ],
-    "survival_result_id": "POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+    "survival_result_id": "81ca8216-ddf6-5d47-ba1b-a3473d306a9b",
     "note": "The bound coverage theorem gives the target or these three cells under excluded middle. The survivor certificate witnesses each cell with the floor constraints stated in its own type; it does not prove compatibility with every future floor extension. Cell refutations require their exact interpretation, not a merely similar worldview. This metadata is navigation; the frozen coverage theorem remains authoritative."
   }
 }

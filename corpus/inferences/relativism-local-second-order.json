@@ -1,7 +1,9 @@
 {
-  "id": "INF-RELATIVISM-LOCAL-SECOND-ORDER",
+  "id": "911a1a97-197c-53c1-847d-648aa79b76b9",
+  "label": "Second-order test for local relativism: a local thesis inside its own…, by Constructive-proof",
+  "legacy_id": "INF-RELATIVISM-LOCAL-SECOND-ORDER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LOCAL-RELATIVISM-SECOND-ORDER",
+  "output_statement_id": "b42eedf1-2b98-526f-aaee-d15176319c78",
   "rule": "constructive-proof",
   "meaning": "The demarcation test (imported from LOGIC-DEMARCATION-TEST) applied to local relativism: a local thesis inside its own domain falls back to the relative horn; outside, if absolutely true, it is an absolute truth and defeats global relativism.",
   "assumption_statement_ids": [],

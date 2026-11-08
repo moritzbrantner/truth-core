@@ -10,6 +10,7 @@ from collections import Counter
 from pathlib import Path
 import sqlite3
 import tempfile
+from corpus_ids import legacy_uuid  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 SCHEMA = '3'
@@ -217,7 +218,7 @@ def related(db, identifier, limit=20):
         if sid not in premises and sid != conclusion:
             continue
         for other in set(premises + ([conclusion] if conclusion else [])) - {sid}:
-            role = ('incompatible_bundle_member' if conclusion == 'STMT-CONFIGURATION-FALSE' and other in premises else
+            role = ('incompatible_bundle_member' if conclusion == legacy_uuid('statement', 'STMT-CONFIGURATION-FALSE') and other in premises else
                     'joint_premise' if sid in premises and other in premises else
                     'consequence_with_full_bundle' if sid in premises else 'supporting_premise')
             add(other, 0, {'kind': role, 'argument_id': arg['id'], 'path': row['path'],
@@ -253,7 +254,8 @@ def related(db, identifier, limit=20):
     for other, group in tokens.items():
         overlap = tokens[sid] & group
         if len(overlap) >= 2:
-            score = sum(math.log(1 + len(tokens) / counts[word]) for word in overlap)
+            # Match Rust's lexical accumulation and precision when ranking tied matches.
+            score = round(sum(math.log(1 + len(tokens) / counts[word]) for word in sorted(overlap)), 10)
             text_scores[other] = score
             add(other, 3, {'kind': 'text_overlap', 'words': sorted(overlap),
                            'qualification': 'Discovery heuristic only; no logical relationship established.'})

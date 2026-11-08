@@ -1,6 +1,8 @@
 {
-  "id": "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
-  "argument_id": "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "id": "cd4754d1-b98b-5501-af80-5684b1c0014a",
+  "label": "Universal robust truth-aptness of…, from Quasi-realism: moral sentences can be TRUE_2… and 1 more",
+  "legacy_id": "QUASI-REALIST-NONEMPTY-IMPLIES-NOT-ROBUST",
+  "argument_id": "316f4a3f-f638-50c4-9baa-5357ff70efa9",
   "challenge_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Challenge",
   "solution_module": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution",
   "theorem": "TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.exactRival",

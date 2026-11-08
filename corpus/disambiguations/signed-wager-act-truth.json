@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-SIGNED-WAGER-ACT-TRUTH",
+  "id": "69f3208b-951a-54f6-a52e-6e933f878985",
+  "label": "Signed expectation, practical lottery, belief and actual truth",
+  "legacy_id": "DISAMB-SIGNED-WAGER-ACT-TRUTH",
   "term": "signed expectation, practical lottery, belief and actual truth",
   "sense_definition_ids": [
-    "DEF-INFINITE-WAGER-MIXTURE",
-    "DEF-SIGNED-WAGER"
+    "81dadaca-e74d-5ad4-ba23-2e3c06c2bafd",
+    "2abb061e-1a0e-5d69-a19e-a017cc0fa7e1"
   ],
   "resolution": "SignedWager uses guarded EReal expectation with real probabilities and genuinely negative finite utility; the reused InfiniteWager control uses only ENNReal nonnegative utility. They are distinct utility profiles, not interchangeable arithmetic. Maximizes compares defined expectations of feasible behavioral lotteries under a supplied agent prior. A lottery is not an operation selecting a belief or changing which world obtains. The Bool-world religious predicate in the countermodel means only the supplied proposition at the selected actual world, not a sourced theology. Top ties license neither a strict preference nor an obligation without an additional norm; undefined opposing infinities are not scores. Priors/payoffs, independence and feasible practices remain explicit application commitments.",
   "term_label": "SIGNED_EXPECTATION_PRACTICAL_LOTTERY_BELIEF",
@@ -11,13 +13,13 @@
     {
       "id": "4b73f4ee-df28-44f4-8090-233dcddaa5d7",
       "label": "SIGNED_EXPECTATION_PRACTICAL_LOTTERY_BELIEF_1",
-      "definition_id": "DEF-INFINITE-WAGER-MIXTURE",
+      "definition_id": "81dadaca-e74d-5ad4-ba23-2e3c06c2bafd",
       "lean_declaration": "TruthCore.Decision.InfiniteWager.value"
     },
     {
       "id": "bc5039ef-1281-444e-b52d-6e049bc135e0",
       "label": "SIGNED_EXPECTATION_PRACTICAL_LOTTERY_BELIEF_2",
-      "definition_id": "DEF-SIGNED-WAGER",
+      "definition_id": "2abb061e-1a0e-5d69-a19e-a017cc0fa7e1",
       "lean_declaration": "TruthCore.Decision.SignedWager.expectation"
     }
   ]

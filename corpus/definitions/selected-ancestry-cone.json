@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-ANCESTRY-CONE",
+  "id": "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+  "label": "Complete actual concrete ancestry of a…: Cone m w selected x means that x is concrete and exists…",
+  "legacy_id": "DEF-SELECTED-ANCESTRY-CONE",
   "term": "complete actual concrete ancestry of a selected existent",
   "definition": "Cone m w selected x means that x is concrete and exists at w and is a finite reflexive-transitive actual-concrete-ground ancestor of selected. It includes selected only when selected is actual and concrete. Every actual concrete predecessor of a cone member is included; an observed finite prefix cannot substitute for the cone.",
   "basis": "stipulative",

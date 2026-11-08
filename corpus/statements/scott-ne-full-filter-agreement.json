@@ -1,16 +1,18 @@
 {
-  "id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "id": "a704f3cc-57dc-53a6-adef-a4c7c3891190",
+  "label": "For arbitrary worlds, individuals, Kripke frames, bearers and evaluation worlds, the stipulated…",
+  "legacy_id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
   "paraphrase": "For arbitrary worlds, individuals, Kripke frames, bearers and evaluation worlds, the stipulated filtered Scott-style necessary-existence predicate becomes logically equivalent to the original Scott/AFP NE when all intensional properties are admitted in both property quantifiers. This checks that the filtered variant preserves the original definitions at the unrestricted endpoint; it does not justify any alternative property domain.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.FullFilterRecoversScott",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-FILTERED-ESSENCE",
-    "DEF-FILTERED-NECESSARY-EXISTENCE",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+    "6c825ee1-db34-5cf7-933f-689d3e615f19",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-NECESSARY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,8 +1,10 @@
 {
-  "id": "STMT-RESTRICTED-MEASURE-CRITERION",
+  "id": "4675f288-6bb1-563f-8296-d0d83ee5af30",
+  "label": "The demarcation criterion of the restricted measure doctrine: in the just, unjust, holy and unholy…",
+  "legacy_id": "STMT-RESTRICTED-MEASURE-CRITERION",
   "paraphrase": "The demarcation criterion of the restricted measure doctrine: in the just, unjust, holy and unholy nothing has by nature a being of its own, so what is commonly decided becomes true when and for as long as it is decided; judgements of what is advantageous, by contrast, answer to how things will turn out.",
   "definition_ids": [
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-PROTAGOREAN-MEASURE"
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41"
   ]
 }

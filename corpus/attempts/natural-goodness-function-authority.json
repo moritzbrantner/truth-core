@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-NATURAL-GOODNESS-FUNCTION-AUTHORITY",
+  "id": "bf9a9d3c-a120-5e42-9fc9-ecec31ac21dd",
+  "label": "Materialized and read the whole pinned NE I.7, ST I q.5 a.1 and i ii q.94 a.2",
+  "legacy_id": "ATTEMPT-NATURAL-GOODNESS-FUNCTION-AUTHORITY",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-FIRST-PRECEPT-OF-NATURAL-LAW",
-    "STMT-FUNCTION-EXCELLENCE-NECESSARY",
-    "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
-    "STMT-ULTIMATE-DUE-PERFECTION-REQUIRED",
-    "STMT-REASON-REGULATED-INCLINATIONS-NATURAL-LAW"
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "d3719938-01ef-58f8-8ffb-d4fc88c7aa28",
+    "da433873-ee59-5ba2-a44e-93536edcb79b",
+    "2ad83d5d-c3a7-571f-8c84-9d0a5d5b0135",
+    "1d35dc3b-f8af-5362-b53b-23651f89f9de",
+    "29a3c7ee-dc24-54cf-b64c-860bfd2d1728"
   ],
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read the whole pinned NE I.7, ST I q.5 a.1 and I-II q.94 a.2. Added four bounded source readings distinguishing role excellence, excellent rational activity over a complete life, ultimate due perfection and reason-regulated inclination. Existing GoodnessFromDesirability and naturalistic-realism reason-omission results already cover the proposed formal bridge and its failure; no duplicate theorem was created. Functional criterion assignment, the normative priority of human ends, correctness of rational regulation and categorical authority remain open for all compared views. Source fidelity, rejected inferences and a symmetric positive comparison are persisted in docs/notes/natural-goodness-function-and-authority.md. No root premise is added, removed or discharged.",
   "evidence": [
-    "ARIST-EN-I7-FUNCTION-EXCELLENCE",
-    "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY",
-    "AQUINAS-ST-I-Q5-A1-ULTIMATE-PERFECTION",
-    "AQUINAS-ST-I-II-Q94-A2-REASON-REGULATION",
-    "AQUINAS-ST-I-Q5-A1-GOODNESS-FROM-DESIRABILITY"
+    "65bad961-5fe5-5abe-9d0b-7641f0aa3879",
+    "b103a3c6-e600-5f56-9c27-800630a4abb5",
+    "1a20cd21-8b87-5576-9d29-e979b8c36c3a",
+    "2c04a372-9378-5bfd-bda0-6c62aa55219d",
+    "253b9147-b8e7-5a54-af4b-9707454122e4"
   ]
 }

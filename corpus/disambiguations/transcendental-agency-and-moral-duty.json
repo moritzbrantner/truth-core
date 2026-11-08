@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-TRANSCENDENTAL-AGENCY-AND-MORAL-DUTY",
+  "id": "9c5e9d4b-1f96-535e-8dc6-e1d384330f1f",
+  "label": "Instrumental success versus categorical moral requirement",
+  "legacy_id": "DISAMB-TRANSCENDENTAL-AGENCY-AND-MORAL-DUTY",
   "term": "instrumental success versus categorical moral requirement",
   "sense_definition_ids": [
-    "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
-    "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY"
+    "a08536c4-420b-5d26-8a6f-1088daa6ce6b",
+    "c31c763a-c8e3-56ba-9def-79dcc818eb3d"
   ],
   "resolution": "Realizes and OnlyEffective concern an outcome and a uniquely effective means within a stipulated one-step action profile, not a metaphysical causal mechanism. Their implication to performing that means is a structural fact about the profile, not an obligation to adopt the end or perform the means. GoalPractice.categoricalOught is a separate deontic parameter; two exact finite profiles agree on goals, actions and outcomes but disagree about duty. No robust action-theoretic or moral interpretation is derived by naming the profile an agency model.",
   "term_label": "INSTRUMENTAL_SUCCESS_VERSUS_CATEGORICAL_MORAL_REQUIREMENT",
@@ -11,13 +13,13 @@
     {
       "id": "a260db9d-3520-4586-be50-c4162ec83625",
       "label": "INSTRUMENTAL_SUCCESS_VERSUS_CATEGORICAL_MORAL_REQUIREMENT_1",
-      "definition_id": "DEF-TRANSCENDENTAL-GOAL-REALIZATION",
+      "definition_id": "a08536c4-420b-5d26-8a6f-1088daa6ce6b",
       "lean_declaration": "TruthCore.Logic.TranscendentalPractice.Realizes"
     },
     {
       "id": "f79289e1-c79f-4ca1-b702-4f4945ca8506",
       "label": "INSTRUMENTAL_SUCCESS_VERSUS_CATEGORICAL_MORAL_REQUIREMENT_2",
-      "definition_id": "DEF-TRANSCENDENTAL-CATEGORICAL-DUTY",
+      "definition_id": "c31c763a-c8e3-56ba-9def-79dcc818eb3d",
       "lean_declaration": "TruthCore.Logic.TranscendentalPractice.GoalPractice.categoricalOught"
     }
   ]

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-GIBBARD-INDICATIVE-NOT-MATERIAL-TRUTH",
+  "id": "393081a1-2fa4-5a74-a1fa-691f1594048f",
+  "label": "Gibbard denies truth values in his expanded full-truth sense to indicative conditionals with false…",
+  "legacy_id": "STMT-GIBBARD-INDICATIVE-NOT-MATERIAL-TRUTH",
   "paraphrase": "Gibbard denies truth values in his expanded full-truth sense to indicative conditionals with false antecedents while allowing some such claims to be properly believed and asserted; he distinguishes this from lighter senses of truth.",
   "definition_ids": [
-    "DEF-GIBBARD-EXPANDED-TRUTH"
+    "3b684b57-3e4b-537c-925b-5cc172a6011a"
   ],
   "disambiguation_ids": [
-    "DISAMB-GIBBARD-TRUTH-VS-ANALYST-SUPPORT"
+    "d0ce6461-c127-532f-8bb4-150df0f19e14"
   ]
 }

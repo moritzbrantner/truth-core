@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "OCKHAM-SUMMA-LOGICAE",
+    "source_id": "5b6a2b8d-3790-581e-b238-d1a60ad0a400",
     "source_url": "https://www.logicmuseum.com/x/index.php?title=Authors/Ockham/Summa_Logicae/Book_I/Chapter_14&oldid=14239&action=raw",
     "retrieved_at": "2026-10-28T20:12:18Z",
     "sha256": "sha256:a70e3796ff453df3f6ee9f8f2ca2307b9d7abff005e35de575e196c7ce0c1747",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "OCKHAM-SL-I-14",
+      "id": "8d11402a-8a80-59a5-b92f-aadf53340bf1",
+      "label": "William of Ockham, Summa logicae, Summa logicae I.14, whole chapter, Logic Museum revision…",
+      "legacy_id": "OCKHAM-SL-I-14",
       "locator": "Summa logicae I.14, whole chapter, Logic Museum revision 14239 (Latin with accompanying English)",
       "claim_locator_prefixes": [
         "I.14:"

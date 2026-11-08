@@ -1,6 +1,8 @@
 {
-  "id": "SELF-OPERATION-LIFE-CONTROLS",
-  "argument_id": "SELF-OPERATION-LIFE-CONTROLS",
+  "id": "206ec7c6-9a7d-501a-8e4d-27055a5f50f9",
+  "label": "One being in POTENCY_1 in no respect",
+  "legacy_id": "SELF-OPERATION-LIFE-CONTROLS",
+  "argument_id": "12d922a4-4d94-5afa-b53a-5888ac54c23f",
   "challenge_module": "TruthCore.Results.Causality.SelfOperationLife.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelfOperationLife.Solution",
   "theorem": "TruthCore.Results.Causality.SelfOperationLife.controls",

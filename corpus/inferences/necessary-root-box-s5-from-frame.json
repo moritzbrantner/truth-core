@@ -1,10 +1,12 @@
 {
-  "id": "INF-NECESSARY-ROOT-BOX-S5-FROM-FRAME",
+  "id": "71c38601-7736-5483-9e24-fc7d5c589901",
+  "label": "Necessary-being node, possibilist box reading in frame class S5…, by Conjunction introduction",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-S5-FROM-FRAME",
   "input_statement_ids": [
-    "STMT-NECESSARY-ROOT-BOX-K",
-    "STMT-ONTIC-FRAME-S5"
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "873d057f-e58e-53cc-a054-093f7c5a4238"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-BOX-S5",
+  "output_statement_id": "7089ce3d-3855-5bfb-a3c3-c202e8ff458a",
   "rule": "Conjunction introduction",
   "meaning": "The S5 branch of the sense fork: the route's K node plus the OPEN premise of the S5 frame condition on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls.",
   "assumption_statement_ids": [],

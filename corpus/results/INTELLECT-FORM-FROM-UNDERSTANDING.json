@@ -1,6 +1,8 @@
 {
-  "id": "INTELLECT-FORM-FROM-UNDERSTANDING",
-  "argument_id": "INTELLECT-FORM-FROM-UNDERSTANDING",
+  "id": "e7fcd8ea-58a3-514a-a0b4-31f72b05b175",
+  "label": "OPEN, analyst formulation from ST I q.19 a.1 with q.14 a.1, attribution…, from understanding",
+  "legacy_id": "INTELLECT-FORM-FROM-UNDERSTANDING",
+  "argument_id": "4b53047b-08d8-5ced-8752-264edf1e220f",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.intellectFormFromUnderstanding",

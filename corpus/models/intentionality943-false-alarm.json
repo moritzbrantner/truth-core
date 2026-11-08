@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-INTENTIONALITY943-FALSE-ALARM",
+  "id": "fddaa321-c8d3-58a2-a563-97f161790c21",
+  "label": "Single-deletion interpretation of the intentionality943 error core, keeping a nonempty… (3)",
+  "legacy_id": "MODEL-INTENTIONALITY943-FALSE-ALARM",
   "description": "Single-deletion interpretation of the intentionality943 error core, keeping a nonempty, causally efficacious reductive target kind. Correct report and false external content; content/report identification fails. The consumer account is jointly witnessed by the advertised result. Formal satisfiability only, not actual cognition or metaphysical possibility.",
   "vocabulary": "INTENTIONALITY943",
   "lean_declaration": "TruthCore.Models.Intentionality943.falseAlarm",
@@ -50,7 +52,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-INTENTIONALITY943-ERROR",
+      "statement_id": "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
       "value": "satisfies",
       "arguments": [
         "Occurrence",
@@ -63,7 +65,7 @@
       "theorem": "TruthCore.Models.Intentionality943.falseAlarmError"
     },
     {
-      "statement_id": "STMT-INTENTIONALITY943-REPORT-CORRECT",
+      "statement_id": "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51",
       "value": "satisfies",
       "arguments": [
         "Occurrence",
@@ -76,7 +78,7 @@
       "theorem": "TruthCore.Models.Intentionality943.falseAlarmReport"
     },
     {
-      "statement_id": "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT",
+      "statement_id": "d49bede3-ad6e-5f07-a642-19b526eb2f61",
       "value": "violates",
       "arguments": [
         "Occurrence",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-PLATO-TIM-COSMOS-CAUSE-A",
+  "id": "c3e0194b-3437-5f12-9532-b4c05652b19d",
+  "label": "The cosmos has a CAUSE_2, by Principle application",
+  "legacy_id": "INF-PLATO-TIM-COSMOS-CAUSE-A",
   "input_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-BROAD",
-    "STMT-COSMOS-GENERATED"
+    "915e3df5-0975-5461-9fd6-83094ab526f3",
+    "5a1cc285-fc48-5e4b-afd3-53fd40976f62"
   ],
-  "output_statement_id": "STMT-COSMOS-HAS-CAUSE",
+  "output_statement_id": "332d3640-0587-5f82-bdc6-cc8781baec50",
   "rule": "principle_application",
   "meaning": "Apply the broad causal principle to the generated cosmos.",
   "assumption_statement_ids": [],

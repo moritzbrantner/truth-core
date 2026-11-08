@@ -1,10 +1,12 @@
 {
-  "id": "INF-NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "id": "9bec2277-d992-56df-b93a-320c827c9088",
+  "label": "Nothing is the efficient cause of itself, in any respect, by Reductio",
+  "legacy_id": "INF-NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
   "input_statement_ids": [
-    "STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE",
-    "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT"
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3"
   ],
-  "output_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "output_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
   "rule": "Reductio",
   "meaning": "A second route to 'nothing is its own efficient cause' that bypasses priority: a self-cause would depend for its being on itself (as effect) and not depend on itself (as cause).",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "id": "209ecbb9-4d51-515e-beda-516450fc6816",
+  "label": "A source path for each node in a…: FiniteActualAllSourcePaths m states: for every world w, if…",
+  "legacy_id": "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
   "term": "a source path for each node in a finite actual carrier",
   "definition": "FiniteActualAllSourcePaths m states: for every world w, if Actual m w is finite, then every x:Actual m w has SourcePath (actualGraph m w) x. The finite guard concerns actual individuals, not the whole candidate roster, finite branching, moments or past length. SourcePath retains the chosen node and its upstream finite path to an existing Graph.Source. Different nodes or worlds may have different sources. Empty actual carriers make this universal conclusion vacuous, so it asserts no source without population. Acyclicity is supplied separately by the result, not built into this property.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-194B-FOUR-CAUSES-A",
-  "statement_id": "STMT-FOUR-CAUSES-EXHAUSTIVE",
-  "source_id": "ARIST-PHYS",
+  "id": "58f68015-fab0-5534-974b-853a7e73813f",
+  "label": "Aristotle, Physics II.3, 194b16-195a3: Causal explanations are classifiable under material…",
+  "legacy_id": "ARIST-PHYS-194B-FOUR-CAUSES-A",
+  "statement_id": "68172f57-65d2-53fe-930e-936ef99d9d60",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "II.3, 194b16-195a3",
   "interpretation_group": "ARIST-PHYS-194B-FOUR-CAUSES",
   "interpretation": "Exhaustive-classification reading: whenever something stands as a cause of an effect, that explanatory role falls under at least one of the four modes Aristotle enumerates. The roles are binary relations between cause and effect rather than intrinsic labels on cause-objects.",

@@ -1,15 +1,17 @@
 {
-  "id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
+  "id": "91933740-acd4-5622-a9ed-77d8729434c5",
+  "label": "Finite controls: departed-builder production satisfies temporal calibration, temporal-composer and…",
+  "legacy_id": "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COMPOSER-TEMPORAL-DEFINITION-CONTROLS",
+  "conclusion_statement_id": "9fb0e2e5-a867-5751-9bf8-269392397735",
   "inference_ids": [
-    "INF-COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES"
+    "83046fd0-2e35-5b13-9bd6-dda222e38be1"
   ],
   "meaning": "Finite survival, overlap, strictness and remainder interpretations; no actual causal or temporal proposition established.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

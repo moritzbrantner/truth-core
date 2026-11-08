@@ -1,10 +1,12 @@
 {
-  "id": "STMT-AYER-STRONG-AND-WEAK-VERIFIABILITY",
+  "id": "0d05ed0f-2ec5-59d9-bee5-9b49dda8c364",
+  "label": "Ayer 1936: a proposition is verifiable in the strong sense if and only if its truth could be…",
+  "legacy_id": "STMT-AYER-STRONG-AND-WEAK-VERIFIABILITY",
   "paraphrase": "Ayer 1936: a proposition is verifiable in the strong sense if and only if its truth could be conclusively established in experience, and in the weak sense if it is possible for experience to render it probable.",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

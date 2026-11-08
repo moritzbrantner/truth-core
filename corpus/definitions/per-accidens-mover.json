@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PER-ACCIDENS-MOVER",
+  "id": "94b121aa-dea5-5740-9287-91fb8b4fcfd4",
+  "label": "MOVES_PER_ACCIDENS_3, Aristotle's per…: One moves a thing per accidens when one is a mover of it…",
+  "legacy_id": "DEF-PER-ACCIDENS-MOVER",
   "term": "moves per accidens (κατὰ συμβεβηκὸς κινεῖν), Aristotle's per accidens mover",
   "definition": "One moves a thing per accidens when one is a mover of it only in a way, as the one who pulls away a supporting pillar or takes the stone off a wineskin in water (Physics VIII.4, 255b24-27). Lean: the primitive `MovesPerAccidensIn`, kept apart from `MovesIn`. This is Aristotle's per accidens moving of one thing, not Aquinas' per accidens ordered series (DEF-PER-ACCIDENS-ORDERED-SERIES).",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-256A-GENERATOR-OR-REMOVER-A"
+    "934596fd-9da8-5faa-a524-f4b2eafafcd7"
   ]
 }

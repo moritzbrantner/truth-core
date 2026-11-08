@@ -1,6 +1,8 @@
 {
-  "id": "PARM-WHOLE-PART-OBJECTION",
-  "argument_id": "PARM-WHOLE-PART-OBJECTION",
+  "id": "6aa7704a-408e-5449-8a92-fbdfbadd9ed6",
+  "label": "The spatial whole-or-proper-part…, from There are two distinct particulars sharing… and 3 more",
+  "legacy_id": "PARM-WHOLE-PART-OBJECTION",
+  "argument_id": "0bceab05-d049-5388-9660-eeb4b6a7e6e4",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.WholePartObjection.wholePartObjection",

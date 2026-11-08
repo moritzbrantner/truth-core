@@ -1,26 +1,28 @@
 {
-  "id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "id": "9b14e6d7-1586-5c17-9ecf-7c1277007f8a",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a…, via local cause",
+  "legacy_id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
   "premise_statement_ids": [
-    "STMT-LOCAL-CAUSAL-PRINCIPLE",
-    "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"
+    "ef69a630-2277-56be-86ca-f05f8193093a",
+    "a9e55713-876d-54f7-9ecc-fc6136c1d8a9"
   ],
-  "conclusion_statement_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
+  "conclusion_statement_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
   "inference_ids": [
-    "INF-CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE"
+    "887f223c-0071-5307-ae85-4402c85d5724"
   ],
   "meaning": "The Kantian local causal principle supplies an existing distinct cause of every existing contingent individual; the bridge makes an existing cause of an actual concretum a concrete ground of it. Uses the principle at the one reading world only.",
   "definition_ids": [
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-KANT-LOCAL-CAUSE",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

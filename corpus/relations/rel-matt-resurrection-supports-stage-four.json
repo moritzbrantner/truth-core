@@ -1,9 +1,11 @@
 {
-  "id": "REL-MATT-RESURRECTION-SUPPORTS-STAGE-FOUR",
+  "id": "b513366b-bf62-5ff7-9a17-e65ced379539",
+  "label": "New Testament, Matthew 27.52-53: Matthew's… supports Jesus claimed to speak and act with divine…",
+  "legacy_id": "REL-MATT-RESURRECTION-SUPPORTS-STAGE-FOUR",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-27-NARRATIVE-RESURRECTION",
+  "subject_id": "5b5e5a0f-6361-546e-8643-c2a1c1cb8b02",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "object_id": "a88d9b81-1246-5844-a119-4be2af4dd3f9",
   "note": "The canonical narrative's own resurrection reference bears on the resurrection conjunct. This is source attestation only: no report-to-event inference, historical reliability premise, or worldview refutation is supplied."
 }

@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
-  "argument_id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "id": "1268ed4e-57b6-5f90-ad54-c4d7d5f1238f",
+  "label": "Three independent finite interpretations omit, respectively, actual thought, thought-as-change…",
+  "legacy_id": "COGITO-PHYSICS-THOUGHT-CHANGE-OMISSION-CONTROLS",
+  "argument_id": "056d7d44-b263-598e-b44f-7db432f69692",
   "challenge_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.ThoughtChangeSubject.Solution",
   "theorem": "TruthCore.Results.Logic.ThoughtChangeSubject.omissionControls",

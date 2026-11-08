@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
-  "argument_id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "id": "960bfe08-9259-5125-8322-59ced63e25e0",
+  "label": "There is an interpretation in which a thought occurs and the bearer principle holds, but no bearer…",
+  "legacy_id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "argument_id": "40c68166-ac58-5b4b-8911-7b86ef17dbaf",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.nonSubstantialBearerModel",

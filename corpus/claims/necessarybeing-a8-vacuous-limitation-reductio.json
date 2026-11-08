@@ -1,19 +1,21 @@
 {
-  "id": "NB-SURVEY-A8-VACUOUS-LIMITATION-REDUCTIO",
-  "statement_id": "STMT-NB-A8-VACUOUS-LIMITATION-REDUCTIO",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "5aa0b7f3-c5d7-5d5c-8694-b5c0845a73d3",
+  "label": "Unattributed website author, Necessary…: With the selected report that powerful NECESSARY_BEING_4…",
+  "legacy_id": "NB-SURVEY-A8-VACUOUS-LIMITATION-REDUCTIO",
+  "statement_id": "dc6e6f23-2e89-514f-9100-1ed22d437b6d",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A8C2, steps 1–10, explicit vacuous-conditional paragraph after step 3 and entails/limiting/property titles",
   "interpretation": "Preserve the author’s explicit use of vacuity at3–4 and compressed deficiency/transitivity assertions at5–7, without silently selecting full Limiting-as-existential-deficiency semantics or extracting one uniform deficiency from varying bearers. Source1–8 remains inside NoPossibleNB; only9–10 discharges possibility. Earlier negative P2 nonlimitation is conditional input, not actual assent. Main P3 affirmative limitation of possible nonexistence is not an input here. P2B asks about powerlessness but all three answers continue to P3B, so no required affirmative report is invented. An admitted fixed deficiency property would support a simpler conditional vacuity reconstruction, not establish that this compressed source formulation already supplies its exact domain/uniformity premises. No κ stipulation, Scott complement-exclusion, independent possibility truth, actual causal role or same-individual transport is supplied.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

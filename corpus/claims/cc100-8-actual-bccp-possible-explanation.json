@@ -1,15 +1,17 @@
 {
-  "id": "CC100-8-ACTUAL-BCCP-POSSIBLE-EXPLANATION",
-  "statement_id": "STMT-CC100-8-ACTUAL-BCCP-POSSIBLE-EXPLANATION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "e1e355c2-19c4-5397-9dc5-7d8e65206ec3",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: All contingently true propositions in the actual world…",
+  "legacy_id": "CC100-8-ACTUAL-BCCP-POSSIBLE-EXPLANATION",
+  "statement_id": "3f110f59-9c7e-5668-b71b-729177e67c08",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.16, argument #8, steps 2–3 under step 1",
   "interpretation": "Retain the actual-world aggregate as the same target of possible explanation, not a newly assembled aggregate at each world. Its admission and truth are source commitments; existing BCCFAt requires explicit fact-domain and inclusion correspondence. No necessary explanation or concrete bearer follows merely from aggregate admission. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

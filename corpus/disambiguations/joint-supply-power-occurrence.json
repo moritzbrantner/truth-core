@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
+  "id": "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+  "label": "Productive contribution versus enabling occurrence, existential path and actual explanation",
+  "legacy_id": "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
   "term": "productive contribution versus enabling occurrence, existential path and actual explanation",
   "sense_definition_ids": [
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ],
   "resolution": "Supply requires every productive contributor of one supplier record; FinitelyGroundedPower follows one projected membership edge at a time. Neither defines actual borrowing or establishes explanatory adequacy. An enabler must occur under exercise coherence but need not exercise productive power. Admission, exercise, event occurrence, local active power and inductive Supply remain separate. PoweredGroups is scoped to records used as actual suppliers; arbitrary admitted alternatives can have inactive contributors, as AdmissionOmission certifies. Rooted branch indispensability holds over BOTH allowed source-on scenarios; selected history sufficiency and uniqueness do not inherit that omission witness. AtContext fixes one time/respect without identifying event tokens or their bearers; #711 alternating-respect motion remains a separate boundary. See docs/notes/derivative-joint-power-734.md. ExplanatoryClosure's FullSupply is a separate standard that also demands enablers; it is not Supply and does not make an enabler productive.",
   "term_label": "PRODUCTIVE_CONTRIBUTION_VERSUS_ENABLING_OCCURRENCE_EXISTENTIAL",
@@ -12,19 +14,19 @@
     {
       "id": "fa2bb415-f5c5-4643-b81d-56d72e133b97",
       "label": "PRODUCTIVE_CONTRIBUTION_VERSUS_ENABLING_OCCURRENCE_EXISTENTIAL_1",
-      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "definition_id": "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
       "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
     },
     {
       "id": "78060266-147a-4ade-ae00-5357aac95ad0",
       "label": "PRODUCTIVE_CONTRIBUTION_VERSUS_ENABLING_OCCURRENCE_EXISTENTIAL_2",
-      "definition_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+      "definition_id": "febac82d-1ca3-5773-89ec-0401f1bac7a0",
       "lean_declaration": "TruthCore.Causality.FinitelyGroundedPower"
     },
     {
       "id": "f19ebb7d-9052-4a0c-9caa-558777f897b2",
       "label": "PRODUCTIVE_CONTRIBUTION_VERSUS_ENABLING_OCCURRENCE_EXISTENTIAL_3",
-      "definition_id": "DEF-JOINT-SCENARIO-SUFFICIENCY",
+      "definition_id": "800637b5-8f4b-54ea-865d-c4fd444d1632",
       "lean_declaration": "TruthCore.Causality.JointGroups.Exercise.suffices"
     }
   ]

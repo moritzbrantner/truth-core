@@ -1,7 +1,16 @@
 {
-  "id": "STMT-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "id": "bd8359e3-f084-5201-a677-94da653d4ee2",
+  "label": "There is an explicit model where every fixed node is eventually inductively grounded in each…",
+  "legacy_id": "STMT-CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
   "paraphrase": "There is an explicit model where every fixed node is eventually inductively grounded in each sufficiently long finite successor chain, but the intrinsic source moves beyond every fixed finite position. The pointwise all-active limit satisfies local transmission, while with no intrinsic source it has no finite inductive grounding even at node zero. Thus groundedness of finite approximations need not persist under this pointwise limit; no metaphysical impossibility of source-free power follows without an additional completion or grounding principle.",
   "lean_declaration": "TruthCore.Causality.FiniteGroundingNotClosedUnderEscapingSourceLimit",
-  "definition_ids": ["DEF-CAUSAL-SUCCESSOR-BORROWING-LINK", "DEF-CAUSAL-ESCAPING-INTRINSIC-SOURCE", "DEF-FINITELY-GROUNDED-CAUSAL-POWER", "DEF-ESSENTIAL-POWER-TRANSMISSION-RULE"],
-  "disambiguation_ids": ["DISAMB-CAUSAL-POWER-GROUNDING"]
+  "definition_ids": [
+    "355ea5d1-e02f-5ab0-909e-0b820e44daba",
+    "e8cac89e-961a-586d-9f15-4779b1ca0317",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "e1b95906-8d38-59c3-abee-0ccc1c9d333b"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
+  ]
 }

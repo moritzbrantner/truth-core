@@ -1,23 +1,24 @@
 {
-  "id": "TERM-SENSE-FORKS-3-CONTROLS",
+  "id": "1fd1933e-b54b-5c43-a127-a921d2d0ddd8",
   "label": "Finite models for the maxime ens and potency sense forks",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TERM-SENSE-FORKS-3-CONTROLS",
+  "conclusion_statement_id": "e24944a8-90b3-5a29-9904-944eb246d9ac",
   "inference_ids": [
-    "INF-TERM-SENSE-FORKS-3-CONTROLS"
+    "1b342fe1-bcd0-51bb-9c40-5fba91de1d04"
   ],
   "meaning": "Finite interpretations for the maxime-ens and potency forks: coverage without exclusivity and coverage failing, each with the joint conclusion failing; a nonvacuity witness per joint theorem; bridge omission models for MAXIME_2 and MAXIME_3 (existence layer) and for the STRICT causal principle at the root node; tied maxima separating MAXIME_1 from MAXIME_3 existence; omission models for both ADOPTED potency premises. Satisfiability and omission only; no model describes reality.",
   "definition_ids": [
-    "DEF-CAPACITY-TO-BE",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
-    "DEF-MAXIME-ENS",
-    "DEF-POTENCY",
-    "DEF-ROUTE-SENSE-SELECTION"
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-POTENCY"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ],
-  "sense_mixing_control": true
+  "sense_mixing_control": true,
+  "legacy_id": "TERM-SENSE-FORKS-3-CONTROLS"
 }

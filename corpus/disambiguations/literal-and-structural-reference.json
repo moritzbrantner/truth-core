@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE",
+  "id": "604a0ebb-d43a-5ec4-b08b-6f0138c953c6",
+  "label": "Reference identity",
+  "legacy_id": "DISAMB-LITERAL-AND-STRUCTURAL-REFERENCE",
   "term": "reference identity",
   "sense_definition_ids": [
-    "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
-    "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+    "47bb3ea3-da26-5e6e-af6d-9749f2f7af0d",
+    "bf20c36c-9b87-5db8-8eb3-a9ee5f691379"
   ],
   "resolution": "ReferenceBoundary compares literal values on one fixed carrier. Its swapped interpretations are isomorphic, so it does not show a failure of reference identity for a structuralist who identifies permuted models. AnchorRecovery instead keeps one uniquely satisfied predicate fixed across interpretations; allowing that anchor to transport removes the extra identity constraint.",
   "term_label": "REFERENCE_IDENTITY",
@@ -11,13 +13,13 @@
     {
       "id": "dd54c7f7-b6eb-43bf-9f9f-fec4190ddcaf",
       "label": "REFERENCE_IDENTITY_1",
-      "definition_id": "DEF-LITERAL-REFERENCE-ON-FIXED-CARRIER",
+      "definition_id": "47bb3ea3-da26-5e6e-af6d-9749f2f7af0d",
       "lean_declaration": "TruthCore.Logic.ReferenceAnchor.referent"
     },
     {
       "id": "e36d657d-6df4-4f90-9f2a-86c9ecf1f44c",
       "label": "REFERENCE_IDENTITY_2",
-      "definition_id": "DEF-REFERENCE-UP-TO-ISOMORPHISM"
+      "definition_id": "bf20c36c-9b87-5db8-8eb3-a9ee5f691379"
     }
   ]
 }

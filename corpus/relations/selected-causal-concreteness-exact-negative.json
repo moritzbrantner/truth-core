@@ -1,9 +1,11 @@
 {
-  "id": "REL-SELECTED-CAUSAL-CONCRETENESS-EXACT-NEGATIVE",
+  "id": "ba3a918e-ae6f-5766-88b8-fc134359602c",
+  "label": "Exact negation of the original… alternative to Owner framework commitment: At the…",
+  "legacy_id": "REL-SELECTED-CAUSAL-CONCRETENESS-EXACT-NEGATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS",
+  "subject_id": "a1de3d6a-aed9-5b38-a4b1-4f41101c7d96",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
   "note": "Exact selected-profile complement, unrefuted. Broad category or other-world accounts require their explicit interfaces; no finite named-theory roster is treated as exhaustive."
 }

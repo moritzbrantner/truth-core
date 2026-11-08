@@ -1,14 +1,16 @@
 {
-  "id": "STMT-RUSSELL-GENUINE-NAME-DENOTES",
+  "id": "15f1f3dc-9dbb-52d0-bdab-7209c8db74b1",
+  "label": "A genuine name must name something; meaningful negative existence about Romulus is analyzed…",
+  "legacy_id": "STMT-RUSSELL-GENUINE-NAME-DENOTES",
   "paraphrase": "A genuine name must name something; meaningful negative existence about Romulus is analyzed through a description.",
   "definition_ids": [
-    "DEF-RUSSELL-GENUINE-NAME",
-    "DEF-RUSSELL-CONTEXTUAL-NAME",
-    "DEF-RUSSELL-DESCRIPTION"
+    "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+    "0cffde19-8afb-5fe5-9e0f-ef9a11283845",
+    "9df718d1-8bfb-519b-b9f5-f58f6d2c256f"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

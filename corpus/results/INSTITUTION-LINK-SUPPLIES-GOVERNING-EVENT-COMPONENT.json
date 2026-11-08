@@ -1,6 +1,8 @@
 {
-  "id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
-  "argument_id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "id": "e744cb95-23c7-5b6d-b851-81789246119d",
+  "label": "Weak institutional transfer: whenever Jesus holds…, from For any being g: if Jesus holds a mandate…",
+  "legacy_id": "INSTITUTION-LINK-SUPPLIES-GOVERNING-EVENT-COMPONENT",
+  "argument_id": "443440e6-a0b8-5f25-9511-cd9021264cf4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Link.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Link.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.institutionLinkComponent",

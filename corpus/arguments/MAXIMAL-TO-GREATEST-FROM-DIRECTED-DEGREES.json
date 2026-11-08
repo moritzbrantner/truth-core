@@ -1,21 +1,23 @@
 {
-  "id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "id": "9277c8cb-5f59-5ca9-93a3-ef2aab9e1f1d",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a greatest…, from directed degrees",
+  "legacy_id": "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
-    "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "70508140-d427-5a99-9be0-ae12ac905302",
+    "5770e90f-d3bb-580e-a084-2c71426a3c0c"
   ],
-  "conclusion_statement_id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "conclusion_statement_id": "2336e5b4-ba2f-5ffb-8798-0737505208c6",
   "inference_ids": [
-    "INF-MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES"
+    "95381d27-d284-50b9-9ce7-08d08ac2143d"
   ],
   "meaning": "Derive the weak maximal-to-greatest interface from explicit excluded middle, active-pair strict degree calibration and local directedness of represented bearer degrees. No global homogeneous scale, uniqueness or source warrant is inferred.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

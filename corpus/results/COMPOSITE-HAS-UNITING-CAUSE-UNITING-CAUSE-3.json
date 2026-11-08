@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
-  "argument_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "id": "9149f32f-63a7-50cd-a22d-511bb109e5b6",
+  "label": "Every composite has a cause, other than itself…, from Every composite has at least two… and 3… (2)",
+  "legacy_id": "COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3",
+  "argument_id": "bf06daf1-9c72-5319-bd74-5ac9c660ceb5",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks2.compositeUnitingCauseFromOwnBeing",

@@ -1,6 +1,8 @@
 {
-  "id": "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
-  "argument_id": "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+  "id": "9ac03ae0-2528-5913-9756-b9352616b94b",
+  "label": "Boyd’s recorded fragment is satisfiable with an explicit true evaluative ascription and an…",
+  "legacy_id": "NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+  "argument_id": "81472b26-9ed5-5933-a6c0-56b2f4997f7c",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.BoydAscriptionConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.BoydAscriptionConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.BoydAscriptionConsistent.boydAscriptionConsistent",

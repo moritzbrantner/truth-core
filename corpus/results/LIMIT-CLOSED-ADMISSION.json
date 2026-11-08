@@ -1,6 +1,8 @@
 {
-  "id": "LIMIT-CLOSED-ADMISSION",
-  "argument_id": "LIMIT-CLOSED-ADMISSION",
+  "id": "60d2a185-eced-506b-859a-93f03beb1d9c",
+  "label": "The supplied point belongs to the…, from The supplied Nat-indexed sequence converges… and 2 more",
+  "legacy_id": "LIMIT-CLOSED-ADMISSION",
+  "argument_id": "e891c378-7fcd-5cb0-b8f8-7db8dc136e8c",
   "challenge_module": "TruthCore.Results.Logic.LimitAdmission.Challenge",
   "solution_module": "TruthCore.Results.Logic.LimitAdmission.Solution",
   "theorem": "TruthCore.Results.Logic.LimitAdmission.closedAdmission",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TESTABLE-LAW-LANGUAGE",
+  "id": "3aea13ac-38fd-5b0b-b6f4-07da4599a174",
+  "label": "Analytic validity; testable universal…: AnalyticValid F: every analytic sentence is true at every…",
+  "legacy_id": "DEF-TESTABLE-LAW-LANGUAGE",
   "term": "analytic validity; testable universal law",
   "definition": "`AnalyticValid F`: every analytic sentence is true at every world. `HasTestableLaw F`: the language has a universal law in a law setting (DEF-UNIVERSAL-LAW-SETTING) and an individual a with observation statements R a and notB (true exactly where B a is false) that hold together at some world.",
   "basis": "stipulative",

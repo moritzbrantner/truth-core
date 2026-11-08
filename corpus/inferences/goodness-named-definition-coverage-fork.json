@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
+  "id": "b5663716-1922-5ad0-9549-9da8a5e5c5e5",
+  "label": "Stronger identity-scope fork: named candidate identities cover every…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-NAMED-DEFINITION-COVERAGE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-GOODNESS-NAMED-COVERAGE-FORK",
+  "output_statement_id": "6841941f-12fb-5ee0-bf46-344699c31806",
   "rule": "constructive-proof",
   "meaning": "Excluded middle over NamedCoverage and the existence of an admissible unnamed candidate yields coverage or an explicit further-definition witness. This makes scope uncertainty a proposition rather than a perpetual implicit caveat.",
   "assumption_statement_ids": [],

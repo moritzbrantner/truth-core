@@ -1,7 +1,8 @@
 {
-  "id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "id": "a28d0621-b762-597c-997e-74b706269ebe",
   "label": "GOD_1: 'God is maximal in being' read nominally is analytic",
-  "argument_id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "legacy_id": "NOMINAL-GOD-MAXIMALITY-IS-ANALYTIC",
+  "argument_id": "f2e58263-179e-5322-bb66-42151ce77c21",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.nominalGodIsMaximalInBeing",

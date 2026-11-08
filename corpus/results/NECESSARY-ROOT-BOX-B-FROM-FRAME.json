@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-BOX-B-FROM-FRAME",
-  "argument_id": "NECESSARY-ROOT-BOX-B-FROM-FRAME",
+  "id": "edf0152a-efc8-5291-837a-b2b08fd27342",
+  "label": "Necessary-being node, possibilist box reading in frame class KTB: there is an actual…, from frame",
+  "legacy_id": "NECESSARY-ROOT-BOX-B-FROM-FRAME",
+  "argument_id": "cd32a3dd-b67a-5772-bf3b-079e36b73a84",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxBFromFrame",

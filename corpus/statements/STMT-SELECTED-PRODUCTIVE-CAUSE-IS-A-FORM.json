@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-FORM",
+  "id": "ebc413af-9649-5727-bd07-61f2872eb5c7",
+  "label": "Some supplied Form productively causes an effect at the selected world",
+  "legacy_id": "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-FORM",
   "paraphrase": "Some supplied Form productively causes an effect at the selected world. Neither separation from sensible things nor explanatory participation entails lack of esse in re.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.FormCause",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

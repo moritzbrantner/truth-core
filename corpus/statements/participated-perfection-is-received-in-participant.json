@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT",
+  "id": "9da93cd4-e4ed-536b-8302-4e7acd0e02ed",
+  "label": "If x has r by participation, then x's having r is received in x",
+  "legacy_id": "STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT",
   "paraphrase": "OPEN analyst premise: if x has r by participation, then x's having r is received in x (to participate is to take part, as a recipient takes what it receives).",
   "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.ParticipatedIsReceivedInParticipant",
   "definition_ids": [
-    "DEF-PARTICIPATED-PERFECTION",
-    "DEF-PERFECTION-RECEIVED-IN"
+    "d9dec61b-23ec-5a5d-8c9d-6b15193d8490",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-THOMISTIC-ESSE-PARTICIPATION"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "54f33165-05df-5205-807a-04154b5fd6ad"
   ]
 }

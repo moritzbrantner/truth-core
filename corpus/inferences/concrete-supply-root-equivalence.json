@@ -1,7 +1,9 @@
 {
-  "id": "INF-CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
+  "id": "bb0ac2da-a1ab-5035-ac5b-edacc5118cc4",
+  "label": "The existential source-backed actual-concrete supply premise is\u2026, by Supply-strength-audit",
+  "legacy_id": "INF-CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CONCRETE-SUPPLY-ROOT-EQUIVALENCE",
+  "output_statement_id": "d47f9493-eab8-5be9-95d2-5b15a04a08ea",
   "rule": "supply-strength-audit",
   "meaning": "The existential source-backed actual-concrete supply premise is equivalent to an actual concrete root existing. Source_path proves the forward direction; a root itself is a supplied witness for the reverse direction. This exposes the premise\u2019s strength, not an independent defense of source existence.",
   "assumption_statement_ids": [],

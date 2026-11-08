@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-CAUSED-FACT",
+  "id": "77992eec-644b-5d66-bcd4-65c0dcf10d50",
+  "label": "Same-world fact occurrence with an\u2026: The SAME supplied fact f holds at v, and some c satisfies\u2026",
+  "legacy_id": "DEF-ACTUAL-CAUSED-FACT",
   "term": "same-world fact occurrence with an actual concrete individual cause",
   "definition": "The SAME supplied fact f holds at v, and some c satisfies Concrete c, A.ontic.ExistsAt v c and the separate CauseFact v c f relation. CauseFact has type World\u2192Being\u2192Fact\u2192Prop; it is not Arena.explains (fact\u2192fact) or Ontic.Causes (individual\u2192individual). The guard does not create a causal bearer or a fact.",
   "basis": "stipulative",

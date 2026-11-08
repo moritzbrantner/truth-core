@@ -1,15 +1,17 @@
 {
-  "id": "AFP-GOEDELGOD-C2-A",
-  "statement_id": "STMT-SCOTT-GOD-LIKE-ACTUALLY-EXISTS",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "6f085ceb-1dc3-52f2-b37d-933505bffe7a",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Scott's corollary C2: at every world a GOD_LIKE_5 being…",
+  "legacy_id": "AFP-GOEDELGOD-C2-A",
+  "statement_id": "a6232540-0d24-5ffb-86ae-32134169d6e3",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, C2: \"[∃ G]\"",
   "interpretation": "Corollary C2 as stated in the theory, which notes that it 'can be derived even without the T axiom (reflexivity)'; proved there by (metis T1 T3 G_def sym). Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

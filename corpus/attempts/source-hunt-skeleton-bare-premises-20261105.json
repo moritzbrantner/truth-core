@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-SOURCE-HUNT-SKELETON-BARE-PREMISES-20261105",
+  "id": "096c30cc-6ede-5e57-aabe-46045cb5af6d",
+  "label": "Searched for texts stating the two bare leaves of catholicism skeleton and catholicism from prima…",
+  "legacy_id": "ATTEMPT-SOURCE-HUNT-SKELETON-BARE-PREMISES-20261105",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-    "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD"
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+    "a594d8c4-8d2e-5de3-b719-f1a8ee3b7b96"
   ],
   "kind": "source-search",
   "outcome": "blocked",
   "summary": "Searched for texts stating the two bare leaves of CATHOLICISM-SKELETON and CATHOLICISM-FROM-PRIMA-VIA. Sources read: the materialized ST I q.4 a.1-2 and q.2 a.3, plus a sentence-level search of SCG I-III Latin (Corpus Thomisticum, 2026-11-05). Every-perfection premise: ST I q.4 a.1 co. makes the first active principle maximally in act. q.4 a.2 co. puts the perfections of all things in God, and gives 'totam perfectionem essendi' to ipsum esse subsistens. The SCG I.28 universal-perfection chapter is likewise about God. None has the first mover moved by none as subject, and none asserts act in every respect, as opposed to every perfection found in things. Recorded as supports (REL-AQUINAS-ST-I-Q4-A2-SUPPORTS-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION). Identification premise: the only text-level identifications are nominal ('et hoc omnes intelligunt Deum', q.2 a.3; 'hoc dicimus Deum', SCG I.13). ST I qq.3-26 argue its attribute content. Even with those attributes derived, IsGod needs a separate sufficiency or identification bridge from the mover's description, because IsGod is an independent predicate. Recorded as supports (REL-AQUINAS-ST-I-Q2-A3-SUPPORTS-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD).",
   "blocker": "No pinned text has these exact subjects and scopes. The every-perfection premise needs the first-mover/God identification or a first-mover text. The identification premise needs the stage-2 attributes and an explicit description-to-IsGod bridge.",
   "evidence": [
-    "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
-    "AQUINAS-ST-I-Q2-A3-UNDERSTOOD-AS-GOD-A"
+    "8aa91569-b273-535a-ae34-1124d512bf41",
+    "bf22a4a1-b47d-5a00-ab13-b6c260a6bbaa"
   ]
 }

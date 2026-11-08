@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
+  "id": "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+  "label": "Inductively grounded causal power: Power is either intrinsic to its bearer or borrowed from an…",
+  "legacy_id": "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
   "term": "inductively grounded causal power",
   "definition": "Power is either intrinsic to its bearer or borrowed from an immediately prior powered bearer for which an inductively finite derivation of power already exists. A source is a constructive witness rather than a stipulated first temporal event.",
   "basis": "stipulative",

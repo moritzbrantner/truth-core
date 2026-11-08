@@ -1,22 +1,24 @@
 {
-  "id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "id": "5d1c925f-8b29-5c8e-9835-ef2e7d4247ec",
+  "label": "Absolute eligible-maker emptiness, coverage of its true negative fact and world immanence are…",
+  "legacy_id": "TRUTHMAKER-NEGATIVE-TRUTH-MAP",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTHMAKER-NEGATIVE-TRUTH-MAP",
+  "conclusion_statement_id": "0f38a9c3-2246-57cf-b872-1a0b7411b36e",
   "inference_ids": [
-    "INF-TRUTHMAKER-NEGATIVE-TRUTH-MAP"
+    "c5af2ca0-1cc9-590a-831e-1786e399583d"
   ],
   "meaning": "Absolute eligible-maker emptiness, coverage of its true negative fact and world immanence are inconsistent on any arena. negativeArena includes both a positive existence fact and a true negative fact; existence-only restricted coverage is nonvacuous and maximalism fails. Controls independently omit emptiness, negative coverage or immanence while retaining truth soundness. An absent candidate is only a formal omission witness. A separate concretely empty profile has an existing abstract maker and maximalism, failing ConcreteMaker. These are mathematical profiles, not established metaphysical possibilities or a refutation from established floor premises.",
   "definition_ids": [
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-TRUTHMAKER-SCOPE-PROFILES",
-    "DEF-TRUTHMAKER-UNIFORMITY",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-INSTANCE-GROUNDING"
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "1d3220e2-a6b2-51f5-87e7-a703690dee75",
+    "af6281dc-b6a1-573f-b1ea-d04f0194889f",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

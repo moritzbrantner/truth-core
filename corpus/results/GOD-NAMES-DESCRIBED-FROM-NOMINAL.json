@@ -1,7 +1,8 @@
 {
-  "id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+  "id": "3de2ab0e-ebd5-5f19-a0da-030362a1b719",
   "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
-  "argument_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+  "argument_id": "b7e2768a-ae2c-56f9-8089-acca1e1b44d0",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.godNamesDescribedFromNominal",

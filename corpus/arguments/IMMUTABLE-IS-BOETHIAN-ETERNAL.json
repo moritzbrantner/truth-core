@@ -1,26 +1,28 @@
 {
-  "id": "IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "id": "7cae15fe-4326-5572-9265-fa6a46588d73",
   "premise_statement_ids": [
-    "STMT-SUCCESSION-REQUIRES-POTENCY",
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
-    "STMT-PURE-ACT-LIVES"
+    "ebccb272-1275-5558-948a-4485504229a0",
+    "812b52b3-de7d-5982-93a9-e46b6e169616",
+    "1773079b-236a-5f7d-b1e9-fb8f23202341"
   ],
-  "conclusion_statement_id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "conclusion_statement_id": "e874fe7d-e1a9-544c-8c8c-b8b6dce934d3",
   "inference_ids": [
-    "INF-IMMUTABLE-IS-BOETHIAN-ETERNAL"
+    "e04e2c58-1270-53c3-8f41-7b25c50783c2"
   ],
   "meaning": "ST I q.10 a.1 with q.9 a.1: the altogether immutable (in potency in no respect) is eternal in Boethius' typed sense over a duration frame. No succession follows from the sourced q.9 a.1 succession principle, no beginning or end from the open boundary premise, possession of life from the open premise that pure act lives. The conclusion is a separate typed statement; it does not close STMT-IMMUTABLE-IS-ETERNAL, whose primitive Eternal the root routes consume. The Comparator config also verifies three omission controls (successionPremiseNeeded, boundaryPremiseNeeded, lifePremiseNeeded) and a joint model with a pure-act being (premisesJointlySatisfiable).",
   "definition_ids": [
-    "DEF-BOETHIAN-ETERNAL",
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-PURE-ACT",
-    "DEF-POTENCY"
+    "5e77da13-998f-56ab-96b7-12731ac95f70",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY",
-    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
   ],
   "strong_version_needed": {
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY": "Its pure-act conclusion quantifies over potency in the subject (MUTABLE_1), so the boundary premise is needed in that sense; the weaker MUTABLE_3 reading STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY reaches it only with the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY; batch 4 of #1233)."
-  }
+    "812b52b3-de7d-5982-93a9-e46b6e169616": "Its pure-act conclusion quantifies over potency in the subject (MUTABLE_1), so the boundary premise is needed in that sense; the weaker MUTABLE_3 reading STMT-LIFE-BOUNDARY-REQUIRES-SOME-MUTABILITY reaches it only with the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY; batch 4 of #1233)."
+  },
+  "label": "Whatever is in POTENCY_1 in no respect…, from Whatever is changed in any way is in some… and 2 more",
+  "legacy_id": "IMMUTABLE-IS-BOETHIAN-ETERNAL"
 }

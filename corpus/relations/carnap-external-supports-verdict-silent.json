@@ -1,9 +1,11 @@
 {
-  "id": "REL-CARNAP-EXTERNAL-SUPPORTS-VERDICT-SILENT",
+  "id": "e14d596a-c858-5a84-b70f-812fa5501e97",
+  "label": "Rudolf Carnap, \"Empiricism §II, p. 4… supports A criterion's verdict settles nothing about…",
+  "legacy_id": "REL-CARNAP-EXTERNAL-SUPPORTS-VERDICT-SILENT",
   "subject_kind": "claim",
-  "subject_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "subject_id": "e9ddfb3a-d40f-596b-9932-265e785499e1",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "object_id": "57ee35c2-0a51-5b19-9afc-7042be15edab",
   "note": "Gap: Carnap says framework acceptance is no assertion; the Lean model shows the further point that failing an adopted criterion does not settle a sentence's truth, which Carnap does not state in these words."
 }

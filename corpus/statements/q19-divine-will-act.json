@@ -1,11 +1,13 @@
 {
-  "id": "STMT-DIVINE-WILL-NOT-MOVED-BY-ANOTHER",
+  "id": "8a24e93a-016e-54ef-a34c-95fff4f077a9",
+  "label": "Divine willing is divine being; divine will is not moved by something other than God, since its…",
+  "legacy_id": "STMT-DIVINE-WILL-NOT-MOVED-BY-ANOTHER",
   "paraphrase": "Divine willing is divine being; divine will is not moved by something other than God, since its principal object is divine goodness, which is divine essence.",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-DIVINE-WILL-ACT"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "801225d9-ddd5-540f-96db-22778e09cd6e"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"
+    "1d765cae-eca9-558f-9542-8291df359058"
   ]
 }

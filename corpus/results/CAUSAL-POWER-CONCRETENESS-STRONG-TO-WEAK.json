@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
-  "argument_id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "id": "9679c661-c706-5a38-ac2c-c3a8dcf87cc2",
+  "label": "Owner framework commitment: At the selected world w…, from Strong version, NOT approved: at the…",
+  "legacy_id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "argument_id": "5ed36963-baa4-5c93-bd4e-e934dc3ebbf5",
   "challenge_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.Solution",
   "theorem": "TruthCore.Results.Causality.CausalPowerConcretenessStrongToWeak.weakOfStrong",

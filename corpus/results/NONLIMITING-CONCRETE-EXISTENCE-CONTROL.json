@@ -1,6 +1,8 @@
 {
-  "id": "NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
-  "argument_id": "NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
+  "id": "3265a470-c6ce-54dc-9b52-60e497a58e51",
+  "label": "Reuse the EXACT mixed Ontic and concrete predicate…, from Excluded middle as a general principle…",
+  "legacy_id": "NONLIMITING-CONCRETE-EXISTENCE-CONTROL",
+  "argument_id": "a51533bd-b445-527e-892a-92eb6204f4ca",
   "challenge_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Challenge",
   "solution_module": "TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution",
   "theorem": "TruthCore.Results.Causality.NonlimitingConcreteExistence.checks",

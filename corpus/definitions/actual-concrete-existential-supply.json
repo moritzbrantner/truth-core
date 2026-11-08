@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+  "id": "f825624c-78af-5df8-ba76-c9ef691eb9af",
+  "label": "Source-backed joint supply for actual…: At least one actual concrete candidate has the existing…",
+  "legacy_id": "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
   "term": "source-backed joint supply for actual concrete existence",
   "definition": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded actual-concrete grounding graph, with its intrinsic predicate instantiated as sources of that same selected grounding relation. Records for non-source targets list all actual concrete immediate grounds and have nonempty contributors. This is an explicit existential-application/adequacy premise; it does not assert a necessary source or a well-founded whole graph.",
   "basis": "stipulative",

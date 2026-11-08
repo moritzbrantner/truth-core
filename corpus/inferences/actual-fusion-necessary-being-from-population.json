@@ -1,20 +1,22 @@
 {
-  "id": "INF-ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
+  "id": "46ba65e8-4bfd-5ff4-85ab-cbdc29a4f527",
+  "label": "At least one individual exists at the selected world and at…, by Scoped-population-to-conditio…",
+  "legacy_id": "INF-ACTUAL-FUSION-NECESSARY-BEING-FROM-POPULATION",
   "input_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-CONDITIONAL-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "ca54f04a-092a-5bbb-8098-388aa2f09c7f",
+    "bbe8900a-7d33-5e6b-a76c-1947ecf7fa6e",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "21265cfa-522d-5151-9435-b4e8f55c0c0f"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "scoped-population-to-conditional-fusion-and-imported-five-input-reductio",
   "meaning": "Assume the scoped negation of existing NecessaryBeing. Unpack existing owner-accepted PopulatedAt (still an explicit input) to obtain an actual a. The actual-part policy makes every necessary part of a actual, contradicting the scoped denial, so a has no necessary parts. This proves nonemptiness of the selected actual family WITHIN the reductio; conditional selected-family formation supplies an actual sum there. Import the five-input actual-fusion theorem with that SAME Ontic and the four unchanged part/causal policies, contradicting the scoped denial. Discharge it to bare NE. No independent actual wholly-contingent population/sum or PSR/quality property is assumed; the existing Model explains field is unused.",
   "assumption_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ],
   "discharged_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189B-SIMPLE-COMPOSITE-BECOMING-A",
-  "statement_id": "STMT-SIMPLE-AND-COMPOSITE-BECOMING-DESCRIPTIONS",
-  "source_id": "ARIST-PHYS",
+  "id": "b92a80ed-dd4e-535a-a844-2de27e67c5d9",
+  "label": "Aristotle, Physics I.7, 189b34-190a5: Descriptions of becoming may use simple terms, such as a man…",
+  "legacy_id": "ARIST-PHYS-189B-SIMPLE-COMPOSITE-BECOMING-A",
+  "statement_id": "af949767-7777-5ece-9ef3-1ddbe842c44c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 189b34-190a5",
   "interpretation": "Aristotle distinguishes simple and composite expressions used to describe becoming. The reading stays linguistic and does not identify simple grammar with ontologically simple entities.",
   "status": "formalized"

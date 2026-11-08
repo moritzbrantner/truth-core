@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "id": "0e4858dc-d6ec-5b82-8564-56a3a597e749",
+  "label": "Necessary-being node, de dicto K reading: there is an actual root n…, by Existential introduction…",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
   "input_statement_ids": [
-    "STMT-NECESSARY-ROOT-BOX-K"
+    "cdf897a8-5490-561a-b9d2-507486a3f192"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-DE-DICTO-K",
+  "output_statement_id": "0efe7b16-bf54-51b8-9329-cf03b742ccfe",
   "rule": "Existential introduction under the box",
   "meaning": "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame).",
   "assumption_statement_ids": [],

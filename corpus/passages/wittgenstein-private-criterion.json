@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "WITTGENSTEIN-PHILOSOPHICAL-INVESTIGATIONS",
+    "source_id": "ff1532f6-7b09-55d5-88e3-6981df3756dc",
     "source_url": "https://centerforgermanphilosophy.uchicago.edu/wp-content/uploads/2024/05/PI-243-308-422-427-Anscombe-Monolingual-Edition.pdf",
     "retrieved_at": "2026-10-28T19:41:45Z",
     "sha256": "sha256:b35d1b5738c8dac674c46d06ae563397bdb3d90eafbdf16c7041e3368579a21d",
@@ -16,7 +16,9 @@
   },
   "passages": [
     {
-      "id": "WITTGENSTEIN-PI-PRIVATE-CRITERION-CONTEXT",
+      "id": "a6b60827-c18f-5b31-9e39-6e82c050ec7a",
+      "label": "Ludwig Wittgenstein, Philosophical Investigations, Part I §§239–274, printed pp.88e–95e",
+      "legacy_id": "WITTGENSTEIN-PI-PRIVATE-CRITERION-CONTEXT",
       "locator": "Part I §§239–274, printed pp.88e–95e (including preceding page-boundary context)",
       "claim_locator_prefixes": [
         "I.239",

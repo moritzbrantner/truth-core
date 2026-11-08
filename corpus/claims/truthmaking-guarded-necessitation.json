@@ -1,17 +1,19 @@
 {
-  "id": "MERRICKS-PRECIS-GUARDED-NECESSITATION",
-  "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
-  "statement_id": "STMT-TRUTHMAKING-GUARDED-NECESSITATION",
+  "id": "4d493b5c-430d-5ed8-ae1f-174edb1ecf01",
+  "label": "Trenton Merricks, Précis of Truth and…: If x makes proposition p true, then necessarily, if both x…",
+  "legacy_id": "MERRICKS-PRECIS-GUARDED-NECESSITATION",
+  "source_id": "8d7acf88-524d-59e4-ae1a-285d9d1a931b",
+  "statement_id": "d6976e18-68ab-5ceb-87e7-25089741d4e4",
   "locator": "PDF p. 1, partial account of making true",
   "interpretation": "The existence of the proposition as well as that of the maker guards the necessary conditional. No world-immanence condition or sufficient definition of truthmaking is added.",
   "attribution": "The passage states that making true requires the necessary conditional guarded by existence of both entity and proposition, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
-    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+    "e201b423-f0e4-5026-a88d-1c1a8e452638",
+    "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

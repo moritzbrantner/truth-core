@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-COLLAPSE",
+  "id": "cd4f19b2-d7ce-5741-9191-42b541b5f680",
+  "label": "Modal collapse: MC:= ∀P: World → Prop, P → ∀v, R → P. Quantification includes negations and…",
+  "legacy_id": "DEF-HUME-TEST-COLLAPSE",
   "term": "modal collapse (local, full comprehension)",
   "definition": "MC(w) := ∀P : World → Prop, P(w) → ∀v, R(w,v) → P(v). Quantification includes negations and singleton identity predicates P(v) := v = w. Thus accessible equality uses built-in point separation; restricted proposition domains could have indistinguishable distinct worlds. This local predicate is not global validity or global uniqueness of worlds.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
-  "argument_id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "id": "9fa3c643-a939-5978-9671-4ad798e1a2fb",
+  "label": "Logical falsity, from Raw-frame specialization of the same actual… and 2 more",
+  "legacy_id": "MODAL-CONDITION-CORE-INCOMPATIBLE",
+  "argument_id": "860471b0-d41c-5917-a2eb-e857ac6b04a6",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Core.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.Core.incompatible",

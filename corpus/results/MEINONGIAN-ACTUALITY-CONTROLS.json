@@ -1,6 +1,8 @@
 {
-  "id": "MEINONGIAN-ACTUALITY-CONTROLS",
-  "argument_id": "MEINONGIAN-ACTUALITY-CONTROLS",
+  "id": "f91a71d7-0337-56e9-bf58-74a703866520",
+  "label": "The golden mountain model: one being in act in a further respect but not in being",
+  "legacy_id": "MEINONGIAN-ACTUALITY-CONTROLS",
+  "argument_id": "351c3920-d935-5f7c-9459-60b84c226c2e",
   "challenge_module": "TruthCore.Results.Causality.MeinongianActuality.Challenge",
   "solution_module": "TruthCore.Results.Causality.MeinongianActuality.Solution",
   "theorem": "TruthCore.Results.Causality.MeinongianActuality.controls",

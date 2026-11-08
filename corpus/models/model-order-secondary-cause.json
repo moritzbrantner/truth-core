@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ORDER-SECONDARY-CAUSE",
+  "id": "e2967795-3db9-57d4-9bed-6d3fdb6b387b",
+  "label": "#386 secondary-cause countermodel",
+  "legacy_id": "MODEL-ORDER-SECONDARY-CAUSE",
   "description": "#386 secondary-cause countermodel. Degree is the finite image of the original Nat map; sameDegreeOrder certifies that every comparison is preserved. Exhaustive cause clauses avoid importing axioms from overlapping pattern compilation.",
   "vocabulary": "QUARTA-ORDER",
   "lean_declaration": "TruthCore.Models.OrderSecondary.model",
@@ -45,7 +47,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
+      "statement_id": "82286a91-a610-52d2-9f28-2cc459a75ac7",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -61,7 +63,7 @@
       "theorem": "TruthCore.Models.OrderSecondary.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
+      "statement_id": "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -73,7 +75,7 @@
       "theorem": "TruthCore.Models.OrderSecondary.evaluation1"
     },
     {
-      "statement_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
+      "statement_id": "30a8373c-5188-581b-b746-e319d71311e4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -87,7 +89,7 @@
       "theorem": "TruthCore.Models.OrderSecondary.evaluation2"
     },
     {
-      "statement_id": "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
+      "statement_id": "612078bf-5a68-5542-8b7b-f862f816ece0",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -97,7 +99,7 @@
       "theorem": "TruthCore.Models.OrderSecondary.evaluation3"
     },
     {
-      "statement_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+      "statement_id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -109,7 +111,7 @@
       "theorem": "TruthCore.Models.OrderSecondary.evaluation4"
     },
     {
-      "statement_id": "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
+      "statement_id": "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
       "value": "violates",
       "arguments": [
         "Being",

@@ -1,16 +1,18 @@
 {
-  "id": "STMT-PLATONIC-PARM-130C-RANGE-OPEN",
+  "id": "702126ae-6bf4-5e9c-8378-370f6479c112",
+  "label": "The young Socrates accepts Forms of justice, beauty and goodness; is repeatedly uncertain about…",
+  "legacy_id": "STMT-PLATONIC-PARM-130C-RANGE-OPEN",
   "paraphrase": "The young Socrates accepts Forms of justice, beauty and goodness; is repeatedly uncertain about human, fire and water; rejects separate hair, mud and dirt while admitting disturbance about a universal range. Parmenides attributes the hesitation to youth. These voices are not one endorsed axiom of universal Forms.",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-HUMAN-INDIVIDUAL",
-    "DEF-PLATONIC-HUMAN-NATURE",
-    "DEF-PLATONIC-INDEPENDENCE"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "45996402-d8f0-59fa-b438-fd8c773800d4",
+    "09650b37-d088-51d1-a423-4fdba7f96d29",
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-HUMAN",
-    "DISAMB-PLATONIC-SEPARATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "378d09f1-a359-5770-ab2c-aba739029474",
+    "e8547175-8208-5cc0-b5bb-39577315f2ac"
   ]
 }

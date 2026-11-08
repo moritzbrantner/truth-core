@@ -1,10 +1,12 @@
 {
-  "id": "STMT-CC100-117-CONDITIONAL-DISPOSITION-CONFIRMATION",
+  "id": "c92f1c17-0d5c-517d-a300-c47e95555408",
+  "label": "Under the displayed likelihood comparison and comparative confirmation rule, the…",
+  "legacy_id": "STMT-CC100-117-CONDITIONAL-DISPOSITION-CONFIRMATION",
   "paraphrase": "Under the displayed likelihood comparison and comparative confirmation rule, the supernatural-agency belief disposition confirms theism over naturalism.",
   "definition_ids": [
-    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+    "2eea0461-69d1-510b-8968-368ab57adf87"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

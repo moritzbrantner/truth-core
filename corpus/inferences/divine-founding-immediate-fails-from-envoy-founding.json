@@ -1,10 +1,12 @@
 {
-  "id": "INF-DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
+  "id": "cbc6c33a-6bc0-5a82-a420-db5c781b06df",
+  "label": "The direct-only calibration fails in the selected signature, agency…, by Existential elimination…",
+  "legacy_id": "INF-DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
   "input_statement_ids": [
-    "STMT-GOD-FOUNDED-SOME-JESUS-ENVOY-SOCIETY",
-    "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY"
+    "b1e34a68-8015-5707-8ba0-1c4f93706109",
+    "63f5b040-f322-50db-8d78-811245fffab3"
   ],
-  "output_statement_id": "STMT-DIVINE-FOUNDING-IMMEDIATE-READING-FAILS",
+  "output_statement_id": "15de8ad9-6fba-5177-9345-aaee59f77be0",
   "rule": "Existential elimination, biconditional elimination, reductio",
   "meaning": "The immediate-only reading of divine founding is false for this signature, agency and direct relation: under it the God-founded Jesus-envoy society of the OPEN witness premise would be founded directly, which the OPEN and contested exclusion forbids for an envoy event. It does not use the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, which the existing elimination derives from this conclusion.",
   "assumption_statement_ids": [],

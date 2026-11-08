@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207A-INFINITE-MATERIAL-WHOLE-A",
-  "statement_id": "STMT-INFINITE-MATERIAL-POTENTIAL-WHOLE",
-  "source_id": "ARIST-PHYS",
+  "id": "191a1b44-6abd-5244-a420-fb97668c004c",
+  "label": "Aristotle, Physics III.6, 207a18-29: The infinite is matter for the completeness of magnitude and…",
+  "legacy_id": "ARIST-PHYS-207A-INFINITE-MATERIAL-WHOLE-A",
+  "statement_id": "f344ef3a-36b6-5432-815a-7dab4dbd3e26",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 207a18-29",
   "interpretation": "Material/potential-whole reading: the infinite functions as matter for magnitude's completeness and is potentially whole, not an actually completed containing whole. Qua infinite it is contained rather than the container. The claim remains inside Aristotle's matter/form vocabulary.",
   "status": "formalized"

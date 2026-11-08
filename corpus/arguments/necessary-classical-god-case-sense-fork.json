@@ -1,39 +1,41 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "id": "8df2faad-cda4-5e37-b99b-1c5dca7be900",
+  "label": "Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
   "premise_statement_ids": [
-    "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
-    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
-    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
-    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
-    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
-    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+    "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267",
+    "a04f711a-53cc-59c5-902e-86b605fb73b4",
+    "dd2d9776-6550-5ee9-a206-dad03027c003",
+    "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"
   ],
-  "conclusion_statement_id": "STMT-CATHOLICISM-TRUE",
+  "conclusion_statement_id": "53964cbe-5831-5812-af33-4d87896d47a7",
   "inference_ids": [
-    "INF-NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK"
+    "11199608-e088-5cee-ac29-ad3cbef5e6aa"
   ],
   "meaning": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended.",
   "definition_ids": [
-    "DEF-CATHOLIC-CHURCH-PROPOSAL-SUBJECT",
-    "DEF-CATHOLICISM-TRUE-PHASE-1",
-    "DEF-CHURCH-CRITERION-CALIBRATION",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
-    "DEF-CREED-GREEK-C381-CONTENT",
-    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-NECESSARY-IN-SENSE",
-    "DEF-REVELATION-RECOGNITION-PROFILE",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc",
+    "e5f5bc14-e629-5a12-b8da-24944704f1f0",
+    "ae24d537-d95b-5b41-a7be-d43fe4ca46c4",
+    "12d8270e-a003-557f-8434-490095c74177",
+    "e67ab833-b652-53a1-aa13-e58389158dde",
+    "073468e1-25d6-5d46-836c-c6e8f230809d",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
-    "DISAMB-CREED-CONTENT-AND-FORMULA",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE",
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE",
-    "DISAMB-TRUE"
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "2567d8a9-549e-5404-8658-3275b7029092",
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

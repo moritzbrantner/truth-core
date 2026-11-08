@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIVERSAL-FUSION-DOMAIN",
+  "id": "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+  "label": "Domain-relative universal whole: Covers material u means every candidate satisfying the specified…",
+  "legacy_id": "DEF-UNIVERSAL-FUSION-DOMAIN",
   "term": "domain-relative universal whole",
   "definition": "Covers material u means every candidate satisfying the specified material predicate is a part of u. It does not assert that every candidate is material, that all beings belong to this domain, or that u explains its parts.",
   "basis": "stipulative",

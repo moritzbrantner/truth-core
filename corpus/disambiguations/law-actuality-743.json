@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-LAW-ACTUALITY-743",
+  "id": "b6e7ec07-9a8e-51c4-a9f8-c9b8e9922ac5",
+  "label": "Law consistency, conditional uniqueness, represented realization, actuality and warrant",
+  "legacy_id": "DISAMB-LAW-ACTUALITY-743",
   "term": "law consistency, conditional uniqueness, represented realization, actuality and warrant",
   "sense_definition_ids": [
-    "DEF-LAW-ACTUALITY-743",
-    "DEF-ULTIMATE-EXPLANATION-PROFILE"
+    "5f8284ad-ca15-536c-a0b2-8bb51186b7ac",
+    "58d12f26-3402-5f67-b768-3c71f3381894"
   ],
   "resolution": "Follows witnesses consistency of a supplied rule; uniqueness quantifies over traces satisfying THAT rule, not rival laws. realized supplies exact state presence inside a mathematical interpretation. Neither Type inhabitation nor that represented population establishes actual concrete existence or governing efficacy. UsesRecord/Identifies concern exact uniform law identification from a finite prefix, not epistemic entitlement. A warranted restriction to one law or extra evidence may remove the counterexample; the theorem does not make the synthetic rival metaphysically possible. Unexplained stable laws need not yield inaccurate predictions; necessary impersonal nature, dispositional essences and best-system selection remain positive proposals with distinct actuality/access obligations.",
   "term_label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION",
@@ -11,13 +13,13 @@
     {
       "id": "d5bbd5b7-b663-4857-a9bb-32f938f14d2e",
       "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_1",
-      "definition_id": "DEF-LAW-ACTUALITY-743",
+      "definition_id": "5f8284ad-ca15-536c-a0b2-8bb51186b7ac",
       "lean_declaration": "TruthCore.Explanation.LawActuality.UsesRecord"
     },
     {
       "id": "aebd36ba-65ae-40f1-9d78-8e620606c398",
       "label": "LAW_CONSISTENCY_CONDITIONAL_UNIQUENESS_REPRESENTED_REALIZATION_2",
-      "definition_id": "DEF-ULTIMATE-EXPLANATION-PROFILE",
+      "definition_id": "58d12f26-3402-5f67-b768-3c71f3381894",
       "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Profile"
     }
   ]

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-SUCCESSOR-BORROWING-LINK",
+  "id": "355ea5d1-e02f-5ab0-909e-0b820e44daba",
+  "label": "Successor-chain borrowing link: An upstream natural-numbered node y is linked to downstream node x…",
+  "legacy_id": "DEF-CAUSAL-SUCCESSOR-BORROWING-LINK",
   "term": "successor-chain borrowing link",
   "definition": "An upstream natural-numbered node y is linked to downstream node x exactly when y = x + 1. This specifies abstract dependence order, not temporal duration, causal production, or an actual per se efficient cause.",
   "basis": "stipulative",

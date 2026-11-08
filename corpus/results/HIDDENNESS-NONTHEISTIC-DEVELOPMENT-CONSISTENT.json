@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
-  "argument_id": "HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
+  "id": "7889670e-e13b-5b7f-a6c7-bff7c87e7b6b",
+  "label": "The non-theistic core together with its positive developmental replacement account has a finite…",
+  "legacy_id": "HIDDENNESS-NONTHEISTIC-DEVELOPMENT-CONSISTENT",
+  "argument_id": "b457e725-7375-51bc-8365-d2518a48a801",
   "challenge_module": "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution",
   "theorem": "TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.nontheisticDevelopmentConsistent",

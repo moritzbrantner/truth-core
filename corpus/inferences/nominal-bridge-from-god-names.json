@@ -1,12 +1,13 @@
 {
-  "id": "INF-NOMINAL-BRIDGE-FROM-GOD-NAMES",
+  "id": "7cc53992-1002-592d-a6a7-e828e6d8123d",
+  "label": "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)",
+  "legacy_id": "INF-NOMINAL-BRIDGE-FROM-GOD-NAMES",
   "input_statement_ids": [
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
   ],
-  "output_statement_id": "STMT-NOMINAL-GOD-IS-CLASSICAL-GOD",
+  "output_statement_id": "96eef8e2-1b96-5fac-9c00-333126427287",
   "rule": "Conjunction elimination and modus ponens",
   "meaning": "Transcription (single application): the converse of GOD-NAMES-DESCRIBED-FROM-NOMINAL. The GOD_4 naming premise gives the GOD_1 to GOD_4 bridge, so the two statements are equivalent.",
   "assumption_statement_ids": [],
-  "discharged_statement_ids": [],
-  "label": "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)"
+  "discharged_statement_ids": []
 }

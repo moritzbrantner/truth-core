@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSARY-IF-EXISTENT-NEGATIVE",
+  "id": "5f156142-c205-57f9-8341-38818ed0282c",
+  "label": "G fails at every world accessible from the named standpoint, by Verified-mathematical-consequ\u2026",
+  "legacy_id": "INF-NECESSARY-IF-EXISTENT-NEGATIVE",
   "input_statement_ids": [
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-NECESSARY-IF-EXISTENT",
-    "STMT-NECESSARY-IF-POSSIBLE-NONEXISTENCE"
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "bd1281e6-75b3-5503-8c0a-f97213388c88",
+    "d8018f24-e70f-5cce-b3ad-3b7b472e83a7"
   ],
-  "output_statement_id": "STMT-NECESSARY-IF-IMPOSSIBLE-EXISTENCE",
+  "output_statement_id": "49b675bf-5ce1-5168-8e1c-5725970869b4",
   "rule": "verified-mathematical-consequence",
   "meaning": "From STMT-EUCLIDEAN-FRAME, STMT-NECESSARY-IF-EXISTENT, STMT-NECESSARY-IF-POSSIBLE-NONEXISTENCE, derive: G fails at every world accessible from the named standpoint (\u25a1\u00acG).",
   "assumption_statement_ids": [],

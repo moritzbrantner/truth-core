@@ -4,14 +4,16 @@
     "retrieved_at": "2026-10-27T11:25:13Z",
     "sha256": "sha256:164f55e1a7512c7d8032199bf98a491b54e0467597b49faab4fee4e000ef06fc",
     "kind": "web_snapshot",
-    "source_id": "VATICAN-II-DEI-VERBUM",
+    "source_id": "e15bde13-ab7e-5bc6-b24c-0eda37a390d0",
     "encoding": "utf-8",
     "language": "lat",
     "license": "Copyright Dicastero per la Comunicazione - Libreria Editrice Vaticana; Vatican archive. No source text is committed. No archival fallback is pinned; this snapshot stays fragile to live-page drift."
   },
   "passages": [
     {
-      "id": "VATICAN-II-DEI-VERBUM-V",
+      "id": "dba4a0d9-c36b-51de-a7fe-1b38ead091f3",
+      "label": "Second Vatican Council, Dei Verbum, Ch",
+      "legacy_id": "VATICAN-II-DEI-VERBUM-V",
       "locator": "ch. V, §§17–20",
       "claim_locator_prefixes": [
         "§17,",

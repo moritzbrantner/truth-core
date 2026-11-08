@@ -1,11 +1,13 @@
 {
-  "id": "INF-PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
+  "id": "8bfc504f-b82a-5487-b0fc-255a8eb9409d",
+  "label": "There is at most one first mover moved by none, by Perfect beings are not several",
+  "legacy_id": "INF-PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
   "input_statement_ids": [
-    "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
-    "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
-    "STMT-PERFECT-BEINGS-NOT-SEVERAL"
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "95879657-de3a-5053-ae90-54a14345e084"
   ],
-  "output_statement_id": "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER",
+  "output_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
   "rule": "Perfect beings are not several",
   "meaning": "Unrestricted perfection and strict pure actuality make every first mover a being with every pure perfection and only pure ones; SCG I.42 as encoded makes any two such beings one. The weakest identity bridge so far: strictly weaker than identity of purely determined indiscernibles (registered strengthens). Under the background that only first movers are perfect, it is equivalent in effect to at-most-one, so it supports uniqueness only as a general claim about perfect beings. Conditional on three OPEN premises.",
   "assumption_statement_ids": [],

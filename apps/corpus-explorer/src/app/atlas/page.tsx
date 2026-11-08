@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 
 import { getRegisteredConfigurationCases } from "@/lib/configuration-cases";
-import { getCorpus } from "@/lib/corpus";
+import { getCorpus, nameOf } from "@/lib/corpus";
 import { getFrontierReport } from "@/lib/site-state";
 import { getVerifiedConfigurations } from "@/lib/verified-configurations";
 
@@ -17,8 +17,11 @@ export const metadata: Metadata = {
 export default function AtlasPage() {
   const verified = getVerifiedConfigurations();
   const coreIds = (verified?.cases ?? []).flatMap((configuration) => certifiedCores(configuration).flatMap((core) => core.statement_ids));
-  const model = buildAtlasModel(getCorpus(), getFrontierReport(), coreIds);
   const registrations = verified ? [] : getRegisteredConfigurationCases().map(({ id, semantics, scope }) => ({ id, semantics, scope }));
+  const caseIds = [...(verified?.cases ?? []), ...registrations].map((entry) => entry.id);
+  const modelIds = (verified?.cases ?? []).flatMap((configuration) => configuration.configurations.flatMap((entry) => entry.statement_ids));
+  const resultIds = (verified?.cases ?? []).flatMap((configuration) => certifiedCores(configuration).flatMap((core) => core.result_ids));
+  const model = buildAtlasModel(getCorpus(), getFrontierReport(), coreIds, [...caseIds, ...modelIds, ...resultIds], nameOf);
   return <article className="atlas-page min-w-0">
     <header className="mb-7 border-b border-[var(--line)] pb-6">
       <p className="eyebrow">Truth Core / Research instruments</p>

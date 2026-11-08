@@ -1,6 +1,8 @@
 {
-  "id": "ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
-  "argument_id": "ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
+  "id": "db9175af-5a90-5cb2-b3e0-b8e25537be88",
+  "label": "At the selected world w, for any c and x, if x is actual and CONCRETE_6, c is…, via dependence",
+  "legacy_id": "ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
+  "argument_id": "915ad35a-9568-5d7f-ae3c-3543721fd28c",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.esseCauseGroundViaDependence",

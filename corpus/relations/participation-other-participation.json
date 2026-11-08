@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-OTHER-PARTICIPATION",
+  "id": "e3fbceeb-17e7-51d5-b9ea-c3aa94617562",
+  "label": "Plato, Parmenides 133a: If Form and… supports An optional reply treats participation as a…",
+  "legacy_id": "REL-PARTICIPATION-OTHER-PARTICIPATION",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-133A-OTHER-PARTICIPATION",
+  "subject_id": "73ea4284-ef39-5bd3-9d3e-4a85139fa969",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-PRIMITIVE-REPLY",
+  "object_id": "78e274ed-b4f3-540f-a301-23d09c491376",
   "note": "The call to seek participation otherwise than by likeness leaves room for a non-resemblance account; it does not assert that a primitive tie is adequate."
 }

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "EINSTEIN-ELECTRODYNAMICS-1905",
+    "source_id": "feaccd27-3c07-5fdb-9ae1-0f8fcf158d2f",
     "source_url": "https://www.fourmilab.ch/etexts/einstein/specrel/www/",
     "retrieved_at": "2026-10-28T20:43:55Z",
     "sha256": "sha256:3ff9759092803a6d8375e037122b458ff944776fdc6a5994369bb045b5893ebb",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "EINSTEIN-1905-KINEMATICS",
+      "id": "0eb1270e-4030-52f3-8072-97acf65c8aa1",
+      "label": "Albert Einstein, On the Electrodynamics of Moving Bodies, On the Electrodynamics of Moving Bodies…",
+      "legacy_id": "EINSTEIN-1905-KINEMATICS",
       "locator": "On the Electrodynamics of Moving Bodies, §§1–3 (complete kinematical discussion before §4)",
       "claim_locator_prefixes": [
         "§1,",

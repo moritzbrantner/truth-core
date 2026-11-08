@@ -1,6 +1,8 @@
 {
-  "id": "ACTUALIST-POSSIBILITY-BOUNDARY",
-  "argument_id": "ACTUALIST-POSSIBILITY-BOUNDARY",
+  "id": "3b01b485-0f9c-567a-8f65-43a24ff297c1",
+  "label": "In the encoded 1970 actualist…, from Gödel's 1970 axiom Ax3: at every world… and 1 more",
+  "legacy_id": "ACTUALIST-POSSIBILITY-BOUNDARY",
+  "argument_id": "479efd00-820d-5d4b-9576-142d30b5f720",
   "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ActualistPossibilityBoundary.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.ActualistPossibilityBoundary.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.ActualistPossibilityBoundary.noPossibleActualistGodLike",

@@ -1,6 +1,8 @@
 {
-  "id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
-  "argument_id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "id": "9c38c467-f47a-50c1-bb58-e7ce8c4887ef",
+  "label": "Negation of the exact countertuple actual moved not potent…, from ability and incompleteness",
+  "legacy_id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "argument_id": "c97c86f5-3424-559f-ae6b-bf91562bb856",
   "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
   "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
   "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noMovedNotPotentCountertuple",

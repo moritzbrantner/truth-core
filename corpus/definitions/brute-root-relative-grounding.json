@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
+  "id": "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+  "label": "Brute concrete root under world-local…: The shared actual concrete root predicate is actual root…",
+  "legacy_id": "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
   "term": "brute concrete root under world-local existential grounding",
   "definition": "The shared actual concrete root predicate is DEF-ACTUAL-ROOT, with exact Lean locator NecessaryRootFork.ActualRoot. Here 'brute' means only that this root lacks an actual concrete predecessor under the stipulated world-local existential-grounding relation. It need not be temporally first, uncaused under another relation or fully unexplained. WellFounded (grounds w) is an additional condition over the whole candidate carrier. Neither all grounds being concrete nor all explanations being causes is assumed. ContingentAt must be added when a contingent root is intended.",
   "basis": "stipulative",

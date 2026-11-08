@@ -1,10 +1,12 @@
 {
-  "id": "INF-MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION",
+  "id": "d5658952-8392-501c-9d27-eb3cc0b44e7d",
+  "label": "Nothing is moved except insofar as it is in POTENCY_1 to that…, by Excluded middle on InPotency… (2)",
+  "legacy_id": "INF-MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "8f183538-204e-5a50-8a07-3d88dc999b47"
   ],
-  "output_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "output_statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "rule": "Excluded middle on InPotency x r, reductio against the negated existential",
   "meaning": "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS (the exact moved-not-potent countertuple fails on the same MovedIn and InPotency) and excluded middle. Its premises (what is being moved to r is able to be r and not yet r; potency as unactualized capacity) stay OPEN; the route premise is not established.",
   "assumption_statement_ids": [],

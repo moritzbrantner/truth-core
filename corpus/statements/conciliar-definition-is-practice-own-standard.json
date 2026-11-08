@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
+  "label": "In the Catholic practice, whatever an ecumenical council defines by canon is endorsed by the…",
+  "legacy_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
   "paraphrase": "Open bridge, unattributed: in the Catholic practice, whatever an ecumenical council defines by canon is endorsed by the practice's own authoritative standards. This normative endorsement is separate from whether its content is a theological formulation or it has a role in religious life.",
   "lean_declaration": "TruthCore.Alternatives.Fideism.DefinitionIsOwnStandardReading",
   "definition_ids": [
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES"
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

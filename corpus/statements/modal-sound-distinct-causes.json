@@ -1,11 +1,13 @@
 {
-  "id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
+  "id": "af7122ff-3e09-5626-9d51-3937800ecd80",
+  "label": "Every modeled causal relation at a world connects two distinct candidate individuals that both…",
+  "legacy_id": "STMT-MODAL-SOUND-DISTINCT-CAUSES",
   "lean_declaration": "TruthCore.Modal.NecessaryContingentActivity.SoundDistinctCauses",
   "paraphrase": "Every modeled causal relation at a world connects two distinct candidate individuals that both exist at that world. This is a stipulated minimal coherence constraint on causation, not a full causal theory.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

@@ -1,9 +1,18 @@
 {
-  "id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "id": "7799b94d-9262-5999-af8a-1f32b307034c",
+  "label": "In a model whose worlds have arbitrary finite natural-number capacities, every finite task prefix…",
+  "legacy_id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUPERTASK-FINITE-PREFIX-NONUNIFORM",
-  "inference_ids": ["INF-SUPERTASK-FINITE-PREFIX-NONUNIFORM"],
+  "conclusion_statement_id": "dee0cff7-7d6f-563c-9d5c-e734beb5717b",
+  "inference_ids": [
+    "0d56a06f-eabf-5ae3-bcd8-65e9925b0ce3"
+  ],
   "meaning": "Exhibit a finite-capacity-world countermodel to inferring one possible unlimited task from the separate possibility of each finite task prefix. Compare the existing temporal quantifier-shift countermodel without conflating the meanings of its quantifiers.",
-  "definition_ids": ["DEF-SUPERTASK-FINITE-PREFIX-CAPACITY", "DEF-SUPERTASK-UNIFORM-CAPACITY"],
-  "disambiguation_ids": ["DISAMB-SUPERTASK-MODAL-QUANTIFIER"]
+  "definition_ids": [
+    "e82a0214-0cfc-5387-9ff6-5bb10038f9b5",
+    "aa46a6e0-9e62-5221-9646-ec4486259204"
+  ],
+  "disambiguation_ids": [
+    "ecbb1ab7-9e85-5b46-987f-865ae81126f9"
+  ]
 }

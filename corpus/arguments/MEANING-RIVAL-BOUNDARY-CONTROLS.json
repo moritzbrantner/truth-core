@@ -1,9 +1,11 @@
 {
-  "id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "id": "1911b5ba-f6ef-5c2f-a74e-e08d4334e39d",
+  "label": "Invariant moral meaning and occasion meaning coexist with a populated moral sentence and…",
+  "legacy_id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "conclusion_statement_id": "cb7608ba-0a2d-58eb-be4e-f25f0242353a",
   "inference_ids": [
-    "INF-MEANING-RIVAL-BOUNDARY-CONTROLS"
+    "c9865ce9-b8e4-546c-9d8d-3b5c442b9dbf"
   ],
   "meaning": "Populated constant-expression overlap and actual attitude-loss failure control, retaining the full bound properties."
 }

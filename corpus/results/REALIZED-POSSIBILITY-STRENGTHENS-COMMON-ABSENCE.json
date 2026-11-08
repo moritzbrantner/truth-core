@@ -1,6 +1,8 @@
 {
-  "id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
-  "argument_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "id": "4e239cdd-7129-5198-b38b-847c25ee7f3c",
+  "label": "Weak OPEN realization interface consumed by the…, from Every condition realized at some admitted…",
+  "legacy_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "argument_id": "55954987-3ff6-565f-8372-f33a06e49c14",
   "challenge_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Challenge",
   "solution_module": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Solution",
   "theorem": "TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.realizationStrength",

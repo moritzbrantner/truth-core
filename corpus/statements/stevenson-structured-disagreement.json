@@ -1,13 +1,15 @@
 {
-  "id": "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
+  "id": "d0085789-434a-5a4a-a039-28eb9a8efbe2",
+  "label": "Interest disagreement is opposed favourable and unfavourable interests with mutual attempts at…",
+  "legacy_id": "STMT-STEVENSON-STRUCTURED-DISAGREEMENT",
   "paraphrase": "Interest disagreement is opposed favourable and unfavourable interests with mutual attempts at redirection; the account admits a moral clash even when the participants agree on every designated factual sentence. This is representability of the proposed possibility, not an empirical existence assertion.",
   "lean_declaration": "TruthCore.English.Stevenson.DisagreementReading",
   "definition_ids": [
-    "DEF-STEVENSON-STRUCTURED-DISAGREEMENT",
-    "DEF-DISAGREEMENT-IN-ATTITUDE",
-    "DEF-MORAL-STATEMENT"
+    "f2276f97-01fe-5dd3-8c21-7b76364349a7",
+    "27212984-237d-5c5c-b9c3-9c9743b2a6c2",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-DISAGREEMENT"
+    "4cf1df76-5f0b-5b97-9cd8-e4616e994c6e"
   ]
 }

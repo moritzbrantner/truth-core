@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-ENTITLEMENT",
+  "id": "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+  "label": "EPISTEMIC_ENTITLEMENT_3, withholding and…: Verdict distinguishes entitled, explicitly withheld, and…",
+  "legacy_id": "DEF-HUME-INDUCTION-ENTITLEMENT",
   "term": "epistemic entitlement, withholding and unsettled foundation",
   "definition": "Verdict distinguishes entitled, explicitly withheld, and unsettled. StrongSkeptic assigns withholding to every topic, including habit. This critic reconstruction is stronger than Hume denying a reasoning-based origin or reporting an unsatisfied philosophical request. Neither unsettled nor withheld asserts the falsity of the predicted event.",
   "basis": "stipulative",

@@ -1,25 +1,27 @@
 {
-  "id": "STMT-RUSSELL-GROUNDING-PROJECTION",
+  "id": "d79f317c-59c2-584b-a4e2-0ea0e216e084",
+  "label": "From explicit realization and the optional instance-to-basis law, a grounded satisfying witness…",
+  "legacy_id": "STMT-RUSSELL-GROUNDING-PROJECTION",
   "paraphrase": "From explicit realization and the optional instance-to-basis law, a grounded satisfying witness follows. Fixed omitted-premise models show that nonemptiness with empty grounding fails this conclusion, while the basis law on an empty extension is vacuous. No actual ground or universal explanatory demand is thereby established.",
   "lean_declaration": "TruthCore.Modern.Russell.Existence.GroundingProjection",
   "definition_ids": [
-    "DEF-RUSSELL-QUANTIFIER-EXISTENCE",
-    "DEF-RUSSELL-DESCRIPTION",
-    "DEF-RUSSELL-GENUINE-NAME",
-    "DEF-RUSSELL-INSTANTIATION",
-    "DEF-RUSSELL-FINITE-EXTENSION",
-    "DEF-RUSSELL-GROUNDING",
-    "DEF-RUSSELL-EXHAUSTIVENESS",
-    "DEF-RUSSELL-ACTUAL-DOMAIN",
-    "DEF-RUSSELL-CONTEXTUAL-NAME",
-    "DEF-RUSSELL-LOGICAL-ANALYSIS",
-    "DEF-RUSSELL-REALIZED",
-    "DEF-RUSSELL-BASIS-LAW",
-    "DEF-RUSSELL-GROUNDED-EXISTENCE"
+    "5873c837-35ba-5ca2-91a8-07808c67e461",
+    "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
+    "ade44ac7-1482-56ae-ab9d-a6dd719afced",
+    "988c2502-f555-5ff5-ac9d-aa5649d388de",
+    "36e83237-9dc6-5803-a9b8-a053c6d663a6",
+    "77060332-2129-5e1d-b477-908cbe74080f",
+    "ddef645b-61e3-5df3-97a5-880f318f2e96",
+    "9347232c-7f95-5f24-85de-94d3d49f5027",
+    "0cffde19-8afb-5fe5-9e0f-ef9a11283845",
+    "7917975f-a920-5ade-99df-11f19231f0a0",
+    "e202597a-2c36-527b-ba4b-64c554b75817",
+    "3d4a3a58-4400-5bc0-af56-711fa1380bfa",
+    "1abfeb31-390e-5f2b-9c40-ff45b7bddb92"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

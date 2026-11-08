@@ -1,20 +1,22 @@
 {
-  "id": "MODAL-RIGID-DESIGNATION",
+  "id": "1de7fa04-fe6d-50a1-a21c-7bfe484edee5",
+  "label": "For every Ontic model, two partial names, origin and selected bearer, actual designation by both…",
+  "legacy_id": "MODAL-RIGID-DESIGNATION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-RIGID-DESIGNATION",
+  "conclusion_statement_id": "b484599c-1a06-5346-a630-4e9f81c3db0f",
   "inference_ids": [
-    "INF-MODAL-RIGID-DESIGNATION"
+    "d6e251fc-c112-50f0-a593-9e6fb0eaa417"
   ],
   "meaning": "Derive successor co-reference iff existence from both exact designation profiles; quantify along M edges and reuse the certified box-transfer theorem for E inclusion. Decide two finite omission controls. No actual naming fact, historical thesis or human epistemic state is established.",
   "definition_ids": [
-    "DEF-PARTIAL-RIGID-DESIGNATION",
-    "DEF-STRICT-NAME-COREFERENCE",
-    "DEF-TWO-RELATION-POSSIBILITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY"
+    "bff04678-e0a0-5b9b-a182-484afb5506df",
+    "6bf06590-f2ca-5dfa-9fb6-2e799c4c9916",
+    "978b9b69-3707-52e4-9205-127e9a5ebe77",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ],
   "disambiguation_ids": [
-    "DISAMB-RIGID-IDENTITY-EXISTENCE",
-    "DISAMB-DESCRIPTION-MODAL-ADMISSIBILITY"
+    "20aadb82-fb79-549d-bae9-5b7d566db513",
+    "da25d281-9924-559c-bb21-0c3f9de50011"
   ]
 }

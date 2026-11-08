@@ -1,20 +1,22 @@
 {
-  "id": "PAST-SERIALITY-CORRESPONDENCE",
+  "id": "6fa2909f-e506-5fa5-8abd-c41a8a006c4b",
+  "label": "On the supplied Preorder, STRICT_PAST_ACCESSIBILITY_1 on the subtype of times equal to or earlier\u2026",
+  "legacy_id": "PAST-SERIALITY-CORRESPONDENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PAST-SERIALITY-CORRESPONDENCE",
+  "conclusion_statement_id": "71f30e0b-1219-59c1-8ec1-50044cfcbbe4",
   "inference_ids": [
-    "INF-PAST-SERIALITY-CORRESPONDENCE"
+    "06d60ae6-fa61-5ac8-ac3e-8aca9a3bbf69"
   ],
   "meaning": "On the supplied Preorder, strict-past accessibility on the subtype of times equal to or earlier than now is serial exactly when the existing PastIsInfinite premise holds; the existing one-atom D correspondence gives exactly the same equivalence for validity under all valuations. Inclusive-past accessibility s\u2264t is reflexive and validates T and D. At Nat now0 there is an earliest time, PastIsInfinite and strict-past seriality fail, yet inclusive past remains serial. This connects existing semantics, not a proof of a physical beginningless or beginning past. No linearity, physical population, finite-duration, event-count, causal, or excluded-middle premise is hidden; Preorder and the strict/inclusive interpretation are explicit inside the universal certificate. Intended and actual root-premise delta none.",
   "definition_ids": [
-    "DEF-STRICT-PAST-ACCESSIBILITY",
-    "DEF-INCLUSIVE-PAST-ACCESSIBILITY",
-    "DEF-TEMPORAL-EXISTENCE-BEGINNING",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-D-SERIAL",
-    "DEF-MODAL-T-REFLEXIVITY"
+    "d6904bf6-4b52-5927-8995-f29adc094e8c",
+    "b0a7367e-61e6-5a4a-a03e-c125756affa6",
+    "de94687a-6789-5599-b38d-14bef31148fd",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb"
   ],
   "disambiguation_ids": [
-    "DISAMB-STRICT-AND-INCLUSIVE-PAST"
+    "8c1c8ca8-3fae-522e-aef0-859956cbf9fd"
   ]
 }

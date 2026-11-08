@@ -1,14 +1,16 @@
 {
-  "id": "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE",
+  "id": "2fe8632c-590d-5b5f-86ef-79abcf51044b",
+  "label": "Mathematical knowledge, causal…: The presentation asserts strongly certain mathematical beliefs…",
+  "legacy_id": "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE",
   "term": "mathematical knowledge, causal connection and God-like provider in #118",
   "definition": "The presentation asserts strongly certain mathematical beliefs and knowledge, imposes a causal explanation between knower and object known, and restricts possible providers of the belief explanation to God-like beings. The final existence conclusion uses these separate commitments.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-118-MATHEMATICAL-KNOWLEDGE",
-    "CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
-    "CC100-118-CONDITIONAL-MATHEMATICAL-CAUSAL-CONNECTION",
-    "CC100-118-GODLIKE-CAUSAL-PROVIDER-RESTRICTION",
-    "CC100-118-CONDITIONAL-GODLIKE-PROVIDER-EXISTENCE"
+    "c5bbc581-3151-5d1b-8b26-8a4f99b4a9ac",
+    "4c55bf16-ff5b-5db8-a068-174316e3fa9b",
+    "a5598bde-cf56-5629-85e5-8e1baa9e6b45",
+    "e61e5d52-a797-5d66-8df1-5437a5d40f14",
+    "8a47aa11-0085-5998-9344-428a428e7204"
   ],
   "note": "Knowledge of proposition p and relation to an object, connection existence and actual provider, certainty and knowledge, and causal explanation versus Ontic causation are distinct. God-like has no specified classical or positivity signature; no concrete/necessary/unique bearer dictionary is introduced."
 }

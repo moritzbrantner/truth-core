@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KOONS-1996-COR1-CONDITIONAL-COSMOS-CAUSE-BEING",
+  "id": "57cade07-3dd7-5881-bbda-1ec81b9309d0",
+  "label": "Under a necessary cause-fact of the cosmos and the fact-to-being commitments, the cause of the…",
+  "legacy_id": "STMT-KOONS-1996-COR1-CONDITIONAL-COSMOS-CAUSE-BEING",
   "paraphrase": "Under a necessary cause-fact of the cosmos and the fact-to-being commitments, the cause of the cosmos includes the existence of a necessary being.",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

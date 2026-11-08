@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A",
-  "statement_id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
-  "source_id": "ARIST-PHYS",
+  "id": "22119347-2531-517d-a678-30a571e16449",
+  "label": "Aristotle, Physics VIII.4, 254b27-33…: Whatever is moved in a respect by nature and by itself is…",
+  "legacy_id": "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A",
+  "statement_id": "5d9eba3a-5add-52ff-b3b7-cf2c3fd98f2f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.4, 254b27-33, 255b32-33",
   "interpretation": "Of natural motions, those of things moved by themselves are moved by something (255b32-33). For animals, 'it is not unclear whether it is moved by something, but how one must distinguish in it the mover and the moved' (254b27-33): the mover is the moving part. The reading asserts only that the motion has a per se mover in that respect; it leaves open which being the mover is, and does not assert that the mover is another than the whole.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-SELF-MOTION-ARISTOTLE"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOVED-BY-SOMETHING",
-    "DISAMB-SELF-MOTION"
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

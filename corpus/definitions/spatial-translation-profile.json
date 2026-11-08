@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPATIAL-TRANSLATION-PROFILE",
+  "id": "abb77c4f-4175-581a-a24c-12d776819b91",
+  "label": "Labeled real-line spatial…: Bodies are labels B and a configuration is B→ℝ in a chosen absolute…",
+  "legacy_id": "DEF-SPATIAL-TRANSLATION-PROFILE",
   "term": "labeled real-line spatial configuration and translation profile",
   "definition": "Bodies are labels B and a configuration is B→ℝ in a chosen absolute coordinate. A common shift adds a real displacement to every label. Selected relative data are signed pairwise displacements, stronger than unsigned distances. Origin normalization subtracts one labeled body’s coordinate; it represents a translation orbit and asserts no actual absolute location. This static profile contains no dynamics, rotation, empirical completeness or metaphysical-identity criterion.",
   "basis": "stipulative",

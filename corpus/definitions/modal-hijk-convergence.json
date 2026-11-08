@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-HIJK-CONVERGENCE",
+  "id": "36e7c64a-de89-5871-915e-e06117844a9c",
+  "label": "H/i/j/k exact-path convergence and\u2026: Convergent F h i j k means that any exact h-path from w to a\u2026",
+  "legacy_id": "DEF-MODAL-HIJK-CONVERGENCE",
   "term": "h/i/j/k exact-path convergence and valuation correspondence",
   "definition": "Convergent F h i j k means that any exact h-path from w to a and exact j-path from w to b admit a c reached from a by an exact i-path and from b by an exact k-path. convergenceFormula is the one-atom Unit-language instance diamond^h box^i p \u2192 box^j diamond^k p. Valid quantifies over every atomic valuation and every world; a single valuation is insufficient for its converse. Generic soundness separately permits any modal formula over any supplied atom type.",
   "basis": "stipulative",

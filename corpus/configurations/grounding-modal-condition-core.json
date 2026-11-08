@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-GROUNDING-MODAL-CONDITION-CORE",
+  "id": "4ccab06a-a9c3-5181-824b-86ea7b8590b3",
+  "label": "Exact three-policy C/N/S incompatibility with each two-policy deletion witnessed",
+  "legacy_id": "CONFIG-GROUNDING-MODAL-CONDITION-CORE",
   "description": "Exact three-policy C/N/S incompatibility with each two-policy deletion witnessed. Nothing here establishes contingency, necessary grounds or explanatory adequacy.",
-  "seed_statement_id": "STMT-CONDITION-CONTINGENT-PROFILE",
+  "seed_statement_id": "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3",
   "semantics": {
     "id": "grounding-modal-condition-core",
     "logic": "Constructive Lean propositions, zero axioms. No S5 or actual-reflexivity policy is required by the general core.",
@@ -49,7 +51,7 @@
       "q"
     ],
     "applications": {
-      "STMT-CONDITION-CONTINGENT-PROFILE": [
+      "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3": [
         "W",
         "F",
         "K",
@@ -57,7 +59,7 @@
         "a",
         "p"
       ],
-      "STMT-CONDITION-NECESSARY-PROFILE": [
+      "2799cd6e-4a46-53ed-bb4c-62a57b809fac": [
         "W",
         "F",
         "K",
@@ -65,7 +67,7 @@
         "a",
         "q"
       ],
-      "STMT-CONDITION-IMPLICATION-PROFILE": [
+      "228affcd-0128-53c4-ab88-e2540cc5510b": [
         "W",
         "F",
         "K",
@@ -84,40 +86,40 @@
     {
       "id": "all-three",
       "statement_ids": [
-        "STMT-CONDITION-CONTINGENT-PROFILE",
-        "STMT-CONDITION-NECESSARY-PROFILE",
-        "STMT-CONDITION-IMPLICATION-PROFILE"
+        "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3",
+        "2799cd6e-4a46-53ed-bb4c-62a57b809fac",
+        "228affcd-0128-53c4-ab88-e2540cc5510b"
       ]
     },
     {
       "id": "omit-0",
       "statement_ids": [
-        "STMT-CONDITION-NECESSARY-PROFILE",
-        "STMT-CONDITION-IMPLICATION-PROFILE"
+        "2799cd6e-4a46-53ed-bb4c-62a57b809fac",
+        "228affcd-0128-53c4-ab88-e2540cc5510b"
       ]
     },
     {
       "id": "omit-1",
       "statement_ids": [
-        "STMT-CONDITION-CONTINGENT-PROFILE",
-        "STMT-CONDITION-IMPLICATION-PROFILE"
+        "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3",
+        "228affcd-0128-53c4-ab88-e2540cc5510b"
       ]
     },
     {
       "id": "omit-2",
       "statement_ids": [
-        "STMT-CONDITION-CONTINGENT-PROFILE",
-        "STMT-CONDITION-NECESSARY-PROFILE"
+        "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3",
+        "2799cd6e-4a46-53ed-bb4c-62a57b809fac"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "MODAL-CONDITION-CORE-INCOMPATIBLE"
+    "9fa3c643-a939-5978-9671-4ad798e1a2fb"
   ],
   "implication_result_ids": [],
   "model_bindings": [
     {
-      "model_id": "MODEL-MODAL-CONDITION-NOC",
+      "model_id": "2181339c-640a-5e32-bed7-b3d2ab24b2ff",
       "parameters": {
         "W": "W",
         "F": "F",
@@ -129,7 +131,7 @@
       }
     },
     {
-      "model_id": "MODEL-MODAL-CONDITION-NON",
+      "model_id": "ef4d457b-a4aa-587d-9851-289cd6bc77a1",
       "parameters": {
         "W": "W",
         "F": "F",
@@ -141,7 +143,7 @@
       }
     },
     {
-      "model_id": "MODEL-MODAL-CONDITION-NOS",
+      "model_id": "c43d6dd4-376d-54d2-95e1-4b010f8a8e4f",
       "parameters": {
         "W": "W",
         "F": "F",

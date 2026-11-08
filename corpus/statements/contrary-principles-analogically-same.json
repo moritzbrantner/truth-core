@@ -1,5 +1,7 @@
 {
-  "id": "STMT-CONTRARY-PRINCIPLES-ANALOGICALLY-SAME",
+  "id": "74076cab-4703-524d-8443-0786362aea0f",
+  "label": "Predecessor principles differ in their selected contrary pairs yet are analogically the same, with…",
+  "legacy_id": "STMT-CONTRARY-PRINCIPLES-ANALOGICALLY-SAME",
   "paraphrase": "Predecessor principles differ in their selected contrary pairs yet are analogically the same, with pairs of differing explanatory breadth.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContraryPrinciplesAnalogicallySameReading"
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "id": "b62b5d7b-0ca6-5f7f-a96a-b53600a74375",
+  "label": "Whenever a selected religious sentence is assigned the same apparent…, by Constructive-proof",
+  "legacy_id": "INF-CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
   "input_statement_ids": [
-    "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "b917f813-5020-5506-b7cd-eac478ddff72"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-MATCHED-TRUTH-UNIFORM",
+  "output_statement_id": "1ff9aed4-fa1d-56e0-b9b8-ef79e8395e8e",
   "rule": "constructive-proof",
   "meaning": "Project matched-content invariance from the stronger analyst cross-discourse profile. This is an assembly transcription and sole-premise strength certificate.",
   "assumption_statement_ids": [],

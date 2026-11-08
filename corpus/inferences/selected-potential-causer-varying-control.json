@@ -1,7 +1,9 @@
 {
-  "id": "INF-SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
+  "id": "f78d3f90-6bd6-5f5e-ac94-aaff23904d0b",
+  "label": "In the literal varying model, selected false at base false satisfies reflexivity…, by Direct-proof",
+  "legacy_id": "INF-SELECTED-POTENTIAL-CAUSER-VARYING-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-VARYING-NAMED-POTENTIAL-CAUSER-CONTROL",
+  "output_statement_id": "14bc9b7b-2673-5989-94fa-860b6b46c19d",
   "rule": "direct-proof",
   "meaning": "The unchanged registered varying interpretation jointly satisfies all five selected-causer backgrounds, named underivedness of the given false, and an actual outgoing edge to an existing recipient at world true. Reuse its reflexivity, no-contingent-predecessor and union-WF theorems and compose the named result. This nonvacuous positive profile supplies no actual edge at base false and establishes no metaphysical possibility.",
   "assumption_statement_ids": [],

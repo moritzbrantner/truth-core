@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DESCRIPTIVE-PLAN-BOUNDARY",
+  "id": "73b35a14-aa85-5469-8d4b-1c4652bfae35",
+  "label": "Factual freedom and conditional plan…: Boundary is FactualFreedom ∧ ConditionalGuidance ∧…",
+  "legacy_id": "DEF-DESCRIPTIVE-PLAN-BOUNDARY",
   "term": "factual freedom and conditional plan guidance boundary",
   "definition": "Boundary is FactualFreedom ∧ ConditionalGuidance ∧ BridgeOmission. FactualFreedom universally quantifies Fact/Action and any satisfiable set of Descriptive sentences and constructs a supporting Point permitting every action. ConditionalGuidance is the factual/forbidden instance of acceptance-preserving MP. BridgeOmission exhibits a nonempty state accepting a factual atom and neither a selected prohibition nor its factual-to-prohibition conditional, while abstaining remains permitted in every point. The theorem does not assert the existence of a compatible point for inconsistent factual premises.",
   "basis": "stipulative",

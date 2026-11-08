@@ -1,10 +1,12 @@
 {
-  "id": "REL-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "id": "8a6ebbc4-6b38-5ca5-88af-08798b73d743",
+  "label": "The brute-universe position: at the… strengthens Exact negation of the existing…",
+  "legacy_id": "REL-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
   "subject_kind": "statement",
-  "subject_id": "STMT-UNIVERSE-UNCAUSED",
+  "subject_id": "0d563c5b-413a-5463-b556-adbb34bf458e",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
-  "verification_result_id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "object_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
+  "verification_result_id": "73d18ddd-a492-55db-9796-04906334557a",
   "note": "Exact sole-premise scope restriction. Original stronger proposition and source meanings stay intact; use the weaker actuality policy in this selected-whole route."
 }

@@ -1,13 +1,15 @@
 {
-  "id": "INF-QUARTA-VIA-DEGREE-FORK",
+  "id": "31cc06ec-a89a-5426-932a-fb400a17333d",
+  "label": "The selected perfection is instantiated, and either a strict causal top exists…, by Case-analysis",
+  "legacy_id": "INF-QUARTA-VIA-DEGREE-FORK",
   "input_statement_ids": [
-    "STMT-HOMOGENEOUS-BEING-SCALE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE",
-    "STMT-EXCLUDED-MIDDLE"
+    "038bae3c-2917-508b-a6fc-2998faa0c908",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "a9622441-2db2-5d32-9b02-a9d283bd2949",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-QUARTA-VIA-DEGREE-FORK",
+  "output_statement_id": "a8b5ee13-71a3-56cf-8ab0-7786c2135cc1",
   "rule": "case-analysis",
   "meaning": "Conditional fork on the existing stipulative homogeneous-scale contrast reading. The grades premise gives an actual carrier witness, and the scale makes it have the selected perfection esse. Explicit excluded middle splits existence of a maximal being in esse. If one exists, the at-being genus principle makes it cause the selected perfection in every other being; the unrestricted cause-more-such premise therefore makes it strictly more such than every distinct being, excluding tied and incomparable co-maxima. The no-distinct-incoming-cause clause composes HomogeneousScaleReading.causesRaiseDegree, HomogeneousScaleReading.isMaximumIn_iff_isMax and MaximumOrder.System.maximal_has_no_distinct_cause. Uniqueness is checked with explicit excluded middle for identity; this is not a new discovery of uniqueness, already established under the broader genus premise by AtMostOneMaximeEns. If no maximal being exists, explicit excluded middle extracts a higher being for every being. The independent supplementary theorem hornsIncompatible proves that the two branch predicates cannot both hold. No totality, maximum existence, arbitrary causal predecessor, infinite causal chain or absolute uncausedness is inferred. The unrestricted causal comparative remains the explicitly stronger open reading, not a new source attribution; no premise is established and root premises do not change.",
   "assumption_statement_ids": [],

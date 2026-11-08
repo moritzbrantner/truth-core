@@ -1,14 +1,16 @@
 {
-  "id": "INF-NATURALIST-BOYD-CONSISTENT",
+  "id": "31ff786c-ae5b-52d7-b9dd-66202054e697",
+  "label": "The recorded Boyd positive-case fragment is satisfiable with a true moral…, by Model-construction",
+  "legacy_id": "INF-NATURALIST-BOYD-CONSISTENT",
   "input_statement_ids": [
-    "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
-    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-    "STMT-NATURALIST-FIXTURE-ERROR",
-    "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS",
-    "STMT-NATURALIST-TRUE-ASCRIPTION"
+    "02ceae7b-5e93-526f-b54a-d73b8040bb51",
+    "153a1380-89f3-56a5-bd02-6e0971e2c155",
+    "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+    "80d70ac1-dbe3-56c5-b8d9-36b984cae4ee",
+    "0893ecbc-dfff-56e4-8b4a-32fb906a767f",
+    "15b49fdc-d4c5-5cdc-978e-22b565a07617"
   ],
-  "output_statement_id": "STMT-NATURALIST-BOYD-CONSISTENT",
+  "output_statement_id": "2d1cd6bf-ed31-5079-a2b8-730143464541",
   "rule": "model-construction",
   "meaning": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-BOYD-ASCRIPTION-CONSISTENT does.",
   "assumption_statement_ids": [],

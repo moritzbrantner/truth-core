@@ -1,5 +1,7 @@
 {
-  "id": "DEF-A1-COVERED-CONTINGENTS",
+  "id": "a1f7d448-b7e4-503b-aae8-6b3d7c5f0f08",
+  "label": "Selected whole covers actual…: Covers whole",
+  "legacy_id": "DEF-A1-COVERED-CONTINGENTS",
   "term": "selected whole covers actual contingent concreta",
   "definition": "Covers (fun x => s.concrete x ∧ ContingentAt s.ontic w x) whole. Every actual contingent concretum is a part of this candidate whole in the supplied Mathlib partial order. Neither a fusion nor the whole’s contingency/existence is asserted.",
   "basis": "stipulative",

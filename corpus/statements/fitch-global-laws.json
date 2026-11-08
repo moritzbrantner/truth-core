@@ -1,12 +1,14 @@
 {
-  "id": "STMT-FITCH-GLOBAL-LAWS",
+  "id": "ba7c90ea-1439-5804-ac44-cb5621d8518a",
+  "label": "At every world and for every content, knowledge is factive and knowledge of a conjunction yields…",
+  "legacy_id": "STMT-FITCH-GLOBAL-LAWS",
   "paraphrase": "At every world and for every content, knowledge is factive and knowledge of a conjunction yields knowledge of each conjunct.",
   "lean_declaration": "TruthCore.Logic.FitchKnowability.GlobalLaws",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

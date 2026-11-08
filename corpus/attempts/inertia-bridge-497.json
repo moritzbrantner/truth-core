@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-INERTIA-BRIDGE-497",
+  "id": "602b92d1-c90c-53d5-bf34-116fc3dc598f",
+  "label": "The inertia bridge for nothing reduced to act except by a mover",
+  "legacy_id": "ATTEMPT-INERTIA-BRIDGE-497",
   "date": "2026-10-27",
   "statement_ids": [
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-    "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
-    "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
-    "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
-    "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
-    "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
-    "STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED",
-    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
-    "STMT-PROJECTILE-MOVED-BY-ANOTHER"
+    "4a952b96-be5f-5493-8277-985248151d01",
+    "e97ade2e-b3a3-538e-95b1-131e3b7f4961",
+    "a806ec53-602d-5154-a63d-5691113884fe",
+    "6f50f5d0-d004-562c-b182-ccd0547382ad",
+    "7218e9df-a86f-5ee6-98be-af4e9304539d",
+    "58a395a1-94f1-5c38-9c1e-c308c80ad3f7",
+    "33fc6c10-b5b4-50b5-86fe-75a73a894ed3",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030",
+    "359eb8c8-03a1-5bef-9181-d1fe6b01c02b"
   ],
   "kind": "refutation",
   "outcome": "succeeded",
   "summary": "The inertia bridge for STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER (#497, effort rule: serious sourced rival, 20 dependents). Question: is a body's perseverance in uniform rectilinear motion a being moved (reduction from potency to act)? Sources materialized and read: Newton, Principia, Lex I (existing NEWTON-PRINCIPIA-LEGES-MOTUS-I-III) and Def. I-VII (new NEWTON-PRINCIPIA-DEFINITIONES-I-III, NEWTON-PRINCIPIA-DEFINITIONES-III-VII, Wikisource pages 8-9 at fixed revisions); Aquinas, In Phys. VIII, lect. 22 (new AQUINAS-IN-PHYS-VIII-L22-EN, same isidore.co bytes as lect. 7 and 9); Garrigou-Lagrange, Dieu, son existence et sa nature (1914, US public domain; new GARRIGOU-LAGRANGE-DIEU-1914-I-36-B, pp. 248-254, and -NOTE-INERTIA, pp. 759-763), a Thomist reply that reports and discusses the rival. Findings: (1) Newton Def. III-IV: the body perseveres in every new state 'by the force of inertia alone'; impressed force does not remain after its action (claim NEWTON-PRINCIPIA-PERSEVERANCE-BY-INERTIA-A). Newton calls uniform motion a state but uses no act/potency vocabulary, so he decides neither reading. (2) Thomists divide. Garrigou-Lagrange holds the becoming reading: local motion is no more a state than other motions, it is a becoming (pp. 252, 254; claim GARRIGOU-LAGRANGE-DIEU-1914-LOCAL-MOTION-IS-BECOMING-A); he reports the state reading of the Cartesian mechanists and of P. Bulliot (1894), who started the proof from the passage from rest to motion (p. 250; claim GARRIGOU-LAGRANGE-DIEU-1914-MECHANIST-STATE-A), and objects that this turns the proof into the proof from contingency. His own answer to inertia is that a motion continuing in the void needs the invisible motion of Pure Act, which physics can neither affirm nor deny (pp. 760-763, with Duhem's letter), plus impetus as an instrumental power (p. 253). (3) Aquinas, In Phys. VIII, lect. 22: a projectile continuing after contact is moved by another, the medium (claim AQUINAS-IN-PHYS-VIII-L22-PROJECTILE-MOVED-BY-ANOTHER-A); he treats continuing local motion as a being moved, not as a state. Formalized: the inertial objection as a bundle TruthCore.Comparison.Inertia.InertialObjection with four commitments (Newton's 'alone', sourced; a persevering body, unattributed; the mover bridge 'a mover of a persevering body is something it perseveres by', unattributed; the becoming reading, sourced), and the two readings as separate statements under DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING, the mover bridge under DISAMB-PERSEVERANCE-SOURCE-AND-MOVER. Certified (zero axioms, result INERTIAL-OBJECTION-YIELDS-RIVAL): bundle + STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT entails the recorded rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER; with the target premise the six are inconsistent; the six-member core is inclusion-minimal (MODEL-INERTIA-OTHER-SUSTAINER, -NO-PERSEVERING, -DIVINE-MOVER, -STATE-READING, -SELF-MOVER drop one member each; MODEL-INERTIA-RIVAL-SURVIVES drops the target). Each removal model is a recorded reply: medium or impetus (deny Newton's 'alone'), Poincare/Garrigou-Lagrange on force-free bodies (deny the persevering body), divine motion (deny the bridge), state reading (deny becoming), inherent force as self-mover (deny no self-motion). Elimination: failed as an elimination. The bundle with no self-motion is satisfiable (rivalSurvivesCore), so no non-circular core refutes it from these commitments. Compatibility: on the state reading, Newton's Def. III-IV and Lex I (with a body changing state), a persevering body, the mover bridge, no self-motion, the mover premise and STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD hold together (stateReadingCompatible, MODEL-INERTIA-STATE-READING): the physics rival and the premise then do not conflict, and the territory narrows to the reading choice. Core members: closed none; open all five plus the target. Floor classification (#497 criteria). STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE: logical no (removal model); retorsion no; common_ground no (Aquinas's medium and Garrigou-Lagrange's impetus deny that the body perseveres by itself alone); observation no (a definition of mechanics, not a manifest fact). STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION: logical no; retorsion no; common_ground no (Garrigou-Lagrange with Poincare: never verified on bodies withdrawn from every force); observation no (exact uniform rectilinear motion is an idealization; Newton's examples are resisted bodies). STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY: logical no; retorsion no; common_ground no (Garrigou-Lagrange denies it); observation no. STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED: logical no; retorsion no; common_ground no (the mechanists and Bulliot deny it); observation no. STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT: as in ATTEMPT-NIGHT-COSMOGONY-BUNDLE-ELIMINATION, not floor. Not formalized, with reasons: Def. III's rest case (not needed; dropping it weakens); Garrigou-Lagrange's argument that a finite impulse cannot produce a perpetual effect (pp. 252-253, 759) and the conservation of energy (needs quantities and time); Lex I's link between change of state and being moved (no source links them). Rejected: identifying Aquinas's projectile with Newton's persevering body (a projectile in a medium is neither uniform nor, for Aquinas, one continuous motion); attributing the state reading to Newton (status is compatible with it but Newton uses no act/potency vocabulary). Frontier delta: none (52 open, route costs unchanged: cheapest CATHOLICISM-SKELETON 28).",
   "evidence": [
-    "INERTIAL-OBJECTION-YIELDS-RIVAL",
-    "NEWTON-PRINCIPIA-PERSEVERANCE-BY-INERTIA-A",
-    "NEWTON-PRINCIPIA-LEX-I-A",
-    "GARRIGOU-LAGRANGE-DIEU-1914-LOCAL-MOTION-IS-BECOMING-A",
-    "GARRIGOU-LAGRANGE-DIEU-1914-MECHANIST-STATE-A",
-    "AQUINAS-IN-PHYS-VIII-L22-PROJECTILE-MOVED-BY-ANOTHER-A",
-    "AQUINAS-ST-I-Q2-A3-NO-SELF-MOTION-SAME-RESPECT-A"
+    "07956757-c41f-5f2c-a66f-4d75df1fb65d",
+    "bd18a12f-76fb-57b1-a346-5566ede7a400",
+    "5018b210-25d9-5f4d-89a1-201c3775cdf3",
+    "42a0453b-d040-5c98-9e98-5aac1bdc9a16",
+    "a58fdde3-bb69-500e-9931-70d497a9dbd6",
+    "ae02ef13-b25e-54a8-a198-6d34ce8162fe",
+    "6aac13a9-0901-5c5c-9367-209d63d76de8"
   ],
   "blocker": "The premise stays open against this rival. Closing it needs either the state reading defended as the reading of the mover premise (and then the proof from motion must start from a change of state; Garrigou-Lagrange's contingency objection must be answered), or, on the becoming reading, one of the open bundle members refuted from closed premises: the mover bridge (a sourced account of the present mover in inertial motion: impetus or divine motion), or the persevering body. No pinned source asserts the rival's existential, and no modern statement of the objection is pinned."
 }

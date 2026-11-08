@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-PARTS-LAWS-EXCLUSION",
-  "statement_id": "STMT-CC100-87-PARTS-LAWS-EXCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "9b721ad8-33b7-59da-8da6-2f8fdbfa9ec3",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The unity of the cosmos cannot be explained by its…",
+  "legacy_id": "CC100-87-PARTS-LAWS-EXCLUSION",
+  "statement_id": "1440ab17-d723-53cd-9de5-b1ae436cfa21",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 3",
   "interpretation": "Preserve the modal/explanatory exclusion, not merely a claim that no such explanation has currently been found. The adequacy standard and both exclusions are asserted, not independently defended or inferred from parts/laws being internal. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

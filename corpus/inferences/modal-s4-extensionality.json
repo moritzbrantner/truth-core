@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-S4-EXTENSIONALITY",
+  "id": "306f452f-ef94-570a-8920-8f93656a06dc",
+  "label": "The unpaired S4 configuration has world extensionality for its entire fixed…, by Direct-proof",
+  "legacy_id": "INF-MODAL-S4-EXTENSIONALITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-S4-EXTENSIONALITY",
+  "output_statement_id": "25f36509-0060-5d00-ab00-075d53129c31",
   "rule": "direct-proof",
   "meaning": "Use the first atom to identify left, the second to identify twin, and diamond of the first atom to distinguish root from right. At full scope instantiate agreement at an identity predicate. Enumerate unpaired singleton successors and supply a full-collapse witness for each root successor.",
   "assumption_statement_ids": [],

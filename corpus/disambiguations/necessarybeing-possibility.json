@@ -1,19 +1,24 @@
 {
-  "id": "DISAMB-NB-SURVEY-POSSIBILITY",
+  "id": "23eecaf1-749b-5c41-8671-10d061b20a3f",
   "term": "possibility",
-  "sense_definition_ids": ["DEF-KANT-REAL-POSSIBILITY", "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"],
+  "sense_definition_ids": [
+    "785c6195-9181-5926-9bfd-30e030e25e38",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
+  ],
   "resolution": "The NecessaryBeing.com definition is noncontradiction with objective necessities; Kant's real possibility in DEF-KANT-REAL-POSSIBILITY is separately constrained by conditions for actuality and must not be identified by verbal similarity. Nor is an actual modal frame or S5 semantics licensed by the mere survey definition without the separately reported persistence premise.",
   "term_label": "POSSIBILITY",
   "senses": [
     {
       "id": "e13cbb07-dd4e-48ce-b068-f891c8bbcb0b",
       "label": "POSSIBILITY_2",
-      "definition_id": "DEF-KANT-REAL-POSSIBILITY"
+      "definition_id": "785c6195-9181-5926-9bfd-30e030e25e38"
     },
     {
       "id": "5ed8aadf-a2ef-4992-bcfb-bb6df3e9451c",
       "label": "POSSIBILITY_4",
-      "definition_id": "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+      "definition_id": "6922ea29-e11b-5b0d-8647-73fc284c24f0"
     }
-  ]
+  ],
+  "label": "Possibility",
+  "legacy_id": "DISAMB-NB-SURVEY-POSSIBILITY"
 }

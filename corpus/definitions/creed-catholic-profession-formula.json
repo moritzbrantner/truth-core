@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CREED-CATHOLIC-PROFESSION-FORMULA",
+  "id": "24ee54ec-d84a-572e-b3b9-134da286f1e6",
+  "label": "NICENE_CONSTANTINOPOLITAN_CREED_2: The recitation reproduced in the consulted Holy See English…",
+  "legacy_id": "DEF-CREED-CATHOLIC-PROFESSION-FORMULA",
   "term": "Nicene-Constantinopolitan Creed (Catholic profession formula)",
   "definition": "The recitation reproduced in the consulted Holy See English Profession of Faith collection. It includes wording additional to the Greek 381 transcription, including God-from-God and Father-and-Son procession wording. This is a distinct textual formula; its additions are not substituted for the root’s Greek contents.",
   "basis": "sourced",
   "claim_ids": [
-    "CDF-1998-CREED-PROPOSED-AS-REVEALED"
+    "7748075b-143b-5167-93cd-990a67508f41"
   ],
   "note": "The linked source reading concerns proposal status. This scope definition neither endorses the additions nor asserts that Latin processio and Greek ekporeusis are interchangeable."
 }

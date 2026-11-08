@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
+  "id": "069600c3-2ddc-5977-8717-3a278683f73e",
+  "label": "Well-founded causes at a selected world: The specific world's modeled Causes relation is…",
+  "legacy_id": "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
   "term": "well-founded causes at a selected world",
   "definition": "The specific world's modeled Causes relation is well-founded, even across nonexistent candidates in the constant domain. No global restriction on other worlds is inferred.",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.WellFoundedCausesAt",

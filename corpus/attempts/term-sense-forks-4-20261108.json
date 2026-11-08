@@ -1,28 +1,29 @@
 {
-  "id": "ATTEMPT-TERM-SENSE-FORKS-4-20261108",
+  "id": "bc0e9772-8de2-5054-bdfc-60c0794598fa",
   "label": "Sense forks batch 4: MUTABLE and GOD forks, quarta via conclusion to the root",
+  "legacy_id": "ATTEMPT-TERM-SENSE-FORKS-4-20261108",
   "date": "2026-11-08",
   "statement_ids": [
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
-    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
-    "STMT-MUTABILITY-SENSES-EXHAUSTIVE",
-    "STMT-MUTABILITY-SENSE-UNIQUE",
-    "STMT-GOD-SENSES-EXHAUSTIVE",
-    "STMT-GOD-SENSE-UNIQUE"
+    "812b52b3-de7d-5982-93a9-e46b6e169616",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+    "0881e859-c4c3-53ff-9bec-b61294e12d51",
+    "d6b23648-ef99-5a03-9562-f9a958a38a13",
+    "f823b76e-e134-5aef-96bf-6ecce2d984d3",
+    "2541318c-0e5a-5e1a-a732-a9ec1768690e",
+    "8514b173-d4a8-5a74-be34-f59dcc992d72"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Sense forks batch 4 (#1233 B; docs/notes/load-bearing-terms.md), each sense its own Lean declaration and one argument per sense. Mutable (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER, duplicate DISAMB-MUTABILITY-CHANNEL): typed power relation PowerOver added for DEF-MUTABLE-THROUGH-ANOTHER; MUTABLE_3 (DEF-MUTABLE-IN-SOME-WAY) appended. At the root-route node STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, MUTABLE_2 and MUTABLE_3 reach it only through the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY, shown needed by a model with a dependent pure act that begins to live; MUTABLE_3 is the weakest boundary reading (two strengthens). The mixed reading (succession MUTABLE_1, boundary MUTABLE_2) breaks the joint step. God (DISAMB-GOD): GOD_1 nominal makes the naming premise and its converse analytic, and the root naming premise is proved equivalent to the nominal-to-classical bridge; GOD_2 and GOD_3 reach it through open bridges; omission models for all three bridges; the mixed reading (naming GOD_1, attributes GOD_4) breaks the joint step. Equivocation hazard found: GodNamesTheFullyDescribedPrinciple and GodIsMaximalInBeing are generic in the God predicate and bind by head constant, so a GOD_1 instantiation would bind to the GOD_4 root statements while analytic; the GOD_1 readings were given their own declarations. Quarta via connection (#1237 plan): CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL replaces the four quarta via premises of the cheapest route by STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (cheapest route cost 30 -> 28). Rejected leads: (1) proving GodNamesTheFullyDescribedPrinciple at God := NominalGod and binding it to the root statement (an equivocation exploit; analytic in GOD_1, says nothing about IsGod); (2) defining MUTABLE_3 as the disjunction of the other two declarations (statements in that sense would mention the other senses' declarations); (3) a separate fork of DISAMB-MUTABILITY-CHANNEL (same two senses, no root-path link); (4) GOD_5/GOD_6 GodLike as constructors (world-indexed over a positivity constant, a different type; a rival reading denies coverage); (5) forking DISAMB-MIXED-EXISTENTIAL-PRIORITY (type-distinct: B versus Sum B E, two senses are structural laws; only the already forked simple priority reaches the root); (6) forking DISAMB-EXISTENCE-ESSE-SUPPORT (framework interfaces of different Lean types; the root passes between ExistsAt and esse through existing explicit bridges); (7) a 'strengthens' between STMT-NOMINAL-GOD-IS-CLASSICAL-GOD and STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE (they are equivalent, not strength-ordered); (8) Fin 2 times in the controls (decide on Fin order uses propext; Nat used instead).",
   "blocker": "Coverage and exclusivity of both forks are OPEN frontier premises. The MUTABLE_2/3 bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY and the GOD_1/2/3 bridges are open; the GOD_1 bridge is equivalent to the root naming premise, so the nominal reading gives no warrant for it. STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE and STMT-GOD-IS-MAXIMAL-IN-BEING still bind to God-generic declarations (needs: bind-check sense indexing from #1235, or classical-specific declarations for the root premises). The existence/esse fork is a candidate (needs: a disambiguation listing DEF-KANT-ONTOLOGICAL-MODEL and DEF-ESSE as senses of one use).",
   "evidence": [
-    "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
-    "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
-    "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
-    "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
-    "NOMINAL-BRIDGE-FROM-GOD-NAMES",
-    "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
-    "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL",
-    "TERM-SENSE-FORKS-4-CONTROLS"
+    "8928344c-1e6b-5ee3-8f3a-f9c87ea7e1ac",
+    "87c6d32e-305a-5c11-b048-9677e4556789",
+    "db8b8e73-7fc8-5c74-8fcc-17d849fc1391",
+    "3de2ab0e-ebd5-5f19-a0da-030362a1b719",
+    "0672644a-ac8d-5f06-bb96-89a0a69fba2e",
+    "2ecdf972-b6c9-56f9-8a0f-4710cdf68bd1",
+    "b6fee89e-aff7-5d23-8658-3fa11a5ddf5c",
+    "6df6e803-d83f-5fca-b4ca-3b714defa5a1"
   ]
 }

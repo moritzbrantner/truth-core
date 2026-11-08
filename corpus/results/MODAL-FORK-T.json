@@ -1,7 +1,8 @@
 {
-  "id": "MODAL-FORK-T",
+  "id": "0be37d73-c1f3-5936-8f11-96d34b75c0df",
   "label": "NECESSARY_2 in KT for the root, from the T schema by T correspondence",
-  "argument_id": "MODAL-FORK-T",
+  "legacy_id": "MODAL-FORK-T",
+  "argument_id": "03a8322c-8315-5859-9bbe-3a8c85ae3fab",
   "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
   "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
   "theorem": "TruthCore.Results.Causality.ModalSenseSupport.forkT",

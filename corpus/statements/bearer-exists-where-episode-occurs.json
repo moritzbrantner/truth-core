@@ -1,13 +1,15 @@
 {
-  "id": "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS",
+  "id": "f8b47cda-5ebf-532d-b951-b4f756076cc9",
+  "label": "At any world, whoever bears an episode that occurs at that world exists at that world",
+  "legacy_id": "STMT-BEARER-EXISTS-WHERE-EPISODE-OCCURS",
   "paraphrase": "OPEN analyst premise: at any world, whoever bears an episode that occurs at that world exists at that world.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.BearerExistsWhereEpisodeOccurs",
   "definition_ids": [
-    "DEF-EPISODE-OCCURS-AT",
-    "DEF-THOUGHT-BEARER",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "1943bfbb-396f-5f22-883b-b775d0f8e109",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

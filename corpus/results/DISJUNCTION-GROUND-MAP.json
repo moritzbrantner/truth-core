@@ -1,6 +1,8 @@
 {
-  "id": "DISJUNCTION-GROUND-MAP",
-  "argument_id": "DISJUNCTION-GROUND-MAP",
+  "id": "a35b5d79-8663-5a83-8099-8117c0709ead",
+  "label": "In the PSR comparison arena, for every arena, world a and fact d: one reason for d at every world…",
+  "legacy_id": "DISJUNCTION-GROUND-MAP",
+  "argument_id": "1dfcea7b-0872-5749-a612-d3aebb213629",
   "challenge_module": "TruthCore.Results.Explanation.DisjunctionGround.Challenge",
   "solution_module": "TruthCore.Results.Explanation.DisjunctionGround.Solution",
   "theorem": "TruthCore.Results.Explanation.DisjunctionGround.disjunctionGroundMap",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "id": "8bb35b88-18a7-5de0-b575-b5e48da4c23c",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a greatest…, by Constructive-proof",
+  "legacy_id": "INF-MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
   "input_statement_ids": [
-    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION",
-    "STMT-MAXIME-GREATEST-DEGREE-DEFINITION"
+    "078d4c69-9d31-56f0-8ddf-a3306f0d7a33",
+    "85975f1d-cac5-59f8-8104-bd112de183ad"
   ],
-  "output_statement_id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "output_statement_id": "2336e5b4-ba2f-5ffb-8798-0737505208c6",
   "rule": "constructive-proof",
   "meaning": "Calibration transport transcription: two independently supplied calibrations of the SAME primitive superlative yield the one-way maximal-to-greatest interface. Coextension is not philosophical or source identity.",
   "assumption_statement_ids": [],

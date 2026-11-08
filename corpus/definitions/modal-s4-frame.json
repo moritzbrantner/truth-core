@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S4-FRAME",
+  "id": "34ba79ad-8db0-50c3-bd6f-b91b8ce7e940",
+  "label": "S4 frame condition: FrameSatisfies.S4 F means exactly Reflexive F ∧ Transitive F. Reflexive means…",
+  "legacy_id": "DEF-MODAL-S4-FRAME",
   "term": "S4 frame condition",
   "definition": "FrameSatisfies .S4 F means exactly Reflexive F ∧ Transitive F. Reflexive means every world accesses itself; transitive means each two-step path gives a direct edge. No symmetry or Euclideanness is included.",
   "basis": "stipulative",

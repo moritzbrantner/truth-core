@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-TERM-SENSE-FORKS-3-20261108",
+  "id": "12ffd035-8eca-50ec-8584-ba0a6c519fd3",
+  "label": "Sense forks batch 3, each sense its own Lean declaration and one argument per sense",
+  "legacy_id": "ATTEMPT-TERM-SENSE-FORKS-3-20261108",
   "date": "2026-11-08",
   "statement_ids": [
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
-    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
-    "STMT-MAXIME-SENSES-EXHAUSTIVE",
-    "STMT-MAXIME-SENSE-UNIQUE",
-    "STMT-POTENCY-SENSES-EXHAUSTIVE",
-    "STMT-POTENCY-SENSE-UNIQUE"
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0881e859-c4c3-53ff-9bec-b61294e12d51",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030",
+    "89a4b3a6-c839-5599-b627-c55c2ba25b5f",
+    "2cdfbe6c-c889-5959-9241-81ecc4761c5a",
+    "887dea7d-64aa-54bb-8890-c105cd573f47",
+    "165ea3f2-f51a-5aa3-9e07-0020fddc69cb"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Sense forks batch 3 (#1233 B; docs/notes/load-bearing-terms.md), each sense its own Lean declaration and one argument per sense. Maxime ens at the root-route node STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS: MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL (instantiation), the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE (MAXIME_2) and MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST through a maximal-to-strict bridge derived from connectedness of more-in, shown needed by a tied-maxima model. Existence layer, at the quarta via's conclusion STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (which no root argument consumes): MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE and -AS-STRICTLY-GREATEST; the last two reach the MAXIMAL root node only through explicit sense bridges, each derived (degree tracking; asymmetry of more-in) and each shown needed by an omission model. The mixed reading (existence MAXIMAL, causal GREATEST-degree) fails in the incomparable-degree model; tied maxima separate MAXIME_1 from MAXIME_3 existence. Potency to STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT: ADOPTED needs no non-simultaneity premise (one premise fewer than the INDEPENDENT route AQUINAS-NO-SELF-MOTION-SAME-RESPECT); CAPACITY is valid but its non-simultaneity premise is refuted under an exercised capacity, which both Aristotle's builder and the Megarian thesis (with some capacity) supply; the mixed reading (moved CAPACITY, non-simultaneity ADOPTED) allows self-motion. Rejected leads: (1) an Anselmian constructor for maxime ens (conceptual description, no Lean declaration, no root use; a rival reading denies coverage); (2) reusing MaximumDefinitionFork.NamedCoverage, whose Frame is the calibration profile's declaration and would put a further sense's declaration into every per-sense theorem; (3) a Megarian constructor for potency (a thesis on the capacity relation, used as a premise instead); (4) forking DISAMB-PER-SE (homonyms: two senses already have distinct Lean types, two are epistemic statuses with no declaration, no root use admits two senses); (5) forking DISAMB-RECEPTIVE-POTENCY (receptive potency is a principle-to-act relation, a different Lean type from InPotency, so equivocation is already a type error). (6) first targeting STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL as the root-route node: it is not consumed by any argument reaching the root, so the per-sense layer was added at STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS.",
   "blocker": "Coverage and exclusivity of both forks are OPEN frontier premises. The maxime-ens sense bridges rest on the OPEN STMT-MORE-IN-BEING-CONNECTED (a total scale of being, which analogical being denies), the OPEN STMT-MORE-IN-BEING-TRACKS-DEGREE and STMT-MORE-IN-IS-ASYMMETRIC. STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY is open; STMT-SOME-CAPACITY-EXERCISED is open. DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER was not reached: DEF-MUTABLE-THROUGH-ANOTHER has no Lean declaration (needs: a typed power-in-another relation over beings and respects).",
   "evidence": [
-    "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
-    "MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
-    "MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
-    "POTENCY-SENSE-FORK-NO-SELF-MOTION",
-    "NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
-    "TERM-SENSE-FORKS-3-CONTROLS"
+    "0a95d946-d7d5-559e-bd0e-66841d6beb62",
+    "4519a560-5977-5258-9878-a3aa7eecccd4",
+    "240f1678-abc5-5aa9-ace3-9241464dff7f",
+    "90953cb8-cef9-552b-bdab-4786e82aaf32",
+    "84037be4-213f-572c-9aa6-6960d4030aec",
+    "06f23500-cdaa-5797-b9a2-fe6d47e24a34"
   ]
 }

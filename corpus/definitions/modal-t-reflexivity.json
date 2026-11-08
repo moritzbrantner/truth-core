@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-T-REFLEXIVITY",
+  "id": "b6ddbdde-8055-5632-b934-ccd5eb79bbeb",
+  "label": "T_REFLEXIVITY_1: Reflexive F means every world w accesses itself",
+  "legacy_id": "DEF-MODAL-T-REFLEXIVITY",
   "term": "T reflexivity",
   "definition": "Reflexive F means every world w accesses itself. It supplies the same world as a possibility witness and licenses Box P w implies P w. It asserts neither symmetry nor transitivity, and imposes no proposition-domain completeness or world-extensionality premise.",
   "basis": "stipulative",

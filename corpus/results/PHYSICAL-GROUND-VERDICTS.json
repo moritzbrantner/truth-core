@@ -1,6 +1,8 @@
 {
-  "id": "PHYSICAL-GROUND-VERDICTS",
-  "argument_id": "PHYSICAL-GROUND-VERDICTS",
+  "id": "30c7c477-6353-55d7-a29d-03f878baf90f",
+  "label": "Verdicts on fixed analyst-built models; none is shown metaphysically possible",
+  "legacy_id": "PHYSICAL-GROUND-VERDICTS",
+  "argument_id": "9c6d882a-8183-50d2-af6b-a628dd53f097",
   "challenge_module": "TruthCore.Results.Alternatives.PhysicalGround.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PhysicalGround.Solution",
   "theorem": "TruthCore.Results.Alternatives.PhysicalGround.verdicts",

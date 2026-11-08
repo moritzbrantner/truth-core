@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-KNOWLEDGE-RETORSION",
+  "id": "6cf199a2-4437-56f6-8e12-99d93f2822c0",
+  "label": "For any agent type and propositional knowledge predicate, if knowledge is…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-KNOWLEDGE-RETORSION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-FACTIVE-KNOWER-OF-UNIVERSAL-NO-KNOWLEDGE",
+  "output_statement_id": "53515f2a-068a-5f75-8f79-1c97dbd3f87b",
   "rule": "constructive-proof",
   "meaning": "Universal instantiation of factivity: knowing the proposition that no proposition is known would make that denial true and thereby refute the alleged knowledge. Factivity is an explicit antecedent inside the quantified conclusion; no assertion-to-knowledge bridge is assumed.",
   "assumption_statement_ids": [],

@@ -1,25 +1,27 @@
 {
-  "id": "STMT-MODAL-NECESSARY-BEING-HAS-BEING",
+  "id": "d76abd3e-6b06-52d0-994f-c819bed63897",
+  "label": "For the supplied Profile and selected world, the OLD NECESSARY_1-being-to-act proposition…",
+  "legacy_id": "STMT-MODAL-NECESSARY-BEING-HAS-BEING",
   "lean_declaration": "TruthCore.Causality.ModalNecessaryBeingActuality.ConfiguredHasBeing",
   "paraphrase": "For the supplied Profile and selected world, the OLD necessary-being-to-act proposition instantiated with modalPossible (accessible-world possibility) and modalIsAt (world-relative existence). Every candidate that cannot be absent at an accessible world is in the supplied act-in-esse extension. This is NOT the generic proposition over arbitrary temporal Possible/IsAt dictionaries.",
   "note": "Independent configured-instance identity under the corpus schema/instance boundary; the alias is definitionally the old type at this explicit dictionary. It supplies no reverse edge or generic-schema closure.",
   "definition_ids": [
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-BEING",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-MAXIME-ENS",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ACT",
-    "DEF-ESSE"
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-PER-SE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-IN-ACT",
-    "DISAMB-MAXIME-ENS"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

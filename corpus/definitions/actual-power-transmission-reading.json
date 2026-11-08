@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-POWER-TRANSMISSION-READING",
+  "id": "5aef0b49-016a-5716-9bd9-423d957b28ab",
+  "label": "Causal power as actual modeled…: In the #319 Profile, m.transmitsPower w y x records a power…",
+  "legacy_id": "DEF-ACTUAL-POWER-TRANSMISSION-READING",
   "term": "causal power as actual modeled exercise or transmission",
   "definition": "In the #319 Profile, m.transmitsPower w y x records a power transmitted from an existing source y to an existing target x in the selected world and power channel; Coherent additionally requires that y causes x there. A specific source-to-effect edge is required by Boundary. This is modeled causal activity, not a full account of physical production, temporal process, intrinsic potency or esse.",
   "basis": "stipulative",

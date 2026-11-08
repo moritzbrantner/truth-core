@@ -1,6 +1,8 @@
 {
-  "id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION",
-  "argument_id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION",
+  "id": "eddb8521-3c3f-518e-b7ec-17dfe141f8cc",
+  "label": "Nothing that is being moved in a respect…, from Each of the two uses of 'in act' in the… and 4 more",
+  "legacy_id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION",
+  "argument_id": "c10beed2-a743-56c8-8185-2a26b45aab44",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks2.noSelfMotionByActSenseFork",

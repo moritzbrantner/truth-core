@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-MOORE-UNKNOWABLE",
-  "argument_id": "FITCH-MOORE-UNKNOWABLE",
+  "id": "53fdb5fd-2bdc-5c06-b76d-ff801207922d",
+  "label": "The selected Moore conjunction cannot be known at…, from At every world modally accessible from…",
+  "legacy_id": "FITCH-MOORE-UNKNOWABLE",
+  "argument_id": "36a3a382-094f-5167-b003-182489a3f9e0",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.mooreUnknowable",

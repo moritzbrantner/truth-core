@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "STREET-DARWINIAN-DILEMMA",
+    "source_id": "d7ffb39e-a815-5d14-902f-3594feef66ef",
     "source_url": "https://www.sjsu.edu/people/kyle.yrigoyen/courses/132/s1/street---darwinian-dilemma.pdf",
     "retrieved_at": "2026-10-28T20:13:43Z",
     "sha256": "sha256:5925edb3e477b366aa3bd85cf76349ca4f7ccb5d1edfb1421d4e86cd88e7fd72",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "STREET-DARWINIAN-DILEMMA-FULL",
+      "id": "a92e6bf6-5464-5634-814b-118fdc71d05b",
+      "label": "Sharon Street, A Darwinian Dilemma for Realist Theories of Value, Philosophical Studies 127…",
+      "legacy_id": "STREET-DARWINIAN-DILEMMA-FULL",
       "locator": "Philosophical Studies 127 (2006), pp.109–166; complete published paper in one-up university teaching PDF",
       "claim_locator_prefixes": [
         "pp. "

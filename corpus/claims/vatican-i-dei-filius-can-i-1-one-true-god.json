@@ -1,13 +1,15 @@
 {
-  "id": "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD",
-  "statement_id": "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
-  "source_id": "VATICAN-I-DEI-FILIUS",
+  "id": "d490346d-d4cb-5768-bb39-98dafd581a62",
+  "label": "First Vatican Council, Dei Filius Can: In the Catholic practice, the First Vatican Council… (2)",
+  "legacy_id": "VATICAN-I-DEI-FILIUS-CAN-I-1-ONE-TRUE-GOD",
+  "statement_id": "f631f688-bb91-54d2-8662-b7c77a57c082",
+  "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
   "locator": "can. I.1, Si quis unum verum Deum visibilium et invisibilium Creatorem et Dominum negaverit; anathema sit",
   "interpretation": "Canon I.1: 'Si quis unum verum Deum visibilium et invisibilium Creatorem et Dominum negaverit; anathema sit.' Read as: the council defines, condemning its denial, the confession that there is one true God, creator and lord; that confession uses the name 'God' to say that there is a being it names (DEF-CONFESSES-REFERENT). Canon I.3 (God's substance is not one and the same with that of all things) and ch. 1 ('re et essentia a mundo distinctus') add that the being is distinct from the world; they are not needed for the premise. That the confession, if correct, makes the name refer is not stated here: it is the open bridge STMT-GRAMMAR-FIXES-REFERENCE.",
   "status": "formalized",
   "attribution": "The passage states that whoever denies the one true God, creator and lord of things visible and invisible, is anathema, which is the premise that the council defines, condemning its denial, the confession that there is one true God whom the name 'God' names.",
   "definition_ids": [
-    "DEF-CONFESSES-REFERENT",
-    "DEF-CONCILIAR-DEFINITION"
+    "690c81f2-b2ca-56a1-b77a-24bb49b75ced",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa"
   ]
 }

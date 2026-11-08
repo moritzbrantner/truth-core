@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S5-SYMMETRY-BOUNDARY",
-  "argument_id": "MODAL-S5-SYMMETRY-BOUNDARY",
+  "id": "e2a36f6f-0504-52e3-b348-90e8c11aadf4",
+  "label": "The reused reflexive transitive branching frame has possible full MC and independently witnessed…",
+  "legacy_id": "MODAL-S5-SYMMETRY-BOUNDARY",
+  "argument_id": "d03ead21-8fd8-5061-b831-db6cb5120c74",
   "challenge_module": "TruthCore.Results.Modal.S5.SymmetryBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.S5.SymmetryBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.S5.SymmetryBoundary.checks",

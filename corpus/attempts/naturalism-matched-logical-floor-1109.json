@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-NATURALISM-MATCHED-LOGICAL-FLOOR-1109",
+  "id": "82af4778-5376-5ad1-88a6-e4a2191e9c6c",
+  "label": "Inspected survivor context and F1/F6 dossiers",
+  "legacy_id": "ATTEMPT-NATURALISM-MATCHED-LOGICAL-FLOOR-1109",
   "date": "2026-11-07",
   "statement_ids": [
-    "STMT-NATURALISM-MATCHED-LOGICAL-FLOOR",
-    "STMT-NATURALISM-N1",
-    "STMT-CASE-NON-CONTRADICTION",
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-EXCLUDED-MIDDLE"
+    "89b040a1-6995-5861-b49e-4439d9a55e2e",
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "c425f0c5-6c3f-5115-ba04-3e61bd049e3b",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Inspected survivor context and F1/F6 dossiers. Reused exact public Cand/ontic/frame/inAct/power and part_ne_two from the existing survivor Solution; its anonymous reason relation has no public name, so the exact literal relation is exposed in a new comparison module. Reused LOGIC-NON-CONTRADICTION and N1-entails-N2. The displayed tuple certifies only its explicit same-dictionary properties, not an arbitrary witness extracted from the older existential package. The reasoner is actually present, located and a part; arbitrary partOf was NOT used to infer presence. EM is retained as a given argument; no Classical.choice axiom or claimed independent EM proof. The candidate named two is not silently identified with number2. Frozen Challenge committed1f39714c before Solution. Focused build, exact1-result binding and zero-axiom Comparator/NanoDa pass. Shared preview7c89dd9a accepted full content3e3841e9811bee3ea46107376512772e38d6b316598043490d8b69f4174aa3e3. New Challenge header was normalized to ordinary imports per AGENTS after discovering the packaging mistake; its exact advertised theorem signature is byte-identical to the original frozen statement and Solution proof is unchanged. Affected Challenge verification passed again with Comparator and NanoDa after packaging normalization; final CI remains required. Computed frontier-diff against 7c89dd9a: 128 open (67 bare, 18 supported, 43 stated) unchanged; cheapest route cost30 unchanged, no route delta. Claim/type self-sweep completed: only displayed fixed dictionaries and thin relational existence are claimed; no source attribution, floor approval, normative authority or reification added.",
   "blocker": "Actual-world adequacy, stronger ordinary/preference-independent epistemic force and reification of reasons/logic remain OPEN. This does not refute naturalism or establish a full naturalist theory; a purported incompatibility needs additional semantic/representation premises.",
   "evidence": [
-    "NATURALISM-MATCHED-LOGICAL-FLOOR",
-    "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
-    "LOGIC-NON-CONTRADICTION",
-    "NATURALISM-N1-ENTAILS-N2"
+    "272f0136-19e6-5055-ba90-9af10a449085",
+    "02881a46-16b8-555e-b29c-e4bba2877eb9",
+    "436b5818-6d34-5f15-b828-a9a7b56fbc31",
+    "d55672da-6600-5dfa-8eb5-93300d2f2984"
   ]
 }

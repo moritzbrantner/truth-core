@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
-  "argument_id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "id": "15ea518c-186e-5c12-9635-b8085c57dcd9",
+  "label": "Transparent universal assembly of ten previously frozen mathematical graph-bridge facts",
+  "legacy_id": "MODAL-GRAPH-BRIDGE-CERTIFICATE",
+  "argument_id": "30197030-2fdb-5808-81d9-6558dfb33560",
   "challenge_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Challenge",
   "solution_module": "TruthCore.Results.Modal.GraphBridgeCertificate.Solution",
   "theorem": "TruthCore.Results.Modal.GraphBridgeCertificate.certificate",

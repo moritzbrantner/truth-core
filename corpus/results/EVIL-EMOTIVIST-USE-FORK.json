@@ -1,6 +1,8 @@
 {
-  "id": "EVIL-EMOTIVIST-USE-FORK",
-  "argument_id": "EVIL-EMOTIVIST-USE-FORK",
+  "id": "33fda1e9-dccb-562b-8d04-d550b4714b37",
+  "label": "The selected evil utterance is not true…, from Excluded middle as a general principle… and 4 more",
+  "legacy_id": "EVIL-EMOTIVIST-USE-FORK",
+  "argument_id": "27fab0f5-5bd1-5a8e-9c2c-e600e1f6119b",
   "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.UseFork.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.EvilObjection.UseFork.Solution",
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.UseFork.emotivistUseFork",

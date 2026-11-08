@@ -1,6 +1,8 @@
 {
-  "id": "COUNT-CAUSE-TIME-POSITIVE-CONTROL",
-  "argument_id": "COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "id": "ee5ad954-6060-5dee-8b56-acb51403baa0",
+  "label": "On the EXACT unchanged…, from Excluded middle as a general principle…",
+  "legacy_id": "COUNT-CAUSE-TIME-POSITIVE-CONTROL",
+  "argument_id": "5b241768-3011-5bcf-9010-216fa1b572ca",
   "challenge_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Challenge",
   "solution_module": "TruthCore.Results.Causality.CountCauseTimeNecessity.Solution",
   "theorem": "TruthCore.Results.Causality.CountCauseTimeNecessity.checks",

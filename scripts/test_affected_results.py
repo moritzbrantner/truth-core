@@ -61,6 +61,17 @@ class AffectedResultsTest(unittest.TestCase):
     def select(self, *changed):
         return ar.select(self.root, changed)
 
+    def test_migrated_result_uses_its_record_and_config_paths(self):
+        from corpus_ids import legacy_uuid
+        path = self.root / 'corpus/results/RESULT-A.json'
+        record = json.loads(path.read_text())
+        record['id'] = legacy_uuid('result', 'RESULT-A')
+        record['legacy_id'] = 'RESULT-A'
+        path.write_text(json.dumps(record))
+        expected = ('subset', [record['id']])
+        self.assertEqual(self.select('corpus/results/RESULT-A.json'), expected)
+        self.assertEqual(self.select('results/RESULT-A/comparator.json'), expected)
+
     def test_transitive_import_change_selects_dependents(self):
         self.assertEqual(self.select("TruthCore/Base.lean"), ("subset", ["RESULT-A"]))
         self.assertEqual(self.select("TruthCore/Mid.lean"), ("subset", ["RESULT-A"]))

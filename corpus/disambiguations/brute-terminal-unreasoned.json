@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-BRUTE-TERMINAL-UNREASONED",
+  "id": "7aba7955-aa37-5b08-a170-8420d6142d78",
+  "label": "Brute",
+  "legacy_id": "DISAMB-BRUTE-TERMINAL-UNREASONED",
   "term": "brute",
   "sense_definition_ids": [
-    "DEF-PSR-RESTRICTED-SCOPE",
-    "DEF-STOP-TERMINAL",
-    "DEF-NO-BRUTE-FOUNDATION-NORM"
+    "fad6a806-713b-5318-8309-488af704d614",
+    "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
+    "69debc99-edc7-545b-b91c-a082bf7b2f87"
   ],
   "resolution": "Brute is read only as BruteAt (DEF-PSR-RESTRICTED-SCOPE): a contingent truth with no reason at the world. A necessary fact with no reason is unreasoned and not brute in this sense, and a contingent fact with a self-reason is not brute either. The first is terminal (DEF-STOP-TERMINAL), and the second is terminal only when it has no distinct reason, since a further external reason would make it nonterminal. The two norms of DEF-NO-BRUTE-FOUNDATION-NORM keep the senses apart: NoBruteFoundation uses brute, NoUnreasonedFoundation uses unreasoned. The results do not pass between them: ground false satisfies the first and fails the second. Brute says nothing about evidence for the fact; see DISAMB-REASON-EPISTEMIC-ONTIC.",
   "term_label": "BRUTE",
@@ -12,19 +14,19 @@
     {
       "id": "2e7d80b2-af98-4ecf-ab6a-64d5644d0b99",
       "label": "BRUTE_1",
-      "definition_id": "DEF-PSR-RESTRICTED-SCOPE",
+      "definition_id": "fad6a806-713b-5318-8309-488af704d614",
       "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.RestrictedPSR"
     },
     {
       "id": "f5212b2a-2b30-4ff6-9ff3-fb86fbba094d",
       "label": "BRUTE_2",
-      "definition_id": "DEF-STOP-TERMINAL",
+      "definition_id": "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
       "lean_declaration": "TruthCore.Explanation.StoppingPoints.Terminal"
     },
     {
       "id": "01a699bf-d7cf-4659-a15b-5cf6173e7d4b",
       "label": "BRUTE_3",
-      "definition_id": "DEF-NO-BRUTE-FOUNDATION-NORM",
+      "definition_id": "69debc99-edc7-545b-b91c-a082bf7b2f87",
       "lean_declaration": "TruthCore.Explanation.StoppingPoints.NoBruteFoundation"
     }
   ]

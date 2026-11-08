@@ -1,26 +1,28 @@
 {
-  "id": "NECESSARY-FACT-BOUNDARY",
+  "id": "93c57e7e-0511-51d0-9d15-a69654e4222e",
+  "label": "An unattributed composition: under explicit excluded middle, a REASON_CLOSED_ACCOUNT_4 containing a…",
+  "legacy_id": "NECESSARY-FACT-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NECESSARY-FACT-BOUNDARY",
+  "conclusion_statement_id": "c074659a-00ce-5498-9f4c-37201379736a",
   "inference_ids": [
-    "INF-NECESSARY-FACT-BOUNDARY"
+    "17ec454a-b91a-5eb7-a339-f67b8a896155"
   ],
   "meaning": "An unattributed composition: under explicit excluded middle, a reason-closed account containing a contingent explanandum and having well-founded contingent-reason ancestry has an actually true, necessarily true member admitted as a reason for some contingent member, and not all its reasons for contingent members necessitate. The reason need not directly explain the original target, be autonomous or lack its own reasons. The exact existing law interpretation jointly satisfies reason closure, target contingency, foundedness and this positive necessary-fact conclusion, while no individual is necessary. This derives no necessary concrete being and defends none of the explanatory or modal backgrounds. See docs/notes/explanatory-adequacy-750.md.",
   "definition_ids": [
-    "DEF-NECESSARY-FACT-BOUNDARY",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-EXPLANATORY-RIVALS",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-S5-CLASSICAL-REASONING",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "1480288c-931a-5982-a9b8-1a6e8585d3f8",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "5a3ef5f8-911c-5c18-bbe8-f2cabb2ceb1d",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "a225cc4c-68d8-5214-9476-91cd8f017431",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXPLANATORY-CONTRAST-STOP",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-NECESSARY"
+    "6a897910-d301-56c0-963d-d2f019de3de7",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GOD-IS-THE-PRIMARY-OF-BEING",
+  "id": "710dafa5-b329-5909-89ac-3f888081dcef",
+  "label": "Whatever is GOD_4 is the primary p of the order of being by approach, the being every other is…",
+  "legacy_id": "STMT-GOD-IS-THE-PRIMARY-OF-BEING",
   "paraphrase": "OPEN reading of ST I q.3 a.5 ad 2: whatever is God is the primary p of the order of being by approach, the being every other is measured against. Supported, not stated: the passage calls God the measure of all, not the unique such primary.",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.GodIsThePrimaryOfBeing",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+  "id": "171e4b66-0354-54a4-9afe-3401a047bcc1",
+  "label": "No intellectual exercise attributed to the designated principle is free of bodily sharing: the…",
+  "legacy_id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
   "paraphrase": "No intellectual exercise attributed to the designated principle is free of bodily sharing: the negation of STMT-HUMAN-INTELLECT-PER-SE-OPERATION. This does not concern subsistence directly and does not say that the principle has any exercise.",
   "lean_declaration": "TruthCore.Alternatives.MindPhysicalism.NoPerSeIntellectualOperation",
   "definition_ids": [
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING"
+    "05392ecb-bde5-5fff-8c64-ab61c20bc96a"
   ]
 }

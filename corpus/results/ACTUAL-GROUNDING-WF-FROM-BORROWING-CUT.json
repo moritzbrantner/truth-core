@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
-  "argument_id": "ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
+  "id": "2ad760e4-d823-51e5-8ba6-5e302af49bfd",
+  "label": "The profile's selected relation at w, restricted to candidates that are…, from borrowing cut",
+  "legacy_id": "ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT",
+  "argument_id": "b7edd1ab-0ca5-5dbf-a848-a7f933a439f4",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.actualWfOfBorrowingEscape",

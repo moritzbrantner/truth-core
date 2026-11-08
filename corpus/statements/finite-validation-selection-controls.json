@@ -1,11 +1,13 @@
 {
-  "id": "STMT-FINITE-VALIDATION-SELECTION-CONTROLS",
+  "id": "d12f0b83-9590-59f1-bd7d-81e0089a8396",
+  "label": "On a genuine uniform four-point probability space with truthful labels constantly equal to Boolean…",
+  "legacy_id": "STMT-FINITE-VALIDATION-SELECTION-CONTROLS",
   "paraphrase": "On a genuine uniform four-point probability space with truthful labels constantly equal to Boolean false, a memorizer is correct at its selected point and wrong at the other three, hence has actual error 3/4. Selecting its point from one validation observation makes it pass every sample; the joint bad-pass event at epsilon 1/2 has probability 1, exceeding the misapplied singleton bound 1/2. A fixed such candidate instead passes with strictly positive probability (1/4)^n at every finite horizon; its bad-pass event equals its pass event. This separates predeclared-pool selection from unrestricted posthoc selection and joint false-acceptance risk from posterior confidence conditional on passing. It supplies no actual-world calibration, epistemic ought or root closure.",
   "lean_declaration": "TruthCore.Logic.FiniteValidationLogic.SelectionControls",
   "definition_ids": [
-    "DEF-FINITE-PRODUCT-VALIDATION"
+    "11da445b-7c92-546d-b51e-5951a1caed76"
   ],
   "disambiguation_ids": [
-    "DISAMB-VALIDATION-RISK-AND-WARRANT"
+    "59445ce7-0ceb-53ba-bb58-a444b5289a13"
   ]
 }

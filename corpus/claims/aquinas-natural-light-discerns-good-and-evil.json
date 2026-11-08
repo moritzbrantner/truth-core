@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-NATURAL-LIGHT-DISCERNS-GOOD-AND-EVIL",
-  "statement_id": "STMT-AQUINAS-NATURAL-LIGHT-DISCERNS-GOOD-AND-EVIL",
-  "source_id": "AQUINAS-ST",
+  "id": "037b9e60-2651-5ca6-9e83-2aaeb2b44dc2",
+  "label": "Thomas Aquinas, Summa theologiae I ii q.91…: Aquinas, ST i ii q.91 a.2: the light of natural…",
+  "legacy_id": "AQUINAS-NATURAL-LIGHT-DISCERNS-GOOD-AND-EVIL",
+  "statement_id": "910dcf88-dbf9-53f2-9d73-2163610073b9",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I-II q.91 a.2 s.c. and co., lumen rationis naturalis, quo discernimus quid sit bonum et malum",
   "interpretation": "I-II q.91 a.2 s.c.: on Rom 2:14 the Gloss says 'etsi non habent legem scriptam, habent tamen legem naturalem, qua quilibet intelligit et sibi conscius est quid sit bonum et quid malum'; co.: 'lumen rationis naturalis, quo discernimus quid sit bonum et malum, quod pertinet ad naturalem legem, nihil aliud sit quam impressio divini luminis in nobis'. About practical reason (good and evil), not knowledge of God's existence.",
   "status": "formalized",

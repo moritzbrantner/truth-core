@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DISTINCT-THROUGH-GROUND-PROFILE",
+  "id": "a7dedd90-d930-578f-a9ed-c4b35aa70ff5",
+  "label": "Distinct-source through relation as…: The derived Profile preserves exactly the Context…",
+  "legacy_id": "DEF-DISTINCT-THROUGH-GROUND-PROFILE",
   "term": "distinct-source through relation as selected grounding",
   "definition": "The derived Profile preserves exactly the Context reality.ontic and a supplied concrete predicate. grounds w source target means through w target source and source ≠ target. Self-through does not become a ground edge. No actuality, adequacy, foundation or dependence law follows from this data adapter; those application premises remain explicit.",
   "lean_declaration": "TruthCore.Explanation.NecessaryUltimateSource.distinctGroundProfile",

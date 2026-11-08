@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISODE-OCCURRENCE",
+  "id": "b76d69b8-2399-54c3-862b-ceeccdf23144",
+  "label": "Occurrence of an assertion or…: Occurs: Episode → Prop is a primitive interpretation over a…",
+  "legacy_id": "DEF-EPISODE-OCCURRENCE",
   "term": "occurrence of an assertion or experience episode",
   "definition": "`Occurs : Episode → Prop` is a primitive interpretation over a possibly empty episode carrier. A token `e` actually occurs only when `Occurs e` is independently supplied; neither mentioning a token nor interpreting its content asserts occurrence. `NoEpisodeOccurs Occurs` abbreviates `¬ ∃ e, Occurs e`.",
   "basis": "stipulative",

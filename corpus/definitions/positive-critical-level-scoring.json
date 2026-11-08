@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POSITIVE-CRITICAL-LEVEL-SCORING",
+  "id": "2f3147b3-74c5-5cb9-bb1e-2c4a13c2760a",
+  "label": "Positive critical-level population…: Critical c p sums welfare minus c for each individual",
+  "legacy_id": "DEF-POSITIVE-CRITICAL-LEVEL-SCORING",
   "term": "positive critical-level population scoring",
   "definition": "critical c p sums welfare minus c for each individual. For c>0, adding a life with 0<w<c strictly reduces critical score despite increasing ordinary total; c/2 refutes universal positive-life scoring. This policy and average welfare are formal alternatives with distinct mere-addition costs, not normative recommendations.",
   "basis": "stipulative",

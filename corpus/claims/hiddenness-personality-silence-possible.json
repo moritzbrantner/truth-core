@@ -1,17 +1,19 @@
 {
-  "id": "REA-SILENCE-PERSONALITY-SILENCE-POSSIBLE",
-  "statement_id": "STMT-HIDDENNESS-PERSONALITY-SILENCE-POSSIBLE",
-  "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+  "id": "7da7499d-c024-5ca5-a050-3977a82e3ed9",
+  "label": "Michael C. Rea, Divine Hiddenness Divine…: Rea proposes divine silence as an expression of divine…",
+  "legacy_id": "REA-SILENCE-PERSONALITY-SILENCE-POSSIBLE",
+  "statement_id": "fd5c1f55-59ae-5ebb-bb40-3d8a17a22960",
+  "source_id": "89625e16-6abe-5a5f-a21d-e856a11de80d",
   "locator": "Divine Hiddenness, Divine Silence, pp. 271–272, The Personality of God?; p. 274 concluding conditions",
   "interpretation": "The source’s conditional proposal is preserved. Transcendence cautions against interpreting silence as human indifference; it is not a license to infer a sufficient reason for every actual gap. Rea explicitly says absence of any way of finding God would indicate lack of concern.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+    "ff4cfd4c-1116-5531-b959-34a8fbe626cd",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-RELATIONSHIP"
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "a4359a96-a726-5755-8359-a02b64f42f15"
   ]
 }

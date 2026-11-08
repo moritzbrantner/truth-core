@@ -1,9 +1,11 @@
 {
-  "id": "INF-MEANING-V2-CALIBRATION-REJECTED",
+  "id": "4fad4c8f-62c5-5cdb-b3c1-4ee6847c2da6",
+  "label": "V2 fails to calibrate the supplied cognitive-meaning predicate on the…, by Constructive-proof",
+  "legacy_id": "INF-MEANING-V2-CALIBRATION-REJECTED",
   "input_statement_ids": [
-    "STMT-MEANING-V2-EXCLUDED-TARGET"
+    "ed056065-c976-5bb2-920c-779dd97f45eb"
   ],
-  "output_statement_id": "STMT-MEANING-NOT-V2",
+  "output_statement_id": "d7f2fa30-9254-5214-9714-cc7909c1d7ca",
   "rule": "constructive-proof",
   "meaning": "Compose the existing unrestricted-auxiliary construction with the independent excluded target. The V2 admission contradicts its calibration at that exact target; no inference from meaninglessness to untruth.",
   "assumption_statement_ids": [],

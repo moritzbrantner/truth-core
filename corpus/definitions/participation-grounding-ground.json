@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-GROUND",
+  "id": "c9c7c2cc-f7bc-5201-8e7c-872b08754a62",
+  "label": "METAPHYSICAL_GROUNDING_2: Grounds a b is the separately interpreted directed relation of a…",
+  "legacy_id": "DEF-PARTICIPATION-GROUND",
   "term": "metaphysical grounding",
   "definition": "Grounds a b is the separately interpreted directed relation of a grounding b, using Fact tokens. It is distinct from material implication, Forms.Explains, efficient causation and epistemic identification. Neither asymmetry nor actuality follows from the interface alone.",
   "basis": "stipulative",

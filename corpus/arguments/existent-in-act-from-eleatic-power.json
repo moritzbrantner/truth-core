@@ -1,21 +1,23 @@
 {
-  "id": "EXISTENT-IN-ACT-FROM-ELEATIC-POWER",
+  "id": "9fb695f9-6aee-5ba0-9fb7-735977c2a362",
+  "label": "At the selected world every existent is in act in some respect, from eleatic power",
+  "legacy_id": "EXISTENT-IN-ACT-FROM-ELEATIC-POWER",
   "premise_statement_ids": [
-    "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER",
-    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+    "ae68972c-175a-5e68-86fb-f69fa30e2054",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31"
   ],
-  "conclusion_statement_id": "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
+  "conclusion_statement_id": "adf07168-21a9-5ea3-83b1-7d404f3f6421",
   "inference_ids": [
-    "INF-EXISTENT-IN-ACT-FROM-ELEATIC-POWER"
+    "6df10298-7dee-5fa4-aaec-b79ca0fef4c3"
   ],
   "meaning": "The intermediate step of the Eleatic route: from the OPEN Eleatic principle and the q.25 a.1 reading, every existent at w is in act in some respect (no respect named).",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-POWER-CAPACITY-READING"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

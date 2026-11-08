@@ -1,19 +1,21 @@
 {
-  "id": "TELEONOMY-GOVERNED-MECHANISMS",
+  "id": "dd9161b0-60ba-5cc1-b4e4-7f2e1338f67f",
+  "label": "The closed facts about the selection filter and the coupling dynamics hold alongside a Fifth-Way…",
+  "legacy_id": "TELEONOMY-GOVERNED-MECHANISMS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TELEONOMY-GOVERNED-MECHANISMS",
+  "conclusion_statement_id": "0cb5a545-3c8c-5faa-be9e-6fc969266c5c",
   "inference_ids": [
-    "INF-TELEONOMY-GOVERNED-MECHANISMS"
+    "65d2d8e4-b34b-5c73-8520-98eda751fe6a"
   ],
   "meaning": "Exactly the same selection filter and coupling dynamics coexist with broad immanent tending and one intelligent director. Thus mechanism alone implies neither atheism nor rejection of broad final causality. Logical compatibility, not an attributed theological interpretation.",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

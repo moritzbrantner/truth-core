@@ -1,6 +1,8 @@
 {
-  "id": "GOEDEL-1970-INCONSISTENT",
-  "argument_id": "GOEDEL-1970-INCONSISTENT",
+  "id": "14f37547-00fa-51ba-93e4-56699dc49215",
+  "label": "The Kripke model has no world, from Gödel's 1970 axiom Ax2a: at every world… and 2 more",
+  "legacy_id": "GOEDEL-1970-INCONSISTENT",
+  "argument_id": "39c9d35f-d487-52a3-85c4-8cdc7de16e6f",
   "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.Inconsistency.inconsistency",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "id": "89dfb9ca-586e-5bef-ae7d-fb1337e2df74",
+  "label": "Truth of the selected content at actuality implies double-negated knowledge…, by Constructive-proof",
+  "legacy_id": "INF-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
   "input_statement_ids": [
-    "STMT-FITCH-RELEVANT-LAWS",
-    "STMT-FITCH-MOORE-INSTANCE"
+    "51c7ef24-a720-52f1-8f04-49f242269266",
+    "8dc79019-29fe-57a6-83a6-e2f7278efcba"
   ],
-  "output_statement_id": "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "output_statement_id": "8f1344cf-ae54-5fd0-9af4-18065892dcea",
   "rule": "constructive-proof",
   "meaning": "Compose the checked Moore obstruction with the single Moore knowability instance. An actual truth plus negated knowledge would make the unknowable conjunction possibly known. The reductio yields double-negated knowledge constructively, not a positive knowledge witness.",
   "assumption_statement_ids": [],

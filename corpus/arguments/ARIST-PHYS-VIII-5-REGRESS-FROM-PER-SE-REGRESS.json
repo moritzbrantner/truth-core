@@ -1,30 +1,32 @@
 {
-  "id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "8b7ee918-e4db-52b3-ae09-afd5fc4c6577",
+  "label": "Additional commitment, not attributed to Aristotle: every being is accessible…, from PER_SE_1…",
+  "legacy_id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
   "premise_statement_ids": [
-    "STMT-MOVING-IS-IN-THE-MOVED",
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+    "fe09fcd0-c767-5218-9d97-9a170f91a64f",
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "226c38f6-7bf4-552a-9a85-733cfa41d0fa"
   ],
-  "conclusion_statement_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+  "conclusion_statement_id": "0ac8f77a-e047-56ee-a4fe-267aa56c16d0",
   "inference_ids": [
-    "INF-ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS"
+    "3093f5a2-c428-5f72-8c4f-c78ff102802c"
   ],
   "meaning": "The prima via's regress premise, with Physics III.3, entails the additional accessibility commitment for the VIII.5 mover relation. Not a transcription: induction on accessibility through three premises, and premisesNeeded shows each is needed. It shows that this accessibility commitment is no further commitment for the root routes once III.3 is granted; it does not discharge any prima via premise. Connects results; closes nothing. Its conclusion is not attributed to Aristotle; the distinct source claim prohibits only infinitely many distinct movers.",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVED-BY-ANOTHER",
-    "DEF-PER-SE-LINK-STRONG",
-    "DEF-PER-SE-ORDERED-SERIES"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING",
-    "DISAMB-PER-SE",
-    "DISAMB-PER-SE-LINK"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ],
   "strong_version_needed": {
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, retaining III.3 and the per-se regress premise while the VIII.5 mover-moved-by-another relation is not well founded. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, retaining III.3 and the per-se regress premise while the VIII.5 mover-moved-by-another relation is not well founded. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
   }
 }

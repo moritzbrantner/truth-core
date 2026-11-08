@@ -1,21 +1,23 @@
 {
-  "id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "id": "097bea50-9408-58b7-8f2b-564961ebb711",
+  "label": "Four exact extensions of the old Megarian Unit models: no-MOTION_1 model satisfies Megarian thesis…",
+  "legacy_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MEGARIAN-MOVED-POTENCY-BOUNDARY-CONTROLS",
+  "conclusion_statement_id": "14b6b974-a8ff-5387-8135-94865c3cb6bc",
   "inference_ids": [
-    "INF-MEGARIAN-MOVED-POTENCY-BOUNDARIES"
+    "8f763aa8-481a-5e1b-a331-a816c285a281"
   ],
   "meaning": "Reuse the old finite Megarian models without changing their fields, extending only InPotency. Check actual-motion and interpretation omissions, the guarded negative branch and strictness of the weaker analysis.",
   "definition_ids": [
-    "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-POTENCY",
-    "DEF-MOTION-AS-REDUCTION"
+    "2d9a0a6a-3406-55f0-ad49-d9963fdaf116",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

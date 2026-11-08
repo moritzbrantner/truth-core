@@ -1,19 +1,21 @@
 {
-  "id": "DIVINE-FOUNDING-DEFINITION-MODELS",
+  "id": "ce7f6078-b175-53f7-ab18-ddb495d64508",
+  "label": "Five finite schema controls under the explicit stage antecedents: both minimal named readings hold…",
+  "legacy_id": "DIVINE-FOUNDING-DEFINITION-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-DIVINE-FOUNDING-DEFINITION-MODELS",
+  "conclusion_statement_id": "285743b6-429e-5fe1-9a83-c166a56197f8",
   "inference_ids": [
-    "INF-DIVINE-FOUNDING-DEFINITION-MODELS"
+    "84691769-61a5-5e4d-946a-9618fff99b18"
   ],
   "meaning": "Five explicit finite controls reuse the old DivineFounding modelSig/modelAgency and stage-antecedent theorem. Overlap, each named-only branch and genuinely different extensions are witnessed. The two remainder witnesses yield opposite old-bridge verdicts; immediate-only does not by itself force falsity. Exported model properties are exactly the listed conjunctions, not historical or metaphysical truth.",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

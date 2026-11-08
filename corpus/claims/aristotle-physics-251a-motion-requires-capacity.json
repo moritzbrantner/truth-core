@@ -1,17 +1,19 @@
 {
-  "id": "ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A",
-  "source_id": "ARIST-PHYS",
+  "id": "a7d06714-fe33-54ba-a007-1c86ae60dbaf",
+  "label": "Aristotle, Physics VIII.1, 251a8-16: Whatever undergoes MOTION_2 in a physical respect is in…",
+  "legacy_id": "ARIST-PHYS-251A-MOTION-REQUIRES-CAPACITY-A",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.1, 251a8-16",
-  "statement_id": "STMT-PHYSICAL-MOTION-REQUIRES-CAPACITY",
+  "statement_id": "a12e77b7-8e9b-5c34-a0ac-61108f0ad15b",
   "interpretation": "Respect-indexed capacity reading: whatever undergoes physical motion is capable of that particular motion, as what alters is alterable and what changes place is locally changeable. InPotency represents this capacity toward the terminus, not an assertion that capacity was present at an earlier time. The reading isolates the capacity requirement; the actuality definition and the subsequent temporal priority of combustible and burner are not encoded. No converse and no extension to every nonphysical reduction from potency to act is attributed to this passage.",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ],
   "status": "formalized"
 }

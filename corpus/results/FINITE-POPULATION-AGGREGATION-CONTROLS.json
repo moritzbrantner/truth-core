@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-POPULATION-AGGREGATION-CONTROLS",
-  "argument_id": "FINITE-POPULATION-AGGREGATION-CONTROLS",
+  "id": "d1af3954-7663-57ca-b75a-6db3b3179bea",
+  "label": "On a stipulated common cardinal interpersonal real welfare scale, every finite nonempty population…",
+  "legacy_id": "FINITE-POPULATION-AGGREGATION-CONTROLS",
+  "argument_id": "98c5ffd2-1a2a-5fc4-aa85-5b373fb23c99",
   "challenge_module": "TruthCore.Results.Ethics.PopulationAggregation.Challenge",
   "solution_module": "TruthCore.Results.Ethics.PopulationAggregation.Solution",
   "theorem": "TruthCore.Results.Ethics.PopulationAggregation.controls",

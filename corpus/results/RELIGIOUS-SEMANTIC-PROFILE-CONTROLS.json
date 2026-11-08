@@ -1,6 +1,8 @@
 {
-  "id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
-  "argument_id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "id": "ebd8974c-8bf8-55b8-bf1d-9a6a812ba418",
+  "label": "Three coarse schema controls: local face-value status with a matched religious truth difference…",
+  "legacy_id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS",
+  "argument_id": "e5278bae-cbde-54cb-9b30-cb70eda8faf4",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Models.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Models.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticModels",

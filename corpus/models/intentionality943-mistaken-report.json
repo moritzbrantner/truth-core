@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-INTENTIONALITY943-MISTAKEN-REPORT",
+  "id": "ee1ad911-0b5c-5d43-bfd0-c4753572b9f7",
+  "label": "Single-deletion interpretation of the intentionality943 error core, keeping a nonempty… (2)",
+  "legacy_id": "MODEL-INTENTIONALITY943-MISTAKEN-REPORT",
   "description": "Single-deletion interpretation of the intentionality943 error core, keeping a nonempty, causally efficacious reductive target kind. The proposed report is false; its identification with false external content holds. The as-affected correctness qualification fails. Formal satisfiability only, not actual cognition or metaphysical possibility.",
   "vocabulary": "INTENTIONALITY943",
   "lean_declaration": "TruthCore.Models.Intentionality943.mistakenReport",
@@ -50,7 +52,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-INTENTIONALITY943-ERROR",
+      "statement_id": "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
       "value": "satisfies",
       "arguments": [
         "Occurrence",
@@ -63,7 +65,7 @@
       "theorem": "TruthCore.Models.Intentionality943.mistakenError"
     },
     {
-      "statement_id": "STMT-INTENTIONALITY943-REPORT-CORRECT",
+      "statement_id": "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51",
       "value": "violates",
       "arguments": [
         "Occurrence",
@@ -76,7 +78,7 @@
       "theorem": "TruthCore.Models.Intentionality943.mistakenReportIncorrect"
     },
     {
-      "statement_id": "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT",
+      "statement_id": "d49bede3-ad6e-5f07-a642-19b526eb2f61",
       "value": "satisfies",
       "arguments": [
         "Occurrence",

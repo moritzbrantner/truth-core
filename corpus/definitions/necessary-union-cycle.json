@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-UNION-CYCLE",
+  "id": "634649e1-c424-59f4-9124-7c2ae360f0a5",
+  "label": "Nonempty cycle in the…: There exists a necessary individual b such that Relation.TransGen of the…",
+  "legacy_id": "DEF-NECESSARY-UNION-CYCLE",
   "term": "nonempty cycle in the necessary-support union",
   "definition": "There exists a necessary individual b such that Relation.TransGen of the union relation restricted to the necessary subtype holds from b back to b. TransGen requires at least one edge, unlike reflexive-transitive reachability. This permits loops or longer closed walks and does not require a simple cycle. A separate component may contain a source.",
   "basis": "stipulative",

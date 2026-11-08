@@ -1,24 +1,26 @@
 {
-  "id": "EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY",
+  "id": "425afcd6-3304-5142-9ab5-830076908a40",
+  "label": "Selected-world one-way contract: each individual represented as existent in…, from some actuality",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY",
   "premise_statement_ids": [
-    "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+    "adf07168-21a9-5ea3-83b1-7d404f3f6421",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
   ],
-  "conclusion_statement_id": "STMT-EXISTING-IN-ACT-AT",
+  "conclusion_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
   "inference_ids": [
-    "INF-EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY"
+    "9c0d5e1e-ed5c-530d-a23f-a20be6c4b3be"
   ],
   "meaning": "Derives the selected-world esse contract (every existent at w is in act of esse) from the OPEN premise that every existent at w is in act in some respect and the q.4 a.1 ad 3 reading that whatever is in act in some respect is in act of esse. Only the one-way contract follows; existence from esse is not derived.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-COGITO-ESSE-PROFILE",
-    "DEF-ESSE",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-IN-ACT"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

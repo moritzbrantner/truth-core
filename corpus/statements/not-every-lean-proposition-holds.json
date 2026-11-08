@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NOT-EVERY-LEAN-PROPOSITION-HOLDS",
+  "id": "484ff137-4e6e-5572-88d4-39f080ace82a",
+  "label": "Inside Lean logic, ¬. Dual of not every lean proposition fails",
+  "legacy_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-HOLDS",
   "paraphrase": "Inside Lean logic, ¬ (∀ P : Prop, P). Dual of STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.NotEveryPropositionHolds",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

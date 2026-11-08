@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-THIRD-MAN-NONIDENTITY",
+  "id": "7a593478-3895-5bf0-b87d-3417ed1088c7",
+  "label": "Separation (2)",
+  "legacy_id": "DISAMB-THIRD-MAN-NONIDENTITY",
   "term": "separation",
   "sense_definition_ids": [
-    "DEF-PLATONIC-NONIDENTITY",
-    "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY"
+    "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+    "0e46bfe6-5b88-5209-bb7c-de08c176b7fb"
   ],
   "resolution": "The regress uses numerical inequality against every participant, including Forms. Foundation nonidentity covers only participating particulars; ontological independence is a different predicate. Neither supplies the stronger universal inequality without an extra premise.",
   "term_label": "SEPARATION",
@@ -11,13 +13,13 @@
     {
       "id": "f5321de4-6205-47fd-853f-5bd229776be7",
       "label": "SEPARATION_4",
-      "definition_id": "DEF-PLATONIC-NONIDENTITY",
+      "definition_id": "408fb3a5-02ea-53ca-a79d-32134c6cac69",
       "lean_declaration": "TruthCore.Greek.Plato.Forms.Nonidentity"
     },
     {
       "id": "079c28e7-8577-47ba-8265-2c56763a6794",
       "label": "SEPARATION_5",
-      "definition_id": "DEF-THIRD-MAN-PARTICIPANT-NONIDENTITY",
+      "definition_id": "0e46bfe6-5b88-5209-bb7c-de08c176b7fb",
       "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.ParticipantNonidentity"
     }
   ]

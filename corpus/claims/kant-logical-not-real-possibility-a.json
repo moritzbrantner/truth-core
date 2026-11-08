@@ -1,16 +1,18 @@
 {
-  "id": "KANT-LOGICAL-NOT-REAL-POSSIBILITY-A",
-  "statement_id": "STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY",
-  "source_id": "KANT-CPR",
+  "id": "5799536e-1af2-5a6e-9ad0-5dee9b141a8c",
+  "label": "Immanuel Kant, Critique of Pure Reason…: Absence of contradiction in thinking nonexistence is a…",
+  "legacy_id": "KANT-LOGICAL-NOT-REAL-POSSIBILITY-A",
+  "statement_id": "e0d669a3-f76d-5d82-bb75-7ff9236d083b",
+  "source_id": "6677e01b-8659-5803-a967-9cbaa66f46ca",
   "locator": "Analytic, Phenomena and Noumena, A244/B302; paragraph “The conception of quantity”, discussion of contingency",
   "interpretation": "The text calls the noncontradictoriness argument a merely logical condition insufficient for objective nonexistence. No general equation of possibility with observed actuality is asserted; the modal models remain analyst’s interpretations, not evidence of real possibility.",
   "basis": "translation",
   "status": "formalized",
   "definition_ids": [
-    "DEF-KANT-LOGICAL-POSSIBILITY",
-    "DEF-KANT-REAL-POSSIBILITY"
+    "b3a3b7c0-f390-56f1-a1e6-2818040ad822",
+    "785c6195-9181-5926-9bfd-30e030e25e38"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-POSSIBILITY"
+    "3beb9f91-1fa1-5f15-9223-418da8039017"
   ]
 }

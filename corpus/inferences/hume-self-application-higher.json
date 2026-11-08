@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-SELF-APPLICATION-HIGHER",
+  "id": "8cb78a62-4530-50a1-8c1a-a57fc08a34f0",
+  "label": "The existing ordinary self-application and necessary-bridge conflict laws remain…, by Direct-proof",
+  "legacy_id": "INF-HUME-SELF-APPLICATION-HIGHER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-SELF-APPLICATION-HIGHER",
+  "output_statement_id": "db0eca24-d7b0-5160-8f3c-c0deda3f6431",
   "rule": "direct-proof",
   "meaning": "Reuse the two proved laws from HUME-CONCEIVABILITY-TESTS, instantiate H at necessary denial, then use self-access at the witness or a successor plus transitivity to expose H and ¬H at the same world.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190B-MATTER-PRIVATION-A",
-  "statement_id": "STMT-MATTER-SUBJECT-PRIVATION-INCIDENTAL",
-  "source_id": "ARIST-PHYS",
+  "id": "2f6d414c-c6f0-5960-809d-5a98f9858d27",
+  "label": "Aristotle, Physics I.7, 190b29-34: Underlying matter is the non-incidental subject from which a…",
+  "legacy_id": "ARIST-PHYS-190B-MATTER-PRIVATION-A",
+  "statement_id": "2d7fabd7-2299-5f02-86dd-0aef153e1a80",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190b29-34",
   "interpretation": "Matter is the numerically identifiable, non-incidental subject of generation, while privation and contrariety belong incidentally. This does not make matter a fully determinate substance independent of form.",
   "status": "formalized"

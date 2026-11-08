@@ -1,20 +1,22 @@
 {
-  "id": "STMT-ATOMLESS-COMPLETE-FUSION-MODEL",
+  "id": "126d0617-539d-5f4f-a6c1-478f1bca6c55",
+  "label": "The nonempty Mathlib regular open real regions jointly satisfy exact remainders, every…",
+  "legacy_id": "STMT-ATOMLESS-COMPLETE-FUSION-MODEL",
   "paraphrase": "The nonempty Mathlib regular open real regions jointly satisfy exact remainders, every nonempty-family Sum1 and Sum2, every object having a strict proper part, absence of a least object, and infinitude. This is a mathematical interpretation, not actual physical gunk.",
   "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.GunkCertificate",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
-    "DEF-REGULAR-REAL-REGION-MEREOLOGY",
-    "DEF-ATOMIC-FUSION-CONTRAST",
-    "DEF-FINITE-NO-GUNK"
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "e69257ea-29f2-5b04-b942-a2f865a5e992",
+    "416dfd08-eb27-5d9a-b2cd-fc8c7a7c2981",
+    "870ea6ed-87f4-504b-bef4-51bb8c7492c1",
+    "ce255283-4a83-5a4a-ab5b-d58d01c792cf"
   ],
   "disambiguation_ids": [
-    "DISAMB-GUNK-FUSION-AND-PHYSICAL-COMPOSITION",
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "893a8e17-13a9-5a0d-b5e1-a9bbb9a4167f",
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

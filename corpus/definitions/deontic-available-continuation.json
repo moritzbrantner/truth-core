@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DEONTIC-AVAILABLE-CONTINUATION",
+  "id": "2ffca475-f8ae-5f4c-a952-e80a94e5a281",
+  "label": "RELATION_RELATIVE_POSSIBLE_FULFILLMENT_2: Can available w p means there exists v with…",
+  "legacy_id": "DEF-DEONTIC-AVAILABLE-CONTINUATION",
   "term": "relation-relative possible fulfillment",
   "definition": "Can available w p means there exists v with available.access w v and p v. Accessibility is an explicit input. Logical possibility, feasible continuation and the selected actual continuation require different intended relations; the definition does not assert any of them coincides. No temporal or agency axioms are implicit.",
   "basis": "stipulative",

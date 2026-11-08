@@ -1,16 +1,18 @@
 {
-  "id": "SCHAFFER-14-DERIVATIVE-ORDER",
-  "statement_id": "STMT-SCHAFFER-DERIVATIVE-ORDER-OPEN",
-  "source_id": "SCHAFFER-MONISM",
+  "id": "68ade1b3-f0c2-5bc7-ba4a-6b127132fbd6",
+  "label": "Jonathan Schaffer, Monism §1.4, p.44, final…: Schaffer distinguishes pluralism from the stronger…",
+  "legacy_id": "SCHAFFER-14-DERIVATIVE-ORDER",
+  "statement_id": "17a94d51-6827-5b2c-9883-81405a036f11",
+  "source_id": "058b3585-f957-5a4e-a6a8-be4f5c4ae125",
   "locator": "§1.4, p.44, final discussion",
   "interpretation": "Source reading recorded in prose only. Neither monism nor pluralism imposes priority along every intermediate parthood edge. The separate p.44 exhaustiveness sentence reverses Bu labels; this reading follows the explicit definitions on pp.42–43 rather than that apparent typographical reversal.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN",
-    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
-    "DEF-SCHAFFER-BASIC-OBJECT"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295",
+    "0c9a04bf-8233-5d2e-b1e3-d24845a9bf1e",
+    "052e3b2e-e39c-58d4-b3bb-66a947e11f3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

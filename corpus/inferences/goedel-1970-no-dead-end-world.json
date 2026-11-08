@@ -1,11 +1,13 @@
 {
-  "id": "INF-GOEDEL-1970-NO-DEAD-END-WORLD",
+  "id": "cb83db76-f85d-5560-8997-d9cc8414db5a",
+  "label": "No world of the Kripke frame is a dead end: for each world w it is not the case…, by Case-analysis",
+  "legacy_id": "INF-GOEDEL-1970-NO-DEAD-END-WORLD",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
-    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
-    "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE"
+    "a9077c68-43f0-53e1-905a-d431488204ee",
+    "96d8342a-f88f-5edf-8792-00d4f6d556ca",
+    "649e7f30-2410-5cc1-b7c4-222f96cfb7dd"
   ],
-  "output_statement_id": "STMT-ACCESSIBILITY-NO-DEAD-END",
+  "output_statement_id": "0166c188-85b1-53c0-b844-d9a3ec6cf1fa",
   "rule": "case-analysis",
   "meaning": "Suppose a world w accesses no world. By Ax2a the empty property or its negation is positive at w; not the empty property (step 1). At w every necessity holds vacuously, so the negation of the empty property is necessarily included in the empty property, and by Ax4 the empty property is positive at w: contradiction. Not a step of the AFP proof; it replaces the frame reasoning hidden in its smt step 5.",
   "assumption_statement_ids": [],

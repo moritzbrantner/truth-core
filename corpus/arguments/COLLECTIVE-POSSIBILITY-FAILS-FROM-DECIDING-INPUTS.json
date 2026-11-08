@@ -1,15 +1,17 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "id": "09772c57-0813-5f32-81a6-5588cd1a3768",
+  "label": "Exact negation of the original AllCanNotBeThenNothingPossibleReading on the…, from deciding inputs",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
   "premise_statement_ids": [
-    "STMT-PROFILE-EACH-BEING-CAN-NOT-BE",
-    "STMT-PROFILE-COMMON-ABSENCE-NOT-POSSIBLE"
+    "ed9ec5fd-66ed-5ef0-aa7b-07522588d8f1",
+    "4a593099-7141-53b0-bd47-7b4bac10f779"
   ],
-  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-FAILS",
+  "conclusion_statement_id": "dbd03eab-fccb-5f7d-8891-7fe2431863eb",
   "inference_ids": [
-    "INF-COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS"
+    "0d37b838-aea7-52e8-ace4-e358bcb84315"
   ],
   "meaning": "Individual possible absences plus impossibility of joint absence contradict the original collective conditional under the SAME semantics. No bare proof-method failure is used.",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
+  "id": "1102789f-90b2-5253-9c23-8d6e47ec5e2a",
+  "label": "If something explains what holds contingent beings together through time, that sustainer must be…",
+  "legacy_id": "STMT-CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
   "paraphrase": "If something explains what holds contingent beings together through time, that sustainer must be necessary, incomposite and atemporal.",
   "definition_ids": [
-    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+    "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-GLOBAL-EPISTEMIC-NIHILISM-ALTERNATIVE-TO-THERE-ARE-EPISTEMIC-REASONS",
+  "id": "4afd2707-d1eb-5879-9e9c-b2a17d4bc5d4",
+  "label": "Global epistemic nihilism: no agent has… alternative to There are epistemic reasons: some agent…",
+  "legacy_id": "REL-GLOBAL-EPISTEMIC-NIHILISM-ALTERNATIVE-TO-THERE-ARE-EPISTEMIC-REASONS",
   "subject_kind": "statement",
-  "subject_id": "STMT-GLOBAL-EPISTEMIC-NIHILISM",
+  "subject_id": "38f44eff-5a6b-5e0d-a332-353af432ba1a",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-THERE-ARE-EPISTEMIC-REASONS",
+  "object_id": "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
   "note": "Class: global_underminer. Streumer's error theory, epistemic part. Self-undermining (EPISTEMIC-NIHILISM-SELF-UNDERMINING) but consistent: the same result certifies an interpretation where it holds. Not refuted; no refutes relation is recorded."
 }

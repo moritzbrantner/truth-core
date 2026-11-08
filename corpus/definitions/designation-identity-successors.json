@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
+  "id": "b98dbaf6-663a-5bdc-9206-55790153979a",
+  "label": "Identity-only successors at admitted…: Every successor v of an admitted actual world a equals a",
+  "legacy_id": "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
   "term": "identity-only successors at admitted actualities",
   "definition": "Every successor v of an admitted actual world a equals a. No self-access is required. This is a restrictive frame/policy configuration, not a theorem that real modal alternatives collapse.",
   "basis": "stipulative",

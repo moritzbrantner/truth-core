@@ -1,6 +1,8 @@
 {
-  "id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
-  "argument_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "id": "ebca5ef3-a723-5d3d-98a2-3d4ec0e930e0",
+  "label": "Four exact extensions of the old Megarian Unit models: no-MOTION_1 model satisfies Megarian thesis…",
+  "legacy_id": "MEGARIAN-MOVED-POTENCY-BOUNDARIES",
+  "argument_id": "097bea50-9408-58b7-8f2b-564961ebb711",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.Controls.controls",

@@ -1,6 +1,8 @@
 {
-  "id": "BEARER-OUTCOME-COVERAGE",
-  "argument_id": "BEARER-OUTCOME-COVERAGE",
+  "id": "0202ba3d-b486-5de5-8bef-df4aae50c776",
+  "label": "Some bearer of some occurring thought has…, from Some thought episode occurs under the… and 4 more",
+  "legacy_id": "BEARER-OUTCOME-COVERAGE",
+  "argument_id": "57696d5a-7b93-5894-a245-64ed32179178",
   "challenge_module": "TruthCore.Results.Causality.BearerRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.BearerRegress.Solution",
   "theorem": "TruthCore.Results.Causality.BearerRegress.someBearerOutcome",

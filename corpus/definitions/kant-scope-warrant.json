@@ -1,9 +1,11 @@
 {
-  "id": "DEF-KANT-SCOPE-WARRANT",
+  "id": "674187f4-832b-5287-9ece-28c75772c54f",
+  "label": "LEGITIMATE_CATEGORIAL_APPLICATION_1: The Kantian scope reading concerns objectively valid…",
+  "legacy_id": "DEF-KANT-SCOPE-WARRANT",
   "term": "legitimate categorial application",
   "definition": "The Kantian scope reading concerns objectively valid, determining synthetic cognition of objects by human categories, requiring possible sensible intuition. “Empirical use” includes a priori conditions of possible experience and does not mean merely observed regularity or mind-created noumenal reality.",
   "basis": "sourced",
   "claim_ids": [
-    "KANT-CATEGORY-COGNITIVE-SCOPE-A"
+    "5fa97f31-dc20-5b2a-a0f2-9cf08fa8fbe7"
   ]
 }

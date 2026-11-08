@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-B",
-  "statement_id": "STMT-MOVING-IS-IN-THE-MOVED",
-  "source_id": "ARIST-PHYS",
+  "id": "849f4443-ceec-5a7a-b863-ef8a8fee23c2",
+  "label": "Aristotle, Physics III.3, 202a13-16: MOTION_2 is in the moved: whenever something moves a thing in…",
+  "legacy_id": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-B",
+  "statement_id": "fe09fcd0-c767-5218-9d97-9a170f91a64f",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a13-16",
   "interpretation": "Typed reading in the act/potency vocabulary of beings and respects: whenever something moves a thing in a respect, that thing is being moved in that respect. Motion is in the movable because it is the movable's actuality, brought about by what can move it (202a13-14), and the mover's actuality is not another (202a15-16). The -A reading keeps the occurrence-level form (a motion is in its movable); this one speaks of beings and respects and says nothing about motions as objects. It adds no claim about the mover's own motion. Scope: Aristotle's physical motion; the Lean has no guard, so the reading is accepted only under a physical instantiation of `MovedIn`/`MovesIn` (DISAMB-MOTION).",
-  "interpretation_of": "ARIST-PHYS-202A-MOTION-IN-MOVABLE-A",
+  "interpretation_of": "445d0ba2-e7aa-504f-a756-2565b205377c",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "id": "5a51e160-6628-569d-b0fb-d5344630ac66",
+  "label": "For every bearer and perfection in the fixed form/end profile, it is good…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
   "input_statement_ids": [
-    "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY"
+    "d742a8cd-45e2-5292-88ba-cedd482cbf45"
   ],
-  "output_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "output_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
   "rule": "constructive-proof",
   "meaning": "Transport calibrated denotations along equality of the supplied property referents. This implies extensional due-actuality coextension. The reverse fails in the explicit noninjective property presentation.",
   "assumption_statement_ids": [],

@@ -1,17 +1,19 @@
 {
-  "id": "ANSELM-SINGLE-HIGHEST-NATURE",
-  "statement_id": "STMT-SINGLE-HIGHEST-NATURE",
-  "source_id": "ANSELM-MONOLOGION",
+  "id": "15968a5f-f1ed-5285-b022-75aff91bc77f",
+  "label": "Anselm of Canterbury, Monologion Cap.4…: There is one and only one highest nature or essence in…",
+  "legacy_id": "ANSELM-SINGLE-HIGHEST-NATURE",
+  "statement_id": "0e763bfe-459b-5478-a9a1-a8c038c7bf06",
+  "source_id": "b2f522f6-0dec-5ad8-ad14-12f69c009c2f",
   "locator": "cap.4 paragraph adcmon-c4-d1e149, equal-highest-natures argument and unam et solam conclusion",
   "interpretation": "The preceding text posits an uppermost dignity rank and the selected paragraph appeals to one basis of equal greatness: if other than the natures it is higher; if their essence, the essence/nature is one. These remain source premises rather than independently verified results. The paragraph explicitly equates natura and essentia here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ANSELMIAN-PER-ALIQUOD",
-    "DEF-ANSELMIAN-PER-SE",
-    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
-    "DEF-ANSELMIAN-HIGHEST-NATURE"
+    "5703c52a-6dc5-5bea-9e40-4f82329580da",
+    "94c57ba5-5ecb-545f-9cd9-932ac7b7b4a2",
+    "7e27ade0-f861-5ce7-8ff0-da747c1655ce",
+    "65605663-1180-5a11-9f7f-467bc46ef3c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+    "84fccfd4-8abe-521c-9b8b-ffc8785a24d3"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SUBJECT-PERSISTS-OPPOSITE-DOES-NOT",
+  "id": "15db7a72-b91b-5f40-bbf3-99898dfa802c",
+  "label": "In a change such as becoming musical, the human subject persists while the privative opposite…",
+  "legacy_id": "STMT-SUBJECT-PERSISTS-OPPOSITE-DOES-NOT",
   "paraphrase": "In a change such as becoming musical, the human subject persists while the privative opposite, being unmusical, does not persist.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.SubjectPersistsOppositeDoesNotReading"
 }

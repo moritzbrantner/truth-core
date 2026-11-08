@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "id": "f625ad83-909e-52e2-b74a-92b0725c1629",
+  "label": "Some content is ABSOLUTELY_TRUE_1",
+  "legacy_id": "STMT-SOME-ABSOLUTE-TRUTH",
   "paraphrase": "Some content is absolutely true (true in the unindexed sense, not merely true for some agent).",
   "lean_declaration": "TruthCore.Logic.Relativism.SomeAbsoluteTruth",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-TRUE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

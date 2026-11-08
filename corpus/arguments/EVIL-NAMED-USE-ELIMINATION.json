@@ -1,28 +1,30 @@
 {
-  "id": "EVIL-NAMED-USE-ELIMINATION",
+  "id": "d2c273bc-ba4a-5135-93e9-dc012a905c32",
+  "label": "Under the critic's strict truthless…, from The critic's own evil premise is true, or… and 4 more",
+  "legacy_id": "EVIL-NAMED-USE-ELIMINATION",
   "premise_statement_ids": [
-    "STMT-EVIL-NAMED-USE-COVERAGE",
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
-    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
-    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+    "c33ae8d0-4e0a-5039-acf1-e1a34f3f27f0",
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "5844b7cb-6430-54de-abab-6aec98e7f9b2",
+    "1ffc758d-f400-5e2a-9ad7-37f051fc2dc2",
+    "c13c7cac-faa8-5c54-b064-29c47ba049ae"
   ],
-  "conclusion_statement_id": "STMT-EVIL-NAMED-EMOTIVIST-ALTERNATIVES",
+  "conclusion_statement_id": "f322bd65-f4b6-564c-a4ec-581e0f24d375",
   "inference_ids": [
-    "INF-EVIL-NAMED-USE-ELIMINATION"
+    "edb03dff-36fc-5c5b-9849-4726ab393b5e"
   ],
   "meaning": "Given the explicit named-use coverage assumption, compose the existing external-emotivism result and eliminate the own-true-premise branch. Internal challenge or affective protest remains. Named coverage is not inferred from an unsuccessful search for alternatives; its explicit countermodel is preserved.",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

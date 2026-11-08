@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201B-MOTION-NOT-BARE-POTENTIAL-ACTUALITY-A",
-  "statement_id": "STMT-MOTION-NEITHER-BARE-POTENTIAL-NOR-SHEER-ACTUALITY",
-  "source_id": "ARIST-PHYS",
+  "id": "e3d09cbe-e976-52f9-9576-c91a2eca5903",
+  "label": "Aristotle, Physics III.2, 201b27-202a2: Motion cannot simply be identified with bare potentiality…",
+  "legacy_id": "ARIST-PHYS-201B-MOTION-NOT-BARE-POTENTIAL-ACTUALITY-A",
+  "statement_id": "71dd6bde-7d46-5858-8246-64984d1efcb6",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.2, 201b27-202a2",
   "interpretation": "Negative classification reading: motion cannot simply be equated with bare potentiality or sheer/completed actuality, since merely potential and already actual subjects need not as such be moving.",
   "status": "formalized"

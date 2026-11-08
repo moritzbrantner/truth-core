@@ -1,6 +1,8 @@
 {
-  "id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
-  "argument_id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "id": "7280ac5f-a642-5cec-b37f-65269b95fc23",
+  "label": "The reduced nominal description suffices for the name 'GOD_2' to apply: if a being…, from operation",
+  "legacy_id": "NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "argument_id": "61ac44a6-5af0-5ff0-82a4-ae0c0a7b69db",
   "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.reducedNamingFromOperation",

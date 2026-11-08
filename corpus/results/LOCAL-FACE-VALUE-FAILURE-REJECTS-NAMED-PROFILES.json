@@ -1,6 +1,8 @@
 {
-  "id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
-  "argument_id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "id": "0814d1d1-917a-5534-a699-a9c57f51bbf8",
+  "label": "Exact negation of the two-profile local comparison…, from Exact failure of the supplied local…",
+  "legacy_id": "LOCAL-FACE-VALUE-FAILURE-REJECTS-NAMED-PROFILES",
+  "argument_id": "ecc4dc17-e982-5a1f-8e2e-e79a3931a81a",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Remainder.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.localFailureRejectsNamedProfiles",

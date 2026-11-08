@@ -1,9 +1,11 @@
 {
-  "id": "REL-RELIGIOUS-LOCAL-FAILURE-OPPOSES-LOCAL-MENU",
+  "id": "e0b7a121-53ed-53c8-b7ea-2ac3590fbf4b",
+  "label": "Exact failure of the supplied local… alternative to Local face-value status is accompanied…",
+  "legacy_id": "REL-RELIGIOUS-LOCAL-FAILURE-OPPOSES-LOCAL-MENU",
   "subject_kind": "statement",
-  "subject_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS",
+  "subject_id": "f4761615-d94b-52fa-9346-e476c0d44d3d",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-RELIGIOUS-NAMED-LOCAL-PROFILES-COVER",
+  "object_id": "05790be0-984b-55cc-9f0f-802d4b4cc80c",
   "note": "Exact same-profile incompatibility checked by the linked argument/result; not an identity with either old unbound historical source thesis. No root or philosophical-theory closure asserted."
 }

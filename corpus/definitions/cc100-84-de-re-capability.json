@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CC100-84-DE-RE-CAPABILITY",
+  "id": "22cb9ae1-04b0-5ab3-92ae-5c23d91a1e72",
+  "label": "De-re globally capable unifier…: The mind restriction applies to a candidate capable of external…",
+  "legacy_id": "DEF-CC100-84-DE-RE-CAPABILITY",
   "term": "de-re globally capable unifier restriction",
   "definition": "The mind restriction applies to a candidate capable of external fact-unification in every possible world. Worldwise existence of some unifier does not itself supply such a candidate.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-84-DE-RE-MIND-RESTRICTION"
+    "36acde79-4146-5ff6-8aaa-09bbb4cb06ea"
   ],
   "note": "One defensible editorial parse of step6, not equivalence with the distributive parse or a necessary-mind proof."
 }

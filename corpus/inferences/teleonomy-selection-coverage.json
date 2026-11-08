@@ -1,7 +1,9 @@
 {
-  "id": "INF-TELEONOMY-SELECTION-COVERAGE",
+  "id": "c9772aeb-dcbb-5cd9-9362-f519cb021d38",
+  "label": "The stipulated filter retains the present heritable advantageous…, by Finite model construction or…",
+  "legacy_id": "INF-TELEONOMY-SELECTION-COVERAGE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TELEONOMY-SELECTION-COVERAGE",
+  "output_statement_id": "5db5ee8f-8c16-5538-baa6-3b93cda2963d",
   "rule": "finite_model_construction_or_composition",
   "meaning": "The stipulated filter retains the present heritable advantageous variant and rejects the locally disadvantageous one. A finite explanatory coverage test, not an empirical proof of Darwin’s law.",
   "assumption_statement_ids": [],

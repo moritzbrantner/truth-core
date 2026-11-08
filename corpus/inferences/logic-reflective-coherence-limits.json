@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-REFLECTIVE-COHERENCE-LIMITS",
+  "id": "21d9cdd5-f692-5a15-95fe-2b52cac15a4a",
+  "label": "There are explicit finite semantic controls: in a two-world…, by Constructive-finite-countermo…",
+  "legacy_id": "INF-LOGIC-REFLECTIVE-COHERENCE-LIMITS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-REFLECTIVE-COHERENCE-LIMITS",
+  "output_statement_id": "78cabac3-b489-5128-b2e0-4a0c78990a83",
   "rule": "constructive-finite-countermodels",
   "meaning": "Exhibits a true duty-content and a consistency-only policy that fails duty-compatibility, plus an empty worldview that entails but does not explicitly accept a content.",
   "assumption_statement_ids": [],

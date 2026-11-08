@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPERTASK-STABLE-ENDPOINT",
+  "id": "fcb741b9-f612-53c5-b4af-4a398cd5d605",
+  "label": "A natural-number-indexed sequence of stages with no last stage…, by Omega-plus-one-model-with-con…",
+  "legacy_id": "INF-SUPERTASK-STABLE-ENDPOINT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPERTASK-STABLE-ENDPOINT",
+  "output_statement_id": "b74076fe-1fc5-581a-bbcf-ada75630def0",
   "rule": "omega-plus-one-model-with-constant-output",
   "meaning": "Construct an order with every natural-number stage before its distinguished limit, construct a strictly later stage n+1 for each n, and use a constant-true output whose terminal value is stable from stage zero onward.",
   "assumption_statement_ids": [],

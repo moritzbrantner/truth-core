@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BCCF-DIRECT-CLASS",
+  "id": "837b6e34-2082-51d3-9214-45a36ce9e2aa",
+  "label": "DIRECT_FACT_2: A class D of facts is a parameter",
+  "legacy_id": "DEF-BCCF-DIRECT-CLASS",
   "term": "direct fact",
   "definition": "A class D of facts is a parameter. ClosedUnderReasons A G a D says that every contingent reason at a of a fact in D is in D, which is the one formal commitment that D carries: a fact in D has no contingent reason outside D. A derivative fact is here only a fact outside D. Nothing says which facts are in D, and an aggregate is not by definition outside it.",
   "basis": "stipulative",

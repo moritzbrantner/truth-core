@@ -1,19 +1,21 @@
 {
-  "id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
+  "id": "2e366851-7743-5a2a-a046-989b1a2af992",
+  "label": "Under explicit excluded middle and the…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-CAUSAL-CONCRETE-PREDICATE-MATCHES-ESSE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0c1b8438-fef8-5e2e-b42a-49d9d2e1f2df"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-CAUSAL-CONCRETENESS-OR-COUNTERCASE",
+  "conclusion_statement_id": "ed5aa44a-3dcc-54fd-aee3-8db5aed71f9c",
   "inference_ids": [
-    "INF-CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK"
+    "066f14b0-8b42-5b62-b96d-ecffddf33eb2"
   ],
   "meaning": "Structural fork under explicit excluded middle and calibration; exhausts the two-clause counterexample shapes, not philosophical theories.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

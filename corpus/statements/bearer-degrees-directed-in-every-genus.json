@@ -1,12 +1,14 @@
 {
-  "id": "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS",
+  "id": "88b2caf5-03c9-5125-a206-3f39aed61fc4",
+  "label": "OPEN every-respect version of selected perfection bearers are degree directed: for every…",
+  "legacy_id": "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS",
   "paraphrase": "OPEN every-respect version of STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED: for every perfection r, any two bearers of r have a bearer of r at a represented degree at least as high as both.",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.BearerDegreesDirectedInEveryGenus",
   "definition_ids": [
-    "DEF-PER-RESPECT-DEGREE-FAMILY",
-    "DEF-MAXIMUM-CALIBRATION-PROFILE"
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "18c78a19-096c-5987-8517-a67edaede564"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

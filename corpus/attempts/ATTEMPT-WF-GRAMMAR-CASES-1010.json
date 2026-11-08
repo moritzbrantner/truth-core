@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-WF-GRAMMAR-CASES-1010",
+  "id": "eb663dc0-b01c-5e6f-915c-0c243ba541b5",
+  "label": "Owner decision 2026-11-06: cover who fixes the grammar by cases",
+  "legacy_id": "ATTEMPT-WF-GRAMMAR-CASES-1010",
   "statement_ids": [
-    "STMT-FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
-    "STMT-GRAMMAR-FIXED-BY-NEITHER",
-    "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
-    "STMT-ORDINARY-USE-CONFESSES-ONE-TRUE-GOD"
+    "effaa1ff-ec42-58ac-a7bd-24cbecd0f2c7",
+    "28778ada-ab07-50bf-b3b8-d7d1ae65b7a1",
+    "f8ea0d75-23ec-5106-8dee-76ce64b69e3b",
+    "0d795e49-20b7-58b2-ac42-6f63accda4fe"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Owner decision 2026-11-06: cover who fixes the grammar by cases. Partition from excluded middle (authorities / ordinary use / neither). Authority cell: composed from the two earlier defeats through the case bridge. Ordinary-use cell: the creed's first article (pinned Greek) supports, but does not state, that ordinary use confesses the one true God; the Catechism (CCC 12, 31-38, 185-202, read in the Latin typical edition) would support that ordinary use affirms natural knowability, but no Catechism page could be pinned: vatican.va serves byte variants of its catechism_lt pages (CI fetched different bytes for each page tried), so the ordinary-use knowability premise is bare. The neither cell is recorded as held by no source; it survives (certified model). No survey data is pinned: none found as a legitimately hosted, pinnable dataset with a scope matching 'ordinary Catholic use'. Superseded on 2026-11-06 by ATTEMPT-CATECHISM-STABLE-WITNESS-1010: the Catechism is now pinned in the official English translation, so the ordinary-use knowability premise is supported (CCC 36-38, 31-34) and the confession premise has Catechism support (CCC 185-189, 199-200) beside the creed; the Latin pinning failure above stays as history.",
   "evidence": [
-    "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
-    "FIDEISM-GRAMMAR-CASES-PARTITION",
-    "CREED-C381-ART-01",
-    "CCC-36-NATURAL-KNOWABILITY-TAUGHT",
-    "CCC-199-200-I-BELIEVE-IN-GOD"
+    "bf94262e-82ad-53ab-84f1-2103bf503916",
+    "7c61a464-0c38-5312-a079-e3ca2527b70a",
+    "9cf825f7-58ed-5e2e-9bd5-cf678f86ff65",
+    "4a78e02d-4681-5eaa-b88e-6eb4ba1cc744",
+    "545b035a-1fdb-5887-a91a-7ae32371881c"
   ],
   "blocker": "Both ordinary-use evidence premises are supported, not stated (Catechism in translation, creed text); both case bridges and the shared-reason reading are open."
 }

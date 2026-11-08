@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STOP-WORK-TESTS",
+  "id": "a23a7c45-3ca9-5604-9c16-aec5cf89d778",
+  "label": "Work tests on a stop: WorkNecessitates A w s says everything s is a reason for at w is true at…",
+  "legacy_id": "DEF-STOP-WORK-TESTS",
   "term": "work tests on a stop",
   "definition": "WorkNecessitates A w s says everything s is a reason for at w is true at each accessible world where s is true. WorkIndependent A w s says nothing s is a reason for at w agrees with s at every accessible world. NecessaryFact A w f says f is true at every world accessible from w. These are modal tests only. They do not establish relevance, and a hyperintensional or non-necessitating account of reasons may reject them.",
   "basis": "stipulative",

@@ -1,7 +1,8 @@
 {
-  "id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "id": "1b5a9e53-2ef6-5d2a-8374-7064fdbb6e1d",
   "label": "Moved only in POTENCY_1 implies moved only with POTENCY_3 capacity",
-  "argument_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "legacy_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "argument_id": "a8cc9d48-b597-55b2-abf1-cfc59863f01b",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.movedOnlyAsCapableFromAdopted",

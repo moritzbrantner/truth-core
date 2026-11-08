@@ -1,29 +1,31 @@
 {
-  "id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "a591bb7e-3683-5776-ba6f-0c44d65e47cb",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2 by…, from PER_SE_1…",
+  "legacy_id": "ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS",
   "premise_statement_ids": [
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "226c38f6-7bf4-552a-9a85-733cfa41d0fa"
   ],
-  "conclusion_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "conclusion_statement_id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
   "inference_ids": [
-    "INF-ARIST-PHYS-VII-1-REGRESS-FROM-PER-SE-REGRESS"
+    "a1d5d5d1-0385-518b-ba26-64a281dcd572"
   ],
   "meaning": "The prima via's regress premises entail Physics VII.1's restricted regress. Not a transcription: induction on accessibility, and premisesNeeded shows both premises are needed. restrictedRegressIsWeaker shows the converse fails even with the second-movers premise: with no local respects there is no local chain, while the per se series is infinite. So VII.1's conclusion is a weaker reading that survives, and it cannot discharge STMT-NO-INFINITE-PER-SE-MOVER-SERIES. Connects results; closes nothing.",
   "definition_ids": [
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-PER-SE-LINK-STRONG",
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-PRIMARY-MOVER"
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-MOTION",
-    "DISAMB-PER-SE",
-    "DISAMB-PER-SE-LINK"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ],
   "strong_version_needed": {
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, satisfying the weak link and well-founded per-se relation while the VII.1 local moved-mover chain is infinite. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596": "For this exact encoded interface, the successor-chain omission interpretation extends with relevance false, satisfying the weak link and well-founded per-se relation while the VII.1 local moved-mover chain is infinite. Checked by PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES. This scope does not extend to arbitrary added attribute/historical premises, nor establish the strong premise philosophically. See docs/notes/prima-via-strength-consumers.md."
   }
 }

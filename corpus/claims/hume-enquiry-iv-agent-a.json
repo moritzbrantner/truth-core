@@ -1,15 +1,17 @@
 {
-  "id": "HUME-ENQUIRY-IV-AGENT-A",
-  "statement_id": "STMT-HUME-INDUCTION-AGENT-PHILOSOPHER",
-  "source_id": "HUME-ENQUIRY",
+  "id": "f5cd4814-f678-5dee-8a4e-94eef9cb4ad4",
+  "label": "David Hume, An Enquiry concerning Human…: Satisfaction as an agent coexists with the philosopher…",
+  "legacy_id": "HUME-ENQUIRY-IV-AGENT-A",
+  "statement_id": "64e90f35-a0f1-55a3-bcfb-bf25924a320a",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "IV, §21 (SBN 36–38)",
   "interpretation": "Hume directly answers the appeal to his practice by distinguishing the question he is asking. The conjunction is scoped to that request, not universal nihilism about reason.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-HUME-INDUCTION-FOUNDATION"
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

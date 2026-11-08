@@ -1,7 +1,9 @@
 {
-  "id": "INF-PLATO-THEAET-PERITROPE-MODELS",
+  "id": "335a27b4-3053-5b9b-8ec4-c22364e21540",
+  "label": "Two models of the peritropē premises: exempting the denial from the…, by Constructive-proof",
+  "legacy_id": "INF-PLATO-THEAET-PERITROPE-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PERITROPE-MODELS",
+  "output_statement_id": "c21a4248-815e-5194-b4ca-50f49145ca9c",
   "rule": "constructive-proof",
   "meaning": "Two Boolean models: exempting the denial (dropping half the scope premise) leaves the unqualified doctrine consistent with the other premises of horn 1; the qualified premises of horn 2 are consistent with nothing being absolutely true.",
   "assumption_statement_ids": [],

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PLATONIC-TIM-51D-INTELLECT",
+  "id": "edff6235-fe05-56fd-9e7f-bdd6047b178a",
+  "label": "Timaeus argues conditionally from understanding and true opinion being different kinds to…",
+  "legacy_id": "STMT-PLATONIC-TIM-51D-INTELLECT",
   "paraphrase": "Timaeus argues conditionally from understanding and true opinion being different kinds to imperceptible Forms existing in themselves, and then distinguishes the two by origin, reason-giving and persuasion. No unrestricted epistemic bridge is silently installed.",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PLATONIC-INTELLIGIBLE"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+    "076d18ea-7436-52cd-bbb9-ee6c0842e2c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-SEPARATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "e8547175-8208-5cc0-b5bb-39577315f2ac"
   ]
 }

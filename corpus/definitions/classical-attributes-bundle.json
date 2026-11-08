@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+  "id": "c8f9c2fb-8c17-5fc8-b558-4a6fad659296",
+  "label": "Classical divine attributes: The case groups simple, perfect, good, one, infinite, immutable\u2026",
+  "legacy_id": "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
   "term": "classical divine attributes (the skeleton's HasClassicalAttributes)",
   "definition": "The case groups simple, perfect, good, one, infinite, immutable, eternal, intellect and will in the order of ClassicalAttributesSuffice. In the complete stage-2 composition its arguments are IsSimple Composite (DEF-SIMPLE), IsPerfect InAct (DEF-UNIVERSALLY-PERFECT), IsSupremelyGood InAct GoodIn CausesIn esse (DEF-SUPREMELY-GOOD), IsTheOneGod \u03c3.IsGod (DEF-ONE-GOD), Infinite (DEF-INFINITE), IsImmutable InPotency (DEF-IMMUTABLE), Eternal (DEF-ETERNAL), HasIntellect (DEF-HAS-INTELLECT), and HasWill (DEF-HAS-WILL).",
   "basis": "stipulative",
   "claim_ids": [
-    "VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD"
+    "3bb5f9eb-f30e-5acc-98da-80b7c246448c"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesSuffice",
   "note": "The owner's stage-2 reading of Dei Filius ch. 1. Signature.HasClassicalAttributes is still a primitive field. ClassicalAttributesSuffice is an explicit open, one-way premise from the nine predicates to that field, not a definitional equality or an eliminator recovering all nine predicates from it. GodHasClassicalAttributes means \u2200 g, \u03c3.IsGod g \u2192 \u03c3.HasClassicalAttributes g. No changed proof, closed frontier, or truth of the bridge is claimed by adding this mapping. NineClassicalAttributes names the ordered conjunction at one shared being. classicalAttributesSuffice_iff checks that mapping this conjunction to the field is equivalent to the original curried sufficiency premise, under exactly the original parameters. This connective regrouping adds no independent research proposition. Bounded audit and record inventory: docs/notes/classical-attributes-migration.md. Dependency recorded (#1103 definitions audit): the attribute 'one' is IsTheOneGod \u03c3.IsGod (\u2200 g', \u03c3.IsGod g' \u2192 g' = g), so the bundle mentions the predicate IsGod whose content DEF-GOD-OF-CLASSICAL-THEISM describes through these attributes. This is a dependency, not a circular proof: ClassicalAttributesSuffice is one-way and IsGod stays a primitive field. IsTheOneGod \u03c3.IsGod g does not require \u03c3.IsGod g and holds of every g when nothing is God. Neither NineClassicalAttributes nor ClassicalAttributesSuffice supplies an existence witness: existence and identification as God require separate premises and results."

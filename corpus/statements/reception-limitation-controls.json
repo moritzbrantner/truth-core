@@ -1,18 +1,20 @@
 {
-  "id": "STMT-RECEPTION-LIMITATION-CONTROLS",
+  "id": "f82aac37-3e28-5f4b-a3ab-b2a2ab4867e3",
+  "label": "Finite one-being interpretations: for each of the four derivations unlimited is own being from…",
+  "legacy_id": "STMT-RECEPTION-LIMITATION-CONTROLS",
   "paraphrase": "Finite one-being interpretations: for each of the four derivations UNLIMITED-IS-OWN-BEING-FROM-RECEPTION, UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION, INFINITE-PERFECTION-FROM-RECEPTION and UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING, one model per premise in which the other premises hold and the conclusion fails, and one model in which all premises and the conclusion hold. Satisfiability and omission only; no model is claimed to describe reality.",
   "lean_declaration": "TruthCore.Causality.ReceptionLimitation.Control.Certificate",
   "definition_ids": [
-    "DEF-RECIPIENT",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-RECEPTIVE-POTENCY",
-    "DEF-ESSE-LIMITED",
-    "DEF-INFINITE",
-    "DEF-HAS-LIMITING-PRINCIPLE",
-    "DEF-PURE-PERFECTION"
+    "479d8b7c-1690-553b-9ad1-7aefcb82927f",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSE-LIMITATION"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "19190b6e-359f-590c-b434-4e6f5803da4f"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-KANT-CATEGORY-COGNITIVE-SCOPE",
+  "id": "3b5198a8-0463-5e7e-b3df-5f91c1a272ea",
+  "label": "Determining synthetic cognition through human categories has objective validity only in relation…",
+  "legacy_id": "STMT-KANT-CATEGORY-COGNITIVE-SCOPE",
   "paraphrase": "Determining synthetic cognition through human categories has objective validity only in relation to possible sensible experience.",
   "definition_ids": [
-    "DEF-KANT-SCOPE-WARRANT"
+    "674187f4-832b-5287-9ece-28c75772c54f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-SCOPE"
+    "ff5e8e42-dcb9-50f0-9173-e6f0a67e073c"
   ]
 }

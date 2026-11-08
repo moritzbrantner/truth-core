@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "id": "30bd7f4f-f335-5362-b40b-bd8a31a8e26f",
+  "label": "A mover other than the moved thing that is being…, from A mover other than the moved thing that is…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "argument_id": "731a50cb-0743-5260-8caf-a7e32cb10542",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.PrimaViaStrength.PerSeLink.secondMoversStrongEntailsRelevantRespect",

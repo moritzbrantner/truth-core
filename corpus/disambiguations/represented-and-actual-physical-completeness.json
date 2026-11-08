@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-REPRESENTED-AND-ACTUAL-PHYSICAL-COMPLETENESS",
+  "id": "29db44a8-6e40-533e-a252-0a682374e596",
+  "label": "Complete physical information",
+  "legacy_id": "DISAMB-REPRESENTED-AND-ACTUAL-PHYSICAL-COMPLETENESS",
   "term": "complete physical information",
   "sense_definition_ids": [
-    "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
-    "DEF-ACTUAL-PHYSICAL-INFORMATION-COMPLETENESS"
+    "586f8f47-04c8-5a2c-aadf-33bf4345c608",
+    "497142e6-35f5-5127-87b6-05563a53bf3b"
   ],
   "resolution": "Certificate proves knowledge of all predicates of the supplied physical projection. It does not establish that the projection exhausts actual physics. This distinction is maintained in the general physical-equality hypothesis, finite survivor and twin rival; no actual Mary completeness premise is inferred.",
   "term_label": "COMPLETE_PHYSICAL_INFORMATION",
@@ -11,13 +13,13 @@
     {
       "id": "b62ce6e4-c28b-49f0-9f22-42a7b8a76525",
       "label": "COMPLETE_PHYSICAL_INFORMATION_1",
-      "definition_id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+      "definition_id": "586f8f47-04c8-5a2c-aadf-33bf4345c608",
       "lean_declaration": "TruthCore.Logic.KnowledgeAdmissibility.AllPhysicalKnown"
     },
     {
       "id": "e326eba2-1578-41ad-84c2-4fc3830d67f1",
       "label": "COMPLETE_PHYSICAL_INFORMATION_2",
-      "definition_id": "DEF-ACTUAL-PHYSICAL-INFORMATION-COMPLETENESS"
+      "definition_id": "497142e6-35f5-5127-87b6-05563a53bf3b"
     }
   ]
 }

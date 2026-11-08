@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-FACT-BOUNDARY",
-  "argument_id": "NECESSARY-FACT-BOUNDARY",
+  "id": "d3ade0e2-d74c-5cf6-be0a-0e6c6c8f4d30",
+  "label": "An unattributed composition: under explicit excluded middle, a REASON_CLOSED_ACCOUNT_4 containing a…",
+  "legacy_id": "NECESSARY-FACT-BOUNDARY",
+  "argument_id": "93c57e7e-0511-51d0-9d15-a69654e4222e",
   "challenge_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NecessaryFactBoundary.Solution",
   "theorem": "TruthCore.Results.Explanation.NecessaryFactBoundary.checks",

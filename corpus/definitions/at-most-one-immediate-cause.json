@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
+  "id": "fbd2fd06-702a-5007-944c-a5617fb2be6e",
+  "label": "Linear per se series: AtMostOneImmediateCause R: whenever y and z both R-relate to x, y = z",
+  "legacy_id": "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
   "term": "linear per se series (at most one immediate per se cause)",
   "definition": "`AtMostOneImmediateCause R`: whenever y and z both R-relate to x, y = z. Each being has at most one immediate per se cause, as in the stone–stick–hand series.",
   "basis": "stipulative",

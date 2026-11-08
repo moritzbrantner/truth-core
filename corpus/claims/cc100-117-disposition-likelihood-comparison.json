@@ -1,14 +1,16 @@
 {
-  "id": "CC100-117-DISPOSITION-LIKELIHOOD-COMPARISON",
-  "statement_id": "STMT-CC100-117-DISPOSITION-LIKELIHOOD-COMPARISON",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "0646348c-815c-54da-8ba9-85c9c4e35a19",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The probability of a disposition to form beliefs in…",
+  "legacy_id": "CC100-117-DISPOSITION-LIKELIHOOD-COMPARISON",
+  "statement_id": "6ba4e2dd-44a9-53e8-b7ba-cec6615df329",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.276, argument #117 Naturalness of Theistic Belief, step 1 and SD/T/N definitions",
   "interpretation": "Retain the displayed Pr(SD|T) >> Pr(SD|N) comparison. The symbol >> has no numerical threshold supplied here, and no values, probability space or prior is given. SD is a disposition to form supernatural-agency beliefs, not their truth, an actual God belief or an independently asserted observation of the disposition. Attribution is to McIntosh’s presentation only, not the unread Braddock/Barrett works referenced on p277. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+    "2eea0461-69d1-510b-8968-368ab57adf87"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

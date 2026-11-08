@@ -1,12 +1,14 @@
 {
-  "id": "INF-CONSECUTIVE-MOVER-RESPECTS",
+  "id": "f0de0c11-e45b-548e-be61-9f16bedf7c12",
+  "label": "Whenever z moves y in respect r and y moves x in respect s, r and s are distinct, by Contradiction",
+  "legacy_id": "INF-CONSECUTIVE-MOVER-RESPECTS",
   "input_statement_ids": [
-    "STMT-MOVING-IS-IN-THE-MOVED",
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+    "fe09fcd0-c767-5218-9d97-9a170f91a64f",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
   ],
-  "output_statement_id": "STMT-CONSECUTIVE-MOVERS-HAVE-DISTINCT-RESPECTS",
+  "output_statement_id": "d80686c2-190c-50f9-a515-43698226cacb",
   "rule": "contradiction",
   "meaning": "Whenever z moves y in respect r and y moves x in respect s, the incoming edge makes intermediate y moved and therefore potential in r. The outgoing edge makes y actual in s. If r=s, non-simultaneity gives a contradiction, so r and s are distinct. The same MovesIn, MovedIn, act, potency and respect parameters occur throughout all four premises. This constrains encoded consecutive edges; it is not a temporal switch, a strict order on respects, or a bound on chain length. No excluded middle, domain population, causal priority, regress exclusion or single-respect assumption is used. Alternating-respect chains and cycles remain possible; no unmoved mover or general regress refutation follows. The four existing philosophical premises remain open, and root-premise delta is none.",
   "assumption_statement_ids": [],

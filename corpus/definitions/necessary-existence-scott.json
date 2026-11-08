@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NECESSARY-EXISTENCE-SCOTT",
+  "id": "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+  "label": "NECESSARY_EXISTENCE_4: NecessaryExistence F x w: at w, every essence of x is exemplified at every…",
+  "legacy_id": "DEF-NECESSARY-EXISTENCE-SCOTT",
   "term": "necessary existence (Scott's NE; Lean `NecessaryExistence`)",
   "definition": "`NecessaryExistence F x w`: at w, every essence of x is exemplified at every world accessible from w (AFP definition NE = (λx. ∀(λΦ. Φ ess x m→ □ (∃ Φ)))). A property of individuals defined through essences and the possibilist quantifier, not the tertia via's necessary being (a being that cannot not-be) and not logical necessity.",
   "basis": "sourced",
   "claim_ids": [
-    "AFP-GOEDELGOD-A5-A"
+    "3438d5b3-36c4-54ee-bdfe-24aafab6640e"
   ],
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistence"
 }

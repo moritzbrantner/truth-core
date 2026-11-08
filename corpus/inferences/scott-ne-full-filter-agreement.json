@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "id": "f58dd548-c088-5bec-8d30-8f79ec5b5651",
+  "label": "For arbitrary worlds, individuals, Kripke frames, bearers and evaluation worlds…, by Direct-proof",
+  "legacy_id": "INF-SCOTT-NE-FULL-FILTER-AGREEMENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-NE-FULL-FILTER-AGREEMENT",
+  "output_statement_id": "a704f3cc-57dc-53a6-adef-a4c7c3891190",
   "rule": "direct-proof",
   "meaning": "Unfold Scott's essence and NE alongside their filtered counterparts. Admitting all properties inserts only vacuous `True` antecedents in both higher-order quantifiers. Prove the equivalence constructively without any positivity or accessibility premise.",
   "assumption_statement_ids": [],

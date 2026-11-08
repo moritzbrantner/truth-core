@@ -1,19 +1,21 @@
 {
-  "id": "STMT-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "id": "bd22c66a-329c-50aa-bc8d-148b3601a874",
+  "label": "For every selected model and support relation, a necessary-union source, actual reflexivity and no…",
+  "legacy_id": "STMT-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
   "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.SourceUnderivedBridge",
   "paraphrase": "For every selected model and support relation, a necessary-union source, actual reflexivity and no contingent direct supporter of necessary imply an actually present necessary individual with no existing direct supporter at any world. This is a universally quantified conditional bridge, not an assertion of its antecedents.",
   "definition_ids": [
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-UNION-SOURCE",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE"
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "6a4a4300-f778-53c1-9103-4b5682ac0c60",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "586dc945-cfd2-51e1-b3a4-941f56e001de"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

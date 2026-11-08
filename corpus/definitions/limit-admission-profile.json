@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMIT-ADMISSION-PROFILE",
+  "id": "287f30f5-1a1c-52ad-b245-dc8de2a99e8e",
+  "label": "MODAL_PROFILE_ADMISSION_3: The Boolean product \u2115 \u2192 Bool uses the discrete topology on Bool and\u2026",
+  "legacy_id": "DEF-LIMIT-ADMISSION-PROFILE",
   "term": "modal profile admission",
   "definition": "The Boolean product \u2115 \u2192 Bool uses the discrete topology on Bool and coordinatewise product topology. tailProfile n b encodes the existing finiteCoverTailPresent b n, exactly n \u2264 b. tailWorlds admits precisely these profiles; falseProfile is everywhere false. This compares world extensions with rigid candidate identity, not a history or a physical removal process.",
   "basis": "stipulative",

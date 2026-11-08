@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
-  "argument_id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "id": "222fc381-020a-5448-9daf-edb12cdefa34",
+  "label": "For actual concreta a,b at the selected world, if…, from At the selected world, actual CONCRETE_6…",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "argument_id": "3e50405c-b107-5580-9f79-a3d52a342230",
   "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Solution",
   "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.globalImpliesMaximal",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-ELEATIC-THESIS-SELF-REFUTING",
+  "id": "b79df1d9-0fe1-54ec-950e-8790704540ed",
+  "label": "The Eleatic thesis that nothing is moved is false, by Retorsion",
+  "legacy_id": "INF-ELEATIC-THESIS-SELF-REFUTING",
   "input_statement_ids": [
-    "STMT-OPINION-IS-A-MOTION",
-    "STMT-ELEATIC-THESIS-IS-OPINED"
+    "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
+    "e7354ea4-d864-5b3f-b691-01fe745788bf"
   ],
-  "output_statement_id": "STMT-ELEATIC-THESIS-FALSE",
+  "output_statement_id": "6b83bc10-b770-5451-9c3d-f731a52e9ba0",
   "rule": "retorsion",
   "meaning": "Suppose nothing is moved. Someone opines that nothing is moved; opining is a being moved in the respect of that opinion; so the opiner is moved, contradicting the supposition.",
   "assumption_statement_ids": [],

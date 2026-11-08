@@ -1,11 +1,13 @@
 {
-  "id": "INF-ARIST-PHYS-NATURAL-PRINCIPLE-COUNT",
+  "id": "1ec9d02a-3326-53ac-af5e-208c6db14263",
+  "label": "The natural principles number either two or three, by Disjunction elimination",
+  "legacy_id": "INF-ARIST-PHYS-NATURAL-PRINCIPLE-COUNT",
   "input_statement_ids": [
-    "STMT-NATURAL-PRINCIPLE-COUNT-CASES",
-    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
-    "STMT-NATURAL-PRINCIPLE-COUNT-NOT-MORE-THAN-THREE"
+    "5ea87315-f3f0-5dc0-bf27-6948423f5d09",
+    "8623e9c2-a80c-589b-869a-ca316b126726",
+    "675b6d4b-ea9b-595b-a20f-79fa39ff0ab0"
   ],
-  "output_statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
+  "output_statement_id": "32dbd6bc-9a4e-5228-b4cd-6d85a602940d",
   "rule": "disjunction_elimination",
   "meaning": "From the enumerated count cases, exclude exactly one and more than three; the remaining alternatives are two or three. The separate rejection of infinitely many principles supports the chapter's broader finite-number discussion but is not needed for this narrow formal step.",
   "assumption_statement_ids": [],

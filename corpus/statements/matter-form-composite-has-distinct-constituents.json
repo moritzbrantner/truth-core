@@ -1,8 +1,10 @@
 {
-  "id": "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS",
+  "id": "cc0f7879-dba8-5b47-ab8d-3905d1e518a6",
+  "label": "Whatever is composed of matter and form has two distinct constituent principles",
+  "legacy_id": "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS",
   "paraphrase": "OPEN analyst premise: whatever is composed of matter and form has two distinct constituent principles (its matter is not its form).",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.MatterFormCompositeHasDistinctConstituents",
   "definition_ids": [
-    "DEF-CONSTITUENT-PRINCIPLE"
+    "37302378-4084-5986-a88e-b67f966619d2"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PERFECTION-CAUSE-REGRESS-ACCESSIBILITY",
+  "id": "931f204c-01a4-57b8-a887-8ca38a872b17",
+  "label": "No infinite regress of causes of a…: NoInfiniteRegressOfCausesOfAPerfectionReading CausesIn: for…",
+  "legacy_id": "DEF-PERFECTION-CAUSE-REGRESS-ACCESSIBILITY",
   "term": "no infinite regress of causes of a perfection, accessibility (well-foundedness) reading",
   "definition": "`NoInfiniteRegressOfCausesOfAPerfectionReading CausesIn`: for every respect r, Lean core's `WellFounded` holds of `fun c x => c ≠ x ∧ CausesIn c x r`. Every being is accessible: each has a well-founded inductive certificate built from its distinct causes of r. This excludes infinite backward series and cycles of distinct causes of r, not self-causation, and bounds no finite depth.",
   "basis": "stipulative",

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PERFECTIONS-ARE-MODES-OF-BEING",
+  "id": "791fa216-ce40-5e7d-82c5-0bd5fe245446",
+  "label": "OPEN Lean-bound reading of ST I q.4 a.2 co.: every perfection a thing has in act is a mode of its…",
+  "legacy_id": "STMT-PERFECTIONS-ARE-MODES-OF-BEING",
   "paraphrase": "OPEN Lean-bound reading of ST I q.4 a.2 co. (STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING, which has no Lean declaration): every perfection a thing has in act is a mode of its being.",
   "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PerfectionsAreModesOfBeing",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-MODE-OF-BEING"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "42f8b601-09d6-5ad0-af5f-27af30b95166"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-PHYSICAL-GROUND-468",
+  "id": "ea338e71-7571-5be1-9ec6-5326aa532fbd",
+  "label": "Tested which premise separates a necessary physical ground from a classical ground",
+  "legacy_id": "ATTEMPT-PHYSICAL-GROUND-468",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-PHYSICAL-GROUND-CORE",
-    "STMT-PHYSICAL-GROUND-VERDICTS",
-    "STMT-NECESSARILY-UNDERIVED",
-    "STMT-IMMATERIAL-IS-INTELLECTUAL",
-    "STMT-WILL-FOLLOWS-INTELLECT",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-OPPY-2020-NECESSITY-COMPARATIVE-COST",
-    "STMT-OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
-    "STMT-SIMPLICITY-BRANCH-COSTS"
+    "fec8a788-aa7b-5eac-b5b5-719b93727676",
+    "295c27e6-b634-5648-9bd2-3844b7f4a2ae",
+    "d236f537-dd57-50ec-9676-cee87b19242a",
+    "180f5ad2-a421-541a-85c9-9bca578b4a43",
+    "090be689-b77f-51a1-9d5d-caf339169e4b",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "8aeca775-935a-5f72-bf4a-04fecc8b4c24",
+    "22fceba9-3b18-5924-956a-05cc311beba6",
+    "d408dc47-ef80-5b0b-a8c2-e79566775fce"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Tested which premise separates a necessary physical ground from a classical ground. Findings: one necessity signature (necessary, underived, capacity, esse-cause of a contingent other) is shared by five route tables, so it yields no maximum, simplicity, immateriality, intellect or will. The strongest composite rival denies exactly the uniting-cause premise; a part-free impersonal rival denies exactly q.14 a.1; will is separated by q.19 a.1. Formal containment separates the grounds only given a classification of respects: two classifications favour opposite grounds, and the one independent of the candidate turns on which simple beings the table has. A physicalist bearer bundle excludes the classical ground, conditional on its three Papineau premises and two bearer premises. On four shared explananda neither ground gains in the encoded terms; contingency-of-laws selection takes no attribute. Rejected: importing Hume's Dialogues IX as an attribution, because no passage is pinned. Rejected: defining physical as composite outright, because a part-free ground may be physical in Papineau's sense. Rejected: flags for personhood as a discriminator; the flag appears only in the explicit bridge MarksRequirePerson. Details in docs/notes/physical-ground-468.md. Follow-up 2026-11-03: materialized SPINOZA-ETHICS-ELWES-FULL and read Ethics I 13-20, 29-35 and II 1-3 with proofs and notes as the strongest historical source for a necessary impersonal ground. Finding: Spinoza keeps a maximum (I def. 6), indivisibility (I 13), essence-existence identity (I 20) and uniqueness of substance (I 14), so he takes none of the ladder's maximum, composite or simplicity exits; he denies the Signature's contingent effect (I 29, I 33) and free will (I 32), placing his rival on #555's necessitarian branch (SIMPLICITY-BRANCH-COSTS). His extended but indivisible substance (I 13 cor., I 15 note) supports not defining physical as composite. Whether HasIntellect holds of his God splits on two defensible readings (II 1, II 3 versus I 31, I 17 note); neither is formalized. I 33 note II supplies the collapse argument #555 tests (identity of intellect, will and essence plus eternal decrees gives a different essence for a different order); the classical reply read in q.19 a.3 ad 5-6 is #555's optional-act exit. Rejected: attributing the ladder's esse-support, ConcreteAt or accessible-world necessity to Spinoza; equating his sense of free cause (I def. 7) with HasWill; reading his denial of free will (I 32) as a denial of HasWill on reading A, since DEF-HAS-WILL requires no contingent choice, so the will rung stays unresolved for that reading.",
   "blocker": "Independent defense of the uniting-cause premise for a necessary composite, of a maximum for a necessary ground, of q.14 a.1 from a negative antecedent, and of any classification of respects remains open. No theory of laws, of a necessary initial state's identity across Oppy's restricted worlds, or of self-explanation is supplied. No root premise is discharged. Against the Spinozist rival specifically, the open step is that some effect of the ground is contingent or that a nonnecessitating reason is adequate; maximum, simplicity and uniqueness steps do not separate it. No pinned witness for a contemporary composite-whole physical monism.",
   "evidence": [
-    "PHYSICAL-GROUND-CORE",
-    "PHYSICAL-GROUND-VERDICTS",
-    "NECESSARY-CONCRETE-CAUSAL-CAPACITY",
-    "EXPLANATORY-SYMMETRY-COMPARISON",
-    "SIMPLICITY-BRANCH-COSTS"
+    "2d8410c0-a9bb-5360-90c4-e9fba2c48916",
+    "30c7c477-6353-55d7-a29d-03f878baf90f",
+    "8a2f7305-939b-5ff7-b059-9e755e84b391",
+    "42342e8f-cf34-53db-9ab4-a25d9f6a5078",
+    "32a911e0-6d7f-55da-a631-7042f15d3208"
   ]
 }

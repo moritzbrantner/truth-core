@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-MIDDLE-CAUSE-CAUSES-LAST-A",
-  "statement_id": "STMT-MIDDLE-CAUSE-EFFICIENTLY-CAUSES-ITS-EFFECT",
-  "source_id": "AQUINAS-ST",
+  "id": "971a0697-b552-5351-ab66-b0ab56b709cc",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: A middle cause efficiently causes that of which it is…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-MIDDLE-CAUSE-CAUSES-LAST-A",
+  "statement_id": "0fdec0e0-d9ca-5e67-8d14-b4d665b32feb",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 co., secunda via: et medium est causa ultimi, sive media sint plura sive unum tantum",
   "interpretation": "In ordered efficient causes the middle is the cause of the last. Read as: whatever causes x as caused (a middle cause of x, CausesAsCaused) efficiently causes x in some respect. This is part of the meaning of the per se link (DEF-PER-SE-EFFICIENT-CAUSE-LINK: c efficiently causes x only insofar as c is caused), stated as its own premise because CausesAsCaused is a Lean parameter.",
   "status": "formalized"

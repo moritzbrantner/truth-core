@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE",
+  "id": "13843b8b-4ef3-500e-949d-27e78b9dfaf9",
+  "label": "Necessary existence by own nature versus accessible-world necessity",
+  "legacy_id": "DISAMB-ESSENTIAL-VS-ACCESSIBLE-EXISTENCE",
   "term": "necessary existence by own nature versus accessible-world necessity",
   "sense_definition_ids": [
-    "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE",
-    "DEF-KANT-MODAL-NECESSITY"
+    "d21ae4c5-8030-53b4-ae8f-48041355865c",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
   ],
   "resolution": "The sourced essential-existence statement distinguishes the explanation by an existent’s own nature from explanation by other natures. NecessaryAt only quantifies existence over accessible worlds. Neither a proof of that modal predicate nor a constant truth distribution by itself establishes own-nature explanation. No source fidelity or formal equivalence is inferred between these meanings; essential facts and instantiated concrete bearers remain distinct.",
   "term_label": "NECESSARY_EXISTENCE_BY_OWN_NATURE",
@@ -11,12 +13,12 @@
     {
       "id": "0b0098ee-4dba-41dd-a87a-c384fcd66f40",
       "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_1",
-      "definition_id": "DEF-NECESSARY-EXISTENCE-RELATIVE-OWN-NATURE"
+      "definition_id": "d21ae4c5-8030-53b4-ae8f-48041355865c"
     },
     {
       "id": "ad7f6100-3301-437a-9384-616a4fdcb8b7",
       "label": "NECESSARY_EXISTENCE_BY_OWN_NATURE_2",
-      "definition_id": "DEF-KANT-MODAL-NECESSITY",
+      "definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
       "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryAt"
     }
   ]

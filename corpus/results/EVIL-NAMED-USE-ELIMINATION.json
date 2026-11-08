@@ -1,6 +1,8 @@
 {
-  "id": "EVIL-NAMED-USE-ELIMINATION",
-  "argument_id": "EVIL-NAMED-USE-ELIMINATION",
+  "id": "66ca5758-51b3-51af-a2c4-7a69df04c172",
+  "label": "Under the critic's strict truthless…, from The critic's own evil premise is true, or… and 4 more",
+  "legacy_id": "EVIL-NAMED-USE-ELIMINATION",
+  "argument_id": "d2c273bc-ba4a-5135-93e9-dc012a905c32",
   "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.Solution",
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.NamedElimination.namedEmotivistAlternatives",

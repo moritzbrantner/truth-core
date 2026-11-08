@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HUME-INDUCTION-MEANS-ENDS",
+  "id": "7a397053-3b54-5e81-967d-8fe06d68d20c",
+  "label": "Adjustment of means to ends requires the influence of custom",
+  "legacy_id": "STMT-HUME-INDUCTION-MEANS-ENDS",
   "paraphrase": "Adjustment of means to ends requires the influence of custom. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.MeansEndsDependence",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-MEANS-ENDS",
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-PRACTICE"
+    "e087f03b-3e19-5761-865e-0372e3d4cb91",
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

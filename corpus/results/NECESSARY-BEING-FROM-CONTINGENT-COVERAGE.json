@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
-  "argument_id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "id": "266748c8-904b-51d4-a788-5f6ffd6b504f",
+  "label": "At least one individual exists at the selected world and at every world…, from contingent coverage",
+  "legacy_id": "NECESSARY-BEING-FROM-CONTINGENT-COVERAGE",
+  "argument_id": "6f5adc57-8f13-552d-9488-2fb1cd3da804",
   "challenge_module": "TruthCore.Results.Causality.ContingentTotalityCause.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentTotalityCause.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentTotalityCause.necessaryBeing",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-DOMAIN",
+  "id": "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+  "label": "ADMISSIBLE_PROPOSITION_DOMAIN_1: An explicit subset of World \u2192 Prop. allPredicates admits every\u2026",
+  "legacy_id": "DEF-MODAL-FIXTURE-DOMAIN",
   "term": "admissible proposition domain",
   "definition": "An explicit subset of World \u2192 Prop. allPredicates admits every predicate including equality with the root; expressible admits exactly denotations of Formula under a fixed frame and valuation; corpusDomain admits only the supplied indexed inventory. The inventory is a caller parameter, not an automatic claim that the corpus is complete. Negation closure, when explicitly required, means D P implies D (fun w => \u00ac P w); it is not built into Domain.",
   "basis": "stipulative",

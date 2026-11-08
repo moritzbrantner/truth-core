@@ -1,9 +1,11 @@
 {
-  "id": "REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION",
+  "id": "e24cd9ea-1f13-5eb1-b3b4-96e886b9c2a0",
+  "label": "Kripke's sceptical Wittgenstein: there is\u2026 attacks PU \u00a7201: there is a way of grasping a rule\u2026",
+  "legacy_id": "REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-KRIPKE-NO-FACT-OF-MEANING",
+  "subject_id": "bebc4578-30d8-5805-91e1-cde4b3b86eaa",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
+  "object_id": "97d4cd02-c515-594b-b8f3-4f67370a0929",
   "note": "Exegetical/philosophical objection, not an exhaustive logical alternative. The full no-fact sceptical reconstruction concerns factual meaning determination and assertibility; noninterpretive grasp concerns practice/rule following and does not itself assert a fact determining a definite function. Existing interpretation-regress predicates supply an explicitly unattributed shadow of factual determination, not identities with either raw statement. No fact\u2192no noninterpretive grasp bridge or proof of incompatibility is supplied. Refuting a stronger raw reconstruction must not automatically defend the other text reading. Source strengths and internal/external scopes remain intact. See docs/notes/scientism-meaning-rival-boundary.md."
 }

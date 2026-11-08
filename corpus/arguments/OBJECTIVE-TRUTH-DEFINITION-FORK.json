@@ -1,19 +1,21 @@
 {
-  "id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "id": "3adb1eff-7827-554f-b33e-7837a0eea329",
+  "label": "For every supplied frame, actual-stable calibration…, from Excluded middle as a general principle…",
+  "legacy_id": "OBJECTIVE-TRUTH-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "conclusion_statement_id": "dac67701-e7fc-538e-a33a-45e1349fb088",
   "inference_ids": [
-    "INF-OBJECTIVE-TRUTH-DEFINITION-FORK"
+    "be3fde38-e2b5-55ac-a540-c3300bd8e92f"
   ],
   "meaning": "Logical coverage transcription: decide each of the three calibrated account propositions under explicit excluded middle; if none holds, retain their conjunction of negations as the remaining account. This establishes structural coverage with a remainder, not named exhaustion.",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

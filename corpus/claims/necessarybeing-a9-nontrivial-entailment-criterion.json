@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
-  "statement_id": "STMT-NB-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "5a48f648-27db-5ea3-887c-c93787a4068d",
+  "label": "Unattributed website author, Necessary…: The source distinguishes ordinary entailment, which…",
+  "legacy_id": "NB-SURVEY-A9-NONTRIVIAL-ENTAILMENT-CRITERION",
+  "statement_id": "c0eee1c4-d541-5f81-9d1f-72f928e769d8",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A9P1, complete ordinary/nontrivial distinction, hedged square-circle examples and entails/nontrivially-entails/property/instance titles",
   "interpretation": "Keep ordinary necessary universal inclusion and the additional basis/independence criterion distinct. The source expressly considers impossible square-circle antecedents while hedging its examples; do not strengthen may-seem/plausibly into proved NT facts. NT cannot faithfully be replaced by Dia(antecedent) AND ordinary boxed implication, nor by sourcehood/causal explanation. A derivational, intensional or counterpossible account would need separate semantics and defense; no such formal framework is selected.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abb6f562-d2b2-5b75-8e80-22a6344cc3b6",
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

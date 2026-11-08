@@ -1,11 +1,13 @@
 {
-  "id": "INF-POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
+  "id": "46b904a8-79a2-55b0-bb60-b9673126a9d3",
+  "label": "The sentence 'there is evil in the world' is true, by Constructive-proof",
+  "legacy_id": "INF-POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY",
   "input_statement_ids": [
-    "STMT-EVIL-IS-PRIVATION-OF-DUE-GOOD",
-    "STMT-SOMETHING-FALLS-SHORT-OF-DUE-GOOD",
-    "STMT-EVIL-IS-AS-PROPOSITIONAL-TRUTH"
+    "14eb9a6c-29df-5b4e-a8dc-123647a0b87a",
+    "64f6d7f5-7e75-52be-8b61-02a27e3eea89",
+    "8f1c5e2b-cb4a-5571-bd70-f0af6875ea8f"
   ],
-  "output_statement_id": "STMT-EVIL-PREMISE-IS-TRUE",
+  "output_statement_id": "6b605634-1d7c-52f1-88ec-8aafdd8ebd04",
   "rule": "constructive-proof",
   "meaning": "A due good is absent in a supplied subject. The privation equivalence classifies that deficiency as evil and thus supplies an evil witness; no motion, God, goodness-coextension or per-evil production commitment is used. The explicit sentence-truth bridge then yields the advertised sentence; this final application is a reduced transcription, not independent warrant for the bridge or premise truth.",
   "assumption_statement_ids": [],

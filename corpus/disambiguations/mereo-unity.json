@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-MEREO-UNITY",
+  "id": "b112ca97-8ab8-54aa-bff2-7c71600b1705",
+  "label": "Unity",
+  "legacy_id": "DISAMB-MEREO-UNITY",
   "term": "unity",
   "sense_definition_ids": [
-    "DEF-MEREO-STRUCTURAL-UNITY",
-    "DEF-MEREO-SUBSTANTIAL-UNITY"
+    "e3da62cd-f921-5302-b3a2-2d67c4744d15",
+    "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05"
   ],
   "resolution": "TurnoverProfile and SameProfile observe integration, maintenance and process continuity (structural unity). SubstantialUnity is an independent predicate for being an individual substance. No inference silently passes from integration to that substantial status; countermodels differ on precisely this point.",
   "term_label": "UNITY",
@@ -11,13 +13,13 @@
     {
       "id": "f894692d-2a21-4383-956d-586d7f350f52",
       "label": "UNITY_1",
-      "definition_id": "DEF-MEREO-STRUCTURAL-UNITY",
+      "definition_id": "e3da62cd-f921-5302-b3a2-2d67c4744d15",
       "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.Integrated"
     },
     {
       "id": "203065c0-7124-4b39-87f7-15a1a4cc8ed3",
       "label": "UNITY_2",
-      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "definition_id": "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05",
       "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
     }
   ]

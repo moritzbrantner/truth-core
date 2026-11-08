@@ -1,20 +1,22 @@
 {
-  "id": "WORLD-LOCAL-GROUNDING-DOUBLING",
+  "id": "8ca0e950-7bec-57d5-ae01-9a0f95d1fd18",
+  "label": "Every nonempty one-world local structure with a well-founded grounding relation, distinct existent…",
+  "legacy_id": "WORLD-LOCAL-GROUNDING-DOUBLING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-WORLD-LOCAL-GROUNDING-DOUBLING",
+  "conclusion_statement_id": "b5680eae-4ee9-5fc3-9c71-5b74e4638619",
   "inference_ids": [
-    "INF-WORLD-LOCAL-GROUNDING-DOUBLING"
+    "f071a9ab-b555-550f-a8ac-88bae6b5cf2b"
   ],
   "meaning": "General closed formal countermodel construction: any stipulated nonempty, well-founded, causally sound one-world inventory with a noninitial predecessor rule can be duplicated into two mutually accessible histories satisfying each such local constraint while no rigid candidate exists necessarily. The antecedents are explicit in the quantified conclusion. Cross-world existential identity, universal contingency-grounding, counterpart policies and metaphysical adequacy remain distinct research questions.",
   "definition_ids": [
-    "DEF-WORLD-LOCAL-GROUNDING-DOUBLING",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "099e6e6a-c518-576d-bc6b-4925308a5f80",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

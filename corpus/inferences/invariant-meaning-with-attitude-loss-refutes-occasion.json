@@ -1,12 +1,14 @@
 {
-  "id": "INF-INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
+  "id": "a5146487-d312-5af4-9735-41dad4ec708b",
+  "label": "The occasion reading of EMOTIVISM_4 is false: the meaning of a moral…, by Constructive-proof",
+  "legacy_id": "INF-INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION",
   "input_statement_ids": [
-    "STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT",
-    "STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE",
-    "STMT-GEACH-ANTECEDENT-LACKS-FREE-STANDING-ATTITUDE",
-    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+    "bed6b857-dcb0-5f8e-a859-d21cfaa0b31b",
+    "7f487251-b5ac-53c1-bbad-d01c1262c7fb",
+    "5eea3462-e2c5-5aee-b47c-a64913e992bc",
+    "58e2c7be-0cbf-5483-aaf4-2ab4087ae49b"
   ],
-  "output_statement_id": "STMT-EMOTIVIST-MEANING-FAILS",
+  "output_statement_id": "3409bee3-9d35-5256-b8d0-31ab07dd9cd5",
   "rule": "constructive-proof",
   "meaning": "Invariant meaning transfers a genuinely expressed attitude under the occasion thesis, contradicting the separately retained actual antecedent-loss premise at the moral witness. Reuses the exact existing failure predicate; no ValidMP premise needed.",
   "assumption_statement_ids": [],

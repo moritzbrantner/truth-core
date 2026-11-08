@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POLITICAL-POPULAR-MAJORITY",
+  "id": "61ee33e3-4905-5155-818c-732cf288d44d",
+  "label": "Popular majority in the nine-voter…: PopularWin p means at least five A votes among the nine ballots",
+  "legacy_id": "DEF-POLITICAL-POPULAR-MAJORITY",
   "term": "popular majority in the nine-voter fixture",
   "definition": "popularWin p means at least five A votes among the nine ballots. Every ballot contributes zero or one to the total. It is distinct from winning at least two district majorities.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "id": "f1a17ff8-e477-5463-b669-d35a41246c12",
+  "label": "Unique actual concrete selected root…: There exists an actual concrete root n of the profile…",
+  "legacy_id": "DEF-UNIQUE-NECESSARY-ACTUAL-ROOT",
   "term": "unique actual concrete selected root, itself necessary",
   "definition": "There exists an actual concrete root n of the profile selected relation at w, n exists at every world accessible from w, and every actual concrete root of that relation at w equals n. Necessary nonroots are not excluded. No other-world rootness, well-foundedness, universal ancestry, efficient-cause interpretation, firstness in a separate priority, potency-freeness or God identity is asserted.",
   "basis": "stipulative",

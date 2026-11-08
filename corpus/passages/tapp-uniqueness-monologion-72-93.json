@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "TAPP-UNIQUENESS-MONOLOGION-2014",
+    "source_id": "28e3e25f-e54e-5b79-9c38-773ac64e3d30",
     "source_url": "https://www.kath.ruhr-uni-bochum.de/mam/ph-th/downloads/tapp_a26_2014_anselm_lahp.pdf",
     "retrieved_at": "2026-10-31T12:31:37Z",
     "sha256": "sha256:d3216eb7df4ea07bbd04e06a9709f8f6f173be041a77bfca56c4cd7fe3c814f5",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "TAPP-UNIQUENESS-MONOLOGION-72-93",
+      "id": "3e495d15-394e-58b9-8f09-d222095e0012",
+      "label": "Christian Tapp, The Uniqueness of God in Anselm’s Monologion, Logical Analysis and History of…",
+      "legacy_id": "TAPP-UNIQUENESS-MONOLOGION-72-93",
       "locator": "Logical Analysis and History of Philosophy 17 (2014), pp.72–93, complete article and references; physical PDF pp.1–11, two journal pages per PDF page",
       "claim_locator_prefixes": [
         "§"

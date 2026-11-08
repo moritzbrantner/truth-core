@@ -1,21 +1,23 @@
 {
-  "id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
+  "id": "4e8e50bb-b9e0-52d8-a111-e5129be68974",
+  "label": "For any GOD_4 candidate g and society c: if Jesus…, from Founded as a teaching authority coextends…",
+  "legacy_id": "ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING",
   "premise_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-ENVOY-INCLUSIVE"
+    "5e683514-cb24-5115-9dbf-9f09f5a475d5"
   ],
-  "conclusion_statement_id": "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING",
+  "conclusion_statement_id": "51e4073d-ac0d-57f1-8bb7-53a604172b04",
   "inference_ids": [
-    "INF-ENVOY-INCLUSIVE-DEFINITION-SUPPLIES-FOUNDING"
+    "a8958a1a-1efa-593d-9963-c6830e81a1f2"
   ],
   "meaning": "Definition-projection transcription: the envoy event is one disjunct in the explicitly assumed inclusive calibration. This conditional connection does not independently defend the definition or establish the old root premise.",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

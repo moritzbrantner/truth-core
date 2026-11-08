@@ -1,9 +1,11 @@
 {
-  "id": "INF-HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "id": "6e7931e0-58cd-5028-a560-beb2c092684d",
+  "label": "Jesus gave or promised some power in the existing fixed governing table, in…, by Constructive-proof",
+  "legacy_id": "INF-HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
   "input_statement_ids": [
-    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+    "da573220-03c0-5361-a1d7-e117e78e2b77"
   ],
-  "output_statement_id": "STMT-GOVERNING-GRANT-EXISTS",
+  "output_statement_id": "568fdb96-eb4f-536c-873e-e294bb2e5931",
   "rule": "constructive-proof",
   "meaning": "Import the existing commission_reports_give_teach_and_governing theorem and project its governing witness; no report/event inference is added.",
   "assumption_statement_ids": [],

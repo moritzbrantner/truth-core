@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-MODAL-COLLAPSE",
-  "argument_id": "SCOTT-MODAL-COLLAPSE",
+  "id": "92d34a7a-e012-5300-9176-7435d40a86c6",
+  "label": "Modal collapse: at every world, whatever…, from Scott's axiom A1a: at every world, for… and 7 more",
+  "legacy_id": "SCOTT-MODAL-COLLAPSE",
+  "argument_id": "4e5e80af-3bef-518e-8f3c-8dd689830c2f",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.ModalCollapse.modalCollapse",

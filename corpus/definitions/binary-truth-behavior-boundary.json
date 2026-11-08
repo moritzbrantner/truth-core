@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY",
+  "id": "d6f27f48-1f26-55b6-aa6b-73fb3b9dfce8",
+  "label": "Exact binary truth and behavioral…: Truthful target belief means the belief bit equals the target…",
+  "legacy_id": "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY",
   "term": "exact binary truth and behavioral scoring",
   "definition": "Truthful target belief means the belief bit equals the target at every input. Successful response is a different notion defined through act. A behavioral score is an arbitrary Nat-valued function on the whole Boolean-input response function; the certificate proves its value identical for the displayed profiles. No counting distribution or likelihood on cognitive systems is supplied.",
   "basis": "stipulative",

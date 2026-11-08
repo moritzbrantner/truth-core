@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
+  "id": "6ef56fd2-5ad8-5e8f-bbee-ca019af7b802",
+  "label": "One-step causal coverage for nonroot…: In the explicitly finite rootedEmpty model…",
+  "legacy_id": "DEF-NECESSARY-INDIVIDUAL-ROOTED-CAUSE",
   "term": "one-step causal coverage for nonroot individuals",
   "definition": "In the explicitly finite rootedEmpty model, rootedEmptyCauses world cause effect holds precisely when both individuals are present in that world, cause is the designated root zero, and effect is a distinct nonroot. RootedEmptyDependentCoverage requires such a cause for every present nonroot. RootedEmptyNoTwoStepCause prohibits any composable pair of these same-world causal edges. None of these clauses requires an explanation for the root, establishes a total PSR, compares worlds as temporal instants, or asserts well-foundedness of all imaginable causal relations.",
   "basis": "stipulative",

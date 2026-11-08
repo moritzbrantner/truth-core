@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
+  "id": "ba85645e-b933-5a7f-a648-b527dea115fa",
+  "label": "EXISTING_CONCRETE_INDIVIDUAL_3: ConcreteAt ex concrete x w means ex x w and concrete x w",
+  "legacy_id": "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
   "term": "existing concrete individual",
   "definition": "ConcreteAt ex concrete x w means ex x w and concrete x w. Existence and a theory-relative concreteness criterion are independent supplied predicates. No causal-powers, spatiotemporal or independence/actuality account is endorsed. Absence of concrete individuals is an empty extension at an existing world, not an empty world type. Abstract-object status is not inferred from failing this predicate.",
   "basis": "stipulative",

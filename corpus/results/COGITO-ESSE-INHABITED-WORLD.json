@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-ESSE-INHABITED-WORLD",
-  "argument_id": "COGITO-ESSE-INHABITED-WORLD",
+  "id": "6f5fd3ac-29de-5f19-b479-1eabbacbc7d0",
+  "label": "Some candidate is CONCRETE_6 and exists at…, from Some thought episode occurs under the… and 3… (2)",
+  "legacy_id": "COGITO-ESSE-INHABITED-WORLD",
+  "argument_id": "fc055978-aa74-584d-a71b-567687a63322",
   "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoEsse.inhabitedOfThought",

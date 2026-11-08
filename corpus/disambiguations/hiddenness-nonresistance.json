@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-HIDDENNESS-NONRESISTANCE",
+  "id": "14bdf48f-9ea1-5329-9489-9674bea6132a",
+  "label": "Nonresistance",
+  "legacy_id": "DISAMB-HIDDENNESS-NONRESISTANCE",
   "term": "nonresistance",
   "sense_definition_ids": [
-    "DEF-HIDDENNESS-RESISTANCE",
-    "DEF-HIDDENNESS-SEEKING",
-    "DEF-HIDDENNESS-REASONABLE-NONBELIEF"
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "4bbdc006-f5f9-5fef-9a01-84fabe6f98b6",
+    "3bc3811d-b99d-5a07-b57c-8e97361e658b"
   ],
   "resolution": "Nonresistance is the absence of resistance causing nonbelief. It is neither global innocence nor an evidential verdict nor merely a sincere-seeking report. The empirical witness must establish capacity, lack of belief and causal nonresistance separately. Hunter-gatherer claims also require independent evidence of concept availability and capacity.",
   "term_label": "NONRESISTANCE",
@@ -12,18 +14,18 @@
     {
       "id": "47818f8b-9a67-4344-8639-b0bba875bc3c",
       "label": "NONRESISTANCE_1",
-      "definition_id": "DEF-HIDDENNESS-RESISTANCE",
+      "definition_id": "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
       "lean_declaration": "TruthCore.Hiddenness.Sig.Resists"
     },
     {
       "id": "b7193fb4-8ab9-4891-81c7-ffbcb74f7c12",
       "label": "NONRESISTANCE_2",
-      "definition_id": "DEF-HIDDENNESS-SEEKING"
+      "definition_id": "4bbdc006-f5f9-5fef-9a01-84fabe6f98b6"
     },
     {
       "id": "28fb9b07-8ffa-434e-84e1-8076f29c69bc",
       "label": "NONRESISTANCE_3",
-      "definition_id": "DEF-HIDDENNESS-REASONABLE-NONBELIEF"
+      "definition_id": "3bc3811d-b99d-5a07-b57c-8e97361e658b"
     }
   ]
 }

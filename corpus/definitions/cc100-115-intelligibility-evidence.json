@@ -1,15 +1,17 @@
 {
-  "id": "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE",
+  "id": "c54f91c6-f3d4-5443-8308-58f92635e79d",
+  "label": "Intelligibility intuition…: A truth-linked aetiology accounts for having the intelligibility…",
+  "legacy_id": "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE",
   "term": "intelligibility intuition, truth-linked aetiology, withholding and comparative evidence in #115",
   "definition": "A truth-linked aetiology accounts for having the intelligibility intuition because it is true. The source contrasts plausible naturalistic and theistic accounts, imposes normative withholding/retention commitments, and concludes comparative evidence for theism over naturalism.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-115-NATURALISTIC-AETIOLOGY-EXCLUSION",
-    "CC100-115-NATURALIST-WITHHOLDING-FORK",
-    "CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
-    "CC100-115-CONDITIONAL-WITHHOLD-NATURALISM",
-    "CC100-115-THEISTIC-AETIOLOGY-AVAILABILITY",
-    "CC100-115-COMPARATIVE-INTELLIGIBILITY-EVIDENCE"
+    "e676e5b0-d718-504c-a051-6de80e714c6f",
+    "b8c43536-538e-5a9b-baba-91c604ef6533",
+    "071ead31-539c-5167-ab11-2d7607a297b4",
+    "a8ec741d-49e5-5574-a8ff-21be3c6570a5",
+    "513ae1a1-8a05-5a75-b9cc-2fd47e89d10f",
+    "7fc89709-ca94-5a10-8453-92076c72eaab"
   ],
   "note": "The intuition is not defined as unrestricted PSR or certified correspondence. Ought to withhold is not falsity, plausible accounts are not actual truths, and comparative evidence is not a numeric posterior or necessary God existence. Normative scope, truth-link plausibility and evidential transfer require independent interpretation and defense."
 }

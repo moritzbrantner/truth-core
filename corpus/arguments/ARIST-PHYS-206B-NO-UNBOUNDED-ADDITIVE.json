@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "id": "cd35f7f5-4eb2-5442-b910-cd87ee4d76b9",
+  "label": "There is no potential infinity by…, from A potential infinity by addition that could… and 1 more",
+  "legacy_id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
   "premise_statement_ids": [
-    "STMT-UNBOUNDED-ADDITIVE-POTENTIAL-REQUIRES-ACTUAL-INFINITE-BODY",
-    "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY"
+    "dad0a85f-90ce-56de-88cb-1001168772b8",
+    "156ac6a1-34c5-5262-8aa4-c5bd9736378d"
   ],
-  "conclusion_statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
+  "conclusion_statement_id": "41e0a6b3-eef0-50bb-9a88-c513a0c20223",
   "inference_ids": [
-    "INF-ARIST-PHYS-NO-UNBOUNDED-ADDITIVE"
+    "1c792fae-1e6e-5710-bd26-3288a235ef72"
   ],
   "meaning": "Physics III.6 reuses the III.5 rejection of an actually infinite sensible body to deny a potential infinity by addition that could exceed every determinate magnitude."
 }

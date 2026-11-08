@@ -1,20 +1,22 @@
 {
-  "id": "PRODUCTIVE-MATH-COUNTERCASE-FROM-EXPLICIT-BRIDGES",
+  "id": "3dd5c9b2-5f01-52f9-bf27-87cd5b832f1d",
+  "label": "A relevant supplied mathematical fact lacks esse in re and productively…, from explicit bridges",
+  "legacy_id": "PRODUCTIVE-MATH-COUNTERCASE-FROM-EXPLICIT-BRIDGES",
   "premise_statement_ids": [
-    "STMT-SELECTED-MATHEMATICAL-RELEVANCE-WITNESS",
-    "STMT-MATHEMATICAL-RELEVANCE-COUNTS-AS-PRODUCTIVE-CAUSATION",
-    "STMT-RELEVANT-MATHEMATICAL-FACTS-LACK-ESSE"
+    "9777e295-1b0e-5fe7-af7a-a372c107f62d",
+    "67db8146-10d8-56ed-a0ad-52b7348397a1",
+    "b3af2276-b506-5c0b-8455-1d65b1f5e10d"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "conclusion_statement_id": "c10065f6-0d9f-5832-a1ad-3d8948667861",
   "inference_ids": [
-    "INF-PRODUCTIVE-MATH-COUNTERCASE-FROM-EXPLICIT-BRIDGES"
+    "5450958e-ad52-5fc5-a86d-689e56737998"
   ],
   "meaning": "Guarded transcription retaining independent mathematical relevance, production interface and no-esse classification.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

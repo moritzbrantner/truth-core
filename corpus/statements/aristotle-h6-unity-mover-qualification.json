@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
+  "id": "47773969-4c0f-58a2-a3eb-f63df0928436",
+  "label": "Within the proximate-matter/form reply, Aristotle says there is no further cause of their unity…",
+  "legacy_id": "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
   "paraphrase": "Within the proximate-matter/form reply, Aristotle says there is no further cause of their unity except, if any, a mover from potentiality to actuality; the earlier formulation retains the producer in cases of generation.",
   "definition_ids": [
-    "DEF-ARISTOTLE-NONHEAP-WHOLE",
-    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
-    "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+    "58633e90-ed09-5e1e-87ed-c23a587f1a8e",
+    "75dc4009-c107-57c9-9a12-ca20e19f8ebd",
+    "57bc6e11-2b8f-506d-8f4d-27f67423c59f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION"
+    "cbb6f6da-760d-5822-ba5f-1054df1b1f04"
   ]
 }

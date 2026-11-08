@@ -1,6 +1,8 @@
 {
-  "id": "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
-  "argument_id": "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "id": "9ba07887-55b6-58b9-b919-a47b73571cf1",
+  "label": "Railton’s recorded fragment is satisfiable with an explicit true evaluative ascription and an…",
+  "legacy_id": "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "argument_id": "80b2f029-9420-5c6a-82ea-7172cca39643",
   "challenge_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.NaturalisticRealism.RailtonAscriptionConsistent.railtonAscriptionConsistent",

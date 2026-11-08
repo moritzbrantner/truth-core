@@ -1,9 +1,11 @@
 {
-  "id": "INF-NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
+  "id": "54c3bbd9-b280-5507-a668-2b0d2e1485e6",
+  "label": "Either the explicit named-case coverage hypothesis holds or a precise…, by Constructive-proof",
+  "legacy_id": "INF-NAMED-CAUSAL-COVERAGE-REMAINDER-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NAMED-CAUSAL-COVERAGE-OR-RELEVANT-REMAINDER",
+  "output_statement_id": "ffed3ea4-0f7a-5c36-ba19-b304cf876eef",
   "rule": "constructive-proof",
   "meaning": "Structural coverage-hypothesis-or-actual-remainder fork, not a proof that the named philosophical list is complete.",
   "assumption_statement_ids": [],

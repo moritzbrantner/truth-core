@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-PARADIGM",
+  "id": "bcb5bf29-e964-544b-a92f-b20500f868f8",
+  "label": "Plato, Parmenides 132d: Socrates proposes… supports A directed imitation reply makes…",
+  "legacy_id": "REL-PARTICIPATION-PARADIGM",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132D-PARADIGM-REPLY",
+  "subject_id": "e8264d3b-9f80-5e73-8a3a-ffcf2c201a47",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-LIKENESS-REPLY",
+  "object_id": "6688a4fb-79e8-567d-9f07-268e826e0a24",
   "note": "The directed paradigm proposal motivates this reply; relevant-respect and participant-selection mechanisms remain open."
 }

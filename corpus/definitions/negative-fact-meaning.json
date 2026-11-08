@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NEGATIVE-FACT-MEANING",
+  "id": "04ee37e1-2977-5558-8c4c-3212c82375ea",
+  "label": "Admitted fixed negative fact…: For every world v, A.holds v f if and only if…",
+  "legacy_id": "DEF-NEGATIVE-FACT-MEANING",
   "term": "admitted fixed negative fact expressing no actual contingent concreta",
   "definition": "For every world v, A.holds v f if and only if NoContingentConcreteAt A Concrete v. The selected fact f is explicit supplied data, not inferred from closure of the fact domain. This is an OPEN admission/preservation commitment about one fixed fact. Its correspondence to no contingent thing having EVER existed requires an independent interpretation of Ontic.ExistsAt; a now-slice is insufficient.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "WHOLE-ROSTER-ROOT-EQUIVALENCE",
-  "argument_id": "WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "id": "05817c68-3d1b-5d56-bebd-a551c98ea2b0",
+  "label": "Under actual concrete population and…, from Some candidate is CONCRETE_6 and exists at… and 1 more",
+  "legacy_id": "WHOLE-ROSTER-ROOT-EQUIVALENCE",
+  "argument_id": "5c0d3c51-09f2-5eda-84e9-8e68e5dd4901",
   "challenge_module": "TruthCore.Results.Causality.WholeRosterRootEquivalence.Challenge",
   "solution_module": "TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution",
   "theorem": "TruthCore.Results.Causality.WholeRosterRootEquivalence.equivalence",

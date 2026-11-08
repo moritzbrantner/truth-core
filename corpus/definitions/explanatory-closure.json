@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-CLOSURE",
+  "id": "23c2e2a9-25c4-50ec-9386-ec2132601f44",
+  "label": "Explanatory closure of an event under…: Accounted: each member of a set satisfies the stop…",
+  "legacy_id": "DEF-EXPLANATORY-CLOSURE",
   "term": "explanatory closure of an event under a stop predicate",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.Closed",

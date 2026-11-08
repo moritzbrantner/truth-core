@@ -1,21 +1,23 @@
 {
-  "id": "NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
+  "id": "ac0ca8ad-47ea-5cb6-b114-9b668a60baca",
+  "label": "Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct…, from analysis",
+  "legacy_id": "NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
   "premise_statement_ids": [
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
-  "conclusion_statement_id": "STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "conclusion_statement_id": "f6003a4c-fc27-5b0a-acf9-97515d131755",
   "inference_ids": [
-    "INF-NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS"
+    "0038563b-c80a-5122-bc4a-90443eb9f059"
   ],
   "meaning": "Conditional refutation of the Scotist rival: by Metaphysics IX.6's analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), whatever is in potency in a respect is not in act in it, so nothing is in act and in potency in the same respect. The rival must reject that analysis itself, not only the Prima Via premise derived from it. Sense-relative: with one InAct, a virtual-act reading of a self-mover would make the IX.6 analysis false rather than the rival (DISAMB-IN-ACT). The analysis stays open, so the refutation does not count for closure.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-RESPECT",
-    "DEF-CAPACITY-TO-BE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-POTENCY"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ]
 }

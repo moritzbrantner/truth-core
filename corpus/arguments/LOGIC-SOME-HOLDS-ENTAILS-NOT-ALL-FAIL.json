@@ -1,17 +1,19 @@
 {
-  "id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
+  "id": "ec000eff-7de6-5ffc-b126-0b9bc328b741",
+  "label": "Inside Lean logic, ¬. A logical theorem, not a…, from Inside Lean logic, ∃ P: Prop, P. This…",
+  "legacy_id": "LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL",
   "premise_statement_ids": [
-    "STMT-SOME-LEAN-PROPOSITION-HOLDS"
+    "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a"
   ],
-  "conclusion_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS",
+  "conclusion_statement_id": "8efdfe70-cb76-575f-a13c-16a35cfb7c9e",
   "inference_ids": [
-    "INF-LOGIC-SOME-HOLDS-ENTAILS-NOT-ALL-FAIL"
+    "e9d9f726-4d14-5d3e-9fa9-b92f8558afcf"
   ],
   "meaning": "Eliminate the existential witness and contradict universal failure. One direction of explicit reciprocal entailment.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

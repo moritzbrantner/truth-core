@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "edition_urn": "http://scta.info/resource/TAca84-d1e294/cod-cnLxE4",
     "language": "lat",
     "repository": "scta-texts/TAca84",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-Q48-A2",
+      "id": "70de5995-ea43-5174-bd18-9d5309f3855f",
+      "label": "Thomas Aquinas, Summa theologiae, I q.48 a.2",
+      "legacy_id": "AQUINAS-ST-I-Q48-A2",
       "locator": "I q.48 a.2",
       "claim_locator_prefixes": [
         "I q.48 a.2 "
@@ -20,7 +22,9 @@
       "tei_xml_id": "TAca84-d1e294-Dd1e497"
     },
     {
-      "id": "AQUINAS-ST-I-Q48-A3",
+      "id": "54d50f67-d4dc-5ea6-a9a4-972a57b3b610",
+      "label": "Thomas Aquinas, Summa theologiae, I q.48 a.3",
+      "legacy_id": "AQUINAS-ST-I-Q48-A3",
       "locator": "I q.48 a.3",
       "claim_locator_prefixes": [
         "I q.48 a.3 "
@@ -28,7 +32,9 @@
       "tei_xml_id": "TAca84-d1e294-Dd1e716"
     },
     {
-      "id": "AQUINAS-ST-I-Q48-A5",
+      "id": "844156e2-421f-5227-80ac-b765eb2b4241",
+      "label": "Thomas Aquinas, Summa theologiae, I q.48 a.5",
+      "legacy_id": "AQUINAS-ST-I-Q48-A5",
       "locator": "I q.48 a.5",
       "claim_locator_prefixes": [
         "I q.48 a.5 "

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-LAST-STAGE",
+  "id": "d42a1375-ef07-584f-b6d1-90b78185c683",
+  "label": "LAST_CONSTITUTIVE_SUBSTAGE_1: A greatest operation index n such that no operation indexed by a…",
+  "legacy_id": "DEF-SUPERTASK-LAST-STAGE",
   "term": "last constitutive substage",
   "definition": "A greatest operation index n such that no operation indexed by a larger natural number belongs to the task. This is different from a limit endpoint at which an output may be evaluated.",
   "basis": "stipulative",

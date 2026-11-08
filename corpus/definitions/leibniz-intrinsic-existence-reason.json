@@ -1,9 +1,11 @@
 {
-  "id": "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
+  "id": "61b2ea45-ab9d-537f-b43f-b9208c15a362",
+  "label": "Intrinsic existence reason of the…: Monadology §45 describes the necessary being proposed as the…",
+  "legacy_id": "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
   "term": "intrinsic existence reason of the proposed necessary ground",
   "definition": "Monadology §45 describes the necessary being proposed as the final reason for contingent beings as having the reason of its existence in itself. This does not mean efficient self-production, and it is not supplied by the bare modal predicate NecessaryAt. Whether the proposed nature actually exists and adequately explains itself remains to be defended.",
   "basis": "sourced",
   "claim_ids": [
-    "LEIBNIZ-45-INTRINSIC-REASON"
+    "8463b828-f923-5fe2-9b48-12a588fdf61a"
   ]
 }

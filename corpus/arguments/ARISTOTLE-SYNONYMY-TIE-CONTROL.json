@@ -1,18 +1,20 @@
 {
-  "id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
+  "id": "1fb05176-44b8-5530-acad-da1b9c851b15",
+  "label": "A two-entity interpretation has a same-account causal edge, equal at-least standings and no strict…",
+  "legacy_id": "ARISTOTLE-SYNONYMY-TIE-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SYNONYMY-TIE-CONTROL",
+  "conclusion_statement_id": "bab3c60d-f812-541d-974a-7c63cf28bfa9",
   "inference_ids": [
-    "INF-ARISTOTLE-SYNONYMY-TIE-CONTROL"
+    "b5fe93a8-d996-5866-ac16-fea58dce4c31"
   ],
   "meaning": "A nonvacuous same-account causal tie distinguishes the at-least source reading from its strict strengthening, without asserting that this interpretation is metaphysically possible.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-AT-LEAST-IN",
-    "DEF-SHARED-DEFINING-ACCOUNT"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "3533dc1b-25bf-5747-bdf9-a308b3da7e55",
+    "030b5151-2125-551c-93a3-fc32d034a3cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-D-COUNTERMODELS",
+  "id": "a8e14a6a-5950-56dc-92cf-ea14e514bb13",
+  "label": "Explicit serial finite pocket and fork frames witness possible full collapse…, by Direct-proof",
+  "legacy_id": "INF-MODAL-D-COUNTERMODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-D-COUNTERMODELS",
+  "output_statement_id": "2509c7a2-a6d1-521d-b2b7-3374f8f911d8",
   "rule": "direct-proof",
   "meaning": "Exhaust the explicitly enumerated carriers, exhibit successors and contrary atom witnesses, and use the root equality predicate to refute full MC at non-self-accessing worlds. Singleton endpoint successor sets establish full MC there. The Boolean report reuses the fixture evaluator and ordered witness lists.",
   "assumption_statement_ids": [],

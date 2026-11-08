@@ -1,10 +1,16 @@
 {
-  "id": "NB-SURVEY-DEFINITION-OBJECTIVE-POSSIBILITY",
-  "statement_id": "STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "24b1c89a-6be2-5501-a0c7-e26c34fa6b34",
+  "label": "Unattributed website author, Necessary…: The survey characterizes possibility objectively: a…",
+  "legacy_id": "NB-SURVEY-DEFINITION-OBJECTIVE-POSSIBILITY",
+  "statement_id": "ff153719-4eb5-5120-b036-f2cc91f09d77",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "Definition page, 'A comment about possible' and following paragraphs",
   "interpretation": "The author defines objective possibility through noncontradiction with what must be the case and distinguishes it from what someone knows. The necessary truths are illustrated but the author does not provide a complete necessity system on this page.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-POSSIBILITY"]
+  "definition_ids": [
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
+  ],
+  "disambiguation_ids": [
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
+  ]
 }

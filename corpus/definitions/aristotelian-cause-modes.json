@@ -1,9 +1,11 @@
 {
-  "id": "DEF-ARISTOTELIAN-CAUSE-MODES",
+  "id": "d57222e9-d0f2-5fd4-97c3-b5f0462dd623",
+  "label": "CAUSE_3, in Aristotle's four modes: Whatever stands as a CAUSE_3 of an effect does so in at least…",
+  "legacy_id": "DEF-ARISTOTELIAN-CAUSE-MODES",
   "term": "cause (aition), in Aristotle's four modes",
   "definition": "Whatever stands as a cause of an effect does so in at least one of four modes: matter, form, mover (source of change) and end (Physics II.3, 194b16-195a3). The modes are relations between cause and effect, not labels on objects.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-PHYS-194B-FOUR-CAUSES-A"
+    "58f68015-fab0-5534-974b-853a7e73813f"
   ]
 }

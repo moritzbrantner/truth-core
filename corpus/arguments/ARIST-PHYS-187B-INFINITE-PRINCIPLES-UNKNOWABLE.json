@@ -1,12 +1,14 @@
 {
-  "id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "id": "86407949-d86e-550b-b7f8-6f933e5c364e",
+  "label": "A composite cannot be scientifically…, from Principles infinite both in multitude and… and 1 more",
+  "legacy_id": "ARIST-PHYS-187B-INFINITE-PRINCIPLES-UNKNOWABLE",
   "premise_statement_ids": [
-    "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
-    "STMT-COMPOSITE-KNOWLEDGE-REQUIRES-PRINCIPLE-KNOWLEDGE"
+    "a5c99f5b-c6e9-5a7c-b429-d5aae412e7c7",
+    "9cf25f07-653f-5f53-802f-1e99fcc51983"
   ],
-  "conclusion_statement_id": "STMT-COMPOSITE-INFINITE-PRINCIPLES-NOT-KNOWABLE",
+  "conclusion_statement_id": "d05ddbaf-8a06-5db6-bd51-35da3b9e164a",
   "inference_ids": [
-    "INF-ARIST-PHYS-INFINITE-PRINCIPLES-COMPOSITE-UNKNOWABLE"
+    "e78cd6ec-03d9-5c55-878d-98b7737f5558"
   ],
   "meaning": "Aristotle's Physics I.4 epistemic objection to infinitely many principles: if the principles are unknowable while knowledge of a composite requires knowledge of those principles, the composite cannot be scientifically known."
 }

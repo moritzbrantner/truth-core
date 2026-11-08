@@ -1,7 +1,9 @@
 {
-  "id": "PAPINEAU-RISE-CAUSAL-POWERS-PHYSICAL",
-  "statement_id": "STMT-NATURALISM-N3",
-  "source_id": "PAPINEAU-RISE-PHYSICALISM",
+  "id": "f356bf84-d62f-5f36-9f2a-c204d3c3bb52",
+  "label": "David Papineau, The Rise of Physicalism…: N3, CAUSAL_POWER_NATURALISM_3: at the selected world…",
+  "legacy_id": "PAPINEAU-RISE-CAUSAL-POWERS-PHYSICAL",
+  "statement_id": "b3968a11-82d8-584b-8c04-772b7e157a8b",
+  "source_id": "a01c6154-9b4e-59b6-aca5-0fe707051ecf",
   "locator": "pp.3–12 p.12 ('I shall use \"physicalism\" ... specifically for the doctrine that everything with causal powers is physical, whatever may be true of noncausal realms')",
   "interpretation": "Papineau's own working formulation of physicalism, adopted after he limits the causal argument to whatever has physical effects (p.11): everything with causal powers is physical. Read as N3 with P = physical in his indirect sense (DEF-PAPINEAU-PHYSICAL). He leaves open that there are noncausal realms (mathematical objects, value) that are not physical, so he is not committed to N1. He does not say physical things are spatiotemporal: the spatiotemporal N3 is the analyst's instance of the same schema.",
   "attribution": "The passage states that everything with causal powers is physical, which is the premise with P = physical.",

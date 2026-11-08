@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-CIRCLE",
+  "id": "c5f45879-1d0c-5de6-93db-de53ffd8bdaa",
+  "label": "Circular proposed experimental…: CircularProposal says every proposed experimental argument…",
+  "legacy_id": "DEF-HUME-INDUCTION-CIRCLE",
   "term": "circular proposed experimental justification",
   "definition": "CircularProposal says every proposed experimental argument depends on uniformity; it represents dependency, not proof entailment or a formal theory of justification. It cannot itself establish uniformity without an independent warrant.",
   "basis": "stipulative",

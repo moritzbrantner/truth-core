@@ -1,6 +1,8 @@
 {
-  "id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
-  "argument_id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "id": "8aa484b7-c76f-50a2-975f-0e4340e439f6",
+  "label": "For any frame and meaningfulness predicate closed…, from Weak version: for every sentence, if its…",
+  "legacy_id": "STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "argument_id": "32b3030e-fb60-56d2-a30a-af1b3f9c432e",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.StrongVerificationClosure.strongVerificationismWithLawsFails",

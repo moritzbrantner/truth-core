@@ -1,6 +1,8 @@
 {
-  "id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
-  "argument_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "id": "ce424691-86d3-5348-b8a4-251a5daf0e1f",
+  "label": "Exact negation of the old…, from At the same designated arrangement a and…",
+  "legacy_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "argument_id": "d516346b-9c7c-57a1-8a1e-c23370548daa",
   "challenge_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Challenge",
   "solution_module": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.Solution",
   "theorem": "TruthCore.Results.Explanation.SelectionCoverageBoundary.RivalSelectionFailure.rivalSelectionFailure",

@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
+  "id": "670ec31e-444a-53fa-b858-71d97a1c21ba",
+  "label": "Each natural body tends, not by chance, to something that is best for it…, by Disjunctive-syllogism",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END",
   "input_statement_ids": [
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION"
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb"
   ],
-  "output_statement_id": "STMT-NATURAL-BODIES-ACT-FOR-AN-END-NOT-BY-CHANCE",
+  "output_statement_id": "388ad433-b799-5e60-bd45-e80443b85479",
   "rule": "disjunctive-syllogism",
   "meaning": "Each natural body regularly attains something best; that is not by chance; by the chance-or-intention dichotomy it tends to it as an end.",
   "assumption_statement_ids": [],

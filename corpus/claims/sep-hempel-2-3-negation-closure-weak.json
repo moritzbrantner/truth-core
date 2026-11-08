@@ -1,16 +1,18 @@
 {
-  "id": "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK",
-  "statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
-  "source_id": "SEP-HEMPEL",
+  "id": "7ac3d198-dba6-518c-8592-a7407fa62cb1",
+  "label": "James H. Fetzer, Carl Hempel §2.3: Weak version: for every sentence, if its negation is…",
+  "legacy_id": "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK",
+  "statement_id": "3f979107-8ac1-557c-8e10-b3cfa3a7ba78",
+  "source_id": "427f4263-d7a4-5ee8-9601-cc67e1f28ad5",
   "locator": "§2.3, \"on the assumption that a sentence \\(S\\) is meaningful if and only if its negation is meaningful\"",
   "interpretation": "Hempel's critique of the verifiability criterion assumes, as an adequacy condition, that a sentence is meaningful iff its negation is; the entry reports that under this assumption the criterion yields counterintuitive if not inconsistent consequences (the red-legged stork). Attribution reading on a secondary witness: the claim records the assumption the entry reports Hempel as using. The statement is the left-to-right half restricted to negated sentences; the entry's stork example applies the condition to an existential sentence and its negation.",
   "attribution": "The passage states that Hempel's critique proceeds on the assumption that a sentence is meaningful if and only if its negation is meaningful, whose instance for negated sentences is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MEANING-NEGATION-CLOSURE"
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ],
-  "interpretation_of": "SEP-HEMPEL-2-3-NEGATION-CLOSURE"
+  "interpretation_of": "53f64561-9829-5283-bd46-8d921d97bd9e"
 }

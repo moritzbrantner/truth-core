@@ -1,6 +1,8 @@
 {
-  "id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
-  "argument_id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "id": "5c375145-6889-59c0-aa0a-eb4f899bdd2c",
+  "label": "There is no per se causal loop: no…, from A middle cause efficiently causes that of… and 3 more",
+  "legacy_id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "argument_id": "323c26ae-a953-5a64-9fd8-8f7775c66c0b",
   "challenge_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution",
   "theorem": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.noPerSeCausalLoop",

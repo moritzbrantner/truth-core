@@ -1,10 +1,12 @@
 {
-  "id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
+  "id": "e874fe7d-e1a9-544c-8c8c-b8b6dce934d3",
+  "label": "Whatever is in potency in no respect is eternal in Boethius' typed sense: it lives at some time of…",
+  "legacy_id": "STMT-IMMUTABLE-IS-BOETHIAN-ETERNAL",
   "paraphrase": "Whatever is in potency in no respect is eternal in Boethius' typed sense: it lives at some time of the duration frame, its life has neither beginning nor end, and it has no succession. This is a typed specialization, distinct from STMT-IMMUTABLE-IS-ETERNAL with its primitive Eternal; relating them needs a recognition commitment that is not asserted.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ImmutableIsBoethianEternalReading",
   "definition_ids": [
-    "DEF-PURE-ACT",
-    "DEF-BOETHIAN-ETERNAL",
-    "DEF-LIFE-PRESENT-AT"
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "5e77da13-998f-56ab-96b7-12731ac95f70",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ]
 }

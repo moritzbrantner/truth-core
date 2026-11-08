@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
+  "id": "6618da47-faca-59e2-be67-8ec920a2d51b",
+  "label": "Possible existence-causation at a…: PossibleCauseAt m v x y means that some u accessible from v…",
+  "legacy_id": "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
   "term": "possible existence-causation at a world in the modal-degree profile",
   "definition": "PossibleCauseAt m v x y means that some u accessible from v has the supplied actual causal edge m.Causes u x y. The same rigid x and y occur in the possibility witness and current-world degree comparison. This predicate does not assert m.Causes v x y, a common witness world for several effects, or presence of either relatum unless separately guarded. The supplied relation is interpreted as existence-causation in this reading; causal soundness, sufficiency and identification with the separate CausesIn perfection relation are not built into the definition.",
   "basis": "stipulative",

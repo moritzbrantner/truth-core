@@ -1,6 +1,8 @@
 {
-  "id": "SPACE-TRANSLATION-BOUNDARY",
-  "argument_id": "SPACE-TRANSLATION-BOUNDARY",
+  "id": "4e27fddd-212c-5c09-a2df-c05f4e740340",
+  "label": "In the labeled real-line profile, signed relative-displacement agreement is exactly a common…",
+  "legacy_id": "SPACE-TRANSLATION-BOUNDARY",
+  "argument_id": "077372ab-3883-5f6b-9e79-4b86c8518863",
   "challenge_module": "TruthCore.Results.Space.TranslationBoundary.Challenge",
   "solution_module": "TruthCore.Results.Space.TranslationBoundary.Solution",
   "theorem": "TruthCore.Results.Space.TranslationBoundary.controls",

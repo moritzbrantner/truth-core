@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "WITTGENSTEIN-LECTURE-ON-ETHICS",
+    "source_id": "8010d534-7439-5be8-afc2-524b0a9abe83",
     "source_url": "https://www.wittgensteinproject.org/w/index.php?title=Lecture_on_Ethics&action=raw&oldid=11338",
     "retrieved_at": "2026-11-05T15:46:39Z",
     "sha256": "sha256:7fec8e94645c829fe75e7eb4b8ed3f2b6c7a9f1551bbc31f96baefa41ae829dd",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "WITTGENSTEIN-LECTURE-ON-ETHICS-WHOLE",
+      "id": "96ddfd2a-7235-509f-87c2-ca09db942fd0",
+      "label": "Ludwig Wittgenstein, A Lecture on Ethics, Whole lecture",
+      "legacy_id": "WITTGENSTEIN-LECTURE-ON-ETHICS-WHOLE",
       "locator": "whole lecture (raw wikitext)",
       "claim_locator_prefixes": [
         "LE "

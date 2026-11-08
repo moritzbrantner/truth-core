@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-B-FRAME",
+  "id": "5c8078b6-03d2-55d8-af52-4cb0cf9b8ba9",
+  "label": "B frame and local back-edge: B means the existing Reflexive and Symmetric predicates on a Frame",
+  "legacy_id": "DEF-MODAL-B-FRAME",
   "term": "B frame and local back-edge",
   "definition": "B means the existing Reflexive and Symmetric predicates on a Frame; Transitive is not assumed. A local back-edge F.access v w plus IdentityAdmissible D v and MC F D v already entails w=v by the shared identity-separation theorem. Global symmetry supplies that back-edge from F.access w v. Reflexivity supplies MC-to-possible-MC and boxed-MC-to-MC in the bundled B equivalence; the separate NecessarySymmetry result proves that boxed-MC-to-MC also follows from symmetry alone, including at dead ends.",
   "basis": "stipulative",

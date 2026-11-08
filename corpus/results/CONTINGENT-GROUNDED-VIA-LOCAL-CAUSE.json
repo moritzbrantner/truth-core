@@ -1,6 +1,8 @@
 {
-  "id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
-  "argument_id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "id": "36d36dfa-961c-5adb-a38e-54d79b612bfd",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a…, via local cause",
+  "legacy_id": "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE",
+  "argument_id": "9b14e6d7-1586-5c17-9ecf-7c1277007f8a",
   "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
   "theorem": "TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaLocalCause",

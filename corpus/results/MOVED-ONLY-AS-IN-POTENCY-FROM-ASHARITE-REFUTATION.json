@@ -1,6 +1,8 @@
 {
-  "id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
-  "argument_id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "id": "1b902c08-27b9-5b1a-9030-59b135e81d95",
+  "label": "Nothing is moved except insofar as it is in POTENCY_1 to that toward…, from asharite refutation",
+  "legacy_id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "argument_id": "19250dc9-eb55-5a39-8fa5-d61797b48db2",
   "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
   "theorem": "TruthCore.Results.Causality.RootWiring.movedOnlyAsInPotencyFromAshariteRefutation",

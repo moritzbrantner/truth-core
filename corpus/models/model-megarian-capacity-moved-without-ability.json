@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-MEGARIAN-CAPACITY-MOVED-WITHOUT-ABILITY",
+  "id": "d9693519-3e57-5d52-ae58-849d90659d92",
+  "label": "#576 removal model for megarian capacity motion incompatible (3)",
+  "legacy_id": "MODEL-MEGARIAN-CAPACITY-MOVED-WITHOUT-ABILITY",
   "description": "#576 removal model for MEGARIAN-CAPACITY-MOTION-INCOMPATIBLE (Being and Respect are Unit). The being is moved but neither actual nor able: the Megarian thesis holds vacuously, present motion and incompleteness hold; the ability of what is moved fails. Witnesses the core minus STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R. Formal satisfiability of the encoding only; no premise is closed.",
   "vocabulary": "MEGARIAN-CAPACITY",
   "lean_declaration": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.model",
@@ -28,7 +30,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+      "statement_id": "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -39,7 +41,7 @@
       "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation0"
     },
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -49,7 +51,7 @@
       "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation1"
     },
     {
-      "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R",
+      "statement_id": "811fe80c-3bdd-5e41-9f1b-f94bec9178ef",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -60,7 +62,7 @@
       "theorem": "TruthCore.Models.MegarianCapacity.MovedWithoutAbility.evaluation2"
     },
     {
-      "statement_id": "STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R",
+      "statement_id": "53225d00-bd26-50e0-b05e-403c88431cd3",
       "value": "violates",
       "arguments": [
         "Being",

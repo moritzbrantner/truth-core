@@ -1,16 +1,18 @@
 {
-  "id": "SCHAFFER-12-PRIORITY-FOUNDATIONALISM",
-  "statement_id": "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
-  "source_id": "SCHAFFER-MONISM",
+  "id": "57e87fcb-8dc0-5d13-8f40-e799ebcd4a09",
+  "label": "Jonathan Schaffer, Monism §1.2, pp.35–38: Schaffer assumes metaphysical priority among actual…",
+  "legacy_id": "SCHAFFER-12-PRIORITY-FOUNDATIONALISM",
+  "statement_id": "836e2c3b-a175-56ef-9ddf-7fa738fce527",
+  "source_id": "058b3585-f957-5a4e-a6a8-be4f5c4ae125",
   "locator": "§1.2, pp.35–38",
   "interpretation": "Source reading recorded in prose only. Priority is not efficient causation, temporal precedence or parthood. Well-foundedness is an admitted background commitment, not a theorem that refutes infinitism or coherentism.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN",
-    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
-    "DEF-SCHAFFER-BASIC-OBJECT"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295",
+    "0c9a04bf-8233-5d2e-b1e3-d24845a9bf1e",
+    "052e3b2e-e39c-58d4-b3bb-66a947e11f3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

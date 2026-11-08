@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
-  "argument_id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "id": "68f03fe4-b6c6-567e-bae5-7bea3db947cc",
+  "label": "At least one identical actual individual…, from At least one individual exists at the… and 4 more",
+  "legacy_id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "argument_id": "5aeafe2c-9cd0-5aa4-8313-4336e53fdf79",
   "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveUnion.checks",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-EXISTENCE-BEGINNING",
+  "id": "de94687a-6789-5599-b38d-14bef31148fd",
+  "label": "TEMPORAL_EXISTENCE_1, beginning, and a…: IsAt x t means that x is at t",
+  "legacy_id": "DEF-TEMPORAL-EXISTENCE-BEGINNING",
   "term": "temporal existence, beginning, and a past without beginning",
   "definition": "IsAt x t means that x is at t; Before t t′ means t is earlier than t′, with a distinguished now. PastIsFinite means there is a time at or before now with no earlier time, not that the set of instants has finite cardinality. PastIsInfinite means each time at or before now has an earlier time. BeingsSucceedWithoutBeginning says that whenever a being is at a time, some being is at an earlier time. ComesToBeAnew means either absence at one time followed by presence at a later one, or the separate BeganWithTime predicate. Presence at the earliest instant does not itself imply beginning then; that is an explicit open bridge.",
   "basis": "stipulative",

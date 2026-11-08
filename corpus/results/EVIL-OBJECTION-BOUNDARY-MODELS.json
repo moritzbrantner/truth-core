@@ -1,6 +1,8 @@
 {
-  "id": "EVIL-OBJECTION-BOUNDARY-MODELS",
-  "argument_id": "EVIL-OBJECTION-BOUNDARY-MODELS",
+  "id": "2a00b0d5-9c46-5daa-befa-103c6ff9fea6",
+  "label": "Explicit model interpretations jointly certify the limits of the diagnostic fork: strict truthless…",
+  "legacy_id": "EVIL-OBJECTION-BOUNDARY-MODELS",
+  "argument_id": "bd363c47-866c-5b76-9826-c550870e5b90",
   "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.Solution",
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.BoundaryModels.boundaryModels",

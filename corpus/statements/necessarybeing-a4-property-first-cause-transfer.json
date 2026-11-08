@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NB-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
+  "id": "1c3e5244-fed4-573a-ac4f-e82b29ae1faf",
+  "label": "For any property P that can first be exemplified and can have a bearer with a cause, caused first…",
+  "legacy_id": "STMT-NB-A4-PROPERTY-FIRST-CAUSE-TRANSFER",
   "paraphrase": "Conditional on the affirmative A4P2 report: for any property P that can first be exemplified and can have a bearer with a cause, caused first exemplification of P is possible. The two antecedent possibilities can have different histories and witnesses. The antecedent does not require that the bearer be caused to acquire P; the redness example mentions caused existence of red bearers. The consequent concerns causation of first exemplification, not merely a caused P-bearer after earlier P-instances. This records the reported transfer, not a general theorem combining separate possibilities.",
   "definition_ids": [
-    "DEF-NB-A4-PROPERTY-AND-INSTANCE",
-    "DEF-NB-A4-FIRST-EXEMPLIFICATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-A3-EVENT-AND-CAUSE"
+    "a6885928-bd3d-5ec6-b89a-6fc0ef88aaaa",
+    "6c717105-e9e1-58ef-9342-22b0c1b53be2",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

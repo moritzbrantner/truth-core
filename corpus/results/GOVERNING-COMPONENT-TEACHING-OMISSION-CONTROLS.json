@@ -1,6 +1,8 @@
 {
-  "id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
-  "argument_id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "id": "7d10d8b0-3f8b-59de-aff1-eca88276050e",
+  "label": "Two nonempty schema controls show why the original narrow scope still needs teaching: a…",
+  "legacy_id": "GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "argument_id": "7391ff42-5474-5fb8-a590-aab557faed14",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.StrengthModels.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.governingComponentsDoNotForceTeachingScope",

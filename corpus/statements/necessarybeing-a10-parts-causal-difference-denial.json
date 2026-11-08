@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NB-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
+  "id": "d52637d4-ef30-568e-8e19-8cd8000c280a",
+  "label": "Within the reconsidered contingent-causation comparison, having parts rather than lacking parts…",
+  "legacy_id": "STMT-NB-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
   "paraphrase": "Within the reconsidered contingent-causation comparison, having parts rather than lacking parts does not determine a categorical contrast in having a cause, with part-bearing things caused and partless things uncaused.",
   "definition_ids": [
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-A10-RECONSIDERATION-CASE"
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "ffc4db54-6b73-55a0-a08e-caf2af6095b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0"
   ]
 }

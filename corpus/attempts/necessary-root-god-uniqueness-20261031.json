@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-NECESSARY-ROOT-GOD-UNIQUENESS-20261031",
+  "id": "30f8d978-1330-514a-ac5f-f25a39cf61d1",
+  "label": "Reused the existing supplied-root convergence proof rather than the older CauseMore argument",
+  "legacy_id": "ATTEMPT-NECESSARY-ROOT-GOD-UNIQUENESS-20261031",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-GOD-IS-ONE",
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-NECESSARY-BEING-HAS-BEING",
-    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
-    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+    "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d29cebca-ee1c-5bd8-9080-f7226770e809",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "79281639-e09b-569c-a2b3-bb32fdc3b951",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Reused the existing supplied-root convergence proof rather than the older CauseMore argument. Inspected GodIsOne/GodIsMaximal dossiers and exact prior theorem types; source attribution unchanged. Frozen Challenge SHA256 fc17f0dc6e2e62eb1f539fb13a45493fc3690026b22cfc5c6498440450933ad1 before Solution. Focused Lean check passes. Same root n identifies every maximum; the explicitly retained GodIsMaximalInBeing converse puts any God candidate in that class. Equality transitivity yields the existing GodIsOne type. No maximum existence is needed for this universal conditional. Exact nine-input route replaces CauseMore with the explicit foundation/convergence bundle, without claiming a weaker or minimal overall bundle. It proves at most one God and not God existence, exactly one necessary individual, or source truth. No new claim, definition, relation or model.  Convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Coordinator integration passes full lake build (4275 jobs), exact binding (773 bound, 2 existing pins, 0 mismatches), and zero-permitted-axiom Comparator plus independent NanoDa for all six new results. Source manifests, existing bundle audits and generated imports/docs pass. Final policy sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. No philosophical premise truth is discharged. The GodIsOne route costs 8 with 9 direct inputs; existing routes retain cost 3. Its reachable union grows 6 to 16 via ten alternate dependencies, with none removed. This is a different sufficient bundle, not a proof of global weakening.",
   "blocker": "Independent warrant and application of the retained foundation, necessity/causal convergence and God-to-maximality interfaces remain open. God existence is handled by separate explicit-premise compositions.",
   "evidence": [
-    "NECESSARY-ROOT-GOD-UNIQUENESS",
-    "NECESSARY-ROOT-IS-MAXIMUM",
-    "WHOLE-ROSTER-NECESSARY-CONCRETE"
+    "d0344ecd-aeb6-5399-94a6-5a8c93c2edbd",
+    "6b75bdf8-e72b-5e4e-8e2f-3996bd44032c",
+    "597c82a2-2567-5149-b5b7-4a13e4fa9c64"
   ]
 }

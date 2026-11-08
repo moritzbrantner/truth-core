@@ -1,21 +1,23 @@
 {
-  "id": "SCOTT-A5-INDEPENDENCE",
+  "id": "6ad828a5-8b24-5918-a7d1-90c00a08f0d9",
+  "label": "A two-world, one-individual S5 model satisfies Scott's A1a, A1b, A2, A3 and A4 and makes a…",
+  "legacy_id": "SCOTT-A5-INDEPENDENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCOTT-A5-INDEPENDENCE",
+  "conclusion_statement_id": "5668bf51-9e32-54dc-9a34-3eab079672de",
   "inference_ids": [
-    "INF-SCOTT-A5-INDEPENDENCE"
+    "f1a8c3db-9bef-5ddb-9c38-86a1f0daf208"
   ],
   "meaning": "New finite countermodel to sufficiency of the remaining Scott/AFP axioms for A5 or T3. The model satisfies all positivity principles except A5, on an S5 frame, and realizes the possible-God-like corollary C. This is a result about formal assumption independence, not a refutation of all versions of the ontological argument and not an assertion that the semantic model describes metaphysical actuality.",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-ESSENCE-SCOTT",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

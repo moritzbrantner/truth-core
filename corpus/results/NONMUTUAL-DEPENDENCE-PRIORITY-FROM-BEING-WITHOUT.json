@@ -1,6 +1,8 @@
 {
-  "id": "NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT",
-  "argument_id": "NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT",
+  "id": "47957c28-218a-58e4-94e4-5220a0c45795",
+  "label": "OPEN analyst premise: if x depends for its being on y and y does not so depend…, from being without",
+  "legacy_id": "NONMUTUAL-DEPENDENCE-PRIORITY-FROM-BEING-WITHOUT",
+  "argument_id": "75f11492-299c-509e-94f2-3a4bdea7f7cd",
   "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
   "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.nonmutualDependenceSuffices",

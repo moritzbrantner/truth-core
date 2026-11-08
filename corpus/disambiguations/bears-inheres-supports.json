@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-BEARS-INHERES-SUPPORTS",
+  "id": "f83e9a34-7994-5eb1-8431-50776f097f58",
+  "label": "'has' or 'depends on': bearing, being in a subject, being said of a subject, and direct…",
+  "legacy_id": "DISAMB-BEARS-INHERES-SUPPORTS",
   "term": "'has' or 'depends on': bearing, being in a subject, being said of a subject, and direct existential support",
   "sense_definition_ids": [
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-CATEGORIES-SUBJECT-RELATIONS"
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "bba020f8-c553-542e-a54a-250e2d116dc7"
   ],
   "resolution": "Bears s e relates a subject to a thought episode (DEF-THOUGHT-BEARER). PresentEsseSupport relates an existing direct supporter to what it supports at one world (DEF-PRESENT-ESSE-SUPPORT). In and SaidOf are the supplied Categories relations (DEF-CATEGORIES-SUBJECT-RELATIONS); no In or SaidOf edge need be a support edge. The #562 argument passes from a bearer into support ancestry only by starting the ancestry at that bearer; it never infers a bearer of a bearer, and NonSubstanceBranchModel has an occurring episode with an existing bearer and no existing supporter. It passes from In or SaidOf to support only through the explicit open premises STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT and STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT. Explanation is a further relation that no record here uses.",
   "term_label": "HAS_OR_DEPENDS_ON_BEARING_BEING",
@@ -11,13 +13,13 @@
     {
       "id": "7ec0a9d6-1a23-4457-8073-101c6d541d16",
       "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_1",
-      "definition_id": "DEF-PRESENT-ESSE-SUPPORT",
+      "definition_id": "b242943a-34cc-582d-8c38-c1203b9d2c91",
       "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.PresentEsseSupport"
     },
     {
       "id": "ec0a1eda-4d75-4ffe-b023-209cbeb1a767",
       "label": "HAS_OR_DEPENDS_ON_BEARING_BEING_2",
-      "definition_id": "DEF-CATEGORIES-SUBJECT-RELATIONS",
+      "definition_id": "bba020f8-c553-542e-a54a-250e2d116dc7",
       "lean_declaration": "TruthCore.Greek.Aristotle.Categories.PrimarySubstanceBySubjectRelationsReading"
     }
   ]

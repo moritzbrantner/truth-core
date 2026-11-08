@@ -1,6 +1,8 @@
 {
-  "id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
-  "argument_id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "id": "025d7183-4bd8-5285-a5ee-50bee7f461b5",
+  "label": "There is at most one first mover moved…, from Numerically different individuals cannot… and 4… (2)",
+  "legacy_id": "UNLIMITED-NATURE-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "6acf2716-18b0-5e61-9213-e3f1d54c006f",
   "challenge_module": "TruthCore.Results.Causality.RootMultiplication.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootMultiplication.Solution",
   "theorem": "TruthCore.Results.Causality.RootMultiplication.uniqueFromUnlimitedNature",

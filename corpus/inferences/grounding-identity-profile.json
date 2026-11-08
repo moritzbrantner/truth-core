@@ -1,7 +1,9 @@
 {
-  "id": "INF-GROUNDING-IDENTITY-PROFILE",
+  "id": "8a3878c1-f319-5ca5-99b3-850fa8e8723e",
+  "label": "For every source LocalState satisfying the exact existing population\u2026, by Model-construction",
+  "legacy_id": "INF-GROUNDING-IDENTITY-PROFILE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GROUNDING-IDENTITY-PROFILE",
+  "output_statement_id": "5b521600-7250-53bd-80e6-5ee8a3044f94",
   "rule": "model-construction",
   "meaning": "For every source LocalState satisfying the exact existing population, grounding well-foundedness, sound distinct existing endpoints and independent noninitial coverage assumptions, a fixed-tag rigid companion and the old disjoint-world doubling share one Bool\u00d7B rigid roster, universal accessibility, concreteness and literally identical actual-world existence/causal/grounding assignments. Both retain those local laws. At every world their existing domains have unique source-coordinate matches in both directions preserving concreteness and represented grounding/causing edges. The disjoint profile has total functional injective surjective counterparts, existing reflexive links and exact composition through every intermediate world, giving counterpart necessity for each existing source coordinate but no literal identity bridge. Source population yields a rigid necessary concrete witness in the fixed-tag profile; the imported doubling theorem excludes one in the disjoint profile. The old root-child source jointly instantiates the comparison with a genuine actual grounding edge in both. Source-coordinate correspondence is not numerical identity or a global roster bijection. Analyst reconstruction, attribution deferred; neither assignment is independently vindicated. Identity/applicability/PSR/anti-brute principles and metaphysical possibility remain OPEN; no root-premise change.",
   "assumption_statement_ids": [],

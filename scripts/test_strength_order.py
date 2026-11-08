@@ -14,6 +14,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import corpus  # noqa: E402
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 def statement(statement_id: str, **extra: object) -> dict[str, object]:
@@ -278,7 +279,7 @@ class StrengthCorpusTest(unittest.TestCase):
         self.assertEqual(len(order), len(registered))
         pairs = {(entry["strong_statement_id"], entry["weak_statement_id"]) for entry in order}
         self.assertIn(
-            ("STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK"),
+            (legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"), legacy_uuid("statement", "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK")),
             pairs,
         )
 

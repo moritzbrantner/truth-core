@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PROPER-PART-COMPOSITION-MODEL",
+  "id": "dc78e47a-f971-5d89-9c99-a8cb8939ba61",
+  "label": "Composition from a proper component in…: An individual is composite in the finite model if a…",
+  "legacy_id": "DEF-PROPER-PART-COMPOSITION-MODEL",
   "term": "composition from a proper component in a finite model",
   "definition": "An individual is composite in the finite model if a numerically different bearer is marked as its proper component. This supplies one explicit instance of composition; it does not claim to exhaust Thomistic kinds of composition.",
   "basis": "stipulative",

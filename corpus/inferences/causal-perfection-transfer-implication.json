@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
+  "id": "2534d30c-ba22-5f03-bb4d-04b70dde3438",
+  "label": "A cause of every other actual being transfers causation of a distinct…, by Typed scope comparison",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-IMPLICATION",
   "input_statement_ids": [
-    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION"
+    "f8ba2429-b4f1-5712-a4d3-798213963d34"
   ],
-  "output_statement_id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
+  "output_statement_id": "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
   "rule": "typed_scope_comparison",
   "meaning": "Restrict the legacy cause/effect/perfection quantifiers to universal esse sources and distinct effects; all causal antecedents are retained.",
   "assumption_statement_ids": [],

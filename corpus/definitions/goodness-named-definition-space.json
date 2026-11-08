@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
+  "id": "b9df0e5b-7d1e-5259-a5d5-910e85328aab",
+  "label": "Admissible named goodness proposals…: A DefinitionSpace supplies candidate identities, their…",
+  "legacy_id": "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
   "term": "admissible named goodness proposals and further relevant definitions",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.DefinitionSpace",
   "basis": "stipulative",

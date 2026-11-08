@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-TERM-SENSE-FORKS-20261107",
+  "id": "f35f5f43-ef8c-5bb8-8933-61f3606910d1",
+  "label": "Load-bearing term audit: 128 disambiguations reach the root; none had a case-splitting result…",
+  "legacy_id": "ATTEMPT-TERM-SENSE-FORKS-20261107",
   "date": "2026-11-07",
   "statement_ids": [
-    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-PRIOR-SENSES-EXHAUSTIVE",
-    "STMT-PRIOR-SENSE-UNIQUE",
-    "STMT-CAUSE-SENSES-EXHAUSTIVE",
-    "STMT-CAUSE-SENSE-UNIQUE"
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
+    "fbc5fecc-f30a-52e9-b653-38111a34880e",
+    "048eac8a-c325-52ad-9627-3f5431eea846",
+    "4515cf2b-4938-5588-80e8-fd50bf5bd84d"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Load-bearing term audit (docs/notes/load-bearing-terms.md): 128 disambiguations reach the root; none had a case-splitting result, coverage or exclusivity statement. Certified sense forks for 'prior' (PrioritySense: simply, inTime, inSubstance) and 'cause' (CauseSense: moving, efficient, perfection, origin) in TruthCore.Causality.TermSenseForks: joint theorems by cases PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE, per-branch results, two conditional refutations (temporal priority; no self-caused perfection), one strengthens relation (Aristotle's no-self-mover over the same-respect reading), uses-agree results from exclusivity, and controls (omission model for every joint premise, nonvacuity per fork, coverage-without-exclusivity models). Rejected leads: (1) a bridge from priority in time to simple priority, because ST I q.3 a.1 grants potency prior in time within one changing thing while act is simply prior; (2) closing the perfection branch of 'cause' by a bridge from efficient causing to causing a perfection, since the perfection reading is refuted under the self-perfecting-subject premise; (3) refuting the moving branch with an 'something moves itself' premise, rejected because it contradicts the existing Aristotle reading STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which the branch reuses instead; (4) a new disambiguation of 'authority', deferred because it needs a dedicated claimed-divine-authority definition and lane B route links; (5) an 'eternal' fork, deferred because Eternal is a primitive with no temporal model, so a fork could not fail.",
   "blocker": "Coverage and exclusivity of both terms are OPEN frontier premises; coverage of 'cause' excludes grounding (Ontic.Causes) and Aristotle's formal, material and final causes, which are the named attacks. The bridges STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE, STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING and STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION and the refuting premises STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY and STMT-SOME-SUBJECT-CAUSES-ITS-OWN-PERFECTION remain open.",
   "evidence": [
-    "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
-    "CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE",
-    "TERM-SENSE-FORKS-CONTROLS"
+    "de6540a7-39bc-5106-8970-73f1db6d5b40",
+    "aa8398ef-fbb1-5786-85ae-ef530662dfc3",
+    "f6e67b12-0e1a-512f-a34b-c05112ecef6c"
   ]
 }

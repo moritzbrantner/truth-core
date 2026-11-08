@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PROOF-DOMAIN-COVERAGE",
+  "id": "df37b419-4264-583e-8860-338e583c3863",
+  "label": "Coverage of the named…: An explicit OPEN hypothesis that one of the three domain calibrations holds",
+  "legacy_id": "DEF-PROOF-DOMAIN-COVERAGE",
   "term": "coverage of the named theological-domain definitions",
   "definition": "An explicit OPEN hypothesis that one of the three domain calibrations holds. RemainingDomain denies all three on the same inquiry table and predicate; it is an extensional remainder, not an exhaustive historical school census.",
   "basis": "stipulative",

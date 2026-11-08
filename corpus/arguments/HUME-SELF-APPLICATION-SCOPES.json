@@ -1,24 +1,26 @@
 {
-  "id": "HUME-SELF-APPLICATION-SCOPES",
+  "id": "725af6e1-1647-57d7-b1ee-377a7a0d5073",
+  "label": "In the existing universal selfC model, H, C and ◇¬H hold at false but C does not: possible failure…",
+  "legacy_id": "HUME-SELF-APPLICATION-SCOPES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HUME-SELF-APPLICATION-SCOPES",
+  "conclusion_statement_id": "0f82f196-c7bd-5d60-b2dd-2c69ea9815b0",
   "inference_ids": [
-    "INF-HUME-SELF-APPLICATION-SCOPES"
+    "1d239c76-1a46-5638-a3bc-83a03d25c298"
   ],
   "meaning": "Issue #268 analytical consequence and finite countermodels, not a refutation of the sourced narrow claim. Project the existing selfC consistency witness and self-application law; inspect necessary denial at the actual world. Construct the one-step model, where the accessible dead end has H by empty conception and □¬H vacuously.",
   "definition_ids": [
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE",
-    "DEF-HUME-TEST-FRAME",
-    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
-    "DEF-HUME-NECESSARY-DENIAL",
-    "DEF-HUME-ACTUAL-DENIAL",
-    "DEF-HUME-ONE-STEP-MODEL",
-    "DEF-MODAL-T-REFLEXIVITY",
-    "DEF-HUME-NECESSARY-DENIAL-FRAME"
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b",
+    "995491ae-884a-5850-a853-2eebe60b8959",
+    "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+    "f4d05861-5f41-5a2d-831d-670f06e40104",
+    "0478df71-11e6-5d2d-b0db-544e7cb01c6c",
+    "238663e2-67d5-5640-89df-a0eb28c6f159",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb",
+    "aed2b81e-4746-5c71-8abd-5b3b5e9edb88"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
-    "DISAMB-HUME-DENIAL-SCOPE"
+    "427373ad-3ff7-524e-976c-595005a70338",
+    "c2ea5860-c282-59d7-b143-6467fed28bf9"
   ]
 }

@@ -1,27 +1,29 @@
 {
-  "id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "id": "a48266d6-fc14-5825-b8e4-cdccf3ac053b",
+  "label": "Whatever moves another only as moved is, in that, an efficient CAUSE_3 that…, from…",
+  "legacy_id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
   "premise_statement_ids": [
-    "STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER",
-    "STMT-MOVER-IS-EFFICIENT-CAUSE",
-    "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"
+    "9c252f24-3d84-5246-9551-2637c0fe6379",
+    "a7d2b839-5873-585e-ae86-4ec36c563b10",
+    "8a22ae75-4198-5a32-ae52-bad2848a50a5"
   ],
-  "conclusion_statement_id": "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK",
+  "conclusion_statement_id": "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
   "inference_ids": [
-    "INF-PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING"
+    "05e322ac-0bf2-5eb1-a225-9f6aea4c14cf"
   ],
   "meaning": "Every per se mover link is a per se cause link, from three existing open premises and no new one: a per se mover link is a moving of x by a distinct y that is itself moved by some z; every moving in a respect is efficient causing in that respect (so y efficiently causes x and z efficiently causes y); and an efficient cause other than its effect that is itself efficiently caused causes only as caused (the Second Way reading). This is the positive form of the conditional refutation of the occasionalist rival in RIVAL-REFUTATIONS-ROUND2; it links MovesAsMoved to MovesIn and CausesAsCaused to EfficientlyCausesIn.",
   "definition_ids": [
-    "DEF-ARISTOTELIAN-CAUSE-MODES",
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-RESPECT"
+    "d57222e9-d0f2-5fd4-97c3-b5f0462dd623",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-CAUSE",
-    "DISAMB-MOTION",
-    "DISAMB-PER-SE-LINK"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
-  "argument_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "id": "f69342ea-bd48-5ef4-b816-f9e8ac91bde7",
+  "label": "Weak open transfer: the SAME being satisfying the…, from For every being in the supplied duration…",
+  "legacy_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "argument_id": "fb5a7e59-c68c-5d66-98bf-ac17d710beb1",
   "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Challenge",
   "solution_module": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution",
   "theorem": "TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.recognitionStrength",

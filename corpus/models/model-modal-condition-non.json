@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-MODAL-CONDITION-NON",
+  "id": "ef4d457b-a4aa-587d-9851-289cd6bc77a1",
+  "label": "Universal two-world same-frame C/N/S deletion control noN; actual p and q true",
+  "legacy_id": "MODEL-MODAL-CONDITION-NON",
   "description": "Universal two-world same-frame C/N/S deletion control noN; actual p and q true. A mathematical interpretation, not metaphysical possibility.",
   "vocabulary": "grounding-modal-condition-core",
   "lean_declaration": "TruthCore.Explanation.GroundingBaseline.noN",
@@ -32,7 +34,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-CONDITION-CONTINGENT-PROFILE",
+      "statement_id": "9178419a-8704-53e6-9dfc-c8e1d2a6d7b3",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -45,7 +47,7 @@
       "theorem": "TruthCore.Results.Explanation.GroundingBaseline.noN_cont"
     },
     {
-      "statement_id": "STMT-CONDITION-NECESSARY-PROFILE",
+      "statement_id": "2799cd6e-4a46-53ed-bb4c-62a57b809fac",
       "value": "violates",
       "arguments": [
         "W",
@@ -58,7 +60,7 @@
       "theorem": "TruthCore.Results.Explanation.GroundingBaseline.noN_nec"
     },
     {
-      "statement_id": "STMT-CONDITION-IMPLICATION-PROFILE",
+      "statement_id": "228affcd-0128-53c4-ab88-e2540cc5510b",
       "value": "satisfies",
       "arguments": [
         "W",

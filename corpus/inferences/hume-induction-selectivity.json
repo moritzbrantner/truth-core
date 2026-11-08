@@ -1,11 +1,13 @@
 {
-  "id": "INF-HUME-INDUCTION-SELECTIVITY",
+  "id": "6c4cbe44-e466-5a2b-98b7-c5b2f19927e4",
+  "label": "The selected theological withholding verdict fails under an equal standard…, by Direct-proof",
+  "legacy_id": "INF-HUME-INDUCTION-SELECTIVITY",
   "input_statement_ids": [
-    "STMT-HUME-INDUCTION-UNIFORM-STANDARD",
-    "STMT-HUME-INDUCTION-SAME-BASIS",
-    "STMT-HUME-INDUCTION-SCIENCE-ENTITLED"
+    "149769ba-e647-5a26-90c3-a1f2211df637",
+    "055f21e3-1018-52e7-a304-744d21663c7c",
+    "9be6fea1-4c23-5462-a26b-d8ebb45adb9d"
   ],
-  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-SELECTIVE",
+  "output_statement_id": "7c1fdce9-5065-5444-a9ac-ec9fe31c4778",
   "rule": "direct-proof",
   "meaning": "Conditional selective-skepticism critique: identical relevant evidence and an invariant verdict standard transfer science entitlement to the selected theology case. Logical transcription; same-evidence and normative premises remain open.",
   "assumption_statement_ids": [],

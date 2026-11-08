@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-UNGUIDED-FINALITY",
-  "argument_id": "TELEONOMY-UNGUIDED-FINALITY",
+  "id": "6fc0ab85-9b85-5def-80a7-abb6d9697c53",
+  "label": "Composes #179’s teleonomyModel: beneficial regular tending without a knower is consistent with the…",
+  "legacy_id": "TELEONOMY-UNGUIDED-FINALITY",
+  "argument_id": "b9fc2987-b866-54f3-bf32-4b30bd8aa926",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.UnguidedFinality.unguidedFinality",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-EPISTEMIC-REWARD-FAILURE-ALTERNATIVE-TO-DEFINITION",
+  "id": "c4c35b38-41fd-567d-942e-c153fd9c0151",
+  "label": "The selected attributed reason relation… alternative to Candidate bare reward meaning: an…",
+  "legacy_id": "REL-EPISTEMIC-REWARD-FAILURE-ALTERNATIVE-TO-DEFINITION",
   "subject_kind": "statement",
-  "subject_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION-FAILS",
+  "subject_id": "00f17baa-6951-57d3-92f2-43546fd69560",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION",
+  "object_id": "79caf0c3-50d9-5f0c-b33a-b0396adc1cce",
   "note": "Exact profile-specific negation of this bare-reward calibration, leaving informative reward accounts open."
 }

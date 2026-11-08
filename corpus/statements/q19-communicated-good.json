@@ -1,11 +1,13 @@
 {
-  "id": "STMT-WILL-CAN-COMMUNICATE-POSSESSED-GOOD",
+  "id": "aa15f6c2-5b5e-5a90-8732-f9af9633bdcf",
+  "label": "Willing can communicate a good already possessed to others insofar as possible; possession of its…",
+  "legacy_id": "STMT-WILL-CAN-COMMUNICATE-POSSESSED-GOOD",
   "paraphrase": "Willing can communicate a good already possessed to others insofar as possible; possession of its good does not exclude divine willing of things other than itself.",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-ACT-OF-WILL"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "9f448669-6387-5244-a2ec-f9f90618c037"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

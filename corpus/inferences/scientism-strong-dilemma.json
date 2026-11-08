@@ -1,10 +1,12 @@
 {
-  "id": "INF-SCIENTISM-STRONG-DILEMMA",
+  "id": "148390b4-10a0-5895-975a-fa47028f447d",
+  "label": "The scientism dilemma: if scientism holds, its own formulation is not…, by Constructive-proof",
+  "legacy_id": "INF-SCIENTISM-STRONG-DILEMMA",
   "input_statement_ids": [
-    "STMT-SCIENTISM-IN-OWN-SCOPE",
-    "STMT-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED"
+    "2faf3d39-451f-5e25-8d78-9e11e07d4ff5",
+    "aa9893e1-e1c4-5d78-9d08-30086f0a4f5d"
   ],
-  "output_statement_id": "STMT-STRONG-SCIENTISM-DILEMMA",
+  "output_statement_id": "b2401d20-738d-56b9-9e80-a7ea2f3f7e4d",
   "rule": "constructive-proof",
   "meaning": "The scientism dilemma, by the self-application dilemma: if scientism's formulation is in its own scope and not empirically established, then if scientism holds the formulation is not established, and if the formulation is established scientism fails. It does not refute scientism held as true but unestablished, and its second premise is open.",
   "assumption_statement_ids": [],

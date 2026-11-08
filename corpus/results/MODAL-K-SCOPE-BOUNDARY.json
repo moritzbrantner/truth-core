@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-K-SCOPE-BOUNDARY",
-  "argument_id": "MODAL-K-SCOPE-BOUNDARY",
+  "id": "df49e4d4-f4cd-5801-a2ed-bf08a1b2fd84",
+  "label": "The shared duplicate-label model has actual, possible and necessary fixed-language collapse and…",
+  "legacy_id": "MODAL-K-SCOPE-BOUNDARY",
+  "argument_id": "48e66731-7279-50ae-a8e8-2806b4c428b6",
   "challenge_module": "TruthCore.Results.Modal.K.ScopeBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.K.ScopeBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.K.ScopeBoundary.checks",

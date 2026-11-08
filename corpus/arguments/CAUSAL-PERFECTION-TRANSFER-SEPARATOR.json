@@ -1,21 +1,23 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "id": "e1ebd4fd-2167-5a6b-a827-4860217d158b",
+  "label": "In the closed four-being concurrent setting, universal-scope transfer holds and unrestricted…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCOPE-TRANSFER-SEPARATES",
+  "conclusion_statement_id": "fb53bf08-0331-5b29-a2c9-696a58278bca",
   "inference_ids": [
-    "INF-CAUSAL-PERFECTION-TRANSFER-SEPARATOR"
+    "4c0b8057-3cb7-5d38-9441-49803199e6a5"
   ],
   "meaning": "Project the populated concurrent interpretation to the exact Separation certificate consumed by the existing strength-comparison checker.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE",
-    "DEF-PERFECTION-TRANSFER-MODEL-BACKGROUND"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1",
+    "47346214-8a38-5ec0-b6df-ed48024c4cfb"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-IN-ACT"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

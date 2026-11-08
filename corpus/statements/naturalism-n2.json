@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NATURALISM-N2",
+  "id": "41ae1d27-391f-530e-a65c-4e2b2ef4b08e",
+  "label": "N2, CONCRETE_NATURALISM_2: at the selected world, everything that exists and is CONCRETE_6…",
+  "legacy_id": "STMT-NATURALISM-N2",
   "paraphrase": "N2, concrete naturalism (analyst formulation, attribution deferred): at the selected world, everything that exists and is concrete (has esse in re) satisfies the thesis predicate P. With P a spatiotemporal sense: every existing concrete thing is spatiotemporal.",
   "lean_declaration": "TruthCore.Ontology.Naturalism.ConcreteNaturalism",
   "definition_ids": [
-    "DEF-NATURALISM-N2",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "0f3ffba6-5882-5d97-80be-9129f75c7264",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT",
-    "DISAMB-SPATIOTEMPORAL"
+    "726527df-c7a8-5be7-9f30-2bc23b115982",
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ]
 }

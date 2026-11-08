@@ -1,15 +1,17 @@
 {
-  "id": "CC100-119-CONDITIONAL-PROBABLE-GOD",
-  "statement_id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "144da036-945e-5830-821d-6739551c6fe2",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If our cognitive faculties are designed and their…",
+  "legacy_id": "CC100-119-CONDITIONAL-PROBABLE-GOD",
+  "statement_id": "c6463d43-5c58-5e45-8e9c-650265ade554",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.280, argument #119, step 6 under steps 4–5",
   "interpretation": "Retain conditional probable existence rather than actual/necessary God existence or a particular divine witness. Probably is not assigned a numerical threshold and no evidence-to-truth rule is introduced. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

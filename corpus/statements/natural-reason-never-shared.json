@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NATURAL-REASON-NEVER-SHARED",
+  "id": "106640c2-2d92-5088-a977-1b5c0a5e30eb",
+  "label": "Every move affirming natural knowability lacks the practice AnswersToSharedReason property",
+  "legacy_id": "STMT-NATURAL-REASON-NEVER-SHARED",
   "paraphrase": "Every move affirming natural knowability lacks the practice AnswersToSharedReason property. This is the explicit all-nonshared rival profile, not a historical or purely descriptive claim about the audience or users.",
   "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalReasonNeverShared",
   "definition_ids": [
-    "DEF-NATURAL-REASON-PROFILE-COMPARISON",
-    "DEF-NATURAL-REASON-SHARED",
-    "DEF-NATURAL-REASON-PRACTICE-INTERNAL",
-    "DEF-CONCILIAR-DEFINITION"
+    "f74c1b35-246a-5182-886e-0ff56e217925",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "aa836cb9-1853-5973-8907-89d232f0c8ce",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

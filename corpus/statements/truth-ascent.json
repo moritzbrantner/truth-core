@@ -1,11 +1,13 @@
 {
-  "id": "STMT-TRUTH-ASCENT",
+  "id": "ad0face6-d46b-547e-a374-5a7f3256a295",
+  "label": "Truth ascent: if a content is ABSOLUTELY_TRUE_1, the content saying that it is true is absolutely…",
+  "legacy_id": "STMT-TRUTH-ASCENT",
   "paraphrase": "Truth ascent: if a content is absolutely true, the content saying that it is true is absolutely true as well.",
   "lean_declaration": "TruthCore.Logic.Relativism.TruthAscent",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

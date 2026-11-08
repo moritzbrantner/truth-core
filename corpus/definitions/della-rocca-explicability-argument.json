@@ -1,9 +1,11 @@
 {
-  "id": "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
+  "id": "0f37c0a4-9503-5ae5-97bf-faea75cfe7c9",
+  "label": "EXPLICABILITY_ARGUMENT_4: An argument rejects a proposed obtaining state because that obtaining…",
+  "legacy_id": "DEF-DELLA-ROCCA-EXPLICABILITY-ARGUMENT",
   "term": "explicability argument (Della Rocca)",
   "definition": "An argument rejects a proposed obtaining state because that obtaining would be inexplicable (PSR,p.2). Particular examples initially need only local rejection of inexplicability. The proposed extension to the existence of each thing has the unrestricted existence-explanation scope of his PSR; an analogy and demand for a principled boundary do not themselves specify a productive cause, concrete bearer or well-founded support relation.",
   "basis": "sourced",
   "claim_ids": [
-    "DELLA-ROCCA-LOCAL-EXPLICABILITY-SCOPE"
+    "1aecd9db-f417-5466-aba7-a465f302e745"
   ]
 }

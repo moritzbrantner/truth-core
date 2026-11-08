@@ -1,6 +1,8 @@
 {
-  "id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
-  "argument_id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
+  "id": "972ed7e5-098f-5ca6-9685-98d2cee48db8",
+  "label": "An efficient cause does not depend for its being on what it efficiently causes, from asymmetry",
+  "legacy_id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
+  "argument_id": "1ffd6090-ea39-5a16-b89a-fd14e22814ab",
   "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
   "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.efficientCauseNotDependent",

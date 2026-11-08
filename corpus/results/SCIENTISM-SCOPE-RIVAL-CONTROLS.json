@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
-  "argument_id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "id": "6856e66a-70f2-53ac-bd0f-15eda7f93f4e",
+  "label": "Three populated Bool controls: scoped scientism coexists with a nonempirical established claim…",
+  "legacy_id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "argument_id": "daf01641-7ba8-5a72-a2d8-2c11bc006472",
   "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.Controls.controls",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION-FAILS",
+  "id": "92f8f0c4-f45b-5ae4-ba23-22b4dbd182d8",
+  "label": "The selected-time calibration fails for the supplied attribution profile",
+  "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION-FAILS",
   "paraphrase": "The selected-time calibration fails for the supplied attribution profile. Its failure alone does not establish the existential-time calibration; named coverage is independently required.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.CurrentDefinitionFails",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

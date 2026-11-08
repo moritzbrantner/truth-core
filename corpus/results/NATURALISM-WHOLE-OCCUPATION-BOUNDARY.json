@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
-  "argument_id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "id": "22aef119-48a0-538e-828d-bb7ee8d6f5a1",
+  "label": "The selected spacetime whole does…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 1 more",
+  "legacy_id": "NATURALISM-WHOLE-OCCUPATION-BOUNDARY",
+  "argument_id": "3762bc04-bea6-5b5e-8fa2-94cbe99378ca",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.WholeOccupation.wholeOccupationBoundary",

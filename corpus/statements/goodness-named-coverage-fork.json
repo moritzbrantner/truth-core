@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOODNESS-NAMED-COVERAGE-FORK",
+  "id": "6841941f-12fb-5ee0-bf46-344699c31806",
+  "label": "Stronger identity-scope fork: named candidate identities cover every admissible proposal or an…",
+  "legacy_id": "STMT-GOODNESS-NAMED-COVERAGE-FORK",
   "paraphrase": "Stronger identity-scope fork: named candidate identities cover every admissible proposal or an additional admissible candidate identity exists. Excluded middle is explicit. This is preserved separately from the semantic/coextension coverage fork used for the owner thesis.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.NamedCoverageFork",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

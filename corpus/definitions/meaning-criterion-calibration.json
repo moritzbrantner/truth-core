@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEANING-CRITERION-CALIBRATION",
+  "id": "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+  "label": "Criterion calibration of cognitive…: On the supplied scope, the independent cognitive-meaning…",
+  "legacy_id": "DEF-MEANING-CRITERION-CALIBRATION",
   "term": "criterion calibration of cognitive meaning",
   "definition": "On the supplied scope, the independent cognitive-meaning predicate holds iff the sentence is analytic or passes the supplied verifiability criterion. This is full extensional calibration, stronger than the existing one-way VerificationPrinciple; no historical or property identity follows.",
   "basis": "stipulative",

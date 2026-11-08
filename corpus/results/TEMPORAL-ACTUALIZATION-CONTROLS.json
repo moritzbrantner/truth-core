@@ -1,6 +1,8 @@
 {
-  "id": "TEMPORAL-ACTUALIZATION-CONTROLS",
-  "argument_id": "TEMPORAL-ACTUALIZATION-CONTROLS",
+  "id": "a8aced0e-08dc-5224-9dbd-7bfb406fbc3a",
+  "label": "Joint mathematical controls: A₀→B₁→A₂ has strictly forward acyclic event edges but reciprocal…",
+  "legacy_id": "TEMPORAL-ACTUALIZATION-CONTROLS",
+  "argument_id": "8471ce86-bfbc-561a-96a5-2a81bd8ddcc2",
   "challenge_module": "TruthCore.Results.Causality.TemporalActualization.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.TemporalActualization.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.TemporalActualization.Controls.controls",

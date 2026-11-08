@@ -5,10 +5,12 @@ import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
 import { type PropositionGraphInput } from "./proposition-graph";
+import { DEFAULT_ROOT_STATEMENT_ID } from "./proposition-graph";
 import { getPropositionGraph } from "./proposition-graph-data";
 import { fixture } from "./proposition-graph.fixture";
 import { getDossiers } from "./premise-dossier";
 import { getFrontierReport, statementState, type FrontierReport } from "./site-state";
+import { legacyUuid } from "./corpus-ids";
 
 describe("proposition graph status", () => {
   const graph = fixtureGraph(fixture);
@@ -166,12 +168,12 @@ describe("corpus proposition graph", () => {
 
   test("closes the excluded-middle instances via transcription from closed premises", () => {
     const byId = new Map(graph.statements.map((entry) => [entry.id, entry]));
-    for (const id of ["STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT", "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT"]) {
+    for (const id of [legacyUuid("statement", "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT"), legacyUuid("statement", "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT")]) {
       expect(byId.get(id)?.frontier).toBe(false);
-      expect(byId.get(id)?.closedViaTranscription?.premises).toEqual(["STMT-EXCLUDED-MIDDLE"]);
+      expect(byId.get(id)?.closedViaTranscription?.premises).toEqual([legacyUuid("statement", "STMT-EXCLUDED-MIDDLE")]);
     }
     // A bridge transcription whose bridge premise is open stays open.
-    expect(byId.get("STMT-TIME-IS-NOT-MOTION")?.frontier).toBe(true);
+    expect(byId.get(legacyUuid("statement", "STMT-TIME-IS-NOT-MOTION"))?.frontier).toBe(true);
   });
 
   // The single guard of #507: what the explorer displays for closure and floor
@@ -226,10 +228,10 @@ describe("corpus proposition graph", () => {
   }, 120000);
 
   test("uses STMT-CATHOLICISM-TRUE as the default target once it exists", () => {
-    const root = graph.statements.find((entry) => entry.id === "STMT-CATHOLICISM-TRUE");
+    const root = graph.statements.find((entry) => entry.id === DEFAULT_ROOT_STATEMENT_ID);
     expect(graph.rootPresent).toBe(Boolean(root));
     if (root) {
-      expect(graph.defaultTarget).toBe("STMT-CATHOLICISM-TRUE");
+      expect(graph.defaultTarget).toBe(DEFAULT_ROOT_STATEMENT_ID);
     }
   });
 });

@@ -1,15 +1,17 @@
 {
-  "id": "SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "id": "bbbe4ab1-e459-5a1b-95e4-cb5b0dc2d966",
+  "label": "A nonvacuous negative-finite-cost, non-dogmatic prior model has a practical maximizer and all…",
+  "legacy_id": "SIGNED-WAGER-PRACTICAL-NONTRUTH",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SIGNED-WAGER-PRACTICAL-NONTRUTH",
+  "conclusion_statement_id": "c85a26ca-6784-5dca-83d2-047d2fc1ac31",
   "inference_ids": [
-    "INF-SIGNED-WAGER-PRACTICAL-NONTRUTH"
+    "79938eb8-d111-58eb-a2b1-be183ddfd058"
   ],
   "meaning": "A nonvacuous negative-finite-cost, non-dogmatic prior model has a practical maximizer and all many-policy mixtures maximize, while the actual religious proposition is false. Distinct one and one-half act probabilities tie; omitting positive prior or positive action destroys infinite payoff. Act choice does not encode belief control.",
   "definition_ids": [
-    "DEF-SIGNED-WAGER"
+    "2abb061e-1a0e-5d69-a19e-a017cc0fa7e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SIGNED-WAGER-ACT-TRUTH"
+    "69f3208b-951a-54f6-a52e-6e933f878985"
   ]
 }

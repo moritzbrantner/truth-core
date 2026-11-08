@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-RETAINED-DUTY-ACTION-TIME",
+  "id": "c5ea8a79-2882-5ebc-84f7-6d98dc36867f",
+  "label": "Can, duty retention, action identity and retrospective responsibility",
+  "legacy_id": "DISAMB-RETAINED-DUTY-ACTION-TIME",
   "term": "can, duty retention, action identity and retrospective responsibility",
   "sense_definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES",
-    "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
-    "DEF-RETAINED-DUTY-BRANCHING-ABILITY"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d",
+    "ac8c1fd8-884f-5f95-8a3a-e25870b8a5bd",
+    "25c5b73d-2d42-55c9-a222-54dfe1cca63e"
   ],
   "resolution": "Practical ability at after differs from ability at some later date and from actual fulfillment. The generic imported compatibility theorem is instantiated over dates with a supplied ideal-date frame; its earlier continuation interpretation is not asserted identical. Returning the original object is not compensation or debt repayment. Retrospective responsibility can remain when the present original-return duty lapses. No permission or moral truth follows from the predicate names. Attribution of the working reconstruction is deferred. Plan alternatives are complete dated futures, not Stage dates; FeasibleAbility quantifies over a feasible alternative, independently of the designated actual branch. Date-only FutureCan is a separate narrower ability control. Universal PresentOIC and original-return-only LocalOIC are separate policy strengths. The weaker local policy suffices for both operational cores and implies no OIC for the other two actions; the original universal targets remain frozen historical predecessors.",
   "term_label": "CAN_DUTY_RETENTION_ACTION_IDENTITY",
@@ -13,25 +15,25 @@
     {
       "id": "044f58e3-4079-4f62-a1a4-e373a08f351f",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_1",
-      "definition_id": "DEF-RETAINED-DUTY-CASE",
+      "definition_id": "200b70ef-cdce-5c01-9d1c-d802050f1f51",
       "lean_declaration": "TruthCore.Modal.RetainedDuty.Case"
     },
     {
       "id": "2be33b2d-11f1-43cd-821c-da4c7c1984f4",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_2",
-      "definition_id": "DEF-RETAINED-DUTY-POLICIES",
+      "definition_id": "21e29c57-c49c-57e9-b226-8a9f23f7968d",
       "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentOIC"
     },
     {
       "id": "64cdd725-2242-46a6-b2a3-bd7ea76c9e95",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_3",
-      "definition_id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+      "definition_id": "ac8c1fd8-884f-5f95-8a3a-e25870b8a5bd",
       "lean_declaration": "TruthCore.Modal.DeonticFutureBoundary.Ought"
     },
     {
       "id": "4329b5d1-f343-4fb8-8c37-90d0bd02808f",
       "label": "CAN_DUTY_RETENTION_ACTION_IDENTITY_4",
-      "definition_id": "DEF-RETAINED-DUTY-BRANCHING-ABILITY",
+      "definition_id": "25c5b73d-2d42-55c9-a222-54dfe1cca63e",
       "lean_declaration": "TruthCore.Modal.RetainedDuty.Plan"
     }
   ]

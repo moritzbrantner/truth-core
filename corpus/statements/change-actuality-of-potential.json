@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CHANGE-ACTUALITY-OF-POTENTIAL",
+  "id": "1d9604fd-a01b-5341-84de-41a01d1d12ae",
+  "label": "Change is the actuality of what exists potentially, insofar as it exists potentially",
+  "legacy_id": "STMT-CHANGE-ACTUALITY-OF-POTENTIAL",
   "paraphrase": "Change is the actuality of what exists potentially, insofar as it exists potentially.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ChangeAsActualityOfPotentialReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

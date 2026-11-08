@@ -1,29 +1,31 @@
 {
-  "id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "id": "413fcad7-da30-51d2-8f9f-2155de19df05",
+  "label": "No intellectual exercise attributed to…, from Excluded middle as a general principle… and 5 more",
+  "legacy_id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
-    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
-    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
-    "STMT-INTELLECTUAL-EXERCISE-TOKENED",
-    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "579a990c-ae1f-5606-8632-3063b1d3bb6f",
+    "cd2a0453-b9ff-5597-bfa3-73f103b37a61",
+    "d41b7fb4-69d6-56ac-b6fb-5bfb325c6ffb",
+    "3489bd0c-51ce-5644-936f-529fa878f11a",
+    "4b48eac2-2420-5cb5-a846-d7fba58879ed"
   ],
-  "conclusion_statement_id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+  "conclusion_statement_id": "171e4b66-0354-54a4-9afe-3401a047bcc1",
   "inference_ids": [
-    "INF-MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION"
+    "9e28d8ae-2429-5150-a8d0-2a1d7c145d44"
   ],
   "meaning": "Incompatible core: excluded middle, the three causal premises, tokening, the basis/sharing bridge and a per-se intellectual operation cannot all hold. This forces rejection of some member and selects none: it does not refute q.75 or establish any causal premise. q75BundleIncompatible composes the existing q.75 reductios so that the five q.75 premises yielding the operation join the core. Each of the five non-logical premises has a deletion model with a per-se operation, so the core is inclusion-minimal for them; excluded middle has none. bridgeExit keeps the causal premises and the reductive condition, so these do not exclude a per-se operation without the bridge. collectiveHybrid shows the same for the collective reading of premise 3. bundleWitness shows the premises jointly satisfiable. All models are finite formal interpretations. Rival replies are not adjudicated.",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-MIND-PHYSICAL-BASIS",
-    "DEF-MIND-PREMISE-3-DISTRIBUTIVE",
-    "DEF-PAPINEAU-PHYSICAL",
-    "DEF-PAPINEAU-LAWFUL-DETERMINATION",
-    "DEF-Q75-OPERATION-ATTRIBUTION"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+    "35e3f5e9-9d3b-5bd0-8d32-d7ef27b2feea",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "bdd6a7f4-e14f-5b04-bd27-1f13b409a500",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL",
-    "DISAMB-PAPINEAU-PREMISE-3-SCOPE",
-    "DISAMB-PHYSICAL-BASIS-AND-BODY-SHARING"
+    "63d4170f-a2c8-5582-ad66-0aa7734e288d",
+    "35f7bb2c-9506-5ce6-8676-05da4e761177",
+    "05392ecb-bde5-5fff-8c64-ab61c20bc96a"
   ]
 }

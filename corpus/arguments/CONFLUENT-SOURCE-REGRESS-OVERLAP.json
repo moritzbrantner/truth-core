@@ -1,23 +1,25 @@
 {
-  "id": "CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "id": "4afe1772-7324-5d59-943b-e43ab3de6e18",
+  "label": "The unchanged literal overlap graph is weakly causally connected, upstream-confluent and rooted at…",
+  "legacy_id": "CONFLUENT-SOURCE-REGRESS-OVERLAP",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONFLUENT-SOURCE-REGRESS-OVERLAP",
+  "conclusion_statement_id": "e4f38459-0591-5f5e-8ffc-0469a15d7ae4",
   "inference_ids": [
-    "INF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "0470f0f7-f163-521b-b7c9-b7bc348db244"
   ],
   "meaning": "Import WorldSourceRegress.overlapControl on the unchanged literal overlap actual graph for its acyclicity, source witness, SAME selected anchored injective regress and non-Acc. Each actual node has a direct upstream path to the existing none node or the zero path there; these concrete finite extensions give confluence and weak connectivity. Apply SOURCE-ROOTED-FROM-CONFLUENCE-AND-SOURCE to the imported source witness; its unique source and finite paths from every node coexist with the old infinite branch. Non-Acc at actual some0 directly refutes WF. No finite ancestry, universal branch termination, metaphysical possibility, or source identity with God is inferred.",
   "definition_ids": [
-    "DEF-SOURCE-EXISTENCE-WITNESS",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "3bc85e01-5f9f-524c-be4f-b07a39298c29",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

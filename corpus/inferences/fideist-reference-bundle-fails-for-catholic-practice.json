@@ -1,10 +1,12 @@
 {
-  "id": "INF-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "id": "498bc94d-7338-5b21-b732-ce7922e88723",
+  "label": "The bundle of internal grammar, grammar-fixed reference and the wf p1 reconstruction…, by Reductio",
+  "legacy_id": "INF-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
   "input_statement_ids": [
-    "STMT-DEI-FILIUS-CONFESSES-ONE-TRUE-GOD",
-    "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD"
+    "f631f688-bb91-54d2-8662-b7c77a57c082",
+    "b247cea8-0b8a-5e19-8c47-5f100c1820c8"
   ],
-  "output_statement_id": "STMT-FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "output_statement_id": "0c076ba7-6185-54c9-92b4-85a7aeeabf52",
   "rule": "reductio",
   "meaning": "Suppose internal grammar, grammar-fixed reference and the no-being reconstruction. The council defines a confession of the one true God; what it defines is the practice's own standard, so the confession is correct by internality; a correct confession makes 'God' refer to some being; the reconstruction says it refers to none. Contradiction.",
   "assumption_statement_ids": [],

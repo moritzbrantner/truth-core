@@ -1,9 +1,11 @@
 {
-  "id": "STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING",
+  "id": "4957af60-055f-5398-892c-96bfbe0b9eb1",
+  "label": "Every occurring thought episode is an assenting episode: ∀ e, Occurs e → Assenting e",
+  "legacy_id": "STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING",
   "paraphrase": "OPEN premise: every occurring thought episode is an assenting episode (it takes its content to be so): ∀ e, Occurs e → Assenting e. False on a broad cogitatio that counts willing or doubting as thinking; its omission model is a borne willing.",
   "lean_declaration": "TruthCore.Causality.Round3CogitoBase.OccurringThoughtIsAssenting",
   "definition_ids": [
-    "DEF-ASSENTING-EPISODE",
-    "DEF-THOUGHT-OCCURRENCE"
+    "785a7605-da2b-59a0-b5a7-57326f3d33bf",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ]
 }

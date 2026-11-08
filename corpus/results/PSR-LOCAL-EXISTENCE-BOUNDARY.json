@@ -1,6 +1,8 @@
 {
-  "id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
-  "argument_id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "id": "6d6e8a37-98a2-5294-b186-986d07010751",
+  "label": "At the selected world the local no-brute and…, from Excluded middle as a general principle…",
+  "legacy_id": "PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "argument_id": "b0b34755-58ca-542c-a118-b52de8447d49",
   "challenge_module": "TruthCore.Results.Explanation.NoBruteExistence.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NoBruteExistence.Solution",
   "theorem": "TruthCore.Results.Explanation.NoBruteExistence.checks",

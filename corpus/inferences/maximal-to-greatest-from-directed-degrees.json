@@ -1,11 +1,13 @@
 {
-  "id": "INF-MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
+  "id": "95381d27-d284-50b9-9ce7-08d08ac2143d",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a greatest…, by… (2)",
+  "legacy_id": "INF-MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
-    "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "70508140-d427-5a99-9be0-ae12ac905302",
+    "5770e90f-d3bb-580e-a084-2c71426a3c0c"
   ],
-  "output_statement_id": "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
+  "output_statement_id": "2336e5b4-ba2f-5ffb-8798-0737505208c6",
   "rule": "constructive-proof",
   "meaning": "Derive the weak maximal-to-greatest interface from explicit excluded middle, active-pair strict degree calibration and local directedness of represented bearer degrees. No global homogeneous scale, uniqueness or source warrant is inferred.",
   "assumption_statement_ids": [],

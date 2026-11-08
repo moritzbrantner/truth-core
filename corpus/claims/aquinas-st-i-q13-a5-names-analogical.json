@@ -1,14 +1,16 @@
 {
-  "id": "AQUINAS-ST-I-Q13-A5-NAMES-ANALOGICAL-A",
-  "statement_id": "STMT-DIVINE-NAMES-ANALOGICAL",
-  "source_id": "AQUINAS-ST",
+  "id": "5df072ba-af04-520b-8e60-dc5c9adceebf",
+  "label": "Thomas Aquinas, Summa theologiae I q.13 a.5…: Names of perfections are said of GOD_4 and creatures…",
+  "legacy_id": "AQUINAS-ST-I-Q13-A5-NAMES-ANALOGICAL-A",
+  "statement_id": "acddefeb-3af8-5ac0-bbe7-57368df3828f",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.13 a.5 co.: huiusmodi nomina dicuntur de Deo et creaturis secundum analogiam, idest proportionem",
   "interpretation": "Read as stated: names of perfections are said of God and creatures neither univocally (one ratio) nor purely equivocally (wholly diverse rationes) but by analogy, which Aquinas glosses as proportion and divides into many-to-one (urine and medicine to the health of the animal) and one-to-another (medicine to the animal's health); God and creatures are of the second kind, by the order of the creature to God as principle and cause. Not formalized. Whether this analogy is of attribution, of proportionality, or both (Cajetan vs. Suárez) is not decided by the claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-BEING-ANALOGICAL"
+    "954583f0-97f4-5f94-8fce-9e52ea267929"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

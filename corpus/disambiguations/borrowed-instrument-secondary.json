@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-BORROWED-INSTRUMENT-SECONDARY",
+  "id": "e16b26b1-32ed-500a-a5d6-ff88540d8da2",
+  "label": "Instrument, moved mover and secondary cause; own power versus own exercise",
+  "legacy_id": "DISAMB-BORROWED-INSTRUMENT-SECONDARY",
   "term": "instrument, moved mover and secondary cause; own power versus own exercise",
   "sense_definition_ids": [
-    "DEF-BORROWED-POWER-PROFILE",
-    "DEF-LENDING-DESCENT",
-    "DEF-DERIVATIVE-JOINT-SUPPLY"
+    "df1369a5-8710-57be-97ca-08ccb49f3314",
+    "78c935a3-6faa-5b33-9931-2bee1f346c43",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
   "resolution": "Having an actual lender is not being borrowed: Instrument and Secondary both have one and differ in whether the power is present without a lender elsewhere in the scenario space. One exercise carries both labels under two profiles, so occurrence, records and sufficiency do not settle which applies. Own-power Supply stops at retained power; self-exercise Supply stops only at exercise with no actual lender. A chain of secondary causes has the first and lacks the second, so a claim that secondary causes end a regress must say which is meant. MovedMoversInstruments is an analyst reading compared with STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT and is not its formalization: the attributed statement has no Lean declaration and its claims do not use a scenario profile. Instrument here is not bound to STMT-INSTRUMENT-MOVES-ONLY-IF-MOVED-BY-PRINCIPAL-MOVER, whose principal mover the fork does not supply. Retained is scenario-relative: narrowing the allowed scenarios can turn the same profile's events into instruments, as SelectedCollapse witnesses. Different respects need different profiles; nothing here passes from motion to existence. See docs/notes/borrowed-exercise-741.md.",
   "term_label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE",
@@ -12,19 +14,19 @@
     {
       "id": "b934926c-9274-40e5-9228-20bdb4aaf230",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_1",
-      "definition_id": "DEF-BORROWED-POWER-PROFILE",
+      "definition_id": "df1369a5-8710-57be-97ca-08ccb49f3314",
       "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Borrowed"
     },
     {
       "id": "8f4c72f7-ef54-46a6-89d7-038a8b6ee85c",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_2",
-      "definition_id": "DEF-LENDING-DESCENT",
+      "definition_id": "78c935a3-6faa-5b33-9931-2bee1f346c43",
       "lean_declaration": "TruthCore.Explanation.BorrowedExercise.Descent"
     },
     {
       "id": "b5bbc0f5-d7a4-4139-8b53-351bb8e43a7d",
       "label": "INSTRUMENT_MOVED_MOVER_AND_SECONDARY_CAUSE_3",
-      "definition_id": "DEF-DERIVATIVE-JOINT-SUPPLY",
+      "definition_id": "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
       "lean_declaration": "TruthCore.Causality.DerivativeJointPower.Supply"
     }
   ]

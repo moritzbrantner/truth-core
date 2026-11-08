@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-PART-FUSION-DECOMPOSITION",
+  "id": "a3d3f908-f1fd-5d6a-89ad-139a642dfba2",
+  "label": "Nonnecessary candidate and candidate…: NotNecessaryAt m w x is NOT the existing NecessaryAt m w x",
+  "legacy_id": "DEF-NECESSARY-PART-FUSION-DECOMPOSITION",
   "term": "nonnecessary candidate and candidate part without necessary parts",
   "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.HasNoNecessaryPartsPartAt",
   "basis": "stipulative",

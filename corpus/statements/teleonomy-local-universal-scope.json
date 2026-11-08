@@ -1,15 +1,17 @@
 {
-  "id": "STMT-TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
+  "id": "6ca34ad6-b747-57ea-845c-208dd491c922",
+  "label": "Reuses #179’s complete two-archer model",
+  "legacy_id": "STMT-TELEONOMY-LOCAL-UNIVERSAL-SCOPE",
   "paraphrase": "Reuses #179’s complete two-archer model. All Fifth Way body premises and each-body direction hold, yet no director directs all bodies. This invalid scope inference does not refute Aquinas’ conclusion or the separate stage-1 governance/regress bridges.",
   "lean_declaration": "TruthCore.Teleonomy.LocalToUniversalFails",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

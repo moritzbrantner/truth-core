@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MODAL-T-LAWS",
+  "id": "e2de4fb7-a47d-5670-90bf-d48c0e52f75f",
+  "label": "Reflexivity alone gives full-predicate MC exactly when a world accesses precisely itself",
+  "legacy_id": "STMT-MODAL-T-LAWS",
   "paraphrase": "Reflexivity alone gives full-predicate MC exactly when a world accesses precisely itself. At every T root full MC is equivalent to necessary full MC and implies possible full MC. In any explicitly supplied domain, necessary MC implies actual MC and actual MC implies possible MC. No symmetry, transitivity, excluded middle or world-extensionality premise is used.",
   "lean_declaration": "TruthCore.Modal.TResearch.Laws",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-T-REFLEXIVITY"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-T-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "bded9270-4ca2-5eae-8ffd-ba7d5b1a5128"
   ]
 }

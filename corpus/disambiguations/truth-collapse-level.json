@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-TRUTH-COLLAPSE-LEVEL",
+  "id": "5dd0732d-712e-53fb-ad41-a412a951a5f5",
+  "label": "Collapse of truth",
+  "legacy_id": "DISAMB-TRUTH-COLLAPSE-LEVEL",
   "term": "collapse of truth",
   "sense_definition_ids": [
-    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
-    "DEF-TRUTH-PREDICATE-COLLAPSE"
+    "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd",
+    "7ab6ece2-890b-5382-a73e-15e4b18a955c"
   ],
   "resolution": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE denies collapse of Lean's `Prop` only. Every other use is collapse of one predicate on one content type. The passage between the two is the explicit hypothesis `Expressive` (DEF-EXPRESSIVE-TRUTH-PREDICATE) in STMT-TRUTH-NONTRIVIALITY-CORE. Without it the Prop theorem constrains no rival's predicate: STMT-TRUTH-COLLAPSE-CONTROLS has models where a global no-absolute-truth thesis, total nihilism, global profile variation and non-exclusive negation are satisfied. Collapse of the absolute predicate is not collapse of an agent-relative one (see DISAMB-ASSERTED-TRUTH-SENSE). Collapse is not about concrete things: `Prop` has no world parameter.",
   "term_label": "COLLAPSE_OF_TRUTH",
@@ -11,13 +13,13 @@
     {
       "id": "a5079d48-1558-4bc9-a02b-60d82096232d",
       "label": "COLLAPSE_OF_TRUTH_1",
-      "definition_id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+      "definition_id": "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd",
       "lean_declaration": "TruthCore.Logic.TruthNontriviality.GlobalPropositionalCollapse"
     },
     {
       "id": "3bae89b3-b0c4-4e3e-af8c-433d403f1613",
       "label": "COLLAPSE_OF_TRUTH_2",
-      "definition_id": "DEF-TRUTH-PREDICATE-COLLAPSE",
+      "definition_id": "7ab6ece2-890b-5382-a73e-15e4b18a955c",
       "lean_declaration": "TruthCore.Logic.TruthNontriviality.Collapse"
     }
   ]

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
+  "id": "7c017403-5d47-524f-b748-abac81add9d4",
+  "label": "Assigned fixed constituents, worldwise bearers and necessity of facts versus ordinary candidates",
+  "legacy_id": "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
   "term": "assigned fixed constituents, worldwise bearers and necessity of facts versus ordinary candidates",
   "sense_definition_ids": [
-    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
-    "DEF-ACCOUNT-CONSTITUENTS-REALIZED"
+    "bad67511-e5a3-52d4-850b-40a3cc36aa1d",
+    "bab3155b-8b00-52f4-9e97-cadfbb2f2a2c"
   ],
   "resolution": "K assigns a fixed set to each fact; a different bearer chosen at each world does not satisfy the required fixed-member transfer without additional correspondence. Nonemptiness and all-world realization are separate OPEN hypotheses. Actual fact truth and NecessaryFact are distinct; the imported producer supplies BOTH for one account member. The fact itself is not identified with an ordinary candidate, positive existence label, concrete bearer or productive cause. The composed route imports the exact original four necessary-reason premises rather than assuming a necessary fact as a fresh main premise; it adds two constitution policies. Existing lawControl prevents treating this transfer as automatic. No collapse of the original contingent explanandum, uniqueness, roothood, personal intelligence or source-interpretation truth follows.",
   "term_label": "ASSIGNED_FIXED_CONSTITUENTS_WORLDWISE_BEARERS",
@@ -11,13 +13,13 @@
     {
       "id": "13ddc161-080c-47db-8fd9-11c68050fcf0",
       "label": "ASSIGNED_FIXED_CONSTITUENTS_WORLDWISE_BEARERS_1",
-      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
+      "definition_id": "bad67511-e5a3-52d4-850b-40a3cc36aa1d",
       "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsNonempty"
     },
     {
       "id": "84255f51-e241-4f1e-a4dd-e42db2a2397a",
       "label": "ASSIGNED_FIXED_CONSTITUENTS_WORLDWISE_BEARERS_2",
-      "definition_id": "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
+      "definition_id": "bab3155b-8b00-52f4-9e97-cadfbb2f2a2c",
       "lean_declaration": "TruthCore.Explanation.FixedConstituentNecessaryBeing.AccountConstituentsRealized"
     }
   ]

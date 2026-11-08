@@ -1,10 +1,12 @@
 {
-  "id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "id": "d7e53b12-5d68-5978-86f8-230ae5c792df",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, by Reductio (3)",
+  "legacy_id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
   "input_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY",
-    "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"
+    "7a63a3fe-a29f-5282-8106-79fedcb10d08",
+    "47aff057-35ef-5418-930b-fef72e1104d2"
   ],
-  "output_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "output_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
   "rule": "Reductio",
   "meaning": "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used.",
   "assumption_statement_ids": [],

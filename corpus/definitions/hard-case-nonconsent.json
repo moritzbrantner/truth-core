@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HARD-CASE-NONCONSENT",
+  "id": "20fddea1-4b27-5021-8c0d-ecc5bef50a27",
+  "label": "Stipulated nonconsensual act in the…: The typed control uses the supplied predicate nonconsensual…",
+  "legacy_id": "DEF-HARD-CASE-NONCONSENT",
   "term": "stipulated nonconsensual act in the hard case",
   "definition": "The typed control uses the supplied predicate nonconsensual, applied to the specified action in the specified violation context, to record that the victim does not consent. The finite witness supplies that classification directly.",
   "basis": "stipulative",

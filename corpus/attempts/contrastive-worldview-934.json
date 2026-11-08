@@ -1,25 +1,27 @@
 {
-  "id": "ATTEMPT-CONTRASTIVE-WORLDVIEW-934",
+  "id": "5c55ffce-222e-52fc-a2ac-67ce889dde8f",
+  "label": "Implemented normalized rational Bayesian comparisons and finite controls",
+  "legacy_id": "ATTEMPT-CONTRASTIVE-WORLDVIEW-934",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-CONTRASTIVE-WORLDVIEW-CORE",
-    "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
-    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-    "STMT-SCIENCE-INDUCTION-SELECTION"
+    "0bddef38-034f-58f3-9920-078fa893252c",
+    "2a6f2dd0-5466-5b7e-be41-e97b4426b425",
+    "6df7921a-29b6-5574-8952-f27497140a53",
+    "35901b8a-de6e-5e0d-9044-c86f55670b00",
+    "ab0e2471-5147-54bc-a13a-ca53f6857947",
+    "27b621ae-2f38-58a5-90c0-378ef2da7c4b",
+    "5465fccb-01d6-55b9-b0c2-cd4bf2758bcc"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Implemented normalized rational Bayesian comparisons and finite controls. Rejected equal likelihoods imply equal posteriors: inherited prior 3/4 remains 3/4. Rejected evidence gain implies posterior win: prior 1/10 with likelihood ratio three reaches only 1/4. Rejected reliable inherited testimony is factive: the same three-quarter reliable channel can report W when V is actual, with positive probability. Rejected inheritance entails falsehood, attraction entails truth, exact public access follows from truth-directed policy, and public comparison entails categorical duty. Reused the #1037 symmetry theorem and four exact existing authority/access certificates. Details and serious rival readings remain in docs/notes/contrastive-worldview-934.md. Attribution deferred; no source acquisition or claim records.",
   "evidence": [
-    "LOGIC-CONTRASTIVE-WORLDVIEW",
-    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "LOGIC-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "LOGIC-TRUTH-DIRECTED-REFLECTIVE-DUTY",
-    "SCIENCE-INDUCTION-SELECTION"
+    "82e41e84-7319-579a-bbb6-426d7ab4dfde",
+    "0590fe21-edb9-5915-9837-62560c8f40e2",
+    "e3c27a3c-6056-5753-8c0d-232bb901e342",
+    "02304e21-083a-59f1-9386-6d50c8fad27c",
+    "5cc22cdb-1c6a-51b7-a427-d67200e2076c",
+    "6cf4fc73-3265-5712-a0aa-c30a8cb3c299"
   ],
   "blocker": "The prior, likelihoods, actual applicability, epistemic access to reliability, policy choice and categorical authority/ground bridges remain open. No root premise discharge or root route change."
 }

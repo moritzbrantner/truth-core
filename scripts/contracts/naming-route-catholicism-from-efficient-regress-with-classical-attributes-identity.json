@@ -98,7 +98,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
-  "result_id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-IDENTITY",
+  "result_id": "2a660275-78d1-5846-b896-25540d4e4e0e",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.FromEfficientRegressWithClassicalAttributesIdentity.catholicismFromEfficientRegressWithClassicalAttributes",
   "type_sha256": "c769f42a56fa5a6b08d1e7c3758134fe2fc464c656a389dbe983f737e2166866"

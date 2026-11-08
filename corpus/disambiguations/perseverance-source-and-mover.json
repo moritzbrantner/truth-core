@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
+  "id": "90cb2e36-4292-5a78-8217-7aab88ded1b8",
+  "label": "What a body perseveres by, or what moves it",
+  "legacy_id": "DISAMB-PERSEVERANCE-SOURCE-AND-MOVER",
   "term": "what a body perseveres by, or what moves it",
   "sense_definition_ids": [
-    "DEF-NEWTONIAN-PERSEVERANCE",
-    "DEF-MOTION-AS-REDUCTION"
+    "fc8cc73a-13b4-5694-9270-123389a1b506",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "resolution": "Newton's 'by which a body perseveres' (`PerseveresBy`) accounts in mechanics for a body's remaining in its state; the case's mover (`MovesIn`) is a being that now and per se reduces the moved from potency to act. Newton says a body perseveres by its inherent force alone (STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE); that excludes a mover only if every mover of a persevering body is something it perseveres by, the explicit unattributed bridge STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY. Garrigou-Lagrange denies the bridge: a local motion cannot go on as a passage from potency to act without the invisible motion of Pure Act, and physics, which only relates phenomena, can neither affirm nor deny it (1914, pp. 760-761, with Duhem's letter, pp. 761-763). Result INERTIAL-OBJECTION-YIELDS-RIVAL shows the bridge is needed (MODEL-INERTIA-DIVINE-MOVER). Compare DISAMB-PRIOR-DETERMINATION-AND-MOVER, the same gap for Papineau's prior lawful determination.",
   "term_label": "WHAT_A_BODY_PERSEVERES",
@@ -11,13 +13,13 @@
     {
       "id": "1e568633-50fe-4187-847a-cba08d4101fb",
       "label": "WHAT_A_BODY_PERSEVERES_1",
-      "definition_id": "DEF-NEWTONIAN-PERSEVERANCE",
+      "definition_id": "fc8cc73a-13b4-5694-9270-123389a1b506",
       "lean_declaration": "TruthCore.Alternatives.Inertia.PerseveranceByInherentForceAloneReading"
     },
     {
       "id": "326470f2-67ab-4bc2-a1a0-f45013c6f765",
       "label": "WHAT_A_BODY_PERSEVERES_2",
-      "definition_id": "DEF-MOTION-AS-REDUCTION",
+      "definition_id": "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn"
     }
   ]

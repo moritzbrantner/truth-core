@@ -1,21 +1,23 @@
 {
-  "id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "id": "614815b7-7553-5bb9-b304-5445bdeef2ce",
+  "label": "Truth of the selected content at…, from At every world modally accessible from… and 1 more",
+  "legacy_id": "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
   "premise_statement_ids": [
-    "STMT-FITCH-RELEVANT-LAWS",
-    "STMT-FITCH-MOORE-INSTANCE"
+    "51c7ef24-a720-52f1-8f04-49f242269266",
+    "8dc79019-29fe-57a6-83a6-e2f7278efcba"
   ],
-  "conclusion_statement_id": "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
+  "conclusion_statement_id": "8f1344cf-ae54-5fd0-9af4-18065892dcea",
   "inference_ids": [
-    "INF-FITCH-DOUBLE-NEGATED-KNOWLEDGE"
+    "89dfb9ca-586e-5bef-ae7d-fb1337e2df74"
   ],
   "meaning": "Compose the checked Moore obstruction with the single Moore knowability instance. An actual truth plus negated knowledge would make the unknowable conjunction possibly known. The reductio yields double-negated knowledge constructively, not a positive knowledge witness.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-FITCH-RELEVANT-STABILITY",
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

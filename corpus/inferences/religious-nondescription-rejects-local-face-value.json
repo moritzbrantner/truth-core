@@ -1,9 +1,11 @@
 {
-  "id": "INF-RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "id": "e3bbc569-5bb6-5c62-90eb-54b2a64270f5",
+  "label": "Exact failure of the supplied local content/assertion/fact/truth…, by Constructive-proof",
+  "legacy_id": "INF-RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
   "input_statement_ids": [
-    "STMT-RELIGIOUS-NONDESCRIPTIVE-WITNESS"
+    "9a6cee94-2ef4-5ed0-8838-627afec2d9f8"
   ],
-  "output_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS",
+  "output_statement_id": "f4761615-d94b-52fa-9346-e476c0d44d3d",
   "rule": "constructive-proof",
   "meaning": "An actual religious sentence lacking descriptive fact representation contradicts the local descriptive clause. Merely discourse-internal concept use would not supply this witness.",
   "assumption_statement_ids": [],

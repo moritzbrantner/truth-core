@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
-  "argument_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "id": "03ab719f-ee8c-56d6-8431-eec650b62171",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is attributed that…, from OPINING_2",
+  "legacy_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "argument_id": "cc2ae5ba-3eee-5eeb-b282-21ef21952a03",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.thoughtIsExerciseFromOpining",

@@ -1,9 +1,11 @@
 {
-  "id": "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "id": "0843cdf6-2147-54c1-b920-93d81997fab6",
+  "label": "A society counts as founded by GOD_4 as a teaching authority exactly when…, by Constructive-proof",
+  "legacy_id": "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
   "input_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE"
+    "75910ff0-16d2-587a-8e92-fb707e3c3529"
   ],
-  "output_statement_id": "STMT-DIVINE-FOUNDING-IS-IMMEDIATE-ONLY",
+  "output_statement_id": "fc6eabd0-78f3-5a52-8041-73101a0e1dd5",
   "rule": "constructive-proof",
   "meaning": "Strength-order comparison: the exclusive Jesus-scope reading includes the minimal direct calibration. Operational calibration and positive elimination use the weaker reading; the contradiction needs the extra exclusion.",
   "assumption_statement_ids": [],

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION",
+  "id": "067cd417-4570-5684-a514-d9af55267442",
+  "label": "Open historical premise, the criterion of multiple attestation applied to one family of powers…",
+  "legacy_id": "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION",
   "paraphrase": "Open historical premise, the criterion of multiple attestation applied to one family of powers only: if two distinct reports that are independent of each other (Tradition.Independent) each name a heaven-ratified power (binding and loosing, Matthew 16.19, 18.18; forgiving and retaining sins, John 20.23), then Jesus himself gave or promised some heaven-ratified power. It does not say which of the two powers, to whom, or that any whole report goes back to Jesus, and it is not the criterion for any other family. Its rival is that the family goes back only to the early community's practice, which both strands could share without Jesus' giving it (compare STMT-COMMUNITY-ATTRIBUTION-OF-CHURCH-POWERS-POSSIBLE, a possibility only). No source is pinned for the criterion.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionAttestation.HeavenRatifiedAttestationCriterion",
   "definition_ids": [
-    "DEF-INDEPENDENT-ATTESTATION",
-    "DEF-HEAVEN-RATIFIED-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER"
+    "61a7a341-a027-5652-9559-54fad7e248ca",
+    "9a55282a-2ac6-5f96-ae0c-7d83833137a7",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c"
   ],
   "disambiguation_ids": [
-    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "88202e2f-de41-5fa9-8a4b-9ba1fcd73f8f",
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

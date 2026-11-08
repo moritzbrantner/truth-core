@@ -1,6 +1,8 @@
 {
-  "id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
-  "argument_id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "id": "ec224889-c152-5afe-896b-91039f8208aa",
+  "label": "If literal meaningfulness by the 1946 criterion is closed under negation, then, given Church's…",
+  "legacy_id": "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
+  "argument_id": "4c41b0b5-2086-541a-bc4f-f3557a84b769",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1946NegationClosed.ayer1946NegationClosedExcludesNothing",

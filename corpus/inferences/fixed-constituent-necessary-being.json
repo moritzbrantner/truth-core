@@ -1,14 +1,16 @@
 {
-  "id": "INF-FIXED-CONSTITUENT-NECESSARY-BEING",
+  "id": "f66366f9-3cd2-5ab0-a7a8-921ca252d9d6",
+  "label": "At least one individual exists at the selected world and at…, by Import-necessary-reason-and-r…",
+  "legacy_id": "INF-FIXED-CONSTITUENT-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-REASON-CLOSED-ACCOUNT-AT",
-    "STMT-FACT-CONTINGENT-AT",
-    "STMT-CONTINGENT-REASON-FOUNDED-AT",
-    "STMT-ACCOUNT-CONSTITUENTS-NONEMPTY",
-    "STMT-ACCOUNT-CONSTITUENTS-REALIZED"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "9acbdc2b-8a51-5bd1-aa9c-3b42eca37467",
+    "baf22110-9b54-5c11-a44a-c8447518b824",
+    "c72a1f4c-a424-5232-a87b-fa8ea44e47e0",
+    "3d890aef-e917-51f9-8c99-cd76813f6628",
+    "cb623e94-c92e-5afe-b2e3-e8dcb808613a"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "import-necessary-reason-and-realize-one-same-fixed-assigned-bearer",
   "meaning": "Import NecessaryFactBoundary.necessaryReason with the SAME Arena/account/target and exact excluded-middle, ReasonClosed, fact-contingency and Founded inputs. Its selected r is in S, true actually and at every accessible world; its admitted reason role need not concern the original target directly. Account nonemptiness selects b once from the SAME fixed K r. Account realization applied to actual truth makes b actual; applied to r’s truth at each accessible world makes that SAME b NecessaryAt. Package it into existing NecessaryBeing A.ontic w. No necessary fact is restated as a new main premise, and no fact/being identity, frame axiom, positive-label coherence or productive role is inserted.",
   "assumption_statement_ids": [],

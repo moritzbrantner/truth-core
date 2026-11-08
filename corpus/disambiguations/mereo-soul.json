@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-MEREO-SOUL",
+  "id": "23ea68c9-9d49-5054-9701-2ed40ced2a2d",
+  "label": "Soul",
+  "legacy_id": "DISAMB-MEREO-SOUL",
   "term": "soul",
   "sense_definition_ids": [
-    "DEF-MEREO-SOUL-AS-FORM",
-    "DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION"
+    "4b3dcb30-878d-5f1a-9cb4-92441f5203f8",
+    "0f07e16d-9f5a-5efe-b2b6-e83db2e4a017"
   ],
   "resolution": "The separate SoulAsForm predicate models the irreducible-form thesis under investigation, not simply the publicly describable coordination of functional subsystems. A functionalist could use 'soul' as another name for the latter without accepting the former; differences in terminology alone settle no ontological question.",
   "term_label": "SOUL",
@@ -11,13 +13,13 @@
     {
       "id": "6a69566a-839a-418d-bf4d-6bd1881f6574",
       "label": "SOUL_1",
-      "definition_id": "DEF-MEREO-SOUL-AS-FORM",
+      "definition_id": "4b3dcb30-878d-5f1a-9cb4-92441f5203f8",
       "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SoulAsForm"
     },
     {
       "id": "196cd566-be31-4d61-8dae-c2374d7276fc",
       "label": "SOUL_2",
-      "definition_id": "DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION",
+      "definition_id": "0f07e16d-9f5a-5efe-b2b6-e83db2e4a017",
       "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.Integrated"
     }
   ]

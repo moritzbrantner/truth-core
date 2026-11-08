@@ -1,9 +1,11 @@
 {
-  "id": "STMT-INTELLECT-UNDERSTANDS-SOMETHING",
+  "id": "64e174b3-3efb-510e-81cc-34bc054a9898",
+  "label": "Whatever HAS_INTELLECT_1 actually understands something",
+  "legacy_id": "STMT-INTELLECT-UNDERSTANDS-SOMETHING",
   "paraphrase": "OPEN and contested analyst premise: whatever has intellect actually understands something. A human intellect before any act of understanding (q.79 a.2, the possible intellect as a tabula rasa) falsifies it; whoever holds that some intellect is purely potential denies it.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.IntellectUnderstandsSomething",
   "definition_ids": [
-    "DEF-HAS-INTELLECT",
-    "DEF-UNDERSTANDS"
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "0fa78db2-05d6-5c3e-b8c9-04124ccc5776"
   ]
 }

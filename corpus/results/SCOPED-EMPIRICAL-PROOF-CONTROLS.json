@@ -1,6 +1,8 @@
 {
-  "id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
-  "argument_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+  "id": "2bd665e2-bd4f-578a-8507-7d4f57e20806",
+  "label": "The beginning-question Boolean content calibrates to existing earliest-time PastIsFinite in two…",
+  "legacy_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS",
+  "argument_id": "237df743-a5da-582e-8f0e-59706df6c4a2",
   "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Controls.controls",

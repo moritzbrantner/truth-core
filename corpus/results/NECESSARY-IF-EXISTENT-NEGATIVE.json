@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-NEGATIVE",
-  "argument_id": "NECESSARY-IF-EXISTENT-NEGATIVE",
+  "id": "a179ee3e-87cb-5ee3-b697-988800344744",
+  "label": "G fails at every world accessible from\u2026, from The chosen frame is Euclidean: any two\u2026 and 2 more",
+  "legacy_id": "NECESSARY-IF-EXISTENT-NEGATIVE",
+  "argument_id": "d9cbeaad-9a24-5147-a6f2-6c875c3a6fd0",
   "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.negative",

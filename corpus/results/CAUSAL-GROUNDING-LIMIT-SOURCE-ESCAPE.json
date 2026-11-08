@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
-  "argument_id": "CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "id": "2ef20c9f-99a2-5ffd-befe-d422fc5ab273",
+  "label": "There is an explicit model where every fixed node is eventually inductively grounded in each…",
+  "legacy_id": "CAUSAL-GROUNDING-LIMIT-SOURCE-ESCAPE",
+  "argument_id": "da0a6376-a3eb-5698-b126-b9881a16240f",
   "challenge_module": "TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteGroundingLimitNotClosed.finiteGroundingLimitNotClosed",

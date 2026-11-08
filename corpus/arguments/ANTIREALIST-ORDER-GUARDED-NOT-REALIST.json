@@ -1,18 +1,20 @@
 {
-  "id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "id": "d0b5e2e0-4e77-58bf-a9fd-f0b72215b1f4",
+  "label": "The universal realist explanatory-order reading…, from Anti-realism: moral propositions… and 2 more",
+  "legacy_id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
   "premise_statement_ids": [
-    "STMT-ANTIREALIST-ORDER-OF-EXPLANATION",
-    "STMT-EXPLANATORY-ORDER-ASYMMETRIC",
-    "STMT-GEACH-MINOR-PREMISE-IS-MORAL"
+    "7eb2ee33-2ed4-5f56-a540-0743ff871a4a",
+    "3d253af8-a9c3-54ca-b1d9-ccb7fc86a302",
+    "58e2c7be-0cbf-5483-aaf4-2ab4087ae49b"
   ],
-  "conclusion_statement_id": "STMT-NOT-REALIST-EXPLANATORY-ORDER",
+  "conclusion_statement_id": "b66303c9-7577-51be-b823-3ae18ba239b4",
   "inference_ids": [
-    "INF-ANTIREALIST-ORDER-GUARDED-NOT-REALIST"
+    "82fc4fda-5a3d-52a3-825b-51af40e35890"
   ],
   "meaning": "Full anti-order plus separately supplied asymmetry and the explicit moral witness contradict the realist universal at that same content. No opposite-direction incompatibility is silently defined in.",
   "definition_ids": [
-    "DEF-EXPLANATORY-ORDER-NEGATIVE-SCOPE",
-    "DEF-ORDER-OF-EXPLANATION",
-    "DEF-MORAL-STATEMENT"
+    "6da4a918-cac8-5ecc-9800-8a46fec6825d",
+    "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ]
 }

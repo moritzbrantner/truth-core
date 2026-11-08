@@ -1,6 +1,8 @@
 {
-  "id": "HUME-REGULARITY-MODELS",
-  "argument_id": "HUME-REGULARITY-MODELS",
+  "id": "efe4bf2c-402c-5e09-b774-aa0e43e2c16e",
+  "label": "The selected thin bundles each have an explicit finite model: nontrivial observed conjunction in a…",
+  "legacy_id": "HUME-REGULARITY-MODELS",
+  "argument_id": "73dd056f-c7c0-5205-9a5b-78ec1729bc96",
   "challenge_module": "TruthCore.Results.Modern.Hume.Regularity.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Regularity.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Regularity.models",

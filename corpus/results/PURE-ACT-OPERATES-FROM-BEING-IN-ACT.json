@@ -1,6 +1,8 @@
 {
-  "id": "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
-  "argument_id": "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+  "id": "74f03562-0d40-5e1f-b026-e306a9afdc9f",
+  "label": "Whatever is in POTENCY_1 in no respect operates from itself. q.18 a.3 ad 2 says…, from being in act",
+  "legacy_id": "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+  "argument_id": "8de2d2ee-d860-50c8-ba5c-fb7a5db8e04b",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.pureActOperatesFromBeing",

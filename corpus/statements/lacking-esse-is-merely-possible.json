@@ -1,13 +1,15 @@
 {
-  "id": "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
+  "id": "a62975a9-bcd4-5bc7-83e7-6d4f5d2b2c13",
+  "label": "Whatever is not in act of esse is merely possible",
+  "legacy_id": "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE",
   "paraphrase": "OPEN analyst premise: whatever is not in act of esse is merely possible (in potency to being only). A Platonist about abstracta denies it: a number lacks esse in re without being merely possible.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.LackingEsseIsMerelyPossible",
   "definition_ids": [
-    "DEF-MERELY-POSSIBLE-CANDIDATE",
-    "DEF-ACT",
-    "DEF-ESSE"
+    "4cde619b-9880-5b55-b16d-5658252866ff",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

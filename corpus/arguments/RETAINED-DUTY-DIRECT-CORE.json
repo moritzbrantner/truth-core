@@ -1,23 +1,25 @@
 {
-  "id": "RETAINED-DUTY-DIRECT-CORE",
+  "id": "041a6b3e-e58d-5e24-8569-5ad63f03ea32",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 2 more",
+  "legacy_id": "RETAINED-DUTY-DIRECT-CORE",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-DUTY",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-PRESENT-OIC"
+    "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-RETAINED-DUTY-DIRECT-CORE"
+    "bfd67e41-344b-5b43-b6ed-19bea5754bbd"
   ],
   "meaning": "The same original-return duty, inability and present ought-implies-can are jointly incompatible for a fixed agent/date/action. Inclusion-minimal by the closed omission controls; rejects the conjunction, not a preferred member. No root premise closes. Frozen universal-policy predecessor; the local-policy companion is the operational elimination result. Universal OIC is not a weakest sufficient policy.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ],
   "strong_version_needed": {
-    "STMT-RETAINED-DUTY-PRESENT-OIC": "Frozen predecessor target retained under invariant 12, not logically needed. RETAINED-DUTY-LOCAL-DIRECT-CORE is the weaker operational replacement; no stronger-necessity claim is made."
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b": "Frozen predecessor target retained under invariant 12, not logically needed. RETAINED-DUTY-LOCAL-DIRECT-CORE is the weaker operational replacement; no stronger-necessity claim is made."
   }
 }

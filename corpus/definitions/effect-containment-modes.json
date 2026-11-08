@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EFFECT-CONTAINMENT-MODES",
+  "id": "d7e7ae08-0ebe-519d-ba9d-e349998103dc",
+  "label": "Formal and virtual containment: Formal x r: x has r in its own kind",
+  "legacy_id": "DEF-EFFECT-CONTAINMENT-MODES",
   "term": "formal and virtual containment",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.InActUnder",

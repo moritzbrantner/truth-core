@@ -1,7 +1,9 @@
 {
-  "id": "INF-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "id": "c9865ce9-b8e4-546c-9d8d-3b5c442b9dbf",
+  "label": "Invariant moral meaning and occasion meaning coexist with a populated moral…, by Constructive-proof",
+  "legacy_id": "INF-MEANING-RIVAL-BOUNDARY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "output_statement_id": "cb7608ba-0a2d-58eb-be4e-f25f0242353a",
   "rule": "constructive-proof",
   "meaning": "Populated constant-expression overlap and actual attitude-loss failure control, retaining the full bound properties.",
   "assumption_statement_ids": [],

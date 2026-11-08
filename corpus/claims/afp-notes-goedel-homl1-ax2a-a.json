@@ -1,14 +1,16 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-AX2A-A",
-  "statement_id": "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "14f8d3d7-cc1c-5a61-975c-a18d27a6082c",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: Gödel's 1970 axiom Ax2a: at every world, exactly one…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-AX2A-A",
+  "statement_id": "a9077c68-43f0-53e1-905a-d431488204ee",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, Ax2a: \"⌊P φ ❙∨⇧e P ❙~φ⌋\"",
   "interpretation": "Axiom Ax2a as stated in the theory, with ❙∨⇧e exclusive or and ❙~ the negation of a property (HOMLinHOL.thy, Mexclor, Mnegpred), the free φ read as universally closed. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-POSITIVE"
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

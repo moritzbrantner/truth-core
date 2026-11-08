@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "id": "b36756be-cb9d-58ca-929f-b44e20f97bb9",
+  "label": "There is no separable substance which is itself the infinite in the sense…, by Modus tollens",
+  "legacy_id": "INF-ARIST-PHYS-NO-SEPARATE-INFINITE-SUBSTANCE",
   "input_statement_ids": [
-    "STMT-SEPARATE-INFINITE-SUBSTANCE-WOULD-BE-INDIVISIBLE",
-    "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE"
+    "4cb56c2a-9363-5a6a-ae27-db8cef393fe8",
+    "62b9c061-439c-5b3a-a619-86875e75475c"
   ],
-  "output_statement_id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "output_statement_id": "98a7fcbe-3a8d-51ab-9e1e-86bab0c14821",
   "rule": "modus_tollens",
   "meaning": "If a separable infinite substance would have to be indivisible, while the relevant infinite is not that indivisible item, reject the separable-substance hypothesis.",
   "assumption_statement_ids": [],

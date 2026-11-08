@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-COVER-NECESSARY-BEING",
-  "argument_id": "ACTUAL-COVER-NECESSARY-BEING",
+  "id": "15226dc5-340f-5e28-822d-4c9ceddc199d",
+  "label": "At least one individual exists at the…, from At least one individual actually exists at… and 5 more",
+  "legacy_id": "ACTUAL-COVER-NECESSARY-BEING",
+  "argument_id": "c49ef0fc-9538-5026-957c-3b57bed241f9",
   "challenge_module": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Causality.ActualCoverNecessaryBeing.fromPopulation",

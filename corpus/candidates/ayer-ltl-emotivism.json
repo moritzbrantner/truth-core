@@ -1,6 +1,8 @@
 {
-  "id": "AYER-LTL-EMOTIVISM",
-  "source_id": "AYER-LTL",
+  "id": "dc98841f-553d-5ea7-bcac-216aee7c2722",
+  "label": "Waiting for materializable primary witnesses",
+  "legacy_id": "AYER-LTL-EMOTIVISM",
+  "source_id": "d451fc6a-0b0d-5d92-b53a-0e04653431fe",
   "locator": "ch. 1 (verification criterion), ch. 6 (ethics), and 1946 Introduction (status and revision of criterion); exact edition/page locators await materializable witnesses",
   "priority": 345,
   "goal": "Waiting for materializable primary witnesses. Preserve the ch. 6 emotivism work of #185 and investigate the precise self-application boundary (#363): distinguish literal/cognitive significance from factual significance, analytic from empirical eligibility, weak from conclusive verification, and the criterion asserted as a statement from its adoption as a proposal or linguistic convention. Source scope, nonanalyticity and nonverifiability independently before attributing a self-undermining package. Keep the proposal reply alive separately; it is not automatically a meaningful factual sentence exempted from its own criterion. See docs/ayer-verification-boundary.md.",

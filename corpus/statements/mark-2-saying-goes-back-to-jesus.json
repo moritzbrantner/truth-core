@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS",
+  "id": "dee1f771-7330-5df2-8f8f-86009d9283b2",
+  "label": "Whatever authority assertion the Mark 2 narrative attributes to Jesus, Jesus himself made",
+  "legacy_id": "STMT-MARK-2-SAYING-GOES-BACK-TO-JESUS",
   "paraphrase": "OPEN report-to-event bridge (attribution deferred): whatever authority assertion the Mark 2 narrative attributes to Jesus, Jesus himself made.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Mark2SayingGoesBackToJesus",
   "definition_ids": [
-    "DEF-JESUS-SPEECH-EVENT",
-    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+    "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+    "9c870b2c-9426-5519-831b-00c4658b116f"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-FORGIVENESS-AUTHORITY"
+    "9bbcd103-41cf-5063-9c34-ccca24008633"
   ]
 }

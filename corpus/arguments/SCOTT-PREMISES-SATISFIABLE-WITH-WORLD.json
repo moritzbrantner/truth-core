@@ -1,19 +1,21 @@
 {
-  "id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "id": "c99f0eef-5d73-56ba-9a97-8b5b21e1024a",
+  "label": "There is a Kripke model with at least one world, a symmetric frame and a positivity assignment on…",
+  "legacy_id": "SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD",
+  "conclusion_statement_id": "097f5dbd-7ab3-5f3f-99d1-fb92b95d853c",
   "inference_ids": [
-    "INF-SCOTT-PREMISES-SATISFIABLE-WITH-WORLD"
+    "c7c7a828-ea68-57f5-906a-99f49e3b678b"
   ],
   "meaning": "Nonvacuous satisfiability of Scott's T3 premises: unlike premisesJointlySatisfiable in SCOTT-GOD-LIKE-NECESSARILY-EXISTS, whose frozen type an empty type of worlds satisfies vacuously, this type requires a world, so it is the consistency check that contrasts with GOEDEL-1970-INCONSISTENT. Formal satisfiability inside the Lean embedding of QML KB only.",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

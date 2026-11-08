@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-COGITO-ESSE-1113",
+  "id": "e64d5241-d1b1-58ad-925f-71d8f9ac7d74",
+  "label": "Owner #1113 adopts existing-in-re -> act of esse -> concrete, but not arbitrary legacy Ontic…",
+  "legacy_id": "ATTEMPT-COGITO-ESSE-1113",
   "statement_ids": [
-    "STMT-COGITO-BEARER-IS-CONCRETE",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-COGITO-ANCESTRY-ROOT-FORK",
-    "STMT-COGITO-NECESSARY-CONCRETE-ANCESTOR",
-    "STMT-OCCURRENCE-SAME-WITNESS-ESSENCE",
-    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+    "a7040bf1-b15a-5ffb-b096-6b60411a066e",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "7e9ca71a-643f-5bbc-8622-80144bd05480",
+    "da31142e-34bd-579d-82a7-9b3745d534e6",
+    "63bd518f-8d08-59cb-bce3-6d584ae56d8d",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Owner #1113 adopts existing-in-re -> act of esse -> concrete, but not arbitrary legacy Ontic assignments. New profile retains ontology and grounding exactly and fixes concrete to HasEsseInRe. Derive C from existing E plus ExistingInActAt, then import and compose inhabited-world, ancestry-fork, necessary-ancestor and same-witness essence Solutions using that same criterion; the final composition uses the q3 profile's own InAct/esse. Existing generic Challenges and omission models are untouched. actualConcreteGround_iff shows that with this contract actual existence plus the original grounding edge suffices; the concrete guard adds no further restriction. Distinct operation route: existing q75 OperationOnlyOfBeingInActReading is causation-only, so applying it to thinking was rejected. The additional conditional bearerConcreteOfOperation instead exposes occurrence-to-intellectual-exercise and intellectual-exercise-to-act interfaces, plus ActualityOnlyInsofarAsBeingReading. In that initial batch, these analyst interfaces were not indexed as root premises; exact source attribution is deferred. No source, passage or claim added. No occurrence, existence bridge, grounding premise or floor item is established by these connections. Computed initial frontier delta: one root-reaching bare premise C becomes conditionally proved, no bare premise added, every route cost unchanged (cheapest 31). See docs/notes/cogito-esse-1113.md. Follow-up: independently register the SAME already checked bearerConcreteOfOperation theorem as COGITO-BEARER-CONCRETE-FROM-OPERATION, with its two exercise interfaces and actuality-to-esse premise explicit. This conditional registration needs no independent premise defense or new source attribution; it is labelled an instantiation transcription and adds no new Lean theorem. The earlier no-added-bare delta describes the original existence batch only; the follow-up comparison is computed separately.",
   "evidence": [
-    "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
-    "COGITO-ESSE-INHABITED-WORLD",
-    "COGITO-ESSE-ANCESTRY-FORK",
-    "COGITO-ESSE-NECESSARY-ANCESTOR",
-    "OCCURRENCE-ESSE-SAME-WITNESS",
-    "COGITO-BEARER-CONCRETE-FROM-OPERATION"
+    "2b8005f7-ca61-5c28-9559-42a081931350",
+    "6f5fd3ac-29de-5f19-b479-1eabbacbc7d0",
+    "53fb5f73-cdad-57be-b49d-dae716634f06",
+    "014197bf-fca3-5ebc-9ca8-9b824685b34e",
+    "c379bfed-c408-53b8-9b35-c1d2fe640654",
+    "282a80a1-877b-501a-9bd9-6b4f406ef1da"
   ],
   "blocker": "All existence/esse and exercise interfaces remain open, independently undefended commitments. The operation route is now registered conditionally, with exact q75 attribution deferred; the old causation-only reading supplies neither exercise input. Registration and kernel-checked consequence do not establish premise truth or close the root."
 }

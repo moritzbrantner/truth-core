@@ -1,7 +1,9 @@
 {
-  "id": "INF-AYER-1936-CRITERION-TRIVIAL",
+  "id": "b7de8461-81e3-57fe-8ffb-b75ab5a75170",
+  "label": "Ayer's 1936 test is trivial: in any TRUTH_CONDITIONAL_LANGUAGE_4, a…, by Constructive-proof",
+  "legacy_id": "INF-AYER-1936-CRITERION-TRIVIAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-AYER-1936-CRITERION-TRIVIAL",
+  "output_statement_id": "192579e5-bae7-57af-8c6c-158905d4ae9c",
   "rule": "constructive-proof",
   "meaning": "From no premises, for every truth-conditional language: take the further premise P = (not-s or o) for an observation statement o. Then s with P entails o. If P alone entailed o, then not-s would entail o (not-s entails P). So whenever not-s does not entail o, s passes Ayer's 1936 test.",
   "assumption_statement_ids": [],

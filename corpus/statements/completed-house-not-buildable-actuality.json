@@ -1,5 +1,7 @@
 {
-  "id": "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY",
+  "id": "a5e38d94-8f05-58e2-85c0-56ab7f5d2157",
+  "label": "The completed house is not the actuality of the buildable qua buildable; once the house is…",
+  "legacy_id": "STMT-COMPLETED-HOUSE-NOT-BUILDABLE-ACTUALITY",
   "paraphrase": "The completed house is not the actuality of the buildable qua buildable; once the house is present, it is no longer buildable in that respect.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.CompletedHouseNotBuildableActualityReading"
 }

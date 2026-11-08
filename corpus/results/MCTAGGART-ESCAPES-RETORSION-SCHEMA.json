@@ -1,6 +1,8 @@
 {
-  "id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
-  "argument_id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "id": "5bd4c021-b41d-5d33-93c5-75a2f5dee11c",
+  "label": "McTaggart's answer escapes the performed-denial retorsion at the PRESUPPOSITION_LINK_2: for every…",
+  "legacy_id": "MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "argument_id": "d4fb232a-e1b3-571b-b20a-07c1bd863cd2",
   "challenge_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.Solution",
   "theorem": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.mcTaggartEscapesRetorsion",

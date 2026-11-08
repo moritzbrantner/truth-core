@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A4-ESSE-NO-SELF-CAUSE",
-  "statement_id": "STMT-Q3A4-ESSENTIAL-PRINCIPLES-NOT-DISTINCT-ESSE-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "ba0eb1f8-18f8-5c14-8343-067737113852",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.4…: In Aquinas' q.3 a.4 first proof, the essential…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A4-ESSE-NO-SELF-CAUSE",
+  "statement_id": "61bd42e5-69fe-53ef-9972-c9f28b2b6d14",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.4 co., first proof: impossibile est autem quod esse sit causatum tantum ex principiis essentialibus rei ... nulla res sufficit quod sit sibi causa essendi, si habeat esse causatum",
   "interpretation": "The claim denies the sufficiency of essential principles as an efficient cause of the subject's own caused esse. It does not deny essential/analytic/noncausal reasons for necessary truths or entail that esse distinct from essence is impossible without an external cause independently of the other fork of the argument.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-Q3A4-ESSENTIAL-PRINCIPLES-CAUSE-ESSE"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "56c9a230-137d-5207-9262-27196af6e713"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

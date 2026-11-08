@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-ADOPTED-POTENCY",
+  "id": "cb4784a0-6135-563c-8f54-c8eb36057dc1",
+  "label": "Catholicism is true: the Catholic Church is a teaching authority\u2026, from prima via adopted POTENCY_1",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-ADOPTED-POTENCY",
+  "argument_id": "db31cea1-b52f-502b-9ef5-2048d684c7d5",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaVia.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaVia.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaVia.catholicismFromPrimaVia",

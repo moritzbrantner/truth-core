@@ -1,7 +1,12 @@
 {
-  "id": "INF-NB-SURVEY-FIVE-TO-ONE",
-  "input_statement_ids": ["STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE", "STMT-NB-COUNT-CAUSABILITY-DESCENT"],
-  "output_statement_id": "STMT-NB-ONE-CONTINGENT-POSSIBLY-CAUSEABLE",
+  "id": "cfe962c2-a214-5a1f-92ed-ea987cb1a9db",
+  "label": "It is possible for a cause to bring about the situation in…, by Finite-instantiation-of-unive…",
+  "legacy_id": "INF-NB-SURVEY-FIVE-TO-ONE",
+  "input_statement_ids": [
+    "47df9071-0424-5aba-affd-6dc9675a8c27",
+    "6e793839-3aaa-5908-967c-d43201232e74"
+  ],
+  "output_statement_id": "5a19d7bf-50dd-58ab-89a1-4ce361c3f597",
   "rule": "finite-instantiation-of-universal-transfer",
   "meaning": "Apply the explicitly assumed universally quantified n-to-(n-1) transfer at n = 5, 4, 3 and 2. This proves A7c step 3 conditional on reported steps 1 and 2; it does not prove the transfer principle, the causal-priority claims in steps 4–6, or necessary existence in step 7.",
   "assumption_statement_ids": [],

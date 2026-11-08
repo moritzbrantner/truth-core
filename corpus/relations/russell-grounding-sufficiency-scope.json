@@ -1,9 +1,11 @@
 {
-  "id": "REL-RUSSELL-GROUNDING-SUFFICIENCY-SCOPE",
+  "id": "99a14bb8-1876-55c5-88be-96e57378c0d2",
+  "label": "The same fixed singleA extension and common… attacks Additional modern sufficiency bridge: the…",
+  "legacy_id": "REL-RUSSELL-GROUNDING-SUFFICIENCY-SCOPE",
   "subject_kind": "argument",
-  "subject_id": "RUSSELL-EXISTENCE-GROUNDING",
+  "subject_id": "7df72c8b-2534-5eca-b933-325c96ccbc54",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-RUSSELL-EXPLANATORY-SUFFICIENCY",
+  "object_id": "cddd7a46-1279-5e14-b565-03c3bdb95def",
   "note": "The explicit sound asymmetric expansions disagree for singleA. This refutes extension-only sufficiency within the stipulated expansion class; it does not establish that Russell endorses that target or that a primitive fact cannot be adequate."
 }

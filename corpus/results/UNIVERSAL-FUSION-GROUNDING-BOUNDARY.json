@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
-  "argument_id": "UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
+  "id": "906a28d3-2802-53af-b070-d55b82bea866",
+  "label": "In a fixed inhabited partial-order domain, unrestricted nonempty-family Sum2 fusion supplies a…",
+  "legacy_id": "UNIVERSAL-FUSION-GROUNDING-BOUNDARY",
+  "argument_id": "e60194eb-a0e8-5998-b0d0-2c2dc0045d60",
   "challenge_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Challenge",
   "solution_module": "TruthCore.Results.Mereology.UniversalFusionBoundary.Solution",
   "theorem": "TruthCore.Results.Mereology.UniversalFusionBoundary.checks",

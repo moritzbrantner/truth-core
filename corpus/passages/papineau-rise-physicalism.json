@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "PAPINEAU-RISE-PHYSICALISM",
+    "source_id": "a01c6154-9b4e-59b6-aca5-0fe707051ecf",
     "source_url": "https://www.davidpapineau.co.uk/uploads/1/8/5/5/18551740/papineau_in_gillett_and_loewer.pdf",
     "sha256": "sha256:d2de2b81467ad2731c28e86fb9b875c5fbd2d1454ab8438468039f8312f31901",
     "encoding": "utf-8",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "PAPINEAU-RISE-PHYSICALISM-3-12",
+      "id": "c0e26e08-03b1-5448-8f68-686983a9712f",
+      "label": "David Papineau, The Rise of Physicalism, Pp.3–12",
+      "legacy_id": "PAPINEAU-RISE-PHYSICALISM-3-12",
       "locator": "pp.3–12 (physical PDF pages 1–10)",
       "claim_locator_prefixes": [
         "pp.3–12 "
@@ -24,7 +26,9 @@
       "incipit": "1 The Rise of Physicalism DAVID PAPINEAU No one could seriously, rationally"
     },
     {
-      "id": "PAPINEAU-RISE-PHYSICALISM-13-33",
+      "id": "36238ac9-abe0-56b2-a7e9-51846dbde9de",
+      "label": "David Papineau, The Rise of Physicalism, Pp.13–33",
+      "legacy_id": "PAPINEAU-RISE-PHYSICALISM-13-33",
       "locator": "pp.13–33 (physical PDF pages 11–31)",
       "claim_locator_prefixes": [
         "pp.13–33 "

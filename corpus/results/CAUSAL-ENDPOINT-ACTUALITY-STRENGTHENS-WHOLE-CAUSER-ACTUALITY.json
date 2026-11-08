@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
-  "argument_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "id": "9aa643f9-83bc-5745-b237-47630a887a45",
+  "label": "Every causer of the selected spacetime whole exists…, from At the selected world, both cause and…",
+  "legacy_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "argument_id": "5ca2c27e-7590-57b8-b49b-c20bf195e276",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.actualityStrength",

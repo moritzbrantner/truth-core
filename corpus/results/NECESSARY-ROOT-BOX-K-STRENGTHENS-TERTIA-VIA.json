@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
-  "argument_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "id": "43fdb2ed-8e0c-5a00-ba8b-5d88ce3d7fd6",
+  "label": "NECESSARY_1-being node, tertia via reading: there is an…, from NECESSARY_1-being node, possibilist…",
+  "legacy_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "argument_id": "553d9d51-06e3-5163-b1e1-191dff3c1128",
   "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxKToTertiaVia",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-ACCOUNT-ACCESSIBLE",
+  "id": "1d320470-0c3c-5419-8cbd-65b04407fff7",
+  "label": "Selected account contingent-reason…: Acc x, using standard Lean accessibility and EXACT existing…",
+  "legacy_id": "DEF-SELECTED-ACCOUNT-ACCESSIBLE",
   "term": "selected account contingent-reason accessibility",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.AccessibleAccountNecessaryBeing.SelectedAccountAccessible",

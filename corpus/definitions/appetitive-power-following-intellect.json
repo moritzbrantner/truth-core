@@ -1,5 +1,7 @@
 {
-  "id": "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
+  "id": "4869f913-d360-5b9f-a361-2c4b7cf886df",
+  "label": "Appetitive principle following intellect: AppetitivePowerOf p x: p is an appetitive principle of x",
+  "legacy_id": "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
   "term": "appetitive principle following intellect (AppetitivePowerOf p x, FollowsIntellect p)",
   "definition": "AppetitivePowerOf p x: p is an appetitive principle of x (a power in creatures; in God no really distinct power is asserted, DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL). FollowsIntellect p: p follows intellectual, not sensitive, apprehension (q.80 a.2). The pair is the intellectual species of DEF-COGNITION-RELATIVE-APPETITE; the open premise STMT-INTELLECTUAL-APPETITE-IS-WILL identifies it with will (DEF-HAS-WILL). In Lean parameters P -> B -> Prop and P -> Prop.",
   "basis": "stipulative",

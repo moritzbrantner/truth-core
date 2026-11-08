@@ -1,10 +1,12 @@
 {
-  "id": "STMT-AQUINAS-HISTORICAL-RAPE-FORCE",
+  "id": "01edd12a-88a8-5e19-9ea7-60f875279005",
+  "label": "In Aquinas’s historical account of rape as a species of lust, forcible unlawful violation of a…",
+  "legacy_id": "STMT-AQUINAS-HISTORICAL-RAPE-FORCE",
   "paraphrase": "In Aquinas’s historical account of rape as a species of lust, forcible unlawful violation of a virgin is included; the classification also includes some abductions with the woman’s consent and abducted widows and nonvirgins and treats violence by a newly married husband as sinful while excluding it from this particular rape category. This is not a general definition of nonconsensual sexual violation.",
   "definition_ids": [
-    "DEF-AQUINAS-HISTORICAL-RAPE"
+    "23d0f2a1-9ab3-568f-8f9c-de4941f6ef9b"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT"
+    "600cb96a-ffcc-591e-a4f1-8c7713a705f9"
   ]
 }

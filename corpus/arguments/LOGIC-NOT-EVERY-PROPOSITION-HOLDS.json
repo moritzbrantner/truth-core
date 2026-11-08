@@ -1,15 +1,17 @@
 {
-  "id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
+  "id": "301f8e5f-ef2f-59c2-9749-b76402b44242",
+  "label": "Inside Lean logic, ¬. Dual of not every lean proposition fails",
+  "legacy_id": "LOGIC-NOT-EVERY-PROPOSITION-HOLDS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NOT-EVERY-LEAN-PROPOSITION-HOLDS",
+  "conclusion_statement_id": "484ff137-4e6e-5572-88d4-39f080ace82a",
   "inference_ids": [
-    "INF-LOGIC-NOT-EVERY-PROPOSITION-HOLDS"
+    "f78334c4-9ec3-5965-bd82-d0c58e5cdddf"
   ],
   "meaning": "Compose the separately proved failing witness: if every proposition held, the witness False would hold.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

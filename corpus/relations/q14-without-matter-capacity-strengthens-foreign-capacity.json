@@ -1,11 +1,13 @@
 {
-  "id": "REL-Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "id": "e51b6b90-5359-5ed1-ae9c-647ec14a124c",
+  "label": "The chosen receiver has aptitude for a… strengthens At the SAME chosen receiver, a form of…",
+  "legacy_id": "REL-Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-Q14-WITHOUT-MATTER-CAPACITY-AT",
+  "subject_id": "8d26d75c-f97b-51b7-9ba7-b075ee0ca100",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
-  "verification_result_id": "Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
-  "strictness_result_id": "Q14-RECEPTION-FORK-CONTROLS",
+  "object_id": "079fbf4c-49a3-518c-9577-064ff73591e4",
+  "verification_result_id": "c54152d4-dfa4-5496-ae27-116144bdde5d",
+  "strictness_result_id": "9d6490e1-971c-5ba3-b093-e3a5210d2e58",
   "note": "Single-premise pointwise aptitude implication. Material-only capacity supplies strictness. Coextension calibrations to the independent old intellect predicate are not thereby a strength order."
 }

@@ -1,24 +1,26 @@
 {
-  "id": "ULTIMATE-ADEQUACY-COMPARISON",
+  "id": "7f799953-e829-5d57-821e-6caee4a0641f",
+  "label": "On a shared Nat-event and Nat-bearer signature, Bool-pair scenario space, actual all-on context…",
+  "legacy_id": "ULTIMATE-ADEQUACY-COMPARISON",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ULTIMATE-ADEQUACY-COMPARISON",
+  "conclusion_statement_id": "1bafc4b5-3163-5caf-84ac-c90e5a60d55d",
   "inference_ids": [
-    "INF-ULTIMATE-ADEQUACY-COMPARISON"
+    "91f0f436-09fc-5c25-bf8c-9c422412f846"
   ],
   "meaning": "On a shared Nat-event and Nat-bearer signature, Bool-pair scenario space, actual all-on context and target2, coherent exercised jointly sufficient supplier records with local actual power permit all four combinations of joint Supply and graph leastness. Single-source supply has a least; plural supply has no least, with two intrinsic sources each indispensable to target2; the exact edge/supply-bijective relabelling of the rooted #634 graph has a least but no target Supply and an indispensable next contributor; the source-free two-contributor chain has neither. All candidates actually occur. The modal overlays preserve each actual population and graph while making all candidates necessary or target2 contingent. Whole-history evidence-only entailing selection fails on constant truth; necessary reason truth does not necessitate target2; copied entailing coverage still holds. These are supplied mathematical interpretations and failed discriminators, not complete productive adequacy, existence-as-such explanation, real modality or normative entitlement.",
   "definition_ids": [
-    "DEF-ULTIMATE-ADEQUACY-COMPARISON",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-PSR-REASON"
+    "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71"
   ],
   "disambiguation_ids": [
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY"
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1"
   ]
 }

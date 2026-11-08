@@ -1,9 +1,11 @@
 {
-  "id": "REL-PILOT-STMT-PILOT-GOD-EXISTS-CREED-SUPPORT",
+  "id": "6e9667d9-7647-51a6-81bc-b63d2f9a07b3",
+  "label": "First Council of Constantinople…: There is… supports The Catholic pilot affirms the existing…",
+  "legacy_id": "REL-PILOT-STMT-PILOT-GOD-EXISTS-CREED-SUPPORT",
   "subject_kind": "claim",
-  "subject_id": "CREED-C381-ART-01",
+  "subject_id": "9cf825f7-58ed-5e2e-9bd5-cf678f86ff65",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-GOD-EXISTS",
+  "object_id": "a38dab0b-47a2-5c2b-802d-11bbe8898f64",
   "note": "The materialized Greek Creed professes one God, Father almighty, maker of heaven and earth. This bears on the Catholic pilot commitments; it does not identify the uninterpreted Creed atom with the pilot predicates or prove their truth."
 }

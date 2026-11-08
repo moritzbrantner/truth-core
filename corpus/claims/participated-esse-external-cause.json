@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
-  "statement_id": "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE",
-  "source_id": "AQUINAS-ST",
+  "id": "11b0106d-9061-54c3-bc53-82a3acaaddd2",
+  "label": "Thomas Aquinas, Summa theologiae I q.44 a.1…: A being that has ESSE_BY_PARTICIPATION_1 is caused…",
+  "legacy_id": "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE",
+  "statement_id": "f831be85-b088-5654-860a-f7f6bbad2ce5",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.44 a.1 co.; ad 1",
   "interpretation": "The corpus argues from participated being to the first being whose esse belongs essentially; reply 1 says that being by participation entails being caused by another, while being caused is not part of being simply. This is a one-way source reading, not the converse that essence–esse identity alone implies uncausedness, nor an identification of participated esse with Platonic participation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PARTICIPATED-ESSE",
-    "DEF-ESSE",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "196be87e-b944-5924-b791-87406fbe48f6"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
-    "DISAMB-BEING"
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
+  "id": "9880c06b-e689-5294-b349-badb981abbf6",
+  "label": "Good in being and good in practical precepts",
+  "legacy_id": "DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL",
   "term": "good in being and good in practical precepts",
   "sense_definition_ids": [
-    "DEF-GOOD-AS-BEING-IN-ACT",
-    "DEF-NATURAL-LAW-FIRST-PRECEPT"
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1"
   ],
   "resolution": "GoodIn on beings/perfections is actuality in the q.5 reading; GoodAct on acts is the practical-good predicate in q.94’s first precept. CatholicNaturalLaw conjoins these commitments but contains no identification or derivation of the latter predicate from the former.",
   "term_label": "GOOD_IN_BEING_AND_GOOD",
@@ -11,13 +13,13 @@
     {
       "id": "20e1734d-c81d-4c02-b733-bcdcff0ea88c",
       "label": "GOOD_IN_BEING_AND_GOOD_1",
-      "definition_id": "DEF-GOOD-AS-BEING-IN-ACT",
+      "definition_id": "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading"
     },
     {
       "id": "d4059baf-00b6-4392-ae12-08af7c36aa54",
       "label": "GOOD_IN_BEING_AND_GOOD_2",
-      "definition_id": "DEF-NATURAL-LAW-FIRST-PRECEPT",
+      "definition_id": "4e86d1ed-86f3-5ed2-b484-78a012f0bfa1",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstPreceptOfNaturalLawReading"
     }
   ]

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S4-PREDICATE",
+  "id": "99cb659f-12a5-5cef-9ac9-d082af571a93",
+  "label": "Independent contingency predicate of…: P is the first atom predicate, true only at left and false…",
+  "legacy_id": "DEF-MODAL-S4-PREDICATE",
   "term": "independent contingency predicate of the S4 experiment",
   "definition": "p is the first atom predicate, true only at left and false at root, right and twin. The same predicate is expressible in both paired configurations, independently of any collapse assertion. Its accessible true and false witnesses give model-relative contingency at root.",
   "basis": "stipulative",

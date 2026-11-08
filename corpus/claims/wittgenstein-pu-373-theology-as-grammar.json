@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-PU-373-THEOLOGY-AS-GRAMMAR",
-  "statement_id": "STMT-PU-THEOLOGY-AS-GRAMMAR",
-  "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+  "id": "55ab27c9-ed2f-58f2-86cd-9a56f2370412",
+  "label": "Ludwig Wittgenstein, Philosophische…: Philosophische Untersuchungen §373: what kind of object…",
+  "legacy_id": "WITTGENSTEIN-PU-373-THEOLOGY-AS-GRAMMAR",
+  "statement_id": "80bd5cc6-e136-5908-bca3-f7e302295bd1",
+  "source_id": "f37d35cc-4070-54d0-a686-2f6998f9a346",
   "locator": "§373, Welche Art von Gegenstand etwas ist, sagt die Grammatik. (Theologie als Grammatik.)",
   "interpretation": "§373: 'Welche Art von Gegenstand etwas ist, sagt die Grammatik. (Theologie als Grammatik.)' With §371: 'Das Wesen ist in der Grammatik ausgesprochen.' The parenthesis is unexplained in the text; it does not mention councils, dogma or any particular practice, and whether it says that theology is grammar or that grammar does theology's work is a reading question.",
   "status": "formalized",

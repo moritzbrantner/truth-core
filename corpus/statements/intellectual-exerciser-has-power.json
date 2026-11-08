@@ -1,9 +1,11 @@
 {
-  "id": "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
+  "id": "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+  "label": "Whoever is attributed an intellectual exercise has causal power at the selected world",
+  "legacy_id": "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
   "paraphrase": "OPEN analyst premise: whoever is attributed an intellectual exercise has causal (active) power at the selected world.",
   "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.IntellectualExerciserHasPowerAt",
   "definition_ids": [
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-POWER-CAPACITY-READING"
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416"
   ]
 }

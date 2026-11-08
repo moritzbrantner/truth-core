@@ -1,8 +1,15 @@
 {
-  "id": "LOGIC-PERFORMED-DENIAL-RETORSION",
+  "id": "768cabc8-a429-532b-b11c-457e203f12ca",
+  "label": "For any episode domain and occurrence/denial predicates, no actually occurring episode can both…",
+  "legacy_id": "LOGIC-PERFORMED-DENIAL-RETORSION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
-  "inference_ids": ["INF-LOGIC-PERFORMED-DENIAL-RETORSION"],
+  "conclusion_statement_id": "17f2fdc1-4dcf-564b-afc3-9bdad891966e",
+  "inference_ids": [
+    "e8c02878-1ca6-50d7-af53-f13d7ac4c6ae"
+  ],
   "meaning": "No accurate performance of an assertion can deny the occurrence of all episodes of its own type. This is a universally quantified structural incompatibility, not an existential assertion about the actual world.",
-  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-ACCURATE-PERFORMED-DENIAL"]
+  "definition_ids": [
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "901afe4d-3dc0-53fb-a18f-d2fd10d50527"
+  ]
 }

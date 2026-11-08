@@ -1,9 +1,11 @@
 {
-  "id": "INF-SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "id": "bc5560c5-0b3b-5046-9cb1-1eb7c707cf4c",
+  "label": "Any two finite upstream paths starting at one node can be extended upstream to a\u2026, by Direct-proof",
+  "legacy_id": "INF-SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
   "input_statement_ids": [
-    "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR"
+    "b0b614c3-0933-5724-b477-6642db60521f"
   ],
-  "output_statement_id": "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+  "output_statement_id": "1a575754-6316-5d66-ac5b-db8fb4cf1aef",
   "rule": "direct-proof",
   "meaning": "Mathlib Church\u2013Rosser on reversed edges: left uniqueness makes each immediate upstream fork have equal endpoints, supplying the local diamond condition. This derives upstream confluence as a sufficient structural condition, without asserting it of actual causation.",
   "assumption_statement_ids": [],

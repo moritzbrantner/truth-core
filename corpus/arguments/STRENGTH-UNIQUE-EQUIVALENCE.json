@@ -1,12 +1,14 @@
 {
-  "id": "STRENGTH-UNIQUE-EQUIVALENCE",
+  "id": "3256e69d-25fb-592f-98de-c8e054223356",
+  "label": "For every supplied type and predicate P, unique existence holds exactly when existence and at most…",
+  "legacy_id": "STRENGTH-UNIQUE-EQUIVALENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
+  "conclusion_statement_id": "1cbc395c-5810-5e58-a052-98fe3c2e9fe8",
   "inference_ids": [
-    "INF-STRENGTH-UNIQUE-EQUIVALENCE"
+    "18087d4a-1c3a-5961-a792-f3eb1d3b09e0"
   ],
   "meaning": "Compose all three constructive obligations: unique existence iff existence and at most one, for the same arbitrary type and predicate.",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

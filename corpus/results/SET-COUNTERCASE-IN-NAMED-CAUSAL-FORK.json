@@ -1,6 +1,8 @@
 {
-  "id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
-  "argument_id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "id": "4c32c5b9-146c-5f5e-876f-ffc096383d1b",
+  "label": "Disjunction of the explicit set, Form or…, from A selected-world productive cause is a…",
+  "legacy_id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "argument_id": "573a635d-835e-53fe-9c46-55565500b446",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromSet.namedFromSet",

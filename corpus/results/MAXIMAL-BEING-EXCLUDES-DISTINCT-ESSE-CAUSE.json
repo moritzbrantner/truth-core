@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
-  "argument_id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "id": "87b74b57-f514-5a1a-b6fe-fb33e4c837f4",
+  "label": "Every maximum in being excludes a distinct cause…, from Whatever causes a quality in another thing…",
+  "legacy_id": "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE",
+  "argument_id": "8bbe817d-f798-57eb-b9d9-b9b9bcc677f4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.maximumHasNoDistinctEsseCause",

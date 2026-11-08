@@ -1,6 +1,8 @@
 {
-  "id": "THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
-  "argument_id": "THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "id": "b3e1e423-7ef3-5d8c-ab90-8b5df8b28a95",
+  "label": "Exact negation of conciliar definition…, from Modest analyst content proposition: every… and 2 more",
+  "legacy_id": "THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "argument_id": "52db30fd-43b9-5cfe-bd33-e062b30a516f",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Scope.theologyExclusionRejectsBridge",

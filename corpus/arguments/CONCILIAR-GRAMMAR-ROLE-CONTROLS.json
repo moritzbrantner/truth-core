@@ -1,18 +1,20 @@
 {
-  "id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
+  "id": "da68cc3f-604a-53e5-a969-00f427658869",
+  "label": "Four controls retain positive ordinary-life own-standard endorsement: descriptive theology…",
+  "legacy_id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONCILIAR-GRAMMAR-ROLE-MODELS",
+  "conclusion_statement_id": "cdf7aa4a-574c-5236-a209-c25c4cb2b7be",
   "inference_ids": [
-    "INF-CONCILIAR-GRAMMAR-ROLE-CONTROLS"
+    "8bddee53-a00a-5837-b6d0-48da5762c0f8"
   ],
   "meaning": "Four finite controls retain a real ordinary-life endorsed move. Theology and normative endorsement overlap in one; distinct defined/nonendorsed and ordinary/endorsed moves support exclusion, actual bridge failure and the original fideist pair in another. Mixed status and empty-definition overlap complete the stated boundaries. No liturgical history or actual authority is established.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

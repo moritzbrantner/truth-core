@@ -1,6 +1,8 @@
 {
-  "id": "PHYSICAL-GROUND-CORE",
-  "argument_id": "PHYSICAL-GROUND-CORE",
+  "id": "2d8410c0-a9bb-5360-90c4-e9fba2c48916",
+  "label": "Conditional consequences, each assuming what it states",
+  "legacy_id": "PHYSICAL-GROUND-CORE",
+  "argument_id": "28a0332a-a1ad-5f8e-b0a9-9da9eb3b33a3",
   "challenge_module": "TruthCore.Results.Alternatives.PhysicalGround.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PhysicalGround.Solution",
   "theorem": "TruthCore.Results.Alternatives.PhysicalGround.core",

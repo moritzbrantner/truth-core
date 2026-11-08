@@ -1,7 +1,9 @@
 {
-  "id": "SEP-PRIVATE-LANGUAGE-4-KRIPKE-NO-FACT-A",
-  "statement_id": "STMT-KRIPKE-NO-FACT-OF-MEANING",
-  "source_id": "SEP-PRIVATE-LANGUAGE",
+  "id": "cadeab89-552f-5be4-b681-12f7444da04b",
+  "label": "Stewart Candlish and George Wrisley…: Kripke's sceptical Wittgenstein: there is no fact about a…",
+  "legacy_id": "SEP-PRIVATE-LANGUAGE-4-KRIPKE-NO-FACT-A",
+  "statement_id": "bebc4578-30d8-5805-91e1-cde4b3b86eaa",
+  "source_id": "f351e5a0-287b-548a-9056-4e4d27eeb2c5",
   "locator": "§4, there is no fact about me that distinguishes my meaning a definite function",
   "interpretation": "The entry reports Kripke's first formulation: '[T]here is no fact about me that distinguishes my meaning a definite function by \"plus\" ... and my meaning nothing at all' (p. 21), leading to assertibility conditions involving community agreement in place of truth conditions (the 'sceptical solution'); Kripke (p. 5) denies commitment to the identity of this figure with Wittgenstein. The entry itself rejects the reading as an interpretation. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",

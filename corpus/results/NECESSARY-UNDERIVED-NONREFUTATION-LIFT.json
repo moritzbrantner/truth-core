@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
-  "argument_id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+  "id": "2121d6bd-7841-5c8a-b2c5-5fec7442f161",
+  "label": "Denying the existence of one rigid de re…, from At least one individual exists at the… and 2 more",
+  "legacy_id": "NECESSARY-UNDERIVED-NONREFUTATION-LIFT",
+  "argument_id": "669ca076-c9b7-54da-9e8b-c012bd37edec",
   "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.NonRefutationLift.checks",

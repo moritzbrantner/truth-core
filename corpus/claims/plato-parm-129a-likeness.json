@@ -1,19 +1,21 @@
 {
-  "id": "PLATO-PARM-129A-LIKENESS",
-  "statement_id": "STMT-PLATONIC-PARM-129A-LIKENESS",
-  "source_id": "PLATO-PARM",
+  "id": "b76d461e-f52f-5738-a4dd-70ec419ce951",
+  "label": "Plato, Parmenides 129a–e: The young Socrates distinguishes LIKENESS_1 and unlikeness themselves…",
+  "legacy_id": "PLATO-PARM-129A-LIKENESS",
+  "statement_id": "b6b45b7f-7b3c-5474-a921-d6ceb3780a14",
+  "source_id": "665bdac6-e83f-5b25-8b38-995165ccc42e",
   "locator": "129a–e",
   "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. The young Socrates distinguishes likeness and unlikeness themselves from particulars that participate in both; the many can be one and many without showing the Forms themselves contradictory.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-LIKENESS",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-PARTICULAR"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "2887f878-d786-5205-9d73-8142cd156ec3",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-LIKENESS",
-    "DISAMB-PLATONIC-PARTICIPATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "2d7d9715-6d9a-5bff-84ec-5e3209f72e75",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c"
   ]
 }

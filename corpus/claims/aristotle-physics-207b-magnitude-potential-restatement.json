@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-MAGNITUDE-POTENTIAL-RESTATEMENT-A",
-  "statement_id": "STMT-MAGNITUDE-POTENTIALLY-INFINITE-BY-DIVISION",
-  "source_id": "ARIST-PHYS",
+  "id": "17649fad-813f-5347-896e-fe254778f29a",
+  "label": "Aristotle, Physics III.7, 207b15-20: Magnitude is not actually infinite, but it is infinite by…",
+  "legacy_id": "ARIST-PHYS-207B-MAGNITUDE-POTENTIAL-RESTATEMENT-A",
+  "statement_id": "b8db29f3-f320-5324-96c1-add346c73260",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b15-20",
   "interpretation": "III.7 again states that continuous magnitude is indefinitely divisible but does not become infinite in the direction of increase. This reuses the III.6 proposition identity rather than introducing a duplicate statement.",
   "status": "formalized"

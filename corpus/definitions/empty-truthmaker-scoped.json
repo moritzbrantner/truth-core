@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EMPTY-TRUTHMAKER-SCOPED",
+  "id": "6a6f1b64-af87-5927-b737-6a2b395ca3ba",
+  "label": "Accessible-world empty-negative scope: EmptyPossible supplies an accessible world with no existent…",
+  "legacy_id": "DEF-EMPTY-TRUTHMAKER-SCOPED",
   "term": "accessible-world empty-negative scope",
   "basis": "stipulative",
   "definition": "EmptyPossible supplies an accessible world with no existent from the fixed eligible roster. NegativeCoverage requires a maker of exactly this negative where true on the accessible component; Immanence requires that maker to exist there. NegativeFactivity separately requires making to imply this negative truth. The arena/scopedMaking adapters consume the existing checked pointwise proof without identifying this one-proposition adapter with a coherent ontology of every fact.",

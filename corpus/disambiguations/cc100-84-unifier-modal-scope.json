@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
+  "id": "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+  "label": "Can be an external fact-unifier in every possible world",
+  "legacy_id": "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
   "term": "can be an external fact-unifier in every possible world",
   "sense_definition_ids": [
-    "DEF-CC100-84-DE-RE-CAPABILITY",
-    "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY",
-    "DEF-CC100-84-FACT-UNIFIER"
+    "22cb9ae1-04b0-5ab3-92ae-5c23d91a1e72",
+    "048d30fa-ee12-5d4a-834b-881c0e409c54",
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
   ],
   "resolution": "Step6 admits a de-re globally-capable-candidate restriction and a distributive world-local restriction. Preserve them as sibling interpretations, not equivalent statements. Step5 worldwise existential unifiers do not provide a globally capable candidate. Neither parse licenses silently exchanging worldwise existentials for one rigid mind or one common source of all facts. Can-role and actual exercise, as well as world scope of mind, remain independently open.",
   "term_label": "CAN_BE_AN_EXTERNAL_FACT_UNIFIER",
@@ -12,17 +14,17 @@
     {
       "id": "0e8f2983-4c58-4f68-88da-90cae3d7b6ad",
       "label": "CAN_BE_AN_EXTERNAL_FACT_UNIFIER_1",
-      "definition_id": "DEF-CC100-84-DE-RE-CAPABILITY"
+      "definition_id": "22cb9ae1-04b0-5ab3-92ae-5c23d91a1e72"
     },
     {
       "id": "1ea23e61-ea9b-4a27-b144-6cd2219fce5f",
       "label": "CAN_BE_AN_EXTERNAL_FACT_UNIFIER_2",
-      "definition_id": "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY"
+      "definition_id": "048d30fa-ee12-5d4a-834b-881c0e409c54"
     },
     {
       "id": "bbc7b1e3-0c49-46da-96a3-d74552b638a5",
       "label": "CAN_BE_AN_EXTERNAL_FACT_UNIFIER_3",
-      "definition_id": "DEF-CC100-84-FACT-UNIFIER"
+      "definition_id": "5b2623de-6bc4-5d2c-9bc2-97c49681ae37"
     }
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-GROUP-ACCOUNT",
+  "id": "3284c73b-f600-5639-804c-9e23a152470d",
+  "label": "Deny bodily resurrection and propose group suggestion as the appearance account, rather than…",
+  "legacy_id": "STMT-PILOT-GROUP-ACCOUNT",
   "paraphrase": "Deny bodily resurrection and propose group suggestion as the appearance account, rather than presupposing identical individual hallucinations.",
   "lean_declaration": "TruthCore.History.Resurrection.GroupAccount",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-A1-ACTUAL-CONCRETE-CAUSE",
+  "id": "2c7e9221-fe11-5a47-bf59-3d238219a9fd",
+  "label": "Actual concrete cause at a world: S.concrete c ∧ s.ontic.ExistsAt w c ∧ s.ontic.Causes w c x",
+  "legacy_id": "DEF-A1-ACTUAL-CONCRETE-CAUSE",
   "term": "actual concrete cause at a world",
   "definition": "s.concrete c ∧ s.ontic.ExistsAt w c ∧ s.ontic.Causes w c x. Actual source existence and concreteness are explicit guards on the existing primitive world-relative causal relation; its target is not thereby present. No time, existential grounding or necessitating sufficiency is inferred.",
   "basis": "stipulative",

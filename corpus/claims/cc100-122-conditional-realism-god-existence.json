@@ -1,15 +1,17 @@
 {
-  "id": "CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE",
-  "statement_id": "STMT-CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "de6944c9-b629-50d2-b8f6-a6fecbd153bc",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If either realism is false or God exists, and realism…",
+  "legacy_id": "CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE",
+  "statement_id": "7d1b42aa-36be-555e-a164-642de2c35628",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 5 citing steps 3–4",
   "interpretation": "Retain the displayed final application conditionally on the open preceding disjunction and realism premise. No source proof of the realism/skepticism bridge, actual necessary concrete individual, divine signature, uniqueness or frame-relative rigid witness is registered. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-122-REALISM-SKEPTICISM"
+    "3c9cb396-8e6f-59d9-8528-98161f3db735"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

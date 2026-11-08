@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-LOW-REPLICATION",
+  "id": "562e9c64-0882-519b-885e-ad870b8ed6df",
+  "label": "Fixed-baseline no-low-replication\u2026: NoLowReplication value p \u03b4 says each strictly positive welfare\u2026",
+  "legacy_id": "DEF-NO-LOW-REPLICATION",
   "term": "fixed-baseline no-low-replication constraint",
   "definition": "NoLowReplication value p \u03b4 says each strictly positive welfare w below cutoff \u03b4, replicated any positive finite number of times, has value at most the fixed baseline p. The obstruction assumes \u03b4>0, additive representation and universal positive-life scoring on the same semantics. No unrestricted population ethics impossibility or actually feasible replication is claimed.",
   "basis": "stipulative",

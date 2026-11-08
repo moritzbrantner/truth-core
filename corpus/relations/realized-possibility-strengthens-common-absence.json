@@ -1,10 +1,12 @@
 {
-  "id": "REL-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "id": "02a6e7bb-1b6a-55f3-be73-04ebe61af175",
+  "label": "Every condition realized at some admitted… strengthens Weak OPEN realization interface consumed…",
+  "legacy_id": "REL-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
   "subject_kind": "statement",
-  "subject_id": "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE",
+  "subject_id": "e99608dd-c65d-56de-90d1-2c62385fd699",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
-  "verification_result_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "object_id": "5745f7e5-aab2-5ae9-aab5-a484f61e59da",
+  "verification_result_id": "4e239cdd-7129-5198-b38b-847c25ee7f3c",
   "note": "Exact sole-premise restriction. No refuted strong version refutes a weak one."
 }

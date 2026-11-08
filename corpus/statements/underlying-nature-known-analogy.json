@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNDERLYING-NATURE-KNOWN-BY-ANALOGY",
+  "id": "28958a50-fb4a-595e-b06c-1fc1287dc53a",
+  "label": "The underlying nature is known by analogy, as bronze stands to a statue or wood to a bed before…",
+  "legacy_id": "STMT-UNDERLYING-NATURE-KNOWN-BY-ANALOGY",
   "paraphrase": "The underlying nature is known by analogy, as bronze stands to a statue or wood to a bed before receiving form.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnderlyingNatureKnownByAnalogyReading"
 }

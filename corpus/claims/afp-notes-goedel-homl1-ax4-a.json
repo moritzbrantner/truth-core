@@ -1,16 +1,18 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-AX4-A",
-  "statement_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "41955ce8-cf1c-5c2e-b5df-e7f90084bd11",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: Gödel's 1970 axiom Ax4: at every world, if φ is…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-AX4-A",
+  "statement_id": "96d8342a-f88f-5edf-8792-00d4f6d556ca",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, Ax4: \"⌊P φ ❙∧ (φ ❙⊃⇩N ψ) ❙⊃ P ψ⌋\"",
   "interpretation": "Axiom Ax4 as stated in the theory, with ❙⊃⇩N its abbreviation PropertyInclusion, φ ❙⊃⇩N ψ ≡ ❙□(❙∀⇧Ey. φ y ❙⊃ ψ y), whose quantifier is actualist, and the free φ, ψ read as universally closed. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HOML-ACTUALIST-NECESSITY",
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "9010544f-188a-5d00-83dc-85d0c0b4052d",
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTS",
-    "DISAMB-POSITIVE"
+    "620f1cde-0f67-5ecd-a96c-2851588725d5",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

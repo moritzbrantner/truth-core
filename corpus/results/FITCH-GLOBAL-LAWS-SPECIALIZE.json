@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
-  "argument_id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "id": "bcfc14db-c145-591d-927f-7a66a3d4d28f",
+  "label": "At every world modally accessible from actuality…, from At every world and for every content…",
+  "legacy_id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "argument_id": "3ac684d0-2d29-5e67-8383-16815257ebd3",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.relevantFromGlobal",

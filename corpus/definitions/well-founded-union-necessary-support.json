@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "id": "b3a8f6d3-d368-5458-8606-28c2376198e1",
+  "label": "Well-founded global union of necessary…: The cross-world union of direct existential-support…",
+  "legacy_id": "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
   "term": "well-founded global union of necessary existential-support edges",
   "definition": "The cross-world union of direct existential-support relations restricted to de re necessary individuals is well-founded. In finite models this rules out directed cycles (including nontrivial SCCs); in infinite models acyclicity alone does not establish well-foundedness. This permits world-varying edges that do not create a global regress.",
   "basis": "stipulative",

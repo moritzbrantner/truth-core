@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-READING-ONLY-SELF-CERTIFICATION",
+  "id": "1fae4182-151f-53d5-9cc0-f98639a24608",
+  "label": "Inspected both calibration and criterion dossiers and exact theorem types",
+  "legacy_id": "ATTEMPT-READING-ONLY-SELF-CERTIFICATION",
   "statement_ids": [
-    "STMT-SCIENCE-READING-SELF-CERTIFICATION",
-    "STMT-SCIENCE-MEASUREMENT-CALIBRATION",
-    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+    "bb398c59-c6c4-5b29-bec5-72b9df547a77",
+    "2853ae37-9638-5848-9414-7dd50553701f",
+    "6df7921a-29b6-5574-8952-f27497140a53"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Inspected both calibration and criterion dossiers and exact theorem types; HistoryContrastive distinguishes explanatory discrimination but does not supply this explicit zero-offset measurement target. Composed MeasurementCalibration.certificate with CorrectionCriterion.characterization. Every unrestricted signal/bias profile has identical complete readings to a profile with any selected nonzero bias. Uniformly sound positive tests of any reading-derived reports must therefore withhold affirmation on all reachable evidence; exact classifiers fail too. A supplied true signal anchor admits a criterion under constant bias. Nonconstant Boolean-input integer profiles jointly witness the obstruction. Reports of type Nat → Report include infinite reading-derived families; independent information, restricted signals, actual processes and fallible warrant are not excluded. No new historical source claim is made. Development combined-content diagnostics at preview f2544a0142304bf074112e7323cb5b8ab6e46840 had no errors, content353aaefb5247a2ed251d573474548294d68ec58e19b694d6386ff4bf669b2aac, axioms propext/Quot.sound. Canonical final build/binding/Comparator/NanoDa remain CI obligations. Proof boundaries, strongest replies and rejected interpretations are in docs/notes/reading-only-self-certification.md. Root premise delta zero.",
   "evidence": [
-    "SCIENCE-READING-SELF-CERTIFICATION",
-    "SCIENCE-MEASUREMENT-CALIBRATION",
-    "CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "HISTORY-CONTRASTIVE-CONTROLS"
+    "b16198d5-565c-57f3-91a6-208dc8c46b02",
+    "0e7eb377-59a3-5a95-ab2b-a05ca123e262",
+    "0590fe21-edb9-5915-9837-62560c8f40e2",
+    "daa271be-cd04-5e03-bd3e-c7bad5c2eff3"
   ],
   "blocker": "The real instrument model, restrictions on signal/bias, actual availability and reliability of independent calibration, and any norm requiring uniform internal self-certification for epistemic entitlement remain open. This is no universal verdict on infinitism or externalism."
 }

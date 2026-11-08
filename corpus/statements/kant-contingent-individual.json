@@ -1,9 +1,11 @@
 {
-  "id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
+  "id": "e4d54207-5e44-52db-a984-08e6428de881",
+  "label": "The selected individual exists at the selected world and fails to exist at some accessible world",
+  "legacy_id": "STMT-KANT-CONTINGENT-INDIVIDUAL",
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt",
   "paraphrase": "The selected individual exists at the selected world and fails to exist at some accessible world.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "REL-CAUSAL-POWER-CONCRETENESS-STRONG-STRENGTHENS-WEAK",
+  "id": "8b2dc6ac-1e8b-5856-b5a0-8b01aedb588c",
+  "label": "Strong version, NOT approved: at the… strengthens Owner framework commitment: At the…",
+  "legacy_id": "REL-CAUSAL-POWER-CONCRETENESS-STRONG-STRENGTHENS-WEAK",
   "subject_kind": "statement",
-  "subject_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS-STRONG",
+  "subject_id": "35871d99-a2e5-5625-82c4-2b61836633a2",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
-  "verification_result_id": "CAUSAL-POWER-CONCRETENESS-STRONG-TO-WEAK",
+  "object_id": "e27489c3-7419-5123-8476-386633e62532",
+  "verification_result_id": "9679c661-c706-5a38-ac2c-c3a8dcf87cc2",
   "note": "Every causal sense versus efficient causation and causal power only. The owner approved the weak version as a floor item (#1103); the strong version stays unapproved. No strictness countermodel is registered."
 }

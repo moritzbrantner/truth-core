@@ -1,14 +1,16 @@
 {
-  "id": "STMT-OPINION-IS-A-MOTION",
+  "id": "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
+  "label": "Opinion and imagination are motions: whoever opines that p is thereby being moved in the respect…",
+  "legacy_id": "STMT-OPINION-IS-A-MOTION",
   "paraphrase": "Opinion and imagination are motions: whoever opines that p is thereby being moved in the respect of that opinion.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.OpiningIsBeingMovedReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-OPINING"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ],
   "note": " Exact-scope audit: the universal concerns MovedIn x (asOpinion p) for each actual opiner. New STMT-OPINER-LACKS-ITS-OPINION-MOTION is the precise countertuple; a stationary opiner can coexist with another being moving, so the stronger global-no-motion rival is not exhaustive. All source, same-sense and actual applicability burdens remain; no self-evidence marking is added."
 }

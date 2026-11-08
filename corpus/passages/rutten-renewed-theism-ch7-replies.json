@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "RUTTEN-RENEWED-THEISM-2012",
+    "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
     "source_url": "https://www.gjerutten.nl/TowardsARenewedCaseForTheism_ERutten.pdf",
     "retrieved_at": "2026-11-01T16:11:11Z",
     "sha256": "sha256:aaf4942b77a4f54f3c5d26f56f9d3880e2afd97425eeb478b3a71128bb5028d0",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "RUTTEN-RENEWED-THEISM-CH7-REPLIES",
+      "id": "dd824042-8bc1-5706-add5-36c49dd54de7",
+      "label": "Gerardus Johannes Emanuel Rutten, A Critical Assessment of Contemporary Cosmological Arguments… (2)",
+      "legacy_id": "RUTTEN-RENEWED-THEISM-CH7-REPLIES",
       "locator": "2012 dissertation, chapter VII, printed pp.154–158 (physical PDF pp.156–160), atomism/Step5/unity/causation replies and immediate context",
       "claim_locator_prefixes": [
         "2012 dissertation, chapter VII, printed p.154",

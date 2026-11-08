@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-RIGID-DESIGNATION",
+  "id": "d6e251fc-c112-50f0-a593-9e6fb0eaa417",
+  "label": "For every Ontic model, two partial names, origin and selected bearer…, by Constructive-proof",
+  "legacy_id": "INF-MODAL-RIGID-DESIGNATION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-RIGID-DESIGNATION",
+  "output_statement_id": "b484599c-1a06-5346-a630-4e9f81c3db0f",
   "rule": "constructive-proof",
   "meaning": "Derive successor co-reference iff existence from both exact designation profiles; quantify along M edges and reuse the certified box-transfer theorem for E inclusion. Decide two finite omission controls. No actual naming fact, historical thesis or human epistemic state is established.",
   "assumption_statement_ids": [],

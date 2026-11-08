@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-COOPERATION-LADDER",
+  "id": "b985f969-33d7-5465-9e58-97755aa9bdac",
+  "label": "Coexistence, compatibility and actual…: Coexist: both events occur at the actual scenario",
+  "legacy_id": "DEF-JOINT-COOPERATION-LADDER",
   "term": "coexistence, compatibility and actual coordination",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.JointCooperation.Coordinated",

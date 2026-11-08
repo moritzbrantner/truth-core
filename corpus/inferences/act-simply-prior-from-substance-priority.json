@@ -1,10 +1,12 @@
 {
-  "id": "INF-ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
+  "id": "90e32b17-eb92-5157-b2df-ad113c60cb59",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a…, by Universal instantiation and…",
+  "legacy_id": "INF-ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
   "input_statement_ids": [
-    "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE",
-    "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"
+    "d1258afa-b9f2-56e8-8ed0-7ae3512ac9d8",
+    "9226c6af-c824-5f54-8937-79e5726ce3a4"
   ],
-  "output_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "output_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "rule": "Universal instantiation and modus ponens",
   "meaning": "Per-sense result for the substance branch of 'prior': act's priority in substance over every potency, with the open bridge from priority in substance to simple priority, gives act's simple priority over potency.",
   "assumption_statement_ids": [],

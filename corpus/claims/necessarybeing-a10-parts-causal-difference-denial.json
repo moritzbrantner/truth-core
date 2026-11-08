@@ -1,15 +1,17 @@
 {
-  "id": "NB-SURVEY-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
-  "statement_id": "STMT-NB-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "c9f76aad-a86e-5658-88c1-a885e2d4bc5c",
+  "label": "Unattributed website author, Necessary…: Within the reconsidered contingent-causation… (3)",
+  "legacy_id": "NB-SURVEY-A10-PARTS-CAUSAL-DIFFERENCE-DENIAL",
+  "statement_id": "d52637d4-ef30-568e-8e19-8cd8000c280a",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10P1D, complete parts/causal-difference question and cause title; distinct negative and affirmative/uncertain continuations",
   "interpretation": "Attributed conditionally on the negative P1D report, which goes directly to P1E and bypasses both angel questions. Affirmative OR uncertain reports instead enter P1D2; those routes must not be recorded as already denying a parts difference. No formal mereology, q3 simplicity or actual answer retention is inferred. The shared cause title means a prior condition capable of explaining or partly explaining an event/change, not formal C’s actual concrete existential contributor. No actual respondent/session answer or philosophical truth is established.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-A10-RECONSIDERATION-CASE"
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "ffc4db54-6b73-55a0-a08e-caf2af6095b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0"
   ]
 }

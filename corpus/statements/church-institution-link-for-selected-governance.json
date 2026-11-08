@@ -1,19 +1,21 @@
 {
-  "id": "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+  "id": "8e5da2fb-6205-5431-983a-365ff9419143",
+  "label": "Whenever Jesus holds a mandate from g and founded the Catholic Church as visible, each given…",
+  "legacy_id": "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
   "paraphrase": "Open criterion-matched institutional bridge: whenever Jesus holds a mandate from g and founded the Catholic Church as visible, each given selected-governing power makes that founding one in the mandate; giving teaching commissions that same Church to teach. Matching this bridge is separate from selecting a governing criterion.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.CommissionDefinitions.InstitutionLinkFor",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

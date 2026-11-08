@@ -1,8 +1,16 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import path from "node:path";
 
+import { shortId, type CorpusKind, type RecordIdentity } from "./corpus-ids";
+
+export { legacyUuid, recordLabel, recordSecondaryId, shortId } from "./corpus-ids";
+
 export type CorpusSource = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   kind: "primary_text" | "media_recording";
   author: string;
   work: string;
@@ -32,6 +40,10 @@ export type CorpusSourceSnapshot = {
 
 type CorpusPassageSlice = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   locator: string;
   claim_locator_prefixes: string[];
   cts_path?: Array<{ subtype: string; n: string }>;
@@ -153,6 +165,10 @@ export function isWebPassage(passage: CorpusPassage): passage is CorpusWebPassag
 
 export type CorpusStatement = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   paraphrase: string;
   lean_declaration?: string;
   /** Optional premise-program marking (#156): sourced justification for self-evidence. */
@@ -168,6 +184,10 @@ export type TermLinks = {
 /** One sense of a term: sourced from claims, or explicitly stipulative with a note. */
 export type CorpusDefinition = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   term: string;
   definition: string;
   basis: "sourced" | "stipulative";
@@ -179,6 +199,10 @@ export type CorpusDefinition = {
 /** Two or more senses of one term, and which sense each use takes. */
 export type CorpusDisambiguation = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   term: string;
   sense_definition_ids: string[];
   resolution: string;
@@ -186,6 +210,10 @@ export type CorpusDisambiguation = {
 
 type RawCorpusClaim = TermLinks & {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   statement_id: string;
   source_id: string;
   locator: string;
@@ -211,6 +239,10 @@ export type CorpusClaim = RawCorpusClaim & {
 
 export type CorpusInference = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   input_statement_ids: string[];
   output_statement_id: string;
   rule: string;
@@ -221,6 +253,10 @@ export type CorpusInference = {
 
 export type CorpusArgument = TermLinks & {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   premise_statement_ids: string[];
   /** Statements a consistency argument shows jointly satisfiable (it may then have no premises). */
   commitment_statement_ids?: string[];
@@ -231,6 +267,10 @@ export type CorpusArgument = TermLinks & {
 
 type RawCorpusResult = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   argument_id: string;
   challenge_module: string;
   solution_module: string;
@@ -249,6 +289,10 @@ export type CorpusResult = RawCorpusResult & {
 
 export type CorpusRelation = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   subject_kind: "source" | "statement" | "claim" | "inference" | "argument";
   subject_id: string;
   predicate: string;
@@ -260,6 +304,10 @@ export type CorpusRelation = {
 
 export type CorpusCandidate = {
   id: string;
+  /** Display name (unique per kind); the id is an opaque uuid. */
+  label?: string;
+  /** Former readable id of a migrated record, kept as an alias. */
+  legacy_id?: string;
   source_id: string;
   locator: string;
   priority: number;
@@ -276,6 +324,7 @@ export type ComparatorConfig = {
 
 export type ClaimListEntry = {
   id: string;
+  label?: string;
   sourceId: string;
   author: string;
   work: string;
@@ -573,6 +622,7 @@ export function claimListEntries(corpus: Corpus): ClaimListEntry[] {
       return [
         {
           id: claim.id,
+          label: claim.label,
           sourceId: source.id,
           author: source.author,
           work: source.work,
@@ -605,4 +655,127 @@ export function comparatorForResult(result: CorpusResult): ComparatorConfig {
   return JSON.parse(
     readFileSync(path.resolve(corpusDirectory, "..", result.comparator_config), "utf8"),
   );
+}
+
+/** Identity of any corpus record: kind from its collection, never from its id. */
+export type CorpusRecordRef = { id: string; kind: CorpusKind; label: string; legacy_id?: string };
+
+const collectionKinds: ReadonlyArray<[keyof Corpus, CorpusKind]> = [
+  ["sources", "source"],
+  ["passages", "passage"],
+  ["statements", "statement"],
+  ["claims", "claim"],
+  ["inferences", "inference"],
+  ["arguments", "argument"],
+  ["relations", "relation"],
+  ["results", "result"],
+  ["candidates", "candidate"],
+  ["definitions", "definition"],
+  ["disambiguations", "disambiguation"],
+];
+/** Record directories the reader does not load in full, indexed by identity only. */
+const identityOnlyKinds: ReadonlyArray<[string, CorpusKind]> = [
+  ["attempts", "attempt"],
+  ["models", "model"],
+  ["configurations", "configuration"],
+];
+const recordIndexes = new WeakMap<Corpus, Map<string, CorpusRecordRef>>();
+const aliasIndexes = new WeakMap<Corpus, Map<string, string>>();
+
+function identityOf(record: RecordIdentity, kind: CorpusKind): CorpusRecordRef {
+  return { id: record.id, kind, label: record.label ?? record.id, legacy_id: record.legacy_id };
+}
+
+/** Every record by id, with its kind taken from the collection that holds it. */
+export function recordIndex(corpus: Corpus): Map<string, CorpusRecordRef> {
+  let index = recordIndexes.get(corpus);
+  if (!index) {
+    index = new Map();
+    for (const [collection, kind] of collectionKinds) {
+      for (const record of corpus[collection] as RecordIdentity[]) {
+        if (!index.has(record.id)) index.set(record.id, identityOf(record, kind));
+      }
+    }
+    for (const [directory, kind] of identityOnlyKinds) {
+      for (const record of readRecords<RecordIdentity>(path.join(corpusDirectory, directory))) {
+        if (typeof record?.id === "string" && !index.has(record.id)) index.set(record.id, identityOf(record, kind));
+      }
+    }
+    recordIndexes.set(corpus, index);
+  }
+  return index;
+}
+
+export function recordRef(corpus: Corpus, id: string) {
+  return recordIndex(corpus).get(id);
+}
+
+/** Display name of the record with this id: its label, else the id itself. */
+export function displayName(corpus: Corpus, id: string) {
+  return recordRef(corpus, id)?.label ?? id;
+}
+
+/** Secondary identifier text: legacy alias and short uuid, or the id when unknown. */
+export function displayId(corpus: Corpus, id: string) {
+  const ref = recordRef(corpus, id);
+  if (!ref) return id;
+  return ref.legacy_id ? `${ref.legacy_id} · ${shortId(ref.id)}` : shortId(ref.id);
+}
+
+/** Map from every id and legacy alias to the record id. Legacy aliases are unique per kind;
+ * where two kinds share one (an argument and its result), the first collection wins
+ * unless `kind` is given. */
+export function resolveAlias(corpus: Corpus, token: string, kind?: CorpusKind): string | undefined {
+  if (kind) {
+    const ref = recordRef(corpus, token);
+    if (ref?.kind === kind) return ref.id;
+    for (const candidate of recordIndex(corpus).values()) {
+      if (candidate.kind === kind && candidate.legacy_id === token) return candidate.id;
+    }
+    return undefined;
+  }
+  let aliases = aliasIndexes.get(corpus);
+  if (!aliases) {
+    aliases = new Map();
+    for (const ref of recordIndex(corpus).values()) {
+      aliases.set(ref.id, ref.id);
+    }
+    for (const ref of recordIndex(corpus).values()) {
+      if (ref.legacy_id && !aliases.has(ref.legacy_id)) aliases.set(ref.legacy_id, ref.id);
+    }
+    aliasIndexes.set(corpus, aliases);
+  }
+  return aliases.get(token);
+}
+
+/** The explorer page of a record, when its kind has one. */
+export function recordHref(ref: Pick<CorpusRecordRef, "id" | "kind">): string | undefined {
+  switch (ref.kind) {
+    case "statement": return `/statements/${ref.id}`;
+    case "claim": return `/claims/${ref.id}`;
+    case "result": return `/results/${ref.id}`;
+    case "source": return `/sources/${ref.id}`;
+    case "candidate": return `/candidates/${ref.id}`;
+    case "definition": return `/definitions/${ref.id}`;
+    case "disambiguation": return `/definitions#${ref.id}`;
+    case "attempt": return `/attempts/${ref.id}`;
+    default: return undefined;
+  }
+}
+
+let identitySnapshot: Corpus | undefined;
+function identityCorpus() {
+  // Labels and aliases only: one snapshot per process is enough for display.
+  identitySnapshot ??= getCorpus();
+  return identitySnapshot;
+}
+
+/** Display name (label) of any record id, for server components without a corpus in scope. */
+export function nameOf(id: string) {
+  return displayName(identityCorpus(), id);
+}
+
+/** Secondary identifier text (legacy alias · short uuid) of any record id. */
+export function idOf(id: string) {
+  return displayId(identityCorpus(), id);
 }

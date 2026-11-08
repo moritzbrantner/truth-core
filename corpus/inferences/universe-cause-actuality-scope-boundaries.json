@@ -1,7 +1,9 @@
 {
-  "id": "INF-UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
+  "id": "6002ac0a-7ddf-5668-a3d2-42eee525e77f",
+  "label": "Three exact populated two-role assignments: an edge from an absent…, by Constructive-proof",
+  "legacy_id": "INF-UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-UNIVERSE-CAUSE-ACTUALITY-SCOPE-CONTROLS",
+  "output_statement_id": "3e03438a-5ed9-5541-8b06-c43744c4ff4a",
   "rule": "constructive-proof",
   "meaning": "Exact absent/actual/no-edge controls preserve a populated whole and distinguish generic signature admissibility from the independently intended endpoint-actuality policy.",
   "assumption_statement_ids": [],

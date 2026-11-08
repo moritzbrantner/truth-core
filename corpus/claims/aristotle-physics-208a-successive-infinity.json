@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-208A-SUCCESSIVE-INFINITY-A",
-  "statement_id": "STMT-TIME-MOTION-THOUGHT-SUCCESSIVE-INFINITE",
-  "source_id": "ARIST-PHYS",
+  "id": "75ef8406-8aaa-5b73-a2a7-3bac80f3af03",
+  "label": "Aristotle, Physics III.8, 208a20-21: Time, motion, and thinking can be infinite in a successive…",
+  "legacy_id": "ARIST-PHYS-208A-SUCCESSIVE-INFINITY-A",
+  "statement_id": "4fb8617f-764f-5e42-a59d-065976eb7761",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.8, 208a20-21",
   "interpretation": "Final successive-mode clarification: time, motion, and thinking can be called infinite where taken parts pass away rather than accumulating into one completed infinite totality. This is consistent with the potential/successive account of III.6.",
   "status": "formalized"

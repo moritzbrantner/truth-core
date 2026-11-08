@@ -1,14 +1,16 @@
 {
-  "id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "id": "06cd10d9-b8c6-501d-94c4-ad0eae840a29",
+  "label": "Logical rule template: for two indexed families of premise\u2026, from joint failure incompatibility",
+  "legacy_id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "conclusion_statement_id": "b80ad515-4b39-563a-b41b-fcfc08758184",
   "inference_ids": [
-    "INF-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY"
+    "e86dce96-af02-500a-8484-3866bc6ffeda"
   ],
   "meaning": "Logical schema, not a concrete root settlement: excluded middle turns failure of a conjunction into a failed index. If the left route fails, its exhaustive consequence X holds; any failure of the right would then supply Y and contradict \u00ac(X \u2227 Y). Hence the right route completes, or the left already did; either route yields the common conclusion. Every route derivation and failure consequence remains an input inside the quantified schema.",
   "definition_ids": [
-    "DEF-JOINT-ROUTE-FAILURE-PATTERN"
+    "502e8eac-364b-5cf9-8464-60a9ae30a5c8"
   ]
 }

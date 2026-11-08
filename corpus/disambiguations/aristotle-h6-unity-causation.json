@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION",
+  "id": "cbb6f6da-760d-5822-ba5f-1054df1b1f04",
+  "label": "Unity, form and cause in the Aristotle/Thomistic comparison",
+  "legacy_id": "DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION",
   "term": "unity, form and cause in the Aristotle/Thomistic comparison",
   "sense_definition_ids": [
-    "DEF-ARISTOTLE-NONHEAP-WHOLE",
-    "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM",
-    "DEF-ARISTOTLE-H6-UNITY-CAUSE",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MEREO-SUBSTANTIAL-UNITY"
+    "58633e90-ed09-5e1e-87ed-c23a587f1a8e",
+    "75dc4009-c107-57c9-9a12-ca20e19f8ebd",
+    "57bc6e11-2b8f-506d-8f4d-27f67423c59f",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05"
   ],
   "resolution": "The H.6 explanatory demand and potential/actual response concern the being-one of the specified whole and its proximate matter/form. They are neither every-fusion laws nor an observational criterion guaranteeing substantial unity or an irreducible soul. The mover exception concerns actualization, with the producer retained in generation; it is not an assertion that every whole lacks all causes. The Aquinas CausesIn-at-esse reading and its numerically distinct cause require an explicit interpretive and metaphysical bridge. Aristotle is not thereby credited with the later essence–esse composition doctrine. These are source readings in prose, not Lean identifications.",
   "term_label": "UNITY_FORM_AND_CAUSE",
@@ -14,28 +16,28 @@
     {
       "id": "af04586a-5886-47ee-b1e5-fd5e90cb73ee",
       "label": "UNITY_FORM_AND_CAUSE_1",
-      "definition_id": "DEF-ARISTOTLE-NONHEAP-WHOLE"
+      "definition_id": "58633e90-ed09-5e1e-87ed-c23a587f1a8e"
     },
     {
       "id": "6695de24-5e77-4b2f-87bf-d6be307e9cc0",
       "label": "UNITY_FORM_AND_CAUSE_2",
-      "definition_id": "DEF-ARISTOTLE-PROXIMATE-MATTER-FORM"
+      "definition_id": "75dc4009-c107-57c9-9a12-ca20e19f8ebd"
     },
     {
       "id": "ad09fc9f-6653-4097-bc40-1599750ea082",
       "label": "UNITY_FORM_AND_CAUSE_3",
-      "definition_id": "DEF-ARISTOTLE-H6-UNITY-CAUSE"
+      "definition_id": "57bc6e11-2b8f-506d-8f4d-27f67423c59f"
     },
     {
       "id": "a3671f1a-3b7f-465d-a278-c00aaf298274",
       "label": "UNITY_FORM_AND_CAUSE_4",
-      "definition_id": "DEF-CAUSE-OF-PERFECTION",
+      "definition_id": "211a6432-8b8f-53ed-85e3-75173bb15b24",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus"
     },
     {
       "id": "bfcc91f9-19b0-4080-a7ae-eb9997ad8b5b",
       "label": "UNITY_FORM_AND_CAUSE_5",
-      "definition_id": "DEF-MEREO-SUBSTANTIAL-UNITY",
+      "definition_id": "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05",
       "lean_declaration": "TruthCore.Mereology.Vitalism.Scenario.SubstantialUnity"
     }
   ]

@@ -1,28 +1,30 @@
 {
-  "id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "id": "23a9bc1d-2d05-5108-a48c-a17cb83fdd62",
+  "label": "The selected governing predicate matches either the narrow table or the…, from bounds",
+  "legacy_id": "COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-TABLE-GOVERNING-IS-SELECTED",
-    "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "1d1edbd9-27ab-55c9-bfd2-1007dcc85f0b",
+    "fc2912b3-613c-52cc-84d3-9135cc456efe"
   ],
-  "conclusion_statement_id": "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
+  "conclusion_statement_id": "3cff0d5a-d5e0-54f5-9eab-beb7f285cac4",
   "inference_ids": [
-    "INF-COMMISSION-NAMED-COVERAGE-FROM-BOUNDS"
+    "280c6589-a1c6-55a6-81b9-bdebcdcfa3c7"
   ],
   "meaning": "Named governance coverage (narrow or teaching-inclusive criterion) without deciding whether teaching is governing: by the self-evident excluded middle, teaching is selected (then the teaching-inclusive criterion holds) or not (then, since every selected power is table-governing or teaching, the narrow criterion holds). Only the two OPEN bounding inclusions are needed.",
   "definition_ids": [
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-SELF-EVIDENT-MARKING",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER"
+    "12d8270e-a003-557f-8434-490095c74177",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS",
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD"
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ]
 }

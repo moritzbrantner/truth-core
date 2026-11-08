@@ -1,10 +1,12 @@
 {
-  "id": "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN",
+  "id": "341eeb1f-05ec-5761-840a-15803a0c1895",
+  "label": "Nothing is the efficient cause of itself, in any respect, by Universal instantiation and… (2)",
+  "legacy_id": "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN",
   "input_statement_ids": [
-    "STMT-NOTHING-ORIGINATES-ITSELF",
-    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION"
+    "b241b5ca-e790-5145-bc9a-4154e266bb55",
+    "0a2f1846-e8cd-5082-9566-39b4ae8082fc"
   ],
-  "output_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "output_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
   "rule": "Universal instantiation and modus tollens",
   "meaning": "Per-sense result for the origin branch of 'cause': no self-origination, with the open bridge that a self-efficient cause would originate itself, gives that nothing is its own efficient cause.",
   "assumption_statement_ids": [],

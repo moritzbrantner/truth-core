@@ -1,14 +1,16 @@
 {
-  "id": "DEF-CC100-122-REALISM-SKEPTICISM",
+  "id": "3c9cb396-8e6f-59d9-8528-98161f3db735",
+  "label": "Realism, radical skepticism and God in…: Realism, radical skepticism and God existence are the…",
+  "legacy_id": "DEF-CC100-122-REALISM-SKEPTICISM",
   "term": "realism, radical skepticism and God in #122",
   "definition": "Realism, radical skepticism and God existence are the source’s unelaborated propositions. The argument separately assumes realism-without-God implies radical skepticism, rejects radical skepticism, and asserts realism before its God conclusion.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-122-REALISM-NO-GOD-SKEPTICISM",
-    "CC100-122-RADICAL-SKEPTICISM-FALSE",
-    "CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
-    "CC100-122-REALISM-TRUE",
-    "CC100-122-CONDITIONAL-REALISM-GOD-EXISTENCE"
+    "7bee9d48-781a-5025-a458-c75c5b48ab3d",
+    "8cfbe48c-f5d2-5e04-bf43-6f5dea44b341",
+    "b922a240-f23d-533f-84d7-a97c1f88af4f",
+    "f90543c9-0ba1-57e7-8223-3e5465d37519",
+    "de6944c9-b629-50d2-b8f6-a6fecbd153bc"
   ],
   "note": "No particular realism domain, global knowledge logic, divine explanatory role or classical God signature is selected. Epistemic failure and ontic falsity differ; the realism/skepticism bridge and truth of realism remain open. A propositional transcription would not independently defend them."
 }

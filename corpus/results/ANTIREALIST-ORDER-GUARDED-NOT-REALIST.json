@@ -1,6 +1,8 @@
 {
-  "id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
-  "argument_id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "id": "a8d322f6-1627-5ba3-ae84-e5a723cd4eb2",
+  "label": "The universal realist explanatory-order reading…, from Anti-realism: moral propositions… and 2 more",
+  "legacy_id": "ANTIREALIST-ORDER-GUARDED-NOT-REALIST",
+  "argument_id": "d0b5e2e0-4e77-58bf-a9fd-f0b72215b1f4",
   "challenge_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.Solution",
   "theorem": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.ExactRival.exactRival",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-86-INTELLIGENT-WHOLE-MAKER",
+  "id": "56d86d4a-373c-5fe1-8f05-37bf6fd30f6d",
+  "label": "Every whole is made by an intelligent agent",
+  "legacy_id": "STMT-CC100-86-INTELLIGENT-WHOLE-MAKER",
   "paraphrase": "Every whole is made by an intelligent agent.",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

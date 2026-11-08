@@ -1,10 +1,12 @@
 {
-  "id": "INF-BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
+  "id": "bfb0e703-6b2f-5fd6-bb47-10cf4f4cd9a5",
+  "label": "Each thing that can not-be is, at some time, not, by Modus-ponens-and-instantiation",
+  "legacy_id": "INF-BRIDGE-TERTIA-PLENITUDE-POSSIBLE-NOT-BE-SOMETIME-IS-NOT",
   "input_statement_ids": [
-    "STMT-PAST-IS-INFINITE",
-    "STMT-PLENITUDE-OVER-INFINITE-PAST"
+    "d256e6d2-7f6e-51f2-b2f7-632344f12f09",
+    "b9baf50d-5e76-5eb6-86b5-ef888a241497"
   ],
-  "output_statement_id": "STMT-WHAT-CAN-NOT-BE-SOMETIME-IS-NOT",
+  "output_statement_id": "5abdebb4-c386-54d1-9289-1360261f2389",
   "rule": "modus-ponens-and-instantiation",
   "meaning": "With an infinite past, plenitude realizes every possibility at some past time; the possibility that a being is not is therefore realized at some time, at which it is not.",
   "assumption_statement_ids": [],

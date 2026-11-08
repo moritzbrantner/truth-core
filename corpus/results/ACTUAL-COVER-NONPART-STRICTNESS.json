@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-COVER-NONPART-STRICTNESS",
-  "argument_id": "ACTUAL-COVER-NONPART-STRICTNESS",
+  "id": "bc404bba-799f-577d-829e-0d96a773eb22",
+  "label": "One coherent three-object, two-world interpretation satisfies all six premises of the existing…",
+  "legacy_id": "ACTUAL-COVER-NONPART-STRICTNESS",
+  "argument_id": "22ff5cb9-6e4c-5eee-951b-e4492db86a2b",
   "challenge_module": "TruthCore.Results.Causality.ActualCoverStrictness.Challenge",
   "solution_module": "TruthCore.Results.Causality.ActualCoverStrictness.Solution",
   "theorem": "TruthCore.Results.Causality.ActualCoverStrictness.checks",

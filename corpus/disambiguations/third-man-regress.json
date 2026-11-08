@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-THIRD-MAN-REGRESS",
+  "id": "7fc6cbb8-5618-5385-bc4f-82f0f719503a",
+  "label": "Regress-generating rule",
+  "legacy_id": "DISAMB-THIRD-MAN-REGRESS",
   "term": "regress-generating rule",
   "sense_definition_ids": [
-    "DEF-THIRD-MAN-FORMATION",
-    "DEF-THIRD-MAN-LIKENESS-FORMATION",
-    "DEF-THIRD-MAN-MUTUAL-LIKENESS"
+    "0c06ef42-f495-56e8-bbe8-57efc70a22e9",
+    "f3f069cf-0264-50cb-b91a-b0ec96380c3f",
+    "3758cb7e-cb6b-508c-a0ef-6c3b83bc73f9"
   ],
   "resolution": "The 132a–b proof uses ordinary homogeneous exemplification and ordinary self-predication. The 132d–133a proof instead uses mutual resemblance, a common likeness Form, symmetry and a participation-to-resemblance bridge. Its induction never uses ordinary self-predication. Both conclude numerical unboundedness, not a verdict on every form of Platonism.",
   "term_label": "REGRESS_GENERATING_RULE",
@@ -12,19 +14,19 @@
     {
       "id": "29ec1940-e6f1-45db-9271-e13c58610be9",
       "label": "REGRESS_GENERATING_RULE_1",
-      "definition_id": "DEF-THIRD-MAN-FORMATION",
+      "definition_id": "0c06ef42-f495-56e8-bbe8-57efc70a22e9",
       "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.Formation"
     },
     {
       "id": "5219d8f6-8bb5-4c8d-9d31-2aa707c5425b",
       "label": "REGRESS_GENERATING_RULE_2",
-      "definition_id": "DEF-THIRD-MAN-LIKENESS-FORMATION",
+      "definition_id": "f3f069cf-0264-50cb-b91a-b0ec96380c3f",
       "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.LikenessFormation"
     },
     {
       "id": "d93b8c98-f1f9-464a-bbc4-b2d0b61fb6ad",
       "label": "REGRESS_GENERATING_RULE_3",
-      "definition_id": "DEF-THIRD-MAN-MUTUAL-LIKENESS",
+      "definition_id": "3758cb7e-cb6b-508c-a0ef-6c3b83bc73f9",
       "lean_declaration": "TruthCore.Greek.Plato.ThirdMan.MutuallyLike"
     }
   ]

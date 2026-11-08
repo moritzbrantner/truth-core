@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-NIGHT-ACTUALIZATION",
+  "id": "75e2d304-4db8-5bf7-933a-313ff4c682a9",
+  "label": "Actualization of unpreceded potency against three root-path motion/act-potency commitments and the\u2026",
+  "legacy_id": "CONFIG-NIGHT-ACTUALIZATION",
   "description": "Actualization of unpreceded potency against three root-path motion/act-potency commitments and the open actual-mover/simple-priority bridge. The core and its deletion witnesses constrain the conjunction; no member or bridge is established. Inclusion-minimality and witness status are computed from live certificates.",
-  "seed_statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "seed_statement_id": "4a952b96-be5f-5493-8277-985248151d01",
   "semantics": {
     "id": "night-actualization-shared-predicates",
     "logic": "Constructive Lean propositions; no excluded-middle background for the core or forced distinct-mover consequence. The separately registered general coverage theorem takes explicit excluded middle and is not an implication input here. Zero-axiom certificates.",
@@ -53,7 +55,7 @@
       "PriorSimply"
     ],
     "applications": {
-      "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED": [
+      "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730": [
         "Being",
         "Respect",
         "InAct",
@@ -61,25 +63,25 @@
         "MovedIn",
         "PriorSimply"
       ],
-      "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER": [
+      "4a952b96-be5f-5493-8277-985248151d01": [
         "Being",
         "Respect",
         "MovedIn",
         "MovesIn"
       ],
-      "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT": [
+      "f296a694-aeea-5fa7-bdbf-0076530f9441": [
         "Being",
         "Respect",
         "MovesIn",
         "InAct"
       ],
-      "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT": [
+      "c6d6379b-6a9b-55b5-a701-3df289dfcca4": [
         "Being",
         "Respect",
         "InAct",
         "InPotency"
       ],
-      "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR": [
+      "6ca87431-3383-58f6-9322-a1f0e8f0396b": [
         "Being",
         "Respect",
         "InAct",
@@ -87,7 +89,7 @@
         "MovesIn",
         "PriorSimply"
       ],
-      "STMT-NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER": [
+      "21cb6474-f926-5db0-83b7-985db2521593": [
         "Being",
         "Respect",
         "InAct",
@@ -96,21 +98,21 @@
         "MovesIn",
         "PriorSimply"
       ],
-      "STMT-POTENCY-PRIOR-TO-ACT": [
+      "c1acdf6c-5e9a-5ce9-b70b-b805061d317a": [
         "Being",
         "Respect",
         "InAct",
         "InPotency",
         "PriorSimply"
       ],
-      "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY": [
+      "a4d3261a-3239-5b44-9953-64ab1b0ed762": [
         "Being",
         "Respect",
         "InAct",
         "InPotency",
         "PriorSimply"
       ],
-      "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD": [
+      "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67": [
         "Being",
         "Respect",
         "MovedIn"
@@ -122,79 +124,79 @@
     {
       "id": "full-core",
       "statement_ids": [
-        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+        "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b"
       ]
     },
     {
       "id": "without-night",
       "statement_ids": [
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b"
       ]
     },
     {
       "id": "without-mover",
       "statement_ids": [
-        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+        "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b"
       ]
     },
     {
       "id": "without-mover-actuality",
       "statement_ids": [
-        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+        "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b"
       ]
     },
     {
       "id": "without-non-simultaneity",
       "statement_ids": [
-        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+        "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b"
       ]
     },
     {
       "id": "without-priority-bridge",
       "statement_ids": [
-        "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+        "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
       ]
     },
     {
       "id": "moving-bare-rival-survivor",
       "statement_ids": [
-        "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-        "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-        "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-        "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
-        "STMT-POTENCY-PRIOR-TO-ACT",
-        "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+        "4a952b96-be5f-5493-8277-985248151d01",
+        "f296a694-aeea-5fa7-bdbf-0076530f9441",
+        "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+        "6ca87431-3383-58f6-9322-a1f0e8f0396b",
+        "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
+        "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "NIGHT-ACTUALIZATION-CORE"
+    "93e340f8-c47b-5ef4-b9ec-e1ae84e456a0"
   ],
   "implication_result_ids": [
-    "NIGHT-NONPRIOR-OTHER-ACTUAL-MOVER"
+    "21865b45-900e-5e1d-90c2-06a41af568bd"
   ],
   "model_bindings": [
     {
-      "model_id": "MODEL-NIGHT-COSMOGONY-NO-REDUCTION",
+      "model_id": "10c493da-52f0-5dec-b37f-f62aa1f6c61a",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -206,7 +208,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-COSMOGONY-SELF-MOVER",
+      "model_id": "90d3dc59-5454-5ef8-9822-106e0e513dd4",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -218,7 +220,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-COSMOGONY-OTHER-MOVER",
+      "model_id": "06252d52-5546-557a-bfe5-d691bf613e8c",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -230,7 +232,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-COSMOGONY-RESIDUAL",
+      "model_id": "4211bc95-ce21-5eb6-85d8-e347566b7187",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -242,7 +244,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-ACTUALIZATION-FORK-OVERLAP",
+      "model_id": "92bfc59d-e1bf-5682-b293-0e8e6261e8e0",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -254,7 +256,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-ACTUALIZATION-FORK-NONACTUAL-MOVER",
+      "model_id": "5788c32f-ded2-5a9e-850d-000e80839520",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",
@@ -266,7 +268,7 @@
       }
     },
     {
-      "model_id": "MODEL-NIGHT-MOVING-RESIDUAL",
+      "model_id": "e0451b53-c9bc-5d9c-924d-10a4af5eb97d",
       "parameters": {
         "Being": "Being",
         "Respect": "Respect",

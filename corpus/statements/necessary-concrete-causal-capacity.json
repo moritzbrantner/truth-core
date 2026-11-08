@@ -1,17 +1,19 @@
 {
-  "id": "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
+  "id": "02debab4-a52d-5a3e-b7db-e83534c56029",
+  "label": "At explicit actual world false in the two-world universal frame, the rigid bearer false exists and…",
+  "legacy_id": "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
   "paraphrase": "At explicit actual world false in the two-world universal frame, the rigid bearer false exists and has intervention response capacity at every successor. Responses obey activation and distinct-existing-endpoint discipline. No response is exercised at actual false, but activating false affects recipient true at world true and deactivation does not. Recipient true is absent at false and present at true. The same existence extension with zero responses has no capacities. The existing fixed-witness law supplies necessary concrete exemplification. This proves satisfiability of the specified response theory only, not actual existence, metaphysical possibility, a complete causal-powers ontology, or a root premise.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.CausalPowers.Compatibility",
   "definition_ids": [
-    "DEF-INTERVENTION-RESPONSE-CAPACITY",
-    "DEF-CAUSAL-CAPACITY-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "c68008d0-5517-5907-9333-ce8a6f1e5f23",
+    "a8fa0c36-adcb-5221-b61f-41189f09f357",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-CONCRETENESS-CAPACITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "63162530-ff9f-539a-af19-3458e48e6a9e",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "REL-TLP-6-54-SUPPORTS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "id": "7056f1dc-a638-5fbb-a484-0ac11f77b934",
+  "label": "Ludwig Wittgenstein, Tractatus…: Tractatus… supports Scope premise: the formulation of the…",
+  "legacy_id": "REL-TLP-6-54-SUPPORTS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-TLP-6-54-LADDER",
+  "subject_id": "961d3f49-e6e0-58cc-9686-0615058043ef",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "object_id": "6dc3f04a-5420-58bd-91f1-569b41c94ef1",
   "note": "Gap: 6.54 applies the Tractatus's own sense boundary (what can be said, 6.53) to its own propositions, so it bears on the scope premise; it does not concern a verification principle, which the Tractatus does not state, and it does not say that a later verificationist formulation lies in its own scope."
 }

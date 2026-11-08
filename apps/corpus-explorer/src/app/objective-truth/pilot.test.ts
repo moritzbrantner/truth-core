@@ -3,9 +3,11 @@ import { expect, test } from "bun:test";
 import fixture from "../../../../../scripts/testdata/objective-truth-pilot.json";
 import { fixtureGraph } from "@/lib/frontier-fixture";
 import { getCorpus } from "@/lib/corpus";
+import { legacyUuid } from "@/lib/corpus-ids";
 import { getFrontierReport, statementState } from "@/lib/site-state";
 import { getPilotScenarios, PILOT_GROUPS, pilotGraphHref } from "./pilot";
 
+const statementId = (id: string) => legacyUuid("statement", id);
 const corpus = getCorpus();
 const report = getFrontierReport();
 
@@ -24,21 +26,21 @@ test("logical facts are established while interpretation bridges remain open", (
 test("real reciprocal implications are not grounding without an independent result", () => {
   const scenarios = getPilotScenarios();
   expect(scenarios.map((scenario) => scenario.verifiedResults)).toEqual([0, 2, 3]);
-  expect(scenarios.map((scenario) => scenario.established)).toEqual([
-    [], [], ["STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS", "STMT-SOME-LEAN-PROPOSITION-HOLDS"],
+  expect(scenarios.map((scenario) => [...scenario.established].sort())).toEqual([
+    [], [], ["STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS", "STMT-SOME-LEAN-PROPOSITION-HOLDS"].map(statementId).sort(),
   ]);
 });
 
 test("global/local/epistemic readings and withheld assent do not become refuted", () => {
   const readings = PILOT_GROUPS[2].statementIds;
-  for (const id of [...readings, "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM"]) {
+  for (const id of [...readings, statementId("STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM")]) {
     expect(report.established_statements).not.toContain(id);
   }
   expect(corpus.relations.filter((relation) => relation.predicate === "refutes" && readings.includes(relation.object_id))).toEqual([]);
 });
 
 test("pilot links select the exact goal and statement in the frontier graph", () => {
-  const id = "STMT-PILOT-LOGICAL-SENTENCE-STABLE";
+  const id = statementId("STMT-PILOT-LOGICAL-SENTENCE-STABLE");
   const url = new URL(pilotGraphHref(id), "https://example.test");
   expect(url.pathname).toBe("/graph");
   expect(url.searchParams.get("scope")).toBe("goal");
@@ -58,7 +60,7 @@ test("frontend preserves the canonical reciprocal fixture's grounding distinctio
       results: corpus.results.filter((result) => scenario.result_ids.includes(result.id)),
       claims: [], sources: [], relations: [], transcriptionResultIds: [],
     });
-    expect(graph.statements.filter((statement) => statement.established).map((statement) => statement.id).sort()).toEqual(scenario.expected_established);
+    expect(graph.statements.filter((statement) => statement.established).map((statement) => statement.id).sort()).toEqual([...scenario.expected_established].sort());
     expect(graph.statements).toHaveLength(2);
   }
 });

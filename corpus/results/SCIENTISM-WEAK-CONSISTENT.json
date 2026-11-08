@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-WEAK-CONSISTENT",
-  "argument_id": "SCIENTISM-WEAK-CONSISTENT",
+  "id": "15a56614-c3f3-59f6-ae7b-52ff9c0f7134",
+  "label": "WEAK_2 scientism survives self-application: in a model the restricted norm holds, its own…",
+  "legacy_id": "SCIENTISM-WEAK-CONSISTENT",
+  "argument_id": "6720f75b-bd18-5cc2-81d5-d2506b31585e",
   "challenge_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Challenge",
   "solution_module": "TruthCore.Results.Logic.Scientism.WeakConsistent.Solution",
   "theorem": "TruthCore.Results.Logic.Scientism.WeakConsistent.weakScientismConsistent",

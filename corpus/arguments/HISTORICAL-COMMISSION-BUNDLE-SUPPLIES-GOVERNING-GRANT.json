@@ -1,22 +1,24 @@
 {
-  "id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
+  "id": "d396c1b6-36b6-5ed4-8900-7780dc0ebfde",
+  "label": "Jesus gave or promised some power in the existing…, from Report-to-event premise: the commission…",
+  "legacy_id": "HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT",
   "premise_statement_ids": [
-    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"
+    "da573220-03c0-5361-a1d7-e117e78e2b77"
   ],
-  "conclusion_statement_id": "STMT-GOVERNING-GRANT-EXISTS",
+  "conclusion_statement_id": "568fdb96-eb4f-536c-873e-e294bb2e5931",
   "inference_ids": [
-    "INF-HISTORICAL-COMMISSION-BUNDLE-SUPPLIES-GOVERNING-GRANT"
+    "6e7931e0-58cd-5028-a560-beb2c092684d"
   ],
   "meaning": "Import the existing commission_reports_give_teach_and_governing theorem and project its governing witness; no report/event inference is added.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ],
   "strong_version_needed": {
-    "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS": "This sole-premise projection certifies the registered strong-to-weak order; consequence arguments use the needed weak component."
+    "da573220-03c0-5361-a1d7-e117e78e2b77": "This sole-premise projection certifies the registered strong-to-weak order; consequence arguments use the needed weak component."
   }
 }

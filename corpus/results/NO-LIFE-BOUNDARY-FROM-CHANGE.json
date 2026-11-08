@@ -1,6 +1,8 @@
 {
-  "id": "NO-LIFE-BOUNDARY-FROM-CHANGE",
-  "argument_id": "NO-LIFE-BOUNDARY-FROM-CHANGE",
+  "id": "124fec5f-d542-55fc-822a-0605e39eb7ac",
+  "label": "Whatever is in POTENCY_1 in no respect has a life that neither begins nor ends in the…, from change",
+  "legacy_id": "NO-LIFE-BOUNDARY-FROM-CHANGE",
+  "argument_id": "5344f278-35e8-55f2-b598-1c197361c21f",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.noLifeBoundaryFromChange",

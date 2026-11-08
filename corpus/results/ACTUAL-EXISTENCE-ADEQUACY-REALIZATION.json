@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
-  "argument_id": "ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "id": "a426c365-effb-5ed5-a840-d747fbeea1d6",
+  "label": "Under the explicit tagged-world realization, the SAME Unit concrete bearer exists actually and is…",
+  "legacy_id": "ACTUAL-EXISTENCE-ADEQUACY-REALIZATION",
+  "argument_id": "917a6dab-ae3d-5dfc-b36d-6615a77f0f04",
   "challenge_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Realization.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ActualExistenceAdequacy.Realization.Solution",
   "theorem": "TruthCore.Results.Explanation.ActualExistenceAdequacy.realization",

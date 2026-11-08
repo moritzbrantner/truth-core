@@ -1,14 +1,16 @@
 {
-  "id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
-  "statement_id": "STMT-PILOT-REPORT-MATT-UNIVERSAL-AUTHORITY",
-  "source_id": "NT-MATT",
+  "id": "7c35905c-b084-5c42-9e85-e6f316c49516",
+  "label": "New Testament, Matthew 28.18: Matthew attributes to Jesus the statement that all authority in…",
+  "legacy_id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
+  "statement_id": "75b07845-913f-5062-bb7d-80315afae77d",
+  "source_id": "ddaa62d0-a20e-51cc-a8d5-62322f814a20",
   "locator": "28.18",
   "interpretation": "The source reports an authority claim. Historical attribution and divine vindication are independent open questions.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

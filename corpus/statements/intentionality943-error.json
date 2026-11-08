@@ -1,14 +1,16 @@
 {
-  "id": "STMT-INTENTIONALITY943-ERROR",
+  "id": "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
+  "label": "At least one occurring token of the target mental kind has content false at the very situation…",
+  "legacy_id": "STMT-INTENTIONALITY943-ERROR",
   "paraphrase": "At least one occurring token of the target mental kind has content false at the very situation where it occurs. An explicit OPEN configuration input; no actual false-alarm experiment is inferred from Papineau’s hypothetical example.",
   "lean_declaration": "TruthCore.Alternatives.Intentionality943.SomeError",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-INTENTIONALITY943-CONTENT",
-    "DEF-INTENTIONALITY943-AFFECTION-REPORT"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "dd04a959-a145-5411-a63f-4d18a17ec56e",
+    "b4eaa5d6-8e85-5ec3-9ed1-f8d5905f92c7"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
-    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+    "823dc975-75c4-580a-8f93-02701b622c36",
+    "d3daa786-96f3-5c31-9d5b-cc2a269bddf7"
   ]
 }

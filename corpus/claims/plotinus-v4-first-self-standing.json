@@ -1,15 +1,17 @@
 {
-  "id": "PLOTINUS-V4-FIRST-SELF-STANDING",
-  "statement_id": "STMT-PLOTINIAN-FIRST-SELF-STANDING",
-  "source_id": "PLOTINUS-ENNEADS",
+  "id": "ead613bc-900f-5205-9c41-f2c1e6340c0b",
+  "label": "Plotinus, Enneads V.4.1, opening: There must be a self-standing first principle, prior to all…",
+  "legacy_id": "PLOTINUS-V4-FIRST-SELF-STANDING",
+  "statement_id": "28c6f237-beb0-5236-a2b4-677a51cf0ed5",
+  "source_id": "4e88cb1d-0567-56e7-8861-0e4669f50036",
   "locator": "V.4.1, opening: δεῖ μὲν γάρ τι πρὸ πάντων ... οὐκ ἂν ἀρχὴ εἴη",
   "interpretation": "Source reading recorded in prose only. Records the text’s requirement that there be such a first and its proposed characteristics, not a verified existential proof. The need for a first remains an open philosophical commitment; prior to all is not reduced to graph-source status.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLOTINIAN-FIRST-PRINCIPLE",
-    "DEF-PLOTINIAN-SIMPLICITY"
+    "489da59b-0536-5575-8614-4d69cabe35d6",
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

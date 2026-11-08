@@ -1,15 +1,17 @@
 {
-  "id": "CC100-122-REALISM-TRUE",
-  "statement_id": "STMT-CC100-122-REALISM-TRUE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "f90543c9-0ba1-57e7-8223-3e5465d37519",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Realism is true",
+  "legacy_id": "CC100-122-REALISM-TRUE",
+  "statement_id": "070a9ccf-2cdc-55a1-946d-33cfbc4495ae",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 4",
   "interpretation": "Preserve realism as an asserted premise separate from rejecting skepticism. The source does not specify its domain or independently establish it; it is not silently moral realism, Sum2 ontology, physicalism or the truth of every appearance. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-122-REALISM-SKEPTICISM"
+    "3c9cb396-8e6f-59d9-8528-98161f3db735"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

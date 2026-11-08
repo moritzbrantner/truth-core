@@ -1,25 +1,27 @@
 {
-  "id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "id": "d9429f72-650c-5ec3-b319-dae1a413da8b",
+  "label": "The narrow, teaching-inclusive, or explicit further…, from Excluded middle as a general principle…",
+  "legacy_id": "COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-CASES",
+  "conclusion_statement_id": "e9dda12d-9b01-5a16-98e8-0a1f98ea4d27",
   "inference_ids": [
-    "INF-COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER"
+    "b86088f8-5f63-524f-8b7b-e450b6f39065"
   ],
   "meaning": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

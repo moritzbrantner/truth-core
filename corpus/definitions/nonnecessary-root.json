@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NONNECESSARY-ROOT",
+  "id": "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+  "label": "Nonnecessary root of the selected…: Using the shared ActualRoot predicate, NonnecessaryRootAt m w…",
+  "legacy_id": "DEF-NONNECESSARY-ROOT",
   "term": "nonnecessary root of the selected relation",
   "definition": "Using the shared ActualRoot predicate (DEF-ACTUAL-ROOT), NonnecessaryRootAt m w says ∃ x, ActualRoot m w x ∧ ¬ NecessaryAt m.ontic w x. The fixed individual x does not exist at every world accessible from w. This is a negated universal and supplies no witness world lacking x. It is roothood of the selected relation only; an abstract, absent or unmodelled ground or explanation remains possible.",
   "basis": "stipulative",

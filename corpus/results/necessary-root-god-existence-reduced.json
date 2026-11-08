@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED",
-  "argument_id": "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED",
+  "id": "1bfb8063-4c9b-58a2-8bcb-2794bb88701c",
+  "label": "GOD_4 exists: there is something…, from Some candidate is CONCRETE_6 and exists at… and 13 more",
+  "legacy_id": "NECESSARY-ROOT-GOD-EXISTENCE-REDUCED",
+  "argument_id": "1c154f2f-b58b-5b3f-bd1f-2e2427bc8ced",
   "challenge_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryRootGodExistence.Reduced.godExists",

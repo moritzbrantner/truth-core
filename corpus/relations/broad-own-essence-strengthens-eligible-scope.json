@@ -1,10 +1,12 @@
 {
-  "id": "REL-BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "id": "e1019ec0-ea9d-527e-b93a-f2aeec045aa6",
+  "label": "For every being x and principle r, if the… strengthens A scope-restricted sibling of the…",
+  "legacy_id": "REL-BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
   "subject_kind": "statement",
-  "subject_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "subject_id": "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-ELIGIBLE-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
-  "verification_result_id": "BROAD-OWN-ESSENCE-STRENGTHENS-ELIGIBLE-SCOPE",
+  "object_id": "7590d341-29a1-5d3d-8d0e-9564914608de",
+  "verification_result_id": "809c7812-212b-5556-bfd8-dbf33f50a146",
   "note": "Sole-premise checked restriction. New infinity route uses the identity-scoped version; the old frozen broad interface is preserved."
 }

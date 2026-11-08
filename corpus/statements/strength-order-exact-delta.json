@@ -1,8 +1,10 @@
 {
-  "id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
+  "id": "c883b9ad-44da-57b7-bcb2-164c09374233",
+  "label": "For every mathematical linear order and shared x,y, y > x holds exactly when y ≥ x and y ≠ x",
+  "legacy_id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
   "paraphrase": "For every mathematical linear order and shared x,y, y > x holds exactly when y ≥ x and y ≠ x.",
   "lean_declaration": "TruthCore.Logic.Strength.Order.ExactDelta",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

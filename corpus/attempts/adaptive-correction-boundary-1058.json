@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-ADAPTIVE-CORRECTION-BOUNDARY-1058",
+  "id": "d4769295-747d-587a-815a-0117fa0b7c4e",
+  "label": "Related/dossiers and exact theorem/attempt search preceded this analyst formulation",
+  "legacy_id": "ATTEMPT-ADAPTIVE-CORRECTION-BOUNDARY-1058",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
-    "STMT-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
-    "STMT-ADAPTIVE-PREDICTION-TWO-EXPERT",
-    "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
-    "STMT-HUME-INDUCTION-TESTS"
+    "2b0a7d08-8b7e-562e-926d-6738098ee652",
+    "5a1cb89f-0eb4-5c65-9213-d8130bc97c8c",
+    "ecd0e833-53d5-5e43-a51c-8f5087481036",
+    "a901d185-4919-5d9c-8c6e-ec5415f975bc",
+    "8bba1b58-ae87-598d-8c28-6eed9a5e6943"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Related/dossiers and exact theorem/attempt search preceded this analyst formulation. Existing Hume finite-prefix counterhistories do not supply the same all-horizon adaptive adversary. Constructed a recursively coherent stream per total deterministic finite-history predictor and proved exact all-horizon mistakes. Proved the history-weight adapter equals the existing learner on the SAME advice/truthful-feedback stream, without duplicating voting or update. Applied the imported1047 certificate at horizon11 to exclude the ≤2-error hypothesis for either of two experts. Rejected swapped quantifiers, a fresh stream per horizon, arbitrary finite-pool generalization from this numerical instance, randomized-method claims, actual skepticism, semantic indeterminacy and meaninglessness. The methodological and philosophical limits persist in docs/notes/fallible-correction-931.md. No new source, passage or claim records. Frozen Challenge SHA2561ab6f969474d50ec4afbbd4e40adf4dc5cbebda882ce0bc81262911eb15d5c31 compiled before Solution; unchanged. Initial development fixed only negation/list precedence in vocabulary before freeze, an over-eager unfold in the wrong-step helper and deprecated if aliases in the unfrozen Solution. Primary theorem prints zero axioms; rational-learner adapter and comparison inherit the approved Mathlib trio. Focused Solution build warning-free; corpus, bundle, source-manifest and attribution checks pass with unchanged existing corpus warnings; exact binding3/0. All three Comparator and independent NanoDa checks PASS. Fresh-main d54865e09f25e80e6df80d32ad9936e400503c06 merge changes no proof inputs; generators produce no delta. Exact root frontier90 (30 bare/18 supported/42 stated) and cheapest route31 unchanged; no added/removed/closed premise. Final delivered-head CI/current-head review remain required. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
   "evidence": [
-    "ADAPTIVE-PREDICTION-DIAGONAL",
-    "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
-    "ADAPTIVE-PREDICTION-TWO-EXPERT",
-    "LOGIC-FALLIBLE-CORRECTION",
-    "HUME-INDUCTION-TESTS"
+    "2fe95058-4da3-5087-9ff1-893fa35b8adb",
+    "0e15cd53-82be-5483-8216-258a118d1a1b",
+    "6828b60a-3b7d-5099-a6d1-eafd75e4eab9",
+    "25f65c4f-2cdc-5b6d-bfb6-a666d4180e8d",
+    "6b5655f1-ceb2-5e64-b70f-624e6cf7177c"
   ],
   "blocker": "No actual environment/rule-class restriction, good-expert calibration, normative authority or root premise is established. A broader arbitrary finite-pool lower bound is not proved by the two-expert numerical corollary. #931 remains open."
 }

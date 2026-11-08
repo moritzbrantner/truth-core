@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-GENUS-ESSE-DISTINCTION",
-  "statement_id": "STMT-Q3A5-GENUS-ESSE-DISTINCTION",
-  "source_id": "AQUINAS-ST",
+  "id": "ed34b6e5-95e6-5964-be7c-aefc34545118",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.5…: Aquinas’ third q3a5 proof argues that what is…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-GENUS-ESSE-DISTINCTION",
+  "statement_id": "7e4d96db-d9f5-5f38-94b9-232400f7f445",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.5 co., third proof: omnia quae sunt in genere uno ... differant in eis esse et quod quid est",
   "interpretation": "Prose source reading only, including the proposed conclusion and its rationale rather than claiming the argument is established. Sharing generic quiddity does not by definition identify each individual’s complete essence with that genus. This extra metaphysical account is not already a consequence of the current strict-predication clauses.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-DIFFERENTIA",
-    "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-ESSE"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "8e804dfb-9144-5400-86b6-ba168c35f75c",
+    "af80ecf8-18f6-54fc-b362-d4dc26a9e18f",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS-PREDICATION-REAL-COMPOSITION",
-    "DISAMB-GENUS",
-    "DISAMB-ESSENCE"
+    "a5b5d497-32b5-56a1-bdb6-9076961eca4b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

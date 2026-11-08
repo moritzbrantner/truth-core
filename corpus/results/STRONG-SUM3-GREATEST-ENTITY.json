@@ -1,6 +1,8 @@
 {
-  "id": "STRONG-SUM3-GREATEST-ENTITY",
-  "argument_id": "STRONG-SUM3-GREATEST-ENTITY",
+  "id": "eb3f7493-3648-5ed7-af9d-1f399af9c3c9",
+  "label": "Some candidate in the supplied fixed…, from The supplied mathematical carrier has an… and 2 more",
+  "legacy_id": "STRONG-SUM3-GREATEST-ENTITY",
+  "argument_id": "e91163e7-722f-5736-aa7c-354c40f070e8",
   "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
   "theorem": "TruthCore.Results.Mereology.SupplementationFusion.overlapGreatest",

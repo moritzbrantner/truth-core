@@ -1,21 +1,23 @@
 {
-  "id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
+  "id": "96c1d679-f776-58c7-93dc-1dcb812390a7",
+  "label": "For the fixed agent and identical original-return…, from For every action, a duty at after implies…",
+  "legacy_id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-OIC"
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b"
   ],
-  "conclusion_statement_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
+  "conclusion_statement_id": "2cc0cc30-8404-5681-94ec-b5cf6e85a93f",
   "inference_ids": [
-    "INF-RETAINED-DUTY-UNIVERSAL-TO-LOCAL"
+    "05736dbe-05dd-5a02-be25-79ace4e0fec7"
   ],
   "meaning": "Instantiation transcription: universal after-date OIC implies the original-return-only OIC instance. The universal policy is not required for the weaker operational incompatible cores.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ],
   "strong_version_needed": {
-    "STMT-RETAINED-DUTY-PRESENT-OIC": "This comparison certificate explicitly proves the strong-to-weak edge required by the strength-order registry. The operational incompatible cores consume only the weak sibling."
+    "257ca27d-fdf4-5cb1-873d-3970cab1ad6b": "This comparison certificate explicitly proves the strong-to-weak edge required by the strength-order registry. The operational incompatible cores consume only the weak sibling."
   }
 }

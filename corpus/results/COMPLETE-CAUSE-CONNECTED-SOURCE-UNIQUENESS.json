@@ -1,6 +1,8 @@
 {
-  "id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
-  "argument_id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "id": "f21bd5e4-d1d7-5bb6-841e-8d30e1f0bde6",
+  "label": "Any two graph-relative sources are…, from Every complete producer of an effect is a… and 2 more",
+  "legacy_id": "COMPLETE-CAUSE-CONNECTED-SOURCE-UNIQUENESS",
+  "argument_id": "a4ac5598-c36d-5a92-8387-caa10b047ffe",
   "challenge_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.Solution",
   "theorem": "TruthCore.Results.Causality.CompleteCauseSourceUniqueness.atMostOne",

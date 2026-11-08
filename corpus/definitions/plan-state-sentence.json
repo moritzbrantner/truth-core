@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLAN-STATE-SENTENCE",
+  "id": "2df2cd5f-fd5f-584f-be9c-960d1a164114",
+  "label": "Compositional planning-language fragment: Sentence has factual atoms, forbidden-action atoms, and\u2026",
+  "legacy_id": "DEF-PLAN-STATE-SENTENCE",
   "term": "compositional planning-language fragment",
   "definition": "Sentence has factual atoms, forbidden-action atoms, and recursively formed conditionals. An embedded atom uses the same constructor as its free-standing occurrence. The conditional is a sentence constructor, not an assertion of its antecedent.",
   "basis": "stipulative",

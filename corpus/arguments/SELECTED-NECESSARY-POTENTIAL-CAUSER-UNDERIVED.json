@@ -1,36 +1,38 @@
 {
-  "id": "SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
+  "id": "15220382-7f23-5785-8202-563d1982dca6",
+  "label": "The given same n actually exists at…, from The chosen actual world accesses itself; no… and 4 more",
+  "legacy_id": "SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED",
   "premise_statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
-    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
+    "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059"
   ],
-  "conclusion_statement_id": "STMT-NAMED-NECESSARILY-UNDERIVED",
+  "conclusion_statement_id": "3a36ca3e-db15-5f6b-b876-7eb838747dae",
   "inference_ids": [
-    "INF-SELECTED-NECESSARY-POTENTIAL-CAUSER-UNDERIVED"
+    "ed2ea343-3d72-5b0b-97ae-1130bff6b5c9"
   ],
   "meaning": "In the explicit profile R := m.Causes, actual reflexivity, necessity and the universal other-directed potential-cause role of the given n, the no-contingent-predecessor bridge for that chosen relation, and union WF imply named underivedness of that same n. An existing incoming source must be necessary; self-support contradicts WF asymmetry, and any distinct incoming source has a possible return edge from n, also contradicting union asymmetry. Edges stay within their witness worlds: union WF is an optional overlay condition, not worldwise causal coherence or an actual cross-world causal path. No EM, degree/intensity or invariance premise is used. The type asserts neither a generic causal-grounding identity nor divine uniqueness, and changes no root premise.",
   "definition_ids": [
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-MODAL-DEGREE-PRESENCE",
-    "DISAMB-NECESSARY",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

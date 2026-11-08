@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY",
+  "id": "8d688be8-d802-5679-bd53-d08374145abf",
+  "label": "Frame clock simultaneity, geometric order and privileged presence",
+  "legacy_id": "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY",
   "term": "frame clock simultaneity, geometric order and privileged presence",
   "sense_definition_ids": [
-    "DEF-BOOST-FUTURE-ORDER",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE",
-    "DEF-EINSTEIN-CLOCK-TIME"
+    "ddf5faf1-a159-51b3-aeae-a90146910726",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd",
+    "d349494b-d57b-5c7f-8d44-f7180abae1d8"
   ],
   "resolution": "The mathematical Simultaneous relation is coordinate-time equality; the source introduces synchronization and frame clock times under physical assumptions. An additional privileged-present relation is not required by the theorem to agree with both frame relations. GeometricBefore uses future-directed nonspacelike event differences and is preserved here despite simultaneity disagreement. Neither it nor frame clock equality is automatically Ontic.Causes, modal access, truth-at-history/time, tensed A-properties or timelessness. Source Einstein conclusions concern his physical frame/synchronization analysis, not an established denial of all presentist ontology.",
   "term_label": "FRAME_CLOCK_SIMULTANEITY_GEOMETRIC_ORDER",
@@ -13,24 +15,24 @@
     {
       "id": "a8dcd7df-e32b-436c-af80-5300091d3a35",
       "label": "FRAME_CLOCK_SIMULTANEITY_GEOMETRIC_ORDER_1",
-      "definition_id": "DEF-BOOST-FUTURE-ORDER",
+      "definition_id": "ddf5faf1-a159-51b3-aeae-a90146910726",
       "lean_declaration": "TruthCore.Spacetime.BoostSimultaneity.GeometricBefore"
     },
     {
       "id": "ccbe9d92-0123-4095-a852-eda729423640",
       "label": "FRAME_CLOCK_SIMULTANEITY_GEOMETRIC_ORDER_2",
-      "definition_id": "DEF-BOOST-FRAME-SIMULTANEITY",
+      "definition_id": "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
       "lean_declaration": "TruthCore.Spacetime.BoostSimultaneity.Simultaneous"
     },
     {
       "id": "ea95ff7b-8f7e-4e78-9aa2-20621d6ee46d",
       "label": "FRAME_CLOCK_SIMULTANEITY_GEOMETRIC_ORDER_3",
-      "definition_id": "DEF-PRIVILEGED-PRESENT-SCOPE"
+      "definition_id": "ef92f471-1e4c-5493-9bdc-043374a459cd"
     },
     {
       "id": "8e555b0a-7dbe-4080-885c-38acde31e698",
       "label": "FRAME_CLOCK_SIMULTANEITY_GEOMETRIC_ORDER_4",
-      "definition_id": "DEF-EINSTEIN-CLOCK-TIME"
+      "definition_id": "d349494b-d57b-5c7f-8d44-f7180abae1d8"
     }
   ]
 }

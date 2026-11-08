@@ -1,3 +1,24 @@
-{"id": "AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY", "premise_statement_ids": ["STMT-ACT-SIMPLY-PRIOR-TO-POTENCY", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"], "conclusion_statement_id": "STMT-FIRST-BEING-IS-IN-NO-WAY-IN-POTENCY", "inference_ids": ["INF-AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY"], "meaning": "ST I q.3 a.1 co., second proof: because act is simply prior to potency and nothing is in act and in potency in the same respect (the prima via premise), the first being is in potency in no respect.", "definition_ids": ["DEF-ACT", "DEF-FIRST-BEING", "DEF-POTENCY", "DEF-PURE-ACT", "DEF-SIMPLE-PRIORITY"],
-  "disambiguation_ids": ["DISAMB-POTENCY"]
+{
+  "id": "ae14b14d-809c-558b-a5b1-a59957158495",
+  "label": "The first being, to which nothing else is…, from Act is SIMPLY_PRIOR_1 to POTENCY_1… and 1 more",
+  "legacy_id": "AQUINAS-ST-I-Q3-A1-FIRST-BEING-NO-POTENCY",
+  "premise_statement_ids": [
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+  ],
+  "conclusion_statement_id": "0cf675c4-4099-5df9-b294-05f2cfef057d",
+  "inference_ids": [
+    "904cb5ef-faed-5967-a08f-6c6adf29caf2"
+  ],
+  "meaning": "ST I q.3 a.1 co., second proof: because act is simply prior to potency and nothing is in act and in potency in the same respect (the prima via premise), the first being is in potency in no respect.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "EXISTENTIAL-SUPPLY-JOINT-WITNESS",
-  "argument_id": "EXISTENTIAL-SUPPLY-JOINT-WITNESS",
+  "id": "ad064ad4-c723-58e2-89a7-5eaefed31e0c",
+  "label": "The existing two-world necessary-root/contingent-dependent concrete profile jointly satisfies…",
+  "legacy_id": "EXISTENTIAL-SUPPLY-JOINT-WITNESS",
+  "argument_id": "255e2f75-e402-53f1-aa32-fc17cebd3ca5",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.jointWitness",

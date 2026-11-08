@@ -1,10 +1,12 @@
 {
-  "id": "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE",
+  "id": "256a9e54-7793-523d-bc94-de6e2acaaa65",
+  "label": "Good qua a specified role: For an exercise of a role whose characteristic function is specified…",
+  "legacy_id": "DEF-FUNCTIONAL-EXCELLENCE-QUA-ROLE",
   "term": "good qua a specified role",
   "definition": "For an exercise of a role whose characteristic function is specified, goodness of that exercise qua the role requires excellent performance of the function. Only this necessary-condition direction of the functional analogy is encoded; it neither asserts that a good practitioner always acts well nor establishes a human function, its excellence standard or all-things-considered moral authority.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-EN-I7-FUNCTION-EXCELLENCE"
+    "65bad961-5fe5-5abe-9d0b-7641f0aa3879"
   ],
   "lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.FunctionExcellenceReading"
 }

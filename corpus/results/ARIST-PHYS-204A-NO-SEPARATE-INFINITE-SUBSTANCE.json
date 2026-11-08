@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
-  "argument_id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "id": "1b641f52-6681-557b-aa75-3cbe1b093525",
+  "label": "There is no separable substance which…, from If the infinite under investigation were a… and 1 more",
+  "legacy_id": "ARIST-PHYS-204A-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "argument_id": "236139dc-7dd2-58bf-a1c5-0445716804bc",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.NoSeparateInfiniteSubstance.noSeparateInfiniteSubstance",

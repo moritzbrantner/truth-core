@@ -1,6 +1,8 @@
 {
-  "id": "COMPLETE-RESPONSE-PARITY",
-  "argument_id": "COMPLETE-RESPONSE-PARITY",
+  "id": "02048060-b774-58e9-861b-646b6c08d708",
+  "label": "Two supplied Boolean-scenario Exercises have identical occurrence tables for both public input…",
+  "legacy_id": "COMPLETE-RESPONSE-PARITY",
+  "argument_id": "58789ca7-d4e1-5604-a163-c1f5e32e93e3",
   "challenge_module": "TruthCore.Results.Explanation.CompleteResponseParity.Challenge",
   "solution_module": "TruthCore.Results.Explanation.CompleteResponseParity.Solution",
   "theorem": "TruthCore.Results.Explanation.CompleteResponseParity.certificate",

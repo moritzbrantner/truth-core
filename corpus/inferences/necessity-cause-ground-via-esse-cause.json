@@ -1,11 +1,13 @@
 {
-  "id": "INF-NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE",
+  "id": "18819b3f-203e-5b5a-8012-c4bdb443deb9",
+  "label": "At the reading world w, whatever causes the necessity of…, by Universal instantiation and…",
+  "legacy_id": "INF-NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE",
   "input_statement_ids": [
-    "STMT-NECESSITY-CAUSE-CAUSES-ESSE",
-    "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+    "8c8b1986-f554-5f66-a2c6-2eb96d183ad5",
+    "d6e558d0-131a-553a-a183-fa73aed91281",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3"
   ],
-  "output_statement_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
+  "output_statement_id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
   "rule": "Universal instantiation and modus ponens",
   "meaning": "A distinct cause c of x's necessity causes x's esse, x is an actual concretum, so by the esse-cause bridge c is an actual concrete ground of x. Only the effect's actuality is used from the relata premise.",
   "assumption_statement_ids": [],

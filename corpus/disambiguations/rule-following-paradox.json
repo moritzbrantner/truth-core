@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-RULE-FOLLOWING-PARADOX",
+  "id": "a8566ae9-153c-5329-b680-2755193dab9b",
+  "label": "The rule-following paradox",
+  "legacy_id": "DISAMB-RULE-FOLLOWING-PARADOX",
   "term": "the rule-following paradox (PU \u00a7201)",
   "sense_definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "resolution": "The regress result WITTGENSTEIN-INTERPRETATION-REGRESS is neutral between the readings: it derives STMT-NO-RULE-APPLICATION-DETERMINED from STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION and STMT-NO-ENDLESS-INTERPRETATION-REGRESS, and the fork theorem shows these two are inconsistent with STMT-SOME-RULE-APPLICATION-DETERMINED. The diagnostic reading (following PU \u00a7201's own next sentence, STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION) keeps determination and rejects the interpretation premise. Kripke's sceptic (STMT-KRIPKE-NO-FACT-OF-MEANING, as reported) denies that any fact determines meaning; this vocabulary maps that, unattributed, to giving up STMT-SOME-RULE-APPLICATION-DETERMINED for factual determination, and it does not record whether the figure keeps the interpretation premise. Neither reading is attributed to the text by the result. Endpoint audit: the raw Kripke no-fact and PU noninterpretive-grasp statements are interpretive opponents, not checked logical complements. The former concerns factual determination; the latter does not by itself identify practice/grasp with such a fact. Their relation is attacks. The existing exact regress fork remains relative to its explicitly unattributed Determined shadow and does not transfer its internal contradiction to the full raw readings.",
   "term_label": "THE_RULE_FOLLOWING_PARADOX",
@@ -11,12 +13,12 @@
     {
       "id": "0ba857a6-533b-43af-8b9b-fd4659af1be8",
       "label": "THE_RULE_FOLLOWING_PARADOX_1",
-      "definition_id": "DEF-INTERPRETATION-OF-AN-ITEM"
+      "definition_id": "35ecbcaf-af7d-593b-8f39-cb0cc4be2867"
     },
     {
       "id": "b72cf397-d5f1-42c6-b4eb-3df1365fa924",
       "label": "THE_RULE_FOLLOWING_PARADOX_2",
-      "definition_id": "DEF-DETERMINED-BY-RULE"
+      "definition_id": "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
     }
   ]
 }

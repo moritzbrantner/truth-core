@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-NECESSARY-INDIVIDUAL-ALL-PRESENT",
+  "id": "b6d9c574-2f8d-5fa9-839e-12c561daf224",
+  "label": "Universal two-world Boolean frame, two rigid Boolean individuals, actual world false, presence… (2)",
+  "legacy_id": "MODEL-NECESSARY-INDIVIDUAL-ALL-PRESENT",
   "description": "Universal two-world Boolean frame, two rigid Boolean individuals, actual world false, presence everywhere. All four component evaluations are certified. This witnesses only this mathematical interpretation, not metaphysical possibility.",
   "vocabulary": "necessary-individual-quantifiers",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.alternatingFrame",
@@ -30,7 +32,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+      "statement_id": "b62deb46-c451-5971-a569-cc5c0f44a398",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -42,7 +44,7 @@
       "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation0"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "statement_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -54,7 +56,7 @@
       "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation1"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+      "statement_id": "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6",
       "value": "violates",
       "arguments": [
         "W",
@@ -66,7 +68,7 @@
       "theorem": "TruthCore.Models.NecessaryIndividual.AllPresent.evaluation2"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+      "statement_id": "878b92c3-a49d-583e-a467-6b44913f3e5d",
       "value": "violates",
       "arguments": [
         "W",

@@ -1,15 +1,17 @@
 {
-  "id": "CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
-  "statement_id": "STMT-CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "3af4fe98-9b5d-5400-b09f-ba066003e152",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: For every true proposition, possibly there is a…",
+  "legacy_id": "CC100-8-POSSIBLE-EXPLANATION-COVERAGE",
+  "statement_id": "98d4e36a-7bd5-5809-bff6-e472d124c9ec",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.16, argument #8 Gale–Pruss, step 1",
   "interpretation": "The displayed coverage concerns ALL true propositions, not merely contingent truths. Existing PSRStrength.WeakPSR is contingent-only and explicitly retains accessible-world truth of the same fact; it is not an exact alias. No actual explanation, fixed reason token, factivity or necessitation is supplied. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

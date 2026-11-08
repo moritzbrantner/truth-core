@@ -1,14 +1,16 @@
 {
-  "id": "STMT-MODAL-DEGREE-SELECTED-FAMILY-ATTAINS",
+  "id": "6879be71-e3bc-592a-b82a-d04621c77f26",
+  "label": "The selected rigid individual n has a greatest attained grade within the image of its degrees over…",
+  "legacy_id": "STMT-MODAL-DEGREE-SELECTED-FAMILY-ATTAINS",
   "paraphrase": "The selected rigid individual n has a greatest attained grade within the image of its degrees over root-accessible worlds. Greatest includes membership in that image; an empty accessible family cannot satisfy it. Presence of n, invariance and actual-world attainment are not asserted by this predicate.",
   "lean_declaration": "TruthCore.Modal.ExistenceDegrees.SelectedDegreeFamilyAttains",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-MODAL-SELECTED-DEGREE-FAMILY-ATTAINMENT"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "43be864b-2d06-56fd-ac8d-a3f44f56d03f"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-DEGREE-PRESENCE"
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4"
   ]
 }

@@ -39,7 +39,7 @@ test("atlas's five lenses use the current static reports, expose evidence, and p
   expect(await navigation.getByRole("button").count()).toBe(5);
   if (certified) {
     await page.getByRole("group", { name: /Incompatible cores connected/ }).waitFor();
-    expect(await page.getByRole("link", { name: /^STMT-/ }).count()).toBeGreaterThan(0);
+    expect(await page.locator(`a[href*="/statements/"]`).count()).toBeGreaterThan(0);
   } else {
     await page.getByRole("region", { name: "Certification unavailable" }).waitFor();
   }

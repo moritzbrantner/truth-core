@@ -1,7 +1,9 @@
 {
-  "id": "STMT-BEING-PROPORTIONED-TO-INTELLIGIBILITY",
+  "id": "2427705a-8187-5b2f-9e76-51da8ba6a3cc",
+  "label": "A thing is knowable insofar as it has being; truth adds to being a relation to intellect",
+  "legacy_id": "STMT-BEING-PROPORTIONED-TO-INTELLIGIBILITY",
   "paraphrase": "A thing is knowable insofar as it has being; truth adds to being a relation to intellect. Truth and being are convertible but differ in account.",
   "definition_ids": [
-    "DEF-ONTOLOGICAL-TRUTH"
+    "b412016a-43c1-5c4a-abb0-4e53d343d508"
   ]
 }

@@ -1,24 +1,26 @@
 {
-  "id": "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
+  "id": "7b64240e-6483-5c85-a3c9-b2f6194ba7cb",
+  "label": "Every complete-cause edge makes its cause existentially prior to each part of its effect…",
+  "legacy_id": "STMT-COMPLETE-CAUSE-PRIOR-EFFECT-PARTS",
   "paraphrase": "Every complete-cause edge makes its cause existentially prior to each part of its effect, including the effect itself.",
   "lean_declaration": "TruthCore.Causality.AtomisticUniversalCausePriority.CausePriorToEffectParts",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART",
-    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
-    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
-    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00",
+    "dd3d4361-4d99-568d-9479-f4c631bfc352",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b",
+    "0ec36774-a6bd-58cd-80c1-3b3e575cb272"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

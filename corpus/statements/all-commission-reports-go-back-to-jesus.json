@@ -1,9 +1,11 @@
 {
-  "id": "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "id": "d6c957b8-7ced-5ff5-b0a0-343c5ed80786",
+  "label": "Every one of the five reported commissions goes back to Jesus: he gave each power each report names",
+  "legacy_id": "STMT-ALL-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
   "paraphrase": "Every one of the five reported commissions (Matthew 16.18-19, 18.17-18, 28.18-20; John 20.21-23, 21.15-17) goes back to Jesus: he gave (or promised) each power each report names. The strong version of STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS; not a premise of any route.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Commissions.AllCommissionReportsGoBackToJesus",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INFINITE-WAGER-MIXTURE",
+  "id": "81dadaca-e74d-5ad4-ba23-2e3c06c2bafd",
+  "label": "Nonnegative infinite-reward mixed-act…: Mathlib ENNReal provides extended nonnegative reals with…",
+  "legacy_id": "DEF-INFINITE-WAGER-MIXTURE",
   "term": "nonnegative infinite-reward mixed-act expectation",
   "definition": "Mathlib ENNReal provides extended nonnegative reals with top and zero-times-top equal to zero. value p q is p*q*top. p is reward-state prior weight; q is an independent probability of selecting the rewarded act; every other payoff is zero. Actual probabilities lie in [0,1]; the general algebra theorem also covers nonzero weights outside that range.",
   "basis": "stipulative",

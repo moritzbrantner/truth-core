@@ -1,6 +1,8 @@
 {
-  "id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
-  "argument_id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+  "id": "cb6c049b-142e-5bad-83dc-0b5b4941b626",
+  "label": "Under explicit excluded middle, named domain…, from Excluded middle as a general principle…",
+  "legacy_id": "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
+  "argument_id": "4516376e-a222-514e-8656-df7284076987",
   "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.Solution",
   "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Coverage.domainFork",
@@ -9,19 +11,19 @@
   "description": "Logical coverage transcription under explicit excluded middle: one named domain calibration or a genuine remaining extension. Named philosophical exhaustion remains open.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE",
+    "target_statement_id": "839339f5-ade2-58d5-8ba4-9176ca273e74",
     "cases": [
       {
         "label": "one named scope calibration",
         "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.NamedDomainCoverage",
-        "statement_id": "STMT-EMPIRICAL-PROOF-NAMED-DOMAIN-COVERAGE"
+        "statement_id": "839339f5-ade2-58d5-8ba4-9176ca273e74"
       },
       {
         "label": "remaining extension on this table",
         "lean_declaration": "TruthCore.Logic.ScopedEmpiricalProofBarrier.RemainingDomain",
-        "statement_id": "STMT-EMPIRICAL-PROOF-REMAINING-DOMAIN"
+        "statement_id": "dc97026d-b4c1-5196-8d13-6acc61db7cf3"
       }
     ],
-    "survival_result_id": "SCOPED-EMPIRICAL-PROOF-CONTROLS"
+    "survival_result_id": "2bd665e2-bd4f-578a-8507-7d4f57e20806"
   }
 }

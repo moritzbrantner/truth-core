@@ -1,6 +1,8 @@
 {
-  "id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
-  "argument_id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "id": "1bcf9a70-ef47-5c8e-b3b3-eade9ceb7705",
+  "label": "Exact negation of commission reports go back to…, from Jesus gave or promised none of the powers…",
+  "legacy_id": "NO-GOVERNING-GRANT-REJECTS-HISTORICAL-COMMISSION-BUNDLE",
+  "argument_id": "9dcd13c2-1065-5324-904b-916d4db13fab",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rejection.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rejection.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.noGoverningRejectsHistoricalBundle",

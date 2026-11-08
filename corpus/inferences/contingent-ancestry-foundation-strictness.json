@@ -1,7 +1,9 @@
 {
-  "id": "INF-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "id": "d7009180-aada-5381-95b8-5ad39a7545de",
+  "label": "One fixed two-world interpretation has an actual contingent…, by Exact-foundation-strength-com…",
+  "legacy_id": "INF-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CONTINGENT-ANCESTRY-FOUNDATION-STRICTNESS",
+  "output_statement_id": "e9946922-3bbe-53fb-a580-bdfb1a5345c0",
   "rule": "exact-foundation-strength-comparison",
   "meaning": "One fixed two-world interpretation has an actual contingent selected target, local contingent dependence, contingent-only foundation and a necessary concrete ancestor, while full-cone foundation and a necessary actual root ancestor both fail. Two necessary individuals support one another and one supports the contingent target. This separates premise and conclusion strengths; it does not establish that the necessary cycle is metaphysically possible or explanatorily adequate.",
   "assumption_statement_ids": [],

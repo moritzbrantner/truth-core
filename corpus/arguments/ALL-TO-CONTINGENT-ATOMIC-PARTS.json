@@ -1,34 +1,36 @@
 {
-  "id": "ALL-TO-CONTINGENT-ATOMIC-PARTS",
+  "id": "fa5cee1f-fc91-500a-a8b9-74a68cac60d2",
+  "label": "Every actually contingent object at the selected…, from Every object has a part that is simple in…",
+  "legacy_id": "ALL-TO-CONTINGENT-ATOMIC-PARTS",
   "premise_statement_ids": [
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART"
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3"
   ],
-  "conclusion_statement_id": "STMT-CONTINGENT-ATOMIC-PARTS",
+  "conclusion_statement_id": "83fdeb19-900c-5416-a828-2a1c9da983e8",
   "inference_ids": [
-    "INF-ALL-TO-CONTINGENT-ATOMIC-PARTS"
+    "1f438e04-553d-58ed-a5d8-b6a38c5964cc"
   ],
   "meaning": "Structural restriction/assembly: specialize all-actual-object AtomicParts to actual contingent objects. No atomicity premise is established.",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-LOCAL-CAUSE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
-    "DEF-CONTINGENT-ATOMIC-PARTS"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "223c29ec-0983-5329-8f3e-fbd9276f0339",
+    "100418df-e671-5455-b7de-4f4930d400df"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

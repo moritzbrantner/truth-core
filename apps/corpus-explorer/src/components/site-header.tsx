@@ -1,6 +1,7 @@
 import Link from "next/link";
 
 import { ThemeSwitcher } from "@/components/theme-switcher";
+import { DEFAULT_ROOT_STATEMENT_ID } from "@/lib/proposition-graph";
 
 const links = [
   { href: "/", label: "Frontier" },
@@ -9,7 +10,7 @@ const links = [
   { href: "/atlas", label: "Atlas" },
   { href: "/state", label: "Case" },
   { href: "/next", label: "Next steps" },
-  { href: "/statements/STMT-CATHOLICISM-TRUE", label: "Root proposition" },
+  { href: `/statements/${DEFAULT_ROOT_STATEMENT_ID}`, label: "Root proposition" },
   { href: "/candidates", label: "Research" },
   { href: "/results", label: "Results" },
   { href: "/sources", label: "Sources" },

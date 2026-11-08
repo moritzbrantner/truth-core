@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "id": "a919f81e-d9ff-5b7a-be38-c9473c042e8e",
+  "label": "Inside Lean logic, ¬. A logical theorem about Prop, not about contents, agents, concrete things or…",
+  "legacy_id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
   "paraphrase": "Inside Lean logic, ¬ (∀ P Q : Prop, P ↔ Q). A logical theorem about Prop, not about contents, agents, concrete things or attitude-independent truth.",
   "lean_declaration": "TruthCore.Logic.TruthNontriviality.NoGlobalPropositionalCollapse",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING",
-    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1",
+    "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-TRUTH-COLLAPSE-LEVEL"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "5dd0732d-712e-53fb-ad41-a412a951a5f5"
   ]
 }

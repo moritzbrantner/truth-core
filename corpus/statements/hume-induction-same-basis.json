@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-INDUCTION-SAME-BASIS",
+  "id": "055f21e3-1018-52e7-a304-744d21663c7c",
+  "label": "The selected science and theology cases have the same relevant evidential basis",
+  "legacy_id": "STMT-HUME-INDUCTION-SAME-BASIS",
   "paraphrase": "Open cross-domain premise: the selected science and theology cases have the same relevant evidential basis. Their sharing an inferential form alone does not establish this.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.SameScienceTheology",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-STANDARD",
-    "DEF-HUME-INDUCTION-ANCHOR"
+    "f93e95f6-c139-5371-b544-8f0311ec60a7",
+    "fc277a67-9f24-5f56-a905-c64c2c1783c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

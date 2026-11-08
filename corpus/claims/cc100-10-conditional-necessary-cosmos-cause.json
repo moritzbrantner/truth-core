@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
-  "statement_id": "STMT-CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "66a6825f-c346-5a51-89bc-7bc9201c8944",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If there are contingent things, then the cosmos, the…",
+  "legacy_id": "CC100-10-CONDITIONAL-NECESSARY-COSMOS-CAUSE",
+  "statement_id": "048ba9cc-22d8-5e88-b66a-37fd19d5a6c8",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.22, T citing L4, C2, L5 and A1, argument #10 Koons",
   "interpretation": "This is the displayed guarded conclusion, not an independently proved necessary-being result. The intended exclusion uses a cause’s nonoverlap with C against every contingent thing’s overlap with C; merely distinct cause does not suffice. C1 supplies an existence restriction only when a causal witness is given. Noncontingent-to-necessary classification and any mapping to concrete Ontic existence/causation or grounding remain unproved application obligations; no all-necessary uniqueness, God identity or complete explanation follows. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

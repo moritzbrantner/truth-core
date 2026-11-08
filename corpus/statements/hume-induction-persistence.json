@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-INDUCTION-PERSISTENCE",
+  "id": "fa766632-ba7c-5b6e-9ec6-8353f80a0411",
+  "label": "The nonargumentative principle preserves influence as long as human nature remains the same",
+  "legacy_id": "STMT-HUME-INDUCTION-PERSISTENCE",
   "paraphrase": "The nonargumentative principle preserves influence as long as human nature remains the same. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.ConditionalPersistence",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-PERSISTENCE",
-    "DEF-HUME-INDUCTION-CUSTOM"
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31",
+    "cef4da44-097f-546a-80cc-67c3a08a80af"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

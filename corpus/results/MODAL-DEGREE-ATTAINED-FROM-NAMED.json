@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-DEGREE-ATTAINED-FROM-NAMED",
-  "argument_id": "MODAL-DEGREE-ATTAINED-FROM-NAMED",
+  "id": "a8fc0f3d-5c9b-50cd-abcf-b3d7fccc7bdb",
+  "label": "Some existing individual at some root-accessible world attains a degree at least that\u2026, from named",
+  "legacy_id": "MODAL-DEGREE-ATTAINED-FROM-NAMED",
+  "argument_id": "575c4fee-4dd4-56c8-8f82-769c37b64071",
   "challenge_module": "TruthCore.Results.Modal.ExistenceDegrees.Challenge",
   "solution_module": "TruthCore.Results.Modal.ExistenceDegrees.Solution",
   "theorem": "TruthCore.Results.Modal.ExistenceDegrees.attainedFromNamed",

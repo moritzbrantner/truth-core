@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH3-SIGNS-SUPPORTS-RECOGNIZABLE-REVELATION-ANALYSIS",
+  "id": "01b4d776-5e46-506d-8b5c-1426f1b1f85f",
+  "label": "First Vatican Council, Dei Filius Ch. 3…… supports A sufficient condition for the skeleton's…",
+  "legacy_id": "REL-DEI-FILIUS-CH3-SIGNS-SUPPORTS-RECOGNIZABLE-REVELATION-ANALYSIS",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-SIGNS-OF-REVELATION",
+  "subject_id": "a40a2e59-c4d2-5ec3-b908-244ddb3babe1",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-RECOGNIZABLE-REVELATION-ANALYSIS",
+  "object_id": "f2504092-91c0-53f1-a59b-2402ccb7b0a7",
   "note": "Dei Filius ch. 3 para. 2 states that miracles and prophecies, since they clearly show God's omnipotence and infinite knowledge, are most certain signs of revelation suited to everyone's understanding. The premise states a sufficient condition: whoever can reveal with signs that only God can give reveals recognizably. The council speaks of the actual revelation, not of a general capacity, and the exclusivity ('only God can give') is the analyst's reading of 'clearly show omnipotence' (as in REL-DEI-FILIUS-SIGNS-SUPPORTS-SOME-SIGNS-ONLY-GOD-CAN-GIVE)."
 }

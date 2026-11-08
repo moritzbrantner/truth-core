@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION",
-  "statement_id": "STMT-CORRUPTED-NATURAL-LAW-NEEDED-CORRECTION",
-  "source_id": "AQUINAS-ST",
+  "id": "9cf24019-97a8-5e22-85f0-078696976f4a",
+  "label": "Thomas Aquinas, Summa theologiae I ii q.94…: In some hearts the natural law was so corrupted that…",
+  "legacy_id": "AQUINAS-ST-I-II-Q94-A5-AD1-CORRECTION",
+  "statement_id": "51f49102-83d2-5734-b5d2-873ac6b2be90",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I-II q.94 a.5 ad 1: lex naturae in aliquorum cordibus, quantum ad aliqua, corrupta erat intantum ut existimarent esse bona quae naturaliter sunt mala; et talis corruptio correctione indigebat",
   "interpretation": "The second of the source's alternative explanations of the written law's corrective role: in some hearts, in some respects, people thought good what is naturally evil and this corruption needed correction. The formalization asserts the existence of a person and matter so evaluated, naturally evil, and needing correction. It does not assert an accomplished correction or a chronology of improved belief. The predicates for believing good, being naturally evil and needing correction remain primitive; no theory of improvement is built into their names.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CORRECTION-NEEDED",
-    "DEF-NATURAL-LAW-MORAL-EVIL"
+    "f57bc65c-efd0-5efa-b257-67784393ddd6",
+    "ef16d61e-a087-5d53-898a-7d79f51895a4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CORRECTION-NEED-AND-CHANGE"
+    "ba252369-e99e-5c09-b776-5cbc5dd33147"
   ]
 }

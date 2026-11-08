@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DESIRABLE-IN-A-PERFECTION",
+  "id": "661ad6ef-309b-5334-b770-bfbf173a6784",
+  "label": "Desirable: DesirableIn x p: x, as having the perfection p, is desirable, an object toward which…",
+  "legacy_id": "DEF-DESIRABLE-IN-A-PERFECTION",
   "term": "desirable (appetibile; Lean `DesirableIn`)",
   "definition": "`DesirableIn x p`: x, as having the perfection p, is desirable, an object toward which appetite tends. In Lean `DesirableIn` is a parameter: its content is fixed only by STMT-GOOD-IS-DESIRABLE and STMT-DESIRABLE-INSOFAR-AS-PERFECT. Whose appetite is not specified.",
   "basis": "stipulative",

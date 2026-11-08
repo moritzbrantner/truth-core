@@ -1,16 +1,18 @@
 {
-  "id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
+  "id": "29240c05-c980-56c9-82cd-bf9633516003",
+  "label": "Three exact finite controls: compatible productive set/Form and nonproductive math relevance…",
+  "legacy_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSAL-CONCRETE-RIVAL-BOUNDARY-CONTROLS",
+  "conclusion_statement_id": "e5fb104b-27bd-525a-b3bf-a350a0ee5cab",
   "inference_ids": [
-    "INF-CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+    "8acbc50b-a65f-5ade-9c6d-636eb10b39e6"
   ],
   "meaning": "Three anchored finite models check category/classification/production/world/capacity boundaries and witness a genuine relevant remainder. No actual ontology or metaphysical possibility is claimed.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

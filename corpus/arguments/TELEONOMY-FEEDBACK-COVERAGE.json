@@ -1,19 +1,21 @@
 {
-  "id": "TELEONOMY-FEEDBACK-COVERAGE",
+  "id": "5b53a3e6-2e7f-5a27-a869-bf5b4cbd234c",
+  "label": "Local coupling creates alignment from a nonaligned initial condition and is idempotent for every…",
+  "legacy_id": "TELEONOMY-FEEDBACK-COVERAGE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TELEONOMY-FEEDBACK-COVERAGE",
+  "conclusion_statement_id": "fcf032db-e6ce-5083-b1ab-fa5b78bb0b10",
   "inference_ids": [
-    "INF-TELEONOMY-FEEDBACK-COVERAGE"
+    "064f0f2b-335f-585e-8d0f-d50da7a01ed9"
   ],
   "meaning": "Local coupling creates alignment from a nonaligned initial condition and is idempotent for every state. No agent or selection predicate is used. This toy establishes possibility, not Dye’s quantitative model.",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

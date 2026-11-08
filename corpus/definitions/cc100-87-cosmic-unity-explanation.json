@@ -1,15 +1,17 @@
 {
-  "id": "DEF-CC100-87-COSMIC-UNITY-EXPLANATION",
+  "id": "2ec9760f-26e5-5df3-897f-443a769ec094",
+  "label": "Cosmic unity, internal/external…: The explanandum is the unity of the cosmos",
+  "legacy_id": "DEF-CC100-87-COSMIC-UNITY-EXPLANATION",
   "term": "cosmic unity, internal/external explanation and plausible mind in #87",
   "definition": "The explanandum is the unity of the cosmos. An explanatory demand, an internal parts-or-laws coverage fork, and exclusions of those candidates are separate commitments. An external explainer is assigned timelessness, immateriality and power, with mind only plausible.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-87-UNITY-EXPLANATION-DEMAND",
-    "CC100-87-INTERNAL-EXPLANATION-FORK",
-    "CC100-87-PARTS-LAWS-EXCLUSION",
-    "CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
-    "CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
-    "CC100-87-EXTERNAL-EXPLAINER-ATTRIBUTES"
+    "97803eda-4a16-52d3-9490-8327b49bfd73",
+    "2073608e-3869-5f81-8da0-f3a6c24c47aa",
+    "9b721ad8-33b7-59da-8da6-2f8fdbfa9ec3",
+    "7c64e996-fe83-59a0-886f-90aaaaf955ee",
+    "21569d09-8f36-5f42-b65c-670312d8f5d1",
+    "c1a81b68-5cb5-562b-9a94-eac9f4f5c68c"
   ],
   "note": "No Sum2 whole, complete causal explanation, actual explanatory bearer, necessary individual, common unique source or God signature is selected. Requires-explanation versus actual explanation, internal/external exhaustiveness and adequacy remain open. Plausibly qualifies mind, not the other stated attributes."
 }

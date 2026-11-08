@@ -1,7 +1,9 @@
 {
-  "id": "INF-FALLIBLE-CORRECTION",
+  "id": "81a168ce-ae52-5f10-8f92-162c28da8149",
+  "label": "For the specified finite rational weighted-majority protocol…, by Weighted-majority-potential-i…",
+  "legacy_id": "INF-FALLIBLE-CORRECTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FALLIBLE-CORRECTION-CERTIFICATE",
+  "output_statement_id": "a901d185-4919-5d9c-8c6e-ec5415f975bc",
   "rule": "weighted-majority-potential-induction-corruption-triangle-and-certified-composition",
   "meaning": "For the specified finite rational weighted-majority protocol, (1/2)^m ≤ N*(3/4)^M holds for observed learner/expert mistakes M,m; the proof derives this using exact expert-weight and total-potential lemmas. Actual learner mistakes L are at most M+K and observed expert mistakes at most its actual errors e+K. If K≤k, (1/2)^(e+k) ≤ N*(3/4)^(L-k), with truncated natural subtraction. For two experts including one with at most two actual errors and at most one corrupted label, L≤10 at any supplied horizon. Concrete traces show recovery, a misleading label, indefinitely misleading feedback and no exact truth classifier on identical reports; the imported exact-criterion, inquiry-access and accuracy certificates are retained unchanged. These are implementable conditional performance guarantees, not factive justification, feedback calibration, normative authority or root closure. The positive restricted warrant argument and surviving rivals are in docs/notes/fallible-correction-931.md.",
   "assumption_statement_ids": [],

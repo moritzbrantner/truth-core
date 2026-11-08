@@ -1,20 +1,22 @@
 {
-  "id": "COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "id": "24c24419-407f-59c0-8a84-ca00021d2bf5",
+  "label": "The universal same-act communication-to-canonical-reception transfer…, from An actual supplied…",
+  "legacy_id": "COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
   "premise_statement_ids": [
-    "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE"
+    "fa965377-16bf-58f5-8a42-faee24fc45e4"
   ],
-  "conclusion_statement_id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "conclusion_statement_id": "4fd3bd81-1c24-5894-b701-c658239a6f52",
   "inference_ids": [
-    "INF-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER"
+    "1a03607f-780c-5d35-8d28-5dd1ea4ac4d4"
   ],
   "meaning": "The explicit union/communication/same-act/nonreception countertuple contradicts the universal same-sense transfer. It need not decide the separately selected tuple.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

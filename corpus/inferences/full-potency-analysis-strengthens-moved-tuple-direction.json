@@ -1,9 +1,11 @@
 {
-  "id": "INF-FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "id": "a8c3dbb5-10a2-59fb-a713-b4147ac1feb7",
+  "label": "Weak OPEN POTENCY_1 interpretation needed by the Megarian counterargument…, by Constructive-proof",
+  "legacy_id": "INF-FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
   "input_statement_ids": [
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
-  "output_statement_id": "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY",
+  "output_statement_id": "d93acdf0-12aa-5d47-bd75-7df4e3b65204",
   "rule": "constructive-proof",
   "meaning": "Sole-premise restriction of the old full biconditional analysis to its forward direction at moved tuples only. Strictness is witnessed by the idle-potency control; no full source reading is reattributed to this weaker analyst proposition.",
   "assumption_statement_ids": [],

@@ -18,6 +18,10 @@ def senses_by_definition(disambiguations: Iterable[dict[str, Any]]) -> dict[str,
     seen: set[str] = set()
     for disambiguation in disambiguations:
         for sense in disambiguation.get("senses", []):
+            if not isinstance(sense, dict) or not all(
+                isinstance(sense.get(key), str) for key in ("id", "label", "definition_id")
+            ):
+                continue  # The corpus validator reports malformed sense records.
             if sense["id"] in seen:
                 continue
             seen.add(sense["id"])
@@ -63,13 +67,16 @@ def record_sense_labels(
     for definition_id in record_definitions(record, statements, arguments):
         for sense in by_definition.get(definition_id, []):
             labels.setdefault(sense["term"], set()).add(sense["label"])
-    declared = dict(record.get("term_senses", {}))
+    raw = record.get("term_senses", {})
+    declared = dict(raw) if isinstance(raw, dict) else {}
     argument = (arguments or {}).get(record.get("argument_id", ""))
     if argument is not None:
-        declared.update(argument.get("term_senses", {}))
+        raw = argument.get("term_senses", {})
+        if isinstance(raw, dict):
+            declared.update(raw)
     by_id = {sense["id"]: sense for senses in by_definition.values() for sense in senses}
     for term, sense_id in declared.items():
-        if sense_id in by_id:
+        if isinstance(sense_id, str) and sense_id in by_id:
             labels.setdefault(term, set()).add(by_id[sense_id]["label"])
     return {term: sorted(values) for term, values in sorted(labels.items())}
 

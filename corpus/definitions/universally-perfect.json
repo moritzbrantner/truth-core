@@ -1,12 +1,14 @@
 {
-  "id": "DEF-UNIVERSALLY-PERFECT",
+  "id": "5f851204-5991-5e16-87f1-e8b3ed729708",
+  "label": "PERFECT_2: Universally PERFECT_2 means lacking none of the perfections found in things",
+  "legacy_id": "DEF-UNIVERSALLY-PERFECT",
   "term": "perfect (universaliter perfectus; Lean `IsPerfect`)",
   "definition": "Universally perfect means lacking none of the perfections found in things (ST I q.4 a.2). These preexist in God eminently, not as a conjunction of incompatible creaturely forms. IsPerfect InAct g := ∀ x r, InAct x r → InAct g r uses InAct in its formal-or-virtual sense (DEF-IN-ACT-FORMALLY, DEF-IN-ACT-VIRTUALLY).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q4-A2-GOD-UNIVERSALLY-PERFECT",
-    "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A",
-    "AQUINAS-ST-I-Q4-A2-PERFECTIONS-PERTAIN-TO-BEING"
+    "8aa91569-b273-535a-ae34-1124d512bf41",
+    "50df1fd8-8c2a-5dd5-8f9b-33f7994f51c6",
+    "5dd2d69f-02a5-5357-8cb5-1f028137db64"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.IsPerfect",
   "note": "The source sense constrains how perfection-respects and InAct are read. Lean's arbitrary Respect and InAct parameters do not independently enforce the formal-or-eminent interpretation. DISAMB-IN-ACT records the unresolved formal/virtual choice: a result must interpret its one InAct parameter consistently in every premise, and defend those premises under that choice. This definition does not automatically combine the senses or settle that premise-truth obligation."

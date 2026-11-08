@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-SELECTOR",
+  "id": "59a1ad52-ea18-5b2d-a97a-c9169aae4a68",
+  "label": "Selection law: For a designated Form and feature, a candidate particular participates iff it has…",
+  "legacy_id": "DEF-PARTICIPATION-SELECTOR",
   "term": "selection law",
   "definition": "For a designated Form and feature, a candidate particular participates iff it has that independently specified base feature. This is an additional open law, not explanatory dependence and not a definition of the base from the classification.",
   "basis": "stipulative",

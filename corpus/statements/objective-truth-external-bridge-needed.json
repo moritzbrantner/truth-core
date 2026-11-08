@@ -1,14 +1,16 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "id": "eac971d2-9af3-5709-b053-71cfa55cf89b",
+  "label": "The explicit invariance-only model satisfies all four semantic/classification premises of poe\u2026",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
   "paraphrase": "The explicit invariance-only model satisfies all four semantic/classification premises of POE-EXTERNAL-PREMISE-VS-EMOTIVISM while its selected evil premise is false but classified objective. The truth-component bridge fails. Thus those four premises alone do not give the objective denial for every independent objective classifier. This is not a model of the proponent\u2019s whole worldview or a defense of the invariance-only account.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.BridgeOmissionControl",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "643229b3-f945-5a62-9b99-c854b1fba227",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS",
-    "DISAMB-TRUE"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

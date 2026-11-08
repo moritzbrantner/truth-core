@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-NO-GUNK",
-  "argument_id": "FINITE-NO-GUNK",
+  "id": "b181cc93-8599-586e-86df-da533c17cffe",
+  "label": "No finite inhabited partial order can give every object a strict proper part",
+  "legacy_id": "FINITE-NO-GUNK",
+  "argument_id": "1c532b92-117a-5428-b8d4-292880295cdd",
   "challenge_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Challenge",
   "solution_module": "TruthCore.Results.Mereology.AtomlessFusionProfile.Solution",
   "theorem": "TruthCore.Results.Mereology.AtomlessFusionProfile.finiteBoundary",

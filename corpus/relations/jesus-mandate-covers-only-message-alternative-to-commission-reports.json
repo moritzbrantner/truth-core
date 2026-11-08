@@ -1,9 +1,11 @@
 {
-  "id": "REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "id": "3a4c08a3-9e47-566a-9307-1168e48625a9",
+  "label": "Exact negation of commission reports go… alternative to Report-to-event premise: the commission…",
+  "legacy_id": "REL-JESUS-MANDATE-COVERS-ONLY-MESSAGE-ALTERNATIVE-TO-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
   "subject_kind": "statement",
-  "subject_id": "STMT-HISTORICAL-COMMISSION-BUNDLE-REJECTED",
+  "subject_id": "a2deb7b1-b806-5875-af1f-b1635b0f51c2",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS",
+  "object_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
   "note": "The raw message-only mandate thesis and its source readings remain at full strength, but it is not the negation of historical commission powers. The endpoint is now the exact negation of the report-to-event bundle on the same Commissioning. MESSAGE-ONLY-CONDITIONALLY-REJECTS-HISTORICAL-COMMISSIONS requires the raw rival, the weakest governing-event institutional component, and an actual mandate/body witness. The old institution bridge separately supplies the weak component; teaching is unnecessary to this rejection. MESSAGE-REPORT-BOUNDARY-CONTROLS exhibits nonempty raw-rival/full-history coexistence when transfer fails and preserves the old Matthew28 concession. No new actual historical denial or attribution is asserted."
 }

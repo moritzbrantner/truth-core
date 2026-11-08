@@ -1,17 +1,19 @@
 {
-  "id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "id": "2499ad8e-b79f-56d5-907b-f58d36ef2804",
+  "label": "A criterion's verdict settles nothing about truth: in some TRUTH_CONDITIONAL_LANGUAGE_3 whose frame…",
+  "legacy_id": "CRITERION-VERDICT-SILENT-ON-TRUTH",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CRITERION-VERDICT-SILENT-ON-TRUTH",
+  "conclusion_statement_id": "57ee35c2-0a51-5b19-9afc-7042be15edab",
   "inference_ids": [
-    "INF-CRITERION-VERDICT-SILENT-ON-TRUTH"
+    "2e66828b-a83b-5d0b-8caa-3accab6139e6"
   ],
   "meaning": "A countermodel to the bridge from failing an adopted criterion to lacking truth: in a language whose worlds fix an observable and an unobservable coordinate, with observation statements those depending only on the observable one, the sentence 'the unobservable coordinate is set' is not analytic and not conclusively verifiable (any jointly satisfiable observations hold also where it is false), yet it is true at a world. This is consistency, not a defense of any sentence; it shows that the proposal reading (V4) classifies sentences without deciding their truth.",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ]
 }

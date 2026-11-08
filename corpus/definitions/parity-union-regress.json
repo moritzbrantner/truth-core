@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARITY-UNION-REGRESS",
+  "id": "dd604a4e-bf19-5554-b4b4-93d793110076",
+  "label": "Two-world parity support countermodel: Worlds are Bool and rigid beings are Nat",
+  "legacy_id": "DEF-PARITY-UNION-REGRESS",
   "term": "two-world parity support countermodel",
   "definition": "Worlds are Bool and rigid beings are Nat. Accessibility and existence are universally true. support w g n means g = n + 1 and n % 2 = (if w then 1 else 0); model.Causes uses this relation only for this control. Local depth at most one means no two composable support edges at one fixed world. Acyclicity means no Relation.TransGen union n n (a nonempty finite path). The union forgets world labels and uses the existing necessary-support restriction; all beings satisfy that restriction here.",
   "basis": "stipulative",

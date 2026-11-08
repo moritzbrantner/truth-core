@@ -1,11 +1,13 @@
 {
-  "id": "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
+  "id": "2ad83d5d-c3a7-571f-8c84-9d0a5d5b0135",
+  "label": "A life realizing the human good involves actual rational activity of soul according to appropriate…",
+  "legacy_id": "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
   "paraphrase": "A life realizing the human good involves actual rational activity of soul according to appropriate virtue and a complete life. Only necessary conditions are encoded, not their sufficiency, an actual happy life, or a categorical obligation to choose that life.",
   "lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.HumanGoodActivityReading",
   "definition_ids": [
-    "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY"
+    "6a7f7256-6fe8-5eb8-b711-22a295a9d356"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+    "bbcdfe40-8a39-5ac5-acad-62ca350d70fa"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-HUME-I-3-3-IMAGINATION",
+  "id": "c70e0bd4-40e9-5e43-8450-9c0a929ea69d",
+  "label": "Hume says the distinct ideas of a beginning and its cause can be separated in imagination: an…",
+  "legacy_id": "STMT-HUME-I-3-3-IMAGINATION",
   "paraphrase": "Hume says the distinct ideas of a beginning and its cause can be separated in imagination: an object may be conceived absent at one moment and present at the next without conjoining a productive principle.",
   "definition_ids": [
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE",
-  "statement_id": "STMT-PILOT-REPORT-JOHN-DISCIPLES-REJOICE",
-  "source_id": "NT-JOHN",
+  "id": "9837e0c8-b547-56e4-8376-199039f5acb5",
+  "label": "New Testament, John 20.19-25: John narrates disciples seeing the Lord, rejoicing, and telling…",
+  "legacy_id": "NT-JOHN-PILOT-JOHN-DISCIPLES-REJOICE",
+  "statement_id": "4e600b2f-7fb7-5960-98e3-db37ace377e2",
+  "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
   "locator": "20.19-25",
   "interpretation": "An experience narrative can support but does not by itself establish sincere historical experiences or their external cause.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

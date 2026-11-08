@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-FRAME",
+  "id": "b15f67c1-a524-5226-87c2-a3f78aff47a9",
+  "label": "S5 equivalence accessibility: S5Frame F is the existing FrameSatisfies.S5 F: and, reflexivity and…",
+  "legacy_id": "DEF-MODAL-S5-FRAME",
   "term": "S5 equivalence accessibility",
   "definition": "S5Frame F is the existing FrameSatisfies .S5 F: (∀w, Rww) and (∀w v z, Rwv → Rwz → Rvz), reflexivity and Euclidean accessibility. Existing cube theorems derive symmetry (Rwv → Rvw) and transitivity (Rwv → Rvz → Rwz). Multiple equivalence components are permitted.",
   "basis": "stipulative",

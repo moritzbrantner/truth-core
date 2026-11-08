@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204A-SEPARATE-INFINITE-INDIVISIBLE-A",
-  "statement_id": "STMT-SEPARATE-INFINITE-SUBSTANCE-WOULD-BE-INDIVISIBLE",
-  "source_id": "ARIST-PHYS",
+  "id": "b14cfef8-16bb-5c80-8c21-4b527cfecee0",
+  "label": "Aristotle, Physics III.5, 204a8-16: If the infinite under investigation were a separable substance…",
+  "legacy_id": "ARIST-PHYS-204A-SEPARATE-INFINITE-INDIVISIBLE-A",
+  "statement_id": "4cb56c2a-9363-5a6a-ae27-db8cef393fe8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204a8-16",
   "interpretation": "Opening dialectical premise: if the infinite were a separable substance rather than an attribute of magnitude or plurality, Aristotle's local division implies that it would be indivisible. This is not generalized into the claim that every substance is indivisible.",
   "status": "formalized"

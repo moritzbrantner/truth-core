@@ -1,9 +1,11 @@
 {
-  "id": "STMT-CAUSES-OF-UNIVERSE-OUTSIDE-SPACETIME",
+  "id": "e11c5eaf-121f-5094-b192-dc2ce631e299",
+  "label": "At the selected world every cause of the spacetime whole is not a part of spacetime",
+  "legacy_id": "STMT-CAUSES-OF-UNIVERSE-OUTSIDE-SPACETIME",
   "paraphrase": "At the selected world every cause of the spacetime whole is not a part of spacetime.",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.CausesOfUniverseOutsideSpacetime",
   "definition_ids": [
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

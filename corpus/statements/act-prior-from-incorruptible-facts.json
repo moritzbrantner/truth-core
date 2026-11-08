@@ -1,22 +1,24 @@
 {
-  "id": "STMT-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "id": "2484a5b8-9b16-52b1-bbf0-bd066ccf819f",
+  "label": "Formal fact: if every POTENCY_1 is of the contradictory, a being that cannot fail to be in any…",
+  "legacy_id": "STMT-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
   "paraphrase": "Formal fact: (1) if every potency is of the contradictory, a being that cannot fail to be in any respect is pure act. (2) 'Every potency is of the contradictory', 'each simply incorruptible being is prior in substance to each simply corruptible one', 'every simply incorruptible being is in act in substance', 'some being is simply incorruptible' and 'whatever is prior in substance is simply prior' together entail that whatever is in potency in substance is simply posterior to some being in act in substance; (3) each of the five is needed, and (4) all five hold together with non-simultaneity and a potency in substance. (5) With non-simultaneity, that restricted priority excludes that a first being is in potency in substance. (6) There is a model of every prima via premise, of 'whatever is in act in some respect has being', of the mover-priority bridge, of act's simple priority over potencies being actualized and of all five premises of (2), in which act's simple priority over potency fails and a first mover moved by none, to which nothing else is simply prior, is simply incorruptible and in potency in a respect other than substance in which it is not moved.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActPriorFromIncorruptibleFacts",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-PRIORITY-IN-SUBSTANCE",
-    "DEF-CAN-FAIL-TO-BE",
-    "DEF-INCORRUPTIBLE-SIMPLY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-FIRST-BEING",
-    "DEF-PURE-ACT",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "21788f3f-80d3-5eb6-ad91-86a1a5077799",
+    "c8113f31-6208-5992-9ca4-712887a4594b",
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
-    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
   ]
 }

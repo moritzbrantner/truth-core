@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-UNIQUENESS",
-  "argument_id": "NECESSARY-ROOT-UNIQUENESS",
+  "id": "10fd2421-af22-554e-9350-cbf2db6fa3a3",
+  "label": "There exists an actual concrete root…, from Some candidate is CONCRETE_6 and exists at… and 8 more",
+  "legacy_id": "NECESSARY-ROOT-UNIQUENESS",
+  "argument_id": "34d0c2cf-de54-599c-9a11-e7fa83729c28",
   "challenge_module": "TruthCore.Results.Causality.NecessaryRootUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryRootUniqueness.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryRootUniqueness.uniqueRoot",

@@ -1,10 +1,12 @@
 {
-  "id": "INF-INTENTIONALITY943-SELF-ONLY-ACCURACY",
+  "id": "986599ab-fb83-53fa-ab16-48ce639c659b",
+  "label": "Every occurring target mental token has content true at its own…, by Constructive-derivation",
+  "legacy_id": "INF-INTENTIONALITY943-SELF-ONLY-ACCURACY",
   "input_statement_ids": [
-    "STMT-INTENTIONALITY943-REPORT-CORRECT",
-    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT"
+    "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51",
+    "d49bede3-ad6e-5f07-a642-19b526eb2f61"
   ],
-  "output_statement_id": "STMT-INTENTIONALITY943-EVERY-OCCURRENCE-ACCURATE",
+  "output_statement_id": "a5f0b7e0-6c7d-5067-a714-e25d7f6a29fe",
   "rule": "constructive-derivation",
   "meaning": "For each occurring target token, the as-affected report is true; the content/report equivalence then makes that token’s content true at its situation. A typed reconstruction of an analyst error-preservation consequence; no opaque proposition has the conclusion smuggled into a bridge premise.",
   "assumption_statement_ids": [],

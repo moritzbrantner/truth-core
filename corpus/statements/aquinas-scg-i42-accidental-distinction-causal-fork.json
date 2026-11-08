@@ -1,13 +1,15 @@
 {
-  "id": "STMT-AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
+  "id": "2680f259-408e-52f9-8768-c5f49f8dc76f",
+  "label": "For two supposed beings necessary through themselves, a distinguishing feature not required to…",
+  "legacy_id": "STMT-AQUINAS-SCG-I42-ACCIDENTAL-DISTINCTION-CAUSAL-FORK",
   "paraphrase": "For two supposed beings necessary through themselves, a distinguishing feature not required to complete necessity is an accident: if caused by their common necessary essence it cannot distinguish them; if caused by something else, their proper being as distinct depends on another.",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

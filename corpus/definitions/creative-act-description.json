@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CREATIVE-ACT-DESCRIPTION",
+  "id": "4e8282b7-d0aa-5936-9096-eee699480d2a",
+  "label": "World-relative description of the…: A partial function d from worlds to tokens",
+  "legacy_id": "DEF-CREATIVE-ACT-DESCRIPTION",
   "term": "world-relative description of the creative act",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.SimplicityCollapse.DescriptionSound",

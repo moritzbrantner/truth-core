@@ -1,18 +1,20 @@
 {
-  "id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "id": "5cc78212-0aaa-5311-bf35-d54228187ad3",
+  "label": "At the selected world one candidate lacks esse in…, from Disjunction of the explicit set, Form or…",
+  "legacy_id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
   "premise_statement_ids": [
-    "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES"
+    "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "conclusion_statement_id": "fd141661-3c09-55a2-a76a-f56b426ef839",
   "inference_ids": [
-    "INF-NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE"
+    "ed717f25-34b3-5300-aff1-9f0a42f8dc21"
   ],
   "meaning": "Case elimination preserves the selected no-esse productive witness from each named branch.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

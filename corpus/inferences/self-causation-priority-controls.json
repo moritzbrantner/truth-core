@@ -1,7 +1,9 @@
 {
-  "id": "INF-SELF-CAUSATION-PRIORITY-CONTROLS",
+  "id": "a3c3c268-a06d-5331-87b1-fef4e19af67f",
+  "label": "One-being interpretations: a being that causes itself with no priority fails…, by Explicit finite…",
+  "legacy_id": "INF-SELF-CAUSATION-PRIORITY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SELF-CAUSATION-PRIORITY-CONTROLS",
+  "output_statement_id": "13106384-9f9b-5002-b4b7-f115ac827446",
   "rule": "Explicit finite interpretations",
   "meaning": "One-being interpretations: a being that causes itself with no priority fails cause priority; with universal priority it is prior to itself; with no causation both premises and the conclusion hold.",
   "assumption_statement_ids": [],

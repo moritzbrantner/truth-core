@@ -1,24 +1,26 @@
 {
-  "id": "PATH-RELOCATION-CERTIFICATE",
+  "id": "7e15679a-21a6-58a7-bcfe-021933d320e2",
+  "label": "For all types: a time reindexing preserving a condition on complete paths fixes that condition's…",
+  "legacy_id": "PATH-RELOCATION-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PATH-RELOCATION-CERTIFICATE",
+  "conclusion_statement_id": "08dc45f8-4205-5313-8297-06abdffbc954",
   "inference_ids": [
-    "INF-PATH-RELOCATION-CERTIFICATE"
+    "088eabeb-c0e7-5118-b241-4e5f9fc89e0c"
   ],
   "meaning": "Apply uniqueness to the reindexed solution to get symmetry transfer; on Int conclude no change by induction. Compose #736 no_selection with the re-dated rival for the whole-vector failure, and #738 uniqueness for the global instance. Prove token and copy-law exactness pointwise; prove the graph-law dating theorem by integer induction from injectivity; prove the finite bijection by Fin induction and iteration; prove splicing by cases at the join; prove acyclicity by strict increase of date along TransGen.",
   "definition_ids": [
-    "DEF-PATH-RELOCATION-PROFILE",
-    "DEF-PATH-RELOCATION-LAW",
-    "DEF-PATH-RELOCATION-DATING",
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-HISTORY-SELECTION-CONTROLS",
-    "DEF-UNIQUE-FEEDBACK-STATE"
+    "1a7f4fe0-84e9-500d-886e-78f63b27422a",
+    "6788dada-f316-5cc3-8376-e64c512b1a0e",
+    "ed5ebda7-c7d0-5aff-a268-9579e87a852a",
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+    "23c649fa-6acc-5816-954b-5de851e007c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-PATH-RELOCATION",
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "84feebd9-62b5-5bb1-93b7-c4ac491f1a8c",
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

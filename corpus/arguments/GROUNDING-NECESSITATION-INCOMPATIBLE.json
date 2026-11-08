@@ -1,21 +1,23 @@
 {
-  "id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
+  "id": "9c776c3e-5340-5c07-97a3-5c823c2942e5",
+  "label": "Logical falsity, from The selected fact holds at the supplied… and 2 more",
+  "legacy_id": "GROUNDING-NECESSITATION-INCOMPATIBLE",
   "premise_statement_ids": [
-    "STMT-FACT-CONTINGENT-AT",
-    "STMT-FACT-NECESSARY-AT",
-    "STMT-NECESSARY-TOTAL-CONDITION-IMPLICATION"
+    "baf22110-9b54-5c11-a44a-c8447518b824",
+    "d66a1553-2943-5c19-9156-d8c3240c90e8",
+    "ba4ae12f-e9c7-50c3-9079-40dcd78019d8"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-GROUNDING-NECESSITATION-INCOMPATIBLE"
+    "ceb3b1ba-c7b5-5bc3-bfa4-3623b7d135d9"
   ],
   "meaning": "Apply existing Kripke K to boxed q and boxed q→p, then contradict the accessible failure of actual contingent p. No reflexivity or S5.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-BOXED-FACT-TRUTH",
-    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "0c3c8234-269b-55f6-8c96-34522dda62bf",
+    "e6b445d4-6d2e-5c7f-82f9-061810bf2ad3"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

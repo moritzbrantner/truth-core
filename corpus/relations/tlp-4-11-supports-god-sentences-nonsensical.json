@@ -1,9 +1,11 @@
 {
-  "id": "REL-TLP-4-11-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
+  "id": "867b1c02-6ec9-5a39-9e8e-06437a75d6a7",
+  "label": "Ludwig Wittgenstein… supports Open thesis, unattributed reconstruction of… (3)",
+  "legacy_id": "REL-TLP-4-11-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
+  "subject_id": "f03146a3-2198-522a-a5ba-787f05b1c4cb",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "object_id": "a0747bd7-56eb-5413-b598-f9cfbbce056a",
   "note": "4.11 gives that every true proposition is natural science; it does not mention God and leaves open whether a sentence about God could be a false proposition with sense."
 }

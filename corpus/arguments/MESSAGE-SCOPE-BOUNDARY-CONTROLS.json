@@ -1,17 +1,19 @@
 {
-  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "id": "00e7523b-d07c-53b2-ad17-f68f4453c72e",
+  "label": "Two schema controls: the raw message-only and Catholic mandate-scope conditionals coexist while…",
+  "legacy_id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MESSAGE-SCOPE-BOUNDARY-MODELS",
+  "conclusion_statement_id": "c9d393c8-5a13-50eb-a1b5-08d61b92e69a",
   "inference_ids": [
-    "INF-MESSAGE-SCOPE-BOUNDARY-CONTROLS"
+    "64950ca6-dffa-5560-88e9-1a81dd5868b8"
   ],
   "meaning": "Coexistence with an unrealized joint mandate/body antecedent and exact opposition with an actual joint witness. The concrete first construction has no mandate, but this coarse registered target exports only absence of the joint antecedent; the explicit empty-mandate sibling certifies the stronger distinction.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

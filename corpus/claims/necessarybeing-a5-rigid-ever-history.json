@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A5-RIGID-EVER-HISTORY",
-  "statement_id": "STMT-NB-A5-RIGID-EVER-HISTORY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "990565e2-27fa-592b-abc9-a6648b5290f1",
+  "label": "Unattributed website author, Necessary…: For the selected possible W, the source constructs C with…",
+  "legacy_id": "NB-SURVEY-A5-RIGID-EVER-HISTORY",
+  "statement_id": "4cecb5ce-4564-56fd-926f-42c913ef2116",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C, steps 7–10, includes/obtains titles and fixed-four-bearer note after step 20",
   "interpretation": "C fixes W’s particular current-or-past contingent bearers with negative all-and-only content. Four is illustrative, not a finite-domain restriction. The includes title is counterfactual obtaining/existence, not mere set membership. Preserve the source’s exist/or-existed and having-ever-been wording without collapsing it into current ExistsAt or automatically extending it to a complete future history. Admission of this exact C in a situation/Fact domain, preservation across possible caused occurrences and individual/time/world correspondence remain OPEN; no causal aggregate or comprehension theorem is supplied.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

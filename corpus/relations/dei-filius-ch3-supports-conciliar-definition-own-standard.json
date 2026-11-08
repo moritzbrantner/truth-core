@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH3-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
+  "id": "9025fc57-8afe-5666-9b52-90c041b73a54",
+  "label": "First Vatican Council, Dei Filius Ch. 3…… supports In the Catholic practice, whatever an…",
+  "legacy_id": "REL-DEI-FILIUS-CH3-SUPPORTS-CONCILIAR-DEFINITION-OWN-STANDARD",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-DIVINE-AND-CATHOLIC-FAITH",
+  "subject_id": "d1940c53-27d0-5d19-99da-1fe66f2e025a",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+  "object_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
   "note": "Ch. 3 makes what the Church proposes as revealed by solemn judgment an object of divine and catholic faith, a rule of the practice itself. It does not mention canons on natural knowledge, which are not proposed as revealed truths in that sense, and it does not say that the practice's grammar is fixed by its conciliar definitions; that is the bridge's open step, and the step a fideist rejects (needsDefinitionIsOwnStandard)."
 }

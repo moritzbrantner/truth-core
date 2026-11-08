@@ -1,42 +1,44 @@
 {
-  "id": "CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING",
+  "id": "e47d6abd-a3ca-5426-be1f-646929504b1a",
+  "label": "Some concrete individual exists at w…, from Some candidate is CONCRETE_6 and exists at… and 5… (2)",
+  "legacy_id": "CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-CONTINGENT-ATOMIC-PARTS",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "83fdeb19-900c-5416-a828-2a1c9da983e8",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d8a1fb16-ce20-542f-9e3b-d9350468e331"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "conclusion_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "inference_ids": [
-    "INF-CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING"
+    "32be421e-eaef-52bd-9795-690059dc3312"
   ],
   "meaning": "Assembly composition, not an independent philosophical inference: instantiate existing CONTINGENT-ATOMICITY-NECESSARY-BEING on NecessaryConcreteUnderived.concreteOntic m. The EXISTING InhabitedConcreteAt input supplies concrete b and actual existence; construct the nonempty nested actual-concrete subtype internally. All atomicity, cover, nonoverlap and selected causal-coverage inputs concern that SAME subtype/order and selected world, not an unrestricted domain. Coverage supplies concrete actual causal witnesses. Unpack the imported necessary witness c to c.val with c.property, retaining SAME candidate, frame and original ExistsAt; conclude existing NecessaryConcreteAt. Ordinary Ontic.Causes remains separate from Profile.grounds, which is unused. No NE-to-concrete axiom, extra frame law, source claim, uniqueness, God or root-premise truth is inferred. Generic object population alone does not supply concrete population. Restriction to concrete candidates does not automatically preserve unrestricted-domain atomicity or coverage; their applicability remains OPEN.",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-LOCAL-CAUSE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
-    "DEF-CONTINGENT-ATOMIC-PARTS",
-    "DEF-CONCRETE-SUPPORT-RESTRICTION",
-    "DEF-INHABITED-CONCRETE-WORLD"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "223c29ec-0983-5329-8f3e-fbd9276f0339",
+    "100418df-e671-5455-b7de-4f4930d400df",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
-    "DISAMB-NECESSARY"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "WITTGENSTEIN-OC-341-DOUBT-RESTS-ON-EXEMPT",
-  "statement_id": "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "857feabf-2046-514b-9d6f-5e366f449124",
+  "label": "Ludwig Wittgenstein, Über Gewißheit §341…: Über Gewißheit §341: whenever something is doubted…",
+  "legacy_id": "WITTGENSTEIN-OC-341-DOUBT-RESTS-ON-EXEMPT",
+  "statement_id": "1f9c3b57-42b7-5c33-82a7-feaaaa5d7b81",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§341, die Fragen, die wir stellen, und unsre Zweifel beruhen darauf, daß gewisse Sätze vom Zweifel ausgenommen sind",
   "interpretation": "§341: 'D. h. die Fragen, die wir stellen, und unsre Zweifel beruhen darauf, daß gewisse Sätze vom Zweifel ausgenommen sind, gleichsam die Angeln, in welchen jene sich bewegen.' Read as: whenever something is doubted, some sentence is exempt from doubt. The reading drops 'beruhen darauf' (rest on) to bare co-occurrence, which is weaker. §342-343 add that this belongs to the logic of inquiry and is not a concession that we cannot check everything; neither is used.",
   "status": "formalized",
   "attribution": "The passage states that our doubts rest on certain sentences being exempt from doubt, which is the premise that whenever something is doubted some sentence is exempt from doubt.",
   "definition_ids": [
-    "DEF-DOUBTED-SENTENCE"
+    "df15d154-b759-5f2f-b449-617f4f34ee6a"
   ]
 }

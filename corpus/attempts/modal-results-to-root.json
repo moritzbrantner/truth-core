@@ -1,26 +1,28 @@
 {
-  "id": "ATTEMPT-MODAL-RESULTS-TO-ROOT",
+  "id": "7dd18cb4-03c6-502a-9809-5c2f6f2ab18f",
+  "label": "Triage of all 84 disconnected TruthCore.Modal results",
+  "legacy_id": "ATTEMPT-MODAL-RESULTS-TO-ROOT",
   "statement_ids": [
-    "STMT-NECESSARY-ROOT-ON-INTENDED-READING",
-    "STMT-NECESSARY-ROOT-BOX-K",
-    "STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
-    "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE",
-    "STMT-MODAL-DITHEISM",
-    "STMT-NECESSARY-ACT-STRICT-CONTINGENT",
-    "STMT-GOD-IS-MAXIMAL-IN-BEING"
+    "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
+    "c3afabb3-3442-5b29-83bf-7114354b345a",
+    "93e1e13c-8a6b-5ec7-85af-9a5e64e6f086",
+    "f8d9387a-3e8d-5476-9efd-c3ecd77a700b",
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc"
   ],
   "date": "2026-11-08",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Triage of all 84 disconnected TruthCore.Modal results (docs/notes/modal-results-triage.md; A 2, A-deferred 5, B 27, C 40, D 10). Certified MODAL-FORK-T/-S4/-KTB/-S5: each frame-class branch of the 'necessary' sense fork concludes the fork node STMT-NECESSARY-ROOT-ON-INTENDED-READING from the K node, an OPEN modal schema premise (T, 4, B or 5 valid on the route's frame) and an OPEN reading premise, applying the modal library's StandardCorrespondenceCertificate and ConvergenceCertificate to derive the frame condition. MODAL-FORK-T lowers NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK from 53 to 52. Recorded two refutations backed by existing verified Modal results: NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT refutes STMT-MODAL-DITHEISM (does not count: open premises); SIMPLICITY-COLLAPSE-CORE refutes STMT-NECESSARY-ACT-STRICT-CONTINGENT (no premises; a constraint on the route's account of creation, not a rival of a root premise). Rejected leads: (a) using the modal-collapse laws (K/T/D/B/S4/S5) as refutations of a root rival: the root path asserts no actual contingent being, so collapse contradicts no root premise; (b) deriving box-existence of the root from #437 necessary-if-existent: the K node already gives it, so the modal theorem would do no work; (c) connecting the existence-degree results to STMT-GOD-IS-MAXIMAL-IN-BEING: needs a bridge from world-indexed Preorder degrees to MoreIn at esse and one from the selected individual to God (two bridges); (d) per-sense fork arguments from the existing per-sense nodes (BOX-T etc.) plus a reading premise: the proof only pairs hypotheses (assembly), so they were not added.",
   "evidence": [
-    "MODAL-FORK-T",
-    "MODAL-FORK-S4",
-    "MODAL-FORK-KTB",
-    "MODAL-FORK-S5",
-    "MODAL-FORK-CONTROLS",
-    "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
-    "SIMPLICITY-COLLAPSE-CORE"
+    "0be37d73-c1f3-5936-8f11-96d34b75c0df",
+    "b8ff870f-ce10-59eb-841f-8dbba23ba7d6",
+    "9fc31eed-be5e-55b2-9d46-1fa4baeb88f7",
+    "b26ce0c7-e20b-5228-9363-bae08c8b889f",
+    "ee82c652-d18e-5583-ac14-8982ddc3ac9c",
+    "49aa21c2-bd96-5adf-b53b-d4d027dacc9d",
+    "6ef579ca-3680-5450-bca2-ffa243b36cb1"
   ],
   "blocker": "The two connected Modal results are assembly certificates, so the group's non-transcription orphan count is unchanged (77). The collapse family (27 B results) needs a root-path premise asserting an actual contingent being before any collapse rival can be recorded as alternative_to a root premise; the degree and rigid-designation results need the bridges named in the triage."
 }

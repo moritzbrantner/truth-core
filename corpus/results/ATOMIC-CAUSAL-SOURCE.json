@@ -1,6 +1,8 @@
 {
-  "id": "ATOMIC-CAUSAL-SOURCE",
-  "argument_id": "ATOMIC-CAUSAL-SOURCE",
+  "id": "2f217d6e-b38e-51df-bd1d-cd397e6e4074",
+  "label": "Some object is a source of the selected…, from The non-null object domain is inhabited and 4 more",
+  "legacy_id": "ATOMIC-CAUSAL-SOURCE",
+  "argument_id": "74d3060e-be21-5864-bd5e-ffb1a93c9d61",
   "challenge_module": "TruthCore.Results.Causality.AtomisticCausalSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.AtomisticCausalSource.Solution",
   "theorem": "TruthCore.Results.Causality.AtomisticCausalSource.source",

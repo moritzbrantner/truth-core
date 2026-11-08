@@ -1,17 +1,19 @@
 {
-  "id": "MAXIME-DEFINITION-BOUNDARIES",
+  "id": "b9a89aa5-8e80-5d26-9d57-4e4a63697b6f",
+  "label": "Exact finite controls: two incomparable represented degrees satisfy strict comparative calibration…",
+  "legacy_id": "MAXIME-DEFINITION-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MAXIME-DEFINITION-CONTROLS",
+  "conclusion_statement_id": "9dfc0fc2-73e4-56f3-8f7c-707793b7093f",
   "inference_ids": [
-    "INF-MAXIME-DEFINITION-BOUNDARIES"
+    "3c9a684a-917a-513b-9109-8c1b2de0faae"
   ],
   "meaning": "Finite incomparable/tied/remainder controls for the exact declared profiles. The incomparable model source greatest-degree causal principle is explicitly vacuous; it does not refute that conditional or establish a real causal ontology.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

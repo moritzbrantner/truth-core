@@ -1,19 +1,21 @@
 {
-  "id": "STMT-ROUND5-WORKLIST-CONTROLS",
+  "id": "e628b84d-e8f4-5280-8cf4-8cf7fd17ace0",
+  "label": "Finite interpretations for the eleven derivations of round 5: for each premise, a model on Unit…",
+  "legacy_id": "STMT-ROUND5-WORKLIST-CONTROLS",
   "paraphrase": "Finite interpretations for the eleven derivations of round 5 (worklist clusters): for each premise, a model on Unit, Bool or Fin 2 (on the natural numbers for the two finiteness derivations) in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with populated antecedents (an efficient cause simply prior to its effect, depended on by it and causing its being; a pure act with an operation from itself living at every time beside a moved being whose life-state changes; one intellectual being with an intelligible form, an operation for an end, an inclination, an intellectual appetite and will). Satisfiability and omission only; no model is claimed to describe reality.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.Control.Certificate",
   "definition_ids": [
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-CHANGE-BETWEEN-TIMES",
-    "DEF-OPERATION-OF",
-    "DEF-OPERATES-FROM-ITSELF-AT",
-    "DEF-OPERATION-THROUGH-FORM-FOR-END",
-    "DEF-UNDERSTANDS",
-    "DEF-APPETITIVE-POWER-FOLLOWING-INTELLECT",
-    "DEF-LIFE-PRESENT-AT"
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "04c061b1-85ea-573f-8243-3b482c5fce23",
+    "d77b6ed3-f8d6-5839-8089-fdb5f3562e94",
+    "e5ca09aa-c0f2-5784-8c28-eb9c1ccc6fec",
+    "fa727d21-0365-5c34-9d50-11221e90d6a2",
+    "0fa78db2-05d6-5c3e-b8c9-04124ccc5776",
+    "4869f913-d360-5b9f-a361-2c4b7cf886df",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-MOTION"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

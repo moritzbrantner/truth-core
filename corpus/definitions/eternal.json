@@ -1,12 +1,14 @@
 {
-  "id": "DEF-ETERNAL",
+  "id": "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+  "label": "ETERNAL_1: Eternity has neither beginning nor end and is without succession, all at once; it is not…",
+  "legacy_id": "DEF-ETERNAL",
   "term": "eternal (ST I q.10; Lean parameter `Eternal` of `GodIsEternal`)",
   "definition": "Eternity has neither beginning nor end and is without succession, all at once (ST I q.10 a.1); it is not merely endless time. In stage 2 Eternal is a primitive predicate supplied to GodIsEternal and ClassicalAttributesSuffice.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Case.Catholicism.GodIsEternal",
   "note": "ImmutableIsEternalReading states only that being in potency in no respect suffices for Eternal. It does not encode time, beginning, end or succession, so the intended sourced meaning is not a new definitionally enforced temporal theorem.",
   "claim_ids": [
-    "AQUINAS-ST-I-Q10-A1-ETERNITY-WITHOUT-SUCCESSION",
-    "AQUINAS-ST-I-Q10-A2-ETERNITY-FOLLOWS-IMMUTABILITY"
+    "3a64544a-d0b1-54aa-9974-188de3d01df7",
+    "d2d793a1-0ab0-5694-a740-2e4cef579d18"
   ]
 }

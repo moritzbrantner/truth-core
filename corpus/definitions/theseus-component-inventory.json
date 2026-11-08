@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THESEUS-COMPONENT-INVENTORY",
+  "id": "e548fee9-1ead-5138-9927-8aa709dc000e",
+  "label": "EXACT_COMPONENT_INVENTORY_2: Two fixed slots each have their own old and replacement component",
+  "legacy_id": "DEF-THESEUS-COMPONENT-INVENTORY",
   "term": "exact component inventory",
   "definition": "Two fixed slots each have their own old and replacement component. A Bool pair records the generation at each slot, not merely shape or mass: original and reassembled have (old,old), intermediate (new,old), continued (new,new). These finite inventories are shared by all bearer assignments; no whole-object identity is defined by inventory.",
   "basis": "stipulative",

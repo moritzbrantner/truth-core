@@ -1,6 +1,10 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser, type Locator, type Page } from "playwright";
+import { paraphrase, short, uid } from "./corpus-records";
+
+const ROOT = uid("statement", "STMT-CATHOLICISM-TRUE");
+const GOD_ROOT = uid("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT");
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve> | undefined;
@@ -82,7 +86,7 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   const url = new URL(basePath + "/forest/assumptions/", testOrigin ?? server!.url);
-  url.searchParams.set("goal", "STMT-CATHOLICISM-TRUE");
+  url.searchParams.set("goal", ROOT);
   await page.goto(url.toString());
   const tree = page.getByRole("region", { name: "Single proposition tree" });
   const orLabel = tree.getByText(/^OR · \d+ recorded arguments supporting this conclusion$/).first();
@@ -116,38 +120,38 @@ test("single-tree assumptions: all argument routes, deep expansion, scenario sel
   }
   await page.setViewportSize({ width: 1360, height: 900 });
 
-  const rootChoice = tree.getByRole("group", { name: "Hypothetical truth of STMT-CATHOLICISM-TRUE" });
+  const rootChoice = tree.getByRole("group", { name: `Hypothetical truth of ${paraphrase("STMT-CATHOLICISM-TRUE")}` });
   await rootChoice.getByRole("button", { name: "True" }).click();
-  await page.waitForFunction(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.includes("STMT-CATHOLICISM-TRUE"));
+  await page.waitForFunction((root) => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.accepted.includes(root), ROOT);
   expect(new URL(page.url()).searchParams.has("yes")).toBe(false);
   await expectPressed(page, rootChoice.getByRole("button", { name: "True" }));
   await rootChoice.getByRole("button", { name: "False" }).click();
   await page.getByRole("region", { name: "Review reversing a saved belief" }).getByRole("button", { name: "Withdraw earlier choice and continue" }).click();
-  await page.waitForFunction(() => {
+  await page.waitForFunction((root) => {
     const belief = JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null");
-    return belief?.denied.includes("STMT-CATHOLICISM-TRUE") && !belief.accepted.includes("STMT-CATHOLICISM-TRUE");
-  });
+    return belief?.denied.includes(root) && !belief.accepted.includes(root);
+  }, ROOT);
   await page.reload();
   await expectPressed(page, rootChoice.getByRole("button", { name: "False" }));
   await page.getByRole("button", { name: "Copy scenario link" }).click();
   const shared = new URL(await page.getByLabel("Shareable preview URL (select to copy)").inputValue());
   expect(shared.searchParams.get("preview")).toBe("1");
-  expect(shared.searchParams.getAll("no")).toContain("STMT-CATHOLICISM-TRUE");
+  expect(shared.searchParams.getAll("no")).toContain(ROOT);
   shared.searchParams.delete("no");
-  shared.searchParams.append("yes", "STMT-CATHOLICISM-TRUE");
+  shared.searchParams.append("yes", ROOT);
   await page.goto(shared.toString());
   await page.getByText("Shared what-if preview · not saved").waitFor();
   await expectPressed(page, rootChoice.getByRole("button", { name: "True" }));
   expect(await page.evaluate(() => JSON.parse(localStorage.getItem("truth-core:belief-profile:v1") ?? "null")?.denied))
-    .toContain("STMT-CATHOLICISM-TRUE");
+    .toContain(ROOT);
   await page.getByRole("button", { name: "Return to saved beliefs" }).click();
   await page.waitForURL((next) => !next.searchParams.has("preview") && !next.searchParams.has("yes"));
   await expectPressed(page, rootChoice.getByRole("button", { name: "False" }));
-  await page.getByLabel("Find a proposition to investigate or assume").fill("STMT-NECESSARY-CLASSICAL-GOD-ROOT");
+  await page.getByLabel("Find a proposition to investigate or assume").fill(GOD_ROOT);
   const searchResults = page.getByRole("list", { name: "Matching propositions" });
-  expect(await searchResults.getByRole("button").first().getByText("STMT-NECESSARY-CLASSICAL-GOD-ROOT", { exact: true }).count()).toBe(1);
-  await searchResults.getByText("STMT-NECESSARY-CLASSICAL-GOD-ROOT", { exact: true }).click();
-  await page.waitForURL((next) => next.searchParams.get("goal") === "STMT-NECESSARY-CLASSICAL-GOD-ROOT");
+  expect(await searchResults.getByRole("button").first().getByText(short("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT"), { exact: true }).count()).toBe(1);
+  await searchResults.getByText(short("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT"), { exact: true }).click();
+  await page.waitForURL((next) => next.searchParams.get("goal") === GOD_ROOT);
   if (process.env.FOREST_SCREENSHOTS) {
     await page.screenshot({ path: path.join(process.env.FOREST_SCREENSHOTS, "assumptions-desktop.png"), fullPage: true });
   }

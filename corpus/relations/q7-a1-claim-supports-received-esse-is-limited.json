@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-CLAIM-SUPPORTS-RECEIVED-ESSE-IS-LIMITED",
+  "id": "869031e3-5c60-5979-89ed-05afc4022935",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports For every being x and principle r, if the…",
+  "legacy_id": "REL-Q7-A1-CLAIM-SUPPORTS-RECEIVED-ESSE-IS-LIMITED",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE",
+  "subject_id": "153eef01-d362-5aa5-862f-e12f3cae6b52",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-RECEIVED-ESSE-IS-LIMITED",
+  "object_id": "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
   "note": "The supporting claim is the q.7 a.1 claim AQUINAS-ST-I-Q7-A1-UNLIMITED-ESSE-INFINITE, whose interpretation cites q.7 a.2 co.: the esse of a subsistent created form, which 'non est suum esse', is 'receptum et contractum ad determinatam naturam' and hence not infinite simpliciter. The passage gives reception and contraction together, of created subsistent forms only; that reception suffices for limitation, and for every received esse, is the analyst's generalization."
 }

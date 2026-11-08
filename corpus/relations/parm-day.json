@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-DAY",
+  "id": "d444cd55-81d5-5bef-ae52-2fbf7902d03b",
+  "label": "Plato, Parmenides 131b: Socrates proposes… supports A finite interpretation satisfies the…",
+  "legacy_id": "REL-PARM-DAY",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-131B-DAY-REPLY",
+  "subject_id": "4114b7da-d5b1-5dec-9369-fa64bd5c4cb6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-NONSPATIAL-POSSIBLE"
+  "object_id": "564162f4-6f41-5747-8f39-24e06efc7b03"
 }

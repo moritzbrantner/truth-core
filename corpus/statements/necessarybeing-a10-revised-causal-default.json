@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NB-A10-REVISED-CAUSAL-DEFAULT",
+  "id": "81089332-1082-5b96-940d-25691abb16d0",
+  "label": "Under the revised automatic-existence-if-possible classification and its contingent complement…",
+  "legacy_id": "STMT-NB-A10-REVISED-CAUSAL-DEFAULT",
   "paraphrase": "Under the revised automatic-existence-if-possible classification and its contingent complement, the affirmative report finds it plausible that any given contingent thing is more likely than not to have a cause as a defeasible rule of thumb.",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "849896d5-dde0-5f60-a951-788992e3726d"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

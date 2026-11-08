@@ -1,9 +1,11 @@
 {
-  "id": "REL-EPISTEMIC-REASON-REMAINING-ALTERNATIVE-TO-COVERAGE",
+  "id": "94bd99f3-edbc-5e3e-a4ac-24a71d71eb14",
+  "label": "In the fixed comparison profile, none of… alternative to At least one of the ordinary-role…",
+  "legacy_id": "REL-EPISTEMIC-REASON-REMAINING-ALTERNATIVE-TO-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-EPISTEMIC-REASON-ADDITIONAL-DEFINITION-REMAINS",
+  "subject_id": "d8fd3d09-bebd-5b88-8e4f-91154e0b339b",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+  "object_id": "da3a45ec-f4c0-55dd-bc2a-e3a56a980b33",
   "note": "The remaining calibration conjunction negates the four-way named coverage proposition in the same fixed profile. It is not a blanket rival to ordinary support or independent authority."
 }

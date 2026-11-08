@@ -1,13 +1,15 @@
 {
-  "id": "LEIBNIZ-NECESSARY-REALITY-COMPLETION-A",
-  "statement_id": "STMT-LEIBNIZ-NECESSARY-REALITY-COMPLETION",
-  "source_id": "LEIBNIZ-MONADOLOGY",
+  "id": "ec3bfcb9-5529-5447-8a8e-5adc9d9d91c8",
+  "label": "Gottfried Wilhelm Leibniz, Monadology §§39–45: Leibniz argues from the unique necessary universal…",
+  "legacy_id": "LEIBNIZ-NECESSARY-REALITY-COMPLETION-A",
+  "statement_id": "fd0230f2-8e2c-56cc-b1ab-1170606a3691",
+  "source_id": "738fd471-e47c-57a1-96ae-ab295261c7dc",
   "locator": "§§39–45",
   "interpretation": "His own sequence adds uniqueness, universality and unrestricted dependence before unlimited reality (§40), distinguishing it from bare necessary existence. §45 expressly claims both a priori and a posteriori routes; independence of the latter remains contested by Kant, not settled by this reading.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-SUFFICIENT-REASON",
-    "DEF-KANT-REALITY-PROFILE"
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d"
   ]
 }

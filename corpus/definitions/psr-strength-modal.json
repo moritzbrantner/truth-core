@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-STRENGTH-MODAL",
+  "id": "a878fe4c-1350-570d-978a-605fe8bad913",
+  "label": "Modal position of a PSR: NecessaryPSR says ContingentPSR holds at every accessible world",
+  "legacy_id": "DEF-PSR-STRENGTH-MODAL",
   "term": "modal position of a PSR",
   "definition": "NecessaryPSR says ContingentPSR holds at every accessible world. WeakPSR says each contingent truth at w has a reason at some accessible world where it is true; that reason need not obtain or explain at w. StableReason says one fact is a reason for f at every world where f is true.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "SCOTUS-QQ-METAPH-IX-Q14",
-  "source_id": "DUNS-SCOTUS-QQ-METAPH",
+  "id": "09343357-d9e9-5d57-8013-23968f5d950c",
+  "label": "Pin a witness of Scotus' question on self-motion and attribute act and potency in same respect if…",
+  "legacy_id": "SCOTUS-QQ-METAPH-IX-Q14",
+  "source_id": "3869e5bc-02ee-5f61-8c16-9200fbe8ac39",
   "locator": "IX q.14",
   "priority": 900,
   "goal": "Pin a witness of Scotus' question on self-motion and attribute STMT-ACT-AND-POTENCY-IN-SAME-RESPECT (virtual act and formal potency to the same perfection) if the text supports it. Record whether Scotus' denial of 'whatever is moved is moved by another' is a rival to STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT or to STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT on each sense of DISAMB-IN-ACT.",

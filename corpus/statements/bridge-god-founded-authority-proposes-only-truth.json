@@ -1,12 +1,14 @@
 {
-  "id": "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "id": "dd2d9776-6550-5ee9-a206-dad03027c003",
+  "label": "Bridge premise: whatever a society founded as a teaching authority by a GOD_4 with the classical…",
+  "legacy_id": "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
   "paraphrase": "Bridge premise: whatever a society founded as a teaching authority by a God with the classical attributes definitively proposes as divinely revealed is true.",
   "lean_declaration": "TruthCore.Case.Catholicism.BridgeGodFoundedAuthorityProposesOnlyTruth",
   "definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-DEFINITIVELY-PROPOSES-AS-REVEALED"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "073468e1-25d6-5d46-836c-c6e8f230809d"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
   ]
 }

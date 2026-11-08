@@ -1,6 +1,8 @@
 {
-  "id": "PURE-ACT-PLURALITY-IS-BARE",
-  "argument_id": "PURE-ACT-PLURALITY-IS-BARE",
+  "id": "d4849bd3-37cc-54d8-9ab5-7d37ebedeb3c",
+  "label": "Any two first movers moved by none…, from Every first mover moved by none really has… and 1 more",
+  "legacy_id": "PURE-ACT-PLURALITY-IS-BARE",
+  "argument_id": "36555afb-5d20-549b-8b32-2f2604d8fce7",
   "challenge_module": "TruthCore.Results.Causality.PureActThisness.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureActThisness.Solution",
   "theorem": "TruthCore.Results.Causality.PureActThisness.pureActPluralityIsBare",

@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-ALLOWED-CASES",
-  "argument_id": "STRENGTH-ORDER-ALLOWED-CASES",
+  "id": "52d1a27d-0219-559c-9d56-f12fecda76f7",
+  "label": "For every mathematical linear order and shared x,y, y ≥ x holds exactly when y > x or y = x; no…",
+  "legacy_id": "STRENGTH-ORDER-ALLOWED-CASES",
+  "argument_id": "2eaec4c6-3095-5086-9813-f270fb8c7904",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.allowedCases",

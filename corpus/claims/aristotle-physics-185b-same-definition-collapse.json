@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185B-SAME-DEFINITION-COLLAPSE-A",
-  "statement_id": "STMT-SAME-DEFINITION-ONE-COLLAPSES-DISTINCTIONS",
-  "source_id": "ARIST-PHYS",
+  "id": "cee61636-5ef5-5aa1-9366-c8eac1e6ce05",
+  "label": "Aristotle, Physics I.2, 185b19-25: If all beings are one by having the same definition, basic…",
+  "legacy_id": "ARIST-PHYS-185B-SAME-DEFINITION-COLLAPSE-A",
+  "statement_id": "f2d1d7a6-553e-5035-b15f-7f0b3c2d8ae7",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185b19-25",
   "interpretation": "Aristotle treats unity by a single definition as a reductio: it collapses distinctions such as good/bad and human/horse and thereby undermines differentiated being rather than establishing the intended monism.",
   "status": "formalized"

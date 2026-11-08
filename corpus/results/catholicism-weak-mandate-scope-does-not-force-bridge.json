@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
-  "argument_id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "id": "ac65a3bd-e353-5e65-9ed0-1fb02c830e9d",
+  "label": "A schema model has nonempty global GOD_4/founding antecedents, attestation, veracity, Catholic-only…",
+  "legacy_id": "CATHOLICISM-WEAK-MANDATE-SCOPE-DOES-NOT-FORCE-BRIDGE",
+  "argument_id": "21957aa1-7ed1-5407-922a-eb6278c2935b",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingWeakScope.weakScopeCountermodel",

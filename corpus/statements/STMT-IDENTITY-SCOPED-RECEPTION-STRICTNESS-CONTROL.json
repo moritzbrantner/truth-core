@@ -1,14 +1,16 @@
 {
-  "id": "STMT-IDENTITY-SCOPED-RECEPTION-STRICTNESS-CONTROL",
+  "id": "9d08831a-e912-5f90-96c1-2c33bc4a0461",
+  "label": "One finite profile has an actual union, same-act communication and canonical reception by the…",
+  "legacy_id": "STMT-IDENTITY-SCOPED-RECEPTION-STRICTNESS-CONTROL",
   "paraphrase": "One finite profile has an actual union, same-act communication and canonical reception by the nonidentity soul-labelled bearer into a distinct bodily recipient, so broad own-essence fails; the identity-scoped law holds and a separate identity-bearing candidate exists. These are structural role labels, not real human/soul ontology. No joint satisfaction of the other infinity premises is asserted.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.IdentityScopeControl",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

@@ -1,15 +1,17 @@
 {
-  "id": "INF-NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
+  "id": "a63bf9d0-8182-57cd-82b3-4f2278c2965d",
+  "label": "Some same named actual necessarily underived R-witness is also the unique actual…, by Direct-proof",
+  "legacy_id": "INF-NECESSARY-UNION-COMMON-SUPPORT-SOURCE",
   "input_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
-    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "eb88842a-1dc7-5632-a0e0-556eec39864a",
+    "1a575754-6316-5d66-ac5b-db8fb4cf1aef"
   ],
-  "output_statement_id": "STMT-COMMON-UNDERIVED-SUPPORT-SOURCE",
+  "output_statement_id": "d36abbb0-4330-53e1-a13a-495de71f62ee",
   "rule": "direct-proof",
   "meaning": "Import and apply NecessarilyUnderived.PositiveUnion.checks with its exact FIVE original premises: NecessaryBeing, actual reflexivity, no contingent supporter of a necessary bearer, necessary-support-union WF, and explicit EM. Preserve its witness through exists_support on the actual R-support graph, using open support connectivity and confluence. No causal-support map is needed. Necessary-support-union WF is retained; no ordinary world-causal WF or reciprocal universal potential-cause role is assumed. This is a conditional connection, not a new defense or root closure.",
   "assumption_statement_ids": [],

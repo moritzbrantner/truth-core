@@ -1,30 +1,32 @@
 {
-  "id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "id": "83236cf0-31ab-50b8-ac73-055f6c0a7216",
+  "label": "Scott's theorem T3: necessarily a…, from Scott's axiom A1a: at every world, for… and 7 more",
+  "legacy_id": "SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
   "premise_statement_ids": [
-    "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
-    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
-    "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
-    "STMT-SCOTT-GOD-LIKE-POSITIVE",
-    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
-    "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-ACCESSIBILITY-SYMMETRIC",
-    "STMT-EXCLUDED-MIDDLE"
+    "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
+    "92df6b8e-ee4a-515e-96a9-813cf012cdc0",
+    "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
+    "a6b42d40-6d62-5fbb-85e4-5a37c6ca4a3e",
+    "0a4a4f75-f7e6-5543-8547-07de3402769c",
+    "37a67a9e-31a7-5243-902b-fd3260fd5526",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "conclusion_statement_id": "93824f63-3964-50ec-a029-057102888f72",
   "inference_ids": [
-    "INF-SCOTT-T1",
-    "INF-SCOTT-C",
-    "INF-SCOTT-T2",
-    "INF-SCOTT-T3"
+    "1734eed6-5986-51df-8c04-fbd2b422977c",
+    "a896e994-c62c-5da0-88b0-a34ac9c9a5a6",
+    "97c46f06-61e4-5022-a8a6-1f04cbdbd673",
+    "c796d502-8bed-5cc9-9162-eb70aa047737"
   ],
   "meaning": "Scott's variant of Gödel's ontological argument as formalized in the AFP theory GoedelGod.thy: from A1a, A1b, A2, A3, A4, A5, the symmetric frame (KB) and excluded middle for the classical host logic, necessarily a God-like being exists (T3), through T1, C and T2. Each Isabelle axiom used by the AFP proofs is a separate premise. The Comparator config also verifies premisesJointlySatisfiable, whose frozen type does not require a world and so is satisfied vacuously by an empty type of worlds (its proof happens to use one world); the nonvacuous check is SCOTT-PREMISES-SATISFIABLE-WITH-WORLD. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-WORLD-GAP-TOTAL",
+  "id": "ed76fd1e-c0cb-5f15-bc56-984e7b7112e8",
+  "label": "RIGID_TOTAL_HISTORY_FACT_1: A Case pairs a supplied History with a reason arena over the same ontic…",
+  "legacy_id": "DEF-ACTUAL-WORLD-GAP-TOTAL",
   "term": "rigid total-history fact",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ActualWorldGap.Case",

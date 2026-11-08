@@ -1,6 +1,8 @@
 {
-  "id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
-  "argument_id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+  "id": "973582b8-b190-5f29-ab82-2ae387cffc68",
+  "label": "GOD_4 exists: there is something…, from Some candidate is CONCRETE_6 and exists at… and 11 more",
+  "legacy_id": "DIRECT-ESSE-ROOT-GOD-EXISTENCE-ONLY",
+  "argument_id": "5e8e6054-2f55-52dc-bb46-37816032d2de",
   "challenge_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Challenge",
   "solution_module": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.Solution",
   "theorem": "TruthCore.Results.Causality.DirectEsseRootGodExistence.ExistenceOnly.godExists",

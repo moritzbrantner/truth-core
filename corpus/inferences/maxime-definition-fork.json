@@ -1,9 +1,11 @@
 {
-  "id": "INF-MAXIME-DEFINITION-FORK",
+  "id": "892254fb-f035-517f-918c-87ed2e8bc28a",
+  "label": "For each supplied preorder/profile, named superlative calibrations cover or…, by Constructive-proof",
+  "legacy_id": "INF-MAXIME-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-MAXIME-DEFINITION-FORK",
+  "output_statement_id": "e60cc3c0-0728-53eb-8389-a3adff87ea81",
   "rule": "constructive-proof",
   "meaning": "Structural coverage transcription under explicit excluded middle: three named calibration candidates cover or all three fail. No philosophical completeness is inferred.",
   "assumption_statement_ids": [],

@@ -1,27 +1,29 @@
 {
-  "id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "id": "329c975b-88a4-51b9-9951-13c784e60dc3",
   "premise_statement_ids": [
-    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+    "f590a5d5-d592-5734-bffd-0936ec276c4b"
   ],
-  "conclusion_statement_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "conclusion_statement_id": "e6515003-6767-5b11-bf9f-54280b900c18",
   "inference_ids": [
-    "INF-MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
+    "6f0a5a03-9ae9-5d08-8caa-55808f4e6da1"
   ],
   "meaning": "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one.",
   "definition_ids": [
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
-    "DEF-MOTION-AS-REDUCTION"
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "sense_bridges": [
     {
       "term": "IN_ACT",
       "from": "7b3e570e-7557-402d-95ac-f33ebcefa0ca",
       "to": "e086dd1d-2a37-4549-a2e8-1f6203a2249c",
-      "statement_id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT"
+      "statement_id": "f590a5d5-d592-5734-bffd-0936ec276c4b"
     }
-  ]
+  ],
+  "label": "IN-ACT_3, inclusive reading: whatever moves something in a respect is in act in that…, from formal",
+  "legacy_id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL"
 }

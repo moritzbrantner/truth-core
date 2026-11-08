@@ -1,15 +1,17 @@
 {
-  "id": "STREET-STANCE-INDEPENDENT-REALISM",
-  "statement_id": "STMT-STREET-STANCE-INDEPENDENT-REALISM",
-  "source_id": "STREET-DARWINIAN-DILEMMA",
+  "id": "2e2d5ded-4d67-5a86-b0b3-afd34b9c5319",
+  "label": "Sharon Street, A Darwinian Dilemma for…: Street’s target realism holds that some evaluative truths…",
+  "legacy_id": "STREET-STANCE-INDEPENDENT-REALISM",
+  "statement_id": "03baa667-a235-5e7f-96d2-46c3d1757bb3",
+  "source_id": "d7ffb39e-a815-5d14-902f-3594feef66ef",
   "locator": "pp. 110–112, §2: target and stance-independence",
   "interpretation": "Taxonomic source reading, not a proof that this is the only legitimate sense of moral realism. Dependence of a judgment’s subject matter on attitudes is distinguished from dependence of its correctness on the stance taken toward it.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-STREET-STANCE-INDEPENDENCE",
-    "DEF-NATURALIST-APPRAISER-INDEPENDENCE"
+    "e1aab5d4-0115-53d3-ab0c-2a3ead63e6d3",
+    "4bec6a3a-8ce8-51cd-8657-265ae830eab1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

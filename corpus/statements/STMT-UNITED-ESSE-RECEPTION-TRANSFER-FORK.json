@@ -1,14 +1,16 @@
 {
-  "id": "STMT-UNITED-ESSE-RECEPTION-TRANSFER-FORK",
+  "id": "b78847ae-bd5c-5b53-bf54-7e93693f2448",
+  "label": "For every supplied role/state profile, either the explicit same-act transfer holds or a precise…",
+  "legacy_id": "STMT-UNITED-ESSE-RECEPTION-TRANSFER-FORK",
   "paraphrase": "For every supplied role/state profile, either the explicit same-act transfer holds or a precise union/communication/act-identity/nonreception countertuple exists. Checked structural coverage under explicit excluded middle, not a philosophical theory census.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.TransferFork",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

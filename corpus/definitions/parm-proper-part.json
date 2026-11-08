@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-PROPER-PART",
+  "id": "b069f13c-3fd8-541c-b3b0-dba040498e7d",
+  "label": "Part: ProperPart p f is strict constituenthood in the spatial-distribution reading: p is a…",
+  "legacy_id": "DEF-PARM-PROPER-PART",
   "term": "part",
   "definition": "ProperPart p f is strict constituenthood in the spatial-distribution reading: p is a constituent of f and is not identical to f. The vocabulary supplies no extensional mereology or measure; IndivisibleForms explicitly forbids these constituents for the admitted Forms. It is not participation.",
   "basis": "stipulative",

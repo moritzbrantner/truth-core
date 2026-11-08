@@ -1,6 +1,8 @@
 {
-  "id": "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
-  "argument_id": "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
+  "id": "7c5198e4-e084-54c2-a2dc-0981c36fc513",
+  "label": "The direct-only calibration fails in the selected signature, agency and…, from envoy founding",
+  "legacy_id": "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
+  "argument_id": "f7164ac0-17b4-5679-a777-5d2eff8deecc",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.immediateFailsFromEnvoyFounding",

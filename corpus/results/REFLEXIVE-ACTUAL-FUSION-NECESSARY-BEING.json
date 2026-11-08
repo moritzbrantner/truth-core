@@ -1,6 +1,8 @@
 {
-  "id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
-  "argument_id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "id": "67e5993b-b35e-5715-9af4-5bb5dd8fb8c2",
+  "label": "At least one individual exists at the…, from The selected sum actually exists at w AND… and 4… (2)",
+  "legacy_id": "REFLEXIVE-ACTUAL-FUSION-NECESSARY-BEING",
+  "argument_id": "783efca7-1ceb-5839-84d3-3afeef8fc978",
   "challenge_module": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.necessaryBeing",

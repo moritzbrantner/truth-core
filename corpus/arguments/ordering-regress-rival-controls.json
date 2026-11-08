@@ -1,17 +1,19 @@
 {
-  "id": "ORDERING-REGRESS-RIVAL-CONTROLS",
+  "id": "36b61d49-bbb5-53cf-a5e6-28db12226d38",
+  "label": "Closed R1–R3 and informational controls on the labeled enumeration semantics: the endpoint plus…",
+  "legacy_id": "ORDERING-REGRESS-RIVAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ORDERING-REGRESS-RIVAL-CONTROLS",
+  "conclusion_statement_id": "f1772203-a571-5e16-bf16-41dc2e5e1444",
   "inference_ids": [
-    "INF-ORDERING-REGRESS-RIVAL-CONTROLS"
+    "ba172312-35e3-51ef-8329-63b405d260a3"
   ],
   "meaning": "R1: reconstruct a bijective enumeration from its endpoint and complete successor table by Nat induction. R2: use Cardinal.mk_arrow for binary vectors and exhibit a well-founded empty Unit relation; every upstream enumeration chain instead has a predecessor at every node, refuting its WF. R3: the same finite inductive reconstruction proves the universal conditional rule. Reuse HistorySelection.EvidenceOnly literally: constant truth cannot distinguish a swapped-label rival, while all endpoint/link equality facts determine the arrangement. These are structural and informational controls, not a proof of complete explanation or a defeat of an actual worldview.",
   "definition_ids": [
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "id": "e0503f62-e975-50c8-91c8-1e49dc98ca48",
+  "label": "Without the scope premise the dilemma fails: there is a norm that holds…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SELF-APPLICATION-SCOPE-NEEDED",
+  "output_statement_id": "43aab2d0-35f7-5f52-8d54-6c65b285a8cc",
   "rule": "constructive-proof",
   "meaning": "Countermodel: with the claim outside the norm's scope, the norm holds and the claim is acceptable while failing the standard. The scope premise cannot be omitted.",
   "assumption_statement_ids": [],

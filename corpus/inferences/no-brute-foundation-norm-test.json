@@ -1,7 +1,9 @@
 {
-  "id": "INF-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "id": "6c351406-e39d-5bd7-97ae-4d70ce791b91",
+  "label": "A contingent truth with a reason, with any two terminal facts supplying it…, by Model-construction",
+  "legacy_id": "INF-NO-BRUTE-FOUNDATION-NORM-TEST",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-BRUTE-FOUNDATION-NORM-TEST",
+  "output_statement_id": "87ea6f2c-0caf-589d-923d-3904cfd9fd53",
   "rule": "model-construction",
   "meaning": "Prove the implication by well-founded descent to a contingent terminal fact, then construct the named models and evaluate both norms on each.",
   "assumption_statement_ids": [],

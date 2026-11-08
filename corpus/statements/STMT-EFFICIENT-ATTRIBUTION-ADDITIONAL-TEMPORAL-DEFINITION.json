@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
+  "id": "f6799609-72bd-5b35-974c-2e497e1c1837",
+  "label": "Both supplied named calibrations fail",
+  "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-ADDITIONAL-TEMPORAL-DEFINITION",
   "paraphrase": "Both supplied named calibrations fail. This is a precise additional extension within the admitted being/respect/time profile, not a global refutation of composition or efficient causation. The finite remainder illustrates failure without identifying its positive meaning as atemporal causation.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.Other",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

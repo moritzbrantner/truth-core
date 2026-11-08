@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "id": "74e6274c-c999-5883-b417-9565074e65c0",
+  "label": "For every supplied selected role/state profile, canonical reception holds at the selected tuple or…",
+  "legacy_id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
   "paraphrase": "For every supplied selected role/state profile, canonical reception holds at the selected tuple or it does not. Explicit excluded-middle coverage; source interpretation is not selected by the fork.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedFork",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

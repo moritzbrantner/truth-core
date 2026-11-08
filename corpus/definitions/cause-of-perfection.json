@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CAUSE-OF-PERFECTION",
+  "id": "211a6432-8b8f-53ed-85e3-75173bb15b24",
+  "label": "Cause of a perfection: CausesIn c x r: c is a cause of x's being r, as fire is a cause of the heat…",
+  "legacy_id": "DEF-CAUSE-OF-PERFECTION",
   "term": "cause of a perfection (causa)",
   "definition": "`CausesIn c x r`: c is a cause of x's being r, as fire is a cause of the heat of hot things. It is not identified with moving (`MovesIn`): causing a perfection need not be a present reduction from potency to act. 'Cause of being' is the instance r = esse.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A"
+    "73eece80-ee7d-564f-9e40-c00c71492a02"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.CausesAllInGenus",
   "note": "Causal scope and originating/sustaining/primary/secondary distinctions, source locators, examples, competing reading and open semantic burdens: docs/notes/causal-perfection-transfer.md. The shared relation has no built-in temporal, modal, transitivity or exclusive-cause law; mere enablement and possession of a perfection are not effective production. Typed parameter location: CausesIn : Being → Being → Respect → Prop in CausesAllInGenus. That linked declaration defines the universal scope of a selected cause, ∀ x, x ≠ c → InAct x r → CausesIn c x r; it does not define the primitive CausesIn relation. DEF-UNIVERSAL-ESSE-CAUSE-SCOPE documents that separate scope construction. This record retains the usage locator, with the originating/sustaining interpretation and applicability OPEN."

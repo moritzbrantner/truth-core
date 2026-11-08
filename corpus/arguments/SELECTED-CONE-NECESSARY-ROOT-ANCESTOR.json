@@ -1,32 +1,34 @@
 {
-  "id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "id": "8cf1e7bd-f096-5067-b97e-c7487db2d449",
+  "label": "One member of selected’s complete…, from The specified candidate is CONCRETE_6 and… and 3 more",
+  "legacy_id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
   "premise_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-SELECTED-CONE-WELL-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "conclusion_statement_id": "177b9b54-212d-5162-b288-d0cb70899f3d",
   "inference_ids": [
-    "INF-SELECTED-CONE-NECESSARY-ROOT-ANCESTOR"
+    "e28dec8c-91bc-5c26-83a5-a5f2bc62133c"
   ],
   "meaning": "Reuse the generalized descent extracted from the earlier thinker-local proof. Complete cone WF supplies accessibility of the selected actual concretum, preserving every actual predecessor; local contingent dependence then excludes the contingent root horn. The same selected ancestor is actual, concrete, necessary and an actual concrete ground-source. No global coverage/WF or thought-occurrence premise is needed. Local application remains open.",
   "definition_ids": [
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

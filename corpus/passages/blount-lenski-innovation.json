@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "BLOUNT-LENSKI-INNOVATION",
+    "source_id": "d581bca9-a3e5-5888-8027-9315e340e5d6",
     "source_url": "https://elifesciences.org/articles/55414",
     "retrieved_at": "2026-10-25T13:51:13Z",
     "sha256": "sha256:593211d8a92dcd2db66961b3d0dc9dc2fe37a82a1e22b1bea15927074e6fb6c3",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "BLOUNT-LENSKI-INNOVATION-ABSTRACT",
+      "id": "d23b8b63-c8e5-59ff-bf8b-8f3904605fc4",
+      "label": "Zachary D. Blount and colleagues, Genomic and phenotypic evolution of Escherichia coli in a…",
+      "legacy_id": "BLOUNT-LENSKI-INNOVATION-ABSTRACT",
       "locator": "Abstract",
       "claim_locator_prefixes": [
         "Abstract,"

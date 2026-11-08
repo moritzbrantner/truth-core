@@ -1,6 +1,8 @@
 {
-  "id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
-  "argument_id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "id": "8e7b099b-8e01-54b4-a1b2-3a3f3d523a5d",
+  "label": "Negation of the occasionalist rival occasionalist mover link without CAUSE_3…, from efficient movers",
+  "legacy_id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "argument_id": "e3874506-91de-586c-94e3-4b2180706e89",
   "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
   "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
   "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noMoverLinkWithoutCauseLink",

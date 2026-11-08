@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
-  "argument_id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "id": "ce6e9222-bdda-5174-abe4-afb152e1ec77",
+  "label": "The VERIFICATION_PRINCIPLE_2 with explicit scope…, from The supplied criterion is necessary and…",
+  "legacy_id": "MEANING-CALIBRATION-TO-VERIFICATION-PRINCIPLE",
+  "argument_id": "5fcc992b-14a8-5853-ab33-39bd37142a08",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.CalibrationToPrinciple.calibrationToPrinciple",

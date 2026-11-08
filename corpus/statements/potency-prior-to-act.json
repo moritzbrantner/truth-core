@@ -1,10 +1,12 @@
 {
-  "id": "STMT-POTENCY-PRIOR-TO-ACT",
+  "id": "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
+  "label": "Rival: some POTENCY_1 in a respect is not simply posterior to any being in act in that respect…",
+  "legacy_id": "STMT-POTENCY-PRIOR-TO-ACT",
   "paraphrase": "Rival: some potency in a respect is not simply posterior to any being in act in that respect; potency is prior to act (the reputable view Aristotle states in Metaphysics XII.6, and the theologians who generate all from Night).",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.PotencyPriorToActReading",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "MERRICKS-PRECIS-NEGATIVE-EXISTENTIALS",
-  "source_id": "MERRICKS-TRUTH-ONTOLOGY-PRECIS",
-  "statement_id": "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
+  "id": "6f6692f8-03c3-59ab-aa69-b872acbf25f9",
+  "label": "Trenton Merricks, Précis of Truth and…: True negative existential claims lack truthmakers",
+  "legacy_id": "MERRICKS-PRECIS-NEGATIVE-EXISTENTIALS",
+  "source_id": "8d7acf88-524d-59e4-ae1a-285d9d1a931b",
+  "statement_id": "ba23ae53-e5d3-59bb-8566-f37785f52c51",
   "locator": "PDF p. 2, Chapter 3 paragraph",
   "interpretation": "Merricks reports and endorses his book’s Chapter 3 argument and rejection of Truthmaker. The précis is read; the book’s argument has not been independently read or reconstructed here.",
   "attribution": "The passage states that true negative existentials lack truthmakers, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
-    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+    "e201b423-f0e4-5026-a88d-1c1a8e452638",
+    "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

@@ -1,9 +1,19 @@
 {
-  "id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "id": "4a1c6436-2c96-5ab4-ad06-ca66a39378d9",
+  "label": "An endless predecessor chain satisfies a local power-transmission rule both when every node acts…",
+  "legacy_id": "ESSENTIAL-POWER-UNDERDETERMINED",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
-  "inference_ids": ["INF-ESSENTIAL-POWER-UNDERDETERMINED"],
+  "conclusion_statement_id": "e3c7893f-7947-544e-a702-fb71ba34d2c4",
+  "inference_ids": [
+    "42e38a19-b935-5520-9cf1-37382b607a61"
+  ],
   "meaning": "Mathematical countermodel: even functional/counterfactual dependence on the current upstream causes is compatible with an infinite all-active chain and an infinite all-inactive chain. It rejects the inference from local essential transmission alone to a unique, source-grounded model, not Aquinas' broader metaphysical premise outright.",
-  "definition_ids": ["DEF-ESSENTIAL-POWER-TRANSMISSION-RULE", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"],
-  "disambiguation_ids": ["DISAMB-CAUSAL-SERIES", "DISAMB-CAUSAL-POWER-GROUNDING"]
+  "definition_ids": [
+    "e1b95906-8d38-59c3-abee-0ccc1c9d333b",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
+  ]
 }

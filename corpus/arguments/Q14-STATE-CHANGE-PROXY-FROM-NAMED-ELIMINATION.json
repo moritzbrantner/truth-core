@@ -1,26 +1,28 @@
 {
-  "id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
+  "id": "a662ba40-9cb2-5847-82a6-0cebe71a8f6a",
+  "label": "On the supplied scope, existing primitive intellect is coextensive with…, from named elimination",
+  "legacy_id": "Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION",
   "premise_statement_ids": [
-    "STMT-Q14-NAMED-CALIBRATION-MENU",
-    "STMT-Q14-CAPACITY-CALIBRATION-FAILS",
-    "STMT-Q14-WITHOUT-MATTER-CALIBRATION-FAILS"
+    "aefa1bf1-099b-575c-958e-05cff58df51c",
+    "ab8d6a1d-674f-5c21-901a-fd1d8fc19cf8",
+    "8e05fc5c-4ec6-5fb4-9332-afafb35e9f21"
   ],
-  "conclusion_statement_id": "STMT-Q14-CHANGE-PROXY-CALIBRATION",
+  "conclusion_statement_id": "bb6a3e3c-c735-580f-95cf-24bf60a52557",
   "inference_ids": [
-    "INF-Q14-STATE-CHANGE-PROXY-FROM-NAMED-ELIMINATION"
+    "6f7b6620-0f3e-533d-b91e-dd2f9680fcc1"
   ],
   "meaning": "Logical transcription: an explicitly assumed local named menu and failure of its two capacity calibrations leave the state-change-PROXY calibration. This is not a proof that the proxy is an adequate intellect account or a refutation of complete theories.",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-Q14-CAPACITY-CALIBRATION",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
-    "DEF-Q14-CHANGE-PROXY-CALIBRATION",
-    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
-    "DEF-Q14-RECEPTION-DEFINITION-MENU"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "f41b761b-7fea-537a-b03a-6a5c99f9b2e3",
+    "a63b614a-7a1a-5560-b919-10f303b955ff",
+    "4162125d-92e7-5eb2-8336-d743c6f494c1",
+    "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+    "72284cfd-e09b-57fe-8824-4b2d120e7fb1"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES",
-    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
   ]
 }

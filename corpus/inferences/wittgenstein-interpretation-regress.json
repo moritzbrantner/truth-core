@@ -1,10 +1,12 @@
 {
-  "id": "INF-WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "id": "be6efd38-6f80-50b0-83a3-8aff25484085",
+  "label": "No application of a rule, and no INTERPRETATION_1 of one, is…, by Well-founded-induction",
+  "legacy_id": "INF-WITTGENSTEIN-INTERPRETATION-REGRESS",
   "input_statement_ids": [
-    "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
-    "STMT-NO-ENDLESS-INTERPRETATION-REGRESS"
+    "7c056d7f-d0b5-5315-bc54-068dcb618858",
+    "5218e5c6-d9fc-5ddb-9861-42e1bd00aef7"
   ],
-  "output_statement_id": "STMT-NO-RULE-APPLICATION-DETERMINED",
+  "output_statement_id": "4c06906d-c081-5d2e-8c6b-8dbe9f9c3a18",
   "rule": "well-founded-induction",
   "meaning": "By well-founded induction on 'is an interpretation of': a determined item would have a determined interpretation below it, which by the induction hypothesis is not determined.",
   "assumption_statement_ids": [],

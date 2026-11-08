@@ -1,6 +1,8 @@
 {
-  "id": "GENERATION-FROM-NIGHT-REFUTED",
-  "argument_id": "GENERATION-FROM-NIGHT-REFUTED",
+  "id": "2f3e2b91-0d58-57dc-b6f2-e477598d3a08",
+  "label": "The Night cosmogony's bundle does not hold: no being in POTENCY_1 in a…, from night refuted",
+  "legacy_id": "GENERATION-FROM-NIGHT-REFUTED",
+  "argument_id": "5dcbac24-aba3-5657-89fc-68894ff4bb48",
   "challenge_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.Solution",
   "theorem": "TruthCore.Results.Alternatives.GenerationFromNightRefuted.generationFromNightFalse",

@@ -1,18 +1,20 @@
 {
-  "id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "id": "573a635d-835e-53fe-9c46-55565500b446",
+  "label": "Disjunction of the explicit set, Form or…, from A selected-world productive cause is a…",
+  "legacy_id": "SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
   "premise_statement_ids": [
-    "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE"
+    "c9eb51d1-6902-5c79-904a-6ada74c12ceb"
   ],
-  "conclusion_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+  "conclusion_statement_id": "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2",
   "inference_ids": [
-    "INF-SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK"
+    "cf3f1a9e-d9e3-517d-9af2-48bb08821363"
   ],
   "meaning": "Explicit set-branch injection into the named disjunction.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "TACITUS-ANN-PILOT-TACITUS-EXECUTION",
-  "statement_id": "STMT-PILOT-REPORT-TACITUS-EXECUTION",
-  "source_id": "TACITUS-ANN",
+  "id": "b38cfd6f-0ced-5ca1-8847-34bf18139311",
+  "label": "Tacitus, Annals 15.44: Tacitus reports Christus suffering execution under Pontius Pilate during…",
+  "legacy_id": "TACITUS-ANN-PILOT-TACITUS-EXECUTION",
+  "statement_id": "ffdaf8a0-91c2-554a-b549-03e592d3ea0e",
+  "source_id": "02af519e-f8f0-5443-97bd-d8a837dbaa45",
   "locator": "15.44 (Christus sentence)",
   "interpretation": "Read supplicio adfectus as execution. The sentence does not specify crucifixion; crosses later concern Nero’s victims. Tacitus’s information source and independence are not established by this record.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

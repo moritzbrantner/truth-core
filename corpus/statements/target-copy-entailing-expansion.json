@@ -1,20 +1,22 @@
 {
-  "id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
+  "id": "8e1ee46d-459e-54f3-976f-7a687dbc39b9",
+  "label": "Every existing concrete-grounding Profile admits an expansion preserving its entire reality and…",
+  "legacy_id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
   "paraphrase": "Every existing concrete-grounding Profile admits an expansion preserving its entire reality and satisfying sound local coverage plus modal necessitation of each target by every admitted reason. A property of the original Profile is universally valid over those expansions iff it was valid over all original profiles. In one common inhabited two-world, rigid-Nat arena, unique-source, exactly-two-source and source-free non-well-founded dependence assignments all have such expansions; no single copied token covers every individual. The reasons literally repeat their targets’ concrete existence, so this is a failed modal-sufficiency discriminator, not independently adequate explanation or a denial of totality explanation.",
   "lean_declaration": "TruthCore.Explanation.TargetCopyExpansion.Certificate",
   "definition_ids": [
-    "DEF-TARGET-COPY-ENTAILING-EXPANSION",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH"
+    "c533d18c-a130-57b9-9ba1-71fc6046e738",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53"
   ],
   "disambiguation_ids": [
-    "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
-    "DISAMB-LEIBNIZ-EXPLANATORY-REGRESS",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-REGRESS-DOMAINS"
+    "f5ed544e-e682-5c5d-9fe8-0811d85ff496",
+    "d9ecf2f0-fff9-5fe8-aaf3-4db74bd32825",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

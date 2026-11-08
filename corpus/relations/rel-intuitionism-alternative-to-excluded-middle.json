@@ -1,9 +1,11 @@
 {
-  "id": "REL-INTUITIONISM-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
+  "id": "53664c80-8be3-5549-afc1-e8d68d69e014",
+  "label": "Intuitionism: excluded middle is not a… alternative to Every stage asserts every…",
+  "legacy_id": "REL-INTUITIONISM-ALTERNATIVE-TO-EXCLUDED-MIDDLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
+  "subject_id": "dd9921a6-cea1-5cb5-ac08-512a4a5b1813",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "object_id": "15861eab-f5bf-5dcf-bf61-1d8cecb0efd2",
   "note": "Scoped serious intuitionist rival: the unchanged full withholding package contradicts universal assertion through WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION, not object-level EM. Its proof/assertion commitments and source claims remain unchanged. The exact negative policy consequence is also independently recorded as an alternative, so refuting the stronger full package alone cannot establish universal assertion. Object EM now retains the separate unrefuted exact global logical complement STMT-NOT-EXCLUDED-MIDDLE; no denial of global EM is attributed to intuitionism."
 }

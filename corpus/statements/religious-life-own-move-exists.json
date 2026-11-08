@@ -1,14 +1,16 @@
 {
-  "id": "STMT-RELIGIOUS-LIFE-OWN-MOVE-EXISTS",
+  "id": "56cbb279-f1d3-53ed-8152-4157568f9ff6",
+  "label": "Some move belongs to religious life and is endorsed by the practice own standards",
+  "legacy_id": "STMT-RELIGIOUS-LIFE-OWN-MOVE-EXISTS",
   "paraphrase": "Some move belongs to religious life and is endorsed by the practice own standards. The model controls preserve this positive witness rather than relying only on an absence of all own standards.",
   "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.ReligiousLifeOwnMoveExists",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

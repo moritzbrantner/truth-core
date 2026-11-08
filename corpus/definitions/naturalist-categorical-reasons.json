@@ -1,11 +1,13 @@
 {
-  "id": "DEF-NATURALIST-CATEGORICAL-REASONS",
+  "id": "4bf71609-9f30-5161-b188-ffa1cce02bb4",
+  "label": "Categorical reason versus contingent…: A categorical requirement supplies every relevant rational…",
+  "legacy_id": "DEF-NATURALIST-CATEGORICAL-REASONS",
   "term": "categorical reason versus contingent instrumental reason",
   "definition": "A categorical requirement supplies every relevant rational agent with a reason independently of contingent ends; Reason x a in the tests denotes an instrumental reason for this agent. Neither actual desire, mere motivation, obligation nor impartial rightness is definitionally equated with it. Both proponents reject the necessity of the strongest link while offering contingent explanations. The consistency tests assert only its failure in a possible interpretation.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Metaethics.NaturalisticRealism.Sig.Reason",
   "claim_ids": [
-    "RAILTON-201-CONTINGENT-REASONS",
-    "BOYD-47-CONTINGENT-REASONS"
+    "25d94c29-59a7-5b98-ab47-8694d2d59cf6",
+    "8b78c43d-1742-55b6-ac18-8dffb49da81f"
   ]
 }

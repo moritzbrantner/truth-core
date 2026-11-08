@@ -1,6 +1,8 @@
 {
-  "id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
-  "argument_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "id": "54eb8834-d712-5717-ad07-3cd14cd9d135",
+  "label": "An explicit family of interpretations has a necessary being in its designated actual member while…",
+  "legacy_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING-UNIVERSAL",
+  "argument_id": "543f29b7-235a-574a-a96d-f05563dc5509",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeingUniversal.withholdingCompatibleWithBeingUniversal",

@@ -1,6 +1,8 @@
 {
-  "id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
-  "argument_id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "id": "e369dd43-f8ce-5330-8701-0d355ac2865c",
+  "label": "Under explicit object-level excluded middle, some…, from Excluded middle as a general principle…",
+  "legacy_id": "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS",
+  "argument_id": "335968ac-c307-56d5-bec1-8535ab8482ad",
   "challenge_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.controls",

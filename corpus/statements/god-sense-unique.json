@@ -1,12 +1,13 @@
 {
-  "id": "STMT-GOD-SENSE-UNIQUE",
+  "id": "8514b173-d4a8-5a74-be34-f59dcc992d72",
   "label": "The designated root route reads 'God' in one GOD sense only",
+  "legacy_id": "STMT-GOD-SENSE-UNIQUE",
   "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'God' selects at most one sense, so the naming use and the attribute use take the same one. A constraint on the reading, not a claim that the senses pick out different beings.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.GodSenseUnique",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

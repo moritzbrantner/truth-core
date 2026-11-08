@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THESEUS-OCCURRENCE-BEARER",
+  "id": "5d56fb19-e9f0-5f16-8e36-cd852824e0e5",
+  "label": "Stage occurrence and numerical bearer: Stage distinguishes original, intermediate, continued and\u2026",
+  "legacy_id": "DEF-THESEUS-OCCURRENCE-BEARER",
   "term": "stage occurrence and numerical bearer",
   "definition": "Stage distinguishes original, intermediate, continued and reassembled occurrences. A function bearer : Stage \u2192 B assigns an object to each occurrence; ordinary equality of B represents numerical identity. Different stage constructors do not entail different bearers. No claim about the adequacy of this persistent-object representation is implicit.",
   "basis": "stipulative",

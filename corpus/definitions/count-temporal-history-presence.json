@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
+  "id": "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+  "label": "One-way temporal presence to…: HistoryPresenceActual h means every IsAt v c t implies…",
+  "legacy_id": "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE",
   "term": "one-way temporal presence to world-relative actual existence",
   "definition": "HistoryPresenceActual h means every IsAt v c t implies h.ontic.ExistsAt v c, for every time. It is the one-way EVER-history interpretation required to retain an earlier cause as actual in that history; no converse, now-slice coherence or temporal persistence is asserted.",
   "basis": "stipulative",

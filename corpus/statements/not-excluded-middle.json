@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NOT-EXCLUDED-MIDDLE",
+  "id": "c3184817-ab16-5bb7-9e10-c7251ca8f10f",
+  "label": "General excluded middle fails: not every proposition has p or not-p",
+  "legacy_id": "STMT-NOT-EXCLUDED-MIDDLE",
   "paraphrase": "General excluded middle fails: not every proposition has p or not-p. Exact global complement ¬(∀p,p∨¬p), distinct from explicit instance denial ∃p,¬(p∨¬p), and not attributed to intuitionist withholding. An open analyst logical rival; no refutation or independent EM/¬EM coverage is supplied.",
   "lean_declaration": "TruthCore.Logic.ExcludedMiddleAssertionBoundary.NotExcludedMiddle",
   "definition_ids": [
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING"
+    "d8e2ed12-8089-5202-ae51-e807cf611c76"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXCLUDED-MIDDLE-HOLDING-AND-ASSERTION"
+    "12425707-e469-5574-b064-4f5e171cfb65"
   ]
 }

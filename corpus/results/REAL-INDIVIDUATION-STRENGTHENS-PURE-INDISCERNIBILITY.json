@@ -1,6 +1,8 @@
 {
-  "id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
-  "argument_id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "id": "cabf1085-ddac-5c0d-818e-e6c9258cb7e8",
+  "label": "Any two beings, first movers or not, that have…, from Any two beings, first movers or not, that…",
+  "legacy_id": "REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY",
+  "argument_id": "a1d01544-214a-5a3e-a7f4-4b57814902be",
   "challenge_module": "TruthCore.Results.Causality.PureIndiscernibility.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureIndiscernibility.Solution",
   "theorem": "TruthCore.Results.Causality.PureIndiscernibility.pureIndiscernibilityOfReal",

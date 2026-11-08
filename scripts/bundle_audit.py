@@ -2,6 +2,7 @@
 import hashlib
 import json
 from pathlib import Path
+from corpus_ids import legacy_uuid  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
 AUDIT = ROOT / 'docs/notes/classical-attributes-migration.json'
@@ -29,11 +30,11 @@ def expected_scope(index, result_id):
     return {
         'results': {result_id}, 'arguments': {argument['id']}, 'statements': statements,
         'inferences': set(argument['inference_ids']),
-        'definitions': {did for owner in owners for did in owner.get('definition_ids', [])} | {'DEF-PURE-ACT'},
+        'definitions': {did for owner in owners for did in owner.get('definition_ids', [])} | {legacy_uuid('definition', 'DEF-PURE-ACT')},
         'disambiguations': {did for owner in owners for did in owner.get('disambiguation_ids', [])},
         # Only this source interpretation is clarified. Other source claims are
         # retained evidence, not silently declared freshly audited.
-        'claims': {'VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD'},
+        'claims': {legacy_uuid('claim', 'VATICAN-I-DEI-FILIUS-CH1-ONE-TRUE-LIVING-GOD')},
     }
 
 

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TIME-SLICED-FIRST-MOVER",
+  "id": "939b42aa-ff78-54d7-b419-f2ae94c8f832",
+  "label": "First unmoved mover at a time: The canonical predicates instantiated at one supplied time t: f…",
+  "legacy_id": "DEF-TIME-SLICED-FIRST-MOVER",
   "term": "first unmoved mover at a time",
   "definition": "The canonical predicates instantiated at one supplied time t: f moves something at t and is moved in no respect at t (IsFirstUnmovedMover (Moved t) (Moves t) f). It does not say that f is moved at no other time, and it is not IsFirstUnmovedMover of any time-free relation.",
   "basis": "stipulative",

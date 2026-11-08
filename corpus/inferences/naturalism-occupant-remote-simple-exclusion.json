@@ -1,13 +1,15 @@
 {
-  "id": "INF-NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "id": "4afbd10f-dcac-5292-8554-9463308c9027",
+  "label": "No candidate existing at the selected world is both SIMPLE_4 and remote…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-THESIS-CONTAINED-IN-SPACETIME",
-    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
-    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
-    "STMT-TWO-BEINGS-EXIST-AT"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "5aed0767-9cad-5965-8912-e7b8ea11fd6e",
+    "d677b0c4-ce93-5d51-a157-17105d546228",
+    "c4e3fb4f-6efc-5389-ad00-8fd11e807d1b",
+    "705934a4-2f65-52bd-8628-e85da04ec78d"
   ],
-  "output_statement_id": "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+  "output_statement_id": "0cdd5abe-664c-50b9-85e7-d55dd070ee71",
   "rule": "constructive-proof",
   "meaning": "Compose the checked part-based exclusion with the existing thesis-containment bridge instantiated at Located F: occupant N1 makes every existing candidate located; containment makes it a part of the same selected spacetime whole. The two component/composite bridges and distinct population then exclude an existing simple remote candidate under the shared Case dictionary. Without containment, the exported controls show occupant N1 can survive failed part N1. No inference from physical to spatiotemporal or from a naming implication to God-characterization is added.",
   "assumption_statement_ids": [],

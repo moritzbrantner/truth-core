@@ -1,11 +1,13 @@
 {
-  "id": "INF-MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "id": "6d48517e-3a4d-57c0-af7a-d8b6cf142308",
+  "label": "Whatever is more such than something has the perfection itself: what…, by Universal instantiation…",
+  "legacy_id": "INF-MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
   "input_statement_ids": [
-    "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE",
-    "STMT-NO-DEGREE-BELOW-NULL",
-    "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"
+    "98755509-18d3-5282-bd66-47202d916266",
+    "ed766869-09b3-529a-ad3d-f817a931b5a3",
+    "ac72bbfe-a355-5179-9e29-0a6e565eb79e"
   ],
-  "output_statement_id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+  "output_statement_id": "c11369aa-7c3d-5dea-8421-535d5b4b3104",
   "rule": "Universal instantiation, transitivity of the preorder (le then lt), modus ponens",
   "meaning": "What is hotter is hot, through degrees: if x is more r than y, x's degree of r is strictly above y's, which is at least the null degree, so x's degree is strictly above null, and whatever is strictly above the null degree of r has r. Three OPEN analyst premises about a per-respect degree family; the middle term is the degree, not the conclusion.",
   "assumption_statement_ids": [],

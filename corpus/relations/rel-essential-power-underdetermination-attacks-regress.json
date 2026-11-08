@@ -1,9 +1,11 @@
 {
-  "id": "REL-ESSENTIAL-POWER-UNDERDETERMINATION-ATTACKS-REGRESS",
+  "id": "2eeb6e51-3393-5bd8-8819-b6720db2c469",
+  "label": "An endless predecessor chain satisfies a… attacks A per se ordered series of efficient causes…",
+  "legacy_id": "REL-ESSENTIAL-POWER-UNDERDETERMINATION-ATTACKS-REGRESS",
   "subject_kind": "argument",
-  "subject_id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "subject_id": "4a1c6436-2c96-5ab4-ad06-ca66a39378d9",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "object_id": "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
   "note": "A stronger challenge to proving causal well-foundedness from local transmission: even cutting one necessary causal link can extinguish all downstream power in a coherent infinite model, while the uncut global activity remains underdetermined. It does not establish the metaphysical possibility of genuinely per se infinite efficient causes; the inductive-grounding bridge is still open."
 }

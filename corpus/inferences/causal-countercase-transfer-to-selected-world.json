@@ -1,10 +1,12 @@
 {
-  "id": "INF-CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
+  "id": "8c97be8b-1879-5c33-b1d3-266a89c0e750",
+  "label": "At the selected world one candidate lacks esse in re and either possesses…, by Constructive-proof",
+  "legacy_id": "INF-CAUSAL-COUNTERCASE-TRANSFER-TO-SELECTED-WORLD",
   "input_statement_ids": [
-    "STMT-WITNESS-WORLD-HAS-NO-ESSE-CAUSAL-COUNTERCASE",
-    "STMT-CAUSAL-COUNTER-WITNESS-WORLD-IS-SELECTED"
+    "2cffed36-4177-50b0-963b-2f518b65afee",
+    "ad2df87a-b74c-5123-b5e4-e021cc36dc4a"
   ],
-  "output_statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+  "output_statement_id": "fd141661-3c09-55a2-a76a-f56b426ef839",
   "rule": "constructive-proof",
   "meaning": "World-identification transport transcription. Another or accessible world alone is insufficient.",
   "assumption_statement_ids": [],

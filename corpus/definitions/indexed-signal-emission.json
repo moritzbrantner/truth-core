@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-EMISSION",
+  "id": "5363be1b-9b13-55e1-a5e8-d4504b296218",
+  "label": "Local issuance-to-own-code output: At every station n, issued implies signal=some",
+  "legacy_id": "DEF-INDEXED-SIGNAL-EMISSION",
   "term": "local issuance-to-own-code output",
   "definition": "At every station n, issued(n) implies signal(n)=some(n). An issuing act in the supplied role writes that same station's finite code. This is not itself an account of efficient causation or physical production.",
   "basis": "stipulative",

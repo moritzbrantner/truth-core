@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DIAGONAL-VALID",
+  "id": "2a9a7da1-bb3a-513e-91ab-fe900ae6baea",
+  "label": "DESIGNATED_ACTUALITY_VALIDITY_1: For a fixed designation policy D and two-index content F, every…",
+  "legacy_id": "DEF-DIAGONAL-VALID",
   "term": "designated actuality validity",
   "definition": "For a fixed designation policy D and two-index content F, every admitted actual world a satisfies F a a. The first index fixes actuality/context; the second is evaluation. This is semantic diagonal validity, not theoremhood or truth under a local premise.",
   "basis": "stipulative",

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
+  "id": "ba23ae53-e5d3-59bb-8566-f37785f52c51",
+  "label": "True negative existential claims lack truthmakers",
+  "legacy_id": "STMT-NEGATIVE-EXISTENTIAL-TRUTHS-LACK-TRUTHMAKERS",
   "paraphrase": "True negative existential claims lack truthmakers.",
   "definition_ids": [
-    "DEF-TRUTHMAKING-GUARDED-SOURCE-ACCOUNT",
-    "DEF-TRUTHMAKER-SOURCE-DOCTRINE"
+    "e201b423-f0e4-5026-a88d-1c1a8e452638",
+    "ea6239a8-8662-5732-904b-d8121799b1fe"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

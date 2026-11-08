@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-SUPPORTS-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
+  "id": "76c67b88-012f-5fd9-bc0c-9cee98609743",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports Every real determination of a being that is…",
+  "legacy_id": "REL-Q7-A1-SUPPORTS-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
+  "subject_id": "b69b9bb1-486e-586c-8b35-e51fac9c0e20",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
+  "object_id": "32695660-361c-5a8b-a45d-5681110f3db1",
   "note": "Q.7 a.1 co. says a form is limited by matter 'per hoc quod recipitur in materia' and that 'infinitum secundum quod se tenet ex parte formae non determinatae per materiam, habet rationem perfecti'; the claim states the resulting warrant for esse only. The statement extends it to every real determination of a being in which nothing is received, and adds that individuating principles, potencies and privations occur only in recipients; neither extension is in the passage."
 }

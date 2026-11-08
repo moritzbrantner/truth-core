@@ -1,6 +1,8 @@
 {
-  "id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
-  "argument_id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "id": "258710b0-af8b-5fb8-8b75-4fe0c4a69fe3",
+  "label": "IN-ACT_3, inclusive reading: whatever moves something in a respect is in act in that…, from formal",
+  "legacy_id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "argument_id": "329c975b-88a4-51b9-9951-13c784e60dc3",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks2.movesAsInActInclusiveFromFormal",

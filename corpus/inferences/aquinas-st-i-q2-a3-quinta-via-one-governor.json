@@ -1,16 +1,18 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "id": "f6a03707-efeb-5123-8222-a60dd201beb0",
+  "label": "There is an intelligent first mover moved by none that directs every…, by Existential-uniqueness",
+  "legacy_id": "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
   "input_statement_ids": [
-    "STMT-NATURAL-BODIES-LACK-COGNITION",
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
-    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR",
-    "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
-    "STMT-DIRECTING-IS-MOVING",
-    "STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER"
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f",
+    "11914511-b067-55d3-b8cc-094311021d08",
+    "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136",
+    "c27dce66-864a-5a73-af62-0eeb4016514f"
   ],
-  "output_statement_id": "STMT-ONE-INTELLIGENT-FIRST-MOVER-GOVERNS-NATURE",
+  "output_statement_id": "f43962a3-1a34-593b-8856-a97336e8ce18",
   "rule": "existential-uniqueness",
   "meaning": "Each body's director reduces (ad 2) to an intelligent director moved by none, which moves what it directs and so is a first unmoved mover; there is a natural body, so such a mover exists; by stage-1 uniqueness every body's first director is that one.",
   "assumption_statement_ids": [],

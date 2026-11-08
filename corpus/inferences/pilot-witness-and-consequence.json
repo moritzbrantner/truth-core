@@ -1,10 +1,12 @@
 {
-  "id": "INF-PILOT-WITNESS-AND-CONSEQUENCE",
+  "id": "8403ce2c-2cc9-50f7-8756-1e6d6bd7c6b4",
+  "label": "Inside Lean logic, ∧ ¬. A bounded conjunction of the pilot witness…, by Conjunction introduction",
+  "legacy_id": "INF-PILOT-WITNESS-AND-CONSEQUENCE",
   "input_statement_ids": [
-    "STMT-SOME-LEAN-PROPOSITION-HOLDS",
-    "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"
+    "15c9ec9b-ec22-52bf-9fdc-89e83c1b0a2a",
+    "8efdfe70-cb76-575f-a13c-16a35cfb7c9e"
   ],
-  "output_statement_id": "STMT-PILOT-WITNESS-AND-CONSEQUENCE",
+  "output_statement_id": "06ff7c18-e729-507e-9678-5be8f7b9fa39",
   "rule": "conjunction_introduction",
   "meaning": "Pair the independently constructed existential witness with the consequence obtained by the imported someImpliesNotAll theorem.",
   "assumption_statement_ids": [],

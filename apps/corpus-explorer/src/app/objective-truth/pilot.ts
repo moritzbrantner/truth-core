@@ -1,27 +1,31 @@
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 
+import { legacyUuid } from "@/lib/corpus-ids";
+
+const statementIds = (...legacyIds: string[]) => legacyIds.map((id) => legacyUuid("statement", id));
+
 /** A reading guide over canonical IDs, never another proposition or status store. */
 export const PILOT_GROUPS = [
   {
     title: "The two logical propositions",
     scope: "These exact Lean propositions have premise-free proofs. They do not by themselves say that truth is independent of minds or endorsement.",
-    statementIds: ["STMT-SOME-LEAN-PROPOSITION-HOLDS", "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"],
+    statementIds: statementIds("STMT-SOME-LEAN-PROPOSITION-HOLDS", "STMT-NOT-EVERY-LEAN-PROPOSITION-FAILS"),
   },
   {
     title: "Interpretation bridges still to defend",
     scope: "A logical proof does not supply an interpretation of ordinary truth or of expressed negation. The verified conditional tests retain these open premises.",
-    statementIds: ["STMT-PILOT-LOGICAL-SENTENCE-STABLE", "STMT-PILOT-NEGATION-RESPECTED"],
+    statementIds: statementIds("STMT-PILOT-LOGICAL-SENTENCE-STABLE", "STMT-PILOT-NEGATION-RESPECTED"),
   },
   {
     title: "Distinct readings of relativity",
     scope: "Global variation, local variation, an unindexed all-opinions-true thesis, and an epistemic limitation are different readings. Their identities remain separate.",
-    statementIds: ["STMT-PILOT-GLOBAL-PROFILE-VARIATION", "STMT-PILOT-LOCAL-PROFILE-VARIATION", "STMT-ALL-OPINIONS-TRUE-UNINDEXED", "STMT-PILOT-OPPOSED-OPINIONS", "STMT-PILOT-CONFLICTING-OPINIONS", "STMT-ARIST-DEMOCRITUS-NO-TRUTH-OR-UNKNOWN"],
+    statementIds: statementIds("STMT-PILOT-GLOBAL-PROFILE-VARIATION", "STMT-PILOT-LOCAL-PROFILE-VARIATION", "STMT-ALL-OPINIONS-TRUE-UNINDEXED", "STMT-PILOT-OPPOSED-OPINIONS", "STMT-PILOT-CONFLICTING-OPINIONS", "STMT-ARIST-DEMOCRITUS-NO-TRUTH-OR-UNKNOWN"),
   },
   {
     title: "What the tests establish",
     scope: "These are conditional consequences or models of the stated encoding. They do not establish a full worldview, source fidelity, or an unconditional self-refutation of relativism.",
-    statementIds: ["STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION", "STMT-PILOT-NOT-ALL-OPINIONS-TRUE", "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE", "STMT-PILOT-GLOBAL-VARIATION-MODEL", "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL"],
+    statementIds: statementIds("STMT-PILOT-NOT-GLOBAL-PROFILE-VARIATION", "STMT-PILOT-NOT-ALL-OPINIONS-TRUE", "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE", "STMT-PILOT-GLOBAL-VARIATION-MODEL", "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL"),
   },
 ] satisfies Array<{ title: string; scope: string; statementIds: string[] }>;
 

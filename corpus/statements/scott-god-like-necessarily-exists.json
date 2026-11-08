@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
+  "id": "93824f63-3964-50ec-a029-057102888f72",
+  "label": "Scott's theorem T3: necessarily a GOD_LIKE_5 being exists, that is, at every world every accessible…",
+  "legacy_id": "STMT-SCOTT-GOD-LIKE-NECESSARILY-EXISTS",
   "paraphrase": "Scott's theorem T3 (AFP GoedelGod.thy): necessarily a God-like being exists, that is, at every world every accessible world has a God-like individual. Existence is the possibilist quantifier of the embedding (DEF-QML-KB-NECESSITY), and God-like is Scott's G (DEF-GOD-LIKE-SCOTT), not the corpus's God or IsGod.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.GodLikeNecessarilyExists",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

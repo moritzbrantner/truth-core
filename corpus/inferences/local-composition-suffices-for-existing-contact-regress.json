@@ -1,12 +1,14 @@
 {
-  "id": "INF-LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "id": "35af5924-4ecf-5560-a04e-354a36b0c416",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2…, by Constructive-proof",
+  "legacy_id": "INF-LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
   "input_statement_ids": [
-    "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
-    "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
-    "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
-    "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+    "62bb984f-1cea-5695-af72-d83c31d4210e",
+    "f28c1cb0-e470-546a-bc9f-64d143403fe2",
+    "a497da1a-779e-5f9f-a50d-edaac83560f8",
+    "2d51f33a-50aa-5ecf-8d75-87afd4bb145d"
   ],
-  "output_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "output_statement_id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
   "rule": "constructive-proof",
   "meaning": "The original contact-regress inference with composition restricted to its actual SAME local-link chains. Contact constructs touching links, local composition supplies a whole, and the unchanged traversal/impossibility premises contradict the hypothetical chain. The frozen global proof is preserved; its stronger theorem is not claimed to accept the weaker input. No source reading, metaphysical applicability or root premise is independently discharged.",
   "assumption_statement_ids": [],

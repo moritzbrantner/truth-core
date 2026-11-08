@@ -1,6 +1,8 @@
 {
-  "id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
-  "argument_id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "id": "ceecd074-908a-567f-8551-16885f5d9639",
+  "label": "Logical falsity, from Every actual positive individual existence… and 1 more",
+  "legacy_id": "PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "argument_id": "2e6f6269-8d9e-55af-b5d3-45ab180e8776",
   "challenge_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Challenge",
   "solution_module": "TruthCore.Results.Explanation.NoBruteIncompatible.Solution",
   "theorem": "TruthCore.Results.Explanation.NoBruteIncompatible.checks",

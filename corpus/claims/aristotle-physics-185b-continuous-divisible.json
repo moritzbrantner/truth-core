@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185B-CONTINUOUS-DIVISIBLE-A",
-  "statement_id": "STMT-CONTINUOUS-ONE-IMPLIES-DIVISIBLE",
-  "source_id": "ARIST-PHYS",
+  "id": "58f3b4d9-2320-5d5c-a88b-a153fbd80c5f",
+  "label": "Aristotle, Physics I.2, 185b5-16: If the alleged One is one by continuity, it is divisible",
+  "legacy_id": "ARIST-PHYS-185B-CONTINUOUS-DIVISIBLE-A",
+  "statement_id": "254db92e-fedf-50a9-ab90-cd4bb18c2eed",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185b5-16",
   "interpretation": "First premise of the continuous-One objection: taking unity as continuity commits the alleged One to divisibility. This is scoped to the continuity sense of unity.",
   "status": "formalized"

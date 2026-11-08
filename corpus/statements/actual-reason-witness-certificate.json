@@ -1,17 +1,19 @@
 {
-  "id": "STMT-ACTUAL-REASON-WITNESS-CERTIFICATE",
+  "id": "f5a9ce32-747a-5ccf-a75c-19cda0b748de",
+  "label": "For every existing PSR Model and explicit actual-token domain, a nonempty unique-reason anchor\u2026",
+  "legacy_id": "STMT-ACTUAL-REASON-WITNESS-CERTIFICATE",
   "lean_declaration": "TruthCore.Modal.ActualReasonWitness.Certificate",
   "paraphrase": "For every existing PSR Model and explicit actual-token domain, a nonempty unique-reason anchor sharing an admitted reason with every world of the selected individual\u2019s existence entails one actual reason across those worlds; this projects to the earlier StableExplanation. The old sound alternating model has actual local reasons but no actual stable reason. A populated sound two-world positive control satisfies the anchor bridge and actual stability while failing full ReasonInvariant. These are conditional laws and formal interpretations, not metaphysical explanatory sufficiency, a ban on circularity, or an inference to a necessary being. No source attribution. Root-premise delta none.",
   "definition_ids": [
-    "DEF-PSR-REASON",
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-PSR-SOUNDNESS",
-    "DEF-ACTUAL-REASON-ADMISSION",
-    "DEF-ACTUAL-STABLE-EXPLANATION",
-    "DEF-REASON-ANCHOR-OVERLAP"
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "70fccbe6-be10-5709-9d73-53a436b97f25",
+    "6e6ada1c-9bda-542a-9489-f41b1f3124f4",
+    "e78281b3-54c3-5199-bb8d-e0d05f6a844a",
+    "5288616c-ab16-5761-9b56-06d5ee05b8d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-ACTUAL-REASON-IDENTITY"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "71868356-d4c4-5ea9-a015-377ad8d45a04"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
+  "id": "bc89c705-f026-57d6-a513-26605891a95d",
+  "label": "The unqualified doctrine fails: not every opined content in scope is true in the unindexed sense",
+  "legacy_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
   "paraphrase": "The unqualified doctrine fails: not every opined content in scope is true in the unindexed sense. Conditional on Protagoras holding his thesis, someone denying it, the scope premise and the unindexed negation bridge; it does not touch the qualified (relative) doctrine.",
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.NotUnqualifiedAllOpinionsTrue",
   "definition_ids": [
-    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
-    "DEF-ABSOLUTE-TRUTH"
+    "7a4b052f-4176-59e6-9070-9ed3ab41869d",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

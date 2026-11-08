@@ -1,6 +1,8 @@
 {
-  "id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
-  "argument_id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
+  "id": "26c4eb66-1432-5ecd-b130-a9e4455d679b",
+  "label": "Within a finite two-phase material-turnover signature, a vitalist interpretation, a process-only…",
+  "legacy_id": "MEREO-005-SOUL-UNITY-INDEPENDENCE",
+  "argument_id": "23b6c552-82a6-5991-b804-0e215c3d4483",
   "challenge_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SoulUnityIndependence.Solution",
   "theorem": "TruthCore.Results.Mereology.SoulUnityIndependence.soulUnityIndependence",

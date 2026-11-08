@@ -1,28 +1,30 @@
 {
-  "id": "EXPLANATORY-SYMMETRY-COMPARISON",
+  "id": "5ea22e99-16ae-57aa-b5e9-f548a9c69956",
+  "label": "With base-fixed asymmetric favouring, worlds agreeing on the base do not have one base reason…",
+  "legacy_id": "EXPLANATORY-SYMMETRY-COMPARISON",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+  "conclusion_statement_id": "7cc986d5-db68-58e2-95d2-3ecc6a885994",
   "inference_ids": [
-    "INF-EXPLANATORY-SYMMETRY-COMPARISON"
+    "86634cae-b4b7-513a-bfb6-ce91194ecff6"
   ],
   "meaning": "Verdicts of same-reason, plural-reason, ranked, settled, difference-making, token and marks readings of selection, on shared rivals. Conditional consequences and model verdicts only: no standard is established and no model is shown possible or personal. It discharges no premise and attributes nothing to a source. See docs/notes/explanatory-symmetry-742.md.",
   "definition_ids": [
-    "DEF-EXPLANATORY-FAVOURING-FRAME",
-    "DEF-EXPLANATORY-NET-SELECTION",
-    "DEF-EXPLANATORY-BASE-FIXED",
-    "DEF-EXPLANATORY-SYMMETRY-MODELS",
-    "DEF-EXPLANATORY-RIVALS",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-EXPLANATORY-ENABLES",
-    "DEF-EXPLANATORY-CHOICE-MARKS"
+    "f2772e30-1d85-5063-8f4d-96fbd97a10a8",
+    "7e29ff7f-5bb3-56ec-995d-fbf72aa014b0",
+    "fadca7e0-16af-53c0-a1ec-be79471754b6",
+    "176c29c3-378e-57d1-8ff9-895951c40d1c",
+    "5a3ef5f8-911c-5c18-bbe8-f2cabb2ceb1d",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6f5a06e5-76aa-53be-843c-bc2623f948c1",
+    "b2204d5e-65d3-53af-8d8a-24ccc793eb5e"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXPLANATORY-SELECTION",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-EXPLANATORY-CHOICE"
+    "59b60fe6-1bfe-512f-a90c-17416218bba4",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "23106d06-e5b6-5ea6-8afc-029a251a5f0e"
   ]
 }

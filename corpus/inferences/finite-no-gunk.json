@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-NO-GUNK",
+  "id": "4cbe5838-7209-5b7d-b1c1-83de940bf1d2",
+  "label": "No finite inhabited partial order can give every object a…, by Mathlib-no-minimum-implies-in…",
+  "legacy_id": "INF-FINITE-NO-GUNK",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-NO-GUNK",
+  "output_statement_id": "659893e1-ab92-5a6b-8200-0e55a324e0db",
   "rule": "mathlib-no-minimum-implies-infinite",
   "meaning": "An assumed strict proper part below every object is Mathlib NoMinOrder. Import NoMinOrder.infinite to contradict supplied finiteness. No remainder or fusion assumption is required for this obstruction.",
   "assumption_statement_ids": [],

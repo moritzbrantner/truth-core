@@ -1,11 +1,13 @@
 {
-  "id": "INF-PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "id": "7be2753c-384a-5648-b15b-0322294ed78b",
+  "label": "The proper-sense unique pure-act first-mover naming leaf is false: not…, by Constructive-proof",
+  "legacy_id": "INF-PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
   "input_statement_ids": [
-    "STMT-PROPER-REFERENCE-PRESERVED",
-    "STMT-GOD-NAMES-NO-BEING-WF-P1",
-    "STMT-PURE-ACT-NOMINAL-DESCRIPTOR-EXISTS"
+    "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+    "5424b521-4a5c-52a0-b790-1db9b53f4ecc",
+    "4a95da66-9ac0-59a9-95de-0a4d2842234c"
   ],
-  "output_statement_id": "STMT-PURE-ACT-NOMINAL-NAMING-FAILS",
+  "output_statement_id": "59168620-b291-58bf-8c03-b677e9b38502",
   "rule": "constructive-proof",
   "meaning": "A unique pure-act first-mover witness would be proper by the naming leaf and a practice referent by transfer, contrary to no-reference. This negates the proper-profile leaf only under the supplied witness and transfer.",
   "assumption_statement_ids": [],

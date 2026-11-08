@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
-  "argument_id": "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+  "id": "e2744e44-9252-5a2b-a95e-57fe091fa9d7",
+  "label": "Populated interpretation controls export the exact part-naturalism/component/composite/population…",
+  "legacy_id": "NATURALISM-MEREOLOGICAL-CONTRAST-CONTROLS",
+  "argument_id": "389f4acb-9a11-5142-b58e-3b468372014a",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismContrasts.Controls.contrastControls",

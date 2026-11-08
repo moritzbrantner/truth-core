@@ -1,9 +1,11 @@
 {
-  "id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
+  "id": "c1dba341-6be3-55ec-877c-7ee0232982a5",
+  "label": "Every practice lies in one of three cells: its grammar is fixed by its recognized authorities; or…",
+  "legacy_id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
   "paraphrase": "Every practice lies in one of three cells: its grammar is fixed by its recognized authorities; or not, and it is fixed by its ordinary practitioners' use; or it is fixed by neither.",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.GrammarCasesCover",
   "definition_ids": [
-    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
-    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE"
+    "b1138a4f-b857-5584-bfa9-450dcbc6ccc0",
+    "4a289628-1440-5838-b10d-6fa6108971d3"
   ]
 }

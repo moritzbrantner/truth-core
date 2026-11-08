@@ -1,22 +1,24 @@
 {
-  "id": "TRUTHMAKER-THEORY-MAP",
+  "id": "2fbd9886-18de-5f9f-af37-56329a889360",
+  "label": "On any existing arena, relative maximalist coverage entails every restricted coverage and free…",
+  "legacy_id": "TRUTHMAKER-THEORY-MAP",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTHMAKER-THEORY-MAP",
+  "conclusion_statement_id": "791bee74-d4a6-5316-9f08-2fad5c08019b",
   "inference_ids": [
-    "INF-TRUTHMAKER-THEORY-MAP"
+    "8465303a-eb19-560a-85ba-c42adb775c87"
   ],
   "meaning": "On any existing arena, relative maximalist coverage entails every restricted coverage and free semantics; factivity and coherence make InstanceMaker sound; a world-immanent uniform maker plus actual self-access yields an actual necessary individual; maximalism of a necessary fact yields local makers. Finite truthmakers satisfies maximalism and maker necessitation but has no uniform maker or necessary being; the restricted profile has actual positive witness and a weaker frozen absence conjunct (strict noncoverage is separately certified by TRUTHMAKER-RESTRICTED-SEPARATION). Free semantics admits both noMaking and a nonempty local relation. fixedBearer has maximalist uniform making and a necessary noncausing individual; switchingFixedMaking has a necessary individual and maximalism but no uniform maker of the existential fact. lawGround has a uniform fact-reason yet no world-immanent uniform individual maker. All finite policies are fragment-relative and analyst stipulated.",
   "definition_ids": [
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-TRUTHMAKER-SCOPE-PROFILES",
-    "DEF-TRUTHMAKER-UNIFORMITY",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-INSTANCE-GROUNDING"
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "1d3220e2-a6b2-51f5-87e7-a703690dee75",
+    "af6281dc-b6a1-573f-b1ea-d04f0194889f",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

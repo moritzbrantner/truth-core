@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-BEING-STOP",
+  "id": "164e3ef4-044c-5a0a-83ff-254fc683c04c",
+  "label": "NECESSARY_BEING_STOP_3: Every noncontingent member of the account is the existence fact of a being…",
+  "legacy_id": "DEF-EXPLANATORY-BEING-STOP",
   "term": "necessary-being stop",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.BeingStop",

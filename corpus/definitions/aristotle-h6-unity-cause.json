@@ -1,10 +1,12 @@
 {
-  "id": "DEF-ARISTOTLE-H6-UNITY-CAUSE",
+  "id": "57bc6e11-2b8f-506d-8f4d-27f67423c59f",
+  "label": "Cause of being one in H.6: The explanatory role sought for unity at the beginning of H.6 and…",
+  "legacy_id": "DEF-ARISTOTLE-H6-UNITY-CAUSE",
   "term": "cause of being one in H.6",
   "definition": "The explanatory role sought for unity at the beginning of H.6 and answered through proximate matter/form; the closing reply leaves the moving cause from potentiality to actuality as a qualified exception. A cause of unity is not by this usage alone a numerically distinct actual agent causing the whole in esse.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-MET-1045A-NONHEAP-UNITY",
-    "ARIST-MET-1045B-UNITY-MOVER-QUALIFICATION"
+    "69f4dfbe-0ffe-57ef-ae3c-ab7beae0bc7f",
+    "f41080c5-8ea4-531a-8108-42d4a164be11"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-Q11-GOD-BEING-PERSON",
+  "id": "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+  "label": "God as divine being versus divine person",
+  "legacy_id": "DISAMB-Q11-GOD-BEING-PERSON",
   "term": "God as divine being versus divine person",
   "sense_definition_ids": [
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-Q11-DIVINE-PERSON-OUTSIDE-DOMAIN"
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "496721fc-6313-5941-81b1-78caf9658520"
   ],
   "resolution": "Every quantified God in the Q11 proof is an original IsGod instance in Being: a hypothetical divine being, not Father, Son or Spirit as distinct persons. suppositumOf is used here for the individuating basis in the anti-plurality argument and not as a divine-person index. The common deity parameter does not identify persons. Existing IsGod is not redefined and no Trinitarian conclusion follows.",
   "term_label": "GOD_AS_DIVINE_BEING_VERSUS_DIVINE",
@@ -11,13 +13,13 @@
     {
       "id": "7bb68f33-d18e-423c-bea0-4d70d6eac536",
       "label": "GOD_AS_DIVINE_BEING_VERSUS_DIVINE_1",
-      "definition_id": "DEF-GOD-OF-CLASSICAL-THEISM",
+      "definition_id": "88f9f6e8-997b-5f7d-afa1-c501954c3807",
       "lean_declaration": "TruthCore.Case.Catholicism.Signature.IsGod"
     },
     {
       "id": "60e6fca1-fb3d-4f73-89f2-f3f8fd84913e",
       "label": "GOD_AS_DIVINE_BEING_VERSUS_DIVINE_2",
-      "definition_id": "DEF-Q11-DIVINE-PERSON-OUTSIDE-DOMAIN"
+      "definition_id": "496721fc-6313-5941-81b1-78caf9658520"
     }
   ]
 }

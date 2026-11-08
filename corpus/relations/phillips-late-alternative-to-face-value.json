@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-LATE-ALTERNATIVE-TO-FACE-VALUE-THEORY",
+  "id": "efe37470-270f-51cd-aa18-0544fcdfced3",
+  "label": "Late Phillips: one may say that 'God'… attacks The face value theory of religious…",
+  "legacy_id": "REL-PHILLIPS-LATE-ALTERNATIVE-TO-FACE-VALUE-THEORY",
   "subject_kind": "statement",
-  "subject_id": "STMT-PHILLIPS-REALISM-CONCEPTS-RELIGION-INTERNAL",
+  "subject_id": "ec30088f-e1d2-5944-9c6b-01aa928e47bb",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-FACE-VALUE-THEORY-RELIGIOUS-LANGUAGE",
+  "object_id": "5b1a3af9-c4f7-5629-ba52-b2aecd8cdcde",
   "note": "Guarded philosophical challenge, not automatic alternative closure: the raw reported later-Phillips thesis concerns discourse-internal concepts and differing truth extensions, whereas the raw face-value thesis includes propositional/assertoric/descriptive status. Those claims are not yet typed and no exact negation between them is established. The analyst ReligiousLanguageSemantics profile checks that local content/belief/fact representation can coexist with matched religious truth variation; a difference elsewhere may even coexist with matched religious invariance. An actual religious non-descriptive witness separately defeats local descriptive status, while a matched same-content truth-difference witness defeats a stronger cross-discourse-uniform profile. Neither witness is silently extracted from the raw internality source statement. Preserve the original strong minimalist challenge; source-fidelity/applicability of its descriptive-role denial remains a separate judgment. No root premise states either raw thesis."
 }

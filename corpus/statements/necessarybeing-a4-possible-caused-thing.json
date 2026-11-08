@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NB-A4-POSSIBLE-CAUSED-THING",
+  "id": "5acea408-887a-5506-a7de-c51aaf47ba00",
+  "label": "Conditional on the affirmative A4P1 report, something having a cause is possible",
+  "legacy_id": "STMT-NB-A4-POSSIBLE-CAUSED-THING",
   "paraphrase": "Conditional on the affirmative A4P1 report, something having a cause is possible. The cause tooltip speaks of a prior condition capable of explaining or partly explaining an event/change. No actual caused thing, existing concrete individual bearer, universal causal law or actual respondent assent is supplied.",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-A3-EVENT-AND-CAUSE"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A4-PROPERTY-TRANSFER-SCOPE",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "130ced63-088b-531d-82b5-3cd1ed1e304c",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

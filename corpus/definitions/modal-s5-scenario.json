@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-S5-SCENARIO",
+  "id": "9a3cef72-b144-5f91-9390-312bd4d96c94",
+  "label": "INTERPRETED_CONCEIVABILITY_SCENARIO_4: ScenarioFrame, ScenarioBridge and ScenarioContingency are…",
+  "legacy_id": "DEF-MODAL-S5-SCENARIO",
   "term": "interpreted conceivability scenario",
   "definition": "ScenarioFrame, ScenarioBridge and ScenarioContingency are independent open commitments about a supplied interpreted frame, conception map, predicate and root. ScenarioBridge is the actual unrestricted StrongBridge at that root, not necessary validity or a source claim. CollapseConceptionExcluded rejects conceiving full MC only under those premises.",
   "basis": "stipulative",

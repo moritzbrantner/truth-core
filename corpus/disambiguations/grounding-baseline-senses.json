@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-GROUNDING-BASELINE-SENSES",
+  "id": "e940ca85-8b6b-53ea-9c3a-4fd5693ad534",
+  "label": "Grounding, complete grounds, reason projection and enabling rules",
+  "legacy_id": "DISAMB-GROUNDING-BASELINE-SENSES",
   "term": "grounding, complete grounds, reason projection and enabling rules",
   "sense_definition_ids": [
-    "DEF-GROUNDING-MODAL-REDUCT",
-    "DEF-ADMITTED-FULL-GROUND-SETS",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-GROUND-ENABLING-RULES"
+    "aed2a89e-2482-5cd3-921f-69524c6c70c5",
+    "b738d5d0-b4bd-5f47-894f-673aae646d80",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "cf9bec81-7df3-51fa-8389-04e06302dfb4"
   ],
   "resolution": "Existential candidate grounding in A, fact-set ground candidates in C, fact-to-fact admitted reasons, efficient causation in Ontic and potential ground/enabler rule links in D remain different interpretations. reasonView is an explicit structural adapter into the existing forced lemma, not an assertion that R is genuine explanatory sufficiency. Only the entire full member set carries JointNecessitation; enablers outside it invalidate an advertised completeness/sufficiency reading. WF is independently stipulated, not hidden in a word. A necessary fact is not a necessary being, and a selected contingent terminus need not be the original target.",
   "term_label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION",
@@ -13,25 +15,25 @@
     {
       "id": "6b996383-26b7-4fdb-9cfa-b309d780a550",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_1",
-      "definition_id": "DEF-GROUNDING-MODAL-REDUCT",
+      "definition_id": "aed2a89e-2482-5cd3-921f-69524c6c70c5",
       "lean_declaration": "TruthCore.Explanation.GroundingBaseline.Extension"
     },
     {
       "id": "c79a5fde-7ba3-4c29-bb52-3ef1e2b4c2af",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_2",
-      "definition_id": "DEF-ADMITTED-FULL-GROUND-SETS",
+      "definition_id": "b738d5d0-b4bd-5f47-894f-673aae646d80",
       "lean_declaration": "TruthCore.Explanation.GroundingBaseline.FullGround"
     },
     {
       "id": "892710b6-cd65-420c-bdbe-9dd7fd2e9247",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_3",
-      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "definition_id": "179d4557-bda1-59c4-938a-b91e9974a27f",
       "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     },
     {
       "id": "2eac9cda-119c-4c48-a1a1-a0994d2947fd",
       "label": "GROUNDING_COMPLETE_GROUNDS_REASON_PROJECTION_4",
-      "definition_id": "DEF-GROUND-ENABLING-RULES",
+      "definition_id": "cf9bec81-7df3-51fa-8389-04e06302dfb4",
       "lean_declaration": "TruthCore.Explanation.GroundingBaseline.SatisfiesRules"
     }
   ]

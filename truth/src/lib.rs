@@ -4,6 +4,7 @@ pub mod check;
 pub mod context;
 pub mod dossier;
 pub mod frontier;
+pub mod identity;
 mod kernels;
 pub mod orphans;
 pub mod pyfmt;
@@ -205,6 +206,17 @@ impl Corpus {
             .get(kind)
             .into_iter()
             .flat_map(|records| records.iter().map(|(id, record)| (id.as_str(), record)))
+    }
+
+    /// The uuid / legacy id / label lookup over every loaded record.
+    pub fn aliases(&self) -> identity::Aliases {
+        let mut aliases = identity::Aliases::default();
+        for (&kind, records) in &self.records {
+            for record in records.values() {
+                aliases.add(kind, &record.fields);
+            }
+        }
+        aliases
     }
 
     /// IDs are unique within a kind. A lookup returns all exact matches.

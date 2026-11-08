@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SOME-LEAN-PROPOSITION-FAILS",
+  "id": "1c2b66ce-c7f0-5845-a84b-bf399126025e",
+  "label": "Inside Lean logic, ∃ P: Prop, ¬ P, witnessed by False",
+  "legacy_id": "STMT-SOME-LEAN-PROPOSITION-FAILS",
   "paraphrase": "Inside Lean logic, ∃ P : Prop, ¬ P, witnessed by False. Dual of STMT-SOME-LEAN-PROPOSITION-HOLDS.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.SomePropositionFails",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NOT-ONE-IN-FORM-MAY-ONE-IN-MATERIAL",
+  "id": "450d7f04-54c9-519e-a1b5-347a152c7e08",
+  "label": "Being cannot be one in form in the unrestricted way under attack, though unity in an underlying…",
+  "legacy_id": "STMT-NOT-ONE-IN-FORM-MAY-ONE-IN-MATERIAL",
   "paraphrase": "Being cannot be one in form in the unrestricted way under attack, though unity in an underlying material may be possible.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NotOneInFormMayBeOneInMaterialReading"
 }

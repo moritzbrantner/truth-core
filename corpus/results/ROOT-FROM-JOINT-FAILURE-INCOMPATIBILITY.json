@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
-  "argument_id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "id": "8f2f5e89-39ed-5761-8378-6078ea134982",
+  "label": "Logical rule template: for two indexed families of premise…, from joint failure incompatibility",
+  "legacy_id": "ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "argument_id": "06cd10d9-b8c6-501d-94c4-ad0eae840a29",
   "challenge_module": "TruthCore.Results.Logic.JointRouteFailure.Challenge",
   "solution_module": "TruthCore.Results.Logic.JointRouteFailure.Solution",
   "theorem": "TruthCore.Results.Logic.JointRouteFailure.rootFromJointFailureIncompatibility",

@@ -1,14 +1,16 @@
 {
-  "id": "NT-MARK-PILOT-MARK-AUTHORITY",
-  "statement_id": "STMT-PILOT-REPORT-MARK-AUTHORITY",
-  "source_id": "NT-MARK",
+  "id": "dd11ace7-dc86-59d3-b1c6-4828fd28d387",
+  "label": "New Testament, Mark 14.61-64: Mark attributes to Jesus an affirmative answer to the high priest’s…",
+  "legacy_id": "NT-MARK-PILOT-MARK-AUTHORITY",
+  "statement_id": "455d6fae-fd3e-5a4d-8daf-949eb86da06e",
+  "source_id": "39ad470f-17ba-5046-ac14-f5ba93b67c59",
   "locator": "14.61-64",
   "interpretation": "Reading these words as the skeleton’s claim to speak and act with divine authority is an explicit interpretive step; this report does not establish the claim’s truth.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

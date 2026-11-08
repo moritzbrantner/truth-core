@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
-  "argument_id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "id": "ead7c30a-40a1-5207-8c52-3f1e9443edc6",
+  "label": "One member of the selected complete actual-concrete grounding cone…, from contingent foundation",
+  "legacy_id": "NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "argument_id": "f494d1b9-5b0d-588a-a527-1b3f82fe767a",
   "challenge_module": "TruthCore.Results.Causality.ContingentAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.ContingentAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.ContingentAncestry.necessaryAncestor",

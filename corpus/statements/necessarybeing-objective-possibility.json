@@ -1,6 +1,12 @@
 {
-  "id": "STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY",
+  "id": "ff153719-4eb5-5120-b036-f2cc91f09d77",
+  "label": "The survey characterizes possibility objectively: a proposition is possible when it contradicts…",
+  "legacy_id": "STMT-NB-SURVEY-OBJECTIVE-POSSIBILITY",
   "paraphrase": "The survey characterizes possibility objectively: a proposition is possible when it contradicts nothing that must be the case. It does not appeal to what a particular person can conceive or know, and the underlying necessity relation is not completely axiomatized on the definition page.",
-  "definition_ids": ["DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-POSSIBILITY"]
+  "definition_ids": [
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
+  ],
+  "disambiguation_ids": [
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
+  ]
 }

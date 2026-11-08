@@ -1,15 +1,17 @@
 {
-  "id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "id": "c95f2e56-fbd6-5da9-8371-36c6e3219af5",
+  "label": "An endorsement disagreement and limited knowledge coexist with truths invariant under every profile",
+  "legacy_id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
   "paraphrase": "An endorsement disagreement and limited knowledge coexist with truths invariant under every profile. Epistemic differences alone do not force profile-relative truth.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.EpistemicDifferencesDoNotRequireRelativity",
   "definition_ids": [
-    "DEF-PILOT-PROFILE-TRUTH",
-    "DEF-PILOT-RELATIVISM-GLOBAL",
-    "DEF-PILOT-RELATIVISM-LOCAL",
-    "DEF-PILOT-EPISTEMIC-LIMITATION"
+    "f83c4d57-8044-505c-9082-b9944f50223a",
+    "b826ed2e-99ea-5586-9c53-829115d34524",
+    "176d848b-e667-50c6-b986-bfcd84e1f5ed",
+    "18aeeeb5-ced9-5195-bf8f-62496c60addb"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-RELATIVITY",
-    "DISAMB-TRUE"
+    "baab4b98-29b9-5275-9819-6dab48f39ab8",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

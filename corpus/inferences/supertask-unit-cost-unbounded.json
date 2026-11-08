@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUPERTASK-UNIT-COST-UNBOUNDED",
+  "id": "7c89294e-fa87-5042-a61e-22b9514bb8d0",
+  "label": "Partial sums of the unit-cost series 1 + 1 +... exceed every…, by Unit-partial-sums-exceed-budg…",
+  "legacy_id": "INF-SUPERTASK-UNIT-COST-UNBOUNDED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUPERTASK-UNIT-COST-UNBOUNDED",
+  "output_statement_id": "943ef760-bc5a-5d0a-8d79-4ec45e8ef77c",
   "rule": "unit-partial-sums-exceed-budget",
   "meaning": "Inductively prove that n unit-duration stages cost exactly n units. For every proposed finite budget B, the prefix with B+1 stages exceeds B.",
   "assumption_statement_ids": [],

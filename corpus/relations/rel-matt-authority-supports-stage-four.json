@@ -1,9 +1,11 @@
 {
-  "id": "REL-MATT-AUTHORITY-SUPPORTS-STAGE-FOUR",
+  "id": "febc7e69-2ce4-565a-ba6e-83f2825bdc97",
+  "label": "New Testament, Matthew 28.18: Matthew… supports Jesus claimed to speak and act with divine…",
+  "legacy_id": "REL-MATT-AUTHORITY-SUPPORTS-STAGE-FOUR",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
+  "subject_id": "7c35905c-b084-5c42-9e85-e6f316c49516",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
+  "object_id": "a88d9b81-1246-5844-a119-4be2af4dd3f9",
   "note": "Matthew's attributed claim to all authority in heaven and earth bears on the authority conjunct. Reading this as divine commission is distinct from an explicit claim to divine nature; neither historical attribution nor divine vindication follows from the textual report. The saying is narrated after the resurrection (Matt 28.18), so this support is not independent of the resurrection support REL-MATT-RESURRECTION-SUPPORTS-STAGE-FOUR."
 }

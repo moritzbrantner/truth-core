@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-ESSE-EFFECT-DEPENDS",
+  "id": "7d001102-bfcf-5e1c-88c1-62bb74aa9d2c",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports If c, distinct from x, causes x's esse…",
+  "legacy_id": "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-ESSE-EFFECT-DEPENDS",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
+  "subject_id": "3ed36bec-27f4-5c77-93d5-3b6724d65204",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE",
+  "object_id": "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
   "note": "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise applies this to causes of esse (CausesIn c x esse) rather than agent causes, and states it as a universal dependence premise; both are the analyst's."
 }

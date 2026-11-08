@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
-  "argument_id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "id": "c3f12498-e20f-5c9f-bc72-bbf067f480ef",
+  "label": "The selected rigid n actually exists and exists at every root-accessible…, from actual invariance",
+  "legacy_id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "argument_id": "5b45b205-368e-5c21-9bdf-9a393b178f36",
   "challenge_module": "TruthCore.Results.Modal.ExistenceDegreesActual.Challenge",
   "solution_module": "TruthCore.Results.Modal.ExistenceDegreesActual.Solution",
   "theorem": "TruthCore.Results.Modal.ExistenceDegreesActual.globalMaximumFromActualInvariant",

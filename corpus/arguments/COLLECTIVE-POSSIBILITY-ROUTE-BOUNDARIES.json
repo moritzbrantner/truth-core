@@ -1,12 +1,14 @@
 {
-  "id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
+  "id": "f881ee2d-e1ee-5027-9580-1598ed0d722a",
+  "label": "The imported global quantifier-shift refutation coexists with both outcomes: commonAbsence…",
+  "legacy_id": "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COLLECTIVE-POSSIBILITY-PROOF-ROUTE-CONTROLS",
+  "conclusion_statement_id": "5c89e68e-c76d-50d7-988e-4dc75ae01cd7",
   "inference_ids": [
-    "INF-COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES"
+    "b1e8af0b-32f0-5dcb-ae81-dfd15b8e6295"
   ],
   "meaning": "Reuse the unchanged global quantifier-shift refutation while checking local survival, target true/false and missing-realization-interface controls. Refuting a universal proof method settles none of those local target verdicts.",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

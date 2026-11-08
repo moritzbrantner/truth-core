@@ -1,9 +1,11 @@
 {
-  "id": "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED",
+  "id": "c6ebeb52-a198-55c8-b132-08fba8d3838f",
+  "label": "Scott's theorem T1: at every world, a POSITIVE_5 property is possibly exemplified",
+  "legacy_id": "STMT-SCOTT-POSITIVE-POSSIBLY-EXEMPLIFIED",
   "paraphrase": "Scott's theorem T1 (AFP GoedelGod.thy): at every world, a positive property is possibly exemplified (some accessible world has an individual with it).",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.PositivePossiblyExemplified",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

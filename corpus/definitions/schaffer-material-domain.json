@@ -1,9 +1,11 @@
 {
-  "id": "DEF-SCHAFFER-MATERIAL-DOMAIN",
+  "id": "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295",
+  "label": "Material cosmos and actual concrete…: The chosen domain is actual material objects; u is a maximal…",
+  "legacy_id": "DEF-SCHAFFER-MATERIAL-DOMAIN",
   "term": "material cosmos and actual concrete domain in Schaffer",
   "definition": "The chosen domain is actual material objects; u is a maximal cosmos with proper parts and Cx means Pxu. Deities, spirits, abstracta and other excluded categories are not quantified over by this comparison. This is the article’s arena, not an all-being definition.",
   "basis": "sourced",
   "claim_ids": [
-    "SCHAFFER-11-MATERIAL-SCOPE"
+    "abb42566-e52d-5063-85e5-3c2a0e28b699"
   ]
 }

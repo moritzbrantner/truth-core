@@ -1,14 +1,16 @@
 {
-  "id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "id": "40c68166-ac58-5b4b-8911-7b86ef17dbaf",
+  "label": "There is an interpretation in which a thought occurs and the bearer principle holds, but no bearer…",
+  "legacy_id": "COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "conclusion_statement_id": "96413fad-349c-58e1-b91f-de085121c85e",
   "inference_ids": [
-    "INF-COGITO-NON-SUBSTANTIAL-BEARER-MODEL"
+    "3105d34a-7c1e-5731-8ebc-00bf5ce8d327"
   ],
   "meaning": "Interpret Occurs and Bears as always true and Substance as always false over Unit.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ]
 }

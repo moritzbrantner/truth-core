@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "OPPY-KOONS-COSMOLOGICAL-ARGUMENT-1999",
+    "source_id": "bef9c949-c6f7-5d91-a917-e7db495a4969",
     "source_url": "https://place.asburyseminary.edu/cgi/viewcontent.cgi?article=1760&context=faithandphilosophy",
     "retrieved_at": "2026-10-31T00:07:48Z",
     "sha256": "sha256:5f81427730bf31483a53857be588631e63b74e093c8297d975b158a33f36a2ee",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "OPPY-KOONS-PP379-381",
+      "id": "f3b2e0f4-1044-5d1a-bbbc-efb4fdbd2fb1",
+      "label": "Graham Oppy, Koons' Cosmological Argument, Koons' Cosmological Argument, pp.379-381",
+      "legacy_id": "OPPY-KOONS-PP379-381",
       "locator": "Koons' Cosmological Argument, pp.379-381",
       "claim_locator_prefixes": [
         "pp.379-381"

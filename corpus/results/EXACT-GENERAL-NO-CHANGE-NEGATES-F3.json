@@ -1,6 +1,8 @@
 {
-  "id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
-  "argument_id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "id": "1114c535-df80-5233-8393-4aab7f280d19",
+  "label": "Exact negation of F3 SomethingChangesReading under…, from No candidate changes in the SAME general…",
+  "legacy_id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "argument_id": "e014720d-f3b8-5072-bb46-1726c782df17",
   "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.Challenge",
   "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.Solution",
   "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.CounterFailure.counterFailure",

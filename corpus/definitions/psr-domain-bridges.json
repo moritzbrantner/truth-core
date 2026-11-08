@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-DOMAIN-BRIDGES",
+  "id": "b72a765f-2c53-5a20-b4e7-6bfcc4529df4",
+  "label": "Richness of the domain of facts: UnexplainedFacts A w says that for each unexplained contingent…",
+  "legacy_id": "DEF-PSR-DOMAIN-BRIDGES",
   "term": "richness of the domain of facts",
   "definition": "UnexplainedFacts A w says that for each unexplained contingent truth f at w the domain has a fact true exactly where f is true and unexplained, with f as a conjunct. Extensional A says every set of worlds is the extension of a fact. EntailmentConjunct A says being a conjunct coincides with being entailed at every world.",
   "basis": "stipulative",

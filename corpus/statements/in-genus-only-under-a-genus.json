@@ -1,9 +1,11 @@
 {
-  "id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
+  "id": "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
+  "label": "Whatever a thing is in properly, as a species is contained under its GENUS_1, is a GENUS_1 in the…",
+  "legacy_id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
   "paraphrase": "Whatever a thing is in properly, as a species is contained under its genus, is a genus in the strict sense.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.InGenusOnlyUnderAGenusReading",
   "definition_ids": [
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GENUS-STRICT"
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-PATH-RELOCATION-CONTROLS",
+  "id": "798b44ee-ced3-545c-9fe8-9e9c89d85369",
+  "label": "Closed Bool-state controls, by Direct-proof",
+  "legacy_id": "INF-PATH-RELOCATION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PATH-RELOCATION-CONTROLS",
+  "output_statement_id": "b01ecf0e-5742-58da-b519-a5b7469dc9bb",
   "rule": "direct-proof",
   "meaning": "Compute the alternation, pin, all-true, rise, revisit and two-point window fixtures and apply the certificate's lemmas to each. Flip solutions are classified by their value at time 0.",
   "assumption_statement_ids": [],

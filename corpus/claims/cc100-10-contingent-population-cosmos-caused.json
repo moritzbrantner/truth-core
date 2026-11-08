@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
-  "statement_id": "STMT-CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "9bd8e679-55c9-5d18-8367-39c8ddf56144",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If there are contingent things, the aggregate C of all…",
+  "legacy_id": "CC100-10-CONTINGENT-POPULATION-COSMOS-CAUSED",
+  "statement_id": "1ba74230-ff3a-5813-ab60-e4060f4f42f3",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.22, L4 citing L3 and C3, argument #10 Koons",
   "interpretation": "Retain the selected population guard and defined aggregate. This is the source’s displayed application of wholly-contingent causation, not a new formal proof, actual concrete cause witness or independently defended collective explanatory sufficiency. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

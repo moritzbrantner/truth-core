@@ -1,6 +1,8 @@
 {
-  "id": "CONVERGENT-ZENO-SCHEDULE",
-  "argument_id": "CONVERGENT-ZENO-SCHEDULE",
+  "id": "ccff75b9-ff02-5af8-8d20-c89985958aca",
+  "label": "The real-valued schedule whose stage n begins at time 1 - ^n is strictly increasing, every stage…",
+  "legacy_id": "CONVERGENT-ZENO-SCHEDULE",
+  "argument_id": "cd15a31e-20ff-5b24-a994-6d52d6d43654",
   "challenge_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConvergentZenoSchedule.Solution",
   "theorem": "TruthCore.Results.Causality.ConvergentZenoSchedule.convergentZenoSchedule",

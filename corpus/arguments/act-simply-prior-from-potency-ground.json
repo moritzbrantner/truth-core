@@ -1,24 +1,26 @@
 {
-  "id": "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
+  "id": "c332764b-a83a-5f4e-ba4b-13c0182d7d97",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect is…, from POTENCY_1 ground",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
   "premise_statement_ids": [
-    "STMT-POTENCY-HAS-GROUND",
-    "STMT-GROUND-OF-POTENCY-IS-IN-ACT",
-    "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"
+    "8a1d7012-3a77-5c78-a5b1-30006aa4ae8c",
+    "bf374f2e-df3b-5e8f-bea8-9fcfe680141b",
+    "a4606a6b-8209-58d9-b221-a26a7f31b0e1"
   ],
-  "conclusion_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "conclusion_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "inference_ids": [
-    "INF-ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND"
+    "4451b8bb-ee26-5638-937f-167e0e8931a3"
   ],
   "meaning": "Act's simple priority over every potency, idle potency included, from three OPEN premises: every potency has a ground, the ground of a potency in a respect is in act in that respect, and the ground of a thing's potency is simply prior to it. The q.3 a.1 reason (reduction only by a being in act) bears on the second premise only for potencies being reduced.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-POTENCY-GROUND",
-    "DEF-RESPECT",
-    "DEF-SIMPLE-PRIORITY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "66914b47-5881-5d7f-a18b-8b22447fb71c",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

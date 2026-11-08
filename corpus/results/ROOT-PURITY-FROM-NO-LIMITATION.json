@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-PURITY-FROM-NO-LIMITATION",
-  "argument_id": "ROOT-PURITY-FROM-NO-LIMITATION",
+  "id": "3a22cd1f-3249-54e2-8e9f-c0a4759c7578",
+  "label": "Every real determination of an actual concrete root of the selected grounding…, from no limitation",
+  "legacy_id": "ROOT-PURITY-FROM-NO-LIMITATION",
+  "argument_id": "dcea77db-7979-558a-8c75-6a0118d9212b",
   "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
   "theorem": "TruthCore.Results.Causality.RootPurity.rootPurityFromNoLimitation",

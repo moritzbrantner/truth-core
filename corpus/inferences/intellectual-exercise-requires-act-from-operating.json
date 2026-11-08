@@ -1,10 +1,12 @@
 {
-  "id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "id": "741543b5-f3e1-50d7-9191-30d8cc051add",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse…, by Universal instantiation… (2)",
+  "legacy_id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
   "input_statement_ids": [
-    "STMT-INTELLECTUAL-EXERCISE-IS-OPERATING",
-    "STMT-OPERATING-ONLY-OF-BEING-IN-ACT"
+    "193c3a8c-fc70-5b5d-8621-df68a5b0f960",
+    "febc5ca6-967a-5fcc-9d72-5255d1300b6d"
   ],
-  "output_statement_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
+  "output_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
   "rule": "Universal instantiation, modus ponens",
   "meaning": "Every attributed intellectual exercise requires its bearer to be in act in some respect, from two OPEN premises: whoever exercises intellect operates, and whatever operates is in act in some respect (the generic, not only transient, operari sequitur esse).",
   "assumption_statement_ids": [],

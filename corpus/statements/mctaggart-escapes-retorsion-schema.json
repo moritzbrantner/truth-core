@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
+  "id": "b51bd293-a8f9-5a06-8f9d-ff73c3d3da05",
+  "label": "McTaggart's answer escapes the performed-denial retorsion at the PRESUPPOSITION_LINK_2: for every…",
+  "legacy_id": "STMT-MCTAGGART-ESCAPES-RETORSION-SCHEMA",
   "paraphrase": "McTaggart's answer escapes the performed-denial retorsion at the presupposition link: (1) for every interpretation, STMT-MCTAGGART-APPEARINGS-DO-NOT-CHANGE denies the change link (every appearing is a change of the appearer); (2) with the open bridge STMT-MOTION-IS-A-CHANGE it denies the Eleatic link for every opinion respect; (3) in one model (the opinionGate model) the 1908 bundle, the 1927 answer and the bridge hold, someone opines that nothing is moved and someone opines that nothing changes, both theses are true, and both links fail; (4) STMT-STATIC-EPISODE-CONTROL: an occurring episode need not vary in state. The model is not claimed faithful to McTaggart; it shows only that these commitments do not entail either link.",
   "lean_declaration": "TruthCore.Alternatives.Retorsion.McTaggartEscapesRetorsion",
   "definition_ids": [
-    "DEF-PRESUPPOSITION-LINK",
-    "DEF-EPISODE-OCCURRENCE",
-    "DEF-EPISODIC-STATE-VARIATION",
-    "DEF-OPINING",
-    "DEF-CHANGE-GENERAL",
-    "DEF-MOTION-AS-REDUCTION"
+    "322dfd2b-04c6-5113-9ab6-6327e617d0c0",
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "0328d44e-ee8e-54b5-bb65-59b197ce3ac1",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "9bd881c9-2227-5883-9595-96db5e630da3",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES",
-    "DISAMB-MOTION"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

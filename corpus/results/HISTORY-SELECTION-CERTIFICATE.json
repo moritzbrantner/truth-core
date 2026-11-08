@@ -1,6 +1,8 @@
 {
-  "id": "HISTORY-SELECTION-CERTIFICATE",
-  "argument_id": "HISTORY-SELECTION-CERTIFICATE",
+  "id": "4b8f07db-2a50-5826-ac09-083f0e088d64",
+  "label": "For any typed history and admitted truth-vector, determining the complete supplied history among…",
+  "legacy_id": "HISTORY-SELECTION-CERTIFICATE",
+  "argument_id": "4a1d04b7-1c9a-5b65-b6f9-1f1dc68982a0",
   "challenge_module": "TruthCore.Results.Explanation.HistorySelection.Challenge",
   "solution_module": "TruthCore.Results.Explanation.HistorySelection.Solution",
   "theorem": "TruthCore.Results.Explanation.HistorySelection.certificate",

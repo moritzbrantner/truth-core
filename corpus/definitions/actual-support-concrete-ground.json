@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-SUPPORT-CONCRETE-GROUND",
+  "id": "93f8ff82-1cff-5227-92d4-d1175c39f57b",
+  "label": "Actual esse support as concrete…: At selected w, each existing R-supporter c of each existing…",
+  "legacy_id": "DEF-ACTUAL-SUPPORT-CONCRETE-GROUND",
   "term": "actual esse support as concrete grounding",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.OccurrenceUnderivedEssence.ActualSupportIsConcreteGround",

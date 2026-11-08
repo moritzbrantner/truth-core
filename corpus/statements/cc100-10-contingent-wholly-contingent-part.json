@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
+  "id": "69baf411-c5c9-5eb8-96e4-cd462c52ea8e",
+  "label": "Every contingent thing has a wholly contingent part",
+  "legacy_id": "STMT-CC100-10-CONTINGENT-WHOLLY-CONTINGENT-PART",
   "paraphrase": "Every contingent thing has a wholly contingent part.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

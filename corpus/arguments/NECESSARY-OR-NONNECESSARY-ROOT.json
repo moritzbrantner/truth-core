@@ -1,36 +1,38 @@
 {
-  "id": "NECESSARY-OR-NONNECESSARY-ROOT",
+  "id": "a75adc9a-2767-5732-aa81-b315bedd918f",
+  "label": "Either some concrete individual…, from Some candidate is CONCRETE_6 and exists at… and 2 more",
+  "legacy_id": "NECESSARY-OR-NONNECESSARY-ROOT",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-OR-NONNECESSARY-ROOT",
+  "conclusion_statement_id": "4ec11554-7c5f-5c7b-9de0-8bd817aa34b8",
   "inference_ids": [
-    "INF-NECESSARY-OR-NONNECESSARY-ROOT"
+    "548eed92-f0d1-5be1-a648-ed9dec82bf8d"
   ],
   "meaning": "Coverage theorem for #553, not a transcription: the root is obtained by induction. Compared with BRUTE-ROOT-DISJUNCTION, well-foundedness is restricted to actual concreta and the second horn says nonnecessary, not contingent; excluded middle is an explicit hypothesis rather than Lean's axioms. The horns are not exclusive (STMT-NECESSARY-ROOT-CONTROLS). Inhabitedness and restricted well-foundedness are open; neither horn is asserted. The root is a root of the selected relation only and may have a non-concrete or unmodelled explanation. Nothing about uniqueness, underivedness, simplicity, intellect or God follows.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "strong_version_needed": {
-    "STMT-ACTUAL-GROUNDING-WF": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
   }
 }

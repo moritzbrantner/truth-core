@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
+  "id": "5b6a558d-857c-5764-b3df-3d197fc1bb9b",
+  "label": "Every state either has F or lacks it: no state lies between the two…, by Universal-instantiation",
+  "legacy_id": "INF-BRIDGE-IV7-CONTRADICTORY-PAIR-FROM-EXCLUDED-MIDDLE",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-CONTRADICTORY-PAIR-DECIDED-ON-STATES",
+  "output_statement_id": "78842acb-e26c-5d26-9995-cdb26e5ce9eb",
   "rule": "universal-instantiation",
   "meaning": "For each state, instantiate excluded middle at 'the state has F'. A transcription: the premise is only instantiated.",
   "assumption_statement_ids": [],

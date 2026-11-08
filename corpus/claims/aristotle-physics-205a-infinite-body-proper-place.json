@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-205A-INFINITE-BODY-PROPER-PLACE-A",
-  "statement_id": "STMT-INFINITE-BODY-CONFLICTS-PROPER-PLACE",
-  "source_id": "ARIST-PHYS",
+  "id": "f137bccd-0a21-5953-921a-9581e0295a01",
+  "label": "Aristotle, Physics III.5, 205a7-206a7: An actually infinite sensible body conflicts with the…",
+  "legacy_id": "ARIST-PHYS-205A-INFINITE-BODY-PROPER-PLACE-A",
+  "statement_id": "6c9a374a-f4fb-50b0-b8a0-af3b3c8ba069",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 205a7-206a7",
   "interpretation": "General physical argument: an actually infinite sensible body is incompatible with Aristotle's differentiated proper-place and natural-motion structure, including the distinctions of up/down, centre/extremity, rest, and locomotion. The formal relation remains primitive rather than translated into modern geometry.",
   "status": "formalized"

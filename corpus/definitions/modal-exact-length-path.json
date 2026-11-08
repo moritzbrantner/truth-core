@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-EXACT-LENGTH-PATH",
+  "id": "8a85f3d1-9b5e-5542-a787-750d91bbace5",
+  "label": "Exact-length directed path and…: ExactPath F n a b has a Mathlib Quiver.Path from a to b in the…",
+  "legacy_id": "DEF-MODAL-EXACT-LENGTH-PATH",
   "term": "exact-length directed path and iterated modalities",
   "definition": "ExactPath F n a b has a Mathlib Quiver.Path from a to b in the explicit F.toQuiver with length exactly n. Zero length means a=b, not a self-edge; successor length decomposes into an original access edge followed by an exact n-path. Formula.iterBox and iterDiamond repeat their modal constructor n times, with zero repetitions the unchanged formula. Their Holds semantics universally and existentially quantify, respectively, over endpoints of paths of exactly that length.",
   "basis": "stipulative",

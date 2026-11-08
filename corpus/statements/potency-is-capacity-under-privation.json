@@ -1,11 +1,13 @@
 {
-  "id": "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION",
+  "id": "3c0b7bb3-1526-55a9-b71e-0d5fb3148782",
+  "label": "To be in POTENCY_1 to r is to be capable of r and deprived of r: ∀ x r, InPotency x r ↔ CanBe x r ∧…",
+  "legacy_id": "STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION",
   "paraphrase": "OPEN analyst premise: to be in potency to r is to be capable of r and deprived of r: ∀ x r, InPotency x r ↔ CanBe x r ∧ Deprived x r. The subject-privation pair of Physics I.7-8 applied to capacities; the identification is the analyst's.",
   "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PotencyIsCapacityUnderPrivation",
   "definition_ids": [
-    "DEF-POTENCY",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
-    "DEF-RESPECT"
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ]
 }

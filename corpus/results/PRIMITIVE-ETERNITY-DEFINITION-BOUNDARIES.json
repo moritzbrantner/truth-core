@@ -1,6 +1,8 @@
 {
-  "id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
-  "argument_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "id": "6bc09f0b-0702-50ec-b96a-3ec213f17564",
+  "label": "Finite SAME-profile controls: endless life permits successive life-states and need not be…",
+  "legacy_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES",
+  "argument_id": "0a87f248-734f-58d0-aebe-65e67abcad74",
   "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.Controls.Challenge",
   "solution_module": "TruthCore.Results.Causality.EternityDefinitions.Controls.Solution",
   "theorem": "TruthCore.Results.Causality.EternityDefinitions.Controls.controls",

@@ -1,20 +1,22 @@
 {
-  "id": "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
+  "id": "0d630cd2-9f7f-5380-bce9-abaff6e9d9c8",
+  "label": "Boyd’s recorded fragment is satisfiable with an explicit true evaluative ascription and an…",
+  "legacy_id": "STMT-NATURALIST-BOYD-ASCRIPTION-CONSISTENT",
   "paraphrase": "Boyd’s recorded fragment is satisfiable with an explicit true evaluative ascription and an explicit false evaluative ascription accepted in cognitive error, together with a positive evaluative act without a universal instrumental-reason link. Each sentence is tied to an act by Ascribes, so empty Ascribes cannot satisfy this theorem. This is finite satisfiability, not actual objective grounding or truth of the complete historical system.",
   "lean_declaration": "TruthCore.Comparison.NaturalisticRealism.BoydAscriptionConsistent",
   "definition_ids": [
-    "DEF-NATURALIST-FINITE-INTERPRETATION",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-MORAL-ERROR",
-    "DEF-NATURALIST-CATEGORICAL-REASONS",
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-TRUTH-VALUE",
-    "DEF-MORAL-STATEMENT",
-    "DEF-ENCODED-THEORY-CONSISTENCY"
+    "e1858d69-a463-5e57-8722-0de4a22a3049",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+    "4bf71609-9f30-5161-b188-ffa1cce02bb4",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "2cd80f27-09e0-51b6-a41e-c8638524dfdb"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

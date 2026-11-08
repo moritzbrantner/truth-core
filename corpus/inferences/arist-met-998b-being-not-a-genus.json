@@ -1,11 +1,13 @@
 {
-  "id": "INF-ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "id": "b3b2b14f-9c27-5130-ae69-7b532205da1d",
+  "label": "BEING_1 is not a GENUS_1 in the strict sense, by Reductio",
+  "legacy_id": "INF-ARIST-MET-998B-BEING-NOT-A-GENUS",
   "input_statement_ids": [
-    "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
-    "STMT-DIFFERENTIAE-ARE-BEINGS",
-    "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE"
+    "b90bbae6-7979-581c-aca2-e278b2309336",
+    "7ddbed37-7f99-53ab-8eb2-bd8e8e9e0472",
+    "b792ed75-8e20-5547-aa0d-cc19bf62ed56"
   ],
-  "output_statement_id": "STMT-BEING-NOT-A-GENUS",
+  "output_statement_id": "095d30c5-6f24-51be-88da-201d3b4fabda",
   "rule": "reductio",
   "meaning": "Suppose being is a genus. It has a differentia d; being is said of d, since every differentia is a being; but a genus is not said of its own differentia. Contradiction.",
   "assumption_statement_ids": [],

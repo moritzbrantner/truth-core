@@ -1,6 +1,8 @@
 {
-  "id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
-  "argument_id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "id": "ec80b13d-0c87-5f71-bc70-16b42dc4c0e6",
+  "label": "The owner's retorsion: if there are no epistemic reasons, then no one has an epistemic reason to…",
+  "legacy_id": "EPISTEMIC-NIHILISM-SELF-UNDERMINING",
+  "argument_id": "f8e82f70-7645-5676-aebc-aef21b5cca89",
   "challenge_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicNihilismRetorsion.nihilismSelfUndermining",

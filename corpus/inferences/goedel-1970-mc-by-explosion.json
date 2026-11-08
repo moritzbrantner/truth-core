@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOEDEL-1970-MC-BY-EXPLOSION",
+  "id": "265da8b3-cea0-5a14-b671-3040c5951976",
+  "label": "Modal collapse: at every world, whatever proposition is true there is necessary there, by Ex-falso",
+  "legacy_id": "INF-GOEDEL-1970-MC-BY-EXPLOSION",
   "input_statement_ids": [
-    "STMT-MODEL-HAS-NO-WORLD"
+    "fd3e7bbf-50da-5190-9e66-1f79b346f4bf"
   ],
-  "output_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "output_statement_id": "f8207978-1cbb-51fd-921f-b283c1dbf9a2",
   "rule": "ex-falso",
   "meaning": "A model without worlds satisfies modal collapse vacuously: there is no world at which a proposition could be true and not necessary.",
   "assumption_statement_ids": [],

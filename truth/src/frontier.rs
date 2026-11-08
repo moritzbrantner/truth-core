@@ -22,13 +22,14 @@ use std::{
     time::{SystemTime, UNIX_EPOCH},
 };
 
+/// Stage conclusions of the root skeleton, by uuid (legacy ids in comments).
 const STAGE_CONCLUSIONS: &[(u64, &str)] = &[
-    (1, "STMT-GOD-EXISTS"),
-    (2, "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"),
-    (3, "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"),
-    (4, "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE"),
-    (5, "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH"),
-    (6, "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH"),
+    (1, "8626f8a5-9531-5da7-9ebd-f901e74b1129"), // STMT-GOD-EXISTS
+    (2, "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"), // STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES
+    (3, "5fc7a6f9-94d7-5938-9e32-b2614c159646"), // STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE
+    (4, "a88d9b81-1246-5844-a119-4be2af4dd3f9"), // STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE
+    (5, "a8dfc0b8-140f-5351-a856-16a719251ac3"), // STMT-CHRIST-FOUNDED-VISIBLE-CHURCH
+    (6, "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267"), // STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH
 ];
 const BARE: &str = "bare";
 const SUPPORTED: &str = "supported";
@@ -88,6 +89,14 @@ pub fn transcription_flags(checkout: &Path, records: &Records) -> Vec<Flag> {
             )
         })
         .collect()
+}
+
+/// `corpus_ids.order_key`: a record's legacy id when it has one, else its id.
+fn order_key<'a>(id: &'a str, record: Option<&'a Record>) -> &'a str {
+    record
+        .and_then(|record| record.get("legacy_id"))
+        .and_then(Value::as_str)
+        .unwrap_or(id)
 }
 
 fn flag_json(flag: &Flag) -> Value {
@@ -745,6 +754,20 @@ impl<'a> Frontier<'a> {
         }
     }
 
+    /// `corpus_ids.order_key` of an argument: its legacy id, else its id.
+    /// Ties break by it so the uuid migration changed no route choice.
+    fn argument_order(&self, argument_id: &'a str) -> &'a str {
+        order_key(argument_id, self.argument_by_id.get(argument_id).copied())
+    }
+
+    /// `corpus_ids.order_key` of a statement.
+    fn statement_order(&self, statement_id: &'a str) -> &'a str {
+        order_key(
+            statement_id,
+            self.statement_by_id.get(statement_id).copied(),
+        )
+    }
+
     fn sourced(&self, statement: &str) -> bool {
         self.stating_claims
             .get(statement)
@@ -779,7 +802,7 @@ impl<'a> Frontier<'a> {
                     .map(|argument| (*argument_id, *argument))
             })
             .collect();
-        proofs.sort_by_key(|(argument_id, _)| *argument_id);
+        proofs.sort_by_key(|(argument_id, _)| self.argument_order(argument_id));
         let proofs: Vec<(&str, Vec<&str>)> = proofs
             .into_iter()
             .map(|(_, argument)| {
@@ -865,10 +888,24 @@ impl<'a> Frontier<'a> {
                 }
                 reached
             };
-            let core = unresolved
-                .iter()
-                .map(|statement| reachable(statement))
-                .min_by(|a, b| a.len().cmp(&b.len()).then_with(|| a.iter().cmp(b.iter())))
+            let mut seeds: Vec<&str> = unresolved.iter().copied().collect();
+            seeds.sort_by_key(|statement| self.statement_order(statement));
+            let ordered = |component: &BTreeSet<&'a str>| {
+                let mut keys: Vec<&str> = component
+                    .iter()
+                    .map(|statement| self.statement_order(statement))
+                    .collect();
+                keys.sort_unstable();
+                keys
+            };
+            let core = seeds
+                .into_iter()
+                .map(reachable)
+                .min_by(|a, b| {
+                    a.len()
+                        .cmp(&b.len())
+                        .then_with(|| ordered(a).cmp(&ordered(b)))
+                })
                 .unwrap_or_default();
             for statement in core {
                 leaves.insert(statement, Some(BTreeSet::from([statement])));
@@ -878,7 +915,7 @@ impl<'a> Frontier<'a> {
 
         let designated = self.routes.get(self.root);
         let mut argument_ids: Vec<&str> = self.argument_by_id.keys().copied().collect();
-        argument_ids.sort_unstable();
+        argument_ids.sort_by_key(|argument_id| self.argument_order(argument_id));
         let mut entries = Vec::new();
         for argument_id in argument_ids {
             let argument = self.argument_by_id[argument_id];
@@ -916,13 +953,20 @@ impl<'a> Frontier<'a> {
         let cheapest = entries
             .iter_mut()
             .filter(|entry| entry.verified)
-            .min_by(|a, b| (a.cost, a.argument_id).cmp(&(b.cost, b.argument_id)));
+            .min_by(|a, b| {
+                (a.cost, self.argument_order(a.argument_id))
+                    .cmp(&(b.cost, self.argument_order(b.argument_id)))
+            });
         let cheapest_id = cheapest.map(|entry| {
             entry.cheapest = true;
             entry.argument_id
         });
         entries.sort_by(|a, b| {
-            (!a.verified, a.cost, a.argument_id).cmp(&(!b.verified, b.cost, b.argument_id))
+            (!a.verified, a.cost, self.argument_order(a.argument_id)).cmp(&(
+                !b.verified,
+                b.cost,
+                self.argument_order(b.argument_id),
+            ))
         });
         (cheapest_id, entries)
     }
@@ -957,7 +1001,13 @@ impl<'a> Frontier<'a> {
                     layer.push((*argument_id, conclusion, *current));
                 }
             }
-            layer.sort_unstable();
+            layer.sort_by_key(|(argument_id, conclusion, current)| {
+                (
+                    self.argument_order(argument_id),
+                    self.statement_order(conclusion),
+                    self.statement_order(current),
+                )
+            });
             let mut next = Vec::new();
             for (argument_id, conclusion, current) in layer {
                 if visited_arguments.insert(argument_id) {
@@ -980,7 +1030,7 @@ impl<'a> Frontier<'a> {
                     next.push(conclusion);
                 }
             }
-            next.sort_unstable();
+            next.sort_by_key(|statement| self.statement_order(statement));
             frontier = next;
         }
         let path = parent.contains_key(self.root).then(|| {
@@ -2722,6 +2772,132 @@ fn git(checkout: &Path, args: &[&str]) -> Result<Vec<u8>, String> {
 }
 
 /// A `git archive` extract of one revision, removed on drop.
+/// Python `uses_uuid_identity`: whether the corpus at `tree` has uuid ids
+/// (judged by its first statement record).
+fn uses_uuid_identity(tree: &Path) -> bool {
+    let directory = tree.join("corpus").join("statements");
+    let mut paths: Vec<PathBuf> = std::fs::read_dir(&directory)
+        .into_iter()
+        .flatten()
+        .filter_map(|entry| entry.ok().map(|entry| entry.path()))
+        .filter(|path| path.extension().is_some_and(|ext| ext == "json"))
+        .collect();
+    paths.sort();
+    let Some(first) = paths.first() else {
+        return true;
+    };
+    std::fs::read_to_string(first)
+        .ok()
+        .and_then(|text| serde_json::from_str::<Value>(&text).ok())
+        .and_then(|record| record["id"].as_str().map(crate::identity::is_uuid))
+        .unwrap_or(false)
+}
+
+/// Python `legacy_report_to_uuid`: every string of a pre-migration report
+/// that is a legacy id of the tree's records becomes that record's uuid.
+/// Only arguments and results share legacy ids; a key naming results picks
+/// the result, any other key the argument.
+fn legacy_report_to_uuid(report: Value, tree: &Path) -> Value {
+    // legacy id -> [(kind, uuid)] in first-insertion order (`Migration.load`).
+    let mut table: HashMap<String, Vec<(&'static str, String)>> = HashMap::new();
+    for &(directory, kind) in crate::identity::KIND_DIRS {
+        let mut paths: Vec<PathBuf> = std::fs::read_dir(tree.join("corpus").join(directory))
+            .into_iter()
+            .flatten()
+            .filter_map(|entry| entry.ok().map(|entry| entry.path()))
+            .filter(|path| path.extension().is_some_and(|ext| ext == "json"))
+            .collect();
+        paths.sort();
+        for path in paths {
+            let Ok(Value::Object(data)) = std::fs::read_to_string(&path)
+                .map_err(|_| ())
+                .and_then(|text| serde_json::from_str::<Value>(&text).map_err(|_| ()))
+            else {
+                continue;
+            };
+            let records: Vec<&Map<String, Value>> = if kind == "passage" {
+                data.get("passages")
+                    .and_then(Value::as_array)
+                    .into_iter()
+                    .flatten()
+                    .filter_map(Value::as_object)
+                    .collect()
+            } else {
+                vec![&data]
+            };
+            for record in records {
+                let Some(id) = record.get("id").and_then(Value::as_str) else {
+                    continue;
+                };
+                let uuid = crate::identity::is_uuid(id);
+                let legacy = if uuid {
+                    record.get("legacy_id").and_then(Value::as_str)
+                } else {
+                    Some(id)
+                };
+                let Some(legacy) = legacy.filter(|legacy| !legacy.is_empty()) else {
+                    continue;
+                };
+                let uid = if uuid {
+                    id.to_owned()
+                } else {
+                    crate::identity::legacy_uuid(kind, legacy)
+                };
+                let kinds = table.entry(legacy.to_owned()).or_default();
+                match kinds.iter_mut().find(|(known, _)| *known == kind) {
+                    Some(slot) => slot.1 = uid,
+                    None => kinds.push((kind, uid)),
+                }
+            }
+        }
+    }
+    fn convert(
+        table: &HashMap<String, Vec<(&'static str, String)>>,
+        value: &str,
+        key: &str,
+    ) -> String {
+        let Some(kinds) = table.get(value).filter(|kinds| !kinds.is_empty()) else {
+            return value.to_owned();
+        };
+        if kinds.len() == 1 {
+            return kinds[0].1.clone();
+        }
+        let prefer = if key.contains("result") {
+            ["result", "argument"]
+        } else {
+            ["argument", "result"]
+        };
+        prefer
+            .iter()
+            .find_map(|kind| kinds.iter().find(|(known, _)| known == kind))
+            .unwrap_or(&kinds[0])
+            .1
+            .clone()
+    }
+    fn walk(table: &HashMap<String, Vec<(&'static str, String)>>, node: Value, key: &str) -> Value {
+        match node {
+            Value::Object(object) => Value::Object(
+                object
+                    .into_iter()
+                    .map(|(k, v)| {
+                        let value = walk(table, v, &k);
+                        (convert(table, &k, key), value)
+                    })
+                    .collect(),
+            ),
+            Value::Array(items) => Value::Array(
+                items
+                    .into_iter()
+                    .map(|item| walk(table, item, key))
+                    .collect(),
+            ),
+            Value::String(text) => Value::String(convert(table, &text, key)),
+            other => other,
+        }
+    }
+    walk(&table, report, "")
+}
+
 struct Extract(PathBuf);
 
 impl Drop for Extract {
@@ -2774,8 +2950,14 @@ pub fn revision_frontier(
     checkout: &Path,
     revision: &str,
     root: &str,
+    legacy_root: &str,
 ) -> Result<(Value, &'static str), String> {
     let tree = extract(checkout, revision)?;
+    // A revision from before the uuid migration knows only legacy ids: it is
+    // asked for the root's legacy id and its report is mapped to uuids
+    // (Python `revision_frontier_json`).
+    let legacy = !uses_uuid_identity(&tree.0);
+    let root = if legacy { legacy_root } else { root };
     let script = format!("{revision}:scripts/corpus.py");
     let same_rules = match (
         git(checkout, &["rev-parse", &script]),
@@ -2812,6 +2994,9 @@ pub fn revision_frontier(
             .map_err(|error| format!("frontier at {revision}: invalid JSON: {error}"))?;
         (report, "python")
     };
+    if legacy {
+        report = legacy_report_to_uuid(report, &tree.0);
+    }
     let all_item_depths: Map<String, Value> = report["items"]
         .as_array()
         .into_iter()

@@ -1,6 +1,8 @@
 {
-  "id": "NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
-  "argument_id": "NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
+  "id": "034694ad-3345-583a-9184-a6eeaf26a51f",
+  "label": "Exact negation of NATURAL_REASON_2 is…, from Every move affirming natural knowability… and 1 more",
+  "legacy_id": "NONSHARED-NATURAL-REASON-REJECTS-SHARED-BRIDGE",
+  "argument_id": "d8c90cd0-ccb1-5110-817d-f747985e162b",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Private.nonsharedRejectsShared",

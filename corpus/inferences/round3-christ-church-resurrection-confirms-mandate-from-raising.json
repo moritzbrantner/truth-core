@@ -1,10 +1,12 @@
 {
-  "id": "INF-ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
+  "id": "6d76d2d4-b810-548a-927c-3678ed463089",
+  "label": "For any GOD_4 with the classical attributes who can reveal…, by Attestation through the…",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-RESURRECTION-CONFIRMS-MANDATE-FROM-RAISING",
   "input_statement_ids": [
-    "STMT-JESUS-RAISED-BY-GOD-IF-ROSE",
-    "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE"
+    "7feeb087-3873-5a85-aa20-39cba2e91a92",
+    "bb88731c-c42e-53e0-a138-49e72ad40eb6"
   ],
-  "output_statement_id": "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
+  "output_statement_id": "3a4c575c-7aa0-5f05-8584-251115adb9aa",
   "rule": "Attestation through the agent of the raising",
   "meaning": "If Jesus rose, a God with the classical attributes raised him; a God who raises one who claimed divine authority confirms that he holds a mandate from him. So, for any such God that reveals recognizably, if Jesus claimed divine authority and rose, that God confirms Jesus' mandate. The recognizability antecedent of the target is not used. Two open premises; each is needed.",
   "assumption_statement_ids": [],

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "id": "61f5949d-a8d6-5fa6-8864-2c4e891e1610",
+  "label": "In classical logic, for every relation R on any type of beings: every being is R-accessible…",
+  "legacy_id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
   "paraphrase": "In classical logic, for every relation R on any type of beings: every being is R-accessible exactly when there is no infinite series of beings each R-related to its predecessor. This relates two readings of the per se regress premise; it asserts neither.",
   "lean_declaration": "TruthCore.Causality.RegressReadingsCoincideClassically",
   "definition_ids": [
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
-    "DEF-REGRESS-ACCESSIBILITY-READING"
+    "21910345-6932-5931-8953-493c8f7e1000",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-BRIDGE-EARLY-PROCLAMATION",
+  "id": "3f1a2ba9-14c0-59cb-9787-8a83975b01a4",
+  "label": "Read Paul’s received/transmitted report as a proclamation historically preceding this letter; no…",
+  "legacy_id": "STMT-PILOT-BRIDGE-EARLY-PROCLAMATION",
   "paraphrase": "Read Paul’s received/transmitted report as a proclamation historically preceding this letter; no absolute chronology follows.",
   "lean_declaration": "TruthCore.History.Resurrection.EarlyProclamationBridge",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

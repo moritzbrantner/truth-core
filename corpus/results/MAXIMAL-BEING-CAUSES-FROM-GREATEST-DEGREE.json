@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
-  "argument_id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "id": "c53a83f2-2997-55d7-9966-1d82141dc7e0",
+  "label": "The genus principle at being only: whatever is MAXIMAL_5 in being causes the…, from greatest degree",
+  "legacy_id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "argument_id": "f35f4105-512b-5547-b9fa-febffad22f0d",
   "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.Solution",
   "theorem": "TruthCore.Results.Causality.MaximumDefinitions.CausalTransport.causalTransport",

@@ -1,6 +1,8 @@
 {
-  "id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
-  "argument_id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "id": "0daf1415-2144-5ece-8605-2e7dec18218c",
+  "label": "No infinite no-first-deadline sequence of binary Reaper actions can obey the stipulated rule that…",
+  "legacy_id": "GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE",
+  "argument_id": "06e8500c-b234-5f99-89f8-e0efb1502154",
   "challenge_module": "TruthCore.Results.Causality.GrimReaperImpossible.Challenge",
   "solution_module": "TruthCore.Results.Causality.GrimReaperImpossible.Solution",
   "theorem": "TruthCore.Results.Causality.GrimReaperImpossible.grimReaperImpossible",

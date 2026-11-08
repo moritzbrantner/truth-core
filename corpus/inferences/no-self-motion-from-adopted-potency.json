@@ -1,10 +1,12 @@
 {
-  "id": "INF-NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
+  "id": "9fe6d0d3-7254-51c4-84c4-d5f24b734ad3",
+  "label": "Nothing that is being moved in a respect moves itself in that same respect, by Modus tollens (2)",
+  "legacy_id": "INF-NO-SELF-MOTION-FROM-ADOPTED-POTENCY",
   "input_statement_ids": [
-    "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+    "bc4051e9-7098-56f2-8204-e998c5be653b",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441"
   ],
-  "output_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "output_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
   "rule": "Modus tollens",
   "meaning": "POTENCY_1 (ADOPTED) branch of the prima via step: what is moved in a respect is not in act in it (adopted potency), and what moves in a respect is in act in it; so nothing moves itself in the respect in which it is moved. No non-simultaneity premise is needed: the ADOPTED definition contains it. The controls show each of the two premises is needed.",
   "assumption_statement_ids": [],

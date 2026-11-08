@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
+  "id": "856ec6b4-90e6-5485-ad15-6045a03dc635",
+  "label": "Autonomous existential ingredient in…: There exist an admitted g targeting positive b and a member…",
+  "legacy_id": "DEF-AUTONOMOUS-EXISTENCE-INGREDIENT",
   "term": "autonomous existential ingredient in the same full record",
   "definition": "There exist an admitted g targeting positive b and a member f such that all full-record members are autonomous and f is existence-related and autonomous. The same g and all its members are retained; no member-alone sufficiency, essential-rather-than-positive tag, truth, modal necessity or bearer is concluded.",
   "basis": "stipulative",

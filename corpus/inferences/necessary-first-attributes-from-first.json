@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST",
+  "id": "0992d738-0a4d-5140-9731-cc4562741cff",
+  "label": "One and the same actual concrete root at w exists at every world accessible…, by Constructive-proof",
+  "legacy_id": "INF-NECESSARY-FIRST-ATTRIBUTES-FROM-FIRST",
   "input_statement_ids": [
-    "STMT-NECESSARY-FIRST-BEING-PURE-ACT",
-    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
-    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
-    "STMT-NO-COMPONENT-IS-FIRST-BEING"
+    "593d7307-c8e1-5863-9776-a26cfe09d20c",
+    "363a528c-a22c-5a46-b1ef-64e39f8dba45",
+    "b35ce743-6870-5884-926f-60744d1a318b",
+    "09c6d5f0-d412-5038-85f9-75fffb935727"
   ],
-  "output_statement_id": "STMT-NECESSARY-FIRST-ATTRIBUTES",
+  "output_statement_id": "f2a65d16-4494-567d-b42b-cd9c16110873",
   "rule": "constructive-proof",
   "meaning": "Consume the existing same-witness necessary potency-free first-being endpoint. A composite supplies a distinct component whose simple priority contradicts firstness. A component-of-anything status contradicts the existing no-component-is-first-being premise, giving RemoteFromAll of that same witness. Retain actual concrete rootness, modal necessity and no potency. The three structural premises remain independently open; no maximum/convergence, positive act, uniqueness or God premise is inferred.",
   "assumption_statement_ids": [],

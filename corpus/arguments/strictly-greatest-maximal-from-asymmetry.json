@@ -1,31 +1,32 @@
 {
-  "id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY",
+  "id": "1fe8fd6f-8cad-56de-9c47-6d4a2920f9e6",
   "label": "Asymmetric more-in makes a MAXIME_3 being MAXIME_1",
   "premise_statement_ids": [
-    "STMT-MORE-IN-IS-ASYMMETRIC"
+    "a4814f25-84b0-560e-870a-eb3a23a6a35b"
   ],
-  "conclusion_statement_id": "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL",
+  "conclusion_statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3",
   "inference_ids": [
-    "INF-STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY"
+    "9f3c1ce2-7df0-5095-ab2a-b8a5eda7ea61"
   ],
   "meaning": "Derives the MAXIME_3 to MAXIME_1 sense bridge: if being more such is asymmetric, nothing is more a being than a STRICTLY greatest being m. For y other than m, m is more a being than y, so y is not more a being than m; and m is not more a being than itself, since asymmetry excludes self-comparison.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-GREATEST-BEING-STRICT",
-    "DEF-MAXIME-ENS",
-    "DEF-MORE-IN"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-MAXIME-ENS"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ],
   "sense_bridges": [
     {
       "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
       "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
       "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
-      "statement_id": "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL",
+      "statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3",
       "role": "conclusion"
     }
-  ]
+  ],
+  "legacy_id": "STRICTLY-GREATEST-MAXIMAL-FROM-ASYMMETRY"
 }

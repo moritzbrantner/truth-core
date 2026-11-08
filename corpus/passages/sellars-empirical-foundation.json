@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SELLARS-EMPIRICISM-MIND",
+    "source_id": "4ca270ba-8c26-5a84-a66f-c39efe48f1f4",
     "source_url": "https://www.ditext.com/sellars/epm8.html",
     "retrieved_at": "2026-10-28T20:35:59Z",
     "sha256": "sha256:12d810f1c2d5deab5a749efa8706ccfa238162980b00139b2431d2939a9429bd",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "SELLARS-EPM-EMPIRICAL-FOUNDATION",
+      "id": "f03261f3-d4d9-5470-b62c-46c56c1b0754",
+      "label": "Wilfrid Sellars, Empiricism and the Philosophy of Mind, VIII, §§32–38, complete chapter",
+      "legacy_id": "SELLARS-EPM-EMPIRICAL-FOUNDATION",
       "locator": "VIII, §§32–38, complete chapter",
       "claim_locator_prefixes": [
         "VIII §32",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTIVE-POWER-TASK-VOCABULARY",
+  "id": "0525d8b9-f620-584f-a11f-beee6d8871a5",
+  "label": "Active power over tasks; omnipotence: A task is something that may be done; revealWithSigns is…",
+  "legacy_id": "DEF-ACTIVE-POWER-TASK-VOCABULARY",
   "term": "active power over tasks; omnipotence (Power vocabulary: Task, Consistent, CanDo, Requires, InAct, PossibleAct)",
   "definition": "A task is something that may be done; revealWithSigns is revealing a truth and accompanying it with signs. Consistent t: doing t involves no contradiction. CanDo x t: x has the active power to do t. Requires t r: doing t requires being in act in the perfection r; InAct x r: x is in act in r; PossibleAct r: r is a perfection something could have. Omnipotence (STMT-GOD-IS-OMNIPOTENT) is the power to do every consistent task (ST I q.25 a.3: whatever does not involve contradiction). All fields are parameters; no axiom constrains them. This InAct is a field of the Power structure, not the quarta via's InAct over respects.",
   "basis": "stipulative",

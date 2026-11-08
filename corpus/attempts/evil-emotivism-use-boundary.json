@@ -1,12 +1,14 @@
 {
-  "id": "ATTEMPT-EVIL-EMOTIVISM-USE-BOUNDARY",
+  "id": "420bce5c-c8e4-5b5e-ad6d-6f7d20c02077",
+  "label": "Owner-directed definition comparison, attribution deferred",
+  "legacy_id": "ATTEMPT-EVIL-EMOTIVISM-USE-BOUNDARY",
   "statement_ids": [
-    "STMT-GOODNESS-IS-ACTUALITY",
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-EVIL-NAMED-USE-COVERAGE",
-    "STMT-EVIL-REMAINING-USE",
-    "STMT-EVIL-INTERNAL-PERMISSION-CHALLENGE",
-    "STMT-BADNESS-AS-DISAPPROVAL-ANALYSIS"
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "c33ae8d0-4e0a-5039-acf1-e1a34f3f27f0",
+    "d473d331-916b-5554-b9aa-82e1f9fc91fe",
+    "1f2dec4f-e494-50f7-a1df-ffd84f4f5c3c",
+    "2181b533-4e6e-58a2-8d2d-2f90844a54b9"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
@@ -14,13 +16,13 @@
   "summary": "Owner-directed definition comparison, attribution deferred. Reused POE-EXTERNAL-PREMISE-VS-EMOTIVISM with all four semantic/classification premises, rather than duplicate its result. Encoded checked diagnostic coverage with own-true premise, target-internal permission conditional, affective protest and an explicit joint-negation remainder. Named coverage excluding the remainder is a separate open proposition; conditional elimination requires it, and a explicit witness falsifies it. Composed the checked Rowe deductive core to derive the target-internal challenge from structured actual gratuitous suffering, independently of critic moral truth semantics. Composed Rowe apparent compatibility with an update of only Cost to witness strict truthlessness plus true descriptive suffering, target narrow theism and a nonvacuous internal critique. A positive affective analysis also has a true truth-apt evil-utterance witness. Rejected inference from positive expressive meaning alone to no truth; rejected inference from \u00acHolds to true opposite moral judgment, no actual suffering, all problems of evil moot, or God established. Rejected classifying every internal conditional as non-moral: the witness records that classification and content bridge explicitly. No source attribution, floor or root premise is established. Full exact scopes and remaining bridges are in docs/notes/evil-emotivism-use-boundary.md.",
   "blocker": "Application to an actual target requires its evaluative standards/permission constraint and warrant for actual gratuitous suffering. That premise contains evaluative and counterfactual costs, not merely pain. Relation of those standards to the cheapest-route goodness predicate and complete worldview coverage remains open; named-use coverage is not inferred from search failure.",
   "evidence": [
-    "POE-EXTERNAL-PREMISE-VS-EMOTIVISM",
-    "POE-ROWE-DEDUCTIVE-CORE",
-    "POE-ROWE-APPARENT-COMPATIBILITY",
-    "EVIL-USE-COVERAGE-WITH-REMAINDER",
-    "EVIL-EMOTIVIST-USE-FORK",
-    "EVIL-NAMED-USE-ELIMINATION",
-    "EVIL-INTERNAL-PERMISSION-CHALLENGE",
-    "EVIL-OBJECTION-BOUNDARY-MODELS"
+    "19f51297-fea2-58af-8929-25057a4db566",
+    "63481f67-a60f-5414-8946-8cabe33065b7",
+    "c6e4c37a-7f0d-528d-892f-f660d1267705",
+    "bd577c0e-8352-576b-a98a-4d3045e89cd9",
+    "33fda1e9-dccb-562b-8d04-d550b4714b37",
+    "66ca5758-51b3-51af-a2c4-7a69df04c172",
+    "1bbd4114-1c80-5522-8517-405e06f58ed4",
+    "2a00b0d5-9c46-5daa-befa-103c6ff9fea6"
   ]
 }

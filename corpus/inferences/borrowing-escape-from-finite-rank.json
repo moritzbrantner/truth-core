@@ -1,10 +1,12 @@
 {
-  "id": "INF-BORROWING-ESCAPE-FROM-FINITE-RANK",
+  "id": "ce8ac0ad-8b3d-5ebf-8794-f4513ce29ebb",
+  "label": "The existing Escape cut principle holds for the recorded…, by Composition with the…",
+  "legacy_id": "INF-BORROWING-ESCAPE-FROM-FINITE-RANK",
   "input_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-FINITE-RANK",
-    "STMT-EXCLUDED-MIDDLE"
+    "47e323f2-3405-5caf-a192-201eb1e02f76",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
+  "output_statement_id": "e27ea8e3-b61d-55a4-aea3-25adf8ff6c2d",
   "rule": "Composition with the cut/well-foundedness equivalence",
   "meaning": "The finite rank (OPEN) gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK), and with excluded middle the proved equivalence borrowingEscapeWFEquivalence turns that into the no-self-contained-borrowing cut: every nonempty set of actual concreta contains a source or the effect of a record whose contributors all lie outside it. It does not use STMT-ACTUAL-GROUNDING-WF as a premise, so it adds no cycle with ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT.",
   "assumption_statement_ids": [],

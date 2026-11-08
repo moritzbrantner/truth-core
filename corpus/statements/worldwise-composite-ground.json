@@ -1,25 +1,27 @@
 {
-  "id": "STMT-WORLDWISE-COMPOSITE-GROUND",
+  "id": "49022ee0-79af-5c7e-99f9-8444aeb2ce28",
+  "label": "One five-role Bool-world interpretation has the same rigid necessary concrete whole at both…",
+  "legacy_id": "STMT-WORLDWISE-COMPOSITE-GROUND",
   "paraphrase": "One five-role Bool-world interpretation has the same rigid necessary concrete whole at both worlds, with two disjoint actually existing contingent proper parts at EACH world and replacement of the pair across worlds. The required IntendedProfile and exact same direct support satisfy P2At and P3At at every world. Each actual-domain subtype inherits existing nonempty-Bool-subset parthood; standard StrongSupplementation, Sum2 Fusion of its active pair into the whole, standard overlap-disjointness and actual endpoint guards hold jointly. No actual proper-part candidate is necessary or proper at every world. Whole-first support has no reverse part-to-whole support. This structural survivor refutes automatic worldwise part-freeness from this P2/P3 package, not fixed-order persistence theorems, intrinsic adequacy, reality fit or Catholicism. Whole necessity/support are assignments, not a new NE derivation.",
   "lean_declaration": "TruthCore.Causality.WorldwiseCompositeGround.ReplacementCertificate",
   "definition_ids": [
-    "DEF-WORLDWISE-COMPOSITE-GROUND",
-    "DEF-CAUSAL-EXISTENTIAL-INTENDED-PROFILE",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "ddf1f9bf-4459-50c3-a5ac-0a8d68361c0c",
+    "80402004-9797-5289-ad11-79648945871f",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-POWER-CAPACITY-EXERCISE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "1da63c28-4572-5787-82a0-51425c0f4b6a",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "d5c2f7bb-4927-5bb8-839f-2c9965d0f877",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

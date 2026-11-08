@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-RESURRECTION-PILOT-EVIDENCE",
+  "id": "2567d8a9-549e-5404-8658-3275b7029092",
+  "label": "Evidence in the resurrection pilot",
+  "legacy_id": "DISAMB-RESURRECTION-PILOT-EVIDENCE",
   "term": "evidence in the resurrection pilot",
   "sense_definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "resolution": "Source claims name textual reports. Historical E0, E1, E3, E4 and E5 remain explicit open findings supported by reports through stated reading bridges. E2 is deliberately a tradition finding. Matthew’s opposing story is a Christian report about hostility; Tacitus’s execution is not identified with crucifixion. Neither James’s appearance nor Josephus’s stoning statement establishes conversion. No argument or model transfers truth from a report to an event without an explicit premise. Source integrity, fidelity and formal consequence remain independent.",
   "term_label": "EVIDENCE_IN_THE_RESURRECTION_PILOT",
@@ -11,13 +13,13 @@
     {
       "id": "0641b21b-6d45-44f0-950b-8c436cee5013",
       "label": "EVIDENCE_IN_THE_RESURRECTION_PILOT_1",
-      "definition_id": "DEF-RESURRECTION-PILOT-REPORT",
+      "definition_id": "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
       "lean_declaration": "TruthCore.History.Resurrection.Reported"
     },
     {
       "id": "a429055c-3b18-4c0a-a16f-f6d10488515d",
       "label": "EVIDENCE_IN_THE_RESURRECTION_PILOT_2",
-      "definition_id": "DEF-RESURRECTION-PILOT-HISTORY",
+      "definition_id": "50066ce9-71fc-5270-be8b-322167584fd9",
       "lean_declaration": "TruthCore.History.Resurrection.State"
     }
   ]

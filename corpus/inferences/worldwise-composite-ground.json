@@ -1,7 +1,9 @@
 {
-  "id": "INF-WORLDWISE-COMPOSITE-GROUND",
+  "id": "7c243840-a026-5601-957e-546ee3397720",
+  "label": "One five-role Bool-world interpretation has the same rigid…, by Joint-worldwise-composite-gro…",
+  "legacy_id": "INF-WORLDWISE-COMPOSITE-GROUND",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-WORLDWISE-COMPOSITE-GROUND",
+  "output_statement_id": "49022ee0-79af-5c7e-99f9-8444aeb2ce28",
   "rule": "joint-worldwise-composite-ground-model",
   "meaning": "One five-role Bool-world interpretation has the same rigid necessary concrete whole at both worlds, with two disjoint actually existing contingent proper parts at EACH world and replacement of the pair across worlds. The required IntendedProfile and exact same direct support satisfy P2At and P3At at every world. Each actual-domain subtype inherits existing nonempty-Bool-subset parthood; standard StrongSupplementation, Sum2 Fusion of its active pair into the whole, standard overlap-disjointness and actual endpoint guards hold jointly. No actual proper-part candidate is necessary or proper at every world. Whole-first support has no reverse part-to-whole support. This structural survivor refutes automatic worldwise part-freeness from this P2/P3 package, not fixed-order persistence theorems, intrinsic adequacy, reality fit or Catholicism. Whole necessity/support are assignments, not a new NE derivation.",
   "assumption_statement_ids": [],

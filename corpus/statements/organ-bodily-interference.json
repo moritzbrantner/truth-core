@@ -1,17 +1,19 @@
 {
-  "id": "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "id": "5a8deceb-0289-5606-8046-c81bce1bed37",
+  "label": "If the designated intellectual operation can be exercised through a bodily organ, each naturally…",
+  "legacy_id": "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
   "paraphrase": "If the designated intellectual operation can be exercised through a bodily organ, each naturally constitutive bodily nature of that organ would prevent universal bodily-nature cognition. This source-attributed interference constraint remains open.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.OrganBodilyInterference",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE",
-    "DEF-Q75-ORGAN-EXERCISE",
-    "DEF-Q75-INTELLECT-NONORGAN-OPERATION"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9",
+    "35a01636-e163-5b03-80b0-22e83004cfe6",
+    "2a840e1e-3e83-5aa3-9d0b-efbdd4bb5fde"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-NONORGAN-OPERATION",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "0ad6390d-a011-5319-800a-f95750632746",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
-  "argument_id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "id": "fab93fb8-d00b-5e3a-ada0-c57b25f1b105",
+  "label": "Nothing is the efficient cause of itself, in any respect, from dependence",
+  "legacy_id": "NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "argument_id": "bfe1d4e6-1758-5139-b0c9-325668002838",
   "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.nothingEfficientCauseOfItself",

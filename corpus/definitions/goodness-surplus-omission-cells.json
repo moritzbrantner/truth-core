@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-SURPLUS-OMISSION-CELLS",
+  "id": "b567cee6-b514-5a25-ab7d-6d7dbbd3d699",
+  "label": "Surplus goodness and omitted due…: SurplusGood f means ∃ x p, GoodIn x p ∧ ¬DueActuality f x p",
+  "legacy_id": "DEF-GOODNESS-SURPLUS-OMISSION-CELLS",
   "term": "surplus goodness and omitted due goodness",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
   "basis": "stipulative",

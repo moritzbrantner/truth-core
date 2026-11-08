@@ -1,6 +1,8 @@
 {
-  "id": "HISTORY-SELECTION-OMISSIONS",
-  "argument_id": "HISTORY-SELECTION-OMISSIONS",
+  "id": "de04e60a-a67f-51f0-981d-62472b22a81a",
+  "label": "Closed controls: isolating the actual accessibility component permits determination despite a…",
+  "legacy_id": "HISTORY-SELECTION-OMISSIONS",
+  "argument_id": "65527afc-9ad0-58e2-b13e-2674a3988cc7",
   "challenge_module": "TruthCore.Results.Explanation.HistorySelection.Challenge",
   "solution_module": "TruthCore.Results.Explanation.HistorySelection.Solution",
   "theorem": "TruthCore.Results.Explanation.HistorySelection.omissions",

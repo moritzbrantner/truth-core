@@ -1,10 +1,12 @@
 {
-  "id": "INF-NIGHT-ACTUALIZATION-FORK",
+  "id": "582aa6d8-f55c-5c76-bfe1-a4b4ec43001a",
+  "label": "Some unpreceded moved POTENCY_1 has one of three alternatives in the same…, by Constructive-proof",
+  "legacy_id": "INF-NIGHT-ACTUALIZATION-FORK",
   "input_statement_ids": [
-    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-    "STMT-EXCLUDED-MIDDLE"
+    "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NIGHT-ACTUALIZATION-FORK",
+  "output_statement_id": "1a93637d-28de-50cc-b1b5-4e50f91cbaed",
   "rule": "constructive-proof",
   "meaning": "Extract an unpreceded moved-potency witness from the existing Night reading. Excluded middle first decides whether it has a mover in act in the same respect, then whether a selected such mover is the potency itself. If distinct, the Night witness already excludes its simple priority. This covers possible repairs of the existing GENERATION-FROM-NIGHT-REFUTED argument, not serious worldviews by mere labels; its three omission models witness the corresponding branches. No source attributes this classification, no horn is established unconditionally, and no root premise closes.",
   "assumption_statement_ids": [],

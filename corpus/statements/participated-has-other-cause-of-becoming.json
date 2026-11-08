@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE-OF-BECOMING",
+  "id": "cd708f8c-8d76-55dd-99a1-6529a6cd2b7e",
+  "label": "Becoming being-CAUSE_1, rival reading of q.44 a.1 ad 1: whatever has being by participation has a…",
+  "legacy_id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE-OF-BECOMING",
   "paraphrase": "BECOMING-BEING-CAUSE_1, rival reading of q.44 a.1 ad 1 (attribution deferred): whatever has being by participation has a cause, other than itself, of its coming to be.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ParticipatedHasOtherCauseOfBecoming",
   "definition_ids": [
-    "DEF-CAUSE-OF-BECOMING",
-    "DEF-PARTICIPATED-ESSE"
+    "e9630411-ffc6-534a-8509-bf357272dec9",
+    "14d30c53-51c2-502d-b009-247dac0421e0"
   ],
   "disambiguation_ids": [
-    "DISAMB-BECOMING-BEING-CAUSE"
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa"
   ]
 }

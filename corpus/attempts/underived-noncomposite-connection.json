@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-UNDERIVED-NONCOMPOSITE-CONNECTION",
+  "id": "ef101eb2-7c47-5a8e-85ca-b096edf00f7a",
+  "label": "See docs/power-existence-scope-boundary.md, Same-witness noncomposition",
+  "legacy_id": "ATTEMPT-UNDERIVED-NONCOMPOSITE-CONNECTION",
   "statement_ids": [
-    "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-UNITING-CAUSES-PRESENT",
-    "STMT-UNITING-CAUSES-ARE-ACTUAL",
-    "STMT-COMMON-UNDERIVED-NONCOMPOSITE"
+    "8dcc3c1c-2a84-55d4-92b2-e47e8f789e9b",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "7ce040a2-7e9c-58e0-8ec1-ce99a60b587b",
+    "53a4f189-099c-52ab-bd6c-f53251c9e294",
+    "740a44f0-b77d-55b2-bd1b-8517ff85d02a"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "See docs/power-existence-scope-boundary.md, Same-witness noncomposition. Existing PowerExistenceBoundary already covers the power/esse and composite-source omissions; duplicate proofs rejected. Materialized AQUINAS-ST-I-Q3-A7 and read complete article: third proof says composites require a uniting cause and God has no cause; it does not supply the modern world-indexed interfaces. No new attributed claim. Exact #636 causal_from_union is imported/applied, retaining all eight inputs and its same witness; three added inputs are existing q.3 uniting-cause reading plus independently open cause-presence/correspondence. Two controls show these interfaces cannot separately be omitted in the encoded profile. Necessary-support-union WF is retained, no maximum/first-being/simplicity by definition. Focused full-content shared Lean diagnostic at f2db33e8273b214f158d63e2e3a17094ba181735 accepted version2 SHA8085ef57c76f1e222ccb6cc1e1a142ab995cc3d23f2d283c26fbb0a6753c38cf with no diagnostics; canonical final CI still owns build/binding/Comparator/NanoDa. First diagnostic failed only from handling Graph.Source as forall-not rather than not-exists and one Bool substitution; corrected proof terms, theorem types unchanged. No root premise discharged.",
   "evidence": [
-    "NECESSARY-UNION-COMMON-CAUSAL-SOURCE",
-    "NECESSARY-UNION-COMMON-NONCOMPOSITE",
-    "UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
-    "AQUINAS-ST-I-Q3-A7-COMPOSITE-HAS-CAUSE"
+    "7bbaac5b-3e69-5db8-9821-d20155e6a4d3",
+    "a61f4cee-6323-5c9a-9d44-843211537117",
+    "708a38f3-c1dc-566e-80cc-872ab1cc8e89",
+    "531a2fe8-13a6-56b8-8572-9771269b6263"
   ]
 }

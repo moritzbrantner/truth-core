@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE",
+  "id": "d5fefc4a-af29-5867-b318-f9b1092c9d8f",
+  "label": "Act profile determines first-mover…: For any two first movers f and g, if InAct f r iff InAct g r…",
+  "legacy_id": "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE",
   "term": "act profile determines first-mover nature",
   "definition": "For any two first movers f and g, if InAct f r iff InAct g r for every supplied respect r, then essence f = essence g.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGULAR-REAL-REGION-MEREOLOGY",
+  "id": "416dfd08-eb27-5d9a-b2cd-fc8c7a7c2981",
+  "label": "Regular real regions and atomlessness: RegionAlgebra is Mathlib Heyting.Regular, with complete…",
+  "legacy_id": "DEF-REGULAR-REAL-REGION-MEREOLOGY",
   "term": "regular real regions and atomlessness",
   "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.GunkCertificate",
   "basis": "stipulative",

@@ -8,6 +8,7 @@ from __future__ import annotations
 from datetime import date
 from typing import Any
 import re
+from corpus_ids import is_uuid  # noqa: E402
 
 from sense_labels import format_sense_labels, sense_labels_from_data
 
@@ -18,8 +19,8 @@ PR_REFERENCE = re.compile(r"PR-[1-9][0-9]*\Z")
 
 def validate_attempt(attempt: dict[str, Any], statements: set[str], evidence_ids: set[str]) -> None:
     """Validate local references; PR references have canonical syntax, not an online lookup."""
-    if not isinstance(attempt.get("id"), str) or not re.fullmatch(r"ATTEMPT-[A-Z0-9-]+|" + r'[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}', attempt["id"]):
-        raise ValueError("id must be an ATTEMPT- identifier or a uuid4")
+    if not is_uuid(attempt.get("id")):
+        raise ValueError("id must be a uuid")
     ids = attempt.get("statement_ids")
     if not isinstance(ids, list) or not ids or any(not isinstance(sid, str) or sid not in statements for sid in ids):
         raise ValueError("statement_ids must be a non-empty list of known statements")

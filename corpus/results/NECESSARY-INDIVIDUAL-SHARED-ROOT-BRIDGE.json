@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
-  "argument_id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "id": "fdd6ca66-de32-5e2f-9a0a-7c71ff332480",
+  "label": "Unattributed conditional mathematical law: for any FIXED_ROSTER_2, frame, presence extension and…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-SHARED-ROOT-BRIDGE",
+  "argument_id": "4e806455-f389-507a-a818-3f4a19f37879",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.SharedRootBridge.checks",

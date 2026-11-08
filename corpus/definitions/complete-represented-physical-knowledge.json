@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
+  "id": "586f8f47-04c8-5a2c-aadf-33bf4345c608",
+  "label": "Complete represented physical knowledge: For an explicit physical projection W\u2192P, AllPhysicalKnown\u2026",
+  "legacy_id": "DEF-COMPLETE-REPRESENTED-PHYSICAL-KNOWLEDGE",
   "term": "complete represented physical knowledge",
   "definition": "For an explicit physical projection W\u2192P, AllPhysicalKnown says every true predicate f:P\u2192Prop of the actual physical value is known under the existing relational Knows. This quantifies over every predicate of that projection, not just finitely listed sentences. It does not claim the projection captures actual complete physics.",
   "basis": "stipulative",

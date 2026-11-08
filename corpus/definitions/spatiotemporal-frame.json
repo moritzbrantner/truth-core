@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SPATIOTEMPORAL-FRAME",
+  "id": "e9e031af-665e-5888-9328-f7637b5a2677",
+  "label": "Spacetime frame: Frame B: for candidates B, a type of regions, an occupation relation locatedAt: B…",
+  "legacy_id": "DEF-SPATIOTEMPORAL-FRAME",
   "term": "spacetime frame",
   "definition": "`Frame B`: for candidates B, a type of regions, an occupation relation `locatedAt : B → Region → Prop`, a spatiotemporal relation `related : B → B → Prop` between candidates, a parthood relation `partOf` and a candidate `whole` playing the spacetime system. All are supplied and unconstrained: no mereological, locational or geometric axioms. Whether the whole exists at a world is the separate Ontic.ExistsAt question.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "DERIVATIVE-JOINT-POWER-CERTIFICATE",
-  "argument_id": "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "id": "e0907d07-1e34-54cb-b60a-7290cc11f397",
+  "label": "A persistent set of borrowing contributions with no intrinsic member and a required contributor in…",
+  "legacy_id": "DERIVATIVE-JOINT-POWER-CERTIFICATE",
+  "argument_id": "aeb3f190-86ff-529b-af10-643533b71e4d",
   "challenge_module": "TruthCore.Results.Causality.DerivativeJointPower.Challenge",
   "solution_module": "TruthCore.Results.Causality.DerivativeJointPower.Solution",
   "theorem": "TruthCore.Results.Causality.DerivativeJointPower.certificate",

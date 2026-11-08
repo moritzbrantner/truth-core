@@ -1,21 +1,23 @@
 {
-  "id": "FITCH-STABILITY-UPGRADE",
+  "id": "2b77021d-b107-5a25-b147-df3ab8aca196",
+  "label": "If the selected content is actually…, from Truth of the selected content at actuality… and 1 more",
+  "legacy_id": "FITCH-STABILITY-UPGRADE",
   "premise_statement_ids": [
-    "STMT-FITCH-DOUBLE-NEGATED-KNOWLEDGE",
-    "STMT-FITCH-KNOWLEDGE-STABLE"
+    "8f1344cf-ae54-5fd0-9af4-18065892dcea",
+    "cc600ba8-f5a6-53b5-ba58-0915021d9038"
   ],
-  "conclusion_statement_id": "STMT-FITCH-TRUTH-KNOWN",
+  "conclusion_statement_id": "a0e1c460-4e85-5fcc-825f-e5f8c1b40aa4",
   "inference_ids": [
-    "INF-FITCH-STABILITY-UPGRADE"
+    "9f27b1ce-4444-55c3-889e-274ebd3af10c"
   ],
   "meaning": "Apply explicit stability of this actual Kp to its checked double-negation consequence. No ambient classical axiom supplies the upgrade and no universal or common knower is inferred.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-FITCH-RELEVANT-STABILITY",
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

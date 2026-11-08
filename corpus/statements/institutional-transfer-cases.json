@@ -1,13 +1,15 @@
 {
-  "id": "STMT-INSTITUTIONAL-TRANSFER-CASES",
+  "id": "893b37a1-6304-5fa5-8a1b-ac77c1e0a1de",
+  "label": "The weak governing-event institutional link holds, or an actual mandate/body/governing-event…",
+  "legacy_id": "STMT-INSTITUTIONAL-TRANSFER-CASES",
   "paraphrase": "The weak governing-event institutional link holds, or an actual mandate/body/governing-event countercase defeats it. Explicit excluded middle proves this structural fork, not the applicability of either branch to Christian history.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.MessageReportBoundary.InstitutionalTransferCases",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "ATTEMPT-AD1-COLLECTIVE-AND-CAPABILITY-READINGS",
+  "id": "5b37ca60-e5ad-5b16-9d3e-5e8bdcb50208",
+  "label": "Materialized aquinas st i q2 a3 and read the entire article",
+  "legacy_id": "ATTEMPT-AD1-COLLECTIVE-AND-CAPABILITY-READINGS",
   "statement_ids": [
-    "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
-    "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
-    "STMT-GOD-CAN-DRAW-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY"
+    "42f642f4-189d-51da-91f0-7e19f0c0f87b",
+    "dbbe048f-8b90-5200-bdb3-d9c31c6c44d3",
+    "d3b87fa2-1f83-5e5c-8a00-d0d746e8c5c3"
   ],
   "date": "2026-10-26",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized AQUINAS-ST-I-Q2-A3 (SCTA Leonine witness f9065dc8ce7bc790b8c972e49ee19d661f028be6, blob 6d74bca0d80ad10dcb5b4dd4b59f53e5d5a15a74) and read the entire article. Ad 1's final mala / ex eis / bona permits a collective actual-production interpretation; the preceding nullo modo sineret ... nisi ... ut bene faceret supports extracting a necessary capability condition on permission, without encoding its full counterfactual. Preserved both as siblings of the older stronger distributive interpretation. Rejected identifying capability with actual production or inferring individual justification, net benefit, the best world, existence of God/evil, or actual permission. The fixed collection is not every subset. No premise is defended or discharged: the older Catholic bundle and all root routes remain as before; no logical implication between the new relation parameters and the older per-evil parameter is claimed. Remaining gap: defend the reading and the permission-to-good claim philosophically; a formal aggregation or capability bridge would require its own justification. The older unconditional per-evil actual-production attribution is visibly disputed in its claim, Lean documentation, comparison description and three downstream argument/result records; all frozen theorem types and bundle commitments are retained. Clarified the carrier boundary: Evil x concerns evil in a subject, not individually counted evil events; the old statement paraphrase now follows its actual per-subject Lean quantifier.",
   "evidence": [
-    "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
-    "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-ACTUAL-GOOD",
-    "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-CAPABILITY"
+    "39182c22-aaae-53f3-a2fc-286c1a4a939a",
+    "ddbef42a-bdcf-5c53-b911-65f52e547826",
+    "94e8be5f-62ab-5694-ac1c-1ff116d6dfee"
   ]
 }

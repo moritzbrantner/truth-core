@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FUSION-OUTSIDE-CAUSE",
+  "id": "46f6e845-7a48-504d-b253-754e0563a7c5",
+  "label": "NONPART_CANDIDATE_CAUSE_2: OutsideCause cause x requires an admitted candidate c which is not a…",
+  "legacy_id": "DEF-FUSION-OUTSIDE-CAUSE",
   "term": "nonpart candidate cause",
   "definition": "OutsideCause cause x requires an admitted candidate c which is not a part of x and stands in the independently supplied relation cause to x. This is stronger than numerical distinctness in the reflexive partial order and is explicitly relative to its carrier.",
   "basis": "stipulative",

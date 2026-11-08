@@ -1,7 +1,9 @@
 {
-  "id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "id": "a0747bd7-56eb-5413-b598-f9cfbbce056a",
+  "label": "Open thesis, unattributed reconstruction of the Tractatus on its traditional reading: no…",
+  "legacy_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
   "paraphrase": "Open thesis, unattributed reconstruction of the Tractatus on its traditional reading: no proposition with sense is about God or the higher, since every true proposition belongs to natural science (4.11), propositions can express nothing higher (6.42) and God does not reveal himself in the world (6.432); so the sentences of natural theology are not false but nonsensical (4.003). No proposition of the book states it in this form.",
   "disambiguation_ids": [
-    "DISAMB-TLP-NONSENSE"
+    "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8"
   ]
 }

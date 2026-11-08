@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-REASON-EPISTEMIC-ONTIC",
+  "id": "a61d3807-50e9-595e-9011-9123fd606a4b",
+  "label": "Reason",
+  "legacy_id": "DISAMB-REASON-EPISTEMIC-ONTIC",
   "term": "reason",
   "sense_definition_ids": [
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-EPISTEMIC-SUPPORT"
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "02c59c61-4cd1-5698-9338-e4a37ebf71f4"
   ],
   "resolution": "Reason is read ontically (DEF-PSR-STRENGTH-REASON, a reason why a fact obtains) in every PSR, brute-truth and explained clause, and epistemically (DEF-EPISTEMIC-SUPPORT, a reason to accept a claim) in every supported, honored and demanded clause. The results do not pass from one to the other: the consistent critic has a supported brute root and an explained unsupported event. A passage from one to the other occurs only through a bridge listed as an explicit hypothesis (DEF-EPISTEMIC-ONTIC-BRIDGES).",
   "term_label": "REASON",
@@ -11,13 +13,13 @@
     {
       "id": "6d997274-160d-4284-8028-93c3feb3bfa0",
       "label": "REASON_1",
-      "definition_id": "DEF-PSR-STRENGTH-REASON",
+      "definition_id": "179d4557-bda1-59c4-938a-b91e9974a27f",
       "lean_declaration": "TruthCore.Explanation.PSRStrength.Explained"
     },
     {
       "id": "1a543dec-ae77-4433-929b-da90ae767e99",
       "label": "REASON_2",
-      "definition_id": "DEF-EPISTEMIC-SUPPORT",
+      "definition_id": "02c59c61-4cd1-5698-9338-e4a37ebf71f4",
       "lean_declaration": "TruthCore.Explanation.PSRSelfApplication.Supported"
     }
   ]

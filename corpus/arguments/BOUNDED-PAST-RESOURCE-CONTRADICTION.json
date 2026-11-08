@@ -1,22 +1,24 @@
 {
-  "id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
+  "id": "1842a519-23a8-5db7-b271-c811dbe6e3d0",
+  "label": "Logical falsity, from The fixed real epsilon is strictly positive and 2 more",
+  "legacy_id": "BOUNDED-PAST-RESOURCE-CONTRADICTION",
   "premise_statement_ids": [
-    "STMT-PAST-RESOURCE-POSITIVE-STEP",
-    "STMT-PAST-RESOURCE-LOWER-BOUND",
-    "STMT-PAST-RESOURCE-UNIFORM-GROWTH"
+    "3c0ccc8f-b0d1-50bb-95ae-8fa747ca3e02",
+    "726d1463-194f-51f3-a7ea-d3cc38bd966c",
+    "09fd3bc4-2819-5dbb-8474-eb90ace7914c"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-BOUNDED-PAST-RESOURCE-CONTRADICTION"
+    "e170828a-c24b-50ad-bd5a-eb307bf10c9b"
   ],
   "meaning": "On the entire integer past of a real-valued stock, a fixed positive epsilon, one real past lower bound L, and uniform per-step growth by at least epsilon are jointly incompatible. Backward induction gives S(now\u2212n)+n*epsilon\u2264S(now) for every natural n. The lower bound then gives n*epsilon\u2264S(now)\u2212L for every n, contradicting the Archimedean property of Real. The Int grid and finite Archimedean real values are fixed mathematical background; no finite elapsed-time budget, temporal first event, finite event cardinality, causal well-foundedness or global entropy law is a premise. This is an actual conditional constraint on a beginningless discrete resource profile, not a proof that every temporal order has a first instant. No preferred premise is rejected. Uniform positivity and the whole-past lower bound remain open restrictions for any physical application; strict pointwise growth alone is insufficient, as the separate controls calibrate. The old SUPERTASK-UNIT-COST-UNBOUNDED result is orientation, not an imported inference: no literal premise-minimality comparison to its closed unit-duration theorem is claimed. Relative to that discussion, this route omits a finite TIME budget and instead makes the RESOURCE bound and uniform growth explicit. Intended and actual root-premise delta none.",
   "definition_ids": [
-    "DEF-PAST-RESOURCE-STOCK",
-    "DEF-PAST-RESOURCE-LOWER-BOUND",
-    "DEF-PAST-RESOURCE-UNIFORM-GROWTH",
-    "DEF-CONFIGURATION-FALSE"
+    "12b6271c-f67a-5d26-94a0-a17b6192a053",
+    "230a64cf-b1cf-579c-b1d7-ddd1db5677b4",
+    "b0944d60-ed09-519f-914b-899491e0e836",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-PAST-RESOURCE-TIME-BUDGET"
+    "73c7ce46-6282-5403-ab0a-5b4f42e759fa"
   ]
 }

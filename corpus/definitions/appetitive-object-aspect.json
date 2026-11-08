@@ -1,10 +1,12 @@
 {
-  "id": "DEF-APPETITIVE-OBJECT-ASPECT",
+  "id": "13f88c69-3e85-507f-9e0d-b1f6ca32baed",
+  "label": "Formal aspect of the…: The account under which something is related to a power: apprehended as…",
+  "legacy_id": "DEF-APPETITIVE-OBJECT-ASPECT",
   "term": "formal aspect of the apprehended/appetible object",
   "definition": "The account under which something is related to a power: apprehended as sensible or intelligible being, or appetible as suitable or good. This is distinguished from the object's numerical identity and from a universal as an external thing.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q80-A1-APPREHENDED-APPETIBLE-ASPECTS",
-    "AQUINAS-ST-I-Q80-A2-INTELLECTUAL-SENSITIVE-APPETITE"
+    "e246cc99-d2fd-5d00-8054-d60117167f12",
+    "3012a91c-07fb-59b6-b654-ecc488a87eff"
   ]
 }

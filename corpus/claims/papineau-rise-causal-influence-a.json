@@ -1,16 +1,18 @@
 {
-  "id": "PAPINEAU-RISE-CAUSAL-INFLUENCE-A",
-  "statement_id": "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
-  "source_id": "PAPINEAU-RISE-PHYSICALISM",
+  "id": "4aabe5da-9a4e-556d-88a2-99da455d4c2c",
+  "label": "David Papineau, The Rise of Physicalism…: Causal influence: every occurrence of the target mental…",
+  "legacy_id": "PAPINEAU-RISE-CAUSAL-INFLUENCE-A",
+  "statement_id": "cd2a0453-b9ff-5597-bfa3-73f103b37a61",
+  "source_id": "a01c6154-9b4e-59b6-aca5-0fe707051ecf",
   "locator": "pp.3–12 p.9 (Comments on the Causal Argument for Physicalism), premise 2 (causal influence)",
   "interpretation": "Papineau's premise 2, \"All mental occurrences have physical effects\", as a premise of the canonical causal argument. He treats its denial as epiphenomenalism or preestablished harmony (p.10), and allows a strict or a generous reading of causation for second-order states (p.11). Note 5 (in passage PAPINEAU-RISE-PHYSICALISM-13-33) makes the argument a schema for other special categories. The Lean predicate instantiates the premise at the frame's target kind. Papineau does not address the intellectual exercise of q.75; the application to it is not attributed to him.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-PAPINEAU-PHYSICAL",
-    "DEF-PAPINEAU-LAWFUL-DETERMINATION"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "bdd6a7f4-e14f-5b04-bd27-1f13b409a500"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHYSICAL"
+    "63d4170f-a2c8-5582-ad66-0aa7734e288d"
   ]
 }

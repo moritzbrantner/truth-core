@@ -1,9 +1,11 @@
 {
-  "id": "REL-NATURALIST-IDENTITY-ATTACK",
+  "id": "0143761c-5f4d-53b0-8cc9-bc7b93bc6989",
+  "label": "The proposed natural criterion may fail to… attacks Moral rightness is assessed by fully…",
+  "legacy_id": "REL-NATURALIST-IDENTITY-ATTACK",
   "subject_kind": "statement",
-  "subject_id": "STMT-NATURALIST-IDENTITY-ADEQUACY-OPEN",
+  "subject_id": "fd256152-f4a1-5972-892e-bb31c4d48fde",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
+  "object_id": "c0810066-1cf2-5de3-b59c-6ca31e49e3a4",
   "note": "An open philosophical objection, not a verified contradiction. The strongest primary replies and the exact limits of the finite tests are recorded in docs/naturalistic-moral-realism.md."
 }

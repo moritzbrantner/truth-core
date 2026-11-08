@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189B-TWO-OR-THREE-A",
-  "statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
-  "source_id": "ARIST-PHYS",
+  "id": "2b5f07f7-08c9-5f94-82a8-c93b85f2d0f7",
+  "label": "Aristotle, Physics I.6, 189b27-29: The natural principles number either two or three",
+  "legacy_id": "ARIST-PHYS-189B-TWO-OR-THREE-A",
+  "statement_id": "32dbd6bc-9a4e-5228-b4cd-6d85a602940d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189b27-29",
   "interpretation": "Chapter conclusion: after the eliminations, the natural principles number two or three. Aristotle explicitly says the choice remains deeply problematic, so the disjunction is not strengthened to a three-principle doctrine here.",
   "status": "formalized"

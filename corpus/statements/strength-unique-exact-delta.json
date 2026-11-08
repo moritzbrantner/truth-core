@@ -1,8 +1,10 @@
 {
-  "id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
+  "id": "1cbc395c-5810-5e58-a052-98fe3c2e9fe8",
+  "label": "For every supplied type and predicate P, unique existence holds exactly when existence and at most…",
+  "legacy_id": "STMT-STRENGTH-UNIQUE-EXACT-DELTA",
   "paraphrase": "For every supplied type and predicate P, unique existence holds exactly when existence and at most one both hold, preserving the existential witness.",
   "lean_declaration": "TruthCore.Logic.Strength.UniqueExistence.ExactDelta",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

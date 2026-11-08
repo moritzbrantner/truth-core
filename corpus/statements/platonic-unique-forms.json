@@ -1,16 +1,18 @@
 {
-  "id": "STMT-PLATONIC-UNIQUE-FORMS",
+  "id": "8e060b6d-9e6b-5f1c-be6a-df4339336286",
+  "label": "For an admitted quality, any two Forms of it are numerically identical",
+  "legacy_id": "STMT-PLATONIC-UNIQUE-FORMS",
   "paraphrase": "For an admitted quality, any two Forms of it are numerically identical.",
   "lean_declaration": "TruthCore.Greek.Plato.Forms.UniqueForms",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PREDICATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f"
   ]
 }

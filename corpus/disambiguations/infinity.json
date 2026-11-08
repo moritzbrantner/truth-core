@@ -1,9 +1,11 @@
 {
-  "id": "DISAMB-INFINITY",
+  "id": "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+  "label": "Infinite",
+  "legacy_id": "DISAMB-INFINITY",
   "term": "infinite",
   "sense_definition_ids": [
-    "DEF-INFINITE",
-    "DEF-QUANTITATIVE-INFINITY"
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "b4590519-63a3-5110-aa2d-3e5f1a02ac2b"
   ],
   "resolution": "The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity.",
   "term_label": "INFINITE",
@@ -11,13 +13,13 @@
     {
       "id": "66a54759-c1be-410c-a521-fa9682f0e25f",
       "label": "INFINITE_1",
-      "definition_id": "DEF-INFINITE",
+      "definition_id": "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
       "lean_declaration": "TruthCore.Case.Catholicism.GodIsInfinite"
     },
     {
       "id": "e8da1c78-203c-415a-bacc-631fadfef6d6",
       "label": "INFINITE_2",
-      "definition_id": "DEF-QUANTITATIVE-INFINITY"
+      "definition_id": "b4590519-63a3-5110-aa2d-3e5f1a02ac2b"
     }
   ]
 }

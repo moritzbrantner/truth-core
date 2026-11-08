@@ -1,7 +1,9 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "id": "4c0b8057-3cb7-5d38-9441-49803199e6a5",
+  "label": "In the closed four-being concurrent setting, universal-scope transfer…, by Typed scope comparison",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOPE-TRANSFER-SEPARATES",
+  "output_statement_id": "fb53bf08-0331-5b29-a2c9-696a58278bca",
   "rule": "typed_scope_comparison",
   "meaning": "Project the populated concurrent interpretation to the exact Separation certificate consumed by the existing strength-comparison checker.",
   "assumption_statement_ids": [],

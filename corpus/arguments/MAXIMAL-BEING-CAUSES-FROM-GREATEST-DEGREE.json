@@ -1,23 +1,25 @@
 {
-  "id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
+  "id": "f35f4105-512b-5547-b9fa-febffad22f0d",
+  "label": "The genus principle at being only: whatever is MAXIMAL_5 in being causes the…, from greatest degree",
+  "legacy_id": "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
   "premise_statement_ids": [
-    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE",
-    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    "2336e5b4-ba2f-5ffb-8798-0737505208c6",
+    "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "conclusion_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
   "inference_ids": [
-    "INF-MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE"
+    "1a92d79f-4c47-5d96-80e3-6bc808f20cde"
   ],
   "meaning": "Explicit semantic transport transcription: source-shaped greatest-degree causal principle plus weak maximal-to-greatest interface yields the EXACT existing selected-esse all-merely-maximal causal premise. The selected respect instantiates esse without assuming every perfection is being.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-GENUS",
-    "DISAMB-CAUSE",
-    "DISAMB-ORDER-OF-BEING"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

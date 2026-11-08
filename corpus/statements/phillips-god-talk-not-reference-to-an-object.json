@@ -1,7 +1,9 @@
 {
-  "id": "STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT",
+  "id": "85e9d805-aeac-5fa7-8eea-0c3bd40fddd6",
+  "label": "Early Phillips: religious belief is itself the expression of a moral vision, and the praising and…",
+  "legacy_id": "STMT-PHILLIPS-GOD-TALK-NOT-REFERENCE-TO-AN-OBJECT",
   "paraphrase": "Early Phillips (WF-P1, as reported): religious belief is itself the expression of a moral vision, and the praising and the glorifying does not refer to some object called God; the expression of such praise and glory is what is called the worship of God. A claim about the activity of praise; it does not itself say that the name 'God' applies to no being (that broader thesis is STMT-GOD-NAMES-NO-BEING-WF-P1, unattributed).",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

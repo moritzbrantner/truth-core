@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
+  "id": "678cd483-ade2-5b1b-b60c-da1790f46497",
+  "label": "Every natural motion is either the motion of a thing MOVED_BY_ITSELF_2, as an animal, or the motion…",
+  "legacy_id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
   "paraphrase": "Every natural motion is either the motion of a thing moved by itself, as an animal, or the motion of a thing that has in itself a principle of being acted on, not of acting, as the light and the heavy.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NaturalMotionSelfOrPassiveReading",
   "definition_ids": [
-    "DEF-NATURAL-AND-FORCED-MOTION",
-    "DEF-PASSIVE-NATURAL-MOTION",
-    "DEF-RESPECT",
-    "DEF-SELF-MOTION-ARISTOTLE"
+    "1c6106a7-96af-5adb-8b27-e171ce778371",
+    "2ee58a9e-2d2a-5120-a9f5-15236da7def4",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-SELF-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ]
 }

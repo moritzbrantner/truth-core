@@ -1,7 +1,9 @@
 {
-  "id": "INF-RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "id": "002f8b4b-e90b-59dd-b642-d70d98650aa4",
+  "label": "Omission controls for the three refutations of rival refutations round2: for…, by Explicit finite…",
+  "legacy_id": "INF-RIVAL-REFUTATIONS-ROUND2-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS",
+  "output_statement_id": "7676a2d9-5778-5ff3-8837-502d52768a60",
   "rule": "Explicit finite interpretations",
   "meaning": "Omission controls for the three refutations of round 2: dropping any one premise of a refutation leaves a finite interpretation of the remaining premises in which the rival holds, and each refutation's premises hold together nonvacuously. Logical models only.",
   "assumption_statement_ids": [],

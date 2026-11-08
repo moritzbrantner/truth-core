@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-SUPPORTS-NOT-ACT-AND-POTENCY",
+  "id": "e4182cc1-5613-5a45-988a-383b71015d9c",
+  "label": "Aristotle, Metaphysics IX.6, 1048a30-35: A… supports Nothing is simultaneously in act and in…",
+  "legacy_id": "REL-ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-SUPPORTS-NOT-ACT-AND-POTENCY",
   "subject_kind": "claim",
-  "subject_id": "ARIST-MET-1048A-POTENCY-AS-UNACTUALIZED-CAPACITY-A",
+  "subject_id": "4eb6f90c-55cd-59bd-8a25-48f9e09196a2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "object_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
   "note": "The IX.6 analysis entails non-simultaneity, but is no stronger than it (ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE); it explains the premise rather than discharging it."
 }

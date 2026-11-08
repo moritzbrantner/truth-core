@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
-  "statement_id": "STMT-AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
-  "source_id": "AQUINAS-SCG",
+  "id": "257068d7-7407-5ce4-ac2a-4165b166fae1",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: Under the preceding common-necessity…",
+  "legacy_id": "AQUINAS-SCG-I42-CONDITIONAL-PER-SE-UNIQUENESS",
+  "statement_id": "bcabb445-867b-5427-ac1f-2d71503894ec",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [11] concluding [8–10]",
   "interpretation": "Retain the guarded per-se conclusion. This does not exclude every necessary being, prove a particular root satisfies all premises, establish God existence or independently defend the nested case coverage. No formal argument/result is registered. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

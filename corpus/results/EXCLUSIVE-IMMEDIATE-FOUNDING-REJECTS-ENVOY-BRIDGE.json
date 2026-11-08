@@ -1,6 +1,8 @@
 {
-  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
-  "argument_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "id": "0e84eb54-3211-5728-8071-f255d8181937",
+  "label": "The existing Jesus-envoy-founding…, from Stronger, openly stipulated reading in this… and 1 more",
+  "legacy_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "argument_id": "04c1d763-eeb5-5f60-84f9-66ec1d732028",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Exclusive.exclusiveImmediateRejectsEnvoy",

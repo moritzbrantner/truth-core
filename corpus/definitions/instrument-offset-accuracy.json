@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INSTRUMENT-OFFSET-ACCURACY",
+  "id": "8bfc080f-187d-5561-ac22-c4e158de0107",
+  "label": "Zero-offset accuracy in the additive…: A Profile packages an unrestricted signal function and one…",
+  "legacy_id": "DEF-INSTRUMENT-OFFSET-ACCURACY",
   "term": "zero-offset accuracy in the additive measurement profile",
   "definition": "A Profile packages an unrestricted signal function and one constant additive bias. Accurate means that bias equals zero. Complete readings are the function x ↦ signal(x)+bias. AnchoredReadings additionally supplies the true signal value at a chosen input.",
   "basis": "stipulative",

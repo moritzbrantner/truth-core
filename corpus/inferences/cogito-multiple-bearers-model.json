@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-MULTIPLE-BEARERS-MODEL",
+  "id": "4cbbd12c-3350-5578-adcf-155f47428a16",
+  "label": "There is an interpretation in which a thought occurs, the bearer principle…, by Model-construction",
+  "legacy_id": "INF-COGITO-MULTIPLE-BEARERS-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COGITO-MULTIPLE-BEARERS-MODEL",
+  "output_statement_id": "54fea76e-d67a-5a41-b7bf-7ce164846aac",
   "rule": "model-construction",
   "meaning": "Interpret Occurs and Bears as always true, with subjects Bool and one episode; true and false are distinct bearers of it.",
   "assumption_statement_ids": [],

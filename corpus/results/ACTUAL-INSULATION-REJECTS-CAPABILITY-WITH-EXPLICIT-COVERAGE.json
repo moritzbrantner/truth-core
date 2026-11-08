@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
-  "argument_id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "id": "2097dae7-0afb-5712-9714-54f51853139f",
+  "label": "Exact negation of revelation possible…, from GOD_4 exists: there is something that is… and 5 more",
+  "legacy_id": "ACTUAL-INSULATION-REJECTS-CAPABILITY-WITH-EXPLICIT-COVERAGE",
+  "argument_id": "c2e6fa29-9102-5394-ae1b-f8a855ac0184",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.SplitComposition.actualInsulationRejectsCapabilityWithCoverage",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATION-ORDER-TEST",
+  "id": "0625682e-3532-57b9-9e37-9320b805046f",
+  "label": "Typed explanation-order encoding: Topic distinguishes use of a sentence, its semantic truth…",
+  "legacy_id": "DEF-EXPLANATION-ORDER-TEST",
   "term": "typed explanation-order encoding",
   "definition": "Topic distinguishes use of a sentence, its semantic truth conditions, the purposes of moral talk and the supervenience competence requirement. Explains is a primitive directed relation among these topics. Anti and Realist instantiate the existing source readings at opposite use/truth-condition edges; Asymmetric instantiates the existing explicit open exclusion premise. SharedDataDoNotChooseOrder constructs both relations on exactly one shared Data value, each satisfying that exclusion and the competence-explanation edge. No unencoded metaphysical law or complete rival worldview is claimed.",
   "basis": "stipulative",

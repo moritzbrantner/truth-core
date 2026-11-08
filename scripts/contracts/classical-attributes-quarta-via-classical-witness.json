@@ -57,7 +57,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical type and project dependencies. Existing Challenges unchanged; identity-decision Challenge frozen before proof verification.",
-  "result_id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "result_id": "5cb4b73f-a7d8-5aa1-9443-49090dbc8aa7",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.uniqueClassicalGodFromQuartaViaExists",
   "type_sha256": "5d9290d94891bd7e640ee7523cb9536716debb87da3c1c48226239736d8e983a"

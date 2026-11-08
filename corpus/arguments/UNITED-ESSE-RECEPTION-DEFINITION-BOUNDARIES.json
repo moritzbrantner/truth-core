@@ -1,18 +1,20 @@
 {
-  "id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "id": "c8076d32-3fb5-59f9-9674-f05cb47b4cf3",
+  "label": "Six finite exact controls: same-sense communication defeats broad own-essence while the…",
+  "legacy_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-UNITED-ESSE-RECEPTION-INTERPRETATION-CONTROLS",
+  "conclusion_statement_id": "71d35248-e26c-51f8-b085-2ea5d7b3e834",
   "inference_ids": [
-    "INF-UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES"
+    "43cf9f78-a8da-54db-8b78-056cff6a24b2"
   ],
   "meaning": "Six exact finite controls distinguish union, act identity, communication, canonical reception, recipient identity and eligibility scope. No actual anthropology, causal dependence or metaphysical possibility is established.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

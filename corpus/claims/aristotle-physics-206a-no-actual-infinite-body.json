@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-NO-ACTUAL-INFINITE-BODY-A",
-  "statement_id": "STMT-NO-ACTUALLY-INFINITE-SENSIBLE-BODY",
-  "source_id": "ARIST-PHYS",
+  "id": "3026f743-528d-587a-9b4e-6643074885db",
+  "label": "Aristotle, Physics III.5, 206a7: There is no sensible body which is actually infinite",
+  "legacy_id": "ARIST-PHYS-206A-NO-ACTUAL-INFINITE-BODY-A",
+  "statement_id": "156ac6a1-34c5-5262-8aa4-c5bd9736378d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 206a7",
   "interpretation": "Chapter conclusion: no sensible body is actually infinite. The qualification 'actually' is essential because III.6 immediately develops a potential mode of infinity rather than eliminating infinity altogether.",
   "status": "formalized"

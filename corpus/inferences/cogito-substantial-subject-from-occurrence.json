@@ -1,10 +1,12 @@
 {
-  "id": "INF-COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "id": "f430bfde-1708-5cfa-9286-4d45b5e41a13",
+  "label": "Some subject satisfying the substance predicate bears some occurring thought, by Constructive-proof",
+  "legacy_id": "INF-COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
   "input_statement_ids": [
-    "STMT-COGITO-SOME-THINKING-SUBJECT",
-    "STMT-COGITO-EVERY-BEARER-IS-SUBSTANCE"
+    "0315d471-5093-59e3-a435-b7beff4c48a4",
+    "06431215-6cc4-53ad-9609-4604f7615440"
   ],
-  "output_statement_id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+  "output_statement_id": "b236fc8b-a944-5b2e-8664-d68fae372d47",
   "rule": "constructive-proof",
   "meaning": "Obtain a thinking subject from COGITO-SUBJECT-FROM-OCCURRENCE, then apply the substance principle to that bearer and episode.",
   "assumption_statement_ids": [],

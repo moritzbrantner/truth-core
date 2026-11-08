@@ -1,22 +1,24 @@
 {
-  "id": "REL-STRENGTH-UNIQUE",
+  "id": "e1e78caa-5626-54b6-8aed-771eb43cf3d7",
+  "label": "For an arbitrary supplied type and… strength comparison For an arbitrary supplied type and…",
+  "legacy_id": "REL-STRENGTH-UNIQUE",
   "subject_kind": "statement",
-  "subject_id": "STMT-STRENGTH-UNIQUE-EXISTS",
+  "subject_id": "f976f890-aba8-59cb-a312-1feaf833e727",
   "predicate": "strength_comparison",
   "object_kind": "statement",
-  "object_id": "STMT-STRENGTH-EXISTS",
+  "object_id": "6694be77-c7b2-5199-b1e8-514e640c491c",
   "comparison_spec": "TruthCore.Logic.Strength.UniqueExistence.spec",
-  "delta_statement_id": "STMT-STRENGTH-AT-MOST-ONE",
+  "delta_statement_id": "a0c179aa-43a0-5c0a-8b80-55cbfab4a6b5",
   "background_statement_ids": [],
   "evidence_result_ids": {
-    "implication": "STRENGTH-UNIQUE-IMPLICATION",
-    "delta_forward": "STRENGTH-UNIQUE-DELTA-FORWARD",
-    "reconstruction": "STRENGTH-UNIQUE-RECONSTRUCTION",
-    "equivalence": "STRENGTH-UNIQUE-EQUIVALENCE"
+    "implication": "e90ac0a8-d075-5219-9c9e-c65d159ceb3a",
+    "delta_forward": "80ae979c-c317-52b8-a9b9-ca041f0cee26",
+    "reconstruction": "9884d1dc-d038-5308-8d13-fc507afaa0cb",
+    "equivalence": "e3aea651-fe22-5812-8e64-becbe2c366e8"
   },
   "separator": {
     "setting": "TruthCore.Logic.Strength.UniqueExistence.twoPointSetting",
-    "result_id": "STRENGTH-UNIQUE-SEPARATOR"
+    "result_id": "0b8b8a8c-83df-55b3-a659-4c151e204591"
   },
   "note": "For one supplied predicate on a common carrier, unique existence is existence plus at most one satisfying witness. The two-point setting satisfies existence and refutes unique existence. This generic logical comparison supplies no metaphysical premise and does not assert a uniquely explanatory delta.",
   "statement_parameter_indices": {

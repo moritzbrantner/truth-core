@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-INDUCTION-TESTS",
+  "id": "fa385864-ae47-552c-9f6f-1723b2924e7b",
+  "label": "Bounded induction tests: finite records of habit, prediction or successful…, by Direct-proof",
+  "legacy_id": "INF-HUME-INDUCTION-TESTS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-INDUCTION-TESTS",
+  "output_statement_id": "8bba1b58-ae87-598d-8c28-6eed9a5e6943",
   "rule": "direct-proof",
   "meaning": "Direct construction of finite counterhistories, no-confusion for typed epistemic verdicts and shared answer-map coverage. The conditional bridge-conflict subtests are logical transcriptions, while the countermodels establish substantive non-entailments; no source assertion or real-world reliability is proved.",
   "assumption_statement_ids": [],

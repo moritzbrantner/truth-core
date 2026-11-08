@@ -1,17 +1,19 @@
 {
-  "id": "ANSELM-EVERY-EXISTENT-PER-ALIQUOD",
-  "statement_id": "STMT-EVERY-EXISTENT-PER-ALIQUOD",
-  "source_id": "ANSELM-MONOLOGION",
+  "id": "fd87359c-ca4d-562c-8f91-61dd78689c4a",
+  "label": "Anselm of Canterbury, Monologion Cap.3…: Every existent is through something rather than through…",
+  "legacy_id": "ANSELM-EVERY-EXISTENT-PER-ALIQUOD",
+  "statement_id": "9f81aaae-e50b-5419-b4b0-9055ad2e448b",
+  "source_id": "b2f522f6-0dec-5ad8-ad14-12f69c009c2f",
   "locator": "cap.3 paragraph adcmon-c3-d1e119, opening per aliquid / per nihil alternatives",
   "interpretation": "Reads the source’s broad existential dependence principle without replacing it by external efficient causation or by unrestricted fact PSR.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ANSELMIAN-PER-ALIQUOD",
-    "DEF-ANSELMIAN-PER-SE",
-    "DEF-SHARED-SELF-EXISTENCE-PRINCIPLE",
-    "DEF-ANSELMIAN-HIGHEST-NATURE"
+    "5703c52a-6dc5-5bea-9e40-4f82329580da",
+    "94c57ba5-5ecb-545f-9cd9-932ac7b7b4a2",
+    "7e27ade0-f861-5ce7-8ff0-da747c1655ce",
+    "65605663-1180-5a11-9f7f-467bc46ef3c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELMIAN-PER-SE-CAUSAL-SCOPE"
+    "84fccfd4-8abe-521c-9b8b-ffc8785a24d3"
   ]
 }

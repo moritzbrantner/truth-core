@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-LABELED-ORDER-EXPLANATION",
+  "id": "373537a1-250e-5874-93f9-78ca7c20e1f7",
+  "label": "Labeled order, immediate links, selection and explanation",
+  "legacy_id": "DISAMB-LABELED-ORDER-EXPLANATION",
   "term": "labeled order, immediate links, selection and explanation",
   "sense_definition_ids": [
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "resolution": "A labeled arrangement differs from an unlabeled order type and from a metaphysically admissible causal history. A fixed endpoint and every immediate labeled link determine the arrangement, so label permutations change the whole chain rather than an independent order fact while holding all links fixed (R1). The continuum is a cardinality, not a measure of an unexplained remainder. Continuum-many bit-vector alternatives coexist with a well-founded empty Unit dependency relation (R2), which establishes no metaphysical explanatory adequacy. A finite inductive proof reconstructs all positions from an endpoint and an applicable universal rule (R3); proving the conditional rule does not explain its actuality. Entailing arrangement selection is a specialized informational test, reusing EvidenceOnly without relabeling presence histories as ordering facts. Applying it to all complete explanations is the explicitly open bridge. The full link table can select by target copying, while nonnecessitating or intrinsic explanations may reject the demand. No inference to actual causal well-foundedness or to the root is registered. The truthful rival must be true at the designated arrangement and at a distinct compatible arrangement. Merely accepting a candidate false at the actual arrangement is not evidence for surviving alternatives. Conditional acceptance of constant true is a semantic witness only, not an independent adequacy judgment.",
   "term_label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION",
@@ -12,19 +14,19 @@
     {
       "id": "ad7297f8-2182-4d86-bfd4-11eb4714c914",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_1",
-      "definition_id": "DEF-LABELED-CHAIN-ARRANGEMENT",
+      "definition_id": "c9e3d998-544d-55a1-8932-b1c68f182ad0",
       "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Arrangement"
     },
     {
       "id": "881f0d2a-a460-4082-8a61-8fda18bf0115",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_2",
-      "definition_id": "DEF-ARRANGEMENT-ENTAILING-SELECTION",
+      "definition_id": "f6c46849-e1f6-5810-951c-ede141bcbc54",
       "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Selects"
     },
     {
       "id": "2f006e0f-df60-4f24-948f-6a613df0a449",
       "label": "LABELED_ORDER_IMMEDIATE_LINKS_SELECTION_3",
-      "definition_id": "DEF-HISTORY-SELECTION-INFORMATION",
+      "definition_id": "c8c357e8-33d1-5468-858d-78f8493e353b",
       "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
     }
   ]

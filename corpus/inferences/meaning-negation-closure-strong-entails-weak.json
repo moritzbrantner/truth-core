@@ -1,9 +1,11 @@
 {
-  "id": "INF-MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
+  "id": "eee39530-3c68-576d-b089-382fe93cac3f",
+  "label": "Weak version: for every sentence, if its negation is meaningful, so is its…, by Constructive-proof",
+  "legacy_id": "INF-MEANING-NEGATION-CLOSURE-STRONG-ENTAILS-WEAK",
   "input_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-STRONG"
+    "afa7a288-a1d5-5958-a1d0-3f68d4d186ad"
   ],
-  "output_statement_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "output_statement_id": "3f979107-8ac1-557c-8e10-b3cfa3a7ba78",
   "rule": "constructive-proof",
   "meaning": "The strong version of negation closure entails the weak one by instantiation: closure at every sentence gives closure at every negated sentence. Records the strengthening between the -STRONG and -WEAK sibling statements (#1017).",
   "assumption_statement_ids": [],

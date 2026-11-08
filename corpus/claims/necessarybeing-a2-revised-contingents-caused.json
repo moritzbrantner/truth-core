@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A2-REVISED-CONTINGENTS-CAUSED",
-  "statement_id": "STMT-NB-A2-REVISED-CONTINGENTS-CAUSED",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "c5fb3e80-4ab5-58c5-88b7-430c4e7a9db8",
+  "label": "Unattributed website author, Necessary\u2026: Conditional on the reaffirmed answer under the revised\u2026",
+  "legacy_id": "NB-SURVEY-A2-REVISED-CONTINGENTS-CAUSED",
+  "statement_id": "23c751a9-5f80-59fa-8656-667f767788f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2C3, causal steps 9\u201311 under the A2P2C revised-classification reaffirmation",
   "interpretation": "A2P2C re-asks whether the old no-uncaused-contingent report remains plausible under the NEW classification; its affirmative route leads here. A2C3 step9 invokes that report and steps10\u201311 apply the revised classification. Retain the answer condition and do not claim actual assent. Although the causal-prefix text is shared with A2c, this changed classification requires a distinct statement rather than aliasing STMT-NB-A1-CONTINGENTS-CAUSED or the typed LocalCausalPrinciple.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-SURVEY-CAUSE-RELATUM",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

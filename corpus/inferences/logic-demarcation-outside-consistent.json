@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
+  "id": "41a73d93-23f3-54bc-b6bb-027957c20629",
+  "label": "A weak thesis whose own formulation lies outside its demarcated domain is…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-DEMARCATION-OUTSIDE-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
+  "output_statement_id": "48f0d7a4-66c8-570e-b23a-c2af161dc413",
   "rule": "constructive-proof",
   "meaning": "Model: a weak thesis outside its own domain, acceptable and failing the standard, with the restricted norm holding. Weak theses survive self-application.",
   "assumption_statement_ids": [],

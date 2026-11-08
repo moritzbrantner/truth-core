@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-COUNTERPART-VS-RIGID-IDENTITY",
+  "id": "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d",
+  "label": "Same being across worlds",
+  "legacy_id": "DISAMB-COUNTERPART-VS-RIGID-IDENTITY",
   "term": "same being across worlds",
   "sense_definition_ids": [
-    "DEF-COUNTERPART-NECESSITY",
-    "DEF-COUNTERPART-TOTAL",
-    "DEF-COUNTERPART-UNIQUE",
-    "DEF-COUNTERPART-INJECTIVE",
-    "DEF-COUNTERPART-IDENTITY-BRIDGE"
+    "926e4512-986f-594b-94b5-243805ad4918",
+    "48d9f8e6-fe6a-553b-ad00-2c08c4e97c4e",
+    "b8f0975b-711d-543c-b77a-f425d0a0e699",
+    "bb19b947-6bfc-5c3c-8ec3-426f3701f4ac",
+    "d10f01ef-fe32-59c3-9762-ce4022826419"
   ],
   "resolution": "Canonical Ontic/NecessaryAt keeps literal Lean identity fixed. CounterpartNecessaryAt is a separate existentially guarded variant with independent four-place links. Total/Unique/Injective and surjectivity constrain correspondence only, not equality; singleton-domain bijections separate the readings. IdentityBridge explicitly supplies equality; its recovery theorem transfers target existence by substitution and does not defend that bridge. Missing links and nontransitive links can destroy counterpart necessity even with populated accessible domains; many-to-one links can preserve it for a rigidly contingent bearer. All controls are stipulated semantic interpretations, not historical counterpart theory or evidence of metaphysical possibility.",
   "term_label": "SAME_BEING_ACROSS_WORLDS",
@@ -14,31 +16,31 @@
     {
       "id": "cf07e1f3-30fa-4787-bfe5-937274ea2e15",
       "label": "SAME_BEING_ACROSS_WORLDS_1",
-      "definition_id": "DEF-COUNTERPART-NECESSITY",
+      "definition_id": "926e4512-986f-594b-94b5-243805ad4918",
       "lean_declaration": "TruthCore.Modal.CounterpartNecessity.CounterpartNecessaryAt"
     },
     {
       "id": "75feaf0e-8618-489b-aed5-a9f4046ec6de",
       "label": "SAME_BEING_ACROSS_WORLDS_2",
-      "definition_id": "DEF-COUNTERPART-TOTAL",
+      "definition_id": "48d9f8e6-fe6a-553b-ad00-2c08c4e97c4e",
       "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Total"
     },
     {
       "id": "ed848288-8e67-4e18-91af-f26ac02ef0f0",
       "label": "SAME_BEING_ACROSS_WORLDS_3",
-      "definition_id": "DEF-COUNTERPART-UNIQUE",
+      "definition_id": "b8f0975b-711d-543c-b77a-f425d0a0e699",
       "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Unique"
     },
     {
       "id": "fdbc7ae7-1b02-4472-91ff-cc3c1f8010c2",
       "label": "SAME_BEING_ACROSS_WORLDS_4",
-      "definition_id": "DEF-COUNTERPART-INJECTIVE",
+      "definition_id": "bb19b947-6bfc-5c3c-8ec3-426f3701f4ac",
       "lean_declaration": "TruthCore.Modal.CounterpartNecessity.Injective"
     },
     {
       "id": "70acfd54-f4d1-42d3-a63a-95dc865f62a6",
       "label": "SAME_BEING_ACROSS_WORLDS_5",
-      "definition_id": "DEF-COUNTERPART-IDENTITY-BRIDGE",
+      "definition_id": "d10f01ef-fe32-59c3-9762-ce4022826419",
       "lean_declaration": "TruthCore.Modal.CounterpartNecessity.IdentityBridge"
     }
   ]

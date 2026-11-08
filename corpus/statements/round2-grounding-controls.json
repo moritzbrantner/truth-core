@@ -1,18 +1,20 @@
 {
-  "id": "STMT-ROUND2-GROUNDING-CONTROLS",
+  "id": "1d967e14-67ad-5569-b0ef-f8313314bee7",
+  "label": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a…",
+  "legacy_id": "STMT-ROUND2-GROUNDING-CONTROLS",
   "paraphrase": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a model in which the other premises hold and the conclusion fails, and one joint model (a contingent actual concretum grounded by a necessary one, every relation nonempty) in which every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality.",
   "lean_declaration": "TruthCore.Causality.Round2Grounding.Control.Certificate",
   "definition_ids": [
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-DEPENDS-FOR-BEING",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-PARTICIPATED-ESSE",
-    "DEF-KANT-LOCAL-CAUSE",
-    "DEF-MORE-IN"
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-CAUSE"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

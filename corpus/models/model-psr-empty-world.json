@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-PSR-EMPTY-WORLD",
+  "id": "3e9d2745-b9f3-52a2-8c35-8a9c6012226b",
+  "label": "An unpopulated possible world whose candidate domain is inhabited",
+  "legacy_id": "MODEL-PSR-EMPTY-WORLD",
   "description": "An unpopulated possible world whose candidate domain is inhabited. Its universal existence-PSR and external-causation predicates are true vacuously, its causal relation is well-founded, and it has no explained existent.",
   "vocabulary": "EXISTENCE-PSR",
   "lean_declaration": "TruthCore.Explanation.WellFoundedSource.emptyWorld",
@@ -12,60 +14,97 @@
   "carriers": [
     {
       "binding": "World",
-      "elements": ["Unit.unit"],
+      "elements": [
+        "Unit.unit"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateUnit"
     },
     {
       "binding": "Being",
-      "elements": ["false", "true"],
+      "elements": [
+        "false",
+        "true"
+      ],
       "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
     }
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-PSR-SOUND-COMPONENT",
+      "statement_id": "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldSound"
     },
     {
-      "statement_id": "STMT-PSR-EXISTENCE-COMPONENT",
+      "statement_id": "b3d0eb5e-a814-5112-ae47-7b6f4da5aeba",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldPSR"
     },
     {
-      "statement_id": "STMT-PSR-EXTERNAL-CAUSE-COMPONENT",
+      "statement_id": "627f9018-3f9e-56da-ad08-fd6f1f61b3f8",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldExternal"
     },
     {
-      "statement_id": "STMT-PSR-POPULATED-AT",
+      "statement_id": "43f09b83-776d-57b8-a5b3-b84715e48fc2",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldNotPopulated"
     },
     {
-      "statement_id": "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
+      "statement_id": "27bdc583-788a-5dc0-8448-0be5e6237310",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Explanation.WellFoundedSource.emptyWorldWellFounded"
     },
     {
-      "statement_id": "STMT-NO-BRUTE-EXISTENCE-AT",
+      "statement_id": "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
       "value": "satisfies",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.emptyNoBrute"
     },
     {
-      "statement_id": "STMT-BRUTE-EXISTENCE-AT",
+      "statement_id": "fcf3a68a-d353-5f8b-9e01-995643caa2f9",
       "value": "violates",
-      "arguments": ["World", "Being", "Model", "world"],
+      "arguments": [
+        "World",
+        "Being",
+        "Model",
+        "world"
+      ],
       "theorem": "TruthCore.Models.PSRLocalControls.emptyNotBrute"
     },
     {
-      "statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+      "statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
       "value": "violates",
       "arguments": [
         "World",
@@ -76,5 +115,8 @@
       "theorem": "TruthCore.Models.PSRLocalControls.emptyNoExplainedSource"
     }
   ],
-  "modules": ["TruthCore.Explanation.WellFoundedSource", "TruthCore.Models.PSRLocalControls"]
+  "modules": [
+    "TruthCore.Explanation.WellFoundedSource",
+    "TruthCore.Models.PSRLocalControls"
+  ]
 }

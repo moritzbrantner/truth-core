@@ -1,6 +1,8 @@
 {
-  "id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
-  "argument_id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "id": "6a90999c-44be-5b60-b38a-b33bbad98c3e",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more (2)",
+  "legacy_id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "311399e7-0c1c-5694-a667-c179aaad8db5",
   "challenge_module": "TruthCore.Results.Causality.PureActThisness.Challenge",
   "solution_module": "TruthCore.Results.Causality.PureActThisness.Solution",
   "theorem": "TruthCore.Results.Causality.PureActThisness.uniqueFromRealIndividuation",

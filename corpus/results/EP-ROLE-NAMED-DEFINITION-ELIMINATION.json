@@ -1,6 +1,8 @@
 {
-  "id": "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
-  "argument_id": "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "id": "451490a9-b3a0-5294-b90f-d7bf2a70f390",
+  "label": "Some subject, consideration and…, from There are epistemic reasons: some agent has… and 4 more",
+  "legacy_id": "EP-ROLE-NAMED-DEFINITION-ELIMINATION",
+  "argument_id": "5abc18ee-4cba-57d8-9538-058c16b41df2",
   "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.namedDefinitionElimination",

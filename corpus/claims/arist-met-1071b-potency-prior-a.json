@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-MET-1071B-POTENCY-PRIOR-A",
-  "statement_id": "STMT-POTENCY-PRIOR-TO-ACT",
-  "source_id": "ARIST-MET",
+  "id": "b11f2b0b-e81d-5727-8621-1ad081da38ba",
+  "label": "Aristotle, Metaphysics XII.6, 1071b22-28: Rival: some POTENCY_1 in a respect is not simply…",
+  "legacy_id": "ARIST-MET-1071B-POTENCY-PRIOR-A",
+  "statement_id": "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "XII.6, 1071b22-28",
   "interpretation": "Aristotle states an aporia: it seems that everything that acts is able, but not everything able acts, so that potency is prior (ὥστε πρότερον εἶναι τὴν δύναμιν); and the same follows for the theologians who generate all from Night and the physicists who say 'all things were together'. Read as the rival statement that some potency is not simply posterior to any being in act in that respect. Reading steps: the aporia's 'prior' is taken as simple priority (DEF-SIMPLE-PRIORITY), as Aristotle's reply ('nothing that is will be') suggests, not priority in time; and the general 'potency is prior' is weakened to one instance. Aristotle rejects it at once (if so, nothing that is will be; matter does not move itself, 1071b23-31) and concludes that act is prior (1072a4-9), so the claim records a reported rival, not Aristotle's view.",
   "status": "formalized"

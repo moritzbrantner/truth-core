@@ -1,14 +1,16 @@
 {
-  "id": "INF-LIKENESS-REGRESS",
+  "id": "e843c2b2-298c-504c-a6c2-3ac0532a4803",
+  "label": "Some single admitted quality has n pairwise numerically distinct Forms…, by Finite-list-induction",
+  "legacy_id": "INF-LIKENESS-REGRESS",
   "input_statement_ids": [
-    "STMT-THIRD-MAN-ITERATION",
-    "STMT-THIRD-MAN-LIKENESS-FORMATION",
-    "STMT-THIRD-MAN-LIKENESS-SEED",
-    "STMT-THIRD-MAN-LIKENESS-SYMMETRY",
-    "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY",
-    "STMT-THIRD-MAN-PARTICIPATION-LIKENESS"
+    "f3b1d362-7af3-566a-8a5d-83ef93831e13",
+    "c38d2eed-5b85-5b2b-a140-908c49cf2905",
+    "41fb5030-c742-5885-8d96-e31c76745083",
+    "ccf271c2-53d4-562e-9736-97f2dd27e9c6",
+    "2c3d9624-723c-520a-8a9e-a8b19383c5a0",
+    "75231314-30c2-5c63-8c40-fa6517e0338a"
   ],
-  "output_statement_id": "STMT-THIRD-MAN-UNBOUNDED",
+  "output_statement_id": "74313bbc-bb2f-5600-9fc0-acf71b80e651",
   "rule": "finite-list-induction",
   "meaning": "Starting from a mutual resemblance pair, obtain a common Form. Participation-to-likeness and symmetry make the new Form mutually resemble all old members; numerical nonidentity gives freshness. Iteration keeps the list eligible. Repeating this construction yields arbitrary finite lists of distinct likeness Forms, without ordinary self-predication or ordinary F-homogeneity.",
   "assumption_statement_ids": [],

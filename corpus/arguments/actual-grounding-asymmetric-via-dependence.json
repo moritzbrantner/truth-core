@@ -1,25 +1,27 @@
 {
-  "id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
+  "id": "7f6fa16c-d92e-5b36-9227-bcb20315d7b0",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, via dependence",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
   "premise_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-IS-DEPENDENCE",
-    "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+    "0f5b53ef-0872-597b-b2f0-fc22b8df600a",
+    "da8e6b60-4dab-5858-9c8d-f6e84c821970"
   ],
-  "conclusion_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "conclusion_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
   "inference_ids": [
-    "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE"
+    "c43e711d-cbbb-57df-8ddb-6a5b9076ae95"
   ],
   "meaning": "Reciprocal grounding between actual concreta would give mutual dependence for being, which asymmetric dependence excludes.",
   "definition_ids": [
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-DEPENDS-FOR-BEING"
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

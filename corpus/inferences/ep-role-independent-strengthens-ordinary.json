@@ -1,9 +1,11 @@
 {
-  "id": "INF-EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
+  "id": "8104e872-b206-5d65-9bf5-0153752cf02e",
+  "label": "Some subject, consideration and attitude toward assessable content…, by Constructive-proof (3)",
+  "legacy_id": "INF-EP-ROLE-INDEPENDENT-STRENGTHENS-ORDINARY",
   "input_statement_ids": [
-    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
   ],
-  "output_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "output_statement_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "rule": "constructive-proof",
   "meaning": "Forget the universal force conjunct of an existing preference-independent reason to retain its ordinary-role witness. This registers a strength order, not an argument that either existential is actually instantiated.",
   "assumption_statement_ids": [],

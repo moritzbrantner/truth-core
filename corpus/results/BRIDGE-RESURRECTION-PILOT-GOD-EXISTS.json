@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
-  "argument_id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "id": "9226f707-ab66-5ed7-9a40-cd37e68685cb",
+  "label": "The Catholic pilot affirms the existing skeleton’s…, from GOD_4 exists: there is something that is…",
+  "legacy_id": "BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "argument_id": "da9890fc-96a2-58fa-8ec3-b3792c75b2a1",
   "challenge_module": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.Challenge",
   "solution_module": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.Solution",
   "theorem": "TruthCore.Results.Bridges.ResurrectionPilotGodExists.pilotGodExistsOfGodExists",

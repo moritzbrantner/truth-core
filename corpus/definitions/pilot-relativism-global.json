@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PILOT-RELATIVISM-GLOBAL",
+  "id": "b826ed2e-99ea-5586-9c53-829115d34524",
+  "label": "GLOBAL_PROFILE_VARIATION_READING_1: Every test sentence has some endorsement profile where it holds…",
+  "legacy_id": "DEF-PILOT-RELATIVISM-GLOBAL",
   "term": "global profile-variation reading",
   "definition": "Every test sentence has some endorsement profile where it holds and another where it fails. This is a strong, explicitly stipulated global thesis over the pilot language, not the claim that people merely disagree, and not attributed to Protagoras.",
   "basis": "stipulative",

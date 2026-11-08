@@ -1,6 +1,8 @@
 {
-  "id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
-  "argument_id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "id": "bede1bdc-db1d-519b-adb5-78ea3b427491",
+  "label": "The Megarian thesis that a thing is able…, from Something in this world is being moved… and 2 more",
+  "legacy_id": "MEGARIAN-THESIS-ABOLISHES-MOTION",
+  "argument_id": "10cd90e2-107f-5e19-9e15-44cc5c9b9ded",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianAbolishesMotion.megarianThesisFalse",

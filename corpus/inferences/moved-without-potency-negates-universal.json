@@ -1,9 +1,11 @@
 {
-  "id": "INF-MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "id": "ddff46b5-d573-54d4-82ac-a580c60358bd",
+  "label": "Exact negation of the original moved-only-as-in-POTENCY_1 universal in the…, by Constructive-proof",
+  "legacy_id": "INF-MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
   "input_statement_ids": [
-    "STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"
+    "86c76b02-e2f7-5db1-87b1-0b025c3e6040"
   ],
-  "output_statement_id": "STMT-MOVED-ONLY-AS-IN-POTENCY-FAILS",
+  "output_statement_id": "09501f9a-6874-5165-8062-6299539b4e95",
   "rule": "constructive-proof",
   "meaning": "An actual moved/not-potent tuple contradicts the exact old universal under the SAME MovedIn/InPotency dictionary, independent of a historical theory label.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "INF-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "id": "303abae7-aea1-5192-aec1-b78e4b9ea1b1",
+  "label": "If an actual uniting tuple has efficient activity at some admitted time…, by Constructive-proof",
+  "legacy_id": "INF-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
   "input_statement_ids": [
-    "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME"
+    "c2253c71-771f-5a48-b4b1-b20792821281"
   ],
-  "output_statement_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "output_statement_id": "db54a1a6-7e59-5378-939d-fa38be38db9e",
   "rule": "constructive-proof",
   "meaning": "Logical strength registration: global same-respect persistence implies restricted some-respect persistence; finite controls show the converse fails.",
   "assumption_statement_ids": [],

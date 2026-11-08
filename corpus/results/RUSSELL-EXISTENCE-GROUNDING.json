@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-EXISTENCE-GROUNDING",
-  "argument_id": "RUSSELL-EXISTENCE-GROUNDING",
+  "id": "d1309e99-3fab-5432-9c76-fed8f433ba3d",
+  "label": "The same fixed singleA extension and common fact-truth assignment admit both empty and one-edge…",
+  "legacy_id": "RUSSELL-EXISTENCE-GROUNDING",
+  "argument_id": "7df72c8b-2534-5eca-b933-325c96ccbc54",
   "challenge_module": "TruthCore.Results.Modern.Russell.Grounding.Challenge",
   "solution_module": "TruthCore.Results.Modern.Russell.Grounding.Solution",
   "theorem": "TruthCore.Results.Modern.Russell.Grounding.checks",

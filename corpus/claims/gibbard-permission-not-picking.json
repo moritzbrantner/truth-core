@@ -1,11 +1,13 @@
 {
-  "id": "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING",
-  "statement_id": "STMT-GIBBARD-PERMISSION-NOT-PICKING",
-  "source_id": "GIBBARD-REPLY-2022",
+  "id": "dcca546d-6976-5eb8-a60a-750d73983cb8",
+  "label": "Allan Gibbard, Reply to Commentators Pp.\u2026: Gibbard distinguishes his special planning sense from\u2026",
+  "legacy_id": "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING",
+  "statement_id": "8ea56025-0be0-5353-8daf-33ceeb81623f",
+  "source_id": "7bf6eaf4-795e-5395-b882-d6f46abe5e80",
   "locator": "pp. 541\u2013542, response to Seth Yalcin, planning and picking",
   "interpretation": "Historical reading of Gibbard\u2019s own 2022 clarification, including his admitted special use and later abandonment of the term planning. This supplies motivation for distinguishing permission from single-action choice, not a formal semantics of conditionals or proof that the psychological explanation succeeds.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GIBBARD-PERMISSION-ATTITUDE"
+    "791a4011-9476-5e80-b5b1-a85adb1707d4"
   ]
 }

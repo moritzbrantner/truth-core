@@ -1,18 +1,20 @@
 {
-  "id": "STRENGTH-CAUSE-IMPLICATION",
+  "id": "0b9fa40e-2fb0-5ce7-9b25-c9bf06b648b2",
+  "label": "Anything that comes to be has some CAUSE_2, from Anything that comes to be has some distinct…",
+  "legacy_id": "STRENGTH-CAUSE-IMPLICATION",
   "premise_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-DISTINCT"
+    "9709d14f-1324-58f1-8889-1110881c5b44"
   ],
-  "conclusion_statement_id": "STMT-CAUSE-PRINCIPLE-BROAD",
+  "conclusion_statement_id": "915e3df5-0975-5461-9fd6-83094ab526f3",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-IMPLICATION"
+    "5b10a4aa-1a69-587f-8161-3dd2bff94447"
   ],
   "meaning": "With shared decidable identity, generation predicate and cause relation, drop only distinctness from the same existential cause witness.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

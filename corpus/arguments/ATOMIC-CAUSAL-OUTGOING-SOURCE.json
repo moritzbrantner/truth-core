@@ -1,31 +1,33 @@
 {
-  "id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "id": "901ecb11-af40-5e41-b7ba-449c982e4a3b",
+  "label": "Some object has no incoming cause-edge…, from The non-null object domain is inhabited and 5 more",
+  "legacy_id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
   "premise_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-OBJECT-CAUSAL-ACTIVITY"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0370f921-613a-52e9-ac4a-58c8a8ffe80c"
   ],
-  "conclusion_statement_id": "STMT-ATOMIC-CAUSAL-OUTGOING-SOURCE-EXISTS",
+  "conclusion_statement_id": "0e604fee-ebc9-5fdd-9541-64e1ec5d22fd",
   "inference_ids": [
-    "INF-ATOMIC-CAUSAL-OUTGOING-SOURCE"
+    "8e87bbf0-7733-5dfa-8b5f-c1e9e9db207a"
   ],
   "meaning": "Import the five-input source theorem and retain its SAME witness x. Activity's incoming horn contradicts x's sourcehood, so its outgoing-to-a-distinct-effect horn holds. No universal effect-priority, source uniqueness, necessity or God is inferred.",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

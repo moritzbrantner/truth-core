@@ -1,10 +1,12 @@
 {
-  "id": "STMT-JESUS-RAISED-BY-GOD-IF-ROSE",
+  "id": "7feeb087-3873-5a85-aa20-39cba2e91a92",
+  "label": "If Jesus rose from the dead, every GOD_4 with the classical attributes raised him",
+  "legacy_id": "STMT-JESUS-RAISED-BY-GOD-IF-ROSE",
   "paraphrase": "OPEN (attribution deferred): if Jesus rose from the dead, every God with the classical attributes raised him (a resurrection exceeds created power and, given a God, is his act). Its rival grants the rising but denies divine agency.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.JesusRaisedByGodIfRose",
   "definition_ids": [
-    "DEF-RAISED-BY",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "7eee68b7-c9c0-56ae-8a96-cf2cd68e1def",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ]
 }

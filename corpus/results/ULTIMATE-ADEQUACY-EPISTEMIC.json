@@ -1,6 +1,8 @@
 {
-  "id": "ULTIMATE-ADEQUACY-EPISTEMIC",
-  "argument_id": "ULTIMATE-ADEQUACY-EPISTEMIC",
+  "id": "24c7c244-4f83-5194-a85c-91b86c16205d",
+  "label": "Compose the existing #737 Integration without altering its original history/projection models and…",
+  "legacy_id": "ULTIMATE-ADEQUACY-EPISTEMIC",
+  "argument_id": "26132ce6-879a-56f8-9e87-1c5150a230a5",
   "challenge_module": "TruthCore.Results.Explanation.UltimateAdequacy.Challenge",
   "solution_module": "TruthCore.Results.Explanation.UltimateAdequacy.Solution",
   "theorem": "TruthCore.Results.Explanation.UltimateAdequacy.epistemic_comparison",

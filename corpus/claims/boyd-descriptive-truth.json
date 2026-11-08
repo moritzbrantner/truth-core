@@ -1,17 +1,19 @@
 {
-  "id": "BOYD-DESCRIPTIVE-TRUTH",
-  "statement_id": "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-  "source_id": "BOYD-HOW-TO-BE-A-MORAL-REALIST",
+  "id": "ef036d03-70fc-5613-a549-d96607d16cac",
+  "label": "Richard N. Boyd, How to be a Moral Realist…: An ascription of the evaluative property to an act is…",
+  "legacy_id": "BOYD-DESCRIPTIVE-TRUTH",
+  "statement_id": "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+  "source_id": "277ef663-b70c-5541-a6c4-f67fd04c205a",
   "locator": "reprint §1.1, pp. 307–308: moral statements and truth",
   "interpretation": "Formalized only for an atomic ascription of a property the theory treats as real. It describes a fact rather than expressing approval alone. This minimal descriptive reading does not establish the proponent’s naturalistic identification or a full theory of linguistic meaning.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MORAL-STATEMENT",
-    "DEF-TRUTH-VALUE",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS"
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

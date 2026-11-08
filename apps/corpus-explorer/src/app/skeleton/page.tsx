@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { DepthMark, ResultKindMark } from "@/components/state-mark";
-import { findStatement, getCorpus } from "@/lib/corpus";
+import { findStatement, getCorpus, idOf, nameOf } from "@/lib/corpus";
 import { getPropositionGraph } from "@/lib/proposition-graph-data";
 import { researchFrontier } from "@/lib/research-frontier";
 import { getFrontierReport, resultKind } from "@/lib/site-state";
@@ -46,10 +46,10 @@ export default function SkeletonPage() {
         ) : progress.routes.map(({ argument, results, connections }) => (
           <div className="mt-4" key={argument.id}>
             <details className="border-y border-[var(--line)] py-3 text-sm">
-              <summary className="cursor-pointer">Designated root route <span className="font-mono break-all">{argument.id}</span></summary>
+              <summary className="cursor-pointer">Designated root route <span className="break-all">{nameOf(argument.id)}</span></summary>
               <p className="mt-3 leading-6 text-[var(--muted)]">{argument.meaning}</p>
               <p className="mt-2">{argument.premise_statement_ids.length} listed premises. Other root arguments are alternatives; they are not blended into this route.</p>
-              {results.map((result) => <p className="mt-2" key={result.id}><Link className="link-quiet font-mono break-all" href={`/results/${result.id}`}>{result.id}</Link></p>)}
+              {results.map((result) => <p className="mt-2" key={result.id}><Link className="link-quiet font-mono break-all" href={`/results/${result.id}`}>{nameOf(result.id)}</Link></p>)}
             </details>
             <ol className="mt-3 divide-y divide-[var(--line)]">
               {connections.map(({ inference, results: supports, status, open }, index) => (
@@ -73,7 +73,7 @@ export default function SkeletonPage() {
                     {supports.length ? <ul className="mt-2 grid gap-3">{supports.map((result) => (
                       <li key={result.id}>
                         <ResultKindMark kind={resultKind(report, result.id)} />
-                        <Link className="link-quiet mt-1 block font-mono text-xs break-all" href={`/results/${result.id}`}>{result.id}</Link>
+                        <Link className="link-quiet mt-1 block font-mono text-xs break-all" href={`/results/${result.id}`}>{nameOf(result.id)}</Link>
                         <p className="mt-1 text-[var(--muted)]">{result.argument.premise_statement_ids.length} explicit premises · theorem <span className="font-mono break-all">{result.theorem}</span></p>
                       </li>
                     ))}</ul> : <p className="mt-2 text-[var(--muted)]">This is a recorded step inside the root argument, without a separately bound result for this output.</p>}
@@ -97,7 +97,7 @@ export default function SkeletonPage() {
                   <span className="mr-3 inline-block"><DepthMark depth={item.depth} /></span>
                   {item.paraphrase}
                 </summary>
-                <p className="mt-3 font-mono text-xs break-all text-[var(--muted)]">{item.statement_id}</p>
+                <p className="mt-3 font-mono text-xs break-all text-[var(--muted)]">{idOf(item.statement_id)}</p>
                 <h3 className="mt-4 text-sm font-semibold">{candidates.length ? "Next recorded gap" : "Next inference not recorded"}</h3>
                 {candidates.length ? <ul className="mt-2 grid gap-4 text-sm leading-6 [overflow-wrap:anywhere]">{candidates.map((candidate) => (
                   <li key={candidate.id}>

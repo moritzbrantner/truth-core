@@ -1,9 +1,11 @@
 {
-  "id": "INF-Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
+  "id": "7f6c6855-5e7b-5716-887e-6e401c66ddbd",
+  "label": "At the SAME chosen receiver, a form of another thing is available in some…, by Constructive-proof",
+  "legacy_id": "INF-Q14-WITHOUT-MATTER-CAPACITY-STRENGTHENS-FOREIGN-CAPACITY",
   "input_statement_ids": [
-    "STMT-Q14-WITHOUT-MATTER-CAPACITY-AT"
+    "8d26d75c-f97b-51b7-9ba7-b075ee0ca100"
   ],
-  "output_statement_id": "STMT-Q14-FOREIGN-FORM-CAPACITY-AT",
+  "output_statement_id": "079fbf4c-49a3-518c-9577-064ff73591e4",
   "rule": "constructive-proof",
   "meaning": "A without-matter foreign-form witness is also a witness of unspecified-mode foreign-form aptitude. The material-only control demonstrates failure of the reverse; the scoped coextension calibrations are NOT thereby ordered.",
   "assumption_statement_ids": [],

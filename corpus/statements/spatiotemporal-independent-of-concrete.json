@@ -1,18 +1,20 @@
 {
-  "id": "STMT-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "id": "24f2d739-a291-5783-aff3-67c939471ef4",
+  "label": "Spatiotemporality is a separate property: for some anchored esse classification and some spacetime…",
+  "legacy_id": "STMT-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
   "paraphrase": "Spatiotemporality is a separate property: for some anchored esse classification (the reasoner concrete, the set of 2 abstract) and some spacetime frame, each of the occupant, relational and part-of-spacetime senses is independent of concreteness: concrete-and-spatiotemporal, concrete-and-not, abstract-and-spatiotemporal and abstract-and-not all occur. It is a fact about the definitions, not a claim about which combinations are actual.",
   "lean_declaration": "TruthCore.Ontology.Spatiotemporal.SpatiotemporalIndependentOfConcrete",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-SPATIOTEMPORAL-RELATED",
-    "DEF-PART-OF-SPACETIME"
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "56434b15-ed8e-5896-b1af-9fdbc18dd99b",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "1ea8b036-7a66-540a-be38-301a8db9077c",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

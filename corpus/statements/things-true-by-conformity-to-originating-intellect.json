@@ -1,7 +1,9 @@
 {
-  "id": "STMT-THINGS-TRUE-BY-CONFORMITY-TO-ORIGINATING-INTELLECT",
+  "id": "26a25bff-0fd2-562d-a0c1-81cee02f3782",
+  "label": "A thing is called TRUE_1 absolutely by its relation to the intellect on which its being depends: an…",
+  "legacy_id": "STMT-THINGS-TRUE-BY-CONFORMITY-TO-ORIGINATING-INTELLECT",
   "paraphrase": "A thing is called true absolutely by its relation to the intellect on which its being depends: an artifact realizes its maker’s conceived form; a natural thing realizes its proper nature according to the divine intellect’s exemplar. Truth is primarily in intellect and secondarily in things under this relation.",
   "definition_ids": [
-    "DEF-ONTOLOGICAL-TRUTH"
+    "b412016a-43c1-5c4a-abb0-4e53d343d508"
   ]
 }

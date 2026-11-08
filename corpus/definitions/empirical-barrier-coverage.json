@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EMPIRICAL-BARRIER-COVERAGE",
+  "id": "4418a4c9-c5fd-5966-b5a5-21a42fcd0901",
+  "label": "Exhaustiveness of the proposed…: BarrierExplainsAll says every empirically unprovable target in…",
+  "legacy_id": "DEF-EMPIRICAL-BARRIER-COVERAGE",
   "term": "exhaustiveness of the proposed empirical barrier",
   "definition": "BarrierExplainsAll says every empirically unprovable target in scope has ObservationBarrier. This is OPEN. AdditionalRelevantBarrier supplies an unprovable scoped target without that barrier and opposes that coverage, not the restricted-unprovability claim.",
   "basis": "stipulative",

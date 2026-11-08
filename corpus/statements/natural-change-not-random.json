@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-CHANGE-NOT-RANDOM",
+  "id": "810e8ee1-3641-5cb4-81f2-abf5cacc3d2e",
+  "label": "Natural acting, suffering, generation, and transition do not occur from or into just anything at…",
+  "legacy_id": "STMT-NATURAL-CHANGE-NOT-RANDOM",
   "paraphrase": "Natural acting, suffering, generation, and transition do not occur from or into just anything at random, except incidentally.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalChangeNotFromOrIntoRandomThingsReading"
 }

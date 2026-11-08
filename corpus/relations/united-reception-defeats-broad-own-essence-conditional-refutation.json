@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE-CONDITIONAL-REFUTATION",
+  "id": "8f277485-61ce-57aa-8555-59d47b8cc9e6",
+  "label": "Exact negation of the original broad…, from… refutes For every being x and principle r, if the…",
+  "legacy_id": "REL-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE",
+  "subject_id": "ecaadc17-38bd-505e-8bf1-ac737f8bb06c",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "object_id": "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
   "note": "Checked conditional contradiction only. The argument premises remain OPEN, so this does not independently refute or close the target."
 }

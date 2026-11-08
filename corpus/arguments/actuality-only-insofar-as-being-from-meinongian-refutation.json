@@ -1,21 +1,23 @@
 {
-  "id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
+  "id": "547f928a-d0cd-5b25-b702-dbbaa052f450",
+  "label": "Nothing has actuality except insofar as it is: whatever is in act in…, from meinongian refutation",
+  "legacy_id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NO-ACTUALITY-WITHOUT-BEING"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "65c301a8-afb4-5d75-a321-9a1c0c67af65"
   ],
-  "conclusion_statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "conclusion_statement_id": "7067553d-cad9-5d79-b6b2-912e35051530",
   "inference_ids": [
-    "INF-ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION"
+    "1dbb9fb9-eff6-5677-80fa-88e3344329cc"
   ],
   "meaning": "Whatever is in act in some respect is in act as to being (the ST I q.4 a.1 ad 3 reading), from the conclusion of NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION (nothing is in act in a respect without being, on the same InAct and esse) and excluded middle: if x is in act in r and not in act as to esse, the Meinongian rival would be witnessed. This is a second derivation of the route premise from the refutation's own premises (STMT-PERFECT-INSOFAR-AS-IN-ACT, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), both still OPEN; it does not establish the route premise and does not attribute the conclusion to a new source.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-SELF-EVIDENT-MARKING"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "500ba323-cca5-5b35-8b75-947008256c43"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-IN-ACT"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

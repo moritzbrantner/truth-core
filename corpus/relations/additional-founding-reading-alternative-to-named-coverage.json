@@ -1,9 +1,11 @@
 {
-  "id": "REL-ADDITIONAL-FOUNDING-READING-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "id": "18368f2f-048e-51cc-a732-5a5186eda9a0",
+  "label": "For the fixed semantic profile… alternative to Open coverage premise for one fixed…",
+  "legacy_id": "REL-ADDITIONAL-FOUNDING-READING-ALTERNATIVE-TO-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-DIVINE-FOUNDING-HAS-ADDITIONAL-READING",
+  "subject_id": "82a56c80-ea9f-5263-a2b9-00fcdc26172d",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-DIVINE-FOUNDING-NAMED-READINGS-COVER",
+  "object_id": "9bc0a152-5dca-50bb-aac3-836dbe7a3bdf",
   "note": "The precise remaining reading is the negation of both named extension calibrations, hence contradicts their disjunction. It is an alternative to named coverage, not automatically an alternative to the old envoy bridge: the finite remainder controls admit opposite bridge verdicts."
 }

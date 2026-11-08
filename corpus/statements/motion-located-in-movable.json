@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOTION-LOCATED-IN-MOVABLE",
+  "id": "d9f98690-fa93-5190-a650-1301bffdd373",
+  "label": "Motion is in the movable whose relevant potentiality is being actualized",
+  "legacy_id": "STMT-MOTION-LOCATED-IN-MOVABLE",
   "paraphrase": "Motion is in the movable whose relevant potentiality is being actualized.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MotionLocatedInMovableReading"
 }

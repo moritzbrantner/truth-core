@@ -9,7 +9,7 @@ import { comparisonsForResult, getStrengthComparisons } from "@/lib/strength-com
 import { ResultKindMark, StatementStateMark } from "@/components/state-mark";
 import { StatementLink } from "@/components/statement-link";
 import { TermsSection } from "@/components/terms-section";
-import { claimsForResult, comparatorForResult, findResult, findStatement, getCorpus } from "@/lib/corpus";
+import { claimsForResult, comparatorForResult, findResult, findStatement, getCorpus, idOf, nameOf } from "@/lib/corpus";
 import { forkUses } from "@/lib/fork-use";
 import { theoremInModule } from "@/lib/lean-source";
 import { TRANSCRIPTION_KIND_DESCRIPTIONS, getFrontierReport, resultKind, sourceUrl, statementState } from "@/lib/site-state";
@@ -73,7 +73,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
       </Link>
       <div className="mt-10 flex flex-wrap items-center gap-3">
         <ResultKindMark kind={kind} />
-        <p className="font-mono text-xs break-all text-[var(--muted)]">{result.id}</p>
+        <p className="font-mono text-xs break-all text-[var(--muted)]">{result.label ?? result.id} · {idOf(result.id)}</p>
       </div>
       <h1 className="mt-5 max-w-4xl font-serif text-4xl leading-[1.02] tracking-[-0.04em] sm:text-5xl">
         {conclusion?.paraphrase ?? argument.conclusion_statement_id}
@@ -113,7 +113,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
         <div className="mt-3 flex flex-wrap items-center gap-3">
           <StatementStateMark state={statementState(report, argument.conclusion_statement_id)} />
           <Link className="link-quiet font-mono text-xs" href={`/statements/${argument.conclusion_statement_id}`}>
-            {argument.conclusion_statement_id}
+            {nameOf(argument.conclusion_statement_id)}
           </Link>
         </div>
       </section>
@@ -210,13 +210,13 @@ export default async function ResultPage({ params }: ResultPageProps) {
           </p>
           {appliedForks.map(({ step, evidence }) => (
             <div className="mt-6 border-l-2 border-[var(--accent)] pl-4" key={step.id}>
-              <p className="font-mono text-xs break-all">{step.id}</p>
+              <p className="font-mono text-xs break-all">{nameOf(step.id)} · {idOf(step.id)}</p>
               <p className="mt-3 text-sm leading-6">{step.meaning}</p>
               <ul className="mt-4 space-y-3">
                 {evidence.map((producer) => (
                   <li key={producer.id}>
                     <Link className="link-quiet font-mono text-xs break-all" href={`/results/${producer.id}`}>
-                      {producer.id}
+                      {nameOf(producer.id)}
                     </Link>
                     <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{producer.theorem}</p>
                     <p className="mt-1 text-sm text-[var(--muted)]">
@@ -229,7 +229,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
               </ul>
               <p className="mt-4 text-sm">
                 Branch consequence: <Link className="link-quiet font-mono text-xs break-all" href={`/statements/${step.output_statement_id}`}>
-                  {step.output_statement_id}
+                  {nameOf(step.output_statement_id)}
                 </Link>
               </p>
             </div>
@@ -256,7 +256,7 @@ export default async function ResultPage({ params }: ResultPageProps) {
               <Link className="block py-5 transition hover:text-[var(--accent)]" href={`/claims/${claim.id}`} key={claim.id}>
                 <p className="font-serif text-xl leading-tight">{claim.paraphrase}</p>
                 <p className="mt-2 font-mono text-xs text-[var(--muted)]">
-                  {claim.id} · {claim.locator}
+                  {nameOf(claim.id)} · {claim.locator}
                 </p>
               </Link>
             ))}

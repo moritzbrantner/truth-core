@@ -1,9 +1,11 @@
 {
-  "id": "DEF-EINSTEIN-CLOCK-TIME",
+  "id": "d349494b-d57b-5c7f-8d44-f7180abae1d8",
+  "label": "Einstein1905 frame clock time: In §1 the time of an event is the indication of a stationary local…",
+  "legacy_id": "DEF-EINSTEIN-CLOCK-TIME",
   "term": "Einstein1905 frame clock time",
   "definition": "In §1 the time of an event is the indication of a stationary local clock synchronized with a specified reference clock in the same stationary system. Remote synchronization is introduced by a light-travel-time convention, with consistency and symmetry/transitivity assumed.",
   "basis": "sourced",
   "claim_ids": [
-    "EINSTEIN-1905-1-CLOCK-TIME"
+    "2b7a3431-5e29-5c91-a0ff-a23a0eb78fcb"
   ]
 }

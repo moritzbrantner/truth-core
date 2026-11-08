@@ -1,7 +1,9 @@
 {
-  "id": "STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
+  "id": "e3b95cf8-45d7-5cbc-851e-2550e6bf5f73",
+  "label": "Fideist reply to the definition bridge, unattributed reconstruction: conciliar definitions are…",
+  "legacy_id": "STMT-COUNCIL-TEACHING-THEOLOGY-NOT-GRAMMAR",
   "paraphrase": "Fideist reply to the definition bridge, unattributed reconstruction: conciliar definitions are second-order theological formulations about the practice, not part of its grammar; the grammar of 'God' is shown in first-order religious life (worship, prayer, confession of sin), and doctrinal formulae may themselves carry a philosophical distortion of that life, which philosophy is to clarify, not to accept as given.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

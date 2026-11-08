@@ -1,11 +1,13 @@
 {
-  "id": "INF-Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
+  "id": "e52b9c39-050f-5cee-a894-bde6614f3aca",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and form nor a…, by… (3)",
+  "legacy_id": "INF-Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
   "input_statement_ids": [
-    "STMT-Q14-STRUCTURAL-SCOPE-COVERED",
-    "STMT-Q14-STRUCTURAL-CHANGE-PROXY-AVAILABLE",
-    "STMT-Q14-CHANGE-PROXY-CALIBRATION"
+    "f42c2f3d-5ae7-5377-a9c5-54c31cc038e4",
+    "b059990d-b017-5c28-a8c0-a854064b9486",
+    "bb6a3e3c-c735-580f-95cf-24bf60a52557"
   ],
-  "output_statement_id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+  "output_statement_id": "180f5ad2-a421-541a-85c9-9bca578b4a43",
   "rule": "constructive-proof",
   "meaning": "Transcription/assembly to the EXACT old target under scope coverage, independent actual state-change-PROXY availability and its OPEN intellect calibration. This branch explicitly pays for an occurring change, unlike aptitude branches. No passive divine acquisition or full causal theory is asserted.",
   "assumption_statement_ids": [],

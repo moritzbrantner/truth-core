@@ -1,7 +1,8 @@
 {
-  "id": "NOMINAL-GOD-NAMING-IS-ANALYTIC",
+  "id": "07fbf440-0132-533b-82d0-3b205a7bb5e2",
   "label": "GOD_1: the naming premise read nominally is analytic",
-  "argument_id": "NOMINAL-GOD-NAMING-IS-ANALYTIC",
+  "legacy_id": "NOMINAL-GOD-NAMING-IS-ANALYTIC",
+  "argument_id": "eadd6b96-8218-55d3-87ef-4c76a879a3fc",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.nominalGodNamesDescribedPrinciple",

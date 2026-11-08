@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
-  "argument_id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "id": "f9eac6b5-8d77-558e-ae9d-54188a49843b",
+  "label": "Additional commitment, not attributed to Aristotle: every being is accessible…, from PER_SE_1…",
+  "legacy_id": "ARIST-PHYS-VIII-5-REGRESS-FROM-PER-SE-REGRESS",
+  "argument_id": "8b7ee918-e4db-52b3-ae09-afd5fc4c6577",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.MovedByAnotherRegressFromPerSeRegress.movedByAnotherRegressFromPerSeRegress",

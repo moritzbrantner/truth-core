@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
+  "id": "59f6d69f-14fe-51cb-8f6d-aa15880b2862",
+  "label": "Only conscious states have intrinsic, non-relational qualities",
+  "legacy_id": "STMT-CC100-123-CONSCIOUS-STATE-QUALITY-RESTRICTION",
   "paraphrase": "Only conscious states have intrinsic, non-relational qualities.",
   "definition_ids": [
-    "DEF-CC100-123-QUALITY-STATE-CONSTITUTION"
+    "f0e96f0e-d540-57a3-bd89-4895863493b3"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

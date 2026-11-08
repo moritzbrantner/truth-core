@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-FORMATION",
+  "id": "7850c46e-f57d-511d-9552-16d5c5e82069",
+  "label": "Aristotle, Physics II.1, 193b8-12: That a… supports An optional formative account adds an agent…",
+  "legacy_id": "REL-PARTICIPATION-FORMATION",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-193B-SAME-KIND-GENERATION-A",
+  "subject_id": "9b018f23-1c11-5333-afba-2556bdf29082",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-FORMATIVE-REPLY",
+  "object_id": "a8306016-8497-5953-af0f-fd4ef1370892",
   "note": "Same-kind generation is a concrete alternative explanatory resource, not a universal law of all natural generation."
 }

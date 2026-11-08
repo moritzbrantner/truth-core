@@ -1,9 +1,11 @@
 {
-  "id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
+  "id": "14047391-6775-5d5d-a418-5054f09083f2",
+  "label": "Structural coverage: complete entailing selection, some accepted truthful…, by Constructive-proof",
+  "legacy_id": "INF-ARRANGEMENT-SELECTION-FACTIVITY-TRILEMMA",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-ARRANGEMENT-SELECTION-TRUTHFUL-NONSELECTION-FALSE-ACCEPTANCE-FORK",
+  "output_statement_id": "c79c6c2c-6330-5856-9e6d-25a4b890be2c",
   "rule": "constructive-proof",
   "meaning": "Checked structural coverage complete selection OR truthful nonselection OR accepted false candidate. Negative cases may overlap; no historical theory roster is exhausted.",
   "assumption_statement_ids": [],

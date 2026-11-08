@@ -1,16 +1,18 @@
 {
-  "id": "KLEIN-TURRI-4B-PROOF-OF-CONCEPT",
-  "statement_id": "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
-  "source_id": "KLEIN-TURRI-INFINITISM",
+  "id": "2a5f9150-0fd2-5fa0-8afe-8f0c6b3dd7fa",
+  "label": "Peter D. Klein and John Turri, Infinitism…: The article preserves a proof-of-concept objection…",
+  "legacy_id": "KLEIN-TURRI-4B-PROOF-OF-CONCEPT",
+  "statement_id": "ad23230d-d1fd-5db2-b15f-035a874fda60",
+  "source_id": "d148e888-733b-5c82-8557-f453930be43d",
   "locator": "§4b, paragraphs beginning “Grant that it is possible” through the final example discussion",
   "interpretation": "Prose reading of an explicitly reported objection, not a conclusive refutation of infinitism. No claim is made that no such series exists.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+    "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-REASON-ADMISSION",
+  "id": "6e6ada1c-9bda-542a-9489-f41b1f3124f4",
+  "label": "Actual explanatory token membership: Admitted m domain x w r means domain w r and m.explains w r.…",
+  "legacy_id": "DEF-ACTUAL-REASON-ADMISSION",
   "term": "actual explanatory token membership",
   "definition": "Admitted m domain x w r means domain w r and m.explains w r (.fact x). domain is an independently supplied total predicate on the existing rigid Reason roster; it records stipulated actual token membership, not existence of any external bearer, metaphysical sufficiency or absence of circularity.",
   "basis": "stipulative",

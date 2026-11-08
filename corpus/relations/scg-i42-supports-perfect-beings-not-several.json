@@ -1,9 +1,11 @@
 {
-  "id": "REL-SCG-I42-SUPPORTS-PERFECT-BEINGS-NOT-SEVERAL",
+  "id": "852e72b1-f1f4-5c21-a876-4d84e497e891",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42… supports Any two beings, each having every pure…",
+  "legacy_id": "REL-SCG-I42-SUPPORTS-PERFECT-BEINGS-NOT-SEVERAL",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION",
+  "subject_id": "6f951222-6b1a-5a9e-b99f-595424c3e0c8",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
+  "object_id": "95879657-de3a-5053-ae90-54a14345e084",
   "note": "SCG I.42 [3] argues that several gods each absolutely perfect, lacking no perfection and with no admixture of imperfection, would have nothing to distinguish them, so cannot be several. The encoded statement ranges over all beings rather than gods and reads perfection and imperfection as pure and non-pure real determinations. The source's step from no distinguishing perfection to numerical identity is kept, not derived; whether a primitive thisness could distinguish them (DISAMB-SCG-I42-COMMON-NOTION-THISNESS) is exactly what this premise denies."
 }

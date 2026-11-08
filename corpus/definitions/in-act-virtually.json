@@ -1,11 +1,13 @@
 {
-  "id": "DEF-IN-ACT-VIRTUALLY",
+  "id": "f7833666-c764-5624-a766-708949d9feee",
+  "label": "IN_ACT_VIRTUALLY_2: A cause is IN_ACT_VIRTUALLY_2, or eminently, in a perfection when it has it in…",
+  "legacy_id": "DEF-IN-ACT-VIRTUALLY",
   "term": "in act virtually (eminently)",
   "definition": "A cause is in act virtually, or eminently, in a perfection when it has it in a higher way, as a power to produce it, without having it in the same form: whatever perfection is in the effect is in the effective cause 'univocally or more eminently' (ST I q.4 a.2).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q4-A2-PERFECTION-IN-CAUSE-A",
-    "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A"
+    "50df1fd8-8c2a-5dd5-8f9b-33f7994f51c6",
+    "611e63b7-e183-5fa4-a963-657cc09a9d9c"
   ],
   "lean_declaration": "TruthCore.Causality.TermSenseForks.ActFrame.InActVirtually",
   "note": "Lean: a primitive parameter of the sense-fork frame (its own declaration, distinct from the other senses of its disambiguation); it carries no definitional body."

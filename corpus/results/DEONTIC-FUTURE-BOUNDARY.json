@@ -1,6 +1,8 @@
 {
-  "id": "DEONTIC-FUTURE-BOUNDARY",
-  "argument_id": "DEONTIC-FUTURE-BOUNDARY",
+  "id": "b039b0e0-1771-537f-8cd1-0e489c3349c2",
+  "label": "Under stipulated ideal-successor obligation semantics, universal ought-implies-can at a state is…",
+  "legacy_id": "DEONTIC-FUTURE-BOUNDARY",
+  "argument_id": "99580aa3-7d36-5bc1-8cce-b2cbbdb3d9d2",
   "challenge_module": "TruthCore.Results.Modal.DeonticFutureBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.DeonticFutureBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.DeonticFutureBoundary.certificate",

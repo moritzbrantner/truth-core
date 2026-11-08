@@ -1,6 +1,8 @@
 {
-  "id": "ARISTOTELIAN-RIVAL-REFUTATIONS-CONTROLS",
-  "argument_id": "ARISTOTELIAN-RIVAL-REFUTATIONS-CONTROLS",
+  "id": "ada115cb-163a-5879-85c3-1556e2941018",
+  "label": "Without the Metaphysics IX.6 analysis the Scotist rival is satisfiable, and without the Physics…",
+  "legacy_id": "ARISTOTELIAN-RIVAL-REFUTATIONS-CONTROLS",
+  "argument_id": "d8d21b27-88da-5db6-b9bb-4a3aa03f7bbd",
   "challenge_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Challenge",
   "solution_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Solution",
   "theorem": "TruthCore.Results.Causality.AristotelianRivalRefutations.controls",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+  "label": "At least one individual exists at the selected world and at every world accessible from it, with…",
+  "legacy_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
   "paraphrase": "At least one individual exists at the selected world and at every world accessible from it, with literal cross-world identity. No concreteness, uniqueness, absence of grounds or divine attribute is asserted.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.NecessaryBeing",
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

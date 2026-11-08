@@ -1,9 +1,11 @@
 {
-  "id": "REL-COLLECTIVE-POSSIBILITY-COUNTERCASE-CONDITIONAL-REFUTATION",
+  "id": "23d42dec-09cf-5385-affb-53286d1914ec",
+  "label": "Exact negation of the original… refutes Collective possibility: if every being can…",
+  "legacy_id": "REL-COLLECTIVE-POSSIBILITY-COUNTERCASE-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
+  "subject_id": "09772c57-0813-5f32-81a6-5588cd1a3768",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
+  "object_id": "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
   "note": "Conditional counterexample only: both independent semantic inputs remain OPEN, so this is no independent refutation."
 }

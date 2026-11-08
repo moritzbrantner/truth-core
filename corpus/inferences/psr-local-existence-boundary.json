@@ -1,9 +1,11 @@
 {
-  "id": "INF-PSR-LOCAL-EXISTENCE-BOUNDARY",
+  "id": "2296b521-767d-56b2-95f1-c67bad1655ee",
+  "label": "At the selected world the local no-brute and brute-existence alternatives cover…, by Direct-proof",
+  "legacy_id": "INF-PSR-LOCAL-EXISTENCE-BOUNDARY",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-LOCAL-EXISTENCE-BOUNDARY",
+  "output_statement_id": "bb62558c-02b1-5256-b485-d4851a56c77e",
   "rule": "direct-proof",
   "meaning": "Logical scope bookkeeping for the optional local comparison axis: explicit excluded middle supplies coverage; incompatibility and the equivalence between all-world existence-PSR and all local coverages are checked separately without excluded middle. This establishes no optional horn or philosophical background.",
   "assumption_statement_ids": [],

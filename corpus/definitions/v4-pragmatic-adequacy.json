@@ -1,5 +1,7 @@
 {
-  "id": "DEF-V4-PRAGMATIC-ADEQUACY",
+  "id": "4cb7c987-5840-59ef-9159-03f646afb1bd",
+  "label": "Task adequacy and minimum-channel…: Adequate f t reuses CorrectionCriterion.AdmitsCriterion for…",
+  "legacy_id": "DEF-V4-PRAGMATIC-ADEQUACY",
   "term": "task adequacy and minimum-channel practical adoption",
   "definition": "Adequate f t reuses CorrectionCriterion.AdmitsCriterion for the task truth predicate through encode f. Adopted chooses an adequate proposal with least retained-coordinate count among the two candidates. Tasks ask the first or second coordinate. Switching a task is changing a goal, not observing the hidden coordinate. This stipulated pragmatic policy is not categorical normative authority, actual efficiency or a historical attribution.",
   "basis": "stipulative",

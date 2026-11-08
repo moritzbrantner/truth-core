@@ -1,10 +1,12 @@
 {
-  "id": "DEF-MORE-IN",
+  "id": "5766de66-8a37-5b04-aa65-9eec53319f50",
+  "label": "More and less, the grades of a…: MoreIn r x y: x is more r than y",
+  "legacy_id": "DEF-MORE-IN",
   "term": "more and less (magis et minus), the grades of a perfection",
   "definition": "`MoreIn r x y`: x is more r than y (more good, more true, more noble, more hot). Only the comparative is primitive: nothing makes it a total order, a measure, or comparable across all things.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-GRADES-FOUND-A"
+    "c558e6bc-a92e-5870-87df-740e16a9a977"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GradesFoundInThingsReading",
   "note": "Typed parameter location: GradesFoundInThingsReading takes MoreIn : Respect → Being → Being → Prop. Its linked declaration asserts the existence of selected comparisons; it is a usage/constraining premise, not a definition of MoreIn. There is no standalone root-vocabulary declaration defining this primitive comparison. Its intended per-perfection interpretation remains OPEN."

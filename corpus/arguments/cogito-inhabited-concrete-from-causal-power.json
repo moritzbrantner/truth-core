@@ -1,33 +1,35 @@
 {
-  "id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
+  "id": "fe08da3c-27e2-5f0c-b688-400e583d0be3",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from causal power",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "STMT-INTELLECTUAL-EXERCISER-HAS-POWER",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "61b6e188-39aa-57d9-9e0b-dedc05226995"
   ],
-  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "conclusion_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "inference_ids": [
-    "INF-COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER"
+    "06aea116-5139-5bb3-b442-61d284dae0d0"
   ],
   "meaning": "As the activity route, with the capacity clause: the bearer who exercises intellect has causal power at w (OPEN), and whatever has causal power at w is concrete (OPEN capacity clause). Avoids the contested production of an inner word.",
   "definition_ids": [
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
-    "DEF-CONCRETE-CAUSAL-CRITERION",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-POWER-CAPACITY-READING",
-    "DEF-Q75-OPERATION-ATTRIBUTION",
-    "DEF-THOUGHT-BEARER",
-    "DEF-THOUGHT-OCCURRENCE"
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+    "2b015a2c-4d31-5511-b391-41413edf45ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-IN-ACT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

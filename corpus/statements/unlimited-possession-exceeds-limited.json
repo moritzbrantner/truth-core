@@ -1,13 +1,15 @@
 {
-  "id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
+  "id": "7030af77-c1d4-5f67-bc0c-875048d1b55c",
+  "label": "If c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is…",
+  "legacy_id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
   "paraphrase": "OPEN analyst premise: if c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is more r than x.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.UnlimitedPossessionExceedsLimited",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-PERFECTION-LIMITED-BY",
-    "DEF-MORE-IN"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

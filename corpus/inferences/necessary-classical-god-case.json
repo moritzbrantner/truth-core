@@ -1,16 +1,18 @@
 {
-  "id": "INF-NECESSARY-CLASSICAL-GOD-CASE",
+  "id": "685f28c9-9868-5529-adaf-ca89147ccd01",
+  "label": "Catholicism is true: the Catholic Church is a teaching…, by Existential-instantiation-and…",
+  "legacy_id": "INF-NECESSARY-CLASSICAL-GOD-CASE",
   "input_statement_ids": [
-    "STMT-NECESSARY-CLASSICAL-GOD-ROOT",
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
-    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
-    "STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH",
-    "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
-    "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH",
-    "STMT-CATHOLIC-CHURCH-DEFINITIVELY-PROPOSES-CREED"
+    "da3facd6-008e-5e76-92fa-677350c2dfdb",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267",
+    "a04f711a-53cc-59c5-902e-86b605fb73b4",
+    "dd2d9776-6550-5ee9-a206-dad03027c003",
+    "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"
   ],
-  "output_statement_id": "STMT-CATHOLICISM-TRUE",
+  "output_statement_id": "53964cbe-5831-5812-af33-4d87896d47a7",
   "rule": "existential-instantiation-and-identity-substitution",
   "meaning": "Registered32-input root composition: import the existing25-input NecessaryClassicalGodRoot theorem ONCE, preserving the actual selected necessary root and all exact dictionaries on sigma.Being. Apply its existing transparent projection to UniqueClassicalGodExists and unpack that SAME witness g. Its actual IsTheOneGod sigma.IsGod clause identifies every signature-God with g; identity substitution transports its primitive classical-attributes field to every such God. Import the unchanged Skeleton.catholicismSkeleton with this witness, the transported universal attributes, and EXACTLY the seven existing revelation/historical/teaching premises. This materializes a root consumer for the new necessary-root route; no historical proof, religious premise, source claim, vocabulary, carrier bridge or independently defended attribute is added. The historical/teaching end remains structural assembly/transcription conditional on those OPEN interfaces; the earlier infinity, eternity, naming and primitive-field adapters likewise remain explicit. Exact32=25+7; no philosophical premise is discharged, old fixed root arguments are unchanged, and no global weakening/minimality or independent Catholic truth is claimed. This composes the existing necessary-root projection and INF-CATHOLICISM-SKELETON-FROM-CLASSICAL-WITNESS without changing either.",
   "assumption_statement_ids": [],

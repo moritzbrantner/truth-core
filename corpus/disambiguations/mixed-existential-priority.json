@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-MIXED-EXISTENTIAL-PRIORITY",
+  "id": "800029ee-6554-5995-9b23-72ff1e57db2b",
+  "label": "Simple priority of beings versus mixed-token existential-production priority",
+  "legacy_id": "DISAMB-MIXED-EXISTENTIAL-PRIORITY",
   "term": "simple priority of beings versus mixed-token existential-production priority",
   "sense_definition_ids": [
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-EXISTENTIAL-BEARER-PRIOR",
-    "DEF-EXISTENTIAL-PRODUCT-PRIOR",
-    "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
-    "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE"
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "c921cc7b-97c0-5726-9a29-34bf248d6f99",
+    "cfe1e685-ca20-51e0-b6a3-f11fa6939cdf",
+    "c1abf521-223a-5617-a9bf-bb0f89e0b267",
+    "7d75b813-a6d4-5fea-951b-fec95eaf4fd7"
   ],
   "resolution": "The old causal-loop result uses the sourced simple-priority vocabulary on beings. The existential-self-production result uses a separate supplied Prior on Sum B E, where inl labels bearer/product existence tokens and inr labels acts. Reusing the same logical irreflexivity/transitivity templates does not source or establish them on that mixed domain. Its two productive interfaces and both structural laws are separately named unattributed open premises. Neither relation is temporal precedence by definition; no source fidelity or actual bearer-presence claim transfers merely by notation. Not forked (batch 4 of #1233): already type-distinct. Simple priority relates beings (B → B → Prop); the other senses concern a Prior on Sum B E, and the irreflexive/transitive records are structural laws on it, not readings. Only DEF-SIMPLE-PRIORITY reaches the root, through DISAMB-PRIORITY-SIMPLE-OR-IN-TIME, which is forked; no root-path statement or argument links this record or its other senses, so equivocation is a type error and coverage/exclusivity would have no use to range over (needs: a root route that reads one use on the mixed domain).",
   "term_label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED",
@@ -14,31 +16,31 @@
     {
       "id": "ed3b010e-0eee-425b-9126-ab300235179c",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_1",
-      "definition_id": "DEF-SIMPLE-PRIORITY",
+      "definition_id": "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
     },
     {
       "id": "3aeb2ef5-b688-46a3-b4d1-435ec5089c9d",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_2",
-      "definition_id": "DEF-EXISTENTIAL-BEARER-PRIOR",
+      "definition_id": "c921cc7b-97c0-5726-9a29-34bf248d6f99",
       "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.BearerPrior"
     },
     {
       "id": "4621236e-f022-4e33-8f6b-e730b9590970",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_3",
-      "definition_id": "DEF-EXISTENTIAL-PRODUCT-PRIOR",
+      "definition_id": "cfe1e685-ca20-51e0-b6a3-f11fa6939cdf",
       "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.ProductPrior"
     },
     {
       "id": "019d320f-6bbb-4a7b-8456-032aae3f514a",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_4",
-      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-IRREFLEXIVE",
+      "definition_id": "c1abf521-223a-5617-a9bf-bb0f89e0b267",
       "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.IrreflexivePriority"
     },
     {
       "id": "a5256ddc-b359-48d2-a626-c58364c7330d",
       "label": "SIMPLE_PRIORITY_OF_BEINGS_VERSUS_MIXED_5",
-      "definition_id": "DEF-MIXED-EXISTENTIAL-PRIORITY-TRANSITIVE",
+      "definition_id": "7d75b813-a6d4-5fea-951b-fec95eaf4fd7",
       "lean_declaration": "TruthCore.Causality.ExistentialSelfActualization.TransitivePriority"
     }
   ]

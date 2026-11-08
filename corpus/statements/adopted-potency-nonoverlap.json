@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ADOPTED-POTENCY-NONOVERLAP",
+  "id": "ef721eab-3713-5b1a-970b-6ea30dec6cd9",
+  "label": "In the adopted sense POTENCY_1 to a respect is capacity for that respect without actually having it…",
+  "legacy_id": "STMT-ADOPTED-POTENCY-NONOVERLAP",
   "paraphrase": "In the adopted sense potency to a respect is capacity for that respect without actually having it; nothing is simultaneously in act and in adopted potency in the same respect. This is not a universal claim about independently supplied potency predicates.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.NonOverlap",
   "definition_ids": [
-    "DEF-POTENCY",
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-RESPECT"
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "settlement_actions": [
     {

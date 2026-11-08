@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
-  "argument_id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
+  "id": "ed6f9777-3f9e-511b-b852-1e34a6464a31",
+  "label": "Under explicit excluded middle and the…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "CAUSAL-CONCRETENESS-PRECISE-COUNTERCASE-FORK",
+  "argument_id": "2e366851-7743-5a2a-a046-989b1a2af992",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.StructuralCoverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.StructuralCoverage.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.StructuralCoverage.structuralCoverage",
@@ -9,19 +11,19 @@
   "description": "Structural fork under explicit excluded middle and calibration; exhausts the two-clause counterexample shapes, not philosophical theories.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+    "target_statement_id": "e27489c3-7419-5123-8476-386633e62532",
     "cases": [
       {
         "label": "selected commitment",
-        "statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+        "statement_id": "e27489c3-7419-5123-8476-386633e62532",
         "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt"
       },
       {
         "label": "precise selected countercase",
-        "statement_id": "STMT-SELECTED-NO-ESSE-CAUSAL-COUNTERCASE",
+        "statement_id": "fd141661-3c09-55a2-a76a-f56b426ef839",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SelectedCounter"
       }
     ],
-    "survival_result_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+    "survival_result_id": "105ad261-8897-573c-b403-0a1bd42acc13"
   }
 }

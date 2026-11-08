@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SOURCE-FOREST-CONTROLS",
+  "id": "7afa1576-0569-5a72-8567-b7c582f957ad",
+  "label": "Fixed source-constraint omission and\u2026: Fork has three nodes a,b,c with exactly a\u2192c and b\u2192c; a,b\u2026",
+  "legacy_id": "DEF-SOURCE-FOREST-CONTROLS",
   "term": "fixed source-constraint omission and strictness graphs",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.SourceForest.OmissionControls",

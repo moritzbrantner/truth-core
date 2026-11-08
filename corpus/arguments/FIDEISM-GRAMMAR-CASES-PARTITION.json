@@ -1,15 +1,17 @@
 {
-  "id": "FIDEISM-GRAMMAR-CASES-PARTITION",
+  "id": "c69cff48-2daf-5b65-ae6a-8cbdecd26b43",
+  "label": "Every practice lies in one of three cells: its…, from Excluded middle as a general principle…",
+  "legacy_id": "FIDEISM-GRAMMAR-CASES-PARTITION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
+  "conclusion_statement_id": "c1dba341-6be3-55ec-877c-7ee0232982a5",
   "inference_ids": [
-    "INF-FIDEISM-GRAMMAR-CASES-PARTITION"
+    "cb2bbcb5-6c53-5dfd-a2dc-9e5e7bbc129d"
   ],
   "meaning": "Exhaustiveness of the grammar-fixing cases from excluded middle alone (owner decision 2026-11-06, #1010; same form as POTENCY-ANALYSIS-PARTITION): every practice's grammar is fixed by its authorities, or not and by ordinary use, or by neither. No list of theories of grammar enters; cellsExclusive shows the cells are disjoint. It establishes the partition, not which cell the Catholic practice is in.",
   "definition_ids": [
-    "DEF-GRAMMAR-FIXED-BY-AUTHORITIES",
-    "DEF-GRAMMAR-FIXED-BY-ORDINARY-USE"
+    "b1138a4f-b857-5584-bfa9-450dcbc6ccc0",
+    "4a289628-1440-5838-b10d-6fa6108971d3"
   ]
 }

@@ -1,27 +1,29 @@
 {
-  "id": "PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER",
+  "id": "6b609ddc-c4d1-5c46-b629-6c56747a8333",
+  "label": "Every perfection of a thing whose being a cause causes is in that cause…, from causal transfer",
+  "legacy_id": "PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH",
-    "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104"
   ],
-  "conclusion_statement_id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+  "conclusion_statement_id": "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
   "inference_ids": [
-    "INF-PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER"
+    "82d43685-869c-5ca5-b859-d6b0e983f1e9"
   ],
   "meaning": "A cause of a thing's being causes each of its perfections (STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION); if it is distinct from the thing, it is therefore more such in that perfection (STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH), and what is more such has the perfection (STMT-MORE-SUCH-HAS-THE-PERFECTION); if it is the thing itself, the perfection is trivially its own. Excluded middle decides which case holds. This derives STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, an open leaf of every root route with no earlier derivation, from two premises of those same routes, excluded middle, and the stated Quarta Via premise. One InAct parameter is used throughout, so the formal-or-eminent reading chosen under DISAMB-IN-ACT must be the same in all four premises; under the eminent reading 'more such has the perfection' must also be read eminently. All four premises stay open.",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-ESSE",
-    "DEF-MORE-IN"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-CAUSE",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-ORDER-OF-BEING"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

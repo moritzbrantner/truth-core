@@ -1,25 +1,31 @@
 {
-  "id": "DISAMB-NB-SURVEY-A1-CAUSE",
+  "id": "a73418e5-248f-5bda-b82c-47d92b3151dd",
   "term": "cause and external cause",
-  "sense_definition_ids": ["DEF-CAUSE-OF-ORIGIN", "DEF-NB-SURVEY-CAUSE-RELATUM", "DEF-NB-SURVEY-EXTERNAL-CAUSE"],
+  "sense_definition_ids": [
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
+  ],
   "resolution": "A1c first assumes any cause for C and separately excludes C and its parts, while A1c2 instead assumes an external cause outright. Neither is automatically Aquinas's specific origin-cause relation DEF-CAUSE-OF-ORIGIN. No inference between the different causal strengths is encoded as equivalence, and neither reported premise is established here.",
   "term_label": "CAUSE_AND_EXTERNAL_CAUSE",
   "senses": [
     {
       "id": "612273f5-e0c9-4494-9d97-7d0535ced15f",
       "label": "CAUSE_AND_EXTERNAL_CAUSE_1",
-      "definition_id": "DEF-CAUSE-OF-ORIGIN",
+      "definition_id": "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
     },
     {
       "id": "1e8459d7-9ff9-4a50-99f7-77379c72379f",
       "label": "CAUSE_AND_EXTERNAL_CAUSE_2",
-      "definition_id": "DEF-NB-SURVEY-CAUSE-RELATUM"
+      "definition_id": "c840c46a-3e60-5fbc-81a3-3633ab562871"
     },
     {
       "id": "7c564234-9ff5-48c4-a1e6-7405c1eaae7c",
       "label": "CAUSE_AND_EXTERNAL_CAUSE_3",
-      "definition_id": "DEF-NB-SURVEY-EXTERNAL-CAUSE"
+      "definition_id": "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
     }
-  ]
+  ],
+  "label": "Cause and external cause",
+  "legacy_id": "DISAMB-NB-SURVEY-A1-CAUSE"
 }

@@ -1,29 +1,31 @@
 {
-  "id": "TRUTH-COLLAPSE-CONTROLS",
+  "id": "657ed546-c5c0-5ce1-abc5-7c6ae02c0d8e",
+  "label": "Eight existence claims",
+  "legacy_id": "TRUTH-COLLAPSE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTH-COLLAPSE-CONTROLS",
+  "conclusion_statement_id": "e6f8513b-4ed5-58a8-831a-2cf3b2293d1f",
   "inference_ids": [
-    "INF-TRUTH-COLLAPSE-CONTROLS"
+    "e1fb1adb-16e3-576d-821a-41187681c29e"
   ],
   "meaning": "Construct each model; the uncollapsed claims follow from the expressive law where the model is expressive.",
   "definition_ids": [
-    "DEF-TRUTH-PREDICATE-COLLAPSE",
-    "DEF-EXPRESSIVE-TRUTH-PREDICATE",
-    "DEF-NEGATION-EXHAUSTIVE",
-    "DEF-THESIS-CAPTURE",
-    "DEF-GLOBAL-TRUTH-NIHILISM",
-    "DEF-ABSOLUTE-TRUTH",
-    "DEF-RELATIVE-TRUTH",
-    "DEF-ASSERTION-COMMITMENT",
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-PILOT-RELATIVISM-GLOBAL",
-    "DEF-PILOT-RELATIVISM-LOCAL",
-    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+    "7ab6ece2-890b-5382-a73e-15e4b18a955c",
+    "88562987-06db-5026-a671-b208c7dee6ab",
+    "dd384482-d63f-5b76-9084-dd58aaba4f18",
+    "0c296ae7-811f-558c-b5bf-c65b6fd240c8",
+    "aabd2b1b-d46e-56f5-91c3-6c6106a3104e",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b",
+    "33f7d5de-205d-573f-bc19-e0311fccbe93",
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "b826ed2e-99ea-5586-9c53-829115d34524",
+    "176d848b-e667-50c6-b986-bfcd84e1f5ed",
+    "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTH-COLLAPSE-LEVEL",
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE",
-    "DISAMB-PILOT-RELATIVITY"
+    "5dd0732d-712e-53fb-ad41-a412a951a5f5",
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68",
+    "baab4b98-29b9-5275-9819-6dab48f39ab8"
   ]
 }

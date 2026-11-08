@@ -1,10 +1,12 @@
 {
-  "id": "INF-NECESSARY-ROOT-TRILEMMA",
+  "id": "62f8b932-eeb7-59e6-b216-d47574bf42e6",
+  "label": "At w, one of: some concrete individual exists at w and at every accessible…, by Constructive-proof",
+  "legacy_id": "INF-NECESSARY-ROOT-TRILEMMA",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-TRILEMMA",
+  "output_statement_id": "b0607c1b-8c73-52f1-a052-85852e570f28",
   "rule": "constructive-proof",
   "meaning": "Excluded middle on restricted well-foundedness; in the well-founded case apply necessaryOrNonnecessaryRoot, retaining well-foundedness in the second horn; otherwise the third horn.",
   "assumption_statement_ids": [],

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a1c.html",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A1-TOTALITY",
+      "id": "3bab64d8-a2e1-5464-a76a-19d39d7eb6fc",
+      "label": "Unattributed website author, Necessary Being interactive survey, A1c, numbered causal-totality…",
+      "legacy_id": "NECESSARYBEING-A1-TOTALITY",
       "locator": "A1c, numbered causal-totality argument 1–9",
       "claim_locator_prefixes": [
         "A1c,"

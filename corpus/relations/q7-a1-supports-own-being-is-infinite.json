@@ -1,9 +1,11 @@
 {
-  "id": "REL-Q7-A1-SUPPORTS-OWN-BEING-IS-INFINITE",
+  "id": "a7a64be5-5c0f-5d80-b1f2-16adb0ecacef",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports Whatever is its own subsistent being is…",
+  "legacy_id": "REL-Q7-A1-SUPPORTS-OWN-BEING-IS-INFINITE",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q7-A1-SUBSISTENT-BEING-INFINITE",
+  "subject_id": "c5ad4c45-91a0-5554-bd5f-880f950d5066",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-OWN-BEING-IS-INFINITE",
+  "object_id": "10b2b0ed-262d-55ca-806e-647b67d2ab36",
   "note": "Q.7 a.1 co. infers 'ipse Deus sit infinitus' from 'ipse sit suum esse subsistens', with esse as 'maxime formale omnium'. The claim states the general principle with a represented essence/esse equality as antecedent; the statement states it with the primitive own-being predicate. The passage applies it to God only."
 }

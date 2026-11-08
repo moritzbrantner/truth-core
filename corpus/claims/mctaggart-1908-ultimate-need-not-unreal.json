@@ -1,15 +1,17 @@
 {
-  "id": "MCTAGGART-1908-ULTIMATE-NEED-NOT-UNREAL",
-  "statement_id": "STMT-MCTAGGART-ULTIMATE-NEED-NOT-UNREAL",
-  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "id": "8420ac3b-f0e2-5c22-be88-713826797f1e",
+  "label": "J. M. E. McTaggart, The Unreality of Time…: McTaggart allows that an idea may apply to reality…",
+  "legacy_id": "MCTAGGART-1908-ULTIMATE-NEED-NOT-UNREAL",
+  "statement_id": "d517f74d-4bab-514c-9319-4e552ed6fcb7",
+  "source_id": "2f0db41b-6ac4-5df9-be14-4c5eee8731a8",
   "locator": "The Unreality of Time, paragraphs beginning 'We must consider a possible objection' and 'But this does not apply here'",
   "interpretation": "The first paragraph poses the ultimate-concept objection; the second explicitly concedes possible validity without a valid explanation, then appeals to the alleged surviving contradiction. This does not attribute acceptance of every brute fact, PSR denial, or a proof that the A series actually is contradictory. Source reading in prose only; no new Lean declaration or result.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MCTAGGART-A-B-DETERMINATIONS",
-    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+    "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+    "350dfa15-f6b3-542d-b411-89f3a03e3581"
   ],
   "disambiguation_ids": [
-    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+    "7ac133b4-4dc6-560d-9a62-498dad9b64a4"
   ]
 }

@@ -1,26 +1,28 @@
 {
-  "id": "STMT-ACCESSIBLE-EMPTY-CAUSAL-COVERAGE",
+  "id": "8e8c261c-37cf-57ef-9386-530e76370430",
+  "label": "Three commitments: some v accessible from w has NoContingentConcreteAt A Concrete v and…",
+  "legacy_id": "STMT-ACCESSIBLE-EMPTY-CAUSAL-COVERAGE",
   "paraphrase": "OPEN, unattributed application premise: Three commitments: some v accessible from w has NoContingentConcreteAt A Concrete v and WeakActualConcreteCausalAvailabilityAt A Concrete CauseFact v. Empty refers only to contingent concrete bearers; existing necessary concreta and obtaining contingent situations are not excluded. Combining these in one statement is not a three-to-one philosophical premise discharge.",
   "lean_declaration": "TruthCore.Explanation.EmptyHistoryCausalAvailability.AccessibleEmptyCoverage",
   "definition_ids": [
-    "DEF-NO-CONTINGENT-CONCRETE-AT",
-    "DEF-ACTUAL-CAUSED-FACT",
-    "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
-    "DEF-NEGATIVE-FACT-MEANING",
-    "DEF-ACCESSIBLE-EMPTY-COVERAGE",
-    "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-MODAL",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-INHABITED-CONCRETE-WORLD"
+    "02a5456f-140b-5089-b101-7773dc72365f",
+    "77992eec-644b-5d66-bcd4-65c0dcf10d50",
+    "a3087694-1c75-56f7-b3a9-42ff73b5d561",
+    "04ee37e1-2977-5558-8c4c-3212c82375ea",
+    "08800f5a-ea0d-5587-aa96-b4cdf93471d7",
+    "ee657154-abb2-543b-802e-032a30b294a0",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "a878fe4c-1350-570d-978a-605fe8bad913",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARILY-UNDERIVED",
+  "id": "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+  "label": "One rigidly necessary being without\u2026: At w\u2080 there is a candidate individual b that actually\u2026",
+  "legacy_id": "DEF-NECESSARILY-UNDERIVED",
   "term": "one rigidly necessary being without incoming existential support",
   "definition": "At w\u2080 there is a candidate individual b that actually exists, exists at every world accessible from w\u2080, and has no direct existential-support edge from an existing candidate at any world in the admitted world carrier. b has the same identity across these modal alternatives. Uniqueness, intrinsic adequate explanation, simplicity, powers, and God are not included.",
   "basis": "stipulative",

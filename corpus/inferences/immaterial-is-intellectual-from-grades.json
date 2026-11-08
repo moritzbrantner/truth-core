@@ -1,11 +1,13 @@
 {
-  "id": "INF-IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
+  "id": "3432addb-1d06-5337-bedc-381c17555e73",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and form…, by Existential elimination…",
+  "legacy_id": "INF-IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES",
   "input_statement_ids": [
-    "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY",
-    "STMT-SOME-BEING-HAS-INTELLECT",
-    "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"
+    "0bdb0436-34ad-5409-9bdf-20cd4bcc4fb8",
+    "5854ef2b-41dd-5617-99d2-f53a850c35fd",
+    "44000fce-47be-5597-b176-61e2f270199c"
   ],
-  "output_statement_id": "STMT-IMMATERIAL-IS-INTELLECTUAL",
+  "output_statement_id": "180f5ad2-a421-541a-85c9-9bca578b4a43",
   "rule": "Existential elimination, universal instantiation, modus ponens",
   "meaning": "What is altogether immaterial has intellect, from three OPEN premises: intellect (the power, not an actual reception) is closed upward along grades of immateriality, something has intellect, and the altogether immaterial is at least as immaterial as every being. Unlike the q.14 calibration assemblies it does not pass through reception capacities; the abstract-object objection falls on the first premise.",
   "assumption_statement_ids": [],

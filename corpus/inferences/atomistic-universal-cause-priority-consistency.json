@@ -1,7 +1,9 @@
 {
-  "id": "INF-ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "id": "6e64b08a-b1fb-572a-83ad-2865a16cd36e",
+  "label": "The existing two-object identity-parthood interpretation…, by Typed-well-founded-mereologic…",
+  "legacy_id": "INF-ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ATOMISTIC-UNIVERSAL-CAUSE-PRIORITY-CONSISTENCY",
+  "output_statement_id": "be266d4d-54e5-5ea8-8d43-d4aeb9501892",
   "rule": "typed-well-founded-mereological-causal-composition",
   "meaning": "Import the exact previous consistency theorem on its two identity-parthood atoms. Let Prior equal the sole origin→effect edge. Strict parthood is empty, so proper-part well-foundedness, P6 and proper-part priority are vacuous; cause-to-effect-part priority and the outgoing edge are nonvacuous. Transitivity is vacuous, priority is irreflexive, and explicit N=origin/M=effect witnesses the endpoint. This is a formal interpretation, not physical realizability.",
   "assumption_statement_ids": [],

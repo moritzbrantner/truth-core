@@ -1,14 +1,16 @@
 {
-  "id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
+  "id": "55954987-3ff6-565f-8372-f33a06e49c14",
+  "label": "Weak OPEN realization interface consumed by the…, from Every condition realized at some admitted…",
+  "legacy_id": "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
   "premise_statement_ids": [
-    "STMT-TEMPORALLY-REALIZED-CONDITIONS-ARE-POSSIBLE"
+    "e99608dd-c65d-56de-90d1-2c62385fd699"
   ],
-  "conclusion_statement_id": "STMT-REALIZED-COMMON-ABSENCE-IS-POSSIBLE",
+  "conclusion_statement_id": "5745f7e5-aab2-5ae9-aab5-a484f61e59da",
   "inference_ids": [
-    "INF-REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE"
+    "3fbea847-a2ac-5b92-8c1f-47d63c64f2a1"
   ],
   "meaning": "Exact sole-premise restriction from arbitrary-condition realization to the common-absence interface actually used.",
   "definition_ids": [
-    "DEF-COLLECTIVE-POSSIBILITY-LOCAL-PROOF-ROUTE"
+    "e571cfe0-5cd9-51ea-8ded-30f55da48855"
   ]
 }

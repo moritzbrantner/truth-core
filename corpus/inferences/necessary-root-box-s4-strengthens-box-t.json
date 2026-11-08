@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "id": "616a9400-210d-536c-9c7b-c4e8aa288486",
+  "label": "Necessary-being node, possibilist box reading in frame class KT: there…, by Conjunction elimination",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
   "input_statement_ids": [
-    "STMT-NECESSARY-ROOT-BOX-S4"
+    "ad9fe46d-1032-530e-a589-c037cf8fed78"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-BOX-T",
+  "output_statement_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
   "rule": "Conjunction elimination (S4 frames are reflexive)",
   "meaning": "Strength registration: the S4 node implies the T node.",
   "assumption_statement_ids": [],

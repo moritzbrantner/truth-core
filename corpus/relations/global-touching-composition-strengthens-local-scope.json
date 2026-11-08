@@ -1,10 +1,12 @@
 {
-  "id": "REL-GLOBAL-TOUCHING-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "id": "a1466ac1-7ecf-5a95-a643-082f568123a3",
+  "label": "If each member of an infinite chain… strengthens Every injective touching chain whose…",
+  "legacy_id": "REL-GLOBAL-TOUCHING-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
   "subject_kind": "statement",
-  "subject_id": "STMT-TOUCHING-CHAIN-FORMS-ONE",
+  "subject_id": "9a36bdc4-75a6-5c39-9d70-88bd42ba38a5",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
-  "verification_result_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "object_id": "f28c1cb0-e470-546a-bc9f-64d143403fe2",
+  "verification_result_id": "d071e5bd-d5f1-5584-a07d-21c7508c2d78",
   "note": "Sole-premise same-dictionary scope weakening, strict in the populated two-track control. Neither statement is a new identity criterion for wholes."
 }

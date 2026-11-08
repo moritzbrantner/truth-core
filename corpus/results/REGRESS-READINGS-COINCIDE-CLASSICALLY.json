@@ -1,6 +1,8 @@
 {
-  "id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
-  "argument_id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "id": "b5a27d58-b275-58fe-aa15-c926bd6770a9",
+  "label": "In classical logic, for every relation R on any type of beings: every being is R-accessible…",
+  "legacy_id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "argument_id": "56790e3a-f788-5630-9170-df6915b4a06d",
   "challenge_module": "TruthCore.Results.Causality.RegressReadingsCoincide.Challenge",
   "solution_module": "TruthCore.Results.Causality.RegressReadingsCoincide.Solution",
   "theorem": "TruthCore.Results.Causality.RegressReadingsCoincide.regressReadingsCoincideClassically",

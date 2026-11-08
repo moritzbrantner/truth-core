@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION",
+  "id": "ac72bbfe-a355-5179-9e29-0a6e565eb79e",
+  "label": "Whatever stands strictly above the null degree of a perfection r has r",
+  "legacy_id": "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION",
   "paraphrase": "OPEN analyst premise: whatever stands strictly above the null degree of a perfection r has r (what has some heat is hot).",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.AboveNullDegreeHasThePerfection",
   "definition_ids": [
-    "DEF-PER-RESPECT-DEGREE-FAMILY",
-    "DEF-NULL-DEGREE",
-    "DEF-ACT"
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,8 +1,10 @@
 {
-  "id": "STMT-UNIVERSAL-DOUBT",
+  "id": "b30587bf-d5c6-501a-b782-bb6529832a01",
+  "label": "Universal doubt: something is doubted and every sentence is doubted",
+  "legacy_id": "STMT-UNIVERSAL-DOUBT",
   "paraphrase": "Universal doubt: something is doubted and every sentence is doubted. The doubter of Über Gewißheit §115 ('Wer an allem zweifeln wollte'); not Pyrrhonian suspension (STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION), which neither asserts nor doubts in this sense.",
   "lean_declaration": "TruthCore.German.Wittgenstein.OnCertainty.UniversalDoubtReading",
   "definition_ids": [
-    "DEF-DOUBTED-SENTENCE"
+    "df15d154-b759-5f2f-b449-617f4f34ee6a"
   ]
 }

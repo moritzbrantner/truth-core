@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
-  "argument_id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "id": "1aaca61e-1ac9-5927-83d4-8a40268d5e20",
+  "label": "At the selected world every cause of the…, from Whatever causes the spacetime whole to… and 1 more",
+  "legacy_id": "UNIVERSE-CAUSE-OUTSIDE-SPACETIME",
+  "argument_id": "033d8860-4ec5-5ae2-b613-c4953a745da0",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.Outside.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.Outside.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.Outside.universeCauseOutsideSpacetime",

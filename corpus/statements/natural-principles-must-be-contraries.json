@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-PRINCIPLES-MUST-BE-CONTRARIES",
+  "id": "3bae1366-a7c9-59aa-8264-c208f5aea61b",
+  "label": "The principles of natural things must be contraries",
+  "legacy_id": "STMT-NATURAL-PRINCIPLES-MUST-BE-CONTRARIES",
   "paraphrase": "The principles of natural things must be contraries.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrinciplesMustBeContrariesReading"
 }

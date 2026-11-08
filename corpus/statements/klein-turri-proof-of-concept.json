@@ -1,12 +1,14 @@
 {
-  "id": "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
+  "id": "ad23230d-d1fd-5db2-b15f-035a874fda60",
+  "label": "The article preserves a proof-of-concept objection: comprehensibility of possible simple members…",
+  "legacy_id": "STMT-KLEIN-TURRI-PROOF-OF-CONCEPT-BURDEN",
   "paraphrase": "The article preserves a proof-of-concept objection: comprehensibility of possible simple members does not establish that appropriately structured available chains actually support the beliefs in question, and the cited ready example is compatible with foundationalism.",
   "definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+    "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e"
   ]
 }

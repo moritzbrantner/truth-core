@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SEP-INTUITIONISM",
+    "source_id": "811f7323-480f-517d-aa9a-509285bcfacf",
     "source_url": "https://plato.stanford.edu/archives/spr2026/entries/intuitionism/",
     "retrieved_at": "2026-10-24T09:00:49Z",
     "sha256": "sha256:4821b61a51ba5d4ef32cb2fa2a51bcdb199fb4aad44801115743f1a11b7bcde6",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "SEP-INTUITIONISM-3-1",
+      "id": "8388eba0-0c23-501b-b8ea-a82f5edec5f0",
+      "label": "Rosalie Iemhoff, Intuitionism in the Philosophy of Mathematics, §3.1",
+      "legacy_id": "SEP-INTUITIONISM-3-1",
       "locator": "§3.1 (The BHK-interpretation)",
       "claim_locator_prefixes": [
         "§3.1,"
@@ -28,7 +30,9 @@
       "incipit": "3.1 The BHK-interpretation\nIn intuitionism, knowing that a statement A is true"
     },
     {
-      "id": "SEP-INTUITIONISM-3-4-WEAK-COUNTEREXAMPLES",
+      "id": "4e96018e-ca55-55fd-b9eb-952c9aab4ce7",
+      "label": "Rosalie Iemhoff, Intuitionism in the Philosophy of Mathematics, §3.4, Weak counterexamples",
+      "legacy_id": "SEP-INTUITIONISM-3-4-WEAK-COUNTEREXAMPLES",
       "locator": "§3.4, Weak counterexamples",
       "claim_locator_prefixes": [
         "§3.4, Weak counterexamples,"
@@ -40,7 +44,9 @@
       "incipit": "Weak counterexamples\nThe weak counterexamples, introduced by Brouwer in 1908,"
     },
     {
-      "id": "SEP-INTUITIONISM-6-3",
+      "id": "0df64463-2149-5eed-a2de-a341adc4e6e1",
+      "label": "Rosalie Iemhoff, Intuitionism in the Philosophy of Mathematics, §6.3",
+      "legacy_id": "SEP-INTUITIONISM-6-3",
       "locator": "§6.3 (Dummett)",
       "claim_locator_prefixes": [
         "§6.3,"

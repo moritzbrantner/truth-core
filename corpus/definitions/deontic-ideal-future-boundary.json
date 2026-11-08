@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
+  "id": "ac8c1fd8-884f-5f95-8a3a-e25870b8a5bd",
+  "label": "Ideal-successor obligation and…: Ought ideal w p means every ideal successor v satisfies p",
+  "legacy_id": "DEF-DEONTIC-IDEAL-FUTURE-BOUNDARY",
   "term": "ideal-successor obligation and available-continuation fulfillment",
   "definition": "Ought ideal w p means every ideal successor v satisfies p. Can available w p means some available successor v satisfies p. Both reuse Modal.Frame, with predicates on complete continuations. The available relation must be supplied and its intended agency interpretation independently defended. Certificate quantifies over all predicates and characterizes validity by a common ideal/available successor. Bool goal is equality to true; ideal accesses true, broad accesses both Booleans, blocked accesses false. Serial ideality alone supplies no common successor with blocked.",
   "basis": "stipulative",

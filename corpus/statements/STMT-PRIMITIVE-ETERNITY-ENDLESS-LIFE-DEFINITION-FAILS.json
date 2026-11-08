@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS",
+  "id": "7d6a77be-86d9-519b-a40f-49f332a2e989",
+  "label": "The endless-life calibration fails for the supplied primitive Eternal; without the separate named…",
+  "legacy_id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS",
   "paraphrase": "The endless-life calibration fails for the supplied primitive Eternal; without the separate named coverage premise this does not establish the Boethian calibration.",
   "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.EndlessDefinitionFails",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

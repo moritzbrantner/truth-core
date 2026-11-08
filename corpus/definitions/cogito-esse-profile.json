@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COGITO-ESSE-PROFILE",
+  "id": "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+  "label": "Cogito profile with the adopted esse…: Profile o grounds InAct esse retains o and grounds exactly…",
+  "legacy_id": "DEF-COGITO-ESSE-PROFILE",
   "term": "cogito profile with the adopted esse criterion of concreteness",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.profile",

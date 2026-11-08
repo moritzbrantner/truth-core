@@ -1,9 +1,11 @@
 {
-  "id": "INF-SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "id": "c52fb796-3331-594c-a902-d1e976e34861",
+  "label": "At least one individual exists at the selected world and at every world\u2026, by Constructive-proof (2)",
+  "legacy_id": "INF-SCENARIO-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
   "input_statement_ids": [
-    "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+    "679eb3f7-b81c-5c0f-8072-29294269c162"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "constructive-proof",
   "meaning": "Assembly transcription: destructure the existing Scenario.NecessaryConcreteAt witness and retain the SAME individual\u2019s actual and necessary existence in the SAME s.ontic, dropping only its supplied concreteness conjunct. Connects to existing STMT-KANT-CONVERSION-NECESSARY-WITNESS. No additional premise, concreteness bestowed on another witness or independent metaphysical discharge; closure through this assembly requires its input already closed.",
   "assumption_statement_ids": [],

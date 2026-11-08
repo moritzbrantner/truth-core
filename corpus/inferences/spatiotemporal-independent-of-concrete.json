@@ -1,7 +1,9 @@
 {
-  "id": "INF-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "id": "ff2b9b8a-83df-575c-a34c-b2020d8a21be",
+  "label": "Spatiotemporality is a separate property: for some anchored esse…, by Constructive-proof",
+  "legacy_id": "INF-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "output_statement_id": "24f2d739-a291-5783-aff3-67c939471ef4",
   "rule": "constructive-proof",
   "meaning": "A four-candidate model (has esse in re × in spacetime) with the reasoner concrete and the set of 2 abstract, one region, the spatiotemporal relation between candidates in spacetime and parthood in the whole, shows that in each of the three senses all four combinations of concreteness and spatiotemporality occur. So neither property is defined by or follows from the other.",
   "assumption_statement_ids": [],

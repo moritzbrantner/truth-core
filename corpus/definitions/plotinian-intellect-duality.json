@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PLOTINIAN-INTELLECT-DUALITY",
+  "id": "83516bdf-9ae1-5ed7-a337-5dafc4dea266",
+  "label": "Intellect as thinking and intelligible: Intellect has intellection as its activity, turns toward…",
+  "legacy_id": "DEF-PLOTINIAN-INTELLECT-DUALITY",
   "term": "Intellect as thinking and intelligible",
   "definition": "Intellect has intellection as its activity, turns toward the intelligible and is completed or determined by it. It is itself intelligible and thinking and so is already two and many in the relevant intelligible sense. This does not define every possible account of divine knowledge as internally composite.",
   "basis": "sourced",
   "claim_ids": [
-    "PLOTINUS-V4-INTELLECT-NOT-FIRST"
+    "e8f6b584-a62d-59ed-b78a-451fb3574666"
   ]
 }

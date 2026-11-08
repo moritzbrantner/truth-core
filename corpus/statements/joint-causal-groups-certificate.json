@@ -1,20 +1,22 @@
 {
-  "id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "id": "a1bd75de-4577-5d2e-9c72-e06b4533ac08",
+  "label": "Acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal…",
+  "legacy_id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
   "lean_declaration": "TruthCore.Causality.JointGroups.Certificate",
   "paraphrase": "Conditional joint-membership order schema and fixed controls: acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal ancestors and, with actual population, a source; under acyclicity a least element is exactly a source with finite paths from every node. Typed ignition records assert only membership. A finite scenario model separates joint sufficiency, alternatives, redundancy, enabling conditions and actual exercise. Exact recorded #634 and imported #707 controls preserve respectively the infinite branch despite unique source/records and plural minima without a least element. Empty record/absent-event and cycle omissions prevent stronger applicability conclusions.",
   "definition_ids": [
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
-    "DEF-PLURAL-ROOT-CONFLUENCE-CONTROL",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY"
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691",
+    "afe68cc5-c557-5cd6-ab83-94823aa3b481",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

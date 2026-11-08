@@ -1,5 +1,7 @@
 {
-  "id": "STMT-TOUCHING-NOT-IDENTICAL-BEING-LIMITED",
+  "id": "6d527ce3-6cca-5a90-bb19-a785894c033a",
+  "label": "Touching and being limited are distinct: touching is relative to something touched, while being…",
+  "legacy_id": "STMT-TOUCHING-NOT-IDENTICAL-BEING-LIMITED",
   "paraphrase": "Touching and being limited are distinct: touching is relative to something touched, while being limited is not the same relation.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.TouchingNotIdenticalWithBeingLimitedReading"
 }

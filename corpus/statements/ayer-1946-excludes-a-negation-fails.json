@@ -1,18 +1,20 @@
 {
-  "id": "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "id": "b533a399-dd04-5993-8218-fcbbed81c631",
+  "label": "For any frame and meaningfulness predicate closed under negation, the V3 package fails",
+  "legacy_id": "STMT-AYER-1946-EXCLUDES-A-NEGATION-FAILS",
   "paraphrase": "For any frame and meaningfulness predicate closed under negation, the V3 package fails.",
   "lean_declaration": "TruthCore.Logic.Verificationism.Ayer1946ExcludesANegationFails",
   "definition_ids": [
-    "DEF-AYER-1946-VERIFIABILITY",
-    "DEF-LITERAL-MEANINGFULNESS-1946",
-    "DEF-CHURCH-SENTENCE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-MEANING-NEGATION-CLOSURE"
+    "851dbf2e-5030-51ad-9b74-b960a87683f4",
+    "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+    "97f9d81e-1b60-5ad8-8947-54bd4f09754f",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

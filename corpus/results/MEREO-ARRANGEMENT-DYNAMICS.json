@@ -1,6 +1,8 @@
 {
-  "id": "MEREO-ARRANGEMENT-DYNAMICS",
-  "argument_id": "MEREO-ARRANGEMENT-DYNAMICS",
+  "id": "98ca4136-bcd4-513a-bd10-311a31e3baf2",
+  "label": "For any chosen description and primitive intervention family, closed macro transitions exist…",
+  "legacy_id": "MEREO-ARRANGEMENT-DYNAMICS",
+  "argument_id": "b0e884cf-0888-5b54-8440-a9937d92d1c0",
   "challenge_module": "TruthCore.Results.Mereology.ArrangementDynamics.Challenge",
   "solution_module": "TruthCore.Results.Mereology.ArrangementDynamics.Solution",
   "theorem": "TruthCore.Results.Mereology.ArrangementDynamics.controls",

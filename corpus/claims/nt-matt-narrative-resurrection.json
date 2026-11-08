@@ -1,15 +1,17 @@
 {
-  "id": "NT-MATT-27-NARRATIVE-RESURRECTION",
-  "statement_id": "STMT-PILOT-REPORT-MATT-NARRATIVE-RESURRECTION",
-  "source_id": "NT-MATT",
+  "id": "5b5e5a0f-6361-546e-8643-c2a1c1cb8b02",
+  "label": "New Testament, Matthew 27.52-53: Matthew's narrator uses Jesus' resurrection as the time marker…",
+  "legacy_id": "NT-MATT-27-NARRATIVE-RESURRECTION",
+  "statement_id": "8c3d84c3-b887-560d-a448-8b7efa645a0c",
+  "source_id": "ddaa62d0-a20e-51cc-a8d5-62322f814a20",
   "locator": "27.52-53",
   "interpretation": "The narrator's temporal clause refers to Jesus' resurrection, rather than only quoting a character's belief. Chapters 26–28 were materialized and read together: death and burial at 27.50,57–61 precede the angel's announcement and Jesus meeting the women at 28.5–10. This records what the canonical narrative presents; it does not establish historical occurrence, authorship, eyewitness access, or the truth of its narrated phenomena.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-SKELETON-OPEN-PREDICATES"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

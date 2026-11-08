@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CODEX-IURIS-CANONICI-1983",
+    "source_id": "447910c6-269d-54a7-901e-1c7ad5306d07",
     "source_url": "https://www.vatican.va/archive/cod-iuris-canonici/latin/documents/cic_liberVI_la.html",
     "retrieved_at": "2026-11-06T07:51:56Z",
     "sha256": "sha256:8a85a5ec741dbc051f8f23b29a8bec86a9e96cbbba621d83064ab48be2e17d51",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "CIC-1983-1364-1369",
+      "id": "008f4607-7b6c-56d6-9984-137f763f5510",
+      "label": "Catholic Church, Codex Iuris Canonici, Book VI, Part II, Title I, cann. 1364-1369",
+      "legacy_id": "CIC-1983-1364-1369",
       "locator": "Book VI, Part II, Title I (delicts against the faith and the unity of the Church), cann. 1364-1369",
       "claim_locator_prefixes": [
         "can. 136"

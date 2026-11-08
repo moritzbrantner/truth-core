@@ -46,13 +46,8 @@ fi
 # Build every challenge and solution module in one Lake run first. The default target does not
 # include the challenges, and parallel Comparator runs would otherwise race to write shared .olean
 # files; afterwards each sandboxed `lake build` inside a run only replays finished builds.
-mapfile -t modules < <(cd "$ROOT" && python3 -c '
-import json, sys
-for result in sys.argv[1:]:
-    config = json.load(open(f"results/{result}/comparator.json"))
-    print(config["challenge_module"])
-    print(config["solution_module"])
-' "${results[@]}" | sort -u)
+module_ids="$(python3 "$ROOT/scripts/result_configs.py" --modules "${results[@]}")"
+mapfile -t modules < <(printf '%s\n' "$module_ids")
 if ! build_log="$(cd "$ROOT" && lake build "${modules[@]}" 2>&1)"; then
   printf '%s\n' "$build_log" >&2
   exit 1

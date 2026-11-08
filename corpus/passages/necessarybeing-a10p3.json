@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a10p3.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A10P3",
+      "id": "c4d21e3c-19f8-50d1-b3e0-0d069bee79ef",
+      "label": "Unattributed website author, Necessary Being interactive survey, A10P3, complete interactive page",
+      "legacy_id": "NECESSARYBEING-A10P3",
       "locator": "A10P3, complete interactive page",
       "claim_locator_prefixes": [
         "A10P3,"

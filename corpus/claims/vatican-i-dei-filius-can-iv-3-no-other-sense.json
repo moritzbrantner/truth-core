@@ -1,7 +1,9 @@
 {
-  "id": "VATICAN-I-DEI-FILIUS-CAN-IV-3-NO-OTHER-SENSE",
-  "statement_id": "STMT-DEI-FILIUS-DECLARED-SENSE-OF-DOGMA-RETAINED",
-  "source_id": "VATICAN-I-DEI-FILIUS",
+  "id": "bf292a59-a232-599c-a1ce-f9d5f2a0cf81",
+  "label": "First Vatican Council, Dei Filius Can: Dei Filius ch. 4 and can",
+  "legacy_id": "VATICAN-I-DEI-FILIUS-CAN-IV-3-NO-OTHER-SENSE",
+  "statement_id": "22bb1798-08d2-50f2-8a24-6300b22c7b69",
+  "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
   "locator": "can. IV.3, Si quis dixerit, fieri posse, ut dogmatibus ab Ecclesia propositis ... sensus tribuendus sit alius",
   "interpretation": "Can. IV.3: 'Si quis dixerit, fieri posse, ut dogmatibus ab Ecclesia propositis, aliquando secundum progressum scientiae sensus tribuendus sit alius ab eo, quem intellexit et intelligit Ecclesia; anathema sit.' The canon condemns the claim that a dogma may receive another sense; it states the binding of the declared sense negatively.",
   "status": "formalized",

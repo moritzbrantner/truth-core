@@ -1,6 +1,8 @@
 {
-  "id": "DEFINITION-DICTIONARY-CONNECTIONS",
-  "argument_id": "DEFINITION-DICTIONARY-CONNECTIONS",
+  "id": "ed66cd71-96af-5686-bc1b-09d01ef66150",
+  "label": "For identical supplied dictionaries: CogitoConcrete.InhabitedConcreteAt m.ontic m.concrete w iff…",
+  "legacy_id": "DEFINITION-DICTIONARY-CONNECTIONS",
+  "argument_id": "cdff3fe7-57ed-5614-a67f-4dadd80018d4",
   "challenge_module": "TruthCore.Results.Causality.DefinitionDictionaryConnections.Challenge",
   "solution_module": "TruthCore.Results.Causality.DefinitionDictionaryConnections.Solution",
   "theorem": "TruthCore.Results.Causality.DefinitionDictionaryConnections.connections",

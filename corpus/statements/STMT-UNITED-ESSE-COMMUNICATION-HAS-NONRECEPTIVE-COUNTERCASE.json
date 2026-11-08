@@ -1,14 +1,16 @@
 {
-  "id": "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE",
+  "id": "fa965377-16bf-58f5-8a42-faee24fc45e4",
+  "label": "An actual supplied union/communication/same-act tuple fails canonical reception for the SAME…",
+  "legacy_id": "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE",
   "paraphrase": "An actual supplied union/communication/same-act tuple fails canonical reception for the SAME soul/recipient/state. This is the precise remaining counteraccount to the universal communication-to-reception transfer; it need not be the selected tuple.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.FurtherInterpretation",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

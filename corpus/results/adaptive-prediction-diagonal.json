@@ -1,6 +1,8 @@
 {
-  "id": "ADAPTIVE-PREDICTION-DIAGONAL",
-  "argument_id": "ADAPTIVE-PREDICTION-DIAGONAL",
+  "id": "2fe95058-4da3-5087-9ff1-893fa35b8adb",
+  "label": "For each total deterministic finite-history binary predictor, one recursively constructed infinite…",
+  "legacy_id": "ADAPTIVE-PREDICTION-DIAGONAL",
+  "argument_id": "444de420-bbdc-5eb7-ab76-64f4ea61c8e0",
   "challenge_module": "TruthCore.Results.Logic.AdaptivePrediction.Challenge",
   "solution_module": "TruthCore.Results.Logic.AdaptivePrediction.Solution",
   "theorem": "TruthCore.Results.Logic.AdaptivePrediction.diagonalBoundary",

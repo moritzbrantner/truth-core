@@ -1,18 +1,20 @@
 {
-  "id": "ATTEMPT-UNIQUE-FEEDBACK-EXPLANATION",
+  "id": "4fa6dc63-5aa2-56dd-bd96-e635ac92750c",
+  "label": "Issue #311 bounded control after inventory of main and open PRs",
+  "legacy_id": "ATTEMPT-UNIQUE-FEEDBACK-EXPLANATION",
   "statement_ids": [
-    "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
-    "STMT-LOCAL-OBSERVATION-SELECTS-SOLUTION",
-    "STMT-UNIQUE-FEEDBACK-CONTROL"
+    "e3c7893f-7947-544e-a702-fb71ba34d2c4",
+    "481c73c8-1ef2-5c0d-a2e2-bfca6f6e6934",
+    "95095cc7-c88d-5d59-b1a8-e7cc9c447265"
   ],
   "date": "2026-10-28",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Issue #311 bounded control after inventory of main and open PRs. Reused #299 as comparison, without repeating its all-on/off or observation-selection proofs. Existing RegressDomains.CycleAndConverseBoundary equates lfp/gfp with every node intrinsic; it does not give this sensitive two-gate unique state. Pending PR-619 owns memberwise/complete-history discriminator assignments and is not imported or duplicated. New truth-table-sensitive gates have exactly one satisfying state without supplied observed data. Initial interactive proof failed because decide did not unfold the two predicate definitions; explicit unfolding and Bool.noConfusion then yielded an axiom-free proof. Rejected interpreting logical feedback as cyclic world-local causation, pure borrowed transmission, inventor-free plans, or sufficient ontological explanation. The strongest rival treats the global equations and their unique solution as an intrinsic structural explanation; no normative adequacy criterion here refutes it. Source attribution is paused. Remaining obligations EXP-SCOPE, EXP-LOCAL-TO-GLOBAL, EXP-NONCIRCULAR and EXP-ULTIMATE remain open; root-premise delta zero. Frozen Challenge SHA256 80249ef71f3aa529bc97d4343b15e5af74788f8de1b0b631226a2b897a91325d. Shared service accepted repeated full-content edit at Scratch/issue311.lean, workspace head 75192b1c3efdf19f25601e52a06116e706420f11, session causal-harvest, HTTP 200; final content SHA256 d9a641f7007215a7884b0ec70d00651952546916e250d2df5e99cb870ae8c949, no errors and no axioms. Lease wait 0.000010s, first API 0.836s, corrected warm API 0.230s. Interactive diagnostics do not replace canonical final CI build, binding, Comparator or NanoDa. Details: docs/notes/unique-feedback-explanation-311.md.",
   "evidence": [
-    "UNIQUE-FEEDBACK-CONTROL",
-    "ESSENTIAL-POWER-UNDERDETERMINED",
-    "LOCAL-OBSERVATION-SELECTS-SOLUTION",
+    "b217ef67-6837-536f-8f5a-e7780e1f4a82",
+    "f488872b-4bc6-5898-8766-5e1c48d92f84",
+    "bc102e16-a34f-5168-964c-3f40c121b795",
     "PR-619"
   ]
 }

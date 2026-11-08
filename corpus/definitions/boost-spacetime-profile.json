@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOOST-SPACETIME-PROFILE",
+  "id": "6f3cfe1c-afa7-517a-91c7-e8a72a52541a",
+  "label": "1+1 coordinate event, Lorentzian…: Event is the Mathlib product module ℝ×ℝ, first coordinate t and…",
+  "legacy_id": "DEF-BOOST-SPACETIME-PROFILE",
   "term": "1+1 coordinate event, Lorentzian interval and rational boost",
   "definition": "Event is the Mathlib product module ℝ×ℝ, first coordinate t and second x. interval is QuadraticMap.prod of sq and negative sq, hence t²−x². boost is a Mathlib QuadraticMap.IsometryEquiv of this form, with linear coordinates ((5t−4x)/3,(5x−4t)/3), inverse with plus signs. This corresponds to c=1, v=4/5, gamma=5/3 in the analyst profile.",
   "basis": "stipulative",

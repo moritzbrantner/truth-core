@@ -1,14 +1,16 @@
 {
-  "id": "ARIST-PHYS-242B23-PRIMARY-CONTACT-B",
-  "statement_id": "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
-  "source_id": "ARIST-PHYS",
+  "id": "9c26f43e-be1f-5a03-a56f-1055916aa6c7",
+  "label": "Aristotle, Physics VII.1, 242b23-27: What primarily moves something in local, bodily motion…",
+  "legacy_id": "ARIST-PHYS-242B23-PRIMARY-CONTACT-B",
+  "statement_id": "62bb984f-1cea-5695-af72-d83c31d4210e",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VII.1, 242b23-27",
   "interpretation": "Typed reading: whatever primarily moves something in local, bodily motion touches it or is continuous with it (242b24-26: εἰ τὸ κινοῦν πρώτως κατὰ τόπον καὶ σωματικὴν κίνησιν ἀνάγκη ἢ ἅπτεσθαι ἢ συνεχὲς εἶναι τῷ κινουμένῳ, καθάπερ ὁρῶμεν ἐπὶ πάντων). Restricted to primary movers and local motion, as the sentence is; the -A reading has only two atoms and no mover or moved. The sentence is a conditional ('if …'); Aristotle asserts its antecedent by appeal to what we see in all cases, and the reading records that assertion.",
-  "interpretation_of": "ARIST-PHYS-242B23-PRIMARY-CONTACT-A",
+  "interpretation_of": "6476b5ac-8a33-5e15-b52f-e3b227a8546f",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONTACT-OR-CONTINUITY",
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-PRIMARY-MOVER"
+    "f505cd6a-9513-51c4-a473-6b57637f3e8d",
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401"
   ]
 }

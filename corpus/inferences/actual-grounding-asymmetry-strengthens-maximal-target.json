@@ -1,9 +1,11 @@
 {
-  "id": "INF-ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
+  "id": "7eb12723-4bf7-5c29-865f-ed85e1119328",
+  "label": "For actual concreta a,b at the selected world, if b is maximal in the SAME…, by Constructive-proof",
+  "legacy_id": "INF-ACTUAL-GROUNDING-ASYMMETRY-STRENGTHENS-MAXIMAL-TARGET",
   "input_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+    "39f7c63d-b372-564c-b18a-ed09d02dda9a"
   ],
-  "output_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET",
+  "output_statement_id": "bcf79e03-6dcb-5b00-8c69-244be36dec15",
   "rule": "constructive-proof",
   "meaning": "Sole-premise same-dictionary scope restriction: full actual grounding asymmetry implies maximal-target asymmetry. A populated reciprocal-dependent control refutes the converse without assuming the old full25 attribute background.",
   "assumption_statement_ids": [],

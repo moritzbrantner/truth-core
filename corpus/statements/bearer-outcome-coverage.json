@@ -1,18 +1,20 @@
 {
-  "id": "STMT-BEARER-OUTCOME-COVERAGE",
+  "id": "136a4bac-7559-56fa-9ce8-dfdbdd3796d6",
+  "label": "Some bearer of some occurring thought has one of four outcome forms: its support ancestry is…",
+  "legacy_id": "STMT-BEARER-OUTCOME-COVERAGE",
   "paraphrase": "Some bearer of some occurring thought has one of four outcome forms: its support ancestry is accessible with a terminus satisfying the supplied substance predicate; accessible with a terminus failing it; contains a support cycle; or has an endless ancestor set and no cycle. Coverage only: the terminus forms are not exclusive of each other, and a terminus failing the predicate is not thereby a process.",
   "lean_declaration": "TruthCore.Causality.BearerRegress.SomeBearerOutcome",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-BEARER-SUPPORT-ANCESTRY",
-    "DEF-BEARER-SUPPORT-OUTCOMES",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+    "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARS-INHERES-SUPPORTS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "f83e9a34-7994-5eb1-8431-50776f097f58",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

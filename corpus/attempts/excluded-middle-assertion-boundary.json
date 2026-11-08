@@ -1,16 +1,18 @@
 {
-  "id": "ATTEMPT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY",
+  "id": "29e1d1db-1672-57fe-9842-7ac15fa80d52",
+  "label": "Exact-type audit separates logical holding from the unchanged proof/assertion-policy package",
+  "legacy_id": "ATTEMPT-EXCLUDED-MIDDLE-ASSERTION-BOUNDARY",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM",
-    "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "dd9921a6-cea1-5cb5-ac08-512a4a5b1813",
+    "17bf5303-72ee-5dbf-bf6f-056f738cc223"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Exact-type audit separates logical holding from the unchanged proof/assertion-policy package. Derive the exact negative universal-assertion consequence and construct explicit marker controls. Rejected treating a classical metatheory marker structure as intended intuitionist object semantics, inventing a known-proof/semantic bridge, or treating refutation of ∃p¬EM(p) as proof of ∀pEM(p). Existing object-EM alternative endpoints are deliberately preserved: moving withholding off the target would leave only its already-refuted weaker instance-denial, opening an unauthorized defended() path because the engine does not require coverage. This remaining authority gap is explicit rather than silently patched by generic Other or approval-by-removal. See docs/notes/excluded-middle-assertion-boundary.md. Review correction: narrowed the controls paraphrase to the bound compatibility/non-implication formulas; no-assertion and mixed-stage behavior are implementation descriptions, not retained witness properties. Lean types and frozen Challenges are unchanged. Owner-directed endpoint repair: added exact analyst global complement ¬∀pEM(p), kept unrefuted and unattributed to intuitionism; moved the full serious withholding position to its actual universal-assertion target while preserving the exact negative policy alternative too. Updated floor disagreement metadata without changing its basis/justification. Focused actual-record frontier regression removes the legacy floor and verifies no EM defense follows from instance-denial refutation; with the legacy floor retained its established status is unchanged. The broader finite-rival-coverage limitation remains.",
   "evidence": [
-    "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
-    "EXCLUDED-MIDDLE-ASSERTION-BOUNDARY-CONTROLS"
+    "325af3be-8465-586d-aad2-1ff92d4808f3",
+    "e369dd43-f8ce-5330-8701-0d355ac2865c"
   ]
 }

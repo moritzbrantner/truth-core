@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
+  "id": "f48e806e-d2e1-5c76-9be5-a53f42d856ae",
+  "label": "Same concrete necessary individual…: One world v accessible from w and one rigid individual c…",
+  "legacy_id": "DEF-COUNT-CAUSE-TIME-NECESSARY-WITNESS",
   "term": "same concrete necessary individual retaining a possible count-one cause role",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.NecessaryConcreteCauseAt",

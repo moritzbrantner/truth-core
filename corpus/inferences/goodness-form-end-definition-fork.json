@@ -1,9 +1,11 @@
 {
-  "id": "INF-GOODNESS-FORM-END-DEFINITION-FORK",
+  "id": "8f06b726-ddf6-5ae3-9c11-a0e42c2b2c9d",
+  "label": "For every fixed typed form/end profile, goodness exactly coextends with due…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-FORM-END-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-GOODNESS-FORM-END-DEFINITION-FORK",
+  "output_statement_id": "8a0826fa-e351-53e0-8f33-1107ba5cbdb3",
   "rule": "constructive-proof",
   "meaning": "Case analysis on the existence of surplus and omission witnesses; if neither exists, excluded middle at each aspect yields exact due-actuality coextension. Eliminating both cells is itself verified, but is equivalent to the thesis and not independent support for it.",
   "assumption_statement_ids": [],

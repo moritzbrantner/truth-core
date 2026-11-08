@@ -1,10 +1,12 @@
 {
-  "id": "INF-GOEDEL-1970-TH2",
+  "id": "3f214c88-e7c0-5d3c-ad3b-b5b2ada4ee49",
+  "label": "Gödel's 1970 theorem Th2: at every world where some individual is…, by Universal-instantiation",
+  "legacy_id": "INF-GOEDEL-1970-TH2",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE"
+    "8aa0a46a-473f-544c-9686-9e028d0285e3",
+    "ce92c0a9-3db3-594f-a412-4fde009101bd"
   ],
-  "output_statement_id": "STMT-GOEDEL-1970-GOD-LIKE-IMPLIES-NECESSARILY-EXISTS",
+  "output_statement_id": "9828ffa7-fa30-5220-a946-872f2aedfb5f",
   "rule": "universal-instantiation",
   "meaning": "AFP Th2 (Ax3 Th1 God_def NecExist_def). A God-like x has necessary existence, which is positive (Ax3), and being God-like is an essence of x (Th1), so being God-like is exemplified by an existing individual at every accessible world.",
   "assumption_statement_ids": [],

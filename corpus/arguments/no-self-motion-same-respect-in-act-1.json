@@ -1,26 +1,28 @@
 {
-  "id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "id": "b44126c7-fb70-57a6-a239-21bb49ce5fc1",
+  "label": "Nothing that is being moved in a…, from Nothing is moved except insofar as it is in… and 2 more (4)",
+  "legacy_id": "NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
   "premise_statement_ids": [
-    "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
-    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
-    "STMT-NOTHING-FORMALLY-IN-ACT-AND-IN-POTENCY"
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f590a5d5-d592-5734-bffd-0936ec276c4b",
+    "b146ab97-8de5-5e54-ac5d-51ba3a3b0171"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
+  "conclusion_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
   "inference_ids": [
-    "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1"
+    "17677998-c2d2-5c63-9408-e9a68a9baff0"
   ],
   "meaning": "Per-sense argument, IN-ACT_1 (formal act): both act premises read formally give no self-motion in the same respect. The formal mover premise faces causes that produce what they do not formally have.",
   "definition_ids": [
-    "DEF-IN-ACT-FORMALLY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ],
   "strong_version_needed": {
-    "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT": "Each per-sense argument keeps both act premises in its one sense (IN-ACT_1). The weak IN-ACT_3 mover premise with IN-ACT_1 non-simultaneity is the mixed reading, which the TERM-SENSE-FORKS-2-CONTROLS model refutes."
+    "f590a5d5-d592-5734-bffd-0936ec276c4b": "Each per-sense argument keeps both act premises in its one sense (IN-ACT_1). The weak IN-ACT_3 mover premise with IN-ACT_1 non-simultaneity is the mixed reading, which the TERM-SENSE-FORKS-2-CONTROLS model refutes."
   }
 }

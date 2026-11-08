@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
-  "argument_id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "id": "084a0d6c-c6a3-5352-94cb-83cb1f238b8a",
+  "label": "BEING_1 is not a GENUS_1 in the…, from Every GENUS_1 has at least one differentia… and 2 more",
+  "legacy_id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "argument_id": "e04f8f35-1aec-5188-9ffd-917f4b47d421",
   "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.Solution",
   "theorem": "TruthCore.Results.Aristotle.Metaphysics.BeingNotAGenus.beingNotAGenus",

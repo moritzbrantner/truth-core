@@ -1,6 +1,8 @@
 {
-  "id": "EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
-  "argument_id": "EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
+  "id": "f3e50c70-425e-58ad-981b-bdbbb4ca2bac",
+  "label": "Selected-world one-way contract: each individual represented as existent in re…, from eleatic power",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
+  "argument_id": "985d9280-9b10-500f-828f-b47ce50679df",
   "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
   "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.existingInActAtFromEleaticPower",

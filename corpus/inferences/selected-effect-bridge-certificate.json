@@ -1,7 +1,9 @@
 {
-  "id": "INF-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
+  "id": "8bc43284-bd5f-5dfb-884c-31d22b608b02",
+  "label": "Same rigid act at every accessible world and LOCAL_OUTPUT_UNIQUENESS_2 do not…, by Direct-proof",
+  "legacy_id": "INF-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
+  "output_statement_id": "2757f6a3-2d14-5033-9740-2c36a678ce73",
   "rule": "direct-proof",
   "meaning": "Same rigid act at every accessible world and local output uniqueness do not entail necessity of one selected effect: the unchanged alternatingEffects ontology has a necessary source, sound distinct causal relata, ubiquitous same-act performance, locally unique outputs given by the fixed function some(condition), contingent firstEffect and no fixed necessary effect. The condition is the varying Bool world label. For arbitrary output profiles, fixed full conditions plus an exact fixed response-function law entail StableActOutput. Same-act performance plus that cross-world stability, actual selected output, causal realization and sound causal relata entail necessity of that particular effect. Source necessity and local determinism are not needed by this last implication. These are conditional semantic results, with metaphysical adoption and free creation open; root-premise delta none.",
   "assumption_statement_ids": [],

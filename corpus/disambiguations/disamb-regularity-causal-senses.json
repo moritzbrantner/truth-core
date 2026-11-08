@@ -1,16 +1,18 @@
 {
-  "id": "DISAMB-REGULARITY-CAUSAL-SENSES",
+  "id": "f4a648a1-553b-5318-b5c7-df0798634816",
+  "label": "Cause, regularity, counterfactual and explanation",
+  "legacy_id": "DISAMB-REGULARITY-CAUSAL-SENSES",
   "term": "cause, regularity, counterfactual and explanation",
   "sense_definition_ids": [
-    "DEF-REGULARITY-OBSERVATION",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-REGULARITY-SUCCESSION",
-    "DEF-REGULARITY-MENTAL-TRANSITION",
-    "DEF-REGULARITY-LAW-SELECTION",
-    "DEF-REGULARITY-SAMPLE",
-    "DEF-REGULARITY-PREDICTION",
-    "DEF-REGULARITY-SCOPE",
-    "DEF-REGULARITY-GROUND"
+    "b7145551-1504-5a09-a59e-e822f3ab83ae",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "81ca9dbd-69e6-5b53-87b2-5f536b61f550",
+    "4022af6e-4901-545f-9ac7-f062fb154fdc",
+    "c0a65542-5ceb-54c5-ba9c-74fa90af81c2",
+    "5f156d0e-84a6-5471-8d5e-be68e594773e",
+    "e960d08d-4964-5a0d-891b-59395e5fce13",
+    "ce45a505-6455-5763-8552-3dd9e7e00b83",
+    "3f125015-da7d-58f2-a6d3-0d8a7e45aa52"
   ],
   "resolution": "Hume’s first similarity/succession definition, second customary-transition definition and his counterfactual wording in VII.29 are distinct readings, not proved equivalents. Binary co-occurrence omits succession. Intervention efficacy adds independently supplied response tables; observational countermodels do not refute full-mosaic supervenience. Best-system lawhood adds selection criteria and does not by itself supply Woodward’s causal criterion. Temporal causation within spacetime is distinct from explanatory grounding of spacetime; absence of an earlier event does not entail absence of a ground. Prediction from a granted global law differs from justification for extending a finite sample.",
   "term_label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION",
@@ -18,55 +20,55 @@
     {
       "id": "72842b4e-bcba-4115-a23a-db897c723ff6",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_1",
-      "definition_id": "DEF-REGULARITY-OBSERVATION",
+      "definition_id": "b7145551-1504-5a09-a59e-e822f3ab83ae",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.Conjunction"
     },
     {
       "id": "f04353c6-c54f-4e2d-a154-4442523e2f4f",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_2",
-      "definition_id": "DEF-REGULARITY-INTERVENTION",
+      "definition_id": "d0105d0e-8e28-5165-8235-ff91bf25c418",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.Changes"
     },
     {
       "id": "c7a9aa91-4c06-4961-8332-663ef0d165f3",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_3",
-      "definition_id": "DEF-REGULARITY-SUCCESSION",
+      "definition_id": "81ca9dbd-69e6-5b53-87b2-5f536b61f550",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.RegularCause"
     },
     {
       "id": "449fe780-0139-45cf-b157-3901d00e2600",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_4",
-      "definition_id": "DEF-REGULARITY-MENTAL-TRANSITION",
+      "definition_id": "4022af6e-4901-545f-9ac7-f062fb154fdc",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.MentalCause"
     },
     {
       "id": "01149e31-de13-400b-9056-2c52c1300a54",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_5",
-      "definition_id": "DEF-REGULARITY-LAW-SELECTION",
+      "definition_id": "c0a65542-5ceb-54c5-ba9c-74fa90af81c2",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.BestSystemReading"
     },
     {
       "id": "83c7407a-fd00-49bf-ac03-494563913de3",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_6",
-      "definition_id": "DEF-REGULARITY-SAMPLE",
+      "definition_id": "5f156d0e-84a6-5471-8d5e-be68e594773e",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.sample"
     },
     {
       "id": "19d76efc-867f-404d-974e-bc40a8e4f100",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_7",
-      "definition_id": "DEF-REGULARITY-PREDICTION",
+      "definition_id": "e960d08d-4964-5a0d-891b-59395e5fce13",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.PredictionTest"
     },
     {
       "id": "edc44c88-ed0d-4cdc-93a8-bb6f593e6751",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_8",
-      "definition_id": "DEF-REGULARITY-SCOPE",
+      "definition_id": "ce45a505-6455-5763-8552-3dd9e7e00b83",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.LocalCausality"
     },
     {
       "id": "25b33962-693a-45ee-b366-26bbe5fb2fbe",
       "label": "CAUSE_REGULARITY_COUNTERFACTUAL_AND_EXPLANATION_9",
-      "definition_id": "DEF-REGULARITY-GROUND",
+      "definition_id": "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
       "lean_declaration": "TruthCore.Modern.Hume.Regularity.GroundedTotality"
     }
   ]

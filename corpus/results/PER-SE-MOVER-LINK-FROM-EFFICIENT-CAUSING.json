@@ -1,6 +1,8 @@
 {
-  "id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
-  "argument_id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "id": "49e2b141-61aa-5df6-9d99-d7b446617276",
+  "label": "Whatever moves another only as moved is, in that, an efficient CAUSE_3 that…, from…",
+  "legacy_id": "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING",
+  "argument_id": "a48266d6-fc14-5825-b8e4-cdccf3ac053b",
   "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
   "theorem": "TruthCore.Results.Causality.Round4Revisited.perSeMoverLinkFromEfficientCausing",

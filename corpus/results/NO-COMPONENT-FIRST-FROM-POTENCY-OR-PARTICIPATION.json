@@ -1,6 +1,8 @@
 {
-  "id": "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
-  "argument_id": "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
+  "id": "7998634a-0eca-5613-9a19-5cf4b8da9d74",
+  "label": "No component of anything is the first being: no part of a composite…, from POTENCY_1 or…",
+  "legacy_id": "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
+  "argument_id": "e7b4c683-1f34-5918-aa16-7dd8c12550ae",
   "challenge_module": "TruthCore.Results.Causality.ComponentFirstness.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComponentFirstness.Solution",
   "theorem": "TruthCore.Results.Causality.ComponentFirstness.noComponentFirst",

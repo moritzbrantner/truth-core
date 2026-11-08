@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
+  "id": "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+  "label": "Whatever is more such than something has the perfection itself: what is hotter is hot",
+  "legacy_id": "STMT-MORE-SUCH-HAS-THE-PERFECTION",
   "paraphrase": "Whatever is more such than something has the perfection itself: what is hotter is hot. Only the exceeding comparand is constrained; the lesser need not have the perfection, and the comparative is not made an order.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MoreSuchHasThePerfectionReading",
   "definition_ids": [
-    "DEF-MORE-IN",
-    "DEF-ACT"
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING-UNIVOCITY"
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

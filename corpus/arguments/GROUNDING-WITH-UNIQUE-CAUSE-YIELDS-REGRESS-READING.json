@@ -1,19 +1,21 @@
 {
-  "id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "id": "ecb8dee6-2b78-5d6e-a20d-227cba1efc6d",
+  "label": "For every relation R and source predicate: if every being's power is inductively grounded in an…",
+  "legacy_id": "GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING",
+  "conclusion_statement_id": "1089ee6d-5a65-5ede-ac1f-9b51e6158021",
   "inference_ids": [
-    "INF-GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING"
+    "a3f270ec-4e9a-5ee6-b386-36ae2a8c2418"
   ],
   "meaning": "An axiom-free conditional connection: inductive (finite-source) grounding of every being's power, together with uncaused sources and linear per se series, yields STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES's formal reading. It locates what the grounding route to the regress premise still needs; it does not discharge that premise, since none of the three antecedents is sourced or proved of real per se causes (DISAMB-CAUSAL-POWER-GROUNDING keeps inductive grounding an open choice).",
   "definition_ids": [
-    "DEF-AT-MOST-ONE-IMMEDIATE-CAUSE",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-SOURCES-RECEIVE-NO-LINK"
+    "fbd2fd06-702a-5007-944c-a5617fb2be6e",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "31af2035-e8b5-51a6-b1be-c5ed687a5123"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

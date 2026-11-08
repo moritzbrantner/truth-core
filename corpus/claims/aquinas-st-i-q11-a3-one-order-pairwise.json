@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-ST-I-Q11-A3-ONE-ORDER-A",
-  "statement_id": "STMT-DIVERSE-IN-ONE-ORDER-PAIRWISE",
-  "source_id": "AQUINAS-ST",
+  "id": "8b9ec386-58be-5241-ae30-29992988727e",
+  "label": "Thomas Aquinas, Summa theologiae I q.11 a.3…: In a given exercise, any two distinct contributors…",
+  "legacy_id": "AQUINAS-ST-I-Q11-A3-ONE-ORDER-A",
+  "statement_id": "ac8aca6b-72ac-506c-a6d5-6da59d72f7eb",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.11 a.3 co., third proof: Quae autem diversa sunt, in unum ordinem non convenirent, nisi ab aliquo uno ordinarentur",
   "interpretation": "Weak pairwise analyst reading: coming together in one order is read as joint contribution to one effect, and being ordered by some one as a common exercised ancestor. Stating the sentence only of two diverse things at a time, it says nothing of what orders them being one for all pairs. The event vocabulary is modern: the source speaks of things serving one another (deserviunt) and of an orderer, not of event ancestry, and the reading omits the following reason (per se unius unum est causa).",
   "status": "formalized"

@@ -1,19 +1,21 @@
 {
-  "id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
+  "id": "607fc112-f8c1-58fb-9799-39d6bc3e067f",
+  "label": "Formal fact: on an order of being by approach to a…, via attribution restricts cause more such",
+  "legacy_id": "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ATTRIBUTION-ORDER-RESTRICTS-CAUSE-MORE-SUCH",
+  "conclusion_statement_id": "29133b2b-8c00-5b59-a909-35ddcc4c3122",
   "inference_ids": [
-    "INF-QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH"
+    "d5b3e8f1-cbb9-5260-a51f-9cdb8b7d10f4"
   ],
   "meaning": "Formal fact, from no premises: on the reading by attribution with strict primacy, Aristotle's cause-is-more-such principle holds for the primary and fails in general. So at being the frontier premise STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH needs re-reading: restricted to the primary as cause it is derivable from the order by approach and strict primacy (an open premise, STMT-NOTHING-ELSE-REACHES-THE-PRIMARY); the unrestricted proposition goes beyond the synonymous reading of Met. II.1. The attribution-order restriction and synonymy are distinct conditions.",
   "definition_ids": [
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-STRICT-PRIMACY",
-    "DEF-CREATURE",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN"
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-UNITING-CAUSE-EFFICIENT-AT-SOME-TIME",
+  "id": "8e44a618-09cf-5ae0-8a0e-c8c7e60b5d26",
+  "label": "Every actual uniting tuple has efficient causal activity in some respect at some admitted time",
+  "legacy_id": "STMT-UNITING-CAUSE-EFFICIENT-AT-SOME-TIME",
   "paraphrase": "Every actual uniting tuple has efficient causal activity in some respect at some admitted time. No persistence into the selected time or causation of esse is asserted.",
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.TemporalComposer",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

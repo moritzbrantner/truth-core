@@ -1,11 +1,13 @@
 {
-  "id": "REL-ELEATIC-RETORSION-SCHEMA-INSTANCE-INSTANCE-OF-SCHEMA",
+  "id": "6041025e-b2bb-50a7-9ddf-a2bcd6b9ceaa",
+  "label": "For every interpretation of being… instance of schema For any episode domain and…",
+  "legacy_id": "REL-ELEATIC-RETORSION-SCHEMA-INSTANCE-INSTANCE-OF-SCHEMA",
   "predicate": "instance_of_schema",
   "subject_kind": "statement",
-  "subject_id": "STMT-ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "subject_id": "6020afe1-f097-56c4-a98f-4452ee962be2",
   "object_kind": "statement",
-  "object_id": "STMT-NO-ACCURATE-PERFORMED-EPISODE-DENIAL",
-  "verification_result_id": "ELEATIC-RETORSION-SCHEMA-INSTANCE",
+  "object_id": "17f2fdc1-4dcf-564b-afc3-9bdad891966e",
+  "verification_result_id": "4f30bed3-fc4e-56a5-8b10-aa938ff28791",
   "instance_theorem": "TruthCore.Results.Alternatives.GlobalUnderminerRetorsion.eleaticRetorsionInstance",
   "schema_theorem": "TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.noAccurateDenial",
   "note": "Verified conditional Eleatic instance of #516's performed-denial retorsion: the instance proof applies noAccurateDenial, and the instance's Comparator config lists both theorems (its Challenge and Solution import the NoAccurateDenial Solution). ELEATIC-THESIS-SELF-REFUTING states the same conditional and is unchanged. Registration is not source support and closes no premise: the presupposition link STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED stay inside the conditional and open. McTaggart's escape is recorded separately as MCTAGGART-ESCAPES-RETORSION-SCHEMA, not as an instance."

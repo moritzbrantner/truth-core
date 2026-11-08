@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A9-REVISED-ACTUALITY-CONCLUSION",
-  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "de49f3e9-1e5f-5e49-8d95-a1e2591a6ef0",
+  "label": "Unattributed website author, Necessary…: Given its preceding possibility argument and revised… (6)",
+  "legacy_id": "NB-SURVEY-A9-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "704ee224-1dd9-5680-95b4-71d5925f6d05",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A9C3, final actuality paragraph following step 8",
   "interpretation": "Reuse the existing revised actuality meaning: the final paragraph/ending exactly matches earlier revised branches. It applies the automatic-existence stipulation to the discharged possible conclusion at8, not the hypothetical concrete classification or NT consequence inside1–6. No actual causal exercise, source truth, ordinary NecessaryAt identity, rigid-individual transport or specifically reaffirmed NT report follows.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

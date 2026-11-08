@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
-  "statement_id": "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE",
-  "source_id": "ARIST-MET",
+  "id": "22b8ea7e-35d9-5bc9-9981-c2f129ccb299",
+  "label": "Aristotle, Metaphysics III.3, 998b24-26: A GENUS_1 is not SAID_OF_1 its own differentiae as…",
+  "legacy_id": "ARIST-MET-998B-GENUS-NOT-SAID-OF-DIFFERENTIAE-A",
+  "statement_id": "b792ed75-8e20-5547-aa0d-cc19bf62ed56",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "III.3, 998b24-26",
   "interpretation": "Read 'it is impossible for ... the genus without its species to be predicated of its proper differentiae' as: a genus is not said of its own differentia taken by itself, as belonging to what the differentia is. The parallel clause about the species is not formalized. 'Predicated' is read as essential predication (DEF-SAID-OF-ESSENTIALLY), not as any true attribution.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-DIFFERENTIA",
-    "DEF-SAID-OF-ESSENTIALLY"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "8e804dfb-9144-5400-86b6-ba168c35f75c",
+    "d24eef0b-f010-5010-8390-0fcd65e20dd2"
   ],
   "disambiguation_ids": [
-    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+    "87640bd5-b7e1-5032-9325-ef51c7d726d3"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "INF-PLURAL-CLOSURE-BOUNDARY",
+  "id": "72290a5b-8440-5d33-82ac-eee1c8354bf4",
+  "label": "In one two-atom truth/falsity-pair semantics, K3 validates g\u22a2p\u2026, by Matrix-truth-preservation-and\u2026",
+  "legacy_id": "INF-PLURAL-CLOSURE-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PLURAL-CLOSURE-BOUNDARY",
+  "output_statement_id": "ea9b1bdd-a284-55e9-a47c-852a0fdf1859",
   "rule": "matrix-truth-preservation-and-composed-shared-policy-closure",
   "meaning": "Check genuine semantic K3 g\u22a2p, LP empty-premise e and shared conjunction introduction; compose them in one pool. Explicit gap/glut countervaluations defeat the target in each relation. Semantic theories are closed by truth-preservation composition, supplying closure deletions and separate-pool controls; classical designated pools supply common nontrivial and initial-acceptance omission controls.",
   "assumption_statement_ids": [],

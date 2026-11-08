@@ -1,6 +1,8 @@
 {
-  "id": "NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
-  "argument_id": "NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
+  "id": "58c37565-01af-5b69-8c28-da708612b717",
+  "label": "Negation of the Scotist rival act and POTENCY_1 in same respect on the same InAct…, from analysis",
+  "legacy_id": "NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
+  "argument_id": "ac0ca8ad-47ea-5cb6-b114-9b668a60baca",
   "challenge_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Challenge",
   "solution_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Solution",
   "theorem": "TruthCore.Results.Causality.AristotelianRivalRefutations.noActAndPotencyInSameRespect",

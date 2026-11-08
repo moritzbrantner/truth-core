@@ -1,17 +1,19 @@
 {
-  "id": "ARIST-PHYS-250B-COSMIC-GENERATION-MOTION-A",
-  "source_id": "ARIST-PHYS",
+  "id": "91bbcfc0-1aac-5e4f-93b5-75084455f78c",
+  "label": "Aristotle, Physics VIII.1, 250b18-23: Every occurrence of a world's coming to be or perishing is…",
+  "legacy_id": "ARIST-PHYS-250B-COSMIC-GENERATION-MOTION-A",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VIII.1, 250b18-23",
-  "statement_id": "STMT-COSMIC-GENERATION-DESTRUCTION-REQUIRES-MOTION",
+  "statement_id": "4dc166ea-30bf-591c-8c18-a2156dd08179",
   "interpretation": "The parenthetical necessity claim in the infinite-world cosmologists survey is isolated: generations and destructions of worlds occur with physical motion. Accompaniment does not identify substantial generation with motion in the strict sense, assert a prior motion, attribute the infinite-world cosmology to Aristotle, or establish perpetual motion. The reported cosmological conclusion and the subsequent Anaxagoras/Empedocles alternatives remain separate readings.",
   "definition_ids": [
-    "DEF-COSMIC-GENERATION-DESTRUCTION-OCCURRENCE",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PHYSICAL-RESPECT",
-    "DEF-RESPECT"
+    "0160feb0-0ac2-5e26-ac22-f5c8c1ddb57c",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ],
   "status": "formalized"
 }

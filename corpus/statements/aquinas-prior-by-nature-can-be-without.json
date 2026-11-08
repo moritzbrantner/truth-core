@@ -1,10 +1,12 @@
 {
-  "id": "STMT-AQUINAS-PRIOR-BY-NATURE-CAN-BE-WITHOUT",
+  "id": "fa759767-0de7-5b9b-a3bd-3106d6e1dedc",
+  "label": "Things are called prior by nature and substance, that is in the natural order of being, when they…",
+  "legacy_id": "STMT-AQUINAS-PRIOR-BY-NATURE-CAN-BE-WITHOUT",
   "paraphrase": "Things are called prior by nature and substance, that is in the natural order of being, when they can be without the others while the others cannot be without them (Aquinas, In V Metaph. lect. 13 n. 15, on Met. V.11, 1019a1-4). It gives one way 'prior in being' is said, not a biconditional over all pairs of things, and it concerns natural priority in being, not the simple priority of DEF-SIMPLE-PRIORITY.",
   "definition_ids": [
-    "DEF-CAN-BE-WITHOUT"
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

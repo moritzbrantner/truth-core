@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SEP-RELIGIOUS-LANGUAGE",
+    "source_id": "749f3ba0-be0a-5609-ad1d-e735dd6df917",
     "source_url": "https://plato.stanford.edu/archives/spr2026/entries/religious-language/",
     "retrieved_at": "2026-11-05T15:19:02Z",
     "sha256": "sha256:9f3dccfdb1a419a307b9ddc6752eceadce27d799fc3186b5e8c0135b50b0730f",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "SEP-RELIGIOUS-LANGUAGE-1",
+      "id": "67b48fa1-b9f5-54c9-a420-2defb0d1d99a",
+      "label": "Michael Scott, Religious Language, §1",
+      "legacy_id": "SEP-RELIGIOUS-LANGUAGE-1",
       "locator": "§1 (Preliminaries: The Face Value Theory)",
       "claim_locator_prefixes": [
         "§1,"
@@ -28,7 +30,9 @@
       "incipit": "1. Preliminaries: The Face Value Theory\nA useful starting point for thinking"
     },
     {
-      "id": "SEP-RELIGIOUS-LANGUAGE-4-1",
+      "id": "9da68b40-87d1-5c4a-9168-9fbcb118de27",
+      "label": "Michael Scott, Religious Language, §4.1",
+      "legacy_id": "SEP-RELIGIOUS-LANGUAGE-4-1",
       "locator": "§4.1 (Minimalism About Religion)",
       "claim_locator_prefixes": [
         "§4.1,"
@@ -45,7 +49,9 @@
       "incipit": "4.1 Minimalism About Religion\nThe two key features of minimalism are prominent"
     },
     {
-      "id": "SEP-RELIGIOUS-LANGUAGE-4-2",
+      "id": "e276a5c3-5960-59d7-9988-e0ae513171f3",
+      "label": "Michael Scott, Religious Language, §4.2",
+      "legacy_id": "SEP-RELIGIOUS-LANGUAGE-4-2",
       "locator": "§4.2 (Wittgenstein)",
       "claim_locator_prefixes": [
         "§4.2,"

@@ -1,20 +1,22 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-CAPABILITY",
-  "statement_id": "STMT-GOD-CAN-DRAW-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
-  "source_id": "AQUINAS-ST",
+  "id": "94e8be5f-62ab-5694-ac1c-1ff116d6dfee",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: For any GOD_3 g, if g permits the nonempty collection…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-AD1-COLLECTIVE-CAPABILITY",
+  "statement_id": "d3b87fa2-1f83-5e5c-8a00-d0d746e8c5c3",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 ad 1: nullo modo sineret aliquid mali esse in operibus suis, nisi esset adeo omnipotens et bonus, ut bene faceret etiam de malo",
   "interpretation": "Reading C of the preceding Augustine quotation: would not permit evil unless so powerful and good as to do good even from evil. This records only the necessary capability condition on permission, with de malo understood generically/collectively. It does not formalize the full counterfactual force of sineret or the divine attributes. The fixed nonempty collection is not quantified into arbitrary subsets and there is no per-evil distribution. CanDrawGoodFromEvils says capability to produce some good, not an existing good witness or an actual productive event; it therefore must not be substituted for DrawsGoodFromEvils or the older per-evil DrawsGoodFrom. This is a separate weaker-in-content reading of the modal clause, not a claim that the final eliciat sentence expresses only capability. No God, evil or actual permission is inferred, and no net benefit, best world or individual justification follows. Carrier boundary: Evil x means evil in subject x; the collection represents those subjects with their evils, not an enumeration of distinct evil events. No token-counting or time structure is formalized.",
   "status": "formalized",
-  "interpretation_of": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
+  "interpretation_of": "39182c22-aaae-53f3-a2fc-286c1a4a939a",
   "definition_ids": [
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-EVIL-AS-PRIVATION",
-    "DEF-AD1-PERMISSION-OF-EVILS",
-    "DEF-AD1-COLLECTIVE-CAPABILITY"
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+    "b4d64cab-bf94-5cd2-91cc-190b717c6e61",
+    "fa7122ba-0ded-52aa-a685-85970cab5bef"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-AD1-GOOD-FROM-EVIL",
-    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "96042b66-e854-59f3-a8b5-061a3f7d8136",
+    "3d6d3fd7-2acc-5ceb-9550-f968d0732b2a"
   ]
 }

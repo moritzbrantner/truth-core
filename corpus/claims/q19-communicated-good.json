@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q19-A2-WILL-COMMUNICATES-POSSESSED-GOOD",
-  "statement_id": "STMT-WILL-CAN-COMMUNICATE-POSSESSED-GOOD",
-  "source_id": "AQUINAS-ST",
+  "id": "1513d7a2-c790-5a53-b857-8173814f3179",
+  "label": "Thomas Aquinas, Summa theologiae I q.19 a.2…: Willing can communicate a good already possessed to…",
+  "legacy_id": "AQUINAS-ST-I-Q19-A2-WILL-COMMUNICATES-POSSESSED-GOOD",
+  "statement_id": "aa15f6c2-5b5e-5a90-8732-f9af9633bdcf",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.19 a.2 co.",
   "interpretation": "The article analogizes communicating natural perfection with will and applies this to divine goodness. This reading asserts neither deficient desire nor that every possible good must be produced.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HAS-WILL",
-    "DEF-ACT-OF-WILL"
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "9f448669-6387-5244-a2ec-f9f90618c037"
   ],
   "disambiguation_ids": [
-    "DISAMB-APPETITE-POWER-AND-EXERCISE"
+    "941efd70-d56f-53f9-b5f9-8acd36711a54"
   ]
 }

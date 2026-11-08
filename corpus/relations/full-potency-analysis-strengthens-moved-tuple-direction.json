@@ -1,10 +1,12 @@
 {
-  "id": "REL-FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "id": "3383f375-9d4a-5930-ad96-80ffa14ddb48",
+  "label": "A being is in POTENCY_1 in a respect… strengthens Weak OPEN POTENCY_1 interpretation needed…",
+  "legacy_id": "REL-FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY",
+  "subject_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-MOVED-TUPLE-POTENCY-HAS-UNACTUALIZED-CAPACITY",
-  "verification_result_id": "FULL-POTENCY-ANALYSIS-STRENGTHENS-MOVED-TUPLE-DIRECTION",
+  "object_id": "d93acdf0-12aa-5d47-bd75-7df4e3b65204",
+  "verification_result_id": "b58631e6-8d61-59c7-85ab-a814a9086595",
   "note": "Sole-premise checked restriction; guarded counterargument uses the weakest moved-tuple direction. Existing full-analysis arguments and source claims retain their meanings."
 }

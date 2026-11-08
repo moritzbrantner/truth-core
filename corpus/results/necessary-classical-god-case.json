@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-CASE",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-CASE",
+  "id": "5785d260-fa19-5d32-acd3-3d51f75d76de",
+  "label": "Catholicism is TRUE_1: the Catholic…, from Some candidate is CONCRETE_6 and exists at… and 31… (2)",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-CASE",
+  "argument_id": "3357fa30-62a8-5d78-b596-cef0d5fc5612",
   "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodCase.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryClassicalGodCase.derive",

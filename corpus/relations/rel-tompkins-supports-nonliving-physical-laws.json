@@ -1,8 +1,10 @@
 {
-  "id": "REL-TOMPKINS-SUPPORTS-NONLIVING-PHYSICAL-LAWS",
+  "id": "4cee7f23-8713-5368-87aa-7ce816f6fb92",
+  "label": "Nathan Tompkins and colleagues, Testing…… supports Recurrence in nonliving natural processes…",
+  "legacy_id": "REL-TOMPKINS-SUPPORTS-NONLIVING-PHYSICAL-LAWS",
   "subject_kind": "claim",
-  "subject_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS-ABIOTIC-PATTERN",
+  "subject_id": "6b8a5e69-0906-5ebd-b014-8a5b6a3f1e62",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-TELEONOMY-NONLIVING-PHYSICAL-LAWS"
+  "object_id": "4f5017ba-3ff6-5502-bd79-1727283d9e9a"
 }

@@ -1,12 +1,14 @@
 {
-  "id": "TRUTH-ACCOUNT-COMPATIBILITY",
+  "id": "5ef7bff1-57b7-5905-87a8-cbe63286e341",
+  "label": "The complete existing encoded intuitionist framework, assertion/proof condition and global…",
+  "legacy_id": "TRUTH-ACCOUNT-COMPATIBILITY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTH-ACCOUNT-COMPATIBILITY",
+  "conclusion_statement_id": "f64df602-bf01-563b-826f-9752feb75293",
   "inference_ids": [
-    "INF-TRUTH-ACCOUNT-COMPATIBILITY"
+    "019ddc19-5bd1-5ff7-8d74-9961b72afe90"
   ],
   "meaning": "Compose the entire earlier checked intuitionist-framework witness with explicit signed thought-composition semantics and four populated signed verdicts. The old raw account is not logical negation of the other, even under this shared interpretation.",
   "definition_ids": [
-    "DEF-SIGNED-THOUGHT-TRUTH-PROFILE"
+    "be8a4e19-0ac9-5d02-956e-b51b9a8bd419"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-STRENGTH-PREDICATE-UNIQUENESS",
+  "id": "386b5abc-2823-5130-a942-69bc2fe2f93f",
+  "label": "Existence, unique existence and at…: For an arbitrary supplied type α and predicate P, Exists P is…",
+  "legacy_id": "DEF-STRENGTH-PREDICATE-UNIQUENESS",
   "term": "existence, unique existence and at most one in the generic strength fixture",
   "definition": "For an arbitrary supplied type α and predicate P, Exists P is ∃x,P x; Unique P is Mathlib ExistsUnique P, meaning ∃x,P x ∧ ∀y,P y→y=x. AtMostOne P means ∀x y,P x→P y→x=y. All conditions share that same α and P, and the witness of existence is retained in reconstruction.",
   "basis": "stipulative",

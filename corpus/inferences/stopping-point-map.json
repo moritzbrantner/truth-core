@@ -1,7 +1,9 @@
 {
-  "id": "INF-STOPPING-POINT-MAP",
+  "id": "5cb880f3-64ce-561f-996b-f6e5e333dae7",
+  "label": "A contingent truth, no brute contingent truth at that world, factive and…, by Model-construction",
+  "legacy_id": "INF-STOPPING-POINT-MAP",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-STOPPING-POINT-MAP",
+  "output_statement_id": "27355add-3c57-53e7-aa1d-07105d2c5464",
   "rule": "model-construction",
   "meaning": "Prove the two cores, the transfer lemma and the fork generally, reuse the #755 collapse theorem, and construct or reuse the named models and evaluate the same tests on each.",
   "assumption_statement_ids": [],

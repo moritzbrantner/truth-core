@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132A-ONE-OVER-MANY-SUPPORTS-FORMATION",
+  "id": "3f2debc8-dba9-536b-a9ef-a872a9c33033",
+  "label": "Plato, Parmenides 132a: When many things… supports An eligible genuine finite plurality of…",
+  "legacy_id": "REL-PLATO-PARM-132A-ONE-OVER-MANY-SUPPORTS-FORMATION",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132A-ONE-OVER-MANY",
+  "subject_id": "7d3f0d5a-1f36-5791-a6f4-438769936644",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-FORMATION",
+  "object_id": "84ea1af9-30ce-592f-8994-a7b2715f3d94",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
+  "id": "21910345-6932-5931-8953-493c8f7e1000",
+  "label": "NO_INFINITE_REGRESS_1, literal…: NoInfiniteDescendingPerSeSeries R: there is no function series: ℕ…",
+  "legacy_id": "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
   "term": "no infinite regress, literal no-infinite-series reading",
   "definition": "`NoInfiniteDescendingPerSeSeries R`: there is no function `series : ℕ → Being` with `R (series (n + 1)) (series n)` for every n (`DescendingPerSeSeries`), i.e. no infinite series of causes each caused as cause by the next. Repetitions are not excluded, so a causal loop counts as such a series.",
   "basis": "stipulative",

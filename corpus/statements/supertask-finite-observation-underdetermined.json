@@ -1,6 +1,11 @@
 {
-  "id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
+  "id": "3700c3e5-a288-577a-b489-4d1f319ce69a",
+  "label": "For every finite cutoff, two Boolean stage sequences agree throughout the observed prefix while…",
+  "legacy_id": "STMT-SUPERTASK-FINITE-OBSERVATION-UNDERDETERMINED",
   "paraphrase": "For every finite cutoff, two Boolean stage sequences agree throughout the observed prefix while eventually stabilizing to opposite terminal values. Observing a finite prefix alone cannot decide the terminal value of all eventually stable sequences; knowledge of the generating rule may decide it.",
   "lean_declaration": "TruthCore.Causality.FiniteObservationCannotFixAllStableOutputs",
-  "definition_ids": ["DEF-SUPERTASK-FINITE-OBSERVATION", "DEF-SUPERTASK-STABLE-LIMIT"]
+  "definition_ids": [
+    "94faf901-08c1-50c8-bbb2-b9d1ef6edb37",
+    "43bc2414-b12d-5820-96de-59489124f4f1"
+  ]
 }

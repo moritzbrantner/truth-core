@@ -1,17 +1,19 @@
 {
-  "id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
+  "id": "a825df2a-92dc-5257-af00-28ce3c18fd00",
+  "label": "If an actual uniting tuple has efficient activity at…, from Strong open framework transfer: every…",
+  "legacy_id": "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
   "premise_statement_ids": [
-    "STMT-ALL-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME"
+    "c2253c71-771f-5a48-b4b1-b20792821281"
   ],
-  "conclusion_statement_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
+  "conclusion_statement_id": "db54a1a6-7e59-5378-939d-fa38be38db9e",
   "inference_ids": [
-    "INF-GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE"
+    "303abae7-aea1-5192-aec1-b78e4b9ea1b1"
   ],
   "meaning": "Logical strength registration: global same-respect persistence implies restricted some-respect persistence; finite controls show the converse fails.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ]
 }

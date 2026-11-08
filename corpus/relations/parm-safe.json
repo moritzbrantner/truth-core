@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-SAFE",
+  "id": "cbb19715-2ff8-54b1-b6ae-3416cfecf627",
+  "label": "Plato, Phaedo 100d: Socrates does not… supports Every quality-indexed putative…",
+  "legacy_id": "REL-PARM-SAFE",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PHAEDO-100D-MANNER-OPEN",
+  "subject_id": "e2e8e3a8-43c2-5cc7-8ef8-1f788493a944",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-EXPLANATION-GROUNDS"
+  "object_id": "a4555f10-e183-5127-a7af-c44fcb6e8c73"
 }

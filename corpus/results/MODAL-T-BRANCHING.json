@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-T-BRANCHING",
-  "argument_id": "MODAL-T-BRANCHING",
+  "id": "d43cf049-7f52-5e6f-b80b-78ef7a67be80",
+  "label": "The shared two-world reflexive branching model has a full- and fixed-language collapsed endpoint…",
+  "legacy_id": "MODAL-T-BRANCHING",
+  "argument_id": "628c1ed7-9ce9-5512-bdee-499e7fe0219d",
   "challenge_module": "TruthCore.Results.Modal.T.Branching.Challenge",
   "solution_module": "TruthCore.Results.Modal.T.Branching.Solution",
   "theorem": "TruthCore.Results.Modal.T.Branching.checks",

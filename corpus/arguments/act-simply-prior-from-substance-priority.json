@@ -1,21 +1,23 @@
 {
-  "id": "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
+  "id": "f4f8458e-0bec-56bf-aa3f-c2c6082769da",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect…, from substance priority",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
   "premise_statement_ids": [
-    "STMT-ACT-PRIOR-TO-POTENCY-IN-SUBSTANCE",
-    "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE"
+    "d1258afa-b9f2-56e8-8ed0-7ae3512ac9d8",
+    "9226c6af-c824-5f54-8937-79e5726ce3a4"
   ],
-  "conclusion_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "conclusion_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "inference_ids": [
-    "INF-ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY"
+    "90e32b17-eb92-5157-b2df-ad113c60cb59"
   ],
   "meaning": "Per-sense result for the substance branch of 'prior': act's priority in substance over every potency, with the open bridge from priority in substance to simple priority, gives act's simple priority over potency.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-PRIORITY-IN-SUBSTANCE",
-    "DEF-SIMPLE-PRIORITY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "21788f3f-80d3-5eb6-ad91-86a1a5077799",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

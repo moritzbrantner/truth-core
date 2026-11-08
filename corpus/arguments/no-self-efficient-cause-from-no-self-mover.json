@@ -1,27 +1,29 @@
 {
-  "id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
+  "id": "a1d1e5df-fdb5-5c53-b598-873c4575a83d",
+  "label": "Nothing is the efficient cause of itself, in any respect, from no self mover",
+  "legacy_id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
   "premise_statement_ids": [
-    "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
-    "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-MOVING"
+    "2ed50036-3aa7-5209-9aa0-ced7675701da",
+    "3715f518-89a7-5815-8416-990fb686a837"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
+  "conclusion_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
   "inference_ids": [
-    "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER"
+    "07ef5d19-cb60-55df-9885-75424d34e26f"
   ],
   "meaning": "Per-sense result for the moving branch of 'cause': Aristotle's reading that whatever moves something is other than it, with the open bridge that a self-efficient cause would move itself, gives that nothing is its own efficient cause.",
   "definition_ids": [
-    "DEF-EFFICIENT-CAUSING",
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-MOVING-ONESELF-IN-THE-SAME-RESPECT",
-    "DEF-RESPECT"
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-MOTION",
-    "DISAMB-SELF-MOTION"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
   ],
   "strong_version_needed": {
-    "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT": "The weak version STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT excludes self-moving only in a respect in which the thing is being moved; a self-efficient cause need not be being moved in that respect, so the bridge to self-moving does not reach a premise of the weak version."
+    "2ed50036-3aa7-5209-9aa0-ced7675701da": "The weak version STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT excludes self-moving only in a respect in which the thing is being moved; a self-efficient cause need not be being moved in that respect, so the bridge to self-moving does not reach a premise of the weak version."
   }
 }

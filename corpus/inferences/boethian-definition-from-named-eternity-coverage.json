@@ -1,10 +1,12 @@
 {
-  "id": "INF-BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
+  "id": "cc31aaa4-f640-571e-80b5-6bed63871cb6",
+  "label": "For every being in the supplied duration profile, primitive Eternal holds…, by Constructive-proof",
+  "legacy_id": "INF-BOETHIAN-DEFINITION-FROM-NAMED-ETERNITY-COVERAGE",
   "input_statement_ids": [
-    "STMT-PRIMITIVE-ETERNITY-NAMED-DEFINITIONS-COVER",
-    "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION-FAILS"
+    "7b163cd0-989e-5d92-ba3f-9e368001876d",
+    "7d6a77be-86d9-519b-a40f-49f332a2e989"
   ],
-  "output_statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "output_statement_id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
   "rule": "constructive-proof",
   "meaning": "Exact conditional disjunct elimination; requires named coverage and actual negation of endless calibration, not merely failure to prove the latter.",
   "assumption_statement_ids": [],

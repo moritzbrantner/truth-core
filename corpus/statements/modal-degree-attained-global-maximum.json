@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MODAL-DEGREE-ATTAINED-GLOBAL-MAXIMUM",
+  "id": "3d474e11-24c3-5706-bc3c-719914e8c459",
+  "label": "Some existing individual at some root-accessible world attains a degree at least that of every…",
+  "legacy_id": "STMT-MODAL-DEGREE-ATTAINED-GLOBAL-MAXIMUM",
   "paraphrase": "Some existing individual at some root-accessible world attains a degree at least that of every individual existing at any root-accessible world. This is possible global attainment, distinct from one selected individual attaining the bound at every accessible world.",
   "lean_declaration": "TruthCore.Modal.ExistenceDegrees.AttainedGlobalDegreeMaximum",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-EXISTENCE-DEGREE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "3baa4471-74ac-5de6-a53a-6ea274873405"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-DEGREE-PRESENCE"
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-SIGNIFICANCE-ESSENCE-ROUTE-TO-NECESSITATION",
+  "id": "dfccfdac-4ec0-5590-9a06-f77873b20036",
+  "label": "The proposed argument for grounding necessitation uses significance and essence principles…",
+  "legacy_id": "STMT-SIGNIFICANCE-ESSENCE-ROUTE-TO-NECESSITATION",
   "paraphrase": "The proposed argument for grounding necessitation uses significance and essence principles, together with necessity of essential truths, to obtain modal entailment from full grounding.",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

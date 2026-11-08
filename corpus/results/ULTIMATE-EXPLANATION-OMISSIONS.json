@@ -1,6 +1,8 @@
 {
-  "id": "ULTIMATE-EXPLANATION-OMISSIONS",
-  "argument_id": "ULTIMATE-EXPLANATION-OMISSIONS",
+  "id": "14f494b7-e975-5e3a-8545-899bcaa2094a",
+  "label": "Explicit omission controls: an inconsistent initial value and observed prefix empties the evidence…",
+  "legacy_id": "ULTIMATE-EXPLANATION-OMISSIONS",
+  "argument_id": "ad60bc7d-281c-5f8d-99e1-ebdfc82d62a0",
   "challenge_module": "TruthCore.Results.Epistemology.UltimateExplanation.Challenge",
   "solution_module": "TruthCore.Results.Epistemology.UltimateExplanation.Solution",
   "theorem": "TruthCore.Results.Epistemology.UltimateExplanation.omissions",

@@ -1,7 +1,8 @@
 {
-  "id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "id": "8947271f-9d8e-5ffc-9e7b-ffd23b5422cf",
   "label": "Degree tracking makes a MAXIME_2 being MAXIME_1",
-  "argument_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "legacy_id": "GREATEST-IN-BEING-MAXIMAL-FROM-DEGREE-TRACKING",
+  "argument_id": "87f32a9c-1846-5137-990c-b490c8797857",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks3.greatestInBeingIsMaximal",

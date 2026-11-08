@@ -1,19 +1,21 @@
 {
-  "id": "HARD-CASE-TYPED-CONTROLS",
+  "id": "32b1f78f-3557-59e8-bfb5-69dd3187e126",
+  "label": "One explicitly specified factual structure represents nonconsensual violation and deliberate…",
+  "legacy_id": "HARD-CASE-TYPED-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HARD-CASE-TYPED-CONTROLS",
+  "conclusion_statement_id": "bde75fc5-30c0-5d50-9b80-2da539c30e47",
   "inference_ids": [
-    "INF-HARD-CASE-TYPED-CONTROLS"
+    "77e51f55-03e3-5fc8-acb5-64ff799d83c1"
   ],
   "meaning": "Explicit factual and normative assignments witness underdetermination, together with feasible competing priorities for distinct goods.",
   "definition_ids": [
-    "DEF-HARD-CASE-TYPED-CONTROLS",
-    "DEF-HARD-CASE-NONCONSENT",
-    "DEF-HARD-CASE-INNOCENCE-NONTHREAT"
+    "a61f7f72-ff7c-5afd-8691-7f8d08a611d6",
+    "20fddea1-4b27-5021-8c0d-ecc5bef50a27",
+    "111420d8-cc79-5fde-9555-7305b010c929"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE",
-    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
-    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834",
+    "600cb96a-ffcc-591e-a4f1-8c7713a705f9",
+    "658195c2-4e01-5dea-ba09-e1a5f75517a6"
   ]
 }

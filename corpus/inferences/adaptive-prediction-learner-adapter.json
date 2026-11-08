@@ -1,7 +1,9 @@
 {
-  "id": "INF-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "id": "a0e47054-e3fc-5636-a917-adcc839752d0",
+  "label": "For every finite pool of history-dependent experts, every…, by Induction-on-history-and-comp…",
+  "legacy_id": "INF-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "output_statement_id": "5a1cb89f-0eb4-5c65-9213-d8130bc97c8c",
   "rule": "induction-on-history-and-composition-of-existing-update",
   "meaning": "For every finite pool of history-dependent experts, every supplied truthful stream and every round, the history-weight adapter equals the existing rational weighted-majority learner on the same induced advice and feedback streams. The adapter reuses the original voting and update rules. This is an exact protocol identity, not an epistemic-warrant claim.",
   "assumption_statement_ids": [],

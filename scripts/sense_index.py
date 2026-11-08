@@ -154,9 +154,11 @@ def allowlist_data(entries: list[dict[str, Any]], senses: list[dict[str, Any]]) 
             "senses_without_lean_declaration": sorted({sense["id"] for sense in senses})}
 
 
-def allowlist_entries(data: dict[str, Any]) -> set[tuple[str, ...]]:
+def allowlist_entries(data: dict[str, Any], aliases=None) -> set[tuple[str, ...]]:
     """Flat entries: (argument, term, sense) and (sense,)."""
-    flat = {(argument, term, sense) for argument, terms in data.get("arguments", {}).items()
+    def identity(argument):
+        return (aliases.resolve(argument, ("argument",)) or argument) if aliases is not None else argument
+    flat = {(identity(argument), term, sense) for argument, terms in data.get("arguments", {}).items()
             for term, ids in terms.items() for sense in ids}
     return flat | {(sense,) for sense in data.get("senses_without_lean_declaration", [])}
 
@@ -167,15 +169,17 @@ def ratchet(base: str) -> int:
     import subprocess
     shown = subprocess.run(["git", "show", f"{base}:{corpus.SENSE_ALLOWLIST.as_posix()}"], cwd=corpus.ROOT,
                            capture_output=True, text=True, check=False)
+    from corpus_ids import Aliases
+    aliases = Aliases(("argument", record) for _, record in corpus.load_dir("arguments"))
     head = corpus.load_sense_allowlist()
     needed = allowlist_entries(allowlist_data(mixing(), undeclared()))
-    stale = sorted(allowlist_entries(head) - needed)
+    stale = sorted(allowlist_entries(head, aliases) - needed)
     for entry in stale:
         print(f"no longer needed, remove from {corpus.SENSE_ALLOWLIST}: {' / '.join(entry)}")
     if shown.returncode != 0:
         print(f"sense ratchet: {corpus.SENSE_ALLOWLIST} is new at {base}; nothing to compare")
         return 0
-    added = sorted(allowlist_entries(head) - allowlist_entries(json.loads(shown.stdout)))
+    added = sorted(allowlist_entries(head, aliases) - allowlist_entries(json.loads(shown.stdout), aliases))
     for entry in added:
         print(f"sense ratchet: entry added to {corpus.SENSE_ALLOWLIST}: {' / '.join(entry)}", file=sys.stderr)
     if added:

@@ -1,6 +1,8 @@
 {
-  "id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
-  "argument_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
+  "id": "b99a7aa7-5003-5eb1-950d-38534653a427",
+  "label": "Jesus claimed divine authority in the existing case signature; the Gospel…, from mark forgiveness",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
+  "argument_id": "671492e1-cbdc-548b-88d6-b43b7ede486b",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.pilotClaimsFromMarkForgiveness",

@@ -1,14 +1,16 @@
 {
-  "id": "INF-MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
+  "id": "1d33d7b9-fe1e-5851-a634-f6ce7c697165",
+  "label": "There is something maximally being that is the cause of being to…, by Uses agree from coverage and…",
+  "legacy_id": "INF-MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL",
   "input_statement_ids": [
-    "STMT-MAXIME-SENSES-EXHAUSTIVE",
-    "STMT-MAXIME-SENSE-UNIQUE",
-    "STMT-SOME-MAXIME-IN-ROUTE-SENSE",
-    "STMT-ROUTE-MAXIME-CAUSES-ALL-BEINGS",
-    "STMT-GREATEST-IN-BEING-IS-MAXIMAL",
-    "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL"
+    "89a4b3a6-c839-5599-b627-c55c2ba25b5f",
+    "2cdfbe6c-c889-5959-9241-81ecc4761c5a",
+    "55a94a55-234d-50e1-8fda-1429ed5d2d3d",
+    "bdd770f7-f218-5d5d-887b-0b4efdb6318d",
+    "c16ec481-ce5b-5a90-b8e4-247a2ebb2155",
+    "a370254d-59b8-56a2-9552-0008e9baf2b3"
   ],
-  "output_statement_id": "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
   "rule": "Uses agree from coverage and exclusivity; proof by cases over the sense enum; sense bridges",
   "meaning": "Optional summary over MAXIME_1-3. Coverage reads both uses of the superlative (existence, causal) in selected senses; exclusivity makes them one sense, so the witness of the existence use falls under the causal use and causes being in every other being; whichever sense it is, the witness is MAXIMAL in being, directly or through a sense bridge. The controls give a model of coverage without exclusivity (existence MAXIMAL, causal GREATEST-degree, incomparable degrees) in which the conclusion fails.",
   "assumption_statement_ids": [],

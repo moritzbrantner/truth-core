@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BINARY-SUM2-FORMATION",
+  "id": "e35b0145-7ce3-565f-90bd-36aac8b93a86",
+  "label": "Binary Sum2 formation: Every pair x,y has a fusion under existing UniversalFusionBoundary.Fusion…",
+  "legacy_id": "DEF-BINARY-SUM2-FORMATION",
   "term": "binary Sum2 formation",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.BinaryFusion",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
+  "id": "d48314be-aadb-5039-8ac5-38a1ca488375",
+  "label": "Issuance on absent admitted input: At every Nat station n, if the immediate upstream output signal…",
+  "legacy_id": "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER",
   "term": "issuance on absent admitted input",
   "definition": "At every Nat station n, if the immediate upstream output signal(n+1) is none, issued(n) holds. This is only the positive trigger direction. Its converse is not an independent assumption.",
   "basis": "stipulative",

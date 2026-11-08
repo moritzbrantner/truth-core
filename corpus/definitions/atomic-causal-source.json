@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ATOMIC-CAUSAL-SOURCE",
+  "id": "e3a887b3-eed4-5836-a406-359a9fb71b17",
+  "label": "GRAPH_RELATIVE_SOURCE_1, with or without…: SourceExists G says some object has no incoming G.edge…",
+  "legacy_id": "DEF-ATOMIC-CAUSAL-SOURCE",
   "term": "graph-relative source, with or without outgoing effect",
   "definition": "SourceExists G says some object has no incoming G.edge, reusing Graph.Source. OutgoingSourceExists additionally gives the SAME object an outgoing edge to a distinct object. Neither endpoint asserts effect-universality, unique first cause, modal necessity, God or an actual concrete grounding root.",
   "basis": "stipulative",

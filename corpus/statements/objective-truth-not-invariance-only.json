@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
+  "id": "d792059e-0b01-56a9-9bde-6abcd158024b",
+  "label": "The current objective classifier is not coextensive with stable truth status alone in the supplied…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
   "paraphrase": "The current objective classifier is not coextensive with stable truth status alone in the supplied profile. An open branch-elimination input, not a proved rejection of a school.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.NotInvariantOnlyDefinition",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "643229b3-f945-5a62-9b99-c854b1fba227"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

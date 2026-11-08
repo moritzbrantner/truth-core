@@ -1,7 +1,8 @@
 {
-  "id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "id": "0f3d17c2-7fe1-59a0-86ef-cd187daddbe5",
   "label": "GOD_2: the reduced naming for the Summa's God and a GOD_2-to-GOD_4 bridge give the naming premise",
-  "argument_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-SUMMA",
+  "argument_id": "5b3b935c-9c64-5936-b74c-2392f33a6d19",
   "challenge_module": "TruthCore.Results.Causality.TermSenseForks4.Challenge",
   "solution_module": "TruthCore.Results.Causality.TermSenseForks4.Solution",
   "theorem": "TruthCore.Results.Causality.TermSenseForks4.godNamesDescribedFromSumma",

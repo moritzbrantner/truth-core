@@ -1,7 +1,9 @@
 {
-  "id": "INF-SELF-OPERATION-LIFE-CONTROLS",
+  "id": "52d99103-2e63-5fba-b6c1-2abf88a2b3db",
+  "label": "One being in POTENCY_1 in no respect, by Explicit finite…",
+  "legacy_id": "INF-SELF-OPERATION-LIFE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SELF-OPERATION-LIFE-CONTROLS",
+  "output_statement_id": "5f6d1c2f-f037-5d84-8c2d-d224081cbcca",
   "rule": "Explicit finite interpretations",
   "meaning": "One being in potency in no respect. Omitting the operation bridge, the q.18 life premise, or the potency premise (the being is moved without potency) leaves it without life; with all three it lives.",
   "assumption_statement_ids": [],

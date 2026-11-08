@@ -1,14 +1,16 @@
 {
-  "id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "id": "77146549-88ce-53d9-96bb-3105ae35daf7",
+  "label": "Exact negation of the accepted-candidate truthfulness policy under the SAME arrangement and…",
+  "legacy_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
   "paraphrase": "Exact negation of the accepted-candidate truthfulness policy under the SAME arrangement and adequacy judgment.",
   "lean_declaration": "TruthCore.Explanation.SelectionCoverageBoundary.FactivityFails",
   "definition_ids": [
-    "DEF-ACCEPTED-EXPLANATION-TRUTHFULNESS-POLICY",
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "2aeb69be-e127-518b-98b0-7862475f2c12",
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

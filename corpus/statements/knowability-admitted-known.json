@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KNOWABILITY-ADMITTED-KNOWN",
+  "id": "e8bfc4d1-d874-534f-b233-675a3de1ea7f",
+  "label": "At every world, every true content in the supplied admissible family is known by the fixed agent",
+  "legacy_id": "STMT-KNOWABILITY-ADMITTED-KNOWN",
   "paraphrase": "At every world, every true content in the supplied admissible family is known by the fixed agent. The family need not contain all predicates.",
   "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.AdmittedKnown",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

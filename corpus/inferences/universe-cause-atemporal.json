@@ -1,11 +1,13 @@
 {
-  "id": "INF-UNIVERSE-CAUSE-ATEMPORAL",
+  "id": "090bebf4-3ec2-55a8-a389-b22cad73eaca",
+  "label": "Strong version of the owner's 'exists out of time': at the selected world…, by Constructive-proof",
+  "legacy_id": "INF-UNIVERSE-CAUSE-ATEMPORAL",
   "input_statement_ids": [
-    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-TEMPORAL-CONTAINED-IN-SPACETIME"
+    "08087a25-43bd-53f2-9103-f3644c171324",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "92fc4279-0389-56be-81b6-d837affb1bde"
   ],
-  "output_statement_id": "STMT-CAUSES-OF-UNIVERSE-ATEMPORAL",
+  "output_statement_id": "3504cc3a-6bba-5297-a2cb-e12614d0f6a4",
   "rule": "constructive-proof",
   "meaning": "Strong version of 'exists out of time' (#1017): composing UNIVERSE-CAUSE-OUTSIDE-SPACETIME with the open premise that every successive bearer of any supplied temporal series is a part of the spacetime whole, no cause of the whole is successively temporal in any supplied series (DISAMB-TEMPORAL-SENSE). The weak conclusion needs no claim about other times; the strong one needs exactly that premise, which a second series, or an aevum whose adjunct changes are recorded, with a successive bearer outside spacetime would falsify.",
   "assumption_statement_ids": [],

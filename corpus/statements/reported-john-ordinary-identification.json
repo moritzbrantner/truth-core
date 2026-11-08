@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-JOHN-ORDINARY-IDENTIFICATION",
+  "id": "18ef68d7-6dac-579d-b0a3-872185de40af",
+  "label": "The narrative attributes to the formerly blind man self-identification as the man who had sat…",
+  "legacy_id": "STMT-REPORTED-JOHN-ORDINARY-IDENTIFICATION",
   "paraphrase": "The narrative attributes to the formerly blind man self-identification as the man who had sat begging.",
   "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.ReportedOrdinaryIdentification",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

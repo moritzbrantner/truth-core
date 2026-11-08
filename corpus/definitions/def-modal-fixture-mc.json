@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-FIXTURE-MC",
+  "id": "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+  "label": "Root-relative domain modal collapse: MC F D w means every admissible P true at root w is true at…",
+  "legacy_id": "DEF-MODAL-FIXTURE-MC",
   "term": "root-relative domain modal collapse",
   "definition": "MC F D w means every admissible P true at root w is true at every F-accessible successor. Box and MProp are reused from the Scott embedding; full_iff_hume proves exact agreement with the existing Hume Collapse. There is no implicit global validity, reflexivity, symmetry, seriality, or transitivity.",
   "basis": "stipulative",

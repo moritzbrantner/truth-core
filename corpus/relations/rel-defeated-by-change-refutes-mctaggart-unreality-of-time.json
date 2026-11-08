@@ -1,8 +1,10 @@
 {
-  "id": "REL-DEFEATED-BY-CHANGE-REFUTES-MCTAGGART-UNREALITY-OF-TIME",
+  "id": "16fd6831-a3c8-53e3-9502-9db47eaee533",
+  "label": "McTaggart's bundle on change does not hold… refutes McTaggart's bundle on change, the…",
+  "legacy_id": "REL-DEFEATED-BY-CHANGE-REFUTES-MCTAGGART-UNREALITY-OF-TIME",
   "subject_kind": "argument",
-  "subject_id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "subject_id": "0a86321b-bd02-548d-80c5-58a184c8fca5",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-MCTAGGART-UNREALITY-OF-TIME"
+  "object_id": "d908f7a8-5c50-58fa-b0e0-702795acd6f5"
 }

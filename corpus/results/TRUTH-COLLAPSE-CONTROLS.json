@@ -1,6 +1,8 @@
 {
-  "id": "TRUTH-COLLAPSE-CONTROLS",
-  "argument_id": "TRUTH-COLLAPSE-CONTROLS",
+  "id": "e67a42c3-c904-58bd-8d4b-e9f2b8e51edc",
+  "label": "Eight existence claims",
+  "legacy_id": "TRUTH-COLLAPSE-CONTROLS",
+  "argument_id": "657ed546-c5c0-5ce1-abc5-7c6ae02c0d8e",
   "challenge_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthNontriviality.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.TruthNontriviality.Controls.truthCollapseControls",

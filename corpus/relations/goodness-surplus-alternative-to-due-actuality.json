@@ -1,9 +1,11 @@
 {
-  "id": "REL-GOODNESS-SURPLUS-ALTERNATIVE-TO-DUE-ACTUALITY",
+  "id": "c3092e19-d7c4-5af4-9af6-5b1668fc6b18",
+  "label": "In the supplied fixed profile, some… alternative to For every bearer and perfection in the… (2)",
+  "legacy_id": "REL-GOODNESS-SURPLUS-ALTERNATIVE-TO-DUE-ACTUALITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY",
+  "subject_id": "5f5e6461-e121-5da4-9ee5-52413eac66db",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "object_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
   "note": "Explicit analyst structural/scope rival under one fixed supplied profile. No counted refutation is registered; conditional/modelled failure is not independent philosophical defeat."
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MIND-POSITIONS",
+  "id": "f0ce5083-0656-5227-9936-2db0ad2049ab",
+  "label": "Eliminative, reductive, nonreductive…: Eliminative: the target kind has no occurrence",
+  "legacy_id": "DEF-MIND-POSITIONS",
   "term": "eliminative, reductive, nonreductive, unbased (comparison labels)",
   "definition": "Eliminative: the target kind has no occurrence. Reductive: it has one and is itself a physical kind. Nonreductive: it has one, is not physical, and all its occurrences are physically based. SomeUnbased: some occurrence of it is not physically based. They are defined here, relative to one frame, and are pairwise exclusive by positionsExclusive. They are not readings of authors. SomeUnbased is not substance dualism, hylomorphism or any subsistence claim.",
   "basis": "stipulative",

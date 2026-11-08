@@ -1,10 +1,12 @@
 {
-  "id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "id": "c5e53a13-7699-5b67-9aa9-b06cf887701f",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, by Reductio (2)",
+  "legacy_id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
   "input_statement_ids": [
-    "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE",
-    "STMT-MORE-IN-IS-ASYMMETRIC"
+    "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+    "a4814f25-84b0-560e-870a-eb3a23a6a35b"
   ],
-  "output_statement_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
+  "output_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
   "rule": "Reductio",
   "meaning": "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes.",
   "assumption_statement_ids": [],

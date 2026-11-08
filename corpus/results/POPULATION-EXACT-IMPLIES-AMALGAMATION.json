@@ -1,6 +1,8 @@
 {
-  "id": "POPULATION-EXACT-IMPLIES-AMALGAMATION",
-  "argument_id": "POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "id": "88822bfa-0b9e-597c-9c45-9ba416ff50d5",
+  "label": "For every type of WORLDS_9 and FIXED_ROSTER_2, frame, presence assignment and base world, exact…",
+  "legacy_id": "POPULATION-EXACT-IMPLIES-AMALGAMATION",
+  "argument_id": "bc71a6b0-f1be-5922-ad23-a04716e62197",
   "challenge_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Challenge",
   "solution_module": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.Solution",
   "theorem": "TruthCore.Results.Modal.PopulationClosureExactImpliesAmalgamation.checks",

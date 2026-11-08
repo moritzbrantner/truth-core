@@ -1,18 +1,20 @@
 {
-  "id": "GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "id": "7c807c2d-bb38-5e83-8131-1e8da7788a29",
+  "label": "There is a relation and a source predicate on which every being's power is inductively grounded…",
+  "legacy_id": "GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "conclusion_statement_id": "80d361d7-0dc7-5503-9f11-26061eb7910d",
   "inference_ids": [
-    "INF-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS"
+    "ad3bdf56-0be2-557e-ab86-7b2d0da7ced0"
   ],
   "meaning": "An axiom-free countermodel to the bare entailment from 'every being is finitely grounded and sources are uncaused' to the regress premise's accessibility reading. It shows the uniqueness antecedent of GROUNDING-WITH-UNIQUE-CAUSE-YIELDS-REGRESS-READING is not idle. It says nothing about whether real per se causes have such parallel chains.",
   "definition_ids": [
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-SOURCES-RECEIVE-NO-LINK"
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "31af2035-e8b5-51a6-b1be-c5ed687a5123"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

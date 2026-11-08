@@ -1,14 +1,15 @@
 {
-  "id": "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE",
+  "id": "4820b8c3-ac97-530b-8148-d9c8196b882a",
   "label": "Immutable in the route's succession-use reading: no beginning, end or succession of life",
+  "legacy_id": "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE",
   "paraphrase": "Whatever is not mutable in the route's reading of the succession use has a life that is interminable (neither begins nor ends) and tota simul (without succession). It does not say that it lives.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteImmutableHasUnchangingLife",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-BOETHIAN-ETERNAL",
-    "DEF-LIFE-PRESENT-AT"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "5e77da13-998f-56ab-96b7-12731ac95f70",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
   ]
 }

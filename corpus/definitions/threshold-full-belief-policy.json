@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THRESHOLD-FULL-BELIEF-POLICY",
+  "id": "1f99af1e-04fe-5f06-bdd4-0db8178c79c2",
+  "label": "Probability-threshold full-belief…: Accepted μ t A means t≤μ.real A for an actual Mathlib measure…",
+  "legacy_id": "DEF-THRESHOLD-FULL-BELIEF-POLICY",
   "term": "probability-threshold full-belief policy and conjunction closure",
   "definition": "Accepted μ t A means t≤μ.real A for an actual Mathlib measure μ. Substantive applications require normalized probability and0<t≤1. ConjunctionClosed means binary intersections of accepted events are accepted; universal-event acceptance handles the empty conjunction, and finiteness yields finite-intersection closure. This stipulated policy is not the definition of epistemic reasons or independently justified belief.",
   "basis": "stipulative",

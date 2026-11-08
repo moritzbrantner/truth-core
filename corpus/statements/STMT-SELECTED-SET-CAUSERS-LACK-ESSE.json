@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
+  "id": "93e5f2dd-1ad9-53d7-84f5-1a4f8fde032a",
+  "label": "Supplied sets that actually cause productively at the selected world lack esse in re",
+  "legacy_id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
   "paraphrase": "OPEN weak classification: supplied sets that actually cause productively at the selected world lack esse in re. Other sets are not classified.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SetCausersNoEsse",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

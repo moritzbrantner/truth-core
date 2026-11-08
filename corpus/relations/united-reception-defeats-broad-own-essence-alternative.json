@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE-ALTERNATIVE",
+  "id": "6e2b6e69-36ac-5241-9693-f6c094a55f8e",
+  "label": "Exact negation of the original broad… alternative to For every being x and principle r, if…",
+  "legacy_id": "REL-UNITED-RECEPTION-DEFEATS-BROAD-OWN-ESSENCE-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE-FAILS",
+  "subject_id": "4b23fd7c-e758-5228-a6f5-ca7b32932905",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
+  "object_id": "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
   "note": "Exact negative proposition, derived only under its registered explicit premises; no unconditional philosophical defeat is claimed."
 }

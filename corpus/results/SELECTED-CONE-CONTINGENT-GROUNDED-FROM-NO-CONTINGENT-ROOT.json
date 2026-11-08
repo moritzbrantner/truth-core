@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
-  "argument_id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "id": "1ef5d8a1-4d8a-5118-bd28-f329866e2f65",
+  "label": "Every actual CONCRETE_6 member of the full selected ancestry cone that is…, from no contingent root",
+  "legacy_id": "SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "argument_id": "cdddec73-31fb-5cc8-aa5e-11bf42ee08aa",
   "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
   "theorem": "TruthCore.Results.Causality.Round3CogitoBase.coneContingentGroundedFromNoContingentRoot",

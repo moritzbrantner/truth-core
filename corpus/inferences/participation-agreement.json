@@ -1,9 +1,11 @@
 {
-  "id": "INF-PARTICIPATION-AGREEMENT",
+  "id": "9d03711e-0519-5d21-ac8f-353774b1d744",
+  "label": "Two interpretations agree on F-exemplification for every common…, by Equivalence-composition",
+  "legacy_id": "INF-PARTICIPATION-AGREEMENT",
   "input_statement_ids": [
-    "STMT-PARTICIPATION-SHARED-SELECTOR"
+    "46d0520b-a32a-51ec-a32e-cff46ea90ef0"
   ],
-  "output_statement_id": "STMT-PARTICIPATION-AGREEMENT",
+  "output_statement_id": "3853b2e6-69f9-512b-b1f1-63922cad06a0",
   "rule": "equivalence-composition",
   "meaning": "For a common admitted quality, Form and particular, compose coextension, the first selection law, base agreement, the reverse second selection law and reverse coextension. No explanatory edge is inferred.",
   "assumption_statement_ids": [],

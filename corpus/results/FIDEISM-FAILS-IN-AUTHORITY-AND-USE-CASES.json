@@ -1,6 +1,8 @@
 {
-  "id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
-  "argument_id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "id": "bf94262e-82ad-53ab-84f1-2103bf503916",
+  "label": "In the two cells where the practice…, from In the Catholic practice, the First Vatican… and 6 more",
+  "legacy_id": "FIDEISM-FAILS-IN-AUTHORITY-AND-USE-CASES",
+  "argument_id": "bf29346f-ac22-51d9-863f-d6d01f425146",
   "challenge_module": "TruthCore.Results.Alternatives.FideismGrammarCases.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.FideismGrammarCases.Solution",
   "theorem": "TruthCore.Results.Alternatives.FideismGrammarCases.fideismFailsInAuthorityAndUseCases",

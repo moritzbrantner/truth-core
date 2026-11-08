@@ -1,6 +1,8 @@
 {
-  "id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
-  "argument_id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "id": "7f2d7852-449a-5aaa-a55c-5225ed37f23a",
+  "label": "If some pair compares in the supplied esse respect, some in-act individual…, from approach primacy",
+  "legacy_id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "argument_id": "8eab5889-0f24-54c2-b303-a2b8b54fa4fc",
   "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
   "theorem": "TruthCore.Results.Causality.Round3FourthWay.gradesAtBeingFromApproach",

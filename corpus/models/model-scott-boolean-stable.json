@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-SCOTT-BOOLEAN-STABLE",
+  "id": "a8043edf-5206-5e21-878d-8d385006b9e6",
+  "label": "Original nontrivial Boolean-generated fragment witness, evaluated at individual false and world…",
+  "legacy_id": "MODEL-SCOTT-BOOLEAN-STABLE",
   "description": "Original nontrivial Boolean-generated fragment witness, evaluated at individual false and world false. Both points remain distinct registrations; the primitive is stipulated.",
   "vocabulary": "SCOTT-BOOLEAN-FRAGMENT",
   "lean_declaration": "TruthCore.Models.Scott.BooleanStable.model",
@@ -31,7 +33,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SCOTT-FILTERED-NE-AT",
+      "statement_id": "f062ef5f-82a4-58d4-86bc-b1eb0d8943a1",
       "value": "satisfies",
       "arguments": [
         "World",
@@ -44,7 +46,7 @@
       "theorem": "TruthCore.Models.Scott.BooleanStable.evaluation0"
     },
     {
-      "statement_id": "STMT-SCOTT-NE-AT",
+      "statement_id": "bee440a1-d534-50b4-96da-8d7ef3f4ae25",
       "value": "violates",
       "arguments": [
         "World",

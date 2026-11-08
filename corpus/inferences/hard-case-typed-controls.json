@@ -1,7 +1,9 @@
 {
-  "id": "INF-HARD-CASE-TYPED-CONTROLS",
+  "id": "77e51f55-03e3-5fc8-acb5-64ff799d83c1",
+  "label": "One explicitly specified factual structure represents…, by Construct-typed-case-and-feas…",
+  "legacy_id": "INF-HARD-CASE-TYPED-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HARD-CASE-TYPED-CONTROLS",
+  "output_statement_id": "bde75fc5-30c0-5d50-9b80-2da539c30e47",
   "rule": "construct-typed-case-and-feasible-conflict-witnesses",
   "meaning": "Constructs one typed factual interpretation with differing verdicts and one with two independently distinguished recognized goods and feasible opposing ideal frames. Neither witness licenses a real-world verdict.",
   "assumption_statement_ids": [],

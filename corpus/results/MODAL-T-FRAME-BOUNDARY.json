@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-T-FRAME-BOUNDARY",
-  "argument_id": "MODAL-T-FRAME-BOUNDARY",
+  "id": "676c1e40-122f-56b6-9b89-db04333f80d9",
+  "label": "An explicit three-world T chain is neither transitive nor symmetric",
+  "legacy_id": "MODAL-T-FRAME-BOUNDARY",
+  "argument_id": "bb262988-68c4-55a0-802a-363b77c78f71",
   "challenge_module": "TruthCore.Results.Modal.T.FrameBoundary.Challenge",
   "solution_module": "TruthCore.Results.Modal.T.FrameBoundary.Solution",
   "theorem": "TruthCore.Results.Modal.T.FrameBoundary.checks",

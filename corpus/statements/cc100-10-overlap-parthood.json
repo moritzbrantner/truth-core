@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-10-OVERLAP-PARTHOOD",
+  "id": "58e4010a-cf91-5836-b97e-337406a8907a",
+  "label": "A thing x is part of a thing y if and only if everything that overlaps x also overlaps y",
+  "legacy_id": "STMT-CC100-10-OVERLAP-PARTHOOD",
   "paraphrase": "A thing x is part of a thing y if and only if everything that overlaps x also overlaps y.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-D-SCOPES",
-  "argument_id": "MODAL-D-SCOPES",
+  "id": "08b08b4b-4ff7-562e-9cb2-ada1480a92dd",
+  "label": "The shared K dead-end has full MC without self-access and is nonserial, showing why seriality…",
+  "legacy_id": "MODAL-D-SCOPES",
+  "argument_id": "98bdd4fb-ea57-5d71-83b4-94c38ee911f8",
   "challenge_module": "TruthCore.Results.Modal.DResearch.Scopes.Challenge",
   "solution_module": "TruthCore.Results.Modal.DResearch.Scopes.Solution",
   "theorem": "TruthCore.Results.Modal.DResearch.Scopes.checks",

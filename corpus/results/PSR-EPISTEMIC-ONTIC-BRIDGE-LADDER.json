@@ -1,6 +1,8 @@
 {
-  "id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
-  "argument_id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "id": "1d85f7af-8a60-5c77-8e99-07ef8130211f",
+  "label": "A restricted PSR that excludes a brute truth must contain it in its domain, and a domain that…",
+  "legacy_id": "PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "argument_id": "33136812-6b9b-528a-abd6-b158dd6492b5",
   "challenge_module": "TruthCore.Results.Explanation.PSRSelfApplication.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PSRSelfApplication.Solution",
   "theorem": "TruthCore.Results.Explanation.PSRSelfApplication.bridgeLadder",

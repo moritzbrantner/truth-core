@@ -1,12 +1,14 @@
 {
-  "id": "DISAMB-BCCF-DERIVATIVE-REPLY",
+  "id": "0fc5e01d-7eec-5c5a-a72a-a3726352e96c",
+  "label": "Derivative facts are different from direct facts",
+  "legacy_id": "DISAMB-BCCF-DERIVATIVE-REPLY",
   "term": "derivative facts are different from direct facts",
   "sense_definition_ids": [
-    "DEF-BCCF-PLURAL-REASON",
-    "DEF-BCCF-DIRECT-CLASS",
-    "DEF-DASGUPTA-GROUND",
-    "DEF-DELLA-ROCCA-PSR",
-    "DEF-PRUSS-EXPLANATION-ENTAILMENT"
+    "6bead600-5f07-57aa-b0b9-9235f7bf8859",
+    "837b6e34-2082-51d3-9214-45a36ce9e2aa",
+    "a9e9d879-2f53-5075-9a2a-ff570aafa481",
+    "46463490-0e82-50d6-bd64-b9f844b1ba9c",
+    "ca6cb143-0387-54de-9d94-278bfd767a51"
   ],
   "resolution": "The reply has two readings, tested separately. The class reading (DEF-BCCF-DIRECT-CLASS) restricts coverage to D and leaves the aggregate outside it; the aggregate may then have no reason. The plural reading (DEF-BCCF-PLURAL-REASON) keeps a reason for the aggregate, namely its conjuncts together, which requires denying distribution over it. The results never pass from one to the other: conjunct 2 shows that being outside D does not itself block the argument, and separate models witness each reading. Which reading the owner intends is not decided here. The authors' senses are separate from these analyst senses, and each mapping to a formal condition is an analyst judgment that crosses senses. DEF-DASGUPTA-GROUND concerns ground only: his denial of distribution bears on PDistribution only if G is read as ground, and G is not assumed to be. His derivative fact is apt for a ground and has one, which is not membership outside D: nothing here makes his brute, derivative or autonomous classes equal D or its complement. DEF-PRUSS-EXPLANATION-ENTAILMENT uses possibility without an arena, and Necessitating and PNecessitating quantify over accessible worlds of an arena, so they match it only where accessibility is his possibility. DEF-DELLA-ROCCA-PSR is unrestricted, while NoBrute and CoveredOn cover contingent truths, so his PSR gives coverage of them only as an instance; his necessitarianism is about all truths, while Contingent is local to a world of an arena.",
   "term_label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT",
@@ -14,29 +16,29 @@
     {
       "id": "462a9da5-de25-412f-9b4d-a50ade204b5b",
       "label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT_1",
-      "definition_id": "DEF-BCCF-PLURAL-REASON",
+      "definition_id": "6bead600-5f07-57aa-b0b9-9235f7bf8859",
       "lean_declaration": "TruthCore.Explanation.BCCFDerivative.Plural"
     },
     {
       "id": "631a3e18-87ab-45be-a2d8-f3882dde01ee",
       "label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT_2",
-      "definition_id": "DEF-BCCF-DIRECT-CLASS",
+      "definition_id": "837b6e34-2082-51d3-9214-45a36ce9e2aa",
       "lean_declaration": "TruthCore.Explanation.BCCFDerivative.ClosedUnderReasons"
     },
     {
       "id": "6cca514d-94f2-482b-8d67-92b1a2e9e7eb",
       "label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT_3",
-      "definition_id": "DEF-DASGUPTA-GROUND"
+      "definition_id": "a9e9d879-2f53-5075-9a2a-ff570aafa481"
     },
     {
       "id": "adca6972-43cf-4038-aaee-526d7004a71e",
       "label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT_4",
-      "definition_id": "DEF-DELLA-ROCCA-PSR"
+      "definition_id": "46463490-0e82-50d6-bd64-b9f844b1ba9c"
     },
     {
       "id": "6c2160ef-9f1a-4340-8e7a-1e1ba134eefb",
       "label": "DERIVATIVE_FACTS_ARE_DIFFERENT_FROM_DIRECT_5",
-      "definition_id": "DEF-PRUSS-EXPLANATION-ENTAILMENT"
+      "definition_id": "ca6cb143-0387-54de-9d94-278bfd767a51"
     }
   ]
 }

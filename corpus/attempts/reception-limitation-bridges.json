@@ -1,23 +1,25 @@
 {
-  "id": "ATTEMPT-RECEPTION-LIMITATION-BRIDGES",
+  "id": "0ba5a82a-7fc5-59e2-98e7-db0ae80c63f0",
+  "label": "Derived the three #1185/#1186 bare analyst bridges from readings of ST I q.7 a.1-2 and q.4 a.1 ad 3",
+  "legacy_id": "ATTEMPT-RECEPTION-LIMITATION-BRIDGES",
   "statement_ids": [
-    "STMT-UNLIMITED-IS-OWN-BEING",
-    "STMT-UNLIMITED-DETERMINATIONS-ARE-PURE",
-    "STMT-INFINITE-HAS-EVERY-PURE-PERFECTION",
-    "STMT-UNLIMITED-ESSE-IS-INFINITE",
-    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE"
+    "26e8e6ed-964e-55ef-a9fd-756164aad6a7",
+    "c78c77da-91b0-5928-bd5f-ba670a6f3660",
+    "122b112e-3f19-5cd4-8cd0-a704ab1f2d87",
+    "be1289df-3c43-5595-99b5-1fb8d38164be",
+    "1304b462-4a10-5dd0-995a-db5feb21d98e",
+    "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2"
   ],
   "date": "2026-11-07",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Derived the three #1185/#1186 bare analyst bridges from readings of ST I q.7 a.1-2 and q.4 a.1 ad 3 (materialized AQUINAS-ST-I-Q7-A1, -Q7-A2, -Q4-A1, -Q4-A2). UnlimitedIsOwnBeing: an esse received in some principle forces esse other than essence through the identity-scoped own-essence, De ente receiver-in-potency and irreflexivity premises already on the designated infinity route; an unreceived esse is own being (new supported q.7 a.1/ad 3 reading). Only the esse/essence disjunct of HasLimitingPrinciple is used; no excluded middle. UnlimitedDeterminationsArePure adds own being is no recipient (q.4 a.1 ad 3) and non-recipients have only pure determinations (q.7 a.1 generalized; new primitive Recipient, DEF-RECIPIENT). InfiniteHasEveryPurePerfection uses the converse of 'infinitum ... ex eo quod non est finitum', received esse is limited (q.7 a.2 'receptum et contractum'), the q.7 a.1 own-being reading, and the existing SCG I.28 and q.4 a.2 encodings. Second derivation of the stated leaf STMT-UNLIMITED-ESSE-IS-INFINITE: unlimited -> unreceived -> own being -> infinite. Every new premise has a supports relation with its gap; none is stated. Omission controls for all 18 (derivation, premise) pairs plus positive witnesses. Rejected/dead ends: (1) a second derivation of STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE from De ente c.3's general 'omne quod recipit aliquid ... est in potentia' or q.7 a.1's matter-in-potency sentence is only an instantiation of a generalized reading to esse; it would be a single application of one hypothesis (invariant 16 transcription) and was not added. (2) For STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION, the faithful decomposition (form is contracted only by a receiver; esse is maxime formale) is again an instantiation; a split into 'esse is limited only by a principle other than itself' and 'a principle other than an act that limits it receives it' was drafted but deferred: both halves are near-definitional and the PR is already at the file cap. (3) A derivation of UnlimitedDeterminationsArePure through 'every non-pure determination is received' (Has x d -> unreceived -> Pure d) was rejected: DEF-PURE-PERFECTION counts potencies as non-pure, and a potency is not itself received, so the premise would be false of matter; the Recipient formulation places the condition on the bearer instead. (4) Reaching UnlimitedIsOwnBeing through the composition or priority disjuncts needs a premise that reception makes its bearer composite (converse of q.3 a.7 'in omni composito oportet esse actum et potentiam'), which no pinned passage states; not pursued. (5) Deriving own being from q.7 a.2 ('habet esse, et non est suum esse' -> esse received) gives only not-not own being without excluded middle; the positive q.7 a.1 reading was used instead. Root-route effect: bare added none; three supported premises added under the stated leaf; route costs unchanged; thickness derived 37 -> 38.",
   "evidence": [
-    "UNLIMITED-IS-OWN-BEING-FROM-RECEPTION",
-    "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
-    "INFINITE-PERFECTION-FROM-RECEPTION",
-    "UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
-    "RECEPTION-LIMITATION-CONTROLS"
+    "191d472b-a056-5ef7-9ac7-b98d93e3f8f9",
+    "140c818c-4624-5aae-a22d-6e7042235ccc",
+    "8fb1087a-b466-5ee2-97ea-91d57e8e7c78",
+    "f4c8a595-a508-5fef-9fef-b143dabbd740",
+    "76089a5e-b830-555c-a26d-ed727e0b4ee8"
   ],
   "blocker": "All new premises remain open and only supported: the general readings of q.7 a.1 (unreceived esse is own being; non-recipients have only pure determinations), q.7 a.2 (received esse is limited) and q.4 a.1 ad 3 (own being is no recipient) generalize what the passages say of God, subsistent created forms and esse as such. UnreceivedEsseIsOwnBeing is only as good as the completeness of the reception relation. The derivations replace bare bridges by these supported readings plus two bare premises already on the root route (identity-scoped own essence, receptive irreflexivity)."
 }

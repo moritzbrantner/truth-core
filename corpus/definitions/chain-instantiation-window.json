@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHAIN-INSTANTIATION-WINDOW",
+  "id": "0c380f2e-c751-519c-804b-2a8d62e1fd30",
+  "label": "Bounded observation of a populated\u2026: SameWindow compares existence at all indices at most bound\u2026",
+  "legacy_id": "DEF-CHAIN-INSTANTIATION-WINDOW",
   "term": "bounded observation of a populated candidate chain",
   "definition": "SameWindow compares existence at all indices at most bound and causal edges only when both endpoint indices are at most bound. chain uses the existing Ontic signature on one Unit world and Nat candidates, guarding each successor edge by both endpoint existence facts. Candidate-domain membership is distinct from world-relative existence.",
   "basis": "stipulative",

@@ -1,24 +1,26 @@
 {
-  "id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "id": "63a8deb7-1819-5ef6-aba8-57a9fefcc3bc",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in…, from A being is in POTENCY_1 in a respect…",
+  "legacy_id": "BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
   "premise_statement_ids": [
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "conclusion_statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
   "inference_ids": [
-    "INF-BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY"
+    "014db536-c320-5c7e-be2e-491f85d1370d"
   ],
   "meaning": "Bridge (#401): Aristotle's analysis of potency, *Metaphysics* IX.6 (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY: to be in potency to r is to be able to be r without being r actually), entails the prima via's non-simultaneity premise (STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT): nothing is in act and in potency in the same respect. Whatever is in potency to r is, by the analysis, not actually r. ActPotencyDefinitionalAnalysesConservative already shows that the analysis is no stronger than non-simultaneity (given non-simultaneity, some ability predicate satisfies it). This bridge therefore does not discharge the Aquinas premise: it moves its openness to the fidelity and truth of the Aristotle reading, as docs/act-potency-theory.md says a definitional analysis would.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-POTENCY",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY",
-    "DISAMB-IN-ACT"
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "strong_version_needed": {
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY": "The frozen original conclusion excludes simultaneous act/potency at ALL tuples, including unmoved ones. The new moved-tuple-only weak analysis leaves such tuples unconstrained and cannot replace this input in that result. This preserves the old interface, not a claim that the full biconditional is logically minimal: its unrestricted forward direction would suffice, while the present rival bridge needs only the moved-tuple direction."
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8": "The frozen original conclusion excludes simultaneous act/potency at ALL tuples, including unmoved ones. The new moved-tuple-only weak analysis leaves such tuples unconstrained and cannot replace this input in that result. This preserves the old interface, not a claim that the full biconditional is logically minimal: its unrestricted forward direction would suffice, while the present rival bridge needs only the moved-tuple direction."
   }
 }

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNENDING-GENERATION-NO-ACTUAL-INFINITE-BODY",
+  "id": "5e31b828-cb44-58a1-8bf8-558182f8054b",
+  "label": "Unending coming-to-be does not require an actually infinite sensible body; replacement can…",
+  "legacy_id": "STMT-UNENDING-GENERATION-NO-ACTUAL-INFINITE-BODY",
   "paraphrase": "Unending coming-to-be does not require an actually infinite sensible body; replacement can continue within a finite whole.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnendingGenerationDoesNotRequireActualInfiniteBodyReading"
 }

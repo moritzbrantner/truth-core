@@ -1,11 +1,13 @@
 {
-  "id": "OPPY-2020-NATURAL-CAUSAL-REALITY",
-  "statement_id": "STMT-OPPY-2020-NATURAL-CAUSAL-REALITY",
-  "source_id": "OPPY-UNIVERSE-NO-CAUSE-2020",
+  "id": "24ecb146-8e23-5ffe-9be1-7097270ae78d",
+  "label": "Graham Oppy, The Universe Does Not Have a…: Oppy proposes that natural reality exhausts causal…",
+  "legacy_id": "OPPY-2020-NATURAL-CAUSAL-REALITY",
+  "statement_id": "dc3e4a6d-22a9-5eb5-8485-26986497d161",
+  "source_id": "5d31a819-3cb0-594c-89ad-acf4c340ac4e",
   "locator": "§§I–II, pp.13–15",
   "interpretation": "Positive natural-only causal account, not a denial of ordinary causes or scientific explanation. The uncaused-in-this-relation claim is not generalized to absence of every ground; no actual beginning or physical cosmology is proved.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-OPPY-CAUSAL-MODAL-COMPARISON"
+    "b78d124b-53ea-53fb-bf02-a744a79f9364"
   ]
 }

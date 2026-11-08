@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
-  "argument_id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "id": "f047f0bc-e823-525c-9c06-ae533c2692d6",
+  "label": "No right-summand set representative…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 1 more",
+  "legacy_id": "NATURALISM-PURE-SET-REPRESENTATIVES-ABSENT",
+  "argument_id": "07a5efa3-2147-5dc0-8404-4857cbf29c8a",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Exclusion.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismSets.absent",

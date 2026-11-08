@@ -1,21 +1,23 @@
 {
-  "id": "ATTEMPT-INTENTIONALITY943-ERROR-CORE",
+  "id": "d08498a4-f4d2-536d-ac5b-ba9584ad0537",
+  "label": "Under owner’s logic-first redirection, deliver analyst configurations with attribution deferred",
+  "legacy_id": "ATTEMPT-INTENTIONALITY943-ERROR-CORE",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-INTENTIONALITY943-ERROR",
-    "STMT-INTENTIONALITY943-REPORT-CORRECT",
-    "STMT-INTENTIONALITY943-CONTENT-ONLY-REPORT",
-    "STMT-INTENTIONALITY943-REJECT-CONTENT-ONLY-REPORT",
-    "STMT-INTENTIONALITY943-CONSUMER-CONTENT",
-    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING"
+    "4e3da10c-68cf-5ee0-babc-a2fe971c89e2",
+    "ae2c0d17-cce2-527b-9dfa-d3c8d6850f51",
+    "d49bede3-ad6e-5f07-a642-19b526eb2f61",
+    "53716090-75ba-5ac0-882b-982f70e617a0",
+    "4187ac3c-16f7-546c-b855-ddc819ff8b2c",
+    "4b48eac2-2420-5cb5-a846-d7fba58879ed"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Under owner’s logic-first redirection (2026-11-05), deliver analyst configurations with attribution deferred. Prior consultation of full hash-verified Latin ST I q.85 a.2 [32022–32029] and Papineau Teleosemantics pp.95–120 is preserved with exact URLs/hashes/locators in docs/notes/intentionality-943.md; no new source/claim manifests are delivered. Investigate a stipulated qualified as-affected report restriction as a typed error-preservation core with all three single-deletion interpretations. Preserve a joint reductive causal/consumer/false-alarm witness and its per-se-operation variant without the body-sharing bridge. Rejected: physicalism entails report-only semantics, representing a property entails materially instantiating it, Papineau prohibits error, his hypothetical monkeys are empirical data, and error supplies the q.75 interference or body-sharing premises. No historical author is attributed the exact formal universals; arbitrary introspective infallibility and incorporeality are not conclusions. Remaining OPEN: noncircular natural specification and application of consumer functions, determinacy of human semantic content, positive Thomist species interpretation, embodiment/tokening/body-sharing bridges, consciousness, and all existing q.75 premises. No root closure. Precise evidence and strongest rival comparison are in docs/notes/intentionality-943.md.",
   "evidence": [
-    "INTENTIONALITY943-SELF-ONLY-ACCURACY",
-    "INTENTIONALITY943-ERROR-CORE",
-    "INTENTIONALITY943-REJECT-REPORT-ONLY",
-    "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL"
+    "2533cda3-1a18-51f5-9880-af9e6af0f0e0",
+    "64465028-3d58-5e13-90d4-8e2f405c119f",
+    "2d5578c3-f6cb-532b-a594-6e0013e7603d",
+    "45ac104c-2729-57bc-9fdd-8e1dbcd9022c"
   ]
 }

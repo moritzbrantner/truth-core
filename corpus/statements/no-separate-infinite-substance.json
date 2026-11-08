@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
+  "id": "98a7fcbe-3a8d-51ab-9e1e-86bab0c14821",
+  "label": "There is no separable substance which is itself the infinite in the sense relevant to the physical…",
+  "legacy_id": "STMT-NO-SEPARATE-INFINITE-SUBSTANCE",
   "paraphrase": "There is no separable substance which is itself the infinite in the sense relevant to the physical inquiry.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NoSeparateInfiniteSubstanceReading"
 }

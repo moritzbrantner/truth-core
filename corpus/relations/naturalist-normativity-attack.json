@@ -1,9 +1,11 @@
 {
-  "id": "REL-NATURALIST-NORMATIVITY-ATTACK",
+  "id": "6919ed29-5d9c-5f99-99dc-f4708ef9602f",
+  "label": "If every moral obligation necessarily… attacks In a determinate positive respect, an act…",
+  "legacy_id": "REL-NATURALIST-NORMATIVITY-ATTACK",
   "subject_kind": "statement",
-  "subject_id": "STMT-NATURALIST-CATEGORICAL-BRIDGE-OPEN",
+  "subject_id": "1fb30e0b-ee4e-567b-a45c-6d12be8e2588",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
+  "object_id": "02ceae7b-5e93-526f-b54a-d73b8040bb51",
   "note": "An open philosophical objection, not a verified contradiction. The strongest primary replies and the exact limits of the finite tests are recorded in docs/naturalistic-moral-realism.md."
 }

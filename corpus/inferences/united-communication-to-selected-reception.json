@@ -1,12 +1,14 @@
 {
-  "id": "INF-UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
+  "id": "4f5352b3-05f0-55e1-ab59-0fbee3d3b7dd",
+  "label": "The canonical reception relation holds in the selected state from the…, by Constructive-proof",
+  "legacy_id": "INF-UNITED-COMMUNICATION-TO-SELECTED-RECEPTION",
   "input_statement_ids": [
-    "STMT-SELECTED-HUMAN-SOUL-BODY-UNION",
-    "STMT-SELECTED-UNION-COMMUNICATES-SOUL-ACT-TO-BODY",
-    "STMT-COMMUNICATED-ACT-IS-SELECTED-SOUL-ESSE",
-    "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION"
+    "1754944c-4901-59cb-816c-7e6eab3ea73d",
+    "2a8222ee-86bd-553b-bf33-4c95185092ce",
+    "50aa035b-3e99-5489-8e00-815f5d75c1af",
+    "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3"
   ],
-  "output_statement_id": "STMT-SELECTED-BODY-RECEIVES-SELECTED-SOUL-ESSE",
+  "output_statement_id": "aab8ebd6-90cd-531e-8eb3-b5e9c52d701d",
   "rule": "constructive-proof",
   "meaning": "Explicit interpretation transport transcription: actual selected union, conditional communication, same-act identity and same-sense transfer yield canonical reception of the SAME bearer/recipient/state.",
   "assumption_statement_ids": [],

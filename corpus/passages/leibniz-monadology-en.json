@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "LEIBNIZ-MONADOLOGY",
+    "source_id": "738fd471-e47c-57a1-96ae-ab295261c7dc",
     "source_url": "https://texts.rbjones.com/rbjpub/philos/classics/leibniz/monad.htm",
     "retrieved_at": "2026-10-25T13:04:01Z",
     "sha256": "sha256:3704a5104e515357856c041b1d2dc1997d13846e7f25c5f29fcd2f30fa2a324b",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "LEIBNIZ-MONADOLOGY-31-45",
+      "id": "0f8e4e06-f524-52da-8075-d485b2e58a31",
+      "label": "Gottfried Wilhelm Leibniz, Monadology, Monadology \u00a7\u00a731\u201345",
+      "legacy_id": "LEIBNIZ-MONADOLOGY-31-45",
       "locator": "Monadology \u00a7\u00a731\u201345",
       "claim_locator_prefixes": [
         "\u00a7"
@@ -34,7 +36,9 @@
       "text_sha256": "sha256:48c8019d588af3c5d262323ea365382be7021bf4f4ee23f7f0b68eb6650b6d04"
     },
     {
-      "id": "LEIBNIZ-MONADOLOGY-53-55",
+      "id": "874b3972-90c9-5f60-8862-fd4d2dd5b514",
+      "label": "Gottfried Wilhelm Leibniz, Monadology, Monadology \u00a7\u00a753\u201355",
+      "legacy_id": "LEIBNIZ-MONADOLOGY-53-55",
       "locator": "Monadology \u00a7\u00a753\u201355",
       "claim_locator_prefixes": [
         "\u00a753",

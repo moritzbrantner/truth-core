@@ -1,6 +1,8 @@
 {
-  "id": "WILL-FROM-INTELLECTUAL-APPETITE",
-  "argument_id": "WILL-FROM-INTELLECTUAL-APPETITE",
+  "id": "d5a0c802-95b7-5bea-ae2f-79e275059907",
+  "label": "Whatever has an inclination following an intelligible form HAS_WILL_1, from intellectual appetite",
+  "legacy_id": "WILL-FROM-INTELLECTUAL-APPETITE",
+  "argument_id": "36a29716-0939-5e64-ad1c-e5b64e90cc89",
   "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
   "theorem": "TruthCore.Results.Causality.Round5Worklist.willFromIntellectualAppetite",

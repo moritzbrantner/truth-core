@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONTINGENT-REASON-FOUNDEDNESS",
+  "id": "eeb5cdbb-e293-574c-9680-3bd632ec3aee",
+  "label": "Well-founded contingent…: Reuse EXACT existing Founded A w S:= WellFounded",
+  "legacy_id": "DEF-CONTINGENT-REASON-FOUNDEDNESS",
   "term": "well-founded contingent admitted-reason relation of an account",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.Founded",
   "basis": "stipulative",

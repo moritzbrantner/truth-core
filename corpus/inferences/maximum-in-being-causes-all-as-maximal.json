@@ -1,9 +1,11 @@
 {
-  "id": "INF-MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL",
+  "id": "a9b2a730-7255-5356-9137-537add76dbfc",
+  "label": "The genus principle at being only: whatever is maximal in being…, by Universal instantiation at…",
+  "legacy_id": "INF-MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL",
   "input_statement_ids": [
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497"
   ],
-  "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "output_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
   "rule": "Universal instantiation at esse",
   "meaning": "MAXIME_1 branch of the causal principle at the root-route node: the principle that what is MAXIMAL in a genus causes all in that genus, instantiated at being, gives that whatever is MAXIMAL in being causes being in every other being.",
   "assumption_statement_ids": [],

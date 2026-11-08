@@ -1,6 +1,8 @@
 {
-  "id": "SUPERTASK-UNIT-COST-UNBOUNDED",
-  "argument_id": "SUPERTASK-UNIT-COST-UNBOUNDED",
+  "id": "1713de28-8bda-59d0-92d0-4a9ce3cf5f5b",
+  "label": "Partial sums of the unit-cost series 1 + 1 +... exceed every finite integer budget, so a task with…",
+  "legacy_id": "SUPERTASK-UNIT-COST-UNBOUNDED",
+  "argument_id": "401246bf-9cce-5268-b4a4-5e142e968101",
   "challenge_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Challenge",
   "solution_module": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution",
   "theorem": "TruthCore.Results.Causality.SupertaskUnitCostDiverges.supertaskUnitCostDiverges",

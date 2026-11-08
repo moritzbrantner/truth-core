@@ -1,9 +1,11 @@
 {
-  "id": "INF-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "id": "921b46b7-189b-582d-81bd-d9a93b2e25cb",
+  "label": "Supplied sets that actually cause productively at the selected world lack…, by Constructive-proof",
+  "legacy_id": "INF-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
   "input_statement_ids": [
-    "STMT-ALL-SUPPLIED-SETS-LACK-ESSE"
+    "c48f12b6-c29f-542b-85e6-4f926f511d62"
   ],
-  "output_statement_id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
+  "output_statement_id": "93e5f2dd-1ad9-53d7-84f5-1a4f8fde032a",
   "rule": "constructive-proof",
   "meaning": "Sole-premise restriction of the stronger classification to selected productive set-causers; weaker premise is used by the actual route.",
   "assumption_statement_ids": [],

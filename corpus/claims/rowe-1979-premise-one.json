@@ -1,19 +1,21 @@
 {
-  "id": "ROWE-1979-PREMISE-ONE",
-  "statement_id": "STMT-ROWE-GRATUITOUS-SUFFERING",
-  "source_id": "ROWE-EVIL-ATHEISM-1979",
+  "id": "77c8065c-c5b6-5d8e-ace7-33c2ccc23014",
+  "label": "William L. Rowe, The Problem of Evil and…: Some occurring intense suffering could be prevented by…",
+  "legacy_id": "ROWE-1979-PREMISE-ONE",
+  "statement_id": "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+  "source_id": "f716339a-30a2-511b-9be5-7daa1b76f6c3",
   "locator": "p. 336 §I premise (1), n.2; pp. 337–338 discussion",
   "interpretation": "Rowe advances this as a rationally supported factual premise, not a demonstrated fact. The omniscient/omnipotent preventer is hypothetical; the formalization universally ranges over qualifying beings without assuming one exists. Blocking costs are counterfactually unavoidable, not merely goods that happen to follow suffering. The unreplaceability clarification in n.2 excludes trivial conjunctive goods. The p.336 n.3 balance-neutral-good qualification is preserved in the notes as a limitation of this published simplified form. The fawn’s apparent pointlessness alone does not establish this premise; Rowe explicitly distinguishes those claims on p.337.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ROWE-NARROW-THEISM",
-    "DEF-ROWE-BLOCKING-COST",
-    "DEF-ROWE-GRATUITOUS-SUFFERING",
-    "DEF-ROWE-APPARENT-POINTLESSNESS",
-    "DEF-ROWE-INTENSE-SUFFERING"
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed"
   ],
   "disambiguation_ids": [
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
   ]
 }

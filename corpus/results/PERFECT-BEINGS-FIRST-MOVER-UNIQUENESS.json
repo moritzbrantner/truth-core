@@ -1,6 +1,8 @@
 {
-  "id": "PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
-  "argument_id": "PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
+  "id": "890c1ef2-10a7-5a91-ab15-d3cafb025e21",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more (4)",
+  "legacy_id": "PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "d4b63735-b51e-5f61-a587-5e31b9261165",
   "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
   "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
   "theorem": "TruthCore.Results.Causality.WholePowerPerfection.uniqueFromPerfectBeings",

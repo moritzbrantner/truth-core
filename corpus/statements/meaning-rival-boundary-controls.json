@@ -1,8 +1,10 @@
 {
-  "id": "STMT-MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "id": "cb7608ba-0a2d-58eb-be4e-f25f0242353a",
+  "label": "Invariant moral meaning and occasion meaning coexist with a populated moral sentence and…",
+  "legacy_id": "STMT-MEANING-RIVAL-BOUNDARY-CONTROLS",
   "paraphrase": "Invariant moral meaning and occasion meaning coexist with a populated moral sentence and expressions at both contexts. A second populated moral control retains invariant meaning, free attitude expression, actual antecedent loss, and exact failure of occasion meaning. Neither account alone asserts actual context change; these are exact predicate interpretations, not complete source theories.",
   "lean_declaration": "TruthCore.Metaethics.MeaningRivalBoundary.Controls",
   "definition_ids": [
-    "DEF-EMOTIVISM-OCCASION"
+    "26d45e80-3ca9-5d53-9e9d-b1df65d5052f"
   ]
 }

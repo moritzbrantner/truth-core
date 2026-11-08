@@ -1,6 +1,8 @@
 {
-  "id": "NO-SELF-CAUSE-FROM-PRIORITY",
-  "argument_id": "NO-SELF-CAUSE-FROM-PRIORITY",
+  "id": "abb21522-b16b-58ae-afeb-6417462de45b",
+  "label": "Nothing is the efficient cause of itself, in any respect, from priority",
+  "legacy_id": "NO-SELF-CAUSE-FROM-PRIORITY",
+  "argument_id": "05d898a6-be24-5e9f-aba8-0fc0c4f6d6c1",
   "challenge_module": "TruthCore.Results.Causality.SelfCausationPriority.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelfCausationPriority.Solution",
   "theorem": "TruthCore.Results.Causality.SelfCausationPriority.noSelfCauseFromPriority",

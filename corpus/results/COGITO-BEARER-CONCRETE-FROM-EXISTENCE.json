@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
-  "argument_id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+  "id": "2b8005f7-ca61-5c28-9559-42a081931350",
+  "label": "Every bearer of an occurring thought episode is CONCRETE_6 under the supplied…, from existence",
+  "legacy_id": "COGITO-BEARER-CONCRETE-FROM-EXISTENCE",
+  "argument_id": "08f7056e-4316-57fa-9218-07b9f9847cd1",
   "challenge_module": "TruthCore.Results.Logic.CogitoEsse.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoEsse.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoEsse.bearerConcrete",

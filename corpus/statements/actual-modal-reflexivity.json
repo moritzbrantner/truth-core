@@ -1,6 +1,11 @@
 {
-  "id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
+  "id": "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+  "label": "The chosen actual world accesses itself; no S5 accessibility or world-pair universality is asserted",
+  "legacy_id": "STMT-ACTUAL-MODAL-REFLEXIVITY",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.ActualReflexive",
   "paraphrase": "The chosen actual world accesses itself; no S5 accessibility or world-pair universality is asserted.",
-  "definition_ids": ["DEF-ACTUAL-MODAL-REFLEXIVITY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+  "definition_ids": [
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
 }

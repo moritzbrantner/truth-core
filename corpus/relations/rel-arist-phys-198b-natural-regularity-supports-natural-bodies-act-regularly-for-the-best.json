@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-PHYS-198B-NATURAL-REGULARITY-SUPPORTS-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "id": "abca1947-8330-5bdb-a93b-56fab3baf052",
+  "label": "Aristotle, Physics II.8, 198b34-199a3… supports There are natural bodies, and every natural…",
+  "legacy_id": "REL-ARIST-PHYS-198B-NATURAL-REGULARITY-SUPPORTS-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-198B-NATURAL-REGULARITY-A",
+  "subject_id": "e9bebb43-cf2e-56ce-83ad-7cc34cc9cba2",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "object_id": "658814de-ffeb-5824-afdd-2797e5cdad42",
   "note": "Aristotle's always-or-usual regularity of natural outcomes is the observation the quinta via starts from. It does not state the restriction to what is best, and Aristotle's own result (ARIST-PHYS-NATURAL-TELEOLOGY) is a transcription over opaque propositions, so nothing is built on it."
 }

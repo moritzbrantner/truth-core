@@ -1,17 +1,19 @@
 {
-  "id": "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
+  "id": "86efed1a-f353-5b5d-9431-df7fc643ace1",
+  "label": "At the reading world w, whatever is SIMPLY_PRIOR_1 to something other than itself is CONCRETE_6…",
+  "legacy_id": "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
   "paraphrase": "Open bridge, not attributed to any source: at the reading world w, whatever is simply prior to something other than itself is concrete, exists at w and stands in the profile's selected relation at w to it. A non-concrete or absent simply prior thing would falsify it.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.SimplyPriorIsActualConcreteGround",
   "definition_ids": [
-    "DEF-ROUTE-BRIDGE-MODAL-READING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "30dfba72-8196-542a-85d9-d2e98d7f11c5",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FUSION-DISTINCT-CAUSE",
+  "id": "bd53bfc6-708a-50ce-9307-1d6662f4ce2f",
+  "label": "Numerically distinct candidate cause: DistinctCause cause x requires a c unequal to x satisfying…",
+  "legacy_id": "DEF-FUSION-DISTINCT-CAUSE",
   "term": "numerically distinct candidate cause",
   "definition": "DistinctCause cause x requires a c unequal to x satisfying the independently supplied relation cause c x. Distinctness does not require that c be outside the parts of x. In the omission model the relation is strict parthood, not an asserted actual efficient-cause or grounding law.",
   "basis": "stipulative",

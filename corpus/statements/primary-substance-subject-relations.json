@@ -1,5 +1,7 @@
 {
-  "id": "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
+  "id": "6026cd8b-d7bb-5a36-818a-b855828fc6f0",
+  "label": "Something is a primary substance exactly when it is neither said of any subject nor in any subject",
+  "legacy_id": "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
   "paraphrase": "Something is a primary substance exactly when it is neither said of any subject nor in any subject.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Categories.PrimarySubstanceBySubjectRelationsReading"
 }

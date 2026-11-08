@@ -1,10 +1,12 @@
 {
-  "id": "INF-HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "id": "590e7918-015e-5dda-af53-8b6e631555f7",
+  "label": "Transcription of the proposed developmental coverage to the empirical…, by Witness instantiation",
+  "legacy_id": "INF-HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
   "input_statement_ids": [
-    "STMT-HIDDENNESS-DEVELOPMENTAL-ACCOUNT",
-    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+    "e0f8a142-ef0a-56e8-950b-0da6cc27f09b",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
   ],
-  "output_statement_id": "STMT-HIDDENNESS-GAP-HAS-DEVELOPMENTAL-ACCOUNT",
+  "output_statement_id": "213a1284-35ca-5612-955d-408868903313",
   "rule": "witness instantiation",
   "meaning": "Transcription of the proposed developmental coverage to the empirical witness: if every nonbelief has one of the proposed mechanisms, an actual nonresistant witness has one. This is a conditional projection, not evidence of causal adequacy or completeness. The coverage premise stays open and this result closes no empirical frontier node by itself.",
   "assumption_statement_ids": [],

@@ -1,20 +1,21 @@
 {
-  "id": "STMT-TERM-SENSE-FORKS-4-CONTROLS",
+  "id": "47530784-68d6-5168-b446-ee902c3f4f07",
   "label": "Finite models for the MUTABLE and GOD sense forks (mixed readings, omissions, nonvacuity)",
+  "legacy_id": "STMT-TERM-SENSE-FORKS-4-CONTROLS",
   "paraphrase": "Finite interpretations for the mutability and God forks: per term, a model in which coverage holds, exclusivity fails, the two uses are read in different senses (succession MUTABLE_1 and boundary MUTABLE_2; naming GOD_1 and attributes GOD_4), every other premise of the joint theorem holds and its conclusion fails; a nonvacuity witness per joint theorem; a model in which both the MUTABLE_2 and MUTABLE_3 boundary statements hold, the sense bridge fails and STMT-LIFE-BOUNDARY-REQUIRES-POTENCY fails; a model in which the bridge holds without a boundary premise and the root node fails; a model in which the GOD_1 naming (analytic), the GOD_2 reduced naming and the GOD_3 usage naming hold, something meets the full description, and STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE fails; a model in which the GOD_3 bridge holds without the usage premise and the root premise fails; and a model in which every premise of GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL except the quarta via conclusion and excluded middle holds and nothing is God. Satisfiability and omission only; no model describes reality.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.TermSenseForks4Controls",
   "definition_ids": [
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-POTENCY",
-    "DEF-MUTABLE-THROUGH-ANOTHER",
-    "DEF-MUTABLE-IN-SOME-WAY",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d",
+    "63420c26-d66a-585c-899a-964a997f83eb",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER",
-    "DISAMB-GOD"
+    "557d8e44-4350-5031-81e3-ff6be5e30acc",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

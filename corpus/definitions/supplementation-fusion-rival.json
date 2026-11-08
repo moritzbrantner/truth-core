@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPPLEMENTATION-FUSION-RIVAL",
+  "id": "cd7ebdf4-426c-5cde-ae78-3b1a4745f068",
+  "label": "Four-object anti-extensional fusion…: The fixed four-object Mathlib partial order has a,b strictly…",
+  "legacy_id": "DEF-SUPPLEMENTATION-FUSION-RIVAL",
   "term": "four-object anti-extensional fusion rival",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.RivalCertificate",
   "basis": "stipulative",

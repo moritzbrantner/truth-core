@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
+  "id": "a6d34438-252c-5a0b-a622-2ddbead1f926",
+  "label": "Some concrete individual exists at w and at every world accessible from w…, by… (3)",
+  "legacy_id": "INF-NECESSARY-CONCRETE-FROM-ACTUAL-GROUNDED",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "constructive-proof",
   "meaning": "Apply necessaryOrNonnecessaryRoot. In the second horn, excluded middle turns the nonnecessary root into a contingent one, and the anti-brute-root premise then gives it an actual concrete ground, against its being a root.",
   "assumption_statement_ids": [],

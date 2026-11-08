@@ -1,7 +1,16 @@
 {
-  "id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
+  "id": "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+  "label": "Each existent direct existential supporter of a de re necessary bearer at any admitted world is…",
+  "legacy_id": "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
   "lean_declaration": "TruthCore.Causality.NecessarilyUnderived.NoContingentGroundOfNecessary",
   "paraphrase": "Each existent direct existential supporter of a de re necessary bearer at any admitted world is itself de re necessary from the actual world; generic efficient causes remain unrestricted.",
-  "definition_ids": ["DEF-NO-CONTINGENT-GROUND-OF-NECESSARY", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"],
-  "disambiguation_ids": ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+  "definition_ids": [
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
 }

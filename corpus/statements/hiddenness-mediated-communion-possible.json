@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HIDDENNESS-MEDIATED-COMMUNION-POSSIBLE",
+  "id": "06a9ea94-479b-5a3a-a3e3-7931735d045c",
+  "label": "Rea proposes that communion and narratives or liturgy can mediate divine presence without…",
+  "legacy_id": "STMT-HIDDENNESS-MEDIATED-COMMUNION-POSSIBLE",
   "paraphrase": "Rea proposes that communion and narratives or liturgy can mediate divine presence without extraordinary sensory communication, under an appropriate believing attitude.",
   "definition_ids": [
-    "DEF-HIDDENNESS-MEDIATED-PRESENCE",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-UNCONSCIOUS-RELATIONSHIP"
+    "1b8d31ef-b044-5366-8456-2481b0b670be",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "0c18c98d-bc06-5e11-a332-e9f1c950292b"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP"
+    "a4359a96-a726-5755-8359-a02b64f42f15"
   ]
 }

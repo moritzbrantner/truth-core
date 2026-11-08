@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE",
-  "statement_id": "STMT-ARISTOTLE-ANPOST-IMMEDIATE-KNOWLEDGE",
-  "source_id": "ARIST-APOST",
+  "id": "8beded56-bff7-5351-ae46-76a271f3c97f",
+  "label": "Aristotle, Posterior Analytics I.3, 72b18–25: Aristotle affirms that not all scientific knowledge…",
+  "legacy_id": "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE",
+  "statement_id": "8da76240-7b5c-5fbe-9d06-937b8ce3d3ae",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.3, 72b18–25",
   "interpretation": "This attributes the positive replacement account, not a verified proof that any selected immediate proposition is true or warranted. His accompanying necessity argument retains prior-premise knowledge and termination at immediates; this chapter does not itself supply the full acquisition account later pursued in II.19. No identification of the principle with a separately formalized nous predicate is installed. The horoi are rendered here as defining terms, not as mere lexical familiarity sufficient to warrant arbitrary propositions.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

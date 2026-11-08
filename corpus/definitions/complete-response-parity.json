@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMPLETE-RESPONSE-PARITY",
+  "id": "524c5cea-64c2-547a-9e83-80312b490080",
+  "label": "Matched observable response with…: Two stipulated Exercises on the same Boolean-pair scenario…",
+  "legacy_id": "DEF-COMPLETE-RESPONSE-PARITY",
   "term": "matched observable response with distinct hidden causal records",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.CompleteResponseParity.MatchedObservations",

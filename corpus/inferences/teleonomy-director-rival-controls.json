@@ -1,7 +1,9 @@
 {
-  "id": "INF-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "id": "dd5c7f3f-f88f-5958-9bbd-f6b4a401f0ea",
+  "label": "A finite empty-tending/no-cognition structure satisfies the universal…, by Constructive-proof",
+  "legacy_id": "INF-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "output_statement_id": "c1a26899-4d0b-501b-9ee0-17df0e3e8bf5",
   "rule": "constructive-proof",
   "meaning": "Construct the empty-tending overlap and explicit old finite-model witness, derive its exact negative using the generic checked result, and reuse existing unguided/governed results. Do not merge separate objects into a global worldview or identify broad tending with selection.",
   "assumption_statement_ids": [],

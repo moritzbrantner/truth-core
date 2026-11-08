@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-STOLENBODY-CONSISTENT",
-  "argument_id": "RESURRECTION-STOLENBODY-CONSISTENT",
+  "id": "24067b0a-015e-59eb-befd-943678040b34",
+  "label": "The limited StolenBody pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-STOLENBODY-CONSISTENT",
+  "argument_id": "cdf0ec3a-1768-554c-91ec-d0a8081173ed",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.StolenBodyConsistent.consistent",

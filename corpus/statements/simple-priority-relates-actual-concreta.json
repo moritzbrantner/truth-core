@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA",
+  "id": "57c5ed67-f9fa-55bb-9b3e-3c00643b21e9",
+  "label": "Whenever y is SIMPLY_PRIOR_1 to x, both y and x are CONCRETE_6 and exist at the reading world w",
+  "legacy_id": "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA",
   "paraphrase": "OPEN analyst premise: whenever y is simply prior to x, both y and x are concrete and exist at the reading world w. It excludes abstract or absent relata of simple priority.",
   "lean_declaration": "TruthCore.Causality.Round2Grounding.SimplePriorityRelatesActualConcreta",
   "definition_ids": [
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

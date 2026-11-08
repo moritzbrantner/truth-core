@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
-  "argument_id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "id": "0dd4739f-89e1-5cc9-bd6f-47762ec58912",
+  "label": "Invariant moral meaning and occasion meaning coexist with a populated moral sentence and…",
+  "legacy_id": "MEANING-RIVAL-BOUNDARY-CONTROLS",
+  "argument_id": "1911b5ba-f6ef-5c2f-a74e-e08d4334e39d",
   "challenge_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.controls",

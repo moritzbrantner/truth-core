@@ -1,10 +1,12 @@
 {
-  "id": "REL-NO-SELF-MOVER-STRENGTHENS-SAME-RESPECT-NO-SELF-MOTION",
+  "id": "075079d2-b1e9-5ffe-942c-c9f904d02740",
+  "label": "Whatever moves something in a respect is… strengthens Nothing that is being moved in a respect…",
+  "legacy_id": "REL-NO-SELF-MOVER-STRENGTHENS-SAME-RESPECT-NO-SELF-MOTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
+  "subject_id": "2ed50036-3aa7-5209-9aa0-ced7675701da",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
-  "verification_result_id": "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
+  "object_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
+  "verification_result_id": "5f007113-158e-5562-ae54-b2a447471da1",
   "note": "Strength order within the moving sense of 'cause'. No strictness control in this batch; a self-mover that moves itself in a respect in which it is not being moved separates them."
 }

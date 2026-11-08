@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REAL-SEQUENCE-CONVERGENCE",
+  "id": "350637a5-0f31-57d2-8e70-c1240290e8f8",
+  "label": "Convergence of a real sequence: A sequence of real numbers t 0, t 1,... converges to L when for…",
+  "legacy_id": "DEF-REAL-SEQUENCE-CONVERGENCE",
   "term": "convergence of a real sequence",
   "definition": "A sequence of real numbers t 0, t 1, ... converges to L when for every neighbourhood of L all but finitely many terms lie in it; in Lean this is Mathlib's Filter.Tendsto t Filter.atTop (nhds L). Terms may approach L without ever equalling it.",
   "basis": "stipulative",

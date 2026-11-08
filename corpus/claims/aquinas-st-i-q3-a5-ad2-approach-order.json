@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A",
-  "statement_id": "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-  "source_id": "AQUINAS-ST",
+  "id": "30a26aaa-48af-554f-9755-9530eed84a86",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.5…: BEING_2 is graded by approach to a primary: the…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-AD2-APPROACH-ORDER-A",
+  "statement_id": "82286a91-a610-52d2-9f28-2cc459a75ac7",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.5 ad 2: Deus autem non est mensura proportionata alicui. Dicitur tamen mensura omnium, ex eo quod unumquodque tantum habet de esse, quantum ei appropinquat",
   "interpretation": "Order reading of the sentence that AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A reads as stated. 'Tantum habet de esse, quantum ei appropinquat' is read as a biconditional: one thing is more a being than another exactly when it approaches the measure more nearly (degrees of approach in their own preorder), and the measure has being. Nothing more is attributed. In particular the reading does not attribute strict primacy (that nothing other than the measure reaches its degree): 'non est mensura proportionata' denies that God is homogeneous with the measured, and 'appropinquat' says that things approach him, but neither says that nothing ties with him. Strict primacy is the separate open premise STMT-NOTHING-ELSE-REACHES-THE-PRIMARY, with no attributing claim. The primary is a parameter; that it is God comes from the sentence's subject and is not formalized. Nothing in the sentence says that the measure causes what it measures.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-BEING-ANALOGICAL",
-    "DEF-MORE-IN"
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-BEING-UNIVOCITY"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

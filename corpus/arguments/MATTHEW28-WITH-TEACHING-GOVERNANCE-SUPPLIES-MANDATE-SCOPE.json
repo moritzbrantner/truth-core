@@ -1,27 +1,29 @@
 {
-  "id": "MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
+  "id": "5c379790-505b-54d6-a93f-fc3cdf562654",
+  "label": "For any being g: if Jesus holds a…, from The substance of the Matthew 28 commission… and 2 more",
+  "legacy_id": "MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE",
   "premise_statement_ids": [
-    "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
-    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+    "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
+    "9981db29-aa03-56f8-a2de-a04eed444b91",
+    "8e5da2fb-6205-5431-983a-365ff9419143"
   ],
-  "conclusion_statement_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "conclusion_statement_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "inference_ids": [
-    "INF-MATTHEW28-WITH-TEACHING-GOVERNANCE-SUPPLIES-MANDATE-SCOPE"
+    "7210b7a5-fc76-5340-a5de-5bfffc5374db"
   ],
   "meaning": "Single-application transcription with explicit criterion: Matthew 28 gives teaching; the teaching-inclusive calibration makes that power governing; only the matching institutional bridge supplies founding-in-mandate and teaching commission for the old Catholic narrow scope. All three premises remain open.",
   "definition_ids": [
-    "DEF-COMMISSION-GOVERNANCE-CALIBRATION",
-    "DEF-TEACHING-INCLUSIVE-GOVERNING-POWER",
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-CHURCH-VISIBLE-AUTHORITATIVE-SOCIETY"
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "12d8270e-a003-557f-8434-490095c74177"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-GOVERNANCE-CRITERIA",
-    "DISAMB-COMMISSION-REPORT-AND-EVENT",
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-CHURCH-VISIBLE-SPIRITUAL-ASPECTS"
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "2c675c96-2539-5adc-a560-37609d0dc5fe"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "INF-PARM-WHOLE-PART-OBJECTION",
+  "id": "90cc3057-e178-58bd-af6e-ce58b76a0ffb",
+  "label": "The spatial whole-or-proper-part allocation principle fails for this…, by Typed-consequence",
+  "legacy_id": "INF-PARM-WHOLE-PART-OBJECTION",
   "input_statement_ids": [
-    "STMT-PLATONIC-PROPERTY-INSTANCES",
-    "STMT-PLATONIC-ONE-OVER-MANY",
-    "STMT-PARM-WHOLE-EXCLUSIVE",
-    "STMT-PARM-INDIVISIBLE-FORMS"
+    "b11ce983-4bc9-5faa-96b8-46405fac807f",
+    "1eeadd04-81f5-5c53-b6b4-21ae4190f434",
+    "d960696b-a289-53ca-99cc-34583cb81e19",
+    "62aae403-5e8e-50db-a90d-ed382bea63e1"
   ],
-  "output_statement_id": "STMT-PARM-NO-SPATIAL-DILEMMA",
+  "output_statement_id": "6909e73e-3df2-5f4a-8de1-71d0c31ed58e",
   "rule": "typed-consequence",
   "meaning": "Using two distinct F particulars, choose their common Form. Each part allocation violates its indivisibility; thus both must have the whole, violating exclusive spatial allocation. The conclusion denies the spatial dilemma, not participation or Forms as such.",
   "assumption_statement_ids": [],

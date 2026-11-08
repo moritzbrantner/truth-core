@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
+  "id": "014db536-c320-5c7e-be2e-491f85d1370d",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in the same…, by Biconditional-elimination",
+  "legacy_id": "INF-BRIDGE-ARIST-POTENCY-ANALYSIS-NON-SIMULTANEITY",
   "input_statement_ids": [
-    "STMT-POTENCY-IS-UNACTUALIZED-CAPACITY"
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
   ],
-  "output_statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+  "output_statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
   "rule": "biconditional-elimination",
   "meaning": "By the IX.6 analysis, what is in potency to r is able to be r and not actually r; so nothing is both in act and in potency in respect r.",
   "assumption_statement_ids": [],

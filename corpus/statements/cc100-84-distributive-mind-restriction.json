@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-84-DISTRIBUTIVE-MIND-RESTRICTION",
+  "id": "a6b651f4-cd1c-54fb-88b6-d32c6c676e8f",
+  "label": "In each possible world, anything that can be an external fact-unifier there must be a mind",
+  "legacy_id": "STMT-CC100-84-DISTRIBUTIVE-MIND-RESTRICTION",
   "paraphrase": "In each possible world, anything that can be an external fact-unifier there must be a mind.",
   "definition_ids": [
-    "DEF-CC100-84-FACT-UNIFIER",
-    "DEF-CC100-84-DISTRIBUTIVE-CAPABILITY"
+    "5b2623de-6bc4-5d2c-9bc2-97c49681ae37",
+    "048d30fa-ee12-5d4a-834b-881c0e409c54"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-84-UNIFIER-MODAL-SCOPE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "31b6bdd8-94c6-5967-9154-b5465ee5b351",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NO-RULE-APPLICATION-DETERMINED",
+  "id": "4c06906d-c081-5d2e-8c6b-8dbe9f9c3a18",
+  "label": "No application of a rule, and no INTERPRETATION_1 of one, is DETERMINED_2: the first sentence of PU…",
+  "legacy_id": "STMT-NO-RULE-APPLICATION-DETERMINED",
   "paraphrase": "No application of a rule, and no interpretation of one, is determined: the first sentence of PU §201 ('eine Regel könnte keine Handlungsweise bestimmen') generalized to every item.",
   "lean_declaration": "TruthCore.German.Wittgenstein.RuleFollowing.NothingDeterminedReading",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "disambiguation_ids": [
-    "DISAMB-RULE-FOLLOWING-PARADOX"
+    "a8566ae9-153c-5329-b680-2755193dab9b"
   ]
 }

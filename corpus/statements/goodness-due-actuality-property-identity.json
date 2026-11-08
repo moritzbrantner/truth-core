@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY",
+  "id": "d742a8cd-45e2-5292-88ba-cedd482cbf45",
+  "label": "Stronger intensional proposition: the supplied property referent for goodness is identical to the…",
+  "legacy_id": "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY",
   "paraphrase": "Stronger intensional proposition: the supplied property referent for goodness is identical to the referent calibrated to due actuality. This is open and stronger than extensional agreement.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.PropertyIdentity",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-PROPERTY-PRESENTATION"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "35458083-6611-5561-af91-3f0f54a1266d"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

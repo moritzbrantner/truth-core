@@ -1,7 +1,8 @@
 {
-  "id": "MODAL-FORK-CONTROLS",
+  "id": "ee82c652-d18e-5583-ac14-8982ddc3ac9c",
   "label": "Finite models for the modal-principle branches of the NECESSARY_2 sense fork",
-  "argument_id": "MODAL-FORK-CONTROLS",
+  "legacy_id": "MODAL-FORK-CONTROLS",
+  "argument_id": "97adfac8-6210-5445-84f1-37293e1960a6",
   "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
   "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
   "theorem": "TruthCore.Results.Causality.ModalSenseSupport.controls",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PLOTINIAN-COMPOSITE-NEED",
+  "id": "19cd1651-c161-5eef-b01f-bfbd61c49fd0",
+  "label": "What is not simple needs the simples within it in order to be constituted from them",
+  "legacy_id": "STMT-PLOTINIAN-COMPOSITE-NEED",
   "paraphrase": "What is not simple needs the simples within it in order to be constituted from them.",
   "definition_ids": [
-    "DEF-PLOTINIAN-SIMPLICITY",
-    "DEF-PLOTINIAN-CONSTITUTIVE-NEED"
+    "3c5d902b-0b04-57a9-919e-7b1bc65ef7b7",
+    "73a48634-a991-54ae-9b33-f74a672d62b6"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLOTINIAN-PRIORITY-UNITY"
+    "a7104a36-a4ea-5742-945f-599ec79536bb"
   ]
 }

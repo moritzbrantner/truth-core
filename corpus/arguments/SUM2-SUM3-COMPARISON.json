@@ -1,24 +1,26 @@
 {
-  "id": "SUM2-SUM3-COMPARISON",
+  "id": "93cfbafa-d5fe-517e-a412-7dafef1ec79d",
+  "label": "For every family and candidate in this fixed…, from Whenever x is not part of y, some part of x…",
+  "legacy_id": "SUM2-SUM3-COMPARISON",
   "premise_statement_ids": [
-    "STMT-STRONG-SUPPLEMENTATION"
+    "bf4167dc-dfc4-5b13-a110-0a52c89d4a65"
   ],
-  "conclusion_statement_id": "STMT-SUM2-SUM3-COMPARISON",
+  "conclusion_statement_id": "cb280e92-081a-5709-983f-ef6b8355c5de",
   "inference_ids": [
-    "INF-SUM2-SUM3-COMPARISON"
+    "d8272ad9-9008-5622-80b5-8a014f258663"
   ],
   "meaning": "Sum2 implies Sum3 using common parts, no-extra-parts and containment, without supplementation. For the converse, the separation characterization converts overlap inclusion for each family member to containment; reflexive overlap then supplies no-extra-parts. No family is asserted to exist or to have a fusion merely by this pointwise equivalence.",
   "definition_ids": [
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-BINARY-SUM2-FORMATION",
-    "DEF-OVERLAP-FUSION",
-    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
-    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "e35b0145-7ce3-565f-90bd-36aac8b93a86",
+    "5a195922-93f5-5792-aeed-a532e32b1e4b",
+    "93b2805e-b8d8-56d2-bbfd-91d440ab9ba0",
+    "cd7ebdf4-426c-5cde-ae78-3b1a4745f068",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM2-AND-SUM3-FUSION"
+    "27169651-d75e-5c1e-bc20-03d0eb678b81"
   ]
 }

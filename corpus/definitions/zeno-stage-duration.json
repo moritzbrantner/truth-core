@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ZENO-STAGE-DURATION",
+  "id": "852798a0-f932-5422-9065-c02a4cc405e3",
+  "label": "Zeno stage duration: The length of stage n of the convergent schedule: ^, which equals the gap…",
+  "legacy_id": "DEF-ZENO-STAGE-DURATION",
   "term": "Zeno stage duration",
   "definition": "The length of stage n of the convergent schedule: (1/2)^(n+1), which equals the gap between the start time of stage n+1 and the start time of stage n.",
   "basis": "stipulative",

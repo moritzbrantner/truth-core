@@ -1,26 +1,28 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
+  "id": "c6e42107-e5e0-57cb-9ee6-242f564faea5",
+  "label": "Every first mover moved by none is\u2026, from Every first mover moved by none is the\u2026 and 2 more (2)",
+  "legacy_id": "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY",
   "premise_statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
-    "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
-    "STMT-CASE-NON-CONTRADICTION"
+    "74eb9113-552b-5ec6-8e09-68374305dd58",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "c425f0c5-6c3f-5115-ba04-3e61bd049e3b"
   ],
-  "conclusion_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "conclusion_statement_id": "6c18d52b-2456-59ae-995f-13440f8c808d",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT-ADOPTED-POTENCY"
+    "360ff562-7a9c-5f01-8a35-c4af1809d56b"
   ],
   "meaning": "Adopted-potency specialization of AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT: uniformly replace the independent InPotency parameter in EVERY hypothesis by CanBe x r \u2227 \u00ac InAct x r, including act priority, motion, immutability, eternity and the attribute-sufficiency interface wherever present. Compose the unchanged verified generic theorem with ADOPTED-POTENCY-NONOVERLAP from established F1. This removes the generic non-overlap premise only in this explicitly adopted configuration. The original Challenge/result and rival interpretations are retained. No capacity existence or applicability-to-reality premise is established.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-FIRST-BEING",
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-POTENCY",
-    "DEF-PURE-ACT",
-    "DEF-SIMPLE-PRIORITY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-POTENCY"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
   ]
 }

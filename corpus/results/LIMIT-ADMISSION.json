@@ -1,6 +1,8 @@
 {
-  "id": "LIMIT-ADMISSION",
-  "argument_id": "LIMIT-ADMISSION",
+  "id": "695a73ac-2b13-5219-8b88-a963c29e6688",
+  "label": "Joint mathematical package: genuine Mathlib convergence/closure, separate conditional admission…",
+  "legacy_id": "LIMIT-ADMISSION",
+  "argument_id": "15294e88-c282-5009-9074-ff1e5bcbffdb",
   "challenge_module": "TruthCore.Results.Logic.LimitAdmission.Challenge",
   "solution_module": "TruthCore.Results.Logic.LimitAdmission.Solution",
   "theorem": "TruthCore.Results.Logic.LimitAdmission.checks",

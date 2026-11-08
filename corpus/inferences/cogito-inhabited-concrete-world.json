@@ -1,12 +1,14 @@
 {
-  "id": "INF-COGITO-INHABITED-CONCRETE-WORLD",
+  "id": "6414e7b7-0dc5-5ec6-a33b-6897349aacbb",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, by Constructive-proof",
+  "legacy_id": "INF-COGITO-INHABITED-CONCRETE-WORLD",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-IS-CONCRETE",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "a7040bf1-b15a-5ffb-b096-6b60411a066e",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94"
   ],
-  "output_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "rule": "constructive-proof",
   "meaning": "Concrete fork (#536). Take the occurring episode and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE (thinkingSubjectOfThought), then instantiate the two open bridges at that bearer: it is concrete, and it exists at w₀. Conclusion: some concrete candidate exists at w₀, the shape of #487's population hypothesis. All four premises are open; no premise is discharged. The witness is a bearer only: nothing follows about substance, persistence, immateriality, necessity, causal efficacy, or the de re necessary concretum of #487, whose dependence and well-foundedness premises remain open. Each premise is needed (COGITO-CONCRETE-OMISSION-CONTROLS).",
   "assumption_statement_ids": [],

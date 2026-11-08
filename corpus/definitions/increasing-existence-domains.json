@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INCREASING-EXISTENCE-DOMAINS",
+  "id": "bd3d37ae-a319-53df-ab69-5f8bea97dd31",
+  "label": "INCREASING_EXISTENCE_DOMAINS_2: Along every accessibility edge w\u2192v, each candidate existing at w\u2026",
+  "legacy_id": "DEF-INCREASING-EXISTENCE-DOMAINS",
   "term": "increasing existence domains",
   "definition": "Along every accessibility edge w\u2192v, each candidate existing at w also exists at v. Domains are extensions of the same Ontic.ExistsAt predicate on a fixed rigid candidate carrier, not changing carriers or counterpart identities.",
   "basis": "stipulative",

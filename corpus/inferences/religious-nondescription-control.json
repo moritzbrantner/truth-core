@@ -1,7 +1,9 @@
 {
-  "id": "INF-RELIGIOUS-NONDESCRIPTION-CONTROL",
+  "id": "890076e5-3b4c-5fc5-bb55-89db37eee903",
+  "label": "A nonempty schema interpretation retains matched religious truth invariance…, by Constructive-proof",
+  "legacy_id": "INF-RELIGIOUS-NONDESCRIPTION-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RELIGIOUS-NONDESCRIPTIVE-MODEL",
+  "output_statement_id": "8f52d724-a287-5e0b-a4bf-3a52430d5fa3",
   "rule": "constructive-proof",
   "meaning": "A nonempty semantic assignment retains matched truth invariance but lacks the selected religious fact-representation role, witnessing the serious independent descriptive objection.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
-  "argument_id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "id": "2d210c08-90f5-5ae4-a91a-26108c8b80f2",
+  "label": "For any individual/world types and one Boolean primitive atom, the corresponding generated…",
+  "legacy_id": "SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "argument_id": "76adefe6-acf1-5ada-aa42-4fe22b0f663e",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.BooleanFragmentClosed.checks",

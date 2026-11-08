@@ -1,16 +1,18 @@
 {
-  "id": "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "id": "bb6e0806-23fb-500a-8209-3db41611a7de",
+  "label": "An endorsement disagreement and limited knowledge coexist with truths invariant under every profile",
+  "legacy_id": "PILOT-EPISTEMIC-DIFFERENCES-MODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "conclusion_statement_id": "c95f2e56-fbd6-5da9-8371-36c6e3219af5",
   "inference_ids": [
-    "INF-PILOT-EPISTEMIC-DIFFERENCES-MODEL"
+    "454d29cf-c6c2-53ad-9fe9-7afe550ada82"
   ],
   "meaning": "Explicit model separating endorsement disagreement and limited knowledge from variation in truth.",
   "definition_ids": [
-    "DEF-PILOT-PROFILE-TRUTH"
+    "f83c4d57-8044-505c-9082-b9944f50223a"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-PILOT-RELATIVITY"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "baab4b98-29b9-5275-9819-6dab48f39ab8"
   ]
 }

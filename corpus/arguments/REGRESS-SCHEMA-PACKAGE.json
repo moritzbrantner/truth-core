@@ -1,17 +1,19 @@
 {
-  "id": "REGRESS-SCHEMA-PACKAGE",
+  "id": "669b8e1d-e47e-5690-a30a-c8d9af296d36",
+  "label": "The structural schema and all six distinct conditional transfers hold",
+  "legacy_id": "REGRESS-SCHEMA-PACKAGE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REGRESS-SCHEMA-PACKAGE",
+  "conclusion_statement_id": "85b7b6b8-eb34-59a6-8acd-79315ad253d6",
   "inference_ids": [
-    "INF-REGRESS-SCHEMA-PACKAGE"
+    "7437a02a-c19c-50e9-91db-1ada0d5c2fe9"
   ],
   "meaning": "A proved mathematical package with six conditional instances and discrimination controls, not an analogy, a transcription of opaque premises, or a defense of actual metaphysical/epistemic well-foundedness. No root-path premise changes. Actual per se power\u2019s fixed-point semantics and any epistemic-to-causal bridge remain open.",
   "definition_ids": [
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-REGRESS-DOMAIN-ADAPTERS",
-    "DEF-ALL-PREMISE-GENERATED-WARRANT"
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "0cdb45d5-b4d1-5e99-9600-e48588e072cb",
+    "38955650-58d2-5bfc-a6ec-6255f5193090"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

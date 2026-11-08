@@ -1,6 +1,8 @@
 {
-  "id": "INFINITE-PERFECTION-FROM-RECEPTION",
-  "argument_id": "INFINITE-PERFECTION-FROM-RECEPTION",
+  "id": "8fb1087a-b466-5ee2-97ea-91d57e8e7c78",
+  "label": "Whatever is INFINITE_1, in the primitive sense of SubsistentBeingIsInfiniteReading…, from reception",
+  "legacy_id": "INFINITE-PERFECTION-FROM-RECEPTION",
+  "argument_id": "95c04a6d-fe8c-5a11-b1f2-8317f2fab51a",
   "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
   "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
   "theorem": "TruthCore.Results.Causality.ReceptionLimitation.infiniteHasEveryPurePerfection",

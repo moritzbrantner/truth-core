@@ -1,25 +1,27 @@
 {
-  "id": "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
+  "id": "2f615646-8cbe-5714-a384-20018efecf2a",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1…, from Every use of 'prior' on the route to act's… and 3 more",
+  "legacy_id": "PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
   "premise_statement_ids": [
-    "STMT-PRIOR-SENSES-EXHAUSTIVE",
-    "STMT-ACT-PRIOR-TO-POTENCY-IN-ROUTE-SENSE",
-    "STMT-PRIOR-IN-SUBSTANCE-IS-SIMPLE",
-    "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY"
+    "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
+    "197ac723-487c-5fa2-8800-4b441d322014",
+    "9226c6af-c824-5f54-8937-79e5726ce3a4",
+    "42008b33-62b5-564b-875b-ff91957ddd46"
   ],
-  "conclusion_statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+  "conclusion_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
   "inference_ids": [
-    "INF-PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR"
+    "0029f6b5-ea97-5ae3-9c11-44783a7b3eb8"
   ],
   "meaning": "Joint sense fork for 'prior'. Coverage reads the route's 'prior' in one of simple priority, priority in time or priority in substance. Simple branch: the route premise is act's simple priority. Substance branch: the open bridge from priority in substance to simple priority gives it. Temporal branch: impossible, since a temporally first being in potency has nothing before it in act. Hence act is simply prior to potency, under the four OPEN premises. Exclusivity is not used here; it is used by PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-PRIORITY-IN-SUBSTANCE",
-    "DEF-PRIORITY-IN-TIME",
-    "DEF-ROUTE-SENSE-SELECTION",
-    "DEF-SIMPLE-PRIORITY"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "21788f3f-80d3-5eb6-ad91-86a1a5077799",
+    "c3af1987-2909-5b84-8950-fe5573c55e04",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

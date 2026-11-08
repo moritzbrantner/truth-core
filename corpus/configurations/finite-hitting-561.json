@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-FINITE-HITTING-561",
+  "id": "8660cfc7-9250-5259-ba50-e8246e9d6a26",
+  "label": "Certified cores and superconfigurations under EXPLICIT U background",
+  "legacy_id": "CONFIG-FINITE-HITTING-561",
   "description": "Certified cores and superconfigurations under EXPLICIT U background. Single-policy deletion certificates and inclusion-minimality relative to U are in FINITE-HITTING; finite registry omits unsupported classical O/K and the infinite tail, so absent registry witnesses remain unresolved rather than contradictory. No global minimum-cardinality or metaphysical possibility claim.",
-  "seed_statement_id": "STMT-FINITE-HITTING",
+  "seed_statement_id": "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
   "semantics": {
     "id": "finite-hitting-rigid-universal-component",
     "logic": "Classical Lean with approved Mathlib axioms. U is an explicit fixed semantic background; the theorem hypotheses do not independently establish it.",
@@ -42,35 +44,35 @@
       "w"
     ],
     "applications": {
-      "STMT-FINITE-HITTING-UNIVERSAL": [
+      "bd993533-227d-5fc3-8072-7434121d6fde": [
         "W",
         "F"
       ],
-      "STMT-FINITE-HITTING": [
+      "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb": [
         "W",
         "I",
         "present"
       ],
-      "STMT-FINITE-HITTING-ONE-FINITE": [
+      "83e47239-0986-5a54-b27a-8408b14ab442": [
         "W",
         "I",
         "present"
       ],
-      "STMT-NECESSARY-INDIVIDUAL-DE-DICTO": [
+      "7570cdf8-56b1-58dc-951d-e987959c2d29": [
         "W",
         "I",
         "F",
         "present",
         "w"
       ],
-      "STMT-ABSENCE-AMALGAMATION": [
+      "09e9333a-d596-5ee1-99ce-80f1bad4a0ba": [
         "W",
         "I",
         "F",
         "present",
         "w"
       ],
-      "STMT-FINITE-HITTING-NO-NECESSARY": [
+      "39c29835-81e3-580f-a8ef-6dacb2a8473e": [
         "W",
         "I",
         "F",
@@ -88,87 +90,87 @@
     {
       "id": "hitting-core",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-FINITE-HITTING",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     },
     {
       "id": "hitting-populated-superconfiguration",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-FINITE-HITTING",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING-NO-NECESSARY",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29"
       ]
     },
     {
       "id": "one-finite-world-core",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING-ONE-FINITE",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "83e47239-0986-5a54-b27a-8408b14ab442",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     },
     {
       "id": "both-finiteness-superconfiguration",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING",
-        "STMT-FINITE-HITTING-ONE-FINITE",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+        "83e47239-0986-5a54-b27a-8408b14ab442",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     },
     {
       "id": "omit-amalgamation",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-FINITE-HITTING",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     },
     {
       "id": "omit-no-necessary",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-FINITE-HITTING",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-ABSENCE-AMALGAMATION"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "dc7b1ecb-1dd5-570e-a3d1-653a8e7cdadb",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba"
       ]
     },
     {
       "id": "omit-population",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     },
     {
       "id": "infinite-survivor-outside-finite-registry",
       "statement_ids": [
-        "STMT-FINITE-HITTING-UNIVERSAL",
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-ABSENCE-AMALGAMATION",
-        "STMT-FINITE-HITTING-NO-NECESSARY"
+        "bd993533-227d-5fc3-8072-7434121d6fde",
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
+        "39c29835-81e3-580f-a8ef-6dacb2a8473e"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "FINITE-HITTING-CORE",
-    "FINITE-HITTING-FINITE-WORLD-CORE"
+    "2cc72623-16c5-5890-be3e-8e6bfb8a4f36",
+    "fa9ddb28-037e-533f-b136-9fc65a5ec9df"
   ],
   "implication_result_ids": [],
   "model_bindings": [
     {
-      "model_id": "MODEL-FINITE-HITTING-ALTERNATING",
+      "model_id": "c845d564-1efc-5165-97c3-fcaa8d11707c",
       "parameters": {
         "W": "W",
         "I": "I",
@@ -178,7 +180,7 @@
       }
     },
     {
-      "model_id": "MODEL-FINITE-HITTING-MIXED",
+      "model_id": "b92ccd3f-8878-55ae-92fc-a5a10381e678",
       "parameters": {
         "W": "W",
         "I": "I",
@@ -188,7 +190,7 @@
       }
     },
     {
-      "model_id": "MODEL-FINITE-HITTING-FIXED",
+      "model_id": "53af49d6-e60f-5a18-b553-79a04f6d4103",
       "parameters": {
         "W": "W",
         "I": "I",

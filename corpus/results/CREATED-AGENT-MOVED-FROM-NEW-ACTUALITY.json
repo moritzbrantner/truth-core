@@ -1,6 +1,8 @@
 {
-  "id": "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY",
-  "argument_id": "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY",
+  "id": "1e3a1278-281b-5b35-af67-e5b547d3b0c7",
+  "label": "Every agent other than GOD_2 whose being GOD_2 causes is, whenever it moves…, from new actuality",
+  "legacy_id": "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY",
+  "argument_id": "ee97900a-8ee5-5435-82a4-5c6409390217",
   "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.createdAgentMovedFromNewActuality",

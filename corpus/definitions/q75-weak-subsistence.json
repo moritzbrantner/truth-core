@@ -1,11 +1,13 @@
 {
-  "id": "DEF-Q75-WEAK-SUBSISTENCE",
+  "id": "5448b824-575c-585d-8121-c69ce226ca9c",
+  "label": "Subsistence compatible with an…: SubsistsInWeakSense excludes inherence as an accident or material…",
+  "legacy_id": "DEF-Q75-WEAK-SUBSISTENCE",
   "term": "subsistence compatible with an incomplete part",
   "definition": "SubsistsInWeakSense excludes inherence as an accident or material form, exactly the first sense of hoc aliquid in ad 1 and the qualified per se existens of ad 2. It does not exclude being a part, every dependence, or being the human body’s form. It does not assert an ability to think without phantasms or survival after bodily death.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q75-A2-WEAK-SUBSISTENCE",
-    "AQUINAS-ST-I-Q75-A2-OPERATION-REQUIRES-SUBSISTENCE"
+    "87123356-5bae-5005-b8fc-1be483075b2f",
+    "7bcc1b2b-5723-5d8a-98ed-016d8efcda8c"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.SubsistsInWeakSense"
 }

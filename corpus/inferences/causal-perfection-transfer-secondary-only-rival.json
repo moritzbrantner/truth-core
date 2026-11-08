@@ -1,7 +1,9 @@
 {
-  "id": "INF-CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "id": "7a5b9133-a0dd-5b67-98da-fcf9ec2893cb",
+  "label": "The four-being secondary-only interpretation jointly satisfies…, by Typed scope comparison",
+  "legacy_id": "INF-CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SECONDARY-ONLY-TRANSFER-SURVIVES",
+  "output_statement_id": "e0aeab20-95e9-546b-83a1-a947e8fda342",
   "rule": "typed_scope_comparison",
   "meaning": "Evaluate the secondary-only table: the same background holds, but universal source 0 does not cause recipient 3 at skill, falsifying even restricted transfer.",
   "assumption_statement_ids": [],

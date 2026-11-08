@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-LEGEND-CONSISTENT",
-  "argument_id": "RESURRECTION-LEGEND-CONSISTENT",
+  "id": "6d2c7988-5d71-5ee7-bf7c-21d54c0bf909",
+  "label": "The limited Legend pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-LEGEND-CONSISTENT",
+  "argument_id": "fd712049-fb92-5b91-8362-02d2879b5cb0",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.LegendConsistent.consistent",

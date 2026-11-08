@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
-  "argument_id": "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+  "id": "577fb3c1-e1a1-57db-8972-f0b21e2c9071",
+  "label": "Some thought episode occurs under the supplied occurrence predicate, from performed doubt",
+  "legacy_id": "COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT",
+  "argument_id": "7d7b89e7-3f6d-5f17-a8e7-317f7c79f7cb",
   "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
   "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
   "theorem": "TruthCore.Results.Causality.Round3CogitoBase.thoughtOccursFromPerformedDoubt",

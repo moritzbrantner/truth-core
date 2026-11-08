@@ -1,7 +1,14 @@
 {
-  "id": "STMT-SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "id": "09ee811f-54ce-5b79-92be-94ab90bda895",
+  "label": "In a simplified two-in-one-out infinite urn schedule, each individual ball is absent from all…",
+  "legacy_id": "STMT-SUPERTASK-URN-POINTWISE-NONUNIFORM",
   "paraphrase": "In a simplified two-in-one-out infinite urn schedule, each individual ball is absent from all sufficiently late stages, arbitrarily long blocks of distinct balls are present at finite stages, and no common finite cutoff makes all later stages empty. Pointwise empty-limit and uniform finite-stage emptiness are distinct notions.",
   "lean_declaration": "TruthCore.Causality.UrnPointwiseAbsenceNotUniformEmptiness",
-  "definition_ids": ["DEF-SUPERTASK-URN-POINTWISE-ABSENCE", "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS"],
-  "disambiguation_ids": ["DISAMB-SUPERTASK-URN-EMPTINESS"]
+  "definition_ids": [
+    "7c4a29a2-7ded-5576-bfed-2c12344d8bfe",
+    "a03f9f45-b682-55d2-96c1-7b987d2f25ec"
+  ],
+  "disambiguation_ids": [
+    "8bdef881-df3e-5f22-9ef9-7684753db7b6"
+  ]
 }

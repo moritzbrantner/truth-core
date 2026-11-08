@@ -1,6 +1,8 @@
 {
-  "id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
-  "argument_id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "id": "e179d20e-a535-5446-b15f-f15d13dd304a",
+  "label": "No target in the independently supplied scope…, from No inquiry target has a finite satisfiable…",
+  "legacy_id": "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
+  "argument_id": "9a09031b-fa26-58a4-933e-93ab86c1e353",
   "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.Solution",
   "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Strength.strength",

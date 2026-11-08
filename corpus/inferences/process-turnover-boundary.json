@@ -1,7 +1,9 @@
 {
-  "id": "INF-PROCESS-TURNOVER-BOUNDARY",
+  "id": "fcb864b1-c9ae-5975-9208-1603a0092f9b",
+  "label": "In the existing two-cohort turnover fixture, every carrier assignment…, by Model-construction",
+  "legacy_id": "INF-PROCESS-TURNOVER-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PROCESS-TURNOVER-BOUNDARY",
+  "output_statement_id": "cc149607-e48e-513d-9c1d-8ab38624c0b6",
   "rule": "model-construction",
   "meaning": "In the existing two-cohort turnover fixture, every carrier assignment preserving operational continuation as numerical carrier identity has no timeless constituent-extension representation. A constant Unit carrier with time-indexed constituents satisfies continuation and turnover; a phase carrier with fixed constituents satisfies turnover but rejects continuation-as-identity. These logical interpretations neither settle actual river identity nor refute materialism, and do not establish substantial unity or a soul. Root-path open premises: no change.",
   "assumption_statement_ids": [],

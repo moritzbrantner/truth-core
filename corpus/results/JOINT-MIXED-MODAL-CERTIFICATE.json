@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-MIXED-MODAL-CERTIFICATE",
-  "argument_id": "JOINT-MIXED-MODAL-CERTIFICATE",
+  "id": "021f059c-8fce-5b89-92b5-e276b0ac5bad",
+  "label": "Reuse exactly PSRStrength.ground false",
+  "legacy_id": "JOINT-MIXED-MODAL-CERTIFICATE",
+  "argument_id": "15142db3-e0d5-579d-893c-7d9ab6da01b6",
   "challenge_module": "TruthCore.Results.Explanation.JointCondition.Challenge",
   "solution_module": "TruthCore.Results.Explanation.JointCondition.Solution",
   "theorem": "TruthCore.Results.Explanation.JointCondition.mixedCertificate",

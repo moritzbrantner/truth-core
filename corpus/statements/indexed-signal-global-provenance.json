@@ -1,10 +1,12 @@
 {
-  "id": "STMT-INDEXED-SIGNAL-GLOBAL-PROVENANCE",
+  "id": "d7a3ab65-3f5a-5d97-8d9d-e1bb71b30a8d",
+  "label": "Each present output code j was issued at station j in the supplied issuance role",
+  "legacy_id": "STMT-INDEXED-SIGNAL-GLOBAL-PROVENANCE",
   "paraphrase": "Each present output code j was issued at station j in the supplied issuance role. No actual-world, firstness, uniqueness, signal existence, causal-finitism or existential-grounding conclusion is asserted.",
   "lean_declaration": "TruthCore.Causality.IndexedSignalProvenance.GlobalProvenance",
   "definition_ids": [
-    "DEF-INDEXED-SIGNAL-LOCAL-CONSERVATION",
-    "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY",
-    "DEF-INDEXED-SIGNAL-PROVENANCE"
+    "3fe7fb2d-08f9-5f12-ba4f-87ce03593e24",
+    "74e6880f-d90b-51ed-a710-5aace3f44cff",
+    "549223a2-5c80-5e93-949c-fa6d970dd968"
   ]
 }

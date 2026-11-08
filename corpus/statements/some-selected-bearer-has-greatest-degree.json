@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE",
+  "id": "3b078622-0815-5f3c-9bc0-703de1c53a68",
+  "label": "Some bearer of the selected perfection is at its greatest represented degree",
+  "legacy_id": "STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE",
   "paraphrase": "OPEN analyst premise: some bearer of the selected perfection is at its greatest represented degree (ties allowed, no uniqueness).",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.SomeBearerHasGreatestDegree",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

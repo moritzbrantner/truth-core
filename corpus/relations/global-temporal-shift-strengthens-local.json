@@ -1,10 +1,12 @@
 {
-  "id": "REL-GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "id": "d8e3523e-d57c-5817-ba2f-3107b6c4d3dc",
+  "label": "The naive temporal quantifier shift as a… strengthens Restricted OPEN shift for ONE supplied…",
+  "legacy_id": "REL-GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
   "subject_kind": "statement",
-  "subject_id": "STMT-EACH-SOMETIME-NOT-ENTAILS-SOMETIME-NOTHING",
+  "subject_id": "9f874f21-fed2-5f0e-804d-00a8ac5ee1c3",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-LOCAL-TEMPORAL-QUANTIFIER-SHIFT",
-  "verification_result_id": "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
+  "object_id": "42522254-9120-5ae4-bdeb-1545dc441839",
+  "verification_result_id": "f337cebd-9bb0-5041-8f8b-017b7e644d5b",
   "note": "Exact sole-premise restriction. No refuted strong version refutes a weak one."
 }

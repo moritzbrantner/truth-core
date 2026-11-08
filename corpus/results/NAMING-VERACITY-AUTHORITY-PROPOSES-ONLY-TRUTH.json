@@ -1,6 +1,8 @@
 {
-  "id": "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
-  "argument_id": "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "id": "3ff570a9-f310-5821-8b27-9d9740250c31",
+  "label": "Bridge premise: whatever a society…, from Whatever a teaching authority founded by a… and 1 more",
+  "legacy_id": "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "argument_id": "3d234a7f-4e47-5a2a-b063-99fc85174973",
   "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
   "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
   "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.authorityProposesOnlyTruth",

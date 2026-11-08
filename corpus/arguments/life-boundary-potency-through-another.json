@@ -1,32 +1,33 @@
 {
-  "id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "id": "aa026502-1ae3-5293-8465-a6703e4a4c37",
   "premise_statement_ids": [
-    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER",
-    "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+    "473f3a7f-0730-5bdc-a7e2-772c8372ffd7",
+    "138a151b-285a-5181-829b-5464968164ac"
   ],
-  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "conclusion_statement_id": "812b52b3-de7d-5982-93a9-e46b6e169616",
   "inference_ids": [
-    "INF-LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
+    "2a1c1068-06e1-5cd3-b09a-0293e5671f38"
   ],
   "meaning": "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails.",
   "definition_ids": [
-    "DEF-LIFE-PRESENT-AT",
-    "DEF-MUTABLE-THROUGH-ANOTHER",
-    "DEF-POTENCY"
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
   ],
   "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
   "strong_version_needed": {
-    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER": "This is the MUTABLE_2 branch of the fork and keeps its own boundary reading by design; the weaker MUTABLE_3 reading also suffices with the same bridge (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY)."
+    "473f3a7f-0730-5bdc-a7e2-772c8372ffd7": "This is the MUTABLE_2 branch of the fork and keeps its own boundary reading by design; the weaker MUTABLE_3 reading also suffices with the same bridge (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY)."
   },
   "sense_bridges": [
     {
       "term": "IN_POTENCY_MUTABLE",
       "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
       "to": "2ba29183-e9d7-4b34-9815-6e8e24c16692",
-      "statement_id": "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+      "statement_id": "138a151b-285a-5181-829b-5464968164ac"
     }
-  ]
+  ],
+  "legacy_id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
 }

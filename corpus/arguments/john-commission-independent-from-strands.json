@@ -1,17 +1,19 @@
 {
-  "id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
+  "id": "97c207ee-8947-5c70-82e7-344db27a25e4",
+  "label": "The commission saying of John 20.21-23 is literarily independent of that of Matthew…, from strands",
+  "legacy_id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
   "premise_statement_ids": [
-    "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN"
+    "a8365742-e60c-51e8-8e1b-881e7adbf2fe"
   ],
-  "conclusion_statement_id": "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
+  "conclusion_statement_id": "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
   "inference_ids": [
-    "INF-JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS"
+    "521ec145-3e06-58dc-aaa6-afd4aceb7d7e"
   ],
   "meaning": "John 20's commission saying is independent of Matthew 18's, from the OPEN historical premise that Johannine commission sayings are independent of Matthean ones: the fixed table strandOf puts John 20 in the Johannine and Matthew 18 in the Matthean strand. The premise is strictly more general than the conclusion; the derivation relocates the historical question to the strands rather than answering it.",
   "definition_ids": [
-    "DEF-INDEPENDENT-ATTESTATION"
+    "61a7a341-a027-5652-9559-54fad7e248ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-ATTESTATION-OF-POWER-AND-FAMILY"
+    "88202e2f-de41-5fa9-8a4b-9ba1fcd73f8f"
   ]
 }

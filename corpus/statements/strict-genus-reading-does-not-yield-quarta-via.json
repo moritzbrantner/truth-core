@@ -1,11 +1,13 @@
 {
-  "id": "STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA",
+  "id": "53e52f95-364d-50fa-bdd7-4548d13eae32",
+  "label": "Formal fact: with 'GENUS_1' in the quarta via's GENUS_1 principle read strictly, the other three…",
+  "legacy_id": "STMT-STRICT-GENUS-READING-DOES-NOT-YIELD-QUARTA-VIA",
   "paraphrase": "Formal fact: with 'genus' in the quarta via's genus principle read strictly, the other three quarta via premises and Aristotle's three premises for being-not-a-genus do not yield a maximum in being that causes the being of every other being.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.StrictGenusReadingDoesNotYieldQuartaVia",
   "definition_ids": [
-    "DEF-GENUS-STRICT"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5"
   ]
 }

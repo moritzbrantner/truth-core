@@ -1,8 +1,14 @@
 {
-  "id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "id": "7acf4b7a-d27a-5ac5-b6f7-6b73498377af",
+  "label": "Three deadline-ordered Reapers admit an assignment obeying the same firing rule",
+  "legacy_id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
-  "inference_ids": ["INF-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT"],
+  "conclusion_statement_id": "5f05649a-901f-550a-b563-bbecabe5220d",
+  "inference_ids": [
+    "32d3d5d5-7222-53c5-bab8-eea3595a2ace"
+  ],
   "meaning": "Three Reapers admit a coherent assignment, making the infinite/no-first assumption independently visible.",
-  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE"]
+  "definition_ids": [
+    "33848469-bc98-5344-b5d7-87c9bbacf323"
+  ]
 }

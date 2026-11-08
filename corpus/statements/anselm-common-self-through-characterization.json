@@ -1,23 +1,25 @@
 {
-  "id": "STMT-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
+  "id": "28c5ac0c-004c-5efd-a55b-16ae4d8a077b",
+  "label": "In the same context/world, a common through-source for all self-through bearers is equivalent to…",
+  "legacy_id": "STMT-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION",
   "lean_declaration": "TruthCore.Explanation.AnselmCommonSourceAudit.CommonSelfThroughCharacterizationAt",
   "paraphrase": "In the same context/world, a common through-source for all self-through bearers is equivalent to existence of a unique actual ultimate source. The result proving this equivalence retains actual population, coverage, source actuality and global ultimate availability. This is not an unconditional equivalence or an equivalence of the original power premises with uniqueness.",
   "definition_ids": [
-    "DEF-ANSELM-THROUGH-CONTEXT",
-    "DEF-ANSELM-ACTUAL-ULTIMATE-SOURCE",
-    "DEF-ANSELM-SOURCE-ACTUALITY",
-    "DEF-ANSELM-THROUGH-COVERAGE",
-    "DEF-ANSELM-ULTIMATE-AVAILABILITY",
-    "DEF-TAPP-SHARED-SELF-POWER",
-    "DEF-TAPP-SELF-POWER-THROUGH",
-    "DEF-ANSELM-SOURCE-UNIQUENESS",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-ANSELM-COMMON-SELF-THROUGH",
-    "DEF-ANSELM-COMMON-SELF-THROUGH-CHARACTERIZATION"
+    "687881da-fd85-595d-8649-ab6e1f9b7ab2",
+    "6e99c5cc-2d8c-546e-8475-242fa956e7c5",
+    "bfc6b432-2215-558b-96af-1e28ee037ef4",
+    "8f9873ba-68cb-5415-ac32-f19762f794bf",
+    "4967cf8c-a7cc-5253-9288-37473b931b97",
+    "c53a0cc8-bcdc-592c-8e46-bf75b4aa749c",
+    "ca8a9ffd-a7aa-57a1-b875-94308b836b07",
+    "4477b0a6-c85d-5749-b0e4-e39de2bdad91",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "b6ca8cdd-1d68-54ad-bebf-83352c7ae20c",
+    "26b2e8f1-5ef4-57b3-bee8-10c615222963"
   ],
   "disambiguation_ids": [
-    "DISAMB-ANSELM-THROUGH-VS-EFFICIENT-CAUSE"
+    "127e3934-efe5-57f9-b754-4ce22d36aeb8"
   ]
 }

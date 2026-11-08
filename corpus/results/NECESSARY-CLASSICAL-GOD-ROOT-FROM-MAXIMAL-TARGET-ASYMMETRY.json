@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY",
-  "argument_id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "id": "b359aa6d-968e-5398-8ef2-e5629d81e66d",
+  "label": "There exists ONE SAME selected actual concrete necessary root n…, from maximal target asymmetry",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-ROOT-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "argument_id": "c63f3afa-30d3-5ccc-bdeb-d6f43f38b16f",
   "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Solution",
   "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.derive",

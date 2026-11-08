@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
+  "id": "e1ff44df-ed97-5990-8424-1abd720f23ea",
+  "label": "FIXED_ROSTER_2, existence extension and…: The type I is a fixed possibilist roster quantified over…",
+  "legacy_id": "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
   "term": "fixed roster, existence extension and rigid identity",
   "definition": "The type I is a fixed possibilist roster quantified over at every world. ExistsAt W I selects its world-dependent existence extension; actualist quantifiers are represented by guards ex x w. A fixed variable x denotes literally the same Lean individual across worlds, with Lean equality; no counterpart relation or world identity criterion is supplied. A supplied w witnesses a nonempty world type; no axiom makes all existence extensions nonempty. These are stipulated mathematical semantics, not a metaphysical ontology.",
   "basis": "stipulative",

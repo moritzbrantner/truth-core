@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-PHYS-198B-CHANCE-NOT-REGULAR-SUPPORTS-REGULARITY-IS-NOT-BY-CHANCE",
+  "id": "de1a3769-a1d3-5590-a3c8-8e1e63873abf",
+  "label": "Aristotle, Physics II.8, 198b34-199a3… supports What a thing attains always or for the most…",
+  "legacy_id": "REL-ARIST-PHYS-198B-CHANCE-NOT-REGULAR-SUPPORTS-REGULARITY-IS-NOT-BY-CHANCE",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-198B-CHANCE-NOT-REGULAR-A",
+  "subject_id": "5b8effdc-c934-5063-a822-dfb41a997e2e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-REGULARITY-IS-NOT-BY-CHANCE",
+  "object_id": "070cef3e-cabc-56a5-9f78-af671d9ad194",
   "note": "Aristotle: chance and spontaneity explain exceptions, not the regular natural pattern. The same thesis, stated for the natural pattern rather than for every regular attainment."
 }

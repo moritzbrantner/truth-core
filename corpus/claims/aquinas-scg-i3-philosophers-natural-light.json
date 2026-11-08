@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-SCG-I-3-PHILOSOPHERS-NATURAL-LIGHT",
-  "statement_id": "STMT-AQUINAS-PHILOSOPHERS-PROVED-GOD-BY-NATURAL-LIGHT",
-  "source_id": "AQUINAS-SCG",
+  "id": "7fa631a5-6552-5c2c-b663-23a9c288cf81",
+  "label": "Thomas Aquinas, Summa contra gentiles I.3…: Aquinas, Summa contra Gentiles I.3 n.2: some truths…",
+  "legacy_id": "AQUINAS-SCG-I-3-PHILOSOPHERS-NATURAL-LIGHT",
+  "statement_id": "c1b7d12b-4440-5e00-a989-6b4bf138a07a",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "locator": "I.3 n.2 [23504], quae etiam philosophi demonstrative de Deo probaverunt, ducti naturalis lumine rationis",
   "interpretation": "I.3 n.2: 'Quaedam vero sunt ad quae etiam ratio naturalis pertingere potest, sicut est Deum esse, Deum esse unum, et alia huiusmodi; quae etiam philosophi demonstrative de Deo probaverunt, ducti naturalis lumine rationis.' The text does not qualify 'philosophi'; that it means philosophers outside the faith (such as Aristotle) is a reading, not stated here. The claim records the attribution of proof to them, not that the proofs succeed.",
   "status": "formalized",

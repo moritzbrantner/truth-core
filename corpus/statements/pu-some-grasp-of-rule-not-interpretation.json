@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
+  "id": "97d4cd02-c515-594b-b8f3-4f67370a0929",
+  "label": "PU §201: there is a way of grasping a rule which is not an INTERPRETATION_1, but which is exhibited…",
+  "legacy_id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
   "paraphrase": "PU §201: there is a way of grasping a rule which is not an interpretation, but which is exhibited, case by case, in what we call following the rule and going against it; 'interpretation' should be used only for substituting one expression of the rule for another. Not formalized: its Lean shadow would be the denial of STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION.",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "disambiguation_ids": [
-    "DISAMB-RULE-FOLLOWING-PARADOX"
+    "a8566ae9-153c-5329-b680-2755193dab9b"
   ]
 }

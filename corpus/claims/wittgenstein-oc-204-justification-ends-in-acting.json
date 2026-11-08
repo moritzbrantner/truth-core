@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-OC-204-JUSTIFICATION-ENDS-IN-ACTING",
-  "statement_id": "STMT-OC-JUSTIFICATION-ENDS-IN-ACTING",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "74fba185-29fe-51c2-a7c6-739f2d470da5",
+  "label": "Ludwig Wittgenstein, Über Gewißheit §204…: Über Gewißheit §§110, 204: justification comes to an…",
+  "legacy_id": "WITTGENSTEIN-OC-204-JUSTIFICATION-ENDS-IN-ACTING",
+  "statement_id": "3643f318-3f71-51d0-84b3-a5f8c91fa29f",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§204, das Ende aber ist nicht, daß uns gewisse Sätze unmittelbar als wahr einleuchten",
   "interpretation": "§204: 'Die Begründung aber, die Rechtfertigung der Evidenz kommt zu einem Ende; – das Ende aber ist nicht, daß uns gewisse Sätze unmittelbar als wahr einleuchten, also eine Art Sehen unsrerseits, sondern unser Handeln, welches am Grunde des Sprachspiels liegt.' With §110 ('nicht die unbegründete Voraussetzung, sondern die unbegründete Handlungsweise').",
   "status": "formalized",

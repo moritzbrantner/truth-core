@@ -1,6 +1,8 @@
 {
-  "id": "SIMPLICITY-COLLAPSE-CORE",
-  "argument_id": "SIMPLICITY-COLLAPSE-CORE",
+  "id": "6ef579ca-3680-5450-bca2-ffa243b36cb1",
+  "label": "In any frame, no act token and effect have the token performed at every accessible world, strict…",
+  "legacy_id": "SIMPLICITY-COLLAPSE-CORE",
+  "argument_id": "8bd1f7cb-33af-561a-b21f-28f216556e1f",
   "challenge_module": "TruthCore.Results.Modal.SimplicityCollapse.Challenge",
   "solution_module": "TruthCore.Results.Modal.SimplicityCollapse.Solution",
   "theorem": "TruthCore.Results.Modal.SimplicityCollapse.core",

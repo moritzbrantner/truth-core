@@ -1,10 +1,12 @@
 {
-  "id": "STMT-AYER-LAWS-NOT-CONCLUSIVELY-VERIFIABLE",
+  "id": "a59382df-c66f-5a26-a747-4b4160734995",
+  "label": "Ayer 1936: general propositions of law are designed to cover an infinite number of cases, so they…",
+  "legacy_id": "STMT-AYER-LAWS-NOT-CONCLUSIVELY-VERIFIABLE",
   "paraphrase": "Ayer 1936: general propositions of law are designed to cover an infinite number of cases, so they cannot, even in principle, be verified conclusively; a conclusive-verifiability criterion therefore treats them like the statements of the metaphysician.",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

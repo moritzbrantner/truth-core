@@ -1,11 +1,13 @@
 {
-  "id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
+  "id": "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+  "label": "CAUSES_AS_CAUSED_3: CausesAsCaused c x: c efficiently causes x only insofar as c is itself, here…",
+  "legacy_id": "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
   "term": "causes as caused (the per se link of a series of efficient causes; Lean `CausesAsCaused`)",
   "definition": "`CausesAsCaused c x`: c efficiently causes x only insofar as c is itself, here and now, efficiently caused. c is a middle cause (medium) of a per se ordered series of efficient causes: remove its cause and its causing is removed. 'No infinite regress' is well-foundedness of this relation (`NoInfinitePerSeEfficientCauseSeriesReading`). It is a relation between efficient causes, distinct from the mover link `MovesAsMoved` (DEF-PER-SE-ORDERED-SERIES); STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK is the explicit premise that every per se mover link is such a cause link. In Lean CausesAsCaused is a primitive relation parameter: the 'here and now' and 'remove its cause and its causing is removed' content is the intended reading, constrained only by the premises that use it; the linked declaration is the premise SecondEfficientCausesCauseOnlyAsCausedReading, not a definitional body.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-SECOND-EFFICIENT-CAUSES-A",
-    "AQUINAS-ST-I-Q46-A2-AD7-PER-SE-REGRESS-A"
+    "cc63cf0f-8d51-5c9c-b823-82869dfe5444",
+    "10a27943-b0db-5b36-ab96-0e08300b2642"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondEfficientCausesCauseOnlyAsCausedReading",
   "note": "q.2 a.3 gives the order (primum est causa medii, et medium est causa ultimi; remota causa, removetur effectus) and q.46 a.2 ad 7 restricts the impossibility of regress to per se ordered efficient causes. Which caused causes count as middle causes is the reading choice recorded by the two claims on q.2 a.3: the strong reading -A (caused in any respect) and the relevant-respect reading -B."

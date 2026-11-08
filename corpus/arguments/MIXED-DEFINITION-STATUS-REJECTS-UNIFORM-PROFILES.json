@@ -1,20 +1,22 @@
 {
-  "id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "id": "31be64a6-d8f8-5a6e-869e-344dfdfc3211",
+  "label": "Both uniform endorsement profiles fail: not all…, from An actual defined move is endorsed by the…",
+  "legacy_id": "MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
   "premise_statement_ids": [
-    "STMT-CONCILIAR-DEFINITION-STATUS-MIXED"
+    "93990bef-1be2-5827-83f8-c9376e9d2219"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "conclusion_statement_id": "3915fbb1-6020-5f07-aab9-c65793b8a7de",
   "inference_ids": [
-    "INF-MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES"
+    "174a41a6-6ad5-537a-a76d-1adee1c0cef4"
   ],
   "meaning": "The nonendorsed defined witness defeats the old universal bridge; the endorsed defined witness defeats universal nonendorsement. This rejects two uniform profiles, not theology or a whole worldview.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

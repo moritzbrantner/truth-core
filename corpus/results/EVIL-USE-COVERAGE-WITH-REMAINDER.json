@@ -1,6 +1,8 @@
 {
-  "id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
-  "argument_id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "id": "bd577c0e-8352-576b-a98a-4d3045e89cd9",
+  "label": "For a fixed critic-utterance interpretation and…, from Excluded middle as a general principle…",
+  "legacy_id": "EVIL-USE-COVERAGE-WITH-REMAINDER",
+  "argument_id": "ed68067b-7533-5bfb-901f-c1e6b05c5626",
   "challenge_module": "TruthCore.Results.Metaethics.EvilObjection.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.EvilObjection.Coverage.Solution",
   "theorem": "TruthCore.Results.Metaethics.EvilObjection.Coverage.useCoverageWithRemainder",

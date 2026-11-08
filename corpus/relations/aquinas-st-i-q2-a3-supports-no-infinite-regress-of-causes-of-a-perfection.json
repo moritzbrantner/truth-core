@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-ST-I-Q2-A3-SECUNDA-VIA-SUPPORTS-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
+  "id": "60376e71-909f-5b43-a6ee-dcd0d25775b3",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports For every perfection, causes of that…",
+  "legacy_id": "REL-AQUINAS-ST-I-Q2-A3-SECUNDA-VIA-SUPPORTS-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-ST-I-Q2-A3-NO-INFINITE-EFFICIENT-CAUSES-A",
+  "subject_id": "69d186f9-f2b6-5ba3-bc60-c523706d36ad",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
+  "object_id": "5cda1946-b22e-52dc-9524-a3611c63585c",
   "note": "The secunda via denies an infinite series of efficient causes; In Metaph. II lect. 2 nn. 11-12 (passage AQUINAS-IN-METAPH-II-L2, read in full) likewise denies an infinite line within each one species of cause and infinitely many species, as what the proof that the cause of being and truth is most true presupposes. Neither states the premise: it indexes the line by the perfection caused, so it also excludes a series of causes of one perfection that mixes species, and individually well-founded causal modes can have a non-well-founded union. The premise is an unattributed strengthening (review of PR #982). Stating a species-scoped source reading would need a species-of-cause parameter on CausesIn, which the shared vocabulary lacks."
 }

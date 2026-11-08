@@ -1,6 +1,8 @@
 {
-  "id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
-  "argument_id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "id": "62c2f576-cf0d-573e-8d6d-495f5e437088",
+  "label": "Every defined move lacks endorsement…, from Modest analyst content proposition: every… and 1 more",
+  "legacy_id": "THEOLOGICAL-EXCLUSION-SUPPLIES-NEVER-OWN-DEFINITIONS",
+  "argument_id": "3741b5e0-540f-53b6-8b50-21f241d10cc0",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Exclusion.theologyExclusionSuppliesNeverOwn",

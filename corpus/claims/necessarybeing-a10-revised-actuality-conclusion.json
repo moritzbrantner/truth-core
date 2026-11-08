@@ -1,19 +1,21 @@
 {
-  "id": "NB-SURVEY-A10-REVISED-ACTUALITY-CONCLUSION",
-  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "c42ea861-397c-5809-92f9-f1e88468af01",
+  "label": "Unattributed website author, Necessary…: Given its preceding possibility argument and revised… (5)",
+  "legacy_id": "NB-SURVEY-A10-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "704ee224-1dd9-5680-95b4-71d5925f6d05",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10C3, final then-since-we-stipulated actuality paragraph, with two preceding prima-facie argument paragraphs and final defeater context",
   "interpretation": "Reuse the literal revised actuality conclusion: the source asserts an actual must-exist cause-capable thing, then qualifies it as a prima-facie reason to think so. Its preceding paragraph establishes only claimed prima-facie warrant for possible causation by a Necessary Being, not an unqualified Dia premise. Preserve both the actual conclusion’s strength and the epistemic gap; do not silently weaken the sentence or upgrade warrant into possibility. No independent actuality proof, actual causal exercise, ordinary NecessaryAt identity or rigid-world transport is certified. C3’s same final paragraph explicitly ends with the alternative that one has a prima-facie reason to think so. Thus the whole conclusion remains epistemically qualified: literal actuality wording and its parenthetical are both retained, with no attribution of unqualified certainty or demonstrated prima-facie-to-truth fallacy. A2 revised-actuality reuse is only the conditional revised-classification possibility-to-actuality pattern; no independent actual possibility premise is supplied. Default applicability and epistemic transfer remain OPEN, not refuted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "849896d5-dde0-5f60-a951-788992e3726d"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

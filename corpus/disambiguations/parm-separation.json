@@ -1,10 +1,12 @@
 {
-  "id": "DISAMB-PARM-SEPARATION",
+  "id": "2e81d282-81fe-5f88-a787-ae9ad3403164",
+  "label": "Separation",
+  "legacy_id": "DISAMB-PARM-SEPARATION",
   "term": "separation",
   "sense_definition_ids": [
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PARM-INHERENCE",
-    "DEF-PARM-REALM-CLOSURE"
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+    "a2c9b587-0b72-5e27-8188-242348b95eed",
+    "9c0ca5cc-5c7b-51e1-8a54-9cde0829c0c2"
   ],
   "resolution": "Nonidentity, independent existence, non-inherence and cognitive relation-closure are four different commitments. DistanceObjection uses non-inherence plus a disputed grounding bridge; EpistemicObjection uses explicit knowledge closure. Neither follows from the foundation’s numerical or ontological separation. Mediation rejects knowledge closure while leaving entity nonidentity intact.",
   "term_label": "SEPARATION",
@@ -12,19 +14,19 @@
     {
       "id": "0b49f552-0a3b-46e1-a92b-a68953e995cf",
       "label": "SEPARATION_1",
-      "definition_id": "DEF-PLATONIC-INDEPENDENCE",
+      "definition_id": "54f18827-52a3-5979-a4e7-70380e3c7dd6",
       "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
     },
     {
       "id": "d1d840ce-4cef-4cb8-9d8c-16accd58ddad",
       "label": "SEPARATION_2",
-      "definition_id": "DEF-PARM-INHERENCE",
+      "definition_id": "a2c9b587-0b72-5e27-8188-242348b95eed",
       "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Explanation"
     },
     {
       "id": "d7935f74-d84d-4039-87b4-04324f73c82f",
       "label": "SEPARATION_3",
-      "definition_id": "DEF-PARM-REALM-CLOSURE",
+      "definition_id": "9c0ca5cc-5c7b-51e1-8a54-9cde0829c0c2",
       "lean_declaration": "TruthCore.Greek.Plato.Parmenides.ParticipationChallenges.Cognition"
     }
   ]

@@ -1,31 +1,33 @@
 {
-  "id": "UNDERIVED-ROUTE-CONTROLS",
+  "id": "5c23af16-9dbb-5697-b0b5-f9f50263e134",
+  "label": "Formal facts about the #487 route",
+  "legacy_id": "UNDERIVED-ROUTE-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-UNDERIVED-ROUTE-CONTROLS",
+  "conclusion_statement_id": "75ab9171-5319-5052-805c-10e8469d529a",
   "inference_ids": [
-    "INF-UNDERIVED-ROUTE-CONTROLS"
+    "6fdbc7ea-5567-504e-983c-b0fff9150e50"
   ],
   "meaning": "Finite-model and natural-number constructions, and direct proofs of the two quantified implications. Each premise is needed, in that omitting it alone can defeat the conclusion in the encoded semantics, and the premises give neither unity nor a ground entailing its effect.",
   "definition_ids": [
-    "DEF-UNDERIVED-ROOT-ROUTE",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-NECESSARY-PREDECESSOR-LIFTING",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-NO-NOVEL-NECESSARY-SUPPORT",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "5a5b976e-36e1-53f5-a1b1-a723cacd0206",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "a0763d0d-cd6b-5c08-a33a-f53ab8edd941",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

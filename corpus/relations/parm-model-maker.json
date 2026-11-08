@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-MODEL-MAKER",
+  "id": "0736a847-b1bd-5500-8e8a-54e5bffcb8c8",
+  "label": "Plato, Timaeus 28a–b: The craftsman looking… supports An exemplar can guide a numerically…",
+  "legacy_id": "REL-PARM-MODEL-MAKER",
   "subject_kind": "claim",
-  "subject_id": "PLATO-TIM-28A-MODEL-AND-MAKER",
+  "subject_id": "456e6897-4418-5b5c-89de-51ab9ec7ff89",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-MODEL-MAKER-BRIDGE"
+  "object_id": "4fa50912-f139-518d-b55e-f1fbd0e4dae7"
 }

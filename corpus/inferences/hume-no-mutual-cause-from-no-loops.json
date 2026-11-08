@@ -1,9 +1,11 @@
 {
-  "id": "INF-HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
+  "id": "dbf76dda-d3e2-5ef9-91fd-c459e02ec3f1",
+  "label": "Nothing is both the cause and the effect of another thing: for distinct x and y, x…, by Composition",
+  "legacy_id": "INF-HUME-NO-MUTUAL-CAUSE-FROM-NO-LOOPS",
   "input_statement_ids": [
-    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936"
   ],
-  "output_statement_id": "STMT-HUME-NO-MUTUAL-CAUSE",
+  "output_statement_id": "c3ace4b2-f43b-5085-8bb1-bd057386eadd",
   "rule": "composition",
   "meaning": "If x caused y and y caused x, the two edges would form a nonempty finite causal path from x back to x, which the no-loops premise excludes.",
   "assumption_statement_ids": [],

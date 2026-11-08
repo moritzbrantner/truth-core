@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-COMPOUND-A",
-  "statement_id": "STMT-INFINITE-SENSIBLE-BODY-NOT-COMPOUND",
-  "source_id": "ARIST-PHYS",
+  "id": "131568f8-74bb-5b7a-94f3-fdae66413176",
+  "label": "Aristotle, Physics III.5, 204b10-22: An actually infinite sensible body cannot be a compound of…",
+  "legacy_id": "ARIST-PHYS-204B-INFINITE-BODY-NOT-COMPOUND-A",
+  "statement_id": "c4b95a6f-000b-5ea9-b32f-e7c519dcaec3",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204b10-22",
   "interpretation": "Physical case analysis: an infinite sensible body cannot be a compound of the finite contrary elements. An infinite amount of one would overwhelm a finite contrary, while making every component infinite is also excluded. The elemental physics is kept source-scoped rather than generalized.",
   "status": "formalized"

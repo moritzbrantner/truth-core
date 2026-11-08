@@ -1,11 +1,13 @@
 {
-  "id": "DISAMB-PER-SE",
+  "id": "002f42cb-3015-5644-80b3-d408538394e6",
+  "label": "Per se",
+  "legacy_id": "DISAMB-PER-SE",
   "term": "per se",
   "sense_definition_ids": [
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-SELF-EVIDENT-MARKING",
-    "DEF-NATURAL-LAW-PER-SE-NOTA"
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "e5479060-c1e7-5eea-ac3e-2b3a74f4db05"
   ],
   "resolution": "Three different uses share the words 'per se': a per se ordered series (prima via, `MovesAsMoved`), being necessary per se (tertia via, `IsNecessaryPerSe`: no cause of necessity from elsewhere), and being self-evident (per se notum; in this corpus the `self_evident` marking). Each is its own predicate or record field and no inference moves between them: the convergence result TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS uses only `IsNecessaryPerSe`, and the self-evidence of STMT-EXCLUDED-MIDDLE rests on Aristotle's elenctic defence, not on per se ordering. The natural-law per-se-nota reading is Aquinas’s predicate-in-the-subject account of self-evidence. A claim proposing this account is not already a corpus self_evident marking. Not forked (sense fork batch 3, #1233 B): the senses are homonyms, not rival readings of one use. The two propositional senses already have distinct Lean declarations of different types (DEF-PER-SE-ORDERED-SERIES: NoInfinitePerSeMoverSeriesReading over a moving relation; DEF-NECESSARY-PER-SE: IsNecessaryPerSe, a predicate of beings with a cause-of-necessity relation), so substituting one for the other at any root-path use is already a type error. The two epistemic senses (DEF-SELF-EVIDENT-MARKING, a corpus record marking; DEF-NATURAL-LAW-PER-SE-NOTA, a status of propositions) are not propositions about beings and have no Lean declaration to substitute. No root-path step admits two of the four senses, so no coverage or exclusivity premise has a use to range over. The rival-relevant split inside the first sense, per se versus per accidens ordering, is DISAMB-PER-SE-LINK's (needs: a step whose one use admits two senses).",
   "term_label": "PER_SE",
@@ -13,24 +15,24 @@
     {
       "id": "df046130-853b-41ae-b3fb-afc126d06c0d",
       "label": "PER_SE_1",
-      "definition_id": "DEF-PER-SE-ORDERED-SERIES",
+      "definition_id": "c9798301-e990-5ca2-a36e-6b11f76206c1",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading"
     },
     {
       "id": "110c4d86-2460-4eb0-9d99-79442908d368",
       "label": "PER_SE_2",
-      "definition_id": "DEF-NECESSARY-PER-SE",
+      "definition_id": "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
       "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
     },
     {
       "id": "466d3a02-acfc-456c-b1cb-5d7ebf54d2ca",
       "label": "PER_SE_3",
-      "definition_id": "DEF-SELF-EVIDENT-MARKING"
+      "definition_id": "500ba323-cca5-5b35-8b75-947008256c43"
     },
     {
       "id": "165425e5-fcc8-4b47-a1d1-5ece276c2463",
       "label": "PER_SE_4",
-      "definition_id": "DEF-NATURAL-LAW-PER-SE-NOTA"
+      "definition_id": "e5479060-c1e7-5eea-ac3e-2b3a74f4db05"
     }
   ]
 }

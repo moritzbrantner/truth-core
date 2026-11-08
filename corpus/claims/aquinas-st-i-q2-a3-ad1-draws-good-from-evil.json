@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
-  "statement_id": "STMT-GOD-DRAWS-GOOD-FROM-EVERY-EVIL",
-  "source_id": "AQUINAS-ST",
+  "id": "39182c22-aaae-53f3-a2fc-286c1a4a939a",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: For any GOD_3 g and any subject x with EVIL_1 in it…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-AD1-DRAWS-GOOD-FROM-EVIL",
+  "statement_id": "42f642f4-189d-51da-91f0-7e19f0c0f87b",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 ad 1: ad infinitam Dei bonitatem pertinet, ut esse permittat mala, et ex eis eliciat bona",
   "interpretation": "Reading A: the final plural sentence is distributed over every evil there is, with actual production of some good for each evil-bearing subject. This is the stronger, disputed reading retained by the existing Catholic consistency comparison, not a theorem that every evil is individually justified. Sibling reading B preserves collective actual production; reading C extracts the preceding quotation's capability condition on permission. Neither mere ability nor collective scope establishes this per-evil actual-production claim. Good need not outweigh evil, benefit its sufferer, be unique to it or make the world best possible. No formal strength implication between the different relation parameters is supplied. Fidelity gap: the final permittat / eliciat are coordinated subjunctives dependent on pertinet ut; they do not by themselves assert an indicative actual good token for each existing evil. The older formula also omits an explicit permission condition. It remains a disputed stronger interpretation for the frozen comparison, not a discharged claim or an attribution established merely by consistency.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-EVIL-AS-PRIVATION",
-    "DEF-AD1-DISTRIBUTIVE-ACTUAL-GOOD"
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+    "1b7a35e9-8fc2-5469-9562-a5681e1b3e92"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-AD1-GOOD-FROM-EVIL",
-    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "96042b66-e854-59f3-a8b5-061a3f7d8136",
+    "3d6d3fd7-2acc-5ceb-9550-f968d0732b2a"
   ]
 }

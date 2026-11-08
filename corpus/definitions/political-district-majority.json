@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POLITICAL-DISTRICT-MAJORITY",
+  "id": "2fd6cc47-bd33-51c4-b1f1-bdb5a0127fa5",
+  "label": "Two-stage district majority in the\u2026: Profile is Fin 3 \u2192 Fin 3 \u2192 Bool: district index and\u2026",
+  "legacy_id": "DEF-POLITICAL-DISTRICT-MAJORITY",
   "term": "two-stage district majority in the equal-size nine-voter fixture",
   "definition": "Profile is Fin 3 \u2192 Fin 3 \u2192 Bool: district index and within-district voter index, true meaning A. Each district has exactly three voters. count sums the three Bool.toNat values; localCount applies it within a district; popularCount sums the three local counts. popularWin is at least five A votes. districtWin is at least two districts with at least two A votes. Every ballot has weight one within its district; equal districts each have weight one in the second stage. There are no ties. packed has local A counts 3,1,1; spread has 2,2,1. No voter identity correspondence beyond the total multiplicities is encoded.",
   "basis": "stipulative",

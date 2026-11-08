@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ABSTRACT-FREGE-CRITERION",
+  "id": "d609a32e-8479-511d-85d6-c10d864dc85c",
+  "label": "Abstract as neither mental nor physical: FregeCriterionAbstract mental physical x:= ¬ mental x ∧ ¬…",
+  "legacy_id": "DEF-ABSTRACT-FREGE-CRITERION",
   "term": "abstract as neither mental nor physical (Frege's rival criterion)",
   "definition": "FregeCriterionAbstract mental physical x := ¬ mental x ∧ ¬ physical x, for supplied predicates. It is a sibling sense, not the adopted one.",
   "basis": "stipulative",

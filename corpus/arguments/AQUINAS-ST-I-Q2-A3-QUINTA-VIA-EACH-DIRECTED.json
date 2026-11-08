@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
+  "id": "660caa99-e338-580a-afe0-59b291c8a40c",
+  "label": "Each natural body is directed to something best for it by some knowing and…, via each directed",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED",
   "premise_statement_ids": [
-    "STMT-NATURAL-BODIES-LACK-COGNITION",
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
-    "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-    "STMT-REGULAR-BEST-BY-CHANCE-OR-BY-INTENTION",
-    "STMT-NON-COGNITIVE-TENDING-NEEDS-KNOWING-DIRECTOR"
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f"
   ],
-  "conclusion_statement_id": "STMT-EACH-NATURAL-BODY-DIRECTED-BY-A-KNOWER",
+  "conclusion_statement_id": "9b1ad50c-535e-5a4c-9f95-990a0e72cbc2",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-QUINTA-VIA-EACH-DIRECTED"
+    "a6e3c066-cdbd-5cea-8644-dae8fa596ecd"
   ],
   "meaning": "ST I q.2 a.3 co., quinta via before the scope step: each natural body is directed by some knower. Composes AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ACTS-FOR-AN-END. Also verified: teleonomyModel (the arrow-and-archer premise is needed: bodies tend to the best and nothing directs them) and naiveScopeShiftFails (all premises hold, two archers each direct one body, and no single intelligent being directs all: the quinta via's literal conclusion does not follow from its stated premises)."
 }

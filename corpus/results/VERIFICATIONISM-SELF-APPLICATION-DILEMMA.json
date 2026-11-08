@@ -1,6 +1,8 @@
 {
-  "id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
-  "argument_id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "id": "0bd651df-63c6-5b96-90df-4b488b1735f1",
+  "label": "The verificationist self-application…, from Scope premise: the formulation of the… and 2 more",
+  "legacy_id": "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
+  "argument_id": "a3c1988e-c9c3-544b-a8c0-14f27f650c49",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.SelfApplication.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.SelfApplication.verificationistDilemma",

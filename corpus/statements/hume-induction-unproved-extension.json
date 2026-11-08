@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HUME-INDUCTION-UNPROVED-EXTENSION",
+  "id": "de8e3d60-a5ef-57c8-8f12-96df29118512",
+  "label": "Reason does not prove extending observed conjunction to unobserved instances",
+  "legacy_id": "STMT-HUME-INDUCTION-UNPROVED-EXTENSION",
   "paraphrase": "Reason does not prove extending observed conjunction to unobserved instances. The historical relations are explicit interpretation parameters, not proved psychological or epistemological facts.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.UnprovedExtension",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-FOUNDATION",
-    "DEF-HUME-INDUCTION-RECORD",
-    "DEF-HUME-INDUCTION-PERSISTENCE"
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d",
+    "8eaba896-98d9-52a7-83c2-bd44d790f08b",
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

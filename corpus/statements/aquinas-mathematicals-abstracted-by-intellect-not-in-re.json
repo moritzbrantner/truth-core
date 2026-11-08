@@ -1,11 +1,13 @@
 {
-  "id": "STMT-AQUINAS-MATHEMATICALS-ABSTRACTED-BY-INTELLECT-NOT-IN-RE",
+  "id": "117fc030-319d-5509-a563-5fcff047177b",
+  "label": "Numbers, dimensions and figures can be considered by the intellect apart from sensible qualities…",
+  "legacy_id": "STMT-AQUINAS-MATHEMATICALS-ABSTRACTED-BY-INTELLECT-NOT-IN-RE",
   "paraphrase": "Numbers, dimensions and figures can be considered by the intellect apart from sensible qualities; what the intellect so abstracts is not thereby abstract in reality, and Plato erred in positing that it is.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Source reading behind the owner's paradigm that numbers have esse only in the intellect (#1103). It is no premise of any argument. It does not deny that quantity exists in re as an accident of substances."
 }

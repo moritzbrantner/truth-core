@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
-  "argument_id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "id": "77dfaa50-3526-56f0-9e45-bd3b9151f3eb",
+  "label": "Every right-summand pure-set representative is…, from Every located set representative has a…",
+  "legacy_id": "NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "argument_id": "7651bcd6-eeca-55eb-b72e-5136c283cd13",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismSets.Unlocation.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismSets.unlocated",

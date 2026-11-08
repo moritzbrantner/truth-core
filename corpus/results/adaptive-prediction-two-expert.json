@@ -1,6 +1,8 @@
 {
-  "id": "ADAPTIVE-PREDICTION-TWO-EXPERT",
-  "argument_id": "ADAPTIVE-PREDICTION-TWO-EXPERT",
+  "id": "6828b60a-3b7d-5099-a6d1-eafd75e4eab9",
+  "label": "For each pool of two total history-based binary experts, the original weighted-majority learner…",
+  "legacy_id": "ADAPTIVE-PREDICTION-TWO-EXPERT",
+  "argument_id": "e989016c-5bfa-5528-9752-2d526b20e0dc",
   "challenge_module": "TruthCore.Results.Logic.AdaptivePrediction.Challenge",
   "solution_module": "TruthCore.Results.Logic.AdaptivePrediction.Solution",
   "theorem": "TruthCore.Results.Logic.AdaptivePrediction.twoExpertComparison",

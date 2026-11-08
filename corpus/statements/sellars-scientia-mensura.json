@@ -1,7 +1,9 @@
 {
-  "id": "STMT-SELLARS-SCIENTIA-MENSURA",
+  "id": "9f9b341f-d127-5483-b6aa-f1a777f74f00",
+  "label": "Scientia mensura: in the dimension of describing and explaining the world, science is the measure…",
+  "legacy_id": "STMT-SELLARS-SCIENTIA-MENSURA",
   "paraphrase": "Scientia mensura: in the dimension of describing and explaining the world, science is the measure of all things, of what is that it is and of what is not that it is not. Untyped: encoding it needs vocabulary for what science describes and explains, which the corpus does not have. It is a methodological thesis; it does not by itself say that what science countenances is spatiotemporal.",
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

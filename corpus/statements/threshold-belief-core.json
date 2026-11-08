@@ -1,13 +1,15 @@
 {
-  "id": "STMT-THRESHOLD-BELIEF-CORE",
+  "id": "1109d983-5dbd-5b2d-ad9e-b0dc9e7be588",
+  "label": "For every finite measurable space with measurable singletons and normalized Mathlib probability…",
+  "legacy_id": "STMT-THRESHOLD-BELIEF-CORE",
   "paraphrase": "For every finite measurable space with measurable singletons and normalized Mathlib probability measure, and every real threshold 0<t≤1, the heavy core C_t={x | 1-t<μ({x})} consists exactly of the points in every threshold-accepted event. Binary conjunction closure is equivalent to μ(C_t)≥t; the universal event is accepted and the empty event rejected. These are structural properties of the selected full-belief policy, not a reason-to-belief or epistemic-authority theorem.",
   "lean_declaration": "TruthCore.Logic.ThresholdBelief.CoreBoundary",
   "definition_ids": [
-    "DEF-THRESHOLD-FULL-BELIEF-POLICY",
-    "DEF-THRESHOLD-HEAVY-CORE",
-    "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS"
+    "1f99af1e-04fe-5f06-bdd4-0db8178c79c2",
+    "e4f9bc2a-f6e6-54a6-86b5-1658eff0aef6",
+    "50615194-355b-576c-897b-5e30289d0e2f"
   ],
   "disambiguation_ids": [
-    "DISAMB-THRESHOLD-BELIEF-REASON-AND-TRUTH"
+    "a6f612f9-4953-5637-9597-315c19cbb07c"
   ]
 }

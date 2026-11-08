@@ -1,6 +1,8 @@
 {
-  "id": "ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
-  "argument_id": "ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "id": "89a7debe-f76a-51ad-a057-8abc19fdb9a7",
+  "label": "WITTGENSTEINIAN_FIDEISM_2 in the sharp…, from Every selected admitted situation has a… and 1 more",
+  "legacy_id": "ALL-ADMISSIBLE-CUT-OFF-RESTRICTS-TO-ACTUAL",
+  "argument_id": "0243b3b4-89f6-5ae5-a95c-d30110dff4eb",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Actual.allCutOffRestrictsToActual",

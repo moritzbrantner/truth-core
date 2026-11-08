@@ -1,9 +1,11 @@
 {
-  "id": "DEF-DASGUPTA-GROUND",
+  "id": "a9e9d879-2f53-5075-9a2a-ff570aafa481",
+  "label": "GROUND_3: Grounding explanation, also called metaphysical or constitutive explanation: what it is…",
+  "legacy_id": "DEF-DASGUPTA-GROUND",
   "term": "ground (Dasgupta)",
   "definition": "Grounding explanation, also called metaphysical or constitutive explanation: what it is about a thing in virtue of which a fact obtains, as how people are acting makes an event count as a conference, in contrast to what caused it. Written 'the Xs ground Y', plural Xs and singular Y ranging over facts, which he calls a convenient shorthand for a sentential operator 'because'. He assumes it transitive and takes the notion for granted, giving no analysis (§1, pp.381-382). A fact is substantive if apt for being grounded, autonomous if not; of apt facts, brute or fundamental ones lack a ground and derivative ones have one (§§2-3, pp.383-385). Conjunctions are a paradigm of facts grounded in their conjuncts (§6, pp.392-393). His PSR: every substantive fact has an autonomous ground. Necessitarianism there: every truth is necessarily true.",
   "basis": "sourced",
   "claim_ids": [
-    "DASGUPTA-MR-GROUND-CONJUNCTS"
+    "88016e2d-fedc-55f3-9a81-b71dd069b4e0"
   ]
 }

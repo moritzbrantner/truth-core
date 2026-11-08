@@ -1,24 +1,26 @@
 {
-  "id": "STMT-A1-EXTERNAL-WHOLE-CAUSE",
+  "id": "95746fd0-e1b0-5ad8-98ad-0d3bebb6df6e",
+  "label": "OutsideCause whole: there is a concrete source existing at w, causing whole at w and not ≤ whole",
+  "legacy_id": "STMT-A1-EXTERNAL-WHOLE-CAUSE",
   "lean_declaration": "TruthCore.Causality.ContingentTotalityCause.ExternalWholeCause",
   "paraphrase": "OutsideCause (ActualConcreteCause s w) whole: there is a concrete source existing at w, causing whole at w and not ≤ whole. With reflexive Mathlib parthood this also excludes selfhood. This is an existential causal premise, not a definition that guarantees its own satisfaction.",
   "definition_ids": [
-    "DEF-A1-COVERED-CONTINGENTS",
-    "DEF-A1-ACTUAL-CONCRETE-CAUSE",
-    "DEF-A1-EXTERNAL-WHOLE-CAUSE",
-    "DEF-A1-NECESSARY-WHOLE-CAUSE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-FUSION-OUTSIDE-CAUSE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-CONTINGENCY-TOTALITY-EXTERNAL-CANDIDATE"
+    "a1f7d448-b7e4-503b-aae8-6b3d7c5f0f08",
+    "2c7e9221-fe11-5a47-bf59-3d238219a9fd",
+    "620840ba-d818-53f4-8309-0f0237ddfaee",
+    "63729b83-5e81-5968-a451-a36450fb1ed0",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "46f6e845-7a48-504d-b253-754e0563a7c5",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-A1-TYPED-EXTERNALITY"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "5d9c2ff8-19a5-5525-97fe-621183137fcc"
   ]
 }

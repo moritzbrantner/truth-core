@@ -1,27 +1,29 @@
 {
-  "id": "ATTEMPT-NECESSARY-INDIVIDUAL-QUANTIFIER-SHIFT",
+  "id": "be27e1d4-03e8-53cf-af6f-75ab52536c4b",
+  "label": "The existing collective-possibility dossier and Third Way declarations distinguish the contested…",
+  "legacy_id": "ATTEMPT-NECESSARY-INDIVIDUAL-QUANTIFIER-SHIFT",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-ALL-CAN-NOT-BE-THEN-NOTHING-POSSIBLE",
-    "STMT-NECESSARY-INDIVIDUAL-LAWS",
-    "STMT-NECESSARY-INDIVIDUAL-ALTERNATING",
-    "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
-    "STMT-ACTUALIST-DOMAIN-CORRESPONDENCE"
+    "cd6ddd56-29bd-568b-ad1b-1fc81cc84da8",
+    "fc902dc1-83ef-51de-8ddb-66e98c407bec",
+    "f97568ac-456e-5f51-9e83-66907aabab76",
+    "9d216dd8-797c-50a4-af4d-e988f7e0758f",
+    "c058f148-021a-5cbe-b46b-e97dfc04ca53"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "The existing collective-possibility dossier and Third Way declarations distinguish the contested shift from temporal plenitude. With shared Kripke Dia substituted for primitive Possible, the same collective premise fails in a two-world alternating-witness model, despite reflexivity, finite rigid roster and actual concrete existence. Necessary exemplification does not imply a fixed necessary individual. Separate existence/concrete predicates require a bridge, refuted without it by an explicit nonempty model. No source reading or necessity premise is established; stronger concreteness criteria, source defenses, and actualist/counterpart alternatives remain #435 work. See docs/necessary-individual-quantifiers.md. The follow-on actualist domain correspondence isolates a different, universal-quantifier transfer issue: with arbitrary total predicates and existence-guarded quantifiers, the two directions exactly match increasing/decreasing domains. The unchanged PSR.ContingentOnly profile has a necessary inhabitant in every universally accessible world yet falsifies both transfers. Thus S5 and rigid identity do not supply domain persistence. No counterpart or partial-predicate interpretation is silently adopted; those remain outside this profile. Temporal strict-past seriality would encode existing PastIsInfinite on a predecessor-closed past subtype; inclusive past is reflexive/serial even with a first moment. That separately scoped interface is inventoried, not implemented in the domain result. The serialized warm checker accepted the four canonical domain targets with no errors/warnings and reported no axioms for each (causal-harvest Scratch/Lane3ActualistDomains.lean v1; effective input SHA256 c9468fea915c59f018eb88f9667cf28787eca145aa941741c3cdb60d8bfb6a71, checker worktree head344a6489). Frozen canonical Challenge SHA256663a09ca731e77675bab6b0bc42821002c71aa12bcd3357242c409d7c6190acd was not changed. This is interactive proof-development evidence; final delivered CI owns binding, Comparator and NanoDa, without duplicated local delivery gates.\n\nDefinition/route audit (2026-11-06): the global naive quantifier-shift schema was incorrectly recorded as alternative_to collective possibility even though its relation note called it an alternative way to LICENSE the same step. Its existing refutation is retained, but that method-as-rival edge is removed. New exact local-scope strength and positive local-route results expose distributive realization and a weaker realized-common-absence-to-Possible interface. Common/alternating/disallowed-common controls show global invalidity does not settle the local shift or collective target. A precise individual-possible/joint-impossible countercase and exact unrefuted negative counterpart retain meaningful opposition; the original perpetual-succession rival is unchanged. Actual-record counterfactual before repair: removing only the unencoded perpetual-succession edge made collective possibility established as alternatives_refuted from the refuted positive method. The repaired exact complement blocks that false closure. No source interpretation, floor or engine authority changes. Detailed evidence/reproduction in docs/notes/collective-possibility-route-boundary.md.",
   "evidence": [
-    "NECESSARY-INDIVIDUAL-LAWS",
-    "NECESSARY-INDIVIDUAL-ALTERNATING",
-    "NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
-    "ACTUALIST-DOMAIN-CORRESPONDENCE",
-    "GLOBAL-TEMPORAL-SHIFT-STRENGTHENS-LOCAL",
-    "REALIZED-POSSIBILITY-STRENGTHENS-COMMON-ABSENCE",
-    "COLLECTIVE-POSSIBILITY-FROM-LOCAL-QUANTIFIER-ROUTE",
-    "COLLECTIVE-POSSIBILITY-FAILS-FROM-DECIDING-INPUTS",
-    "COLLECTIVE-COUNTERCASE-NEGATES-COLLECTIVE-PREMISE",
-    "COLLECTIVE-POSSIBILITY-COUNTERCASE-FORK",
-    "COLLECTIVE-POSSIBILITY-ROUTE-BOUNDARIES"
+    "803298b6-0496-5105-a514-ef675486813b",
+    "514112f2-cdc0-558e-aaed-fd0286bdc824",
+    "8b4e2a02-0140-5ee1-87fa-b231176297d7",
+    "e6a55f69-d26f-5867-aed8-379cc98fafcc",
+    "f337cebd-9bb0-5041-8f8b-017b7e644d5b",
+    "4e239cdd-7129-5198-b38b-847c25ee7f3c",
+    "eb949e88-40d3-58f0-a8a6-50abda17217e",
+    "44e47ee8-378b-5321-b71e-92b1fab46569",
+    "22f83b9a-18d7-5422-bc6d-74e81c3d2339",
+    "0b681fca-1e04-577b-8703-f7dd1b895e19",
+    "4658a923-e4d9-54f6-ad6d-ded45a416599"
   ]
 }

@@ -1,17 +1,19 @@
 {
-  "id": "RUSSELL-ATOMISM-V-ANALYSIS-INCOMPLETE",
-  "statement_id": "STMT-RUSSELL-GENERAL-FACT-ANALYSIS-OPEN",
-  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "id": "c580477d-db12-5177-ae41-d633d3530ae2",
+  "label": "Bertrand Russell, The Philosophy of Logical…: Russell admits general and existence facts and says…",
+  "legacy_id": "RUSSELL-ATOMISM-V-ANALYSIS-INCOMPLETE",
+  "statement_id": "bcdb9a97-621a-5be7-a4dd-5b949e0538e9",
+  "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
   "locator": "V.71–72",
   "interpretation": "Russell admits general and existence facts and says the propositional-function treatment is not their complete analysis. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RUSSELL-LOGICAL-ANALYSIS",
-    "DEF-RUSSELL-QUANTIFIER-EXISTENCE"
+    "7917975f-a920-5ade-99df-11f19231f0a0",
+    "5873c837-35ba-5ca2-91a8-07808c67e461"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

@@ -1,10 +1,11 @@
 {
-  "id": "INF-NOMINAL-GOD-NAMING-IS-ANALYTIC",
+  "id": "ad1e01b8-9eeb-5d59-807b-4d8572079c66",
+  "label": "GOD_1: the naming premise read nominally is analytic",
+  "legacy_id": "INF-NOMINAL-GOD-NAMING-IS-ANALYTIC",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE",
+  "output_statement_id": "21043f97-fcc6-5f0f-94f9-c4786bdb8cd3",
   "rule": "Conjunction introduction",
   "meaning": "GOD_1 (NOMINAL) branch of the naming use: read as what the name signifies, 'the fully described principle is God' needs no premise. Recorded as its own statement so that it cannot be taken for the GOD_4 root premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, whose Lean declaration is generic in the God predicate.",
   "assumption_statement_ids": [],
-  "discharged_statement_ids": [],
-  "label": "GOD_1: the naming premise read nominally is analytic"
+  "discharged_statement_ids": []
 }

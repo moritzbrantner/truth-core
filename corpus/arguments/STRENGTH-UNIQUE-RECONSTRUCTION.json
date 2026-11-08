@@ -1,15 +1,17 @@
 {
-  "id": "STRENGTH-UNIQUE-RECONSTRUCTION",
+  "id": "4979a72c-6dea-597b-9272-932c64aedc01",
+  "label": "For an arbitrary supplied type and predicate…, from For an arbitrary supplied type and… and 1 more",
+  "legacy_id": "STRENGTH-UNIQUE-RECONSTRUCTION",
   "premise_statement_ids": [
-    "STMT-STRENGTH-EXISTS",
-    "STMT-STRENGTH-AT-MOST-ONE"
+    "6694be77-c7b2-5199-b1e8-514e640c491c",
+    "a0c179aa-43a0-5c0a-8b80-55cbfab4a6b5"
   ],
-  "conclusion_statement_id": "STMT-STRENGTH-UNIQUE-EXISTS",
+  "conclusion_statement_id": "f976f890-aba8-59cb-a312-1feaf833e727",
   "inference_ids": [
-    "INF-STRENGTH-UNIQUE-RECONSTRUCTION"
+    "005d628a-29ff-51a3-9a8a-7329dfcd1654"
   ],
   "meaning": "Keep the existing existential witness and use at most one to prove every other predicate witness equals it.",
   "definition_ids": [
-    "DEF-STRENGTH-PREDICATE-UNIQUENESS"
+    "386b5abc-2823-5130-a942-69bc2fe2f93f"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-LE-WONDER-AT-EXISTENCE",
-  "statement_id": "STMT-LE-WONDER-AT-EXISTENCE-NONSENSE",
-  "source_id": "WITTGENSTEIN-LECTURE-ON-ETHICS",
+  "id": "7920675c-4424-53fa-8755-bbe9200ea2f2",
+  "label": "Ludwig Wittgenstein, A Lecture on Ethics LE…: Lecture on Ethics: the expression 'I wonder at the…",
+  "legacy_id": "WITTGENSTEIN-LE-WONDER-AT-EXISTENCE",
+  "statement_id": "ffedc67e-b671-560c-ae6e-c0a8e5337515",
+  "source_id": "8010d534-7439-5be8-afc2-524b0a9abe83",
   "locator": "LE it is nonsense to say that I wonder at the existence of the world",
   "interpretation": "'it is nonsense to say that I wonder at the existence of the world, because I cannot imagine it not existing'; to wonder at something has sense only if I can imagine it not to be the case. Later: this experience 'is, I believe, exactly what people were referring to when they said that God had created the world'.",
   "status": "formalized",

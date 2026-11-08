@@ -1,6 +1,8 @@
 {
-  "id": "RELATIVISM-LOCAL-SECOND-ORDER",
-  "argument_id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "id": "eadffb4c-d973-5990-9f2d-6045893a24b0",
+  "label": "Second-order test for local relativism: a local thesis inside its own domain is not absolutely…",
+  "legacy_id": "RELATIVISM-LOCAL-SECOND-ORDER",
+  "argument_id": "7f17e7ee-0ada-5041-8582-a46b04d39bc0",
   "challenge_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution",
   "theorem": "TruthCore.Results.Logic.Relativism.LocalSecondOrder.localRelativismSecondOrder",

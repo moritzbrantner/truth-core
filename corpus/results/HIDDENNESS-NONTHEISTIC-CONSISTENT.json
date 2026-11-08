@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
-  "argument_id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "id": "f073aa58-bdf3-5f66-b677-dcd61182d2ea",
+  "label": "The encoded non-theistic hiddenness commitments have a joint interpretation, which includes actual…",
+  "legacy_id": "HIDDENNESS-NONTHEISTIC-CONSISTENT",
+  "argument_id": "fe08747a-c24b-50c2-b2cb-2040f07fc873",
   "challenge_module": "TruthCore.Results.Hiddenness.NontheisticConsistent.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.NontheisticConsistent.Solution",
   "theorem": "TruthCore.Results.Hiddenness.NontheisticConsistent.nontheisticConsistent",

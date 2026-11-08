@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
-  "argument_id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "id": "08287847-042a-53fb-9779-5bdf260167e0",
+  "label": "One fixed interpretation has natural-number modal world labels, three rigid candidate individuals…",
+  "legacy_id": "MODAL-DEGREE-UNBOUNDED-WORLD-CONTROL",
+  "argument_id": "cf3646b0-2c24-58ed-a837-7397356fe45b",
   "challenge_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Challenge",
   "solution_module": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solution",
   "theorem": "TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.unboundedWorldControl",

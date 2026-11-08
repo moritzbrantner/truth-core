@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
+  "id": "e69257ea-29f2-5b04-b942-a2f865a5e992",
+  "label": "POSITIVE_BOOLEAN_MEREOLOGY_3: For a supplied Mathlib CompleteBooleanAlgebra A, Positive A removes…",
+  "legacy_id": "DEF-POSITIVE-BOOLEAN-MEREOLOGY",
   "term": "positive Boolean mereology",
   "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.PositiveProfile",
   "basis": "stipulative",
