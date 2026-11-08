@@ -1,0 +1,87 @@
+# Causality root wiring: verified Causality conclusions that no root route
+# consumed become premises of arguments whose conclusions lie on the designated
+# root route. Map: explorations/causality-root-wiring.toml.
+# No new proposition: every premise and conclusion is an existing statement.
+
+[batch]
+vocab = "TruthCore.Causality.RootWiring"
+results = "TruthCore.Results.Causality.RootWiring"
+
+[[statement]]
+id = "STMT-ROOT-WIRING-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the eight root-wiring derivations: for the premise that carries each derivation (the owner-approved concreteness commitment, the rival refutation, the performed doubt and the retorsion), a model on Unit or Bool in which the other non-logical premises hold and the conclusion fails, and one joint model in which every premise and conclusion holds with populated antecedents (a thinking, existing, causing and empowered concrete bearer; a being in act in esse; a being moved in potency; a per se mover link that is a per se cause link; a performed doubt realized by an occurring thought). Excluded middle is not omitted: it has no finite countermodel in a classical metatheory. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-THOUGHT-BEARER", "DEF-ESSE"]
+disambiguations = []
+
+[[argument]]
+id = "COGITO-INHABITED-CONCRETE-FROM-FLOOR-ACTIVITY"
+theorem = "inhabitedFromFloorActivity"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rule = "Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY (inhabitedFromProduction) and conjunction elimination"
+meaning = "Some concrete candidate exists at w, by the existing Round 4 activity derivation (inhabitedFromProduction, imported and applied), with the owner-approved floor commitment STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS (capacity and activity clauses at the same w, on the same Causes and concrete) supplying the activity clause that the old argument took as the bare premise STMT-CAUSERS-REQUIRE-CONCRETENESS-AT. The other five premises are unchanged and remain OPEN; the contested production of an inner word (STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT) is still required. It does not establish the floor commitment, which rests on its owner approval, and it says nothing about what concreteness is beyond the supplied predicate."
+
+[[argument]]
+id = "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER"
+theorem = "inhabitedFromFloorPower"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rule = "Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER (inhabitedFromPower) and conjunction elimination"
+meaning = "Some concrete candidate exists at w, by the existing Round 4 capacity derivation (inhabitedFromPower, imported and applied), with the owner-approved floor commitment supplying the capacity clause that the old argument took as the bare premise STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT, for the same hasCausalPower predicate as STMT-INTELLECTUAL-EXERCISER-HAS-POWER. The other five premises are unchanged and remain OPEN. It does not establish the floor commitment or infer capacity from exercise."
+
+[[argument]]
+id = "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION"
+theorem = "actualityOnlyInsofarAsBeingFromRefutation"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUALITY-WITHOUT-BEING"]
+conclusion = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+rule = "Excluded middle on InAct x esse, reductio against the negated existential"
+meaning = "Whatever is in act in some respect is in act as to being (the ST I q.4 a.1 ad 3 reading), from the conclusion of NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION (nothing is in act in a respect without being, on the same InAct and esse) and excluded middle: if x is in act in r and not in act as to esse, the Meinongian rival would be witnessed. This is a second derivation of the route premise from the refutation's own premises (STMT-PERFECT-INSOFAR-AS-IN-ACT, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), both still OPEN; it does not establish the route premise and does not attribute the conclusion to a new source."
+
+[[argument]]
+id = "NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION"
+theorem = "notActAndPotencyFromRefutation"
+premises = ["STMT-NO-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+rule = "Constructive quantifier duality (not exists to for all not)"
+meaning = "Nothing is in act and in potency in the same respect (the Prima Via principle, per thing and respect), from the conclusion of NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS (no thing and respect witness the Scotist rival, on the same InAct and InPotency). Constructive; no excluded middle. It adds a route to the premise through the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), which stays OPEN as before; no time index is added or removed."
+
+[[argument]]
+id = "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION"
+theorem = "movedOnlyAsInPotencyFromAshariteRefutation"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-MOVED-WITHOUT-POTENCY"]
+conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+rule = "Excluded middle on InPotency x r, reductio against the negated existential"
+meaning = "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS (the Ash'arite rival fails on the same MovedIn and InPotency) and excluded middle. The refutation's premise (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY) stays OPEN; the route premise is not established."
+
+[[argument]]
+id = "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION"
+theorem = "movedOnlyAsInPotencyFromCountertupleRefutation"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE"]
+conclusion = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+rule = "Excluded middle on InPotency x r, reductio against the negated existential"
+meaning = "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS (the exact moved-not-potent countertuple fails on the same MovedIn and InPotency) and excluded middle. Its premises (what is being moved to r is able to be r and not yet r; potency as unactualized capacity) stay OPEN; the route premise is not established."
+
+[[argument]]
+id = "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION"
+theorem = "perSeMoverLinkFromOccasionalistRefutation"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE"]
+conclusion = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+rule = "Excluded middle on CausesAsCaused y x, reductio against the negated existential"
+meaning = "Every per se mover link is a per se cause link, from the conclusion of NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS (no y moves x as moved without causing x as caused, on the same MovesAsMoved and CausesAsCaused) and excluded middle. The refutation's premises (the per se mover-link analysis, every mover is an efficient cause, second efficient causes cause only as caused) stay OPEN; nothing about the identity of the two relations is claimed beyond inclusion."
+
+[[argument]]
+id = "COGITO-THOUGHT-OCCURS-FROM-RETORSION"
+theorem = "thoughtOccursFromRetorsion"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-COGITO-DOUBT-IS-PERFORMED", "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+rule = "Existential elimination, universal instantiation, excluded middle"
+meaning = "Some thought episode occurs, from a performed doubt whether thought occurs (STMT-COGITO-DOUBT-IS-PERFORMED, OPEN), the conclusion of COGITO-PERFORMED-DOUBT-SELF-REFUTING (performing such a doubt makes its content 'no thought episode occurs' false) and excluded middle on the existence of an occurring episode. The retorsion rests on the OPEN bridge STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT, so this route has the same open premises as COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT; it uses the retorsion's negative form instead of the bridge directly."
+
+[[argument]]
+id = "ROOT-WIRING-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROOT-WIRING-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the eight root-wiring derivations: for the carrying premise of each (the owner-approved concreteness commitment twice, each rival refutation, the performed doubt and the retorsion), a hand-written model on Unit or Bool in which the other non-logical premises hold and the conclusion fails (nine omission models), and one joint nonvacuity witness with populated antecedents. Excluded middle is not omitted (no finite countermodel in a classical metatheory). Satisfiability and omission only; no model is claimed to describe reality."

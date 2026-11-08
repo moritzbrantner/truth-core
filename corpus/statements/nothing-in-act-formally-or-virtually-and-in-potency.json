@@ -1,0 +1,12 @@
+{
+  "id": "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY",
+  "paraphrase": "IN-ACT_3, inclusive reading (attribution deferred): nothing is in act formally or virtually and in potency in the same respect. Stronger than the formal reading: it also excludes having a perfection virtually while being in potency to it formally.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingInActFormallyOrVirtuallyAndInPotency",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}

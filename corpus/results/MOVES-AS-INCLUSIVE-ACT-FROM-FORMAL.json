@@ -1,0 +1,10 @@
+{
+  "id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "argument_id": "MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.movesAsInActInclusiveFromFormal",
+  "comparator_config": "results/MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "INF-COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+  "input_statement_ids": [
+    "STMT-EXCLUDED-MIDDLE",
+    "STMT-COGITO-DOUBT-IS-PERFORMED",
+    "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING"
+  ],
+  "output_statement_id": "STMT-COGITO-THOUGHT-OCCURS",
+  "rule": "Existential elimination, universal instantiation, excluded middle",
+  "meaning": "Some thought episode occurs, from a performed doubt whether thought occurs (STMT-COGITO-DOUBT-IS-PERFORMED, OPEN), the conclusion of COGITO-PERFORMED-DOUBT-SELF-REFUTING (performing such a doubt makes its content 'no thought episode occurs' false) and excluded middle on the existence of an occurring episode. The retorsion rests on the OPEN bridge STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT, so this route has the same open premises as COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT; it uses the retorsion's negative form instead of the bridge directly.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

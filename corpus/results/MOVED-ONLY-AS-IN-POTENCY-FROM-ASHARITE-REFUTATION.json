@@ -1,0 +1,10 @@
+{
+  "id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "argument_id": "MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.movedOnlyAsInPotencyFromAshariteRefutation",
+  "comparator_config": "results/MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS (the Ash'arite rival fails on the same MovedIn and InPotency) and excluded middle. The refutation's premise (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY) stays OPEN; the route premise is not established."
+}

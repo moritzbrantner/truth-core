@@ -1,0 +1,8 @@
+{
+  "id": "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "term": "in act formally or virtually (inclusive)",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ActFrame.InActFormallyOrVirtually",
+  "basis": "stipulative",
+  "definition": "A thing is in act in a perfection, inclusively, when it is in act in it formally (DEF-IN-ACT-FORMALLY) or virtually (DEF-IN-ACT-VIRTUALLY): the disjunction ActFrame.InActBy .formallyOrVirtually. It is weaker than formal act as a property of a mover, and as the act predicate of non-simultaneity it gives a stronger premise.",
+  "note": "Analyst sense, attribution deferred; ST I q.4 a.2 co. ('univoce vel eminentius') is navigation for it, not a pinned claim. Sourcing would need a claim that reads a prima via act premise disjunctively."
+}

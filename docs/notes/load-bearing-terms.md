@@ -40,11 +40,11 @@ sense, its validity not).
 | # | Disambiguation | Term | Senses | Root args | Root stmts | Step depends on sense | Fork | Coverage stmt | Exclusivity stmt |
 |---|---|---|---|---|---|---|---|---|---|
 | 1 | DISAMB-CAUSE | cause | 4 | 80 | 68 | yes: secunda via self-causation; simple priority → cause of being | **certified (this PR)** | STMT-CAUSE-SENSES-EXHAUSTIVE | STMT-CAUSE-SENSE-UNIQUE |
-| 2 | DISAMB-UNITING-CAUSE | uniting / efficient / cause of being | 4 | 65 | 52 | yes: STMT-UNITING-CAUSE-IS-EFFICIENT passes between senses | no | no | no |
-| 3 | DISAMB-BECOMING-BEING-CAUSE | causing an effect (becoming vs being) | 3 | 53 | 39 | yes: conservation read as CausesIn esse | no | no | no |
-| 4 | DISAMB-UNITING-CAUSE-ACTUALITY | cause-in-esse vs world-local edge | 3 | 52 | 38 | yes: interface premises | no | no | no |
+| 2 | DISAMB-UNITING-CAUSE | uniting / efficient / cause of being | 4 | 65 | 52 | yes: STMT-UNITING-CAUSE-IS-EFFICIENT passes between senses | **certified (batch 2)** | STMT-UNITING-CAUSE-SENSES-EXHAUSTIVE | STMT-UNITING-CAUSE-SENSE-UNIQUE |
+| 3 | DISAMB-BECOMING-BEING-CAUSE | causing an effect (becoming vs being) | 3 | 53 | 39 | no root step (counts via shared DEF-CAUSE-OF-PERFECTION) | not forked, see below | no | no |
+| 4 | DISAMB-UNITING-CAUSE-ACTUALITY | cause-in-esse vs world-local edge | 3 | 52 | 38 | no root step (counts via shared DEF-CAUSE-OF-PERFECTION); interfaces, not rival readings | not forked, see below | no | no |
 | 5 | DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION | unity, form, cause | 5 | 52 | 38 | comparison only | no | no | no |
-| 6 | DISAMB-IN-ACT | in act (formally / virtually) | 2 | 51 | 31 | silo; premise truth depends | no | no | no |
+| 6 | DISAMB-IN-ACT | in act (formally / virtually) | 2 | 51 | 31 | yes: two uses in the prima via step must agree | **certified (batch 2)** | STMT-IN-ACT-SENSES-EXHAUSTIVE | STMT-IN-ACT-SENSE-UNIQUE |
 | 7 | DISAMB-MAXIME-ENS | maximal in being | 6 | 50 | 24 | weakest sense chosen; strength order natural | no | no | no |
 | 8 | DISAMB-PER-SE | per se | 4 | 46 | 9 | silo (distinct predicates) | no | no | no |
 | 9 | DISAMB-GOD | God | 6 | 42 | 29 | yes: naming premise | partial (1 relation) | no | no |
@@ -179,17 +179,74 @@ a bridge from efficient causing to causing a perfection; the perfection
 premise is refuted under the self-perfecting-subject premise, so the branch
 closes by refutation.
 
+## Batch 2: one argument per sense (sense-indexed terms)
+
+Owner direction: senses carry labels TERM_n in the order of the
+disambiguation's `sense_definition_ids`; an argument that works under several
+senses becomes one argument per sense with ID suffix -TERM-n, and those are the
+primary results. The enum, coverage/exclusivity joint theorems are kept as
+optional summaries (`TruthCore.Causality.TermSenseForks2`); there, exclusivity
+is a premise of a theorem whose conclusion is a root-route node, and the
+controls show the step fails when two uses of the term take different senses.
+
+### "uniting cause" (DISAMB-UNITING-CAUSE), to STMT-COMPOSITE-HAS-A-UNITING-CAUSE
+
+| Sense | Per-sense argument | Distinctness premise |
+|---|---|---|
+| UNITING-CAUSE_1 uniting | COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-1 | open STMT-NOTHING-UNITES-ITSELF |
+| UNITING-CAUSE_2 efficient | existing COMPOSITE-UNITING-CAUSE-FROM-UNION | STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF via STMT-UNITING-CAUSE-IS-EFFICIENT |
+| UNITING-CAUSE_3 causing being | COMPOSITE-HAS-UNITING-CAUSE-UNITING-CAUSE-3 | open STMT-NOTHING-CAUSES-ITS-OWN-BEING (drops the efficient bridge and the secunda via premise) |
+| UNITING-CAUSE_4 temporal composer | existing COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION | its own temporal fork |
+| summary (1–3) | UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE | coverage + exclusivity |
+
+Strength order: STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION (refuted in batch 1)
+`strengthens` STMT-NOTHING-CAUSES-ITS-OWN-BEING, which survives that
+refutation.
+
+### "in act" (DISAMB-IN-ACT), to STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT
+
+IN-ACT_3 (DEF-IN-ACT-FORMALLY-OR-VIRTUALLY, ST I q.4 a.2 *univoce vel
+eminentius*) is appended to the disambiguation for this fork.
+
+| Sense | Per-sense argument | Status |
+|---|---|---|
+| IN-ACT_1 formal | NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1 | yields |
+| IN-ACT_2 virtual | NO-SELF-MOTION-SAME-RESPECT-IN-ACT-2 | yields |
+| IN-ACT_3 formal or virtual | NO-SELF-MOTION-SAME-RESPECT-IN-ACT-3 | yields |
+| mixed (IN-ACT_3 mover, IN-ACT_1 non-simultaneity) | control model with self-motion | fails |
+| summary | IN-ACT-SENSE-FORK-NO-SELF-MOTION | coverage + exclusivity |
+
+Sense bridges (strength order) run in opposite directions in the two
+premises: IN-ACT_1 mover → IN-ACT_3 mover, IN-ACT_3 non-simultaneity →
+IN-ACT_1 non-simultaneity. So no uniform reading is weaker in both premises,
+which certifies the DISAMB-IN-ACT remark that both premises must be defended
+in one sense.
+
+### "cause of becoming or being" (DISAMB-BECOMING-BEING-CAUSE), to STMT-PARTICIPATED-HAS-OTHER-CAUSE
+
+| Sense | Result | Status |
+|---|---|---|
+| BECOMING-BEING-CAUSE_1 cause of becoming | control model: another cause of coming to be, no cause of being | fails |
+| BECOMING-BEING-CAUSE_2 external cause of esse | PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 (q.3 a.4 + open STMT-PARTICIPATED-HAS-DISTINCT-ESSE), then PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2 (explicit sense bridge 2 → 3, `strengthens`) | yields |
+| BECOMING-BEING-CAUSE_3 cause of being | the root-path statement itself | — |
+
+### Not forked: DISAMB-UNITING-CAUSE-ACTUALITY
+
+It reaches the root only through DEF-CAUSE-OF-PERFECTION, shared with
+DISAMB-CAUSE; no root-path statement or argument links its other senses
+(DEF-WORLD-ACTUAL-CAUSAL-GRAPH, DEF-UNITING-CAUSE-ACTUALITY-INTERFACES). Its
+senses are interface bridges between `CausesIn c x esse` and the
+world-indexed causal graph, not rival readings of one use, so per-sense
+arguments to a root conclusion do not exist and a coverage/exclusivity pair
+would misdescribe them (needs: a root route that reads one use in the
+world-graph sense).
+
 ## Next forks
 
-1. **DISAMB-UNITING-CAUSE** (65 root args): uniting cause / efficient cause /
-   cause of being; the step STMT-UNITING-CAUSE-IS-EFFICIENT is the sense
-   passage to fork, reusing `CauseFrame` with a `uniting` constructor.
-2. **DISAMB-BECOMING-BEING-CAUSE** and **DISAMB-UNITING-CAUSE-ACTUALITY**
-   (53/52): coming-to-be vs conservation; atemporal CausesIn esse vs
-   world-local edges. Both extend the cause enum.
-3. **DISAMB-IN-ACT** (51): formal vs virtual act, with a natural strength
-   order (formal → formal-or-virtual) on STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT.
-4. **DISAMB-MAXIME-ENS** (50): six senses, already strength-ordered in prose
+1. Batch 1's "prior" and "cause" forks: restate their exclusivity in a
+   two-use joint theorem on a root node, as in batch 2.
+2. **DISAMB-MAXIME-ENS** (50): six senses, already strength-ordered in prose
    (weakest chosen); register `strengthens` and a coverage statement.
-5. **DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY**: needs typed time vocabulary
+3. **DISAMB-PER-SE** and **DISAMB-POTENCY**.
+4. **DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY**: needs typed time vocabulary
    for `Eternal` before a fork can fail (invariant 16).

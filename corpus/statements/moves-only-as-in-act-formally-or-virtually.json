@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
+  "paraphrase": "IN-ACT_3, inclusive reading (attribution deferred): whatever moves something in a respect is in act in that respect formally or virtually (univoce vel eminentius, ST I q.4 a.2).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsInActFormallyOrVirtually",
+  "definition_ids": [
+    "DEF-IN-ACT-FORMALLY-OR-VIRTUALLY",
+    "DEF-MOTION-AS-REDUCTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-IN-ACT"
+  ]
+}
