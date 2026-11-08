@@ -2,6 +2,29 @@
 
 This repository advances substantial arguments through small verified research steps. Keep the complexity in the philosophy, not in repository machinery.
 
+## Fresh subagents for issue work (owner direction, 2026-11-08)
+
+During a workloop, the coordinator delegates each issue or bounded investigation
+to a fresh subagent. Split broad issues into independently reviewable slices;
+give each worker one slice with explicit file and argument ownership. The
+coordinator owns coverage, priorities, shared instructions, integration and merges.
+
+- Start workers without inherited conversation history (`fork_turns="none"`,
+  or the equivalent). Supply the brief below, relevant repository instructions,
+  exact corpus/theorem references, and the current workspace/service setup.
+  Do not forward the coordinator's transcript as the brief.
+- Use isolated warm checkouts for writers, with distinct ownership. Serialize
+  shared heavy verification and Lean-service operations under the existing
+  protocol. Workers must accommodate others' changes, not revert them.
+- Reuse a worker only within its current bounded slice. Start a fresh worker
+  for the next issue or unrelated argument family; workers do not recursively
+  delegate unless their brief explicitly authorizes it.
+- Workers persist substantive findings in the existing corpus records or linked
+  notes, then return a compact delta: PR/head, verified and unverified scope,
+  findings and remaining gaps, with evidence links. The coordinator updates the
+  one current handoff rather than importing long worker transcripts or creating
+  another tracker. Reuse unchanged verification evidence.
+
 ## Worker brief and handoff
 
 The master gives each worker a four-line brief:
