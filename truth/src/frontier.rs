@@ -41,6 +41,9 @@ const CLOSED: &str = "closed";
 const ABSENT: &str = "absent";
 const SHORT_PROOF_STEPS: usize = 2;
 
+type SupportWitnesses<'a> = BTreeMap<&'a str, BTreeSet<&'a str>>;
+type SupportBundles<'a> = BTreeMap<&'a str, BTreeMap<Vec<&'a str>, SupportWitnesses<'a>>>;
+
 type Upward<'a> = (Vec<&'a str>, Vec<&'a str>, Option<Vec<&'a str>>);
 
 /// Python `transcription_flags`: the Lean-text heuristics for every result
@@ -1289,6 +1292,61 @@ impl<'a> Frontier<'a> {
                 }
             }
         }
+        // Distinct conditional obligation sets, retaining every witness.
+        let mut bundles: SupportBundles<'_> = BTreeMap::new();
+        for result in &self.results {
+            if self.transcription_results.contains(text(result, "id")) {
+                continue;
+            }
+            let Some(argument) = self.argument_by_id.get(text(result, "argument_id")) else {
+                continue;
+            };
+            let conclusion = text(argument, "conclusion_statement_id");
+            if !reaching_root.contains(conclusion) || !self.dependents.contains_key(conclusion) {
+                continue;
+            }
+            let premises: Vec<&str> = Self::premises(argument)
+                .into_iter()
+                .collect::<BTreeSet<_>>()
+                .into_iter()
+                .collect();
+            if premises.contains(&conclusion) {
+                continue;
+            }
+            bundles
+                .entry(conclusion)
+                .or_default()
+                .entry(premises)
+                .or_default()
+                .entry(text(argument, "id"))
+                .or_default()
+                .insert(text(result, "id"));
+        }
+        let premise_ids: Vec<&str> = reaching_root
+            .iter()
+            .copied()
+            .filter(|sid| *sid != self.root && self.dependents.contains_key(sid))
+            .collect();
+        let unestablished: Vec<&str> = premise_ids
+            .iter()
+            .copied()
+            .filter(|sid| !established.contains(sid))
+            .collect();
+        let support_options = json!({
+            "unestablished_premise_count": unestablished.len(),
+            "with_verified_alternative_count": unestablished.iter().filter(|sid| bundles.contains_key(**sid)).count(),
+            "verified_alternative_bundle_count": premise_ids.iter().map(|sid| bundles.get(sid).map_or(0, BTreeMap::len)).sum::<usize>(),
+            "items": premise_ids.iter().map(|sid| json!({
+                "statement_id": sid,
+                "direct_assumption_available": !established.contains(sid),
+                "established": established.contains(sid),
+                "verified_alternative_bundles": bundles.get(sid).into_iter().flatten().map(|(premises, witnesses)| json!({
+                    "premise_statement_ids": premises,
+                    "argument_ids": witnesses.keys().collect::<Vec<_>>(),
+                    "result_ids": witnesses.values().flatten().copied().collect::<BTreeSet<_>>(),
+                })).collect::<Vec<_>>(),
+            })).collect::<Vec<_>>(),
+        });
         let closures: Vec<Value> = closure
             .via_transcription
             .iter()
@@ -1358,6 +1416,7 @@ impl<'a> Frontier<'a> {
             "floor": floor_report,
             "established_statements": sorted(established),
             "reaching_root_statements": reaching_root,
+            "support_options": support_options,
             "alternatives_recorded": !self.alternatives.is_empty(),
             "open_premise_count": items.len(),
             "depth_counts": depth_counts(&items),
@@ -1927,6 +1986,13 @@ impl<'a> Frontier<'a> {
         json!({
             "root": root.map(statement),
             "root_known": report["root_known"],
+            "support_options": report["support_options"],
+            "progress": {
+                "root_reaching_established_count": strings(&report["established_statements"]).intersection(&reaching_root).count(),
+                "unestablished_premise_count": report["support_options"]["unestablished_premise_count"],
+                "with_verified_alternative_count": report["support_options"]["with_verified_alternative_count"],
+                "verified_alternative_bundle_count": report["support_options"]["verified_alternative_bundle_count"],
+            },
             "settlement_rules": {
                 "floor": "Accept an explicit starting point. Each new floor item requires an owner decision; a proposed item settles nothing.",
                 "derive": "Use a verified argument and establish every premise it needs. A conditional proof alone does not settle its conclusion.",
@@ -2102,6 +2168,10 @@ pub fn format_frontier(report: &Value) -> String {
         report["open_premise_count"],
         format_depth_counts(&report["depth_counts"])
     ));
+    if let Some(options) = report.get("support_options") {
+        lines.push(format!("conditional premise support (root-reaching): {} of {} unestablished premises have verified alternatives; {} distinct bundles (not established by verification alone)",
+            options["with_verified_alternative_count"], options["unestablished_premise_count"], options["verified_alternative_bundle_count"]));
+    }
     let recorded = report["alternatives_recorded"] == true;
     if !recorded {
         lines.push("alternatives: no alternatives recorded".into());
@@ -2371,7 +2441,7 @@ pub fn format_routes(routes: &Value) -> String {
         .filter(|id| !id.is_empty())
         .unwrap_or("none (no verified route)");
     let mut lines = vec![format!(
-        "routes to {}: {} arguments; cheapest {cheapest}",
+        "expanded-route cost diagnostic; routes to {}: {} arguments; cheapest {cheapest}",
         s(&routes["root"]),
         entries.len()
     )];
@@ -2614,7 +2684,45 @@ pub fn frontier_delta(base: &Value, head: &Value) -> Value {
         })
         .collect();
     let (base_cheapest, head_cheapest) = (cheapest(&base), cheapest(&head));
-    let changed = !added.is_empty()
+    let signatures = |report: &Value| -> BTreeSet<(String, Vec<String>)> {
+        report["support_options"]["items"]
+            .as_array()
+            .into_iter()
+            .flatten()
+            .flat_map(|item| {
+                item["verified_alternative_bundles"]
+                    .as_array()
+                    .into_iter()
+                    .flatten()
+                    .map(|bundle| {
+                        (
+                            s(&item["statement_id"]).to_owned(),
+                            strs(&bundle["premise_statement_ids"])
+                                .into_iter()
+                                .map(str::to_owned)
+                                .collect(),
+                        )
+                    })
+            })
+            .collect()
+    };
+    let comparable = base.get("support_options").is_some() && head.get("support_options").is_some();
+    let (base_support, head_support) = if comparable {
+        (signatures(&base), signatures(&head))
+    } else {
+        (BTreeSet::new(), BTreeSet::new())
+    };
+    let describe = |entries: Vec<&(String, Vec<String>)>| {
+        entries
+            .into_iter()
+            .map(|(sid, premises)| json!({"statement_id": sid, "premise_statement_ids": premises}))
+            .collect::<Vec<_>>()
+    };
+    let new_support = describe(head_support.difference(&base_support).collect());
+    let removed_support = describe(base_support.difference(&head_support).collect());
+    let changed = !new_support.is_empty()
+        || !removed_support.is_empty()
+        || !added.is_empty()
         || !removed.is_empty()
         || !moved.is_empty()
         || !route_changes.is_empty()
@@ -2630,6 +2738,11 @@ pub fn frontier_delta(base: &Value, head: &Value) -> Value {
         "base_cheapest_route": base_cheapest,
         "head_cheapest_route": head_cheapest,
         "route_changes": route_changes,
+        "support_bundle_comparison_available": comparable,
+        "base_support_bundle_count": if comparable { Some(base_support.len()) } else { None },
+        "head_support_bundle_count": if comparable { Some(head_support.len()) } else { None },
+        "new_support_bundles": new_support,
+        "removed_support_bundles": removed_support,
         "changed": changed,
     })
 }
@@ -2661,13 +2774,56 @@ pub fn format_frontier_delta(delta: &Value) -> String {
             counts(&delta["head_counts"])
         ),
         format!(
-            "cheapest route: {} -> {}",
+            "expanded-route diagnostic (lowest cost): {} -> {}",
             route(&delta["base_cheapest_route"]),
             route(&delta["head_cheapest_route"])
         ),
     ];
+    if delta["support_bundle_comparison_available"] == true {
+        lines.push(format!(
+            "distinct verified support alternatives: {} -> {}",
+            delta["base_support_bundle_count"], delta["head_support_bundle_count"]
+        ));
+        for (field, label) in [
+            ("new_support_bundles", "added"),
+            ("removed_support_bundles", "removed"),
+        ] {
+            let entries = delta[field].as_array().cloned().unwrap_or_default();
+            if label == "removed" && entries.is_empty() {
+                continue;
+            }
+            lines.push(format!(
+                "verified support alternatives {label}: {}",
+                entries.len()
+            ));
+            for entry in entries {
+                let premises = strs(&entry["premise_statement_ids"]);
+                lines.push(format!(
+                    "  {} <- {}",
+                    s(&entry["statement_id"]),
+                    if premises.is_empty() {
+                        "(no premises)".to_owned()
+                    } else {
+                        premises.join(", ")
+                    }
+                ));
+            }
+        }
+    } else {
+        lines.push(
+            "verified support alternatives: incomparable (historical projection unavailable)"
+                .into(),
+        );
+    }
     if delta["changed"] != true {
-        lines.push("no change".into());
+        lines.push(
+            if delta["support_bundle_comparison_available"] == true {
+                "no change"
+            } else {
+                "no change in comparable premise and route diagnostics"
+            }
+            .into(),
+        );
         return lines.join("\n");
     }
     let bare_added = strs(&delta["bare_added"]);
@@ -3113,6 +3269,66 @@ mod tests {
         );
         // Establishing S alone drops the route cost by one.
         assert_eq!(frontier.probe("S")["ARG-ROOT"], 1);
+    }
+
+    #[test]
+    fn support_bundles_deduplicate_obligations_and_preserve_witnesses() {
+        let mut fixture = fixture();
+        fixture.arguments.extend(records(vec![
+            argument("ARG-A-DUP", &["C", "C"], "A"),
+            argument("ARG-A-SELF", &["A"], "A"),
+            argument("ARG-A-TRANS", &["S"], "A"),
+            argument("ARG-A-UNVERIFIED", &[], "A"),
+        ]));
+        fixture.results.extend(records(vec![
+            json!({"id": "RES-A-DUP", "argument_id": "ARG-A-DUP"}),
+            json!({"id": "RES-A-SELF", "argument_id": "ARG-A-SELF"}),
+            json!({"id": "RES-A-TRANS", "argument_id": "ARG-A-TRANS", "transcription": "assembly"}),
+        ]));
+        let records = fixture.records();
+        let report = Frontier::new("ROOT", &records, &[]).report(false);
+        let items = report["support_options"]["items"].as_array().unwrap();
+        let a = items
+            .iter()
+            .find(|item| item["statement_id"] == "A")
+            .unwrap();
+        assert_eq!(a["direct_assumption_available"], true);
+        assert_eq!(
+            a["verified_alternative_bundles"],
+            json!([{
+                "premise_statement_ids": ["C"],
+                "argument_ids": ["ARG-A", "ARG-A-DUP"],
+                "result_ids": ["RES-A", "RES-A-DUP"],
+            }])
+        );
+    }
+
+    #[test]
+    fn support_delta_handles_changes_and_historical_incomparability() {
+        let fixture = fixture();
+        let records = fixture.records();
+        let head = Frontier::new("ROOT", &records, &[]).report(false);
+        let mut base = head.clone();
+        base.as_object_mut().unwrap().remove("support_options");
+        let mut delta = frontier_delta(&base, &head);
+        assert_eq!(delta["support_bundle_comparison_available"], false);
+        assert_eq!(delta["base_support_bundle_count"], Value::Null);
+        assert_eq!(delta["new_support_bundles"], json!([]));
+        delta["base"] = json!("BASE");
+        delta["head"] = json!("HEAD");
+        let rendered = format_frontier_delta(&delta);
+        assert!(rendered.contains("incomparable (historical projection unavailable)"));
+        assert!(!rendered.ends_with("\nno change"));
+        base = head.clone();
+        base["support_options"]["items"] = json!([]);
+        let added = frontier_delta(&base, &head);
+        assert_eq!(added["changed"], true);
+        assert!(!added["new_support_bundles"].as_array().unwrap().is_empty());
+        let removed = frontier_delta(&head, &base);
+        assert_eq!(
+            added["new_support_bundles"],
+            removed["removed_support_bundles"]
+        );
     }
 
     #[test]
