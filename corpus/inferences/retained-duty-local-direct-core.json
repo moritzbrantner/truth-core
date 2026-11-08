@@ -1,11 +1,13 @@
 {
-  "id": "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE",
+  "id": "2a82e3c4-4788-53d5-9cf5-fbef3d2f6404",
+  "label": "Logical falsity, by Modus-ponens",
+  "legacy_id": "INF-RETAINED-DUTY-LOCAL-DIRECT-CORE",
   "input_statement_ids": [
-    "STMT-RETAINED-DUTY-PRESENT-DUTY",
-    "STMT-RETAINED-DUTY-PRESENT-INABILITY",
-    "STMT-RETAINED-DUTY-LOCAL-OIC"
+    "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
+    "84d6dde8-a359-52cc-9411-714592cc8172",
+    "2cc0cc30-8404-5681-94ec-b5cf6e85a93f"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "modus-ponens",
   "meaning": "Operational direct core: identical original-return duty and inability at after conflict with original-return-only OIC. Compensation and debt-repayment OIC are not premises. All single omissions are witnessed; this is inclusion-minimal, not a claim of absolute weakest logical formulation.",
   "assumption_statement_ids": [],

@@ -1,19 +1,21 @@
 {
-  "id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "id": "1ff1d7b4-16e0-5182-a91e-2c9c60d57db1",
+  "label": "Two already constructed finite witnesses show: with no moral contents, both raw quasi-realist and…",
+  "legacy_id": "METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-METAETHICS-TRUTH-APT-RIVAL-CONTROLS",
+  "conclusion_statement_id": "da6946f2-0e98-50e2-a85d-40be7203265b",
   "inference_ids": [
-    "INF-METAETHICS-TRUTH-APT-RIVAL-CONTROLS"
+    "abefda58-296a-558a-aa3a-88c5b0a5091e"
   ],
   "meaning": "Export the prior checked empty-moral and neither-answer finite witnesses with the exact overlap/nonexhaustion properties relevant to alternative closure. Does not establish that the abstract predicates are entire philosophical theories.",
   "definition_ids": [
-    "DEF-NOT-REALIST-ROBUST-TRUTH-APT",
-    "DEF-TRUTH-ROBUST",
-    "DEF-MINIMAL-TRUTH-APTNESS",
-    "DEF-MORAL-STATEMENT"
+    "6881cf55-b93a-5a81-9610-fd3aad5e2ac9",
+    "543c2ef3-ff28-55bd-8442-1906661502bc",
+    "ebde7b6b-f826-55a2-a6d1-73df6b9475df",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTH-APT",
-    "DISAMB-TRUE"
+    "8e55e523-3436-5f78-a43a-85d1233db2c5",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

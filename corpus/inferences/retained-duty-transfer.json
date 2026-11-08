@@ -1,10 +1,12 @@
 {
-  "id": "INF-RETAINED-DUTY-TRANSFER",
+  "id": "266e31b5-d355-526e-a00d-0e89b7dc2d8d",
+  "label": "The fixed agent owes return of the identical original object at after, by Modus-ponens",
+  "legacy_id": "INF-RETAINED-DUTY-TRANSFER",
   "input_statement_ids": [
-    "STMT-RETAINED-DUTY-INITIAL-DUTY",
-    "STMT-RETAINED-DUTY-RETENTION"
+    "4d4355d0-a338-59fc-af25-33c5c195fea8",
+    "d4e0402d-5848-57b8-97f5-43f5fe12beb3"
   ],
-  "output_statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+  "output_statement_id": "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
   "rule": "modus-ponens",
   "meaning": "Same-agent same-action before-to-after duty transfer from InitialDuty and the explicit Retention policy. Conditional consequence, not independent warrant for the policy.",
   "assumption_statement_ids": [],

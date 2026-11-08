@@ -1,6 +1,8 @@
 {
-  "id": "BOOST-SIMULTANEITY-CONTROLS",
-  "argument_id": "BOOST-SIMULTANEITY-CONTROLS",
+  "id": "8d203ef8-cfe0-5434-81d3-0ea7f7411162",
+  "label": "In an explicit inhabited 1+1 real coordinate profile with c=1, the rational boost with v=4/5 is an…",
+  "legacy_id": "BOOST-SIMULTANEITY-CONTROLS",
+  "argument_id": "0be06b97-cd1c-5316-ade0-5833ad26b193",
   "challenge_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Challenge",
   "solution_module": "TruthCore.Results.Spacetime.BoostSimultaneity.Solution",
   "theorem": "TruthCore.Results.Spacetime.BoostSimultaneity.controls",

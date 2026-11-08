@@ -1,18 +1,20 @@
 {
-  "id": "BLOUNT-LENSKI-INNOVATION-REFINEMENT",
-  "statement_id": "STMT-TELEONOMY-EXPERIMENTAL-REFINEMENT",
-  "source_id": "BLOUNT-LENSKI-INNOVATION",
+  "id": "719e994c-cd98-5f48-bd7c-cbacbbc4b8e5",
+  "label": "Zachary D. Blount and colleagues, Genomic…: Cit+ E. coli populations evolved for 2500 generations…",
+  "legacy_id": "BLOUNT-LENSKI-INNOVATION-REFINEMENT",
+  "statement_id": "d326d98b-b8b6-5d6b-a196-c2a0dcdb5180",
+  "source_id": "d581bca9-a3e5-5888-8027-9315e340e5d6",
   "locator": "Abstract, adaptation and mismatch",
   "interpretation": "A primary experimental case, including the authors’ negative findings. It supports local adaptation without universal progress, perfection or the denial of intelligent governance. Abstract states reported outcomes, not the complete experimental argument.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

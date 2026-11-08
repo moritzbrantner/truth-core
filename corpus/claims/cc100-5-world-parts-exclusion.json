@@ -1,15 +1,17 @@
 {
-  "id": "CC100-5-WORLD-PARTS-EXCLUSION",
-  "statement_id": "STMT-CC100-5-WORLD-PARTS-EXCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "5352c290-71db-5824-8dc8-78854fbca91b",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: The world is the collection of all contingent beings…",
+  "legacy_id": "CC100-5-WORLD-PARTS-EXCLUSION",
+  "statement_id": "6c483ea2-3ca5-594e-be35-fdae0ea9fec8",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.11, argument #5, step 4 with clauses (a)–(b)",
   "interpretation": "No independent justification of collective exclusion is given here. This concerns the presentation’s collection and sufficient reason, not every actual concretum, all subsets, a well-founded borrowing graph or merely a ban on one act’s self-production. Being outside this collection is not spatial separation; reasons, causes and selected existential grounds remain distinct unless an independent application bridge is supplied.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-5-WORLD-REASON"
+    "ca7be6fd-f414-51f9-b5c0-786c2abdd81b"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768"
   ]
 }

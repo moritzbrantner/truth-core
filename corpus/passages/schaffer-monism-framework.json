@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "SCHAFFER-MONISM",
+    "source_id": "058b3585-f957-5a4e-a6a8-be4f5c4ae125",
     "source_url": "https://www.jonathanschaffer.org/monism.pdf",
     "retrieved_at": "2026-10-28T20:01:50Z",
     "sha256": "sha256:098951909af55f7f2fbd2f2a33c9e79d14410b061363a771e2076eba8025e944",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "SCHAFFER-MONISM-FRAMEWORK",
+      "id": "8c554151-c30c-5929-8d3b-7f80382984be",
+      "label": "Jonathan Schaffer, Monism, §§1.1–1.4, printed pp.33–44",
+      "legacy_id": "SCHAFFER-MONISM-FRAMEWORK",
       "locator": "§§1.1–1.4, printed pp.33–44 (physical PDF pages 3–14)",
       "claim_locator_prefixes": [
         "§1.1",

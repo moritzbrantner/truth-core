@@ -1,0 +1,12 @@
+{
+  "id": "7998634a-0eca-5613-9a19-5cf4b8da9d74",
+  "label": "No component of anything is the first being: no part of a composite…, from POTENCY_1 or…",
+  "legacy_id": "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
+  "argument_id": "e7b4c683-1f34-5918-aa16-7dd8c12550ae",
+  "challenge_module": "TruthCore.Results.Causality.ComponentFirstness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComponentFirstness.Solution",
+  "theorem": "TruthCore.Results.Causality.ComponentFirstness.noComponentFirst",
+  "comparator_config": "results/NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION/comparator.json",
+  "status": "solution-present",
+  "description": "ST I q.3 a.8's third reason, typed. Every component is in potency in some respect or participated (STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED). If in potency, act is simply prior to potency (STMT-ACT-SIMPLY-PRIOR-TO-POTENCY), so something in act in that respect is prior to it; if the component were first, that prior thing would be the component itself, in act and in potency in one respect, against STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT. If participated, it has a distinct cause of its being (STMT-PARTICIPATED-HAS-OTHER-CAUSE), which as efficient cause is prior to it (STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT), against firstness. Derives STMT-NO-COMPONENT-IS-FIRST-BEING, an underived leaf of 21 root routes, with two of its five premises already on those routes. The same InPotency parameter is used in act priority and in the same-respect exclusion, and the same CausesIn in the participation and efficient-priority premises, so each pair must be read in one sense (DISAMB-POTENCY, DISAMB-PRIORITY-SIMPLE-OR-IN-TIME). All five premises stay open."
+}

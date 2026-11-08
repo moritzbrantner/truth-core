@@ -1,10 +1,12 @@
 {
-  "id": "STMT-CC100-117-LIKELIHOOD-CONFIRMATION-RULE",
+  "id": "7479571a-78d8-58d6-b32e-7d70c637bff1",
+  "label": "If the probability of the supernatural-agency belief disposition given theism is much greater than…",
+  "legacy_id": "STMT-CC100-117-LIKELIHOOD-CONFIRMATION-RULE",
   "paraphrase": "If the probability of the supernatural-agency belief disposition given theism is much greater than its probability given naturalism, that disposition confirms theism over naturalism.",
   "definition_ids": [
-    "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION"
+    "2eea0461-69d1-510b-8968-368ab57adf87"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

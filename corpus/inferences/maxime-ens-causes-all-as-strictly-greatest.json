@@ -1,0 +1,15 @@
+{
+  "id": "65ad80c1-8c34-54db-bb45-d63a5532a766",
+  "label": "There is something maximally being that is the cause of being to…, by Existential elimination and…",
+  "legacy_id": "INF-MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "input_statement_ids": [
+    "f11768d2-3d5e-59b2-8a41-aaaae005413d",
+    "3eb63770-6f36-5145-8d68-147cd3b62179",
+    "a370254d-59b8-56a2-9552-0008e9baf2b3"
+  ],
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
+  "rule": "Existential elimination and modus ponens",
+  "meaning": "MAXIME_3 branch: some being is STRICTLY greatest in being; such a being causes being in every other being; and the explicit sense bridge says a STRICTLY greatest being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. Its existence premise is stronger than MAXIME_1's: the tied control has a MAXIMAL being and no STRICTLY greatest one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

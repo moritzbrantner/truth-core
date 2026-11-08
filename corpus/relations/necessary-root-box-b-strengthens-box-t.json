@@ -1,0 +1,12 @@
+{
+  "id": "5915074a-ab7d-5df7-978b-01240baca901",
+  "label": "Necessary-being node, possibilist box… strengthens Necessary-being node, possibilist box… (3)",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T",
+  "subject_kind": "statement",
+  "subject_id": "12e11583-51e9-5c42-a51f-0debdb152818",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
+  "verification_result_id": "f9149a74-eb23-5148-aed0-df35dca4e84a",
+  "note": "Strength registration: the KTB node implies the T node."
+}

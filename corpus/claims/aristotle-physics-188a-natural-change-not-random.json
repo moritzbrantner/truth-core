@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-188A-NATURAL-CHANGE-NOT-RANDOM-A",
-  "statement_id": "STMT-NATURAL-CHANGE-NOT-RANDOM",
-  "source_id": "ARIST-PHYS",
+  "id": "97c49099-0e5f-519f-96d9-4118101615ad",
+  "label": "Aristotle, Physics I.5, 188a31-188b8: Natural acting, suffering, generation, and transition do not…",
+  "legacy_id": "ARIST-PHYS-188A-NATURAL-CHANGE-NOT-RANDOM-A",
+  "statement_id": "810e8ee1-3641-5cb4-81f2-abf5cacc3d2e",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.5, 188a31-188b8",
   "interpretation": "Natural acting, suffering, generation, and transition do not connect arbitrary terms as such. Aristotle allows apparent exceptions only incidentally through concomitant attributes.",
   "status": "formalized"

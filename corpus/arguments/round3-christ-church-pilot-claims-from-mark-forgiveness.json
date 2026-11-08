@@ -1,0 +1,26 @@
+{
+  "id": "671492e1-cbdc-548b-88d6-b43b7ede486b",
+  "label": "Jesus claimed divine authority in the existing case signature; the Gospel…, from mark forgiveness",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-FORGIVENESS",
+  "premise_statement_ids": [
+    "0b7130f1-144a-5129-b99a-647303a06d7f",
+    "dee1f771-7330-5df2-8f8f-86009d9283b2",
+    "d090355c-98ac-5ba0-a570-152e5eb7e626",
+    "02bcb70d-f2f5-52af-b050-3a033999a0f9"
+  ],
+  "conclusion_statement_id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
+  "inference_ids": [
+    "99a9dffb-322b-590c-88cf-639c1a9085f0"
+  ],
+  "meaning": "A second route to Jesus' claim: Mark 2.10 attributes to Jesus the Son of Man's authority to forgive sins on earth; by open bridges, Jesus himself made the assertion, used the title of himself, and so claimed divine authority. Each of the four premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.assertedAuthority, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic.",
+  "definition_ids": [
+    "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+    "9c870b2c-9426-5519-831b-00c4658b116f",
+    "ac767549-28c0-5a1a-813d-ee208a664d08"
+  ],
+  "disambiguation_ids": [
+    "9bbcd103-41cf-5063-9c34-ccca24008633",
+    "2567d8a9-549e-5404-8658-3275b7029092",
+    "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.Round3CogitoBase.borrowingEscapeFromFiniteRank"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

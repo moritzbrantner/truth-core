@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE",
+  "id": "ac54086f-177d-58c4-b39a-f58461fe6c6a",
+  "label": "Metaphysical admissibility in the…: The Bool metaphysical frame admits v from w exactly when v = w",
+  "legacy_id": "DEF-TWO-RELATION-METAPHYSICAL-PROFILE",
   "term": "metaphysical admissibility in the two-description control",
   "definition": "The Bool metaphysical frame admits v from w exactly when v = w. This is a stipulated stronger admissibility profile on candidate descriptions, not an assertion that real metaphysical possibility is identity accessibility.",
   "basis": "stipulative",

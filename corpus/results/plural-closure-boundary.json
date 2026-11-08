@@ -1,6 +1,8 @@
 {
-  "id": "PLURAL-CLOSURE-BOUNDARY",
-  "argument_id": "PLURAL-CLOSURE-BOUNDARY",
+  "id": "9e982ff3-03c5-571c-b16f-8b9c183f14c7",
+  "label": "In one two-atom truth/falsity-pair semantics, K3 validates g⊢p but LP does not, LP validates…",
+  "legacy_id": "PLURAL-CLOSURE-BOUNDARY",
+  "argument_id": "6c107942-f660-59a7-ae5a-f691aed39fec",
   "challenge_module": "TruthCore.Results.Logic.PluralClosureBoundary.Challenge",
   "solution_module": "TruthCore.Results.Logic.PluralClosureBoundary.Solution",
   "theorem": "TruthCore.Results.Logic.PluralClosureBoundary.checks",

@@ -1,0 +1,30 @@
+{
+  "id": "dd7ee4b9-8cfa-51a7-a949-0f80527948d8",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a…, via dependence",
+  "legacy_id": "CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "premise_statement_ids": [
+    "3ef67739-a427-582b-9eaa-af6410b9c3d3",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "conclusion_statement_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+  "inference_ids": [
+    "662ea759-5db5-5a37-a1ce-dbd1ce342db4"
+  ],
+  "meaning": "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}

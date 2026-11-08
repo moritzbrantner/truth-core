@@ -1,9 +1,11 @@
 {
-  "id": "REL-ARIST-MET-1049B-ACTUAL-BY-ACTUAL-SUPPORTS-REDUCED-BY-A-MOVER",
+  "id": "54561281-e410-59a8-ae6d-399d0ee83e46",
+  "label": "Aristotle, Metaphysics IX.8, 1049b24-26… supports Whatever is being moved in a respect is…",
+  "legacy_id": "REL-ARIST-MET-1049B-ACTUAL-BY-ACTUAL-SUPPORTS-REDUCED-BY-A-MOVER",
   "subject_kind": "claim",
-  "subject_id": "ARIST-MET-1049B-ACTUAL-BY-ACTUAL-A",
+  "subject_id": "41dcdf2b-0e4b-52dd-b9b3-a69ed77790d5",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "object_id": "4a952b96-be5f-5493-8277-985248151d01",
   "note": "Metaphysics IX.8 states the being-in-act principle, which entails that whatever is moved has a mover in the respect (BEING-IN-ACT-READING-FACTS)."
 }

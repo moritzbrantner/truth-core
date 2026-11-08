@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
-  "argument_id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "id": "d92dee3e-166f-5cb2-b5ef-3fd20f0df417",
+  "label": "No world witnesses every edge of any nonempty union…, from Every world has no nonempty directed…",
+  "legacy_id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "argument_id": "ea3f7bd5-380f-5042-a254-a6b605769094",
   "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.LocalWitness.checks",

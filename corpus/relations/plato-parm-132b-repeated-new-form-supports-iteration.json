@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132B-REPEATED-NEW-FORM-SUPPORTS-ITERATION",
+  "id": "0932fa22-4a8d-5e03-b48e-7cf2bdaf8a56",
+  "label": "Plato, Parmenides 132b: Another Form of… supports Eligible lists remain eligible when any…",
+  "legacy_id": "REL-PLATO-PARM-132B-REPEATED-NEW-FORM-SUPPORTS-ITERATION",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132B-REPEATED-NEW-FORM",
+  "subject_id": "020d0f34-d344-55d9-9ff8-8581b6aa10b4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-ITERATION",
+  "object_id": "f3b1d362-7af3-566a-8a5d-83ef93831e13",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

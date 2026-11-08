@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ACT-POTENCY-M5",
+  "id": "ad955c2f-506a-533d-a69e-55a8dad399f0",
+  "label": "Existing #374 omission model M5: all seven other act/potency premises, sensible motion and…",
+  "legacy_id": "MODEL-ACT-POTENCY-M5",
   "description": "Existing #374 omission model M5: all seven other act/potency premises, sensible motion and accessible per-se links hold. No premise is closed.",
   "vocabulary": "ACT-POTENCY",
   "lean_declaration": "TruthCore.Models.ActPotency.M5.model",
@@ -37,7 +39,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -47,7 +49,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation0"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "statement_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -56,7 +58,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -67,7 +69,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation2"
     },
     {
-      "statement_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+      "statement_id": "7067553d-cad9-5d79-b6b2-912e35051530",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -78,7 +80,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation3"
     },
     {
-      "statement_id": "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY",
+      "statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -90,7 +92,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation4"
     },
     {
-      "statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+      "statement_id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -101,7 +103,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation5"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+      "statement_id": "4a952b96-be5f-5493-8277-985248151d01",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -112,7 +114,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation6"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -123,7 +125,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation7"
     },
     {
-      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "statement_id": "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -135,7 +137,7 @@
       "theorem": "TruthCore.Models.ActPotency.M5.evaluation8"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "violates",
       "arguments": [
         "Being",

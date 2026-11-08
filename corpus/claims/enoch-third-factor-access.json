@@ -1,15 +1,17 @@
 {
-  "id": "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
-  "statement_id": "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
-  "source_id": "ENOCH-METANORMATIVE-EPISTEMOLOGICAL-CHALLENGE",
+  "id": "dac4ec84-f716-5dea-87d1-e367474f7f8b",
+  "label": "David Enoch, The epistemological challenge…: Enoch proposes that selective pressures shape…",
+  "legacy_id": "ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+  "statement_id": "69c528d9-b09e-583c-9dd2-2ee92fa2879f",
+  "source_id": "4536e978-112d-5072-ac51-f3f54f68450f",
   "locator": "pp. 427–434, §§5.1–5.3: third factor, survival and limits; especially pp. 430–432 and note 44",
   "interpretation": "Qualified realist reply, not a derivation of normativity from reproductive success. The goodness assumption is first-order normative; the belief–action mechanism, starting points and reasoning reliability are further commitments. Note 44 distinguishes explaining correlation/possibly defeating a defeater from directly justifying normative beliefs. No quantitative probability is assigned.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MORAL-ACCESS-CORRELATION",
-    "DEF-ENOCH-THIRD-FACTOR-ACCESS"
+    "28cc1233-60e8-59b4-a906-99c8835aa551",
+    "daa6a2fe-5251-56b4-b808-cc21ce759a03"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

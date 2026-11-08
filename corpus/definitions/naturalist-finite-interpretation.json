@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALIST-FINITE-INTERPRETATION",
+  "id": "e1858d69-a463-5e57-8722-0de4a22a3049",
+  "label": "Finite interpretation of the…: Extends the existing Metaethics.Sig with welfare…",
+  "legacy_id": "DEF-NATURALIST-FINITE-INTERPRETATION",
   "term": "finite interpretation of the naturalist fragments",
   "definition": "Extends the existing Metaethics.Sig with welfare, objective-interest satisfaction, impartial rightness, positive cluster contributions and instrumental reasons. Two Bool agents receive equal benefit units; Bool actions distinguish positive and negative cases; Bool sentences assert opposite actions. A two-person equal-benefit maximizing criterion is realized by the positive act. This stipulative interpretation proves encoded satisfiability and non-entailment of categorical instrumental reasons, not empirical truth, an actual natural grounding or equivalence of whole theories.",
   "basis": "stipulative",

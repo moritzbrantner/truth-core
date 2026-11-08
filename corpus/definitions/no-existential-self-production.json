@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-EXISTENTIAL-SELF-PRODUCTION",
+  "id": "eee784e7-d27d-5ccd-835b-2e03b344b7f8",
+  "label": "No occurring act produces its own…: For every a, Occurs a implies not produces a",
+  "legacy_id": "DEF-NO-EXISTENTIAL-SELF-PRODUCTION",
   "term": "no occurring act produces its own bearer’s existence",
   "definition": "For every a, Occurs a implies not produces a (bearer a). This restricts the supplied productive relation; it does not forbid all intrinsic explanation, maintenance, self-change, temporal feedback or a source-free infinite chain.",
   "basis": "stipulative",

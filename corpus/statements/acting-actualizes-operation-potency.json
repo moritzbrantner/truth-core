@@ -1,0 +1,15 @@
+{
+  "id": "d791628f-72c6-572e-ad1e-03f4f22ba646",
+  "label": "Whenever something moves another and that moving is its operation in a respect of its own, its…",
+  "legacy_id": "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY",
+  "paraphrase": "Whenever something moves another and that moving is its operation in a respect of its own, its potency in that respect is, as such, being actualized. Analyst formulation, open; contested by the Physics III.3 location of motion in the moved.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.ActingActualizesOperationPotency",
+  "definition_ids": [
+    "c195d490-07ab-5cbc-82e9-d0d7c82abd2e",
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

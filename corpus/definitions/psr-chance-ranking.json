@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-CHANCE-RANKING",
+  "id": "699129b3-0d9f-5758-bf94-a1088785a3de",
+  "label": "Fixed conditional probability ranking…: The existing perReason favouring frame specialized to…",
+  "legacy_id": "DEF-PSR-CHANCE-RANKING",
   "term": "fixed conditional probability ranking of outcomes",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chanceFrame",

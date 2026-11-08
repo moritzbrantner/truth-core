@@ -3,7 +3,8 @@
 Some unit tests elaborate fixtures that import compiled `TruthCore` modules. In a
 fresh clone without `.lake/build` they used to fail with a long Lean error. They
 now skip with the exact module and command to build it. On CI (`CI` set) they
-never skip: a missing build there is a real failure.
+never skip when Lean verification is selected: a missing build there is a real
+failure. Metadata-only CI jobs explicitly disable these integration tests.
 """
 
 from __future__ import annotations
@@ -27,6 +28,8 @@ def missing_modules(*modules: str) -> list[str]:
 
 def build_skip_reason(*modules: str) -> str | None:
     """Why a test needing `modules` must skip here, or None when it can run."""
+    if os.environ.get("TRUTH_CORE_LEAN_TESTS") == "false":
+        return "Lean integration tests are outside this metadata-only CI job"
     missing = missing_modules(*modules)
     if not missing or os.environ.get("CI"):
         return None

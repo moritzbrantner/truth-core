@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
+  "id": "8f67132e-5c8d-5132-a04b-6d194240cb4a",
+  "label": "BRIDGE_2: beings without a limiting…: For all beings x and y, if neither has a limiting principle…",
+  "legacy_id": "DEF-UNLIMITED-BEINGS-SHARE-NATURE",
   "term": "bridge: beings without a limiting principle share a nature",
   "definition": "For all beings x and y, if neither has a limiting principle then essence x = essence y. It ranges over all beings of the carrier and holds vacuously at every pair with a limited member.",
   "basis": "stipulative",

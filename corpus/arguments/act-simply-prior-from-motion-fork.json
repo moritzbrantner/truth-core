@@ -1,0 +1,30 @@
+{
+  "id": "6d1672a7-7dce-58c4-ad07-11d45e5e4bd2",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect is…, from MOTION_1 fork",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030",
+    "6ca87431-3383-58f6-9322-a1f0e8f0396b",
+    "010988b9-346a-5b81-8ad8-98a1c43debeb"
+  ],
+  "conclusion_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+  "inference_ids": [
+    "1e1f9f7c-16f4-58d9-b42a-3ddfb88ec594"
+  ],
+  "meaning": "Act's simple priority by cases on whether the potency is being actualized (excluded middle on MovedIn x r, listed). Moved case: some mover in act moves x (q.2 a.3 reading), it is not x (nothing moves itself in the same respect), so the existing open mover-priority bridge makes it simply prior. Idle case: the new OPEN idle-potency premise. Replaces the rejected premise 'every potency is being actualized' of STMT-ACT-PRIOR-FROM-MOTION-FACTS by the idle half only.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "500ba323-cca5-5b35-8b75-947008256c43",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

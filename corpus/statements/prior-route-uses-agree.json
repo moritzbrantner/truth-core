@@ -1,0 +1,13 @@
+{
+  "id": "c381fe2e-c97f-5311-bc77-9ccfd7c8663f",
+  "label": "Every use of 'prior' on the route stands for one and the same relation: the route does not…",
+  "legacy_id": "STMT-PRIOR-ROUTE-USES-AGREE",
+  "paraphrase": "Every use of 'prior' on the route stands for one and the same relation: the route does not equivocate on 'prior'.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorRouteUsesAgree",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

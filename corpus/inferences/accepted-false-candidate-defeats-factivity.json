@@ -1,9 +1,11 @@
 {
-  "id": "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
+  "id": "1b7c9566-182c-5c29-ad24-ae567e628857",
+  "label": "Exact negation of the accepted-candidate truthfulness policy under the SAME…, by Constructive-proof",
+  "legacy_id": "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-FACTIVITY",
   "input_statement_ids": [
-    "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE"
+    "4073de08-1031-558b-bfcf-911e9b63af26"
   ],
-  "output_statement_id": "STMT-ACCEPTED-ARRANGEMENT-EXPLANATION-FACTIVITY-FAILS",
+  "output_statement_id": "77146549-88ce-53d9-96bb-3105ae35daf7",
   "rule": "constructive-proof",
   "meaning": "An actual accepted false candidate contradicts the SAME accepted-candidate factivity policy. No source theory is refuted by assigning a mistaken generic judgment.",
   "assumption_statement_ids": [],

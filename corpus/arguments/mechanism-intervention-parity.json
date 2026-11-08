@@ -1,17 +1,21 @@
 {
-  "id": "MECHANISM-INTERVENTION-PARITY",
+  "id": "c4e5d1b4-380d-505e-a13d-63a4b25d68b4",
+  "label": "On the existing #974 Boolean-pair public observation interface, a target computed from the…",
+  "legacy_id": "MECHANISM-INTERVENTION-PARITY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MECHANISM-INTERVENTION-PARITY",
-  "inference_ids": ["INF-MECHANISM-INTERVENTION-PARITY"],
+  "conclusion_statement_id": "268243ba-d944-5863-a4e7-b46145877179",
+  "inference_ids": [
+    "18c8f188-993f-5a9d-bbaa-a611f5210932"
+  ],
   "meaning": "Reuse the existing regularity/intervention contrast to separate a structural AND equation from an idle lookup under surgical public settings; independently prove that packing the same two Boolean degrees of freedom in one root-state slot cannot be distinguished from two slots by those settings. Retain #974's graph-root contrast without inferring metaphysical explanation from the experiment.",
   "definition_ids": [
-    "DEF-MECHANISM-INTERVENTION-PARITY",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-COMPLETE-RESPONSE-PARITY"
+    "0716f13e-ad25-5d22-be1a-c7a0cc486071",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "524c5cea-64c2-547a-9e83-80312b490080"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGULARITY-CAUSAL-SENSES",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "f4a648a1-553b-5318-b5c7-df0798634816",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

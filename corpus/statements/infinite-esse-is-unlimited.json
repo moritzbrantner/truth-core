@@ -1,0 +1,16 @@
+{
+  "id": "965d0e26-c26c-5088-887b-7bfc54312b30",
+  "label": "OPEN analyst reading of ST I q.7 a.1 co., 'infinitum dicitur aliquid ex eo quod non est finitum'…",
+  "legacy_id": "STMT-INFINITE-ESSE-IS-UNLIMITED",
+  "paraphrase": "OPEN analyst reading of ST I q.7 a.1 co., 'infinitum dicitur aliquid ex eo quod non est finitum', in the direction converse to STMT-UNLIMITED-ESSE-IS-INFINITE: for every being x, if x is infinite (the primitive Infinite, infinity of perfection simpliciter), then the esse of x is not limited. Q.7 a.2 co. calls subsistent created forms and prime matter infinite only secundum quid; they are not Infinite in this sense.",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.InfiniteEsseIsUnlimited",
+  "definition_ids": [
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "19190b6e-359f-590c-b434-4e6f5803da4f"
+  ]
+}

@@ -1,9 +1,11 @@
 {
-  "id": "INF-SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "id": "cf3f1a9e-d9e3-517d-9af2-48bb08821363",
+  "label": "Disjunction of the explicit set, Form or mathematical selected-world…, by Constructive-proof (3)",
+  "legacy_id": "INF-SET-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
   "input_statement_ids": [
-    "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE"
+    "c9eb51d1-6902-5c79-904a-6ada74c12ceb"
   ],
-  "output_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+  "output_statement_id": "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2",
   "rule": "constructive-proof",
   "meaning": "Explicit set-branch injection into the named disjunction.",
   "assumption_statement_ids": [],

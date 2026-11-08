@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ACCIDENTAL-FEATURE-ACCIDENTAL",
+  "id": "a0df3eb7-812a-59fb-a229-6456880905c5",
+  "label": "The selected repeatable characteristic is classified accidental in x at the supplied standpoint…",
+  "legacy_id": "STMT-ACCIDENTAL-FEATURE-ACCIDENTAL",
   "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.Accidental",
   "paraphrase": "The selected repeatable characteristic is classified accidental in x at the supplied standpoint; no global essential/accidental classification follows.",
   "definition_ids": [
-    "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
-    "DEF-ACCIDENTAL-FEATURE-ORIGIN-POLICIES",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "0775ff1c-7133-54eb-86ae-30dbd446e6d7",
+    "1428c1cc-9e24-5733-a8a1-a82ead0dd2d0",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACCIDENTAL-FEATURE-ORIGIN-AND-EXISTENTIAL-GROUND"
+    "2eca87df-7863-57d4-96a5-30a59ef0d19c"
   ]
 }

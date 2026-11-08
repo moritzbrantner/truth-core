@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ACT-POTENCY-S1",
+  "id": "4ef90581-db06-52ae-858a-9deca7178c98",
+  "label": "Original #374 being-in-act reading sensitivity witness S1",
+  "legacy_id": "MODEL-ACT-POTENCY-S1",
   "description": "Original #374 being-in-act reading sensitivity witness S1. Only the listed closed certificates are registered.",
   "vocabulary": "ACT-POTENCY",
   "lean_declaration": "TruthCore.Models.ActPotencyRemaining.S1.model",
@@ -37,7 +39,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "statement_id": "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -49,7 +51,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.S1.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
+      "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
       "value": "violates",
       "arguments": [
         "Being",

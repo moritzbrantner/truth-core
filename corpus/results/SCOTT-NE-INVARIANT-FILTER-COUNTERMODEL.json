@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
-  "argument_id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "id": "ee09d362-d734-59f9-a4ed-7ef75cb4a497",
+  "label": "There exists a two-world universal-accessibility frame with one individual, evaluated at one of…",
+  "legacy_id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "argument_id": "92cae048-6fbf-58d7-9270-98f3a6228ac1",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.InvariantFilterDiffersFromScott.checks",

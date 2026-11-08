@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-STABLE-EXPLANATION",
+  "id": "e78281b3-54c3-5199-bb8d-e0d05f6a844a",
+  "label": "Same actual reason across worlds of…: ActualStable m domain x means there is one rigid token r…",
+  "legacy_id": "DEF-ACTUAL-STABLE-EXPLANATION",
   "term": "same actual reason across worlds of existence",
   "definition": "ActualStable m domain x means there is one rigid token r such that every world where x exists admits r as both actually present and explanatory. No claim about r or explanation is made at worlds where x is absent.",
   "basis": "stipulative",

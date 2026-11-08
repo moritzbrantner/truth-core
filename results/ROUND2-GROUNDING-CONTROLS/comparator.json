@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.Round2Grounding.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

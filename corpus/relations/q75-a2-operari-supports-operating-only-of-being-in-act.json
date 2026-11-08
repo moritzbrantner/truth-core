@@ -1,0 +1,11 @@
+{
+  "id": "73087ba8-2ba2-5778-826f-7024876a08a2",
+  "label": "Thomas Aquinas, Summa theologiae I q.75… supports Whatever operates, transiently or…",
+  "legacy_id": "REL-Q75-A2-OPERARI-SUPPORTS-OPERATING-ONLY-OF-BEING-IN-ACT",
+  "subject_kind": "claim",
+  "subject_id": "f4b1c499-8294-5a9d-aa58-f0a755480edd",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "febc5ca6-967a-5fcc-9d72-5255d1300b6d",
+  "note": "Q.75 a.2 co. says 'non enim est operari nisi entis in actu'; the claim reads it only of causing another (its example: the hot thing heats). The premise states it of operating as such, including immanent operation such as understanding; that extension is the analyst's."
+}

@@ -1,12 +1,14 @@
 {
-  "id": "STRENGTH-ORDER-EQUIVALENCE",
+  "id": "d98eb352-c298-5c6c-a3a1-3cb365551c69",
+  "label": "For every mathematical linear order and shared x,y, y > x holds exactly when y ≥ x and y ≠ x",
+  "legacy_id": "STRENGTH-ORDER-EQUIVALENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRENGTH-ORDER-EXACT-DELTA",
+  "conclusion_statement_id": "c883b9ad-44da-57b7-bcb2-164c09374233",
   "inference_ids": [
-    "INF-STRENGTH-ORDER-EQUIVALENCE"
+    "9f39b3fa-7d90-53d6-89ca-8f4892abe8ac"
   ],
   "meaning": "Compose all three obligations to obtain y > x iff y ≥ x and y ≠ x under the same mathematical LinearOrder.",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

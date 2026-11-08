@@ -1,0 +1,25 @@
+{
+  "id": "7451cc7a-3361-5b41-b60a-5e981b1f1d4a",
+  "label": "Finite interpretations for the eleven derivations of round 5: for each premise, a model on Unit…",
+  "legacy_id": "ROUND5-WORKLIST-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "e628b84d-e8f4-5280-8cf4-8cf7fd17ace0",
+  "inference_ids": [
+    "05c75a40-7d88-5442-b92e-b2c29a9a8748"
+  ],
+  "meaning": "Finite interpretations for the eleven derivations of round 5: for each premise, a hand-written model (Unit, Bool or Fin 2; the natural numbers for the two finiteness omissions) in which the other premises hold and the conclusion fails (28 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "4869f913-d360-5b9f-a361-2c4b7cf886df",
+    "04c061b1-85ea-573f-8243-3b482c5fce23",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "e5ca09aa-c0f2-5784-8c28-eb9c1ccc6fec",
+    "d77b6ed3-f8d6-5839-8089-fdb5f3562e94",
+    "fa727d21-0365-5c34-9d50-11221e90d6a2",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "0fa78db2-05d6-5c3e-b8c9-04124ccc5776"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

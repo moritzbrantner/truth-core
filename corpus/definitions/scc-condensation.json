@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCC-CONDENSATION",
+  "id": "434cc1f8-3d14-51dc-89ea-ca12ed46f6da",
+  "label": "Strongly connected component and…: Comp maps an event to its Mathlib…",
+  "legacy_id": "DEF-SCC-CONDENSATION",
   "term": "strongly connected component and condensation of a projected membership graph",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.condensed",

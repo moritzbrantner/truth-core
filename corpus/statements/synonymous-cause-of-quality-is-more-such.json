@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-MORE-SUCH",
+  "id": "4ed7eae3-c5dd-531b-90fa-b42528bd22c9",
+  "label": "If a distinct cause and effect have a quality under the same defining account, and the cause…",
+  "legacy_id": "STMT-SYNONYMOUS-CAUSE-OF-QUALITY-IS-MORE-SUCH",
   "paraphrase": "Open strict strengthening: if a distinct cause and effect have a quality under the same defining account, and the cause causes that quality in the effect, the cause is more such than the effect. Aristotle’s most-such wording does not itself exclude ties; this strict reading is not attributed to the source.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.SynonymousCauseMoreSuchReading",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-MORE-IN",
-    "DEF-SHARED-DEFINING-ACCOUNT"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "030b5151-2125-551c-93a3-fc32d034a3cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-BEING-UNIVOCITY"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

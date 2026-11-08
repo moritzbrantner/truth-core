@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207A-ADDITION-DIVISION-RESTATEMENT-A",
-  "statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
-  "source_id": "ARIST-PHYS",
+  "id": "eec965d3-ef11-581b-b212-5e7c10947405",
+  "label": "Aristotle, Physics III.7, 207a33-207b1: There is no potential infinity by addition that exceeds…",
+  "legacy_id": "ARIST-PHYS-207A-ADDITION-DIVISION-RESTATEMENT-A",
+  "statement_id": "41e0a6b3-eef0-50bb-9a88-c513a0c20223",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207a33-207b1",
   "interpretation": "III.7 restates the III.6 asymmetry: infinity does not survive as addition beyond every magnitude, while division remains indefinitely continuable. The existing statement is reused because the proposition is the same rather than merely similar.",
   "status": "formalized"

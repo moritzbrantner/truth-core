@@ -1,32 +1,34 @@
 {
-  "id": "SCOTT-MODAL-COLLAPSE",
+  "id": "4e5e80af-3bef-518e-8f3c-8dd689830c2f",
+  "label": "Modal collapse: at every world, whatever…, from Scott's axiom A1a: at every world, for… and 7 more",
+  "legacy_id": "SCOTT-MODAL-COLLAPSE",
   "premise_statement_ids": [
-    "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
-    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
-    "STMT-SCOTT-POSITIVE-CLOSED-UNDER-NECESSARY-IMPLICATION",
-    "STMT-SCOTT-GOD-LIKE-POSITIVE",
-    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
-    "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-ACCESSIBILITY-SYMMETRIC",
-    "STMT-EXCLUDED-MIDDLE"
+    "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
+    "92df6b8e-ee4a-515e-96a9-813cf012cdc0",
+    "4fc9ca24-10fd-52a5-8125-b8e504db52e1",
+    "a6b42d40-6d62-5fbb-85e4-5a37c6ca4a3e",
+    "0a4a4f75-f7e6-5543-8547-07de3402769c",
+    "37a67a9e-31a7-5243-902b-fd3260fd5526",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-SCOTT-MODAL-COLLAPSE",
+  "conclusion_statement_id": "f8207978-1cbb-51fd-921f-b283c1dbf9a2",
   "inference_ids": [
-    "INF-SCOTT-T1",
-    "INF-SCOTT-C",
-    "INF-SCOTT-T2",
-    "INF-SCOTT-T3",
-    "INF-SCOTT-C2",
-    "INF-SCOTT-MC"
+    "1734eed6-5986-51df-8c04-fbd2b422977c",
+    "a896e994-c62c-5da0-88b0-a34ac9c9a5a6",
+    "97c46f06-61e4-5022-a8a6-1f04cbdbd673",
+    "c796d502-8bed-5cc9-9162-eb70aa047737",
+    "6ecf6cb3-3f67-5330-b204-d2949b442917",
+    "3916586a-3fd0-522c-b861-3bbe1a685a7d"
   ],
   "meaning": "Discriminator consequence: the premises of SCOTT-GOD-LIKE-NECESSARILY-EXISTS entail modal collapse, so in this embedding every truth is necessary. The AFP theory states MC and leaves it unproved in Isabelle (oops); the Lean proof is this repository's. It composes SCOTT-GOD-LIKE-NECESSARILY-EXISTS (T1, C, T2, T3) with C2. Formal consequence inside the Lean embedding of QML KB (DEF-QML-KB-NECESSITY) only: it shows nothing about what Gödel or Scott intended, nor that the axioms are true.",
   "definition_ids": [
-    "DEF-GOD-LIKE-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "90644066-e830-5e1b-a9f0-911743369129",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-NECESSARY",
-    "DISAMB-POSITIVE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

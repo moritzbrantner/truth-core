@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY-ADOPTED-POTENCY",
+  "id": "1d48d98f-ddbc-5d49-861f-704b101e33bc",
+  "label": "Catholicism is TRUE_1: the\u2026, from prima via with classical attributes identity adopted POTENCY_1",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES-IDENTITY-ADOPTED-POTENCY",
+  "argument_id": "c80c6911-4021-5efd-acee-03db7e988eb6",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithClassicalAttributesIdentity.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithClassicalAttributesIdentity.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithClassicalAttributesIdentity.catholicismFromPrimaViaWithClassicalAttributes",

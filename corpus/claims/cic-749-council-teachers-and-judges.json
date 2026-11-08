@@ -1,7 +1,9 @@
 {
-  "id": "CIC-749-COUNCIL-TEACHERS-AND-JUDGES",
-  "statement_id": "STMT-CIC-749-COUNCIL-TEACHERS-AND-JUDGES-OF-FAITH",
-  "source_id": "CODEX-IURIS-CANONICI-1983",
+  "id": "07af4e47-5b5c-5ad9-9b16-e3b89ed33d33",
+  "label": "Catholic Church, Codex Iuris Canonici Can.…: Codex Iuris Canonici can. 749 §2: the bishops…",
+  "legacy_id": "CIC-749-COUNCIL-TEACHERS-AND-JUDGES",
+  "statement_id": "d6cca059-632f-5bad-930f-ff4e89f2e0ef",
+  "source_id": "447910c6-269d-54a7-901e-1c7ad5306d07",
   "locator": "can. 749 §§2-3, qui, ut fidei et morum doctores et iudices, pro universa Ecclesia doctrinam de fide vel de moribus definitive tenendam declarant",
   "interpretation": "Can. 749 §2: 'Infallibilitate in magisterio pollet quoque Collegium Episcoporum quando magisterium exercent Episcopi in Concilio Oecumenico coadunati, qui, ut fidei et morum doctores et iudices, pro universa Ecclesia doctrinam de fide vel de moribus definitive tenendam declarant'; §3: 'Infallibiliter definita nulla intellegitur doctrina, nisi id manifesto constiterit.' (The page spells 'Infallibiitate'.) The canon is about definitive declarations; whether a given canon of Dei Filius is such a declaration is not stated here.",
   "status": "formalized",

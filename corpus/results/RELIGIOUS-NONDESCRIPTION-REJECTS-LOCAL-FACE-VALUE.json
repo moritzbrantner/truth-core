@@ -1,6 +1,8 @@
 {
-  "id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
-  "argument_id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "id": "0594f347-b4d8-540a-b0e9-695072d17f93",
+  "label": "Exact failure of the supplied local…, from A substantive descriptive-role objection…",
+  "legacy_id": "RELIGIOUS-NONDESCRIPTION-REJECTS-LOCAL-FACE-VALUE",
+  "argument_id": "5c6e8ef2-f58a-5465-aaff-f0bc4365060e",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Description.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Description.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.nonDescriptionRejectsLocal",

@@ -1,16 +1,20 @@
 {
-  "id": "POTENCY-ANALYSIS-PARTITION",
+  "id": "24b0ed04-6e7d-5952-abab-bcd17ca794ab",
+  "label": "The partition of the shared question q f7: either a…, from Excluded middle as a general principle…",
+  "legacy_id": "POTENCY-ANALYSIS-PARTITION",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-POTENCY-ANALYSIS-PARTITION",
+  "conclusion_statement_id": "23291bbc-50e1-5d7b-801c-dc962ddc6698",
   "inference_ids": [
-    "INF-POTENCY-ANALYSIS-PARTITION"
+    "a8f62d95-6720-57c0-ba06-3cc5ae5e98c9"
   ],
   "meaning": "The owner's worldview argument for F7 (#1007), first step: exhaustiveness by the shared question, not a list of worldviews. From excluded middle alone, every interpretation satisfies F7 or lies in one of three ¬F7 cells: (a) potency with act in the same respect, (b) potency without capacity, (c) unexercised capacity without potency. cellsDenyF7 shows each cell contradicts F7; f7IffCellConstraints shows F7 is equivalent to the three constraints that exclude the cells (non-simultaneity, potency implies capacity, unexercised capacity is potency), so a floor that defeats every cell entails F7.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CAPACITY-TO-BE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY"]
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-TIME-COMMON",
+  "id": "000637e0-7c0d-5819-b8df-f58a0b826453",
+  "label": "One common presence time across worlds: Common h x is \u2203t \u2200w h.IsAt w x t",
+  "legacy_id": "DEF-HISTORY-TIME-COMMON",
   "term": "one common presence time across worlds",
   "definition": "Common h x is \u2203t \u2200w h.IsAt w x t. The single t belongs to the shared Time type of History. This is stronger than selecting a possibly different witness per world and weaker than presence at every supplied time.",
   "basis": "stipulative",

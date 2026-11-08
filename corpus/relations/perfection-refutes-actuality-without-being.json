@@ -1,0 +1,11 @@
+{
+  "id": "a15fb731-7d94-5dbf-bd58-d200d15e4c1c",
+  "label": "Nothing is in act in some respect without… refutes Rival: something is in act in some respect…",
+  "legacy_id": "REL-PERFECTION-REFUTES-ACTUALITY-WITHOUT-BEING",
+  "subject_kind": "argument",
+  "subject_id": "c2a87347-2c5d-5e76-a2a9-0659136ef542",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "630273f8-b7f8-5b6a-895f-5d2ff23e84cc",
+  "note": "Checked conditional contradiction on the same InAct and esse. Its two premises (q.5 a.1, and q.4 a.2 as encoded) are open, so it does not count for closure; it records which premise a Meinongian must deny."
+}

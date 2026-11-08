@@ -1,13 +1,15 @@
 {
-  "id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+  "label": "The genus principle at being only: whatever is maximal in being causes the being of every other…",
+  "legacy_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
   "paraphrase": "The genus principle at being only: whatever is maximal in being causes the being of every other being.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInBeingCausesAllBeingsReading",
   "definition_ids": [
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION"
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ],
   "note": "This remains an unattributed OPEN analyst principle for every merely maximal bearer, including otherwise admissible incomparable maxima. The greatest-degree source claim is separate and supplies no inference to this stronger conditional."
 }

@@ -1,19 +1,21 @@
 {
-  "id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
+  "id": "0a86321b-bd02-548d-80c5-58a184c8fca5",
+  "label": "McTaggart's bundle on change does not hold: it is not the case both that no event…, by change",
+  "legacy_id": "MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE",
   "premise_statement_ids": [
-    "STMT-SOMETHING-CHANGES"
+    "bef22027-4f6d-5722-9597-e4dec273ebdd"
   ],
-  "conclusion_statement_id": "STMT-MCTAGGART-UNREALITY-OF-TIME-FALSE",
+  "conclusion_statement_id": "b6d80431-0884-54d0-a58e-8070628cac8f",
   "inference_ids": [
-    "INF-MCTAGGART-BUNDLE-DEFEATED-BY-CHANGE"
+    "b127bd1f-44d6-57cd-8923-e99c18a0f669"
   ],
   "meaning": "Defeat by consequence (#1007, pilot b). McTaggart's two theses entail that nothing changes: whatever changed would, by all change being A-series change, give an event changing in its A-series determinations, which his first thesis denies. Given F3 (something changes), at least one thesis is false. Uses no opining, motion or bridge premise, unlike MCTAGGART-UNREALITY-OF-TIME-REFUTED. The defeat is relative to F3's floor marking and reaches only the 1908 bundle: McTaggart's later reply (Nature of Existence II, § 511: appearers do not change, AppearingsDoNotChangeReading) restricts the denial of change to opiners, which is compatible with F3 as stated, so it is not defeated here.",
   "definition_ids": [
-    "DEF-A-SERIES-CHANGE",
-    "DEF-CHANGE-GENERAL",
-    "DEF-OPINING"
+    "6b30d5d8-9d30-51f1-9830-e356325c2529",
+    "9bd881c9-2227-5883-9595-96db5e630da3",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

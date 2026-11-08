@@ -1,0 +1,13 @@
+{
+  "id": "cc5c7105-90f2-5c2a-8f57-16325b2946d4",
+  "label": "Nothing causes itself in any respect, 'cause' in the route's sense",
+  "legacy_id": "STMT-NOTHING-CAUSES-ITSELF-IN-ROUTE-SENSE",
+  "paraphrase": "OPEN analyst premise (attribution deferred): nothing causes itself in any respect, 'cause' in the route's sense.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingCausesItselfInRouteSense",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSE-NOT-PART-OF-EFFECT",
+  "id": "c8de77f7-e2bb-500f-985b-5c4907b02fd2",
+  "label": "Cause is not part of its effect at the…: For every c,e, the SAME primitive Ontic.Causes w c e…",
+  "legacy_id": "DEF-CAUSE-NOT-PART-OF-EFFECT",
   "term": "cause is not part of its effect at the selected world",
   "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.CauseNotPartOfEffectAt",
   "basis": "stipulative",

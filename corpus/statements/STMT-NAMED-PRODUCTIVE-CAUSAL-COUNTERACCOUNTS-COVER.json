@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
+  "id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
+  "label": "If any selected-world no-esse capacity or productive countercase exists, some supplied…",
+  "legacy_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
   "paraphrase": "OPEN existential-support coverage hypothesis: if any selected-world no-esse capacity or productive countercase exists, some supplied set/Form/mathematical productive countercase exists. This does not classify every counterexample or preserve its witness. If a named productive countercase already exists, coverage can hold even with unrelated capacity-only counterexamples. Investigated examples do not establish this hypothesis.",
   "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.NamedCoverage",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

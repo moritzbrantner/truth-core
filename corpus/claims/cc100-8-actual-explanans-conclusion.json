@@ -1,15 +1,17 @@
 {
-  "id": "CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
-  "statement_id": "STMT-CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "0861a0a3-f36e-5b5a-a99b-42b217ec88d0",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: In the invoked S5 setting, if possibly a proposition…",
+  "legacy_id": "CC100-8-ACTUAL-EXPLANANS-CONCLUSION",
+  "statement_id": "5778890f-c620-54af-bac5-182462a976d1",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.16, argument #8, step 5 citing steps 3–4 and S5",
   "interpretation": "Preserve the displayed conclusion about an explaining proposition, rather than silently weakening it to bare necessary-being existence. The source invokes S5; no proof that S5 transports the explanatory relation or its selected token to actuality is registered. Existing same-bearer necessity results do not by themselves supply an actual explanans of this fixed BCCP. This is an OPEN attributed conditional, not a formal refutation or established modal consequence. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

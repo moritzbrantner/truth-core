@@ -1,0 +1,12 @@
+{
+  "id": "99f6f733-2143-57e8-9f08-d5a45d49b730",
+  "label": "A mover other than the moved thing that is being moved in a respect relevant to…, from instrument",
+  "legacy_id": "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+  "argument_id": "8b58de76-7a8c-5133-98f6-40753f9b8c07",
+  "challenge_module": "TruthCore.Results.Causality.MotionMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.MotionMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.MotionMapsBatch1.relevantRespectFromInstrument",
+  "comparator_config": "results/SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT/comparator.json",
+  "status": "solution-present",
+  "description": "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel."
+}

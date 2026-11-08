@@ -1,0 +1,12 @@
+{
+  "id": "0eec14cf-f843-5167-aae1-c5b185e393a2",
+  "label": "No two things efficiently cause each other, in any respects: if c efficiently…, from dependence",
+  "legacy_id": "NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE",
+  "argument_id": "ede78c78-fa4f-5907-a850-b930d176ba5e",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.noMutualEfficientCausation",
+  "comparator_config": "results/NO-MUTUAL-EFFICIENT-CAUSATION-FROM-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "If c efficiently causes x and x efficiently caused c, then c would depend for its being on x (as x's effect) and not depend on x (as x's cause). Hence no two things efficiently cause each other in any respects."
+}

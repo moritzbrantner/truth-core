@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
+  "id": "ea819c3e-09bb-5000-85f8-e4b28e34aead",
+  "label": "Semantic named-definition coverage and…: Coextensive s a b means ∀ x p, denotes a x p ↔ denotes b…",
+  "legacy_id": "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
   "term": "semantic named-definition coverage and a genuinely different additional definition",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SemanticNamedCoverage",

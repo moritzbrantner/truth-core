@@ -1,0 +1,13 @@
+{
+  "id": "5fe060c3-b250-5e6a-8c62-c1fb0d9f8f59",
+  "label": "NECESSARY_1-being node, tertia via reading: there is an actual root n…, by Box-diamond duality…",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-K-STRENGTHENS-TERTIA-VIA",
+  "input_statement_ids": [
+    "cdf897a8-5490-561a-b9d2-507486a3f192"
+  ],
+  "output_statement_id": "32a2f51c-a630-56a0-acc3-800637c18253",
+  "rule": "Box-diamond duality (K), negation introduction",
+  "meaning": "Strength registration: box-existence of n implies the tertia via's 'n cannot not-be' with possibility read as the frame's diamond. The converse holds only classically (excluded middle); it is not registered.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

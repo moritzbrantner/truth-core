@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { DepthMark, ResultKindMark, StatementStateMark } from "@/components/state-mark";
-import { findStatement, getCorpus } from "@/lib/corpus";
+import { findStatement, getCorpus, idOf, nameOf } from "@/lib/corpus";
 import { describeDisagreement, FLOOR_BASIS_DESCRIPTIONS } from "@/lib/floor";
 import {
   CLOSURE_DESCRIPTIONS,
@@ -53,7 +53,7 @@ function PremiseRow({ item, stages }: { item: FrontierItem; stages: number[] }) 
         {item.paraphrase}
       </Link>
       <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">
-        {item.statement_id} · {item.transitive_dependent_arguments.length} dependent arguments
+        {idOf(item.statement_id)} · {item.transitive_dependent_arguments.length} dependent arguments
         {item.stating_claims.length ? ` · stated by ${item.stating_claims.length} source claim${item.stating_claims.length === 1 ? "" : "s"}` : ""}
         {item.supporting_claims.length ? ` · supported by ${item.supporting_claims.length}` : ""}
         {item.objections.length ? ` · ${item.objections.length} objection${item.objections.length === 1 ? "" : "s"}` : ""}
@@ -164,7 +164,7 @@ export default function StatePage() {
         <p className="eyebrow">Root</p>
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <StatementStateMark state={rootState} />
-          <span className="font-mono text-xs text-[var(--muted)]">{DEFAULT_ROOT_STATEMENT_ID}</span>
+          <span className="font-mono text-xs text-[var(--muted)]">{idOf(DEFAULT_ROOT_STATEMENT_ID)}</span>
         </div>
         <Link className="mt-3 block max-w-4xl font-serif text-3xl leading-tight tracking-[-0.03em] hover:text-[var(--accent)]" href={`/statements/${DEFAULT_ROOT_STATEMENT_ID}`}>
           {root?.paraphrase ?? "The root statement is not in the corpus yet."}
@@ -182,10 +182,10 @@ export default function StatePage() {
                 <li key={argument.id}>
                   {result ? (
                     <Link className="link-quiet font-mono text-xs" href={`/results/${result.id}`}>
-                      {argument.id}
+                      {nameOf(argument.id)}
                     </Link>
                   ) : (
-                    <span className="font-mono text-xs">{argument.id}</span>
+                    <span className="text-xs">{nameOf(argument.id)}</span>
                   )}{" "}
                   — {argument.premise_statement_ids.filter((premise) => !report.closed_statements[premise]).length} of{" "}
                   {argument.premise_statement_ids.length} premises open
@@ -329,7 +329,7 @@ export default function StatePage() {
                 ))}
               </div>
               <p className="mt-3 font-serif text-xl leading-snug">{paraphrase(result.argument.conclusion_statement_id)}</p>
-              <p className="mt-2 font-mono text-xs text-[var(--muted)]">{result.id}</p>
+              <p className="mt-2 font-mono text-xs text-[var(--muted)]">{idOf(result.id)}</p>
             </Link>
           ))}
         </div>
@@ -394,7 +394,7 @@ export default function StatePage() {
                   <p className="mt-1 text-xs text-[var(--muted)]">
                     alternative to{" "}
                     <Link className="link-quiet" href={`/statements/${alternative.target}`}>
-                      {alternative.target}
+                      {nameOf(alternative.target)}
                     </Link>
                     {alternative.refutedBy.map((argumentId) => {
                       const result = corpus.results.find((entry) => entry.argument_id === argumentId);
@@ -403,7 +403,7 @@ export default function StatePage() {
                           {" "}
                           · refuted by{" "}
                           <Link className="link-quiet font-mono" href={`/results/${result.id}`}>
-                            {argumentId}
+                            {nameOf(argumentId)}
                           </Link>
                         </span>
                       ) : null;
@@ -431,7 +431,7 @@ export default function StatePage() {
                   <p className="mt-1 text-xs text-[var(--muted)]">
                     against{" "}
                     <Link className="link-quiet" href={`/statements/${objection.target}`}>
-                      {objection.target}
+                      {nameOf(objection.target)}
                     </Link>
                   </p>
                 </li>

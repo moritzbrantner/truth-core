@@ -1,19 +1,21 @@
 {
-  "id": "INF-ACTUAL-FUSION-NECESSARY-BEING",
+  "id": "7874224a-4088-5b0f-aa6b-86d41a9f4b84",
+  "label": "At least one individual exists at the selected world and at…, by Classical-reductio-from-actua…",
+  "legacy_id": "INF-ACTUAL-FUSION-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
-    "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
-    "STMT-CAUSE-EFFECT-NONOVERLAP-AT"
+    "523917cf-d978-5a15-87fc-61186d7e59de",
+    "bbe8900a-7d33-5e6b-a76c-1947ecf7fa6e",
+    "76667657-a3ed-565a-b9fe-26f4eac81272",
+    "b699ecfb-08f7-5864-a671-1205c8f5792f",
+    "21265cfa-522d-5151-9435-b4e8f55c0c0f"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "classical-reductio-from-actual-selected-fusion-and-causal-nonoverlap",
   "meaning": "Assume the scoped negation of existing NecessaryBeing. Every actual x then has no necessary parts: any necessary p ≤ x would be actual by the actual-part policy and would witness the denied NE. The explicitly actual sum therefore has no necessary parts and gets a cause c by the causal input. Causal actuality makes c actual, so the SAME reductio also makes c have no necessary parts. Thus c belongs to the exact fusion family and Fusion.upper places c below the sum. The common part c witnesses forbidden cause/effect overlap. Discharge the scoped denial classically to obtain SOME actual necessary individual. This does not establish that c is necessary. No L1/L2/A1, modal frame, concrete profile, grounding or source-truth premise is smuggled in.",
   "assumption_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ],
   "discharged_statement_ids": [
-    "STMT-NO-ACTUAL-NECESSARY-BEING-AT"
+    "b8e584ad-46de-5756-a1a6-d09a915b6c9e"
   ]
 }

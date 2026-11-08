@@ -1,21 +1,23 @@
 {
-  "id": "HISTORY-SELECTION-CERTIFICATE",
+  "id": "4a1d04b7-1c9a-5b65-b6f9-1f1dc68982a0",
+  "label": "For any typed history and admitted truth-vector, determining the complete supplied history among…",
+  "legacy_id": "HISTORY-SELECTION-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HISTORY-SELECTION-CERTIFICATE",
+  "conclusion_statement_id": "8cb72b43-74b2-5dad-ad9a-73eadae47602",
   "inference_ids": [
-    "INF-HISTORY-SELECTION-CERTIFICATE"
+    "410e941c-b76e-5b6c-8d7c-6350613a7fdc"
   ],
   "meaning": "Prove the exact equivalence by using the complete evidence-equivalence class as a candidate and, conversely, transporting candidate truth along evidence agreement. Apply it to the accessible rival. Compose existing all-on/off, unique-feedback and source-overlap theorems; derive signal uniqueness pointwise without an initial value. Keep the same presence extensions while changing only the causal graph for the rooted comparison.",
   "definition_ids": [
-    "DEF-HISTORY-SELECTION-INFORMATION",
-    "DEF-HISTORY-SELECTION-CONTROLS",
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-UNIQUE-FEEDBACK-STATE",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP"
+    "c8c357e8-33d1-5468-858d-78f8493e353b",
+    "1837bb02-3fc0-5965-9bff-3c20ceb097c8",
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "23c649fa-6acc-5816-954b-5de851e007c1",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-SELECTION-ADEQUACY",
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "3ebb0e1e-f9a0-5d2b-ac48-62314e7fbde1",
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

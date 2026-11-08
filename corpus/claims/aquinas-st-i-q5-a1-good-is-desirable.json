@@ -1,12 +1,14 @@
 {
-  "id": "AQUINAS-ST-I-Q5-A1-GOOD-IS-DESIRABLE-A",
-  "statement_id": "STMT-GOOD-IS-DESIRABLE",
-  "source_id": "AQUINAS-ST",
+  "id": "5f8939e0-fe41-59f9-97ba-2bade78f60a8",
+  "label": "Thomas Aquinas, Summa theologiae I q.5 a.1 co: A thing is GOOD_4 in a given perfection exactly…",
+  "legacy_id": "AQUINAS-ST-I-Q5-A1-GOOD-IS-DESIRABLE-A",
+  "statement_id": "ff35f485-9ac3-5160-b338-b1dfcdf3b0b5",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.5 a.1 co.: Ratio enim boni in hoc consistit, quod aliquid sit appetibile",
   "interpretation": "First step of the respondeo's argument that good and being are the same in reality: the notion (ratio) of good consists in something's being desirable, with Aristotle's 'the good is what all desire' (in I Ethic.) as authority. Read per perfection as a biconditional between two distinct predicates, so that the article's conclusion can be stated per perfection as in STMT-GOODNESS-IS-ACTUALITY. Aquinas gives a ratio, which could be formalized as a definition of GoodIn; it is kept a premise so that the conclusion is not analytic relative to a chosen definition (#352). The reply's distinction between good simpliciter and good secundum quid is not formalized.",
   "definition_ids": [
-    "DEF-DESIRABLE-IN-A-PERFECTION",
-    "DEF-GOOD-AS-BEING-IN-ACT"
+    "661ad6ef-309b-5334-b770-bfbf173a6784",
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546"
   ],
   "status": "formalized"
 }

@@ -1,0 +1,16 @@
+{
+  "id": "c78c77da-91b0-5928-bd5f-ba670a6f3660",
+  "label": "Any being, root or not, that is not composite, whose represented esse equals its represented…",
+  "legacy_id": "STMT-UNLIMITED-DETERMINATIONS-ARE-PURE",
+  "paraphrase": "OPEN, unattributed bridge: any being, root or not, that is not composite, whose represented esse equals its represented essence, and to which no distinct being is simply prior, has only pure perfections among its real determinations. Equivalently, every non-pure real determination of a being comes from its composition, received esse or dependence on something prior. Ranges over all beings; its restriction to actual roots would only restate strict pure actuality at the roots once roots are shown unlimited.",
+  "lean_declaration": "TruthCore.Causality.RootPurity.UnlimitedDeterminationsArePure",
+  "definition_ids": [
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780"
+  ],
+  "disambiguation_ids": [
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "06fb4f51-ff5f-5c5e-b947-844f20de4174"
+  ]
+}

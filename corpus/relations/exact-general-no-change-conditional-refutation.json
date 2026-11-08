@@ -1,9 +1,11 @@
 {
-  "id": "REL-EXACT-GENERAL-NO-CHANGE-CONDITIONAL-REFUTATION",
+  "id": "1d749fa7-b7b4-54fd-9c70-e2e911dd76dc",
+  "label": "Exact negation of F3… refutes Something changes, in the general sense of…",
+  "legacy_id": "REL-EXACT-GENERAL-NO-CHANGE-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "EXACT-GENERAL-NO-CHANGE-NEGATES-F3",
+  "subject_id": "e014720d-f3b8-5072-bb46-1726c782df17",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-SOMETHING-CHANGES",
+  "object_id": "bef22027-4f6d-5722-9597-e4dec273ebdd",
   "note": "Conditional logical opposition only; the no-general-change premise is not established. Owner-approved F3 remains established on its original observation basis."
 }

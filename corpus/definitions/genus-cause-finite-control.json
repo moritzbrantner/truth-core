@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GENUS-CAUSE-FINITE-CONTROL",
+  "id": "9f27e312-93ac-5115-b207-25a66774e06d",
+  "label": "Fixed strict-genus taxonomy in the…: The concrete Term carrier has genus, species, differentia and…",
+  "legacy_id": "DEF-GENUS-CAUSE-FINITE-CONTROL",
   "term": "fixed strict-genus taxonomy in the q3a4 cause comparison",
   "definition": "The concrete Term carrier has genus, species, differentia and being predicables. Both Bool bearers are in the designated genus; genus and differentia are essentially said of their represented species, while genus is not essentially said of its own differentia. Existing q3a4 Profile fields represent actuality, essence, esse and efficient cause. SameNoncausalData is equality of every Profile field except CausesIn. These are explicit finite interpretations, not real genus/differentia constituents or a definition of metaphysical dependence.",
   "basis": "stipulative",

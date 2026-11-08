@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-QUALIFIED-NOT-ALWAYS",
-  "argument_id": "HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "id": "f255a1c8-d23b-548e-9475-d2ad4f3c8836",
+  "label": "A finite interpretation satisfies God-to-love, qualified openness, the belief constraint, reasons…",
+  "legacy_id": "HIDDENNESS-QUALIFIED-NOT-ALWAYS",
+  "argument_id": "33f39724-0c0a-551d-8de2-e68ff6647a45",
   "challenge_module": "TruthCore.Results.Hiddenness.QualifiedNotAlways.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution",
   "theorem": "TruthCore.Results.Hiddenness.QualifiedNotAlways.qualifiedNotAlways",

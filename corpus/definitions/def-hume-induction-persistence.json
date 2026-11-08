@@ -1,10 +1,12 @@
 {
-  "id": "DEF-HUME-INDUCTION-PERSISTENCE",
+  "id": "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31",
+  "label": "Conditional persistence of customary…: ConditionalPersistence relates times at which human nature…",
+  "legacy_id": "DEF-HUME-INDUCTION-PERSISTENCE",
   "term": "conditional persistence of customary influence",
   "definition": "ConditionalPersistence relates times at which human nature remains the same to times at which custom retains its influence. The conditional alone asserts neither invariant nature nor effective custom at all future times.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.ConditionalPersistence",
   "claim_ids": [
-    "HUME-ENQUIRY-V-PERSISTENCE-A"
+    "b7a37962-52c1-5fde-bc2f-c613c6cb07d6"
   ]
 }

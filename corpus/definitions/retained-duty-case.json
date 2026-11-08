@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RETAINED-DUTY-CASE",
+  "id": "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+  "label": "DATED_DUTY_1, practical ability, actual\u2026: Case is one fixed agent with four independent Stage \u2192\u2026",
+  "legacy_id": "DEF-RETAINED-DUTY-CASE",
   "term": "dated duty, practical ability, actual fulfillment and retrospective responsibility",
   "definition": "Case is one fixed agent with four independent Stage \u2192 Action \u2192 Prop fields: duty, able, fulfilled, responsible. Stage has before, after and later; Action distinguishes originalReturn (the identical borrowed object), compensation and debtRepayment. Destruction of the original does not define a compensation duty. Fields are analyst stipulations, with no moral rule inferred from descriptive facts. A laterFrame edge is strict chronological succession in the finite example. FutureCan is existential later practical ability, not actual later performance or unrestricted possibility.",
   "basis": "stipulative",

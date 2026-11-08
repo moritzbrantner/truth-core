@@ -27,13 +27,13 @@ export function ConflictReview({
       The following already accepted propositions form certified incompatible conjunctions with it.</p>
     <ul className={styles.certifiedCoreList}>
       {review.cores.map((core) => <li key={core.key}>
-        <strong>{core.caseId}</strong><span>{core.profile}</span>
+        <strong>{core.caseLabel ?? core.caseId}</strong><span>{core.profile}</span>
         <ul>{core.statementIds.map((id) => <li key={id}>
           {id === proposedId ? <strong>New: </strong> : null}
           {model.statements[id]?.paraphrase ?? id}
         </li>)}</ul>
         <span>Certified result: {core.resultIds.map((id, index) =>
-          <span key={id}>{index > 0 ? ", " : ""}<Link href={"/results/" + id}>{id}</Link></span>)}</span>
+          <span key={id}>{index > 0 ? ", " : ""}<Link href={"/results/" + id}>{core.resultLabels?.[id] ?? id}</Link></span>)}</span>
       </li>)}
     </ul>
     <h3>Ways to accept the new proposition</h3>

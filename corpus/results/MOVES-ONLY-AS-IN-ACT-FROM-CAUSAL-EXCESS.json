@@ -1,0 +1,12 @@
+{
+  "id": "f01de122-4f0d-57e8-a94d-26ad841e93af",
+  "label": "A thing moves another in some respect only insofar as it is itself in act in…, from causal excess",
+  "legacy_id": "MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS",
+  "argument_id": "892db443-af2e-5925-9e3d-74b3f6788ac3",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.nothingMovesExceptInAct",
+  "comparator_config": "results/MOVES-ONLY-AS-IN-ACT-FROM-CAUSAL-EXCESS/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: y moves itself by a distinct part p (OPEN reading of Physics VIII.4-5); by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107."
+}

@@ -1,16 +1,18 @@
 {
-  "id": "STMT-FINITE-HITTING-ONE-FINITE",
+  "id": "83e47239-0986-5a54-b27a-8408b14ab442",
+  "label": "At least one admissible complete history has a Mathlib-finite concrete population",
+  "legacy_id": "STMT-FINITE-HITTING-ONE-FINITE",
   "paraphrase": "At least one admissible complete history has a Mathlib-finite concrete population.",
   "lean_declaration": "TruthCore.Modal.FiniteHitting.OneFinite",
   "definition_ids": [
-    "DEF-FINITE-HITTING-PROFILE",
-    "DEF-POPULATION-CLOSURE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "6f1b9a55-01d5-5894-95fc-f067077e2bda",
+    "96b756de-1ba1-594b-ba05-ac63da55f63f",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-FINITE-HITTING-PROFILE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "e0c88ff5-5878-5ab9-ac83-bb9314ed6dc0",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

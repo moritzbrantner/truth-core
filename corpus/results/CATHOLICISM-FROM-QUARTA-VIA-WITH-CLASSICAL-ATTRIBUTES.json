@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES",
-  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "id": "ad583d33-dc4a-514c-bdbf-136d824dd85a",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching…, from quarta via with classical attributes",
+  "legacy_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES",
+  "argument_id": "100fd420-186b-5501-9b2b-3eecd57b33a5",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithClassicalAttributes.catholicismFromQuartaViaWithClassicalAttributes",

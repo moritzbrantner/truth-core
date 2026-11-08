@@ -1,6 +1,8 @@
 {
-  "id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
-  "argument_id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "id": "040a8275-b1e4-5353-b121-ae0fccd024db",
+  "label": "The original fixed narrow institutional bridge…, from The selected governing predicate on the…",
+  "legacy_id": "NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "argument_id": "aeef6604-5f6a-54f0-863f-80fd4d3b7a51",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Narrow.narrowCalibration",

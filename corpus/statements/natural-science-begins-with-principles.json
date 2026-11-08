@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
+  "id": "c663f5f9-ba6b-5eb1-b3e7-9646baa7bc55",
+  "label": "The first task of natural science is to determine what concerns its principles",
+  "legacy_id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
   "paraphrase": "The first task of natural science is to determine what concerns its principles.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalScienceBeginsWithPrinciplesReading"
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ABSTRACT-NO-ESSE-IN-RE",
+  "id": "632ad5ee-e94f-574d-bb37-c02b774984f4",
+  "label": "ABSTRACT_3: no esse in re: EsseAbstract InAct esse x:= ¬ InAct x esse: the contradictory of…",
+  "legacy_id": "DEF-ABSTRACT-NO-ESSE-IN-RE",
   "term": "abstract: no esse in re (adopted sense)",
   "definition": "EsseAbstract InAct esse x := ¬ InAct x esse: the contradictory of DEF-CONCRETE-ESSE-IN-RE. An abstract candidate has no esse in re; at most it has being in the intellect, as the number 2 or a universal does. There are no borderline cases. Disjointness from concrete follows by non-contradiction and exhaustiveness from excluded middle (EsseDichotomy, result CONCRETE-ABSTRACT-ESSE-DICHOTOMY).",
   "basis": "stipulative",

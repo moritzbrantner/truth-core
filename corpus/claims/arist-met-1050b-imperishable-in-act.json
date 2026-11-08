@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-MET-1050B-IMPERISHABLE-IN-ACT-A",
-  "statement_id": "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE",
-  "source_id": "ARIST-MET",
+  "id": "3c6af940-4c09-532c-a566-be9e45fc084c",
+  "label": "Aristotle, Metaphysics IX.8, 1050b16-18: Every simply incorruptible being is in act in substance",
+  "legacy_id": "ARIST-MET-1050B-IMPERISHABLE-IN-ACT-A",
+  "statement_id": "d017b6b0-3dd9-5c1a-b412-bdd9a7df5660",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IX.8, 1050b16-18",
   "interpretation": "'None of the things that are imperishable simply is potentially simply (though nothing prevents it in some respect, as in quality or place); so they are all actually' (οὐθὲν ἄρα τῶν ἀφθάρτων ἁπλῶς δυνάμει ἔστιν ἁπλῶς (κατά τι δὲ οὐδὲν κωλύει, οἷον ποιὸν ἢ πού)· ἐνεργείᾳ ἄρα πάντα). Read as Aquinas reads it: each simply imperishable being is in act in substance. The parenthesis forbids reading 'all actually' as act in every respect; the eternal moved thing of the next sentences is in potency 'from where to where'.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-INCORRUPTIBLE-SIMPLY",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
   ]
 }

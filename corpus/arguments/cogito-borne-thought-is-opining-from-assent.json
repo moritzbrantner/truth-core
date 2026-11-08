@@ -1,0 +1,24 @@
+{
+  "id": "80bb76d9-dfa5-58a6-87c7-a3ceda15f181",
+  "label": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e…, from assent",
+  "legacy_id": "COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT",
+  "premise_statement_ids": [
+    "4957af60-055f-5398-892c-96bfbe0b9eb1",
+    "8d90c06f-1a21-5765-a7d4-5c1d927694e9"
+  ],
+  "conclusion_statement_id": "a082d5be-9db6-5a35-add6-3944aab819f6",
+  "inference_ids": [
+    "1e6c6c75-e0b8-5509-b467-fc68a0811a49"
+  ],
+  "meaning": "Every occurring thought episode is assenting (OPEN), and the bearer of an assenting episode opines its content (OPEN); hence whoever bears an occurring thought opines its content. A chain through the distinct middle term Assenting (#1214). The first premise is the load-bearing and contested one: a borne willing or doubt without assent falsifies it (NonAssentingThought).",
+  "definition_ids": [
+    "785a7605-da2b-59a0-b5a7-57326f3d33bf",
+    "e266a89b-a236-5693-b5dc-559da3975a8b",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ],
+  "disambiguation_ids": [
+    "723ec152-7352-5715-b81c-faf771b6dcb4"
+  ]
+}

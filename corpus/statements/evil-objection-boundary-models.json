@@ -1,18 +1,20 @@
 {
-  "id": "STMT-EVIL-OBJECTION-BOUNDARY-MODELS",
+  "id": "9f1626f6-c488-5bb5-bd2a-bd9c227b8f77",
+  "label": "Explicit model interpretations jointly certify the limits of the diagnostic fork: strict truthless…",
+  "legacy_id": "STMT-EVIL-OBJECTION-BOUNDARY-MODELS",
   "paraphrase": "Explicit model interpretations jointly certify the limits of the diagnostic fork: strict truthless moral semantics permits true non-moral suffering reports and a nonvacuous target-internal challenge; changing only the target's blocking-cost relation switches from a permission-satisfying narrow-theist frame to one with actual gratuitous suffering. Affective badness analysis also permits a true truth-apt evil utterance. Finally, the explicit remaining-use condition is inhabitable and named-use coverage fails there. No actual speaker, deity, event or full philosophical worldview is thereby modeled.",
   "lean_declaration": "TruthCore.Metaethics.EvilObjection.BoundaryModels",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

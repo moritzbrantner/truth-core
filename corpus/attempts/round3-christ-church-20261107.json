@@ -1,0 +1,31 @@
+{
+  "id": "ac2bc337-ee8a-5fd5-98be-e2efd1bce7df",
+  "label": "Rejected edges of the round-3 Christ-and-Church exploration maps",
+  "legacy_id": "ATTEMPT-ROUND3-CHRIST-CHURCH-20261107",
+  "date": "2026-11-07",
+  "statement_ids": [
+    "6931fa67-bd22-591a-8abb-7273aba9cb90",
+    "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267",
+    "bb88731c-c42e-53e0-a138-49e72ad40eb6",
+    "da573220-03c0-5361-a1d7-e117e78e2b77",
+    "87b911fb-fcb0-5bb7-87d4-6abfcaa0db0c",
+    "0434c90e-18e8-590a-bc84-25c6d8a452c3"
+  ],
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Rejected edges of the round-3 Christ-and-Church exploration maps (explorations/jesus-claimed-divine-authority-and-rose.toml, resurrection-confirms-jesus-mandate.toml, commission-reports-go-back.toml, christ-founded-selected-church.toml, christs-church-is-catholic-church.toml, catholic-church-proposes-creed.toml). (1) Philippians 2.6 (STMT-REPORTED-PHIL-FORM-AND-EQUALITY) plus an 'early high Christology is explained only by Jesus' own claim' bridge -> Jesus claimed divine authority: rejected. The text presents Paul's (or a hymn's) Christology, not a saying of Jesus; the 'only' bridge would carry the whole conclusion (a transcription, invariant 16), and the corpus has no typed vocabulary for the explanatory adequacy of early belief. (2) Dei Filius 'the motives of credibility belong to the Catholic Church alone' (STMT-MOTIVES-OF-CREDIBILITY-BELONG-TO-CATHOLIC-CHURCH-ALONE) plus 'every Christ-founded society bears the motives' -> stage 6: rejected for this batch. The statement is untyped, the skeleton has no bearer-of-motives predicate over societies, and bearing the motives would still have to individuate one society; the claim already supports stage 6 through an existing relation. (3) Four source edges from untyped claim-level statements (Acts 2.22-36; Matthew 28.18-20 with John 21.15-17; Matthew 16.18-19; the CDF 1998 profession and the 2025 reception of the Greek 381 symbol) to typed premises: rejected as derivations because typing them would edit existing statements and a report is not by itself testimony, a principle or a reception rule. Each is recorded instead as a supports relation with a gap note (specs/round3-christ-church.toml). Certified edges of the same maps are listed in the maps and evidenced by the ROUND3-CHRIST-CHURCH-* results.",
+  "blocker": "(1) needs typed vocabulary for explanatory adequacy of early Christian belief (an inference-to-best-explanation profile) before the Philippians lead can be a derivation that could fail. (2) needs a typed predicate 'society bears the motives of credibility' and an individuation premise. (3) is blocked only by the rule against editing existing statements; a typed sibling of each report would let it enter as a premise.",
+  "evidence": [
+    "d7ef26e1-1418-5db3-92e8-1ccbca3d90aa",
+    "651d2dc1-f178-5f48-8ad6-8aa3cb447a2b",
+    "b99a7aa7-5003-5eb1-950d-38534653a427",
+    "a74c2b03-55e4-545e-b189-791e6b4e6544",
+    "26807ec7-ae42-55fb-8d74-d5eadb36cf64",
+    "f16d39fe-f3ce-59ab-a377-9f1687e22d49",
+    "c1cff78f-c1e0-5b6b-a204-204c572af4ba",
+    "3dc66eac-8f53-507a-b100-1f2798b82121",
+    "23f73553-ed23-5088-afa4-a3f3c7402124",
+    "7b423d9a-cba6-5146-9580-6bc8fcb5aa41",
+    "47011ff0-25d2-587e-844a-17d6b1a7b11f"
+  ]
+}

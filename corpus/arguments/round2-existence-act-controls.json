@@ -1,0 +1,29 @@
+{
+  "id": "b9cffe3d-850a-5347-8ecb-e72b3b9c4697",
+  "label": "Finite interpretations for the fourteen derivations of round 2: for each premise other than…",
+  "legacy_id": "ROUND2-EXISTENCE-ACT-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "16b3b286-aa4b-53a2-9b7b-70138a589c8e",
+  "inference_ids": [
+    "ce184c10-44d0-5412-abbb-a1c1be1b3d6a"
+  ],
+  "meaning": "Finite interpretations for the fourteen derivations of round 2: for each premise other than excluded middle, a hand-written Unit (or two-respect Bool) model, checked by decide without axioms, in which the other premises hold and the conclusion fails; and one joint model in which a thought occurs and its bearer exists, exercises intellect, opines, causes and is in act of esse, with every premise and conclusion of the batch holding. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "a07c30f9-e0fc-5f16-b181-6f70d374de79",
+    "41f956bd-5430-5c0d-801e-a661ffe28e05",
+    "1943bfbb-396f-5f22-883b-b775d0f8e109",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "f61bbc23-dd58-5bf5-95a5-f1ddc1e407c0",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "4cde619b-9880-5b55-b16d-5658252866ff",
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
+  ]
+}

@@ -1,7 +1,9 @@
 {
-  "id": "INF-HUME-REGULARITY-TESTS",
+  "id": "7c475792-1319-5735-8850-7491f65c5936",
+  "label": "Explicit deterministic countermodels and conditional laws: a nontrivial…, by Direct-proof",
+  "legacy_id": "INF-HUME-REGULARITY-TESTS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-HUME-REGULARITY-TESTS",
+  "output_statement_id": "438caf34-80d5-51bf-806a-d5e7c127e088",
   "rule": "direct-proof",
   "meaning": "Construct explicit binary structural response models, a diagonal sample, divergent finite-prefix continuations, a finite selected-law language and two scoped explanation models. Reduce efficacy to unequal outputs under fixed-context settings. Use substitution to prove full-table determination and instantiate universal grounding only for its conditional consequence. No historical reading, causal uniformity norm, sufficient-reason principle or actual cosmological premise is assumed.",
   "assumption_statement_ids": [],

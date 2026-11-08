@@ -1,6 +1,8 @@
 {
-  "id": "GROUND-ENABLING-CYCLE-CONTROL",
-  "argument_id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "id": "98fc619e-7d9f-5670-902a-717f877afcef",
+  "label": "The four-event raw ground-rule graph is well-founded and cycle-free; both all-on and all-off…",
+  "legacy_id": "GROUND-ENABLING-CYCLE-CONTROL",
+  "argument_id": "06b4ab6a-6403-528f-b571-df8fbb2f6622",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.enablingCycle",

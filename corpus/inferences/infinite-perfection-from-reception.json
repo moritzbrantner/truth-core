@@ -1,0 +1,17 @@
+{
+  "id": "29b05cc2-ce73-5006-af59-78f6aae97930",
+  "label": "Whatever is INFINITE_1, in the primitive sense of…, by Infinity excludes received…",
+  "legacy_id": "INF-INFINITE-PERFECTION-FROM-RECEPTION",
+  "input_statement_ids": [
+    "965d0e26-c26c-5088-887b-7bfc54312b30",
+    "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+    "bc1810e5-1070-5585-9b0f-e17ca3547ac7",
+    "d164b1ff-ad31-5fbc-8ef9-eb0db51ebd96",
+    "c4fb87a6-047d-5f3d-b3e3-8dc0c4bbc946"
+  ],
+  "output_statement_id": "122b112e-3f19-5cd4-8cd0-a704ab1f2d87",
+  "rule": "Infinity excludes received esse, so the infinite is its own being",
+  "meaning": "Whatever is infinite has unlimited esse (STMT-INFINITE-ESSE-IS-UNLIMITED, q.7 a.1 'infinitum ... ex eo quod non est finitum'); its esse is then received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1); what is its own being has every perfection of being (STMT-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING, SCG I.28 as encoded); and every pure perfection is a perfection of being (STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING, q.4 a.2 as encoded). Derives the former bare bridge STMT-INFINITE-HAS-EVERY-PURE-PERFECTION. All five premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

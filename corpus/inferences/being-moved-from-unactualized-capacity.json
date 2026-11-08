@@ -1,0 +1,14 @@
+{
+  "id": "bba74a93-ef61-5a88-a0c7-13b9f90ab957",
+  "label": "A being is being moved in a respect exactly when it is potentially so…, by Biconditional chaining…",
+  "legacy_id": "INF-BEING-MOVED-FROM-UNACTUALIZED-CAPACITY",
+  "input_statement_ids": [
+    "76e0f716-8541-583b-94b4-bffae59c94bb",
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
+  ],
+  "output_statement_id": "0628359b-4a71-5c67-a84b-0fd80104aceb",
+  "rule": "Biconditional chaining through a middle term",
+  "meaning": "Being moved is the actualization of an unactualized capacity (OPEN), and potency is unactualized capacity (Metaphysics IX.6 reading, stated); hence being moved is the actualization of a potency, the Physics III.1 reading. Middle term: unactualized capacity. Composes with POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

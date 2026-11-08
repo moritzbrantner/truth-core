@@ -1,6 +1,8 @@
 {
-  "id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
-  "argument_id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "id": "59a31fa7-ce58-5930-80dd-34c3e120a7bb",
+  "label": "In a model whose worlds have arbitrary finite natural-number capacities, every finite task prefix…",
+  "legacy_id": "SUPERTASK-FINITE-PREFIX-NONUNIFORM",
+  "argument_id": "7799b94d-9262-5999-af8a-1f32b307034c",
   "challenge_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Challenge",
   "solution_module": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution",
   "theorem": "TruthCore.Results.Causality.SupertaskFinitePrefixShift.supertaskFinitePrefixShift",

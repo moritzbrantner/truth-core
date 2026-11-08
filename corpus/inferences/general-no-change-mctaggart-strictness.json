@@ -1,7 +1,9 @@
 {
-  "id": "INF-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "id": "83331571-a914-5949-95c6-8118ce3ce4ca",
+  "label": "An inhabited Unit carrier has no general CHANGE_2 but fails the full…, by Constructive-proof",
+  "legacy_id": "INF-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS-CONTROL",
+  "output_statement_id": "a67faf35-bb30-57da-aa1a-431bee6ab765",
   "rule": "constructive-proof",
   "meaning": "Populated finite strictness control: no general change need not include McTaggart1908 appearance commitments. Not actual ontology or an endorsement inside the modeled carrier.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "AYER-1946-EXCLUSION-FAILS",
-  "argument_id": "AYER-1946-EXCLUSION-FAILS",
+  "id": "e6a36628-4954-5263-af49-268fdbcb63a6",
+  "label": "No language and frame satisfy the V3 exclusion thesis: wherever Church's three observation…",
+  "legacy_id": "AYER-1946-EXCLUSION-FAILS",
+  "argument_id": "00ceab1d-418c-5fef-a47a-3511bfdeb703",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Exclusion.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Exclusion.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1946Exclusion.ayer1946ExclusionFails",

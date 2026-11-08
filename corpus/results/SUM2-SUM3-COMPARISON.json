@@ -1,6 +1,8 @@
 {
-  "id": "SUM2-SUM3-COMPARISON",
-  "argument_id": "SUM2-SUM3-COMPARISON",
+  "id": "58343c0f-dcc4-54fd-905a-a300e82e6f7d",
+  "label": "For every family and candidate in this fixed…, from Whenever x is not part of y, some part of x…",
+  "legacy_id": "SUM2-SUM3-COMPARISON",
+  "argument_id": "93cfbafa-d5fe-517e-a412-7dafef1ec79d",
   "challenge_module": "TruthCore.Results.Mereology.SupplementationFusion.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SupplementationFusion.Solution",
   "theorem": "TruthCore.Results.Mereology.SupplementationFusion.fusionComparison",

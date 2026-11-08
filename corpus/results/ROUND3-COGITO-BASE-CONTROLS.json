@@ -1,0 +1,12 @@
+{
+  "id": "b9c3f090-3bf2-5c96-ae3e-c18a1d63cd3b",
+  "label": "Finite interpretations for the round 3 Cogito/existence-base batch: omission models for every…",
+  "legacy_id": "ROUND3-COGITO-BASE-CONTROLS",
+  "argument_id": "6c590f23-cd8b-5b3c-ae3e-1b1970ab365b",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.controls",
+  "comparator_config": "results/ROUND3-COGITO-BASE-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the round 3 batch, all proved without axioms: an omission model for every premise of the ten derivations other than excluded middle (a performed doubt with no occurring thought; no performed doubt; a borne willing; an assent without opining; a selected candidate that bears nothing, is abstract, or is absent; a self-grounding concretum with no rank, no well-founded grounding or cone and no borrowing cut; a contingent root cone; a capable deprived non-potent subject; a privation with the act; motion without capacity; an unactualized capacity not counted as potency), and joint witnesses with a performed doubt, a real grounding edge from a necessary root to a contingent selected being, and a potent subject being moved."
+}

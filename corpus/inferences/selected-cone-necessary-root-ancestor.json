@@ -1,12 +1,14 @@
 {
-  "id": "INF-SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "id": "e28dec8c-91bc-5c26-83a5-a5f2bc62133c",
+  "label": "One member of selected’s complete actual concrete ancestry…, by Shared-local-descent-and-cont…",
+  "legacy_id": "INF-SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
   "input_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-SELECTED-CONE-WELL-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "output_statement_id": "177b9b54-212d-5162-b288-d0cb70899f3d",
   "rule": "shared-local-descent-and-contingent-root-exclusion",
   "meaning": "Reuse the generalized descent extracted from the earlier thinker-local proof. Complete cone WF supplies accessibility of the selected actual concretum, preserving every actual predecessor; local contingent dependence then excludes the contingent root horn. The same selected ancestor is actual, concrete, necessary and an actual concrete ground-source. No global coverage/WF or thought-occurrence premise is needed. Local application remains open.",
   "assumption_statement_ids": [],

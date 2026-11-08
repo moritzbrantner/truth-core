@@ -1,0 +1,20 @@
+{
+  "id": "c70234f5-6b6b-54aa-b1a0-a20501baf7b9",
+  "label": "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each…",
+  "legacy_id": "STMT-ROUND2-PERFECTION-PRIMACY-CONTROLS",
+  "paraphrase": "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each premise, a model in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, efficient-causing, reception, limitation, dependence, creature and esse-reception relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.Control.Certificate",
+  "definition_ids": [
+    "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7",
+    "d9dec61b-23ec-5a5d-8c9d-6b15193d8490",
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2",
+    "09542185-eb41-5874-8fd3-fe40ea68aeb4",
+    "42f8b601-09d6-5ad0-af5f-27af30b95166",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

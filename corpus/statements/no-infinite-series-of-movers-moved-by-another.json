@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
+  "id": "0ac8f77a-e047-56ee-a4fe-267aa56c16d0",
+  "label": "Additional commitment, not attributed to Aristotle: every being is accessible under the relation…",
+  "legacy_id": "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER",
   "paraphrase": "Additional commitment, not attributed to Aristotle: every being is accessible under the relation “moves this thing, is another than it, and is itself moved by another”. This supplies well-founded induction and excludes finite cycles. STMT-NO-INFINITE-DISTINCT-MOVERS-MOVED-BY-ANOTHER records the weaker source-level prohibition of infinitely many distinct movers; that prohibition is not taken to establish accessibility.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.NoInfiniteSeriesOfMoversMovedByAnotherReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-MOVED-BY-ANOTHER"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "7b016011-d896-532f-b6fb-2bd7c2a54bbb"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

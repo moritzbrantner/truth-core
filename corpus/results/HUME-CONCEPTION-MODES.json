@@ -1,6 +1,8 @@
 {
-  "id": "HUME-CONCEPTION-MODES",
-  "argument_id": "HUME-CONCEPTION-MODES",
+  "id": "5be9bf2f-4f18-5a70-a1d8-b4d012cae2b7",
+  "label": "POSSIBILITY_DEFINED_CONCEPTION_3 satisfies H by definition",
+  "legacy_id": "HUME-CONCEPTION-MODES",
+  "argument_id": "44ced412-dbba-558b-995d-ae1c0df9fba0",
   "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Modes.checks",

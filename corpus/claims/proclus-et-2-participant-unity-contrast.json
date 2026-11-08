@@ -1,19 +1,21 @@
 {
-  "id": "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST",
-  "statement_id": "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF",
-  "source_id": "PROCLUS-ELEMENTS-THEOLOGY",
+  "id": "02564515-23a7-5a88-b7d3-8d5bc7d88098",
+  "label": "Proclus, Elements of Theology Prop. 2: Every participant in the designated One exemplifies the…",
+  "legacy_id": "PROCLUS-ET-2-PARTICIPANT-UNITY-CONTRAST",
+  "statement_id": "c6ce56fe-9f14-5be7-869c-500c5d15ec5c",
+  "source_id": "cdf4f9ed-205c-5ca0-abe6-f7eee8a49108",
   "locator": "prop. 2 (Taylor 1816, vol. II, p. 301)",
   "interpretation": "Bounded identity/predication reading: the participant becomes one through participation yet is something besides, and is not, the One itself. The formal projection retains received unity and numerical nonidentity. It does not claim to exhaust being non-one of itself, treat the two occurrences of one as one predicate and its negation, or derive nonidentity from independently defended premises. The source argument begins by contrasting participation with being the One itself; its something-besides language does not supply a universal inventory of essential qualities. See docs/proclus-unity.md.",
   "basis": "translation",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PROCLUS-ONE-ITSELF",
-    "DEF-PROCLUS-RECEIVED-UNITY",
-    "DEF-PROCLUS-UNITY-PARTICIPATION"
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "8676eedf-9455-54b6-8c74-35e4ad54935b",
+    "52173931-f238-58b8-8fa2-3174884dfc34",
+    "30672e93-1629-5da8-9ee7-e6aec3f6f623"
   ],
   "disambiguation_ids": [
-    "DISAMB-PROCLUS-ONE",
-    "DISAMB-PROCLUS-UNITY-PARTICIPATION"
+    "eddb2474-f994-5c7b-a061-bc26a3167b38",
+    "d191b2a8-70d7-5273-9263-7f0051154823"
   ]
 }

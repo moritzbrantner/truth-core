@@ -1,10 +1,12 @@
 {
-  "id": "REL-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "id": "208945b2-fd3b-50d5-95db-720d73322e61",
+  "label": "At the selected world, both cause and… strengthens Every causer of the selected spacetime…",
+  "legacy_id": "REL-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
   "subject_kind": "statement",
-  "subject_id": "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT",
+  "subject_id": "b699ecfb-08f7-5864-a671-1205c8f5792f",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
-  "verification_result_id": "CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "object_id": "41e17b00-09de-5a6d-a0ea-a1aed538244b",
+  "verification_result_id": "9aa643f9-83bc-5745-b237-47630a887a45",
   "note": "Exact sole-premise scope restriction. Original stronger proposition and source meanings stay intact; use the weaker actuality policy in this selected-whole route."
 }

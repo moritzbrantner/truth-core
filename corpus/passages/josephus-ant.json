@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "JOSEPHUS-ANT",
+    "source_id": "be976c17-ee3d-53f7-ae55-78ec0af460a5",
     "edition_urn": "urn:cts:greekLit:tlg0526.tlg001.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "JOSEPHUS-ANT-20",
+      "id": "294bb274-ffcb-54b1-9eba-960827f31886",
+      "label": "Josephus, Jewish Antiquities, 20",
+      "legacy_id": "JOSEPHUS-ANT-20",
       "locator": "20",
       "claim_locator_prefixes": [
         "20."

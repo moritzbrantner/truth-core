@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PHYSICAL-GROUND-SIGNATURE",
+  "id": "16ef12d7-e0d6-5d58-9120-158f5f7a8359",
+  "label": "Necessity signature of a ground: On the #435 capacity model read as an Ontic, at actual world…",
+  "legacy_id": "DEF-PHYSICAL-GROUND-SIGNATURE",
   "term": "necessity signature of a ground",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.Signature",

@@ -1,13 +1,15 @@
 {
-  "id": "INF-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+  "id": "bcad97d4-7471-547e-b3b9-c0faa0767927",
+  "label": "The explicit contrastive Bayesian update and identity controls…, by Composition-with-certified-au…",
+  "legacy_id": "INF-CONTRASTIVE-WORLDVIEW-BOUNDARY",
   "input_statement_ids": [
-    "STMT-CONTRASTIVE-WORLDVIEW-CORE",
-    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION",
-    "STMT-TRANSCENDENTAL-INQUIRY-ACCESS-BOUNDARY",
-    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "STMT-TRUTH-DIRECTED-REFLECTIVE-DUTY"
+    "0bddef38-034f-58f3-9920-078fa893252c",
+    "6df7921a-29b6-5574-8952-f27497140a53",
+    "35901b8a-de6e-5e0d-9044-c86f55670b00",
+    "ab0e2471-5147-54bc-a13a-ca53f6857947",
+    "27b621ae-2f38-58a5-90c0-378ef2da7c4b"
   ],
-  "output_statement_id": "STMT-CONTRASTIVE-WORLDVIEW-BOUNDARY",
+  "output_statement_id": "2a6f2dd0-5466-5b7e-be41-e97b4426b425",
   "rule": "composition-with-certified-authority-boundaries",
   "meaning": "The explicit contrastive Bayesian update and identity controls hold jointly with the imported exact-classifier characterization, inquiry-access versus truth-directed-policy boundary, successful-practice versus categorical-duty boundary, and truth-directed reflective-duty conditional. Comparative update, evidence-only classification, ideal truth policy and categorical authority remain distinct; no actual worldview, universally binding Bayesian norm or root premise is established. See docs/notes/contrastive-worldview-934.md for the stipulated scope and rival readings.",
   "assumption_statement_ids": [],

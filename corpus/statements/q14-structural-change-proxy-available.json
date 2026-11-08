@@ -1,14 +1,16 @@
 {
-  "id": "STMT-Q14-STRUCTURAL-CHANGE-PROXY-AVAILABLE",
+  "id": "b059990d-b017-5c28-a8c0-a854064b9486",
+  "label": "Every OLD structurally free receiver has an occurring foreign-form state change",
+  "legacy_id": "STMT-Q14-STRUCTURAL-CHANGE-PROXY-AVAILABLE",
   "paraphrase": "OPEN actual-proxy availability: every OLD structurally free receiver has an occurring foreign-form state change. No such event is inferred from aptitude, and no passive divine acquisition is asserted.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.Q14ReceptionFork.StructuralChangeAvailable",
   "definition_ids": [
-    "DEF-ALTOGETHER-IMMATERIAL",
-    "DEF-REMOTE-FROM-ALL",
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY"
+    "dace8e73-8b5b-5378-8e62-17d534413168",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "1eb499b9-3ac6-5cdd-824d-486f91a435ce"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3"
   ]
 }

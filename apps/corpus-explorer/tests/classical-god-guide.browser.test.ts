@@ -1,6 +1,7 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
+import { uid } from "./corpus-records";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -59,8 +60,8 @@ test("classical-God guide links exact evidence, navigates all stages, and fits m
 
   await page.getByRole("link", { name: /Explore this conclusion in the argument forest/ }).click();
   await page.waitForURL((url) => url.pathname.endsWith("/forest/") &&
-    url.searchParams.get("goal") === "STMT-NECESSARY-CLASSICAL-GOD-ROOT");
-  expect(await page.getByLabel("Conclusion to investigate").inputValue()).toBe("STMT-NECESSARY-CLASSICAL-GOD-ROOT");
+    url.searchParams.get("goal") === uid("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT"));
+  expect(await page.getByLabel("Conclusion to investigate").inputValue()).toBe(uid("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT"));
   expect(errors).toEqual([]);
   await page.close();
 }, 90000);

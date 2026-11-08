@@ -1,6 +1,8 @@
 {
-  "id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
-  "argument_id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "id": "92f0d769-cdac-5080-b5c4-4ffb4c33d744",
+  "label": "Jesus gave or promised none of the…, from Rival to mandate covers jesus founding of… and 2 more",
+  "legacy_id": "MESSAGE-ONLY-WITH-INSTITUTION-LINK-REJECTS-GOVERNING-GRANTS",
+  "argument_id": "fd6a0afa-c4f3-5f2c-a33d-725421eceae6",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rival.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Rival.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageOnlyRejectsGoverning",

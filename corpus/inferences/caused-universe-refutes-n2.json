@@ -1,13 +1,15 @@
 {
-  "id": "INF-CAUSED-UNIVERSE-REFUTES-N2",
+  "id": "a41401aa-9731-581d-aea7-f9024c2b5189",
+  "label": "N2 fails at the selected world, by Constructive-proof",
+  "legacy_id": "INF-CAUSED-UNIVERSE-REFUTES-N2",
   "input_statement_ids": [
-    "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
-    "STMT-CAUSING-WHOLE-CAUSES-PARTS",
-    "STMT-NOTHING-IS-EFFICIENT-CAUSE-OF-ITSELF",
-    "STMT-THESIS-CONTAINED-IN-SPACETIME",
-    "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+    "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
+    "08087a25-43bd-53f2-9103-f3644c171324",
+    "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+    "5aed0767-9cad-5965-8912-e7b8ea11fd6e",
+    "e27489c3-7419-5123-8476-386633e62532"
   ],
-  "output_statement_id": "STMT-NATURALISM-N2-FAILS",
+  "output_statement_id": "c7122d59-f0db-54da-a019-880da5fd7be8",
   "rule": "constructive-proof",
   "meaning": "Owner's steps (3)–(4): the existing cause of the spacetime whole is concrete by the activity clause of the weak causal-concreteness floor item, so N2 would make it satisfy the thesis predicate and, by containment, be a part of spacetime, which UNIVERSE-CAUSE-OUTSIDE-SPACETIME excludes. So N2 fails; equivalently N2 commits its holder to no existing cause of the universe or to denying one of the other premises. This does not exclude causal edges from nonexisting candidates; that stronger conclusion would require a causal-endpoint existence premise. Conditional on the open caused-universe premise and bridges.",
   "assumption_statement_ids": [],

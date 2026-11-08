@@ -1,0 +1,24 @@
+{
+  "id": "2095ff05-db1b-5ff7-9bb5-69737559ae8c",
+  "label": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a…",
+  "legacy_id": "ROUND2-GROUNDING-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "1d967e14-67ad-5569-b0ef-f8313314bee7",
+  "inference_ids": [
+    "002c6b38-ed45-5597-99d5-72a007963418"
+  ],
+  "meaning": "Finite interpretations on Bool carriers, checked by decide: for each premise of each of the thirteen derivations, one model in which the other premises hold and the conclusion fails (for restricted well-foundedness, total reciprocal grounding), and one joint model in which a contingent actual concretum is grounded by a necessary one, every relation is nonempty, and every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

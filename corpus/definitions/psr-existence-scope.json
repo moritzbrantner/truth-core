@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-EXISTENCE-SCOPE",
+  "id": "cd4ca559-c786-58db-872d-3597e51d3b49",
+  "label": "Existence-PSR for every existent: ExistencePSR requires that at every model world, every…",
+  "legacy_id": "DEF-PSR-EXISTENCE-SCOPE",
   "term": "existence-PSR for every existent",
   "definition": "ExistencePSR requires that at every model world, every individual actually existing there has at least one stipulated explanatory reason for its existence fact. It does not require the reason to be external, causal, distinct from the individual, temporally prior, well-founded, or independently demonstrated to be sufficient. This is unrestricted over existent individuals, not unrestricted over all truths.",
   "basis": "stipulative",

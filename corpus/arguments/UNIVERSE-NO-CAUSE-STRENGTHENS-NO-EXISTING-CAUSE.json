@@ -1,15 +1,17 @@
 {
-  "id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
+  "id": "d2bc3352-7139-5365-a31b-655019e10273",
+  "label": "Exact negation of the existing UniverseHasExistingCause…, from The brute-universe position: at the…",
+  "legacy_id": "UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE",
   "premise_statement_ids": [
-    "STMT-UNIVERSE-UNCAUSED"
+    "0d563c5b-413a-5463-b556-adbb34bf458e"
   ],
-  "conclusion_statement_id": "STMT-SPACETIME-WHOLE-HAS-NO-EXISTING-CAUSE",
+  "conclusion_statement_id": "ce2ca4eb-8d2b-5775-85b5-49f1497a4895",
   "inference_ids": [
-    "INF-UNIVERSE-NO-CAUSE-STRENGTHENS-NO-EXISTING-CAUSE"
+    "6af4a7ab-a0df-513a-99d2-3dbcfc1d5203"
   ],
   "meaning": "Sole-premise scope order: no causal edge implies no existing causer. The absent-edge control rejects the converse on a generic signature while expressly violating the intended actuality policy.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

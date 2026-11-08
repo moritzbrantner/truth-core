@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RECEPTIVE-POTENCY",
+  "id": "a67e6214-624d-54d1-81ff-442c09c5ea9d",
+  "label": "RECEPTIVE_POTENCY_5: ReceptivePotencyTo p a: the principle p stands in potency to a as to its act…",
+  "legacy_id": "DEF-RECEPTIVE-POTENCY",
   "term": "receptive potency (ReceptivePotencyTo p a)",
   "definition": "ReceptivePotencyTo p a: the principle p stands in potency to a as to its act, the way De ente c.3 [69874] says whatever receives something is in potency with respect to it and what is received is its act. The recipient may already actually have the act: an intelligence's quiddity is in this potency to the esse it has. In Lean it is a parameter on the Principle sort, constrained only by STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE and STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF.",
   "basis": "stipulative",

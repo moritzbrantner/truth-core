@@ -1,11 +1,13 @@
 {
-  "id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
+  "id": "1bd97b66-cf71-5e19-a9bb-9ef047e452d8",
+  "label": "Motion is not identical with difference…, from Being different, unequal, or a non-being…",
+  "legacy_id": "ARIST-PHYS-201B-ALT-PREDICATES-NOT-MOTION",
   "premise_statement_ids": [
-    "STMT-ALTERNATIVE-PREDICATES-DO-NOT-NECESSITATE-MOTION"
+    "4b6f1d70-b2fc-57e1-a06f-8437947d826d"
   ],
-  "conclusion_statement_id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
+  "conclusion_statement_id": "d2dd07b2-b867-54a1-8133-aed50fc90ed8",
   "inference_ids": [
-    "INF-ARIST-PHYS-ALT-PREDICATES-NOT-MOTION"
+    "981a0e0d-fb76-57bc-a894-9d8739e4b9cc"
   ],
   "meaning": "Aristotle rejects difference, inequality, and non-being as identifications of motion because none of those predicates by itself necessitates that its subject be moving."
 }

@@ -1,8 +1,10 @@
 {
-  "id": "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "id": "b6ca8565-0d6f-5ac2-9839-2cbb80963e27",
+  "label": "For every mathematical linear order and shared x,y, equality y = x is exactly the remainder y ≥ x…",
+  "legacy_id": "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
   "paraphrase": "For every mathematical linear order and shared x,y, equality y = x is exactly the remainder y ≥ x and not y > x.",
   "lean_declaration": "TruthCore.Logic.Strength.Order.RemainderLaw",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

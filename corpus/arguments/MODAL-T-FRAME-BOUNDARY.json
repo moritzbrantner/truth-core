@@ -1,23 +1,25 @@
 {
-  "id": "MODAL-T-FRAME-BOUNDARY",
+  "id": "bb262988-68c4-55a0-802a-363b77c78f71",
+  "label": "An explicit three-world T chain is neither transitive nor symmetric",
+  "legacy_id": "MODAL-T-FRAME-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-T-FRAME-BOUNDARY",
+  "conclusion_statement_id": "5eff5171-dfb3-55a8-afb0-fd2db3961b8b",
   "inference_ids": [
-    "INF-MODAL-T-FRAME-BOUNDARY"
+    "42a2d7f3-70d8-52ac-9083-bf0d3adea687"
   ],
   "meaning": "Issue #264 stipulated T-frame mathematics, not a source reading, refutation of Hume or Catholic-case frontier closure. Enumerate the reflexive chain. The missing root-to-endpoint and middle-to-root edges refute transitivity and symmetry. Atom negation distinguishes middle from endpoint, and negated possibility distinguishes root from middle. Compose these failures with domain restriction and enumerate accessible MC witnesses.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-T-REFLEXIVITY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-T-CHAIN"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "b6ddbdde-8055-5632-b934-ccd5eb79bbeb",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "02ccdd4f-e48b-5eb6-b1c6-31249b7eaec8"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-T-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "bded9270-4ca2-5eae-8ffd-ba7d5b1a5128"
   ]
 }

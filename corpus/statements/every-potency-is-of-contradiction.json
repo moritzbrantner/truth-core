@@ -1,13 +1,15 @@
 {
-  "id": "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION",
+  "id": "f80a0209-8181-5f37-a173-a46e6f315b00",
+  "label": "Every POTENCY_1 is of the contradictory: whatever is in POTENCY_1 in a respect can fail to be so in…",
+  "legacy_id": "STMT-EVERY-POTENCY-IS-OF-CONTRADICTION",
   "paraphrase": "Every potency is of the contradictory: whatever is in potency in a respect can fail to be so in that respect, and is in that respect corruptible (simply, when the respect is substance; in a respect, when it is a place, quantity or quality). It does not say that what is in potency in an accidental respect can fail to be in substance.",
   "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.PotencyIsOfContradictionReading",
   "definition_ids": [
-    "DEF-POTENCY",
-    "DEF-CAN-FAIL-TO-BE",
-    "DEF-RESPECT"
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "c8113f31-6208-5992-9ca4-712887a4594b",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
   ]
 }

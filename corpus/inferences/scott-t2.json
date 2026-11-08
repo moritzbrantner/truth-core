@@ -1,11 +1,13 @@
 {
-  "id": "INF-SCOTT-T2",
+  "id": "97c46f06-61e4-5022-a8a6-1f04cbdbd673",
+  "label": "Scott's theorem T2: at every world, being GOD_LIKE_5 is an ESSENCE_2 of every…, by Case-analysis",
+  "legacy_id": "INF-SCOTT-T2",
   "input_statement_ids": [
-    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
-    "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
-    "STMT-EXCLUDED-MIDDLE"
+    "92df6b8e-ee4a-515e-96a9-813cf012cdc0",
+    "0a4a4f75-f7e6-5543-8547-07de3402769c",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-SCOTT-GOD-LIKE-IS-ESSENCE",
+  "output_statement_id": "5eee7ede-db6b-58de-a249-29ba04a17827",
   "rule": "case-analysis",
   "meaning": "AFP T2 (metis A1b A4 G_def ess_def). Let x be God-like and have Ψ. By excluded middle Ψ is positive or not. If not, its negation is positive (A1b) and x, having every positive property, lacks Ψ: contradiction. If so, Ψ is necessarily positive (A4), so at every accessible world every God-like being has Ψ.",
   "assumption_statement_ids": [],

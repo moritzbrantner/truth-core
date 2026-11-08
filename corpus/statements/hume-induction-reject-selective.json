@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HUME-INDUCTION-REJECT-SELECTIVE",
+  "id": "7c1fdce9-5065-5444-a9ac-ec9fe31c4778",
+  "label": "The selected theological withholding verdict fails under an equal standard, identical relevant…",
+  "legacy_id": "STMT-HUME-INDUCTION-REJECT-SELECTIVE",
   "paraphrase": "The selected theological withholding verdict fails under an equal standard, identical relevant evidence, and science entitlement. The same conditional schema could apply to cosmology if its same-evidence premise were defended.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.RejectTheologyWithheld",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-ENTITLEMENT",
-    "DEF-HUME-INDUCTION-STANDARD",
-    "DEF-HUME-INDUCTION-ANCHOR"
+    "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+    "f93e95f6-c139-5371-b544-8f0311ec60a7",
+    "fc277a67-9f24-5f56-a905-c64c2c1783c9"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

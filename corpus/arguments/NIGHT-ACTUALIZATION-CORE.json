@@ -1,29 +1,32 @@
 {
-  "id": "NIGHT-ACTUALIZATION-CORE",
+  "id": "d6243bf3-929c-535e-a01c-7fcf1de81686",
+  "label": "Logical falsity, from Generation from Night: some BEING_1 is in… and 4 more",
+  "legacy_id": "NIGHT-ACTUALIZATION-CORE",
   "premise_statement_ids": [
-    "STMT-NIGHT-UNPRECEDED-POTENCY-ACTUALIZED",
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
-    "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-    "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
-    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+    "d9791d0f-87c3-5ef1-a0a3-5c85a0b43730",
+    "4a952b96-be5f-5493-8277-985248151d01",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "6ca87431-3383-58f6-9322-a1f0e8f0396b"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-NIGHT-ACTUALIZATION-CORE"
+    "66964438-1856-5b0c-92a2-9a8b819ee2c9"
   ],
   "meaning": "Compose the existing GENERATION-FROM-NIGHT-REFUTED.coreFromRootPremises theorem with the Night commitment. The four other commitments imply that the Night reading is false; the supplied Night witness therefore yields logical falsity. This exposes the already proved root-premise incompatibility to configuration propagation; it is not a new philosophical refutation and selects no member for rejection. The mover, actuality, act/potency and simple-priority assumptions share the same Being, Respect and predicates. The simple-priority bridge is unattributed and open. No excluded middle is needed. Inclusion-minimality is a separate obligation requiring a joint checked witness for every single-member deletion. No root premise closes.",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY",
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-CONFIGURATION-FALSE"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

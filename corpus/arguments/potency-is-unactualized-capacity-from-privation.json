@@ -1,0 +1,24 @@
+{
+  "id": "804d2c83-cf37-5a1a-8534-13b8fcf5c307",
+  "label": "A being is in POTENCY_1 in a respect exactly when it is able to be so and is not…, from privation",
+  "legacy_id": "POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+  "premise_statement_ids": [
+    "3c0b7bb3-1526-55a9-b71e-0d5fb3148782",
+    "7c3da33e-7ead-54f8-aace-ed3cf3a7bb02"
+  ],
+  "conclusion_statement_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
+  "inference_ids": [
+    "11e43d3b-17d8-5c98-be11-467fd74ca9be"
+  ],
+  "meaning": "Potency is capacity under privation (OPEN), and in a capable subject privation is lack of the act (OPEN); hence potency is unactualized capacity, the Metaphysics IX.6 reading. Middle term: privation. It routes the act/potency analysis through the Physics I subject-privation analysis; both premises stay open.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

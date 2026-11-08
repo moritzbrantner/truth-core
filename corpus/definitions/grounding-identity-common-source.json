@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
+  "id": "f797c540-b58b-5e03-bee4-8b74e3b85c22",
+  "label": "Common local grounding source and…: The existing LocalState s supplies source existence…",
+  "legacy_id": "DEF-GROUNDING-IDENTITY-COMMON-SOURCE",
   "term": "common local grounding source and rigid tagged candidates",
   "definition": "The existing LocalState s supplies source existence, concreteness and grounds. Individuals in both profiles are ordinary rigid pairs (Bool tag, source coordinate). The old doubled profile has tag equal to the world; rigid copies exactly its world-false existence, Causes and grounds assignments to every world, retaining the same concrete predicate and universal frame. The source coordinate is a role in the common local structure, not by itself the identity of the tagged individual. LocalLaws repeats exactly the old preserved source constraints, with an independently supplied noninitial predicate.",
   "basis": "stipulative",

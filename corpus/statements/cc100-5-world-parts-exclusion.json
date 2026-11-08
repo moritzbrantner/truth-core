@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-5-WORLD-PARTS-EXCLUSION",
+  "id": "6c483ea2-3ca5-594e-be35-fdae0ea9fec8",
+  "label": "The world is the collection of all contingent beings, and the sufficient reason for the existence…",
+  "legacy_id": "STMT-CC100-5-WORLD-PARTS-EXCLUSION",
   "paraphrase": "The world is the collection of all contingent beings, and the sufficient reason for the existence of that collection cannot be in its parts individually or collectively.",
   "definition_ids": [
-    "DEF-CC100-5-WORLD-REASON"
+    "ca7be6fd-f414-51f9-b5c0-786c2abdd81b"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768"
   ]
 }

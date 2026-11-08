@@ -1,7 +1,9 @@
 {
-  "id": "INF-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "id": "92cbe0e4-4d40-59db-85f5-9bae3389bf1b",
+  "label": "A restricted PSR that excludes a brute truth must contain it in its domain…, by Model-construction",
+  "legacy_id": "INF-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PSR-EPISTEMIC-ONTIC-BRIDGE-LADDER",
+  "output_statement_id": "8177dee2-2e73-5359-bb35-327dfeb99059",
   "rule": "model-construction",
   "meaning": "Unfold each bridge generally, compose global defeat with collapse_distribution of #755 and the contingent-fact clause of strengthMap, and construct the named separating models.",
   "assumption_statement_ids": [],

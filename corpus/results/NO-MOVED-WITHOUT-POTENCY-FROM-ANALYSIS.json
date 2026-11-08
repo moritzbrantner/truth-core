@@ -1,0 +1,12 @@
+{
+  "id": "bd98bd58-99cc-544e-ad30-cb6c62afc0d2",
+  "label": "Negation of the Ash'arite rival moved without POTENCY_1 on the same MovedIn and…, from analysis",
+  "legacy_id": "NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS",
+  "argument_id": "61d691f0-260c-5774-b1c1-ce0d83ef8dcb",
+  "challenge_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Challenge",
+  "solution_module": "TruthCore.Results.Causality.AristotelianRivalRefutations.Solution",
+  "theorem": "TruthCore.Results.Causality.AristotelianRivalRefutations.noMovedWithoutPotency",
+  "comparator_config": "results/NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional refutation of the Ash'arite occasionalist rival: by Physics III.1's analysis (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), whatever is being moved in a respect is in potency in it, so nothing is moved without potency. The occasionalist, for whom capacity exists only together with its act, must reject that analysis of motion, not only the Prima Via premise derived from it. The analysis stays open, so the refutation does not count for closure."
+}

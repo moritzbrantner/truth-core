@@ -1,9 +1,11 @@
 {
-  "id": "REL-CIC-749-SUPPORTS-AUTHORITY-GRAMMAR",
+  "id": "0ba6994b-3b80-581a-9249-7b2e06d19002",
+  "label": "Catholic Church, Codex Iuris Canonici… supports Case-1 bridge, open and unattributed: if…",
+  "legacy_id": "REL-CIC-749-SUPPORTS-AUTHORITY-GRAMMAR",
   "subject_kind": "claim",
-  "subject_id": "CIC-749-COUNCIL-TEACHERS-AND-JUDGES",
+  "subject_id": "07af4e47-5b5c-5ad9-9b16-e3b89ed33d33",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+  "object_id": "2b8d88d0-e415-5a05-9aff-ded493da71fd",
   "note": "In the authority cell, can. 749 §2 names an ecumenical council among the authorities that teach definitively for the universal Church. Gap: that 'fixing the grammar' covers conciliar canons, and §3 (nothing counts as infallibly defined unless manifest)."
 }

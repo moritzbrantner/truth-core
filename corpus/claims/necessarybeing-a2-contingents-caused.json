@@ -1,17 +1,19 @@
 {
-  "id": "NB-SURVEY-A2-CONTINGENTS-CAUSED",
-  "statement_id": "STMT-NB-A1-CONTINGENTS-CAUSED",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "8895a07f-e4e1-5bd5-acff-83196f9c804b",
+  "label": "Unattributed website author, Necessary…: No contingent thing is without a cause, according to the…",
+  "legacy_id": "NB-SURVEY-A2-CONTINGENTS-CAUSED",
+  "statement_id": "551e13d0-d8a1-5d7f-a236-c1b04a545749",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2C, step 9",
   "interpretation": "Reuse the existing proposition that no contingent thing is without a cause: A2c expressly invokes that earlier respondent report. Its unqualified cause is not automatically external, distinct, an actually existing Ontic predecessor, or an existential ground. In particular this does not attribute the stronger global LocalCausalPrinciple to the source. A2P2c later re-asks the report under a revised classification; that alternate is not identified here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-CAUSE-RELATUM",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD"
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY",
-    "DISAMB-NB-SURVEY-A1-CAUSE"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f",
+    "a73418e5-248f-5bda-b82c-47d92b3151dd"
   ]
 }

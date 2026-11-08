@@ -1,0 +1,12 @@
+{
+  "id": "8ce4b4db-e2da-5ae5-b688-e830fde16699",
+  "label": "Every bearer of an occurring thought episode exists at the selected…, from world indexed occurrence",
+  "legacy_id": "COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
+  "argument_id": "3f99dbab-fc6c-52f0-9c01-ba850f77ddb9",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.bearerExistsFromWorldIndexedOccurrence",
+  "comparator_config": "results/COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there."
+}

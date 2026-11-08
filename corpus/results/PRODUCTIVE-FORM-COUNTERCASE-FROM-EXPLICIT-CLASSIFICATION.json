@@ -1,6 +1,8 @@
 {
-  "id": "PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
-  "argument_id": "PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "id": "25adb06a-ce17-5322-99a4-7c69fba7d5db",
+  "label": "A selected-world productive cause is a supplied Form and lacks esse…, from explicit classification",
+  "legacy_id": "PRODUCTIVE-FORM-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "argument_id": "a89232bc-d768-5410-b010-82ba0230a889",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.FormCounter.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.FormCounter.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.FormCounter.formCounter",

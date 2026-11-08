@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-ACTUAL-FUSION-PROFILE-1071",
+  "id": "d47c746c-0bdd-522b-8739-ad6fa8e047a7",
+  "label": "Issue1071, analyst interpretation with attribution deferred",
+  "legacy_id": "ATTEMPT-ACTUAL-FUSION-PROFILE-1071",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-ATOMIC-COMPLETE-FUSION-MODEL",
-    "STMT-MEREOLOGICAL-COMPLEMENTATION",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM1",
-    "STMT-ACTUAL-WHOLES-HAVE-ACTUAL-PARTS",
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY"
+    "200d4877-cd3e-5af1-a32c-e692f7a9a222",
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
+    "db4f8c85-6854-5864-b7f0-a72d9dc32894",
+    "bbe8900a-7d33-5e6b-a76c-1947ecf7fa6e",
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "17a2d131-fa0a-5bc5-9b69-e70a7ccf9807"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Issue1071, analyst interpretation with attribution deferred. Related/dossiers and exact old types plus atomless/full-fusion, actual-fusion-necessary-being and necessary-part-fusion-decomposition attempts were inspected. Existing alternating finite controls did not supply the full same-carrier remainder/fusion profile; old decomposition retained a necessary-fusion warrant. Reused exact Body, atomicModel, Sum2 Fusion, SumOneComplementation.sumOneComparison and Ontic/NecessaryAt/NecessaryBeing/ActualPartsExistAt. Worlds=Body, access=True, ExistsAt w x iff x\u2264w, Causes=False. One joint certificate includes inherited AtomicCertificate, universal accessibility, every-world population, every-candidate possibility, downward actuality, ALL nonempty actual-family Sum2 closure, no necessary candidate/being at every world, greatest actual whole at every world, no object actual in all worlds, and fixed global top bridge failure at a singleton world. Leastness of the imported global fusion places it below the actual world object. Nonempty candidates cannot lie in both disjoint singleton worlds. Rejected treating an actual part as sufficient for actuality of its fixed whole, swapping \u2200world\u2203whole with \u2203whole\u2200world, claiming atomicity means atomisticity, or claiming edge-free Causes satisfies causal availability. Ordinary-import Challenge frozen before Solution, SHA2569b0c81cd38b99c68c480c5f8c69af9ab2916a518c93cfe838243df9888af1d2e, unchanged. Focused core/Solution build succeeds, exact result binding1bound0mismatch, Comparator plus independent result NanoDa accept. Claim/type self-sweep checks all conjuncts on the SAME data, literal identity, all-Set nonempty guards, distinction between candidate and actual greatestness, and no causal/source/root overclaim. No attributed claims or source infrastructure added. Initial metadata check exposed overbroad disambiguation sense links; restricted them to the two new senses without editing old arguments. Open root items and routes are unchanged from7f688818:90 (30bare18supported42stated), cheapest31. Live convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Selected Lean4.35/verifier setup reused with CLI fallback; no service/preflight/tooling/dependency changes. Final delivered-head CI/review remain required.",
   "evidence": [
-    "ATOMIC-COMPLETE-FUSION-MODEL",
-    "ACTUAL-FULL-FUSION-WITHOUT-NECESSITY"
+    "350171f3-d853-5669-b1d7-5daa6c780aa4",
+    "c1327a5d-daf3-5063-836c-9162fee09ff8"
   ],
   "blocker": "Physical/metaphysical applicability of principal-ideal actuality and all rival actual-causal/necessity bridges remains OPEN. The model does not satisfy or refute the complete premise bundle of existing actual-fusion necessity results, and supplies no PSR, concrete necessary being, God or root closure. Mathematical model certificate is not registered through the zero-axiom finite-evaluation registry."
 }

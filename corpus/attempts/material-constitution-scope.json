@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-MATERIAL-CONSTITUTION-SCOPE",
+  "id": "1dfe3eaa-3d74-5715-85d5-95ef0f63a610",
+  "label": "Compared existing turnover and Theseus dossiers and exact modules: neither represented coincident…",
+  "legacy_id": "ATTEMPT-MATERIAL-CONSTITUTION-SCOPE",
   "statement_ids": [
-    "STMT-MATERIAL-CONSTITUTION-SCOPE",
-    "STMT-PROCESS-TURNOVER-BOUNDARY",
-    "STMT-THESEUS-IDENTITY-BOUNDARY"
+    "2328cbd9-86bb-5af7-81d8-0eac46dd10ef",
+    "cc149607-e48e-513d-9c1d-8ab38624c0b6",
+    "03acbbdc-5fbf-5e92-8b1a-eb0f06d28093"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Compared existing turnover and Theseus dossiers and exact modules: neither represented coincident bearers and temporal wholes jointly. Constructed one two-time token history in enduring and global occurrence-set representations with all-time observational correspondence; proved initial slice coincidence, divergent later existence, global overlap/distinction, and failure of same-all-parts. Rejected identifying constituent coincidence with equality of all parts, or inferring instantaneous identity from global extensionality. Composed prior turnover and finite-chain results. Applicability and one-object/sortal-relative alternatives remain OPEN; no root-premise change. See docs/notes/material-constitution-scope.md and #1075.",
   "evidence": [
-    "MATERIAL-CONSTITUTION-SCOPE"
+    "61d709e5-32af-5048-8276-896fceca23f6"
   ]
 }

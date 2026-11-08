@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-GOVERNED-MECHANISMS",
-  "argument_id": "TELEONOMY-GOVERNED-MECHANISMS",
+  "id": "91c68658-fe79-5a5e-bcb7-616d44b53d07",
+  "label": "The closed facts about the selection filter and the coupling dynamics hold alongside a Fifth-Way…",
+  "legacy_id": "TELEONOMY-GOVERNED-MECHANISMS",
+  "argument_id": "dd9161b0-60ba-5cc1-b4e4-7f2e1338f67f",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.GovernedMechanisms.governedMechanisms",

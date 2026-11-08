@@ -1,10 +1,12 @@
 {
-  "id": "DEF-INFINITIST-NORMATIVE-CONSTRAINTS",
+  "id": "5899a492-6fd6-581c-878d-a7b92c07f1c3",
+  "label": "Infinitist noncircularity and…: In the authors’ enhancement account a reason may not merely repeat…",
+  "legacy_id": "DEF-INFINITIST-NORMATIVE-CONSTRAINTS",
   "term": "infinitist noncircularity and challengeability",
   "basis": "sourced",
   "definition": "In the authors’ enhancement account a reason may not merely repeat the target content (including a conjunction containing it), and a reason is not sufficiently justified independently of a further reason. The latter is motivated by continued legitimate challenge. These are presented as necessary but not jointly sufficient conditions for enhancing a target. Whether every terminal noninferential warrant is therefore arbitrary is a disputed normative premise, not a graph definition.",
   "claim_ids": [
-    "KLEIN-TURRI-1-NECESSARY-CONDITIONS"
+    "ce507fea-aa94-54bf-8c58-87151aeb18fb"
   ],
   "note": "Source-specific epistemic reading, not an interpretation of physical causation, existence or GeneratedWarrant. No universal adequacy standard is established by attribution."
 }

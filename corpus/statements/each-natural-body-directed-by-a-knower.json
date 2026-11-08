@@ -1,5 +1,7 @@
 {
-  "id": "STMT-EACH-NATURAL-BODY-DIRECTED-BY-A-KNOWER",
+  "id": "9b1ad50c-535e-5a4c-9f95-990a0e72cbc2",
+  "label": "Each natural body is directed to something best for it by some knowing and intelligent being",
+  "legacy_id": "STMT-EACH-NATURAL-BODY-DIRECTED-BY-A-KNOWER",
   "paraphrase": "Each natural body is directed to something best for it by some knowing and intelligent being (not necessarily the same one for all).",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EachNaturalBodyDirectedByAKnowerReading"
 }

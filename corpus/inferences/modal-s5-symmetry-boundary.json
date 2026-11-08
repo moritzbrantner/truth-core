@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-S5-SYMMETRY-BOUNDARY",
+  "id": "ffb9e011-e44c-519b-ae6b-d09e9e911602",
+  "label": "The reused reflexive transitive branching frame has possible full MC and…, by Direct-proof",
+  "legacy_id": "INF-MODAL-S5-SYMMETRY-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-S5-SYMMETRY-BOUNDARY",
+  "output_statement_id": "92df4ab0-edfe-518c-80b6-827aa283aa8c",
   "rule": "direct-proof",
   "meaning": "Compose the existing Hume semantic test model with the shared full-MC equivalence, preserve its reflexive/transitive proofs, and explicitly exhibit the failed reverse edge and opposite truth witnesses.",
   "assumption_statement_ids": [],

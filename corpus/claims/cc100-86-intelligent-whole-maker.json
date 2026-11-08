@@ -1,15 +1,17 @@
 {
-  "id": "CC100-86-INTELLIGENT-WHOLE-MAKER",
-  "statement_id": "STMT-CC100-86-INTELLIGENT-WHOLE-MAKER",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "35f8333b-20dc-5d98-a25d-303b48d6d7fa",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Every whole is made by an intelligent agent",
+  "legacy_id": "CC100-86-INTELLIGENT-WHOLE-MAKER",
+  "statement_id": "56d86d4a-373c-5fe1-8f05-37bf6fd30f6d",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 1",
   "interpretation": "Whole is the source’s unelaborated whole, not automatically a Sum2 fusion, substantial unity or material aggregate. Made-by is not silently grounding, a momentary unifier, diachronic sustainer or existence explanation. The universal intelligent-maker premise is asserted without independent defense. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

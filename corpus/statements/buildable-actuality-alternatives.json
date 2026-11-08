@@ -1,5 +1,7 @@
 {
-  "id": "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
+  "id": "b41a52e0-c631-5273-a417-fcfb0c128c9e",
+  "label": "For the actuality of the buildable qua buildable, the alternatives under consideration are…",
+  "legacy_id": "STMT-BUILDABLE-ACTUALITY-ALTERNATIVES",
   "paraphrase": "For the actuality of the buildable qua buildable, the alternatives under consideration are building or the completed house.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BuildableActualityAlternativeReading"
 }

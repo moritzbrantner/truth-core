@@ -1,7 +1,9 @@
 {
-  "id": "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL",
+  "id": "588138d5-77a7-5644-ae7f-d730255ec8f9",
+  "label": "In the explicit two-world universally accessible mixed modal model, select world…, by Direct-proof",
+  "legacy_id": "INF-POSSIBLE-CAUSE-BRUTE-SURVIVAL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-POSSIBLE-CAUSE-BRUTE-ROOT-SURVIVES",
+  "output_statement_id": "d1a3243e-9d86-53e1-8656-883d8aa0c573",
   "rule": "direct-proof",
   "meaning": "Instantiate the mixed three-individual two-world model at world true, transporting the possible externally caused beginning from accessible world false while verifying the chosen actual world's contingent some-true individual has no predecessor. This is a finite same-world countermodel to the inference from modal opportunity at a world to nonexistence of brute contingent roots at that world.",
   "assumption_statement_ids": [],

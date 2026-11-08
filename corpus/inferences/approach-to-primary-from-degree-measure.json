@@ -1,0 +1,18 @@
+{
+  "id": "7580a5b3-68e7-598d-a614-d54d349ed1af",
+  "label": "BEING_2 is graded by approach to a primary: the primary has…, by Transport of strict order…",
+  "legacy_id": "INF-APPROACH-TO-PRIMARY-FROM-DEGREE-MEASURE",
+  "input_statement_ids": [
+    "38cf20d9-1069-5d7c-a366-21b5f6e08bfe",
+    "331f4751-598a-5f67-ab1f-eb4a12d17bf5",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "e462cf2f-0961-5cb8-9634-23e6558afd65",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "82286a91-a610-52d2-9f28-2cc459a75ac7",
+  "rule": "Transport of strict order; excluded middle on identity with the primary; modus ponens",
+  "meaning": "Being more a being is having a strictly higher represented degree (global calibration, OPEN), and degrees are ordered as the approach to the primary (q.3 a.5 ad 2 reading); so being more a being is approaching the primary more nearly. The primary has being: something is more a being than something (OPEN observation), so has being; if it is not the primary it falls short of the primary (strict primacy), which therefore exceeds it in being and so has being (more such has the perfection).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

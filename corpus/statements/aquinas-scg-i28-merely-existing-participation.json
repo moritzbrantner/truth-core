@@ -1,14 +1,16 @@
 {
-  "id": "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
+  "id": "f16e0628-6742-53ed-8d23-782fbeedfea7",
+  "label": "Things that merely exist are not imperfect because absolute being is imperfect; they do not…",
+  "legacy_id": "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
   "paraphrase": "Things that merely exist are not imperfect because absolute being is imperfect; they do not possess its whole power, but participate through a particular and very imperfect mode.",
   "note": "Bare source reading, not bound to a Lean declaration; source fidelity does not establish premise truth or the applicability of its terms to current candidate roots.",
   "definition_ids": [
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-ESSE",
-    "DEF-UNIVERSALLY-PERFECT"
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

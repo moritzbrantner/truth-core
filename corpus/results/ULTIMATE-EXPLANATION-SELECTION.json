@@ -1,6 +1,8 @@
 {
-  "id": "ULTIMATE-EXPLANATION-SELECTION",
-  "argument_id": "ULTIMATE-EXPLANATION-SELECTION",
+  "id": "ebada8bd-f596-5e9a-a1da-ba0c5071f0cd",
+  "label": "Composes merged HistorySelection.Certificate",
+  "legacy_id": "ULTIMATE-EXPLANATION-SELECTION",
+  "argument_id": "830e85d8-05bd-5152-a6cd-44294e371696",
   "challenge_module": "TruthCore.Results.Epistemology.UltimateExplanation.Challenge",
   "solution_module": "TruthCore.Results.Epistemology.UltimateExplanation.Solution",
   "theorem": "TruthCore.Results.Epistemology.UltimateExplanation.integration",

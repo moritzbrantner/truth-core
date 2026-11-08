@@ -1,7 +1,9 @@
 {
-  "id": "INF-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "id": "32d3d5d5-7222-53c5-bab8-eea3595a2ace",
+  "label": "Three deadline-ordered Reapers admit an assignment obeying the same firing rule, by Finite-model",
+  "legacy_id": "INF-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "output_statement_id": "5f05649a-901f-550a-b563-bbecabe5220d",
   "rule": "finite-model",
   "meaning": "Enumerate three possible Reaper indices and verify that exactly the maximum index acts under the same rule. Finiteness removes the unbounded-earlier-deadline feature.",
   "assumption_statement_ids": [],

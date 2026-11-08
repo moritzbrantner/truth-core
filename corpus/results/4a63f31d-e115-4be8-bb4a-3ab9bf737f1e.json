@@ -1,0 +1,11 @@
+{
+  "id": "4a63f31d-e115-4be8-bb4a-3ab9bf737f1e",
+  "label": "Actual hiddenness scope controls",
+  "argument_id": "44730559-2a07-40fd-88af-522af1c8d982",
+  "challenge_module": "TruthCore.Results.Hiddenness.ActualRoot.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.ActualRoot.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.ActualRoot.controls",
+  "comparator_config": "results/4a63f31d-e115-4be8-bb4a-3ab9bf737f1e/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged."
+}

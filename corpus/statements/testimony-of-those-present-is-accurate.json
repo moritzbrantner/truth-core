@@ -1,0 +1,12 @@
+{
+  "id": "1d693b5c-ea47-5df4-baae-d034bfddba42",
+  "label": "A commission report that rests on the testimony of those present goes back to Jesus: he gave each…",
+  "legacy_id": "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE",
+  "paraphrase": "OPEN reliability premise (attribution deferred): a commission report that rests on the testimony of those present goes back to Jesus: he gave (or promised) each power it names. Its rival is the form-critical view that commission sayings are community formations.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.TestimonyOfThosePresentIsAccurate",
+  "definition_ids": [
+    "f8cfd9ac-819c-5a78-b51b-5688f88fa0ed",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072"
+  ]
+}

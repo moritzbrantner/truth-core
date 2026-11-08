@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-TELEONOMY-FINALITY-AND-AGENCY",
+  "id": "066d546d-53f8-5319-8333-6b117a152002",
+  "label": "End-directedness",
+  "legacy_id": "DISAMB-TELEONOMY-FINALITY-AND-AGENCY",
   "term": "end-directedness",
   "sense_definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-INTENTIO-AS-TENDING"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f"
   ],
-  "resolution": "Selection explains a trait by its past reproductive effects; coupling explains emergence by interactions. Aquinas\u2019 intentio is broad immanent tending, which neither mechanism\u2019s definition denies. Intelligent direction is a further ordering relation, not identical with a component interaction. The global naturalistic thesis denies that further director, an open philosophical claim not attributed to Darwin, Blount or Dye. Neither the no-chance observation nor the presence of a mechanism entails this denial. GovernedMechanismsModel establishes coexistence; the biological/nonliving and local/universal tests block scope changes. No result identifies random variation with Aquinas\u2019 rare coincidence."
+  "resolution": "Selection explains a trait by its past reproductive effects; coupling explains emergence by interactions. Aquinas\u2019 intentio is broad immanent tending, which neither mechanism\u2019s definition denies. Intelligent direction is a further ordering relation, not identical with a component interaction. The global naturalistic thesis denies that further director, an open philosophical claim not attributed to Darwin, Blount or Dye. Neither the no-chance observation nor the presence of a mechanism entails this denial. GovernedMechanismsModel establishes coexistence; the biological/nonliving and local/universal tests block scope changes. No result identifies random variation with Aquinas\u2019 rare coincidence.",
+  "term_label": "END_DIRECTEDNESS",
+  "senses": [
+    {
+      "id": "b9266283-cf2b-4631-9635-ad7407624781",
+      "label": "END_DIRECTEDNESS_1",
+      "definition_id": "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+      "lean_declaration": "TruthCore.Teleonomy.retained"
+    },
+    {
+      "id": "861bc8c4-d0fb-4684-828a-941b17ef9f10",
+      "label": "END_DIRECTEDNESS_2",
+      "definition_id": "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+      "lean_declaration": "TruthCore.Teleonomy.couple"
+    },
+    {
+      "id": "f67d7e69-7abc-4c07-8dc0-17883588da92",
+      "label": "END_DIRECTEDNESS_3",
+      "definition_id": "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.RegularBestByChanceOrByIntentionReading"
+    }
+  ]
 }

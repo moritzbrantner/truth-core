@@ -1,18 +1,20 @@
 {
-  "id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "id": "179378e2-941b-54ea-96f0-79a3776b93b8",
+  "label": "Disjunction of the explicit set, Form or…, from A relevant supplied mathematical fact lacks…",
+  "legacy_id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
   "premise_statement_ids": [
-    "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE"
+    "c10065f6-0d9f-5832-a1ad-3d8948667861"
   ],
-  "conclusion_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+  "conclusion_statement_id": "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2",
   "inference_ids": [
-    "INF-MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK"
+    "66df2f07-a521-5517-b6a2-73db233ffa10"
   ],
   "meaning": "Explicit mathematical-branch injection into the named disjunction.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

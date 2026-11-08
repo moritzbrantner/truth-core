@@ -1,0 +1,11 @@
+{
+  "id": "26f33f6a-d4b8-5c51-8c8f-9df00950c270",
+  "label": "Thomas Aquinas, Summa theologiae I q.16… supports Truth said of things is intelligibility; a…",
+  "legacy_id": "REL-Q16-A1-TRUTH-OF-THINGS-SUPPORTS-TRUTH-IS-INTELLIGIBILITY",
+  "subject_kind": "claim",
+  "subject_id": "c9ad52b9-4eeb-5968-93d7-86e736a5d817",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "1568610e-4df8-5f90-8200-8446b1cda8fb",
+  "note": "q.16 a.1 makes truth said of things a relation to the intellect on which the thing depends. The statement identifies having and comparing truth with having and comparing intelligibility; the passage gives no comparative of intelligibility (gap)."
+}

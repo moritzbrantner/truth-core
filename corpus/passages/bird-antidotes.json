@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "BIRD-ANTIDOTES-2004",
+    "source_id": "aaf2ee5f-561b-592f-a880-f0efc98470a8",
     "source_url": "https://ojs.ehu.eus/index.php/THEORIA/article/download/581/487",
     "retrieved_at": "2026-10-30T12:00:00Z",
     "sha256": "sha256:fbf89ada2be54f0bceffe7aacf8cf7c8dbc7e1a6c73147e24d8da41da23c1626",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "BIRD-ANTIDOTES-FULL",
+      "id": "2d143ad6-a6f9-5b5b-a994-e63fa5a51a24",
+      "label": "Alexander Bird, Antidotes all the way down? Theoria 19, Antidotes all the way down?, Theoria 19\u2026",
+      "legacy_id": "BIRD-ANTIDOTES-FULL",
       "locator": "Antidotes all the way down? (2004), Theoria 19(3), no.51, pp.259\u2013269, \u00a7\u00a71\u20137",
       "claim_locator_prefixes": [
         "\u00a7"

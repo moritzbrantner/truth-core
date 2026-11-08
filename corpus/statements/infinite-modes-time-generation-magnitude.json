@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITE-MODES-TIME-GENERATION-MAGNITUDE",
+  "id": "c09ac4c3-04fa-5638-a33a-b79e6db1305f",
+  "label": "The infinite appears differently in time, generations, and division of magnitude: earlier stages…",
+  "legacy_id": "STMT-INFINITE-MODES-TIME-GENERATION-MAGNITUDE",
   "paraphrase": "The infinite appears differently in time, generations, and division of magnitude: earlier stages pass away in the first two while divided parts of magnitude persist.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteModesDifferAcrossTimeGenerationMagnitudeReading"
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
+  "id": "356aad44-3124-5259-afad-8b9d29978288",
+  "label": "At least one individual exists at the selected world and at…, by Same-witness-assembly-project…",
+  "legacy_id": "INF-COUNT-CAUSE-TIME-NECESSITY-PROJECTION",
   "input_statement_ids": [
-    "STMT-COUNT-CAUSE-TIME-NECESSARY-WITNESS"
+    "f8c90eac-1d63-5808-ba4a-5e1a14ea2748"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "same-witness-assembly-projection",
   "meaning": "Assembly/transcription: select the SAME individual from the richer concrete count-cause witness and retain actual existence and NecessaryAt at w. Forget concreteness, accessible-history necessity and cause role. One composite OPEN input, not an independently defended one-premise existence proof or philosophical discharge.",
   "assumption_statement_ids": [],

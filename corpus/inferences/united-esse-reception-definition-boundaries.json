@@ -1,7 +1,9 @@
 {
-  "id": "INF-UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
+  "id": "43cf9f78-a8da-54db-8b78-056cff6a24b2",
+  "label": "Six finite exact controls: same-sense communication defeats broad…, by Constructive-proof",
+  "legacy_id": "INF-UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-UNITED-ESSE-RECEPTION-INTERPRETATION-CONTROLS",
+  "output_statement_id": "71d35248-e26c-51f8-b085-2ea5d7b3e834",
   "rule": "constructive-proof",
   "meaning": "Six exact finite controls distinguish union, act identity, communication, canonical reception, recipient identity and eligibility scope. No actual anthropology, causal dependence or metaphysical possibility is established.",
   "assumption_statement_ids": [],

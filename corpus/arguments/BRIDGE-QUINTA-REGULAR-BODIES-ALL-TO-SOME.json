@@ -1,11 +1,13 @@
 {
-  "id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
+  "id": "1e6fa15b-3ecd-543f-9787-9454abc05279",
+  "label": "Some natural body operates always or for the…, from There are natural bodies, and every natural…",
+  "legacy_id": "BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME",
   "premise_statement_ids": [
-    "STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST"
+    "658814de-ffeb-5824-afdd-2797e5cdad42"
   ],
-  "conclusion_statement_id": "STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST",
+  "conclusion_statement_id": "fa37dde9-3fd0-506b-9c8c-b2d70511f788",
   "inference_ids": [
-    "INF-BRIDGE-QUINTA-REGULAR-BODIES-ALL-TO-SOME"
+    "230f6dbe-a410-54e2-adb6-8466f3c77b12"
   ],
   "meaning": "Bridge (#401): the quinta via's first premise on its universal reading (STMT-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST: there are natural bodies, and each regularly attains some end that is best for it) entails its existential reading (STMT-SOME-NATURAL-BODIES-ACT-REGULARLY-FOR-THE-BEST: some natural body does). Existential instantiation from the existence conjunct, then the universal conjunct. The converse fails; this bridge does not choose between the readings."
 }

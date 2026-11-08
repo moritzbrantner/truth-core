@@ -1,7 +1,15 @@
 {
-  "id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
+  "id": "e3c7893f-7947-544e-a702-fb71ba34d2c4",
+  "label": "An endless predecessor chain satisfies a local power-transmission rule both when every node acts…",
+  "legacy_id": "STMT-ESSENTIAL-POWER-UNDERDETERMINED",
   "paraphrase": "An endless predecessor chain satisfies a local power-transmission rule both when every node acts and when none acts. For every chosen severed link, a distinct valid assignment leaves the upstream chain active and extinguishes every downstream member. Local counterfactual dependence therefore does not uniquely determine an original chain's activity or its well-foundedness.",
   "lean_declaration": "TruthCore.Causality.EssentialPowerUnderdetermined",
-  "definition_ids": ["DEF-ESSENTIAL-POWER-TRANSMISSION-RULE", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"],
-  "disambiguation_ids": ["DISAMB-CAUSAL-SERIES", "DISAMB-CAUSAL-POWER-GROUNDING"]
+  "definition_ids": [
+    "e1b95906-8d38-59c3-abee-0ccc1c9d333b",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
+  ]
 }

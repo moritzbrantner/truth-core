@@ -1,0 +1,12 @@
+{
+  "id": "f3e50c70-425e-58ad-981b-bdbbb4ca2bac",
+  "label": "Selected-world one-way contract: each individual represented as existent in re…, from eleatic power",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER",
+  "argument_id": "985d9280-9b10-500f-828f-b47ce50679df",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.existingInActAtFromEleaticPower",
+  "comparator_config": "results/EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the esse contract through the OPEN Eleatic principle (every existent at w has causal power), the q.25 a.1 reading (whatever has active power is in act in some respect) and the q.4 a.1 ad 3 reading (act in some respect implies act of esse). A Platonist about causally inert abstracta rejects the Eleatic premise, not the derivation."
+}

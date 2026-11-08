@@ -1,9 +1,11 @@
 {
-  "id": "ATTEMPT-LAW-ACTUALITY-743",
+  "id": "7d8b1105-6658-5ec7-bf65-4626aa9750c9",
+  "label": "New #743 discriminator varies two individually deterministic, uniquely solvable laws and…",
+  "legacy_id": "ATTEMPT-LAW-ACTUALITY-743",
   "statement_ids": [
-    "STMT-LAW-ACTUALITY-743-CERTIFICATE",
-    "STMT-LAW-ACTUALITY-743-OMISSIONS",
-    "STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY"
+    "9dc22a30-b747-5d3a-94df-f14bb064b7f7",
+    "75d9a7c8-03f9-5053-ba6c-dad9004ce7b9",
+    "e519065f-2b96-5214-a506-54e42eb7c494"
   ],
   "date": "2026-10-30",
   "kind": "countermodel",
@@ -11,9 +13,9 @@
   "summary": "New #743 discriminator varies two individually deterministic, uniquely solvable laws and quantifies over every prefix-invariant law estimator. Both mathematical histories have explicit coherent state population; neither law can be uniformly identified from the shared finite prefix. Composes exact whole-vector HistorySelection.no_selection/characterization and #704 ChainInstantiation.controls. Full-data, one-candidate and empty-realization omissions prevent overclaiming. No reproof of #737 fixed forecast/openFuture countermodels. Sources, exact theorem inventory, rejected interpretations, proof boundaries and remaining bridge persist in docs/notes/law-actuality-743.md. Initial interactive proof failed on reserved prefix identifier and ambiguous opened Certificate/Omissions names; corrected without changing frozen Challenge or statement types.",
   "blocker": "Actual concrete applicability/governance or best-system truth, independently defended candidate exclusion, and fallible epistemic entitlement remain OPEN. STMT-ULTIMATE-GROUND-EPISTEMIC-NECESSITY and #467 are not discharged.",
   "evidence": [
-    "LAW-ACTUALITY-743-CERTIFICATE",
-    "LAW-ACTUALITY-743-OMISSIONS",
-    "HISTORY-SELECTION-CERTIFICATE",
-    "CHAIN-INSTANTIATION-CONTROLS"
+    "f2164c77-b4f4-510b-a542-eb8ed95b3205",
+    "1f678ab6-cc89-5796-b3fd-c4be88298e16",
+    "4b8f07db-2a50-5826-ac09-083f0e088d64",
+    "6c8cd838-b1a1-521f-860e-9289b89f0e60"
   ]
 }

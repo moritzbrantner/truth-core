@@ -1,11 +1,13 @@
 {
-  "id": "STMT-AQUINAS-BEING-SAID-IN-TWO-WAYS",
+  "id": "3f7a0f4d-c281-560c-be1f-e28b6352e6b1",
+  "label": "Being per se is said in two ways: as divided by the ten categories, which only what posits…",
+  "legacy_id": "STMT-AQUINAS-BEING-SAID-IN-TWO-WAYS",
   "paraphrase": "Being per se is said in two ways: as divided by the ten categories, which only what posits something in reality is; and as signifying the truth of propositions, which anything is of which an affirmative proposition can be formed, even if it posits nothing in reality (privations and negations).",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Source reading behind the adopted concrete sense (#1103). It is no premise of any argument. No Lean declaration: the in-re/propositional distinction enters Lean only through HasEsseInRe, which reads InAct x esse as being in the first way."
 }

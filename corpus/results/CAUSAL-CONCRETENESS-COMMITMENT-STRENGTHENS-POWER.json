@@ -1,0 +1,13 @@
+{
+  "id": "40133132-17cf-5911-8094-07864e6baf65",
+  "label": "OPEN capacity clause alone: at the selected…, from Owner framework commitment: At the selected…",
+  "legacy_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "argument_id": "4a8193b0-311b-575a-90ee-a20838661f09",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.ownerCommitmentToPower",
+  "comparator_config": "results/CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "transcription": "assembly"
+}

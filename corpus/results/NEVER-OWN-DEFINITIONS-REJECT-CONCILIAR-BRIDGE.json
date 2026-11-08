@@ -1,6 +1,8 @@
 {
-  "id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
-  "argument_id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "id": "f992c7d3-d244-531f-a794-f54f9246b6c7",
+  "label": "Exact negation of conciliar…, from Every defined move lacks endorsement by the… and 1 more",
+  "legacy_id": "NEVER-OWN-DEFINITIONS-REJECT-CONCILIAR-BRIDGE",
+  "argument_id": "78de92ec-c3ca-5fb9-9467-b00b00df16a6",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Private.neverOwnRejectsBridge",

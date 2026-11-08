@@ -1,0 +1,12 @@
+{
+  "id": "140c818c-4624-5aae-a22d-6e7042235ccc",
+  "label": "Any being, root or not, that is not composite, whose represented esse equals its…, from reception",
+  "legacy_id": "UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION",
+  "argument_id": "888b3cb6-6b58-5e02-a86b-e8a5ed865319",
+  "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
+  "theorem": "TruthCore.Results.Causality.ReceptionLimitation.unlimitedDeterminationsArePure",
+  "comparator_config": "results/UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION/comparator.json",
+  "status": "solution-present",
+  "description": "A being with no represented limiting principle is its own being by UNLIMITED-IS-OWN-BEING-FROM-RECEPTION (same four premises); what is its own being is no recipient (STMT-OWN-BEING-IS-NO-RECIPIENT, q.4 a.1 ad 3); and a being that is no recipient has only pure determinations (STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE, q.7 a.1 generalized). Derives the former bare bridge STMT-UNLIMITED-DETERMINATIONS-ARE-PURE for an arbitrary carrier of determinations. All six premises stay open; the two new ones are supported, not stated."
+}

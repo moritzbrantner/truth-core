@@ -1,21 +1,23 @@
 {
-  "id": "PLATO-PHAEDO-100D-PARTICIPATION-THIN",
-  "statement_id": "STMT-PLATONIC-PARTICIPATION-PREDICATION",
-  "source_id": "PLATO-PHAEDO",
+  "id": "a354f547-b8ac-54a7-a1d7-6a074835fcfa",
+  "label": "Plato, Phaedo 100d–e: For an admitted quality, particulars participating in its FORM_1 exemplify…",
+  "legacy_id": "PLATO-PHAEDO-100D-PARTICIPATION-THIN",
+  "statement_id": "4557ccdd-956d-5645-82d5-9c4701556636",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "100d–e",
   "interpretation": "Thin predicative projection: things sharing beauty are beautiful. Participation is an attribution relation here; no explanatory adequacy is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ADMITTED-RANGE",
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PLATONIC-FORM",
-    "DEF-PLATONIC-PARTICIPATION",
-    "DEF-PLATONIC-PARTICULAR",
-    "DEF-PLATONIC-PREDICATION"
+    "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "8504bbdf-329b-5e23-9d12-0faf94e00914",
+    "f840232b-1281-5d1a-ab3f-0c45edd98a92",
+    "54b49991-95ba-5e00-8653-182059c4da6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PLATONIC-PARTICIPATION",
-    "DISAMB-PLATONIC-PREDICATION"
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "58a69964-25a1-53d2-a65d-660ed3a0cf4c",
+    "2f8db09b-f62a-51ef-b2e1-876f8f903f8f"
   ]
 }

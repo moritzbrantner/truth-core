@@ -1,6 +1,8 @@
 {
-  "id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
-  "argument_id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "id": "d56e4152-290b-5472-9079-131c56119156",
+  "label": "On the same four worlds, epistemic frame, atom and content family, the union of the earlier…",
+  "legacy_id": "KNOWABILITY-LINE-COMPATIBLE-SURVIVOR",
+  "argument_id": "d6f65fc8-1412-5161-93c6-b8cd0968d3dd",
   "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
   "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.lineSurvivor",

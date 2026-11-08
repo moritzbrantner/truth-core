@@ -1,17 +1,19 @@
 {
-  "id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
+  "id": "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+  "label": "What is maximal in a GENUS_2 is the cause of that perfection in every other thing that has it",
+  "legacy_id": "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
   "paraphrase": "What is maximal in a genus (a perfection) is the cause of that perfection in every other thing that has it.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading",
   "definition_ids": [
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-GENUS-BROAD"
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-GENUS",
-    "DISAMB-BEING-UNIVOCITY",
-    "DISAMB-ORDER-OF-BEING"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ],
   "note": "This remains an unattributed OPEN analyst principle for every merely maximal bearer, including otherwise admissible incomparable maxima. The greatest-degree source claim is separate and supplies no inference to this stronger conditional."
 }

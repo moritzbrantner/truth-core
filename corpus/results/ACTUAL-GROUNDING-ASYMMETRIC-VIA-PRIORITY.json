@@ -1,0 +1,12 @@
+{
+  "id": "58848cb0-4cc9-526a-a6c0-c7037b702d35",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, via priority",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "argument_id": "fa7c8d8a-06e2-52cb-accc-3faff4c0aa52",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricViaPriority",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY/comparator.json",
+  "status": "solution-present",
+  "description": "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used."
+}

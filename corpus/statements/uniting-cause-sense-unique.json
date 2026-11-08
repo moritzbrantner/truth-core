@@ -1,0 +1,13 @@
+{
+  "id": "c2d04ee1-b415-5486-abbf-705270b3bcb2",
+  "label": "The route's reading of 'causes' in the uniting-cause step selects at most one of the three senses…",
+  "legacy_id": "STMT-UNITING-CAUSE-SENSE-UNIQUE",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'causes' in the uniting-cause step selects at most one of the three senses, so both uses take the same one. A constraint on the reading choice, not a claim that efficient causing, causing being and uniting have disjoint extensions.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.UnitingCauseSenseUnique",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ]
+}

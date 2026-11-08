@@ -1,14 +1,16 @@
 {
-  "id": "INF-ATOMISTIC-NECESSARY-BEING",
+  "id": "a0d4d126-41e7-55d7-87db-98a2690c3458",
+  "label": "At least one individual exists at the selected world and at…, by Certified-actual-source-modal…",
+  "legacy_id": "INF-ATOMISTIC-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-LOCAL-CAUSAL-PRINCIPLE"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "ef69a630-2277-56be-86ca-f05f8193093a"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "certified-actual-source-modal-composition",
   "meaning": "Apply the existing atomistic source proof to WorldSourceRegress.actualGraph on the subtype of individuals existing at w. Preserve its SAME source c; subtype membership supplies actual existence and actualSource_iff gives absence of every existing incoming cause. The existing source_necessary_at theorem and the OPEN local causal principle yield frame-relative de re necessity of c. The supplied Ontic.Causes is interpreted as complete existence-production, not partial contribution or grounding. No causal endpoint soundness, outgoing activity, concreteness, unique source, S5, reflexivity, universal effect or full Rutten first cause is inferred.",
   "assumption_statement_ids": [],

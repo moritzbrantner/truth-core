@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-UNIVERSAL-BODILY-COGNITION",
-  "statement_id": "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
-  "source_id": "AQUINAS-ST",
+  "id": "e6fb1e14-bf68-5ac5-a2ec-462f200bcf4d",
+  "label": "Thomas Aquinas, Summa theologiae I q.75 a.2…: The designated human intellectual principle can…",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-UNIVERSAL-BODILY-COGNITION",
+  "statement_id": "f571b2a0-d5d1-5e8d-821e-582163055902",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.75 a.2 co.: homo per intellectum cognoscere potest naturas omnium corporum",
   "interpretation": "The text attributes to human intellect capacity to know the natures of all bodies. The formal reading ranges over bodily natures, not all facts, all beings, or a single jointly exercised act.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "POE-CATHOLIC-CONSISTENT-WITH-EVIL",
-  "argument_id": "POE-CATHOLIC-CONSISTENT-WITH-EVIL",
+  "id": "b04e68db-9e70-5112-8cc6-4996e9e256d7",
+  "label": "The background, the Catholic theory and the existence of evil are jointly satisfiable",
+  "legacy_id": "POE-CATHOLIC-CONSISTENT-WITH-EVIL",
+  "argument_id": "82770150-c97f-52fb-8a5d-b69f9a80518d",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicConsistentWithEvil.catholicConsistentWithEvil",

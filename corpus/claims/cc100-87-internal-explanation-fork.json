@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-INTERNAL-EXPLANATION-FORK",
-  "statement_id": "STMT-CC100-87-INTERNAL-EXPLANATION-FORK",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "2073608e-3869-5f81-8da0-f3a6c24c47aa",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If the unity of the cosmos is explained by something…",
+  "legacy_id": "CC100-87-INTERNAL-EXPLANATION-FORK",
+  "statement_id": "194013f3-7221-5063-8826-53d343d3b116",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 2",
   "interpretation": "This is the source’s explicit coverage fork for internal explanations. Exhaustiveness is an open commitment, not supplied merely by a part/whole vocabulary; no other internal candidate is excluded by definition. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

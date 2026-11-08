@@ -1,0 +1,14 @@
+{
+  "id": "0f1dfc38-d1e1-5e8c-9c6b-bd76f1eb22c7",
+  "label": "A NECESSARY_1 being, one that cannot not-be, is in act as to being, by Necessary is incorruptible…",
+  "legacy_id": "INF-NECESSARY-BEING-IN-ACT-FROM-INCORRUPTIBILITY",
+  "input_statement_ids": [
+    "b8d21cd0-8ac6-5556-a934-d59b025698d7",
+    "d017b6b0-3dd9-5c1a-b412-bdd9a7df5660"
+  ],
+  "output_statement_id": "79281639-e09b-569c-a2b3-bb32fdc3b951",
+  "rule": "Necessary is incorruptible, incorruptible is in act",
+  "meaning": "A necessary being cannot fail to be in substance, because whatever can fail to be in substance possibly is not (STMT-CAN-FAIL-TO-BE-IS-POSSIBLY-NOT), and it is not possible that a necessary being is not; so it is simply incorruptible, and the Metaphysics IX reading that incorruptibles as such are in act in substance (STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE, definition-linked, previously without argument consumer) gives it act as to being. Derives the open bridge STMT-NECESSARY-BEING-HAS-BEING, which reaches the root without a recorded derivation. Act is in the respect of being only, as the source restricts it. Both premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

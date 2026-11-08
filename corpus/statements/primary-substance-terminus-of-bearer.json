@@ -1,18 +1,20 @@
 {
-  "id": "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
+  "id": "e1220ed4-4dc8-58f8-b6aa-939efcb6ccfa",
+  "label": "Some bearer of some occurring thought has a terminus of its support ancestry that satisfies the…",
+  "legacy_id": "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
   "paraphrase": "Some bearer of some occurring thought has a terminus of its support ancestry that satisfies the supplied primary-substance predicate. Nothing is said of other termini, of necessity, or of any further account of substance.",
   "lean_declaration": "TruthCore.Causality.BearerRegress.PrimarySubstanceTerminusOfBearer",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-BEARER-SUPPORT-ANCESTRY",
-    "DEF-BEARER-SUPPORT-OUTCOMES",
-    "DEF-CATEGORIES-SUBJECT-RELATIONS"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+    "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+    "bba020f8-c553-542e-a54a-250e2d116dc7"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARS-INHERES-SUPPORTS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "f83e9a34-7994-5eb1-8431-50776f097f58",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

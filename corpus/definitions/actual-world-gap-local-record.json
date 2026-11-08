@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
+  "id": "aede72da-3002-5532-b1d9-49ba7293ffed",
+  "label": "Local causal record condition: LocalRecord h v: edges at v hold between existents at v; each…",
+  "legacy_id": "DEF-ACTUAL-WORLD-GAP-LOCAL-RECORD",
   "term": "local causal record condition",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ActualWorldGap.LocalRecord",

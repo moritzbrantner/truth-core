@@ -1,18 +1,20 @@
 {
-  "id": "DYE-FEEDBACK-PATTERNING",
-  "statement_id": "STMT-TELEONOMY-EXPERIMENTAL-FEEDBACK",
-  "source_id": "DYE-MECHANICAL-FEEDBACK",
+  "id": "251c5348-404b-5a04-ad4d-9f1ca653c382",
+  "label": "Natalie A. Dye and colleagues…: Dye and colleagues propose that mechanical feedback coupling cell…",
+  "legacy_id": "DYE-FEEDBACK-PATTERNING",
+  "statement_id": "1c0d7e9d-007f-5d87-b832-0dc210147bab",
+  "source_id": "60a5dac6-129a-5074-80d0-cca3bbdada0d",
   "locator": "Abstract, continuum theory and MyoVI knockdown",
   "interpretation": "A modal mechanism claim in Drosophila larval tissue, with experimental support. Does not show all biological patterns, inanimate order or consciousness are explained, and does not deny final causality or a divine director.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

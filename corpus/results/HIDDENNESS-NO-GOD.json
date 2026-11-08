@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-NO-GOD",
-  "argument_id": "HIDDENNESS-NO-GOD",
+  "id": "aeac6705-fe63-5ffc-b46e-c5f95727a031",
+  "label": "At the actual world no God of the…, from At every world in the supplied domain, if… and 3 more",
+  "legacy_id": "HIDDENNESS-NO-GOD",
+  "argument_id": "7d96f15a-4187-5c1b-8b89-ff32e47f09c1",
   "challenge_module": "TruthCore.Results.Hiddenness.NoGod.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.NoGod.Solution",
   "theorem": "TruthCore.Results.Hiddenness.NoGod.noGod",

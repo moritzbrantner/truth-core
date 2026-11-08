@@ -1,9 +1,11 @@
 {
-  "id": "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON",
+  "id": "920f6d09-a72b-5803-992a-1ce4e4f161e5",
+  "label": "Contrastive reason for spatial…: The disputed reason must address why this spatial placing rather…",
+  "legacy_id": "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON",
   "term": "contrastive reason for spatial placement in Leibniz",
   "definition": "The disputed reason must address why this spatial placing rather than a uniform alternative preserving mutual body relations. Leibniz rejects an appeal to mere will that leaves that preference unexplained. The adequacy norm is a philosophical commitment, not derived from coordinate geometry.",
   "basis": "sourced",
   "claim_ids": [
-    "LEIBNIZ-III-5-7-SPATIAL-REASON"
+    "cec9588c-0830-570c-9e2f-4fe264739851"
   ]
 }

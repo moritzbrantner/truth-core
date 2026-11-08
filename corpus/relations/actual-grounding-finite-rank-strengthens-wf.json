@@ -1,0 +1,12 @@
+{
+  "id": "6f632c38-90ff-538f-ac46-c20a3a9f751d",
+  "label": "Actual CONCRETE_6 grounding at w descends… strengthens The profile's selected relation at w…",
+  "legacy_id": "REL-ACTUAL-GROUNDING-FINITE-RANK-STRENGTHENS-WF",
+  "subject_kind": "statement",
+  "subject_id": "47e323f2-3405-5caf-a192-201eb1e02f76",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+  "verification_result_id": "402e54e9-7693-5cd3-adb5-41af6ccd72cd",
+  "note": "A Nat rank decreasing along actual grounding gives well-founded actual grounding (ACTUAL-GROUNDING-WF-FROM-FINITE-RANK). Strictness: an omega+1 hierarchy (a top concretum grounded by every finite level) is well-founded with no Nat rank (no finite control in this batch)."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "f590a5d5-d592-5734-bffd-0936ec276c4b",
+  "label": "IN-ACT_1, formal reading: whatever moves something in a respect is formally in act in that…",
+  "legacy_id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
+  "paraphrase": "IN-ACT_1, formal reading (attribution deferred): whatever moves something in a respect is formally in act in that respect, as fire that is hot makes the wood hot.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsFormallyInAct",
+  "definition_ids": [
+    "a5bda545-3e76-5240-808d-25f897a07be5",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

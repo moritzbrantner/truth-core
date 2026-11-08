@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
+  "id": "6ca87431-3383-58f6-9322-a1f0e8f0396b",
+  "label": "A being in act in a respect that moves another being, which is in POTENCY_1 in that respect, is…",
+  "legacy_id": "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR",
   "paraphrase": "Open bridge, unattributed: a being in act in a respect that moves another being, which is in potency in that respect, is simply prior to it. It does not say that moving is simple priority, and it says nothing of self-movers or of movers not in act in the respect.",
   "lean_declaration": "TruthCore.Alternatives.NightCosmogony.ActualMoverIsSimplyPriorReading",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "CLARKE-III-2-5-8-VOLITIONAL-REASON",
-  "statement_id": "STMT-VOLITION-MAY-SUFFICE-WITHOUT-EXTERNAL-SPATIAL-DIFFERENCE",
-  "source_id": "LEIBNIZ-CLARKE-CORRESPONDENCE",
+  "id": "f7025438-a715-5745-ac98-8fa68c90166c",
+  "label": "Gottfried Wilhelm Leibniz and Samuel…, A…: Clarke accepts sufficient reason while claiming that…",
+  "legacy_id": "CLARKE-III-2-5-8-VOLITIONAL-REASON",
+  "statement_id": "81ec01fe-0050-5438-b309-1244471e6bed",
+  "source_id": "77710698-4fea-53c2-b6d7-5485434d28a7",
   "locator": "Clarke III §§2,5,7–8",
   "interpretation": "Source reading recorded in prose only, from the materialized 1717 English exchange. It preserves the speaker’s argument or positive position without treating it as a checked philosophical consequence or identifying it with the analyst translation model.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-CLARKE-DISTINCT-ABSOLUTE-PLACES",
-    "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON"
+    "97c719e9-e4ea-5ce9-acef-60de08cea6b2",
+    "225ab841-da64-54bc-b514-43d14e491518"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIAL-REASON-SUFFICIENCY"
+    "f2ec41bf-3c75-5a75-9da3-296c659d2e98"
   ]
 }

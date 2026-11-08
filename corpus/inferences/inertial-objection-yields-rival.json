@@ -1,13 +1,15 @@
 {
-  "id": "INF-INERTIAL-OBJECTION-YIELDS-RIVAL",
+  "id": "2c85a544-3ec6-5b3c-a6c0-3b4d335ddac2",
+  "label": "Inertial rival: some body is being moved in a respect of uniform rectilinear…, by Direct-proof",
+  "legacy_id": "INF-INERTIAL-OBJECTION-YIELDS-RIVAL",
   "input_statement_ids": [
-    "STMT-NEWTON-PERSEVERANCE-BY-INHERENT-FORCE-ALONE",
-    "STMT-SOME-BODY-PERSEVERES-IN-UNIFORM-MOTION",
-    "STMT-MOVER-OF-PERSEVERING-BODY-IS-WHAT-IT-PERSEVERES-BY",
-    "STMT-UNIFORM-PERSEVERANCE-IS-BEING-MOVED",
-    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+    "a806ec53-602d-5154-a63d-5691113884fe",
+    "6f50f5d0-d004-562c-b182-ccd0547382ad",
+    "7218e9df-a86f-5ee6-98be-af4e9304539d",
+    "58a395a1-94f1-5c38-9c1e-c308c80ad3f7",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030"
   ],
-  "output_statement_id": "STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER",
+  "output_statement_id": "e97ade2e-b3a3-538e-95b1-131e3b7f4961",
   "rule": "direct-proof",
   "meaning": "Take a body persevering in uniform motion in some respect. On the becoming reading it is being moved in that respect. Suppose something moves it there: by the mover bridge the body perseveres by that mover, and by Newton's 'by inertia alone' the mover is the body itself; but nothing moved in a respect moves itself in it. So nothing moves it in that respect.",
   "assumption_statement_ids": [],

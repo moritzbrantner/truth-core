@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
-import { findStatement, getCorpus, termsFor } from "@/lib/corpus";
+import { findStatement, getCorpus, termsFor, idOf, nameOf } from "@/lib/corpus";
 import { getDossiers } from "@/lib/premise-dossier";
 
 import { DossierAttemptIndex } from "./dossier-attempt-index";
@@ -30,7 +30,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
     <article className="max-w-5xl [overflow-wrap:anywhere]">
       <Link className="link-quiet text-sm" href={`/statements/${statementId}`}>← Statement and proof context</Link>
       <h1 className="mt-8 font-serif text-4xl">Premise dossier</h1>
-      <p className="mt-3 font-mono text-xs break-all text-[var(--muted)]">{statement.id}</p>
+      <p className="mt-3 font-mono text-xs break-all text-[var(--muted)]">{idOf(statement.id)}</p>
       <p className="mt-4 text-xl leading-8">{statement.paraphrase}</p>
       <section className="record-section" aria-labelledby="dossier-status">
         <h2 id="dossier-status" className="eyebrow">Current status</h2>
@@ -41,8 +41,8 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
       <section className="record-section" aria-labelledby="dossier-sources">
         <h2 id="dossier-sources" className="eyebrow">Source readings</h2>
         {claims.length ? <ul className="mt-4 grid gap-4">{claims.map((claim) => <li key={claim.id}>
-          <Link className="link-quiet font-mono text-xs" href={`/claims/${claim.id}`}>{claim.id}</Link>
-          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {claim.source_id} · {claim.locator}{claim.witness === "bibliographic" ? " · bibliographic citation, not byte-verified" : ""}{claim.witness === "unavailable" ? " · witness permanently unavailable, not byte-verified" : ""}</p>
+          <Link className="link-quiet font-mono text-xs" href={`/claims/${claim.id}`}>{nameOf(claim.id)}</Link>
+          <p className="text-sm text-[var(--muted)]">{dossier.claim_ids.includes(claim.id) ? "States this proposition" : "Supports this proposition"} · {nameOf(claim.source_id)} · {claim.locator}{claim.witness === "bibliographic" ? " · bibliographic citation, not byte-verified" : ""}{claim.witness === "unavailable" ? " · witness permanently unavailable, not byte-verified" : ""}</p>
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
@@ -53,7 +53,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           const other = relation.subject_id === statementId ? relation.object_id : relation.subject_id;
           const otherStatement = findStatement(corpus, other);
           return <li key={relation.id}>
-            <p className="text-sm text-[var(--muted)]">{relation.subject_id} → {relation.predicate.replaceAll("_", " ")} → {relation.object_id}</p>
+            <p className="text-sm text-[var(--muted)]">{nameOf(relation.subject_id)} → {relation.predicate.replaceAll("_", " ")} → {nameOf(relation.object_id)}</p>
             {relation.note || relation.basis ? <p className="mt-2 text-sm leading-6">{relation.note ?? relation.basis}</p> : null}
             {otherStatement ? <Link className="link-quiet" href={`/statements/${other}`}>{otherStatement.paraphrase}</Link> : <p>{other}</p>}
           </li>;
@@ -68,10 +68,10 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           else if (argument.premise_statement_ids.includes(statementId)) { role = "Premise"; }
           else if (argument.commitment_statement_ids?.includes(statementId)) { role = "Commitment"; }
           return <li key={argument.id}>
-            <p className="font-mono text-xs break-all">{role} · {argument.id}</p>
+            <p className="font-mono text-xs break-all">{role} · {nameOf(argument.id)} · {idOf(argument.id)}</p>
             <p className="mt-2 text-sm leading-6">{argument.meaning}</p>
             {results.length ? results.map((result) => <p className="mt-2 text-sm" key={result.id}>
-              <Link className="link-quiet font-mono text-xs" href={`/results/${result.id}`}>{result.id}</Link>
+              <Link className="link-quiet font-mono text-xs" href={`/results/${result.id}`}>{nameOf(result.id)}</Link>
               {dossier.transcription_result_ids.includes(result.id) ? " · transcription; no independent closure" : " · see result and remaining premises"}
               <span className="mt-1 block font-mono text-xs break-all text-[var(--muted)]">{result.theorem}</span>
             </p>) : <p className="mt-2 text-sm text-[var(--muted)]">No result recorded.</p>}
@@ -83,7 +83,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <p className="mt-3 text-sm">Finite evaluations concern the registered vocabulary and assignments. They do not establish metaphysical possibility or close this premise. Schema registrations are not yet available.</p>
         <h3 className="mt-4 font-medium">Registered finite models</h3>
         {dossier.model_evaluations.length ? <ul className="mt-3 grid gap-4">{dossier.model_evaluations.map((model) => <li key={model.model_id}>
-          <p className="font-mono text-xs">{model.model_id} · {model.value}</p>
+          <p className="font-mono text-xs">{nameOf(model.model_id)} · {model.value}</p>
           <p className="mt-1 text-sm">Vocabulary: {model.vocabulary}</p>
           <p className="mt-1 font-mono text-xs">{model.lean_declaration}</p>
           <details className="mt-2 text-sm"><summary>Statement application and certificate</summary>
@@ -99,7 +99,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
       {dossier.configuration_cases?.length ? <section className="record-section" aria-labelledby="dossier-configurations">
         <h2 id="dossier-configurations" className="eyebrow">Configuration assumptions</h2>
         <ul className="mt-3 grid gap-3">{dossier.configuration_cases.map((entry) => <li key={entry.id}>
-          <Link className="link-quiet font-mono text-xs" href={entry.href}>{entry.id}</Link>
+          <Link className="link-quiet font-mono text-xs" href={entry.href}>{nameOf(entry.id)}</Link>
           <p className="mt-1 text-sm">{entry.semantics_id} · {entry.verification}</p>
         </li>)}</ul>
       </section> : null}
@@ -107,10 +107,10 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
         <h2 id="dossier-routes" className="eyebrow">Route contribution</h2>
         <p className="mt-3 text-sm text-[var(--muted)]">A counted open leaf contributes one distinct member to that route’s current premise set. This is not the cost reduction that would follow from proving it.</p>
         <div className="mt-4 overflow-x-auto"><table className="w-full text-left text-sm">
-          <caption className="sr-only">Open-leaf contribution to routes concluding {dossier.root}</caption>
+          <caption className="sr-only">Open-leaf contribution to routes concluding {nameOf(dossier.root)}</caption>
           <thead><tr><th className="p-2">Route</th><th className="p-2">Open leaves</th><th className="p-2">Counted open leaf</th><th className="p-2">Direct premise</th></tr></thead>
           <tbody>{dossier.route_contributions.map((route) => <tr className="border-t border-[var(--line)]" key={route.argument_id}>
-            <td className="p-2 font-mono text-xs break-all">{route.argument_id}</td><td className="p-2">{route.cost}</td><td className="p-2">{route.open_leaf ? "Yes" : "No"}</td><td className="p-2">{route.direct_premise ? "Yes" : "No"}</td>
+            <td className="p-2 font-mono text-xs break-all">{idOf(route.argument_id)}</td><td className="p-2">{route.cost}</td><td className="p-2">{route.open_leaf ? "Yes" : "No"}</td><td className="p-2">{route.direct_premise ? "Yes" : "No"}</td>
           </tr>)}</tbody>
         </table></div>
       </section>

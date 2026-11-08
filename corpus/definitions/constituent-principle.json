@@ -1,0 +1,10 @@
+{
+  "id": "37302378-4084-5986-a88e-b67f966619d2",
+  "label": "Constituent principle: ConstituentOf p x: p is one of the principles x is constituted by…",
+  "legacy_id": "DEF-CONSTITUENT-PRINCIPLE",
+  "term": "constituent principle (ConstituentOf p x)",
+  "definition": "ConstituentOf p x: p is one of the principles x is constituted by (its matter or form, its essence or its act of being), quantified over the same Principle sort as essenceOf and esseOf in q.3 a.7. Distinct from ComponentOf (DEF-COMPOSITION-COMPONENT), which ranges over beings. Only the open analysis STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE links it to Composite (two distinct constituents suffice); no converse is assumed, and nothing says a simple being has no constituent. In Lean a parameter P -> B -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.TwoDistinctConstituentsMakeComposite",
+  "note": "Stipulative analyst notion, attribution deferred (round 4 revisited, specs/round4-revisited.toml)."
+}

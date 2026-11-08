@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE-A",
-  "statement_id": "STMT-NO-UNBOUNDED-ADDITIVE-POTENTIAL",
-  "source_id": "ARIST-PHYS",
+  "id": "c26d3d0b-5ec9-5224-8ce4-c976dc8c37b2",
+  "label": "Aristotle, Physics III.6, 206b17-25: There is no potential infinity by addition that exceeds every…",
+  "legacy_id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE-A",
+  "statement_id": "41e0a6b3-eef0-50bb-9a88-c513a0c20223",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206b17-25",
   "interpretation": "Conclusion of the cross-chapter argument: additive potential infinity does not exceed every determinate magnitude; it remains only in the inverse manner corresponding to division. This reuses rather than weakens the III.5 conclusion against actual infinite sensible bodies.",
   "status": "formalized"

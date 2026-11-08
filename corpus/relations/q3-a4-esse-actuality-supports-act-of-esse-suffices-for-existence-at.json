@@ -1,0 +1,11 @@
+{
+  "id": "1cb61274-8d94-5fad-9f03-e6131d31ded2",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Whatever is in act of esse exists at the…",
+  "legacy_id": "REL-Q3-A4-ESSE-ACTUALITY-SUPPORTS-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT",
+  "subject_kind": "claim",
+  "subject_id": "5fd6b154-0c3e-5dec-bf47-93c2b2d9e735",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "546975ef-0614-5c0a-8f49-fab2cd2a2533",
+  "note": "ST I q.3 a.4 co. (second proof) states 'esse est actualitas omnis formae vel naturae: non enim bonitas vel humanitas significatur in actu, nisi prout significamus eam esse', and ad 2 that esse in the first sense 'significat actum essendi'. Being in act of esse is thus being. The premise adds the world index: whatever is in act of esse exists at the selected world, which the passage, having no worlds, does not state."
+}

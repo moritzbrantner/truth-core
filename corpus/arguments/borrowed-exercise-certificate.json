@@ -1,25 +1,27 @@
 {
-  "id": "BORROWED-EXERCISE-CERTIFICATE",
+  "id": "90658156-42ec-5305-8cb3-ff2ece052b45",
+  "label": "For any #733 exercise and any supplied power profile, where the actual scenario is allowed and…",
+  "legacy_id": "BORROWED-EXERCISE-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BORROWED-EXERCISE-CERTIFICATE",
+  "conclusion_statement_id": "56b98705-21a9-50c7-a2fe-f40412516018",
   "inference_ids": [
-    "INF-BORROWED-EXERCISE-CERTIFICATE"
+    "8ae5cb86-862b-5ea6-8b07-90e743d7a21d"
   ],
   "meaning": "Split each occurring event by whether it has Supply; the unsupplied occurring events form a #734 Trap, which trap_obstruction makes exclusive, and a choice of contributors gives the chain. Reuse the #734 chain, rooted, circle and finite records and the #752 record pair unchanged. Root premise delta zero; no actual explanatory bridge is established. For any #733 exercise and any supplied power profile, where the actual scenario is allowed and each actual exercise has its power: an occurring event is exactly one of an instrument (power present only under a lender, lender actual), a secondary cause (power present at some allowed scenario without a lender, lender actual) or self-exercising (no actual lender). For every exercise, an occurring event has #734 Supply over the actually lending records from self-exercising events, or it lies in a self-contained set of occurring lent events (a #734 Trap for that standard). Under the same two hypotheses it has Supply from actually exercised retained powers, or lies in such a set of instruments. A descent excludes Supply of its event. A descent whose members satisfy a predicate gives a lending chain through that predicate that is injective or revisits an event. Lending-record Supply gives exercised-record Supply; with coherence and a standard within occurring events it gives occurrence; a well-founded lending membership graph gives self-exercise Supply of every occurring event. Self-exercise Supply gives own-power Supply under the two hypotheses; if also every lent occurring event is borrowed, an analyst reading compared with and not identified with STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT, the two standards coincide and the self-exercise fork's descent consists of instruments. Witnesses: the #734 source-free chain under the power-when-exercised profile is coherent, jointly sufficient and locally powered, with an injective chain of instruments and neither Supply; the same exercise under the power-at-every-scenario profile has only secondary causes, own-power Supply of every event and no self-exercise Supply, and refutes that reading; restricted to the on scenario, every event under the latter profile is an instrument without own-power Supply. The #634 rooted exercise has a self-exercising source occurring at every allowed scenario and every branch event an instrument without own-power Supply. The #711/#734 two-event circle has instruments on a revisiting chain without own-power Supply. Two #752 record structures on one membership graph have an instrument t with and without Supply. In a finite exercise the source's power can be essential or not, with the same own-power Supply of the effect, and the source's exercise does not occur at every allowed scenario. Controls: exercise under a profile with no power has neither branch of the power fork; an empty record seeds #734 Supply and does not lend; an unexercised record does not lend. Profiles are supplied, not derived; Supply remains a proposed standard; whether real productive exercise satisfies it, which profile holds of real agents, explanatory adequacy, and passage from a motion respect to existence remain OPEN, and rivals rejecting Supply or power profiles are not refuted.",
   "definition_ids": [
-    "DEF-BORROWED-POWER-PROFILE",
-    "DEF-LENDING-DESCENT",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-CONFLUENT-SOURCE-REGRESS-OVERLAP",
-    "DEF-TEMPORAL-ACTUALIZATION-PROFILE"
+    "df1369a5-8710-57be-97ca-08ccb49f3314",
+    "78c935a3-6faa-5b33-9931-2bee1f346c43",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "a239a04a-ce2a-5b51-8a6e-2afe54a68691",
+    "962f5a85-018c-5d4d-967c-1047db5fecf0"
   ],
   "disambiguation_ids": [
-    "DISAMB-BORROWED-INSTRUMENT-SECONDARY",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-POWER-CAPACITY-EXERCISE"
+    "e16b26b1-32ed-500a-a5d6-ff88540d8da2",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "1da63c28-4572-5787-82a0-51425c0f4b6a"
   ]
 }

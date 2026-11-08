@@ -1,6 +1,8 @@
 {
-  "id": "UNITED-ESSE-RECEPTION-TRANSFER-FORK",
-  "argument_id": "UNITED-ESSE-RECEPTION-TRANSFER-FORK",
+  "id": "9fb8f574-df63-5f18-ae26-2513c4bd8e41",
+  "label": "For every supplied role/state profile, either the…, from Excluded middle as a general principle…",
+  "legacy_id": "UNITED-ESSE-RECEPTION-TRANSFER-FORK",
+  "argument_id": "7a264b6b-0afc-5788-bfda-79f4f0833dd6",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.TransferCoverage.transferCoverage",
@@ -9,19 +11,19 @@
   "description": "Structural coverage transcription under explicit excluded middle: the universal same-act transfer or a fully specified countertuple. No historical theory roster is exhausted.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+    "target_statement_id": "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3",
     "cases": [
       {
         "label": "same-act transfer",
-        "statement_id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+        "statement_id": "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3",
         "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SameSenseTransfer"
       },
       {
         "label": "precise communication countertuple",
-        "statement_id": "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE",
+        "statement_id": "fa965377-16bf-58f5-8a42-faee24fc45e4",
         "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.FurtherInterpretation"
       }
     ],
-    "survival_result_id": "UNITED-ESSE-RECEPTION-DEFINITION-BOUNDARIES"
+    "survival_result_id": "5698c98a-c508-5e3d-828e-639e84e68a3d"
   }
 }

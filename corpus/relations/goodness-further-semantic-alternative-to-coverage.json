@@ -1,9 +1,11 @@
 {
-  "id": "REL-GOODNESS-FURTHER-SEMANTIC-ALTERNATIVE-TO-COVERAGE",
+  "id": "1b1b501b-e7f1-580a-bf57-e0de19d65b08",
+  "label": "A further relevant extensional… alternative to Every admissible definition proposal in…",
+  "legacy_id": "REL-GOODNESS-FURTHER-SEMANTIC-ALTERNATIVE-TO-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOODNESS-ADDITIONAL-SEMANTIC-DEFINITION",
+  "subject_id": "a6f933f6-9700-55a6-804a-bba8e13e85bf",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
+  "object_id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
   "note": "An explicit admissible extension differs from every named account. No counted refutation is registered. The fixed mixed-artifact fourth proposal is such a formal witness; no actual-world exhaustion conclusion follows."
 }

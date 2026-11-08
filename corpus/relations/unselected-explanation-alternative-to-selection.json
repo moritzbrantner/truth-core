@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNSELECTED-EXPLANATION-ALTERNATIVE-TO-SELECTION",
+  "id": "0094aca1-077e-5257-ab96-ecbd302a6a1a",
+  "label": "At the same designated arrangement a and… alternative to At the designated labeled arrangement a…",
+  "legacy_id": "REL-UNSELECTED-EXPLANATION-ALTERNATIVE-TO-SELECTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-COMPLETE-CHAIN-EXPLANATION-ALLOWS-UNSELECTED",
+  "subject_id": "e35adb5f-73be-5db1-ae1b-8b5482d14512",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "object_id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
   "note": "The full truthful nonselection rival genuinely contradicts the old selection requirement. However generic adequate can accept only false candidates, which violate selection without witnessing this rival. Explicit factivity and checked structural trilemma now expose the coverage scope; the exact negative is also registered. No raw rival is weakened, and no false explanation is deemed actually adequate. See docs/notes/selection-factivity-coverage.md."
 }

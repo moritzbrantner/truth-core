@@ -1,0 +1,12 @@
+{
+  "id": "7d3cecd0-e394-5944-9b07-5dc77373cfd6",
+  "label": "A perfection caused in another is received in that other, from participation",
+  "legacy_id": "CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION",
+  "argument_id": "5e42f97e-e3c9-5e95-b8f7-2619a8cbf2b8",
+  "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.causedPerfectionReceivedInEffect",
+  "comparator_config": "results/CAUSED-PERFECTION-RECEIVED-FROM-PARTICIPATION/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the batch 1 bridge that a perfection caused in another is received in it from two OPEN premises: what x has from a distinct cause it has by participation, and a perfection had by participation is received in its participant. It does not use STMT-PARTICIPATED-HAS-OTHER-CAUSE, whose direction (participation to being caused) is the converse of the first premise."
+}

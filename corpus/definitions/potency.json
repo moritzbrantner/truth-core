@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POTENCY",
+  "id": "9f874532-f37e-590b-bec9-a9affb2762ac",
+  "label": "POTENCY_1: Adopted sense: x is in POTENCY_1 to F in respect r exactly when x has capacity for F in\u2026",
+  "legacy_id": "DEF-POTENCY",
   "term": "potency (in potency, in potentia)",
   "definition": "Adopted sense (owner decision #1007, 2026-11-06): x is in potency to F in respect r exactly when x has capacity for F in r and is not actually F in that same respect: AdoptedPotency.InPotency InAct CanBe x r := CanBe x r \u2227 \u00ac InAct x r. The act predicate and respect are identical on both sides. Example: a knower who can contemplate but is not contemplating is in adopted potency to contemplation. A knower contemplating now can retain the capacity but is not in adopted potency to that very contemplation in the same respect. This is not receptive potency of essence to its received esse, or a power possessed during its exercise. InAct and CanBe remain framework inputs: capacity existence, causal efficacy, temporal persistence, modal accessibility and applicability to reality are not built in. The original free InPotency parameter is retained under DEF-INDEPENDENT-POTENCY for generic proofs and rival interpretations. New adopted configurations instantiate EVERY use by this defined function, including immutability and act priority.",
   "basis": "stipulative",

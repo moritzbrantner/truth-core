@@ -1,15 +1,17 @@
 {
-  "id": "CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
-  "statement_id": "STMT-CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "ceb8c9fc-298b-51f5-b36b-887738be85d4",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If we have knowledge, knowledge requires properly…",
+  "legacy_id": "CC100-119-CONDITIONAL-DESIGNED-FACULTIES",
+  "statement_id": "e0ca26ec-736d-57f2-b515-c7ba33d3f401",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.280, argument #119, step 4 under steps 1–3",
   "interpretation": "The displayed design conclusion is conditional, with functioning-properly versus having-a-proper-function linkage open. This is not an actual design proof, causal history or existence of a divine designer. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

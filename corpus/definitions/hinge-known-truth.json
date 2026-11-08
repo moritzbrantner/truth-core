@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HINGE-KNOWN-TRUTH",
+  "id": "b00ed388-bc6d-5812-9a63-bce3687f76aa",
+  "label": "HINGE_1: A HINGE_1 is a true proposition that is known, as Moore claimed to know that here is a hand",
+  "legacy_id": "DEF-HINGE-KNOWN-TRUTH",
   "term": "hinge (known truth reading)",
   "definition": "A hinge is a true proposition that is known, as Moore claimed to know that here is a hand. The reading the floor's observation basis would presuppose for F3 and F4 if they were hinges.",
   "basis": "stipulative",

@@ -1,18 +1,20 @@
 {
-  "id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "id": "a4a1c1db-3e20-5791-8b53-621622b782a4",
+  "label": "Under the esse criterion every candidate is…, from Excluded middle as a general principle…",
+  "legacy_id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
+  "conclusion_statement_id": "1492ac47-a9c0-5917-8c27-9e0a4f805ebf",
   "inference_ids": [
-    "INF-CONCRETE-ABSTRACT-ESSE-DICHOTOMY"
+    "c50b6ece-ee6a-5dd3-8a57-1d99a14691a1"
   ],
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "meaning": "Because abstract is defined as the contradictory of concrete (no esse in re), the esse criterion is exhaustive by excluded middle (STMT-EXCLUDED-MIDDLE) and disjoint by non-contradiction. It establishes no classification of any particular candidate, and it does not make any rival criterion exhaustive."
 }

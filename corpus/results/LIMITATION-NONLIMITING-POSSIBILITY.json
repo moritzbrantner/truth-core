@@ -1,6 +1,8 @@
 {
-  "id": "LIMITATION-NONLIMITING-POSSIBILITY",
-  "argument_id": "LIMITATION-NONLIMITING-POSSIBILITY",
+  "id": "b1b8c7b2-a9f0-55ac-bf9e-6b3421d6079c",
+  "label": "Some world accessible from w has an…, from The SAME supplied analyst classifier marks… and 3 more",
+  "legacy_id": "LIMITATION-NONLIMITING-POSSIBILITY",
+  "argument_id": "2654a175-3063-5f58-8a49-722f75163efb",
   "challenge_module": "TruthCore.Results.Modal.LimitationPossibility.Challenge",
   "solution_module": "TruthCore.Results.Modal.LimitationPossibility.Solution",
   "theorem": "TruthCore.Results.Modal.LimitationPossibility.possible",

@@ -1,6 +1,8 @@
 {
-  "id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
-  "argument_id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "id": "b0491b54-0241-529e-991c-cad435b8a35c",
+  "label": "The bundle of internal grammar…, from In the Catholic practice, the First Vatican… and 1 more",
+  "legacy_id": "FIDEIST-REFERENCE-BUNDLE-FAILS-FOR-CATHOLIC-PRACTICE",
+  "argument_id": "b5971e25-cd25-5fff-8612-e577daec73bf",
   "challenge_module": "TruthCore.Results.Alternatives.FideismReference.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.FideismReference.Solution",
   "theorem": "TruthCore.Results.Alternatives.FideismReference.fideistReferenceBundleFails",

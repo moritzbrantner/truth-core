@@ -1,0 +1,35 @@
+{
+  "id": "053fa1db-4fa0-5166-8d9a-97cf6756c59d",
+  "label": "Batch certification of five exploration maps for underived root-path statements",
+  "legacy_id": "ATTEMPT-ROUND2-EXISTENCE-ACT",
+  "statement_ids": [
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "adf07168-21a9-5ea3-83b1-7d404f3f6421"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of five exploration maps for underived root-path statements (explorations/existing-in-act-at.toml, intellectual-exercise-requires-act.toml, cogito-thought-is-intellectual-exercise.toml, cogito-bearer-exists-at-world.toml, cogito-every-thought-has-subject.toml). (1) The selected-world esse contract by three routes: some-actuality plus q.4 a.1 ad 3; the Eleatic principle plus q.25 a.1 plus q.4 a.1 ad 3; and classically through the merely possible (excluded middle used). (2) Intellectual exercise requires act by four routes: generic operari sequitur esse; active power plus q.25 a.1; production of an inner word plus the q.75 a.2 reading exactly as pinned (of causing); and existence at w composed with the esse contract. (3) Occurring thought is intellectual exercise via intellective episodes, or via the motion fork's opining bridge. (4) The bearer exists at w via the operation chain (thought -> exercise -> act -> esse -> existence, the last step an OPEN converse of the esse contract), or via world-indexed occurrence. (5) The bearer principle via modification-needs-bearer, or via operation-has-agent. Controls: 32 hand-written omission models over Unit/Bool carriers (scripts/countermodel.py does not support the structure-bundled Ontic and OperationAttribution vocabulary), each checked by decide without axioms, and one joint witness with an occurring thought whose bearer exists, exercises intellect, opines, causes and is in act of esse. Rejected edges: ATTEMPT-ROUND2-EXISTENCE-ACT-REJECTED-EDGES.",
+  "evidence": [
+    "b9846898-43d2-5856-8a23-51a2289c2495",
+    "f3e50c70-425e-58ad-981b-bdbbb4ca2bac",
+    "b4e28e3d-3604-5e6f-afa2-5036e9fabb96",
+    "b374765e-a278-57d9-8449-bf24bd454cf6",
+    "ff0d7f75-e138-5c13-b1c2-68292924dd9e",
+    "899da724-479d-582b-9533-1852c53df6b8",
+    "830bb1ef-8650-57fc-8dd7-b2d14e20777a",
+    "949ef9b6-abd5-5a6d-85f1-2a339386151b",
+    "a5ac419e-a5ac-5913-8c26-92c8f8405788",
+    "03ab719f-ee8c-56d6-8431-eec650b62171",
+    "4d77c2a2-a0e9-5df1-aa0c-a6a6609b68d1",
+    "8ce4b4db-e2da-5ae5-b688-e830fde16699",
+    "2026fa63-eb21-5b14-876a-9cc852fc54d2",
+    "f6665846-670f-56ab-ae13-cdd30e31011b",
+    "7ebb0ab0-4022-5113-9810-67b4afa60cfc"
+  ],
+  "blocker": "Every new premise is open. Supported (claim bears on it, gap noted): generic operating only of a being in act (q.75 a.2, pinned only of causing another); existent in act in some respect (q.4 a.1 ad 3, which formalizes only act -> esse). Bare analyst premises: Eleatic principle; lacking esse is merely possible; merely possible does not exist at w; intellectual exercise is operating; exerciser has power; exercise produces an inner word (contested: immanent action); exerciser exists at w; occurring thought is intellective (false on broad cogitatio); bearing an intellective episode is exercise; opining borne content is intellectual exercise; act of esse suffices for existence at w (converse of the contract, not asserted by CogitoEsse); occurring thought occurs at w; bearer exists where its episode occurs; thought is a modification; no modification without bearer; thought is an operation; every operation has an agent; the agent bears its episode."
+}

@@ -1,11 +1,13 @@
 {
-  "id": "DEF-PER-SE-ORDERED-SERIES",
+  "id": "c9798301-e990-5ca2-a36e-6b11f76206c1",
+  "label": "PER_SE_1 ordered series of causes: A series of essentially dependent causes: a cause exercising…",
+  "legacy_id": "DEF-PER-SE-ORDERED-SERIES",
   "term": "per se (essentially) ordered series of causes",
   "definition": "A series of essentially dependent causes: a cause exercising derivative causal power causes only insofar as it is sustained by an upstream cause. This does not presuppose a first member. The stone/stick/hand example motivates the intended here-and-now dependence; a historical father/son succession alone does not identify such a link. The primitive Lean relations MovesAsMoved and CausesAsCaused do not encode time or removal of a sustaining cause. Their here-and-now and removal readings remain OPEN and would require an explicit temporal/intervention bridge. NoInfinitePerSeMoverSeriesReading separately ASSUMES accessibility of every being under MovesAsMoved; well-foundedness is not the definition of an essential link. The efficient-cause relation has its own separate premise and is not silently identified with the mover relation.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q46-A2-AD7-PER-SE-REGRESS-A",
-    "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-A"
+    "10a27943-b0db-5b36-ab96-0e08300b2642",
+    "095dc31a-a8c1-5801-bd59-cf00259adec0"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NoInfinitePerSeMoverSeriesReading",
   "note": "The old source-derived two-Prop InfiniteRegressImpossibleOnlyInPerSeSeriesReading remains unchanged; it transcribes two assertions rather than constraining causal relations. Analyst sibling STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION checks an explicit essential/historical dictionary and a concrete same-member compatibility witness; see docs/causal-regress-and-grim-reapers.md. The witness is not a metaphysical possibility claim."

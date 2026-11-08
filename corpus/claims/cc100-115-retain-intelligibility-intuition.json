@@ -1,15 +1,17 @@
 {
-  "id": "CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
-  "statement_id": "STMT-CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "071ead31-539c-5167-ab11-2d7607a297b4",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: One should not withhold the intelligibility intuition",
+  "legacy_id": "CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
+  "statement_id": "775de0b5-1bb2-5375-a72c-1240f4be7901",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.272, argument #115 Intelligibility of the World, step 3",
   "interpretation": "This is a normative commitment favoring retention, not independent proof that the intuition is true, universally reliable, necessary or equivalent to PSR. Its warrant is not defended on the slide. Attribution is to McIntosh’s presentation only, not the unread deRay2021 article or Koons2018 chapter referenced on p273. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+    "c54f91c6-f3d4-5443-8308-58f92635e79d"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

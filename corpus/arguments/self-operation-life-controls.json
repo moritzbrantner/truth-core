@@ -1,0 +1,21 @@
+{
+  "id": "12d922a4-4d94-5afa-b53a-5888ac54c23f",
+  "label": "One being in POTENCY_1 in no respect",
+  "legacy_id": "SELF-OPERATION-LIFE-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "5f6d1c2f-f037-5d84-8c2d-d224081cbcca",
+  "inference_ids": [
+    "52d99103-2e63-5fba-b6c1-2abf88a2b3db"
+  ],
+  "meaning": "One being in potency in no respect. Omitting the operation bridge, the q.18 life premise, or the potency premise (the being is moved without potency) leaves it without life; with all three it lives.",
+  "definition_ids": [
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

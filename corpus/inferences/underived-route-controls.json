@@ -1,7 +1,9 @@
 {
-  "id": "INF-UNDERIVED-ROUTE-CONTROLS",
+  "id": "6fdbc7ea-5567-504e-983c-b0fff9150e50",
+  "label": "Formal facts about the #487 route, by Constructive-proof",
+  "legacy_id": "INF-UNDERIVED-ROUTE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-UNDERIVED-ROUTE-CONTROLS",
+  "output_statement_id": "75ab9171-5319-5052-805c-10e8469d529a",
   "rule": "constructive-proof",
   "meaning": "Finite-model and natural-number constructions, and direct proofs of the two quantified implications. Each premise is needed, in that omitting it alone can defeat the conclusion in the encoded semantics, and the premises give neither unity nor a ground entailing its effect.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-COMMON-NONCOMPOSITE",
-  "argument_id": "NECESSARY-UNION-COMMON-NONCOMPOSITE",
+  "id": "a61f4cee-6323-5c9a-9d44-843211537117",
+  "label": "Some same individual retains named…, from At least one individual exists at the… and 10 more",
+  "legacy_id": "NECESSARY-UNION-COMMON-NONCOMPOSITE",
+  "argument_id": "95b499e9-e7f2-5d13-8da1-8c51fb9d92f9",
   "challenge_module": "TruthCore.Results.Causality.UnderivedNonComposite.Challenge",
   "solution_module": "TruthCore.Results.Causality.UnderivedNonComposite.Solution",
   "theorem": "TruthCore.Results.Causality.UnderivedNonComposite.from_union",

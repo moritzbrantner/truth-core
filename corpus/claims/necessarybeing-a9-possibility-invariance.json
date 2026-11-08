@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A9-POSSIBILITY-INVARIANCE",
-  "statement_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "5c5c9e79-82cf-5ca6-b97c-71480bcb0045",
+  "label": "Unattributed website author, Necessary…: For any individually possible situations X and Y, if X…",
+  "legacy_id": "NB-SURVEY-A9-POSSIBILITY-INVARIANCE",
+  "statement_id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A9P3, complete X/Y question, examples and non-joint note; A9C modal paragraph following step 8",
   "interpretation": "The full P3 text exactly matches A8P4, preserving the already represented A2 invariance meaning. This is conditional report/suffix reuse, not actual assent, a new S5/frame proof or a fixed actual necessary bearer. NecessaryIfExistent.positive remains usable only with its explicit modal premises and appropriate actuality/source-domain correspondence.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

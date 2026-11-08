@@ -1,6 +1,8 @@
 {
-  "id": "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
-  "argument_id": "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
+  "id": "2ecf8205-e48c-5f91-83bc-b89d784490e0",
+  "label": "The selected external moral-evil…, from Moral statements have no truth value: they… and 4 more",
+  "legacy_id": "POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE",
+  "argument_id": "8e633561-8fdf-5066-88a4-66978124691e",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.ExternalBridge.externalBridge",

@@ -1,6 +1,8 @@
 {
-  "id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
-  "argument_id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
+  "id": "fbbeb756-ff0f-56a4-9c32-cc625510b3df",
+  "label": "Four controls retain positive ordinary-life own-standard endorsement: descriptive theology…",
+  "legacy_id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS",
+  "argument_id": "da68cc3f-604a-53e5-a969-00f427658869",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Models.roleModels",

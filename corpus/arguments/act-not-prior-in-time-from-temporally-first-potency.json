@@ -1,0 +1,21 @@
+{
+  "id": "2212f5d4-450a-58af-ab5e-f01e661eb116",
+  "label": "The temporal branch fails: it is not the case that whatever is in…, from temporally first POTENCY_1",
+  "legacy_id": "ACT-NOT-PRIOR-IN-TIME-FROM-TEMPORALLY-FIRST-POTENCY",
+  "premise_statement_ids": [
+    "42008b33-62b5-564b-875b-ff91957ddd46"
+  ],
+  "conclusion_statement_id": "f3d343f1-581f-5426-a810-138ad6774f42",
+  "inference_ids": [
+    "67e03a7b-86d1-5f14-9c6c-73f8807437a6"
+  ],
+  "meaning": "Per-sense result for the temporal branch of 'prior': if some temporally first being is in potency, act is not prior to potency in time, since nothing in act is before that being.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "c3af1987-2909-5b84-8950-fe5573c55e04"
+  ],
+  "disambiguation_ids": [
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

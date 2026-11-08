@@ -1,21 +1,23 @@
 {
-  "id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "id": "92cae048-6fbf-58d7-9270-98f3a6228ac1",
+  "label": "There exists a two-world universal-accessibility frame with one individual, evaluated at one of…",
+  "legacy_id": "SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL",
+  "conclusion_statement_id": "67810d8b-0768-5fd7-a58e-021265001750",
   "inference_ids": [
-    "INF-SCOTT-NE-INVARIANT-FILTER-COUNTERMODEL"
+    "21e8502b-e026-5baf-b2fd-f25f7007faca"
   ],
   "meaning": "An independently checkable finite countermodel comparing the same model under original full property comprehension and a stipulated world-invariant property filter. The Lean proof imports the two previously verified results rather than restating their conclusions as new premises. The distinction concerns formal definitions; whether either property domain captures a genuine metaphysical essence remains open.",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-FILTERED-ESSENCE",
-    "DEF-FILTERED-NECESSARY-EXISTENCE",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-QML-KB-NECESSITY",
-    "DEF-WORLD-INVARIANT-PROPERTY"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "85a4aa8b-11cc-5aeb-b5a6-3f163178002d",
+    "6c825ee1-db34-5cf7-933f-689d3e615f19",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c",
+    "9c889aee-c88e-59ee-bd2e-ba0f7adde9da"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-NECESSARY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

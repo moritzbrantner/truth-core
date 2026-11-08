@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-208A-NO-COMPLETED-MAGNITUDE-A",
-  "statement_id": "STMT-NO-COMPLETED-INFINITE-MAGNITUDE-REDUCTION-THOUGHT",
-  "source_id": "ARIST-PHYS",
+  "id": "177bd9f4-2a3a-563d-925c-7d81a016cbe0",
+  "label": "Aristotle, Physics III.8, 208a21-22: Neither continued reduction/division nor unlimited mental…",
+  "legacy_id": "ARIST-PHYS-208A-NO-COMPLETED-MAGNITUDE-A",
+  "statement_id": "99c5b973-2be5-5c55-ab9c-f4ffc6359622",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.8, 208a21-22",
   "interpretation": "The chapter's final magnitude qualification rejects a completed actually infinite magnitude as an outcome either of continued reduction/division or of enlargement in thought. It does not retract the potential infinite divisibility formalized from III.6-7.",
   "status": "formalized"

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
+  "id": "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+  "label": "METAPHYSICAL_POSSIBILITY_4: Existence of an accessible world satisfying P, using the reused Dia…",
+  "legacy_id": "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
   "term": "metaphysical possibility (test interpretation)",
   "definition": "Existence of an accessible world satisfying P, using the reused Dia semantics. This is a stipulated interpretation of a modal model; no theorem establishes that its worlds are genuine metaphysical possibilities. Frame assumptions are explicit in each law.",
   "basis": "stipulative",

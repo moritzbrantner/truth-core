@@ -1,0 +1,12 @@
+{
+  "id": "5a398e97-a75b-5d14-a3f8-f99946aec6b9",
+  "label": "Finite interpretations and one general equivalence",
+  "legacy_id": "PURE-INDISCERNIBILITY-CONTROLS",
+  "argument_id": "ae77b37d-0836-5826-9ffe-42c8230a4491",
+  "challenge_module": "TruthCore.Results.Causality.PureIndiscernibility.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureIndiscernibility.Solution",
+  "theorem": "TruthCore.Results.Causality.PureIndiscernibility.controls",
+  "comparator_config": "results/PURE-INDISCERNIBILITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations and one general equivalence. On a Black-style single-mover carrier, where every non-first being has one shared non-pure determination, unrestricted perfection, strict pure actuality, identity of purely determined indiscernibles and at-most-one hold with an actual first mover, while identity of real indiscernibles fails. With determination-free inert rows, the two pure-act premises and at-most-one hold while identity of purely determined indiscernibles fails. If only first movers are purely determined, then under the two pure-act premises identity of purely determined indiscernibles is equivalent to at-most-one first mover. Each of the three premises of the narrower uniqueness theorem is omitted in turn with the other two retained and at-most-one failing. Satisfiability of encoded bundles, not metaphysical possibility."
+}

@@ -1,0 +1,83 @@
+# Exploration map for the selected-world esse contract (round 2, existence/act).
+# Analyst formulations, attribution deferred.
+target = "STMT-EXISTING-IN-ACT-AT"
+
+[[node]]
+id = "STMT-EXISTING-IN-ACT-AT"
+
+[[node]]
+id = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+
+[[node]]
+id = "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING"
+
+[[node]]
+id = "STMT-COGITO-BEARER-IS-CONCRETE"
+
+[[node]]
+id = "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT"
+new = true
+text = "At the selected world, every existent is in act in some respect (to be is to be actual in some way)."
+
+[[node]]
+id = "STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER"
+new = true
+text = "Eleatic principle at the selected world: every existent has causal power."
+
+[[node]]
+id = "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE"
+new = true
+text = "Whatever is not in act of esse is merely possible (in potency to being only)."
+
+[[node]]
+id = "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"
+new = true
+text = "Nothing merely possible exists at the selected world."
+
+[[edge]]
+premises = ["STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY: an existent is in act in some respect r; actuality in r is only insofar as it has esse (q.4 a.1 ad 3 reading)."
+
+[[edge]]
+premises = ["STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT", "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EXISTING-IN-ACT-AT-FROM-ELEATIC-POWER: every existent has causal power (Eleatic principle, OPEN; rejected by Platonists about abstracta and by epiphenomenalists), power only insofar as in act (q.25 a.1), actuality only insofar as being."
+
+[[edge]]
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-LACKING-ESSE-IS-MERELY-POSSIBLE", "STMT-MERELY-POSSIBLE-DOES-NOT-EXIST-AT"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY: classical contraposition through the merely possible; excluded middle on InAct x esse is used."
+
+[[edge]]
+premises = ["STMT-EVERY-EXISTENT-HAS-CAUSAL-POWER", "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT"]
+conclusion = "STMT-EXISTENT-IS-IN-ACT-IN-SOME-RESPECT"
+kind = "derivation"
+status = "certified"
+note = "Certified as EXISTENT-IN-ACT-FROM-ELEATIC-POWER (the intermediate step without the esse premise)."
+
+[[edge]]
+premises = ["STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING"]
+conclusion = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+kind = "source"
+status = "rejected"
+note = "The q.4 a.2 statement has no Lean declaration, so it cannot be a premise of a checked derivation; its content is already carried by the reused q.4 a.1 ad 3 reading."
+
+[[edge]]
+premises = ["STMT-COGITO-BEARER-IS-CONCRETE"]
+conclusion = "STMT-EXISTING-IN-ACT-AT"
+kind = "derivation"
+status = "rejected"
+note = "Rejected: under the esse profile, concrete is HasEsseInRe, but the premise speaks only of bearers of occurring thoughts, not of every existent; and EveryExistentConcreteAt (profile ...) is definitionally ExistingInActAt, so the profile route is a transcription."

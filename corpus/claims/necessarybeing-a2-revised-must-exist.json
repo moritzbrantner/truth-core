@@ -1,15 +1,17 @@
 {
-  "id": "NB-SURVEY-A2-REVISED-MUST-EXIST",
-  "statement_id": "STMT-NB-A2-REVISED-MUST-EXIST",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "f7f62dd9-bcd1-5bd4-8192-3660c4c80515",
+  "label": "Unattributed website author, Necessary…: The revised stipulation calls a thing must-exist by… (6)",
+  "legacy_id": "NB-SURVEY-A2-REVISED-MUST-EXIST",
+  "statement_id": "152f5cf5-a556-57f3-b1b3-e60edfacae57",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A2P2C, opening revised must-exist stipulation and complementary contingent classification",
   "interpretation": "This opening is an explicit author stipulation, unlike the subsequent respondent question. Preserve would automatically exist if even possible and the complement clause. No extant bearer follows from that definition. Leave the modal/counterfactual semantics unbound rather than translating it into ordinary NecessaryAt or a vacuously true material implication.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

@@ -1,18 +1,20 @@
 {
-  "id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "id": "b0a8b5d7-f29b-50ce-8a37-683758793aef",
+  "label": "A finite empty-tending/no-cognition structure satisfies the universal director principle…",
+  "legacy_id": "TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TELEONOMY-DIRECTOR-RIVAL-CONTROLS",
+  "conclusion_statement_id": "c1a26899-4d0b-501b-9ee0-17df0e3e8bf5",
   "inference_ids": [
-    "INF-TELEONOMY-DIRECTOR-RIVAL-CONTROLS"
+    "dd5c7f3f-f88f-5958-9bbd-f6b4a401f0ea"
   ],
   "meaning": "Construct the empty-tending overlap and explicit old finite-model witness, derive its exact negative using the generic checked result, and reuse existing unguided/governed results. Do not merge separate objects into a global worldview or identify broad tending with selection.",
   "definition_ids": [
-    "DEF-TELEONOMY-DIRECTOR-RIVAL-WITNESS",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-TELEONOMY-MODEL-SCOPE"
+    "4404df1d-a1c1-5e61-8f8d-24e9b60f6ad5",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "b5b918e7-b170-5d37-acad-10004f3570b7"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO",
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249",
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

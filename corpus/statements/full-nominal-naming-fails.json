@@ -1,19 +1,21 @@
 {
-  "id": "STMT-FULL-NOMINAL-NAMING-FAILS",
+  "id": "06f229e0-b98f-55fc-b866-ff3c8914bacf",
+  "label": "The proper-sense full naming leaf is false: it is not the case that every unique fully described…",
+  "legacy_id": "STMT-FULL-NOMINAL-NAMING-FAILS",
   "paraphrase": "The proper-sense full naming leaf is false: it is not the case that every unique fully described principle satisfies the proper God predicate. This is the exact negation of the original leaf, not the raw practice-use no-reference thesis.",
   "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.FullNominalNamingFails",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-NOMINAL-DEFINITION",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-REMOTE-FROM-ALL"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

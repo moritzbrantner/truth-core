@@ -1,10 +1,12 @@
 {
-  "id": "REL-BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "id": "100f4694-6b67-571a-ade3-ab602469372e",
+  "label": "For every being in the supplied duration… strengthens Weak open transfer: the SAME being…",
+  "legacy_id": "REL-BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
   "subject_kind": "statement",
-  "subject_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+  "subject_id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY",
-  "verification_result_id": "BOETHIAN-CALIBRATION-STRENGTHENS-RECOGNITION",
+  "object_id": "a35acca8-cc3e-51ff-98f1-4491d3f0c119",
+  "verification_result_id": "f69342ea-bd48-5ef4-b816-f9e8ac91bde7",
   "note": "Sole-premise exact strength registration; primitive composition uses the weaker one-way recognition."
 }

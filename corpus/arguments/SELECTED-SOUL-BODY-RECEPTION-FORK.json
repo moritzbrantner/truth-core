@@ -1,20 +1,22 @@
 {
-  "id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "id": "f867d897-8fa0-5b34-ae35-bd0ae734fd5a",
+  "label": "For every supplied selected role/state profile…, from Excluded middle as a general principle…",
+  "legacy_id": "SELECTED-SOUL-BODY-RECEPTION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-SELECTED-SOUL-BODY-RECEPTION-FORK",
+  "conclusion_statement_id": "74e6274c-c999-5883-b417-9565074e65c0",
   "inference_ids": [
-    "INF-SELECTED-SOUL-BODY-RECEPTION-FORK"
+    "eff1b40d-0017-500a-8635-772edf41d1b0"
   ],
   "meaning": "Selected-tuple structural fork under explicit excluded middle; neither source sense is thereby adopted.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

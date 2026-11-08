@@ -1,14 +1,16 @@
 {
-  "id": "INF-SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "id": "1e6a03d6-bd70-5d33-95f5-df190a8cd0e1",
+  "label": "At least one individual exists at the selected world and at…, by Typed-selected-world-causal-c…",
+  "legacy_id": "INF-SCOPED-ATOMISTIC-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d8a1fb16-ce20-542f-9e3b-d9350468e331"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "typed-selected-world-causal-composition",
   "meaning": "Retain the SAME four nonlogical atomistic structural inputs and explicit EM on actualGraph m w; replace global LocalCausalPrinciple with selected-world actual causal coverage. Import the certified source, preserve its SAME subtype source c, use actualSource_iff and the genuinely generalized selectedSourceNecessary helper. Actual existence comes from subtype membership. The selected cause policy rules out accessible absence of c; conclude the existing frame-relative de re NecessaryBeing endpoint. No concreteness, activity, endpoint policy, S5, reflexivity, uniqueness, grounding identity or full author FirstCause is inferred. This is a strict world-scope weakening, witnessed separately on the full structural background; no philosophical premise truth or root closure. Distinctness deletion is redundant under retained nonoverlap, not an additional independent weakening.",
   "assumption_statement_ids": [],

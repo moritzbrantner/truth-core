@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
-  "argument_id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "id": "35d98410-6cd9-5d34-912d-968ac7385870",
+  "label": "Thought, in affirming or denying, is…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "BRIDGE-IV7-EXCLUDED-MIDDLE-AFFIRMING-OR-DENYING-TRUE-OR-FALSE",
+  "argument_id": "237a0195-b15a-5556-9bbd-7a34ef3ad11d",
   "challenge_module": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.Challenge",
   "solution_module": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.Solution",
   "theorem": "TruthCore.Results.Bridges.IV7ExcludedMiddleAffirmingOrDenyingTrueOrFalse.affirmingOrDenyingThoughtIsTrueOrFalseOfExcludedMiddle",

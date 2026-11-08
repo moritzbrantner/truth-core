@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-STRONG-WEAK-ACCESSIBILITY-COMPONENTS",
+  "id": "0e6b4e64-e923-5d1b-b6f9-35ba53421eb3",
+  "label": "Strong versus weak accessibility connectivity",
+  "legacy_id": "DISAMB-STRONG-WEAK-ACCESSIBILITY-COMPONENTS",
   "term": "strong versus weak accessibility connectivity",
   "sense_definition_ids": [
-    "DEF-ACCESSIBILITY-COMPONENTS",
-    "DEF-WEAK-ACCESSIBILITY-COMPONENTS"
+    "228ae527-243a-56a8-8b99-eb355f8f6fc1",
+    "f1f5238a-af45-5403-8a65-790681d4935d"
   ],
-  "resolution": "Strong components require directed paths both ways; weak components require a zigzag in the symmetrified quiver. The Bool order frame has one weak class and two distinct strong classes. For equivalence frames strong components coincide with accessibility equivalence classes, not necessarily with the whole world carrier. Nil paths are included throughout; reflexivity is therefore required for SCC/access equivalence even at the same vertex. Neither query supplies a causal or temporal bridge."
+  "resolution": "Strong components require directed paths both ways; weak components require a zigzag in the symmetrified quiver. The Bool order frame has one weak class and two distinct strong classes. For equivalence frames strong components coincide with accessibility equivalence classes, not necessarily with the whole world carrier. Nil paths are included throughout; reflexivity is therefore required for SCC/access equivalence even at the same vertex. Neither query supplies a causal or temporal bridge.",
+  "term_label": "STRONG_VERSUS_WEAK_ACCESSIBILITY_CONNECTIVITY",
+  "senses": [
+    {
+      "id": "f68611f6-b870-4211-87e3-6bc207175263",
+      "label": "STRONG_VERSUS_WEAK_ACCESSIBILITY_CONNECTIVITY_1",
+      "definition_id": "228ae527-243a-56a8-8b99-eb355f8f6fc1",
+      "lean_declaration": "TruthCore.Modal.AccessibilityComponents.Certificate"
+    },
+    {
+      "id": "d467130c-c38c-4aed-b58c-fdd80433e87d",
+      "label": "STRONG_VERSUS_WEAK_ACCESSIBILITY_CONNECTIVITY_2",
+      "definition_id": "f1f5238a-af45-5403-8a65-790681d4935d",
+      "lean_declaration": "TruthCore.Modal.AccessibilityComponents.oneWay"
+    }
+  ]
 }

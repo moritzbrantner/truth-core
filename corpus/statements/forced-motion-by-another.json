@@ -1,14 +1,16 @@
 {
-  "id": "STMT-FORCED-MOTION-BY-ANOTHER",
+  "id": "2d1b4c22-faa3-5433-9da4-4dfd880f8207",
+  "label": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another…",
+  "legacy_id": "STMT-FORCED-MOTION-BY-ANOTHER",
   "paraphrase": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another thing.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.ForcedMotionByAnotherReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-NATURAL-AND-FORCED-MOTION",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "1c6106a7-96af-5adb-8b27-e171ce778371",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY",
-  "argument_id": "NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY",
+  "id": "4bfd6980-203e-5a5f-8646-91364f0c9146",
+  "label": "Some concrete individual exists at w and at every world accessible from…, from existential supply",
+  "legacy_id": "NECESSARY-CONCRETE-FROM-EXISTENTIAL-SUPPLY",
+  "argument_id": "9597b97d-22c7-538f-9fd2-a88795edfec6",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.necessaryConcreteOfSupply",

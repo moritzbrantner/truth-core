@@ -1,0 +1,12 @@
+{
+  "id": "c23092e4-ebda-5259-8355-d80a4d993074",
+  "label": "Every actual concrete root of the selected grounding relation at w really has…, from whole power",
+  "legacy_id": "ROOT-PERFECTION-FROM-WHOLE-POWER",
+  "argument_id": "7d8bbdcb-84dd-595d-ba0a-cb60367d7cca",
+  "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.WholePowerPerfection.rootPerfectionFromWholePower",
+  "comparator_config": "results/ROOT-PERFECTION-FROM-WHOLE-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "The eight inputs of ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE make every actual root unlimited; the open bridge makes each its own being; SCG I.28 and q.4 a.2 (as encoded) then give it every pure perfection. Derives the former bare leaf STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION. All eleven premises stay open."
+}

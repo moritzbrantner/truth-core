@@ -1,6 +1,8 @@
 {
-  "id": "TEMPORAL-COMPOSER-FROM-ATTRIBUTION",
-  "argument_id": "TEMPORAL-COMPOSER-FROM-ATTRIBUTION",
+  "id": "c55f8c6c-14b3-5518-8c8f-a3fc7f7dd82a",
+  "label": "Every actual uniting tuple has efficient causal activity in some respect at some…, from attribution",
+  "legacy_id": "TEMPORAL-COMPOSER-FROM-ATTRIBUTION",
+  "argument_id": "e79971d9-541f-5e55-83d5-3ca822d940ac",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Calibration.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Calibration.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.Calibration.calibration",

@@ -1,15 +1,17 @@
 {
-  "id": "STMT-VERIFICATION-PRINCIPLE",
+  "id": "12527c0e-3a83-5639-91e4-3eab30b2ec23",
+  "label": "The VERIFICATION_PRINCIPLE_2 with explicit scope, for a variant's verifiability predicate: every…",
+  "legacy_id": "STMT-VERIFICATION-PRINCIPLE",
   "paraphrase": "The verification principle with explicit scope, for a variant's verifiability predicate: every meaningful sentence in scope is analytic or verifiable. 'Meaningful' is the literal, cognitive significance the criterion is offered as an account of, not the criterion itself.",
   "lean_declaration": "TruthCore.Logic.Verificationism.VerificationPrinciple",
   "definition_ids": [
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-SELF-APPLICATION-NORM"
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

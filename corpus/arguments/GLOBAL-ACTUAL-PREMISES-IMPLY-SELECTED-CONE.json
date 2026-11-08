@@ -1,27 +1,29 @@
 {
-  "id": "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "id": "a6291e49-d7ad-57b5-aba1-0cc3236b4e10",
+  "label": "For any selected candidate, global well-founded actual-concrete grounding implies well-founded…",
+  "legacy_id": "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "conclusion_statement_id": "5a6c06bf-96a1-5aa9-9a2e-95b4580ba6c9",
   "inference_ids": [
-    "INF-GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE"
+    "ef3fd5a4-c51e-5bf3-b150-ddef9144fe89"
   ],
   "meaning": "For any selected candidate, global well-founded actual-concrete grounding implies well-founded grounding on its complete actual ancestry cone, and global contingent concrete dependence implies contingent dependence within that cone. These scope implications, together with the combined local-but-not-global model, certify a strict weakening of both premises. They do not establish any instance of either local or global metaphysical premise.",
   "definition_ids": [
-    "DEF-SELECTED-ANCESTRY-CONE",
-    "DEF-SELECTED-CONE-WELL-FOUNDED",
-    "DEF-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "7b0fa9c6-f1fa-5b46-8a8b-31187fa3a28b",
+    "264e5668-fdd0-5ee3-98d1-6dc9925056c4",
+    "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

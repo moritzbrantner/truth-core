@@ -1,7 +1,9 @@
 {
-  "id": "INF-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "id": "e759324b-4c18-5c68-bb3a-d3dd2df1f97b",
+  "label": "One fixed five-being, two-world interpretation jointly retains the earlier…, by Explicit finite…",
+  "legacy_id": "INF-PART-FREE-PLURALITY-JOINT-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PART-FREE-PLURALITY-JOINT-CONTROL",
+  "output_statement_id": "e1d114a4-abc0-5649-b453-568a939da431",
   "rule": "Explicit finite interpretation, reuse of verified simplicity/pure-act theorems and uniqueness-route exclusion",
   "meaning": "Verify the five-being assignments and their actual component/motion/efficient-cause witnesses; derive represented attributes using imported theorems and exclude common nature/differentiation using imported uniqueness theorems. Check no-component-first and actual absence of either root from all compositions.",
   "assumption_statement_ids": [],

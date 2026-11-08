@@ -1,0 +1,15 @@
+{
+  "id": "0f5b53ef-0872-597b-b2f0-fc22b8df600a",
+  "label": "Whenever an actual concretum a grounds an actual concretum b at w, b depends for its being on a",
+  "legacy_id": "STMT-ACTUAL-GROUNDING-IS-DEPENDENCE",
+  "paraphrase": "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, b depends for its being on a. Converse direction of STMT-ACTUAL-DEPENDENCE-IS-GROUNDING.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ActualGroundingIsDependence",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
+  ]
+}

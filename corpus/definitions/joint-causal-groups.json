@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-CAUSAL-GROUPS",
+  "id": "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+  "label": "Joint causal group records and actual…: Groups is a container of contributor and…",
+  "legacy_id": "DEF-JOINT-CAUSAL-GROUPS",
   "term": "joint causal group records and actual exercise",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.JointGroups.Groups",

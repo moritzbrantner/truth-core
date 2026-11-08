@@ -1,6 +1,8 @@
 {
-  "id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
-  "argument_id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "id": "ab25e60a-a7f2-5435-bb6d-f29263e70a38",
+  "label": "The limited GroupHallucination pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-GROUPHALLUCINATION-CONSISTENT",
+  "argument_id": "30aeacbb-899b-572a-a30c-848a8e3ac8cf",
   "challenge_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.Resurrection.GroupHallucinationConsistent.consistent",

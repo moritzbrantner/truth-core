@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
-  "argument_id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "id": "99b07c8d-e279-5307-a626-4af32080ab68",
+  "label": "An infinite taken as unbounded has no…, from If the infinite in the unbounded sense had… and 1 more",
+  "legacy_id": "ARIST-PHYS-203B-INFINITE-NO-PRINCIPLE",
+  "argument_id": "e67c017e-f801-5f30-8a1b-eb05663a9ee0",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.InfiniteNoPrinciple.infiniteHasNoPrinciple",

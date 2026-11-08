@@ -1,6 +1,8 @@
 {
-  "id": "CONCRETE-BORROWING-CUT-WF-EQUIVALENCE",
-  "argument_id": "CONCRETE-BORROWING-CUT-WF-EQUIVALENCE",
+  "id": "6c31fe89-1148-50a1-9872-cc9bef209280",
+  "label": "Given explicit excluded middle, the existing borrowing-cut principle applied to this recorded…",
+  "legacy_id": "CONCRETE-BORROWING-CUT-WF-EQUIVALENCE",
+  "argument_id": "fbb68b5a-96a8-53f9-b461-911298afa264",
   "challenge_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Challenge",
   "solution_module": "TruthCore.Results.Causality.ConcreteExistentialSupply.Solution",
   "theorem": "TruthCore.Results.Causality.ConcreteExistentialSupply.borrowingEscapeWFEquivalence",

@@ -1,9 +1,11 @@
 {
-  "id": "INF-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "id": "1a03607f-780c-5d35-8d28-5dd1ea4ac4d4",
+  "label": "The universal same-act communication-to-canonical-reception transfer fails…, by Constructive-proof",
+  "legacy_id": "INF-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
   "input_statement_ids": [
-    "STMT-UNITED-ESSE-COMMUNICATION-HAS-NONRECEPTIVE-COUNTERCASE"
+    "fa965377-16bf-58f5-8a42-faee24fc45e4"
   ],
-  "output_statement_id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "output_statement_id": "4fd3bd81-1c24-5894-b701-c658239a6f52",
   "rule": "constructive-proof",
   "meaning": "The explicit union/communication/same-act/nonreception countertuple contradicts the universal same-sense transfer. It need not decide the separately selected tuple.",
   "assumption_statement_ids": [],

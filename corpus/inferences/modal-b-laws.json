@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-LAWS",
+  "id": "16de15c1-f5d0-5bf9-94cf-2f0099a32b11",
+  "label": "Symmetry propagates possible full-predicate modal collapse to the root, with…, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-LAWS",
+  "output_statement_id": "e1329ed7-6581-5862-a9b1-ab90a5e7fc8e",
   "rule": "direct-proof",
   "meaning": "Apply shared identity separation at the witness, use symmetry for the reverse edge, transport MC along the resulting equality, and compose the K successor characterization. Reflexivity supplies exactly the two converse directions.",
   "assumption_statement_ids": [],

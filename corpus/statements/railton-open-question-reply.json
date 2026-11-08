@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RAILTON-OPEN-QUESTION-REPLY",
+  "id": "ca79fcde-1b83-5910-a9f9-a0b3c8924590",
+  "label": "Railton concedes that reforming definitions leave meaningful open questions; their adequacy is…",
+  "legacy_id": "STMT-RAILTON-OPEN-QUESTION-REPLY",
   "paraphrase": "Railton concedes that reforming definitions leave meaningful open questions; their adequacy is assessed by evaluative function and empirical explanatory success rather than definitional proof.",
   "definition_ids": [
-    "DEF-NATURALIST-REDUCTION-BASIS",
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS"
+    "f5e58217-9b11-5ead-8372-481cc8ee371f",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

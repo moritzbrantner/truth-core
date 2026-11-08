@@ -1,0 +1,14 @@
+{
+  "id": "27fb3450-3bf6-57e1-acb0-11abf563b3d5",
+  "label": "Some being has the MAXIME_2 (greatest) represented degree of being",
+  "legacy_id": "STMT-SOME-BEING-GREATEST-IN-BEING",
+  "paraphrase": "MAXIME_2 (attribution deferred): some being has the GREATEST represented degree of being: it has being and no being's represented degree is above its own. Ties with other bearers are allowed.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeBeingGreatestInBeing",
+  "definition_ids": [
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "b9846898-43d2-5856-8a23-51a2289c2495",
+  "label": "Selected-world one-way contract: each individual represented as existent in…, from some actuality",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY",
+  "argument_id": "425afcd6-3304-5142-9ab5-830076908a40",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.existingInActAtFromSomeAct",
+  "comparator_config": "results/EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the selected-world esse contract (every existent at w is in act of esse) from the OPEN premise that every existent at w is in act in some respect and the q.4 a.1 ad 3 reading that whatever is in act in some respect is in act of esse. Only the one-way contract follows; existence from esse is not derived."
+}

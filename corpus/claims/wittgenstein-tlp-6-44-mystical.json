@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-6-44-MYSTICAL",
-  "statement_id": "STMT-TLP-THAT-WORLD-IS-IS-THE-MYSTICAL",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "e05a0ed0-e356-5bbd-9a36-47b6ec207e15",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 6.44: not how the world is, is the…",
+  "legacy_id": "WITTGENSTEIN-TLP-6-44-MYSTICAL",
+  "statement_id": "6ddb4cc1-7ed8-5759-acb8-b386060cb889",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 6.44, Nicht wie die Welt ist, ist das Mystische, sondern dass sie ist",
   "interpretation": "6.44: 'Nicht wie die Welt ist, ist das Mystische, sondern dass sie ist.'",
   "status": "formalized",

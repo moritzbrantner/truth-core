@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "id": "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd",
+  "label": "GLOBAL_PROPOSITIONAL_COLLAPSE_1: ∀ P Q: Prop, P ↔ Q: all propositions of Lean's logic are pairwise…",
+  "legacy_id": "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE",
   "term": "global propositional collapse",
   "definition": "`∀ P Q : Prop, P ↔ Q`: all propositions of Lean's logic are pairwise equivalent. About `Prop` only.",
   "basis": "stipulative",

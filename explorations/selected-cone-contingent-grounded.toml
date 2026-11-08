@@ -1,0 +1,29 @@
+# Round 3 map: contingent members of the selected cone are grounded.
+target = "STMT-SELECTED-CONE-CONTINGENT-GROUNDED"
+
+[[node]]
+id = "STMT-SELECTED-CONE-CONTINGENT-GROUNDED"
+
+# New this round (bare, OPEN).
+[[node]]
+id = "STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+
+[[edge]]
+premises = ["STMT-SELECTED-NO-CONTINGENT-ROOT-ANCESTOR", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-SELECTED-CONE-CONTINGENT-GROUNDED"
+kind = "derivation"
+status = "certified"
+note = "Certified as SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT (cases on whether a ground exists; reductio)."
+
+[[edge]]
+premises = ["STMT-EVERY-CONTINGENT-GROUNDED-AT"]
+conclusion = "STMT-SELECTED-CONE-CONTINGENT-GROUNDED"
+kind = "derivation"
+status = "rejected"
+note = "Instantiation of the global premise at cone members only (scopeComparison): a transcription (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."

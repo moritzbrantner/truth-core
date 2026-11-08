@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-MAXIMUM-DEFINITION-FORK-AUDIT",
+  "id": "ae9e1522-78fd-54ad-a966-2ab0b0cf79c1",
+  "label": "Inspected exact old IsMaximumIn, source GreatestDegreeBearer, directedMaximalIsGreatest…",
+  "legacy_id": "ATTEMPT-MAXIMUM-DEFINITION-FORK-AUDIT",
   "statement_ids": [
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-MAXIMAL-SELECTED-BEARERS-HAVE-GREATEST-DEGREE"
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
+    "2336e5b4-ba2f-5ffb-8798-0737505208c6"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Inspected exact old IsMaximumIn, source GreatestDegreeBearer, directedMaximalIsGreatest homogeneous-scale result, and old MaximumOrder controls before adding a weaker selected-perfection interface. Six checked results connect the existing greatest-degree causal premise to the exact old selected-esse causal principle through explicit representation and local directedness, retaining named definition/coverage/Other branches. Rejected assuming totality from MoreIn, identifying tied degrees with one bearer, using the stronger homogeneous partial-order uniqueness theorem unnecessarily, reading all merely-maximal causation as directly sourced, and taking incomparable vacuity as refutation of greatest-degree causation. Incomparable/tied/remainder finite controls retain exact boundaries; source claims unchanged. New analyst attribution deferred; actual degree applicability remains OPEN. Full findings in docs/notes/maximum-definition-fork.md.",
   "evidence": [
-    "MAXIMAL-TO-GREATEST-FROM-DIRECTED-DEGREES",
-    "MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE",
-    "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
-    "MAXIME-DEFINITION-FORK",
-    "GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
-    "MAXIME-DEFINITION-BOUNDARIES"
+    "7fc3b7b0-2703-51d0-b1af-80b8626e8594",
+    "c53a83f2-2997-55d7-9966-1d82141dc7e0",
+    "bc0da2da-0542-52b6-a8ed-fbbae28ed62e",
+    "617f9d71-4188-5294-851b-498d5a3ae832",
+    "4777b2bc-9d66-5f18-8d18-936f0e52985a",
+    "29fd4c62-0327-5599-aad8-15ee7c35cd6c"
   ]
 }

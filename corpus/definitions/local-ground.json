@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LOCAL-GROUND",
+  "id": "86b32d63-3f4e-5057-a531-a2d12f1656c9",
+  "label": "LOCAL_GROUND_1: LocallyGrounded A a d says that at every world accessible from a some fact is…",
+  "legacy_id": "DEF-LOCAL-GROUND",
   "term": "local ground (box-exists reason)",
   "definition": "LocallyGrounded A a d says that at every world accessible from a some fact is admitted as a reason for d there. The reason may differ from world to world, so this is the world-local truthmaker or reason of whichever disjunct holds there.",
   "basis": "stipulative",

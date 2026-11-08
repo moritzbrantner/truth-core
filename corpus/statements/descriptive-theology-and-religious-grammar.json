@@ -1,14 +1,16 @@
 {
-  "id": "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR",
+  "id": "7c781606-d67a-5957-963f-8cdf99dd988e",
+  "label": "Modest analyst descriptive profile: defined moves are theological formulations and moves endorsed…",
+  "legacy_id": "STMT-DESCRIPTIVE-THEOLOGY-AND-RELIGIOUS-GRAMMAR",
   "paraphrase": "Modest analyst descriptive profile: defined moves are theological formulations and moves endorsed by the practice own standards belong to religious life. Content and practical role may overlap. This is not silently identified with the full older theology-not-grammar reconstruction.",
   "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DescriptiveTheologyGrammar",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

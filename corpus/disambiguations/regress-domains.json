@@ -1,13 +1,53 @@
 {
-  "id": "DISAMB-REGRESS-DOMAINS",
+  "id": "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+  "label": "Dependence, source and warrant across regress domains",
+  "legacy_id": "DISAMB-REGRESS-DOMAINS",
   "term": "dependence, source and warrant across regress domains",
   "sense_definition_ids": [
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-REGRESS-DOMAIN-ADAPTERS",
-    "DEF-ALL-PREMISE-GENERATED-WARRANT",
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
-    "DEF-PARTICIPATION-GROUND",
-    "DEF-PSR-REASON"
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "0cdb45d5-b4d1-5e99-9600-e48588e072cb",
+    "38955650-58d2-5bfc-a6ec-6255f5193090",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+    "c9c7c2cc-f7bc-5201-8e7c-872b08754a62",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71"
   ],
-  "resolution": "Graph dependence records only directed structure. Efficient per se dependence, respect-indexed mover dependence, metaphysical fact grounding, reason/existence-fact explanation, strict parthood, and all-premise inferential warrant remain different typed relations. A relative source means respectively absence of that chosen relation, not one universal absolute foundation. GeneratedWarrant requires every premise of an inference, while FinitelyGroundedPower is used only for structural path/fixed-point mathematics. The cross-domain model stipulates ontological existence and local activity, withholds justified, and derives failure of GeneratedWarrant; none supplies metaphysical possibility or an epistemic-to-causal bridge. Temporal succession is not equated with all-borrowed per se efficient power."
+  "resolution": "Graph dependence records only directed structure. Efficient per se dependence, respect-indexed mover dependence, metaphysical fact grounding, reason/existence-fact explanation, strict parthood, and all-premise inferential warrant remain different typed relations. A relative source means respectively absence of that chosen relation, not one universal absolute foundation. GeneratedWarrant requires every premise of an inference, while FinitelyGroundedPower is used only for structural path/fixed-point mathematics. The cross-domain model stipulates ontological existence and local activity, withholds justified, and derives failure of GeneratedWarrant; none supplies metaphysical possibility or an epistemic-to-causal bridge. Temporal succession is not equated with all-borrowed per se efficient power.",
+  "term_label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS",
+  "senses": [
+    {
+      "id": "638661de-9c15-4d9e-9028-9204996ecdfc",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_1",
+      "definition_id": "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+      "lean_declaration": "TruthCore.Logic.Regress.Graph"
+    },
+    {
+      "id": "2e078e95-3811-48b3-ab80-03f63105e97f",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_2",
+      "definition_id": "0cdb45d5-b4d1-5e99-9600-e48588e072cb"
+    },
+    {
+      "id": "33572112-82fc-402c-893e-6bf3a37a9138",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_3",
+      "definition_id": "38955650-58d2-5bfc-a6ec-6255f5193090",
+      "lean_declaration": "TruthCore.Logic.RegressDomains.GeneratedWarrant"
+    },
+    {
+      "id": "43fed8d9-e39a-464c-a1c8-29f645c6d0a1",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_4",
+      "definition_id": "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondEfficientCausesCauseOnlyAsCausedReading"
+    },
+    {
+      "id": "895eba25-1e4c-4104-9da4-319bc935c69e",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_5",
+      "definition_id": "c9c7c2cc-f7bc-5201-8e7c-872b08754a62",
+      "lean_declaration": "TruthCore.Greek.Plato.ParticipationGrounding.Explanation.Grounds"
+    },
+    {
+      "id": "8ee6b8a0-ca7f-453c-b280-a073ee9416ce",
+      "label": "DEPENDENCE_SOURCE_AND_WARRANT_ACROSS_REGRESS_6",
+      "definition_id": "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+      "lean_declaration": "TruthCore.Explanation.ExistencePSR.Reason"
+    }
+  ]
 }

@@ -1,0 +1,33 @@
+{
+  "id": "75fc6c70-e0fd-59e6-9ad8-3071b9cb1d89",
+  "label": "Via MAXIME_3 (strictly greatest), a MAXIME_1 being causes being in all others",
+  "premise_statement_ids": [
+    "f11768d2-3d5e-59b2-8a41-aaaae005413d",
+    "3eb63770-6f36-5145-8d68-147cd3b62179",
+    "a370254d-59b8-56a2-9552-0008e9baf2b3"
+  ],
+  "conclusion_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
+  "inference_ids": [
+    "65ad80c1-8c34-54db-bb45-d63a5532a766"
+  ],
+  "meaning": "MAXIME_3 branch: some being is STRICTLY greatest in being; such a being causes being in every other being; and the explicit sense bridge says a STRICTLY greatest being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. Its existence premise is stronger than MAXIME_1's: the tied control has a MAXIMAL being and no STRICTLY greatest one.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "a370254d-59b8-56a2-9552-0008e9baf2b3"
+    }
+  ],
+  "legacy_id": "MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "e74a1cda-c57c-5727-b0b8-da533b32fd26",
+  "label": "Necessary-being node, de dicto K reading: there is an…, from Necessary-being node, possibilist K…",
+  "legacy_id": "NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K",
+  "argument_id": "a5a1f99c-93b8-53a1-bf0d-a410ab600770",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxKToDeDictoK",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-K-STRENGTHENS-DE-DICTO-K/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: de re box-existence of n implies de dicto 'necessarily something exists' (n witnesses at each accessible world). The converse fails (controls, universal two-world frame)."
+}

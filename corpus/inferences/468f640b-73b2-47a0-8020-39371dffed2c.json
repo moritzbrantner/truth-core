@@ -1,0 +1,16 @@
+{
+  "id": "468f640b-73b2-47a0-8020-39371dffed2c",
+  "label": "Actual hiddenness excludes GOD_4 through explicit identification (inference)",
+  "input_statement_ids": [
+    "5e5aa271-d500-41c7-a470-32969b00a5af",
+    "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750",
+    "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009",
+    "c08f6a70-b75c-47de-b1af-e3aad89da98f"
+  ],
+  "output_statement_id": "33674e8e-5882-44b8-8d28-b71573027d83",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. Only the listed actual-world norms, empirical witness and (for the route target) identification are used. Controls reuse the existing checked four-premise omission witnesses and add remote-world and identification controls. No philosophical premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "89a4b3a6-c839-5599-b627-c55c2ba25b5f",
+  "label": "Maxime ens is read as MAXIME_1, MAXIME_2 or MAXIME_3 in both quarta via uses",
+  "legacy_id": "STMT-MAXIME-SENSES-EXHAUSTIVE",
+  "paraphrase": "OPEN frontier premise (coverage, attribution deferred): each of the two uses of the superlative in the quarta via's last step (something is maxime ens; what is maxime in being causes being in all others) is read in one of three senses, merely maximal in being (MAXIME_1, IsMaximalIn at esse), greatest represented degree of being (MAXIME_2, GreatestDegreeBearer at esse) or more a being than every other thing (MAXIME_3, StrictlyGreatestIn at esse), selected by the route's reading, and the use's predicate is exactly that sense's predicate. Anselm's greatest conceivable being is not listed: a rival who reads the quarta via that way denies this premise.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MaximeSensesExhaustive",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

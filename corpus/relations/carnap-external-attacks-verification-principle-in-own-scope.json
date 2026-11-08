@@ -1,9 +1,11 @@
 {
-  "id": "REL-CARNAP-EXTERNAL-ATTACKS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "id": "84e0f210-2cfe-5564-a05d-b5c815c31999",
+  "label": "Rudolf Carnap, \"Empiricism §II, p. 4… attacks Scope premise: the formulation of the…",
+  "legacy_id": "REL-CARNAP-EXTERNAL-ATTACKS-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
   "subject_kind": "claim",
-  "subject_id": "CARNAP-ESO-II-EXTERNAL-PRACTICAL",
+  "subject_id": "e9ddfb3a-d40f-596b-9932-265e785499e1",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-VERIFICATION-PRINCIPLE-IN-OWN-SCOPE",
+  "object_id": "6dc3f04a-5420-58bd-91f1-569b41c94ef1",
   "note": "The proposal reply, recorded as an objection: Carnap makes adopting a linguistic framework a practical decision, not an assertion. That does not by itself falsify PrincipleInOwnScope (which says only that the formulation is in scope): the bridge from nonassertive adoption to the formulation's lying outside the scope it governs is open and unattributed (docs/ayer-verification-boundary.md). LOGIC-SELF-APPLICATION-SCOPE-NEEDED shows only that nothing follows once the scope premise is dropped."
 }

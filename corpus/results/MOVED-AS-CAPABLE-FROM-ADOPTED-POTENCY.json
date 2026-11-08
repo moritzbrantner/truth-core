@@ -1,0 +1,12 @@
+{
+  "id": "1b5a9e53-2ef6-5d2a-8374-7064fdbb6e1d",
+  "label": "Moved only in POTENCY_1 implies moved only with POTENCY_3 capacity",
+  "legacy_id": "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY",
+  "argument_id": "a8cc9d48-b597-55b2-abf1-cfc59863f01b",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.movedOnlyAsCapableFromAdopted",
+  "comparator_config": "results/MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order between the ADOPTED and CAPACITY readings of the moved use: being moved only as in ADOPTED potency implies being moved only as CAPABLE."
+}

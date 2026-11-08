@@ -1,0 +1,278 @@
+# Round 3, Fourth Way: derivations of degree and maximum premises on root paths
+# (explorations/grades-to-maximum-at-being.toml, more-in-strict-degree.toml,
+# bearers-degree-directed.toml, greatest-degree-causes-all.toml,
+# maximum-in-genus-causes-all.toml, being-graded-by-approach.toml,
+# more-such-has-perfection.toml, as-to-being-so-to-truth.toml,
+# god-is-maximal-in-being.toml). Analyst formulations, attribution deferred:
+# every new statement is an OPEN premise (bare, or supported with a gap note).
+
+[batch]
+vocab = "TruthCore.Causality.Round3FourthWay"
+results = "TruthCore.Results.Causality.Round3FourthWay"
+
+# ---- New statements ----
+
+[[statement]]
+id = "STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE"
+lean = "MoreInExceedsDegree"
+paraphrase = "OPEN analyst calibration (one direction, every respect, every pair): if x is more r than y, x's represented degree of r is strictly higher than y's."
+definitions = ["DEF-MORE-IN", "DEF-PER-RESPECT-DEGREE-FAMILY"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-NO-DEGREE-BELOW-NULL"
+lean = "NoDegreeBelowNull"
+paraphrase = "OPEN analyst premise: no represented degree of any perfection lies below the null degree (lacking the perfection altogether)."
+definitions = ["DEF-PER-RESPECT-DEGREE-FAMILY", "DEF-NULL-DEGREE"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"
+lean = "AboveNullDegreeHasThePerfection"
+paraphrase = "OPEN analyst premise: whatever stands strictly above the null degree of a perfection r has r (what has some heat is hot)."
+definitions = ["DEF-PER-RESPECT-DEGREE-FAMILY", "DEF-NULL-DEGREE", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-NO-INFINITE-ASCENT-IN-BEING"
+lean = "NoInfiniteAscentInBeing"
+paraphrase = "OPEN analyst premise: there is no infinite ascent in being, that is, no sequence of beings each more a being than the one before (Lean WellFounded of 'is more in esse than'). Not a finite domain, a total order or a unique top."
+definitions = ["DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-GOD-IS-THE-PRIMARY-OF-BEING"
+lean = "GodIsThePrimaryOfBeing"
+paraphrase = "OPEN reading of ST I q.3 a.5 ad 2: whatever is God is the primary p of the order of being by approach, the being every other is measured against. Supported, not stated: the passage calls God the measure of all, not the unique such primary."
+definitions = ["DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"]
+disambiguations = ["DISAMB-ORDER-OF-BEING"]
+
+[[statement]]
+id = "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+lean = "AsMuchAsItApproaches"
+paraphrase = "OPEN reading of ST I q.3 a.5 ad 2 (unumquodque tantum habet de esse, quantum ei appropinquat): for every pair of beings, x's represented degree is at most y's exactly when x approaches the primary at most as nearly as y."
+definitions = ["DEF-ORDER-BY-APPROACH-TO-A-PRIMARY", "DEF-MAXIMUM-CALIBRATION-PROFILE"]
+disambiguations = ["DISAMB-ORDER-OF-BEING", "DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-SELECTED-BEARER-DEGREES-COMPARABLE"
+lean = "BearerDegreesComparable"
+paraphrase = "OPEN analyst premise: any two bearers of the selected perfection have comparable represented degrees (totality on bearers only; ties allowed)."
+definitions = ["DEF-MAXIMUM-CALIBRATION-PROFILE", "DEF-GREATEST-DEGREE-IN-A-PERFECTION"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE"
+lean = "SomeBearerHasGreatestDegree"
+paraphrase = "OPEN analyst premise: some bearer of the selected perfection is at its greatest represented degree (ties allowed, no uniqueness)."
+definitions = ["DEF-MAXIMUM-CALIBRATION-PROFILE", "DEF-GREATEST-DEGREE-IN-A-PERFECTION"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS"
+lean = "GreatestDegreeCausesAllInEveryGenus"
+paraphrase = "OPEN every-respect version of STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS: for every perfection r, with r's represented degrees deg r, a bearer at the greatest degree of r causes r in every other bearer of r."
+definitions = ["DEF-GREATEST-DEGREE-IN-A-PERFECTION", "DEF-PER-RESPECT-DEGREE-FAMILY", "DEF-CAUSE-OF-PERFECTION", "DEF-GENUS-BROAD"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-GENUS", "DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN"
+lean = "DegreeExcessAmongBearersIsMoreIn"
+paraphrase = "OPEN analyst calibration (other direction, bearers only, every respect): if x and y both have r and x's represented degree of r is strictly higher than y's, x is more r than y."
+definitions = ["DEF-MORE-IN", "DEF-PER-RESPECT-DEGREE-FAMILY"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS"
+lean = "BearerDegreesDirectedInEveryGenus"
+paraphrase = "OPEN every-respect version of STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED: for every perfection r, any two bearers of r have a bearer of r at a represented degree at least as high as both."
+definitions = ["DEF-PER-RESPECT-DEGREE-FAMILY", "DEF-MAXIMUM-CALIBRATION-PROFILE"]
+disambiguations = ["DISAMB-MAXIME-ENS"]
+
+[[statement]]
+id = "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY"
+lean = "TruthOfThingsIsIntelligibility"
+paraphrase = "OPEN reading of ST I q.16 a.1 and a.3: truth said of things is intelligibility; a thing has truth exactly when it is intelligible, and one thing is more true than another exactly when it is more intelligible."
+definitions = ["DEF-ONTOLOGICAL-TRUTH", "DEF-ONTOLOGICAL-TRUTH-COMPARISON", "DEF-INTELLIGIBILITY-OF-THINGS"]
+disambiguations = ["DISAMB-TRUE"]
+
+[[statement]]
+id = "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+lean = "IntelligibilityProportionedToBeing"
+paraphrase = "OPEN reading of ST I q.16 a.3 (unumquodque inquantum habet de esse, intantum est cognoscibile): a thing is intelligible exactly when it has being, and more intelligible than another exactly when it is more a being."
+definitions = ["DEF-INTELLIGIBILITY-OF-THINGS", "DEF-ESSE", "DEF-MORE-IN"]
+disambiguations = ["DISAMB-BEING"]
+
+[[statement]]
+id = "STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE"
+lean = "MoreInMatchesDegreeEverywhere"
+paraphrase = "OPEN analyst calibration (global, both directions, one respect): for every pair of beings, x is more r than y exactly when x's represented degree is strictly higher than y's. Unlike STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE, not restricted to bearers."
+definitions = ["DEF-MORE-IN", "DEF-MAXIMUM-CALIBRATION-PROFILE"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-GRADES-FOUND-IN-BEING"
+lean = "GradesFoundInBeing"
+paraphrase = "OPEN observation premise for being: something is more a being than something (the quarta via observes grades of good, true and noble, not of being)."
+definitions = ["DEF-MORE-IN", "DEF-ESSE"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-ROUND3-FOURTH-WAY-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Interpretations for the twelve derivations of the round-3 Fourth Way batch: for each premise other than excluded middle, a model in which the other premises hold and the conclusion fails (one on the natural numbers for the ascent bound), and one joint Boolean model in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-PER-RESPECT-DEGREE-FAMILY", "DEF-NULL-DEGREE", "DEF-NO-INFINITE-ASCENT-IN-BEING", "DEF-INTELLIGIBILITY-OF-THINGS", "DEF-MAXIMUM-CALIBRATION-PROFILE", "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-MAXIME-ENS"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE"
+theorem = "moreSuchFromPositiveDegree"
+premises = ["STMT-MORE-IN-EXCEEDS-REPRESENTED-DEGREE", "STMT-NO-DEGREE-BELOW-NULL", "STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION"]
+conclusion = "STMT-MORE-SUCH-HAS-THE-PERFECTION"
+rule = "Universal instantiation, transitivity of the preorder (le then lt), modus ponens"
+meaning = "What is hotter is hot, through degrees: if x is more r than y, x's degree of r is strictly above y's, which is at least the null degree, so x's degree is strictly above null, and whatever is strictly above the null degree of r has r. Three OPEN analyst premises about a per-respect degree family; the middle term is the degree, not the conclusion."
+
+[[argument]]
+id = "GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT"
+theorem = "gradesAtBeingFromNoInfiniteAscent"
+premises = ["STMT-NO-INFINITE-ASCENT-IN-BEING", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+rule = "Well-founded induction with excluded middle"
+meaning = "If something is more a being than something, it has being (more such has the perfection). From any bearer of being climb by 'more in being': each step reaches a bearer, and by the OPEN ascent bound the climb ends at a bearer that nothing exceeds in being, a maximum in being. Excluded middle decides at each bearer whether anything exceeds it. The maximum need not be unique, greatest, or a cause."
+
+[[argument]]
+id = "GRADES-AT-BEING-FROM-APPROACH-PRIMACY"
+theorem = "gradesAtBeingFromApproach"
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]
+conclusion = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+rule = "Order by approach: the primary is maximal (ApproachToPrimaryReading.isMaximumIn_primary)"
+meaning = "On the order of being by approach to a primary (ST I q.3 a.5 ad 2) with strict primacy (an open premise), the primary has being and nothing is more a being than it: anything that were would approach more nearly than the primary, while everything else approaches less nearly. So there is a maximum in being, whether or not grades are found."
+
+[[argument]]
+id = "GOD-MAXIMAL-FROM-PRIMARY-OF-BEING"
+theorem = "godMaximalFromPrimaryOfBeing"
+premises = ["STMT-GOD-IS-THE-PRIMARY-OF-BEING", "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"]
+conclusion = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+rule = "Substitution of identicals, then the primary is maximal"
+meaning = "A second derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (after GOD-MAXIMAL-FROM-CAUSING), through the measure of q.3 a.5 ad 2 rather than causing: whatever is God is the primary of the order of being by approach (OPEN reading, supported by the q.3 a.5 ad 2 claim), and on that order with strict primacy the primary is maximal in being."
+
+[[argument]]
+id = "STRICT-CALIBRATION-FROM-APPROACH-MEASURE"
+theorem = "strictCalibrationFromApproachMeasure"
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-DEGREE-AS-MUCH-AS-APPROACH"]
+conclusion = "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"
+rule = "Transport of strict order along an order-matching map (lt as le and not ge)"
+meaning = "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality."
+
+[[argument]]
+id = "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES"
+theorem = "directedFromComparableDegrees"
+premises = ["STMT-SELECTED-BEARER-DEGREES-COMPARABLE"]
+conclusion = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+rule = "Case analysis on comparability; reflexivity"
+meaning = "If any two bearers of the selected perfection have comparable represented degrees, the higher of any two bounds both, so the bearers are directed. Comparability is an OPEN analyst premise strictly stronger than directedness (the incomparable frame refutes it while a third bearer could still bound both)."
+
+[[argument]]
+id = "DIRECTED-BEARERS-FROM-GREATEST-BEARER"
+theorem = "directedFromGreatestBearer"
+premises = ["STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE"]
+conclusion = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+rule = "Upper bound of the image set"
+meaning = "If some bearer of the selected perfection is at its greatest represented degree, that bearer bounds every pair of bearers, so the bearers are directed. The existence of a greatest bearer is an OPEN analyst premise; directedness does not give it back on infinite carriers."
+
+[[argument]]
+id = "GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY"
+theorem = "greatestCausesFromOrderedPrimary"
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY", "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE", "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+rule = "Excluded middle on identity with the primary; strict order; instantiation"
+meaning = "With degrees read as approach to a primary: a greatest-degree bearer is the primary, since anything else falls strictly short of the primary (strict primacy), while the primary is itself a bearer (first conjunct of the approach reading; only that conjunct is used) and so at most at the greatest degree. The primary causes the perfection in every creature having it (q.13 a.5, ordo ad causam), and everything else is a creature (open premise). So every greatest-degree bearer causes the perfection in all other bearers."
+
+[[argument]]
+id = "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE"
+theorem = "greatestCausesFromMaximalPrinciple"
+premises = ["STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE"]
+conclusion = "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS"
+rule = "Greatest implies maximal under calibration; instantiation of the maximal principle"
+meaning = "In a calibration frame, a greatest-degree bearer is maximal: anything more such than it would have the perfection and, by calibration among bearers, a strictly higher degree than the greatest, which is impossible. The stronger analyst maximal-in-genus principle (OPEN) then makes it the cause of all others. Shows that the stronger analyst configuration entails the greatest-degree source reading under calibration and more-such-has; not a derivation of the source reading from weaker premises."
+
+[[argument]]
+id = "MAXIMUM-IN-GENUS-FROM-GREATEST-IN-EVERY-GENUS"
+theorem = "maximumInGenusFromGreatestEveryGenus"
+premises = ["STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS", "STMT-DEGREE-EXCESS-AMONG-BEARERS-IS-MORE-IN", "STMT-BEARER-DEGREES-DIRECTED-IN-EVERY-GENUS", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+rule = "Directed upper bound, excluded middle on the order, transitivity, instantiation"
+meaning = "In every perfection r, a maximal bearer m is at the greatest represented degree: for any bearer x, some bearer z bounds x and m; z is not strictly above m (it would then be more r than m, against maximality), so by excluded middle z is at most m and x is at most m. The greatest-degree genus principle at every perfection then makes m the cause of r in all other bearers. Answers ATTEMPT-REJECTED-DERIVATION-LEADS-20261107 for this target: the per-respect wrappers it named are now explicit OPEN premises (bare premises are allowed, owner direction 2026-11-07)."
+
+[[argument]]
+id = "AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY"
+theorem = "asToBeingSoToTruthFromIntelligibility"
+premises = ["STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY", "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"]
+conclusion = "STMT-AS-TO-BEING-SO-TO-TRUTH"
+rule = "Transitivity of the biconditional, for having and for the comparative"
+meaning = "Truth said of things goes with intelligibility (q.16 a.1, a.3), and intelligibility goes with being (q.16 a.3: each thing is knowable insofar as it has being); so a thing has truth exactly when it has being, and is more true exactly when it is more a being: Metaphysics II.1's 'as to being, so to truth'. A two-step chain through the distinct respect of intelligibility; both premises are OPEN readings supported by q.16 claims."
+
+[[argument]]
+id = "APPROACH-TO-PRIMARY-FROM-DEGREE-MEASURE"
+theorem = "approachToPrimaryFromDegreeMeasure"
+premises = ["STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE", "STMT-DEGREE-AS-MUCH-AS-APPROACH", "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-GRADES-FOUND-IN-BEING", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+rule = "Transport of strict order; excluded middle on identity with the primary; modus ponens"
+meaning = "Being more a being is having a strictly higher represented degree (global calibration, OPEN), and degrees are ordered as the approach to the primary (q.3 a.5 ad 2 reading); so being more a being is approaching the primary more nearly. The primary has being: something is more a being than something (OPEN observation), so has being; if it is not the primary it falls short of the primary (strict primacy), which therefore exceeds it in being and so has being (more such has the perfection)."
+
+[[argument]]
+id = "ROUND3-FOURTH-WAY-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND3-FOURTH-WAY-CONTROLS"
+rule = "Explicit finite and infinite interpretations"
+meaning = "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only."
+
+# ---- Supports relations ----
+
+[[relation]]
+id = "REL-Q3-A5-AD2-MEASURE-SUPPORTS-GOD-IS-THE-PRIMARY-OF-BEING"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GOD-IS-THE-PRIMARY-OF-BEING"
+note = "The passage calls God the measure of all because each thing has as much of being as it approaches him, so God is a primary of the order by approach. The statement reads this as: whatever is God is the primary p of the encoded order; that the primary is unique and identical with every God is the analyst's (gap)."
+
+[[relation]]
+id = "REL-Q3-A5-AD2-MEASURE-SUPPORTS-DEGREE-AS-MUCH-AS-APPROACH"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-DEGREE-AS-MUCH-AS-APPROACH"
+note = "tantum habet de esse, quantum ei appropinquat: as much of being as it approaches. The statement encodes this as an order match between a represented degree and nearness; the passage denies that God is a proportioned (homogeneous) measure, so representing being by a Preorder-valued degree is the analyst's (gap)."
+
+[[relation]]
+id = "REL-Q16-A1-TRUTH-OF-THINGS-SUPPORTS-TRUTH-IS-INTELLIGIBILITY"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q16-A1-TRUTH-OF-THINGS-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY"
+note = "q.16 a.1 makes truth said of things a relation to the intellect on which the thing depends. The statement identifies having and comparing truth with having and comparing intelligibility; the passage gives no comparative of intelligibility (gap)."
+
+[[relation]]
+id = "REL-Q16-A3-INTELLIGIBILITY-SUPPORTS-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q16-A3-BEING-AND-INTELLIGIBILITY-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING"
+note = "Each thing is knowable insofar as it has being. The statement reads insofar as a biconditional for having and for the comparative; the claim records that the passage specifies no scale or total comparison (gap)."
+
+[[relation]]
+id = "REL-Q2-A3-MAXIMUM-CAUSES-GENUS-SUPPORTS-GREATEST-CAUSES-IN-EVERY-GENUS"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS"
+note = "maxime tale in aliquo genere ... est causa omnium quae sunt illius generis is said of any genus. The statement quantifies over every perfection with a per-respect degree family deg; that family, and reading each genus as a perfection with its own degree scale, are the analyst's (gap)."

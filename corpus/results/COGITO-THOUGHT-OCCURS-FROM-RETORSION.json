@@ -1,0 +1,12 @@
+{
+  "id": "a89475b3-be1e-5df3-bbc6-6243434aa107",
+  "label": "Some thought episode occurs under the supplied occurrence predicate, from retorsion",
+  "legacy_id": "COGITO-THOUGHT-OCCURS-FROM-RETORSION",
+  "argument_id": "187646ad-565b-5391-beb1-42ab24f3597f",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.thoughtOccursFromRetorsion",
+  "comparator_config": "results/COGITO-THOUGHT-OCCURS-FROM-RETORSION/comparator.json",
+  "status": "solution-present",
+  "description": "Some thought episode occurs, from a performed doubt whether thought occurs (STMT-COGITO-DOUBT-IS-PERFORMED, OPEN), the conclusion of COGITO-PERFORMED-DOUBT-SELF-REFUTING (performing such a doubt makes its content 'no thought episode occurs' false) and excluded middle on the existence of an occurring episode. The retorsion rests on the OPEN bridge STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT, so this route has the same open premises as COGITO-THOUGHT-OCCURS-FROM-PERFORMED-DOUBT; it uses the retorsion's negative form instead of the bridge directly."
+}

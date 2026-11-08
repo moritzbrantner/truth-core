@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-DE-ENTE-C1-ENS-DUPLICITER",
-  "statement_id": "STMT-AQUINAS-BEING-SAID-IN-TWO-WAYS",
-  "source_id": "AQUINAS-DE-ENTE-ET-ESSENTIA",
+  "id": "21acfed4-51ca-5c5d-b218-b3c7a4922873",
+  "label": "Thomas Aquinas, De ente et essentia Cap.1: Being per se is said in two ways: as divided by the ten…",
+  "legacy_id": "AQUINAS-DE-ENTE-C1-ENS-DUPLICITER",
+  "statement_id": "3f7a0f4d-c281-560c-be1f-e28b6352e6b1",
+  "source_id": "004fd39d-a45d-5624-b927-053cb0fd0fc9",
   "locator": "cap.1 [69872]: ens per se dicitur dupliciter, uno modo quod dividitur per decem genera, alio modo quod significat propositionum veritatem",
   "interpretation": "'Ens per se dicitur dupliciter': in one way, being as divided by the ten categories; in another, being as signifying the truth of propositions. In the second way anything about which an affirmative proposition can be formed can be called a being, 'etiam si illud in re nihil ponat', as privations and negations are. In the first way only 'quod aliquid in re ponit' can be called a being, so blindness is not a being in that way. Essence is taken from being in the first way. Only the two-way distinction and the 'in re' condition of the first way are read here; the modern word 'concrete' is not Aquinas's.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "attribution": "The passage states that being per se is said in two ways, as divided by the ten categories, which applies only to what posits something in reality, and as signifying the truth of propositions, which applies to anything about which an affirmative proposition can be formed even if it posits nothing in reality, such as privations and negations, which is the premise."
 }

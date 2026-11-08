@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TeleologyFirstMover.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TeleologyFirstMover.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TeleologyFirstMover.governorProjects"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

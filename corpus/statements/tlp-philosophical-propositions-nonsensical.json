@@ -1,7 +1,9 @@
 {
-  "id": "STMT-TLP-PHILOSOPHICAL-PROPOSITIONS-NONSENSICAL",
+  "id": "f7ae7feb-2505-503e-8f42-5e422fd909fd",
+  "label": "Tractatus 4.003: most propositions and questions written about philosophical matters are not false…",
+  "legacy_id": "STMT-TLP-PHILOSOPHICAL-PROPOSITIONS-NONSENSICAL",
   "paraphrase": "Tractatus 4.003: most propositions and questions written about philosophical matters are not false but nonsensical (unsinnig); we can only establish their nonsensicality, and they arise from our not understanding the logic of our language. 'Most', not all.",
   "disambiguation_ids": [
-    "DISAMB-TLP-NONSENSE"
+    "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8"
   ]
 }

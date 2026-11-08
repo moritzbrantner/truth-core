@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
-  "argument_id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+  "id": "cbcdb308-6ddf-5fd2-996a-696c1a9841c2",
+  "label": "Logical falsity, from Stipulated mathematical configuration… and 1 more (2)",
+  "legacy_id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+  "argument_id": "cb37d0ff-1319-55be-b2d3-335db9121813",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.DictoJointIncompatible.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.DictoJointIncompatible.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.DictoJointIncompatible.checks",

@@ -1,11 +1,13 @@
 {
-  "id": "INF-GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
+  "id": "fa8ffeb8-c342-5b9a-99bd-1a247bca6f06",
+  "label": "Independently supplied Maxime holds exactly for the existing…, by Constructive-proof",
+  "legacy_id": "INF-GREATEST-DEFINITION-FROM-MAXIME-COVERAGE",
   "input_statement_ids": [
-    "STMT-MAXIME-NAMED-DEFINITIONS-COVER",
-    "STMT-MAXIME-MERELY-MAXIMAL-DEFINITION-FAILS",
-    "STMT-MAXIME-STRICT-SUPREMACY-DEFINITION-FAILS"
+    "675b22e7-a29e-579a-8626-ffaefdbfae7b",
+    "aee5daab-cb7a-54ff-b6ca-82dbcd061794",
+    "54cc2502-0b6c-5ea1-b186-50d766c5222a"
   ],
-  "output_statement_id": "STMT-MAXIME-GREATEST-DEGREE-DEFINITION",
+  "output_statement_id": "85975f1d-cac5-59f8-8104-bd112de183ad",
   "rule": "constructive-proof",
   "meaning": "Exact disjunct elimination requires named coverage and actual negations of merely-maximal and strict-supremacy calibrations. Inadequacy for an argument is not silently taken as falsity.",
   "assumption_statement_ids": [],

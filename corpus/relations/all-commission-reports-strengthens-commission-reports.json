@@ -1,0 +1,12 @@
+{
+  "id": "42716f7a-3312-576b-aba7-fe297c11f709",
+  "label": "Every one of the five reported… strengthens Report-to-event premise: the commission…",
+  "legacy_id": "REL-ALL-COMMISSION-REPORTS-STRENGTHENS-COMMISSION-REPORTS",
+  "subject_kind": "statement",
+  "subject_id": "d6c957b8-7ced-5ff5-b0a0-343c5ed80786",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
+  "verification_result_id": "f16d39fe-f3ce-59ab-a377-9f1687e22d49",
+  "note": "Every report going back entails Matthew 28's and one governing report's going back. Registers the order already stated in Commissions.all_reports_imply_commission_reports."
+}

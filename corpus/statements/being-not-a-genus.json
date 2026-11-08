@@ -1,12 +1,14 @@
 {
-  "id": "STMT-BEING-NOT-A-GENUS",
+  "id": "095d30c5-6f24-51be-88da-201d3b4fabda",
+  "label": "BEING_1 is not a GENUS_1 in the strict sense",
+  "legacy_id": "STMT-BEING-NOT-A-GENUS",
   "paraphrase": "Being is not a genus in the strict sense (a predicable said of its species in what they are and divided into them by differentiae).",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.BeingIsNotAGenusReading",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-BEING-AS-ENTITY"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5"
   ]
 }

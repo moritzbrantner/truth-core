@@ -1,0 +1,16 @@
+{
+  "id": "7f52ac39-9964-5693-8488-41e8f5401011",
+  "label": "NECESSARY_1-being node, per se reading: there is an actual root n that is…, by Box-diamond duality…",
+  "legacy_id": "INF-NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "input_statement_ids": [
+    "32a2f51c-a630-56a0-acc3-800637c18253",
+    "d6e558d0-131a-553a-a183-fa73aed91281",
+    "71454b27-1943-5bb4-a1f4-4a1bb716082a",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "c639d164-4981-5b2b-bcf3-d6d7a5d5937f",
+  "rule": "Box-diamond duality, universal instantiation, modus ponens, reductio",
+  "meaning": "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

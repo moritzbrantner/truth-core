@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "DYE-MECHANICAL-FEEDBACK",
+    "source_id": "60a5dac6-129a-5074-80d0-cca3bbdada0d",
     "source_url": "https://raw.githubusercontent.com/elifesciences/elife-article-xml/a6ef39fcf99c69bc264d06d72cad3d4754a3a1d0/articles/elife-57964-v3.xml",
     "retrieved_at": "2026-11-01T04:43:55Z",
     "sha256": "sha256:da7f3140a1d759cdd6e4a0f014d4de634282965d7091b79249a4d4a9e7d4f303",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "DYE-MECHANICAL-FEEDBACK-ABSTRACT",
+      "id": "683f6b00-42b8-51dd-ac1c-34361a67c3a8",
+      "label": "Natalie A. Dye and colleagues, Self-organized patterning of cell morphology via mechanosensitive……",
+      "legacy_id": "DYE-MECHANICAL-FEEDBACK-ABSTRACT",
       "locator": "Abstract",
       "claim_locator_prefixes": [
         "Abstract,"

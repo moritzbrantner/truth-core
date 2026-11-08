@@ -1,0 +1,11 @@
+{
+  "id": "a0d654ca-a02c-5c03-89bc-85b15a16b63f",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2… supports Whatever is perfect in some respect is in…",
+  "legacy_id": "REL-Q4A2-SUPPORTS-PERFECT-ONLY-INSOFAR-AS-BEING",
+  "subject_kind": "claim",
+  "subject_id": "5dd2d69f-02a5-5357-8cb5-1f028137db64",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "196e6606-d61b-59c4-a12b-7ce056936b92",
+  "note": "q.4 a.2 co. gives as the reason why all perfections pertain to the perfection of being that things are perfect insofar as they have being in some way. The encoded statement keeps that clause per respect and reads 'having being in some way' as being in act in the respect of being; it omits the main clause about the perfection of being and any claim about subsistent esse."
+}

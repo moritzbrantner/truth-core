@@ -1,0 +1,10 @@
+{
+  "id": "a07c30f9-e0fc-5f16-b181-6f70d374de79",
+  "label": "Agent of an episode: AgentOf s e: s is the agent whose operation the episode e is, the one who…",
+  "legacy_id": "DEF-EPISODE-AGENT",
+  "term": "agent of an episode (AgentOf s e)",
+  "definition": "AgentOf s e: s is the agent whose operation the episode e is, the one who does it. Distinct from bearing (DEF-THOUGHT-BEARER), which the open premise STMT-AGENT-OF-EPISODE-BEARS-IT relates to agency. Example: the judge of a judgment. In Lean a parameter S -> Episode -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.EveryOperationHasAgent",
+  "note": "Stipulative analyst notion, attribution deferred."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "2c3463a5-d9f5-5112-8869-9fcae3cca8f3",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃…, by Existential… (2)",
+  "legacy_id": "INF-COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY",
+  "input_statement_ids": [
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "54b0131b-96f2-51b6-b47d-87a0b7f2219c",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "bc2af29f-8202-50f4-a177-b8dd21e135b1"
+  ],
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "rule": "Existential elimination, universal instantiation, modus ponens, existential introduction",
+  "meaning": "Some concrete candidate exists at w: an occurring thought has a bearer, who exercises intellect in it and therefore causes something at w (OPEN and contested: the inner word); whatever causes at w is concrete (OPEN activity clause of the causal criterion); and the bearer exists at w. Concreteness is derived from a performed act through a typed criterion, not assumed of bearers (no STMT-COGITO-BEARER-IS-CONCRETE).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

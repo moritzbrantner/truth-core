@@ -1,16 +1,18 @@
 {
-  "id": "STRENGTH-CAUSE-EQUIVALENCE",
+  "id": "c64a25ba-8890-538a-9f83-33ed4e6b6895",
+  "label": "For every shared entity type with decidable equality, generation predicate and CAUSE_2 relation…",
+  "legacy_id": "STRENGTH-CAUSE-EQUIVALENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSE-READINGS-EXACT-SELF-CAUSE-DELTA",
+  "conclusion_statement_id": "2e32e30c-d88d-5695-ae86-41f21b459966",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-EQUIVALENCE"
+    "378d1338-5f2f-53ed-9601-cb565f232698"
   ],
   "meaning": "Compose the implication, delta-forward and reconstruction proofs under the same explicit decidable-identity parameter. This equates the strong principle with W and D, not S with W alone.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

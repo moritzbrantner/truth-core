@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-186A-FORM-MATERIAL-UNITY-A",
-  "statement_id": "STMT-NOT-ONE-IN-FORM-MAY-ONE-IN-MATERIAL",
-  "source_id": "ARIST-PHYS",
+  "id": "8bd1f9da-52d8-5163-8237-1af7cc8106d3",
+  "label": "Aristotle, Physics I.3, 186a19-23: Being cannot be one in form in the unrestricted way under…",
+  "legacy_id": "ARIST-PHYS-186A-FORM-MATERIAL-UNITY-A",
+  "statement_id": "450d7f04-54c9-519e-a1b5-347a152c7e08",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.3, 186a19-23",
   "interpretation": "Qualified unity reading: Aristotle denies unrestricted unity in form while allowing that physicists may speak of unity in what things are made from. The latter is left as a possibility rather than promoted to a universal substrate thesis.",
   "status": "formalized"

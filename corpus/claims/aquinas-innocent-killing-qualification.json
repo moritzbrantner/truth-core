@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-II-II-Q64-A6-INNOCENT-KILLING",
-  "statement_id": "STMT-AQUINAS-INNOCENT-KILLING-QUALIFICATION",
-  "source_id": "AQUINAS-ST",
+  "id": "1b3dc503-d843-5ce9-ac13-e3f5cc3ecb64",
+  "label": "Thomas Aquinas, Summa theologiae Ii ii q.64…: Aquinas contrasts the innocent and righteous with…",
+  "legacy_id": "AQUINAS-ST-II-II-Q64-A6-INNOCENT-KILLING",
+  "statement_id": "77454e65-3a9b-5c10-a0c9-a27154c8796a",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "II-II q.64 a.6 co. and ad 1",
   "interpretation": "The response contrasts innocent and righteous persons with sinners, argues that the life of the righteous advances the common good, and concludes the innocent must not be slain, but ad 1 explicitly treats one carrying out a divine command to kill an innocent person as not sinning. Read the general conclusion together with that qualification; this is not a source claim that every conceivable act description is exceptionless, nor a proof of a reason independent of ends.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-AQUINAS-INNOCENCE-Q64"
+    "ba3afb6d-f373-5bb7-b368-b6a6707c727b"
   ],
   "disambiguation_ids": [
-    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+    "658195c2-4e01-5dea-ba09-e1a5f75517a6"
   ]
 }

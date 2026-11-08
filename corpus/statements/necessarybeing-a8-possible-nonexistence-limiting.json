@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NB-A8-POSSIBLE-NONEXISTENCE-LIMITING",
+  "id": "e3c69f86-c21a-5d9f-abdc-873b079fbb6b",
+  "label": "Conditional on the selected affirmative report, the property of possibly not existing is limiting…",
+  "legacy_id": "STMT-NB-A8-POSSIBLE-NONEXISTENCE-LIMITING",
   "paraphrase": "Conditional on the selected affirmative report, the property of possibly not existing is limiting in the source deficiency-entailing sense. This is a separate evaluative commitment used in main A8, not an independently proved modal or metaphysical fact, actual nonexistence or a required input of the alternate vacuity branch.",
   "definition_ids": [
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A8-LIMITING-PROPERTY",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "93ea01f7-a699-582c-9b57-0678c1396b4c",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A8-LIMITATION-AND-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "125551eb-8b03-5b3d-ae85-66909c3f42b7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

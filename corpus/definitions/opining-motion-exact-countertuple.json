@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
+  "id": "50cde34a-ea0b-5483-8494-86d51dbda4a2",
+  "label": "Local opiner nonmotion versus global…: Analyst exact countertuple to the existing…",
+  "legacy_id": "DEF-OPINING-MOTION-EXACT-COUNTERTUPLE",
   "term": "local opiner nonmotion versus global absence of motion",
   "definition": "Analyst exact countertuple to the existing OpiningIsBeingMovedReading: there are x,p with Opines x p but not MovedIn x (asOpinion p). All old predicates and the supplied respect map are reused without changing their meaning. The prior ChangeUnrealButAppears account denies all motion and grants an opinion, so implies this countertuple but is stronger. A populated mixed table has a stationary opiner and a distinct moving being, blocking the reverse implication. No general-change/A-series mapping, actual causal mechanism, knowledge/factivity, source attribution or real-world applicability is inferred.",
   "basis": "stipulative",

@@ -1,0 +1,11 @@
+{
+  "id": "b3670af1-879c-5a77-bbf2-997fbe985949",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports For every y, perfection r and z, if y has r…",
+  "legacy_id": "REL-Q7-A1-ESSE-LIMITED-ONLY-SUPPORTS-PERFECTION-LIMITED-ONLY",
+  "subject_kind": "claim",
+  "subject_id": "b69b9bb1-486e-586c-8b35-e51fac9c0e20",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "39a4c28c-4a75-5918-96bf-16a5acd8e783",
+  "note": "The claim states the limitation-only-through-reception warrant for esse alone, and its interpretation records why it is restricted to esse (q.7 a.2 co. lets a subsistent created form be unlimited with respect to matter). The premise extends it to every perfection and relativizes it to the limiter z; that extension is the analyst's and is in tension with the restriction the claim records."
+}

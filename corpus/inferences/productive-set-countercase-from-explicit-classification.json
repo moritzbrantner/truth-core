@@ -1,10 +1,12 @@
 {
-  "id": "INF-PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
+  "id": "0ad13a58-a85c-5feb-a0a4-72855032137e",
+  "label": "A selected-world productive cause is a supplied set and lacks esse in re, by Constructive-proof",
+  "legacy_id": "INF-PRODUCTIVE-SET-COUNTERCASE-FROM-EXPLICIT-CLASSIFICATION",
   "input_statement_ids": [
-    "STMT-SELECTED-PRODUCTIVE-CAUSE-IS-A-SET",
-    "STMT-SELECTED-SET-CAUSERS-LACK-ESSE"
+    "d5c30016-1dbb-51a8-99b0-81aecd3fd82c",
+    "93e5f2dd-1ad9-53d7-84f5-1a4f8fde032a"
   ],
-  "output_statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+  "output_statement_id": "c9eb51d1-6902-5c79-904a-6ada74c12ceb",
   "rule": "constructive-proof",
   "meaning": "Guarded interpretation transcription: selected set cause plus explicit no-esse classification supply the countercase.",
   "assumption_statement_ids": [],

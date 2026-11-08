@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-APOST-72B-CIRCULAR-SELF-RETURN",
-  "statement_id": "STMT-ARISTOTLE-ANPOST-CIRCULAR-SELF-RETURN",
-  "source_id": "ARIST-APOST",
+  "id": "42b1c753-1f36-590e-bf50-500ed108c0aa",
+  "label": "Aristotle, Posterior Analytics I.3…: Aristotle argues that returning through a circular chain of…",
+  "legacy_id": "ARIST-APOST-72B-CIRCULAR-SELF-RETURN",
+  "statement_id": "0756e84b-2069-5830-a861-86fd2e5df5ba",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.3, 72b32–73a20",
   "interpretation": "The argument targets unconditional demonstrative knowledge from the circular procedure, not logical invalidity of A-implies-A or a proof against every coherentist theory. The closing qualification about reciprocally following terms is preserved; no general impossibility of all mutual entailment is attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

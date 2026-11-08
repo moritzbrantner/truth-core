@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FULL-GROUND-ACTUAL-MEMBERS",
+  "id": "5793efef-0bc5-547d-b677-af80a8118f12",
+  "label": "Actual truth of complete-ground members: ActualMembers requires every member of every admitted…",
+  "legacy_id": "DEF-FULL-GROUND-ACTUAL-MEMBERS",
   "term": "actual truth of complete-ground members",
   "definition": "ActualMembers requires every member of every admitted complete-ground candidate to be true at the fixed actual world. This is separate from sufficiency at other worlds and says nothing about an ontic cause or actual causal exercise.",
   "basis": "stipulative",

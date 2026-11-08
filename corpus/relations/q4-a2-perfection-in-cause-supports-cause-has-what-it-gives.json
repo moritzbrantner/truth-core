@@ -1,0 +1,11 @@
+{
+  "id": "fed80cf3-6a10-5d4a-a94f-efe42791026e",
+  "label": "Thomas Aquinas, Summa theologiae I q.4… supports Nothing gives what it does not have",
+  "legacy_id": "REL-Q4-A2-PERFECTION-IN-CAUSE-SUPPORTS-CAUSE-HAS-WHAT-IT-GIVES",
+  "subject_kind": "claim",
+  "subject_id": "50df1fd8-8c2a-5dd5-8f9b-33f7994f51c6",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "376d6a5a-c179-5090-b57c-f9a371222899",
+  "note": "Q.4 a.2 co. says whatever perfection is in the effect is in the effective cause; the claim reads 'effect' as a thing whose being the cause causes. The premise says it of every cause of any perfection in any thing. The extension beyond causes of being is the analyst's; its scoped version STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES is derived in CAUSE-OF-BEING-HAS-WHAT-IT-GIVES-FROM-PREEXISTENCE."
+}

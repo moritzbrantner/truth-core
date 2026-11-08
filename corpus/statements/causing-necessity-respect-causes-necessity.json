@@ -1,0 +1,14 @@
+{
+  "id": "0014afa4-30be-5693-9a41-93bf0eaa923c",
+  "label": "Whoever causes a thing in the respect in which its necessity consists causes its necessity",
+  "legacy_id": "STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY",
+  "paraphrase": "OPEN analyst premise: whoever causes a thing in the respect in which its necessity consists causes its necessity.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.CausingNecessityRespectCausesNecessity",
+  "definition_ids": [
+    "f8def333-9f90-5fd1-9ae5-5cbecb41a056",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

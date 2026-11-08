@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIQUE-FEEDBACK-STATE",
+  "id": "23c649fa-6acc-5816-954b-5de851e007c1",
+  "label": "Unique self-consistent logical…: Consistent means a = not b and b = a and b, over Bool",
+  "legacy_id": "DEF-UNIQUE-FEEDBACK-STATE",
   "term": "unique self-consistent logical feedback state",
   "definition": "Consistent (a,b) means a = not b and b = a and b, over Bool. Sensitive records that negation differs on false/true and conjunction differs when either argument varies with the other fixed true. Controls asserts sensitivity, consistency of (true,false), and that every consistent pair equals that witness.",
   "basis": "stipulative",

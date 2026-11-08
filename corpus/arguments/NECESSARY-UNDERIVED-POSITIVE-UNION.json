@@ -1,25 +1,27 @@
 {
-  "id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
+  "id": "5aeafe2c-9cd0-5aa4-8313-4336e53fdf79",
+  "label": "At least one identical actual individual…, from At least one individual exists at the… and 4 more",
+  "legacy_id": "NECESSARY-UNDERIVED-POSITIVE-UNION",
   "premise_statement_ids": [
-    "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "STMT-EXCLUDED-MIDDLE"
+    "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "96d25c42-71aa-5fa0-841d-9aa62d91e1be",
+    "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "conclusion_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "inference_ids": [
-    "INF-NECESSARY-UNDERIVED-POSITIVE-UNION"
+    "b5171ed1-3d93-5ede-9206-cf0da176bfc2"
   ],
   "meaning": "Globally well-founded union of direct supports among necessary bearers excludes rotating-world roots, without assuming any invariance of support edges. Needs both no contingent direct supporter of a necessary being and actual reflexivity, and explicit excluded middle for the existential witness.",
   "definition_ids": [
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "DEF-NECESSARILY-UNDERIVED"
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

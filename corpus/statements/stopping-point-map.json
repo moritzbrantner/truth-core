@@ -1,21 +1,23 @@
 {
-  "id": "STMT-STOPPING-POINT-MAP",
+  "id": "27355add-3c57-53e7-aa1d-07105d2c5464",
+  "label": "A contingent truth, no brute contingent truth at that world, factive and necessitating reasons…",
+  "legacy_id": "STMT-STOPPING-POINT-MAP",
   "paraphrase": "A contingent truth, no brute contingent truth at that world, factive and necessitating reasons, and well-founded reasons at that world cannot stand together, and each member is deleted by a named model, well-foundedness by two. Unrestricted fact coverage, factive reasons, well-founded reasons and a truth cannot stand together, with no exemption for necessary facts, and each of those members is deleted by a named model. Under factivity, a fact all of whose work necessitates and that is a reason for a contingent truth is contingent; if it is also terminal, and no contingent fact is its own reason, it is brute. Under factivity and given decisions of its contingency and of having a reason, a terminal fact that is a reason for a contingent truth is brute, or contingent with a self-reason, or noncontingent with work that does not necessitate; these exclude each other and each has a named witness. One table evaluates being terminal, having a reason, being contingent, necessitating work and independent work, or the applicable part, at a brute terminus, a necessary ground with and without a self-reason, a contingent law, an unexplained infinite whole with no work, and two necessary stops; a named cofinite domain has no terminal fact and no aggregate of its contingent truths. Under the conjunct law, an aggregate of all contingent truths, a contingent truth, factive, necessitating and independent reasons cannot stand with no brute contingent truth, and under the conjunct law and necessitating, independent reasons a conjunct is no reason for a contingent aggregate. A necessary fact whose work is uniformly independent is no reason for a necessary fact, itself included; a necessary ground with a self-reason and the target copy of the same ground without one both have the ground as its own reason. One stance is selective relative to being terminal and restricted relative to being contingent on one pair of facts. No test is asserted as the right demand and no model is claimed metaphysically possible.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-SCOPE",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-PSR-REASON-INDEPENDENT",
-    "DEF-PSR-RESTRICTED-SCOPE",
-    "DEF-DEMAND-STANCE",
-    "DEF-EXEMPTION-STANDING",
-    "DEF-STOP-TERMINAL",
-    "DEF-STOP-WORK-TESTS"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "566c9d5f-0cd9-5c6b-87f2-855956d9d35f",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+    "fad6a806-713b-5318-8309-488af704d614",
+    "18c03398-75c1-5903-90a9-ba0d901b64ab",
+    "80a258e8-3837-5a70-b63e-15f1920ed02b",
+    "6c7d2b21-8446-5e8c-bb10-ef1a58a8d735",
+    "a23a7c45-3ca9-5604-9c16-aec5cf89d778"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-BRUTE-TERMINAL-UNREASONED"
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "7aba7955-aa37-5b08-a170-8420d6142d78"
   ],
   "lean_declaration": "TruthCore.Explanation.StoppingPoints.StoppingMap"
 }

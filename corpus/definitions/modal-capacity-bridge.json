@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-CAPACITY-BRIDGE",
+  "id": "875fd1b3-2eec-5723-9404-ccfd7a08469a",
+  "label": "MODAL_CAPACITY_BRIDGE_2: Being actually in a respect at a world accessible from w suffices for…",
+  "legacy_id": "DEF-MODAL-CAPACITY-BRIDGE",
   "term": "modal capacity bridge",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.SimplicityCollapse.ModalCapacity",

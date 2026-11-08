@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-INTELLECT-WILL-STRICT-PURE-ACT",
-  "argument_id": "ROOT-INTELLECT-WILL-STRICT-PURE-ACT",
+  "id": "aabfb2d5-f928-5802-b8b3-941de8665c34",
+  "label": "ONE and the SAME n is an actual…, from Some candidate is CONCRETE_6 and exists at… and 12 more (2)",
+  "legacy_id": "ROOT-INTELLECT-WILL-STRICT-PURE-ACT",
+  "argument_id": "68d43f65-9094-5889-a83d-8cc6ee5666ae",
   "challenge_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.Solution",
   "theorem": "TruthCore.Results.Causality.RootIntellectWillStrictPureAct.necessaryRootIntellectWillPureAct",

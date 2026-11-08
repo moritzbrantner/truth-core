@@ -1,0 +1,11 @@
+{
+  "id": "136328c0-8470-56f8-94f1-dad64eed1217",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports OPEN analyst reading of ST I q.7 a.1 co.…",
+  "legacy_id": "REL-Q7-A1-SUPPORTS-INFINITE-ESSE-IS-UNLIMITED",
+  "subject_kind": "claim",
+  "subject_id": "153eef01-d362-5aa5-862f-e12f3cae6b52",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "965d0e26-c26c-5088-887b-7bfc54312b30",
+  "note": "Q.7 a.1 co. says 'infinitum dicitur aliquid ex eo quod non est finitum', which reads as a definition, so both directions are natural. The claim formalizes only unlimited esse as sufficient for infinity. The converse direction, with 'finite' read as limitation of esse rather than of matter or quantity, and Infinite restricted to infinity simpliciter (q.7 a.2), is the analyst's."
+}

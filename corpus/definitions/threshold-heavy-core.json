@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THRESHOLD-HEAVY-CORE",
+  "id": "e4f9bc2a-f6e6-54a6-86b5-1658eff0aef6",
+  "label": "Heavy singleton-probability core of…: HeavyCore μ t is {x | 1-t<μ.real {x}} on a finite measurable…",
+  "legacy_id": "DEF-THRESHOLD-HEAVY-CORE",
   "term": "heavy singleton-probability core of threshold beliefs",
   "definition": "HeavyCore μ t is {x | 1-t<μ.real {x}} on a finite measurable sample space. The proved characterization identifies it with the intersection of all threshold-accepted events. Its acceptance exactly characterizes conjunction closure under the selected normalized finite probability profile. The core need not contain the actual state.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-SOME-PROPOSITION-FAILS",
-  "argument_id": "LOGIC-SOME-PROPOSITION-FAILS",
+  "id": "657c9b85-fbae-5828-a854-576617f76205",
+  "label": "Inside Lean logic, ∃ P: Prop, ¬ P, witnessed by False",
+  "legacy_id": "LOGIC-SOME-PROPOSITION-FAILS",
+  "argument_id": "2b1ff68f-8dfc-53ee-b1b2-43608e09b547",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.somePropositionFails",

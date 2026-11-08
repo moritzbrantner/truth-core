@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
-  "argument_id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "id": "55cf2419-0392-52c2-b5d2-ff1dd432a52a",
+  "label": "Formal fact: a homogeneous scale of being, an order…, via order readings do not yield first being",
+  "legacy_id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "argument_id": "c4427e08-df8b-5a07-b7f0-36dfa6a52365",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaOrderFirstBeing.orderReadingsDoNotYieldFirstBeing",

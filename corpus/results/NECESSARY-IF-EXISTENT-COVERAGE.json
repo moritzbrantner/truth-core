@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-COVERAGE",
-  "argument_id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "id": "ce06db1e-4cc3-570d-8a39-84d32b508707",
+  "label": "At the named standpoint, either every\u2026, from The chosen frame is Euclidean: any two\u2026 and 2 more",
+  "legacy_id": "NECESSARY-IF-EXISTENT-COVERAGE",
+  "argument_id": "f2251a3d-0e5d-5446-9790-02f5c8ce4146",
   "challenge_module": "TruthCore.Results.Modal.NecessaryIfExistent.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryIfExistent.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryIfExistent.coverage",

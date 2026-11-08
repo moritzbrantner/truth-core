@@ -1,0 +1,11 @@
+{
+  "id": "4a43b2c9-4145-59d7-baeb-1e71878c2d55",
+  "label": "Thomas Aquinas, Summa theologiae I q.19… supports Whatever has an inclination following an…",
+  "legacy_id": "REL-Q19-A1-WILL-SUPPORTS-INTELLIGIBLE-INCLINATION-IS-WILL",
+  "subject_kind": "claim",
+  "subject_id": "a5dccbe4-d4a1-53c8-a63f-cfb585784033",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "b7b10ad2-fafe-552e-8bf4-205d49f2f070",
+  "note": "ST I q.19 a.1 co. states that an intellectual nature has toward the good apprehended through an intelligible form the habitude of seeking it when absent and resting in it when had, and that 'utrumque pertinet ad voluntatem'. The premise states that whatever has an inclination following an intelligible form has will; the gap is the identification of the article's 'habitudo ad bonum apprehensum per formam intelligibilem' with the primitive inclination of the formalization, and the step from 'belongs to will' to 'its bearer has will'."
+}

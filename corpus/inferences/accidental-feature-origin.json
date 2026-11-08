@@ -1,13 +1,15 @@
 {
-  "id": "INF-ACCIDENTAL-FEATURE-ORIGIN",
+  "id": "5627ca68-e080-5415-8e2e-60991315f8b2",
+  "label": "Some supplied ordinary-carrier value occupies the…, by Selected-origin-fork-eliminat…",
+  "legacy_id": "INF-ACCIDENTAL-FEATURE-ORIGIN",
   "input_statement_ids": [
-    "STMT-ACCIDENTAL-FEATURE-ACCIDENTAL",
-    "STMT-ACCIDENTAL-FEATURE-DISTINGUISHES",
-    "STMT-ACCIDENTAL-FEATURE-ORIGIN-FORK",
-    "STMT-ACCIDENTAL-FEATURE-SHARED-PRODUCTION",
-    "STMT-ACCIDENTAL-FEATURE-REALIZATION"
+    "a0df3eb7-812a-59fb-a229-6456880905c5",
+    "9c0783ad-4052-5079-9797-881ae92ab881",
+    "6b28e089-3828-5a58-b6c9-0ed959ef243c",
+    "66f3fcee-1591-5857-81b7-d48bc0d624a9",
+    "69e39d41-bf8b-5262-87ef-ddede7bcc05c"
   ],
-  "output_statement_id": "STMT-ACCIDENTAL-FEATURE-EXTERNAL-ORIGIN-EXISTS",
+  "output_statement_id": "ca326cae-8683-5bbf-9c0a-c17519438273",
   "rule": "selected-origin-fork-elimination-by-shared-production-and-feature-absence",
   "meaning": "Apply the selected origin fork to accidental classification and occurrence in x. If essence-production holds, shared production supplies essence-production through the SAME provided essenceOf y; selected realization gives occurrence in y, contradicting the selected absent occurrence. Eliminate that branch and retain the externalFeatureCause witness. No bearer is asserted actual or distinct, no causal relation is transported into existential grounding, and no full case coverage, necessary-being or uniqueness conclusion is inferred.",
   "assumption_statement_ids": [],

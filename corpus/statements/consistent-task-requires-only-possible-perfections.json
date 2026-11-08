@@ -1,0 +1,10 @@
+{
+  "id": "35777f40-ef62-5037-b920-78935b586d91",
+  "label": "A task whose doing involves no contradiction requires only perfections something could have",
+  "legacy_id": "STMT-CONSISTENT-TASK-REQUIRES-ONLY-POSSIBLE-PERFECTIONS",
+  "paraphrase": "OPEN (attribution deferred): a task whose doing involves no contradiction requires only perfections something could have.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ConsistentTaskRequiresOnlyPossiblePerfections",
+  "definition_ids": [
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
+  ]
+}

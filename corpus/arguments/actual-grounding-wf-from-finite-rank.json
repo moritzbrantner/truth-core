@@ -1,0 +1,36 @@
+{
+  "id": "155c5c8f-f3fc-5018-ba18-b28193b19a44",
+  "label": "The profile's selected relation at w, restricted to candidates that are…, from finite rank",
+  "legacy_id": "ACTUAL-GROUNDING-WF-FROM-FINITE-RANK",
+  "premise_statement_ids": [
+    "47e323f2-3405-5caf-a192-201eb1e02f76"
+  ],
+  "conclusion_statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+  "inference_ids": [
+    "3a91dc26-8734-5036-b504-b56be2ffb717"
+  ],
+  "meaning": "A natural-number rank decreasing along actual concrete grounding (OPEN) makes actual grounding well-founded: each grounding edge lies in the inverse image of < on ℕ. No excluded middle. This is a second, non-circular route to STMT-ACTUAL-GROUNDING-WF besides ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT, from a strictly stronger premise.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

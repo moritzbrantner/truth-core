@@ -1,6 +1,8 @@
 {
-  "id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
-  "argument_id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "id": "325af3be-8465-586d-aad2-1ff92d4808f3",
+  "label": "The supplied stage-indexed assertion policy does…, from Intuitionism: excluded middle is not a law…",
+  "legacy_id": "WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "argument_id": "392cb64b-3dc5-5838-b3b9-38fa336bc2b2",
   "challenge_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Challenge",
   "solution_module": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution",
   "theorem": "TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.exactPolicyRival",

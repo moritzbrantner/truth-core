@@ -1,11 +1,13 @@
 {
-  "id": "STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY",
+  "id": "e0d669a3-f76d-5d82-bb75-7ff9236d083b",
+  "label": "Absence of contradiction in thinking nonexistence is a necessary logical condition but not…",
+  "legacy_id": "STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY",
   "paraphrase": "Absence of contradiction in thinking nonexistence is a necessary logical condition but not sufficient warrant for the objective possibility of that nonexistence.",
   "definition_ids": [
-    "DEF-KANT-LOGICAL-POSSIBILITY",
-    "DEF-KANT-REAL-POSSIBILITY"
+    "b3a3b7c0-f390-56f1-a1e6-2818040ad822",
+    "785c6195-9181-5926-9bfd-30e030e25e38"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-POSSIBILITY"
+    "3beb9f91-1fa1-5f15-9223-418da8039017"
   ]
 }

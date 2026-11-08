@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-CAUSE-ATEMPORAL",
-  "argument_id": "UNIVERSE-CAUSE-ATEMPORAL",
+  "id": "fcd2c37e-63d4-5b2c-b880-39eb299dd7f7",
+  "label": "Strong version of the owner's 'exists out…, from Whatever causes the spacetime whole to… and 2 more",
+  "legacy_id": "UNIVERSE-CAUSE-ATEMPORAL",
+  "argument_id": "738e23b3-2d48-5ec6-9949-859a1b98ae23",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.Atemporal.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.Atemporal.universeCauseAtemporal",

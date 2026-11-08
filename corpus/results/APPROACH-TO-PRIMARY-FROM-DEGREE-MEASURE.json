@@ -1,0 +1,12 @@
+{
+  "id": "0000c819-3670-559d-8335-6f79505e5ee9",
+  "label": "BEING_2 is graded by approach to a primary: the primary has BEING_2, and one…, from degree measure",
+  "legacy_id": "APPROACH-TO-PRIMARY-FROM-DEGREE-MEASURE",
+  "argument_id": "bcc00761-8697-5103-b1ec-b10c991007c5",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.approachToPrimaryFromDegreeMeasure",
+  "comparator_config": "results/APPROACH-TO-PRIMARY-FROM-DEGREE-MEASURE/comparator.json",
+  "status": "solution-present",
+  "description": "Being more a being is having a strictly higher represented degree (global calibration, OPEN), and degrees are ordered as the approach to the primary (q.3 a.5 ad 2 reading); so being more a being is approaching the primary more nearly. The primary has being: something is more a being than something (OPEN observation), so has being; if it is not the primary it falls short of the primary (strict primacy), which therefore exceeds it in being and so has being (more such has the perfection)."
+}

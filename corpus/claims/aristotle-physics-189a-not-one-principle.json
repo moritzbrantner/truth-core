@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-189A-NOT-ONE-PRINCIPLE-A",
-  "statement_id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
-  "source_id": "ARIST-PHYS",
+  "id": "35d62e3a-8b44-5cfb-aab5-eb75bed81d42",
+  "label": "Aristotle, Physics I.6, 189a11-12: The natural principles cannot number exactly one, since the…",
+  "legacy_id": "ARIST-PHYS-189A-NOT-ONE-PRINCIPLE-A",
+  "statement_id": "8623e9c2-a80c-589b-869a-ca316b126726",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.6, 189a11-12",
   "interpretation": "Aristotle excludes exactly one natural principle by relying on I.5's conclusion that the principles are contraries. This does not yet decide whether the total is two or three.",
   "status": "formalized"

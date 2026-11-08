@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
+  "id": "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+  "label": "Exact data-relative correctness…: Given a state type, evidence type, projection observe and…",
+  "legacy_id": "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
   "term": "exact data-relative correctness criterion",
   "definition": "Given a state type, evidence type, projection observe and independently supplied predicate Correct, AdmitsCriterion says there is an evidence predicate whose verdict on every projected state is equivalent to Correct. FiberInvariant says equal-data states agree on Correct. CriterionCharacterization universally quantifies over this profile; CriterionControls supplies nonconstant Boolean correctness and shared-report/identity-data controls.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ANSWER-MAP-MATCHING",
+  "id": "7c50c8db-6f13-526e-b439-851133f9243f",
+  "label": "Answer map, matching, mimicry and…: An AnswerMap gives answers q and says q for each shared question",
+  "legacy_id": "DEF-ANSWER-MAP-MATCHING",
   "term": "answer map, matching, mimicry and distinct rival",
   "definition": "An AnswerMap gives answers q (answer availability) and says q (its proposition) for each shared question. Matches requires equal availability and, where answered, equivalent contents; unused contents of two unanswered maps do not distinguish them. Mimics matches on every question. DistinctRival deviates on at least one. CommittedAt requires both answering and the answer holding. Equivalence is propositional iff rather than identity, and matching the chosen question signature is not an identity claim about whole historical worldviews.",
   "basis": "stipulative",

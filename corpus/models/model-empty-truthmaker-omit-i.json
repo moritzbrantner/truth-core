@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-EMPTY-TRUTHMAKER-OMIT-I",
+  "id": "bf42820a-efb4-523b-945f-9422e98f2039",
+  "label": "One accessible Unit world and one Unit candidate; the candidate is absent yet stipulated making is…",
+  "legacy_id": "MODEL-EMPTY-TRUTHMAKER-OMIT-I",
   "description": "One accessible Unit world and one Unit candidate; the candidate is absent yet stipulated making is factive; this is an omission control, not an endorsed nonexistent ontology. Pullback of the already checked negativeArena control, not a newly discovered model.",
   "vocabulary": "EMPTY-TRUTHMAKER-SCOPED",
   "lean_declaration": "TruthCore.Explanation.EmptyTruthmaker.emptyControl",
@@ -29,7 +31,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-E",
+      "statement_id": "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -41,7 +43,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_E"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-T",
+      "statement_id": "711d5039-6e3e-5166-bcc0-ec0467806922",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -54,7 +56,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_T"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-I",
+      "statement_id": "3ea2491f-ba65-5783-b923-d931254eb3c8",
       "value": "violates",
       "arguments": [
         "W",
@@ -67,7 +69,7 @@
       "theorem": "TruthCore.Models.EmptyTruthmaker.omitI_notI"
     },
     {
-      "statement_id": "STMT-EMPTY-TRUTHMAKER-FACTIVITY",
+      "statement_id": "8347a59b-76ca-5873-9dbf-24a9ea58078d",
       "value": "satisfies",
       "arguments": [
         "W",

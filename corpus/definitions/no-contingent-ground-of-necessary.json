@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
+  "id": "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+  "label": "No direct contingent supporter of a…: Whenever a source exists at world w and directly supports…",
+  "legacy_id": "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
   "term": "no direct contingent supporter of a necessary bearer",
   "definition": "Whenever a source exists at world w and directly supports the existence of a bearer necessary from w₀, the source is also necessary from w₀. This does not restrict all efficient causes, events or explanatory tokens.",
   "basis": "stipulative",

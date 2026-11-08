@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-REASON-INDEPENDENT",
+  "id": "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+  "label": "Reason independent of its target: ReasonIndependent A says a reason for a contingent fact is not…",
+  "legacy_id": "DEF-PSR-REASON-INDEPENDENT",
   "term": "reason independent of its target",
   "definition": "ReasonIndependent A says a reason for a contingent fact is not coextensive with that fact over the accessible worlds. It is a purely modal condition: it excludes a target copy, and does not establish relevance or explanatory direction.",
   "basis": "stipulative",

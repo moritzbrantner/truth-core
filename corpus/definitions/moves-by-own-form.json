@@ -1,0 +1,10 @@
+{
+  "id": "45595dac-061a-5240-a6c7-f16d4e632357",
+  "label": "Moving by the power of one's own form…: ByOwnForm y x: y moves x by the power of its own form, as…",
+  "legacy_id": "DEF-MOVES-BY-OWN-FORM",
+  "term": "moving by the power of one's own form (principal agent) versus as an instrument",
+  "definition": "`ByOwnForm y x`: y moves x by the power of its own form, as a principal agent does. A mover of x that does not is an instrument of its moving of x: it acts by the power of another. Only the predicate is primitive; nothing fixes which real movers are principal. Example: a hand moving a stick acts by its own form; the stick moving the stone does not. Counterexample to reading it as 'unmoved': a principal agent may itself be moved in respects irrelevant to this moving.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.InstrumentMovesByPrincipalPower",
+  "note": "Analyst vocabulary, attribution deferred. Motivated by ST I q.18 a.3 co. (agens principale est quod per suam formam agit; instrumentum, quod non agit ex virtute suae formae, sed ex virtute principalis agentis), read in the pinned AQUINAS-ST-I-Q18-A3 passage, which no claim yet states. Sourcing it needs a claim on that sentence. Not a relation of grounding or dependence; it does not entail transitivity or well-foundedness of instrumental chains."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "c3e249a4-114a-5fad-ba76-db0da6abe667",
+  "label": "Nothing is prior to itself, by Reductio",
+  "legacy_id": "INF-NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE",
+  "input_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2"
+  ],
+  "output_statement_id": "32d77f18-a9c2-5486-b51c-a24f32863af4",
+  "rule": "Reductio",
+  "meaning": "If simple priority requires nonmutual dependence, nothing is simply prior to itself: x prior to x would make x both depend and not depend on x. Uses only the necessary direction of the dependence analysis of priority, not the sufficient one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

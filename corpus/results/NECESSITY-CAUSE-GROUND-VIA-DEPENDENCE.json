@@ -1,0 +1,12 @@
+{
+  "id": "ee611be0-a4cb-5b77-a127-f9d84e628932",
+  "label": "At the reading world w, whatever causes the necessity of something other than…, via dependence",
+  "legacy_id": "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE",
+  "argument_id": "eddef85a-ede5-5ca0-9ccd-cc7a1b601ef8",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.necessityCauseGroundViaDependence",
+  "comparator_config": "results/NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding."
+}

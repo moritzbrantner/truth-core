@@ -2,10 +2,14 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { shortId } from "@/lib/corpus-ids";
 import type { NextStepsReport } from "@/lib/next-steps";
 
 /** Traversal is navigation only: every status and edge comes from frontier JSON. */
-export function NextWorkMap({ dag, routes, root }: Pick<NextStepsReport, "dag" | "routes" | "root">) {
+export function NextWorkMap({ dag, routes, root, names = {} }: Pick<NextStepsReport, "dag" | "routes" | "root"> & {
+  /** Display labels of the arguments, by id. */
+  names?: Record<string, string>;
+}) {
   const [focus, setFocus] = useState(root?.statement_id ?? "");
   const [routeId, setRouteId] = useState(routes.find((route) => route.cheapest)?.argument_id ?? "");
   const statements = new Map(dag.statements.map((statement) => [statement.statement_id, statement]));
@@ -19,12 +23,12 @@ export function NextWorkMap({ dag, routes, root }: Pick<NextStepsReport, "dag" |
     <div className="mt-4 border-l-4 border-[var(--accent)] pl-4">
       <p className="text-xs">{focusStatement?.established ? "Established" : "Not established"} · {focusStatement?.status}</p>
       <Link className="font-serif text-xl link-quiet" href={`/statements/${focus}`}>{focusStatement?.paraphrase ?? focus}</Link>
-      <p className="mt-1 break-all font-mono text-xs">{focus}</p>
+      <p className="mt-1 break-all font-mono text-xs">{shortId(focus)}</p>
     </div>
     {proofs.length ? <>
       <label className="mt-4 block text-sm">Argument into this proposition
         <select aria-label="Argument into selected proposition" className="mt-1 block w-full rounded border border-[var(--line)] bg-[var(--paper)] p-2" value={chosen?.argument_id} onChange={(event) => setRouteId(event.target.value)}>
-          {proofs.map((argument) => <option key={argument.argument_id} value={argument.argument_id}>{argument.argument_id}</option>)}
+          {proofs.map((argument) => <option key={argument.argument_id} value={argument.argument_id}>{names[argument.argument_id] ?? argument.argument_id}</option>)}
         </select>
       </label>
       {chosen ? <div className="mt-4">
@@ -36,7 +40,7 @@ export function NextWorkMap({ dag, routes, root }: Pick<NextStepsReport, "dag" |
             return <li key={sid} className="rounded border border-[var(--line)] p-3">
               <p className="text-xs">{statement?.established ? "Established" : "Open obligation"}{statement?.depth ? ` · ${statement.depth}` : ""}</p>
               <button className="mt-1 text-left font-serif text-lg hover:underline" onClick={() => setFocus(sid)}>{statement?.paraphrase ?? sid}</button>
-              <p className="mt-1 break-all font-mono text-xs text-[var(--muted)]">{sid}</p>
+              <p className="mt-1 break-all font-mono text-xs text-[var(--muted)]">{shortId(sid)}</p>
               <Link className="link-quiet text-xs" href={`/dossiers/${sid}`}>Dossier</Link>
             </li>;
           })}

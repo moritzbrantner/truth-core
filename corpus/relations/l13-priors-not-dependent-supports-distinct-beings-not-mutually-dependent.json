@@ -1,0 +1,11 @@
+{
+  "id": "ab41065e-e689-5d97-ad08-7bae5865ee58",
+  "label": "Thomas Aquinas, Sententia libri…: Things… supports No two distinct things depend for their…",
+  "legacy_id": "REL-L13-PRIORS-NOT-DEPENDENT-SUPPORTS-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
+  "subject_kind": "claim",
+  "subject_id": "95f41960-baf4-58ad-ba7f-b11b2f439f7c",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+  "note": "In V Metaph. lect. 13 n. 18 states that dependence between a prior and its posterior is one-way (priora non dependent a posterioribus, sicut e converso). The premise generalizes this to every pair of distinct beings one of which depends for its being on the other. That needs the unstated step that whatever x depends on is prior to x; without it, the passage leaves open mutual dependence between things not ordered as prior and posterior (for example correlatives, or Lewisian counterfactual dependence)."
+}

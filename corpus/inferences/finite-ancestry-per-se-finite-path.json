@@ -1,11 +1,13 @@
 {
-  "id": "INF-FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "id": "a8de4813-fe84-54ad-9a55-f2ac80187aeb",
+  "label": "Every being reaches, by a finite chain of per se…, by Composition-of-verified-resul…",
+  "legacy_id": "INF-FINITE-ANCESTRY-PER-SE-FINITE-PATH",
   "input_statement_ids": [
-    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
-    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
-    "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"
+    "e529c42f-f0a2-5ebf-9ae1-459e7f798d31",
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936",
+    "f10d5632-ee55-5c6a-b972-809363b8c50c"
   ],
-  "output_statement_id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
+  "output_statement_id": "99b1a274-ce1a-5019-9b0f-5cc6e70b07dc",
   "rule": "composition-of-verified-results",
   "meaning": "Compose FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS with the existing regress-to-finite-grounding path theorem and the proved FINITE-GROUNDING-HAS-SOURCE result. Excluded middle is supplied by the permitted Mathlib classical logic, not a new philosophical premise. Every being has a finite per se path, possibly of length zero, to a being with no upstream per se cause. No uniqueness, absolute uncausedness, existence of a caused being or necessity is inferred. The same three unattributed open hypotheses remain.",
   "assumption_statement_ids": [],

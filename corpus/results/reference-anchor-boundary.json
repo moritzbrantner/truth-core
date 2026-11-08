@@ -1,6 +1,8 @@
 {
-  "id": "REFERENCE-ANCHOR-BOUNDARY",
-  "argument_id": "REFERENCE-ANCHOR-BOUNDARY",
+  "id": "21abc4c1-6924-5486-a377-57ab06a0017f",
+  "label": "In the stipulated one-name one-predicate Boolean-carrier language, original and swapped…",
+  "legacy_id": "REFERENCE-ANCHOR-BOUNDARY",
+  "argument_id": "72454a9c-a485-5d2c-88e4-db6c768c09c6",
   "challenge_module": "TruthCore.Results.Logic.ReferenceAnchor.Challenge",
   "solution_module": "TruthCore.Results.Logic.ReferenceAnchor.Solution",
   "theorem": "TruthCore.Results.Logic.ReferenceAnchor.checks",

@@ -1,0 +1,10 @@
+{
+  "id": "cf4875cb-6baf-5bf5-8590-84a21777c66c",
+  "label": "Reception of a perfection: ReceivedIn y r z: y's having the perfection r is received in z, which…",
+  "legacy_id": "DEF-PERFECTION-RECEIVED-IN",
+  "term": "reception of a perfection (ReceivedIn y r z)",
+  "definition": "ReceivedIn y r z: y's having the perfection r is received in z, which stands to it as receiving potency to received act, as heat is received in the wood it heats or a form in matter (ST I q.7 a.1 co.: 'forma ... per hoc quod recipitur in materia'). It generalizes EsseReceivedIn (DEF-ESSE-RECEIVED-IN) from esse to any perfection r. It is not the giving of r by an agent: the agent gives, the recipient receives (DISAMB-ESSE-RECEPTION). Example: the heat of heated wood, received in the wood. Non-example: the fire's own heat, which the fire has not as received in the wood. In Lean a parameter B → R → B → Prop constrained only by the premises of TruthCore.Causality.CausalMapsBatch1.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.ReceivedPerfectionIsLimitedByRecipient",
+  "note": "Stipulative analyst generalization, attribution deferred. Structural properties are not built in: that a perfection caused in another is received in it, and that reception limits, are separate open premises (STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT, STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT). A sourced definition would need a passage defining reception of an act in general, for example De ente c.4 'omne quod recipit aliquid ab alio est in potentia respectu illius', read beyond esse."
+}

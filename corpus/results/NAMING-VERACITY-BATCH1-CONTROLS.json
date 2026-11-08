@@ -1,0 +1,12 @@
+{
+  "id": "a77876ba-3cf0-54e4-bcb5-8df32517bc21",
+  "label": "Controls of the naming/veracity/revelation/authority batch: one finite model in which every…",
+  "legacy_id": "NAMING-VERACITY-BATCH1-CONTROLS",
+  "argument_id": "b3ab1d25-5d4e-53f6-a617-cfade7695b28",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.controls",
+  "comparator_config": "results/NAMING-VERACITY-BATCH1-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Controls: a joint finite model of every premise and conclusion of the batch with a God that has the classical attributes; and omission models for each premise of the veracity, authority, revelation and operation-naming steps (11 models)."
+}

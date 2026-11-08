@@ -1,0 +1,13 @@
+{
+  "id": "580beaca-2f59-5f68-b5b4-2e4d54a23bcb",
+  "label": "For actual concreta a,b at the selected world, if b is maximal in the SAME supplied…, by Reductio",
+  "legacy_id": "INF-AT-MAXIMAL-TARGET-VIA-GRADES",
+  "input_statement_ids": [
+    "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b"
+  ],
+  "output_statement_id": "bcf79e03-6dcb-5b00-8c69-244be36dec15",
+  "rule": "Reductio",
+  "meaning": "If an actual concretum a grounded an actual maximum b in esse, a would be more in esse than b, which maximality (nothing is more in esse than b) excludes. So no actual concretum grounds a maximum at all, which gives the local asymmetry policy without any asymmetry premise. The InAct part of maximality is unused.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

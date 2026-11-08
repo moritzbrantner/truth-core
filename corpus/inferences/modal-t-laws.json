@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-T-LAWS",
+  "id": "bdcac62c-004d-51a4-aae6-bdad585d1097",
+  "label": "Reflexivity alone gives full-predicate MC exactly when a world accesses precisely…, by Direct-proof",
+  "legacy_id": "INF-MODAL-T-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-T-LAWS",
+  "output_statement_id": "e2de4fb7-a47d-5670-90bf-d48c0e52f75f",
   "rule": "direct-proof",
   "meaning": "Compose the existing K successor-identity theorem with self-access; transport MC along successor equality, and instantiate necessity or possibility at the reflexive root.",
   "assumption_statement_ids": [],

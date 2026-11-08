@@ -1,0 +1,30 @@
+{
+  "id": "c6356524-2894-58c2-a1b6-c5aa1350395e",
+  "premise_statement_ids": [
+    "473f3a7f-0730-5bdc-a7e2-772c8372ffd7"
+  ],
+  "conclusion_statement_id": "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
+  "inference_ids": [
+    "5fc561a9-09b5-523a-ac00-b1db34508ba6"
+  ],
+  "meaning": "Strength order between MUTABLE_2 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in another's power, it is mutable in some way.",
+  "definition_ids": [
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "63420c26-d66a-585c-899a-964a997f83eb",
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ],
+  "label": "Strength order: the MUTABLE_2 boundary statement implies the MUTABLE_3 one",
+  "sense_bridges": [
+    {
+      "term": "IN_POTENCY_MUTABLE",
+      "from": "105b1f4a-6d9c-4e4e-8c30-2c109c2f755f",
+      "to": "194c40c8-c176-43d9-9488-9021f7cb2351",
+      "statement_id": "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "LIFE-BOUNDARY-SOME-MUTABILITY-FROM-ANOTHER"
+}

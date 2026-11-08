@@ -1,6 +1,8 @@
 {
-  "id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
-  "argument_id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "id": "3db73abe-e200-5099-92f8-84d8ab6c8c80",
+  "label": "Formal fact: the rival 'something is in act in some respect without being in act in esse' and the…",
+  "legacy_id": "ACTUALITY-WITHOUT-BEING-NOT-ELIMINATED",
+  "argument_id": "1aa44995-a4b9-5796-8fb1-72efea0d8893",
   "challenge_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.Solution",
   "theorem": "TruthCore.Results.Alternatives.ActualityWithoutBeingNotEliminated.eliminationReducesToPremise",

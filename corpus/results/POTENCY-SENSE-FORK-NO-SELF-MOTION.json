@@ -1,0 +1,12 @@
+{
+  "id": "90953cb8-cef9-552b-bdab-4786e82aaf32",
+  "label": "Whichever single sense potency takes, nothing moves itself in the same respect",
+  "legacy_id": "POTENCY-SENSE-FORK-NO-SELF-MOTION",
+  "argument_id": "09164174-022e-57fc-a241-9da629576ccb",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.noSelfMotionByPotencySenseFork",
+  "comparator_config": "results/POTENCY-SENSE-FORK-NO-SELF-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over POTENCY_1-3. Coverage reads both uses of 'in potency' (what is moved is in potency; nothing is in act and in potency) in selected senses among ADOPTED, INDEPENDENT and CAPACITY; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there in that one sense and in act there, which non-simultaneity excludes. The controls give the mixed reading (moved use CAPACITY, non-simultaneity ADOPTED) with self-motion."
+}

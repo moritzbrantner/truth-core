@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-MARK-BLASPHEMY-REACTION",
+  "id": "62d0292d-ec97-5841-abce-8341c7bebbf1",
+  "label": "The narrative attributes to the high priest a charge that the preceding speech is blasphemy",
+  "legacy_id": "STMT-REPORTED-MARK-BLASPHEMY-REACTION",
   "paraphrase": "The narrative attributes to the high priest a charge that the preceding speech is blasphemy.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Mark.HighPriestAnswer.ReportedBlasphemyReaction",
   "definition_ids": [
-    "DEF-MARK-HIGH-PRIEST-EXCHANGE"
+    "00c88ade-17c0-52b7-ab17-858319d4ab41"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-HIGH-PRIEST-EXCHANGE"
+    "8b04cc50-4ae8-5eed-93e8-5e1d76c76b85"
   ]
 }

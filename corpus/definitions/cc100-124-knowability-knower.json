@@ -1,15 +1,17 @@
 {
-  "id": "DEF-CC100-124-KNOWABILITY-KNOWER",
+  "id": "baca53c3-3a52-559d-989f-78fb8400824f",
+  "label": "POSSIBLE_KNOWLEDGE_1, actual knowledge…: Step1 restricts POSSIBLE_KNOWLEDGE_1 to truths; step2…",
+  "legacy_id": "DEF-CC100-124-KNOWABILITY-KNOWER",
   "term": "possible knowledge, actual knowledge and common truth-knower",
   "definition": "Step1 restricts possible knowledge to truths; step2 concerns actual knowers, and steps3–4 introduce one knower of every truth. Per-proposition witnesses, world-relative possibility and one common witness are distinct scopes.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-124-TRUTH-KNOWABILITY",
-    "CC100-124-LITERAL-UNIVERSAL-KNOWLEDGE",
-    "CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
-    "CC100-124-LITERAL-COMMON-KNOWER-BRIDGE",
-    "CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE",
-    "CC100-124-CONDITIONAL-COMMON-TRUTH-KNOWER"
+    "65a7bb9a-a71b-5a1c-b3b6-06cc16bed8d5",
+    "e695700d-0243-558b-87b8-77b031676924",
+    "fd9ea228-afd0-55dd-a1a1-855a1d9f0b3e",
+    "6a481092-4f4b-5ab9-ab2b-70a6f5006def",
+    "77277ba9-0909-5ddf-b9ae-8e279a35bac5",
+    "83ee140c-d4d9-52cb-b48f-606d2bacf970"
   ],
   "note": "No epistemic modal system, factivity, closure, proposition comprehension, agent existence or divine signature is defined. Parmenides object-directed Cognition and PSR stable reasons do not supply this propositional knowledge relation."
 }

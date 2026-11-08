@@ -1,7 +1,9 @@
 {
-  "id": "INF-RESURRECTION-ANSWER-MAPS-CORRECT",
+  "id": "b9cf681e-c16a-50fc-a93b-264a2ed13aa8",
+  "label": "Each available answer in the pilot follows from its limited theory…, by Constructive-bookkeeping",
+  "legacy_id": "INF-RESURRECTION-ANSWER-MAPS-CORRECT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RESURRECTION-ANSWER-MAPS-CORRECT",
+  "output_statement_id": "093067ab-1094-5bad-af36-92778adbcd34",
   "rule": "constructive-bookkeeping",
   "meaning": "Case analysis on all six theories and fifteen questions followed by definitional computation of the counts. Conditional coverage is a transcription of the open bundles, not historical progress.",
   "assumption_statement_ids": [],

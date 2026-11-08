@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SOMEONE-DENIES-MEASURE",
+  "id": "ecebe6ef-c7c4-5a48-9ecb-7c767c3d758f",
+  "label": "Someone opines the denial of the measure thesis: the many who think that Protagoras is wrong",
+  "legacy_id": "STMT-SOMEONE-DENIES-MEASURE",
   "paraphrase": "Someone opines the denial of the measure thesis: the many who think that Protagoras is wrong.",
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.SomeoneDeniesThesis",
   "definition_ids": [
-    "DEF-PROTAGOREAN-MEASURE"
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41"
   ]
 }

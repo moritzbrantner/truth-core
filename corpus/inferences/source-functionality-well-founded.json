@@ -1,11 +1,13 @@
 {
-  "id": "INF-SOURCE-FUNCTIONALITY-WELL-FOUNDED",
+  "id": "ff5c27f8-7432-5b0f-bda6-5a08c963500e",
+  "label": "The selected cause-to-dependent graph relation is well-founded…, by Imported-source-paths-and-fun…",
+  "legacy_id": "INF-SOURCE-FUNCTIONALITY-WELL-FOUNDED",
   "input_statement_ids": [
-    "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS",
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
-    "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR"
+    "0b4a7612-3737-5e75-9ce5-d091d0a20bbe",
+    "eb88842a-1dc7-5632-a0e0-556eec39864a",
+    "b0b614c3-0933-5724-b477-6642db60521f"
   ],
-  "output_statement_id": "STMT-SOURCE-FOREST-WELL-FOUNDED",
+  "output_statement_id": "25697a6f-d4f8-55c4-9e12-2d6b6710c119",
   "rule": "imported-source-paths-and-functional-predecessor-accessibility-induction",
   "meaning": "A genuine accessibility consequence on ONE supplied graph G. SourceExists is the existing atomistic producer endpoint, supplied independently of WF; it is definitionally accepted by the existing HasSource consumer without a new statement alias or invented bridge. Import SourceForest.confluent_of_uniquePredecessor and SourceWitness.rooted_from_source to obtain a finite upstream causal path from EVERY node to a supplied source. Induct on existing FiniteCausalPath: source has no predecessor and is Acc; at each successor node every incoming predecessor equals the already accessible path predecessor by UniquePredecessor. Package Acc at every node as existing WellFoundedEdges G. No well-foundedness hypothesis, source-from-WF argument, finite bound, finite cardinality, forward termination/time endpoint, acyclicity or excluded-middle premise is smuggled. In particular infinitely many nodes or arbitrarily long finite upstream paths are not ruled out. The SAME G.edge supplies sourcehood, connectivity, functionality, finite paths and final upstream WF; no parthood/participant graph is substituted. If G is an actual-world production graph this concerns only that selected graph: no ordinary production-to-existential-ground dictionary, modal support-union WF, explanatory adequacy, metaphysical reality or philosophical premise truth is inferred.",
   "assumption_statement_ids": [],

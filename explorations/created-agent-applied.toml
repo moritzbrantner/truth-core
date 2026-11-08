@@ -1,0 +1,65 @@
+target = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+
+[[node]]
+id = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+
+[[node]]
+id = "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+
+[[node]]
+id = "STMT-CREATURE-MUTABILITY-THROUGH-CREATOR-POWER"
+
+[[node]]
+id = "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER"
+
+[[node]]
+id = "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY"
+
+[[node]]
+id = "STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION"
+
+[[node]]
+id = "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY"
+
+[[node]]
+id = "NEW-PASSAGE-TO-ACT-IS-BEING-MOVED"
+new = true
+text = "Whatever passes in some respect from potency to act is being moved in that respect."
+
+[[node]]
+id = "NEW-CONSERVATION-INCLUDES-OPERATION"
+new = true
+text = "God's conservation of a creature's being extends to its operation, which follows its being (operari sequitur esse)."
+
+[[edge]]
+premises = ["STMT-CREATURE-ACTING-IS-NEW-ACTUALITY", "NEW-PASSAGE-TO-ACT-IS-BEING-MOVED"]
+conclusion = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+kind = "derivation"
+status = "rejected"
+note = "Subsumed: the passage node is the right-to-left half of the existing STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY, so the edge is certified with that statement instead (next edge); no new statement made."
+
+[[edge]]
+premises = ["STMT-CREATURE-ACTING-IS-NEW-ACTUALITY", "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"]
+conclusion = "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD"
+kind = "derivation"
+status = "certified"
+argument = "CREATED-AGENT-MOVED-FROM-NEW-ACTUALITY"
+note = "Moving is a new actuality for a creature, hence (Physics III.1) a being moved; gives 'itself moved in some respect' without naming God as mover."
+
+[[edge]]
+premises = ["STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE", "NEW-CONSERVATION-INCLUDES-OPERATION"]
+conclusion = "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY"
+kind = "bridge"
+status = "rejected"
+note = "Non sequitur: continued giving of esse, even extended to operation, makes the creature's operation depend on God but not a passage of the creature from potency to act. The conservation statement also has no Lean reading. Replaced by the operation-potency edge (ATTEMPT-MOTION-MAPS-BATCH1-20261107)."
+
+[[edge]]
+premises = ["STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION", "STMT-ACTING-ACTUALIZES-OPERATION-POTENCY"]
+conclusion = "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY"
+kind = "derivation"
+status = "certified"
+argument = "CREATURE-NEW-ACTUALITY-FROM-OPERATION-POTENCY"
+note = "A creature is in potency to its operation, and acting actualizes that potency as such. The acting premise is contested by Physics III.3 (motion is in the moved); its omission model is the Aristotelian agent."

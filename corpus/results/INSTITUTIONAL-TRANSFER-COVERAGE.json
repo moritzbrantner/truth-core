@@ -1,6 +1,8 @@
 {
-  "id": "INSTITUTIONAL-TRANSFER-COVERAGE",
-  "argument_id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "id": "8931830e-afce-5b40-9ef7-b84bf8aeebe2",
+  "label": "The weak governing-event institutional link holds…, from Excluded middle as a general principle…",
+  "legacy_id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "argument_id": "4b889462-cce5-503a-b006-aa0f227325f3",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.Coverage.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.institutionalTransferCoverage",

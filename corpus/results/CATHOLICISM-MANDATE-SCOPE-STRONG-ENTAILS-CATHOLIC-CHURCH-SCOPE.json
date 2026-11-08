@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
-  "argument_id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "id": "33692c5f-f7d9-5960-8fe9-1f7d770e070c",
+  "label": "For any being g: if Jesus holds a mandate from g…, from For any being g: if Jesus holds a mandate…",
+  "legacy_id": "CATHOLICISM-MANDATE-SCOPE-STRONG-ENTAILS-CATHOLIC-CHURCH-SCOPE",
+  "argument_id": "dc615dda-8e72-524a-87a1-d566505edd69",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingScopeStrength.mandateScopeStrongEntailsCatholicChurchScope",

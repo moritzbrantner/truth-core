@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a2p2c.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A2-REVISED-DEFINITION",
+      "id": "fd3bc7db-1862-5156-a115-6462d47fa935",
+      "label": "Unattributed website author, Necessary Being interactive survey, A2P2C, complete interactive page",
+      "legacy_id": "NECESSARYBEING-A2-REVISED-DEFINITION",
       "locator": "A2P2C, complete interactive page",
       "claim_locator_prefixes": [
         "A2P2C,"

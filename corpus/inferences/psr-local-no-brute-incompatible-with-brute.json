@@ -1,10 +1,12 @@
 {
-  "id": "INF-PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
+  "id": "fb7f3036-d619-526c-b316-19b005c9d6b7",
+  "label": "Logical falsity, by Direct-proof (7)",
+  "legacy_id": "INF-PSR-LOCAL-NO-BRUTE-INCOMPATIBLE-WITH-BRUTE",
   "input_statement_ids": [
-    "STMT-NO-BRUTE-EXISTENCE-AT",
-    "STMT-BRUTE-EXISTENCE-AT"
+    "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
+    "fcf3a68a-d353-5f8b-9e01-995643caa2f9"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "direct-proof",
   "meaning": "Logical bookkeeping for configuration selection: local no-brute coverage and a local brute witness at the same model/world are incompatible. Compose the previously checked exclusion; no excluded-middle assumption or philosophical premise closure follows.",
   "assumption_statement_ids": [],

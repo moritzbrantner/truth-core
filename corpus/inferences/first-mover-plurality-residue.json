@@ -1,11 +1,13 @@
 {
-  "id": "INF-FIRST-MOVER-PLURALITY-RESIDUE",
+  "id": "248765df-4476-5475-aac4-e45937c8fd4f",
+  "label": "For the supplied first-mover, act and nature parameters: any two…, by Elimination of two horns and…",
+  "legacy_id": "INF-FIRST-MOVER-PLURALITY-RESIDUE",
   "input_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded"
   ],
-  "output_statement_id": "STMT-FIRST-MOVER-PLURALITY-RESIDUE",
+  "output_statement_id": "8e45cddf-7783-56cf-b762-66ae43b65404",
   "rule": "Elimination of two horns and equivalence with uniqueness",
   "meaning": "From Q11 incommunicable individuation, the first-mover suppositum/nature adapter and every-perfection: any two distinct first movers have one act profile and different represented natures; at-most-one first mover is equivalent to FirstMoverActDeterminesNature and to FirstMoversShareNature. No first mover is produced and no premise is defended. The equivalences show those nature conditions are not independent of uniqueness given these three premises.",
   "assumption_statement_ids": [],

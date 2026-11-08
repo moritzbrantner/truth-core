@@ -1,0 +1,11 @@
+{
+  "id": "aef9997c-bff2-5a6e-b8b8-6af0d23b31e4",
+  "label": "Thomas Aquinas, Summa theologiae I q.80… supports OPEN, analyst formulation of the analogy…",
+  "legacy_id": "REL-Q80-A1-APPETITE-SUPPORTS-EVERY-FORM-HAS-INCLINATION",
+  "subject_kind": "claim",
+  "subject_id": "4d770507-2aab-59d5-afe0-fcdec35653da",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "d4b35781-27f4-5c21-b03e-df696df7e19f",
+  "note": "ST I q.80 a.1 co. states 'quamlibet formam sequitur aliqua inclinatio' (fire's form inclines it upward and to generate its like), natural form being followed by natural appetite and the higher forms in knowers by a higher inclination. The premise ascribes the inclination to whatever is in act through the form; the passage ascribes it to the form, illustrated by its bearers. The claim this relation starts from records the article's conclusion about the appetitive power, not this opening sentence, so the sentence is not attributed as stating the premise."
+}

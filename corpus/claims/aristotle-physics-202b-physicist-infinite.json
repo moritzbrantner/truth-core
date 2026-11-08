@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202B-PHYSICIST-INFINITE-A",
-  "statement_id": "STMT-PHYSICIST-MUST-INQUIRE-INFINITE",
-  "source_id": "ARIST-PHYS",
+  "id": "6e1c78a0-1976-51ff-a357-1cd0c54bd7e8",
+  "label": "Aristotle, Physics III.4, 202b30-203a3: Because natural science studies magnitude, motion, and…",
+  "legacy_id": "ARIST-PHYS-202B-PHYSICIST-INFINITE-A",
+  "statement_id": "dea10055-6d17-51c4-ae0b-0ae521cc55d7",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 202b30-203a3",
   "interpretation": "Methodological transition: because physics concerns magnitude, motion, and time, Aristotle treats inquiry into whether the infinite exists and what it is as proper to natural science. This records the scope claim without asserting any answer yet.",
   "status": "formalized"

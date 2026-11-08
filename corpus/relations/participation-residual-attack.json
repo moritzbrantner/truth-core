@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-RESIDUAL-ATTACK",
+  "id": "5623fcb3-3c5e-5c2a-a909-84ca88e8ad36",
+  "label": "For Humanity the residual task is to… attacks Every particular exemplifying an admitted…",
+  "legacy_id": "REL-PARTICIPATION-RESIDUAL-ATTACK",
   "subject_kind": "statement",
-  "subject_id": "STMT-PARTICIPATION-RESIDUAL",
+  "subject_id": "72d12d03-7d0e-5fce-84d2-ff31795f55ad",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
+  "object_id": "d5dfae98-bb39-54da-99ac-9f855a8edfc0",
   "note": "Participant-selection explanatory burden, not a refutation or entailment edge. Optional replies are separated in docs/participation-grounding.md."
 }

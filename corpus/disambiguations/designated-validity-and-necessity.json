@@ -1,16 +1,75 @@
 {
-  "id": "DISAMB-DESIGNATED-VALIDITY-AND-NECESSITY",
+  "id": "d80f97b1-15a0-5315-b280-72d780060768",
+  "label": "Validity, actuality and necessitation",
+  "legacy_id": "DISAMB-DESIGNATED-VALIDITY-AND-NECESSITY",
   "term": "validity, actuality and necessitation",
   "sense_definition_ids": [
-    "DEF-DIAGONAL-VALID",
-    "DEF-NECESSITATED-VALID",
-    "DEF-DESIGNATION-SUCCESSOR-CLOSED",
-    "DEF-INDEPENDENT-NECESSITATION-RULE",
-    "DEF-DESIGNATION-CONTENT-TRANSPORT",
-    "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
-    "DEF-DESIGNATION-IDENTITY-SUCCESSORS",
-    "DEF-ACTUALITY-AGREEMENT",
-    "DEF-AGREEMENT-NECESSITATION-RULE"
+    "2a9a7da1-bb3a-513e-91ab-fe900ae6baea",
+    "d6a48e74-815c-5f8d-879e-9e1d5698fe51",
+    "8bfed956-49be-58b3-9cf5-6bc5246619f8",
+    "cd27d534-d3cf-5615-947f-222624bac7a5",
+    "ef6aff53-7a9b-5436-9c67-fabf2cd84601",
+    "4f333120-bae3-5be9-a13a-641ae97328eb",
+    "b98dbaf6-663a-5bdc-9206-55790153979a",
+    "c4ad27bb-2e78-5e95-9f56-ca479bd85792",
+    "c29692f7-8190-5f33-bcfc-1d74a5d5dde0"
   ],
-  "resolution": "Diagonal validity varies actual-world designations and evaluates each content there; necessity fixes that designation while varying evaluation along access. Ordinary Holds has no actuality parameter. IndependentRule ranges over all context-independent predicates; UnrestrictedRule over all two-index denotations; AgreementRule over the explicit Agreement schema. Closure of admitted designations does not itself preserve context-sensitive content. ContentTransport is sufficient with closure for a supplied F, not necessary per sentence. Valid of the existing Kripke language quantifies all valuations and worlds; no local-assumption rule or syntactic theoremhood is identified with it. Named-referent existence restrictions, varying domains and designation restrictions are separate. These semantic comparisons do not show expressive completeness, calculus adequacy, real-world necessity or metaphysical possibility."
+  "resolution": "Diagonal validity varies actual-world designations and evaluates each content there; necessity fixes that designation while varying evaluation along access. Ordinary Holds has no actuality parameter. IndependentRule ranges over all context-independent predicates; UnrestrictedRule over all two-index denotations; AgreementRule over the explicit Agreement schema. Closure of admitted designations does not itself preserve context-sensitive content. ContentTransport is sufficient with closure for a supplied F, not necessary per sentence. Valid of the existing Kripke language quantifies all valuations and worlds; no local-assumption rule or syntactic theoremhood is identified with it. Named-referent existence restrictions, varying domains and designation restrictions are separate. These semantic comparisons do not show expressive completeness, calculus adequacy, real-world necessity or metaphysical possibility.",
+  "term_label": "VALIDITY_ACTUALITY_AND_NECESSITATION",
+  "senses": [
+    {
+      "id": "63f80f01-d2f5-4f2f-954a-994f0c82028e",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_1",
+      "definition_id": "2a9a7da1-bb3a-513e-91ab-fe900ae6baea",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.DiagonalValid"
+    },
+    {
+      "id": "3115b3aa-ef39-4d47-bca2-5d195a01277a",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_2",
+      "definition_id": "d6a48e74-815c-5f8d-879e-9e1d5698fe51",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.NecessitatedValid"
+    },
+    {
+      "id": "b109bc2d-db84-4284-9fe0-fecb4b4bb862",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_3",
+      "definition_id": "8bfed956-49be-58b3-9cf5-6bc5246619f8",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.SuccessorClosed"
+    },
+    {
+      "id": "7355e3ef-5245-4fad-8898-d0a75b29a7bf",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_4",
+      "definition_id": "cd27d534-d3cf-5615-947f-222624bac7a5",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.IndependentRule"
+    },
+    {
+      "id": "228f14dd-e8f8-4654-bff3-8cb46e100185",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_5",
+      "definition_id": "ef6aff53-7a9b-5436-9c67-fabf2cd84601",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.ContentTransport"
+    },
+    {
+      "id": "f315e5b4-2184-4998-8b60-12b43de37414",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_6",
+      "definition_id": "4f333120-bae3-5be9-a13a-641ae97328eb",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.UnrestrictedRule"
+    },
+    {
+      "id": "ebe7a80c-6e34-4ae0-b183-759c23b24304",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_7",
+      "definition_id": "b98dbaf6-663a-5bdc-9206-55790153979a",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.IdentitySuccessors"
+    },
+    {
+      "id": "333afb59-0de1-46bd-8792-878af2f9b386",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_8",
+      "definition_id": "c4ad27bb-2e78-5e95-9f56-ca479bd85792",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.Agreement"
+    },
+    {
+      "id": "50e42b57-82ed-4e14-9bfa-e796fe298394",
+      "label": "VALIDITY_ACTUALITY_AND_NECESSITATION_9",
+      "definition_id": "c29692f7-8190-5f33-bcfc-1d74a5d5dde0",
+      "lean_declaration": "TruthCore.Modal.DesignatedValidity.AgreementRule"
+    }
+  ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOVER-FORM-SOURCE-CAUSE-CHANGE",
+  "id": "78d52d14-9b7f-583b-b55e-df631827ab49",
+  "label": "A mover, insofar as it acts as mover, carries a form that serves as source and cause of the change",
+  "legacy_id": "STMT-MOVER-FORM-SOURCE-CAUSE-CHANGE",
   "paraphrase": "A mover, insofar as it acts as mover, carries a form that serves as source and cause of the change.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MoverCarriesFormAsCauseReading"
 }

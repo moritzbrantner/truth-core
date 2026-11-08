@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-V2-CALIBRATION-REJECTED",
-  "argument_id": "MEANING-V2-CALIBRATION-REJECTED",
+  "id": "903d12fa-9d4b-59a0-b403-8b774f08e7d8",
+  "label": "V2 fails to calibrate the supplied…, from An in-scope cognitively meaningless content…",
+  "legacy_id": "MEANING-V2-CALIBRATION-REJECTED",
+  "argument_id": "e393076d-9d0a-596c-b477-23c64c7e4c08",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.V2RejectionBound.v2Rejection",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-POSSIBILITY-TRANSFER",
+  "id": "10ce8f5e-a1a8-5a00-b1d7-d1d29726ef47",
+  "label": "For every candidate-description carrier, two frames E and M, and origin w…, by Constructive-proof",
+  "legacy_id": "INF-MODAL-POSSIBILITY-TRANSFER",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-POSSIBILITY-TRANSFER",
+  "output_statement_id": "83f5fb38-7357-51dd-82ee-f167aac59758",
   "rule": "constructive-proof",
   "meaning": "Constructively derive exact local accessibility inclusion from all-predicate diamond transfer using singleton predicates, and from reversed box transfer using the M-successor predicate; prove both sufficiency directions and decide a two-description omission control.",
   "assumption_statement_ids": [],

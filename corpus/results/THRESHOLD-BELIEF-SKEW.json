@@ -1,6 +1,8 @@
 {
-  "id": "THRESHOLD-BELIEF-SKEW",
-  "argument_id": "THRESHOLD-BELIEF-SKEW",
+  "id": "2e5b3dae-5b1f-5bd5-af84-4ff2d7ff8eaa",
+  "label": "The declared Bool probability measure assigns true 19/20 and false 1/20",
+  "legacy_id": "THRESHOLD-BELIEF-SKEW",
+  "argument_id": "d7856936-c5bd-578f-bddb-f17e855991ee",
   "challenge_module": "TruthCore.Results.Logic.ThresholdBelief.Challenge",
   "solution_module": "TruthCore.Results.Logic.ThresholdBelief.Solution",
   "theorem": "TruthCore.Results.Logic.ThresholdBelief.skewSurvivor",

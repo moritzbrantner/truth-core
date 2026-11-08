@@ -1,0 +1,13 @@
+{
+  "id": "11e24b50-06bc-5e2e-b9b6-a4e4dc421237",
+  "label": "Everything other than p has its being by participation",
+  "legacy_id": "STMT-OTHERS-THAN-PRIMARY-PARTICIPATE-ESSE",
+  "paraphrase": "OPEN reading of ST I q.44 a.1 co. for a primary p: everything other than p has its being by participation.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.OthersThanPrimaryParticipateEsse",
+  "definition_ids": [
+    "14d30c53-51c2-502d-b009-247dac0421e0"
+  ],
+  "disambiguation_ids": [
+    "54f33165-05df-5205-807a-04154b5fd6ad"
+  ]
+}

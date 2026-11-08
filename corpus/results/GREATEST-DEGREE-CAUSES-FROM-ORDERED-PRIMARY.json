@@ -1,0 +1,12 @@
+{
+  "id": "5c544172-51ae-52aa-90fc-b2155c854925",
+  "label": "For an arbitrary selected perfection and supplied preorder of represented…, from ordered primary",
+  "legacy_id": "GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY",
+  "argument_id": "978d8118-31b5-505f-bcf9-63a81c3c52aa",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.greatestCausesFromOrderedPrimary",
+  "comparator_config": "results/GREATEST-DEGREE-CAUSES-FROM-ORDERED-PRIMARY/comparator.json",
+  "status": "solution-present",
+  "description": "With degrees read as approach to a primary: a greatest-degree bearer is the primary, since anything else falls strictly short of the primary (strict primacy), while the primary is itself a bearer (first conjunct of the approach reading; only that conjunct is used) and so at most at the greatest degree. The primary causes the perfection in every creature having it (q.13 a.5, ordo ad causam), and everything else is a creature (open premise). So every greatest-degree bearer causes the perfection in all other bearers."
+}

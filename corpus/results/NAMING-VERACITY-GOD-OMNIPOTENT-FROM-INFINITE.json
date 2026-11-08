@@ -1,0 +1,12 @@
+{
+  "id": "9cf26a2b-35d9-5d27-b985-e283b269aa86",
+  "label": "Whatever is GOD_4 can do every task that involves no contradiction, from INFINITE_1",
+  "legacy_id": "NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE",
+  "argument_id": "84ab49b6-31ee-50e8-8a87-8da06c16a4bc",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.godOmnipotentFromInfinite",
+  "comparator_config": "results/NAMING-VERACITY-GOD-OMNIPOTENT-FROM-INFINITE/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is God is infinite (stage-2 attribute), and what is infinite can do every consistent task; so whatever is God can do every consistent task. Reuses the stage-2 node GodIsInfinite with its primitive Infinite predicate."
+}

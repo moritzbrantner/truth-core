@@ -1,14 +1,16 @@
 {
-  "id": "NT-GAL-PILOT-PAUL-MET-JAMES",
-  "statement_id": "STMT-PILOT-REPORT-PAUL-MET-JAMES",
-  "source_id": "NT-GAL",
+  "id": "f39b1efa-b512-53f4-a0e7-3f78042bf29b",
+  "label": "Paul, Galatians 1.18-19: Paul says he saw James, the Lord’s brother, during his visit to Cephas",
+  "legacy_id": "NT-GAL-PILOT-PAUL-MET-JAMES",
+  "statement_id": "abbe4106-f41e-5183-94c7-c36d9635af15",
+  "source_id": "74b27609-9e7a-5018-9316-e58702ac3b7f",
   "locator": "1.18-19",
   "interpretation": "This identifies a James in this letter, not every James in other sources; the appearance recipient in 1 Cor 15 and Josephus’s James need identification separately.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

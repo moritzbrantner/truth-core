@@ -1,0 +1,12 @@
+{
+  "id": "b0fd6cc1-8907-5ec6-b0b4-598848314bf2",
+  "label": "The selected being bears some occurring thought episode: ∃ e, Occurs e ∧ Bears selected e",
+  "legacy_id": "STMT-SELECTED-BEARS-OCCURRING-THOUGHT",
+  "paraphrase": "OPEN premise: the selected being bears some occurring thought episode: ∃ e, Occurs e ∧ Bears selected e. It selects the thinker as the being whose grounding cone is examined; nothing about substance, persistence or necessity of the bearer.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.SelectedBearsOccurringThought",
+  "definition_ids": [
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-N2",
+  "id": "0f3ffba6-5882-5d97-80be-9129f75c7264",
+  "label": "CONCRETE_NATURALISM_2: ConcreteNaturalism o concrete P w:= ∀ x, o.ExistsAt w x → concrete x → P x…",
+  "legacy_id": "DEF-NATURALISM-N2",
   "term": "concrete naturalism (N2)",
   "definition": "`ConcreteNaturalism o concrete P w := ∀ x, o.ExistsAt w x → concrete x → P x`: everything existing and concrete satisfies P. Concrete is the adopted sense, having esse in re (DEF-CONCRETE-ESSE-IN-RE), supplied as a parameter.",
   "basis": "stipulative",

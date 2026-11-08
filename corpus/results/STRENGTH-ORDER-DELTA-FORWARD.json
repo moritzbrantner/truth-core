@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-DELTA-FORWARD",
-  "argument_id": "STRENGTH-ORDER-DELTA-FORWARD",
+  "id": "8a9a4e69-5bc2-57ac-a3f8-281b6fbdfeaf",
+  "label": "For the same mathematical x,y, y is not equal to…, from For the supplied mathematical linear order…",
+  "legacy_id": "STRENGTH-ORDER-DELTA-FORWARD",
+  "argument_id": "f4da998c-e2dc-594d-857a-1610ad1925fc",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.deltaForward",

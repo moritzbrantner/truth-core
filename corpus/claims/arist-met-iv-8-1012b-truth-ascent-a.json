@@ -1,14 +1,16 @@
 {
-  "id": "ARIST-MET-IV-8-1012B-TRUTH-ASCENT-A",
-  "statement_id": "STMT-TRUTH-ASCENT",
-  "source_id": "ARIST-MET",
+  "id": "7ae16878-7862-5ace-9a8d-49052f5e5c11",
+  "label": "Aristotle, Metaphysics IV.8, 1012b21-22: Truth ascent: if a content is ABSOLUTELY_TRUE_1, the…",
+  "legacy_id": "ARIST-MET-IV-8-1012B-TRUTH-ASCENT-A",
+  "statement_id": "ad0face6-d46b-547e-a374-5a7f3256a295",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.8, 1012b21-22",
   "interpretation": "\"He who says that the true statement is true is true\" (ὁ γὰρ λέγων τὸν ἀληθῆ λόγον ἀληθῆ ἀληθής). Read as truth ascent for absolute truth: the statement that a true content is true is itself true.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

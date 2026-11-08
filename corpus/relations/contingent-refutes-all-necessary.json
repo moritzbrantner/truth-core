@@ -1,0 +1,11 @@
+{
+  "id": "2bc816f8-5990-500a-8405-dd0df4d41d59",
+  "label": "A CONTINGENT_1 actual being refutes concrete necessitarianism",
+  "legacy_id": "REL-CONTINGENT-REFUTES-ALL-NECESSARY",
+  "subject_kind": "argument",
+  "subject_id": "e1d0d14b-1d3f-5e06-8968-e33b9a1dba8c",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "411e5817-a28a-5d3c-a115-c43b2ffdf64f",
+  "note": "Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT; does not count for closure while the node is open, and cannot defend the node itself (it rests on it)."
+}

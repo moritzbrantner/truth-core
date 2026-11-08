@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ARIST-MET",
+    "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
     "edition_urn": "urn:cts:greekLit:tlg0086.tlg025.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "ARIST-MET-I-9",
+      "id": "56e93495-6ec5-55fd-b186-2dbca8eb5acd",
+      "label": "Aristotle, Metaphysics, I.9",
+      "legacy_id": "ARIST-MET-I-9",
       "locator": "I.9",
       "claim_locator_prefixes": [
         "I.9,"

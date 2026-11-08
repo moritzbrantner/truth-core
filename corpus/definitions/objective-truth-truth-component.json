@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT",
+  "id": "a5a6d4bc-1846-551b-a997-0484e70fe2cb",
+  "label": "Objective truth has a truth component: HasTruthComponent f means \u2200 s, objective s \u2192 holds actual s",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT",
   "term": "objective truth has a truth component",
   "definition": "HasTruthComponent f means \u2200 s, objective s \u2192 holds actual s. It is only the forward truth-component condition, not a complete definition.",
   "basis": "stipulative",

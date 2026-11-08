@@ -1,10 +1,12 @@
 {
-  "id": "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
+  "id": "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+  "label": "SCIENTIFIC_DEMONSTRATION_1 and episteme…: An epistemic kind of syllogistic account whose premises…",
+  "legacy_id": "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
   "term": "scientific demonstration (apodeixis) and episteme in Posterior Analytics I.2–3",
   "basis": "sourced",
   "definition": "An epistemic kind of syllogistic account whose premises are true, primary, immediate, prior, better known and explanatory of its conclusion. Formal inferability alone does not establish that these epistemic conditions are met; this restricted episteme is not silently equated with every justified belief or every possible knowledge claim.",
   "claim_ids": [
-    "ARIST-APOST-71B-DEMONSTRATIVE-PREMISES",
-    "ARIST-APOST-72B-IMMEDIATE-KNOWLEDGE"
+    "61785ae0-840f-514c-8cd9-78cdfd9e8193",
+    "8beded56-bff7-5351-ae46-76a271f3c97f"
   ]
 }

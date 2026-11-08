@@ -1,0 +1,12 @@
+{
+  "id": "9b1c8d31-2458-5ece-9902-ea7dd0371d6c",
+  "label": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded…",
+  "legacy_id": "ROUND4-REVISITED-CONTROLS",
+  "argument_id": "3b0021be-84c9-551f-a800-72f4e1143695",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.controls",
+  "comparator_config": "results/ROUND4-REVISITED-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded middle, a hand-written Unit or Bool model, checked by decide without axioms, in which the other premises hold and the conclusion fails (33 omission models); and one joint nonvacuity witness in which every premise and conclusion of the batch holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality."
+}

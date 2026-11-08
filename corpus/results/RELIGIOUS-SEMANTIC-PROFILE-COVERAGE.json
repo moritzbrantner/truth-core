@@ -1,6 +1,8 @@
 {
-  "id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
-  "argument_id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "id": "3041ed2c-4d6b-5e5c-b59a-8935d672dce7",
+  "label": "The stronger local-plus-invariant profile, or local…, from Excluded middle as a general principle…",
+  "legacy_id": "RELIGIOUS-SEMANTIC-PROFILE-COVERAGE",
+  "argument_id": "447d83eb-641b-5c99-a506-3d882f6faf58",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.religiousSemanticCoverage",
@@ -8,24 +10,24 @@
   "status": "solution-present",
   "description": "Explicit excluded middle yields local-plus-invariant, local-plus-actual-matched-difference, or local failure. The local menu has an explicit further option; no census of historical theories is proved.",
   "case_split": {
-    "target_statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE",
+    "target_statement_id": "5ee99eb5-5793-50a4-9bc7-b177f67f6c63",
     "cases": [
       {
         "label": "local face-value with matched invariance",
         "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue",
-        "statement_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+        "statement_id": "b917f813-5020-5506-b7cd-eac478ddff72"
       },
       {
         "label": "local face-value with actual matched variation",
         "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalVariableTruthFaceValue",
-        "statement_id": "STMT-RELIGIOUS-LOCAL-VARIABLE-TRUTH-FACE-VALUE"
+        "statement_id": "a2b4be4c-0fd7-51a0-9048-64d416602fa1"
       },
       {
         "label": "local face-value fails",
         "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValueFails",
-        "statement_id": "STMT-RELIGIOUS-LOCAL-FACE-VALUE-FAILS"
+        "statement_id": "f4761615-d94b-52fa-9346-e476c0d44d3d"
       }
     ],
-    "survival_result_id": "RELIGIOUS-SEMANTIC-PROFILE-CONTROLS"
+    "survival_result_id": "ebd8974c-8bf8-55b8-bf1d-9a6a812ba418"
   }
 }

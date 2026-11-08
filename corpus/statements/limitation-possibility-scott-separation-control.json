@@ -1,13 +1,15 @@
 {
-  "id": "STMT-LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
+  "id": "5b1bbaa6-8aa3-583a-8d6c-12d581c9281e",
+  "label": "In ONE explicit Unit-world/Bool-individual formal fixture, the classifier…",
+  "legacy_id": "STMT-LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
   "paraphrase": "In ONE explicit Unit-world/Bool-individual formal fixture, the classifier limiting=unexemplified-at-that-world marks the false property limiting, the target x=true nonlimiting, and is backward closed. The complementary target is also nonlimiting; each has a possible exemplar. Scott A1a fails for the tested classifier P=nonlimiting. Under explicit EM the generic possibility theorem is applied once in this SAME fixture. This is joint compatibility relative to explicit logic and separation of classifier constraints, not source deficiency truth, all remaining Scott axioms, empirical adequacy or metaphysical possibility.",
   "lean_declaration": "TruthCore.Modal.LimitationPossibility.JointControl",
   "definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
-    "DEF-LIMITATION-POSSIBILITY-CONTROL",
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037",
+    "c2742e9e-4a8d-55b5-9df5-def25c68ee3a",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

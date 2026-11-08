@@ -1,6 +1,8 @@
 {
-  "id": "HUME-CONCEIVABILITY-TESTS",
-  "argument_id": "HUME-CONCEIVABILITY-TESTS",
+  "id": "084740ba-4989-5a63-9a20-64d32637bb52",
+  "label": "Bounded conditional laws and countermodels for issue #248: H and C yield ◇¬H and conflict with □H…",
+  "legacy_id": "HUME-CONCEIVABILITY-TESTS",
+  "argument_id": "476651a6-36ed-5ee3-9c49-84a11ecaff70",
   "challenge_module": "TruthCore.Results.Modern.Hume.Conceivability.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.Conceivability.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.Conceivability.checks",

@@ -1,0 +1,13 @@
+{
+  "id": "0a0c841c-5ebf-5f39-946b-0655a3c2ab57",
+  "label": "Rival perfection reading: nothing causes a perfection in itself; every caused perfection of a…",
+  "legacy_id": "STMT-NOTHING-CAUSES-ITS-OWN-PERFECTION",
+  "paraphrase": "Rival perfection reading (attribution deferred): nothing causes a perfection in itself; every caused perfection of a thing is caused by something else.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingCausesItsOwnPerfection",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

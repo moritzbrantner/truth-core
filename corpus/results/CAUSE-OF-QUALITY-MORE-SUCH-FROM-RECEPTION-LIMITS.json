@@ -1,0 +1,12 @@
+{
+  "id": "36420e1a-d357-5ed1-be89-8c03a1c2c02e",
+  "label": "Whatever causes a quality in another thing is more such than that thing, from reception limits",
+  "legacy_id": "CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS",
+  "argument_id": "924302df-70a7-52c9-8288-56f08369db75",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.causeOfQualityMoreSuch",
+  "comparator_config": "results/CAUSE-OF-QUALITY-MORE-SUCH-FROM-RECEPTION-LIMITS/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the Metaphysics II.1 / Posterior Analytics I.2 premise that a distinct cause of a quality is more such, from six OPEN analyst premises: the cause has what it gives; a perfection caused in another is received in it; reception limits by the recipient; limitation by z is only through reception in z; the cause's perfection is not received in its effect; and an unlimited possessor exceeds a limited one. A distinct cause c of r in x has r; x has r received in x, so limited by x; c's r is not received in x, so not limited by x; hence c is more r than x. It does not use STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, so it does not close a cycle with PERFECTION-PREEXISTENCE-FROM-CAUSAL-TRANSFER."
+}

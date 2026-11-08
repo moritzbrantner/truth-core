@@ -1,0 +1,15 @@
+{
+  "id": "732302a1-f7bf-594d-9a8a-cb4bd00687a7",
+  "label": "Whatever has ESSE_BY_PARTICIPATION_1 has its esse caused by something other than itself",
+  "legacy_id": "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE",
+  "paraphrase": "OPEN reading of ST I q.44 a.1 co. in the CausesIn vocabulary: whatever has esse by participation has its esse caused by something other than itself.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ParticipatedEsseHasDistinctCause",
+  "definition_ids": [
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

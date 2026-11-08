@@ -1,12 +1,14 @@
 {
-  "id": "INF-IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
+  "id": "4e467421-71aa-50ff-b5fe-b1a6b6d9f645",
+  "label": "What is altogether IMMUTABLE_1, in potency in no respect, is ETERNAL_1…, by Constructive-proof",
+  "legacy_id": "INF-IMMUTABLE-IS-PRIMITIVE-ETERNAL-FROM-TYPED-BOETHIAN",
   "input_statement_ids": [
-    "STMT-SUCCESSION-REQUIRES-POTENCY",
-    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
-    "STMT-PURE-ACT-LIVES",
-    "STMT-BOETHIAN-ETERNITY-SUFFICES-FOR-PRIMITIVE-ETERNITY"
+    "ebccb272-1275-5558-948a-4485504229a0",
+    "812b52b3-de7d-5982-93a9-e46b6e169616",
+    "1773079b-236a-5f7d-b1e9-fb8f23202341",
+    "a35acca8-cc3e-51ff-98f1-4491d3f0c119"
   ],
-  "output_statement_id": "STMT-IMMUTABLE-IS-ETERNAL",
+  "output_statement_id": "0659227c-0979-579c-910b-03a1967f49c5",
   "rule": "constructive-proof",
   "meaning": "Compose the existing typed immutableIsBoethianEternal theorem with the explicit one-way recognition transfer to the EXACT all-beings ImmutableIsEternalReading root premise. Succession-to-subject-potency, boundary-to-subject-potency, and pure-act-has-life stay separately visible. No inference from immutable to alive is hidden in a definition.",
   "assumption_statement_ids": [],

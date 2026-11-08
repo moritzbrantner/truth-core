@@ -1,6 +1,8 @@
 {
-  "id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
-  "argument_id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "id": "df8e1c9e-3061-56e0-945d-fbe0e76872f3",
+  "label": "Both uniform interpretations fail: not every…, from A natural-knowability move answers to…",
+  "legacy_id": "MIXED-NATURAL-REASON-REJECTS-UNIFORM-BRIDGES",
+  "argument_id": "ba2e49db-155e-5362-817a-ba75ee051695",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.mixedRejectsUniform",

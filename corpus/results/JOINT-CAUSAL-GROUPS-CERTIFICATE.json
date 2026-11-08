@@ -1,6 +1,8 @@
 {
-  "id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
-  "argument_id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "id": "d242b717-5f31-55ed-a684-0db7c53c7395",
+  "label": "Acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal…",
+  "legacy_id": "JOINT-CAUSAL-GROUPS-CERTIFICATE",
+  "argument_id": "169771a6-5a89-54eb-9616-e2f9ee8e5cb1",
   "challenge_module": "TruthCore.Results.Causality.JointGroups.Challenge",
   "solution_module": "TruthCore.Results.Causality.JointGroups.Solution",
   "theorem": "TruthCore.Results.Causality.JointGroups.certificate",

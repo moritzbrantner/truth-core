@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS",
+  "id": "a1f66eda-ad43-50d3-a026-50a2eb89c4dd",
+  "label": "Uniformity in a supplied outcome basis: Uniform trace holds when every pair of indexed values of…",
+  "legacy_id": "DEF-SCIENCE-INDUCTION-OUTCOME-BASIS",
   "term": "uniformity in a supplied outcome basis",
   "definition": "Uniform trace holds when every pair of indexed values of the complete trace agrees. It compares outcome coordinates in one supplied basis; testing Uniform on recodedTrace applies the corresponding syntactic coordinate test to a changed basis, and is a different criterion.",
   "basis": "stipulative",

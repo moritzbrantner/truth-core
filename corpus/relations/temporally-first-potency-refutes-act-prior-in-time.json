@@ -1,0 +1,11 @@
+{
+  "id": "fd2e1a37-1af2-5fd2-b7be-e984e44312d5",
+  "label": "The temporal branch fails: it is not the… refutes Rival temporal reading: whatever is in…",
+  "legacy_id": "REL-TEMPORALLY-FIRST-POTENCY-REFUTES-ACT-PRIOR-IN-TIME",
+  "subject_kind": "argument",
+  "subject_id": "2212f5d4-450a-58af-ab5e-f01e661eb116",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "d818ee13-0133-52c4-aeeb-07661e62d9cf",
+  "note": "Conditional refutation of the temporal branch of 'prior' under the OPEN premise STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY. Aristotle's priority of act in time in species is a rival to that premise; no historical position is refuted by this formalization."
+}

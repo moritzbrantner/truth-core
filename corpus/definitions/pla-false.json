@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PLA-PRIVATE-LANGUAGE-FALSE",
+  "id": "c1b29adf-421d-5181-99fb-68d4987ea74a",
+  "label": "PRIVATE_LANGUAGE_1: 'A PRIVATE_LANGUAGE_1 is possible' is an intelligible proposition, shown false…",
+  "legacy_id": "DEF-PLA-PRIVATE-LANGUAGE-FALSE",
   "term": "private language (impossible: false)",
   "definition": "'A private language is possible' is an intelligible proposition, shown false by reductio.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-PRIVATE-LANGUAGE-1-2-REDUCTIO-A"
+    "cea7954f-c4b5-5a3a-821e-1d65f0c17474"
   ]
 }

@@ -1,7 +1,11 @@
 {
-  "id": "DEF-NB-SURVEY-TOTALITY",
+  "id": "5c671680-2a81-587b-97ef-f893441b51bf",
+  "label": "C as the sum total of contingent things: The site introduces C as the sum total of all contingent…",
+  "legacy_id": "DEF-NB-SURVEY-TOTALITY",
   "term": "C as the sum total of contingent things (A1)",
   "definition": "The site introduces C as the sum total of all contingent things. The mere definition does not establish that C is itself contingent, is a single thing in the relevant ontology, has parts in the required sense, or can bear a causal relation. Those are additional premises and interpretation questions.",
   "basis": "sourced",
-  "claim_ids": ["NB-SURVEY-A1-TOTALITY-CONTINGENT"]
+  "claim_ids": [
+    "6f53184c-2c41-5f93-be4c-2ed957274bfe"
+  ]
 }

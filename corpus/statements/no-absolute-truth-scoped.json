@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NO-ABSOLUTE-TRUTH-SCOPED",
+  "id": "a249ccbc-af64-5e4e-bf51-2b636a7d7481",
+  "label": "No content within a given scope is ABSOLUTELY_TRUE_1",
+  "legacy_id": "STMT-NO-ABSOLUTE-TRUTH-SCOPED",
   "paraphrase": "No content within a given scope is absolutely true. With every content in scope this is the thesis that there is no absolute truth. It says nothing about truth relative to an agent.",
   "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruth",
   "definition_ids": [
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-ABSOLUTE-TRUTH"
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68"
   ]
 }

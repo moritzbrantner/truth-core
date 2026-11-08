@@ -1,0 +1,10 @@
+{
+  "id": "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc",
+  "label": "Privation in a capable subject: Deprived x r: x lacks r in a way that is a privation, a lack in a…",
+  "legacy_id": "DEF-PRIVATION-IN-CAPABLE-SUBJECT",
+  "term": "privation in a capable subject (Deprived x r)",
+  "definition": "Deprived x r: x lacks r in a way that is a privation, a lack in a subject apt to have r (steresis), not a mere negation. Example: the unshaped bronze lacks the statue's shape. Non-example: a number lacks a shape, but is not deprived of it. Structural properties: none built in; constrained only by STMT-POTENCY-IS-CAPACITY-UNDER-PRIVATION and STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE. In Lean a parameter Being -> Respect -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PrivationIsLackOfActInCapable",
+  "note": "Stipulative analyst notion, attribution deferred; Physics I.7-8 (ARIST-PHYS-191B-QUALIFIED-PRIVATION-A) uses privation for the incidental source of generation, which bears on but does not state the identification of potency with capacity under privation. Distinct from DEF-EVIL-AS-PRIVATION (privation of a due good)."
+}

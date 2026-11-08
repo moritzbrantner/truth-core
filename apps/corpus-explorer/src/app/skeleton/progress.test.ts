@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test";
 
 import { getCorpus } from "@/lib/corpus";
+import { legacyUuid } from "@/lib/corpus-ids";
 import { getPropositionGraph } from "@/lib/proposition-graph-data";
 import { researchFrontier } from "@/lib/research-frontier";
 import { getFrontierReport } from "@/lib/site-state";
@@ -14,7 +15,7 @@ const progress = skeletonProgress(corpus, report, research);
 
 test("the actual designated route retains exactly the authoritative open obligations", () => {
   expect(progress.routes.map(({ argument }) => argument.id)).toEqual([
-    "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+    legacyUuid("argument", "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES"),
   ]);
   expect(progress.obligations.map(({ item }) => item.statement_id).sort()).toEqual(
     report.items.filter((item) => item.path_to_root).map((item) => item.statement_id).sort(),
@@ -26,12 +27,12 @@ test("the actual designated route retains exactly the authoritative open obligat
 
 test("checked connections remain conditional while established EM is discharged", () => {
   const connections = progress.routes[0].connections;
-  const witness = connections.find(({ inference }) => inference.output_statement_id === "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS");
+  const witness = connections.find(({ inference }) => inference.output_statement_id === legacyUuid("statement", "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS"));
   expect(witness?.status).toBe("connected");
-  expect(witness?.results.map((result) => result.id)).toEqual(["CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS"]);
-  expect(connections.find(({ inference }) => inference.output_statement_id === "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT")).toMatchObject({ status: "discharged", open: [] });
+  expect(witness?.results.map((result) => result.id)).toEqual([legacyUuid("result", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS")]);
+  expect(connections.find(({ inference }) => inference.output_statement_id === legacyUuid("statement", "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT"))).toMatchObject({ status: "discharged", open: [] });
   expect(connections.find(({ inference }) => inference.output_statement_id === report.root)?.results.map((result) => result.id)).toEqual([
-    "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+    legacyUuid("result", "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES"),
   ]);
   expect(progress.obligations.filter(({ item }) => item.depth === "supported").length).toBe(report.items.filter((item) => item.path_to_root && item.depth === "supported").length);
   expect(progress.obligations.filter(({ item }) => item.depth === "stated").length).toBe(report.items.filter((item) => item.path_to_root && item.depth === "stated").length);
@@ -62,8 +63,8 @@ test("recorded topology alone never advertises an independently checked connecti
 });
 
 test("only explicit candidate statement links are presented as a next recorded gap", () => {
-  const bridge = progress.obligations.find(({ item }) => item.statement_id === "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS");
-  expect(bridge?.candidates.some((candidate) => candidate.recordIds.includes("CHRISTS-CHURCH-DIVINE-FOUNDING-BRIDGE"))).toBe(true);
+  const bridge = progress.obligations.find(({ item }) => item.statement_id === legacyUuid("statement", "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"));
+  expect(bridge?.candidates.some((candidate) => candidate.recordIds.includes(legacyUuid("candidate", "CHRISTS-CHURCH-DIVINE-FOUNDING-BRIDGE")))).toBe(true);
   for (const { item, candidates } of progress.obligations) {
     expect(candidates.every((candidate) => candidate.kind === "exploration" && candidate.statementIds.includes(item.statement_id))).toBe(true);
   }

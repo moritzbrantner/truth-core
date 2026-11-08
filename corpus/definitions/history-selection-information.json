@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-SELECTION-INFORMATION",
+  "id": "c8c357e8-33d1-5468-858d-78f8493e353b",
+  "label": "Whole-vector informational history…: SameEvidence truth basis v w compares the truth values of…",
+  "legacy_id": "DEF-HISTORY-SELECTION-INFORMATION",
   "term": "whole-vector informational history selection",
   "definition": "SameEvidence truth basis v w compares the truth values of every admitted token, without any finiteness bound. EvidenceOnly p requires p to have identical truth at every pair with the same whole vector. Determines requires accessible worlds with the actual vector to have the actual complete supplied presence extension. Selects is exactly the existing Discriminates test applied to a Unit-tagged candidate proposition. These are extensional informational tests, not causal production, grounding, epistemic availability or metaphysical adequacy.",
   "basis": "stipulative",

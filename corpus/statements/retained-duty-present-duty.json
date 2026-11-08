@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+  "id": "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
+  "label": "The fixed agent owes return of the identical original object at after",
+  "legacy_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
   "paraphrase": "The fixed agent owes return of the identical original object at after.",
   "lean_declaration": "TruthCore.Modal.RetainedDuty.PresentDuty",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

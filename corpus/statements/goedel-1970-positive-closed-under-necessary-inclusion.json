@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
+  "id": "96d8342a-f88f-5edf-8792-00d4f6d556ca",
+  "label": "Gödel's 1970 axiom Ax4: at every world, if φ is POSITIVE_1 and necessarily every existing…",
+  "legacy_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
   "paraphrase": "Gödel's 1970 axiom Ax4 (AFP GoedelVariantHOML1.thy): at every world, if φ is positive and necessarily every existing individual that has φ has ψ, then ψ is positive.",
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.PositiveClosedUnderNecessaryInclusion",
   "definition_ids": [
-    "DEF-HOML-ACTUALIST-NECESSITY",
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "9010544f-188a-5d00-83dc-85d0c0b4052d",
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTS",
-    "DISAMB-POSITIVE"
+    "620f1cde-0f67-5ecd-a96c-2851588725d5",
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

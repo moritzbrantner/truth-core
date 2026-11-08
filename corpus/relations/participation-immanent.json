@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-IMMANENT",
+  "id": "91f9b6a6-d401-5797-926e-2edf8000fab9",
+  "label": "Aristotle, Physics II.1, 193a30-193b5… supports An optional synthesis lets immanent…",
+  "legacy_id": "REL-PARTICIPATION-IMMANENT",
   "subject_kind": "claim",
-  "subject_id": "ARIST-PHYS-193A-DEFINITIONAL-FORM-NATURE-A",
+  "subject_id": "04044180-6d0a-5f04-a128-49d0e23c9aa5",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-IMMANENT-REPLY",
+  "object_id": "44c4d05a-b95f-58c4-b453-6e2f96f714e8",
   "note": "An immanent definitional form motivates one component. The proposed combination with a separate exemplar is explicitly unattributed."
 }

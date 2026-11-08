@@ -1,10 +1,12 @@
 {
-  "id": "STMT-DEI-FILIUS-CH2-CHURCH-TEACHES-NATURAL-KNOWABILITY",
+  "id": "0f5a511b-5b2a-51c7-823f-80c5f72fe380",
+  "label": "Dei Filius ch. 2: the Church holds and teaches that God, the beginning and end of all things, can…",
+  "legacy_id": "STMT-DEI-FILIUS-CH2-CHURCH-TEACHES-NATURAL-KNOWABILITY",
   "paraphrase": "Dei Filius ch. 2: the Church holds and teaches that God, the beginning and end of all things, can be known with certainty from created things by the natural light of human reason, and that it pleased God to reveal himself and his decrees to the human race by another, supernatural way.",
   "definition_ids": [
-    "DEF-NATURAL-REASON-SHARED"
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

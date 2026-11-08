@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
+  "id": "c23d9c04-311f-578e-a2a0-2318ee1e885d",
+  "label": "Generic denial of the owner principle in the adopted sense: at some world something that has…",
+  "legacy_id": "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
   "paraphrase": "Generic denial of the owner principle in the adopted sense: at some world something that has causal power, or that efficiently causes something, has no esse in re (is abstract). Any view on which an abstract object does causal work holds this at full strength.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Analyst formulation of the strongest denial, not attributed. It is the contradictory of the owner principle at some world. Definition audit: original proposition/claim wording retained; typed analyst siblings expose category-to-no-esse, explanatory-to-productive and selected-world guards without rebinding this source reading. The set-of-two anchor alone is not a universal set classification; a some-world denial is not a selected-world denial. See docs/notes/causal-concrete-rival-boundary.md."
 }

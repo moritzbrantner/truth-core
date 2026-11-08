@@ -1,0 +1,14 @@
+{
+  "id": "26c02a75-feec-57fe-80ac-cb02c23227b2",
+  "label": "A living thing whose life-state differs between two times at which it…, by Existential elimination…",
+  "legacy_id": "INF-SUCCESSION-IS-MOTION-FROM-CHANGE",
+  "input_statement_ids": [
+    "5fdac93c-13f7-506a-b151-d02f8a50d995",
+    "5a229a9d-9186-58f7-b5b9-c6c20223400d"
+  ],
+  "output_statement_id": "487fb7ab-609f-5695-b1b3-77fe21538c7f",
+  "rule": "Existential elimination, universal instantiation, existential introduction",
+  "meaning": "A living thing whose life-state differs between two times at which it lives is being moved in some respect: the state difference is a change in some respect between the two times (OPEN), and a change of a subject that lives at both ends is a motion in that respect, not generation or corruption (OPEN Physics V.1 reading). Both 'lives at' conjuncts of the succession are used, which is why beginning or ceasing to live is not covered.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

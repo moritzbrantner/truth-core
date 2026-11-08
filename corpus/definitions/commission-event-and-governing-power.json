@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
+  "id": "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+  "label": "Jesus' giving a power and governing…: Commissioning.Gave p: Jesus himself gave or promised the…",
+  "legacy_id": "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
   "term": "Jesus' giving a power (Commissioning.Gave) and governing power (Power.Governing)",
   "definition": "Commissioning.Gave p: Jesus himself gave or promised the power p to one or more of his disciples or to their community (Matthew 18.17 assigns judging to the ekklēsia). It is an uninterpreted event parameter of the Commissioning structure, distinct from any report; the type does not tie it to the signature's jesus, so its reading as Jesus' act is this definition's. GoesBackToJesus E r: Jesus gave or promised every power that report r names (CommissionReport.powers). Power.Governing: a power is governing when its exercise is authority over the members of a society: holding the keys, binding and loosing, the church's judging and excluding, forgiving and retaining sins, shepherding the flock. Preaching, making disciples, baptizing and teaching are not governing. The power list also contains preaching, the commission Harnack names.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-FOUR-CAUSES-EXHAUSTIVE",
+  "id": "68172f57-65d2-53fe-930e-936ef99d9d60",
+  "label": "Causal explanations are classifiable under material, formal, source-of-change, or final modes",
+  "legacy_id": "STMT-FOUR-CAUSES-EXHAUSTIVE",
   "paraphrase": "Causal explanations are classifiable under material, formal, source-of-change, or final modes.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.FourCauseExhaustiveReading",
   "definition_ids": [
-    "DEF-ARISTOTELIAN-CAUSE-MODES"
+    "d57222e9-d0f2-5fd4-97c3-b5f0462dd623"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

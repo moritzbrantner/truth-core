@@ -1,9 +1,11 @@
 {
-  "id": "INF-OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "id": "be3fde38-e2b5-55ac-a540-c3300bd8e92f",
+  "label": "For every supplied frame, actual-stable calibration, invariance-only…, by Constructive-proof",
+  "legacy_id": "INF-OBJECTIVE-TRUTH-DEFINITION-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-OBJECTIVE-TRUTH-DEFINITION-FORK",
+  "output_statement_id": "dac67701-e7fc-538e-a33a-45e1349fb088",
   "rule": "constructive-proof",
   "meaning": "Logical coverage transcription: decide each of the three calibrated account propositions under explicit excluded middle; if none holds, retain their conjunction of negations as the remaining account. This establishes structural coverage with a remainder, not named exhaustion.",
   "assumption_statement_ids": [],

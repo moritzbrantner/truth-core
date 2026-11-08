@@ -1,0 +1,11 @@
+{
+  "id": "c088ac6b-218a-5f6a-bb87-7450a8342b4d",
+  "label": "Without the Metaphysics IX.6 analysis the Scotist rival is satisfiable, and…, by Explicit finite…",
+  "legacy_id": "INF-ARISTOTELIAN-RIVAL-REFUTATIONS-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "82dc65ec-e6cc-5262-87ab-a3939dadfbc5",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Without the Metaphysics IX.6 analysis the Scotist rival is satisfiable, and without the Physics III.1 analysis the Ash'arite rival is; both analyses are satisfiable together.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

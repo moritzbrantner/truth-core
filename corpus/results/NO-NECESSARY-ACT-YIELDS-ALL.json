@@ -1,0 +1,12 @@
+{
+  "id": "4fa5cf30-d40c-5550-9a48-de01e75770ed",
+  "label": "A CONTINGENT_1 actual being excludes an act at every accessible world strictly yielding all",
+  "legacy_id": "NO-NECESSARY-ACT-YIELDS-ALL",
+  "argument_id": "bbbbdfc6-e8a7-593c-b4a7-5b151b219668",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.noNecessaryActYieldsAll",
+  "comparator_config": "results/NO-NECESSARY-ACT-YIELDS-ALL/comparator.json",
+  "status": "solution-present",
+  "description": "By the first clause of the verified simplicity-collapse core (SIMPLICITY-COLLAPSE-CORE), an act token performed at every world accessible from w and strictly efficacious for x leaves x not contingent at w. If one token strictly yielded every actual concrete being, it would strictly yield the node's witness, which is contingent. So a necessary sufficient cause of all actual concreta is excluded on the route; the route's root may still be necessary if its act is not both performed at every accessible world and strictly efficacious for each creature (#462, #555). Without the node the rival holds (one-world frame). Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises."
+}

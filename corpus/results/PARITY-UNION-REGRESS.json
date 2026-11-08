@@ -1,6 +1,8 @@
 {
-  "id": "PARITY-UNION-REGRESS",
-  "argument_id": "PARITY-UNION-REGRESS",
+  "id": "6844043f-7a10-5f75-b2a3-93712d07f2b7",
+  "label": "In the explicit Bool-world/Nat-being parity model, every individual exists and is de re necessary…",
+  "legacy_id": "PARITY-UNION-REGRESS",
+  "argument_id": "cd9e6bbb-0e01-5e77-b6fd-a23923fde253",
   "challenge_module": "TruthCore.Results.Causality.ParityUnionRegress.Challenge",
   "solution_module": "TruthCore.Results.Causality.ParityUnionRegress.Solution",
   "theorem": "TruthCore.Results.Causality.ParityUnionRegress.checks",

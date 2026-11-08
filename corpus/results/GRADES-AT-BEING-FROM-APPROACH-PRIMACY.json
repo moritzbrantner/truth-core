@@ -1,0 +1,12 @@
+{
+  "id": "7f2d7852-449a-5aaa-a55c-5225ed37f23a",
+  "label": "If some pair compares in the supplied esse respect, some in-act individual…, from approach primacy",
+  "legacy_id": "GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "argument_id": "8eab5889-0f24-54c2-b303-a2b8b54fa4fc",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.gradesAtBeingFromApproach",
+  "comparator_config": "results/GRADES-AT-BEING-FROM-APPROACH-PRIMACY/comparator.json",
+  "status": "solution-present",
+  "description": "On the order of being by approach to a primary (ST I q.3 a.5 ad 2) with strict primacy (an open premise), the primary has being and nothing is more a being than it: anything that were would approach more nearly than the primary, while everything else approaches less nearly. So there is a maximum in being, whether or not grades are found."
+}

@@ -1,9 +1,11 @@
 {
-  "id": "REL-UNIVERSE-UNCAUSED-ALTERNATIVE-TO-UNIVERSE-CAUSED",
+  "id": "d53d48f3-85ef-593d-a1f6-a8b8bb41ebb0",
+  "label": "The brute-universe position: at the… alternative to At the selected world the spacetime…",
+  "legacy_id": "REL-UNIVERSE-UNCAUSED-ALTERNATIVE-TO-UNIVERSE-CAUSED",
   "subject_kind": "statement",
-  "subject_id": "STMT-UNIVERSE-UNCAUSED",
+  "subject_id": "0d563c5b-413a-5463-b556-adbb34bf458e",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "object_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
   "note": "The brute-universe rival (Russell 1948, Oppy as reported), held at full strength; consistent with every naturalist variant and the listed floor items (NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR). Not refuted. Scope audit: this full no-edge position genuinely opposes an existing cause, but it is stronger than exact no-existing-cause on generic Ontic. The exact complementary rival is now also explicit. The usual two-way fork requires selected-whole-causer actuality; otherwise a checked third generic-signature case has only absent candidate causers. The absent-edge control is expressly outside intended causal actuality, not a new naturalist theory."
 }

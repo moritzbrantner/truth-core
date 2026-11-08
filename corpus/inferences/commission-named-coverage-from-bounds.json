@@ -1,0 +1,15 @@
+{
+  "id": "280c6589-a1c6-55a6-81b9-bdebcdcfa3c7",
+  "label": "The selected governing predicate matches either the narrow table or…, by Excluded middle, proof by…",
+  "legacy_id": "INF-COMMISSION-NAMED-COVERAGE-FROM-BOUNDS",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "1d1edbd9-27ab-55c9-bfd2-1007dcc85f0b",
+    "fc2912b3-613c-52cc-84d3-9135cc456efe"
+  ],
+  "output_statement_id": "3cff0d5a-d5e0-54f5-9eab-beb7f285cac4",
+  "rule": "Excluded middle, proof by cases, composition with COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "meaning": "Named governance coverage (narrow or teaching-inclusive criterion) without deciding whether teaching is governing: by the self-evident excluded middle, teaching is selected (then the teaching-inclusive criterion holds) or not (then, since every selected power is table-governing or teaching, the narrow criterion holds). Only the two OPEN bounding inclusions are needed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

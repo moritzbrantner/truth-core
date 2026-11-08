@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
-  "argument_id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "id": "db018434-c360-5592-a5da-c9dc6e55715a",
+  "label": "There is no potential infinity by…, from A potential infinity by addition that could… and 1 more",
+  "legacy_id": "ARIST-PHYS-206B-NO-UNBOUNDED-ADDITIVE",
+  "argument_id": "cd35f7f5-4eb2-5442-b910-cd87ee4d76b9",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.NoUnboundedAdditive.noUnboundedAdditivePotential",

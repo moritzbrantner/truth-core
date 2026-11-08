@@ -1,0 +1,12 @@
+{
+  "id": "019c001b-49fc-50b2-95d9-f7bbc742f880",
+  "label": "Whenever Jesus holds a mandate from g and founded the Catholic Church as…, from teaching grant",
+  "legacy_id": "CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT",
+  "argument_id": "21417ee6-afe3-57ee-b9e1-7c8f77fcb3e4",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.institutionLinkFromTeachingGrant",
+  "comparator_config": "results/CHURCH-INSTITUTION-LINK-FROM-TEACHING-GRANT/comparator.json",
+  "status": "solution-present",
+  "description": "The criterion-matched institutional link for the selected governing predicate, from the existing old link (STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES, for table-governing powers and the teaching commission), the OPEN bound that every selected power is table-governing or teaching, and the OPEN bridge that giving the power to teach founds the Church in the mandate. A selected power given is split into the table case (old link) and the teaching case (new bridge)."
+}

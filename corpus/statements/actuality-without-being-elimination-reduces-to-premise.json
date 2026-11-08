@@ -1,20 +1,22 @@
 {
-  "id": "STMT-ACTUALITY-WITHOUT-BEING-ELIMINATION-REDUCES-TO-PREMISE",
+  "id": "e5d79009-a63d-5e24-960e-4cd34b74e786",
+  "label": "Formal fact: the rival 'something is in act in some respect without being in act in esse' and the…",
+  "legacy_id": "STMT-ACTUALITY-WITHOUT-BEING-ELIMINATION-REDUCES-TO-PREMISE",
   "paraphrase": "Formal fact: (1) the rival 'something is in act in some respect without being in act in esse' and the premise 'whatever is in act in some respect is in act in esse' are jointly inconsistent; (2) for any carriers, InAct and esse, the rival fails exactly when whatever is in act in some respect is not not in act in esse (the double-negated premise, which excluded middle turns into the premise); (3) some act/potency model satisfies sensible motion, the well-founded per se series, the other seven act/potency premises of #352 and the rival. So any assumptions that refute the rival entail the double-negated premise, and the other tested act/potency premises do not refute it. Satisfiability of the encoding only, not metaphysical possibility.",
   "lean_declaration": "TruthCore.Alternatives.ActualityWithoutBeing.ActualityWithoutBeingEliminationReducesToPremise",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-ESSE",
-    "DEF-POTENCY",
-    "DEF-RESPECT",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-GOOD-AS-BEING-IN-ACT",
-    "DEF-PER-SE-LINK-STRONG"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-IN-ACT",
-    "DISAMB-MOTION"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

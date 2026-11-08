@@ -1,14 +1,16 @@
 {
-  "id": "DEF-CC100-86-WHOLE-MAKER-GODLIKE",
+  "id": "c29b7f17-af6c-5869-9ef7-340c6aaeba58",
+  "label": "Whole, intelligent maker, embodiment…: Whole and made-by designate the source’s unelaborated…",
+  "legacy_id": "DEF-CC100-86-WHOLE-MAKER-GODLIKE",
   "term": "whole, intelligent maker, embodiment and God-like agent in #86",
   "definition": "Whole and made-by designate the source’s unelaborated whole/maker relation. Cannot be made by embodied agents is a capability exclusion, distinct from actual nonproduction. Some selected intelligent unembodied agent is required to be God-like by a particular whole; God-like has no specified classical or positivity signature.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-86-INTELLIGENT-WHOLE-MAKER",
-    "CC100-86-EMBODIED-MAKER-EXCLUSION",
-    "CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
-    "CC100-86-SELECTED-GODLIKE-MAKER-REQUIREMENT",
-    "CC100-86-CONDITIONAL-GODLIKE-AGENT-EXISTENCE"
+    "35f8333b-20dc-5d98-a25d-303b48d6d7fa",
+    "f7f620c4-a684-56c2-9408-b8cc8203f4df",
+    "4f7e0b85-8f76-58db-b84e-b6c5330c4d61",
+    "5012ece8-d566-58a6-9a44-e062b5276a26",
+    "0a0cea66-9366-5167-bdc5-a8e8013ada8c"
   ],
   "note": "No Sum2 fusion, common maker, causal-grounding identity, unique/necessary God or concrete rigid witness is introduced. Effect-level exclusion, agent embodiment, selected-whole identity and requirement-to-possession applicability remain interpretive obligations."
 }

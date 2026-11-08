@@ -1,24 +1,26 @@
 {
-  "id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "id": "290de287-d044-5bae-baaa-8b897573ee32",
+  "label": "For every bearer and perfection in the fixed form/end profile, it is…, from correct named support",
+  "legacy_id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
   "premise_statement_ids": [
-    "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
-    "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
-    "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
-    "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+    "9108832f-0ef5-5036-8550-f405c7203ff4",
+    "40420659-5692-5b9c-ab26-36941f0a1a97",
+    "4c22019a-12c3-5cf6-adff-7288a3741e1a",
+    "50d8be94-f9c1-52af-bf43-fb2751915756"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "conclusion_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
   "inference_ids": [
-    "INF-GOODNESS-FROM-CORRECT-NAMED-SUPPORT"
+    "cfbc102b-8206-5f5a-a2de-8ba17679a62a"
   ],
   "meaning": "Weaker conditional elimination reuses GOODNESS-FROM-NAMED-DEFINITION-ELIMINATION on a singleton-admissibility restriction of the SAME proposal meanings at a supported correct witness. No global candidate classification or property identity is inferred.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-NAMED-DEFINITION-SPACE",
-    "DEF-GOODNESS-SEMANTIC-DEFINITION-COVERAGE",
-    "DEF-GOODNESS-CORRECT-ACCOUNT-SUPPORT"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b9df0e5b-7d1e-5259-a5d5-910e85328aab",
+    "ea819c3e-09bb-5000-85f8-e4b28e34aead",
+    "3fb2bd92-d135-5db1-8fe3-a3caa18a12ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

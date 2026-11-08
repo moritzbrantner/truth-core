@@ -1,12 +1,47 @@
 {
-  "id": "DISAMB-POTENCY",
+  "id": "508617ab-cf24-5f3b-a387-64b3991359ec",
+  "label": "Potency, capacity and power across adopted and rival configurations",
+  "legacy_id": "DISAMB-POTENCY",
   "term": "potency, capacity and power across adopted and rival configurations",
   "sense_definition_ids": [
-    "DEF-POTENCY",
-    "DEF-INDEPENDENT-POTENCY",
-    "DEF-CAPACITY-TO-BE",
-    "DEF-MEGARIAN-ACTUALIST-CAPACITY",
-    "DEF-RECEPTIVE-POTENCY"
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "31eec35f-9321-575a-b961-126cb1fc5b89",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d"
   ],
-  "resolution": "In every ADOPTED-POTENCY specialization, potency is precisely DEF-POTENCY: CanBe x r \u2227 \u00ac InAct x r, with one shared act predicate and respect throughout. All motion, priority, pure-act/immutability, eternity and attribute-sufficiency occurrences are uniformly substituted in the new frozen signatures; no proof transfers from this function to a separately supplied potency predicate. Generic original Challenges retain DEF-INDEPENDENT-POTENCY, including the act/potency-independence and Night models. Their simultaneous-act cases are a different interpretation, not refuted by adopting the definition. Night priority claims without simultaneous act can remain genuine rivals to act priority even under an adopted interpretation; no blanket defeat is claimed. A power/capacity retained during exercise is DEF-CAPACITY-TO-BE (or a causal capacity in DEF-POWER-CAPACITY-READING), not adopted unactualized capacity; its persistence while acting is consistent with the adopted definition. DEF-MEGARIAN-ACTUALIST-CAPACITY restricts the capacity relation itself. The existing one-way thesis is retained in full; it is not refuted by definition and its motion refutation keeps its additional premises. DEF-RECEPTIVE-POTENCY relates principles to a received act and can coexist with actual possession, so the adopted same-respect non-overlap theorem is never applied to it. DISAMB-IN-ACT independently distinguishes formal from virtual act; the adopted function uses exactly the supplied sense everywhere and does not attribute a virtual-act analysis to IX.6."
+  "resolution": "In every ADOPTED-POTENCY specialization, potency is precisely DEF-POTENCY: CanBe x r ∧ ¬ InAct x r, with one shared act predicate and respect throughout. All motion, priority, pure-act/immutability, eternity and attribute-sufficiency occurrences are uniformly substituted in the new frozen signatures; no proof transfers from this function to a separately supplied potency predicate. Generic original Challenges retain DEF-INDEPENDENT-POTENCY, including the act/potency-independence and Night models. Their simultaneous-act cases are a different interpretation, not refuted by adopting the definition. Night priority claims without simultaneous act can remain genuine rivals to act priority even under an adopted interpretation; no blanket defeat is claimed. A power/capacity retained during exercise is DEF-CAPACITY-TO-BE (or a causal capacity in DEF-POWER-CAPACITY-READING), not adopted unactualized capacity; its persistence while acting is consistent with the adopted definition. DEF-MEGARIAN-ACTUALIST-CAPACITY restricts the capacity relation itself. The existing one-way thesis is retained in full; it is not refuted by definition and its motion refutation keeps its additional premises. DEF-RECEPTIVE-POTENCY relates principles to a received act and can coexist with actual possession, so the adopted same-respect non-overlap theorem is never applied to it. DISAMB-IN-ACT independently distinguishes formal from virtual act; the adopted function uses exactly the supplied sense everywhere and does not attribute a virtual-act analysis to IX.6. Sense fork (batch 3, #1233 B; docs/notes/load-bearing-terms.md): the prima via step to STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT uses 'in potency' twice (what is moved is in potency; nothing is in act and in potency). Its readings are three senses, each its own declaration: POTENCY_1 = DEF-POTENCY (AdoptedPotency.InPotency), POTENCY_2 = DEF-INDEPENDENT-POTENCY (the primitive InPotency parameter), POTENCY_3 = DEF-CAPACITY-TO-BE (CapacityPotency). Coverage STMT-POTENCY-SENSES-EXHAUSTIVE and exclusivity STMT-POTENCY-SENSE-UNIQUE are OPEN premises. Per sense: NO-SELF-MOTION-FROM-ADOPTED-POTENCY (no non-simultaneity premise needed), the existing AQUINAS-NO-SELF-MOTION-SAME-RESPECT (INDEPENDENT), and NO-SELF-MOTION-FROM-CAPACITY, whose non-simultaneity premise is refuted under STMT-SOME-CAPACITY-EXERCISED (supplied both by Aristotle's builder and by the Megarian thesis with some capacity). STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY strengthens STMT-MOVED-ONLY-AS-CAPABLE. Summary POTENCY-SENSE-FORK-NO-SELF-MOTION; the controls show the mixed reading (moved use CAPACITY, non-simultaneity ADOPTED) allows self-motion. Not senses of this use: DEF-MEGARIAN-ACTUALIST-CAPACITY is a thesis constraining POTENCY_3's relation, used as a premise against that branch; DEF-RECEPTIVE-POTENCY relates a principle to a received act, a different Lean type, so it cannot be substituted for the route's use (DISAMB-RECEPTIVE-POTENCY).",
+  "term_label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED",
+  "senses": [
+    {
+      "id": "5252f7f4-95a7-42f3-a420-23770702a0f4",
+      "label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED_1",
+      "definition_id": "9f874532-f37e-590b-bec9-a9affb2762ac",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.AdoptedPotency.InPotency"
+    },
+    {
+      "id": "d0b17a2e-febf-45e8-9b9e-11a75b2ccbc6",
+      "label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED_2",
+      "definition_id": "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel"
+    },
+    {
+      "id": "02e3f1d0-4ba1-498f-b34d-40bdd348d8c4",
+      "label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED_3",
+      "definition_id": "00ab0133-e353-5a2e-a231-b24a5c85107a",
+      "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.PotencyIsUnactualizedCapacityReading"
+    },
+    {
+      "id": "6c6465ea-9c0a-4142-b91b-5ef4f1c240ed",
+      "label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED_4",
+      "definition_id": "31eec35f-9321-575a-b961-126cb1fc5b89",
+      "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MegarianAbilityOnlyWhenActingReading"
+    },
+    {
+      "id": "500f5c09-fddc-4082-897b-fc83c9646601",
+      "label": "POTENCY_CAPACITY_AND_POWER_ACROSS_ADOPTED_5",
+      "definition_id": "a67e6214-624d-54d1-81ff-442c09c5ea9d",
+      "lean_declaration": "TruthCore.Latin.Aquinas.DeEnte.ReceiverInPotencyToReceivedEsseReading"
+    }
+  ]
 }

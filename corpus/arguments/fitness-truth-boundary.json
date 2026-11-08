@@ -1,16 +1,18 @@
 {
-  "id": "FITNESS-TRUTH-BOUNDARY",
+  "id": "6a0a035f-a580-58e4-959a-d5188f506e89",
+  "label": "For a stipulated binary belief/polarity response mechanism, successful response is exactly…",
+  "legacy_id": "FITNESS-TRUTH-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-FITNESS-TRUTH-BOUNDARY",
+  "conclusion_statement_id": "adc08369-c5fb-5b45-9ba3-1f09e092fe1a",
   "inference_ids": [
-    "INF-FITNESS-TRUTH-BOUNDARY"
+    "5cfc0cc5-9331-5aeb-a5f1-0289fcd1c322"
   ],
   "meaning": "For a stipulated binary belief/polarity response mechanism, successful response is exactly characterized by compensating polarity. Any binary belief map can be paired with a polarity map to match every supplied target. Among successful profiles, exact all-state belief truth holds iff every polarity follows rather than reverses belief. Two inhabited Boolean profiles, one wholly truthful and one false at every input, have identical fully successful responses and equal values under every score of the whole response function. No evolutionary process, naturalism theory, probability, comparative abundance, warrant or defeater is encoded. Root-path open premises: no change.",
   "definition_ids": [
-    "DEF-BINARY-BELIEF-POLARITY-RESPONSE",
-    "DEF-BINARY-TRUTH-BEHAVIOR-BOUNDARY"
+    "5dfe8784-faad-5c96-b40e-0cb89b30ba63",
+    "d6f27f48-1f26-55b6-aa6b-73fb3b9dfce8"
   ],
   "disambiguation_ids": [
-    "DISAMB-BINARY-TRUTH-FITNESS-WARRANT"
+    "af2a9835-e414-52dc-8c81-2afbd69d330a"
   ]
 }

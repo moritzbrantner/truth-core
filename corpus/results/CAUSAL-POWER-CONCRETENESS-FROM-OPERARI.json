@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
-  "argument_id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
+  "id": "d9a2d64b-0547-541a-9b3d-b9840c519f70",
+  "label": "Owner framework commitment: At the selected world w, every candidate individual with…, from operari",
+  "legacy_id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
+  "argument_id": "bf5f323d-dff0-5440-badd-f5d1afcae503",
   "challenge_module": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.Challenge",
   "solution_module": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.Solution",
   "theorem": "TruthCore.Results.Ontology.CausalPowerConcretenessFromOperari.causalPowerConcretenessOfOperariSequiturEsse",

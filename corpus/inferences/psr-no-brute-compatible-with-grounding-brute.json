@@ -1,7 +1,9 @@
 {
-  "id": "INF-PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
+  "id": "eac5637b-aaea-5782-aede-d11a77e07181",
+  "label": "The specified explanation-model expansion of the existing grounding rival is…, by Direct-proof",
+  "legacy_id": "INF-PSR-NO-BRUTE-COMPATIBLE-WITH-GROUNDING-BRUTE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-BRUTE-GROUNDING-BRUTE-COMPATIBILITY",
+  "output_statement_id": "b27ec662-401f-581c-b306-e4cb76ba3ea1",
   "rule": "direct-proof",
   "meaning": "Expand the existing contingent grounding rival by explanation tokens for its actual positive existence facts; reuse its no-necessary-concretum and brute-root certificates unchanged. Sound all-world existence-PSR coexists with this grounding-brute rival, so the new optional token-coverage axis alone excludes neither grounding brute roots nor contingency. A substantive adequate-explanation-to-ground bridge remains open.",
   "assumption_statement_ids": [],

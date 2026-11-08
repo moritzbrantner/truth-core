@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-TEST-CONCEPTION",
+  "id": "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+  "label": "CONCEIVABILITY_1: A parameter C: → World → Prop",
+  "legacy_id": "DEF-HUME-TEST-CONCEPTION",
   "term": "conceivability (formal C)",
   "definition": "A parameter C : (World → Prop) → World → Prop. C(P,w) says P is conceivable at w in the stipulated test. No closure, factivity, bridge, or introspection is built in. In particular describing MC or ¬H does not supply C(MC) or C(¬H).",
   "basis": "stipulative",

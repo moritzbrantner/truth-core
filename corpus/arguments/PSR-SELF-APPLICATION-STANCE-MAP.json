@@ -1,24 +1,26 @@
 {
-  "id": "PSR-SELF-APPLICATION-STANCE-MAP",
+  "id": "1b35e85b-9e31-536e-aaee-9412f43889ed",
+  "label": "A stance that demands nothing cannot also demand a claim",
+  "legacy_id": "PSR-SELF-APPLICATION-STANCE-MAP",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PSR-SELF-APPLICATION-STANCE-MAP",
+  "conclusion_statement_id": "6bc10168-67e5-51df-b6e2-4c6ff29212c5",
   "inference_ids": [
-    "INF-PSR-SELF-APPLICATION-STANCE-MAP"
+    "20555d45-567b-5e7f-8578-a8e12628c4e6"
   ],
   "meaning": "Which stated commitments make the self-application charge a contradiction, and a witnessed consistent critic in the same signature. Interpretation and limits are in docs/notes/psr-self-application-756.md.",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-SCOPE",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-INDEPENDENT",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-EPISTEMIC-SUPPORT",
-    "DEF-DEMAND-STANCE",
-    "DEF-EXEMPTION-STANDING",
-    "DEF-PSR-RESTRICTED-SCOPE"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "566c9d5f-0cd9-5c6b-87f2-855956d9d35f",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "4669119e-8bb3-5586-8ecb-6b3eba599efe",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "02c59c61-4cd1-5698-9338-e4a37ebf71f4",
+    "18c03398-75c1-5903-90a9-ba0d901b64ab",
+    "80a258e8-3837-5a70-b63e-15f1920ed02b",
+    "fad6a806-713b-5318-8309-488af704d614"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

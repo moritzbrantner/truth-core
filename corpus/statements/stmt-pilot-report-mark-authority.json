@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-REPORT-MARK-AUTHORITY",
+  "id": "455d6fae-fd3e-5a4d-8daf-949eb86da06e",
+  "label": "Mark attributes to Jesus an affirmative answer to the high priest’s messianic question and a…",
+  "legacy_id": "STMT-PILOT-REPORT-MARK-AUTHORITY",
   "paraphrase": "Mark attributes to Jesus an affirmative answer to the high priest’s messianic question and a saying about the Son of Man at the right hand of Power and coming with heaven’s clouds. Textual report only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Mark.MarkAuthority",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

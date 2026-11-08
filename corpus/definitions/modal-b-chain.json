@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-B-CHAIN",
+  "id": "399c4da8-3c7a-5e53-b4af-172ecc5f0d90",
+  "label": "Reflexive symmetric nontransitive…: Chain enumerates left, middle and right",
+  "legacy_id": "DEF-MODAL-B-CHAIN",
   "term": "reflexive symmetric nontransitive three-world chain",
   "definition": "chain enumerates left, middle and right. Every label accesses itself; left and middle access each other, as do middle and right; left and right do not access each other. The one atom p is true at left and middle and false at right. These are explicit mathematical labels, not claims about metaphysical possibilities. The evaluator reports edges and truth witnesses in this order. The separated variant keeps only the left self-edge and a separate universal middle/right component, with the same valuation; full collapse is root-relative and does not constrain that other component.",
   "basis": "stipulative",

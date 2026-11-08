@@ -1,0 +1,14 @@
+{
+  "id": "29592fad-98b4-520c-add8-0a0dc79ee565",
+  "label": "Some POTENCY_3 capacity is retained while exercised, by Existential elimination and…",
+  "legacy_id": "INF-CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS",
+  "input_statement_ids": [
+    "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+    "7f04635f-c157-56b1-b4fd-35a6b5da9e5f"
+  ],
+  "output_statement_id": "b140eb14-da03-5623-9f30-0b71eb572d02",
+  "rule": "Existential elimination and modus ponens",
+  "meaning": "The Megarian thesis (whatever can be r is r), with some CAPACITY, gives a CAPACITY in exercise. So the CAPACITY branch fails both for Aristotle's builder who keeps the capacity while building and for the Megarian rival: the two disagree about capacity but not about this branch.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

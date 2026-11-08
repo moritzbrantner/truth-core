@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOVER-MOVED-SHARE-ONE-ACTUALITY",
+  "id": "94366446-3f38-523e-a1c6-858c1e4de2de",
+  "label": "The mover acting and the movable being moved share one underlying actuality",
+  "legacy_id": "STMT-MOVER-MOVED-SHARE-ONE-ACTUALITY",
   "paraphrase": "The mover acting and the movable being moved share one underlying actuality.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MoverMovedShareOneActualityReading"
 }

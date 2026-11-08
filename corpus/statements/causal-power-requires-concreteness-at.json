@@ -1,0 +1,15 @@
+{
+  "id": "61b6e188-39aa-57d9-9e0b-dedc05226995",
+  "label": "OPEN capacity clause alone: at the selected world, whatever has causal power is concrete",
+  "legacy_id": "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT",
+  "paraphrase": "OPEN capacity clause alone (the weaker half of STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS): at the selected world, whatever has causal power (a capacity, not a present exercise) is concrete.",
+  "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.PowerRequiresConcreteAt",
+  "definition_ids": [
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "2b015a2c-4d31-5511-b391-41413edf45ac",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

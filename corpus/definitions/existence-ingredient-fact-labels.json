@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
+  "id": "e21a82a2-5129-554c-947e-597f22a567ab",
+  "label": "Mixed positive/essential/other fact…: Sum separates existing positive ExistenceFact.fact labels, a…",
+  "legacy_id": "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
   "term": "mixed positive/essential/other fact labels",
   "definition": "Sum (ExistenceFact B) (Sum B O) separates existing positive ExistenceFact.fact labels, a B-indexed essential-existence label and other O labels. Labels alone confer no truth, bearer actuality, modal necessity or real essence. ExistenceRelated selects the first two tags.",
   "basis": "stipulative",

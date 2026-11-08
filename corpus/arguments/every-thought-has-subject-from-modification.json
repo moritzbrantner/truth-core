@@ -1,0 +1,19 @@
+{
+  "id": "99c9f696-0d51-5132-9609-916e1a4d28bb",
+  "label": "The bearer principle: every occurring thought episode is borne by some subject, from modification",
+  "legacy_id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-MODIFICATION",
+  "premise_statement_ids": [
+    "5581cd7f-43b3-5aa1-b18d-36b8a44a9681",
+    "e6d842fb-fdcf-5da0-9c45-e576e2d5d842"
+  ],
+  "conclusion_statement_id": "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+  "inference_ids": [
+    "30bf7865-a559-58fd-afad-6e77c0271f46"
+  ],
+  "meaning": "The bearer principle from two OPEN premises: every occurring thought is a modification, and no modification is without a bearer. Bundle theories reject the first; nothing here makes the bearer unique, substantial or enduring.",
+  "definition_ids": [
+    "41f956bd-5430-5c0d-801e-a661ffe28e05",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ]
+}

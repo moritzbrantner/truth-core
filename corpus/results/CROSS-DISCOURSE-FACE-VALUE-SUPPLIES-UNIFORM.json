@@ -1,6 +1,8 @@
 {
-  "id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
-  "argument_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "id": "d21b3680-58a7-59e7-831c-419885389264",
+  "label": "Whenever a selected religious sentence is assigned…, from Stronger analyst profile combining local…",
+  "legacy_id": "CROSS-DISCOURSE-FACE-VALUE-SUPPLIES-UNIFORM",
+  "argument_id": "f6a26f47-41c8-5bd5-9676-70750331e3d2",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Uniform.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Uniform.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.crossDiscourseSuppliesUniform",

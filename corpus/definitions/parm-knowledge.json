@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-KNOWLEDGE",
+  "id": "e8f75ab4-06f8-504e-a90e-728229729216",
+  "label": "KNOWLEDGE_1: Knows a x is successful object-directed KNOWLEDGE_1 in the mode tested, not the Form…",
+  "legacy_id": "DEF-PARM-KNOWLEDGE",
   "term": "knowledge",
   "definition": "Knows a x is successful object-directed knowledge in the mode tested, not the Form of Knowledge itself, not omniscience and not a definition of propositional justified belief. The agent-indexed reconstruction projects the relation of knowledge to its object in Parmenides 134a–e; its closure principle remains disputed.",
   "basis": "stipulative",

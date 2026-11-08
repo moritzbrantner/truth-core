@@ -1,23 +1,25 @@
 {
-  "id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
+  "id": "bf5f323d-dff0-5440-badd-f5d1afcae503",
+  "label": "Owner framework commitment: At the selected world w, every candidate individual with…, from operari",
+  "legacy_id": "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI",
   "premise_statement_ids": [
-    "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
-    "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
-    "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT"
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31",
+    "4cd75e82-3338-5ef6-9636-da518844a519"
   ],
-  "conclusion_statement_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "conclusion_statement_id": "e27489c3-7419-5123-8476-386633e62532",
   "inference_ids": [
-    "INF-CAUSAL-POWER-CONCRETENESS-FROM-OPERARI"
+    "d04e47a8-9a60-5723-b56f-d7c31ef717c9"
   ],
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-ESSE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-IN-ACT"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ],
   "meaning": "Operari sequitur esse (owner request, #1103): with concrete meaning esse in re, the owner's causal principle (weak version: causal power and efficient causing) follows from three Aquinas readings. Causing, and having active power, require being in act in some respect (ST I q.75 a.2 co.; q.25 a.1 co.), and whatever is in act in some respect has being (q.4 a.1 ad 3). Not circular: causation and power are primitives of the signature, and concreteness is defined from InAct and esse, not from them. The derivation is conditional on its three premises, which remain open; it does not decide which candidates cause."
 }

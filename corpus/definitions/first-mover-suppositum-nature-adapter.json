@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
+  "id": "cd8adf42-1085-5d98-a799-1d086e5a3adb",
+  "label": "First-mover suppositum/nature…: The existing GodSuppositumIsNatureReading is explicitly required…",
+  "legacy_id": "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
   "term": "first-mover suppositum/nature applicability adapter",
   "definition": "The existing GodSuppositumIsNatureReading is explicitly required of the candidate predicate IsFirstUnmovedMover Moved Moves, without changing that predicate or introducing a new God predicate.",
   "basis": "stipulative",

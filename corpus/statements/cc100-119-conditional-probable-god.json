@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
+  "id": "c6463d43-5c58-5e45-8e9c-650265ade554",
+  "label": "If our cognitive faculties are designed and their design implies that probably God exists, then…",
+  "legacy_id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
   "paraphrase": "If our cognitive faculties are designed and their design implies that probably God exists, then probably God exists.",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "KLEIN-TURRI-INFINITISM",
+    "source_id": "d148e888-733b-5c82-8557-f453930be43d",
     "source_url": "https://iep.utm.edu/inf-epis/",
     "retrieved_at": "2026-10-28T20:18:44Z",
     "sha256": "sha256:9c78547cf7b03474b8d7a2e0d19e3dcd8afbbca01c89da299689d427b7676c4d",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "KLEIN-TURRI-INFINITISM-FULL",
+      "id": "39a1f43a-0bfd-5ea0-b517-87c29e4331b8",
+      "label": "Peter D. Klein and John Turri, Infinitism in Epistemology, Infinitism in Epistemology, sections…",
+      "legacy_id": "KLEIN-TURRI-INFINITISM-FULL",
       "locator": "Infinitism in Epistemology, sections 1–4 and references",
       "claim_locator_prefixes": [
         "§"

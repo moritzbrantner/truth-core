@@ -1,0 +1,14 @@
+{
+  "id": "838f0a12-9edf-53c3-ac20-e364ec8fa5c9",
+  "label": "OPEN, analyst formulation from ST I q.19 a.1 with q.14 a.1…, by Existential elimination…",
+  "legacy_id": "INF-INTELLECT-FORM-FROM-UNDERSTANDING",
+  "input_statement_ids": [
+    "64e174b3-3efb-510e-81cc-34bc054a9898",
+    "73b3d83a-3699-5b19-87bb-fc43364a47d8"
+  ],
+  "output_statement_id": "763e8f08-55ca-5e87-99dd-7423d6534073",
+  "rule": "Existential elimination, universal instantiation",
+  "meaning": "Whatever has intellect is in act through some intelligible form, through actual understanding as the middle term: whatever has intellect understands something (OPEN and contested: the human possible intellect before learning is a counterexample), and whatever understands something is in act through an intelligible form (OPEN q.14 a.2 / q.85 a.2 reading). The contested point of the target (power versus act of intellect) is isolated in the first premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

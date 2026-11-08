@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AYER-LTL-PELICAN",
+    "source_id": "1bbb77e6-62ac-5ee0-bbb4-0387b016e795",
     "source_url": "https://personal.lse.ac.uk/robert49/teaching/ph201/Week02_Ayer2.pdf",
     "retrieved_at": "2026-11-05T15:22:22Z",
     "sha256": "sha256:845934847b3fee64d25bec6be602c8f5b8706e2b2b91fcaf300070131a9912cf",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AYER-LTL-PELICAN-I-18-21",
+      "id": "b6f7c9ef-fbe7-56ef-adaf-e20244c1d42b",
+      "label": "A. J. Ayer, Language, Ch",
+      "legacy_id": "AYER-LTL-PELICAN-I-18-21",
       "locator": "ch. I, pp. 18-21",
       "claim_locator_prefixes": [
         "ch. I, p. 18",

@@ -1,19 +1,21 @@
 {
-  "id": "LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
+  "id": "f0c4146c-b8e7-5b34-a322-029c38219691",
+  "label": "In ONE explicit Unit-world/Bool-individual formal…, from Excluded middle as a general principle…",
+  "legacy_id": "LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL",
+  "conclusion_statement_id": "5b1bbaa6-8aa3-583a-8d6c-12d581c9281e",
   "inference_ids": [
-    "INF-LIMITATION-POSSIBILITY-SCOTT-SEPARATION-CONTROL"
+    "62bfa0c2-f4b4-5a7e-8ab3-fbe2afadb566"
   ],
   "meaning": "Under explicit EM, ONE Unit-world/Bool-individual fixture jointly satisfies known false-property limitation, target nonlimitation and backwards closure. Import the generic possibility theorem ONCE to obtain target possibility; the complementary target also has a displayed witness and is nonlimiting. Therefore global Scott A1a fails for P=nonlimitation. This is positive compatibility and constraint separation inside a new stated formal classifier, not deficiency truth, all other Scott axioms or a metaphysically possible necessary being.",
   "definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION",
-    "DEF-LIMITATION-POSSIBILITY-CONTROL",
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037",
+    "c2742e9e-4a8d-55b5-9df5-def25c68ee3a",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "758b7c41-a61e-538b-83ce-9cf416d6b605",
+  "label": "Map edges examined and rejected in the round-6 definition-fork batch",
+  "legacy_id": "ATTEMPT-ROUND6-DEFINITION-FORKS-REJECTED-EDGES",
+  "statement_ids": [
+    "3386b0bc-939e-5296-b517-86847f6b3b52",
+    "15de8ad9-6fba-5177-9345-aaee59f77be0",
+    "5e683514-cb24-5115-9dbf-9f09f5a475d5",
+    "9bc0a152-5dca-50bb-aac3-836dbe7a3bdf",
+    "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
+    "067cd417-4570-5684-a514-d9af55267442"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in the round-6 definition-fork batch. (1) Named Church coverage without the Church-is-spiritual inclusion, by excluded middle on 'every visible society is spiritual': the negative branch needs that inclusion for the joint case; a three-society model (visible {a}, spiritual {a,b,c}, Church {a,b}) is the shape of the gap. (2) Immediate-only reading fails from the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, the envoy-event witness and the exclusion: valid, but the existing elimination FOUNDING-BRIDGE-FROM-NAMED-READING-ELIMINATION derives the bridge from this conclusion, so the route is circular for closure; replaced by a God-founded envoy witness. (3) Envoy-inclusive reading and named reading coverage: any derivation needs the envoy bridge as the envoy-to-founding half, and the existing Inclusive result derives the bridge from the reading; circular for closure, no non-circular route found. (4) Matthew 28 goes back to Jesus: already a projection of the stronger open report bundle (COMMISSION-REPORT-BUNDLE-SUPPLIES-MATTHEW28); per-power historical premises would only re-transcribe it. (5) Heaven-ratified attestation criterion from a general multiple-attestation criterion over governing families: a single instantiation of a strictly stronger premise (strength order), not a derivation. Rejection records that a lead was examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "d3dd4601-36f0-51a2-a5f4-29fc87e49e84"
+  ]
+}

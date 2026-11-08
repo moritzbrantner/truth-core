@@ -1,6 +1,8 @@
 {
-  "id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
-  "argument_id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "id": "29abad8c-a597-5b90-ab59-8555e1e2af75",
+  "label": "Lemma EmptyEssL of Gödel's 1970 variant: at every world, the empty property is an ESSENCE_1, in the…",
+  "legacy_id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "argument_id": "5ac9e1b2-ba11-5f10-91d7-2ee486e04a98",
   "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.EmptyPropertyIsEssence.emptyPropertyIsEssence",

@@ -1,6 +1,8 @@
 {
-  "id": "ULTIMATE-ADEQUACY-COMPARISON",
-  "argument_id": "ULTIMATE-ADEQUACY-COMPARISON",
+  "id": "b2e2d761-2849-5b05-a2e7-661934fba53a",
+  "label": "On a shared Nat-event and Nat-bearer signature, Bool-pair scenario space, actual all-on context…",
+  "legacy_id": "ULTIMATE-ADEQUACY-COMPARISON",
+  "argument_id": "7f799953-e829-5d57-821e-6caee4a0641f",
   "challenge_module": "TruthCore.Results.Explanation.UltimateAdequacy.Challenge",
   "solution_module": "TruthCore.Results.Explanation.UltimateAdequacy.Solution",
   "theorem": "TruthCore.Results.Explanation.UltimateAdequacy.certificate",

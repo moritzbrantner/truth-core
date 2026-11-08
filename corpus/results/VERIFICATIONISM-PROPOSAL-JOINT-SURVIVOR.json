@@ -1,6 +1,8 @@
 {
-  "id": "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR",
-  "argument_id": "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR",
+  "id": "a50f9907-cccd-5538-a78d-970bad582992",
+  "label": "A joint concrete V4-style proposal reconstruction over the reused two-coordinate language",
+  "legacy_id": "VERIFICATIONISM-PROPOSAL-JOINT-SURVIVOR",
+  "argument_id": "21ab4da4-caf6-50e2-8856-e030973a2b63",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.ProposalSurvivor.certificate",

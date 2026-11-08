@@ -1,0 +1,12 @@
+{
+  "id": "9c38c467-f47a-50c1-bb58-e7ce8c4887ef",
+  "label": "Negation of the exact countertuple actual moved not potent…, from ability and incompleteness",
+  "legacy_id": "NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS",
+  "argument_id": "c97c86f5-3424-559f-ae6b-bf91562bb856",
+  "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
+  "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noMovedNotPotentCountertuple",
+  "comparator_config": "results/NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional refutation of the exact countertuple STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE. What is being moved toward r is able to be r (Metaphysics IX.3, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-ABLE-TO-BE-R) and is not yet actually r (Physics III.2, STMT-WHAT-IS-BEING-MOVED-TO-R-IS-NOT-YET-R); by the right-to-left direction of Metaphysics IX.6's analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY) it is then in potency to r. The countertuple must reject one of these three Aristotelian analyses; this route does not use the Physics III.1 analysis. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). Sense-relative: InAct, InPotency and CanBe must be read in one sense across the three premises (DISAMB-IN-ACT, DISAMB-POTENCY). The premises are open, so the refutation does not count for closure."
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-REASON-NECESSITATING",
+  "id": "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+  "label": "SUFFICIENT_REASON_2, necessitating sense: Necessitating A says that if r explains f at w then f is…",
+  "legacy_id": "DEF-PSR-REASON-NECESSITATING",
   "term": "sufficient reason, necessitating sense",
   "definition": "Necessitating A says that if r explains f at w then f is true at every world accessible from w where r is true.",
   "basis": "stipulative",

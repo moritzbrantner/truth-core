@@ -1,16 +1,18 @@
 {
-  "id": "HUME-ENQUIRY-V-CORRESPONDENCE-A",
-  "statement_id": "STMT-HUME-INDUCTION-CORRESPONDENCE",
-  "source_id": "HUME-ENQUIRY",
+  "id": "3104f447-2c2b-56b6-b895-734588891146",
+  "label": "David Hume, An Enquiry concerning Human…: Hume reports that the succession of ideas has so far…",
+  "legacy_id": "HUME-ENQUIRY-V-CORRESPONDENCE-A",
+  "statement_id": "cb54120b-cafc-5d53-85f7-64ee2e3e33d3",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "V, §21 (SBN 54–55)",
   "interpretation": "Recorded f n is a finite operational illustration of the retrospective content, not a claim Hume supplies a numerical sample, every idea is true, or the future must match. The correspondence is a concession to practical success; its ultimate ground is not demonstrated.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-RECORD",
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-TRIAL"
+    "8eaba896-98d9-52a7-83c2-bd44d790f08b",
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "b78ba9c8-06fe-55de-aed0-88fe924c0e6f"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

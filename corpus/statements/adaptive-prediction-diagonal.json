@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
+  "id": "2b0a7d08-8b7e-562e-926d-6738098ee652",
+  "label": "For each total deterministic finite-history binary predictor, one recursively constructed infinite…",
+  "legacy_id": "STMT-ADAPTIVE-PREDICTION-DIAGONAL",
   "paraphrase": "For each total deterministic finite-history binary predictor, one recursively constructed infinite stream has coherent truthful histories, a wrong prediction at every round, and exactly n mistakes at every horizon n, using the existing FallibleCorrection.mistakes. The stream depends on the predictor; this does not assert a single stream defeats all predictors or identify prediction failure with semantic indeterminacy.",
   "lean_declaration": "TruthCore.Logic.AdaptivePrediction.DiagonalBoundary",
   "definition_ids": [
-    "DEF-ADAPTIVE-TRUTHFUL-PREDICTION",
-    "DEF-FALLIBLE-WEIGHTED-CORRECTION"
+    "b98dc739-5b36-5952-a0cf-597185db8d5a",
+    "0331d7b3-ad25-59d1-b4c2-94218ddda0ca"
   ],
   "disambiguation_ids": [
-    "DISAMB-ADAPTIVE-FAILURE-AND-WARRANT",
-    "DISAMB-FALLIBLE-CORRECTION-AND-WARRANT"
+    "4b2e6ada-7f7e-52b9-9c8b-59fd2fb7f48c",
+    "1e0e196b-d327-508d-bad1-31df3e27d587"
   ]
 }

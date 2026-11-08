@@ -1,9 +1,11 @@
 {
-  "id": "DEF-TLP-NONSENSE-ILLUMINATING",
+  "id": "44b1fb35-d7ec-57fc-8a89-1830af53e0ce",
+  "label": "NONSENSE_1: Unsinn that fails to say anything yet gestures at something that shows itself and…",
+  "legacy_id": "DEF-TLP-NONSENSE-ILLUMINATING",
   "term": "nonsense (Tractatus, traditional reading)",
   "definition": "Unsinn that fails to say anything yet gestures at something that shows itself and cannot be said (the mystical).",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-WITTGENSTEIN-2-4-TRADITIONAL-A"
+    "55623738-68e0-5e39-a775-0caacd3eb9f1"
   ]
 }

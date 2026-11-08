@@ -28,6 +28,7 @@ from pathlib import Path
 from typing import Any
 
 import source_evidence as se
+from corpus_ids import KIND_DIRS, as_uuid_record, is_uuid, legacy_uuid  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 ATTRIBUTION_PREFIX = "The passage states "
@@ -91,7 +92,17 @@ def read_at(revision: str | None, path: str) -> dict[str, Any] | None:
         ).stdout
     except subprocess.CalledProcessError:
         return None
-    return json.loads(text)
+    record = json.loads(text)
+    # A revision from before the uuid migration is compared under the same ids.
+    directory = Path(path).parent.name
+    if directory in KIND_DIRS and directory != "passages":
+        return as_uuid_record(KIND_DIRS[directory], record)
+    if directory == "passages" and isinstance(record, dict):
+        record["passages"] = [as_uuid_record("passage", passage) for passage in record.get("passages", [])]
+        snapshot = record.get("snapshot")
+        if isinstance(snapshot, dict) and isinstance(snapshot.get("source_id"), str) and not is_uuid(snapshot["source_id"]):
+            snapshot["source_id"] = legacy_uuid("source", snapshot["source_id"])
+    return record
 
 
 def records_by_id(paths: list[str], directory: str, revision: str | None) -> dict[str, dict[str, Any]]:
@@ -106,15 +117,31 @@ def records_by_id(paths: list[str], directory: str, revision: str | None) -> dic
     return records
 
 
-def changed_passage_ids(paths: list[str]) -> set[str]:
-    """Passages whose manifest the change adds or edits (as in the working tree)."""
+def changed_passage_ids(paths: list[str], base: str | None = None) -> set[str]:
+    """Passages whose manifest the change adds or edits (as in the working tree).
+
+    With `base`, a manifest whose snapshot and passages are unchanged apart from
+    identity (uuid ids, labels) changes no passage."""
     changed = set()
     for path in paths:
         if path.startswith("corpus/passages/") and path.endswith(".json"):
             manifest = read_at(None, path)
-            if manifest:
-                changed.update(passage["id"] for passage in manifest.get("passages", []) if "id" in passage)
+            if not manifest:
+                continue
+            if base is not None:
+                before = read_at(base, path)
+                if before is not None and without_labels(before) == without_labels(manifest):
+                    continue
+            changed.update(passage["id"] for passage in manifest.get("passages", []) if "id" in passage)
     return changed
+
+
+def without_labels(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {key: without_labels(item) for key, item in value.items() if key != "label"}
+    if isinstance(value, list):
+        return [without_labels(item) for item in value]
+    return value
 
 
 def changed_claims(
@@ -139,7 +166,7 @@ def changed_claims(
         for statement_id, after in records_by_id(paths, "statements", None).items()
         if statement_id in before_statements and before_statements[statement_id].get("paraphrase") != after.get("paraphrase")
     }
-    changed_passages = changed_passage_ids(paths)
+    changed_passages = changed_passage_ids(paths, base)
     if changed_statements or changed_passages:
         passages = passages if passages is not None else se.passage_index()
         for _, claim in se.load_json_dir("claims"):
@@ -203,7 +230,7 @@ def report(base: str, *, materialize: bool, max_chars: int) -> tuple[str, list[s
     lines: list[str] = []
     problems: list[str] = []
     claims = changed_claims(base, passages)
-    edited = changed_passage_ids(changed_paths(base)) if claims else set()
+    edited = changed_passage_ids(changed_paths(base), base) if claims else set()
     if not claims:
         return f"attribution-check: no new or changed stating claim since {base}", []
     lines.append(f"attribution-check: {len(claims)} new or changed stating claim(s) since {base}")

@@ -1,0 +1,18 @@
+{
+  "id": "0d28f7f1-479f-5751-947a-f3bab5b63601",
+  "label": "A body that is being moved in a respect of uniform rectilinear MOTION_1, with nothing moving it in…",
+  "legacy_id": "STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE",
+  "paraphrase": "Open bridge, analyst formulation (attribution deferred): a body that is being moved in a respect of uniform rectilinear motion, with nothing moving it in that respect, perseveres in that motion. Newton's Lex I and Def. III motivate it (the inertial case of perseverance) but do not state it in the case's MovedIn/MovesIn vocabulary.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.MoverlessUniformMotionIsPerseveranceReading",
+  "definition_ids": [
+    "fc8cc73a-13b4-5694-9270-123389a1b506",
+    "ff80ac33-b0be-511a-a7e9-290f6a7be7fb",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "ce9075bd-ebe1-5223-a8f4-cbf00ed84f6d",
+    "90cb2e36-4292-5a78-8217-7aab88ded1b8"
+  ]
+}

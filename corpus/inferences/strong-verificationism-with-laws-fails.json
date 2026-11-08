@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "id": "622c79c8-4916-5638-91a1-b941e658f921",
+  "label": "For any frame and meaningfulness predicate closed under negation, the V1…, by Constructive-proof",
+  "legacy_id": "INF-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
   "input_statement_ids": [
-    "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK"
+    "3f979107-8ac1-557c-8e10-b3cfa3a7ba78"
   ],
-  "output_statement_id": "STMT-STRONG-VERIFICATIONISM-WITH-LAWS-FAILS",
+  "output_statement_id": "7a6a60f5-1cdd-52bc-9ea3-f213214c277a",
   "rule": "constructive-proof",
   "meaning": "Defeat 2 made to count, from the floor item STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK. By STRONG-VERIFICATION-EXCLUDES-LAWS the negation of the testable law is conclusively verifiable, so by V1 it is meaningful; by closure its negation, the law's double negation, is meaningful; by V1 it is then analytic or conclusively verifiable. It is not analytic, since analytic sentences are valid and it fails where the possible counterinstance holds; and it is not conclusively verifiable, by the same argument as for the law. So the V1 package fails, including in its 'laws are important nonsense' form. Refutes STMT-STRONG-VERIFICATIONISM-WITH-LAWS.",
   "assumption_statement_ids": [],

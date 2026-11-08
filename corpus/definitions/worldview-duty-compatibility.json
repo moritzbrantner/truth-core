@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
+  "id": "deefafab-16f0-587e-b704-63ee447ae99d",
+  "label": "Compatibility with an objective-duty…: A worldview is compatible with specified content d just…",
+  "legacy_id": "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
   "term": "compatibility with an objective-duty claim",
   "definition": "A worldview is compatible with specified content d just when there is a world that satisfies all the worldview's accepted contents and also makes d true. For the objective-duty reading, the content d expresses the duty; its truth at the designated actual world is a separate hypothesis. Mere compatibility does not entail that the worldview explicitly endorses d.",
   "basis": "stipulative",

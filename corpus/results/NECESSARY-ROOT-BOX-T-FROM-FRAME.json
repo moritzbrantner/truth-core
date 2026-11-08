@@ -1,0 +1,13 @@
+{
+  "id": "aa8d4941-d1ad-5df8-a06a-5d2e96008247",
+  "label": "Necessary-being node, possibilist box reading in frame class KT: there is an actual…, from frame",
+  "legacy_id": "NECESSARY-ROOT-BOX-T-FROM-FRAME",
+  "argument_id": "a794e8fa-e003-564c-aacb-19ef8bc5d199",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxTFromFrame",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-T-FROM-FRAME/comparator.json",
+  "status": "solution-present",
+  "description": "The T branch of the sense fork: the route's K node plus the OPEN premise of reflexivity on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls.",
+  "transcription": "assembly"
+}

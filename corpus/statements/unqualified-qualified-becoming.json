@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNQUALIFIED-AND-QUALIFIED-BECOMING",
+  "id": "3d01d789-425a-5e33-b9f1-39b654a8b61b",
+  "label": "Only substances come to be without qualification; changes in other categories are qualified…",
+  "legacy_id": "STMT-UNQUALIFIED-AND-QUALIFIED-BECOMING",
   "paraphrase": "Only substances come to be without qualification; changes in other categories are qualified becomings that presuppose an underlying subject.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnqualifiedAndQualifiedBecomingReading"
 }

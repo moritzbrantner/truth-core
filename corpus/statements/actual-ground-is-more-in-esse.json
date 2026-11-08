@@ -1,0 +1,16 @@
+{
+  "id": "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b",
+  "label": "Whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than b",
+  "legacy_id": "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE",
+  "paraphrase": "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than b (MoreIn esse a b, the quarta via's grades). Equal-grade grounding would falsify it.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ActualGroundIsMoreInEsse",
+  "definition_ids": [
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
+  ]
+}

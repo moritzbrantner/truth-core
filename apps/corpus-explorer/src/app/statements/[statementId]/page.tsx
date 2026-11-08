@@ -14,8 +14,12 @@ import {
   claimsForStatement,
   findClaim,
   findSource,
+  displayId,
+  displayName,
   findStatement,
   getCorpus,
+  recordHref,
+  recordRef,
   resultsForArgument,
 } from "@/lib/corpus";
 import { sourceAttribution } from "@/lib/source-attribution";
@@ -52,6 +56,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
   const versions = (report.strength_order ?? []).filter(
     (entry) => entry.strong_statement_id === statement.id || entry.weak_statement_id === statement.id,
   );
+  const name = (id: string) => displayName(corpus, id);
+  const ident = (id: string) => displayId(corpus, id);
   const describe = (id: string) => findStatement(corpus, id)?.paraphrase ?? findClaim(corpus, id)?.paraphrase ?? id;
 
   return (
@@ -61,7 +67,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
       </Link>
       <div className="mt-10 flex flex-wrap items-center gap-3">
         <StatementStateMark state={state} />
-        <p className="font-mono text-xs break-all text-[var(--muted)]">{statement.id}</p>
+        <p className="font-mono text-xs break-all text-[var(--muted)]">{ident(statement.id)}</p>
       </div>
       <h1 className="mt-5 font-serif text-4xl leading-[1.02] tracking-[-0.04em] sm:text-5xl">{statement.paraphrase}</h1>
 
@@ -94,12 +100,12 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 {state.item.path_to_root.map((step, index) => (
                   <span key={`${step}-${index}`}>
                     {index ? " → " : ""}
-                    {step.startsWith("STMT-") ? (
-                      <Link className="link-quiet font-mono text-xs" href={`/statements/${step}`}>
-                        {step}
+                    {recordRef(corpus, step)?.kind === "statement" ? (
+                      <Link className="link-quiet text-xs" href={`/statements/${step}`} title={ident(step)}>
+                        {name(step)}
                       </Link>
                     ) : (
-                      <span className="font-mono text-xs">{step}</span>
+                      <span className="text-xs" title={ident(step)}>{name(step)}</span>
                     )}
                   </span>
                 ))}
@@ -131,8 +137,8 @@ export default async function StatementPage({ params }: StatementPageProps) {
             <ul className="mt-2 grid gap-1">
               {statement.self_evident.justification_ids.map((id) => (
                 <li key={id}>
-                  <Link className="link-quiet font-mono text-xs" href={findClaim(corpus, id) ? `/claims/${id}` : `/results/${id}`}>
-                    {id}
+                  <Link className="link-quiet font-mono text-xs" href={findClaim(corpus, id) ? `/claims/${id}` : `/results/${id}`} title={ident(id)}>
+                    {name(id)}
                   </Link>{" "}
                   <span className="text-[var(--muted)]">{describe(id)}</span>
                 </li>
@@ -144,9 +150,9 @@ export default async function StatementPage({ params }: StatementPageProps) {
           <p className="mt-4 text-sm leading-6 text-[var(--muted)]">
             Carried by transcription{" "}
             <Link className="link-quiet font-mono text-xs" href={`/results/${closure.result_id}`}>
-              {closure.result_id}
+              {name(closure.result_id)}
             </Link>{" "}
-            from closed premises {closure.premise_statement_ids.join(", ")}.
+            from closed premises {closure.premise_statement_ids.map(name).join(", ")}.
           </p>
         ) : null}
       </section>
@@ -167,7 +173,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
                     <ResultKindMark kind={resultKind(report, result.id)} />
                     <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{argument.meaning}</p>
                     <p className="mt-2 font-mono text-xs text-[var(--muted)]">
-                      {result.id} · {argument.premise_statement_ids.length} premises
+                      {name(result.id)} · {ident(result.id)} · {argument.premise_statement_ids.length} premises
                     </p>
                   </Link>
                 ))
@@ -175,7 +181,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 <div className="record-link" key={argument.id}>
                   <span className="eyebrow">Argument without a result</span>
                   <p className="mt-3 text-sm leading-6 text-[var(--muted)]">{argument.meaning}</p>
-                  <p className="mt-2 font-mono text-xs text-[var(--muted)]">{argument.id}</p>
+                  <p className="mt-2 font-mono text-xs text-[var(--muted)]">{name(argument.id)} · {ident(argument.id)}</p>
                 </div>
               );
             })}
@@ -199,7 +205,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
                   </span>
                   <span className="mt-1 block text-sm leading-6 text-[var(--muted)]">{claim.interpretation}</span>
                   <span className="mt-1 block font-mono text-xs text-[var(--muted)]">
-                    {claim.id} · passage {claim.passage.id}
+                    {name(claim.id)} · {ident(claim.id)} · passage {name(claim.passage.id)}
                   </span>
                 </Link>
               );
@@ -209,7 +215,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 <span className="eyebrow">Linked as support (not a direct attribution or inference)</span>
                 <span className="mt-1 block font-serif text-lg">{describe(relation.subject_id)}</span>
                 {relation.note ? <span className="mt-1 block text-sm leading-6 text-[var(--muted)]">{relation.note}</span> : null}
-                <span className="mt-1 block font-mono text-xs text-[var(--muted)]">{relation.subject_id}</span>
+                <span className="mt-1 block font-mono text-xs text-[var(--muted)]">{ident(relation.subject_id)}</span>
               </Link>
             ))}
           </div>
@@ -235,11 +241,11 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 <li key={entry.relation_id}>
                   <p className="font-mono text-sm break-all">
                     <Link className={isStrong ? "font-semibold" : "link-quiet"} href={`/statements/${entry.strong_statement_id}`}>
-                      {entry.strong_statement_id}
+                      {name(entry.strong_statement_id)}
                     </Link>
                     {" ⇒ "}
                     <Link className={isStrong ? "link-quiet" : "font-semibold"} href={`/statements/${entry.weak_statement_id}`}>
-                      {entry.weak_statement_id}
+                      {name(entry.weak_statement_id)}
                     </Link>
                   </p>
                   <p className="mt-2 font-serif text-lg leading-snug">
@@ -247,10 +253,10 @@ export default async function StatementPage({ params }: StatementPageProps) {
                     {describe(isStrong ? entry.weak_statement_id : entry.strong_statement_id)}
                   </p>
                   <p className="mt-1 text-sm text-[var(--muted)]">
-                    Entailment proved by <Link className="link-quiet" href={`/results/${entry.result_id}`}>{entry.result_id}</Link>
+                    Entailment proved by <Link className="link-quiet" href={`/results/${entry.result_id}`}>{name(entry.result_id)}</Link>
                     {entry.strictness_result_id ? (
                       <>
-                        ; strict by <Link className="link-quiet" href={`/results/${entry.strictness_result_id}`}>{entry.strictness_result_id}</Link>
+                        ; strict by <Link className="link-quiet" href={`/results/${entry.strictness_result_id}`}>{name(entry.strictness_result_id)}</Link>
                       </>
                     ) : null}
                     {notes.length ? ` · ${notes.join(" · ")}` : ""}
@@ -280,7 +286,7 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 >
                   <div className="flex flex-wrap items-center gap-2">
                     {results.length ? <ResultKindMark kind={resultKind(report, results[0].id)} /> : <span className="eyebrow">No result</span>}
-                    <span className="eyebrow">premise of {argument.id}</span>
+                    <span className="eyebrow">premise of {name(argument.id)}</span>
                   </div>
                   <p className="mt-3 font-serif text-xl leading-snug">⇒ {conclusion?.paraphrase ?? argument.conclusion_statement_id}</p>
                 </Link>
@@ -310,7 +316,15 @@ export default async function StatementPage({ params }: StatementPageProps) {
                 ) : (
                   <li key={relation.id}>
                     <span className="eyebrow">{phrase}</span>
-                    <p className="mt-2 font-mono text-sm">{other}</p>
+                    {(() => {
+                      const ref = recordRef(corpus, other);
+                      const href = ref ? recordHref(ref) : undefined;
+                      return href ? (
+                        <Link className="link-quiet mt-2 block text-sm" href={href} title={ident(other)}>{name(other)}</Link>
+                      ) : (
+                        <p className="mt-2 text-sm" title={ident(other)}>{name(other)}</p>
+                      );
+                    })()}
                   </li>
                 );
               })}

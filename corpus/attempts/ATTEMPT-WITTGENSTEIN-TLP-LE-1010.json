@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-WITTGENSTEIN-TLP-LE-1010",
+  "id": "f2535d40-83cc-5580-92c5-485bcfae672f",
+  "label": "Read the German Tractatus from the Gutenberg #5740 LaTeX source and the Lecture on Ethics from the…",
+  "legacy_id": "ATTEMPT-WITTGENSTEIN-TLP-LE-1010",
   "statement_ids": [
-    "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
-    "STMT-NATURAL-THEOLOGY-ARGUABLE",
-    "STMT-LE-WONDER-AT-EXISTENCE-NONSENSE"
+    "a0747bd7-56eb-5413-b598-f9cfbbce056a",
+    "b6fc0e98-61cf-599b-8cad-ff2c17835a75",
+    "ffedc67e-b671-560c-ae6e-c0a8e5337515"
   ],
   "date": "2026-11-05",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Read the German Tractatus (Preface, 4.003, 4.01, 4.11-4.112, 6.4-6.522, 7) from the Gutenberg #5740 LaTeX source and the Lecture on Ethics from the Wittgenstein Project, with the traditional and resolute readings reported in SEP Wittgenstein §2.4. 6.53-6.54 left to #1008. Findings: the Tractatus is a meaning-theoretic rival to the arguability of natural theology only on its traditional reading, and only as an unattributed reconstruction from 4.003, 4.11, 6.42 and 6.432 (none states it); on the resolute reading the book points at no ineffable truths, so the reconstruction is not the book's thesis. No route premise states arguability, so no route leaf gains a rival. The Lecture on Ethics holds that the expression of wonder at the world's existence is nonsense because its non-existence is unimaginable, and says that 'God created the world' referred to that experience; extending this to the statementhood of 'the world exists' (a candidate F2) is an unattributed reconstruction needing a bridge from the imaginability condition for wonder to a condition of sense for existence assertions, not recorded. Lean: not built. Applying the tautology remarks (4.46-4.462) to necessary-being claims needs an unrecorded bridge identifying the necessity of a being with the logical necessity of the proposition (DISAMB-NECESSARY keeps them apart); given that bridge the remaining step is a two-line unfolding with no new logical content.",
   "evidence": [
-    "WITTGENSTEIN-TLP-4-11-NATURAL-SCIENCE",
-    "WITTGENSTEIN-TLP-6-432-GOD-NOT-REVEALED",
-    "SEP-WITTGENSTEIN-2-4-RESOLUTE-A",
-    "WITTGENSTEIN-LE-WONDER-AT-EXISTENCE"
+    "f03146a3-2198-522a-a5ba-787f05b1c4cb",
+    "8fbdedaf-d347-5c9c-a805-d02aca12ce9e",
+    "31b04d2e-8e89-5c29-ac3f-4179a23d5ca7",
+    "7920675c-4424-53fa-8755-bbe9200ea2f2"
   ],
   "blocker": "The Lectures and Conversations on Religious Belief (1938; ed. Barrett 1966) are students' notes in copyright with no hosted copy; they enter only as SEP-RELIGIOUS-LANGUAGE §4.2 reports them."
 }

@@ -1,14 +1,16 @@
 {
-  "id": "NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING",
-  "statement_id": "STMT-PILOT-REPORT-ACTS-BROTHERS-PRAYING",
-  "source_id": "NT-ACTS",
+  "id": "7b9256cc-3a81-54da-98a8-b6d475b684f4",
+  "label": "New Testament, Acts 1.13-14: Acts places Jesus’s brothers with the apostles, women and Mary…",
+  "legacy_id": "NT-ACTS-PILOT-ACTS-BROTHERS-PRAYING",
+  "statement_id": "05894608-004e-5af8-9e79-4fc0b536bfdd",
+  "source_id": "79747e01-8944-50bb-9357-eafa221aa7ea",
   "locator": "1.13-14",
   "interpretation": "The passage does not name the brothers, explicitly state James’s conversion or narrate its cause. Reading participation as belief is an additional historical bridge.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-DISTINCT-WOULD-DOUBLE-A",
-  "statement_id": "STMT-DISTINCT-AGENCY-PATIENCY-WOULD-DOUBLE-ALTERATION",
-  "source_id": "ARIST-PHYS",
+  "id": "f6e6aed6-cf91-5991-a1fe-6d9e8f7fe6cd",
+  "label": "Aristotle, Physics III.3, 202a25-35: If agency and patiency were two distinct motions in the…",
+  "legacy_id": "ARIST-PHYS-202A-DISTINCT-WOULD-DOUBLE-A",
+  "statement_id": "98858b60-86e0-5100-bae6-e298b77a44c3",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a25-35",
   "interpretation": "Argument-premise reading of Aristotle's objection analysis: if agency and patiency were distinct motions located in the patient, the single patient would undergo two alterations toward one and the same definite form.",
   "status": "formalized"

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ContingentBeingNodeReconciled.noNecessaryActYieldsAll"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

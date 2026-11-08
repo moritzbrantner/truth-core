@@ -1,16 +1,18 @@
 {
-  "id": "DEF-CC100-84-FACT-UNIFIER",
+  "id": "5b2623de-6bc4-5d2c-9bc2-97c49681ae37",
+  "label": "FACT_UNITY_3, external fact-unifier and…: Facts have constituent unity",
+  "legacy_id": "DEF-CC100-84-FACT-UNIFIER",
   "term": "fact unity, external fact-unifier and worldwise mind in #84",
   "definition": "Facts have constituent unity. An external fact-unifier is external to the selected unified fact; no formal cause, explanation or concrete bearer relation is selected. Worldwise existence allows different facts, unifiers and minds in different worlds. Capability for fact-unification differs from actual exercised fact-unification.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-84-FACT-UNITIES",
-    "CC100-84-EXTERNAL-FACT-UNIFIER",
-    "CC100-84-WORLDWISE-FACT-EXISTENCE",
-    "CC100-84-WORLDWISE-UNIFIER-CONCLUSION",
-    "CC100-84-DE-RE-MIND-RESTRICTION",
-    "CC100-84-DISTRIBUTIVE-MIND-RESTRICTION",
-    "CC100-84-WORLDWISE-MIND-CONCLUSION"
+    "81a39824-982a-5baa-9a25-c677d4a6d006",
+    "e14243d6-a5d0-5c46-91c1-ae8f6ef6d28e",
+    "01945217-489f-5731-872e-8384bb89cf7d",
+    "312b7734-5a8b-574f-bbb5-5175788c9b0f",
+    "36acde79-4146-5ff6-8aaa-09bbb4cb06ea",
+    "4b7d13e3-5c68-5911-8841-84860a8f8619",
+    "6bb642a1-a9f0-5a82-a3fd-4f91542c65f2"
   ],
   "note": "No common numerical source, unique mind, rigid necessary individual, causal adequacy or fact-to-being identity. Mind’s world-relative applicability and the de-re versus distributive scope of step6 require interpretation."
 }

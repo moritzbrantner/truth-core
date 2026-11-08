@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-STRONG-DILEMMA",
-  "argument_id": "SCIENTISM-STRONG-DILEMMA",
+  "id": "0a3d0ed8-773c-5878-8bbb-aaa61e654d3e",
+  "label": "The scientism dilemma: if scientism…, from Scope premise: the formulation of scientism… and 1 more",
+  "legacy_id": "SCIENTISM-STRONG-DILEMMA",
+  "argument_id": "98451a18-269e-51a6-8469-7632b1b9f83f",
   "challenge_module": "TruthCore.Results.Logic.Scientism.StrongDilemma.Challenge",
   "solution_module": "TruthCore.Results.Logic.Scientism.StrongDilemma.Solution",
   "theorem": "TruthCore.Results.Logic.Scientism.StrongDilemma.strongScientismDilemma",

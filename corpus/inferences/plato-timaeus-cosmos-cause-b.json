@@ -1,10 +1,12 @@
 {
-  "id": "INF-PLATO-TIM-COSMOS-CAUSE-B",
+  "id": "f52ff72b-539d-51be-8802-d602ee1fd03e",
+  "label": "The cosmos has a CAUSE_2 distinct from itself, by Principle application",
+  "legacy_id": "INF-PLATO-TIM-COSMOS-CAUSE-B",
   "input_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-DISTINCT",
-    "STMT-COSMOS-GENERATED"
+    "9709d14f-1324-58f1-8889-1110881c5b44",
+    "5a1cc285-fc48-5e4b-afd3-53fd40976f62"
   ],
-  "output_statement_id": "STMT-COSMOS-HAS-DISTINCT-CAUSE",
+  "output_statement_id": "d9d4f9ed-692a-5a2e-b2ff-d749c31a49e4",
   "rule": "principle_application",
   "meaning": "Apply the distinct-cause principle to the generated cosmos.",
   "assumption_statement_ids": [],

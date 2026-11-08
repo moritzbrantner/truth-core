@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
+  "id": "0a4a4f75-f7e6-5543-8547-07de3402769c",
+  "label": "At every world, a positive property is necessarily positive: Scott's axiom A4 and, with the same…",
+  "legacy_id": "STMT-SCOTT-POSITIVE-NECESSARILY-POSITIVE",
   "paraphrase": "At every world, a positive property is necessarily positive: Scott's axiom A4 (AFP GoedelGod.thy) and, with the same formula, Gödel's 1970 axiom Ax2b (AFP GoedelVariantHOML1.thy), each about its own theory's positivity constant (DISAMB-POSITIVE).",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.PositiveNecessarilyPositive",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970",
-    "DEF-POSITIVE-PROPERTY-SCOTT",
-    "DEF-QML-KB-NECESSITY"
+    "6300d642-4116-591e-bac8-7af32093ea6d",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "disambiguation_ids": [
-    "DISAMB-POSITIVE"
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

@@ -1,10 +1,31 @@
 {
-  "id": "DISAMB-SPATIAL-REASON-SUFFICIENCY",
+  "id": "f2ec41bf-3c75-5a75-9da3-296c659d2e98",
+  "label": "Sufficient reason for indifferent spatial alternatives",
+  "legacy_id": "DISAMB-SPATIAL-REASON-SUFFICIENCY",
   "term": "sufficient reason for indifferent spatial alternatives",
   "sense_definition_ids": [
-    "DEF-LEIBNIZ-SPATIAL-CONTRASTIVE-REASON",
-    "DEF-CLARKE-VOLITIONAL-SUFFICIENT-REASON",
-    "DEF-SPATIAL-COVARIANT-SELECTION"
+    "920f6d09-a72b-5803-992a-1ce4e4f161e5",
+    "225ab841-da64-54bc-b514-43d14e491518",
+    "09647946-7746-53aa-bf95-eba15c4290a6"
   ],
-  "resolution": "Leibniz demands a contrastive explanation of the selected placement; Clarke allows intrinsic volition without an external difference. Both profess sufficient reason. The analyst covariance norm is a third, explicitly added condition, not either source’s unqualified PSR. The no-selector theorem therefore does not refute Clarke or prove relationalism from PSR alone."
+  "resolution": "Leibniz demands a contrastive explanation of the selected placement; Clarke allows intrinsic volition without an external difference. Both profess sufficient reason. The analyst covariance norm is a third, explicitly added condition, not either source’s unqualified PSR. The no-selector theorem therefore does not refute Clarke or prove relationalism from PSR alone.",
+  "term_label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES",
+  "senses": [
+    {
+      "id": "ce52cb80-088a-4672-8723-ac8a897fcb17",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_1",
+      "definition_id": "920f6d09-a72b-5803-992a-1ce4e4f161e5"
+    },
+    {
+      "id": "a3a474ba-f63d-4b32-a947-68cb06c3d852",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_2",
+      "definition_id": "225ab841-da64-54bc-b514-43d14e491518"
+    },
+    {
+      "id": "de34f50c-d597-4ed4-81ff-30f07785988f",
+      "label": "SUFFICIENT_REASON_FOR_INDIFFERENT_SPATIAL_ALTERNATIVES_3",
+      "definition_id": "09647946-7746-53aa-bf95-eba15c4290a6",
+      "lean_declaration": "TruthCore.Space.TranslationBoundary.Covariant"
+    }
+  ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-115-NATURALIST-WITHHOLDING-FORK",
+  "id": "c33d0d85-3ecf-542f-8832-14bfbc768a5f",
+  "label": "If there is no plausible truth-linked naturalistic aetiology of the intelligibility intuition…",
+  "legacy_id": "STMT-CC100-115-NATURALIST-WITHHOLDING-FORK",
   "paraphrase": "If there is no plausible truth-linked naturalistic aetiology of the intelligibility intuition, naturalists ought to withhold either the intelligibility intuition or naturalism.",
   "definition_ids": [
-    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+    "c54f91c6-f3d4-5443-8308-58f92635e79d"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

@@ -1,8 +1,10 @@
 {
-  "id": "STMT-INHABITED-CARRIER",
+  "id": "a3da82ee-d99d-5dd5-8e47-f7ade93a369a",
+  "label": "The supplied mathematical carrier has an inhabitant",
+  "legacy_id": "STMT-INHABITED-CARRIER",
   "lean_declaration": "Nonempty",
   "paraphrase": "The supplied mathematical carrier has an inhabitant. This is candidate-domain inhabitation, not actual existence at a world, concreteness or a populated actual ontology.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-DOMAIN"
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d"
   ]
 }

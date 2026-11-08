@@ -1,0 +1,12 @@
+{
+  "id": "db9175af-5a90-5cb2-b3e0-b8e25537be88",
+  "label": "At the selected world w, for any c and x, if x is actual and CONCRETE_6, c is…, via dependence",
+  "legacy_id": "ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
+  "argument_id": "915ad35a-9568-5d7f-ae3c-3543721fd28c",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.esseCauseGroundViaDependence",
+  "comparator_config": "results/ESSE-CAUSE-GROUND-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the esse-cause bridge: a cause c, distinct from an actual concretum x, of x's esse is concrete (causal-capacity premise) and exists at w (only actual things cause esse), so it is an actual concretum; x depends for its being on c (q.44 a.1 ad 2 read for causes of esse); and dependence between actual concreta is grounding. Four OPEN premises; the dependence bridge carries only one direction."
+}

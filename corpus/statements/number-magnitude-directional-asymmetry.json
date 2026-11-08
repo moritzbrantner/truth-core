@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NUMBER-MAGNITUDE-DIRECTIONAL-ASYMMETRY",
+  "id": "4c5be78c-a4f6-5e93-b3d6-25a39d78e17c",
+  "label": "Number has an indivisible lower bound but no assigned upper bound, whereas magnitude is…",
+  "legacy_id": "STMT-NUMBER-MAGNITUDE-DIRECTIONAL-ASYMMETRY",
   "paraphrase": "Number has an indivisible lower bound but no assigned upper bound, whereas magnitude is indefinitely divisible toward smaller magnitudes without becoming actually infinite by increase.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NumberMagnitudeDirectionalAsymmetryReading"
 }

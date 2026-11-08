@@ -1,0 +1,14 @@
+{
+  "id": "d9daeb1e-1749-5473-9fae-04184dd5e40c",
+  "label": "IN-ACT_3, inclusive reading: nothing is in act formally or virtually and in POTENCY_1 in the same…",
+  "legacy_id": "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY",
+  "paraphrase": "IN-ACT_3, inclusive reading (attribution deferred): nothing is in act formally or virtually and in potency in the same respect. Stronger than the formal reading: it also excludes having a perfection virtually while being in potency to it formally.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingInActFormallyOrVirtuallyAndInPotency",
+  "definition_ids": [
+    "115f23e3-2a19-5dcb-bc7f-96408004f110",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

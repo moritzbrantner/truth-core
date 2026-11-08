@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "id": "7edad3eb-cf0f-590a-86af-1daf4890cdb8",
+  "label": "For any shared Being/Respect vocabulary, under explicitly supplied decisions of Being equality and…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-EQUIVALENCE",
+  "argument_id": "03b67769-ecf5-5c7a-93fa-172246f55540",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.exactDelta",

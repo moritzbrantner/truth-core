@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
+  "id": "5ee388cc-b607-57b9-b7dd-4530987a95d1",
+  "label": "Mathematical infinite greatest region…: Point is Fin 3 → ℝ and Region is Set Point under…",
+  "legacy_id": "DEF-MATHEMATICAL-INFINITE-GREATEST-WHOLE",
   "term": "mathematical infinite greatest region and its coordinate extent",
   "definition": "Point is Fin 3 → ℝ and Region is Set Point under inclusion. whole is Set.univ. Both whole and the family of all regions are infinite; the family is order-bounded above by whole. coordinates s is the first-coordinate image of s in ℝ. Unboundedness of coordinates whole concerns the real order, not the region inclusion order, metric norm or intensive perfection. The explicit two-singleton subfamily has incomparable maximal elements and no greatest member.",
   "basis": "stipulative",

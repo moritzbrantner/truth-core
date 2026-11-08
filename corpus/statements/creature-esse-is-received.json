@@ -1,0 +1,14 @@
+{
+  "id": "29e71e43-1d34-5008-8811-897fbddda209",
+  "label": "The esse of every creature is received in some principle",
+  "legacy_id": "STMT-CREATURE-ESSE-IS-RECEIVED",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.2 co.: the esse of every creature is received in some principle. The passage says it of a subsistent created form, whose esse is 'receptum et contractum'; the generalization to every creature is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CreatureEsseIsReceived",
+  "definition_ids": [
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "4433942e-aaf6-55a9-b777-66e55638103d"
+  ],
+  "disambiguation_ids": [
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

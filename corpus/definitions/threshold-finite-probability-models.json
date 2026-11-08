@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
+  "id": "50615194-355b-576c-897b-5e30289d0e2f",
+  "label": "Finite uniform and skew threshold…: Uniform N is Mathlib ProbabilityTheory.uniformOn of the…",
+  "legacy_id": "DEF-THRESHOLD-FINITE-PROBABILITY-MODELS",
   "term": "finite uniform and skew threshold probability models",
   "definition": "uniform N is Mathlib ProbabilityTheory.uniformOn of the universal Fin N sample set; meaningful lottery applications explicitly require N>0. skew is the Bool measure (19/20)•dirac true+(1/20)•dirac false; its normalization is proved. The threshold 9/10 survivor may designate false as actuality without changing the measure.",
   "basis": "stipulative",

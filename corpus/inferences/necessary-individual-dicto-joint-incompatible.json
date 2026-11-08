@@ -1,10 +1,12 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+  "id": "bf4be551-004a-520a-88ae-e6d7873c53a0",
+  "label": "Logical falsity, by Direct-proof (5)",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
   "input_statement_ids": [
-    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+    "7570cdf8-56b1-58dc-951d-e987959c2d29",
+    "878b92c3-a49d-583e-a467-6b44913f3e5d"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "direct-proof",
   "meaning": "Every successor has a present bearer, while one successor has none. Apply necessary exemplification at that accessible witness and contradict its empty extension. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
   "assumption_statement_ids": [],

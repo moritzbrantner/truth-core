@@ -1,26 +1,19 @@
 {
-  "id": "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
+  "id": "7a22ab5d-e728-58a0-b6f1-48d944e6e216",
+  "label": "At every supplied world, a person lacking belief that God exists cannot at that time enter a\u2026",
+  "legacy_id": "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
   "paraphrase": "At every supplied world, a person lacking belief that God exists cannot at that time enter a conscious reciprocal relationship recognizing God as the other party.",
   "lean_declaration": "TruthCore.Hiddenness.AccessNeedsBelief",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CAPACITY",
-    "DEF-HIDDENNESS-RESISTANCE",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-MODEL-SCOPE",
-    "DEF-HIDDENNESS-ACCEPTANCE",
-    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
-    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
-    "DEF-ENCODED-THEORY-CONSISTENCY"
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE",
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

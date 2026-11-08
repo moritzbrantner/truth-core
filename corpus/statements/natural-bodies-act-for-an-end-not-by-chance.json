@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-BODIES-ACT-FOR-AN-END-NOT-BY-CHANCE",
+  "id": "388ad433-b799-5e60-bd45-e80443b85479",
+  "label": "Each natural body tends, not by chance, to something that is best for it as its end",
+  "legacy_id": "STMT-NATURAL-BODIES-ACT-FOR-AN-END-NOT-BY-CHANCE",
   "paraphrase": "Each natural body tends, not by chance, to something that is best for it as its end.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NaturalBodiesActForAnEndNotByChanceReading"
 }

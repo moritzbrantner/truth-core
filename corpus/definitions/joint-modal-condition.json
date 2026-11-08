@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-MODAL-CONDITION",
+  "id": "f9233ceb-48d4-5fdb-b02e-14d5f34b7cca",
+  "label": "Joint obtaining of a fixed collection…: JointTrue A S w means every fact f in the fixed Set S…",
+  "legacy_id": "DEF-JOINT-MODAL-CONDITION",
   "term": "joint obtaining of a fixed collection of conditions",
   "definition": "JointTrue A S w means every fact f in the fixed Set S holds at w. JointContingent means this joint truth actually holds and fails at some world accessible from w, specializing the existing fact-level actual/accessible-absence modality to a conjunction predicate. No aggregate fact token or being is added to A. With a Groups record choose S = h.members g, including contributors and enablers.",
   "basis": "stipulative",

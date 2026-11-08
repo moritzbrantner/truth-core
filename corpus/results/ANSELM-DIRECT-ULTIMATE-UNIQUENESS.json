@@ -1,6 +1,8 @@
 {
-  "id": "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
-  "argument_id": "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+  "id": "c1622f59-4638-5184-b65c-8c6246306b70",
+  "label": "Any two actual ultimate sources of…, from For every x existing at w, some y satisfies… and 2 more",
+  "legacy_id": "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
+  "argument_id": "ef0d0c8a-fee7-5fb8-9598-ca6e29084df4",
   "challenge_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Challenge",
   "solution_module": "TruthCore.Results.Explanation.AnselmUltimateSource.Solution",
   "theorem": "TruthCore.Results.Explanation.AnselmUltimateSource.atMostOne",

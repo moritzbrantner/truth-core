@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
+  "id": "e70553a4-d2d4-5d30-8a22-86b0cfec0ae0",
+  "label": "A meaningful divine content refutes the strong no-divine-sense profile claim while profile…",
+  "legacy_id": "STMT-NATURAL-THEOLOGY-SEMANTIC-SCOPE-CONTROLS",
   "paraphrase": "A meaningful divine content refutes the strong no-divine-sense profile claim while profile arguability still fails. The candidate argument domain is populated, its argument admitted, and its conclusion follows from itself, but its listed premise is not supplied as world-grounded and the independent warrant condition fails. The consequence-to-warrant bridge also fails in this profile. No actual argument-domain completeness, warrant, source identity or theological impossibility follows.",
   "lean_declaration": "TruthCore.Logic.NaturalTheologySemanticScope.Control.Properties",
   "definition_ids": [
-    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
-    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
-    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
-    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+    "d36e7feb-8303-5aad-8676-461a0666e719",
+    "99cecaa6-fc74-5545-b2a6-b3bf97946cc2",
+    "51a9b67d-90df-5f3d-a342-625a3fdd6742",
+    "365dce7f-5a98-5735-ad4d-a9623e87508f"
   ]
 }

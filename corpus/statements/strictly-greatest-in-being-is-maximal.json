@@ -1,0 +1,15 @@
+{
+  "id": "a370254d-59b8-56a2-9552-0008e9baf2b3",
+  "label": "A MAXIME_3 (strictly greatest) being is MAXIME_1 (maximal) in being",
+  "legacy_id": "STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL",
+  "paraphrase": "OPEN sense bridge MAXIME_3 to MAXIME_1 (attribution deferred): whatever is STRICTLY greatest in being is MAXIMAL in being, nothing being more a being than it.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.StrictlyGreatestInBeingIsMaximal",
+  "definition_ids": [
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

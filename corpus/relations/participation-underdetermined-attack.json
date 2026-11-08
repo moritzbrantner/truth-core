@@ -1,9 +1,11 @@
 {
-  "id": "REL-PARTICIPATION-UNDERDETERMINED-ATTACK",
+  "id": "e4c231fd-bd11-5a15-8bab-e668790e190d",
+  "label": "There exist two four-entity, one-quality… attacks Two interpretations have coextension…",
+  "legacy_id": "REL-PARTICIPATION-UNDERDETERMINED-ATTACK",
   "subject_kind": "argument",
-  "subject_id": "PARTICIPATION-UNDERDETERMINED",
+  "subject_id": "e5d55b84-e98e-5637-95c0-692c40b63576",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARTICIPATION-SHARED-SELECTOR",
+  "object_id": "46d0520b-a32a-51ec-a32e-cff46ea90ef0",
   "note": "Sensitivity objection: the proposed commitment needs additional justification; the finite model does not disprove that commitment in reality."
 }

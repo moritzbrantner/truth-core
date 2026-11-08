@@ -1,0 +1,21 @@
+{
+  "id": "25bfe291-d969-57e1-8320-59c5996135b3",
+  "label": "Necessary-being node, possibilist K reading…, from Necessary-being node, actualist K reading…",
+  "legacy_id": "NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K",
+  "premise_statement_ids": [
+    "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5"
+  ],
+  "conclusion_statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
+  "inference_ids": [
+    "e18ff3b7-8e93-5b8c-91c6-54617870d595"
+  ],
+  "meaning": "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause).",
+  "definition_ids": [
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

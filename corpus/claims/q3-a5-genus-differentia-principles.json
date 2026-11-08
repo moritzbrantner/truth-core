@@ -1,22 +1,24 @@
 {
-  "id": "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
-  "statement_id": "STMT-Q3A5-GENUS-DIFFERENTIA-PRINCIPLES",
-  "source_id": "AQUINAS-ST",
+  "id": "e287801d-cc36-5088-8dd3-6fc9b8ba5ed5",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.5…: Aquinas’ first q3a5 proof says that what supplies a…",
+  "legacy_id": "AQUINAS-ST-I-Q3-A5-GENUS-DIFFERENTIA-PRINCIPLES",
+  "statement_id": "0b6cc470-752f-5cf3-af88-6d82fe5fde37",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.3 a.5 co., first proof: species constituitur ex genere et differentia; id a quo sumitur differentia ... sicut actus ad potentiam",
   "interpretation": "Prose source reading only. The relation is between principles from which the predicables are taken; it is not an assertion that the term tokens or any mathematical classification already supply real components or an efficient cause.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-DIFFERENTIA",
-    "DEF-GENUS-DIFFERENTIA-SOURCE-PRINCIPLES",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-ESSE",
-    "DEF-ACT",
-    "DEF-POTENCY"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "8e804dfb-9144-5400-86b6-ba168c35f75c",
+    "af80ecf8-18f6-54fc-b362-d4dc26a9e18f",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS-PREDICATION-REAL-COMPOSITION",
-    "DISAMB-GENUS",
-    "DISAMB-ESSENCE"
+    "a5b5d497-32b5-56a1-bdb6-9076961eca4b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

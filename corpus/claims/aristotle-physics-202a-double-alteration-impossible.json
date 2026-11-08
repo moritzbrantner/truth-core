@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-DOUBLE-ALTERATION-IMPOSSIBLE-A",
-  "statement_id": "STMT-TWO-ALTERATIONS-ONE-FORM-IMPOSSIBLE",
-  "source_id": "ARIST-PHYS",
+  "id": "d6a137e6-c8a3-59c5-9742-2397d7fd9dc5",
+  "label": "Aristotle, Physics III.3, 202a31-35: Two simultaneous alterations of one patient toward one…",
+  "legacy_id": "ARIST-PHYS-202A-DOUBLE-ALTERATION-IMPOSSIBLE-A",
+  "statement_id": "96a9a3d6-a641-5118-9885-86c982054326",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a31-35",
   "interpretation": "Second argument premise: Aristotle rejects two simultaneous alterations of the one patient toward the one definite form in this case. The claim is kept scoped to the dialectical argument rather than generalized into a theory of all simultaneous changes.",
   "status": "formalized"

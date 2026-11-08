@@ -1,16 +1,18 @@
 {
-  "id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "id": "f6964b28-bbf2-53ba-be17-b51c305a0e9b",
+  "label": "One exact three-node, one-world interpretation exports actual population, existing-to-esse, direct…",
+  "legacy_id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-CONTROL",
+  "conclusion_statement_id": "88156dc8-613e-5058-ae11-243ea910848b",
   "inference_ids": [
-    "INF-MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS"
+    "96d48145-036c-5ecb-b80b-88e20c4a0fe9"
   ],
   "meaning": "Populated constructive three-node scope control retains all five other nonlogical whole-roster interfaces and an actual maximal root while two distinct actual nonmaximal dependents ground each other. Maximal-target asymmetry holds, full asymmetry fails. It proves no EM, actual causal interpretation, full25 background, metaphysical possibility or explanatory adequacy.",
   "definition_ids": [
-    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
-    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
-    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
-    "DEF-MAXIMUM-IN-A-PERFECTION"
+    "64ea018d-ccde-5ce9-85f5-a4e367199aac",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
   ]
 }

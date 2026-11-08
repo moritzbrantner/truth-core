@@ -1,8 +1,10 @@
 {
-  "id": "STMT-LEIBNIZ-NECESSARY-REALITY-COMPLETION",
+  "id": "fd0230f2-8e2c-56cc-b1ab-1170606a3691",
+  "label": "Leibniz argues from the unique necessary universal substance on which nothing is independent to…",
+  "legacy_id": "STMT-LEIBNIZ-NECESSARY-REALITY-COMPLETION",
   "paraphrase": "Leibniz argues from the unique necessary universal substance on which nothing is independent to unlimited reality and perfection, while also offering a separate a priori proof.",
   "definition_ids": [
-    "DEF-KANT-SUFFICIENT-REASON",
-    "DEF-KANT-REALITY-PROFILE"
+    "23dbf0d7-8278-5bbb-8831-0093bf9af738",
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d"
   ]
 }

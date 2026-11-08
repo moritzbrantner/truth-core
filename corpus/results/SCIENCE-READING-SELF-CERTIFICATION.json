@@ -1,6 +1,8 @@
 {
-  "id": "SCIENCE-READING-SELF-CERTIFICATION",
-  "argument_id": "SCIENCE-READING-SELF-CERTIFICATION",
+  "id": "b16198d5-565c-57f3-91a6-208dc8c46b02",
+  "label": "In an unrestricted constant-additive-bias model, permitting a nonzero offset, any positive…",
+  "legacy_id": "SCIENCE-READING-SELF-CERTIFICATION",
+  "argument_id": "0677c276-c680-5bb4-99ca-5ae1e9c409cc",
   "challenge_module": "TruthCore.Results.Science.ReadingSelfCertification.Challenge",
   "solution_module": "TruthCore.Results.Science.ReadingSelfCertification.Solution",
   "theorem": "TruthCore.Results.Science.ReadingSelfCertification.certificate",

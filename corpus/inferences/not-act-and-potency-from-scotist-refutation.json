@@ -1,0 +1,13 @@
+{
+  "id": "59b2b5fc-cf3e-5967-9b32-e26d60e2498e",
+  "label": "Nothing is simultaneously in act and in POTENCY_1 in the same…, by Constructive quantifier…",
+  "legacy_id": "INF-NOT-ACT-AND-POTENCY-FROM-SCOTIST-REFUTATION",
+  "input_statement_ids": [
+    "f6003a4c-fc27-5b0a-acf9-97515d131755"
+  ],
+  "output_statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+  "rule": "Constructive quantifier duality (not exists to for all not)",
+  "meaning": "Nothing is in act and in potency in the same respect (the Prima Via principle, per thing and respect), from the conclusion of NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS (no thing and respect witness the Scotist rival, on the same InAct and InPotency). Constructive; no excluded middle. It adds a route to the premise through the Metaphysics IX.6 analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), which stays OPEN as before; no time index is added or removed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

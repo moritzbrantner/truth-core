@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.UniqueRootQuarta.Challenge",
+  "solution_module": "TruthCore.Results.Causality.UniqueRootQuarta.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.UniqueRootQuarta.fromUniqueRoot"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

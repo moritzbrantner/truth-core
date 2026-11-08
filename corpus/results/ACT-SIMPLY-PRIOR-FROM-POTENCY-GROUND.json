@@ -1,0 +1,12 @@
+{
+  "id": "a5fb36cb-ad73-5714-aed9-68555ab2002e",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect is…, from POTENCY_1 ground",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
+  "argument_id": "c332764b-a83a-5f4e-ba4b-13c0182d7d97",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.actPriorFromGround",
+  "comparator_config": "results/ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND/comparator.json",
+  "status": "solution-present",
+  "description": "Act's simple priority over every potency, idle potency included, from three OPEN premises: every potency has a ground, the ground of a potency in a respect is in act in that respect, and the ground of a thing's potency is simply prior to it. The q.3 a.1 reason (reduction only by a being in act) bears on the second premise only for potencies being reduced."
+}

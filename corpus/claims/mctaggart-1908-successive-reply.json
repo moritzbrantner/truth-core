@@ -1,15 +1,17 @@
 {
-  "id": "MCTAGGART-1908-SUCCESSIVE-REPLY",
-  "statement_id": "STMT-MCTAGGART-SUCCESSIVE-REPLY",
-  "source_id": "MCTAGGART-UNREALITY-OF-TIME",
+  "id": "6f542aa2-f34d-5a1e-a2b6-8cb958560900",
+  "label": "J. M. E. McTaggart, The Unreality of Time…: McTaggart considers the reply that past, present and…",
+  "legacy_id": "MCTAGGART-1908-SUCCESSIVE-REPLY",
+  "statement_id": "c22b9a37-717e-5ee6-bd94-e040f4faec78",
+  "source_id": "2f0db41b-6ac4-5df9-be14-4c5eee8731a8",
   "locator": "The Unreality of Time, paragraph beginning 'It may seem that this can easily be explained'",
   "interpretation": "This records a reply reconstructed by McTaggart, not his endorsement of its explanatory adequacy. Its successive qualification is essential; it does not assert three mutually incompatible unqualified predicates of one event at one index. Source reading in prose only; no new Lean declaration or result.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MCTAGGART-A-B-DETERMINATIONS",
-    "DEF-MCTAGGART-RECURRENT-CONTRADICTION"
+    "34386d0f-ca2c-5645-a45b-fc0b43bade79",
+    "350dfa15-f6b3-542d-b411-89f3a03e3581"
   ],
   "disambiguation_ids": [
-    "DISAMB-MCTAGGART-TEMPORAL-INDEX-REGRESS"
+    "7ac133b4-4dc6-560d-9a62-498dad9b64a4"
   ]
 }

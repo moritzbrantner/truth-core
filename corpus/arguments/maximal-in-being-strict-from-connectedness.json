@@ -1,0 +1,32 @@
+{
+  "id": "c0be361f-bb29-50b3-8257-c013feb12fda",
+  "label": "Comparability in being makes a MAXIME_1 being MAXIME_3",
+  "premise_statement_ids": [
+    "0e3d0877-0ac0-5df8-9ec6-ca5b7659a506"
+  ],
+  "conclusion_statement_id": "3e2fc282-1abe-5f5d-8596-ca40e79f37ba",
+  "inference_ids": [
+    "b2c60e9d-d9d3-5bb9-a1fa-842f3faf4da8"
+  ],
+  "meaning": "Derives the MAXIME_1 to MAXIME_3 sense bridge: if any two distinct things are comparable in being, then for a MAXIMAL being m and any other x, x is not more a being than m, so m is more a being than x.",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "630d802e-14f5-5458-ad5f-f446bbd04b3b",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "sense_bridges": [
+    {
+      "term": "MAXIMAL_IN_A_SELECTED_PERFECTION_GREATEST",
+      "from": "9bea9a43-3a87-4d62-86de-e5873aea62f8",
+      "to": "ac4c2702-e178-4c52-bd6d-e33685875cdf",
+      "statement_id": "3e2fc282-1abe-5f5d-8596-ca40e79f37ba",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "MAXIMAL-IN-BEING-STRICT-FROM-CONNECTEDNESS"
+}

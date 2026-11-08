@@ -1,6 +1,8 @@
 {
-  "id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
-  "argument_id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "id": "80ba21ea-6fd5-57ca-b59a-c99be03a1526",
+  "label": "Modest analyst content proposition: every move…, from Modest analyst descriptive profile: defined…",
+  "legacy_id": "DESCRIPTIVE-GRAMMAR-SUPPLIES-THEOLOGICAL-CONTENT",
+  "argument_id": "5963b716-97ef-5d00-86ba-6ab79ea54ebd",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Description.descriptionSuppliesTheology",

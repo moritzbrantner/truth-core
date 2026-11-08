@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
-  "argument_id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "id": "0c660937-bf82-52c4-85cf-abd0dd60172f",
+  "label": "One and the same candidate is…, from Some candidate is CONCRETE_6 and exists at… and 6 more",
+  "legacy_id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "argument_id": "df542c04-6033-5d7d-b681-b81263dc1245",
   "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryConcreteUnderived.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryConcreteUnderived.checks",

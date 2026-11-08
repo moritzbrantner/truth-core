@@ -1,0 +1,16 @@
+{
+  "id": "b3573a61-ec8b-5aba-8b5f-f1d03611e7f6",
+  "label": "Every mover other than what it moves that is being moved in some respect is being moved in some…",
+  "legacy_id": "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER",
+  "paraphrase": "Every mover other than what it moves that is being moved in some respect is being moved in some respect relevant to that moving. Analyst formulation, open: exactly the scope strengthening from the relevant-respect to the strong per se reading.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.RelevantRespectCoversEveryMovedMover",
+  "definition_ids": [
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

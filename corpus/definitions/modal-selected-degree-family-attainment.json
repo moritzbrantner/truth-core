@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-SELECTED-DEGREE-FAMILY-ATTAINMENT",
+  "id": "43be864b-2d06-56fd-ac8d-a3f44f56d03f",
+  "label": "Attainment in the selected individual\u2026: SelectedDegreeFamilyAttains says that the image of the\u2026",
+  "legacy_id": "DEF-MODAL-SELECTED-DEGREE-FAMILY-ATTAINMENT",
   "term": "attainment in the selected individual accessible-world degree family",
   "definition": "SelectedDegreeFamilyAttains says that the image of the root-accessible-world set under v \u21a6 intensity v n has a greatest member in the shared Preorder, using Mathlib IsGreatest. A greatest member belongs to that image and bounds every image member; mere upper boundedness does not suffice. The predicate itself does not assert presence or necessity of n. NecessaryAt in the theorem ensures these grades belong to existing pairs. Empty accessibility gives an empty image and no greatest member. Different degree labels may be preorder-equivalent.",
   "basis": "stipulative",

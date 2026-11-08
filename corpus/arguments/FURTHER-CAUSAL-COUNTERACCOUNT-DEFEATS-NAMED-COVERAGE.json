@@ -1,18 +1,20 @@
 {
-  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "id": "e91ac9e8-6ec9-5809-8428-7f145783c7d9",
+  "label": "Exact negation of the explicit named-case coverage hypothesis, not…, from A selected-world no-esse…",
+  "legacy_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
   "premise_statement_ids": [
-    "STMT-FURTHER-RELEVANT-ABSTRACT-CAUSAL-COUNTERACCOUNT"
+    "a94a02e3-5e86-59f6-aa17-ad7f7914c914"
   ],
-  "conclusion_statement_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COVERAGE-FAILS",
+  "conclusion_statement_id": "bd355c11-ff47-57d8-af78-7f4c6be60973",
   "inference_ids": [
-    "INF-FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE"
+    "180cd9ab-af18-506f-8fb5-c2f4b856738e"
   ],
   "meaning": "An actual selected countercase outside every named productive branch contradicts the coverage hypothesis.",
   "definition_ids": [
-    "DEF-CAUSAL-CONCRETE-RIVAL-SEMANTIC-PROFILE"
+    "c789e1fb-e4fc-5d7c-b594-58b3761067ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "32416dd1-c3ce-5180-bf06-1cabab088be7"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-NON-CONTRADICTION",
-  "argument_id": "LOGIC-NON-CONTRADICTION",
+  "id": "436b5818-6d34-5f15-b828-a9a7b56fbc31",
+  "label": "Inside Lean logic, ∀ P: Prop, ¬: no proposition holds together with its negation",
+  "legacy_id": "LOGIC-NON-CONTRADICTION",
+  "argument_id": "fcee262a-dfba-56d4-95b6-e35bbff475dc",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.LogicalFloor.nonContradiction",

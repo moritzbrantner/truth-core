@@ -1,10 +1,12 @@
 {
-  "id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
-  "statement_id": "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY",
-  "source_id": "ARIST-PHYS",
+  "id": "0a4a8418-056e-5d6d-b0a8-51b5ee4d0eb4",
+  "label": "Aristotle, Physics III.1, 201a10-11: A being is being moved in a respect exactly when it is…",
+  "legacy_id": "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C",
+  "statement_id": "0628359b-4a71-5c67-a84b-0fd80104aceb",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.1, 201a10-11",
   "interpretation_group": "ARIST-PHYS-201A-CHANGE",
-  "interpretation_of": "ARIST-PHYS-201A-CHANGE-A",
+  "interpretation_of": "381b242c-7eea-5531-a05f-855adbaa772f",
   "interpretation": "Respect-indexed reading in the prima via's vocabulary of beings and respects: a being is being moved in a respect exactly when it is potentially so and that potency, precisely as a potency, is being actualized. The respect plays the part of the outcome in the -B reading; the qua-potential actualization stays primitive, so the reading adds no time, mover, completion or survival of the potency. It differs from -A and -B in speaking of a moved being rather than of an occurrence that is a change.",
   "status": "formalized"
 }

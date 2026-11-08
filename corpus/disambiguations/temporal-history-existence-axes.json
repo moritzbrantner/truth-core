@@ -1,10 +1,33 @@
 {
-  "id": "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
+  "id": "92df85d7-aae7-57ac-b84e-3780ade842f1",
+  "label": "Presence now, temporal perpetuity, beginning and modal existence",
+  "legacy_id": "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
   "term": "presence now, temporal perpetuity, beginning and modal existence",
   "sense_definition_ids": [
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-TEMPORAL-HISTORY-EVERLASTING",
-    "DEF-TEMPORAL-HISTORY-BEGINNING"
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+    "60b36398-a152-552a-a413-ef649e5b7b1f"
   ],
-  "resolution": "CoherentAtNow fixes how each old Ontic presence predicate is read at the designated temporal slice. EverlastingAt quantifies over times within ONE fixed world; NecessaryAt quantifies presence of ONE fixed individual over accessible WORLDS. BeginsAt quantifies absence at earlier times, not at alternative worlds. The controls keep both indices separate and use the same now=0 at each alternative history. The first target is a caused/grounded child, not the existing rival root; its one actual cause/ground witness does not identify the two relations universally or assert causation at every time. The second ontology comes from a PSR model, but its explanation tokens do no work in this temporal result. Timeless Eternal remains the distinct existing sourced sense, never inferred from all-times presence."
+  "resolution": "CoherentAtNow fixes how each old Ontic presence predicate is read at the designated temporal slice. EverlastingAt quantifies over times within ONE fixed world; NecessaryAt quantifies presence of ONE fixed individual over accessible WORLDS. BeginsAt quantifies absence at earlier times, not at alternative worlds. The controls keep both indices separate and use the same now=0 at each alternative history. The first target is a caused/grounded child, not the existing rival root; its one actual cause/ground witness does not identify the two relations universally or assert causation at every time. The second ontology comes from a PSR model, but its explanation tokens do no work in this temporal result. Timeless Eternal remains the distinct existing sourced sense, never inferred from all-times presence.",
+  "term_label": "PRESENCE_NOW_TEMPORAL_PERPETUITY_BEGINNING",
+  "senses": [
+    {
+      "id": "222737e9-83c1-44b3-b7ef-361d7a1389cd",
+      "label": "PRESENCE_NOW_TEMPORAL_PERPETUITY_BEGINNING_1",
+      "definition_id": "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.CoherentAtNow"
+    },
+    {
+      "id": "7c82a2d0-0bab-4617-bd8c-935c38571767",
+      "label": "PRESENCE_NOW_TEMPORAL_PERPETUITY_BEGINNING_2",
+      "definition_id": "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.EverlastingAt"
+    },
+    {
+      "id": "66c26d09-e766-4641-89af-481fbb5add78",
+      "label": "PRESENCE_NOW_TEMPORAL_PERPETUITY_BEGINNING_3",
+      "definition_id": "60b36398-a152-552a-a413-ef649e5b7b1f",
+      "lean_declaration": "TruthCore.Modal.TemporalHistory.BeginsAt"
+    }
+  ]
 }

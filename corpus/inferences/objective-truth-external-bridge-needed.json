@@ -1,7 +1,9 @@
 {
-  "id": "INF-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "id": "c67f8b80-6f0b-5445-9791-b9572a1e0324",
+  "label": "The explicit invariance-only model satisfies all four…, by Constructive-proof",
+  "legacy_id": "INF-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "output_statement_id": "eac971d2-9af3-5709-b053-71cfa55cf89b",
   "rule": "constructive-proof",
   "meaning": "Finite omission control for the exact old four-premise external result: choose the stably false content as moral/bad, and truth-aptness as actual truth. All four old hypotheses hold, while invariance-only classifies that false content as objective. The missing truth-component condition is explicitly false. No complete historical theory or alternative problem-of-evil argument is represented.",
   "assumption_statement_ids": [],

@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-APOST-72B-REGRESS-CONDITIONAL-KNOWLEDGE",
-  "statement_id": "STMT-ARISTOTLE-ANPOST-REGRESS-CONDITIONAL-KNOWLEDGE",
-  "source_id": "ARIST-APOST",
+  "id": "2e10769d-9e52-578a-9ad0-a8db7d972cc0",
+  "label": "Aristotle, Posterior Analytics I.3, 72b7–15: In the reported regress objection, an endless ascent…",
+  "legacy_id": "ARIST-APOST-72B-REGRESS-CONDITIONAL-KNOWLEDGE",
+  "statement_id": "381cfe6c-0a1a-5c15-8098-4dd3d11b3ab8",
+  "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
   "locator": "I.3, 72b7–15",
   "interpretation": "The restricted argument includes the traversal demand, premise-priority requirement and all-knowledge-is-demonstrative assumption. It does not establish that dispositional availability of indefinitely many reasons is impossible, that every noninferential belief is arbitrary, or that causal regresses cannot exist.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ARISTOTLE-ANPOST-DEMONSTRATION",
-    "DEF-ARISTOTLE-ANPOST-IMMEDIATE-PRINCIPLE",
-    "DEF-ARISTOTLE-ANPOST-PRIORITY"
+    "a5c9be24-4211-5d0d-b652-20c7ceb47190",
+    "34e6203c-9ba6-58c8-9f2e-8c5e2c884783",
+    "6d2e443d-bb1b-56c1-b9d9-bbb55a8c00d6"
   ],
   "disambiguation_ids": [
-    "DISAMB-ARISTOTLE-ANPOST-DEMONSTRATION-AND-ENTITLEMENT"
+    "d2e881ec-805f-5fdf-b22c-1ecad65efc32"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISTEMIC-ONTIC-BRIDGES",
+  "id": "1287e2c0-e796-52aa-83a4-d60ec8993608",
+  "label": "Epistemic-to-ontic bridge: TrackingBridge: every supported contingent truth at w has a reason at w",
+  "legacy_id": "DEF-EPISTEMIC-ONTIC-BRIDGES",
   "term": "epistemic-to-ontic bridge",
   "definition": "TrackingBridge: every supported contingent truth at w has a reason at w. EvidenceBridge: every contingent truth used as evidence at w has a reason at w. GlobalDefeat: if a brute contingent truth exists at some world accessible from w, nothing supports anything at w. SupportCoverage: every contingent truth at w is supported at w. All four are hypotheses under test, and no result asserts any of them.",
   "basis": "stipulative",

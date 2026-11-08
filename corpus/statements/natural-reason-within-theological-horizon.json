@@ -1,10 +1,12 @@
 {
-  "id": "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "id": "9c236646-c801-58c8-b599-4c2c6fe0ee09",
+  "label": "Fideist reply to the shared-reason bridge, unattributed reconstruction: the tradition's 'natural…",
+  "legacy_id": "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
   "paraphrase": "Fideist reply to the shared-reason bridge, unattributed reconstruction: the tradition's 'natural reason' is reason exercised within a theological horizon, used within religious communities and apologetically towards fellow theists; it is not a standard of reason neutral to every form of life, so moves affirming natural knowability answer to the practice's own conception of reason.",
   "definition_ids": [
-    "DEF-NATURAL-REASON-PRACTICE-INTERNAL"
+    "aa836cb9-1853-5973-8907-89d232f0c8ce"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

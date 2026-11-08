@@ -1,9 +1,11 @@
 {
-  "id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-FORMATION",
+  "id": "a17477ab-6c5b-52ea-bd45-86f7dc215dde",
+  "label": "Plato, Parmenides 132d–e: Parmenides… supports Every eligible genuine mutually resembling…",
+  "legacy_id": "REL-PLATO-PARM-132E-MUTUAL-COMMON-FORM-SUPPORTS-LIKENESS-FORMATION",
   "subject_kind": "claim",
-  "subject_id": "PLATO-PARM-132E-MUTUAL-COMMON-FORM",
+  "subject_id": "947305bf-5919-5d9d-9c01-2fe6207cacf6",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-THIRD-MAN-LIKENESS-FORMATION",
+  "object_id": "c38d2eed-5b85-5b2b-a140-908c49cf2905",
   "note": "Source motivation only. The independent statement deliberately exposes the universal scope/quantifiers needed by the research reconstruction; this edge is not an inference, a truth endorsement, or premise closure."
 }

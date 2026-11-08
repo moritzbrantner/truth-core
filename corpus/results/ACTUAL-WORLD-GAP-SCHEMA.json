@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-WORLD-GAP-SCHEMA",
-  "argument_id": "ACTUAL-WORLD-GAP-SCHEMA",
+  "id": "d02e498c-50ec-5a93-ab14-9f181380f6bc",
+  "label": "For arbitrary histories and reason arenas",
+  "legacy_id": "ACTUAL-WORLD-GAP-SCHEMA",
+  "argument_id": "b8972b19-89d2-54a4-babc-5eafed338e11",
   "challenge_module": "TruthCore.Results.Explanation.ActualWorldGap.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ActualWorldGap.Solution",
   "theorem": "TruthCore.Results.Explanation.ActualWorldGap.schema",

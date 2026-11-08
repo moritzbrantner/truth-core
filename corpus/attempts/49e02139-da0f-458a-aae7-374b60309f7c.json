@@ -1,0 +1,21 @@
+{
+  "id": "49e02139-da0f-458a-aae7-374b60309f7c",
+  "label": "Actual hiddenness scope and explicit stage-one identification",
+  "date": "2026-11-08",
+  "statement_ids": [
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst actual-world scope fork, attribution deferred. Three sole-premise projections register strict global-to-actual weakenings of GodLoves, AlwaysOpen and AccessNeedsBelief. The existing empirical nonresistant-nonbelief premise is retained. The actual core conditionally yields the existing NoGod; the route challenge adds only explicit RouteIdentification IsGod s and concludes negation of the same stage-one GodExists predicate. Imports the existing checked PremisesIndependent and NontheisticConsistent witnesses rather than reconstructing them. Controls show nonvacuity, all three strictness witnesses, every core-premise omission and identification omission with an inhabited route predicate. Reject identification by spelling, conflation of belief and acceptance, and treating a modeled sufficient reason as an actual one. Five old statement definition inventories narrowed to used predicates; no claims, statement meaning or frozen old Challenges changed. Strongest reply and remaining empirical/normative burdens persist in docs/hiddenness.md and the existing bridge candidate. Six results build, bind and pass Comparator plus NanoDa with zero permitted axioms. No premise truth or bare necessary-being refutation follows.",
+  "evidence": [
+    "90ac694c-95da-4f52-872d-de20ca1e7f32",
+    "313efb85-5f23-4e51-8ad5-6a8d953fa29c",
+    "4a63f31d-e115-4be8-bb4a-3ab9bf737f1e",
+    "2c2ee70b-896e-4b04-8c7e-ec67698e54de",
+    "4949e131-5a57-494e-9acc-535fc1a3e06d",
+    "6066c4ef-f23a-4412-bced-aab12fc49fe5"
+  ],
+  "blocker": "Actual openness and empirical nonresistance remain disputed; route identification is an open semantic premise. The qualified-reply and nontheistic rival models survive. Full delivered-head CI remains required before merge."
+}

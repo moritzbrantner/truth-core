@@ -1,0 +1,12 @@
+{
+  "id": "e17f2e2c-7e0c-5fe7-b1fc-d608cdd5ba26",
+  "label": "KTB sense: a CONTINGENT_1 actual being excludes possible collapse, by the B schema and B law",
+  "legacy_id": "NO-POSS-COLLAPSE-KTB",
+  "argument_id": "f054d090-5a08-5a16-ac01-e630085bef1a",
+  "challenge_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentBeingNodeReconciled.notPossiblyCollapsedKTB",
+  "comparator_config": "results/NO-POSS-COLLAPSE-KTB/comparator.json",
+  "status": "solution-present",
+  "description": "KTB reading of NECESSARY_2 (only its symmetry is used). The OPEN B schema gives symmetry of the route's frame by the B correspondence of the convergence certificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE); by the verified B law (MODAL-B-LAWS) collapse at an accessible world then propagates back to w, which NO-COLLAPSE-K excludes. Without the B schema the rival and the node hold together (step frame); without the node the rival holds. Reconciled interface: closed modal laws and correspondence certificates are imported and applied as verified theorems, not retained as assumptions; only the displayed node and frame schemas remain premises."
+}

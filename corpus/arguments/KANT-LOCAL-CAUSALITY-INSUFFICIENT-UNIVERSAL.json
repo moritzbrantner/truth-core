@@ -1,15 +1,17 @@
 {
-  "id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "id": "dcc8fdab-1dc9-53c9-94f4-0e4696db091f",
+  "label": "There is a universal-accessibility modal interpretation with an actual contingent individual and a…",
+  "legacy_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "conclusion_statement_id": "a61d4090-c3ed-5940-9f11-23675389acd9",
   "inference_ids": [
-    "INF-KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL"
+    "28efb00c-7848-5537-8066-a8077c445591"
   ],
   "meaning": "There is a universal-accessibility modal interpretation with an actual contingent individual and a distinct existing cause of every contingent individual at every world, but no necessary being at the actual world. An analyst’s model/consequence test; no result proves Kantian idealism, real possibility, premise truth or a refutation of God. See docs/kant-cosmological-inference.md.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-LOCAL-CAUSE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "8800599c-13a4-57df-8f69-cb69425fc43c"
   ]
 }

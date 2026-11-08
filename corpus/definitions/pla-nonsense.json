@@ -1,9 +1,11 @@
 {
-  "id": "DEF-PLA-PRIVATE-LANGUAGE-NONSENSE",
+  "id": "2d2aca32-9490-598e-b55e-376cc2585a99",
+  "label": "PRIVATE_LANGUAGE_2: 'A PRIVATE_LANGUAGE_2 is possible' is not an intelligible proposition but…",
+  "legacy_id": "DEF-PLA-PRIVATE-LANGUAGE-NONSENSE",
   "term": "private language (nonsense)",
   "definition": "'A private language is possible' is not an intelligible proposition but nonsense masquerading as a possibility.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-PRIVATE-LANGUAGE-1-2-NONSENSE-A"
+    "a23b11a2-bdfb-5078-a89a-b84f8b358c0c"
   ]
 }

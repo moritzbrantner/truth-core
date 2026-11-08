@@ -1,0 +1,12 @@
+{
+  "id": "d787e47c-02cd-5ce9-923f-cc6d463bb387",
+  "label": "For an arbitrary selected perfection and supplied preorder of represented…, from MAXIMAL_5 principle",
+  "legacy_id": "GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE",
+  "argument_id": "99175796-43fd-5671-ab1e-5df3840f8474",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.greatestCausesFromMaximalPrinciple",
+  "comparator_config": "results/GREATEST-DEGREE-CAUSES-FROM-MAXIMAL-PRINCIPLE/comparator.json",
+  "status": "solution-present",
+  "description": "In a calibration frame, a greatest-degree bearer is maximal: anything more such than it would have the perfection and, by calibration among bearers, a strictly higher degree than the greatest, which is impossible. The stronger analyst maximal-in-genus principle (OPEN) then makes it the cause of all others. Shows that the stronger analyst configuration entails the greatest-degree source reading under calibration and more-such-has; not a derivation of the source reading from weaker premises."
+}

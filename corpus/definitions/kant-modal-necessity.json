@@ -1,5 +1,7 @@
 {
-  "id": "DEF-KANT-MODAL-NECESSITY",
+  "id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+  "label": "Necessary being in the countermodels: NecessaryAt m w x quantifies existence of one fixed…",
+  "legacy_id": "DEF-KANT-MODAL-NECESSITY",
   "term": "necessary being in the countermodels",
   "definition": "NecessaryAt m w x quantifies existence of one fixed individual over accessible worlds. NecessaryBeing additionally requires an actual witness. This is a de re possible-world surrogate, not an account of Kantian real possibility, duration, uncausedness, or Scott’s essence-based NE.",
   "basis": "stipulative",

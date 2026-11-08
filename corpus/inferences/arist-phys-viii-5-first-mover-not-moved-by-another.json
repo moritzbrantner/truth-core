@@ -1,11 +1,13 @@
 {
-  "id": "INF-ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER",
+  "id": "1627b39b-28dc-56dd-84b0-c6cd00c76453",
+  "label": "It is impossible that there be no mover that is not MOVED_BY_ANOTHER_2, by Well-founded-induction",
+  "legacy_id": "INF-ARIST-PHYS-VIII-5-FIRST-MOVER-NOT-MOVED-BY-ANOTHER",
   "input_statement_ids": [
-    "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-    "STMT-EVERY-MOVED-THING-HAS-SOME-MOVER",
-    "STMT-NO-INFINITE-SERIES-OF-MOVERS-MOVED-BY-ANOTHER"
+    "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+    "33365614-ca04-5942-bc11-173dfbbad051",
+    "0ac8f77a-e047-56ee-a4fe-267aa56c16d0"
   ],
-  "output_statement_id": "STMT-FIRST-MOVER-NOT-MOVED-BY-ANOTHER-CANNOT-BE-LACKING",
+  "output_statement_id": "99ec3c56-d552-552d-a090-b757198637d7",
   "rule": "well-founded-induction",
   "meaning": "Suppose every mover is moved by another. Something is moved, so it has a mover. By induction along the series of movers moved by another, no mover exists: a mover's mover is another mover, also moved by another, hence a link of the series. The induction uses an additional accessibility commitment, not the source claim prohibiting infinitely many distinct movers.",
   "assumption_statement_ids": [],

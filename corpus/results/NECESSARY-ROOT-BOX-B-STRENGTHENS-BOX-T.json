@@ -1,0 +1,13 @@
+{
+  "id": "f9149a74-eb23-5148-aed0-df35dca4e84a",
+  "label": "Necessary-being node, possibilist box reading in…, from Necessary-being node, possibilist box…",
+  "legacy_id": "NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T",
+  "argument_id": "31b1c9cf-a833-5fbc-a8c9-0851361c0490",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.boxBToBoxT",
+  "comparator_config": "results/NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: the KTB node implies the T node.",
+  "transcription": "assembly"
+}

@@ -1,27 +1,29 @@
 {
-  "id": "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
+  "id": "8ce63a3b-90c5-56a2-b657-55ab1fac50b1",
+  "label": "Some actual existent has a stipulated…, from At least one individual actually exists at… and 2 more",
+  "legacy_id": "PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE",
   "premise_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-NO-BRUTE-EXISTENCE-AT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "8dd0c1c7-4b19-5e6e-93ea-e76a448b07ad",
+    "27bdc583-788a-5dc0-8448-0be5e6237310"
   ],
-  "conclusion_statement_id": "STMT-PSR-EXPLAINED-SOURCE-AT",
+  "conclusion_statement_id": "e41595d4-5911-57a5-aca4-e928fed4bfe2",
   "inference_ids": [
-    "INF-PSR-LOCAL-NO-BRUTE-HAS-EXPLAINED-SOURCE"
+    "65fdc413-9aae-57f5-8581-32e3404bdec0"
   ],
   "meaning": "At one populated world, reuse existingSource_of_wellFounded to obtain an actual existent without any incoming existing efficient cause, including a self-cause; local explanation coverage supplies a reason for its positive existence fact. The prior global existence-PSR premise is replaced by coverage at this world only. No adequate explanation, necessity, uniqueness, or divinity follows.",
   "definition_ids": [
-    "DEF-PSR-EXISTENCE-FACT",
-    "DEF-PSR-REASON",
-    "DEF-PSR-EXISTENCE-SCOPE",
-    "DEF-NO-BRUTE-EXISTENCE-AT",
-    "DEF-BRUTE-EXISTENCE-AT",
-    "DEF-PSR-POPULATED-WORLD",
-    "DEF-PSR-WELL-FOUNDED-CAUSES-AT",
-    "DEF-PSR-EXPLAINED-UNCAUSED-SOURCE"
+    "fcb346d7-ddd2-50bb-a7c2-3d79d41b8eae",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "cd4ca559-c786-58db-872d-3597e51d3b49",
+    "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+    "b0a3ca7f-2970-531c-9201-962393ef3a8f",
+    "8e86ac44-8980-5d5f-b571-644e18d30d08",
+    "069600c3-2ddc-5977-8717-3a278683f73e",
+    "1cf9e750-5718-507c-b98e-034f06b36da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-BRUTE-EXISTENCE-AND-GROUNDING"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "e63036c5-d9c0-55d3-9704-e23efcbed127"
   ]
 }

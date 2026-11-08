@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-K-COUNTERMODELS",
+  "id": "e0eb1523-75bc-5b31-becd-3f314bd3e020",
+  "label": "Explicit four-state K_FORK_4 and chain-fork models have possible full-predicate…, by Direct-proof",
+  "legacy_id": "INF-MODAL-K-COUNTERMODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-K-COUNTERMODELS",
+  "output_statement_id": "5cc0d4a2-d43e-5532-9dd3-aa1d675a7182",
   "rule": "direct-proof",
   "meaning": "Exhibit the sink as a possible-collapse witness, the root negated-atom sentence as the collapse counterexample, and sink/branch as independent contingency witnesses. Case analysis on explicitly listed worlds proves or refutes necessary MC. Compute formula values and ordered witness lists with the shared evaluator.",
   "assumption_statement_ids": [],

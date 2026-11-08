@@ -1,15 +1,17 @@
 {
-  "id": "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY",
-  "statement_id": "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
-  "source_id": "OCKHAM-SUMMA-LOGICAE",
+  "id": "b67e0fc0-b0a3-533e-b195-b9ffdbf9ad32",
+  "label": "William of Ockham, Summa logicae I.17: The common name homo primarily signifies particular humans…",
+  "legacy_id": "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY",
+  "statement_id": "e870f817-de3c-534a-8b42-35a5eebfa303",
+  "source_id": "5b6a2b8d-3790-581e-b238-d1a60ad0a400",
   "locator": "I.17: reply beginning Et si dicas nomina communia and following Et ideo concedendum",
   "interpretation": "Bounded prose reading of the materialized Latin; no Lean declaration or mechanically verified inference is advertised. Records the human-name example and its positive semantic reply. It does not generalize a complete semantics to every expression, prove correct classification, or identify the sign with what it signifies.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-UNIVERSAL-MENTAL-SIGN",
-    "DEF-UNIVERSAL-CONVENTIONAL-SIGN"
+    "51266d70-d1a8-5bc8-94b0-2c948e761797",
+    "a696033a-4e98-5b14-9312-977ad8f65ca4"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90"
   ]
 }

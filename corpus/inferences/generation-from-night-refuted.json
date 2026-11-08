@@ -1,11 +1,13 @@
 {
-  "id": "INF-GENERATION-FROM-NIGHT-REFUTED",
+  "id": "2bd42cb8-dadc-5ac4-a1af-8ee0c1e6301c",
+  "label": "The Night cosmogony's bundle does not hold: no being in POTENCY_1 in a respect, to…, by Reductio",
+  "legacy_id": "INF-GENERATION-FROM-NIGHT-REFUTED",
   "input_statement_ids": [
-    "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
-    "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT",
-    "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR"
+    "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
+    "079b53bf-a222-5dfc-b8df-7419f9e98030",
+    "6ca87431-3383-58f6-9322-a1f0e8f0396b"
   ],
-  "output_statement_id": "STMT-GENERATION-FROM-NIGHT-FALSE",
+  "output_statement_id": "af9f3ba5-b409-54f1-89b8-74266be0c671",
   "rule": "reductio",
   "meaning": "Suppose the Night bundle: some being x is in potency in a respect r, no being in act in r is simply prior to x, and x is being moved in r. Then some y in act in r moves x in r; y is not x, since nothing moved in a respect moves itself in it; so y, in act in r and moving x, which is in potency in r, is simply prior to x; this contradicts the bundle's denial that any being in act in r is simply prior to x.",
   "assumption_statement_ids": [],

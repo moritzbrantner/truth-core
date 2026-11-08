@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-VERIFICATIONISM-TRIVIALIZATION-1008",
+  "id": "27da5ed6-74f3-5a60-bd38-66f8b54c783b",
+  "label": "Verificationism showcase, formal part",
+  "legacy_id": "ATTEMPT-VERIFICATIONISM-TRIVIALIZATION-1008",
   "date": "2026-11-05",
   "statement_ids": [
-    "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
-    "STMT-AYER-1936-EXCLUDES-METAPHYSICS",
-    "STMT-VERIFICATION-PRINCIPLE"
+    "fd01a8b5-1b6b-5c08-a1e6-915528fa12cc",
+    "92ad4e06-5b99-529d-9501-5a86917dbfa4",
+    "12527c0e-3a83-5639-91e4-3eab30b2ec23"
   ],
   "kind": "refutation",
   "outcome": "succeeded",
   "summary": "Verificationism showcase (#1008), formal part. Church's 1949 construction is proved premise-free and zero-axiom for every truth-conditional language (CHURCH-1949-TRIVIALIZATION), using only o1 not entailing o3 and o3 not entailing o2, which Church's hypothesis (no one of the three taken alone entails any of the others) contains. It refutes the V3 exclusion of a sentence together with its negation (AYER-1946-EXCLUSION-FAILS) and, with closure under negation, leaves no sentence not meaningful (AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING). The unrestricted 1936 test is trivial for every sentence whose negation does not entail some observation statement (AYER-1936-CRITERION-TRIVIAL, AYER-1936-EXCLUSION-FAILS). Strong verification makes universal laws over an infinite domain unverifiable while their negations are verifiable (STRONG-VERIFICATION-EXCLUDES-LAWS); this is a consequence, not a counted defeat, because no established floor item says laws are meaningful or that meaningfulness is closed under negation. Self-application (VERIFICATIONISM-SELF-APPLICATION-DILEMMA) is conditional on three open premises and does not touch the proposal reading. The proposal reading is not defeated by these results; CRITERION-VERDICT-SILENT-ON-TRUTH blocks only the general inference from failing an adopted criterion to untruth, and V4's consistency as a complete position is not encoded. Constructive formulation: Church's disjunction is proved as 'if not-S is not directly verifiable, S is indirectly verifiable', which avoids excluded middle. Non-vacuity models: Model.ravensSetting, churchObservationsInhabited.",
   "evidence": [
-    "CHURCH-1949-TRIVIALIZATION",
-    "AYER-1946-EXCLUSION-FAILS",
-    "AYER-1946-NEGATION-CLOSED-EXCLUDES-NOTHING",
-    "AYER-1936-CRITERION-TRIVIAL",
-    "AYER-1936-EXCLUSION-FAILS",
-    "STRONG-VERIFICATION-EXCLUDES-LAWS",
-    "VERIFICATIONISM-SELF-APPLICATION-DILEMMA",
-    "CRITERION-VERDICT-SILENT-ON-TRUTH"
+    "c3572a88-7571-5316-8581-c2925f70cb91",
+    "e6a36628-4954-5263-af49-268fdbcb63a6",
+    "ec224889-c152-5afe-896b-91039f8208aa",
+    "8f115674-5ecd-5abf-9103-4415e3ab01cb",
+    "2d032de7-5ab9-5c0d-af09-d60c4a73088d",
+    "981c16b5-1564-57e7-bb3e-a2adc52a4ddc",
+    "0bd651df-63c6-5b96-90df-4b488b1735f1",
+    "876b08d8-e508-5e59-80c9-219b592fc368"
   ]
 }

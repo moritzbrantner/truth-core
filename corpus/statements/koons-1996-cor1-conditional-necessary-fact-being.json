@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KOONS-1996-COR1-CONDITIONAL-NECESSARY-FACT-BEING",
+  "id": "1e3851ea-c4cb-5a0e-a218-c0e7532bc439",
+  "label": "Under the commitments that every fact includes a being and a property of it, and that involvement…",
+  "legacy_id": "STMT-KOONS-1996-COR1-CONDITIONAL-NECESSARY-FACT-BEING",
   "paraphrase": "Under the commitments that every fact includes a being and a property of it, and that involvement in an actual fact requires actual being existence, a necessary fact entails the necessary existence of some being or system of beings.",
   "definition_ids": [
-    "DEF-KOONS-1996-FACT-BEING-INVOLVEMENT"
+    "a3b179ce-b769-55bc-bda1-a2cb8626f36f"
   ],
   "disambiguation_ids": [
-    "DISAMB-KOONS-1996-FIXED-FACT-BEARER",
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "80acd34f-e0f4-5354-a24d-81fec4cbe173",
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

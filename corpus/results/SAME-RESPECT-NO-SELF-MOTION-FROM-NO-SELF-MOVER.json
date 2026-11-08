@@ -1,0 +1,12 @@
+{
+  "id": "5f007113-158e-5562-ae54-b2a447471da1",
+  "label": "Nothing that is being moved in a respect moves itself in that same respect, from no self mover",
+  "legacy_id": "SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER",
+  "argument_id": "8035e43e-d9c8-503e-a65e-7c3949b753dc",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.noSelfMovingSameRespectFromNoSelfMover",
+  "comparator_config": "results/SAME-RESPECT-NO-SELF-MOTION-FROM-NO-SELF-MOVER/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order within the moving sense of 'cause': Aristotle's unrestricted reading (whatever moves something is other than it) implies the prima via's reading that nothing being moved in a respect moves itself in that respect."
+}

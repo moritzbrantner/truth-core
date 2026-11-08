@@ -1,6 +1,8 @@
 {
-  "id": "STRICT-PRIORITY-PURE-ACT-CONTROLS",
-  "argument_id": "STRICT-PRIORITY-PURE-ACT-CONTROLS",
+  "id": "0e4d05a4-8a61-5baa-b821-763abf8d52c2",
+  "label": "On the unchanged original four-being #681 carrier…, from Excluded middle as a general principle…",
+  "legacy_id": "STRICT-PRIORITY-PURE-ACT-CONTROLS",
+  "argument_id": "f34268a3-2b46-5f00-a322-2d4786b2e21e",
   "challenge_module": "TruthCore.Results.Causality.StrictPriorityPureActControls.Challenge",
   "solution_module": "TruthCore.Results.Causality.StrictPriorityPureActControls.Solution",
   "theorem": "TruthCore.Results.Causality.StrictPriorityPureActControls.checks",

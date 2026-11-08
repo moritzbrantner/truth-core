@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
+  "id": "ca2f148a-8d2c-5953-8de8-15aac104c667",
+  "label": "First-mover constitutive-content and…: For every existing-interface first mover f and each respect…",
+  "legacy_id": "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
   "term": "first-mover constitutive-content and act alignment",
   "definition": "For every existing-interface first mover f and each respect r, content (essence f) r ↔ InAct f r, with exactly the same InAct predicate as every-perfection.",
   "basis": "stipulative",

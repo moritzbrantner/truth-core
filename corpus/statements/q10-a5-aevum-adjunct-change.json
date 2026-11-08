@@ -1,13 +1,15 @@
 {
-  "id": "STMT-AEVUM-INTERNAL-STABILITY-COMPATIBLE-WITH-ADJUNCT-CHANGE",
+  "id": "0986e1be-0b12-526b-8363-7c595124b452",
+  "label": "AEVUM_4 is internally all at once but can have conjoined actual or potential change; this…",
+  "legacy_id": "STMT-AEVUM-INTERNAL-STABILITY-COMPATIBLE-WITH-ADJUNCT-CHANGE",
   "paraphrase": "Aevum is internally all at once but can have conjoined actual or potential change; this distinguishes it from proper eternity. An aeviternal creature's future existence remains subject to divine power.",
   "definition_ids": [
-    "DEF-ETERNAL",
-    "DEF-AEVUM",
-    "DEF-MUTABILITY-IN-ANOTHER"
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "19e01de3-b9af-5468-a2dd-3d6fdb902fd3",
+    "f2aefafa-0e58-5e0f-9d66-cc3ef34bcb4f"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE",
-    "DISAMB-MUTABILITY-CHANNEL"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343",
+    "7edf933a-88b6-5c64-82df-4ef40becd970"
   ]
 }

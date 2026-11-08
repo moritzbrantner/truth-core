@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-PROVENANCE",
+  "id": "549223a2-5c80-5e93-949c-fa6d970dd968",
+  "label": "Issuance at a signal's named station: For every station n and every code j at its output, issued j…",
+  "legacy_id": "DEF-INDEXED-SIGNAL-PROVENANCE",
   "term": "issuance at a signal's named station",
   "definition": "For every station n and every code j at its output, issued j holds. The issuing station is exactly the code j, not merely some source. This is issuance in the supplied role, not temporal firstness, uniqueness of issuing acts, existence of a substance, necessary existence or adequate explanation.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
+  "id": "1b74e22c-3e2e-5328-b587-6dc2517f5e3f",
+  "label": "The selected thin belief-reason relation is presented by attributed considerations: for every…",
+  "legacy_id": "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
   "paraphrase": "The selected thin belief-reason relation is presented by attributed considerations: for every subject and content, Reason a p iff some consideration is attributed as a reason for the belief attitude toward p. This is an explicit analyst representation premise, not part of F6 itself.",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.ConsiderationPresentation",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

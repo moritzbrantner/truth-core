@@ -1,25 +1,27 @@
 {
-  "id": "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
+  "id": "3a460b24-19e9-502c-aab8-6b523ac32d0d",
+  "label": "The selected account retains exactly the original explanandum, truthful, closed and covered…",
+  "legacy_id": "STMT-WEAK-REASON-CLOSED-ACCOUNT-AT",
   "lean_declaration": "TruthCore.Explanation.WeakAccountNecessaryBeing.WeakReasonClosed",
   "paraphrase": "The selected account retains exactly the original explanandum, truthful, closed and covered clauses, omitting nonCopy. It does not assume target contingency or establish adequate explanation.",
   "definition_ids": [
-    "DEF-WEAK-REASON-CLOSED-ACCOUNT",
-    "DEF-ACCOUNT-CONSTITUENTS-NONEMPTY",
-    "DEF-ACCOUNT-CONSTITUENTS-REALIZED",
-    "DEF-CONTINGENT-REASON-FOUNDEDNESS",
-    "DEF-EXPLANATORY-REASON-CLOSED",
-    "DEF-NECESSARY-FACT-BOUNDARY",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "d44e1390-7faa-56d3-b63f-c81cf0a458b6",
+    "bad67511-e5a3-52d4-850b-40a3cc36aa1d",
+    "bab3155b-8b00-52f4-9e97-cadfbb2f2a2c",
+    "eeb5cdbb-e293-574c-9680-3bd632ec3aee",
+    "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+    "1480288c-931a-5982-a9b8-1a6e8585d3f8",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSIGNED-FIXED-CONSTITUENTS-AND-FACT-NECESSITY",
-    "DISAMB-EXPLANATORY-CONTRAST-STOP",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-PSR-REASON-NECESSITATING"
+    "7c017403-5d47-524f-b748-abac81add9d4",
+    "6a897910-d301-56c0-963d-d2f019de3de7",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67"
   ]
 }

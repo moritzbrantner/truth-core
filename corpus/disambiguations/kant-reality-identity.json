@@ -1,9 +1,25 @@
 {
-  "id": "DISAMB-KANT-REALITY-IDENTITY",
+  "id": "29947523-056c-5415-a9e7-c6968fb926e1",
+  "label": "Reality identity",
+  "legacy_id": "DISAMB-KANT-REALITY-IDENTITY",
   "term": "reality identity",
   "sense_definition_ids": [
-    "DEF-KANT-REALITY-INDISCERNIBILITY",
-    "DEF-KANT-REALITY-IDENTITY"
+    "79c08b30-2adf-59e1-b607-3f5cb485946a",
+    "c7c2f208-9651-5351-afc3-d5f3423ef415"
   ],
-  "resolution": "The source’s qualitative nondifference is preserved without identifying it with numerical equality. The conversion theorem explicitly assumes MostRealUnique as a stronger sufficient reconstruction; that extra premise is open and unattributed."
+  "resolution": "The source’s qualitative nondifference is preserved without identifying it with numerical equality. The conversion theorem explicitly assumes MostRealUnique as a stronger sufficient reconstruction; that extra premise is open and unattributed.",
+  "term_label": "REALITY_IDENTITY",
+  "senses": [
+    {
+      "id": "985f1040-4995-422e-8f60-fbce7318ac2c",
+      "label": "REALITY_IDENTITY_1",
+      "definition_id": "79c08b30-2adf-59e1-b607-3f5cb485946a"
+    },
+    {
+      "id": "6dcd5a8a-7e51-4a36-96c8-3df3ce7b4267",
+      "label": "REALITY_IDENTITY_2",
+      "definition_id": "c7c2f208-9651-5351-afc3-d5f3423ef415",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.MostRealUnique"
+    }
+  ]
 }

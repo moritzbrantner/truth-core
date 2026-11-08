@@ -1,0 +1,18 @@
+{
+  "id": "e2f8ffd6-0ddc-5936-8669-472601555654",
+  "label": "Whenever an agent other than GOD_2 whose being GOD_2 causes moves something, there is some respect…",
+  "legacy_id": "STMT-CREATURE-ACTING-IS-NEW-ACTUALITY",
+  "paraphrase": "Whenever an agent other than God whose being God causes moves something, there is some respect in which that agent is in potency and that potency, as such, is being actualized. Analyst formulation, open.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.CreatureActingIsNewActuality",
+  "definition_ids": [
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "23e73af5-a0df-5838-9689-5899c37fdcda",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

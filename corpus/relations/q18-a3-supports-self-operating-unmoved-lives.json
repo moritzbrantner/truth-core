@@ -1,0 +1,11 @@
+{
+  "id": "53141a1b-9411-5e8e-8352-e94982b750e7",
+  "label": "Thomas Aquinas, Summa theologiae I q.18… supports Whatever operates from itself and is moved…",
+  "legacy_id": "REL-Q18-A3-SUPPORTS-SELF-OPERATING-UNMOVED-LIVES",
+  "subject_kind": "claim",
+  "subject_id": "611be1f0-c207-5f35-bc2a-e7a1114c6598",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
+  "note": "The claim's sentence (Illud igitur cuius sua natura est ipsum eius intelligere ...) concludes an argument whose opening in the same respondeo is that things are said to live insofar as they operate from themselves and not as moved by others. The encoded statement takes that opening as a sufficient condition, strengthens its antecedent to 'moved in no respect', and adds the frame reading 'lives at some time'. The claim itself records only the highest-life sentence."
+}

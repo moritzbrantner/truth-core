@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NECESSARY-PER-SE",
+  "id": "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+  "label": "NECESSARY_PER_SE_2: IsNecessaryPerSe: x is necessary and has no cause of its necessity from…",
+  "legacy_id": "DEF-NECESSARY-PER-SE",
   "term": "necessary per se (per se necessarium)",
   "definition": "`IsNecessaryPerSe`: x is necessary and has no cause of its necessity from elsewhere (non habens causam necessitatis aliunde).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-NECESSARY-PER-SE-A"
+    "15601abb-ad46-58aa-907a-9af59219533b"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IsNecessaryPerSe"
 }

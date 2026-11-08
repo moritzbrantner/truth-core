@@ -1,7 +1,9 @@
 {
-  "id": "INF-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "id": "d69733ae-0e9d-5e8a-8b57-5a6b772035ff",
+  "label": "One explicit widened original artifact candidate space retains…, by Constructive-proof",
+  "legacy_id": "INF-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "output_statement_id": "83980461-2ac8-5c2d-ba17-272721512caa",
   "rule": "constructive-proof",
   "meaning": "A populated named correct account and wrong admissible extension-unnamed account separate sufficient correct-account support from global semantic named coverage; all weaker elimination inputs and exact thesis are exported.",
   "assumption_statement_ids": [],

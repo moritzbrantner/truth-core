@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q5-A1-DESIRABLE-AS-PERFECT-A",
-  "statement_id": "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
-  "source_id": "AQUINAS-ST",
+  "id": "fc9f7615-d913-567e-98f2-fdd6a184710a",
+  "label": "Thomas Aquinas, Summa theologiae I q.5 a.1 co: A thing is desirable in a given perfection exactly…",
+  "legacy_id": "AQUINAS-ST-I-Q5-A1-DESIRABLE-AS-PERFECT-A",
+  "statement_id": "060e7a1a-6c3d-5c8f-b67b-2d0a78044642",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.5 a.1 co.: Manifestum est autem quod unumquodque est appetibile secundum quod est perfectum: nam omnia appetunt suam perfectionem",
   "interpretation": "Second step: each thing is desirable according as it is perfect. 'Secundum quod' is read as a per-perfection biconditional, the same reading the conclusion's 'intantum ... inquantum' receives in STMT-GOODNESS-IS-ACTUALITY. The stated reason, that all things desire their own perfection, supports only the direction from perfect to desirable; the converse (nothing is desirable except as perfect) rests on the 'secundum quod' reading, not on the reason. Perfect here is perfection in the respect at issue (DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY).",
   "definition_ids": [
-    "DEF-DESIRABLE-IN-A-PERFECTION",
-    "DEF-PERFECT-IN-A-PERFECTION"
+    "661ad6ef-309b-5334-b770-bfbf173a6784",
+    "bf9ced33-dbd9-5921-99ef-e1e92fa7e063"
   ],
   "disambiguation_ids": [
-    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+    "b4099355-0e3b-510a-9398-8ef97b4881b1"
   ],
   "status": "formalized"
 }

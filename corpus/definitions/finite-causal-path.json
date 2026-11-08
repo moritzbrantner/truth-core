@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-CAUSAL-PATH",
+  "id": "822c9912-2313-584b-b2b7-77031da20107",
+  "label": "Finite dependency path: A zero-length path or a path obtained by prepending one immediately…",
+  "legacy_id": "DEF-FINITE-CAUSAL-PATH",
   "term": "finite dependency path",
   "definition": "A zero-length path or a path obtained by prepending one immediately upstream causal link to an already finite path. A member's source is connected by such a path only when a finite chain of links witnesses the connection.",
   "basis": "stipulative",

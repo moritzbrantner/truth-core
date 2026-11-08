@@ -1,0 +1,15 @@
+{
+  "id": "1dfc750c-24c5-5363-9452-0a1294caba74",
+  "label": "For every being x: if the esse of x is not limited, then x satisfies the…, by Unlimited esse is…",
+  "legacy_id": "INF-UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
+  "input_statement_ids": [
+    "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+    "bc1810e5-1070-5585-9b0f-e17ca3547ac7",
+    "10b2b0ed-262d-55ca-806e-647b67d2ab36"
+  ],
+  "output_statement_id": "be1289df-3c43-5595-99b5-1fb8d38164be",
+  "rule": "Unlimited esse is unreceived, so own being, so infinite",
+  "meaning": "A being whose esse is not limited has its esse received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1 with ad 3); and what is its own being is infinite (STMT-OWN-BEING-IS-INFINITE, q.7 a.1). A second derivation, following the order of the q.7 a.1 sentence, of the stated leaf STMT-UNLIMITED-ESSE-IS-INFINITE; it leaves that leaf's stating claim unchanged. All three premises stay open and are supported, not stated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

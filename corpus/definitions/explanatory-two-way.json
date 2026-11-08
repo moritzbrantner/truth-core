@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-TWO-WAY",
+  "id": "25852763-3ba0-50ec-a123-8f161cf7a47b",
+  "label": "TWO_WAY_REASON_2: For each contingent member f and rival world v lacking f, some member reason for…",
+  "legacy_id": "DEF-EXPLANATORY-TWO-WAY",
   "term": "two-way reason",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.TwoWay",

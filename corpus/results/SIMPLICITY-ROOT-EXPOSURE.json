@@ -1,6 +1,8 @@
 {
-  "id": "SIMPLICITY-ROOT-EXPOSURE",
-  "argument_id": "SIMPLICITY-ROOT-EXPOSURE",
+  "id": "9cac6a2b-b4a6-523d-98b3-e0dab1989c75",
+  "label": "For one being at a world, the Metaphysics IX.6 potency reading and IsImmutable, each read at that…",
+  "legacy_id": "SIMPLICITY-ROOT-EXPOSURE",
+  "argument_id": "df2b23c7-eb7c-5930-8b62-0b6f42d9dbd4",
   "challenge_module": "TruthCore.Results.Modal.SimplicityCollapse.Challenge",
   "solution_module": "TruthCore.Results.Modal.SimplicityCollapse.Solution",
   "theorem": "TruthCore.Results.Modal.SimplicityCollapse.rootExposure",

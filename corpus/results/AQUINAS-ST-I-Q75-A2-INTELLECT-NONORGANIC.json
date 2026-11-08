@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
-  "argument_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "id": "76c4edfc-2201-581d-b90f-eec032eded0b",
+  "label": "No body can be the instrument…, from The designated human intellectual principle… and 2 more",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NONORGANIC",
+  "argument_id": "0bd5b32f-838a-52c2-a8b1-c4dc96a428b5",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectNonorganic.intellectUsesNoBodilyOrgan",

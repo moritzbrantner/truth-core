@@ -1,6 +1,8 @@
 {
-  "id": "PILOT-COMPOSED-WITNESS",
-  "argument_id": "PILOT-COMPOSED-WITNESS",
+  "id": "afe9a031-c220-505a-87e2-7170c42d13bd",
+  "label": "Inside Lean logic, ∧ ¬. A bounded conjunction of the pilot witness and its logical consequence; no…",
+  "legacy_id": "PILOT-COMPOSED-WITNESS",
+  "argument_id": "6c94c2e1-73ca-56d1-8a8b-477fef30be2e",
   "challenge_module": "TruthCore.Results.Logic.TruthPilot.ComposedWitness.Challenge",
   "solution_module": "TruthCore.Results.Logic.TruthPilot.ComposedWitness.Solution",
   "theorem": "TruthCore.Results.Logic.TruthPilot.ComposedWitness.composedWitness",

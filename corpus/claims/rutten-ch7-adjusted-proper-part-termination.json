@@ -1,27 +1,29 @@
 {
-  "id": "RUTTEN-CH7-ADJUSTED-PROPER-PART-TERMINATION",
-  "statement_id": "STMT-PROPER-PART-WELL-FOUNDEDNESS",
-  "source_id": "RUTTEN-RENEWED-THEISM-2012",
+  "id": "79c7ff65-5d31-5717-91fc-bca7b4d62bb0",
+  "label": "Gerardus Johannes Emanuel Rutten, A…: Strict proper-part descent on the fixed non-null object…",
+  "legacy_id": "RUTTEN-CH7-ADJUSTED-PROPER-PART-TERMINATION",
+  "statement_id": "7b600323-f8d2-5b0b-9988-df4f1c805bae",
+  "source_id": "346c29b0-c84a-501f-a7d8-e04e5fb188e0",
   "locator": "2012 dissertation, chapter VII, printed p.155 through p.156, objection that the second premise is insufficient for Step1 and adjusted second-premise reply",
   "interpretation": "The author distinguishes original P2 mereological atomism from the absence of infinite descending proper-part sequences. He raises the atomistic interval/subset model objection, disputes its independent ontological significance, but grants that IF such a model is admitted then original Step1 does not follow from atomism alone. He then explicitly adjusts P2 to prohibit downward infinite proper-part sequences, claiming that the earlier defense already supports it; footnote209 adds a science-based defense. Render that adjusted termination premise by the existing standard WellFounded strict parthood on the supplied non-null object domain, with its classical order interpretation explicit. This is not a new statement, a proof that atomicity entails well-foundedness, an independently verified defense of the premise, causal well-foundedness, a prohibition of infinite causal chains, or a modal-necessity/God conclusion. The entire pinned ChapterVII reply range154–158/PDF156–160 was materialized and read, including the distinct Step5 and total-cause replies.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OBJECT-CAUSAL-ACTIVITY",
-    "DEF-CAUSED-COMPOSITE-PROPER-PART",
-    "DEF-PROPER-PART-WELL-FOUNDEDNESS",
-    "DEF-EXISTENTIAL-REQUIREMENT-PRIORITY",
-    "DEF-UNIVERSAL-CAUSE-PRIORITY"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "73555c25-3633-5cf7-bbaa-ed9c70494826",
+    "fbcf3e20-7946-5ad4-a6f3-ba92d92add00",
+    "dd3d4361-4d99-568d-9479-f4c631bfc352",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b",
+    "0ec36774-a6bd-58cd-80c1-3b3e575cb272"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

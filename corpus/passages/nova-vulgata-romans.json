@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NOVA-VULGATA-ROMANS",
+    "source_id": "39ea5771-3d09-5fe8-ac7a-ee89f47aa704",
     "source_url": "https://www.vatican.va/archive/bible/nova_vulgata/documents/nova-vulgata_nt_epist-romanos_lt.html",
     "retrieved_at": "2026-11-06T09:30:00Z",
     "sha256": "sha256:15b774bf498d861bbecf9df1083e90a82f3eb545a5cab2fad448205218970d07",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NOVA-VULGATA-ROM-1",
+      "id": "b2cb1ee2-5bc9-5bc5-a7de-0ff1e571e5e9",
+      "label": "Paul, Epistula ad Romanos, Rom 1",
+      "legacy_id": "NOVA-VULGATA-ROM-1",
       "locator": "Rom 1",
       "claim_locator_prefixes": [
         "Rom 1:"
@@ -28,7 +30,9 @@
       "incipit": "1\n1 Paulus servus Christi Iesu, vocatus apostolus, segregatus in evangelium"
     },
     {
-      "id": "NOVA-VULGATA-ROM-2",
+      "id": "c9986c07-ad7e-553e-905d-c8f5504da345",
+      "label": "Paul, Epistula ad Romanos, Rom 2",
+      "legacy_id": "NOVA-VULGATA-ROM-2",
       "locator": "Rom 2",
       "claim_locator_prefixes": [
         "Rom 2:"

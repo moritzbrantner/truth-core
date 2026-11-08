@@ -1,0 +1,16 @@
+{
+  "id": "bc4051e9-7098-56f2-8204-e998c5be653b",
+  "label": "Whatever is moved is in POTENCY_1 (adopted: capable, not in act)",
+  "legacy_id": "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY",
+  "paraphrase": "POTENCY_1, ADOPTED reading (attribution deferred): whatever is moved in a respect has the capacity for it and is not actually in act in that respect.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MovedOnlyAsInAdoptedPotency",
+  "definition_ids": [
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

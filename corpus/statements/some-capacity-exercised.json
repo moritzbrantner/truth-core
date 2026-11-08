@@ -1,0 +1,14 @@
+{
+  "id": "b140eb14-da03-5623-9f30-0b71eb572d02",
+  "label": "Some POTENCY_3 capacity is retained while exercised",
+  "legacy_id": "STMT-SOME-CAPACITY-EXERCISED",
+  "paraphrase": "OPEN analyst premise (attribution deferred): some capacity is retained while exercised: something is in act in a respect and has the capacity for it, as the builder who is building keeps the capacity to build (navigation: Metaphysics IX.3 against the Megarians).",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeCapacityExercised",
+  "definition_ids": [
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

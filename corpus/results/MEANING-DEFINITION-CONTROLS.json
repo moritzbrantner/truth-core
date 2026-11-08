@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-DEFINITION-CONTROLS",
-  "argument_id": "MEANING-DEFINITION-CONTROLS",
+  "id": "c199664c-295e-52eb-a5e6-12945a8bf998",
+  "label": "In the existing nontrivial two-coordinate language, the analytic-only meaning predicate satisfies…",
+  "legacy_id": "MEANING-DEFINITION-CONTROLS",
+  "argument_id": "d6074439-b98e-59c2-8f57-a97eb12beaa0",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.Controls.controls",

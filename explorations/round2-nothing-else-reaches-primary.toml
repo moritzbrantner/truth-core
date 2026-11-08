@@ -1,0 +1,42 @@
+target = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
+[[node]]
+id = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+
+[[node]]
+id = "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-CREATURE-ESSE-IS-RECEIVED"
+
+[[node]]
+id = "STMT-RECEIVED-ESSE-IS-LIMITED"
+
+[[node]]
+id = "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-PRIMARY-ESSE-UNRECEIVED"
+
+# New in round 2 (certified batch round2-perfection-primacy).
+[[node]]
+id = "STMT-LIMITED-ESSE-APPROACHES-LESS"
+
+[[node]]
+id = "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"
+
+[[edge]]
+premises = ["STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES", "STMT-CREATURE-ESSE-IS-RECEIVED", "STMT-RECEIVED-ESSE-IS-LIMITED", "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION", "STMT-PRIMARY-ESSE-UNRECEIVED", "STMT-LIMITED-ESSE-APPROACHES-LESS"]
+conclusion = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+kind = "derivation"
+status = "certified"
+note = "Certified as STRICT-PRIMACY-FROM-RECEPTION-LIMITS; composes with target 6 and both q.7 directions."
+
+[[edge]]
+premises = ["STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY"]
+conclusion = "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY"
+kind = "derivation"
+status = "rejected"
+note = "Not derivable: the tantum-quantum biconditional allows another thing to tie with the primary; the existing omission countermodels of QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM show strict primacy is load-bearing over it."

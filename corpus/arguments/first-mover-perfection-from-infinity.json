@@ -1,0 +1,33 @@
+{
+  "id": "8cd65c20-21b6-56f0-b936-85dc7888d19e",
+  "label": "Every first mover moved by none really has every pure perfection among the supplied…, from infinity",
+  "legacy_id": "FIRST-MOVER-PERFECTION-FROM-INFINITY",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "78246da5-0b37-5b37-b821-1e8bdb41606c",
+    "75a37a91-732d-510c-9abc-b37c988c5c63",
+    "122b112e-3f19-5cd4-8cd0-a704ab1f2d87"
+  ],
+  "conclusion_statement_id": "17498c0a-499c-52f0-8d74-e990c9f72569",
+  "inference_ids": [
+    "010e0cbc-6ac2-5ef6-9a32-11a69e5d83de"
+  ],
+  "meaning": "Simplicity says a first mover's esse is not other than its essence; excluded middle gives equality; the existing q.7 reading STMT-SUBSISTENT-BEING-IS-INFINITE, a premise of the designated root route, makes it infinite; the open near-definitional bridge STMT-INFINITE-HAS-EVERY-PURE-PERFECTION gives it every pure perfection. A second derivation of STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION that shares a premise with the designated root route. All four premises stay open.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754"
+  ],
+  "disambiguation_ids": [
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCIENTISM-EPISTEMIC-FRAME",
+  "id": "24040dac-2a8c-5e99-95f3-d2ca0f4c406d",
+  "label": "Established vs empirically established: EpistemicFrame has two independent predicates on claims…",
+  "legacy_id": "DEF-SCIENTISM-EPISTEMIC-FRAME",
   "term": "established vs empirically established",
   "definition": "`EpistemicFrame` has two independent predicates on claims: established (known, rationally warranted) and established by empirical evidence. Neither implies the other by definition.",
   "basis": "stipulative",

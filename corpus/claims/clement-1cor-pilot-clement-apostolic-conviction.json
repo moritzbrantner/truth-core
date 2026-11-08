@@ -1,14 +1,16 @@
 {
-  "id": "CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION",
-  "statement_id": "STMT-PILOT-REPORT-CLEMENT-APOSTOLIC-CONVICTION",
-  "source_id": "CLEMENT-1COR",
+  "id": "3f58ba6c-6145-5138-8b96-4a807fb76c55",
+  "label": "Clement of Rome, First Corinthians 42.3: First Clement describes the apostles as assured through…",
+  "legacy_id": "CLEMENT-1COR-PILOT-CLEMENT-APOSTOLIC-CONVICTION",
+  "statement_id": "babc9391-c2df-582c-aee3-f4e25aa9da18",
+  "source_id": "829f35f0-2b5a-5f71-b5ea-d684b2e84e76",
   "locator": "42.3",
   "interpretation": "This is the author’s portrayal of apostolic assurance, not independent proof of external appearances, every disciple’s sincerity or a mechanism for group experiences.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

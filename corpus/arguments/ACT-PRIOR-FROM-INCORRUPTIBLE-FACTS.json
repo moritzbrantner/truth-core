@@ -1,26 +1,29 @@
 {
-  "id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "id": "f8cd50e1-26cd-5e79-981e-f7c176b67c19",
+  "label": "Formal fact: if every POTENCY_1 is of the contradictory, a being that…, from incorruptible facts",
+  "legacy_id": "ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS",
+  "conclusion_statement_id": "2484a5b8-9b16-52b1-bbf0-bd066ccf819f",
   "inference_ids": [
-    "INF-ACT-PRIOR-FROM-INCORRUPTIBLE-FACTS"
+    "49f1e2ea-1403-556e-a785-911617597943"
   ],
   "meaning": "Formal facts (no premises). The three sourced readings STMT-EVERY-POTENCY-IS-OF-CONTRADICTION, STMT-INCORRUPTIBLE-PRIOR-IN-SUBSTANCE-TO-CORRUPTIBLE and STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE (Met. IX.8, 1050b6-18; In Metaph. IX, lect. 9 n. 1-6), together with two unattributed hypotheses stated inside the facts (some being is incorruptible simply; priority in substance is simple priority), entail act's simple priority over potency in substance, without any premise about motion; each of the five is needed. With non-simultaneity this excludes a first being's potency in substance. It does not reach STMT-ACT-SIMPLY-PRIOR-TO-POTENCY or the root's use of it in ST I q.3 a.1: a model of every prima via premise, the mover-priority bridge, the motion route's priority over potencies being actualized and all five premises has a first mover moved by none, first being and incorruptible simply, in potency in a respect other than substance (a place, in the witness) in which it is not moved. The five readings do not exclude that: lect. 9 n. 6 allows potency secundum quid in simply incorruptible beings (its examples are moved bodies, not a first mover). Not recorded as an argument for STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. Discharges nothing.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-PRIORITY-IN-SUBSTANCE",
-    "DEF-CAN-FAIL-TO-BE",
-    "DEF-INCORRUPTIBLE-SIMPLY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-FIRST-BEING",
-    "DEF-PURE-ACT",
-    "DEF-RESPECT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "21788f3f-80d3-5eb6-ad91-86a1a5077799",
+    "c8113f31-6208-5992-9ca4-712887a4594b",
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-MOTION",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME",
-    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
   ]
 }

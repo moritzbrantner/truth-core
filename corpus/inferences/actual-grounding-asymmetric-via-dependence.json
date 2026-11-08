@@ -1,0 +1,14 @@
+{
+  "id": "c43e711d-cbbb-57df-8ddb-6a5b9076ae95",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, by Reductio",
+  "legacy_id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "0f5b53ef-0872-597b-b2f0-fc22b8df600a",
+    "da8e6b60-4dab-5858-9c8d-f6e84c821970"
+  ],
+  "output_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+  "rule": "Reductio",
+  "meaning": "Reciprocal grounding between actual concreta would give mutual dependence for being, which asymmetric dependence excludes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

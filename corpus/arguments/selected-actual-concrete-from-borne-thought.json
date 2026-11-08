@@ -1,0 +1,32 @@
+{
+  "id": "edef305b-f481-52c9-9557-bf2c925e4395",
+  "label": "The specified candidate is CONCRETE_6 and exists at the selected world, from borne thought",
+  "legacy_id": "SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT",
+  "premise_statement_ids": [
+    "b0fd6cc1-8907-5ec6-b0b4-598848314bf2",
+    "a7040bf1-b15a-5ffb-b096-6b60411a066e",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94"
+  ],
+  "conclusion_statement_id": "adb5020c-f115-5a26-a736-343ec2fc9d68",
+  "inference_ids": [
+    "e46a084d-dcf8-5496-993f-3d35f6a1810f"
+  ],
+  "meaning": "The selected being bears an occurring thought episode (OPEN); every bearer of an occurring thought is concrete (OPEN) and exists at w (OPEN); hence the selected being is an actual concretum at w. Middle term: the occurring episode it bears. Concreteness and existence at w come from the two bearer bridges, which stay open.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "9c6e4314-2e35-52ff-951e-db752a3c8ce2",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}

@@ -1,6 +1,8 @@
 {
-  "id": "COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
-  "argument_id": "COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
+  "id": "979b3239-2d0a-5554-9272-b57070ee127f",
+  "label": "Some single individual is both the named…, from At least one individual exists at the… and 8 more",
+  "legacy_id": "COMPLETE-CAUSE-UNDERIVED-ACTUAL-SOURCE",
+  "argument_id": "2096b9c1-6c78-51d9-a088-0b87bd3dc81f",
   "challenge_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.Solution",
   "theorem": "TruthCore.Results.Causality.CompleteCauseUnderivedSource.from_union",

@@ -1,6 +1,8 @@
 {
-  "id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
-  "argument_id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "id": "c505fdc8-87d4-5350-b221-537c47737ad0",
+  "label": "No intellectual exercise attributed to…, from Excluded middle as a general principle… and 5 more",
+  "legacy_id": "MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "argument_id": "413fcad7-da30-51d2-8f9f-2155de19df05",
   "challenge_module": "TruthCore.Results.Comparison.MindPhysicalism.Challenge",
   "solution_module": "TruthCore.Results.Comparison.MindPhysicalism.Solution",
   "theorem": "TruthCore.Results.Comparison.MindPhysicalism.noPerSeOperation",

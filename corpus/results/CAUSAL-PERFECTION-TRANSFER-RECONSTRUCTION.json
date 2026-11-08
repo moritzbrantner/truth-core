@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "id": "fc46c3ea-c896-5b3a-9d6a-e60269090665",
+  "label": "The cause of a thing's being causes each of…, from A cause of every other actual being… and 1 more",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-RECONSTRUCTION",
+  "argument_id": "932ec4ec-79e2-559c-ac4b-af7aa15adea2",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.reconstruction",

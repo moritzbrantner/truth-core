@@ -1,13 +1,15 @@
 {
-  "id": "PLG-DERIVED-RULES",
+  "id": "5f8d8d12-64d1-5a24-b147-91dffe3850bd",
+  "label": "In Fine's pure logic of ground, for every type of atoms and every set of assumed sequents…",
+  "legacy_id": "PLG-DERIVED-RULES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PLG-DERIVED-RULES",
+  "conclusion_statement_id": "a1c8d85d-f3ad-5b24-a6c2-f6e75000010c",
   "inference_ids": [
-    "INF-PLG-DERIVED-RULES"
+    "0684c250-e01d-5ff3-b3fd-610bc82e15ed"
   ],
   "meaning": "A mechanical check of Fine's claim (The Pure Logic of Ground, pp. 6-7) that Transitivity(≺/≺), Amalgamation(≤) and Amalgamation(<) are derivable in PLG, for nonempty families as Fine displays them. It verifies consequence inside the encoded calculus only; it says nothing about which truths actually ground which, and it is not the fact semantics or soundness theorem of Fine's §3.",
   "definition_ids": [
-    "DEF-FINE-PLG-DERIVABILITY",
-    "DEF-FINE-PLG-STRICT-PARTIAL-GROUND"
+    "df5284cb-8f1f-5b61-9b1c-ee4c1544b469",
+    "5d9a94e0-d64b-53ca-b9cc-504735060e0a"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
+  "id": "88b700a4-0d7a-5a40-962d-f43fa0c9fba8",
+  "label": "Local acyclicity on necessary bearers: At each world the present direct existential-support…",
+  "legacy_id": "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
   "term": "local acyclicity on necessary bearers",
   "definition": "At each world the present direct existential-support relation restricted to the fixed necessary subtype has no nonempty TransGen loop. This says nothing about cycles through contingent individuals outside the subtype.",
   "basis": "stipulative",

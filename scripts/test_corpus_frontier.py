@@ -16,6 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import corpus  # noqa: E402
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 def statement(statement_id: str, **extra: object) -> dict[str, object]:
@@ -167,6 +168,24 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["SIDE"]["transitive_dependent_arguments"], ["ARG-ROOT-2", "ARG-SIDE"])
         self.assertEqual(items["OPEN-B"]["path_to_root"], ["OPEN-B", "ARG-ROOT", "ROOT"])
         self.assertNotIn("SIDE", report["reaching_root_statements"])
+
+    def test_verified_route_reaches_the_root_beside_the_designated_one(self) -> None:
+        # Owner decision 2026-11-07: a routed statement is also entered through
+        # any verified non-transcription argument; designation stays the headline.
+        arguments = [*ARGUMENTS, argument("ARG-ROOT-2", ["SIDE"], "ROOT")]
+        routed = [relation("argument", "ARG-ROOT", "root_route", "ROOT")]
+        results = [*RESULTS, {"id": "RES-ROOT-2", "argument_id": "ARG-ROOT-2"}]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, routed, root="ROOT")
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["SIDE"]["path_to_root"], ["SIDE", "ARG-ROOT-2", "ROOT"])
+        self.assertIn("SIDE", report["reaching_root_statements"])
+        designated = {entry["argument_id"]: entry["designated"] for entry in report["routes"]["routes"]}
+        self.assertEqual(designated, {"ARG-ROOT": True, "ARG-ROOT-2": False})
+        # A transcription for the routed root does not open the walk.
+        flagged = corpus.frontier_report(
+            STATEMENTS, arguments, [*RESULTS, {"id": "RES-ROOT-2", "argument_id": "ARG-ROOT-2",
+                                               "transcription": "assembly"}], routed, root="ROOT")
+        self.assertNotIn("SIDE", flagged["reaching_root_statements"])
 
     def test_reaching_root_statements_match_item_paths(self) -> None:
         # The explorer's root-reachability filter (#491) reads this list; it must
@@ -349,7 +368,7 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(report["closed_statements"]["MID"], "via_transcription")
 
     def test_q3a4_conditional_result_keeps_causal_premises_open(self) -> None:
-        root = "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE"
+        root = legacy_uuid("statement", "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE")
         result = json.loads((corpus.ROOT / "corpus/results/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE.json").read_text())
         argument_record = json.loads((corpus.ROOT / "corpus/arguments/Q3A4-DISTINCT-ESSE-EXTERNAL-CAUSE.json").read_text())
         premises = argument_record["premise_statement_ids"]
@@ -782,7 +801,7 @@ class FrontierSchemaTest(unittest.TestCase):
         corpus.validate_self_evident(path, statement("X"), set(), set())
         corpus.validate_self_evident(
             path,
-            statement("STMT-EXCLUDED-MIDDLE", self_evident={"justification_ids": ["R"], "disagreement": "none recorded"}),
+            statement(legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE"), self_evident={"justification_ids": ["R"], "disagreement": "none recorded"}),
             set(),
             {"R"},
         )
@@ -1125,7 +1144,7 @@ class StatementViewTest(unittest.TestCase):
         self.assertNotIn("SELF", report["closed_statements"])
 
     def test_stages_default_target_and_route_aware_dependents(self) -> None:
-        god = "STMT-GOD-EXISTS"
+        god = legacy_uuid("statement", "STMT-GOD-EXISTS")
         statements = [statement("ROOT"), statement(god), statement("A"), statement("B")]
         arguments = [
             argument("ARG-GOD", ["A"], god),
@@ -1168,13 +1187,13 @@ class TranscriptionHeuristicTest(unittest.TestCase):
             flag["result_id"]: flag
             for flag in corpus.transcription_flags(records["results"], records["arguments"], records["statements"])
         }
-        teleology = flags["ARIST-PHYS-198B-199A-NATURAL-TELEOLOGY"]
+        teleology = flags[legacy_uuid("result", "ARIST-PHYS-198B-199A-NATURAL-TELEOLOGY")]
         self.assertEqual(teleology["single_application_of"], "hBridge")
         self.assertEqual(
             teleology["goal_consequent_premises"],
-            [{"hypothesis": "hBridge", "statement_ids": ["STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY"]}],
+            [{"hypothesis": "hBridge", "statement_ids": [legacy_uuid("statement", "STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY")]}],
         )
-        for result_id in ("CATHOLICISM-SKELETON", "CATHOLICISM-STAGE1-FROM-PRIMA-VIA", "AQUINAS-ST-I-Q2-A3-PRIMA-VIA"):
+        for result_id in (legacy_uuid("result", "CATHOLICISM-SKELETON"), legacy_uuid("result", "CATHOLICISM-STAGE1-FROM-PRIMA-VIA"), legacy_uuid("result", "AQUINAS-ST-I-Q2-A3-PRIMA-VIA")):
             self.assertNotIn(result_id, flags)
 
 
@@ -1234,67 +1253,90 @@ class FrontierCorpusTest(unittest.TestCase):
         # #357 decomposes the founding bridge. The later named-criterion
         # elimination also connects its Catholic-Church scope instance, but
         # that connection does not establish the target or its open inputs.
-        self.assertNotIn("STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD", ids)
-        self.assertNotIn("STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING", ids)
-        target = "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH"
-        proof_id = "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE"
+        self.assertNotIn(legacy_uuid("statement", "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD"), ids)
+        self.assertNotIn(legacy_uuid("statement", "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"), ids)
+        target = legacy_uuid("statement", "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH")
+        proof_id = legacy_uuid("result", "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE")
         self.assertNotIn(target, ids)
         self.assertIn(target, report["reaching_root_statements"])
         self.assertEqual(report["closed_statements"][target], "proved")
         self.assertNotIn(target, report["established_statements"])
         arguments = {record["id"]: record for _, record in corpus.load_dir("arguments")}
         results = {record["id"]: record for _, record in corpus.load_dir("results")}
-        self.assertEqual(results[proof_id]["argument_id"], proof_id)
+        self.assertEqual(results[proof_id]["argument_id"],
+                         legacy_uuid("argument", "COMMISSION-NAMED-CRITERION-ELIMINATION-SUPPLIES-SCOPE"))
         self.assertEqual(results[proof_id]["status"], "solution-present")
         self.assertEqual(results[proof_id]["theorem"],
                          "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Elimination.namedEliminationSuppliesScope")
         self.assertNotIn(proof_id, report["transcription_results"])
-        self.assertEqual(arguments[proof_id]["conclusion_statement_id"], target)
+        self.assertEqual(arguments[results[proof_id]["argument_id"]]["conclusion_statement_id"], target)
         explicit_inputs = {
-            "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER",
-            "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS",
-            "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-            "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE",
+            legacy_uuid("statement", "STMT-COMMISSION-NAMED-GOVERNANCE-CRITERIA-COVER"),
+            legacy_uuid("statement", "STMT-COMMISSION-NARROW-GOVERNANCE-CRITERION-FAILS"),
+            legacy_uuid("statement", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"),
+            legacy_uuid("statement", "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"),
         }
-        self.assertEqual(set(arguments[proof_id]["premise_statement_ids"]), explicit_inputs)
-        self.assertTrue(explicit_inputs <= ids)
+        self.assertEqual(set(arguments[results[proof_id]["argument_id"]]["premise_statement_ids"]), explicit_inputs)
+        self.assertIn(legacy_uuid("statement", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS"), ids)
         self.assertTrue(explicit_inputs <= set(report["reaching_root_statements"]))
+        # Round 6 derives three of the four inputs from open inclusions of the
+        # selected governing predicate; they are proved, not established, and
+        # the new inclusions stay open.
+        for derived in explicit_inputs - {legacy_uuid("statement", "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS")}:
+            self.assertEqual(report["closed_statements"].get(derived), "proved")
+        self.assertIn(legacy_uuid("statement", "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING"), ids)
+        self.assertIn(legacy_uuid("statement", "STMT-TEACHING-GRANT-FOUNDS-IN-MANDATE"), ids)
         self.assertFalse(explicit_inputs & set(report["established_statements"]))
-        self.assertIn("STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS", ids)
-        self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
+        # Round 3 (#1216) derives the commission-reports premise from two open
+        # inputs; it is proved, not established, and its inputs stay open.
+        commission = legacy_uuid("statement", "STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS")
+        self.assertIn(commission, report["reaching_root_statements"])
+        self.assertEqual(report["closed_statements"].get(commission), "proved")
+        self.assertNotIn(commission, report["established_statements"])
+        self.assertIn(legacy_uuid("statement", "STMT-MT28-AND-JN21-REST-ON-TESTIMONY"), ids)
+        self.assertIn(legacy_uuid("statement", "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE"), ids)
+        self.assertIn(legacy_uuid("statement", "STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES"), ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1
-        # through the fuller nominal definition, so the bare identification
-        # premise of the other routes no longer reaches the root.
-        self.assertIn("STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", ids)
-        self.assertNotIn("STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD", ids)
+        # through the fuller nominal definition. Since 2026-11-07 a statement
+        # reaches the root through any verified non-transcription route, so the
+        # bare identification premise of the other verified routes reaches it too.
+        self.assertIn(legacy_uuid("statement", "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"), ids)
+        self.assertIn(legacy_uuid("statement", "STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD"), ids)
         # Stage 1 and the prima via conclusion are conclusions of verified results.
-        self.assertNotIn("STMT-GOD-EXISTS", ids)
-        self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)
-        self.assertTrue(all(item["path_to_root"][-1] == "STMT-CATHOLICISM-TRUE" for item in report["items"]))
+        self.assertNotIn(legacy_uuid("statement", "STMT-GOD-EXISTS"), ids)
+        self.assertNotIn(legacy_uuid("statement", "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING"), ids)
+        self.assertTrue(all(item["path_to_root"][-1] == legacy_uuid("statement", "STMT-CATHOLICISM-TRUE") for item in report["items"]))
         # Depth counts cover exactly the premises that reach the root.
         counts = report["depth_counts"]
         self.assertEqual(counts["bare"] + counts["supported"] + counts["stated"], report["open_premise_count"])
         depths = {item["statement_id"]: item["depth"] for item in report["items"]}
-        self.assertIn(depths["STMT-COMMISSION-REPORTS-GO-BACK-TO-JESUS"], ("supported", "stated"))
+        self.assertIn(depths[legacy_uuid("statement", "STMT-MT28-AND-JN21-REST-ON-TESTIMONY")], ("supported", "stated", "bare"))
         # #145: the prima via's regress premise is derived from the secunda via's.
-        self.assertNotIn("STMT-NO-INFINITE-PER-SE-MOVER-SERIES", depths)
+        self.assertNotIn(legacy_uuid("statement", "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"), depths)
         # #367: the finite-ancestry route expanded efficient-cause regress
         # into three bare premises. The finite-branching bridge now further
         # expands ancestry into two explicit, still-open hypotheses. This
         # refines the argument without establishing its metaphysical premises.
-        self.assertNotIn("STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES", depths)
-        self.assertNotIn("STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY", depths)
+        self.assertNotIn(legacy_uuid("statement", "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"), depths)
+        self.assertNotIn(legacy_uuid("statement", "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY"), depths)
+        # Round 5 derives the three causal-history hypotheses from further
+        # open bridges, so they are no longer leaves; their inputs stay open.
         for premise in (
-            "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS",
-            "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS",
-            "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
-            "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION",
+            legacy_uuid("statement", "STMT-CAUSAL-FINITE-IMMEDIATE-PREDECESSORS"),
+            legacy_uuid("statement", "STMT-CAUSAL-WELL-FOUNDED-PREDECESSORS"),
+            legacy_uuid("statement", "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS"),
+        ):
+            self.assertNotIn(premise, depths)
+        for premise in (
+            legacy_uuid("statement", "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"),
+            legacy_uuid("statement", "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS"),
+            legacy_uuid("statement", "STMT-FINITELY-MANY-CAUSES-PER-MODE"),
         ):
             self.assertEqual(depths[premise], "bare")
         claims = {record["id"]: record for _, record in corpus.load_dir("claims")}
         self.assertEqual(
-            claims["AQUINAS-ST-I-Q46-A2-AD7-NO-INFINITE-EFFICIENT-CAUSES-A"]["statement_id"],
-            "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+            claims[legacy_uuid("claim", "AQUINAS-ST-I-Q46-A2-AD7-NO-INFINITE-EFFICIENT-CAUSES-A")]["statement_id"],
+            legacy_uuid("statement", "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES"),
         )
 
     def test_excluded_middle_instances_close_via_transcription(self) -> None:
@@ -1304,28 +1346,28 @@ class FrontierCorpusTest(unittest.TestCase):
         # because their only premise is closed.
         report = json.loads(self.run_frontier("--json"))
         items = {item["statement_id"]: item for item in report["items"]}
-        self.assertNotIn("STMT-EXCLUDED-MIDDLE", items)
+        self.assertNotIn(legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE"), items)
         closures = {closure["statement_id"]: closure for closure in report["closed_via_transcription"]}
         for statement_id in (
-            "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT",
-            "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT",
+            legacy_uuid("statement", "STMT-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT"),
+            legacy_uuid("statement", "STMT-FIRST-UNMOVED-MOVERS-IDENTICAL-OR-DISTINCT"),
         ):
             self.assertNotIn(statement_id, items)
-            self.assertEqual(closures[statement_id]["premise_statement_ids"], ["STMT-EXCLUDED-MIDDLE"])
+            self.assertEqual(closures[statement_id]["premise_statement_ids"], [legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE")])
         self.assertTrue(report["alternatives_recorded"])
         single = {
             flag["result_id"] for flag in report["transcription_flags"] if flag["single_application_of"]
         }
-        self.assertIn("CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM", single)
-        self.assertNotIn("LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE", single)
+        self.assertIn(legacy_uuid("result", "CATHOLICISM-FIRST-UNMOVED-MOVER-EXISTS-OR-NOT-FROM-EM"), single)
+        self.assertNotIn(legacy_uuid("result", "LOGIC-EXCLUDED-MIDDLE-IRREFUTABLE"), single)
 
     def test_bridge_transcriptions_with_open_bridge_premises_stay_open(self) -> None:
         # An Aristotle "A ∧ B → C" bridge transcription must not close its
         # conclusion: its bridge premise is open, so rule (d) does not apply.
         report = json.loads(self.run_frontier("--json"))
         items = {item["statement_id"]: item for item in report["items"]}
-        self.assertIn("STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY", items)
-        for statement_id in ("STMT-TIME-IS-NOT-MOTION", "STMT-NOTHING-MOVES-IN-NOW"):
+        self.assertIn(legacy_uuid("statement", "STMT-NATURAL-REGULARITY-IMPLIES-TELEOLOGY"), items)
+        for statement_id in (legacy_uuid("statement", "STMT-TIME-IS-NOT-MOTION"), legacy_uuid("statement", "STMT-NOTHING-MOVES-IN-NOW")):
             self.assertTrue(items[statement_id]["transcription_only"])
         closed = {closure["statement_id"] for closure in report["closed_via_transcription"]}
         flagged = {
@@ -1358,12 +1400,12 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertGreater(len(opaque), 50)
         for result_id in opaque:
             self.assertEqual(results[result_id].get("transcription"), "opaque_atoms", result_id)
-        conclusion = arguments[results["ARIST-PHYS-245A-245B-NO-INTERMEDIATE-THREE-MOTIONS"]["argument_id"]][
+        conclusion = arguments[results[legacy_uuid("result", "ARIST-PHYS-245A-245B-NO-INTERMEDIATE-THREE-MOTIONS")]["argument_id"]][
             "conclusion_statement_id"
         ]
         self.assertNotEqual(report["closed_statements"].get(conclusion), "proved")
         self.assertEqual(
-            report["transcription_results"]["HIDDENNESS-GAP-HAS-REASON"], {"kind": "instantiation", "declared": True}
+            report["transcription_results"][legacy_uuid("result", "HIDDENNESS-GAP-HAS-REASON")], {"kind": "instantiation", "declared": True}
         )
 
     def test_routes_cover_every_root_argument(self) -> None:
@@ -1376,7 +1418,8 @@ class FrontierCorpusTest(unittest.TestCase):
         cheapest = [entry for entry in routes["routes"] if entry["cheapest"]]
         self.assertEqual([entry["argument_id"] for entry in cheapest], [routes["cheapest_argument_id"]])
         self.assertEqual(cheapest[0]["cost"], min(entry["cost"] for entry in routes["routes"] if entry["verified"]))
-        self.assertIn("routes to STMT-CATHOLICISM-TRUE", self.run_frontier("--routes"))
+        self.assertIn("routes to ", self.run_frontier("--routes"))
+        self.assertIn(f"[{corpus.DEFAULT_FRONTIER_ROOT[:8]}]", self.run_frontier("--routes"))
 
     def test_skeleton_route_is_expanded_through_god_exists(self) -> None:
         # #391 correction: STMT-GOD-EXISTS is an intermediate conclusion with
@@ -1384,20 +1427,21 @@ class FrontierCorpusTest(unittest.TestCase):
         # under its proof rather than one node.
         report = json.loads(self.run_frontier("--json"))
         routes = report["routes"]
-        skeleton = next(entry for entry in routes["routes"] if entry["argument_id"] == "CATHOLICISM-SKELETON")
-        self.assertNotIn("STMT-GOD-EXISTS", skeleton["open_premise_statement_ids"])
+        skeleton = next(entry for entry in routes["routes"] if entry["argument_id"] == legacy_uuid("argument", "CATHOLICISM-SKELETON"))
+        self.assertNotIn(legacy_uuid("statement", "STMT-GOD-EXISTS"), skeleton["open_premise_statement_ids"])
         self.assertGreater(skeleton["cost"], skeleton["premise_count"])
         # The adopted pure-act helper now supplies non-overlap from F1 on the
         # skeleton's chosen composition; the independent generic schema is
         # still required by its unchanged direct root route.
-        non_overlap = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+        non_overlap = legacy_uuid("statement", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT")
         self.assertNotIn(non_overlap, skeleton["open_premise_statement_ids"])
         self.assertNotIn(non_overlap, report["established_statements"])
-        self.assertIn("STMT-ADOPTED-POTENCY-NONOVERLAP", report["established_statements"])
+        self.assertIn(legacy_uuid("statement", "STMT-ADOPTED-POTENCY-NONOVERLAP"), report["established_statements"])
         generic = next(entry for entry in routes["routes"]
-                       if entry["argument_id"] == "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE")
+                       if entry["argument_id"] == legacy_uuid("argument", "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE"))
         adopted = next(entry for entry in routes["routes"]
-                       if entry["argument_id"] == generic["argument_id"] + "-ADOPTED-POTENCY")
+                       if entry["argument_id"] == legacy_uuid(
+                           "argument", "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY"))
         self.assertIn(non_overlap, generic["open_premise_statement_ids"])
         self.assertEqual(set(adopted["open_premise_statement_ids"]),
                          set(generic["open_premise_statement_ids"]) - {non_overlap})
@@ -1459,7 +1503,7 @@ class FrontierDiffTest(unittest.TestCase):
             "    + OPEN-A\n    - MID",
             text,
         )
-        self.assertIn("bare premises added: 1 (new obligations; evaluate separately from support progress)\n  NEW", text)
+        self.assertIn("bare premises added: 1 (listed for visibility; not a regression, owner decision 2026-11-07)\n  NEW", text)
         reverse = corpus.frontier_delta(head, base)
         self.assertEqual(reverse["removed"], {"bare": ["NEW"]})
         self.assertEqual(reverse["moved"], {"closed -> bare": ["MID"], "stated -> bare": ["OPEN-B"]})
@@ -1540,6 +1584,148 @@ class FrontierDiffTest(unittest.TestCase):
         self.assertIsNone(delta["base_support_bundle_count"])
         self.assertEqual(delta["new_support_bundles"], [])
         self.assertFalse(delta["changed"])
+        delta.update(base="BASE", head="HEAD")
+        text = corpus.format_frontier_delta(delta)
+        self.assertIn("incomparable (historical projection unavailable)", text)
+        self.assertNotIn("\nno change\n", text + "\n")
+
+
+class ThicknessTest(unittest.TestCase):
+    def test_counts_only_verified_non_transcription_derivations(self) -> None:
+        frontier = {
+            "root": "STMT-ROOT",
+            "reaching_root_statements": ["STMT-A", "STMT-B"],
+            "transcription_results": {"R-T": {"kind": "single_application", "declared": True}},
+        }
+        arguments = [
+            argument("A1", ["STMT-X"], "STMT-A"),
+            argument("A2", ["STMT-Y"], "STMT-A"),
+            argument("A3", ["STMT-Z"], "STMT-B"),
+            argument("A4", ["STMT-W"], "STMT-B"),
+        ]
+        results = [
+            {"id": "R1", "argument_id": "A1"},
+            {"id": "R2", "argument_id": "A2"},
+            {"id": "R-T", "argument_id": "A3"},
+        ]
+        report = corpus.thickness_report(frontier, arguments, results)
+        self.assertEqual(report["derivations"], {"STMT-A": ["A1", "A2"], "STMT-B": []})
+        self.assertEqual(report["derived_statement_count"], 1)
+        self.assertEqual(report["multiply_derived_statement_count"], 1)
+        self.assertEqual(report["derivation_count"], 2)
+
+    def test_delta_lists_added_and_removed_derivations(self) -> None:
+        base = {"statement_count": 1, "derived_statement_count": 1, "multiply_derived_statement_count": 0,
+                "derivation_count": 1, "derivations": {"STMT-A": ["A1"]}}
+        head = {"statement_count": 2, "derived_statement_count": 1, "multiply_derived_statement_count": 1,
+                "derivation_count": 2, "derivations": {"STMT-A": ["A2", "A3"], "STMT-B": []}}
+        delta = corpus.thickness_delta(base, head)
+        self.assertEqual(delta["changed"], {"STMT-A": {"added": ["A2", "A3"], "removed": ["A1"]}})
+        self.assertEqual(delta["summary"]["derivation_count"], [1, 2])
+
+
+class ThicknessQueueTest(unittest.TestCase):
+    def setUp(self) -> None:
+        self.frontier = {
+            "root": "STMT-ROOT",
+            "reaching_root_statements": ["STMT-A", "STMT-B", "STMT-C", "STMT-D"],
+            "transcription_results": {"R-T": {"kind": "instantiation", "declared": True}},
+            "statement_depths": {"STMT-A": "stated", "STMT-B": "bare", "STMT-C": "bare", "STMT-D": "bare"},
+            "premise_dependents": {
+                "STMT-B": {"arguments": ["X1"], "statements": []},
+                "STMT-C": {"arguments": ["X1", "X2"], "statements": []},
+                "STMT-D": {"arguments": ["X1", "X2", "X3"], "statements": []},
+            },
+            "refutations": [{"argument_id": "REF", "statement_id": "STMT-RIVAL", "counted": True}],
+        }
+        self.records = {
+            "statements": [
+                {"id": "STMT-A"},
+                {"id": "STMT-B", "lean_declaration": "TruthCore.B", "definition_ids": ["DEF-T", "DEF-U"]},
+                {"id": "STMT-C"},
+                {"id": "STMT-D"},
+                {"id": "STMT-RIVAL"},
+                {"id": "STMT-OTHER-RIVAL"},
+                {"id": "STMT-UNUSED", "definition_ids": ["DEF-T"]},
+                {"id": "STMT-UNUSED-BOTH", "definition_ids": ["DEF-T", "DEF-U"]},
+                {"id": "STMT-USED", "definition_ids": ["DEF-T"]},
+            ],
+            "arguments": [
+                argument("A1", ["STMT-X"], "STMT-A"),
+                argument("B1", ["STMT-USED"], "STMT-B"),
+                argument("B2", ["STMT-Y"], "STMT-B"),
+                argument("REF", ["STMT-Z"], "STMT-NOT-RIVAL"),
+            ],
+            "results": [{"id": "R1", "argument_id": "A1"}, {"id": "R-T", "argument_id": "B1"}],
+            "relations": [
+                {"id": "REL-S", "predicate": "supports", "subject_kind": "claim", "subject_id": "C-B",
+                 "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-ALT", "predicate": "alternative_to", "subject_kind": "statement", "subject_id": "STMT-RIVAL",
+                 "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-ALT2", "predicate": "alternative_to", "subject_kind": "statement",
+                 "subject_id": "STMT-OTHER-RIVAL", "object_kind": "statement", "object_id": "STMT-B"},
+                {"id": "REL-REF", "predicate": "refutes", "subject_kind": "argument", "subject_id": "REF",
+                 "object_kind": "statement", "object_id": "STMT-RIVAL"},
+            ],
+            "attempts": [
+                {"id": "ATTEMPT-OK", "statement_ids": ["STMT-B"], "outcome": "succeeded"},
+                {"id": "ATTEMPT-NO", "statement_ids": ["STMT-D"], "outcome": "rejected"},
+            ],
+            "definitions": [{"id": "DEF-T", "claim_ids": ["CL-1", "CL-2", "CL-3"]}],
+            "claims": [
+                {"id": "CL-1", "statement_id": "STMT-UNUSED"},
+                {"id": "CL-2", "statement_id": "STMT-USED"},
+                {"id": "CL-3", "statement_id": "STMT-UNUSED-BOTH"},
+            ],
+        }
+
+    def queue(self) -> list[dict[str, object]]:
+        report = corpus.thickness_report(self.frontier, self.records["arguments"], self.records["results"])
+        return corpus.thickness_queue(self.frontier, report, self.records)
+
+    def test_lists_underived_statements_unexamined_first_then_by_dependents(self) -> None:
+        queue = self.queue()
+        self.assertEqual([entry["statement_id"] for entry in queue], ["STMT-C", "STMT-B", "STMT-D"])
+        self.assertEqual([entry["examined"] for entry in queue], [False, False, True])
+        self.assertEqual(queue[2]["attempts"], [{"id": "ATTEMPT-NO", "outcome": "rejected"}])
+
+    def test_entry_reports_arguments_relations_attempts_and_candidates(self) -> None:
+        entry = next(entry for entry in self.queue() if entry["statement_id"] == "STMT-B")
+        self.assertEqual(entry["depth"], "bare")
+        self.assertEqual(entry["lean_declaration"], "TruthCore.B")
+        self.assertEqual(entry["argument_dependents"], 1)
+        self.assertEqual(
+            entry["arguments"],
+            [{"argument_id": "B1", "status": "transcription (instantiation)"},
+             {"argument_id": "B2", "status": "no result"}],
+        )
+        self.assertEqual(entry["supports"], [{"kind": "claim", "id": "C-B", "relation_id": "REL-S"}])
+        self.assertEqual(
+            entry["rivals"],
+            [{"statement_id": "STMT-OTHER-RIVAL", "refutations": []},
+             {"statement_id": "STMT-RIVAL", "refutations": [{"argument_id": "REF", "counted": True}]}],
+        )
+        self.assertEqual(entry["attempts"], [{"id": "ATTEMPT-OK", "outcome": "succeeded"}])
+        self.assertEqual(
+            entry["definition_linked_unused"],
+            [{"statement_id": "STMT-UNUSED-BOTH", "shared_definition_ids": ["DEF-T", "DEF-U"]},
+             {"statement_id": "STMT-UNUSED", "shared_definition_ids": ["DEF-T"]}],
+        )
+        text = corpus.format_thickness_queue("STMT-ROOT", self.queue())
+        self.assertIn("rival STMT-RIVAL: REF (counted)", text)
+        self.assertIn("rival STMT-OTHER-RIVAL: no refutes relation", text)
+
+
+class RejectedAttemptOutcomeTest(unittest.TestCase):
+    def test_rejected_outcome_validates(self) -> None:
+        from premise_dossiers import validate_attempt
+
+        validate_attempt(
+            {"id": "5d1e0c6a-3b9f-4f0e-8c2a-7e4b1d9a6f30", "statement_ids": ["STMT-A"], "date": "2026-11-07", "kind": "derivation",
+             "outcome": "rejected", "summary": "Relocation only.", "evidence": []},
+            {"STMT-A"},
+            set(),
+        )
 
 
 if __name__ == "__main__":

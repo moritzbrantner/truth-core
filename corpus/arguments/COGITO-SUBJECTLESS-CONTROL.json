@@ -1,13 +1,15 @@
 {
-  "id": "COGITO-SUBJECTLESS-CONTROL",
+  "id": "9ad7c2df-6d69-5be3-91f9-8ddd79389367",
+  "label": "There is a one-episode interpretation in which a thought occurs and no subject bears any occurring…",
+  "legacy_id": "COGITO-SUBJECTLESS-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COGITO-SUBJECTLESS-CONTROL",
+  "conclusion_statement_id": "981193aa-35f0-5098-8f58-86b028e50716",
   "inference_ids": [
-    "INF-COGITO-SUBJECTLESS-CONTROL"
+    "9a9b3120-d8a1-5c79-b5d7-d353765906b7"
   ],
   "meaning": "Interpret Occurs as always true and Bears as always false over Unit.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66"
   ]
 }

@@ -1,0 +1,28 @@
+{
+  "id": "edd8651b-dc0c-5327-a72a-8611748b918e",
+  "label": "For actual concreta a,b at the selected world, if b is maximal in the SAME supplied…, via grades",
+  "legacy_id": "AT-MAXIMAL-TARGET-VIA-GRADES",
+  "premise_statement_ids": [
+    "d96105fb-8c4d-5e56-b3c7-2cb77a447c2b"
+  ],
+  "conclusion_statement_id": "bcf79e03-6dcb-5b00-8c69-244be36dec15",
+  "inference_ids": [
+    "580beaca-2f59-5f68-b5b4-2e4d54a23bcb"
+  ],
+  "meaning": "If an actual concretum a grounded an actual maximum b in esse, a would be more in esse than b, which maximality (nothing is more in esse than b) excludes. So no actual concretum grounds a maximum at all, which gives the local asymmetry policy without any asymmetry premise. The InAct part of maximality is unused.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "64ea018d-ccde-5ce9-85f5-a4e367199aac",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}

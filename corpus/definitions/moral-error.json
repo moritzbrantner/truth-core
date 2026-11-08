@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MORAL-ERROR",
+  "id": "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+  "label": "Moral error, cognitive reading: A person accepts a moral sentence that is truth-apt and not true",
+  "legacy_id": "DEF-MORAL-ERROR",
   "term": "moral error, cognitive reading",
   "definition": "A person accepts a moral sentence that is truth-apt and not true. This reuses Errs and SomeMoralError; need for correction is a separate predicate and no accomplished improvement is inferred.",
   "basis": "stipulative",

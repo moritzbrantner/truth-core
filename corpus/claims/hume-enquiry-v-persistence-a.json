@@ -1,15 +1,17 @@
 {
-  "id": "HUME-ENQUIRY-V-PERSISTENCE-A",
-  "statement_id": "STMT-HUME-INDUCTION-PERSISTENCE",
-  "source_id": "HUME-ENQUIRY",
+  "id": "b7a37962-52c1-5fde-bc2f-c613c6cb07d6",
+  "label": "David Hume, An Enquiry concerning Human…: The nonargumentative principle preserves influence as…",
+  "legacy_id": "HUME-ENQUIRY-V-PERSISTENCE-A",
+  "statement_id": "fa766632-ba7c-5b6e-9ec6-8353f80a0411",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "V, §2 (SBN 41–42)",
   "interpretation": "The same-nature condition is indispensable. An unconditional guarantee of future habit would strengthen the sentence and is not attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-PERSISTENCE",
-    "DEF-HUME-INDUCTION-CUSTOM"
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31",
+    "cef4da44-097f-546a-80cc-67c3a08a80af"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

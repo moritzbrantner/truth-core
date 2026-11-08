@@ -1,6 +1,8 @@
 {
-  "id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
-  "argument_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "id": "a3bb00aa-5177-5101-98a2-d03f2e53d81f",
+  "label": "Exact negation of matched-content religious truth…, from An actual selected religious sentence has…",
+  "legacy_id": "MATCHED-RELIGIOUS-TRUTH-DIFFERENCE-REJECTS-UNIFORM",
+  "argument_id": "1ed3a9ca-1d01-5d62-8797-d13a11c8082a",
   "challenge_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Difference.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Difference.Solution",
   "theorem": "TruthCore.Results.Alternatives.ReligiousLanguageSemantics.matchedDifferenceRejectsUniform",

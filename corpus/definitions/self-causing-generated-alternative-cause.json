@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "id": "cd6c223c-efd3-5bd0-9547-c39bc016a676",
+  "label": "Self-causing generated beings have an…: For every x, if x comes to be and Causes x x, there exists…",
+  "legacy_id": "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
   "term": "self-causing generated beings have an alternative cause",
   "definition": "For every x, if x comes to be and Causes x x, there exists the same alternative witness y with y ≠ x and Causes y x. The guard concerns each generated x; it is not global irreflexivity. A mixed relation with both self and distinct causes satisfies it. With no causes it is vacuously true even if a generated thing exists; therefore it is not the distinct-cause principle by itself.",
   "basis": "stipulative",

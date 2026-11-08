@@ -1,7 +1,9 @@
 {
-  "id": "INF-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "id": "dcd3481e-936c-51f1-b53f-2c683d108d47",
+  "label": "There is a relation R under which every being is R-accessible, yet below…, by Explicit-countermodel",
+  "legacy_id": "INF-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-REGRESS-ACCESSIBILITY-ALLOWS-UNBOUNDED-DEPTH",
+  "output_statement_id": "b5810b6a-6394-5107-96a8-8ff56d0e7c1f",
   "rule": "explicit-countermodel",
   "meaning": "Take the naturals under the predecessor link and a top that every natural links to. Each natural is accessible by induction; the top is accessible because all its immediate causes are naturals. Below the top, the chain through n-1, ..., 0 descends for n steps, for every n.",
   "assumption_statement_ids": [],

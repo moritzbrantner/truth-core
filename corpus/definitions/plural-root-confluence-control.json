@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "id": "afe68cc5-c557-5cd6-ab83-94823aa3b481",
+  "label": "Upstream confluence test on the\u2026: PluralRootConfluence.graph is exactly\u2026",
+  "legacy_id": "DEF-PLURAL-ROOT-CONFLUENCE-CONTROL",
   "term": "upstream confluence test on the unchanged part-free plural-root interpretation",
   "definition": "PluralRootConfluence.graph is exactly WorldSourceRegress.actualGraph PartFreePlurality.ontic false. node x only pairs the same x with its existing True actuality witness. In this fixed interpretation Causes and power.supportsEsse are both the original strict rank relation, so the actual causal/support graphs are definitionally equal. Control conjoins the original JointControl with connectivity, WF, two distinct source witnesses, their shared instrument effect, nonjoinability of their upstream endpoints, and failure of confluence and unique rootedness.",
   "basis": "stipulative",

@@ -1,0 +1,12 @@
+{
+  "id": "dede4eaa-67b7-5444-8bd9-480b1a5d54e0",
+  "label": "At the reading world w, whatever is SIMPLY_PRIOR_1 to something other than itself…, via dependence",
+  "legacy_id": "SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE",
+  "argument_id": "931319ea-10e8-565c-b297-192dcc87215a",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.simplyPriorGroundViaDependence",
+  "comparator_config": "results/SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "If y is simply prior to x, x depends for its being on y (necessary direction of the dependence analysis of priority, reused from causal maps batch 1); both are actual concreta; so y grounds x. The distinctness hypothesis of the target is not used."
+}

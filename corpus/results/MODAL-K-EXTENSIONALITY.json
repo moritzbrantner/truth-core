@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-K-EXTENSIONALITY",
-  "argument_id": "MODAL-K-EXTENSIONALITY",
+  "id": "cf084033-c195-524f-a910-6ab16b7420e9",
+  "label": "Both four-state K_FORK_4 languages satisfy WORLD_PROPOSITIONAL_EXTENSIONALITY_5: the atom…",
+  "legacy_id": "MODAL-K-EXTENSIONALITY",
+  "argument_id": "9f87b9dc-de5c-552e-b465-f8cb68c58850",
   "challenge_module": "TruthCore.Results.Modal.K.Extensionality.Challenge",
   "solution_module": "TruthCore.Results.Modal.K.Extensionality.Solution",
   "theorem": "TruthCore.Results.Modal.K.Extensionality.checks",

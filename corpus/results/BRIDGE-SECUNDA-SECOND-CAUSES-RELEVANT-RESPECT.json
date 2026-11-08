@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
-  "argument_id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "id": "6969b0d1-2fd5-5102-8847-6e5705834c95",
+  "label": "An efficient cause other than its effect that is…, from In ordered efficient causes the first…",
+  "legacy_id": "BRIDGE-SECUNDA-SECOND-CAUSES-RELEVANT-RESPECT",
+  "argument_id": "763ce47f-4396-50e3-8baf-7d7450f0cfec",
   "challenge_module": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.Challenge",
   "solution_module": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.Solution",
   "theorem": "TruthCore.Results.Bridges.SecundaSecondCausesRelevantRespect.secondCausesCauseAsCausedInRelevantRespect",

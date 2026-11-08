@@ -1,7 +1,9 @@
 {
-  "id": "INF-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "id": "e358a004-173b-5363-92ac-bf62f58da2b4",
+  "label": "A finite formal-schema model satisfies every existing pilot report and…, by Constructive-model",
+  "legacy_id": "INF-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-CATHOLICISM-FOUNDING-LOCAL-INDEPENDENCE",
+  "output_statement_id": "b6db6a0e-1667-5a5d-9658-813b1dc43191",
   "rule": "constructive-model",
   "meaning": "Import the existing evidence model, populate its existing society predicates, check each local input, and instantiate the universal bridge at the God witness and society to derive False. The counterassignment shows that the declared local inputs do not force teaching-founding. It supplies no refutes or alternative-to relation to the historical root premise.",
   "assumption_statement_ids": [],

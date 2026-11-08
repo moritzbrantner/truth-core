@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-6-EXISTENCE-EXPLANATION",
+  "id": "e0c4f513-7505-5ab9-83e8-4a0dd4481b28",
+  "label": "Everything that exists has an explanation, and the universe exists; therefore the universe has an…",
+  "legacy_id": "STMT-CC100-6-EXISTENCE-EXPLANATION",
   "paraphrase": "Everything that exists has an explanation, and the universe exists; therefore the universe has an explanation.",
   "definition_ids": [
-    "DEF-CC100-6-UNIVERSE-EXPLANATION-GOD"
+    "db230236-8eb0-5263-a930-94948bc9f6a5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

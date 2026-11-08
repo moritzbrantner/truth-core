@@ -1,16 +1,18 @@
 {
-  "id": "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-IN-ACT-A",
-  "statement_id": "STMT-INCORRUPTIBLE-IS-IN-ACT-IN-SUBSTANCE",
-  "source_id": "AQUINAS-IN-METAPH",
+  "id": "be153747-ced7-5912-aa16-1f0f681ac1c9",
+  "label": "Thomas Aquinas, Sententia libri…: Every simply incorruptible being is in act in substance",
+  "legacy_id": "AQUINAS-IN-METAPH-IX-L9-INCORRUPTIBLE-IN-ACT-A",
+  "statement_id": "d017b6b0-3dd9-5c1a-b412-bdd9a7df5660",
+  "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
   "locator": "IX, lect. 9 n. 5–6",
   "interpretation": "From every potency being corruptible, Aquinas concludes that nothing simply incorruptible is a being in potency simply, in substance (n. 5); but 'nihil prohibet, id quod est incorruptibile simpliciter, esse in potentia secundum quid, aut secundum quale, aut ubi', as the moon is in potency to be lit and the sun in the east is in potency to be in the west; 'Patet ergo ex praedictis, quod omnia sempiterna, inquantum huiusmodi, sunt in actu' (n. 6). Read as act in substance: every simply incorruptible being is in act in the respect esse. 'Inquantum huiusmodi' and the preceding concession restrict the act to substance, so the reading does not say that an incorruptible being is in act, or not in potency, in every respect.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-INCORRUPTIBLE-SIMPLY",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CORRUPTIBLE-SIMPLY-OR-IN-A-RESPECT"
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
-  "argument_id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "id": "d0b1c36d-f2c8-5594-a94f-e47bed6545b0",
+  "label": "The exact meaningful-divine-arguability…, from No meaningful content is about God or the…",
+  "legacy_id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "argument_id": "29a12596-194c-51ba-8aee-58fafafe89d2",
   "challenge_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Challenge",
   "solution_module": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution",
   "theorem": "TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.projection",

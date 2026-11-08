@@ -1,6 +1,8 @@
 {
-  "id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
-  "argument_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "id": "bb378171-d87a-5ad7-86b6-b2816e8db709",
+  "label": "Exact negation of the explicit named-case coverage hypothesis, not…, from A selected-world no-esse…",
+  "legacy_id": "FURTHER-CAUSAL-COUNTERACCOUNT-DEFEATS-NAMED-COVERAGE",
+  "argument_id": "e91ac9e8-6ec9-5809-8428-7f145783c7d9",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.OtherFailure.otherFailure",

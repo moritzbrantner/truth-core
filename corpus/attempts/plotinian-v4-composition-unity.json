@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-PLOTINIAN-V4-COMPOSITION-UNITY",
+  "id": "8134fdbb-9c5f-5d86-a987-08fd2f8bf312",
+  "label": "Pinned and materialized full Greek Enneads V.4, read whole for five V.4.1 readings and one V.4.2…",
+  "legacy_id": "ATTEMPT-PLOTINIAN-V4-COMPOSITION-UNITY",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-PLOTINIAN-FIRST-SELF-STANDING",
-    "STMT-PLOTINIAN-COMPOSITE-NEED",
-    "STMT-PLOTINIAN-FIRST-UNIQUE",
-    "STMT-PLOTINIAN-BODY-NOT-FIRST",
-    "STMT-PLOTINIAN-INTELLECT-NOT-FIRST",
-    "STMT-PLOTINIAN-DERIVATIVE-SCOPE",
-    "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
-    "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-NO-COMPONENT-IS-FIRST-BEING"
+    "28c6f237-beb0-5236-a2b4-677a51cf0ed5",
+    "19cd1651-c161-5eef-b01f-bfbd61c49fd0",
+    "39946341-17c6-5b19-b84d-8dafce9acde0",
+    "943af17d-c28d-511a-a97e-4f169bcd6f5c",
+    "6218cce5-6152-5cb0-9810-b62645bd3618",
+    "de2546d4-1f6c-5ca0-acab-20ee8957d601",
+    "363a528c-a22c-5a46-b1ef-64e39f8dba45",
+    "b35ce743-6870-5884-926f-60744d1a318b",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "09c6d5f0-d412-5038-85f9-75fffb935727"
   ],
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Pinned and materialized full Greek Enneads V.4 (chapters1–2), read whole for five V.4.1 readings and one V.4.2 Intellect reading. Six prose readings preserve first-principle self-standing/global scope, constitutive need for internal simples, asserted uniqueness, body exclusion, Intellect plurality and immediate-or-mediated derivation. Exact FirstMoverSimple.firstMoverSimple, StageTwo.GodIsSimple.godIsSimple and SourceForest.atMostOne_of_confluent/rooted_of_confluent were inspected and reused as conditional boundaries, not relabeled Plotinian results. A duplicate graph/simplicity theorem and a transcription of uniqueness were rejected: needed interpretation and individuation premises remain independent. Distinct numerical individuals each lacking modeled components are not refuted by saying their pair is not one; actual causal correspondence and common-domain coverage also remain open. Positive rival map and source/proof boundaries are in docs/notes/plotinian-composition-unity.md. No new Lean/result, no root premise or route change. PR665 review correctly identified that the Intellect/intelligible argument belongs to V.4.2: the pinned XML section2 starts with εἰ μὲν οὖν αὐτονοῦς before διὰ τί δὲ οὐ νοῦς. Corrected the locator and dependent scope descriptions; the complete-treatise witness and philosophical commitments are unchanged. Successor reading completed2026-10-31: pinned/materialized/read Greek VI.9.1–6 as six complete chapter witnesses PLOTINUS-ENN-VI-9-1 through-6 in the SAME First1K revision/blob. Sequential source map preserves identity-through-unity examples; soul multiple powers and derivative unity; Intellect/Form/comprehensive intelligible-Being multiplicity and constituent priority; beyond-form generative-first account; contemplative-presence limits; explicit nonbodily-soul/intellect audience presuppositions; and VI9.6 positive constituent-need/self-sufficiency argument with nonquantitative power-infinity. Strongest plural reply grants organized/intelligible multiplicity needs unity but denies that EACH of two intrinsically simple whole natures becomes internally multiple because their pair is plural. No independent new numerical-individuation step found for that case; universal One-source participation remains a substantive ontology rather than consequence of sharing the predicate one. Plotinian intelligible Being is not broad ExistsAt; beyondBeing does not mean literal nonexistence. Ontic firstness, common generative coverage, modal necessity and Catholic identification remain distinct. Full precise scope and rejected readings persist in docs/notes/plotinian-composition-unity.md; no new claims, predicates, Lean theorem/model or philosophical premise. Existing candidate PLOTINIAN-DEPENDENCE-UNIQUENESS-BRIDGES removed because its prescribed V4/VI9.1–6 ranges are exhausted, not kept as gap tracker. No arbitrary successor: source-choice gap is a primary independently defended numerical-common-source/second-simple-individuation argument; VI9.7–11 remains unread and is not cited or automatically queued. Root premise delta zero.",
   "evidence": [
-    "PLOTINUS-V4-FIRST-SELF-STANDING",
-    "PLOTINUS-V4-COMPOSITE-NEED",
-    "PLOTINUS-V4-FIRST-UNIQUE",
-    "PLOTINUS-V4-BODY-NOT-FIRST",
-    "PLOTINUS-V4-INTELLECT-NOT-FIRST",
-    "PLOTINUS-V4-DERIVATIVE-SCOPE"
+    "ead613bc-900f-5205-9c41-f2c1e6340c0b",
+    "98d18c67-4ae5-5e28-8831-f39b891ddb46",
+    "e5ad16ec-48dd-56ff-aa82-bdb9262a7bdb",
+    "7fa5bc9e-2921-5506-a3cf-acd793e62ce3",
+    "e8f6b584-a62d-59ed-b78a-451fb3574666",
+    "fbdf11e3-420a-5664-8f32-3a418fba01db"
   ],
   "blocker": "Interpret the source constituent-need and power/form plurality in the same selected composition/priority domain, and independently justify common numerical source coverage against plural intrinsic simple whole natures. The VI9.1–6 reading is now complete; its hierarchy/self-sufficiency argument does not by itself show that each of two such candidates is internally many. No precise next primary witness for that missing individuation/coverage bridge has been selected; unread VI9.7–11 is not evidence. Modal necessity, all-world support independence and Catholic identification remain separate."
 }

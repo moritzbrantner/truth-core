@@ -1,0 +1,12 @@
+{
+  "id": "e3241a3d-6057-4d11-a473-b67a787f2e2f",
+  "label": "Global-to-actual love projection (inference)",
+  "input_statement_ids": [
+    "0edc0b38-46b0-567a-9f72-64e16b30c77b"
+  ],
+  "output_statement_id": "5e5aa271-d500-41c7-a470-32969b00a5af",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

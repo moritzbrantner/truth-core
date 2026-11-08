@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PSR-SOUND-COMPONENT",
+  "id": "9833b805-eeab-5e04-9365-3e7efa1d3bb6",
+  "label": "Explanation tokens imply that their existence facts hold at the selected world",
+  "legacy_id": "STMT-PSR-SOUND-COMPONENT",
   "lean_declaration": "TruthCore.Explanation.ExistencePSR.Sound",
   "paraphrase": "Explanation tokens imply that their existence facts hold at the selected world.",
   "definition_ids": [
-    "DEF-PSR-SOUNDNESS"
+    "70fccbe6-be10-5709-9d73-53a436b97f25"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "id": "0c748d66-dd85-5569-a7fd-b6fbaf4e79f6",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed…, from operating",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "premise_statement_ids": [
+    "193c3a8c-fc70-5b5d-8621-df68a5b0f960",
+    "febc5ca6-967a-5fcc-9d72-5255d1300b6d"
+  ],
+  "conclusion_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+  "inference_ids": [
+    "741543b5-f3e1-50d7-9191-30d8cc051add"
+  ],
+  "meaning": "Every attributed intellectual exercise requires its bearer to be in act in some respect, from two OPEN premises: whoever exercises intellect operates, and whatever operates is in act in some respect (the generic, not only transient, operari sequitur esse).",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "acd05a1f-9ba3-5ed9-abd4-e748a1efce32",
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
+  ]
+}

@@ -1,16 +1,18 @@
 {
-  "id": "CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
-  "statement_id": "STMT-CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "4c55bf16-ff5b-5db8-a068-174316e3fa9b",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If a subject S knows a proposition p, there is a…",
+  "legacy_id": "CC100-118-KNOWLEDGE-CAUSAL-CONNECTION",
+  "statement_id": "252ab626-242e-56a3-9396-455383cd8c11",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.278, argument #118 Certainty, step 2",
   "interpretation": "This is a universal displayed causal-explanation requirement on knowledge. It is not independently defended by defining knowledge, and object known is not silently the proposition p or an Ontic cause with actual concrete endpoints. No causal process, abstract-object efficacy or factivity law is supplied. Attribution is to McIntosh’s presentation only, not the unread Rogers2008 article referenced on p279. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-118-MATHEMATICAL-KNOWLEDGE-CAUSE"
+    "2fe8632c-590d-5b5f-86ef-79abcf51044b"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

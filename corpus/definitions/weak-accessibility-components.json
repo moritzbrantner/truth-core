@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WEAK-ACCESSIBILITY-COMPONENTS",
+  "id": "f1f5238a-af45-5403-8a65-790681d4935d",
+  "label": "WEAK_ACCESSIBILITY_COMPONENT_2: Mathlib Quiver.WeaklyConnectedComponent is the quotient by finite\u2026",
+  "legacy_id": "DEF-WEAK-ACCESSIBILITY-COMPONENTS",
   "term": "weak accessibility component",
   "definition": "Mathlib Quiver.WeaklyConnectedComponent is the quotient by finite paths in the symmetrified quiver, so edges may be used forward or backward. In oneWay, accessibility is Bool order false \u2264 true, including both loops; all worlds share a weak class, while false and true have distinct strong classes.",
   "basis": "stipulative",

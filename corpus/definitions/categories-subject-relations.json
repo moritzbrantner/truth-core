@@ -1,10 +1,12 @@
 {
-  "id": "DEF-CATEGORIES-SUBJECT-RELATIONS",
+  "id": "bba020f8-c553-542e-a54a-250e2d116dc7",
+  "label": "Being in a subject; being said of a…: In x y and SaidOf x y are the two supplied relations of…",
+  "legacy_id": "DEF-CATEGORIES-SUBJECT-RELATIONS",
   "term": "being in a subject; being said of a subject (Categories)",
   "definition": "`In x y` and `SaidOf x y` are the two supplied relations of `PrimarySubstanceBySubjectRelationsReading`: something is a primary substance exactly when it is neither said of any subject nor in any subject. Their content is not defined in Lean. Neither is identified with bearing, direct existential support or explanation.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-CAT-2A-PRIMARY-SUBSTANCE-A"
+    "283dcc58-f3b0-55b3-8cfd-a9883056586a"
   ],
   "lean_declaration": "TruthCore.Greek.Aristotle.Categories.PrimarySubstanceBySubjectRelationsReading"
 }

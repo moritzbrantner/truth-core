@@ -1,18 +1,20 @@
 {
-  "id": "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
+  "id": "e95c2bab-9020-5e61-bb10-34696fc01687",
+  "label": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded…",
+  "legacy_id": "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
   "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply",
   "paraphrase": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded actual-concrete grounding graph, with its intrinsic predicate instantiated as sources of that same selected grounding relation. Records for non-source targets list all actual concrete immediate grounds and have nonempty contributors. This is an explicit existential-application/adequacy premise; it does not assert a necessary source or a well-founded whole graph.",
   "definition_ids": [
-    "DEF-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
-    "DEF-DERIVATIVE-JOINT-SUPPLY",
-    "DEF-JOINT-CAUSAL-GROUPS",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-REGRESS-SCHEMA-GRAPH"
+    "f825624c-78af-5df8-ba76-c9ef691eb9af",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35",
+    "ff8bf1d7-0bf9-5dda-8038-7127e3d46ec8",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959"
   ]
 }

@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-EMPTY-TRUTHMAKER-554",
+  "id": "65192962-b792-5dab-bea4-67ea67d3ea50",
+  "label": "Reused exact negativeMap pointwise proof and already-certified negativeArena omission controls…",
+  "legacy_id": "ATTEMPT-EMPTY-TRUTHMAKER-554",
   "date": "2026-11-05",
   "kind": "derivation",
   "outcome": "succeeded",
   "statement_ids": [
-    "STMT-EMPTY-TRUTHMAKER-E",
-    "STMT-EMPTY-TRUTHMAKER-T",
-    "STMT-EMPTY-TRUTHMAKER-I",
-    "STMT-EMPTY-TRUTHMAKER-FACTIVITY",
-    "STMT-CONCRETE-EMPTY-TRUTH-AT",
-    "STMT-NEGATIVE-TRUTH-NEEDS-MAKER-AT",
-    "STMT-CONCRETE-MAKER-POLICY",
-    "STMT-EMPTY-TRUTHMAKER-REPLIES"
+    "99e8ebc7-5707-5116-bc97-a1ea23bc88d3",
+    "711d5039-6e3e-5166-bcc0-ec0467806922",
+    "3ea2491f-ba65-5783-b923-d931254eb3c8",
+    "8347a59b-76ca-5873-9dbf-24a9ea58078d",
+    "7baa582c-274f-55f2-a62b-7a3fc776057a",
+    "012a5ae5-c5f5-595a-8046-246f6f22683c",
+    "c3e23569-d097-50e2-91ab-cad094e79162",
+    "aad0a4f7-a948-5f42-9366-f2074ca62fed"
   ],
   "summary": "Reused exact negativeMap pointwise proof and already-certified negativeArena omission controls through accessible-world and Unit pullback adapters. Registered exact E/T/I argument plus three finite models; actual configuration evaluation certifies inclusion-minimality, including factivity in all deletions. Added genuinely missing general concrete-negative/coverage/ConcreteMaker contradiction. Distinct stipulated abstract, absence-content, rigid-totality-inventory, actually-existing-elsewhere and reified necessary-proposition profiles separate eligibility/content/necessitation. Rejected closed-map-as-open-core, concreta-to-all-existents shift, absent-everywhere as existing-external, truth-as-entity and mutable rigid totality content. Necessary content cannot entail the contingent negative; a separately necessary negative with reification/making can be covered, while noMaking still fails. Full substance and interpretation limits in docs/notes/disjunction-ground-485.md; direct #466 connection. No new primary attribution or source claim. Expected and computed root delta zero: 90 open and cheapest31 unchanged. Shared conventions sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Focused builds, binding3/0, all three Comparator/NanoDa gates, actual configuration/model/composition and Python configuration/report32tests and explorer configuration3tests pass; declaration source index resolves all metadata. CLI used because preview predates imports; no service mutation.",
   "blocker": "Metaphysical applicability, eligibility/domain completeness, truthmaker relevance, reification and the open E/T/I/concrete-maker commitments are not defended. No complete historical account or metaphysical possibility is certified; optional self-reference not pursued. No root closure.",
   "evidence": [
-    "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
-    "EMPTY-TRUTHMAKER-CONCRETE-INCOMPATIBLE",
-    "EMPTY-TRUTHMAKER-REPLIES",
-    "TRUTHMAKER-NEGATIVE-TRUTH-MAP"
+    "715d32ab-6d89-56ab-af36-ff78fd67c7eb",
+    "25ee5fa9-8a89-5007-9fc5-815ba5d8fea0",
+    "3f4ea43a-d6da-5fbc-8e7c-a140e5ecd1c3",
+    "c121111a-9ed3-5f20-bca0-6fbeee8ceb04"
   ]
 }

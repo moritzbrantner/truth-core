@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-REPORT-SATURATION",
+  "id": "6298a18f-dd0d-5b30-816f-a1971f7d08ed",
+  "label": "Full joint elementary-report realization: Saturates F report a realizes every value of the\u2026",
+  "legacy_id": "DEF-JOINT-REPORT-SATURATION",
   "term": "full joint elementary-report realization",
   "definition": "Saturates F report a realizes every value of the supplied report domain V as report w at some F-accessible world from a. The general law identifies necessary report constraints with constraints true at every domain value, conditional on saturation. This is report surjectivity, not a claim that all propositions are independently elementary or all value assignments genuinely metaphysically possible.",
   "basis": "stipulative",

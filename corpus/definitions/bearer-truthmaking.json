@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BEARER-TRUTHMAKING",
+  "id": "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+  "label": "WORLD_IMMANENT_BEARER_TRUTHMAKING_1: Making w b f is a primitive candidate interpretation of an…",
+  "legacy_id": "DEF-BEARER-TRUTHMAKING",
   "term": "world-immanent bearer truthmaking",
   "definition": "Making w b f is a primitive candidate interpretation of an entity making a truth true. Sound separately conjoins actual truth (TruthSound) and existence of that same b at the making world (WorldImmanent). MakerNecessitation additionally requires truth at accessible worlds where b exists; it does not require b to exist at every world. No transitivity, asymmetry or well-foundedness is assumed; the relation is heterogeneous and composition would need more vocabulary.",
   "basis": "stipulative",

@@ -1,0 +1,12 @@
+{
+  "id": "e8436d21-8a9c-5f1e-8db2-1ead9009edc7",
+  "label": "OPEN, analyst formulation of the analogy premise of ST I q.19 a.1, attribution…, from finality",
+  "legacy_id": "EVERY-FORM-INCLINED-FROM-FINALITY",
+  "argument_id": "1ac2bf91-30d1-5289-ac04-f4549ba18632",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.everyFormInclinedFromFinality",
+  "comparator_config": "results/EVERY-FORM-INCLINED-FROM-FINALITY/comparator.json",
+  "status": "solution-present",
+  "description": "Some inclination follows every form a thing has, through operation and end as middle terms: each form is the principle of some operation (OPEN), every such operation is directed to an end (OPEN finality principle), and operating through a form toward an end is an inclination following the form (OPEN recognition). The last premise needs both witnesses supplied by the first two."
+}

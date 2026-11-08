@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOTION-NEITHER-BARE-POTENTIAL-NOR-SHEER-ACTUALITY",
+  "id": "71dd6bde-7d46-5858-8246-64984d1efcb6",
+  "label": "Motion cannot simply be identified with bare potentiality or with sheer/completed actuality",
+  "legacy_id": "STMT-MOTION-NEITHER-BARE-POTENTIAL-NOR-SHEER-ACTUALITY",
   "paraphrase": "Motion cannot simply be identified with bare potentiality or with sheer/completed actuality.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MotionNeitherBarePotentialNorSheerActualityReading"
 }

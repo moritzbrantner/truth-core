@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-AUTONOMOUS-EXISTENCE-INGREDIENT-EXTRACTION",
+  "id": "dce2ca95-e3ca-5051-aa64-96648e513372",
+  "label": "Reuse audit found that the strong source PSR already supplies a full ground whose members are…",
+  "legacy_id": "ATTEMPT-AUTONOMOUS-EXISTENCE-INGREDIENT-EXTRACTION",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-EXISTENCE-GROUND-HAS-EXISTENCE-INGREDIENT",
-    "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
-    "STMT-EXISTENCE-INGREDIENT-AT",
-    "STMT-AUTONOMOUS-EXISTENCE-INGREDIENT",
-    "STMT-MIXED-EXISTENCE-INGREDIENT-CERTIFICATE"
+    "c883475a-4aa8-5ae5-b9b8-f5d4da9bebdc",
+    "9e43b06d-62f3-5f2a-9599-c19df184bd5c",
+    "996d8cb2-434a-5b8a-a110-9c78a416f6bd",
+    "809d95fb-ca16-514c-aa5b-c6b847cecacb",
+    "8edb1aa2-6f2b-5c1f-9b75-f59212ee0535"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Reuse audit found that the strong source PSR already supplies a full ground whose members are autonomous. Rejected adding a redundant WF/selected-spine premise to that formulation. Direct typed extraction retains the same joint record and all members, including enablers; a fixed mixed record shows the existential ingredient need not be the only antecedent. Reuses ExistenceFact.fact and Groups data without importing causal Exercise or identifying member projection with sufficient explanation. Source and analyst statements remain separate. Both local theorem axiom reports are empty; focused module build succeeds. Final full build succeeds. Both result configs pass Comparator and independent NanoDa with zero permitted axioms; both axiom reports empty. Fresh full binding has 734 bound results,2 existing pins,0 mismatch with both new entries exact. Source/corpus/generator/diff checks pass. Root route and reaching-root reports remain byte-identical (11 routes,62 open). The formal classification of autonomous labels is not a proof that they lack incoming grounds; no such termination conclusion is advertised. Exact semantics, examples/exclusions, properties, abstraction and strongest note44 reply are in docs/notes/underived-essence-identity.md. Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa.",
   "blocker": "Strong full autonomous grounding and the ingredient requirement remain open application premises. No label truth, essential-status identification, modal necessity, actual bearer/concrete support or independently sufficient explanation is established. The directly autonomous starting-fact case is outside this step.",
   "evidence": [
-    "DASGUPTA-EXISTENCE-GROUND-INGREDIENT",
-    "AUTONOMOUS-EXISTENCE-INGREDIENT",
-    "MIXED-EXISTENCE-INGREDIENT-CERTIFICATE"
+    "79af86ea-8010-55d2-8737-140a3cc05e82",
+    "42df5095-2e09-5970-afdc-4f7484fcc15d",
+    "126a02d7-e961-5823-b842-95bb4ca2f8a0"
   ]
 }

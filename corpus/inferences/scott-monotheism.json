@@ -1,10 +1,12 @@
 {
-  "id": "INF-SCOTT-MONOTHEISM",
+  "id": "b3ac2ef6-ed40-5125-8236-ed6c0e9b7916",
+  "label": "AFP GoedelGod.thy, theorem Monotheism: at every world, any two GOD_LIKE_5 beings…, by Case-analysis",
+  "legacy_id": "INF-SCOTT-MONOTHEISM",
   "input_statement_ids": [
-    "STMT-SCOTT-GOD-LIKE-FLAWLESS",
-    "STMT-EXCLUDED-MIDDLE"
+    "81d437cf-deea-5f51-b9c4-7f487c0d1f87",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-SCOTT-GOD-LIKE-UNIQUE",
+  "output_statement_id": "966e4364-62b1-5c65-90f6-b218117bc229",
   "rule": "case-analysis",
   "meaning": "AFP Monotheism (metis Flawlessness G_def). Let x, y be God-like at w and x have Φ there. By excluded middle Φ is positive or not. If positive, y has it. If not, x lacks it by flawlessness: contradiction.",
   "assumption_statement_ids": [],

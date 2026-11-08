@@ -1,1 +1,1 @@
-{"id": "STMT-EVIL-IS-FOUND-IN-THINGS", "paraphrase": "There is evil in some being.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsFoundInThingsReading", "definition_ids": ["DEF-EVIL-AS-PRIVATION"]}
+{"id": "fbf9275a-5601-58e7-8555-629247386d5e", "label": "There is EVIL_1 in some being", "legacy_id": "STMT-EVIL-IS-FOUND-IN-THINGS", "paraphrase": "There is evil in some being.", "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.EvilIsFoundInThingsReading", "definition_ids": ["9bcf08c8-b0e8-5fff-a537-f32d043976e9"]}

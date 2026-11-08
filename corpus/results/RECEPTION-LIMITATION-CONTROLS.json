@@ -1,0 +1,12 @@
+{
+  "id": "76089a5e-b830-555c-a26d-ed727e0b4ee8",
+  "label": "Finite one-being interpretations: for each of the four derivations unlimited is own being from…",
+  "legacy_id": "RECEPTION-LIMITATION-CONTROLS",
+  "argument_id": "33f6d708-086d-5321-8cd3-cf15e8a5c32d",
+  "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
+  "theorem": "TruthCore.Results.Causality.ReceptionLimitation.controls",
+  "comparator_config": "results/RECEPTION-LIMITATION-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite one-being interpretations: for each of the four derivations UNLIMITED-IS-OWN-BEING-FROM-RECEPTION, UNLIMITED-DETERMINATIONS-PURE-FROM-RECEPTION, INFINITE-PERFECTION-FROM-RECEPTION and UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING, one model per premise in which the other premises hold and the conclusion fails, and one model in which all premises and the conclusion hold. Satisfiability and omission only; no model is claimed to describe reality."
+}

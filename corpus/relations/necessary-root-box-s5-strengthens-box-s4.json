@@ -1,0 +1,12 @@
+{
+  "id": "0020d699-2335-5925-952e-dffbd8bafefa",
+  "label": "Necessary-being node, possibilist box… strengthens Necessary-being node, possibilist box…",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-S5-STRENGTHENS-BOX-S4",
+  "subject_kind": "statement",
+  "subject_id": "7089ce3d-3855-5bfb-a3c3-c202e8ff458a",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
+  "verification_result_id": "301bb12d-83a5-517a-b5a4-7fcf3cda0b25",
+  "note": "Strength registration: the S5 node implies the S4 node, applying the existing Cube theorem s5_implies_s4."
+}

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
-  "argument_id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "id": "562fe43a-5a92-5ff7-be85-39d717cedb74",
+  "label": "Logical falsity, from Stipulated mathematical configuration… and 1 more",
+  "legacy_id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "argument_id": "6da22842-f152-551b-9aa6-65fcfe1ff3c4",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.ReContingencyIncompatible.checks",

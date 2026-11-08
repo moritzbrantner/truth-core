@@ -1,6 +1,8 @@
 {
-  "id": "PER-SE-HISTORICAL-SERIES-DISTINCTION",
-  "argument_id": "PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "id": "505a5f8c-41d7-5825-a454-c6fdd7852088",
+  "label": "Analyst formulation, attribution deferred: for any proposed historical and essential relations…",
+  "legacy_id": "PER-SE-HISTORICAL-SERIES-DISTINCTION",
+  "argument_id": "3707f8a7-7fe9-5065-ae4c-33ef39d2d901",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.PerSeHistoricalSeries.distinction",

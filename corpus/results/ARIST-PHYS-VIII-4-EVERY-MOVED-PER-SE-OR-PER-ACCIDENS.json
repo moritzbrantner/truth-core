@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
-  "argument_id": "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "id": "f4e8a157-a671-572a-92df-5607c0a81ed8",
+  "label": "Whatever is moved in a respect of…, from Every physical MOTION_2 of a thing in a… and 4 more",
+  "legacy_id": "ARIST-PHYS-VIII-4-EVERY-MOVED-PER-SE-OR-PER-ACCIDENS",
+  "argument_id": "812b8a18-302d-59b6-846b-607c48942c76",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.Typed.EveryMovedPerSeOrPerAccidens.everyMovedPerSeOrPerAccidens",

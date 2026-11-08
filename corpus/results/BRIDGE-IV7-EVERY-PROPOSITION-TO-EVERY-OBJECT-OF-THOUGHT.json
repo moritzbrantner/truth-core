@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
-  "argument_id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "id": "708187e6-9c85-5688-82c8-6f5cb8c1061b",
+  "label": "Every object of thought is affirmed or denied…, from Every proposition is the object of some act…",
+  "legacy_id": "BRIDGE-IV7-EVERY-PROPOSITION-TO-EVERY-OBJECT-OF-THOUGHT",
+  "argument_id": "b7ed5289-e1c0-51ab-9764-2a07f083e74c",
   "challenge_module": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.Challenge",
   "solution_module": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.Solution",
   "theorem": "TruthCore.Results.Bridges.IV7EveryPropositionToEveryObjectOfThought.objectOfThoughtAffirmedOrDeniedOfEveryProposition",

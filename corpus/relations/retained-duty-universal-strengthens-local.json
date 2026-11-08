@@ -1,11 +1,13 @@
 {
-  "id": "REL-RETAINED-DUTY-UNIVERSAL-STRENGTHENS-LOCAL",
+  "id": "94f18161-d387-54dc-94cd-afaab7cd52cd",
+  "label": "For every action, a duty at after implies… strengthens For the fixed agent and identical…",
+  "legacy_id": "REL-RETAINED-DUTY-UNIVERSAL-STRENGTHENS-LOCAL",
   "subject_kind": "statement",
-  "subject_id": "STMT-RETAINED-DUTY-PRESENT-OIC",
+  "subject_id": "257ca27d-fdf4-5cb1-873d-3970cab1ad6b",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-RETAINED-DUTY-LOCAL-OIC",
-  "verification_result_id": "RETAINED-DUTY-UNIVERSAL-TO-LOCAL",
-  "strictness_result_id": "RETAINED-DUTY-LOCAL-CONTROLS",
+  "object_id": "2cc0cc30-8404-5681-94ec-b5cf6e85a93f",
+  "verification_result_id": "13900748-d471-5d3c-a365-2a08d0380997",
+  "strictness_result_id": "610c8451-4360-57ea-87f7-a7bf2995b3b7",
   "note": "The verified universal-to-local instance and two nonvacuous closed countermodels establish strict strengthening. Original-return OIC can hold while compensation OIC or debt-repayment OIC fails independently. Use the local direct/temporal cores operationally. Old universal cores remain frozen predecessors, not weakest sufficient policies."
 }

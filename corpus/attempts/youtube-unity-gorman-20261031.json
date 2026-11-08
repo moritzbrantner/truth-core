@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-YOUTUBE-UNITY-GORMAN-20261031",
+  "id": "63d8b0a7-d144-57ea-9809-9468890b3a92",
+  "label": "Ingested exactly one sustained primary spoken argument: Michael Gorman: Divine Unity and\u2026",
+  "legacy_id": "ATTEMPT-YOUTUBE-UNITY-GORMAN-20261031",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-TAPP-SHARED-SELF-POWER",
-    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+    "a08c44e9-b8b8-56f1-b622-b4aa5b550935",
+    "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+    "55890498-a250-5f23-9277-bd563a557378"
   ],
   "kind": "reading",
   "outcome": "succeeded",

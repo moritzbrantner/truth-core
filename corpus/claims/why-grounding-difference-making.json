@@ -1,15 +1,17 @@
 {
-  "id": "RICHARDSON-WHY-GROUNDING",
-  "source_id": "RICHARDSON-GROUNDING-NECESSARY-CONTINGENT-2021",
-  "statement_id": "STMT-WHY-GROUNDING-CONTRASTIVE-DIFFERENCE-MAKING",
+  "id": "569751bc-8437-561b-9e26-185ab7cb9f75",
+  "label": "Kevin Richardson, Grounding is Necessary…: Why-grounding corresponds to why-explanation and need…",
+  "legacy_id": "RICHARDSON-WHY-GROUNDING",
+  "source_id": "ea711c09-6c9b-5dc1-b825-f9807c128a37",
+  "statement_id": "6573cc65-79ab-549f-88c9-47700a2678ee",
   "locator": "PDF pp. 19–21 (printed pp.470–472), section 6.2",
   "interpretation": "Records the specific pluralist proposal; its explanatory correspondence is acknowledged as a working hypothesis. Not every arbitrary world-varying support relation satisfies it.",
   "attribution": "The passage states why-grounding corresponds to why-explanation and need not necessitate its target; the proposal imposes contrastive difference-making conditions rather than leaving grounding modally unconstrained, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES"
+    "fb322793-9175-591d-b5b2-7bc3989c90da"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

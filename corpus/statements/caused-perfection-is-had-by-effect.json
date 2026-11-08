@@ -1,0 +1,14 @@
+{
+  "id": "67aa5b5c-694b-50a1-90e5-d843234db924",
+  "label": "A caused perfection is had by its effect",
+  "legacy_id": "STMT-CAUSED-PERFECTION-IS-HAD-BY-EFFECT",
+  "paraphrase": "OPEN analyst premise: a caused perfection is had by its effect. If c causes x's being r, then x is r in act.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CausedPerfectionIsHad",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

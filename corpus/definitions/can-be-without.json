@@ -1,0 +1,10 @@
+{
+  "id": "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2",
+  "label": "Being able to be without another: CanBeWithout y x: y can be while x is not",
+  "legacy_id": "DEF-CAN-BE-WITHOUT",
+  "term": "being able to be without another (CanBeWithout y x)",
+  "definition": "CanBeWithout y x: y can be while x is not. It is the relation in the criterion of natural priority 'quae possunt esse sine aliis et illa non possunt esse sine eis' (Aquinas, In V Metaph. lect. 13 n. 15, pinned passage AQUINAS-IN-METAPH-V-L13), 'possunt' read as real possibility. Example: the sun can be without the lit air. Non-example: the lit air cannot be without the sun. It is a modal relation, distinct from the counterfactual DependsForBeing (DEF-DEPENDS-FOR-BEING); two open premises (STMT-DEPENDENCE-EXCLUDES-BEING-WITHOUT, STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT) relate them. No structural property is built in.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PriorityByBeingWithout",
+  "note": "Stipulative reading of the pinned In V Metaph. lect. 13 passage. The claims AQUINAS-IN-METAPH-V-L13-PRIOR-BY-NATURE-A (n. 15) and AQUINAS-IN-METAPH-V-L13-PRIORS-NOT-DEPENDENT-A (n. 18) now record the sentences that use the relation; the definition stays stipulative because they state how 'prior' is said, not what being-without is, and 'possunt' read as real possibility is the analyst's."
+}

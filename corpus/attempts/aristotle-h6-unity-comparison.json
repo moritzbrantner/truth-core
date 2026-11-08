@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-ARISTOTLE-H6-UNITY-COMPARISON",
+  "id": "2b796766-ccf3-5281-abda-557ac6e9052c",
+  "label": "Materialized and read complete Greek arist met viii 6",
+  "legacy_id": "ATTEMPT-ARISTOTLE-H6-UNITY-COMPARISON",
   "statement_ids": [
-    "STMT-NONHEAP-WHOLE-HAS-UNITY-EXPLANANDUM",
-    "STMT-SEPARATE-PREDICATE-FORMS-LEAVE-UNITY-QUESTION",
-    "STMT-PROXIMATE-MATTER-FORM-UNITY-REPLY",
-    "STMT-HYLOMORPHIC-UNITY-NO-EXTRA-TIE-MOVER-QUALIFIED",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-FORM-MORE-NATURE-THAN-MATTER",
-    "STMT-MEREO-SOUL-UNITY-INDEPENDENCE"
+    "500b103e-4420-566c-a2f0-cd086520f17c",
+    "fafe0bb2-341a-50a3-8ea3-45a49c2006e8",
+    "c9f6af99-0788-55d3-bb95-83918751df48",
+    "47773969-4c0f-58a2-a3eb-f63df0928436",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "ed3b3750-bcb0-52dc-8d44-1e14af9ae849",
+    "ced7c764-2125-5f69-8fe6-614b88095f63"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized and read complete Greek ARIST-MET-VIII-6. Recorded four bounded source readings: nonheap unity explanandum, specific separate-predicate-Forms challenge, affirmative proximate-matter/form response and qualified mover exception. Rejected unconditional uncaused-whole, every-fusion external-agent and Aristotle-as-Thomistic-essence/esse interpretations. Existing Physics and Vitalism results delimit priority and observational underdetermination; no duplicate theorem is needed. The missing bridge from this unity explanation to a distinct actual cause in esse remains open; see docs/notes/aristotelian-unity-h6.md. Root premise change: none.",
   "evidence": [
-    "ARIST-MET-1045A-NONHEAP-UNITY",
-    "ARIST-MET-1045A-SEPARATE-FORMS-UNITY",
-    "ARIST-MET-1045A-POTENTIAL-ACTUAL-UNITY",
-    "ARIST-MET-1045B-UNITY-MOVER-QUALIFICATION"
+    "69f4dfbe-0ffe-57ef-ae3c-ab7beae0bc7f",
+    "2911e858-e476-50ab-87aa-55a2a790a1cd",
+    "71699818-93a9-52a6-8982-0cc8b66d6e3c",
+    "f41080c5-8ea4-531a-8108-42d4a164be11"
   ]
 }

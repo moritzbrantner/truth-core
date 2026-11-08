@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
+  "id": "afbd43c5-55bf-54e0-b3a1-4a031aa77ec0",
+  "label": "Built a single nonempty four-being interpretation with two universal worlds, two necessary…",
+  "legacy_id": "ATTEMPT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-Q11-GOD-SUPPOSITUM-IS-NATURE",
-    "STMT-Q11-PROPER-GOD-INSTANCES-HAVE-COMMON-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-    "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
-    "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE"
+    "cd86bd55-76cf-57d1-b4b4-61b91fe7a1cc",
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "bf422bd7-67a6-58c5-9b1f-c73e08f20b21",
+    "0730d46f-4604-5750-9a64-de664f064b31",
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+    "034eb68f-6b29-5854-9f66-e4e760b9cfa8",
+    "78246da5-0b37-5b37-b821-1e8bdb41606c"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Built a single nonempty four-being interpretation with two universal worlds, two necessary uncaused roots and a positive common instrument/effect/per-se link. Existing simplicity and pure-act proofs are imported and applied to actual source-premise assignments; q3a4 cause-dichotomy/no-self-cause have actual distinct-esse witnesses. Registered exact first-way, Q11, act/perfection and PSR evaluations in one explicit combined model profile. Common-nature and differentiation-in-act exclude this very model via imported uniqueness theorems; own-essence/esse identity and shared represented acts do not supply either. Source q3a3/a7/q11a3 materialized/read. Compendium I12–15 newly twice-pinned/materialized/read supplies a no-differentiae/no-subject multiplication argument, with its application/exhaustiveness still open against primitive individuation/different essences. Rejected opaque Simple/God flags, mixing witnesses, claiming full genus–difference simplicity, treating intrinsic tokens as explanatory adequacy, and claiming formal satisfiability as metaphysical possibility. Exact source/proof/type boundaries and the next decisive premise are in docs/notes/necessary-simple-plurality.md. Root premise delta zero.",
   "evidence": [
-    "NECESSARY-SIMPLE-PLURALITY-JOINT-CONTROL",
-    "AQUINAS-COMPENDIUM-I15-ONE-GOD",
-    "AQUINAS-ST-I-Q3-FIRST-MOVER-SIMPLE",
-    "AQUINAS-ST-I-Q3-A1-FIRST-MOVER-PURE-ACT",
-    "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
-    "AQUINAS-ST-I-Q11-A3-ONE-FIRST-MOVER"
+    "fc997d75-6ab1-518a-9ccc-b4f2a9d036bc",
+    "f3769c05-4c4f-585d-b0af-0c703f54e973",
+    "16ec69e1-5477-5aa0-87b2-212ec29c355c",
+    "afd52425-ab31-5e4d-b70b-a0594379c610",
+    "841e7c81-2137-511c-ba18-29620f7a1b16",
+    "b9733ed5-3b36-5e9d-a8ba-9a256dac8d3a"
   ]
 }

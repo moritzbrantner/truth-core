@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-MET-IV-8-EXEMPTION-REGRESS",
-  "argument_id": "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+  "id": "e17c96e9-17dc-58b3-8600-4f0165a18beb",
+  "label": "Whoever holds that nothing in scope is…, from No content within a given scope is… and 2 more",
+  "legacy_id": "ARIST-MET-IV-8-EXEMPTION-REGRESS",
+  "argument_id": "0e75886c-9fba-5463-941e-3b79726bb497",
   "challenge_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.Solution",
   "theorem": "TruthCore.Results.Aristotle.Metaphysics.ExemptionRegress.exemptionRegress",

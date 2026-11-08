@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-EMPTY-EPISODE-CONTROL",
-  "argument_id": "LOGIC-EMPTY-EPISODE-CONTROL",
+  "id": "f7df7705-20a4-5236-9378-69d9ea187194",
+  "label": "There is an empty-episode interpretation in which no episode occurs and the content of the…",
+  "legacy_id": "LOGIC-EMPTY-EPISODE-CONTROL",
+  "argument_id": "f6846c20-a34a-5ece-b7d0-8fce84bcf510",
   "challenge_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Challenge",
   "solution_module": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.Solution",
   "theorem": "TruthCore.Results.Logic.PerformedDenial.EmptyControl.emptyControl",

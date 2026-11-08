@@ -1,8 +1,10 @@
 {
-  "id": "STMT-COGITO-THOUGHT-OCCURS",
+  "id": "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+  "label": "Some thought episode occurs under the supplied occurrence predicate",
+  "legacy_id": "STMT-COGITO-THOUGHT-OCCURS",
   "paraphrase": "Some thought episode occurs under the supplied occurrence predicate. An open actual-occurrence premise: nothing in the corpus witnesses it.",
   "lean_declaration": "TruthCore.Logic.CogitoSubject.ThoughtOccurs",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ]
 }

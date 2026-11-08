@@ -1,0 +1,12 @@
+{
+  "id": "79f33d0a-98c8-561c-9bd6-10808b88990f",
+  "label": "Necessary-being node, possibilist box… strengthens Necessary-being node, possibilist box… (4)",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-S4-STRENGTHENS-BOX-T",
+  "subject_kind": "statement",
+  "subject_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
+  "verification_result_id": "f7704ae5-7e4b-59d0-a0d5-c790773a48a2",
+  "note": "Strength registration: the S4 node implies the T node."
+}

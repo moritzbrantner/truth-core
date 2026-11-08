@@ -1,0 +1,12 @@
+{
+  "id": "6e7d86fe-21e0-537d-9ad7-ca2d3a5cd010",
+  "label": "Finite interpretations for the eight root-wiring derivations: for the premise that carries each…",
+  "legacy_id": "ROOT-WIRING-CONTROLS",
+  "argument_id": "07bfafe6-7c91-5741-bd86-f03128457c23",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.controls",
+  "comparator_config": "results/ROOT-WIRING-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the eight root-wiring derivations: for the carrying premise of each (the owner-approved concreteness commitment twice, each rival refutation, the performed doubt and the retorsion), a hand-written model on Unit or Bool in which the other non-logical premises hold and the conclusion fails (nine omission models), and one joint nonvacuity witness with populated antecedents. Excluded middle is not omitted (no finite countermodel in a classical metatheory). Satisfiability and omission only; no model is claimed to describe reality."
+}

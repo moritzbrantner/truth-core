@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "VATICAN-I-DEI-FILIUS",
+    "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
     "source_url": "https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
     "retrieved_at": "2026-10-24T01:22:12Z",
     "sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "VATICAN-I-DEI-FILIUS-CH1",
+      "id": "9c74d9bd-d44f-51ed-be82-3ad6cf266049",
+      "label": "First Vatican Council, Dei Filius, Ch. 1",
+      "legacy_id": "VATICAN-I-DEI-FILIUS-CH1",
       "locator": "ch. 1 (DS 3001-3003)",
       "claim_locator_prefixes": [
         "ch. 1, "
@@ -30,7 +32,9 @@
       "incipit": "CAPUT I\nDE DEO RERUM OMNIUM CREATORE"
     },
     {
-      "id": "VATICAN-I-DEI-FILIUS-CH3",
+      "id": "dda9355e-bb43-5936-989f-eb1738fb8269",
+      "label": "First Vatican Council, Dei Filius, Ch. 3",
+      "legacy_id": "VATICAN-I-DEI-FILIUS-CH3",
       "locator": "ch. 3 (DS 3008-3014)",
       "claim_locator_prefixes": [
         "ch. 3, "

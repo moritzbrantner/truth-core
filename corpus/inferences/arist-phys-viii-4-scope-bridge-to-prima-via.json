@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
+  "id": "bb7f6c1f-c5ca-541e-9ae5-d18bc8511219",
+  "label": "Whatever is being moved in a respect is moved by something in that respect, since…, by Composition",
+  "legacy_id": "INF-ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA",
   "input_statement_ids": [
-    "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
-    "STMT-EVERY-REDUCTION-TO-ACT-IS-PHYSICAL-MOTION"
+    "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+    "6737e56a-e491-52c4-bf8d-6efb851d9ca9"
   ],
-  "output_statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER",
+  "output_statement_id": "4a952b96-be5f-5493-8277-985248151d01",
   "rule": "composition",
   "meaning": "A moved thing is moved in a respect of physical motion (scope premise), so the restricted conclusion gives it a per se mover in that respect.",
   "assumption_statement_ids": [],

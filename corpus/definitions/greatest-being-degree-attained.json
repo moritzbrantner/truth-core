@@ -1,10 +1,12 @@
 {
-  "id": "DEF-GREATEST-BEING-DEGREE-ATTAINED",
+  "id": "68adaea8-ae49-5af9-80b1-c3ca1d987d7d",
+  "label": "Attainment of a greatest represented…: GreatestBeingDegreeAttained InAct esse value means there…",
+  "legacy_id": "DEF-GREATEST-BEING-DEGREE-ATTAINED",
   "term": "attainment of a greatest represented degree in the selected being respect",
   "definition": "GreatestBeingDegreeAttained InAct esse value means there exists g with GreatestDegreeBearer InAct esse value g: g itself has esse and value g is greatest in the image of all esse bearers. This concerns the supplied BEING respect only, with a supplied Preorder of degrees. It asserts neither greatestness for unrelated perfections, linearity, strict primacy, injective grading, actual-world presence nor modal necessity.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-GREATEST-BEING-DEGREE-ATTAINED"
+    "0adb3da8-9c6c-5a55-ba66-7344df401582"
   ],
   "lean_declaration": "TruthCore.Causality.GreatestDegreeRootRoute.GreatestBeingDegreeAttained",
   "note": "Read the explicit maxime ens assertion in the complete Fourth Way. This remains an OPEN attainment commitment and an interpreted value map, not a theorem from the old weak H, the MostTrue bridge or mere existence of some grade. No comparison with old MoreIn is silently supplied."

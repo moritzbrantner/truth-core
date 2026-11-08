@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLATO-TIM",
+    "source_id": "1d9ebf15-85ad-54cf-9d5d-b1753bf6e812",
     "edition_urn": "urn:cts:greekLit:tlg0059.tlg031.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLATO-TIM-27",
+      "id": "58073add-ef25-5e52-8f05-d48af831bba4",
+      "label": "Plato, Timaeus, 27",
+      "legacy_id": "PLATO-TIM-27",
       "locator": "27",
       "claim_locator_prefixes": [
         "27"
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "PLATO-TIM-29",
+      "id": "c4642028-5f59-5ec6-aefa-12e3f21523c7",
+      "label": "Plato, Timaeus, 29",
+      "legacy_id": "PLATO-TIM-29",
       "locator": "29",
       "claim_locator_prefixes": [
         "29"
@@ -38,7 +42,9 @@
       ]
     },
     {
-      "id": "PLATO-TIM-51",
+      "id": "7dcf510b-7df7-5299-acde-dd610ef5d7fc",
+      "label": "Plato, Timaeus, 51",
+      "legacy_id": "PLATO-TIM-51",
       "locator": "51",
       "claim_locator_prefixes": [
         "51"
@@ -51,7 +57,9 @@
       ]
     },
     {
-      "id": "PLATO-TIM-52",
+      "id": "1013fc4f-0f0d-5a59-a9a6-3c35cd13c2be",
+      "label": "Plato, Timaeus, 52",
+      "legacy_id": "PLATO-TIM-52",
       "locator": "52",
       "claim_locator_prefixes": [
         "52"

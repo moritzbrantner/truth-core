@@ -1,26 +1,29 @@
 {
-  "id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
+  "id": "e67e0be2-8ddd-5d2b-8298-2b15daa47dc8",
+  "label": "Every first mover moved by none is…, from Over a supplied clock: at any time at which… and 1 more",
+  "legacy_id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
   "premise_statement_ids": [
-    "STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT",
-    "STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME"
+    "609af310-8e3f-50c9-a9ec-4befac3bb538",
+    "00a44bb5-9128-5fb3-8de7-8a7d10ebbf11"
   ],
-  "conclusion_statement_id": "STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT",
+  "conclusion_statement_id": "6c18d52b-2456-59ae-995f-13440f8c808d",
   "inference_ids": [
-    "INF-AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT"
+    "87c4338e-1f95-571e-b4fa-ac178fe8cb51"
   ],
   "meaning": "Transcription (single application): the proof applies the lect. 8 reading, whose consequent is the conclusion's, after the bridge supplies its antecedent, so under invariant 16 it does not expand STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT on any route; the ST I q.3 a.1 derivation stays the selected proof. In Metaph. IX, lect. 8 n. 11 for the stage-1 pure-act statement, split from the one-time case statement (owner option B on #352). Premises: over a supplied clock, a mover moved in no respect at any time is, at any time at which it moves something, in potency in no respect (STMT-MOVER-MOVED-AT-NO-TIME-IS-PURE-ACT, the reading of 'primum movens, quod est in actu tantum'); and a first mover moved by none at a time is moved at no time (STMT-SLICE-FIRST-MOVER-MOVED-AT-NO-TIME, an open bridge that no claim states). Conclusion: at any time t, every first mover moved by none at t is pure act at t, which is STMT-FIRST-UNMOVED-MOVER-IS-PURE-ACT with the time-free prima via predicates instantiated at t (DEF-MOTION-AS-REDUCTION reads them at one time). Step: a first mover at t moves something at t, and by the bridge it is moved at no time, so the reading applies at t. Each premise is needed (primumMovensFacts): in the strictly forward feedback model of FIRST-WAY-SLICE-CONTROLS no mover is moved at no time, so the reading holds while the conclusion fails at t = 1; with one being, one respect and one time, a never-moved mover in potency satisfies the bridge and falsifies the conclusion. Both premises hold together in a model with a first mover at a time. Not used: act's simple priority, non-simultaneity, the first-being bridge, uniqueness. It closes nothing: the reading is a stated commitment without an argument for 'tantum', and the bridge is open and false in the feedback model.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-TIME-SLICED-FIRST-MOVER",
-    "DEF-MOVED-AT-NO-TIME",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-PURE-ACT",
-    "DEF-POTENCY",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "939b42aa-ff78-54d7-b419-f2ae94c8f832",
+    "0f4513f4-eb0a-5ec3-9bea-a35b4f06da6d",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-UNMOVED-AT-A-TIME",
-    "DISAMB-MOTION"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "215fdc0a-7005-510d-91da-84fcbc77a9dc",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

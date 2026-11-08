@@ -1,6 +1,8 @@
 {
-  "id": "NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
-  "argument_id": "NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
+  "id": "4724e588-6f47-5967-82d1-9d9d6577d7ad",
+  "label": "Either all natural-knowability moves answer to…, from Excluded middle as a general principle…",
+  "legacy_id": "NATURAL-REASON-SHARED-NONSHARED-OR-MIXED",
+  "argument_id": "cfae2c12-79fb-5e18-bf96-74f99df57d66",
   "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.profileCoverage",
@@ -8,24 +10,24 @@
   "status": "solution-present",
   "description": "Explicit EM checks the two universal readings or a pair of actual opposing move witnesses. Empty natural-move domains allow universal overlap; named uniform coverage is not established.",
   "case_split": {
-    "target_statement_id": "STMT-NATURAL-REASON-IS-SHARED-REASON",
+    "target_statement_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930",
     "cases": [
       {
         "label": "all natural-knowability moves shared",
         "lean_declaration": "TruthCore.Alternatives.Fideism.NaturalReasonIsSharedReading",
-        "statement_id": "STMT-NATURAL-REASON-IS-SHARED-REASON"
+        "statement_id": "c87ffcb8-9a44-5e02-a68b-13d0282ae930"
       },
       {
         "label": "all natural-knowability moves nonshared",
         "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.NaturalReasonNeverShared",
-        "statement_id": "STMT-NATURAL-REASON-NEVER-SHARED"
+        "statement_id": "106640c2-2d92-5088-a977-1b5c0a5e30eb"
       },
       {
         "label": "actual mixed witnesses",
         "lean_declaration": "TruthCore.Alternatives.NaturalReasonHorizon.MixedNaturalReason",
-        "statement_id": "STMT-NATURAL-REASON-IS-MIXED"
+        "statement_id": "1458d561-997b-5eff-a3b5-5b54382275db"
       }
     ],
-    "survival_result_id": "NATURAL-REASON-HORIZON-SCOPE-MODELS"
+    "survival_result_id": "5eb8a35e-71dc-588d-a550-af0131539683"
   }
 }

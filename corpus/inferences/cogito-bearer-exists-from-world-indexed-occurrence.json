@@ -1,0 +1,14 @@
+{
+  "id": "6748617e-4104-53e7-aee0-b0fa271496a1",
+  "label": "Every bearer of an occurring thought episode exists at the selected…, by Universal instantiation…",
+  "legacy_id": "INF-COGITO-BEARER-EXISTS-FROM-WORLD-INDEXED-OCCURRENCE",
+  "input_statement_ids": [
+    "eb7c7da6-f772-5cda-a70d-260ce466e54e",
+    "f8b47cda-5ebf-532d-b951-b4f756076cc9"
+  ],
+  "output_statement_id": "c821487b-9c5e-5836-bf27-dcb47f210c94",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "Every bearer of an occurring thought exists at w, from two OPEN premises: every occurring episode occurs at w, and at any world whoever bears an episode occurring there exists there.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

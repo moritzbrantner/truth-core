@@ -1,0 +1,10 @@
+{
+  "id": "a54bf095-fc46-59d8-81a2-f5b3cf2c9cd5",
+  "label": "Identity of purely determined…: Any two beings with the same real determinations, all of them pure…",
+  "legacy_id": "DEF-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
+  "term": "identity of purely determined indiscernibles",
+  "definition": "Any two beings with the same real determinations, all of them pure perfections, are one: for all x and y, if every real determination of x is pure and Has x d iff Has y d for every d, then x = y. Classically: distinct really indiscernible beings include one with a non-pure determination.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureIndiscernibility.PurelyDeterminedIndiscerniblesIdentical",
+  "note": "Open, unattributed weak version of DEF-IDENTITY-OF-REAL-INDISCERNIBLES (REL-REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY). It allows bare difference wherever some non-pure principle of multiplicity (place, matter, subject, receiving principle) is present, so Black-style spheres do not refute it. It is vacuous at beings with a non-pure determination. It still applies to purely determined beings that are not first movers, including beings with no real determinations at all. If only first movers are purely determined, then given the two pure-act premises it is equivalent to at-most-one first mover (Control.Certificate), so its defense has to be a general principle about numerical difference, not a reading of the first-mover case."
+}

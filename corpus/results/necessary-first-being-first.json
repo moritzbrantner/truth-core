@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-FIRST-BEING-FIRST",
-  "argument_id": "NECESSARY-FIRST-BEING-FIRST",
+  "id": "323f2a47-ae90-5c46-a20c-4bf4e67d5f4b",
+  "label": "Some n is an actual concretum at w…, from Some candidate is CONCRETE_6 and exists at… and 4 more",
+  "legacy_id": "NECESSARY-FIRST-BEING-FIRST",
+  "argument_id": "d577e576-dd66-57e7-915c-6edafb9ff515",
   "challenge_module": "TruthCore.Results.Causality.NecessaryFirstBeing.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryFirstBeing.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryFirstBeing.necessaryFirst",

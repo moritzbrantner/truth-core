@@ -1,0 +1,14 @@
+{
+  "id": "63427266-4a16-54c8-a8b9-3fa41ddef566",
+  "label": "If some pair compares in the supplied esse respect, some in-act…, by Order by approach: the…",
+  "legacy_id": "INF-GRADES-AT-BEING-FROM-APPROACH-PRIMACY",
+  "input_statement_ids": [
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c"
+  ],
+  "output_statement_id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+  "rule": "Order by approach: the primary is maximal (ApproachToPrimaryReading.isMaximumIn_primary)",
+  "meaning": "On the order of being by approach to a primary (ST I q.3 a.5 ad 2) with strict primacy (an open premise), the primary has being and nothing is more a being than it: anything that were would approach more nearly than the primary, while everything else approaches less nearly. So there is a maximum in being, whether or not grades are found.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

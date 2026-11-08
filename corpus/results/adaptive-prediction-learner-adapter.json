@@ -1,6 +1,8 @@
 {
-  "id": "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
-  "argument_id": "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "id": "0e15cd53-82be-5483-8216-258a118d1a1b",
+  "label": "For every finite pool of history-dependent experts, every supplied truthful stream and every…",
+  "legacy_id": "ADAPTIVE-PREDICTION-LEARNER-ADAPTER",
+  "argument_id": "456926b2-72c2-5541-a782-59abb3b924c3",
   "challenge_module": "TruthCore.Results.Logic.AdaptivePrediction.Challenge",
   "solution_module": "TruthCore.Results.Logic.AdaptivePrediction.Solution",
   "theorem": "TruthCore.Results.Logic.AdaptivePrediction.learnerAdapter",

@@ -1,11 +1,13 @@
 {
-  "id": "INF-PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "id": "19dd1539-5682-5c43-b546-901dd2ad2f8d",
+  "label": "Logical falsity, by Direct-proof",
+  "legacy_id": "INF-PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
   "input_statement_ids": [
-    "STMT-PSR-POPULATED-AT",
-    "STMT-PSR-WELL-FOUNDED-CAUSES-AT",
-    "STMT-PSR-EXTERNAL-CAUSE-COMPONENT"
+    "43f09b83-776d-57b8-a5b3-b84715e48fc2",
+    "27bdc583-788a-5dc0-8448-0be5e6237310",
+    "627f9018-3f9e-56da-ad08-fd6f1f61b3f8"
   ],
-  "output_statement_id": "STMT-CONFIGURATION-FALSE",
+  "output_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "rule": "direct-proof",
   "meaning": "Operational configuration adapter of existing all_external_causes_impossible: population and full causal well-foundedness at one world contradict the all-world claim that every existent has a distinct existing cause. It uses no explanation-coverage or PSR premise and is not a new philosophical discovery. Existing EmptyWorld, MutualCauses and Intrinsic controls provide the three single-removal interpretations; no new model data are introduced. Root premises unchanged.",
   "assumption_statement_ids": [],

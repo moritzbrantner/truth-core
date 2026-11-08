@@ -1,0 +1,12 @@
+{
+  "id": "949ef9b6-abd5-5a6d-85f1-2a339386151b",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed…, from existence",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "argument_id": "41b38622-3398-5827-af5c-086c73aa88bf",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromExistence",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse."
+}

@@ -1,6 +1,8 @@
 {
-  "id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
-  "argument_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "id": "ea190499-5111-5046-9b8a-60c5ffff93f0",
+  "label": "Four nonvacuous controls witness old narrow bridge true/broader bridge false with Matthew 28 and…",
+  "legacy_id": "COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "argument_id": "c111b317-fdf2-529f-8df4-c88b220159d5",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.CommissionDefinitions.Models.criterionModels",

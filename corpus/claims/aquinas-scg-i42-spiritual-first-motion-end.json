@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
-  "statement_id": "STMT-AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
-  "source_id": "AQUINAS-SCG",
+  "id": "c8d20575-9b42-5865-a746-21c3e90f6059",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42: Under corporeal ordering to spiritual goodness and…",
+  "legacy_id": "AQUINAS-SCG-I42-SPIRITUAL-FIRST-MOTION-END",
+  "statement_id": "8a52cd54-ca39-5e8b-8390-41e1afbbdd06",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [6]",
   "interpretation": "The celestial and teleological coverage are substantive source premises, not universal source-ancestry facts established here. The naming concerns an unreduced spiritual end of first motion; it is not uniqueness of every spiritual substance or necessarily existing individual. No ordinary Ontic cause, IsGod signature or independent demonstration of one common end is supplied. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+    "14ec3301-ad2c-58da-8095-c64bf229bb2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

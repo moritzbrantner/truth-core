@@ -1,0 +1,11 @@
+{
+  "id": "2ae0478e-4eec-51bd-83df-3438d57000c6",
+  "label": "Thomas Aquinas, Summa theologiae I q.10… supports Whatever is in POTENCY_1 in no respect has…",
+  "legacy_id": "REL-Q10A1-SUPPORTS-IMMUTABLE-HAS-NO-LIFE-BOUNDARY",
+  "subject_kind": "claim",
+  "subject_id": "ef658460-4796-5b0d-86de-7a9bf62b553e",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "aec71162-953c-5236-b04c-a7486b2d0d20",
+  "note": "q.10 a.1 says what is altogether immutable can have neither beginning nor end. The encoded statement reads 'altogether immutable' as 'in potency in no respect', i.e. without potency in the subject; q.9 a.2 also counts mutability through a power in another, which this reading drops, so the encoding applies to more beings than the source sentence does. It is restricted to the beginning and end of life in the duration frame."
+}

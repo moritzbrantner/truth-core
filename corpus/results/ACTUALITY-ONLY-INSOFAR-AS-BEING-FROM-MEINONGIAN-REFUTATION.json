@@ -1,0 +1,12 @@
+{
+  "id": "e0677f8f-730a-5f01-91c7-3601a8f3a84b",
+  "label": "Nothing has actuality except insofar as it is: whatever is in act in…, from meinongian refutation",
+  "legacy_id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION",
+  "argument_id": "547f928a-d0cd-5b25-b702-dbbaa052f450",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.actualityOnlyInsofarAsBeingFromRefutation",
+  "comparator_config": "results/ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-MEINONGIAN-REFUTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is in act in some respect is in act as to being (the ST I q.4 a.1 ad 3 reading), from the conclusion of NO-ACTUALITY-WITHOUT-BEING-FROM-PERFECTION (nothing is in act in a respect without being, on the same InAct and esse) and excluded middle: if x is in act in r and not in act as to esse, the Meinongian rival would be witnessed. This is a second derivation of the route premise from the refutation's own premises (STMT-PERFECT-INSOFAR-AS-IN-ACT, STMT-PERFECT-ONLY-INSOFAR-AS-BEING), both still OPEN; it does not establish the route premise and does not attribute the conclusion to a new source."
+}

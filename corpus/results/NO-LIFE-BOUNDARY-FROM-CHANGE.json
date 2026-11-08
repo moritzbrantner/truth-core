@@ -1,0 +1,12 @@
+{
+  "id": "124fec5f-d542-55fc-822a-0605e39eb7ac",
+  "label": "Whatever is in POTENCY_1 in no respect has a life that neither begins nor ends in the…, from change",
+  "legacy_id": "NO-LIFE-BOUNDARY-FROM-CHANGE",
+  "argument_id": "5344f278-35e8-55f2-b598-1c197361c21f",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.noLifeBoundaryFromChange",
+  "comparator_config": "results/NO-LIFE-BOUNDARY-FROM-CHANGE/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is in potency in no respect has a life that neither begins nor ends: a life boundary between two times is a change in some respect between them (OPEN; denied by whoever holds that generation or creation is no change of the thing), and whatever changes in a respect is in potency in it (OPEN q.9 a.1 reading for potency in the subject); a pure act has no potency. The q.9 a.2 potency-in-another reading (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER) now sits in the second premise."
+}

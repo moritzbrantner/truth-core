@@ -1,11 +1,13 @@
 {
-  "id": "STMT-LIMITATION-BACKWARD-CLOSED-AT",
+  "id": "fb7dac91-f7cc-560e-95cc-d5cb80201bdc",
+  "label": "At selected w, for every pair of properties Phi/Psi, boxed universal inclusion from Phi to Psi…",
+  "legacy_id": "STMT-LIMITATION-BACKWARD-CLOSED-AT",
   "paraphrase": "At selected w, for every pair of properties Phi/Psi, boxed universal inclusion from Phi to Psi together with the SAME classifier marking Psi limiting implies that it marks Phi limiting. This is explicit backwards closure over the existing constant-domain Property/Box semantics, not Scott complement exclusion or a selected full existential-deficiency definition.",
   "lean_declaration": "TruthCore.Modal.LimitationPossibility.BackwardClosedAt",
   "definition_ids": [
-    "DEF-LIMITATION-POSSIBILITY-CONFIGURATION"
+    "3fb0a456-3dc6-500b-a8b7-0915d2514037"
   ],
   "disambiguation_ids": [
-    "DISAMB-LIMITATION-CONDITIONAL-SOURCE-SCOTT"
+    "1efd1154-f697-5442-9b14-7ce8f1215f23"
   ]
 }

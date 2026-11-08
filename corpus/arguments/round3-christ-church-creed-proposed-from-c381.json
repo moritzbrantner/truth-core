@@ -1,0 +1,24 @@
+{
+  "id": "61dcfd8b-2a6d-56da-baf8-392b10d5db00",
+  "label": "The Catholic Church definitively proposes every article of the…, from c381",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "premise_statement_ids": [
+    "828bbf3f-cb29-5dc2-ac2b-731a81fe2226",
+    "0434c90e-18e8-590a-bc84-25c6d8a452c3"
+  ],
+  "conclusion_statement_id": "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36",
+  "inference_ids": [
+    "529e2386-51ae-526d-9215-eb36896f758b"
+  ],
+  "meaning": "The Council of Constantinople (381) taught each Creed article as revealed, and the Catholic Church definitively proposes whatever that council taught as revealed; so it definitively proposes each article. Two open premises; each is needed.",
+  "definition_ids": [
+    "0bc10b49-86e0-594c-acad-5d159309f8ae",
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc",
+    "e5f5bc14-e629-5a12-b8da-24944704f1f0",
+    "e67ab833-b652-53a1-aa13-e58389158dde",
+    "073468e1-25d6-5d46-836c-c6e8f230809d"
+  ],
+  "disambiguation_ids": [
+    "1e2ba680-dd18-5f7d-b5b5-198256c7bd6a"
+  ]
+}

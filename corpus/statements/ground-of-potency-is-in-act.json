@@ -1,0 +1,15 @@
+{
+  "id": "bf374f2e-df3b-5e8f-bea8-9fcfe680141b",
+  "label": "Whatever grounds a potency in a respect is in act in that respect",
+  "legacy_id": "STMT-GROUND-OF-POTENCY-IS-IN-ACT",
+  "paraphrase": "OPEN analyst premise: whatever grounds a potency in a respect is in act in that respect. Q.3 a.1 says this of what reduces a potency to act; the extension to grounding, and so to idle potency, is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.GroundOfPotencyIsInAct",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "66914b47-5881-5d7f-a18b-8b22447fb71c",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

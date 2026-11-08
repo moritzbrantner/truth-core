@@ -1,7 +1,9 @@
 {
-  "id": "INF-TRUTH-COLLAPSE-CONTROLS",
+  "id": "e1fb1adb-16e3-576d-821a-41187681c29e",
+  "label": "Eight existence claims, by Model-construction",
+  "legacy_id": "INF-TRUTH-COLLAPSE-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRUTH-COLLAPSE-CONTROLS",
+  "output_statement_id": "e6f8513b-4ed5-58a8-831a-2cf3b2293d1f",
   "rule": "model-construction",
   "meaning": "Construct each model; the uncollapsed claims follow from the expressive law where the model is expressive.",
   "assumption_statement_ids": [],

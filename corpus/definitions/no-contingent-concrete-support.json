@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
+  "id": "47033c70-0aca-565d-9473-8399577fea54",
+  "label": "No contingent concrete supporter of…: Every existing concrete candidate that supports a necessary…",
+  "legacy_id": "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
   "term": "no contingent concrete supporter of necessary concrete existence",
   "definition": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted world is itself necessary from the selected actual world. This is the existing no-contingent-ground condition instantiated on the concrete subtype, not a restriction on non-concrete reasons or generic efficient causes.",
   "basis": "stipulative",

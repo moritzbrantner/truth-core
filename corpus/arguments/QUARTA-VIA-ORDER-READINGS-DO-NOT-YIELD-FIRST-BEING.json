@@ -1,19 +1,21 @@
 {
-  "id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "id": "c4427e08-df8b-5a07-b7f0-36dfa6a52365",
+  "label": "Formal fact: a homogeneous scale of being, an order…, via order readings do not yield first being",
+  "legacy_id": "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
+  "conclusion_statement_id": "fc556abf-c949-53fa-9184-c9eccf910223",
   "inference_ids": [
-    "INF-QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING"
+    "8c93e3bb-64f5-54ef-8399-78611c2e9218"
   ],
   "meaning": "Countermodel, from no premises: neither order reading of more and less in being makes the maximum in being the first being, even with strict primacy, the causal order of creatures to the primary, everything else being a creature, the broad genus principle and STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. What the model breaks is Metaphysics II.1 with the primary as effect, the instance that AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING uses.",
   "definition_ids": [
-    "DEF-HOMOGENEOUS-SCALE",
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-STRICT-PRIMACY",
-    "DEF-CREATURE",
-    "DEF-FIRST-BEING"
+    "cea637bc-04a0-5385-80ca-1caa6ca272f4",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

@@ -2,6 +2,8 @@ import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
 
+import { label, uid } from "./corpus-records";
+
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -39,23 +41,23 @@ test("fork use leads from consumed inference to coverage theorem and back to its
   const errors: string[] = [];
   page.on("pageerror", (error) => errors.push(error.message));
   const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
-  await page.goto(`${base}results/RECIPROCAL-EVENT-RESPECT-CONSTRAINT/`);
+  await page.goto(`${base}results/${uid("result", "RECIPROCAL-EVENT-RESPECT-CONSTRAINT")}/`);
   const marker = page.getByRole("region", { name: "Fork applied here", exact: true });
   await marker.waitFor();
-  expect(await marker.innerText()).toContain("INF-TEMPORAL-RECIPROCAL-FORK-USE");
+  expect(await marker.innerText()).toContain(label("inference", "INF-TEMPORAL-RECIPROCAL-FORK-USE"));
   expect(await marker.innerText()).toContain("simultaneous alternating circle");
   expect(await marker.innerText()).toContain("All six advertised premises remain");
-  const coverage = marker.getByRole("link", { name: "TEMPORAL-DIRECTION-FRAMEWORK", exact: true });
-  expect(await coverage.getAttribute("href")).toBe(`${basePath}/results/TEMPORAL-DIRECTION-FRAMEWORK/`);
+  const coverage = marker.getByRole("link", { name: label("result", "TEMPORAL-DIRECTION-FRAMEWORK"), exact: true });
+  expect(await coverage.getAttribute("href")).toBe(`${basePath}/results/${uid("result", "TEMPORAL-DIRECTION-FRAMEWORK")}/`);
   await coverage.click();
-  await page.waitForURL((url) => url.pathname.endsWith("/results/TEMPORAL-DIRECTION-FRAMEWORK/"));
+  await page.waitForURL((url) => url.pathname.endsWith(`/results/${uid("result", "TEMPORAL-DIRECTION-FRAMEWORK")}/`));
   expect(await page.getByRole("heading", { level: 1 }).innerText()).toContain("linearly ordered time carrier");
   expect(await page.locator(".lean-snippet").innerText()).toContain("theorem framework");
   expect(await page.locator("article").innerText()).toContain("pairwise incompatibility");
   await page.goBack();
   await marker.waitFor();
-  await marker.getByRole("link", { name: "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT", exact: true }).click();
-  await page.waitForURL((url) => url.pathname.endsWith("/statements/STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT/"));
+  await marker.getByRole("link", { name: label("statement", "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT"), exact: true }).click();
+  await page.waitForURL((url) => url.pathname.endsWith(`/statements/${uid("statement", "STMT-RECIPROCAL-EVENT-RESPECT-CONSTRAINT")}/`));
   expect(await page.getByRole("heading", { level: 1 }).innerText()).toContain("distinct target event respects");
   await page.goBack();
   await marker.waitFor();

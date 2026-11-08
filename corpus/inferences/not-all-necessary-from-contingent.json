@@ -1,0 +1,13 @@
+{
+  "id": "7c858b33-e585-51eb-9479-999ef232fbe4",
+  "label": "Not every actual concrete being is NECESSARY_2, by Existential elimination…",
+  "legacy_id": "INF-NOT-ALL-NECESSARY-FROM-CONTINGENT",
+  "input_statement_ids": [
+    "c94b5446-e7e7-5b36-9bed-288959725526"
+  ],
+  "output_statement_id": "9aeab54e-372d-5cb0-9993-3f61dfd92584",
+  "rule": "Existential elimination, universal instantiation, negation introduction",
+  "meaning": "The node's witness exists at w and is absent at an accessible world, so it is not NECESSARY_2; hence not every actual concrete being is. The rival is the exact contradictory of the node, so this refutation uses no modal-library law; it records the incompatibility. It fails without the node (CONTINGENT-NODE-CONTROLS, one-world frame).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

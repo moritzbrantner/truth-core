@@ -1,0 +1,25 @@
+{
+  "id": "f59d734c-4d9f-5c46-b27b-c71ede1da1da",
+  "label": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded…",
+  "legacy_id": "STMT-ROUND4-REVISITED-CONTROLS",
+  "paraphrase": "Finite interpretations for the nine derivations of round 4 (revisited leads): for each premise other than excluded middle, a one- or two-element model in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with a nonvacuous instance (a potency grounded and moved by a distinct actual, simply prior being; a matter-form composite with distinct esse and essence; a necessary being caused in every respect; an intellectual being at the top grade; an occurring thought whose bearer exists, exercises intellect, causes, has power and is concrete; two beings moving and causing each other per se). Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.Control.Certificate",
+  "definition_ids": [
+    "66914b47-5881-5d7f-a18b-8b22447fb71c",
+    "37302378-4084-5986-a88e-b67f966619d2",
+    "f8def333-9f90-5fd1-9ae5-5cbecb41a056",
+    "d428227e-f000-571e-8990-fa7d556009c1",
+    "f68341ad-1d8f-51e7-83ce-1ae169bd9bb2",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

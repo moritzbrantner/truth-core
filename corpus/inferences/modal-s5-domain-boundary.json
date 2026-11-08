@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-S5-DOMAIN-BOUNDARY",
+  "id": "4c75c00d-16d2-5e62-9085-debb2b9f8fec",
+  "label": "In the universal two-world S5 frame, the atom-only inventory is world-extensional…, by Direct-proof",
+  "legacy_id": "INF-MODAL-S5-DOMAIN-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-S5-DOMAIN-BOUNDARY",
+  "output_statement_id": "d1737c2e-c7fe-5e55-8ac9-e235786b8cd1",
   "rule": "direct-proof",
   "meaning": "Enumerate the two labels, use the atom to separate them, exploit its falsity for inventory collapse at false, and use the opposite accessible label to refute collapse at true. Show the negated predicate cannot equal the sole inventory entry.",
   "assumption_statement_ids": [],

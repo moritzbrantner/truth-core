@@ -1,6 +1,8 @@
 {
-  "id": "PARM-NONSPATIAL-REPLY",
-  "argument_id": "PARM-NONSPATIAL-REPLY",
+  "id": "111694bb-9328-5dff-9193-b4c09ec3ea14",
+  "label": "A finite interpretation satisfies the existing separated explanatory Forms commitments, with two…",
+  "legacy_id": "PARM-NONSPATIAL-REPLY",
+  "argument_id": "7da8dbe8-9539-5f42-ac51-ae8ea95b4ca8",
   "challenge_module": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.Parmenides.NonspatialReply.nonspatialReply",

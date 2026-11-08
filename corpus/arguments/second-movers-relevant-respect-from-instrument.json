@@ -1,0 +1,24 @@
+{
+  "id": "8b58de76-7a8c-5133-98f6-40753f9b8c07",
+  "label": "A mover other than the moved thing that is being moved in a respect relevant to…, from instrument",
+  "legacy_id": "SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+  "premise_statement_ids": [
+    "962a9ed3-f084-5cac-a8e6-b4e52e6a7ade",
+    "7b8b589c-9bbc-50d9-8e4c-ec0a8aca45b0"
+  ],
+  "conclusion_statement_id": "96da1d33-7a73-567e-9557-ba4a9a4bb798",
+  "inference_ids": [
+    "5c4aba97-7a9c-53d9-9f5d-677c4375be74"
+  ],
+  "meaning": "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel.",
+  "definition_ids": [
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "45595dac-061a-5240-a6c7-f16d4e632357",
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "5c4aba97-7a9c-53d9-9f5d-677c4375be74",
+  "label": "A mover other than the moved thing that is being moved in a…, by Universal chaining through…",
+  "legacy_id": "INF-SECOND-MOVERS-RELEVANT-RESPECT-FROM-INSTRUMENT",
+  "input_statement_ids": [
+    "962a9ed3-f084-5cac-a8e6-b4e52e6a7ade",
+    "7b8b589c-9bbc-50d9-8e4c-ec0a8aca45b0"
+  ],
+  "output_statement_id": "96da1d33-7a73-567e-9557-ba4a9a4bb798",
+  "rule": "universal chaining through the instrument predicate (not moving by own form)",
+  "meaning": "For all beings and respects: if every mover other than what it moves that is being moved in a respect relevant to that moving does not move it by its own form, and every mover that moves something not by its own form moves it only as moved, then every mover other than what it moves that is being moved in a relevant respect moves it only as moved (the relevant-respect per se reading). Both premises are open analyst formulations; neither is the conclusion, and omitting either has a finite countermodel.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

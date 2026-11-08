@@ -1,12 +1,14 @@
 {
-  "id": "STMT-COMMON-PRIORITY-COMPARISON",
+  "id": "3cf1a799-f40b-5c49-840a-b806de6e1431",
+  "label": "Relation persistence on necessary bearers plus selected-world reflexivity and actual support…",
+  "legacy_id": "STMT-COMMON-PRIORITY-COMPARISON",
   "paraphrase": "Relation persistence on necessary bearers plus selected-world reflexivity and actual support well-foundedness gives a common rank. The same existing rotating model has world-local well-foundedness, necessary population, actual reflexivity, no contingent supporters and target-truth necessitation, but no common rank or necessarily underived individual. The exact parity certificate adds finite-world, locally depth-one, cycle-free infinite-union failure with truth necessitation. The varying model has a common rank without relation persistence. These are conditional connections and named abstract controls, not metaphysical possibility or a source account of full grounds.",
   "lean_declaration": "TruthCore.Causality.CommonPriority.Comparison",
   "definition_ids": [
-    "DEF-COMMON-PRIORITY-RANK",
-    "DEF-EXISTENCE-FACT-NECESSITATION"
+    "c674f0d3-e810-545a-9e09-77f4038d1062",
+    "5e797e6e-258c-5070-bd69-cb49f78ec98c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

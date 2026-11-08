@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
+  "id": "da5b8098-59cb-515a-b755-dd897fa30681",
+  "label": "There is one and the same being that is God, is the only being to which the…, by… (3)",
+  "legacy_id": "INF-NECESSARY-CLASSICAL-GOD-ROOT-PROJECTION",
   "input_statement_ids": [
-    "STMT-NECESSARY-CLASSICAL-GOD-ROOT"
+    "da3facd6-008e-5e76-92fa-677350c2dfdb"
   ],
-  "output_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+  "output_statement_id": "20a2b6a3-83e7-5ea0-be63-9dbc03c302b3",
   "rule": "constructive-proof",
   "meaning": "Structural projection/transcription only: unpack the shared NecessaryClassicalGodRootAt witness and retain its sigma.IsGod membership, the IsTheOneGod component of its exact nine-predicate conjunction, and sigma.HasClassicalAttributes. This supplies the existing UniqueClassicalGodExists consumer without a new philosophical premise, naming claim, attribute derivation or independent closure. All twenty-five upstream philosophical/logical inputs retain their original status; the projection merely connects existing endpoints.",
   "assumption_statement_ids": [],

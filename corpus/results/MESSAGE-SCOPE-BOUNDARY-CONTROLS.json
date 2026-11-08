@@ -1,6 +1,8 @@
 {
-  "id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
-  "argument_id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "id": "d09f91b1-230e-58b3-833e-f47569ebed38",
+  "label": "Two schema controls: the raw message-only and Catholic mandate-scope conditionals coexist while…",
+  "legacy_id": "MESSAGE-SCOPE-BOUNDARY-CONTROLS",
+  "argument_id": "00e7523b-d07c-53b2-ad17-f68f4453c72e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.ScopeModels.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.MessageReportBoundary.messageScopeModels",

@@ -1,0 +1,12 @@
+{
+  "id": "7c5198e4-e084-54c2-a2dc-0981c36fc513",
+  "label": "The direct-only calibration fails in the selected signature, agency and…, from envoy founding",
+  "legacy_id": "DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING",
+  "argument_id": "f7164ac0-17b4-5679-a777-5d2eff8deecc",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.immediateFailsFromEnvoyFounding",
+  "comparator_config": "results/DIVINE-FOUNDING-IMMEDIATE-FAILS-FROM-ENVOY-FOUNDING/comparator.json",
+  "status": "solution-present",
+  "description": "The immediate-only reading of divine founding is false for this signature, agency and direct relation: under it the God-founded Jesus-envoy society of the OPEN witness premise would be founded directly, which the OPEN and contested exclusion forbids for an envoy event. It does not use the envoy bridge STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING, which the existing elimination derives from this conclusion."
+}

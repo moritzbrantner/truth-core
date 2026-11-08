@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY",
+  "id": "cb221b7e-8e60-51a1-8338-61dfe424f262",
+  "label": "Objective as actual truth without\u2026: ActualTruthOnlyDefinition f means \u2200 s, objective s \u2194 holds\u2026",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-ACTUAL-ONLY",
   "term": "objective as actual truth without profile independence",
   "definition": "ActualTruthOnlyDefinition f means \u2200 s, objective s \u2194 holds actual s. It adds no stability condition to actual truth.",
   "basis": "stipulative",

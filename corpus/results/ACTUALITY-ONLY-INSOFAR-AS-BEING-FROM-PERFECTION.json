@@ -1,0 +1,12 @@
+{
+  "id": "4c1c8b86-53b1-58cc-bdc1-34efacc6966f",
+  "label": "Nothing has actuality except insofar as it is: whatever is in act in some respect…, from perfection",
+  "legacy_id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-PERFECTION",
+  "argument_id": "8ba56e15-0d7d-567d-a45a-92b84b03972b",
+  "challenge_module": "TruthCore.Results.Causality.PerfectionOfBeing.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerfectionOfBeing.Solution",
+  "theorem": "TruthCore.Results.Causality.PerfectionOfBeing.actualityOnlyInsofarAsBeing",
+  "comparator_config": "results/ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING, encoded from the definition-linked q.4 a.2 statement). Derives STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING (q.4 a.1 ad 3), an underived leaf of every root route. Act and perfection are read per respect with one InAct parameter (DISAMB-IN-ACT). Both premises stay open."
+}

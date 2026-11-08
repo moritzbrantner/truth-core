@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-SUM2-AND-SUM3-FUSION",
+  "id": "27169651-d75e-5c1e-bc20-03d0eb678b81",
+  "label": "Fusion",
+  "legacy_id": "DISAMB-SUM2-AND-SUM3-FUSION",
   "term": "fusion",
   "sense_definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-OVERLAP-FUSION"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "5a195922-93f5-5792-aeed-a532e32b1e4b"
   ],
-  "resolution": "Sum2 is the existing upper-bound and no-extra-parts predicate Fusion. Sum3 is OverlapFusion with overlap-profile equality only. Sum2 implies Sum3 by partial-order structure; the reverse is supplied under strong supplementation, never by definition. Formation always guards nonempty families. A Sum3 witness need not contain its selected members, as the four-object rival shows. No composition-as-identity or substantial unity is identified with either."
+  "resolution": "Sum2 is the existing upper-bound and no-extra-parts predicate Fusion. Sum3 is OverlapFusion with overlap-profile equality only. Sum2 implies Sum3 by partial-order structure; the reverse is supplied under strong supplementation, never by definition. Formation always guards nonempty families. A Sum3 witness need not contain its selected members, as the four-object rival shows. No composition-as-identity or substantial unity is identified with either.",
+  "term_label": "FUSION",
+  "senses": [
+    {
+      "id": "348db9f2-fda3-4737-a147-3085543d1695",
+      "label": "FUSION_1",
+      "definition_id": "9ec56dce-572e-5230-8247-6b3e994cb98a",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
+    },
+    {
+      "id": "42ce4c85-3483-4733-af60-b64315b7c15d",
+      "label": "FUSION_2",
+      "definition_id": "5a195922-93f5-5792-aeed-a532e32b1e4b",
+      "lean_declaration": "TruthCore.Mereology.SupplementationFusion.OverlapFusion"
+    }
+  ]
 }

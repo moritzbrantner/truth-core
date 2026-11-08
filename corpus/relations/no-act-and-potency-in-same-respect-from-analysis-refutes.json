@@ -1,0 +1,11 @@
+{
+  "id": "a0f739f2-7ac0-5aa2-a81c-57c61bb0799e",
+  "label": "Negation of the Scotist rival act and… refutes Rival: something is in act and in POTENCY_1…",
+  "legacy_id": "REL-NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "ac0ca8ad-47ea-5cb6-b114-9b668a60baca",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "3ea60632-887d-53ff-88a3-b92596d15b8d",
+  "note": "Checked conditional contradiction on the same predicates. Its premise, an Aristotelian analysis, is open, so it does not count for closure; it records that the rival must reject that analysis."
+}

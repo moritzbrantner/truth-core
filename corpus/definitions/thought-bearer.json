@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THOUGHT-BEARER",
+  "id": "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+  "label": "Subject of a thought episode: Bears s e is a primitive, unconstrained relation: s is a subject…",
+  "legacy_id": "DEF-THOUGHT-BEARER",
   "term": "subject (bearer) of a thought episode",
   "definition": "`Bears s e` is a primitive, unconstrained relation: `s` is a subject that bears the thought episode `e`. `SomeThinkingSubject Occurs Bears` is `∃ s e, Occurs e ∧ Bears s e`. Subject here means bearer only. It is not a grammatical first person, not a substance or hypokeimenon, and not an enduring, unique or immaterial self; any such step is a separate open bridge.",
   "basis": "stipulative",

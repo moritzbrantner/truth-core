@@ -1,10 +1,12 @@
 {
-  "id": "INF-COGITO-SUBJECT-FROM-OCCURRENCE",
+  "id": "7ad8dff3-a1f6-5409-942a-25ce57304917",
+  "label": "Some subject bears some occurring thought episode, by Constructive-proof",
+  "legacy_id": "INF-COGITO-SUBJECT-FROM-OCCURRENCE",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160"
   ],
-  "output_statement_id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "output_statement_id": "0315d471-5093-59e3-a435-b7beff4c48a4",
   "rule": "constructive-proof",
   "meaning": "Take the occurring episode, instantiate the bearer principle at it, and pair the bearer with the episode.",
   "assumption_statement_ids": [],

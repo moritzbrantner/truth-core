@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GRAMMAR-FIXES-REFERENCE",
+  "id": "77855f42-21c8-52ad-8f45-0824ddfb8b33",
+  "label": "Open bridge, unattributed: a correct move of the practice that confesses the name 'God' as naming…",
+  "legacy_id": "STMT-GRAMMAR-FIXES-REFERENCE",
   "paraphrase": "Open bridge, unattributed (WF-P2's reference thesis in typed form): a correct move of the practice that confesses the name 'God' as naming a being makes the name refer, in the practice's use, to some being.",
   "lean_declaration": "TruthCore.Alternatives.FideismReference.GrammarFixesReferenceReading",
   "definition_ids": [
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-CONFESSES-REFERENT",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "690c81f2-b2ca-56a1-b77a-24bb49b75ced",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96"
   ]
 }

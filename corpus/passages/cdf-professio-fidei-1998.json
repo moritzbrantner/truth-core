@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "CDF-PROFESSIO-FIDEI-1998",
+    "source_id": "6c70ceff-dcf8-5cf3-95bc-f49052756538",
     "source_url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_con_cfaith_doc_1998_professio-fidei_en.html",
     "retrieved_at": "2026-10-25T17:28:45Z",
     "sha256": "sha256:26c49650d5e9f02b2742c961760cb28477f2dd489c38c9a3fbcee2ffbddcc02d",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "CDF-PROFESSIO-FIDEI-1998",
+      "id": "82a4c741-24e2-55bb-b938-991709aadbee",
+      "label": "Congregation for the Doctrine of the…, Profession of Faith, Profession of Faith and Oath of Fidelity",
+      "legacy_id": "CDF-PROFESSIO-FIDEI-1998",
       "locator": "Profession of Faith and Oath of Fidelity; Ad tuendam fidem; Doctrinal Commentary, nn. 1–12 and notes",
       "claim_locator_prefixes": [
         "Profession of Faith, ",

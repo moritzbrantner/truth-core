@@ -1,0 +1,12 @@
+{
+  "id": "dae70d8a-75ad-5b67-82cd-c1f7be320e93",
+  "label": "A cause of every other actual being transfers causation of a distinct…, from total causation",
+  "legacy_id": "UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION",
+  "argument_id": "afb8cba3-98ad-556c-8fc9-bad4b9798268",
+  "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.universalCauseTransfers",
+  "comparator_config": "results/UNIVERSAL-CAUSE-TRANSFERS-FROM-TOTAL-CAUSATION/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the open transfer principle restricted to universal causes of being: a cause of every other being's being is the total cause of the being of each thing whose being it causes (OPEN), every perfection a thing has is a mode of its being (OPEN reading of q.4 a.2), and a total cause of a thing's being causes each mode of it (OPEN). The particular existential supporter of the CausalPerfectionTransfer roles is not a universal cause, so the first premise does not apply to it."
+}

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-AQUINAS-SCG-I42-GREATEST-INTERNAL-UNITY",
+  "id": "66b830c3-fb5f-5c1b-bd87-06cc61f417d2",
+  "label": "A thing has being in the manner it possesses unity; if the divine nature has being most…",
+  "legacy_id": "STMT-AQUINAS-SCG-I42-GREATEST-INTERNAL-UNITY",
   "paraphrase": "A thing has being in the manner it possesses unity; if the divine nature has being most powerfully, it has greatest unity and no plurality is distinguished within it.",
   "definition_ids": [
-    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE"
+    "62882166-d11a-5794-9c70-f93fa24b243f"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

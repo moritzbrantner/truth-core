@@ -1,0 +1,13 @@
+{
+  "id": "1d1c158d-b0d5-540e-b0fd-4148c688ddbb",
+  "label": "Report-to-event premise: the commission reported in Matthew…, by Instantiation of the strong…",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO",
+  "input_statement_ids": [
+    "d6c957b8-7ced-5ff5-b0a0-343c5ed80786"
+  ],
+  "output_statement_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
+  "rule": "Instantiation of the strong version",
+  "meaning": "Strength registration (not a route step): if all five reported commissions go back to Jesus, then Matthew 28's does and so does at least one governing one (Matthew 16's). Backs the strengthens relation from the all-reports statement to the two-report premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-BEING-HAS-SEVERAL-SENSES",
+  "id": "b6c9b506-0f3c-58bd-89e1-9e3ac65664f7",
+  "label": "BEING_1 is said in several senses, including substance, quantity, and quality, so an assertion that…",
+  "legacy_id": "STMT-BEING-HAS-SEVERAL-SENSES",
   "paraphrase": "Being is said in several senses, including substance, quantity, and quality, so an assertion that all things are one must specify the relevant sense.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.BeingHasSeveralSensesReading",
   "definition_ids": [
-    "DEF-BEING-AS-ENTITY"
+    "4b8fac5c-91f0-5e82-b095-9f4e96d1d6a9"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEING"
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
   ]
 }

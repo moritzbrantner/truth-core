@@ -1,5 +1,7 @@
 {
-  "id": "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES",
+  "id": "a669b17c-91bf-5525-bfba-f89b6e8e9438",
+  "label": "For a subject with principles, causes, or elements, scientific knowledge requires acquaintance…",
+  "legacy_id": "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES",
   "paraphrase": "For a subject with principles, causes, or elements, scientific knowledge requires acquaintance with its primary causes and principles and analysis to its elements.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ScientificKnowledgeThroughFirstPrinciplesReading"
 }

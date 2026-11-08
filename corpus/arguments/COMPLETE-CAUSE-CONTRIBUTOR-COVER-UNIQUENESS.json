@@ -1,28 +1,30 @@
 {
-  "id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
+  "id": "60a6dbd6-06ae-545a-a049-4fcc17e58442",
+  "label": "For each effect, any two incoming…, from Every complete producer of an effect is a… and 1 more",
+  "legacy_id": "COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS",
   "premise_statement_ids": [
-    "STMT-COMPLETE-PRODUCER-PARTICIPATES",
-    "STMT-COMPLETE-CAUSE-COVERS-CONTRIBUTORS"
+    "9cfaf9de-46cd-5a40-b23d-457e39b9d1a1",
+    "55d1d0e7-f1b6-522b-9bf4-0514c998a828"
   ],
-  "conclusion_statement_id": "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT",
+  "conclusion_statement_id": "326fd926-9f08-50d9-86fe-7199119a62d1",
   "inference_ids": [
-    "INF-COMPLETE-CAUSE-CONTRIBUTOR-COVER-UNIQUENESS"
+    "15b5aa02-60f1-5486-b058-93636f075651"
   ],
   "meaning": "For two complete causes c and d of the SAME effect e, ProducerParticipates puts c and d in the SAME supplied productive family. CompleteCauseCoversContributors gives c≤d and d≤c. The existing PartialOrder antisymmetry yields c=d, exactly existing UniqueCausePerEffect G. No cause or participant is asserted to exist, and participants is not defined from the complete-cause graph. Full fusion, overlap extensionality, object formation, cause-of-part inheritance, world rigidity, necessity and full first-cause uniqueness are not used or concluded. The two selected-context participant policies remain OPEN interpretations of the author’s total-cause discussion.",
   "definition_ids": [
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-CAUSE-CONTRIBUTOR-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-COMPLETE-PRODUCER-PARTICIPATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "a1834cd3-abaa-55f4-aeb4-195bc964c472",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e7f5e58a-1199-5c33-912c-09a87ef554c4",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND"
+    "70af59cf-0351-5332-9c89-b80231412529",
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed"
   ]
 }

@@ -1,0 +1,245 @@
+# Round 4: revisited derivation leads. Maps: explorations/round4-act-simply-prior-to-potency.toml,
+# round4-matter-form-esse-essence-compositions.toml, round4-cause-of-necessary-being.toml,
+# round4-immaterial-is-intellectual.toml, round4-cogito-inhabited-concrete-world.toml,
+# round4-classical-attributes-suffice.toml, round4-per-se-mover-link.toml.
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round4Revisited"
+results = "TruthCore.Results.Causality.Round4Revisited"
+
+# ---- Map 1: act simply prior to potency ----
+
+[[statement]]
+id = "STMT-POTENCY-HAS-GROUND"
+lean = "PotencyHasGround"
+paraphrase = "OPEN analyst premise: every potency has a ground: whatever is in potency in a respect has some being on which that potency depends, whether or not the potency is now being actualized (idle potency included). A brute, free-floating possibility falsifies it."
+definitions = ["DEF-POTENCY", "DEF-POTENCY-GROUND", "DEF-RESPECT"]
+
+[[statement]]
+id = "STMT-GROUND-OF-POTENCY-IS-IN-ACT"
+lean = "GroundOfPotencyIsInAct"
+paraphrase = "OPEN analyst premise: whatever grounds a potency in a respect is in act in that respect. Q.3 a.1 says this of what reduces a potency to act; the extension to grounding, and so to idle potency, is the analyst's."
+definitions = ["DEF-ACT", "DEF-POTENCY-GROUND", "DEF-RESPECT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"
+lean = "GroundOfPotencyIsSimplyPrior"
+paraphrase = "OPEN analyst premise: whatever grounds a thing's potency is simply prior to that thing (simple, not temporal, priority)."
+definitions = ["DEF-POTENCY-GROUND", "DEF-SIMPLE-PRIORITY"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT"
+lean = "IdlePotencyPosteriorToAct"
+paraphrase = "OPEN analyst premise, restricted to idle potency: whatever is in potency in a respect and is not being moved in that respect is simply posterior to some being in act in that respect. It is the half of act's simple priority that the prima via premises do not supply (STMT-ACT-PRIOR-FROM-MOTION-FACTS)."
+definitions = ["DEF-ACT", "DEF-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-MOTION-AS-REDUCTION", "DEF-RESPECT"]
+disambiguations = ["DISAMB-MOTION", "DISAMB-IN-ACT", "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+# ---- Map 2: matter-form and esse-essence compositions ----
+
+[[statement]]
+id = "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE"
+lean = "TwoDistinctConstituentsMakeComposite"
+paraphrase = "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct constituent principles is composite. It does not say that every composite has two constituents."
+definitions = ["DEF-CONSTITUENT-PRINCIPLE", "DEF-SIMPLE"]
+
+[[statement]]
+id = "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS"
+lean = "MatterFormCompositeHasDistinctConstituents"
+paraphrase = "OPEN analyst premise: whatever is composed of matter and form has two distinct constituent principles (its matter is not its form)."
+definitions = ["DEF-CONSTITUENT-PRINCIPLE"]
+
+[[statement]]
+id = "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"
+lean = "DistinctEsseEssenceAreConstituents"
+paraphrase = "OPEN analyst premise: when a thing's esse is other than its essence, both are constituent principles of it. Silent on a thing whose esse is its essence."
+definitions = ["DEF-CONSTITUENT-PRINCIPLE", "DEF-ESSE", "DEF-ESSENCE-THOMISTIC-NATURE"]
+disambiguations = ["DISAMB-ESSENCE"]
+
+# ---- Map 3: a cause of a necessary being causes its necessity ----
+
+[[statement]]
+id = "STMT-NECESSITY-CONSISTS-IN-BEING"
+lean = "NecessityConsistsInBeing"
+paraphrase = "OPEN analyst premise: the necessity of every necessary being (tertia via sense: not possible not to be) consists in the respect of being (esse): its necessity is the necessity of its being."
+definitions = ["DEF-NECESSARY-BEING", "DEF-NECESSITY-CONSISTS-IN", "DEF-ESSE"]
+
+[[statement]]
+id = "STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY"
+lean = "CausingNecessityRespectCausesNecessity"
+paraphrase = "OPEN analyst premise: whoever causes a thing in the respect in which its necessity consists causes its necessity."
+definitions = ["DEF-NECESSITY-CONSISTS-IN", "DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY"
+lean = "NecessaryBeingInActOfNecessity"
+paraphrase = "OPEN and contested analyst premise: every necessary being is in act in a respect nec, its necessity, read as a perfection it actually has. Whoever takes necessity to be a mode of being rather than a perfection denies it."
+definitions = ["DEF-NECESSARY-BEING", "DEF-NECESSITY-AS-PERFECTION", "DEF-ACT"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY"
+lean = "CausingInNecessityCausesNecessity"
+paraphrase = "OPEN analyst premise: whoever causes a thing in the respect nec (its necessity read as a perfection) causes its necessity."
+definitions = ["DEF-NECESSITY-AS-PERFECTION", "DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Map 4: the immaterial is intellectual ----
+
+[[statement]]
+id = "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY"
+lean = "IntellectFollowsGradeOfImmateriality"
+paraphrase = "OPEN analyst reading of 'the mode of knowledge follows the mode of immateriality': having intellect (the primitive power HasIntellect, not an actual reception of forms) is closed upward along grades of immateriality: whatever is at least as immaterial as something with intellect has intellect. If abstract objects rank at least as high as an intellectual being, it gives them intellect; whoever denies that rejects this premise."
+definitions = ["DEF-HAS-INTELLECT", "DEF-GRADE-OF-IMMATERIALITY"]
+disambiguations = ["DISAMB-Q14-RECEPTION-SENSES"]
+
+[[statement]]
+id = "STMT-SOME-BEING-HAS-INTELLECT"
+lean = "SomeBeingHasIntellect"
+paraphrase = "OPEN analyst premise: something has intellect (for example a human being). Existence of an intellectual power only, not of any immaterial being."
+definitions = ["DEF-HAS-INTELLECT"]
+
+[[statement]]
+id = "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"
+lean = "AltogetherImmaterialIsMaximallyImmaterial"
+paraphrase = "OPEN analyst premise: what is altogether immaterial (neither a matter-form composite nor a component of anything) is at least as immaterial as every being: the highest grade."
+definitions = ["DEF-ALTOGETHER-IMMATERIAL", "DEF-GRADE-OF-IMMATERIALITY", "DEF-COMPOSITION-COMPONENT"]
+
+# ---- Map 5: the Cogito populates the world ----
+
+[[statement]]
+id = "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"
+lean = "TruthCore.Causality.CausalPowerConcreteness.CausersRequireConcreteAt"
+paraphrase = "OPEN activity clause alone (the weaker half of STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS): at the selected world, whatever causes something is concrete. It does not infer capacity from exercise and does not define concreteness; under the adopted esse sense it says every cause at w has esse in re."
+definitions = ["DEF-CAUSAL-POWER-CONCRETENESS-PREMISE", "DEF-CONCRETE-CAUSAL-CRITERION", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"
+lean = "TruthCore.Causality.CausalPowerConcreteness.PowerRequiresConcreteAt"
+paraphrase = "OPEN capacity clause alone (the weaker half of STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS): at the selected world, whatever has causal power (a capacity, not a present exercise) is concrete."
+definitions = ["DEF-CAUSAL-POWER-CONCRETENESS-PREMISE", "DEF-CONCRETE-CAUSAL-CRITERION", "DEF-POWER-CAPACITY-READING"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-ROUND4-REVISITED-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the nine derivations of round 4 (revisited leads): for each premise other than excluded middle, a one- or two-element model in which the other premises hold and the conclusion fails, and one joint model per map in which every premise and conclusion holds with a nonvacuous instance (a potency grounded and moved by a distinct actual, simply prior being; a matter-form composite with distinct esse and essence; a necessary being caused in every respect; an intellectual being at the top grade; an occurring thought whose bearer exists, exercises intellect, causes, has power and is concrete; two beings moving and causing each other per se). Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-POTENCY-GROUND", "DEF-CONSTITUENT-PRINCIPLE", "DEF-NECESSITY-CONSISTS-IN", "DEF-NECESSITY-AS-PERFECTION", "DEF-GRADE-OF-IMMATERIALITY", "DEF-ACT", "DEF-POTENCY", "DEF-SIMPLE-PRIORITY", "DEF-HAS-INTELLECT", "DEF-INHABITED-CONCRETE-WORLD", "DEF-PER-SE-EFFICIENT-CAUSE-LINK"]
+disambiguations = ["DISAMB-IN-ACT", "DISAMB-MOTION", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND"
+theorem = "actPriorFromGround"
+premises = ["STMT-POTENCY-HAS-GROUND", "STMT-GROUND-OF-POTENCY-IS-IN-ACT", "STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+rule = "Universal instantiation, existential elimination, conjunction introduction"
+meaning = "Act's simple priority over every potency, idle potency included, from three OPEN premises: every potency has a ground, the ground of a potency in a respect is in act in that respect, and the ground of a thing's potency is simply prior to it. The q.3 a.1 reason (reduction only by a being in act) bears on the second premise only for potencies being reduced."
+
+[[argument]]
+id = "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK"
+theorem = "actPriorFromMotionFork"
+premises = ["STMT-EXCLUDED-MIDDLE", "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT", "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT", "STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR", "STMT-IDLE-POTENCY-POSTERIOR-TO-ACT"]
+conclusion = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+rule = "Proof by cases (excluded middle), existential elimination, reductio for distinctness"
+meaning = "Act's simple priority by cases on whether the potency is being actualized (excluded middle on MovedIn x r, listed). Moved case: some mover in act moves x (q.2 a.3 reading), it is not x (nothing moves itself in the same respect), so the existing open mover-priority bridge makes it simply prior. Idle case: the new OPEN idle-potency premise. Replaces the rejected premise 'every potency is being actualized' of STMT-ACT-PRIOR-FROM-MOTION-FACTS by the idle half only."
+
+[[argument]]
+id = "COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS"
+theorem = "compositionsFromConstituents"
+premises = ["STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE", "STMT-MATTER-FORM-COMPOSITE-HAS-DISTINCT-CONSTITUENTS", "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS"]
+conclusion = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "Matter-form composites and things whose esse differs from their essence are composite, from an OPEN component analysis (two distinct constituent principles suffice for composition) and two OPEN analyses: a matter-form composite has two distinct constituents, and distinct esse and essence are both constituents. The distinctness of esse from essence is used as the distinctness of the two constituents."
+
+[[argument]]
+id = "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING"
+theorem = "necessityFromConsistsInBeing"
+transcription = "single_application"
+premises = ["STMT-NECESSITY-CONSISTS-IN-BEING", "STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY"]
+conclusion = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+rule = "Universal instantiation, modus ponens"
+meaning = "Transcription (single application): the proof applies the causing-necessity-respect premise, whose consequent is the conclusion's, after the other premise supplies its antecedent, so under invariant 16 it does not expand the target. Whatever causes the being of a necessary being causes its necessity, from two OPEN premises: a necessary being's necessity consists in its being (esse), and causing a thing in the respect in which its necessity consists causes its necessity. Analyses the bridge's 'since its necessity is the necessity of its being' through a typed respect relation."
+
+[[argument]]
+id = "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION"
+theorem = "necessityFromPerfection"
+transcription = "single_application"
+premises = ["STMT-CAUSE-OF-BEING-CAUSES-EVERY-PERFECTION", "STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY", "STMT-CAUSING-IN-NECESSITY-CAUSES-NECESSITY"]
+conclusion = "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+rule = "Universal instantiation, modus ponens"
+meaning = "Transcription (single application): the proof applies the causing-in-necessity premise, whose consequent is the conclusion's, after the other two premises supply its antecedent, so under invariant 16 it does not expand the target. Through the existing open premise that the cause of a thing's being causes each perfection it is in act of, with two OPEN premises: a necessary being is in act of its necessity read as a perfection (contested: necessity may be a mode, not a perfection), and causing a thing in that respect causes its necessity."
+
+[[argument]]
+id = "IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES"
+theorem = "immaterialIntellectualFromGrades"
+premises = ["STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY", "STMT-SOME-BEING-HAS-INTELLECT", "STMT-ALTOGETHER-IMMATERIAL-IS-MAXIMALLY-IMMATERIAL"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+rule = "Existential elimination, universal instantiation, modus ponens"
+meaning = "What is altogether immaterial has intellect, from three OPEN premises: intellect (the power, not an actual reception) is closed upward along grades of immateriality, something has intellect, and the altogether immaterial is at least as immaterial as every being. Unlike the q.14 calibration assemblies it does not pass through reception capacities; the abstract-object objection falls on the first premise."
+
+[[argument]]
+id = "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-ACTIVITY"
+theorem = "inhabitedFromProduction"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISE-PRODUCES-AT", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSERS-REQUIRE-CONCRETENESS-AT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rule = "Existential elimination, universal instantiation, modus ponens, existential introduction"
+meaning = "Some concrete candidate exists at w: an occurring thought has a bearer, who exercises intellect in it and therefore causes something at w (OPEN and contested: the inner word); whatever causes at w is concrete (OPEN activity clause of the causal criterion); and the bearer exists at w. Concreteness is derived from a performed act through a typed criterion, not assumed of bearers (no STMT-COGITO-BEARER-IS-CONCRETE)."
+
+[[argument]]
+id = "COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER"
+theorem = "inhabitedFromPower"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE", "STMT-INTELLECTUAL-EXERCISER-HAS-POWER", "STMT-COGITO-BEARER-EXISTS-AT-WORLD", "STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT"]
+conclusion = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rule = "Existential elimination, universal instantiation, modus ponens, existential introduction"
+meaning = "As the activity route, with the capacity clause: the bearer who exercises intellect has causal power at w (OPEN), and whatever has causal power at w is concrete (OPEN capacity clause). Avoids the contested production of an inner word."
+
+[[argument]]
+id = "PER-SE-MOVER-LINK-FROM-EFFICIENT-CAUSING"
+theorem = "perSeMoverLinkFromEfficientCausing"
+premises = ["STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER", "STMT-MOVER-IS-EFFICIENT-CAUSE", "STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED"]
+conclusion = "STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK"
+rule = "Universal instantiation, existential elimination, modus ponens"
+meaning = "Every per se mover link is a per se cause link, from three existing open premises and no new one: a per se mover link is a moving of x by a distinct y that is itself moved by some z; every moving in a respect is efficient causing in that respect (so y efficiently causes x and z efficiently causes y); and an efficient cause other than its effect that is itself efficiently caused causes only as caused (the Second Way reading). This is the positive form of the conditional refutation of the occasionalist rival in RIVAL-REFUTATIONS-ROUND2; it links MovesAsMoved to MovesIn and CausesAsCaused to EfficientlyCausesIn."
+
+[[argument]]
+id = "ROUND4-REVISITED-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND4-REVISITED-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations for the nine derivations of round 4: for each premise other than excluded middle, a hand-written Unit or Bool model, checked by decide without axioms, in which the other premises hold and the conclusion fails (33 omission models); and one joint nonvacuity witness in which every premise and conclusion of the batch holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-Q3-A1-REDUCTION-SUPPORTS-GROUND-OF-POTENCY-IN-ACT"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q3-A1-REDUCED-ONLY-BY-BEING-IN-ACT-A"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-GROUND-OF-POTENCY-IS-IN-ACT"
+note = "Q.3 a.1 co. says 'quod est in potentia, non reducitur in actum nisi per ens actu': what reduces a potency to act is in act. The premise says it of whatever grounds a potency, including a potency never reduced; that extension to grounding and to idle potency is the analyst's."
+
+[[relation]]
+id = "REL-SCG-I16-ACT-PRIOR-SUPPORTS-POTENCY-HAS-GROUND"
+subject_kind = "claim"
+subject_id = "AQUINAS-SCG-I-16-ACT-SIMPLY-PRIOR"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-POTENCY-HAS-GROUND"
+note = "SCG I.16 [3] (English translation) argues that potency does not raise itself to act but must be raised by something in act, hence 'whatever is in some way in potency has something prior to it'. The premise states only that every potency has some ground on which it depends; that every potency, idle or not, has such a ground is the analyst's generalization, and the text names no dependence relation."
+
+[[relation]]
+id = "REL-Q14-A1-IMMATERIALITY-SUPPORTS-INTELLECT-FOLLOWS-GRADE"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q14-A1-IMMATERIALITY-REASON-OF-KNOWLEDGE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-INTELLECT-FOLLOWS-GRADE-OF-IMMATERIALITY"
+note = "Q.14 a.1 co. says the mode of knowledge follows the mode of immateriality and that intellect is more separated from matter than sense. The premise reads this as upward closure of the primitive intellect power along an unordered grade relation; the text speaks of degrees of cognition, not of closure of a fixed power, and does not address abstract objects."

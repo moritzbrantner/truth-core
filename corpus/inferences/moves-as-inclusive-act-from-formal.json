@@ -1,0 +1,13 @@
+{
+  "id": "6f0a5a03-9ae9-5d08-8caa-55808f4e6da1",
+  "label": "IN-ACT_3, inclusive reading: whatever moves something in a respect is…, by Disjunction introduction",
+  "legacy_id": "INF-MOVES-AS-INCLUSIVE-ACT-FROM-FORMAL",
+  "input_statement_ids": [
+    "f590a5d5-d592-5734-bffd-0936ec276c4b"
+  ],
+  "output_statement_id": "e6515003-6767-5b11-bf9f-54280b900c18",
+  "rule": "Disjunction introduction",
+  "meaning": "Explicit sense bridge IN-ACT_1 → IN-ACT_3 (strength order): the formal mover premise implies the inclusive one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

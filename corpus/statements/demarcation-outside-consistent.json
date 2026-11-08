@@ -1,9 +1,11 @@
 {
-  "id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
+  "id": "48f0d7a4-66c8-570e-b23a-c2af161dc413",
+  "label": "A weak thesis whose own formulation lies outside its demarcated domain is consistent: in a model…",
+  "legacy_id": "STMT-DEMARCATION-OUTSIDE-CONSISTENT",
   "paraphrase": "A weak thesis whose own formulation lies outside its demarcated domain is consistent: in a model the restricted norm holds while the weak thesis is acceptable and fails the standard. The weak thesis survives self-application at the price of its concession.",
   "lean_declaration": "TruthCore.Logic.SelfApplication.DemarcationOutsideConsistent",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM",
-    "DEF-DEMARCATION-RESTRICTION"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0",
+    "3332e115-51be-5870-b228-c7a5e4bb938e"
   ]
 }

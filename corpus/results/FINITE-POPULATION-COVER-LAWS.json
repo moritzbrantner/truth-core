@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-POPULATION-COVER-LAWS",
-  "argument_id": "FINITE-POPULATION-COVER-LAWS",
+  "id": "dd025239-76a8-5e59-b5e0-16a1ae9dae37",
+  "label": "Universal finite-list omission, full-cover joint absence, incompatibility of necessary population…",
+  "legacy_id": "FINITE-POPULATION-COVER-LAWS",
+  "argument_id": "63e20183-f9b5-56c1-9f60-f5ffaf6a95ca",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverLaws.checks",

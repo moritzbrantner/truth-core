@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MARKS-REQUIRE-PERSON",
+  "id": "0ac25ea4-6ff1-55df-8552-1ae9a502d4e9",
+  "label": "Marks of a choice require a personal…: If a frame has the #742 marks of a choice at a world, some…",
+  "legacy_id": "DEF-MARKS-REQUIRE-PERSON",
   "term": "marks of a choice require a personal source",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.MarksRequirePerson",

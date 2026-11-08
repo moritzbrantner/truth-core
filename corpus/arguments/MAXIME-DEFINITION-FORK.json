@@ -1,19 +1,21 @@
 {
-  "id": "MAXIME-DEFINITION-FORK",
+  "id": "72b49ae6-16d4-5ef5-b786-cb3e64053222",
+  "label": "For each supplied preorder/profile, named…, from Excluded middle as a general principle…",
+  "legacy_id": "MAXIME-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-MAXIME-DEFINITION-FORK",
+  "conclusion_statement_id": "e60cc3c0-0728-53eb-8389-a3adff87ea81",
   "inference_ids": [
-    "INF-MAXIME-DEFINITION-FORK"
+    "892254fb-f035-517f-918c-87ed2e8bc28a"
   ],
   "meaning": "Structural coverage transcription under explicit excluded middle: three named calibration candidates cover or all three fail. No philosophical completeness is inferred.",
   "definition_ids": [
-    "DEF-MAXIMUM-CALIBRATION-PROFILE",
-    "DEF-MAXIMUM-IN-A-PERFECTION",
-    "DEF-GREATEST-DEGREE-IN-A-PERFECTION"
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MAXIME-ENS"
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
   ]
 }

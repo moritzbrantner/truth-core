@@ -1,14 +1,16 @@
 {
-  "id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
+  "id": "1492ac47-a9c0-5917-8c27-9e0a4f805ebf",
+  "label": "Under the esse criterion every candidate is CONCRETE_6 or ABSTRACT_3, and none is both: the…",
+  "legacy_id": "STMT-ESSE-CONCRETE-ABSTRACT-DICHOTOMY",
   "paraphrase": "Under the esse criterion every candidate is concrete (has esse in re) or abstract (lacks esse in re), and none is both: the criterion draws an exact line with no borderline cases. It says nothing about which candidates have esse in re, and nothing about rival criteria of concreteness.",
   "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseDichotomy",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "3c25665f-1639-5b85-8052-d4a2fc555365",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Owner (#1103, 2026-11-06): 'We have these words in order to draw a line. The same way we have words like dead and alive, inside or outside.' Derived from STMT-EXCLUDED-MIDDLE by CONCRETE-ABSTRACT-ESSE-DICHOTOMY."
 }

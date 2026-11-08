@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF",
+  "id": "ba67d00c-6c8c-5a21-a8a7-adc0b37abbd8",
+  "label": "When each offered proof needs a further proof indefinitely and no starting point for establishing…",
+  "legacy_id": "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF",
   "paraphrase": "When each offered proof needs a further proof indefinitely and no starting point for establishing the investigated claim is available, the skeptical procedure suspends judgment on that claim.",
   "definition_ids": [
-    "DEF-SEXTUS-ESTABLISHING-PROOF",
-    "DEF-SEXTUS-SUSPENSION"
+    "4eaa3fea-38a6-5642-bbe4-3b1b32ba7d00",
+    "d5d1a656-0523-5e9e-811f-9d86a332e478"
   ],
   "disambiguation_ids": [
-    "DISAMB-SEXTUS-EPISTEMIC-REGRESS-SCOPE"
+    "d0ec5421-edd4-5c5d-a3de-fb1bb8ee5e7e"
   ]
 }

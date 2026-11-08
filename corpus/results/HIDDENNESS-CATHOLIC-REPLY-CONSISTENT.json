@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
-  "argument_id": "HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
+  "id": "508718ce-a4b4-512d-baed-a726fd3c8bb6",
+  "label": "The encoded Catholic hiddenness reply commitments have a finite joint interpretation",
+  "legacy_id": "HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
+  "argument_id": "19a1ef96-f335-5aa1-ae35-ec9152aaa445",
   "challenge_module": "TruthCore.Results.Hiddenness.CatholicReplyConsistent.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.CatholicReplyConsistent.Solution",
   "theorem": "TruthCore.Results.Hiddenness.CatholicReplyConsistent.catholicReplyConsistent",

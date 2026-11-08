@@ -1,17 +1,19 @@
 {
-  "id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "id": "eb729d49-62d5-5c11-ad9d-b5486350d771",
+  "label": "For arbitrary frames and report domains, full report saturation makes root-necessary report…",
+  "legacy_id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "conclusion_statement_id": "c4f4fd40-9ee4-59be-82ab-ec576f26aa33",
   "inference_ids": [
-    "INF-ATOMISM-INDEPENDENCE-CERTIFICATE"
+    "4cbf3c83-4f95-5482-a135-fb90b928270c"
   ],
   "meaning": "One universal scope law plus joint parity, saturation, reanalysis and incomplete-world controls. Full joint elementary assignment is an explicit conditional configuration; pairwise variation and an independently saturated smaller basis survive a necessary ternary constraint. No root proposition is identified with an elementary atom.",
   "definition_ids": [
-    "DEF-JOINT-REPORT-SATURATION",
-    "DEF-PAIRWISE-REPORT-VARIATION",
-    "DEF-SELECTED-BOOLEAN-BASIS-REANALYSIS"
+    "6298a18f-dd0d-5b30-816f-a1971f7d08ed",
+    "57534b14-5072-5636-8ceb-994b9e0190ae",
+    "a0748b15-f85f-57f8-9f57-baa7d5cbb2af"
   ],
   "disambiguation_ids": [
-    "DISAMB-PAIRWISE-JOINT-AND-ANALYZED-INDEPENDENCE"
+    "8796008b-c5b3-53c9-8a4e-1421e5266f8e"
   ]
 }

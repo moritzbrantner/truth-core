@@ -1,10 +1,12 @@
 {
-  "id": "DEF-PARTICULAR-SUBSTANTIAL-FORM",
+  "id": "ae879dfa-3d89-5dbf-a1a7-56342f7b1621",
+  "label": "FORM_2: A particular FORM_2 belonging to a particular substance, in the I.16 concluding division…",
+  "legacy_id": "DEF-PARTICULAR-SUBSTANTIAL-FORM",
   "term": "form",
   "definition": "A particular form belonging to a particular substance, in the I.16 concluding division and I.17 reply about each individual’s own forms. It is neither a numerically common humanity contracted by a further difference nor, by this definition, a mental sign or a separately existing Platonic exemplar.",
   "basis": "sourced",
   "claim_ids": [
-    "OCKHAM-SL-I16-PARTICULAR-FORMS",
-    "OCKHAM-SL-I17-SPECIFIC-AGREEMENT"
+    "2d3c1512-78d6-5f2d-bf94-85d9157749a7",
+    "225fe49e-f78b-5d04-8709-6b14ae77ee14"
   ]
 }

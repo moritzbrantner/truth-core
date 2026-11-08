@@ -1,0 +1,17 @@
+{
+  "id": "d556905a-7334-5dc6-a7c6-61ddfcfb45cf",
+  "label": "Jesus claimed to speak and act with divine authority, and he rose from the…, by Report to event to…",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-STAGE-FOUR-FROM-MARK-TRIAL",
+  "input_statement_ids": [
+    "759acbc1-17ea-50b4-905c-3aacea988e7e",
+    "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
+    "888895ec-e4f4-5fb1-87d1-14b1b2a2906c",
+    "ca658204-d3b4-5ecd-a1fe-1a37d033c615",
+    "f93a88f9-d8f9-5b2a-99ae-b0dea250403f"
+  ],
+  "output_statement_id": "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+  "rule": "Report to event to interpretation, with the rising",
+  "meaning": "Stage 4 through the Mark 14 route: the claim conjunct is derived from the two Mark 14 reports through the historicity and interpretation bridges; the rising conjunct is the pilot's open premise STMT-PILOT-ROSE. Each of the five premises is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

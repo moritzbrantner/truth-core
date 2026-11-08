@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
+  "id": "313f1c9b-a42e-57c1-95cc-ae404ef67fcb",
+  "label": "Selected-world direct cause-in-esse to…: ActualEsseCausesSupportAt m R CausesIn esse w says that…",
+  "legacy_id": "DEF-ACTUAL-ESSE-CAUSES-SUPPORT-AT",
   "term": "selected-world direct cause-in-esse to existential-support interface",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ExistenceActuality.ActualEsseCausesSupportAt",

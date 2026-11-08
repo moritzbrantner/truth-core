@@ -1,0 +1,14 @@
+{
+  "id": "07ef5d19-cb60-55df-9885-75424d34e26f",
+  "label": "Nothing is the efficient cause of itself, in any respect, by Universal instantiation and…",
+  "legacy_id": "INF-NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-MOVER",
+  "input_statement_ids": [
+    "2ed50036-3aa7-5209-9aa0-ced7675701da",
+    "3715f518-89a7-5815-8416-990fb686a837"
+  ],
+  "output_statement_id": "8b2561cd-3743-536d-a110-3352fdb0c6b9",
+  "rule": "Universal instantiation and modus tollens",
+  "meaning": "Per-sense result for the moving branch of 'cause': Aristotle's reading that whatever moves something is other than it, with the open bridge that a self-efficient cause would move itself, gives that nothing is its own efficient cause.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,6 +1,8 @@
 {
-  "id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
-  "argument_id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "id": "56433be5-898d-5f0c-ad70-bdcdb29265c5",
+  "label": "Some GOD_4 candidate and society satisfy Jesus' primitive FoundedInMandate\u2026, from attested context",
+  "legacy_id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "argument_id": "ab8871b6-d9bf-5146-babe-8581290b801e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Context.commissionedEventFromContext",

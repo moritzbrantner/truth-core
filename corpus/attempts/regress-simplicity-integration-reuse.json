@@ -1,30 +1,32 @@
 {
-  "id": "ATTEMPT-REGRESS-SIMPLICITY-INTEGRATION-REUSE",
+  "id": "4381d190-d2c3-557d-8867-19a22162d104",
+  "label": "Integration inventory for #319 at 0f1059ba; inspected all five premise dossiers and existing typed…",
+  "legacy_id": "ATTEMPT-REGRESS-SIMPLICITY-INTEGRATION-REUSE",
   "statement_ids": [
-    "STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING",
-    "STMT-NECESSARILY-UNDERIVED",
-    "STMT-NECESSARY-PER-SE-IS-MAXIME-ENS",
-    "STMT-GOD-IS-SIMPLE",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
-    "STMT-NECESSARY-BEING-HAS-BEING",
-    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY",
-    "STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
-    "STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
-    "STMT-AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE"
+    "74eb9113-552b-5ec6-8e09-68374305dd58",
+    "d236f537-dd57-50ec-9676-cee87b19242a",
+    "a76215f2-d0f9-5c9d-b271-e691f9ecf5b1",
+    "9f4e5f17-e808-5c58-9eac-faacbb5c3a56",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "79281639-e09b-569c-a2b3-bb32fdc3b951",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+    "8c3870b7-0d16-5714-8f99-6ea8ef9fb229",
+    "7673ebac-f30c-5960-8a4a-d779db4b14e1",
+    "ea4a1c2d-8b4b-57ee-871d-225839400fb6"
   ],
   "date": "2026-10-28",
   "kind": "derivation",
   "outcome": "blocked",
   "summary": "Integration inventory for #319 at 0f1059ba; inspected all five premise dossiers and existing typed theorems. See docs/power-existence-scope-boundary.md, Integration reuse audit. Existing PowerExistenceBoundary already proves both omission models and the support-to-transmission conditional; duplicating them is rejected. FirstMoverSimple and GodIsSimple already derive their conditional simplicity conclusions. #495 excludes incoming existential support from present sources but does not relate that relation to q3 uniting causes or proper components. A candidate interface would map a distinct CausesIn c x esse witness to support at a world where c exists, for the same x; neither source presence nor this semantic correspondence follows from the existing types. NecessaryPerSeIsMaximeEns identifies n with each given maximum; it does not furnish a maximum. De re NecessaryAt and temporal IsNecessaryPerSe remain unmapped. PSR reason tokens do not supply external supporters or identify their bearer with the power source. #591 separates consecutive motion respects and supplies no omitted power/esse bridge. No source attribution added, no new formal consequence claimed, and no root premise added or discharged; exact eight route costs retained: 31,32,36,38,39,39,40,41. Shared local service corpus record query succeeded at its separate pinned 75192b1c workspace; this was a read-only API check, not Lean verification.\n\nBOUNDED TERTIA-CONVERGENCE SOURCE AUDIT (2026-11-01): Materialized/read full AQUINAS-ST-I-Q44-A1, AQUINAS-ST-I-Q3-A4, AQUINAS-SCG-I-15-EN[1–7] and AQUINAS-DE-ENTE-C3-4[69874–69875]. Three narrow q44ad2/ad3 claims/independent bare statements plus source glossary added: necessity compatible with efficient cause; positive effect-would-not-be-without-cause rationale even for impossible terms; and mathematical abstraction in reason versus efficient causation qua esse. This is not cause⇒necessary-effect, material-implication vacuity or a universal esse-cause→cause-of-necessity theorem. Existing AQUINAS-SCG-I-15-FIRST-NECESSARY-IS-FIRST-CAUSE / STMT-FIRST-NECESSARY-THROUGH-ITSELF-IS-GOD-AS-FIRST-CAUSE retained without duplicate: it identifies first necessaryperse with God as firstcause after aliunde/perse fork and regress, not independent defense of both bridges. Reused AQUINAS-ST-I-Q3-A4-ESSE-ACTUALITY-OF-EVERY-FORM-A→STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING and AQUINAS-ST-I-Q3-A4-DISTINCT-ESSE-EXTERNAL-CAUSE→STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE; neither supplies necessity→InAct with arbitrary Possible/IsAt. NecessaryBeingHasBeing quantifies IsNecessary=not Possible(nonbeing) without actualguard or InAct dictionary; CauseOfNecessaryBeingCausesItsNecessity universally maps CausesIn at esse to distinct primitive CausesNecessityOf. Q44ad2 supports caused necessities and dependence but does not independently state that full universal map. DeEnte[69874] received esse in immaterial forms and [69875] received/limited esse do not equate bare modalNE with uncaused/perse. Q3a4ad2 distinguishes actus essendi from propositional composition, reinforcing dictionary caution. Existing TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS consumes maximum-genus principle+bothbridges+EM to identify EACH necessaryperse with EACH supplied maximum; it provides no maximum existence and not all necessary individuals areperse. Candidate retained/offroot per#180; no automatic migration, new Lean/pin/axiom/inference/model or premise truth/closure. These readings do not exhaust possible defenses. Focused corpus/source manifest-binding checks PASS (2724 statements,1885 claims,469 passages; existing unrelated Frege-Geach warning only), whitespace PASS. Claim/type self-sweep keeps independent identity, caused-necessity versus modal necessitation, impossible-counterfactual scope and abstraction qua esse without attributing the stronger universal dictionaries. No premise change or discharge. Coordinator independently read the complete materialized Latin q44a1 and allnine changed records; accepts narrowad2/ad3 readings with no fidelity findings. Root corrected the stale historical blocker sentence saying no new source investigation was authorized: this bounded audit was explicitly authorized and completed; substantive dictionary obligations remain open.",
   "evidence": [
-    "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
-    "AQUINAS-ST-I-Q3-FIRST-MOVER-SIMPLE",
-    "CATHOLICISM-STAGE2-GOD-IS-SIMPLE",
-    "TERTIA-VIA-NECESSARY-PER-SE-IS-MAXIME-ENS",
-    "CONSECUTIVE-MOVER-RESPECTS",
-    "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
-    "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE",
-    "AQUINAS-ST-I-Q44-A1-MATHEMATICAL-BEING-EFFICIENT-CAUSE"
+    "a268b937-edc1-5f68-b996-9f3489809979",
+    "16ec69e1-5477-5aa0-87b2-212ec29c355c",
+    "1d004d70-531c-5589-b68e-40708c967413",
+    "bf7c011f-ee7c-5416-9bcb-73e4b490ca9e",
+    "feddbc03-7ef5-5479-aa24-593c46d45023",
+    "bd3767d3-3d65-5f3e-a1b1-925c29bbf116",
+    "3ed36bec-27f4-5c77-93d5-3b6724d65204",
+    "7f2c178a-5e39-58ea-b63a-cd6613f70dbd"
   ],
   "blocker": "The authorized bounded q44/q3/SCG/DeEnte source audit is completed and retained above. Both exact temporal-modal/act/esse/necessity-cause dictionary bridges remain OPEN. Defend a typed correspondence between the same underived individual, present uniting causes and existential-support edges, or establish the missing first-being/maximality premises for that individual. Source assertion, modal interpretation and common-witness identification are distinct obligations; no automatic root migration."
 }

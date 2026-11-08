@@ -1,11 +1,13 @@
 {
-  "id": "STMT-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICES",
+  "id": "fb19b2be-b331-5eb9-82fe-3b14cf5341fe",
+  "label": "At least some linguistic activities have activity-specific purposes and rules for competent moves…",
+  "legacy_id": "STMT-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICES",
   "paraphrase": "OPEN analyst formulation; attribution DEFERRED: At least some linguistic activities have activity-specific purposes and rules for competent moves, and learning those rules is part of understanding some expressions used in them. This specificity alone does not entail that claims made in the activity are insulated from evidence or reasons shared outside it.",
   "definition_ids": [
-    "DEF-ACTIVITY-SENSITIVE-LINGUISTIC-PRACTICE"
+    "24285d49-4ef4-5a88-a362-4bf09c11eb56"
   ],
   "note": "Unproved and unestablished. No Lean declaration, source claim or self-evidence marking. The bearing classification and strongest rivals are in docs/wittgenstein.md; existing formal boundaries do not establish this existential philosophical proposition.",
   "disambiguation_ids": [
-    "DISAMB-PRACTICE-SENSITIVITY-AND-FIDEIST-INSULATION"
+    "5fd26045-b3db-5820-a055-cd8c89bc41e5"
   ]
 }

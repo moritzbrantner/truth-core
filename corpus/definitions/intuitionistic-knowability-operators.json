@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS",
+  "id": "854eaae1-7044-5c7c-9095-cc0caa525bf4",
+  "label": "Persistent relational knowledge and…: Three worlds embed into the first three worlds of the…",
+  "legacy_id": "DEF-INTUITIONISTIC-KNOWABILITY-OPERATORS",
   "term": "persistent relational knowledge and possible knowledge",
   "definition": "Three worlds embed into the first three worlds of the earlier epistemic model, giving E blocks{0,1},{2}; the reused universal modal frame restricts to R universal, so E⊆R. Actuality is information stage1. Knowledge and possibility are constructed as upper closures of the matching existing relational extensions; OperatorsExact proves closure adds no world for persistent contents. Moore content is p meet the Heyting pseudocomplement of Kp.",
   "basis": "stipulative",

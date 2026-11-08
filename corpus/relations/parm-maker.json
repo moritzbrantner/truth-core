@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-MAKER",
+  "id": "32020343-7691-55fa-9b8e-ff31f16de1a6",
+  "label": "Plato, Timaeus 28a–b: The craftsman looking… supports A non-vacuous finite interpretation has…",
+  "legacy_id": "REL-PARM-MAKER",
   "subject_kind": "claim",
-  "subject_id": "PLATO-TIM-28A-MODEL-AND-MAKER",
+  "subject_id": "456e6897-4418-5b5c-89de-51ab9ec7ff89",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-GROUND-REPLY-POSSIBLE"
+  "object_id": "c866a89a-b469-5f56-af9a-756860e263ee"
 }

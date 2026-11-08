@@ -1,14 +1,16 @@
 {
-  "id": "PLATO-PHAEDO-99BC-EXPLANATORY-SEARCH",
-  "statement_id": "STMT-PLATONIC-PHAEDO-99BC-EXPLANATORY-SEARCH",
-  "source_id": "PLATO-PHAEDO",
+  "id": "41937743-45a3-5986-82b2-aef796f82456",
+  "label": "Plato, Phaedo 99b–c: Socrates wants to learn the kind of explanation connecting the arrangement of…",
+  "legacy_id": "PLATO-PHAEDO-99BC-EXPLANATORY-SEARCH",
+  "statement_id": "03be5578-f739-58ac-9057-f9021010f995",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "99b–c",
   "interpretation": "Bounded prose source reading of the materialized Burnet Greek witness. This is a bounded report of the explanatory aspiration and acknowledged failure before the second voyage, not an assertion that the subsequent safe answer has already supplied a complete purposive cosmology or a highest unique cause.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PHAEDO-BEST-EXPLANATORY-AIM"
+    "ce9755c3-ce17-553f-b2d7-4c73aa6e65f5"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+    "75be9568-f157-51ba-b94a-f395c2412b7e"
   ]
 }

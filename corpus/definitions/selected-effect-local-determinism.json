@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
+  "id": "d934e836-fdad-5a88-a318-d6e422e22d3d",
+  "label": "LOCAL_OUTPUT_UNIQUENESS_2: For every world v and act a, any two outputs x,y of a at v are equal",
+  "legacy_id": "DEF-SELECTED-EFFECT-LOCAL-DETERMINISM",
   "term": "local output uniqueness",
   "definition": "For every world v and act a, any two outputs x,y of a at v are equal. This is at-most-one uniqueness at each world, not cross-world output invariance, existence of an output, or a physical determinism thesis.",
   "basis": "stipulative",

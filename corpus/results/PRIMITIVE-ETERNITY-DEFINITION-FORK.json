@@ -1,6 +1,8 @@
 {
-  "id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
-  "argument_id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "id": "e53fd263-5115-5adf-b2bd-8ffcc6e9b5d2",
+  "label": "For every supplied duration profile, either the two…, from Excluded middle as a general principle…",
+  "legacy_id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "argument_id": "b7480ef1-d10f-5264-8860-96236fd03521",
   "challenge_module": "TruthCore.Results.Causality.EternityDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Causality.EternityDefinitions.Coverage.coverage",
@@ -9,24 +11,24 @@
   "description": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+    "target_statement_id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
     "cases": [
       {
         "label": "operational Boethian calibration",
-        "statement_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
+        "statement_id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
         "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.BoethianDefinition"
       },
       {
         "label": "endless life with succession permitted",
-        "statement_id": "STMT-PRIMITIVE-ETERNITY-ENDLESS-LIFE-DEFINITION",
+        "statement_id": "56c7f0d2-073e-59df-aae3-226020660796",
         "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.EndlessDefinition"
       },
       {
         "label": "additional calibration",
-        "statement_id": "STMT-PRIMITIVE-ETERNITY-ADDITIONAL-DEFINITION",
+        "statement_id": "fdcb4490-f987-5a5b-a179-53e00ebf25ee",
         "lean_declaration": "TruthCore.Causality.EternityDefinitionFork.Other"
       }
     ],
-    "survival_result_id": "PRIMITIVE-ETERNITY-DEFINITION-BOUNDARIES"
+    "survival_result_id": "6bc09f0b-0702-50ec-b96a-3ec213f17564"
   }
 }

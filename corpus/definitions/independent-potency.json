@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEPENDENT-POTENCY",
+  "id": "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
+  "label": "Independently supplied potency predicate: The generic InPotency x r is an independently supplied…",
+  "legacy_id": "DEF-INDEPENDENT-POTENCY",
   "term": "independently supplied potency predicate (generic and rival configurations)",
   "definition": "The generic InPotency x r is an independently supplied relation between a being and a respect. No capacity-without-act equation is built into it. Generic results state their constraints as explicit hypotheses; omission models and Night configurations can therefore test their independence, including simultaneous act and potency. It is not interchangeable with the adopted DEF-POTENCY until a PotencyIsUnactualizedCapacityReading equation is supplied. The original frozen Challenges and their independent countermodels retain this interpretation.",
   "basis": "stipulative",

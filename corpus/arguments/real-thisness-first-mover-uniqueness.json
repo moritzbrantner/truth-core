@@ -1,0 +1,28 @@
+{
+  "id": "b6269051-b7c0-5d4d-ae6f-eb1f1614d04e",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more (3)",
+  "legacy_id": "REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "62ea1e7a-dbf7-5042-8899-516e2aea7a4c"
+  ],
+  "conclusion_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
+  "inference_ids": [
+    "1bd9b348-6caa-57bc-a5dc-bff0124f497b"
+  ],
+  "meaning": "Each first mover's real thisness is, by strict pure actuality, a pure perfection; by unrestricted perfection every first mover has it; since no other being has it, every first mover is that one. Conditional on three OPEN, unattributed premises. No first mover is produced, and the premises are not defended here. The result does not exclude bare numerical distinctness, which real thisness denies only for first movers by supplying a real determination.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "b5ac268c-7497-5780-a154-3f84c34ac709",
+    "eaefcc0d-d2b8-56e3-af67-6144ccec10b4"
+  ],
+  "disambiguation_ids": [
+    "567c3e74-9514-52d9-b3b6-f5a3af078784",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
+  ]
+}

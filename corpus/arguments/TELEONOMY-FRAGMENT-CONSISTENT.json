@@ -1,24 +1,26 @@
 {
-  "id": "TELEONOMY-FRAGMENT-CONSISTENT",
+  "id": "db44f6ba-2ef2-5bcb-a528-205e349e2804",
+  "label": "Three independently verified concrete constructions each hold: the finite differential-retention…",
+  "legacy_id": "TELEONOMY-FRAGMENT-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TELEONOMY-FRAGMENT-CONSISTENT",
+  "conclusion_statement_id": "b4f6a914-50ca-566b-b24d-a54c5b2baa46",
   "inference_ids": [
-    "INF-TELEONOMY-FRAGMENT-CONSISTENT"
+    "ecc9809b-3de0-5000-9959-c5d5a6557a51"
   ],
   "commitment_statement_ids": [
-    "STMT-TELEONOMY-SELECTION-COVERAGE",
-    "STMT-TELEONOMY-FEEDBACK-COVERAGE",
-    "STMT-TELEONOMY-UNGUIDED-FINALITY"
+    "5db5ee8f-8c16-5538-baa6-3b93cda2963d",
+    "fcf032db-e6ce-5083-b1ab-fa5b78bb0b10",
+    "0cc295be-38b3-5016-9cd6-c9bfda66abe3"
   ],
   "meaning": "Three independently verified concrete constructions each hold: the finite differential-retention filter, the stable local-coupling dynamics and the existing unguided-finality countermodel. This is a conjunction of separate closed results over separate objects, not one joint model, so it does not test their mutual consistency in a shared interpretation; it is bookkeeping that composes the three results. It shows nothing about empirical truth, global naturalism, consciousness or universal explanatory coverage; the whole worldview and unexplained cells are in docs/teleonomy-comparison.md.",
   "definition_ids": [
-    "DEF-TELEONOMY-SELECTION-FILTER",
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

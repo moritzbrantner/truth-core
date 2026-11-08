@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
+  "id": "ea28196e-ff2e-5eb8-b3fe-fa3b9c8d2a61",
+  "label": "Possible count-one cause with absence…: On the unchanged History and existing AtLeastAt, an…",
+  "legacy_id": "DEF-COUNT-CAUSE-TIME-OPPORTUNITY",
   "term": "possible count-one cause with absence at its own presence time",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.CountCauseTimeNecessity.CauseTimeOpportunity",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLURAL-TRUTH-FALSITY-MATRICES",
+  "id": "cbc7be68-f799-54f5-8cc2-7fa2694ba722",
+  "label": "Shared truth/falsity matrices for K3…: A local two-atom Formula grammar has object negation…",
+  "legacy_id": "DEF-PLURAL-TRUTH-FALSITY-MATRICES",
   "term": "shared truth/falsity matrices for K3 and LP",
   "definition": "A local two-atom Formula grammar has object negation, conjunction and disjunction. Values are Boolean truth/falsity pairs. Negation swaps the bits; conjunction ANDs truth and ORs falsity; disjunction ORs truth and ANDs falsity. Designated reads the truth bit. K3 excludes Both at atoms; LP excludes Neither. Consequence preserves designation over every admitted valuation from a finite premise list.",
   "basis": "stipulative",

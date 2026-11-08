@@ -1,0 +1,35 @@
+{
+  "id": "e7b4c683-1f34-5918-aa16-7dd8c12550ae",
+  "label": "No component of anything is the first being: no part of a composite…, from POTENCY_1 or…",
+  "legacy_id": "NO-COMPONENT-FIRST-FROM-POTENCY-OR-PARTICIPATION",
+  "premise_statement_ids": [
+    "86f10ec3-3068-5066-8ba1-3c85baeb1a22",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "2b25a78c-abad-50d9-abb9-31a753409192",
+    "e078f07b-a4b8-595e-a3ee-02dd83474450"
+  ],
+  "conclusion_statement_id": "09c6d5f0-d412-5038-85f9-75fffb935727",
+  "inference_ids": [
+    "33280cb5-0b82-54c4-bc9c-7846795de3b3"
+  ],
+  "meaning": "ST I q.3 a.8's third reason, typed. Every component is in potency in some respect or participated (STMT-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED). If in potency, act is simply prior to potency (STMT-ACT-SIMPLY-PRIOR-TO-POTENCY), so something in act in that respect is prior to it; if the component were first, that prior thing would be the component itself, in act and in potency in one respect, against STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT. If participated, it has a distinct cause of its being (STMT-PARTICIPATED-HAS-OTHER-CAUSE), which as efficient cause is prior to it (STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT), against firstness. Derives STMT-NO-COMPONENT-IS-FIRST-BEING, an underived leaf of 21 root routes, with two of its five premises already on those routes. The same InPotency parameter is used in act priority and in the same-respect exclusion, and the same CausesIn in the participation and efficient-priority premises, so each pair must be read in one sense (DISAMB-POTENCY, DISAMB-PRIORITY-SIMPLE-OR-IN-TIME). All five premises stay open.",
+  "definition_ids": [
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "196be87e-b944-5924-b791-87406fbe48f6"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

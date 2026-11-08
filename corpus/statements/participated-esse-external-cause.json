@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE",
+  "id": "f831be85-b088-5654-860a-f7f6bbad2ce5",
+  "label": "A being that has ESSE_BY_PARTICIPATION_1 is caused by another; dependence is not part of the notion…",
+  "legacy_id": "STMT-PARTICIPATED-ESSE-REQUIRES-OTHER-CAUSE",
   "paraphrase": "A being that has esse by participation is caused by another; dependence is not part of the notion of being simply.",
   "definition_ids": [
-    "DEF-PARTICIPATED-ESSE",
-    "DEF-ESSE",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE"
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "196be87e-b944-5924-b791-87406fbe48f6"
   ],
   "disambiguation_ids": [
-    "DISAMB-THOMISTIC-ESSE-PARTICIPATION",
-    "DISAMB-BEING"
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
   ]
 }

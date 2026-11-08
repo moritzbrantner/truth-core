@@ -1,7 +1,9 @@
 {
-  "id": "PAPINEAU-RISE-INTERACTION-PHYSICAL",
-  "statement_id": "STMT-NATURALISM-N3-INTERACTION",
-  "source_id": "PAPINEAU-RISE-PHYSICALISM",
+  "id": "5d772218-5bb8-57f8-bd67-013a2ca61361",
+  "label": "David Papineau, The Rise of Physicalism…: N3i, INTERACTION_NATURALISM_4: at the selected world…",
+  "legacy_id": "PAPINEAU-RISE-INTERACTION-PHYSICAL",
+  "statement_id": "7d09a0a1-fa72-5dd3-8e73-84ee3cb57e83",
+  "source_id": "a01c6154-9b4e-59b6-aca5-0fe707051ecf",
   "locator": "pp.3–12 p.11 ('physicalism is best formulated ... as the significantly weaker claim that everything that interacts causally with the physical world is physical')",
   "interpretation": "Papineau's preferred formulation at p.11. Read as N3i with P = physical: whatever causes a physical effect is physical. 'Interacts causally' is read as causing something physical; the converse direction, being affected by the physical, is not used. P is physical in his sense (DEF-PAPINEAU-PHYSICAL), not spatiotemporal.",
   "attribution": "The passage states that everything that interacts causally with the physical world is physical, which is the premise with P = physical and interaction read as causing a physical effect.",

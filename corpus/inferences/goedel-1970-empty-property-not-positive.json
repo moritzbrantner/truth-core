@@ -1,10 +1,12 @@
 {
-  "id": "INF-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+  "id": "c41d5754-4e79-5eeb-b133-b4ee6746cfa8",
+  "label": "Step 1 of the proof of Inconsistency in Gödel's 1970 variant: at every world, the…, by Reductio",
+  "legacy_id": "INF-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-POSITIVE-OR-NEGATION-POSITIVE-EXCLUSIVELY",
-    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION"
+    "a9077c68-43f0-53e1-905a-d431488204ee",
+    "96d8342a-f88f-5edf-8792-00d4f6d556ca"
   ],
-  "output_statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
+  "output_statement_id": "649e7f30-2410-5cc1-b7c4-222f96cfb7dd",
   "rule": "reductio",
   "meaning": "Step 1 of AFP Inconsistency (using Ax2a Ax4 by blast). If the empty property were positive, its negation would be positive too by Ax4, since the empty property is vacuously included in every property; Ax2a forbids both.",
   "assumption_statement_ids": [],

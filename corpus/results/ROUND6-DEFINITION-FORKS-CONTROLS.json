@@ -1,0 +1,12 @@
+{
+  "id": "d3dd4601-36f0-51a2-a5f4-29fc87e49e84",
+  "label": "Finite interpretations for the ten derivations of round 6: for each premise except excluded…",
+  "legacy_id": "ROUND6-DEFINITION-FORKS-CONTROLS",
+  "argument_id": "11fa5407-0a50-5e84-81d4-fc3bfe870cbc",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.controls",
+  "comparator_config": "results/ROUND6-DEFINITION-FORKS-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the ten derivations of round 6: for each premise except excluded middle, a hand-written model (societies Three or Unit, beings Bool, the nine-power carrier) in which the other premises hold and the conclusion fails (23 omission models, checked by decide or short proofs), and one joint nonvacuity witness per map in which every premise and conclusion holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe Church history or reality."
+}

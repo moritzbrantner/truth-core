@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-TRANSCENDENTAL-AGENCY-DUTY-20261102",
+  "id": "fd6dcd31-a58e-5b57-b8ae-7afe117422e4",
+  "label": "For any action domain, a realized valued goal with a uniquely effective means entails that that…",
+  "legacy_id": "ATTEMPT-TRANSCENDENTAL-AGENCY-DUTY-20261102",
   "date": "2026-11-02",
   "statement_ids": [
-    "STMT-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY"
+    "ab0e2471-5147-54bc-a13a-ca53f6857947"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "For any action domain, a realized valued goal with a uniquely effective means entails that that means was performed. Two joint nonempty Boolean-action controls keep the same valued end, performed and productive action, and unique efficacy while varying only the categorical-duty predicate. Therefore instrumental success does not fix categorical obligation in this stipulated profile. Rejected as invalid: from valuing or achieving an end alone, that one objectively ought to perform the means; or that instrumental success disproves objective duties. The outcome is a semantic contrast, not a theory of psychological deliberation, responsible agency or moral ontology.",
   "evidence": [
-    "LOGIC-TRANSCENDENTAL-AGENCY-DUTY-BOUNDARY",
-    "DESCRIPTIVE-PLAN-BOUNDARY"
+    "02304e21-083a-59f1-9386-6d50c8fad27c",
+    "ae1df6b5-70c7-548a-98f7-16c5f67b7332"
   ],
   "blocker": "A substantive normative bridge must connect instrumental success, intention or reasons-responsiveness to binding duties, and another bridge would be needed to infer any necessary moral ground or classical divine attributes. No such bridge is certified. Root-route open-premise delta: zero."
 }

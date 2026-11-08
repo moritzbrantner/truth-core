@@ -1,10 +1,12 @@
 {
-  "id": "DEF-NB-SURVEY-POSSIBLE-IMPOSSIBILITY-INPUT",
+  "id": "a3b0534d-82c4-5440-b698-2e8bc6068532",
+  "label": "POSSIBLE_IMPOSSIBILITY_CONDITIONAL_INPUT_7: The question asks whether a situation that can be…",
+  "legacy_id": "DEF-NB-SURVEY-POSSIBLE-IMPOSSIBILITY-INPUT",
   "term": "Possible-impossibility conditional input",
   "basis": "sourced",
   "definition": "The question asks whether a situation that can be impossible is actually impossible; the impossible titles mean contradicting something necessary. Conditional affirmative-report content is separate from actual assent and from any derivation of necessity of possibility.",
   "claim_ids": [
-    "NB-SURVEY-A10-ALT-POSSIBLE-IMPOSSIBILITY-INPUT"
+    "72dbe696-cf8f-500b-9c6f-bfad5ea2721b"
   ],
   "note": "This narrow input does not include A2C2’s explicit contraposition/duality argument. A10C2 instead literally recalls the original individual-invariance wording; no textual correction or verified equivalence is supplied. Actual here modifies impossibility, not existence of a concrete causal bearer."
 }

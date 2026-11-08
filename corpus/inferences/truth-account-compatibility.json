@@ -1,7 +1,9 @@
 {
-  "id": "INF-TRUTH-ACCOUNT-COMPATIBILITY",
+  "id": "019ddc19-5bd1-5ff7-8d74-9961b72afe90",
+  "label": "The complete existing encoded intuitionist framework, assertion/proof…, by Constructive-proof",
+  "legacy_id": "INF-TRUTH-ACCOUNT-COMPATIBILITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-TRUTH-ACCOUNT-COMPATIBILITY",
+  "output_statement_id": "f64df602-bf01-563b-826f-9752feb75293",
   "rule": "constructive-proof",
   "meaning": "Compose the entire earlier checked intuitionist-framework witness with explicit signed thought-composition semantics and four populated signed verdicts. The old raw account is not logical negation of the other, even under this shared interpretation.",
   "assumption_statement_ids": [],

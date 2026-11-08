@@ -1,0 +1,12 @@
+{
+  "id": "b4e28e3d-3604-5e6f-afa2-5036e9fabb96",
+  "label": "Selected-world one-way contract: each individual represented as existent in…, from mere possibility",
+  "legacy_id": "EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY",
+  "argument_id": "f1ea8b89-cbcf-5327-9256-c77e708ae5f9",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.existingInActAtFromMerePossibility",
+  "comparator_config": "results/EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the esse contract classically: for an existent x at w, either x is in act of esse, or it is not, in which case it is merely possible (OPEN) and so does not exist at w (OPEN), contradicting its existence. Excluded middle on InAct x esse is used and is listed as a premise."
+}

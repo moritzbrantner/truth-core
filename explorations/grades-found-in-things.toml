@@ -1,0 +1,44 @@
+target = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+
+[[node]]
+id = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+
+[[node]]
+id = "STMT-COGITO-THOUGHT-OCCURS"
+
+[[node]]
+id = "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT"
+
+[[node]]
+id = "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"
+
+[[node]]
+id = "STMT-SELF-UNDERSTANDING-HAS-HIGHEST-LIFE"
+
+[[node]]
+id = "STMT-THINKER-LIVES"
+
+[[node]]
+id = "STMT-SOMETHING-MERELY-EXISTS"
+
+[[node]]
+id = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+
+[[node]]
+id = "STMT-ONE-GRADED-PAIR-SUFFICES"
+
+[[edge]]
+premises = ["STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION"]
+conclusion = "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING"
+kind = "source"
+status = "certified"
+relation = "REL-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION-SUPPORTS-LIVING-MORE-NOBLE"
+note = "Recorded as a supports relation from claim AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION with a gap note (more perfect vs more noble; universal comparison not stated). Not an inference; the premise stays open."
+
+[[edge]]
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT", "STMT-THINKER-LIVES", "STMT-SOMETHING-MERELY-EXISTS", "STMT-LIVING-MORE-NOBLE-THAN-MERELY-EXISTING", "STMT-ONE-GRADED-PAIR-SUFFICES"]
+conclusion = "STMT-THINGS-MORE-AND-LESS-GOOD-TRUE-NOBLE"
+kind = "derivation"
+status = "certified"
+argument = "GRADES-FROM-COGITO-LIVING-THINKER"
+note = "Cogito supplies a living thinker; a stone merely exists; the living is more noble; nobility grades convert to goodness and truth grades (STMT-ONE-GRADED-PAIR-SUFFICES is formalized as that convertibility, not as a transcription of the conclusion). Nonvacuity witness: thinker and stone."

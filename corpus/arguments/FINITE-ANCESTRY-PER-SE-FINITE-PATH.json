@@ -1,26 +1,28 @@
 {
-  "id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
+  "id": "b8e47f26-a99f-5bf0-876e-45d32736e391",
+  "label": "Every being reaches, by a finite chain…, from Every relatum has finitely many distinct… and 2 more",
+  "legacy_id": "FINITE-ANCESTRY-PER-SE-FINITE-PATH",
   "premise_statement_ids": [
-    "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
-    "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
-    "STMT-PER-SE-LINKS-IN-FINITE-HISTORY-RELATION"
+    "e529c42f-f0a2-5ebf-9ae1-459e7f798d31",
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936",
+    "f10d5632-ee55-5c6a-b972-809363b8c50c"
   ],
-  "conclusion_statement_id": "STMT-EVERY-BEING-HAS-FINITE-PER-SE-PATH-TO-UNCAUSED",
+  "conclusion_statement_id": "99b1a274-ce1a-5019-9b0f-5cc6e70b07dc",
   "inference_ids": [
-    "INF-FINITE-ANCESTRY-PER-SE-FINITE-PATH"
+    "a8de4813-fe84-54ad-9a55-f2ac80187aeb"
   ],
   "meaning": "Compose FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS with the existing regress-to-finite-grounding path theorem and the proved FINITE-GROUNDING-HAS-SOURCE result. Excluded middle is supplied by the permitted Mathlib classical logic, not a new philosophical premise. Every being has a finite per se path, possibly of length zero, to a being with no upstream per se cause. No uniqueness, absolute uncausedness, existence of a caused being or necessity is inferred. The same three unattributed open hypotheses remain.",
   "definition_ids": [
-    "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY",
-    "DEF-CAUSAL-HISTORY-NO-LOOPS",
-    "DEF-PER-SE-FINITE-HISTORY-INCLUSION",
-    "DEF-PER-SE-EFFICIENT-CAUSE-LINK",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER"
+    "5e0dd6bc-5e5a-5f8b-ade5-b0d720bd130e",
+    "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd",
+    "6c9be385-8a5b-5aa6-b4e6-53630ec55d04",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0"
   ],
   "disambiguation_ids": [
-    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS",
-    "DISAMB-CAUSAL-SERIES",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "bedfab81-905c-5d1a-b834-e20b8007b3da",
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

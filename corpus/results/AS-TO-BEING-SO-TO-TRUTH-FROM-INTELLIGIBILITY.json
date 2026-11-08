@@ -1,0 +1,12 @@
+{
+  "id": "b4c974bf-4bf6-5fb3-90a0-752965f2af3c",
+  "label": "As each thing stands in respect of being, so it stands in respect of truth…, from intelligibility",
+  "legacy_id": "AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY",
+  "argument_id": "2db4a37a-449a-5765-a80c-722dde319d61",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.asToBeingSoToTruthFromIntelligibility",
+  "comparator_config": "results/AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY/comparator.json",
+  "status": "solution-present",
+  "description": "Truth said of things goes with intelligibility (q.16 a.1, a.3), and intelligibility goes with being (q.16 a.3: each thing is knowable insofar as it has being); so a thing has truth exactly when it has being, and is more true exactly when it is more a being: Metaphysics II.1's 'as to being, so to truth'. A two-step chain through the distinct respect of intelligibility; both premises are OPEN readings supported by q.16 claims."
+}

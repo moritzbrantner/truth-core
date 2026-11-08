@@ -1,7 +1,12 @@
 {
-  "id": "DEF-NB-SURVEY-NECESSARY-BEING",
+  "id": "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+  "label": "NECESSARY_BEING_4: In this survey, a NECESSARY_BEING_4 is something for which causing something is…",
+  "legacy_id": "DEF-NB-SURVEY-NECESSARY-BEING",
   "term": "necessary being (NecessaryBeing.com stipulation)",
   "definition": "In this survey, a necessary being is something for which causing something is possible and whose nonexistence at any time is impossible. The further N → □N rule is explicitly stipulated on the same page and is not silently equivalent to the two nominal conditions.",
   "basis": "sourced",
-  "claim_ids": ["NB-SURVEY-DEFINITION-TWO-CONDITIONS", "NB-SURVEY-DEFINITION-N-NECESSITATION"]
+  "claim_ids": [
+    "7bb7c49b-a06a-59f7-bdde-88adc1c788b1",
+    "ed1ca28e-7565-5355-bc26-99691dbbb589"
+  ]
 }

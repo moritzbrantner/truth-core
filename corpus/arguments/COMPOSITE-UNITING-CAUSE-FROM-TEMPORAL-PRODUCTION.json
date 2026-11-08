@@ -1,24 +1,26 @@
 {
-  "id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "id": "56f4e4b3-fd6d-584f-9300-7343b5cabc2c",
+  "label": "Every composite has a cause, other than itself, of its being: things…, from temporal production",
+  "legacy_id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
   "premise_statement_ids": [
-    "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-    "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-    "STMT-UNITING-CAUSE-EFFICIENT-AT-SOME-TIME",
-    "STMT-UNITING-CAUSE-CAUSES-COMPOSITE-BEING",
-    "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME"
+    "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+    "58445bd6-264b-53cf-8951-d052022f8e47",
+    "8e44a618-09cf-5ae0-8a0e-c8c7e60b5d26",
+    "fbee7f15-f54b-5a67-9773-3c09ca7015f4",
+    "d15ded6f-1895-5d2d-b967-a14165c49bda"
   ],
-  "conclusion_statement_id": "STMT-COMPOSITE-HAS-A-UNITING-CAUSE",
+  "conclusion_statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
   "inference_ids": [
-    "INF-COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION"
+    "0f368fbd-0ecc-518b-b98a-44df26d430e4"
   ],
   "meaning": "Compose the imported original composite-uniter theorem at the existential-time efficient relation. All-time no-self excludes self-production at the witnessed activity time, deriving distinctness. No persistence or selected-time efficient-composer bridge is required. The SAME independent CausesIn and esse conclude the original target.",
   "definition_ids": [
-    "DEF-COMPOSER-TEMPORAL-PROFILE"
+    "c20f04bb-c069-5be5-b2c1-691fc994dcb9"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ],
   "strong_version_needed": {
-    "STMT-NOTHING-SELF-EFFICIENTLY-CAUSES-AT-ANY-ADMITTED-TIME": "The efficient-activity witness may occur at any admitted time. The selected-time-only ban admits the checked past-self countermodel with all other premises and a composite present."
+    "d15ded6f-1895-5d2d-b967-a14165c49bda": "The efficient-activity witness may occur at any admitted time. The selected-time-only ban admits the checked past-self countermodel with all other premises and a composite present."
   }
 }

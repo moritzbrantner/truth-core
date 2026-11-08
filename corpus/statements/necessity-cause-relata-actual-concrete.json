@@ -1,0 +1,16 @@
+{
+  "id": "d6e558d0-131a-553a-a183-fa73aed91281",
+  "label": "Whenever c causes the necessity of x, both c and x are CONCRETE_6 and exist at the reading world w",
+  "legacy_id": "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE",
+  "paraphrase": "OPEN analyst premise: whenever c causes the necessity of x, both c and x are concrete and exist at the reading world w.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessityCauseRelataActualConcrete",
+  "definition_ids": [
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "7507d645-874d-5434-add8-2f49c2801d36"
+  ]
+}

@@ -1,8 +1,10 @@
 {
-  "id": "REL-CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-ROOT-ROUTE",
+  "id": "43410761-5791-5298-9aa2-cfd8bd9d6f0a",
+  "label": "Catholicism is TRUE_1: the Catholic Church… root route Catholicism is true: the Catholic Church…",
+  "legacy_id": "REL-CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES-ROOT-ROUTE",
   "subject_kind": "argument",
-  "subject_id": "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES",
+  "subject_id": "3b0f4fa5-b147-557f-b169-dd789ce9b8c8",
   "predicate": "root_route",
   "object_kind": "statement",
-  "object_id": "STMT-CATHOLICISM-TRUE"
+  "object_id": "53964cbe-5831-5812-af33-4d87896d47a7"
 }

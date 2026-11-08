@@ -1,7 +1,9 @@
 {
-  "id": "INF-EMPTY-TRUTHMAKER-REPLIES",
+  "id": "a2bbf672-98d7-5552-89d5-046aa6332b19",
+  "label": "Five distinct source-free finite negative-truth profiles: an existing…, by Model-construction",
+  "legacy_id": "INF-EMPTY-TRUTHMAKER-REPLIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EMPTY-TRUTHMAKER-REPLIES",
+  "output_statement_id": "aad0a4f7-a948-5f42-9366-f2074ca62fed",
   "rule": "model-construction",
   "meaning": "Five distinct source-free finite negative-truth profiles: an existing nonconcrete abstract candidate; an absence token whose eligibility matches concrete absence; rigid empty/singleton totality tokens with exact inventories; an external candidate existing at another accessible world but absent at the target; and a reified proposition on a separately wholly concrete-empty profile where the negative is itself necessary. Each supplies the relevant true negative without a concrete maker. Local immanence survives for the abstract, absence, totality and necessary-proposition cases; the external case fails it. Mere necessary truth without the making policy fails coverage, and tautological content cannot entail the contingent negative in the two-world profile. No full historical theory, real grounding, or metaphysical possibility is established. Absence and totality satisfy MakerNecessitation; the always-existing abstract and external candidates fail it for this contingent negative. The separate necessary-proposition profile satisfies it.",
   "assumption_statement_ids": [],

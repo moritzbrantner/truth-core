@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
+  "id": "984860c8-c973-5ef7-b51f-af0abb263937",
+  "label": "Universal conditional structural laws: well-founded edges exclude every finite cycle and every\u2026",
+  "legacy_id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
   "paraphrase": "Universal conditional structural laws: well-founded edges exclude every finite cycle and every infinite descending series and give a finite path from each node to some relative source; edge-preserving maps pull accessibility back; inductive FinitelyGroundedPower is the transmission operator\u2019s least fixed point; well-foundedness equates its least and greatest fixed points.",
   "lean_declaration": "TruthCore.Logic.Regress.StructuralSchema",
   "definition_ids": [
-    "DEF-REGRESS-SCHEMA-GRAPH"
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

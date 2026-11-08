@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THIRD-MAN-PLURALITY",
+  "id": "b3ab7b9f-ac3c-5540-8b99-9d258ced980e",
+  "label": "Plurality: Plural xs means there are two numerically distinct members of xs",
+  "legacy_id": "DEF-THIRD-MAN-PLURALITY",
   "term": "plurality",
   "definition": "Plural xs means there are two numerically distinct members of xs. Repeated list entries alone never constitute a plurality.",
   "basis": "stipulative",

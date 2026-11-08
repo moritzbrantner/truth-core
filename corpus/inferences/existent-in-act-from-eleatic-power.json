@@ -1,0 +1,14 @@
+{
+  "id": "6df10298-7dee-5fa4-aaec-b79ca0fef4c3",
+  "label": "At the selected world every existent is in act in some respect, by Universal instantiation…",
+  "legacy_id": "INF-EXISTENT-IN-ACT-FROM-ELEATIC-POWER",
+  "input_statement_ids": [
+    "ae68972c-175a-5e68-86fb-f69fa30e2054",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31"
+  ],
+  "output_statement_id": "adf07168-21a9-5ea3-83b1-7d404f3f6421",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "The intermediate step of the Eleatic route: from the OPEN Eleatic principle and the q.25 a.1 reading, every existent at w is in act in some respect (no respect named).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

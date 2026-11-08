@@ -1,0 +1,20 @@
+{
+  "id": "8dd3c629-9e5e-5307-b97f-3f1f381b5ba8",
+  "label": "Every actual concrete root of the selected grounding relation at…, by Per-root limiting-principle…",
+  "legacy_id": "INF-ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "61bd42e5-69fe-53ef-9972-c9f28b2b6d14",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "363a528c-a22c-5a46-b1ef-64e39f8dba45",
+    "b35ce743-6870-5884-926f-60744d1a318b"
+  ],
+  "output_statement_id": "a30c5963-cb81-5366-aab0-2454363e18f7",
+  "rule": "Per-root limiting-principle elimination",
+  "meaning": "For an arbitrary actual root: the existing identityOfActualRoot step (q3 a4 dichotomy, no self-causation of distinct esse, esse causes are actual concrete grounds, existing beings are in act) gives represented esse equal to essence; the simply-prior bridge and excluded middle make the root first, so no distinct being is prior to it; component priority and a distinct component in every composite then exclude composition. This generalizes the witnessed-root argument of ROOT-WITHOUT-LIMITING-PRINCIPLE to every actual root and drops its population, whole-roster and dependence inputs, which served only to produce the witness. No existence, necessity or uniqueness of a root is asserted. All eight inputs stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

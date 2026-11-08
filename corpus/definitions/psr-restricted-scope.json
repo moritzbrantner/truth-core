@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-RESTRICTED-SCOPE",
+  "id": "fad6a806-713b-5318-8309-488af704d614",
+  "label": "Restricted PSR and brute truth: BruteAt A w f says f is a contingent truth at w with no reason at w",
+  "legacy_id": "DEF-PSR-RESTRICTED-SCOPE",
   "term": "restricted PSR and brute truth",
   "definition": "BruteAt A w f says f is a contingent truth at w with no reason at w. RestrictedPSR A w D says every contingent truth at w in the domain D has a reason at w.",
   "basis": "stipulative",

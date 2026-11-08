@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-COMMON-ROOT",
+  "id": "1620ba7e-edb9-56c4-bd02-3ece55903b1c",
+  "label": "Direct common root of the selected…: There is n with ActualRoot m w n, and each x with…",
+  "legacy_id": "DEF-ACTUAL-COMMON-ROOT",
   "term": "direct common root of the selected actual concrete domain",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.ActualCommonRoot.ActualCommonRootAt",

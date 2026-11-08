@@ -1,9 +1,11 @@
 {
-  "id": "REL-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER-CONDITIONAL-REFUTATION",
+  "id": "ac78e931-5bb2-53eb-ab79-7c5cbd4c8df7",
+  "label": "The universal same-act… refutes In a supplied union, communicating that…",
+  "legacy_id": "REL-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER",
+  "subject_id": "24c24419-407f-59c0-8a84-ca00021d2bf5",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+  "object_id": "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3",
   "note": "Checked conditional contradiction only. The argument premises remain OPEN, so this does not independently refute or close the target."
 }

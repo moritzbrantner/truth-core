@@ -1,6 +1,8 @@
 {
-  "id": "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
-  "argument_id": "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "id": "a76dc25b-fba0-5c07-8f61-00c0a8ce1a6d",
+  "label": "For any selected candidate, global well-founded actual-concrete grounding implies well-founded…",
+  "legacy_id": "GLOBAL-ACTUAL-PREMISES-IMPLY-SELECTED-CONE",
+  "argument_id": "a6291e49-d7ad-57b5-aba1-0cc3236b4e10",
   "challenge_module": "TruthCore.Results.Causality.SelectedAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelectedAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.SelectedAncestry.scopeComparison",

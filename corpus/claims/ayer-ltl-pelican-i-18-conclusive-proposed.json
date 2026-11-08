@@ -1,15 +1,17 @@
 {
-  "id": "AYER-LTL-PELICAN-I-18-CONCLUSIVE-PROPOSED",
-  "statement_id": "STMT-SOME-POSITIVISTS-ADOPT-CONCLUSIVE-VERIFIABILITY",
-  "source_id": "AYER-LTL-PELICAN",
+  "id": "d1776e9a-03de-509a-b7dd-69562b8be02c",
+  "label": "A. J. Ayer, Language Ch: Ayer reports that some positivists have proposed conclusive verifiability…",
+  "legacy_id": "AYER-LTL-PELICAN-I-18-CONCLUSIVE-PROPOSED",
+  "statement_id": "51650477-20ba-595f-b006-12be0d9c9985",
+  "source_id": "1bbb77e6-62ac-5ee0-bbb4-0387b016e795",
   "locator": "ch. I, p. 18, \"if we adopt conclusive verifiability as our criterion of significance, as some positivists have proposed\"",
   "interpretation": "Ayer's report, with footnote 6 citing Schlick's 1931 paper on causality. This is the textual basis for reading V1 as conclusive verification; it attributes the view to Schlick 1931 through Ayer, not to Schlick's 1936 paper.",
   "attribution": "The passage states that some positivists have proposed conclusive verifiability as the criterion of significance, citing Schlick 1931 in a footnote, which is the premise.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CONCLUSIVE-VERIFIABILITY"
+    "bd8abce7-0de2-528a-b7dd-f8418398846b"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

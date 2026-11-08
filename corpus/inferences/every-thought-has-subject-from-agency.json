@@ -1,0 +1,15 @@
+{
+  "id": "c42e536f-942c-501e-af61-d54b31fc9178",
+  "label": "The bearer principle: every occurring thought episode is borne by…, by Universal instantiation… (2)",
+  "legacy_id": "INF-EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY",
+  "input_statement_ids": [
+    "17667565-81e2-55d7-a269-a569f2449caf",
+    "d4ea5ebf-7680-5c48-a0ad-6a6e559ec2d6",
+    "c2fa06f2-cf36-5958-b69a-ef274b45014c"
+  ],
+  "output_statement_id": "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "The bearer principle from three OPEN premises: every occurring thought is an operation, every operation has an agent, and the agent of an episode bears it. An event ontology of thinking without agents rejects the first.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

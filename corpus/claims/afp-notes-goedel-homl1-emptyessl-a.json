@@ -1,15 +1,17 @@
 {
-  "id": "AFP-NOTES-GOEDEL-HOML1-EMPTYESSL-A",
-  "statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
-  "source_id": "AFP-NOTES-GOEDEL-ONTOLOGICAL",
+  "id": "91cc6c84-4631-5e70-9285-0887f6993d62",
+  "label": "Christoph Benzmüller and Dana Scott, Notes…: Lemma EmptyEssL of Gödel's 1970 variant: at every…",
+  "legacy_id": "AFP-NOTES-GOEDEL-HOML1-EMPTYESSL-A",
+  "statement_id": "4ab7c853-c138-50d8-82f9-26d62bd51da8",
+  "source_id": "ae971399-3ec6-504e-b1a0-b13189dd9bb5",
   "locator": "GoedelVariantHOML1.thy, EmptyEssL: \"⌊(λy.❙⊥) Ess. x⌋\"",
   "interpretation": "Lemma EmptyEssL as stated in the theory and proved there from the definition alone (using Essence_def by auto), the free x read as universally closed. Attributed to the AFP formalization of Gödel's 1970 manuscript (Benzmüller and Scott), not to what Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-HOML-ACTUALIST-NECESSITY"
+    "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+    "9010544f-188a-5d00-83dc-85d0c0b4052d"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

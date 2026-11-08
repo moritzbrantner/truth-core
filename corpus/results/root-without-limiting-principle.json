@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-WITHOUT-LIMITING-PRINCIPLE",
-  "argument_id": "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "id": "8631f4b8-12db-5279-917c-952476ae5eee",
+  "label": "One and the same actual concrete…, from Some candidate is CONCRETE_6 and exists at… and 10 more",
+  "legacy_id": "ROOT-WITHOUT-LIMITING-PRINCIPLE",
+  "argument_id": "e856f534-ced4-53ad-9e30-e51f7c9017b9",
   "challenge_module": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution",
   "theorem": "TruthCore.Results.Causality.RootWithoutLimitingPrinciple.necessaryRootWithoutLimitingPrinciple",

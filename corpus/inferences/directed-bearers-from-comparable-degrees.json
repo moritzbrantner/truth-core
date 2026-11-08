@@ -1,0 +1,13 @@
+{
+  "id": "75390c5c-0deb-5890-a143-c3b562dda6c1",
+  "label": "Each pair of selected-perfection bearers has a bearer at a represented…, by Case analysis on…",
+  "legacy_id": "INF-DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES",
+  "input_statement_ids": [
+    "a59a925d-b58f-5188-9573-94d251233d61"
+  ],
+  "output_statement_id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
+  "rule": "Case analysis on comparability; reflexivity",
+  "meaning": "If any two bearers of the selected perfection have comparable represented degrees, the higher of any two bounds both, so the bearers are directed. Comparability is an OPEN analyst premise strictly stronger than directedness (the incomparable frame refutes it while a third bearer could still bound both).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

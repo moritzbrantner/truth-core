@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE",
+  "id": "ce92c0a9-3db3-594f-a412-4fde009101bd",
+  "label": "Gödel's 1970 theorem Th1: at every world, being GOD_LIKE_6 is an ESSENCE_1, in the 1970 sense, of…",
+  "legacy_id": "STMT-GOEDEL-1970-GOD-LIKE-IS-ESSENCE",
   "paraphrase": "Gödel's 1970 theorem Th1 (AFP GoedelVariantHOML1.thy): at every world, being God-like is an essence, in the 1970 sense, of every God-like individual.",
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.GodLikeIsEssence",
   "definition_ids": [
-    "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-GOD-LIKE-GOEDEL-1970"
+    "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+    "449a3134-3201-5f8b-bae0-76bd666e3818"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-GOD"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

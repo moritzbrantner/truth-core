@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HIDDENNESS-PERSONALITY-SILENCE-POSSIBLE",
+  "id": "fd5c1f55-59ae-5ebb-bb40-3d8a17a22960",
+  "label": "Rea proposes divine silence as an expression of divine personality, whose goodness need not…",
+  "legacy_id": "STMT-HIDDENNESS-PERSONALITY-SILENCE-POSSIBLE",
   "paraphrase": "Rea proposes divine silence as an expression of divine personality, whose goodness need not consist solely in benefits to creatures, while retaining conditions concerning ways of finding God.",
   "definition_ids": [
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS"
+    "ff4cfd4c-1116-5531-b959-34a8fbe626cd",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-RELATIONSHIP"
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "a4359a96-a726-5755-8359-a02b64f42f15"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "STMT-MEREO-SOUL-UNITY-INDEPENDENCE",
+  "id": "ced7c764-2125-5f69-8fe6-614b88095f63",
+  "label": "Within a finite two-phase material-turnover signature, a vitalist interpretation, a process-only…",
+  "legacy_id": "STMT-MEREO-SOUL-UNITY-INDEPENDENCE",
   "paraphrase": "Within a finite two-phase material-turnover signature, a vitalist interpretation, a process-only interpretation and a non-soul substantial-unity interpretation have exactly the same material membership, life, integration, self-maintenance and causal-continuity facts. The data alone therefore do not determine either substantial unity or the irreducible soul-as-form principle. This is logical underdetermination in a toy language, not a metaphysical or empirical refutation of vitalism.",
   "lean_declaration": "TruthCore.Mereology.Vitalism.SoulUnityIndependence",
   "definition_ids": [
-    "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
-    "DEF-MEREO-STRUCTURAL-UNITY",
-    "DEF-MEREO-SUBSTANTIAL-UNITY",
-    "DEF-MEREO-SOUL-AS-FORM",
-    "DEF-MEREO-SOUL-AS-FUNCTIONAL-ORGANIZATION"
+    "008257b0-0fc6-515e-8101-5ec6e039a8a0",
+    "e3da62cd-f921-5302-b3a2-2d67c4744d15",
+    "a906fd43-c40e-5ec5-9ddb-b8e58baa3e05",
+    "4b3dcb30-878d-5f1a-9cb4-92441f5203f8",
+    "0f07e16d-9f5a-5efe-b2b6-e83db2e4a017"
   ],
   "disambiguation_ids": [
-    "DISAMB-MEREO-UNITY",
-    "DISAMB-MEREO-SOUL"
+    "b112ca97-8ab8-54aa-bff2-7c71600b1705",
+    "23ea68c9-9d49-5054-9701-2ed40ced2a2d"
   ]
 }

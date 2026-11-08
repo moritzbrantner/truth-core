@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
+  "id": "643229b3-f945-5a62-9b99-c854b1fba227",
+  "label": "Objective as profile stability alone: InvariantOnlyDefinition f means \u2200 s, objective s \u2194 Stable f s",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-INVARIANCE-ONLY",
   "term": "objective as profile stability alone",
   "definition": "InvariantOnlyDefinition f means \u2200 s, objective s \u2194 Stable f s. It omits actual truth and can classify an invariably false sentence as objective.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-UNIQUE-FEEDBACK-CONTROL",
+  "id": "b2bf5ce0-d1ce-5cf9-af5c-36b2133e1409",
+  "label": "The two sensitive Boolean gates a = not b and b = a and b jointly…, by Finite-state-exhaustion",
+  "legacy_id": "INF-UNIQUE-FEEDBACK-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-UNIQUE-FEEDBACK-CONTROL",
+  "output_statement_id": "95095cc7-c88d-5d59-b1a8-e7cc9c447265",
   "rule": "finite-state-exhaustion",
   "meaning": "Evaluate the gate-sensitivity witnesses and the proposed consistent pair; eliminate the other three Boolean pairs by a violated equation. No explanatory, causal or modal conclusion follows.",
   "assumption_statement_ids": [],

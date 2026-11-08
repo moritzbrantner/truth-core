@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-IF-EXISTENT-EXACT-FRAME",
-  "argument_id": "NECESSARY-IF-EXISTENT-EXACT-FRAME",
+  "id": "a61757ac-27a5-5f9e-9509-2fcb59153cab",
+  "label": "For every frame F and standpoint w, the schema \u25a1 \u2192, valid over ALL world predicates G, holds iff\u2026",
+  "legacy_id": "NECESSARY-IF-EXISTENT-EXACT-FRAME",
+  "argument_id": "077a885d-b7a8-5f24-bfba-e6365ab7ed75",
   "challenge_module": "TruthCore.Results.Modal.NecessaryIfConnectivity.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryIfConnectivity.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryIfConnectivity.certificate",

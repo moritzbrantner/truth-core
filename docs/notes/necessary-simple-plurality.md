@@ -1514,3 +1514,341 @@ the current argument, then independently investigate common-nature/exhaustive
 limitation or source-backed unreceivedness. Do not add an identity/injectivity
 or universal-source bridge merely to force uniqueness, and do not create another
 omission model for a separation the existing plurality controls already record.
+
+## Can primitive thisness distinguish two pure acts? (#320, 2026-11-07)
+
+Analyst formulation, attribution deferred. Results: `PURE-ACT-PLURALITY-IS-BARE`,
+`REAL-THISNESS-FIRST-MOVER-UNIQUENESS`, `REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS`,
+`PURE-ACT-THISNESS-CONTROLS` (`TruthCore.Causality.PureActThisness`, all zero-axiom).
+
+**Why a new vocabulary.** The #697 fork above works with a represented `essence`
+map. A primitive thisness appears there only as an unexplained difference of map
+values, so the fork cannot ask whether the thisness is something in the being.
+The new interface types the constitution: `Has x d` (d is a real determination of
+x: an intrinsic constituent or a real relation, never a bare description such as
+"is identical with x") and `Pure d` (d is an actuality with no potency, limitation
+or reception). Every real determination is either a pure perfection or a
+limiting, receiving or individuating principle.
+
+**The fork.** Two distinct first movers differ by a pure perfection, by a non-pure
+determination, or by no real determination. The four proposed bases map onto it:
+
+| Proposed basis | Branch | Eliminated by |
+| --- | --- | --- |
+| Different perfections or intrinsic actualities | pure determination one lacks | unrestricted perfection (`FirstMoverHasEveryPureDetermination`) |
+| Different essence, differentia or receiving principle | non-pure determination | strict pure actuality (`FirstMoverDeterminationsArePure`) |
+| Different real relational role | one of the two above | the same premise as that branch |
+| Different merely extrinsic role | no real determination | identity of real indiscernibles only |
+| Primitive thisness as a real determination | pure (by strict pure actuality), hence shared | `uniqueFromRealThisness` |
+| Primitive thisness as bare numerical difference | no real determination | identity of real indiscernibles only |
+
+`pureActPluralityIsBare` proves, constructively, that unrestricted perfection and
+strict pure actuality leave only the last row: any two first movers have exactly
+the same real determinations. `thisnessIsPure` shows why the real-thisness reply
+fails under these two premises: what makes a pure act *this* one must itself be a
+pure perfection, and a pure perfection belongs to every first mover. Compare the
+q.11 a.3 thought that that whereby God is God and that whereby he is this God are
+the same. That is a parallel, not an attribution. Here the identity is derived
+from three open premises, not assumed.
+
+**Which assumption eliminates which countermodel** (`Control.Certificate`):
+
+- *Bare rival* (unchanged `PartFreePlurality` model, every respect a pure real
+  determination): unrestricted perfection and strict pure actuality hold, and two
+  first movers are barely distinct. Real thisness, identity of real indiscernibles
+  and at-most-one fail. This is the existing countermodel, reread; no field changed.
+- *Thisness as a non-pure individuating principle* (each root also has its own
+  `inr b` determination, not pure): unrestricted perfection, real thisness and
+  identity of real indiscernibles hold. Strict pure actuality fails, and so does
+  at-most-one. This is the Scotist-shaped rival: a real positive thisness that is
+  no perfection.
+- *Ordinary immaterial simplicity* (the same thisnesses counted as pure): strict
+  pure actuality, real thisness and identity of real indiscernibles hold. Each root
+  lacks the other's perfection, so unrestricted perfection fails, and so does
+  at-most-one. Simplicity without unrestricted perfection does not give uniqueness.
+- On the single-mover carrier, unrestricted perfection, strict pure actuality, real
+  thisness and at-most-one hold while identity of real indiscernibles fails (two
+  determination-free inert rows). So that principle exceeds what uniqueness needs.
+  It is the Black's-spheres commitment over every being.
+- With no determinations at all, at-most-one holds and real thisness fails. So real
+  thisness is not merely an equivalent of uniqueness under the other two premises.
+- All premises of both uniqueness theorems hold together with an actual first mover.
+
+Each uniqueness theorem's three premises are thus each omitted with the other two
+retained and at-most-one failing: the bundles are inclusion-minimal in this profile.
+
+**Answer to the priority question.** Primitive thisness *as a real determination*
+cannot distinguish two unrestricted pure acts once strict pure actuality and
+unrestricted perfection are granted. That route is closed conditionally, and the
+reason is formal, not verbal. Primitive thisness *as bare numerical difference*
+is untouched by any premise about the beings' determinations. Two replies remain,
+both open:
+
+1. *Identity of real indiscernibles over all beings*: strong. It denies bare
+   difference for spheres and electrons as well. Its defense is the classical
+   Leibniz/Black debate, and Adams's rival denies it.
+2. *A narrower bridge, not yet formalized:* bare numerical difference requires a
+   non-pure principle of multiplicity in at least one of the two beings (a place,
+   matter, a subject or a receiving principle). Adams's motivating cases are all of
+   this kind: spatially separated material things. The rival must say why bareness
+   that is intelligible for located things is intelligible without any such frame.
+   The defender must show that the frame is required, not only present. This is
+   the most discriminating next step. Formalizing it needs a premise of the form
+   "really indiscernible distinct beings have some non-pure determination". Ranged
+   over all beings, it exceeds uniqueness only if some non-first-mover has only
+   pure determinations. That reach must be checked before the premise is offered,
+   so that it is not uniqueness renamed.
+
+The two pure-act premises are themselves open. Strict pure actuality is
+stronger than `PureAct` (no potency in any respect) and than essence/esse
+identity (`DISAMB-PURE-ACT-STRICTNESS`). The Scotist-shaped countermodel
+satisfies absence of potency and violates it. Unrestricted perfection over *real*
+determinations is not the existing formal-or-eminent every-perfection
+(`DISAMB-PERFECTION-SCOPE`): eminently containing a perfection is not really
+having it as a determination. `everyPerfectionIsAllPureCase` shows that the existing
+premise is the special case in which every respect is a pure real determination.
+Neither premise is shown to follow from the necessary-root results. That
+applicability bridge is still the `UNRECEIVED-ESSE-INDIVIDUATION-BRIDGE` obligation.
+
+**Actual premise comparison:** `corpus.py frontier-diff`: no change (138 open
+root-reaching premises before and after; cheapest route cost 30). Two new
+conditional routes to `STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` are added with five
+new open statements. No premise is discharged and no root premise moves.
+
+### Narrower bridge: bare difference needs a non-pure principle (2026-11-07)
+
+Results: `PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS`,
+`REAL-INDIVIDUATION-STRENGTHENS-PURE-INDISCERNIBILITY`, `PURE-INDISCERNIBILITY-CONTROLS`
+(`TruthCore.Causality.PureIndiscernibility`, zero-axiom). The bridge
+`PurelyDeterminedIndiscerniblesIdentical` says that two beings with the same real
+determinations, all of them pure, are one. Classically: distinct really
+indiscernible beings include one with a non-pure determination (a place, matter,
+a subject or a receiving principle).
+
+- **It suffices.** With unrestricted perfection and strict pure actuality it gives
+  at-most-one first mover. Each of the three premises is omitted in turn with the
+  other two retained and at-most-one failing.
+- **It is strictly weaker than identity of real indiscernibles.** That principle
+  entails it (registered `strengthens`). On a Black-style carrier, where every
+  non-first being has one shared non-pure "located" determination, the bridge,
+  the two pure-act premises and at-most-one hold with an actual first mover, while
+  identity of real indiscernibles fails. So the uniqueness route no longer has to
+  reject Adams's located counterexamples. The earlier strong-version route is
+  kept unchanged and marked with `strong_version_needed` as a comparison only.
+- **Its reach beyond first movers.** The bridge is vacuous at every being with a
+  non-pure determination. It still constrains purely determined beings that are
+  not first movers, including beings with no real determinations at all. Two
+  determination-free inert rows make it fail while the pure-act premises and
+  at-most-one hold. An interpretation must therefore say whether it admits such
+  beings. A being with no real determinations is not even given an act of being
+  in this interface.
+- **The renaming test.** If only first movers are purely determined
+  (`OnlyFirstMoversPurelyDetermined`), then under the two pure-act premises the
+  bridge is *equivalent* to at-most-one first mover. That background is
+  plausible. In the classical picture every non-first being has some received or
+  limited determination. So on its relevant domain the bridge says exactly what
+  uniqueness says. It is not uniqueness renamed as a *formula*: it ranges over all
+  beings and is not equivalent without that background. It can only *support*
+  uniqueness if it is defended as a general principle about numerical difference,
+  independently of the first-mover case.
+
+**Where the dialectic now stands.** The defender's general principle is that
+numerical multiplicity without any qualitative difference needs a non-pure frame:
+the spheres differ in place, two electrons in state or position, two angels in
+the limited natures that Aquinas makes their species. Every proposed case of bare
+difference seems to come with such a frame. The Adams rival can answer that the
+frame accompanies the difference without grounding it. Black's spheres are
+symmetric in their spatial relations, so place does not tell *which* is which. The
+discriminating question is therefore no longer about God. It is whether a
+frame of multiplicity is *required* for bare difference or merely *present* in
+the familiar cases. Under the background above, the only test cases where the
+two answers come apart are the unrestricted pure acts themselves. So no
+independent case can settle the question, and a defense has to come from a general
+account of what numerical difference is. That residue cannot be decided by a
+further finite model. It is a judgment that cannot yet be encoded.
+
+**Actual premise comparison:** `corpus.py frontier-diff`: no change. One new
+conditional route to `STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` uses the weak version;
+no premise is discharged.
+
+### Pure-act premises at the necessary root (2026-11-07)
+
+**Question.** The pure-act uniqueness theorems above quantify over first unmoved
+movers. The whole-roster route reaches a different endpoint,
+`STMT-UNIQUE-NECESSARY-ACTUAL-ROOT`: one actual concrete root of the selected
+grounding relation, necessary at accessible worlds. Its only uniqueness proof so
+far (`NECESSARY-ROOT-UNIQUENESS`) runs through a maximum in being: grades with a
+maximum, the genus principle, the has-being bridge and the necessity-cause
+bridge. Can the pure-act premises do that work instead?
+
+**Encoding** (`TruthCore/Causality/PureActRoot.lean`). The three pure-act
+premises are restated for actual roots as new statements:
+- `STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION`;
+- `STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE`;
+- `STMT-ACTUAL-ROOT-HAS-REAL-THISNESS`.
+
+They are not instances of the first-mover statements, because being an actual
+root (actually concrete and grounded by no actual concretum) is not the same as
+moving something while being moved in no respect.
+
+A re-indexing then makes the earlier proofs apply unchanged. It counts "moved" as
+"not an actual root" and "moves" as "is an actual root". Under it, first-mover
+status is exactly actual rootness (`firstIffRoot`), so `uniqueFromRealThisness`
+and `uniqueFromPureIndiscernibility` apply. The re-indexing asserts no motion or
+causation. It shows that the pure-act argument uses nothing about motion.
+
+**Results** (both zero-axiom).
+- `PURE-ACT-NECESSARY-ROOT-UNIQUENESS` derives `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT`
+  from seven premises. Four are the whole-roster existence premises, which give
+  an actual necessary root through the existing `necessaryActualRoot`: population,
+  whole-roster nontrapping, contingent dependence and excluded middle. The other
+  three are unrestricted perfection, strict pure actuality and real thisness at
+  the actual roots.
+- `PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS` derives the same endpoint
+  with the narrower bridge, identity of purely determined indiscernibles, in place
+  of real thisness. That bridge ranges over all beings, not only over roots.
+
+**Comparison with the maximum route.** Both routes reach the same endpoint and
+share the same four existence premises.
+- The maximum route adds five premises: the necessity-cause bridge, the genus
+  principle, has-being, cause-of-necessity and grades.
+- The pure-act route adds three premises instead.
+
+The two bundles are disjoint apart from the shared existence premises. A defender
+who rejects the Fourth Way's grades and genus principle therefore still has a
+uniqueness route to the necessary root. That route is only as strong as the
+pure-act premises at the root, and the bare-difference residue recorded above
+applies to it unchanged.
+
+**Controls** (`PURE-ACT-NECESSARY-ROOT-CONTROLS`) use finite one-world profiles.
+In each, excluded middle is a premise of the route and is not asserted.
+- **Two ungrounded candidates.** Both are actual necessary roots.
+  - With the same determinations, every premise except real thisness, or except
+    the narrower bridge, holds, and uniqueness fails. This is bare difference at
+    the necessary root.
+  - With non-pure thisnesses, strict pure actuality fails. With pure thisnesses,
+    unrestricted perfection fails. In both cases uniqueness fails.
+- **Empty carrier.** Every premise except population holds vacuously, and
+  uniqueness fails.
+- **One candidate grounding the other.** This is the positive witness: every
+  non-logical premise of both routes holds, together with the conclusion.
+
+**Remaining gaps.**
+- The routes do not connect the root premises to the first-mover premises. Doing
+  so needs a bridge saying that actual roots are first movers, or the converse,
+  and none is assumed here.
+- The routes do not exclude necessary beings that are not roots.
+- The routes do not identify the root with God.
+
+**Actual premise comparison:** see the `corpus.py frontier-diff` output in the PR.
+
+### Deriving strict pure actuality from no limitation (2026-11-07)
+
+**Reachability correction.** `STMT-UNIQUE-NECESSARY-ACTUAL-ROOT` has no argument
+path to `STMT-CATHOLICISM-TRUE`. Its consumers, `UNIQUE-ROOT-PERFECTION` and
+`NECESSARY-CONCRETE-FROM-UNIQUE-ROOT`, lead nowhere toward the root. The
+necessary-root branch joins the root only through `NECESSARY-CLASSICAL-GOD-CASE`,
+which has its own maximum-based uniqueness. The previous subsection therefore
+widened a branch that is off the root path. By contrast,
+`STMT-AT-MOST-ONE-FIRST-UNMOVED-MOVER` is a premise of the Prima Via root routes.
+
+**Encoding** (`TruthCore/Causality/RootPurity.lean`).
+- `ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE`: every actual root has none of the
+  three represented limiting principles, which are composition, esse other than
+  essence, and a distinct simply-prior being.
+  - This reruns the witnessed-root argument of `ROOT-WITHOUT-LIMITING-PRINCIPLE`
+    for each root, through the existing per-root `identityOfActualRoot`.
+  - It drops the population, whole-roster and dependence inputs, which only
+    produced the witness.
+- `STMT-UNLIMITED-DETERMINATIONS-ARE-PURE` is a new open bridge over all beings.
+  It says that a being without a represented limiting principle has only pure
+  real determinations. Equivalently, impurity comes only from composition,
+  received esse or dependence on something prior. Its restriction to roots would
+  merely restate the conclusion, so it can support that conclusion only in its
+  general form. The controls show that it reaches unlimited non-roots.
+- `ROOT-PURITY-FROM-NO-LIMITATION` derives the former bare leaf
+  `STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE`. Its inputs are the eight
+  limiting-principle inputs plus the bridge.
+- `FIRST-MOVER-PURITY-FROM-NO-LIMITATION` derives the former bare leaf
+  `STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE`. Its inputs are
+  `STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE` and `STMT-FIRST-UNMOVED-MOVER-IS-FIRST-BEING`,
+  both already on the Prima Via routes, plus the same bridge.
+
+**Effect on the graph.**
+- One bridge now feeds strict pure actuality in both the first-mover branch and
+  the necessary-root branch.
+- On the first-mover side, the pure-act uniqueness route
+  (`REAL-THISNESS-FIRST-MOVER-UNIQUENESS` and the narrower-bridge variant) now
+  rests on simplicity and firstness, which the root routes already use, rather
+  than on a stipulated strict pure actuality.
+
+**What the frontier metric sees.** `frontier-diff` reports no change. It follows
+the cheapest derivation of each route node, and these additions are alternatives
+under nodes it already reaches more cheaply, so their gain is invisible to it.
+That is a limitation of the metric for measuring how many independent
+derivations a node has.
+
+**Remaining gaps.**
+- The bridge is undefended. The classical support is the thesis that act is
+  limited only by a receiving potency (ST I q.7 a.1). That attribution is
+  deferred; nothing here is attributed.
+- Unrestricted perfection at the roots and for first movers, the root and
+  first-mover versions of `DEF-UNRESTRICTED-PURE-PERFECTION`, are still bare
+  leaves. The natural next derivation is the same q.7 a.1 thought: unreceived esse
+  is unlimited, so it has every pure perfection.
+
+### Unrestricted perfection and SCG I.42 from definition-linked source statements (2026-11-07)
+
+**Inputs.** Three source statements had entered the corpus through definition
+records, and no argument used them:
+- `STMT-AQUINAS-SCG-I28-OWN-BEING-WHOLE-POWER-PERFECTION`;
+- `STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING` (ST I q.4 a.2);
+- `STMT-AQUINAS-SCG-I42-PERFECT-BEINGS-DIFFERENTIATION`.
+
+**Encoding** (`TruthCore/Causality/WholePowerPerfection.lean`).
+- Each source statement gets an encoded sibling, linked to its claim by a
+  `supports` relation whose note records the gap. The encodings are weaker than
+  the source text:
+  - I.28 keeps "lacks no excellence of being" and drops "has no defect".
+  - q.4 a.2 is restricted to pure perfections.
+  - I.42 ranges over all beings rather than gods.
+- `OwnBeing` (subsistent esse) is a primitive predicate. The I.28 claim warns that
+  own being is not a consequence of a represented essence/esse equality, so the
+  step from no limitation to own being is the open analyst bridge
+  `STMT-UNLIMITED-IS-OWN-BEING`.
+
+**Two routes to unrestricted perfection.** Each route derives both the first-mover
+version and the actual-root version of the former bare leaf.
+- **Whole power.** No limitation (from simplicity and firstness, or the per-root
+  rerun), then own being, then every perfection of being (I.28), then every pure
+  perfection (q.4 a.2).
+- **Infinity.** Esse equals essence (simplicity with EM, or the per-root
+  identity), then infinite by the existing q.7 reading
+  `STMT-SUBSISTENT-BEING-IS-INFINITE`, then every pure perfection by the open,
+  near-definitional bridge `STMT-INFINITE-HAS-EVERY-PURE-PERFECTION`.
+  - The q.7 reading is a premise of the designated root route, so this
+    derivation shares a premise with it.
+
+**SCG I.42 as the weakest identity bridge.**
+- `PERFECT-BEINGS-FIRST-MOVER-UNIQUENESS` derives at-most-one from unrestricted
+  perfection, strict pure actuality and I.42.
+- The narrower bridge (identity of purely determined indiscernibles) strictly
+  strengthens I.42. Two beings with no determinations satisfy I.42 vacuously and
+  break the narrower bridge.
+- Strength order: identity of real indiscernibles, then purely determined
+  indiscernibles, then perfect beings not several. The two earlier routes that use
+  the narrower bridge now record why they keep it (`strong_version_needed`).
+- I.42 is exactly the step that denies primitive thisness among perfect beings. It
+  is the source's own form of the bare-difference residue, now stated as an
+  explicit source-supported premise rather than an analyst stipulation.
+
+**Graph status.** Every premise of the first-mover pure-act uniqueness route is
+now derived or source-supported except four:
+- the two analyst bridges, limitation to purity and limitation to own being, or
+  infinity to perfection on the other route;
+- simplicity and firstness, which are shared with the Prima Via routes.
+
+`frontier-diff` reports no change, because the Prima Via route still expands
+at-most-one through the cheaper Q11 derivation, which uses
+`STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT`. The pure-act route is an
+alternative that does not need that premise.

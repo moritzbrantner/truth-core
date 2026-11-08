@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "KOONS-GRIM-REAPER-KALAM",
+    "source_id": "7f46c9d7-8d71-5e86-9f12-155cbebfab1f",
     "source_url": "https://robkoons.net/uploads/1/3/5/2/135276253/grim_reaper_kalam_argument.pdf",
     "retrieved_at": "2026-10-26T16:22:51Z",
     "sha256": "sha256:15fe944feee4b7645b492f19ecaad6045eda3bf686e41a0ad46bad3879b40ee3",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "KOONS-GRIM-REAPER-KALAM-4-5",
+      "id": "8025e182-fce1-500d-83f6-796056bd0d6f",
+      "label": "Robert C. Koons, The Grim Reaper Kalam Argument, Printed pp. 4–5",
+      "legacy_id": "KOONS-GRIM-REAPER-KALAM-4-5",
       "locator": "printed pp. 4–5 (physical PDF pages 4–5)",
       "claim_locator_prefixes": [
         "pp. 4–5"
@@ -26,7 +28,9 @@
       "incipit": "Instead of looking for proof of the finitude of the past, we should look"
     },
     {
-      "id": "KOONS-GRIM-REAPER-KALAM-6-16",
+      "id": "302c573d-3ab9-55b9-9789-50fef7861acd",
+      "label": "Robert C. Koons, The Grim Reaper Kalam Argument, Printed pp. 6–16",
+      "legacy_id": "KOONS-GRIM-REAPER-KALAM-6-16",
       "locator": "printed pp. 6–16 (physical PDF pages 6–16)",
       "claim_locator_prefixes": [
         "pp. 6–16"
@@ -39,7 +43,9 @@
       "incipit": "However, this is also inconsistent with a SILPS, since if time has an intrinsic"
     },
     {
-      "id": "KOONS-GRIM-REAPER-KALAM-17-18",
+      "id": "8c07ff43-fc8d-50fa-8c49-2e60626111ee",
+      "label": "Robert C. Koons, The Grim Reaper Kalam Argument, Printed pp. 17–18",
+      "legacy_id": "KOONS-GRIM-REAPER-KALAM-17-18",
       "locator": "printed pp. 17–18 (physical PDF pages 17–18)",
       "claim_locator_prefixes": [
         "pp. 17–18"
@@ -52,7 +58,9 @@
       "incipit": "Intrinsicality of Causal Power are obviously true, we can deduce the falsity of"
     },
     {
-      "id": "KOONS-GRIM-REAPER-KALAM-18-22",
+      "id": "8723b166-acaf-599f-b1b8-3b9ea9b56bd1",
+      "label": "Robert C. Koons, The Grim Reaper Kalam Argument, Printed pp. 18–22",
+      "legacy_id": "KOONS-GRIM-REAPER-KALAM-18-22",
       "locator": "printed pp. 18–22 (physical PDF pages 18–22)",
       "claim_locator_prefixes": [
         "pp. 18–22"

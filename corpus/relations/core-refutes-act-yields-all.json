@@ -1,0 +1,11 @@
+{
+  "id": "e3d6a1b8-9cd9-5f5b-b425-27db3bc5af23",
+  "label": "Simplicity-collapse core and a CONTINGENT_1 actual being refute a necessary act yielding all",
+  "legacy_id": "REL-CORE-REFUTES-ACT-YIELDS-ALL",
+  "subject_kind": "argument",
+  "subject_id": "bbbbdfc6-e8a7-593c-b4a7-5b151b219668",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "320c5d85-6ce8-5fab-aff1-33b775becb89",
+  "note": "Backed by the verified SIMPLICITY-COLLAPSE-CORE. Conditional on the OPEN node STMT-SOME-ACTUAL-CONTINGENT, so it does not count for closure while the node is open."
+}

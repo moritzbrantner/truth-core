@@ -1,0 +1,29 @@
+{
+  "id": "fa7c8d8a-06e2-52cb-accc-3faff4c0aa52",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, via priority",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY",
+  "premise_statement_ids": [
+    "7a63a3fe-a29f-5282-8106-79fedcb10d08",
+    "47aff057-35ef-5418-930b-fef72e1104d2"
+  ],
+  "conclusion_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+  "inference_ids": [
+    "d7e53b12-5d68-5978-86f8-230ae5c792df"
+  ],
+  "meaning": "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}

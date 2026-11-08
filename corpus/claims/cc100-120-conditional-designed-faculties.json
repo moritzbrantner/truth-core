@@ -1,15 +1,17 @@
 {
-  "id": "CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
-  "statement_id": "STMT-CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "558b3cfb-0ade-5dd5-95be-1176cff85c48",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the account of epistemic probability in terms of…",
+  "legacy_id": "CC100-120-CONDITIONAL-DESIGNED-FACULTIES",
+  "statement_id": "d946f4ea-f98a-5549-9200-05fc32efce38",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.282, argument #120, step 3 under steps 1–2",
   "interpretation": "Preserve the displayed conditional design claim without manufacturing its missing actual-proper-function premise. A normative account of epistemic probability alone is not actual possession of proper function by our faculties. No formal proof or refutation is registered. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

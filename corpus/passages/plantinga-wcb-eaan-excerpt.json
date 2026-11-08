@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "PLANTINGA-WCB-EAAN-EXCERPT",
+    "source_id": "51d10efb-4dbc-5c8f-9855-4d891dcf1888",
     "source_url": "https://wmit-pages-prod.s3.amazonaws.com/wp-content/uploads/sites/283/2022/06/16130225/plantingaeaan.pdf",
     "retrieved_at": "2026-10-28T19:46:27Z",
     "sha256": "sha256:f67b128a7c9ebe079c1b96aa76e9df86a748707bd39bf15ed2f1db0cee800935",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "PLANTINGA-WCB-EAAN-BEHAVIOR-DESIRE",
+      "id": "58a0b749-8252-5d91-a7a6-e08a76abb86e",
+      "label": "Alvin Plantinga, Warranted Christian Belief, Warranted Christian Belief III.7.IV.B, teaching\u2026",
+      "legacy_id": "PLANTINGA-WCB-EAAN-BEHAVIOR-DESIRE",
       "locator": "Warranted Christian Belief III.7.IV.B, teaching excerpt pp.9\u201310, especially p.10 belief\u2013desire paragraph",
       "claim_locator_prefixes": [
         "teaching excerpt p."

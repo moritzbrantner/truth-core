@@ -1,0 +1,24 @@
+{
+  "id": "2d9a22c6-75b6-5927-9e34-f3f2156c6b6e",
+  "label": "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each…",
+  "legacy_id": "ROUND2-PERFECTION-PRIMACY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c70234f5-6b6b-54aa-b1a0-a20501baf7b9",
+  "inference_ids": [
+    "60c5805a-c754-5b8b-9758-b27dfe83a8cc"
+  ],
+  "meaning": "Finite interpretations for the eight derivations of round 2 on perfection and primacy: for each premise, one model (from scripts/countermodel.py or, for the two degree-preorder derivations, written by hand; checked by decide) in which the other premises hold and the conclusion fails, and one joint model with nonempty relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "42f8b601-09d6-5ad0-af5f-27af30b95166",
+    "d9dec61b-23ec-5a5d-8c9d-6b15193d8490",
+    "09542185-eb41-5874-8fd3-fe40ea68aeb4"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-HINGES-NONSENSE-READING",
+  "id": "fe3ed69b-f4cd-50da-95a1-68777fb49b3e",
+  "label": "Reading of Über Gewißheit: the forms of words Wittgenstein calls hinges lack any application and…",
+  "legacy_id": "STMT-HINGES-NONSENSE-READING",
   "paraphrase": "Reading of Über Gewißheit (as reported; Read, Crary): the forms of words Wittgenstein calls hinges lack any application and so are nonsense; no ersatz foundationalism of properly basic beliefs is advanced.",
   "definition_ids": [
-    "DEF-HINGE-NONSENSE"
+    "1ef9cc6e-1bd9-53e5-9e48-ea908e73df8e"
   ],
   "disambiguation_ids": [
-    "DISAMB-HINGE-STATUS"
+    "988283f3-1e54-5296-aa5e-9726e52987ab"
   ]
 }

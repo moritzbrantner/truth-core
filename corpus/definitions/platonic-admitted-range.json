@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PLATONIC-ADMITTED-RANGE",
+  "id": "8da3ad5c-58d1-5e71-b513-9cbc6914da64",
+  "label": "Range of Forms: Admitted q selects the quality domain of a reading",
+  "legacy_id": "DEF-PLATONIC-ADMITTED-RANGE",
   "term": "range of Forms",
   "definition": "Admitted q selects the quality domain of a reading. It is not all predicates or all common names by definition. A Republic artifact reading and a Phaedo beautiful/good/large reading need distinct instantiations, not one silently universal domain.",
   "basis": "stipulative",

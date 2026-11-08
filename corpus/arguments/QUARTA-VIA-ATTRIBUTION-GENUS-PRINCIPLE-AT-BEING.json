@@ -1,26 +1,28 @@
 {
-  "id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
+  "id": "18fe3293-895f-5fe1-b142-14d33b6c1ae9",
+  "label": "The genus principle at being only: whatever is maximal…, via attribution genus principle at being",
+  "legacy_id": "QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING",
   "premise_statement_ids": [
-    "STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY",
-    "STMT-NOTHING-ELSE-REACHES-THE-PRIMARY",
-    "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
-    "STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES",
-    "STMT-EXCLUDED-MIDDLE"
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "30a8373c-5188-581b-b746-e319d71311e4",
+    "612078bf-5a68-5542-8b7b-f862f816ece0",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "conclusion_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
   "inference_ids": [
-    "INF-QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING"
+    "34958a81-e3ae-59a6-af79-de734d31e843"
   ],
   "meaning": "On the reading by attribution, the genus principle holds at being: from the order of being by approach to a primary (q.3 a.5 ad 2), strict primacy (open, unattributed), the causal order of creatures to the primary (q.13 a.5) and that everything other than the primary is a creature (open, unattributed), by excluded middle. Only the instance at being is derived. Omission countermodels (in the Solution) show that the causal order, strict primacy and the creature premise are each needed.",
   "definition_ids": [
-    "DEF-ORDER-BY-APPROACH-TO-A-PRIMARY",
-    "DEF-STRICT-PRIMACY",
-    "DEF-CREATURE",
-    "DEF-MAXIME-ENS",
-    "DEF-CAUSE-OF-PERFECTION"
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-BEING-UNIVOCITY"
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
   ]
 }

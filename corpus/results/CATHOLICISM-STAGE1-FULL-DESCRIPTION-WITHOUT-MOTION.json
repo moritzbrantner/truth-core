@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION",
-  "argument_id": "CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION",
+  "id": "77562fe2-2b5c-5fa8-a316-e97a93c9e40e",
+  "label": "GOD_4 exists: there is something…, from Grades are found in things: some things are… and 10 more",
+  "legacy_id": "CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION",
+  "argument_id": "661ce61d-adec-5e1d-b0cb-4f87dba9acc8",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.StageOneFull.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StrengthConsumers.StageOneFull.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StrengthConsumers.StageOneFull.stageOneFullDescriptionWithoutMotion",

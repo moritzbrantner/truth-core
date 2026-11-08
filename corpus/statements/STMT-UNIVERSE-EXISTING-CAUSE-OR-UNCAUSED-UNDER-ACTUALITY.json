@@ -1,9 +1,11 @@
 {
-  "id": "STMT-UNIVERSE-EXISTING-CAUSE-OR-UNCAUSED-UNDER-ACTUALITY",
+  "id": "9050d336-ba52-5bed-a75c-319101843fa0",
+  "label": "The original existing-cause proposition or the original brute-universe no-edge proposition on the…",
+  "legacy_id": "STMT-UNIVERSE-EXISTING-CAUSE-OR-UNCAUSED-UNDER-ACTUALITY",
   "paraphrase": "The original existing-cause proposition or the original brute-universe no-edge proposition on the SAME selected profile. The coverage proof explicitly needs selected-whole-causer actuality as well as excluded middle.",
   "lean_declaration": "TruthCore.Ontology.UniverseCauseScopeBoundary.ActualCauseOrUncaused",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

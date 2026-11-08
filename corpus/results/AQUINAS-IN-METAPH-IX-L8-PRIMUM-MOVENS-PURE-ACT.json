@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
-  "argument_id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
+  "id": "56c4b62f-6b55-5e24-b12b-98636100f3f3",
+  "label": "Every first mover moved by none is…, from Over a supplied clock: at any time at which… and 1 more",
+  "legacy_id": "AQUINAS-IN-METAPH-IX-L8-PRIMUM-MOVENS-PURE-ACT",
+  "argument_id": "e67e0be2-8ddd-5d2b-8298-2b15daa47dc8",
   "challenge_module": "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.Solution",
   "theorem": "TruthCore.Results.Aquinas.InMetaphysicam.PrimumMovensPureAct.primumMovensPureAct",

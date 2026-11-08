@@ -1,0 +1,18 @@
+{
+  "id": "21043f97-fcc6-5f0f-94f9-c4786bdb8cd3",
+  "label": "GOD_1: whatever meets the full description is God in what the name signifies (analytic)",
+  "legacy_id": "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE",
+  "paraphrase": "GOD_1 reading of the naming premise (attribution deferred): whatever is the only being maximal in being, causes the being and every perfection of every other being and enters into the composition of nothing meets everything the name 'God' signifies under the adopted fuller profile. Analytic in this reading; a distinct statement from STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which reads God as GOD_4.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NominalGodNamesDescribedPrinciple",
+  "definition_ids": [
+    "18945900-2de0-5040-bdab-26268f257684",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

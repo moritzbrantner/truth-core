@@ -1,10 +1,12 @@
 {
-  "id": "DEF-COGNITION-RELATIVE-APPETITE",
+  "id": "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c",
+  "label": "Appetitive power following apprehension: A soul's power for appetitively relating to what it…",
+  "legacy_id": "DEF-COGNITION-RELATIVE-APPETITE",
   "term": "appetitive power following apprehension",
   "definition": "A soul's power for appetitively relating to what it apprehends as suitable or good, beyond inclination fixed by its own natural form. This is a power/capacity description and does not require an actual current episode or an absent good.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q80-A1-COGNITIVE-APPETITE",
-    "AQUINAS-ST-I-Q80-A1-APPREHENDED-APPETIBLE-ASPECTS"
+    "4d770507-2aab-59d5-afe0-fcdec35653da",
+    "e246cc99-d2fd-5d00-8054-d60117167f12"
   ]
 }

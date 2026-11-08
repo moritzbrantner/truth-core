@@ -1,0 +1,12 @@
+{
+  "id": "4f41f2b6-b941-5cbe-8ce1-b6808f6065a5",
+  "label": "One being living at two ordered times with different life-states",
+  "legacy_id": "SUCCESSION-POTENCY-CONTROLS",
+  "argument_id": "040dc0f0-3afa-5ed9-b8c0-52345338b2a7",
+  "challenge_module": "TruthCore.Results.Causality.SuccessionPotency.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SuccessionPotency.Solution",
+  "theorem": "TruthCore.Results.Causality.SuccessionPotency.controls",
+  "comparator_config": "results/SUCCESSION-POTENCY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One being living at two ordered times with different life-states. Without the bridge it is not moved and has no potency; without Physics III.1 it is moved without potency; with both it is in potency."
+}

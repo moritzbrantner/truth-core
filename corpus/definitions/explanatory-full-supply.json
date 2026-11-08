@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-FULL-SUPPLY",
+  "id": "aa8a8cd7-3ad0-5ddc-b8ff-6433bfcaa9c6",
+  "label": "INDUCTIVE_CLOSURE_2: The #734 Supply of the groups in which enablers are counted as contributors…",
+  "legacy_id": "DEF-EXPLANATORY-FULL-SUPPLY",
   "term": "inductive closure (full supply)",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryClosure.FullSupply",

@@ -1,19 +1,21 @@
 {
-  "id": "ACCESSIBILITY-COMPONENTS",
+  "id": "2c8a25de-98c3-5a80-86a4-2128c1e27403",
+  "label": "For every frame with explicitly reflexive, symmetric and transitive accessibility, two WORLDS_9…",
+  "legacy_id": "ACCESSIBILITY-COMPONENTS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACCESSIBILITY-COMPONENTS",
+  "conclusion_statement_id": "79d262f9-810a-5c89-b8e8-d993de75555b",
   "inference_ids": [
-    "INF-ACCESSIBILITY-COMPONENTS"
+    "a9e545ae-e617-5b71-8c41-ef4c307c3014"
   ],
   "meaning": "For every frame with explicitly reflexive, symmetric and transitive accessibility, two worlds have equal Mathlib strongly connected component classes iff they are accessible. Paths include length zero. In the stipulated Bool order frame, all worlds have equal weakly connected component classes, but false and true have unequal strongly connected component classes. Thus weak connectivity does not imply strong connectivity. No causal roots, temporal travel, source attribution or philosophical premise discharge is inferred.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-GRAPH-ONE-STEP-ADAPTER",
-    "DEF-MODAL-GRAPH-PATH-CLOSURE",
-    "DEF-ACCESSIBILITY-COMPONENTS"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6db24697-d2c8-58f4-9065-893bbcc9f843",
+    "19fefb43-7d00-554b-b134-511431b1e931",
+    "228ae527-243a-56a8-8b99-eb355f8f6fc1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-GRAPH-EDGE-PATH",
-    "DISAMB-STRONG-WEAK-ACCESSIBILITY-COMPONENTS"
+    "a60dac42-97d0-55a5-a344-1873700d54ff",
+    "0e6b4e64-e923-5d1b-b6f9-35ba53421eb3"
   ]
 }

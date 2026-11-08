@@ -1,24 +1,26 @@
 {
-  "id": "STMT-MODAL-B-COUNTERMODELS",
+  "id": "8de85d86-3629-5331-a025-33cfc50c5d91",
+  "label": "The explicit three-world chain is reflexive and symmetric but not transitive",
+  "legacy_id": "STMT-MODAL-B-COUNTERMODELS",
   "paraphrase": "The explicit three-world chain is reflexive and symmetric but not transitive. No world has full-predicate or full-modal-language MC. At middle p has both positive and negative accessible witnesses. The one-atom inventory has MC at left and hence possible MC at middle, while actual MC at middle fails; its box-closure assumption fails. Finite evaluator values and witness lists reproduce these distinctions.",
   "lean_declaration": "TruthCore.Modal.BResearch.Countermodels",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-B-FRAME",
-    "DEF-MODAL-B-CHAIN",
-    "DEF-MODAL-B-INVENTORY",
-    "DEF-MODAL-B-CLOSURE"
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "5c8078b6-03d2-55d8-af52-4cb0cf9b8ba9",
+    "399c4da8-3c7a-5e53-b4af-172ecc5f0d90",
+    "0769ffd0-2d03-51a5-be5b-92c3639df96d",
+    "4084be19-a107-5409-8fd8-8f9ff2f82aed"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES",
-    "DISAMB-MODAL-B-LANGUAGE-CLOSURE"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372",
+    "ecc0bd77-a4a0-59ae-9f8c-aa037ed75a2d"
   ]
 }

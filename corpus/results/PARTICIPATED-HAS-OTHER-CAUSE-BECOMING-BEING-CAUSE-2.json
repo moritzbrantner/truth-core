@@ -1,0 +1,12 @@
+{
+  "id": "a0b1c465-9daf-5a85-80f2-12c35500bac5",
+  "label": "Whatever has its being by participation has a…, from Becoming being-CAUSE_2: whatever has being…",
+  "legacy_id": "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2",
+  "argument_id": "d3c6a6f7-b653-578c-a3d5-dc94480401ba",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.participatedHasOtherCauseFromExternal",
+  "comparator_config": "results/PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit sense bridge BECOMING-BEING-CAUSE_2 → BECOMING-BEING-CAUSE_3 (strength order): an actually existing external efficient cause of a thing's esse is another being that causes its being (CausesIn c x esse), so the participated has another cause of its being, the root-path statement. With PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 it gives a route to STMT-PARTICIPATED-HAS-OTHER-CAUSE through sense 2. Sense 1 (cause of becoming) gives no such route: the controls model it with no cause of being."
+}

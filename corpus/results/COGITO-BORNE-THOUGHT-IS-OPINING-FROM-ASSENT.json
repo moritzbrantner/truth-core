@@ -1,0 +1,12 @@
+{
+  "id": "d3507ea5-bb4e-5667-9ae9-0459dbf244c1",
+  "label": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e…, from assent",
+  "legacy_id": "COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT",
+  "argument_id": "80bb76d9-dfa5-58a6-87c7-a3ceda15f181",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.borneThoughtIsOpiningFromAssent",
+  "comparator_config": "results/COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT/comparator.json",
+  "status": "solution-present",
+  "description": "Every occurring thought episode is assenting (OPEN), and the bearer of an assenting episode opines its content (OPEN); hence whoever bears an occurring thought opines its content. A chain through the distinct middle term Assenting (#1214). The first premise is the load-bearing and contested one: a borne willing or doubt without assent falsifies it (NonAssentingThought)."
+}

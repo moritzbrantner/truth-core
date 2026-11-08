@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-D-FORK",
+  "id": "1ef2d2af-b611-53dd-b1fa-86480e41ba6a",
+  "label": "Serial fork with collapsed endpoints: The complete ForkWorld carrier is root=0, left=1, right=2",
+  "legacy_id": "DEF-MODAL-D-FORK",
   "term": "serial fork with collapsed endpoints",
   "definition": "The complete ForkWorld carrier is root=0, left=1, right=2. Edges are exactly 0→1, 0→2, 1→1, 2→2. The Unit atom is true exactly at 1. Both endpoints have full MC; the root has possible and necessary MC but not actual MC, and the predicate w=1 is contingent at the root.",
   "basis": "stipulative",

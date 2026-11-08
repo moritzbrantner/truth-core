@@ -1,28 +1,30 @@
 {
-  "id": "EVIL-EMOTIVIST-USE-FORK",
+  "id": "27fab0f5-5bd1-5a8e-9c2c-e600e1f6119b",
+  "label": "The selected evil utterance is not true…, from Excluded middle as a general principle… and 4 more",
+  "legacy_id": "EVIL-EMOTIVIST-USE-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MORAL-STATEMENTS-LACK-TRUTH-VALUE",
-    "STMT-LACKING-TRUTH-VALUE-EXCLUDES-TRUTH",
-    "STMT-BADNESS-ASCRIPTIONS-ARE-MORAL",
-    "STMT-MAN-MADE-EVIL-PREMISE-SAYS-SOMETHING-BAD"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "5b0b9f9e-c64e-58b5-99c4-adee054275ea",
+    "5844b7cb-6430-54de-abab-6aec98e7f9b2",
+    "1ffc758d-f400-5e2a-9ad7-37f051fc2dc2",
+    "c13c7cac-faa8-5c54-b064-29c47ba049ae"
   ],
-  "conclusion_statement_id": "STMT-EVIL-EMOTIVIST-USE-FORK",
+  "conclusion_statement_id": "7c8e9ab3-9f99-5363-9dc9-2344f3a03cf2",
   "inference_ids": [
-    "INF-EVIL-EMOTIVIST-USE-FORK"
+    "c42c24b4-8aae-5d07-b4bc-613b2935b40a"
   ],
   "meaning": "Compose the existing external-emotivism theorem with the checked coverage-with-remainder result: under all four strict semantic bridges the own-true-premise branch is excluded, leaving internal challenge, affective protest or explicit remaining use. This classifies a limitation of one objection-use, not falsehood of emotivism or proof of God.",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

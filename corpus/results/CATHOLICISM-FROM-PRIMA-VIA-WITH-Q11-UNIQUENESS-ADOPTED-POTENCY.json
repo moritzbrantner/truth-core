@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS-ADOPTED-POTENCY",
+  "id": "c4ffe9f9-1fa4-5bd7-a213-c322f7d37a04",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a\u2026, from prima via with q11 uniqueness adopted\u2026",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS-ADOPTED-POTENCY",
+  "argument_id": "ac6c9243-b40b-5902-873c-c74f2f42ec3e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithQ11Uniqueness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithQ11Uniqueness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaWithQ11Uniqueness.catholicismFromPrimaViaWithQ11Uniqueness",

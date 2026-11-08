@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "MCTAGGART-NATURE-OF-EXISTENCE-II",
+    "source_id": "aa10fc47-531d-532b-aed0-1ad396d4ab9d",
     "source_url": "https://archive.org/download/natureofexistenc02mctauoft/natureofexistenc02mctauoft_djvu.txt",
     "retrieved_at": "2026-10-27T00:41:17Z",
     "sha256": "sha256:6a4936d4aeea22d31ddfc43f60e9a489edb28bfe6f0236ed01206fdf12be60c6",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "MCTAGGART-NOE-II",
+      "id": "b6d8fd7c-65da-5d34-aa5c-eb76e836a9f1",
+      "label": "J. M. E. McTaggart, The Nature of Existence, The Nature of Existence II",
+      "legacy_id": "MCTAGGART-NOE-II",
       "locator": "The Nature of Existence II (whole volume)",
       "claim_locator_prefixes": [
         "The Nature of Existence II,"

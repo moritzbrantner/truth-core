@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-WEAK-DEMARCATION",
-  "argument_id": "SCIENTISM-WEAK-DEMARCATION",
+  "id": "b5956905-c650-54f3-aa23-36efa45e4e67",
+  "label": "Second-order test for WEAK_2 scientism…, from The WEAK_2 thesis's own formulation is a… and 1 more",
+  "legacy_id": "SCIENTISM-WEAK-DEMARCATION",
+  "argument_id": "1ee8ea63-2220-5aca-a04b-86acf1919b4b",
   "challenge_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Challenge",
   "solution_module": "TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution",
   "theorem": "TruthCore.Results.Logic.Scientism.WeakDemarcation.weakScientismDemarcation",

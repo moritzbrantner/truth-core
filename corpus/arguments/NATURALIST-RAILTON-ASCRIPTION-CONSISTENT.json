@@ -1,33 +1,35 @@
 {
-  "id": "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "id": "80b2f029-9420-5c6a-82ea-7172cca39643",
+  "label": "Railton’s recorded fragment is satisfiable with an explicit true evaluative ascription and an…",
+  "legacy_id": "NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT",
+  "conclusion_statement_id": "7bb41b84-070e-5a09-bbfb-c6ac136ec8ed",
   "inference_ids": [
-    "INF-NATURALIST-RAILTON-ASCRIPTION-CONSISTENT"
+    "b9f9cc00-0f03-57f9-b537-5b686ee0905f"
   ],
   "commitment_statement_ids": [
-    "STMT-RAILTON-WELFARE",
-    "STMT-RAILTON-IMPARTIAL-RIGHTNESS",
-    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-    "STMT-RIGHT-WITHOUT-UNIVERSAL-REASONS",
-    "STMT-NATURALIST-ASCRIBED-ERROR",
-    "STMT-NATURALIST-TRUE-EVALUATIVE-ASCRIPTION"
+    "1ff346b2-9968-5cc8-8a98-c1ec70e7da50",
+    "c0810066-1cf2-5de3-b59c-6ca31e49e3a4",
+    "153a1380-89f3-56a5-bd02-6e0971e2c155",
+    "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+    "6452783d-e671-5e40-921d-53018c03caf2",
+    "8c092656-e89b-5da2-8084-5081c26e3583",
+    "e950ca40-f199-5faa-900a-f107807b3725"
   ],
   "meaning": "Railton’s recorded fragment is satisfiable with an explicit true evaluative ascription and an explicit false evaluative ascription accepted in cognitive error, together with a positive evaluative act without a universal instrumental-reason link. Each sentence is tied to an act by Ascribes, so empty Ascribes cannot satisfy this theorem. This is finite satisfiability, not actual objective grounding or truth of the complete historical system.",
   "definition_ids": [
-    "DEF-NATURALIST-FINITE-INTERPRETATION",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-MORAL-ERROR",
-    "DEF-NATURALIST-CATEGORICAL-REASONS",
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-TRUTH-VALUE",
-    "DEF-MORAL-STATEMENT",
-    "DEF-ENCODED-THEORY-CONSISTENCY"
+    "e1858d69-a463-5e57-8722-0de4a22a3049",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+    "4bf71609-9f30-5161-b188-ffa1cce02bb4",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "2cd80f27-09e0-51b6-a41e-c8638524dfdb"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

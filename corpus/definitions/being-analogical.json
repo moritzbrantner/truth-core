@@ -1,12 +1,14 @@
 {
-  "id": "DEF-BEING-ANALOGICAL",
+  "id": "954583f0-97f4-5f94-8fce-9e52ea267929",
+  "label": "BEING_2: 'BEING_2' said of many with diverse rationes that are ordered to one primary",
+  "legacy_id": "DEF-BEING-ANALOGICAL",
   "term": "being (analogical, pros hen)",
   "definition": "'Being' said of many with diverse rationes that are ordered to one primary (Aristotle: to substance, pros hen; Aquinas: of creatures by their order to God as principle and cause, each having as much of being as it approaches him). Neither one ratio (univocal) nor unrelated rationes (pure equivocation).",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-MET-1003A-BEING-SAID-PROS-HEN-A",
-    "AQUINAS-ST-I-Q13-A5-NAMES-ANALOGICAL-A",
-    "AQUINAS-ST-I-Q13-A5-AD1-BEING-FIRST-ANALOGICAL-A",
-    "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
+    "4db31058-d927-5b0b-8b56-9b335488f15d",
+    "5df072ba-af04-520b-8e60-dc5c9adceebf",
+    "a64e2a40-c0eb-5200-9e6c-a31e12b9f223",
+    "0e8bf2b9-1d6c-5ae6-8619-03efb008ef90"
   ]
 }

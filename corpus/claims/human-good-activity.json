@@ -1,14 +1,16 @@
 {
-  "id": "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY",
-  "statement_id": "STMT-HUMAN-GOOD-ACTIVITY-CONDITIONS",
-  "source_id": "ARIST-EN",
+  "id": "b103a3c6-e600-5f56-9c27-800630a4abb5",
+  "label": "Aristotle, Nicomachean Ethics I.7, 1098a7-20: A life realizing the human good involves actual…",
+  "legacy_id": "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY",
+  "statement_id": "2ad83d5d-c3a7-571f-8c84-9d0a5d5b0135",
+  "source_id": "220d68fb-5e6c-5c6f-b4cb-84e1290dc15a",
   "locator": "I.7, 1098a7-20",
   "interpretation": "The conclusion describes human good as activity of soul according to virtue, according to the best and most complete if there are several, and adds a complete life. The reading preserves activity rather than mere rational capacity and the complete-life qualification. VirtuousActivity is a parameter for the specified appropriate excellence; no ordering or independent justification of virtues is encoded. The analogy and human-function identification are not claimed to be proved.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY"
+    "6a7f7256-6fe8-5eb8-b711-22a295a9d356"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOOD-FUNCTION-HUMAN-ULTIMATE"
+    "bbcdfe40-8a39-5ac5-acad-62ca350d70fa"
   ]
 }

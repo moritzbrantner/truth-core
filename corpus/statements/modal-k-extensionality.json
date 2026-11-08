@@ -1,21 +1,23 @@
 {
-  "id": "STMT-MODAL-K-EXTENSIONALITY",
+  "id": "57dcfc89-f117-5c2c-ac1a-9833cd46e5c7",
+  "label": "Both four-state K_FORK_4 languages satisfy WORLD_PROPOSITIONAL_EXTENSIONALITY_5: the atom…",
+  "legacy_id": "STMT-MODAL-K-EXTENSIONALITY",
   "paraphrase": "Both four-state K fork languages satisfy world propositional extensionality: the atom, possibility of truth and necessity of the atom distinguish all four states for either link value. Thus the preceding fork countermodels survive the optional world-extensionality assumption. All-predicate world extensionality holds for every supplied type by equality-predicate separation; no philosophical completeness premise is inferred.",
   "lean_declaration": "TruthCore.Modal.KResearch.ExtensionalCountermodels",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-MODAL-FIXTURE-AGREEMENT",
-    "DEF-MODAL-FIXTURE-EXTENSIONALITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-K-ACTUALITY",
-    "DEF-MODAL-K-FORK"
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "a3baafe5-b951-5752-ab70-25f03144e8f5",
+    "6d8a58a6-97f4-57f7-824f-c1c2c5d08d6c",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "2a081357-c3f9-5ca0-a4b6-604f47258175",
+    "5e61ee7e-61d1-580b-89a9-f812e01b15ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

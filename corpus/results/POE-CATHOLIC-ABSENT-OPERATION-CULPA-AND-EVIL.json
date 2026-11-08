@@ -1,6 +1,8 @@
 {
-  "id": "POE-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL",
-  "argument_id": "POE-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL",
+  "id": "f079b308-b079-5cb0-9021-23ef5b26a465",
+  "label": "Every voluntarily controlled due…, from There is EVIL_1 in a thing exactly when it… and 1 more",
+  "legacy_id": "POE-CATHOLIC-ABSENT-OPERATION-CULPA-AND-EVIL",
+  "argument_id": "ca6c5c33-a8e7-567d-a797-b0ab801b4627",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicAbsentOperationCulpaAndEvil.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicAbsentOperationCulpaAndEvil.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.CatholicAbsentOperationCulpaAndEvil.catholicAbsentOperationCulpaAndEvil",

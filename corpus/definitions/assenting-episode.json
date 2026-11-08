@@ -1,0 +1,10 @@
+{
+  "id": "785a7605-da2b-59a0-b5a7-57326f3d33bf",
+  "label": "Assenting episode: Assenting e: the thought episode e takes its content to be so, as opposed to…",
+  "legacy_id": "DEF-ASSENTING-EPISODE",
+  "term": "assenting episode (Assenting e)",
+  "definition": "Assenting e: the thought episode e takes its content to be so (an assent or judgment), as opposed to merely entertaining, doubting, willing or imagining it. Example: judging that the stove is hot. Non-examples: wishing it were warmer; doubting whether the stove is hot. In Lean a parameter Episode -> Prop, constrained only by STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING and STMT-ASSENTING-BEARER-OPINES-CONTENT.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.OccurringThoughtIsAssenting",
+  "note": "Stipulative analyst notion, attribution deferred. The claim that every occurring thought is assenting is false on Descartes's broad cogitatio (willing, doubting) and is carried as the open premise STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING; its omission model is a borne willing (NonAssentingThought)."
+}

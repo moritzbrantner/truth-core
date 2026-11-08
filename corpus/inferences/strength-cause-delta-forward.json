@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRENGTH-CAUSE-DELTA-FORWARD",
+  "id": "9b500c7e-0706-546f-9648-14149c02a84c",
+  "label": "Every generated thing that causes itself has a CAUSE_2 distinct from…, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-CAUSE-DELTA-FORWARD",
   "input_statement_ids": [
-    "STMT-CAUSE-PRINCIPLE-DISTINCT"
+    "9709d14f-1324-58f1-8889-1110881c5b44"
   ],
-  "output_statement_id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "output_statement_id": "5c2aeb5a-042c-5fd6-999c-10ac39de6834",
   "rule": "typed_strength_comparison",
   "meaning": "For a generated self-causing entity, instantiate the distinct-cause principle at that same entity to obtain its alternative cause. The self-cause guard is not used; this is one obligation, not a necessity claim about proof-term usage.",
   "assumption_statement_ids": [],

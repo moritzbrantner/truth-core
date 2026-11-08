@@ -1,14 +1,16 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
+  "id": "b5baf719-6f2c-5883-a8b8-16a58aacf347",
+  "label": "The designated intellectual principle does not inhere as an accident or material…, by Composition",
+  "legacy_id": "INF-AQUINAS-ST-I-Q75-A2-INTELLECT-SUBSISTENCE",
   "input_statement_ids": [
-    "STMT-HUMAN-INTELLECT-UNIVERSAL-BODILY-COGNITION",
-    "STMT-EVERY-BODY-HAS-DETERMINATE-NATURE",
-    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
-    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
-    "STMT-NONORGANIC-INTELLECT-OPERATION-ATTRIBUTION",
-    "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE"
+    "f571b2a0-d5d1-5e8d-821e-582163055902",
+    "3a704795-c9b6-532e-bb8b-b4f4d2cf4fb8",
+    "bc8dc198-3639-52f9-b3e2-d8a0a1b1875c",
+    "5a8deceb-0289-5606-8046-c81bce1bed37",
+    "5c640570-19f1-5c70-9682-9fb1da35f762",
+    "075120a0-5a7a-56df-b644-75b8ec3a9011"
   ],
-  "output_statement_id": "STMT-HUMAN-INTELLECT-WEAK-SUBSISTENCE",
+  "output_statement_id": "f2488429-6615-5d23-b01b-cc0d12fda92a",
   "rule": "composition",
   "meaning": "Reuse both earlier reductios with their original premises; apply the explicit attribution conditional to non-bodyhood and non-organic exercise; instantiate the open operation/existence principle. The last steps are transcription, not a discharge of their premises.",
   "assumption_statement_ids": [],

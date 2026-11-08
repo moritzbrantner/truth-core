@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-CONFLICTING-OPINIONS",
+  "id": "423141d2-26f3-5284-8fd8-11024d3d72fd",
+  "label": "There are opinions of a content and its expressed negation, held by possibly different persons",
+  "legacy_id": "STMT-PILOT-CONFLICTING-OPINIONS",
   "paraphrase": "There are opinions of a content and its expressed negation, held by possibly different persons. The expressed-negation operation is not yet assumed to obey logical negation.",
   "lean_declaration": "TruthCore.Logic.TruthPilot.ConflictingOpinions",
   "definition_ids": [
-    "DEF-PILOT-OPINION-NEGATION"
+    "46f9ded9-24d0-50c7-99a2-bed6cfa29986"
   ],
   "disambiguation_ids": [
-    "DISAMB-PILOT-OPPOSITION"
+    "54ba7f93-e24b-5d98-bb0e-d6e812c7853d"
   ]
 }

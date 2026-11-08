@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
+  "id": "11914511-b067-55d3-b8cc-094311021d08",
+  "label": "Whatever directs a natural body to an end, that body is also directed to the same end by a…",
+  "legacy_id": "STMT-NATURAL-DIRECTION-REDUCED-TO-IMMOBILE-FIRST",
   "paraphrase": "Whatever directs a natural body to an end, that body is also directed to the same end by a knowing, intelligent director that is moved in no respect.",
   "lean_declaration": "TruthCore.Case.Catholicism.NaturalDirectionReducedToIntelligentImmobileDirector",
   "definition_ids": [
-    "DEF-DIRECTOR-REGRESS-INTERFACE",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "d9483f11-c76c-5ea9-aac3-0ed77076305b",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIO"
+    "2e3e5bfd-2e1a-5766-933d-79a7824c6249"
   ]
 }

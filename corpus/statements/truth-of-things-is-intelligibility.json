@@ -1,0 +1,15 @@
+{
+  "id": "1568610e-4df8-5f90-8200-8446b1cda8fb",
+  "label": "Truth said of things is intelligibility; a thing has truth exactly when it is intelligible, and…",
+  "legacy_id": "STMT-TRUTH-OF-THINGS-IS-INTELLIGIBILITY",
+  "paraphrase": "OPEN reading of ST I q.16 a.1 and a.3: truth said of things is intelligibility; a thing has truth exactly when it is intelligible, and one thing is more true than another exactly when it is more intelligible.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.TruthOfThingsIsIntelligibility",
+  "definition_ids": [
+    "b412016a-43c1-5c4a-abb0-4e53d343d508",
+    "aad0156a-e1eb-5b6a-bb97-526698065277",
+    "347a22c0-55c4-54a4-805f-d6473db878e4"
+  ],
+  "disambiguation_ids": [
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
+  ]
+}

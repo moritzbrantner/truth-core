@@ -1,6 +1,11 @@
 {
-  "id": "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
+  "id": "81a85cbd-3661-5b1b-bff3-f2f3b43edc56",
+  "label": "There is an empty-episode interpretation in which no episode occurs and the content of the…",
+  "legacy_id": "STMT-EMPTY-EPISODE-DENIAL-CONTROL",
   "paraphrase": "There is an empty-episode interpretation in which no episode occurs and the content of the universal denial is true, although the denial token does not occur.",
   "lean_declaration": "TruthCore.Logic.PerformedDenial.EmptyEpisodeControl",
-  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-ACCURATE-PERFORMED-DENIAL"]
+  "definition_ids": [
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "901afe4d-3dc0-53fb-a18f-d2fd10d50527"
+  ]
 }

@@ -1,20 +1,22 @@
 {
-  "id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
+  "id": "44f804e1-e373-5de3-91be-1dc00d3f3610",
+  "label": "For every bearer and perfection in the fixed form/end…, from Stronger intensional proposition: the…",
+  "legacy_id": "GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY",
   "premise_statement_ids": [
-    "STMT-GOODNESS-DUE-ACTUALITY-PROPERTY-IDENTITY"
+    "d742a8cd-45e2-5292-88ba-cedd482cbf45"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
+  "conclusion_statement_id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
   "inference_ids": [
-    "INF-GOODNESS-PROPERTY-IDENTITY-ENTAILS-DUE-ACTUALITY"
+    "5a51e160-6628-569d-b0fb-d5344630ac66"
   ],
   "meaning": "Transport calibrated denotations along equality of the supplied property referents. This implies extensional due-actuality coextension. The reverse fails in the explicit noninjective property presentation.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-SURPLUS-OMISSION-CELLS",
-    "DEF-GOODNESS-PROPERTY-PRESENTATION"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b567cee6-b514-5a25-ab7d-6d7dbbd3d699",
+    "35458083-6611-5561-af91-3f0f54a1266d"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

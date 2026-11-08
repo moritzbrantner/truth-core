@@ -1,7 +1,9 @@
 {
-  "id": "INF-COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
+  "id": "83046fd0-2e35-5b13-9bd6-dda222e38be1",
+  "label": "Finite controls: departed-builder production satisfies temporal…, by Constructive-proof",
+  "legacy_id": "INF-COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COMPOSER-TEMPORAL-DEFINITION-CONTROLS",
+  "output_statement_id": "9fb0e2e5-a867-5751-9bf8-269392397735",
   "rule": "constructive-proof",
   "meaning": "Finite survival, overlap, strictness and remainder interpretations; no actual causal or temporal proposition established.",
   "assumption_statement_ids": [],

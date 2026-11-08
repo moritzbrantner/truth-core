@@ -1,0 +1,12 @@
+{
+  "id": "74f03562-0d40-5e1f-b026-e306a9afdc9f",
+  "label": "Whatever is in POTENCY_1 in no respect operates from itself. q.18 a.3 ad 2 says…, from being in act",
+  "legacy_id": "PURE-ACT-OPERATES-FROM-BEING-IN-ACT",
+  "argument_id": "8de2d2ee-d860-50c8-ba5c-fb7a5db8e04b",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.pureActOperatesFromBeing",
+  "comparator_config": "results/PURE-ACT-OPERATES-FROM-BEING-IN-ACT/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is in potency in no respect operates from itself. A pure act is not in potency in its being, so by the OPEN act/potency division it is in act in being; by the OPEN premise that operation follows being in act it has an operation; by the OPEN dichotomy the operation is from itself or the thing is being moved in some respect; and the second case is excluded by the existing stated q.2 a.3 reading (nothing is moved except as in potency) since a pure act has no potency."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "d8413c71-e459-5654-a101-278f0284b365",
+  "label": "Thomas Aquinas, Summa theologiae I q.4… supports At the selected world every existent is in…",
+  "legacy_id": "REL-Q4-A1-AD3-ACTUALITY-SUPPORTS-EXISTENT-IN-ACT",
+  "subject_kind": "claim",
+  "subject_id": "6311aef8-4a6a-553c-b4cc-87f2a66ed42b",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "adf07168-21a9-5ea3-83b1-7d404f3f6421",
+  "note": "Q.4 a.1 ad 3 calls esse 'actualitas omnium rerum'; the claim formalizes only the direction from act to esse. The premise uses the other direction, from existence at the selected world to act in some respect; reading the Ontic existence assignment as esse in re is the analyst's."
+}

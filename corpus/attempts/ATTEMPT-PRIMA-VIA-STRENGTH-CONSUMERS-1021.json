@@ -1,26 +1,28 @@
 {
+  "id": "142f106e-5be5-5e00-8ff2-c8057849e8ac",
+  "label": "Audit of the exact20 undeclared non-mandate consumers at5fcedc52:11 demonstrated redundancies,5…",
+  "legacy_id": "ATTEMPT-PRIMA-VIA-STRENGTH-CONSUMERS-1021",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
-    "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
-    "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
-    "STMT-RELATIVELY-UNMOVED-MOVER-CANNOT-BE-LACKING"
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
+    "c1b68c21-fa36-5ab0-a499-444259eda78a",
+    "96da1d33-7a73-567e-9557-ba4a9a4bb798",
+    "621821f4-e2b4-50f6-a0ca-53941e7f843b"
   ],
   "kind": "derivation",
-  "id": "ATTEMPT-PRIMA-VIA-STRENGTH-CONSUMERS-1021",
   "outcome": "succeeded",
   "summary": "Audit of the exact20 undeclared non-mandate consumers at5fcedc52:11 demonstrated redundancies,5 exact-interface weak-replacement failures and4 explicitly unresolved full-bundle searches. Certified reduced maximum/naming Stage1 and classical-witness/root compositions, and isolated the typed POE privation/deficiency/truth route. Reused existing Fourth-Way subset results where they already suffice. Negative controls retain exact scope: literal being-in-act absolute prima, VII.1 and VIII.5 regress transfer, generic Stage1, and director regress with its remaining bridges and EM. Source-derived interfaces and frozen Challenges stay unchanged; no metaphysical premise truth or global necessity is inferred. Exact20 dispositions, theorem reuse, countermodel boundaries and remaining searches are in docs/notes/prima-via-strength-consumers.md.",
   "evidence": [
-    "PRIMA-VIA-WEAK-CONSUMER-BOUNDARIES",
-    "CATHOLICISM-STAGE1-FULL-DESCRIPTION-WITHOUT-MOTION",
-    "CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION",
-    "CATHOLICISM-IDENTITY-WITNESS-WITHOUT-MOTION",
-    "CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION",
-    "CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION",
-    "CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION",
-    "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
-    "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
-    "POE-EVIL-FROM-DUE-DEFICIENCY",
-    "POE-EVIL-PREMISE-FROM-DUE-DEFICIENCY"
+    "61bcbca2-1cb0-558f-9dcc-ff3f5c31e58d",
+    "77562fe2-2b5c-5fa8-a316-e97a93c9e40e",
+    "c08dc0d0-0755-5bc4-9836-8976f72b992c",
+    "d69362f4-6ea7-5a0f-96b1-52d611364cac",
+    "edf15c32-df1f-5d2c-8c84-c3ce51e9616a",
+    "65047d13-e163-54f1-b4b8-95fa7f5a32b4",
+    "0caa037a-cdd5-5737-a523-85eccc67bed7",
+    "5cb4b73f-a7d8-5aa1-9443-49090dbc8aa7",
+    "3b4f5132-9b6c-571d-a283-f3d8805804cd",
+    "4a753a06-9f96-5da8-b306-2bbd88bdcfdb",
+    "667d854e-d98b-594e-9093-1fbc854203a6"
   ]
 }

@@ -1,0 +1,20 @@
+{
+  "id": "a30c5963-cb81-5366-aab0-2454363e18f7",
+  "label": "Every actual concrete root of the selected grounding relation at w is not composite, has…",
+  "legacy_id": "STMT-ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "paraphrase": "Every actual concrete root of the selected grounding relation at w is not composite, has represented esse equal to its represented essence, and has no distinct simply-prior being: none of the three represented HasLimitingPrinciple horns. Universal over actual roots at w; asserts no necessity, existence of a root, unreceivedness, infinity or uniqueness.",
+  "lean_declaration": "TruthCore.Causality.RootPurity.ActualRootsWithoutLimitingPrinciple",
+  "definition_ids": [
+    "52352824-6be9-53c6-83d4-82fed9a08cbb",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
+  ],
+  "disambiguation_ids": [
+    "06fb4f51-ff5f-5c5e-b947-844f20de4174",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
+  ]
+}

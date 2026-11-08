@@ -1,0 +1,15 @@
+{
+  "id": "54cb00ff-0e77-5f81-bc1c-fa9f8a0d1c49",
+  "label": "There is something maximally being that is the cause of being to…, by Existential elimination…",
+  "legacy_id": "INF-MAXIME-ENS-CAUSES-ALL-AS-GREATEST-DEGREE",
+  "input_statement_ids": [
+    "27fb3450-3bf6-57e1-acb0-11abf563b3d5",
+    "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
+    "c16ec481-ce5b-5a90-b8e4-247a2ebb2155"
+  ],
+  "output_statement_id": "0881e859-c4c3-53ff-9bec-b61294e12d51",
+  "rule": "Existential elimination, universal instantiation at esse, modus ponens",
+  "meaning": "MAXIME_2 branch: some being has the GREATEST degree of being; a GREATEST-degree bearer of a perfection causes it in every other bearer (instantiated at esse); and the explicit sense bridge says a GREATEST-degree bearer of being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. The control model without the bridge has a GREATEST bearer that something exceeds.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-EXPRESSIVIST-EMBEDDING-PRIMARY-WITNESS",
+  "id": "170f22a3-bfd6-5d9a-8470-81c1d58e89ef",
+  "label": "The original consistency control uses primitive ValidMP and p = q, leaving compositional embedding…",
+  "legacy_id": "ATTEMPT-EXPRESSIVIST-EMBEDDING-PRIMARY-WITNESS",
   "date": "2026-10-26",
   "statement_ids": [
-    "STMT-EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
-    "STMT-BLACKBURN-VALIDITY-AS-ATTITUDE-CLASH",
-    "STMT-EXPRESSIVISM-NEEDS-B-TYPE-INCONSISTENCY"
+    "4318bfeb-6f3a-5f48-a28b-7142aec48eb3",
+    "5b7b4376-da07-5520-8aa7-d6039191563d",
+    "b09c969d-378b-5fff-9dd7-c81f8db10a9b"
   ],
   "kind": "source-search",
   "outcome": "succeeded",
   "summary": "The original consistency control uses primitive ValidMP and p = q, leaving compositional embedding open. Chicago/Michigan retrieval failures and the insufficient OUP preview were preserved, then a legitimate publisher-hosted 2022 Gibbard response was pinned, materialized and read. It distinguishes permitting from picking and denies full truth values to false-antecedent indicative conditionals. It therefore motivates permission-plan vocabulary but does not license attribution of the separately checked analyst material-support semantics to Gibbard. Exact routes, rejected identifications and remaining gaps are in docs/expressivist-embedding-boundary.md. No original theory answer or root premise is discharged.",
   "evidence": [
-    "EXPRESSIVISM-CONSISTENT-WITH-GEACH-VALIDITY",
-    "SEP-MORAL-COGNITIVISM-2-5-GIBBARD-CONTENT-INVARIANT",
-    "SEP-MORAL-COGNITIVISM-4-1-BLACKBURN-HIGHER-ORDER-ATTITUDES",
-    "GIBBARD-REPLY-2022-541-PERMISSION-NOT-PICKING",
-    "GIBBARD-REPLY-2022-536-INDICATIVE-NOT-MATERIAL-TRUTH"
+    "91f36c85-17b3-5043-b105-3944d3d8d67e",
+    "b7bdd74b-c74c-5a93-ac51-456a1c2032f7",
+    "7eceed66-2064-52be-bcb9-1d4b7e378ddc",
+    "dcca546d-6976-5eb8-a60a-750d73983cb8",
+    "add2d90b-631c-571d-a2ae-70d30fd6a1b4"
   ]
 }

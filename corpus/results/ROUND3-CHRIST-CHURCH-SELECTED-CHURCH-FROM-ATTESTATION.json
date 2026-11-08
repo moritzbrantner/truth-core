@@ -1,0 +1,12 @@
+{
+  "id": "3dc66eac-8f53-507a-b100-1f2798b82121",
+  "label": "Jesus founded at least one society satisfying the selected Church predicate, from attestation",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION",
+  "argument_id": "54c8d20f-66c5-53b0-89ee-7b434f7564ce",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.selectedChurchFromAttestation",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-SELECTED-CHURCH-FROM-ATTESTATION/comparator.json",
+  "status": "solution-present",
+  "description": "A route that needs no whole report to go back to Jesus: John 20's commission is independent of Matthew 18's or 16's, and by the attestation criterion Jesus gave some heaven-ratified power, which is governing; the founding and Church-calibration premises then give a selected Church founded by Jesus. Each of the four premises is needed."
+}

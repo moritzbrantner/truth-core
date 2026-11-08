@@ -1,0 +1,13 @@
+{
+  "id": "a60af722-30e9-5c77-ae19-92f93707a6cb",
+  "label": "The perfection branch fails: it is not the case that nothing causes a perfection in…, by Reductio",
+  "legacy_id": "INF-SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "input_statement_ids": [
+    "5e76cbf7-9033-549c-9ec3-328746219b46"
+  ],
+  "output_statement_id": "1bea3966-8a1e-55b8-874b-eab6bf32d33a",
+  "rule": "Reductio",
+  "meaning": "Per-sense result for the perfection branch of 'cause': a subject that causes a perfection in itself falsifies 'nothing causes a perfection in itself'.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

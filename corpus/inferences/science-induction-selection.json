@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCIENCE-INDUCTION-SELECTION",
+  "id": "11fbc4d9-cc29-5422-9d47-0a5592a9f60c",
+  "label": "Under a supplied invertible evidence/hypothesis recoding, a neutral set-valued…, by Direct-proof",
+  "legacy_id": "INF-SCIENCE-INDUCTION-SELECTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCIENCE-INDUCTION-SELECTION",
+  "output_statement_id": "5465fccb-01d6-55b9-b0c2-cd4bf2758bcc",
   "rule": "direct-proof",
   "meaning": "Fixed-evidence substitution and equivariance force a singleton to be a recoding fixed point. Explicit omission controls and outcome-coordinate uniformity separate neutrality from unique choice. Restriction/recoding commutation instantiates the theorem for actual finite observation records; compose the exact earlier verified controls. This is a structured mathematical constraint, not an opaque bridge transcription.",
   "assumption_statement_ids": [],

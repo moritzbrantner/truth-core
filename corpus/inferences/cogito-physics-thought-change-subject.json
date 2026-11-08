@@ -1,11 +1,13 @@
 {
-  "id": "INF-COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
+  "id": "c8866298-4b68-58a0-8aec-4ca15f2b0ed3",
+  "label": "Some actual thought is a change that is the actuality of a potential subject in…, by Composition",
+  "legacy_id": "INF-COGITO-PHYSICS-THOUGHT-CHANGE-SUBJECT",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-THOUGHT-CHANGE-CLASSIFICATION",
-    "STMT-CHANGE-ACTUALITY-OF-POTENTIAL"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "4791525a-9c60-59e7-bc94-bcf2f368f0af",
+    "1d9604fd-a01b-5341-84de-41a01d1d12ae"
   ],
-  "output_statement_id": "STMT-THOUGHT-CHANGE-SUBJECT-WITNESS",
+  "output_statement_id": "1fd408c7-945f-56f3-b37d-7c89b54ad730",
   "rule": "composition",
   "meaning": "Transcription/assembly: instantiate the existing Physics III.1 change-as-actuality-of-potential reading at an actual thought episode, after explicitly assuming that the thought is a change. The actuality relation witnesses a potential subject. All three premises remain open.",
   "assumption_statement_ids": [],

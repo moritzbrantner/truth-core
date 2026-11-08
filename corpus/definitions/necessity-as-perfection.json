@@ -1,0 +1,10 @@
+{
+  "id": "d428227e-f000-571e-8990-fa7d556009c1",
+  "label": "Necessity as a perfection respect: Nec: a respect of the shared Respect sort, read as the…",
+  "legacy_id": "DEF-NECESSITY-AS-PERFECTION",
+  "term": "necessity as a perfection respect (nec)",
+  "definition": "nec: a respect of the shared Respect sort, read as the necessity a necessary being has; InAct x nec says x actually has that necessity, as a perfection. Contested: on the alternative reading necessity is a mode of being, not a perfection one is in act of, and then STMT-NECESSARY-BEING-IN-ACT-OF-NECESSITY is false or ill-typed. Used only on the perfection route to STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.NecessaryBeingInActOfNecessity",
+  "note": "Stipulative analyst notion, attribution deferred (round 4 revisited, specs/round4-revisited.toml)."
+}

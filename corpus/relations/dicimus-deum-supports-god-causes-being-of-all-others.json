@@ -1,0 +1,11 @@
+{
+  "id": "336a4c35-6a4b-5f0e-806a-0e2d30d3dfcb",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports Whatever is GOD_4 causes the being of every…",
+  "legacy_id": "REL-DICIMUS-DEUM-SUPPORTS-GOD-CAUSES-BEING-OF-ALL-OTHERS",
+  "subject_kind": "claim",
+  "subject_id": "9b52e1a5-9008-51e9-b666-892da74e45b1",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "86d02b69-87eb-5594-9958-ccaa5fe6b685",
+  "note": "The quarta via names God what is the cause of being, goodness and every perfection to all beings. The encoded statement reads the naming conversely (whatever is God is such a cause), restricts it to being, and to beings other than God; the source gives the forward naming, not the converse."
+}

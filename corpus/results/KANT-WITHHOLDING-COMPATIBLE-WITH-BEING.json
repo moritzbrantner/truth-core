@@ -1,6 +1,8 @@
 {
-  "id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
-  "argument_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "id": "398f236a-f3f7-53c6-8e92-c3a9e02b3cb5",
+  "label": "An explicit family of interpretations has a necessary being in its designated actual member… (2)",
+  "legacy_id": "KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "argument_id": "c2395948-059f-5c7e-b969-cf713cbf3797",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.WithholdingCompatibleWithBeing.withholdingCompatibleWithBeing",

@@ -1,0 +1,15 @@
+{
+  "id": "d1bea424-e565-5fb4-b860-10d1ef903730",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w…, by Universal… (3)",
+  "legacy_id": "INF-CONTINGENT-GROUNDED-VIA-PARTICIPATION",
+  "input_statement_ids": [
+    "ff8ff869-e90a-54f6-af8b-35060113568a",
+    "732302a1-f7bf-594d-9a8a-cb4bd00687a7",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3"
+  ],
+  "output_statement_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+  "rule": "Universal instantiation, existential elimination and introduction",
+  "meaning": "An actual contingent concretum has esse by participation, so a distinct cause of its esse (q.44 a.1 co. reading), which by the esse-cause bridge is an actual concrete ground. The ground is distinct, which is more than the target requires.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

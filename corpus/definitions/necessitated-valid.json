@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSITATED-VALID",
+  "id": "d6a48e74-815c-5f8d-879e-9e1d5698fe51",
+  "label": "NECESSITATED_DESIGNATED_VALIDITY_2: For every admitted actual world a and successor v of a, F a v…",
+  "legacy_id": "DEF-NECESSITATED-VALID",
   "term": "necessitated designated validity",
   "definition": "For every admitted actual world a and successor v of a, F a v holds: box varies evaluation while retaining the SAME designated actuality. No self-access, existence of successors or real-world applicability is asserted.",
   "basis": "stipulative",

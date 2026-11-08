@@ -1,0 +1,14 @@
+{
+  "id": "e462cf2f-0961-5cb8-9634-23e6558afd65",
+  "label": "Something is more a being than something",
+  "legacy_id": "STMT-GRADES-FOUND-IN-BEING",
+  "paraphrase": "OPEN observation premise for being: something is more a being than something (the quarta via observes grades of good, true and noble, not of being).",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.GradesFoundInBeing",
+  "definition_ids": [
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58"
+  ]
+}

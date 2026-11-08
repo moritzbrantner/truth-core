@@ -1,14 +1,16 @@
 {
-  "id": "STMT-REGRESS-MOTION-TRANSFER",
+  "id": "0def4617-676a-5780-b468-d5ac5edca964",
+  "label": "The existing III.3 moving-in-the-moved premise, second-movers bridge and First Way accessibility\u2026",
+  "legacy_id": "STMT-REGRESS-MOTION-TRANSFER",
   "paraphrase": "The existing III.3 moving-in-the-moved premise, second-movers bridge and First Way accessibility premise imply schema controls for the typed mover-moved-by-another relation. This does not strengthen Aristotle\u2019s weaker source prohibition of infinitely many distinct movers into accessibility.",
   "lean_declaration": "TruthCore.Logic.RegressDomains.MotionTransfer",
   "definition_ids": [
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-REGRESS-DOMAIN-ADAPTERS",
-    "DEF-PER-SE-LINK-STRONG",
-    "DEF-PER-SE-ORDERED-SERIES"
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "0cdb45d5-b4d1-5e99-9600-e48588e072cb",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

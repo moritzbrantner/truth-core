@@ -1,13 +1,15 @@
 {
-  "id": "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
+  "id": "0ad85671-f0df-5a34-943d-898ebd0cad6c",
+  "label": "The existing four-world modal equivalence, used for both epistemic and modal alternatives, jointly…",
+  "legacy_id": "STMT-KNOWABILITY-POSITIVE-COMPATIBLE-SURVIVOR",
   "paraphrase": "The existing four-world modal equivalence, used for both epistemic and modal alternatives, jointly satisfies Euclideanness, E inclusion in R and global biconditional restricted knowability for the Boolean-closed atom-invariant family. Its nonconstant atom is admitted; every true admitted content is known. This is a nonvacuous formal background witness.",
   "lean_declaration": "TruthCore.Logic.KnowabilityCompatibility.PositiveSurvivor",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

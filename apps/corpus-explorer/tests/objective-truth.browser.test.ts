@@ -1,6 +1,7 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
+import { uid } from "./corpus-records";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -48,13 +49,13 @@ test("truth pilot: logical scope, open bridges, reciprocal comparison and scoped
   expect(await table.getByText("Neither", { exact: true }).count()).toBe(2);
   expect(await table.getByText("A and B", { exact: true }).count()).toBe(1);
   await bridge.getByRole("link", { name: "Inspect graph and frontier", exact: true }).first().click();
-  await page.waitForURL((url) => url.searchParams.get("target") === "STMT-PILOT-LOGICAL-SENTENCE-STABLE");
+  await page.waitForURL((url) => url.searchParams.get("target") === uid("statement", "STMT-PILOT-LOGICAL-SENTENCE-STABLE"));
   await page.getByRole("button", { name: "Selected goal frontier", exact: true }).waitFor();
   const queue = page.getByRole("complementary", { name: "Research obligations" });
   expect(await queue.innerText()).toContain("logical sentence");
   await page.reload();
   await queue.waitFor();
-  expect(new URL(page.url()).searchParams.get("sel")).toBe("STMT-PILOT-LOGICAL-SENTENCE-STABLE");
+  expect(new URL(page.url()).searchParams.get("sel")).toBe(uid("statement", "STMT-PILOT-LOGICAL-SENTENCE-STABLE"));
   await page.goto(`${base}objective-truth/`);
   await page.setViewportSize({ width: 390, height: 844 });
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1)).toBe(true);

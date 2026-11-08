@@ -1,11 +1,13 @@
 {
-  "id": "AFP-GOEDELGOD-A1A-A",
-  "statement_id": "STMT-SCOTT-NEGATION-POSITIVE-EXCLUDES-POSITIVE",
-  "source_id": "AFP-GOEDELGOD",
+  "id": "3b465d96-6518-5ceb-aef6-d9f3d9cd1254",
+  "label": "Christoph Benzmüller and Bruno…, Gödel's…: Scott's axiom A1a: at every world, for every property…",
+  "legacy_id": "AFP-GOEDELGOD-A1A-A",
+  "statement_id": "f86dfc69-3329-5c19-8c5e-fac01d5c3aad",
+  "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
   "locator": "GoedelGod.thy, A1a: \"[∀(λΦ. P (λx. m¬ (Φ x)) m→ m¬ (P Φ))]\"",
   "interpretation": "Axiom A1a as stated in the theory, read through the theory's own abbreviations: validity [_] is truth at every world, ∀ quantifies over all properties, and m¬, m→ are pointwise. The theory glosses A1a with A1b as 'Either a property or its negation is positive, but not both'; this claim records only A1a, the 'not both' half. Attributed to the AFP formalization of Scott's notes, not to what Scott or Gödel intended.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ]
 }

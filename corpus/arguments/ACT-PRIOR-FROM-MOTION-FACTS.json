@@ -1,22 +1,25 @@
 {
-  "id": "ACT-PRIOR-FROM-MOTION-FACTS",
+  "id": "b4d4c636-e31a-5571-889b-3bb9673f29fa",
+  "label": "Formal fact: 'every POTENCY_1 is being actualized', 'whatever is moved has a…, from MOTION_1 facts",
+  "legacy_id": "ACT-PRIOR-FROM-MOTION-FACTS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACT-PRIOR-FROM-MOTION-FACTS",
+  "conclusion_statement_id": "019890ac-08aa-55a8-929d-364cbb33fbcc",
   "inference_ids": [
-    "INF-ACT-PRIOR-FROM-MOTION-FACTS"
+    "07ca14c4-d71e-5cb5-bb5f-e7a979fa4a52"
   ],
   "meaning": "From no premises: the motion route to act's simple priority (Codex lead on #374) is valid with exactly five premises, each needed: STMT-EVERY-POTENCY-IS-BEING-ACTUALIZED (unattributed), STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-MOVER, STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT, STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT and STMT-ACTUAL-MOVER-IS-SIMPLY-PRIOR (unattributed). The first is load-bearing exactly where ST I q.3 a.1 uses act's priority: without it the route gives priority only for potencies being actualized, which allows a first mover moved by none and first being to be in potency (in a model that also satisfies every prima via premise and STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED). The first premise contradicts STMT-SOME-POTENCY-NOT-BEING-ACTUALIZED (unattributed) and, read as holding in every situation, STMT-POTENCY-CAN-BE-INACTIVE, which Physics III.1, 201b8-9 states; read of the present situation alone, no source decides it. The route is therefore not recorded as an argument for STMT-ACT-SIMPLY-PRIOR-TO-POTENCY: it would add two bare premises to the root paths, the first unsupported and denied by the source as a law, and close nothing. Discharges nothing.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-POTENCY",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-FIRST-BEING",
-    "DEF-PURE-ACT"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-MOTION",
-    "DISAMB-IN-ACT",
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

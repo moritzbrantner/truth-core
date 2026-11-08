@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
-  "argument_id": "MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+  "id": "5792f1a1-8474-5b0b-9b03-ab6e0e83fdec",
+  "label": "Universal assembly of the separately frozen one-atom T and D frame correspondences",
+  "legacy_id": "MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE",
+  "argument_id": "5638e542-b04a-5394-bafc-06b0f7b70bbd",
   "challenge_module": "TruthCore.Results.Modal.StandardCorrespondenceCertificate.Challenge",
   "solution_module": "TruthCore.Results.Modal.StandardCorrespondenceCertificate.Solution",
   "theorem": "TruthCore.Results.Modal.StandardCorrespondenceCertificate.certificate",

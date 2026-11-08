@@ -1,10 +1,12 @@
 {
-  "id": "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
+  "id": "d6d41570-06f1-5ad8-aab8-12430f2f67a2",
+  "label": "The existing Jesus-envoy-founding bridge fails in the supplied signature…, by Constructive-proof",
+  "legacy_id": "INF-EXCLUSIVE-IMMEDIATE-FOUNDING-REJECTS-ENVOY-BRIDGE",
   "input_statement_ids": [
-    "STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE",
-    "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS"
+    "75910ff0-16d2-587a-8e92-fb707e3c3529",
+    "1e65befc-0bd5-5e4f-bba2-a1195ef9b4c9"
   ],
-  "output_statement_id": "STMT-JESUS-ENVOY-FOUNDING-BRIDGE-FAILS",
+  "output_statement_id": "ac82074b-e5b0-54bd-b938-605c2e8e0e7e",
   "rule": "constructive-proof",
   "meaning": "With a real God-candidate/Jesus-envoy event, the old bridge would give target founding, immediate calibration would give direct founding, and the extra exclusion denies it. Both extra scope and nonvacuity remain explicit; the weaker calibration permits the opposite verdict.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ESSE-INTENDED-PROFILE",
+  "id": "0d5c04d5-bc05-5607-8614-93f0dbf71d97",
+  "label": "Intended causal-existential profile…: EsseIntendedProfile extends the #1094 IntendedProfile with…",
+  "legacy_id": "DEF-ESSE-INTENDED-PROFILE",
   "term": "intended causal-existential profile under the esse sense of concrete",
   "definition": "EsseIntendedProfile extends the #1094 IntendedProfile with an InAct relation and an esse respect such that the profile's concrete predicate is equivalent to HasEsseInRe InAct esse, its abstract predicate is equivalent to EsseAbstract InAct esse (no esse in re), and the paradigm anchors hold (a reasoner who is concrete, a set containing 2 that is abstract). In such a profile neither concrete nor abstract is constant (EsseIntendedProfile.concrete_not_constant).",
   "basis": "stipulative",

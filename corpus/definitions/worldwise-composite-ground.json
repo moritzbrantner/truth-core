@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WORLDWISE-COMPOSITE-GROUND",
+  "id": "ddf1f9bf-4459-50c3-a5ac-0a8d68361c0c",
+  "label": "World-indexed actual mereology under…: One five-role Bool-world interpretation has the same rigid…",
+  "legacy_id": "DEF-WORLDWISE-COMPOSITE-GROUND",
   "term": "world-indexed actual mereology under one whole-first causal grounding profile",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.WorldwiseCompositeGround.ReplacementCertificate",

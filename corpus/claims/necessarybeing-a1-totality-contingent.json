@@ -1,10 +1,17 @@
 {
-  "id": "NB-SURVEY-A1-TOTALITY-CONTINGENT",
-  "statement_id": "STMT-NB-A1-CONTINGENT-TOTALITY",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "6f53184c-2c41-5f93-be4c-2ed957274bfe",
+  "label": "Unattributed website author, Necessary…: If C is defined as the sum of all contingent things, C…",
+  "legacy_id": "NB-SURVEY-A1-TOTALITY-CONTINGENT",
+  "statement_id": "556f1985-b4bb-5b99-9db1-c6d4410d724c",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A1c, steps 1–2",
   "interpretation": "The sum total C is a defined object, whereas its contingency is explicitly credited to 'your report'. That closure claim is not deduced from the contingency of each member. The alternative A1c2 route repeats it, but this record is tied to A1c.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-SURVEY-TOTALITY", "DEF-NB-SURVEY-CAUSE-RELATUM"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+  "definition_ids": [
+    "5c671680-2a81-587b-97ef-f893441b51bf",
+    "c840c46a-3e60-5fbc-81a3-3633ab562871"
+  ],
+  "disambiguation_ids": [
+    "a73418e5-248f-5bda-b82c-47d92b3151dd"
+  ]
 }

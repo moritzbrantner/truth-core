@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-CH4-SENSE-SUPPORTS-AUTHORITY-GRAMMAR",
+  "id": "daf2931b-b496-575c-9ba1-e977143e9322",
+  "label": "First Vatican Council, Dei Filius Ch. 4…… supports Case-1 bridge, open and unattributed: if…",
+  "legacy_id": "REL-DEI-FILIUS-CH4-SENSE-SUPPORTS-AUTHORITY-GRAMMAR",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH4-DECLARED-SENSE",
+  "subject_id": "cd268dff-ad1f-5a7d-a471-1f08c9655ea0",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-AUTHORITY-GRAMMAR-MAKES-DEFINITIONS-OWN-STANDARD",
+  "object_id": "2b8d88d0-e415-5a05-9aff-ded493da71fd",
   "note": "The authorities' own self-description: the sense of dogma is the sense the Church declared. If authorities fix the grammar, their declarations of sense belong to it. Gap: whether can. II.1 is a dogma."
 }

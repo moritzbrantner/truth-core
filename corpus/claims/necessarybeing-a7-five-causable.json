@@ -1,10 +1,16 @@
 {
-  "id": "NB-SURVEY-A7-FIVE-CAUSEABLE",
-  "statement_id": "STMT-NB-FIVE-CONTINGENTS-POSSIBLY-CAUSEABLE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "67f1d2bf-2043-523c-884c-db7f68a87f69",
+  "label": "Unattributed website author, Necessary…: It can be the case that some cause brings about the…",
+  "legacy_id": "NB-SURVEY-A7-FIVE-CAUSEABLE",
+  "statement_id": "47df9071-0424-5aba-affd-6dc9675a8c27",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A7c, step 1",
   "interpretation": "The conclusion page treats possible causation of a situation with at least five contingent things as something the respondent reported. The source does not independently establish it, and the Lean predicate deliberately leaves cause and metaphysical possibility uninterpreted.",
   "status": "formalized",
-  "definition_ids": ["DEF-NB-COUNT-CAUSABILITY"],
-  "disambiguation_ids": ["DISAMB-NB-CAUSABILITY"]
+  "definition_ids": [
+    "688f2e05-6390-5460-9bd0-190a819df1fa"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5"
+  ]
 }

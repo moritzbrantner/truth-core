@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-BASIS-LAW",
+  "id": "3d4a3a58-4400-5bc0-af56-711fa1380bfa",
+  "label": "Optional instance-to-basis law: For every satisfying candidate x, the supplied grounding…",
+  "legacy_id": "DEF-RUSSELL-BASIS-LAW",
   "term": "optional instance-to-basis law",
   "definition": "For every satisfying candidate x, the supplied grounding interpretation relates its distinct basis fact to its instance fact. This is one optional sufficient explanatory norm, not attributed to Russell, not implied by A1, not assumed true, and not claimed to be the only way a grounding account could work.",
   "basis": "stipulative",

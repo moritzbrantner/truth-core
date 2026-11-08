@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "VATICAN-I-DEI-FILIUS",
+    "source_id": "2dff7669-d6a1-57a6-b9ed-37a01156a636",
     "source_url": "https://www.vatican.va/archive/hist_councils/i-vatican-council/documents/vat-i_const_18700424_dei-filius_la.html",
     "retrieved_at": "2026-10-24T01:22:12Z",
     "sha256": "sha256:cdb6433e97aaa0fd31cd148d513392324c39779f0137402208ad66d19e8d7016",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "VATICAN-I-DEI-FILIUS-CH4",
+      "id": "41bed9ae-e2b4-51ac-a42f-85940f189d2c",
+      "label": "First Vatican Council, Dei Filius, Ch. 4",
+      "legacy_id": "VATICAN-I-DEI-FILIUS-CH4",
       "locator": "ch. 4 (DS 3015-3020)",
       "claim_locator_prefixes": [
         "ch. 4, "
@@ -30,7 +32,9 @@
       "incipit": "CAPUT IV\nDE FIDE ET RATIONE\nHoc quoque perpetuus Ecclesiae catholicae consensus"
     },
     {
-      "id": "VATICAN-I-DEI-FILIUS-CANONS-IV",
+      "id": "a47fccc3-20fb-5e5b-bd39-4a1846d6cb31",
+      "label": "First Vatican Council, Dei Filius, Canons IV, De fide et ratione, with the closing exhortation",
+      "legacy_id": "VATICAN-I-DEI-FILIUS-CANONS-IV",
       "locator": "canons IV, De fide et ratione, with the closing exhortation (DS 3041-3045)",
       "claim_locator_prefixes": [
         "can. IV."

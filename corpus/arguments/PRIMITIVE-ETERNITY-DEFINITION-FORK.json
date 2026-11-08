@@ -1,18 +1,20 @@
 {
-  "id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "id": "b7480ef1-d10f-5264-8860-96236fd03521",
+  "label": "For every supplied duration profile, either the two…, from Excluded middle as a general principle…",
+  "legacy_id": "PRIMITIVE-ETERNITY-DEFINITION-FORK",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-PRIMITIVE-ETERNITY-DEFINITION-FORK",
+  "conclusion_statement_id": "aeaf4816-1220-58d1-b486-1effd7269b38",
   "inference_ids": [
-    "INF-PRIMITIVE-ETERNITY-DEFINITION-FORK"
+    "65ebdf17-8471-53f4-89ed-2cbc9b7fd799"
   ],
   "meaning": "Structural coverage transcription under explicit excluded middle: named calibrations cover or both fail. Philosophical named coverage remains OPEN.",
   "definition_ids": [
-    "DEF-ETERNITY-CALIBRATION-PROFILE",
-    "DEF-BOETHIAN-ETERNAL"
+    "b9cac25b-6e7f-57ff-9d74-21d615912a0e",
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

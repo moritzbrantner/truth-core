@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
+  "id": "92df6b8e-ee4a-515e-96a9-813cf012cdc0",
+  "label": "Scott's axiom A1b: at every world, for every property, if the property is not POSITIVE_5, its…",
+  "legacy_id": "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION",
   "paraphrase": "Scott's axiom A1b (AFP GoedelGod.thy): at every world, for every property, if the property is not positive, its negation is positive.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NonPositiveHasPositiveNegation",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ]
 }

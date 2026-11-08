@@ -1,17 +1,19 @@
 {
-  "id": "ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "id": "242bab7b-7102-501f-b8d8-2d5868a3e4fa",
+  "label": "In the same labeled-arrangement arena, an adequacy judgment accepting only candidates false at the…",
+  "legacy_id": "ORDERING-TRUTHFUL-RIVAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ORDERING-TRUTHFUL-RIVAL-CONTROLS",
+  "conclusion_statement_id": "79c9b120-d35a-509d-8747-9b83469714d8",
   "inference_ids": [
-    "INF-ORDERING-TRUTHFUL-RIVAL-CONTROLS"
+    "46ad18be-d30a-5455-9165-36a2acc6ae2e"
   ],
   "meaning": "In the same labeled-arrangement arena, an adequacy judgment accepting only candidates false at the designated arrangement cannot satisfy the truthful rival. If acceptance of the constantly true candidate is supplied, that candidate is true at the actual arrangement and a constructed distinct swapped-label arrangement, so the truthful rival holds. The truthful rival contradicts CompleteRequiresSelection for the same actual arrangement and adequacy judgment. The positive control proves no real explanatory adequacy.",
   "definition_ids": [
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

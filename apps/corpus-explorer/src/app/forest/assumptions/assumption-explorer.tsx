@@ -13,6 +13,7 @@ import { toggleOpenPath } from "@/lib/tree-open-paths";
 import { StatementBranch } from "../forest-explorer";
 import styles from "../forest.module.css";
 import { ConflictReview } from "./conflict-review";
+import { shortId } from "@/lib/corpus-ids";
 
 function profileFromQuery(values: URLSearchParams, known: ReadonlySet<string>): BeliefProfile {
   return readBeliefProfile(JSON.stringify({ version: 1, accepted: values.getAll("yes"), denied: values.getAll("no") }), known);
@@ -199,7 +200,7 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
           {choices.length ? <ul aria-label="Matching propositions">{choices.map((entry) =>
             <li key={entry.id}><button type="button" onClick={() => focus(entry.id)}>
               <strong>{entry.paraphrase}</strong>
-              <span className={styles.searchDetail}><span>{entry.id}</span>
+              <span className={styles.searchDetail}><span>{shortId(entry.id)}</span>
                 {relevance.completesGoalRoute.has(entry.id) ? <em>Completes a goal-path result route</em> :
                   relevance.goalDistance.has(entry.id) ? <em>On this goal&apos;s support path</em> : null}
                 {scenario.accepted.has(entry.id) ? <em>Assumed true</em> :
@@ -310,7 +311,7 @@ export function AssumptionExplorer({ model, certifiedCores, hasCertifiedEvidence
             activeCores.length ? <>
               <p>These selected propositions jointly activate the following producer-verified incompatible cores. Each certificate is specific to its stated semantic profile.</p>
               <ul>{activeCores.map((core) => <li key={core.key}>
-                <strong>{core.caseId}</strong> · {core.statementIds.map((id) => model.statements[id]?.paraphrase ?? id).join(" + ")}
+                <strong>{core.caseLabel ?? core.caseId}</strong> · {core.statementIds.map((id) => model.statements[id]?.paraphrase ?? id).join(" + ")}
                 <span>{core.profile} · {core.resultIds.map((id, index) => <span key={id}>
                   {index ? ", " : ""}<Link href={"/results/" + id}>{id}</Link></span>)}</span>
               </li>)}</ul>

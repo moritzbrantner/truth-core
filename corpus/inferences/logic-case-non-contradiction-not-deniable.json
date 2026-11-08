@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
+  "id": "dc520b61-4608-55d3-9f36-aa3c1bc2b8ae",
+  "label": "Inside Lean's logic, no being both has and lacks a case predicate in the…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-CASE-NON-CONTRADICTION-NOT-DENIABLE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-CASE-PREDICATE-CONTRADICTION",
+  "output_statement_id": "f96aff82-50fd-525b-8f74-99036a71e2d3",
   "rule": "constructive-proof",
   "meaning": "A witness of P x r ∧ ¬ P x r applies its second component to its first.",
   "assumption_statement_ids": [],

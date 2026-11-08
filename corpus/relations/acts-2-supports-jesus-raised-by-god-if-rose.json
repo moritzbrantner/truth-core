@@ -1,0 +1,11 @@
+{
+  "id": "bea50cef-72d4-5401-9169-0234a47c0695",
+  "label": "New Testament, Acts 2.22-36, especially… supports If Jesus rose from the dead, every GOD_4…",
+  "legacy_id": "REL-ACTS-2-SUPPORTS-JESUS-RAISED-BY-GOD-IF-ROSE",
+  "subject_kind": "claim",
+  "subject_id": "2067fc11-5d1d-5608-b517-16d424627b75",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "7feeb087-3873-5a85-aa20-39cba2e91a92",
+  "note": "Acts reports Peter proclaiming that God raised Jesus. The conditional form (if Jesus rose, every God with the classical attributes raised him) and the exclusion of other agents are the analyst's; Acts reports a proclamation, not this principle."
+}

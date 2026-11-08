@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REGRESS-SCHEMA-GRAPH",
+  "id": "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+  "label": "STRUCTURAL_DEPENDENCY_GRAPH_1, source\u2026: Graph.edge y x points from upstream y to dependent x",
+  "legacy_id": "DEF-REGRESS-SCHEMA-GRAPH",
   "term": "structural dependency graph, source, terminal and fixed-point semantics",
   "basis": "stipulative",
   "definition": "Graph.edge y x points from upstream y to dependent x. A source has no incoming upstream edge; a terminal has no outgoing downstream edge. NoCycles forbids every nonempty finite return path. Controls combines no cycles, no infinite descending Nat-indexed series, and a finite path from each node to some relative source. Map preserves edges and pulls accessibility back. transmission sends S to intrinsic nodes together with nodes having an upstream member in S; its least fixed point is exactly FinitelyGroundedPower, whereas its greatest fixed point can admit source-free activity.",

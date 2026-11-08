@@ -1,12 +1,14 @@
 {
-  "id": "SUPERTASK-UNIT-COST-UNBOUNDED",
+  "id": "401246bf-9cce-5268-b4a4-5e142e968101",
+  "label": "Partial sums of the unit-cost series 1 + 1 +... exceed every finite integer budget, so a task with…",
+  "legacy_id": "SUPERTASK-UNIT-COST-UNBOUNDED",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUPERTASK-UNIT-COST-UNBOUNDED",
+  "conclusion_statement_id": "943ef760-bc5a-5d0a-8d79-4ec45e8ef77c",
   "inference_ids": [
-    "INF-SUPERTASK-UNIT-COST-UNBOUNDED"
+    "7c89294e-fa87-5042-a61e-22b9514bb8d0"
   ],
   "meaning": "A specified divergent-series result: partial sums of stages each costing exactly one unit exceed every natural-number budget. Only unit cost and natural-number budgets are formalized; a general positive real lower bound per stage is not proved here, and the fixed cost is a material hypothesis.",
   "definition_ids": [
-    "DEF-SUPERTASK-UNIT-COST"
+    "eef35a57-8829-5c54-bf41-c0275d03917d"
   ]
 }

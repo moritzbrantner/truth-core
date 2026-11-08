@@ -1,0 +1,17 @@
+{
+  "id": "2824afc8-7575-5d7c-ad32-9183c14d9f98",
+  "label": "Nothing that is being moved in a respect moves itself in that…, by Uses agree from coverage and…",
+  "legacy_id": "INF-POTENCY-SENSE-FORK-NO-SELF-MOTION",
+  "input_statement_ids": [
+    "887dea7d-64aa-54bb-8890-c105cd573f47",
+    "165ea3f2-f51a-5aa3-9e07-0020fddc69cb",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+  ],
+  "output_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
+  "rule": "Uses agree from coverage and exclusivity; modus tollens",
+  "meaning": "Optional summary over POTENCY_1-3. Coverage reads both uses of 'in potency' (what is moved is in potency; nothing is in act and in potency) in selected senses among ADOPTED, INDEPENDENT and CAPACITY; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there in that one sense and in act there, which non-simultaneity excludes. The controls give the mixed reading (moved use CAPACITY, non-simultaneity ADOPTED) with self-motion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

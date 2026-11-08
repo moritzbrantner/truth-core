@@ -1,15 +1,17 @@
 {
-  "id": "CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
-  "statement_id": "STMT-CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "7955436e-de6f-5aae-8843-331505d4cd86",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the contingent-population and restricted-cosmos…",
+  "legacy_id": "CC100-10-SIMPLIFIED-NONCONTINGENT-CAUSE",
+  "statement_id": "8c28df5a-c172-5356-b3f8-7ed40833f8c1",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.23, argument #10 simplified, step 6 citing steps 5 and 4",
   "interpretation": "Retain the source’s noncontingent-cause conclusion, not an automatic necessary-cause alias. Steps4/5 directly provide a cause but do not alone exclude its contingency; the earlier nonoverlap/contingent-overlap exclusion would be additional structure. This abbreviated displayed conditional is an OPEN source commitment, not a formal proof or refutation. No actuality/concreteness/necessity classification dictionary is invented. Attribution is to McIntosh’s presentation only, not the unread references on p24 or Pruss/Rasmussen book on p26. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-SIMPLIFIED-SCOPE"
+    "2c84f385-fd4b-5e7a-9d0d-84476104cf80"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

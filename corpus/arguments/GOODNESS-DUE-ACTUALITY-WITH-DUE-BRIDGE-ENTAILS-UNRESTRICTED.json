@@ -1,20 +1,22 @@
 {
-  "id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
+  "id": "f2ad40c3-a8cf-5888-84f9-8a7d6dcf6f9e",
+  "label": "A thing is GOOD_1 in a given perfection…, from For every bearer and perfection in the… and 1 more",
+  "legacy_id": "GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED",
   "premise_statement_ids": [
-    "STMT-GOODNESS-DUE-TO-FORM-AND-END",
-    "STMT-EVERY-ACTUAL-PERFECTION-IS-DUE-TO-FORM-AND-END"
+    "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
+    "76f32b56-36b5-5a42-b5cb-efa834c27e39"
   ],
-  "conclusion_statement_id": "STMT-GOODNESS-IS-ACTUALITY",
+  "conclusion_statement_id": "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
   "inference_ids": [
-    "INF-GOODNESS-DUE-ACTUALITY-WITH-DUE-BRIDGE-ENTAILS-UNRESTRICTED"
+    "da19799e-5100-5913-9a67-a4ce2b8ec012"
   ],
   "meaning": "In one fixed Frame, use the checked equivalence between unrestricted GoodIn↔Has and AllActualitiesDue under DueActualityThesis. Both the proposed due-goodness thesis and the actual-to-due bridge are explicit premises. The conclusion is exactly the existing unrestricted per-perfection route reading, with the same GoodIn and Has; no real source-sense identification or independent premise truth is inferred.",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOOD-AS-BEING-IN-ACT"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

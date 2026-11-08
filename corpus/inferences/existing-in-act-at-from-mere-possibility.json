@@ -1,0 +1,15 @@
+{
+  "id": "1282b4a3-b6b0-519b-a604-e5ef49a4dcca",
+  "label": "Selected-world one-way contract: each individual represented as…, by Proof by cases, modus tollens",
+  "legacy_id": "INF-EXISTING-IN-ACT-AT-FROM-MERE-POSSIBILITY",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "a62975a9-bcd4-5bc7-83e7-6d4f5d2b2c13",
+    "c85117b0-6113-5460-95d8-5593d1acd49d"
+  ],
+  "output_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
+  "rule": "Proof by cases (excluded middle), modus tollens",
+  "meaning": "Derives the esse contract classically: for an existent x at w, either x is in act of esse, or it is not, in which case it is merely possible (OPEN) and so does not exist at w (OPEN), contradicting its existence. Excluded middle on InAct x esse is used and is listed as a premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

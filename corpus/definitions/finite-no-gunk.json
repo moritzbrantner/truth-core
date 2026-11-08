@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-NO-GUNK",
+  "id": "ce255283-4a83-5a4a-ab5b-d58d01c792cf",
+  "label": "Finite obstruction to every object…: FiniteBoundary says no finite inhabited partial order…",
+  "legacy_id": "DEF-FINITE-NO-GUNK",
   "term": "finite obstruction to every object being composite",
   "lean_declaration": "TruthCore.Mereology.AtomlessFusionProfile.FiniteBoundary",
   "basis": "stipulative",

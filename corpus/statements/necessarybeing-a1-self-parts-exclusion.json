@@ -1,6 +1,13 @@
 {
-  "id": "STMT-NB-A1-SELF-PARTS-EXCLUSION",
+  "id": "49958bf6-f0b5-5aa2-9f4e-951f3ef5fd62",
+  "label": "Nothing can be the cause of its own coming to exist, or have its coming to exist caused…",
+  "legacy_id": "STMT-NB-A1-SELF-PARTS-EXCLUSION",
   "paraphrase": "Nothing can be the cause of its own coming to exist, or have its coming to exist caused exclusively by its own parts. The first A1 route treats this as a reported premise distinct from the general contingent-cause principle.",
-  "definition_ids": ["DEF-NB-SURVEY-CAUSE-RELATUM", "DEF-NB-SURVEY-TOTALITY"],
-  "disambiguation_ids": ["DISAMB-NB-SURVEY-A1-CAUSE"]
+  "definition_ids": [
+    "c840c46a-3e60-5fbc-81a3-3633ab562871",
+    "5c671680-2a81-587b-97ef-f893441b51bf"
+  ],
+  "disambiguation_ids": [
+    "a73418e5-248f-5bda-b82c-47d92b3151dd"
+  ]
 }

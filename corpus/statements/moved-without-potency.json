@@ -1,14 +1,16 @@
 {
-  "id": "STMT-MOVED-WITHOUT-POTENCY",
+  "id": "c2307406-009c-56ad-ba01-0025eeb27a7d",
+  "label": "Ash'arite occasionalist rival: things are moved to new states without being in POTENCY_1 to them…",
+  "legacy_id": "STMT-MOVED-WITHOUT-POTENCY",
   "paraphrase": "Ash'arite occasionalist rival (attribution waits for a witness): things are moved to new states without being in potency to them, because each state is created anew by God and a creature's capacity exists only together with its act.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovedWithoutPotencyReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-POTENCY"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "9f874532-f37e-590b-bec9-a9affb2762ac"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ],
   "note": "Historical candidate identity/strong paraphrase retained, attribution still waiting for a witness. Its existing Lean declaration encodes only the moved/not-potent countertuple, not its divine re-creation explanation. New consequences/forks use the precise analyst sibling STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE; an envelope projection records only that part. No reverse inference to the full historical view is licensed. See docs/notes/megarian-moved-potency-boundary.md."
 }

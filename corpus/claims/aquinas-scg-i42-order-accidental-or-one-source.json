@@ -1,17 +1,19 @@
 {
-  "id": "AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
-  "statement_id": "STMT-AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
-  "source_id": "AQUINAS-SCG",
+  "id": "ba1b6cd1-dfec-57b9-99df-ededfd794314",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: Diverse things as diverse do not by their own natures…",
+  "legacy_id": "AQUINAS-SCG-I42-ORDER-ACCIDENTAL-OR-ONE-SOURCE",
+  "statement_id": "2db0f08c-b1bc-5d7f-80ed-471c40729a68",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [7], argument through accidental-or-first-ordering-cause alternative",
   "interpretation": "Preserve AS DIVERSE and the source’s explanatory fork. Common intention, coordination and diverse causes acting as a unity require interpretation, rather than being excluded merely by numerical difference. The army/general analogy does not independently establish exhaustiveness or prove every genuine joint cause insufficient. Based on the already verified complete Pegis translation; no pinned Latin reading, formal proof or premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-ECONOMY-MOVERS-ORDER"
+    "14ec3301-ad2c-58da-8095-c64bf229bb2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

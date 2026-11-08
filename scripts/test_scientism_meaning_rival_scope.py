@@ -7,6 +7,7 @@ import unittest
 from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import corpus
+from corpus_ids import legacy_uuid  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 
 
@@ -43,30 +44,30 @@ class ScopedRivalTest(unittest.TestCase):
         self.assertEqual(report(legacy)['closed_statements'][target], 'alternatives_refuted')
 
     def test_scoped_scientism_is_not_universal_negative(self):
-        edge = 'REL-STRONG-SCIENTISM-ALTERNATIVE-TO-NON-EMPIRICAL-KNOWLEDGE'
-        self.assertEqual(record('relations', edge)['subject_id'], 'STMT-NO-NONEMPIRICAL-ESTABLISHED')
-        self.counterfactual('STMT-STRONG-SCIENTISM', 'STMT-SOME-NON-EMPIRICAL-ESTABLISHED', edge)
-        argument = record('arguments', 'SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE')
+        edge = legacy_uuid('relation', 'REL-STRONG-SCIENTISM-ALTERNATIVE-TO-NON-EMPIRICAL-KNOWLEDGE')
+        self.assertEqual(record('relations', edge)['subject_id'], legacy_uuid('statement', 'STMT-NO-NONEMPIRICAL-ESTABLISHED'))
+        self.counterfactual(legacy_uuid('statement', 'STMT-STRONG-SCIENTISM'), legacy_uuid('statement', 'STMT-SOME-NON-EMPIRICAL-ESTABLISHED'), edge)
+        argument = record('arguments', legacy_uuid('argument', 'SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE'))
         self.assertEqual(set(argument['premise_statement_ids']),
-            {'STMT-STRONG-SCIENTISM', 'STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE'})
+            {legacy_uuid('statement', 'STMT-STRONG-SCIENTISM'), legacy_uuid('statement', 'STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE')})
 
     def test_meaning_invariance_needs_actual_attitude_loss(self):
-        edge = 'REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING'
-        self.assertEqual(record('relations', edge)['subject_id'], 'STMT-EMOTIVIST-MEANING-FAILS')
-        self.counterfactual('STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT',
-            'STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE', edge)
-        argument = record('arguments', 'INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION')
+        edge = legacy_uuid('relation', 'REL-EXPRESSIVIST-MEANING-ALTERNATIVE-TO-EMOTIVIST-MEANING')
+        self.assertEqual(record('relations', edge)['subject_id'], legacy_uuid('statement', 'STMT-EMOTIVIST-MEANING-FAILS'))
+        self.counterfactual(legacy_uuid('statement', 'STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT'),
+            legacy_uuid('statement', 'STMT-EMOTIVIST-MEANING-IS-EXPRESSED-ATTITUDE'), edge)
+        argument = record('arguments', legacy_uuid('argument', 'INVARIANT-MEANING-WITH-ATTITUDE-LOSS-REFUTES-OCCASION'))
         self.assertEqual(set(argument['premise_statement_ids']), {
-            'STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT',
-            'STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE',
-            'STMT-GEACH-ANTECEDENT-LACKS-FREE-STANDING-ATTITUDE',
-            'STMT-GEACH-MINOR-PREMISE-IS-MORAL'})
+            legacy_uuid('statement', 'STMT-EXPRESSIVIST-MORAL-MEANING-INVARIANT'),
+            legacy_uuid('statement', 'STMT-FREE-MORAL-ASSERTION-EXPRESSES-ATTITUDE'),
+            legacy_uuid('statement', 'STMT-GEACH-ANTECEDENT-LACKS-FREE-STANDING-ATTITUDE'),
+            legacy_uuid('statement', 'STMT-GEACH-MINOR-PREMISE-IS-MORAL')})
 
     def test_kripke_pu_raw_readings_remain_interpretive(self):
-        edge = 'REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION'
+        edge = legacy_uuid('relation', 'REL-KRIPKE-NO-FACT-ALTERNATIVE-TO-PU-GRASP-NOT-INTERPRETATION')
         self.assertEqual(record('relations', edge)['predicate'], 'attacks')
-        self.counterfactual('STMT-KRIPKE-NO-FACT-OF-MEANING',
-            'STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION', edge)
+        self.counterfactual(legacy_uuid('statement', 'STMT-KRIPKE-NO-FACT-OF-MEANING'),
+            legacy_uuid('statement', 'STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION'), edge)
 
 
 if __name__ == '__main__':

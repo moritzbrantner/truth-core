@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-S4-LAWS",
+  "id": "0e8d1891-d22a-53d3-bf53-607fd70fb1a9",
+  "label": "On any reflexive frame, actual full-predicate collapse is equivalent to necessary…, by Direct-proof",
+  "legacy_id": "INF-MODAL-S4-LAWS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-S4-LAWS",
+  "output_statement_id": "58fa71d7-159f-5e6c-9d03-0a2ed2e7ddf6",
   "rule": "direct-proof",
   "meaning": "Compose the K successor-identity theorem with predicate transport for MC persistence; reflexivity supplies the converse. Apply the successor identity theorem to a cluster edge for the unrestricted at-most-one conclusion; reflexivity supplies self-membership for the S4 singleton reading. For symmetric transfer, use the reverse edge from an accessible collapsed world, then transport collapse back along the resulting equality.",
   "assumption_statement_ids": [],

@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
+  "id": "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+  "label": "Nature in the knower: constitution versus cognitive object",
+  "legacy_id": "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
   "term": "nature in the knower: constitution versus cognitive object",
   "sense_definition_ids": [
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE"
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9"
   ],
-  "resolution": "BodilyDeterminacy concerns HasNaturally, whereas UniversalBodilyCognition concerns CanUnderstand. No inference identifies these relations. NaturalBodilyInterference explicitly asserts the disputed restriction linking constitutive bodily nature to cognitive range. Its source attribution does not independently defend it against a representationalist reply; see docs/human-intellect-incorporeal.md."
+  "resolution": "BodilyDeterminacy concerns HasNaturally, whereas UniversalBodilyCognition concerns CanUnderstand. No inference identifies these relations. NaturalBodilyInterference explicitly asserts the disputed restriction linking constitutive bodily nature to cognitive range. Its source attribution does not independently defend it against a representationalist reply; see docs/human-intellect-incorporeal.md.",
+  "term_label": "NATURE_IN_THE_KNOWER_CONSTITUTION",
+  "senses": [
+    {
+      "id": "4c231c69-2291-43dc-a0af-b9518aa4d96f",
+      "label": "NATURE_IN_THE_KNOWER_CONSTITUTION_1",
+      "definition_id": "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.Model"
+    },
+    {
+      "id": "4d9bf808-b9b7-4f77-bcfe-dc79d92301f0",
+      "label": "NATURE_IN_THE_KNOWER_CONSTITUTION_2",
+      "definition_id": "3a9434cc-677b-56b5-b233-8eaee7fceaa9",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.Model.CanUnderstand"
+    }
+  ]
 }

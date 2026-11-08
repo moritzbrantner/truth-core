@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-DE-POTENTIA",
+    "source_id": "256fbf26-eb53-5a27-807e-20756ca6f661",
     "source_url": "https://www.corpusthomisticum.org/qdp5.html",
     "retrieved_at": "2026-11-01T13:49:47Z",
     "sha256": "sha256:f470797614277976e9a030aaa1b33238a8853b30bd4f52443cbde09bcc449d70",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-DE-POTENTIA-Q5-A1-LAT",
+      "id": "ea71c554-86f7-57e0-854b-c7b3ae659724",
+      "label": "Thomas Aquinas, Quaestiones disputatae de potentia, Q.5 a.1",
+      "legacy_id": "AQUINAS-DE-POTENTIA-Q5-A1-LAT",
       "locator": "q.5 a.1 [59411–59453]",
       "claim_locator_prefixes": [
         "q.5 a.1 "

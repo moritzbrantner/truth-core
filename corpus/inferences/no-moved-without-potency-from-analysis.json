@@ -1,0 +1,13 @@
+{
+  "id": "b1d1a29e-3125-5ced-a66a-5b752b04424a",
+  "label": "Negation of the Ash'arite rival moved without POTENCY_1 on the same…, by Aristotelian analysis…",
+  "legacy_id": "INF-NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS",
+  "input_statement_ids": [
+    "0628359b-4a71-5c67-a84b-0fd80104aceb"
+  ],
+  "output_statement_id": "6948dde0-64ef-550b-ae3c-d30b3e113986",
+  "rule": "Aristotelian analysis excludes the rival",
+  "meaning": "Conditional refutation of the Ash'arite occasionalist rival: by Physics III.1's analysis (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), whatever is being moved in a respect is in potency in it, so nothing is moved without potency. The occasionalist, for whom capacity exists only together with its act, must reject that analysis of motion, not only the Prima Via premise derived from it. The analysis stays open, so the refutation does not count for closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

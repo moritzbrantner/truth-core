@@ -1,15 +1,17 @@
 {
-  "id": "STMT-BRUTE-ROOT-DISJUNCTION",
+  "id": "df62ec24-4a65-5030-8354-4aa08414ab74",
+  "label": "For any selected actual world and fixed, rigid candidate-individual carrier: if the world contains…",
+  "legacy_id": "STMT-BRUTE-ROOT-DISJUNCTION",
   "paraphrase": "For any selected actual world and fixed, rigid candidate-individual carrier: if the world contains an actual concrete individual but no actual concrete individual is necessary at all worlds accessible from it, then either there exists an actual contingent concrete root with no incoming ground from another actually existing concrete individual, or the world-local grounding relation is not well-founded. This is a universally conditional, classically derived partition under stipulated semantics, not proof that one horn is metaphysically real or impossible.",
   "lean_declaration": "TruthCore.Causality.BruteFoundationBoundary.BruteRootDisjunctionClaim",
   "definition_ids": [
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-CONCRETE",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

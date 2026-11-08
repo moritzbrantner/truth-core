@@ -1,9 +1,11 @@
 {
-  "id": "INF-FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
+  "id": "e355b8a2-065b-5237-9c2d-fd88d9c6a3c6",
+  "label": "In every world with a finite actual carrier, each actual individual has its own…, by Direct-proof",
+  "legacy_id": "INF-FINITE-ACTUAL-ACYCLIC-NODES-HAVE-SOURCE-PATHS",
   "input_statement_ids": [
-    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC"
+    "97c779cd-6171-5734-93ef-c06b15941437"
   ],
-  "output_statement_id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "output_statement_id": "e52c19d5-932c-5101-acce-6f480c728d8e",
   "rule": "direct-proof",
   "meaning": "Under the existing actual-acyclic profile, retain the source path for each chosen actual node in every finite actual graph. Apply the checked pointwise source-or-regress fork; its source horn already supplies the full path, while its injective anchored Nat-chain horn contradicts finiteness of the actual carrier. This strengthens the earlier merely-some-source corollary without changing that theorem or any frozen data/signature. Actual finiteness is an explicit conditional guard inside the conclusion, not an assertion that any world is finite. No additional philosophical premise, common source, temporal conclusion or root closure is introduced.",
   "assumption_statement_ids": [],

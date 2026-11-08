@@ -1,0 +1,12 @@
+{
+  "id": "6e5a5448-595b-5799-9a9e-025210d604b7",
+  "label": "Necessary-being node, possibilist box… strengthens Necessary-being node, actualist K…",
+  "legacy_id": "REL-NECESSARY-ROOT-BOX-T-STRENGTHENS-ACTUALIST-K",
+  "subject_kind": "statement",
+  "subject_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+  "verification_result_id": "90157e4c-1344-52b1-b01d-7b90f0a4cedf",
+  "note": "Strength registration: in frame class KT, box-existence of n yields n's actual existence at w by the T axiom theorem, so the T node implies the actualist K node."
+}

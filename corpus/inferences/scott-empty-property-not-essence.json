@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "id": "178d1a69-4643-5825-b520-23b53c7c3596",
+  "label": "In Scott's variant, the empty property is an ESSENCE_2 of no individual…, by Definition-unfolding",
+  "legacy_id": "INF-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "output_statement_id": "03337b99-1fb1-50e6-98f4-0045679fad68",
   "rule": "definition-unfolding",
   "meaning": "Unfolding Scott's ess: an essence of x is had by x (its first conjunct), and nothing has the empty property.",
   "assumption_statement_ids": [],

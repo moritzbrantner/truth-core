@@ -1,17 +1,19 @@
 {
-  "id": "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+  "id": "4ec9523b-70d4-560c-9a46-a6b143e0c958",
+  "label": "On the existing four worlds, epistemic blocks {0,1},{2},{3}, atom true at0,2 and atom-invariant…",
+  "legacy_id": "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+  "conclusion_statement_id": "0d4b9c32-b210-57f5-b6a1-3e7cce019574",
   "inference_ids": [
-    "INF-KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR"
+    "e986a0ae-fb38-50a3-a898-74ee33746959"
   ],
   "meaning": "Import the exact prior Fitch restricted-survivor certificate and retain its worlds, epistemic knowledge, atom and admissible family. Enlarge only modal accessibility to the universal relation, extending all old forward witnesses. The model has E inclusion in R and both S5 frames but actual ignorance. Compose the new collapse theorem to show the biconditional cannot hold. This witnesses a stipulated formal interpretation, not actual human knowledge or a blanket vindication of antirealism.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-KNOWABILITY-MODAL-COMPATIBILITY"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "ceabb741-5d93-5f04-ba05-418605b8bd0e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

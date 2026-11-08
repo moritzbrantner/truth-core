@@ -1,16 +1,18 @@
 {
-  "id": "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
+  "id": "3ce5d3ed-6006-5252-9738-e73f73dfe2d2",
+  "label": "The original existing-cause proposition…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "41e17b00-09de-5a6d-a0ea-a1aed538244b"
   ],
-  "conclusion_statement_id": "STMT-UNIVERSE-EXISTING-CAUSE-OR-UNCAUSED-UNDER-ACTUALITY",
+  "conclusion_statement_id": "9050d336-ba52-5bed-a75c-319101843fa0",
   "inference_ids": [
-    "INF-UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY"
+    "55ee102e-ffc0-53ff-a4c2-1af3b418dbe8"
   ],
   "meaning": "The usual existing-cause/no-cause disjunction has an explicit actuality-policy premise. An unguarded finite roster is not taken as exhaustive on generic Ontic.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

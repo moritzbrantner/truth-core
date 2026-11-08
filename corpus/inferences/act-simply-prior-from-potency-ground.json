@@ -1,0 +1,15 @@
+{
+  "id": "4451b8bb-ee26-5638-937f-167e0e8931a3",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a…, by Universal instantiation…",
+  "legacy_id": "INF-ACT-SIMPLY-PRIOR-FROM-POTENCY-GROUND",
+  "input_statement_ids": [
+    "8a1d7012-3a77-5c78-a5b1-30006aa4ae8c",
+    "bf374f2e-df3b-5e8f-bea8-9fcfe680141b",
+    "a4606a6b-8209-58d9-b221-a26a7f31b0e1"
+  ],
+  "output_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+  "rule": "Universal instantiation, existential elimination, conjunction introduction",
+  "meaning": "Act's simple priority over every potency, idle potency included, from three OPEN premises: every potency has a ground, the ground of a potency in a respect is in act in that respect, and the ground of a thing's potency is simply prior to it. The q.3 a.1 reason (reduction only by a being in act) bears on the second premise only for potencies being reduced.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2a0e7f12-b07a-5a60-9e25-9ca67f7bb490",
+  "label": "OPEN reading of ST I q.16 a.3: a thing is intelligible exactly when it has being, and more…",
+  "legacy_id": "STMT-INTELLIGIBILITY-PROPORTIONED-TO-BEING",
+  "paraphrase": "OPEN reading of ST I q.16 a.3 (unumquodque inquantum habet de esse, intantum est cognoscibile): a thing is intelligible exactly when it has being, and more intelligible than another exactly when it is more a being.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.IntelligibilityProportionedToBeing",
+  "definition_ids": [
+    "347a22c0-55c4-54a4-805f-d6473db878e4",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5766de66-8a37-5b04-aa65-9eec53319f50"
+  ],
+  "disambiguation_ids": [
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
+  ]
+}

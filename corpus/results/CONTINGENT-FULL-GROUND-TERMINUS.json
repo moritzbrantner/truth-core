@@ -1,6 +1,8 @@
 {
-  "id": "CONTINGENT-FULL-GROUND-TERMINUS",
-  "argument_id": "CONTINGENT-FULL-GROUND-TERMINUS",
+  "id": "a5046c7e-0610-5841-9bad-2a202dd7b6f8",
+  "label": "Some actually contingent fact has no…, from Excluded middle as a general principle… and 5 more",
+  "legacy_id": "CONTINGENT-FULL-GROUND-TERMINUS",
+  "argument_id": "2d537fc8-3a24-560c-a386-391a2ea3f2b5",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.contingentTerminus",

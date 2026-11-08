@@ -1,26 +1,28 @@
 {
-  "id": "STRONG-SUM3-GREATEST-ENTITY",
+  "id": "e91163e7-722f-5736-aa7c-354c40f070e8",
+  "label": "Some candidate in the supplied fixed…, from The supplied mathematical carrier has an… and 2 more",
+  "legacy_id": "STRONG-SUM3-GREATEST-ENTITY",
   "premise_statement_ids": [
-    "STMT-INHABITED-CARRIER",
-    "STMT-STRONG-SUPPLEMENTATION",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM3"
+    "a3da82ee-d99d-5dd5-8e47-f7ade93a369a",
+    "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
+    "3afbf10d-594a-5098-8b0c-eeb7970433a5"
   ],
-  "conclusion_statement_id": "STMT-MEREOLOGICAL-GREATEST-ENTITY",
+  "conclusion_statement_id": "8460e867-8d7c-52b8-a69b-9ead0d8f46e3",
   "inference_ids": [
-    "INF-STRONG-SUM3-GREATEST-ENTITY"
+    "91fea082-38ab-5806-9041-2132c4805d0a"
   ],
   "meaning": "Convert each nonempty Sum3 fusion to existing Sum2 using the comparison theorem, then apply TruthCore.Results.Mereology.UniversalFusionBoundary.checks first conjunct to the inhabited carrier. Strong supplementation and carrier inhabitation remain explicit; applying the old theorem to bare Sum3 would be invalid.",
   "definition_ids": [
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-BINARY-SUM2-FORMATION",
-    "DEF-OVERLAP-FUSION",
-    "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
-    "DEF-SUPPLEMENTATION-FUSION-RIVAL",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "e35b0145-7ce3-565f-90bd-36aac8b93a86",
+    "5a195922-93f5-5792-aeed-a532e32b1e4b",
+    "93b2805e-b8d8-56d2-bbfd-91d440ab9ba0",
+    "cd7ebdf4-426c-5cde-ae78-3b1a4745f068",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM2-AND-SUM3-FUSION"
+    "27169651-d75e-5c1e-bc20-03d0eb678b81"
   ]
 }

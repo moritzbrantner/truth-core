@@ -1,3 +1,4 @@
+import { legacyUuid } from "./corpus-ids";
 import type { GraphArgument, GraphStatement, PropositionGraph } from "./proposition-graph";
 
 /**
@@ -53,14 +54,14 @@ export type ForestTreeModel = {
 };
 
 const featured: ReadonlyArray<{ id: string; label: string }> = [
-  { id: "STMT-KANT-CONVERSION-NECESSARY-WITNESS", label: "Necessary individual · conditional case" },
-  { id: "STMT-BRUTE-ROOT-DISJUNCTION", label: "Brute root or non-well-foundedness" },
-  { id: "STMT-NECESSARY-CONCRETE-AT", label: "Necessary concrete individual" },
-  { id: "STMT-NECESSARY-FACT-BOUNDARY", label: "Necessary explanatory fact" },
-  { id: "STMT-EXPLANATORY-ADEQUACY-COMPARISON", label: "Explanatory adequacy" },
-  { id: "STMT-CATHOLICISM-TRUE", label: "Catholicism · root case" },
-  { id: "STMT-ROOT-POSITIVE-INTELLECT-WILL", label: "Necessary root · intellect and will" },
-  { id: "STMT-NECESSARY-CLASSICAL-GOD-ROOT", label: "Necessary classical-God root · conditional" },
+  { id: legacyUuid("statement", "STMT-KANT-CONVERSION-NECESSARY-WITNESS"), label: "Necessary individual · conditional case" },
+  { id: legacyUuid("statement", "STMT-BRUTE-ROOT-DISJUNCTION"), label: "Brute root or non-well-foundedness" },
+  { id: legacyUuid("statement", "STMT-NECESSARY-CONCRETE-AT"), label: "Necessary concrete individual" },
+  { id: legacyUuid("statement", "STMT-NECESSARY-FACT-BOUNDARY"), label: "Necessary explanatory fact" },
+  { id: legacyUuid("statement", "STMT-EXPLANATORY-ADEQUACY-COMPARISON"), label: "Explanatory adequacy" },
+  { id: legacyUuid("statement", "STMT-CATHOLICISM-TRUE"), label: "Catholicism · root case" },
+  { id: legacyUuid("statement", "STMT-ROOT-POSITIVE-INTELLECT-WILL"), label: "Necessary root · intellect and will" },
+  { id: legacyUuid("statement", "STMT-NECESSARY-CLASSICAL-GOD-ROOT"), label: "Necessary classical-God root · conditional" },
 ];
 
 const rivalPredicates = new Set(["alternative_to", "attacks", "refutes", "contradicts", "objects_to"]);

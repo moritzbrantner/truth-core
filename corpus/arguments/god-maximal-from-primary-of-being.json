@@ -1,0 +1,28 @@
+{
+  "id": "2a76d37d-1572-5f8c-b780-70dd555da539",
+  "label": "Whatever is GOD_4 is maximal in BEING_2, from primary of BEING_2",
+  "legacy_id": "GOD-MAXIMAL-FROM-PRIMARY-OF-BEING",
+  "premise_statement_ids": [
+    "710dafa5-b329-5909-89ac-3f888081dcef",
+    "82286a91-a610-52d2-9f28-2cc459a75ac7",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c"
+  ],
+  "conclusion_statement_id": "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+  "inference_ids": [
+    "04bf22c8-efa5-5a37-9f22-402c1d6c27c4"
+  ],
+  "meaning": "A second derivation of STMT-GOD-IS-MAXIMAL-IN-BEING (after GOD-MAXIMAL-FROM-CAUSING), through the measure of q.3 a.5 ad 2 rather than causing: whatever is God is the primary of the order of being by approach (OPEN reading, supported by the q.3 a.5 ad 2 claim), and on that order with strict primacy the primary is maximal in being.",
+  "definition_ids": [
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "7bd0b128-b6df-5ef3-9291-71699b91db38"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ]
+}

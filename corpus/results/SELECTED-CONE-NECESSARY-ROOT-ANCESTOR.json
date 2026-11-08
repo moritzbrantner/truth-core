@@ -1,6 +1,8 @@
 {
-  "id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
-  "argument_id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "id": "ef1815c4-25cc-5cbc-9ac5-3a64e9b7df65",
+  "label": "One member of selected’s complete…, from The specified candidate is CONCRETE_6 and… and 3 more",
+  "legacy_id": "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
+  "argument_id": "8cf1e7bd-f096-5067-b97e-c7487db2d449",
   "challenge_module": "TruthCore.Results.Causality.SelectedAncestry.Challenge",
   "solution_module": "TruthCore.Results.Causality.SelectedAncestry.Solution",
   "theorem": "TruthCore.Results.Causality.SelectedAncestry.necessaryRootAncestor",

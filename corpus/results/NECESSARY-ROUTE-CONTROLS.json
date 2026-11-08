@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROUTE-CONTROLS",
-  "argument_id": "NECESSARY-ROUTE-CONTROLS",
+  "id": "d492d6e9-e381-5628-ba20-18e7855c322d",
+  "label": "Formal facts about the #487 bridge",
+  "legacy_id": "NECESSARY-ROUTE-CONTROLS",
+  "argument_id": "a490c114-1ff4-5586-a55d-213d5d09d2fe",
   "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.necessaryRouteControls",

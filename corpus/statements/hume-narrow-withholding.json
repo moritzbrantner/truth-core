@@ -1,15 +1,17 @@
 {
-  "id": "STMT-HUME-NARROW-IDEAS-WITHHOLDING",
+  "id": "b92eeb0b-4312-5505-8389-cd279b3c64e4",
+  "label": "In the bounded I.3.3 §3 reading: the description of an object beginning without a cause cannot be…",
+  "legacy_id": "STMT-HUME-NARROW-IDEAS-WITHHOLDING",
   "paraphrase": "In the bounded I.3.3 §3 reading: the description of an object beginning without a cause cannot be refuted by reasoning from mere ideas. Formalization is an interface parameterized by the relevant description and refutation relation; neither their adequacy nor metaphysical possibility is proved.",
   "lean_declaration": "TruthCore.Modern.Hume.Conceivability.NarrowWithholding",
   "definition_ids": [
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
-    "DEF-HUME-TEST-DEMONSTRABILITY",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+    "c04b2eea-c3a4-5fbe-8cb1-a2a9917ddc69",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

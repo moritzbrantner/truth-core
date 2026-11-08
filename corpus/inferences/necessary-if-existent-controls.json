@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-IF-EXISTENT-CONTROLS",
+  "id": "a47ccb2f-7711-5023-9389-dd788235dafe",
+  "label": "The fixed Bool interpretations certify: an S4 boxed-conditional…, by Verified-finite-countermodels",
+  "legacy_id": "INF-NECESSARY-IF-EXISTENT-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-IF-CONTROLS",
+  "output_statement_id": "eef92037-9447-5920-b588-9d056a13ed98",
   "rule": "verified-finite-countermodels",
   "meaning": "The fixed Bool interpretations certify: an S4 boxed-conditional model with both possibilities and neither necessity; a universal S5 actual-only-conditional model failing the boxed conditional and both necessities; a nonserial empty K5 model with both necessities and neither possibility; a disconnected identity S5 model with opposite component necessities but neither global alternative; and separate constant universal models witnessing each rival possibility while excluding the other.",
   "assumption_statement_ids": [],

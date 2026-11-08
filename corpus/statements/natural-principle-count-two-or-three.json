@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
+  "id": "32dbd6bc-9a4e-5228-b4cd-6d85a602940d",
+  "label": "The natural principles number either two or three",
+  "legacy_id": "STMT-NATURAL-PRINCIPLE-COUNT-TWO-OR-THREE",
   "paraphrase": "The natural principles number either two or three; Physics I.6 leaves the choice between these alternatives unresolved.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrincipleCountTwoOrThreeReading"
 }

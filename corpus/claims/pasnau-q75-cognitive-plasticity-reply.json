@@ -1,16 +1,18 @@
 {
-  "id": "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY",
-  "statement_id": "STMT-Q75-COGNITIVE-PLASTICITY-REPLY",
-  "source_id": "PASNAU-MIND-HUMAN-NATURE",
+  "id": "3be739eb-2606-5418-92f9-d4855799acb9",
+  "label": "Robert Pasnau, Philosophy of Mind and Human…: The taste and sight comparisons in q.75 a.2…",
+  "legacy_id": "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY",
+  "statement_id": "1e9ad2bf-125f-51f4-8b3e-85cffb1dfcb7",
+  "source_id": "5cc64f53-738a-5a24-8817-e5b6901ecd29",
   "locator": "pp.353–357 §The Soul’s Independence from Body, especially p.355",
   "interpretation": "Pasnau accepts the logical form of the first argument but disputes the certainty of its premises. In particular, the sensory comparisons do not establish an analogous cognitive limit for a brain-based intellect. His p.356–357 content/constitution objection addresses the subsequent universal-concept argument, which is not silently identified with this cognitive-range argument.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6"
   ]
 }

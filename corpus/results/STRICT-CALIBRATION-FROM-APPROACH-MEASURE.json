@@ -1,0 +1,12 @@
+{
+  "id": "758c2523-97b8-5a03-b643-d2d947366330",
+  "label": "For two bearers of the selected perfection, MoreIn holds exactly when the…, from approach measure",
+  "legacy_id": "STRICT-CALIBRATION-FROM-APPROACH-MEASURE",
+  "argument_id": "fd940c01-f6ca-5b5a-885c-d5c74b40f468",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.strictCalibrationFromApproachMeasure",
+  "comparator_config": "results/STRICT-CALIBRATION-FROM-APPROACH-MEASURE/comparator.json",
+  "status": "solution-present",
+  "description": "In a calibration frame, if being more such is approaching the primary more nearly at the selected perfection, and the represented degrees are ordered exactly as the nearness to the primary (each thing has as much as it approaches), then among bearers being more such is having a strictly higher represented degree. The approach order is given at the frame's own MoreIn and selected perfection; the transport needs no totality."
+}

@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-SEP-FITCH-KNOWABILITY-GAP-20261106",
+  "id": "7f2910a4-63b1-507c-9e2d-b66dd84aacf2",
+  "label": "Issue #1053 implements the previously bounded SEP intake as analyst formulations: accessed-world…",
+  "legacy_id": "ATTEMPT-SEP-FITCH-KNOWABILITY-GAP-20261106",
   "statement_ids": [
-    "STMT-CC100-124-TRUTH-KNOWABILITY",
-    "STMT-CC100-124-CONTEXTUAL-TRUTH-KNOWLEDGE",
-    "STMT-CC100-124-CONTEXTUAL-COMMON-KNOWER-BRIDGE"
+    "017d1e16-f523-56dd-a1e3-1146f9a32b94",
+    "c9aae1e7-ddcf-5f8c-9ef0-ab37f49fad0d",
+    "46ba3f5d-fd9c-5341-80b4-6ee5663eec40"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Issue #1053 implements the previously bounded SEP intake as analyst formulations: accessed-world Moore-conjunction unknowability; constructive truth-to-double-negated-knowledge; explicit relevant stability upgrade; admissible-domain specialization; global-to-relevant law specialization; exact four-world S5 survivor of globally biconditional knowability for atom-invariant contents, with actual ignorance, no Moore admissibility and E not a subset of R. Exact interpretations, rejected duplicates and remaining bridges persist in docs/notes/sep-fitch-knowability-gap-20261106.md. No source claim, common knower, epistemic-reason-to-knowability bridge, inclusion-minimality, philosophical premise establishment or root closure is inferred.",
   "evidence": [
-    "FITCH-MOORE-UNKNOWABLE",
-    "FITCH-DOUBLE-NEGATED-KNOWLEDGE",
-    "FITCH-STABILITY-UPGRADE",
-    "FITCH-RESTRICTED-INSTANCE",
-    "FITCH-GLOBAL-LAWS-SPECIALIZE",
-    "FITCH-RESTRICTED-SURVIVOR"
+    "53fdb5fd-2bdc-5c06-b76d-ff801207922d",
+    "15e39797-613b-5185-8016-6bd07153e36a",
+    "94234eca-cb93-5bb7-8432-d0c73209b6ba",
+    "2e89386e-9f39-5f5e-bbbe-8f44e88685a4",
+    "bcfc14db-c145-591d-927f-7a66a3d4d28f",
+    "f22550f8-2207-54ef-a3b6-ca102b9e7be0"
   ]
 }

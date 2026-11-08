@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXPLANATORY-SYMMETRY-CORE",
+  "id": "9bd9c077-59f2-525f-ac02-50c14eeda590",
+  "label": "No frame has two worlds a and v that agree on the truth of the whole base…, by Model-construction",
+  "legacy_id": "INF-EXPLANATORY-SYMMETRY-CORE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXPLANATORY-SYMMETRY-CORE",
+  "output_statement_id": "8d6e5f70-dc12-5f60-83e5-89b060f33c8e",
   "rule": "model-construction",
   "meaning": "Prove the bundle inconsistent from the rival's favouring reason and base-fixed transfer, derive the necessary-base corollary, and construct a model for each deleted member.",
   "assumption_statement_ids": [],

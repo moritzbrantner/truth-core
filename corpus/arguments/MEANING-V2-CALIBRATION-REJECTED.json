@@ -1,23 +1,25 @@
 {
-  "id": "MEANING-V2-CALIBRATION-REJECTED",
+  "id": "e393076d-9d0a-596c-b477-23c64c7e4c08",
+  "label": "V2 fails to calibrate the supplied…, from An in-scope cognitively meaningless content…",
+  "legacy_id": "MEANING-V2-CALIBRATION-REJECTED",
   "premise_statement_ids": [
-    "STMT-MEANING-V2-EXCLUDED-TARGET"
+    "ed056065-c976-5bb2-920c-779dd97f45eb"
   ],
-  "conclusion_statement_id": "STMT-MEANING-NOT-V2",
+  "conclusion_statement_id": "d7f2fa30-9254-5214-9714-cc7909c1d7ca",
   "inference_ids": [
-    "INF-MEANING-V2-CALIBRATION-REJECTED"
+    "4fad4c8f-62c5-5cdb-b3c1-4ee6847c2da6"
   ],
   "meaning": "Compose the existing unrestricted-auxiliary construction with the independent excluded target. The V2 admission contradicts its calibration at that exact target; no inference from meaninglessness to untruth.",
   "definition_ids": [
-    "DEF-MEANING-CRITERION-CALIBRATION",
-    "DEF-MEANING-V1-DEFINITION",
-    "DEF-MEANING-V2-DEFINITION",
-    "DEF-MEANING-V3-DEFINITION",
-    "DEF-MEANING-ALL-IN-SCOPE",
-    "DEF-MEANING-NAMED-COVERAGE"
+    "cb72d072-0cc7-5523-8777-a3bd8f1779dc",
+    "174e16a5-0fda-5b18-976c-8f4f239656ae",
+    "86456f28-cadd-5976-9cff-ea771779c5b5",
+    "ab90f56f-7dca-5602-8464-0e24091d0d10",
+    "e527ec55-0b4e-5a8c-be97-d6c4a11fbe37",
+    "7edf53fe-0b8a-5bd2-b023-9e847c9ef46a"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL",
-    "DISAMB-MEANING-DEFINITION-CALIBRATIONS"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde",
+    "b6529c83-9b6c-56f4-a87e-39d31f4f2126"
   ]
 }

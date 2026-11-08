@@ -1,9 +1,13 @@
 {
-  "id": "DEF-CAUSE-OF-BECOMING",
+  "id": "e9630411-ffc6-534a-8509-bf357272dec9",
+  "label": "CAUSE_OF_BECOMING_1, contrasted with being: An agent's causal role in the effect's coming-to-be…",
+  "legacy_id": "DEF-CAUSE-OF-BECOMING",
   "term": "cause of becoming, contrasted with being",
   "definition": "An agent's causal role in the effect's coming-to-be; the q.104 builder example need not be a direct causal role on which its continued esse depends. This is not a claim that coming-to-be and being have no causal connection.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q104-A1-BECOMING-BEING-CAUSE"
-  ]
+    "40aefb2e-c9b3-5bb1-8802-96bbc4e2ed83"
+  ],
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.BecomingBeingFrame.CausesOrigin",
+  "note": "Lean: a primitive parameter of the sense-fork frame (its own declaration, distinct from the other senses of its disambiguation); it carries no definitional body."
 }

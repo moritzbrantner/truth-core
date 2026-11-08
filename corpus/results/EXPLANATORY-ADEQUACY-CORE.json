@@ -1,6 +1,8 @@
 {
-  "id": "EXPLANATORY-ADEQUACY-CORE",
-  "argument_id": "EXPLANATORY-ADEQUACY-CORE",
+  "id": "94ae21f5-ec46-575f-90f2-dec9ce70c27a",
+  "label": "No arena has a REASON_CLOSED_ACCOUNT_4 of a contingent explanandum whose contingent reason relation…",
+  "legacy_id": "EXPLANATORY-ADEQUACY-CORE",
+  "argument_id": "89c9c879-19ec-5f96-96a1-580575502b5c",
   "challenge_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution",
   "theorem": "TruthCore.Results.Explanation.ExplanatoryAdequacy.core",

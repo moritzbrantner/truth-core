@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-184A-KNOWLEDGE-PRINCIPLES-A",
-  "statement_id": "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES",
-  "source_id": "ARIST-PHYS",
+  "id": "31698440-9957-5b71-9561-ee633eeba3e4",
+  "label": "Aristotle, Physics I.1, 184a10-16: For a subject with principles, causes, or elements, scientific…",
+  "legacy_id": "ARIST-PHYS-184A-KNOWLEDGE-PRINCIPLES-A",
+  "statement_id": "a669b17c-91bf-5525-bfba-f89b6e8e9438",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.1, 184a10-16",
   "interpretation": "Methodological reading: for inquiries whose objects have principles, causes, or elements, Aristotle treats knowledge of the primary explanatory starting points as necessary for scientific knowledge. The claim is scoped to such structured inquiries rather than every kind of knowing.",
   "status": "formalized"

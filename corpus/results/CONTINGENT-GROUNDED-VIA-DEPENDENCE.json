@@ -1,0 +1,12 @@
+{
+  "id": "014b2509-7852-5540-80cd-fc0f5fd7dd94",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a…, via dependence",
+  "legacy_id": "CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "argument_id": "dd7ee4b9-8cfa-51a7-a949-0f80527948d8",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaDependence",
+  "comparator_config": "results/CONTINGENT-GROUNDED-VIA-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it."
+}

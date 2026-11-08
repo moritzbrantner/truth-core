@@ -1,12 +1,14 @@
 {
-  "id": "PLATO-THEAET-172B-DEMARCATION-CRITERION-A",
-  "statement_id": "STMT-RESTRICTED-MEASURE-CRITERION",
-  "source_id": "PLATO-THEAET",
+  "id": "ce141265-737e-5932-b182-ca3b7ed61efd",
+  "label": "Plato, Theaetetus 172b: The demarcation criterion of the restricted measure doctrine: in the just…",
+  "legacy_id": "PLATO-THEAET-172B-DEMARCATION-CRITERION-A",
+  "statement_id": "4675f288-6bb1-563f-8296-d0d83ee5af30",
+  "source_id": "fcfc4cb0-ad17-5c8f-a8ff-ce41ddb2e1e1",
   "locator": "172b",
   "interpretation": "Those who hold the restricted doctrine insist that in the just and holy nothing has by nature a being of its own (οὐκ ἔστι φύσει αὐτῶν οὐδὲν οὐσίαν ἑαυτοῦ ἔχον), so that what is commonly decided becomes true when and for as long as it is decided. Read as the motivation of the demarcation criterion for the political part of the domain; whether the criterion is independently motivated or ad hoc is recorded in docs/retorsion-dilemmas.md, not proved.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-PROTAGOREAN-MEASURE"
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41"
   ]
 }

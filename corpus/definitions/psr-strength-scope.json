@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-STRENGTH-SCOPE",
+  "id": "566c9d5f-0cd9-5c6b-87f2-855956d9d35f",
+  "label": "Scope of a PSR: At a world w: FactPSR says every fact true there has a reason",
+  "legacy_id": "DEF-PSR-STRENGTH-SCOPE",
   "term": "scope of a PSR",
   "definition": "At a world w: FactPSR says every fact true there has a reason; ContingentPSR says every contingent truth there has a reason; ExistencePSR says the existence fact of every existent there has a reason; NoBrute says no contingent truth there lacks a reason. None says a reason is good, external or necessitating.",
   "basis": "stipulative",

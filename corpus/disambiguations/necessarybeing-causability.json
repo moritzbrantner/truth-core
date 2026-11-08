@@ -1,6 +1,26 @@
 {
-  "id": "DISAMB-NB-CAUSABILITY",
+  "id": "88d21f57-4108-56a6-8cf9-5ab5f21935a5",
   "term": "causability and cause",
-  "sense_definition_ids": ["DEF-CAUSE-OF-ORIGIN", "DEF-NB-COUNT-CAUSABILITY"],
-  "resolution": "A7's possibly causing a situation with a certain cardinal lower bound is represented only by the index predicate in DEF-NB-COUNT-CAUSABILITY; Aquinas's actual innovative origin-cause relation in DEF-CAUSE-OF-ORIGIN is different. The finite-count theorem does not infer an actual cause or identify the modality, timing, or bearer of a possible cause. A7c steps 4–7 require separate interpretation and additional premises."
+  "sense_definition_ids": [
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "688f2e05-6390-5460-9bd0-190a819df1fa"
+  ],
+  "resolution": "A7's possibly causing a situation with a certain cardinal lower bound is represented only by the index predicate in DEF-NB-COUNT-CAUSABILITY; Aquinas's actual innovative origin-cause relation in DEF-CAUSE-OF-ORIGIN is different. The finite-count theorem does not infer an actual cause or identify the modality, timing, or bearer of a possible cause. A7c steps 4–7 require separate interpretation and additional premises.",
+  "term_label": "CAUSABILITY_AND_CAUSE",
+  "senses": [
+    {
+      "id": "b1403624-2b41-4794-a287-febcf6883d39",
+      "label": "CAUSABILITY_AND_CAUSE_1",
+      "definition_id": "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+      "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading"
+    },
+    {
+      "id": "ab699e7e-d554-4f8b-8cf6-a9bd030f8828",
+      "label": "CAUSABILITY_AND_CAUSE_2",
+      "definition_id": "688f2e05-6390-5460-9bd0-190a819df1fa",
+      "lean_declaration": "TruthCore.Causality.NecessaryBeingSurvey.FiveCausable"
+    }
+  ],
+  "label": "Causability and cause",
+  "legacy_id": "DISAMB-NB-CAUSABILITY"
 }

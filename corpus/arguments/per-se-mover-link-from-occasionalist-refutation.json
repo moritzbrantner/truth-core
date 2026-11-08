@@ -1,0 +1,31 @@
+{
+  "id": "a3e4a247-4707-5052-9840-0970da672cc5",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0300cfd9-7f62-5270-801f-01f860d7b506"
+  ],
+  "conclusion_statement_id": "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
+  "inference_ids": [
+    "76cdd7db-df5c-5e89-a052-41d56ffc577d"
+  ],
+  "meaning": "Every per se mover link is a per se cause link, from the conclusion of NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS (no y moves x as moved without causing x as caused, on the same MovesAsMoved and CausesAsCaused) and excluded middle. The refutation's premises (the per se mover-link analysis, every mover is an efficient cause, second efficient causes cause only as caused) stay OPEN; nothing about the identity of the two relations is claimed beyond inclusion.",
+  "definition_ids": [
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "500ba323-cca5-5b35-8b75-947008256c43"
+  ],
+  "disambiguation_ids": [
+    "81c233d4-01b4-528c-8bbd-7da228443ffe",
+    "002f42cb-3015-5644-80b3-d408538394e6"
+  ],
+  "sense_bridges": [
+    {
+      "term": "SERIES_OF_CAUSES",
+      "from": "1f94774f-4c51-4448-bcf7-898a40648a95",
+      "to": "be30bf4e-59fd-43b8-8c85-905ec7c86387",
+      "statement_id": "0300cfd9-7f62-5270-801f-01f860d7b506"
+    }
+  ],
+  "label": "Whatever moves another only as moved is, in that, an efficient…, from occasionalist refutation",
+  "legacy_id": "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION"
+}

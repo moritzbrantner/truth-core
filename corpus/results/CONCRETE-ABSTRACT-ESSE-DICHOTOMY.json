@@ -1,6 +1,8 @@
 {
-  "id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
-  "argument_id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "id": "b89206dd-bf2d-5ba1-a055-251fe4b8a6cf",
+  "label": "Under the esse criterion every candidate is…, from Excluded middle as a general principle…",
+  "legacy_id": "CONCRETE-ABSTRACT-ESSE-DICHOTOMY",
+  "argument_id": "a4a1c1db-3e20-5791-8b53-621622b782a4",
   "challenge_module": "TruthCore.Results.Ontology.EsseDichotomy.Challenge",
   "solution_module": "TruthCore.Results.Ontology.EsseDichotomy.Solution",
   "theorem": "TruthCore.Results.Ontology.EsseDichotomy.esseDichotomyOfExcludedMiddle",

@@ -1,21 +1,23 @@
 {
-  "id": "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "id": "15675d4d-7eb9-55dc-970f-f41fdc6781c2",
+  "label": "Two closed history controls with explicit CoherentAtNow, reusing old ontology assignments without…",
+  "legacy_id": "STMT-TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
   "paraphrase": "Two closed history controls with explicit CoherentAtNow, reusing old ontology assignments without changing any existence, cause or ground relation. First, boundaryRival child (false,true) exists at every Int time in world false yet is modally contingent there; source (false,false) is a distinct actually existing concrete individual with both a Causes edge and a grounds edge to that child in that same fixed old profile. These are two chosen edges with one witness, not a universal identification of causes and grounds or an assertion of temporal production at every time. Second, the old PSR.Intrinsic ontology target false is absent before Int time0 and present from0 onward in every world; it begins at0 in world false and is present at the designated now=0 in every accessible history (NecessaryAt), hence not ContingentAt. Modal presence is explicitly the now=0 slice, not ever having existed, and worlds remain alternatives rather than times. The controls are separate interpretations with jointly certified properties internally; no single target is asserted both beginning and everlasting. Neither establishes timeless Eternal, metaphysical possibility, a sufficient-reason premise, a causal law for beginnings, or a necessary being in reality. No premise is added to an existing root route; intended and actual root-premise delta none.",
   "lean_declaration": "TruthCore.Models.TemporalHistoryControls.JointControls",
   "definition_ids": [
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-TEMPORAL-HISTORY-EVERLASTING",
-    "DEF-TEMPORAL-HISTORY-BEGINNING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ETERNAL",
-    "DEF-ENDLESS-TEMPORAL-DURATION"
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "4b4e5631-b2c6-5c76-ac4a-2615eb87e17d",
+    "60b36398-a152-552a-a413-ef649e5b7b1f",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "cb13f508-17f7-55b8-bf5d-52959b7a2ee5"
   ],
   "disambiguation_ids": [
-    "DISAMB-TEMPORAL-HISTORY-EXISTENCE-AXES",
-    "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY"
+    "92df85d7-aae7-57ac-b84e-3780ade842f1",
+    "f561d4e4-ab8f-5d20-9926-d63a74df3b4e"
   ]
 }

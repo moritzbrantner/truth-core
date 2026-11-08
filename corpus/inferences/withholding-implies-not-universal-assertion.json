@@ -1,9 +1,11 @@
 {
-  "id": "INF-WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
+  "id": "d99a0065-a2b4-5fd5-9f9f-74afb6452f7a",
+  "label": "The supplied stage-indexed assertion policy does not assert every…, by Constructive-proof",
+  "legacy_id": "INF-WITHHOLDING-IMPLIES-NOT-UNIVERSAL-ASSERTION",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE-WITHHELD-INTUITIONISM"
+    "dd9921a6-cea1-5cb5-ac08-512a4a5b1813"
   ],
-  "output_statement_id": "STMT-NOT-ALL-EXCLUDED-MIDDLE-INSTANCES-ASSERTED",
+  "output_statement_id": "17bf5303-72ee-5dbf-bf6f-056f738cc223",
   "rule": "constructive-proof",
   "meaning": "Project the existing full withholding package's explicit stage/content witness to the exact negative assertion-policy proposition. It is not an inference to object-level denial or falsity of EM.",
   "assumption_statement_ids": [],

@@ -1,0 +1,12 @@
+{
+  "id": "ff0d7f75-e138-5c13-b1c2-68292924dd9e",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed…, from operating",
+  "legacy_id": "INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING",
+  "argument_id": "0c748d66-dd85-5569-a7fd-b6fbaf4e79f6",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.intellectualExerciseRequiresActFromOperating",
+  "comparator_config": "results/INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-OPERATING/comparator.json",
+  "status": "solution-present",
+  "description": "Every attributed intellectual exercise requires its bearer to be in act in some respect, from two OPEN premises: whoever exercises intellect operates, and whatever operates is in act in some respect (the generic, not only transient, operari sequitur esse)."
+}

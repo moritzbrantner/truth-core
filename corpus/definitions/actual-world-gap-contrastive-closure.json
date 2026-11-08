@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
+  "id": "bcca2db5-64bf-5a5d-9df4-6cee81555e8d",
+  "label": "Contrastive closure of reasons at a…: ContrastiveClosure c a: for each rival b of a and each fact…",
+  "legacy_id": "DEF-ACTUAL-WORLD-GAP-CONTRASTIVE-CLOSURE",
   "term": "contrastive closure of reasons at a world",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ActualWorldGap.ContrastiveClosure",

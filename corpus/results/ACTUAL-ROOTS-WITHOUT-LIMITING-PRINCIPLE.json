@@ -1,0 +1,12 @@
+{
+  "id": "359906e4-9ca9-5779-9c37-2fe858b957d1",
+  "label": "Every actual concrete root of the…, from Excluded middle as a general principle… and 7 more",
+  "legacy_id": "ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
+  "argument_id": "d154f88d-170d-5f02-be87-b02a0f813527",
+  "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
+  "theorem": "TruthCore.Results.Causality.RootPurity.rootsWithoutLimitingPrinciple",
+  "comparator_config": "results/ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE/comparator.json",
+  "status": "solution-present",
+  "description": "For an arbitrary actual root: the existing identityOfActualRoot step (q3 a4 dichotomy, no self-causation of distinct esse, esse causes are actual concrete grounds, existing beings are in act) gives represented esse equal to essence; the simply-prior bridge and excluded middle make the root first, so no distinct being is prior to it; component priority and a distinct component in every composite then exclude composition. This generalizes the witnessed-root argument of ROOT-WITHOUT-LIMITING-PRINCIPLE to every actual root and drops its population, whole-roster and dependence inputs, which served only to produce the witness. No existence, necessity or uniqueness of a root is asserted. All eight inputs stay open."
+}

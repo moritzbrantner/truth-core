@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNIVERSE-HAS-EXISTING-CAUSE",
+  "id": "b5879267-0c69-579d-b992-819336a19028",
+  "label": "The universe has a cause: UniverseHasExistingCause o F w:= ∃ c, o.ExistsAt w c ∧ o.Causes w c…",
+  "legacy_id": "DEF-UNIVERSE-HAS-EXISTING-CAUSE",
   "term": "the universe has a cause (of its existence)",
   "definition": "`UniverseHasExistingCause o F w := ∃ c, o.ExistsAt w c ∧ o.Causes w c F.whole`: the spacetime whole has a cause that exists at w. `Causes` is efficient causation of existence (dependence or conservation, as in ST I q.104 a.1), not the cause of a temporal beginning and not a PSR-style reason (DISAMB-PSR-EXPLANATION-CAUSE).",
   "basis": "stipulative",

@@ -1,0 +1,11 @@
+{
+  "id": "3b9a2215-d10b-5453-b684-52d8eb13acc6",
+  "label": "Thomas Aquinas, Summa theologiae I q.25… supports Every existent has causal power",
+  "legacy_id": "REL-Q25-A1-ACTIVE-SUPPORTS-EVERY-EXISTENT-HAS-CAUSAL-POWER",
+  "subject_kind": "claim",
+  "subject_id": "a5d11a9e-5f41-58c0-9c2d-ab707d0e669c",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "ae68972c-175a-5e68-86fb-f69fa30e2054",
+  "note": "ST I q.25 a.1 co. states that each thing is an active principle, active power being the principle of acting on another, according as it is in act. The premise (every existent has causal power) needs two steps the passage does not state: that being in act suffices for active power (the claim attributes only the converse), and that every existent is in act in some respect (ST I q.4 a.1 ad 3 and q.3 a.4 bear on that). Platonists about inert abstracta and epiphenomenalists deny the conclusion."
+}

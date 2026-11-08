@@ -1,0 +1,11 @@
+{
+  "id": "bde98cf1-9195-573d-91cc-f352daa47ec5",
+  "label": "Thomas Aquinas, Summa theologiae I q.3 a.8… supports Every component of anything is in POTENCY_1…",
+  "legacy_id": "REL-Q3A8-SUPPORTS-COMPONENT-IS-POTENTIAL-OR-PARTICIPATED",
+  "subject_kind": "claim",
+  "subject_id": "b3b55883-d1cc-5a12-8e0a-9245e9ed402e",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "86f10ec3-3068-5066-8ba1-3c85baeb1a22",
+  "note": "The third reason of q.3 a.8 excludes matter because it is in potency and a form that is part of a composite because it is participated. It names these two kinds of component; it does not state that every component is one of them. The encoded statement reads the two kinds as exhaustive, and reads 'participated form' as having its being by participation (DEF-PARTICIPATED-ESSE)."
+}

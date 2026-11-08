@@ -1,16 +1,18 @@
 {
-  "id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "id": "5ac9e1b2-ba11-5f10-91d7-2ee486e04a98",
+  "label": "Lemma EmptyEssL of Gödel's 1970 variant: at every world, the empty property is an ESSENCE_1, in the…",
+  "legacy_id": "GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE",
+  "conclusion_statement_id": "4ab7c853-c138-50d8-82f9-26d62bd51da8",
   "inference_ids": [
-    "INF-GOEDEL-1970-EMPTY-ESSENCE"
+    "c2f7a878-7da6-5e1d-b708-73f7b19d5356"
   ],
   "meaning": "Discriminating consequence, from the definition alone: in Gödel's 1970 variant the empty property is an essence of every individual at every world (AFP lemma EmptyEssL). Its counterpart for Scott's essence is SCOTT-EMPTY-PROPERTY-NOT-ESSENCE; the two definitions differ exactly by the conjunct that the bearer has its essence, and this result is the step of GOEDEL-1970-INCONSISTENT that the difference makes available. Formal consequence inside the Lean embedding of the AFP theory (DEF-HOML-ACTUALIST-NECESSITY) only: it shows nothing about what Gödel intended, how his manuscript developed, nor whether the axioms are true.",
   "definition_ids": [
-    "DEF-ESSENCE-GOEDEL-1970",
-    "DEF-HOML-ACTUALIST-NECESSITY"
+    "30ebc834-1c04-5b83-98c5-523c1dfdf436",
+    "9010544f-188a-5d00-83dc-85d0c0b4052d"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

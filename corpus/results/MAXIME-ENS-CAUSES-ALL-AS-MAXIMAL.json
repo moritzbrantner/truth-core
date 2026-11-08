@@ -1,0 +1,12 @@
+{
+  "id": "9b25d298-e491-528d-8e6d-8b155dfe51bc",
+  "label": "A MAXIME_1 (maximal) being causes being in all others",
+  "legacy_id": "MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL",
+  "argument_id": "8c0cce46-6468-56f1-952b-d4580144ce24",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximeEnsCausesAllMaximal",
+  "comparator_config": "results/MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL/comparator.json",
+  "status": "solution-present",
+  "description": "MAXIME_1 branch of the quarta via's last step: some being is MAXIMAL in being, and whatever is MAXIMAL in being causes being in every other being; so some MAXIMAL being causes being in every other being."
+}

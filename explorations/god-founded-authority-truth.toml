@@ -1,0 +1,40 @@
+target = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+
+[[node]]
+id = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+
+[[node]]
+id = "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"
+
+[[node]]
+id = "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"
+
+[[edge]]
+premises = ["STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY"]
+conclusion = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+kind = "bridge"
+status = "rejected"
+note = "Rejected as mapped: a single-premise bridge whose consequent is the conclusion would be a transcription. Replaced by the two-premise derivation below through assistance."
+
+[[edge]]
+premises = ["STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY", "STMT-ASSISTED-DEFINITIVE-PROPOSAL-IS-CONFIRMED"]
+conclusion = "STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-DEFINITIVE-PROPOSAL-CONFIRMED: founding entails assistance; assistance makes definitive proposals confirmed. Sources for assistance (Mt 28.20, Jn 14.26) are lane B and deferred."
+
+[[edge]]
+premises = ["STMT-DEFINITIVE-PROPOSAL-IS-GOD-CONFIRMED", "STMT-GOD-CONFIRMS-ONLY-TRUTH"]
+conclusion = "STMT-BRIDGE-GOD-FOUNDED-AUTHORITY-PROPOSES-ONLY-TRUTH"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH: veracity applied to definitive proposals; the bridge now thickens through STMT-GOD-CONFIRMS-ONLY-TRUTH. Each premise needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."

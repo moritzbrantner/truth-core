@@ -1,9 +1,11 @@
 {
-  "id": "INF-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
+  "id": "daaff461-8d38-5554-90d0-59d5312ab816",
+  "label": "Every causer of the selected spacetime whole exists at the selected world, by Constructive-proof",
+  "legacy_id": "INF-CAUSAL-ENDPOINT-ACTUALITY-STRENGTHENS-WHOLE-CAUSER-ACTUALITY",
   "input_statement_ids": [
-    "STMT-CAUSES-HAVE-ACTUAL-ENDPOINTS-AT"
+    "b699ecfb-08f7-5864-a671-1205c8f5792f"
   ],
-  "output_statement_id": "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST",
+  "output_statement_id": "41e17b00-09de-5a6d-a0ea-a1aed538244b",
   "rule": "constructive-proof",
   "meaning": "Sole-premise restriction of the EXISTING all-edge/both-endpoint actuality policy to selected-whole causers only. No generic Ontic field or original argument is changed.",
   "assumption_statement_ids": [],

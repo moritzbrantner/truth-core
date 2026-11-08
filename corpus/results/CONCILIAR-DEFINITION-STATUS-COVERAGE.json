@@ -1,6 +1,8 @@
 {
-  "id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
-  "argument_id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
+  "id": "0c366677-df4d-55cd-be14-a85afe395585",
+  "label": "Either every defined move is endorsed, every defined…, from Excluded middle as a general principle…",
+  "legacy_id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
+  "argument_id": "834c6ea7-82c6-5ede-88c9-dbcffdcecfde",
   "challenge_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.ConciliarGrammarDefinitions.Coverage.definitionStatusCoverage",
@@ -8,24 +10,24 @@
   "status": "solution-present",
   "description": "Explicit EM yields the two uniform endorsement readings or actual mixed witnesses. Empty Defined domains permit universal overlap; named uniform coverage is not established.",
   "case_split": {
-    "target_statement_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD",
+    "target_statement_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8",
     "cases": [
       {
         "label": "all definitions endorsed",
         "lean_declaration": "TruthCore.Alternatives.Fideism.DefinitionIsOwnStandardReading",
-        "statement_id": "STMT-CONCILIAR-DEFINITION-IS-PRACTICE-OWN-STANDARD"
+        "statement_id": "b247cea8-0b8a-5e19-8c47-5f100c1820c8"
       },
       {
         "label": "no definitions endorsed",
         "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.DefinitionsNeverOwn",
-        "statement_id": "STMT-CONCILIAR-DEFINITIONS-NEVER-OWN-STANDARD"
+        "statement_id": "717b0a61-29ac-585c-8174-2efb862bbccd"
       },
       {
         "label": "actual mixed defined status",
         "lean_declaration": "TruthCore.Alternatives.ConciliarGrammarDefinitions.MixedDefinitionStatus",
-        "statement_id": "STMT-CONCILIAR-DEFINITION-STATUS-MIXED"
+        "statement_id": "93990bef-1be2-5827-83f8-c9376e9d2219"
       }
     ],
-    "survival_result_id": "CONCILIAR-GRAMMAR-ROLE-CONTROLS"
+    "survival_result_id": "fbbeb756-ff0f-56a4-9c32-cc625510b3df"
   }
 }

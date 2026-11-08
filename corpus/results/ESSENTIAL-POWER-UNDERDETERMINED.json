@@ -1,6 +1,8 @@
 {
-  "id": "ESSENTIAL-POWER-UNDERDETERMINED",
-  "argument_id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "id": "f488872b-4bc6-5898-8766-5e1c48d92f84",
+  "label": "An endless predecessor chain satisfies a local power-transmission rule both when every node acts…",
+  "legacy_id": "ESSENTIAL-POWER-UNDERDETERMINED",
+  "argument_id": "4a1c6436-2c96-5ab4-ad06-ca66a39378d9",
   "challenge_module": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.Challenge",
   "solution_module": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.Solution",
   "theorem": "TruthCore.Results.Causality.EssentialPowerUnderdetermined.essentialPowerUnderdetermined",

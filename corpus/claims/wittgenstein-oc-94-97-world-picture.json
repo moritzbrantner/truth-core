@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-OC-94-97-WORLD-PICTURE",
-  "statement_id": "STMT-OC-WORLD-PICTURE-INHERITED-BACKGROUND",
-  "source_id": "WITTGENSTEIN-UEBER-GEWISSHEIT",
+  "id": "9af031b3-7cef-519a-b3b4-fcd304819daf",
+  "label": "Ludwig Wittgenstein, Über Gewißheit §94…: Über Gewißheit §§94-97: my world-picture is not held…",
+  "legacy_id": "WITTGENSTEIN-OC-94-97-WORLD-PICTURE",
+  "statement_id": "2385080d-798a-5fd3-9418-aa5a91248267",
+  "source_id": "fe2e3bc6-e514-5f2c-87a9-2b584166026c",
   "locator": "§94, mein Weltbild habe ich nicht, weil ich mich von seiner Richtigkeit überzeugt habe",
   "interpretation": "§94: the world-picture is 'der überkommene Hintergrund, auf welchem ich zwischen wahr und falsch unterscheide'. §95: the sentences describing it could belong to a kind of mythology, with a role like that of rules of a game. §96-97: hardened and fluid sentences can change places; the river-bed can shift, though bed and water are distinguished.",
   "status": "formalized",

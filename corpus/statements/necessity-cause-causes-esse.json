@@ -1,0 +1,15 @@
+{
+  "id": "8c8b1986-f554-5f66-a2c6-2eb96d183ad5",
+  "label": "Whatever causes the necessity of a thing causes its esse",
+  "legacy_id": "STMT-NECESSITY-CAUSE-CAUSES-ESSE",
+  "paraphrase": "OPEN analyst premise: whatever causes the necessity of a thing causes its esse. The converse direction of STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY's shape; not an identification of the two relations.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.NecessityCauseCausesEsse",
+  "definition_ids": [
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

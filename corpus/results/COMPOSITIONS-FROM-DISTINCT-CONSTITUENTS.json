@@ -1,0 +1,12 @@
+{
+  "id": "09fd79a2-5007-5432-97c6-b2e3d9674abf",
+  "label": "Whatever is composed of matter and form, or has an act of being other…, from distinct constituents",
+  "legacy_id": "COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS",
+  "argument_id": "ccd7d1cd-3bff-561b-9317-c59596947ca6",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.compositionsFromConstituents",
+  "comparator_config": "results/COMPOSITIONS-FROM-DISTINCT-CONSTITUENTS/comparator.json",
+  "status": "solution-present",
+  "description": "Matter-form composites and things whose esse differs from their essence are composite, from an OPEN component analysis (two distinct constituent principles suffice for composition) and two OPEN analyses: a matter-form composite has two distinct constituents, and distinct esse and essence are both constituents. The distinctness of esse from essence is used as the distinctness of the two constituents."
+}

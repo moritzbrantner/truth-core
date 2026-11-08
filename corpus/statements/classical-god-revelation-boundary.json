@@ -1,16 +1,18 @@
 {
-  "id": "STMT-CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "id": "a0197371-b223-5692-b835-73f6f0fcd0c3",
+  "label": "Concrete analyst boundary under supplied excluded middle on the EXACT unchanged…",
+  "legacy_id": "STMT-CLASSICAL-GOD-REVELATION-BOUNDARY",
   "paraphrase": "Concrete analyst boundary under supplied excluded middle on the EXACT unchanged NecessaryClassicalGodRootControl signature: retain its entire Control (old18 configuration, all24 nonlogical interfaces/full25 inputs with EM, same necessary source and nine-attribute witness, unique classical God and necessary non-God effect). Explicit GodExists and GodHasClassicalAttributes hold, while RevelationPossibleAndRecognizable and the phase1 CatholicismTrue root both fail. Revelation fails at the God source because its capability field is False; the root fails separately because FoundedAsTeachingAuthority is False, not as a consequence of revelation failure. Not a complete model of every root route premise or floor; finite respects/empty potency and all prior role-model applicability limits remain. No metaphysical/theological possibility, actual history, exhaustive cross-route failure incompatibility or root settlement is established. Attribution deferred.",
   "lean_declaration": "TruthCore.Causality.ClassicalGodRevelationBoundary.Control",
   "definition_ids": [
-    "DEF-NECESSARY-CLASSICAL-GOD-ROOT-CONTROL",
-    "DEF-CATHOLICISM-TRUE-PHASE-1",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-REVELATION-RECOGNITION-PROFILE"
+    "1ca108ac-2c2b-5ed8-8031-00e8293ff7cd",
+    "e5f5bc14-e629-5a12-b8da-24944704f1f0",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-TRUE",
-    "DISAMB-REVELATION-CAPABILITY-AND-PRACTICE-UPTAKE"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "1fd4651d-77a7-5f25-9a1c-e28df367c602"
   ]
 }

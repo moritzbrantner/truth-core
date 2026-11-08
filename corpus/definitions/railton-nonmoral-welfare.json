@@ -1,10 +1,12 @@
 {
-  "id": "DEF-RAILTON-NONMORAL-WELFARE",
+  "id": "7d48c639-2ece-50e2-b94d-487a62bb4418",
+  "label": "Non-moral goodness for a person: A pursuit or outcome is good for the actual person insofar as it…",
+  "legacy_id": "DEF-RAILTON-NONMORAL-WELFARE",
   "term": "non-moral goodness for a person",
   "definition": "A pursuit or outcome is good for the actual person insofar as it satisfies an objective interest, whose basis exists in their actual constitution and circumstances. This is not moral rightness and need not be the idealized agent’s own welfare. GoodFor and SatisfiesObjectiveInterest encode the proposed iff.",
   "basis": "sourced",
   "lean_declaration": "TruthCore.English.Railton.WelfareReading",
   "claim_ids": [
-    "RAILTON-175-WELFARE"
+    "c5d6423a-8385-59b4-a9f4-47841cf2a81a"
   ]
 }

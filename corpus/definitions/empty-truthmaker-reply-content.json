@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EMPTY-TRUTHMAKER-REPLY-CONTENT",
+  "id": "c56051ea-ed0b-5c6f-a6e8-22a919a0b7eb",
+  "label": "Abstract, necessary-proposition…: ReplyArena uses two universally accessible worlds with a…",
+  "legacy_id": "DEF-EMPTY-TRUTHMAKER-REPLY-CONTENT",
   "term": "abstract, necessary-proposition, absence, totality and external reply content",
   "basis": "stipulative",
   "definition": "replyArena uses two universally accessible worlds with a concrete object only at false and a true concrete-negative only at true. An abstractObject exists at both; absence and totalEmpty tokens exist only at true; totalOne has rigid singleton inventory and exists only at false; external exists only at false yet is stipulated to make the negative at true. AbsenceContent equates absence-token eligibility with the negative; TotalityContent exactly matches concrete inventory to rigid empty/singleton content. The separate necessaryArena has no concrete extension anywhere, an always-existing reified-proposition candidate, and necessary negative truth; necessaryMaking is additional, not entailed by truth.",

@@ -1,0 +1,10 @@
+{
+  "id": "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+  "label": "Limitation of a perfection by a capacity: LimitedBy y r z: y has the perfection r only to the…",
+  "legacy_id": "DEF-PERFECTION-LIMITED-BY",
+  "term": "limitation of a perfection by a capacity (LimitedBy y r z)",
+  "definition": "LimitedBy y r z: y has the perfection r only to the measure of z's capacity, as the heat of wood is bounded by what the wood can take, or a form received in matter is contracted to this thing (ST I q.7 a.1 co.). It is relative to a limiter z and generalizes EsseLimited (DEF-ESSE-LIMITED) from esse to any perfection. It is not a comparison of degree between two bearers (MoreIn, DEF-MORE-IN): that a limited possessor is exceeded by an unlimited one is the separate open premise STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED. In Lean a parameter B → R → B → Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.UnlimitedPossessionExceedsLimited",
+  "note": "Stipulative analyst notion, attribution deferred. Its only constraints are STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT, STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION and STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED. The source reading AQUINAS-ST-I-Q7-A1-ESSE-LIMITED-ONLY-THROUGH-RECEPTION restricts the limitation-by-reception warrant to esse; extending it to every perfection is the analyst's open bridge."
+}

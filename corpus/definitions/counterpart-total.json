@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPART-TOTAL",
+  "id": "48d9f8e6-fe6a-553b-ad00-2c08c4e97c4e",
+  "label": "Total in issue #470: For each existing source and each accessible target world, at least one\u2026",
+  "legacy_id": "DEF-COUNTERPART-TOTAL",
   "term": "Total in issue #470",
   "definition": "For each existing source and each accessible target world, at least one existing counterpart is linked.",
   "basis": "stipulative",

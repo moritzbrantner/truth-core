@@ -1,6 +1,8 @@
 {
-  "id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
-  "argument_id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "id": "55f00e1a-848f-571d-bcf5-69bd96750d79",
+  "label": "No application of a rule, and no…, from An application of a rule is DETERMINED_2… and 1 more",
+  "legacy_id": "WITTGENSTEIN-INTERPRETATION-REGRESS",
+  "argument_id": "865ce2ca-0141-56bb-b7c9-c98e54b953a4",
   "challenge_module": "TruthCore.Results.Wittgenstein.InterpretationRegress.Challenge",
   "solution_module": "TruthCore.Results.Wittgenstein.InterpretationRegress.Solution",
   "theorem": "TruthCore.Results.Wittgenstein.InterpretationRegress.interpretationRegress",

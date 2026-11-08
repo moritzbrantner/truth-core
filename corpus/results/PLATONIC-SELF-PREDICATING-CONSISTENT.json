@@ -1,6 +1,8 @@
 {
-  "id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
-  "argument_id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "id": "916aaceb-c9a8-526a-b736-a68e772cdbd8",
+  "label": "Formal compatibility only: a three-entity, one-quality interpretation satisfies the explicitly…",
+  "legacy_id": "PLATONIC-SELF-PREDICATING-CONSISTENT",
+  "argument_id": "34ee90bd-45ee-514d-900f-f3e36dd597f1",
   "challenge_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Challenge",
   "solution_module": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.Solution",
   "theorem": "TruthCore.Results.Comparison.PlatonicForms.SelfPredicatingConsistent.selfPredicatingConsistent",

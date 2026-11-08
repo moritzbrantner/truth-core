@@ -1,7 +1,9 @@
 {
-  "id": "INF-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "id": "454d29cf-c6c2-53ad-9fe9-7afe550ada82",
+  "label": "An endorsement disagreement and limited knowledge coexist with truths…, by Constructive-proof",
+  "legacy_id": "INF-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PILOT-EPISTEMIC-DIFFERENCES-MODEL",
+  "output_statement_id": "c95f2e56-fbd6-5da9-8371-36c6e3219af5",
   "rule": "constructive-proof",
   "meaning": "Explicit model separating endorsement disagreement and limited knowledge from variation in truth.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
-  "argument_id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "id": "ca248df7-7b9a-593f-84ca-f7d2864bac20",
+  "label": "Disjunction of the explicit set, Form or…, from A relevant supplied mathematical fact lacks…",
+  "legacy_id": "MATH-COUNTERCASE-IN-NAMED-CAUSAL-FORK",
+  "argument_id": "179378e2-941b-54ea-96f0-79a3776b93b8",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedFromMath.namedFromMath",

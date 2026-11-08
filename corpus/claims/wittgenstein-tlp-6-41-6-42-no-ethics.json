@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-6-41-6-42-NO-ETHICS",
-  "statement_id": "STMT-TLP-NO-PROPOSITIONS-OF-ETHICS",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "4da1a2cf-e205-527d-8d5c-f03c950ea34b",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 6.41-6.42: the sense of the world must lie…",
+  "legacy_id": "WITTGENSTEIN-TLP-6-41-6-42-NO-ETHICS",
+  "statement_id": "6d829efb-2ff6-5de2-b801-bfa0b469764f",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 6.42, Darum kann es auch keine Sätze der Ethik geben",
   "interpretation": "6.41: 'Der Sinn der Welt muss ausserhalb ihrer liegen ... es gibt in ihr keinen Wert'. 6.42: 'Darum kann es auch keine Sätze der Ethik geben. Sätze können nichts Höheres ausdrücken.'",
   "status": "formalized",

@@ -1,14 +1,16 @@
 {
-  "id": "INF-MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
+  "id": "9e28d8ae-2429-5150-a8d0-2a1d7c145d44",
+  "label": "No intellectual exercise attributed to the designated principle is free of bodily…, by Reductio",
+  "legacy_id": "INF-MIND-CAUSAL-PREMISES-EXCLUDE-PER-SE-OPERATION",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-PAPINEAU-COMPLETENESS-OF-PHYSICS",
-    "STMT-MENTAL-OCCURRENCES-HAVE-PHYSICAL-EFFECTS",
-    "STMT-EACH-MENTAL-CAUSE-NOT-ALL-OVERDETERMINED",
-    "STMT-INTELLECTUAL-EXERCISE-TOKENED",
-    "STMT-PHYSICAL-BASIS-IS-BODY-SHARING"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "579a990c-ae1f-5606-8632-3063b1d3bb6f",
+    "cd2a0453-b9ff-5597-bfa3-73f103b37a61",
+    "d41b7fb4-69d6-56ac-b6fb-5bfb325c6ffb",
+    "3489bd0c-51ce-5644-936f-529fa878f11a",
+    "4b48eac2-2420-5cb5-a846-d7fba58879ed"
   ],
-  "output_statement_id": "STMT-NO-PER-SE-INTELLECTUAL-OPERATION",
+  "output_statement_id": "171e4b66-0354-54a4-9afe-3401a047bcc1",
   "rule": "reductio",
   "meaning": "Suppose a per-se operation. Tokening gives a mental token; the causal premises make it physically based; the basis/sharing bridge gives bodily sharing, contradicting the operation being free of it.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
+  "id": "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+  "label": "Occurring borne thought as an…: For every b and e, Occurs e and Bears b e imply attribution of e…",
+  "legacy_id": "DEF-COGITO-THINKING-AS-INTELLECTUAL-EXERCISE",
   "term": "occurring borne thought as an intellectual exercise",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.BorneThoughtExercisesIntellect",

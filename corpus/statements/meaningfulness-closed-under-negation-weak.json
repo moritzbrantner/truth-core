@@ -1,32 +1,34 @@
 {
-  "id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
+  "id": "3f979107-8ac1-557c-8e10-b3cfa3a7ba78",
+  "label": "Weak version: for every sentence, if its negation is meaningful, so is its double negation; that…",
+  "legacy_id": "STMT-MEANINGFULNESS-CLOSED-UNDER-NEGATION-WEAK",
   "paraphrase": "Weak version: for every sentence, if its negation is meaningful, so is its double negation; that is, negation closure only for negated sentences.",
   "lean_declaration": "TruthCore.Logic.Verificationism.MeaningClosedUnderNegationOfNegations",
   "definition_ids": [
-    "DEF-MEANING-NEGATION-CLOSURE",
-    "DEF-VERIFICATION-PRINCIPLE",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "63b0c6a5-8aa2-576e-a144-1557b7cffae9",
+    "d3d9f3a5-7791-552c-8271-5cb1aeccfb15",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFICATIONIST-MEANINGFUL"
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
   ],
   "self_evident": {
     "basis": "common_ground",
     "justification_ids": [
-      "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK"
+      "7ac3d198-dba6-518c-8592-a7407fa62cb1"
     ],
-    "question_statement_id": "STMT-VERIFICATION-PRINCIPLE",
+    "question_statement_id": "12527c0e-3a83-5639-91e4-3eab30b2ec23",
     "positions": [
       {
-        "statement_id": "STMT-HEMPEL-DEDUCTIVE-CRITERION-SEARCH-USELESS",
+        "statement_id": "3d17ecdd-d1ba-5d18-8eac-beb37db10c7f",
         "claim_ids": [
-          "SEP-HEMPEL-2-3-NEGATION-CLOSURE-WEAK"
+          "7ac3d198-dba6-518c-8592-a7407fa62cb1"
         ]
       }
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-SOME-MEANINGFUL-NEGATION-DOUBLE-NEGATION-NOT-MEANINGFUL"
+        "ce0e7645-7a7b-5a83-af85-8696ac079c70"
       ]
     },
     "owner_approval": {

@@ -1,0 +1,13 @@
+{
+  "id": "f0ac3489-f24b-5b0e-bb6f-accd45c8b717",
+  "label": "OPEN capacity clause alone: at the selected world, whatever has causal…, by Conjunction elimination",
+  "legacy_id": "INF-CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "input_statement_ids": [
+    "e27489c3-7419-5123-8476-386633e62532"
+  ],
+  "output_statement_id": "61b6e188-39aa-57d9-9e0b-dedc05226995",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,16 @@
+{
+  "id": "f6677834-6328-5588-a288-0e0d815876ff",
+  "label": "For every y, perfection r and z, if y has r and y's having r is not limited by z, then y has r in…",
+  "legacy_id": "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY",
+  "paraphrase": "OPEN analyst premise (measure reading, other direction): for every y, perfection r and z, if y has r and y's having r is not limited by z, then y has r in a degree strictly beyond z's capacity for r. It presupposes that the degree of any haver of r is comparable with z's capacity for r; without comparability, 'not within z's capacity' would not give 'beyond it'.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.UnlimitedHavingExceedsCapacity",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "19190b6e-359f-590c-b434-4e6f5803da4f"
+  ]
+}

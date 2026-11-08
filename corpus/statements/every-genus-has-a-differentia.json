@@ -1,12 +1,14 @@
 {
-  "id": "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
+  "id": "b90bbae6-7979-581c-aca2-e278b2309336",
+  "label": "Every GENUS_1 has at least one differentia dividing it",
+  "legacy_id": "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
   "paraphrase": "Every genus (in the strict sense) has at least one differentia dividing it.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Metaphysics.EveryGenusHasADifferentiaReading",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-DIFFERENTIA"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "8e804dfb-9144-5400-86b6-ba168c35f75c"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5"
   ]
 }

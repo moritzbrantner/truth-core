@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
-  "argument_id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "id": "672b50a6-4a88-54d7-89d1-4148780a5cfc",
+  "label": "Some subject satisfying the substance predicate bears some occurring thought, from occurrence",
+  "legacy_id": "COGITO-SUBSTANTIAL-SUBJECT-FROM-OCCURRENCE",
+  "argument_id": "32e48858-6ae9-5848-8226-ed73a7f58da4",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.substantialSubjectOfThought",

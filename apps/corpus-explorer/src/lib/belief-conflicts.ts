@@ -2,6 +2,9 @@
 export type CertifiedBeliefCore = {
   key: string;
   caseId: string;
+  /** Display labels of the case and results; ids stay opaque. */
+  caseLabel?: string;
+  resultLabels?: Record<string, string>;
   profile: string;
   statementIds: string[];
   resultIds: string[];

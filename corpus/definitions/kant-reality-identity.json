@@ -1,5 +1,7 @@
 {
-  "id": "DEF-KANT-REALITY-IDENTITY",
+  "id": "c7c2f208-9651-5351-afc3-d5f3423ef415",
+  "label": "Numerical uniqueness of most-real…: MostRealUnique requires any two candidates possessing every…",
+  "legacy_id": "DEF-KANT-REALITY-IDENTITY",
   "term": "numerical uniqueness of most-real candidates",
   "definition": "MostRealUnique requires any two candidates possessing every positive feature to be equal. This is an explicit stronger sufficient reconstruction of Kant’s “does not differ” claim; identity is not inferred from qualitative sameness without this premise.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-NECESSARY-PARTS-FUSION",
+  "id": "67108022-696b-5536-b15b-4d3b88695cee",
+  "label": "Selected necessary-parts fusion with…: NecessaryParts m w x is exactly the fixed Set of p with p ≤…",
+  "legacy_id": "DEF-SELECTED-NECESSARY-PARTS-FUSION",
   "term": "selected necessary-parts fusion with explicit necessity warrant",
   "lean_declaration": "TruthCore.Mereology.NecessaryPartFusionDecomposition.SelectedNecessaryPartsFusionAt",
   "basis": "stipulative",

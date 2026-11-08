@@ -1,17 +1,19 @@
 {
-  "id": "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES",
+  "id": "fb322793-9175-591d-b5b2-7bc3989c90da",
+  "label": "Grounding necessity in the selected…: Trogdon distinguishes persistence of the grounding claim…",
+  "legacy_id": "DEF-GROUNDING-NECESSITATION-SOURCE-SENSES",
   "term": "Grounding necessity in the selected source readings",
   "definition": "Trogdon distinguishes persistence of the grounding claim, necessary existence of some grounded fact, and entailment of grounded truth by full grounds; his target is the third. Leuenberger distinguishes Entailment from Internality and proposes whole-fact-base supervenience. Richardson distinguishes essential real-definition what-grounding from contrastive difference-making why-grounding. None of these source readings is identical by definition to existential support or a common well-founded rank.",
   "basis": "stipulative",
   "note": "Exact pinned locators and source/type boundaries are in docs/notes/modal-grounding-priority-950.md; source statements are prose-only. This is an analyst vocabulary audit; the linked primary claims source its component readings, not an identity across their frameworks.",
   "claim_ids": [
-    "TROGDON-FULL-GROUND-NECESSITATION",
-    "TROGDON-NECESSARY-TARGET-PARTIAL-GROUND",
-    "TROGDON-SIGNIFICANCE-ESSENCE-ROUTE",
-    "LEUENBERGER-ENTAILMENT-INTERNALITY",
-    "LEUENBERGER-BLOCKER-BLOCKER",
-    "LEUENBERGER-WHOLE-FACT-SUPERVENIENCE",
-    "RICHARDSON-WHAT-GROUNDING",
-    "RICHARDSON-WHY-GROUNDING"
+    "4b4bc558-0d05-5e6c-b6c6-0a4a16928c4a",
+    "010967dd-85e0-599b-b8f2-2d0e532edc5d",
+    "d359e09c-45f2-59cd-8ddb-79f99d5b25d2",
+    "44b715b0-95b3-5996-8a30-d31184c58dd2",
+    "71ad3d96-1833-5800-8d8f-c9feeea19486",
+    "188159b7-91d3-5f1c-a6c0-a3ba15e4a0f1",
+    "1c6a18df-8623-5c21-8496-3341eb8cb86f",
+    "569751bc-8437-561b-9e26-185ab7cb9f75"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
+  "id": "0775ff1c-7133-54eb-86ae-30dbd446e6d7",
+  "label": "Standpoint-local accidental feature\u2026: A RoleSchema has occurs:B\u2192Feature\u2192Prop\u2026",
+  "legacy_id": "DEF-ACCIDENTAL-FEATURE-ORIGIN-ROLES",
   "term": "standpoint-local accidental feature and distinct origin roles",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.AccidentalFeatureOrigin.RoleSchema",

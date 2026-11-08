@@ -1,5 +1,7 @@
 {
-  "id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
+  "id": "8623e9c2-a80c-589b-869a-ca316b126726",
+  "label": "The natural principles cannot number exactly one, since the contrary principles established in the…",
+  "legacy_id": "STMT-NATURAL-PRINCIPLE-COUNT-NOT-ONE",
   "paraphrase": "The natural principles cannot number exactly one, since the contrary principles established in the preceding inquiry are not one.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.NaturalPrincipleCountNotOneReading"
 }

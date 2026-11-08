@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-K-COUNTERMODELS",
-  "argument_id": "MODAL-K-COUNTERMODELS",
+  "id": "a827a9da-e552-5315-ac60-10fdc7db5fb8",
+  "label": "Explicit four-state K_FORK_4 and chain-fork models have possible full-predicate and…",
+  "legacy_id": "MODAL-K-COUNTERMODELS",
+  "argument_id": "52bc91d6-c2d3-578a-9f42-36187d756011",
   "challenge_module": "TruthCore.Results.Modal.K.Countermodels.Challenge",
   "solution_module": "TruthCore.Results.Modal.K.Countermodels.Solution",
   "theorem": "TruthCore.Results.Modal.K.Countermodels.checks",

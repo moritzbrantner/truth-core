@@ -1,6 +1,8 @@
 {
-  "id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
-  "argument_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "id": "b73d1c10-2a79-5c98-a7a6-be5729672b63",
+  "label": "Exact negation of the original…, from Some actual moved tuple is not in POTENCY_1…",
+  "legacy_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "argument_id": "cba6df93-a4d1-5c19-8b87-6dbbded760a3",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.CountercaseFailure.countercaseFailure",

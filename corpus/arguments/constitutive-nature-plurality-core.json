@@ -1,36 +1,38 @@
 {
-  "id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
+  "id": "1c85d603-bc98-5d94-be4c-bc43a4eed3c2",
+  "label": "Logical falsity, from Numerically different individuals cannot… and 5 more",
+  "legacy_id": "CONSTITUTIVE-NATURE-PLURALITY-CORE",
   "premise_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-    "STMT-DISTINCT-FIRST-UNMOVED-MOVERS-EXIST",
-    "STMT-CONSTITUTIVE-CONTENT-COMPLETE",
-    "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
+    "9c2a87d8-6e76-5da6-b96c-754efbbc0f4f",
+    "dad1a21d-f65c-5d9e-99d2-59c9f248a0b0",
+    "55890498-a250-5f23-9277-bd563a557378"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-CONSTITUTIVE-NATURE-PLURALITY-CORE"
+    "801a2006-706b-5268-8592-41476308541a"
   ],
   "meaning": "Imported conditional first-mover uniqueness contradicts explicit witnesses of two distinct first movers. All six assumptions use the same predicates and represented nature assignments. This is a conditional incompatibility; no member is selected for rejection, no bridge is defended and no root premise is discharged.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
-    "DEF-Q11-COMMON-DIVINE-NATURE",
-    "DEF-CONSTITUTIVE-CONTENT-COMPLETENESS",
-    "DEF-FIRST-MOVER-CONTENT-ACT-ALIGNMENT",
-    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
-    "DEF-CONFIGURATION-FALSE"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "06ecb76b-03a1-52cc-975c-5dbfa74857ba",
+    "248eac32-3f30-5fa3-a34a-7c218d01021b",
+    "86b6b285-4fc6-530b-80e6-16e41aeaf4d6",
+    "ca2f148a-8d2c-5953-8de8-15aac104c667",
+    "cd8adf42-1085-5d98-a799-1d086e5a3adb",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "efedeffa-2bfa-569a-93d8-d4f682817086"
   ]
 }

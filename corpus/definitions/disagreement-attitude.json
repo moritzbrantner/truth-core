@@ -1,12 +1,14 @@
 {
-  "id": "DEF-DISAGREEMENT-IN-ATTITUDE",
+  "id": "27212984-237d-5c5c-b9c3-9c9743b2a6c2",
+  "label": "Disagreement or clash in attitude: Conative opposition, such as accepting versus rejecting a…",
+  "legacy_id": "DEF-DISAGREEMENT-IN-ATTITUDE",
   "term": "disagreement or clash in attitude",
   "definition": "Conative opposition, such as accepting versus rejecting a practical attitude, distinguished from contradictory beliefs. Stevenson’s moral-disagreement reading records ClashInAttitude when one person accepts and another rejects a moral sentence. Blackburn’s proposed validity explanation also invokes conflicting attitudes, while the objection distinguishes such pragmatic incoherence from logical inconsistency. No theorem here identifies these relations.",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-COGNITIVISM-3-5-STEVENSON-DISAGREEMENT-IN-ATTITUDE",
-    "SEP-MORAL-COGNITIVISM-4-1-BLACKBURN-HIGHER-ORDER-ATTITUDES",
-    "SEP-MORAL-COGNITIVISM-4-1-PRAGMATIC-INCOHERENCE-OBJECTION"
+    "03768e51-6586-5e05-a915-2806e264d691",
+    "7eceed66-2064-52be-bcb9-1d4b7e378ddc",
+    "a2ddffcf-7d02-5947-8ee8-8916b3ee5cd3"
   ],
   "lean_declaration": "TruthCore.English.VanRoojen.MoralDisagreementInvolvesAttitudeClashReading"
 }

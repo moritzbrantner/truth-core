@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-PRIMARY-ANALOGATE-UNCAUSED",
+  "id": "762d5fac-f5a3-58b1-b9c7-1539f204d6a4",
+  "label": "Bounded investigation of candidate arist met 993b principles uncaused in being",
+  "legacy_id": "ATTEMPT-PRIMARY-ANALOGATE-UNCAUSED",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
-    "STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING",
-    "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH"
+    "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+    "70e98bb5-a96d-5d69-870d-e6bd0df2b813",
+    "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
   ],
   "kind": "reading",
   "outcome": "blocked",
   "summary": "Bounded investigation of candidate ARIST-MET-993B-PRINCIPLES-UNCAUSED-IN-BEING. Reused the attribution uniqueness, restricted causal comparative, order-not-first-being and first-mover-first-being types and maximal cause-exclusion type; no new maximality countermodel or vocabulary. Materialized/read ARIST-MET-II-1 (993b24–31) and newly pinned AQUINAS-IN-METAPH-II-L2 in full. In Metaph II lect2 n7 [81861] makes the principles’ uncausedness a reason for maximal truth rather than deriving uncausedness from qualified synonymy. N8 [81862] supplies participation/essence reasoning for separated substance as cause of corporeal substance, without establishing the separated principle’s lack of cause or identity with the unique primary analogate. N6 [81860] invokes common name/ratio of truth, not an unrestricted cause-more-being rule. N11 [81865] announces a following regress argument rather than delivering it in this passage. Exact findings and rejected readings are preserved in docs/being-not-a-genus.md, Uncaused principles. No claim, proof, premise substitution or philosophical discharge is added; root-premise delta 0. Queue audit2026-10-31: removed exhausted source candidate ARIST-MET-993B-PRINCIPLES-UNCAUSED-IN-BEING. Its named source contexts have been read and the available conditional interfaces inspected; the remaining semantic/applicability obligation is preserved here and in the linked note. This retires repeated ingestion, not the open premise; no closure or root-premise change.",
   "blocker": "Need independently defended applicability of the uncaused-principles clause to the same primary analogate selected by attribution, without presupposing its firstness/uncausedness. Simple-priority-to-cause-of-being also remains open. Plural principles of heavenly bodies alone do not establish uniqueness, an uncaused maximum or a unique first being.",
   "evidence": [
-    "QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM",
-    "QUARTA-VIA-ATTRIBUTION-RESTRICTS-CAUSE-MORE-SUCH",
-    "QUARTA-VIA-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING",
-    "AQUINAS-ST-I-Q2-A3-FIRST-MOVER-IS-FIRST-BEING",
-    "MAXIMAL-BEING-EXCLUDES-DISTINCT-ESSE-CAUSE"
+    "a6418c8f-3332-58eb-ad04-726bd231fb5e",
+    "3ecb36b2-9a7a-5be2-bf24-c8b673ff52d2",
+    "55cf2419-0392-52c2-b5d2-ff1dd432a52a",
+    "c1d4025c-051b-564a-8df8-e22df81cf7b7",
+    "87b74b57-f514-5a1a-b6fe-fb33e4c837f4"
   ]
 }

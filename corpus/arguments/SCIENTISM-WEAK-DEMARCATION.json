@@ -1,21 +1,23 @@
 {
-  "id": "SCIENTISM-WEAK-DEMARCATION",
+  "id": "1ee8ea63-2220-5aca-a04b-86acf1919b4b",
+  "label": "Second-order test for WEAK_2 scientism…, from The WEAK_2 thesis's own formulation is a… and 1 more",
+  "legacy_id": "SCIENTISM-WEAK-DEMARCATION",
   "premise_statement_ids": [
-    "STMT-WEAK-SCIENTISM-IN-STRONG-SCOPE",
-    "STMT-WEAK-SCIENTISM-NOT-EMPIRICALLY-ESTABLISHED"
+    "c7c38492-0687-5174-9782-b10f34dd46e6",
+    "fefdc728-bbd1-505e-86f5-d4387b4d06ef"
   ],
-  "conclusion_statement_id": "STMT-WEAK-SCIENTISM-DEMARCATION-OUTCOME",
+  "conclusion_statement_id": "7c902319-7f1c-59d4-8dbb-a5edf28f500f",
   "inference_ids": [
-    "INF-SCIENTISM-WEAK-DEMARCATION"
+    "eb7498bb-5b83-59bb-9b2a-efa74799f959"
   ],
   "meaning": "Second-order test for weak (restricted) scientism, by the demarcation test: inside its own domain the weak thesis is not established if it holds; outside its domain, if established, it concedes a non-empirically established claim and strong scientism fails.",
   "definition_ids": [
-    "DEF-WEAK-SCIENTISM-RESTRICTED",
-    "DEF-STRONG-SCIENTISM",
-    "DEF-DEMARCATION-RESTRICTION",
-    "DEF-SCIENTISM-EPISTEMIC-FRAME"
+    "9424e383-2872-5587-8b54-c915516aa395",
+    "fee8ffa5-ec96-5f31-8e71-525bb6249f68",
+    "3332e115-51be-5870-b228-c7a5e4bb938e",
+    "24040dac-2a8c-5e99-95f3-d2ca0f4c406d"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENTISM-STRENGTH"
+    "610878b5-cb48-550f-9908-1297495daf7e"
   ]
 }

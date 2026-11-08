@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-SUBJECTLESS-CONTROL",
-  "argument_id": "COGITO-SUBJECTLESS-CONTROL",
+  "id": "6cffb105-b943-5f7a-9bbd-9bb5d3e760de",
+  "label": "There is a one-episode interpretation in which a thought occurs and no subject bears any occurring…",
+  "legacy_id": "COGITO-SUBJECTLESS-CONTROL",
+  "argument_id": "9ad7c2df-6d69-5be3-91f9-8ddd79389367",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.subjectlessControl",

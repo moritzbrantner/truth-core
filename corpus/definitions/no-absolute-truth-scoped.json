@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
+  "id": "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+  "label": "NO_ABSOLUTE_TRUTH_1: NoAbsoluteTruth T scope: no content in scope is absolutely true, i.e. the norm…",
+  "legacy_id": "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
   "term": "no absolute truth (scoped)",
   "definition": "`NoAbsoluteTruth T scope`: no content in scope is absolutely true, i.e. the norm with that scope and an unmeetable standard holds for absolute truth. Global when every content is in scope.",
   "basis": "stipulative",

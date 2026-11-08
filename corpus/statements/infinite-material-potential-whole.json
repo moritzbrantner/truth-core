@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITE-MATERIAL-POTENTIAL-WHOLE",
+  "id": "f344ef3a-36b6-5432-815a-7dab4dbd3e26",
+  "label": "The infinite is matter for the completeness of magnitude and potentially whole rather than an…",
+  "legacy_id": "STMT-INFINITE-MATERIAL-POTENTIAL-WHOLE",
   "paraphrase": "The infinite is matter for the completeness of magnitude and potentially whole rather than an actually complete whole; qua infinite it is contained rather than containing.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteAsMaterialPotentialWholeReading"
 }

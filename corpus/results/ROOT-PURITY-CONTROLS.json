@@ -1,0 +1,12 @@
+{
+  "id": "e58c6980-912a-582d-8237-7549bfed8e69",
+  "label": "Finite one-world interpretations; excluded middle is not asserted",
+  "legacy_id": "ROOT-PURITY-CONTROLS",
+  "argument_id": "0127dce6-9839-564f-bd2f-84ab576c64b1",
+  "challenge_module": "TruthCore.Results.Causality.RootPurity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootPurity.Solution",
+  "theorem": "TruthCore.Results.Causality.RootPurity.controls",
+  "comparator_config": "results/ROOT-PURITY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite one-world interpretations; excluded middle is not asserted. With two ungrounded candidates, a flat q3 profile (every being in act, nothing caused, represented esse equal to essence) and no priority or composition, the seven non-logical inputs hold and both roots are unlimited: if every determination is non-pure, the bridge and strict pure actuality at the roots fail; if every determination is pure, both hold. With one candidate grounding the other, strict pure actuality at the roots holds while the bridge fails at the unlimited non-root, so the bridge ranges beyond what the roots need. With a single first mover that is simple and first in being, a non-pure determination makes the bridge and strict pure actuality for first movers fail. Satisfiability of encoded bundles, not metaphysical possibility."
+}

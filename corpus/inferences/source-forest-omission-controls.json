@@ -1,7 +1,9 @@
 {
-  "id": "INF-SOURCE-FOREST-OMISSION-CONTROLS",
+  "id": "23678f61-c52d-50e3-ba25-6657290fe063",
+  "label": "The fixed fork, isolated pair, integer chain and empty graph witness the separate…, by Direct-proof",
+  "legacy_id": "INF-SOURCE-FOREST-OMISSION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SOURCE-FOREST-OMISSION-CONTROLS",
+  "output_statement_id": "1c8ec5b3-fdc8-5cf2-882b-0cbd86b9ee61",
   "rule": "direct-proof",
   "meaning": "Verify the four fixed data tables: V-shaped connected WF/acyclic graph has distinct sources when unique immediate predecessor is dropped; isolated nodes drop connectivity; the connected left-unique integer chain has no source and is not WF; Empty retains universal structural conditions but has no node or source. Integer indices are nodes, not time. These are logical controls, not metaphysical possibility claims. The same Comparator config checks the frozen LeftUnique atMostOne/rooted corollaries.",
   "assumption_statement_ids": [],

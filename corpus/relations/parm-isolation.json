@@ -1,8 +1,10 @@
 {
-  "id": "REL-PARM-ISOLATION",
+  "id": "15155ef9-972a-5fb2-9af7-96d641baf89f",
+  "label": "In the isolated-mode reconstruction…, from… attacks Some human mode has direct cognitive access…",
+  "legacy_id": "REL-PARM-ISOLATION",
   "subject_kind": "argument",
-  "subject_id": "PARM-EPISTEMIC-OBJECTION",
+  "subject_id": "7d61dd05-c23c-5ca0-98ba-632c14fac4e6",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-PARM-HUMAN-ROUTE"
+  "object_id": "bce99980-bc76-5837-8e36-333828f4018f"
 }

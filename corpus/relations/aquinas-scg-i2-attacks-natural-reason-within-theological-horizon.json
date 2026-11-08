@@ -1,9 +1,11 @@
 {
-  "id": "REL-AQUINAS-SCG-I2-ATTACKS-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "id": "7e8e0a5d-6865-5c4e-b2a9-80dac5d84b54",
+  "label": "Thomas Aquinas, Summa contra gentiles I.2…… attacks Fideist reply to the shared-reason bridge…",
+  "legacy_id": "REL-AQUINAS-SCG-I2-ATTACKS-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
   "subject_kind": "claim",
-  "subject_id": "AQUINAS-SCG-I-2-NATURAL-REASON-ALL-ASSENT",
+  "subject_id": "41aa4c59-6eb1-5b27-8e71-6b1a26c7cb3a",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NATURAL-REASON-WITHIN-THEOLOGICAL-HORIZON",
+  "object_id": "9c236646-c801-58c8-b599-4c2c6fe0ee09",
   "note": "Against the reply: SCG I.2 invokes natural reason, as that to which all must assent, against Muslims and pagans, who share no scriptural authority with Christians, so the natural reason of this usage reaches outsiders to Christianity. Whether it reaches outsiders to every theological horizon would need the further, unrecorded bridge that the pagans meant are non-theists, so the reply's 'fellow theists' is not excluded by this text. Not a refutation: stated, not established, and Aquinas's usage, not the council's text."
 }

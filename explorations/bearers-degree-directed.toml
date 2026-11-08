@@ -1,0 +1,28 @@
+target = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+
+[[node]]
+id = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-SELECTED-BEARER-DEGREES-COMPARABLE"
+
+# NEW in round 3 (specs/round3-fourth-way.toml), OPEN.
+[[node]]
+id = "STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE"
+
+[[edge]]
+premises = ["STMT-SELECTED-BEARER-DEGREES-COMPARABLE"]
+conclusion = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+kind = "derivation"
+status = "certified"
+argument = "DIRECTED-BEARERS-FROM-COMPARABLE-DEGREES"
+note = "The higher of two comparable bearers bounds both."
+
+[[edge]]
+premises = ["STMT-SOME-SELECTED-BEARER-HAS-GREATEST-DEGREE"]
+conclusion = "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED"
+kind = "derivation"
+status = "certified"
+argument = "DIRECTED-BEARERS-FROM-GREATEST-BEARER"
+note = "A greatest-degree bearer bounds every pair."

@@ -1,0 +1,39 @@
+target = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+
+[[node]]
+id = "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+
+[[node]]
+id = "STMT-GOD-HAS-INTELLECT"
+
+[[node]]
+id = "STMT-GOD-HAS-WILL"
+
+[[node]]
+id = "STMT-CONFIRMING-IS-ASSERTING"
+
+[[node]]
+id = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+
+[[node]]
+id = "STMT-GOD-KNOWS-ONLY-TRUTHS"
+
+[[node]]
+id = "STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"
+
+[[edge]]
+premises = ["STMT-CONFIRMING-IS-ASSERTING", "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS", "STMT-GOD-KNOWS-ONLY-TRUTHS"]
+conclusion = "STMT-GOD-CONFIRMS-ONLY-TRUTH"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-GOD-CONFIRMS-ONLY-TRUTH: veracity split into sincerity and infallibility; Knows is not factive by definition. Each premise needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS). Dei Filius ch. 3 supports the two halves (supports relations)."
+
+[[edge]]
+premises = ["STMT-CLASSICAL-ATTRIBUTES-INCLUDE-PERFECT-INTELLECT-AND-GOOD-WILL"]
+conclusion = "STMT-GOD-ASSERTS-ONLY-WHAT-HE-KNOWS"
+kind = "derivation"
+status = "certified"
+note = "NAMING-VERACITY-SINCERITY-FROM-ATTRIBUTES: asserts only what he believes (good will) and believes only what he knows (perfect intellect). The primitive HasClassicalAttributes field is not unfolded; the bridge supplies the two consequences. Open: linking them to STMT-GOD-HAS-INTELLECT / STMT-GOD-HAS-WILL needs a typed account of what a perfect intellect and good will exclude."

@@ -1,0 +1,21 @@
+{
+  "id": "f74369e3-3874-5652-a51b-322e29e72aaa",
+  "label": "Each pair of selected-perfection bearers has a bearer at a represented…, from greatest bearer",
+  "legacy_id": "DIRECTED-BEARERS-FROM-GREATEST-BEARER",
+  "premise_statement_ids": [
+    "3b078622-0815-5f3c-9bc0-703de1c53a68"
+  ],
+  "conclusion_statement_id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
+  "inference_ids": [
+    "7732534a-55e6-5973-bb10-597efa4c783a"
+  ],
+  "meaning": "If some bearer of the selected perfection is at its greatest represented degree, that bearer bounds every pair of bearers, so the bearers are directed. The existence of a greatest bearer is an OPEN analyst premise; directedness does not give it back on infinite carriers.",
+  "definition_ids": [
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

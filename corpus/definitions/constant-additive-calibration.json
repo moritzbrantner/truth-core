@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONSTANT-ADDITIVE-CALIBRATION",
+  "id": "bcf84d19-5115-5e99-9197-a54a59499617",
+  "label": "Constant-additive measurement and…: For input carrier X and an additive commutative group V, a…",
+  "legacy_id": "DEF-CONSTANT-ADDITIVE-CALIBRATION",
   "term": "constant-additive measurement and shared calibration anchor",
   "definition": "For input carrier X and an additive commutative group V, a profile predicts f(x)+b using a signal function f and one input-independent bias b. SameReadings compares all predicted outputs. OffsetShift changes f to f+d while replacing b by b−d. The calibration clause supplies x₀ and k such that both compared signal functions equal k there; it does not encode knowledge, independence, or correctness of that supplied reference.",
   "basis": "stipulative",

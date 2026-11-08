@@ -1,0 +1,13 @@
+{
+  "id": "e73ce9e5-4dc0-54c6-8dce-916a2bd44311",
+  "label": "Necessary-being node, possibilist box reading in frame class KT: there…, by Conjunction… (2)",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-B-STRENGTHENS-BOX-T",
+  "input_statement_ids": [
+    "12e11583-51e9-5c42-a51f-0debdb152818"
+  ],
+  "output_statement_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
+  "rule": "Conjunction elimination (KTB frames are reflexive)",
+  "meaning": "Strength registration: the KTB node implies the T node.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

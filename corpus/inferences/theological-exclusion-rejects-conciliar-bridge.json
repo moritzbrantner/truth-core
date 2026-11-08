@@ -1,11 +1,13 @@
 {
-  "id": "INF-THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
+  "id": "b63610f2-5bdc-5222-bfed-ed276ba6f061",
+  "label": "Exact negation of conciliar definition is practice own standard: not every…, by… (2)",
+  "legacy_id": "INF-THEOLOGICAL-EXCLUSION-REJECTS-CONCILIAR-BRIDGE",
   "input_statement_ids": [
-    "STMT-CONCILIAR-DEFINITIONS-ARE-THEOLOGICAL",
-    "STMT-THEOLOGY-EXCLUDED-FROM-OWN-STANDARDS",
-    "STMT-DEFINED-MOVE-EXISTS"
+    "9a438367-e1cc-511d-befc-c657f184bbbe",
+    "d799b4ff-5c08-559d-a99b-93b878e75f7f",
+    "351278c7-dbf6-5279-8e18-35f979e3ade6"
   ],
-  "output_statement_id": "STMT-CONCILIAR-DEFINITION-BRIDGE-REJECTED",
+  "output_statement_id": "36cfac19-cbe4-54d9-b078-14215e44f62d",
   "rule": "constructive-proof",
   "meaning": "Compose the explicit theological-content/exclusion consequence with the actual-witness conflict. This is the exact normative bridge negation, requiring all three premises; no descriptive label or first-order-life fact alone supplies it.",
   "assumption_statement_ids": [],

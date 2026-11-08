@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SHARED-BELIEF-POOL-CLOSURE",
+  "id": "16d99bc0-3a25-5a72-a30e-3387324a6bfd",
+  "label": "SHARED_BELIEF_POOL_CLOSURE_1: A Pool is one extensional predicate selecting formulas",
+  "legacy_id": "DEF-SHARED-BELIEF-POOL-CLOSURE",
   "term": "shared belief-pool closure",
   "definition": "A Pool is one extensional predicate selecting formulas. Closed L B requires B contain every L-semantic consequence of every finite list of its selected members. JointClosureLaw explicitly assumes the SAME B contains g and is closed under both K3 and LP, then derives selection of C. Neither actual belief nor normative authority is built into selection.",
   "basis": "stipulative",

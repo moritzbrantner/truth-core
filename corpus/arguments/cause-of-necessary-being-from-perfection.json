@@ -1,0 +1,27 @@
+{
+  "id": "142d6218-de88-533c-9a87-6c69c546b803",
+  "label": "Whatever causes the being of a NECESSARY_1 being causes its necessity, since its…, from perfection",
+  "legacy_id": "CAUSE-OF-NECESSARY-BEING-FROM-PERFECTION",
+  "premise_statement_ids": [
+    "f8ba2429-b4f1-5712-a4d3-798213963d34",
+    "d483248e-677b-5120-989c-ccc30debac75",
+    "3c20c835-0af9-52d9-bbff-32fb22ceaff6"
+  ],
+  "conclusion_statement_id": "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+  "inference_ids": [
+    "4ae223f9-e02e-5eb3-9fa7-199e73d5071e"
+  ],
+  "meaning": "Transcription (single application): the proof applies the causing-in-necessity premise, whose consequent is the conclusion's, after the other two premises supply its antecedent, so under invariant 16 it does not expand the target. Through the existing open premise that the cause of a thing's being causes each perfection it is in act of, with two OPEN premises: a necessary being is in act of its necessity read as a perfection (contested: necessity may be a mode, not a perfection), and causing a thing in that respect causes its necessity.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "d428227e-f000-571e-8990-fa7d556009c1",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

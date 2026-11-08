@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
-  "statement_id": "STMT-AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
-  "source_id": "AQUINAS-SCG",
+  "id": "d259e584-887f-592d-87de-7521ee8afd1a",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42: If God is predicated univocally of two beings, they…",
+  "legacy_id": "AQUINAS-SCG-I42-UNIVOCAL-NATURE-BEING-FORK",
+  "statement_id": "f1fd503b-711a-5f7e-98da-1c4401f6c31f",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [12]",
   "interpretation": "One nature INNOTION is not silently one numerical nature or esse. The source’s distinct-esse-to-quiddity/esse-nonidentity step is a substantive individuation premise, not independent proof from a shared word. Equivocal God names are expressly outside the intended hypothesis. Based on the verified complete Pegis translation chapter; no pinned Latin reading or formal proof/premise truth is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

@@ -1,9 +1,11 @@
 {
-  "id": "INF-SCOTT-FLAWLESSNESS",
+  "id": "8bd31ca3-c23a-5976-9016-ebe70935de43",
+  "label": "AFP GoedelGod.thy, theorem Flawlessness: at every world, a GOD_LIKE_5 being has…, by Modus-ponens",
+  "legacy_id": "INF-SCOTT-FLAWLESSNESS",
   "input_statement_ids": [
-    "STMT-SCOTT-NON-POSITIVE-HAS-POSITIVE-NEGATION"
+    "92df6b8e-ee4a-515e-96a9-813cf012cdc0"
   ],
-  "output_statement_id": "STMT-SCOTT-GOD-LIKE-FLAWLESS",
+  "output_statement_id": "81d437cf-deea-5f51-b9c4-7f487c0d1f87",
   "rule": "modus-ponens",
   "meaning": "AFP Flawlessness (metis A1b G_def). If Φ is not positive its negation is (A1b), and a God-like being has every positive property, so it lacks Φ.",
   "assumption_statement_ids": [],

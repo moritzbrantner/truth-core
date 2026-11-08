@@ -1,15 +1,17 @@
 {
-  "id": "CC100-8-PERSONAL-EXPLANATION-CONCLUSION",
-  "statement_id": "STMT-CC100-8-PERSONAL-EXPLANATION-CONCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "cb93e79e-49d1-5e70-a906-1e852920be28",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: A proposition explaining the actual-world BCCP must…",
+  "legacy_id": "CC100-8-PERSONAL-EXPLANATION-CONCLUSION",
+  "statement_id": "58941439-250a-54f7-b8bf-85a42a8b9ce7",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.16, argument #8, steps 6–7 under step 5",
   "interpretation": "The personal-explanation restriction is a displayed commitment, not independently defended personality, intellect or will of a concrete bearer. The joint conclusion remains conditional on the preceding actual-explanans claim. No witness is identified with an existing God-route individual. Attribution is to McIntosh’s presentation only; the cited work on the following reference page has not been read.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

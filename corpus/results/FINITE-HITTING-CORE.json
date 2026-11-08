@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-HITTING-CORE",
-  "argument_id": "FINITE-HITTING-CORE",
+  "id": "2cc72623-16c5-5890-be3e-8e6bfb8a4f36",
+  "label": "Logical falsity, from The supplied component has universal… and 3 more",
+  "legacy_id": "FINITE-HITTING-CORE",
+  "argument_id": "f7a78b34-9fd5-50b0-acec-949cbf1d6af2",
   "challenge_module": "TruthCore.Results.Modal.FiniteHitting.Challenge",
   "solution_module": "TruthCore.Results.Modal.FiniteHitting.Solution",
   "theorem": "TruthCore.Results.Modal.FiniteHitting.hittingCore",

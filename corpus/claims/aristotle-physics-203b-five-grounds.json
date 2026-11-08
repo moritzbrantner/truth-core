@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-203B-FIVE-GROUNDS-INFINITE-A",
-  "statement_id": "STMT-FIVE-GROUNDS-BELIEF-IN-INFINITE",
-  "source_id": "ARIST-PHYS",
+  "id": "ab179e5c-45d7-5f5f-94d1-b697ca2ec291",
+  "label": "Aristotle, Physics III.4, 203b15-25: Belief in the infinite is especially motivated by time…",
+  "legacy_id": "ARIST-PHYS-203B-FIVE-GROUNDS-INFINITE-A",
+  "statement_id": "ca0e210c-791a-5773-8197-54ab2f678b3d",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.4, 203b15-25",
   "interpretation": "Inventory of the five principal considerations Aristotle says motivate belief in the infinite. It records reasons requiring later assessment, not five established proofs of an actually infinite entity.",
   "status": "formalized"

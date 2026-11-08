@@ -1,7 +1,9 @@
 {
-  "id": "INF-PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "id": "54e3ef4c-dc1d-5baa-b6bf-40940645262a",
+  "label": "The unchanged five-being, two-world PartFreePlurality joint…, by Reuse a fixed joint…",
+  "legacy_id": "INF-PLURAL-ROOT-CONFLUENCE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-PLURAL-ROOT-CONFLUENCE-CONTROL",
+  "output_statement_id": "c91db136-3b14-53d9-9f61-b4bba9a57ac9",
   "rule": "Reuse a fixed joint interpretation and the existing rooted-from-source theorem to expose its failed confluence hypothesis",
   "meaning": "Import and apply the unchanged PartFreePlurality.jointControl. View its exact original world-local cause/support relation on the existing actual-node subtype. Rank gives WF, the actual effect joins all nodes undirectedly, and rank-zero left/right are distinct sources with a shared instrument effect. Any common upstream extension of those sources would equal both. Import SourceWitness.rooted_from_source: supplying confluence together with the proved connectivity and source existence would give unique rootedness, contradicted by the same sources. No original joint-control commitment is dropped and no source claim or root premise is established.",
   "assumption_statement_ids": [],

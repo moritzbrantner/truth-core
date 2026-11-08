@@ -1,0 +1,14 @@
+{
+  "id": "473f3a7f-0730-5bdc-a7e2-772c8372ffd7",
+  "label": "Whatever begins or ceases to live is MUTABLE_2: another being has power over it",
+  "legacy_id": "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER",
+  "paraphrase": "MUTABLE_2, OPEN analyst premise (attribution deferred): whatever begins or ceases to live, between an earlier and a later time of the duration frame, is mutable through another: some other being has the power to change it in some respect (navigation: ST I q.9 a.2, creatures depend on the creator giving esse). It says nothing about potency in the thing itself.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.LifeBoundaryRequiresPowerInAnother",
+  "definition_ids": [
+    "df39ed3e-20d4-5132-b6dd-b782b64f470d",
+    "42635e18-7288-5194-88b7-02dda6aa0477"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

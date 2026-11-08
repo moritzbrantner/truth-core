@@ -1,0 +1,11 @@
+{
+  "id": "e025d4ff-053c-5709-ad50-49e7ce897493",
+  "label": "Aristotle, Metaphysics IX.6, 1048a30-35: A… supports In a subject capable of r, privation of r…",
+  "legacy_id": "REL-MET-1048A-KNOWER-SUPPORTS-PRIVATION-IS-LACK-OF-ACT",
+  "subject_kind": "claim",
+  "subject_id": "4eb6f90c-55cd-59bd-8a25-48f9e09196a2",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "7c3da33e-7ead-54f8-aace-ed3cf3a7bb02",
+  "note": "Metaphysics IX.6, 1048a30-35: the knower who is not contemplating, if able to contemplate, is a knower potentially. It bears on the premise through a capable subject lacking the act; the passage does not use privation, and that privation in a capable subject is exactly the lack of the act is the analyst's."
+}

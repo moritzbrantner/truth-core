@@ -1,6 +1,8 @@
 {
-  "id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
-  "argument_id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "id": "cf79aa32-b099-50da-9032-5fc6c2c7124a",
+  "label": "N3i fails at the selected world, from At the selected world the spacetime whole… and 4 more",
+  "legacy_id": "CAUSED-UNIVERSE-REFUTES-N3-INTERACTION",
+  "argument_id": "26d3e568-11a1-597b-abe5-53f76524d14a",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.RefutesN3i.causedUniverseRefutesN3Interaction",

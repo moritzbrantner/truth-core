@@ -1,11 +1,13 @@
 {
-  "id": "INF-FUSION-NO-NECESSARY-PARTS",
+  "id": "ddbef1de-1678-516f-a05a-70dd07a01520",
+  "label": "No part of the selected object satisfies existing NecessaryAt…, by Fusion-overlap-common-part-an…",
+  "legacy_id": "INF-FUSION-NO-NECESSARY-PARTS",
   "input_statement_ids": [
-    "STMT-SELECTED-SUM2-FUSION",
-    "STMT-FUSION-FAMILY-NO-NECESSARY-PARTS-AT",
-    "STMT-NECESSITY-DOWNWARD-ALONG-PARTHOOD-AT"
+    "7f6e2365-5087-553c-8245-cb2205becb05",
+    "051d8623-5666-5db1-a42b-58622bc4d6da",
+    "e65cb74d-df62-5221-b09c-099a3b904a3d"
   ],
-  "output_statement_id": "STMT-NO-NECESSARY-PARTS-AT",
+  "output_statement_id": "589bdaa6-ecff-5cb5-b458-fc01eab86458",
   "rule": "fusion-overlap-common-part-and-explicit-necessity-downward-contradiction",
   "meaning": "Suppose p is a necessary part of the selected sum. Existing Fusion’s no-extra-parts clause gives a family member x overlapping p, hence a common part q of p and x. Explicit downward necessity along parthood makes q necessary from p. But the family premise says x has no necessary part q, contradiction. Retain the SAME Ontic, w, fixed order, family and sum. No actual existence, ordinary contingency, nonempty actual population, cause, source scope or frame property is inferred. The full Fusion premise is retained even though this proof uses its no-extra-parts clause; no minimality is claimed.",
   "assumption_statement_ids": [],

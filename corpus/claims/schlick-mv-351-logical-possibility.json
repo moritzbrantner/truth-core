@@ -1,7 +1,9 @@
 {
-  "id": "SCHLICK-MV-351-LOGICAL-POSSIBILITY",
-  "statement_id": "STMT-SCHLICK-VERIFIABILITY-LOGICAL-CONDITION-OF-MEANING",
-  "source_id": "SCHLICK-MEANING-VERIFICATION",
+  "id": "2a67385a-8faa-5e9a-956c-fd4f0d40299c",
+  "label": "Moritz Schlick, \"Meaning and Verification\"…: Schlick 1936: verifiability is the necessary and…",
+  "legacy_id": "SCHLICK-MV-351-LOGICAL-POSSIBILITY",
+  "statement_id": "b1f1f52d-d8a9-57aa-bc68-9b2fe68ed818",
+  "source_id": "dfe5e31d-6efc-5a7f-bc50-65abfc5f4f2a",
   "locator": "pp. 350-353, \"Verifiability, which is the sufficient and necessary condition of meaning, is a possibility of the logical order\"",
   "interpretation": "Variant V1 at its best: verifiability in principle is logical, not empirical, possibility of verification, fixed by grammatical rules; meaning and verifiability are 'entirely independent' of natural law, and a question with no logically possible answer is no question. The passage does not say that verification must be conclusive; the conclusive reading of V1 is Ayer's report (AYER-LTL-PELICAN-I-18-CONCLUSIVE-PROPOSED), not Schlick's 1936 wording.",
   "attribution": "The passage states that verifiability is the necessary and sufficient condition of meaning and a possibility of the logical order created by the rules defining a sentence's terms, independent of the laws of nature, so that no meaningful problem is insoluble in principle, which is the premise.",

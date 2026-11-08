@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-GOD-UNIQUENESS",
-  "argument_id": "NECESSARY-ROOT-GOD-UNIQUENESS",
+  "id": "d0344ecd-aeb6-5399-94a6-5a8c93c2edbd",
+  "label": "GOD_4 is one: whatever is GOD_4 is…, from Some candidate is CONCRETE_6 and exists at… and 8 more",
+  "legacy_id": "NECESSARY-ROOT-GOD-UNIQUENESS",
+  "argument_id": "969ae822-46ee-5a55-a8c7-303e5557d0d4",
   "challenge_module": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryRootGodUniqueness.godIsOne",

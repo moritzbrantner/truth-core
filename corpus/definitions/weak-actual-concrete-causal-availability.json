@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
+  "id": "a3087694-1c75-56f7-b3a9-42ff73b5d561",
+  "label": "Individual weak possible causal…: For each fact f that is contingent at v under existing…",
+  "legacy_id": "DEF-WEAK-ACTUAL-CONCRETE-CAUSAL-AVAILABILITY",
   "term": "individual weak possible causal availability for obtaining contingent facts",
   "definition": "For each fact f that is contingent at v under existing PSRStrength.Contingent, some world u accessible from v satisfies ActualCausedFact A Concrete CauseFact u f. Fact identity f is retained, but its cause and world may vary. No joint causal sufficiency or actual-world universal causal PSR is asserted.",
   "basis": "stipulative",

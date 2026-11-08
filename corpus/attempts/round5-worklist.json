@@ -1,0 +1,36 @@
+{
+  "id": "6fcdd38e-3894-516b-96c2-b74ccf88ca85",
+  "label": "Batch certification of three exploration maps chosen from the derivation worklist outside the…",
+  "legacy_id": "ATTEMPT-ROUND5-WORKLIST",
+  "statement_ids": [
+    "37e9e7a0-2385-5e08-9ef9-f793b5ceb936",
+    "42890b45-9325-56d3-8ae4-a6202e8c6ba6",
+    "a896d2b5-0fb5-539e-824a-9315f5c6bff1",
+    "70e98bb5-a96d-5d69-870d-e6bd0df2b813",
+    "45030701-91da-588f-b602-dca6c15e761a",
+    "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
+    "aec71162-953c-5236-b04c-a7486b2d0d20",
+    "487fb7ab-609f-5695-b1b3-77fe21538c7f",
+    "d4b35781-27f4-5c21-b03e-df696df7e19f",
+    "763e8f08-55ca-5e87-99dd-7423d6534073",
+    "b7b10ad2-fafe-552e-8bf4-205d49f2f070"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of three exploration maps chosen from the derivation worklist (corpus.py thickness --queue) outside the clusters of rounds 2-4 (explorations/round5-causal-history-priority.toml, round5-life-operation-change.toml, round5-will-intelligible-form.toml): eleven derivations in TruthCore/Results/Causality/Round5Worklist, ten zero-axiom and one (finite predecessors) using Mathlib finiteness. No causal loops follows by induction on paths from an OPEN bridge (history edges are efficient causings) and three existing secunda via statements (efficient cause prior, priority transitive, nothing prior to itself); well-founded predecessors from the bridge, efficient-cause priority and an OPEN well-founded priority (Subrelation.wf), which relocates the regress question rather than answering it; finitely many immediate predecessors from the stated Physics II.3 four-mode classification and an OPEN finiteness per mode. Simply prior is cause of being composes the existing dependence reading of priority with an OPEN dependence-is-causation premise (the grounding-is-not-causation rival falls on it). Pure act operates follows from an act/potency division in being, operation following being in act, and a self-or-moved dichotomy, the moved case excluded by q.2 a.3; self-operating unmoved lives through a timed self-operation (the unmoved clause is idle); no life boundary for a pure act through a typed change relation (ChangesBetween) and q.9 a.1 read for potency in the subject; succession is motion through the same change relation and Physics V.1 (change of a subject present at both ends). The three q.19 a.1 premises follow through operation and end, actual understanding, and an appetitive principle following intellect. Controls: 28 hand-written omission models (Unit, Bool, Fin 2; the natural numbers for the two finiteness omissions) and one joint witness per map. Rejected edges: ATTEMPT-ROUND5-WORKLIST-REJECTED-EDGES.",
+  "evidence": [
+    "7192ae5e-dd6b-59e4-a635-b80109055834",
+    "e36e4beb-3fd2-51bc-b03e-97e822ddb811",
+    "0c0f1d24-116e-580d-81c5-03461f96c57c",
+    "da2bbf20-d95f-51e8-b78c-3b9a35fae89b",
+    "74f03562-0d40-5e1f-b026-e306a9afdc9f",
+    "0857ad49-390c-5cc7-a2e5-c8ec89612dbb",
+    "124fec5f-d542-55fc-822a-0605e39eb7ac",
+    "0090ef34-b18e-5e97-84b2-9b317d9c9864",
+    "e8436d21-8a9c-5f1e-8db2-1ead9009edc7",
+    "e7fcd8ea-58a3-514a-a0b4-31f72b05b175",
+    "d5a0c802-95b7-5bea-ae2f-79e275059907",
+    "133783a4-07b1-5727-9fca-7f9fb474db54"
+  ]
+}

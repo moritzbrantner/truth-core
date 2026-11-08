@@ -1,0 +1,21 @@
+{
+  "id": "74a232f7-12d1-5ef4-b48f-0092adba8e7d",
+  "label": "Map edges examined and rejected in round 2. cogito bearer is concrete -> existing in act at: the…",
+  "legacy_id": "ATTEMPT-ROUND2-EXISTENCE-ACT-REJECTED-EDGES",
+  "statement_ids": [
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in round 2 (existence and act). (1) STMT-COGITO-BEARER-IS-CONCRETE -> STMT-EXISTING-IN-ACT-AT: the premise covers only bearers of occurring thoughts, not every existent; and under the esse profile EveryExistentConcreteAt (profile ...) unfolds to ExistingInActAt, so the profile route is a transcription (invariant 16). (2) STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING -> STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING: the q.4 a.2 statement has no Lean declaration, so no derivation can bind it; its content is already carried by the reused q.4 a.1 ad 3 reading. (3) STMT-HUMAN-INTELLECT-PER-SE-OPERATION -> STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT and -> STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE: an existential about one designated principle's body-free exercise says nothing about act and does not cover every bearer of every occurring episode. (4) STMT-COGITO-BEARER-IS-CONCRETE -> STMT-COGITO-BEARER-EXISTS-AT-WORLD: the concreteness predicate is world-independent; NonexistentBearerControl in TruthCore.Logic.CogitoConcrete has a concrete bearer that does not exist at the world. (5) STMT-COGITO-THOUGHT-OCCURS -> STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT: occurrence alone gives no bearer (SubjectlessControl in TruthCore.Logic.CogitoSubject). Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "6cffb105-b943-5f7a-9bbd-9bb5d3e760de",
+    "145f91e4-a908-5c1e-b474-d27e446235fb",
+    "6311aef8-4a6a-553c-b4cc-87f2a66ed42b"
+  ]
+}

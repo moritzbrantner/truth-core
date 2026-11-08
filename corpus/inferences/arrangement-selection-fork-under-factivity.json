@@ -1,10 +1,12 @@
 {
-  "id": "INF-ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
+  "id": "0ab71099-98b0-5fb4-be60-c3d9889d34c5",
+  "label": "Complete entailing selection or an accepted truthful nonselecting candidate…, by Constructive-proof",
+  "legacy_id": "INF-ARRANGEMENT-SELECTION-FORK-UNDER-FACTIVITY",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-ACCEPTED-ARRANGEMENT-EXPLANATIONS-ARE-TRUE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "7f6451e9-a533-5bfd-9899-16bb4164ecab"
   ],
-  "output_statement_id": "STMT-FACTIVE-ARRANGEMENT-JUDGMENT-SELECTION-FORK",
+  "output_statement_id": "9d6f7b35-9668-5bb7-a916-265c61972eb6",
   "rule": "constructive-proof",
   "meaning": "Compose the checked trilemma and explicit factivity to eliminate false acceptance. The familiar selection/nonselection fork thus exposes its actual-truth policy.",
   "assumption_statement_ids": [],

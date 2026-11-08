@@ -1,13 +1,15 @@
 {
-  "id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+  "id": "878b92c3-a49d-583e-a467-6b44913f3e5d",
+  "label": "Stipulated mathematical configuration component, not an attributed source reading: Some successor…",
+  "legacy_id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
   "paraphrase": "Stipulated mathematical configuration component, not an attributed source reading: Some successor of the supplied world has no present member of the supplied rigid roster.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.JointAbsence",
   "definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME"
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

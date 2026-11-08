@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ESSE-RECEIVED-IN",
+  "id": "4433942e-aaf6-55a9-b777-66e55638103d",
+  "label": "RECEPTION_OF_ESSE_1: EsseReceivedIn x r: the act of being of x is received in the principle r…",
+  "legacy_id": "DEF-ESSE-RECEIVED-IN",
   "term": "reception of esse (EsseReceivedIn x r)",
   "definition": "EsseReceivedIn x r: the act of being of x is received in the principle r, which stands to it as receiving potency to received act (De ente c.3 [69874], c.4 [69875]; ST I q.7 a.1-2). The relation is indexed to the esse of a particular thing; r ranges over the same Principle sort as essenceOf and esseOf of q.3 a.4. In Lean it is a parameter constrained only by the premises that use it.",
   "basis": "stipulative",

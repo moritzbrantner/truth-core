@@ -1,32 +1,34 @@
 {
-  "id": "NATURALIST-BOYD-CONSISTENT",
+  "id": "9e08866e-54f0-5443-90bd-65211f2dfd1d",
+  "label": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive…",
+  "legacy_id": "NATURALIST-BOYD-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NATURALIST-BOYD-CONSISTENT",
+  "conclusion_statement_id": "2d1cd6bf-ed31-5079-a2b8-730143464541",
   "inference_ids": [
-    "INF-NATURALIST-BOYD-CONSISTENT"
+    "31ff786c-ae5b-52d7-b9dd-66202054e697"
   ],
   "meaning": "The recorded Boyd positive-case fragment is satisfiable with a true moral sentence, cognitive moral error and a good act without a universal instrumental-reason link. The finite model settles no vague case and does not establish actual homeostatic grounding. This legacy theorem does not require Ascribes witnesses; the separately verified NATURALIST-BOYD-ASCRIPTION-CONSISTENT does.",
   "definition_ids": [
-    "DEF-NATURALIST-FINITE-INTERPRETATION",
-    "DEF-NATURALIST-DESCRIPTIVE-TRUTH",
-    "DEF-MORAL-ERROR",
-    "DEF-NATURALIST-CATEGORICAL-REASONS",
-    "DEF-RAILTON-NONMORAL-WELFARE",
-    "DEF-RAILTON-IMPARTIAL-RIGHTNESS",
-    "DEF-BOYD-HOMEOSTATIC-GOODNESS",
-    "DEF-TRUTH-VALUE",
-    "DEF-MORAL-STATEMENT",
-    "DEF-ENCODED-THEORY-CONSISTENCY"
+    "e1858d69-a463-5e57-8722-0de4a22a3049",
+    "10983e88-0b94-536b-9c23-bbfb832b70a0",
+    "75f4c7ef-62fc-5752-9ee9-6f680c1651ac",
+    "4bf71609-9f30-5161-b188-ffa1cce02bb4",
+    "7d48c639-2ece-50e2-b94d-487a62bb4418",
+    "d32ee06f-a6d3-5912-a689-fc3da94c1c8c",
+    "1ad46e75-d8f0-515c-9d27-3632b5945195",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "2cd80f27-09e0-51b6-a41e-c8638524dfdb"
   ],
   "commitment_statement_ids": [
-    "STMT-BOYD-POSITIVE-CLUSTER-GOODNESS",
-    "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-    "STMT-EVALUATIVE-ASCRIPTIONS-DESCRIBE-FACTS",
-    "STMT-NATURALIST-FIXTURE-ERROR",
-    "STMT-GOOD-WITHOUT-UNIVERSAL-REASONS",
-    "STMT-NATURALIST-TRUE-ASCRIPTION"
+    "02ceae7b-5e93-526f-b54a-d73b8040bb51",
+    "153a1380-89f3-56a5-bd02-6e0971e2c155",
+    "e0ebb8a8-e8ae-59c1-80e4-bcbb97a9c291",
+    "80d70ac1-dbe3-56c5-b8d9-36b984cae4ee",
+    "0893ecbc-dfff-56e4-8b4a-32fb906a767f",
+    "15b49fdc-d4c5-5cdc-978e-22b565a07617"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISTIC-EVALUATIVE-ROLES"
+    "685dae72-5d39-5905-955e-c2cd404d6932"
   ]
 }

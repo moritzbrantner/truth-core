@@ -1,10 +1,12 @@
 {
-  "id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
+  "id": "96413fad-349c-58e1-b91f-de085121c85e",
+  "label": "There is an interpretation in which a thought occurs and the bearer principle holds, but no bearer…",
+  "legacy_id": "STMT-COGITO-NON-SUBSTANTIAL-BEARER-MODEL",
   "paraphrase": "There is an interpretation in which a thought occurs and the bearer principle holds, but no bearer of an occurring thought satisfies the substance predicate. A finite interpretation only.",
   "lean_declaration": "TruthCore.Logic.CogitoSubject.NonSubstantialBearerModel",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ]
 }

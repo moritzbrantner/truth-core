@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEPENDENT-NECESSITATION-RULE",
+  "id": "cd27d534-d3cf-5615-947f-222624bac7a5",
+  "label": "Context-independent semantic…: For EVERY world predicate P, diagonal validity of F a e = P e…",
+  "legacy_id": "DEF-INDEPENDENT-NECESSITATION-RULE",
   "term": "context-independent semantic necessitation rule",
   "definition": "For EVERY world predicate P, diagonal validity of F a e = P e implies necessitated validity. Content has no dependence on the designated-actuality coordinate. The quantification is over all predicates, not just formulas expressible in a selected language.",
   "basis": "stipulative",

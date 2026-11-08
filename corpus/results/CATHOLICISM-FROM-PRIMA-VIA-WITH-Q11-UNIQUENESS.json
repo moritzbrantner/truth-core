@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS",
+  "id": "97041333-2925-57b3-95d1-eb7faae4c0a1",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching…, from prima via with q11 uniqueness",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS",
+  "argument_id": "34293f25-0661-531c-ab37-e58a94e73514",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FromPrimaViaWithQ11Uniqueness.catholicismFromPrimaViaWithQ11Uniqueness",

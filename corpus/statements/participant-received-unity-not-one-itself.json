@@ -1,16 +1,18 @@
 {
-  "id": "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF",
+  "id": "c6ce56fe-9f14-5be7-869c-500c5d15ec5c",
+  "label": "Every participant in the designated One exemplifies the designated unity quality and is…",
+  "legacy_id": "STMT-PARTICIPANT-RECEIVED-UNITY-NOT-ONE-ITSELF",
   "paraphrase": "Every participant in the designated One exemplifies the designated unity quality and is numerically different from that One. This bounded identity/predication reading does not express a contradiction in one sense or the full content of being non-one of itself.",
   "lean_declaration": "TruthCore.Greek.Proclus.ElementsTheology.ParticipantUnityContrast",
   "definition_ids": [
-    "DEF-PLATONIC-ENTITY",
-    "DEF-PROCLUS-ONE-ITSELF",
-    "DEF-PROCLUS-RECEIVED-UNITY",
-    "DEF-PROCLUS-UNITY-PARTICIPATION"
+    "a2244968-5199-5276-a6a4-c19589b5295b",
+    "8676eedf-9455-54b6-8c74-35e4ad54935b",
+    "52173931-f238-58b8-8fa2-3174884dfc34",
+    "30672e93-1629-5da8-9ee7-e6aec3f6f623"
   ],
   "disambiguation_ids": [
-    "DISAMB-PROCLUS-ONE",
-    "DISAMB-PROCLUS-UNITY-PARTICIPATION"
+    "eddb2474-f994-5c7b-a061-bc26a3167b38",
+    "d191b2a8-70d7-5273-9263-7f0051154823"
   ],
   "note": "An attributed source commitment, not a proved result. See docs/proclus-unity.md for the complete source-range reading, rejected reconstructions and remaining proof obligations. No One/Form identity, essential-quality inventory, causal mechanism or frontier discharge follows."
 }

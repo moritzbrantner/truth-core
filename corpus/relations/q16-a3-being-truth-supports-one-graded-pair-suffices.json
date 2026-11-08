@@ -1,0 +1,11 @@
+{
+  "id": "49f779a7-6b0c-5ca3-ac3a-1b387dc60ff0",
+  "label": "Thomas Aquinas, Summa theologiae I q.16… supports If one thing is more noble than another, it…",
+  "legacy_id": "REL-Q16-A3-BEING-TRUTH-SUPPORTS-ONE-GRADED-PAIR-SUFFICES",
+  "subject_kind": "claim",
+  "subject_id": "191c4ad9-36a0-55bc-9218-6b8b4acee969",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "e4a7ef4b-fb0d-56aa-b53e-99e9cc315439",
+  "note": "ST I q.16 a.3 co. states that each thing is knowable in so far as it has being and that 'sicut bonum convertitur cum ente, ita et verum'. The premise reads convertibility for the comparative: whatever is more noble than another is also more good and more true than it. The passage states convertibility of the terms with being and a proportion of knowability to being; it does not mention nobility or state that the comparatives coincide."
+}

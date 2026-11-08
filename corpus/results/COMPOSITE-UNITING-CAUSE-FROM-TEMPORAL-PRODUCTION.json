@@ -1,6 +1,8 @@
 {
-  "id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
-  "argument_id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "id": "745ee7da-5a74-50f4-8124-b74a9db7b4b6",
+  "label": "Every composite has a cause, other than itself, of its being: things…, from temporal production",
+  "legacy_id": "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
+  "argument_id": "56f4e4b3-fd6d-584f-9300-7343b5cabc2c",
   "challenge_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.Challenge",
   "solution_module": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.Solution",
   "theorem": "TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.temporalComposition",

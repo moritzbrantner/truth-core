@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
+  "id": "37a67a9e-31a7-5243-902b-fd3260fd5526",
+  "label": "Scott's axiom A5: at every world, NECESSARY_EXISTENCE_4 is a POSITIVE_5 property",
+  "legacy_id": "STMT-SCOTT-NECESSARY-EXISTENCE-POSITIVE",
   "paraphrase": "Scott's axiom A5 (AFP GoedelGod.thy): at every world, necessary existence (each essence of the individual is necessarily exemplified) is a positive property.",
   "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.NecessaryExistencePositive",
   "definition_ids": [
-    "DEF-ESSENCE-SCOTT",
-    "DEF-NECESSARY-EXISTENCE-SCOTT",
-    "DEF-POSITIVE-PROPERTY-SCOTT"
+    "2e31f6cf-433e-5e11-bb65-233499985668",
+    "82629c7d-94a0-5953-90c9-6eb0dbee2944",
+    "9a9e4fd6-d810-5039-9185-a93a2e0a358a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

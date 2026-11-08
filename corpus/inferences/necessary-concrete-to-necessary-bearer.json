@@ -1,9 +1,11 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
+  "id": "e06c57db-c97e-5f7d-9792-7b626c6861fb",
+  "label": "At least one individual exists at the selected world and at…, by Existential-conjunction-proje…",
+  "legacy_id": "INF-NECESSARY-CONCRETE-TO-NECESSARY-BEARER",
   "input_statement_ids": [
-    "STMT-NECESSARY-CONCRETE-AT"
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "existential-conjunction-projection",
   "meaning": "Logical weakening: the same actual necessary concrete witness gives the existing general actual necessary-bearer statement on the same Ontic and selected world. Drop only the concrete predicate; no source interpretation or philosophical premise is added. This does not confer concreteness on a different witness selected by downstream reasoning.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "INF-COMMON-RANK-TO-UNION-WF",
+  "id": "433db1b4-eeda-5ba3-84ab-1043d6105398",
+  "label": "The union of every admitted world's direct existential-support…, by Checked-theorem-composition-a…",
+  "legacy_id": "INF-COMMON-RANK-TO-UNION-WF",
   "input_statement_ids": [
-    "STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK"
+    "9240fa60-3e34-59a7-867e-f7a2294c6660"
   ],
-  "output_statement_id": "STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
+  "output_statement_id": "6af3bd73-f2bc-5018-ba2f-ec7f97d6c059",
   "rule": "checked-theorem-composition-and-model-controls",
   "meaning": "Pull accessibility back along the supplied rank map using the existing Regress.Graph.Map.wellFounded.",
   "assumption_statement_ids": [],

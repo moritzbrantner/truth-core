@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
-  "statement_id": "STMT-NB-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "4a6c115a-a7af-5669-b832-2b1ca1a6808a",
+  "label": "Unattributed website author, Necessary…: Still under no-possible-Necessary-Being and C’s derived…",
+  "legacy_id": "NB-SURVEY-A5-HISTORY-PRIOR-CAUSE-EXCLUSION",
+  "statement_id": "d3ee26b2-5ed0-5c2c-81a1-635496e1b862",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C, steps 14–17, situation-cause/prior titles and fixed-roster note after step 20",
   "interpretation": "All steps remain inside outer NoPossibleNB. The source moves from prior/exactly to excluding a contingent cause of the SAME C. For nonempty C, an earlier contingent bearer already included in its history need not falsify C’s truth; exclusion therefore requires a substantive whole-history causal reading. A later summary-state interpretation cannot silently inherit that exclusion. Neither positive conjunction reasoning nor a single-act self-production control proves this claim. Preserve all-and-only fact identity, actual concrete source admission and the distinction between a prior partly explanatory condition, fact-reason and individual Ontic cause. Those correspondences remain OPEN; no modal transport or actual causal role is attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-A5-RIGID-EVER-ROSTER-AND-INCLUDES",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "1bddbc02-14b5-567f-adf2-7f09e011f63a",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

@@ -1,11 +1,13 @@
 {
-  "id": "INF-LIMIT-CLOSED-ADMISSION",
+  "id": "14796f1b-e116-52e3-a4f5-7e2f3d03bbee",
+  "label": "The supplied point belongs to the supplied admission subset, by Mathlib-closed-set-limit-with…",
+  "legacy_id": "INF-LIMIT-CLOSED-ADMISSION",
   "input_statement_ids": [
-    "STMT-LIMIT-ADMISSION-CONVERGES",
-    "STMT-LIMIT-ADMISSION-CLOSED",
-    "STMT-LIMIT-ADMISSION-STAGES"
+    "70677319-b90f-56a8-95cc-3cdd465a49f6",
+    "2183260d-2ff8-5a5e-b9a1-1d20f784a5f5",
+    "4398457e-a922-59c5-998c-e888e4544027"
   ],
-  "output_statement_id": "STMT-LIMIT-ADMISSION-ADMITTED",
+  "output_statement_id": "ac09337a-3d20-5905-bb20-bb3f00c277d0",
   "rule": "mathlib-closed-set-limit-with-separate-domain-controls",
   "meaning": "Derive membership in a chosen subset from separately supplied convergence, closedness and containment. This does not establish any of these inputs for actual worlds, events or physical states.",
   "assumption_statement_ids": [],

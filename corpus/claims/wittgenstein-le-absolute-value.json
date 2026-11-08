@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-LE-ABSOLUTE-VALUE",
-  "statement_id": "STMT-LE-ABSOLUTE-VALUE-NO-FACT",
-  "source_id": "WITTGENSTEIN-LECTURE-ON-ETHICS",
+  "id": "fc318450-8503-5be4-b0c8-ac972cefa7e6",
+  "label": "Ludwig Wittgenstein, A Lecture on Ethics LE…: Lecture on Ethics: every judgment of relative value…",
+  "legacy_id": "WITTGENSTEIN-LE-ABSOLUTE-VALUE",
+  "statement_id": "12f53e30-5f08-58c2-b289-16b34c251845",
+  "source_id": "8010d534-7439-5be8-afc2-524b0a9abe83",
   "locator": "LE no statement of fact can ever be, or imply, a judgment of absolute value",
   "interpretation": "'although all judgments of relative value can be shown to be mere statements of facts, no statement of fact can ever be, or imply, a judgment of absolute value', illustrated by the omniscient person's world-book that would contain no ethical proposition.",
   "status": "formalized",

@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-AGENCY-PATIENCY-ONE-MOTION-A",
-  "statement_id": "STMT-AGENCY-PATIENCY-NOT-DISTINCT-MOTIONS",
-  "source_id": "ARIST-PHYS",
+  "id": "ea4f585c-ea81-5880-b65f-46c6c52dc79b",
+  "label": "Aristotle, Physics III.3, 202a31-36: Agency and patiency are not two distinct underlying motions…",
+  "legacy_id": "ARIST-PHYS-202A-AGENCY-PATIENCY-ONE-MOTION-A",
+  "statement_id": "e7caa5da-b49c-5712-846a-0841c15e6030",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.3, 202a31-36",
   "interpretation": "Conclusion of the two-motion objection: agency and patiency are not two distinct underlying motions in the patient; there is one actualization. This does not yet identify their definitions.",
   "status": "formalized"

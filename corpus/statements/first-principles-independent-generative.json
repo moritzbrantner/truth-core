@@ -1,5 +1,7 @@
 {
-  "id": "STMT-FIRST-PRINCIPLES-INDEPENDENT-GENERATIVE",
+  "id": "e526c950-4db8-59fc-b1df-02d31871ddc6",
+  "label": "First principles are not derived from one another or from something prior, while other things are…",
+  "legacy_id": "STMT-FIRST-PRINCIPLES-INDEPENDENT-GENERATIVE",
   "paraphrase": "First principles are not derived from one another or from something prior, while other things are derived from them.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.FirstPrinciplesIndependentAndGenerativeReading"
 }

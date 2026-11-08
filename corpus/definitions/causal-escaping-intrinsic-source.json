@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CAUSAL-ESCAPING-INTRINSIC-SOURCE",
+  "id": "e8cac89e-961a-586d-9f15-4779b1ca0317",
+  "label": "Intrinsic source escaping along finite…: At finite truncation n the only intrinsic source is the…",
+  "legacy_id": "DEF-CAUSAL-ESCAPING-INTRINSIC-SOURCE",
   "term": "intrinsic source escaping along finite truncations",
   "definition": "At finite truncation n the only intrinsic source is the node indexed n; for each fixed node x there is a later truncation after which x is never an intrinsic source. At no fixed position is sourcehood eventually retained.",
   "basis": "stipulative",

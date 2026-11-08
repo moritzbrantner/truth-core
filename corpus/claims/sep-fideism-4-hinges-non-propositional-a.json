@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A",
-  "statement_id": "STMT-HINGES-NON-PROPOSITIONAL-READING",
-  "source_id": "SEP-FIDEISM",
+  "id": "83353a54-0aa3-5224-8c22-cb949381b8e6",
+  "label": "Richard Amesbury, Fideism §4, A different…: Reading of Über Gewißheit: hinges are not propositions…",
+  "legacy_id": "SEP-FIDEISM-4-HINGES-NON-PROPOSITIONAL-A",
+  "statement_id": "98cb409f-a883-5f05-b788-6c56ae74f159",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§4, A different reading, advanced by, inter alia, Danièle Moyal-Sharrock",
   "interpretation": "The entry: Moyal-Sharrock 'holds that the hinges are not empty propositions because they are not propositions at all; rather, they are phenomenological descriptions of \"the mindless, animal certainty with which we move about in the world\" (67)'. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Moyal-Sharrock holds that hinges are not propositions at all but descriptions of the animal certainty with which we move about in the world, which is the premise.",
   "definition_ids": [
-    "DEF-HINGE-NON-PROPOSITIONAL-CERTAINTY"
+    "2473bc4f-5d3b-553c-9831-28f078f4496b"
   ]
 }

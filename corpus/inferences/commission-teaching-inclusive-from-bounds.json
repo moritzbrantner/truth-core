@@ -1,0 +1,15 @@
+{
+  "id": "764a0203-fda2-51bc-9768-2cb81e40584a",
+  "label": "The selected governing predicate holds exactly for the existing…, by Universal generalization…",
+  "legacy_id": "INF-COMMISSION-TEACHING-INCLUSIVE-FROM-BOUNDS",
+  "input_statement_ids": [
+    "b85ee5a5-8a4f-5da1-bab3-bc5453e51b2c",
+    "1d1edbd9-27ab-55c9-bfd2-1007dcc85f0b",
+    "fc2912b3-613c-52cc-84d3-9135cc456efe"
+  ],
+  "output_statement_id": "9981db29-aa03-56f8-a2de-a04eed444b91",
+  "rule": "Universal generalization, biconditional introduction, proof by cases",
+  "meaning": "The selected governing predicate is the teaching-inclusive criterion (governing in the table or teaching), from three OPEN inclusions: teaching is selected, every table-governing power is selected, and every selected power is table-governing or teaching.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,9 +1,11 @@
 {
-  "id": "DEF-KANT-QUIA-DEMONSTRATION",
+  "id": "e359370f-f532-596d-a455-6823a94f4d0f",
+  "label": "Demonstration quia from effects: In Aquinas SCG I.12 –, an effect supplies the middle term for…",
+  "legacy_id": "DEF-KANT-QUIA-DEMONSTRATION",
   "term": "demonstration quia from effects",
   "definition": "In Aquinas SCG I.12 [6]–[9], an effect supplies the middle term for concluding that its cause exists without assuming prior knowledge of the divine quiddity. The method’s soundness and applicability beyond sensible objects remain contested; no automatic entailment from an observed effect to God is encoded.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE-A"
+    "1e26da17-2577-510d-87f8-74375b445269"
   ]
 }

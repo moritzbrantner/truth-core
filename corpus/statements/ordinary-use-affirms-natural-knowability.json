@@ -1,12 +1,14 @@
 {
-  "id": "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
+  "id": "f8ea0d75-23ec-5106-8dee-76ce64b69e3b",
+  "label": "Case-2 evidence, supported: some move of the Catholic practice's ordinary use affirms that God can…",
+  "legacy_id": "STMT-ORDINARY-USE-AFFIRMS-NATURAL-KNOWABILITY",
   "paraphrase": "Case-2 evidence, supported: some move of the Catholic practice's ordinary use affirms that God can be known with certainty from created things by the natural light of human reason (the catechesis the faithful receive repeats Dei Filius, CCC 36, read in the official English translation).",
   "lean_declaration": "TruthCore.Alternatives.FideismGrammarCases.OrdinaryUseAffirmsNaturalKnowabilityReading",
   "definition_ids": [
-    "DEF-IN-ORDINARY-USE",
-    "DEF-NATURAL-REASON-SHARED"
+    "19e025c5-5b28-5218-ac31-126508994873",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURAL-REASON"
+    "acb50043-141e-546e-b296-4601bae89bec"
   ]
 }

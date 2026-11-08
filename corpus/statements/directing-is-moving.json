@@ -1,11 +1,13 @@
 {
-  "id": "STMT-DIRECTING-IS-MOVING",
+  "id": "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136",
+  "label": "To direct a thing to an end is to move it in some respect",
+  "legacy_id": "STMT-DIRECTING-IS-MOVING",
   "paraphrase": "To direct a thing to an end is to move it in some respect.",
   "lean_declaration": "TruthCore.Case.Catholicism.DirectingIsMoving",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

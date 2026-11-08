@@ -1,0 +1,12 @@
+{
+  "id": "f2ac92e7-a5ca-5bd8-9393-1ad3f290a593",
+  "label": "The reduced nominal description suffices… strengthens Open premise, the fuller nominal profile…",
+  "legacy_id": "REL-GOD-NAMES-UNIQUE-MAXIME-ENS-STRENGTHENS-FULLY-DESCRIBED",
+  "subject_kind": "statement",
+  "subject_id": "e39a4fce-ccaf-5862-836e-9317923842f3",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "verification_result_id": "5b1d8323-915e-527c-ab31-a12c090146d2",
+  "note": "The reduced naming leaf asserts that fewer conditions already suffice for the name to apply, so it entails the fuller leaf, which keeps every source condition. Both statement paraphrases already say so; this registers the order."
+}

@@ -1,0 +1,32 @@
+{
+  "id": "311399e7-0c1c-5694-a667-c179aaad8db5",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more (2)",
+  "legacy_id": "REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "premise_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "abe615df-25ae-5aa9-8611-140ca98ae522"
+  ],
+  "conclusion_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
+  "inference_ids": [
+    "3ec7aff4-3983-57ce-b932-6620462385e8"
+  ],
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations; identity of real indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third ranges over all beings and so also denies bare numerical difference among things that are not first movers; it exceeds what uniqueness needs. No first mover is produced.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "b5ac268c-7497-5780-a154-3f84c34ac709",
+    "efe8fb80-81fc-51c1-89d0-414338fcfe96",
+    "9fc4d899-6e47-5537-902d-65606751da68"
+  ],
+  "disambiguation_ids": [
+    "567c3e74-9514-52d9-b3b6-f5a3af078784",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
+  ],
+  "strong_version_needed": {
+    "abe615df-25ae-5aa9-8611-140ca98ae522": "Not needed for uniqueness: PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS proves the same conclusion from the weak version. This merged route is kept unchanged as the comparison that exhibits the Black's-spheres cost of the strong version."
+  }
+}

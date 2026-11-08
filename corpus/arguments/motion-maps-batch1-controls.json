@@ -1,0 +1,18 @@
+{
+  "id": "c4830bf3-fea8-50c8-913b-4979020a28d4",
+  "label": "Finite controls for motion maps batch 1: a thinker-and-stone model satisfies every premise and the…",
+  "legacy_id": "MOTION-MAPS-BATCH1-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "8e3a2100-4225-5f16-93ad-3dc07d5cc891",
+  "inference_ids": [
+    "142636ca-b5b1-5074-9a63-112299282180"
+  ],
+  "meaning": "Nonvacuity: one thought borne by a living thinker and a non-living actual stone, the thinker more noble, good and true; all six grades premises and the conclusion hold. Omission models: a stick moved in a relevant respect that moves by its own form (instrument premise), or by no form but is no per se link (principal-power premise); a stick moved only in an irrelevant respect (scope bridge) or with no per se links (weak reading); a creature that moves with no potency actualized (new actuality), with its potency actualized but nothing counted as moved (Physics III.1), with no operation in potency (operation potency), or in potency to its operation without its actualization (acting premise); no thought, a bearerless thought, a lifeless thinker, no merely existing thing, no nobility comparison, and nobility without goodness or truth (grades premises). Finite interpretations only.",
+  "definition_ids": [
+    "b89f3234-195e-53ec-a60b-ea4dd11c65c1",
+    "b7c083b2-b216-5a93-9429-7ae62252d60f",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "45595dac-061a-5240-a6c7-f16d4e632357",
+    "c195d490-07ab-5cbc-82e9-d0d7c82abd2e"
+  ]
+}

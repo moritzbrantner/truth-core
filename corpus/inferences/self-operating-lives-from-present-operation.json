@@ -1,0 +1,14 @@
+{
+  "id": "37de75b4-0a8f-540b-b89c-bdf0858ad2ef",
+  "label": "Whatever operates from itself and is moved in no respect lives at…, by Existential elimination…",
+  "legacy_id": "INF-SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
+  "input_statement_ids": [
+    "ce1ed1ad-9a30-5ba6-a6d8-d264a52169ee",
+    "feb2967b-1e3d-5983-8332-d77490cdecca"
+  ],
+  "output_statement_id": "38aa1327-b28a-5ac8-b70d-6b2fdbedf554",
+  "rule": "Existential elimination, universal instantiation, existential introduction",
+  "meaning": "Whatever operates from itself and is moved in no respect lives at some time, through the timed predicate OperatesFromItselfAt: the self-operation is present at some time (OPEN), and operating from itself at a time is living at it (OPEN q.18 a.2 reading). The unmoved clause of the conclusion is not used: under these two premises every self-operating thing lives, which is a strictly stronger conclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

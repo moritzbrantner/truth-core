@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LABELED-CHAIN-ARRANGEMENT",
+  "id": "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+  "label": "Labeled countable chain arrangement: An arrangement is a bijective enumeration e: Nat ≃ Nat of one…",
+  "legacy_id": "DEF-LABELED-CHAIN-ARRANGEMENT",
   "term": "labeled countable chain arrangement",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.OrderingCardinality.Arrangement",

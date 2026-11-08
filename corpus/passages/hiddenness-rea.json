@@ -6,14 +6,16 @@
     "wayback_url": "https://web.archive.org/web/20240626220750id_/https://www.michaelrea.org/_files/ugd/c9fdf5_99122dad2514483999344ba6cfdb8683.pdf",
     "wayback_sha256": "sha256:fda3dc2f6b2104cfc5087ab8efa8a3f5224d5c8f983fccc1fe2f77039ae24667",
     "kind": "web_snapshot",
-    "source_id": "REA-DIVINE-HIDDENNESS-SILENCE",
+    "source_id": "89625e16-6abe-5a5f-a21d-e856a11de80d",
     "encoding": "utf-8",
     "language": "eng",
     "license": "© Cengage Learning. All rights reserved. No distribution allowed without express authorization (notice printed on the PDF). Author-hosted extract; only hashes, locators and short incipit committed. A fixed 2024-06-26 Wayback capture is byte-pinned as a fallback (2026-10-26, issue #393): two fetches gave the same bytes, and the selected text hash and incipit match the originally consulted witness; the live hash and retrieval date are unchanged."
   },
   "passages": [
     {
-      "id": "REA-HIDDENNESS-SILENCE-COMPLETE",
+      "id": "34556a92-3dee-5b96-88e8-72037971ba3d",
+      "label": "Michael C. Rea, Divine Hiddenness, Divine Hiddenness, Divine Silence, printed pp. 266–275",
+      "legacy_id": "REA-HIDDENNESS-SILENCE-COMPLETE",
       "locator": "Divine Hiddenness, Divine Silence, printed pp. 266–275 (physical PDF pages 1–10)",
       "claim_locator_prefixes": [
         "Divine Hiddenness, Divine Silence,"

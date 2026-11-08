@@ -1,0 +1,18 @@
+{
+  "id": "4a8599af-46cd-5545-9ebb-4d3add28d343",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃…, by Composition with cogito…",
+  "legacy_id": "INF-COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER",
+  "input_statement_ids": [
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "e27489c3-7419-5123-8476-386633e62532"
+  ],
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "rule": "Composition with COGITO-INHABITED-CONCRETE-FROM-CAUSAL-POWER (inhabitedFromPower) and conjunction elimination",
+  "meaning": "Some concrete candidate exists at w, by the existing Round 4 capacity derivation (inhabitedFromPower, imported and applied), with the owner-approved floor commitment supplying the capacity clause that the old argument took as the bare premise STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT, for the same hasCausalPower predicate as STMT-INTELLECTUAL-EXERCISER-HAS-POWER. The other five premises are unchanged and remain OPEN. It does not establish the floor commitment or infer capacity from exercise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

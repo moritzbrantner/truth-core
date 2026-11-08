@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "AQUINAS-ST",
+    "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
     "edition_urn": "http://scta.info/resource/TAca84-d1e128/cod-cnLxE4",
     "language": "lat",
     "repository": "scta-texts/TAca84",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-ST-I-Q16-A1",
+      "id": "d132b36d-d7d3-5c6b-9960-addb4304b2d6",
+      "label": "Thomas Aquinas, Summa theologiae, I q.16 a.1",
+      "legacy_id": "AQUINAS-ST-I-Q16-A1",
       "locator": "I q.16 a.1",
       "claim_locator_prefixes": [
         "I q.16 a.1 "
@@ -20,7 +22,9 @@
       "tei_xml_id": "TAca84-d1e128-Dd1e156"
     },
     {
-      "id": "AQUINAS-ST-I-Q16-A3",
+      "id": "88441e2b-5458-506f-944b-14322071e043",
+      "label": "Thomas Aquinas, Summa theologiae, I q.16 a.3",
+      "legacy_id": "AQUINAS-ST-I-Q16-A3",
       "locator": "I q.16 a.3",
       "claim_locator_prefixes": [
         "I q.16 a.3 "

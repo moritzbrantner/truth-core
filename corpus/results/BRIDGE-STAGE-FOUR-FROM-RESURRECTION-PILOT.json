@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
-  "argument_id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "id": "141ccbce-8400-5c31-bf88-ae3644e742df",
+  "label": "Jesus claimed to speak and act with divine authority, and he rose from…, from resurrection pilot",
+  "legacy_id": "BRIDGE-STAGE-FOUR-FROM-RESURRECTION-PILOT",
+  "argument_id": "f1187081-62f6-595d-af5b-f95329fa4bbc",
   "challenge_module": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.Challenge",
   "solution_module": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.Solution",
   "theorem": "TruthCore.Results.Bridges.StageFourFromResurrectionPilot.jesusClaimedDivineAuthorityAndRoseOfPilot",

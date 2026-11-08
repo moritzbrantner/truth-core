@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUM1-LEAST-UPPER-BOUND",
+  "id": "82e3885b-a845-5116-949e-07cb05353bf7",
+  "label": "LEAST_UPPER_BOUND_SUM1_1: Sum1 is the existing Mathlib IsLUB family u: every selected member is…",
+  "legacy_id": "DEF-SUM1-LEAST-UPPER-BOUND",
   "term": "least-upper-bound Sum1",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.UnrestrictedSumOne",
   "basis": "stipulative",

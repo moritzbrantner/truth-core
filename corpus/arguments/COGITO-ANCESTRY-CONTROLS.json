@@ -1,27 +1,29 @@
 {
-  "id": "COGITO-ANCESTRY-CONTROLS",
+  "id": "d04ea16d-848c-5a8b-b7b2-ba250e699c14",
+  "label": "Comparison and omission bundle",
+  "legacy_id": "COGITO-ANCESTRY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-COGITO-ANCESTRY-CONTROLS",
+  "conclusion_statement_id": "c4db543a-b899-5ed1-add5-37eb91d99ba1",
   "inference_ids": [
-    "INF-COGITO-ANCESTRY-CONTROLS"
+    "e2787e76-dd33-5f1d-b6b1-07c3502a80e7"
   ],
   "meaning": "Global premises imply the thinker-local ones, one model shows the converse fails with a non-contingent thinker, and six omission models show each non-logical premise of COGITO-NECESSARY-CONCRETE-ANCESTOR is needed. Logical models only; no premise is discharged and none is claimed metaphysically possible.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE",
-    "DISAMB-NECESSARY"
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ]
 }

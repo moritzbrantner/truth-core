@@ -1,12 +1,14 @@
 {
-  "id": "STMT-ELEATIC-NOTHING-IS-MOVED",
+  "id": "f538ec85-3bdd-526a-bcf6-11b4c0d9aaec",
+  "label": "Eleatic rival: nothing is being moved in any respect; being is unmoved",
+  "legacy_id": "STMT-ELEATIC-NOTHING-IS-MOVED",
   "paraphrase": "Eleatic rival: nothing is being moved in any respect; being is unmoved (Melissus, as Aristotle reports him).",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.NothingIsMovedReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

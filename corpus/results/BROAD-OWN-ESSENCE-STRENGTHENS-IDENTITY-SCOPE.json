@@ -1,6 +1,8 @@
 {
-  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
-  "argument_id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "id": "9882d958-d049-5286-9cdc-34df79fdf964",
+  "label": "Strictly weaker own-essence input sufficient for…, from For every being x and principle r, if the…",
+  "legacy_id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "argument_id": "564f13a8-3f86-5936-8867-c2bc8397f04c",
   "challenge_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.Challenge",
   "solution_module": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.Solution",
   "theorem": "TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeStrength.identityScopeStrength",

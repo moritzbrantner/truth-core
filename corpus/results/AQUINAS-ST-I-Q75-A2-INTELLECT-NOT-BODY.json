@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
-  "argument_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "id": "aeb23cca-4e5b-5f5a-974d-14c0757f9b39",
+  "label": "The designated human intellectual…, from The designated human intellectual principle… and 2 more",
+  "legacy_id": "AQUINAS-ST-I-Q75-A2-INTELLECT-NOT-BODY",
+  "argument_id": "511deb81-3e47-5223-acf1-ccaaeedec398",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.HumanIntellectIncorporeal.intellectIsNotBody",

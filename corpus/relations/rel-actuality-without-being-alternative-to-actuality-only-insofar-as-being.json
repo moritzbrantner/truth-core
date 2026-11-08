@@ -1,9 +1,11 @@
 {
-  "id": "REL-ACTUALITY-WITHOUT-BEING-ALTERNATIVE-TO-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "id": "a195e109-0580-5ce5-ad0e-9a7b30c8ebd0",
+  "label": "Rival: something is in act in some… alternative to Nothing has actuality except insofar as…",
+  "legacy_id": "REL-ACTUALITY-WITHOUT-BEING-ALTERNATIVE-TO-ACTUALITY-ONLY-INSOFAR-AS-BEING",
   "subject_kind": "statement",
-  "subject_id": "STMT-ACTUALITY-WITHOUT-BEING",
+  "subject_id": "630273f8-b7f8-5b6a-895f-5d2ff23e84cc",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING",
+  "object_id": "7067553d-cad9-5d79-b6b2-912e35051530",
   "note": "Class: countermodel/inconsistency for the naive form, not yet attackable for the strongest form. Russell's objection (the existent golden mountain) refutes only unrestricted characterization; nuclear Meinongianism restricts it and is consistent. Missing: a pinned witness of Meinong 1904 §3 (candidate MEINONG-GEGENSTANDSTHEORIE-3) and an account of why being in act in a respect requires esse that does not presuppose the premise (DISAMB-BEING)."
 }

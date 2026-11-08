@@ -1,6 +1,8 @@
 {
-  "id": "FIXED-CONSTITUENT-NECESSARY-BEING",
-  "argument_id": "FIXED-CONSTITUENT-NECESSARY-BEING",
+  "id": "cee9fee9-1064-5c65-88b8-6120d41fd037",
+  "label": "At least one individual exists at the…, from Excluded middle as a general principle… and 5 more",
+  "legacy_id": "FIXED-CONSTITUENT-NECESSARY-BEING",
+  "argument_id": "84a14e2d-d3f6-5bf0-b1a6-1830794d2c39",
   "challenge_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Challenge",
   "solution_module": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.Solution",
   "theorem": "TruthCore.Results.Explanation.FixedConstituentNecessaryBeing.necessaryBeing",

@@ -1,15 +1,17 @@
 {
-  "id": "HUME-ENQUIRY-IV-CIRCLE-A",
-  "statement_id": "STMT-HUME-INDUCTION-CIRCULAR-PROPOSAL",
-  "source_id": "HUME-ENQUIRY",
+  "id": "717c400e-f6b8-52a9-acf0-b86469607519",
+  "label": "David Hume, An Enquiry concerning Human…: Proposed probable experiential arguments for uniformity…",
+  "legacy_id": "HUME-ENQUIRY-IV-CIRCLE-A",
+  "statement_id": "77c2a0e5-3cda-54a9-8210-9cf7fb6fd87d",
+  "source_id": "d27e53fc-c4af-5160-83a4-924a2aae4d2e",
   "locator": "IV, §19 (SBN 35–36)",
   "interpretation": "The conditional representation preserves the argument-dependency claim. It is not a fully implemented proof calculus or a proof that no noncircular entitlement can exist.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-CIRCLE",
-    "DEF-HUME-INDUCTION-FOUNDATION"
+    "c5f45879-1d0c-5de6-93db-de53ffd8bdaa",
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

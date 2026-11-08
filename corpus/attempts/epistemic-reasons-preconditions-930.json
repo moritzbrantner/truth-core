@@ -1,9 +1,11 @@
 {
-  "id": "ATTEMPT-EPISTEMIC-REASONS-PRECONDITIONS-930",
+  "id": "41850f23-eaa4-5967-8557-d71c696b8bac",
+  "label": "Completed the bounded conceptual argument in docs/notes/epistemic-reasons-preconditions.md…",
+  "legacy_id": "ATTEMPT-EPISTEMIC-REASONS-PRECONDITIONS-930",
   "statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
-    "STMT-THERE-ARE-PREFERENCE-INDEPENDENT-EPISTEMIC-REASONS"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "bea77d88-037f-5ff1-9798-a99bbbc27206",
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
   ],
   "date": "2026-11-05",
   "kind": "derivation",

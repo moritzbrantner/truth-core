@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SuccessionPotency.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SuccessionPotency.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SuccessionPotency.successionRequiresPotency"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

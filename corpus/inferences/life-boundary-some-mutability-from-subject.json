@@ -1,0 +1,13 @@
+{
+  "id": "e258521c-6354-58a6-8bcb-f9f55b700598",
+  "label": "Strength order: the MUTABLE_1 boundary statement implies the MUTABLE_3 one",
+  "legacy_id": "INF-LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT",
+  "input_statement_ids": [
+    "812b52b3-de7d-5982-93a9-e46b6e169616"
+  ],
+  "output_statement_id": "fa2619ca-90b6-565a-99ea-5d11a89ef4be",
+  "rule": "Disjunction introduction (left)",
+  "meaning": "Strength order between MUTABLE_1 and MUTABLE_3 in the boundary use: if whatever begins or ceases to live is in potency in itself, it is mutable in some way.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

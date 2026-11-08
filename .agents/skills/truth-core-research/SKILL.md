@@ -15,6 +15,42 @@ Preserve available source leads in existing notes or attempts, marked deferred.
 Only resume attribution work when the owner explicitly selects it. Proof gates
 and truthful source-claim boundaries remain in force.
 
+**Connect to the case first (owner direction, 2026-11-07).** Never build or extend a library, framework or vocabulary that no root route uses. Before choosing work:
+- Run `python3 scripts/corpus.py frontier --routes` and list the verified result families that do not reach `STMT-CATHOLICISM-TRUE` (`truth orphans`). A large disconnected family, such as the modal library that the necessary-being routes ignored, is the first thing to connect.
+- Name the root-route node your work serves.
+- In the PR, show the connection in `frontier-diff`, or give an explicit connection plan with its blocker.
+- For a load-bearing ambiguous term, first add the COVERAGE premise ("these are all the relevant senses") and the EXCLUSIVITY premise ("exactly one applies"). Then make a typed sense enum, a result per sense (or a countermodel), and a joint theorem by cases. Only then attack rival definitions.
+- Track senses by label (owner direction, 2026-11-07): each disambiguated term has senses TERM_n (PRIOR_1, PRIOR_2) with uuid identities. Each sense is its own Lean type (`lean_declaration` on the sense), so equivocation is a type error; give a new sense its own declaration, never reuse another sense's. Use one sense per term in each argument; an argument that works in two senses becomes two arguments (`for_each_sense` in the batch spec), and a premise relating two senses is listed in `sense_bridges`. `corpus.py context` and `dossier` show the labels; `corpus.py check` rejects unbridged mixing in new arguments.
+
+See AGENTS.md, "Connect every library to the case".
+
+Identity: corpus ids are opaque uuids. Never mint a readable id; give each new record a plain, sense-tagged `label` (`python3 scripts/new_id.py` mints ids, `argument_batch.py` does it for specs). Commands accept a uuid, legacy id (`STMT-…`) or label.
+
+When reconciling an older research branch, compare its records with current main
+before replaying commits or restoring a stash. Preserve newer definitions,
+disambiguations, module declarations and verified findings. A commit absent from
+main's history does not mean its result is absent from the corpus.
+
+For sense and identity work, follow the schema actually present in the selected
+checkout. The structure changes are tracked in #1233, with sense indexing in
+#1235, opaque record identity in #1240, and recursive formal meaning in #1242.
+Once available, use the existing identity resolver and batch generator: reuse
+migrated UUIDs and their legacy aliases, give new records UUIDs and human labels,
+and preserve sense UUIDs independently of display labels. Do not recreate an
+existing result under a fresh identity or treat a label as its meaning.
+
+For each load-bearing word, inspect the definition body and its consequential
+terms recursively, reusing existing vocabulary. Distinguish explicit primitives
+and their open interpretation obligations from completed definitions. Distinct
+names or Lean constants alone do not establish distinct meanings. Keep contested
+bridges as explicit propositions rather than hiding them in definitions.
+Where the sense schema is available, declare the argument's selected senses,
+use separate arguments for separate readings, and register an actual premise or
+conclusion bridge when moving between them. Check that bound hypotheses and the
+conclusion instantiate the intended sense, including predicate parameters.
+Legacy allowlisting records unfinished work; it is not evidence of successful
+sense binding. Keep the existing frozen Challenges and certification boundaries.
+
 Inventory before formalization: for an existing target argument run `python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`, then inspect each touched premise's `python3 scripts/corpus.py dossier <STMT-ID>`, then exact existing definitions, theorem types and recorded attempts. Prefer a concrete rival model or a consequential bridge test over another general-purpose distinction. Coordinate a genuinely new shared definition with its designated owner; submit independent proof edits directly yourself.
 
 For Lean development use the coordinator's existing local service and preview identity. Do not start a service/session or repeat preparation. From your canonical clone, submit full source content:

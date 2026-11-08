@@ -1,0 +1,12 @@
+{
+  "id": "c12196b6-dc3a-591b-9fa2-65ba6f6857d4",
+  "label": "The selected Church predicate coextends with the visible criterion, the…, from aspect inclusions",
+  "legacy_id": "CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS",
+  "argument_id": "ceeb2193-3b99-5cc3-9871-4196d0821972",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.namedChurchCoverageFromAspects",
+  "comparator_config": "results/CHURCH-NAMED-COVERAGE-FROM-ASPECT-INCLUSIONS/comparator.json",
+  "status": "solution-present",
+  "description": "Named coverage of the Church fork (visible, spiritual or joint criterion) holds through its joint case, from the same three OPEN inclusions. It replaces the open coverage premise by inclusions that can each be tested; it does not show that the named criteria exhaust ecclesiologies."
+}

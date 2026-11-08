@@ -1,0 +1,12 @@
+{
+  "id": "1d070db9-05a7-56b4-a9b7-b18939b7e1ab",
+  "label": "Nothing is prior to itself, from nonmutual dependence",
+  "legacy_id": "NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE",
+  "argument_id": "820b7701-10bd-57aa-bdb8-3c9f6de11ac9",
+  "challenge_module": "TruthCore.Results.Causality.CausalMapsBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.CausalMapsBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.CausalMapsBatch1.nothingPriorToItself",
+  "comparator_config": "results/NOTHING-PRIOR-TO-ITSELF-FROM-NONMUTUAL-DEPENDENCE/comparator.json",
+  "status": "solution-present",
+  "description": "If simple priority requires nonmutual dependence, nothing is simply prior to itself: x prior to x would make x both depend and not depend on x. Uses only the necessary direction of the dependence analysis of priority, not the sufficient one."
+}

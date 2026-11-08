@@ -1,0 +1,24 @@
+{
+  "id": "5344f278-35e8-55f2-b598-1c197361c21f",
+  "label": "Whatever is in POTENCY_1 in no respect has a life that neither begins nor ends in the…, from change",
+  "legacy_id": "NO-LIFE-BOUNDARY-FROM-CHANGE",
+  "premise_statement_ids": [
+    "c41ed610-456e-59db-a8af-81e209769486",
+    "ed993287-249f-5bd1-ad0d-430acdf698f2"
+  ],
+  "conclusion_statement_id": "aec71162-953c-5236-b04c-a7486b2d0d20",
+  "inference_ids": [
+    "c33c80ff-5e1b-5766-ba78-a0c4bac2a236"
+  ],
+  "meaning": "Whatever is in potency in no respect has a life that neither begins nor ends: a life boundary between two times is a change in some respect between them (OPEN; denied by whoever holds that generation or creation is no change of the thing), and whatever changes in a respect is in potency in it (OPEN q.9 a.1 reading for potency in the subject); a pure act has no potency. The q.9 a.2 potency-in-another reading (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER) now sits in the second premise.",
+  "definition_ids": [
+    "04c061b1-85ea-573f-8243-3b482c5fce23",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc"
+  ]
+}

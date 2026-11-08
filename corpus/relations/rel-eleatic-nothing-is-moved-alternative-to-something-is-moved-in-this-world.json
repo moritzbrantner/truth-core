@@ -1,9 +1,11 @@
 {
-  "id": "REL-ELEATIC-NOTHING-IS-MOVED-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "id": "6eaa43f0-6941-5141-b79b-82531c29e50a",
+  "label": "Eleatic rival: nothing is being moved in… alternative to Something in this world is being moved…",
+  "legacy_id": "REL-ELEATIC-NOTHING-IS-MOVED-ALTERNATIVE-TO-SOMETHING-IS-MOVED-IN-THIS-WORLD",
   "subject_kind": "statement",
-  "subject_id": "STMT-ELEATIC-NOTHING-IS-MOVED",
+  "subject_id": "f538ec85-3bdd-526a-bcf6-11b4c0d9aaec",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
-  "note": "Class: self-application. Refuted given open premises STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED by ELEATIC-THESIS-SELF-REFUTING (Aristotle's retorsion, Physics VIII.3, 254a27-30). No refutes relation is recorded while those premises are open (rule (c) counts a refuting argument only when all its premises are closed, #391/#411). Zeno's arguments for the thesis are addressed separately (CONVERGENT-ZENO-SCHEDULE answers the dichotomy step only)."
+  "object_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
+  "note": "Class: self-application. Refuted given open premises STMT-OPINION-IS-A-MOTION and STMT-ELEATIC-THESIS-IS-OPINED by ELEATIC-THESIS-SELF-REFUTING (Aristotle's retorsion, Physics VIII.3, 254a27-30). Its refutes relation REL-ELEATIC-THESIS-SELF-REFUTING-REFUTES does not count while those premises are open (rule (c) counts a refuting argument only when all its premises are established, #391/#411/#999). Zeno's arguments for the thesis are addressed separately (CONVERGENT-ZENO-SCHEDULE answers the dichotomy step only)."
 }

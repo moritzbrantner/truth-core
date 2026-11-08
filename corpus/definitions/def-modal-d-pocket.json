@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-D-POCKET",
+  "id": "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+  "label": "Serial collapse pocket and…: The complete PocketWorld carrier is root=0, collapse=1, left=2…",
+  "legacy_id": "DEF-MODAL-D-POCKET",
   "term": "serial collapse pocket and disconnected alternative",
   "definition": "The complete PocketWorld carrier is root=0, collapse=1, left=2, right=3, away=4. Edges are exactly 0→1, 0→2, 1→1, 2→3, 3→2, 4→4. The Unit atom is true exactly at 1. Worlds 2 and3 form a nontrivial closed cycle; world4 is disconnected from the root. This is a finite mathematical witness, not an ontology.",
   "basis": "stipulative",

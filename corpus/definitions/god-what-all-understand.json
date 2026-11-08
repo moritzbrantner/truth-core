@@ -1,12 +1,15 @@
 {
-  "id": "DEF-GOD-WHAT-ALL-UNDERSTAND",
+  "id": "e68a730e-ff16-5998-ac2b-f6f08728009b",
+  "label": "GOD_3: The usage reported at the end of each way: 'et hoc omnes intelligunt Deum', 'quod omnes…",
+  "legacy_id": "DEF-GOD-WHAT-ALL-UNDERSTAND",
   "term": "God (what all understand by the name, ST I q.2 a.3)",
-  "definition": "The usage reported at the end of each way: 'et hoc omnes intelligunt Deum', 'quod omnes dicunt Deum', 'hoc dicimus Deum'. It reports how the name is used of the first mover, the per se necessary being, the maximal being; it is not a demonstration of divine attributes, and no result on a root path uses it as a premise. The problem-of-evil comparison uses the prima via instance (STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD) to fix its own `God` predicate (`TruthCore.Comparison.ProblemOfEvil.Sig`).",
+  "definition": "The usage reported at the end of each way: 'et hoc omnes intelligunt Deum', 'quod omnes dicunt Deum', 'hoc dicimus Deum'. It reports how the name is used of the first mover, the per se necessary being, the maximal being; it is not a demonstration of divine attributes, and the only root-path result that uses it as a premise is the GOD_3 branch GOD-NAMES-DESCRIBED-FROM-USAGE (batch 4 of #1233), which reaches the naming premise only through the open bridge STMT-CALLED-GOD-IS-CLASSICAL-GOD. The problem-of-evil comparison uses the prima via instance (STMT-FIRST-UNMOVED-MOVER-IS-WHAT-ALL-UNDERSTAND-AS-GOD) to fix its own `God` predicate (`TruthCore.Comparison.ProblemOfEvil.Sig`).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-UNDERSTOOD-AS-GOD-A",
-    "AQUINAS-ST-I-Q2-A3-TERTIA-VIA-OMNES-DICUNT-DEUM-A",
-    "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A"
+    "bf22a4a1-b47d-5a00-ab13-b6c260a6bbaa",
+    "c88cb1d6-9e9b-524c-abce-df00ec09fece",
+    "9b52e1a5-9008-51e9-b666-892da74e45b1"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsWhatAllUnderstandAsGodReading"
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CalledGod",
+  "note": "CalledGod Calls godName x := Calls godName x, a speech community applying the name to x: GOD_3 of the DISAMB-GOD fork (batch 4 of #1233). The prima via instance remains the statement-level reading FirstUnmovedMoverIsWhatAllUnderstandAsGodReading."
 }

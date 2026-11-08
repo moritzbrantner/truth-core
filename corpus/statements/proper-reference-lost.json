@@ -1,15 +1,17 @@
 {
-  "id": "STMT-PROPER-REFERENCE-LOST",
+  "id": "99000c5a-5e2d-5013-8956-6e8b994171cf",
+  "label": "A precise failure of proper-to-practice transfer exists: some being satisfies the proper predicate…",
+  "legacy_id": "STMT-PROPER-REFERENCE-LOST",
   "paraphrase": "A precise failure of proper-to-practice transfer exists: some being satisfies the proper predicate while the selected practice name does not refer to it. This is a witness in the fixed profile, not an extra named theory.",
   "lean_declaration": "TruthCore.Alternatives.NameApplicationTransfer.ProperReferenceLost",
   "definition_ids": [
-    "DEF-PROPER-TO-PRACTICE-REFERENCE-CALIBRATION",
-    "DEF-NAME-REFERS-IN-PRACTICE",
-    "DEF-GOD-NOMINAL-Q13",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "4e1d6c98-a1a0-5990-8cc8-230e037db585",
+    "415c0bdc-24cd-5701-8d14-4b98b26aca64",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-NAME-APPLICATION",
-    "DISAMB-GOD"
+    "89e123bb-17d4-5c95-917f-8b1196e38b96",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

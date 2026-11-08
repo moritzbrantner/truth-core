@@ -1,12 +1,14 @@
 {
-  "id": "INF-SELECTED-CONE-NECESSARY-CONCRETE",
+  "id": "7c36f08d-473e-5930-b047-03a5681cfdfa",
+  "label": "Some concrete individual exists at w and at every world…, by Shared-local-descent-and-cont…",
+  "legacy_id": "INF-SELECTED-CONE-NECESSARY-CONCRETE",
   "input_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-SELECTED-CONE-WELL-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1b1e3f09-f2e9-5949-9c3b-8f7fce26a403",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "shared-local-descent-and-contingent-root-exclusion",
   "meaning": "Import the one-cone necessary-root result and project the same actual necessary concrete ancestor to the existing shared necessary-concrete statement. Retains the selected actual candidate, complete-cone foundation, local contingent dependence and explicit excluded middle. Does not assume necessary population anew or prove unity, all-world underivedness or God.",
   "assumption_statement_ids": [],

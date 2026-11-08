@@ -31,7 +31,7 @@
     }
   ],
   "provenance": "Isolated frozen Challenge extraction; complete alpha-canonical telescope/applications and project dependencies. Existing Challenges unchanged. Separate equality interfaces explicitly retain their carrier instances and, in compositions, the First Way existence disjunction.",
-  "result_id": "AQUINAS-ST-I-Q2-A3-MAXIME-ENS-IS-GOD-VIA-FULL-DESCRIPTION",
+  "result_id": "ffaaeb7e-c100-5238-9595-f4d20a300def",
   "schema_version": 1,
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.MaximeEnsIsGodViaFullDescription.maximeEnsIsGodViaFullDescription",
   "type_sha256": "ca55068c5cf0edb940f83ead572d87745f1980b6d1b0ccee68fca40f8a3c2ad2"

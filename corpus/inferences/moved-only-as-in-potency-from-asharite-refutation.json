@@ -1,0 +1,14 @@
+{
+  "id": "cf9840a9-8dfc-5f00-9bf0-718901ccf554",
+  "label": "Nothing is moved except insofar as it is in POTENCY_1 to that…, by Excluded middle on InPotency…",
+  "legacy_id": "INF-MOVED-ONLY-AS-IN-POTENCY-FROM-ASHARITE-REFUTATION",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "6948dde0-64ef-550b-ae3c-d30b3e113986"
+  ],
+  "output_statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+  "rule": "Excluded middle on InPotency x r, reductio against the negated existential",
+  "meaning": "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-WITHOUT-POTENCY-FROM-ANALYSIS (the Ash'arite rival fails on the same MovedIn and InPotency) and excluded middle. The refutation's premise (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY) stays OPEN; the route premise is not established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

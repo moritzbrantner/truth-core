@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-WHOLE-PRESENCE",
+  "id": "b5f94c92-b4cd-5bcc-a6d4-6e3fe2d1ad60",
+  "label": "PRESENCE_1: WholeAt f x is the hypothesized undivided spatial allocation of f to the location of…",
+  "legacy_id": "DEF-PARM-WHOLE-PRESENCE",
   "term": "presence",
   "definition": "WholeAt f x is the hypothesized undivided spatial allocation of f to the location of bearer x. WholeExclusive adds that two such bearer locations must be the same bearer; this stronger individuation/localization condition is open. It is not inferred from being numerically one.",
   "basis": "stipulative",

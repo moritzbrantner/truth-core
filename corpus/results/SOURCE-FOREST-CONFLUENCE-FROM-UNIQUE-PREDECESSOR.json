@@ -1,6 +1,8 @@
 {
-  "id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
-  "argument_id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "id": "f532348a-a29e-5001-b9e8-b3f17cbf83f0",
+  "label": "Any two finite upstream paths starting at one node can be extended\u2026, from unique predecessor",
+  "legacy_id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "argument_id": "4271912d-e59a-5a2e-8271-d39b9a052309",
   "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
   "theorem": "TruthCore.Results.Causality.SourceForest.confluent_of_uniquePredecessor",

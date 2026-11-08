@@ -1,9 +1,11 @@
 {
-  "id": "REL-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER-ALTERNATIVE",
+  "id": "6c184d2f-8bb7-5599-953d-80e7142b5fd1",
+  "label": "The universal same-act… alternative to In a supplied union, communicating that…",
+  "legacy_id": "REL-COMMUNICATION-COUNTERTUPLE-DEFEATS-RECEPTION-TRANSFER-ALTERNATIVE",
   "subject_kind": "statement",
-  "subject_id": "STMT-UNITED-ESSE-COMMUNICATION-RECEPTION-TRANSFER-FAILS",
+  "subject_id": "4fd3bd81-1c24-5894-b701-c658239a6f52",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-UNITED-ESSE-COMMUNICATION-COUNTS-AS-RECEPTION",
+  "object_id": "90bf4b29-a3fa-5e0c-9a17-446cb4f488d3",
   "note": "Exact negative proposition, derived only under its registered explicit premises; no unconditional philosophical defeat is claimed."
 }

@@ -2,11 +2,34 @@
 
 This repository advances substantial arguments through small verified research steps. Keep the complexity in the philosophy, not in repository machinery.
 
+## Fresh subagents for issue work (owner direction, 2026-11-08)
+
+During a workloop, the coordinator delegates each issue or bounded investigation
+to a fresh subagent. Split broad issues into independently reviewable slices;
+give each worker one slice with explicit file and argument ownership. The
+coordinator owns coverage, priorities, shared instructions, integration and merges.
+
+- Start workers without inherited conversation history (`fork_turns="none"`,
+  or the equivalent). Supply the brief below, relevant repository instructions,
+  exact corpus/theorem references, and the current workspace/service setup.
+  Do not forward the coordinator's transcript as the brief.
+- Use isolated warm checkouts for writers, with distinct ownership. Serialize
+  shared heavy verification and Lean-service operations under the existing
+  protocol. Workers must accommodate others' changes, not revert them.
+- Reuse a worker only within its current bounded slice. Start a fresh worker
+  for the next issue or unrelated argument family; workers do not recursively
+  delegate unless their brief explicitly authorizes it.
+- Workers persist substantive findings in the existing corpus records or linked
+  notes, then return a compact delta: PR/head, verified and unverified scope,
+  findings and remaining gaps, with evidence links. The coordinator updates the
+  one current handoff rather than importing long worker transcripts or creating
+  another tracker. Reuse unchanged verification evidence.
+
 ## Worker brief and handoff
 
 The master gives each worker a four-line brief:
 
-1. **Target:** the skeleton node, argument or root obligation advanced.
+1. **Target:** the skeleton node, argument or root obligation advanced. It must be a node on a root route, or connect to one by a named bridge. A target that serves no root route is rejected (see "Connect every library to the case").
 2. **Reuse:** the existing statement IDs and exact Lean theorems to consume.
 3. **Missing step:** the inference or source reading still needed.
 4. **Premise comparison:** the expected premises retained, added or removed, and whether the work connects results or discharges an obligation.
@@ -166,7 +189,35 @@ Formalize what can be formalized. Derive what can be derived. Document only what
 - **Encodings must be able to fail.** A transcription or an opaque flag is documentation in Lean syntax, not formalization (invariant 16).
 - **Interpretation forks become sibling propositions.** Where a point is open to interpretation, create one claim or statement per defensible option (invariant 5), linked by `interpretation_of` or a disambiguation, not "reading A / reading B" paragraphs in a note.
 - **Strength forks become strong and weak versions (#1017).** Where the ambiguity is one of strength (for every S, or only for the sentences the argument uses), record both versions as sibling statements and register the order with a `strengthens` relation (strong → weak). It is valid only with a verified result whose argument has the strong version as its only premise and the weak version as its conclusion; a strictness countermodel is optional. Use the **weakest version that suffices** in each argument; an argument that keeps the strong version records why in `strong_version_needed`. Each version gets its own claims: a source that states only the weak version is never attributed the strong one. Senses that differ in content rather than strength (eternity and sempiternity, #979) stay a disambiguation. See `docs/corpus-model.md`, "Strength order".
+- **Disambiguate through definitions, not labels.** Each consequential `TERM_1`/`TERM_2` sense needs its own `DEF-…` record and a faithful formal interpretation. Reuse and, when needed, define the load-bearing terms *inside* its definition, recursively; this may grow into an extensive shared dictionary, with no arbitrary depth limit. A Lean primitive is allowed only when explicitly identified as primitive, with its meaning, distinguishing conditions and open semantic obligations stated. A primitive relation or a theorem that merely constrains it is not a completed Lean definition. Do not conceal a contested bridge in definitional equality or create circular definitional unfoldings. See `docs/corpus-model.md`, "Definition dependencies and formal meaning".
+- **Terms carry sense labels (owner direction, 2026-11-07).** Each disambiguated term has numbered senses TERM_n (PRIOR_1, PRIOR_2) with opaque uuid identities; labels are stable and only appended. Each sense is a distinct Lean type (`senses[].lean_declaration`), so equivocation is meant to be a type error that `bind-check` catches; a sense label without a distinct Lean declaration is not a finished sense. One argument uses one sense per term. An argument valid in several senses becomes one argument per sense (`for_each_sense` in `argument_batch.py`). A passage between senses is an explicit premise listed in `sense_bridges`, or the conclusion of an argument that derives it (`role: "conclusion"`); a premise-free control showing that mixing fails sets `sense_mixing_control: true`. The legacy allowlist in `corpus/sense-index-allowlist.json` may only shrink (#1233). See `docs/corpus-model.md`, "Sense-indexed terms".
 - **Prose residue names its blocker.** Prose is legitimate for source-fidelity judgments, rejected interpretations with their reasons, and what cannot yet be typed. Each such residue says what encoding it would need: vocabulary, a source, or a judgment that cannot be encoded.
+
+## Exploration and batch certification (owner direction, 2026-11-07)
+
+Breadth matters as much as certification. For a target proposition, first write an **exploration map** (`explorations/<slug>.toml`, checked with `python3 scripts/argument_batch.py map`): the whole argument DAG in one pass, reusing existing statement IDs and marking new nodes and bridges. Then certify a cluster of derivations as **one batch**: one vocabulary module, one Solution, its Challenge generated by `python3 scripts/argument_batch.py challenge`, and all corpus records generated from one spec by `python3 scripts/argument_batch.py records SPEC --write --fix`. New bare premises and analyst bridges are kept and labelled open; adding them is not a regression (the former no-bare-premise relocation rule is discarded). Controls: one nonvacuity witness per batch and omission countermodels for the premises that carry the argument. Report exploration progress with `python3 scripts/corpus.py thickness --base <merge-base>`. Base every PR on `main` (no stacked PRs: deleting a merged base branch closes the PRs stacked on it). The coordinator merges worker PRs with `python3 scripts/merge_queue.py --workdir <spare clone> PR...`, which merges green PRs and resolves conflicts that lie only in generated aggregators by regenerating them; any other conflict goes back to the author. Before each round, use the worklist (`thickness --queue`) and record rejected leads as attempts.
+
+## Connect every library to the case (owner direction, 2026-11-07)
+
+**What went wrong.** The repository built a large modal library for the necessary-being target: about 50 modules under `TruthCore/Modal/`, with roughly 89 verified results on Kripke frames, K/T/S4/B/S5, actualist domains, rigid designation and modal collapse. None of those results reached `STMT-CATHOLICISM-TRUE`. The necessary-being routes kept running only through act/potency and degrees-of-being chains, and their "necessary" was never the necessity of modal logic.
+
+`DISAMB-NECESSARY` listed ten senses of "necessary" and stated that no statement relates them. Research rounds selected their work from `thickness --queue`, which ranks only statements that already reach the root, so the disconnected library never surfaced. The rounds optimised thickness and never asked what verified work was idle. A framework that answers no question on a root route is not progress on the case, however well verified.
+
+**The rule.** No library, framework, vocabulary or result family is built or extended in isolation.
+
+1. **Name the target before building.** Every worker brief and every PR that adds vocabulary or results names the root-route node it serves: a premise it discharges, an argument it connects, or a rival it refutes. `python3 scripts/corpus.py frontier --routes` lists the routes.
+2. **Connect, or say why not.** The PR either shows the connection in the computed `frontier-diff` (new results reaching the root, a premise closed or defended, a route re-routed) or states an explicit connection plan: the target statement, the missing bridge and its blocker. The coordinator's handoff tracks that plan. Unconnected work does not count as progress on the case until it is connected.
+3. **Audit idle work before each round.** Before selecting a research round, list the verified result families that do not reach the root (`truth orphans`, once merged). Connect large disconnected families before opening new derivations. Judge rounds first by route cost and defended premises (`frontier-diff`); thickness is secondary.
+4. **Fork load-bearing terms; do not keep senses in silos.** When a term on a root path has several senses (a disambiguation listing them), proceed in this order:
+   - (a) Add two explicit open premises. COVERAGE: "senses A, B, … are all the relevant senses". EXCLUSIVITY: "exactly one sense applies to this use". Formalize exclusivity as the intended reading selecting one constructor, or as mutually exclusive cells, because senses may be strength-ordered and need not have disjoint extensions.
+   - (b) Ground each sense in its own definition record and Lean interpretation. Follow consequential terms in those definitions to further definitions/disambiguations. If a relation is primitive, distinguish it from a definition with a body and record the open semantic constraints; do not treat a premise about it as its definition.
+   - (c) Make a typed enum of the senses, each referring to its sense-specific Lean declaration; names and distinct types alone do not establish the intended meanings.
+   - (d) For each sense, prove the route step, or show it fails with a countermodel or a `refutes` relation. Test proposed equivalence, implication and independence between senses rather than assuming any of them.
+   - (e) Prove a joint theorem by cases, with coverage as a premise. Record `strengthens` between senses where one implies another.
+
+   Only then attack rival semantic commitments and worldviews: the fork turns their refutation into a checked disjunctive syllogism instead of ad hoc rebuttals. A disambiguation whose resolution says its senses are unrelated marks an unfinished fork, not a finished analysis.
+
+See `docs/decisions/2026-11-07-02-connect-libraries-to-the-case.md`.
 
 ## Proof-seeking stance
 
@@ -230,6 +281,8 @@ See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and veri
 ## Configuration elimination and composition
 
 For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
+
+Find omission countermodels with `python3 scripts/countermodel.py THEOREM [--omit HYP] [--all] [--size K]` instead of writing them by hand. It proposes finite models and has Lean check a `decide` certificate; "unresolved" is not proof that a premise is needed ([countermodels](docs/countermodels.md)).
 
 ## Argument-first investigation
 
@@ -374,7 +427,7 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (conditional support bundles added or removed when comparable, per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and bare premises added), which CI prints to the job summary for every PR. Adding bare premises remains a relocation-quality warning (#987), not grounds to erase the positive support-option gain from a new verified argument (owner clarification 2026-11-07). Route costs follow the [per-route open-premise cost rule](docs/corpus-model.md#premise-program-and-frontier) (`frontier --routes`): they diagnose an expanded proof, **not research progress**. A premise is established when it is self-evident with a met floor basis, defended (every recorded rival refuted by a verified refutation whose premises are all established, recursively and without circularity, #999), or derived from established premises; a stated or supported premise stays one leaf until it is established, so adding a derivation under it never raises a route's cost, while a derivation under a bare premise, or a new intermediate step, may raise it.
+Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (conditional support bundles added or removed when comparable, per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and bare premises added), which CI prints to the job summary for every PR. Adding bare premises is listed for visibility, not as a regression (owner decision 2026-11-07). Route costs follow the [per-route open-premise cost rule](docs/corpus-model.md#premise-program-and-frontier) (`frontier --routes`): they diagnose an expanded proof, **not research progress**. A premise is established when it is self-evident with a met floor basis, defended (every recorded rival refuted by a verified refutation whose premises are all established, recursively and without circularity, #999), or derived from established premises; a stated or supported premise stays one leaf until it is established, so adding a derivation under it never raises a route's cost, while a derivation under a bare premise, or a new intermediate step, may raise it.
 
 ## Review guidelines
 
@@ -407,34 +460,13 @@ TruthCore.Greek.Plato.Timaeus
 TruthCore.Greek.Aristotle.Physics
 ```
 
-Claim IDs are stable provenance/interpretation IDs:
+Corpus ids are opaque UUIDs (owner decision 2026-11-07): "we just cannot afford any ambiguity anymore". A readable id puts words, and therefore senses, into identity.
 
-```text
-PLATO-TIM-28A-CAUSE-A
-PLATO-TIM-28A-CAUSE-B
-```
-
-Statement IDs are stable proposition IDs and should not encode an assertion that two source readings are identical:
-
-```text
-STMT-CAUSE-PRINCIPLE-BROAD
-STMT-COSMOS-HAS-CAUSE
-```
-
-Passage IDs identify reproducible source evidence ranges, not interpretations:
-
-```text
-PLATO-TIM-28
-ARIST-PHYS-I-4
-```
-
-Argument IDs identify a composed derivation. Result IDs identify a verifier record and may intentionally match the argument ID in the seed corpus:
-
-```text
-PLATO-TIM-28A-28C-COSMOS-CAUSE-A
-```
-
-Do not renumber existing IDs merely because new earlier material is added.
+- **Never mint a readable id.** A new record gets a uuid4 (`python3 scripts/new_id.py`); `argument_batch.py` mints them for spec records.
+- **Use labels for humans.** Every record has a `label`, unique within its kind, at most 100 characters, with no id-like text, naming the thing plainly (a statement by its proposition, an argument or result by its conclusion and route). A term with a linked disambiguated sense carries its sense tag: "Act is PRIOR_1 to potency".
+- **Legacy readable ids are aliases.** Migrated records keep the old id as `legacy_id` (for example `STMT-CATHOLICISM-TRUE`, `PLATO-TIM-28A-CAUSE-A`); tools and prose may use it, and it resolves to exactly one uuid per kind. Tools accept a uuid, legacy id or label and print `label [uuid8]`.
+- **IDs are permanent UUIDs; legacy aliases never change.** Labels may be improved at any time; docs/notes/label-cleanup.md lists the mechanical labels to fix, and that list may only shrink (#1233).
+- An in-flight branch with readable-id records converts by merging `origin/main` and running `python3 scripts/migrate_uuid.py --write` (docs/notes/uuid-migration.md).
 
 <!-- BEGIN:turborepo-agent-rules -->
 

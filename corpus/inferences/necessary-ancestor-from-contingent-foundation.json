@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
+  "id": "6a6904f1-60eb-5703-883e-7002775d220e",
+  "label": "One member of the selected complete actual-concrete grounding…, by Reuse-of-contingent-reason-de…",
+  "legacy_id": "INF-NECESSARY-ANCESTOR-FROM-CONTINGENT-FOUNDATION",
   "input_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-CONTINGENT-CONE-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1ee7338d-66aa-5ce2-83cb-b5173730ee38",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-SELECTED-ANCESTOR",
+  "output_statement_id": "82e119f5-9602-5a1d-b334-f88161d7a1b5",
   "rule": "reuse-of-contingent-reason-descent",
   "meaning": "Reuse ExplanatoryAdequacy.forced on tagged positive existence facts in the complete concrete ancestry. If no necessary ancestor existed, explicit excluded middle would make every account member contingent; local actual grounding gives each contingent member an in-account contingent reason, contradicting founded contingent descent. The resulting actual concrete necessary witness need not be a root. No non-copy, necessitation, reason-token realization, necessary population or full-cone WF premise is added.",
   "assumption_statement_ids": [],

@@ -1,0 +1,25 @@
+{
+  "id": "8ba56e15-0d7d-567d-a45a-92b84b03972b",
+  "label": "Nothing has actuality except insofar as it is: whatever is in act in some respect…, from perfection",
+  "legacy_id": "ACTUALITY-ONLY-INSOFAR-AS-BEING-FROM-PERFECTION",
+  "premise_statement_ids": [
+    "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1",
+    "196e6606-d61b-59c4-a12b-7ce056936b92"
+  ],
+  "conclusion_statement_id": "7067553d-cad9-5d79-b6b2-912e35051530",
+  "inference_ids": [
+    "95c85485-1709-5941-ada9-b7e899f7b574"
+  ],
+  "meaning": "Whatever is in act in a respect is perfect in it (q.5 a.1, STMT-PERFECT-INSOFAR-AS-IN-ACT), and whatever is perfect in some respect has being (q.4 a.2, STMT-PERFECT-ONLY-INSOFAR-AS-BEING, encoded from the definition-linked q.4 a.2 statement). Derives STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING (q.4 a.1 ad 3), an underived leaf of every root route. Act and perfection are read per respect with one InAct parameter (DISAMB-IN-ACT). Both premises stay open.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "bf9ced33-dbd9-5921-99ef-e1e92fa7e063",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
+  ],
+  "disambiguation_ids": [
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "b4099355-0e3b-510a-9398-8ef97b4881b1"
+  ]
+}

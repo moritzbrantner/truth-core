@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-SCG",
+    "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
     "source_url": "https://isidore.co/aquinas/english/ContraGentiles1.htm",
     "retrieved_at": "2026-10-24T01:22:15Z",
     "sha256": "sha256:c46d9f71e075b6cd4508e37331029b32aff5432f2aff502a3015fcd93e6dd45c",
@@ -18,7 +18,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-SCG-I-13-EN",
+      "id": "92bd0343-4334-512b-98cd-74b784fd566c",
+      "label": "Thomas Aquinas, Summa contra gentiles, I.13",
+      "legacy_id": "AQUINAS-SCG-I-13-EN",
       "locator": "I.13",
       "claim_locator_prefixes": [
         "I.13 "
@@ -35,7 +37,9 @@
       "incipit": "Chapter 13\nARGUMENTS IN PROOF OF THE EXISTENCE OF GOD"
     },
     {
-      "id": "AQUINAS-SCG-I-15-EN",
+      "id": "345ac19d-508b-50f5-bfbc-1f7ad6efa19d",
+      "label": "Thomas Aquinas, Summa contra gentiles, I.15",
+      "legacy_id": "AQUINAS-SCG-I-15-EN",
       "locator": "I.15",
       "claim_locator_prefixes": [
         "I.15 "
@@ -52,7 +56,9 @@
       "incipit": "Chapter 15\nTHAT GOD IS ETERNAL"
     },
     {
-      "id": "AQUINAS-SCG-I-16-EN",
+      "id": "9474a112-cac9-54e8-8e52-58e2cb464fe5",
+      "label": "Thomas Aquinas, Summa contra gentiles, I.16",
+      "legacy_id": "AQUINAS-SCG-I-16-EN",
       "locator": "I.16",
       "claim_locator_prefixes": [
         "I.16 "

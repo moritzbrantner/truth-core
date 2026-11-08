@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A3-REVISED-ACTUALITY-CONCLUSION",
-  "statement_id": "STMT-NB-A2-REVISED-ACTUALITY-CONCLUSION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "84184d3c-a354-5993-acee-5e542226522b",
+  "label": "Unattributed website author, Necessary…: Given its preceding possibility argument and revised… (4)",
+  "legacy_id": "NB-SURVEY-A3-REVISED-ACTUALITY-CONCLUSION",
+  "statement_id": "704ee224-1dd9-5680-95b4-71d5925f6d05",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A3C3, final actuality paragraph after the causal-prefix note following step 11",
   "interpretation": "The final paragraph matches A2C3 exactly and applies the SAME revised automatic-actuality stipulation; reuse the existing statement. Here its prior possibility argument is the revised A3 causal prefix. This is an attributed conditional actuality conclusion, not actual existence from a definition alone, a new modal suffix proof, ordinary NecessaryAt or a justified transport of a classified possible individual to the actual world. Cause-capable concrete meaning is retained without upgrading it to actual causal exercise here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-REVISED-CLASSIFICATION",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "7305e9f6-39ed-5866-b8af-2089e736f67a",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-ALT-REVISED-NECESSITY",
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "385dcada-20b6-5112-9c91-0f34e8e1b844",
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

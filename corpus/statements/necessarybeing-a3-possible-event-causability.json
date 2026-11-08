@@ -1,14 +1,16 @@
 {
-  "id": "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY",
+  "id": "b2c3ece6-6900-5f42-9efb-fd7ae0474164",
+  "label": "Conditional on selecting the negative A3P1 answer, no possible event is impossible to cause",
+  "legacy_id": "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY",
   "paraphrase": "Conditional on selecting the negative A3P1 answer, no possible event is impossible to cause. An event is a change whose before/after states are essential to its identity; the question tooltip describes a cause as a prior condition capable of explaining or partly explaining that event. This is possible causal availability, not universal actual causation or complete sufficient explanation.",
   "definition_ids": [
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

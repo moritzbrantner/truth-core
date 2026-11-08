@@ -1,31 +1,33 @@
 {
-  "id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
+  "id": "ab8871b6-d9bf-5146-babe-8581290b801e",
+  "label": "Some GOD_4 candidate and society satisfy Jesus' primitive FoundedInMandate\u2026, from attested context",
+  "legacy_id": "JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT",
   "premise_statement_ids": [
-    "STMT-GOD-EXISTS",
-    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES",
-    "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE",
-    "STMT-JESUS-CLAIMED-DIVINE-AUTHORITY-AND-ROSE",
-    "STMT-CHRIST-FOUNDED-VISIBLE-CHURCH",
-    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
-    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
-    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING"
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+    "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "3a4c575c-7aa0-5f05-8584-251115adb9aa",
+    "c1deb2ee-770d-5030-9e5c-302e33028811",
+    "b139ab5a-695b-588a-b03d-b89659595ded"
   ],
-  "conclusion_statement_id": "STMT-JESUS-ENVOY-TEACHING-FOUNDING-EVENT-EXISTS",
+  "conclusion_statement_id": "1e65befc-0bd5-5e4f-bba2-a1195ef9b4c9",
   "inference_ids": [
-    "INF-JESUS-ENVOY-FOUNDING-EVENT-FROM-ATTESTED-CONTEXT"
+    "0fcf938f-d6ec-5376-863d-a4e9731c15b0"
   ],
   "meaning": "Compose the case\u2019s existing God and visible-society witnesses with attestation, veracity and scope: obtain a held mandate and then the commissioned founding event. This supplies the nonvacuity condition conditionally without inventing a new historical premise. It does not assume or derive the envoy-to-principal bridge.",
   "definition_ids": [
-    "DEF-PRINCIPAL-ACT-FOUNDING-READING",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY",
-    "DEF-FOUNDED-BY-GOD-IMMEDIATELY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-FOUNDED-BY-GOD",
-    "DISAMB-GOD"
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ],
   "strong_version_needed": {
-    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING": "The visible-founded-society witness is not assumed to be the named Catholic Church in this eight-premise interface. The weak Catholic-only scope does not apply to it without adding the separate stage-6 identity premise. This preserves the existing generic context and no universal scope is attributed to a source."
+    "b139ab5a-695b-588a-b03d-b89659595ded": "The visible-founded-society witness is not assumed to be the named Catholic Church in this eight-premise interface. The weak Catholic-only scope does not apply to it without adding the separate stage-6 identity premise. This preserves the existing generic context and no universal scope is attributed to a source."
   }
 }

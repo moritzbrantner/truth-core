@@ -1,1 +1,1 @@
-{"id":"STMT-VOID-MOTION-ENTAILS-PLACE-FOR-VOID","paraphrase":"If void itself moves, a place into which void moves must exist.","lean_declaration":"TruthCore.Greek.Aristotle.Physics.VoidMotionEntailsPlaceForVoidReading"}
+{"id": "ab14bfd3-d653-5133-83d1-b55695e99386", "label": "If void itself moves, a place into which void moves must exist", "legacy_id": "STMT-VOID-MOTION-ENTAILS-PLACE-FOR-VOID", "paraphrase": "If void itself moves, a place into which void moves must exist.", "lean_declaration": "TruthCore.Greek.Aristotle.Physics.VoidMotionEntailsPlaceForVoidReading"}

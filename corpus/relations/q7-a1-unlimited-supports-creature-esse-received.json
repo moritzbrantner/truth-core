@@ -1,0 +1,11 @@
+{
+  "id": "904404f7-2fbb-544e-a1ab-8603055cc8ba",
+  "label": "Thomas Aquinas, Summa theologiae I q.7 a.1… supports The esse of every creature is received in…",
+  "legacy_id": "REL-Q7-A1-UNLIMITED-SUPPORTS-CREATURE-ESSE-RECEIVED",
+  "subject_kind": "claim",
+  "subject_id": "153eef01-d362-5aa5-862f-e12f3cae6b52",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "29e71e43-1d34-5008-8811-897fbddda209",
+  "note": "The claim's interpretation records that q.7 a.2 co. denies infinity simpliciter to a subsistent created form because its esse is received and contracted to a determinate nature. That bears on the premise for subsistent created forms; that the esse of every creature is received in some principle is the analyst's generalization."
+}

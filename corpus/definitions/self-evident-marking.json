@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELF-EVIDENT-MARKING",
+  "id": "500ba323-cca5-5b35-8b75-947008256c43",
+  "label": "SELF_EVIDENT_5: A statement is SELF_EVIDENT_5 in this corpus when its record carries a self_evident…",
+  "legacy_id": "DEF-SELF-EVIDENT-MARKING",
   "term": "self-evident (as marked in this corpus)",
   "definition": "A statement is self-evident in this corpus when its record carries a `self_evident` marking whose justification ids are sourced claims or results: the marking is itself a challengeable, argued claim, not a bare flag. It names a floor basis (retorsion, common_ground or observation) and closes the statement only while that criterion holds on the current records; closure is relative to the listed bases (docs/corpus-model.md, #500).",
   "basis": "stipulative",

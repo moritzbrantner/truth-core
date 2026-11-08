@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
-  "argument_id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
+  "id": "a0e47991-ebe9-53f0-b5ac-22153aee5a5a",
+  "label": "The actuality of the buildable precisely…, from For the actuality of the buildable qua… and 1 more",
+  "legacy_id": "ARIST-PHYS-201B-BUILDABLE-ACTUALITY",
+  "argument_id": "9f8e4091-5e36-54db-bb1e-c402a2e489ea",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.BuildableActuality.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.BuildableActuality.buildableActualityIsBuilding",

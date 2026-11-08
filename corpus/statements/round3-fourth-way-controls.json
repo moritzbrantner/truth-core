@@ -1,0 +1,19 @@
+{
+  "id": "7c4de616-a3b9-5639-9f31-05811eef57e3",
+  "label": "Interpretations for the twelve derivations of the round-3 Fourth Way batch: for each premise other…",
+  "legacy_id": "STMT-ROUND3-FOURTH-WAY-CONTROLS",
+  "paraphrase": "Interpretations for the twelve derivations of the round-3 Fourth Way batch: for each premise other than excluded middle, a model in which the other premises hold and the conclusion fails (one on the natural numbers for the ascent bound), and one joint Boolean model in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.Control.Certificate",
+  "definition_ids": [
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "347a22c0-55c4-54a4-805f-d6473db878e4",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

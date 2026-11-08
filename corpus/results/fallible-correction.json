@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-FALLIBLE-CORRECTION",
-  "argument_id": "LOGIC-FALLIBLE-CORRECTION",
+  "id": "25f65c4f-2cdc-5b6d-bfb6-a666d4180e8d",
+  "label": "For the specified finite rational weighted-majority protocol, ^m ≤ N*^M holds for observed…",
+  "legacy_id": "LOGIC-FALLIBLE-CORRECTION",
+  "argument_id": "cd910835-52d5-5779-881a-a2e2718e2274",
   "challenge_module": "TruthCore.Results.Logic.FallibleCorrection.Challenge",
   "solution_module": "TruthCore.Results.Logic.FallibleCorrection.Solution",
   "theorem": "TruthCore.Results.Logic.FallibleCorrection.certificate",

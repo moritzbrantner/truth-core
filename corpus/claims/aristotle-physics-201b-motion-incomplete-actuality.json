@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-201B-MOTION-INCOMPLETE-ACTUALITY-A",
-  "statement_id": "STMT-MOTION-INCOMPLETE-ACTUALITY",
-  "source_id": "ARIST-PHYS",
+  "id": "950ad141-7594-584d-ab24-841f479ee7d2",
+  "label": "Aristotle, Physics III.2, 201b31-202a2: Motion is an incomplete actuality of what is potential",
+  "legacy_id": "ARIST-PHYS-201B-MOTION-INCOMPLETE-ACTUALITY-A",
+  "statement_id": "999b4125-27f9-50a1-8993-3535e2eda4bb",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.2, 201b31-202a2",
   "interpretation": "Positive classification reading: motion is an actuality but an incomplete one, because what is potential in the relevant respect is incomplete. The incompleteness relation is left primitive instead of being replaced by a modern process or temporal theory.",
   "status": "formalized"

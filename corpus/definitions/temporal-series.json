@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-SERIES",
+  "id": "8ed10810-ed80-56d4-b629-34d1ef6ae07f",
+  "label": "Temporal series: TemporalSeries B: a type of times with an earlier-than relation, a relation…",
+  "legacy_id": "DEF-TEMPORAL-SERIES",
   "term": "temporal series (duration frame)",
   "definition": "`TemporalSeries B`: a type of times with an earlier-than relation, a relation presentAt x t (x is present at time t) and the state of x at t, its operations included. It bundles the duration frame of DEF-BOETHIAN-ETERNAL (Time, <, LivesAt, lifeStateAt) with presence for life, so that a family `S : I → TemporalSeries B` of series can be supplied. No order axiom and no richness condition is assumed.",
   "basis": "stipulative",

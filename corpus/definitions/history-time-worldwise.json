@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-TIME-WORLDWISE",
+  "id": "a9886291-9c7c-59ac-808c-df4a1d657acd",
+  "label": "Worldwise presence with separately…: Worldwise h x means ∀ w, ∃ t, h.IsAt w x t, for a fixed…",
+  "legacy_id": "DEF-HISTORY-TIME-WORLDWISE",
   "term": "worldwise presence with separately chosen times",
   "definition": "Worldwise h x means ∀ w, ∃ t, h.IsAt w x t, for a fixed bearer x and History W B T with a shared time carrier T. World and time quantifiers are unrestricted; no modal accessibility, coherence with Ontic.ExistsAt or temporal order is implicit.",
   "basis": "stipulative",

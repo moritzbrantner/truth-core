@@ -1,20 +1,22 @@
 {
-  "id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
+  "id": "834c6ea7-82c6-5ede-88c9-dbcffdcecfde",
+  "label": "Either every defined move is endorsed, every defined…, from Excluded middle as a general principle…",
+  "legacy_id": "CONCILIAR-DEFINITION-STATUS-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-CONCILIAR-DEFINITION-STATUS-CASES",
+  "conclusion_statement_id": "1a191991-5c5a-5e44-83a8-012f2021325c",
   "inference_ids": [
-    "INF-CONCILIAR-DEFINITION-STATUS-COVERAGE"
+    "9474b195-5123-58e7-9cc4-08e5cc866963"
   ],
   "meaning": "Explicit EM yields the two uniform endorsement readings or actual mixed witnesses. Empty Defined domains permit universal overlap; named uniform coverage is not established.",
   "definition_ids": [
-    "DEF-THEOLOGICAL-CONTENT-AND-RELIGIOUS-LIFE-ROLES",
-    "DEF-CONCILIAR-DEFINITION",
-    "DEF-PRACTICE-OWN-STANDARD",
-    "DEF-CORRECT-MOVE-IN-PRACTICE"
+    "7cc5b0f1-7c74-54d8-b1e6-7645912864a3",
+    "a80131d4-c041-5aa0-a122-0bfea7c0e2fa",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
   ],
   "disambiguation_ids": [
-    "DISAMB-THEOLOGICAL-FORMULATION-AND-NORMATIVE-GRAMMAR"
+    "a303de75-42db-5f10-afea-036fbc222162"
   ]
 }

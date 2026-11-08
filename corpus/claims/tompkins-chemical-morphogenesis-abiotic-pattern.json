@@ -1,18 +1,20 @@
 {
-  "id": "TOMPKINS-CHEMICAL-MORPHOGENESIS-ABIOTIC-PATTERN",
-  "statement_id": "STMT-TELEONOMY-ABIOTIC-CHEMICAL-PATTERN",
-  "source_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS",
+  "id": "6b8a5e69-0906-5ebd-b014-8a5b6a3f1e62",
+  "label": "Nathan Tompkins and colleagues, Testing…: Tompkins and colleagues report that diffusively coupled…",
+  "legacy_id": "TOMPKINS-CHEMICAL-MORPHOGENESIS-ABIOTIC-PATTERN",
+  "statement_id": "31ef93be-6f54-5245-82ae-c2e721d35130",
+  "source_id": "43a57337-fbb5-5bca-9b0b-9ae68e44f416",
   "locator": "p. 4397, abstract, introduction and Significance",
   "interpretation": "Scoped primary experimental report from a pinned publisher-formatted PDF on a third-party mirror. Chemical cells are artificial abiotic droplets, not reproducing organisms. Experimenters prepare apparatus and boundary conditions; therefore this is evidence for pattern emergence by reaction/diffusion, not a demonstration that no intelligent being has any causal role. The abstract/body discrepancy on a pattern count is not used. No claim that all nonliving regularity, physical laws themselves or biological development is thereby explained.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-TELEONOMY-LOCAL-COUPLING",
-    "DEF-TELEONOMY-PHYSICAL-LAW",
-    "DEF-TELEONOMY-MODEL-SCOPE",
-    "DEF-INTENTIO-AS-TENDING",
-    "DEF-GOVERNMENT-DIRECTION-TO-END"
+    "996de6a6-f12e-53ea-86bb-d3803f93f1ca",
+    "2b0cdb07-d28d-591c-a653-53937aa022f9",
+    "b5b918e7-b170-5d37-acad-10004f3570b7",
+    "2847d4f1-a13a-5d0f-8cc1-abf1c807f92f",
+    "c53b5fbe-121a-5d59-8e29-0f9f7eea85b1"
   ],
   "disambiguation_ids": [
-    "DISAMB-TELEONOMY-FINALITY-AND-AGENCY"
+    "066d546d-53f8-5319-8333-6b117a152002"
   ]
 }

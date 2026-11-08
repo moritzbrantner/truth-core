@@ -1,19 +1,21 @@
 {
-  "id": "NB-SURVEY-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
-  "statement_id": "STMT-NB-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "f318403d-6a41-5f4d-abf7-b62984b00f53",
+  "label": "Unattributed website author, Necessary…: Conditional on the affirmative report, if being concrete…",
+  "legacy_id": "NB-SURVEY-A9-ORDINARY-TO-NONTRIVIAL-TRANSFER",
+  "statement_id": "66e6f126-77f1-5945-aa3b-80e317461515",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A9P1B, complete concrete-entails-P question and titles; A9C step 4 universal extraction",
   "interpretation": "Preserve P1B’s intermediate nontrivial-to-concrete wording and C4’s for-any-P extraction. Ordinary projection/conjunction composition yields only ordinary entailment; it does not establish independence from impossibility as a basis. Replacing the ordinary antecedent by NT would change the question and its C5 application. Concrete is source causal capability, necessary is necessarily existing; actualist/domain/modal/class correspondence is OPEN. No actual respondent assent or retained session state is supplied.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A9-NONTRIVIAL-ENTAILMENT",
-    "DEF-NB-A8-MODAL-PROPERTY-ENTAILMENT",
-    "DEF-NB-A2-CONCRETE-CAUSE-CAPABLE",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "abb6f562-d2b2-5b75-8e80-22a6344cc3b6",
+    "45cb47e4-168c-5bb7-baf8-b659632a396e",
+    "88bd1ef6-cb47-5707-ae9a-23537290aea9",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A9-ORDINARY-AND-NONTRIVIAL-ENTAILMENT",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "50ec07aa-1e34-55e4-819e-df76d30b4b17",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "dd343d53-72e1-4e25-80e5-cd742bcdc4aa",
+  "label": "Seven Fifth Way omission controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d73de942-be11-48e8-9cc7-f15406ffac4b",
+  "rule": "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations",
+  "meaning": "All seven premises hold nonvacuously on the oneDirects fixture. Five no-director variants separately omit cognition-lack, populated observation, not-chance, chance-or-intention and the knowing-director premise; the existing two-archer/moved and no-moves fixtures omit reduction and directing-as-moving. Every omission lacks a first unmoved mover. The two-archer survivor has first movers but not global uniqueness. Predicates are fully interpreted; no empirical applicability or full-worldview consistency is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

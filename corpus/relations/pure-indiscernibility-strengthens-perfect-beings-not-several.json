@@ -1,0 +1,13 @@
+{
+  "id": "1b2827fd-1d31-5f8b-97b9-c01b527bb6bf",
+  "label": "Any two beings, first movers or not, that… strengthens Any two beings, each having every pure…",
+  "legacy_id": "REL-PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS-NOT-SEVERAL",
+  "subject_kind": "statement",
+  "subject_id": "bd0a956c-149e-5d7d-9771-b974da72fd3a",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "95879657-de3a-5053-ae90-54a14345e084",
+  "verification_result_id": "a398edd8-397a-5cdb-9685-0876164fb77f",
+  "strictness_result_id": "1d13aa5a-4d64-565f-8890-2bcc69a96745",
+  "note": "Two beings each with every pure perfection and only pure ones are purely determined and indiscernible, so the narrower bridge identifies them. Strict: two determination-free beings are purely determined and indiscernible yet distinct, while SCG I.42 holds vacuously because neither has the pure perfection."
+}

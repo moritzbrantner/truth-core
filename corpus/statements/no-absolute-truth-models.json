@@ -1,16 +1,18 @@
 {
-  "id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
+  "id": "3ecdf33e-621c-5f6f-99a3-1ad2f079fe9e",
+  "label": "Two models: the scoped, disquoting no-absolute-truth thesis holds while its speaker's relative…",
+  "legacy_id": "STMT-NO-ABSOLUTE-TRUTH-MODELS",
   "paraphrase": "Two models: (horn 2) the scoped, disquoting no-absolute-truth thesis holds while its speaker's relative assertion is met and the thesis is not true for the other agent; (exemption) with the thesis outside its own scope, it holds and is asserted absolutely without contradiction. Consistency only.",
   "lean_declaration": "TruthCore.Logic.Relativism.NoAbsoluteTruthModels",
   "definition_ids": [
-    "DEF-ABSOLUTE-TRUTH",
-    "DEF-RELATIVE-TRUTH",
-    "DEF-ASSERTION-COMMITMENT",
-    "DEF-NO-ABSOLUTE-TRUTH-SCOPED",
-    "DEF-REASON-TRANSFER"
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b",
+    "33f7d5de-205d-573f-bc19-e0311fccbe93",
+    "ceeb8d72-d8e3-5c5a-84bc-fc48917219e9",
+    "e3767c79-05d1-516c-9af4-d18d9d8313e2"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-NO-ABSOLUTE-TRUTH-SCOPE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "08bba684-b4bf-5a2a-8a0d-5a251c377d68"
   ]
 }

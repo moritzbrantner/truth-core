@@ -1,11 +1,13 @@
 {
-  "id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
+  "id": "dc94e33a-8755-5518-a3ec-b5d573afe53c",
+  "label": "Either some candidate changes in the supplied general Changes sense or no candidate does",
+  "legacy_id": "STMT-GENERAL-CHANGE-OR-EXACT-NO-CHANGE",
   "paraphrase": "Either some candidate changes in the supplied general Changes sense or no candidate does. Explicit-EM structural coverage, not a finite roster of historical denials.",
   "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.ChangeFork",
   "definition_ids": [
-    "DEF-CHANGE-GENERAL"
+    "9bd881c9-2227-5883-9595-96db5e630da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

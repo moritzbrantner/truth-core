@@ -1,9 +1,11 @@
 {
-  "id": "REL-AYER-LAWS-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "id": "e7b45ae4-edbf-54bf-a084-5dacbf98a62d",
+  "label": "A. J. Ayer, Language Ch: Ayer 1936: general… supports Strong verification excludes universal…",
+  "legacy_id": "REL-AYER-LAWS-SUPPORTS-STRONG-VERIFICATION-EXCLUDES-LAWS",
   "subject_kind": "claim",
-  "subject_id": "AYER-LTL-PELICAN-I-18-LAWS",
+  "subject_id": "47807db0-ade3-5be0-80e2-2c6967018684",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "object_id": "256d6e71-ae71-52b1-ba03-bc3c9593ec50",
   "note": "Gap: Ayer gives the informal reason (infinitely many cases, no finite series of observations). The Lean statement adds the analyst's setting (observation statements about finitely many individuals; independent variation) and the negation half, which Ayer does not state here."
 }

@@ -1,16 +1,18 @@
 {
-  "id": "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
+  "id": "dbbe048f-8b90-5200-bdb3-d9c31c6c44d3",
+  "label": "For any GOD_3 g, if g permits the nonempty collection of evils under consideration, g draws some…",
+  "legacy_id": "STMT-GOD-DRAWS-GOOD-FROM-PERMITTED-EVILS-COLLECTIVELY",
   "paraphrase": "For any God g, if g permits the nonempty collection of evils under consideration, g draws some actual good from that collection taken together.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodDrawsGoodFromPermittedEvilsCollectivelyReading",
   "definition_ids": [
-    "DEF-GOD-WHAT-ALL-UNDERSTAND",
-    "DEF-EVIL-AS-PRIVATION",
-    "DEF-AD1-PERMISSION-OF-EVILS",
-    "DEF-AD1-COLLECTIVE-ACTUAL-GOOD"
+    "e68a730e-ff16-5998-ac2b-f6f08728009b",
+    "9bcf08c8-b0e8-5fff-a537-f32d043976e9",
+    "b4d64cab-bf94-5cd2-91cc-190b717c6e61",
+    "645124d7-3d3a-558d-a9d5-ab6a915ede18"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD",
-    "DISAMB-AD1-GOOD-FROM-EVIL",
-    "DISAMB-EVIL-PRIVATION-AND-MORAL-JUDGMENT"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "96042b66-e854-59f3-a8b5-061a3f7d8136",
+    "3d6d3fd7-2acc-5ceb-9550-f968d0732b2a"
   ]
 }

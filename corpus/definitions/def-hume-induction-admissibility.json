@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HUME-INDUCTION-ADMISSIBILITY",
+  "id": "702af2be-3553-594b-8d3f-36c2a11ab0db",
+  "label": "All outcomes allowed versus…: EveryNextAllowed requires a witness trace for each Boolean next…",
+  "legacy_id": "DEF-HUME-INDUCTION-ADMISSIBILITY",
   "term": "all outcomes allowed versus nondemonstrability",
   "definition": "EveryNextAllowed requires a witness trace for each Boolean next outcome in a supplied admissibility class. A class containing only everywhere-true traces fails it despite NoDemonstration False. Admissibility is a stipulated interpretation parameter, not metaphysical accessibility; it refutes the bare logical inference to unrestricted outcomes, not a modal theory.",
   "basis": "stipulative",

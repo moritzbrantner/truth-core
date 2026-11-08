@@ -1,29 +1,31 @@
 {
-  "id": "STMT-ACTUAL-CONCRETE-EXISTENCE-TARGET",
+  "id": "a1bbea9b-291e-526a-8d58-6a1a0cc701be",
+  "label": "The PARTICULAR supplied candidate b is concrete and actually exists at selected w in the SAME…",
+  "legacy_id": "STMT-ACTUAL-CONCRETE-EXISTENCE-TARGET",
   "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.ActualConcreteTargetAt",
   "paraphrase": "The PARTICULAR supplied candidate b is concrete and actually exists at selected w in the SAME Arena Ontic. Actuality and concreteness are explicit assumptions, not hidden carrier data or consequences of a fact label.",
   "definition_ids": [
-    "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
-    "DEF-AUTONOMOUS-FACT-NECESSITY-AT",
-    "DEF-WHOLE-GROUND-NECESSITATION-AT",
-    "DEF-POSITIVE-TARGET-COHERENCE",
-    "DEF-EXISTENCE-INGREDIENT-FACT-LABELS",
-    "DEF-MIXED-FACT-GROUND-RECORDS",
-    "DEF-JOINT-MODAL-CONDITION",
-    "DEF-JOINT-MEMBERWISE-NECESSITY",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-PSR-STRENGTH-REASON",
-    "DEF-PSR-REASON-NECESSITATING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-INHABITED-CONCRETE-WORLD"
+    "6a9ff802-ad29-5905-9373-9a23bd887f51",
+    "1545bb1e-f00a-5574-a3a9-ac7718c6fafb",
+    "6704e44d-bbf9-5943-96d5-2224a0008296",
+    "e91c64b9-3975-5924-9e9b-7d3f49995e18",
+    "e21a82a2-5129-554c-947e-597f22a567ab",
+    "b46db868-0f46-5a62-87b7-b4c9fd555965",
+    "f9233ceb-48d4-5fdb-b02e-14d5f34b7cca",
+    "3fe64c7a-e6c8-5f59-8468-b59a3f835a3b",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "179d4557-bda1-59c4-938a-b91e9974a27f",
+    "3055e6f1-5de7-5c32-9b6f-d023d0c82025",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87"
   ],
   "disambiguation_ids": [
-    "DISAMB-MIXED-FACT-GROUND-VS-CAUSAL-RECORD",
-    "DISAMB-JOINT-CONDITION-VS-NECESSARY-BEING",
-    "DISAMB-PSR-REASON-NECESSITATING",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "6bfbf069-4e30-59c5-a265-fa87d4463b33",
+    "88cf7f3c-6da7-57aa-8b8a-b9a6c0f836c0",
+    "f9e260b1-c206-5d41-a054-fac13cf68e67",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

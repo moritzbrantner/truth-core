@@ -1,19 +1,21 @@
 {
-  "id": "NB-SURVEY-A10-SELECTED-CASE-DEFAULT-APPLICATION",
-  "statement_id": "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "6e7b618b-0e26-51c4-9f37-f25177d626b2",
+  "label": "Unattributed website author, Necessary…: Given the source’s possible first contingent C and…",
+  "legacy_id": "NB-SURVEY-A10-SELECTED-CASE-DEFAULT-APPLICATION",
+  "statement_id": "f8df66df-2114-583d-8e36-9617f356442e",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10C, second argument paragraph applying the rule of thumb to C, excluding a contingent cause and concluding prima-facie possible Necessary-Being causation",
   "interpretation": "This selected C is not a randomly sampled encountered member: transferring the default to a specially selected first member of a merely possible history requires an OPEN reference-class/applicability and defeater bridge. Firstness excludes a contingent cause only with the same population/history and a defended prior-existing-bearer/absence correspondence; a partial explanatory condition alone does not provide it. Preserve C’s identity within this conditional application, without importing a rigid actual witness or universal PSR. A7 count-one exclusion and its guarded temporal proofs are related but do not establish these A10 guards.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
-    "DEF-NB-SURVEY-NECESSARY-BEING",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

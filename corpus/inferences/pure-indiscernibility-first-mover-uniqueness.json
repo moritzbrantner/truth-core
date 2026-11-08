@@ -1,0 +1,15 @@
+{
+  "id": "64995ba9-f868-5f6e-ad6b-e85c310fad85",
+  "label": "There is at most one first mover moved by none, by Bare plurality of purely…",
+  "legacy_id": "INF-PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS",
+  "input_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a"
+  ],
+  "output_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
+  "rule": "Bare plurality of purely determined beings excluded",
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations, and by strict pure actuality all of the first one's are pure; identity of purely determined indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third is the weak version of identity of real indiscernibles: it allows bare difference among beings with a non-pure principle of multiplicity, such as Black-style spheres. It still constrains purely determined beings that are not first movers. If only first movers are purely determined, then given the other two premises it is equivalent to the conclusion. No first mover is produced.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-EXISTENCE-DESCRIPTION",
-  "argument_id": "RUSSELL-EXISTENCE-DESCRIPTION",
+  "id": "59875e1a-89a8-5c0e-9bba-7faa20a50ed7",
+  "label": "For every typed domain, including an empty one, the identity-characterization of a definite…",
+  "legacy_id": "RUSSELL-EXISTENCE-DESCRIPTION",
+  "argument_id": "897e8478-bd0f-59ff-a1b5-5da7d690996a",
   "challenge_module": "TruthCore.Results.Modern.Russell.Description.Challenge",
   "solution_module": "TruthCore.Results.Modern.Russell.Description.Solution",
   "theorem": "TruthCore.Results.Modern.Russell.Description.checks",

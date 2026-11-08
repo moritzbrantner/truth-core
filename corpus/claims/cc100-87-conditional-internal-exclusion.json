@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
-  "statement_id": "STMT-CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "7c64e996-fe83-59a0-886f-90aaaaf955ee",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If every internal explanation of cosmic unity is by…",
+  "legacy_id": "CC100-87-CONDITIONAL-INTERNAL-EXCLUSION",
+  "statement_id": "673efbf1-8a4f-550d-901e-28833199adab",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 4 under steps 2–3",
   "interpretation": "This is the displayed conditional elimination, not a new formal result. No actuality of an explanation or external witness follows from this exclusion alone; the source’s fork and exclusion applicability remain open. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

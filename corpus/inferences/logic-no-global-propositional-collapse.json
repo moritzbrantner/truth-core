@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "id": "d3c245e3-deaf-5ee4-83c9-566b09cdca66",
+  "label": "Inside Lean logic, ¬. A logical theorem about Prop, not about contents…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "output_statement_id": "a919f81e-d9ff-5b7a-be38-c9473c042e8e",
   "rule": "constructive-proof",
   "meaning": "Compose the existing witnesses: a proposition that holds and one that fails are not equivalent, so not all propositions are.",
   "assumption_statement_ids": [],

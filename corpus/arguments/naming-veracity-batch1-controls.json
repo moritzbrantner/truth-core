@@ -1,0 +1,16 @@
+{
+  "id": "b3ab1d25-5d4e-53f6-a617-cfade7695b28",
+  "label": "Controls of the naming/veracity/revelation/authority batch: one finite model in which every…",
+  "legacy_id": "NAMING-VERACITY-BATCH1-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "40e1e577-d1d8-5399-94b1-79bd5e0eba1c",
+  "inference_ids": [
+    "5c256da0-bbee-533d-97f3-a37766203042"
+  ],
+  "meaning": "Controls: a joint finite model of every premise and conclusion of the batch with a God that has the classical attributes; and omission models for each premise of the veracity, authority, revelation and operation-naming steps (11 models).",
+  "definition_ids": [
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "17480925-027b-51b2-9062-2df0d2d8d612",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

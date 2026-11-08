@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GRIM-REAPER-FINITE-FULL-TAIL-TESTS",
+  "id": "703bada8-48fd-58d3-95c7-a39fa036e051",
+  "label": "Finite tests of complete Reaper tail…: For every finite set I of natural-number indices, there is…",
+  "legacy_id": "DEF-GRIM-REAPER-FINITE-FULL-TAIL-TESTS",
   "term": "finite tests of complete Reaper tail clauses",
   "definition": "For every finite set I of natural-number indices, there is a total action predicate acts on Nat such that, for each n in I, acts n holds exactly when every m greater than n does not act. Each tested right-hand side ranges over the entire infinite tail, including untested indices. The action predicate can differ for different I. The recorded control conjoins this finite compatibility with the existing impossibility of one action predicate satisfying all indices.",
   "basis": "stipulative",

@@ -1,46 +1,51 @@
 {
-  "id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
+  "id": "f53dd124-1e36-5825-add7-181a52446635",
+  "label": "Whatever is maximal in being is the first being, i.e. nothing other than it…, from NECESSARY_1 root",
+  "legacy_id": "MAXIMUM-FIRST-FROM-NECESSARY-ROOT",
   "premise_statement_ids": [
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
-    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-NECESSARY-BEING-HAS-BEING",
-    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d29cebca-ee1c-5bd8-9080-f7226770e809",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "79281639-e09b-569c-a2b3-bb32fdc3b951",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4"
   ],
-  "conclusion_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "conclusion_statement_id": "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
   "inference_ids": [
-    "INF-MAXIMUM-FIRST-FROM-NECESSARY-ROOT"
+    "bb336bc3-fade-5dcc-94df-2600a59d23db"
   ],
   "meaning": "The one connection from the necessary root to a route premise found for #487, at a price: seven non-logical premises in place of the one it concludes, six of them not otherwise premises of a route. Not a discharge. Each clause is omitted in a model with the other six (STMT-NECESSARY-ROUTE-CONTROLS). It needs no inhabitedness premise. It does not conflict with STMT-ORDER-READINGS-DO-NOT-YIELD-FIRST-BEING, whose bundle lacks the bridges into a selected relation and well-foundedness. With two bridges covering every actual concretum in place of the three restricted to necessary beings or to causes of necessity, the same premise follows with no necessity premise (STMT-NECESSARY-ROUTE-CONTROLS).",
   "definition_ids": [
-    "DEF-ROUTE-BRIDGE-MODAL-READING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-MAXIME-ENS",
-    "DEF-SIMPLE-PRIORITY",
-    "DEF-ESSE",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-NECESSARY-BEING",
-    "DEF-NECESSARY-PER-SE",
-    "DEF-FIRST-BEING"
+    "30dfba72-8196-542a-85d9-d2e98d7f11c5",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-NECESSARY",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-CAUSE",
-    "DISAMB-ORDER-OF-BEING",
-    "DISAMB-PER-SE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-MAXIME-ENS"
-  ]
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "002f42cb-3015-5644-80b3-d408538394e6",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+  }
 }

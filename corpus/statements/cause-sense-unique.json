@@ -1,0 +1,13 @@
+{
+  "id": "4515cf2b-4938-5588-80e8-fd50bf5bd84d",
+  "label": "The route's reading of 'cause' selects at most one of the four senses",
+  "legacy_id": "STMT-CAUSE-SENSE-UNIQUE",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'cause' selects at most one of the four senses. It constrains the reading choice; it does not claim that moving, efficient causing, causing a perfection and originating have disjoint extensions.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CauseSenseUnique",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

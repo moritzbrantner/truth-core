@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUNDING-MODAL-REDUCT",
+  "id": "aed2a89e-2482-5cd3-921f-69524c6c70c5",
+  "label": "Ground-free modal reduct and…: Extension retains one Ontic and adds independent world-indexed…",
+  "legacy_id": "DEF-GROUNDING-MODAL-REDUCT",
   "term": "ground-free modal reduct and independent grounding extension",
   "definition": "Extension retains one Ontic (accessibility, candidate existence and efficient causes) and adds independent world-indexed grounds. ModalAtom has existence and rigid equality atoms; ModalTruth uses the existing propositional modal Formula/Holds. SameModal requires pointwise equivalent access/existence and literal common carrier identity. No first-order quantifier language is introduced. EndpointSound and LocalFounded are separate policies. The ground relation is not Ontic.Causes.",
   "basis": "stipulative",

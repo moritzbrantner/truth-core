@@ -1,14 +1,16 @@
 {
-  "id": "DUHEM-VI-II-APPLICATION-VERSUS-TEST",
-  "statement_id": "STMT-EXPERIMENT-APPLICATION-VERSUS-TEST",
-  "source_id": "DUHEM-THEORIE-PHYSIQUE",
+  "id": "5c60bdd9-fa5a-582f-8cca-cd61bc8443dd",
+  "label": "Pierre Duhem, La Théorie physique Seconde…: An application experiment uses accepted physical…",
+  "legacy_id": "DUHEM-VI-II-APPLICATION-VERSUS-TEST",
+  "statement_id": "c74ff4f3-4621-515f-8be1-92d24fe0a043",
+  "source_id": "e908d7ce-7ac5-53b6-8882-5e05e364ca2c",
   "locator": "Seconde partie, VI §II, pp.301–302",
   "interpretation": "Prose source reading only; no attributed Lean theorem. Preserves Duhem’s distinction between using a theory and testing it. Successful practical use is not here promoted to independent confirmation, deductive certainty, or an answer to every circularity objection.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCIENCE-THEORY-LADEN-TEST"
+    "2835b1dc-9019-5f31-9fbb-b1ff121b54e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENCE-TEST-ADEQUACY"
+    "fc31f2fd-5fee-5233-8567-5522662cee5b"
   ]
 }

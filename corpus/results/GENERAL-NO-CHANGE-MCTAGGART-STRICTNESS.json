@@ -1,6 +1,8 @@
 {
-  "id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
-  "argument_id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "id": "8fe21025-211b-5845-a911-9bd27a6c5d4a",
+  "label": "An inhabited Unit carrier has no general CHANGE_2 but fails the full McTaggart1908 bundle because…",
+  "legacy_id": "GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS",
+  "argument_id": "fa56abeb-a9bd-5cab-aa37-07dac5e8de02",
   "challenge_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.Challenge",
   "solution_module": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.Solution",
   "theorem": "TruthCore.Results.Observation.ChangeRivalCoverage.Controls.controls",

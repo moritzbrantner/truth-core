@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
+  "id": "836e2c3b-a175-56ef-9ddf-7fa738fce527",
+  "label": "Schaffer assumes metaphysical priority among actual concrete objects forms a well-founded strict…",
+  "legacy_id": "STMT-SCHAFFER-PRIORITY-FOUNDATIONALISM",
   "paraphrase": "Schaffer assumes metaphysical priority among actual concrete objects forms a well-founded strict order; he acknowledges the assumptions as controversial and not further defended there.",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN",
-    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
-    "DEF-SCHAFFER-BASIC-OBJECT"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295",
+    "0c9a04bf-8233-5d2e-b1e3-d24845a9bf1e",
+    "052e3b2e-e39c-58d4-b3bb-66a947e11f3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

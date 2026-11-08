@@ -1,19 +1,21 @@
 {
-  "id": "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
+  "id": "ba944011-1a4d-5f67-b2ef-f340eb94756f",
+  "label": "An exact Nat×Bool interpretation satisfies local-chain composition and has an actual injective…",
+  "legacy_id": "LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-LOCAL-CHAIN-COMPOSITION-POPULATED-STRICTNESS",
+  "conclusion_statement_id": "dfbf4e4f-1a47-5cb7-9df6-292ebf8cddf7",
   "inference_ids": [
-    "INF-LOCAL-CHAIN-COMPOSITION-STRICTNESS-CONTROL"
+    "fa2a2cea-da94-5b66-93fe-3817ad910157"
   ],
   "meaning": "A populated local-chain interpretation satisfies weak composition while a distinct injective touching chain lacks any whole, refuting the reverse scope implication. The actual local chain and its whole are exported rather than made vacuous. This interpretation does not satisfy all four regress premises and is not claimed physically possible.",
   "definition_ids": [
-    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
-    "DEF-CONTACT-OR-CONTINUITY",
-    "DEF-ONE-MADE-OF-ALL",
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-PRIMARY-MOVER"
+    "014c75ca-b505-55cc-8fd9-780fe1ef4c02",
+    "f505cd6a-9513-51c4-a473-6b57637f3e8d",
+    "86ebf09a-e067-5524-8e72-db502ae5a9f4",
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMPLETED-COGNITIVE-CORRECTION",
+  "id": "e26a7988-ed89-57bf-a40e-1767b30a9558",
+  "label": "ACCOMPLISHED_COGNITIVE_CORRECTION_2: A change that actually replaces an erroneous judgment by a…",
+  "legacy_id": "DEF-COMPLETED-COGNITIVE-CORRECTION",
   "term": "accomplished cognitive correction (contrast only)",
   "definition": "A change that actually replaces an erroneous judgment by a correct one. No result in the explanation-order test asserts this stronger temporal claim.",
   "basis": "stipulative",

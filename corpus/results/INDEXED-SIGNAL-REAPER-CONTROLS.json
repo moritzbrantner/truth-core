@@ -1,6 +1,8 @@
 {
-  "id": "INDEXED-SIGNAL-REAPER-CONTROLS",
-  "argument_id": "INDEXED-SIGNAL-REAPER-CONTROLS",
+  "id": "689ae778-c973-50c0-a0b3-37e78488390d",
+  "label": "Each of the four local interfaces can be omitted while the other three hold on the same Nat/Option…",
+  "legacy_id": "INDEXED-SIGNAL-REAPER-CONTROLS",
+  "argument_id": "bfccdddf-9a05-5e34-a304-d8f80a2288d1",
   "challenge_module": "TruthCore.Results.Causality.IndexedSignalReaper.Challenge",
   "solution_module": "TruthCore.Results.Causality.IndexedSignalReaper.Solution",
   "theorem": "TruthCore.Results.Causality.IndexedSignalReaper.controls",

@@ -1,11 +1,13 @@
 {
-  "id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
-  "statement_id": "STMT-SELF-UNDERSTANDING-HAS-HIGHEST-LIFE",
-  "source_id": "AQUINAS-ST",
+  "id": "611be1f0-c207-5f35-bc2a-e7a1114c6598",
+  "label": "Thomas Aquinas, Summa theologiae I q.18 a.3…: What is its own act of understanding, and has…",
+  "legacy_id": "AQUINAS-ST-I-Q18-A3-HIGHEST-LIFE",
+  "statement_id": "2b61c629-8547-5bc4-881e-62a619a196c1",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.18 a.3 co.: Illud igitur cuius sua natura est ipsum eius intelligere, et cui id quod naturaliter habet, non determinatur ab alio, hoc est quod obtinet summum gradum vitae. Tale autem est Deus",
   "interpretation": "Things are said to live insofar as they act from themselves and not as moved by others; the more perfectly, the higher the life. What is its own understanding and has nothing determined by another has the highest life, and God is such. Ad 2: as God is his own esse and understanding, so he is his own living. The argument goes through intellect and self-determination, not through the bare absence of potency.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-LIFE-PRESENT-AT"
+    "42635e18-7288-5194-88b7-02dda6aa0477"
   ]
 }

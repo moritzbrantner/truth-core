@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-BOUNDED-OMISSION-SINGLETONS",
+  "id": "7feae5d7-d63a-5280-bc5d-7b7113c1de76",
+  "label": "Three rigid candidates and three universally accessible worlds, actual world Slot.a, with exactly…",
+  "legacy_id": "MODEL-BOUNDED-OMISSION-SINGLETONS",
   "description": "Three rigid candidates and three universally accessible worlds, actual world Slot.a, with exactly matching candidate x=v present in each world. Every pair is omissible, each candidate is contingent, every successor populated, no fixed necessary candidate and no empty successor. Finite formal assignment only; no metaphysical possibility or root closure.",
   "vocabulary": "bounded-omission",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission.singletonFrame",
@@ -33,7 +35,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-RE",
+      "statement_id": "b62deb46-c451-5971-a569-cc5c0f44a398",
       "value": "violates",
       "arguments": [
         "W",
@@ -45,7 +47,7 @@
       "theorem": "TruthCore.Models.BoundedOmission.noNecessary"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+      "statement_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -57,7 +59,7 @@
       "theorem": "TruthCore.Models.BoundedOmission.populated"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
+      "statement_id": "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -69,7 +71,7 @@
       "theorem": "TruthCore.Models.BoundedOmission.individual"
     },
     {
-      "statement_id": "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE",
+      "statement_id": "878b92c3-a49d-583e-a467-6b44913f3e5d",
       "value": "violates",
       "arguments": [
         "W",
@@ -81,7 +83,7 @@
       "theorem": "TruthCore.Models.BoundedOmission.noEmpty"
     },
     {
-      "statement_id": "STMT-BOUNDED-OMISSION",
+      "statement_id": "87aac08e-ff82-5074-8efd-52d471e9eb0c",
       "value": "satisfies",
       "arguments": [
         "W",

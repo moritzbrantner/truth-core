@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
-  "argument_id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "id": "5cb4b73f-a7d8-5aa1-9443-49090dbc8aa7",
+  "label": "There is one and the same being that is God, is the only being to which the…, via classical witness",
+  "legacy_id": "CATHOLICISM-QUARTA-VIA-CLASSICAL-WITNESS",
+  "argument_id": "07d16972-637f-5e39-abd1-b4c2aee94064",
   "challenge_module": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.uniqueClassicalGodFromQuartaViaExists",

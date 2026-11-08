@@ -1,22 +1,24 @@
 {
-  "id": "REL-STRENGTH-CAUSE",
+  "id": "40fac375-ec0f-5cc7-8c44-07bb3f658853",
+  "label": "Anything that comes to be has some… strength comparison Anything that comes to be has some…",
+  "legacy_id": "REL-STRENGTH-CAUSE",
   "subject_kind": "statement",
-  "subject_id": "STMT-CAUSE-PRINCIPLE-DISTINCT",
+  "subject_id": "9709d14f-1324-58f1-8889-1110881c5b44",
   "predicate": "strength_comparison",
   "object_kind": "statement",
-  "object_id": "STMT-CAUSE-PRINCIPLE-BROAD",
+  "object_id": "915e3df5-0975-5461-9fd6-83094ab526f3",
   "comparison_spec": "TruthCore.Logic.Strength.Cause.spec",
-  "delta_statement_id": "STMT-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE",
+  "delta_statement_id": "5c2aeb5a-042c-5fd6-999c-10ac39de6834",
   "background_statement_ids": [],
   "evidence_result_ids": {
-    "implication": "STRENGTH-CAUSE-IMPLICATION",
-    "delta_forward": "STRENGTH-CAUSE-DELTA-FORWARD",
-    "reconstruction": "STRENGTH-CAUSE-RECONSTRUCTION",
-    "equivalence": "STRENGTH-CAUSE-EQUIVALENCE"
+    "implication": "0ffa82a8-cdb5-5194-bb3f-5b6f07edab46",
+    "delta_forward": "0e49c8cc-b290-5a0f-b16d-b4ed0f734a1f",
+    "reconstruction": "bee0959c-8326-505f-965d-571cb4f2f0d9",
+    "equivalence": "21025c5a-8e53-5d35-9044-d8239329dac7"
   },
   "separator": {
     "setting": "TruthCore.Logic.Strength.Cause.selfOnlySetting",
-    "result_id": "STRENGTH-CAUSE-SEPARATOR"
+    "result_id": "30544d35-4c58-5483-b31a-827decfab7f5"
   },
   "note": "Under explicit decidable identity and the same generation/cause predicates, the distinct-cause principle is the broad principle plus the local requirement that a generated self-causing being also has a distinct cause. This keeps one shared existential witness, permits mixed self/nonself causes, and is not global causal irreflexivity. The self-only setting separates the principles; it is not a claim that real causes have that interpretation.",
   "statement_parameter_indices": {
@@ -37,8 +39,8 @@
     ]
   },
   "explanatory_control_result_ids": [
-    "STRENGTH-CAUSE-MIXED-CONTROL",
-    "STRENGTH-CAUSE-NO-CAUSE-CONTROL",
-    "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+    "11b42a11-26d7-5575-950e-d728800f1213",
+    "d5ab7125-e51f-5259-bafa-4fcf88bb98be",
+    "21204333-0998-5b5c-a891-702902ace5ab"
   ]
 }

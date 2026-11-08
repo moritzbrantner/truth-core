@@ -1,0 +1,13 @@
+{
+  "id": "2bb78cf0-14a9-503b-867c-24c8a648c1c7",
+  "label": "NECESSARY_1-being node, tertia via reading: there is an actual root n…, by Conjunction elimination",
+  "legacy_id": "INF-NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "input_statement_ids": [
+    "c639d164-4981-5b2b-bcf3-d6d7a5d5937f"
+  ],
+  "output_statement_id": "32a2f51c-a630-56a0-acc3-800637c18253",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

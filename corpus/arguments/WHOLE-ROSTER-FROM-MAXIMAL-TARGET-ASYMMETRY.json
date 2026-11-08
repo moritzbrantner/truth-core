@@ -1,31 +1,33 @@
 {
-  "id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
+  "id": "dbf76ba6-3336-5c45-89f1-545cbf707436",
+  "label": "If the entire actual CONCRETE_6 roster at w is nonempty, that…, from maximal target asymmetry",
+  "legacy_id": "WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-GRADES-TO-MAXIMUM-AT-BEING",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "bcf79e03-6dcb-5b00-8c69-244be36dec15"
   ],
-  "conclusion_statement_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
+  "conclusion_statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787",
   "inference_ids": [
-    "INF-WHOLE-ROSTER-FROM-MAXIMAL-TARGET-ASYMMETRY"
+    "506114bc-a848-5c9c-9ab9-0d06b5e33c69"
   ],
   "meaning": "Derive the SAME actual maximum/root using the five unchanged population/E/F/I/H inputs and explicit EM; reverse-edge exclusion is used only with that maximum as target. Compose the existing wholeRosterOfRoot theorem into the EXACT WholeRosterNotTrapped endpoint. No well-foundedness, full-domain asymmetry, reciprocity ban among nonmaximal dependents, necessity or philosophical warrant is silently added.",
   "definition_ids": [
-    "DEF-MAXIMAL-TARGET-GROUNDING-ASYMMETRY",
-    "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
-    "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "DEF-GRADES-TO-MAXIMUM-AT-BEING",
-    "DEF-MAXIMUM-IN-A-PERFECTION"
+    "64ea018d-ccde-5ce9-85f5-a4e367199aac",
+    "b6854062-bec4-5480-8847-8e2314fee5b3",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION",
-    "DISAMB-MAXIME-ENS",
-    "DISAMB-NECESSARY",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

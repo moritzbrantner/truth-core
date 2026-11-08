@@ -1,0 +1,18 @@
+{
+  "id": "774bd5b1-07d9-573a-b690-fd9d0e3b0456",
+  "label": "One-being, one-respect interpretations in which the being is NECESSARY_1",
+  "legacy_id": "STMT-NECESSARY-BEING-IN-ACT-CONTROLS",
+  "paraphrase": "One-being, one-respect interpretations in which the being is necessary (absence is impossible). Without the bridge the being can fail to be in substance, incorruptibility yields nothing, and it is not in act; without 'incorruptibles are in act' it cannot fail and is still not in act; with both it is in act as to being.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingInAct.Control.Certificate",
+  "definition_ids": [
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
+  ]
+}

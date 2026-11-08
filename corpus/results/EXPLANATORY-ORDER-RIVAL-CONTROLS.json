@@ -1,6 +1,8 @@
 {
-  "id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
-  "argument_id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "id": "6fc3b602-b76e-5c4f-842a-9fbc7869ca84",
+  "label": "Populated moral scope permits both raw explanatory directions when asymmetry fails; empty moral…",
+  "legacy_id": "EXPLANATORY-ORDER-RIVAL-CONTROLS",
+  "argument_id": "4f11c138-e522-51f5-96a8-d9fa3dfb6208",
   "challenge_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.Solution",
   "theorem": "TruthCore.Results.Metaethics.ExplanationRivalBoundary.Controls.controls",

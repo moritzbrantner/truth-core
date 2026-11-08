@@ -1,7 +1,9 @@
 {
-  "id": "WITTGENSTEIN-TLP-6-522-INEXPRESSIBLE",
-  "statement_id": "STMT-TLP-INEXPRESSIBLE-SHOWS-ITSELF",
-  "source_id": "WITTGENSTEIN-TRACTATUS",
+  "id": "3182ffbf-c8b4-5855-a36d-16e91780f938",
+  "label": "Ludwig Wittgenstein, Logisch-philosophische…: Tractatus 6.522: there is indeed the inexpressible…",
+  "legacy_id": "WITTGENSTEIN-TLP-6-522-INEXPRESSIBLE",
+  "statement_id": "c3d75af6-6182-5e2d-a259-c584c36dd5ee",
+  "source_id": "7a774ce9-3220-5aa4-9538-9840f5abf9d8",
   "locator": "TLP 6.522, Es gibt allerdings Unaussprechliches",
   "interpretation": "6.522: 'Es gibt allerdings Unaussprechliches. Dies zeigt sich, es ist das Mystische.' Recorded literally; the traditional and resolute readings (DISAMB-TLP-NONSENSE) disagree on whether this asserts that there is something unsayable.",
   "status": "formalized",

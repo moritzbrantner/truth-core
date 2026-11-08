@@ -1,6 +1,8 @@
 {
-  "id": "Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
-  "argument_id": "Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
+  "id": "60ba5708-fed3-5de9-aff5-c78eb6d76139",
+  "label": "What is ALTOGETHER_IMMATERIAL_2, neither composed of matter and…, from change proxy calibration",
+  "legacy_id": "Q14-OLD-INTELLECT-TARGET-FROM-CHANGE-PROXY-CALIBRATION",
+  "argument_id": "c71a0643-d6cc-547e-b144-9d67f49edc00",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromChangeProxy.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.FromChangeProxy.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.Q14ReceptionFork.oldTargetOfChangeProxy",

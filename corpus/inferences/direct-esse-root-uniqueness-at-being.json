@@ -1,16 +1,18 @@
 {
-  "id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
+  "id": "e5edd442-eebf-57f4-91cc-9831f38b9726",
+  "label": "There exists an actual concrete root n of the profile selected relation at…, by… (3)",
+  "legacy_id": "INF-DIRECT-ESSE-ROOT-UNIQUENESS-AT-BEING",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
-    "STMT-EXISTING-IN-ACT-AT",
-    "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a"
   ],
-  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "output_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
   "rule": "constructive-proof",
   "meaning": "Same eight-input selected actual necessary-root uniqueness conclusion via the existing DirectEsseRootUniqueness theorem, instantiated at Unit with the original esse dictionaries. Replace only all-respects genus causality and grades-to-maximum by their fixed-esse instances: existing MaximumInBeingCausesAllBeingsReading and explicit unattributed GradesToMaximumAtBeing. The same supplied root is retained; no fresh maximum or uniqueness premise is added. The old interfaces imply the replacements by specialization, while certified same-esse controls show each converse fails even with the remaining six inputs. This is genuine quantifier-scope weakening, not independent defense of either OPEN interface or philosophical truth closure. Uniqueness concerns selected actual concrete roots, not all necessary individuals; direct selected grounding is not explanatory sufficiency.",
   "assumption_statement_ids": [],

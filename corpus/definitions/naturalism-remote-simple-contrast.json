@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
+  "id": "14596727-f94a-5087-8c66-058abe03cdd6",
+  "label": "Existing simple remote being and\u2026: ExistingSimpleRemote o ComponentOf Composite w:= \u2203 g, ExistsAt\u2026",
+  "legacy_id": "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
   "term": "existing simple remote being and distinct population",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Ontology.NaturalismContrasts.ExistingSimpleRemote",

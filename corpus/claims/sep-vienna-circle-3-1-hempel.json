@@ -1,7 +1,9 @@
 {
-  "id": "SEP-VIENNA-CIRCLE-3-1-HEMPEL",
-  "statement_id": "STMT-HEMPEL-DEDUCTIVE-CRITERION-SEARCH-USELESS",
-  "source_id": "SEP-VIENNA-CIRCLE",
+  "id": "68b62c1a-d4e9-592a-b656-f1796741ef65",
+  "label": "Thomas Uebel, Vienna Circle §3.1: Hempel 1950: it is useless to continue to search for an adequate…",
+  "legacy_id": "SEP-VIENNA-CIRCLE-3-1-HEMPEL",
+  "statement_id": "3d17ecdd-d1ba-5d18-8eac-beb37db10c7f",
+  "source_id": "8178184a-353d-58f9-ad55-ec53d5f37cc7",
   "locator": "§3.1, \"useless to continue to search for an adequate criterion of testability in terms of deductive relationships to observation sentences\"",
   "interpretation": "Hempel 1950 (1959 reprint, p. 116), quoted verbatim by the entry, as his response to the troubles of Ayer's two formulations: the movement's own retrospective verdict (defeat 5). Attribution reading on a secondary witness.",
   "attribution": "The passage states in a verbatim quotation of Hempel 1950 that it was useless to continue to search for an adequate criterion of testability in terms of deductive relationships to observation sentences, which is the premise.",

@@ -1,15 +1,17 @@
 {
-  "id": "STMT-HUMAN-INTELLECT-IS-NOT-A-BODY",
+  "id": "32fe3c54-15cd-500f-a85d-e24ce404fec7",
+  "label": "The designated human intellectual principle is not a body",
+  "legacy_id": "STMT-HUMAN-INTELLECT-IS-NOT-A-BODY",
   "paraphrase": "The designated human intellectual principle is not a body. This first subconclusion alone does not exclude every physical realization, prove non-organic operation or subsistence, or identify the soul with a complete person.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.HumanIntellect.IntellectIsNotBody",
   "definition_ids": [
-    "DEF-Q75-COGNITIVE-SCOPE",
-    "DEF-Q75-NATURAL-BODILY-CONSTITUTION",
-    "DEF-Q75-REPRESENTED-NATURE",
-    "DEF-Q75-INTELLECT-NOT-BODY"
+    "fd0fdefa-55ce-5770-a990-0baa0ba4d620",
+    "46c6a1b7-bd59-5823-b371-f86ea687d65a",
+    "3a9434cc-677b-56b5-b233-8eaee7fceaa9",
+    "fa11f89f-7d00-570a-8baa-bdb1313668a8"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q75-NATURAL-AND-REPRESENTED-NATURE",
-    "DISAMB-Q75-NOT-BODY-AND-ALTOGETHER-IMMATERIAL"
+    "32e2bf56-2ad7-5fd9-b04a-7f7621e8f5d6",
+    "d363fdf2-9945-59b3-8efb-ff8614bfc475"
   ]
 }

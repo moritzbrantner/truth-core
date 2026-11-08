@@ -1,9 +1,11 @@
 {
-  "id": "DEF-KANT-DIVINE-NAME-EFFECTS",
+  "id": "3cf7066c-e32a-5e30-b59a-2ce842ce52c4",
+  "label": "God as named through effects in the…: In SCG I.12, the name God in the proposed existence…",
+  "legacy_id": "DEF-KANT-DIVINE-NAME-EFFECTS",
   "term": "God as named through effects in the quia demonstration",
   "definition": "In SCG I.12 [8], the name God in the proposed existence demonstration is understood through effects, either by removing them from their cause or by relating the cause to them. Prior comprehension of the divine quiddity is not assumed. This does not itself identify an individual with the full classical-attribute predicate or Kant’s most-real concept.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-QUIA-SENSIBLE-EFFECTS-TRANSCENDENT-CAUSE-A"
+    "1e26da17-2577-510d-87f8-74375b445269"
   ]
 }

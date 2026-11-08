@@ -1,0 +1,12 @@
+{
+  "id": "f1b8f06c-bacc-54a9-8506-1e4b1f7fd30b",
+  "label": "Whatever is GOD_4 can reveal, and can make a revelation recognizable as his by…, from omnipotence",
+  "legacy_id": "NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE",
+  "argument_id": "fc5eae96-fc0c-5464-9e6f-d78bd5e7d976",
+  "challenge_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NamingVeracityBatch1.Solution",
+  "theorem": "TruthCore.Results.Causality.NamingVeracityBatch1.revelationFromOmnipotence",
+  "comparator_config": "results/NAMING-VERACITY-REVELATION-FROM-OMNIPOTENCE/comparator.json",
+  "status": "solution-present",
+  "description": "Revealing with signs involves no contradiction, so an omnipotent God can do it; only God can give those signs; and, by the open analysis of the primitive RevealsRecognizably, a being that can reveal with signs only God can give reveals recognizably. So every God reveals recognizably. Four open premises; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS)."
+}

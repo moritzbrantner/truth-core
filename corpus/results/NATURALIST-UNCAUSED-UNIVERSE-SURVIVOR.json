@@ -1,6 +1,8 @@
 {
-  "id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
-  "argument_id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "id": "02881a46-16b8-555e-b29c-e4bba2877eb9",
+  "label": "Some model satisfies jointly: the concrete/abstract anchors, the owner's #1113 bridge, N1 in all…",
+  "legacy_id": "NATURALIST-UNCAUSED-UNIVERSE-SURVIVOR",
+  "argument_id": "f242e71f-de13-5d75-8f8b-cd16bcb57a99",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.Survivor.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.Survivor.naturalistUncausedUniverseSurvivor",

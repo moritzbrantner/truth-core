@@ -1,14 +1,16 @@
 {
-  "id": "SCHAFFER-11-MATERIAL-SCOPE",
-  "statement_id": "STMT-SCHAFFER-MONISM-MATERIAL-SCOPE",
-  "source_id": "SCHAFFER-MONISM",
+  "id": "abb42566-e52d-5063-85e5-3c2a0e28b699",
+  "label": "Jonathan Schaffer, Monism §1.1, pp.33–35: Schaffer assumes a material cosmos with proper parts…",
+  "legacy_id": "SCHAFFER-11-MATERIAL-SCOPE",
+  "statement_id": "c9e39383-4517-5681-a437-f2e92bda907f",
+  "source_id": "058b3585-f957-5a4e-a6a8-be4f5c4ae125",
   "locator": "§1.1, pp.33–35",
   "interpretation": "Source reading recorded in prose only. The restricted arena and existence assumptions are retained; no claim about all beings, divine nonexistence or the cosmos being a mereological simple is attributed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

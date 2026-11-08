@@ -1,0 +1,27 @@
+{
+  "id": "cc2ae5ba-3eee-5eeb-b282-21ef21952a03",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is attributed that…, from OPINING_2",
+  "legacy_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "premise_statement_ids": [
+    "a082d5be-9db6-5a35-add6-3944aab819f6",
+    "c8394eaf-3110-503d-881f-6fc49f7430c3"
+  ],
+  "conclusion_statement_id": "8cf54bde-0c97-5428-9179-0d567293675d",
+  "inference_ids": [
+    "a6081f9d-150f-5875-8e08-dbe72b1a3765"
+  ],
+  "meaning": "Reuses the motion fork's open bridge (whoever bears an occurring thought opines its content) with the OPEN premise that a bearer opining the content of its episode exercises intellect in it. Joins the Cogito motion fork to the operation route.",
+  "definition_ids": [
+    "e266a89b-a236-5693-b5dc-559da3975a8b",
+    "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf",
+    "723ec152-7352-5715-b81c-faf771b6dcb4"
+  ]
+}

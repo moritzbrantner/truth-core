@@ -1,12 +1,14 @@
 {
-  "id": "STMT-EXTERNAL-EVIL-PREMISE-NOT-OBJECTIVE",
+  "id": "1aa52dcb-7d39-507c-89ce-73629cdc0abd",
+  "label": "The selected external moral-evil premise does not satisfy the supplied objective classifier",
+  "legacy_id": "STMT-EXTERNAL-EVIL-PREMISE-NOT-OBJECTIVE",
   "paraphrase": "The selected external moral-evil premise does not satisfy the supplied objective classifier. This is not denial of descriptive suffering, an internal critique, affective protest or every possible problem-of-evil argument.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ExternalEvilNotObjective",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

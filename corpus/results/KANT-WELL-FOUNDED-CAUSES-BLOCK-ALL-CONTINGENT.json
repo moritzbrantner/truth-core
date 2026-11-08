@@ -1,6 +1,8 @@
 {
-  "id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
-  "argument_id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "id": "f46db1ad-7310-5c83-9588-3bdba2b3ed98",
+  "label": "For every Kantian ontic model and world: if every existing contingent being has a distinct…",
+  "legacy_id": "KANT-WELL-FOUNDED-CAUSES-BLOCK-ALL-CONTINGENT",
+  "argument_id": "c9f23db0-334b-5496-afeb-c27ccc0ab94a",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.WellFoundedCausesBlockAllContingent.wellFoundedCausesBlockAllContingent",

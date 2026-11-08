@@ -1,13 +1,15 @@
 {
-  "id": "STMT-AQUINAS-SCG-I42-DIVINE-NATURE-INDIVIDUATION-CASES",
+  "id": "835c0e2f-9a53-58ee-8847-5d8accd7dcd6",
+  "label": "A divine nature individuated through another entails composition, while one individuated through…",
+  "legacy_id": "STMT-AQUINAS-SCG-I42-DIVINE-NATURE-INDIVIDUATION-CASES",
   "paraphrase": "A divine nature individuated through another entails composition, while one individuated through itself cannot be common to another; plurality would require distinction by essential difference, accident or matter, which the divine nature excludes.",
   "definition_ids": [
-    "DEF-SCG-I42-UNIQUENESS-CASES"
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCG-I42-COMMON-NOTION-THISNESS",
-    "DISAMB-NECESSARY",
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE"
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14"
   ]
 }

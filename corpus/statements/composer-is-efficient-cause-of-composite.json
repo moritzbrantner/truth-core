@@ -1,11 +1,13 @@
 {
-  "id": "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
+  "id": "f3b79f16-5c0b-5b20-92c5-7fae38239ec7",
+  "label": "Whatever composes a composite, uniting into one things that are plural in themselves, is an…",
+  "legacy_id": "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
   "paraphrase": "Whatever composes a composite, uniting into one things that are plural in themselves, is an efficient cause of that composite, with no claim about when it causes. Time-neutral: unlike STMT-UNITING-CAUSE-IS-EFFICIENT, it does not say that the composer is an efficient cause here and now (DEF-EFFICIENT-CAUSING). Encoded as an independent temporally unspecified attribution in ComposerTemporalDefinitionFork.AttributedComposer. Its efficient-activity-at-a-time calibrations are separate OPEN propositions; neither existential temporal production nor selected-time sustaining is silently identified with this source statement.",
   "definition_ids": [
-    "DEF-UNITING-CAUSE"
+    "f930c63f-f79a-507c-9462-b572480c6808"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE"
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
   ],
   "lean_declaration": "TruthCore.Causality.ComposerTemporalDefinitionFork.AttributedComposer"
 }

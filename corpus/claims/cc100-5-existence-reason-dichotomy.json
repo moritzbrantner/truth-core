@@ -1,15 +1,17 @@
 {
-  "id": "CC100-5-EXISTENCE-REASON-DICHOTOMY",
-  "statement_id": "STMT-CC100-5-EXISTENCE-REASON-DICHOTOMY",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "271e091e-b499-593c-a8c2-0eeb8fdbb29e",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Anything that exists has a sufficient reason for why…",
+  "legacy_id": "CC100-5-EXISTENCE-REASON-DICHOTOMY",
+  "statement_id": "1bb47846-94cc-5eb5-a022-c527f73af89b",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.11, argument #5 Leibniz’s CA, steps 1–3",
   "interpretation": "Preserve another on the contingent-being alternative and the explicit necessary-being alternative. The slide does not specify a typed fact-to-fact explanation, a causal relation, concreteness, necessitation or a formal all-accessible-worlds quantifier. Existing PSR existence predicates and contingent-totality cause theorems are related vocabulary/conditional reuse only, not exact stronger source aliases.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-5-WORLD-REASON"
+    "ca7be6fd-f414-51f9-b5c0-786c2abdd81b"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

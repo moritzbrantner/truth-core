@@ -1,0 +1,10 @@
+{
+  "id": "04c061b1-85ea-573f-8243-3b482c5fce23",
+  "label": "Change between two times: ChangesBetween x r t₁ t₂: x changes in respect r between the earlier…",
+  "legacy_id": "DEF-CHANGE-BETWEEN-TIMES",
+  "term": "change between two times (ChangesBetween x r t₁ t₂)",
+  "definition": "ChangesBetween x r t₁ t₂: x changes in respect r between the earlier time t₁ and the later time t₂ of a duration frame (q.9 a.1: mutatur quocumque modo). It covers motion (alteration, growth, locomotion) and, unless a premise excludes it, generation and corruption. It is not being moved (MovedIn, DEF-MOTION-AS-REDUCTION): the open premise STMT-CHANGE-OF-PERSISTING-SUBJECT-IS-MOTION makes only a change whose subject is present at both ends a motion. Structural properties: none assumed. Example: water heated between noon and one. Counterexample: a Cambridge change (becoming shorter than a growing child) on views that deny it is a real change. In Lean a parameter B -> R -> T -> T -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.ChangeRequiresPotencyInSubject",
+  "note": "Stipulative analyst notion, attribution deferred (round 5 worklist, specs/round5-worklist.toml). Sourcing it would need a typed reading of the cited articles; until then it is constrained only by the open premises that use it."
+}

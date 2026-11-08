@@ -1,19 +1,21 @@
 {
-  "id": "INSTITUTIONAL-TRANSFER-COVERAGE",
+  "id": "4b889462-cce5-503a-b006-aa0f227325f3",
+  "label": "The weak governing-event institutional link holds…, from Excluded middle as a general principle…",
+  "legacy_id": "INSTITUTIONAL-TRANSFER-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-INSTITUTIONAL-TRANSFER-CASES",
+  "conclusion_statement_id": "893b37a1-6304-5fa5-8a1b-ac77c1e0a1de",
   "inference_ids": [
-    "INF-INSTITUTIONAL-TRANSFER-COVERAGE"
+    "5b19dd4f-7b22-54b3-bf66-060efe0489df"
   ],
   "meaning": "Explicit excluded middle yields the institutional link or an actual positive countercase with mandate, body and governing event. This is structural coverage, not a census of historical theories.",
   "definition_ids": [
-    "DEF-COMMISSION-EVENT-AND-GOVERNING-POWER",
-    "DEF-COMMISSION-REPORT-POWERS",
-    "DEF-FOUNDED-BY-GOD-THROUGH-ENVOY"
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

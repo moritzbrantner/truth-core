@@ -1,6 +1,8 @@
 {
-  "id": "SCIENCE-PREDICATE-RECODING",
-  "argument_id": "SCIENCE-PREDICATE-RECODING",
+  "id": "ab25ae9b-9fb4-5ed9-b755-e03aeb9a3a42",
+  "label": "Two-phase Boolean recoding is involutive; transporting any predicate preserves its value on the…",
+  "legacy_id": "SCIENCE-PREDICATE-RECODING",
+  "argument_id": "2463ace8-1019-5d41-ae5a-27517e546a3b",
   "challenge_module": "TruthCore.Results.Science.PredicateRecoding.Challenge",
   "solution_module": "TruthCore.Results.Science.PredicateRecoding.Solution",
   "theorem": "TruthCore.Results.Science.PredicateRecoding.controls",

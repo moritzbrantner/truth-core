@@ -1,17 +1,19 @@
 {
-  "id": "STMT-NECESSARY-SUPPORT-IS-PRESENT",
+  "id": "1f61f12c-2b5c-5871-bf56-03c65844ae30",
+  "label": "Whatever supports a being necessary from w under the selected relation, at any world where the…",
+  "legacy_id": "STMT-NECESSARY-SUPPORT-IS-PRESENT",
   "paraphrase": "Open premise, not attributed to any source: whatever supports a being necessary from w under the selected relation, at any world where the supporter exists, also exists at w and supports it at w. Support of a necessary being that varies with the world, or that comes from something absent at w, would falsify it. It does not make the supporter necessary.",
   "lean_declaration": "TruthCore.Causality.UnderivedRootRoute.NecessarySupportIsPresent",
   "definition_ids": [
-    "DEF-UNDERIVED-ROOT-ROUTE",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PRESENT-ESSE-SUPPORT"
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

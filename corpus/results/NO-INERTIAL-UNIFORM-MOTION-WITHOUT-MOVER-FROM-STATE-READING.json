@@ -1,0 +1,12 @@
+{
+  "id": "fc99e3ad-aba3-5701-a45d-f8f4a0baf5da",
+  "label": "Negation of the inertial rival inertial uniform MOTION_1 without mover on the…, from state reading",
+  "legacy_id": "NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING",
+  "argument_id": "ba077630-3991-5ee1-9a94-cfa04c8c0e5a",
+  "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
+  "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noUniformMotionWithoutMover",
+  "comparator_config": "results/NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional refutation of the inertial rival STMT-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER. A body moved uniformly in a straight line with nothing moving it perseveres in that motion (STMT-MOVERLESS-UNIFORM-MOTION-IS-PERSEVERANCE), and on the state reading a body persevering in uniform rectilinear motion is not thereby being moved in that respect (STMT-UNIFORM-PERSEVERANCE-IS-NOT-BEING-MOVED); so no such body is being moved, against the rival. The rival therefore needs the becoming reading of DISAMB-UNIFORM-MOTION-STATE-OR-BECOMING, or must deny that a moverless uniformly moving body perseveres. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). It does not decide between the state and becoming readings, and both premises are open, so the refutation does not count for closure."
+}

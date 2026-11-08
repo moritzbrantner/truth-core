@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "ARIST-APOST",
+    "source_id": "e14b8189-67e2-5fe4-b5cb-c903c8c11338",
     "edition_urn": "urn:cts:greekLit:tlg0086.tlg001.1st1K-grc1",
     "language": "grc",
     "repository": "OpenGreekAndLatin/First1KGreek",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "ARIST-APOST-I-2",
+      "id": "f719114d-ad1e-5d64-974a-3191610819fa",
+      "label": "Aristotle, Posterior Analytics, I.2",
+      "legacy_id": "ARIST-APOST-I-2",
       "locator": "I.2",
       "claim_locator_prefixes": [
         "I.2,"
@@ -33,7 +35,9 @@
       ]
     },
     {
-      "id": "ARIST-APOST-I-3",
+      "id": "ebf3fece-1e12-511d-b59b-e9a7ce4651dd",
+      "label": "Aristotle, Posterior Analytics, I.3",
+      "legacy_id": "ARIST-APOST-I-3",
       "locator": "I.3",
       "claim_locator_prefixes": [
         "I.3,"

@@ -1,14 +1,16 @@
 {
-  "id": "INF-MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "id": "49f03ff1-cd69-5f48-aea4-688effd0ad1e",
+  "label": "The selected rigid n actually exists and exists at every root-accessible world, by Composition",
+  "legacy_id": "INF-MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
   "input_statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
-    "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
-    "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
-    "STMT-EXCLUDED-MIDDLE"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
+    "728d8bd9-92dd-5af5-b831-e49c7a4f7b5f",
+    "59149353-2f74-54de-9035-08640c4e24a9",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "output_statement_id": "c1e08724-6634-53af-b653-c56948a9892f",
   "rule": "composition",
   "meaning": "Source-fidelity specialization of MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM, not a second philosophical discovery. Bare NecessaryAt need not imply presence at a nonreflexive standpoint, so the source11 reading keeps actual presence inside its invariant-degree antecedent. Under the explicit ActualReflexive hypothesis, any NecessaryAt witness supplies that actual presence. Apply the guarded conditional to this pair, obtain the analyst invariant conditional needed by the already proved main theorem, and compose that theorem unchanged. The selected-individual other-directed pointwise source6 specialization, current-world weak degree bound, rigid identity, shared preorder, root-accessible scope and explicit excluded middle remain the same. This fixes an attribution boundary without weakening the original frozen Challenge or asserting that source11 applies to an arbitrary absent individual. No step5 possible-maximum premise, step4 value bridge, actual causal exercise, causal sufficiency, uniqueness, God or unrestricted all-world scope is inferred. All philosophical premises remain open; root-premise delta is none.",
   "assumption_statement_ids": [],

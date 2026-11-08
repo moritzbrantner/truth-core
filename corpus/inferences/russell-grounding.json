@@ -1,7 +1,9 @@
 {
-  "id": "INF-RUSSELL-EXISTENCE-GROUNDING",
+  "id": "48b0987e-324a-5557-b3bb-373607c428dd",
+  "label": "The same fixed singleA extension and common fact-truth assignment admit both…, by Direct-proof",
+  "legacy_id": "INF-RUSSELL-EXISTENCE-GROUNDING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RUSSELL-EXISTENCE-GROUNDING",
+  "output_statement_id": "3fc691a3-e201-5c3f-82d6-626515a80610",
   "rule": "direct-proof",
   "meaning": "Construct two explicit expansions, verify truth at edge endpoints and asymmetry, then instantiate the extra sufficiency target on the disagreeing edge. No metaphysical grounding law follows from the logical data alone.",
   "assumption_statement_ids": [],

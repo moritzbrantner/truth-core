@@ -1,0 +1,10 @@
+{
+  "id": "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482",
+  "label": "Null degree of a perfection: Null: D is the represented degree of lacking a perfection altogether…",
+  "legacy_id": "DEF-NULL-DEGREE",
+  "term": "null degree of a perfection (lacking it altogether)",
+  "definition": "null : D is the represented degree of lacking a perfection altogether, as no heat at all. Its only constraints are STMT-NO-DEGREE-BELOW-NULL (no represented degree is below it) and STMT-ABOVE-NULL-DEGREE-HAS-THE-PERFECTION (whatever stands strictly above it has the perfection). It is not a privation in the sense of a lacking that ought to be present, and it is not a measure of non-being: a being at the null degree of heat is simply not hot. Example: a stone at the null degree of life; counterexample: a mildly warm body, which is above the null degree of heat.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.AboveNullDegreeHasThePerfection",
+  "note": "Stipulative analyst notion used to derive STMT-MORE-SUCH-HAS-THE-PERFECTION (what is hotter is hot) through degrees. Its application to esse (a being at the null degree of being) is not asserted: the derivation is per perfection and the premises are OPEN."
+}

@@ -1,20 +1,22 @@
 {
-  "id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "id": "564f13a8-3f86-5936-8867-c2bc8397f04c",
+  "label": "Strictly weaker own-essence input sufficient for…, from For every being x and principle r, if the…",
+  "legacy_id": "BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
   "premise_statement_ids": [
-    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+    "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7"
   ],
-  "conclusion_statement_id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "conclusion_statement_id": "b9316115-41b9-57e3-bdef-35b6e2face1a",
   "inference_ids": [
-    "INF-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE"
+    "6ba09b50-3af8-5e06-88c2-9c83fe6b4e5b"
   ],
   "meaning": "Exact sole-premise strength registration: the original broad own-essence law implies its restriction to esse=essence bearers; a nonempty identity-domain strictness control rejects the converse.",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

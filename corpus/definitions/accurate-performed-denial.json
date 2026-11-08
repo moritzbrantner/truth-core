@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACCURATE-PERFORMED-DENIAL",
+  "id": "901afe4d-3dc0-53fb-a18f-d2fd10d50527",
+  "label": "Accurate performed denial of all…: AccuratePerformedDenial Occurs DeniesAll means that some…",
+  "legacy_id": "DEF-ACCURATE-PERFORMED-DENIAL",
   "term": "accurate performed denial of all episodes",
   "definition": "`AccuratePerformedDenial Occurs DeniesAll` means that some episode token occurs, expresses the denial of all such episodes, and that universal denial is true. Accuracy is a separate conjunct; simply uttering or considering false content is consistent. The episode is in the same domain quantified over by the denial.",
   "basis": "stipulative",

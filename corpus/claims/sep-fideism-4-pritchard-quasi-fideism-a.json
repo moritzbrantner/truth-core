@@ -1,12 +1,14 @@
 {
-  "id": "SEP-FIDEISM-4-PRITCHARD-QUASI-FIDEISM-A",
-  "statement_id": "STMT-PRITCHARD-QUASI-FIDEISM",
-  "source_id": "SEP-FIDEISM",
+  "id": "942580c4-bf30-5497-a6c2-ada6c086d93b",
+  "label": "Richard Amesbury, Fideism §4, Pritchard…: Pritchard's quasi-fideism, from Über Gewißheit: all…",
+  "legacy_id": "SEP-FIDEISM-4-PRITCHARD-QUASI-FIDEISM-A",
+  "statement_id": "943eea12-1d82-5d4b-9853-07f6ca06069a",
+  "source_id": "f7990924-f8e2-58e1-82f7-97f4f9d236ad",
   "locator": "§4, Pritchard calls his own position quasi-fideism",
   "interpretation": "The entry reports Pritchard (2017): 'all beliefs depend for their assessment on commitments that are not themselves rationally grounded'; drawing on On Certainty §341, these 'propositions' are not beliefs but commitments of a more fundamental, practical kind; religious belief is thus not unique, and 'religious commitment can be at its most fundamental level a matter of faith and yet there nonetheless be rational religious beliefs' (118). Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Pritchard holds that all beliefs depend for their assessment on hinge commitments that are not rationally grounded and are not beliefs, so that religious belief is not unique and can be rational, which is the premise.",
   "definition_ids": [
-    "DEF-HINGE-ARATIONAL-COMMITMENT"
+    "5f5498c4-efbb-563f-b8fc-efe4da14f0c0"
   ]
 }

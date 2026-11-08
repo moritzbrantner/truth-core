@@ -1,15 +1,17 @@
 {
-  "id": "CC100-7-CONTINGENT-FACT-TOTALITY",
-  "statement_id": "STMT-CC100-7-CONTINGENT-FACT-TOTALITY",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "8826b778-2e7f-51b2-af05-23d16a982bee",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Every contingent fact has an explanation, and there is…",
+  "legacy_id": "CC100-7-CONTINGENT-FACT-TOTALITY",
+  "statement_id": "39c10489-a8ac-5b2b-ad78-423ecb1f044b",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.14, argument #7 Pruss, steps 1–2",
   "interpretation": "McIntosh states both coverage and admission/contingency of an aggregate; p15 cites an unread Pruss chapter, which is not directly attributed here. Preserve OTHER: no primitive self-conjunct law is added. Existing BCCFAt covers every contingent fact including the aggregate itself; its exact application requires corresponding inclusion/reflexivity and fact-domain semantics. The totality is a fact, not a collection of concrete individuals.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-7-FACT-EXPLANATION-INCLUSION"
+    "2f2a31ee-4261-5d39-9f68-f43de4420290"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

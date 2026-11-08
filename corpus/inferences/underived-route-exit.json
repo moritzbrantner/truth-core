@@ -1,10 +1,12 @@
 {
-  "id": "INF-UNDERIVED-ROUTE-EXIT",
+  "id": "d734f9ba-6098-57f3-b17b-dff0d9ef5977",
+  "label": "At w at least one holds: some individual exists at w and at every…, by Classical-case-analysis",
+  "legacy_id": "INF-UNDERIVED-ROUTE-EXIT",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-UNDERIVED-ROUTE-EXIT",
+  "output_statement_id": "7f01ca6f-b2fc-58e7-b9fe-f0cae79e0bf1",
   "rule": "classical-case-analysis",
   "meaning": "Coverage: a rival that accepts an inhabited world and denies a necessarily underived individual must deny restricted well-foundedness (circular support or endless descent), or accept a contingent root (a brute contingent root), or deny present support (world-varying support of a necessary being), or deny concrete supporters (abstract support of concreta). These labels name models, not any author's view. The exits overlap, none is refuted and each is taken alone in STMT-UNDERIVED-ROUTE-CONTROLS.",
   "assumption_statement_ids": [],

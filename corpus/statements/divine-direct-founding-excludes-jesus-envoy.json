@@ -1,0 +1,17 @@
+{
+  "id": "63f5b040-f322-50db-8d78-811245fffab3",
+  "label": "For every GOD_4 candidate g and society c, a Jesus-envoy teaching event of g and c is not a direct…",
+  "legacy_id": "STMT-DIVINE-DIRECT-FOUNDING-EXCLUDES-JESUS-ENVOY",
+  "paraphrase": "OPEN and contested analyst premise, attribution deferred: for every God candidate g and society c, a Jesus-envoy teaching event of g and c is not a direct founding of c by g (the supplied principal-own-act relation). It is the exclusion conjunct of STMT-DIVINE-FOUNDING-IS-EXCLUSIVE-IMMEDIATE taken alone. Whoever identifies Jesus' founding act with God's own act (so that an envoy event is also direct) denies it; it is not derived from any identity or distinctness of Jesus and God, which the signature does not encode.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.FoundingDefinitions.DirectExcludesJesusEnvoy",
+  "definition_ids": [
+    "052f142e-f782-5787-b137-2c2fb539e5c7",
+    "c57ddcaf-1b50-58d8-b688-4967cc1028b1",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
+  ],
+  "disambiguation_ids": [
+    "87582d70-e56a-5e51-9377-84b6655b1b68",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
+  ]
+}

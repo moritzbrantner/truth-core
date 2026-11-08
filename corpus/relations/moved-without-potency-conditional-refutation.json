@@ -1,9 +1,11 @@
 {
-  "id": "REL-MOVED-WITHOUT-POTENCY-CONDITIONAL-REFUTATION",
+  "id": "20da8f23-845d-5d39-bab9-5f599de4a68a",
+  "label": "Exact negation of the original…, from Some… refutes Nothing is moved except insofar as it is in…",
+  "legacy_id": "REL-MOVED-WITHOUT-POTENCY-CONDITIONAL-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "MOVED-WITHOUT-POTENCY-NEGATES-UNIVERSAL",
+  "subject_id": "cba6df93-a4d1-5c19-8b87-6dbbded760a3",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "object_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "note": "Exact conditional countertuple contradiction; its countertuple premise remains OPEN and no original premise is independently refuted."
 }

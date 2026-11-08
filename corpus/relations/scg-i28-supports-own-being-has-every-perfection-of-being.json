@@ -1,0 +1,11 @@
+{
+  "id": "9c9ff5d2-21d0-5cb8-9979-4abec70e3604",
+  "label": "Thomas Aquinas, Summa contra gentiles I.28… supports Whatever is its own being has every real…",
+  "legacy_id": "REL-SCG-I28-SUPPORTS-OWN-BEING-HAS-EVERY-PERFECTION-OF-BEING",
+  "subject_kind": "claim",
+  "subject_id": "1c67e58f-020f-5c4d-99e1-525f05aa4f6e",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "d164b1ff-ad31-5fbc-8ef9-eb0db51ebd96",
+  "note": "SCG I.28 [2–3] argues that what is its own being has being according to its whole power and so lacks no excellence. The encoded statement keeps only 'lacks no excellence of being' and treats own being as a primitive predicate. It does not supply 'has no defect', the analogy of unreceived whiteness, or any step from a represented essence/esse equality, a necessary root or a first mover to own being."
+}

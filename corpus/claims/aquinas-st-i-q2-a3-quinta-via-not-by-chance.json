@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-NOT-BY-CHANCE-A",
-  "statement_id": "STMT-REGULARITY-IS-NOT-BY-CHANCE",
-  "source_id": "AQUINAS-ST",
+  "id": "963f28f3-663e-5207-8b03-19d202c87be8",
+  "label": "Thomas Aquinas, Summa theologiae I q.2 a.3…: What a thing attains always or for the most part, it…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-NOT-BY-CHANCE-A",
+  "statement_id": "070cef3e-cabc-56a5-9f78-af671d9ad194",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.2 a.3 co., quinta via: unde patet quod non a casu",
   "interpretation": "The always-or-for-the-most-part regularity excludes chance, following Aristotle (Physics II.5; II.8, 198b34-199a3), where chance concerns what happens rarely.",
   "status": "formalized"

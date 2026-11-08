@@ -1,6 +1,8 @@
 {
-  "id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
-  "argument_id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "id": "9f957a3c-3609-5aec-8522-6b6a62caa302",
+  "label": "If the One is continuous, it is many…, from If the alleged One is one by continuity, it… and 1 more",
+  "legacy_id": "ARIST-PHYS-185B-CONTINUOUS-ONE-MANY",
+  "argument_id": "37c8884b-0a71-5573-b251-80ab7153ee42",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.ContinuousOneMany.continuousOneImpliesMany",

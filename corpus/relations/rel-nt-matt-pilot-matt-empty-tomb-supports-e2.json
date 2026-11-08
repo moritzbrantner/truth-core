@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-MATT-PILOT-MATT-EMPTY-TOMB-SUPPORTS-E2",
+  "id": "004cc427-4868-51dc-a859-5f37e1844fb5",
+  "label": "New Testament, Matthew 28.5-8: Matthew… supports The empty-tomb tradition includes Matthew’s…",
+  "legacy_id": "REL-NT-MATT-PILOT-MATT-EMPTY-TOMB-SUPPORTS-E2",
   "note": "Source support is not entailment or proof of historical truth. See the report/historical-finding disambiguation and separate reading bridges.",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-PILOT-MATT-EMPTY-TOMB",
+  "subject_id": "98242cc1-a2c3-57c8-b316-d6b4d02823b1",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-E2"
+  "object_id": "f71ed22a-8a1e-5ce9-8c15-72f942c55c70"
 }

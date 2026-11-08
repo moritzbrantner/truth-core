@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-206A-ALWAYS-ANOTHER-A",
-  "statement_id": "STMT-INFINITE-ALWAYS-ANOTHER-FINITE-STAGE",
-  "source_id": "ARIST-PHYS",
+  "id": "4f991c64-88d5-5453-b1a8-79d50d4839d2",
+  "label": "Aristotle, Physics III.6, 206a27-33: Infinity has a successive mode: each stage actually taken is…",
+  "legacy_id": "ARIST-PHYS-206A-ALWAYS-ANOTHER-A",
+  "statement_id": "97cd101f-3816-59d9-aa51-799445da5e9c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.6, 206a27-33",
   "interpretation": "Successive-mode reading: whatever stage is actually taken is finite, but there is always another stage to take. This is the weak common structure Aristotle uses across distinct cases of infinity.",
   "status": "formalized"

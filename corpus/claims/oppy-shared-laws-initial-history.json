@@ -1,11 +1,13 @@
 {
-  "id": "OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
-  "statement_id": "STMT-OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
-  "source_id": "OPPY-UNIVERSE-NO-CAUSE-2020",
+  "id": "c5de6a2a-9b29-56ed-87d2-8160e7fa390e",
+  "label": "Graham Oppy, The Universe Does Not Have a…: Oppy proposes that every possible world shares laws…",
+  "legacy_id": "OPPY-2020-SHARED-LAWS-INITIAL-HISTORY",
+  "statement_id": "22fceba9-3b18-5924-956a-05cc311beba6",
+  "source_id": "5d31a819-3cb0-594c-89ad-acf4c340ac4e",
   "locator": "§I, p.14; §VI, pp.19–21",
   "interpretation": "Faithful prose proposal, not a theorem that these worlds exhaust metaphysical possibility or that same history entails numerical identity of one bearer. The proposal is not derived from finite observed evidence. Objective chance permits divergence without law change.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-OPPY-CAUSAL-MODAL-COMPARISON"
+    "b78d124b-53ea-53fb-bf02-a744a79f9364"
   ]
 }

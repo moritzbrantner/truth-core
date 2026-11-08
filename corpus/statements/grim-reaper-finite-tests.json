@@ -1,6 +1,11 @@
 {
-  "id": "STMT-GRIM-REAPER-FINITE-TESTS",
+  "id": "e7a0781e-5cb9-5a62-a873-84090f85b967",
+  "label": "Every finite selection of the complete infinite-tail Grim Reaper clauses is satisfiable by an…",
+  "legacy_id": "STMT-GRIM-REAPER-FINITE-TESTS",
   "paraphrase": "Every finite selection of the complete infinite-tail Grim Reaper clauses is satisfiable by an action assignment on Nat, but no action assignment on that same carrier satisfies all clauses. The assignment may vary with the finite selection. This tests clause compatibility, not metaphysical realization or actual causation.",
   "lean_declaration": "TruthCore.Causality.GrimReaperFiniteTests.FiniteTestsWithoutGlobalSchedule",
-  "definition_ids": ["DEF-GRIM-REAPER-ACTION-RULE", "DEF-GRIM-REAPER-FINITE-FULL-TAIL-TESTS"]
+  "definition_ids": [
+    "33848469-bc98-5344-b5d7-87c9bbacf323",
+    "703bada8-48fd-58d3-95c7-a39fa036e051"
+  ]
 }

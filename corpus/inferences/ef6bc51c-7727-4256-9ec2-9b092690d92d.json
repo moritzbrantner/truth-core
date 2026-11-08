@@ -1,0 +1,12 @@
+{
+  "id": "ef6bc51c-7727-4256-9ec2-9b092690d92d",
+  "label": "Global-to-actual openness projection (inference)",
+  "input_statement_ids": [
+    "962a62c9-f72a-54c4-949e-d1c5dad6f8e1"
+  ],
+  "output_statement_id": "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750",
+  "rule": "Universal instantiation, existential elimination and negation introduction; reuse existing omission models",
+  "meaning": "Analyst actual-world scope fork. The global premise specializes at s.actual; strictness is witnessed by the control.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

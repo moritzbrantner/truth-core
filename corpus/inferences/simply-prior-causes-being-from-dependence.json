@@ -1,0 +1,14 @@
+{
+  "id": "21e78fc6-2e05-5ce6-a8fc-4d474f6affc8",
+  "label": "What is SIMPLY_PRIOR_1 to a thing is a cause of its being, by Universal instantiation…",
+  "legacy_id": "INF-SIMPLY-PRIOR-CAUSES-BEING-FROM-DEPENDENCE",
+  "input_statement_ids": [
+    "47aff057-35ef-5418-930b-fef72e1104d2",
+    "5dacb0db-edb7-5ac0-985b-de65780fceb6"
+  ],
+  "output_statement_id": "70e98bb5-a96d-5d69-870d-e6bd0df2b813",
+  "rule": "Universal instantiation, conjunction elimination, modus ponens",
+  "meaning": "What is simply prior to a thing is a cause of its being, as a two-step composition through dependence for being (a middle term distinct from both priority and causation): by the existing OPEN premise, whatever is simply prior to x is something x depends on for its being (only this half of its conjunction is used); by the new OPEN and contested premise, what a thing depends on for its being causes its being. No premise states the conclusion. The grounding-is-not-causation rival falls on the second premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

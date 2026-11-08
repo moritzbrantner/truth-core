@@ -1,0 +1,15 @@
+{
+  "id": "17677998-c2d2-5c63-9408-e9a68a9baff0",
+  "label": "Nothing that is being moved in a respect moves itself in that same respect, by Reductio (2)",
+  "legacy_id": "INF-NO-SELF-MOTION-SAME-RESPECT-IN-ACT-1",
+  "input_statement_ids": [
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f590a5d5-d592-5734-bffd-0936ec276c4b",
+    "b146ab97-8de5-5e54-ac5d-51ba3a3b0171"
+  ],
+  "output_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
+  "rule": "Reductio",
+  "meaning": "Per-sense argument, IN-ACT_1 (formal act): both act premises read formally give no self-motion in the same respect. The formal mover premise faces causes that produce what they do not formally have.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

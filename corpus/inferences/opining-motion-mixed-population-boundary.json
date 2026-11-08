@@ -1,7 +1,9 @@
 {
-  "id": "INF-OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
+  "id": "5b9ca82e-ed2a-5b3c-9e18-3ab68c02160c",
+  "label": "Exact inhabited Bool/Unit interpretation has a stationary opiner and a…, by Constructive-proof",
+  "legacy_id": "INF-OPINING-MOTION-MIXED-POPULATION-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-OPINING-MOTION-MIXED-POPULATION-CONTROL",
+  "output_statement_id": "c6dfd1c2-fa31-5345-ab98-033d97b0229a",
   "rule": "constructive-proof",
   "meaning": "Exact populated mixed interpretation exports a stationary opiner, distinct moved being, opinion/nonmotion countertuple, norm failure and failure of the strong raw rival. It tests logical scope only, not actual cognition or physical/metaphysical realizability.",
   "assumption_statement_ids": [],

@@ -1,21 +1,23 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
+  "id": "cb37d0ff-1319-55be-b2d3-335db9121813",
+  "label": "Logical falsity, from Stipulated mathematical configuration… and 1 more (2)",
+  "legacy_id": "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
   "premise_statement_ids": [
-    "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-    "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+    "7570cdf8-56b1-58dc-951d-e987959c2d29",
+    "878b92c3-a49d-583e-a467-6b44913f3e5d"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE"
+    "bf4be551-004a-520a-88ae-e6d7873c53a0"
   ],
   "meaning": "Every successor has a present bearer, while one successor has none. Apply necessary exemplification at that accessible witness and contradict its empty extension. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
   "definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-CONFIGURATION-FALSE"
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

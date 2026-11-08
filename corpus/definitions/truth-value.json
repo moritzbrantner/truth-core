@@ -1,11 +1,13 @@
 {
-  "id": "DEF-TRUTH-VALUE",
+  "id": "b83ce6c8-65a0-5006-a68c-250addcf1eac",
+  "label": "Having a truth value: TruthApt φ: φ is the kind of sentence that can be true or false",
+  "legacy_id": "DEF-TRUTH-VALUE",
   "term": "having a truth value (truth-apt)",
   "definition": "`TruthApt φ`: φ is the kind of sentence that can be true or false. O'Connor's own gloss, given with his emotivism; on it a sentence without truth value cannot be true (`LackingTruthValueExcludesTruthReading`).",
   "basis": "sourced",
   "claim_ids": [
-    "OCONNOR-DESTINY-ETHICS-NOT-TRUE-OR-FALSE",
-    "OCONNOR-DESTINY-ETHICS-EMOTIVISM"
+    "77ac8a2a-0b7a-5e8a-be0b-49664f65f006",
+    "18923509-c7cf-59e4-bc38-a09503d6281f"
   ],
   "lean_declaration": "TruthCore.English.OConnor.LackingTruthValueExcludesTruthReading"
 }

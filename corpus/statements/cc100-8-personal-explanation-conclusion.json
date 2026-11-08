@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-8-PERSONAL-EXPLANATION-CONCLUSION",
+  "id": "58941439-250a-54f7-b8bf-85a42a8b9ce7",
+  "label": "A proposition explaining the actual-world BCCP must report a personal explanation; if an…",
+  "legacy_id": "STMT-CC100-8-PERSONAL-EXPLANATION-CONCLUSION",
   "paraphrase": "A proposition explaining the actual-world BCCP must report a personal explanation; if an explaining proposition involving a necessary being exists, an explaining proposition involving a necessary being and reporting a personal explanation exists.",
   "definition_ids": [
-    "DEF-CC100-8-FIXED-BCCP-INVOLVEMENT"
+    "97687247-6a7d-54cf-9a26-7d393d68b483"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

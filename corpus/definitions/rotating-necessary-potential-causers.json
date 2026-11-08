@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ROTATING-NECESSARY-POTENTIAL-CAUSERS",
+  "id": "f2f123e0-8680-58fa-a912-7fb21d453351",
+  "label": "Rotating necessary potential-causer\u2026: RotatingControl refers literally to the existing\u2026",
+  "legacy_id": "DEF-ROTATING-NECESSARY-POTENTIAL-CAUSERS",
   "term": "rotating necessary potential-causer joint control",
   "definition": "RotatingControl refers literally to the existing Models.NecessarilyUnderived.rotating Ontic interpretation: two universally accessible Bool worlds, two Bool candidates present in both worlds, and one edge false\u2192true at false with the reverse edge true\u2192false at true. Ordinary Causes is selected explicitly as the support relation. The proposition conjoins actual reflexivity, necessity of both candidates, each candidate's full OtherDirectedPotentialCause role, well-founded present-source support at every world, failure of union necessary-support well-foundedness, and distinctness false\u2260true. It is one joint interpretation, not a combination of separate model witnesses.",
   "basis": "stipulative",

@@ -1,0 +1,14 @@
+{
+  "id": "a6081f9d-150f-5875-8e08-dbe72b1a3765",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is…, by Universal instantiation… (2)",
+  "legacy_id": "INF-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-OPINING",
+  "input_statement_ids": [
+    "a082d5be-9db6-5a35-add6-3944aab819f6",
+    "c8394eaf-3110-503d-881f-6fc49f7430c3"
+  ],
+  "output_statement_id": "8cf54bde-0c97-5428-9179-0d567293675d",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "Reuses the motion fork's open bridge (whoever bears an occurring thought opines its content) with the OPEN premise that a bearer opining the content of its episode exercises intellect in it. Joins the Cogito motion fork to the operation route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

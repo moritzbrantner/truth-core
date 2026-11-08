@@ -1,9 +1,11 @@
 {
-  "id": "INF-COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
+  "id": "b86088f8-5f63-524f-8b7b-e450b6f39065",
+  "label": "The narrow, teaching-inclusive, or explicit further governing criterion holds, by Constructive-proof",
+  "legacy_id": "INF-COMMISSION-GOVERNANCE-CASES-WITH-REMAINDER",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-CASES",
+  "output_statement_id": "e9dda12d-9b01-5a16-98e8-0a1f98ea4d27",
   "rule": "constructive-proof",
   "meaning": "Two explicit EM instances check narrow, teaching-inclusive or neither calibration. Named-only coverage is not established, and no census beyond the existing nine-power profile is claimed.",
   "assumption_statement_ids": [],

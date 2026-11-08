@@ -1,6 +1,8 @@
 {
-  "id": "FITCH-STABILITY-UPGRADE",
-  "argument_id": "FITCH-STABILITY-UPGRADE",
+  "id": "94234eca-cb93-5bb7-8432-d0c73209b6ba",
+  "label": "If the selected content is actually…, from Truth of the selected content at actuality… and 1 more",
+  "legacy_id": "FITCH-STABILITY-UPGRADE",
+  "argument_id": "2b77021d-b107-5a25-b147-df3ab8aca196",
   "challenge_module": "TruthCore.Results.Logic.FitchKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.FitchKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.FitchKnowability.stabilityUpgrade",

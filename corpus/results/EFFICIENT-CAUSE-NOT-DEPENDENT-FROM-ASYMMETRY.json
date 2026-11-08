@@ -1,0 +1,12 @@
+{
+  "id": "972ed7e5-098f-5ca6-9685-98d2cee48db8",
+  "label": "An efficient cause does not depend for its being on what it efficiently causes, from asymmetry",
+  "legacy_id": "EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY",
+  "argument_id": "1ffd6090-ea39-5a16-b89a-fd14e22814ab",
+  "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.efficientCauseNotDependent",
+  "comparator_config": "results/EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY/comparator.json",
+  "status": "solution-present",
+  "description": "Derives the batch 1 bridge that an efficient cause does not depend for its being on its effect. An efficient cause c of x is distinct from x (the secunda via's no-self-causation, stated by the q.2 a.3 claim); x depends for its being on c (q.44 a.1 ad 2 read as dependence); distinct things do not depend on each other mutually (OPEN). Argument-level cycle: NO-SELF-EFFICIENT-CAUSATION-FROM-DEPENDENCE derives no-self-causation from this conclusion; here no-self-causation is used as the stated source premise."
+}

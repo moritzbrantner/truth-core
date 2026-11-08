@@ -1,0 +1,13 @@
+{
+  "id": "165ea3f2-f51a-5aa3-9e07-0020fddc69cb",
+  "label": "The prima via's reading of in potency selects one sense only",
+  "legacy_id": "STMT-POTENCY-SENSE-UNIQUE",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of 'in potency' in the prima via step selects at most one sense, so both uses take the same one. Not a disjointness claim: adopted potency implies capacity.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PotencySenseUnique",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "d453e09f-fb59-595e-92a3-150339d36c71",
+  "label": "The Catholic Church is a visible society with an authority structure that Jesus founded",
+  "legacy_id": "STMT-CATHOLIC-CHURCH-IS-JESUS-FOUNDED-VISIBLE-SOCIETY",
+  "paraphrase": "OPEN (attribution deferred): the Catholic Church is a visible society with an authority structure that Jesus founded (continuity of the society with the one Jesus founded). Its rivals deny the continuity (rupture or refounding).",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.CatholicChurchIsJesusFoundedVisibleSociety",
+  "definition_ids": [
+    "12d8270e-a003-557f-8434-490095c74177",
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "c92cd48a-78fe-5f46-9017-3daf759f36bc"
+  ]
+}

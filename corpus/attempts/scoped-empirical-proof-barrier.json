@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-SCOPED-EMPIRICAL-PROOF-BARRIER",
+  "id": "56b093c2-27de-59cc-b2d8-293fb654a7c8",
+  "label": "Owner-priority restricted-proof investigation",
+  "legacy_id": "ATTEMPT-SCOPED-EMPIRICAL-PROOF-BARRIER",
   "date": "2026-11-06",
   "statement_ids": [
-    "STMT-WORLD-BEGINNING-NOT-DEMONSTRABLE",
-    "STMT-NATURAL-THEOLOGY-ARGUABLE",
-    "STMT-EMPIRICAL-PROOF-SCOPED-BARRIER",
-    "STMT-EMPIRICAL-PROOF-RESTRICTED-DENIAL"
+    "d37dace9-d0b0-5319-ba13-ae6a8d42f899",
+    "b6fc0e98-61cf-599b-8cad-ff2c17835a75",
+    "4c77d030-56e2-5a68-95aa-3638d5317d15",
+    "102172a9-d6ae-5370-a0c8-f1c3437cef1e"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Owner-priority restricted-proof investigation. No prior blanket-nothing-provable→theology inference found. Reuse existing finite-observation proof standard, self-application scope schema and raven-law obstruction. Separate global/restricted denial and subject/premise/method domain definitions; explicit T→observation-barrier input precedes restricted denial. Fixed beginning-question control calibrates to existing earliest-time predicate; matched ordinary hidden content shares its barrier, while every named theological class has a proof-positive tautology. Global denial fails while selected restricted denial survives. Raven law witnesses finite insufficiency without global observation barrier, so barrier coverage remains a genuine open premise with additional-relevant-option rival. Rejected historical skeptic attribution, equating Hume verdict with proof impossibility, identifying q46a2 with this restricted standard, and automatic metathesis selfscope. All source/type/applicability bridges and exact consequences persist in docs/notes/scoped-empirical-proof-barrier.md; no source claim or root premise discharged. Development rejection: default/overlapping pattern compilation introduced propext into the inquiry fixture itself, detected by #print axioms and the zero-axiom gate. Exhaustive constructor rows preserve every assignment and remove that axiom; no allowance, source meaning, assumption or frozen Challenge was weakened.",
   "evidence": [
-    "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
-    "GLOBAL-EMPIRICAL-PROOF-DENIAL-STRENGTHENS-RESTRICTED",
-    "THEOLOGICAL-DOMAIN-DEFINITION-FORK",
-    "SCOPED-EMPIRICAL-PROOF-CONTROLS",
-    "FINITE-OBSERVATION-INSUFFICIENCY-WITHOUT-FIBER-BARRIER"
+    "112c37c9-9d12-5690-83ae-10b6060f1db5",
+    "e179d20e-a535-5446-b15f-f15d13dd304a",
+    "cb6c049b-142e-5bad-83dc-0b5b4941b626",
+    "2bd665e2-bd4f-578a-8507-7d4f57e20806",
+    "47bc564a-035f-57f1-8b6c-0f45b58f68bd"
   ]
 }

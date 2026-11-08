@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "id": "3952799d-2d50-5115-9400-aa69ca562ea8",
+  "label": "Retain the unrestricted transfer for…, from The cause of a thing's being causes each of…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-DELTA-FORWARD",
+  "argument_id": "0bb5f653-2e81-5bd7-aae2-6bbcfb9942b2",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.deltaForward",

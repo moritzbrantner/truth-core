@@ -1,6 +1,8 @@
 {
-  "id": "INFINITE-GREATEST-WHOLE-CONTROL",
-  "argument_id": "INFINITE-GREATEST-WHOLE-CONTROL",
+  "id": "8915279c-4ba2-5289-a2e6-27a1cb90917d",
+  "label": "The infinite set of three-coordinate real points is greatest under inclusion in the infinite…",
+  "legacy_id": "INFINITE-GREATEST-WHOLE-CONTROL",
+  "argument_id": "d2728950-4f51-5a3b-94f6-ef448459167e",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.InfiniteGreatestWhole.checks",

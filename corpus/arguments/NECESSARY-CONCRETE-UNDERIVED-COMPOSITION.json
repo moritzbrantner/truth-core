@@ -1,47 +1,52 @@
 {
-  "id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
+  "id": "df542c04-6033-5d7d-b681-b81263dc1245",
+  "label": "One and the same candidate is…, from Some candidate is CONCRETE_6 and exists at… and 6 more",
+  "legacy_id": "NECESSARY-CONCRETE-UNDERIVED-COMPOSITION",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
-    "STMT-CONCRETE-NECESSARY-UNION-WF",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-CONCRETE-UNDERIVED-AT",
+  "conclusion_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
   "inference_ids": [
-    "INF-NECESSARY-CONCRETE-UNDERIVED-COMPOSITION"
+    "9f14b9fb-b9ac-5028-be34-a72615725490"
   ],
   "meaning": "Compose the certified necessary-concrete result with the certified modal-union underivedness result on the concrete subtype. Derive a necessary concrete witness rather than assuming necessary population anew; the underived witness is concrete but need not be the initial necessary witness. Retain actual reflexivity, no contingent concrete supporters of necessary concrete targets, and well-foundedness of the cross-world necessary-concrete support union. Underived means absence of existing concrete grounds at every admitted world, not absence of every kind of explanation. Conditional composition only; no metaphysical premise discharge.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-CONCRETE-SUPPORT-RESTRICTION",
-    "DEF-NO-CONTINGENT-CONCRETE-SUPPORT",
-    "DEF-CONCRETE-NECESSARY-UNION-WF",
-    "DEF-NECESSARY-CONCRETE-UNDERIVED-AT"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "bb3af92a-7060-5e08-a82a-59a1337f8492",
+    "75c193e1-bab0-5ec2-890b-9ff608b05aa7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-NECESSARY"
-  ]
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+  }
 }

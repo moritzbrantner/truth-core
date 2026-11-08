@@ -1,0 +1,13 @@
+{
+  "id": "304df9bc-61dd-5f5a-82ca-ba539471d5ee",
+  "label": "Any two beings, each having every pure perfection and only pure…, by Fully perfect beings are…",
+  "legacy_id": "INF-PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "input_statement_ids": [
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a"
+  ],
+  "output_statement_id": "95879657-de3a-5053-ae90-54a14345e084",
+  "rule": "Fully perfect beings are purely determined indiscernibles",
+  "meaning": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

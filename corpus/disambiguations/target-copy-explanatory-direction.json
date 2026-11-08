@@ -1,10 +1,31 @@
 {
-  "id": "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
+  "id": "f5ed544e-e682-5c5d-9fe8-0811d85ff496",
+  "label": "Modal entailment versus independently adequate existence explanation",
+  "legacy_id": "DISAMB-TARGET-COPY-EXPLANATORY-DIRECTION",
   "term": "modal entailment versus independently adequate existence explanation",
   "sense_definition_ids": [
-    "DEF-TARGET-COPY-ENTAILING-EXPANSION",
-    "DEF-LEIBNIZ-INTRINSIC-EXISTENCE-REASON",
-    "DEF-LEIBNIZ-FACT-REASON-DEMAND"
+    "c533d18c-a130-57b9-9ba1-71fc6046e738",
+    "61b2ea45-ab9d-537f-b43f-b9208c15a362",
+    "f742be24-23e4-580e-b670-b509534745c2"
   ],
-  "resolution": "NecessitatesExistenceAt constrains truth across accessible worlds; copied satisfies it by repeating the target condition. That repetition establishes no direction, relevance, real nature or reason why the target obtains. Intrinsic explanation is not efficient self-production and is not rejected merely for lacking an external cause. A principled intrinsic account must independently characterize this actual nature and its explanatory role; its positive adequacy is open. No common token for all individual existence facts is distinct from no explanation of a totality: the existing signature does not add such a fact or a compositional aggregation rule. Modeled relation roots are not absolutely unexplained facts or divine beings."
+  "resolution": "NecessitatesExistenceAt constrains truth across accessible worlds; copied satisfies it by repeating the target condition. That repetition establishes no direction, relevance, real nature or reason why the target obtains. Intrinsic explanation is not efficient self-production and is not rejected merely for lacking an external cause. A principled intrinsic account must independently characterize this actual nature and its explanatory role; its positive adequacy is open. No common token for all individual existence facts is distinct from no explanation of a totality: the existing signature does not add such a fact or a compositional aggregation rule. Modeled relation roots are not absolutely unexplained facts or divine beings.",
+  "term_label": "MODAL_ENTAILMENT_VERSUS_INDEPENDENTLY_ADEQUATE_EXISTENCE",
+  "senses": [
+    {
+      "id": "18ce0602-caf2-47ed-8d3e-67e9d778c087",
+      "label": "MODAL_ENTAILMENT_VERSUS_INDEPENDENTLY_ADEQUATE_EXISTENCE_1",
+      "definition_id": "c533d18c-a130-57b9-9ba1-71fc6046e738",
+      "lean_declaration": "TruthCore.Explanation.TargetCopyExpansion.Certificate"
+    },
+    {
+      "id": "7159fe76-b2c7-4412-8ac0-8d158987e99b",
+      "label": "MODAL_ENTAILMENT_VERSUS_INDEPENDENTLY_ADEQUATE_EXISTENCE_2",
+      "definition_id": "61b2ea45-ab9d-537f-b43f-b9208c15a362"
+    },
+    {
+      "id": "dfa56900-bc7e-466a-a5d7-277e1f0f566a",
+      "label": "MODAL_ENTAILMENT_VERSUS_INDEPENDENTLY_ADEQUATE_EXISTENCE_3",
+      "definition_id": "f742be24-23e4-580e-b670-b509534745c2"
+    }
+  ]
 }

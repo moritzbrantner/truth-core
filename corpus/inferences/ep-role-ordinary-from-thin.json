@@ -1,11 +1,13 @@
 {
-  "id": "INF-EP-ROLE-ORDINARY-FROM-THIN",
+  "id": "0b43f45f-808b-590c-a645-ff5403f1bc01",
+  "label": "Some subject, consideration and attitude toward assessable content…, by Constructive-proof",
+  "legacy_id": "INF-EP-ROLE-ORDINARY-FROM-THIN",
   "input_statement_ids": [
-    "STMT-THERE-ARE-EPISTEMIC-REASONS",
-    "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION",
-    "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION"
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "1b74e22c-3e2e-5328-b587-6dc2517f5e3f",
+    "eaee221f-3b1c-57c6-8817-789c12e71867"
   ],
-  "output_statement_id": "STMT-THERE-ARE-ORDINARY-ROLE-EPISTEMIC-REASONS",
+  "output_statement_id": "bea77d88-037f-5ff1-9798-a99bbbc27206",
   "rule": "constructive-proof",
   "meaning": "Calibration transcription: thin F6 plus its explicit consideration presentation and ordinary-role definition yields an ordinary-role witness. No actual favorable bearing is proved from the name epistemic reason.",
   "assumption_statement_ids": [],

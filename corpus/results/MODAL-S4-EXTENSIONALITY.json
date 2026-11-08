@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S4-EXTENSIONALITY",
-  "argument_id": "MODAL-S4-EXTENSIONALITY",
+  "id": "f2382eb6-f19c-5981-a711-e8399b8543d4",
+  "label": "The unpaired S4 configuration has world extensionality for its entire fixed language, while…",
+  "legacy_id": "MODAL-S4-EXTENSIONALITY",
+  "argument_id": "940f7591-9177-5523-9fed-f6aed986048d",
   "challenge_module": "TruthCore.Results.Modal.S4.Extensionality.Challenge",
   "solution_module": "TruthCore.Results.Modal.S4.Extensionality.Solution",
   "theorem": "TruthCore.Results.Modal.S4.Extensionality.checks",

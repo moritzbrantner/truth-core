@@ -1,0 +1,11 @@
+{
+  "id": "8441d1b7-a0e2-50ca-a422-6a4333543eb7",
+  "label": "Thomas Aquinas, Summa theologiae I q.16… supports OPEN reading of ST I q.16 a.3: a thing is…",
+  "legacy_id": "REL-Q16-A3-INTELLIGIBILITY-SUPPORTS-INTELLIGIBILITY-PROPORTIONED-TO-BEING",
+  "subject_kind": "claim",
+  "subject_id": "191c4ad9-36a0-55bc-9218-6b8b4acee969",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "2a0e7f12-b07a-5a60-9e25-9ca67f7bb490",
+  "note": "Each thing is knowable insofar as it has being. The statement reads insofar as a biconditional for having and for the comparative; the claim records that the passage specifies no scale or total comparison (gap)."
+}

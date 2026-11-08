@@ -1,12 +1,14 @@
 {
-  "id": "STMT-MOVING-IS-IN-THE-MOVED",
+  "id": "fe09fcd0-c767-5218-9d97-9a170f91a64f",
+  "label": "MOTION_2 is in the moved: whenever something moves a thing in a respect, that thing is being moved…",
+  "legacy_id": "STMT-MOVING-IS-IN-THE-MOVED",
   "paraphrase": "Motion is in the moved: whenever something moves a thing in a respect, that thing is being moved in that respect.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.MovingIsInTheMovedReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

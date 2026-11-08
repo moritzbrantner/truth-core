@@ -1,7 +1,9 @@
 {
-  "id": "CONFIG-NECESSARY-INDIVIDUAL",
+  "id": "a0334de1-27cd-5d5e-9c97-ed07f710e80b",
+  "label": "Necessary exemplification and a fixed necessary individual under exact shared Kripke parameters",
+  "legacy_id": "CONFIG-NECESSARY-INDIVIDUAL",
   "description": "Necessary exemplification and a fixed necessary individual under exact shared Kripke parameters. Configurations are inputs; statuses and minimality are computed only from live certificates.",
-  "seed_statement_id": "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
+  "seed_statement_id": "7570cdf8-56b1-58dc-951d-e987959c2d29",
   "semantics": {
     "id": "necessary-individual-fixed-roster-rigid-identity",
     "logic": "Constructive Lean propositions; no excluded-middle assumption. Certificates are zero-axiom.",
@@ -35,28 +37,28 @@
       }
     ],
     "applications": {
-      "STMT-NECESSARY-INDIVIDUAL-DE-RE": [
+      "b62deb46-c451-5971-a569-cc5c0f44a398": [
         "W",
         "I",
         "F",
         "present",
         "w"
       ],
-      "STMT-NECESSARY-INDIVIDUAL-DE-DICTO": [
+      "7570cdf8-56b1-58dc-951d-e987959c2d29": [
         "W",
         "I",
         "F",
         "present",
         "w"
       ],
-      "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY": [
+      "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6": [
         "W",
         "I",
         "F",
         "present",
         "w"
       ],
-      "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE": [
+      "878b92c3-a49d-583e-a467-6b44913f3e5d": [
         "W",
         "I",
         "F",
@@ -77,57 +79,57 @@
     {
       "id": "necessary-nonemptiness-with-empty-successor",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "878b92c3-a49d-583e-a467-6b44913f3e5d"
       ]
     },
     {
       "id": "incompatible-superset",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY",
-        "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6",
+        "878b92c3-a49d-583e-a467-6b44913f3e5d"
       ]
     },
     {
       "id": "varying-bearers-control",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-DICTO",
-        "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+        "7570cdf8-56b1-58dc-951d-e987959c2d29",
+        "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6"
       ]
     },
     {
       "id": "fixed-bearer-control",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-RE"
+        "b62deb46-c451-5971-a569-cc5c0f44a398"
       ]
     },
     {
       "id": "fixed-bearer-with-individual-contingency",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-RE",
-        "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+        "b62deb46-c451-5971-a569-cc5c0f44a398",
+        "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6"
       ]
     },
     {
       "id": "composed-incompatible",
       "statement_ids": [
-        "STMT-NECESSARY-INDIVIDUAL-DE-RE",
-        "STMT-NECESSARY-INDIVIDUAL-JOINT-ABSENCE"
+        "b62deb46-c451-5971-a569-cc5c0f44a398",
+        "878b92c3-a49d-583e-a467-6b44913f3e5d"
       ]
     }
   ],
   "incompatibility_result_ids": [
-    "NECESSARY-INDIVIDUAL-DICTO-JOINT-INCOMPATIBLE",
-    "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE"
+    "cbcdb308-6ddf-5fd2-996a-696c1a9841c2",
+    "562fe43a-5a92-5ff7-be85-39d717cedb74"
   ],
   "implication_result_ids": [
-    "NECESSARY-INDIVIDUAL-RE-TO-DICTO",
-    "NECESSARY-INDIVIDUAL-JOINT-TO-INDIVIDUAL"
+    "880f6f37-3307-5cce-b0dc-da91d9524efa",
+    "dfd0cc90-39fd-54d1-b84c-c0e734b47def"
   ],
   "model_bindings": [
     {
-      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALTERNATING",
+      "model_id": "3fe41fcb-5a8d-584b-b394-99775ddeeb26",
       "parameters": {
         "W": "W",
         "I": "I",
@@ -137,7 +139,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALL-PRESENT",
+      "model_id": "b6d9c574-2f8d-5fa9-839e-12c561daf224",
       "parameters": {
         "W": "W",
         "I": "I",
@@ -147,7 +149,7 @@
       }
     },
     {
-      "model_id": "MODEL-NECESSARY-INDIVIDUAL-ALL-ABSENT",
+      "model_id": "8988a59f-c1b6-53c0-a34c-8494110c398a",
       "parameters": {
         "W": "W",
         "I": "I",

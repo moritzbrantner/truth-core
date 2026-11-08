@@ -1,6 +1,8 @@
 {
-  "id": "WORLDWISE-COMPOSITE-GROUND",
-  "argument_id": "WORLDWISE-COMPOSITE-GROUND",
+  "id": "e167d4d4-2be0-5820-9cbc-8c6ccb2bf473",
+  "label": "One five-role Bool-world interpretation has the same rigid necessary concrete whole at both…",
+  "legacy_id": "WORLDWISE-COMPOSITE-GROUND",
+  "argument_id": "b2775899-c292-54f0-9231-3966b8165484",
   "challenge_module": "TruthCore.Results.Causality.WorldwiseCompositeGround.Challenge",
   "solution_module": "TruthCore.Results.Causality.WorldwiseCompositeGround.Solution",
   "theorem": "TruthCore.Results.Causality.WorldwiseCompositeGround.checks",

@@ -1,22 +1,24 @@
 {
-  "id": "ATTEMPT-EMPTY-HISTORY-COUNT-CONTROL-20261031",
+  "id": "0eb03642-bcb4-54fa-b279-c1d5125e522b",
+  "label": "Positive joint compatibility control on the EXACT existing CountTemporalControls.history: Bool…",
+  "legacy_id": "ATTEMPT-EMPTY-HISTORY-COUNT-CONTROL-20261031",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-EMPTY-HISTORY-COUNT-CONTROL",
-    "STMT-COUNT-TEMPORAL-POSITIVE-CONTROL",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-EUCLIDEAN-FRAME",
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-NEGATIVE-FACT-MEANING",
-    "STMT-ACCESSIBLE-EMPTY-CAUSAL-COVERAGE",
-    "STMT-POSSIBLY-INHABITED-CONCRETE-WORLD"
+    "83741405-cdc9-5960-b2c9-7516043ab2f9",
+    "eec9a69a-0f86-5de2-b6c9-9abc5da7d5b2",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "655599be-0184-5e92-b935-93443cad28a6",
+    "8e8c261c-37cf-57ef-9386-530e76370430",
+    "5a12e877-ef76-5763-b149-1fe063f8384e"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Positive joint compatibility control on the EXACT existing CountTemporalControls.history: Bool alternative histories and old Option(Fin5) candidates, with the SAME old ExistsAt, IsAt, ordinary Causes and count fixture. Add Arena facts Option Being: outer none is one fixed negative fact; outer some b is the faithful existence fact of old individual b. Its truth is exactly absence of actual contingent concreta, using the SAME old ontic. Stipulate separate CauseFact w c f precisely when w=false, c=none and f=negative; Arena.explains and conjunct are false. All six EmptyHistoryCausalAvailability inputs hold at selected world true with EM supplied explicitly (and retained in the imported count PositiveControl). Coverage world false has no contingent individuals but DOES have necessarily existing concrete none. The negative fact is true and genuinely contingent there because five actual concrete contingent candidates exist in alternative true. Thus weak actual-concrete causal availability at false has a nonvacuous negative-fact instance, realized by SAME none at SAME false where SAME negative fact obtains. Other true existence facts there are necessary; absent positive existence facts do not enter the coverage antecedent. Retain exact old count PositiveControl including five distinct contingent targets and the same necessary count cause. Explicit positive existence-fact faithfulness and actual contingent some0 at true prevent population collapse. Every world has an actual concrete bearer none, so this control does NOT instantiate the general theorem's no-concrete-coverage-world second branch. CauseFact remains a stipulated individual-to-fact marker distinct from empty ordinary Ontic.Causes and absent Arena fact-reasons; no explanation, causal adequacy, empirical or metaphysical possibility is certified. No old field, source claim, six-input premise truth or root-frontier closure is changed. Research reuse: existing six EmptyHistory definitions/premise dossiers and old CountTemporalControls history/PositiveControl/checks; fresh negative-fact related/coverage dossier inspection supplements unchanged prior dossier evidence. No new causal, explanatory or modal ontology is introduced beyond filling the existing separate fact sort and marker. Frozen Challenge before Solution SHA256 df0d00acb84e71ab917a329fa90c496ced60d652b4b12e64ca2b9b11f43ee33b. Claim/type self-sweep distinguishes no contingent concreta from no concrete individuals, outer negative-fact none from inner necessary-being none, true/false worlds from true/false times, Count marker from CauseFact and ordinary cause/reason, and same-fact obtaining from mere cause existence. Six-input compatibility is not a philosophical discharge or count-based proof of causal adequacy. Convention sourceRevision625cb04ca568aebc8d45c90033e107a05e9bd2a0. Focused core/Solution compilation passes through selected worker_env and shared lease. Exported checks axiom probe reports exactly [propext], inherited from imported CountTemporalControls standard Bool-order/finite arithmetic proof; comparator allows the required Mathlib trio, not an unrestricted list. Original general EmptyHistory theorem remains unchanged and zero-axiom. Corpus consistency and whitespace pass with existing unrelated Frege-Geach warning; frozen Challenge hash rechecked unchanged. Independent read-only claim/type review reports no substantive finding, including existing Arena.Coherent-equivalent faithfulness and absence of any concrete-empty-world claim; reviewer agreement is not proof or premise truth authority. Coordinator owns generators/full build, binding, Comparator/NanoDa, final CI and publication. Coordinator final integration: full lake build passed (4321 jobs), bind-check passed (801 bound, two legacy pins, zero mismatches). Both fixed-esse results and EMPTY-HISTORY-COUNT-CONTROL pass Comparator and independent result NanoDa. Scoped library NanoDa checked 888 dependency-closed declarations across the five new modules with zero typechecker errors and one known axiom pretty-printer warning. Fixed-esse specialization helpers and both result axiom reports are empty; the count compatibility theorem uses only propext from the unchanged count proof. Independent claim/type review found no findings. Offline source/corpus/generator/whitespace checks pass. Compared with the verified joint-attribute baseline, root routes, root-reaching IDs, open-premise count and depth counts remain unchanged; the two new established statements are formal controls, not premise truths. Delivered-head CI/review remains pending.",
   "evidence": [
-    "EMPTY-HISTORY-CAUSAL-AVAILABILITY",
-    "COUNT-TEMPORAL-POSITIVE-CONTROL",
-    "EMPTY-HISTORY-COUNT-CONTROL"
+    "e9b7ecc7-c668-54c2-a82d-62e804c75af5",
+    "77978fac-7f67-5c92-96be-d37cee175aba",
+    "6010e9b6-f156-519f-a727-d80d2768c6da"
   ]
 }

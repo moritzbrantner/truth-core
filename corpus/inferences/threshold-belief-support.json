@@ -1,7 +1,9 @@
 {
-  "id": "INF-THRESHOLD-BELIEF-SUPPORT",
+  "id": "a72ebc84-090f-53eb-972e-a5abee0a0266",
+  "label": "For every normalized probability measure on a finite measurable…, by Finite-probability-threshold…",
+  "legacy_id": "INF-THRESHOLD-BELIEF-SUPPORT",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-THRESHOLD-BELIEF-SUPPORT",
+  "output_statement_id": "3cfdc070-eb49-531a-baa4-352f97a13dae",
   "rule": "finite-probability-threshold-support",
   "meaning": "For every normalized probability measure on a finite measurable space and every finite family of events, one is at most the probability of their intersection plus the sum of their individual error probabilities. No independence premise is used. Threshold one is binary and hence finite-conjunction closed. Probability one is not identified with logical necessity, and this result makes no arbitrary infinite-conjunction claim.",
   "assumption_statement_ids": [],

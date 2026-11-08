@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
-  "argument_id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "id": "38c8ccf9-760e-57bc-b13a-4bdcc0472139",
+  "label": "For every selected model and support relation, a necessary-union source, actual reflexivity and no…",
+  "legacy_id": "NECESSARY-UNION-SOURCE-UNDERIVED-BRIDGE",
+  "argument_id": "c130e0b8-4655-574a-942a-585a43b2097a",
   "challenge_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteNecessaryUnion.SourceBridge.checks",

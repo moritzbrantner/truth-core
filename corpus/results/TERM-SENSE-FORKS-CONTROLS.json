@@ -1,0 +1,12 @@
+{
+  "id": "f6e67b12-0e1a-512f-a34b-c05112ecef6c",
+  "label": "Finite interpretations for the two sense forks: for each premise of the joint theorems a model in…",
+  "legacy_id": "TERM-SENSE-FORKS-CONTROLS",
+  "argument_id": "3934f308-bbd7-5458-a267-06b00227abfd",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.controls",
+  "comparator_config": "results/TERM-SENSE-FORKS-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations for the two sense forks: an omission model for every premise of PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR and CAUSE-SENSE-FORK-NO-SELF-EFFICIENT-CAUSE (in each the route reads the term in the branch the omitted premise closes), a nonvacuity witness per fork, and per term a model of coverage without exclusivity in which two uses differ. Satisfiability and omission only; no model describes reality."
+}

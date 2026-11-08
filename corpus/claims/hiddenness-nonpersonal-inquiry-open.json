@@ -1,15 +1,17 @@
 {
-  "id": "SCHELLENBERG-PRECIS-2025-NONPERSONAL-INQUIRY-OPEN",
-  "statement_id": "STMT-HIDDENNESS-NONPERSONAL-INQUIRY-OPEN",
-  "source_id": "SCHELLENBERG-PRECIS-2025",
+  "id": "e5ea7363-3c70-5d99-bc6b-02bbabefdabb",
+  "label": "J. L. Schellenberg, Précis Précis, pp. 7–8…: Success of the argument against a personal God would…",
+  "legacy_id": "SCHELLENBERG-PRECIS-2025-NONPERSONAL-INQUIRY-OPEN",
+  "statement_id": "179b4b92-73e4-5926-a58a-9c3c9c6afe81",
+  "source_id": "2f7a2f35-40db-5bae-9698-6dfb6051dc02",
   "locator": "Précis (2025), pp. 7–8, paragraph beginning A final point for this summary",
   "interpretation": "This records the explicitly stated limit of the negative conclusion and an open inquiry stance, not belief in a particular nonpersonal entity, a completed non-theistic cosmology, or a derivation that nature is all there is.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "759c2050-662a-54db-bcf5-9f5ba0da7741"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

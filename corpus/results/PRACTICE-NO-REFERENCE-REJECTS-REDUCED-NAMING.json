@@ -1,6 +1,8 @@
 {
-  "id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
-  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "id": "a670f048-8e11-5ea4-a5a7-9b2b38cffba8",
+  "label": "The proper-sense reduced naming leaf is…, from For each being satisfying the selected… and 2 more",
+  "legacy_id": "PRACTICE-NO-REFERENCE-REJECTS-REDUCED-NAMING",
+  "argument_id": "49c7595e-1897-59cd-a791-4b2e6d5ebf50",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.noReferenceRejectsReducedNaming",

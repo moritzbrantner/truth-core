@@ -1,22 +1,24 @@
 {
-  "id": "INF-WHOLE-ROSTER-FIRST-BEING",
+  "id": "c7fc8761-a876-5b71-b336-e98513e65fce",
+  "label": "Whatever is maximal in being is the first being, i.e. nothing other than it…, by… (3)",
+  "legacy_id": "INF-WHOLE-ROSTER-FIRST-BEING",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
-    "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-NECESSARY-BEING-HAS-BEING",
-    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d29cebca-ee1c-5bd8-9080-f7226770e809",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "79281639-e09b-569c-a2b3-bb32fdc3b951",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4"
   ],
-  "output_statement_id": "STMT-MAXIMUM-IN-BEING-IS-FIRST-BEING",
+  "output_statement_id": "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
   "rule": "constructive-proof",
   "meaning": "Extract the same actual necessary root from population, whole-roster nontrapping, contingent dependence and explicit excluded middle. Reuse necessaryRootIsMaximumOfRoot, its per-se helper and imported tertia-via convergence; the retained simply-prior bridge contradicts rootness for any distinct predecessor of a maximum. This proves existing MaximumInBeingIsFirstBeing, without asserting a maximum exists. All old convergence/prior bridges remain open. Whole-roster restriction removes the all-subsets demand; no strict/minimal complete-bundle comparison is claimed, since the old first-being theorem did not require population.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": [],
   "disambiguation_ids": [
-    "DISAMB-EXISTENTIAL-SOURCE-SUPPLY-APPLICATION"
+    "9403807f-f7d4-5ce8-a8ba-ca53ed932959"
   ]
 }

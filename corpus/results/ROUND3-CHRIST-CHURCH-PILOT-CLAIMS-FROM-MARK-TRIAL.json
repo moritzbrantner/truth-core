@@ -1,0 +1,12 @@
+{
+  "id": "d7ef26e1-1418-5db3-92e8-1ccbca3d90aa",
+  "label": "Jesus claimed divine authority in the existing case signature; the Gospel report…, from mark trial",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL",
+  "argument_id": "dedaab0a-af73-5094-be80-c1aa84d8b433",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round3ChristChurch.pilotClaimsFromMarkTrial",
+  "comparator_config": "results/ROUND3-CHRIST-CHURCH-PILOT-CLAIMS-FROM-MARK-TRIAL/comparator.json",
+  "status": "solution-present",
+  "description": "Mark 14 attributes to Jesus the self-ascription as Son of the Blessed and the prediction of the Son of Man's session at the right of Power; by the open historicity bridge, Jesus himself said both; by the open interpretation bridge, saying both is claiming divine authority. So Jesus claimed divine authority. Two textual premises and two open bridges; each is needed (omission models in ROUND3-CHRIST-CHURCH-CONTROLS). The syntactic single-application heuristic flags this proof (its last step applies the interpretation bridge); by logical shape (#1214) it is a chain through the distinct middle term Speech.trialSaid, which only the report-to-event bridge supplies, so no premise states the conclusion. Not rewritten to evade the heuristic."
+}

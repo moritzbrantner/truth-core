@@ -1,0 +1,12 @@
+{
+  "id": "560fe67c-ed95-5377-b291-3f610a4c734c",
+  "label": "Becoming being-CAUSE_2: whatever has being…, from Whatever has being by participation… and 1 more",
+  "legacy_id": "PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2",
+  "argument_id": "4876dc46-bbcb-5daa-a669-1abfce58b2ef",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.participatedExternalEsseCause",
+  "comparator_config": "results/PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause."
+}

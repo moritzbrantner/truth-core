@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLATO-PARM",
+    "source_id": "665bdac6-e83f-5b25-8b38-995165ccc42e",
     "edition_urn": "urn:cts:greekLit:tlg0059.tlg009.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLATO-PARM-134",
+      "id": "0eb0b72b-e9ff-5023-80f0-1e900b9710d4",
+      "label": "Plato, Parmenides, 134",
+      "legacy_id": "PLATO-PARM-134",
       "locator": "134",
       "claim_locator_prefixes": [
         "134"

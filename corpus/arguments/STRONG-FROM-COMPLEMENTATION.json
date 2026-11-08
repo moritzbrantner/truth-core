@@ -1,25 +1,27 @@
 {
-  "id": "STRONG-FROM-COMPLEMENTATION",
+  "id": "afb096de-f93a-509d-9e6c-9772b10c165d",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y, in the same…, from complementation",
+  "legacy_id": "STRONG-FROM-COMPLEMENTATION",
   "premise_statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27"
   ],
-  "conclusion_statement_id": "STMT-STRONG-SUPPLEMENTATION",
+  "conclusion_statement_id": "bf4167dc-dfc4-5b13-a110-0a52c89d4a65",
   "inference_ids": [
-    "INF-STRONG-FROM-COMPLEMENTATION"
+    "a05dc18a-05a4-5347-a8b7-1155cd8d7b91"
   ],
   "meaning": "Take the exact remainder of x minus y. Reflexive self-parthood shows it is a part of x disjoint from y, supplying the existing strong-supplementation witness. No sum-formation assumption is used.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON",
-    "DEF-SUM1-COMPLEMENTATION-RIVALS",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701",
+    "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

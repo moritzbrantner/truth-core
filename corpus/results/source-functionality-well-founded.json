@@ -1,6 +1,8 @@
 {
-  "id": "SOURCE-FUNCTIONALITY-WELL-FOUNDED",
-  "argument_id": "SOURCE-FUNCTIONALITY-WELL-FOUNDED",
+  "id": "13f25380-b36e-580e-aa75-4e303e295491",
+  "label": "The selected cause-to-dependent graph…, from Some object is a source of the selected… and 2 more",
+  "legacy_id": "SOURCE-FUNCTIONALITY-WELL-FOUNDED",
+  "argument_id": "c07bc4e9-c68d-5967-b5a7-48f91daa021c",
   "challenge_module": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solution",
   "theorem": "TruthCore.Results.Causality.SourceFunctionalityWellFounded.wellFounded",

@@ -1,6 +1,8 @@
 {
-  "id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
-  "argument_id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "id": "ac70423f-9820-5696-83a7-381a5303a6f7",
+  "label": "Logical falsity, from At least one individual actually exists at… and 2 more",
+  "legacy_id": "PSR-POPULATION-WF-EXTERNAL-CAUSES-INCOMPATIBLE",
+  "argument_id": "eb8169d8-c67d-5a35-91e6-0815129a1247",
   "challenge_module": "TruthCore.Results.Causality.CausalHarvest.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalHarvest.Solution",
   "theorem": "TruthCore.Results.Causality.CausalHarvest.localPSRCausalCore",

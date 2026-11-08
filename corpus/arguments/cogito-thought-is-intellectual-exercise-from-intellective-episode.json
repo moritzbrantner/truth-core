@@ -1,0 +1,25 @@
+{
+  "id": "cecc4365-f132-5ebd-9d14-6236d2366c2d",
+  "label": "Analyst bridge: every bearer of an occurring thought episode is…, from intellective episode",
+  "legacy_id": "COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE-FROM-INTELLECTIVE-EPISODE",
+  "premise_statement_ids": [
+    "4bc1befb-0788-5c26-9aef-2e57b15950ef",
+    "84c57a8c-d9a2-5672-8b7f-200117f13497"
+  ],
+  "conclusion_statement_id": "8cf54bde-0c97-5428-9179-0d567293675d",
+  "inference_ids": [
+    "40b64f5d-5383-5b3b-bbfc-6f9548ef1543"
+  ],
+  "meaning": "Every bearer of an occurring thought is attributed it as an intellectual exercise, from two OPEN premises: every occurring thought is intellective, and bearing an intellective episode is exercising intellect in it. The first fails on Descartes's broad cogitatio, which includes sensing.",
+  "definition_ids": [
+    "a17326fa-7d9f-5dce-8dc2-ec330eab6bdb",
+    "f61bbc23-dd58-5bf5-95a5-f1ddc1e407c0",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
+  ]
+}

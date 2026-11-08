@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-REASON-RESPONSE-HISTORY",
+  "id": "775a9e91-c7f7-5421-b738-bb9f90ff7797",
+  "label": "Read live #945 and inventory exact physicalism/q75 and ChoiceContext boundaries under logic-first…",
+  "legacy_id": "ATTEMPT-REASON-RESPONSE-HISTORY",
   "statement_ids": [
-    "STMT-REASON-RESPONSE-HISTORY",
-    "STMT-CHOICE-CONTEXT-CONTROLS",
-    "STMT-CORRECTION-CRITERION-EXACT-FACTORIZATION"
+    "94cdf074-f21a-5157-8bd4-63d48ed015f1",
+    "545e0581-6f75-557b-8d97-c1f501c6d4f6",
+    "6df7921a-29b6-5574-8952-f27497140a53"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Read live #945 and inventory exact physicalism/q75 and ChoiceContext boundaries under logic-first owner direction. Basic determinism/same-input alternatives were already covered. Added two-stage review-copy/external-copy acquisition with same actual current record and entire represented reason-response function but opposite actual action-changing acquisition interventions. Composed sameContextSameAction for closure and imported CorrectionCriterion.characterization.1 for exact classifier/fiber-invariance; no generic impossibility proof duplicated. Explicit imposed-override masking and enriched acquisition-data classification bound the omission. Rejected physicalism=determinism, indeterminism=agency, signal sensitivity=freedom and input labels=autonomous ownership. No source acquisition or root discharge. Historical ownership, rational adequacy, same-past alternatives, real causal/intervention applicability and freedom/desert remain OPEN. See docs/notes/reason-response-history.md.",
   "evidence": [
-    "REASON-RESPONSE-HISTORY"
+    "429127f4-1e56-54c3-8678-f8c0dcd656cc"
   ]
 }

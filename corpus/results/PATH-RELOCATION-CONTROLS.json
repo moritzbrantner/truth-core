@@ -1,6 +1,8 @@
 {
-  "id": "PATH-RELOCATION-CONTROLS",
-  "argument_id": "PATH-RELOCATION-CONTROLS",
+  "id": "6680cd3f-8646-50fe-afc5-9c1ed6e7e590",
+  "label": "Closed Bool-state controls",
+  "legacy_id": "PATH-RELOCATION-CONTROLS",
+  "argument_id": "f2a31410-5b7e-5cfb-81b6-3fa70c5c0174",
   "challenge_module": "TruthCore.Results.Explanation.PathRelocation.Challenge",
   "solution_module": "TruthCore.Results.Explanation.PathRelocation.Solution",
   "theorem": "TruthCore.Results.Explanation.PathRelocation.controls",

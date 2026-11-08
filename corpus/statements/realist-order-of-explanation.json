@@ -1,9 +1,11 @@
 {
-  "id": "STMT-REALIST-ORDER-OF-EXPLANATION",
+  "id": "dad9ae00-e470-51e8-b2df-16b4d8557373",
+  "label": "Realism: our moral thought and talk is explained by moral properties and truths",
+  "legacy_id": "STMT-REALIST-ORDER-OF-EXPLANATION",
   "paraphrase": "Realism: our moral thought and talk is explained by moral properties and truths.",
   "lean_declaration": "TruthCore.English.VanRoojen.RealistOrderOfExplanationReading",
   "definition_ids": [
-    "DEF-ORDER-OF-EXPLANATION",
-    "DEF-MORAL-STATEMENT"
+    "8c00e4f8-0be5-5f27-8612-188a2ac9ff61",
+    "32a2df81-c1f1-5013-b87d-97a934b46036"
   ]
 }

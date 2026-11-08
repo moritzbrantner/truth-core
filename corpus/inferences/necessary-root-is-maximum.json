@@ -1,16 +1,18 @@
 {
-  "id": "INF-NECESSARY-ROOT-IS-MAXIMUM",
+  "id": "f675fb08-e627-5617-81b7-e6219aff0a3d",
+  "label": "Some concrete individual existing at w has no ACTUAL_CONCRETE_GROUND_1…, by Constructive-proof (2)",
+  "legacy_id": "INF-NECESSARY-ROOT-IS-MAXIMUM",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
-    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "STMT-NECESSARY-BEING-HAS-BEING",
-    "STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d29cebca-ee1c-5bd8-9080-f7226770e809",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "79281639-e09b-569c-a2b3-bb32fdc3b951",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4"
   ],
-  "output_statement_id": "STMT-NECESSARY-ROOT-IS-MAXIMUM",
+  "output_statement_id": "d6549981-ba9d-53ac-9e0f-f578f3947d82",
   "rule": "constructive-proof",
   "meaning": "Take a witness that is an actual root and necessary. The bridge makes it necessary per se in the modal reading, since a cause of its necessity from elsewhere would be an actual concrete ground. The tertia via's convergence identifies a necessary per se being with every maximum in being.",
   "assumption_statement_ids": [],

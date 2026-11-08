@@ -1,6 +1,8 @@
 {
-  "id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
-  "argument_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "id": "56198e6d-d63f-54f4-995a-23d3bd309a75",
+  "label": "There is a universal-accessibility modal interpretation with an actual contingent individual and a…",
+  "legacy_id": "KANT-LOCAL-CAUSALITY-INSUFFICIENT-UNIVERSAL",
+  "argument_id": "dcc8fdab-1dc9-53c9-94f4-0e4696db091f",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.LocalCausalityInsufficientUniversal.localCausalityInsufficientUniversal",

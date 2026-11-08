@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-NECESSARY-WHOLE-NECESSARY-PARTS",
-  "statement_id": "STMT-CC100-10-NECESSARY-WHOLE-NECESSARY-PARTS",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "9d5da384-e9a8-5e98-ad44-9c56f0a5facb",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: All parts of a necessary thing are necessary",
+  "legacy_id": "CC100-10-NECESSARY-WHOLE-NECESSARY-PARTS",
+  "statement_id": "2c6bb289-67c2-539b-87b3-4de4bdc5c678",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.22, L1 citing A4 and K, argument #10 Koons",
   "interpretation": "The source asserts this modal conclusion with A4 and K. Its derivation requires a suitable same-part cross-world correspondence/modal scope; the p20 actual existence guard alone does not establish persistence of parthood. No modal rigidity, necessitation or checked derivation is silently inserted. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

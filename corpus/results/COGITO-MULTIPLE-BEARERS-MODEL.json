@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-MULTIPLE-BEARERS-MODEL",
-  "argument_id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "id": "3fdeab83-1fcd-572a-8bac-af80bb0016cf",
+  "label": "There is an interpretation in which a thought occurs, the bearer principle holds, and two distinct…",
+  "legacy_id": "COGITO-MULTIPLE-BEARERS-MODEL",
+  "argument_id": "ee77e988-370c-5b4a-8057-7e3a4c7728c5",
   "challenge_module": "TruthCore.Results.Logic.CogitoSubject.Challenge",
   "solution_module": "TruthCore.Results.Logic.CogitoSubject.Solution",
   "theorem": "TruthCore.Results.Logic.CogitoSubject.multipleBearersModel",

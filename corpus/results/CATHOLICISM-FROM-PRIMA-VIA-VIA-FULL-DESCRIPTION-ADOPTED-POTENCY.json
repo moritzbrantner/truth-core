@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION-ADOPTED-POTENCY",
+  "id": "3a8d2216-b174-5590-9d84-bfbfca1d9b59",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a\u2026, from prima via via full description adopted\u2026",
+  "legacy_id": "CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION-ADOPTED-POTENCY",
+  "argument_id": "93b55dd2-b8d8-5012-823b-7cdd0fdac6f8",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaViaFullDescription.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaViaFullDescription.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromPrimaViaViaFullDescription.catholicismFromPrimaViaViaFullDescription",

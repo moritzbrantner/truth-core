@@ -1,21 +1,23 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
+  "id": "6da22842-f152-551b-9aa6-65fcfe1ff3c4",
+  "label": "Logical falsity, from Stipulated mathematical configuration… and 1 more",
+  "legacy_id": "NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE",
   "premise_statement_ids": [
-    "STMT-NECESSARY-INDIVIDUAL-DE-RE",
-    "STMT-NECESSARY-INDIVIDUAL-INDIVIDUAL-CONTINGENCY"
+    "b62deb46-c451-5971-a569-cc5c0f44a398",
+    "51035cd9-ce27-5d93-bfc2-e67bdfce3ec6"
   ],
-  "conclusion_statement_id": "STMT-CONFIGURATION-FALSE",
+  "conclusion_statement_id": "37f33696-dc47-5bd3-9cd8-edfd5bf00aa5",
   "inference_ids": [
-    "INF-NECESSARY-INDIVIDUAL-RE-CONTINGENCY-INCOMPATIBLE"
+    "ac287f04-0a97-5a59-b1e0-0c4db399c4c0"
   ],
   "meaning": "A fixed bearer is present at every successor, while that same bearer is absent at some successor. Instantiate the individual absence premise at the fixed witness. This is a formal consequence in the supplied Kripke semantics, not a source attribution or a metaphysical possibility claim.",
   "definition_ids": [
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-CONFIGURATION-FALSE"
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "7eeee571-aad0-5bba-ac81-6bb9604ef678"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

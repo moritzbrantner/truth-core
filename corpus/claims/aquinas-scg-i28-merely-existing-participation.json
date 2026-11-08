@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
-  "statement_id": "STMT-AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
-  "source_id": "AQUINAS-SCG",
+  "id": "65ffa99c-0fdd-528e-a8e9-c315062af00f",
+  "label": "Thomas Aquinas, Summa contra gentiles I.28: Things that merely exist are not imperfect because…",
+  "legacy_id": "AQUINAS-SCG-I28-MERELY-EXISTING-PARTICIPATION",
+  "statement_id": "f16e0628-6742-53ed-8d23-782fbeedfea7",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.28 [4]",
   "interpretation": "Retain the exact restricted subject: things that MERELY EXIST, against the living/more-perfect comparison in [1]. Do not replace it by all beings distinct from God, all creatures, every other necessary root or everything with a determinate nature. The receiver/limited-mode reasoning of [2] supplies context, not a proved converse from determinate essence to reception or essence/esse nonidentity. This attributed reading supplies no independent STMT-OTHERS-THAN-PRIMARY-ARE-CREATURES or identity-sensitive strict-primacy premise. Based on the verified complete Pegis English chapter; no independently consulted Latin edition or proof/truth certification is claimed.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I28-WHOLE-POWER-PARTICIPATION",
-    "DEF-ESSE",
-    "DEF-UNIVERSALLY-PERFECT"
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "5f851204-5991-5e16-87f1-e8b3ed729708"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-ORDER-OF-BEING"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
   ]
 }

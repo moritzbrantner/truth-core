@@ -1,22 +1,24 @@
 {
-  "id": "EVIL-OBJECTION-BOUNDARY-MODELS",
+  "id": "bd363c47-866c-5b76-9826-c550870e5b90",
+  "label": "Explicit model interpretations jointly certify the limits of the diagnostic fork: strict truthless…",
+  "legacy_id": "EVIL-OBJECTION-BOUNDARY-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EVIL-OBJECTION-BOUNDARY-MODELS",
+  "conclusion_statement_id": "9f1626f6-c488-5bb5-bd2a-bd9c227b8f77",
   "inference_ids": [
-    "INF-EVIL-OBJECTION-BOUNDARY-MODELS"
+    "0e2c7721-41af-54df-bbd4-a8ce22e86105"
   ],
   "meaning": "Compose the existing Rowe apparent-compatibility witness with explicit utterance interpretations and a cost-only variant. Certify strict-emotivist internal-critique survival, true descriptive suffering, affective analysis compatible with truth, and inhabitation of the exact remainder where named coverage fails. The cost-only variant retains occurrence and all attributes; it does not witness actual gratuitous suffering or a complete worldview.",
   "definition_ids": [
-    "DEF-EVIL-OBJECTION-CRITIC",
-    "DEF-EVIL-OBJECTION-USES",
-    "DEF-INTERNAL-PERMISSION-CHALLENGE",
-    "DEF-AFFECTIVE-BADNESS-ANALYSIS"
+    "b3d5b1ba-35a4-5404-b467-66d1bb61954b",
+    "cc71b261-8c7f-5ff8-99be-2a8b7075807b",
+    "cc9e4e40-da7a-5fb7-9322-194cff59a2bd",
+    "c691e9a5-d493-5ee2-9efb-e52db55751cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-EVIL-OBJECTION-SEMANTICS",
-    "DISAMB-MORAL-ANTIREALISM",
-    "DISAMB-TRUE",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA",
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL"
+    "eb8b6927-4ee4-51e8-985b-061003656ba4",
+    "8ee14b40-9ec9-500b-bf89-e19cf52b6b4a",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "008747c9-744a-581c-adad-570e834abb4e",
+    "51142f83-40ad-50a3-83be-a6062eee1256"
   ]
 }

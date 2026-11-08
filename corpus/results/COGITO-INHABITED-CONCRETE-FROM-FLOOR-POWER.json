@@ -1,0 +1,12 @@
+{
+  "id": "cc3d9a6d-8340-53f7-9d03-13779a1f0487",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b…, from floor power",
+  "legacy_id": "COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER",
+  "argument_id": "7bd58160-57d6-5372-90c9-950e4a9d15a0",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.inhabitedFromFloorPower",
+  "comparator_config": "results/COGITO-INHABITED-CONCRETE-FROM-FLOOR-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "Some concrete candidate exists at w, by the existing Round 4 capacity derivation (inhabitedFromPower, imported and applied), with the owner-approved floor commitment supplying the capacity clause that the old argument took as the bare premise STMT-CAUSAL-POWER-REQUIRES-CONCRETENESS-AT, for the same hasCausalPower predicate as STMT-INTELLECTUAL-EXERCISER-HAS-POWER. The other five premises are unchanged and remain OPEN. It does not establish the floor commitment or infer capacity from exercise."
+}

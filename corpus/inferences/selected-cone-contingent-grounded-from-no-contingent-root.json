@@ -1,0 +1,14 @@
+{
+  "id": "14432fbe-f087-55e8-8e6c-ca541a952de4",
+  "label": "Every actual CONCRETE_6 member of the full selected ancestry cone…, by Proof by cases and reductio",
+  "legacy_id": "INF-SELECTED-CONE-CONTINGENT-GROUNDED-FROM-NO-CONTINGENT-ROOT",
+  "input_statement_ids": [
+    "0db4d734-2323-572f-b81b-a1448ae78296",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+  "rule": "Proof by cases (excluded middle) and reductio",
+  "meaning": "If the selected cone has no contingent root ancestor (OPEN), then every contingent cone member has an actual concrete ground: by excluded middle it has one or has none, and if none it would be a contingent root ancestor. The cone-local analogue of everyContingentGrounded_iff_noContingentRoot; a relocation to the denial of a brute contingent foundation in the cone, not a defence of it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

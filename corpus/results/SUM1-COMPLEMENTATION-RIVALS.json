@@ -1,6 +1,8 @@
 {
-  "id": "SUM1-COMPLEMENTATION-RIVALS",
-  "argument_id": "SUM1-COMPLEMENTATION-RIVALS",
+  "id": "557c6f98-2323-54a1-96eb-aeff84f88840",
+  "label": "One fixed three-atoms-plus-top order has strong supplementation and Sum1 for every nonempty Set…",
+  "legacy_id": "SUM1-COMPLEMENTATION-RIVALS",
+  "argument_id": "a17aaffa-6ce2-55a1-a63f-7ca90b10ad1c",
   "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
   "theorem": "TruthCore.Results.Mereology.SumOneComplementation.rivalChecks",

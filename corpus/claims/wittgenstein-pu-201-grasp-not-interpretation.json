@@ -1,13 +1,15 @@
 {
-  "id": "WITTGENSTEIN-PU-201-GRASP-NOT-INTERPRETATION",
-  "statement_id": "STMT-PU-SOME-GRASP-OF-RULE-NOT-INTERPRETATION",
-  "source_id": "WITTGENSTEIN-PHILOSOPHISCHE-UNTERSUCHUNGEN",
+  "id": "6391c03b-bde0-5695-933d-2efd8f0520c8",
+  "label": "Ludwig Wittgenstein, Philosophische…: PU §201: there is a way of grasping a rule which is not an…",
+  "legacy_id": "WITTGENSTEIN-PU-201-GRASP-NOT-INTERPRETATION",
+  "statement_id": "97d4cd02-c515-594b-b8f3-4f67370a0929",
+  "source_id": "f37d35cc-4070-54d0-a686-2f6998f9a346",
   "locator": "§201, daß es eine Auffassung einer Regel gibt, die nicht eine Deutung ist",
   "interpretation": "§201: the paradox ('eine Regel könnte keine Handlungsweise bestimmen, da jede Handlungsweise mit der Regel in Übereinstimmung zu bringen sei') shows a misunderstanding, since 'wir in diesem Gedankengang Deutung hinter Deutung setzen'; 'Dadurch zeigen wir nämlich, daß es eine Auffassung einer Regel gibt, die nicht eine Deutung ist; sondern sich, von Fall zu Fall der Anwendung, in dem äußert, was wir »der Regel folgen«, und was wir »ihr entgegenhandeln« nennen.' 'Deuten' should be said only of replacing one expression of the rule by another.",
   "status": "formalized",
   "attribution": "The passage states that there is a grasp of a rule which is not an interpretation but is exhibited, case by case, in following the rule and going against it, which is the premise.",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ]
 }

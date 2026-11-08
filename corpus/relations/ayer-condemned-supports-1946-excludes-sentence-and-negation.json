@@ -1,9 +1,11 @@
 {
-  "id": "REL-AYER-CONDEMNED-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "id": "6b8dc1d2-3830-59b5-9a20-eac31d4d0ca8",
+  "label": "A. J. Ayer, Language Ch: Ayer 1936: by his… supports The V3 exclusion thesis: in an empirical…",
+  "legacy_id": "REL-AYER-CONDEMNED-SUPPORTS-1946-EXCLUDES-SENTENCE-AND-NEGATION",
   "subject_kind": "claim",
-  "subject_id": "AYER-LTL-PELICAN-I-21-CONDEMNED",
+  "subject_id": "83f3e0b4-ce49-581f-a152-e0eea077dda7",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-AYER-1946-EXCLUDES-SENTENCE-AND-NEGATION",
+  "object_id": "fd01a8b5-1b6b-5c08-a1e6-915528fa12cc",
   "note": "Gap: the monism-pluralism verdict condemns a thesis and its rival together, which is the pattern the statement types. The passage belongs to ch. I, written for the 1936 criterion and reprinted in the second edition; that Ayer holds the verdict under the 1946 criterion, and of 'there is a god' and its negation (ch. VI), is not stated here. The ch. VI passage has no admissible witness."
 }

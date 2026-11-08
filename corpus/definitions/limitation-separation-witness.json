@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMITATION-SEPARATION-WITNESS",
+  "id": "f0f6a8a3-fa3d-5f6c-ab53-1922b7fb7a9b",
+  "label": "Accessible target exemplar outside a…: PossiblyOutsideAt F Q Phi w is the existing Dia F of an…",
+  "legacy_id": "DEF-LIMITATION-SEPARATION-WITNESS",
   "term": "accessible target exemplar outside a known limiting property",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.LimitationSeparation.PossiblyOutsideAt",

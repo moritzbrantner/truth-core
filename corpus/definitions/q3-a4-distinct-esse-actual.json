@@ -1,5 +1,7 @@
 {
-  "id": "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
+  "id": "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+  "label": "Actually existing with esse distinct…: DistinctEsseAt p x is InAct x p.esse together with p.esseOf…",
+  "legacy_id": "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
   "term": "actually existing with esse distinct from essence (q.3 a.4 model)",
   "definition": "DistinctEsseAt p x is InAct x p.esse together with p.esseOf x ≠ p.essenceOf x, both functions taking values in the same Principle sort. This is a typed identity test, not a full theory of individuation or of the act of being.",
   "basis": "stipulative",

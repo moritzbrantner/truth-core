@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
+  "id": "4f333120-bae3-5be9-a13a-641ae97328eb",
+  "label": "Unrestricted two-index semantic…: For EVERY denotation F:W→W→Prop, diagonal validity implies…",
+  "legacy_id": "DEF-UNRESTRICTED-INDEXED-NECESSITATION",
   "term": "unrestricted two-index semantic necessitation",
   "definition": "For EVERY denotation F:W→W→Prop, diagonal validity implies necessitated validity. This scope can exceed any particular object language; it is not a proof-calculus soundness or completeness predicate.",
   "basis": "stipulative",

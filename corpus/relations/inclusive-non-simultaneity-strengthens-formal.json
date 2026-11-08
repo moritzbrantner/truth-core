@@ -1,0 +1,12 @@
+{
+  "id": "88363825-1935-5af3-97bf-ba29388a6f8b",
+  "label": "IN-ACT_3, inclusive reading: nothing is… strengthens IN-ACT_1, formal reading: nothing is…",
+  "legacy_id": "REL-INCLUSIVE-NON-SIMULTANEITY-STRENGTHENS-FORMAL",
+  "subject_kind": "statement",
+  "subject_id": "d9daeb1e-1749-5473-9fae-04184dd5e40c",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "b146ab97-8de5-5e54-ac5d-51ba3a3b0171",
+  "verification_result_id": "eaa61dc9-8231-5db5-acc0-8c55a67fe4a4",
+  "note": "Strength order between senses of 'in act' in the non-simultaneity premise; the opposite direction to the mover premise. The mixed-reading control satisfies the weak version and violates the strong one."
+}

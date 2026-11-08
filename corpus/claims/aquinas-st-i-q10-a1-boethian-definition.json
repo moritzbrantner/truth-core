@@ -1,11 +1,13 @@
 {
-  "id": "AQUINAS-ST-I-Q10-A1-BOETHIAN-DEFINITION",
-  "statement_id": "STMT-ETERNITY-IS-BOETHIAN-POSSESSION-OF-LIFE",
-  "source_id": "AQUINAS-ST",
+  "id": "841b6e42-ae00-5818-b1b3-59b10cde61c9",
+  "label": "Thomas Aquinas, Summa theologiae I q.10 a.1…: Eternity is fittingly defined as the interminable…",
+  "legacy_id": "AQUINAS-ST-I-Q10-A1-BOETHIAN-DEFINITION",
+  "statement_id": "dfbaeaed-930e-5ee5-af96-2e874469c209",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.10 a.1 ad 2: illud quod est vere aeternum, non solum est ens, sed vivens",
   "interpretation": "Aquinas defends Boethius' definition (De consolatione V, quoted in obj. 1: interminabilis vitae tota simul et perfecta possessio). The response gives the marks interminable (no beginning or end) and without succession (tota simul); ad 2 says the truly eternal is living, its duration attended according to operation rather than bare esse; ad 5 says tota simul removes time and perfecta excludes the imperfect now of time; ad 3 and ad 6 gloss tota as nothing lacking and possessio as firm, indeficient holding. Boethius' own text is cited through Aquinas, not separately pinned.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-BOETHIAN-ETERNAL"
+    "5e77da13-998f-56ab-96b7-12731ac95f70"
   ]
 }

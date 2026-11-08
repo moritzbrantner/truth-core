@@ -1,10 +1,12 @@
 {
-  "id": "REL-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "id": "d296e2ce-bc82-5c4b-aba1-abb954925c78",
+  "label": "Every supplied set lacks esse in re strengthens Supplied sets that actually cause…",
+  "legacy_id": "REL-ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
   "subject_kind": "statement",
-  "subject_id": "STMT-ALL-SUPPLIED-SETS-LACK-ESSE",
+  "subject_id": "c48f12b6-c29f-542b-85e6-4f926f511d62",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-SELECTED-SET-CAUSERS-LACK-ESSE",
-  "verification_result_id": "ALL-SETS-NO-ESSE-STRENGTHENS-SELECTED-SET-CAUSERS",
+  "object_id": "93e5f2dd-1ad9-53d7-84f5-1a4f8fde032a",
+  "verification_result_id": "0d92ae8a-394b-5f51-b3ae-73f582e06d9d",
   "note": "Sole-premise checked restriction. No converse or strictness result is claimed."
 }

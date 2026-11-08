@@ -1,0 +1,10 @@
+{
+  "id": "f8def333-9f90-5fd1-9ae5-5cbecb41a056",
+  "label": "The respect in which a thing's…: NecessityConsistsIn x r: the necessity of x is the necessity of…",
+  "legacy_id": "DEF-NECESSITY-CONSISTS-IN",
+  "term": "the respect in which a thing's necessity consists (NecessityConsistsIn x r)",
+  "definition": "NecessityConsistsIn x r: the necessity of x is the necessity of x's being r, so that whatever makes x r makes x necessary in that respect. The open premise STMT-NECESSITY-CONSISTS-IN-BEING takes r to be esse for every necessary being (the tertia via's 'necessity of its being'). It is not itself a causal relation; the open premise STMT-CAUSING-NECESSITY-RESPECT-CAUSES-NECESSITY links it to CausesNecessityOf. In Lean a parameter B -> R -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.NecessityConsistsInBeing",
+  "note": "Stipulative analyst notion, attribution deferred (round 4 revisited, specs/round4-revisited.toml)."
+}

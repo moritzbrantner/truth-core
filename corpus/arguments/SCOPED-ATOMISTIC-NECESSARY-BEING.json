@@ -1,38 +1,40 @@
 {
-  "id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
+  "id": "43f9545d-20f1-5868-b634-5b5c1c92ec28",
+  "label": "At least one individual exists at the…, from The non-null object domain is inhabited and 5 more (2)",
+  "legacy_id": "SCOPED-ATOMISTIC-NECESSARY-BEING",
   "premise_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d8a1fb16-ce20-542f-9e3b-d9350468e331"
   ],
-  "conclusion_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "conclusion_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "inference_ids": [
-    "INF-SCOPED-ATOMISTIC-NECESSARY-BEING"
+    "1e6a03d6-bd70-5d33-95f5-df190a8cd0e1"
   ],
   "meaning": "Retain the SAME four nonlogical atomistic structural inputs and explicit EM on actualGraph m w; replace global LocalCausalPrinciple with selected-world actual causal coverage. Import the certified source, preserve its SAME subtype source c, use actualSource_iff and the genuinely generalized selectedSourceNecessary helper. Actual existence comes from subtype membership. The selected cause policy rules out accessible absence of c; conclude the existing frame-relative de re NecessaryBeing endpoint. No concreteness, activity, endpoint policy, S5, reflexivity, uniqueness, grounding identity or full author FirstCause is inferred. This is a strict world-scope weakening, witnessed separately on the full structural background; no philosophical premise truth or root closure. Distinctness deletion is redundant under retained nonoverlap, not an additional independent weakening.",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-LOCAL-CAUSE",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "223c29ec-0983-5329-8f3e-fbd9276f0339"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

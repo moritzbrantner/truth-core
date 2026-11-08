@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION",
+  "id": "79caf0c3-50d9-5f0c-b33a-b0396adc1cce",
+  "label": "Candidate bare reward meaning: an attributed consideration counts as a reason iff its target is…",
+  "legacy_id": "STMT-EPISTEMIC-REASON-BARE-REWARD-DEFINITION",
   "paraphrase": "Candidate bare reward meaning: an attributed consideration counts as a reason iff its target is assessable, the consideration applies and it rewards that attitude. Informative reward and epistemic support are not excluded from coexisting; the bare definition supplies no support bridge.",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.RewardDefinition",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

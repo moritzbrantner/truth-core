@@ -1,0 +1,19 @@
+{
+  "id": "1a0deb0c-3fa9-57e8-af77-786d99eb691a",
+  "label": "There exists an actual concrete root n of the profile selected…, by Narrower bridge at the…",
+  "legacy_id": "INF-PURE-INDISCERNIBILITY-NECESSARY-ROOT-UNIQUENESS",
+  "input_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "fe67d766-3e9f-57b5-bbff-c3e2c50c56fd",
+    "3b39e0ba-eb4a-5708-90d0-c2706094d43c",
+    "bd0a956c-149e-5d7d-9771-b974da72fd3a"
+  ],
+  "output_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
+  "rule": "Narrower bridge at the actual roots",
+  "meaning": "Population, whole-roster nontrapping, contingent dependence and excluded middle give an actual necessary root; unrestricted perfection and strict pure actuality at the actual roots make any two actual roots really indiscernible and purely determined, and identity of purely determined indiscernibles makes them one. The whole-roster helper necessaryActualRoot supplies an actual root of the selected grounding relation at w that is necessary at accessible worlds. The pure-act theorem is applied through a re-indexing under which first-mover status is exactly actual rootness (firstIffRoot); the re-indexing asserts no motion or causation. Unlike NECESSARY-ROOT-UNIQUENESS, no maximum in being, grades, genus principle, has-being bridge or necessity-cause bridge is used. Necessary nonroots are not excluded, no God identification is made, and all premises stay OPEN. The narrower bridge ranges over all beings, not only roots.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

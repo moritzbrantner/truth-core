@@ -1,0 +1,12 @@
+{
+  "id": "f67bf7a3-78dd-5e01-8c50-d99012a8ba63",
+  "label": "Interpretations for the twelve derivations of the round-3 Fourth Way batch: for each premise other…",
+  "legacy_id": "ROUND3-FOURTH-WAY-CONTROLS",
+  "argument_id": "b1ed3dcf-0bf9-582c-9dca-42822f1a0f6e",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.controls",
+  "comparator_config": "results/ROUND3-FOURTH-WAY-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only."
+}

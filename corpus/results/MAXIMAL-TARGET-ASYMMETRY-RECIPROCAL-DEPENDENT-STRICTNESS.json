@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
-  "argument_id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "id": "50d7e527-f464-516a-ab1d-bcb6c04d0753",
+  "label": "One exact three-node, one-world interpretation exports actual population, existing-to-esse, direct…",
+  "legacy_id": "MAXIMAL-TARGET-ASYMMETRY-RECIPROCAL-DEPENDENT-STRICTNESS",
+  "argument_id": "f6964b28-bbf2-53ba-be17-b51c305a0e9b",
   "challenge_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Solution",
   "theorem": "TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.populatedStrictness",

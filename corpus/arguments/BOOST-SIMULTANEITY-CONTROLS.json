@@ -1,18 +1,20 @@
 {
-  "id": "BOOST-SIMULTANEITY-CONTROLS",
+  "id": "0be06b97-cd1c-5316-ade0-5833ad26b193",
+  "label": "In an explicit inhabited 1+1 real coordinate profile with c=1, the rational boost with v=4/5 is an…",
+  "legacy_id": "BOOST-SIMULTANEITY-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-BOOST-SIMULTANEITY-CONTROLS",
+  "conclusion_statement_id": "51d8675e-2c26-5784-87e7-086713693f36",
   "inference_ids": [
-    "INF-BOOST-SIMULTANEITY-CONTROLS"
+    "9153563d-7213-5635-9c0e-b4c1bb93ca51"
   ],
   "meaning": "In an explicit inhabited 1+1 real coordinate profile with c=1, the rational boost with v=4/5 is an isometry equivalence of the Mathlib quadratic form t²−x² and preserves the future cone |x|≤t and the induced event-difference order in both directions. The distinct spacelike pair (0,0),(0,1) is simultaneous in the original frame and not in the boosted frame. No relation exactly matches both frame-simultaneity relations, while the original relation itself witnesses a distinguished choice matching one frame only. This does not establish physical applicability, deny a privileged present, or equate geometric future order with actual causation.",
   "definition_ids": [
-    "DEF-BOOST-SPACETIME-PROFILE",
-    "DEF-BOOST-FUTURE-ORDER",
-    "DEF-BOOST-FRAME-SIMULTANEITY",
-    "DEF-PRIVILEGED-PRESENT-SCOPE"
+    "6f3cfe1c-afa7-517a-91c7-e8a72a52541a",
+    "ddf5faf1-a159-51b3-aeae-a90146910726",
+    "3b1b4d24-9ae1-5155-895e-832f2e35a9ad",
+    "ef92f471-1e4c-5493-9bdc-043374a459cd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FRAME-SIMULTANEITY-ONTOLOGY"
+    "8d688be8-d802-5679-bd53-d08374145abf"
   ]
 }

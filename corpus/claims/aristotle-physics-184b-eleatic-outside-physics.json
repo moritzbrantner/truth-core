@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-184B-ELEATIC-OUTSIDE-PHYSICS-A",
-  "statement_id": "STMT-ONE-MOTIONLESS-BEING-OUTSIDE-PHYSICS",
-  "source_id": "ARIST-PHYS",
+  "id": "976bd035-1b2a-5067-ac8b-690ccbe6a374",
+  "label": "Aristotle, Physics I.2, 184b25-185a12: Investigating whether Being is one and motionless in the…",
+  "legacy_id": "ARIST-PHYS-184B-ELEATIC-OUTSIDE-PHYSICS-A",
+  "statement_id": "53eab40e-d99b-556b-b33e-c56f5d76d8b8",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 184b25-185a12",
   "interpretation": "Disciplinary-scope reading: the Eleatic thesis of one motionless Being removes the principles presupposed by natural science and is therefore not itself an internal physics problem, although Aristotle still discusses its incidental physical puzzles.",
   "status": "formalized"

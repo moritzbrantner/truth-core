@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
+  "id": "e29757fc-62c4-5a3d-8521-699d5887ea7f",
+  "label": "Actual cover and conditional formation…: ActualCoverAt m w C is ExistsAt w C AND existing Covers…",
+  "legacy_id": "DEF-ACTUAL-NO-NECESSARY-PARTS-COVER",
   "term": "actual cover and conditional formation of the selected actual no-necessary-parts family",
   "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.ActualCoverAt",
   "basis": "stipulative",

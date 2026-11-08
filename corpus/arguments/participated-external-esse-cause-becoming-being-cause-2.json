@@ -1,0 +1,29 @@
+{
+  "id": "4876dc46-bbcb-5daa-a669-1abfce58b2ef",
+  "label": "Becoming being-CAUSE_2: whatever has being…, from Whatever has being by participation… and 1 more",
+  "legacy_id": "PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2",
+  "premise_statement_ids": [
+    "cbb068e8-337d-5772-a3f9-10df457ba9fe",
+    "33ad148b-ceab-5856-a4f8-c999a1dba644"
+  ],
+  "conclusion_statement_id": "7561e216-900f-53f1-9e22-d74427758cd6",
+  "inference_ids": [
+    "2c5ac471-0379-57e7-8132-7950091d6da1"
+  ],
+  "meaning": "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause.",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e"
+  ],
+  "disambiguation_ids": [
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08",
+    "54f33165-05df-5205-807a-04154b5fd6ad"
+  ]
+}

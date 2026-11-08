@@ -1,0 +1,11 @@
+{
+  "id": "0e4c5a19-4b1a-5508-babc-6e417820953c",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2… supports What is INFINITE_1 is in act in every…",
+  "legacy_id": "REL-Q4-A2-PERFECTIONS-BEING-SUPPORTS-INFINITE-IS-UNLIMITED-ACT",
+  "subject_kind": "claim",
+  "subject_id": "5dd2d69f-02a5-5357-8cb5-1f028137db64",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "0471efe6-a439-5e04-ac82-0c19f2ed3f72",
+  "note": "ST I q.4 a.2 co. (second proof) states that the perfections of all things pertain to the perfection of being, so that what is ipsum esse subsistens lacks none of them; q.7 a.1 co. ties infinity to unreceived, subsistent esse. The premise states that whatever is infinite (the primitive Infinite predicate) is in act in every possible perfection. The passages reach every perfection of things through subsistent esse, not through the bare predicate 'infinite', and 'every possible perfection' exceeds 'the perfections of all things'."
+}

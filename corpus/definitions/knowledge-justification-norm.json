@@ -1,5 +1,7 @@
 {
-  "id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
+  "id": "96525e31-fe3e-5651-a70e-01b84fedf39b",
+  "label": "First-order justification and the…: KnowledgeRequiresJustification F p justified says for every…",
+  "legacy_id": "DEF-KNOWLEDGE-JUSTIFICATION-NORM",
   "term": "first-order justification and the global knowledge/justification norm",
   "definition": "KnowledgeRequiresJustification F p justified says for every model world w, Knows F p w implies justified w for the fixed proposition p. The supplied justified predicate records justification of p, not knowledge that p is justified. Knows F justified w is the latter higher-order condition. No path, truth predicate or certainty predicate defines justification.",
   "basis": "stipulative",

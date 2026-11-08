@@ -1,6 +1,8 @@
 {
-  "id": "KANT-IDENTIFICATION-NEEDS-BRIDGE",
-  "argument_id": "KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "id": "7f4ddc71-0e89-5519-9b98-477ab2f50d2d",
+  "label": "There is a modal interpretation with a necessarily existing individual but no existing bearer of…",
+  "legacy_id": "KANT-IDENTIFICATION-NEEDS-BRIDGE",
+  "argument_id": "17b9797b-56b3-5a56-8eec-4f6e4db02a05",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.IdentificationNeedsBridge.identificationNeedsBridge",

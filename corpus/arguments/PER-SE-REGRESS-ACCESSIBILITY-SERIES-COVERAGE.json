@@ -1,18 +1,20 @@
 {
-  "id": "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
+  "id": "806b555d-f12a-5044-b2da-315c90bb7a55",
+  "label": "For the SAME supplied per-se link, the old…, from Excluded middle as a general principle…",
+  "legacy_id": "PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE",
   "premise_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-PER-SE-REGRESS-ACCESSIBLE-OR-DESCENDING-SERIES",
+  "conclusion_statement_id": "75b40a55-84b2-5744-8898-7e699d034223",
   "inference_ids": [
-    "INF-PER-SE-REGRESS-ACCESSIBILITY-SERIES-COVERAGE"
+    "279dfff6-bd51-597b-aa95-38e8ed8015c4"
   ],
   "meaning": "Compose the EXISTING REGRESS-READINGS-COINCIDE-CLASSICALLY theorem to prove WF or an actual Nat-indexed descending series. The imported reverse direction uses approved classical choice; not a constructive-exhaustion claim or real-world causal well-foundedness.",
   "definition_ids": [
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES"
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "21910345-6932-5931-8953-493c8f7e1000"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

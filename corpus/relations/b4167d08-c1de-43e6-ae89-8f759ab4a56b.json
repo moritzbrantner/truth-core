@@ -1,0 +1,11 @@
+{
+  "id": "b4167d08-c1de-43e6-ae89-8f759ab4a56b",
+  "label": "Global hiddenness norm strengthens actual scope 1",
+  "subject_kind": "statement",
+  "subject_id": "0edc0b38-46b0-567a-9f72-64e16b30c77b",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "5e5aa271-d500-41c7-a470-32969b00a5af",
+  "verification_result_id": "6066c4ef-f23a-4412-bced-aab12fc49fe5",
+  "note": "Sole-premise checked projection; remote-world control witnesses strictness."
+}

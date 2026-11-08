@@ -1,0 +1,24 @@
+{
+  "id": "8c629064-17e2-5722-bf5c-54817f11460a",
+  "label": "An efficient cause is prior to what it causes, from nonmutual dependence",
+  "legacy_id": "EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE",
+  "premise_statement_ids": [
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d"
+  ],
+  "conclusion_statement_id": "e078f07b-a4b8-595e-a3ee-02dd83474450",
+  "inference_ids": [
+    "82187da3-2e7b-53c5-9c41-6ddf582fbbe3"
+  ],
+  "meaning": "Derives the secunda via premise that an efficient cause is simply prior to its effect from three OPEN premises: the effect depends for its being on its efficient cause (q.44 a.1 ad 2 read as dependence), the cause does not depend on its effect, and nonmutual dependence suffices for simple priority.",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "f114f527-20e2-5997-8219-df7f0457cf63",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

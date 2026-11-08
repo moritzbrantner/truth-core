@@ -1,9 +1,11 @@
 {
-  "id": "INF-UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
+  "id": "d5938954-db6e-51a6-816c-035cbf28e3b8",
+  "label": "Each graph node has at most one immediate upstream predecessor, by Mechanical-same-graph-interfa…",
+  "legacy_id": "INF-UNIQUE-COMPLETE-CAUSE-TO-UNIQUE-PREDECESSOR",
   "input_statement_ids": [
-    "STMT-UNIQUE-COMPLETE-CAUSE-PER-EFFECT"
+    "326fd926-9f08-50d9-86fe-7199119a62d1"
   ],
-  "output_statement_id": "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR",
+  "output_statement_id": "b0b614c3-0933-5724-b477-6642db60521f",
   "rule": "mechanical-same-graph-interface-projection",
   "meaning": "Mechanical assembly/transcription: UniqueCausePerEffect G and Relator.LeftUnique G.edge differ only in quantifier binder order. On the SAME graph G, reorder effect/cause variables and preserve the exact incoming-edge condition and equality. The complete-production interpretation is not transferred to a different contribution/grounding graph. No new existence, connectivity, source uniqueness, causal WF, single-effect-per-producer law, necessity or premise truth follows.",
   "assumption_statement_ids": [],

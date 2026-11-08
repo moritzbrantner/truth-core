@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-POPULATION-CLOSURE-SEPARATION",
+  "id": "a70c99f0-37b5-5c2e-a467-3155a90879ff",
+  "label": "Universal three-world frame with populations abc, bcd, b over four rigid individuals",
+  "legacy_id": "MODEL-POPULATION-CLOSURE-SEPARATION",
   "description": "Universal three-world frame with populations abc, bcd, b over four rigid individuals. The singleton b population witnesses every ordered-pair subintersection; bc is absent as an exact population. Mathematical interpretation only.",
   "vocabulary": "necessary-individual-population-closure",
   "lean_declaration": "TruthCore.Models.PopulationClosureSeparation.frame",
@@ -36,7 +38,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-ABSENCE-AMALGAMATION",
+      "statement_id": "09e9333a-d596-5ee1-99ce-80f1bad4a0ba",
       "value": "satisfies",
       "arguments": [
         "W",
@@ -48,7 +50,7 @@
       "theorem": "TruthCore.Models.PopulationClosureSeparation.amalgamation"
     },
     {
-      "statement_id": "STMT-EXACT-MEET-CLOSURE",
+      "statement_id": "5f402453-6fc8-5d8f-a13b-d22e6861dbe1",
       "value": "violates",
       "arguments": [
         "W",

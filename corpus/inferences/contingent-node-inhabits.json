@@ -1,0 +1,13 @@
+{
+  "id": "304c4faf-43ab-5d8c-9059-9eeeceef29bc",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀…, by Existential elimination and…",
+  "legacy_id": "INF-CONTINGENT-NODE-INHABITS",
+  "input_statement_ids": [
+    "c94b5446-e7e7-5b36-9bed-288959725526"
+  ],
+  "output_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "rule": "Existential elimination and introduction, conjunction elimination",
+  "meaning": "Assembly (a weakening, not a substantive derivation): the contingency node's witness is concrete and exists at w, so the route's population node holds. It puts the node on the root path as an alternative derivation of STMT-COGITO-INHABITED-CONCRETE-WORLD; as an assembly it closes that node only if the contingency node is closed (invariant 16 fixpoint). It is deliberately not registered as a strengthens relation: a registration's backing argument is set aside by the reaching-root walk, so the node would stay off the root path. The converse fails (CONTINGENT-NODE-CONTROLS: on the one-world frame the world is inhabited and no being is contingent).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

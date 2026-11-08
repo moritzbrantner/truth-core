@@ -1,6 +1,8 @@
 {
-  "id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
-  "argument_id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
+  "id": "b3efaa8a-6649-53e5-8592-7ab564dcc736",
+  "label": "The original every-opiner designated-MOTION_3 norm…, from Excluded middle as a general principle…",
+  "legacy_id": "OPINING-MOTION-EXACT-COUNTERCASE-FORK",
+  "argument_id": "d1836945-2719-5139-8c09-e037e6282012",
   "challenge_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.Solution",
   "theorem": "TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage.coverage",
@@ -9,19 +11,19 @@
   "description": "Checked structural universal-or-actual-countertuple coverage under explicit excluded middle. A finite list containing only the stronger global-no-motion account is not used as exhaustive.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-OPINION-IS-A-MOTION",
+    "target_statement_id": "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
     "cases": [
       {
         "label": "original opining motion norm",
-        "statement_id": "STMT-OPINION-IS-A-MOTION",
+        "statement_id": "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
         "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.OpiningIsBeingMovedReading"
       },
       {
         "label": "actual local opinion/nonmotion countertuple",
-        "statement_id": "STMT-OPINER-LACKS-ITS-OPINION-MOTION",
+        "statement_id": "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720",
         "lean_declaration": "TruthCore.Alternatives.OpiningMotionRivalCoverage.Countertuple"
       }
     ],
-    "survival_result_id": "OPINING-MOTION-MIXED-POPULATION-BOUNDARY"
+    "survival_result_id": "1da45265-793e-5a79-9958-91a824c0b0d5"
   }
 }

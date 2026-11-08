@@ -1,0 +1,14 @@
+{
+  "id": "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+  "label": "OPEN analyst premise: if x depends for its being on y and y does not so depend on x, then y is…",
+  "legacy_id": "STMT-NONMUTUAL-DEPENDENCE-SUFFICES-FOR-PRIORITY",
+  "paraphrase": "OPEN analyst premise (one direction of priority by nature as nonmutual dependence): if x depends for its being on y and y does not so depend on x, then y is simply prior to x.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.NonmutualDependenceSufficesForPriority",
+  "definition_ids": [
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "76d532ae-2c58-5b64-91c0-9d61db52e5d3",
+  "label": "Thomas Aquinas, Summa theologiae I q.2… supports For every perfection r and beings c, x, if…",
+  "legacy_id": "REL-Q2-A3-MORE-SUCH-SUPPORTS-GREATER-DEGREE-IS-MORE",
+  "subject_kind": "claim",
+  "subject_id": "62711aea-d6ea-5e81-8f04-c4422691dafc",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "9eaa3b6e-ad2f-5776-ab26-03cfa9f54ad8",
+  "note": "ST I q.2 a.3 co. (quarta via) states 'magis et minus dicuntur de diversis secundum quod appropinquant diversimode ad aliquid quod maxime est', as the hotter is what approaches nearer to the hottest. The premise reads 'more' by degree: if x has r in a strictly smaller degree than c, then c is more r than x. The passage grounds 'more' in nearer approach to a maximum, not in a degree measure; identifying greater approach with greater degree is the analyst's (DISAMB-ORDER-OF-BEING)."
+}

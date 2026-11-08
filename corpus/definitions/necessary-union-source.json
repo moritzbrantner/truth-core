@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-UNION-SOURCE",
+  "id": "6a4a4300-f778-53c1-9103-4b5682ac0c60",
+  "label": "Source in the necessary-support union: There exists a necessary individual with no incoming…",
+  "legacy_id": "DEF-NECESSARY-UNION-SOURCE",
   "term": "source in the necessary-support union",
   "definition": "There exists a necessary individual with no incoming UnionNecessarySupport edge from any member of the necessary subtype. This need not prohibit incoming contingent support; NoContingentGroundOfNecessary supplies that separate bridge.",
   "basis": "stipulative",

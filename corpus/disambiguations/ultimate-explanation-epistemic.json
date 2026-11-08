@@ -1,14 +1,60 @@
 {
-  "id": "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
+  "id": "215a6dac-a98b-578e-be77-4a76d14d8671",
+  "label": "Ontic grounding, local law satisfaction, predictive accuracy, normative entitlement and practical…",
+  "legacy_id": "DISAMB-ULTIMATE-EXPLANATION-EPISTEMIC",
   "term": "ontic grounding, local law satisfaction, predictive accuracy, normative entitlement and practical choice",
   "sense_definition_ids": [
-    "DEF-REGULARITY-GROUND",
-    "DEF-ULTIMATE-EXPLANATION-PROFILE",
-    "DEF-ULTIMATE-EXPLANATION-EVIDENCE",
-    "DEF-ULTIMATE-EXPLANATION-DECISION",
-    "DEF-GOLDMAN-HISTORICAL-RELIABILISM",
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+    "58d12f26-3402-5f67-b768-3c71f3381894",
+    "4f301d77-0699-5fbb-b931-41b20b839266",
+    "3ecfe3fd-61e4-58a3-adb3-483bf24f7a15",
+    "aa7e99a0-6688-5cfa-950c-6991f9072d1b",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
-  "resolution": "GroundedTotality is existence of a supplied explanatory-ground relation, weaker than independent ultimate adequacy. Follows describes conditional local dynamics; it does not certify real mechanism/explanation. Accurate is error-free prediction over a stipulated law-and-prefix cell, not epistemic entitlement. Optimal and Safe are payoff relations, not definitions of rationality. Sourcehood and complete-history selection do not automatically provide law knowledge, justified inductive generalization or access to a ground. Goldman proposes historical process warrant with qualifications, not perfect prediction. Humean practical reliance is not a blanket entitlement denial. The ontic-to-epistemic and performance-to-normativity bridges remain OPEN."
+  "resolution": "GroundedTotality is existence of a supplied explanatory-ground relation, weaker than independent ultimate adequacy. Follows describes conditional local dynamics; it does not certify real mechanism/explanation. Accurate is error-free prediction over a stipulated law-and-prefix cell, not epistemic entitlement. Optimal and Safe are payoff relations, not definitions of rationality. Sourcehood and complete-history selection do not automatically provide law knowledge, justified inductive generalization or access to a ground. Goldman proposes historical process warrant with qualifications, not perfect prediction. Humean practical reliance is not a blanket entitlement denial. The ontic-to-epistemic and performance-to-normativity bridges remain OPEN.",
+  "term_label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE",
+  "senses": [
+    {
+      "id": "d288a353-f728-422f-bace-c46ff279b6ff",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_1",
+      "definition_id": "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+      "lean_declaration": "TruthCore.Modern.Hume.Regularity.GroundedTotality"
+    },
+    {
+      "id": "ab06c7cc-eb4a-4fb3-ac8c-41ea0a03d21a",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_2",
+      "definition_id": "58d12f26-3402-5f67-b768-3c71f3381894",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Profile"
+    },
+    {
+      "id": "9ed19a52-a92a-47f0-be23-81346c1c1952",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_3",
+      "definition_id": "4f301d77-0699-5fbb-b931-41b20b839266",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Cell"
+    },
+    {
+      "id": "2f0b1aa0-43b0-4288-aafd-60d118eb0494",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_4",
+      "definition_id": "3ecfe3fd-61e4-58a3-adb3-483bf24f7a15",
+      "lean_declaration": "TruthCore.Epistemology.UltimateExplanation.Optimal"
+    },
+    {
+      "id": "b5384019-09d6-4545-acda-3109f785f95e",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_5",
+      "definition_id": "aa7e99a0-6688-5cfa-950c-6991f9072d1b"
+    },
+    {
+      "id": "9369a581-2103-43dd-be77-c08ecf6c0347",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_6",
+      "definition_id": "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+      "lean_declaration": "TruthCore.Modern.Hume.Induction.Assessment"
+    },
+    {
+      "id": "d86b9f98-d6a3-4f56-926a-855b2fe3dec9",
+      "label": "ONTIC_GROUNDING_LOCAL_LAW_SATISFACTION_PREDICTIVE_7",
+      "definition_id": "c8c357e8-33d1-5468-858d-78f8493e353b",
+      "lean_declaration": "TruthCore.Explanation.HistorySelection.Determines"
+    }
+  ]
 }

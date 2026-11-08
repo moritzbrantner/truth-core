@@ -1,13 +1,15 @@
 {
-  "id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "id": "b917f813-5020-5506-b7cd-eac478ddff72",
+  "label": "Stronger analyst profile combining local propositional/assertoric/descriptive face-value status…",
+  "legacy_id": "STMT-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
   "paraphrase": "Stronger analyst profile combining local propositional/assertoric/descriptive face-value status with truth invariance on matched-content religious sentences in the two supplied discourses. No old source claim is attributed this stronger conjunction.",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue",
   "definition_ids": [
-    "DEF-RELIGIOUS-CONTENT-AND-DISCOURSE-TRUTH-PROFILE",
-    "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
-    "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE"
+    "05c208f5-5137-5984-b940-083faed296ac",
+    "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+    "b3e05273-087e-5a8f-864d-52e56f82d3b4"
   ],
   "disambiguation_ids": [
-    "DISAMB-RELIGIOUS-LOCAL-FACE-VALUE-AND-CROSS-DISCOURSE-UNIFORMITY"
+    "972577ea-4155-59ec-9f20-0399367c7de5"
   ]
 }

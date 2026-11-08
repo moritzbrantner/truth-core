@@ -1,11 +1,13 @@
 {
-  "id": "DEF-ACT",
+  "id": "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+  "label": "Act: InAct x r: x actually has the perfection r, as fire is actually hot",
+  "legacy_id": "DEF-ACT",
   "term": "act (in act, actu)",
   "definition": "`InAct x r`: x actually has the perfection r, as fire is actually hot. In Lean `InAct` is a parameter, not a definition: its content is fixed only by the premises that use it, above all that nothing is in act and in potency in the same respect at once. Whether a mover must have the perfection formally or may have it virtually is left open (DISAMB-IN-ACT).",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-MOVES-AS-IN-ACT-A",
-    "AQUINAS-ST-I-Q2-A3-NOT-ACT-AND-POTENCY-A"
+    "611e63b7-e183-5fa4-a963-657cc09a9d9c",
+    "448c2608-b7ba-5399-bda9-66581ed3d6ca"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.InAct",
   "note": "Lean locator: MotionModel.InAct is the field InAct : Being → Respect → Prop, not the whole MotionModel and not a proof of its metaphysical interpretation. The field is a primitive input; the linked premise readings constrain its use but do not define actual possession of a perfection. The match between an intended example and this primitive interpretation remains OPEN."

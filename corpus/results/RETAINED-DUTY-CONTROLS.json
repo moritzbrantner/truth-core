@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-CONTROLS",
-  "argument_id": "RETAINED-DUTY-CONTROLS",
+  "id": "5f833572-1d08-5728-bcf1-c69e217ddc2b",
+  "label": "Closed finite controls witness each direct-core and full retained-core single-premise omission",
+  "legacy_id": "RETAINED-DUTY-CONTROLS",
+  "argument_id": "41522c3c-3858-53b4-9d6e-172c0cfa0f25",
   "challenge_module": "TruthCore.Results.Modal.RetainedDuty.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDuty.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDuty.controls",

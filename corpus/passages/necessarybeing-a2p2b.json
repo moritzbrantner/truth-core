@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a2p2b.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A2-POSSIBLE-IMPOSSIBILITY",
+      "id": "bd23588c-4ad5-577f-914e-7ead5ced8930",
+      "label": "Unattributed website author, Necessary Being interactive survey, A2P2B, complete interactive page",
+      "legacy_id": "NECESSARYBEING-A2-POSSIBLE-IMPOSSIBILITY",
       "locator": "A2P2B, complete interactive page",
       "claim_locator_prefixes": [
         "A2P2B,"

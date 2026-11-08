@@ -1,0 +1,15 @@
+{
+  "id": "1bd9b348-6caa-57bc-a5dc-bff0124f497b",
+  "label": "There is at most one first mover moved by none, by Real thisness is pure, so…",
+  "legacy_id": "INF-REAL-THISNESS-FIRST-MOVER-UNIQUENESS",
+  "input_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "62ea1e7a-dbf7-5042-8899-516e2aea7a4c"
+  ],
+  "output_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
+  "rule": "Real thisness is pure, so shared",
+  "meaning": "Each first mover's real thisness is, by strict pure actuality, a pure perfection; by unrestricted perfection every first mover has it; since no other being has it, every first mover is that one. Conditional on three OPEN, unattributed premises. No first mover is produced, and the premises are not defended here. The result does not exclude bare numerical distinctness, which real thisness denies only for first movers by supplying a real determination.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SUM1-SUM2-COMPARISON",
+  "id": "9a9e0948-0b39-5698-8408-3a9ee994d124",
+  "label": "For every nonempty family and every candidate u, Mathlib IsLUB family u iff the existing Sum2…",
+  "legacy_id": "STMT-SUM1-SUM2-COMPARISON",
   "lean_declaration": "TruthCore.Mereology.SumOneComplementation.SumOneComparison",
   "paraphrase": "For every nonempty family and every candidate u, Mathlib IsLUB family u iff the existing Sum2 Fusion family u. Pointwise agreement asserts no formation by itself.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON"
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471"
   ]
 }

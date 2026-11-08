@@ -1,11 +1,13 @@
 {
-  "id": "STMT-SCIENTIFIC-REVISION-DEFEASIBLE-JUDGMENT",
+  "id": "9e026cf3-3be7-5ff8-acdf-c2e439c915a9",
+  "label": "When a physical theory conflicts with experiment, logic alone does not prescribe the unique revision",
+  "legacy_id": "STMT-SCIENTIFIC-REVISION-DEFEASIBLE-JUDGMENT",
   "paraphrase": "When a physical theory conflicts with experiment, logic alone does not prescribe the unique revision. Repairs that satisfy experience may nevertheless differ in reasonable acceptability through defeasible good-sense judgments, whose exercise calls for impartiality and freedom from self-serving attachment.",
   "definition_ids": [
-    "DEF-SCIENCE-THEORY-LADEN-TEST",
-    "DEF-SCIENCE-DEFEASIBLE-GOOD-SENSE"
+    "2835b1dc-9019-5f31-9fbb-b1ff121b54e1",
+    "ebb31a86-84eb-566c-a270-7dfe924d9796"
   ],
   "disambiguation_ids": [
-    "DISAMB-SCIENCE-TEST-ADEQUACY"
+    "fc31f2fd-5fee-5233-8567-5522662cee5b"
   ]
 }

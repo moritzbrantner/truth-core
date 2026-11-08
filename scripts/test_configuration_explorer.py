@@ -14,6 +14,7 @@ import unittest
 import corpus
 from configuration_explorer import INPUT_FILES, MAX_DIMENSIONS, bounded_family, build_case_spaces, input_manifest, read_bundle, write_bundle
 from configurations import configuration_report, model_profile_mismatches
+from corpus_ids import legacy_uuid  # noqa: E402
 
 
 class ConfigurationExplorerTests(unittest.TestCase):
@@ -54,7 +55,7 @@ class ConfigurationExplorerTests(unittest.TestCase):
                         self.assertIsNone(node['report']['consequences'])
 
     def test_modal_union_report_preserves_eleven_assumption_dimensions(self):
-        case = next(case for case in self.context['cases'] if case['id'] == 'CONFIG-MODAL-GROUNDING-UNION')
+        case = next(case for case in self.context['cases'] if case['id'] == legacy_uuid('configuration', 'CONFIG-MODAL-GROUNDING-UNION'))
         report = next(report for report in self.reports if report['id'] == case['id'])
         context = {**self.context, 'cases': [case]}
         emitted = build_case_spaces(context, [report])[0]
@@ -62,11 +63,11 @@ class ConfigurationExplorerTests(unittest.TestCase):
         self.assertEqual(len(space['statement_ids']), 11)
         self.assertEqual(space['limits']['syntactic_selections'], 2048)
         self.assertEqual(space['limits']['covered_selections'], 2048)
-        self.assertIn('STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK', space['statement_ids'])
-        self.assertIn('STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT', space['statement_ids'])
+        self.assertIn(legacy_uuid('statement', 'STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK'), space['statement_ids'])
+        self.assertIn(legacy_uuid('statement', 'STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT'), space['statement_ids'])
         rank_route = next(row for row in emitted['configurations'] if row['id'] == 'same-union-route-via-common-rank')
-        self.assertIn('STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK', rank_route['statement_ids'])
-        self.assertIn('NECESSARILY-UNDERIVED-FROM-COMMON-RANK',
+        self.assertIn(legacy_uuid('statement', 'STMT-COMMON-WELL-FOUNDED-PRIORITY-RANK'), rank_route['statement_ids'])
+        self.assertIn(legacy_uuid('result', 'NECESSARILY-UNDERIVED-FROM-COMMON-RANK'),
                       [edge['result_id'] for edge in emitted['verified_implications']])
 
     def test_unverified_data_and_over_limit_dimensions_are_rejected(self):

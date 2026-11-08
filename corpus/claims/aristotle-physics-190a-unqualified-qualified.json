@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-190A-UNQUALIFIED-QUALIFIED-BECOMING-A",
-  "statement_id": "STMT-UNQUALIFIED-AND-QUALIFIED-BECOMING",
-  "source_id": "ARIST-PHYS",
+  "id": "4e67670f-82ce-507a-aa6e-537992408477",
+  "label": "Aristotle, Physics I.7, 190a31-190b5: Only substances come to be without qualification; changes in…",
+  "legacy_id": "ARIST-PHYS-190A-UNQUALIFIED-QUALIFIED-BECOMING-A",
+  "statement_id": "3d01d789-425a-5e33-b9f1-39b654a8b61b",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.7, 190a31-190b5",
   "interpretation": "Only substances are said to come to be without qualification; becoming in the other listed categories presupposes a subject. The claim does not erase differences among those categories.",
   "status": "formalized"

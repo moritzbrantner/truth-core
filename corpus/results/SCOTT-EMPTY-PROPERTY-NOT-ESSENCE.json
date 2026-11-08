@@ -1,6 +1,8 @@
 {
-  "id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
-  "argument_id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "id": "ba51dc7d-1e8e-566f-bc94-ed24d5bded49",
+  "label": "In Scott's variant, the empty property is an ESSENCE_2 of no individual at any world",
+  "legacy_id": "SCOTT-EMPTY-PROPERTY-NOT-ESSENCE",
+  "argument_id": "07b8bfe0-7592-5ad9-ad9f-98a3f3750420",
   "challenge_module": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.Solution",
   "theorem": "TruthCore.Results.Isabelle.GoedelGod.EmptyPropertyNotEssence.emptyPropertyNotEssence",

@@ -1,12 +1,14 @@
 {
-  "id": "REL-REGRESS-SCHEMA-EXPLANATION",
+  "id": "8f3b2faf-fbdd-5687-9904-61562fc29c41",
+  "label": "For every existence-PSR model with a… instance of schema Universal conditional structural laws…",
+  "legacy_id": "REL-REGRESS-SCHEMA-EXPLANATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-REGRESS-EXPLANATION-TRANSFER",
+  "subject_id": "6bf65f26-291e-5bd0-b9b5-810a77c19059",
   "predicate": "instance_of_schema",
   "object_kind": "statement",
-  "object_id": "STMT-REGRESS-STRUCTURAL-SCHEMA",
+  "object_id": "984860c8-c973-5ef7-b51f-af0abb263937",
   "note": "Proved conditional explanation instance of the structural schema, with separate exact theorem obligations in REGRESS-SCHEMA-PACKAGE. bind-check matches both named theorem types to these two statement declarations; Comparator checks their frozen Challenges and Solutions. This relation is registration metadata, never source support, an inference from one instance to the universal schema, or a premise-closure rule. Actual domain conditions remain open.",
-  "verification_result_id": "REGRESS-SCHEMA-PACKAGE",
+  "verification_result_id": "74e00870-e0d4-5467-8c09-a75b2a922ce5",
   "instance_theorem": "TruthCore.Results.Logic.RegressSchema.explanationTransfer",
   "schema_theorem": "TruthCore.Results.Logic.RegressSchema.structural"
 }

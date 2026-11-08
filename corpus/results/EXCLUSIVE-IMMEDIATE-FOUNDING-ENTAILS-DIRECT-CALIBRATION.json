@@ -1,6 +1,8 @@
 {
-  "id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
-  "argument_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "id": "3cd63b38-7680-5ae8-8d3d-d3fb63c19262",
+  "label": "A society counts as founded by GOD_4 as a…, from Stronger, openly stipulated reading in this…",
+  "legacy_id": "EXCLUSIVE-IMMEDIATE-FOUNDING-ENTAILS-DIRECT-CALIBRATION",
+  "argument_id": "dca4dc97-67bb-5bb5-9fd1-687a4a695361",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Strength.exclusiveImmediateWeakening",

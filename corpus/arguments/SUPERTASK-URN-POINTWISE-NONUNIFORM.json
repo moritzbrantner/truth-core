@@ -1,9 +1,18 @@
 {
-  "id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
+  "id": "53395e28-a479-55d8-8336-077d432c3d40",
+  "label": "In a simplified two-in-one-out infinite urn schedule, each individual ball is absent from all…",
+  "legacy_id": "SUPERTASK-URN-POINTWISE-NONUNIFORM",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SUPERTASK-URN-POINTWISE-NONUNIFORM",
-  "inference_ids": ["INF-SUPERTASK-URN-POINTWISE-NONUNIFORM"],
+  "conclusion_statement_id": "09ee811f-54ce-5b79-92be-94ab90bda895",
+  "inference_ids": [
+    "e1af6cef-5260-5542-a693-c49296658ab1"
+  ],
   "meaning": "Constructively separate pointwise limit of membership from a uniform empty tail, while proving there are arbitrarily long distinct resident blocks at finite stages. This is a mathematical example and makes no assertion about physical infinite operation.",
-  "definition_ids": ["DEF-SUPERTASK-URN-POINTWISE-ABSENCE", "DEF-SUPERTASK-URN-UNIFORM-EMPTINESS"],
-  "disambiguation_ids": ["DISAMB-SUPERTASK-URN-EMPTINESS"]
+  "definition_ids": [
+    "7c4a29a2-7ded-5576-bfed-2c12344d8bfe",
+    "a03f9f45-b682-55d2-96c1-7b987d2f25ec"
+  ],
+  "disambiguation_ids": [
+    "8bdef881-df3e-5f22-9ef9-7684753db7b6"
+  ]
 }

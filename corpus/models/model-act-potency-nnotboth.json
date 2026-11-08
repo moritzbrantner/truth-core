@@ -1,5 +1,7 @@
 {
-  "id": "MODEL-ACT-POTENCY-NNOTBOTH",
+  "id": "343dbeaf-73e7-595e-9fb2-9f49b6d15054",
+  "label": "Original #374 NNotBoth omission: all retained premises hold while the absolute unmoved-mover…",
+  "legacy_id": "MODEL-ACT-POTENCY-NNOTBOTH",
   "description": "Original #374 NNotBoth omission: all retained premises hold while the absolute unmoved-mover conclusion fails. The omitted premise is refuted by composition with the existing theorem.",
   "vocabulary": "MOTION-BEING-IN-ACT",
   "lean_declaration": "TruthCore.Models.ActPotencyRemaining.NNotBoth.model",
@@ -32,7 +34,7 @@
   ],
   "evaluations": [
     {
-      "statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+      "statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -42,7 +44,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation0"
     },
     {
-      "statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+      "statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -53,7 +55,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation1"
     },
     {
-      "statement_id": "STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT",
+      "statement_id": "6b9fedc2-6fea-530b-bc6d-116a5d307a54",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -65,7 +67,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation2"
     },
     {
-      "statement_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
+      "statement_id": "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -77,7 +79,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation3"
     },
     {
-      "statement_id": "STMT-NO-INFINITE-PER-SE-MOVER-SERIES",
+      "statement_id": "226c38f6-7bf4-552a-9a85-733cfa41d0fa",
       "value": "satisfies",
       "arguments": [
         "Being",
@@ -86,7 +88,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation4"
     },
     {
-      "statement_id": "STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING",
+      "statement_id": "c1b68c21-fa36-5ab0-a499-444259eda78a",
       "value": "violates",
       "arguments": [
         "Being",
@@ -97,7 +99,7 @@
       "theorem": "TruthCore.Models.ActPotencyRemaining.NNotBoth.evaluation5"
     },
     {
-      "statement_id": "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT",
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "value": "violates",
       "arguments": [
         "Being",

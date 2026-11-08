@@ -1,0 +1,12 @@
+{
+  "id": "146816e7-dca9-5ea7-a1c6-6a6111561147",
+  "label": "The specified candidate is CONCRETE_6 and exists at the selected world, from borne thought",
+  "legacy_id": "SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT",
+  "argument_id": "edef305b-f481-52c9-9557-bf2c925e4395",
+  "challenge_module": "TruthCore.Results.Causality.Round3CogitoBase.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3CogitoBase.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3CogitoBase.selectedActualConcreteFromBorneThought",
+  "comparator_config": "results/SELECTED-ACTUAL-CONCRETE-FROM-BORNE-THOUGHT/comparator.json",
+  "status": "solution-present",
+  "description": "The selected being bears an occurring thought episode (OPEN); every bearer of an occurring thought is concrete (OPEN) and exists at w (OPEN); hence the selected being is an actual concretum at w. Middle term: the occurring episode it bears. Concreteness and existence at w come from the two bearer bridges, which stay open."
+}

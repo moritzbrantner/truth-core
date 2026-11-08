@@ -1,7 +1,9 @@
 {
-  "id": "STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION",
+  "id": "0a855093-d672-5697-80e3-2e34b74c0033",
+  "label": "Late Phillips: religious beliefs depend for their sense and importance on non-religious features…",
+  "legacy_id": "STMT-PHILLIPS-RELIGION-NOT-GENERALLY-CONCLUSION",
   "paraphrase": "Late Phillips (as reported): religious beliefs depend for their sense and importance on non-religious features of human existence, but their relation to those features is not generally that of conclusions to their justification. Weaker than STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON ('not generally', not 'never'); not formalized.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

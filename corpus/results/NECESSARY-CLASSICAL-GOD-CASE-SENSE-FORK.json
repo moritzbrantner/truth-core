@@ -1,0 +1,12 @@
+{
+  "id": "4a69d91a-9529-59e2-8ffa-ba2f4254cd70",
+  "label": "Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more",
+  "legacy_id": "NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "argument_id": "8df2faad-cda4-5e37-b99b-1c5dca7be900",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.catholicismFromIntendedReading",
+  "comparator_config": "results/NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended."
+}

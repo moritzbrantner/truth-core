@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-FORGIVENESS-AUTHORITY",
+  "id": "0b7130f1-144a-5129-b99a-647303a06d7f",
+  "label": "The narrative attributes to Jesus the assertion that the Son of Man has authority to forgive sins…",
+  "legacy_id": "STMT-REPORTED-FORGIVENESS-AUTHORITY",
   "paraphrase": "The narrative attributes to Jesus the assertion that the Son of Man has authority to forgive sins on earth. This states textual attribution only; the title’s referent and the authority’s origin are not identified.",
   "lean_declaration": "TruthCore.Greek.NewTestament.Mark.ForgivenessAuthority.ReportedForgivenessAuthority",
   "definition_ids": [
-    "DEF-MARK-FORGIVENESS-AUTHORITY-REPORT"
+    "9c870b2c-9426-5519-831b-00c4658b116f"
   ],
   "disambiguation_ids": [
-    "DISAMB-MARK-FORGIVENESS-AUTHORITY"
+    "9bbcd103-41cf-5063-9c34-ccca24008633"
   ]
 }

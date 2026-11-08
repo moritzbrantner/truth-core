@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
-  "argument_id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "id": "deea7004-0d10-5224-ba22-a86e2e8d77bb",
+  "label": "Without the scope premise the dilemma fails: there is a norm that holds while an acceptable claim…",
+  "legacy_id": "LOGIC-SELF-APPLICATION-SCOPE-NEEDED",
+  "argument_id": "fd02a6b4-a2c7-5ff7-a6fa-709c3790661c",
   "challenge_module": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Challenge",
   "solution_module": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.Solution",
   "theorem": "TruthCore.Results.Logic.SelfApplication.ScopeNeeded.scopePremiseNeeded",

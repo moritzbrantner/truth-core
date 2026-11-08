@@ -1,10 +1,26 @@
 {
-  "id": "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
+  "id": "ba851630-7eec-5851-8ad2-d8eff7430e41",
+  "label": "Criterion of correctness",
+  "legacy_id": "DISAMB-CORRECTION-CRITERION-AND-JUSTIFICATION",
   "term": "criterion of correctness",
   "sense_definition_ids": [
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-WARRANTED-CORRECTION-STANDARD"
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
   ],
   "resolution": "This result uses only exact extensional classification relative to an explicit data projection. It distinguishes that stipulated property from Wittgenstein\u2019s grammatical discussion of an independent criterion (PI I.258/I.265), a computable checking procedure, epistemic warrant, normative authority and social consensus. Neither public agreement nor a private seeming is identified with correctness. An unavailable criterion may exist extensionally; a criterion\u2019s existence does not justify reliance on it.",
-  "note": "The equivalence does not formalize or decide the private-language argument."
+  "note": "The equivalence does not formalize or decide the private-language argument.",
+  "term_label": "CRITERION_OF_CORRECTNESS",
+  "senses": [
+    {
+      "id": "b77c1c5a-7956-47ac-84d2-b3d748abf918",
+      "label": "CRITERION_OF_CORRECTNESS_1",
+      "definition_id": "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+      "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
+    },
+    {
+      "id": "54088d79-c78a-452c-bfda-718e662a698d",
+      "label": "CRITERION_OF_CORRECTNESS_2",
+      "definition_id": "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
+    }
+  ]
 }

@@ -1,0 +1,12 @@
+{
+  "id": "646c0764-1bff-505f-bda4-e86f10d74130",
+  "label": "The MAXIME_1 genus principle at being: a MAXIME_1 being causes being in all others",
+  "legacy_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL",
+  "argument_id": "f4abae1b-d96a-5e3b-be76-4c608146b32d",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximumInBeingCausesAllMaximal",
+  "comparator_config": "results/MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL/comparator.json",
+  "status": "solution-present",
+  "description": "MAXIME_1 branch of the causal principle at the root-route node: the principle that what is MAXIMAL in a genus causes all in that genus, instantiated at being, gives that whatever is MAXIMAL in being causes being in every other being."
+}

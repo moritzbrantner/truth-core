@@ -1,11 +1,13 @@
 {
-  "id": "PLATO-PHAEDO-99D-METHOD",
-  "statement_id": "STMT-PLATONIC-PHAEDO-99D-METHOD",
-  "source_id": "PLATO-PHAEDO",
+  "id": "3ae838ba-4a69-55d8-9351-6a7d2b1f059d",
+  "label": "Plato, Phaedo 99d–100a: Socrates turns to accounts to examine truth and hypothesizes the account…",
+  "legacy_id": "PLATO-PHAEDO-99D-METHOD",
+  "statement_id": "95bd78ea-4abb-59e2-b392-7653d2b3953f",
+  "source_id": "29beee84-18ce-5163-b9b4-50ce5d92bdd0",
   "locator": "99d–100a",
   "interpretation": "Bounded source reading, retained as prose because this issue supplies no adequate formal semantics for the methodological or contextual content. Socrates turns to accounts to examine truth and hypothesizes the account he judges strongest. This is a method of inquiry, not a theorem establishing those hypotheses.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PLATONIC-ENTITY"
+    "a2244968-5199-5276-a6a4-c19589b5295b"
   ]
 }

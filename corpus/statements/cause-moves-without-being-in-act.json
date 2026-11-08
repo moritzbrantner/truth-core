@@ -1,13 +1,15 @@
 {
-  "id": "STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT",
+  "id": "cd7f0336-e0df-555b-a661-bf9600f6de65",
+  "label": "Rival: something moves another in a respect without itself being in act in that respect, motivated…",
+  "legacy_id": "STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT",
   "paraphrase": "Rival: something moves another in a respect without itself being in act in that respect, motivated by emergentism (attribution waits for a witness), on which lower-level causes produce a quality none of them has.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MovesWithoutBeingInActReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

@@ -1,10 +1,12 @@
 {
-  "id": "REL-FITCH-GLOBAL-LAWS-STRENGTHEN-RELEVANT-LAWS",
+  "id": "46e8ee29-37d2-5fc5-9abc-e1741f7882e6",
+  "label": "At every world and for every content… strengthens At every world modally accessible from…",
+  "legacy_id": "REL-FITCH-GLOBAL-LAWS-STRENGTHEN-RELEVANT-LAWS",
   "subject_kind": "statement",
-  "subject_id": "STMT-FITCH-GLOBAL-LAWS",
+  "subject_id": "ba7c90ea-1439-5804-ac44-cb5621d8518a",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-FITCH-RELEVANT-LAWS",
-  "verification_result_id": "FITCH-GLOBAL-LAWS-SPECIALIZE",
+  "object_id": "51c7ef24-a720-52f1-8f04-49f242269266",
+  "verification_result_id": "bcfc14db-c145-591d-927f-7a66a3d4d28f",
   "note": "All-content all-world laws imply the selected Moore-content laws only at accessed worlds. Fitch obstruction uses the weak version; the survivor certifies the stronger background as part of its concrete rival. No strictness or inclusion-minimality claim is made."
 }

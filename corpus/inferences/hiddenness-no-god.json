@@ -1,12 +1,14 @@
 {
-  "id": "INF-HIDDENNESS-NO-GOD",
+  "id": "b985eb62-3976-58b6-ad3a-da3a91566b6e",
+  "label": "At the actual world no God of the perfect-personal-ultimate…, by Constructive contradiction",
+  "legacy_id": "INF-HIDDENNESS-NO-GOD",
   "input_statement_ids": [
-    "STMT-HIDDENNESS-GOD-LOVES",
-    "STMT-HIDDENNESS-ALWAYS-OPEN",
-    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
-    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+    "0edc0b38-46b0-567a-9f72-64e16b30c77b",
+    "962a62c9-f72a-54c4-949e-d1c5dad6f8e1",
+    "7a22ab5d-e728-58a0-b6f1-48d944e6e216",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
   ],
-  "output_statement_id": "STMT-HIDDENNESS-NO-GOD",
+  "output_statement_id": "80f4e2eb-800b-57eb-8cf8-7f0e1cff1459",
   "rule": "constructive contradiction",
   "meaning": "Instantiate the universal love and access norms at the actual world and the empirical person/time witness. Assuming God exists supplies love and hence access; the witness lacks belief, so the belief constraint excludes that same access. Discharge the God-existence assumption. No truth of the four premises is proved.",
   "assumption_statement_ids": [],

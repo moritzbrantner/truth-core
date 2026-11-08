@@ -1,0 +1,15 @@
+{
+  "id": "d818ee13-0133-52c4-aeeb-07661e62d9cf",
+  "label": "Rival temporal reading: whatever is in POTENCY_1 in a respect has some being in act in that respect…",
+  "legacy_id": "STMT-ACT-PRIOR-TO-POTENCY-IN-TIME",
+  "paraphrase": "Rival temporal reading (attribution deferred): whatever is in potency in a respect has some being in act in that respect that is before it in time.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ActPriorInTime",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "c3af1987-2909-5b84-8950-fe5573c55e04"
+  ],
+  "disambiguation_ids": [
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

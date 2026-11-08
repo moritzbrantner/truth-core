@@ -1,9 +1,11 @@
 {
-  "id": "REL-GLOBAL-NO-ABSOLUTE-TRUTH-ALTERNATIVE-TO-SOME-ABSOLUTE-TRUTH",
+  "id": "7672fa24-f5c2-5570-8d96-a8e450e6a38c",
+  "label": "No content at all is ABSOLUTELY_TRUE_1 alternative to Some content is ABSOLUTELY_TRUE_1",
+  "legacy_id": "REL-GLOBAL-NO-ABSOLUTE-TRUTH-ALTERNATIVE-TO-SOME-ABSOLUTE-TRUTH",
   "subject_kind": "statement",
-  "subject_id": "STMT-GLOBAL-NO-ABSOLUTE-TRUTH",
+  "subject_id": "bff72296-915a-543f-8903-182edf096dfc",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-SOME-ABSOLUTE-TRUTH",
+  "object_id": "f625ad83-909e-52e2-b74a-92b0725c1629",
   "note": "Self-application. Horn 1 proved (RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING, conditional on scope and disquotation); horn 2 survives (RELATIVISM-NO-ABSOLUTE-TRUTH-MODELS): held as true for its speaker it is consistent but gives no one else a reason. Not refuted."
 }

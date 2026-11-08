@@ -1,0 +1,29 @@
+{
+  "id": "3b0021be-84c9-551f-a800-72f4e1143695",
+  "label": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded…",
+  "legacy_id": "ROUND4-REVISITED-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f59d734c-4d9f-5c46-b27b-c71ede1da1da",
+  "inference_ids": [
+    "42064875-18b9-56d0-888c-0cae3780b83b"
+  ],
+  "meaning": "Finite interpretations for the nine derivations of round 4: for each premise other than excluded middle, a hand-written Unit or Bool model, checked by decide without axioms, in which the other premises hold and the conclusion fails (33 omission models); and one joint nonvacuity witness in which every premise and conclusion of the batch holds with populated antecedents. Satisfiability and omission only; no model is claimed to describe reality.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "37302378-4084-5986-a88e-b67f966619d2",
+    "f68341ad-1d8f-51e7-83ce-1ae169bd9bb2",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "d428227e-f000-571e-8990-fa7d556009c1",
+    "f8def333-9f90-5fd1-9ae5-5cbecb41a056",
+    "4a101a4c-12de-53c8-80c6-de7a523ea9d9",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "66914b47-5881-5d7f-a18b-8b22447fb71c",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

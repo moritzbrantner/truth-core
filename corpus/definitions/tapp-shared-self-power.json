@@ -1,10 +1,12 @@
 {
-  "id": "DEF-TAPP-SHARED-SELF-POWER",
+  "id": "c53a0cc8-bcdc-592c-8e46-bf75b4aa749c",
+  "label": "One source of self-existence power for…: There exists one c such that every x satisfying through w…",
+  "legacy_id": "DEF-TAPP-SHARED-SELF-POWER",
   "term": "one source of self-existence power for all self-links",
   "definition": "There exists one c such that every x satisfying through w x x has selfPowerFrom w x c. c is the same witness for all such x at this world. It is stronger than merely ascribing a common predicate and does not follow from bare modal necessity. The existential quantifier supplies a common witness; it does not assert that the power-source is unique before the proof.",
   "lean_declaration": "TruthCore.Explanation.AnselmUltimateSource.SharedSelfPowerAt",
   "basis": "sourced",
   "claim_ids": [
-    "TAPP-HVEP1-SHARED-SELF-POWER"
+    "adb39552-6b07-56d2-bfa3-4c179c76d212"
   ]
 }

@@ -1,26 +1,28 @@
 {
-  "id": "UNRESTRICTED-SUM1-TO-SUM2",
+  "id": "37d75dee-b350-594a-ac6d-718fd90854d9",
+  "label": "Every nonempty Lean Set in the fixed…, from For every x,y in the supplied fixed partial… and 1 more",
+  "legacy_id": "UNRESTRICTED-SUM1-TO-SUM2",
   "premise_statement_ids": [
-    "STMT-MEREOLOGICAL-COMPLEMENTATION",
-    "STMT-NONEMPTY-UNRESTRICTED-SUM1"
+    "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
+    "db4f8c85-6854-5864-b7f0-a72d9dc32894"
   ],
-  "conclusion_statement_id": "STMT-NONEMPTY-UNRESTRICTED-SUM2",
+  "conclusion_statement_id": "852d279c-58c6-522a-b3a7-b71faab17749",
   "inference_ids": [
-    "INF-UNRESTRICTED-SUM1-TO-SUM2"
+    "b274f399-5748-581a-9d8f-8857e3ba2779"
   ],
   "meaning": "For each supplied nonempty family, take its supplied least upper bound and apply the checked pointwise comparison. This connects actual Sum1 witnesses to the existing Sum2 predicate, rather than assuming the resulting Sum2 witnesses. Exact complementation and all-nonempty Sum1 formation remain open framework commitments.",
   "definition_ids": [
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-SUM1-FUSION-COMPARISON",
-    "DEF-SUM1-COMPLEMENTATION-RIVALS",
-    "DEF-MEREOLOGICAL-SUPPLEMENTATION",
-    "DEF-OVERLAP-EXTENSIONAL-PARTHOOD"
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "df456768-b94c-5d3c-bc01-0e312e8e7701",
+    "6e29b2d3-b298-516b-a08a-8d6adfcb3a94",
+    "491073fa-38af-5d98-a6b8-77bf9c472525",
+    "6f09b078-c49b-5dc5-b7a8-524fdded7dc5"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUM1-AND-SUM2-FUSION",
-    "DISAMB-EXACT-REMAINDER-AND-SUPPLEMENT"
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471",
+    "1cf6af1c-c1c6-544d-a6a7-7060d7aebd8f"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "f9f5cfce-213f-5a98-90db-1e6c01d083d9",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Whatever has its being by participation has…",
+  "legacy_id": "REL-Q44A1-SUPPORTS-PARTICIPATED-HAS-OTHER-CAUSE",
+  "subject_kind": "claim",
+  "subject_id": "11b0106d-9061-54c3-bc53-82a3acaaddd2",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "2b25a78c-abad-50d9-abb9-31a753409192",
+  "note": "q.44 a.1 ad 1 says being by participation entails being caused by another. The encoded statement keeps that clause, reads 'caused' as having a distinct cause of its being, and omits the clause that being caused is not part of the notion of being simply. It does not identify participated esse with Platonic participation."
+}

@@ -1,0 +1,33 @@
+{
+  "id": "b7e2768a-ae2c-56f9-8089-acca1e1b44d0",
+  "premise_statement_ids": [
+    "96eef8e2-1b96-5fac-9c00-333126427287"
+  ],
+  "conclusion_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "inference_ids": [
+    "20bcbcb9-d6fc-58a2-ad48-3a209d6db7b9"
+  ],
+  "meaning": "Transcription (single application): GOD_1 branch to the root premise. The naming premise in the NOMINAL sense is analytic, so all the content of the GOD_4 premise sits in the sense bridge: whatever meets the full nominal description is the God of classical theism. With NOMINAL-BRIDGE-FROM-GOD-NAMES the two are equivalent; the nominal reading adds no warrant.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "96eef8e2-1b96-5fac-9c00-333126427287"
+    }
+  ],
+  "legacy_id": "GOD-NAMES-DESCRIBED-FROM-NOMINAL"
+}

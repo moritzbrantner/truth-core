@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THIRD-MAN-SENSITIVITY",
+  "id": "a8380bc4-fda6-5337-8311-9e56426fabf5",
+  "label": "Finite countermodel: SensitivityModels constructs six interpretations on the explicit…",
+  "legacy_id": "DEF-THIRD-MAN-SENSITIVITY",
   "term": "finite countermodel",
   "definition": "SensitivityModels constructs six interpretations on the explicit three-constructor Small type. Each has exactly one Form and therefore no unbounded list of distinct Forms, retains the other named assumptions, and negates the selected omitted principle. These are compatibility/countermodels of encodings, not theories of real explanatory power.",
   "basis": "stipulative",

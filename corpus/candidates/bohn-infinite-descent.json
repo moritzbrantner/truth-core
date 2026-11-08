@@ -1,6 +1,8 @@
 {
-  "id": "BOHN-INFINITE-DESCENT",
-  "source_id": "BOHN-INFINITE-DESCENT",
+  "id": "bc0d4ab1-94f3-5875-80c2-fbcc04d0aac5",
+  "label": "Obtain and read the author manuscript Indefinitely Descending Ground, pp.167–181",
+  "legacy_id": "BOHN-INFINITE-DESCENT",
+  "source_id": "018ff615-53d8-5967-9907-b657375035c8",
   "locator": "whole chapter",
   "priority": 906,
   "goal": "Obtain and read the author manuscript Indefinitely Descending Ground (2018), pp.167–181. PhilArchive BOHIDG/BOHIDGv1 currently return HTTP 403; author-linked institutional record https://hdl.handle.net/11250/4022949 needs a usable file witness. Do not attribute STMT-INFINITE-PER-SE-CAUSE-SERIES from a fact-grounding argument without independently defending the causal relation bridge.",

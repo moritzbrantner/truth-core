@@ -1,20 +1,22 @@
 {
-  "id": "STMT-NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "id": "89b040a1-6995-5861-b49e-4439d9a55e2e",
+  "label": "The fixed public survivor dictionaries jointly satisfy the three N1 readings, part-based…",
+  "legacy_id": "STMT-NATURALISM-MATCHED-LOGICAL-FLOOR",
   "paraphrase": "The fixed public survivor dictionaries jointly satisfy the three N1 readings, part-based N2/N3/N3i, case non-contradiction, global EM, thin F6, an actually existing located part-agent bearing that SAME reason relation, and existence/location/part status for every agent bearing it.",
   "lean_declaration": "TruthCore.Ontology.NaturalismLogicalFloor.MatchedFloorControl",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-NATURALISM-N2",
-    "DEF-NATURALISM-N3",
-    "DEF-NATURALISM-N3-INTERACTION",
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-EPISTEMIC-REASON-THIN-EXISTENCE",
-    "DEF-EXCLUDED-MIDDLE-LOGICAL-HOLDING"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "0f3ffba6-5882-5d97-80be-9129f75c7264",
+    "294b6100-7b0d-5012-848c-e2ccabe22079",
+    "7fac7b7a-4440-51f5-9009-27b3e93d8535",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4",
+    "d8e2ed12-8089-5202-ae51-e807cf611c76"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT",
-    "DISAMB-SPATIOTEMPORAL"
+    "726527df-c7a8-5be7-9f30-2bc23b115982",
+    "1ea8b036-7a66-540a-be38-301a8db9077c"
   ],
   "note": "Analyst model extension, attribution deferred. EM remains the theorem input, not a new proof of EM. F6 uses only its existing thin relational signature. No primitive intellect, ordinary epistemic-role or preference-independent force is inferred. Exact limits and prior same-model construction: docs/showcase-naturalism.md, section4.5."
 }

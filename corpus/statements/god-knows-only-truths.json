@@ -1,0 +1,11 @@
+{
+  "id": "ad56f066-2fef-58e6-8995-0ed8757b9b9c",
+  "label": "Whatever is GOD_4 and has the classical attributes holds as known only what is true",
+  "legacy_id": "STMT-GOD-KNOWS-ONLY-TRUTHS",
+  "paraphrase": "OPEN (attribution deferred): whatever is God and has the classical attributes holds as known only what is true (infallibility: he is not deceived). Knowing is not factive by definition in this vocabulary, so this is a substantive premise about God.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.GodKnowsOnlyTruths",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-MOTION-PROJECTION",
+  "id": "cacb293c-7ae7-52db-967a-776b4ac5dc97",
+  "label": "Event to canonical time-sliced motion…: MotionProjection clock bearer respect C Moves requires C e…",
+  "legacy_id": "DEF-TEMPORAL-MOTION-PROJECTION",
   "term": "event to canonical time-sliced motion bridge",
   "definition": "MotionProjection clock bearer respect C Moves requires C e f → Moves (clock f) (bearer e) (bearer f) (respect f). LocatedMotion, PotentialMotion, ActualMover and NotBoth universally lift the existing MovingIsInTheMovedReading, MovedOnlyAsInPotencyReading, MovesOnlyAsInActReading and NotActAndPotencyInSameRespectReading to each supplied time. The actualization bridge and each local profile remain explicit, unattributed open premises. It does not identify all ordinary temporal causes with per se sustaining causes.",
   "basis": "stipulative",

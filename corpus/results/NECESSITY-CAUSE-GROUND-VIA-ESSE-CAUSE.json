@@ -1,0 +1,12 @@
+{
+  "id": "3f532a7e-3653-53ea-a61e-7fe4f8a66a0d",
+  "label": "At the reading world w, whatever causes the necessity of something other than…, via esse cause",
+  "legacy_id": "NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE",
+  "argument_id": "c46635b3-82fc-5335-9da9-9505d5a21ac7",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.necessityCauseGroundViaEsseCause",
+  "comparator_config": "results/NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE/comparator.json",
+  "status": "solution-present",
+  "description": "A distinct cause c of x's necessity causes x's esse, x is an actual concretum, so by the esse-cause bridge c is an actual concrete ground of x. Only the effect's actuality is used from the relata premise."
+}

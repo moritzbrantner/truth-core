@@ -1,0 +1,15 @@
+{
+  "id": "7a63a3fe-a29f-5282-8106-79fedcb10d08",
+  "label": "Whenever an actual concretum a grounds an actual concretum b at w, a is SIMPLY_PRIOR_1 to b",
+  "legacy_id": "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY",
+  "paraphrase": "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is simply prior to b.",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ActualGroundingIsSimplePriority",
+  "definition_ids": [
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce"
+  ],
+  "disambiguation_ids": [
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

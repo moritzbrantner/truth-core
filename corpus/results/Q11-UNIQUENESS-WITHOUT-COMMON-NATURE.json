@@ -1,6 +1,8 @@
 {
-  "id": "Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
-  "argument_id": "Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
+  "id": "375d3cba-ed1f-51ab-a232-74f603b68683",
+  "label": "A finite local model satisfies incommunicable individuating bases and suppositum/nature identity…",
+  "legacy_id": "Q11-UNIQUENESS-WITHOUT-COMMON-NATURE",
+  "argument_id": "080e6334-50e0-537f-98f0-27197525bbde",
   "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.withoutCommonNature",

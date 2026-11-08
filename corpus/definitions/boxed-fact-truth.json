@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOXED-FACT-TRUTH",
+  "id": "0c3c8234-269b-55f6-8c96-34522dda62bf",
+  "label": "Boxed fact truth: The existing StoppingPoints.NecessaryFact says the same fact is true at every…",
+  "legacy_id": "DEF-BOXED-FACT-TRUTH",
   "term": "boxed fact truth",
   "definition": "The existing StoppingPoints.NecessaryFact says the same fact is true at every world accessible from a. It need not be actually true without actual reflexivity; it is not a necessarily existing bearer or essence. GroundingBaseline exports that existing declaration rather than adding another necessity notion.",
   "basis": "stipulative",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-COGITO-CONCRETE-OMISSION-CONTROLS",
+  "id": "a534d87b-7698-5fe9-a42f-b6ee2141e0c2",
+  "label": "Nine finite interpretations over Unit: eight omission controls and one…, by Constructive-proof",
+  "legacy_id": "INF-COGITO-CONCRETE-OMISSION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COGITO-CONCRETE-OMISSION-CONTROLS",
+  "output_statement_id": "560c30a8-be99-5b06-a0a0-9e86e3ff2803",
   "rule": "constructive-proof",
   "meaning": "Construct eight Unit-carrier omission interpretations, each satisfying all but one premise of its fork and falsifying the fork's conclusion, and one event-route model with an empty bearer relation and an inhabited world.",
   "assumption_statement_ids": [],

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES",
+  "id": "de454f1e-652d-5ab3-8888-3259bc829b60",
+  "label": "Content premise: if the content \"no content in scope is ABSOLUTELY_TRUE_1\" is ABSOLUTELY_TRUE_1…",
+  "legacy_id": "STMT-NO-ABSOLUTE-TRUTH-THESIS-DISQUOTES",
   "paraphrase": "Content premise: if the content \"no content in scope is absolutely true\" is absolutely true, then no content in scope is absolutely true. Only this direction of the truth schema is assumed, for this one content.",
   "lean_declaration": "TruthCore.Logic.Relativism.ThesisDisquotes",
   "definition_ids": [
-    "DEF-DISQUOTATION",
-    "DEF-ABSOLUTE-TRUTH"
+    "b8539dd9-4b72-52b0-b24d-b8ee0c226bee",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
-  "argument_id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+  "id": "b149d6cd-07ed-5638-9d0c-f1009e36767b",
+  "label": "On the Catholic theory, the objection's…, from A thing is GOOD_1 in a given perfection… and 13 more",
+  "legacy_id": "POE-CATHOLIC-DENIES-OBJECTION-ONE",
+  "argument_id": "86dfb92b-eca3-5cf5-ae3c-4bff5f219c7a",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCatholic.catholicDeniesObjectionOne",

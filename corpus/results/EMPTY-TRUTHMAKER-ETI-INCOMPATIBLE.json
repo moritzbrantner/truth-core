@@ -1,6 +1,8 @@
 {
-  "id": "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
-  "argument_id": "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "id": "715d32ab-6d89-56ab-af36-ff78fd67c7eb",
+  "label": "Logical falsity, from Some world accessible from the selected… and 2 more",
+  "legacy_id": "EMPTY-TRUTHMAKER-ETI-INCOMPATIBLE",
+  "argument_id": "a5290f02-4742-530f-8b0c-c091102976c5",
   "challenge_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Challenge",
   "solution_module": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.Solution",
   "theorem": "TruthCore.Results.Explanation.EmptyTruthmaker.Core.incompatible",

@@ -1,14 +1,16 @@
 {
-  "id": "STRENGTH-ORDER-DELTA-FORWARD",
+  "id": "f4da998c-e2dc-594d-857a-1610ad1925fc",
+  "label": "For the same mathematical x,y, y is not equal to…, from For the supplied mathematical linear order…",
+  "legacy_id": "STRENGTH-ORDER-DELTA-FORWARD",
   "premise_statement_ids": [
-    "STMT-STRENGTH-ORDER-GREATER"
+    "51bb0eeb-f3fb-5ce1-9e11-a127788f8506"
   ],
-  "conclusion_statement_id": "STMT-STRENGTH-ORDER-UNEQUAL",
+  "conclusion_statement_id": "9b7e39ea-f8d1-5762-add4-8d3b880652f1",
   "inference_ids": [
-    "INF-STRENGTH-ORDER-DELTA-FORWARD"
+    "c150cff4-29d0-565a-b872-7f6a7127b4be"
   ],
   "meaning": "Apply pinned Mathlib ne_of_gt to the same ordered x,y.",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

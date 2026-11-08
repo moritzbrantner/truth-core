@@ -1,9 +1,11 @@
 {
-  "id": "INF-STRENGTH-ORDER-IMPLICATION",
+  "id": "e932ecd9-cfa6-5314-8b53-e2bd4c9b22e6",
+  "label": "For the supplied mathematical linear order and x,y, y is at least x, by Typed strength comparison",
+  "legacy_id": "INF-STRENGTH-ORDER-IMPLICATION",
   "input_statement_ids": [
-    "STMT-STRENGTH-ORDER-GREATER"
+    "51bb0eeb-f3fb-5ce1-9e11-a127788f8506"
   ],
-  "output_statement_id": "STMT-STRENGTH-ORDER-AT-LEAST",
+  "output_statement_id": "d104c7e0-3e5b-53d2-9437-8e8a1024be8d",
   "rule": "typed_strength_comparison",
   "meaning": "Apply pinned Mathlib le_of_lt in the same supplied LinearOrder.",
   "assumption_statement_ids": [],

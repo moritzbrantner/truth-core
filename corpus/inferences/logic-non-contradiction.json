@@ -1,7 +1,9 @@
 {
-  "id": "INF-LOGIC-NON-CONTRADICTION",
+  "id": "5d5bf7e2-1ecf-5ad6-b1a7-ccf14c55203b",
+  "label": "Inside Lean logic, ∀ P: Prop, ¬: no proposition holds together with its…, by Constructive-proof",
+  "legacy_id": "INF-LOGIC-NON-CONTRADICTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-LEAN-NON-CONTRADICTION",
+  "output_statement_id": "e02e6c70-fbc0-59e2-8cef-edd44715b893",
   "rule": "constructive-proof",
   "meaning": "A proof of P ∧ ¬ P applies its second component to its first.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INPUT-DEPENDENT-CALIBRATION",
+  "id": "f83ac5df-d7a9-5daf-bf7d-e3cb8834dcd8",
+  "label": "Input-dependent additive bias control: SameVariableReadings compares f+b and g+c, permitting each…",
+  "legacy_id": "DEF-INPUT-DEPENDENT-CALIBRATION",
   "term": "input-dependent additive bias control",
   "definition": "SameVariableReadings compares f(x)+b(x) and g(x)+c(x), permitting each bias to vary with the input. The Boolean integer control agrees on every output and on the signal at false, but not on the signal at true. It witnesses the failure of one-anchor identification in this more permissive profile.",
   "basis": "stipulative",

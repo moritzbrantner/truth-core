@@ -1,5 +1,7 @@
 {
-  "id": "STMT-ONE-INTELLIGENT-DIRECTS-ALL-NATURAL-THINGS",
+  "id": "358a2a59-9ae2-53d7-a45c-83273d684739",
+  "label": "There is something intelligent by which all natural bodies are directed to an end",
+  "legacy_id": "STMT-ONE-INTELLIGENT-DIRECTS-ALL-NATURAL-THINGS",
   "paraphrase": "There is something intelligent by which all natural bodies are directed to an end.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.OneIntelligentDirectsAllNaturalThingsReading"
 }

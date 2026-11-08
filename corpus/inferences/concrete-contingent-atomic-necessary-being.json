@@ -1,14 +1,16 @@
 {
-  "id": "INF-CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING",
+  "id": "32be421e-eaef-52bd-9795-690059dc3312",
+  "label": "Some concrete individual exists at w and at every world…, by Concrete-domain-instantiation…",
+  "legacy_id": "INF-CONCRETE-CONTINGENT-ATOMIC-NECESSARY-BEING",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-CONTINGENT-ATOMIC-PARTS",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "83fdeb19-900c-5416-a828-2a1c9da983e8",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "d8a1fb16-ce20-542f-9e3b-d9350468e331"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "concrete-domain-instantiation-and-witness-projection",
   "meaning": "Assembly composition, not an independent philosophical inference: instantiate existing CONTINGENT-ATOMICITY-NECESSARY-BEING on NecessaryConcreteUnderived.concreteOntic m. The EXISTING InhabitedConcreteAt input supplies concrete b and actual existence; construct the nonempty nested actual-concrete subtype internally. All atomicity, cover, nonoverlap and selected causal-coverage inputs concern that SAME subtype/order and selected world, not an unrestricted domain. Coverage supplies concrete actual causal witnesses. Unpack the imported necessary witness c to c.val with c.property, retaining SAME candidate, frame and original ExistsAt; conclude existing NecessaryConcreteAt. Ordinary Ontic.Causes remains separate from Profile.grounds, which is unused. No NE-to-concrete axiom, extra frame law, source claim, uniqueness, God or root-premise truth is inferred. Generic object population alone does not supply concrete population. Restriction to concrete candidates does not automatically preserve unrestricted-domain atomicity or coverage; their applicability remains OPEN.",
   "assumption_statement_ids": [],

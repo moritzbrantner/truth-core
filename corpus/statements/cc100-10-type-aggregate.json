@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-10-TYPE-AGGREGATE",
+  "id": "e28a019c-fb61-5b03-9ad1-dee99050a849",
+  "label": "If there is a thing of type C, an aggregate or sum of all things of that type exists",
+  "legacy_id": "STMT-CC100-10-TYPE-AGGREGATE",
   "paraphrase": "If there is a thing of type C, an aggregate or sum of all things of that type exists.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

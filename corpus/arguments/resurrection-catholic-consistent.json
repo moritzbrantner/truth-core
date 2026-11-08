@@ -1,34 +1,36 @@
 {
-  "id": "RESURRECTION-CATHOLIC-CONSISTENT",
+  "id": "c515ba33-92a5-5028-a199-cdc2913bdf3f",
+  "label": "The limited Catholic pilot bundle is jointly satisfiable with E0–E5",
+  "legacy_id": "RESURRECTION-CATHOLIC-CONSISTENT",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-RESURRECTION-CATHOLIC-CONSISTENT",
+  "conclusion_statement_id": "50cc9c00-f586-5cd3-af54-40657e4ad87d",
   "inference_ids": [
-    "INF-RESURRECTION-CATHOLIC-CONSISTENT"
+    "ba750fb5-1a3a-5152-a20f-d7a8b4a0633a"
   ],
   "commitment_statement_ids": [
-    "STMT-PILOT-E0",
-    "STMT-PILOT-E1",
-    "STMT-PILOT-E2",
-    "STMT-PILOT-E3",
-    "STMT-PILOT-E4",
-    "STMT-PILOT-E5",
-    "STMT-PILOT-GOD-EXISTS",
-    "STMT-PILOT-DIVINE-CAUSE",
-    "STMT-PILOT-JESUS-CLAIMS",
-    "STMT-PILOT-AUTHORITY-VINDICATED",
-    "STMT-PILOT-ROSE",
-    "STMT-PILOT-CATHOLIC-ACCOUNT"
+    "e26f46c8-82df-546f-afb0-8b195c196400",
+    "0914a4ef-af73-5882-849d-f25e254db435",
+    "f71ed22a-8a1e-5ce9-8c15-72f942c55c70",
+    "c2f63731-873e-5e82-ad62-b6ba015aa508",
+    "a433dc59-32dc-5ffd-9204-0569d53af7db",
+    "13679582-3a52-5a81-ad0c-dba8b159a8d7",
+    "a38dab0b-47a2-5c2b-802d-11bbe8898f64",
+    "d91de3e0-ebed-5c6c-8289-37be325ed753",
+    "6931fa67-bd22-591a-8abb-7273aba9cb90",
+    "a756159b-625b-5ae5-957b-abc8c13424bd",
+    "f93a88f9-d8f9-5b2a-99ae-b0dea250403f",
+    "762f9ef3-8f3a-5db9-8d76-20875936199a"
   ],
   "meaning": "Construct an explicit finite model for the Catholic pilot bundle, preserving all common findings. Model consistency is not historical confirmation or proof of a complete metaphysical system.",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY",
-    "DEF-RESURRECTION-PILOT-ACCOUNT",
-    "DEF-RESURRECTION-PILOT-COVERAGE",
-    "DEF-SKELETON-OPEN-PREDICATES",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9",
+    "3ef00725-331b-5d83-89d2-36f1428e21ae",
+    "c1979405-382d-54aa-bfa8-56864a291738",
+    "ac767549-28c0-5a1a-813d-ee208a664d08",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

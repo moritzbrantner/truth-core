@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
+  "id": "749773a1-15e4-52b4-bf55-9a0e582eace0",
+  "label": "Nothing is moved except insofar as it is in POTENCY_1 to that toward…, by Biconditional-elimination",
+  "legacy_id": "INF-BRIDGE-ARIST-MOTION-ANALYSIS-MOVED-AS-IN-POTENCY",
   "input_statement_ids": [
-    "STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY"
+    "0628359b-4a71-5c67-a84b-0fd80104aceb"
   ],
-  "output_statement_id": "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY",
+  "output_statement_id": "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
   "rule": "biconditional-elimination",
   "meaning": "By the III.1 definition, what is moved in respect r is in potency to r and that potency is being actualized; in particular it is in potency to r.",
   "assumption_statement_ids": [],

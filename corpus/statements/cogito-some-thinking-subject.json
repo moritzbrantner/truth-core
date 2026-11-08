@@ -1,9 +1,11 @@
 {
-  "id": "STMT-COGITO-SOME-THINKING-SUBJECT",
+  "id": "0315d471-5093-59e3-a435-b7beff4c48a4",
+  "label": "Some subject bears some occurring thought episode",
+  "legacy_id": "STMT-COGITO-SOME-THINKING-SUBJECT",
   "paraphrase": "Some subject bears some occurring thought episode. Not that the subject is a substance, endures, is unique or is immaterial.",
   "lean_declaration": "TruthCore.Logic.CogitoSubject.SomeThinkingSubject",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66"
   ]
 }

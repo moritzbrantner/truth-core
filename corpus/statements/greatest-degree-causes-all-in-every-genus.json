@@ -1,0 +1,18 @@
+{
+  "id": "dc619ad6-11f3-5734-b258-3156b976fc31",
+  "label": "OPEN every-respect version of greatest degree in GENUS_2 causes all in GENUS_2: for every…",
+  "legacy_id": "STMT-GREATEST-DEGREE-CAUSES-ALL-IN-EVERY-GENUS",
+  "paraphrase": "OPEN every-respect version of STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS: for every perfection r, with r's represented degrees deg r, a bearer at the greatest degree of r causes r in every other bearer of r.",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.GreatestDegreeCausesAllInEveryGenus",
+  "definition_ids": [
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1",
+    "8323604a-2e7a-554c-9b32-d82e5201271d",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

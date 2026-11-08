@@ -1,0 +1,33 @@
+# Round 3 map: whoever bears an occurring thought opines its content.
+target = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+
+[[node]]
+id = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+
+# New this round (bare, OPEN).
+[[node]]
+id = "STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING"
+
+# New this round (bare, OPEN).
+[[node]]
+id = "STMT-ASSENTING-BEARER-OPINES-CONTENT"
+
+[[node]]
+id = "STMT-OPINION-IS-A-MOTION"
+
+[[node]]
+id = "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD"
+
+[[edge]]
+premises = ["STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING", "STMT-ASSENTING-BEARER-OPINES-CONTENT"]
+conclusion = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+kind = "derivation"
+status = "certified"
+note = "Certified as COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT (Barbara through Assenting)."
+
+[[edge]]
+premises = ["STMT-COGITO-OCCURRING-THOUGHT-IS-ASSENTING"]
+conclusion = "STMT-COGITO-BORNE-THOUGHT-IS-OPINING"
+kind = "rival"
+status = "mapped"
+note = "Rival: on Descartes's broad cogitatio a doubt or a willing is a thought without assent; the omission model NonAssentingThought witnesses it. The retorsion route itself uses a doubt, so this rival bites against combining both routes on one episode."

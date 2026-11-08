@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
-  "argument_id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "id": "18bf8832-2fd5-55cc-ba57-2c45be4489c3",
+  "label": "Some BEING_1 is maximal in the selected perfection, is more such…, via fork unbounded eliminated",
+  "legacy_id": "QUARTA-VIA-FORK-UNBOUNDED-ELIMINATED",
+  "argument_id": "210019ee-3b64-5fc9-9a7b-4b63e206df3b",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaForkElimination.strictTop",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-DEI-FILIUS-VERACITY-SUPPORTS-GOD-CONFIRMS-ONLY-TRUTH",
+  "id": "cb50eca3-68f8-5e75-9764-8e7bb26a0e5a",
+  "label": "First Vatican Council, Dei Filius Ch. 3…… supports Whatever a GOD_4 with the classical…",
+  "legacy_id": "REL-DEI-FILIUS-VERACITY-SUPPORTS-GOD-CONFIRMS-ONLY-TRUTH",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-I-DEI-FILIUS-CH3-GOD-CANNOT-DECEIVE",
+  "subject_id": "0e85ee1a-d6ff-5fde-be3c-6b0df74f7875",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
+  "object_id": "c1deb2ee-770d-5030-9e5c-302e33028811",
   "note": "Dei Filius ch. 3 para. 1 says God revealing can neither be deceived nor deceive; para. 2 calls miracles and prophecies most certain signs of divine revelation. Applying veracity to confirmation by a sign (a sign God gives in confirmation of p is not given for a false p) is the reading this support carries; the council asserts veracity of God revealing and does not state it of 'confirmation' in these words. No premise closure."
 }

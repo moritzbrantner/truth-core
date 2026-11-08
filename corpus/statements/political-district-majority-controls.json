@@ -1,11 +1,13 @@
 {
-  "id": "STMT-POLITICAL-DISTRICT-MAJORITY-CONTROLS",
+  "id": "cc4074bd-4548-5a49-9fc0-19dfd95cffa7",
+  "label": "In a stipulated two-party electorate with three districts of three voters each, counting every…",
+  "legacy_id": "STMT-POLITICAL-DISTRICT-MAJORITY-CONTROLS",
   "paraphrase": "In a stipulated two-party electorate with three districts of three voters each, counting every ballot once, the packed profile has five A ballots but loses two districts. A second profile with the same total five A and four B ballots, grouped 2,2,1 instead of 3,1,1, wins two districts. For every profile unanimous A implies both popular and district victory; unanimous B implies neither. The finite aggregation test establishes no claim about actual boundaries, proportional fairness, consent, or justified political authority.",
   "lean_declaration": "TruthCore.Politics.DistrictMajority.Certificate",
   "definition_ids": [
-    "DEF-POLITICAL-DISTRICT-MAJORITY"
+    "2fd6cc47-bd33-51c4-b1f1-bdb5a0127fa5"
   ],
   "disambiguation_ids": [
-    "DISAMB-ELECTORAL-MAJORITY-CONSENT-AUTHORITY"
+    "192868a0-e0ff-519c-ac55-00f632d4b896"
   ]
 }

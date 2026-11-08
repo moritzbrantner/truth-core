@@ -1,7 +1,9 @@
 {
-  "id": "STMT-BIRD-2004-EXCEPTION-CONDITIONS",
+  "id": "e025d0f1-9e8c-5125-80ad-60888c650bd4",
+  "label": "Possession of a disposition does not entail its simple unqualified manifestation conditional…",
+  "legacy_id": "STMT-BIRD-2004-EXCEPTION-CONDITIONS",
   "paraphrase": "Possession of a disposition does not entail its simple unqualified manifestation conditional; finks and antidotes can prevent manifestation, so corresponding ceteris paribus laws require exception conditions.",
   "definition_ids": [
-    "DEF-BIRD-DISPOSITIONS-EXCEPTIONS"
+    "d1142999-4a0c-5773-b67e-afa4ade323a3"
   ]
 }

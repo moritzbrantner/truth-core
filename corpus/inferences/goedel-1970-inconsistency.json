@@ -1,13 +1,15 @@
 {
-  "id": "INF-GOEDEL-1970-INCONSISTENCY",
+  "id": "b97a5af6-a5b6-540c-84e9-e9fcff57e1d5",
+  "label": "The Kripke model has no world, by Reductio",
+  "legacy_id": "INF-GOEDEL-1970-INCONSISTENCY",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-NECESSARY-INCLUSION",
-    "STMT-GOEDEL-1970-EMPTY-PROPERTY-NOT-POSITIVE",
-    "STMT-ACCESSIBILITY-NO-DEAD-END",
-    "STMT-GOEDEL-1970-EMPTY-PROPERTY-IS-ESSENCE"
+    "8aa0a46a-473f-544c-9686-9e028d0285e3",
+    "96d8342a-f88f-5edf-8792-00d4f6d556ca",
+    "649e7f30-2410-5cc1-b7c4-222f96cfb7dd",
+    "0166c188-85b1-53c0-b844-d9a3ec6cf1fa",
+    "4ab7c853-c138-50d8-82f9-26d62bd51da8"
   ],
-  "output_statement_id": "STMT-MODEL-HAS-NO-WORLD",
+  "output_statement_id": "fd3e7bbf-50da-5190-9e66-1f79b346f4bf",
   "rule": "reductio",
   "meaning": "AFP Inconsistency (steps 2-6). At any world w necessary existence is positive (Ax3). It is necessarily included in the empty property: an individual that exists necessarily at a world v accessible from w has the empty property as an essence (EmptyEssL), so the empty property is exemplified at every world accessible from v, so no world is accessible from v, which no world allows (no dead end). By Ax4 the empty property is positive at w, against step 1. So there is no world. No frame condition is used.",
   "assumption_statement_ids": [],

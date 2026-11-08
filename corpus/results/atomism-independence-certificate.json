@@ -1,6 +1,8 @@
 {
-  "id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
-  "argument_id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "id": "942618a9-dac8-52ef-9f3a-6412243d4a83",
+  "label": "For arbitrary frames and report domains, full report saturation makes root-necessary report…",
+  "legacy_id": "ATOMISM-INDEPENDENCE-CERTIFICATE",
+  "argument_id": "eb729d49-62d5-5c11-ad9d-b5486350d771",
   "challenge_module": "TruthCore.Results.Logic.AtomismIndependence.Challenge",
   "solution_module": "TruthCore.Results.Logic.AtomismIndependence.Solution",
   "theorem": "TruthCore.Results.Logic.AtomismIndependence.checks",

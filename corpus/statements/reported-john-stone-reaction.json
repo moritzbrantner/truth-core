@@ -1,11 +1,13 @@
 {
-  "id": "STMT-REPORTED-JOHN-STONE-REACTION",
+  "id": "1ff54b8e-8bc4-52d4-8226-3cb2fe99c3bc",
+  "label": "The narrative says the interlocutors took stones in order to throw them at Jesus",
+  "legacy_id": "STMT-REPORTED-JOHN-STONE-REACTION",
   "paraphrase": "The narrative says the interlocutors took stones in order to throw them at Jesus.",
   "lean_declaration": "TruthCore.Greek.NewTestament.John.AbrahamSaying.NarratedStoneReaction",
   "definition_ids": [
-    "DEF-JOHN-ABRAHAM-SPEECH-REPORT"
+    "0a359c54-962d-5355-b472-59001c8a3268"
   ],
   "disambiguation_ids": [
-    "DISAMB-JOHN-I-AM-CONTEXT-AND-TRUTH"
+    "bb48b6c3-f5d1-5f1a-9dcf-db88744d89e0"
   ]
 }

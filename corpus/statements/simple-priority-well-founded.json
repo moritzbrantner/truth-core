@@ -1,0 +1,13 @@
+{
+  "id": "d85de8e1-2f7f-5b2f-ba1e-112a0799994c",
+  "label": "Simple priority is well-founded: there is no infinite descending chain of beings each…",
+  "legacy_id": "STMT-SIMPLE-PRIORITY-WELL-FOUNDED",
+  "paraphrase": "OPEN and contested analyst premise: simple priority (by nature, not in time) is well-founded: there is no infinite descending chain of beings each simply prior to the one before. It does not bound the length of finite chains. Whoever admits an infinite essentially ordered series denies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.SimplePriorityWellFounded",
+  "definition_ids": [
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

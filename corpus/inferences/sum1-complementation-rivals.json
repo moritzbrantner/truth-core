@@ -1,7 +1,9 @@
 {
-  "id": "INF-SUM1-COMPLEMENTATION-RIVALS",
+  "id": "f94c08f6-8592-5275-8272-39695b21cd6b",
+  "label": "One fixed three-atoms-plus-top order has strong supplementation…, by Typed-partial-order-exact-rem…",
+  "legacy_id": "INF-SUM1-COMPLEMENTATION-RIVALS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SUM1-COMPLEMENTATION-RIVALS",
+  "output_statement_id": "f63c2b0e-3a45-53a5-a052-f41b7b9f660d",
   "rule": "typed-partial-order-exact-remainder-and-join",
   "meaning": "The same JoinRival jointly satisfies strong supplementation and every nonempty-family Sum1, while its top join of a,b contains a third disjoint atom and no Sum2 of a,b exists. Its missing top-minus-atom exact remainder refutes complementation. AtomPair jointly satisfies exact complementation but has no upper bound, hence neither Sum1 nor Sum2, for its pair. Both orders lack a null object. The all-family assertion is proved for arbitrary Sets, not merely sample families. This does not certify actual physical or metaphysical possibilities.",
   "assumption_statement_ids": [],

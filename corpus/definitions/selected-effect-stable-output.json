@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
+  "id": "c033d373-f381-504b-9674-c13fc9a96034",
+  "label": "CROSS_WORLD_STABLE_OUTPUT_4: For every x assigned as output of a at standpoint w, x is assigned as…",
+  "legacy_id": "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
   "term": "cross-world stable output",
   "definition": "For every x assigned as output of a at standpoint w, x is assigned as output of the same a at every accessible v where a is performed. This explicit cross-world sufficiency law is not entailed by local uniqueness or same act identity.",
   "basis": "stipulative",

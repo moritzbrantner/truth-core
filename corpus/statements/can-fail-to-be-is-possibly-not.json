@@ -1,0 +1,15 @@
+{
+  "id": "b8d21cd0-8ac6-5556-a934-d59b025698d7",
+  "label": "Whatever can fail to be in substance possibly is not in the tertia via's sense",
+  "legacy_id": "STMT-CAN-FAIL-TO-BE-IS-POSSIBLY-NOT",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: whatever can fail to be in substance (corruptible simply, In Metaph. IX lect. 9) possibly is not in the tertia via's sense. Only this direction is assumed; it identifies no further modal notion.",
+  "lean_declaration": "TruthCore.Causality.NecessaryBeingInAct.CanFailToBeIsPossiblyNot",
+  "definition_ids": [
+    "051fe0e7-e842-5581-870a-e3bc00aeaf9c",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "ed4f1f3f-d0c2-57b7-8ce7-52245db29d79"
+  ]
+}

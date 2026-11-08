@@ -1,0 +1,34 @@
+{
+  "id": "4398fb24-e107-53e2-aa35-704f882f4d0d",
+  "label": "Batch certification of three stage-3 exploration maps chosen from the derivation worklist, all on…",
+  "legacy_id": "ATTEMPT-ROUND6-DEFINITION-FORKS",
+  "statement_ids": [
+    "ebf1192b-3bba-5783-a9a7-e0acbcaec91d",
+    "c2e79f3b-6c9d-577a-88ed-ec6da56a2cf9",
+    "713b1289-d9c5-5999-96f0-dc636e67f25c",
+    "3386b0bc-939e-5296-b517-86847f6b3b52",
+    "01cc2592-9945-545f-933e-302e46387c4b",
+    "9981db29-aa03-56f8-a2de-a04eed444b91",
+    "3cff0d5a-d5e0-54f5-9eab-beb7f285cac4",
+    "8e5da2fb-6205-5431-983a-365ff9419143",
+    "15de8ad9-6fba-5177-9345-aaee59f77be0",
+    "e2dfc958-eccf-549a-897e-fbb85b5b1b67"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Batch certification of three stage-3 exploration maps chosen from the derivation worklist (corpus.py thickness --queue), all on definition forks introduced with DEF-CHURCH-CRITERION-CALIBRATION, DEF-COMMISSION-GOVERNANCE-CALIBRATION and DEF-PRINCIPAL-ACT-FOUNDING-READING (explorations/round6-church-criteria.toml, round6-governance-criteria.toml, round6-founding-attestation.toml): ten zero-axiom derivations in TruthCore/Results/Case/Catholicism/StageThree/Round6DefinitionForks. Each definition proposition (a coextension of a selected predicate with a named criterion) is split into separately testable OPEN inclusions: Church is visible, Church is spiritual, visible-and-spiritual is Church, visible is spiritual (restricted scope), and a witness of an invisible spiritual community; teaching is selected as governing, table-governing is selected, selected governing is table-or-teaching. From these follow the joint and visible Church criteria, the failure of the spiritual criterion (with only the visibility inclusion and the witness), named Church coverage (through the joint case), the failure of the narrow governing criterion (computation on the fixed table), the teaching-inclusive criterion, named governance coverage (from excluded middle and the two bounds, without deciding whether teaching is governing), and the criterion-matched institutional link (old link plus an OPEN teaching-grant bridge, by cases). The immediate-only founding reading fails from an OPEN God-founded envoy witness and the existing (now separately recorded) direct/envoy exclusion, without the envoy bridge that the existing elimination derives from it. John's commission independence follows from an OPEN, more general strand-independence premise through the fixed strand table. Controls: 23 hand-written omission models and one joint witness per map. Rejected edges: ATTEMPT-ROUND6-DEFINITION-FORKS-REJECTED-EDGES.",
+  "evidence": [
+    "941cfcb3-5ef8-5493-8837-4a2c8081ea29",
+    "797246fe-ec83-5418-a683-45e8fe11479d",
+    "22d49110-3c57-5082-9178-2f56afe7285f",
+    "c12196b6-dc3a-591b-9fa2-65ba6f6857d4",
+    "133440f7-4413-57d1-8404-1bb1ecaa1107",
+    "0e160cd9-2619-5b07-a2e5-b53d18596cb3",
+    "d842da99-8a08-5674-8008-90de91d18038",
+    "019c001b-49fc-50b2-95d9-f7bbc742f880",
+    "7c5198e4-e084-54c2-a2dc-0981c36fc513",
+    "3d56fa55-dc86-529c-9f18-d13a37ba7f33",
+    "d3dd4601-36f0-51a2-a5f4-29fc87e49e84"
+  ]
+}

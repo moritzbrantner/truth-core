@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
+  "id": "ef5d3c88-46a0-5889-9f98-a06be32c327a",
+  "label": "Global and restricted…: GlobalNoEmpiricalProof denies finite-observation conclusive verifiability…",
+  "legacy_id": "DEF-SCOPED-EMPIRICAL-PROOF-DENIAL",
   "term": "global and restricted finite-observation proof denial",
   "definition": "GlobalNoEmpiricalProof denies finite-observation conclusive verifiability at every inquiry. RestrictedNoEmpiricalProof denies it only on an independently specified scope. ScopedObservationBarrier is the explicit consequential input T→ObservationBarrier; domain classification alone does not supply it.",
   "basis": "stipulative",

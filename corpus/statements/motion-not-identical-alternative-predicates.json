@@ -1,5 +1,7 @@
 {
-  "id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
+  "id": "d2dd07b2-b867-54a1-8133-aed50fc90ed8",
+  "label": "Motion is not identical with difference, inequality, or non-being",
+  "legacy_id": "STMT-MOTION-NOT-IDENTICAL-ALTERNATIVE-PREDICATES",
   "paraphrase": "Motion is not identical with difference, inequality, or non-being.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.MotionNotIdenticalWithAlternativePredicatesReading"
 }

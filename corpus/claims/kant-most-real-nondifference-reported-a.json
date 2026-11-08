@@ -1,16 +1,18 @@
 {
-  "id": "KANT-MOST-REAL-NONDIFFERENCE-REPORTED-A",
-  "statement_id": "STMT-KANT-MOST-REAL-NONDIFFERENCE-REPORTED",
-  "source_id": "KANT-CPR",
+  "id": "40a923af-9b72-57ce-a6c3-6b82c5273b89",
+  "label": "Immanuel Kant, Critique of Pure Reason…: The most-real beings do not differ in any respect, in…",
+  "legacy_id": "KANT-MOST-REAL-NONDIFFERENCE-REPORTED-A",
+  "statement_id": "e2f4b27c-6869-5cd5-b8e2-cd0c6ac63a95",
+  "source_id": "6677e01b-8659-5803-a967-9cbaa66f46ca",
   "locator": "Ideal, section V, A608–609/B636–637; paragraph “If the proposition”",
   "interpretation": "Qualitative nondifference is not silently promoted to numerical identity. MostRealUnique is the analyst’s separately recorded stronger sufficient condition, not what this source claim asserts.",
   "status": "formalized",
   "basis": "translation",
   "definition_ids": [
-    "DEF-KANT-REALITY-PROFILE",
-    "DEF-KANT-REALITY-INDISCERNIBILITY"
+    "b3c45d92-dee0-5a1a-9849-9924d3a1699d",
+    "79c08b30-2adf-59e1-b607-3f5cb485946a"
   ],
   "disambiguation_ids": [
-    "DISAMB-KANT-REALITY-IDENTITY"
+    "29947523-056c-5415-a9e7-c6968fb926e1"
   ]
 }

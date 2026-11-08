@@ -1,0 +1,23 @@
+{
+  "id": "d1d58e1e-e7b6-5906-8144-031d2bad7408",
+  "label": "Round 2 of the root-path rival refutations refuted three rivals from deeper premises and attached…",
+  "legacy_id": "ATTEMPT-RIVAL-REFUTATIONS-ROUND2",
+  "statement_ids": [
+    "c1acdf6c-5e9a-5ce9-b70b-b805061d317a",
+    "cd7f0336-e0df-555b-a661-bf9600f6de65",
+    "0de4cf4f-d0fa-5445-8b96-c15167cc69a0",
+    "1c07b567-4021-5208-a6d2-381abdadf62d",
+    "10e6b6a2-c248-5786-b6e2-ad4c3bdc8720"
+  ],
+  "date": "2026-11-07",
+  "kind": "refutation",
+  "outcome": "blocked",
+  "summary": "Round 2 of the root-path rival refutations (after PR-1197 and PR-1198) refuted three rivals from deeper premises (NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS, NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS, NO-INERTIAL-UNIFORM-MOTION-WITHOUT-MOVER-FROM-STATE-READING) and attached refutes relations to the existing ELEATIC-THESIS-SELF-REFUTING and PER-SE-CAUSAL-LOOP-IMPOSSIBLE. The five rivals named here were examined and not refuted, for these reasons. (1) STMT-POTENCY-PRIOR-TO-ACT: the sourced reason for act's priority (ST I q.3 a.1, Metaphysics IX.8 1049b24-26: what is in potency is reduced to act only by a being in act, STMT-NOTHING-REDUCED-TO-ACT-EXCEPT-BY-A-BEING-IN-ACT) bears only on potencies being reduced; the rival's witness may be an idle potency, and a premise that every potency is posterior to a possible reducer restates STMT-ACT-SIMPLY-PRIOR-TO-POTENCY. (2) STMT-CAUSE-MOVES-WITHOUT-BEING-IN-ACT (emergentist): the deeper Aristotelian text, Metaphysics IX.8 'the mover already exists actually', is already the stating claim ARIST-MET-1049B-MOVER-ALREADY-ACTUAL-A of the rivalled premise STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT, so a refutation from it is from the target itself; the Physics III.2 form-as-source reading (STMT-MOVER-FORM-SOURCE-CAUSE-CHANGE) is untyped and needs a bridge 'carrying the form of r is being formally in act in r', which is exactly what the emergentist (virtual-act reading, DISAMB-IN-ACT) denies. (3) STMT-MOVED-MOVER-MOVES-NOT-AS-MOVED: Aquinas' own accidental-cause example supports it (AQUINAS-ST-I-Q46-A2-AD7-ACCIDENTAL-GENERATION-B); the corpus answer is the weaker sibling STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT, not a refutation, and any refuting premise would restate the strong reading. (4) STMT-INFINITE-PER-SE-CAUSE-SERIES: the Second Way's priority premises exclude only loops (PER-SE-CAUSAL-LOOP-IMPOSSIBLE) and INFINITE-LOCAL-TRANSMISSION-MODEL shows injective descent is consistent with local rules; the only deeper premises that exclude it are the causal-finitism bundle of FINITE-ANCESTRY-NO-LOOPS-PER-SE-NO-REGRESS, whose composition needs Mathlib's Set.Finite and hence propext, Classical.choice and Quot.sound, outside this round's zero-axiom gate. A refutation from the target NoInfinitePerSeEfficientCauseSeriesReading itself (Acc excludes descent) would be from the rivalled premise. (5) STMT-OPINER-LACKS-ITS-OPINION-MOTION: no deeper premise about opining is in the corpus; a refutation would need a new bridge (opining actualizes a potency qua potency, with the Physics III.1 analysis) as strong as STMT-OPINION-IS-A-MOTION itself, and retorsion does not apply to a local countertuple.",
+  "evidence": [
+    "8e7b099b-8e01-54b4-a1b2-3a3f3d523a5d",
+    "9c38c467-f47a-50c1-bb58-e7ce8c4887ef",
+    "fc99e3ad-aba3-5701-a45d-f8f4a0baf5da",
+    "7a63e2f1-8dce-5657-bfa9-4711d9990308"
+  ],
+  "blocker": "(1) a sourced premise tying idle potency to a prior being in act; (2) a typed reading of Physics III.2 202a9-12 plus a form-possession/formal-act bridge, or a decision on DISAMB-IN-ACT; (3) none: the rival is answered by the weak sibling reading; (4) a separate result with the Mathlib axioms permitted, composing perSeNoRegressOfFiniteAncestry with Acc-excludes-descent; (5) a sourced analysis of opining (e.g. De Anima on thinking as being affected)."
+}

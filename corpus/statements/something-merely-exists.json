@@ -1,0 +1,11 @@
+{
+  "id": "e7cbb87f-7a76-5ff9-83ce-61a35934bd8c",
+  "label": "Some actual thing does not live",
+  "legacy_id": "STMT-SOMETHING-MERELY-EXISTS",
+  "paraphrase": "Some actual thing does not live (a stone). Analyst formulation, open empirical premise.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.SomethingMerelyExists",
+  "definition_ids": [
+    "b7c083b2-b216-5a93-9429-7ae62252d60f",
+    "b89f3234-195e-53ec-a60b-ea4dd11c65c1"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GROUND-STATE-FACTS",
+  "id": "ab162e4f-00bf-5394-8b95-f6b6e39ddf35",
+  "label": "Intrinsic state facts of a ground: A ground's state at each world, with a fact for each state…",
+  "legacy_id": "DEF-GROUND-STATE-FACTS",
   "term": "intrinsic state facts of a ground",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.StateFacts",

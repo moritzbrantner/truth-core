@@ -1,31 +1,33 @@
 {
-  "id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
+  "id": "5b45b205-368e-5c21-9bdf-9a393b178f36",
+  "label": "The selected rigid n actually exists and exists at every root-accessible…, from actual invariance",
+  "legacy_id": "MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE",
   "premise_statement_ids": [
-    "STMT-ACTUAL-MODAL-REFLEXIVITY",
-    "STMT-MODAL-NECESSARY-AT-INDIVIDUAL",
-    "STMT-MODAL-DEGREE-OTHER-DIRECTED-POTENTIAL",
-    "STMT-MODAL-DEGREE-WEAK-CAUSE-BOUND",
-    "STMT-MODAL-DEGREE-ACTUAL-NECESSARY-INVARIANCE",
-    "STMT-EXCLUDED-MIDDLE"
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "4536ee5d-5cac-50e2-b7dc-1272fb19858a",
+    "1aa6d02f-f29d-55f7-9e5d-7ea609609e76",
+    "728d8bd9-92dd-5af5-b831-e49c7a4f7b5f",
+    "59149353-2f74-54de-9035-08640c4e24a9",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM",
+  "conclusion_statement_id": "c1e08724-6634-53af-b653-c56948a9892f",
   "inference_ids": [
-    "INF-MODAL-DEGREE-GLOBAL-MAXIMUM-FROM-ACTUAL-INVARIANCE"
+    "49f03ff1-cd69-5f48-aea4-688effd0ad1e"
   ],
   "meaning": "Source-fidelity specialization of MODAL-DEGREE-NECESSARY-GLOBAL-MAXIMUM, not a second philosophical discovery. Bare NecessaryAt need not imply presence at a nonreflexive standpoint, so the source11 reading keeps actual presence inside its invariant-degree antecedent. Under the explicit ActualReflexive hypothesis, any NecessaryAt witness supplies that actual presence. Apply the guarded conditional to this pair, obtain the analyst invariant conditional needed by the already proved main theorem, and compose that theorem unchanged. The selected-individual other-directed pointwise source6 specialization, current-world weak degree bound, rigid identity, shared preorder, root-accessible scope and explicit excluded middle remain the same. This fixes an attribution boundary without weakening the original frozen Challenge or asserting that source11 applies to an arbitrary absent individual. No step5 possible-maximum premise, step4 value bridge, actual causal exercise, causal sufficiency, uniqueness, God or unrestricted all-world scope is inferred. All philosophical premises remain open; root-premise delta is none.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-ACTUAL-MODAL-REFLEXIVITY",
-    "DEF-MODAL-EXISTENCE-DEGREE",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-PREORDER-DEGREE-INVARIANCE"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "3baa4471-74ac-5de6-a53a-6ea274873405",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "14bf73ee-a52e-5b4c-bde2-9e6f31de6a1b"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-MODAL-DEGREE-PRESENCE",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "4eb21e18-3541-5b78-ab20-0040e4e987f4",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b"
   ]
 }

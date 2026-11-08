@@ -1,11 +1,13 @@
 {
-  "id": "STMT-PILOT-REPORT-JOHN-DISCIPLES-REJOICE",
+  "id": "4e600b2f-7fb7-5960-98e3-db37ace377e2",
+  "label": "John narrates disciples seeing the Lord, rejoicing, and telling Thomas that they have seen him",
+  "legacy_id": "STMT-PILOT-REPORT-JOHN-DISCIPLES-REJOICE",
   "paraphrase": "John narrates disciples seeing the Lord, rejoicing, and telling Thomas that they have seen him. Textual report only.",
   "lean_declaration": "TruthCore.Greek.NewTestament.John.JohnDisciplesRejoice",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

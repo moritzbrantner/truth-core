@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
+  "id": "b665c5b9-4125-5e47-a0bd-c905d81deb14",
+  "label": "Normal contexts versus off-normal…: State.normal u uses the old mechanism at TwoState and natural…",
+  "legacy_id": "DEF-COUNTERPOSSIBLE-NORMAL-REPAIR-DOMAINS",
   "term": "normal contexts versus off-normal public-clamp contexts",
   "definition": "State.normal u uses the old mechanism at TwoState(true,u) and natural settings. State.repair u uses the same background and sourceOff=(some false,none), clamping PUBLIC a while retaining latent first=true and second=u. Mode.active runs pluralRun, Mode.idle runs idleRun. Normal modal evaluation uses only the universal Bool frame and the shared normal observations. EnlargedFrame admits repairs and is a separately changed possibility profile.",
   "basis": "stipulative",

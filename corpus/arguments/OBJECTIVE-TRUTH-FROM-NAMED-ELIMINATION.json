@@ -1,21 +1,23 @@
 {
-  "id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
+  "id": "a3281a44-78c4-5b61-aa37-852a619d4fbb",
+  "label": "Analyst definition proposition: in this fixed profile, a sentence is…, from named elimination",
+  "legacy_id": "OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION",
   "premise_statement_ids": [
-    "STMT-OBJECTIVE-TRUTH-NAMED-DEFINITIONS-COVER",
-    "STMT-OBJECTIVE-TRUTH-NOT-INVARIANCE-ONLY",
-    "STMT-OBJECTIVE-TRUTH-NOT-ACTUAL-TRUTH-ONLY"
+    "6cdc4062-245e-5f84-9b1c-117673045506",
+    "d792059e-0b01-56a9-9bde-6abcd158024b",
+    "266890f6-6b38-5d42-8fa9-57e6d731c4b8"
   ],
-  "conclusion_statement_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "conclusion_statement_id": "326adc2f-b56d-58af-802e-9bf3a6f46c61",
   "inference_ids": [
-    "INF-OBJECTIVE-TRUTH-FROM-NAMED-ELIMINATION"
+    "275842e8-edab-5b27-8dcd-082b911cdf15"
   ],
   "meaning": "Logical elimination transcription under three explicitly open premises: named coverage and failure of the two alternative calibrations force actual-stable calibration. No independent philosophical warrant for those inputs is supplied.",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
-    "DEF-OBJECTIVE-TRUTH-TRUTH-COMPONENT"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "25fbb226-1079-5cec-aec3-72a560dfaa93",
+    "a5a6d4bc-1846-551b-a997-0484e70fe2cb"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ABSOLUTE-TRUTH",
+  "id": "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7",
+  "label": "ABSOLUTELY_TRUE_1: TruthSemantics.trueAbs p: p is true in the unindexed sense, not relative to any…",
+  "legacy_id": "DEF-ABSOLUTE-TRUTH",
   "term": "absolutely true",
   "definition": "`TruthSemantics.trueAbs p`: p is true in the unindexed sense, not relative to any agent. No link to relative truth is built in.",
   "basis": "stipulative",

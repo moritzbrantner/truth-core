@@ -1,10 +1,12 @@
 {
-  "id": "REL-UNIFORM-NATURAL-REJECTION-STRENGTHENS-SHARED-REJECTION",
+  "id": "9e0f59a7-4d97-5ede-8c12-2159c88e5c00",
+  "label": "Both uniform interpretations fail: not… strengthens Exact negation of NATURAL_REASON_2 is…",
+  "legacy_id": "REL-UNIFORM-NATURAL-REJECTION-STRENGTHENS-SHARED-REJECTION",
   "subject_kind": "statement",
-  "subject_id": "STMT-UNIFORM-NATURAL-REASON-BRIDGES-REJECTED",
+  "subject_id": "9b85baf4-bd6f-5ffd-87d9-5dd70b3a132c",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-SHARED-NATURAL-REASON-BRIDGE-REJECTED",
-  "verification_result_id": "UNIFORM-NATURAL-REASON-REJECTION-INCLUDES-SHARED",
+  "object_id": "490f4796-81ee-5c42-95d2-2f2a6713c654",
+  "verification_result_id": "0d4ffc5b-3dda-5c8d-a22c-703192d408cd",
   "note": "Rejecting both uniform readings includes rejecting the shared bridge; no stronger profile is inferred from the weak rejection."
 }

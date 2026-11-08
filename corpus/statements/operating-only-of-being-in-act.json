@@ -1,0 +1,14 @@
+{
+  "id": "febc5ca6-967a-5fcc-9d72-5255d1300b6d",
+  "label": "Whatever operates, transiently or immanently, is in act in some respect",
+  "legacy_id": "STMT-OPERATING-ONLY-OF-BEING-IN-ACT",
+  "paraphrase": "OPEN generic operari sequitur esse: whatever operates, transiently or immanently, is in act in some respect. The pinned q.75 a.2 reading STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT is stated only of causing another; this is the analyst's extension to operating as such.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OperatingOnlyOfBeingInAct",
+  "definition_ids": [
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-TRANSFER",
+  "id": "e3767c79-05d1-516c-9af4-d18d9d8313e2",
+  "label": "Reason for another agent: A holder's relative truth gives another agent a reason, in the…",
+  "legacy_id": "DEF-REASON-TRANSFER",
   "term": "reason for another agent (in relativist terms)",
   "definition": "A holder's relative truth gives another agent a reason, in the relativist's own currency, only if it settles truth for that agent. `RelativeHornOutcome` records the failure: the thesis is true for its holder and not true for some denier.",
   "basis": "stipulative",

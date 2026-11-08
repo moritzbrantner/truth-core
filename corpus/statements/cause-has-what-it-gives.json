@@ -1,0 +1,15 @@
+{
+  "id": "376d6a5a-c179-5090-b57c-f9a371222899",
+  "label": "Nothing gives what it does not have",
+  "legacy_id": "STMT-CAUSE-HAS-WHAT-IT-GIVES",
+  "paraphrase": "OPEN analyst generalization: nothing gives what it does not have. Whatever causes a perfection r in a thing has r (in act, formally or eminently: the abstract InAct). ST I q.4 a.2 co. says this of the effective cause of a thing's being (STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE); extending it to every cause of any perfection is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CauseHasWhatItGives",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

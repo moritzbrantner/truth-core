@@ -1,0 +1,13 @@
+{
+  "id": "20bcbcb9-d6fc-58a2-ad48-3a209d6db7b9",
+  "label": "GOD_1 to root: the GOD_1-to-GOD_4 bridge gives the naming premise (transcription)",
+  "legacy_id": "INF-GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+  "input_statement_ids": [
+    "96eef8e2-1b96-5fac-9c00-333126427287"
+  ],
+  "output_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "rule": "Modus ponens after conjunction introduction",
+  "meaning": "Transcription (single application): GOD_1 branch to the root premise. The naming premise in the NOMINAL sense is analytic, so all the content of the GOD_4 premise sits in the sense bridge: whatever meets the full nominal description is the God of classical theism. With NOMINAL-BRIDGE-FROM-GOD-NAMES the two are equivalent; the nominal reading adds no warrant.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

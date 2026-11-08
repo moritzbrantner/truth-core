@@ -1,0 +1,10 @@
+{
+  "id": "d61eda33-7f6c-52a8-a905-e16661520f23",
+  "label": "A being can do a task if it is in act in every perfection the task requires",
+  "legacy_id": "STMT-ACTIVE-POWER-FOLLOWS-ACT",
+  "paraphrase": "OPEN (attribution deferred): a being can do a task if it is in act in every perfection the task requires (active power follows act, after ST I q.25 a.1).",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ActivePowerFollowsAct",
+  "definition_ids": [
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
+  ]
+}

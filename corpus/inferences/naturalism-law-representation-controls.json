@@ -1,7 +1,9 @@
 {
-  "id": "INF-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "id": "1d425b7a-655f-5496-b409-18eacc980824",
+  "label": "Three separate explicit representations retain the existing finite…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-LAW-REPRESENTATION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NATURALISM-LAW-REPRESENTATION-CONTROLS",
+  "output_statement_id": "6bf59031-036a-5e1e-a5ef-cd52f7e891e6",
   "rule": "constructive-proof",
   "meaning": "Import the certified Hume regularity test for selected-rule versus incidental truth, then construct the three concrete bearer/law populations and location relations. All advertised instantiation, absence, support-failure and population facts are exported by Controls. No interpretation is rejected merely for differing on law-entity presence.",
   "assumption_statement_ids": [],

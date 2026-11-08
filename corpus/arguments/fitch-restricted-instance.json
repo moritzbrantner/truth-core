@@ -1,21 +1,23 @@
 {
-  "id": "FITCH-RESTRICTED-INSTANCE",
+  "id": "6f57cc04-7f6f-5e83-b334-d07a36deba13",
+  "label": "If the selected Moore conjunction is…, from Every actually true content in the supplied… and 1 more",
+  "legacy_id": "FITCH-RESTRICTED-INSTANCE",
   "premise_statement_ids": [
-    "STMT-FITCH-RESTRICTED-KNOWABILITY",
-    "STMT-FITCH-MOORE-ADMISSIBLE"
+    "23856ef3-0ee8-5b96-a6f0-def6ffba03fa",
+    "534eb2da-165f-5bd5-9c51-da78e4e4e069"
   ],
-  "conclusion_statement_id": "STMT-FITCH-MOORE-INSTANCE",
+  "conclusion_statement_id": "8dc79019-29fe-57a6-83a6-e2f7278efcba",
   "inference_ids": [
-    "INF-FITCH-RESTRICTED-INSTANCE"
+    "23ecbd75-55e1-5c27-bf00-9c97f1e2f437"
   ],
   "meaning": "Instantiate actual restricted knowability at the Moore content using its separately declared admissibility. This is schema specialization, not an independent defense of either assumption.",
   "definition_ids": [
-    "DEF-FITCH-WORLD-INDEXED-KNOWLEDGE",
-    "DEF-FITCH-ADMISSIBLE-CONTENTS",
-    "DEF-FITCH-RELEVANT-STABILITY",
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE"
+    "4c0b6f4b-25fe-54c5-abce-5e866775385c",
+    "8cdd567b-c06b-5c6f-8a3a-f785e6c83fde",
+    "a1054bbf-58e8-50cd-acd0-0f44a059ca7c",
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-FITCH-OPERATOR-SCOPE"
+    "840d320e-ed3b-553b-b0dd-750c61c298ba"
   ]
 }

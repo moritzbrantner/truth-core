@@ -1,10 +1,12 @@
 {
-  "id": "DEF-RUSSELL-DESCRIPTION",
+  "id": "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
+  "label": "DEFINITE_DESCRIPTION_EXISTENCE_2: DescriptionExists F requires a witness c such that F holds…",
+  "legacy_id": "DEF-RUSSELL-DESCRIPTION",
   "term": "definite-description existence",
   "definition": "DescriptionExists F requires a witness c such that F holds exactly of c, matching the nonempty plus at-most-one analysis of a singular definite description.",
   "basis": "sourced",
   "claim_ids": [
-    "RUSSELL-ATOMISM-VI-UNIQUE"
+    "b69319d1-c5d9-5d35-aea5-88763147f3c8"
   ],
   "lean_declaration": "TruthCore.Modern.Russell.Existence.DescriptionExists"
 }

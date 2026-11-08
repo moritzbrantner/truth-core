@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
-  "argument_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "id": "0590b922-f513-5532-aa97-d2a4b8bcff01",
+  "label": "There is an intelligent first mover moved by none that directs every natural…, via one governor",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-QUINTA-VIA-ONE-GOVERNOR",
+  "argument_id": "b72a5cf3-0695-5b59-98d8-9429c9f30fd8",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuintaViaOneGovernor.oneGovernor",

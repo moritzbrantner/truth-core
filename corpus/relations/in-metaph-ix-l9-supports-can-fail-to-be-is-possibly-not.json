@@ -1,0 +1,11 @@
+{
+  "id": "957f4cfc-5f20-58f7-b237-a7a7a8915662",
+  "label": "Thomas Aquinas, Sententia libri…: Every… supports Whatever can fail to be in substance…",
+  "legacy_id": "REL-IN-METAPH-IX-L9-SUPPORTS-CAN-FAIL-TO-BE-IS-POSSIBLY-NOT",
+  "subject_kind": "claim",
+  "subject_id": "c69afccc-aa30-5b76-ae58-35a884324e94",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "b8d21cd0-8ac6-5556-a934-d59b025698d7",
+  "note": "In Metaph. IX lect. 9 n. 2–4 explains corruptibility through possibility of not being: what is possible to be can also not be, and what can not be is corruptible, simply when it can not be in substance. The encoded statement takes the converse direction for substance (what can fail to be in substance possibly is not) and identifies the commentary's 'potest non esse' with the tertia via's possible absence over times (PossibleNotToBe). The commentary does not state that identification across the two modal vocabularies."
+}

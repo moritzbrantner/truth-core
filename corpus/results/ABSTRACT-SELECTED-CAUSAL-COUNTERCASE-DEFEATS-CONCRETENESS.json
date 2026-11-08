@@ -1,6 +1,8 @@
 {
-  "id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
-  "argument_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "id": "4851f3b9-a50a-5db9-933e-3ebd6102749c",
+  "label": "Exact negation of the original two-clause…, from In this supplied causal profile, the… and 1 more",
+  "legacy_id": "ABSTRACT-SELECTED-CAUSAL-COUNTERCASE-DEFEATS-CONCRETENESS",
+  "argument_id": "485ea590-894d-5bff-8165-74dbdbfdd3b4",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.CounterFailure.counterFailure",

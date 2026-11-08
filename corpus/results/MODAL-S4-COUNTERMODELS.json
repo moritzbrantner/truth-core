@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S4-COUNTERMODELS",
-  "argument_id": "MODAL-S4-COUNTERMODELS",
+  "id": "c81e1a75-82d0-5dff-99ac-4316a0eeba6e",
+  "label": "Both finite pockets configurations are reflexive and transitive but neither symmetric nor Euclidean",
+  "legacy_id": "MODAL-S4-COUNTERMODELS",
+  "argument_id": "ef9e4732-8f01-5910-b9a7-c436ed042dcd",
   "challenge_module": "TruthCore.Results.Modal.S4.Countermodels.Challenge",
   "solution_module": "TruthCore.Results.Modal.S4.Countermodels.Solution",
   "theorem": "TruthCore.Results.Modal.S4.Countermodels.checks",

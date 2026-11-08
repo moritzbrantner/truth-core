@@ -1,0 +1,14 @@
+{
+  "id": "a69ec0c1-5c6f-5cdb-b8f0-e9c2e4d9c51d",
+  "label": "A GOD_4 with the classical attributes who founds a society as a teaching authority assists it",
+  "legacy_id": "STMT-FOUNDER-GUARANTEES-FOUNDED-AUTHORITY",
+  "paraphrase": "OPEN (attribution deferred): a God with the classical attributes who founds a society as a teaching authority assists it.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.FounderGuaranteesFoundedAuthority",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "17480925-027b-51b2-9062-2df0d2d8d612"
+  ],
+  "disambiguation_ids": [
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
+  ]
+}

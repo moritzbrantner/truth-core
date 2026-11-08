@@ -1,0 +1,12 @@
+{
+  "id": "b374765e-a278-57d9-8449-bf24bd454cf6",
+  "label": "At the selected world every existent is in act in some respect, from eleatic power",
+  "legacy_id": "EXISTENT-IN-ACT-FROM-ELEATIC-POWER",
+  "argument_id": "9fb695f9-6aee-5ba0-9fb7-735977c2a362",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.existentInActFromEleaticPower",
+  "comparator_config": "results/EXISTENT-IN-ACT-FROM-ELEATIC-POWER/comparator.json",
+  "status": "solution-present",
+  "description": "The intermediate step of the Eleatic route: from the OPEN Eleatic principle and the q.25 a.1 reading, every existent at w is in act in some respect (no respect named)."
+}

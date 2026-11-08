@@ -1,5 +1,7 @@
 {
-  "id": "DEF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
+  "id": "dce335aa-8ffb-53fe-aadc-2facb4374879",
+  "label": "Q3 identity and typed support…: ExtendedControls conjoins Controls with TypedCorrespondenceControl",
+  "legacy_id": "DEF-UNDERIVED-ESSENCE-INTERFACE-CONTROLS",
   "term": "q3 identity and typed support interface controls",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Causality.UnderivedEssenceEsse.ExtendedControls",

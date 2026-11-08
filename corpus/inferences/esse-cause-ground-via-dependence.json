@@ -1,0 +1,16 @@
+{
+  "id": "a960d892-fe9a-5e9b-a1d9-97b2b1405fcc",
+  "label": "At the selected world w, for any c and x, if x is actual and…, by Universal instantiation…",
+  "legacy_id": "INF-ESSE-CAUSE-GROUND-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "c99f9d23-3f05-5c3c-9279-44a59e445a14",
+    "82eeeb3c-b96d-5483-b1ac-f6059ff02211",
+    "2068f91c-1eeb-5dbb-a71a-f7b6a12bb495",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+  "rule": "Universal instantiation, conjunction introduction and modus ponens",
+  "meaning": "Derives the esse-cause bridge: a cause c, distinct from an actual concretum x, of x's esse is concrete (causal-capacity premise) and exists at w (only actual things cause esse), so it is an actual concretum; x depends for its being on c (q.44 a.1 ad 2 read for causes of esse); and dependence between actual concreta is grounding. Four OPEN premises; the dependence bridge carries only one direction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

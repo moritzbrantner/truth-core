@@ -1,6 +1,8 @@
 {
-  "id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
-  "argument_id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "id": "2d5578c3-f6cb-532b-a594-6e0013e7603d",
+  "label": "The universal identification of…, from At least one occurring token of the target… and 1 more",
+  "legacy_id": "INTENTIONALITY943-REJECT-REPORT-ONLY",
+  "argument_id": "71e94213-122f-5233-8a73-5387fe003d63",
   "challenge_module": "TruthCore.Results.Comparison.Intentionality943.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Intentionality943.Solution",
   "theorem": "TruthCore.Results.Comparison.Intentionality943.rejectAffectionOnly",

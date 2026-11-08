@@ -1,0 +1,16 @@
+{
+  "id": "2b25a78c-abad-50d9-abb9-31a753409192",
+  "label": "Whatever has its being by participation has a cause of its being other than itself",
+  "legacy_id": "STMT-PARTICIPATED-HAS-OTHER-CAUSE",
+  "paraphrase": "Whatever has its being by participation has a cause of its being other than itself. Encodes the first clause of ST I q.44 a.1 ad 1 (being by participation entails being caused by another); the second clause, that being caused is not part of being simply, is not encoded.",
+  "lean_declaration": "TruthCore.Causality.ComponentFirstness.ParticipatedHasOtherCause",
+  "definition_ids": [
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "196be87e-b944-5924-b791-87406fbe48f6"
+  ],
+  "disambiguation_ids": [
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1"
+  ]
+}

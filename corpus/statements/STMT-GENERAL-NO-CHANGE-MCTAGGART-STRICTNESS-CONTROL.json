@@ -1,11 +1,13 @@
 {
-  "id": "STMT-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS-CONTROL",
+  "id": "a67faf35-bb30-57da-aa1a-431bee6ab765",
+  "label": "An inhabited Unit carrier has no general CHANGE_2 but fails the full McTaggart1908 bundle because…",
+  "legacy_id": "STMT-GENERAL-NO-CHANGE-MCTAGGART-STRICTNESS-CONTROL",
   "paraphrase": "An inhabited Unit carrier has no general change but fails the full McTaggart1908 bundle because it has no opining instances. Formal strictness of the source-bundle weakening, not a thinker endorsing a changeless view or real-world ontology.",
   "lean_declaration": "TruthCore.Observation.ChangeRivalCoverage.Controls",
   "definition_ids": [
-    "DEF-CHANGE-GENERAL"
+    "9bd881c9-2227-5883-9595-96db5e630da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

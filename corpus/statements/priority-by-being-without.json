@@ -1,0 +1,11 @@
+{
+  "id": "97fa3a0b-eb23-5fb1-9741-c1f09fb72206",
+  "label": "If y can be without x and x cannot be without y, then y is SIMPLY_PRIOR_1 to x",
+  "legacy_id": "STMT-PRIORITY-BY-BEING-WITHOUT",
+  "paraphrase": "OPEN analyst reading of the criterion of natural priority: if y can be without x and x cannot be without y, then y is simply prior to x. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 15, 'priora dicuntur, quae possunt esse sine aliis et illa non possunt esse sine eis', said of priority 'secundum naturam'; reading it for the simple priority of DEF-SIMPLE-PRIORITY is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.PriorityByBeingWithout",
+  "definition_ids": [
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2"
+  ]
+}

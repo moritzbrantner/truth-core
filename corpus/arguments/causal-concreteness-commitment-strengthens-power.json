@@ -1,0 +1,28 @@
+{
+  "id": "4a8193b0-311b-575a-90ee-a20838661f09",
+  "label": "OPEN capacity clause alone: at the selected…, from Owner framework commitment: At the selected…",
+  "legacy_id": "CAUSAL-CONCRETENESS-COMMITMENT-STRENGTHENS-POWER",
+  "premise_statement_ids": [
+    "e27489c3-7419-5123-8476-386633e62532"
+  ],
+  "conclusion_statement_id": "61b6e188-39aa-57d9-9e0b-dedc05226995",
+  "inference_ids": [
+    "f0ac3489-f24b-5b0e-bb6f-accd45c8b717"
+  ],
+  "meaning": "Strength registration (not modal): the first conjunct of the common-ground commitment OwnerCommitmentAt is PowerRequiresConcreteAt, the capacity half used by the alternative Cogito population step.",
+  "definition_ids": [
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "4088655a-8c5b-5533-b93d-ec4a4f767108",
+    "3c25665f-1639-5b85-8052-d4a2fc555365",
+    "2b015a2c-4d31-5511-b391-41413edf45ac",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416"
+  ],
+  "disambiguation_ids": [
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PRESENT-ESSE-SUPPORT",
+  "id": "b242943a-34cc-582d-8c38-c1203b9d2c91",
+  "label": "Actual direct supporter of another…: PresentEsseSupport m R w₀ c b holds when c exists at the…",
+  "legacy_id": "DEF-PRESENT-ESSE-SUPPORT",
   "term": "actual direct supporter of another individual's existence",
   "definition": "PresentEsseSupport m R w₀ c b holds when c exists at the selected actual world and the separate primitive R records c as a direct existential supporter of b there. No c ≠ b condition is built into the raw relation; a well-founded support order rules out actual self-support. R is not identified with generic Ontic.Causes, the transmission of power, temporal production, or an adequate explanatory reason. NoExistingSupportAt m R w n is the shared pointwise absence form ∀ c, m.ExistsAt w c → ¬ R w c n. It asserts neither existence of n nor absence at other worlds; Present here means world-relative existence, not temporal concurrence or presentism.",
   "basis": "stipulative",

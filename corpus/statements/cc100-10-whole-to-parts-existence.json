@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-10-WHOLE-TO-PARTS-EXISTENCE",
+  "id": "94413f1c-75a7-5d7e-abe9-2a75ecd0224d",
+  "label": "If a whole exists, all of its parts exist",
+  "legacy_id": "STMT-CC100-10-WHOLE-TO-PARTS-EXISTENCE",
   "paraphrase": "If a whole exists, all of its parts exist.",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

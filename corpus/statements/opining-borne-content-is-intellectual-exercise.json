@@ -1,0 +1,12 @@
+{
+  "id": "c8394eaf-3110-503d-881f-6fc49f7430c3",
+  "label": "Whoever bears an episode and opines its content exercises intellect in that episode. OPINING_2…",
+  "legacy_id": "STMT-OPINING-BORNE-CONTENT-IS-INTELLECTUAL-EXERCISE",
+  "paraphrase": "OPEN analyst premise: whoever bears an episode and opines its content exercises intellect in that episode (judging is an act of intellect). DEF-OPINING includes phantasia, so whoever places imagination in sense contests it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OpiningBorneContentIsIntellectualExercise",
+  "definition_ids": [
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82"
+  ]
+}

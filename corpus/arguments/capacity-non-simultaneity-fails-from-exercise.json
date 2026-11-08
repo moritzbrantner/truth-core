@@ -1,0 +1,20 @@
+{
+  "id": "6731cbe4-c567-5359-9ecc-87ff1bec2eef",
+  "label": "An exercised POTENCY_3 capacity refutes capacity non-simultaneity",
+  "legacy_id": "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE",
+  "premise_statement_ids": [
+    "b140eb14-da03-5623-9f30-0b71eb572d02"
+  ],
+  "conclusion_statement_id": "578f43f1-814f-5109-b9fe-0eb7c2b0150d",
+  "inference_ids": [
+    "d1f478e8-cc6f-5d8a-9303-a91f861a1518"
+  ],
+  "meaning": "Per-sense failure of the CAPACITY branch: a CAPACITY retained while exercised falsifies 'nothing in act has the CAPACITY for that act'.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

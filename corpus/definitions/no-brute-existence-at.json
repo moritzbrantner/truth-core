@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NO-BRUTE-EXISTENCE-AT",
+  "id": "335c5c3a-4fd7-5511-8f18-81eea6408a77",
+  "label": "Local no-brute positive existence facts: At one selected world w, every x satisfying ExistsAt w x…",
+  "legacy_id": "DEF-NO-BRUTE-EXISTENCE-AT",
   "term": "local no-brute positive existence facts",
   "definition": "At one selected world w, every x satisfying ExistsAt w x has some Reason token related by explains to ExistenceFact.fact x. The interpretation of explains is stipulated; the formal type does not establish independent adequacy, sufficiency, concreteness or noncircularity of explanation, and does not identify explains with efficient causation or grounding. It covers positive individual existence facts only, not negative or totality facts. It is vacuously true at an unpopulated world; global ExistencePSR quantifies it over all worlds.",
   "basis": "stipulative",

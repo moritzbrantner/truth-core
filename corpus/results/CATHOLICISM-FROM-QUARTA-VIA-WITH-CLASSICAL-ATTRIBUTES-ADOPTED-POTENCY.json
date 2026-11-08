@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY",
-  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY",
+  "id": "830360b0-d843-5650-a9df-e91df187b702",
+  "label": "Catholicism is TRUE_1: the Catholic\u2026, from quarta via with classical attributes adopted POTENCY_1",
+  "legacy_id": "CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY",
+  "argument_id": "c1834d8b-eef3-569f-94ad-045e797870d2",
   "challenge_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.AdoptedPotency.FromQuartaViaWithClassicalAttributes.catholicismFromQuartaViaWithClassicalAttributes",

@@ -1,20 +1,22 @@
 {
-  "id": "EMPTY-TRUTHMAKER-REPLIES",
+  "id": "d8029029-68ef-500a-8dc6-ec3fb110289e",
+  "label": "Five distinct source-free finite negative-truth profiles: an existing nonconcrete abstract…",
+  "legacy_id": "EMPTY-TRUTHMAKER-REPLIES",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-EMPTY-TRUTHMAKER-REPLIES",
+  "conclusion_statement_id": "aad0a4f7-a948-5f42-9366-f2074ca62fed",
   "inference_ids": [
-    "INF-EMPTY-TRUTHMAKER-REPLIES"
+    "a2bbf672-98d7-5552-89d5-046aa6332b19"
   ],
   "meaning": "Five distinct source-free finite negative-truth profiles: an existing nonconcrete abstract candidate; an absence token whose eligibility matches concrete absence; rigid empty/singleton totality tokens with exact inventories; an external candidate existing at another accessible world but absent at the target; and a reified proposition on a separately wholly concrete-empty profile where the negative is itself necessary. Each supplies the relevant true negative without a concrete maker. Local immanence survives for the abstract, absence, totality and necessary-proposition cases; the external case fails it. Mere necessary truth without the making policy fails coverage, and tautological content cannot entail the contingent negative in the two-world profile. No full historical theory, real grounding, or metaphysical possibility is established. Absence and totality satisfy MakerNecessitation; the always-existing abstract and external candidates fail it for this contingent negative. The separate necessary-proposition profile satisfies it.",
   "definition_ids": [
-    "DEF-EMPTY-TRUTHMAKER-SCOPED",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
-    "DEF-EMPTY-TRUTHMAKER-REPLY-CONTENT"
+    "6a6f1b64-af87-5927-b737-6a2b395ca3ba",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+    "c56051ea-ed0b-5c6f-a6e8-22a919a0b7eb"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY",
-    "DISAMB-TRUTHMAKING-REASON-CAUSE"
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78",
+    "ec276045-4055-565e-89b4-75ee5897ecea"
   ]
 }

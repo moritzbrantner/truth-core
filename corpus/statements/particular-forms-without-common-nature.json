@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
+  "id": "70ddbe12-4bfc-5519-aa45-f371142d4145",
+  "label": "In the stated account of a particular substance, substantial reality in it is particular matter…",
+  "legacy_id": "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
   "paraphrase": "In the stated account of a particular substance, substantial reality in it is particular matter, particular form or their compound, rather than a common humanity contracted by an added individual difference. The concluding division also allows separate immaterial substance.",
   "definition_ids": [
-    "DEF-PARTICULAR-SUBSTANTIAL-FORM",
-    "DEF-COMMON-NATURE-CONSTITUENT"
+    "ae879dfa-3d89-5dbf-a1a7-56342f7b1621",
+    "e5b532e1-8fa8-5abc-8d47-620301cf7d61"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNIVERSAL-SIGN-AND-COMMON-NATURE",
-    "DISAMB-MENTAL-SIGN-AND-PARTICULAR-FORM"
+    "f4d3fe07-8285-54da-a878-dacf8f410a90",
+    "ed289c93-3823-593e-9c1d-22033afe2f7b"
   ]
 }

@@ -1,16 +1,18 @@
 {
-  "id": "KLEIN-TURRI-3B-RESTRICTED-STATUS",
-  "statement_id": "STMT-KLEIN-TURRI-RESTRICTED-STATUS",
-  "source_id": "KLEIN-TURRI-INFINITISM",
+  "id": "040a428d-cde5-56d8-b15e-d074250746e4",
+  "label": "Peter D. Klein and John Turri, Infinitism…: The enhancement and interrogation arguments concern…",
+  "legacy_id": "KLEIN-TURRI-3B-RESTRICTED-STATUS",
+  "statement_id": "54255a4b-a301-58ad-a2ab-d379e0215d6d",
+  "source_id": "d148e888-733b-5c82-8557-f453930be43d",
   "locator": "§3b, opening paragraph; §3b.ii, paragraphs beginning “A key idea” and “Lines 1 and 2”",
   "interpretation": "Prose reading only. No general proof that all knowledge requires an infinitist chain is advertised; the premise specifying the epistemic status and the non-skeptical assumption remain visible.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-REASON-ENHANCED-JUSTIFICATION",
-    "DEF-INFINITIST-REASON-AVAILABILITY",
-    "DEF-INFINITIST-NORMATIVE-CONSTRAINTS"
+    "8103573d-6f9b-5507-aab5-550b32be3c33",
+    "129d8faf-d95b-55d5-b9a0-f130e87af547",
+    "5899a492-6fd6-581c-878d-a7b92c07f1c3"
   ],
   "disambiguation_ids": [
-    "DISAMB-INFINITIST-AVAILABILITY-AND-WARRANT"
+    "83565910-c99f-5aaa-a5ff-5e53a3ab7f6e"
   ]
 }

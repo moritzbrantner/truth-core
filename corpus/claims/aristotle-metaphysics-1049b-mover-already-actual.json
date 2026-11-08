@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-MET-1049B-MOVER-ALREADY-ACTUAL-A",
-  "statement_id": "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT",
-  "source_id": "ARIST-MET",
+  "id": "ca78225c-855e-584f-be41-97fd6edb7af4",
+  "label": "Aristotle, Metaphysics IX.8, 1049b26-27: A thing moves another in some respect only insofar as it…",
+  "legacy_id": "ARIST-MET-1049B-MOVER-ALREADY-ACTUAL-A",
+  "statement_id": "f296a694-aeea-5fa7-bdbf-0076530f9441",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IX.8, 1049b26-27",
   "interpretation": "'And the mover already exists actually' (το δε κινουν ενεργεια ηδη εστιν), said of the mover by which the potential comes to be actual. Read generically (το κινουν, the mover as such): whatever moves something in a respect is itself in act in that respect, as the musician who makes another musical is already musical. The context is coming to be in species (man from man), so applying it to every reduction from potency to act is the broad reading of motion the case adopts (DISAMB-MOTION); whether the mover must have the perfection formally or may have it virtually is left open as in DISAMB-IN-ACT.",
   "status": "formalized"

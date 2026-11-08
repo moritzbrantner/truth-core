@@ -1,0 +1,26 @@
+{
+  "id": "29851dcb-bd83-5a10-a1a1-f2c0963e1fec",
+  "label": "If c, distinct from x, causes x's being r, then c's having r is not received in x, from dependence",
+  "legacy_id": "CAUSE-PERFECTION-NOT-RECEIVED-FROM-DEPENDENCE",
+  "premise_statement_ids": [
+    "3e890700-3a15-5dd5-bc71-ec03d3466139",
+    "e0088de9-28eb-533c-a1e7-662f780cc0e2",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3"
+  ],
+  "conclusion_statement_id": "d0b76fb9-5374-5cbf-93b6-2b5444dab441",
+  "inference_ids": [
+    "faa914e4-0226-52ff-b395-9c3f457470fc"
+  ],
+  "meaning": "Derives the batch 1 bridge that a distinct cause does not have the perfection it causes as received in its effect. If c's having r were received in x, c would depend for its being on x (OPEN: a haver depends on its recipient); but c's causing r in x is efficiently causing it (OPEN bridge), and an efficient cause does not depend on its effect (STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT, derived in EFFICIENT-CAUSE-NOT-DEPENDENT-FROM-ASYMMETRY).",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ]
+}

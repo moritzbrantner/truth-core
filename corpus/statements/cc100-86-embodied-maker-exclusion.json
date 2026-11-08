@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-86-EMBODIED-MAKER-EXCLUSION",
+  "id": "e5eb2834-7b87-5b38-947b-dcdd1f0d48ef",
+  "label": "Some wholes cannot be made by embodied agents",
+  "legacy_id": "STMT-CC100-86-EMBODIED-MAKER-EXCLUSION",
   "paraphrase": "Some wholes cannot be made by embodied agents.",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

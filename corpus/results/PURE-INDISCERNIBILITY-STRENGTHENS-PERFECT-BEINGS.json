@@ -1,0 +1,12 @@
+{
+  "id": "a398edd8-397a-5cdb-9685-0876164fb77f",
+  "label": "Any two beings, each having every pure perfection…, from Any two beings, first movers or not, that…",
+  "legacy_id": "PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS",
+  "argument_id": "6ac62cc4-b984-5367-8915-5923bfca1893",
+  "challenge_module": "TruthCore.Results.Causality.WholePowerPerfection.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WholePowerPerfection.Solution",
+  "theorem": "TruthCore.Results.Causality.WholePowerPerfection.perfectBeingsOfPureIndiscernibility",
+  "comparator_config": "results/PURE-INDISCERNIBILITY-STRENGTHENS-PERFECT-BEINGS/comparator.json",
+  "status": "solution-present",
+  "description": "Two beings each with every pure perfection and only pure ones are purely determined and have the same real determinations, so identity of purely determined indiscernibles identifies them. Sole-premise entailment for the strength order."
+}

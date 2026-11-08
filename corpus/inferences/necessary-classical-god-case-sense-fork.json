@@ -1,0 +1,20 @@
+{
+  "id": "11199608-e088-5cee-ac29-ad3cbef5e6aa",
+  "label": "Catholicism is true: the Catholic Church is a teaching authority…, by Existential and conjunction…",
+  "legacy_id": "INF-NECESSARY-CLASSICAL-GOD-CASE-SENSE-FORK",
+  "input_statement_ids": [
+    "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
+    "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+    "a88d9b81-1246-5844-a119-4be2af4dd3f9",
+    "a8dfc0b8-140f-5351-a856-16a719251ac3",
+    "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267",
+    "a04f711a-53cc-59c5-902e-86b605fb73b4",
+    "dd2d9776-6550-5ee9-a206-dad03027c003",
+    "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"
+  ],
+  "output_statement_id": "53964cbe-5831-5812-af33-4d87896d47a7",
+  "rule": "Existential and conjunction elimination, identity substitution, theorem application (Skeleton.catholicismSkeleton)",
+  "meaning": "Root route with the sense of 'necessary' as a parameter of the necessary root: the root necessary in the one intended sense, with the seven stage 3-6 premises, gives Catholicism (phase 1) through the unchanged skeleton. Only the root facts (God, the one God, classical attributes) are consumed in this step; the necessity sense is carried by the premise node, so the conclusion follows on whichever enumerated reading is intended.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fb9440bd-8d43-5a64-8583-f3edabad7902",
+  "label": "The selected governing predicate does not coextend with the fixed narrow table, from teaching",
+  "legacy_id": "COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
+  "premise_statement_ids": [
+    "b85ee5a5-8a4f-5da1-bab3-bc5453e51b2c"
+  ],
+  "conclusion_statement_id": "01cc2592-9945-545f-933e-302e46387c4b",
+  "inference_ids": [
+    "11ed74db-f6aa-52ab-8db7-60a1bafcc4b5"
+  ],
+  "meaning": "The narrow calibration (selected governing iff governing in the fixed table) is false, from the OPEN premise that the selected governing predicate includes teaching: under the narrow calibration teaching would be governing in the table, where Power.Governing .teach = false. The fixed table, not a premise, supplies the contradiction.",
+  "definition_ids": [
+    "12d8270e-a003-557f-8434-490095c74177",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072",
+    "e225d39c-9081-5d1f-80f5-ed121dbb9a30",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9"
+  ],
+  "disambiguation_ids": [
+    "2c675c96-2539-5adc-a560-37609d0dc5fe",
+    "4bd8469b-0101-5628-b94d-daa4264972d5",
+    "0f180711-5550-55b5-9da8-699215d6d95e",
+    "87582d70-e56a-5e51-9377-84b6655b1b68"
+  ]
+}

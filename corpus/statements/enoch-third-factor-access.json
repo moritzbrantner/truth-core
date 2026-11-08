@@ -1,11 +1,13 @@
 {
-  "id": "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
+  "id": "69c528d9-b09e-583c-9dd2-2ee92fa2879f",
+  "label": "Enoch proposes that selective pressures shape normative beliefs while the qualified independent…",
+  "legacy_id": "STMT-ENOCH-THIRD-FACTOR-ACCESS-REPLY",
   "paraphrase": "Enoch proposes that selective pressures shape normative beliefs while the qualified independent value of survival connects to normative truths noncausally. With adequate starting points and reasoning, this may explain a modest correlation; it neither makes value true by selection nor guarantees all judgments, and residual epistemic luck may remain.",
   "definition_ids": [
-    "DEF-MORAL-ACCESS-CORRELATION",
-    "DEF-ENOCH-THIRD-FACTOR-ACCESS"
+    "28cc1233-60e8-59b4-a906-99c8835aa551",
+    "daa6a2fe-5251-56b4-b808-cc21ce759a03"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

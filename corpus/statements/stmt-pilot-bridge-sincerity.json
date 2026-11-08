@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-BRIDGE-SINCERITY",
+  "id": "15419140-67d4-5362-8543-578e184e6ecb",
+  "label": "Read the Cephas appearance reported in First Corinthians and John’s disciples together, identify…",
+  "legacy_id": "STMT-PILOT-BRIDGE-SINCERITY",
   "paraphrase": "Read the Cephas appearance reported in First Corinthians and John’s disciples together, identify Cephas and another disciple among the experience recipients, and accept these narratives with Clement’s attributed conviction as evidence of actual sincere interpreted experiences. The participant identification and historical sincerity reading are explicit open premises, not consequences of the report flags.",
   "lean_declaration": "TruthCore.History.Resurrection.SincerityBridge",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

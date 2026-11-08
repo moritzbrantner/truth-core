@@ -1,21 +1,23 @@
 {
-  "id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
+  "id": "e04f8f35-1aec-5188-9ffd-917f4b47d421",
+  "label": "BEING_1 is not a GENUS_1 in the…, from Every GENUS_1 has at least one differentia… and 2 more",
+  "legacy_id": "ARIST-MET-998B-BEING-NOT-A-GENUS",
   "premise_statement_ids": [
-    "STMT-EVERY-GENUS-HAS-A-DIFFERENTIA",
-    "STMT-DIFFERENTIAE-ARE-BEINGS",
-    "STMT-GENUS-NOT-SAID-OF-OWN-DIFFERENTIAE"
+    "b90bbae6-7979-581c-aca2-e278b2309336",
+    "7ddbed37-7f99-53ab-8eb2-bd8e8e9e0472",
+    "b792ed75-8e20-5547-aa0d-cc19bf62ed56"
   ],
-  "conclusion_statement_id": "STMT-BEING-NOT-A-GENUS",
+  "conclusion_statement_id": "095d30c5-6f24-51be-88da-201d3b4fabda",
   "inference_ids": [
-    "INF-ARIST-MET-998B-BEING-NOT-A-GENUS"
+    "b3b2b14f-9c27-5130-ae69-7b532205da1d"
   ],
   "meaning": "Metaphysics III.3, 998b22-27: every genus has a differentia, every differentia is a being, and a genus is not said of its own differentiae; so being is not a genus (strict sense). The Comparator config also verifies three omission countermodels, one per premise.",
   "definition_ids": [
-    "DEF-GENUS-STRICT",
-    "DEF-SAID-OF-ESSENTIALLY"
+    "414f094b-7403-5a35-8527-b36ed4ea8bc1",
+    "d24eef0b-f010-5010-8390-0fcd65e20dd2"
   ],
   "disambiguation_ids": [
-    "DISAMB-GENUS",
-    "DISAMB-PREDICATION-OF-DIFFERENTIA"
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "87640bd5-b7e1-5032-9325-ef51c7d726d3"
   ]
 }

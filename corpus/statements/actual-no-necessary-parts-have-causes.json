@@ -1,20 +1,22 @@
 {
-  "id": "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
+  "id": "76667657-a3ed-565a-b9fe-26f4eac81272",
+  "label": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in…",
+  "legacy_id": "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
   "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualNoNecessaryPartsHaveCausesAt",
   "paraphrase": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in the SAME primitive Ontic.Causes relation. This OPEN causal policy is not ordinary contingent-existence PSR, explanatory sufficiency, a cause by definition or an independent source theorem.",
   "definition_ids": [
-    "DEF-ACTUAL-NO-NECESSARY-PARTS-FUSION",
-    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES",
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "c47495e8-91a6-53e8-88aa-5672c3bdc314",
+    "84b1dc2c-48e6-5465-af21-48015fbf3cbe",
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-FUSION-BARE-NE-AND-NECESSARY-CAUSE",
-    "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY"
+    "6ded9b1f-94fc-5f81-8e71-24ce27962165",
+    "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2"
   ]
 }

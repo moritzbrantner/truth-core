@@ -1,0 +1,25 @@
+{
+  "id": "c80cb2d6-172e-5946-b16a-c285bf278062",
+  "label": "Derivation leads examined and rejected before a proof attempt; each would be a relocation or a…",
+  "legacy_id": "ATTEMPT-REJECTED-DERIVATION-LEADS-20261107",
+  "statement_ids": [
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "d7741cdc-881b-5bda-85ce-d70223162f78",
+    "c1deb2ee-770d-5030-9e5c-302e33028811",
+    "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+    "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
+    "30a8373c-5188-581b-b746-e319d71311e4",
+    "0f0a4a1e-87f2-509c-a6ef-928dc5a91193",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "180f5ad2-a421-541a-85c9-9bca578b4a43",
+    "2d00b16f-c892-5d43-9296-331961843abd"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Derivation leads examined and rejected before a proof attempt; each would be a relocation or a transcription, not a derivation. STMT-ACT-SIMPLY-PRIOR-TO-POTENCY: its routes need the strong version, while the Prima Via premises give only the moved-potency instance. STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS: a derivation needs per-respect wrappers and a bare maximal-to-greatest interface, so it relocates the premise and adds a bare one. STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS: Composite is a primitive with no link to its components, so any derivation is relocation only. STMT-GOD-CONFIRMS-ONLY-TRUTH and STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY: both are stated over primitive fields, so nothing constrains them to be derived. STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK: MovesAsMoved and CausesAsCaused are free parameters, so the link cannot be derived without a new bridge. STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE: composing with ST I q.6 a.2 would be an instantiation transcription. STMT-CHRIST-FOUNDED-SELECTED-CHURCH: Matthew 16 is a promise, not a founding; a derivation needs lane-B historical premises. STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT: the available route needs the self-mover case, which no premise supplies. STMT-IMMATERIAL-IS-INTELLECTUAL: the q.14 routes are already recorded as assemblies over open calibrations (docs/immaterial-intellect-reception.md). STMT-CHANGE-WITHOUT-ANY-MOVER: its refutation is available only through the declared transcription ARIST-PHYS-VIII-4-SCOPE-BRIDGE-TO-PRIMA-VIA, which closes nothing while its premises are open. Rejection records that the lead was examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "b40aa9d2-64cb-5af7-9233-6dbef3e2ca66"
+  ]
+}

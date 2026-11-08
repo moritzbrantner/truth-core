@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-AGRIPPA-JUSTIFICATORY-ADEQUACY",
+  "id": "97b5f1ec-0651-53d9-b1dd-6c74e53b7f7e",
+  "label": "Materialized/read Patrick1899 PHI164–177 with I163–179 context from twice-matching Gutenberg17556…",
+  "legacy_id": "ATTEMPT-AGRIPPA-JUSTIFICATORY-ADEQUACY",
   "statement_ids": [
-    "STMT-REGRESS-SCHEMA-PACKAGE",
-    "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
-    "STMT-SEXTUS-REGRESS-UNSETTLED-PROOF",
-    "STMT-SEXTUS-BARE-HYPOTHESIS-NO-PRIVILEGE",
-    "STMT-SEXTUS-RECIPROCAL-SUPPORT-SUSPENSION",
-    "STMT-SEXTUS-DISPUTED-CRITERION-DEMAND",
-    "STMT-SEXTUS-UNRESOLVED-DISPUTE-SUSPENSION"
+    "85b7b6b8-eb34-59a6-8acd-79315ad253d6",
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
+    "ba67d00c-6c8c-5a21-a8a7-adc0b37abbd8",
+    "2c3a9bf1-f270-5dee-af6b-418dc01ef9a7",
+    "ab7ff2ba-9e52-5d11-bfee-3177aa1c1234",
+    "8ac3ed7c-edc7-5dc7-b82f-6b6457e29a2a",
+    "53bcdeda-a326-54ac-8a14-8a788a8e00ac"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Materialized/read Patrick1899 PHI164–177 with I163–179 context from twice-matching Gutenberg17556 raw/text witness. Five scoped prose readings isolate the renewed proof-demand/no establishment point, the contrary-concession objection to bare hypotheses, reciprocity, disputed-criterion recursion and suspension rather than positive denial. Existing regressSchemaPackage/grounded_eq_lfp/JustificationTransfer already certify the stipulated mathematical standards, so no duplicate successor-chain proof or new theorem is proposed. Strong foundationalist/holistic/infinitist replies and exact independently open adequacy norms are mapped in docs/notes/agrippa-justificatory-adequacy.md. HansAlbert not read or attributed; no five-to-three exclusivity theorem or automatic epistemic-to-causal transfer. No root premise added, removed or discharged.",
   "evidence": [
-    "SEXTUS-I166-REGRESS-SUSPENSION",
-    "SEXTUS-I168-173-174-BARE-HYPOTHESIS",
-    "SEXTUS-I169-RECIPROCAL-SUPPORT",
-    "SEXTUS-I170-177-DISPUTED-CRITERION",
-    "SEXTUS-I165-SUSPENSION-NOT-CHOICE",
-    "REGRESS-SCHEMA-PACKAGE"
+    "e9efa830-5121-5e54-9f6c-7e3c19bac1f5",
+    "01f73b37-2d05-5a90-aede-fda0b69a866f",
+    "a5325c69-1029-58c6-98c4-32286efd95b3",
+    "cbeaf427-77e4-5fff-8e45-f3df419e7f43",
+    "4795807e-5cc9-5164-9cde-be49a0aadaa9",
+    "74e00870-e0d4-5467-8c09-a75b2a922ce5"
   ]
 }

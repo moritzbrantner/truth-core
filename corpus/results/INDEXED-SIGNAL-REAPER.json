@@ -1,6 +1,8 @@
 {
-  "id": "INDEXED-SIGNAL-REAPER",
-  "argument_id": "INDEXED-SIGNAL-REAPER",
+  "id": "9bb46658-3422-53b8-8c61-5e7313b2e3ce",
+  "label": "For the supplied Nat-indexed issuance…, from Every numeric code j at station n's output… and 3 more",
+  "legacy_id": "INDEXED-SIGNAL-REAPER",
+  "argument_id": "150641a4-1b68-5adc-addf-9eaf52144c21",
   "challenge_module": "TruthCore.Results.Causality.IndexedSignalReaper.Challenge",
   "solution_module": "TruthCore.Results.Causality.IndexedSignalReaper.Solution",
   "theorem": "TruthCore.Results.Causality.IndexedSignalReaper.firingLaw",

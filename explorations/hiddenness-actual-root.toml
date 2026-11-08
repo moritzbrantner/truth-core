@@ -1,0 +1,74 @@
+target = "STMT-GOD-EXISTS"
+
+[[node]]
+id = "STMT-GOD-EXISTS"
+
+[[node]]
+id = "STMT-HIDDENNESS-GOD-LOVES"
+
+[[node]]
+id = "STMT-HIDDENNESS-ALWAYS-OPEN"
+
+[[node]]
+id = "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF"
+
+[[node]]
+id = "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+
+[[node]]
+id = "STMT-HIDDENNESS-NO-GOD"
+
+[[node]]
+id = "5e5aa271-d500-41c7-a470-32969b00a5af"
+
+[[node]]
+id = "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+
+[[node]]
+id = "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"
+
+[[node]]
+id = "c08f6a70-b75c-47de-b1af-e3aad89da98f"
+
+[[node]]
+id = "33674e8e-5882-44b8-8d28-b71573027d83"
+
+[[node]]
+id = "f9f47289-306f-41f9-a419-47670f2c0a37"
+
+[[edge]]
+premises = ["STMT-HIDDENNESS-GOD-LOVES"]
+conclusion = "5e5aa271-d500-41c7-a470-32969b00a5af"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["STMT-HIDDENNESS-ALWAYS-OPEN"]
+conclusion = "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF"]
+conclusion = "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750", "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "STMT-HIDDENNESS-NO-GOD"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750", "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121", "c08f6a70-b75c-47de-b1af-e3aad89da98f", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "33674e8e-5882-44b8-8d28-b71573027d83"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["33674e8e-5882-44b8-8d28-b71573027d83"]
+conclusion = "STMT-GOD-EXISTS"
+kind = "rival"
+status = "mapped"
+

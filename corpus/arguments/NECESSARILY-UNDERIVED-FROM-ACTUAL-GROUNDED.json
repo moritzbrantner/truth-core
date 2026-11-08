@@ -1,36 +1,41 @@
 {
-  "id": "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "id": "6976180f-99ac-552d-bb6e-4c5fa5288ab7",
+  "label": "At least one identical actual individual exists necessarily from the…, from actual grounded",
+  "legacy_id": "NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
   "premise_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSARY-SUPPORT-IS-PRESENT",
-    "STMT-ACTUAL-SUPPORTERS-CONCRETE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "1f61f12c-2b5c-5871-bf56-03c65844ae30",
+    "54a52c00-4a2a-52cc-b157-8856f07e169e"
   ],
-  "conclusion_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "conclusion_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "inference_ids": [
-    "INF-NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED"
+    "62e84821-031e-5ba5-9e39-a2981e00b613"
   ],
   "meaning": "The whole route, in three steps. Inhabitedness and restricted well-foundedness give an actual root; the closing premise makes it necessary; present support and concrete supporters make it without existing supporter at any world. Compare NECESSARY-UNDERIVED-POSITIVE-LIFT, which assumes a necessary witness and well-foundedness of support by all existing supporters: this route derives the witness, and its well-foundedness is restricted to actual concreta. For that it pays with the closing premise and concrete supporters, and it takes present support in place of lifting. The conclusion asserts neither uniqueness nor any divine attribute. Each of the five non-logical premises is omitted in STMT-UNDERIVED-ROUTE-CONTROLS.",
   "definition_ids": [
-    "DEF-UNDERIVED-ROOT-ROUTE",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-NECESSARILY-UNDERIVED",
-    "DEF-INHABITED-CONCRETE-WORLD"
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "7b0b109c-ad03-59a3-a81c-d0e027e91f95",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING",
-    "DISAMB-NECESSARY"
-  ]
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "strong_version_needed": {
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21": "Well-foundedness, not mere asymmetry, is needed: the proof extracts an actual root (a minimal element) of the selected relation, which asymmetry does not supply (an infinite descending chain of actual concreta is asymmetric and rootless). Recorded when ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF registered the strength order (round 2 grounding)."
+  }
 }

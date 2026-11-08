@@ -1,0 +1,12 @@
+{
+  "id": "0a38441d-1d98-58ca-a1b6-7b685f0200cd",
+  "label": "Finite one-world interpretations; excluded middle is a premise of both routes and is not asserted",
+  "legacy_id": "PURE-ACT-NECESSARY-ROOT-CONTROLS",
+  "argument_id": "533fe7e3-1ccc-5103-aabb-bfba373c26fc",
+  "challenge_module": "TruthCore.Results.Causality.PureActRoot.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureActRoot.Solution",
+  "theorem": "TruthCore.Results.Causality.PureActRoot.controls",
+  "comparator_config": "results/PURE-ACT-NECESSARY-ROOT-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite one-world interpretations; excluded middle is a premise of both routes and is not asserted. With two ungrounded concrete candidates (two actual necessary roots): if both have the same determinations, population, whole-roster nontrapping, contingent dependence, unrestricted perfection and strict pure actuality at the roots hold while real thisness at the roots, identity of purely determined indiscernibles and unique necessary actual root fail; if each has its own non-pure thisness, unrestricted perfection, real thisness and the (vacuous) narrower bridge hold while strict pure actuality and uniqueness fail; if those thisnesses count as pure, strict pure actuality, real thisness and the narrower bridge hold while unrestricted perfection and uniqueness fail. On an empty carrier, whole-roster nontrapping, contingent dependence and the three root premises hold vacuously while population and uniqueness fail. With one candidate grounding the other, every non-logical premise of both routes and the unique necessary actual root hold. Satisfiability of encoded bundles, not metaphysical possibility."
+}

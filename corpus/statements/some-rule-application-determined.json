@@ -1,12 +1,14 @@
 {
-  "id": "STMT-SOME-RULE-APPLICATION-DETERMINED",
+  "id": "a132eba0-a11b-53da-a901-8d290dccf850",
+  "label": "Some application of a rule is DETERMINED_2; what accords with the rule there is fixed",
+  "legacy_id": "STMT-SOME-RULE-APPLICATION-DETERMINED",
   "paraphrase": "Open premise, unattributed: some application of a rule is determined; what accords with the rule there is fixed.",
   "lean_declaration": "TruthCore.German.Wittgenstein.RuleFollowing.SomeApplicationDeterminedReading",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "disambiguation_ids": [
-    "DISAMB-RULE-FOLLOWING-PARADOX"
+    "a8566ae9-153c-5329-b680-2755193dab9b"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "a105a1fe-40d1-561b-b45a-2b8f477a97e8",
+  "label": "A society holds a power given in…: HoldsPower c p: the society c holds the power p as given in…",
+  "legacy_id": "DEF-SOCIETY-HOLDS-COMMISSIONED-POWER",
+  "term": "a society holds a power given in Jesus' commission (Holding.HoldsPower)",
+  "definition": "`HoldsPower c p`: the society c holds the power p (a constructor of Commissions.Power) as given in Jesus' commission, so that its exercise within c is the exercise of that power. Example: a community whose leaders bind and loose in Jesus' name. Counterexample: an individual charismatic with no society. That giving a governing power constitutes a founded society holding it is an open premise (STMT-GOVERNING-GIFT-CONSTITUTES-FOUNDED-SOCIETY).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Holding",
+  "note": "Analyst vocabulary (attribution deferred)."
+}

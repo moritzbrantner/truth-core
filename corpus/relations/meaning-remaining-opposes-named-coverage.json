@@ -1,9 +1,11 @@
 {
-  "id": "REL-MEANING-REMAINING-OPPOSES-NAMED-COVERAGE",
+  "id": "90d573ab-d95d-591a-a9af-4f61cd9ae97b",
+  "label": "None of V1, V2, V3 or all-in-scope… alternative to The independent meaning predicate is…",
+  "legacy_id": "REL-MEANING-REMAINING-OPPOSES-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-MEANING-REMAINING-DEFINITION",
+  "subject_id": "32a7695e-6ccc-5d98-9c52-bbbd539d7f50",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-MEANING-NAMED-COVERAGE",
+  "object_id": "8c15181f-fbc7-538c-bcce-1e5381247d2f",
   "note": "Under the same frame, predicate and scope, the remaining conjunction negates all named branches. It is not automatically a rival to a separate meaning/truth target; no philosophical admissibility or exhaustive named survey is claimed."
 }

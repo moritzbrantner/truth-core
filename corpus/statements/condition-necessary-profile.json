@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CONDITION-NECESSARY-PROFILE",
+  "id": "2799cd6e-4a46-53ed-bb4c-62a57b809fac",
+  "label": "Raw-frame specialization of the same boxed fact truth for q; the total condition is true at every…",
+  "legacy_id": "STMT-CONDITION-NECESSARY-PROFILE",
   "paraphrase": "Raw-frame specialization of the same boxed fact truth for q; the total condition is true at every accessible world.",
   "lean_declaration": "TruthCore.Explanation.GroundingBaseline.ConditionNecessary",
   "definition_ids": [
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-BOXED-FACT-TRUTH",
-    "DEF-NECESSARY-FULL-CONDITION-IMPLICATION",
-    "DEF-MODAL-CONDITION-CORE-PROFILE"
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "0c3c8234-269b-55f6-8c96-34522dda62bf",
+    "e6b445d4-6d2e-5c7f-82f9-061810bf2ad3",
+    "2a5e46b8-69be-5de3-9d19-b15e11d87136"
   ],
   "disambiguation_ids": [
-    "DISAMB-GROUNDING-BASELINE-SENSES"
+    "e940ca85-8b6b-53ea-9c3a-4fd5693ad534"
   ]
 }

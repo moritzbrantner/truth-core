@@ -7,6 +7,8 @@ import { getPropositionGraph } from "../src/lib/proposition-graph-data";
 import { researchFrontier } from "../src/lib/research-frontier";
 import { getFrontierReport } from "../src/lib/site-state";
 import { skeletonProgress } from "../src/app/skeleton/progress";
+import { nameOf as label } from "../src/lib/corpus";
+import { label as legacyLabel, uid } from "./corpus-records";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -53,14 +55,14 @@ test("skeleton: route, conditional versus discharged, next gap, proof links, rel
   expect(await connections.getByText("Discharged · established", { exact: true }).count()).toBeGreaterThan(0);
   const rootRoute = connections.locator("details").first();
   await rootRoute.locator("summary").click();
-  expect(await rootRoute.getByRole("link", { name: progress.routes[0].argument.id, exact: true }).count()).toBe(1);
-  expect(await rootRoute.getByRole("link", { name: "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS", exact: true }).count()).toBe(0);
+  expect(await rootRoute.getByRole("link", { name: label(progress.routes[0].results[0].id), exact: true }).count()).toBe(1);
+  expect(await rootRoute.getByRole("link", { name: legacyLabel("result", "CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS"), exact: true }).count()).toBe(0);
 
   // Exact theorem provenance remains inspectable even when the conclusion is conditional.
-  const witnessStep = connections.locator("ol > li").filter({ hasText: "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS" }).first();
+  const witnessStep = connections.locator("ol > li").filter({ hasText: legacyLabel("result", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS") }).first();
   await witnessStep.locator("summary").click();
-  await witnessStep.getByRole("link", { name: "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS", exact: true }).click();
-  await page.waitForURL((value) => value.pathname === `${basePath}/results/CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS/`);
+  await witnessStep.getByRole("link", { name: legacyLabel("result", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS"), exact: true }).click();
+  await page.waitForURL((value) => value.pathname === `${basePath}/results/${uid("result", "CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS")}/`);
   await page.getByRole("heading", { name: "The advertised theorem", exact: true }).waitFor();
   await page.goto(url);
 

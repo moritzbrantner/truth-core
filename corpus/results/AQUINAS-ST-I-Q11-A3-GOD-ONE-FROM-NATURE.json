@@ -1,6 +1,8 @@
 {
-  "id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
-  "argument_id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "id": "841e7c81-2137-511c-ba18-29620f7a1b16",
+  "label": "GOD_4 is one: whatever is GOD_4 is the same, from nature",
+  "legacy_id": "AQUINAS-ST-I-Q11-A3-GOD-ONE-FROM-NATURE",
+  "argument_id": "d602ba9e-d74c-5156-bfc5-8e581041e285",
   "challenge_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.godIsOneFromNature",

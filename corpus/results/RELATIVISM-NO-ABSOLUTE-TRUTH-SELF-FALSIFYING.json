@@ -1,6 +1,8 @@
 {
-  "id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
-  "argument_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "id": "dbc2fb38-580c-5f0c-813d-767076523c8b",
+  "label": "The thesis that no content in its scope is…, from Scope premise: the formulation of the… and 1 more",
+  "legacy_id": "RELATIVISM-NO-ABSOLUTE-TRUTH-SELF-FALSIFYING",
+  "argument_id": "114d2581-ae65-50b8-9001-1154c0f31de6",
   "challenge_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Challenge",
   "solution_module": "TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution",
   "theorem": "TruthCore.Results.Logic.Relativism.SelfFalsifying.thesisNotAbsolutelyTrue",

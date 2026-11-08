@@ -1,17 +1,19 @@
 {
-  "id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
+  "id": "33ad148b-ceab-5856-a4f8-c999a1dba644",
+  "label": "In Aquinas' ST I q.3 a.4 first proof, each actually existing thing whose esse differs from its…",
+  "legacy_id": "STMT-DISTINCT-ESSE-REQUIRES-EXTERNAL-CAUSE",
   "paraphrase": "In Aquinas' ST I q.3 a.4 first proof, each actually existing thing whose esse differs from its essence has its esse efficiently caused by another actually existing and numerically different being. This is conditional on the two separately stated causal premises, not an independent proof of them, and does not assert that necessary existence excludes every explanation.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article4.DistinctEsseRequiresExternalCauseReading",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-Q3A4-ACTUAL-DISTINCT-ESSE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-Q3A4-EXTERNAL-ESSE-CAUSE-MODEL"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "0ea9feb8-1f92-5b11-aa74-2f2e567c6106",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "e232f6c0-f1f9-5c99-9e26-946a8abe4f2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-BEING",
-    "DISAMB-Q3A4-CAUSAL-VS-NONCAUSAL-REASON"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "86d198f5-e724-558a-8fce-b0a1e3592e08"
   ]
 }

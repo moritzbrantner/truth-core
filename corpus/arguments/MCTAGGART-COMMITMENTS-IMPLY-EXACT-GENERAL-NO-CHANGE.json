@@ -1,18 +1,20 @@
 {
-  "id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
+  "id": "23d60285-4c1c-5992-b890-af4b86ea393a",
+  "label": "No candidate changes in the SAME general…, from McTaggart's thesis in his own sense of… and 1 more",
+  "legacy_id": "MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE",
   "premise_statement_ids": [
-    "STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS",
-    "STMT-MCTAGGART-ALL-CHANGE-IS-A-SERIES-CHANGE"
+    "1f0978a8-aecc-5793-b386-caec409bdeee",
+    "26246200-0d03-55c3-9413-fa61087e363e"
   ],
-  "conclusion_statement_id": "STMT-NOTHING-CHANGES-IN-GENERAL",
+  "conclusion_statement_id": "cc003313-0847-5a43-85d1-e025f909f48f",
   "inference_ids": [
-    "INF-MCTAGGART-COMMITMENTS-IMPLY-EXACT-GENERAL-NO-CHANGE"
+    "8a9a37af-79b7-5db4-8131-289a2d60dfbb"
   ],
   "meaning": "Compose the unchanged bundleDefeatedByChange theorem from the two existing source commitments displayed as AND inputs by the repository theory-bundle binding contract. These jointly imply exact general no-change. The full source bundle is stronger than bare no-change, but no sole-premise strength registration or reverse source/theory identification is advertised.",
   "definition_ids": [
-    "DEF-CHANGE-GENERAL"
+    "9bd881c9-2227-5883-9595-96db5e630da3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57"
   ]
 }

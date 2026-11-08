@@ -1,6 +1,8 @@
 {
-  "id": "TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
-  "argument_id": "TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "id": "bb4ba74e-4fbf-5e27-add4-5c38a1ddfa86",
+  "label": "Two closed history controls with explicit CoherentAtNow, reusing old ontology assignments without…",
+  "legacy_id": "TEMPORAL-MODAL-DEPENDENCE-CONTROLS",
+  "argument_id": "d1c8a9eb-2c06-52ac-a59c-22695d705695",
   "challenge_module": "TruthCore.Results.Modal.TemporalHistoryControls.Challenge",
   "solution_module": "TruthCore.Results.Modal.TemporalHistoryControls.Solution",
   "theorem": "TruthCore.Results.Modal.TemporalHistoryControls.controls",

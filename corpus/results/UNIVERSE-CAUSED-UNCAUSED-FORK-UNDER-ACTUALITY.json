@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
-  "argument_id": "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
+  "id": "a7d9e528-859e-5079-a80e-e9d5c137bd60",
+  "label": "The original existing-cause proposition…, from Excluded middle as a general principle… and 1 more",
+  "legacy_id": "UNIVERSE-CAUSED-UNCAUSED-FORK-UNDER-ACTUALITY",
+  "argument_id": "3ce5d3ed-6006-5252-9738-e73f73dfe2d2",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.GuardedCoverage.guardedCoverage",
@@ -9,19 +11,19 @@
   "description": "The usual existing-cause/no-cause disjunction has an explicit actuality-policy premise. An unguarded finite roster is not taken as exhaustive on generic Ontic.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+    "target_statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
     "cases": [
       {
         "label": "existing causer",
-        "statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+        "statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
         "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseHasExistingCause"
       },
       {
         "label": "no causal edge",
-        "statement_id": "STMT-UNIVERSE-UNCAUSED",
+        "statement_id": "0d563c5b-413a-5463-b556-adbb34bf458e",
         "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.UniverseUncaused"
       }
     ],
-    "survival_result_id": "UNIVERSE-CAUSE-ACTUALITY-SCOPE-BOUNDARIES"
+    "survival_result_id": "3f98370d-d53a-5931-98ee-be63381ddafb"
   }
 }

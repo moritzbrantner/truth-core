@@ -1,11 +1,13 @@
 {
-  "id": "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
+  "id": "9946497b-4ee8-53d0-a889-914449b03f37",
+  "label": "Some mathematical facts are causally relevant to physical outcomes, e.g. the primeness of 13 and…",
+  "legacy_id": "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
   "paraphrase": "Some mathematical facts are causally relevant to physical outcomes, e.g. the primeness of 13 and 17 is part of what brings about periodical cicadas' life-cycle lengths. So something without esse in re (a number or mathematical fact) does causal work.",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Analyst causal reading of Alan Baker's cicada case ('Are there genuine mathematical explanations of physical phenomena?', Mind 114, 2005), attribution deferred: no pinned witness. Baker argues for explanatory indispensability, and most discussants read the explanation as non-causal; only the causal reading is a rival to the weak version. Definition audit: original proposition/claim wording retained; typed analyst siblings expose category-to-no-esse, explanatory-to-productive and selected-world guards without rebinding this source reading. The set-of-two anchor alone is not a universal set classification; a some-world denial is not a selected-world denial. See docs/notes/causal-concrete-rival-boundary.md."
 }

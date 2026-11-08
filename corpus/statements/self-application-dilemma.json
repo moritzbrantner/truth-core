@@ -1,8 +1,10 @@
 {
-  "id": "STMT-SELF-APPLICATION-DILEMMA",
+  "id": "620f5e6c-d3dd-56a8-97c3-1603245b281c",
+  "label": "For every NORM_ON_CLAIMS_3 and every claim in its scope that fails its standard: if the norm holds…",
+  "legacy_id": "STMT-SELF-APPLICATION-DILEMMA",
   "paraphrase": "For every norm on claims (a scope and a standard, relative to an acceptance predicate) and every claim in its scope that fails its standard: if the norm holds, that claim is not acceptable (horn 1); if the claim is acceptable, it is a counterexample to the norm (horn 2). A theorem of logic about the schema; no particular norm is assumed.",
   "lean_declaration": "TruthCore.Logic.SelfApplication.SelfApplicationDilemma",
   "definition_ids": [
-    "DEF-SELF-APPLICATION-NORM"
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
   ]
 }

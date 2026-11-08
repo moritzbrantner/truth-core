@@ -1,17 +1,19 @@
 {
-  "id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
+  "id": "29a12596-194c-51ba-8aee-58fafafe89d2",
+  "label": "The exact meaningful-divine-arguability…, from No meaningful content is about God or the…",
+  "legacy_id": "NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY",
   "premise_statement_ids": [
-    "STMT-TLP-PROFILE-NO-MEANINGFUL-DIVINE"
+    "7969efe1-0d11-553d-bccb-6afe1758df88"
   ],
-  "conclusion_statement_id": "STMT-NATURAL-THEOLOGY-PROFILE-NOT-ARGUABLE",
+  "conclusion_statement_id": "b74c90bd-fa08-5e72-b687-ab8bfc589fae",
   "inference_ids": [
-    "INF-NO-DIVINE-SENSE-EXCLUDES-PROFILE-ARGUABILITY"
+    "1db08746-5970-5825-a7a5-86666799336a"
   ],
   "meaning": "Semantic projection transcription: no meaningful divine content excludes an arguable meaningful divine content under the SAME profile, regardless of its explicitly selected argument standard. This is not an inference from a Tractatus source passage or a proof of its strong meaning denial.",
   "definition_ids": [
-    "DEF-NATURAL-THEOLOGY-SEMANTIC-PROFILE",
-    "DEF-NATURAL-THEOLOGY-PROFILE-ARGUABILITY",
-    "DEF-TLP-PROFILE-NO-DIVINE-SENSE",
-    "DEF-NATURAL-THEOLOGY-CONSEQUENCE-WARRANT-BRIDGE"
+    "d36e7feb-8303-5aad-8676-461a0666e719",
+    "99cecaa6-fc74-5545-b2a6-b3bf97946cc2",
+    "51a9b67d-90df-5f3d-a342-625a3fdd6742",
+    "365dce7f-5a98-5735-ad4d-a9623e87508f"
   ]
 }

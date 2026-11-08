@@ -1,11 +1,13 @@
 {
-  "id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
+  "id": "da3a45ec-f4c0-55dd-bc2a-e3a56a980b33",
+  "label": "At least one of the ordinary-role, preference-independent-role, bare-production and bare-reward…",
+  "legacy_id": "STMT-EPISTEMIC-REASON-DEFINITION-CANDIDATES-COVER",
   "paraphrase": "Open coverage proposition for the selected profile: at least one of the ordinary-role, preference-independent-role, bare-production and bare-reward calibration propositions describes the attributed reason relation. This need not be exclusive and is not proved by the structural coverage theorem.",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.NamedDefinitionCoverage",
   "definition_ids": [
-    "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE"
+    "d13c0241-320a-5d56-8927-341e46063e05"
   ],
   "disambiguation_ids": [
-    "DISAMB-EPISTEMIC-REASON-EXISTENCE-ROLE-AUTHORITY"
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
   ]
 }

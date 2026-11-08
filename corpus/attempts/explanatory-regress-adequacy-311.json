@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-EXPLANATORY-REGRESS-ADEQUACY-311",
+  "id": "59fb72e4-b58f-57d7-b142-a14af6638ddb",
+  "label": "Owner renewed the Agrippa/Münchhausen challenge to explanatory regress",
+  "legacy_id": "ATTEMPT-EXPLANATORY-REGRESS-ADEQUACY-311",
   "date": "2026-10-28",
   "statement_ids": [
-    "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
-    "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
-    "STMT-SUFFICIENT-REASON-NOT-LIMITED-TO-KNOWN-REASONS",
-    "STMT-ANALYTIC-REASONS-TERMINATE-IN-IDENTITIES",
-    "STMT-CONTINGENT-DETAIL-RENEWS-SERIES-REASON-DEMAND",
-    "STMT-NECESSARY-GROUND-HAS-INTRINSIC-REASON",
-    "STMT-UNIQUE-FEEDBACK-CONTROL",
-    "STMT-HISTORY-CONTRASTIVE-CONTROLS"
+    "702e4171-b48d-5c5e-a016-6bfd5cc67225",
+    "63e54d09-e859-5bee-91b9-a1b1d2476831",
+    "03e60733-2344-5ed7-a05b-6c1a021133fd",
+    "2ea7fa39-9f89-58f3-a5c4-7be6d9fb814c",
+    "83c15757-801b-583f-a848-5a2c2b234024",
+    "a7bbd2fd-242c-5097-a9a3-581d25835890",
+    "95095cc7-c88d-5d59-b1a8-e7cc9c447265",
+    "e096a433-8d5d-522d-96c4-83ad22be6e74"
   ],
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Owner renewed the Agrippa/Münchhausen challenge to explanatory regress. Materialized/read the complete pinned Latta Monadology §§31–45, separating §32 universal explanatory scope and epistemic limitation, §§33–35 analytical termination, §§36–37 renewed contingent-detail demand and §45 proposed intrinsic existence reason. Existing unique-feedback, history-contrastive and regress fixed-point certificates already cover the formal omission tests; no duplicate theorem or opaque adequacy predicate is added. Leibniz argues against leaving the whole contingent sequence explained only by further contingent details, not against infinity as a cardinal or against every beginningless history. The independently disputed premises are whole-series PSR, the inadequacy of an undischarged contingent explanation-base, and the exclusion of intrinsic global/non-well-founded accounts. A brute global fact, a proposed global-structural account and a non-well-founded ground account are separate proposed rivals; no completed adequate ontic explanation is certified by the feedback control. Neither necessity nor a reason-token alone certifies the proposed necessary ground’s sufficiency. See the explanatory-adequacy audit in docs/notes/unique-feedback-explanation-311.md for exact argument steps, theorem locators, rejected readings and remaining bridges. Intended/actual root-premise delta zero; no premise established, no source-free per se causal impossibility inferred. Follow-up positive-rival reading: read the complete official CC BY Welchance 2026 PDF (pp.1–21), with WELCHANCE-INFINITISM-1-3 now materializing pp.1–18. Common explanatory theory across existence facts is a positive defeasible virtue; parity permits local explanatory use of an unexplained chain just as an unexplained foundation. The source expressly does not establish actual infinitism or a completed totality explanation. The existing note now audits fact versus being relata, plural full versus binary partial grounds, ordinary examples, exclusions, structural-property justification, and abstraction to direct existential support. Rejected: parity as total-PSR satisfaction, generic grounding as conservation R, or formal acyclicity as adequacy. Bohn publisher metadata corrects the title to Indefinitely Descending Ground; BOHIDG and BOHIDGv1 fetches returned 403 and the author-linked NVA record was inaccessible. No chapter attribution is made. Remaining bridge: an independently defended intrinsic sufficient existence reason versus uniformity/parity under the same explanatory scope. Root delta remains zero; no new theorem/claim or philosophical vocabulary. Owner follow-up: reused #669 Klein–Turri finite-performance/available-reasons distinction without new sourcing. Finite inquiry may answer local challenges only under a defended truth-conducive adequacy norm; ontic grounds need not be traversed by thinkers. Added the exact order/rule burden: distinguish full joint ground from a partial arrow and defend obtaining, direction and rule application rather than enumeration, mutual entailment or recursive description. Welchance §1.3 n.15 leaves the further explanatory-link strategy undeveloped. Any rule being question-able does not alone refute it; independent warrant versus merely borrowed support is the issue. Recorded strongest conditional Occam argument: prefer an equally adequate account with fewer gratuitous independent commitments, comparing entity cardinality, kinds/laws, unexplained assumptions and specification length separately. Neither infinite members as infinite independent costs nor finite compression as adequate explanation is assumed. No new independent philosophical premise is defended; root delta zero. Extraction repair: full-PDF bytes unchanged; a bounded Poppler26.01.0 versus Ubuntu:noble24.02.0 comparison isolated CI text-hash drift to zero-width characters in the p.19 CC-license URL only. Materialized selection narrowed to pp.1–18, with identical cross-version text, retaining full-PDF raw hash and complete consulted context. No integrity gate or dependency change. Follow-up independently materialized/read Spinoza Elwes I definitions1–8, axioms1–7, propositions1–11 with I8 notes and all I11 proofs/note, and reread Aquinas q3a4/q44a1 and Monadology31–45. Positive intrinsic-nature reply and symmetric individual-adequacy constraint persist in docs/psr-scope-countermodels.md, Intrinsic existence reasons: I8 noteII and I11 triangle contrasts require explanation of individual existence/multiplicity rather than generic essential properties. Distinguished actual-witness presupposition from a fresh existence proof, and causa sui from efficient self-production. I7 needs explanatory exhaustiveness; I11 additionally owes internal consistency or a reality-to-existence-power bridge. Mathematical essential explanation motivates nonproductive reasons without establishing concrete instantiation. Foundation and global infinitist rivals both owe an independently characterized real nature/structure that explains actuality; neither bare necessity nor local dependency assignments discharge that debt. No new attribution record or formal adequacy flag; root delta zero.",
   "evidence": [
-    "LEIBNIZ-32-FACT-REASON-DEMAND",
-    "LEIBNIZ-32-REASON-EPISTEMIC-LIMIT",
-    "LEIBNIZ-33-35-ANALYTIC-TERMINUS",
-    "LEIBNIZ-36-37-CONTINGENT-DETAIL-DEFERMENT",
-    "LEIBNIZ-45-INTRINSIC-REASON",
-    "LEIBNIZ-SERIES-SUFFICIENT-REASON-A",
-    "UNIQUE-FEEDBACK-CONTROL",
-    "HISTORY-CONTRASTIVE-CONTROLS",
-    "REGRESS-SCHEMA-PACKAGE"
+    "0e1bffc2-b521-52f0-9926-2c227d94dc57",
+    "f0b262fa-9e52-5b90-97ce-d09168cb8165",
+    "671681e1-d43c-5296-a039-2f7acd41766b",
+    "eaddcfb8-80e5-5ba3-a6c1-26a5357d3c81",
+    "8463b828-f923-5fe2-9b48-12a588fdf61a",
+    "b04299ed-86c2-5ba5-9075-8a144582f8b3",
+    "b217ef67-6837-536f-8f5a-e7780e1f4a82",
+    "daa271be-cd04-5e03-bd3e-c7bad5c2eff3",
+    "74e00870-e0d4-5467-8c09-a75b2a922ce5"
   ]
 }

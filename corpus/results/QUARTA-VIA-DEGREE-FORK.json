@@ -1,6 +1,8 @@
 {
-  "id": "QUARTA-VIA-DEGREE-FORK",
-  "argument_id": "QUARTA-VIA-DEGREE-FORK",
+  "id": "8769ddb5-5127-5fd1-be91-2c4b3967807b",
+  "label": "The selected perfection is instantiated, and either a strict causal top exists…, via degree fork",
+  "legacy_id": "QUARTA-VIA-DEGREE-FORK",
+  "argument_id": "528ccadd-0727-5df0-995e-789762d06854",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.QuartaViaDegreeFork.coverage",

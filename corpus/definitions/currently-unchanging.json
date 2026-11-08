@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CURRENTLY-UNCHANGING",
+  "id": "eac2eca0-55ac-558a-876b-67a3d1f8d469",
+  "label": "CURRENTLY_UNCHANGING_2, contrast sense: Not undergoing change now; this by itself does not exclude…",
+  "legacy_id": "DEF-CURRENTLY-UNCHANGING",
   "term": "currently unchanging, contrast sense",
   "definition": "Not undergoing change now; this by itself does not exclude a capacity for change. It is weaker than the stage-2 IsImmutable predicate, which excludes potency in every respect.",
   "basis": "stipulative",

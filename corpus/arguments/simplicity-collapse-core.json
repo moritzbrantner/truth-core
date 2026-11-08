@@ -1,21 +1,23 @@
 {
-  "id": "SIMPLICITY-COLLAPSE-CORE",
+  "id": "8bd1f7cb-33af-561a-b21f-28f216556e1f",
+  "label": "In any frame, no act token and effect have the token performed at every accessible world, strict…",
+  "legacy_id": "SIMPLICITY-COLLAPSE-CORE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SIMPLICITY-COLLAPSE-CORE",
+  "conclusion_statement_id": "069506dc-ddac-5ff3-a7e8-3a44be023e43",
   "inference_ids": [
-    "INF-SIMPLICITY-COLLAPSE-CORE"
+    "1aaa029c-adc6-5dbd-9133-1ab66e249fba"
   ],
   "meaning": "In any frame, no act token and effect have the token performed at every accessible world, strict efficacy of the token for the effect, and a contingent effect; no clause concerns the bearer's necessity and no frame condition is assumed. #462's cross-world stability, causal realization, sound relata and an actual output give strict efficacy. For a contingent effect, the token is unperformed at some accessible world or performed at an accessible world lacking the effect. Each member fails alone in a named two-world model with a necessary source and the token performed at the actual world false: optionalAct, inefficaciousAct, necessitarianAct. A bearer necessary at a world, wherever whose existence the token is performed, gives act necessity, and optionalAct has a necessary bearer without that condition. A sound description rigid at a world gives act necessity; in optionalAct a sound description covering the effect denotes nothing at the world without it, and in perWorldTokens a sound description denotes a token at every accessible world while no token has act necessity. With act necessity read of one token and efficacy of another the bundle needs their identity: if they are equal it is inconsistent, and twoTokens has act necessity of one, strict efficacy of the other and a contingent effect, each clause failing of the other token. Worlds are modal alternatives, tokens are overlay values, and models show only satisfiability. It does not establish that divine simplicity entails any member, that any member is true, or any root premise.",
   "definition_ids": [
-    "DEF-SELECTED-EFFECT-OUTPUT-PROFILE",
-    "DEF-SELECTED-EFFECT-STABLE-OUTPUT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-RIGID-ACT-STRICT-EFFICACY",
-    "DEF-CREATIVE-ACT-DESCRIPTION"
+    "e36a3cf1-be2c-51a0-bb55-f388c115e11d",
+    "c033d373-f381-504b-9674-c13fc9a96034",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "01b44013-2db5-546c-a22e-06104e8e724c",
+    "4e8282b7-d0aa-5936-9096-eee699480d2a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CREATIVE-ACT-IDENTITY",
-    "DISAMB-SELECTED-EFFECT-ACT-AND-CONDITIONS"
+    "441c08cd-8b78-5ff6-82cf-18efad3d88f7",
+    "303c2298-fd1b-55f3-9754-398816a78514"
   ]
 }

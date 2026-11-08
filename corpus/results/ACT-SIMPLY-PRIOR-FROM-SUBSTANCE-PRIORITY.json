@@ -1,0 +1,12 @@
+{
+  "id": "047cc9d8-f5fc-5585-bde6-a39b21754d2d",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect…, from substance priority",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY",
+  "argument_id": "f4f8458e-0bec-56bf-aa3f-c2c6082769da",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.actSimplyPriorFromSubstance",
+  "comparator_config": "results/ACT-SIMPLY-PRIOR-FROM-SUBSTANCE-PRIORITY/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the substance branch of 'prior': act's priority in substance over every potency, with the open bridge from priority in substance to simple priority, gives act's simple priority over potency."
+}

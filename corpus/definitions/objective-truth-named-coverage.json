@@ -1,5 +1,7 @@
 {
-  "id": "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
+  "id": "25fbb226-1079-5cec-aec3-72a560dfaa93",
+  "label": "Named objective-truth calibration\u2026: NamedCoverage f is ActualStableDefinition f \u2228\u2026",
+  "legacy_id": "DEF-OBJECTIVE-TRUTH-NAMED-COVERAGE",
   "term": "named objective-truth calibration coverage and a remaining account",
   "definition": "NamedCoverage f is ActualStableDefinition f \u2228 InvariantOnlyDefinition f \u2228 ActualTruthOnlyDefinition f. RemainingDefinition f is the conjunction of their negations. Coverage concerns pointwise extensions under one supplied truth/profile family, not candidate-name equality. The broad comparison class allows any binary objective classifier; its philosophical admissibility is not established.",
   "basis": "stipulative",

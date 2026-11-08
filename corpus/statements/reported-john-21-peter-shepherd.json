@@ -1,10 +1,12 @@
 {
-  "id": "STMT-REPORTED-JOHN-21-PETER-SHEPHERD",
+  "id": "5cc55853-4845-586c-8457-9e1456834571",
+  "label": "John reports that the risen Jesus three times asks Simon son of John whether he loves him and…",
+  "legacy_id": "STMT-REPORTED-JOHN-21-PETER-SHEPHERD",
   "paraphrase": "John reports that the risen Jesus three times asks Simon son of John whether he loves him and three times charges him: feed my lambs, tend my sheep, feed my sheep. Textual report only.",
   "definition_ids": [
-    "DEF-COMMISSION-REPORT-POWERS"
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMMISSION-REPORT-AND-EVENT"
+    "0f180711-5550-55b5-9da8-699215d6d95e"
   ]
 }

@@ -1,19 +1,21 @@
 {
-  "id": "ATTEMPT-BORROWED-EXERCISE-741",
+  "id": "cb29e8c4-5159-5bb3-bb84-df2297f03af8",
+  "label": "Certified a fork for actual exercise under a supplied power profile, with regress and circle…",
+  "legacy_id": "ATTEMPT-BORROWED-EXERCISE-741",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-BORROWED-EXERCISE-CERTIFICATE",
-    "STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT",
-    "STMT-SECOND-MOVER-CANNOT-MOVE-WITHOUT-FIRST",
-    "STMT-INSTRUMENT-MOVES-ONLY-IF-MOVED-BY-PRINCIPAL-MOVER",
-    "STMT-DERIVATIVE-JOINT-POWER-CERTIFICATE"
+    "56b98705-21a9-50c7-a2fe-f40412516018",
+    "a9e269dd-0558-5235-9c08-1dd260892816",
+    "0680ca53-c154-5391-8356-7d01c30c25ba",
+    "80a648c0-9a00-52d2-853a-d33b054a0375",
+    "aed524e8-0a39-53bc-8c28-699bef3ba511"
   ],
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Certified a fork for actual exercise under a supplied power profile, with regress and circle witnesses, and one exercise on which the same events are instruments or secondary causes depending on the profile. Rejected before certification: defining borrowed as having a source or finite grounding, which would make the source follow by definition; defining borrowed as having an actual lender, which erases secondary causes and makes the moved-mover reading trivially true; letting an empty record lend, which counts a power as borrowed from nobody; letting a merely live unexercised record lend at the actual scenario. Rejected as overreach: treating retained power as underived, since it says nothing of how the power was got; treating a self-exercising source as explaining its exercise, since a finite source with essential power has an exercise that does not occur at every allowed scenario. The moved-mover reading is refuted on one fixed model, not as a claim about real agents, and is not identified with the attributed statement. Actual productive exercise, which profile holds of real agents, adequacy and motion-to-existence remain OPEN; rivals rejecting Supply or profiles are not refuted. No source claim was added. Findings in docs/notes/borrowed-exercise-741.md. No root premise change.",
   "evidence": [
-    "BORROWED-EXERCISE-CERTIFICATE",
-    "DERIVATIVE-JOINT-POWER-CERTIFICATE",
-    "CONDENSATION-SUFFICIENCY-CERTIFICATE"
+    "c76bf027-aabc-5332-a267-3b12e261c0ab",
+    "e0907d07-1e34-54cb-b60a-7290cc11f397",
+    "29afde99-ee02-5a95-ad82-6a5f61f999d5"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
-  "argument_id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "id": "57655f23-92b0-5422-ae11-7b21923dd0a9",
+  "label": "Some object has no incoming cause-edge…, from The non-null object domain is inhabited and 5 more",
+  "legacy_id": "ATOMIC-CAUSAL-OUTGOING-SOURCE",
+  "argument_id": "901ecb11-af40-5e41-b7ba-449c982e4a3b",
   "challenge_module": "TruthCore.Results.Causality.AtomisticCausalSource.Challenge",
   "solution_module": "TruthCore.Results.Causality.AtomisticCausalSource.Solution",
   "theorem": "TruthCore.Results.Causality.AtomisticCausalSource.outgoing",

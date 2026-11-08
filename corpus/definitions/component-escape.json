@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COMPONENT-ESCAPE",
+  "id": "ac62d388-9980-5ae0-9584-3ecff39a822b",
+  "label": "Escape inside a strongly connected…: ComponentEscape h I A says that each nonempty set of active…",
+  "legacy_id": "DEF-COMPONENT-ESCAPE",
   "term": "escape inside a strongly connected component",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.CondensationSufficiency.ComponentEscape",

@@ -1,10 +1,12 @@
 {
-  "id": "STMT-ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
+  "id": "b35cb288-503f-5471-b417-23502ca81054",
+  "label": "Enoch frames moral access as explaining the correlation between normative judgments and…",
+  "legacy_id": "STMT-ENOCH-MORAL-ACCESS-CORRELATION-CHALLENGE",
   "paraphrase": "Enoch frames moral access as explaining the correlation between normative judgments and independent normative truths. Naturalist causal explanations may answer in principle, depending on their details; causally inert robust realism faces a special difficulty.",
   "definition_ids": [
-    "DEF-MORAL-ACCESS-CORRELATION"
+    "28cc1233-60e8-59b4-a906-99c8835aa551"
   ],
   "disambiguation_ids": [
-    "DISAMB-MORAL-ACCESS-TRACKING-AND-INDEPENDENCE"
+    "1ea78c11-3346-5546-8da6-d1e1afb89834"
   ]
 }

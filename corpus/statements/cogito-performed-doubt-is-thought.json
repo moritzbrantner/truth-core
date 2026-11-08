@@ -1,0 +1,11 @@
+{
+  "id": "1722a80f-47a4-5605-8b66-b3534e457bcb",
+  "label": "Every performed doubt whether thought occurs is realized by some occurring thought episode: ∀ a…",
+  "legacy_id": "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT",
+  "paraphrase": "OPEN analyst bridge (doubting is a mode of thinking): every performed doubt whether thought occurs is realized by some occurring thought episode: ∀ a, Performed a → DoubtsThought a → ∃ e, Occurs e ∧ Realizes a e. A behaviourist who counts a doubt as a disposition with no occurring episode rejects it.",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PerformedDoubtIsThought",
+  "definition_ids": [
+    "c075da22-805b-56c1-a033-c24eef5f0ea2",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ]
+}

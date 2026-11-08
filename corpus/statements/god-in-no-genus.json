@@ -1,12 +1,14 @@
 {
-  "id": "STMT-GOD-IN-NO-GENUS",
+  "id": "94e04d71-f5e3-5d0b-99fd-1fa01df090e9",
+  "label": "GOD_4 is not properly in any genus",
+  "legacy_id": "STMT-GOD-IN-NO-GENUS",
   "paraphrase": "God is not properly in any genus (not as a species contained under a genus).",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GodIsInNoGenusReading",
   "definition_ids": [
-    "DEF-IN-GENUS-PROPERLY",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "bca0503f-bf77-5c2d-8deb-ff0c92c86b32",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOD"
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

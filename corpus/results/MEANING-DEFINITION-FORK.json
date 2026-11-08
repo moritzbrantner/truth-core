@@ -1,6 +1,8 @@
 {
-  "id": "MEANING-DEFINITION-FORK",
-  "argument_id": "MEANING-DEFINITION-FORK",
+  "id": "7ce87d40-c1e3-5aed-a71c-99a2c0b1cfcf",
+  "label": "For every supplied frame, meaning predicate and…, from Excluded middle as a general principle…",
+  "legacy_id": "MEANING-DEFINITION-FORK",
+  "argument_id": "faf65c09-4fa2-57f4-a5e4-933b16839263",
   "challenge_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Challenge",
   "solution_module": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.Solution",
   "theorem": "TruthCore.Results.Logic.MeaningDefinitionFork.Coverage.definitionFork",
@@ -9,19 +11,19 @@
   "description": "Logical coverage transcription under explicit excluded middle. Named coverage stays open; otherwise all four named calibrations fail. Not a survey of philosophical meanings.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-MEANING-NAMED-COVERAGE",
+    "target_statement_id": "8c15181f-fbc7-538c-bcce-1e5381247d2f",
     "cases": [
       {
         "label": "at least one named scoped calibration",
         "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.NamedCoverage",
-        "statement_id": "STMT-MEANING-NAMED-COVERAGE"
+        "statement_id": "8c15181f-fbc7-538c-bcce-1e5381247d2f"
       },
       {
         "label": "genuinely remaining extension on this scope",
         "lean_declaration": "TruthCore.Logic.MeaningDefinitionFork.RemainingDefinition",
-        "statement_id": "STMT-MEANING-REMAINING-DEFINITION"
+        "statement_id": "32a7695e-6ccc-5d98-9c52-bbbd539d7f50"
       }
     ],
-    "survival_result_id": "MEANING-DEFINITION-CONTROLS"
+    "survival_result_id": "c199664c-295e-52eb-a5e6-12945a8bf998"
   }
 }

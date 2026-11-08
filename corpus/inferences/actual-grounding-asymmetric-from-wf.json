@@ -1,0 +1,13 @@
+{
+  "id": "adeba3c1-c036-5d51-a86d-28d15c59eef0",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in…, by Well-founded induction",
+  "legacy_id": "INF-ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF",
+  "input_statement_ids": [
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+  ],
+  "output_statement_id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
+  "rule": "Well-founded induction",
+  "meaning": "Restricted well-foundedness of the selected relation on actual concreta excludes reciprocal grounding between actual concreta, by well-founded induction (reuses actualGroundingAsymmetricOfWF). Registered as the strength order WF -> asymmetric.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

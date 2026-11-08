@@ -1,0 +1,20 @@
+{
+  "id": "d7be5314-5b20-5cbd-934d-def7f18b70b4",
+  "label": "Report-to-event premise: the commission reported…, from Every one of the five reported commissions…",
+  "legacy_id": "ROUND3-CHRIST-CHURCH-ALL-COMMISSION-REPORTS-ENTAIL-TWO",
+  "premise_statement_ids": [
+    "d6c957b8-7ced-5ff5-b0a0-343c5ed80786"
+  ],
+  "conclusion_statement_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
+  "inference_ids": [
+    "1d1c158d-b0d5-540e-b0fd-4148c688ddbb"
+  ],
+  "meaning": "Strength registration (not a route step): if all five reported commissions go back to Jesus, then Matthew 28's does and so does at least one governing one (Matthew 16's). Backs the strengthens relation from the all-reports statement to the two-report premise.",
+  "definition_ids": [
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c",
+    "66200ff6-4af8-5b8f-a2c8-08ddf2d0f072"
+  ],
+  "disambiguation_ids": [
+    "0f180711-5550-55b5-9da8-699215d6d95e"
+  ]
+}

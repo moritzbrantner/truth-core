@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "GIBBARD-REPLY-2022",
+    "source_id": "7bf6eaf4-795e-5395-b882-d6f46abe5e80",
     "source_url": "https://www.fulcrum.org/ebooks/zs25xb782/download?locale=en",
     "retrieved_at": "2026-10-26T19:11:05Z",
     "sha256": "sha256:4b738a2b5f8c8286aa148840cafc0235bd4f68624afe30d945383bc7170b0855",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "GIBBARD-REPLY-2022-535-544",
+      "id": "c02428e0-2be0-5343-a6e3-c8d30cdf8958",
+      "label": "Allan Gibbard, Reply to Commentators, Reply to Commentators, pp. 535\u2013544, \u00a73, responses to\u2026",
+      "legacy_id": "GIBBARD-REPLY-2022-535-544",
       "locator": "Reply to Commentators, pp. 535\u2013544, \u00a73, responses to McPherson/Perl and Yalcin",
       "claim_locator_prefixes": [
         "pp. 536\u2013538,",

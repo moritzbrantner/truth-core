@@ -1,13 +1,15 @@
 {
-  "id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
+  "id": "6882f4cf-2869-5fe2-ae79-b1dfd6f88026",
+  "label": "Whatever is moved in a respect of physical MOTION_2 has a per se mover in that respect: the prima…",
+  "legacy_id": "STMT-EVERY-PHYSICAL-MOTION-HAS-A-PER-SE-MOVER",
   "paraphrase": "Whatever is moved in a respect of physical motion (place, quality, quantity) has a per se mover in that respect: the prima via's 'whatever is moved is moved by something' restricted to physical motion.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.EveryPhysicalMotionHasAPerSeMoverReading",
   "definition_ids": [
-    "DEF-MOTION-AS-PHYSICAL-CHANGE",
-    "DEF-PHYSICAL-RESPECT"
+    "ab0d1d6b-b777-51cc-ae11-c033081830e8",
+    "738d71f6-ba32-5586-aef9-4f63bc395e96"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION",
-    "DISAMB-MOVED-BY-SOMETHING"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "9a798385-cf7b-54a4-833d-da5f27ce8a90"
   ]
 }

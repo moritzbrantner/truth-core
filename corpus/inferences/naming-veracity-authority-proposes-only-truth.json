@@ -1,0 +1,14 @@
+{
+  "id": "620fb882-6379-5b9a-bdd4-6b0d9507d49f",
+  "label": "Bridge premise: whatever a society founded as a teaching authority by a…, by Veracity applied to…",
+  "legacy_id": "INF-NAMING-VERACITY-AUTHORITY-PROPOSES-ONLY-TRUTH",
+  "input_statement_ids": [
+    "5f00cb73-5899-5399-850d-47eec2c21291",
+    "c1deb2ee-770d-5030-9e5c-302e33028811"
+  ],
+  "output_statement_id": "dd2d9776-6550-5ee9-a206-dad03027c003",
+  "rule": "Veracity applied to definitive proposals",
+  "meaning": "What a teaching authority founded by a God with the classical attributes definitively proposes as revealed, that God confirms, and what he confirms is true; so the authority definitively proposes only truths. Decomposes the stage-3 truth bridge into the confirmation link and the veracity premise; each is needed (omission models in NAMING-VERACITY-BATCH1-CONTROLS).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

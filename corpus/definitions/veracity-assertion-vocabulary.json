@@ -1,0 +1,10 @@
+{
+  "id": "f2c09ae8-848d-5a3b-ab79-92c2b01d414c",
+  "label": "Asserting, believing, knowing: Asserts g p: g puts p forward as true on g's own word",
+  "legacy_id": "DEF-VERACITY-ASSERTION-VOCABULARY",
+  "term": "asserting, believing, knowing (Veracity vocabulary: Asserts, Believes, Knows)",
+  "definition": "Asserts g p: g puts p forward as true on g's own word. Believes g p: g assents to p. Knows g p: g holds p as known. All three are uninterpreted parameters of the Veracity structure over the skeleton Signature. Factivity of knowing is NOT built in: that what a God with the classical attributes knows is true is the separate open premise STMT-GOD-KNOWS-ONLY-TRUTHS. Sincerity (asserting only what one knows) and infallibility (knowing only truths) are the two halves into which divine veracity (neither deceiving nor deceived) is split.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.Veracity",
+  "note": "Stipulative analyst vocabulary (attribution deferred, owner direction 2026-11-05). Dei Filius ch. 3 para. 1 (nec falli nec fallere potest) bears on the split through supports relations; a sourced definition would need a source analysing assertion and testimony, e.g. ST II-II q.110 a.1 on lying."
+}

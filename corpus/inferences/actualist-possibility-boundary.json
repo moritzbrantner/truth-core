@@ -1,10 +1,12 @@
 {
-  "id": "INF-ACTUALIST-POSSIBILITY-BOUNDARY",
+  "id": "627487f0-5360-529a-b136-a4662b1f00e6",
+  "label": "In the encoded 1970 actualist interpretation, at every world it is false…, by Constructive-proof",
+  "legacy_id": "INF-ACTUALIST-POSSIBILITY-BOUNDARY",
   "input_statement_ids": [
-    "STMT-GOEDEL-1970-NECESSARY-EXISTENCE-POSITIVE",
-    "STMT-ACCESSIBILITY-SYMMETRIC"
+    "8aa0a46a-473f-544c-9686-9e028d0285e3",
+    "938650b0-ff50-5c60-8b70-5b7dc600eaaf"
   ],
-  "output_statement_id": "STMT-GOEDEL-1970-NO-POSSIBLE-ACTUALIST-GOD-LIKE",
+  "output_statement_id": "0465695f-0070-574b-b07c-dadfcea317ef",
   "rule": "constructive-proof",
   "meaning": "From necessary-existence positivity alone, a God-like individual has 1970 NecessaryExistence. The already proved EmptyPropertyIsEssence makes the empty property one of its essences, so any accessible successor would have an existing individual with False. A possibility witness supplies an edge into the God-like world; symmetry supplies its outgoing reverse edge, giving contradiction. Only Ax3 and symmetry are retained: Ax2a, Ax2b/A4, Ax4, reflexivity and excluded middle are not premises. This proves the 1970 actualist Th3 antecedent is impossible even though its smaller axiom bundle is satisfiable; it does not prove theism false, Scott inconsistent, or the partial axioms inconsistent.",
   "assumption_statement_ids": [],

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
+  "id": "284efb0a-b669-5b91-b0ea-2b7b68bef70d",
+  "label": "Universal assertion of excluded-middle…: Every supplied stage asserts every instance p-or-not-p",
+  "legacy_id": "DEF-EXCLUDED-MIDDLE-ASSERTION-POLICY",
   "term": "universal assertion of excluded-middle instances",
   "definition": "Every supplied stage asserts every instance p-or-not-p. The exact negative policy proposition denies this universal. No assertion norm, known proof, warrant, source attribution or bridge from logical holding is assumed.",
   "basis": "stipulative",

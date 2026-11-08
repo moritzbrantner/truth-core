@@ -1,0 +1,11 @@
+{
+  "id": "30b2064f-8346-5deb-b58f-46b348d9f3c3",
+  "label": "Only GOD_4 can reveal with the signs in question: whoever can do the revealing-with-signs task is…",
+  "legacy_id": "STMT-SOME-SIGNS-ONLY-GOD-CAN-GIVE",
+  "paraphrase": "OPEN (attribution deferred): only God can reveal with the signs in question (they exceed every created power): whoever can do the revealing-with-signs task is God.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.SomeSignsOnlyGodCanGive",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
+  ]
+}

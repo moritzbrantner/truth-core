@@ -1,0 +1,14 @@
+{
+  "id": "76cdd7db-df5c-5e89-a052-41d56ffc577d",
+  "label": "Whatever moves another only as moved is, in that, an efficient cause that…, by Excluded middle on…",
+  "legacy_id": "INF-PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "0300cfd9-7f62-5270-801f-01f860d7b506"
+  ],
+  "output_statement_id": "c2880fe0-a7a8-5be0-91e5-d2f3bd7d7186",
+  "rule": "Excluded middle on CausesAsCaused y x, reductio against the negated existential",
+  "meaning": "Every per se mover link is a per se cause link, from the conclusion of NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS (no y moves x as moved without causing x as caused, on the same MovesAsMoved and CausesAsCaused) and excluded middle. The refutation's premises (the per se mover-link analysis, every mover is an efficient cause, second efficient causes cause only as caused) stay OPEN; nothing about the identity of the two relations is claimed beyond inclusion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

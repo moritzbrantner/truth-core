@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
+  "id": "534a41b0-1001-5824-8d35-938bdaef3e2f",
+  "label": "Protagoras's measure doctrine as Socrates takes it \"from his own account\": whatever seems so to…",
+  "legacy_id": "STMT-PROTAGORAS-MEASURE-RELATIVE",
   "paraphrase": "Protagoras's measure doctrine as Socrates takes it \"from his own account\": whatever seems so to someone is true for that one.",
   "lean_declaration": "TruthCore.Greek.Plato.Theaetetus.MeasureDoctrine",
   "definition_ids": [
-    "DEF-PROTAGOREAN-MEASURE",
-    "DEF-RELATIVE-TRUTH"
+    "4ac942cf-a067-5166-81dc-589d6fd8ca41",
+    "c137a1e2-6b0f-5413-b6c9-e13918c61b6b"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407"
   ]
 }

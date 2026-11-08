@@ -1,24 +1,28 @@
 {
-  "id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
+  "id": "463e2529-1b0b-5ede-8927-525d6a60f845",
+  "label": "There is a finite universally accessible model with an actual source-to-effect power-transmission…",
+  "legacy_id": "POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY",
-  "inference_ids": ["INF-POWER-EXISTENCE-SIMPLICITY-SCOPE-BOUNDARY"],
+  "conclusion_statement_id": "0f6ded59-2107-5c67-9d78-8e70e1efd221",
+  "inference_ids": [
+    "ba007835-e3da-5f5c-ad94-9747d1c04a43"
+  ],
   "meaning": "Logical independence only. Each finite witness contains an actual source-to-effect power transmission and an effect without intrinsic power, not merely a free-standing inductive derivation. Still, an intrinsic source in a designated power channel need not be an uncaused or incomposite being. Two coherent finite countermodels isolate BR-POWER-TO-BEING and BR-SIMPLICITY from #319; the models do not represent unexercised capacities, refute Aquinas' richer source readings, or establish which scenario is metaphysically possible.",
   "definition_ids": [
-    "DEF-UNBORROWED-POWER-IN-A-RESPECT",
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-POWER-CAPACITY-READING",
-    "DEF-ACTUAL-POWER-TRANSMISSION-READING",
-    "DEF-EXISTENTIAL-SUPPORT-MODEL",
-    "DEF-PROPER-PART-COMPOSITION-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-SIMPLE"
+    "7059cad2-e5b6-5003-8871-a85c8f1924f5",
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "8ce4f4d6-a221-5db8-aef5-2f0babdfb416",
+    "5aef0b49-016a-5716-9bd9-423d957b28ab",
+    "70772f58-1f91-5bcb-9147-44e91863e154",
+    "dc78e47a-f971-5d89-9c99-a8cb8939ba61",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
   ],
   "disambiguation_ids": [
-    "DISAMB-POWER-EXISTENCE-DEPENDENCE",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-POWER-CAPACITY-EXERCISE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "dc217cd1-cf6f-5ac8-b142-689439520a5d",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "1da63c28-4572-5787-82a0-51425c0f4b6a",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

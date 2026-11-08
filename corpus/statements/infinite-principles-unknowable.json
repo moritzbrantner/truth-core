@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
+  "id": "a5c99f5b-c6e9-5a7c-b429-d5aae412e7c7",
+  "label": "Principles infinite both in multitude and in kind are unknowable in the respects needed to know…",
+  "legacy_id": "STMT-INFINITE-PRINCIPLES-UNKNOWABLE",
   "paraphrase": "Principles infinite both in multitude and in kind are unknowable in the respects needed to know their quantity and quality.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfinitePrinciplesUnknowableReading"
 }

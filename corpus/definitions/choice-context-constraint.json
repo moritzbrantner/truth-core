@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CHOICE-CONTEXT-CONSTRAINT",
+  "id": "3d89fd62-24e4-5056-8f59-146aed9b2e82",
+  "label": "Absence of an imposed constraint: Unconstrained h means h.imposed=false",
+  "legacy_id": "DEF-CHOICE-CONTEXT-CONSTRAINT",
   "term": "absence of an imposed constraint",
   "definition": "Unconstrained h means h.imposed=false. In this finite table imposed=true forces the true action independently of preference and the law selector. The Boolean has this explicit response effect, but its absence is not identified with free will, consent, agency, moral responsibility, or a sufficient compatibilist criterion.",
   "basis": "stipulative",

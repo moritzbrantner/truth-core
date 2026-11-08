@@ -1,10 +1,12 @@
 {
-  "id": "DEF-MORAL-OBJECTIVITY",
+  "id": "97de11fe-72e4-5a9d-bb75-828c6d5ee079",
+  "label": "MIND_INDEPENDENT_2, as moral objectivism: Moral objectivism: moral facts exist and are…",
+  "legacy_id": "DEF-MORAL-OBJECTIVITY",
   "term": "mind-independent, as moral objectivism (a metaphysical thesis)",
   "definition": "Moral objectivism: moral facts exist and are mind-independent in the relevant sense; with cognitivism and success theory it makes a view robust moral realism. Non-objectivism holds that moral facts exist and are mind-dependent. Both presuppose moral facts, so a noncognitivist is neither. Which mind-independence relation is meant is not fixed (Moral Anti-Realism §3.3 lists several and reports Tropman's attitude-independence account).",
   "basis": "sourced",
   "claim_ids": [
-    "SEP-MORAL-ANTI-REALISM-3-3-ROBUST-REALISM-OBJECTIVISM",
-    "SEP-MORAL-ANTI-REALISM-3-3-NONCOGNITIVIST-NOT-OBJECTIVIST"
+    "3e39295e-5066-57e6-9d01-e87b7f992656",
+    "dc0967c5-f328-52db-9fa8-ba08e436e8cf"
   ]
 }

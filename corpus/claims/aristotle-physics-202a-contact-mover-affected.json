@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-202A-CONTACT-MOVER-AFFECTED-A",
-  "statement_id": "STMT-CONTACT-MOVER-IS-AFFECTED",
-  "source_id": "ARIST-PHYS",
+  "id": "f132ccc8-2126-5a17-a940-392a32bbfa8c",
+  "label": "Aristotle, Physics III.2, 202a3-7: A mover acting on a movable by contact in the relevant physical…",
+  "legacy_id": "ARIST-PHYS-202A-CONTACT-MOVER-AFFECTED-A",
+  "statement_id": "6f441989-c168-515e-9b7c-5ae67c9ee7ac",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.2, 202a3-7",
   "interpretation": "Qualified physical-contact reading: a mover that acts on the movable through the contact relation under discussion is simultaneously affected. This does not universalize the claim so far as to contradict the unmoved-mover exception already preserved from III.1.",
   "status": "formalized"

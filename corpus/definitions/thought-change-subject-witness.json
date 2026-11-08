@@ -1,5 +1,7 @@
 {
-  "id": "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS",
+  "id": "51def74f-c241-5704-862f-7c8b265ba02c",
+  "label": "Subject of an actual thinking change: ThoughtChangeHasPotentialSubject Thought Change Potential…",
+  "legacy_id": "DEF-THOUGHT-CHANGE-SUBJECT-WITNESS",
   "term": "subject of an actual thinking change",
   "definition": "ThoughtChangeHasPotentialSubject Thought Change Potential QuaPotentialActuality means there are an episode e and subject s with Thought e, Change e, Potential s, and QuaPotentialActuality e s. This is the potential subject of the change, not necessarily an enduring substance or the Cartesian ego.",
   "basis": "stipulative",

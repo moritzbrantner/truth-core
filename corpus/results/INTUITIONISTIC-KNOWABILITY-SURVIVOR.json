@@ -1,6 +1,8 @@
 {
-  "id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
-  "argument_id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "id": "2748c4c7-3b8d-539e-8a68-af74bbb5fba5",
+  "label": "The named three-stage model jointly satisfies genuine future-forcing semantics, exact reused…",
+  "legacy_id": "INTUITIONISTIC-KNOWABILITY-SURVIVOR",
+  "argument_id": "fdb8f273-b386-5bea-ba4c-211a9aabf783",
   "challenge_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Challenge",
   "solution_module": "TruthCore.Results.Logic.IntuitionisticKnowability.Solution",
   "theorem": "TruthCore.Results.Logic.IntuitionisticKnowability.survivor",

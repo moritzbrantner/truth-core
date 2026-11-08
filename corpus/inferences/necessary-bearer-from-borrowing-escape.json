@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "id": "2b72e248-c82e-5e81-869e-06967bbb8605",
+  "label": "At least one individual exists at the selected world and at…, by Certified-composition-and-log…",
+  "legacy_id": "INF-NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "e27ea8e3-b61d-55a4-aea3-25adf8ff6c2d",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-KANT-CONVERSION-NECESSARY-WITNESS",
+  "output_statement_id": "c778a6ca-e756-56ac-aa68-c81e9883ca7c",
   "rule": "certified-composition-and-logical-weakening",
   "meaning": "Import the certified borrowing-cut necessary-concrete theorem and project its witness to the existing general necessary-bearer interface, rather than assuming necessary population anew. The actual population, borrowing-cut application, contingent concrete dependence and explicit excluded middle premises are retained unchanged. This makes the cumulative route usable by existing generic necessary-bearer arguments; it does not discharge their remaining assumptions or identify their selected witnesses with the initial concrete witness.",
   "assumption_statement_ids": [],

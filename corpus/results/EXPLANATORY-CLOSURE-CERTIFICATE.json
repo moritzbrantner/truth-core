@@ -1,6 +1,8 @@
 {
-  "id": "EXPLANATORY-CLOSURE-CERTIFICATE",
-  "argument_id": "EXPLANATORY-CLOSURE-CERTIFICATE",
+  "id": "f85ac952-c629-597c-b903-741815744b9a",
+  "label": "Closure of an event under a stop predicate means: some set contains it, and each set member stops…",
+  "legacy_id": "EXPLANATORY-CLOSURE-CERTIFICATE",
+  "argument_id": "89e7308b-d045-5c8d-b6dd-ff5886195689",
   "challenge_module": "TruthCore.Results.Explanation.ExplanatoryClosure.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ExplanatoryClosure.Solution",
   "theorem": "TruthCore.Results.Explanation.ExplanatoryClosure.certificate",

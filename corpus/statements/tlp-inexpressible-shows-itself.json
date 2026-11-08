@@ -1,7 +1,9 @@
 {
-  "id": "STMT-TLP-INEXPRESSIBLE-SHOWS-ITSELF",
+  "id": "c3d75af6-6182-5e2d-a259-c584c36dd5ee",
+  "label": "Tractatus 6.522: there is indeed the inexpressible; it shows itself, it is the mystical",
+  "legacy_id": "STMT-TLP-INEXPRESSIBLE-SHOWS-ITSELF",
   "paraphrase": "Tractatus 6.522: there is indeed the inexpressible; it shows itself, it is the mystical. Read literally; whether 'there is' here is meant seriously is the reading question DISAMB-TLP-NONSENSE.",
   "disambiguation_ids": [
-    "DISAMB-TLP-NONSENSE"
+    "ace52a9c-b9d3-5ee0-81fe-8723230fc5b8"
   ]
 }

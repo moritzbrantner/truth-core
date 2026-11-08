@@ -1,0 +1,26 @@
+{
+  "id": "f4abae1b-d96a-5e3b-be76-4c608146b32d",
+  "label": "The MAXIME_1 genus principle at being: a MAXIME_1 being causes being in all others",
+  "legacy_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL",
+  "premise_statement_ids": [
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497"
+  ],
+  "conclusion_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+  "inference_ids": [
+    "a9b2a730-7255-5356-9137-537add76dbfc"
+  ],
+  "meaning": "MAXIME_1 branch of the causal principle at the root-route node: the principle that what is MAXIMAL in a genus causes all in that genus, instantiated at being, gives that whatever is MAXIMAL in being causes being in every other being.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "ad844320-77ce-5786-96d7-4b02f874269d"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "4822a4f5-a93b-52dc-855a-00b7d57928d5",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

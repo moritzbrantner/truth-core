@@ -1,0 +1,16 @@
+{
+  "id": "62ea1e7a-dbf7-5042-8899-516e2aea7a4c",
+  "label": "Each first mover moved by none has a real determination that no other being has",
+  "legacy_id": "STMT-FIRST-MOVER-HAS-REAL-THISNESS",
+  "paraphrase": "OPEN, unattributed: each first mover moved by none has a real determination that no other being has.",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverHasRealThisness",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "eaefcc0d-d2b8-56e3-af67-6144ccec10b4"
+  ],
+  "disambiguation_ids": [
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
+  ]
+}

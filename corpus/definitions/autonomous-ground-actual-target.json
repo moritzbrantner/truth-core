@@ -1,5 +1,7 @@
 {
-  "id": "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
+  "id": "6a9ff802-ad29-5905-9373-9a23bd887f51",
+  "label": "Selected actual concrete target: ActualConcreteTargetAt A Concrete w b explicitly asserts Concrete…",
+  "legacy_id": "DEF-AUTONOMOUS-GROUND-ACTUAL-TARGET",
   "term": "selected actual concrete target",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.AutonomousGroundNecessity.ActualConcreteTargetAt",

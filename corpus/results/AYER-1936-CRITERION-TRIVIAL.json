@@ -1,6 +1,8 @@
 {
-  "id": "AYER-1936-CRITERION-TRIVIAL",
-  "argument_id": "AYER-1936-CRITERION-TRIVIAL",
+  "id": "8f115674-5ecd-5abf-9103-4415e3ab01cb",
+  "label": "Ayer's 1936 test is trivial: in any TRUTH_CONDITIONAL_LANGUAGE_4, a sentence s is…",
+  "legacy_id": "AYER-1936-CRITERION-TRIVIAL",
+  "argument_id": "0a6f8468-710e-54cb-8c34-2d4762dc9fbe",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1936Trivial.ayer1936CriterionTrivial",

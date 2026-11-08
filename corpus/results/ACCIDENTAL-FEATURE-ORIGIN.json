@@ -1,6 +1,8 @@
 {
-  "id": "ACCIDENTAL-FEATURE-ORIGIN",
-  "argument_id": "ACCIDENTAL-FEATURE-ORIGIN",
+  "id": "c6da1c80-f0c2-54eb-b9d4-681663dc0c35",
+  "label": "Some supplied ordinary-carrier value…, from The selected repeatable characteristic is… and 4 more",
+  "legacy_id": "ACCIDENTAL-FEATURE-ORIGIN",
+  "argument_id": "46ac503b-7731-56e1-bec9-cfc79739db99",
   "challenge_module": "TruthCore.Results.Causality.AccidentalFeatureOrigin.Challenge",
   "solution_module": "TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution",
   "theorem": "TruthCore.Results.Causality.AccidentalFeatureOrigin.externalOrigin",

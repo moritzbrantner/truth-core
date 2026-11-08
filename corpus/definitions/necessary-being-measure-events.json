@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-BEING-MEASURE-EVENTS",
+  "id": "84235d66-1a29-5e86-b691-58cc9ca34219",
+  "label": "Possible and actual bare…: For m: Ω → Ontic W B and w: Ω → W, PossibleEvent contains θ when some v…",
+  "legacy_id": "DEF-NECESSARY-BEING-MEASURE-EVENTS",
   "term": "possible and actual bare NecessaryBeing events over supplied interpretations",
   "definition": "For m : Ω → Ontic W B and w : Ω → W, PossibleEvent contains θ when some v accessible from w θ has existing NecessaryBeing (m θ) v. ActualEvent contains θ when NecessaryBeing (m θ) (w θ). The existing NecessaryBeing means an individual exists at that standpoint and has NecessaryAt there. Candidates share the chosen carrier type B, but the witness may vary with θ; neither event asserts any interpretation’s actuality outside the model.",
   "basis": "stipulative",

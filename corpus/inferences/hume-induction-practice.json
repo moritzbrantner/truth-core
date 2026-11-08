@@ -1,10 +1,12 @@
 {
-  "id": "INF-HUME-INDUCTION-PRACTICE",
+  "id": "153271a2-8174-55ec-8ca7-5d6399c3a545",
+  "label": "The blanket entitlement-denying reconstruction fails under the explicit premises…, by Direct-proof",
+  "legacy_id": "INF-HUME-INDUCTION-PRACTICE",
   "input_statement_ids": [
-    "STMT-HUME-INDUCTION-RELIANCE-BRIDGE",
-    "STMT-HUME-INDUCTION-SOME-RELIANCE"
+    "03df43ea-8c25-5818-a703-4bca7692b6a5",
+    "97e39364-c47c-5489-af9e-8805cd1204a1"
   ],
-  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "output_statement_id": "f2b6e95f-f43a-57d2-abf4-cb24e75cd422",
   "rule": "direct-proof",
   "meaning": "Conditional practical critique: a normative entitlement bridge plus practical reliance excludes blanket withholding. Logical transcription; the normative bridge is open, so this is not a historical refutation.",
   "assumption_statement_ids": [],

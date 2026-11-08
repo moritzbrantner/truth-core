@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
+  "id": "008257b0-0fc6-515e-8101-5ec6e039a8a0",
+  "label": "OPERATIONAL_LIFE_PROFILE_2: In the finite toy history, a profile whose earlier and later phases are…",
+  "legacy_id": "DEF-MEREO-OPERATIONAL-LIFE-PROFILE",
   "term": "operational life profile (mereology stress test)",
   "definition": "In the finite toy history, a profile whose earlier and later phases are marked alive, integrated and self-maintaining, whose functional process continues, and whose material cohorts do not overlap. These flags do not define biological life, a persisting substance or a soul.",
   "basis": "stipulative",

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-HIDDENNESS-CONCEPT-NEEDED",
+  "id": "4203e876-228a-557e-ab3f-30f1fe5434d2",
+  "label": "Without access to the concept of a personal God a person cannot believe that such a God exists",
+  "legacy_id": "STMT-HIDDENNESS-CONCEPT-NEEDED",
   "paraphrase": "Without access to the concept of a personal God a person cannot believe that such a God exists. This does not identify concept possession with capacity or require that all nonbelievers lack the concept.",
   "lean_declaration": "TruthCore.Hiddenness.ConceptNeeded",
   "definition_ids": [
-    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
-    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-MODEL-SCOPE"
+    "45eca80a-ec5d-566c-99a6-3f63bb01419c",
+    "31b28b01-225a-5c3c-a674-a4455154065c",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-NONRESISTANCE"
+    "14bdf48f-9ea1-5329-9489-9674bea6132a"
   ]
 }

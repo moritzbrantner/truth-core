@@ -1,5 +1,7 @@
 {
-  "id": "DEF-DESIGNATION-SUCCESSOR-CLOSED",
+  "id": "8bfed956-49be-58b3-9cf5-6bc5246619f8",
+  "label": "SUCCESSOR_CLOSED_DESIGNATION_POLICY_3: Every successor of every admitted actuality choice is…",
+  "legacy_id": "DEF-DESIGNATION-SUCCESSOR-CLOSED",
   "term": "successor-closed designation policy",
   "definition": "Every successor of every admitted actuality choice is another admitted actuality choice, on one fixed frame and ontology. Admission is a semantic restriction, not existence of a world in reality. Empty admission is allowed.",
   "basis": "stipulative",

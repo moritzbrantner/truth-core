@@ -1,0 +1,14 @@
+{
+  "id": "0a2f1846-e8cd-5082-9566-39b4ae8082fc",
+  "label": "Whatever efficiently caused itself in some respect would be a cause of its own coming to be",
+  "legacy_id": "STMT-SELF-EFFICIENT-CAUSATION-IS-SELF-ORIGINATION",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever efficiently caused itself in some respect would be a cause of its own coming to be.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SelfEfficientCausationIsSelfOrigination",
+  "definition_ids": [
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

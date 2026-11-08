@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-COUNTERMODELS",
-  "argument_id": "MODAL-B-COUNTERMODELS",
+  "id": "e4c056c7-2a7e-5926-a92a-c0651d174037",
+  "label": "The explicit three-world chain is reflexive and symmetric but not transitive",
+  "legacy_id": "MODAL-B-COUNTERMODELS",
+  "argument_id": "525659bd-0b9e-50a4-a4f2-352c90c52bde",
   "challenge_module": "TruthCore.Results.Modal.B.Countermodels.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.Countermodels.Solution",
   "theorem": "TruthCore.Results.Modal.B.Countermodels.checks",

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
+  "id": "5d37dd2a-6539-514d-bd74-1b2ad8021c8f",
+  "label": "McTaggart-style rival: nothing is being moved in any respect, though there are judgings and…",
+  "legacy_id": "STMT-CHANGE-UNREAL-BUT-APPEARS",
   "paraphrase": "McTaggart-style rival (unattributed): nothing is being moved in any respect, though there are judgings and perceivings. It follows from McTaggart's thesis STMT-MCTAGGART-NO-A-SERIES-CHANGE-BUT-APPEARS only given the open bridge STMT-BEING-MOVED-INVOLVES-A-SERIES-CHANGE.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.ChangeUnrealButAppearsReading",
   "definition_ids": [
-    "DEF-MOTION-AS-REDUCTION",
-    "DEF-RESPECT",
-    "DEF-OPINING"
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493"
   ],
   "disambiguation_ids": [
-    "DISAMB-CHANGE-A-SERIES",
-    "DISAMB-MOTION"
+    "784f3293-6601-5730-a89a-c0b84d8d8b57",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

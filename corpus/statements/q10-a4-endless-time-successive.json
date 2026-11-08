@@ -1,11 +1,13 @@
 {
-  "id": "STMT-ENDLESS-TIME-STILL-DIFFERS-FROM-ETERNITY",
+  "id": "532947e4-242e-5b4a-98ed-923544c83ed8",
+  "label": "Even on the hypothesis of beginningless and endless time, time differs from proper eternity: time…",
+  "legacy_id": "STMT-ENDLESS-TIME-STILL-DIFFERS-FROM-ETERNITY",
   "paraphrase": "Even on the hypothesis of beginningless and endless time, time differs from proper eternity: time is successive, whereas eternity is all at once and measures permanent being.",
   "definition_ids": [
-    "DEF-ETERNAL",
-    "DEF-TEMPORAL-SUCCESSION-Q10"
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762",
+    "e151093b-664e-555e-9602-d5356b4af202"
   ],
   "disambiguation_ids": [
-    "DISAMB-DURATION-SENSE"
+    "6805c9bd-fade-56d1-a034-c7a87d78c343"
   ]
 }

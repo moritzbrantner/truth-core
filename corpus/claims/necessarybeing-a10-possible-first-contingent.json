@@ -1,20 +1,22 @@
 {
-  "id": "NB-SURVEY-A10-POSSIBLE-FIRST-CONTINGENT",
-  "statement_id": "STMT-NB-A10-POSSIBLE-FIRST-CONTINGENT",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "4e25b291-c1b4-5ca3-b2c1-fd6225006323",
+  "label": "Unattributed website author, Necessary…: From the reported denial of necessary universal…",
+  "legacy_id": "NB-SURVEY-A10-POSSIBLE-FIRST-CONTINGENT",
+  "statement_id": "d1cd258d-5c2a-533e-a858-d8850b405b5f",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A10C, first argument paragraph from reported coverage denial through the parenthetical necessarily-all-concreta-contingent assumption, with concrete/infinite/ungrounded titles",
   "interpretation": "Keep the source’s finite/infinite contrast tied to its no-first-member title, rather than silently imposing finite cardinality or linear comparability. Denial of coverage, complete-chain closure and existence of a first contingent require their precise domain/nonemptiness/ancestry correspondences; they are not all supplied by modal duality alone. HeadlessCausalAncestry.source_of_not_headless_coverage is an existing source-free graph consequence only under its explicit graph and EM hypotheses; it does not certify this source paragraph or an outgoing causal role. The all-contingent assumption is temporary context, not established truth or a new actual population. Preserve C’s nominal Necessary Being title as cause-capable, whereas P2/C concrete includes cause-OR-effect capability. Matching P2/C coverage domains removes only the older textual mismatch. Dropping necessarily-all-concreta-contingent may supply a noncontingent concrete effect-only candidate; it does not automatically supply the source Necessary Being’s cause-capability. That source-domain bridge remains OPEN. A bare necessary-concrete endpoint can still be relevant under appropriate modal/correspondence premises; this note is not a refutation of that weaker endpoint.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
-    "DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD",
-    "DEF-NB-A10-DEFEASIBLE-CAUSAL-DEFAULT",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71",
+    "849896d5-dde0-5f60-a951-788992e3726d",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A10-DEFAULT-AND-MODAL-CAUSE",
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "b5d2699d-be01-54fa-ac90-bbaccad830d0",
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

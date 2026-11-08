@@ -1,10 +1,12 @@
 {
-  "id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
-  "argument_id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "id": "5c375145-6889-59c0-aa0a-eb4f899bdd2c",
+  "label": "There is no per se causal loop: no…, from A middle cause efficiently causes that of… and 3 more",
+  "legacy_id": "PER-SE-CAUSAL-LOOP-IMPOSSIBLE",
+  "argument_id": "323c26ae-a953-5a64-9fd8-8f7775c66c0b",
   "challenge_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution",
   "theorem": "TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.noPerSeCausalLoop",
   "comparator_config": "results/PER-SE-CAUSAL-LOOP-IMPOSSIBLE/comparator.json",
   "status": "solution-present",
-  "description": "Derived, not a transcription: the conclusion is not the consequent of any premise, and the countermodels in the Comparator config show that each premise is needed. The companion proof, independently registered as NO-EXISTENTIAL-SELF-ACTUALIZATION with controls EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS, separately excludes self-actualization of a bearer's own existence: an occurring productive act presupposes the bearer as prior, while its productive relation makes the act prior to the bearer's existence, contradicting transitive irreflexive priority. Two omission controls preserve the two-way edges after removing transitivity or irreflexivity; a positive control admits an act actualizing the existence of a different being under all premises. This is an analyst conditional about mixed existence-fact/act priority, not Aquinas' claim about an arbitrary source-free time loop. All metaphysical application premises remain open; no premise discharge or new refutes relation."
+  "description": "Derived, not a transcription: the conclusion is not the consequent of any premise, and the countermodels in the Comparator config show that each premise is needed. The companion proof, independently registered as NO-EXISTENTIAL-SELF-ACTUALIZATION with controls EXISTENTIAL-SELF-ACTUALIZATION-CONTROLS, separately excludes self-actualization of a bearer's own existence: an occurring productive act presupposes the bearer as prior, while its productive relation makes the act prior to the bearer's existence, contradicting transitive irreflexive priority. Two omission controls preserve the two-way edges after removing transitivity or irreflexivity; a positive control admits an act actualizing the existence of a different being under all premises. This is an analyst conditional about mixed existence-fact/act priority, not Aquinas' claim about an arbitrary source-free time loop. All metaphysical application premises remain open; no premise discharge; its refutes relation REL-PER-SE-CAUSAL-LOOP-IMPOSSIBLE-REFUTES does not count while those premises are open (#391, #999)."
 }

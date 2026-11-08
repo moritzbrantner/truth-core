@@ -1,9 +1,11 @@
 {
-  "id": "INF-NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
+  "id": "b56c3a27-4585-5476-abc6-f3d50a3fb321",
+  "label": "Every right-summand pure-set representative is unlocated in the supplied…, by Constructive-proof",
+  "legacy_id": "INF-NATURALISM-PURE-SET-REPRESENTATIVES-UNLOCATED",
   "input_statement_ids": [
-    "STMT-SET-LOCATION-HAS-MEMBER-SUPPORT"
+    "bcbfc8d8-eb60-5111-bc5b-d33c76492a5e"
   ],
-  "output_statement_id": "STMT-SET-REPRESENTATIVES-UNLOCATED",
+  "output_statement_id": "2241e28f-8662-5fec-a475-b242932c13b6",
   "rule": "constructive-proof",
   "meaning": "Use Mathlib.ZFSet.inductionOn on the actual interpreted pure set. Reverse support at a located representative supplies a located representative of a strict member; the induction hypothesis excludes it. No full representative closure or injectivity is needed. This is conditional on the supplied location support rule.",
   "assumption_statement_ids": [],

@@ -1,0 +1,20 @@
+{
+  "id": "f03b89d2-5034-55a6-bff2-8e8a87958b4f",
+  "label": "Map edges examined and rejected in the round-3 Fourth Way batch",
+  "legacy_id": "ATTEMPT-ROUND3-FOURTH-WAY-REJECTED-EDGES",
+  "statement_ids": [
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "70508140-d427-5a99-9be0-ae12ac905302",
+    "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
+    "d9fad785-40ab-555a-a1c1-5e39c9d50497",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "5a948c37-a0c3-5438-87e6-b797b529f76e"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in the round-3 Fourth Way batch. (1) Grades to a maximum at being from more-such-has and excluded middle alone: refuted by the Lean-checked natural-numbers model (Control.gradesAscent.omit_hWF), in which everything has being, each number is more a being than smaller ones, and there is no maximum; an ascent bound or a primary is needed. (2) Strict calibration from STMT-HOMOGENEOUS-BEING-SCALE: that reading orders beings by a preorder on the beings, not by the frame's value map; a bridge would have the form of STMT-DEGREE-AS-MUCH-AS-APPROACH, and the homogeneous scale is a stipulated contrast, not Aquinas's reading. (3) Greatest-degree genus principle from STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH: wrong direction (cause to more such, not most such to cause). (4) Maximal genus principle from STMT-EXCEEDED-PERFECTION-IS-CAUSED (SCG II.15): it gives some cause distinct from the exceeded bearer, not the maximum as that cause; the closing bridge would state the conclusion. (5) More-such-has-the-perfection from the approach order alone: the order constrains comparisons by nearness, not possession by the exceeding side (two beings, the primary has r, a non-primary exceeds another without r; not Lean-checked as a separate model). (6) As-to-being-so-to-truth from STMT-MOST-TRUE-IS-MOST-BEING: transfers maximality only, constrains neither having nor the comparative, and runs the other way in the quarta via. Rejection records that a lead was examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "f67bf7a3-78dd-5e01-8c50-d99012a8ba63"
+  ]
+}

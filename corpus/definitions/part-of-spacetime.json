@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PART-OF-SPACETIME",
+  "id": "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+  "label": "SPATIOTEMPORAL_1: PartOfSpacetime F x:= F.partOf x F.whole: x is a part of the spacetime whole…",
+  "legacy_id": "DEF-PART-OF-SPACETIME",
   "term": "spatiotemporal (part-of-spacetime sense)",
   "definition": "`PartOfSpacetime F x := F.partOf x F.whole`: x is a part of the spacetime whole; whether parthood is improper (the whole a part of itself) is left to the supplied relation.",
   "basis": "stipulative",

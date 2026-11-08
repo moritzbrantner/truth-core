@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-SCG",
+    "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
     "source_url": "https://www.corpusthomisticum.org/scg2056.html",
     "retrieved_at": "2026-11-05T14:01:19Z",
     "sha256": "sha256:73c4a8a79da86bc1efc9954ec6bc6d0b42a6e9aff36490922ca0a09527d2cf3e",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-SCG-II-80-LAT",
+      "id": "804e09f7-9882-5830-9cf6-45da7db827fa",
+      "label": "Thomas Aquinas, Summa contra gentiles, II.80 nn.7-14",
+      "legacy_id": "AQUINAS-SCG-II-80-LAT",
       "locator": "II.80 nn.7-14 [25281–25288]",
       "claim_locator_prefixes": [
         "II.80 "

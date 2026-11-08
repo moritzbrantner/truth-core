@@ -1,12 +1,14 @@
 {
-  "id": "RAILTON-MORAL-COGNITIVISM",
-  "statement_id": "STMT-MORAL-JUDGMENTS-ARE-TRUTH-APT",
-  "source_id": "RAILTON-MORAL-REALISM",
+  "id": "450d9e75-9414-5ead-b7f6-7494e73e0354",
+  "label": "Peter Railton, Moral Realism Pp. 165, §I: Moral judgments have a truth value: in practical matters…",
+  "legacy_id": "RAILTON-MORAL-COGNITIVISM",
+  "statement_id": "153a1380-89f3-56a5-bd02-6e0971e2c155",
+  "source_id": "9c27f7ff-a42c-52d1-b925-55318c284fe8",
   "locator": "pp. 165, §I: non-epistemic truth",
   "interpretation": "Reuse the proposition that moral judgments are capable of truth and falsity. This does not add universal bivalence, infallibility or a necessary link to motivation. Both authors expressly distinguish realism from those stronger claims.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-MORAL-STATEMENT",
-    "DEF-TRUTH-VALUE"
+    "32a2df81-c1f1-5013-b87d-97a934b46036",
+    "b83ce6c8-65a0-5006-a68c-250addcf1eac"
   ]
 }

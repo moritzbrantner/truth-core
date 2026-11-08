@@ -1,6 +1,8 @@
 {
-  "id": "COGITO-ANCESTRY-ROOT-FORK",
-  "argument_id": "COGITO-ANCESTRY-ROOT-FORK",
+  "id": "fe34d347-8cbd-5fdc-bf81-34e6c580bdd4",
+  "label": "Either some bearer of an occurring thought…, from Some thought episode occurs under the… and 5 more",
+  "legacy_id": "COGITO-ANCESTRY-ROOT-FORK",
+  "argument_id": "03a4c1f5-0526-548c-9fa9-645b40f6eee6",
   "challenge_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Challenge",
   "solution_module": "TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution",
   "theorem": "TruthCore.Results.Causality.CogitoNecessaryConcrete.ancestryRootFork",

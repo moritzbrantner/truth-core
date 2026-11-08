@@ -1,6 +1,8 @@
 {
-  "id": "WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
-  "argument_id": "WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+  "id": "3e004803-4095-5e1d-a587-8cb46745bf69",
+  "label": "In the unchanged rotating interpretation, the selected base is reflexive, both distinct Bool…",
+  "legacy_id": "WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS",
+  "argument_id": "b2d7c842-4b70-5bdf-af73-acec478a7af0",
   "challenge_module": "TruthCore.Results.Modal.RotatingPotentialCausers.Challenge",
   "solution_module": "TruthCore.Results.Modal.RotatingPotentialCausers.Solution",
   "theorem": "TruthCore.Results.Modal.RotatingPotentialCausers.checks",

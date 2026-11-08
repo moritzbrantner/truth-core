@@ -1,6 +1,8 @@
 {
-  "id": "SORITES-BOUNDARY",
-  "argument_id": "SORITES-BOUNDARY",
+  "id": "170b1bfd-4cfb-54cb-bbe3-f3181d57c723",
+  "label": "For every decidable binary predicate on a natural-number chain, positive first and negative last…",
+  "legacy_id": "SORITES-BOUNDARY",
+  "argument_id": "3ddea46c-90e1-54e0-aafb-d647151bbcb2",
   "challenge_module": "TruthCore.Results.Logic.SoritesBoundary.Challenge",
   "solution_module": "TruthCore.Results.Logic.SoritesBoundary.Solution",
   "theorem": "TruthCore.Results.Logic.SoritesBoundary.certificate",

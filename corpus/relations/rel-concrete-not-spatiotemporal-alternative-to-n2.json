@@ -1,9 +1,11 @@
 {
-  "id": "REL-CONCRETE-NOT-SPATIOTEMPORAL-ALTERNATIVE-TO-N2",
+  "id": "e78e106a-93bc-5346-88bb-df4c27528df1",
+  "label": "The Thomist combination: at the selected… alternative to N2, CONCRETE_NATURALISM_2: at the…",
+  "legacy_id": "REL-CONCRETE-NOT-SPATIOTEMPORAL-ALTERNATIVE-TO-N2",
   "subject_kind": "statement",
-  "subject_id": "STMT-SOME-CONCRETE-BEING-NOT-SPATIOTEMPORAL",
+  "subject_id": "83d1d4b4-7524-5a6d-9375-3bdcf7bf21af",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-NATURALISM-N2",
+  "object_id": "41ae1d27-391f-530e-a65c-4e2b2ef4b08e",
   "note": "The Thomist combination is the contradictory of N2 for the same sense and world (Naturalism.concreteNaturalism_excludes proves N2 excludes it; the converse needs excluded middle). Neither is a route premise, so the relation records the rivalry without a cost effect."
 }

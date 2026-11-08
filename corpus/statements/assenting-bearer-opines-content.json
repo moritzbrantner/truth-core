@@ -1,0 +1,16 @@
+{
+  "id": "8d90c06f-1a21-5765-a7d4-5c1d927694e9",
+  "label": "The bearer of an assenting episode opines that episode's content: ∀ b e, Bears b e → Assenting e →…",
+  "legacy_id": "STMT-ASSENTING-BEARER-OPINES-CONTENT",
+  "paraphrase": "OPEN premise: the bearer of an assenting episode opines that episode's content: ∀ b e, Bears b e → Assenting e → Opines b (content e).",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.AssentingBearerOpinesContent",
+  "definition_ids": [
+    "785a7605-da2b-59a0-b5a7-57326f3d33bf",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "9703834b-4e1d-5f4a-9e9a-2df5a215d493",
+    "e266a89b-a236-5693-b5dc-559da3975a8b"
+  ],
+  "disambiguation_ids": [
+    "723ec152-7352-5715-b81c-faf771b6dcb4"
+  ]
+}

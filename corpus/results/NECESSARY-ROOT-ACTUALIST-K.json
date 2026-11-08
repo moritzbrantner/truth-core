@@ -1,0 +1,12 @@
+{
+  "id": "e8356a0f-2dd5-5269-a667-4f4c9d4bd397",
+  "label": "Necessary-being node, actualist K…, from Some candidate is CONCRETE_6 and exists at… and 24 more",
+  "legacy_id": "NECESSARY-ROOT-ACTUALIST-K",
+  "argument_id": "bc03d6a8-b2d4-5a57-a61c-b62e37dc8ddf",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.rootActualistK",
+  "comparator_config": "results/NECESSARY-ROOT-ACTUALIST-K/comparator.json",
+  "status": "solution-present",
+  "description": "Imports the 25-input NecessaryClassicalGodRoot theorem once and unpacks its witness n. Its PerfectRootAt clause gives the actual root and NecessaryAt m.ontic w n, which is literally Holds frame V w (box (atom n)) for the existence valuation (necessaryAt_iff_boxExistsAt, Iff.rfl): no bridge premise identifies the route's necessity with the Kripke box. No frame condition is used, so the node holds in the weakest normal modal logic K."
+}

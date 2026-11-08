@@ -1,6 +1,8 @@
 {
-  "id": "NATURALISM-MATCHED-LOGICAL-FLOOR",
-  "argument_id": "NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "id": "272f0136-19e6-5055-ba90-9af10a449085",
+  "label": "The fixed public survivor dictionaries jointly…, from Excluded middle as a general principle…",
+  "legacy_id": "NATURALISM-MATCHED-LOGICAL-FLOOR",
+  "argument_id": "2611caa9-c39b-56d8-af57-aa1dbb8bdf7e",
   "challenge_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Challenge",
   "solution_module": "TruthCore.Results.Ontology.NaturalismLogicalFloor.Solution",
   "theorem": "TruthCore.Results.Ontology.NaturalismLogicalFloor.matchedFloor",

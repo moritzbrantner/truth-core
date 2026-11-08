@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOD-OF-CLASSICAL-THEISM",
+  "id": "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+  "label": "GOD_4: The case signature's IsGod g: g is GOD_4 in the sense of the GOD_4 of classical theism, not…",
+  "legacy_id": "DEF-GOD-OF-CLASSICAL-THEISM",
   "term": "God (the God of classical theism; Lean `IsGod`)",
   "definition": "The case signature's `IsGod g`: g is God in the sense of the God of classical theism, not merely what is called God. The stages after stage 1 and the root use this predicate. Its content is fixed only by the open premises that use it: STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES (simple, perfect, good, infinite, immutable, eternal, one, with intellect and will) and, on the older stage-1 routes, the identification premise STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD. On the designated route it is also fixed by the fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE, which applies the proper name 'God' to `IsGod` directly (DISAMB-GOD). The individual attribute senses and their one-way mapping to the skeleton field are recorded in DEF-CLASSICAL-ATTRIBUTES-BUNDLE and linked from STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES.",
   "basis": "stipulative",

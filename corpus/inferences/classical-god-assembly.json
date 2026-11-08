@@ -1,11 +1,13 @@
 {
-  "id": "INF-CLASSICAL-GOD-ASSEMBLY",
+  "id": "386dea77-bcf7-56e1-b46e-812701286fd6",
+  "label": "There is one and the same being that is God, is the only being to which the…, by Constructive-proof",
+  "legacy_id": "INF-CLASSICAL-GOD-ASSEMBLY",
   "input_statement_ids": [
-    "STMT-GOD-EXISTS",
-    "STMT-GOD-IS-ONE",
-    "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129",
+    "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
+    "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
   ],
-  "output_statement_id": "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS",
+  "output_statement_id": "20a2b6a3-83e7-5ea0-be63-9dbc03c302b3",
   "rule": "constructive-proof",
   "meaning": "Structural assembly/transcription only: take the existing GodExists witness g, apply the independent GodIsOne proposition to that SAME g, and apply GodHasClassicalAttributes to g. The result is the existing UniqueClassicalGodExists conjunction. This creates a modular argument-level consumer for existence and uniqueness proofs; it proves no attribute, nominal identification or philosophical premise and does not unpack the primitive HasClassicalAttributes field. No philosophical frontier closes merely from this assembly.",
   "assumption_statement_ids": [],

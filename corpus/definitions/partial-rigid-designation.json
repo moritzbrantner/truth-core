@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTIAL-RIGID-DESIGNATION",
+  "id": "bff04678-e0a0-5b9b-a182-484afb5506df",
+  "label": "Existence-sensitive partial rigid…: A Name is a relation from candidate descriptions to candidate…",
+  "legacy_id": "DEF-PARTIAL-RIGID-DESIGNATION",
   "term": "existence-sensitive partial rigid designation",
   "definition": "A Name is a relation from candidate descriptions to candidate bearers, with no totality or functionality built into its type. RigidAt m n w x says at every m-accessible v, n v y iff y = x and ExistsAt v x. Hence no other bearer is designated, and the selected bearer is designated exactly when it exists at that successor. It does not assert an actual referent or actual existence, and does not constrain E-only alternatives. Ontic and NecessaryAt retain their existing meanings.",
   "basis": "stipulative",

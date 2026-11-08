@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
-  "argument_id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "id": "a39310b1-ec51-5654-aaf8-5ac5a17a47fb",
+  "label": "Bivalence of thought, every proposition is…, from Thought, in affirming or denying, is… and 1 more",
+  "legacy_id": "BRIDGE-IV7-READING-B-HALVES-YIELD-BIVALENCE",
+  "argument_id": "fe8d28bb-30ef-5836-b695-8015aab04c49",
   "challenge_module": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.Challenge",
   "solution_module": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.Solution",
   "theorem": "TruthCore.Results.Bridges.IV7ReadingBHalvesYieldBivalence.everyObjectOfThoughtJudgedOfReadingBHalves",

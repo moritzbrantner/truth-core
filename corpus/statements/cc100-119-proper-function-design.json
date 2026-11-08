@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-119-PROPER-FUNCTION-DESIGN",
+  "id": "9464e2ac-ae8d-581a-898d-0ea4c4bc3ddd",
+  "label": "Our cognitive faculties have a proper function only if they are designed",
+  "legacy_id": "STMT-CC100-119-PROPER-FUNCTION-DESIGN",
   "paraphrase": "Our cognitive faculties have a proper function only if they are designed.",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

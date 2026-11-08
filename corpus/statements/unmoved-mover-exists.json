@@ -1,5 +1,7 @@
 {
-  "id": "STMT-UNMOVED-MOVER-EXISTS",
+  "id": "d18a9d11-8c0c-5f13-8702-1c6f39bdd719",
+  "label": "There exists a mover that is not itself moved",
+  "legacy_id": "STMT-UNMOVED-MOVER-EXISTS",
   "paraphrase": "There exists a mover that is not itself moved.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.UnmovedMoverExistsReading"
 }

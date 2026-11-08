@@ -1,0 +1,17 @@
+{
+  "id": "962a9ed3-f084-5cac-a8e6-b4e52e6a7ade",
+  "label": "A mover other than what it moves that is being moved in a respect relevant to its moving of that…",
+  "legacy_id": "STMT-MOVED-MOVER-IS-INSTRUMENT",
+  "paraphrase": "A mover other than what it moves that is being moved in a respect relevant to its moving of that thing does not move it by the power of its own form: it moves it as an instrument. Analyst formulation, open; restricted to the relevant respect, so weaker than STMT-WHATEVER-MOVES-AND-IS-MOVED-MOVES-AS-INSTRUMENT.",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.MovedMoverIsInstrument",
+  "definition_ids": [
+    "45595dac-061a-5240-a6c7-f16d4e632357",
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

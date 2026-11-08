@@ -1,0 +1,10 @@
+{
+  "id": "e5ca09aa-c0f2-5784-8c28-eb9c1ccc6fec",
+  "label": "Operating from itself at a time: OperatesFromItselfAt x t: x's operation from itself is present at…",
+  "legacy_id": "DEF-OPERATES-FROM-ITSELF-AT",
+  "term": "operating from itself at a time (OperatesFromItselfAt x t)",
+  "definition": "OperatesFromItselfAt x t: x's operation from itself (q.18 a.3 co.: operari ex seipsis, non quasi ab aliis mota) is present at time t of the duration frame; for what is not in time, presence at t is read with q.10 a.2 ad 4. It is the timed counterpart of Operates (SelfOperationLife). In Lean a parameter B -> T -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.SelfOperationPresentAtSomeTime",
+  "note": "Stipulative analyst notion, attribution deferred (round 5 worklist, specs/round5-worklist.toml). Sourcing it would need a typed reading of the cited articles; until then it is constrained only by the open premises that use it."
+}

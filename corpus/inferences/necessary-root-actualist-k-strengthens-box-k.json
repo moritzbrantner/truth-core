@@ -1,0 +1,13 @@
+{
+  "id": "e18ff3b7-8e93-5b8c-91c6-54617870d595",
+  "label": "Necessary-being node, possibilist K reading: there is an actual root n…, by Conjunction elimination",
+  "legacy_id": "INF-NECESSARY-ROOT-ACTUALIST-K-STRENGTHENS-BOX-K",
+  "input_statement_ids": [
+    "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5"
+  ],
+  "output_statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
+  "rule": "Conjunction elimination",
+  "meaning": "Strength registration: the actualist K node implies the possibilist K node (drop the actual-existence clause).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A3-NONRIGID-FIRST-TRANSITION",
-  "statement_id": "STMT-NB-A3-NONRIGID-FIRST-TRANSITION",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "e4fa3335-80ff-5c59-bd41-3c56b7dbd1e7",
+  "label": "Unattributed website author, Necessary…: The source asserts that a possible beginning C of all…",
+  "legacy_id": "NB-SURVEY-A3-NONRIGID-FIRST-TRANSITION",
+  "statement_id": "5c7cc039-007b-545f-bade-3f97499229eb",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A3C, steps 1–4 and note following step 11, with event/beginning title attributes",
   "interpretation": "This is the author's asserted transition inference under the selected possible-beginning report. No inference from each member's contingency to a contingent whole, no fixed joint actual roster and no quantitative count threshold are asserted. The represented source event is not definitionally Scenario.ContingencyBeginsAt.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

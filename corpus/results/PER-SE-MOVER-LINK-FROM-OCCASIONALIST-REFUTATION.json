@@ -1,0 +1,12 @@
+{
+  "id": "ee08c884-bdc3-5c64-90d2-b14a676d2279",
+  "label": "Whatever moves another only as moved is, in that, an efficient…, from occasionalist refutation",
+  "legacy_id": "PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION",
+  "argument_id": "a3e4a247-4707-5052-9840-0970da672cc5",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.perSeMoverLinkFromOccasionalistRefutation",
+  "comparator_config": "results/PER-SE-MOVER-LINK-FROM-OCCASIONALIST-REFUTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Every per se mover link is a per se cause link, from the conclusion of NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS (no y moves x as moved without causing x as caused, on the same MovesAsMoved and CausesAsCaused) and excluded middle. The refutation's premises (the per se mover-link analysis, every mover is an efficient cause, second efficient causes cause only as caused) stay OPEN; nothing about the identity of the two relations is claimed beyond inclusion."
+}

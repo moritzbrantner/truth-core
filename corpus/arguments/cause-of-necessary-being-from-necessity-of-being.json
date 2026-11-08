@@ -1,0 +1,23 @@
+{
+  "id": "30c06bc2-bf20-522a-b91b-18a67e347cec",
+  "label": "Whatever causes the being of a NECESSARY_1 being causes its necessity…, from necessity of being",
+  "legacy_id": "CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
+  "premise_statement_ids": [
+    "651a68d4-a36e-5237-925b-ffdedcf41144",
+    "0014afa4-30be-5693-9a41-93bf0eaa923c"
+  ],
+  "conclusion_statement_id": "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+  "inference_ids": [
+    "fe4f35c8-dc1e-5ca9-bb4a-5125897ea029"
+  ],
+  "meaning": "Transcription (single application): the proof applies the causing-necessity-respect premise, whose consequent is the conclusion's, after the other premise supplies its antecedent, so under invariant 16 it does not expand the target. Whatever causes the being of a necessary being causes its necessity, from two OPEN premises: a necessary being's necessity consists in its being (esse), and causing a thing in the respect in which its necessity consists causes its necessity. Analyses the bridge's 'since its necessity is the necessity of its being' through a typed respect relation.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "f8def333-9f90-5fd1-9ae5-5cbecb41a056"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

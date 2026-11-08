@@ -1,9 +1,11 @@
 {
-  "id": "REL-INFINITE-LOCAL-TRANSMISSION-MODEL-ATTACKS-UNQUALIFIED-CAUSAL-REGRESS",
+  "id": "4d7ea506-5012-55a9-a16a-8db74dca38c1",
+  "label": "A chain with infinitely many predecessors… attacks A per se ordered series of efficient causes…",
+  "legacy_id": "REL-INFINITE-LOCAL-TRANSMISSION-MODEL-ATTACKS-UNQUALIFIED-CAUSAL-REGRESS",
   "subject_kind": "argument",
-  "subject_id": "INFINITE-LOCAL-TRANSMISSION-MODEL",
+  "subject_id": "d6369ed4-f04b-57e3-85d5-c64066d7c8df",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES",
+  "object_id": "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
   "note": "Challenges an attempted proof of the per se regress premise that assumes only an infinite predecessor order and local agreement of current activity. The countermodel does NOT refute the stronger metaphysical premise; it requires a further defense of why genuine derivative power cannot behave like this model. The contradiction for Grim Reapers additionally depends on their specific no-earlier-action firing law."
 }

@@ -1,17 +1,19 @@
 {
-  "id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "id": "56790e3a-f788-5630-9170-df6915b4a06d",
+  "label": "In classical logic, for every relation R on any type of beings: every being is R-accessible…",
+  "legacy_id": "REGRESS-READINGS-COINCIDE-CLASSICALLY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
+  "conclusion_statement_id": "61f5949d-a8d6-5fa6-8864-2c4e891e1610",
   "inference_ids": [
-    "INF-REGRESS-ACCESSIBILITY-EXCLUDES-DESCENDING-SERIES",
-    "INF-REGRESS-READINGS-COINCIDE-CLASSICALLY"
+    "4f86d658-e9e3-5e11-a6cb-3f2c71a96554",
+    "387a1565-7cfd-5b86-b211-ce6897987cbc"
   ],
   "meaning": "A classical fidelity check: with excluded middle, the accessibility reading of the per se regress premise is equivalent to the literal no-infinite-series reading, so the formalization does not strengthen the literal reading in classical logic. The converse direction uses Classical.choice through Mathlib and must not be cited where excluded middle is in question. It proves neither reading of any actual causal relation and leaves STMT-NO-INFINITE-PER-SE-EFFICIENT-CAUSE-SERIES open.",
   "definition_ids": [
-    "DEF-NO-INFINITE-DESCENDING-PER-SE-SERIES",
-    "DEF-REGRESS-ACCESSIBILITY-READING"
+    "21910345-6932-5931-8953-493c8f7e1000",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690"
   ],
   "disambiguation_ids": [
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

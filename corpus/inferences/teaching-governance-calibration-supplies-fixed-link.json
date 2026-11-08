@@ -1,10 +1,12 @@
 {
-  "id": "INF-TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
+  "id": "f10d56f9-4b41-5e5a-82b3-a3e845074223",
+  "label": "Open fixed broader institutional bridge, with governing powers exactly the…, by Constructive-proof",
+  "legacy_id": "INF-TEACHING-GOVERNANCE-CALIBRATION-SUPPLIES-FIXED-LINK",
   "input_statement_ids": [
-    "STMT-COMMISSION-GOVERNANCE-INCLUDES-TEACHING",
-    "STMT-CHURCH-INSTITUTION-LINK-FOR-SELECTED-GOVERNANCE"
+    "9981db29-aa03-56f8-a2de-a04eed444b91",
+    "8e5da2fb-6205-5431-983a-365ff9419143"
   ],
-  "output_statement_id": "STMT-CHURCH-TEACHING-INCLUSIVE-INSTITUTION-LINK",
+  "output_statement_id": "df89b45e-7e15-5063-85f4-d55fe99a2afb",
   "rule": "constructive-proof",
   "meaning": "Definition-projection transcription: map the literal teaching-inclusive governing criterion into the selected predicate through its explicit calibration, then apply the matching institutional bridge. No transfer from the old narrow bridge is assumed.",
   "assumption_statement_ids": [],

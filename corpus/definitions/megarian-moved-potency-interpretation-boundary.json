@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
+  "id": "2d9a0a6a-3406-55f0-ad49-d9963fdaf116",
+  "label": "Megarian capacity versus potency at…: Analyst scope restriction of the existing…",
+  "legacy_id": "DEF-MEGARIAN-MOVED-POTENCY-INTERPRETATION-BOUNDARY",
   "term": "Megarian capacity versus potency at moved tuples",
   "definition": "Analyst scope restriction of the existing PotencyIsUnactualizedCapacityReading: for actually moved tuples only, InPotency implies CanBe and not InAct in the SAME respect. It does not change any source-derived reading, assert actual movement, identify CanBe with Kripke possibility, or equate virtual with formal act. This scope weakening is new because the prior full biconditional and generic Megarian thesis did not themselves determine the moved-in-potency conclusion. Existing Megarian models are extended only by independent potency predicates; no old model fields change.",
   "basis": "stipulative",

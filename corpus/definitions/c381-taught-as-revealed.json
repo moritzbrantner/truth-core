@@ -1,0 +1,10 @@
+{
+  "id": "0bc10b49-86e0-594c-acad-5d159309f8ae",
+  "label": "Taught by the Council of…: TaughtAsRevealed p: the Council of Constantinople, in its creed, taught…",
+  "legacy_id": "DEF-C381-TAUGHT-AS-REVEALED",
+  "term": "taught by the Council of Constantinople (381) as revealed (Conciliar.TaughtAsRevealed)",
+  "definition": "`TaughtAsRevealed p`: the Council of Constantinople (381), in its creed, taught p as belonging to the revealed faith. A predicate of the case's propositions, distinct from the Catholic Church's definitive proposal (`DefinitivelyProposesAsRevealed`, DEF-DEFINITIVELY-PROPOSES-AS-REVEALED): a council's teaching becomes the Church's proposal only through reception, the open premise STMT-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Conciliar",
+  "note": "Analyst vocabulary. CREED-C381-ART-* record the creed's contents; they do not define the council's teaching act."
+}

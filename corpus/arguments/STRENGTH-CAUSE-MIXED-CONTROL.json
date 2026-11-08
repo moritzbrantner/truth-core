@@ -1,16 +1,18 @@
 {
-  "id": "STRENGTH-CAUSE-MIXED-CONTROL",
+  "id": "0f42559b-7694-55b8-9574-e18136893394",
+  "label": "The Bool relation containing every pair satisfies the local alternative-CAUSE_2 condition and also…",
+  "legacy_id": "STRENGTH-CAUSE-MIXED-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSE-READINGS-MIXED-SELF-OTHER-CONTROL",
+  "conclusion_statement_id": "37a30813-659f-58e6-8f44-376c122bc6a7",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-MIXED-CONTROL"
+    "e93c5dad-ccfe-5493-bcc2-c16715459baf"
   ],
   "meaning": "The all-pairs Bool control satisfies D while admitting self-causation; D is not global irreflexivity.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

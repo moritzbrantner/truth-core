@@ -1,0 +1,15 @@
+{
+  "id": "82187da3-2e7b-53c5-9c41-6ddf582fbbe3",
+  "label": "An efficient cause is prior to what it causes, by Universal instantiation and…",
+  "legacy_id": "INF-EFFICIENT-CAUSE-PRIOR-FROM-NONMUTUAL-DEPENDENCE",
+  "input_statement_ids": [
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d"
+  ],
+  "output_statement_id": "e078f07b-a4b8-595e-a3ee-02dd83474450",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Derives the secunda via premise that an efficient cause is simply prior to its effect from three OPEN premises: the effect depends for its being on its efficient cause (q.44 a.1 ad 2 read as dependence), the cause does not depend on its effect, and nonmutual dependence suffices for simple priority.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

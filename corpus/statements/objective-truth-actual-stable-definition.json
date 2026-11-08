@@ -1,12 +1,14 @@
 {
-  "id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
+  "id": "326adc2f-b56d-58af-802e-9bf3a6f46c61",
+  "label": "Analyst definition proposition: in this fixed profile, a sentence is objectively true exactly when…",
+  "legacy_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION",
   "paraphrase": "Analyst definition proposition: in this fixed profile, a sentence is objectively true exactly when it is actually true and its truth status is stable across the supplied attitude profiles. No adoption or independent warrant for this calibration is claimed.",
   "lean_declaration": "TruthCore.Logic.ObjectiveTruthDefinitionFork.ActualStableDefinition",
   "definition_ids": [
-    "DEF-OBJECTIVE-TRUTH-PROFILE-FRAME",
-    "DEF-OBJECTIVE-TRUTH-ACTUAL-STABLE"
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43"
   ],
   "disambiguation_ids": [
-    "DISAMB-OBJECTIVE-TRUTH-CALIBRATIONS"
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LIMIT-ADMISSION-TERMINAL",
+  "id": "708ec18d-f0e4-52a7-9351-6f86decc5206",
+  "label": "TERMINAL_OUTCOME_COHERENCE_4: A state assigns Bool values to the existing SupertaskMoment.stage n…",
+  "legacy_id": "DEF-LIMIT-ADMISSION-TERMINAL",
   "term": "terminal outcome coherence",
   "definition": "A state assigns Bool values to the existing SupertaskMoment.stage n and separate .limit. TerminalOutcome requires the sequence of stage states to converge in discrete Bool topology to the assigned endpoint value. It is separate from convergence of stage times and from an endpoint event. mismatchedState assigns true to every stage and false to the endpoint; constant true supplies a coherent positive assignment. No real physical continuity or completion is asserted.",
   "basis": "stipulative",

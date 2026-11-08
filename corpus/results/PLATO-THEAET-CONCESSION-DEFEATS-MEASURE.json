@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
-  "argument_id": "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "id": "1d912868-7820-5934-b827-d1b8248043cb",
+  "label": "The unrestricted measure doctrine fails: not…, from What the restricted doctrine concedes…",
+  "legacy_id": "PLATO-THEAET-CONCESSION-DEFEATS-MEASURE",
+  "argument_id": "20c5e9de-ab22-5e13-9156-38f7554e1345",
   "challenge_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Challenge",
   "solution_module": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.Solution",
   "theorem": "TruthCore.Results.Plato.Theaetetus.ConcessionDefeatsMeasure.concessionDefeatsMeasure",

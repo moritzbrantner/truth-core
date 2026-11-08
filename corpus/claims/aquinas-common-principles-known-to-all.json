@@ -1,7 +1,9 @@
 {
-  "id": "AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL",
-  "statement_id": "STMT-AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL",
-  "source_id": "AQUINAS-ST",
+  "id": "d5513578-a72c-59b7-a61d-d5e63430a13f",
+  "label": "Thomas Aquinas, Summa theologiae I ii q.94…: Aquinas, ST i ii q.94 a.4: as to the common…",
+  "legacy_id": "AQUINAS-COMMON-PRINCIPLES-KNOWN-TO-ALL",
+  "statement_id": "fcd611b9-943d-5bfa-b618-bbb19f623348",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I-II q.94 a.4 co.: quantum ad communia principia rationis sive speculativae sive practicae, est eadem veritas seu rectitudo apud omnes, et aequaliter nota",
   "interpretation": "I-II q.94 a.4 co.: 'quantum ad communia principia rationis sive speculativae sive practicae, est eadem veritas seu rectitudo apud omnes, et aequaliter nota. Quantum vero ad proprias conclusiones rationis speculativae, est eadem veritas apud omnes, non tamen aequaliter omnibus nota'. Read from the pinned SCTA witness. The article does not say whether God's existence is a common principle or a proper conclusion; classifying it is a further premise, not stated here.",
   "status": "formalized",

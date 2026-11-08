@@ -1,9 +1,11 @@
 {
-  "id": "INF-WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
+  "id": "523b8c12-70a9-54a9-98e0-eea61ddf9555",
+  "label": "Universal doubt does not hold: whoever wanted to doubt everything would not get as…, by Reductio",
+  "legacy_id": "INF-WITTGENSTEIN-UNIVERSAL-DOUBT-FAILS",
   "input_statement_ids": [
-    "STMT-OC-DOUBT-RESTS-ON-EXEMPT-SENTENCES"
+    "1f9c3b57-42b7-5c33-82a7-feaaaa5d7b81"
   ],
-  "output_statement_id": "STMT-UNIVERSAL-DOUBT-FAILS",
+  "output_statement_id": "1994160a-2ec3-5619-8562-10e227431254",
   "rule": "reductio",
   "meaning": "Suppose something is doubted and everything is doubted. The doubt supplies, by the premise, an exempt sentence; universality makes it doubted. Contradiction.",
   "assumption_statement_ids": [],

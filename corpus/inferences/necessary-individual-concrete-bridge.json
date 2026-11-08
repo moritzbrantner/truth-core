@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "id": "62bd8295-4fd3-592c-8c4e-44ab0a931262",
+  "label": "In the same inhabited two-world universal frame, with all two roster members…, by Direct-proof",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-CONCRETE-BRIDGE",
+  "output_statement_id": "9d216dd8-797c-50a4-af4d-e988f7e0758f",
   "rule": "direct-proof",
   "meaning": "Unfold the stated predicates and check the complete finite Bool model by kernel-reducible decision. No philosophical premise is discharged.",
   "assumption_statement_ids": [],

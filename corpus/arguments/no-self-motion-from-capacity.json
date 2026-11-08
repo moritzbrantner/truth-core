@@ -1,0 +1,26 @@
+{
+  "id": "e417a889-c113-549e-a254-1df22ef38723",
+  "label": "With POTENCY_3 (capacity), nothing moves itself in the same respect",
+  "legacy_id": "NO-SELF-MOTION-FROM-CAPACITY",
+  "premise_statement_ids": [
+    "419363e2-42c6-5579-a8b5-5c5eecc1fb24",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "4dd1d52a-574c-5d32-a8cd-d2a24d3f20fa"
+  ],
+  "conclusion_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
+  "inference_ids": [
+    "7d4e601d-0be8-566b-9aaf-6c549e76c640"
+  ],
+  "meaning": "POTENCY_3 (CAPACITY) branch: what is moved has the CAPACITY, a mover is in act, and nothing in act has the CAPACITY for that act; so nothing moves itself in the same respect. The branch is valid, but its non-simultaneity premise is refuted under STMT-SOME-CAPACITY-EXERCISED (CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE).",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

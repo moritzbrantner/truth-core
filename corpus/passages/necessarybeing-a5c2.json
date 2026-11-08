@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "NECESSARYBEING-SURVEY",
+    "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
     "encoding": "utf-8",
     "language": "eng",
     "source_url": "https://www.necessarybeing.com/a5c2.html",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "NECESSARYBEING-A5C2",
+      "id": "22c211e0-dde8-56f8-ae53-13db0656e152",
+      "label": "Unattributed website author, Necessary Being interactive survey, A5C2, complete interactive page",
+      "legacy_id": "NECESSARYBEING-A5C2",
       "locator": "A5C2, complete interactive page",
       "claim_locator_prefixes": [
         "A5C2,"

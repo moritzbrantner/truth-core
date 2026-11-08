@@ -1,5 +1,7 @@
 {
-  "id": "DEF-JOINT-COOPERATION-BRANCHES",
+  "id": "39ee9ec8-6405-5779-b01e-61468faab2dc",
+  "label": "NO_COOPERATION_NEEDED_1, common source…: Relative to one Exercise",
+  "legacy_id": "DEF-JOINT-COOPERATION-BRANCHES",
   "term": "no cooperation needed, common source, mutual fit, brute coincidence",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.JointCooperation.BruteCoincidence",

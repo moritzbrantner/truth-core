@@ -1,5 +1,7 @@
 {
-  "id": "DEF-COUNT-TEMPORAL-THRESHOLD",
+  "id": "52766381-e6ac-5634-a69b-e59f1ecafbff",
+  "label": "First contingent concrete count…: AtLeastAt h Concrete v n t is an injective map Fin n to distinct…",
+  "legacy_id": "DEF-COUNT-TEMPORAL-THRESHOLD",
   "term": "first contingent concrete count threshold in one temporal history",
   "definition": "AtLeastAt h Concrete v n t is an injective map Fin n to distinct beings, each concrete, ContingentAt h.ontic v, and temporally present at t. CausedThreshold h Concrete CauseCount v n supplies one concrete cause c present at tc<t0, a CauseCount v c n t0 edge, that threshold at t0, and absence of such a threshold at every earlier time. Worlds, individuals and times reuse existing History. CauseCount denotes causing the threshold situation; it is a separate supplied relation, not Ontic.Causes, individual production or fact-to-fact explanation. No structural causal law or time persistence is assumed.",
   "basis": "stipulative",

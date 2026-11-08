@@ -1,0 +1,11 @@
+{
+  "id": "ce184c10-44d0-5412-abbb-a1c1be1b3d6a",
+  "label": "Finite interpretations for the fourteen derivations of round 2: for each…, by Explicit finite…",
+  "legacy_id": "INF-ROUND2-EXISTENCE-ACT-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "16b3b286-aa4b-53a2-9b7b-70138a589c8e",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations for the fourteen derivations of round 2: for each premise other than excluded middle, a hand-written Unit (or two-respect Bool) model, checked by decide without axioms, in which the other premises hold and the conclusion fails; and one joint model in which a thought occurs and its bearer exists, exercises intellect, opines, causes and is in act of esse, with every premise and conclusion of the batch holding. Satisfiability and omission only; no model is claimed to describe reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

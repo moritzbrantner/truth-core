@@ -3,6 +3,7 @@ import { describe, expect, test } from "bun:test";
 import { getCorpus } from "./corpus";
 import { indexLeanSource, leanIndex, theoremInModule } from "./lean-source";
 import { getFrontierReport, resultKind, statementState } from "./site-state";
+import { legacyUuid } from "./corpus-ids";
 
 describe("state of the case (#200)", () => {
   const corpus = getCorpus();
@@ -15,8 +16,8 @@ describe("state of the case (#200)", () => {
     for (const id of Object.keys(report.closed_statements)) {
       expect(statementState(report, id).kind).toBe("closed");
     }
-    expect(statementState(report, "STMT-EXCLUDED-MIDDLE")).toEqual({ kind: "closed", reason: "self_evident", established: true });
-    expect(statementState(report, "STMT-CATHOLICISM-TRUE")).toMatchObject({ kind: "closed", established: false });
+    expect(statementState(report, legacyUuid("statement", "STMT-EXCLUDED-MIDDLE"))).toEqual({ kind: "closed", reason: "self_evident", established: true });
+    expect(statementState(report, legacyUuid("statement", "STMT-CATHOLICISM-TRUE"))).toMatchObject({ kind: "closed", established: false });
   });
 
   test("transcriptions are the results corpus.py lists as transcriptions", () => {

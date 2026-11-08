@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
-  "statement_id": "STMT-AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
-  "source_id": "AQUINAS-ST",
+  "id": "bd3767d3-3d65-5f3e-a1b1-925c29bbf116",
+  "label": "Thomas Aquinas, Summa theologiae I q.44 a.1…: Some necessary things have causes of their…",
+  "legacy_id": "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE",
+  "statement_id": "8c3870b7-0d16-5714-8f99-6ea8ef9fb229",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.44 a.1 ad 2, reply to the claim that what cannot not-be needs no efficient cause",
   "interpretation": "Aquinas rejects the necessity-therefore-uncaused inference, citing necessary principles causing necessary conclusions and Aristotle’s caused necessities. The demonstrative example is not by itself an efficient-cause ontology. The reply’s efficient-cause conclusion is retained without treating every necessary being as caused or proving every cause of esse is a cause of necessity. Reading is based on the verified complete Latin article and its objections/replies; no formal proof or independent premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-Q44-CAUSED-NECESSITY-DEPENDENCE",
-    "DEF-ESSE",
-    "DEF-CAUSE-OF-PERFECTION"
+    "f114f527-20e2-5997-8219-df7f0457cf63",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY",
-    "DISAMB-CAUSE",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

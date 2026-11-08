@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "DELLA-ROCCA-PSR-2010",
+    "source_id": "c755de1a-8977-5d3d-b413-cfb0541db2a5",
     "source_url": "https://quod.lib.umich.edu/cgi/p/pod/dod-idx/psr.pdf?c=phimp;idno=3521354.0010.007;format=pdf",
     "retrieved_at": "2026-10-30T23:56:54Z",
     "sha256": "sha256:c37681dcf96851da25625407567aa10e59b77816e82e37ca40aee63f15fc54a8",
@@ -13,7 +13,9 @@
   },
   "passages": [
     {
-      "id": "DELLA-ROCCA-PSR-PP1-10",
+      "id": "c35cc182-bde0-5884-9a72-d65d12ba46b4",
+      "label": "Michael Della Rocca, PSR, PSR, pp.1-10 with footnotes 2 and 13",
+      "legacy_id": "DELLA-ROCCA-PSR-PP1-10",
       "locator": "PSR, pp.1-10 with footnotes 2 and 13",
       "claim_locator_prefixes": [
         "pp.1-10"
@@ -26,7 +28,9 @@
       "incipit": "Imprint Philosophers’ \b \b volume 10, no. 7 july 2010 PSR Michael Della Rocca"
     },
     {
-      "id": "DELLA-ROCCA-PSR-PP11-13",
+      "id": "886a57b0-2b17-58c6-a6a8-ec897743488c",
+      "label": "Michael Della Rocca, PSR, PSR, pp.11-13, concluding reply to coherentist alternative…",
+      "legacy_id": "DELLA-ROCCA-PSR-PP11-13",
       "locator": "PSR, pp.11-13, concluding reply to coherentist alternative and idealist implications",
       "claim_locator_prefixes": [
         "pp.11-13"

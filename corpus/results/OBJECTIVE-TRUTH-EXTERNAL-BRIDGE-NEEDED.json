@@ -1,6 +1,8 @@
 {
-  "id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
-  "argument_id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "id": "3475369c-9c70-576e-96fa-8b1e62e15f55",
+  "label": "The explicit invariance-only model satisfies all four semantic/classification premises of poe…",
+  "legacy_id": "OBJECTIVE-TRUTH-EXTERNAL-BRIDGE-NEEDED",
+  "argument_id": "a0939704-3326-5c06-b962-f081792e5002",
   "challenge_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Challenge",
   "solution_module": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution",
   "theorem": "TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.bridgeOmission",

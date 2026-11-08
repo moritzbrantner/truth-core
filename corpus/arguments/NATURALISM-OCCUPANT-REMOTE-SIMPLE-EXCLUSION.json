@@ -1,36 +1,38 @@
 {
-  "id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
+  "id": "89ee4e80-03e3-57e0-b290-ea974075f771",
+  "label": "No candidate existing at the…, from N1, EXISTENCE_NATURALISM_1: at the selected… and 4 more",
+  "legacy_id": "NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION",
   "premise_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-THESIS-CONTAINED-IN-SPACETIME",
-    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
-    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
-    "STMT-TWO-BEINGS-EXIST-AT"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "5aed0767-9cad-5965-8912-e7b8ea11fd6e",
+    "d677b0c4-ce93-5d51-a157-17105d546228",
+    "c4e3fb4f-6efc-5389-ad00-8fd11e807d1b",
+    "705934a4-2f65-52bd-8628-e85da04ec78d"
   ],
-  "conclusion_statement_id": "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+  "conclusion_statement_id": "0cdd5abe-664c-50b9-85e7-d55dd070ee71",
   "inference_ids": [
-    "INF-NATURALISM-OCCUPANT-REMOTE-SIMPLE-EXCLUSION"
+    "4afbd10f-dcac-5292-8554-9463308c9027"
   ],
   "meaning": "Compose the checked part-based exclusion with the existing thesis-containment bridge instantiated at Located F: occupant N1 makes every existing candidate located; containment makes it a part of the same selected spacetime whole. The two component/composite bridges and distinct population then exclude an existing simple remote candidate under the shared Case dictionary. Without containment, the exported controls show occupant N1 can survive failed part N1. No inference from physical to spatiotemporal or from a naming implication to God-characterization is added.",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-SPATIOTEMPORAL-FRAME",
-    "DEF-PART-OF-SPACETIME",
-    "DEF-SPATIOTEMPORAL-LOCATED",
-    "DEF-COMPOSITION-COMPONENT",
-    "DEF-REMOTE-FROM-ALL",
-    "DEF-SIMPLE",
-    "DEF-EXISTING-SPACETIME-PART-COMPONENT-BRIDGE",
-    "DEF-EXISTING-SPACETIME-COMPONENT-COMPOSITE-BRIDGE",
-    "DEF-NATURALISM-REMOTE-SIMPLE-CONTRAST",
-    "DEF-SPACETIME-WHOLE-OCCUPATION-SCOPE",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "e9e031af-665e-5888-9328-f7637b5a2677",
+    "cc2b5981-93cb-5ba7-9731-1512cd0f69e7",
+    "ddde7152-b698-5a85-8060-b8c6c9905758",
+    "98ac7aa1-54cb-553c-826b-2a69257f6cbe",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "bae75d6b-4bf8-5ef2-b3e0-facbfd03da1e",
+    "bcdff4ce-baf7-5142-a56a-6d03c075da77",
+    "14596727-f94a-5087-8c66-058abe03cdd6",
+    "d438a89b-9dee-5db2-9d39-60dea5049396",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-SPATIOTEMPORAL",
-    "DISAMB-SPACETIME-PART-AND-COMPOSITION"
+    "1ea8b036-7a66-540a-be38-301a8db9077c",
+    "a536a633-ff4c-5497-bea4-6954ddd58808"
   ],
   "strong_version_needed": {
-    "STMT-NATURALISM-N1": "This comparison tests N1 over every existing candidate. The conclusion ranges over the remote/simple candidate, both population witnesses, or the selected whole without a supplied concreteness predicate or an all-existents-concrete bridge. N2 would constrain only the concrete subset and would need an additional explicit classification bridge; that is a different configuration, not a replacement justified by this signature."
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc": "This comparison tests N1 over every existing candidate. The conclusion ranges over the remote/simple candidate, both population witnesses, or the selected whole without a supplied concreteness predicate or an all-existents-concrete bridge. N2 would constrain only the concrete subset and would need an additional explicit classification bridge; that is a different configuration, not a replacement justified by this signature."
   }
 }

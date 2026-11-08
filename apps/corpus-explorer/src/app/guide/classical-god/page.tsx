@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 import { StatementStateMark } from "@/components/state-mark";
-import { getCorpus } from "@/lib/corpus";
+import { getCorpus, nameOf } from "@/lib/corpus";
+import { legacyUuid } from "@/lib/corpus-ids";
 import { theoremInModule } from "@/lib/lean-source";
 import { getFrontierReport, sourceUrl, statementState, type FrontierReport } from "@/lib/site-state";
 import { ASSEMBLY_RESULT_ID, buildGodWalkthrough, GOD_ROOT_ID, type GuideStage } from "./walkthrough";
@@ -62,7 +63,7 @@ function Stage({ stage, number, count, report }: {
       <summary>Technical evidence · all {stage.premises.length} named inputs, sources and theorem</summary>
       <div className={styles.technicalInner}>
         <p>
-          These are the exact direct inputs of <Link href={`/results/${stage.result.id}`}>{stage.result.id}</Link>.
+          These are the exact direct inputs of <Link href={`/results/${stage.result.id}`}>{nameOf(stage.result.id)}</Link>.
           They are not all independent philosophical primitives. The status labels come from the corpus frontier,
           not from this walkthrough; a formally derived input can still rest on open premises.
         </p>
@@ -79,7 +80,7 @@ function Stage({ stage, number, count, report }: {
         {stage.sourceClaims.length ? <div className={styles.sourceRecords}>
           <h4>Selected existing source readings</h4>
           <ul>{stage.sourceClaims.map((claim) => <li key={claim.id}>
-            <Link href={`/claims/${claim.id}`}>{claim.id}</Link> · {claim.locator}
+            <Link href={`/claims/${claim.id}`}>{nameOf(claim.id)}</Link> · {claim.locator}
           </li>)}</ul>
           <p>Source attribution records an interpretation, not a proof of the premise.</p>
         </div> : <p>No attributed source reading is attached to the highlighted inputs; consult each premise dossier.</p>}
@@ -103,7 +104,7 @@ export default function ClassicalGodGuide() {
   const shortest = Math.min(...walkthrough.rootRoutes.map((route) => route.cost));
   const finalStep = walkthrough.stages.at(-1)!;
   const provedButUnestablished = new Set(walkthrough.route.proved_unestablished_statement_ids);
-  const forestQuery = new URLSearchParams({ goal: GOD_ROOT_ID, compare: "STMT-BRUTE-ROOT-DISJUNCTION", sel: GOD_ROOT_ID });
+  const forestQuery = new URLSearchParams({ goal: GOD_ROOT_ID, compare: legacyUuid("statement", "STMT-BRUTE-ROOT-DISJUNCTION"), sel: GOD_ROOT_ID });
   const graphQuery = new URLSearchParams({ view: "focus", node: GOD_ROOT_ID, sel: GOD_ROOT_ID });
 
   return <article className={styles.guide}>
@@ -146,7 +147,7 @@ export default function ClassicalGodGuide() {
           not a claim that necessity alone entails perfection or a separate direct input to step 1.
         </p>
       </div>
-      <Link href="/results/WHOLE-ROSTER-NECESSARY-CONCRETE">Inspect necessary-being result →</Link>
+      <Link href={`/results/${legacyUuid("result", "WHOLE-ROSTER-NECESSARY-CONCRETE")}`}>Inspect necessary-being result →</Link>
     </aside>
 
     {walkthrough.stages.map((stage, index) => <Stage key={stage.result.id} stage={stage}

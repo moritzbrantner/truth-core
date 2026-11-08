@@ -1,6 +1,8 @@
 {
-  "id": "PERFECT-ROOT-POSITIVE-INTELLECT-WILL",
-  "argument_id": "PERFECT-ROOT-POSITIVE-INTELLECT-WILL",
+  "id": "fa9d868b-6d6b-53f2-b891-3c45a7fdabc3",
+  "label": "There exists ONE SAME selected actual…, from There exists ONE witness n that is an… and 12 more",
+  "legacy_id": "PERFECT-ROOT-POSITIVE-INTELLECT-WILL",
+  "argument_id": "d17a98c3-52b7-5323-ac05-d4487014b311",
   "challenge_module": "TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Challenge",
   "solution_module": "TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solution",
   "theorem": "TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.derive",

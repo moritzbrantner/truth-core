@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
+  "id": "223c29ec-0983-5329-8f3e-fbd9276f0339",
+  "label": "Selected-world actual causal coverage…: At ONE supplied world w, every ContingentAt m w x has some…",
+  "legacy_id": "DEF-SELECTED-ACTUAL-CAUSAL-COVERAGE",
   "term": "selected-world actual causal coverage of contingent individuals",
   "definition": "At ONE supplied world w, every ContingentAt m w x has some y existing at w with m.Causes w y x. The target is actual already by ContingentAt. No distinctness, concreteness, causal endpoint policy, temporal presence or modal frame law is included.",
   "basis": "stipulative",

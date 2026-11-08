@@ -1,6 +1,8 @@
 {
-  "id": "EXPLANATORY-ADEQUACY-COMPARISON",
-  "argument_id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "id": "58d50214-8e61-5c18-b40b-6c29b71488cd",
+  "label": "On one shared signature and target",
+  "legacy_id": "EXPLANATORY-ADEQUACY-COMPARISON",
+  "argument_id": "edff326f-5f09-52d4-abed-7dd4ab529b26",
   "challenge_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ExplanatoryAdequacy.Solution",
   "theorem": "TruthCore.Results.Explanation.ExplanatoryAdequacy.comparison",

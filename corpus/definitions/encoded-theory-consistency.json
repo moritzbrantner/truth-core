@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ENCODED-THEORY-CONSISTENCY",
+  "id": "2cd80f27-09e0-51b6-a41e-c8638524dfdb",
+  "label": "Theory bundle and consistency in the…: A comparison theory is the conjunction of its listed…",
+  "legacy_id": "DEF-ENCODED-THEORY-CONSISTENCY",
   "term": "theory bundle and consistency in the comparison models",
   "definition": "A comparison theory is the conjunction of its listed commitment statements in a shared signature. Its consistency result constructs an interpretation satisfying that conjunction, together with any explicitly advertised shared-data or moral-sentence witness. Existential satisfiability concerns the encoded commitments only, not every claim of a complete historical worldview, truth of the commitments in reality, their entailment of each answer, or their mutual compatibility with another bundle.",
   "basis": "stipulative",

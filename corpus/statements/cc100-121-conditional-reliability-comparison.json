@@ -1,10 +1,12 @@
 {
-  "id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-COMPARISON",
+  "id": "16fd032f-e693-5ad0-b253-fbc65598aa23",
+  "label": "Under the displayed really-low likelihood premises, the probability of general cognitive…",
+  "legacy_id": "STMT-CC100-121-CONDITIONAL-RELIABILITY-COMPARISON",
   "paraphrase": "Under the displayed really-low likelihood premises, the probability of general cognitive reliability given theism is much greater than its probability given naturalism.",
   "definition_ids": [
-    "DEF-CC100-121-RELIABILITY-CONFIRMATION"
+    "bef73b95-e123-5b57-80ae-e5923d50ae74"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC"
+    "a61d3807-50e9-595e-9011-9123fd606a4b"
   ]
 }

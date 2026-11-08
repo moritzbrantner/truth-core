@@ -1,0 +1,16 @@
+{
+  "id": "8f183538-204e-5a50-8a07-3d88dc999b47",
+  "label": "Negation of the exact countertuple actual moved not potent countertuple on the same MovedIn and…",
+  "legacy_id": "STMT-NO-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE",
+  "paraphrase": "Negation of the exact countertuple STMT-ACTUAL-MOVED-NOT-POTENT-COUNTERTUPLE on the same MovedIn and InPotency: nothing is moved in a respect without being in potency in that same respect.",
+  "lean_declaration": "TruthCore.Causality.RivalRefutationsRound2.NoMovedNotPotentCountertuple",
+  "definition_ids": [
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7",
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

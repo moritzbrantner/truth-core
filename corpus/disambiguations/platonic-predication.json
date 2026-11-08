@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-PLATONIC-PREDICATION",
+  "id": "2f8db09b-f62a-51ef-b2e1-876f8f903f8f",
+  "label": "Is F",
+  "legacy_id": "DISAMB-PLATONIC-PREDICATION",
   "term": "is F",
   "sense_definition_ids": [
-    "DEF-PLATONIC-PREDICATION",
-    "DEF-PLATONIC-ESSENTIAL"
+    "54b49991-95ba-5e00-8653-182059c4da6a",
+    "d1e62f94-6a1b-54c7-805b-9e92e5139037"
   ],
-  "resolution": "SelfPredicating uses ordinary Exemplifies, Essential uses Essentially. The two Phaedo beauty readings are siblings. No conversion between them is assumed; neither makes Form identity the same as predication."
+  "resolution": "SelfPredicating uses ordinary Exemplifies, Essential uses Essentially. The two Phaedo beauty readings are siblings. No conversion between them is assumed; neither makes Form identity the same as predication.",
+  "term_label": "IS_F",
+  "senses": [
+    {
+      "id": "cd705a54-7b7c-4b75-8f2d-134621bc5a2c",
+      "label": "IS_F_1",
+      "definition_id": "54b49991-95ba-5e00-8653-182059c4da6a",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "287a69f8-0706-466d-aab1-328b0809f1bc",
+      "label": "IS_F_2",
+      "definition_id": "d1e62f94-6a1b-54c7-805b-9e92e5139037",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    }
+  ]
 }

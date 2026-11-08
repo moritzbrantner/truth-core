@@ -1,0 +1,12 @@
+{
+  "id": "eddb8521-3c3f-518e-b7ec-17dfe141f8cc",
+  "label": "Nothing that is being moved in a respect…, from Each of the two uses of 'in act' in the… and 4 more",
+  "legacy_id": "IN-ACT-SENSE-FORK-NO-SELF-MOTION",
+  "argument_id": "c10beed2-a743-56c8-8185-2a26b45aab44",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks2.noSelfMotionByActSenseFork",
+  "comparator_config": "results/IN-ACT-SENSE-FORK-NO-SELF-MOTION/comparator.json",
+  "status": "solution-present",
+  "description": "Optional summary over IN-ACT_1-3 (joint sense fork) for the prima via step. Coverage reads both uses of 'in act' (the mover is in act; nothing is in act and in potency in the same respect) in selected senses among formal, virtual and formal-or-virtual act; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there and in act there in that one sense, which non-simultaneity excludes. The controls give the mixed reading (mover virtually in act, non-simultaneity formal) with self-motion: the step needs one sense, not a particular one."
+}

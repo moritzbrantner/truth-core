@@ -1,26 +1,21 @@
 {
-  "id": "STMT-HIDDENNESS-ALWAYS-OPEN",
+  "id": "962a62c9-f72a-54c4-949e-d1c5dad6f8e1",
+  "label": "At every supplied world and every time, a perfectly loving God makes conscious reciprocal\u2026",
+  "legacy_id": "STMT-HIDDENNESS-ALWAYS-OPEN",
   "paraphrase": "At every supplied world and every time, a perfectly loving God makes conscious reciprocal relationship accessible just by trying to every capable person whose nonbelief is not caused by resistance. This universal temporal requirement is disputed.",
   "lean_declaration": "TruthCore.Hiddenness.AlwaysOpen",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-PERFECT-LOVE",
-    "DEF-HIDDENNESS-CAPACITY",
-    "DEF-HIDDENNESS-RESISTANCE",
-    "DEF-HIDDENNESS-BELIEF",
-    "DEF-HIDDENNESS-CONSCIOUS-ACCESS",
-    "DEF-HIDDENNESS-SUFFICIENT-REASON",
-    "DEF-HIDDENNESS-MODEL-SCOPE",
-    "DEF-HIDDENNESS-ACCEPTANCE",
-    "DEF-HIDDENNESS-CONCEPT-AVAILABILITY",
-    "DEF-HIDDENNESS-REFLECTIVE-DOUBT",
-    "DEF-ENCODED-THEORY-CONSISTENCY"
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELATIONSHIP",
-    "DISAMB-HIDDENNESS-NONRESISTANCE",
-    "DISAMB-HIDDENNESS-LOVE-ACCESS",
-    "DISAMB-HIDDENNESS-BELIEF-RESPONSE",
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "a4359a96-a726-5755-8359-a02b64f42f15",
+    "14bdf48f-9ea1-5329-9489-9674bea6132a",
+    "fa0875d8-68c8-5520-ae18-58bb8a5808e8",
+    "93eabf90-e39b-5546-8a01-6c4b66d700d0",
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

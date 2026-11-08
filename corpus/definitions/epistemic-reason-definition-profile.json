@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
+  "id": "d13c0241-320a-5d56-8927-341e46063e05",
+  "label": "Epistemic-reason definition comparison…: Frame separates subjects, considerations, contents…",
+  "legacy_id": "DEF-EPISTEMIC-REASON-DEFINITION-PROFILE",
   "term": "epistemic-reason definition comparison profile",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.EpistemicReasonDefinitionFork.Frame",

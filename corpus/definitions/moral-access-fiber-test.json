@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MORAL-ACCESS-FIBER-TEST",
+  "id": "d2839b40-db5c-5fd2-8503-3b7922ba01a8",
+  "label": "Restricted moral-access fiber test: A finite State has report, proposed basis-assessment output…",
+  "legacy_id": "DEF-MORAL-ACCESS-FIBER-TEST",
   "term": "restricted moral-access fiber test",
   "definition": "A finite State has report, proposed basis-assessment output and supplied prohibited bits. Outward data contain the report and uniformly abstaining behavior/apparent successful deliberation; enriched data additionally contain the basis bit. Prohibited means the supplied bit equals true. NaturalBasis equates this bit with basis; Categorical restricts it to true; SufficientBasis requires true basis to imply prohibition only. Subtypes restrict admissible assignments before the existing exact-classification criterion is applied.",
   "basis": "stipulative",

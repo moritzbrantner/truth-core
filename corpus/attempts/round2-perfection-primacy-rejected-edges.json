@@ -1,0 +1,24 @@
+{
+  "id": "e1807bd1-0373-5f97-8e4f-d1560f1c0396",
+  "label": "Map edges examined and rejected in round 2 on perfection and primacy. participated has other cause…",
+  "legacy_id": "ATTEMPT-ROUND2-PERFECTION-PRIMACY-REJECTED-EDGES",
+  "statement_ids": [
+    "a9036c3c-adc4-564e-b3ba-44a0c558c0ae",
+    "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+    "bf93f259-29b4-53df-ae5b-ac7f522ea33d",
+    "612078bf-5a68-5542-8b7b-f862f816ece0",
+    "dd732014-f3f1-5ded-b8dc-5dbcd3f2b71c",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in round 2 on perfection and primacy. (1) STMT-PARTICIPATED-HAS-OTHER-CAUSE -> STMT-PERFECTION-CAUSED-IN-ANOTHER-IS-RECEIVED-IN-IT: wrong direction (participation to being caused, not caused to participated) and esse-only. (2) Effect depends on its cause + transitivity + irreflexivity of dependence -> efficient cause not dependent on effect: valid, but irreflexivity contradicts the counterfactual sense of DEF-DEPENDS-FOR-BEING, under which a thing trivially depends on itself; replaced by asymmetry among distinct beings. (3) STMT-EFFICIENT-CAUSE-IS-PRIOR-TO-EFFECT -> nonmutual dependence suffices for priority: efficient priority covers only efficiently caused pairs, and is itself derived from the target. (4) STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS -> others than the primary are creatures: circular in content with QUARTA-VIA-ATTRIBUTION-GENUS-PRINCIPLE-AT-BEING, and needs maximality of p and every other thing's being in act of esse. (5) STMT-BEING-GRADED-BY-APPROACH-TO-A-PRIMARY -> strict primacy: the tantum-quantum biconditional allows ties with the primary (existing omission countermodels of QUARTA-VIA-ATTRIBUTION-UNIQUE-MAXIMUM). (6) STMT-ALL-PERFECTIONS-PERTAIN-TO-PERFECTION-OF-BEING -> STMT-PERFECTIONS-ARE-MODES-OF-BEING: no Lean declaration; recorded as a supports relation. (7) Perfections are modes of being alone -> universal cause transfers perfections: the non-concurrent profile of the CausalPerfectionTransfer roles has a universal existential source that does not cause the producer's skill; the total-cause step carries the derivation. Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "f2ca811c-309d-54c0-9fb6-01d8947e2248",
+    "972ed7e5-098f-5ca6-9685-98d2cee48db8",
+    "dae70d8a-75ad-5b67-82cd-c1f7be320e93",
+    "11b0106d-9061-54c3-bc53-82a3acaaddd2",
+    "5dd2d69f-02a5-5357-8cb5-1f028137db64"
+  ]
+}

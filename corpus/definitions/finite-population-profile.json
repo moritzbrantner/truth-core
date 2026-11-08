@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FINITE-POPULATION-PROFILE",
+  "id": "fcd359f6-f75f-56fb-8698-d4dcd8e41507",
+  "label": "Finite population profile and total\u2026: Stipulated Profile records a strictly positive natural count\u2026",
+  "legacy_id": "DEF-FINITE-POPULATION-PROFILE",
   "term": "finite population profile and total welfare",
   "definition": "Stipulated Profile records a strictly positive natural count and a real mean on a common cardinal interpersonal scale. Profile.total is count times mean. The record gives no individual assignment, distribution, population identity, feasibility, ordinal-to-cardinal conversion or moral authority; no empty or infinite counts are admitted.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "ROOT-MULTIPLICATION-CONTROLS",
-  "argument_id": "ROOT-MULTIPLICATION-CONTROLS",
+  "id": "a4f20969-f613-5021-a49b-e6c442d066b7",
+  "label": "Finite interpretations: the unchanged part-free model keeps its joint and #715 certificates, fails…",
+  "legacy_id": "ROOT-MULTIPLICATION-CONTROLS",
+  "argument_id": "1c0380dd-4a52-5b8c-9484-dde6250974a6",
   "challenge_module": "TruthCore.Results.Causality.RootMultiplication.Challenge",
   "solution_module": "TruthCore.Results.Causality.RootMultiplication.Solution",
   "theorem": "TruthCore.Results.Causality.RootMultiplication.controls",

@@ -1,6 +1,8 @@
 {
-  "id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
-  "argument_id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "id": "ebf5fe7a-e38e-5ee5-ac19-27a0515562bf",
+  "label": "For each named respect, if all beings have it and its comparative is the strict part of one…",
+  "legacy_id": "FOURTH-WAY-MAXIMUM-SCHEMA-INSTANCES",
+  "argument_id": "f417a17b-b625-5d70-ac93-c13b89e40e96",
   "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
   "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
   "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.fourthWayMaximumSchemaInstances",

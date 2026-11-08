@@ -1,10 +1,12 @@
 {
-  "id": "DEF-PROJECTILE-MOTION",
+  "id": "64dceda3-de66-562b-8aaf-a92e41c84e81",
+  "label": "Projectile motion: ProjectedIn x r: x, a thrown body that does not move itself, continues in the…",
+  "legacy_id": "DEF-PROJECTILE-MOTION",
   "term": "projectile motion (motus proiectorum)",
   "definition": "`ProjectedIn x r`: x, a thrown body that does not move itself, continues in the local motion r after contact with the thrower has ceased (Aquinas, In Phys. VIII, lect. 22, n. 1160). Not identified with Newton's perseverance in uniform motion (DEF-NEWTONIAN-PERSEVERANCE): projection in a medium is neither uniform nor, for Aquinas, one continuous motion.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-IN-PHYS-VIII-L22-PROJECTILE-MOVED-BY-ANOTHER-A"
+    "ae02ef13-b25e-54a8-a198-6d34ce8162fe"
   ],
   "lean_declaration": "TruthCore.Alternatives.Inertia.ProjectileMovedByAnotherReading"
 }

@@ -1,0 +1,15 @@
+{
+  "id": "7089ce3d-3855-5bfb-a3c3-c202e8ff458a",
+  "label": "Necessary-being node, possibilist box reading in frame class S5: there is an actual root n that is…",
+  "legacy_id": "STMT-NECESSARY-ROOT-BOX-S5",
+  "paraphrase": "Necessary-being node, possibilist box reading in frame class S5: there is an actual root n (concrete, existing at w, with no actual concrete ground) that is God, the one God (every God is n), and has the classical attributes, the route's modal frame is reflexive and Euclidean (logic S5), and n exists at every world accessible from w.",
+  "lean_declaration": "TruthCore.Causality.NecessarySenseFork.NecessaryRootBoxS5",
+  "definition_ids": [
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

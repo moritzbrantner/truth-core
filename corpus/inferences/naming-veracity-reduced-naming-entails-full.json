@@ -1,0 +1,13 @@
+{
+  "id": "3795951c-2f8b-5168-aa2d-3b9e4dc2d1ec",
+  "label": "Open premise, the fuller nominal profile under the adopted…, by Antecedent strengthening",
+  "legacy_id": "INF-NAMING-VERACITY-REDUCED-NAMING-ENTAILS-FULL",
+  "input_statement_ids": [
+    "e39a4fce-ccaf-5862-836e-9317923842f3"
+  ],
+  "output_statement_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+  "rule": "Antecedent strengthening",
+  "meaning": "Strength registration (not a route step): the reduced naming leaf entails the fuller one, because the fuller description adds antecedents (cause of every perfection; remote from all). Backs the strengthens relation from the reduced to the fuller leaf.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "4cae5e80-6e45-5af4-840d-d871cc2f49c8",
+  "label": "Thomas Aquinas, Summa theologiae I q.4 a.2… supports OPEN Lean-bound reading of ST I q.4 a.2…",
+  "legacy_id": "REL-Q4-A2-PERFECTIONS-PERTAIN-SUPPORTS-PERFECTIONS-ARE-MODES",
+  "subject_kind": "claim",
+  "subject_id": "5dd2d69f-02a5-5357-8cb5-1f028137db64",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "791fa216-ce40-5e7d-82c5-0bd5fe245446",
+  "note": "q.4 a.2 co. says the perfections of all things pertain to the perfection of being, since things are perfect insofar as they have being in some way. The premise reads 'pertain to the perfection of being' as 'is a mode of the thing's being' (DEF-MODE-OF-BEING) for every perfection a thing has in act. The claim is kept as prose and records that ad 3 distinguishes participation in being from participation in every mode; the premise does not settle that."
+}

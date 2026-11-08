@@ -1,10 +1,12 @@
 {
-  "id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
+  "id": "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+  "label": "The Megarian thesis: a thing is able only when it is acting; whatever is able to be r is actually r",
+  "legacy_id": "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING",
   "paraphrase": "The Megarian thesis: a thing is able only when it is acting; whatever is able to be r is actually r.",
   "lean_declaration": "TruthCore.Alternatives.ActPotencyRegress.MegarianAbilityOnlyWhenActingReading",
   "definition_ids": [
-    "DEF-CAPACITY-TO-BE",
-    "DEF-ACT",
-    "DEF-RESPECT"
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ]
 }

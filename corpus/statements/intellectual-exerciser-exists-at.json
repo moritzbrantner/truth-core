@@ -1,0 +1,14 @@
+{
+  "id": "3b13b39c-9d1c-5324-8327-0329f26e083c",
+  "label": "Whoever is attributed an intellectual exercise exists at the selected world",
+  "legacy_id": "STMT-INTELLECTUAL-EXERCISER-EXISTS-AT",
+  "paraphrase": "OPEN analyst premise: whoever is attributed an intellectual exercise exists at the selected world.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.IntellectualExerciserExistsAt",
+  "definition_ids": [
+    "68eae678-8fd7-5c8f-bc98-0641b2ec5e82",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
+  ]
+}

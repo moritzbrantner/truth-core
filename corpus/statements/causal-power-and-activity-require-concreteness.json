@@ -1,32 +1,34 @@
 {
-  "id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
+  "id": "e27489c3-7419-5123-8476-386633e62532",
+  "label": "Owner framework commitment: At the selected world w, every candidate individual with causal power…",
+  "legacy_id": "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS",
   "paraphrase": "Owner framework commitment: At the selected world w, (1) every candidate individual with causal power at w is concrete, and (2) every individual that causes anything at w is concrete. 'Concrete' has the adopted sense of #1103 (DEF-CONCRETE-ESSE-IN-RE: having esse in re), which is not defined through causal power; the Lean proposition takes the concreteness predicate as a parameter, and an intended instantiation supplies that sense. Power is a capacity that need not be exercised. The direct outgoing-causation clause is retained independently, not inferred through an assumed exercise-to-power interface. With abstract/concrete disjointness, these clauses exclude abstract powers and outgoing abstract causation. No materiality, spatial location, concrete-to-power converse, inability to be caused, existential coverage, or necessity is included.",
   "lean_declaration": "TruthCore.Causality.CausalPowerConcreteness.OwnerCommitmentAt",
   "definition_ids": [
-    "DEF-ABSTRACT-NO-ESSE-IN-RE",
-    "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DEF-CONCRETE-ABSTRACT-ANCHORS",
-    "DEF-CONCRETE-ABSTRACT-CLASSIFICATION",
-    "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "1709a759-7962-5df2-a56f-9bd0e20d3692",
+    "4088655a-8c5b-5533-b93d-ec4a4f767108",
+    "3c25665f-1639-5b85-8052-d4a2fc555365",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-CONCRETENESS-PREMISE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "32416dd1-c3ce-5180-bf06-1cabab088be7",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ],
   "note": "Owner formulation, not a source claim or established metaphysical truth. The Lean declaration defines the two-clause proposition; it does not prove either clause. The concreteness sense was fixed by the owner on #1103 (2026-11-06): https://github.com/moritzbrantner/truth-core/issues/1103#issuecomment-6683616439. The proposition does not use exhaustiveness; for the adopted sense exhaustiveness is separately derived from excluded middle (CONCRETE-ABSTRACT-ESSE-DICHOTOMY). See docs/notes/causal-power-concreteness.md and docs/notes/concrete-abstract.md. No argument/result or root closure is registered.",
   "self_evident": {
     "basis": "common_ground",
     "justification_ids": [
-      "CAUSAL-POWER-CONCRETENESS-FROM-OPERARI"
+      "d9a2d64b-0547-541a-9b3d-b9840c519f70"
     ],
     "disagreement": {
       "rival_statement_ids": [
-        "STMT-MATHEMATICAL-FACTS-ARE-CAUSALLY-RELEVANT",
-        "STMT-PLATONIC-FORMS-ARE-EFFICIENT-CAUSES",
-        "STMT-SOME-CAUSE-LACKS-ESSE-IN-RE",
-        "STMT-SOME-CAUSES-ARE-SETS",
-        "STMT-SELECTED-CAUSAL-CONCRETENESS-COMMITMENT-FAILS"
+        "9946497b-4ee8-53d0-a889-914449b03f37",
+        "68b19b67-b819-5991-9fac-866df0ab0a03",
+        "c23d9c04-311f-578e-a2a0-2318ee1e885d",
+        "f62f372c-1ac6-528e-a95b-4876ff056bd0",
+        "a1de3d6a-aed9-5b38-a4b1-4f41101c7d96"
       ],
       "note": "Also recorded: the SEP 'Abstract Objects' §3.2 participation problem (no account says what participation in an event makes an object a cause), an objection to the principle's application rather than a rival thesis. The exact selected-profile negative is now registered as a formal alternative. The original four full-strength accounts remain semantic objections; their productive/classification/world-selection interfaces are separate OPEN propositions, not implied by the disagreement roster. Owner approval is unchanged."
     },

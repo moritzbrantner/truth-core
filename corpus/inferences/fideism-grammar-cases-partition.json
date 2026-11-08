@@ -1,9 +1,11 @@
 {
-  "id": "INF-FIDEISM-GRAMMAR-CASES-PARTITION",
+  "id": "cb2bbcb5-6c53-5dfd-a2dc-9e5e7bbc129d",
+  "label": "Every practice lies in one of three cells: its grammar is fixed by its…, by Excluded-middle-cases",
+  "legacy_id": "INF-FIDEISM-GRAMMAR-CASES-PARTITION",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-FIDEISM-GRAMMAR-CASES-COVER",
+  "output_statement_id": "c1dba341-6be3-55ec-877c-7ee0232982a5",
   "rule": "excluded-middle-cases",
   "meaning": "Excluded middle on 'the authorities fix the grammar', then on 'ordinary use fixes the grammar'.",
   "assumption_statement_ids": [],

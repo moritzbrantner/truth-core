@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NAMED-NECESSARILY-UNDERIVED",
+  "id": "1875d575-2a60-5000-b403-0ab090078a7a",
+  "label": "The selected necessary individual…: NamedNecessarilyUnderived m R w n is the pointwise fiber of…",
+  "legacy_id": "DEF-NAMED-NECESSARILY-UNDERIVED",
   "term": "the selected necessary individual without incoming existing support",
   "definition": "NamedNecessarilyUnderived m R w n is the pointwise fiber of the existing existential NecessarilyUnderived: the given same n exists at base w, exists at every world accessible from w, and has no incoming R edge from any individual existing at that edge's world, across all admitted worlds. It retains n rather than merely constructing some witness. There is no concreteness field or adequate explanation token in this definition. R remains a parameter. The selected-causer theorem explicitly instantiates R by ordinary modeled m.Causes and assumes the no-contingent-predecessor and union-WF conditions for that same chosen relation; it makes no generic identification of causation with existential grounding. An edge remains within its witness world; a cycle in the union overlay can combine differently witnessed edges and is not an actual causal path. Union WF is an additional optional background, not default temporal or causal coherence.",
   "basis": "stipulative",

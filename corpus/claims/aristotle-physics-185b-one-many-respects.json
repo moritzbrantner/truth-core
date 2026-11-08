@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-185B-ONE-MANY-RESPECTS-A",
-  "statement_id": "STMT-SAME-THING-ONE-MANY-NONOPPOSITE-RESPECTS",
-  "source_id": "ARIST-PHYS",
+  "id": "550221fa-942a-57a8-9749-3650437166da",
+  "label": "Aristotle, Physics I.2, 185b25-186a3: The same thing can be one and many in different non-opposed…",
+  "legacy_id": "ARIST-PHYS-185B-ONE-MANY-RESPECTS-A",
+  "statement_id": "08b5f74c-6a85-5af7-a981-470a55aace40",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "I.2, 185b25-186a3",
   "interpretation": "Qualified reconciliation: the same subject can be one and many in different non-opposed respects, including definitional plurality and whole/part division; Aristotle also notes potential versus actual unity. This blocks the assumption that every one/many predication is contradictory.",
   "status": "formalized"

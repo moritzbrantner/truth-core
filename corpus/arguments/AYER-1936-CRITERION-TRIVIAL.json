@@ -1,17 +1,19 @@
 {
-  "id": "AYER-1936-CRITERION-TRIVIAL",
+  "id": "0a6f8468-710e-54cb-8c34-2d4762dc9fbe",
+  "label": "Ayer's 1936 test is trivial: in any TRUTH_CONDITIONAL_LANGUAGE_4, a sentence s is…",
+  "legacy_id": "AYER-1936-CRITERION-TRIVIAL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-AYER-1936-CRITERION-TRIVIAL",
+  "conclusion_statement_id": "192579e5-bae7-57af-8c6c-158905d4ae9c",
   "inference_ids": [
-    "INF-AYER-1936-CRITERION-TRIVIAL"
+    "b7de8461-81e3-57fe-8ffb-b75ab5a75170"
   ],
   "meaning": "From no premises, for every truth-conditional language: take the further premise P = (not-s or o) for an observation statement o. Then s with P entails o. If P alone entailed o, then not-s would entail o (not-s entails P). So whenever not-s does not entail o, s passes Ayer's 1936 test.",
   "definition_ids": [
-    "DEF-AYER-1936-WEAK-VERIFIABILITY",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE"
+    "b756092b-697b-52f9-aa64-7e6da9e87b60",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

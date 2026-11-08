@@ -1,0 +1,11 @@
+{
+  "id": "c2fa06f2-cf36-5958-b69a-ef274b45014c",
+  "label": "The agent of an episode bears it",
+  "legacy_id": "STMT-AGENT-OF-EPISODE-BEARS-IT",
+  "paraphrase": "OPEN analyst premise: the agent of an episode bears it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.AgentOfEpisodeBearsIt",
+  "definition_ids": [
+    "a07c30f9-e0fc-5f16-b181-6f70d374de79",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66"
+  ]
+}

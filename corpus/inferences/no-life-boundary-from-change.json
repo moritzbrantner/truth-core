@@ -1,0 +1,14 @@
+{
+  "id": "c33c80ff-5e1b-5766-ba78-a0c4bac2a236",
+  "label": "Whatever is in POTENCY_1 in no respect has a life that neither begins…, by Existential elimination…",
+  "legacy_id": "INF-NO-LIFE-BOUNDARY-FROM-CHANGE",
+  "input_statement_ids": [
+    "c41ed610-456e-59db-a8af-81e209769486",
+    "ed993287-249f-5bd1-ad0d-430acdf698f2"
+  ],
+  "output_statement_id": "aec71162-953c-5236-b04c-a7486b2d0d20",
+  "rule": "Existential elimination, universal instantiation, reductio",
+  "meaning": "Whatever is in potency in no respect has a life that neither begins nor ends: a life boundary between two times is a change in some respect between them (OPEN; denied by whoever holds that generation or creation is no change of the thing), and whatever changes in a respect is in potency in it (OPEN q.9 a.1 reading for potency in the subject); a pure act has no potency. The q.9 a.2 potency-in-another reading (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER) now sits in the second premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,7 +1,9 @@
 {
-  "id": "INF-GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
+  "id": "71406f83-ee2c-51ee-afe1-2571aecff149",
+  "label": "Two nonempty schema controls show why the original narrow scope still needs…, by Constructive-proof",
+  "legacy_id": "INF-GOVERNING-COMPONENT-TEACHING-OMISSION-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GOVERNING-COMPONENTS-DO-NOT-FORCE-TEACHING-SCOPE",
+  "output_statement_id": "969ba14b-b3c5-58b6-b05a-b8b87701094c",
   "rule": "constructive-proof",
   "meaning": "Two nonempty omission controls retain the needed counterpart input while replacing only the original link or historical bundle by its weaker governing-only projection. Teaching scope fails; the old narrow-scope proof genuinely needs more than these projections.",
   "assumption_statement_ids": [],

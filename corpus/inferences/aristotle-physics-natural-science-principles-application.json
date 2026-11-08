@@ -1,9 +1,11 @@
 {
-  "id": "INF-ARIST-PHYS-NATURAL-SCIENCE-PRINCIPLES-APPLICATION",
+  "id": "4511d82d-ace1-55cf-b0ce-3ab3017356a4",
+  "label": "The first task of natural science is to determine what concerns its…, by Source application",
+  "legacy_id": "INF-ARIST-PHYS-NATURAL-SCIENCE-PRINCIPLES-APPLICATION",
   "input_statement_ids": [
-    "STMT-SCIENTIFIC-KNOWLEDGE-THROUGH-FIRST-PRINCIPLES"
+    "a669b17c-91bf-5525-bfba-f89b6e8e9438"
   ],
-  "output_statement_id": "STMT-NATURAL-SCIENCE-BEGINS-WITH-PRINCIPLES",
+  "output_statement_id": "c663f5f9-ba6b-5eb1-b3e7-9646baa7bc55",
   "rule": "source_application",
   "meaning": "Aristotle explicitly applies the preceding general methodological principle to natural science and draws the research-order conclusion that its principles must be determined first.",
   "assumption_statement_ids": [],

@@ -1,10 +1,12 @@
 {
-  "id": "REL-SHARED-GOD-REFERENCE-STRENGTHENS-PRESERVATION",
+  "id": "b258c71b-184c-5909-8d5d-09ea7e3d4e89",
+  "label": "Stronger open analyst calibration: proper… strengthens For each being satisfying the selected…",
+  "legacy_id": "REL-SHARED-GOD-REFERENCE-STRENGTHENS-PRESERVATION",
   "subject_kind": "statement",
-  "subject_id": "STMT-GOD-NAME-SHARED-REFERENCE-EXTENSION",
+  "subject_id": "e96fc9f3-d4c4-5670-9e98-b95f8a2bb509",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-PROPER-REFERENCE-PRESERVED",
-  "verification_result_id": "GOD-NAME-COEXTENSION-PRESERVES-PROPER-REFERENCE",
+  "object_id": "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+  "verification_result_id": "c989c5dc-dbd8-59b6-9321-c9a8e5b85493",
   "note": "Both directions of coextension imply the proper-to-practice direction. Conflict arguments retain only the weaker preservation premise; the Bool control witnesses strictness."
 }

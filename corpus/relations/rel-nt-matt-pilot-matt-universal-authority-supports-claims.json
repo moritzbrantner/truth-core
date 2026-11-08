@@ -1,9 +1,11 @@
 {
-  "id": "REL-NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY-SUPPORTS-CLAIMS",
+  "id": "355fffc8-6141-5bdb-876c-f07241858883",
+  "label": "New Testament, Matthew 28.18: Matthew… supports Jesus claimed divine authority in the…",
+  "legacy_id": "REL-NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY-SUPPORTS-CLAIMS",
   "note": "Historical attribution and the divine-authority interpretation remain open; no formal inference is asserted by this support edge.",
   "subject_kind": "claim",
-  "subject_id": "NT-MATT-PILOT-MATT-UNIVERSAL-AUTHORITY",
+  "subject_id": "7c35905c-b084-5c42-9e85-e6f316c49516",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-JESUS-CLAIMS"
+  "object_id": "6931fa67-bd22-591a-8abb-7273aba9cb90"
 }

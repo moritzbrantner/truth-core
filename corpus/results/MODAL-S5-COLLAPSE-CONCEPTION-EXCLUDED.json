@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
-  "argument_id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "id": "8d91cd64-5d0c-5ffd-bc2b-63cd8bfb4db4",
+  "label": "In the supplied interpreted scenario…, from For the supplied interpreted scenario, the… and 2 more",
+  "legacy_id": "MODAL-S5-COLLAPSE-CONCEPTION-EXCLUDED",
+  "argument_id": "ed0d442a-b803-5a8f-91d0-2193d7e805b2",
   "challenge_module": "TruthCore.Results.Modal.S5.Projection.Challenge",
   "solution_module": "TruthCore.Results.Modal.S5.Projection.Solution",
   "theorem": "TruthCore.Results.Modal.S5.Projection.excluded",

@@ -1,6 +1,8 @@
 {
-  "id": "HUME-SELF-APPLICATION-SCOPES",
-  "argument_id": "HUME-SELF-APPLICATION-SCOPES",
+  "id": "d1c4692b-f607-5003-b46e-7b24eb252ca3",
+  "label": "In the existing universal selfC model, H, C and ◇¬H hold at false but C does not: possible failure…",
+  "legacy_id": "HUME-SELF-APPLICATION-SCOPES",
+  "argument_id": "725af6e1-1647-57d7-b1ee-377a7a0d5073",
   "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.Scopes.checks",

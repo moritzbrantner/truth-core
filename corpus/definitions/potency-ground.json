@@ -1,0 +1,10 @@
+{
+  "id": "66914b47-5881-5d7f-a18b-8b22447fb71c",
+  "label": "Ground of a potency: GroundsPotency y x r: y is a being on which x's potency in respect r depends…",
+  "legacy_id": "DEF-POTENCY-GROUND",
+  "term": "ground of a potency (GroundsPotency y x r)",
+  "definition": "GroundsPotency y x r: y is a being on which x's potency in respect r depends, the actual principle in virtue of which x is able to become r (for example the agent able to actualize it, or the source of x's capacity). Unlike moving (MovesIn), grounding does not require that the potency be now actualized, so it covers idle potency. It is not simple priority (DEF-SIMPLE-PRIORITY) and not the reduction of DEF-MOTION-AS-REDUCTION; the open premises STMT-GROUND-OF-POTENCY-IS-IN-ACT and STMT-GROUND-OF-POTENCY-IS-SIMPLY-PRIOR relate it to both. Structural properties: none assumed (not transitive, asymmetric or well-founded by definition). Example: the fire that could heat the cold water grounds the water's potency to be hot. Counterexample on a Megarian or brute-possibility view: a potency with no actual principle. In Lean a parameter B -> B -> R -> Prop.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.PotencyHasGround",
+  "note": "Stipulative analyst notion, attribution deferred (round 4 revisited, specs/round4-revisited.toml)."
+}

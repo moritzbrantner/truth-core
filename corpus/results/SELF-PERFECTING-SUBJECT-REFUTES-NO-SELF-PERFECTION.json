@@ -1,0 +1,12 @@
+{
+  "id": "2fc273b6-7358-5b00-9617-82cdf94d45c3",
+  "label": "The perfection branch fails: it is not the case…, from Some subject causes a perfection in itself…",
+  "legacy_id": "SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION",
+  "argument_id": "7107a1f5-34cc-5f60-826b-db0234071522",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.ownPerfectionNotAlwaysExternal",
+  "comparator_config": "results/SELF-PERFECTING-SUBJECT-REFUTES-NO-SELF-PERFECTION/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the perfection branch of 'cause': a subject that causes a perfection in itself falsifies 'nothing causes a perfection in itself'."
+}

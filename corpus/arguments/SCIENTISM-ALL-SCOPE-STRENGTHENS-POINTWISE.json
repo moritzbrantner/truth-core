@@ -1,11 +1,13 @@
 {
-  "id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
+  "id": "28ed0fab-860e-5488-a945-f7c2c80fab4f",
+  "label": "Every nonempirical established claim lies in scope, from Every established claim lies in the…",
+  "legacy_id": "SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE",
   "premise_statement_ids": [
-    "STMT-SCIENTISM-ALL-ESTABLISHED-IN-SCOPE"
+    "deea0f62-5827-5d15-a311-e5b4ce165684"
   ],
-  "conclusion_statement_id": "STMT-SCIENTISM-POINTWISE-NONEMPIRICAL-SCOPE",
+  "conclusion_statement_id": "eb89527e-a623-55f4-9363-3d1618311e5e",
   "inference_ids": [
-    "INF-SCIENTISM-ALL-SCOPE-STRENGTHENS-POINTWISE"
+    "b826b9ea-3787-5e19-a80c-b0ead8fb1c34"
   ],
   "meaning": "All established coverage implies pointwise nonempirical witness coverage."
 }

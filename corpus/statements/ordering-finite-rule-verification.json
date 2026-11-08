@@ -1,13 +1,15 @@
 {
-  "id": "STMT-ORDERING-FINITE-RULE-VERIFICATION",
+  "id": "87812c6e-afef-5c09-b075-6043155246f1",
+  "label": "Finite Nat induction proves every value of the closed zero/successor recursive program equals its…",
+  "legacy_id": "STMT-ORDERING-FINITE-RULE-VERIFICATION",
   "paraphrase": "Finite Nat induction proves every value of the closed zero/successor recursive program equals its position; the identity enumeration has the successor upstream rule at every label by reduction. No universal test-outcome hypothesis, real-world law actuality or causal-grounding premise is assumed.",
   "lean_declaration": "TruthCore.Explanation.OrderingCardinality.FiniteRule",
   "definition_ids": [
-    "DEF-LABELED-CHAIN-ARRANGEMENT",
-    "DEF-ARRANGEMENT-ENTAILING-SELECTION",
-    "DEF-HISTORY-SELECTION-INFORMATION"
+    "c9e3d998-544d-55a1-8932-b1c68f182ad0",
+    "f6c46849-e1f6-5810-951c-ede141bcbc54",
+    "c8c357e8-33d1-5468-858d-78f8493e353b"
   ],
   "disambiguation_ids": [
-    "DISAMB-LABELED-ORDER-EXPLANATION"
+    "373537a1-250e-5874-93f9-78ca7c20e1f7"
   ]
 }

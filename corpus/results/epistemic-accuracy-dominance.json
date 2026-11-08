@@ -1,6 +1,8 @@
 {
-  "id": "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
-  "argument_id": "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+  "id": "77c391d3-5d64-5c64-b873-93f4c12907ed",
+  "label": "For complementary credences r,s in, their projection remains in and sums to one",
+  "legacy_id": "LOGIC-EPISTEMIC-ACCURACY-DOMINANCE",
+  "argument_id": "3504d583-9732-5db7-91ed-42ff34d59c7e",
   "challenge_module": "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicAccuracy.Statewise.dominance",

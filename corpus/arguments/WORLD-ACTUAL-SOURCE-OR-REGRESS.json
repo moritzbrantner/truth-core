@@ -1,23 +1,25 @@
 {
-  "id": "WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "id": "468b4523-7551-50b8-b34a-870a79273c07",
+  "label": "Every actual individual in each world has a\u2026, from Inside each world, the existing individuals\u2026",
+  "legacy_id": "WORLD-ACTUAL-SOURCE-OR-REGRESS",
   "premise_statement_ids": [
-    "STMT-WORLD-ACTUAL-CAUSAL-ACYCLIC"
+    "97c779cd-6171-5734-93ef-c06b15941437"
   ],
-  "conclusion_statement_id": "STMT-WORLD-ACTUAL-SOURCE-OR-REGRESS",
+  "conclusion_statement_id": "1c089ab8-d820-5a21-b336-53efdbaa98f4",
   "inference_ids": [
-    "INF-WORLD-ACTUAL-SOURCE-OR-REGRESS"
+    "a72784e4-c430-5e20-8fb0-d9d451229ca2"
   ],
   "meaning": "On each world's actual-node causal graph, acyclicity implies the anchored source-path-or-injective-regress coverage. Local Acc induction builds a structural finite grounding derivation and reuses FINITE-GROUNDING-HAS-SOURCE for path extraction; non-Acc uses Mathlib's anchored descending-chain theorem, and nonempty transitive paths make repetitions contradict NoCycles. The exact populated-world set is StarterWorlds\u222aRegressWorlds, with no exclusivity. Finite actual carriers rule out injective Nat chains, so explicit population yields a source. Ambient Mathlib classical choice/logic is used. No finite branching, temporal premise, modal accessibility, cross-world union-WF, philosophical regress denial or root closure is assumed or established.",
   "definition_ids": [
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION"
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING",
-    "DISAMB-REGRESS-DOMAINS"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb"
   ]
 }

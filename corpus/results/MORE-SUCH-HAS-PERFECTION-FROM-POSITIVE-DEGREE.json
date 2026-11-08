@@ -1,0 +1,12 @@
+{
+  "id": "d9071aa3-ad8e-514c-99fb-9a1f8a17a0fb",
+  "label": "Whatever is more such than something has the perfection itself: what is…, from positive degree",
+  "legacy_id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "argument_id": "cf4db879-8db5-56b2-b291-a50ad691ec2f",
+  "challenge_module": "TruthCore.Results.Causality.Round3FourthWay.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round3FourthWay.Solution",
+  "theorem": "TruthCore.Results.Causality.Round3FourthWay.moreSuchFromPositiveDegree",
+  "comparator_config": "results/MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE/comparator.json",
+  "status": "solution-present",
+  "description": "What is hotter is hot, through degrees: if x is more r than y, x's degree of r is strictly above y's, which is at least the null degree, so x's degree is strictly above null, and whatever is strictly above the null degree of r has r. Three OPEN analyst premises about a per-respect degree family; the middle term is the degree, not the conclusion."
+}

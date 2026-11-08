@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLUTARCH-THESEUS",
+    "source_id": "47648c34-3465-51f9-bf5e-64c0f1074a53",
     "edition_urn": "urn:cts:greekLit:tlg0007.tlg001.perseus-eng3",
     "language": "eng",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLUTARCH-THESEUS-23-EN",
+      "id": "7f284a67-b11e-5957-b38c-dd3ab77df762",
+      "label": "Plutarch, Life of Theseus, 23",
+      "legacy_id": "PLUTARCH-THESEUS-23-EN",
       "locator": "23 (especially 23.1)",
       "claim_locator_prefixes": [
         "23.1"

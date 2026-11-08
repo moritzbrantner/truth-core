@@ -1,9 +1,11 @@
 {
-  "id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-FULLY-DESCRIBED-PRINCIPLE",
+  "id": "b6356471-05e6-5394-86b8-5365fdc8ff3b",
+  "label": "The proper-sense full naming leaf is… alternative to Open premise, the fuller nominal profile…",
+  "legacy_id": "REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-FULLY-DESCRIBED-PRINCIPLE",
   "subject_kind": "statement",
-  "subject_id": "STMT-FULL-NOMINAL-NAMING-FAILS",
+  "subject_id": "06f229e0-b98f-55fc-b866-ff3c8914bacf",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+  "object_id": "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
   "note": "Serious no-object/practice-use rival retained at full strength in STMT-GOD-NAMES-NO-BEING-WF-P1, supported only by the reported Phillips remark (REL-PHILLIPS-NO-OBJECT-SUPPORTS-GOD-NAMES-NO-BEING). The relation endpoint is now the exact proper-profile negation of this naming leaf, rather than the independent practice-reference predicate. PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING checks the transfer: raw no-reference plus STMT-PROPER-REFERENCE-PRESERVED plus the corresponding actual descriptor witness yields this negation. Neither bridge nor witness is silently assumed. Refuting the raw practice thesis alone therefore cannot mark this rival refuted or defend the nominal leaf. No philosopher is attributed this added analyst bridge; no refutes relation or independent defeat is asserted. The original FideismReference link theorem remains an unchanged practice-instantiated schema under DISAMB-NAME-APPLICATION."
 }

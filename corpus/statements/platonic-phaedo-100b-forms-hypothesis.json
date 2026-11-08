@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS",
+  "id": "4424ec00-c125-52df-9386-6743880a8be2",
+  "label": "Socrates begins the proposed argument by hypothesizing beauty itself by itself, goodness…",
+  "legacy_id": "STMT-PLATONIC-PHAEDO-100B-FORMS-HYPOTHESIS",
   "paraphrase": "Socrates begins the proposed argument by hypothesizing beauty itself by itself, goodness, greatness and the other such items, and asks Cebes to grant them before proceeding.",
   "definition_ids": [
-    "DEF-PLATONIC-FORM",
-    "DEF-PHAEDO-HYPOTHETICAL-START"
+    "3336e0be-5be8-5c69-b54a-7a7bb29e1db9",
+    "5e122a72-7871-5d18-90c1-d3618d06ad2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE",
-    "DISAMB-PLATONIC-FORM",
-    "DISAMB-PHAEDO-CAUSE-AND-CONDITION"
+    "a0786cf3-0248-58b6-ad97-12b00af85056",
+    "54952044-0e39-566c-a88d-e5c9b95021fb",
+    "75be9568-f157-51ba-b94a-f395c2412b7e"
   ]
 }

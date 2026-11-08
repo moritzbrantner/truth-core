@@ -1,12 +1,14 @@
 {
-  "id": "INF-CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
+  "id": "e59b1954-feef-54a5-8780-588b512ba7f3",
+  "label": "Bridge premise: for any GOD_4 with the classical attributes who…, by Universal-instantiation-and-c…",
+  "legacy_id": "INF-CATHOLICISM-BRIDGE-DIVINE-FOUNDING-FROM-ATTESTED-MANDATE",
   "input_statement_ids": [
-    "STMT-RESURRECTION-CONFIRMS-JESUS-MANDATE",
-    "STMT-GOD-CONFIRMS-ONLY-TRUTH",
-    "STMT-MANDATE-COVERS-JESUS-FOUNDING-WITH-TEACHING",
-    "STMT-ENVOY-FOUNDING-IS-GODS-FOUNDING"
+    "3a4c575c-7aa0-5f05-8584-251115adb9aa",
+    "c1deb2ee-770d-5030-9e5c-302e33028811",
+    "b139ab5a-695b-588a-b03d-b89659595ded",
+    "51e4073d-ac0d-57f1-8bb7-53a604172b04"
   ],
-  "output_statement_id": "STMT-BRIDGE-CHRISTS-CHURCH-FOUNDED-BY-GOD",
+  "output_statement_id": "a04f711a-53cc-59c5-902e-86b605fb73b4",
   "rule": "universal-instantiation-and-chained-modus-ponens",
   "meaning": "Fix g and c satisfying the bridge's antecedents. Attestation gives Confirms g (HoldsMandate jesus g); veracity at that proposition gives HoldsMandate jesus g; scope gives FoundedInMandate jesus g c and CommissionedToTeach jesus c; envoy founding gives FoundedAsTeachingAuthority g c.",
   "assumption_statement_ids": [],

@@ -1,0 +1,10 @@
+{
+  "id": "701c8996-8d37-546d-9610-26b758dd04e8",
+  "label": "Part of a self-mover: PartOf p x: p is an integral part of the whole x, as the soul-moved limb, or…",
+  "legacy_id": "DEF-MOVER-PART",
+  "term": "part of a self-mover (PartOf p x)",
+  "definition": "PartOf p x: p is an integral part of the whole x, as the soul-moved limb, or the part that moves, of an animal that moves itself (Physics VIII.4, 254b27-33; VIII.5). It is parthood of a body or living whole, not set membership, not a logical part and not a metaphysical component such as essence or esse. In Lean a parameter B → B → Prop with no mereological axioms: distinctness of the moving part from the whole is stated in STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART, not built into PartOf.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.SelfMoverMovesByADistinctPart",
+  "note": "Stipulative analyst notion, attribution deferred. Its constraints are STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART and STMT-WHOLE-IN-ACT-THROUGH-ITS-PART. A source would be Physics VIII.5, 257b-258a (the self-mover divides into an unmoved moving part and a moved part), which is not pinned."
+}

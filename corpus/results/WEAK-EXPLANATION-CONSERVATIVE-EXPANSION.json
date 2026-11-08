@@ -1,6 +1,8 @@
 {
-  "id": "WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
-  "argument_id": "WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+  "id": "6cebe7ba-83b6-5b26-b18d-940157a3111d",
+  "label": "Every existing Ontic interpretation has an expansion with exactly the same frame, existence and…",
+  "legacy_id": "WEAK-EXPLANATION-CONSERVATIVE-EXPANSION",
+  "argument_id": "87acee6e-d234-533c-a9d5-e70298d26ea3",
   "challenge_module": "TruthCore.Results.Explanation.ConservativeReasonExpansion.Challenge",
   "solution_module": "TruthCore.Results.Explanation.ConservativeReasonExpansion.Solution",
   "theorem": "TruthCore.Results.Explanation.ConservativeReasonExpansion.checks",

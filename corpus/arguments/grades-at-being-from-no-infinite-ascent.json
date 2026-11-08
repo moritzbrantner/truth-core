@@ -1,0 +1,28 @@
+{
+  "id": "f52deeb7-d404-53ab-8a80-42a2458a7eab",
+  "label": "If some pair compares in the supplied esse respect, some in-act…, from no infinite ascent",
+  "legacy_id": "GRADES-AT-BEING-FROM-NO-INFINITE-ASCENT",
+  "premise_statement_ids": [
+    "7dfa068a-9974-5fcd-ba23-fac4dee2fc70",
+    "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+  "inference_ids": [
+    "393612ab-5e3b-5dbf-a967-47deddaa8057"
+  ],
+  "meaning": "If something is more a being than something, it has being (more such has the perfection). From any bearer of being climb by 'more in being': each step reaches a bearer, and by the OPEN ascent bound the climb ends at a bearer that nothing exceeds in being, a maximum in being. Excluded middle decides at each bearer whether anything exceeds it. The maximum need not be unique, greatest, or a cause.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "365e2a20-269f-5f0b-ac67-913e8ff5662a",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "500ba323-cca5-5b35-8b75-947008256c43"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

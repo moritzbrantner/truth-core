@@ -1,0 +1,14 @@
+{
+  "id": "f44ce91b-1096-5348-85bf-a8da88fcfa69",
+  "label": "Every use of 'prior' on the route stands for one and the same…, by Existential elimination…",
+  "legacy_id": "INF-PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "input_statement_ids": [
+    "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
+    "fbc5fecc-f30a-52e9-b653-38111a34880e"
+  ],
+  "output_statement_id": "c381fe2e-c97f-5311-bc77-9ccfd7c8663f",
+  "rule": "Existential elimination, uniqueness, transitivity of equality",
+  "meaning": "Coverage and exclusivity block equivocation on 'prior': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

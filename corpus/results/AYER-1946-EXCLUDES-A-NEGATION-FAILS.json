@@ -1,6 +1,8 @@
 {
-  "id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
-  "argument_id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "id": "ea1fb669-24ae-51c3-b4cc-3830354f26fb",
+  "label": "For any frame and meaningfulness predicate closed…, from Strong version: for every sentence, if it…",
+  "legacy_id": "AYER-1946-EXCLUDES-A-NEGATION-FAILS",
+  "argument_id": "6b221edc-b86c-5eb9-9f4a-5a083f059b64",
   "challenge_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.Challenge",
   "solution_module": "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.Solution",
   "theorem": "TruthCore.Results.Logic.Verificationism.Ayer1946Closure.ayer1946ExcludesANegationFails",

@@ -1,9 +1,11 @@
 {
-  "id": "REL-ADDITIONAL-CHURCH-CRITERION-ALTERNATIVE-TO-NAMED-COVERAGE",
+  "id": "a24c07a1-6350-5627-9090-7eda23177679",
+  "label": "The selected Church predicate has an… alternative to The selected Church predicate coextends…",
+  "legacy_id": "REL-ADDITIONAL-CHURCH-CRITERION-ALTERNATIVE-TO-NAMED-COVERAGE",
   "subject_kind": "statement",
-  "subject_id": "STMT-CHURCH-HAS-ADDITIONAL-CRITERION",
+  "subject_id": "438b2b09-f4a3-539a-8d4d-3c6c06afb20a",
   "predicate": "alternative_to",
   "object_kind": "statement",
-  "object_id": "STMT-CHURCH-NAMED-CRITERIA-COVER",
+  "object_id": "3386b0bc-939e-5296-b517-86847f6b3b52",
   "note": "The selected extension matches none of the three named criteria. It contradicts named coverage, not the original stage-5 statement: separate controls witness it with either target verdict."
 }

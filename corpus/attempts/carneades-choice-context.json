@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-CARNEADES-CHOICE-CONTEXT",
+  "id": "b95d156c-d9d2-5c86-816d-b58d647df1fe",
+  "label": "Read the complete public free-will article and full KODJicKd5ps English auto captions",
+  "legacy_id": "ATTEMPT-CARNEADES-CHOICE-CONTEXT",
   "statement_ids": [
-    "STMT-SELECTED-EFFECT-BRIDGE-CERTIFICATE",
-    "STMT-CHOICE-CONTEXT-CONTROLS"
+    "2757f6a3-2d14-5033-9740-2c36a678ce73",
+    "545e0581-6f75-557b-8d97-c1f501c6d4f6"
   ],
   "date": "2026-10-28",
   "kind": "countermodel",
   "outcome": "succeeded",
   "summary": "Read the complete public free-will article and full KODJicKd5ps English auto captions. Developed a stipulated table separating law selector and complete modeled input: changing either alone permits different actions while holding both fixed does not. Absence of an imposed override is compatible with functional determinism, and identical actual action does not determine constraint status. A single nonfunctional relational law allows both outputs at one identical unconstrained input and still enforces the imposed-output constraint, so nondeterminism need not violate a law. Reused exact fixedConditionsStable rather than presenting its paired-input specialization as a discovery. Preview elaboration succeeded; only canonical Comparator/CI evidence certifies the recorded result. Rejected survey-as-truth, arbitrary contingency-as-agency, no-constraint-as-responsibility, and universal libertarian-law-violation readings. Article/video readings are provisional research orientation without pinned passage/source claims; locators, VTT hash and gaps persist in docs/notes/carneades-choice-context.md. No root premises added, removed or discharged; philosophical adequacy remains open. Follow-up REASON-RESPONSE-HISTORY compares explicit acquisition interventions under identical entire current reason-response behavior and reuses exact classifier factorization; docs/notes/reason-response-history.md preserves the control/ownership boundary. No freedom or responsibility criterion is established.",
   "evidence": [
-    "CHOICE-CONTEXT-CONTROLS",
-    "REASON-RESPONSE-HISTORY"
+    "de06ffb2-427b-51bb-99df-94ff78ad1344",
+    "429127f4-1e56-54c3-8678-f8c0dcd656cc"
   ]
 }

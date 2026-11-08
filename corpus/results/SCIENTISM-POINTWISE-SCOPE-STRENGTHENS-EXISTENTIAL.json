@@ -1,6 +1,8 @@
 {
-  "id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
-  "argument_id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "id": "5f4d05b7-b001-5383-bb5c-bf7485c1e21d",
+  "label": "If any nonempirical established claim exists…, from Every nonempirical established claim lies…",
+  "legacy_id": "SCIENTISM-POINTWISE-SCOPE-STRENGTHENS-EXISTENTIAL",
+  "argument_id": "91baa261-c482-5d08-965b-f9f134317ab3",
   "challenge_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.Solution",
   "theorem": "TruthCore.Results.Logic.ScientismScopeBoundary.PointwiseToExistential.pointwiseToExistential",

@@ -1,0 +1,14 @@
+{
+  "id": "ccaffa91-30b9-5325-afbf-fbd0e0d00323",
+  "label": "Whatever unites components into x causes x, 'causes' in the route's reading of its first use",
+  "legacy_id": "STMT-UNITER-CAUSES-IN-ROUTE-SENSE",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever unites components into x causes x, 'causes' in the route's reading of its first use. Read as efficient causing it is STMT-UNITING-CAUSE-IS-EFFICIENT.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.UniterCausesInRouteSense",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "f930c63f-f79a-507c-9462-b572480c6808"
+  ],
+  "disambiguation_ids": [
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ]
+}

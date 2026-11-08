@@ -1,14 +1,16 @@
 {
-  "id": "INF-COGITO-ANCESTRY-ROOT-FORK",
+  "id": "8bff4094-92d8-5532-ae0f-37a7401efbba",
+  "label": "Either some bearer of an occurring thought has a concrete ground-ancestor…, by… (2)",
+  "legacy_id": "INF-COGITO-ANCESTRY-ROOT-FORK",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-IS-CONCRETE",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-COGITO-THINKER-GROUNDING-ACCESSIBLE",
-    "STMT-EXCLUDED-MIDDLE"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "a7040bf1-b15a-5ffb-b096-6b60411a066e",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "3a2bb5f9-70c1-5f3f-9798-ac250deffa90",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-COGITO-ANCESTRY-ROOT-FORK",
+  "output_statement_id": "7e9ca71a-643f-5bbc-8622-80144bd05480",
   "rule": "constructive-proof",
   "meaning": "Thinker-local fork (#564, refining #553 and BRUTE-ROOT-DISJUNCTION). Take an occurring thought and its bearer from COGITO-SUBJECT-FROM-OCCURRENCE (thinkingSubjectOfThought); the bearer is concrete and exists at w by the #536 bridges. Descend along actual concrete grounds by Acc induction from the bearer. At each ground-ancestor, excluded middle decides whether it has an actual concrete ground (descend), else whether it is contingent at w (second horn: a contingent root of the relation in the thinker's ancestry), else it exists at every accessible world (first horn). Neither the bearer's contingency nor any dependence principle is used; whole-carrier well-foundedness is replaced by Acc at the bearer. All five non-logical premises are open; STMT-EXCLUDED-MIDDLE (self-evident-marked) is an explicit hypothesis, not a Lean axiom. Neither horn is asserted; the second horn's root may have a non-concrete explanation. No substance, uniqueness, simplicity, intellect or God follows.",
   "assumption_statement_ids": [],

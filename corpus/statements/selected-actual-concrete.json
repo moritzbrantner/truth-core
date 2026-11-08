@@ -1,15 +1,17 @@
 {
-  "id": "STMT-SELECTED-ACTUAL-CONCRETE",
+  "id": "adb5020c-f115-5a26-a736-343ec2fc9d68",
+  "label": "The specified candidate is CONCRETE_6 and exists at the selected world",
+  "legacy_id": "STMT-SELECTED-ACTUAL-CONCRETE",
   "lean_declaration": "TruthCore.Causality.NecessaryRootFork.ActualConcrete",
   "paraphrase": "The specified candidate is concrete and exists at the selected world. It is not assumed contingent, necessary, a thinker or a substance.",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

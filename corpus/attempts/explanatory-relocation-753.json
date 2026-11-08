@@ -1,11 +1,13 @@
 {
-  "id": "ATTEMPT-EXPLANATORY-RELOCATION-753",
+  "id": "486c16f5-aec3-53dc-b96a-9747294bdbf4",
+  "label": "Precise failed lift",
+  "legacy_id": "ATTEMPT-EXPLANATORY-RELOCATION-753",
   "statement_ids": [
-    "STMT-PATH-RELOCATION-CERTIFICATE",
-    "STMT-PATH-RELOCATION-CONTROLS",
-    "STMT-HISTORY-SELECTION-CERTIFICATE",
-    "STMT-TEMPORAL-SHIFT-NO-DISCERNIBLE-CONTRAST",
-    "STMT-TIME-ORDER-IMPLIES-SOONER-ABSURDITY"
+    "08dc45f8-4205-5313-8297-06abdffbc954",
+    "b01ecf0e-5742-58da-b519-a5b7469dc9bb",
+    "8cb72b43-74b2-5dad-ad9a-73eadae47602",
+    "2bd8f0e3-a10f-5e19-915a-6b60a124b1fc",
+    "bd9fe4be-43c3-5c2c-8e86-5e6c2622093e"
   ],
   "date": "2026-10-30",
   "kind": "derivation",
@@ -13,13 +15,13 @@
   "summary": "Precise failed lift. On Int time the bundle shift-invariant condition, unique solution, changing solution is incompatible, with a witness for each single deletion; #738's beginningless unique survivor is an instance, so its stationarity is forced rather than incidental. A changing solution is not determined by any vector agreeing with its re-dating (composes #736 no_selection). Transition tokens determine exactly because they re-encode the path. Copy laws make dated selection available for every path, and graph laws make undated selection available for every injective path, so an unrestricted law family relocates the contrast without excluding anything; a functional undated law does exclude paths. Rejected: an early plan treating the shift rival as a decisive refutation of beginningless histories, because the rival is only a re-dating and Leibniz III §6 denies that contrast; the undated flip control survives. Rejected: treating finite versus infinite as decisive by itself; a shift-invariant unpinned condition behaves the same way on any reindexing, and the finite contrast comes from window ends and start states. Not formalized: chance laws, plural enabling, intrinsic sufficiency.",
   "blocker": "Whether a dated contrast is genuine, whether a restricted law family is independently warranted, why any condition actually applies, and whether an adequate account may decline entailment all remain OPEN. No root premise is discharged. See docs/notes/explanatory-relocation-753.md.",
   "evidence": [
-    "PATH-RELOCATION-CERTIFICATE",
-    "PATH-RELOCATION-CONTROLS",
-    "HISTORY-SELECTION-CERTIFICATE",
-    "UNIQUE-FEEDBACK-CONTROL",
-    "LAW-ACTUALITY-743-CERTIFICATE",
-    "ULTIMATE-ADEQUACY-COMPARISON",
-    "LEIBNIZ-III-6-TEMPORAL-REASON",
-    "CLARKE-III-4-6-TEMPORAL-REPLY"
+    "aaeed827-7dd7-5dc9-a199-52f68f131b74",
+    "6680cd3f-8646-50fe-afc5-9c1ed6e7e590",
+    "4b8f07db-2a50-5826-ac09-083f0e088d64",
+    "b217ef67-6837-536f-8f5a-e7780e1f4a82",
+    "f2164c77-b4f4-510b-a542-eb8ed95b3205",
+    "b2e2d761-2849-5b05-a2e7-661934fba53a",
+    "573edfda-7255-5fef-bf33-d830a0232f61",
+    "9f2844f1-e866-5073-99ce-2077833e5699"
   ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "label": "Some candidate is CONCRETE_6 and exists at the selected world w₀: ∃ b, CONCRETE_6 b ∧ m.ExistsAt…",
+  "legacy_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
   "paraphrase": "Some candidate is concrete and exists at the selected world w₀: ∃ b, concrete b ∧ m.ExistsAt w₀ b. This has the shape of #487's population hypothesis PopulatedConcreteAt (branch codex/487-necessary-concrete-root, not on main). It says nothing about persistence, a self, substance, immateriality, necessity or causal efficacy of the witness.",
   "lean_declaration": "TruthCore.Logic.CogitoConcrete.InhabitedConcreteAt",
   "definition_ids": [
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-CONCRETE-ESSE-IN-RE"
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
   ],
   "note": "Owner-accepted as a working truth for the current necessary-being investigation on 2026-11-01: the owner explicitly selected B, while expressing uncertainty about the other concrete-route inputs. This accepts an actual concrete witness at the intended actual standpoint, not population at every toy-model world, concreteness of every individual, necessary existence, or any causal/grounding principle. C_PC was described as maybe acceptable and remains tentative; AP, AC and NC remain open. No Lean axiom, self-evident flag or independent proof is added.",
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA"
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
   ]
 }

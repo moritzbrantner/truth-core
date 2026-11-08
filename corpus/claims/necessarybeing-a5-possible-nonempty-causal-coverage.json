@@ -1,16 +1,18 @@
 {
-  "id": "NB-SURVEY-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
-  "statement_id": "STMT-NB-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "0d62913b-976e-500c-8cb8-2c57d9c9a034",
+  "label": "Unattributed website author, Necessary…: From the reported negation of the necessary conditional…",
+  "legacy_id": "NB-SURVEY-A5-POSSIBLE-NONEMPTY-CAUSAL-COVERAGE",
+  "statement_id": "5a8eef8d-7cb2-581e-9bc5-a871762ac50a",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A5C, steps 2–6 under the A5P1 negative report",
   "interpretation": "Record the source’s modal-duality/coverage inference, not a checked source theorem. Classical unpacking of the false conditional at4 retains both nonempty obtaining contingent situations and no uncausable member. Step6 explicitly states coverage but omits repeating nonemptiness; state this interpretive unpacking rather than attributing an extra literal sentence. Each situation’s possible cause may involve a different history/bearer; no joint realization, actual cause in W or positive contingent individual follows. The argument is displayed under the outer reductio, while these report-unpacking steps do not establish its truth.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A5-OBTAINING-CONTINGENT-SITUATION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY"
+    "63e5d484-43d5-540b-a1b7-e8e8a5010bb6",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A5-SITUATION-HISTORY-CAUSAL-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

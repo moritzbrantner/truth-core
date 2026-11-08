@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
-  "argument_id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "id": "35930a1f-fd11-552c-bda8-3266f757be00",
+  "label": "Three deadline-ordered Reapers admit an assignment obeying the same firing rule",
+  "legacy_id": "FINITE-GRIM-REAPER-SCHEDULE-CONSISTENT",
+  "argument_id": "7acf4b7a-d27a-5ac5-b6f7-6b73498377af",
   "challenge_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Challenge",
   "solution_module": "TruthCore.Results.Causality.FiniteReapersConsistent.Solution",
   "theorem": "TruthCore.Results.Causality.FiniteReapersConsistent.finiteReapersConsistent",

@@ -1,13 +1,15 @@
 {
-  "id": "STMT-PSR-CONTINGENT-COMPONENT",
+  "id": "d7c67d3a-a43f-5336-8105-6cbc25a43546",
+  "label": "Every contingently existing individual at every world has some explanation of its existence fact",
+  "legacy_id": "STMT-PSR-CONTINGENT-COMPONENT",
   "lean_declaration": "TruthCore.Explanation.ExistencePSR.ContingentPSR",
   "paraphrase": "Every contingently existing individual at every world has some explanation of its existence fact.",
   "definition_ids": [
-    "DEF-PSR-CONTINGENT-SCOPE",
-    "DEF-PSR-REASON",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "afeeb7ff-92c0-578f-8a0d-ac38dc245672",
+    "d513fb8a-64ee-5d49-ae56-4d695f93ca71",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

@@ -1,18 +1,20 @@
 {
-  "id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
+  "id": "e52c19d5-932c-5101-acce-6f480c728d8e",
+  "label": "In every world with a finite actual carrier, each actual individual has its own finite upstream…",
+  "legacy_id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
   "lean_declaration": "TruthCore.Causality.WorldSourceRegress.FiniteActualAllSourcePaths",
   "paraphrase": "In every world with a finite actual carrier, each actual individual has its own finite upstream path to some existing source. No source is asserted for an empty world, and no one common source for all nodes or worlds is supplied.",
   "definition_ids": [
-    "DEF-FINITE-ACTUAL-ALL-SOURCE-PATHS",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-WORLD-SOURCE-REGRESS-CLASSIFICATION",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "209ecbb9-4d51-515e-beda-516450fc6816",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "ea2b66f0-516d-53f5-99fa-098ee4a7138a",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "822c9912-2313-584b-b2b7-77031da20107",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

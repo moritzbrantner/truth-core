@@ -1,24 +1,26 @@
 {
-  "id": "STMT-NECESSARY-ROOT-CONTROLS",
+  "id": "69ecebe0-d47d-5135-963f-ed8b94d6d84e",
+  "label": "Witness and control bundle over logical models, none claimed metaphysically possible",
+  "legacy_id": "STMT-NECESSARY-ROOT-CONTROLS",
   "paraphrase": "Witness and control bundle over logical models, none claimed metaphysically possible. (1) Branch witnesses, each at one inhabited model: a necessary concretum with well-founded actual grounding and no nonnecessary root; well-founded actual grounding, no necessary concretum and a contingent root; a two-cycle of contingent concreta with no necessary concretum and no nonnecessary root; an acyclic unending descent of contingent concreta with no necessary concretum and no nonnecessary root. (2) An uninhabited model has well-founded actual grounding, no necessary concretum and no nonnecessary root. With the first and third models, this shows that each of inhabitedness, well-foundedness and absence of a necessary concretum is needed for the root principle. (3) Overlaps: one well-founded model has a necessary concretum, a nonnecessary root and a failure of 'every actual contingent concretum is grounded'; another has a necessary concretum and non-well-founded actual grounding. (4) For every profile and world whole-carrier well-foundedness implies restricted well-foundedness, and one inhabited world has the restricted without the whole-carrier condition. (5) In one model, one actual concretum is a root of grounding and not of causing, and another of causing and not of grounding. (6) In one model a counterpart under a supplied relation exists at each accessible world, with no rigid necessary concretum. (7) In a frame with no accessibility, a candidate absent at another world satisfies the necessary horn. (8) The root principle quantified over all profiles holds given excluded middle and implies excluded middle. (9) For every profile and world, inhabitedness, restricted well-foundedness and no necessary concretum give the double negation of a nonnecessary root, with no excluded middle.",
   "lean_declaration": "TruthCore.Causality.NecessaryRootFork.NecessaryRootControls",
   "definition_ids": [
-    "DEF-ACTUAL-GROUNDING-WF",
-    "DEF-NONNECESSARY-ROOT",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING",
-    "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-NECESSARY-INDIVIDUAL-QUANTIFIERS",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN",
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-ONTOLOGICAL-MODEL"
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
-    "DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF",
-    "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE",
-    "DISAMB-THINKER-LOCAL-VS-GLOBAL-GROUNDING"
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
   ]
 }

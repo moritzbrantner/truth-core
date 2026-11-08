@@ -1,11 +1,13 @@
 {
-  "id": "STMT-NATURALISM-N2-FAILS",
+  "id": "c7122d59-f0db-54da-a019-880da5fd7be8",
+  "label": "N2 fails at the selected world",
+  "legacy_id": "STMT-NATURALISM-N2-FAILS",
   "paraphrase": "N2 fails at the selected world (the negation of N2).",
   "lean_declaration": "TruthCore.Ontology.NaturalismConsequences.ConcreteNaturalismFails",
   "definition_ids": [
-    "DEF-NATURALISM-N2"
+    "0f3ffba6-5882-5d97-80be-9129f75c7264"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

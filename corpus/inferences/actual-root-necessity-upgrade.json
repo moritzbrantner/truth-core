@@ -1,11 +1,13 @@
 {
-  "id": "INF-ACTUAL-ROOT-NECESSITY-UPGRADE",
+  "id": "bf5d2be9-1cca-523b-9034-94cc4b82750e",
+  "label": "There exists an actual concrete root n of the profile selected…, by Restore-same-root-necessity-w…",
+  "legacy_id": "INF-ACTUAL-ROOT-NECESSITY-UPGRADE",
   "input_statement_ids": [
-    "STMT-UNIQUE-ACTUAL-ROOT",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE"
+    "7ab0ddcb-cf48-5457-bee7-b6ea9c13b6b1",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-UNIQUE-NECESSARY-ACTUAL-ROOT",
+  "output_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
   "rule": "restore-same-root-necessity-with-imported-contingent-root-exclusion",
   "meaning": "Unpack the SAME n and its root uniqueness from UniqueActualRootAt. Split NecessaryAt n with supplied EM. If necessary, package that SAME n with retained uniqueness. Otherwise imported contingentRootOfNonnecessary makes it a contingent root, contradicted by EveryContingentGroundedAt through imported everyContingentGrounded_iff_noContingentRoot. No root-existence proof or modal-absence extraction is duplicated. The conclusion is old UniqueNecessaryActualRootAt; flattened composition with the seven-input actual-root theorem retains the original eight premises, including contingent dependence and EM only once.",
   "assumption_statement_ids": [],

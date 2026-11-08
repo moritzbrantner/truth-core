@@ -1,6 +1,8 @@
 {
-  "id": "RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
-  "argument_id": "RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
+  "id": "95e45028-bc0a-500a-aad1-11d38bc09697",
+  "label": "Either the admitted situations cover the selected…, from Excluded middle as a general principle…",
+  "legacy_id": "RECOGNITION-ADMISSIBILITY-COVERAGE-OR-OUTSIDE-WITNESS",
+  "argument_id": "b35e7cbd-7c2c-5117-9633-a5dba5358dde",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Admissibility.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Admissibility.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Admissibility.admissibilityCoverage",
@@ -8,19 +10,19 @@
   "status": "solution-present",
   "description": "EM checks coverage or an actual relevant correct-recognition witness outside the admitted subset, with none admitted. It handles the quantified remainder rather than assuming the selected admitted cases exhaust it.",
   "case_split": {
-    "target_statement_id": "STMT-ADMISSIBLE-RECOGNITION-COVERAGE",
+    "target_statement_id": "a1f0b628-af2f-5e58-83ed-5e17ac8ab63b",
     "cases": [
       {
         "label": "admitted situations cover recognition",
         "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.AdmissibleRecognitionCoverage",
-        "statement_id": "STMT-ADMISSIBLE-RECOGNITION-COVERAGE"
+        "statement_id": "a1f0b628-af2f-5e58-83ed-5e17ac8ab63b"
       },
       {
         "label": "a relevant correct-recognition situation lies outside",
         "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.OutsideAdmissibleRecognition",
-        "statement_id": "STMT-OUTSIDE-ADMISSIBLE-RECOGNITION"
+        "statement_id": "1e7f04ef-d66b-50be-82e7-4151990719c0"
       }
     ],
-    "survival_result_id": "REVELATION-RECOGNITION-SCOPE-MODELS"
+    "survival_result_id": "ce059df8-6c75-59e6-9a7c-2457395ed327"
   }
 }

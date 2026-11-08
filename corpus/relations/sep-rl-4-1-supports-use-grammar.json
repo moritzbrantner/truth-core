@@ -1,9 +1,11 @@
 {
-  "id": "REL-SEP-RL-4-1-SUPPORTS-USE-GRAMMAR",
+  "id": "0a5c86f5-b4a7-54ee-9873-29b872b1032f",
+  "label": "Michael Scott, Religious Language §4.1…… supports Case-2 bridge, open and unattributed: if…",
+  "legacy_id": "REL-SEP-RL-4-1-SUPPORTS-USE-GRAMMAR",
   "subject_kind": "claim",
-  "subject_id": "SEP-RELIGIOUS-LANGUAGE-4-1-INTERNAL-STANDARDS-A",
+  "subject_id": "fc781bfa-6d8f-5642-9b4c-ca86b62f65c4",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-USE-GRAMMAR-MAKES-ORDINARY-USE-OWN-STANDARD",
+  "object_id": "1bc99599-80d3-52c3-945c-41be3b89a26a",
   "note": "The minimalist variant looks to 'the internal standards of justification that inform religious discourse', and the entry speaks of attending to believers' practices and forms of life. If use fixes the grammar, what belongs to use is the practice's standard. Gap: the entry does not identify ordinary use with catechesis and profession."
 }

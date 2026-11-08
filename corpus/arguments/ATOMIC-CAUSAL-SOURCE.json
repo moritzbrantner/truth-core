@@ -1,29 +1,31 @@
 {
-  "id": "ATOMIC-CAUSAL-SOURCE",
+  "id": "74d3060e-be21-5864-bd5e-ffb1a93c9d61",
+  "label": "Some object is a source of the selected…, from The non-null object domain is inhabited and 4 more",
+  "legacy_id": "ATOMIC-CAUSAL-SOURCE",
   "premise_statement_ids": [
-    "STMT-ATOMIC-OBJECT-POPULATION",
-    "STMT-EVERY-OBJECT-HAS-SIMPLE-PART",
-    "STMT-CONDITIONAL-CAUSED-SIMPLE-COVER",
-    "STMT-OBJECT-CAUSE-EFFECT-NONOVERLAP",
-    "STMT-EXCLUDED-MIDDLE"
+    "b602221e-443f-5fc6-9d63-eaedb300a61c",
+    "cf4364f6-81c6-5018-95e4-178353d2a2b3",
+    "63e739b6-d2fe-5dd2-b877-fad5334d7f16",
+    "bacabfb1-dfd9-5432-b695-c04f0edea13e",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-ATOMIC-CAUSAL-SOURCE-EXISTS",
+  "conclusion_statement_id": "0b4a7612-3737-5e75-9ce5-d091d0a20bbe",
   "inference_ids": [
-    "INF-ATOMIC-CAUSAL-SOURCE"
+    "105d5bfb-272e-550e-ab0f-469dd663e812"
   ],
   "meaning": "With explicit EM, deny that any graph source exists, so each object has an incoming edge. Population and atomic parts populate the caused-simple family; conditional coverage yields an object whole. Its cause c has a simple part p, which is also caused in this reductio and hence is a part of whole. Thus c and its effect whole overlap, contrary to nonoverlap. No activity/P6/complete-cause uniqueness or WF is used. The endpoint is ONLY a graph source.",
   "definition_ids": [
-    "DEF-ATOMIC-OBJECT-DOMAIN",
-    "DEF-ATOMIC-SIMPLE-PART",
-    "DEF-CAUSED-SIMPLE-CONDITIONAL-COVER",
-    "DEF-COMPLETE-OBJECT-CAUSATION",
-    "DEF-OBJECT-CAUSE-NONOVERLAP",
-    "DEF-ATOMIC-CAUSAL-SOURCE",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-UNIVERSAL-FUSION-PROFILE"
+    "3f1eca4b-fc8c-5a3b-ad71-ecb2ebc9bd13",
+    "7c8a14ff-2189-5241-b988-626c1e1cb19e",
+    "ea529762-fa78-5d86-bf6c-4b8680e9cdc5",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "e6729d32-ce82-52a2-91b0-826a43ce6705",
+    "e3a887b3-eed4-5836-a406-359a9fb71b17",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a"
   ],
   "disambiguation_ids": [
-    "DISAMB-COMPLETE-CAUSE-PARTIAL-GROUND",
-    "DISAMB-ATOMIC-SOURCE-FIRST-CAUSE"
+    "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
+    "70af59cf-0351-5332-9c89-b80231412529"
   ]
 }

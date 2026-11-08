@@ -1,9 +1,11 @@
 {
-  "id": "REL-PASNAU-Q75-REPLY-ATTACKS-INTERFERENCE",
+  "id": "c3c96773-de4c-5972-ae0e-c628686801b1",
+  "label": "Robert Pasnau, Philosophy of Mind and… attacks If the designated intellectual principle…",
+  "legacy_id": "REL-PASNAU-Q75-REPLY-ATTACKS-INTERFERENCE",
   "subject_kind": "claim",
-  "subject_id": "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY",
+  "subject_id": "3be739eb-2606-5418-92f9-d4855799acb9",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
+  "object_id": "bc8dc198-3639-52f9-b3e2-d8a0a1b1875c",
   "note": "Challenges the support for the universal interference premise, not the validity of the encoded reductio or every claim of Thomistic psychology. No refutes relation is asserted."
 }

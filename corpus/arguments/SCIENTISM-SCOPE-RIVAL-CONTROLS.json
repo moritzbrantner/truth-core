@@ -1,9 +1,11 @@
 {
-  "id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "id": "daf01641-7ba8-5a72-a2d8-2c11bc006472",
+  "label": "Three populated Bool controls: scoped scientism coexists with a nonempirical established claim…",
+  "legacy_id": "SCIENTISM-SCOPE-RIVAL-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-SCIENTISM-SCOPE-RIVAL-CONTROLS",
+  "conclusion_statement_id": "9c80cf89-1b2a-5adf-8c73-28fd9bb8342b",
   "inference_ids": [
-    "INF-SCIENTISM-SCOPE-RIVAL-CONTROLS"
+    "a59fddeb-a4d6-5f7a-a602-fead8e758a31"
   ],
   "meaning": "Populated outside-scope overlap and two strict coverage-strength controls."
 }

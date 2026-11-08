@@ -1,0 +1,12 @@
+{
+  "id": "b86d9f84-e324-5df5-b5a9-15fb04135352",
+  "label": "Nothing is the efficient cause of itself, in any respect, from no self origin",
+  "legacy_id": "NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN",
+  "argument_id": "045f0eda-28c6-5329-b08a-59c296cf3593",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks.noSelfEfficientCauseFromOrigin",
+  "comparator_config": "results/NO-SELF-EFFICIENT-CAUSE-FROM-NO-SELF-ORIGIN/comparator.json",
+  "status": "solution-present",
+  "description": "Per-sense result for the origin branch of 'cause': no self-origination, with the open bridge that a self-efficient cause would originate itself, gives that nothing is its own efficient cause."
+}

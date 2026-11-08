@@ -1,33 +1,35 @@
 {
-  "id": "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
+  "id": "e40b2052-604a-5711-be45-3fbd521b6853",
+  "label": "Some bearer of some occurring thought has…, from Some thought episode occurs under the… and 8 more",
+  "legacy_id": "BEARER-PRIMARY-SUBSTANCE-TERMINUS",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-BEARER-ANCESTRY-DEPENDENTS-SUPPORTED",
-    "STMT-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
-    "STMT-PRIMARY-SUBSTANCE-SUBJECT-RELATIONS",
-    "STMT-IN-SUBJECT-IS-EXISTENT-SUPPORT",
-    "STMT-SAID-OF-SUBJECT-IS-EXISTENT-SUPPORT",
-    "STMT-EXCLUDED-MIDDLE"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "adb2ed7a-622a-5493-9fb6-308aa8ad13e8",
+    "47a97912-335f-52f7-a715-63592368f0fe",
+    "6026cd8b-d7bb-5a36-818a-b855828fc6f0",
+    "68e169fb-8723-5af3-ad66-a1aaeb6f9847",
+    "8189a38d-11a5-543d-bc23-fb337548e385",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "conclusion_statement_id": "STMT-PRIMARY-SUBSTANCE-TERMINUS-OF-BEARER",
+  "conclusion_statement_id": "e1220ed4-4dc8-58f8-b6aa-939efcb6ccfa",
   "inference_ids": [
-    "INF-BEARER-PRIMARY-SUBSTANCE-TERMINUS"
+    "4f715ffc-957b-5845-b7fe-6a5ce175b64d"
   ],
   "meaning": "Well-foundedness of existing direct support eliminates the nonterminating forms, so descent from a bearer reaches a terminus (terminusOfWellFounded). If that terminus were in or said of something, the two open bridges would give it an existing direct supporter, contradicting the terminus; so it is neither, and the Categories reading gives the supplied primary-substance predicate. The bridges carry the step from support-minimality to the Categories test and are not attributed to Aristotle. Passing that negative test does not give a separately supplied substance predicate (NegativeTestControl). No necessity, uniqueness, soul or God follows.",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-BEARER-SUPPORT-ANCESTRY",
-    "DEF-BEARER-SUPPORT-OUTCOMES",
-    "DEF-CATEGORIES-SUBJECT-RELATIONS",
-    "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "de89a38a-cab0-58db-8167-a5fb2d7d82ae",
+    "12d64ea9-b32a-5cca-994c-7edcbb0096c7",
+    "bba020f8-c553-542e-a54a-250e2d116dc7",
+    "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e"
   ],
   "disambiguation_ids": [
-    "DISAMB-BEARS-INHERES-SUPPORTS",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT"
+    "f83e9a34-7994-5eb1-8431-50776f097f58",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION",
+  "id": "2eea0461-69d1-510b-8968-368ab57adf87",
+  "label": "SD, likelihood comparison and…: SD is a disposition to form beliefs in supernatural agency",
+  "legacy_id": "DEF-CC100-117-SUPERNATURAL-DISPOSITION-CONFIRMATION",
   "term": "SD, likelihood comparison and comparative confirmation in #117",
   "definition": "SD is a disposition to form beliefs in supernatural agency; T is theism and N naturalism. The displayed conditional probabilities compare SD under those hypotheses using qualitative much-greater-than notation. Confirmation is comparative evidential support for T over N, not by definition actual T or a numeric posterior.",
   "basis": "stipulative",
   "claim_ids": [
-    "CC100-117-DISPOSITION-LIKELIHOOD-COMPARISON",
-    "CC100-117-LIKELIHOOD-CONFIRMATION-RULE",
-    "CC100-117-CONDITIONAL-DISPOSITION-CONFIRMATION"
+    "0646348c-815c-54da-8ba9-85c9c4e35a19",
+    "36653ca4-c143-56c9-9d94-711acc251da1",
+    "9d98580d-bcab-52f0-a20d-164bf7dd67d7"
   ],
   "note": "No numeric >> threshold, probability measure, hypothesis partition, prior, actual observation or update rule is selected. Disposition is not belief truth. An actual Bayesian application would require independently appropriate probability/conditioning and evidence assumptions; no such calculus or theorem is introduced."
 }

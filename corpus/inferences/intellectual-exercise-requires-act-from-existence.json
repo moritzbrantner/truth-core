@@ -1,0 +1,14 @@
+{
+  "id": "ef5a5496-3a69-5f1c-9f7f-cb783a368d9b",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse…, by Universal instantiation… (3)",
+  "legacy_id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-EXISTENCE",
+  "input_statement_ids": [
+    "3b13b39c-9d1c-5324-8327-0329f26e083c",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae"
+  ],
+  "output_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+  "rule": "Universal instantiation, modus ponens, existential introduction",
+  "meaning": "Composes with the esse contract: whoever exercises intellect exists at w (OPEN), and every existent at w is in act of esse, so the exerciser is in act in some respect, namely esse.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SOMETHING-NECESSARILY",
+  "id": "1df65d04-1a4a-555a-954c-a999221242ff",
+  "label": "Necessarily something exists: Each world accessible from the given one has an existent",
+  "legacy_id": "DEF-SOMETHING-NECESSARILY",
   "term": "necessarily something exists",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.PhysicalGround.SomethingNecessarily",

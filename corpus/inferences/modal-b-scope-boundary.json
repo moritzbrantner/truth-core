@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-B-SCOPE-BOUNDARY",
+  "id": "23021a85-d3b7-55a6-bc56-9724494ca304",
+  "label": "The shared duplicate-label B frame has modal-language MC at every label but fails…, by Direct-proof",
+  "legacy_id": "INF-MODAL-B-SCOPE-BOUNDARY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-B-SCOPE-BOUNDARY",
+  "output_statement_id": "9e00a02e-5648-57a2-bc9c-bd612b43c844",
   "rule": "direct-proof",
   "meaning": "Reuse the established duplicate-language proofs and branch countermodel. Apply shared extensional separation at a collapsed witness along the symmetric back-edge, then compose the K full-successor theorem and transport by equality.",
   "assumption_statement_ids": [],

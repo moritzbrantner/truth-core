@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
+  "id": "775de0b5-1bb2-5375-a72c-1240f4be7901",
+  "label": "One should not withhold the intelligibility intuition",
+  "legacy_id": "STMT-CC100-115-RETAIN-INTELLIGIBILITY-INTUITION",
   "paraphrase": "One should not withhold the intelligibility intuition.",
   "definition_ids": [
-    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+    "c54f91c6-f3d4-5443-8308-58f92635e79d"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

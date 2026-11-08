@@ -1,0 +1,10 @@
+{
+  "id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
+  "label": "No two distinct things depend for their being on each other; if x is distinct from y and x depends…",
+  "legacy_id": "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
+  "paraphrase": "OPEN analyst premise: no two distinct things depend for their being on each other; if x is distinct from y and x depends for its being on y, then y does not depend for its being on x. Restricted to distinct things because DependsForBeing, read counterfactually, holds trivially of a thing and itself. Navigation only (no claim): Aquinas, In V Metaph. lect. 13 n. 18, 'priora non dependent a posterioribus, sicut e converso'.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.DistinctBeingsNotMutuallyDependent",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ]
+}

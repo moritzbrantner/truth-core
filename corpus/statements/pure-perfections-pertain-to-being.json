@@ -1,0 +1,18 @@
+{
+  "id": "c4fb87a6-047d-5f3d-b3e3-8dc0c4bbc946",
+  "label": "Every pure perfection is a perfection of being",
+  "legacy_id": "STMT-PURE-PERFECTIONS-PERTAIN-TO-BEING",
+  "paraphrase": "Every pure perfection is a perfection of being. Restricts ST I q.4 a.2's 'the perfections of all things pertain to the perfection of being' to pure perfections.",
+  "lean_declaration": "TruthCore.Causality.WholePowerPerfection.PurePerfectionsPertainToBeing",
+  "definition_ids": [
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780"
+  ],
+  "disambiguation_ids": [
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811"
+  ]
+}

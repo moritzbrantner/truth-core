@@ -1,10 +1,12 @@
 {
-  "id": "DEF-PER-SE-LINK-STRONG",
+  "id": "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+  "label": "Moves only as moved: Every mover other than the moved thing that is itself being moved, in any…",
+  "legacy_id": "DEF-PER-SE-LINK-STRONG",
   "term": "moves only as moved (strong reading of the per se link)",
   "definition": "Every mover other than the moved thing that is itself being moved, in any respect, moves only insofar as it is moved. This is reading A of 'moventia secunda non movent nisi per hoc quod sunt mota a primo movente', and the reading the case uses.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-A"
+    "095dc31a-a8c1-5801-bd59-cf00259adec0"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.SecondMoversMoveOnlyAsMovedReading"
 }

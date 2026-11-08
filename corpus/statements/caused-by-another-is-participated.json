@@ -1,0 +1,15 @@
+{
+  "id": "efe134d4-be4e-528e-83c3-dfd6685e2608",
+  "label": "If c, distinct from x, causes x's being r, then x has r by participation",
+  "legacy_id": "STMT-CAUSED-BY-ANOTHER-IS-PARTICIPATED",
+  "paraphrase": "OPEN analyst premise: if c, distinct from x, causes x's being r, then x has r by participation (not through what x is). It is the converse direction of ST I q.44 a.1 ad 1 (STMT-PARTICIPATED-HAS-OTHER-CAUSE: what is by participation is caused by another), generalized from esse to every perfection; the converse is the analyst's.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CausedByAnotherIsParticipated",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "d9dec61b-23ec-5a5d-8c9d-6b15193d8490"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "54f33165-05df-5205-807a-04154b5fd6ad"
+  ]
+}

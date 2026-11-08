@@ -1,16 +1,18 @@
 {
-  "id": "CC100-10-WHOLLY-CONTINGENT-CAUSE",
-  "statement_id": "STMT-CC100-10-WHOLLY-CONTINGENT-CAUSE",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "c78df056-cc0a-5634-917f-4d71b5c86982",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Every wholly contingent thing has a cause (2)",
+  "legacy_id": "CC100-10-WHOLLY-CONTINGENT-CAUSE",
+  "statement_id": "a97a6cb5-a23e-5bcb-9566-988cf5607f44",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.9–26: p.21, C3, argument #10 Koons",
   "interpretation": "The domain is the defined no-necessary-parts class, not all ordinary contingent individuals or all facts. No independently warranted PSR, complete explanation, uniqueness of cause or actual concrete grounding relation is registered. Attribution is to McIntosh’s presentation only, not the unread works referenced on p24. No formal result or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-10-MEREOLOGICAL-SCOPE",
-    "DEF-CC100-10-CAUSAL-MODAL-COSMOS"
+    "2cab56b2-8622-5a12-9adf-101a326fa0a6",
+    "54135ed4-7758-5ce5-95f4-0c48052ec091"
   ],
   "disambiguation_ids": [
-    "DISAMB-FUSION-CAUSE-EXTERNALITY",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "80aee986-d636-5cf7-a339-f99726342440",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

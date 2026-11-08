@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
+  "id": "99f27f99-cf28-58bb-9e08-eb3fe8e752c1",
+  "label": "A necessary actual concrete root\u2026: One member of selected\u2019s complete actual concrete ancestry\u2026",
+  "legacy_id": "DEF-SELECTED-NECESSARY-ROOT-ANCESTOR",
   "term": "a necessary actual concrete root ancestor of the selected being",
   "definition": "One member of selected\u2019s complete actual concrete ancestry exists at every accessible world and has no incoming ground from any actual concrete candidate at the selected world. The same witness has ancestry, necessity and selected-world rootness. Non-concrete explanations and grounding at other worlds are not excluded; no uniqueness or divine attribute is asserted.",
   "basis": "stipulative",

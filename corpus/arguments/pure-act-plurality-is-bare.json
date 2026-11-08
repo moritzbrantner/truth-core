@@ -1,0 +1,27 @@
+{
+  "id": "36555afb-5d20-549b-8b32-2f2604d8fce7",
+  "label": "Any two first movers moved by none…, from Every first mover moved by none really has… and 1 more",
+  "legacy_id": "PURE-ACT-PLURALITY-IS-BARE",
+  "premise_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136"
+  ],
+  "conclusion_statement_id": "b0a0101b-9177-563f-a035-7da0e41575fe",
+  "inference_ids": [
+    "91d65ae7-f179-5f59-b8c1-68eb0ce56272"
+  ],
+  "meaning": "If every real determination of a first mover is a pure perfection and every first mover has every pure perfection, then whatever real determination one first mover has, every first mover has. So two first movers can differ neither by a perfection nor by a non-pure individuating, receiving or limiting principle: any plurality of them is bare. Constructive; no first mover is produced and no numerical identity is concluded.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "b5ac268c-7497-5780-a154-3f84c34ac709",
+    "efe8fb80-81fc-51c1-89d0-414338fcfe96"
+  ],
+  "disambiguation_ids": [
+    "567c3e74-9514-52d9-b3b6-f5a3af078784",
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7"
+  ]
+}

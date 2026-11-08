@@ -1,0 +1,345 @@
+# Round 2 grounding: derivations of the actual-concrete-grounding bridges of the
+# necessary-being cluster (explorations/every-contingent-grounded-at.toml,
+# esse-cause-actual-concrete-ground.toml, simply-prior-actual-concrete-ground.toml,
+# necessity-causes-actual-concrete-grounds.toml, actual-grounding-asymmetric.toml,
+# actual-grounding-asymmetric-at-maximal-target.toml).
+# Analyst formulations, attribution deferred: every new statement is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.Round2Grounding"
+results = "TruthCore.Results.Causality.Round2Grounding"
+
+# ---- Causes of esse ----
+
+[[statement]]
+id = "STMT-ESSE-CAUSES-EXIST-AT"
+lean = "EsseCausesExistAt"
+paraphrase = "OPEN analyst premise: at the reading world w, whatever causes the esse of an actual concretum exists at w. Only causes of esse of things that are concrete and exist at w are constrained; no temporal reading of 'exists at w' is implied."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-ESSE-CAUSES-ARE-CONCRETE"
+lean = "EsseCausesAreConcrete"
+paraphrase = "OPEN analyst premise: whatever causes the esse of anything is concrete (concreteness read as causal capacity). An abstract cause of esse would falsify it."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA", "DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE"
+lean = "EsseEffectDependsOnItsCause"
+paraphrase = "OPEN analyst premise: if c, distinct from x, causes x's esse, then x depends for its being on c (DependsForBeing x c, the q.44 a.1 ad 2 counterfactual dependence). Said of causes of esse, not of every efficient cause."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"
+lean = "ActualDependenceIsGrounding"
+paraphrase = "OPEN analyst bridge: if an actual concretum x depends for its being on an actual concretum c, then c grounds x under the selected relation at w. One direction only: grounding is not claimed to be dependence, and dependence on absent or abstract things is not constrained."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+# ---- Simple priority and causes of necessity ----
+
+[[statement]]
+id = "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA"
+lean = "SimplePriorityRelatesActualConcreta"
+paraphrase = "OPEN analyst premise: whenever y is simply prior to x, both y and x are concrete and exist at the reading world w. It excludes abstract or absent relata of simple priority."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-NECESSITY-CAUSE-CAUSES-ESSE"
+lean = "NecessityCauseCausesEsse"
+paraphrase = "OPEN analyst premise: whatever causes the necessity of a thing causes its esse. The converse direction of STMT-CAUSE-OF-NECESSARY-BEING-CAUSES-ITS-NECESSITY's shape; not an identification of the two relations."
+definitions = ["DEF-NECESSARY-PER-SE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE"
+lean = "NecessityCauseRelataActualConcrete"
+paraphrase = "OPEN analyst premise: whenever c causes the necessity of x, both c and x are concrete and exist at the reading world w."
+definitions = ["DEF-NECESSARY-PER-SE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA", "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"]
+
+[[statement]]
+id = "STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE"
+lean = "NecessitatedDependsOnItsCause"
+paraphrase = "OPEN analyst premise: whatever has its necessity caused by c depends for its being on c."
+definitions = ["DEF-NECESSARY-PER-SE", "DEF-DEPENDS-FOR-BEING"]
+disambiguations = ["DISAMB-CAUSE"]
+
+# ---- Contingent concreta ----
+
+[[statement]]
+id = "STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE"
+lean = "ContingentConcretumParticipatesEsse"
+paraphrase = "OPEN analyst bridge: every concrete individual that exists at w and is contingent at w (absent at some accessible world) has esse by participation. It relates modal contingency to participated esse in one direction only."
+definitions = ["DEF-PARTICIPATED-ESSE", "DEF-KANT-MODAL-CONTINGENCY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-NECESSARY-INDIVIDUAL-SCOPE", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+lean = "ParticipatedEsseHasDistinctCause"
+paraphrase = "OPEN reading of ST I q.44 a.1 co. in the CausesIn vocabulary: whatever has esse by participation has its esse caused by something other than itself."
+definitions = ["DEF-PARTICIPATED-ESSE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM"
+lean = "ActualContingentDependsOnActualConcretum"
+paraphrase = "OPEN analyst premise: every concrete individual that exists and is contingent at w depends for its being on some concrete individual that exists at w. It does not require the latter to be distinct or necessary."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-KANT-MODAL-CONTINGENCY", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-NECESSARY-INDIVIDUAL-SCOPE", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"
+lean = "ExistingCauseOfActualConcretumIsConcreteGround"
+paraphrase = "OPEN analyst bridge: at w, whatever exists at w and causes an actual concretum under the Kantian Ontic.Causes relation is concrete and grounds it under the selected relation. It relates the two relations of the profile in one direction only (DISAMB-CAUSAL-POWER-GROUNDING)."
+definitions = ["DEF-KANT-LOCAL-CAUSE", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+# ---- Asymmetry ----
+
+[[statement]]
+id = "STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY"
+lean = "ActualGroundingIsSimplePriority"
+paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is simply prior to b."
+definitions = ["DEF-SIMPLE-PRIORITY", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+disambiguations = ["DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"]
+
+[[statement]]
+id = "STMT-ACTUAL-GROUNDING-IS-DEPENDENCE"
+lean = "ActualGroundingIsDependence"
+paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, b depends for its being on a. Converse direction of STMT-ACTUAL-DEPENDENCE-IS-GROUNDING."
+definitions = ["DEF-DEPENDS-FOR-BEING", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING"]
+
+[[statement]]
+id = "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+lean = "DependenceForBeingAsymmetric"
+paraphrase = "OPEN analyst premise: if x depends for its being on y, y does not depend for its being on x (hence nothing depends on itself). Mutual counterfactual dependence would falsify it."
+definitions = ["DEF-DEPENDS-FOR-BEING"]
+
+[[statement]]
+id = "STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"
+lean = "ActualGroundIsMoreInEsse"
+paraphrase = "OPEN analyst bridge: whenever an actual concretum a grounds an actual concretum b at w, a is more in esse than b (MoreIn esse a b, the quarta via's grades). Equal-grade grounding would falsify it."
+definitions = ["DEF-MORE-IN", "DEF-ESSE", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY"]
+
+[[statement]]
+id = "STMT-ROUND2-GROUNDING-CONTROLS"
+lean = "Control.Certificate"
+paraphrase = "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a model in which the other premises hold and the conclusion fails, and one joint model (a contingent actual concretum grounded by a necessary one, every relation nonempty) in which every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality."
+definitions = ["DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-DEPENDS-FOR-BEING", "DEF-CAUSE-OF-PERFECTION", "DEF-SIMPLE-PRIORITY", "DEF-PARTICIPATED-ESSE", "DEF-KANT-LOCAL-CAUSE", "DEF-MORE-IN"]
+disambiguations = ["DISAMB-CAUSAL-POWER-GROUNDING", "DISAMB-CAUSE"]
+
+# ---- Arguments ----
+
+[[argument]]
+id = "ESSE-CAUSE-GROUND-VIA-DEPENDENCE"
+theorem = "esseCauseGroundViaDependence"
+premises = ["STMT-ESSE-CAUSES-EXIST-AT", "STMT-ESSE-CAUSES-ARE-CONCRETE", "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+rule = "Universal instantiation, conjunction introduction and modus ponens"
+meaning = "Derives the esse-cause bridge: a cause c, distinct from an actual concretum x, of x's esse is concrete (causal-capacity premise) and exists at w (only actual things cause esse), so it is an actual concretum; x depends for its being on c (q.44 a.1 ad 2 read for causes of esse); and dependence between actual concreta is grounding. Four OPEN premises; the dependence bridge carries only one direction."
+
+[[argument]]
+id = "SIMPLY-PRIOR-GROUND-VIA-DEPENDENCE"
+theorem = "simplyPriorGroundViaDependence"
+premises = ["STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+rule = "Universal instantiation, conjunction elimination and modus ponens"
+meaning = "If y is simply prior to x, x depends for its being on y (necessary direction of the dependence analysis of priority, reused from causal maps batch 1); both are actual concreta; so y grounds x. The distinctness hypothesis of the target is not used."
+
+[[argument]]
+id = "SIMPLY-PRIOR-GROUND-VIA-ESSE-CAUSE"
+theorem = "simplyPriorGroundViaEsseCause"
+premises = ["STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING", "STMT-SIMPLE-PRIORITY-RELATES-ACTUAL-CONCRETA", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+rule = "Universal instantiation and modus ponens"
+meaning = "Composes the stage-one premise that the simply prior causes the esse of what is posterior with the esse-cause bridge: a distinct simply prior y causes the esse of x, x is an actual concretum, so y is an actual concrete ground of x. Only the posterior relatum's actuality is used from the relata premise."
+
+[[argument]]
+id = "NECESSITY-CAUSE-GROUND-VIA-ESSE-CAUSE"
+theorem = "necessityCauseGroundViaEsseCause"
+premises = ["STMT-NECESSITY-CAUSE-CAUSES-ESSE", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+rule = "Universal instantiation and modus ponens"
+meaning = "A distinct cause c of x's necessity causes x's esse, x is an actual concretum, so by the esse-cause bridge c is an actual concrete ground of x. Only the effect's actuality is used from the relata premise."
+
+[[argument]]
+id = "NECESSITY-CAUSE-GROUND-VIA-DEPENDENCE"
+theorem = "necessityCauseGroundViaDependence"
+premises = ["STMT-NECESSITATED-DEPENDS-ON-ITS-CAUSE", "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS"
+rule = "Universal instantiation, conjunction elimination and modus ponens"
+meaning = "A second route without causes of esse: what has its necessity caused by c depends for its being on c; both are actual concreta; dependence between actual concreta is grounding."
+
+[[argument]]
+id = "CONTINGENT-GROUNDED-VIA-PARTICIPATION"
+theorem = "contingentGroundedViaParticipation"
+premises = ["STMT-CONTINGENT-CONCRETUM-PARTICIPATES-ESSE", "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE", "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+rule = "Universal instantiation, existential elimination and introduction"
+meaning = "An actual contingent concretum has esse by participation, so a distinct cause of its esse (q.44 a.1 co. reading), which by the esse-cause bridge is an actual concrete ground. The ground is distinct, which is more than the target requires."
+
+[[argument]]
+id = "CONTINGENT-GROUNDED-VIA-LOCAL-CAUSE"
+theorem = "contingentGroundedViaLocalCause"
+premises = ["STMT-LOCAL-CAUSAL-PRINCIPLE", "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+rule = "Universal instantiation, existential elimination and introduction"
+meaning = "The Kantian local causal principle supplies an existing distinct cause of every existing contingent individual; the bridge makes an existing cause of an actual concretum a concrete ground of it. Uses the principle at the one reading world only."
+
+[[argument]]
+id = "CONTINGENT-GROUNDED-VIA-DEPENDENCE"
+theorem = "contingentGroundedViaDependence"
+premises = ["STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM", "STMT-ACTUAL-DEPENDENCE-IS-GROUNDING"]
+conclusion = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+rule = "Universal instantiation, existential elimination and introduction"
+meaning = "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it."
+
+[[argument]]
+id = "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF"
+theorem = "asymmetricFromWF"
+premises = ["STMT-ACTUAL-GROUNDING-WF"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+rule = "Well-founded induction"
+meaning = "Restricted well-foundedness of the selected relation on actual concreta excludes reciprocal grounding between actual concreta, by well-founded induction (reuses actualGroundingAsymmetricOfWF). Registered as the strength order WF -> asymmetric."
+
+[[argument]]
+id = "ACTUAL-GROUNDING-ASYMMETRIC-VIA-PRIORITY"
+theorem = "asymmetricViaPriority"
+premises = ["STMT-ACTUAL-GROUNDING-IS-SIMPLE-PRIORITY", "STMT-PRIORITY-REQUIRES-NONMUTUAL-DEPENDENCE"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+rule = "Reductio"
+meaning = "If actual concreta a and b grounded each other, each would be simply prior to the other, so b would depend on a and a would not depend on b, while also a depends on b. No well-foundedness is used."
+
+[[argument]]
+id = "ACTUAL-GROUNDING-ASYMMETRIC-VIA-DEPENDENCE"
+theorem = "asymmetricViaDependence"
+premises = ["STMT-ACTUAL-GROUNDING-IS-DEPENDENCE", "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+rule = "Reductio"
+meaning = "Reciprocal grounding between actual concreta would give mutual dependence for being, which asymmetric dependence excludes."
+
+[[argument]]
+id = "ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES"
+theorem = "asymmetricViaGrades"
+premises = ["STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE", "STMT-MORE-IN-IS-ASYMMETRIC"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+rule = "Reductio"
+meaning = "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes."
+
+[[argument]]
+id = "AT-MAXIMAL-TARGET-VIA-GRADES"
+theorem = "atMaximalTargetViaGrades"
+premises = ["STMT-ACTUAL-GROUND-IS-MORE-IN-ESSE"]
+conclusion = "STMT-ACTUAL-GROUNDING-ASYMMETRIC-AT-MAXIMAL-TARGET"
+rule = "Reductio"
+meaning = "If an actual concretum a grounded an actual maximum b in esse, a would be more in esse than b, which maximality (nothing is more in esse than b) excludes. So no actual concretum grounds a maximum at all, which gives the local asymmetry policy without any asymmetry premise. The InAct part of maximality is unused."
+
+[[argument]]
+id = "ROUND2-GROUNDING-CONTROLS"
+theorem = "controls"
+premises = []
+conclusion = "STMT-ROUND2-GROUNDING-CONTROLS"
+rule = "Explicit finite interpretations"
+meaning = "Finite interpretations on Bool carriers, checked by decide: for each premise of each of the thirteen derivations, one model in which the other premises hold and the conclusion fails (for restricted well-foundedness, total reciprocal grounding), and one joint model in which a contingent actual concretum is grounded by a necessary one, every relation is nonempty, and every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality."
+
+# ---- Strength order ----
+
+[[relation]]
+id = "REL-ACTUAL-GROUNDING-WF-STRENGTHENS-ASYMMETRIC"
+subject_kind = "statement"
+subject_id = "STMT-ACTUAL-GROUNDING-WF"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "STMT-ACTUAL-GROUNDING-ASYMMETRIC"
+verification_result_id = "ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF"
+note = "Restricted well-foundedness excludes reciprocal grounding between actual concreta (ACTUAL-GROUNDING-ASYMMETRIC-FROM-WF). Strictness: an infinite descending chain of actual concreta with no two-cycle is asymmetric but not well-founded (no finite control in this batch)."
+
+# ---- Supports relations (claim bears on, does not state) ----
+
+[[relation]]
+id = "REL-CC100-10-ACTUAL-CAUSE-SUPPORTS-ESSE-CAUSES-EXIST-AT"
+subject_kind = "claim"
+subject_id = "CC100-10-ACTUAL-CAUSE-EFFECT"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ESSE-CAUSES-EXIST-AT"
+note = "The slide says only actually existing things can be causes or effects. The premise restricts this to causes of the esse of actual concreta and reads 'actually existing' as world-relative ExistsAt at the reading world; the restriction to esse and the world-relative reading are the analyst's."
+
+[[relation]]
+id = "REL-KOONS-ACTUAL-INVOLVEMENT-SUPPORTS-ESSE-CAUSES-EXIST-AT"
+subject_kind = "claim"
+subject_id = "KOONS-1996-COR1-ACTUAL-INVOLVEMENT-EXISTENCE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ESSE-CAUSES-EXIST-AT"
+note = "Koons says a being involved in an actual fact actually exists. The premise needs that c's causing x's esse is an actual fact in which c is involved; that reading of causing as a fact is the analyst's."
+
+[[relation]]
+id = "REL-CC100-11-CONCRETE-GLOSS-SUPPORTS-ESSE-CAUSES-ARE-CONCRETE"
+subject_kind = "claim"
+subject_id = "CC100-11-PLURAL-EXISTENCE-EXPLANATION"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ESSE-CAUSES-ARE-CONCRETE"
+note = "Only the slide's gloss of 'concrete' as something that possibly causes something bears on the premise: an actual cause of esse possibly causes something, so it is concrete in that sense. The slide's claim itself is about explanations of existence; the premise's identification of that gloss with the profile's concrete predicate is the analyst's."
+
+[[relation]]
+id = "REL-Q44-A1-COUNTERFACTUAL-SUPPORTS-ESSE-EFFECT-DEPENDS"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ESSE-EFFECT-DEPENDS-ON-ITS-CAUSE"
+note = "Q.44 a.1 ad 2 says an agent cause is required because the effect would not be if the cause were not. The premise applies this to causes of esse (CausesIn c x esse) rather than agent causes, and states it as a universal dependence premise; both are the analyst's."
+
+[[relation]]
+id = "REL-Q44-A1-PARTICIPATED-SUPPORTS-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+note = "Q.44 a.1 co. says a being that has esse by participation is caused by another. The premise reads 'caused by another' as: some distinct c causes its esse in the CausesIn vocabulary. The passage's 'another' is the cause of its being, so the gap is the vocabulary choice, not the scope."
+
+[[relation]]
+id = "REL-Q44-A1-NECESSARY-CAUSED-SUPPORTS-NECESSITY-CAUSE-CAUSES-ESSE"
+subject_kind = "claim"
+subject_id = "AQUINAS-ST-I-Q44-A1-NECESSARY-EFFICIENT-CAUSE-COMPATIBLE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-NECESSITY-CAUSE-CAUSES-ESSE"
+note = "Q.44 a.1 ad 2 says some necessary things have a cause of their necessity, and that being necessary does not exclude an efficient cause. It bears on the premise by treating a cause of necessity as an efficient cause of being; that every cause of necessity causes the thing's esse is the analyst's generalization."
+
+[[relation]]
+id = "REL-CC100-10-ACTUAL-CAUSE-SUPPORTS-NECESSITY-CAUSE-RELATA-ACTUAL"
+subject_kind = "claim"
+subject_id = "CC100-10-ACTUAL-CAUSE-EFFECT"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-NECESSITY-CAUSE-RELATA-ACTUAL-CONCRETE"
+note = "The slide says only actually existing things can be causes or effects; it bears on the existence half of the premise for causes of necessity read as causes. Concreteness of both relata is not stated and is the analyst's."
+
+[[relation]]
+id = "REL-CC100-4-DEPENDENT-DOMAIN-SUPPORTS-CONTINGENT-DEPENDS"
+subject_kind = "claim"
+subject_id = "CC100-4-DEPENDENT-DOMAIN"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM"
+note = "The slide says dependent beings exist and each depends on itself or another. The premise needs that every actual contingent concretum is dependent and that what it depends on is an actual concretum; identifying modal contingency with dependence and the actual concreteness of the depended-on are the analyst's."
+
+[[relation]]
+id = "REL-CC100-4-NO-SELF-DEPENDENCE-SUPPORTS-DEPENDENCE-ASYMMETRIC"
+subject_kind = "claim"
+subject_id = "CC100-4-NO-SELF-AND-OTHER-DEPENDENCE"
+predicate = "supports"
+object_kind = "statement"
+object_id = "STMT-DEPENDENCE-FOR-BEING-ASYMMETRIC"
+note = "The slide says nothing can depend on itself, which is the irreflexive instance of the premise. Excluding mutual dependence between two distinct things is the analyst's strengthening."

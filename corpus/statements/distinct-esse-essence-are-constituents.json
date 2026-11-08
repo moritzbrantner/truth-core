@@ -1,0 +1,15 @@
+{
+  "id": "f5db1796-20b1-5eef-8953-ef549815e989",
+  "label": "When a thing's esse is other than its essence, both are constituent principles of it",
+  "legacy_id": "STMT-DISTINCT-ESSE-ESSENCE-ARE-CONSTITUENTS",
+  "paraphrase": "OPEN analyst premise: when a thing's esse is other than its essence, both are constituent principles of it. Silent on a thing whose esse is its essence.",
+  "lean_declaration": "TruthCore.Causality.Round4Revisited.DistinctEsseEssenceAreConstituents",
+  "definition_ids": [
+    "37302378-4084-5986-a88e-b67f966619d2",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
+  ]
+}

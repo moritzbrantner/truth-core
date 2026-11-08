@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-PLATONIC-SEPARATION",
+  "id": "e8547175-8208-5cc0-b5bb-39577315f2ac",
+  "label": "Separation (3)",
+  "legacy_id": "DISAMB-PLATONIC-SEPARATION",
   "term": "separation",
   "sense_definition_ids": [
-    "DEF-PLATONIC-INDEPENDENCE",
-    "DEF-PLATONIC-NONIDENTITY"
+    "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+    "408fb3a5-02ea-53ca-a79d-32134c6cac69"
   ],
-  "resolution": "The Republic nonidentity reading only excludes numerical identity. Parmenides 130b permits an ontological reading of separately in addition; its Independent predicate is an explicit open commitment. No modal independence theorem follows from inequality."
+  "resolution": "The Republic nonidentity reading only excludes numerical identity. Parmenides 130b permits an ontological reading of separately in addition; its Independent predicate is an explicit open commitment. No modal independence theorem follows from inequality.",
+  "term_label": "SEPARATION",
+  "senses": [
+    {
+      "id": "0b49f552-0a3b-46e1-a92b-a68953e995cf",
+      "label": "SEPARATION_1",
+      "definition_id": "54f18827-52a3-5979-a4e7-70380e3c7dd6",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Vocabulary"
+    },
+    {
+      "id": "f5321de4-6205-47fd-853f-5bd229776be7",
+      "label": "SEPARATION_4",
+      "definition_id": "408fb3a5-02ea-53ca-a79d-32134c6cac69",
+      "lean_declaration": "TruthCore.Greek.Plato.Forms.Nonidentity"
+    }
+  ]
 }

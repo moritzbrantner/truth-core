@@ -1,11 +1,13 @@
 {
-  "id": "STMT-HIDDENNESS-NONPERSONAL-INQUIRY-OPEN",
+  "id": "179b4b92-73e4-5926-a58a-9c3c9c6afe81",
+  "label": "Success of the argument against a personal God would not entail metaphysical naturalism…",
+  "legacy_id": "STMT-HIDDENNESS-NONPERSONAL-INQUIRY-OPEN",
   "paraphrase": "Success of the argument against a personal God would not entail metaphysical naturalism; nonpersonal and possibly religious ultimate possibilities remain open to investigation.",
   "definition_ids": [
-    "DEF-HIDDENNESS-GOD",
-    "DEF-HIDDENNESS-OPEN-ULTIMATE-INQUIRY"
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "759c2050-662a-54db-bcf5-9f5ba0da7741"
   ],
   "disambiguation_ids": [
-    "DISAMB-HIDDENNESS-RELIGIOUS-ULTIMATE"
+    "6848dc39-2ccb-5e86-a5e6-decd165a9725"
   ]
 }

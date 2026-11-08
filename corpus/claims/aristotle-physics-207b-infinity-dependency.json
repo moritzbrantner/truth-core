@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-207B-INFINITY-DEPENDENCY-A",
-  "statement_id": "STMT-INFINITY-DEPENDENCY-MAGNITUDE-MOTION-TIME",
-  "source_id": "ARIST-PHYS",
+  "id": "a39be09c-43d7-5be0-a1f6-9acf0c918efd",
+  "label": "Aristotle, Physics III.7, 207b21-27: Infinity in magnitude, motion, and time is not one identical…",
+  "legacy_id": "ARIST-PHYS-207B-INFINITY-DEPENDENCY-A",
+  "statement_id": "9b953d41-0cb3-5901-87a3-78b330d4d147",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.7, 207b21-27",
   "interpretation": "Aristotle denies that magnitude, motion, and time share one identical nature of infinity. The usage is ordered: motion is called infinite by reference to the magnitude traversed or changed, and time by reference to motion.",
   "status": "formalized"

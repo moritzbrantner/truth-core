@@ -1,7 +1,9 @@
 {
-  "id": "INF-COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
+  "id": "9b6aa051-e95d-50e5-b80f-2c8967d7cdff",
+  "label": "Four nonvacuous controls witness old narrow bridge true/broader bridge…, by Constructive-proof",
+  "legacy_id": "INF-COMMISSION-GOVERNANCE-INTERPRETATION-MODELS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-COMMISSION-GOVERNANCE-CRITERION-MODELS",
+  "output_statement_id": "84c419d5-1e82-533f-9d6d-054f6f1e4f97",
   "rule": "constructive-proof",
   "meaning": "Reuse Commissions.messageRival_compatible_with_mt28 to witness old narrow link true/broader link false with a real mandate and founded visible body. A full commissioning controls consistency. Baptize-inclusive Other admits the target; no-governing Other rejects it with a matching bridge and the same nonempty context. These are schema controls, not history.",
   "assumption_statement_ids": [],

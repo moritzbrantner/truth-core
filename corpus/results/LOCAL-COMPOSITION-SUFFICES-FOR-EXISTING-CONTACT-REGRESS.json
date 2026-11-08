@@ -1,6 +1,8 @@
 {
-  "id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
-  "argument_id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "id": "ea6c9674-4772-5a3e-b3b7-07f76db8b202",
+  "label": "There is no infinite chain in which each…, from What primarily moves something in local… and 3 more",
+  "legacy_id": "LOCAL-COMPOSITION-SUFFICES-FOR-EXISTING-CONTACT-REGRESS",
+  "argument_id": "80dced41-4b95-58fe-8d74-6db16b621c37",
   "challenge_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Challenge",
   "solution_module": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.Solution",
   "theorem": "TruthCore.Results.Aristotle.Physics.LocalContactComposition.Regress.localCompositionRegress",

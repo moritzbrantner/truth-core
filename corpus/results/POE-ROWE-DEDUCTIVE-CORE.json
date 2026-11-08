@@ -1,6 +1,8 @@
 {
-  "id": "POE-ROWE-DEDUCTIVE-CORE",
-  "argument_id": "POE-ROWE-DEDUCTIVE-CORE",
+  "id": "63481f67-a60f-5414-8946-8cabe33065b7",
+  "label": "No being is jointly omniscient…, from Some occurring intense suffering could be… and 1 more",
+  "legacy_id": "POE-ROWE-DEDUCTIVE-CORE",
+  "argument_id": "9d5e7d00-4949-5c72-aa80-ef115e916c14",
   "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Challenge",
   "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution",
   "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.roweDeductiveCore",

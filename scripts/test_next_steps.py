@@ -51,6 +51,18 @@ class NextStepsTest(unittest.TestCase):
         rendered = format_next_steps(view)
         self.assertLess(rendered.index("Foundational progress:"), rendered.index("Expanded routes (cost diagnostic"))
 
+    def test_cli_inspects_support_bundles_before_costs(self):
+        statements = [statement(sid) for sid in ["ROOT", "A", "X", "Y"]]
+        arguments = [argument("ROOT-PROOF", ["A"], "ROOT"), argument("A-PROOF", ["X", "Y"], "A")]
+        results = [{"id": aid + "-RESULT", "argument_id": aid} for aid in ["ROOT-PROOF", "A-PROOF"]]
+        view = corpus.frontier_report(statements, arguments, results, [], root="ROOT", _include_next_steps=True)["next_steps"]
+        text = format_next_steps(view)
+        self.assertIn("A: direct assumption available", text)
+        self.assertIn("premises: X, Y", text)
+        self.assertIn("arguments: A-PROOF", text)
+        self.assertIn("verified results: A-PROOF-RESULT", text)
+        self.assertLess(text.index("premises: X, Y"), text.index("Expanded routes (cost diagnostic"))
+
     def test_shared_failure_does_not_certify_joint_settlement(self):
         statements = [statement(sid) for sid in ["ROOT", "A", "B", "C"]]
         arguments = [argument("LEFT", ["A", "B"], "ROOT"), argument("RIGHT", ["A", "C"], "ROOT")]

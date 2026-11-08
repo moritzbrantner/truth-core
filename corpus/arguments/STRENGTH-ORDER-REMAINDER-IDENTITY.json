@@ -1,12 +1,14 @@
 {
-  "id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "id": "d7e70a00-f3a1-5674-8fa5-8a7f7f0cefce",
+  "label": "For every mathematical linear order and shared x,y, equality y = x is exactly the remainder y ≥ x…",
+  "legacy_id": "STRENGTH-ORDER-REMAINDER-IDENTITY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-STRENGTH-ORDER-REMAINDER-IDENTITY",
+  "conclusion_statement_id": "b6ca8565-0d6f-5ac2-9839-2cbb80963e27",
   "inference_ids": [
-    "INF-STRENGTH-ORDER-REMAINDER-IDENTITY"
+    "171f934d-2b39-5c33-806b-de6a2eb823fa"
   ],
   "meaning": "Prove equality is exactly W and not S, using the checked mathematical order decomposition; equality is not confused with the additional requirement of inequality.",
   "definition_ids": [
-    "DEF-STRENGTH-LINEAR-ORDER"
+    "27fc87cc-c230-5949-9460-c3ae4b4e1d25"
   ]
 }

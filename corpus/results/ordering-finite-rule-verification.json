@@ -1,6 +1,8 @@
 {
-  "id": "ORDERING-FINITE-RULE-VERIFICATION",
-  "argument_id": "ORDERING-FINITE-RULE-VERIFICATION",
+  "id": "f318abc6-bcc2-59c3-b896-6230b2d6d75f",
+  "label": "Finite Nat induction proves every value of the closed zero/successor recursive program equals its…",
+  "legacy_id": "ORDERING-FINITE-RULE-VERIFICATION",
+  "argument_id": "999c7f64-4d40-59ea-8612-b4168a4a99ba",
   "challenge_module": "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.Challenge",
   "solution_module": "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.Solution",
   "theorem": "TruthCore.Results.Explanation.OrderingCardinality.FiniteRule.verifies",

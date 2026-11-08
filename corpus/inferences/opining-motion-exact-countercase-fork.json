@@ -1,9 +1,11 @@
 {
-  "id": "INF-OPINING-MOTION-EXACT-COUNTERCASE-FORK",
+  "id": "29bedabc-416b-57c5-96e9-a49230d7ea99",
+  "label": "The original every-opiner designated-MOTION_3 norm or an actual…, by Constructive-proof",
+  "legacy_id": "INF-OPINING-MOTION-EXACT-COUNTERCASE-FORK",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-OPINING-MOTION-NORM-OR-EXACT-COUNTERTUPLE",
+  "output_statement_id": "eaf51b98-690b-5171-8f29-aaf426c09f55",
   "rule": "constructive-proof",
   "meaning": "Checked structural universal-or-actual-countertuple coverage under explicit excluded middle. A finite list containing only the stronger global-no-motion account is not used as exhaustive.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "HISTORY-CONTRASTIVE-CONTROLS",
-  "argument_id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "id": "daa271be-cd04-5e03-bd3e-c7bad5c2eff3",
+  "label": "Two universally accessible infinite predecessor chains have sound local reason coverage and causal…",
+  "legacy_id": "HISTORY-CONTRASTIVE-CONTROLS",
+  "argument_id": "910e9559-4e32-55a5-94e1-9642279b9937",
   "challenge_module": "TruthCore.Results.Modal.HistoryContrastive.Challenge",
   "solution_module": "TruthCore.Results.Modal.HistoryContrastive.Solution",
   "theorem": "TruthCore.Results.Modal.HistoryContrastive.controls",

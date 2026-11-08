@@ -1,6 +1,8 @@
 {
-  "id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
-  "argument_id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
+  "id": "1b431a88-e968-5bbe-be7b-eed9cdb6c2c2",
+  "label": "Six schema controls witness triple overlap, the spiritual criterion alone with stage 5 false, the…",
+  "legacy_id": "CHURCH-DEFINITION-INTERPRETATION-MODELS",
+  "argument_id": "0a2a4004-04e5-551d-bd32-4a3eaaacd17e",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.ChurchDefinitions.Models.criterionModels",

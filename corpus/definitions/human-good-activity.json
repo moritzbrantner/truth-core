@@ -1,10 +1,12 @@
 {
-  "id": "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY",
+  "id": "6a7f7256-6fe8-5eb8-b711-22a295a9d356",
+  "label": "Human good as excellent rational…: A life realizing the human good involves actual rational…",
+  "legacy_id": "DEF-HUMAN-GOOD-AS-EXCELLENT-ACTIVITY",
   "term": "human good as excellent rational activity",
   "definition": "A life realizing the human good involves actual rational activity of soul according to appropriate virtue and a complete life. Only necessary conditions are encoded, not their sufficiency, an actual happy life, or a categorical obligation to choose that life.",
   "basis": "sourced",
   "claim_ids": [
-    "ARIST-EN-I7-HUMAN-GOOD-ACTIVITY"
+    "b103a3c6-e600-5f56-9c27-800630a4abb5"
   ],
   "lean_declaration": "TruthCore.Greek.Aristotle.NicomacheanEthics.HumanGoodActivityReading"
 }

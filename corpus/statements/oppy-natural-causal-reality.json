@@ -1,7 +1,9 @@
 {
-  "id": "STMT-OPPY-2020-NATURAL-CAUSAL-REALITY",
+  "id": "dc3e4a6d-22a9-5eb5-8485-26986497d161",
+  "label": "Oppy proposes that natural reality exhausts causal reality, while leaving open whether there is a…",
+  "legacy_id": "STMT-OPPY-2020-NATURAL-CAUSAL-REALITY",
   "paraphrase": "Oppy proposes that natural reality exhausts causal reality, while leaving open whether there is a unique natural uncaused cause or an infinite natural causal regress.",
   "definition_ids": [
-    "DEF-OPPY-CAUSAL-MODAL-COMPARISON"
+    "b78d124b-53ea-53fb-bf02-a744a79f9364"
   ]
 }

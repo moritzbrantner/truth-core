@@ -1,0 +1,12 @@
+{
+  "id": "191d472b-a056-5ef7-9ac7-b98d93e3f8f9",
+  "label": "Any being that is not composite, whose represented esse equals its represented…, from reception",
+  "legacy_id": "UNLIMITED-IS-OWN-BEING-FROM-RECEPTION",
+  "argument_id": "e6af6938-4a1a-53dc-9239-ab95073760a2",
+  "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
+  "theorem": "TruthCore.Results.Causality.ReceptionLimitation.unlimitedIsOwnBeing",
+  "comparator_config": "results/UNLIMITED-IS-OWN-BEING-FROM-RECEPTION/comparator.json",
+  "status": "solution-present",
+  "description": "Take a being with no represented limiting principle and suppose its esse is received in some principle r. If its represented esse equalled its essence, r would be that essence (STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE), r would be in receptive potency to the esse (STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE, De ente c.3), so the essence would be in receptive potency to itself, which STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF excludes; so its esse would differ from its essence, a limiting principle. Hence its esse is received in nothing, and by STMT-UNRECEIVED-ESSE-IS-OWN-BEING (q.7 a.1 with ad 3) it is its own being. Derives the former bare bridge STMT-UNLIMITED-IS-OWN-BEING. Only the esse/essence disjunct of the limiting-principle proxy is used; composition and priority play no role, and no excluded middle is used. The three reception premises are those of the designated infinity route SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION; all four premises stay open."
+}

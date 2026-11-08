@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NECESSARY-TARGET-CONTINGENT-GROUND-BOUNDARY",
+  "id": "d66b7e53-c696-50e5-bdbd-9f2e975ec3b1",
+  "label": "In the exact switching model, existence of every necessary target follows conditionally at each…",
+  "legacy_id": "STMT-NECESSARY-TARGET-CONTINGENT-GROUND-BOUNDARY",
   "paraphrase": "In the exact switching model, existence of every necessary target follows conditionally at each accessible world regardless of the proposed source; common rank holds, while no-contingent-ground and necessarily-underivedness fail. This certifies only the necessary-target fragment, not all-target truth necessitation of that model.",
   "lean_declaration": "TruthCore.Causality.CommonPriority.NoContingentBoundary",
   "definition_ids": [
-    "DEF-COMMON-PRIORITY-RANK",
-    "DEF-EXISTENCE-FACT-NECESSITATION"
+    "c674f0d3-e810-545a-9e09-77f4038d1062",
+    "5e797e6e-258c-5070-bd69-cb49f78ec98c"
   ],
   "disambiguation_ids": [
-    "DISAMB-NECESSITATION-PRIORITY-INVARIANCE"
+    "b8b4c985-8b2b-545d-b474-2b5356e90140"
   ]
 }

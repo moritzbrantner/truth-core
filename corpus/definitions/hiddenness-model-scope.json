@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HIDDENNESS-MODEL-SCOPE",
+  "id": "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+  "label": "World domain and finite interpretation…: The chosen domain of worlds indexes the claimed necessary…",
+  "legacy_id": "DEF-HIDDENNESS-MODEL-SCOPE",
   "term": "world domain and finite interpretation in the hiddenness checks",
   "definition": "The chosen domain of worlds indexes the claimed necessary conceptual norms; actual selects where the existential is asserted. The contradiction holds for every supplied signature. The finite interpretations show first-order satisfiability and logical non-entailment only. No proof identifies those interpretations with metaphysically possible worlds, actual people, complete historical worldviews, or the Catholic root God.",
   "basis": "stipulative",

@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
-  "argument_id": "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "id": "20d8056e-e0db-5c20-b386-f4211e085e21",
+  "label": "One explicit widened original artifact candidate space retains correct-account existence…",
+  "legacy_id": "GOODNESS-CORRECT-SUPPORT-STRICT-CONTROL",
+  "argument_id": "e47a718f-0525-5a98-ae89-ba75903c8b36",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Controls.strictControl",

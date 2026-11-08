@@ -1,0 +1,13 @@
+{
+  "id": "54feb72b-7505-5075-9759-a8fcf27530dd",
+  "label": "NECESSARY_1-being node, tertia via reading: there is…, from NECESSARY_1-being node, per se reading…",
+  "legacy_id": "NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA",
+  "argument_id": "e650f80e-5786-532a-bd8a-c2ab4a69e835",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.perSeToTertiaVia",
+  "comparator_config": "results/NECESSARY-ROOT-PER-SE-STRENGTHENS-TERTIA-VIA/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration: necessary per se implies necessary (tertia via, DEF-NECESSARY-PER-SE).",
+  "transcription": "assembly"
+}

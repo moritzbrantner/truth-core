@@ -27,6 +27,8 @@ export type AtlasModel = {
   premises: AtlasPremise[];
   routes: AtlasRoute[];
   labels: Record<string, string>;
+  /** Display names (record labels) of every id the atlas shows; ids stay opaque. */
+  names: Record<string, string>;
   argumentTargets: Record<string, string>;
   establishedRoot: boolean;
 };
@@ -51,7 +53,14 @@ export type AtlasMosaicCell = {
   unresolvedReason: string | null;
 };
 
-export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStatementIds: readonly string[] = []): AtlasModel {
+export function buildAtlasModel(
+  corpus: Corpus,
+  report: FrontierReport,
+  coreStatementIds: readonly string[] = [],
+  nameIds: readonly string[] = [],
+  /** Display label of a record id (server side); the model stays importable by client code. */
+  nameOf: (id: string) => string = (id) => id,
+): AtlasModel {
   const neededLabels = new Set(coreStatementIds);
   const labels = Object.fromEntries(corpus.statements.filter((statement) => neededLabels.has(statement.id)).map((statement) => [statement.id, statement.paraphrase]));
   const argumentsById = Object.fromEntries(corpus.arguments.map((argument) => [argument.id, argument.meaning]));
@@ -61,6 +70,14 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStat
     ...report.items.flatMap((item) => report.premise_dependents[item.statement_id]?.arguments ?? []),
   ]);
   const roots = new Set(report.reaching_root_statements);
+  const named = new Set([
+    ...coreStatementIds,
+    ...nameIds,
+    ...linkedArguments,
+    ...report.items.map((item) => item.statement_id),
+    ...report.routes.routes.flatMap((route) => route.open_premise_statement_ids),
+    ...report.items.flatMap((item) => report.premise_dependents[item.statement_id]?.statements ?? []),
+  ]);
   return {
     root: report.root,
     premises: report.items.map((item) => {
@@ -85,6 +102,7 @@ export function buildAtlasModel(corpus: Corpus, report: FrontierReport, coreStat
       provedUnestablished: route.depth_counts.proved_unestablished,
     })),
     labels,
+    names: Object.fromEntries([...named].map((id) => [id, nameOf(id)])),
     argumentTargets: Object.fromEntries(corpus.arguments.filter((argument) => linkedArguments.has(argument.id)).map((argument) => [argument.id,
       resultByArgument.has(argument.id) ? `/results/${resultByArgument.get(argument.id)}` : `/statements/${argument.conclusion_statement_id}`])),
     establishedRoot: report.established_statements.includes(report.root),

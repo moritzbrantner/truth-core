@@ -1,5 +1,7 @@
 {
-  "id": "DEF-LITERAL-MEANINGFULNESS-1946",
+  "id": "3b773947-a8cd-562d-91d9-952a9ce7cc58",
+  "label": "LITERALLY_MEANINGFUL_1: LiterallyMeaningful1946 F s: s is analytic or empirically verifiable in the…",
+  "legacy_id": "DEF-LITERAL-MEANINGFULNESS-1946",
   "term": "literally meaningful (by the 1946 criterion)",
   "definition": "`LiterallyMeaningful1946 F s`: s is analytic or empirically verifiable in the 1946 sense.",
   "basis": "stipulative",

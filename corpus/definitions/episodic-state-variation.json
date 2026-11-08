@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EPISODIC-STATE-VARIATION",
+  "id": "0328d44e-ee8e-54b5-bb65-59b197ce3ac1",
+  "label": "State variation across indexed episode…: In StaticEpisodeControl, state variation is the existence…",
+  "legacy_id": "DEF-EPISODIC-STATE-VARIATION",
   "term": "state variation across indexed episode times",
   "definition": "In `StaticEpisodeControl`, state variation is the existence of two indices `t₁,t₂` with `StateAt t₁ ≠ StateAt t₂`. A singleton time carrier admits one occurring episode but no state variation. This is a deliberately weak test, not an account of all time or motion.",
   "basis": "stipulative",

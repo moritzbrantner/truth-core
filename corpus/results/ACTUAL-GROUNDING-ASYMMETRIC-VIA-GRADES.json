@@ -1,0 +1,12 @@
+{
+  "id": "097ef0bc-67d7-57fc-bad4-8f20708db5ca",
+  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied…, via grades",
+  "legacy_id": "ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES",
+  "argument_id": "69e63caf-2051-5955-8941-09a18b8c8e5c",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.asymmetricViaGrades",
+  "comparator_config": "results/ACTUAL-GROUNDING-ASYMMETRIC-VIA-GRADES/comparator.json",
+  "status": "solution-present",
+  "description": "Reciprocal grounding between actual concreta would make each more in esse than the other, which the asymmetry of MoreIn excludes."
+}

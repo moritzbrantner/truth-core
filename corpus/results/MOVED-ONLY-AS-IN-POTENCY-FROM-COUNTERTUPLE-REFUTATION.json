@@ -1,0 +1,12 @@
+{
+  "id": "3da8901c-2fb8-5d01-8f4b-22da6ca0a8e5",
+  "label": "Nothing is moved except insofar as it is in POTENCY_1 to that toward…, from countertuple refutation",
+  "legacy_id": "MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION",
+  "argument_id": "20734c17-8e86-5f23-bd99-9b9d22215f6e",
+  "challenge_module": "TruthCore.Results.Causality.RootWiring.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RootWiring.Solution",
+  "theorem": "TruthCore.Results.Causality.RootWiring.movedOnlyAsInPotencyFromCountertupleRefutation",
+  "comparator_config": "results/MOVED-ONLY-AS-IN-POTENCY-FROM-COUNTERTUPLE-REFUTATION/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever is moved in a respect is in potency in that respect, from the conclusion of NO-MOVED-NOT-POTENT-COUNTERTUPLE-FROM-ABILITY-AND-INCOMPLETENESS (the exact moved-not-potent countertuple fails on the same MovedIn and InPotency) and excluded middle. Its premises (what is being moved to r is able to be r and not yet r; potency as unactualized capacity) stay OPEN; the route premise is not established."
+}

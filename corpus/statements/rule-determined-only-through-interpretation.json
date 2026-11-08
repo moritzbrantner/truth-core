@@ -1,12 +1,14 @@
 {
-  "id": "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
+  "id": "7c056d7f-d0b5-5315-bc54-068dcb618858",
+  "label": "An application of a rule is DETERMINED_2 only if some INTERPRETATION_1 of it is itself DETERMINED_2",
+  "legacy_id": "STMT-RULE-DETERMINED-ONLY-THROUGH-INTERPRETATION",
   "paraphrase": "Open premise, unattributed: an application of a rule (or an interpretation of it) is determined only if some interpretation of it is itself determined. This is the assumption PU §201 diagnoses as a misunderstanding ('jedes Handeln nach der Regel sei ein Deuten'), not a view attributed to Wittgenstein.",
   "lean_declaration": "TruthCore.German.Wittgenstein.RuleFollowing.DeterminedOnlyThroughInterpretationReading",
   "definition_ids": [
-    "DEF-INTERPRETATION-OF-AN-ITEM",
-    "DEF-DETERMINED-BY-RULE"
+    "35ecbcaf-af7d-593b-8f39-cb0cc4be2867",
+    "d4a9bed5-48d8-57fb-bac8-f957777cc4ae"
   ],
   "disambiguation_ids": [
-    "DISAMB-RULE-FOLLOWING-PARADOX"
+    "a8566ae9-153c-5329-b680-2755193dab9b"
   ]
 }

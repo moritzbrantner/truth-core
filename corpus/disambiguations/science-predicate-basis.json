@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-SCIENCE-PREDICATE-BASIS",
+  "id": "17dd749a-d491-5e2f-a02c-2d023c57857e",
+  "label": "Time dependence, coding and inductive relevance",
+  "legacy_id": "DISAMB-SCIENCE-PREDICATE-BASIS",
   "term": "time dependence, coding and inductive relevance",
   "sense_definition_ids": [
-    "DEF-SCIENCE-PREDICATE-RECODING",
-    "DEF-SCIENCE-PREDICATE-TRANSPORT"
+    "4b133259-a7dc-5aa0-a8ba-51e417159bd4",
+    "8b71be3a-1ae5-555b-ab19-1a88628c7705"
   ],
-  "resolution": "Phase independence compares two values at the same supplied feature coordinate. Transport preserves extensional values at corresponding coordinates, not at identical coordinate labels. Failure of the latter comparison does not prove physical change or inferior inductive entitlement. Boolean phases are a stipulated partition, not continuous time or the observation-dependent Goodman predicate. The control therefore challenges a purely coordinate-based criterion without refuting a physically defended qualitative/locational distinction."
+  "resolution": "Phase independence compares two values at the same supplied feature coordinate. Transport preserves extensional values at corresponding coordinates, not at identical coordinate labels. Failure of the latter comparison does not prove physical change or inferior inductive entitlement. Boolean phases are a stipulated partition, not continuous time or the observation-dependent Goodman predicate. The control therefore challenges a purely coordinate-based criterion without refuting a physically defended qualitative/locational distinction.",
+  "term_label": "TIME_DEPENDENCE_CODING_AND_INDUCTIVE_RELEVANCE",
+  "senses": [
+    {
+      "id": "6269db29-3797-4907-9cfb-535bffae4f67",
+      "label": "TIME_DEPENDENCE_CODING_AND_INDUCTIVE_RELEVANCE_1",
+      "definition_id": "4b133259-a7dc-5aa0-a8ba-51e417159bd4",
+      "lean_declaration": "TruthCore.Science.PredicateRecoding.PhaseIndependent"
+    },
+    {
+      "id": "23da60b6-dca5-4a29-b883-a8abd093ba8c",
+      "label": "TIME_DEPENDENCE_CODING_AND_INDUCTIVE_RELEVANCE_2",
+      "definition_id": "8b71be3a-1ae5-555b-ab19-1a88628c7705",
+      "lean_declaration": "TruthCore.Science.PredicateRecoding.transported"
+    }
+  ]
 }

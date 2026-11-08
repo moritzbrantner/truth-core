@@ -1,0 +1,11 @@
+{
+  "id": "77aaac31-5629-5de4-a20a-89d1509c482f",
+  "label": "Thomas Aquinas, Summa theologiae I q.75… supports Whoever is attributed an intellectual… (2)",
+  "legacy_id": "REL-Q75-A2-OPERARI-SUPPORTS-INTELLECTUAL-EXERCISER-EXISTS-AT",
+  "subject_kind": "claim",
+  "subject_id": "f4b1c499-8294-5a9d-aa58-f0a755480edd",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "3b13b39c-9d1c-5324-8327-0329f26e083c",
+  "note": "ST I q.75 a.2 co. states 'non enim est operari nisi entis in actu, unde eo modo aliquid operatur, quo est'. The premise (whoever is attributed an intellectual exercise exists at the selected world) adds that an intellectual exercise is an operation (the same article says the intellectual principle 'habet operationem per se'), that being in act is existing, and the indexing to the selected world, which the passage lacks."
+}

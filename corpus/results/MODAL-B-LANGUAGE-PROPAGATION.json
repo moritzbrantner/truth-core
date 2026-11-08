@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-B-LANGUAGE-PROPAGATION",
-  "argument_id": "MODAL-B-LANGUAGE-PROPAGATION",
+  "id": "7f3ae9c9-7c7f-58ec-8813-42c3f92df51a",
+  "label": "On a symmetric frame, possible domain-relative MC entails actual MC if the domain is closed under…",
+  "legacy_id": "MODAL-B-LANGUAGE-PROPAGATION",
+  "argument_id": "ff21414c-cd7a-5a2e-b9c8-bc9ea77b5986",
   "challenge_module": "TruthCore.Results.Modal.B.LanguagePropagation.Challenge",
   "solution_module": "TruthCore.Results.Modal.B.LanguagePropagation.Solution",
   "theorem": "TruthCore.Results.Modal.B.LanguagePropagation.checks",

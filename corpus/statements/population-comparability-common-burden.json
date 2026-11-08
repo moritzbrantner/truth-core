@@ -1,13 +1,15 @@
 {
-  "id": "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN",
+  "id": "0d4fb354-c2f4-5f90-98a0-c2909a9d522a",
+  "label": "For the same two individuals, total, average and fixed critical-level strict comparisons coincide",
+  "legacy_id": "STMT-POPULATION-COMPARABILITY-COMMON-BURDEN",
   "paraphrase": "For the same two individuals, total, average and fixed critical-level strict comparisons coincide. Whenever one individual gains and the other loses between alternatives, two independently positive affine rescalings, each preserving both individuals' own strict welfare orderings, induce opposite collective comparisons simultaneously for all three policies and every critical level. The same transformations are applied across alternatives; arbitrary individual origin shifts cancel. A common positive unit scale preserves these equal-count comparisons; Pareto agreement with one strict gain prevents reversal under every independent positive scale. These are conditional representation constraints, not inconsistency, moral inadequacy, interpersonal comparability, equal justification, historical attribution or root-premise discharge.",
   "lean_declaration": "TruthCore.Ethics.PopulationComparability.Controls",
   "definition_ids": [
-    "DEF-FINITE-INDIVIDUAL-WELFARE-POPULATION",
-    "DEF-POSITIVE-CRITICAL-LEVEL-SCORING",
-    "DEF-INDIVIDUAL-AFFINE-WELFARE-REFRAMING"
+    "e7911911-9f2e-534c-9247-8c7f934ceb1c",
+    "2f3147b3-74c5-5cb9-bb1e-2c4a13c2760a",
+    "6e332592-e6f9-5e38-ad4f-890f9aa7b3f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-POPULATION-MEAN-TOTAL-NORMATIVE-RANKING"
+    "cde82bca-7f45-5873-92ca-67e904ac2dd2"
   ]
 }

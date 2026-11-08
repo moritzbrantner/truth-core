@@ -1,12 +1,14 @@
 {
-  "id": "STMT-CC100-124-TRUTH-KNOWABILITY",
+  "id": "017d1e16-f523-56dd-a1e3-1146f9a32b94",
+  "label": "For every proposition p, if p is true, possibly someone knows p",
+  "legacy_id": "STMT-CC100-124-TRUTH-KNOWABILITY",
   "paraphrase": "For every proposition p, if p is true, possibly someone knows p.",
   "definition_ids": [
-    "DEF-CC100-124-KNOWABILITY-KNOWER"
+    "baca53c3-3a52-559d-989f-78fb8400824f"
   ],
   "disambiguation_ids": [
-    "DISAMB-CC100-124-TRUTH-COMMON-KNOWER",
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "6cee2bde-0599-53c0-a41a-39220144f3ca",
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

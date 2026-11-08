@@ -1,0 +1,17 @@
+{
+  "id": "a9e55713-876d-54f7-9ecc-fc6136c1d8a9",
+  "label": "At w, whatever exists at w and causes an actual concretum under the Kantian Ontic.Causes relation…",
+  "legacy_id": "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND",
+  "paraphrase": "OPEN analyst bridge: at w, whatever exists at w and causes an actual concretum under the Kantian Ontic.Causes relation is concrete and grounds it under the selected relation. It relates the two relations of the profile in one direction only (DISAMB-CAUSAL-POWER-GROUNDING).",
+  "lean_declaration": "TruthCore.Causality.Round2Grounding.ExistingCauseOfActualConcretumIsConcreteGround",
+  "definition_ids": [
+    "8800599c-13a4-57df-8f69-cb69425fc43c",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

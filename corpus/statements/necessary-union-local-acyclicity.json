@@ -1,15 +1,17 @@
 {
-  "id": "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY",
+  "id": "3c19595b-f061-5ceb-942b-1c0ee1fcb910",
+  "label": "Every world has no nonempty directed present-support loop on the fixed necessary subtype",
+  "legacy_id": "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY",
   "lean_declaration": "TruthCore.Causality.FiniteNecessaryUnion.LocallyAcyclic",
   "paraphrase": "Every world has no nonempty directed present-support loop on the fixed necessary subtype. Cycles involving contingent beings are outside this restriction.",
   "definition_ids": [
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY"
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "88b700a4-0d7a-5a40-962d-f43fa0c9fba8"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "id": "fb4dd90d-37d2-52fc-a697-873e5f2382e4",
+  "label": "Analyst intellectual-operation instance of operari sequitur esse…, by Universal instantiation… (4)",
+  "legacy_id": "INF-INTELLECTUAL-EXERCISE-REQUIRES-ACT-FROM-ACTIVE-POWER",
+  "input_statement_ids": [
+    "8061edec-5af6-5d25-81b4-e1ccd98207fa",
+    "0a7896e7-fc8a-55b2-a368-978bda235b31"
+  ],
+  "output_statement_id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "From the OPEN premise that whoever exercises intellect has active power at w and the q.25 a.1 reading that whatever has active power at w is in act in some respect.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d0fc96b7-fd2d-504e-912f-925de3b1e6ed",
+  "label": "Weak, cause-of-being version of cause has what it gives: whatever causes a thing's being has every…",
+  "legacy_id": "STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES",
+  "paraphrase": "Weak, cause-of-being version of STMT-CAUSE-HAS-WHAT-IT-GIVES: whatever causes a thing's being (esse) has every perfection it causes in that thing.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.CauseOfBeingHasWhatItGives",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

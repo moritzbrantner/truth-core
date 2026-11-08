@@ -1,9 +1,11 @@
 {
-  "id": "REL-TLP-6-432-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
+  "id": "2c9677d5-9792-501f-8944-fddfcb2ac3b9",
+  "label": "Ludwig Wittgenstein… supports Open thesis, unattributed reconstruction of… (2)",
+  "legacy_id": "REL-TLP-6-432-SUPPORTS-GOD-SENTENCES-NONSENSICAL",
   "subject_kind": "claim",
-  "subject_id": "WITTGENSTEIN-TLP-6-432-GOD-NOT-REVEALED",
+  "subject_id": "8fbdedaf-d347-5c9c-a805-d02aca12ce9e",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-TLP-GOD-SENTENCES-NONSENSICAL",
+  "object_id": "a0747bd7-56eb-5413-b598-f9cfbbce056a",
   "note": "6.432 says God does not reveal himself in the world; it does not say that sentences about God are nonsensical, and on the traditional reading it is itself one of the book's nonsensical but illuminating remarks."
 }

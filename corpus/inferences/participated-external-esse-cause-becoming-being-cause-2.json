@@ -1,0 +1,14 @@
+{
+  "id": "2c5ac471-0379-57e7-8132-7950091d6da1",
+  "label": "Becoming being-CAUSE_2: whatever has being by participation has…, by Universal instantiation and…",
+  "legacy_id": "INF-PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2",
+  "input_statement_ids": [
+    "cbb068e8-337d-5772-a3f9-10df457ba9fe",
+    "33ad148b-ceab-5856-a4f8-c999a1dba644"
+  ],
+  "output_statement_id": "7561e216-900f-53f1-9e22-d74427758cd6",
+  "rule": "Universal instantiation and modus ponens",
+  "meaning": "Per-sense argument, BECOMING-BEING-CAUSE_2 (external cause of esse): participated beings have esse distinct from essence (open bridge), and by the ST I q.3 a.4 reading such esse has an actually existing external efficient cause.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

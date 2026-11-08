@@ -1,7 +1,9 @@
 {
-  "id": "INF-MODAL-D-SCOPES",
+  "id": "b21d0a75-3f97-512a-bef5-e3017f0d11b8",
+  "label": "The shared K dead-end has full MC without self-access and is nonserial, showing…, by Direct-proof",
+  "legacy_id": "INF-MODAL-D-SCOPES",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MODAL-D-SCOPES",
+  "output_statement_id": "d5a60227-7893-5d05-9af0-99f561bff8d7",
   "rule": "direct-proof",
   "meaning": "Compose the finite full-MC endpoint proofs using the shared domain-restriction theorem. Structural induction proves formula agreement inside the pocket two-cycle, giving MC at its second root successor. The negated atom refutes root language MC. The explicitly empty K successor set witnesses the seriality boundary.",
   "assumption_statement_ids": [],

@@ -1,16 +1,18 @@
 {
-  "id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
+  "id": "08773c5f-0f9f-561d-94e6-6912ca9966c4",
+  "label": "In the specified Bool setting, the implication from broad to distinct CAUSE_2 is vacuously true…",
+  "legacy_id": "STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CAUSE-READINGS-DELTA-NOT-CONDITIONAL-RESTATEMENT",
+  "conclusion_statement_id": "f8ce97fe-1ebb-54dc-b96e-26cf9612b823",
   "inference_ids": [
-    "INF-STRENGTH-CAUSE-NON-RESTATEMENT-CONTROL"
+    "adeb601e-be4e-5528-85f8-6eaae010f687"
   ],
   "meaning": "The Bool relation with only the false-to-false pair makes broad-to-distinct implication vacuous at the uncaused true point while falsifying the local delta at false; the named delta is not a disguised conditional W → S.",
   "definition_ids": [
-    "DEF-PLATONIC-GENERATION-CAUSE",
-    "DEF-SELF-CAUSING-GENERATED-ALTERNATIVE-CAUSE"
+    "fefbb205-07a2-595f-80d6-c6975c7cd185",
+    "cd6c223c-efd3-5bd0-9547-c39bc016a676"
   ],
   "disambiguation_ids": [
-    "DISAMB-PLATONIC-CAUSE"
+    "a0786cf3-0248-58b6-ad97-12b00af85056"
   ]
 }

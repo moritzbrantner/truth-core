@@ -1,14 +1,16 @@
 {
-  "id": "INF-CONTINGENT-FULL-GROUND-TERMINUS",
+  "id": "1f7a95e5-e35e-5aea-b212-36c6f5cbde28",
+  "label": "Some actually contingent fact has no admitted complete-ground…, by Typed deductive composition",
+  "legacy_id": "INF-CONTINGENT-FULL-GROUND-TERMINUS",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-FACT-CONTINGENT-AT",
-    "STMT-WELL-FOUNDED-FACT-DEPENDENCY",
-    "STMT-FULL-GROUND-ACTUAL-MEMBERS",
-    "STMT-FULL-GROUND-LINKED-MEMBERS",
-    "STMT-FULL-GROUND-JOINT-NECESSITATION"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "baf22110-9b54-5c11-a44a-c8447518b824",
+    "355d1786-53fc-5931-8822-561255c4331b",
+    "1f173851-d682-555b-9d21-0efd5237036d",
+    "92006895-eafd-5eec-a554-4d182e4a9d26",
+    "5f9430cf-099b-58ce-895f-ca7681ac3ecc"
   ],
-  "output_statement_id": "STMT-CONTINGENT-FULL-GROUND-TERMINUS",
+  "output_statement_id": "7bc269e9-3fbb-5212-bf92-a45cf5701e83",
   "rule": "Typed deductive composition",
   "meaning": "Consume existing ExplanatoryAdequacy.forced on an explicit R-reason projection. Under WF, an actually contingent member with only noncontingent predecessors cannot admit any candidate complete-ground set: actual members would all be boxed true, and joint sufficiency would contradict that member’s accessible failure. Explicit EM extracts the existential; no stronger ReasonClosed/nonCopy/coverage hypothesis.",
   "assumption_statement_ids": [],

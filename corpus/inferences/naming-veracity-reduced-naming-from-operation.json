@@ -1,0 +1,14 @@
+{
+  "id": "ffdd8454-657f-5866-9b15-9d22b2309816",
+  "label": "The reduced nominal description suffices for the name 'GOD_2' to…, by Uniqueness transfer from…",
+  "legacy_id": "INF-NAMING-VERACITY-REDUCED-NAMING-FROM-OPERATION",
+  "input_statement_ids": [
+    "709ad5d2-5be5-5023-897e-a0c8ea8bd5ab",
+    "57b88730-adcd-574b-933b-c509519e55cd"
+  ],
+  "output_statement_id": "e39a4fce-ccaf-5862-836e-9317923842f3",
+  "rule": "Uniqueness transfer from maxima to causes",
+  "meaning": "If the name 'God' applies to the only universal cause of being, and every universal cause of being is maximal in being, then it applies to the only maximum in being that causes the being of all others: any second universal cause would be a second maximum, against uniqueness. The maximality antecedent of the reduced leaf is not used. Two open analyst bridges.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,14 @@
+{
+  "id": "529e2386-51ae-526d-9215-eb36896f758b",
+  "label": "The Catholic Church definitively proposes every article of the…, by Reception of a conciliar creed",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-CREED-PROPOSED-FROM-C381",
+  "input_statement_ids": [
+    "828bbf3f-cb29-5dc2-ac2b-731a81fe2226",
+    "0434c90e-18e8-590a-bc84-25c6d8a452c3"
+  ],
+  "output_statement_id": "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36",
+  "rule": "Reception of a conciliar creed",
+  "meaning": "The Council of Constantinople (381) taught each Creed article as revealed, and the Catholic Church definitively proposes whatever that council taught as revealed; so it definitively proposes each article. Two open premises; each is needed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

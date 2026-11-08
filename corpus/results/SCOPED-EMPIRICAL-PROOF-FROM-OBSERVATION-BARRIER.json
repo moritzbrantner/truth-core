@@ -1,6 +1,8 @@
 {
-  "id": "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
-  "argument_id": "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "id": "112c37c9-9d12-5690-83ae-10b6060f1db5",
+  "label": "No target in the independently supplied scope has a finite satisfiable…, from observation barrier",
+  "legacy_id": "SCOPED-EMPIRICAL-PROOF-FROM-OBSERVATION-BARRIER",
+  "argument_id": "b71e8264-9ca2-5abb-a580-688ff5e5b484",
   "challenge_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.Challenge",
   "solution_module": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.Solution",
   "theorem": "TruthCore.Results.Logic.ScopedEmpiricalProofBarrier.Scoped.restrictedFromBarrier",

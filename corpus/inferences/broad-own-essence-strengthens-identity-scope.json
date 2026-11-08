@@ -1,9 +1,11 @@
 {
-  "id": "INF-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
+  "id": "6ba09b50-3af8-5e06-88c2-9c83fe6b4e5b",
+  "label": "Strictly weaker own-essence input sufficient for the original infinity…, by Constructive-proof",
+  "legacy_id": "INF-BROAD-OWN-ESSENCE-STRENGTHENS-IDENTITY-SCOPE",
   "input_statement_ids": [
-    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE"
+    "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7"
   ],
-  "output_statement_id": "STMT-IDENTITY-BEARERS-RECEIVE-ESSE-ONLY-IN-OWN-ESSENCE",
+  "output_statement_id": "b9316115-41b9-57e3-bdef-35b6e2face1a",
   "rule": "constructive-proof",
   "meaning": "Exact sole-premise strength registration: the original broad own-essence law implies its restriction to esse=essence bearers; a nonempty identity-domain strictness control rejects the converse.",
   "assumption_statement_ids": [],

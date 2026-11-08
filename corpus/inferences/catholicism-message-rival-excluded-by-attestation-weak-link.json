@@ -1,11 +1,13 @@
 {
-  "id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
+  "id": "47dd8007-3ae1-54f8-b35c-7df94d5368f2",
+  "label": "For any being g: if Jesus holds a mandate from g, founded the Catholic…, by Constructive-proof",
+  "legacy_id": "INF-CATHOLICISM-MESSAGE-RIVAL-EXCLUDED-BY-ATTESTATION-WEAK-LINK",
   "input_statement_ids": [
-    "STMT-GOVERNING-EVENT-INSTITUTION-LINK",
-    "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "STMT-HEAVEN-RATIFIED-ATTESTATION-CRITERION"
+    "14f227c8-2a52-58e4-8bbb-61d82c81c8cf",
+    "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
+    "067cd417-4570-5684-a514-d9af55267442"
   ],
-  "output_statement_id": "STMT-MESSAGE-RIVAL-EXCLUDED-GIVEN-FOUNDING",
+  "output_statement_id": "eabdd148-02f5-54bd-97f9-5c3870cbe7db",
   "rule": "constructive-proof",
   "meaning": "Reuse attestation_gives_governing and the weak governing-event link to exclude the message rival whenever an actual mandate/founded-visible-body antecedent holds. The old institutional teaching component is unnecessary; original Challenge retained as a legacy interface.",
   "assumption_statement_ids": [],

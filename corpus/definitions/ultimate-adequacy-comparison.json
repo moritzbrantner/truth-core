@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ULTIMATE-ADEQUACY-COMPARISON",
+  "id": "6742a5b8-f4ed-5bdf-8715-93dd8ff0444e",
+  "label": "Shared-context supply versus…: Four Groups/Exercise interpretations share Nat event and bearer…",
+  "legacy_id": "DEF-ULTIMATE-ADEQUACY-COMPARISON",
   "term": "shared-context supply versus least-foundation comparison",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.UltimateAdequacy.groups",

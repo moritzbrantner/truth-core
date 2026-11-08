@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AQUINAS-IN-METAPH",
+    "source_id": "3b5c2cfb-01dd-5ea7-a5e1-4f221e1378af",
     "source_url": "https://www.corpusthomisticum.org/cmp12.html",
     "sha256": "sha256:58a349313eea934ec0f245f40754207a798b7b6f567d38690dc6dc7a4b0d19bc",
     "encoding": "iso-8859-1",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AQUINAS-IN-METAPH-XII-L7",
+      "id": "cff7ea9d-695e-5ade-a982-cc07f80e771c",
+      "label": "Thomas Aquinas, Sententia libri Metaphysicae, XII, lect. 7",
+      "legacy_id": "AQUINAS-IN-METAPH-XII-L7",
       "locator": "XII, lect. 7",
       "html_selector": {
         "from": {
@@ -28,7 +30,9 @@
       ]
     },
     {
-      "id": "AQUINAS-IN-METAPH-XII-L11",
+      "id": "0f557420-a114-5b3a-a114-f9c86c5c1582",
+      "label": "Thomas Aquinas, Sententia libri Metaphysicae, XII, lect. 11",
+      "legacy_id": "AQUINAS-IN-METAPH-XII-L11",
       "locator": "XII, lect. 11",
       "html_selector": {
         "from": {

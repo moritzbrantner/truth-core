@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TELEONOMY-SELECTION-FILTER",
+  "id": "4055cd38-c059-55cc-88d0-0c864f4a21aa",
+  "label": "Selected function and local biological…: A selected-function explanation appeals to a heritable…",
+  "legacy_id": "DEF-TELEONOMY-SELECTION-FILTER",
   "term": "selected function and local biological advantage",
   "definition": "A selected-function explanation appeals to a heritable trait’s differential survival or reproductive contribution in a specified environment, not its anticipation of a future end. In the stipulated Boolean filter a variant persists exactly when present, heritable and advantageous. The filter is a deterministic special case; Darwin’s tendency to preservation does not assert this rule for every actual organism. Neutral variants, drift, changing environments and historical contingency prevent inference of global optimality.",
   "basis": "stipulative",

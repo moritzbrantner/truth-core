@@ -1,0 +1,25 @@
+{
+  "id": "48d1002b-8904-5fe4-92c3-969f25bfe4fc",
+  "label": "Every use of 'cause' on the route stands for one and the same relation: the…, from unique sense",
+  "legacy_id": "CAUSE-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE",
+  "premise_statement_ids": [
+    "048eac8a-c325-52ad-9627-3f5431eea846",
+    "4515cf2b-4938-5588-80e8-fd50bf5bd84d"
+  ],
+  "conclusion_statement_id": "94cd5441-88fe-5550-9b5f-b57abe37dc3d",
+  "inference_ids": [
+    "65cc2b89-f510-5fad-836c-76b59006ac47"
+  ],
+  "meaning": "Coverage and exclusivity block equivocation on 'cause': each use is the relation of a selected sense, and only one sense is selected, so all uses stand for one relation. The controls give a model in which coverage holds, exclusivity fails and two uses differ.",
+  "definition_ids": [
+    "05dc1385-d245-5137-bf8b-dbdb1d3d9a7a",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "57f80020-fa6f-5b69-be58-b4cf95b7226f"
+  ]
+}

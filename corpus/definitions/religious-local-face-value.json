@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
+  "id": "7e1cb856-5004-5ee5-b6e3-65aef915b0a7",
+  "label": "Local face-value status in a selected…: Selected religious sentences retain their apparent…",
+  "legacy_id": "DEF-RELIGIOUS-LOCAL-FACE-VALUE",
   "term": "local face-value status in a selected discourse",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.LocalFaceValue",

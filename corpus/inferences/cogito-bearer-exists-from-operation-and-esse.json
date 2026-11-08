@@ -1,0 +1,16 @@
+{
+  "id": "fb160482-96d6-5e00-9825-75317963135d",
+  "label": "Every bearer of an occurring thought episode exists at the selected…, by Universal… (2)",
+  "legacy_id": "INF-COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE",
+  "input_statement_ids": [
+    "8cf54bde-0c97-5428-9179-0d567293675d",
+    "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "546975ef-0614-5c0a-8f49-fab2cd2a2533"
+  ],
+  "output_statement_id": "c821487b-9c5e-5836-bf27-dcb47f210c94",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "Every bearer of an occurring thought exists at the selected world w: the bearer exercises intellect in it, intellectual exercise requires act in some respect, act in some respect implies act of esse (q.4 a.1 ad 3 reading), and act of esse suffices for existence at w (OPEN converse of the esse contract). The last premise carries the world-indexing; without it the bearer may be in act of esse and fail to exist at w.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

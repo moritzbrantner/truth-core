@@ -1,0 +1,20 @@
+{
+  "id": "d5aa7d9a-e8c6-51d6-80cc-a71cf5033ad0",
+  "label": "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other…",
+  "legacy_id": "STMT-CAUSAL-MAPS-BATCH1-CONTROLS",
+  "paraphrase": "Finite interpretations for the seven derivations of causal maps batch 1: for each premise other than excluded middle, a model in which the other premises hold and the conclusion fails, and one joint model with nonempty causing, moving, self-moving and efficient-causing relations in which every premise and conclusion of the batch holds. Satisfiability and omission only; no model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.Control.Certificate",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "cf4875cb-6baf-5bf5-8590-84a21777c66c",
+    "245797e9-e5e9-5296-8d34-2138cc6b7ae6",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "701c8996-8d37-546d-9610-26b758dd04e8",
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f"
+  ]
+}

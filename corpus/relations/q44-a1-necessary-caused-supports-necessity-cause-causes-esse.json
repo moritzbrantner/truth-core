@@ -1,0 +1,11 @@
+{
+  "id": "618ae48b-0282-5dc7-9fb0-e4582b20a627",
+  "label": "Thomas Aquinas, Summa theologiae I q.44… supports Whatever causes the necessity of a thing…",
+  "legacy_id": "REL-Q44-A1-NECESSARY-CAUSED-SUPPORTS-NECESSITY-CAUSE-CAUSES-ESSE",
+  "subject_kind": "claim",
+  "subject_id": "bd3767d3-3d65-5f3e-a1b1-925c29bbf116",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "8c8b1986-f554-5f66-a2c6-2eb96d183ad5",
+  "note": "Q.44 a.1 ad 2 says some necessary things have a cause of their necessity, and that being necessary does not exclude an efficient cause. It bears on the premise by treating a cause of necessity as an efficient cause of being; that every cause of necessity causes the thing's esse is the analyst's generalization."
+}

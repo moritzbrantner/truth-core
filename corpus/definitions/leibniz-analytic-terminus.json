@@ -1,9 +1,11 @@
 {
-  "id": "DEF-LEIBNIZ-ANALYTIC-TERMINUS",
+  "id": "b186b7ea-705b-5a2b-906c-57b9064d14aa",
+  "label": "Analytical termination in primary…: Monadology §§33–35 proposes resolving necessary truths into…",
+  "legacy_id": "DEF-LEIBNIZ-ANALYTIC-TERMINUS",
   "term": "analytical termination in primary identities",
   "definition": "Monadology §§33–35 proposes resolving necessary truths into simpler ideas and truths, ending in primary identity principles whose opposites expressly contradict. This is Leibniz’s account of reasons for necessary truths, not a general finite-causal-history requirement or a license for arbitrary unproved starting points.",
   "basis": "sourced",
   "claim_ids": [
-    "LEIBNIZ-33-35-ANALYTIC-TERMINUS"
+    "671681e1-d43c-5296-a039-2f7acd41766b"
   ]
 }

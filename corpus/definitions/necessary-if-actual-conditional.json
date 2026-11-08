@@ -1,5 +1,7 @@
 {
-  "id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL",
+  "id": "a921dd64-256a-5c99-99d1-4307d6275018",
+  "label": "Actual-only necessary-if-existent…: At the named world w, G w implies Box F G w",
+  "legacy_id": "DEF-NECESSARY-IF-ACTUAL-CONDITIONAL",
   "term": "actual-only necessary-if-existent conditional",
   "definition": "At the named world w, G w implies Box F G w. This says nothing about whether the same conditional holds at other accessible worlds and is weaker than the boxed conditional on reflexive S5 frames.",
   "basis": "stipulative",

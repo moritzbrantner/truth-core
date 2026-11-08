@@ -1,0 +1,14 @@
+{
+  "id": "e8ead27c-e836-53eb-85ed-0f8ed1d386cc",
+  "label": "Whatever is God in the route's reading of the attribute use has the classical attributes",
+  "legacy_id": "STMT-ROUTE-GOD-HAS-CLASSICAL-ATTRIBUTES",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever is God in the route's reading of the attribute use satisfies the signature's HasClassicalAttributes field.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteGodHasClassicalAttributes",
+  "definition_ids": [
+    "52ac2160-9482-5e6a-9cfe-3e6f67482e5a",
+    "c8f9c2fb-8c17-5fc8-b558-4a6fad659296"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
+  ]
+}

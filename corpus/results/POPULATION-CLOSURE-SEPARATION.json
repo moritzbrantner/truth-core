@@ -1,6 +1,8 @@
 {
-  "id": "POPULATION-CLOSURE-SEPARATION",
-  "argument_id": "POPULATION-CLOSURE-SEPARATION",
+  "id": "27d37db9-e790-5f09-8515-cc83921a1b30",
+  "label": "In a universal three-world frame with four rigid individuals and populations {a,b,c}, {b,c,d}…",
+  "legacy_id": "POPULATION-CLOSURE-SEPARATION",
+  "argument_id": "60e9559a-89e0-55bb-ab64-d24291788dbc",
   "challenge_module": "TruthCore.Results.Modal.PopulationClosureSeparation.Challenge",
   "solution_module": "TruthCore.Results.Modal.PopulationClosureSeparation.Solution",
   "theorem": "TruthCore.Results.Modal.PopulationClosureSeparation.checks",

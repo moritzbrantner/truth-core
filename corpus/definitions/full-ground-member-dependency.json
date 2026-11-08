@@ -1,5 +1,7 @@
 {
-  "id": "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
+  "id": "52212742-d87d-5391-9e13-a429910eee4d",
+  "label": "Membership as immediate dependency: LinkedMembers requires every member r of every admitted…",
+  "legacy_id": "DEF-FULL-GROUND-MEMBER-DEPENDENCY",
   "term": "membership as immediate dependency",
   "definition": "LinkedMembers requires every member r of every admitted complete-ground candidate S for f to satisfy R r f. R is one actual fact-dependency relation. Its well-foundedness is a separate policy; admission itself neither forbids self-membership nor proves termination.",
   "basis": "stipulative",

@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
+  "id": "8ee4d1a9-1aa7-5305-8b0f-7131bb7d7f5c",
+  "label": "If the existence of any particular contingent concrete things has an explanation, and explaining…",
+  "legacy_id": "STMT-CC100-11-CONDITIONAL-NECESSARY-CONCRETE",
   "paraphrase": "If the existence of any particular contingent concrete things has an explanation, and explaining the existence of all existing contingent concrete things entails a necessary concrete thing, then there is a necessary concrete thing.",
   "definition_ids": [
-    "DEF-CC100-11-PLURAL-CONCRETE-EXPLANATION"
+    "d59566cf-a070-5e9a-aa4c-84620060ad92"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

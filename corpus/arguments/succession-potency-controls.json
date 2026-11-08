@@ -1,0 +1,22 @@
+{
+  "id": "040dc0f0-3afa-5ed9-b8c0-52345338b2a7",
+  "label": "One being living at two ordered times with different life-states",
+  "legacy_id": "SUCCESSION-POTENCY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "add21148-bd18-5aeb-9800-0d340f3edb4f",
+  "inference_ids": [
+    "76bbd289-9461-5f23-ae9f-f23abf3dd472"
+  ],
+  "meaning": "One being living at two ordered times with different life-states. Without the bridge it is not moved and has no potency; without Physics III.1 it is moved without potency; with both it is in potency.",
+  "definition_ids": [
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "42635e18-7288-5194-88b7-02dda6aa0477",
+    "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+    "04cbb76b-147d-5738-9897-0472fa0e0513",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "557d8e44-4350-5031-81e3-ff6be5e30acc",
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
+  ]
+}

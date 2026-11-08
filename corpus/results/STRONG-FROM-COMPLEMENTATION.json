@@ -1,6 +1,8 @@
 {
-  "id": "STRONG-FROM-COMPLEMENTATION",
-  "argument_id": "STRONG-FROM-COMPLEMENTATION",
+  "id": "b3a40ca9-5e1a-57ab-abfa-33a1eeec9cd8",
+  "label": "Whenever x is not part of y, some part of x is disjoint from y, in the same…, from complementation",
+  "legacy_id": "STRONG-FROM-COMPLEMENTATION",
+  "argument_id": "afb096de-f93a-509d-9e6c-9772b10c165d",
   "challenge_module": "TruthCore.Results.Mereology.SumOneComplementation.Challenge",
   "solution_module": "TruthCore.Results.Mereology.SumOneComplementation.Solution",
   "theorem": "TruthCore.Results.Mereology.SumOneComplementation.strongOfComplementation",

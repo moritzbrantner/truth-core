@@ -1,7 +1,11 @@
 {
-  "id": "DEF-NB-SURVEY-EXTERNAL-CAUSE",
+  "id": "e6d66357-8f22-5a2c-bd96-6ccc68ce0063",
+  "label": "External cause outside the caused…: A1c2 invokes 'external' so that an external cause of C is…",
+  "legacy_id": "DEF-NB-SURVEY-EXTERNAL-CAUSE",
   "term": "external cause outside the caused thing and its parts (A1c2)",
   "definition": "A1c2 invokes 'external' so that an external cause of C is distinct from C and every part of C. The label alone does not show that any cause exists, nor that the universal external-cause law holds for all contingent things.",
   "basis": "sourced",
-  "claim_ids": ["NB-SURVEY-A1-EXTERNAL-CAUSE"]
+  "claim_ids": [
+    "6dd797b5-24c7-5873-af6a-e67d9bfa63b8"
+  ]
 }

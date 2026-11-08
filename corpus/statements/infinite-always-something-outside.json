@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITE-ALWAYS-SOMETHING-OUTSIDE",
+  "id": "809d40bc-e209-5093-b75a-e4d48ba388f1",
+  "label": "A quantity is infinite when, however much has been taken, there is always something further…",
+  "legacy_id": "STMT-INFINITE-ALWAYS-SOMETHING-OUTSIDE",
   "paraphrase": "A quantity is infinite when, however much has been taken, there is always something further outside what has already been taken.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfiniteAsAlwaysSomethingOutsideReading"
 }

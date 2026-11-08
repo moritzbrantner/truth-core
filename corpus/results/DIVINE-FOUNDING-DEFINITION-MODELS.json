@@ -1,6 +1,8 @@
 {
-  "id": "DIVINE-FOUNDING-DEFINITION-MODELS",
-  "argument_id": "DIVINE-FOUNDING-DEFINITION-MODELS",
+  "id": "d99d1b3d-54d1-52cd-9e09-77f7a6de2dec",
+  "label": "Five finite schema controls under the explicit stage antecedents: both minimal named readings hold…",
+  "legacy_id": "DIVINE-FOUNDING-DEFINITION-MODELS",
+  "argument_id": "ce7f6078-b175-53f7-ab18-ddb495d64508",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageThree.FoundingDefinitions.Models.definitionModels",

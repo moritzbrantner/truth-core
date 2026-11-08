@@ -5,7 +5,7 @@ import type { CorpusStatement } from "./corpus";
 import type { ClosureReason } from "./site-state";
 
 const attemptKinds = ["derivation", "refutation", "reading", "countermodel", "source-search"] as const;
-const attemptOutcomes = ["succeeded", "failed", "blocked", "superseded"] as const;
+const attemptOutcomes = ["succeeded", "failed", "blocked", "superseded", "rejected"] as const;
 
 export type CorpusAttempt = {
   id: string;

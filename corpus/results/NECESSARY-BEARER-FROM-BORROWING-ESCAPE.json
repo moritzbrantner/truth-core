@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
-  "argument_id": "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "id": "f7d603ef-054b-5626-9db1-293e04e0a4be",
+  "label": "At least one individual exists at the selected world and at every world…, from borrowing escape",
+  "legacy_id": "NECESSARY-BEARER-FROM-BORROWING-ESCAPE",
+  "argument_id": "c9b9d4a5-538c-547e-aae3-7096a42716fd",
   "challenge_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryWitnessConnection.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryWitnessConnection.fromBorrowingEscape",

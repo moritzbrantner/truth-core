@@ -1,6 +1,8 @@
 {
-  "id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
-  "argument_id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "id": "d2e5db3f-9e0c-5cb9-9db9-54e12eaf61e8",
+  "label": "Every being reaches, by a finite chain of…, from Excluded middle as a general principle… and 2 more",
+  "legacy_id": "BRIDGE-PER-SE-REGRESS-FINITE-GROUNDING",
+  "argument_id": "9bca2274-980c-5827-a5cc-492e06f81c86",
   "challenge_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Challenge",
   "solution_module": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.Solution",
   "theorem": "TruthCore.Results.Bridges.PerSeRegressFiniteGrounding.everyBeingHasFinitePerSePathToUncausedOfNoRegress",

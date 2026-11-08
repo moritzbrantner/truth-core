@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "id": "b0e72763-cc80-5c26-9da9-60356bc7f997",
+  "label": "The four-being secondary-only interpretation jointly satisfies TransferModelBackground false and…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-SECONDARY-ONLY-RIVAL",
+  "argument_id": "38c52f02-80b4-52e6-b03b-ba7e7dad0964",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.rival",

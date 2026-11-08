@@ -1,17 +1,19 @@
 {
-  "id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "id": "6a7f2ea8-64a3-5c84-905e-97f2a4ac0dd1",
+  "label": "Inside Lean logic, ¬. A logical theorem about Prop, not about contents, agents, concrete things or…",
+  "legacy_id": "LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-NO-GLOBAL-PROPOSITIONAL-COLLAPSE",
+  "conclusion_statement_id": "a919f81e-d9ff-5b7a-be38-c9473c042e8e",
   "inference_ids": [
-    "INF-LOGIC-NO-GLOBAL-PROPOSITIONAL-COLLAPSE"
+    "d3c245e3-deaf-5ee4-83c9-566b09cdca66"
   ],
   "meaning": "Compose the existing witnesses: a proposition that holds and one that fails are not equivalent, so not all propositions are.",
   "definition_ids": [
-    "DEF-LEAN-PROPOSITION-HOLDING",
-    "DEF-GLOBAL-PROPOSITIONAL-COLLAPSE"
+    "295c5c65-7654-5a9f-8f01-cd9071dd31f1",
+    "2bcafccd-05ce-507b-b0d7-a8a503b8b5bd"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-TRUTH-COLLAPSE-LEVEL"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "5dd0732d-712e-53fb-ad41-a412a951a5f5"
   ]
 }

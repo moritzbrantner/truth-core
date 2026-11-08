@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
-  "argument_id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "id": "c3d7e98f-fe13-5dd2-85f9-2a93b55cbd50",
+  "label": "Every admissible definition proposal in the…, from Every admissible proposal is identical as a…",
+  "legacy_id": "GOODNESS-IDENTITY-COVERAGE-ENTAILS-SEMANTIC-COVERAGE",
+  "argument_id": "4f391388-5715-5f28-93f7-f0b4fbea073c",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessCoverageStrength.identityCoverageEntailsSemantic",

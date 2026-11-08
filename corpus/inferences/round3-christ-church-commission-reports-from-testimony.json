@@ -1,0 +1,14 @@
+{
+  "id": "85dc2d58-01d1-517d-8f28-ff8c08a0b880",
+  "label": "Report-to-event premise: the commission reported in Matthew…, by Reliability of testimony of…",
+  "legacy_id": "INF-ROUND3-CHRIST-CHURCH-COMMISSION-REPORTS-FROM-TESTIMONY",
+  "input_statement_ids": [
+    "3b01545c-78ae-5b26-b55b-d346b9c3c720",
+    "1d693b5c-ea47-5df4-baae-d034bfddba42"
+  ],
+  "output_statement_id": "da573220-03c0-5361-a1d7-e117e78e2b77",
+  "rule": "Reliability of testimony of those present",
+  "meaning": "Matthew 28.18-20 and John 21.15-17 rest on the testimony of those present, and such testimony is accurate; so both commissions go back to Jesus, and John 21's (shepherding) is one of the four governing reports. Two open premises; each is needed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,4 +1,18 @@
 //! Read-only structural view of the canonical corpus.
+pub mod bridges;
+pub mod check;
+pub mod context;
+pub mod dossier;
+pub mod frontier;
+pub mod identity;
+mod kernels;
+pub mod orphans;
+pub mod pyfmt;
+pub mod related;
+pub mod senses;
+pub mod thickness;
+mod transcription;
+
 use serde_json::{Map, Value};
 use std::{collections::BTreeMap, fs, path::Path};
 
@@ -157,6 +171,52 @@ impl Corpus {
         self.records
             .iter()
             .map(|(&kind, records)| (kind, records.len()))
+    }
+
+    /// The records of one kind in file order (Python `load_dir` order).
+    pub fn records(&self, kind: &str) -> Vec<&Map<String, Value>> {
+        let mut records: Vec<&Record> = self
+            .records
+            .get(kind)
+            .map(|records| records.values().collect())
+            .unwrap_or_default();
+        records.sort_by(|a, b| a.path.cmp(&b.path));
+        records.into_iter().map(|record| &record.fields).collect()
+    }
+
+    /// The records of one kind with their paths, in file order.
+    pub fn entries(&self, kind: &str) -> Vec<&Record> {
+        let mut records: Vec<&Record> = self
+            .records
+            .get(kind)
+            .map(|records| records.values().collect())
+            .unwrap_or_default();
+        records.sort_by(|a, b| a.path.cmp(&b.path));
+        records
+    }
+
+    /// One record of one kind by ID.
+    pub fn get(&self, kind: &str, id: &str) -> Option<&Record> {
+        self.records.get(kind).and_then(|records| records.get(id))
+    }
+
+    /// Records of one kind in ID order (empty for an unknown kind).
+    pub fn records_by_id<'a>(&'a self, kind: &str) -> impl Iterator<Item = (&'a str, &'a Record)> {
+        self.records
+            .get(kind)
+            .into_iter()
+            .flat_map(|records| records.iter().map(|(id, record)| (id.as_str(), record)))
+    }
+
+    /// The uuid / legacy id / label lookup over every loaded record.
+    pub fn aliases(&self) -> identity::Aliases {
+        let mut aliases = identity::Aliases::default();
+        for (&kind, records) in &self.records {
+            for record in records.values() {
+                aliases.add(kind, &record.fields);
+            }
+        }
+        aliases
     }
 
     /// IDs are unique within a kind. A lookup returns all exact matches.

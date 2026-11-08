@@ -1,17 +1,19 @@
 {
-  "id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
+  "id": "c3039fe5-a830-5130-8964-a58a48775d92",
+  "label": "For any claim type, world type and interpretation with truth-functional negation: if a worldview…",
+  "legacy_id": "LOGIC-REFLECTIVE-COHERENCE-BOUNDARY",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-REFLECTIVE-COHERENCE-BOUNDARY",
+  "conclusion_statement_id": "993019a6-b156-59f9-9fc0-d2f2c510e844",
   "inference_ids": [
-    "INF-LOGIC-REFLECTIVE-COHERENCE-BOUNDARY"
+    "99e66c66-47d6-5ec3-84d8-5ccca113c96a"
   ],
   "meaning": "A general semantic theorem relating implied denials, internal inconsistency when the duty is explicitly included, factual error when the duty is true, and preservation of necessary consequences. No objective duty or normative ought is introduced.",
   "definition_ids": [
-    "DEF-WORLDVIEW-SEMANTIC-CONSISTENCY",
-    "DEF-WORLDVIEW-DUTY-COMPATIBILITY",
-    "DEF-WORLDVIEW-NECESSARY-IMPLICATION"
+    "6523a45a-b797-57ed-b323-27a0d14d7832",
+    "deefafab-16f0-587e-b704-63ee447ae99d",
+    "f542117a-5158-599a-a125-08708721d66b"
   ],
   "disambiguation_ids": [
-    "DISAMB-WORLDVIEW-CONSISTENCY-DUTY-COMPATIBILITY"
+    "94fe8dfe-9a48-51ff-ad2a-59c98fc58dfe"
   ]
 }

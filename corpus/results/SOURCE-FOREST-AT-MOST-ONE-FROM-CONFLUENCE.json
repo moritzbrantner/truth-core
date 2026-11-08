@@ -1,6 +1,8 @@
 {
-  "id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
-  "argument_id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "id": "f3e28be5-987b-54fd-b8c5-0d6e63a90155",
+  "label": "Any two graph-relative sources are equal; no source exists merely by this…, from confluence",
+  "legacy_id": "SOURCE-FOREST-AT-MOST-ONE-FROM-CONFLUENCE",
+  "argument_id": "a86ff6ca-23aa-58d5-963f-06e52dc6db16",
   "challenge_module": "TruthCore.Results.Causality.SourceForest.Confluence.Challenge",
   "solution_module": "TruthCore.Results.Causality.SourceForest.Solution",
   "theorem": "TruthCore.Results.Causality.SourceForest.atMostOne_of_confluent",

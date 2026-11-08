@@ -1,16 +1,18 @@
 {
-  "id": "LOGIC-JUSTIFICATION-INTROSPECTION",
+  "id": "9aaebe1d-e5de-5eec-9def-c2bebaab4f25",
+  "label": "In the stipulated relational epistemic profile, transitivity and a global…",
+  "legacy_id": "LOGIC-JUSTIFICATION-INTROSPECTION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-JUSTIFICATION-INTROSPECTION-BOUNDARY",
+  "conclusion_statement_id": "c6618d04-ac6c-5d5e-aafd-f36c7ac5e792",
   "inference_ids": [
-    "INF-LOGIC-JUSTIFICATION-INTROSPECTION"
+    "5ef4359a-ab65-5a26-a60b-7872c58b88e2"
   ],
   "meaning": "Axiom 4 propagates knowledge of p to each epistemic alternative; the global justification norm applies there. Contraposition is conditional on both assumptions. The three-world countermodel shows that reflexivity and the norm alone do not suffice. No epistemic premise truth or root obligation is discharged.",
   "definition_ids": [
-    "DEF-EPISTEMIC-ALTERNATIVES-KNOWLEDGE",
-    "DEF-KNOWLEDGE-JUSTIFICATION-NORM"
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e",
+    "96525e31-fe3e-5651-a70e-01b84fedf39b"
   ],
   "disambiguation_ids": [
-    "DISAMB-FIRST-HIGHER-ORDER-JUSTIFICATION"
+    "e13cbe9d-61c6-5ce2-8619-40b5f7480124"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "0038563b-c80a-5122-bc4a-90443eb9f059",
+  "label": "Negation of the Scotist rival act and POTENCY_1 in same respect on the…, by Aristotelian analysis…",
+  "legacy_id": "INF-NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS",
+  "input_statement_ids": [
+    "c85e8ef5-3dc4-502d-90f8-da1429e33fd8"
+  ],
+  "output_statement_id": "f6003a4c-fc27-5b0a-acf9-97515d131755",
+  "rule": "Aristotelian analysis excludes the rival",
+  "meaning": "Conditional refutation of the Scotist rival: by Metaphysics IX.6's analysis (STMT-POTENCY-IS-UNACTUALIZED-CAPACITY), whatever is in potency in a respect is not in act in it, so nothing is in act and in potency in the same respect. The rival must reject that analysis itself, not only the Prima Via premise derived from it. Sense-relative: with one InAct, a virtual-act reading of a self-mover would make the IX.6 analysis false rather than the rival (DISAMB-IN-ACT). The analysis stays open, so the refutation does not count for closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

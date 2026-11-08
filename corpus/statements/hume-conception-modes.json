@@ -1,24 +1,26 @@
 {
-  "id": "STMT-HUME-CONCEPTION-MODES",
+  "id": "0468c269-c9fe-553e-b520-e93e65249054",
+  "label": "POSSIBILITY_DEFINED_CONCEPTION_3 satisfies H by definition",
+  "legacy_id": "STMT-HUME-CONCEPTION-MODES",
   "paraphrase": "Possibility-defined conception satisfies H by definition. Satisfiability somewhere does not imply root-accessible possibility on identity Bool accessibility. The grammatical language can describe a contradiction and can label collapse without licensing imaginative conception. The old bounded mere-ideas-withholding interface is compatible with both an empty conception satisfying H and indiscriminate conception violating H; this is an interface compatibility test, not a model of Hume’s complete epistemology.",
   "lean_declaration": "TruthCore.Modern.Hume.SelfApplication.ConceptionModeChecks",
   "definition_ids": [
-    "DEF-HUME-TEST-CONCEPTION",
-    "DEF-HUME-TEST-BRIDGE",
-    "DEF-HUME-TEST-FRAME",
-    "DEF-HUME-TEST-METAPHYSICAL-POSSIBILITY",
-    "DEF-HUME-NECESSARY-DENIAL",
-    "DEF-HUME-ACTUAL-DENIAL",
-    "DEF-HUME-VERBAL-DESCRIPTION",
-    "DEF-HUME-MODEL-SATISFIABILITY",
-    "DEF-HUME-MODAL-CONCEPTION",
-    "DEF-HUME-TEST-LOGICAL-CONSISTENCY",
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-COLLAPSE"
+    "f1dbe2cb-6ba1-581a-9b68-099ef0a25338",
+    "f4fc4188-c03c-5105-a904-ad58b571314b",
+    "995491ae-884a-5850-a853-2eebe60b8959",
+    "2d3e6218-267d-56d4-b1b3-ef6191be6059",
+    "f4d05861-5f41-5a2d-831d-670f06e40104",
+    "0478df71-11e6-5d2d-b0db-544e7cb01c6c",
+    "cc2bbc4f-8178-5bdd-af95-bf3e69bd0082",
+    "d9c05f66-5cc1-5cd6-8918-ea44fdf24d20",
+    "b03b4435-10c3-5964-9c54-34ce2b74ca0f",
+    "6cefa7b0-5dc2-5788-9637-a23d60b47e7c",
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "cd4f19b2-d7ce-5741-9191-42b541b5f680"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY",
-    "DISAMB-HUME-DENIAL-SCOPE",
-    "DISAMB-HUME-DESCRIPTION-CONSISTENCY"
+    "427373ad-3ff7-524e-976c-595005a70338",
+    "c2ea5860-c282-59d7-b143-6467fed28bf9",
+    "533d1365-7a5f-5989-a587-c465145c9b88"
   ]
 }

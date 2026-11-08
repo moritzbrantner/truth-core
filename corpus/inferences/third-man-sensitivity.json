@@ -1,7 +1,9 @@
 {
-  "id": "INF-THIRD-MAN-SENSITIVITY",
+  "id": "b93782a3-d14c-54d3-a691-db0773224a57",
+  "label": "Concrete three-entity countermodels negate numerical unboundedness when…, by Model-construction",
+  "legacy_id": "INF-THIRD-MAN-SENSITIVITY",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-THIRD-MAN-SENSITIVITY",
+  "output_statement_id": "9c82c866-ab23-577e-84dd-5720dc0c4c6b",
   "rule": "model-construction",
   "meaning": "Construct six three-entity interpretations with exactly one Form. Each explicitly satisfies the retained premises, negates the omitted premise and refutes unbounded numerical multiplication. The non-self-predicative model retains essential characterization; the scoped model retains uniqueness, ontological independence, explanatory and exemplar participation. Directed likeness drops symmetry; non-resemblance participation drops the likeness bridge. These are compatibility tests, not complete historical theories or proofs of explanatory adequacy.",
   "assumption_statement_ids": [],

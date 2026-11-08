@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INDEXED-SIGNAL-FORWARDING",
+  "id": "2d3300c4-0a9b-5597-bc57-def472d76769",
+  "label": "Complete unchanged forwarding of a…: For every n and j, if immediate upstream output signal is…",
+  "legacy_id": "DEF-INDEXED-SIGNAL-FORWARDING",
   "term": "complete unchanged forwarding of a present indexed input",
   "definition": "For every n and j, if immediate upstream output signal(n+1) is some(j), then output signal(n) is that same some(j). No present admitted input can be erased, overwritten or relabeled at a station.",
   "basis": "stipulative",

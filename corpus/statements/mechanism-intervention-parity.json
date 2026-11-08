@@ -1,18 +1,20 @@
 {
-  "id": "STMT-MECHANISM-INTERVENTION-PARITY",
+  "id": "268243ba-d944-5863-a4e7-b46145877179",
+  "label": "On the existing #974 Boolean-pair public observation interface, a target computed from the…",
+  "legacy_id": "STMT-MECHANISM-INTERVENTION-PARITY",
   "lean_declaration": "TruthCore.Explanation.MechanismInterventionParity.Certificate",
   "paraphrase": "On the existing #974 Boolean-pair public observation interface, a target computed from the surgically overridden public inputs and an idle target computed directly from the untouched background agree under all four natural states. Under explicitly stipulated interventions the active AND target changes when either input is switched on while the other is on; the idle target does not. A single pair-valued root-state slot and two separately stored Boolean root-state slots yield exactly the same responses under every such public intervention by packing and unpacking. A single one-BIT slot cannot realize all four independently controllable public pairs. The earlier #974 single-versus-plural graph-root contrast is preserved, but no genuine causation, intervention accessibility, ontic unity, or ultimate adequacy is established.",
   "definition_ids": [
-    "DEF-MECHANISM-INTERVENTION-PARITY",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-COMPLETE-RESPONSE-PARITY",
-    "DEF-JOINT-SCENARIO-SUFFICIENCY",
-    "DEF-DERIVATIVE-JOINT-SUPPLY"
+    "0716f13e-ad25-5d22-be1a-c7a0cc486071",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "524c5cea-64c2-547a-9e83-80312b490080",
+    "800637b5-8f4b-54ea-865d-c4fd444d1632",
+    "c9d479bb-308a-5a2b-9755-ddc0170d4e35"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGULARITY-CAUSAL-SENSES",
-    "DISAMB-JOINT-SUPPLY-POWER-OCCURRENCE",
-    "DISAMB-JOINT-CAUSAL-MEMBERSHIP-EXERCISE",
-    "DISAMB-ULTIMATE-ADEQUACY-FOUNDATION"
+    "f4a648a1-553b-5318-b5c7-df0798634816",
+    "79644a0a-db5b-5497-bb47-9f96d14cdae7",
+    "a375e21b-420a-5ee5-9e64-c816eacd74d4",
+    "7b8dc0d6-8239-5275-9f8f-0096bf4a3011"
   ]
 }

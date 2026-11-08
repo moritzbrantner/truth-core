@@ -1,7 +1,9 @@
 {
-  "id": "INF-GROUND-ENABLING-CYCLE-CONTROL",
+  "id": "efad29a6-372b-5bda-ac0c-cb29d5cb7d6a",
+  "label": "The four-event raw ground-rule graph is well-founded and…, by Explicit typed deduction and…",
+  "legacy_id": "INF-GROUND-ENABLING-CYCLE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-GROUND-ENABLING-CYCLE-CONTROL",
+  "output_statement_id": "6516d186-4380-5942-b00b-2f5cf12b2723",
   "rule": "Explicit typed deduction and matched model construction",
   "meaning": "Separate raw/enabling relations; reuse exact graph WF controls and Mathlib SCC equivalence from CondensationSufficiency.comp_eq_iff; exhibit two fixed assignments and full-union cycle.",
   "assumption_statement_ids": [],

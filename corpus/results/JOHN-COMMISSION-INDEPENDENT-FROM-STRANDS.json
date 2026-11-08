@@ -1,0 +1,12 @@
+{
+  "id": "3d56fa55-dc86-529c-9f18-d13a37ba7f33",
+  "label": "The commission saying of John 20.21-23 is literarily independent of that of Matthew…, from strands",
+  "legacy_id": "JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS",
+  "argument_id": "97c207ee-8947-5c70-82e7-344db27a25e4",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageThree.Round6DefinitionForks.johnIndependentFromStrands",
+  "comparator_config": "results/JOHN-COMMISSION-INDEPENDENT-FROM-STRANDS/comparator.json",
+  "status": "solution-present",
+  "description": "John 20's commission saying is independent of Matthew 18's, from the OPEN historical premise that Johannine commission sayings are independent of Matthean ones: the fixed table strandOf puts John 20 in the Johannine and Matthew 18 in the Matthean strand. The premise is strictly more general than the conclusion; the derivation relocates the historical question to the strands rather than answering it."
+}

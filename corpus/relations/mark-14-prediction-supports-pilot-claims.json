@@ -1,9 +1,11 @@
 {
-  "id": "REL-MARK-14-PREDICTION-SUPPORTS-PILOT-CLAIMS",
+  "id": "21bb9fcc-385f-525f-b664-b0a4d4d840c1",
+  "label": "New Testament, Mark 14.62: The narrative… supports Jesus claimed divine authority in the…",
+  "legacy_id": "REL-MARK-14-PREDICTION-SUPPORTS-PILOT-CLAIMS",
   "subject_kind": "claim",
-  "subject_id": "NT-MARK-14-SON-OF-MAN-PREDICTION",
+  "subject_id": "65e58eae-edaa-5a4b-bb75-01a9a4b788c0",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-PILOT-JESUS-CLAIMS",
+  "object_id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
   "note": "Typed refinement of the already recorded Mark 14 evidence, not independent attestation. Historical attribution, title reference and divine-authority classification remain open; see docs/mark-high-priest-answer.md."
 }

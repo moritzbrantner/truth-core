@@ -1,0 +1,36 @@
+{
+  "id": "62f0ec2d-9cf7-5753-8ebe-f131b1049061",
+  "label": "Finite interpretations; excluded middle is not asserted",
+  "legacy_id": "WHOLE-POWER-PERFECTION-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f98a0ff1-f9ea-53c1-a744-a453b3f16dcc",
+  "inference_ids": [
+    "e89d9a82-b3e2-55b2-8bce-774a5ac0c403"
+  ],
+  "meaning": "Finite interpretations; excluded middle is not asserted. Two determination-free beings satisfy SCG I.42 vacuously while identity of purely determined indiscernibles fails. On the unchanged part-free model, unrestricted perfection and strict pure actuality hold while SCG I.42 and at-most-one fail. For a single simple first mover that is first in being, omitting in turn the bridge from no limitation to own being, SCG I.28 as encoded, or q.4 a.2 as encoded makes unrestricted perfection fail with the other two holding; a positive witness satisfies all of them with an actual first mover. Under the q.7 infinity reading, omitting the infinity bridge makes unrestricted perfection fail, and the bridge is satisfiable. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "a919ce52-6c8b-5e0f-9aaa-5b570bded78b",
+    "3aba5f19-f48d-50db-bc57-93ba2e99f845",
+    "65e38ffa-5a1c-55d0-935c-6538d843b780",
+    "956247e3-ca78-5f54-a8b1-6e725735c754",
+    "5dc08b95-ca15-52ab-b8cd-2b558e9a13f7",
+    "5f851204-5991-5e16-87f1-e8b3ed729708",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "6181b7fb-3189-5ccd-affe-e7851c6fd2ab",
+    "a54bf095-fc46-59d8-81a2-f5b3cf2c9cd5",
+    "9037ecf3-b8f9-5646-bb99-172037dfce21"
+  ],
+  "disambiguation_ids": [
+    "b1640e51-d7d4-5a80-9992-29fa1ded8048",
+    "dc9c0a1b-1759-5b1c-9ab9-ee7bea8847b7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "1795a62e-f78b-5f5b-94e7-9e7490824811",
+    "8dc455d8-c214-58f6-b8c8-a95cb4c3421c",
+    "567c3e74-9514-52d9-b3b6-f5a3af078784"
+  ]
+}

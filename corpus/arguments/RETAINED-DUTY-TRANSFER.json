@@ -1,19 +1,21 @@
 {
-  "id": "RETAINED-DUTY-TRANSFER",
+  "id": "b7823941-1f74-5622-90ed-c8efd55cebbb",
+  "label": "The fixed agent owes return of the identical…, from The fixed agent owes return of the… and 1 more",
+  "legacy_id": "RETAINED-DUTY-TRANSFER",
   "premise_statement_ids": [
-    "STMT-RETAINED-DUTY-INITIAL-DUTY",
-    "STMT-RETAINED-DUTY-RETENTION"
+    "4d4355d0-a338-59fc-af25-33c5c195fea8",
+    "d4e0402d-5848-57b8-97f5-43f5fe12beb3"
   ],
-  "conclusion_statement_id": "STMT-RETAINED-DUTY-PRESENT-DUTY",
+  "conclusion_statement_id": "f853ac3a-5c6a-5af5-9711-9484aa559eb9",
   "inference_ids": [
-    "INF-RETAINED-DUTY-TRANSFER"
+    "266e31b5-d355-526e-a00d-0e89b7dc2d8d"
   ],
   "meaning": "Same-agent same-action before-to-after duty transfer from InitialDuty and the explicit Retention policy. Conditional consequence, not independent warrant for the policy.",
   "definition_ids": [
-    "DEF-RETAINED-DUTY-CASE",
-    "DEF-RETAINED-DUTY-POLICIES"
+    "200b70ef-cdce-5c01-9d1c-d802050f1f51",
+    "21e29c57-c49c-57e9-b226-8a9f23f7968d"
   ],
   "disambiguation_ids": [
-    "DISAMB-RETAINED-DUTY-ACTION-TIME"
+    "c5ea8a79-2882-5ebc-84f7-6d98dc36867f"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-STRICT-SIMPLE-PRIORITY",
+  "id": "08e493f8-68b1-562d-9218-fc3245b2cf1f",
+  "label": "The very same simple-priority relation on candidates is irreflexive: no candidate is SIMPLY_PRIOR_1…",
+  "legacy_id": "STMT-STRICT-SIMPLE-PRIORITY",
   "paraphrase": "The very same simple-priority relation on candidates is irreflexive: no candidate is simply prior to itself. This explicit open structural condition imposes no transitivity, well-foundedness, asymmetry between distinct candidates or temporal order. It is not identified with mixed act/bearer-token priority.",
   "lean_declaration": "TruthCore.Causality.StrictPriorityPureAct.StrictSimplePriority",
   "definition_ids": [
-    "DEF-STRICT-SIMPLE-PRIORITY",
-    "DEF-SIMPLE-PRIORITY"
+    "b2d8accf-16aa-5c2f-acef-dc24915dfe9a",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-SIMPLE-OR-IN-TIME"
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
   ]
 }

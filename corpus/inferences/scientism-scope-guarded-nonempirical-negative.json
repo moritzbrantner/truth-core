@@ -1,10 +1,12 @@
 {
-  "id": "INF-SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
+  "id": "122ce216-b65c-5358-a357-24b8cbc23dcf",
+  "label": "There is no established claim failing empirical establishment, the exact…, by Constructive-proof",
+  "legacy_id": "INF-SCIENTISM-SCOPE-GUARDED-NONEMPIRICAL-NEGATIVE",
   "input_statement_ids": [
-    "STMT-STRONG-SCIENTISM",
-    "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE"
+    "d190bb85-c7ac-5254-b76b-c33ade4543e3",
+    "31cf9a3d-d80b-5f6a-920a-e515a246df53"
   ],
-  "output_statement_id": "STMT-NO-NONEMPIRICAL-ESTABLISHED",
+  "output_statement_id": "66e84d62-f22c-5b48-bc33-4dc193de30dd",
   "rule": "constructive-proof",
   "meaning": "The unchanged scoped norm and explicit existential witness-transfer coverage exclude nonempirical established claims. Generic scoped scientism alone does not.",
   "assumption_statement_ids": [],

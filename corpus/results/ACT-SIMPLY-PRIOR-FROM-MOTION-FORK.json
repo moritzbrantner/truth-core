@@ -1,0 +1,12 @@
+{
+  "id": "a4ce3ab0-8d60-5c90-89b6-58544f71803c",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a respect is…, from MOTION_1 fork",
+  "legacy_id": "ACT-SIMPLY-PRIOR-FROM-MOTION-FORK",
+  "argument_id": "6d1672a7-7dce-58c4-ad07-11d45e5e4bd2",
+  "challenge_module": "TruthCore.Results.Causality.Round4Revisited.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round4Revisited.Solution",
+  "theorem": "TruthCore.Results.Causality.Round4Revisited.actPriorFromMotionFork",
+  "comparator_config": "results/ACT-SIMPLY-PRIOR-FROM-MOTION-FORK/comparator.json",
+  "status": "solution-present",
+  "description": "Act's simple priority by cases on whether the potency is being actualized (excluded middle on MovedIn x r, listed). Moved case: some mover in act moves x (q.2 a.3 reading), it is not x (nothing moves itself in the same respect), so the existing open mover-priority bridge makes it simply prior. Idle case: the new OPEN idle-potency premise. Replaces the rejected premise 'every potency is being actualized' of STMT-ACT-PRIOR-FROM-MOTION-FACTS by the idle half only."
+}

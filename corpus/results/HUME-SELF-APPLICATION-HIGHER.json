@@ -1,6 +1,8 @@
 {
-  "id": "HUME-SELF-APPLICATION-HIGHER",
-  "argument_id": "HUME-SELF-APPLICATION-HIGHER",
+  "id": "0d6f41dd-3bf9-5ba2-8e75-b1c3536ef288",
+  "label": "The existing ordinary self-application and necessary-bridge conflict laws remain valid",
+  "legacy_id": "HUME-SELF-APPLICATION-HIGHER",
+  "argument_id": "310b916d-ee16-56c4-9ae4-9c5613ef9376",
   "challenge_module": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Challenge",
   "solution_module": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.Solution",
   "theorem": "TruthCore.Results.Modern.Hume.SelfApplication.HigherOrder.checks",

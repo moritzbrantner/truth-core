@@ -1,0 +1,18 @@
+{
+  "id": "a2238c6d-a833-5dc8-8f70-143dcad794c6",
+  "label": "Fork node: the intended reading of 'necessary' selects exactly one…, by Theorem application… (2)",
+  "legacy_id": "INF-MODAL-FORK-S4",
+  "input_statement_ids": [
+    "8239eddf-aadf-5ad7-9243-e7698c7e8d27",
+    "c3afabb3-3442-5b29-83bf-7114354b345a",
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "cb456382-efd6-554b-8ee4-c8fc193f876a",
+    "b5fea0e6-a058-512f-bf11-ca740ebd3f06",
+    "380cba7c-9dd6-5484-91ba-b3d99b6eb086"
+  ],
+  "output_statement_id": "bed94ec2-ebd9-59e0-8c68-2d5eee6009e3",
+  "rule": "Theorem application (T correspondence; 4 correspondence of the convergence certificate), conjunction and existential introduction",
+  "meaning": "S4 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 4 schemas on the route's frame and the OPEN reading premise (box-existence in S4, and only that) give the fork node. Reflexivity comes from the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE), transitivity from the 4 correspondence of the ConvergenceCertificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE). Without the 4 schema the branch fails on a reflexive non-transitive chain (controls).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

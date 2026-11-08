@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-REASON-CLOSED",
+  "id": "fc7264ad-1e74-5419-91be-6ac7ec796b07",
+  "label": "REASON_CLOSED_ACCOUNT_3: An account S of x at a contains x, has only true members, contains every…",
+  "legacy_id": "DEF-EXPLANATORY-REASON-CLOSED",
   "term": "reason-closed account",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatoryAdequacy.ReasonClosed",

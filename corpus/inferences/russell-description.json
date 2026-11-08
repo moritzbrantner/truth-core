@@ -1,7 +1,9 @@
 {
-  "id": "INF-RUSSELL-EXISTENCE-DESCRIPTION",
+  "id": "168a4233-25c7-5eb4-8db1-d1d0c057d1ca",
+  "label": "For every typed domain, including an empty one, the identity-characterization of…, by Direct-proof",
+  "legacy_id": "INF-RUSSELL-EXISTENCE-DESCRIPTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-RUSSELL-EXISTENCE-DESCRIPTION",
+  "output_statement_id": "cb86e3e2-f392-5022-931c-6f110a000bba",
   "rule": "direct-proof",
   "meaning": "Construct the unique witness from nonemptiness and uniqueness; conversely use its identity-characterization to derive both properties. No excluded middle, choice or inhabitance premise.",
   "assumption_statement_ids": [],

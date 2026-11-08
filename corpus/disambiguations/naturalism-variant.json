@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-NATURALISM-VARIANT",
+  "id": "726527df-c7a8-5be7-9f30-2bc23b115982",
+  "label": "Naturalism",
+  "legacy_id": "DISAMB-NATURALISM-VARIANT",
   "term": "naturalism (ontological)",
   "sense_definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-NATURALISM-N2",
-    "DEF-NATURALISM-N3",
-    "DEF-NATURALISM-N3-INTERACTION"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "0f3ffba6-5882-5d97-80be-9129f75c7264",
+    "294b6100-7b0d-5012-848c-e2ccabe22079",
+    "7fac7b7a-4440-51f5-9009-27b3e93d8535"
   ],
-  "resolution": "The ontological variants differ in their domain, not in their thesis predicate: N1 quantifies over everything existing, N2 over existing concreta, N3 over bearers of causal power and N3i over causes of things satisfying the predicate. Each is a separate statement. N1 entails N2 with no premise (NATURALISM-N1-ENTAILS-N2); the other pairs need bridges: N2 gives N3 only with the causal-concreteness floor item, and N3 and N3i are related only through the exercise-to-power reading. Under the owner's #1113 bridge (whatever exists in re is concrete), N1 and N2 coincide for existents in re; N1 differs only where something exists without esse in re, as a Platonist number would. The methodological variants (STMT-SELLARS-SCIENTIA-MENSURA, STMT-QUINE-NATURALIZED-EPISTEMOLOGY) are about method, not domain, and are recorded untyped."
+  "resolution": "The ontological variants differ in their domain, not in their thesis predicate: N1 quantifies over everything existing, N2 over existing concreta, N3 over bearers of causal power and N3i over causes of things satisfying the predicate. Each is a separate statement. N1 entails N2 with no premise (NATURALISM-N1-ENTAILS-N2); the other pairs need bridges: N2 gives N3 only with the causal-concreteness floor item, and N3 and N3i are related only through the exercise-to-power reading. Under the owner's #1113 bridge (whatever exists in re is concrete), N1 and N2 coincide for existents in re; N1 differs only where something exists without esse in re, as a Platonist number would. The methodological variants (STMT-SELLARS-SCIENTIA-MENSURA, STMT-QUINE-NATURALIZED-EPISTEMOLOGY) are about method, not domain, and are recorded untyped.",
+  "term_label": "NATURALISM",
+  "senses": [
+    {
+      "id": "2a673e2f-1afc-4b33-bdef-11a1f0c85e66",
+      "label": "NATURALISM_1",
+      "definition_id": "1d25373b-7781-5177-add3-337874b8670b",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.ExistenceNaturalism"
+    },
+    {
+      "id": "478eae4e-600e-4818-b27a-0527faaafa8d",
+      "label": "NATURALISM_2",
+      "definition_id": "0f3ffba6-5882-5d97-80be-9129f75c7264",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.ConcreteNaturalism"
+    },
+    {
+      "id": "dc319303-5529-4500-ae29-91ce4d2012c1",
+      "label": "NATURALISM_3",
+      "definition_id": "294b6100-7b0d-5012-848c-e2ccabe22079",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.CausalPowerNaturalism"
+    },
+    {
+      "id": "ee3bccdf-a5cc-445e-9f2e-52d5113bfcef",
+      "label": "NATURALISM_4",
+      "definition_id": "7fac7b7a-4440-51f5-9009-27b3e93d8535",
+      "lean_declaration": "TruthCore.Ontology.Naturalism.InteractionNaturalism"
+    }
+  ]
 }

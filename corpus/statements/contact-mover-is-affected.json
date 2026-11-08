@@ -1,5 +1,7 @@
 {
-  "id": "STMT-CONTACT-MOVER-IS-AFFECTED",
+  "id": "6f441989-c168-515e-9b7c-5ae67c9ee7ac",
+  "label": "A mover acting on a movable by contact in the relevant physical way is at the same time affected",
+  "legacy_id": "STMT-CONTACT-MOVER-IS-AFFECTED",
   "paraphrase": "A mover acting on a movable by contact in the relevant physical way is at the same time affected.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.ContactMoverIsAffectedReading"
 }

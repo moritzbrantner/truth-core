@@ -1,16 +1,18 @@
 {
-  "id": "PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "id": "a2c6c998-d32a-5ed5-a159-831f57d3e9e8",
+  "label": "A small interpretation model has both an invariant logical sentence and a taste sentence varying…",
+  "legacy_id": "PILOT-LOCAL-VARIATION-COMPATIBLE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-PILOT-LOCAL-VARIATION-COMPATIBLE",
+  "conclusion_statement_id": "a4e4a464-3d76-55af-b664-ced179f1f9f1",
   "inference_ids": [
-    "INF-PILOT-LOCAL-VARIATION-COMPATIBLE"
+    "129e4553-6db9-578e-8bd5-1e2292c9fd83"
   ],
   "meaning": "Construct a stable logical sentence and endorsement-sensitive taste sentence. A model of this encoding, not a sourced full rival worldview.",
   "definition_ids": [
-    "DEF-PILOT-PROFILE-TRUTH"
+    "f83c4d57-8044-505c-9082-b9944f50223a"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUE",
-    "DISAMB-PILOT-RELATIVITY"
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520",
+    "baab4b98-29b9-5275-9819-6dab48f39ab8"
   ]
 }

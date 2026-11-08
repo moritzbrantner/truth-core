@@ -1,5 +1,7 @@
 {
-  "id": "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
+  "id": "ee657154-abb2-543b-802e-032a30b294a0",
+  "label": "Possible actual concrete population…: Some v accessible from w satisfies existing…",
+  "legacy_id": "DEF-POSSIBLY-INHABITED-CONCRETE-AT",
   "term": "possible actual concrete population under the same ontology",
   "definition": "Some v accessible from w satisfies existing InhabitedConcreteAt A.ontic Concrete v: an individual satisfying Concrete actually exists there. No contingency, causal exercise, necessity or metaphysical possibility of this instance is inferred by definition.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARM-GROUND",
+  "id": "c4694c5b-b6a1-5f16-af94-4b63bd62ab05",
+  "label": "EXPLANATION_2: Ground f x is a directed proposed dependence of x on f for its feature, not…",
+  "legacy_id": "DEF-PARM-GROUND",
   "term": "explanation",
   "definition": "Ground f x is a directed proposed dependence of x on f for its feature, not efficient production, spatial inclusion or identity. ExplanationGrounds connects the existing quality-indexed Explains relation to it. RankedGround is an optional strict-order constraint and does not establish philosophical sufficiency.",
   "basis": "stipulative",

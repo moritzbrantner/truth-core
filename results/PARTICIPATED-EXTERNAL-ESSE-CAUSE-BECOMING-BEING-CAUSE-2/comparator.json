@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks2.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.TermSenseForks2.participatedExternalEsseCause"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

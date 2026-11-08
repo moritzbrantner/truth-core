@@ -1,11 +1,13 @@
 {
-  "id": "INF-AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
+  "id": "edfb0e73-4cd8-5994-9e2d-282bb6da20f4",
+  "label": "GOD_4 is not properly in any genus, by Reductio",
+  "legacy_id": "INF-AQUINAS-ST-I-Q3-A5-GOD-IN-NO-GENUS",
   "input_statement_ids": [
-    "STMT-BEING-NOT-A-GENUS",
-    "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
-    "STMT-GENUS-OF-GOD-WOULD-BE-BEING"
+    "095d30c5-6f24-51be-88da-201d3b4fabda",
+    "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
+    "a314f44a-f7fd-57ed-b78c-150da76e23b0"
   ],
-  "output_statement_id": "STMT-GOD-IN-NO-GENUS",
+  "output_statement_id": "94e04d71-f5e3-5d0b-99fd-1fa01df090e9",
   "rule": "reductio",
   "meaning": "Suppose God is in a genus g. Then g is a genus, and g is being; so being would be a genus, which it is not.",
   "assumption_statement_ids": [],

@@ -1,19 +1,21 @@
 {
-  "id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
+  "id": "731a50cb-0743-5260-8caf-a7e32cb10542",
+  "label": "A mover other than the moved thing that is being…, from A mover other than the moved thing that is…",
+  "legacy_id": "AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT",
   "premise_statement_ids": [
-    "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED"
+    "1e47e6db-da06-5a40-9ccf-fbd1f929c596"
   ],
-  "conclusion_statement_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
+  "conclusion_statement_id": "96da1d33-7a73-567e-9557-ba4a9a4bb798",
   "inference_ids": [
-    "INF-AQUINAS-ST-I-Q2-A3-SECOND-MOVERS-STRONG-ENTAILS-RELEVANT-RESPECT"
+    "d703a89a-10b7-503a-81b5-7c7e5ebbb0e4"
   ],
   "meaning": "The strong per se link reading entails the relevant-respect reading for the same relations: a second mover that moves only insofar as it is moved in some respect is in particular a per se link when it is moved in a respect relevant to its moving (the relevance condition is simply dropped). Registers the strength order between the two sibling readings of moventia secunda non movent nisi per hoc quod sunt mota (#151, #1017).",
   "definition_ids": [
-    "DEF-PER-SE-LINK-RELEVANT-RESPECT",
-    "DEF-PER-SE-LINK-STRONG",
-    "DEF-PER-SE-ORDERED-SERIES"
+    "55a974ea-1ba1-5df4-a03b-1fbaa388dfeb",
+    "e765a03a-3017-5c77-acaa-ba33b6cd5279",
+    "c9798301-e990-5ca2-a36e-6b11f76206c1"
   ],
   "disambiguation_ids": [
-    "DISAMB-PER-SE-LINK"
+    "c097f626-c39c-57cd-ade4-ebb2dd900a4c"
   ]
 }

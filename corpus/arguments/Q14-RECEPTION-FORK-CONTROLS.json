@@ -1,25 +1,27 @@
 {
-  "id": "Q14-RECEPTION-FORK-CONTROLS",
+  "id": "6cc1f499-5a25-5b05-b154-ada16b2019ee",
+  "label": "Separate checked controls retain exact empty/sensory/old-target omissions; material-only capacity…",
+  "legacy_id": "Q14-RECEPTION-FORK-CONTROLS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-Q14-RECEPTION-FORK-CONTROLS",
+  "conclusion_statement_id": "35dce1b0-3b0b-52ee-9b08-fe27e6b160a3",
   "inference_ids": [
-    "INF-Q14-RECEPTION-FORK-CONTROLS"
+    "f3b1c386-8d96-5b79-b62e-ffc18af73b86"
   ],
   "meaning": "Exact typed omission/control certificate. Reuses all three old FormReception omission theorems; NEW profiles explicitly export the advertised capacities/calibrations/events/nonempty remainder and full positive assembly backgrounds. Separate interpretations, not one joint worldview or actual metaphysical possibility.",
   "definition_ids": [
-    "DEF-Q14-FORM-CAPACITY",
-    "DEF-HAS-INTELLECT",
-    "DEF-ALTOGETHER-IMMATERIAL",
-    "DEF-REMOTE-FROM-ALL",
-    "DEF-SENSE-COGNITION",
-    "DEF-Q14-CAPACITY-CALIBRATION",
-    "DEF-Q14-WITHOUT-MATTER-CALIBRATION",
-    "DEF-Q14-CHANGE-PROXY-CALIBRATION",
-    "DEF-Q14-FOREIGN-FORM-CHANGE-PROXY",
-    "DEF-Q14-RECEPTION-DEFINITION-MENU"
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "dace8e73-8b5b-5378-8e62-17d534413168",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e",
+    "d0b99964-a60d-5528-b5c7-a25967f74885",
+    "f41b761b-7fea-537a-b03a-6a5c99f9b2e3",
+    "a63b614a-7a1a-5560-b919-10f303b955ff",
+    "4162125d-92e7-5eb2-8336-d743c6f494c1",
+    "1eb499b9-3ac6-5cdd-824d-486f91a435ce",
+    "72284cfd-e09b-57fe-8824-4b2d120e7fb1"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q14-RECEPTION-SENSES",
-    "DISAMB-INTELLECT-AND-SENSE-COGNITION"
+    "e557eab8-2eed-5b24-ade9-a23b5b26f9b3",
+    "c0fda0ee-3508-5101-94ba-043e3eb28b0e"
   ]
 }

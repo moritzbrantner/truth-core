@@ -1,13 +1,15 @@
 {
-  "id": "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY",
+  "id": "5f5e6461-e121-5da4-9ee5-52413eac66db",
+  "label": "In the supplied fixed profile, some bearer is good in a perfection without having the…",
+  "legacy_id": "STMT-GOODNESS-SURPLUS-BEYOND-DUE-ACTUALITY",
   "paraphrase": "In the supplied fixed profile, some bearer is good in a perfection without having the corresponding due actuality. This is one possible disagreement with the owner proposal, not an attribution to a named school.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.SurplusGood",
   "definition_ids": [
-    "DEF-FORM-END-DUE-PERFECTION",
-    "DEF-GOODNESS-DUE-ACTUALITY-PROPOSITION",
-    "DEF-GOODNESS-SURPLUS-OMISSION-CELLS"
+    "2b760306-fed0-583e-b7b8-53a8a1d85676",
+    "68191121-85f6-5bce-b32e-1900c8b52f57",
+    "b567cee6-b514-5a25-ab7d-6d7dbbd3d699"
   ],
   "disambiguation_ids": [
-    "DISAMB-GOODNESS-UNRESTRICTED-DUE-AND-ULTIMATE"
+    "f5b1a1e9-1ba8-58ed-976c-9f228d8a8d14"
   ]
 }

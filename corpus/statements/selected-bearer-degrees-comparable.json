@@ -1,0 +1,14 @@
+{
+  "id": "a59a925d-b58f-5188-9573-94d251233d61",
+  "label": "Any two bearers of the selected perfection have comparable represented degrees",
+  "legacy_id": "STMT-SELECTED-BEARER-DEGREES-COMPARABLE",
+  "paraphrase": "OPEN analyst premise: any two bearers of the selected perfection have comparable represented degrees (totality on bearers only; ties allowed).",
+  "lean_declaration": "TruthCore.Causality.Round3FourthWay.BearerDegreesComparable",
+  "definition_ids": [
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "9146daed-3e78-5804-8291-70c4e2c9d6c1"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

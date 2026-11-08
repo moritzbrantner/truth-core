@@ -1,5 +1,7 @@
 {
-  "id": "DEF-GOODNESS-CORRECT-ACCOUNT-NAMED-COVERAGE",
+  "id": "04cf69a8-68d5-552a-9b6a-ad60545f045b",
+  "label": "Semantic named coverage of correct…: Every admissible proposal that correctly describes the SAME…",
+  "legacy_id": "DEF-GOODNESS-CORRECT-ACCOUNT-NAMED-COVERAGE",
   "term": "semantic named coverage of correct admissible goodness accounts",
   "definition": "Every admissible proposal that correctly describes the SAME profile GoodIn relation is semantically named. This is equivalent to conditional existential CorrectAccountSupport, because any two correct accounts coextend. Wrong admissible accounts may remain unnamed. Neither formulation asserts that any correct account actually exists or a property-identity claim.",
   "basis": "stipulative",

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PSR-EVENT-CHANCE",
+  "id": "cf2d9a1c-3b66-5bd1-9b30-a29b21d32969",
+  "label": "Probability of an arena fact: A normalized Mathlib PMF on the SAME arena worlds assigns…",
+  "legacy_id": "DEF-PSR-EVENT-CHANCE",
   "term": "probability of an arena fact",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.PSRLaterAxes.chance",

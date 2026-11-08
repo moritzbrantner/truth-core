@@ -1,12 +1,14 @@
 {
-  "id": "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
+  "id": "23e73af5-a0df-5838-9689-5899c37fdcda",
+  "label": "GOD_2: The Lean parameter GOD_2: Being → Prop of the stage-1 maxime ens route: g is the one the…",
+  "legacy_id": "DEF-GOD-AS-NAMED-IN-THE-SUMMA",
   "term": "God (the one the Summa calls God; Lean `God`)",
   "definition": "The Lean parameter `God : Being → Prop` of the stage-1 maxime ens route: g is the one the Summa calls God (q.105 a.5, q.13 a.8). Its content comes only from the premises that use it. The open premise STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS gives a sufficient condition for it, a reduced form of the q.13 nominal definition (the only maximum in being that causes the being of every other being), which drops 'remote from all' and the causation of goodness and every perfection. On that route it is a different parameter from `IsGod`. The designated route (CATHOLICISM-STAGE1-VIA-FULL-DESCRIPTION) does not use this parameter: its fuller nominal premise STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE applies the name to `IsGod` directly (DISAMB-GOD).",
   "basis": "stipulative",
   "claim_ids": [
-    "AQUINAS-ST-I-Q13-A8-AD2-GOD-NAMES-PRINCIPLE-ABOVE-ALL-A",
-    "AQUINAS-ST-I-Q2-A3-QUARTA-VIA-DICIMUS-DEUM-A",
-    "AQUINAS-ST-I-Q105-A5-EVERY-AGENT-APPLIED-BY-GOD"
+    "7a834b05-39d3-51cf-8155-7dd8e640077e",
+    "9b52e1a5-9008-51e9-b666-892da74e45b1",
+    "36e89125-feeb-5dc9-af07-e4e3f637a9bc"
   ],
   "lean_declaration": "TruthCore.Case.Catholicism.GodNamesTheUniqueMaximeEns",
   "note": "Stipulated by the case: no source states the reduced description. Its sufficiency is the open premise STMT-GOD-NAMES-THE-UNIQUE-MAXIME-ENS, which the q.13 a.8 ad 2 and quarta via passages support without stating. Version (b) of its discharge (AQUINAS-REDUCED-DESCRIPTION-OF-GOD-SUFFICES) derives it from the fuller STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE by showing that the unique maximum in being also has the omitted properties."

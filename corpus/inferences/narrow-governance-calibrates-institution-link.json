@@ -1,9 +1,11 @@
 {
-  "id": "INF-NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
+  "id": "697f2b03-b570-547e-ba60-1bdd12a7f6e6",
+  "label": "The original fixed narrow institutional bridge holds iff the…, by Constructive-proof",
+  "legacy_id": "INF-NARROW-GOVERNANCE-CALIBRATES-INSTITUTION-LINK",
   "input_statement_ids": [
-    "STMT-COMMISSION-GOVERNANCE-IS-NARROW"
+    "6f11f813-3b1d-5c3f-89c6-f45c086ee848"
   ],
-  "output_statement_id": "STMT-COMMISSION-NARROW-INSTITUTION-LINK-CALIBRATION",
+  "output_statement_id": "75537b8c-bcfd-5760-9b3c-40ec14de492d",
   "rule": "constructive-proof",
   "meaning": "Transport governing-power premises in both directions through the explicit narrow calibration, preserving mandate/body/visibility and teaching. This checks exact equivalence with the original bridge, not a change to its fixed table.",
   "assumption_statement_ids": [],

@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMUM-ORDER-SCHEMA",
-  "argument_id": "MAXIMUM-ORDER-SCHEMA",
+  "id": "a83d979d-d2d7-5fbc-8a0a-0acb668febc6",
+  "label": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater…",
+  "legacy_id": "MAXIMUM-ORDER-SCHEMA",
+  "argument_id": "8e7c066b-2c8d-50b1-8a7f-12fb0ce28ca5",
   "challenge_module": "TruthCore.Results.Logic.MaximumOrderSchema.Challenge",
   "solution_module": "TruthCore.Results.Logic.MaximumOrderSchema.Solution",
   "theorem": "TruthCore.Results.Logic.MaximumOrderSchema.maximumOrderSchema",

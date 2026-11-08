@@ -1,6 +1,8 @@
 {
-  "id": "EP-ROLE-DEFINITION-BOUNDARIES",
-  "argument_id": "EP-ROLE-DEFINITION-BOUNDARIES",
+  "id": "b91e4e37-9f75-5a92-b41e-c34a257c0025",
+  "label": "Explicit finite interpretations distinguish ordinary support from preference-independent force…",
+  "legacy_id": "EP-ROLE-DEFINITION-BOUNDARIES",
+  "argument_id": "16755bfa-d28c-5998-93d8-35a1af0da6e0",
   "challenge_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Challenge",
   "solution_module": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution",
   "theorem": "TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.boundary",

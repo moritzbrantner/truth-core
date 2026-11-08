@@ -1,9 +1,11 @@
 {
-  "id": "INF-REVELATION-CALIBRATION-ENTAILS-REALIZATION",
+  "id": "4f994789-04f6-5858-ae47-1c017be1b21e",
+  "label": "Each GOD_4 candidate with recognizable-revelation capability has a correct…, by Constructive-proof",
+  "legacy_id": "INF-REVELATION-CALIBRATION-ENTAILS-REALIZATION",
   "input_statement_ids": [
-    "STMT-RECOGNITION-CAPACITY-DEFINITION"
+    "c27a8733-1df9-53ec-8bb7-1ad316340eb5"
   ],
-  "output_statement_id": "STMT-RECOGNIZABLE-CAPACITY-REALIZED",
+  "output_statement_id": "3f303e5a-a3b2-57f4-accb-207139bf9d52",
   "rule": "constructive-proof",
   "meaning": "The full calibration implies its forward realization direction, pointwise on God candidates. This assembly transcription registers strength; capability-conflict arguments use the weaker realization.",
   "assumption_statement_ids": [],

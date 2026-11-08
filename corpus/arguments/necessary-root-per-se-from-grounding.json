@@ -1,0 +1,34 @@
+{
+  "id": "4fd4e8f7-99a9-5afa-9471-6c5b5b0af1ce",
+  "label": "NECESSARY_1-being node, per se reading: there is an actual root n that is God, the…, from grounding",
+  "legacy_id": "NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "premise_statement_ids": [
+    "32a2f51c-a630-56a0-acc3-800637c18253",
+    "d6e558d0-131a-553a-a183-fa73aed91281",
+    "71454b27-1943-5bb4-a1f4-4a1bb716082a",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "conclusion_statement_id": "c639d164-4981-5b2b-bcf3-d6d7a5d5937f",
+  "inference_ids": [
+    "7f52ac39-9964-5693-8488-41e8f5401011"
+  ],
+  "meaning": "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes).",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ]
+}

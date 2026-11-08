@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-INDIVIDUAL-ALTERNATING",
-  "argument_id": "NECESSARY-INDIVIDUAL-ALTERNATING",
+  "id": "514112f2-cdc0-558e-aaed-fd0286bdc824",
+  "label": "At actual world false in the explicit two-world, two-individual universal frame, a concrete…",
+  "legacy_id": "NECESSARY-INDIVIDUAL-ALTERNATING",
+  "argument_id": "a1e047d8-f01a-5153-bd06-1e0e0c37b175",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StageOne.NecessaryIndividual.Alternating.checks",

@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-ROOT-IS-MAXIMUM",
-  "argument_id": "NECESSARY-ROOT-IS-MAXIMUM",
+  "id": "6b75bdf8-e72b-5e4e-8e2f-3996bd44032c",
+  "label": "Some concrete individual existing at…, from Some candidate is CONCRETE_6 and exists at… and 7 more",
+  "legacy_id": "NECESSARY-ROOT-IS-MAXIMUM",
+  "argument_id": "0ae291ce-4d66-55b7-b517-549e72bda104",
   "challenge_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution",
   "theorem": "TruthCore.Results.Causality.NecessaryConcreteRouteBridge.necessaryRootIsMaximum",

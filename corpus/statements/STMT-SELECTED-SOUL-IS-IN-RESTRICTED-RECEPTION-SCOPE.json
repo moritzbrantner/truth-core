@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SELECTED-SOUL-IS-IN-RESTRICTED-RECEPTION-SCOPE",
+  "id": "11745172-e7ef-5fcf-8195-864df4ff53d2",
+  "label": "The selected soul bearer belongs to the supplied eligibility class",
+  "legacy_id": "STMT-SELECTED-SOUL-IS-IN-RESTRICTED-RECEPTION-SCOPE",
   "paraphrase": "OPEN scope input: the selected soul bearer belongs to the supplied eligibility class. A restriction avoids the counterexample only if that class actually excludes the tuple or another input is rejected.",
   "lean_declaration": "TruthCore.Causality.EsseReceptionDefinitionFork.SelectedSoulEligible",
   "definition_ids": [
-    "DEF-UNITED-ESSE-RECEPTION-INTERPRETATION-PROFILE",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE"
+    "cd5ae150-60fb-5992-8bd7-6a383b700ca6",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE"
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
   ]
 }

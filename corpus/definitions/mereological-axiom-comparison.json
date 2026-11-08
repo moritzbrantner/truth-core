@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
+  "id": "93b2805e-b8d8-56d2-bbfd-91d440ab9ba0",
+  "label": "Mereological separation and fusion…: FusionComparison B asserts pointwise equivalence of existing…",
+  "legacy_id": "DEF-MEREOLOGICAL-AXIOM-COMPARISON",
   "term": "mereological separation and fusion comparison",
   "lean_declaration": "TruthCore.Mereology.SupplementationFusion.FusionComparison",
   "basis": "stipulative",

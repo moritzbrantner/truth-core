@@ -1,6 +1,8 @@
 {
-  "id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
-  "argument_id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "id": "6c9f149e-30e1-5aaa-830e-f253a3015351",
+  "label": "A finite interpretation has belief that God exists without accepting a relationship",
+  "legacy_id": "HIDDENNESS-BELIEF-WITHOUT-ACCEPTANCE",
+  "argument_id": "e36e2c10-f273-5f9d-bab6-7d0d34335d80",
   "challenge_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Challenge",
   "solution_module": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.Solution",
   "theorem": "TruthCore.Results.Hiddenness.BeliefWithoutAcceptance.beliefWithoutAcceptance",

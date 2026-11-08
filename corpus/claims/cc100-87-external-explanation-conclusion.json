@@ -1,15 +1,17 @@
 {
-  "id": "CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
-  "statement_id": "STMT-CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "21569d09-8f36-5f42-b65c-670312d8f5d1",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Under the demand that cosmic unity be explained and…",
+  "legacy_id": "CC100-87-EXTERNAL-EXPLANATION-CONCLUSION",
+  "statement_id": "dd00d7be-0b74-57ef-88bc-a3db02d90ef3",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.212, argument #87 Unities: The Cosmos, step 5 under steps 1–4",
   "interpretation": "Retain the displayed external-explanation conclusion as conditional source commitment. Explanatory demand-to-actual-explanans and internal/external coverage/admission are not independently established. No actual concrete cause, necessary bearer, common numerical source or sufficient explanation is inferred by attribution. Attribution is to McIntosh’s presentation only, not the unread Juarez2017 article referenced on p213. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-87-COSMIC-UNITY-EXPLANATION"
+    "2ec9760f-26e5-5df3-897f-443a769ec094"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

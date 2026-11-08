@@ -1,5 +1,7 @@
 {
-  "id": "DEF-HISTORY-CONTRASTIVE-CONTROL",
+  "id": "22a86afc-adaa-5755-b644-da49d4d6dee1",
+  "label": "Complete supplied presence history and…: SameHistory compares IsAt for every candidate and…",
+  "legacy_id": "DEF-HISTORY-CONTRASTIVE-CONTROL",
   "term": "complete supplied presence history and contrastive discriminator",
   "definition": "SameHistory compares IsAt for every candidate and supplied time. Discriminates h truth actual r requires truth at actual and SameHistory v actual at each accessible v where that same reason is true. The actual parameter designates a world; accessibility is possibility, never causal travel or selection. chains contains disjoint Bool-tagged infinite Nat member chains: predecessor of (w,n) is (w,n+1), present at all Nat times. reasons retains exactly the same local explains assignments and changes only reason truth: internal=true identifies reason r with existence of its bearer (r,0), internal=false makes reasons true everywhere. discovered is the empty predicate.",
   "basis": "stipulative",

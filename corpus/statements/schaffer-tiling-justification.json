@@ -1,13 +1,15 @@
 {
-  "id": "STMT-SCHAFFER-TILING-JUSTIFICATION",
+  "id": "4c4309e9-b45c-5c0f-98d8-57f0a5eb6211",
+  "label": "Schaffer argues for covering from completeness, no overlap from free recombinability, and the…",
+  "legacy_id": "STMT-SCHAFFER-TILING-JUSTIFICATION",
   "paraphrase": "Schaffer argues for covering from completeness, no overlap from free recombinability, and the weaker no-parthood restriction from minimal completeness and redundancy of a part beside its whole.",
   "definition_ids": [
-    "DEF-SCHAFFER-MATERIAL-DOMAIN",
-    "DEF-SCHAFFER-METAPHYSICAL-PRIORITY",
-    "DEF-SCHAFFER-BASIC-OBJECT",
-    "DEF-SCHAFFER-TILING"
+    "c1ba9ab6-2c8a-5b3a-9e6f-5f4ce598d295",
+    "0c9a04bf-8233-5d2e-b1e3-d24845a9bf1e",
+    "052e3b2e-e39c-58d4-b3bb-66a947e11f3e",
+    "54375690-e493-573c-8414-8c3e167d1972"
   ],
   "disambiguation_ids": [
-    "DISAMB-PRIORITY-MONISM-SCOPE"
+    "6f18f12d-7256-539b-9b61-40219cd4af21"
   ]
 }

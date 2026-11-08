@@ -1,11 +1,13 @@
 {
-  "id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-CONJUNCTION",
+  "id": "9cdba00e-f2ef-585c-8d4d-c6a94ce1d408",
+  "label": "Gödel's 1970 axiom Ax1: at every world, the conjunction of two POSITIVE_1 properties is POSITIVE_1",
+  "legacy_id": "STMT-GOEDEL-1970-POSITIVE-CLOSED-UNDER-CONJUNCTION",
   "paraphrase": "Gödel's 1970 axiom Ax1 (AFP GoedelVariantHOML1.thy): at every world, the conjunction of two positive properties is positive.",
   "lean_declaration": "TruthCore.Isabelle.AFP.NotesOnGoedel.GoedelVariantHOML1.PositiveClosedUnderConjunction",
   "definition_ids": [
-    "DEF-POSITIVE-PROPERTY-GOEDEL-1970"
+    "6300d642-4116-591e-bac8-7af32093ea6d"
   ],
   "disambiguation_ids": [
-    "DISAMB-POSITIVE"
+    "1850cad4-6eff-547f-b60c-e744dad7830d"
   ]
 }

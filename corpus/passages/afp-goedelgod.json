@@ -1,7 +1,7 @@
 {
   "snapshot": {
     "kind": "web_snapshot",
-    "source_id": "AFP-GOEDELGOD",
+    "source_id": "871fc43a-465b-5526-b895-28b2a6c997c9",
     "source_url": "https://raw.githubusercontent.com/isabelle-prover/mirror-afp-2025-2/b26968905efa0067a72393ef50164ad63786a7a1/thys/GoedelGod/GoedelGod.thy",
     "retrieved_at": "2026-10-26T07:03:46Z",
     "sha256": "sha256:6a9e3d58c51754c9ccb86d94762a076c133df36aca4aa2d5b046d76b4f4d011a",
@@ -11,7 +11,9 @@
   },
   "passages": [
     {
-      "id": "AFP-GOEDELGOD-THY",
+      "id": "7a76f217-9e20-523b-a30e-74276cb3ef3f",
+      "label": "Christoph Benzmüller and Bruno…, Gödel's God in Isabelle/HOL, GoedelGod.thy",
+      "legacy_id": "AFP-GOEDELGOD-THY",
       "locator": "GoedelGod.thy (whole theory)",
       "claim_locator_prefixes": [
         "GoedelGod.thy,"

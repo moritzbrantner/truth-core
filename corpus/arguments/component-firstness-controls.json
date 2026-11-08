@@ -1,0 +1,29 @@
+{
+  "id": "030ef894-3ddd-5f18-95f8-0873874d4e7e",
+  "label": "Finite interpretations with one component",
+  "legacy_id": "COMPONENT-FIRSTNESS-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "5ae262d0-34c6-5bdd-8546-060f76752028",
+  "inference_ids": [
+    "554ebf18-805a-5ab9-a54e-a2b801b61685"
+  ],
+  "meaning": "Finite interpretations with one component (false of true). Omitting in turn the potential-or-participated disjunction, act priority, the same-respect exclusion, the participation cause, or efficient priority, with the other four holding, makes the component first in being. A positive model satisfies all five with the conclusion. Satisfiability of encoded bundles, not metaphysical possibility.",
+  "definition_ids": [
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "9f874532-f37e-590b-bec9-a9affb2762ac",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "196be87e-b944-5924-b791-87406fbe48f6"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "54f33165-05df-5205-807a-04154b5fd6ad",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "be54be36-3ce8-53f9-8168-50d1114e6c76"
+  ]
+}

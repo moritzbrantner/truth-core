@@ -1,6 +1,8 @@
 {
-  "id": "RUSSELL-EXISTENCE-INDIVIDUAL",
-  "argument_id": "RUSSELL-EXISTENCE-INDIVIDUAL",
+  "id": "a121e5ff-3443-5d54-8f2b-b9660c7eb201",
+  "label": "In the stated varying-domain alternative, each world has a witness but candidate a is actual at…",
+  "legacy_id": "RUSSELL-EXISTENCE-INDIVIDUAL",
+  "argument_id": "39163fe6-32cd-554c-9456-8a307f3d8170",
   "challenge_module": "TruthCore.Results.Modern.Russell.Individual.Challenge",
   "solution_module": "TruthCore.Results.Modern.Russell.Individual.Solution",
   "theorem": "TruthCore.Results.Modern.Russell.Individual.checks",

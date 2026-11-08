@@ -1,20 +1,22 @@
 {
-  "id": "ATTEMPT-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
+  "id": "f0b44c7c-bb19-5078-8af9-649744ddd815",
+  "label": "Constructed a source-free distinct-through grounding Profile preserving the original Context…",
+  "legacy_id": "ATTEMPT-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
   "date": "2026-10-31",
   "statement_ids": [
-    "STMT-SELECTED-NECESSARY-ROOT-ANCESTOR",
-    "STMT-CONCRETE-THROUGH-SOURCES",
-    "STMT-NECESSARY-UNIQUE-ULTIMATE-SOURCE",
-    "STMT-TAPP-SHARED-SELF-POWER",
-    "STMT-TAPP-SELF-POWER-THROUGH"
+    "177b9b54-212d-5162-b288-d0cb70899f3d",
+    "681c165a-c50d-5f58-96f6-68688109265f",
+    "7a9cd34a-332b-5dbc-a108-51ee53d46d90",
+    "a08c44e9-b8b8-56f1-b622-b4aa5b550935",
+    "50a1171f-b16f-58e3-b651-d731e68963b7"
   ],
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Constructed a source-free distinct-through grounding Profile preserving the original Context ontology and supplied concrete predicate. Reused selected-ancestry extraction and direct common-power uniqueness to carry the SAME necessary witness into unique actual ultimate-source status. Explicit source actuality and NEW OPEN concrete-source closure prevent the invalid inference from absence of concrete grounds to absence of all through-sources. Rejected assigning all candidates concrete and rejected silently transferring cone foundation from an unrelated relation. Global ultimate availability is not used, but universal-target source status does not follow without composition laws. Full lake build passes. Exact binding reports 742 bound results,2 existing pins,0 mismatches; the new theorem matches all nine advertised premises. Comparator and independent NanoDa accept the result with zero permitted axioms; print-axioms reports none. Corpus, source-manifest and generated-import checks pass. Root routes and reaching-root reports are byte-identical (11 routes,62 open premises). Convention sourceRevision c104800c7aaeaea12d56f9093e71bdef6a2ce6fa. No philosophical premise discharged.",
   "blocker": "Independently defend the common-power interfaces, concreteness/domain closure and the local dependence/foundation application to the exact distinct-through relation. Uniqueness of all necessary individuals remains unproved.",
   "evidence": [
-    "SELECTED-CONE-NECESSARY-ROOT-ANCESTOR",
-    "ANSELM-DIRECT-ULTIMATE-UNIQUENESS",
-    "NECESSARY-UNIQUE-ULTIMATE-SOURCE"
+    "ef1815c4-25cc-5cbc-9ac5-3a64e9b7df65",
+    "c1622f59-4638-5184-b65c-8c6246306b70",
+    "e0fa5865-7a34-57a6-9e86-d2d610bea4e8"
   ]
 }

@@ -1,30 +1,32 @@
 {
-  "id": "COGITO-ESSE-INHABITED-WORLD",
+  "id": "fc055978-aa74-584d-a71b-567687a63322",
+  "label": "Some candidate is CONCRETE_6 and exists at…, from Some thought episode occurs under the… and 3… (2)",
+  "legacy_id": "COGITO-ESSE-INHABITED-WORLD",
   "premise_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "STMT-EXISTING-IN-ACT-AT"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "c821487b-9c5e-5836-bf27-dcb47f210c94",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae"
   ],
-  "conclusion_statement_id": "STMT-COGITO-INHABITED-CONCRETE-WORLD",
+  "conclusion_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
   "inference_ids": [
-    "INF-COGITO-ESSE-INHABITED-WORLD"
+    "a709149d-980d-5b8d-91a8-b5fdf09fcb5f"
   ],
   "meaning": "Compose the existing inhabited-world theorem with COGITO-BEARER-CONCRETE-FROM-EXISTENCE. Concreteness is consistently HasEsseInRe InAct esse; no independent C premise remains. O, B, E and ExistingInActAt remain explicit. Transcription/instantiation, not independent closure of any open premise.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-COGITO-ESSE-PROFILE",
-    "DEF-CONCRETE-ESSE-IN-RE",
-    "DEF-ESSE",
-    "DEF-EXISTING-IN-ACT-AT",
-    "DEF-INHABITED-CONCRETE-WORLD",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-THOUGHT-BEARER",
-    "DEF-THOUGHT-OCCURRENCE"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "fd4d20b9-e6a1-5890-a2f5-f10d6c7441de",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "fc6f0e12-470f-5717-8c5b-ece7a450fe59",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
   ],
   "disambiguation_ids": [
-    "DISAMB-CONCRETE-ABSTRACT-CRITERIA",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-OCCURRENCE-VS-CONCRETE-EXISTENCE"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "16ea77ae-4ec7-59e4-8474-10f04efb5ddf"
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "id": "11ed74db-f6aa-52ab-8db7-60a1bafcc4b5",
+  "label": "The selected governing predicate does not coextend with the fixed…, by Universal instantiation…",
+  "legacy_id": "INF-COMMISSION-NARROW-CRITERION-FAILS-FROM-TEACHING",
+  "input_statement_ids": [
+    "b85ee5a5-8a4f-5da1-bab3-bc5453e51b2c"
+  ],
+  "output_statement_id": "01cc2592-9945-545f-933e-302e46387c4b",
+  "rule": "Universal instantiation, biconditional elimination, computation on the fixed table, reductio",
+  "meaning": "The narrow calibration (selected governing iff governing in the fixed table) is false, from the OPEN premise that the selected governing predicate includes teaching: under the narrow calibration teaching would be governing in the table, where Power.Governing .teach = false. The fixed table, not a premise, supplies the contradiction.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

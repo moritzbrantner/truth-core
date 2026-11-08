@@ -1,0 +1,12 @@
+{
+  "id": "ef4d76c8-0d4b-59a2-8b58-b0238977e643",
+  "label": "Via MAXIME_3 (strictly greatest), a MAXIME_1 being causes being in all others",
+  "legacy_id": "MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "argument_id": "75fc6c70-e0fd-59e6-9ad8-3071b9cb1d89",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximeEnsCausesAllStrict",
+  "comparator_config": "results/MAXIME-ENS-CAUSES-ALL-AS-STRICTLY-GREATEST/comparator.json",
+  "status": "solution-present",
+  "description": "MAXIME_3 branch: some being is STRICTLY greatest in being; such a being causes being in every other being; and the explicit sense bridge says a STRICTLY greatest being is MAXIMAL in being. So some MAXIMAL being causes being in every other being. Its existence premise is stronger than MAXIME_1's: the tied control has a MAXIMAL being and no STRICTLY greatest one."
+}

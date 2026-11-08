@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
+  "id": "37e9e7a0-2385-5e08-9ef9-f793b5ceb936",
+  "label": "No nonempty finite path in the supplied causal relation returns to its start",
+  "legacy_id": "STMT-CAUSAL-HISTORY-HAS-NO-LOOPS",
   "paraphrase": "No nonempty finite path in the supplied causal relation returns to its start.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageOne.CausalFinitism.NoCausalLoops",
   "definition_ids": [
-    "DEF-CAUSAL-HISTORY-NO-LOOPS"
+    "7243dd39-f7f9-596e-9be4-e8b3b4c8aacd"
   ],
   "disambiguation_ids": [
-    "DISAMB-FINITE-HISTORY-AND-PER-SE-REGRESS"
+    "bedfab81-905c-5d1a-b834-e20b8007b3da"
   ]
 }

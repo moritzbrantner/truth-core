@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONTINGENT-ATOMICITY-CONTROL",
+  "id": "2247598d-93d4-5684-bdc7-472e8c56122c",
+  "label": "Two modal interpretations on one…: Both Ontics have carrier Unit ⊕ OrderDual Nat with the SAME…",
+  "legacy_id": "DEF-CONTINGENT-ATOMICITY-CONTROL",
   "term": "two modal interpretations on one atom-plus-gunk order",
   "basis": "stipulative",
   "definition": "Both Ontics have carrier Unit ⊕ OrderDual Nat with the SAME standard Mathlib disjoint-sum parthood and two universally accessible Bool worlds. At false every candidate exists. Strict model: the point is contingent, every gunk node necessary, and gunk0 causes the point. Reverse model: point necessary, each gunk node contingent, and point causes each gunk node. Causes occur only at false.",

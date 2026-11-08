@@ -1,9 +1,11 @@
 {
-  "id": "INF-HUME-INDUCTION-SELF-APPLICATION",
+  "id": "d0b059b5-5fdf-5327-9aa6-69e0541261fd",
+  "label": "The blanket entitlement-denying reconstruction fails under the explicit premises…, by… (2)",
+  "legacy_id": "INF-HUME-INDUCTION-SELF-APPLICATION",
   "input_statement_ids": [
-    "STMT-HUME-INDUCTION-CERTIFIES-HABIT"
+    "dc6f1fd9-3c5b-56d7-bbce-606e02882b5b"
   ],
-  "output_statement_id": "STMT-HUME-INDUCTION-REJECT-STRONG",
+  "output_statement_id": "f2b6e95f-f43a-57d2-abf4-cb24e75cd422",
   "rule": "direct-proof",
   "meaning": "Conditional self-application critique: positive certification of habit excludes blanket withholding. This is a transcription of the incompatible-verdict test; the certification is an open premise, not attributed to Hume.",
   "assumption_statement_ids": [],

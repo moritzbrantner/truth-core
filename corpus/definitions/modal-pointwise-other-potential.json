@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+  "id": "10d78687-87cb-5601-8fe0-07a73863ecfd",
+  "label": "Selected rigid individual as a…: OtherDirectedPotentialCause m w0 n states that for each…",
+  "legacy_id": "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
   "term": "selected rigid individual as a pointwise possible cause of each existing other",
   "definition": "OtherDirectedPotentialCause m w0 n states that for each root-accessible v and each y present at v with y ≠ n, PossibleCauseAt m v n y holds. The possibility witness may vary with v and y. It chooses a single rigid n, excludes self as target, and does not assert a joint world in which n causes all targets at once. Necessary presence of n is a separate proposition.",
   "basis": "stipulative",

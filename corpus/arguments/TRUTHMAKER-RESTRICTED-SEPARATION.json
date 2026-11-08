@@ -1,22 +1,24 @@
 {
-  "id": "TRUTHMAKER-RESTRICTED-SEPARATION",
+  "id": "e5095b04-1dfe-59cd-b8e7-3466c39843cc",
+  "label": "In the existing truthmakers arena, existence-label coverage is sound, the existential fact is true…",
+  "legacy_id": "TRUTHMAKER-RESTRICTED-SEPARATION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-TRUTHMAKER-RESTRICTED-SEPARATION",
+  "conclusion_statement_id": "c126fe80-e0f6-5ce4-ab3a-4d2c504564ef",
   "inference_ids": [
-    "INF-TRUTHMAKER-RESTRICTED-SEPARATION"
+    "2553a339-e52a-53e0-a1f2-532087d16aff"
   ],
   "meaning": "In the existing truthmakers arena, existence-label coverage is sound, the existential fact is true at world false, no bearer in restrictedMaking makes that fact true there, and maximalist coverage fails. This supplies the explicit strong separation beyond the weaker frozen conjunct in TRUTHMAKER-THEORY-MAP; it does not attribute this exact narrow scope to Merricks.",
   "definition_ids": [
-    "DEF-BEARER-TRUTHMAKING",
-    "DEF-TRUTHMAKER-SCOPE-PROFILES",
-    "DEF-TRUTHMAKER-UNIFORMITY",
-    "DEF-NEGATIVE-TRUTHMAKER-DOMAIN",
-    "DEF-CONCRETE-EMPTY-TRUTHMAKER",
-    "DEF-PSR-STRENGTH-ARENA",
-    "DEF-INSTANCE-GROUNDING"
+    "aab6fdee-e29d-58d1-b7d7-baee6d81f73e",
+    "1d3220e2-a6b2-51f5-87e7-a703690dee75",
+    "af6281dc-b6a1-573f-b1ea-d04f0194889f",
+    "f79569b7-0cdd-5037-81d1-ba6062825856",
+    "e0c8ec60-1a50-5400-9aa2-927f472b96f5",
+    "fe4b7da0-cbd6-5d1f-b589-953f9def12b7",
+    "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e"
   ],
   "disambiguation_ids": [
-    "DISAMB-TRUTHMAKING-REASON-CAUSE",
-    "DISAMB-TRUTHMAKER-SCOPE-IDENTITY"
+    "ec276045-4055-565e-89b4-75ee5897ecea",
+    "8bf8ec83-1cfe-5094-9c31-fa62a8ff1d78"
   ]
 }

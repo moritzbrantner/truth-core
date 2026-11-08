@@ -1,13 +1,15 @@
 {
-  "id": "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
+  "id": "91062e01-6ddb-5764-8400-ce5d2a30778c",
+  "label": "An agent can cause an effect's coming-to-be without being a direct cause on which the effect's…",
+  "legacy_id": "STMT-BECOMING-CAUSE-NEED-NOT-SUSTAIN-BEING",
   "paraphrase": "An agent can cause an effect's coming-to-be without being a direct cause on which the effect's continued being depends.",
   "definition_ids": [
-    "DEF-CAUSE-OF-BECOMING",
-    "DEF-EXTERNAL-CAUSE-OF-ESSE",
-    "DEF-PER-SE-ESSE-CONSERVATION"
+    "e9630411-ffc6-534a-8509-bf357272dec9",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "56989bd0-a232-56ea-9093-c89350effff4"
   ],
   "disambiguation_ids": [
-    "DISAMB-BECOMING-BEING-CAUSE",
-    "DISAMB-PRESERVATION-MODE"
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "89d65409-48a7-5ecb-a697-f81c5098ee5f"
   ]
 }

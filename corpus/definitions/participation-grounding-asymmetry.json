@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-ASYMMETRY",
+  "id": "27084b4f-694a-548a-b52d-7178206cab01",
+  "label": "Grounding asymmetry: Every asserted ground-to-grounded edge excludes the reverse edge",
+  "legacy_id": "DEF-PARTICIPATION-ASYMMETRY",
   "term": "grounding asymmetry",
   "definition": "Every asserted ground-to-grounded edge excludes the reverse edge. This optional strict explanatory norm is an explicit premise of the circularity test, not assumed for every causal or semantic relation.",
   "basis": "stipulative",

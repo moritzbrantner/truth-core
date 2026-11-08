@@ -1,6 +1,8 @@
 {
-  "id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
-  "argument_id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "id": "f0fc5c45-28de-521c-afd7-265d5f5c9117",
+  "label": "At the selected world one candidate lacks esse in…, from Disjunction of the explicit set, Form or…",
+  "legacy_id": "NAMED-CAUSAL-COUNTERCASE-TO-SELECTED-COUNTERCASE",
+  "argument_id": "5cc78212-0aaa-5311-bf35-d54228187ad3",
   "challenge_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.Challenge",
   "solution_module": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.Solution",
   "theorem": "TruthCore.Results.Causality.CausalConcreteRivals.NamedCounter.namedCounter",
@@ -9,24 +11,24 @@
   "description": "Case elimination preserves the selected no-esse productive witness from each named branch.",
   "transcription": "instantiation",
   "case_split": {
-    "target_statement_id": "STMT-NAMED-PRODUCTIVE-ABSTRACT-CAUSAL-CASES",
+    "target_statement_id": "1c7cc2b9-1168-5948-bdf6-88ae7765b1f2",
     "cases": [
       {
         "label": "productive set",
-        "statement_id": "STMT-SELECTED-SET-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "statement_id": "c9eb51d1-6902-5c79-904a-6ada74c12ceb",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.SetCounter"
       },
       {
         "label": "productive Form",
-        "statement_id": "STMT-SELECTED-FORM-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "statement_id": "0cd70d4e-2d9a-5f28-843f-b12474c47c48",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.FormCounter"
       },
       {
         "label": "productive mathematical fact",
-        "statement_id": "STMT-SELECTED-MATH-PRODUCTIVE-NO-ESSE-COUNTERCASE",
+        "statement_id": "c10065f6-0d9f-5832-a1ad-3d8948667861",
         "lean_declaration": "TruthCore.Causality.CausalConcreteRivalBoundary.MathCounter"
       }
     ],
-    "survival_result_id": "CAUSAL-CONCRETE-RIVAL-BOUNDARIES"
+    "survival_result_id": "105ad261-8897-573c-b403-0a1bd42acc13"
   }
 }

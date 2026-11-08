@@ -1,14 +1,16 @@
 {
-  "id": "INF-NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
+  "id": "62e84821-031e-5ba5-9e39-a2981e00b613",
+  "label": "At least one identical actual individual exists necessarily…, by Well-founded-descent-and-clas…",
+  "legacy_id": "INF-NECESSARILY-UNDERIVED-FROM-ACTUAL-GROUNDED",
   "input_statement_ids": [
-    "STMT-COGITO-INHABITED-CONCRETE-WORLD",
-    "STMT-ACTUAL-GROUNDING-WF",
-    "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "STMT-EXCLUDED-MIDDLE",
-    "STMT-NECESSARY-SUPPORT-IS-PRESENT",
-    "STMT-ACTUAL-SUPPORTERS-CONCRETE"
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "1f61f12c-2b5c-5871-bf56-03c65844ae30",
+    "54a52c00-4a2a-52cc-b157-8856f07e169e"
   ],
-  "output_statement_id": "STMT-NECESSARILY-UNDERIVED",
+  "output_statement_id": "d236f537-dd57-50ec-9676-cee87b19242a",
   "rule": "well-founded-descent-and-classical-case-analysis",
   "meaning": "The whole route, in three steps. Inhabitedness and restricted well-foundedness give an actual root; the closing premise makes it necessary; present support and concrete supporters make it without existing supporter at any world. Compare NECESSARY-UNDERIVED-POSITIVE-LIFT, which assumes a necessary witness and well-foundedness of support by all existing supporters: this route derives the witness, and its well-foundedness is restricted to actual concreta. For that it pays with the closing premise and concrete supporters, and it takes present support in place of lifting. The conclusion asserts neither uniqueness nor any divine attribute. Each of the five non-logical premises is omitted in STMT-UNDERIVED-ROUTE-CONTROLS.",
   "assumption_statement_ids": [],

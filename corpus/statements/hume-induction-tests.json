@@ -1,24 +1,26 @@
 {
-  "id": "STMT-HUME-INDUCTION-TESTS",
+  "id": "8bba1b58-ae87-598d-8c28-6eed9a5e6943",
+  "label": "Bounded induction tests: finite records of habit, prediction or successful intervention do not…",
+  "legacy_id": "STMT-HUME-INDUCTION-TESTS",
   "paraphrase": "Bounded induction tests: finite records of habit, prediction or successful intervention do not force their next outcomes; blanket withholding conflicts with positive certification or an entitlement bridge plus reliance; equal evidence plus equal standards forbids selective withholding. Explicit countermodels preserve practical reliance without reasoning foundation, stronger withholding without the normative bridge, differentiated evidence, and conditional habit without invariant nature. Nondemonstrability does not force every next outcome admissible. The shared answer map distinguishes two supplied explanatory answers from three unexplained questions. No historical refutation or empirical reliability theorem is asserted.",
   "lean_declaration": "TruthCore.Modern.Hume.Induction.Checks",
   "definition_ids": [
-    "DEF-HUME-INDUCTION-RECORD",
-    "DEF-HUME-INDUCTION-FOUNDATION",
-    "DEF-HUME-INDUCTION-CIRCLE",
-    "DEF-HUME-INDUCTION-CUSTOM",
-    "DEF-HUME-INDUCTION-PERSISTENCE",
-    "DEF-HUME-INDUCTION-MEANS-ENDS",
-    "DEF-HUME-INDUCTION-ANCHOR",
-    "DEF-HUME-INDUCTION-ENTITLEMENT",
-    "DEF-HUME-INDUCTION-PRACTICE",
-    "DEF-HUME-INDUCTION-STANDARD",
-    "DEF-HUME-INDUCTION-TRIAL",
-    "DEF-HUME-INDUCTION-ADMISSIBILITY",
-    "DEF-HUME-INDUCTION-COVERAGE",
-    "DEF-ANSWER-MAP-MATCHING"
+    "8eaba896-98d9-52a7-83c2-bd44d790f08b",
+    "2d90e4a7-b0f9-584e-9ffc-b8b4a26fbb4d",
+    "c5f45879-1d0c-5de6-93db-de53ffd8bdaa",
+    "cef4da44-097f-546a-80cc-67c3a08a80af",
+    "b0544a71-cdba-5e5a-a436-4fd7b4dc3b31",
+    "e087f03b-3e19-5761-865e-0372e3d4cb91",
+    "fc277a67-9f24-5f56-a905-c64c2c1783c9",
+    "d9b1e901-417c-57cd-8eec-65bd81d9e3d9",
+    "72c8b5b3-fee8-5cd1-9f2d-b8018a7a18d8",
+    "f93e95f6-c139-5371-b544-8f0311ec60a7",
+    "b78ba9c8-06fe-55de-aed0-88fe924c0e6f",
+    "702af2be-3553-594b-8d3f-36c2a11ab0db",
+    "53ab9dc3-bb42-50e7-9373-612e30a36fdb",
+    "7c50c8db-6f13-526e-b439-851133f9243f"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-INDUCTION-REASON-PRACTICE"
+    "bfbe0dc7-4c2f-5183-9f6b-f69d43e45bbe"
   ]
 }

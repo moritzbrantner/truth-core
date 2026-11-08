@@ -1,10 +1,12 @@
 {
-  "id": "INF-COUNT-CAUSE-TIME-OPPORTUNITY-FROM-THRESHOLDS",
+  "id": "a501a0ba-61e0-59c1-9146-3d4ebb85f482",
+  "label": "An accessible world contains a concrete individual at a time when no…, by Constructive-proof",
+  "legacy_id": "INF-COUNT-CAUSE-TIME-OPPORTUNITY-FROM-THRESHOLDS",
   "input_statement_ids": [
-    "STMT-COUNT-TEMPORAL-FIVE-POSSIBLE",
-    "STMT-COUNT-TEMPORAL-DESCENT"
+    "d0ba36fb-cab5-57f4-915b-0e56dd57ca74",
+    "329d48ef-3ce6-5ee4-ad8b-352a0c6e20b2"
   ],
-  "output_statement_id": "STMT-COUNT-CAUSE-TIME-OPPORTUNITY",
+  "output_statement_id": "26280eb2-0dc3-5610-93bd-d7230a64a588",
   "rule": "constructive-proof",
   "meaning": "Register the existing checked opportunityOfOld helper: guarded five-threshold possibility and the SAME guarded threshold-descent rule yield the old count-one witness, then specialize its all-earlier absence to its SAME cause presence time using tc<t0. World, cause individual, concrete classification, count marker and both selected times are preserved at that final witness. Descent may change witnesses across counts; no five-to-one cause identity or CountDescent monotonicity is inferred. This is a two-input consequence, not a sole-premise strength edge or an independent admission/necessity proof.",
   "assumption_statement_ids": [],

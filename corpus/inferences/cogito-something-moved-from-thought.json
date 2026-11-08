@@ -1,12 +1,14 @@
 {
-  "id": "INF-COGITO-SOMETHING-MOVED-FROM-THOUGHT",
+  "id": "c4da55c7-fc35-5f74-b9b6-0e2ea683204a",
+  "label": "Something in this world is being moved; this is evident to the senses, by Constructive-proof",
+  "legacy_id": "INF-COGITO-SOMETHING-MOVED-FROM-THOUGHT",
   "input_statement_ids": [
-    "STMT-COGITO-THOUGHT-OCCURS",
-    "STMT-COGITO-EVERY-THOUGHT-HAS-SUBJECT",
-    "STMT-COGITO-BORNE-THOUGHT-IS-OPINING",
-    "STMT-OPINION-IS-A-MOTION"
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "a082d5be-9db6-5a35-add6-3944aab819f6",
+    "7ee7b61e-bce1-52e4-aea1-b207c1a3289c"
   ],
-  "output_statement_id": "STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD",
+  "output_statement_id": "fbc516c1-a6cb-5495-9d31-6e2bb45e8e67",
   "rule": "constructive-proof",
   "meaning": "Motion fork (#536): the Cogito trunk reaches a root-path premise. Take the occurring episode and its bearer (thinkingSubjectOfThought); by the open bridge STMT-COGITO-BORNE-THOUGHT-IS-OPINING the bearer opines the episode's content; by the open premise STMT-OPINION-IS-A-MOTION (Physics VIII.3, a reputable opinion) it is being moved in the respect of that opinion. Conclusion: the Lean content of STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD, ∃ x r, MovedIn x r, in the broad sense of motion (DISAMB-MOTION). It does not give the statement's warrant ('evident to the senses'), a physical or local motion, motion in the world of sense, or concreteness and world-indexed existence of the moved thing; the Lean type of the premise does not encode 'in this world'. All four premises are open; STMT-OPINION-IS-A-MOTION is blocked by McTaggart's surviving rival (ATTEMPT-MCTAGGART-NOE-II-RETORSION-REPLY). Each premise is needed (COGITO-CONCRETE-OMISSION-CONTROLS). Reading: the route supports STMT-SOMETHING-IS-MOVED-IN-THIS-WORLD only on the broad sense DEF-MOTION-AS-REDUCTION, unless opinion-as-motion is itself read physically; DISAMB-MOTION's 'holds on either reading' rests on sense evidence, which this route does not supply. Passing from thought to opining is the explicit bridge of DISAMB-THOUGHT-VS-OPINING.",
   "assumption_statement_ids": [],

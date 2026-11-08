@@ -1,15 +1,17 @@
 {
-  "id": "CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
-  "statement_id": "STMT-CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "4f7e0b85-8f76-58db-b84e-b6c5330c4d61",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If every whole is made by an intelligent agent and…",
+  "legacy_id": "CC100-86-NONEMBODIED-PRODUCTION-CONCLUSION",
+  "statement_id": "041f2c0d-f0a4-5103-bfc8-ae4fd4b569b7",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.210, argument #86 Unities: Wholes, step 3 under steps 1–2",
   "interpretation": "Preserve the displayed conclusion as a conditional source reading, not a new checked proof. Effect-level not-made-by-embodied does not by definition select a source-agent unembodied predicate; role and embodiment correspondence remain to be interpreted. No common maker of all wholes is inferred. Attribution is to McIntosh’s presentation only, not the unread Kronen/Menssen2013 article referenced on p211. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-86-WHOLE-MAKER-GODLIKE"
+    "c29b7f17-af6c-5869-9ef7-340c6aaeba58"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

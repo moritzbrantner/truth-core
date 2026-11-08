@@ -1,0 +1,11 @@
+{
+  "id": "0ec9bd34-cbf6-5838-9d45-6ae516504f23",
+  "label": "Whatever is GOD_4 can do every task that involves no contradiction",
+  "legacy_id": "STMT-GOD-IS-OMNIPOTENT",
+  "paraphrase": "Whatever is God can do every task that involves no contradiction (after ST I q.25 a.3). Not identified with STMT-GOD-SUPREMELY-GOOD-AND-OMNIPOTENT, which conjoins goodness and uses another vocabulary.",
+  "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.GodIsOmnipotent",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "0525d8b9-f620-584f-a11f-beee6d8871a5"
+  ]
+}

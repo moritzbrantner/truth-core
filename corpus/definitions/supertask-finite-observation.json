@@ -1,5 +1,7 @@
 {
-  "id": "DEF-SUPERTASK-FINITE-OBSERVATION",
+  "id": "94faf901-08c1-50c8-bbb2-b9d1ef6edb37",
+  "label": "Finite-prefix observation of a stage…: An observer sees only the Boolean values at stages 0…",
+  "legacy_id": "DEF-SUPERTASK-FINITE-OBSERVATION",
   "term": "finite-prefix observation of a stage output",
   "definition": "An observer sees only the Boolean values at stages 0 through a specified finite cutoff and is not given the generating rule or an independently justified bound on when the output settles.",
   "basis": "stipulative",

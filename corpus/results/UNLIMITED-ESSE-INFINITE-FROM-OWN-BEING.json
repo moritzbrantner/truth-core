@@ -1,0 +1,12 @@
+{
+  "id": "f4c8a595-a508-5fef-9fef-b143dabbd740",
+  "label": "For every being x: if the esse of x is not limited, then x satisfies the primitive…, from own being",
+  "legacy_id": "UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING",
+  "argument_id": "51f44d0f-939d-51fb-a578-dc5963735069",
+  "challenge_module": "TruthCore.Results.Causality.ReceptionLimitation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ReceptionLimitation.Solution",
+  "theorem": "TruthCore.Results.Causality.ReceptionLimitation.unlimitedEsseIsInfinite",
+  "comparator_config": "results/UNLIMITED-ESSE-INFINITE-FROM-OWN-BEING/comparator.json",
+  "status": "solution-present",
+  "description": "A being whose esse is not limited has its esse received in nothing, since received esse is limited (STMT-RECEIVED-ESSE-IS-LIMITED, q.7 a.2); so it is its own being (STMT-UNRECEIVED-ESSE-IS-OWN-BEING, q.7 a.1 with ad 3); and what is its own being is infinite (STMT-OWN-BEING-IS-INFINITE, q.7 a.1). A second derivation, following the order of the q.7 a.1 sentence, of the stated leaf STMT-UNLIMITED-ESSE-IS-INFINITE; it leaves that leaf's stating claim unchanged. All three premises stay open and are supported, not stated."
+}

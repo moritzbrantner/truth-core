@@ -1,13 +1,15 @@
 {
-  "id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
+  "id": "e096a433-8d5d-522d-96c4-83ad22be6e74",
+  "label": "Two universally accessible infinite predecessor chains have sound local reason coverage and causal…",
+  "legacy_id": "STMT-HISTORY-CONTRASTIVE-CONTROLS",
   "paraphrase": "Two universally accessible infinite predecessor chains have sound local reason coverage and causal coverage with identical local explanations and ontology. A reason identified with an internal contingent bearer discriminates their different complete supplied presence extensions; an always-true reason does not. The always-true reason is necessary. The internal bearer is absent at the rival. With no discovered reasons there still exists a discriminator. These are stipulated logical controls, not adequate metaphysical explanations or demonstrated metaphysical possibilities.",
   "lean_declaration": "TruthCore.Modal.HistoryContrastive.Controls",
   "definition_ids": [
-    "DEF-HISTORY-CONTRASTIVE-CONTROL",
-    "DEF-TEMPORAL-HISTORY-NOW-SLICE",
-    "DEF-BRUTE-ROOT-RELATIVE-GROUNDING"
+    "22a86afc-adaa-5755-b644-da49d4d6dee1",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORY-CONTRASTIVE-SUFFICIENCY"
+    "6bd7d340-ccaa-5585-9d6f-a9e5cb4e1c34"
   ]
 }

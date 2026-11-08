@@ -1,11 +1,33 @@
 {
-  "id": "DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT",
+  "id": "5b440f8d-09d4-54c8-b885-caa306dcf30a",
+  "label": "Accuracy, certification and epistemic entitlement",
+  "legacy_id": "DISAMB-INSTRUMENT-ACCURACY-AND-ENTITLEMENT",
   "term": "accuracy, certification and epistemic entitlement",
   "sense_definition_ids": [
-    "DEF-INSTRUMENT-OFFSET-ACCURACY",
-    "DEF-DATA-RELATIVE-CORRECTION-CRITERION",
-    "DEF-WARRANTED-CORRECTION-STANDARD"
+    "8bfc080f-187d-5561-ac22-c4e158de0107",
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+    "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
   ],
   "resolution": "Zero offset is a property of a supplied signal/bias profile. A uniformly sound certificate guarantees that property across the model class; an exact criterion additionally classifies it in both directions. Neither is identified with actual epistemic entitlement, which may be fallible or externalist and need not include internal perfect recognition. Only functions of the same complete readings are considered; reasons carrying genuinely independent information are outside this obstruction. Supplied true signal anchors can distinguish the profiles, but their acquisition and warrant are not proved.",
-  "note": "No result here refutes all infinitism, all externalism or any actual causal regress. Restricting allowable signal functions can remove compensating alternatives; the unrestricted profile is essential."
+  "note": "No result here refutes all infinitism, all externalism or any actual causal regress. Restricting allowable signal functions can remove compensating alternatives; the unrestricted profile is essential.",
+  "term_label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT",
+  "senses": [
+    {
+      "id": "f3352928-e907-48e3-a81c-384374189263",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_1",
+      "definition_id": "8bfc080f-187d-5561-ac22-c4e158de0107",
+      "lean_declaration": "TruthCore.Science.ReadingSelfCertification.Accurate"
+    },
+    {
+      "id": "4b6cc5ba-961a-4491-8ad7-bc7e785b42c8",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_2",
+      "definition_id": "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c",
+      "lean_declaration": "TruthCore.Logic.CorrectionCriterion.AdmitsCriterion"
+    },
+    {
+      "id": "c0bc8cb4-7e7d-4df7-9ef0-7b3637402bc2",
+      "label": "ACCURACY_CERTIFICATION_AND_EPISTEMIC_ENTITLEMENT_3",
+      "definition_id": "63f0647d-d7f6-5101-ba15-efdcdb6e6530"
+    }
+  ]
 }

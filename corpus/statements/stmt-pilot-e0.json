@@ -1,12 +1,14 @@
 {
-  "id": "STMT-PILOT-E0",
+  "id": "e26f46c8-82df-546f-afb0-8b195c196400",
+  "label": "Jesus was crucified",
+  "legacy_id": "STMT-PILOT-E0",
   "paraphrase": "Jesus was crucified. Death on the cross is a distinct historical question.",
   "lean_declaration": "TruthCore.History.Resurrection.Crucifixion",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT",
-    "DEF-RESURRECTION-PILOT-HISTORY"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e",
+    "50066ce9-71fc-5270-be8b-322167584fd9"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

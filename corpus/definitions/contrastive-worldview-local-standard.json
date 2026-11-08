@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
+  "id": "7aa39824-3098-50e7-acaa-15747e704555",
+  "label": "PRACTICE_LOCAL_MEMBERSHIP_AUTHORIZATION_3: A community represented by a Boolean accepts exactly its…",
+  "legacy_id": "DEF-CONTRASTIVE-WORLDVIEW-LOCAL-STANDARD",
   "term": "practice-local membership authorization",
   "definition": "A community represented by a Boolean accepts exactly its own same-labeled proposal. Both communities satisfy this membership rule on their own proposals, but they disagree about the fixed proposal true. This is a coherent practice-local convention, not a truth predicate, universal justification or a categorical duty. Its failure of identity-independent public comparison is a conditional mismatch with that declared policy, not a logical contradiction in local convention.",
   "basis": "stipulative",

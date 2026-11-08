@@ -1,15 +1,17 @@
 {
-  "id": "CC100-119-PROPER-FUNCTION-DESIGN",
-  "statement_id": "STMT-CC100-119-PROPER-FUNCTION-DESIGN",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "42bd3bc1-d382-5e3b-82ab-0e8e6fb263a1",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: Our cognitive faculties have a proper function only if…",
+  "legacy_id": "CC100-119-PROPER-FUNCTION-DESIGN",
+  "statement_id": "9464e2ac-ae8d-581a-898d-0ea4c4bc3ddd",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.280, argument #119, step 3",
   "interpretation": "This is the explicit proper-function-to-design bridge, not a definition or independently established consequence. Function properly in step2 and have a proper function here require correspondence; no designer, divine identity or intentional mechanism is supplied. Attribution is to McIntosh’s presentation only, not unread primary works referenced on p281 or Otte1990 on p283. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-119120-PROPER-FUNCTION-DESIGN"
+    "2afd1d23-d0da-5991-876a-55e3dc6a25da"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

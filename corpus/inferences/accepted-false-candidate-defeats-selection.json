@@ -1,9 +1,11 @@
 {
-  "id": "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
+  "id": "dd9e9918-1291-577c-921c-26ed7af12471",
+  "label": "Exact negation of the old CompleteRequiresSelection on the SAME arrangement…, by… (2)",
+  "legacy_id": "INF-ACCEPTED-FALSE-CANDIDATE-DEFEATS-SELECTION",
   "input_statement_ids": [
-    "STMT-ARRANGEMENT-EXPLANATION-JUDGMENT-ACCEPTS-FALSE-CANDIDATE"
+    "4073de08-1031-558b-bfcf-911e9b63af26"
   ],
-  "output_statement_id": "STMT-COMPLETE-ARRANGEMENT-SELECTION-REQUIREMENT-FAILS",
+  "output_statement_id": "7c1229ba-93e9-59bd-9383-3b21afb59d7e",
   "rule": "constructive-proof",
   "meaning": "An accepted false candidate contradicts the actual-truth conjunct of the old selection requirement, even when the truthful nonselection rival is absent.",
   "assumption_statement_ids": [],

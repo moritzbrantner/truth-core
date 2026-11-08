@@ -1,7 +1,9 @@
 {
-  "id": "INF-MEREO-ARRANGEMENT-DYNAMICS",
+  "id": "cb53dc56-e710-5403-9f21-c799d9c2e5ac",
+  "label": "For any chosen description and primitive intervention family…, by Mathlib fiber factorization…",
+  "legacy_id": "INF-MEREO-ARRANGEMENT-DYNAMICS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MEREO-ARRANGEMENT-DYNAMICS",
+  "output_statement_id": "60493674-afde-5b96-93f1-51e2f82192a7",
   "rule": "Mathlib fiber factorization, semiconjugacy induction and explicit finite control construction",
   "meaning": "Use Function.FactorsThrough.extend_apply to construct closed macro transitions; propagate semiconjugacy by induction through ordered intervention lists. Compute the two-simple AND fixture and derive failure of local-flip reduction from two equal coarse inputs with different successor outputs.",
   "assumption_statement_ids": [],

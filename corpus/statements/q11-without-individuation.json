@@ -1,19 +1,21 @@
 {
-  "id": "STMT-Q11-UNIQUENESS-FAILS-WITHOUT-INDIVIDUATION",
+  "id": "0545d8e6-b1b8-534b-b4f6-6d7154ae24fa",
+  "label": "A finite local model satisfies suppositum/nature identity and common divine nature for two…",
+  "legacy_id": "STMT-Q11-UNIQUENESS-FAILS-WITHOUT-INDIVIDUATION",
   "paraphrase": "A finite local model satisfies suppositum/nature identity and common divine nature for two distinct God instances while GodIsOne fails, when the individuating-basis premise is omitted.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.UniquenessFailsWithoutIndividuation",
   "definition_ids": [
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
-    "DEF-Q11-COMMON-DIVINE-NATURE",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-GOD-OF-CLASSICAL-THEISM",
-    "DEF-ONE-GOD"
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "06ecb76b-03a1-52cc-975c-5dbfa74857ba",
+    "248eac32-3f30-5fa3-a34a-7c218d01021b",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q11-SUPPOSITUM-NATURE",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-ESSENCE",
-    "DISAMB-GOD"
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "205a39c3-915d-5fe4-8076-a9ff91329e08"
   ]
 }

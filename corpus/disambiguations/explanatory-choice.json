@@ -1,9 +1,26 @@
 {
-  "id": "DISAMB-EXPLANATORY-CHOICE",
+  "id": "23106d06-e5b6-5ea6-8afc-029a251a5f0e",
+  "label": "Personal choice; impersonal ground",
+  "legacy_id": "DISAMB-EXPLANATORY-CHOICE",
   "term": "personal choice; impersonal ground",
   "sense_definition_ids": [
-    "DEF-EXPLANATORY-CHOICE-MARKS",
-    "DEF-EXPLANATORY-SYMMETRY-MODELS"
+    "b2204d5e-65d3-53af-8d8a-24ccc793eb5e",
+    "176c29c3-378e-57d1-8ff9-895951c40d1c"
   ],
-  "resolution": "'Personal' has two uses here. As Marks it is four structural conditions on a frame; as PersonalStop it is a supplied flag. The acting model has the marks whatever flag is supplied, so the marks do not settle the flag, and nothing certifies that any model is or is not a person. Reading a model as a person's choice or as an indeterministic setup is the analyst's reading of one frame, and no step depends on it."
+  "resolution": "'Personal' has two uses here. As Marks it is four structural conditions on a frame; as PersonalStop it is a supplied flag. The acting model has the marks whatever flag is supplied, so the marks do not settle the flag, and nothing certifies that any model is or is not a person. Reading a model as a person's choice or as an indeterministic setup is the analyst's reading of one frame, and no step depends on it.",
+  "term_label": "PERSONAL_CHOICE_IMPERSONAL_GROUND",
+  "senses": [
+    {
+      "id": "c531a39a-c2ad-4d5f-883a-0d8f5b94b48e",
+      "label": "PERSONAL_CHOICE_IMPERSONAL_GROUND_1",
+      "definition_id": "b2204d5e-65d3-53af-8d8a-24ccc793eb5e",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.Marks"
+    },
+    {
+      "id": "6ff93759-fa9d-4883-9393-7a5240114f2f",
+      "label": "PERSONAL_CHOICE_IMPERSONAL_GROUND_2",
+      "definition_id": "176c29c3-378e-57d1-8ff9-895951c40d1c",
+      "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.oneWay"
+    }
+  ]
 }

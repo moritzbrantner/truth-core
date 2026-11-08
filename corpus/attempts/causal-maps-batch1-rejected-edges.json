@@ -1,0 +1,19 @@
+{
+  "id": "1511d8a2-56d6-5c44-8daf-14a867c78297",
+  "label": "Map edges examined and rejected in causal maps batch 1. perfections of effect preexist in cause ->…",
+  "legacy_id": "ATTEMPT-CAUSAL-MAPS-BATCH1-REJECTED-EDGES",
+  "statement_ids": [
+    "376d6a5a-c179-5090-b57c-f9a371222899",
+    "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
+    "c0d99549-799c-5a01-9b59-75fe88550b26"
+  ],
+  "date": "2026-11-07",
+  "kind": "derivation",
+  "outcome": "rejected",
+  "summary": "Map edges examined and rejected in causal maps batch 1. (1) STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE -> STMT-CAUSE-HAS-WHAT-IT-GIVES: q.4 a.2 constrains only causes of a thing's being; the unrestricted principle would need every cause of a perfection to be a cause of being, which the heater refutes. Only the scoped STMT-CAUSE-OF-BEING-HAS-WHAT-IT-GIVES was derived. (2) STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION -> STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT: the generalization from esse to every perfection does not follow from the instance, and the source premise has the converse direction (limited -> received); both generalized directions are kept as open supported statements instead. (3) STMT-AQUINAS-ST-I-Q44-A1-EFFICIENT-CAUSE-COUNTERFACTUAL-DEPENDENCE -> STMT-EFFECT-DEPENDS-FOR-BEING-ON-EFFICIENT-CAUSE: the q.44 statement has no Lean declaration, so no derivation can bind it; recorded as a supports relation. Not attempted: a strengthens registration from STMT-CAUSE-HAS-WHAT-IT-GIVES to its scoped version (it would be a single application of one hypothesis). Rejection records that the leads were examined; it neither refutes nor establishes any target.",
+  "evidence": [
+    "41ccadda-be7e-5078-af8d-c199a8b671e0",
+    "3ed36bec-27f4-5c77-93d5-3b6724d65204",
+    "b69b9bb1-486e-586c-8b35-e51fac9c0e20"
+  ]
+}

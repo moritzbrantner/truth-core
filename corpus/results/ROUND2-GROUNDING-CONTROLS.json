@@ -1,0 +1,12 @@
+{
+  "id": "59d1be21-3572-5381-8674-06d17ec79c97",
+  "label": "Finite interpretations for the thirteen derivations of round 2 grounding: for each premise, a…",
+  "legacy_id": "ROUND2-GROUNDING-CONTROLS",
+  "argument_id": "2095ff05-db1b-5ff7-9bb5-69737559ae8c",
+  "challenge_module": "TruthCore.Results.Causality.Round2Grounding.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2Grounding.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2Grounding.controls",
+  "comparator_config": "results/ROUND2-GROUNDING-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Finite interpretations on Bool carriers, checked by decide: for each premise of each of the thirteen derivations, one model in which the other premises hold and the conclusion fails (for restricted well-foundedness, total reciprocal grounding), and one joint model in which a contingent actual concretum is grounded by a necessary one, every relation is nonempty, and every premise except restricted well-foundedness and every conclusion holds. Satisfiability and omission only; no model is claimed to describe reality."
+}

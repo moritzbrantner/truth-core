@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
-  "argument_id": "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+  "id": "49aa21c2-bd96-5adf-b53b-d4d027dacc9d",
+  "label": "At the chosen standpoint, any two…, from The chosen actual world accesses itself; no… and 1 more",
+  "legacy_id": "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT",
+  "argument_id": "0f65777e-50f8-57ea-86ac-362bd6ac4669",
   "challenge_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Challenge",
   "solution_module": "TruthCore.Results.Modal.NecessaryPotentialCausers.Solution",
   "theorem": "TruthCore.Results.Modal.NecessaryPotentialCausers.checks",

@@ -1,6 +1,8 @@
 {
-  "id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
-  "argument_id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "id": "9d92e28a-5b57-5af7-a405-bf610d9e9c7c",
+  "label": "In the closed four-being concurrent setting, universal-scope transfer holds and unrestricted…",
+  "legacy_id": "CAUSAL-PERFECTION-TRANSFER-SEPARATOR",
+  "argument_id": "e1ebd4fd-2167-5a6b-a827-4860217d158b",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.CausalPerfectionTransfer.scopeSeparation",

@@ -1,0 +1,19 @@
+{
+  "id": "afebde69-ebdd-5535-8835-2d8e37035c0d",
+  "label": "Formal controls: on any frame, box-existence gives actual existence under KT, necessary necessity…",
+  "legacy_id": "NECESSARY-SENSE-FORK-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "dd34263a-30f4-5ce1-a872-72577cb7ae24",
+  "inference_ids": [
+    "472a3a1e-8bda-57f1-8b7d-cfc0c9201977"
+  ],
+  "meaning": "Frame laws via axiomT_valid, axiom4_valid, axiomB_valid and the Euclidean condition; separation countermodels for T vs S4, actualist vs possibilist and de dicto vs de re; a per se separation; and the batch's nonvacuity model. Formal only; no model describes reality.",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "2282c0ee-9da9-5c8b-9f37-cb312ed4b676"
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
+}

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
+  "id": "864efc2d-2362-54ec-a684-33cd93e594f9",
+  "label": "For any individually possible situations X and Y, if X were actual then Y would remain…",
+  "legacy_id": "STMT-NB-A2-POSSIBILITY-INVARIANCE",
   "paraphrase": "Conditional on the selected A2P2 report: for any individually possible situations X and Y, if X were actual then Y would remain individually possible, without requiring their joint possibility. A2c interprets this report as necessity of possibility. No objective possibility is independently established, no full modal frame condition is proved, and no fixed individual is thereby selected.",
   "definition_ids": [
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A2-DOMAIN-AND-ANCESTRY",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "18495e19-0770-5154-8a92-6da075222bc7",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

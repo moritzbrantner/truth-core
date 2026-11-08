@@ -1,0 +1,12 @@
+{
+  "id": "1f807aa9-110e-5454-9c80-92aa008d486f",
+  "label": "IN-ACT_1, formal reading: whatever moves… strengthens IN-ACT_3, inclusive reading: whatever…",
+  "legacy_id": "REL-FORMAL-MOVER-ACT-STRENGTHENS-INCLUSIVE",
+  "subject_kind": "statement",
+  "subject_id": "f590a5d5-d592-5734-bffd-0936ec276c4b",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "e6515003-6767-5b11-bf9f-54280b900c18",
+  "verification_result_id": "258710b0-af8b-5fb8-8b75-4fe0c4a69fe3",
+  "note": "Strength order between senses of 'in act' in the mover premise. A mover virtually but not formally in act separates them (as in the mixed-reading control)."
+}

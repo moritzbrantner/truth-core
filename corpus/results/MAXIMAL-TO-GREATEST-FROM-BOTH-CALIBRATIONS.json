@@ -1,6 +1,8 @@
 {
-  "id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
-  "argument_id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "id": "bc0da2da-0542-52b6-a8ed-fbbae28ed62e",
+  "label": "Every merely MAXIMAL_5 bearer under the supplied comparative has a…, from both calibrations",
+  "legacy_id": "MAXIMAL-TO-GREATEST-FROM-BOTH-CALIBRATIONS",
+  "argument_id": "963f8e06-b06e-5093-bd89-c89c1c088f40",
   "challenge_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Challenge",
   "solution_module": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.Solution",
   "theorem": "TruthCore.Results.Causality.MaximumDefinitions.CalibrationsToBridge.calibrationsToBridge",

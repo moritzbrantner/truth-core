@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-PHYS-242B23-SERIES-HAS-FIRST-B",
-  "statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
-  "source_id": "ARIST-PHYS",
+  "id": "926af5f4-103e-50fe-8c56-76d03ff1d61a",
+  "label": "Aristotle, Physics VII.1, 242b23-243a2: There is no infinite chain in which each member is moved…",
+  "legacy_id": "ARIST-PHYS-242B23-SERIES-HAS-FIRST-B",
+  "statement_id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "VII.1, 242b23-243a2",
   "interpretation": "Typed reading with audit B's (#388) restriction: there is no infinite chain in which each member is moved in local motion by the next, a primary mover of it that is itself moved in local motion (242a15-20 states the thesis for local motion; 242b23-243a2 proves it under the contact condition). It says only that such a chain stops, not that its first member is unmoved, and it adds nothing about a first moved subject. Chains are injective (infinitely many distinct members: ἄπειρα τὰ κινοῦντα, 242b12; ἀπείρων ὄντων, 242b29), so a finite cycle of mutual movers is not such a chain and is not excluded.",
-  "interpretation_of": "ARIST-PHYS-242B23-SERIES-HAS-FIRST-A",
+  "interpretation_of": "166f573c-4fde-517b-aa0f-518668777ad2",
   "status": "formalized",
   "definition_ids": [
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-PRIMARY-MOVER"
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

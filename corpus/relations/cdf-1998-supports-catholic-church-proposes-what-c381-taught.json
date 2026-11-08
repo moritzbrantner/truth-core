@@ -1,0 +1,11 @@
+{
+  "id": "1e2fb5c8-e715-5277-a766-e48c35843a25",
+  "label": "Congregation for the Doctrine of the……: The… supports Whatever the Council of Constantinople…",
+  "legacy_id": "REL-CDF-1998-SUPPORTS-CATHOLIC-CHURCH-PROPOSES-WHAT-C381-TAUGHT",
+  "subject_kind": "claim",
+  "subject_id": "7748075b-143b-5167-93cd-990a67508f41",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "0434c90e-18e8-590a-bc84-25c6d8a452c3",
+  "note": "The CDF commentary classifies the Creed articles of the Catholic profession as teaching proposed as formally revealed. The profession formula is not the Greek 381 text (DISAMB-CREED-CONTENT-AND-FORMULA), and the general rule that the Church definitively proposes whatever the 381 council taught as revealed is the analyst's."
+}

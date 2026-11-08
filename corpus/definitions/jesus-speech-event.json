@@ -1,0 +1,10 @@
+{
+  "id": "a4b20bcd-f5e2-5e8f-aad7-fe545b985813",
+  "label": "Jesus' own speech: Speech: what Jesus himself actually said. trialSaid c: at the hearing before…",
+  "legacy_id": "DEF-JESUS-SPEECH-EVENT",
+  "term": "Jesus' own speech (Speech.trialSaid, assertedAuthority, usedOfHimself)",
+  "definition": "`Speech`: what Jesus himself actually said. `trialSaid c`: at the hearing before the high priest Jesus himself said content c (Mark 14 content type); `assertedAuthority a`: Jesus himself asserted the authority content a (Mark 2 content type); `usedOfHimself h`: in asserting authority content about the holder title h, Jesus used the title of himself. Distinct from the narrative `attributes` fields, which record textual attribution only (DISAMB-MARK-HIGH-PRIEST-EXCHANGE, DISAMB-MARK-FORGIVENESS-AUTHORITY). Example: a saying a reliable witness heard him say; counterexample: a saying an evangelist composed and placed on his lips. No axiom links the fields to the reports; only the open report-to-event bridges do.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round3ChristChurch.Speech",
+  "note": "Analyst vocabulary (attribution deferred). A sourced definition is not needed: the term is the ordinary historical notion of an utterance by a person."
+}

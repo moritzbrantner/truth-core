@@ -1,0 +1,23 @@
+{
+  "id": "b1ed3dcf-0bf9-582c-9dca-42822f1a0f6e",
+  "label": "Interpretations for the twelve derivations of the round-3 Fourth Way batch: for each premise other…",
+  "legacy_id": "ROUND3-FOURTH-WAY-CONTROLS",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "7c4de616-a3b9-5639-9f31-05811eef57e3",
+  "inference_ids": [
+    "9a1a9cf1-9510-51af-b9f4-cc290bc6a422"
+  ],
+  "meaning": "One omission model per premise of each of the twelve derivations (excluded middle excepted: it is logical and not provable without an axiom) and one joint nonvacuity witness: a two-being Boolean model in which true is God, the primary, greatest and maximal, and causes the perfection in false. Satisfiability and omission only.",
+  "definition_ids": [
+    "347a22c0-55c4-54a4-805f-d6473db878e4",
+    "18c78a19-096c-5987-8517-a67edaede564",
+    "2100cf9a-27ed-57e9-9daa-4b94b6780fe7",
+    "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482",
+    "d691dfb5-2df2-5e03-a951-cebcbb138316",
+    "8323604a-2e7a-554c-9b32-d82e5201271d"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "c195d490-07ab-5cbc-82e9-d0d7c82abd2e",
+  "label": "Operation respect of an agent's moving: OperationOf y x r o: y's moving x in respect r is an…",
+  "legacy_id": "DEF-OPERATION-RESPECT",
+  "term": "operation respect of an agent's moving",
+  "definition": "`OperationOf y x r o`: y's moving x in respect r is an operation of y in y's own respect o (its second act). Distinct from the respect r in which x is moved. Example: fire heating wood (r: heat in the wood) is fire's operation of heating (o). Nothing says that every moving has an operation respect, or that the agent is in potency to it; those are the open premises STMT-CREATURE-IN-POTENCY-TO-ITS-OPERATION and STMT-ACTING-ACTUALIZES-OPERATION-POTENCY.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.CreatureInPotencyToItsOperation",
+  "note": "Analyst vocabulary, attribution deferred. Sourcing would need a typed reading of the first-act/second-act distinction (e.g. ST I q.54 a.1, q.77 a.1: in creatures operation is not their substance or esse). Rival: Physics III.3 (STMT-MOVING-IS-IN-THE-MOVED) locates motion in the moved, so the agent's operation need not be a motion of the agent."
+}

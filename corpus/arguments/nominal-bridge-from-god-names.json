@@ -1,0 +1,34 @@
+{
+  "id": "20920247-85c8-5a34-9937-e8a990502786",
+  "premise_statement_ids": [
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+  ],
+  "conclusion_statement_id": "96eef8e2-1b96-5fac-9c00-333126427287",
+  "inference_ids": [
+    "7cc53992-1002-592d-a6a7-e828e6d8123d"
+  ],
+  "meaning": "Transcription (single application): the converse of GOD-NAMES-DESCRIBED-FROM-NOMINAL. The GOD_4 naming premise gives the GOD_1 to GOD_4 bridge, so the two statements are equivalent.",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "18945900-2de0-5040-bdab-26268f257684",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "16cf8319-84c7-5e24-9d18-5942b99c2e67",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ],
+  "disambiguation_ids": [
+    "205a39c3-915d-5fe4-8076-a9ff91329e08",
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ],
+  "label": "Converse: the GOD_4 naming premise gives the GOD_1-to-GOD_4 bridge (transcription)",
+  "sense_bridges": [
+    {
+      "term": "GOD",
+      "from": "295c9096-50b8-4ccd-960e-f833730a0774",
+      "to": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+      "statement_id": "96eef8e2-1b96-5fac-9c00-333126427287",
+      "role": "conclusion"
+    }
+  ],
+  "legacy_id": "NOMINAL-BRIDGE-FROM-GOD-NAMES"
+}

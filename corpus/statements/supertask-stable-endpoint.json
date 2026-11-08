@@ -1,14 +1,16 @@
 {
-  "id": "STMT-SUPERTASK-STABLE-ENDPOINT",
+  "id": "b74076fe-1fc5-581a-bbcf-ada75630def0",
+  "label": "A natural-number-indexed sequence of stages with no last stage can be ordered before a distinct…",
+  "legacy_id": "STMT-SUPERTASK-STABLE-ENDPOINT",
   "paraphrase": "A natural-number-indexed sequence of stages with no last stage can be ordered before a distinct endpoint, and some Boolean stage output has an eventually stable value. The type does not attach that value to the endpoint. This is an abstract endpoint/order model, not a proof of finite physical completion or a universal convergence principle.",
   "lean_declaration": "TruthCore.Causality.EndlessStagesWithStableEndpoint",
   "definition_ids": [
-    "DEF-SUPERTASK-LAST-STAGE",
-    "DEF-SUPERTASK-LIMIT-ENDPOINT",
-    "DEF-SUPERTASK-STABLE-LIMIT"
+    "d42a1375-ef07-584f-b6d1-90b78185c683",
+    "d564bb74-b5a6-50be-b390-3afb84887f32",
+    "43bc2414-b12d-5820-96de-59489124f4f1"
   ],
   "disambiguation_ids": [
-    "DISAMB-SUPERTASK-ENDING",
-    "DISAMB-SUPERTASK-LIMIT-NOTION"
+    "fd6e6498-2f61-57db-accb-6168e6cd835d",
+    "d40c86a4-18dc-5250-beb0-dfb29be51e78"
   ]
 }

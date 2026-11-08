@@ -1,14 +1,16 @@
 {
-  "id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
+  "id": "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+  "label": "Every perfection of a thing whose being a cause causes is in that cause, formally or eminently",
+  "legacy_id": "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE",
   "paraphrase": "Every perfection of a thing whose being a cause causes is in that cause, formally or eminently.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading",
   "definition_ids": [
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-ESSE"
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
   ],
   "disambiguation_ids": [
-    "DISAMB-IN-ACT"
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
   ]
 }

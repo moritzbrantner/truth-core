@@ -1,0 +1,14 @@
+{
+  "id": "662ea759-5db5-5a37-a1ce-dbd1ce342db4",
+  "label": "Every CONCRETE_6 individual that exists at w and is contingent at w…, by Universal instantiation…",
+  "legacy_id": "INF-CONTINGENT-GROUNDED-VIA-DEPENDENCE",
+  "input_statement_ids": [
+    "3ef67739-a427-582b-9eaa-af6410b9c3d3",
+    "2e248016-f8bf-5d8a-931e-7f9ebbb13e42"
+  ],
+  "output_statement_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+  "rule": "Universal instantiation, existential elimination and introduction",
+  "meaning": "An actual contingent concretum depends for its being on some actual concretum, which by the dependence bridge grounds it.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

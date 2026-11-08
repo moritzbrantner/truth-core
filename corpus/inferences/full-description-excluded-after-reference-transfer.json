@@ -1,11 +1,13 @@
 {
-  "id": "INF-FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
+  "id": "b3f678ee-1d48-5cde-9fdf-a16641221772",
+  "label": "No being satisfying the full nominal description has its required…, by Constructive-proof",
+  "legacy_id": "INF-FULL-DESCRIPTION-EXCLUDED-AFTER-REFERENCE-TRANSFER",
   "input_statement_ids": [
-    "STMT-PROPER-REFERENCE-PRESERVED",
-    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
-    "STMT-GOD-NAMES-NO-BEING-WF-P1"
+    "1bc9a316-689c-5837-85c0-cd7fe7e35c16",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+    "5424b521-4a5c-52a0-b790-1db9b53f4ecc"
   ],
-  "output_statement_id": "STMT-FULL-DESCRIPTION-EXCLUDED-BY-NO-REFERENCE",
+  "output_statement_id": "8a856797-80f9-58e1-b491-6e4cc6ee58c7",
   "rule": "constructive-proof",
   "meaning": "Translate only the proper naming leaf forward through the explicit transfer premise, then import the existing noBeingExcludesFullDescription theorem. The consequence excludes a full descriptor witness; without such a witness it is not a contradiction.",
   "assumption_statement_ids": [],

@@ -1,9 +1,11 @@
 {
-  "id": "REL-LG-19-SUPPORTS-MANDATE-SCOPE-OF-CATHOLIC-CHURCH",
+  "id": "ac8b2d95-420f-558d-b801-66f997951d7a",
+  "label": "Second Vatican Council, Lumen gentium §19…… supports For any being g: if Jesus holds a mandate…",
+  "legacy_id": "REL-LG-19-SUPPORTS-MANDATE-SCOPE-OF-CATHOLIC-CHURCH",
   "subject_kind": "claim",
-  "subject_id": "VATICAN-II-LG-19-CHURCH-FOUNDED-IN-APOSTLES-SENT-WITH-CHRISTS-POWER",
+  "subject_id": "1b35783d-851d-5af5-925b-c6f920ddaa8b",
   "predicate": "supports",
   "object_kind": "statement",
-  "object_id": "STMT-MANDATE-COVERS-JESUS-FOUNDING-OF-CATHOLIC-CHURCH",
+  "object_id": "723ee3c4-00e9-5f86-9562-79d430227b19",
   "note": "Lumen gentium §§18-20 says the Lord founded the universal Church in the apostles, whom he sent as he was sent by the Father and as sharers of his power to make disciples, and whose successors are teachers of doctrine. This supports the premise that the Church was founded in the exercise of Jesus' mandate with a teaching commission. It does not supply: the identification of the council's Church with catholicChurch (stage 6, STMT-CHRISTS-CHURCH-IS-THE-CATHOLIC-CHURCH), the generalization from the Father to any mandator, or report-to-event and sincerity premises. Matthew 28.18-20 (NT-MATT-28-18-20-COMMISSION-UNDER-AUTHORITY), which §19 cites, supports it in the same way."
 }

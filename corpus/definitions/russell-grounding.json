@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RUSSELL-GROUNDING",
+  "id": "77060332-2129-5e1d-b477-908cbe74080f",
+  "label": "GROUNDING_OF_INSTANTIATION_2: Grounding is an independently supplied directed relation on distinct…",
+  "legacy_id": "DEF-RUSSELL-GROUNDING",
   "term": "grounding of instantiation",
   "definition": "Grounding is an independently supplied directed relation on distinct basis, instance and inhabited fact tags. Soundness requires truth at both ends; asymmetry excludes reverse edges. It is not implication, quantification, or temporal production. Candidate-basis truth is fixed in the test, without an actual essence claim.",
   "basis": "stipulative",

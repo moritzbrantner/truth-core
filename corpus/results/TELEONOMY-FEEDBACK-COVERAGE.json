@@ -1,6 +1,8 @@
 {
-  "id": "TELEONOMY-FEEDBACK-COVERAGE",
-  "argument_id": "TELEONOMY-FEEDBACK-COVERAGE",
+  "id": "cd59f11a-ef6c-5a4c-aa37-ea8604d13937",
+  "label": "Local coupling creates alignment from a nonaligned initial condition and is idempotent for every…",
+  "legacy_id": "TELEONOMY-FEEDBACK-COVERAGE",
+  "argument_id": "5b53a3e6-2e7f-5a27-a869-bf5b4cbd234c",
   "challenge_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Challenge",
   "solution_module": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.Solution",
   "theorem": "TruthCore.Results.Comparison.Teleonomy.FeedbackCoverage.feedbackCoverage",

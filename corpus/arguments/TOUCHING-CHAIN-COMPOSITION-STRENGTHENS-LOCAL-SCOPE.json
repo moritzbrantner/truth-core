@@ -1,21 +1,23 @@
 {
-  "id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
+  "id": "ecb9fda8-02e4-5c2e-b377-ab5e210ccc75",
+  "label": "Every injective touching chain whose adjacent…, from If each member of an infinite chain touches…",
+  "legacy_id": "TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE",
   "premise_statement_ids": [
-    "STMT-TOUCHING-CHAIN-FORMS-ONE"
+    "9a36bdc4-75a6-5c39-9d70-88bd42ba38a5"
   ],
-  "conclusion_statement_id": "STMT-LOCAL-TOUCHING-MOVED-MOVER-CHAIN-FORMS-ONE",
+  "conclusion_statement_id": "f28c1cb0-e470-546a-bc9f-64d143403fe2",
   "inference_ids": [
-    "INF-TOUCHING-CHAIN-COMPOSITION-STRENGTHENS-LOCAL-SCOPE"
+    "e37946d4-cc2c-5505-98ee-c152d68cc8d7"
   ],
   "meaning": "Sole-premise scope restriction of the old global composition reading; the populated control proves that the reverse implication fails. No old source attribution is changed.",
   "definition_ids": [
-    "DEF-LOCAL-TOUCHING-CHAIN-COMPOSITION-SCOPE",
-    "DEF-CONTACT-OR-CONTINUITY",
-    "DEF-ONE-MADE-OF-ALL",
-    "DEF-LOCAL-BODILY-MOTION",
-    "DEF-PRIMARY-MOVER"
+    "014c75ca-b505-55cc-8fd9-780fe1ef4c02",
+    "f505cd6a-9513-51c4-a473-6b57637f3e8d",
+    "86ebf09a-e067-5524-8e72-db502ae5a9f4",
+    "315fb7d0-ddae-5a72-b089-e832cdf8fc66",
+    "b4c14a65-2a0c-5d35-a43d-bf3018f11401"
   ],
   "disambiguation_ids": [
-    "DISAMB-MOTION"
+    "a59fd0ac-f276-528d-8dc3-c3eddd331ac7"
   ]
 }

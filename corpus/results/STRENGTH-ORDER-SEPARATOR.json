@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-ORDER-SEPARATOR",
-  "argument_id": "STRENGTH-ORDER-SEPARATOR",
+  "id": "8692a9cf-1407-565d-94b6-cb7a08b47f96",
+  "label": "The natural-number setting x=y=0 satisfies the empty background and y ≥ x while falsifying y > x",
+  "legacy_id": "STRENGTH-ORDER-SEPARATOR",
+  "argument_id": "4d18c5ac-557c-5822-a7f2-b827d7f3809c",
   "challenge_module": "TruthCore.Results.Logic.StrengthOrder.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthOrder.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthOrder.separator",

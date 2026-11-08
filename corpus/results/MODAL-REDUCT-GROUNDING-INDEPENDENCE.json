@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
-  "argument_id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "id": "a48496d5-7ddd-5823-8480-55ef44026c86",
+  "label": "The existing propositional modal language with existence/rigid-equality atoms is invariant under…",
+  "legacy_id": "MODAL-REDUCT-GROUNDING-INDEPENDENCE",
+  "argument_id": "48a104c9-ac4c-5b9a-9caf-abfb88ffa1af",
   "challenge_module": "TruthCore.Results.Explanation.GroundingBaseline.Challenge",
   "solution_module": "TruthCore.Results.Explanation.GroundingBaseline.Solution",
   "theorem": "TruthCore.Results.Explanation.GroundingBaseline.modalIndependence",

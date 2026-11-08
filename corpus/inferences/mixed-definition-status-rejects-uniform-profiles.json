@@ -1,9 +1,11 @@
 {
-  "id": "INF-MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
+  "id": "174a41a6-6ad5-537a-a76d-1adee1c0cef4",
+  "label": "Both uniform endorsement profiles fail: not all defined moves are endorsed…, by Constructive-proof",
+  "legacy_id": "INF-MIXED-DEFINITION-STATUS-REJECTS-UNIFORM-PROFILES",
   "input_statement_ids": [
-    "STMT-CONCILIAR-DEFINITION-STATUS-MIXED"
+    "93990bef-1be2-5827-83f8-c9376e9d2219"
   ],
-  "output_statement_id": "STMT-CONCILIAR-UNIFORM-DEFINITION-STATUS-REJECTED",
+  "output_statement_id": "3915fbb1-6020-5f07-aab9-c65793b8a7de",
   "rule": "constructive-proof",
   "meaning": "The nonendorsed defined witness defeats the old universal bridge; the endorsed defined witness defeats universal nonendorsement. This rejects two uniform profiles, not theology or a whole worldview.",
   "assumption_statement_ids": [],

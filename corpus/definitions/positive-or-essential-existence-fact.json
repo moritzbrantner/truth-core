@@ -1,9 +1,11 @@
 {
-  "id": "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT",
+  "id": "56cc187b-3051-512f-83b9-549fab0049c4",
+  "label": "Positive or essential existence fact: In the inspected essential-existence argument, an existence…",
+  "legacy_id": "DEF-POSITIVE-OR-ESSENTIAL-EXISTENCE-FACT",
   "term": "positive or essential existence fact",
   "definition": "In the inspected essential-existence argument, an existence fact has either the form x exists or the form it is essential to x that x exists. This is wider than TruthCore ExistenceFact.fact, which tags only a positive individual-existence fact; no constructor or truth correspondence for essential facts is imported by this source definition.",
   "basis": "sourced",
   "claim_ids": [
-    "DASGUPTA-EXISTENCE-GROUND-INGREDIENT"
+    "79af86ea-8010-55d2-8737-140a3cc05e82"
   ]
 }

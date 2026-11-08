@@ -1,6 +1,8 @@
 {
-  "id": "PLAN-STATE-EMBEDDING-CONTROL",
-  "argument_id": "PLAN-STATE-EMBEDDING-CONTROL",
+  "id": "c70aa25c-6858-5354-ab0e-5306b9f60a9e",
+  "label": "In the stipulated descriptive/permission-plan semantics, ideal acceptance preserves modus ponens…",
+  "legacy_id": "PLAN-STATE-EMBEDDING-CONTROL",
+  "argument_id": "e74d0b46-2d36-5fcd-8590-10cad8c4f0f9",
   "challenge_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution",
   "theorem": "TruthCore.Results.Metaethics.PlanStateEmbeddingControl.planStateEmbeddingControl",

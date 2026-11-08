@@ -1,5 +1,7 @@
 {
-  "id": "DEF-PARTICIPATION-FACT",
+  "id": "651037be-3748-5adb-838e-54bcf913a3b1",
+  "label": "Fact: A typed fact token: base x g, participation x f, or exemplification x q",
+  "legacy_id": "DEF-PARTICIPATION-FACT",
   "term": "fact",
   "definition": "A typed fact token: base x g, participation x f, or exemplification x q. Tokens distinguish the relata of explanatory dependence; they do not assert that the fact obtains.",
   "basis": "stipulative",

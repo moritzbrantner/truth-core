@@ -1,21 +1,23 @@
 {
-  "id": "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
+  "id": "17a2d131-fa0a-5bc5-9b69-e70a7ccf9807",
+  "label": "One fixed Body interpretation jointly has the existing atomic full remainder/Sum1/Sum2 profile…",
+  "legacy_id": "STMT-ACTUAL-FULL-FUSION-WITHOUT-NECESSITY",
   "paraphrase": "One fixed Body interpretation jointly has the existing atomic full remainder/Sum1/Sum2 profile, universal S5 access, every world populated, every candidate possible, downward actuality, all-nonempty actual-family fusion closure, and no necessary individual at any world. Every world has a greatest actual whole but none is common to all worlds; an actual part does not force the fixed global whole actual.",
   "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.Certificate",
   "definition_ids": [
-    "DEF-PRINCIPAL-IDEAL-ACTUALITY",
-    "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
-    "DEF-ATOMIC-FUSION-CONTRAST",
-    "DEF-UNIVERSAL-FUSION-DOMAIN",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-MEREOLOGICAL-COMPLEMENTATION",
-    "DEF-SUM1-LEAST-UPPER-BOUND",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-ACTUAL-PARTS-AND-CAUSAL-POLICIES"
+    "470bef1d-8ff2-5ce8-9a7a-8ba409bfb99c",
+    "9914ddda-c908-5569-a6dd-197200c70754",
+    "870ea6ed-87f4-504b-bef4-51bb8c7492c1",
+    "094da9ef-9edb-5e88-8b7b-2eb87488e90d",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "700326c9-b157-5670-8ed5-9b4044581d41",
+    "82e3885b-a845-5116-949e-07cb05353bf7",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "84b1dc2c-48e6-5465-af21-48015fbf3cbe"
   ],
   "disambiguation_ids": [
-    "DISAMB-DOWNWARD-ACTUALITY-AND-FIXED-WHOLE",
-    "DISAMB-SUM1-AND-SUM2-FUSION"
+    "d5c2f7bb-4927-5bb8-839f-2c9965d0f877",
+    "93b2e596-3c96-52d3-9d5e-820dc82e5471"
   ]
 }

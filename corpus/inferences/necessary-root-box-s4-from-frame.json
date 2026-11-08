@@ -1,0 +1,14 @@
+{
+  "id": "fab9e756-fa9e-5222-8dbf-d603718f9b3b",
+  "label": "Necessary-being node, possibilist box reading in frame class S4…, by Conjunction introduction",
+  "legacy_id": "INF-NECESSARY-ROOT-BOX-S4-FROM-FRAME",
+  "input_statement_ids": [
+    "cdf897a8-5490-561a-b9d2-507486a3f192",
+    "d8d91023-300e-50f4-9cc5-e62f44a1aa04"
+  ],
+  "output_statement_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
+  "rule": "Conjunction introduction",
+  "meaning": "The S4 branch of the sense fork: the route's K node plus the OPEN premise of the S4 frame condition on the route's frame. Without that premise the branch fails (controls: non-reflexive and non-transitive frames). Frame-class consequences (actual existence, necessary necessity, E -> box-diamond-E, possibly necessary -> necessary) are the Kripke axiom theorems in the controls.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

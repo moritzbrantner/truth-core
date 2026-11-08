@@ -1,5 +1,7 @@
 {
-  "id": "DEF-BOX-ALL-TO-ALL-BOX",
+  "id": "a3b39c76-f1cb-53e8-bf5e-9e64d75f02bf",
+  "label": "Box of guarded forall to guarded…: For every arbitrary total P and evaluation world w, if every…",
+  "legacy_id": "DEF-BOX-ALL-TO-ALL-BOX",
   "term": "box of guarded forall to guarded forall of box",
   "definition": "For every arbitrary total P and evaluation world w, if every existing candidate at each accessible v satisfies P v, then every candidate existing at w satisfies P at all accessible v. The outer existence guard is evaluated at w, the boxed guard at v.",
   "basis": "stipulative",

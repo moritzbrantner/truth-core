@@ -1,0 +1,12 @@
+{
+  "id": "4d77c2a2-a0e9-5df1-aa0c-a6a6609b68d1",
+  "label": "Every bearer of an occurring thought episode exists at the selected world…, from operation and esse",
+  "legacy_id": "COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE",
+  "argument_id": "c80e7fea-5210-58ee-abea-3de413e284e3",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.bearerExistsFromOperationAndEsse",
+  "comparator_config": "results/COGITO-BEARER-EXISTS-FROM-OPERATION-AND-ESSE/comparator.json",
+  "status": "solution-present",
+  "description": "Every bearer of an occurring thought exists at the selected world w: the bearer exercises intellect in it, intellectual exercise requires act in some respect, act in some respect implies act of esse (q.4 a.1 ad 3 reading), and act of esse suffices for existence at w (OPEN converse of the esse contract). The last premise carries the world-indexing; without it the bearer may be in act of esse and fail to exist at w."
+}

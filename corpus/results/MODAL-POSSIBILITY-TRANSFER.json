@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-POSSIBILITY-TRANSFER",
-  "argument_id": "MODAL-POSSIBILITY-TRANSFER",
+  "id": "5aff626e-02c5-503d-b654-04d282304927",
+  "label": "For every candidate-description carrier, two frames E and M, and origin w, all-predicate diamond…",
+  "legacy_id": "MODAL-POSSIBILITY-TRANSFER",
+  "argument_id": "ae3ef3a7-6bbe-5933-aedf-566b8532df0b",
   "challenge_module": "TruthCore.Results.Modal.PossibilityTransfer.Challenge",
   "solution_module": "TruthCore.Results.Modal.PossibilityTransfer.Solution",
   "theorem": "TruthCore.Results.Modal.PossibilityTransfer.checks",

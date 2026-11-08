@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "PLOTINUS-ENNEADS",
+    "source_id": "4e88cb1d-0567-56e7-8861-0e4669f50036",
     "edition_urn": "urn:cts:greekLit:tlg2000.tlg001.1st1K-grc1",
     "language": "grc",
     "repository": "OpenGreekAndLatin/First1KGreek",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "PLOTINUS-ENN-VI-9-1",
+      "id": "780e5377-6f36-53b0-900e-1cb741533311",
+      "label": "Plotinus, Enneads, VI.9.1",
+      "legacy_id": "PLOTINUS-ENN-VI-9-1",
       "locator": "VI.9.1",
       "claim_locator_prefixes": [
         "VI.9.1"
@@ -33,7 +35,9 @@
       ]
     },
     {
-      "id": "PLOTINUS-ENN-VI-9-2",
+      "id": "0776249b-f3ac-526b-99cb-bdd66120ce61",
+      "label": "Plotinus, Enneads, VI.9.2",
+      "legacy_id": "PLOTINUS-ENN-VI-9-2",
       "locator": "VI.9.2",
       "claim_locator_prefixes": [
         "VI.9.2"
@@ -54,7 +58,9 @@
       ]
     },
     {
-      "id": "PLOTINUS-ENN-VI-9-3",
+      "id": "2092bf3e-7274-5463-a7b4-196ffd45a2b8",
+      "label": "Plotinus, Enneads, VI.9.3",
+      "legacy_id": "PLOTINUS-ENN-VI-9-3",
       "locator": "VI.9.3",
       "claim_locator_prefixes": [
         "VI.9.3"
@@ -75,7 +81,9 @@
       ]
     },
     {
-      "id": "PLOTINUS-ENN-VI-9-4",
+      "id": "0ebca776-8847-549a-9345-36131a1ac113",
+      "label": "Plotinus, Enneads, VI.9.4",
+      "legacy_id": "PLOTINUS-ENN-VI-9-4",
       "locator": "VI.9.4",
       "claim_locator_prefixes": [
         "VI.9.4"
@@ -96,7 +104,9 @@
       ]
     },
     {
-      "id": "PLOTINUS-ENN-VI-9-5",
+      "id": "bf3eeaac-c934-59c6-924e-720e48df5dae",
+      "label": "Plotinus, Enneads, VI.9.5",
+      "legacy_id": "PLOTINUS-ENN-VI-9-5",
       "locator": "VI.9.5",
       "claim_locator_prefixes": [
         "VI.9.5"
@@ -117,7 +127,9 @@
       ]
     },
     {
-      "id": "PLOTINUS-ENN-VI-9-6",
+      "id": "68d52623-c46c-598b-bd30-84df38ed6278",
+      "label": "Plotinus, Enneads, VI.9.6",
+      "legacy_id": "PLOTINUS-ENN-VI-9-6",
       "locator": "VI.9.6",
       "claim_locator_prefixes": [
         "VI.9.6"

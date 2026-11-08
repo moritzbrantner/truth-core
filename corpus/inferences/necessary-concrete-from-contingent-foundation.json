@@ -1,12 +1,14 @@
 {
-  "id": "INF-NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
+  "id": "61fe73c5-2914-516c-bc71-6a2ff5c94548",
+  "label": "Some concrete individual exists at w and at every world…, by Reuse-of-contingent-reason-de…",
+  "legacy_id": "INF-NECESSARY-CONCRETE-FROM-CONTINGENT-FOUNDATION",
   "input_statement_ids": [
-    "STMT-SELECTED-ACTUAL-CONCRETE",
-    "STMT-CONTINGENT-CONE-FOUNDED",
-    "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "STMT-EXCLUDED-MIDDLE"
+    "adb5020c-f115-5a26-a736-343ec2fc9d68",
+    "1ee7338d-66aa-5ce2-83cb-b5173730ee38",
+    "b612735b-12a0-55a3-ac0c-3ce36f79e308",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-NECESSARY-CONCRETE-AT",
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
   "rule": "reuse-of-contingent-reason-descent",
   "meaning": "Project the same actual concrete necessary ancestor from the contingent-only foundation theorem to the existing shared necessary-concrete statement. Retains selected actual/concrete existence, local contingent dependence, contingent-only foundation and explicit excluded middle. This does not yield rootness, all-world underivedness, unity or divine attributes.",
   "assumption_statement_ids": [],

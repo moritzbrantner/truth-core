@@ -1,5 +1,7 @@
 {
-  "id": "DEF-INSTANCE-GROUNDING",
+  "id": "f97bebf0-4ac7-5c43-bfae-4f7e4225a28e",
+  "label": "INSTANCE_3 reading of grounds of an…: InstanceGrounding A d says every reason for d, at any world…",
+  "legacy_id": "DEF-INSTANCE-GROUNDING",
   "term": "instance (truthmaker) reading of grounds of an existential fact",
   "definition": "InstanceGrounding A d says every reason for d, at any world, is the existence fact A.exist x of some individual x. It is the fact-to-bearer bridge of #485: it excludes an abstract law, structural rule or other non-existence fact as a reason for d. It says nothing about whether x is concrete or causes anything.",
   "basis": "stipulative",

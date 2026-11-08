@@ -1,0 +1,17 @@
+{
+  "id": "71562cdb-db35-5849-927a-4746209a2193",
+  "label": "Nothing that is being moved in a respect moves itself in that same…, by Coverage and exclusivity…",
+  "legacy_id": "INF-IN-ACT-SENSE-FORK-NO-SELF-MOTION",
+  "input_statement_ids": [
+    "fcf064ee-9b36-5990-b4fd-9b1549b10530",
+    "8f5a1859-3bfa-563b-b30c-d1a61d5864a4",
+    "4be9a4ac-699a-5adc-88d4-bbd958fa1576",
+    "f296a694-aeea-5fa7-bdbf-0076530f9441",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+  ],
+  "output_statement_id": "079b53bf-a222-5dfc-b8df-7419f9e98030",
+  "rule": "Coverage and exclusivity give one sense for both uses (equality of predicates), then reductio",
+  "meaning": "Optional summary over IN-ACT_1-3 (joint sense fork) for the prima via step. Coverage reads both uses of 'in act' (the mover is in act; nothing is in act and in potency in the same respect) in selected senses among formal, virtual and formal-or-virtual act; exclusivity makes them one sense. Whichever it is, a self-mover in a respect in which it is moved would be in potency there and in act there in that one sense, which non-simultaneity excludes. The controls give the mixed reading (mover virtually in act, non-simultaneity formal) with self-motion: the step needs one sense, not a particular one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

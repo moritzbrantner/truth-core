@@ -1,24 +1,26 @@
 {
-  "id": "ATTEMPT-COMPOSER-TEMPORAL-DEFINITION-AUDIT",
+  "id": "3e2d1595-b62b-5b28-9c28-c16d17502c8c",
+  "label": "Encoded the previously untyped independent time-neutral composer proposition without identifying…",
+  "legacy_id": "ATTEMPT-COMPOSER-TEMPORAL-DEFINITION-AUDIT",
   "statement_ids": [
-    "STMT-COMPOSER-IS-EFFICIENT-CAUSE-OF-COMPOSITE",
-    "STMT-UNITING-CAUSE-IS-EFFICIENT",
-    "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+    "f3b79f16-5c0b-5b20-92c5-7fae38239ec7",
+    "27d15954-567a-5321-b4ec-81bfe7ef1653",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Encoded the previously untyped independent time-neutral composer proposition without identifying it with a selected-time or existential-time account. Ten results expose competing calibration/coverage/Other propositions, temporal transfer, all-time versus current no-self, historical composition and explicit countermodels. Reused exact Article7Uniting and CompositeUnitingCauseFromUnion declarations. Rejected treating a past-builder attribution as a present sustaining claim, treating all time-neutral/atemporal causation as existential temporal production, deriving all-time no-self from a present ban, and treating Other as a rival to the final composite conclusion. Current source attribution remains unchanged. Every new causal profile/transfer is openly stipulated and its real applicability is unresolved. Full research boundaries are in docs/notes/composer-temporal-definition-fork.md.",
   "evidence": [
-    "TEMPORAL-COMPOSER-FROM-ATTRIBUTION",
-    "CURRENT-COMPOSER-FROM-ATTRIBUTION",
-    "CURRENT-COMPOSER-FROM-TEMPORAL-PERSISTENCE",
-    "GLOBAL-PERSISTENCE-STRENGTHENS-UNITER-PERSISTENCE",
-    "ALL-TIME-NO-SELF-STRENGTHENS-CURRENT-NO-SELF",
-    "COMPOSITE-UNITING-CAUSE-FROM-TEMPORAL-PRODUCTION",
-    "COMPOSER-TEMPORAL-DEFINITION-FORK",
-    "TEMPORAL-DEFINITION-FROM-NAMED-COVERAGE",
-    "COMPOSER-TEMPORAL-DEFINITION-BOUNDARIES",
-    "COMPOSER-TEMPORAL-PAST-SELF-COUNTERMODEL"
+    "c55f8c6c-14b3-5518-8c8f-a3fc7f7dd82a",
+    "7cb451cc-efef-5811-bbc1-49620c4059a4",
+    "623a85d6-cf29-56df-98d7-92357fc21103",
+    "fa21a69c-f965-5ab3-8644-ba2460f4c049",
+    "8e634495-e003-5cf1-b565-510ecbf13eb1",
+    "745ee7da-5a74-50f4-8124-b74a9db7b4b6",
+    "24d8b452-c930-5fba-8102-37013a78a1f8",
+    "7cebad1e-bec2-58aa-bce8-5d76b9dfdc3f",
+    "db60a52a-da4e-5e93-9767-774629d36119",
+    "41e0c989-b0db-545c-8794-16469b07da37"
   ]
 }

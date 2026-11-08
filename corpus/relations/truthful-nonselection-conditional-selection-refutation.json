@@ -1,9 +1,11 @@
 {
-  "id": "REL-TRUTHFUL-NONSELECTION-CONDITIONAL-SELECTION-REFUTATION",
+  "id": "8319d3ed-3e56-5f66-b5a7-6e92ef726741",
+  "label": "Exact negation of the old…, from At the… refutes At the designated labeled arrangement a…",
+  "legacy_id": "REL-TRUTHFUL-NONSELECTION-CONDITIONAL-SELECTION-REFUTATION",
   "subject_kind": "argument",
-  "subject_id": "TRUTHFUL-NONSELECTION-DEFEATS-EXACT-SELECTION-TARGET",
+  "subject_id": "d516346b-9c7c-57a1-8a1e-c23370548daa",
   "predicate": "refutes",
   "object_kind": "statement",
-  "object_id": "STMT-COMPLETE-CHAIN-EXPLANATION-SELECTS-ARRANGEMENT",
+  "object_id": "4f45ac2d-3bb1-5159-85db-0982225dfbd5",
   "note": "Checked matching-profile conditional contradiction only. The actual accepted-countercase premise remains OPEN; this is no independent metaphysical refutation or warrant for an explanatory judgment."
 }

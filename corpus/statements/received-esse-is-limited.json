@@ -1,0 +1,16 @@
+{
+  "id": "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
+  "label": "For every being x and principle r, if the esse of x is received in r, then the esse of x is limited",
+  "legacy_id": "STMT-RECEIVED-ESSE-IS-LIMITED",
+  "paraphrase": "OPEN analyst generalization of ST I q.7 a.2 co.: for every being x and principle r, if the esse of x is received in r, then the esse of x is limited. The passage says this of a subsistent created form, whose esse is 'receptum et contractum ad determinatam naturam' so that it is not infinite simpliciter; the generalization to every received esse is the analyst's. It is the converse of STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION.",
+  "lean_declaration": "TruthCore.Causality.ReceptionLimitation.ReceivedEsseIsLimited",
+  "definition_ids": [
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "19190b6e-359f-590c-b434-4e6f5803da4f"
+  ]
+}

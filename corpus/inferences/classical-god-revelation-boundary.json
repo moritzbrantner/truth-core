@@ -1,9 +1,11 @@
 {
-  "id": "INF-CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "id": "b3691b52-f10b-5042-a6d4-c39b5b908dbb",
+  "label": "Concrete analyst boundary under supplied excluded middle on the…, by Existing-positive-control-and…",
+  "legacy_id": "INF-CLASSICAL-GOD-REVELATION-BOUNDARY",
   "input_statement_ids": [
-    "STMT-EXCLUDED-MIDDLE"
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
   ],
-  "output_statement_id": "STMT-CLASSICAL-GOD-REVELATION-BOUNDARY",
+  "output_statement_id": "a0197371-b223-5692-b835-73f6f0fcd0c3",
   "rule": "existing-positive-control-and-concrete-signature-evaluation",
   "meaning": "Import NecessaryClassicalGodRootControl.checks unchanged and retain its full conjunction. The SAME source supplies GodExists; assigned God uniqueness transports its attributes to every God. Evaluate revelation at that source and refute root via its divine teaching-foundation conjunct, separately.",
   "assumption_statement_ids": [],

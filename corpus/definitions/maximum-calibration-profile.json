@@ -1,5 +1,7 @@
 {
-  "id": "DEF-MAXIMUM-CALIBRATION-PROFILE",
+  "id": "18c78a19-096c-5987-8517-a67edaede564",
+  "label": "MAXIMAL_5, greatest-degree and strict…: Analyst profile reusing IsMaximumIn and…",
+  "legacy_id": "DEF-MAXIMUM-CALIBRATION-PROFILE",
   "term": "maximal, greatest-degree and strict superlative calibrations",
   "definition": "Analyst profile reusing IsMaximumIn and GreatestDegreeBearer, with SAME being/respect/InAct/MoreIn/CausesIn/selected-respect dictionaries, a supplied represented-degree map and an independent primitive Maxime. Mathlib Preorder is an explicit parameter. StrictDegreeCalibration concerns only active bearer pairs; DirectedBearers requires an actual selected-perfection bearer above each pair. Neither is built into MoreIn or the source definition. Causal responsibility remains independent of order. Examples/controls are incomparable degrees in the standard Bool product order and distinct bearers tied at one Unit degree, not real ontologies. The reality/applicability of represented degrees and directedness is OPEN; no homogeneous analogical-being ontology, injectivity, global total order, asymmetry or causal ascent is assumed.",
   "basis": "stipulative",

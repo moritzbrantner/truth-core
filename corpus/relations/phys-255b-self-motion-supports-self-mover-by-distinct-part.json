@@ -1,0 +1,11 @@
+{
+  "id": "17cef122-7d08-5410-b146-aeae936b2d44",
+  "label": "Aristotle, Physics VIII.4, 254b27-33…… supports Whatever moves itself in a respect does so…",
+  "legacy_id": "REL-PHYS-255B-SELF-MOTION-SUPPORTS-SELF-MOVER-BY-DISTINCT-PART",
+  "subject_kind": "claim",
+  "subject_id": "22119347-2531-517d-a678-30a571e16449",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+  "note": "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned."
+}

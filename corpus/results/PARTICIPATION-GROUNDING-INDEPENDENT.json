@@ -1,6 +1,8 @@
 {
-  "id": "PARTICIPATION-GROUNDING-INDEPENDENT",
-  "argument_id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "id": "5ea67ac7-55f9-5e8d-b156-d816a7f662f2",
+  "label": "One finite assignment satisfying the generic Form principles and a selection law admits both a…",
+  "legacy_id": "PARTICIPATION-GROUNDING-INDEPENDENT",
+  "argument_id": "d8593cb5-33bd-575d-b87d-a269b429be09",
   "challenge_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ParticipationGrounding.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ParticipationGrounding.groundingIndependent",

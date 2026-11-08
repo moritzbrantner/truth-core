@@ -1,10 +1,12 @@
 {
-  "id": "REL-COUNCIL-NATURAL-DEFINITION-STRENGTHENS-DEFINED-WITNESS",
+  "id": "bccc6bd1-261b-5c68-b8fa-bbf062bdf4a7",
+  "label": "In the Catholic practice, the First… strengthens An actual move is defined by the selected…",
+  "legacy_id": "REL-COUNCIL-NATURAL-DEFINITION-STRENGTHENS-DEFINED-WITNESS",
   "subject_kind": "statement",
-  "subject_id": "STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD",
+  "subject_id": "e18b3b90-33fa-5155-bd0e-6560a9fe98b8",
   "predicate": "strengthens",
   "object_kind": "statement",
-  "object_id": "STMT-DEFINED-MOVE-EXISTS",
-  "verification_result_id": "COUNCIL-NATURAL-DEFINITION-SUPPLIES-DEFINED-WITNESS",
+  "object_id": "351278c7-dbf6-5279-8e18-35f979e3ade6",
+  "verification_result_id": "1cdeb07f-0994-5197-9034-5924f531b339",
   "note": "The defined-natural move includes an actual Defined witness. Normative bridge conflict needs only Defined, while the original cut-off argument additionally uses natural content."
 }

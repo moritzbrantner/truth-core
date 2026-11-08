@@ -1,0 +1,12 @@
+{
+  "id": "8e7b099b-8e01-54b4-a1b2-3a3f3d523a5d",
+  "label": "Negation of the occasionalist rival occasionalist mover link without CAUSE_3…, from efficient movers",
+  "legacy_id": "NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS",
+  "argument_id": "e3874506-91de-586c-94e3-4b2180706e89",
+  "challenge_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RivalRefutationsRound2.Solution",
+  "theorem": "TruthCore.Results.Causality.RivalRefutationsRound2.noMoverLinkWithoutCauseLink",
+  "comparator_config": "results/NO-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE-FROM-EFFICIENT-MOVERS/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional refutation of the occasionalist rival STMT-OCCASIONALIST-MOVER-LINK-WITHOUT-CAUSE. If y moves x as moved, then y is distinct from x, moves x in some respect r and is moved by some z in some respect r' (STMT-PER-SE-MOVER-LINK-IS-MOVING-BY-MOVED-MOVER); every mover efficiently causes what it moves in that respect (STMT-MOVER-IS-EFFICIENT-CAUSE), so y efficiently causes x and z efficiently causes y; by the Second Way's per se ordering premise (STMT-SECOND-EFFICIENT-CAUSES-CAUSE-ONLY-AS-CAUSED) y causes x as caused. The occasionalist, for whom the stick is only an occasion, must deny the mover/efficient-cause bridge, not only STMT-PER-SE-MOVER-LINK-IS-PER-SE-CAUSE-LINK. Each premise is needed (STMT-RIVAL-REFUTATIONS-ROUND2-CONTROLS). All three premises are open, so the refutation does not count for closure."
+}

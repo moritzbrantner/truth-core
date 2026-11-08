@@ -1,14 +1,16 @@
 {
-  "id": "NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER",
-  "statement_id": "STMT-PILOT-REPORT-PAUL-PERSECUTOR-PREACHER",
-  "source_id": "NT-GAL",
+  "id": "7f714f1e-2e71-5adf-b31f-b300de0a6ef1",
+  "label": "Paul, Galatians 1.13-24: The speaker reports formerly persecuting the church and now preaching the…",
+  "legacy_id": "NT-GAL-PILOT-PAUL-PERSECUTOR-PREACHER",
+  "statement_id": "babb63b8-fe6d-514c-ba5e-9cc7f66bc523",
+  "source_id": "74b27609-9e7a-5018-9316-e58702ac3b7f",
   "locator": "1.13-24",
   "interpretation": "A transition in activity is explicit. The conversion finding further reads these activities as earlier nonbelief and later belief; the supernatural explanation remains separately contested.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RESURRECTION-PILOT-REPORT"
+    "2d8b04da-9f9c-5592-bb91-9c2ded12aa2e"
   ],
   "disambiguation_ids": [
-    "DISAMB-RESURRECTION-PILOT-EVIDENCE"
+    "2567d8a9-549e-5404-8658-3275b7029092"
   ]
 }

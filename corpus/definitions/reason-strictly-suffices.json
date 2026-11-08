@@ -1,5 +1,7 @@
 {
-  "id": "DEF-REASON-STRICTLY-SUFFICES",
+  "id": "82ff401e-5108-592e-925a-66f6833981d6",
+  "label": "Strict sufficiency of one fact for…: At every world accessible from a where r is true, f is true",
+  "legacy_id": "DEF-REASON-STRICTLY-SUFFICES",
   "term": "strict sufficiency of one fact for another",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.SimplicityCollapse.Necessitates",

@@ -1,0 +1,15 @@
+{
+  "id": "b7d4eede-ab50-5522-8902-f33238fa234d",
+  "label": "Whatever has its being caused by something distinct from it is a creature",
+  "legacy_id": "STMT-CAUSED-IN-BEING-BY-ANOTHER-IS-CREATURE",
+  "paraphrase": "OPEN analyst premise: whatever has its being caused by something distinct from it is a creature (DEF-CREATURE read as: ordered to a cause of its being). It counts a thing caused in being by a secondary cause as a creature too.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CausedInBeingByAnotherIsCreature",
+  "definition_ids": [
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

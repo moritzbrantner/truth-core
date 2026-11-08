@@ -1,0 +1,87 @@
+target = "STMT-CATHOLICISM-TRUE"
+[[node]]
+id = "7abdee27-8abc-59d9-9b20-740616a1a8dd"
+[[node]]
+id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+[[node]]
+id = "0881e859-c4c3-53ff-9bec-b61294e12d51"
+[[edge]]
+premises = ["7abdee27-8abc-59d9-9b20-740616a1a8dd", "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"]
+conclusion = "0881e859-c4c3-53ff-9bec-b61294e12d51"
+kind = "derivation"
+status = "certified"
+
+[[node]]
+id = "7067553d-cad9-5d79-b6b2-912e35051530"
+
+[[node]]
+id = "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d"
+
+[[node]]
+id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+
+[[node]]
+id = "f8ba2429-b4f1-5712-a4d3-798213963d34"
+
+[[node]]
+id = "09c6d5f0-d412-5038-85f9-75fffb935727"
+
+[[node]]
+id = "eaa4c679-98a3-5e82-95ff-18bd1177ce74"
+
+[[node]]
+id = "1ec205ed-b2a6-5384-bb5f-2565a9d325bf"
+
+[[node]]
+id = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
+
+[[node]]
+id = "5fc7a6f9-94d7-5938-9e32-b2614c159646"
+
+[[node]]
+id = "a88d9b81-1246-5844-a119-4be2af4dd3f9"
+
+[[node]]
+id = "a8dfc0b8-140f-5351-a856-16a719251ac3"
+
+[[node]]
+id = "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267"
+
+[[node]]
+id = "a04f711a-53cc-59c5-902e-86b605fb73b4"
+
+[[node]]
+id = "dd2d9776-6550-5ee9-a206-dad03027c003"
+
+[[node]]
+id = "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"
+
+[[node]]
+id = "53964cbe-5831-5812-af33-4d87896d47a7"
+
+[[edge]]
+premises = ["0881e859-c4c3-53ff-9bec-b61294e12d51", "7067553d-cad9-5d79-b6b2-912e35051530", "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "f8ba2429-b4f1-5712-a4d3-798213963d34", "09c6d5f0-d412-5038-85f9-75fffb935727", "eaa4c679-98a3-5e82-95ff-18bd1177ce74", "1ec205ed-b2a6-5384-bb5f-2565a9d325bf", "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5", "5fc7a6f9-94d7-5938-9e32-b2614c159646", "a88d9b81-1246-5844-a119-4be2af4dd3f9", "a8dfc0b8-140f-5351-a856-16a719251ac3", "09d4f44b-d7b7-59b1-aa0e-4f44d9c42267", "a04f711a-53cc-59c5-902e-86b605fb73b4", "dd2d9776-6550-5ee9-a206-dad03027c003", "41fb7463-d2be-5a8c-bdea-8c87b3dd4b36"]
+conclusion = "53964cbe-5831-5812-af33-4d87896d47a7"
+kind = "derivation"
+status = "certified"
+
+[[node]]
+id = "91b085c4-f1c7-5ada-9848-8e7dc753313a"
+
+[[node]]
+id = "0436de86-6579-53f2-9ff5-2111ba44ebae"
+
+[[node]]
+id = "cb1cdea9-eb6c-578c-8008-84e0d4107fd3"
+
+[[node]]
+id = "e4e6b0cd-f61a-5605-a302-573c67cf063a"
+
+[[node]]
+id = "64498e7e-7f10-54a0-9ec0-c65e6076de1f"
+
+[[edge]]
+premises = ["91b085c4-f1c7-5ada-9848-8e7dc753313a", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f"]
+conclusion = "7abdee27-8abc-59d9-9b20-740616a1a8dd"
+kind = "derivation"
+status = "certified"

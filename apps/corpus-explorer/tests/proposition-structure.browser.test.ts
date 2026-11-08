@@ -1,6 +1,7 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
+import { label, uid } from "./corpus-records";
 
 
 let browser: Browser;
@@ -40,7 +41,7 @@ test("structure inspector preserves ordered Lean detail and primitive attribute 
   page.on("pageerror", (error) => errors.push(error.message));
   const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
   for (const id of ["STMT-CAUSE-PRINCIPLE-BROAD", "STMT-CAUSE-PRINCIPLE-DISTINCT", "STMT-GOD-HAS-CLASSICAL-DIVINE-ATTRIBUTES"]) {
-    await page.goto(`${base}statements/${id}/#structure`);
+    await page.goto(`${base}statements/${uid("statement", id)}/#structure`);
     const inspector = page.getByRole("region", { name: "Proposition structure", exact: true });
     await inspector.locator("[data-structure-inspector] > summary").click();
     expect(await inspector.getByLabel("Expression structure").innerText()).toContain("structural");
@@ -53,7 +54,7 @@ test("structure inspector preserves ordered Lean detail and primitive attribute 
     if (id.endsWith("DISTINCT")) expect(await expansion.innerText()).toContain("DistinctCausePrinciple");
     if (id.includes("CLASSICAL")) {
       const support = inspector.getByLabel("Proof support and bridge direction");
-      expect(await support.innerText()).toContain("STMT-CLASSICAL-ATTRIBUTES-SUFFICE");
+      expect(await support.innerText()).toContain(label("statement", "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"));
       expect(await support.innerText()).toContain("open");
       const interpretation = inspector.getByLabel("Semantic interpretation").locator("details").filter({ has: page.locator('a', { hasText: "DEF-CLASSICAL-ATTRIBUTES-BUNDLE" }) });
       await interpretation.locator(":scope > summary").click();
@@ -69,7 +70,7 @@ test("structure inspector preserves ordered Lean detail and primitive attribute 
     expect(await inspector.evaluate((element) => element.getBoundingClientRect().right <= window.innerWidth + 1)).toBe(true);
     await page.setViewportSize({ width: 1280, height: 980 });
   }
-  await page.goto(`${base}statements/STMT-CATHOLICISM-TRUE/#structure`);
+  await page.goto(`${base}statements/${uid("statement", "STMT-CATHOLICISM-TRUE")}/#structure`);
   expect(await page.locator("[data-structure-unavailable]").innerText()).toContain("outside the current published slice");
   expect(errors).toEqual([]);
   await page.close();

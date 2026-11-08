@@ -1,10 +1,12 @@
 {
-  "id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
+  "id": "b236fc8b-a944-5b2e-8664-d68fae372d47",
+  "label": "Some subject satisfying the substance predicate bears some occurring thought",
+  "legacy_id": "STMT-COGITO-SOME-SUBSTANTIAL-THINKING-SUBJECT",
   "paraphrase": "Some subject satisfying the substance predicate bears some occurring thought. Not that it endures, is unique or is immaterial.",
   "lean_declaration": "TruthCore.Logic.CogitoSubject.SomeSubstantialThinkingSubject",
   "definition_ids": [
-    "DEF-THOUGHT-OCCURRENCE",
-    "DEF-THOUGHT-BEARER",
-    "DEF-COGITO-SUBSTANCE-PREDICATE"
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "ce8ccc1a-4f9a-5904-a10c-548778d79b66",
+    "f31b2ba4-190d-56f8-903e-9953ae139773"
   ]
 }

@@ -1,6 +1,8 @@
 {
-  "id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
-  "argument_id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "id": "9005815b-b469-5ee6-b252-546f11f12d8c",
+  "label": "For every bearer and perfection in the fixed form/end profile, it is…, from correct named support",
+  "legacy_id": "GOODNESS-FROM-CORRECT-NAMED-SUPPORT",
+  "argument_id": "290de287-d044-5bae-baaa-8b897573ee32",
   "challenge_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Challenge",
   "solution_module": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.Solution",
   "theorem": "TruthCore.Results.Metaethics.GoodnessCorrectSupport.Elimination.dueFromSupportedElimination",

@@ -1,6 +1,8 @@
 {
-  "id": "KANT-CONVERSION-NEEDS-EXISTENCE",
-  "argument_id": "KANT-CONVERSION-NEEDS-EXISTENCE",
+  "id": "95b9c516-74c3-5981-bbd7-4ccd62a67f4e",
+  "label": "At the selected world every most-real…, from At least one individual exists at the… and 2 more",
+  "legacy_id": "KANT-CONVERSION-NEEDS-EXISTENCE",
+  "argument_id": "1a214576-c1a8-5889-8794-750eb7c8ccd3",
   "challenge_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Challenge",
   "solution_module": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.Solution",
   "theorem": "TruthCore.Results.Kant.CosmologicalInference.ConversionNeedsExistence.conversionNeedsExistence",

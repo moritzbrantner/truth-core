@@ -1,15 +1,17 @@
 {
-  "id": "AQUINAS-ST-I-Q5-A1-PERFECT-AS-IN-ACT-A",
-  "statement_id": "STMT-PERFECT-INSOFAR-AS-IN-ACT",
-  "source_id": "AQUINAS-ST",
+  "id": "c060fdcf-4aad-5794-992b-057271f04039",
+  "label": "Thomas Aquinas, Summa theologiae I q.5 a.1 co: A thing is perfect in a given perfection exactly…",
+  "legacy_id": "AQUINAS-ST-I-Q5-A1-PERFECT-AS-IN-ACT-A",
+  "statement_id": "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1",
+  "source_id": "c77377cf-501b-56c6-be40-b518e9aad101",
   "locator": "I q.5 a.1 co.: Intantum est autem perfectum unumquodque, inquantum est actu",
   "interpretation": "Third step: each thing is perfect insofar as it is in act. Read per perfection as a biconditional: perfect in a perfection exactly when actually having it. The article's following clause ('esse enim est actualitas omnis rei, ut ex superioribus patet') carries the conclusion from act to being; it is not part of this statement and is not used by the derivation, because STMT-GOODNESS-IS-ACTUALITY stops at act. Ad 1 distinguishes perfect simpliciter (ultimate perfection) from perfect secundum quid; the statement is about perfection in one respect.",
   "definition_ids": [
-    "DEF-ACT",
-    "DEF-PERFECT-IN-A-PERFECTION"
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "bf9ced33-dbd9-5921-99ef-e1e92fa7e063"
   ],
   "disambiguation_ids": [
-    "DISAMB-PERFECT-IN-A-RESPECT-OR-UNIVERSALLY"
+    "b4099355-0e3b-510a-9398-8ef97b4881b1"
   ],
   "status": "formalized"
 }

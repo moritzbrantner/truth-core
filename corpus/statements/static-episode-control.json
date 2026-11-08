@@ -1,6 +1,11 @@
 {
-  "id": "STMT-STATIC-EPISODE-CONTROL",
+  "id": "d0f04b5b-5c5f-5397-86ca-432de73877c7",
+  "label": "A one-episode interpretation with a one-point state-index carrier satisfies occurrence while…",
+  "legacy_id": "STMT-STATIC-EPISODE-CONTROL",
   "paraphrase": "A one-episode interpretation with a one-point state-index carrier satisfies occurrence while admitting no pair of indices with different state values. Occurrence alone does not imply temporal succession or change.",
   "lean_declaration": "TruthCore.Logic.PerformedDenial.StaticEpisodeControl",
-  "definition_ids": ["DEF-EPISODE-OCCURRENCE", "DEF-EPISODIC-STATE-VARIATION"]
+  "definition_ids": [
+    "b76d69b8-2399-54c3-862b-ceeccdf23144",
+    "0328d44e-ee8e-54b5-bb65-59b197ce3ac1"
+  ]
 }

@@ -1,14 +1,16 @@
 {
-  "id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
+  "id": "80d361d7-0dc7-5503-9f11-26061eb7910d",
+  "label": "There is a relation and a source predicate on which every being's power is inductively grounded…",
+  "legacy_id": "STMT-GROUNDING-WITHOUT-UNIQUE-CAUSE-ALLOWS-REGRESS",
   "paraphrase": "There is a relation and a source predicate (on Option ℕ) on which every being's power is inductively grounded and the source receives no link, yet not every being is accessible: an infinite descending chain of links runs alongside the direct links from the source. So inductive grounding with uncaused sources does not by itself give the accessibility reading of the regress premise.",
   "lean_declaration": "TruthCore.Causality.GroundingRegress.GroundingWithoutUniqueCauseAllowsRegress",
   "definition_ids": [
-    "DEF-FINITELY-GROUNDED-CAUSAL-POWER",
-    "DEF-REGRESS-ACCESSIBILITY-READING",
-    "DEF-SOURCES-RECEIVE-NO-LINK"
+    "febac82d-1ca3-5773-89ec-0401f1bac7a0",
+    "47e6944d-5de0-588d-8fc2-b8ddea140690",
+    "31af2035-e8b5-51a6-b1be-c5ed687a5123"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-POWER-GROUNDING",
-    "DISAMB-NO-INFINITE-REGRESS-READING"
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
   ]
 }

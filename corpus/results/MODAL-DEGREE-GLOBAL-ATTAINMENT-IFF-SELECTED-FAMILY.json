@@ -1,6 +1,8 @@
 {
-  "id": "MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
-  "argument_id": "MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
+  "id": "997363bf-67e2-5b6b-aaa1-b43519ee90f9",
+  "label": "Some existing root-accessible\u2026, from The selected rigid individual exists at\u2026 and 3 more",
+  "legacy_id": "MODAL-DEGREE-GLOBAL-ATTAINMENT-IFF-SELECTED-FAMILY",
+  "argument_id": "cde209e4-9e6e-5773-abde-f1aa5a847710",
   "challenge_module": "TruthCore.Results.Modal.ExistenceDegreeAttainment.Challenge",
   "solution_module": "TruthCore.Results.Modal.ExistenceDegreeAttainment.Solution",
   "theorem": "TruthCore.Results.Modal.ExistenceDegreeAttainment.attainmentIff",

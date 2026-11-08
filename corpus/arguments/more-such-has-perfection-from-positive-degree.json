@@ -1,0 +1,25 @@
+{
+  "id": "cf4db879-8db5-56b2-b291-a50ad691ec2f",
+  "label": "Whatever is more such than something has the perfection itself: what is…, from positive degree",
+  "legacy_id": "MORE-SUCH-HAS-PERFECTION-FROM-POSITIVE-DEGREE",
+  "premise_statement_ids": [
+    "98755509-18d3-5282-bd66-47202d916266",
+    "ed766869-09b3-529a-ad3d-f817a931b5a3",
+    "ac72bbfe-a355-5179-9e29-0a6e565eb79e"
+  ],
+  "conclusion_statement_id": "c11369aa-7c3d-5dea-8421-535d5b4b3104",
+  "inference_ids": [
+    "6d48517e-3a4d-57c0-af7a-d8b6cf142308"
+  ],
+  "meaning": "What is hotter is hot, through degrees: if x is more r than y, x's degree of r is strictly above y's, which is at least the null degree, so x's degree is strictly above null, and whatever is strictly above the null degree of r has r. Three OPEN analyst premises about a per-respect degree family; the middle term is the degree, not the conclusion.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "6dfcb331-e8ca-53fd-b2f8-a8ad26a6a482",
+    "8323604a-2e7a-554c-9b32-d82e5201271d"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

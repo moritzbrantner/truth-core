@@ -1,0 +1,12 @@
+{
+  "id": "aa4797d1-d5b7-5eca-be46-9f1ad38577fc",
+  "label": "NECESSARY_1-being node, per se reading: there is an actual root n that is God, the…, from grounding",
+  "legacy_id": "NECESSARY-ROOT-PER-SE-FROM-GROUNDING",
+  "argument_id": "4fd4e8f7-99a9-5afa-9471-6c5b5b0af1ce",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySenseFork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySenseFork.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySenseFork.perSeFromGrounding",
+  "comparator_config": "results/NECESSARY-ROOT-PER-SE-FROM-GROUNDING/comparator.json",
+  "status": "solution-present",
+  "description": "The per se branch: the root n cannot not-be (the tertia via node, the weakest sense that suffices); if some c caused n's necessity, then c and n are actual concreta (OPEN), n depends on c (OPEN), and so c grounds n (OPEN), i.e. c is an actual concrete ground of n, which an actual root lacks. Without these premises the branch fails (controls: a box-existent individual whose necessity another causes)."
+}

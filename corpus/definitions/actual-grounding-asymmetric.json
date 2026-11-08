@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
+  "id": "b6854062-bec4-5480-8847-8e2314fee5b3",
+  "label": "Asymmetry of selected actual-concrete…: Existing ActualGroundingAsymmetric m w: for actual…",
+  "legacy_id": "DEF-ACTUAL-GROUNDING-ASYMMETRIC",
   "term": "asymmetry of selected actual-concrete grounding",
   "definition": "Existing ActualGroundingAsymmetric m w: for actual concrete a and b, grounds w a b implies not grounds w b a. It quantifies over the SAME selected grounds field used for actual roots, not efficient causation, temporal order, arbitrary facts or mixed act/bearer priority. It rules out self-edges and two-way pairs but not all longer cycles or infinite descending chains.",
   "basis": "stipulative",

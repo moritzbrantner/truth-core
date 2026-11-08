@@ -1,5 +1,7 @@
 {
-  "id": "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
+  "id": "3c25665f-1639-5b85-8052-d4a2fc555365",
+  "label": "Exhaustive concrete/abstract…: Exhaustive c means ∀ x, c.concrete x ∨ c.abstract x: every…",
+  "legacy_id": "DEF-CONCRETE-ABSTRACT-EXHAUSTIVE",
   "term": "exhaustive concrete/abstract classification",
   "definition": "Exhaustive c means ∀ x, c.concrete x ∨ c.abstract x: every candidate is concrete or abstract. An arbitrary Classification is not required to satisfy it, because the rival criteria need not be exhaustive. For the adopted esse sense it is derived from excluded middle (EsseDichotomy), not assumed.",
   "basis": "stipulative",

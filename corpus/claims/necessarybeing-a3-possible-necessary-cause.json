@@ -1,18 +1,20 @@
 {
-  "id": "NB-SURVEY-A3-POSSIBLE-NECESSARY-CAUSE",
-  "statement_id": "STMT-NB-A3-POSSIBLE-NECESSARY-CAUSE",
-  "source_id": "NECESSARYBEING-SURVEY",
+  "id": "f52dbb51-c287-5bc3-a559-3eda347177e9",
+  "label": "Unattributed website author, Necessary…: The source concludes from a possible cause of C* that is…",
+  "legacy_id": "NB-SURVEY-A3-POSSIBLE-NECESSARY-CAUSE",
+  "statement_id": "8955faa1-142c-5ff6-8593-f2f2e2e612a2",
+  "source_id": "2bc55f4c-f7bf-58d5-8092-786c46e2a144",
   "locator": "A3C, steps 9–11 and Necessary Being title attributes",
   "interpretation": "The author uses possible exercise to supply causal capability and noncontingency to supply must-exist classification. The extraction records that assertion without proving its domain/classification applicability. The repeated following modal suffix is already represented elsewhere: no new proof, necessity of a rigid individual, exchange of □∃ with ∃□ or actual-witness transport is credited here.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-NB-A3-EVENT-AND-CAUSE",
-    "DEF-NB-A3-FIRST-CONTINGENT-TRANSITION",
-    "DEF-NB-SURVEY-OBJECTIVE-POSSIBILITY",
-    "DEF-NB-SURVEY-NECESSARY-BEING"
+    "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
+    "86143f0e-c246-59d8-a775-4003173e254f",
+    "6922ea29-e11b-5b0d-8647-73fc284c24f0",
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
   ],
   "disambiguation_ids": [
-    "DISAMB-NB-A3-EVENT-CAUSE-SCOPE",
-    "DISAMB-NB-SURVEY-POSSIBILITY"
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8",
+    "23eecaf1-749b-5c41-8671-10d061b20a3f"
   ]
 }

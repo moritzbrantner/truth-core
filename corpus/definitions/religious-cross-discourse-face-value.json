@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
+  "id": "b3e05273-087e-5a8f-864d-52e56f82d3b4",
+  "label": "Face-value status with cross-discourse…: The analyst stronger profile requires local face-value…",
+  "legacy_id": "DEF-RELIGIOUS-CROSS-DISCOURSE-FACE-VALUE",
   "term": "face-value status with cross-discourse truth invariance",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Alternatives.ReligiousLanguageSemantics.CrossDiscourseFaceValue",

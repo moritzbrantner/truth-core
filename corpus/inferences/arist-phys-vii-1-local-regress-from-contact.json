@@ -1,12 +1,14 @@
 {
-  "id": "INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
+  "id": "5a06e77e-2160-5972-b48b-7dd9c834f301",
+  "label": "There is no infinite chain in which each member is moved in local MOTION_2 by the…, by Reductio",
+  "legacy_id": "INF-ARIST-PHYS-VII-1-LOCAL-REGRESS-FROM-CONTACT",
   "input_statement_ids": [
-    "STMT-PRIMARY-LOCAL-MOVER-TOUCHES",
-    "STMT-TOUCHING-CHAIN-FORMS-ONE",
-    "STMT-ONE-OF-INFINITE-LOCAL-CHAIN-TRAVERSES-INFINITE",
-    "STMT-NO-INFINITE-TRAVERSAL-IN-FINITE-TIME"
+    "62bb984f-1cea-5695-af72-d83c31d4210e",
+    "9a36bdc4-75a6-5c39-9d70-88bd42ba38a5",
+    "a497da1a-779e-5f9f-a50d-edaac83560f8",
+    "2d51f33a-50aa-5ecf-8d75-87afd4bb145d"
   ],
-  "output_statement_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
+  "output_statement_id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
   "rule": "reductio",
   "meaning": "Suppose an infinite chain of local moved movers. Each link is a primary local mover, so by the contact premise adjacent members touch; some one thing is made of them all; it would go through an infinite motion in a finite time; nothing does.",
   "assumption_statement_ids": [],

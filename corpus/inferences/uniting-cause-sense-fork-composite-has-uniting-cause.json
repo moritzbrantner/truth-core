@@ -1,0 +1,19 @@
+{
+  "id": "4ef76877-2224-5b3e-8175-483e689dd691",
+  "label": "Every composite has a cause, other than itself, of its being: things…, by Coverage and exclusivity…",
+  "legacy_id": "INF-UNITING-CAUSE-SENSE-FORK-COMPOSITE-HAS-UNITING-CAUSE",
+  "input_statement_ids": [
+    "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
+    "58445bd6-264b-53cf-8951-d052022f8e47",
+    "fbee7f15-f54b-5a67-9773-3c09ca7015f4",
+    "6af2aed7-d9bd-54f1-a4c2-4e981b22d099",
+    "c2d04ee1-b415-5486-abbf-705270b3bcb2",
+    "ccaffa91-30b9-5325-afbf-fbd0e0d00323",
+    "bd7c5881-f868-5b51-b60a-320335836a7b"
+  ],
+  "output_statement_id": "ca07cae9-6102-564e-a7fd-efb013744b3d",
+  "rule": "Coverage and exclusivity give one sense for both uses (equality of relations), then modus tollens",
+  "meaning": "Optional summary over UNITING-CAUSE_1-3 (joint sense fork) for the uniting-cause step of ST I q.3 a.7. A composite has two distinct components, which some c unites, and c causes the composite's being. Coverage reads both uses of 'causes' (the uniter causes x; nothing causes itself) in selected senses among efficient causing, causing being and uniting; exclusivity makes them one sense, so whichever it is, c causes x and nothing causes itself in it, hence c is not x. Every composite therefore has a distinct cause of its being. The controls show the step fails when the two uses are read in different senses (coverage without exclusivity). COMPOSITE-UNITING-CAUSE-FROM-UNION is the UNITING-CAUSE_2 instance.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

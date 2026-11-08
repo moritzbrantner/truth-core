@@ -1,0 +1,15 @@
+{
+  "id": "3317e074-fdda-5c61-999f-87744fcd68c6",
+  "label": "Whatever is in act in its being has some operation, transient or immanent",
+  "legacy_id": "STMT-BEING-IN-ACT-HAS-OPERATION",
+  "paraphrase": "OPEN analyst premise (operation follows being): whatever is in act in its being has some operation, transient or immanent. A wholly inert actual being falsifies it.",
+  "lean_declaration": "TruthCore.Causality.Round5Worklist.BeingInActHasOperation",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d77b6ed3-f8d6-5839-8089-fdb5f3562e94"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

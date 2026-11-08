@@ -1,0 +1,11 @@
+{
+  "id": "5581cd7f-43b3-5aa1-b18d-36b8a44a9681",
+  "label": "Every occurring thought episode is a modification, not a self-standing thing",
+  "legacy_id": "STMT-OCCURRING-THOUGHT-IS-MODIFICATION",
+  "paraphrase": "OPEN analyst premise: every occurring thought episode is a modification (a mode or accident), not a self-standing thing. Denied by bundle and event ontologies of the mind.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtIsModification",
+  "definition_ids": [
+    "41f956bd-5430-5c0d-801e-a661ffe28e05",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3"
+  ]
+}

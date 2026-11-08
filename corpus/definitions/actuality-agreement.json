@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUALITY-AGREEMENT",
+  "id": "c4ad27bb-2e78-5e95-9f56-ca479bd85792",
+  "label": "ACTUALITY_AGREEMENT_CONTENT_8: Agreement P a e means P e iff P a",
+  "legacy_id": "DEF-ACTUALITY-AGREEMENT",
   "term": "actuality-agreement content",
   "definition": "Agreement P a e means P e iff P a. Its diagonal is always true; off-diagonal it compares a fixed actuality with the evaluation world. For example, agreement about whether the SAME candidate exists; this is not claiming that the candidate exists at every world.",
   "basis": "stipulative",

@@ -1,0 +1,11 @@
+{
+  "id": "9eaa3b6e-ad2f-5776-ab26-03cfa9f54ad8",
+  "label": "For every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is…",
+  "legacy_id": "STMT-GREATER-DEGREE-IS-MORE",
+  "paraphrase": "OPEN analyst premise (degree reading of 'more'): for every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is more r than x.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.GreaterDegreeIsMore",
+  "definition_ids": [
+    "5766de66-8a37-5b04-aa65-9eec53319f50",
+    "cd977b0f-2265-5b91-9c88-56cf1d6b8ea7"
+  ]
+}

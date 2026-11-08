@@ -1,12 +1,14 @@
 {
-  "id": "SEP-RELIGIOUS-LANGUAGE-4-2-NIELSEN-INSULATION-A",
-  "statement_id": "STMT-NIELSEN-WF-INSULATES-FORMS-OF-LIFE",
-  "source_id": "SEP-RELIGIOUS-LANGUAGE",
+  "id": "1c57a6ba-c3bd-5057-9d8d-b91af18fcee4",
+  "label": "Michael Scott, Religious Language §4.2, 'no…: Nielsen's charge: on the Wittgensteinian view no…",
+  "legacy_id": "SEP-RELIGIOUS-LANGUAGE-4-2-NIELSEN-INSULATION-A",
+  "statement_id": "7e246a09-29d5-5e30-9994-673d0c60afa0",
+  "source_id": "749f3ba0-be0a-5609-ad1d-e735dd6df917",
   "locator": "§4.2, 'no philosophical or other kind of reasonable criticism'",
   "interpretation": "The entry reports the objection that Wittgenstein's view quarantines religious discourse, 'forcefully prosecuted by Kai Nielsen', quoting him: 'no philosophical or other kind of reasonable criticism, or for that matter defence, is possible for forms of life or, indeed, of any form of life, including Hinduism, Christianity and the like' (2000: 147). The entry argues that the objection is misplaced against the minimalist reading. Attribution reading of the position the entry reports, not a view of the entry's author.",
   "status": "formalized",
   "attribution": "The passage states that Nielsen charged that on the Wittgensteinian view no reasonable criticism or defence of any form of life, Christianity included, is possible, which is the premise.",
   "definition_ids": [
-    "DEF-WITTGENSTEINIAN-FIDEISM"
+    "8c86d489-cd62-5d8e-9207-2d846caf9c14"
   ]
 }

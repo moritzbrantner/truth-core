@@ -1,0 +1,14 @@
+{
+  "id": "cbb068e8-337d-5772-a3f9-10df457ba9fe",
+  "label": "Whatever has being by participation actually exists with esse distinct from its essence",
+  "legacy_id": "STMT-PARTICIPATED-HAS-DISTINCT-ESSE",
+  "paraphrase": "OPEN analyst bridge (attribution deferred): whatever has being by participation actually exists with esse distinct from its essence.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.ParticipatedHasDistinctEsse",
+  "definition_ids": [
+    "14d30c53-51c2-502d-b009-247dac0421e0",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "54f33165-05df-5205-807a-04154b5fd6ad"
+  ]
+}

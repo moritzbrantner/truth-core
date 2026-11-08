@@ -1,6 +1,8 @@
 {
-  "id": "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
-  "argument_id": "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+  "id": "019e2e71-9b4d-5405-b7d3-f8ba19a590c6",
+  "label": "There are coherent finite typed models with an actually existing subject whose esse and essence…",
+  "legacy_id": "Q3A4-ESSE-CAUSE-OMISSION-MODELS",
+  "argument_id": "6aebfd94-46b6-5597-8969-3c7f28cdc25b",
   "challenge_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Challenge",
   "solution_module": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.Solution",
   "theorem": "TruthCore.Results.Aquinas.SummaTheologiae.EssenceEsseExternalCause.premiseOmissionsAndControl",

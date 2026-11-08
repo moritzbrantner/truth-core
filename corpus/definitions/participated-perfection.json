@@ -1,0 +1,10 @@
+{
+  "id": "d9dec61b-23ec-5a5d-8c9d-6b15193d8490",
+  "label": "Having a perfection by participation: ParticipatesIn x r: x has the perfection r by participation…",
+  "legacy_id": "DEF-PARTICIPATED-PERFECTION",
+  "term": "having a perfection by participation (ParticipatesIn x r)",
+  "definition": "ParticipatesIn x r: x has the perfection r by participation, that is, not through what x is but as something x takes part in. It generalizes Participated (DEF-PARTICIPATED-ESSE, esse by participation) to any perfection. Example: the iron's heat in the fire-heated iron. Non-example: whatever has r through its own essence. It is not a Platonic Form-participant relation (DISAMB-THOMISTIC-ESSE-PARTICIPATION) and not the reception relation ReceivedIn, which the open premise STMT-PARTICIPATED-PERFECTION-IS-RECEIVED-IN-PARTICIPANT links to it.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.CausedByAnotherIsParticipated",
+  "note": "Stipulative analyst generalization, attribution deferred. ST I q.44 a.1 co. and ad 1 use participation for esse only (claim AQUINAS-ST-I-Q44-A1-PARTICIPATED-ESSE-CAUSE); the extension to every perfection is the analyst's."
+}

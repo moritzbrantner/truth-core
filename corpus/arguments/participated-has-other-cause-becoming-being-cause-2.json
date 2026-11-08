@@ -1,0 +1,23 @@
+{
+  "id": "d3c6a6f7-b653-578c-a3d5-dc94480401ba",
+  "label": "Whatever has its being by participation has a…, from Becoming being-CAUSE_2: whatever has being…",
+  "legacy_id": "PARTICIPATED-HAS-OTHER-CAUSE-BECOMING-BEING-CAUSE-2",
+  "premise_statement_ids": [
+    "7561e216-900f-53f1-9e22-d74427758cd6"
+  ],
+  "conclusion_statement_id": "2b25a78c-abad-50d9-abb9-31a753409192",
+  "inference_ids": [
+    "224fb571-f613-52eb-877d-11bc77d6ead0"
+  ],
+  "meaning": "Explicit sense bridge BECOMING-BEING-CAUSE_2 → BECOMING-BEING-CAUSE_3 (strength order): an actually existing external efficient cause of a thing's esse is another being that causes its being (CausesIn c x esse), so the participated has another cause of its being, the root-path statement. With PARTICIPATED-EXTERNAL-ESSE-CAUSE-BECOMING-BEING-CAUSE-2 it gives a route to STMT-PARTICIPATED-HAS-OTHER-CAUSE through sense 2. Sense 1 (cause of becoming) gives no such route: the controls model it with no cause of being.",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "196be87e-b944-5924-b791-87406fbe48f6",
+    "14d30c53-51c2-502d-b009-247dac0421e0"
+  ],
+  "disambiguation_ids": [
+    "c3c01e92-520e-5358-a58f-0cc7e9c9e6fa",
+    "3b0d67c5-59e4-5556-a728-26bd567f0fb1",
+    "54f33165-05df-5205-807a-04154b5fd6ad"
+  ]
+}

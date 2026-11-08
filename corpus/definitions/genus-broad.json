@@ -1,11 +1,13 @@
 {
-  "id": "DEF-GENUS-BROAD",
+  "id": "486bb45e-c4a2-5ba5-8b12-498a24eb1678",
+  "label": "GENUS_2: The index r: Respect of the quarta via's GENUS_2 principle: a perfection such as heat…",
+  "legacy_id": "DEF-GENUS-BROAD",
   "term": "genus (broad: a perfection admitting more and less)",
   "definition": "The index `r : Respect` of the quarta via's genus principle (`MaximumInGenusCausesAllInGenusReading`): a perfection such as heat, goodness or being, whose bearers are more and less such by approach to what is maximally such. It need not be a strict genus: heat in the example is a quality, not a genus of hot things, and being is not a strict genus.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-MAXIMUM-CAUSES-GENUS-A",
-    "AQUINAS-ST-I-Q3-A5-AD2-MEASURE-BY-APPROACH-A"
+    "73eece80-ee7d-564f-9e40-c00c71492a02",
+    "0e8bf2b9-1d6c-5ae6-8619-03efb008ef90"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading",
   "note": "Typed parameter location: r : Respect quantified by MaximumInGenusCausesAllInGenusReading. The linked declaration is the open causal principle that uses this selected perfection, not a definition of a broad genus. The interpretation of an arbitrary respect as one of the intended perfections remains OPEN."

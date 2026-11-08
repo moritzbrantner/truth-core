@@ -1,26 +1,28 @@
 {
-  "id": "MODAL-D-COUNTERMODELS",
+  "id": "1cdfc62c-4a92-5ea6-b7b8-76e849a2be11",
+  "label": "Explicit serial finite pocket and fork frames witness possible full collapse without actual root…",
+  "legacy_id": "MODAL-D-COUNTERMODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-MODAL-D-COUNTERMODELS",
+  "conclusion_statement_id": "2509c7a2-a6d1-521d-b2b7-3374f8f911d8",
   "inference_ids": [
-    "INF-MODAL-D-COUNTERMODELS"
+    "a8e14a6a-5950-56dc-92cf-ea14e514bb13"
   ],
   "meaning": "A direct constructive mathematical test for D serial frames and explicit proposition domains, not a source claim, transcription, frontier closure or refutation of Hume. Exhaust the explicitly enumerated carriers, exhibit successors and contrary atom witnesses, and use the root equality predicate to refute full MC at non-self-accessing worlds. Singleton endpoint successor sets establish full MC there. The Boolean report reuses the fixture evaluator and ordered witness lists.",
   "definition_ids": [
-    "DEF-MODAL-FIXTURE-FRAME",
-    "DEF-MODAL-FIXTURE-DOMAIN",
-    "DEF-MODAL-FIXTURE-MC",
-    "DEF-MODAL-D-SERIAL",
-    "DEF-MODAL-D-OPERATORS",
-    "DEF-MODAL-FIXTURE-IDENTITY",
-    "DEF-HUME-TEST-CONTINGENCY",
-    "DEF-MODAL-FIXTURE-FINITE",
-    "DEF-MODAL-D-POCKET",
-    "DEF-MODAL-D-FORK"
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "a315ea74-8cb6-57a6-ab40-17265bbe1ce7",
+    "f9a77a01-4dcf-5a1d-9bf7-a45a466ce504",
+    "ceded0b9-7c27-55c0-82db-4bf0afc66e47",
+    "caa13bc6-f5d5-5607-85d3-c1b7c952ae77",
+    "d24cc01a-d6c5-5a1d-bdde-989511bbd1b7",
+    "09d51a0b-d02f-5fb4-97db-3b6a4aa3a138",
+    "f57a0812-732f-5680-9711-9ab440869861",
+    "84c06eca-cdc4-58fe-9de9-29e0611b2b7e",
+    "1ef2d2af-b611-53dd-b1fa-86480e41ba6a"
   ],
   "disambiguation_ids": [
-    "DISAMB-MODAL-FIXTURE-SCOPE-IDENTITY",
-    "DISAMB-MODAL-D-COLLAPSE-SCOPE",
-    "DISAMB-MODAL-K-COLLAPSE-MODES"
+    "70eab05f-3fde-575b-9de1-6692e7b71974",
+    "93baf677-7f4f-51fe-a03a-1cd79cadb6f7",
+    "2d935e8e-a7d0-50db-999d-a5271406a372"
   ]
 }

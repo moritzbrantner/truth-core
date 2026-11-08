@@ -1,0 +1,18 @@
+{
+  "id": "e973cf61-b5c8-55f1-8761-98bd734bbf8c",
+  "label": "Grades are found in things: some things are more and others less…, by Existential instantiation of…",
+  "legacy_id": "INF-GRADES-FROM-COGITO-LIVING-THINKER",
+  "input_statement_ids": [
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "30e6e01c-b7f1-536c-86ae-0a9be35dd160",
+    "0ce7b6c5-6e52-56ea-9377-8328b67765e7",
+    "e7cbb87f-7a76-5ff9-83ce-61a35934bd8c",
+    "1c8383f5-b4e3-5be2-9576-39374927c296",
+    "e4a7ef4b-fb0d-56aa-b53e-99e9cc315439"
+  ],
+  "output_statement_id": "a9622441-2db2-5d32-9b02-a9d283bd2949",
+  "rule": "existential instantiation of the thought and its bearer, then of the non-living actual thing; universal instantiation of the comparison and convertibility",
+  "meaning": "If some thought occurs, every occurring thought has a bearer, every bearer of an occurring thought lives, some actual thing does not live, whatever lives is more noble than any non-living actual thing, and a grade of nobility is also a grade of goodness and truth, then some thing is more good, some more true and some more noble than another (the quarta via's grades premise). Every premise is open; the thinker witnesses only the comparison, not any maximum. Omitting any premise has a finite countermodel; one joint model with a thinker and a stone satisfies all premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

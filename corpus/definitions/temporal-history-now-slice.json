@@ -1,5 +1,7 @@
 {
-  "id": "DEF-TEMPORAL-HISTORY-NOW-SLICE",
+  "id": "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+  "label": "Separate modal worlds and temporal\u2026: History supplies an existing Kant Ontic, an independently\u2026",
+  "legacy_id": "DEF-TEMPORAL-HISTORY-NOW-SLICE",
   "term": "separate modal worlds and temporal histories with explicit now-slice coherence",
   "definition": "History supplies an existing Kant Ontic, an independently assigned IsAt : World \u2192 Being \u2192 Time \u2192 Prop, and a designated now : Time. CoherentAtNow is the separate proposition that Ontic.ExistsAt w x is equivalent to IsAt w x now for all worlds and candidates. It is not a proof field of History. This interprets modal presence at a selected time; it does not redefine presence as existence at some time in a history. Ontic.Causes and the old profile grounds relation remain world-relative primitives, not temporal successor relations.",
   "basis": "stipulative",

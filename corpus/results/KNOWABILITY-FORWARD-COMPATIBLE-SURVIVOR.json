@@ -1,6 +1,8 @@
 {
-  "id": "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
-  "argument_id": "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+  "id": "64695f4a-e5c6-5c57-bf22-a9909d775b67",
+  "label": "On the existing four worlds, epistemic blocks {0,1},{2},{3}, atom true at0,2 and atom-invariant…",
+  "legacy_id": "KNOWABILITY-FORWARD-COMPATIBLE-SURVIVOR",
+  "argument_id": "4ec9523b-70d4-560c-9a46-a6b143e0c958",
   "challenge_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Challenge",
   "solution_module": "TruthCore.Results.Logic.KnowabilityCompatibility.Solution",
   "theorem": "TruthCore.Results.Logic.KnowabilityCompatibility.forwardSurvivor",

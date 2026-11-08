@@ -1,0 +1,12 @@
+{
+  "id": "0857ad49-390c-5cc7-a2e5-c8ec89612dbb",
+  "label": "Whatever operates from itself and is moved in no respect lives at some…, from present operation",
+  "legacy_id": "SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION",
+  "argument_id": "da46291c-d7b1-5ade-ba19-9259dfd89e69",
+  "challenge_module": "TruthCore.Results.Causality.Round5Worklist.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round5Worklist.Solution",
+  "theorem": "TruthCore.Results.Causality.Round5Worklist.selfOperatingUnmovedLivesFromOperation",
+  "comparator_config": "results/SELF-OPERATING-LIVES-FROM-PRESENT-OPERATION/comparator.json",
+  "status": "solution-present",
+  "description": "Whatever operates from itself and is moved in no respect lives at some time, through the timed predicate OperatesFromItselfAt: the self-operation is present at some time (OPEN), and operating from itself at a time is living at it (OPEN q.18 a.2 reading). The unmoved clause of the conclusion is not used: under these two premises every self-operating thing lives, which is a strictly stronger conclusion."
+}

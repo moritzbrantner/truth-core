@@ -1,14 +1,16 @@
 {
-  "id": "INF-HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
+  "id": "8d01149b-17ff-55e6-812c-dc30e9d6fb2f",
+  "label": "The encoded Catholic hiddenness reply commitments have a finite…, by Finite model construction",
+  "legacy_id": "INF-HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
   "input_statement_ids": [
-    "STMT-HIDDENNESS-GOD-EXISTS",
-    "STMT-HIDDENNESS-GOD-LOVES",
-    "STMT-HIDDENNESS-QUALIFIED-OPEN",
-    "STMT-HIDDENNESS-REASON-FOR-EACH-GAP",
-    "STMT-HIDDENNESS-ACCESS-NEEDS-BELIEF",
-    "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"
+    "38f29622-b354-55e1-9897-1da78d04c844",
+    "0edc0b38-46b0-567a-9f72-64e16b30c77b",
+    "2835fac8-35cb-56cf-85e4-cbde536a94a2",
+    "c3b32d5d-e5a4-5c01-9344-c220430c8b63",
+    "7a22ab5d-e728-58a0-b6f1-48d944e6e216",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
   ],
-  "output_statement_id": "STMT-HIDDENNESS-CATHOLIC-REPLY-CONSISTENT",
+  "output_statement_id": "6b067685-b571-5213-a23d-c250daa014f9",
   "rule": "finite model construction",
   "meaning": "Construct a two-time interpretation with a capable nonresister who lacks belief at the early time and has explicit access later. All encoded commitments hold; actual sufficient reasons remain unproved.",
   "assumption_statement_ids": [],

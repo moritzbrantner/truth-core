@@ -1,7 +1,9 @@
 {
-  "id": "STMT-ALTOGETHER-IMMUTABLE-HAS-NO-BEGINNING-OR-END",
+  "id": "714f0039-b294-5aaf-9107-276f74c82bae",
+  "label": "What is altogether IMMUTABLE_1 can have neither succession nor beginning nor end, as whatever is…",
+  "legacy_id": "STMT-ALTOGETHER-IMMUTABLE-HAS-NO-BEGINNING-OR-END",
   "paraphrase": "What is altogether immutable can have neither succession nor beginning nor end, as whatever is moved has some beginning and some end.",
   "definition_ids": [
-    "DEF-IMMUTABLE"
+    "da5c0716-718e-5aaa-abec-95c9e93cac00"
   ]
 }

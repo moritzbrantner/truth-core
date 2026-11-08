@@ -1,0 +1,14 @@
+{
+  "id": "e50c79f4-4e06-5665-9410-3c713f69f6a4",
+  "label": "As each thing stands in respect of being, so it stands in respect of…, by Transitivity of the…",
+  "legacy_id": "INF-AS-TO-BEING-SO-TO-TRUTH-FROM-INTELLIGIBILITY",
+  "input_statement_ids": [
+    "1568610e-4df8-5f90-8200-8446b1cda8fb",
+    "2a0e7f12-b07a-5a60-9e25-9ca67f7bb490"
+  ],
+  "output_statement_id": "5a948c37-a0c3-5438-87e6-b797b529f76e",
+  "rule": "Transitivity of the biconditional, for having and for the comparative",
+  "meaning": "Truth said of things goes with intelligibility (q.16 a.1, a.3), and intelligibility goes with being (q.16 a.3: each thing is knowable insofar as it has being); so a thing has truth exactly when it has being, and is more true exactly when it is more a being: Metaphysics II.1's 'as to being, so to truth'. A two-step chain through the distinct respect of intelligibility; both premises are OPEN readings supported by q.16 claims.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

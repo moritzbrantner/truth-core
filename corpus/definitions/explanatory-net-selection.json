@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-NET-SELECTION",
+  "id": "7e29ff7f-5bb3-56ec-995d-fbf72aa014b0",
+  "label": "Pro tanto and net selection: ProTanto at w: a true base reason is admitted for the true f, the…",
+  "legacy_id": "DEF-EXPLANATORY-NET-SELECTION",
   "term": "pro tanto and net selection",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.NetSelects",

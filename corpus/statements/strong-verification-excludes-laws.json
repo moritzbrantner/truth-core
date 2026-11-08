@@ -1,14 +1,16 @@
 {
-  "id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
+  "id": "256d6e71-ae71-52b1-ba03-bc3c9593ec50",
+  "label": "Strong verification excludes universal laws: in every setting with infinitely many individuals…",
+  "legacy_id": "STMT-STRONG-VERIFICATION-EXCLUDES-LAWS",
   "paraphrase": "Strong verification excludes universal laws: in every setting with infinitely many individuals, observation statements each about finitely many of them, and individuals that vary independently, the law 'every R is B' is not conclusively verifiable, while its negation is conclusively verifiable whenever an observed counterinstance (R a and not-B a, both observation statements) is possible.",
   "lean_declaration": "TruthCore.Logic.Verificationism.StrongVerificationExcludesLaws",
   "definition_ids": [
-    "DEF-TRUTH-CONDITIONAL-LANGUAGE",
-    "DEF-EMPIRICIST-FRAME",
-    "DEF-CONCLUSIVE-VERIFIABILITY",
-    "DEF-UNIVERSAL-LAW-SETTING"
+    "cb0b59e9-7a00-5d8c-ba11-802974a42992",
+    "c79be2d4-8641-5b1c-86bb-69a28cc4d184",
+    "bd8abce7-0de2-528a-b7dd-f8418398846b",
+    "13a5c026-997e-5198-b77e-ccd215344107"
   ],
   "disambiguation_ids": [
-    "DISAMB-VERIFIABILITY-VARIANT"
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd"
   ]
 }

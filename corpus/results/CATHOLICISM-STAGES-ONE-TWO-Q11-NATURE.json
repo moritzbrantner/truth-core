@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
-  "argument_id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+  "id": "ce2c09ce-9712-5955-9b19-4abf48549f88",
+  "label": "There is one and the same being that is…, from Something in this world is being moved… and 32 more",
+  "legacy_id": "CATHOLICISM-STAGES-ONE-TWO-Q11-NATURE",
+  "argument_id": "5d2c8320-c412-5875-abf6-0fcdd30326f8",
   "challenge_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.StagesOneTwoQ11.uniqueClassicalGodExists",

@@ -1,21 +1,23 @@
 {
-  "id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "id": "924a53f8-f92a-502b-be0f-2d7a42b23209",
+  "label": "There exist carriers and one joint interpretation of the old causal frame and new content/consumer…",
+  "legacy_id": "INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL",
+  "conclusion_statement_id": "81c76d48-c2c6-57c9-9100-1572478e7950",
   "inference_ids": [
-    "INF-INTENTIONALITY943-PHYSICALIST-ERROR-MODEL"
+    "ad4b3ce4-b943-5c68-b589-b1acd3209c9a"
   ],
   "meaning": "One finite interpretation jointly satisfies the old causal background and reductive kind classification, consumer content, a true affection report and an erroneous representation. It reuses MindPhysicalism.reductiveBackground rather than restating its causal consequences as assumptions. No general or empirical physicalism follows, and selectional history is stipulated in a primitive relation.",
   "definition_ids": [
-    "DEF-MIND-OCCURRENCE-FRAME",
-    "DEF-INTENTIONALITY943-CONTENT",
-    "DEF-INTENTIONALITY943-AFFECTION-REPORT",
-    "DEF-INTENTIONALITY943-CONSUMER-FUNCTION",
-    "DEF-MIND-PHYSICAL-BASIS",
-    "DEF-MIND-POSITIONS"
+    "d6835210-4ba5-5d56-ae3a-4588933bc4a8",
+    "dd04a959-a145-5411-a63f-4d18a17ec56e",
+    "b4eaa5d6-8e85-5ec3-9ed1-f8d5905f92c7",
+    "156668bb-4359-584e-aecc-f8679ae98456",
+    "e99b9cb2-5197-5383-8cf2-7ad8b3286952",
+    "f0ce5083-0656-5227-9936-2db0ad2049ab"
   ],
   "disambiguation_ids": [
-    "DISAMB-INTENTIONALITY943-TOKEN-CONTENT",
-    "DISAMB-INTENTIONALITY943-REPORT-CONTENT"
+    "823dc975-75c4-580a-8f93-02701b622c36",
+    "d3daa786-96f3-5c31-9d5b-cc2a269bddf7"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "2eeeaa28-daba-5559-8907-e0d4fd538412",
+  "label": "Thomas Aquinas, Summa theologiae I q.3… supports Whatever is not in act of esse is merely…",
+  "legacy_id": "REL-Q3-A4-ESSE-ACTUALITY-SUPPORTS-LACKING-ESSE-IS-MERELY-POSSIBLE",
+  "subject_kind": "claim",
+  "subject_id": "5fd6b154-0c3e-5dec-bf47-93c2b2d9e735",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "a62975a9-bcd4-5bc7-83e7-6d4f5d2b2c13",
+  "note": "ST I q.3 a.4 co. (second proof) states that esse is the actuality of every form or nature and infers that esse is related to an essence distinct from it 'sicut actus ad potentiam'. The premise states that whatever is not in act of esse is merely possible (in potency to being only). The passage speaks of the essence of a thing that has esse, not of what lacks esse altogether, and it does not consider abstracta, which a Platonist holds lack esse in re without being merely possible."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "e4484bdc-b7bc-5bd6-a8b0-7210916f11f1",
+  "label": "For whatever is GOD_4, there is some being other than it",
+  "legacy_id": "STMT-SOMETHING-OTHER-THAN-GOD-EXISTS",
+  "paraphrase": "OPEN bridge: for whatever is God, there is some being other than it.",
+  "lean_declaration": "TruthCore.Causality.GodMaximalCausal.SomethingOtherThanGodExists",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

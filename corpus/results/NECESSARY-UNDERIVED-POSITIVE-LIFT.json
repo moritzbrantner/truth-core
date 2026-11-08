@@ -1,6 +1,8 @@
 {
-  "id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
-  "argument_id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "id": "01da1ff3-2f64-50b6-902c-2ba41e1b6252",
+  "label": "At least one identical actual individual…, from At least one individual exists at the… and 3 more",
+  "legacy_id": "NECESSARY-UNDERIVED-POSITIVE-LIFT",
+  "argument_id": "92bdedf6-dcae-545c-8b8c-4b435456b04c",
   "challenge_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Challenge",
   "solution_module": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.Solution",
   "theorem": "TruthCore.Results.Causality.NecessarilyUnderived.PositiveLift.checks",

@@ -227,7 +227,12 @@ export function suggestIntermediateLemma(result: ProofExploration): Intermediate
 }
 
 /** Adds a transient suggestion to the existing derived research queue. */
-export function lemmaResearchObligation(result: ProofExploration, root: string): import("./research-frontier").ResearchObligation | null {
+export function lemmaResearchObligation(
+  result: ProofExploration,
+  root: string,
+  /** Display name of a statement id; ids stay opaque. */
+  nameOf: (id: string) => string = (id) => id,
+): import("./research-frontier").ResearchObligation | null {
   const candidate = suggestIntermediateLemma(result);
   if (!candidate) {
     return null;
@@ -238,7 +243,7 @@ export function lemmaResearchObligation(result: ProofExploration, root: string):
     frontier: "exploration",
     statementIds: sorted([candidate.target, ...candidate.missingPremiseIds]),
     recordIds: candidate.provenance.inferenceIds,
-    title: `Unverified intermediate lemma for ${candidate.target}`,
+    title: `Unverified intermediate lemma for ${nameOf(candidate.target)}`,
     blocker: candidate.wording,
     nextAction: candidate.needs.join(" "),
     rootRelevant: candidate.target === root,

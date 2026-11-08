@@ -1,0 +1,13 @@
+{
+  "id": "7c3da33e-7ead-54f8-aace-ed3cf3a7bb02",
+  "label": "In a subject capable of r, privation of r is exactly the lack of r in act: ∀ x r, CanBe x r →. It…",
+  "legacy_id": "STMT-PRIVATION-IS-LACK-OF-ACT-IN-CAPABLE",
+  "paraphrase": "OPEN analyst premise: in a subject capable of r, privation of r is exactly the lack of r in act: ∀ x r, CanBe x r → (Deprived x r ↔ ¬ InAct x r). It says nothing about incapable subjects (a mere negation is no privation).",
+  "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PrivationIsLackOfActInCapable",
+  "definition_ids": [
+    "f605c9a9-f05c-52cf-a56f-c1ccd4cd45bc",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ]
+}

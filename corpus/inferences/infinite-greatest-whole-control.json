@@ -1,7 +1,9 @@
 {
-  "id": "INF-INFINITE-GREATEST-WHOLE-CONTROL",
+  "id": "74f0a0c0-c4e0-5e4a-baf0-d7e674f70594",
+  "label": "The infinite set of three-coordinate real points is greatest…, by Construct explicit order and…",
+  "legacy_id": "INF-INFINITE-GREATEST-WHOLE-CONTROL",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-INFINITE-GREATEST-WHOLE-CONTROL",
+  "output_statement_id": "f49cd061-64ab-563c-96ea-39cccebd0e06",
   "rule": "Construct explicit order and omission controls; compose existing model certificates",
   "meaning": "Use the Mathlib powerset inclusion order and real order separately, inject constants/singletons to witness both infinite carriers, and refute each coordinate bound by a+1. Exhibit a proper region with no priority edge; midpoint extends each open-interval degree; disjoint singleton regions witness restricted incomparable maxima. Apply unchanged QuartaViaDegreeFork.branchWitnesses for the old finite/Nat controls.",
   "assumption_statement_ids": [],

@@ -1,21 +1,23 @@
 {
-  "id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
+  "id": "4271912d-e59a-5a2e-8271-d39b9a052309",
+  "label": "Any two finite upstream paths starting at one node can be extended\u2026, from unique predecessor",
+  "legacy_id": "SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR",
   "premise_statement_ids": [
-    "STMT-SOURCE-FOREST-UNIQUE-PREDECESSOR"
+    "b0b614c3-0933-5724-b477-6642db60521f"
   ],
-  "conclusion_statement_id": "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
+  "conclusion_statement_id": "1a575754-6316-5d66-ac5b-db8fb4cf1aef",
   "inference_ids": [
-    "INF-SOURCE-FOREST-CONFLUENCE-FROM-UNIQUE-PREDECESSOR"
+    "bc5560c5-0b3b-5046-9cb1-1eb7c707cf4c"
   ],
   "meaning": "Mathlib Church\u2013Rosser on reversed edges: left uniqueness makes each immediate upstream fork have equal endpoints, supplying the local diamond condition. This derives upstream confluence as a sufficient structural condition, without asserting it of actual causation.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

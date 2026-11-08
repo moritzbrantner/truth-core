@@ -1,6 +1,8 @@
 {
-  "id": "THIRD-MAN-SENSITIVITY",
-  "argument_id": "THIRD-MAN-SENSITIVITY",
+  "id": "317f30d9-86d4-5641-af80-f3bf4f8722d3",
+  "label": "Concrete three-entity countermodels negate numerical unboundedness when formation, ordinary…",
+  "legacy_id": "THIRD-MAN-SENSITIVITY",
+  "argument_id": "7793184b-fb58-5d7e-abe8-edfc0e76b9bd",
   "challenge_module": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Challenge",
   "solution_module": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.Solution",
   "theorem": "TruthCore.Results.Greek.Plato.ThirdMan.Sensitivity.sensitivityModels",

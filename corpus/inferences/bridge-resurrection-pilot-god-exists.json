@@ -1,9 +1,11 @@
 {
-  "id": "INF-BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
+  "id": "48a21ce5-f3de-5b06-928e-ae9f8c5c1c87",
+  "label": "The Catholic pilot affirms the existing skeleton’s GodExists predicate, by Definitional-identity",
+  "legacy_id": "INF-BRIDGE-RESURRECTION-PILOT-GOD-EXISTS",
   "input_statement_ids": [
-    "STMT-GOD-EXISTS"
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129"
   ],
-  "output_statement_id": "STMT-PILOT-GOD-EXISTS",
+  "output_statement_id": "a38dab0b-47a2-5c2b-802d-11bbe8898f64",
   "rule": "definitional-identity",
   "meaning": "The pilot's existence cell is defined as the case's stage-1 proposition for the pilot's core signature. A transcription: the conclusion is the premise.",
   "assumption_statement_ids": [],

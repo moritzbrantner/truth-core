@@ -1,0 +1,11 @@
+{
+  "id": "8ab3d114-d6e2-5f6d-805b-ae901f56d39b",
+  "label": "If y does not depend for its being on x, then y can be without x",
+  "legacy_id": "STMT-INDEPENDENCE-ALLOWS-BEING-WITHOUT",
+  "paraphrase": "OPEN analyst premise: if y does not depend for its being on x, then y can be without x. It fails when x's not being is itself impossible, since then y cannot be while x is not although y does not depend on x.",
+  "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.IndependenceAllowsBeingWithout",
+  "definition_ids": [
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f",
+    "d0b06beb-e8cb-5cb8-af2f-bc7f8cc004b2"
+  ]
+}

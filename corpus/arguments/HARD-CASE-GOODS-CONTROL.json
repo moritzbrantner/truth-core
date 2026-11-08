@@ -1,20 +1,22 @@
 {
-  "id": "HARD-CASE-GOODS-CONTROL",
+  "id": "5cbcb915-e10e-598c-b91e-469a65802aa0",
+  "label": "A single typed hard-case factual structure and shared independently stipulated good and damage…",
+  "legacy_id": "HARD-CASE-GOODS-CONTROL",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HARD-CASE-GOODS-CONTROL",
+  "conclusion_statement_id": "3f82d9ad-8ae7-5d49-9d04-82eaafd6aa06",
   "inference_ids": [
-    "INF-HARD-CASE-TYPED-CONTROLS",
-    "INF-HARD-CASE-GOODS-CONTROL"
+    "77e51f55-03e3-5fc8-acb5-64ff799d83c1",
+    "af86e0c2-6c71-5b3c-904b-41eddb5104b0"
   ],
   "meaning": "Composes the certified typed hard-case omission with shared, separately stipulated positive-good and damage assignments; does not establish actual moral truth or permission.",
   "definition_ids": [
-    "DEF-HARD-CASE-TYPED-CONTROLS",
-    "DEF-HARD-CASE-NONCONSENT",
-    "DEF-HARD-CASE-INNOCENCE-NONTHREAT",
-    "DEF-HARD-CASE-HUMAN-GOODS"
+    "a61f7f72-ff7c-5afd-8691-7f8d08a611d6",
+    "20fddea1-4b27-5021-8c0d-ecc5bef50a27",
+    "111420d8-cc79-5fde-9555-7305b010c929",
+    "2cba2f9b-fa0b-5422-ba5a-a11e9f35c25f"
   ],
   "disambiguation_ids": [
-    "DISAMB-HISTORICAL-RAPE-AND-NONCONSENT",
-    "DISAMB-INNOCENCE-HARD-CASE-AQUINAS"
+    "600cb96a-ffcc-591e-a4f1-8c7713a705f9",
+    "658195c2-4e01-5dea-ba09-e1a5f75517a6"
   ]
 }

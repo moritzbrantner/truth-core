@@ -1,7 +1,9 @@
 {
-  "id": "INF-EXPLANATORY-SYMMETRY-COMPARISON",
+  "id": "86634cae-b4b7-513a-bfb6-ce91194ecff6",
+  "label": "With base-fixed asymmetric favouring, worlds agreeing on the base do not…, by Model-construction",
+  "legacy_id": "INF-EXPLANATORY-SYMMETRY-COMPARISON",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-EXPLANATORY-SYMMETRY-COMPARISON",
+  "output_statement_id": "7cc986d5-db68-58e2-95d2-3ecc6a885994",
   "rule": "model-construction",
   "meaning": "Prove each general clause and check each named model; the enabling clause composes the #750 core.",
   "assumption_statement_ids": [],

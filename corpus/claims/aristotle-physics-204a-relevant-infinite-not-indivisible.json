@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-PHYS-204A-RELEVANT-INFINITE-NOT-INDIVISIBLE-A",
-  "statement_id": "STMT-RELEVANT-INFINITE-NOT-INDIVISIBLE",
-  "source_id": "ARIST-PHYS",
+  "id": "2ad84c90-1758-55f5-a1ea-5d0ef9299c8b",
+  "label": "Aristotle, Physics III.5, 204a8-16: The infinite relevant to Aristotle's physical inquiry is not…",
+  "legacy_id": "ARIST-PHYS-204A-RELEVANT-INFINITE-NOT-INDIVISIBLE-A",
+  "statement_id": "62b9c061-439c-5b3a-a619-86875e75475c",
+  "source_id": "13799e73-292a-512c-a380-17b0dbf24740",
   "locator": "III.5, 204a8-16",
   "interpretation": "Aristotle excludes the merely privative sense illustrated by a voice being 'invisible': the inquiry concerns the unbounded or untraversable infinite, which is not the indivisible result of the separable-substance hypothesis.",
   "status": "formalized"

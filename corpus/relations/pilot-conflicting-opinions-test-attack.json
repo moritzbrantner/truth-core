@@ -1,9 +1,11 @@
 {
-  "id": "REL-PILOT-CONFLICTING-OPINIONS-TEST-ATTACK",
+  "id": "1e9410ca-4545-5b3d-a74b-fb11e827fdc8",
+  "label": "For the supplied opinion and truth…, from… attacks Every opinion held by any person is true…",
+  "legacy_id": "REL-PILOT-CONFLICTING-OPINIONS-TEST-ATTACK",
   "subject_kind": "argument",
-  "subject_id": "PILOT-CONFLICTING-OPINIONS-TEST",
+  "subject_id": "87504a6f-0778-5bc9-819f-9f8215ac88bb",
   "predicate": "attacks",
   "object_kind": "statement",
-  "object_id": "STMT-ALL-OPINIONS-TRUE-UNINDEXED",
+  "object_id": "0f48ce7b-79f5-54ae-899d-c48c7158f821",
   "basis": "Conditional on conflicting opinions and the separately open expressed-negation bridge. An attack, not an unconditional refutation of the target or of indexed relativity."
 }

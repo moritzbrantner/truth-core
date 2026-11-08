@@ -1,18 +1,20 @@
 {
-  "id": "NATURALISM-N1-ENTAILS-N2",
+  "id": "eec6c463-8436-54f6-ab1a-387415bd01b0",
+  "label": "N2, CONCRETE_NATURALISM_2: at the selected…, from N1, EXISTENCE_NATURALISM_1: at the selected…",
+  "legacy_id": "NATURALISM-N1-ENTAILS-N2",
   "premise_statement_ids": [
-    "STMT-NATURALISM-N1"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc"
   ],
-  "conclusion_statement_id": "STMT-NATURALISM-N2",
+  "conclusion_statement_id": "41ae1d27-391f-530e-a65c-4e2b2ef4b08e",
   "inference_ids": [
-    "INF-NATURALISM-N1-ENTAILS-N2"
+    "2336cce2-32b8-5909-8e92-a02b6dced62d"
   ],
   "meaning": "Strength registration (#1017): if everything existing at the world satisfies the thesis predicate, so does everything existing and concrete there. It backs the strengthens relation N1 → N2, so a counted refutation of N2 would refute N1.",
   "definition_ids": [
-    "DEF-NATURALISM-N1",
-    "DEF-NATURALISM-N2"
+    "1d25373b-7781-5177-add3-337874b8670b",
+    "0f3ffba6-5882-5d97-80be-9129f75c7264"
   ],
   "disambiguation_ids": [
-    "DISAMB-NATURALISM-VARIANT"
+    "726527df-c7a8-5be7-9f30-2bc23b115982"
   ]
 }

@@ -1,5 +1,7 @@
 {
-  "id": "DEF-EXPLANATORY-ENABLES",
+  "id": "6f5a06e5-76aa-53be-843c-bc2623f948c1",
+  "label": "MODAL_ENABLING_4: Enables at a: every accessible world lacking r lacks f",
+  "legacy_id": "DEF-EXPLANATORY-ENABLES",
   "term": "modal enabling",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Explanation.ExplanatorySymmetry.EnablesNonvacuously",

@@ -1,11 +1,40 @@
 {
-  "id": "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
+  "id": "8db2b1c9-f3a6-55d3-b7e9-4939c27923e2",
+  "label": "No necessary parts, ordinary contingency, selected fusion and modal part persistence",
+  "legacy_id": "DISAMB-NO-NECESSARY-PARTS-AND-ACTUAL-CONTINGENCY",
   "term": "no necessary parts, ordinary contingency, selected fusion and modal part persistence",
   "sense_definition_ids": [
-    "DEF-NO-NECESSARY-PARTS-AT",
-    "DEF-MODAL-PARTHOOD-NECESSITY-DOWNWARD",
-    "DEF-UNIVERSAL-FUSION-PROFILE",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+    "8faca70d-391a-5223-b3e8-2482038ac3ce",
+    "9ec56dce-572e-5230-8247-6b3e994cb98a",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
-  "resolution": "NoNecessaryPartsAt omits actual existence, unlike ContingentAt. It does not assert physical whole/cosmos actuality or causal status. Existing Fusion includes upper bounds plus the no-extra-parts overlap clause; a least upper bound or mere type-sum phrase is not silently equivalent. A2’s type-indexed existence need not be unrestricted fusion over every Lean Set or an all-entities whole. B is a candidate carrier, not automatically all actually existing things. Modal downward closure is an explicit input; local part existence and normal modal logic do not replace cross-world scope/persistence. The typed L3 step does not derive source L1/L2, actual fusion existence, an external cause, nonoverlap, necessity of a cause or God. Source CC100 assertions remain bare/unaliased; unread cited Koons editions are not attributed. No numerical distinction/nonparthood/nonoverlap equivalence or metaphysical truth is introduced."
+  "resolution": "NoNecessaryPartsAt omits actual existence, unlike ContingentAt. It does not assert physical whole/cosmos actuality or causal status. Existing Fusion includes upper bounds plus the no-extra-parts overlap clause; a least upper bound or mere type-sum phrase is not silently equivalent. A2’s type-indexed existence need not be unrestricted fusion over every Lean Set or an all-entities whole. B is a candidate carrier, not automatically all actually existing things. Modal downward closure is an explicit input; local part existence and normal modal logic do not replace cross-world scope/persistence. The typed L3 step does not derive source L1/L2, actual fusion existence, an external cause, nonoverlap, necessity of a cause or God. Source CC100 assertions remain bare/unaliased; unread cited Koons editions are not attributed. No numerical distinction/nonparthood/nonoverlap equivalence or metaphysical truth is introduced.",
+  "term_label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED",
+  "senses": [
+    {
+      "id": "50aed763-e509-408b-b274-de3056b72174",
+      "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_1",
+      "definition_id": "069e3555-ca4a-5737-ae1a-8e2cb67e3be5",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NoNecessaryPartsAt"
+    },
+    {
+      "id": "42fa7368-f177-49f4-81b0-b3f7faa68f86",
+      "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_2",
+      "definition_id": "8faca70d-391a-5223-b3e8-2482038ac3ce",
+      "lean_declaration": "TruthCore.Mereology.FusionNoNecessaryParts.NecessityDownwardAlongParthoodAt"
+    },
+    {
+      "id": "b4ffd228-af72-4f53-9f37-bfad5960dff8",
+      "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_3",
+      "definition_id": "9ec56dce-572e-5230-8247-6b3e994cb98a",
+      "lean_declaration": "TruthCore.Mereology.UniversalFusionBoundary.Fusion"
+    },
+    {
+      "id": "85bbb43c-0bb3-454c-8a46-11d1de4808c8",
+      "label": "NO_NECESSARY_PARTS_ORDINARY_CONTINGENCY_SELECTED_4",
+      "definition_id": "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+      "lean_declaration": "TruthCore.German.Kant.CosmologicalInference.ContingentAt"
+    }
+  ]
 }

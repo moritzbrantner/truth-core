@@ -1,6 +1,6 @@
 {
   "snapshot": {
-    "source_id": "NT-JOHN",
+    "source_id": "095a7a46-5027-51ac-981f-3dd5f832d95d",
     "edition_urn": "urn:cts:greekLit:tlg0031.tlg004.perseus-grc2",
     "language": "grc",
     "repository": "PerseusDL/canonical-greekLit",
@@ -12,7 +12,9 @@
   },
   "passages": [
     {
-      "id": "NT-JOHN-8",
+      "id": "80f7b249-30d7-57d2-b797-17ba2c617927",
+      "label": "New Testament, John, 8",
+      "legacy_id": "NT-JOHN-8",
       "locator": "8",
       "claim_locator_prefixes": [
         "8."
@@ -25,7 +27,9 @@
       ]
     },
     {
-      "id": "NT-JOHN-9",
+      "id": "c3171828-a3e3-5996-b607-3443dfda11db",
+      "label": "New Testament, John, 9",
+      "legacy_id": "NT-JOHN-9",
       "locator": "9",
       "claim_locator_prefixes": [
         "9."

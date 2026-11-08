@@ -1,11 +1,13 @@
 {
-  "id": "STMT-CC100-115-THEISTIC-AETIOLOGY-AVAILABILITY",
+  "id": "f6e68fa3-976d-5149-b08a-8bd7bcdbe2a4",
+  "label": "There are plausible theistic aetiologies of the intelligibility intuition such that we have that…",
+  "legacy_id": "STMT-CC100-115-THEISTIC-AETIOLOGY-AVAILABILITY",
   "paraphrase": "There are plausible theistic aetiologies of the intelligibility intuition such that we have that intuition because it is true.",
   "definition_ids": [
-    "DEF-CC100-115-INTELLIGIBILITY-EVIDENCE"
+    "c54f91c6-f3d4-5443-8308-58f92635e79d"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-PSR-EXPLANATION-CAUSE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "f7bae38e-9b21-54fe-8236-2646c230568b"
   ]
 }

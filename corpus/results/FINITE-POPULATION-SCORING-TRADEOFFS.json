@@ -1,6 +1,8 @@
 {
-  "id": "FINITE-POPULATION-SCORING-TRADEOFFS",
-  "argument_id": "FINITE-POPULATION-SCORING-TRADEOFFS",
+  "id": "3ede3544-88cb-57ea-a20c-c381dc7b2453",
+  "label": "Conditional on a common interpersonal cardinal real welfare scale and admissible arbitrary finite…",
+  "legacy_id": "FINITE-POPULATION-SCORING-TRADEOFFS",
+  "argument_id": "5a832e34-c461-51e4-bdc1-905ea0c3a160",
   "challenge_module": "TruthCore.Results.Ethics.PopulationScoring.Challenge",
   "solution_module": "TruthCore.Results.Ethics.PopulationScoring.Solution",
   "theorem": "TruthCore.Results.Ethics.PopulationScoring.controls",

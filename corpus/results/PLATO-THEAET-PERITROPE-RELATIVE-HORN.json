@@ -1,6 +1,8 @@
 {
-  "id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
-  "argument_id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
+  "id": "93daeb7f-2d6b-5323-bc27-f53fdbfd167e",
+  "label": "Horn 2 of the peritropē: the measure…, from Protagoras's measure doctrine as Socrates… and 4 more",
+  "legacy_id": "PLATO-THEAET-PERITROPE-RELATIVE-HORN",
+  "argument_id": "5e957682-4a3f-5070-b7e2-70d0011fe9ae",
   "challenge_module": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.Challenge",
   "solution_module": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.Solution",
   "theorem": "TruthCore.Results.Plato.Theaetetus.PeritropeRelativeHorn.peritropeRelativeHorn",

@@ -1,7 +1,9 @@
 {
-  "id": "INF-MESSAGE-REPORT-BOUNDARY-CONTROLS",
+  "id": "ae0492e9-bc9b-5df6-b0b8-38e1dc67b1d7",
+  "label": "Two nonempty controls: the raw message-only rival coexists with the full…, by Constructive-proof",
+  "legacy_id": "INF-MESSAGE-REPORT-BOUNDARY-CONTROLS",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-MESSAGE-REPORT-BOUNDARY-MODELS",
+  "output_statement_id": "fe955fb3-9ddd-5e66-a5ab-0f2d576c5f98",
   "rule": "constructive-proof",
   "meaning": "Reuse the old schema signature/agency, fullCommissioning, and messageRival_compatible_with_mt28. Raw message-only and historical reports coexist without institutional transfer; the link-bearing rival may retain Matthew28. No historical thesis is refuted.",
   "assumption_statement_ids": [],

@@ -1,12 +1,14 @@
 {
-  "id": "INF-NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
+  "id": "84da686c-79ab-5f49-891d-24610b6741d4",
+  "label": "No candidate existing at the selected world is both SIMPLE_4 and remote…, by Constructive-proof (2)",
+  "legacy_id": "INF-NATURALISM-PART-REMOTE-SIMPLE-EXCLUSION",
   "input_statement_ids": [
-    "STMT-NATURALISM-N1",
-    "STMT-EXISTING-SPACETIME-PROPER-PARTS-ARE-COMPONENTS",
-    "STMT-EXISTING-SPACETIME-COMPONENTS-MAKE-WHOLE-COMPOSITE",
-    "STMT-TWO-BEINGS-EXIST-AT"
+    "f54cc1ad-8913-52ec-abf1-be30f76a03bc",
+    "d677b0c4-ce93-5d51-a157-17105d546228",
+    "c4e3fb4f-6efc-5389-ad00-8fd11e807d1b",
+    "705934a4-2f65-52bd-8628-e85da04ec78d"
   ],
-  "output_statement_id": "STMT-NO-EXISTING-SIMPLE-REMOTE-BEING",
+  "output_statement_id": "0cdd5abe-664c-50b9-85e7-d55dd070ee71",
   "rule": "constructive-proof",
   "meaning": "Compose the checked constructive population constraint with the explicit distinct-pair premise. The conclusion denies an existing candidate with the same Case simplicity/remoteness properties, not the truth of a God-naming implication or every interpretation of God. All worldview, dictionary and population premises remain open.",
   "assumption_statement_ids": [],

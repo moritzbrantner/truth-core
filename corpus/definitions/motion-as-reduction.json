@@ -1,11 +1,13 @@
 {
-  "id": "DEF-MOTION-AS-REDUCTION",
+  "id": "a7904c82-eef8-58e4-ac7c-0bb93374cb43",
+  "label": "MOTION_1, moving and being moved: To move is nothing other than to educe something from potency to…",
+  "legacy_id": "DEF-MOTION-AS-REDUCTION",
   "term": "motion (motus), moving and being moved",
   "definition": "To move is nothing other than to educe something from potency to act. `MovedIn x r`: x is being reduced from potency to act in respect r; `MovesIn y x r`: y so reduces x. Read at one time (simul): a present series of movers, not a history. Nothing restricts it to local motion or to bodies. Aristotle's definition of motion as the actuality of the potential as such, read for beings and respects (STMT-BEING-MOVED-IS-ACTUALIZATION-OF-POTENCY), would make STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY analytic if adopted as the Lean definition of `MovedIn`; it is no stronger than that premise (result ACT-POTENCY-DEFINITIONAL-ANALYSES-CONSERVATIVE), so `MovedIn` stays a parameter.",
   "basis": "sourced",
   "claim_ids": [
-    "AQUINAS-ST-I-Q2-A3-REDUCED-BY-A-MOVER-A",
-    "ARIST-PHYS-201A-MOVED-AS-POTENCY-ACTUALIZED-C"
+    "619396ed-df80-5334-b708-73cde7bc9e55",
+    "0a4a8418-056e-5d6d-b0a8-51b5ee4d0eb4"
   ],
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.MotionModel.MovedIn",
   "note": "Lean locators: MotionModel.MovedIn : Being → Respect → Prop is the primary field for being moved, and MotionModel.MovesIn : Being → Being → Respect → Prop is the separate mover field. These are primitive parameters, not definitions that reduce one relation to the other. The source-reading premises constrain them; the intended reduction interpretation and its applicability remain OPEN."

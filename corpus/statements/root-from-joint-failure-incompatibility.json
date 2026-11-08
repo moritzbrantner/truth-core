@@ -1,8 +1,10 @@
 {
-  "id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
+  "id": "b80ad515-4b39-563a-b41b-fcfc08758184",
+  "label": "Logical rule template: for two indexed families of premise propositions and a common conclusion…",
+  "legacy_id": "STMT-ROOT-FROM-JOINT-FAILURE-INCOMPATIBILITY",
   "paraphrase": "Logical rule template: for two indexed families of premise propositions and a common conclusion, if each complete family suffices for the conclusion, every failure mode of the first entails X, every failure mode of the second entails Y, and X and Y are incompatible, then the common conclusion follows. Excluded middle is an explicit argument premise. No particular Catholicism route pair is instantiated or settled.",
   "lean_declaration": "TruthCore.Logic.JointRouteFailure.RootFromJointFailureIncompatibility",
   "definition_ids": [
-    "DEF-JOINT-ROUTE-FAILURE-PATTERN"
+    "502e8eac-364b-5cf9-8464-60a9ae30a5c8"
   ]
 }

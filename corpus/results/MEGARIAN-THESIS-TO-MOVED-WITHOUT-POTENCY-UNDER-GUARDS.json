@@ -1,6 +1,8 @@
 {
-  "id": "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
-  "argument_id": "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
+  "id": "0a6735d7-e6cf-5539-b038-326c0194eb2f",
+  "label": "Some actual moved tuple is not in…, from The Megarian thesis: a thing is able only… and 2 more",
+  "legacy_id": "MEGARIAN-THESIS-TO-MOVED-WITHOUT-POTENCY-UNDER-GUARDS",
+  "argument_id": "d5acffad-e8b6-5bf1-b983-c0b27d86d08c",
   "challenge_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.Solution",
   "theorem": "TruthCore.Results.Alternatives.MegarianMovedPotencyBoundary.GuardedCountercase.guardedCountercase",

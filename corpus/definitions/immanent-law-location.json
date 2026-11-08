@@ -1,5 +1,7 @@
 {
-  "id": "DEF-IMMANENT-LAW-LOCATION",
+  "id": "f48db052-fb1e-5d07-9811-0a2167ab7bb2",
+  "label": "Instance-derived location of law\u2026: In the immanent location profile, a right-summand law\u2026",
+  "legacy_id": "DEF-IMMANENT-LAW-LOCATION",
   "term": "instance-derived location of law representatives",
   "definition": "In the immanent location profile, a right-summand law representative occupies region r exactly when some existing bearer instantiates it and occupies r. Bearer location is supplied independently. This includes both instance-to-location and location-to-existing-instance support. The weaker forward bridge alone does not license the converse; the populated Controls export its failure. The chosen frame has empty unused related/partOf fields and a designated bearer whole; no geometry, powers, causality, physicality or completeness of this law ontology is claimed.",
   "basis": "stipulative",

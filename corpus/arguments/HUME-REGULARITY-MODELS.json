@@ -1,24 +1,26 @@
 {
-  "id": "HUME-REGULARITY-MODELS",
+  "id": "73dd056f-c7c0-5205-9a5b-78ec1729bc96",
+  "label": "The selected thin bundles each have an explicit finite model: nontrivial observed conjunction in a…",
+  "legacy_id": "HUME-REGULARITY-MODELS",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-HUME-REGULARITY-MODELS",
+  "conclusion_statement_id": "5e425206-7d54-55ea-844a-923b70f9d260",
   "inference_ids": [
-    "INF-HUME-REGULARITY-MODELS"
+    "cca4fbef-5cc1-5e0d-ace4-8b6e1ea5269c"
   ],
   "meaning": "Existential consistency of selected analytical fragments only. The source accounts and defense of their actual application remain separate.",
   "definition_ids": [
-    "DEF-REGULARITY-OBSERVATION",
-    "DEF-REGULARITY-INTERVENTION",
-    "DEF-REGULARITY-SUCCESSION",
-    "DEF-REGULARITY-MENTAL-TRANSITION",
-    "DEF-REGULARITY-LAW-SELECTION",
-    "DEF-REGULARITY-SAMPLE",
-    "DEF-REGULARITY-PREDICTION",
-    "DEF-REGULARITY-SCOPE",
-    "DEF-REGULARITY-GROUND",
-    "DEF-ANSWER-MAP-MATCHING"
+    "b7145551-1504-5a09-a59e-e822f3ab83ae",
+    "d0105d0e-8e28-5165-8235-ff91bf25c418",
+    "81ca9dbd-69e6-5b53-87b2-5f536b61f550",
+    "4022af6e-4901-545f-9ac7-f062fb154fdc",
+    "c0a65542-5ceb-54c5-ba9c-74fa90af81c2",
+    "5f156d0e-84a6-5471-8d5e-be68e594773e",
+    "e960d08d-4964-5a0d-891b-59395e5fce13",
+    "ce45a505-6455-5763-8552-3dd9e7e00b83",
+    "3f125015-da7d-58f2-a6d3-0d8a7e45aa52",
+    "7c50c8db-6f13-526e-b439-851133f9243f"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGULARITY-CAUSAL-SENSES"
+    "f4a648a1-553b-5318-b5c7-df0798634816"
   ]
 }

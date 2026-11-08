@@ -1,7 +1,9 @@
 {
-  "id": "INF-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "id": "f3a7131b-4a3c-5abe-b808-180ea94e62de",
+  "label": "An explicitly two-history, universal-accessibility model preserves the…, by Direct-proof",
+  "legacy_id": "INF-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-NECESSARY-INDIVIDUAL-HISTORY-RESTRICTION",
+  "output_statement_id": "7c8d8a36-d0d4-5d28-a129-0577536fe8a0",
   "rule": "direct-proof",
   "meaning": "Evaluate the two surviving populated histories and prove that their exact presence extensions agree with the corresponding worlds of the larger control. Evaluate the root as a fixed de-re witness only relative to this smaller world carrier.",
   "assumption_statement_ids": [],

@@ -1,7 +1,9 @@
 {
-  "id": "INF-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "id": "b507d355-dedc-5d19-bd13-802691f501f5",
+  "label": "Each of the three ¬F7 cells of q f7 has an interpretation in which…, by Model-construction",
+  "legacy_id": "INF-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-POTENCY-ANALYSIS-CELLS-SURVIVE-FLOOR",
+  "output_statement_id": "1cdafe00-9370-5eb2-937c-a3d577230f30",
   "rule": "model-construction",
   "meaning": "One interpretation per cell over Unit with something moved.",
   "assumption_statement_ids": [],

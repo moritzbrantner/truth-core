@@ -1,10 +1,12 @@
 {
-  "id": "INF-MCTAGGART-UNREALITY-OF-TIME-REFUTED",
+  "id": "b10ac437-ec69-5424-ad5f-1069d041c462",
+  "label": "McTaggart's bundle on change does not hold: it is not the case both that no event…, by Reductio",
+  "legacy_id": "INF-MCTAGGART-UNREALITY-OF-TIME-REFUTED",
   "input_statement_ids": [
-    "STMT-OPINION-IS-A-MOTION",
-    "STMT-MOTION-IS-A-CHANGE"
+    "7ee7b61e-bce1-52e4-aea1-b207c1a3289c",
+    "6f514548-195d-588b-b962-8dc99a69d767"
   ],
-  "output_statement_id": "STMT-MCTAGGART-UNREALITY-OF-TIME-FALSE",
+  "output_statement_id": "b6d80431-0884-54d0-a58e-8070628cac8f",
   "rule": "reductio",
   "meaning": "Suppose McTaggart's bundle. Its first commitment supplies someone who judges or perceives that p; opining is a being moved in the respect of that opinion, so the opiner is moved; whatever is moved changes; all change is A-series change, so some event changes in its A-series determinations; this contradicts the bundle's denial of A-series change.",
   "assumption_statement_ids": [],

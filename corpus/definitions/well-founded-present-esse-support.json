@@ -1,5 +1,7 @@
 {
-  "id": "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
+  "id": "6af245c0-b443-51b1-a98e-4e8f8fc7bf3e",
+  "label": "Well-founded actual…: The predecessor relation between actually existing supporters and supported…",
+  "legacy_id": "DEF-WELL-FOUNDED-PRESENT-ESSE-SUPPORT",
   "term": "well-founded actual existential-support relation",
   "definition": "The predecessor relation between actually existing supporters and supported individuals at w₀ is well-founded in Lean's inductive sense. This excludes its cycles and unending predecessor descent; it does not assert that time or the carrier of beings is finite.",
   "basis": "stipulative",

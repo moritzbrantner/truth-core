@@ -1,0 +1,16 @@
+{
+  "id": "546975ef-0614-5c0a-8f49-fab2cd2a2533",
+  "label": "Whatever is in act of esse exists at the selected world",
+  "legacy_id": "STMT-ACT-OF-ESSE-SUFFICES-FOR-EXISTENCE-AT",
+  "paraphrase": "OPEN converse of STMT-EXISTING-IN-ACT-AT: whatever is in act of esse exists at the selected world. InAct is not world-indexed, so this reads esse relative to the selected world; the esse-profile specialization (TruthCore.Logic.CogitoEsse) does not assert it.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.ActOfEsseSufficesForExistenceAt",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

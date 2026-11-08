@@ -1,21 +1,23 @@
 {
-  "id": "STMT-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
+  "id": "160e5e3f-0878-5804-afdd-af1d54d18ebf",
+  "label": "Two explicit interpretations have the same necessary underived unique actual source false, which…",
+  "legacy_id": "STMT-UNITING-CAUSE-INTERFACE-OMISSION-CONTROLS",
   "lean_declaration": "TruthCore.Causality.UnderivedNonComposite.InterfaceOmissionControls",
   "paraphrase": "Two explicit interpretations have the same necessary underived unique actual source false, which is composite and has a distinct alleged uniting cause. One violates source presence while retaining actual-edge correspondence; the other retains presence while violating correspondence. They witness separate logical omission boundaries, not metaphysical possibility.",
   "definition_ids": [
-    "DEF-UNITING-CAUSE-ACTUALITY-INTERFACES",
-    "DEF-SIMPLE",
-    "DEF-CAUSE-OF-PERFECTION",
-    "DEF-ESSE",
-    "DEF-UNDERIVED-COMMON-ACTUAL-SOURCE",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH"
+    "afc7a0c6-0b7d-5a08-b406-3ecad83e36ca",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "d650ff6e-6b08-5f27-ac93-6f32c96968a8",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "7439c292-82a4-530d-8144-a61a6c21f502"
   ],
   "disambiguation_ids": [
-    "DISAMB-UNITING-CAUSE-ACTUALITY",
-    "DISAMB-UNDERIVED-CAUSAL-SOURCE-INTERFACE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-CAUSE"
+    "896d4cb9-3c62-5230-a499-f23feae9d204",
+    "5323527f-56a2-5d11-8a76-5b25461a61b4",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

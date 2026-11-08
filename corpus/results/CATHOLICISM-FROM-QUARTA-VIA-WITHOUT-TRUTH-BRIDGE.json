@@ -1,6 +1,8 @@
 {
-  "id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
-  "argument_id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+  "id": "3b4f5132-9b6c-571d-a283-f3d8805804cd",
+  "label": "Catholicism is TRUE_1: the Catholic Church is a teaching…, from quarta via without truth bridge",
+  "legacy_id": "CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE",
+  "argument_id": "18dae702-e9b4-5466-9481-c862b54a783f",
   "challenge_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Challenge",
   "solution_module": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.Solution",
   "theorem": "TruthCore.Results.Case.Catholicism.FromQuartaViaWithoutTruthBridge.catholicismFromQuartaViaWithoutTruthBridge",

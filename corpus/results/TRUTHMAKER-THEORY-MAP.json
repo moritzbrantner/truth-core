@@ -1,6 +1,8 @@
 {
-  "id": "TRUTHMAKER-THEORY-MAP",
-  "argument_id": "TRUTHMAKER-THEORY-MAP",
+  "id": "dca7afa2-0f0a-5aeb-9875-3b679f5676e7",
+  "label": "On any existing arena, relative maximalist coverage entails every restricted coverage and free…",
+  "legacy_id": "TRUTHMAKER-THEORY-MAP",
+  "argument_id": "2fbd9886-18de-5f9f-af37-56329a889360",
   "challenge_module": "TruthCore.Results.Explanation.TruthmakerTheories.Challenge",
   "solution_module": "TruthCore.Results.Explanation.TruthmakerTheories.Solution",
   "theorem": "TruthCore.Results.Explanation.TruthmakerTheories.theoryMap",

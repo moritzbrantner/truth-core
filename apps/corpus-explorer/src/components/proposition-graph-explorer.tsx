@@ -55,6 +55,7 @@ import { ProofExplorationPanel } from "./proof-exploration-panel";
 import { useProofExploration } from "./use-proof-exploration";
 import { lemmaResearchObligation } from "@/lib/proof-exploration";
 import { describeDisagreement } from "@/lib/floor";
+import { shortId } from "@/lib/corpus-ids";
 import { proofOverlay, type ProofOverlay } from "@/lib/proof-overlay";
 import proofStyles from "./proof-overlay.module.css";
 
@@ -105,8 +106,8 @@ function StatementNodeView({ data }: NodeProps<FlowNode>) {
         <span className="graph-node-text">{statement.paraphrase}</span>
         <span className="graph-node-badges">
           {provenance.map((claim) => (
-            <span className="graph-badge" key={claim.id} title={`${claim.id}: ${claim.locator}`}>
-              {claim.sourceId}
+            <span className="graph-badge" key={claim.id} title={`${claim.label ?? claim.id}: ${claim.locator}`}>
+              {claim.sourceLabel ?? claim.sourceId}
               {claim.reading ? ` · ${claim.reading}` : ""}
             </span>
           ))}
@@ -185,7 +186,7 @@ const edgeStyle: Record<ViewEdge["kind"], React.CSSProperties> = {
 };
 
 function nodeDescription(node: ViewNode) {
-  if (node.kind === "inference") { return `${node.id}: ${node.inference.meaning}`; }
+  if (node.kind === "inference") { return `${node.inference.label ?? node.id}: ${node.inference.meaning}`; }
   if (node.kind === "cluster") { return `${node.label}: ${node.size} statements`; }
   let status = String(node.statement.status);
   if (node.statement.frontier) { status = `${node.statement.frontierDepth} open frontier`; }
@@ -229,7 +230,7 @@ export function PropositionGraphExplorer({
   const proof = useProofExploration(graph, state.explore && !buckets.pending, { target: proofTarget, budget: state.proofBudget, scope: state.proofScope.length ? state.proofScope : undefined });
   const visibleProof = state.explore && proof.result?.target === proofTarget ? proof.result : null;
   const overlay = useMemo(() => proofOverlay(graph, visibleProof), [graph, visibleProof]);
-  const lemmaObligation = useMemo(() => visibleProof ? lemmaResearchObligation(visibleProof, graph.defaultTarget ?? "") : null, [visibleProof, graph.defaultTarget]);
+  const lemmaObligation = useMemo(() => visibleProof ? lemmaResearchObligation(visibleProof, graph.defaultTarget ?? "", (id) => index.statementById.get(id)?.paraphrase ?? id) : null, [visibleProof, graph.defaultTarget, index]);
   const queue = useMemo(
     () =>
       orderObligations(lemmaObligation ? [...obligations, lemmaObligation] : obligations, {
@@ -534,7 +535,7 @@ export function PropositionGraphExplorer({
                 className="field-control font-mono"
                 list="graph-statement-ids"
                 onChange={(event) => update({ node: event.target.value })}
-                placeholder={view.anchor ?? "STMT-…"}
+                placeholder={view.anchor ?? "statement id"}
                 value={state.node}
               />
             </label>
@@ -762,7 +763,7 @@ export function PropositionGraphExplorer({
             {search.items.map((statement) => (
               <li key={statement.id}>
                 <span>
-                  <span className="font-mono text-xs text-[var(--muted)]">{statement.id}</span>
+                  <span className="font-mono text-xs text-[var(--muted)]">{shortId(statement.id)}</span>
                   <span className="block">{statement.paraphrase}</span>
                 </span>
                 <span className="graph-search-actions">
@@ -994,7 +995,7 @@ function DetailPanel({
               : "contains this step";
             return (
               <li key={argumentId}>
-                <span className="font-mono text-xs break-all">{argumentId}</span>
+                <span className="text-xs break-all">{argument.label ?? argumentId}</span>
                 <span className="block text-[var(--muted)]">
                   {role}
                   {argument.resultIds.length
@@ -1036,7 +1037,7 @@ function DetailPanel({
       <aside className="graph-detail">
         <p className="eyebrow">Inference application</p>
         <h3 className="mt-2 font-serif text-2xl leading-tight">{inference.rule.replaceAll("_", " ")}</h3>
-        <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{inference.id}</p>
+        <p className="mt-1 text-xs break-all text-[var(--muted)]">{inference.label ?? inference.id} · {shortId(inference.id)}</p>
         <p className="mt-4 text-sm leading-6">{inference.meaning}</p>
         <p className="eyebrow mt-6">All premises (AND) → conclusion</p>
         <ul className="mt-2 grid gap-1 text-sm">
@@ -1098,7 +1099,7 @@ function DetailPanel({
         {current.frontier ? ` · frontier (${current.frontierDepth})` : ""}
       </p>
       <h3 className="mt-2 font-serif text-2xl leading-tight">{current.paraphrase}</h3>
-      <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{current.id}</p>
+      <p className="mt-1 font-mono text-xs break-all text-[var(--muted)]">{shortId(current.id)}</p>
       <div className="mt-3 flex flex-wrap gap-x-4 gap-y-2 text-sm">
         <Link className="link-quiet" href={`/dossiers/${current.id}`}>
           Research dossier and attempts →
@@ -1241,8 +1242,8 @@ function DetailPanel({
           <div>
             <dt className="eyebrow">Closed via transcription from closed premises</dt>
             <dd className="mt-1 font-mono text-xs break-all">
-              {current.closedViaTranscription.resultId} (
-              {current.closedViaTranscription.premises.join(", ") || "no premises"})
+              {argumentById.get(current.closedViaTranscription.argumentId)?.label ?? current.closedViaTranscription.resultId} (
+              {current.closedViaTranscription.premises.map((id) => index.statementById.get(id)?.paraphrase ?? id).join(", ") || "no premises"})
             </dd>
           </div>
         ) : null}
@@ -1276,7 +1277,7 @@ function DetailPanel({
               return (
                 <li key={claim.id}>
                   <Link className="link-quiet font-mono text-xs break-all" href={`/claims/${claim.id}`}>
-                    {claim.id}
+                    {claim.label ?? claim.id}
                   </Link>
                   {claim.reading ? <span className="text-[var(--muted)]"> · reading {claim.reading}</span> : null}
                   <span className="block">

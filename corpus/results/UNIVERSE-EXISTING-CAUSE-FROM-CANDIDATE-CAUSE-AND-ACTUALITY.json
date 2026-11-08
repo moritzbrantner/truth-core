@@ -1,6 +1,8 @@
 {
-  "id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
-  "argument_id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "id": "ff357d3a-fbbc-53ec-b90a-407500b1afbb",
+  "label": "At the selected world the spacetime whole has an existing…, from candidate cause and actuality",
+  "legacy_id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "argument_id": "d88de003-bada-5023-a21f-007c59d00fc2",
   "challenge_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.Challenge",
   "solution_module": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.Solution",
   "theorem": "TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ExistingCause.existingCause",

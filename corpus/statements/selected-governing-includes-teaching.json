@@ -1,0 +1,15 @@
+{
+  "id": "b85ee5a5-8a4f-5da1-bab3-bc5453e51b2c",
+  "label": "The selected governing predicate on the nine-power carrier includes the power to teach",
+  "legacy_id": "STMT-SELECTED-GOVERNING-INCLUDES-TEACHING",
+  "paraphrase": "OPEN analyst premise, attribution deferred: the selected governing predicate on the nine-power carrier includes the power to teach. It says nothing about the other eight powers. The fixed table Power.Governing does not classify teaching as governing; whoever reads teaching as conveying content only denies this premise.",
+  "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedGoverningIncludesTeaching",
+  "definition_ids": [
+    "ae8f82d4-54bb-5131-bac7-94c08ed28560",
+    "4ada8322-c61c-567c-b615-d056bde1c2e9",
+    "6dea072c-97c4-5ee9-9958-a3da6a2a049c"
+  ],
+  "disambiguation_ids": [
+    "4bd8469b-0101-5628-b94d-daa4264972d5"
+  ]
+}

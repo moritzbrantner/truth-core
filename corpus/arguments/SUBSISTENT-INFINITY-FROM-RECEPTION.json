@@ -1,33 +1,36 @@
 {
-  "id": "SUBSISTENT-INFINITY-FROM-RECEPTION",
+  "id": "7144389e-bcc8-51a6-905a-278b975ec84e",
+  "label": "What is its own subsistent being is INFINITE_1, from reception",
+  "legacy_id": "SUBSISTENT-INFINITY-FROM-RECEPTION",
   "premise_statement_ids": [
-    "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE",
-    "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
-    "STMT-NOTHING-IN-RECEPTIVE-POTENCY-TO-ITSELF",
-    "STMT-UNLIMITED-ESSE-IS-INFINITE"
+    "1304b462-4a10-5dd0-995a-db5feb21d98e",
+    "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7",
+    "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2",
+    "14325c83-1c3f-5afb-b63f-52b0c2b2a326",
+    "be1289df-3c43-5595-99b5-1fb8d38164be"
   ],
-  "conclusion_statement_id": "STMT-SUBSISTENT-BEING-IS-INFINITE",
+  "conclusion_statement_id": "75a37a91-732d-510c-9abc-b37c988c5c63",
   "inference_ids": [
-    "INF-SUBSISTENT-INFINITY-FROM-RECEPTION"
+    "eb51c4b0-a7e8-518c-a1eb-e30e8aaf2f61"
   ],
   "meaning": "Derive the EXACT existing SubsistentBeingIsInfiniteReading (for every x, esseOf x = essenceOf x implies Infinite x) from five typed reception premises. They use the same essenceOf/esseOf maps and the same primitive Infinite. Take x whose esse is its essence, and suppose its esse is limited. By limitation-only-through-reception (q.7 a.1, sourced), its esse is received in some principle r. By reception-only-in-own-essence (unattributed), r is the essence of x, which equals its esse. By receiver-in-potency (De ente c.3, sourced), r is in receptive potency to x's esse, so x's esse is in receptive potency to itself. That contradicts nothing-in-receptive-potency-to-itself (unattributed). So the esse of x is not limited, and by unlimited-esse-is-infinite (q.7 a.1-2, sourced) x is infinite. No premise contains the conclusion: identity of essence and esse appears in none of them, and STMT-SUBSISTENT-INFINITY-RECEPTION-CONTROLS shows each premise is needed. All five premises remain open. Three are sourced but undefended, and two are unattributed bare premises. The derivation does not establish that any premise is true, that anything's esse is its essence, or that any being is infinite.",
   "definition_ids": [
-    "DEF-ESSE",
-    "DEF-ESSE-LIMITED",
-    "DEF-ESSE-RECEIVED-IN",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-INFINITE",
-    "DEF-RECEPTIVE-POTENCY"
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "6ced5205-e6a4-585e-950e-3b22e7c9ef01",
+    "4433942e-aaf6-55a9-b777-66e55638103d",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "a67e6214-624d-54d1-81ff-442c09c5ea9d"
   ],
-  "disambiguation_ids": ["DISAMB-POTENCY",
-    "DISAMB-ESSE-LIMITATION",
-    "DISAMB-ESSE-RECEPTION",
-    "DISAMB-ESSENCE",
-    "DISAMB-INFINITY",
-    "DISAMB-RECEPTIVE-POTENCY"
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec",
+    "19190b6e-359f-590c-b434-4e6f5803da4f",
+    "5921354b-51e6-5da3-8d8c-e9041840fd9f",
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "587c53cf-c2a8-51f6-b8c1-013e67756dc6",
+    "8bb31748-e20f-5266-ac39-c442faab6622"
   ],
   "strong_version_needed": {
-    "STMT-ESSE-RECEIVED-IN-OWN-ESSENCE": "Preserved frozen original result interface. Its general all-bearer premise is stronger than necessary for the conclusion; new SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION is the preferred weaker conditional route and imports this proof over the identity-bearing subtype. No philosophical necessity of the stronger version is asserted."
+    "6dfe01ab-e3f2-5a4c-b102-701c161f2cf7": "Preserved frozen original result interface. Its general all-bearer premise is stronger than necessary for the conclusion; new SUBSISTENT-INFINITY-FROM-IDENTITY-SCOPED-RECEPTION is the preferred weaker conditional route and imports this proof over the identity-bearing subtype. No philosophical necessity of the stronger version is asserted."
   }
 }

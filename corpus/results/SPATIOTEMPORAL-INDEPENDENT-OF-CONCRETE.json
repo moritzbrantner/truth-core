@@ -1,6 +1,8 @@
 {
-  "id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
-  "argument_id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "id": "f743bb35-d96e-5312-9e8f-a909fc4bdb34",
+  "label": "Spatiotemporality is a separate property: for some anchored esse classification and some spacetime…",
+  "legacy_id": "SPATIOTEMPORAL-INDEPENDENT-OF-CONCRETE",
+  "argument_id": "24ed4211-f565-5e10-81f1-cd1c9e18fa9c",
   "challenge_module": "TruthCore.Results.Ontology.Naturalism.Independence.Challenge",
   "solution_module": "TruthCore.Results.Ontology.Naturalism.Independence.Solution",
   "theorem": "TruthCore.Results.Ontology.Naturalism.Independence.spatiotemporalIndependentOfConcrete",

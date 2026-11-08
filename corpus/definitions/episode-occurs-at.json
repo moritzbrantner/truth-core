@@ -1,0 +1,10 @@
+{
+  "id": "1943bfbb-396f-5f22-883b-b775d0f8e109",
+  "label": "Episode occurs at a world: OccursAt v e: the episode e occurs in the complete world v of the Ontic…",
+  "legacy_id": "DEF-EPISODE-OCCURS-AT",
+  "term": "episode occurs at a world (OccursAt v e)",
+  "definition": "OccursAt v e: the episode e occurs in the complete world v of the Ontic frame. A world-indexed refinement of the unindexed Occurs (DEF-EPISODE-OCCURRENCE). Example: my present judging occurs at the actual world. In Lean a parameter W -> Episode -> Prop; no link to Occurs is built in.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.OccurringThoughtOccursAt",
+  "note": "Stipulative analyst notion, attribution deferred."
+}

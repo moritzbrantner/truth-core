@@ -1,0 +1,11 @@
+{
+  "id": "d4ea5ebf-7680-5c48-a0ad-6a6e559ec2d6",
+  "label": "Every operation has an agent whose operation it is",
+  "legacy_id": "STMT-EVERY-OPERATION-HAS-AGENT",
+  "paraphrase": "OPEN analyst premise: every operation has an agent whose operation it is.",
+  "lean_declaration": "TruthCore.Causality.Round2ExistenceAct.EveryOperationHasAgent",
+  "definition_ids": [
+    "a07c30f9-e0fc-5f16-b181-6f70d374de79",
+    "1c062aa6-0d5c-5b13-a8ae-90a5f2d2a690"
+  ]
+}

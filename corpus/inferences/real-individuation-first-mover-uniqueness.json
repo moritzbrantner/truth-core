@@ -1,0 +1,15 @@
+{
+  "id": "3ec7aff4-3983-57ce-b932-6620462385e8",
+  "label": "There is at most one first mover moved by none, by Bare plurality excluded by…",
+  "legacy_id": "INF-REAL-INDIVIDUATION-FIRST-MOVER-UNIQUENESS",
+  "input_statement_ids": [
+    "17498c0a-499c-52f0-8d74-e990c9f72569",
+    "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
+    "abe615df-25ae-5aa9-8611-140ca98ae522"
+  ],
+  "output_statement_id": "c27dce66-864a-5a73-af62-0eeb4016514f",
+  "rule": "Bare plurality excluded by identity of real indiscernibles",
+  "meaning": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations; identity of real indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third ranges over all beings and so also denies bare numerical difference among things that are not first movers; it exceeds what uniqueness needs. No first mover is produced.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

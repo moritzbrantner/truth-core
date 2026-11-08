@@ -1,0 +1,12 @@
+{
+  "id": "258d3250-2f8b-5600-aa6a-1493166439ba",
+  "label": "There is at most one first mover…, from Every first mover moved by none really has… and 2 more",
+  "legacy_id": "PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS",
+  "argument_id": "247ad9c7-792a-57cc-9087-0392169bb015",
+  "challenge_module": "TruthCore.Results.Causality.PureIndiscernibility.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PureIndiscernibility.Solution",
+  "theorem": "TruthCore.Results.Causality.PureIndiscernibility.uniqueFromPureIndiscernibility",
+  "comparator_config": "results/PURE-INDISCERNIBILITY-FIRST-MOVER-UNIQUENESS/comparator.json",
+  "status": "solution-present",
+  "description": "By the imported pureActPluralityIsBare, any two first movers have the same real determinations, and by strict pure actuality all of the first one's are pure; identity of purely determined indiscernibles then makes them one. Conditional on three OPEN, unattributed premises. The third is the weak version of identity of real indiscernibles: it allows bare difference among beings with a non-pure principle of multiplicity, such as Black-style spheres. It still constrains purely determined beings that are not first movers. If only first movers are purely determined, then given the other two premises it is equivalent to the conclusion. No first mover is produced."
+}

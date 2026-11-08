@@ -1,15 +1,17 @@
 {
-  "id": "CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
-  "statement_id": "STMT-CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "b922a240-f23d-533f-84d7-a97c1f88af4f",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: If realism without God entails radical skepticism and…",
+  "legacy_id": "CC100-122-CONDITIONAL-REALISM-GOD-DISJUNCTION",
+  "statement_id": "e4552fff-dbe3-5b4f-a75a-8ab59e3d6231",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.272–291: p.286, argument #122 Anti-Realism, step 3 citing steps 1–2",
   "interpretation": "This is the displayed conditional disjunction, not an unconditional God witness or closure of the first bridge. Its opaque-proposition logical pattern could be transcribed, but no new proof/result is created or counted as philosophical progress. Any classical logical treatment must be explicit if later formalized. Attribution is to McIntosh’s presentation only, not unread Plantinga/Rea/Dummett/Mander works referenced on p287. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-122-REALISM-SKEPTICISM"
+    "3c9cb396-8e6f-59d9-8528-98161f3db735"
   ],
   "disambiguation_ids": [
-    "DISAMB-REASON-EPISTEMIC-ONTIC",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "a61d3807-50e9-595e-9011-9123fd606a4b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

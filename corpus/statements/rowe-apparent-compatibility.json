@@ -1,16 +1,18 @@
 {
-  "id": "STMT-ROWE-APPARENT-COMPATIBILITY",
+  "id": "c45e94d6-58eb-50e5-9971-ad5872e30d75",
+  "label": "There exists a finite interpretation satisfying the simplified permission constraint, apparent…",
+  "legacy_id": "STMT-ROWE-APPARENT-COMPATIBILITY",
   "paraphrase": "There exists a finite interpretation satisfying the simplified permission constraint, apparent pointlessness, narrow theism and absence of actual gratuitous suffering. This defeats a deductive inference from this appearance alone, not Rowe’s evidential argument.",
   "lean_declaration": "TruthCore.Comparison.RoweEvil.ApparentCompatibility",
   "definition_ids": [
-    "DEF-ROWE-NARROW-THEISM",
-    "DEF-ROWE-BLOCKING-COST",
-    "DEF-ROWE-GRATUITOUS-SUFFERING",
-    "DEF-ROWE-APPARENT-POINTLESSNESS",
-    "DEF-ROWE-INTENSE-SUFFERING"
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed"
   ],
   "disambiguation_ids": [
-    "DISAMB-ROWE-APPARENT-AND-ACTUAL",
-    "DISAMB-ROWE-SUFFERING-AND-CULPA"
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
   ]
 }

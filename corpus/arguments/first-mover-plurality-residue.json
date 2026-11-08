@@ -1,32 +1,34 @@
 {
-  "id": "FIRST-MOVER-PLURALITY-RESIDUE",
+  "id": "7500dabc-7aa8-53ef-8462-77e210967420",
+  "label": "For the supplied first-mover, act and…, from Numerically different individuals cannot… and 2 more",
+  "legacy_id": "FIRST-MOVER-PLURALITY-RESIDUE",
   "premise_statement_ids": [
-    "STMT-Q11-INDIVIDUATING-BASIS-INCOMMUNICABLE",
-    "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION"
+    "2344542e-8036-5cbe-9dfc-af5e7907cde5",
+    "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
+    "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded"
   ],
-  "conclusion_statement_id": "STMT-FIRST-MOVER-PLURALITY-RESIDUE",
+  "conclusion_statement_id": "8e45cddf-7783-56cf-b762-66ae43b65404",
   "inference_ids": [
-    "INF-FIRST-MOVER-PLURALITY-RESIDUE"
+    "248765df-4476-5475-aac4-e45937c8fd4f"
   ],
   "meaning": "From Q11 incommunicable individuation, the first-mover suppositum/nature adapter and every-perfection: any two distinct first movers have one act profile and different represented natures; at-most-one first mover is equivalent to FirstMoverActDeterminesNature and to FirstMoversShareNature. No first mover is produced and no premise is defended. The equivalences show those nature conditions are not independent of uniqueness given these three premises.",
   "definition_ids": [
-    "DEF-FIRST-UNMOVED-MOVER",
-    "DEF-ESSENCE-THOMISTIC-NATURE",
-    "DEF-Q11-INDIVIDUATING-BASIS",
-    "DEF-Q11-GOD-SUPPOSITUM-NATURE",
-    "DEF-Q11-COMMON-DIVINE-NATURE",
-    "DEF-FIRST-MOVER-SUPPOSITUM-NATURE-ADAPTER",
-    "DEF-ACT",
-    "DEF-RESPECT",
-    "DEF-FIRST-MOVER-ACT-DETERMINES-NATURE"
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "3f482cce-c9bc-5eab-9809-deed61c3ccee",
+    "06ecb76b-03a1-52cc-975c-5dbfa74857ba",
+    "248eac32-3f30-5fa3-a34a-7c218d01021b",
+    "cd8adf42-1085-5d98-a799-1d086e5a3adb",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "d5fefc4a-af29-5867-b318-f9b1092c9d8f"
   ],
   "disambiguation_ids": [
-    "DISAMB-ESSENCE",
-    "DISAMB-Q11-SUPPOSITUM-NATURE",
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-NATURE-DIFFERENCE-LIMITATION",
-    "DISAMB-IN-ACT",
-    "DISAMB-CONSTITUTIVE-CONTENT-IDENTITY"
+    "1aef8986-ed29-564f-9803-d812d2ff63e1",
+    "2eef7e66-376a-57e0-81de-9757a1ae1e14",
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "06fb4f51-ff5f-5c5e-b947-844f20de4174",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
+    "efedeffa-2bfa-569a-93d8-d4f682817086"
   ]
 }

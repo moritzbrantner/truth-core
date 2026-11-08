@@ -1,18 +1,20 @@
 {
-  "id": "AQUINAS-SCG-I42-DIVINE-UNITY-CONFESSION",
-  "statement_id": "STMT-GOD-IS-ONE",
-  "source_id": "AQUINAS-SCG",
+  "id": "86e0d8eb-000f-5cac-abb8-8f0fac85c9e2",
+  "label": "Thomas Aquinas, Summa contra gentiles I.42…: GOD_4 is one: whatever is GOD_4 is the same",
+  "legacy_id": "AQUINAS-SCG-I42-DIVINE-UNITY-CONFESSION",
+  "statement_id": "33b18ae7-4578-54bc-a2b5-edce99b21fc2",
+  "source_id": "0292b788-8058-5069-afde-4a19b82b5604",
   "basis": "translation",
   "locator": "I.42 [21–24], scriptural confession and doctrinal applications",
   "interpretation": "One coherent reading of the same proper-divine-being unity confession, not independent new historical claims. [21] adduces Scripture; [22] distinguishes the highest divine cause from dependent everlasting/wise beings or others called gods; [23] identifies two independent first principles, neither causing the other, as the central opposing case; [24] applies the confession against several-gods language about Father and Son. Exact reuse is at-most-one proper divine Being, not at-most-one necessarily existing individual, no dependent beings named gods, or one divine person. The doctrinal references explain source scope and are not independent historical/theological verification or an argument defeating plural roots. No source/scriptural truth, formal proof, ordinary Ontic dictionary or divine-person identity is asserted.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-SCG-I42-PROPER-BEING-COMMON-SOURCE",
-    "DEF-ONE-GOD",
-    "DEF-GOD-OF-CLASSICAL-THEISM"
+    "62882166-d11a-5794-9c70-f93fa24b243f",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
   ],
   "disambiguation_ids": [
-    "DISAMB-Q11-GOD-BEING-PERSON",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "852f282b-a69b-52f3-9d61-e7acadf0d8a7",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

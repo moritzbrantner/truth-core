@@ -1,5 +1,7 @@
 {
-  "id": "STMT-INFINITY-DEPENDENCY-MAGNITUDE-MOTION-TIME",
+  "id": "9b953d41-0cb3-5901-87a3-78b330d4d147",
+  "label": "Infinity in magnitude, motion, and time is not one identical nature: motion is called infinite by…",
+  "legacy_id": "STMT-INFINITY-DEPENDENCY-MAGNITUDE-MOTION-TIME",
   "paraphrase": "Infinity in magnitude, motion, and time is not one identical nature: motion is called infinite by reference to magnitude, and time by reference to motion.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.InfinityDependencyMagnitudeMotionTimeReading"
 }

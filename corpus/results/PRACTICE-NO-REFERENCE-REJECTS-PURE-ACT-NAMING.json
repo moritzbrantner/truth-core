@@ -1,6 +1,8 @@
 {
-  "id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
-  "argument_id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "id": "7255f245-738a-5439-a355-b640950b6520",
+  "label": "The proper-sense unique pure-act…, from For each being satisfying the selected… and 2 more",
+  "legacy_id": "PRACTICE-NO-REFERENCE-REJECTS-PURE-ACT-NAMING",
+  "argument_id": "a35db1f5-78d5-5553-9274-5d38b7fe496d",
   "challenge_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Solution",
   "theorem": "TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.noReferenceRejectsPureActNaming",

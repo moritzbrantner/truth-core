@@ -1,0 +1,16 @@
+{
+  "id": "0029f6b5-ea97-5ae3-9c11-44783a7b3eb8",
+  "label": "Act is SIMPLY_PRIOR_1 to POTENCY_1: whatever is in POTENCY_1 in a…, by Proof by cases over the…",
+  "legacy_id": "INF-PRIOR-SENSE-FORK-ACT-SIMPLY-PRIOR",
+  "input_statement_ids": [
+    "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
+    "197ac723-487c-5fa2-8800-4b441d322014",
+    "9226c6af-c824-5f54-8937-79e5726ce3a4",
+    "42008b33-62b5-564b-875b-ff91957ddd46"
+  ],
+  "output_statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+  "rule": "Proof by cases over the sense enum (disjunctive syllogism), modus ponens",
+  "meaning": "Joint sense fork for 'prior'. Coverage reads the route's 'prior' in one of simple priority, priority in time or priority in substance. Simple branch: the route premise is act's simple priority. Substance branch: the open bridge from priority in substance to simple priority gives it. Temporal branch: impossible, since a temporally first being in potency has nothing before it in act. Hence act is simply prior to potency, under the four OPEN premises. Exclusivity is not used here; it is used by PRIOR-ROUTE-USES-AGREE-FROM-UNIQUE-SENSE.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

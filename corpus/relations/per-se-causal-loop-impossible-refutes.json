@@ -1,0 +1,11 @@
+{
+  "id": "c3c2603d-4490-5029-a3eb-c98a023591e2",
+  "label": "There is no per se causal loop: no…, from A… refutes Rival: some being is, through a finite…",
+  "legacy_id": "REL-PER-SE-CAUSAL-LOOP-IMPOSSIBLE-REFUTES",
+  "subject_kind": "argument",
+  "subject_id": "323c26ae-a953-5a64-9fd8-8f7775c66c0b",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "d9509af9-a338-5d24-bc09-e6f312bff05d",
+  "note": "Existing checked conditional refutation, recorded as a refutes relation (round 2 of the rival refutations). Its premises are open, so it does not count for closure until they are established (#391, #999)."
+}

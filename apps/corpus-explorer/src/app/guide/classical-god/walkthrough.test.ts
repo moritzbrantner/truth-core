@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test";
 
 import { getCorpus } from "@/lib/corpus";
+import { legacyUuid } from "@/lib/corpus-ids";
 import { getFrontierReport } from "@/lib/site-state";
 import { ASSEMBLY_RESULT_ID, buildGodWalkthrough, GOD_ROOT_ID } from "./walkthrough";
 
@@ -10,8 +11,8 @@ test("the guide projects the registered same-witness chain and open route, witho
   const guide = buildGodWalkthrough(corpus, report);
 
   expect(guide.stages.map((stage) => stage.result.id)).toEqual([
-    "DIRECT-ESSE-ROOT-PERFECTION",
-    "PERFECT-ROOT-POSITIVE-INTELLECT-WILL",
+    legacyUuid("result", "DIRECT-ESSE-ROOT-PERFECTION"),
+    legacyUuid("result", "PERFECT-ROOT-POSITIVE-INTELLECT-WILL"),
     ASSEMBLY_RESULT_ID,
   ]);
   expect(guide.stages[1].premises.some((premise) => premise.fromPreviousStep &&
@@ -39,6 +40,6 @@ test("the guide projects the registered same-witness chain and open route, witho
 
 test("the guide refuses a frontier report for another conclusion", () => {
   const corpus = getCorpus();
-  const unrelatedReport = { ...getFrontierReport(GOD_ROOT_ID), root: "STMT-CATHOLICISM-TRUE" };
+  const unrelatedReport = { ...getFrontierReport(GOD_ROOT_ID), root: legacyUuid("statement", "STMT-CATHOLICISM-TRUE") };
   expect(() => buildGodWalkthrough(corpus, unrelatedReport)).toThrow(/Expected the frontier report/);
 });

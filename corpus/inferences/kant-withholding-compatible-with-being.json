@@ -1,7 +1,9 @@
 {
-  "id": "INF-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "id": "c42eea92-1d92-551f-8c52-71046ac1e731",
+  "label": "An explicit family of interpretations has a necessary being in its…, by Model-construction (2)",
+  "legacy_id": "INF-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-KANT-WITHHOLDING-COMPATIBLE-WITH-BEING",
+  "output_statement_id": "f5f6c55c-f58b-5076-b51c-738e3d590e88",
   "rule": "model-construction",
   "meaning": "An explicit family of interpretations has a necessary being in its designated actual member while neither its existence nor its nonexistence is known across all epistemically available interpretations. Earlier underconstrained conclusion, retained with its frozen theorem.",
   "assumption_statement_ids": [],

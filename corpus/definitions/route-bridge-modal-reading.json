@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ROUTE-BRIDGE-MODAL-READING",
+  "id": "30dfba72-8196-542a-85d9-d2e98d7f11c5",
+  "label": "Modal reading of the tertia via's…: ModalPossible m w C means C holds at some world accessible…",
+  "legacy_id": "DEF-ROUTE-BRIDGE-MODAL-READING",
   "term": "modal reading of the tertia via's parameters, and the bridges into the selected relation",
   "definition": "modalPossible m w C means C holds at some world accessible from w, and modalIsAt m x v means ExistsAt v x: worlds fill the Time slot of IsNecessary, so x is necessary in this reading exactly when no accessible world is one at which x fails to exist. NecessityCausesAreActualConcreteGrounds m w says that whatever causes the necessity of something other than itself is, at the one reading world w, a concrete individual existing at w that stands in grounds w to it. SimplyPriorIsActualConcreteGround m w says the same of whatever is simply prior to something other than itself. The case's predicates InAct, MoreIn, CausesIn, CausesNecessityOf and PriorSimply have no world index and are read at w.",
   "basis": "stipulative",

@@ -1,17 +1,19 @@
 {
-  "id": "RUSSELL-ATOMISM-VI-UNIQUE",
-  "statement_id": "STMT-RUSSELL-DESCRIPTION-UNIQUE",
-  "source_id": "RUSSELL-LOGICAL-ATOMISM",
+  "id": "b69319d1-c5d9-5d35-aea5-88763147f3c8",
+  "label": "Bertrand Russell, The Philosophy of Logical…: Existence of a singular definite description…",
+  "legacy_id": "RUSSELL-ATOMISM-VI-UNIQUE",
+  "statement_id": "79154228-f519-5cb9-a011-2b45ea260497",
+  "source_id": "252edd45-e81b-592a-83aa-4e52c5f0cd1f",
   "locator": "VI.86–87",
   "interpretation": "Existence of a singular definite description requires at least one satisfying value and at most one. Bounded reading of the materialized original English lectures. The modern countermodels and explanatory-sufficiency bridge are distinct from this attributed claim.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-RUSSELL-DESCRIPTION",
-    "DEF-RUSSELL-INSTANTIATION"
+    "9df718d1-8bfb-519b-b9f5-f58f6d2c256f",
+    "988c2502-f555-5ff5-ac9d-aa5649d388de"
   ],
   "disambiguation_ids": [
-    "DISAMB-RUSSELL-EXISTENCE",
-    "DISAMB-RUSSELL-EXPLANATION",
-    "DISAMB-RUSSELL-NAMES"
+    "031a741a-57b4-5a20-b9f3-170876e69a02",
+    "a43c7122-d309-5b54-8922-6d459df33f21",
+    "055037e0-ff57-5cee-ac76-6e3e5318f689"
   ]
 }

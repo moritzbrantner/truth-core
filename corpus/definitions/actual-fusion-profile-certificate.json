@@ -1,5 +1,7 @@
 {
-  "id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
+  "id": "9914ddda-c908-5569-a6dd-197200c70754",
+  "label": "Joint full-fusion modal actuality\u2026: Certificate conjoins the existing AtomicCertificate on Body\u2026",
+  "legacy_id": "DEF-ACTUAL-FUSION-PROFILE-CERTIFICATE",
   "term": "joint full-fusion modal actuality certificate",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Mereology.ActualFusionProfile.Certificate",

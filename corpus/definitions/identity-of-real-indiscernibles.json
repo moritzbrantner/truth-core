@@ -1,0 +1,10 @@
+{
+  "id": "9fc4d899-6e47-5537-902d-65606751da68",
+  "label": "Identity of real indiscernibles: Any two beings, first movers or not, with the same real…",
+  "legacy_id": "DEF-IDENTITY-OF-REAL-INDISCERNIBLES",
+  "term": "identity of real indiscernibles",
+  "definition": "Any two beings, first movers or not, with the same real determinations are one: for all x and y, if Has x d iff Has y d for every d, then x = y.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PureActThisness.RealDeterminationsIndividuate",
+  "note": "Open, unattributed restricted form of Leibniz's principle, over real determinations only. It ranges over every being of the carrier, so it denies bare numerical difference everywhere, for example Black's two qualitatively identical spheres; the control individuationExceedsUniqueness shows it exceeds what first-mover uniqueness needs. Quantifying over identity predicates would make it trivial, which DEF-REAL-DETERMINATION excludes."
+}

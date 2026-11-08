@@ -1,5 +1,7 @@
 {
-  "id": "DEF-A1-NECESSARY-WHOLE-CAUSE",
+  "id": "63729b83-5e81-5968-a451-a36450fb1ed0",
+  "label": "Same actual necessary concrete cause…: Some c is concrete, exists at w, satisfies NecessaryAt…",
+  "legacy_id": "DEF-A1-NECESSARY-WHOLE-CAUSE",
   "term": "same actual necessary concrete cause of a selected whole",
   "definition": "Some c is concrete, exists at w, satisfies NecessaryAt s.ontic w c and Causes w c whole. All conjuncts concern the same rigid individual. Causation is asserted only at w; no unique source, externality at other worlds or underivedness is included.",
   "basis": "stipulative",

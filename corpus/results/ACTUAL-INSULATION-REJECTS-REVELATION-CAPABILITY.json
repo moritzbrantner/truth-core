@@ -1,6 +1,8 @@
 {
-  "id": "ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
-  "argument_id": "ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "id": "8af55fe8-c3f5-554b-9b6a-1ac1a5a0a38c",
+  "label": "Exact negation of revelation possible…, from GOD_4 exists: there is something that is… and 4 more",
+  "legacy_id": "ACTUAL-INSULATION-REJECTS-REVELATION-CAPABILITY",
+  "argument_id": "6bbeb249-d8f3-520d-982d-17d9744ce45a",
   "challenge_module": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.Solution",
   "theorem": "TruthCore.Results.Alternatives.RevelationRecognition.Composition.actualInsulationRejectsCapability",

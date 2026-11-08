@@ -1,28 +1,30 @@
 {
-  "id": "ATTEMPT-NOMINALIST-UNIVERSALS-PRIMARY-COMPARISON",
+  "id": "373b7dfc-25f0-50b2-a187-846b7bcd2eb7",
+  "label": "Read full materialized Latin Summa logicae I.14–17 in immutable Logic Museum revisions",
+  "legacy_id": "ATTEMPT-NOMINALIST-UNIVERSALS-PRIMARY-COMPARISON",
   "statement_ids": [
-    "STMT-UNIVERSAL-SIGN-NUMERICALLY-SINGULAR",
-    "STMT-NATURAL-AND-CONVENTIONAL-UNIVERSAL-SIGNS",
-    "STMT-MENTAL-UNIVERSAL-NOT-EXTRAMENTAL-SUBSTANCE",
-    "STMT-PARTICULAR-FORMS-WITHOUT-COMMON-NATURE",
-    "STMT-SPECIFIC-AGREEMENT-WITHOUT-COMMON-CONSTITUENT",
-    "STMT-COMMON-NAME-UNIVOCITY-THROUGH-ONE-CONCEPT",
-    "STMT-UNIVERSAL-EXPRESSES-NOT-CONSTITUTES-NATURE",
-    "STMT-PLATONIC-ONE-OVER-MANY",
-    "STMT-PLATONIC-EXPLANATORY-PARTICIPATION",
-    "STMT-PLATONIC-UNIFORM-SELF-PREDICATION"
+    "075b072f-ae68-53b1-80ca-6fcb10fc7e1c",
+    "26cfa7e9-1a3d-599a-af6b-cd046586be34",
+    "8e16ab7e-92ea-5c05-ad09-1830f1ece4fb",
+    "70ddbe12-4bfc-5519-aa45-f371142d4145",
+    "e1f09534-bece-5397-bd51-3e0f3bf6683f",
+    "e870f817-de3c-534a-8b42-35a5eebfa303",
+    "6496fa98-8b7b-5948-830d-90910b8aa39a",
+    "1eeadd04-81f5-5c53-b6b4-21ae4190f434",
+    "d5dfae98-bb39-54da-99ac-9f855a8edfc0",
+    "68db1579-c050-5686-a7d1-59846ad4d624"
   ],
   "date": "2026-10-28",
   "kind": "reading",
   "outcome": "succeeded",
   "summary": "Read full materialized Latin Summa logicae I.14–17 in immutable Logic Museum revisions. Positive rival: natural mental signs, conventional words subordinated to one concept, real specific agreement through particulars/own forms, without an additional common substantial constituent. Reused existing Forms/ParticipationGrounding/ThirdMan results instead of duplicating a regress or treating a semantic reply as adequate metaphysical grounding. Spade author-site PDF timed out and UMass mirror returned404; neither was used for claims. Rendered oldid HTML bytes varied despite identical content, so used byte-stable immutable oldid action=raw endpoints with existing raw_text extraction, twice matched and materialized. Bounded chapter14 CDX query found no capture; save returnedHTTP520; no archive fallback invented. Precise locators, rejected readings, strongest realist replies, primary/transcription boundaries and remaining reliability/selection burdens persist in docs/notes/nominalist-universals.md. No proof, philosophical elimination or root-premise discharge advertised.",
   "evidence": [
-    "OCKHAM-SL-I14-SINGULAR-SIGN",
-    "OCKHAM-SL-I14-NATURAL-CONVENTIONAL",
-    "OCKHAM-SL-I15-MENTAL-NOT-SUBSTANCE",
-    "OCKHAM-SL-I16-PARTICULAR-FORMS",
-    "OCKHAM-SL-I17-SPECIFIC-AGREEMENT",
-    "OCKHAM-SL-I17-ONE-CONCEPT-UNIVOCITY",
-    "OCKHAM-SL-I17-EXPRESSES-NATURE"
+    "f0c90bee-e4d5-5352-aef3-8404a272f34b",
+    "7340b036-478b-5f54-8dc0-716731b23318",
+    "7297d605-e562-55cb-b971-512e9cf0a1eb",
+    "2d3c1512-78d6-5f2d-bf94-85d9157749a7",
+    "225fe49e-f78b-5d04-8709-6b14ae77ee14",
+    "b67e0fc0-b0a3-533e-b195-b9ffdbf9ad32",
+    "35174ef8-8757-5583-82cd-3e61187978cf"
   ]
 }

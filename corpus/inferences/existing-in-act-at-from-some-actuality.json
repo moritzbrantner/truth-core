@@ -1,0 +1,14 @@
+{
+  "id": "9c0d5e1e-ed5c-530d-a23f-a20be6c4b3be",
+  "label": "Selected-world one-way contract: each individual represented as…, by Universal instantiation…",
+  "legacy_id": "INF-EXISTING-IN-ACT-AT-FROM-SOME-ACTUALITY",
+  "input_statement_ids": [
+    "adf07168-21a9-5ea3-83b1-7d404f3f6421",
+    "7067553d-cad9-5d79-b6b2-912e35051530"
+  ],
+  "output_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
+  "rule": "Universal instantiation, existential elimination, modus ponens",
+  "meaning": "Derives the selected-world esse contract (every existent at w is in act of esse) from the OPEN premise that every existent at w is in act in some respect and the q.4 a.1 ad 3 reading that whatever is in act in some respect is in act of esse. Only the one-way contract follows; existence from esse is not derived.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

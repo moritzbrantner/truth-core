@@ -1,14 +1,16 @@
 {
-  "id": "NT-PHIL-2-HUMILIATION",
-  "statement_id": "STMT-REPORTED-PHIL-HUMILIATION",
-  "source_id": "NT-PHIL",
+  "id": "9aaa55d7-89fb-5716-8f7c-b1629af12df4",
+  "label": "Paul, Philippians 2.7-8: The letter presents Christ Jesus as emptying himself by taking slave form…",
+  "legacy_id": "NT-PHIL-2-HUMILIATION",
+  "statement_id": "4f7d7fa3-5fce-575c-9753-411aa370644d",
+  "source_id": "57ca9302-5520-5045-bd84-f4d78e74e1be",
   "locator": "2.7-8",
   "interpretation": "Third-person epistolary assertion, not Jesus’s self-claim or an established event. The letter presents Christ Jesus as emptying himself by taking slave form in human likeness, and as found human, humbling himself in obedience through death on a cross. See docs/philippians-christology.md for semantic alternatives and historical gaps.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-PHIL-CHRISTOLOGY-REPORT"
+    "c9170618-ccb7-53ac-948d-35ad3ca39f65"
   ],
   "disambiguation_ids": [
-    "DISAMB-PHIL-CHRISTOLOGY"
+    "10dde11a-643e-5295-89e6-27d15f130cb1"
   ]
 }

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { idOf, nameOf } from "@/lib/corpus";
 import type { ExpressionNode, StructureReport } from "@/lib/proposition-structure";
 
 /** Presentation only: ordered edges remain ordered, including implicit arguments. */
@@ -73,9 +74,12 @@ export function PropositionStructure({ report }: { report?: StructureReport }) {
           </div>
           <div className="mt-7" aria-label="Semantic interpretation">
             <h3 className="eyebrow">Semantic interpretation · corpus records</h3>
-            {[...report.semantic_links.definitions, ...report.semantic_links.disambiguations].map((record) => <details className="mt-3 text-sm leading-6" key={record.id}>
+            {[
+              ...report.semantic_links.definitions.map((record) => ({ record, href: `/definitions/${record.id}` })),
+              ...report.semantic_links.disambiguations.map((record) => ({ record, href: `/definitions#${record.id}` })),
+            ].map(({ record, href }) => <details className="mt-3 text-sm leading-6" key={record.id}>
               <summary className="cursor-pointer">{record.term ?? record.id}</summary>
-              <Link className="link-quiet break-all font-mono text-xs" href={record.id.startsWith("DISAMB-") ? `/definitions#${record.id}` : `/definitions/${record.id}`}>{record.id}</Link>
+              <Link className="link-quiet break-all font-mono text-xs" href={href}>{idOf(record.id)}</Link>
               <p className="mt-2">{record.definition ?? record.resolution}</p>
               {record.note ? <p className="mt-2 text-[var(--muted)]">{record.note}</p> : null}
               <p className="mt-2 break-all text-xs text-[var(--muted)]">Expression references: {record.expression_ids?.length ? record.expression_ids.map((id, index) => <span key={id}>{index ? ", " : ""}{expressionAnchors.has(id) ? <a className="link-quiet" href={`#${expressionAnchors.get(id)}`}>{id}</a> : id}</span>) : "contextual link; no exact declaration match"}</p>
@@ -85,13 +89,13 @@ export function PropositionStructure({ report }: { report?: StructureReport }) {
             <h3 className="eyebrow">Proof support and bridge direction</h3>
             <p className="mt-2 text-sm leading-6 text-[var(--muted)]">The following are corpus links, separate from definition expansion. A listed argument or open bridge does not establish equivalence.</p>
             {report.support.related_statements.map((statement) => <div className="mt-3 text-sm leading-6" key={statement.statement_id}>
-              <Link className="link-quiet break-all" href={`/statements/${statement.statement_id}`}>{statement.statement_id}</Link>
+              <Link className="link-quiet break-all" href={`/statements/${statement.statement_id}`}>{nameOf(statement.statement_id)}</Link>
               <p>{statement.paraphrase}</p><p className="text-xs text-[var(--muted)]">Status: {statement.frontier_status}</p>
             </div>)}
             {report.support.arguments.map((argument) => <div className="mt-3 text-xs leading-6" key={argument.id}>
-              <p className="break-all">{argument.id}: {argument.premise_statement_ids.join(" ∧ ")} → {argument.conclusion_statement_id}</p>
+              <p className="break-all">{nameOf(argument.id)}: {argument.premise_statement_ids.map(nameOf).join(" ∧ ")} → {nameOf(argument.conclusion_statement_id)}</p>
               <p>{argument.meaning}</p>
-              {report.support.results.filter((result) => result.argument_id === argument.id).map((result) => <Link className="link-quiet mr-3 break-all" href={`/results/${result.id}`} key={result.id}>{result.id}</Link>)}
+              {report.support.results.filter((result) => result.argument_id === argument.id).map((result) => <Link className="link-quiet mr-3 break-all" href={`/results/${result.id}`} key={result.id}>{nameOf(result.id)}</Link>)}
             </div>)}
           </div>
           <div className="mt-7 text-sm leading-6" aria-label="Coverage limits">

@@ -1,0 +1,15 @@
+{
+  "id": "a9aefdc5-5784-486c-9ba9-e298b8eba641",
+  "label": "A common governor projects to a first UNMOVED_2 mover",
+  "premise_statement_ids": [
+    "f43962a3-1a34-593b-8856-a97336e8ce18"
+  ],
+  "conclusion_statement_id": "7bce7007-ad29-5f5b-b4b3-e7b02bf98312",
+  "inference_ids": [
+    "a9d6739f-426e-4700-a5a7-bfa604702489"
+  ],
+  "meaning": "Assembly: project the existing first-mover witness from OneIntelligentFirstMoverGovernsNature, connecting the checked Fifth Way conclusion to a root-route node. It supplies neither uniqueness nor classical attributes; no premise is independently defended.",
+  "definition_ids": [
+    "cfadc1f4-dd30-5f4f-a336-a0b9c1b1182d"
+  ]
+}

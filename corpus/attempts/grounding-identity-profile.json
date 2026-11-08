@@ -1,15 +1,17 @@
 {
-  "id": "ATTEMPT-GROUNDING-IDENTITY-PROFILE",
+  "id": "10041b5b-884f-5d4a-9406-e50d543d1268",
+  "label": "Reuse inventory found no fixed-tag rigid companion or generic Profile/Ontic isomorphism transport",
+  "legacy_id": "ATTEMPT-GROUNDING-IDENTITY-PROFILE",
   "statement_ids": [
-    "STMT-GROUNDING-IDENTITY-PROFILE",
-    "STMT-WORLD-LOCAL-GROUNDING-DOUBLING",
-    "STMT-COUNTERPART-NECESSITY-CONTROLS"
+    "5b521600-7250-53bd-80e6-5ee8a3044f94",
+    "b5680eae-4ee9-5fc3-9c71-5b74e4638619",
+    "623b4201-ccb7-56da-99b2-d8d236ec96ce"
   ],
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
   "summary": "Reuse inventory found no fixed-tag rigid companion or generic Profile/Ontic isomorphism transport. The basic counterpart-to-identity inference was already separated by the old singleton controls, so it was not repeated. Compared the exact old nontrivial local grounding lift with a fixed-tag companion on the same roster, frame and actual data, preserving all four source constraints. Proved guarded per-world unique correspondence and exact counterpart composition through arbitrary intermediate worlds. Derived rigid necessity from population, reused doubledHasNoNecessary, and instantiated exampleSourceConditions plus a genuine grounding edge. Rejected global roster bijection, source-coordinate equality as literal tagged identity, and independent vindication of either cross-world assignment. No source claim or root discharge; identity, applicability, PSR and anti-brute bridges remain OPEN. See docs/notes/grounding-identity-profile.md.",
   "evidence": [
-    "GROUNDING-IDENTITY-PROFILE"
+    "93f096f6-2556-5bc0-8f70-6bf870b922ac"
   ]
 }

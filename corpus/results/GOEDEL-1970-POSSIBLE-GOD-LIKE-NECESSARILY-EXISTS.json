@@ -1,6 +1,8 @@
 {
-  "id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
-  "argument_id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "id": "1414ec3e-14c8-540a-9056-4a3188552a62",
+  "label": "Gödel's 1970 theorem Th3: at every…, from Gödel's 1970 axiom Ax2a: at every world… and 3 more",
+  "legacy_id": "GOEDEL-1970-POSSIBLE-GOD-LIKE-NECESSARILY-EXISTS",
+  "argument_id": "a7cf6690-7b87-555c-8712-1aed9827a6bf",
   "challenge_module": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Challenge",
   "solution_module": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.Solution",
   "theorem": "TruthCore.Results.Isabelle.NotesOnGoedel.PossibleGodLikeNecessarilyExists.possibleGodLikeNecessarilyExists",

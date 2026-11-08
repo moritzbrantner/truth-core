@@ -1,24 +1,26 @@
 {
-  "id": "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
+  "id": "983579ab-2801-580c-b4e0-4a69f34a7ad5",
+  "label": "There exists a graph-relative source s, every source equals s, and every node has…, from confluence",
+  "legacy_id": "SOURCE-FOREST-ROOTED-FROM-CONFLUENCE",
   "premise_statement_ids": [
-    "STMT-SOURCE-FOREST-WEAKLY-CONNECTED",
-    "STMT-SOURCE-FOREST-UPSTREAM-CONFLUENT",
-    "STMT-SOURCE-FOREST-WELL-FOUNDED",
-    "STMT-SOURCE-FOREST-POPULATED"
+    "eb88842a-1dc7-5632-a0e0-556eec39864a",
+    "1a575754-6316-5d66-ac5b-db8fb4cf1aef",
+    "25697a6f-d4f8-55c4-9e12-2d6b6710c119",
+    "c638c6f7-31e2-53a4-9668-bb23b88cc04e"
   ],
-  "conclusion_statement_id": "STMT-SOURCE-FOREST-ROOTED-AT-UNIQUE-SOURCE",
+  "conclusion_statement_id": "96082032-91f1-586b-9db8-e42edbb5e52e",
   "inference_ids": [
-    "INF-SOURCE-FOREST-ROOTED-FROM-CONFLUENCE"
+    "9d3edf2c-7d28-5ce1-8d08-2bc2ec93d0db"
   ],
   "meaning": "Compose WorldSourceRegress.sourcePath_of_acc at an explicitly present node to get a source; compose the confluence-based at-most-one theorem to identify all sources. For each node, compose sourcePath_of_acc again and transport its finite path endpoint to the same unique source. All structural philosophical premises stay open, and no world-to-world common witness or source with an outgoing edge is inferred.",
   "definition_ids": [
-    "DEF-SOURCE-FOREST-CONSTRAINTS",
-    "DEF-REGRESS-SCHEMA-GRAPH",
-    "DEF-WORLD-ACTUAL-CAUSAL-GRAPH",
-    "DEF-FINITE-CAUSAL-PATH"
+    "f64856c0-6d2c-5c5d-97ef-9895039d8c27",
+    "1dff2d68-1348-5e7e-8ee7-248af63c8c53",
+    "7439c292-82a4-530d-8144-a61a6c21f502",
+    "822c9912-2313-584b-b2b7-77031da20107"
   ],
   "disambiguation_ids": [
-    "DISAMB-REGRESS-DOMAINS",
-    "DISAMB-CAUSAL-POWER-GROUNDING"
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21"
   ]
 }

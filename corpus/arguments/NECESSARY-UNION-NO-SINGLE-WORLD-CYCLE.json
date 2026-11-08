@@ -1,23 +1,25 @@
 {
-  "id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "id": "ea3f7bd5-380f-5042-a254-a6b605769094",
+  "label": "No world witnesses every edge of any nonempty union…, from Every world has no nonempty directed…",
+  "legacy_id": "NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
   "premise_statement_ids": [
-    "STMT-NECESSARY-UNION-LOCAL-ACYCLICITY"
+    "3c19595b-f061-5ceb-942b-1c0ee1fcb910"
   ],
-  "conclusion_statement_id": "STMT-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE",
+  "conclusion_statement_id": "ee8f94ff-bef1-58f3-8d43-281d901709ee",
   "inference_ids": [
-    "INF-NECESSARY-UNION-NO-SINGLE-WORLD-CYCLE"
+    "44c0721b-4d16-5d33-afb5-fcc86e97ad1e"
   ],
   "meaning": "Under worldwise acyclicity restricted to the same necessary subtype, no nonempty union loop has all its edges witnessed in a single world. Map any proposed common-world path to the local relation and contradict its acyclicity. No claim about all causation or contingent individuals.",
   "definition_ids": [
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-UNION-LOCAL-ACYCLICITY",
-    "DEF-NECESSARY-UNION-CYCLE",
-    "DEF-NECESSARY-UNION-SINGLE-WORLD-WITNESS"
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "88b700a4-0d7a-5a40-962d-f43fa0c9fba8",
+    "634649e1-c424-59f4-9124-7c2ae360f0a5",
+    "160cf056-54f0-5a9d-9ca3-c3fafae76f93"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

@@ -1,12 +1,14 @@
 {
-  "id": "STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES",
+  "id": "f0fd4869-d897-583a-bfa4-5e2c1b829a6f",
+  "label": "An infinite regress is impossible among efficient causes that are PER_SE_1 required for an effect…",
+  "legacy_id": "STMT-INFINITE-REGRESS-IMPOSSIBLE-ONLY-IN-PER-SE-SERIES",
   "paraphrase": "An infinite regress is impossible among efficient causes that are per se required for an effect (stone, stick, hand), but not among causes multiplied per accidens (successive hammers, human generation).",
   "definition_ids": [
-    "DEF-PER-SE-ORDERED-SERIES",
-    "DEF-PER-ACCIDENS-ORDERED-SERIES"
+    "c9798301-e990-5ca2-a36e-6b11f76206c1",
+    "6ed9fbb9-f419-5eee-9ef5-a2c4f0f1ffa7"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSAL-SERIES"
+    "81c233d4-01b4-528c-8bbd-7da228443ffe"
   ],
   "note": "UNFORMALIZED source-map statement. The retained legacy code TruthCore.Latin.Aquinas.SummaTheologiae.InfiniteRegressImpossibleOnlyInPerSeSeriesReading at TruthCore/Latin/Aquinas/SummaTheologiae/PrimaPars/Question2/Article3Interpretation.lean:154 encodes only two unconstrained propositions as P ∧ Q; it does not formalize essential dependence, historical succession or metaphysical possibility and is no longer advertised as this statement's formal binding. The separate analyst formulation [STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION](https://github.com/moritzbrantner/truth-core/blob/main/corpus/statements/per-se-historical-series-distinction.json) proves explicit relation-level dictionary exclusion and formal compatibility. It is a narrower typed distinction, not a formalization of this whole source assertion, a source attribution, or a proved equivalence to it. The source claim and legacy Lean interface are preserved unchanged."
 }

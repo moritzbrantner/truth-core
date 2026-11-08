@@ -1,7 +1,9 @@
 {
-  "id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "id": "54cc8691-0d5a-5163-9309-658ee5e7189b",
+  "label": "For any individual/world types and one Boolean primitive atom, the corresponding…, by Direct-proof",
+  "legacy_id": "INF-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-SCOTT-NE-BOOLEAN-FRAGMENT-CLOSED",
+  "output_statement_id": "d6b0f007-09be-5fea-8d5b-bd5a10a8b02b",
   "rule": "direct-proof",
   "meaning": "Use the four Boolean unary readout functions. The atom and constants are admitted directly; composing readouts with Boolean `not` and `and` proves both closure properties pointwise.",
   "assumption_statement_ids": [],

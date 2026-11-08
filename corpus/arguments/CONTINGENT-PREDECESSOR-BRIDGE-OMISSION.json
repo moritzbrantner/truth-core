@@ -1,28 +1,30 @@
 {
-  "id": "CONTINGENT-PREDECESSOR-BRIDGE-OMISSION",
+  "id": "501db7db-5521-5846-b92c-3690c514a8f1",
+  "label": "The fixed contingent-predecessor interpretation retains selected-world reflexivity, necessary…",
+  "legacy_id": "CONTINGENT-PREDECESSOR-BRIDGE-OMISSION",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-CONTINGENT-PREDECESSOR-CONTROL",
+  "conclusion_statement_id": "0d06de8b-1ead-5a5c-8d4a-d208a6790472",
   "inference_ids": [
-    "INF-CONTINGENT-PREDECESSOR-BRIDGE-OMISSION"
+    "24ac95b5-42c2-5182-a985-044d24b9cdc5"
   ],
   "meaning": "One fixed endpoint-sound, distinct-cause interpretation retains the named theorem's reflexivity, necessity, potential role and union-WF backgrounds but violates the no-contingent-predecessor bridge and named underivedness. The selected necessary false actually receives a cause from contingent true at false. Only false is necessary, so the necessary-only union is empty despite the local two-cycle. This tests the exact missing bridge; worldwise causal WF, temporal coherence and metaphysical possibility are not claimed. Because its actual world false has a two-cycle, this control is outside the owner's acyclic-world setting; it only tests the weaker background without pointwise WF.",
   "definition_ids": [
-    "DEF-CONTINGENT-PREDECESSOR-CONTROL",
-    "DEF-KANT-MODAL-CONTINGENCY",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT"
+    "fa64b8a7-cc14-5c17-8820-467469ccb984",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1"
   ],
   "disambiguation_ids": [
-    "DISAMB-CAUSE",
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
   ]
 }

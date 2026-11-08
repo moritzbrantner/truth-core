@@ -1,0 +1,26 @@
+{
+  "id": "22a7366c-57ed-5f39-8421-89e6664fa4e0",
+  "label": "Whatever HAS_INTELLECT_1 HAS_WILL_1, from intellectual inclination",
+  "legacy_id": "WILL-FROM-INTELLECTUAL-INCLINATION",
+  "premise_statement_ids": [
+    "763e8f08-55ca-5e87-99dd-7423d6534073",
+    "d4b35781-27f4-5c21-b03e-df696df7e19f",
+    "b7b10ad2-fafe-552e-8bf4-205d49f2f070"
+  ],
+  "conclusion_statement_id": "090be689-b77f-51a1-9d5d-caf339169e4b",
+  "inference_ids": [
+    "ad6244d3-a748-5887-b922-eee472516d0e"
+  ],
+  "meaning": "ST I q.19 a.1's argument, typed with forms: whatever has intellect is in act through an intelligible form (STMT-INTELLECT-HAS-INTELLIGIBLE-FORM); an inclination follows every form (STMT-EVERY-FORM-HAS-INCLINATION); an inclination following an intelligible form is will (STMT-INTELLIGIBLE-INCLINATION-IS-WILL). Derives STMT-WILL-FOLLOWS-INTELLECT, an underived leaf of 18 root routes. Discharges obligations A and B of the AQUINAS-INTELLECTUAL-APPETITE-TO-WILL candidate as explicit typed premises (form-relative orientation at the level of power, no exercise or passivity) and states C as an explicit recognition bridge; it does not identify natural with cognitive appetite, since a being with only a natural form has its inclination and no will in the controls. All three premises stay open.",
+  "definition_ids": [
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "678b9306-81f1-5c61-ab90-6e4594395b50",
+    "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
+  ],
+  "disambiguation_ids": [
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058",
+    "c40e9cab-4874-50f8-af05-d5c45c8a3c82"
+  ]
+}

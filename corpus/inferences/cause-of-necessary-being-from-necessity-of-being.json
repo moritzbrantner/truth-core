@@ -1,0 +1,14 @@
+{
+  "id": "fe4f35c8-dc1e-5ca9-bb4a-5125897ea029",
+  "label": "Whatever causes the being of a NECESSARY_1 being causes its…, by Universal instantiation… (2)",
+  "legacy_id": "INF-CAUSE-OF-NECESSARY-BEING-FROM-NECESSITY-OF-BEING",
+  "input_statement_ids": [
+    "651a68d4-a36e-5237-925b-ffdedcf41144",
+    "0014afa4-30be-5693-9a41-93bf0eaa923c"
+  ],
+  "output_statement_id": "3c468121-b8fe-5342-a1ab-d35009e5fdd4",
+  "rule": "Universal instantiation, modus ponens",
+  "meaning": "Transcription (single application): the proof applies the causing-necessity-respect premise, whose consequent is the conclusion's, after the other premise supplies its antecedent, so under invariant 16 it does not expand the target. Whatever causes the being of a necessary being causes its necessity, from two OPEN premises: a necessary being's necessity consists in its being (esse), and causing a thing in the respect in which its necessity consists causes its necessity. Analyses the bridge's 'since its necessity is the necessity of its being' through a typed respect relation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

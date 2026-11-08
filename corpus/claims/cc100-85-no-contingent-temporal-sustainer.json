@@ -1,15 +1,17 @@
 {
-  "id": "CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
-  "statement_id": "STMT-CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
-  "source_id": "CAPTURING-CHRISTIANITY-100-SLIDES",
+  "id": "eb39526b-8166-558c-b564-c8c3bb95aa2e",
+  "label": "Chad McIntosh, Over 100 Arguments for the…: What explains what holds contingent beings together…",
+  "legacy_id": "CC100-85-NO-CONTINGENT-TEMPORAL-SUSTAINER",
+  "statement_id": "e2ddd2c1-fddb-5929-bc28-e18b07141257",
+  "source_id": "392156c4-ea31-5f06-89dc-581ec16fa4db",
   "locator": "original presentation PDF pp.206–213: p.208, argument #85 Unities: Contingents, step 3",
   "interpretation": "The source excludes other contingent beings from the relevant sustaining explanation. This is not derived merely from each being’s contingency, plurality or local causal dependence; no theorem rules out collective, circular or indefinite sustaining accounts just by naming the relation. No complete explanatory account or causal-grounding identity is supplied. Attribution is to McIntosh’s presentation only, not the unread Braine1988 book referenced on p209. No formal proof or premise truth is registered.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-CC100-85-TEMPORAL-SUSTAINING-EXPLANATION"
+    "f65d68ee-3c6a-57e7-8493-9b0e96a8cc50"
   ],
   "disambiguation_ids": [
-    "DISAMB-PSR-EXPLANATION-CAUSE",
-    "DISAMB-NECESSARY-INDIVIDUAL-SCOPE"
+    "f7bae38e-9b21-54fe-8236-2646c230568b",
+    "7507d645-874d-5434-add8-2f49c2801d36"
   ]
 }

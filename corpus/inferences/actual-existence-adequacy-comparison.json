@@ -1,7 +1,9 @@
 {
-  "id": "INF-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "id": "e9b0022e-d434-560a-8dec-b09a27a7df0b",
+  "label": "On the SAME explicit concrete Unit bearer, chain and fork have coherent…, by Model-construction",
+  "legacy_id": "INF-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
   "input_statement_ids": [],
-  "output_statement_id": "STMT-ACTUAL-EXISTENCE-ADEQUACY-COMPARISON",
+  "output_statement_id": "79707d9a-60d8-56b1-8ed1-5bbd1423c66e",
   "rule": "model-construction",
   "meaning": "Embed the existing chain/fork experiments into one Ontic/Profile/Arena target and check logical basic evidence on unrestricted valuations separately from the supplied response tables. Reuse certified Regularity.checks for the intervention distinction.",
   "assumption_statement_ids": [],

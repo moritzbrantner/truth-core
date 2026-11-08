@@ -1,16 +1,18 @@
 {
-  "id": "ARIST-MET-IV-8-1012B-ALL-TRUE-SELF-REFUTING-A",
-  "statement_id": "STMT-PROTAGOREAN-UNQUALIFIED-ALL-OPINIONS-TRUE-FAILS",
-  "source_id": "ARIST-MET",
+  "id": "bfe85597-4d28-5778-9796-bec1269153ed",
+  "label": "Aristotle, Metaphysics IV.8, 1012b15-17: The unqualified doctrine fails: not every opined content…",
+  "legacy_id": "ARIST-MET-IV-8-1012B-ALL-TRUE-SELF-REFUTING-A",
+  "statement_id": "bc89c705-f026-57d6-a513-26605891a95d",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.8, 1012b15-17",
   "interpretation": "He who says that all things are true makes the contrary statement true as well, and so his own not true, since the contrary denies that it is true. The Aristotelian parallel to the Theaetetus peritropē, with statements (λόγοι) in place of opinions and one unindexed truth predicate.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-ALL-OPINIONS-TRUE-UNINDEXED",
-    "DEF-ABSOLUTE-TRUTH"
+    "7a4b052f-4176-59e6-9070-9ed3ab41869d",
+    "cbb0ffe9-46e6-5bc4-aa8b-e705635ce0e7"
   ],
   "disambiguation_ids": [
-    "DISAMB-ASSERTED-TRUTH-SENSE",
-    "DISAMB-TRUE"
+    "d62cd674-9ae4-564a-8016-13d11ba0c407",
+    "80b5fc49-ed55-5c61-b14b-3621d2aa1520"
   ]
 }

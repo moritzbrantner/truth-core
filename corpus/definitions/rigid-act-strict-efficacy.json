@@ -1,5 +1,7 @@
 {
-  "id": "DEF-RIGID-ACT-STRICT-EFFICACY",
+  "id": "01b44013-2db5-546c-a22e-06104e8e724c",
+  "label": "Strict efficacy of a rigid act token: For one Lean value a as the act and one being x as the…",
+  "legacy_id": "DEF-RIGID-ACT-STRICT-EFFICACY",
   "term": "strict efficacy of a rigid act token",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Modal.SimplicityCollapse.StrictEfficacy",

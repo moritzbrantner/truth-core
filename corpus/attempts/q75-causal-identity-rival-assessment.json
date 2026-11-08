@@ -1,10 +1,12 @@
 {
-  "id": "ATTEMPT-Q75-CAUSAL-IDENTITY-RIVAL-ASSESSMENT",
+  "id": "965c8b72-8b29-519b-894c-21e559de21a0",
+  "label": "Read full pinned q.75 a.1–2 and q.76 a.1, Pasnau pp.353–357 and new papineau rise physicalism 3…",
+  "legacy_id": "ATTEMPT-Q75-CAUSAL-IDENTITY-RIVAL-ASSESSMENT",
   "statement_ids": [
-    "STMT-INTRINSIC-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
-    "STMT-ORGAN-BODILY-NATURE-BLOCKS-UNIVERSAL-COGNITION",
-    "STMT-NONORGANIC-INTELLECT-OPERATION-ATTRIBUTION",
-    "STMT-PER-SE-INTELLECTUAL-OPERATION-REQUIRES-SUBSISTENCE"
+    "bc8dc198-3639-52f9-b3e2-d8a0a1b1875c",
+    "5a8deceb-0289-5606-8046-c81bce1bed37",
+    "5c640570-19f1-5c70-9682-9fb1da35f762",
+    "075120a0-5a7a-56df-b644-75b8ec3a9011"
   ],
   "date": "2026-10-26",
   "kind": "reading",
@@ -14,7 +16,7 @@
     "PR-420",
     "PR-422",
     "PR-427",
-    "PASNAU-Q75-COGNITIVE-PLASTICITY-REPLY"
+    "3be739eb-2606-5418-92f9-d4855799acb9"
   ],
   "blocker": "Defend the universal intrinsic/organ interference constraint beyond sensory illustrations and compare q.75 instrumentality with the rival’s realization semantics; then defend positive operation attribution and operation/existence correspondence. Causal completeness, efficacy, non-overdetermination, semantic correctness and unrestricted capacity are not established by this reading."
 }

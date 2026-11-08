@@ -1,0 +1,12 @@
+{
+  "id": "f6665846-670f-56ab-ae13-cdd30e31011b",
+  "label": "The bearer principle: every occurring thought episode is borne by some subject, from agency",
+  "legacy_id": "EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY",
+  "argument_id": "4fc44748-e1d0-5794-82ef-dceb7b49fcce",
+  "challenge_module": "TruthCore.Results.Causality.Round2ExistenceAct.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2ExistenceAct.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2ExistenceAct.everyThoughtHasSubjectFromAgency",
+  "comparator_config": "results/EVERY-THOUGHT-HAS-SUBJECT-FROM-AGENCY/comparator.json",
+  "status": "solution-present",
+  "description": "The bearer principle from three OPEN premises: every occurring thought is an operation, every operation has an agent, and the agent of an episode bears it. An event ontology of thinking without agents rejects the first."
+}

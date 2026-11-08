@@ -1,0 +1,14 @@
+{
+  "id": "47b151ca-f500-5a7c-80d4-33bb90247ee3",
+  "label": "An efficient cause does not depend for its being on what it efficiently causes",
+  "legacy_id": "STMT-EFFICIENT-CAUSE-NOT-DEPENDENT-ON-EFFECT",
+  "paraphrase": "OPEN analyst premise: an efficient cause does not depend for its being on what it efficiently causes.",
+  "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.EfficientCauseNotDependentOnEffect",
+  "definition_ids": [
+    "69c0b23e-54c7-57a1-871f-839c6e5514c6",
+    "bf26b9b2-41ed-55b0-9557-dae90ab9b81f"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "0d83c179-bfab-5a29-97c4-ba3c10e599d5",
+  "label": "Thomas Aquinas, Summa contra gentiles I.13… supports A mover other than what it moves that is…",
+  "legacy_id": "REL-AQUINAS-SCG-I-13-MOVED-MOVERS-INSTRUMENTS-SUPPORTS-MOVED-MOVER-IS-INSTRUMENT",
+  "subject_kind": "claim",
+  "subject_id": "9f4f9489-f024-5cdd-95c2-93de24f098f0",
+  "predicate": "supports",
+  "object_kind": "statement",
+  "object_id": "962a9ed3-f084-5cac-a8e6-b4e52e6a7ade",
+  "note": "SCG I.13 [15] counts every mover of the series as an instrumental cause because it is a moved mover. That bears on this premise, which restricts the antecedent to a mover moved in a respect relevant to its moving. Gaps: the text states no respect restriction (it is stronger, and is not attributed this restricted form); 'instrumental cause' is typed here as not moving by the power of one's own form (DEF-MOVES-BY-OWN-FORM), which the sentence does not define; English-translation basis."
+}

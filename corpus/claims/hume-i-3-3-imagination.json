@@ -1,16 +1,18 @@
 {
-  "id": "HUME-TREATISE-I-3-3-IMAGINATION-A",
-  "statement_id": "STMT-HUME-I-3-3-IMAGINATION",
-  "source_id": "HUME-TREATISE",
+  "id": "cee01f60-096c-5374-a4e7-2f56d490e2ca",
+  "label": "David Hume, A Treatise of Human Nature…: Hume says the distinct ideas of a beginning and its cause…",
+  "legacy_id": "HUME-TREATISE-I-3-3-IMAGINATION-A",
+  "statement_id": "c70e0bd4-40e9-5e43-8450-9c0a929ea69d",
+  "source_id": "1aa09c38-b71d-515c-a812-5ca5f489c035",
   "locator": "I.3.3, §3 (SBN 79–80)",
   "interpretation": "The represented beginning-without-cause is specific to the passage. This records its imaginative separation premise, independently of the reused STMT-HUME-NARROW-IDEAS-WITHHOLDING conclusion. Neither an unrestricted bridge over world predicates nor its necessity, C(¬H), C(□¬H) or C(MC) is thereby attributed. The qualified possibility wording is assessed separately in the documentation.",
   "status": "formalized",
   "definition_ids": [
-    "DEF-HUME-TEST-IMAGINATION",
-    "DEF-HUME-TEST-BEGINNING",
-    "DEF-HUME-TEST-PRODUCTIVE-CAUSE"
+    "a63c477c-8af1-5965-9ae1-4aa863b6c90d",
+    "ad67d779-bb13-531c-8bbc-4a4e2d13c5ab",
+    "a14899b8-3314-595a-a578-2af9c83af63c"
   ],
   "disambiguation_ids": [
-    "DISAMB-HUME-CONCEIVABILITY-POSSIBILITY"
+    "427373ad-3ff7-524e-976c-595005a70338"
   ]
 }

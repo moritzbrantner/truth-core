@@ -1,0 +1,12 @@
+{
+  "id": "f2ca811c-309d-54c0-9fb6-01d8947e2248",
+  "label": "Strict primacy: everything other than the primary approaches it less nearly…, from reception limits",
+  "legacy_id": "STRICT-PRIMACY-FROM-RECEPTION-LIMITS",
+  "argument_id": "c8002f3e-0914-5902-b385-3c4e65d69e06",
+  "challenge_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution",
+  "theorem": "TruthCore.Results.Causality.Round2PerfectionPrimacy.nothingElseReachesPrimary",
+  "comparator_config": "results/STRICT-PRIMACY-FROM-RECEPTION-LIMITS/comparator.json",
+  "status": "solution-present",
+  "description": "Derives strict primacy (nothing other than the primary approaches it as nearly as it stands) from the q.7 reception account: another thing is a creature, so its esse is received (OPEN generalization of q.7 a.2), so limited (STMT-RECEIVED-ESSE-IS-LIMITED); the primary's esse is received in nothing (OPEN reading of q.7 a.1), so by the stated q.7 a.1 warrant that limited esse is received it is not limited; and limited esse approaches less nearly than unlimited (OPEN bridge). Degrees of approach lie in a parameter preorder."
+}

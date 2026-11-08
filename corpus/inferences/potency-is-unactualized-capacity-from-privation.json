@@ -1,0 +1,14 @@
+{
+  "id": "11e43d3b-17d8-5c98-be11-467fd74ca9be",
+  "label": "A being is in POTENCY_1 in a respect exactly when it is able to be so…, by Biconditional chaining…",
+  "legacy_id": "INF-POTENCY-IS-UNACTUALIZED-CAPACITY-FROM-PRIVATION",
+  "input_statement_ids": [
+    "3c0b7bb3-1526-55a9-b71e-0d5fb3148782",
+    "7c3da33e-7ead-54f8-aace-ed3cf3a7bb02"
+  ],
+  "output_statement_id": "c85e8ef5-3dc4-502d-90f8-da1429e33fd8",
+  "rule": "Biconditional chaining through a middle term",
+  "meaning": "Potency is capacity under privation (OPEN), and in a capable subject privation is lack of the act (OPEN); hence potency is unactualized capacity, the Metaphysics IX.6 reading. Middle term: privation. It routes the act/potency analysis through the Physics I subject-privation analysis; both premises stay open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

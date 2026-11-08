@@ -1,10 +1,12 @@
 {
-  "id": "INF-FITCH-RESTRICTED-INSTANCE",
+  "id": "23ecbd75-55e1-5c27-bf00-9c97f1e2f437",
+  "label": "If the selected Moore conjunction is actually true, that same content is…, by Constructive-proof",
+  "legacy_id": "INF-FITCH-RESTRICTED-INSTANCE",
   "input_statement_ids": [
-    "STMT-FITCH-RESTRICTED-KNOWABILITY",
-    "STMT-FITCH-MOORE-ADMISSIBLE"
+    "23856ef3-0ee8-5b96-a6f0-def6ffba03fa",
+    "534eb2da-165f-5bd5-9c51-da78e4e4e069"
   ],
-  "output_statement_id": "STMT-FITCH-MOORE-INSTANCE",
+  "output_statement_id": "8dc79019-29fe-57a6-83a6-e2f7278efcba",
   "rule": "constructive-proof",
   "meaning": "Instantiate actual restricted knowability at the Moore content using its separately declared admissibility. This is schema specialization, not an independent defense of either assumption.",
   "assumption_statement_ids": [],

@@ -1,0 +1,12 @@
+{
+  "id": "0a95d946-d7d5-559e-bd0e-66841d6beb62",
+  "label": "The MAXIME_3 causal principle with a bridge: a MAXIME_1 being causes being in all others",
+  "legacy_id": "MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "argument_id": "5106f118-f068-5481-a955-9a17cffb700f",
+  "challenge_module": "TruthCore.Results.Causality.TermSenseForks3.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TermSenseForks3.Solution",
+  "theorem": "TruthCore.Results.Causality.TermSenseForks3.maximumInBeingCausesAllStrict",
+  "comparator_config": "results/MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST/comparator.json",
+  "status": "solution-present",
+  "description": "MAXIME_3 branch of the causal principle at the root-route node: what is STRICTLY greatest in being causes being in every other being, and the explicit sense bridge says what is MAXIMAL in being is STRICTLY greatest; so whatever is MAXIMAL in being causes being in every other being. The control with tied maxima satisfies the STRICT principle vacuously and falsifies the conclusion, so the bridge is needed. The MAXIME_2 branch at this node is the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE."
+}

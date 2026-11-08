@@ -1,7 +1,9 @@
 {
-  "id": "ARIST-MET-1003A-BEING-QUA-BEING-A",
-  "statement_id": "STMT-BEING-QUA-BEING-FORMAL-OBJECT",
-  "source_id": "ARIST-MET",
+  "id": "2c0a42e2-62fa-57d7-9d0e-33d71507ab1b",
+  "label": "Aristotle, Metaphysics IV.1, 1003a21-26: There is an inquiry into being qua being and its…",
+  "legacy_id": "ARIST-MET-1003A-BEING-QUA-BEING-A",
+  "statement_id": "527ad326-ed06-5390-ad74-2760c84f5ba2",
+  "source_id": "a8acbf0a-30ba-5e04-b261-cb62a89cbddb",
   "locator": "IV.1, 1003a21-26",
   "interpretation_group": "ARIST-MET-1003A-BEING-QUA-BEING",
   "interpretation": "Formal-object reading: there is an inquiry whose subject is being qua being and which studies the attributes belonging to that subject in its own right. Being is left as a supplied formal object, not identified with a univocal genus or another fixed theory of being; the per se relation is likewise left uninterpreted.",

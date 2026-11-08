@@ -1,16 +1,18 @@
 {
-  "id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
+  "id": "d88de003-bada-5023-a21f-007c59d00fc2",
+  "label": "At the selected world the spacetime whole has an existing…, from candidate cause and actuality",
+  "legacy_id": "UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY",
   "premise_statement_ids": [
-    "STMT-SPACETIME-WHOLE-HAS-A-CANDIDATE-CAUSE",
-    "STMT-SELECTED-WHOLE-CAUSERS-ACTUALLY-EXIST"
+    "d1e62bf3-2abe-5e98-be4a-f481e4ffb519",
+    "41e17b00-09de-5a6d-a0ea-a1aed538244b"
   ],
-  "conclusion_statement_id": "STMT-UNIVERSE-HAS-EXISTING-CAUSE",
+  "conclusion_statement_id": "aa3da4c7-f70a-56ac-9a30-7b8cc984bebe",
   "inference_ids": [
-    "INF-UNIVERSE-EXISTING-CAUSE-FROM-CANDIDATE-CAUSE-AND-ACTUALITY"
+    "aa0c21a3-0eb0-56e6-8569-edb7dc2d88cb"
   ],
   "meaning": "Explicit witness/actuality transport to the EXACT old UniverseHasExistingCause. A bare candidate edge does not smuggle in its causer actual existence.",
   "definition_ids": [
-    "DEF-UNIVERSE-CAUSER-ACTUALITY-SCOPE",
-    "DEF-SPATIOTEMPORAL-FRAME"
+    "278c1d18-9e65-5043-b319-5e11daae4ec5",
+    "e9e031af-665e-5888-9328-f7637b5a2677"
   ]
 }

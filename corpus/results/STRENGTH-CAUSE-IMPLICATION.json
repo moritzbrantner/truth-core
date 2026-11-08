@@ -1,6 +1,8 @@
 {
-  "id": "STRENGTH-CAUSE-IMPLICATION",
-  "argument_id": "STRENGTH-CAUSE-IMPLICATION",
+  "id": "0ffa82a8-cdb5-5194-bb3f-5b6f07edab46",
+  "label": "Anything that comes to be has some CAUSE_2, from Anything that comes to be has some distinct…",
+  "legacy_id": "STRENGTH-CAUSE-IMPLICATION",
+  "argument_id": "0b9fa40e-2fb0-5ce7-9b25-c9bf06b648b2",
   "challenge_module": "TruthCore.Results.Logic.StrengthCause.Challenge",
   "solution_module": "TruthCore.Results.Logic.StrengthCause.Solution",
   "theorem": "TruthCore.Results.Logic.StrengthCause.implication",

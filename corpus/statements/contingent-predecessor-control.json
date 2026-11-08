@@ -1,24 +1,26 @@
 {
-  "id": "STMT-CONTINGENT-PREDECESSOR-CONTROL",
+  "id": "0d06de8b-1ead-5a5c-8d4a-d208a6790472",
+  "label": "The fixed contingent-predecessor interpretation retains selected-world reflexivity, necessary…",
+  "legacy_id": "STMT-CONTINGENT-PREDECESSOR-CONTROL",
   "lean_declaration": "TruthCore.Causality.NamedPotentialCauser.ContingentPredecessorControl",
   "paraphrase": "The fixed contingent-predecessor interpretation retains selected-world reflexivity, necessary presence and universal potential causation by false, sound distinct existing causal endpoints, and well-founded necessary-only union, but an actually existing contingent true causes false at base false. The no-contingent-predecessor bridge and named underivedness both fail; worldwise WF is not claimed.",
   "definition_ids": [
-    "DEF-KANT-ONTOLOGICAL-MODEL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
-    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE",
-    "DEF-PRESENT-ESSE-SUPPORT",
-    "DEF-UNION-NECESSARY-SUPPORT",
-    "DEF-WELL-FOUNDED-UNION-NECESSARY-SUPPORT",
-    "DEF-NO-CONTINGENT-GROUND-OF-NECESSARY",
-    "DEF-NAMED-NECESSARILY-UNDERIVED",
-    "DEF-CONTINGENT-PREDECESSOR-CONTROL",
-    "DEF-KANT-MODAL-CONTINGENCY"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "10d78687-87cb-5601-8fe0-07a73863ecfd",
+    "6618da47-faca-59e2-be67-8ec920a2d51b",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d2cfd973-4fc7-5ba1-9203-3fcd28ebc07c",
+    "b3a8f6d3-d368-5458-8606-28c2376198e1",
+    "659dbc9c-63d8-5e4e-a48f-79d0d18d1e67",
+    "1875d575-2a60-5000-b403-0ab090078a7a",
+    "fa64b8a7-cc14-5c17-8820-467469ccb984",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
   ],
   "disambiguation_ids": [
-    "DISAMB-EXISTENCE-ESSE-SUPPORT",
-    "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED",
-    "DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE",
-    "DISAMB-CAUSE"
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "06fc8d78-0723-5daa-9186-7a016125bb0b",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
   ]
 }

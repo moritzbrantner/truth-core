@@ -1,0 +1,39 @@
+# Round 3 map: the no-self-contained-borrowing cut on actual concrete grounding.
+target = "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+
+[[node]]
+id = "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+
+# New this round (bare, OPEN): finite grounding rank.
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-WF"
+
+[[node]]
+id = "STMT-EXCLUDED-MIDDLE"
+
+[[node]]
+id = "STMT-CONCRETE-BORROWING-CUT-WF-EQUIVALENCE"
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+kind = "derivation"
+status = "certified"
+note = "Certified as BORROWING-ESCAPE-FROM-FINITE-RANK via the rank-to-WF step and borrowingEscapeWFEquivalence."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK"]
+conclusion = "STMT-ACTUAL-GROUNDING-WF"
+kind = "derivation"
+status = "certified"
+note = "Certified as ACTUAL-GROUNDING-WF-FROM-FINITE-RANK; registered as a strength order (REL-ACTUAL-GROUNDING-FINITE-RANK-STRENGTHENS-WF)."
+
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-WF", "STMT-EXCLUDED-MIDDLE"]
+conclusion = "STMT-ACTUAL-CONCRETE-BORROWING-ESCAPE"
+kind = "derivation"
+status = "rejected"
+note = "Valid, but closes a two-cycle with ACTUAL-GROUNDING-WF-FROM-BORROWING-CUT and restates STMT-CONCRETE-BORROWING-CUT-WF-EQUIVALENCE (ATTEMPT-ROUND3-COGITO-BASE-REJECTED-EDGES)."

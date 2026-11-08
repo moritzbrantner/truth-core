@@ -1,0 +1,14 @@
+{
+  "id": "1e6c6c75-e0b8-5509-b467-fc68a0811a49",
+  "label": "Whoever bears an occurring thought episode opines that episode's…, by Universal instantiation and…",
+  "legacy_id": "INF-COGITO-BORNE-THOUGHT-IS-OPINING-FROM-ASSENT",
+  "input_statement_ids": [
+    "4957af60-055f-5398-892c-96bfbe0b9eb1",
+    "8d90c06f-1a21-5765-a7d4-5c1d927694e9"
+  ],
+  "output_statement_id": "a082d5be-9db6-5a35-add6-3944aab819f6",
+  "rule": "Universal instantiation and modus ponens (Barbara)",
+  "meaning": "Every occurring thought episode is assenting (OPEN), and the bearer of an assenting episode opines its content (OPEN); hence whoever bears an occurring thought opines its content. A chain through the distinct middle term Assenting (#1214). The first premise is the load-bearing and contested one: a borne willing or doubt without assent falsifies it (NonAssentingThought).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

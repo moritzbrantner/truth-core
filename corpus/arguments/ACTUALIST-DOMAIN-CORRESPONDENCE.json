@@ -1,21 +1,23 @@
 {
-  "id": "ACTUALIST-DOMAIN-CORRESPONDENCE",
+  "id": "730b727a-6d25-5b04-9d55-d48acaba0087",
+  "label": "For fixed-roster Ontic semantics with arbitrary total predicates and existence-guarded universal…",
+  "legacy_id": "ACTUALIST-DOMAIN-CORRESPONDENCE",
   "premise_statement_ids": [],
-  "conclusion_statement_id": "STMT-ACTUALIST-DOMAIN-CORRESPONDENCE",
+  "conclusion_statement_id": "c058f148-021a-5cbe-b46b-e97dfc04ca53",
   "inference_ids": [
-    "INF-ACTUALIST-DOMAIN-CORRESPONDENCE"
+    "c8ffe6bb-e6d9-5b66-b565-dd51051f0117"
   ],
   "meaning": "For fixed-roster Ontic semantics with arbitrary total predicates and existence-guarded universal quantification, box-forall to forall-box holds for all predicates/worlds exactly when domains increase along accessibility; the reverse transfer holds exactly when domains decrease. Increasing domains exclude the existing actual-plus-accessible-absence ContingentAt profile. In the unchanged PSR.ContingentOnly ontology, accessibility is universal, false is necessary, and true is contingent at false; both domain policies and both transfers fail. This is an explicit semantic correspondence and one joint countercontrol, not a theorem that S5 removes contingency, a general quantified proof calculus, or metaphysical possibility. Generic laws permit empty domains and require no frame, population, excluded-middle, causal or temporal premise. Intended and actual root-premise delta none.",
   "definition_ids": [
-    "DEF-ACTUALIST-ALL",
-    "DEF-INCREASING-EXISTENCE-DOMAINS",
-    "DEF-DECREASING-EXISTENCE-DOMAINS",
-    "DEF-BOX-ALL-TO-ALL-BOX",
-    "DEF-ALL-BOX-TO-BOX-ALL",
-    "DEF-KANT-MODAL-NECESSITY",
-    "DEF-NECESSARY-INDIVIDUAL-DOMAIN"
+    "7678a957-2e66-57d2-9a7e-9bf37e575e98",
+    "bd3d37ae-a319-53df-ab69-5f8bea97dd31",
+    "e8e991a4-e04b-53f5-a960-3b5efdc9c939",
+    "a3b39c76-f1cb-53e8-bf5e-9e64d75f02bf",
+    "b658d8e7-9c04-5ddf-a338-51e54978d7ca",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea"
   ],
   "disambiguation_ids": [
-    "DISAMB-DOMAIN-PERSISTENCE-AND-NECESSITY"
+    "fd336f80-973c-5b24-80c2-9f95b84abc89"
   ]
 }

@@ -1,0 +1,22 @@
+{
+  "id": "2605f6ed-774a-57a2-be98-1af788ff5b00",
+  "label": "The Megarian thesis gives an exercised POTENCY_3 capacity",
+  "legacy_id": "CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS",
+  "premise_statement_ids": [
+    "c51c5e26-5ec4-5257-8282-e1bea22e20ba",
+    "7f04635f-c157-56b1-b4fd-35a6b5da9e5f"
+  ],
+  "conclusion_statement_id": "b140eb14-da03-5623-9f30-0b71eb572d02",
+  "inference_ids": [
+    "29592fad-98b4-520c-add8-0a0dc79ee565"
+  ],
+  "meaning": "The Megarian thesis (whatever can be r is r), with some CAPACITY, gives a CAPACITY in exercise. So the CAPACITY branch fails both for Aristotle's builder who keeps the capacity while building and for the Megarian rival: the two disagree about capacity but not about this branch.",
+  "definition_ids": [
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00ab0133-e353-5a2e-a231-b24a5c85107a",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
+  ],
+  "disambiguation_ids": [
+    "508617ab-cf24-5f3b-a387-64b3991359ec"
+  ]
+}

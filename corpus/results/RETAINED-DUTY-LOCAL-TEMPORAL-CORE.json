@@ -1,6 +1,8 @@
 {
-  "id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
-  "argument_id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+  "id": "28b4a219-ded8-559c-8f2d-d474303aa849",
+  "label": "Logical falsity, from The fixed agent owes return of the… and 3 more (2)",
+  "legacy_id": "RETAINED-DUTY-LOCAL-TEMPORAL-CORE",
+  "argument_id": "e2ec8238-9f7f-5ab7-87f5-768aa07a2a7c",
   "challenge_module": "TruthCore.Results.Modal.RetainedDutyLocal.Challenge",
   "solution_module": "TruthCore.Results.Modal.RetainedDutyLocal.Solution",
   "theorem": "TruthCore.Results.Modal.RetainedDutyLocal.retainedCore",
