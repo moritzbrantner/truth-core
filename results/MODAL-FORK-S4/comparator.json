@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ModalSenseSupport.forkS4"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

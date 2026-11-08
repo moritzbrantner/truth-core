@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MODAL-FORK-CONTROLS",
+  "label": "Finite models for the modal-principle branches of the NECESSARY_2 sense fork",
+  "paraphrase": "Formal controls: (1) nonvacuity: on a one-point universal frame the T, 4, B and 5 schemas are valid, the K node holds and each of the four fork theorems' conclusions holds on its reading; (2) one omission model per load-bearing premise: without the T schema (non-reflexive two-world frame), the 4 schema (reflexive non-transitive chain), the B or 5 schema (two worlds ordered false <= true), the reading choice (every sense intended) or the K node (the being exists nowhere), the fork node fails while the other premises hold; (3) the two recorded rivals are exactly negated: NoDistinctNecessaryPotentialCausers iff not modal ditheism, and the first clause of SimplicityCollapse.Core excludes NecessaryActStrictlyYieldsContingent. No model is claimed to describe reality.",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.Control.Controls",
+  "definition_ids": [
+    "DEF-NECESSARY-IN-SENSE",
+    "DEF-MODAL-FIXTURE-FRAME",
+    "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE",
+    "DEF-MODAL-HIJK-CONVERGENCE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}

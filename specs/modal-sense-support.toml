@@ -1,0 +1,169 @@
+# Modal results to the root (#1233): the frame-class branches of the
+# "necessary" sense fork from modal principles, via the modal library's
+# correspondence certificates. Map: explorations/modal-sense-support.toml.
+# Triage of all Modal results: docs/notes/modal-results-triage.md.
+# Analyst formulations, attribution deferred; every new non-control statement
+# except the rivals is an OPEN premise.
+
+[batch]
+vocab = "TruthCore.Causality.ModalSenseSupport"
+results = "TruthCore.Results.Causality.ModalSenseSupport"
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-T-SCHEMA"
+label = "T schema: whatever is NECESSARY_2 (box of the route's frame) is true"
+lean = "OnticTSchemaValid"
+paraphrase = "OPEN modal principle, attribution deferred: the T schema 'necessarily p implies p' is valid on the route's modal frame (worlds = complete possible histories): for every proposition (every valuation of the sentence letter) and every world, if p holds at every world accessible from it, p holds there. The box is the frame's box, the same box as the route's NECESSARY_2 box-existence. By the T correspondence it is equivalent to reflexivity of the frame."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-4-SCHEMA"
+label = "4 schema: whatever is NECESSARY_2 is necessarily NECESSARY_2 on the route's frame"
+lean = "Ontic4SchemaValid"
+paraphrase = "OPEN modal principle, attribution deferred: the 4 schema 'necessarily p implies necessarily necessarily p' (Lemmon-Scott convergence formula 0 1 2 0) is valid on the route's modal frame, for every proposition and world. By the 4 correspondence it is equivalent to transitivity of the frame."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-HIJK-CONVERGENCE", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-B-SCHEMA"
+label = "B schema: whatever is true is NECESSARY_2-ly possible on the route's frame"
+lean = "OnticBSchemaValid"
+paraphrase = "OPEN modal principle, attribution deferred: the B schema 'p implies necessarily possibly p' (convergence formula 0 0 1 1) is valid on the route's modal frame, for every proposition and world. By the B correspondence it is equivalent to symmetry of the frame."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-HIJK-CONVERGENCE", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-ONTIC-5-SCHEMA"
+label = "5 schema: whatever is possible is NECESSARY_2-ly possible on the route's frame"
+lean = "Ontic5SchemaValid"
+paraphrase = "OPEN modal principle, attribution deferred: the 5 schema 'possibly p implies necessarily possibly p' (convergence formula 1 0 1 1) is valid on the route's modal frame, for every proposition and world. By the 5 correspondence it is equivalent to the frame being Euclidean."
+definitions = ["DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-HIJK-CONVERGENCE", "DEF-KANT-MODAL-NECESSITY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-INTENDED-BOX-T"
+label = "The route's 'necessary being' is read as NECESSARY_2 in frame class KT, and only so"
+lean = "IntendedIsBoxT"
+paraphrase = "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class KT (sense boxT of the fork): that sense is intended and no other enumerated sense is. It combines the fork's coverage and exclusivity premises for this one sense."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-INTENDED-BOX-S4"
+label = "The route's 'necessary being' is read as NECESSARY_2 in frame class S4, and only so"
+lean = "IntendedIsBoxS4"
+paraphrase = "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class S4 (sense boxS4 of the fork), and no other enumerated sense."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-INTENDED-BOX-B"
+label = "The route's 'necessary being' is read as NECESSARY_2 in frame class KTB, and only so"
+lean = "IntendedIsBoxB"
+paraphrase = "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class KTB (sense boxB of the fork), and no other enumerated sense."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-INTENDED-BOX-S5"
+label = "The route's 'necessary being' is read as NECESSARY_2 in frame class S5, and only so"
+lean = "IntendedIsBoxS5"
+paraphrase = "OPEN reading premise, attribution deferred: the route's intended reading of 'necessary being' is exactly box-existence in frame class S5 (sense boxS5 of the fork), and no other enumerated sense."
+definitions = ["DEF-NECESSARY-IN-SENSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-MODAL-DITHEISM"
+label = "Rival: two distinct NECESSARY_2 beings, each a possible cause of every other being"
+lean = "DistinctNecessaryPotentialCausers"
+paraphrase = "Rival (modal ditheism), analyst formulation: there are two distinct beings a and b, each necessary at w (exists at every accessible world, NECESSARY_2) and each, at every world accessible from w, a possible cause of every other being existing there (OtherDirectedPotentialCause). It is the exact negation of STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS (RivalNegations in the batch controls)."
+definitions = ["DEF-KANT-ONTOLOGICAL-MODEL", "DEF-KANT-MODAL-NECESSITY", "DEF-MODAL-POINTWISE-OTHER-POTENTIAL", "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-NECESSARY-ACT-STRICT-CONTINGENT"
+label = "Some act done at every accessible world strictly yields an effect that is contingent"
+lean = "NecessaryActStrictlyYieldsContingent"
+paraphrase = "Constraint candidate (#462, #555), analyst formulation: in some frame an act token is performed at every world accessible from w, is strictly efficacious for an effect x (x exists wherever the token is performed at an accessible world), and x is contingent at w (exists at w and is absent at some accessible world). A defender of a necessary, simple root and contingent creation who reads the root's act as strictly efficacious needs it; the first clause of STMT-SIMPLICITY-COLLAPSE-CORE is its exact negation."
+definitions = ["DEF-SELECTED-EFFECT-OUTPUT-PROFILE", "DEF-RIGID-ACT-STRICT-EFFICACY", "DEF-KANT-MODAL-CONTINGENCY"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[statement]]
+id = "STMT-MODAL-FORK-CONTROLS"
+label = "Finite models for the modal-principle branches of the NECESSARY_2 sense fork"
+lean = "Control.Controls"
+paraphrase = "Formal controls: (1) nonvacuity: on a one-point universal frame the T, 4, B and 5 schemas are valid, the K node holds and each of the four fork theorems' conclusions holds on its reading; (2) one omission model per load-bearing premise: without the T schema (non-reflexive two-world frame), the 4 schema (reflexive non-transitive chain), the B or 5 schema (two worlds ordered false <= true), the reading choice (every sense intended) or the K node (the being exists nowhere), the fork node fails while the other premises hold; (3) the two recorded rivals are exactly negated: NoDistinctNecessaryPotentialCausers iff not modal ditheism, and the first clause of SimplicityCollapse.Core excludes NecessaryActStrictlyYieldsContingent. No model is claimed to describe reality."
+definitions = ["DEF-NECESSARY-IN-SENSE", "DEF-MODAL-FIXTURE-FRAME", "DEF-MODAL-STANDARD-T-D-CORRESPONDENCE", "DEF-MODAL-HIJK-CONVERGENCE"]
+disambiguations = ["DISAMB-NECESSARY"]
+
+[[argument]]
+id = "MODAL-FORK-T"
+label = "NECESSARY_2 in KT for the root, from the T schema by T correspondence"
+theorem = "forkT"
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-INTENDED-BOX-T"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+rule = "Theorem application (T correspondence: T-schema validity iff reflexivity), conjunction and existential introduction"
+meaning = "T branch of the 'necessary' sense fork with its frame condition derived: the route's K node (root n box-existent, NECESSARY_2 in K, from the 25 route inputs), the OPEN T schema on the route's frame and the OPEN reading premise (box-existence in KT, and only that) give the fork node. Reflexivity of the frame is not assumed: the modal library's StandardCorrespondenceCertificate (proved by MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE) turns the T schema into it. The three OPEN fork premises (coverage, exclusivity, side condition) are replaced by two OPEN premises. Without the T schema or the reading premise the branch fails (controls)."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "MODAL-FORK-S4"
+label = "NECESSARY_2 in S4 for the root, from the T and 4 schemas by correspondence"
+theorem = "forkS4"
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-4-SCHEMA", "STMT-INTENDED-BOX-S4"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+rule = "Theorem application (T correspondence; 4 correspondence of the convergence certificate), conjunction and existential introduction"
+meaning = "S4 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 4 schemas on the route's frame and the OPEN reading premise (box-existence in S4, and only that) give the fork node. Reflexivity comes from the T correspondence (MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE), transitivity from the 4 correspondence of the ConvergenceCertificate (MODAL-HIJK-CONVERGENCE-CERTIFICATE). Without the 4 schema the branch fails on a reflexive non-transitive chain (controls)."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "MODAL-FORK-KTB"
+label = "NECESSARY_2 in KTB for the root, from the T and B schemas by correspondence"
+theorem = "forkKTB"
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-B-SCHEMA", "STMT-INTENDED-BOX-B"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+rule = "Theorem application (T correspondence; B correspondence of the convergence certificate), conjunction and existential introduction"
+meaning = "KTB branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and B schemas and the OPEN reading premise (box-existence in KTB, and only that) give the fork node. Reflexivity from the T correspondence, symmetry from the B correspondence of the ConvergenceCertificate. Without the B schema the branch fails on the two-world order false <= true (controls)."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "MODAL-FORK-S5"
+label = "NECESSARY_2 in S5 for the root, from the T and 5 schemas by correspondence"
+theorem = "forkS5"
+premises = ["STMT-MODAL-STANDARD-CORRESPONDENCE-CERTIFICATE", "STMT-MODAL-HIJK-CONVERGENCE-CERTIFICATE", "STMT-NECESSARY-ROOT-BOX-K", "STMT-ONTIC-T-SCHEMA", "STMT-ONTIC-5-SCHEMA", "STMT-INTENDED-BOX-S5"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+rule = "Theorem application (T correspondence; 5 correspondence of the convergence certificate), conjunction and existential introduction"
+meaning = "S5 branch of the 'necessary' sense fork with its frame condition derived: the K node, the OPEN T and 5 schemas and the OPEN reading premise (box-existence in S5, and only that) give the fork node. Reflexivity from the T correspondence, Euclideanness from the 5 correspondence of the ConvergenceCertificate. Without the 5 schema the branch fails on the two-world order false <= true (controls)."
+strong_version_needed = { "STMT-NECESSARY-ROOT-BOX-K" = "The frame-class readings are box-existence of the same individual n. The de dicto node does not name n, and the tertia via node gives the box only with excluded middle, so neither weak version yields the frame-class node." }
+
+[[argument]]
+id = "MODAL-FORK-CONTROLS"
+label = "Finite models for the modal-principle branches of the NECESSARY_2 sense fork"
+theorem = "controls"
+premises = []
+conclusion = "STMT-MODAL-FORK-CONTROLS"
+rule = "Correspondence certificates (existing proofs) and explicit finite interpretations"
+meaning = "Nonvacuity on a one-point universal frame (the four schemas are valid there by the existing correspondence proofs), one omission model per load-bearing premise of the four branches (T, 4, B and 5 schemas, reading choice, K node), and the exact negations of the two recorded rivals. Formal only; no model describes reality. Frames are hand-written (Bool, Nat, Unit), no Mathlib order instance."
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+
+[[relation]]
+id = "REL-NO-DISTINCT-CAUSERS-REFUTES-DITHEISM"
+label = "Two NECESSARY_2 universal potential causers cannot be distinct (refutes modal ditheism)"
+subject_kind = "argument"
+subject_id = "NECESSARY-POTENTIAL-CAUSERS-NOT-DISTINCT"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-MODAL-DITHEISM"
+note = "Conditional refutation: the existing verified result concludes NoDistinctNecessaryPotentialCausers, which is equivalent to the negation of STMT-MODAL-DITHEISM (MODAL-FORK-CONTROLS, RivalNegations). Its premises STMT-ACTUAL-MODAL-REFLEXIVITY and STMT-WELL-FOUNDED-UNION-NECESSARY-SUPPORT are OPEN, so it does not count for closure. Not recorded as alternative_to a root premise: the route's uniqueness is God-uniqueness (IsTheOneGod), and no bridge identifies necessary universal potential causers with God."
+
+[[relation]]
+id = "REL-SIMPLICITY-CORE-REFUTES-STRICT-CONTINGENT"
+label = "No act done at every accessible world strictly yields a contingent effect"
+subject_kind = "argument"
+subject_id = "SIMPLICITY-COLLAPSE-CORE"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-NECESSARY-ACT-STRICT-CONTINGENT"
+note = "Unconditional (in the frame semantics): SIMPLICITY-COLLAPSE-CORE has no premises and its first clause excludes STMT-NECESSARY-ACT-STRICT-CONTINGENT (MODAL-FORK-CONTROLS, RivalNegations). It constrains the root route's account of creation (#462, #555): a necessary root whose act is performed at every accessible world cannot create contingently by a strictly efficacious act. It is not a rival of a root premise, so no alternative_to is recorded."

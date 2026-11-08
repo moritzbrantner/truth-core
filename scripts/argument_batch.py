@@ -112,7 +112,7 @@ def build_records(spec: dict, write: bool) -> list[str]:
     spec_statements = {s["id"]: s for s in spec.get("statement", [])}
 
     for s in spec.get("statement", []):
-        record = {"id": s["id"], "paraphrase": s["paraphrase"]}
+        record = {"id": s["id"], **({"label": s["label"]} if "label" in s else {}), "paraphrase": s["paraphrase"]}
         if "lean" in s:
             record["lean_declaration"] = lean_name(batch, s["lean"])
         if s.get("definitions"):
@@ -139,7 +139,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
         inference = {"id": f"INF-{a['id']}", "input_statement_ids": a["premises"],
                      "output_statement_id": a["conclusion"], "rule": a["rule"], "meaning": a["meaning"],
                      "assumption_statement_ids": [], "discharged_statement_ids": []}
-        argument = {"id": a["id"], "premise_statement_ids": a["premises"],
+        labelled = {"label": a["label"]} if "label" in a else {}
+        argument = {"id": a["id"], **labelled, "premise_statement_ids": a["premises"],
                     "conclusion_statement_id": a["conclusion"], "inference_ids": [f"INF-{a['id']}"],
                     "meaning": a["meaning"]}
         if definitions:
@@ -153,7 +154,7 @@ def build_records(spec: dict, write: bool) -> list[str]:
             argument = {**existing["arguments"][a["id"]][1], **{k: v for k, v in argument.items()
                                                                if k not in ("disambiguation_ids",)}}
         comparator = f"results/{a['id']}/comparator.json"
-        result = {"id": a["id"], "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
+        result = {"id": a["id"], **labelled, "argument_id": a["id"], "challenge_module": f"{batch['results']}.Challenge",
                   "solution_module": f"{batch['results']}.Solution", "theorem": f"{batch['results']}.{a['theorem']}",
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
         if "transcription" in a:
@@ -170,7 +171,8 @@ def build_records(spec: dict, write: bool) -> list[str]:
                                  "enable_nanoda": True}, write, planned)
 
     for r in spec.get("relation", []):
-        record = {k: r[k] for k in ("id", "subject_kind", "subject_id", "predicate", "object_kind", "object_id")}
+        record = {k: r[k] for k in ("id", "label", "subject_kind", "subject_id", "predicate", "object_kind", "object_id")
+                  if k in r}
         for key in ("verification_result_id", "strictness_result_id", "note"):
             if key in r:
                 record[key] = r[key]

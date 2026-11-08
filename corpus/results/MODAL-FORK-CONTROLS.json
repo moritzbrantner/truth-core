@@ -1,0 +1,11 @@
+{
+  "id": "MODAL-FORK-CONTROLS",
+  "label": "Finite models for the modal-principle branches of the NECESSARY_2 sense fork",
+  "argument_id": "MODAL-FORK-CONTROLS",
+  "challenge_module": "TruthCore.Results.Causality.ModalSenseSupport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ModalSenseSupport.Solution",
+  "theorem": "TruthCore.Results.Causality.ModalSenseSupport.controls",
+  "comparator_config": "results/MODAL-FORK-CONTROLS/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity on a one-point universal frame (the four schemas are valid there by the existing correspondence proofs), one omission model per load-bearing premise of the four branches (T, 4, B and 5 schemas, reading choice, K node), and the exact negations of the two recorded rivals. Formal only; no model describes reality. Frames are hand-written (Bool, Nat, Unit), no Mathlib order instance."
+}

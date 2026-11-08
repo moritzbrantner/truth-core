@@ -1,0 +1,15 @@
+{
+  "id": "STMT-MODAL-DITHEISM",
+  "label": "Rival: two distinct NECESSARY_2 beings, each a possible cause of every other being",
+  "paraphrase": "Rival (modal ditheism), analyst formulation: there are two distinct beings a and b, each necessary at w (exists at every accessible world, NECESSARY_2) and each, at every world accessible from w, a possible cause of every other being existing there (OtherDirectedPotentialCause). It is the exact negation of STMT-NO-DISTINCT-NECESSARY-POTENTIAL-CAUSERS (RivalNegations in the batch controls).",
+  "lean_declaration": "TruthCore.Causality.ModalSenseSupport.DistinctNecessaryPotentialCausers",
+  "definition_ids": [
+    "DEF-KANT-ONTOLOGICAL-MODEL",
+    "DEF-KANT-MODAL-NECESSITY",
+    "DEF-MODAL-POINTWISE-OTHER-POTENTIAL",
+    "DEF-MODAL-POSSIBLE-EXISTENCE-CAUSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-NECESSARY"
+  ]
+}
