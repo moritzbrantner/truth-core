@@ -694,11 +694,15 @@ impl Aliases {
             &CELL,
             r"(?<!materialize )\b[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}\b",
         );
-        pattern
-            .replace_all(text, |captures: &fancy_regex::Captures| {
-                self.show(&captures[0])
-            })
-            .into_owned()
+        let mut out = String::with_capacity(text.len());
+        let mut last = 0;
+        for found in pattern.find_iter(text).flatten() {
+            out.push_str(&text[last..found.start()]);
+            out.push_str(&self.show(found.as_str()));
+            last = found.end();
+        }
+        out.push_str(&text[last..]);
+        out
     }
 
     /// The candidates of an ambiguous lookup, for a message.
