@@ -2,13 +2,14 @@ import { afterAll, beforeAll, expect, test } from "bun:test";
 import { execFileSync } from "node:child_process";
 import path from "node:path";
 import { chromium, type Browser } from "playwright";
+import type { FrontierReport } from "../src/lib/site-state";
 import type { NextStepsReport } from "../src/lib/next-steps";
 import { shortId } from "../src/lib/corpus-ids";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve> | undefined;
 let url: string;
-let report: NextStepsReport;
+let report: NextStepsReport & { support_options: FrontierReport["support_options"] };
 const basePath = process.env.TEST_BASE_PATH ?? "";
 
 beforeAll(async () => {
@@ -40,7 +41,31 @@ test("next-work view shares frontier routes, costs, leaves, floor and DAG naviga
   page.on("pageerror", (error) => errors.push(error.message));
   await page.goto(url, { timeout: 120000, waitUntil: "domcontentloaded" });
   await page.getByRole("heading", { name: "What to work on next", exact: true }).waitFor();
-  const routes = page.getByRole("heading", { name: "Routes ranked by open-premise cost" }).locator("..").getByRole("row");
+  const support = page.getByRole("region", { name: "Foundational progress and support options" });
+  expect(await support.innerText()).toContain(`${report.progress.verified_alternative_bundle_count} distinct verified premise bundles`);
+  await support.getByText(/^Inspect .* premises with verified alternatives$/).click();
+  expect(await support.innerText()).toContain("Direct assumption remains available");
+  // Read support once; repeated accessible-name queries rescan the full corpus DOM.
+  const supportEntries = await support.locator(":scope > details > ul > li").evaluateAll((entries) => entries.map((entry) => ({
+    statementId: entry.querySelector(":scope > a")?.textContent,
+    text: entry instanceof HTMLElement ? entry.innerText : entry.textContent ?? "",
+    links: Array.from(entry.querySelectorAll("a"), (link) => link.textContent),
+  })));
+  const supportedItems = report.support_options.items.filter((item) => item.verified_alternative_bundles.length);
+  expect(supportEntries.length).toBe(supportedItems.length);
+  for (const item of supportedItems) {
+    const matches = supportEntries.filter((entry) => entry.statementId === item.statement_id);
+    expect(matches.length).toBe(1);
+    const entry = matches[0];
+    expect(entry.text).toContain(item.established ? "Established in the corpus" : "Direct assumption remains available");
+    for (const bundle of item.verified_alternative_bundles) {
+      for (const id of [...bundle.premise_statement_ids, ...bundle.result_ids]) {
+        expect(entry.links).toContain(id);
+      }
+      for (const id of bundle.argument_ids) expect(entry.text).toContain(id);
+    }
+  }
+  const routes = page.getByRole("heading", { name: "Expanded-route cost (diagnostic)", exact: true }).locator("..").getByRole("row");
   expect(await routes.count()).toBe(report.routes.length + 1);
   expect(await routes.nth(1).innerText()).toContain(report.cheapest_argument_id!);
   expect(await routes.nth(1).innerText()).toContain(String(report.routes.find((route) => route.cheapest)!.cost));

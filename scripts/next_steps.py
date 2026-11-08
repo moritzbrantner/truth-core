@@ -160,8 +160,15 @@ def next_steps_report(report: dict, statements: list[dict], arguments: list[dict
               "rivals": [rival(rid) for rid in sorted(set(alternatives.get(entry["statement_id"], [])))],
               "dependents": report["premise_dependents"].get(entry["statement_id"], {"arguments": [], "statements": []})}
              for entry in report["floor"]]
+    options = report["support_options"]
+    progress = {
+        "root_reaching_established_count": len(established & reaching_root),
+        "unestablished_premise_count": options["unestablished_premise_count"],
+        "with_verified_alternative_count": options["with_verified_alternative_count"],
+        "verified_alternative_bundle_count": options["verified_alternative_bundle_count"],
+    }
     return {"root": statement(report["root"]) if report["root"] else None,
-            "root_known": report["root_known"], "settlement_rules": SETTLEMENT_RULES,
+            "root_known": report["root_known"], "progress": progress, "support_options": options, "settlement_rules": SETTLEMENT_RULES,
             "impact_scope": "Counterfactual: establish this leaf alone, propagate the frontier's existing rules, and recompute all verified route costs. No actual approval, proof, or settlement is added.",
             "routes": routes, "cheapest_argument_id": report["routes"]["cheapest_argument_id"],
             "leaves": leaf_rows, "joint_settlements": pairs,
@@ -178,10 +185,24 @@ def next_steps_report(report: dict, statements: list[dict], arguments: list[dict
 def format_next_steps(report: dict) -> str:
     root = report.get("root")
     lines = [f"Next steps for {root['statement_id'] if root else 'no root'}"]
+    progress = report["progress"]
+    lines.append(
+        f"Foundational progress: {progress['root_reaching_established_count']} established root-reaching statements; "
+        f"{progress['with_verified_alternative_count']} of {progress['unestablished_premise_count']} "
+        "unestablished premises with verified support alternatives; "
+        f"{progress['verified_alternative_bundle_count']} distinct conditional bundles"
+    )
+    lines.append("Inspectable premise support options (conditional; not independence certificates):")
+    for item in report["support_options"]["items"]:
+        lines.append(f"  {item['statement_id']}: " + ("direct assumption available" if item["direct_assumption_available"] else "established in corpus"))
+        for bundle in item["verified_alternative_bundles"]:
+            lines.append("    premises: " + (", ".join(bundle["premise_statement_ids"]) or "none"))
+            lines.append("    arguments: " + ", ".join(bundle["argument_ids"]))
+            lines.append("    verified results: " + ", ".join(bundle["result_ids"]))
     lines.extend(f"{kind}: {text}" for kind, text in report["settlement_rules"].items())
-    lines.append("Routes (cost; joint settlement is unresolved without complete failure-mode coverage):")
+    lines.append("Expanded routes (cost diagnostic; joint settlement unresolved without complete failure-mode coverage):")
     lines.extend(f"  {route['cost']:>3} {route['argument_id']}" for route in report["routes"])
-    lines.append("Cheapest-route open leaves, ranked by counterfactual settlement impact:")
+    lines.append("Lowest-expanded-cost route leaves, ranked by counterfactual settlement impact (diagnostic):")
     for leaf in report["leaves"]:
         if not leaf["on_cheapest_route"]:
             continue
