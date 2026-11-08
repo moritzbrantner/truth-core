@@ -425,10 +425,14 @@ pub fn related(
     for (other, group) in &tokens {
         let overlap: Vec<String> = own.intersection(group).cloned().collect();
         if overlap.len() >= 2 {
-            let score = overlap
+            // Match Python's lexical accumulation; libm's last bits must not reorder ties.
+            let score = (overlap
                 .iter()
                 .map(|word| (1.0 + tokens.len() as f64 / counts[word.as_str()] as f64).ln())
-                .sum::<f64>();
+                .sum::<f64>()
+                * 1e10)
+                .round()
+                / 1e10;
             text_scores.insert(other, score);
             add(
                 other,

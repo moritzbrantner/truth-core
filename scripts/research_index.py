@@ -254,7 +254,8 @@ def related(db, identifier, limit=20):
     for other, group in tokens.items():
         overlap = tokens[sid] & group
         if len(overlap) >= 2:
-            score = sum(math.log(1 + len(tokens) / counts[word]) for word in overlap)
+            # Match Rust's lexical accumulation and precision when ranking tied matches.
+            score = round(sum(math.log(1 + len(tokens) / counts[word]) for word in sorted(overlap)), 10)
             text_scores[other] = score
             add(other, 3, {'kind': 'text_overlap', 'words': sorted(overlap),
                            'qualification': 'Discovery heuristic only; no logical relationship established.'})
