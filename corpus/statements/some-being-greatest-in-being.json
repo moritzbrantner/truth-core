@@ -1,0 +1,13 @@
+{
+  "id": "STMT-SOME-BEING-GREATEST-IN-BEING",
+  "label": "Some being has the MAXIME_2 (greatest) represented degree of being",
+  "paraphrase": "MAXIME_2 (attribution deferred): some being has the GREATEST represented degree of being: it has being and no being's represented degree is above its own. Ties with other bearers are allowed.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.SomeBeingGreatestInBeing",
+  "definition_ids": [
+    "DEF-GREATEST-DEGREE-IN-A-PERFECTION",
+    "DEF-ESSE"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

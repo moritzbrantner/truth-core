@@ -1,0 +1,12 @@
+{
+  "id": "STMT-MAXIME-SENSE-UNIQUE",
+  "label": "The quarta via's reading of maxime selects one sense only",
+  "paraphrase": "OPEN frontier premise (exclusivity, attribution deferred): the route's reading of the superlative in the quarta via's last step selects at most one of the three senses, so both uses take the same one. A constraint on the reading choice, not a claim that maximal, greatest-degree and strictly greatest beings are different beings.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MaximeSenseUnique",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-MAXIME-ENS"
+  ]
+}

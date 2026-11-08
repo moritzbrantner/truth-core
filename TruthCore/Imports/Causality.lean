@@ -138,6 +138,7 @@ public import TruthCore.Causality.TemporalEventControls
 public import TruthCore.Causality.TemporalPrimaVia
 public import TruthCore.Causality.TermSenseForks
 public import TruthCore.Causality.TermSenseForks2
+public import TruthCore.Causality.TermSenseForks3
 public import TruthCore.Causality.UnderivedCommonSource
 public import TruthCore.Causality.UnderivedEssenceEsse
 public import TruthCore.Causality.UnderivedNonComposite

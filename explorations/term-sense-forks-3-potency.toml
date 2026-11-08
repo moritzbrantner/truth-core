@@ -1,0 +1,104 @@
+# Sense fork batch 3, "potency" (docs/notes/load-bearing-terms.md, specs/term-sense-forks-3.toml).
+# One argument per sense; joint coverage/exclusivity theorem as optional summary. Analyst formulations, attribution deferred.
+target = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-CAPACITY-NON-SIMULTANEITY-FAILS"
+
+[[node]]
+id = "STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING"
+
+[[node]]
+id = "STMT-MOVED-ONLY-AS-CAPABLE"
+
+[[node]]
+id = "STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-ACTUAL-AND-CAPABLE"
+
+[[node]]
+id = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
+
+[[node]]
+id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+
+[[node]]
+id = "STMT-POTENCY-SENSE-UNIQUE"
+
+[[node]]
+id = "STMT-POTENCY-SENSES-EXHAUSTIVE"
+
+[[node]]
+id = "STMT-SOME-CAPACITY-EXERCISED"
+
+[[node]]
+id = "STMT-SOMETHING-HAS-A-CAPACITY"
+
+[[edge]]
+premises = ["STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-MOTION-FROM-ADOPTED-POTENCY"
+note = "Modus tollens."
+
+[[edge]]
+premises = ["STMT-MOVED-ONLY-AS-CAPABLE", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-ACTUAL-AND-CAPABLE"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "NO-SELF-MOTION-FROM-CAPACITY"
+note = "Modus tollens."
+
+[[edge]]
+premises = ["STMT-SOME-CAPACITY-EXERCISED"]
+conclusion = "STMT-CAPACITY-NON-SIMULTANEITY-FAILS"
+kind = "derivation"
+status = "certified"
+argument = "CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE"
+note = "Reductio."
+
+[[edge]]
+premises = ["STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING", "STMT-SOMETHING-HAS-A-CAPACITY"]
+conclusion = "STMT-SOME-CAPACITY-EXERCISED"
+kind = "derivation"
+status = "certified"
+argument = "CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS"
+note = "Existential elimination and modus ponens."
+
+[[edge]]
+premises = ["STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY"]
+conclusion = "STMT-MOVED-ONLY-AS-CAPABLE"
+kind = "derivation"
+status = "certified"
+argument = "MOVED-AS-CAPABLE-FROM-ADOPTED-POTENCY"
+note = "Conjunction elimination."
+
+[[edge]]
+premises = ["STMT-POTENCY-SENSES-EXHAUSTIVE", "STMT-POTENCY-SENSE-UNIQUE", "STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "POTENCY-SENSE-FORK-NO-SELF-MOTION"
+note = "Uses agree from coverage and exclusivity; modus tollens."
+
+[[edge]]
+premises = ["STMT-MEGARIAN-ABILITY-ONLY-WHEN-ACTING"]
+conclusion = "STMT-POTENCY-SENSES-EXHAUSTIVE"
+kind = "bridge"
+status = "rejected"
+note = "Rejected lead: a Megarian constructor. The Megarian thesis constrains the capacity relation (POTENCY_3) rather than giving a further reading of 'in potency'; it enters as a premise against the CAPACITY branch (CAPACITY-EXERCISED-FROM-MEGARIAN-THESIS)."
+[[edge]]
+premises = ["STMT-NOTHING-MOVED-EXCEPT-AS-IN-POTENCY", "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "derivation"
+status = "certified"
+argument = "AQUINAS-NO-SELF-MOTION-SAME-RESPECT"
+note = "POTENCY_2 (INDEPENDENT) branch: the existing prima via step with the primitive InPotency parameter."

@@ -1,0 +1,14 @@
+{
+  "id": "STMT-NOTHING-ACTUAL-AND-CAPABLE",
+  "label": "Nothing is in act and has the POTENCY_3 capacity for that act",
+  "paraphrase": "POTENCY_3, CAPACITY reading (attribution deferred): nothing is in act in a respect while having the capacity for it. Refuted under STMT-SOME-CAPACITY-EXERCISED.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.NothingActualAndCapable",
+  "definition_ids": [
+    "DEF-CAPACITY-TO-BE",
+    "DEF-ACT",
+    "DEF-RESPECT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY"
+  ]
+}

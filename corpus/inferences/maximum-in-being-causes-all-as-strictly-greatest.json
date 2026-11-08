@@ -1,0 +1,12 @@
+{
+  "id": "INF-MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST",
+  "input_statement_ids": [
+    "STMT-STRICTLY-GREATEST-IN-BEING-CAUSES-ALL",
+    "STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "rule": "Modus ponens through the sense bridge",
+  "meaning": "MAXIME_3 branch of the causal principle at the root-route node: what is STRICTLY greatest in being causes being in every other being, and the explicit sense bridge says what is MAXIMAL in being is STRICTLY greatest; so whatever is MAXIMAL in being causes being in every other being. The control with tied maxima satisfies the STRICT principle vacuously and falsifies the conclusion, so the bridge is needed. The MAXIME_2 branch at this node is the existing MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

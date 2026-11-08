@@ -1,0 +1,11 @@
+{
+  "id": "INF-MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL",
+  "input_statement_ids": [
+    "STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS"
+  ],
+  "output_statement_id": "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS",
+  "rule": "Universal instantiation at esse",
+  "meaning": "MAXIME_1 branch of the causal principle at the root-route node: the principle that what is MAXIMAL in a genus causes all in that genus, instantiated at being, gives that whatever is MAXIMAL in being causes being in every other being.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

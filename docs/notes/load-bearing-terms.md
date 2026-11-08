@@ -45,11 +45,11 @@ sense, its validity not).
 | 4 | DISAMB-UNITING-CAUSE-ACTUALITY | cause-in-esse vs world-local edge | 3 | 52 | 38 | no root step (counts via shared DEF-CAUSE-OF-PERFECTION); interfaces, not rival readings | not forked, see below | no | no |
 | 5 | DISAMB-ARISTOTLE-H6-UNITY-AND-CAUSATION | unity, form, cause | 5 | 52 | 38 | comparison only | no | no | no |
 | 6 | DISAMB-IN-ACT | in act (formally / virtually) | 2 | 51 | 31 | yes: two uses in the prima via step must agree | **certified (batch 2)** | STMT-IN-ACT-SENSES-EXHAUSTIVE | STMT-IN-ACT-SENSE-UNIQUE |
-| 7 | DISAMB-MAXIME-ENS | maximal in being | 6 | 50 | 24 | weakest sense chosen; strength order natural | no | no | no |
-| 8 | DISAMB-PER-SE | per se | 4 | 46 | 9 | silo (distinct predicates) | no | no | no |
+| 7 | DISAMB-MAXIME-ENS | maximal in being | 6 | 50 | 24 | weakest sense chosen; strength order natural | **certified (batch 3)** | STMT-MAXIME-SENSES-EXHAUSTIVE | STMT-MAXIME-SENSE-UNIQUE |
+| 8 | DISAMB-PER-SE | per se | 4 | 46 | 9 | silo (distinct predicates) | not forked: homonyms (batch 3) | — | — |
 | 9 | DISAMB-GOD | God | 6 | 42 | 29 | yes: naming premise | partial (1 relation) | no | no |
-| 10 | DISAMB-POTENCY | potency / capacity / power | 5 | 42 | 21 | adopted configurations fix one | no | no | no |
-| 11 | DISAMB-RECEPTIVE-POTENCY | receptive vs unactualized potency | 2 | 40 | 19 | yes (esse reception) | no | no | no |
+| 10 | DISAMB-POTENCY | potency / capacity / power | 5 | 42 | 21 | adopted configurations fix one | **certified (batch 3)** | STMT-POTENCY-SENSES-EXHAUSTIVE | STMT-POTENCY-SENSE-UNIQUE |
+| 11 | DISAMB-RECEPTIVE-POTENCY | receptive vs unactualized potency | 2 | 40 | 19 | yes (esse reception) | not forked: distinct Lean types (batch 3) | — | — |
 | 12 | DISAMB-PRIORITY-SIMPLE-OR-IN-TIME | prior | 3 | 40 | 16 | yes: act's priority over potency | **certified (this PR)** | STMT-PRIOR-SENSES-EXHAUSTIVE | STMT-PRIOR-SENSE-UNIQUE |
 | 13 | DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER | in potency / mutable | 2 | 38 | 17 | yes: immutability | no | no | no |
 | 14 | DISAMB-MUTABILITY-CHANNEL | potency and mutability | 2 | 38 | 17 | yes: immutability | no | no | no |
@@ -250,3 +250,86 @@ world-graph sense).
 3. **DISAMB-PER-SE** and **DISAMB-POTENCY**.
 4. **DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY**: needs typed time vocabulary
    for `Eternal` before a fork can fail (invariant 16).
+
+## Batch 3: "maxime ens" and "potency" (#1233 B)
+
+Owner rules: each sense its own Lean declaration, one argument per sense,
+coverage and exclusivity first, every per-sense argument concludes a root-route
+node or reaches one through a named bridge. Vocabulary
+`TruthCore.Causality.TermSenseForks3`, results
+`TruthCore.Results.Causality.TermSenseForks3`, spec
+`specs/term-sense-forks-3.toml`, maps `explorations/term-sense-forks-3-*.toml`,
+attempt ATTEMPT-TERM-SENSE-FORKS-3-20261108.
+
+### maxime ens (DISAMB-MAXIME-ENS) → STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS
+
+Root-route node: STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS, the causal principle
+at being with a MAXIMAL antecedent, a premise of the direct-esse and
+whole-roster root arguments. The source principle "what is maxime in a genus
+causes all in it" is read in each sense:
+
+| Sense | Definition | Lean declaration | Per-sense argument (root node) | Outcome |
+|---|---|---|---|---|
+| MAXIME_1 maximal | DEF-MAXIME-ENS | `IsMaximalIn · · esse` | MAXIMUM-IN-BEING-CAUSES-ALL-AS-MAXIMAL | instantiation at being |
+| MAXIME_2 greatest degree | DEF-GREATEST-DEGREE-IN-A-PERFECTION | `GreatestDegreeBearer · esse` | MAXIMAL-BEING-CAUSES-FROM-GREATEST-DEGREE (existing) | through the maximal-to-greatest bridge |
+| MAXIME_3 strict | DEF-GREATEST-BEING-STRICT | `StrictlyGreatestIn · · esse` (new) | MAXIMUM-IN-BEING-CAUSES-ALL-AS-STRICTLY-GREATEST | through bridge STMT-MAXIMAL-IN-BEING-IS-STRICTLY-GREATEST (derived from STMT-MORE-IN-BEING-CONNECTED, a total scale of being) |
+
+Existence layer. The quarta via's last step uses the superlative twice
+(something is maxime ens; the maxime in being causes being in all others) and
+concludes STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL. Coverage
+STMT-MAXIME-SENSES-EXHAUSTIVE and exclusivity STMT-MAXIME-SENSE-UNIQUE range
+over these two uses. Per sense: MAXIME-ENS-CAUSES-ALL-AS-MAXIMAL, -AS-GREATEST-DEGREE
+(bridge STMT-GREATEST-IN-BEING-IS-MAXIMAL, derived from
+STMT-MORE-IN-BEING-TRACKS-DEGREE) and -AS-STRICTLY-GREATEST (bridge
+STMT-STRICTLY-GREATEST-IN-BEING-IS-MAXIMAL, derived from
+STMT-MORE-IN-IS-ASYMMETRIC). Connection plan: no root argument consumes
+STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL; the root arguments pair the causal node
+above with STMT-GRADES-TO-MAXIMUM-AT-BEING instead, so this layer shows where
+exclusivity bites but does not yet reach the root (needs: a root argument that
+consumes the quarta via's existential conclusion).
+
+Summary MAXIME-SENSE-FORK-CAUSES-BEING-OF-ALL. Controls: the mixed reading
+(existence MAXIMAL, causal GREATEST-degree) fails on incomparable degrees; each
+bridge is needed (omission models); tied maxima under asymmetric more-in give a
+MAXIMAL being and no STRICTLY greatest one, so MAXIME_3's existence premise is
+the strongest. Not forked: DEF-GREATEST-CONCEIVABLE-BEING (Anselm; contrast
+only, a rival reading denies coverage), DEF-MAXIMUM-CALIBRATION-PROFILE
+(bridge vocabulary, not a reading), DEF-MAXIMUM-IN-A-PERFECTION (MAXIME_1's
+declaration at a general respect). No `strengthens` is registered: every
+implication between the senses needs an order premise (asymmetry,
+connectedness or degree tracking), so none is a single-premise result.
+
+### potency (DISAMB-POTENCY) → STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT
+
+The prima via step uses "in potency" twice: what is moved is in potency, and
+nothing is in act and in potency in the same respect. Coverage
+STMT-POTENCY-SENSES-EXHAUSTIVE, exclusivity STMT-POTENCY-SENSE-UNIQUE.
+
+| Sense | Definition | Lean declaration | Per-sense argument | Outcome |
+|---|---|---|---|---|
+| POTENCY_1 adopted | DEF-POTENCY | `AdoptedPotency.InPotency` | NO-SELF-MOTION-FROM-ADOPTED-POTENCY | yields with two premises (no non-simultaneity premise) |
+| POTENCY_2 independent | DEF-INDEPENDENT-POTENCY | primitive `InPotency` | AQUINAS-NO-SELF-MOTION-SAME-RESPECT (existing) | yields with three premises |
+| POTENCY_3 capacity | DEF-CAPACITY-TO-BE | `CapacityPotency` (new) | NO-SELF-MOTION-FROM-CAPACITY | valid, but its non-simultaneity premise is refuted under STMT-SOME-CAPACITY-EXERCISED (CAPACITY-NON-SIMULTANEITY-FAILS-FROM-EXERCISE; the Megarian thesis also supplies it) |
+
+Summary POTENCY-SENSE-FORK-NO-SELF-MOTION; the mixed reading (moved CAPACITY,
+non-simultaneity ADOPTED) allows self-motion. Strength order:
+STMT-MOVED-ONLY-AS-IN-ADOPTED-POTENCY `strengthens` STMT-MOVED-ONLY-AS-CAPABLE.
+Not senses of this use: DEF-MEGARIAN-ACTUALIST-CAPACITY (a thesis on the
+capacity relation) and DEF-RECEPTIVE-POTENCY (a different Lean type).
+
+### Not forked
+
+* **DISAMB-PER-SE**: homonyms. Per se ordered series and necessary per se
+  already have distinct Lean declarations of different types; self-evidence
+  and per se nota are statuses with no Lean declaration. No root-path use
+  admits two senses, so coverage and exclusivity have no use to range over.
+* **DISAMB-RECEPTIVE-POTENCY**: receptive potency relates a principle to its
+  received act, a different type from InPotency; equivocation is already a
+  type error.
+
+### Next forks
+
+DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER and DISAMB-MUTABILITY-CHANNEL (38 root
+args; need a typed power-in-another relation for DEF-MUTABLE-THROUGH-ANOTHER),
+DISAMB-GOD (42; naming premise), DISAMB-MIXED-EXISTENTIAL-PRIORITY (36),
+DISAMB-EXISTENCE-ESSE-SUPPORT (35).
