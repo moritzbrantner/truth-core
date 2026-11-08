@@ -80,7 +80,8 @@ def _scan(root: Path) -> tuple[list[str], list[str]]:
             errors.append(f"{where}: label {label!r} is also the label of {labels[key]}; labels are unique per kind")
         else:
             labels[key] = where
-    senses = SenseIndex(by_kind.get("definition", {}), by_kind.get("disambiguation", {}))
+    senses = SenseIndex(by_kind.get("definition", {}), by_kind.get("disambiguation", {}),
+                        by_kind.get("statement", {}), by_kind.get("argument", {}))
     allowed = sense_allowlist(root)
     for kind, path, record in records:
         label = record.get("label")

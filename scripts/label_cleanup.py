@@ -47,7 +47,8 @@ def passing(root: Path = ROOT, entries: list[dict[str, Any]] | None = None) -> l
         if isinstance(record.get("id"), str):
             records[record["id"]] = (kind, record)
             by_kind.setdefault(kind, {})[record["id"]] = record
-    senses = SenseIndex(by_kind.get("definition", {}), by_kind.get("disambiguation", {}))
+    senses = SenseIndex(by_kind.get("definition", {}), by_kind.get("disambiguation", {}),
+                        by_kind.get("statement", {}), by_kind.get("argument", {}))
     out = []
     for entry in entries:
         found = records.get(entry["id"])

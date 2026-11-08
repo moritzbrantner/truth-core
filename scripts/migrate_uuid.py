@@ -72,6 +72,7 @@ AUX_FIELDS: dict[str, tuple[tuple[tuple[str, ...], Any], ...]] = {
         (("records", "[]", "id"), "@kind-dir"),
     ),
     "scripts/contracts/*.json": ((("result_id",), "result"),),
+    "corpus/sense-index-allowlist.json": (),
     "scripts/unused-premise-exemptions.json": (
         (("exemptions", "[]", "result_id"), "result"),
         (("exemptions", "[]", "statement_ids", "[]"), "statement"),
@@ -86,6 +87,8 @@ AUX_FIELDS: dict[str, tuple[tuple[tuple[str, ...], Any], ...]] = {
 # Dict keys that are result ids.
 AUX_KEYED: dict[str, tuple[tuple[str, ...], str]] = {
     "docs/notes/*-migration.json": (("contract_baselines",), "result"),
+    # Sense-indexed terms (#1235): allowlisted arguments; sense uuids stay as they are.
+    "corpus/sense-index-allowlist.json": (("arguments",), "argument"),
 }
 
 
@@ -117,6 +120,7 @@ class Migration:
         self.counts: dict[str, int] = {}
         self.references = 0
         self.cleanup: list[dict[str, Any]] = []
+        self.converted: dict[str, set[str]] = {}
         self.generated = 0
 
     # -- loading ---------------------------------------------------------
@@ -170,10 +174,12 @@ class Migration:
                 for index, passage in enumerate(passages):
                     if isinstance(passage, dict) and isinstance(passage.get("id"), str) and not is_uuid(passage["id"]):
                         passages[index] = with_identity(passage, kind)
+                        self.converted.setdefault(kind, set()).add(passages[index]["id"])
                         self.counts[kind] = self.counts.get(kind, 0) + 1
             else:
                 if isinstance(data.get("id"), str) and not is_uuid(data["id"]):
                     data = with_identity(data, kind)
+                    self.converted.setdefault(kind, set()).add(data["id"])
                     self.counts[kind] = self.counts.get(kind, 0) + 1
                 self.rewrite_slots(reference_slots(kind, data))
                 for node, target in keyed_dicts(kind, data):
@@ -259,11 +265,21 @@ class Migration:
                         record = {**record, "source_id": data.get("snapshot", {}).get("source_id")}
                     records.setdefault(kind, {})[record["id"]] = record
         self.records = records
-        senses = SenseIndex(records.get("definition", {}), records.get("disambiguation", {}))
+        senses = SenseIndex(records.get("definition", {}), records.get("disambiguation", {}),
+                            records.get("statement", {}), records.get("argument", {}))
         labeler = Labeler(records, senses)
         for kind in LABEL_ORDER:
             items = records.get(kind, {})
             fixed = {record_id for record_id, record in items.items() if record.get("label")}
+            # A record converted now that already had a label (authored on a branch
+            # before the migration) keeps it; a missing sense tag is listed like
+            # the migration's own compromises.
+            for record_id in sorted(fixed & self.converted.get(kind, set())):
+                if senses.untagged(kind, items[record_id]["label"], items[record_id]):
+                    self.cleanup.append({
+                        "kind": kind, "id": record_id, "legacy_id": items[record_id].get("legacy_id"),
+                        "label": items[record_id]["label"], "flags": ["untagged-sense"],
+                    })
             fresh = {record_id: labeler.make(kind, record) for record_id, record in items.items()
                      if not record.get("label")}
             if not fresh:

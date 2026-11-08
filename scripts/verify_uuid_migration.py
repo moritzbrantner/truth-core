@@ -33,7 +33,7 @@ from corpus_ids import KIND_DIRS, PROSE_UUID_RE, is_uuid  # noqa: E402
 from migrate_uuid import AUX_FIELDS  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[1]
-IDENTITY_KEYS = ("label", "legacy_id")
+IDENTITY_KEYS = ("legacy_id",)  # labels: see strip_labels and kept_labels
 
 
 def git(*args: str, cwd: Path = ROOT) -> str:
@@ -83,6 +83,25 @@ def unmap(value: Any, table: dict[str, str], *, drop_identity: bool) -> Any:
     return value
 
 
+def strip_labels(value: Any) -> Any:
+    """A record (or passage file) without top-level record labels, which the migration adds."""
+    if isinstance(value, dict) and "passages" in value and isinstance(value["passages"], list):
+        return {**value, "passages": [strip_labels(item) for item in value["passages"]]}
+    if isinstance(value, dict):
+        return {key: item for key, item in value.items() if key != "label"}
+    return value
+
+
+def kept_labels(before: Any, after_unmapped: Any, table: dict[str, str]) -> bool:
+    """A label the record already had before the migration is kept verbatim."""
+    del table
+    pairs = [(before, after_unmapped)]
+    if isinstance(before, dict) and isinstance(before.get("passages"), list):
+        pairs += list(zip(before["passages"], after_unmapped.get("passages", [])))
+    return all("label" not in old or old["label"] == new.get("label") for old, new in pairs
+               if isinstance(old, dict) and isinstance(new, dict))
+
+
 def canonical(value: Any) -> Any:
     if isinstance(value, dict):
         return {key: canonical(item) for key, item in value.items()}
@@ -117,7 +136,7 @@ def check_records(base: str) -> list[str]:
             continue
         before = json.loads(text)
         after = unmap(json.loads(path.read_text(encoding="utf-8")), table, drop_identity=True)
-        if before != after:
+        if strip_labels(before) != strip_labels(after) or not kept_labels(before, after, table):
             problems.append(f"{name}: differs after mapping uuids back")
         directory = Path(name).parent.name
         counts[directory] = counts.get(directory, 0) + (len(before.get("passages", [])) if directory == "passages" else 1)

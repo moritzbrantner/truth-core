@@ -82,16 +82,15 @@ def phrase(text: Any, flags: set[str], limit: int = LABEL_MAX) -> str:
 
 
 def tag_senses(label: str, kind: str, record: dict[str, Any], senses: SenseIndex, flags: set[str]) -> str:
-    linked = senses.linked_senses(kind, record)
-    by_head: dict[str, set[str]] = {}
-    for head, tag, _ in linked:
+    by_head: dict[str, set[str | None]] = {}
+    for head, tag, _ in senses.linked_senses(kind, record):
         by_head.setdefault(head, set()).add(tag)
     for head in sorted(by_head, key=len, reverse=True):
         tags = by_head[head]
         pattern = re.compile(r"(?<![\w])" + re.escape(head) + r"(?![\w])", re.IGNORECASE)
         if not pattern.search(label):
             continue
-        if len(tags) == 1:
+        if len(tags) == 1 and None not in tags:
             label = pattern.sub(next(iter(tags)), label)
         else:
             flags.add("untagged-sense")

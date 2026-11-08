@@ -139,6 +139,8 @@ REFERENCE_FIELDS: dict[str, tuple[tuple[tuple[str, ...], Any], ...]] = {
         (("term_senses", "[]", "statement_id"), "statement"),
         (("term_senses", "{}", "disambiguation_id"), "disambiguation"),
         (("term_senses", "{}", "definition_id"), "definition"),
+        # `term_senses` values and sense-bridge ends are sense uuids, not records.
+        (("sense_bridges", "[]", "statement_id"), "statement"),
     ),
     "relation": (
         (("subject_id",), "@subject_kind"),
@@ -386,26 +388,68 @@ def sense_tag(head: str, index: int) -> str:
 
 
 class SenseIndex:
-    """Which disambiguated sense each definition is, and its tag."""
+    """Which disambiguated sense a record uses for each term, and its tag.
 
-    def __init__(self, definitions: dict[str, dict[str, Any]], disambiguations: dict[str, dict[str, Any]]) -> None:
+    When disambiguations carry sense records (`senses: [{id, label,
+    definition_id}]`, `term_label`; feat/sense-indexed-terms), the tags are
+    the sense labels (`PRIOR_1`) that `sense_labels.record_sense_labels` gives
+    the record: its own definitions, a claim's statement, an argument's
+    premises, conclusion and declared `term_senses`, a result's argument. A
+    term the record uses in one sense is tagged; a term it uses in several is
+    left untagged and reported. Without sense records, a definition's tag is
+    its term's head in upper snake case plus its position among the
+    disambiguation's `sense_definition_ids`.
+    """
+
+    def __init__(self, definitions: dict[str, dict[str, Any]], disambiguations: dict[str, dict[str, Any]],
+                 statements: dict[str, dict[str, Any]] | None = None,
+                 arguments: dict[str, dict[str, Any]] | None = None) -> None:
         self.definitions = definitions
         self.disambiguations = disambiguations
+        self.statements = statements or {}
+        self.arguments = arguments or {}
         self.senses_of: dict[str, list[tuple[str, int]]] = {}
-        for disambiguation_id in sorted(disambiguations, key=lambda key: disambiguations[key].get("legacy_id") or key):
-            disambiguation = disambiguations[disambiguation_id]
-            senses = disambiguation.get("senses")
-            if isinstance(senses, list) and senses:
-                ids = [sense.get("definition_id") for sense in senses if isinstance(sense, dict)]
-            else:
-                ids = disambiguation.get("sense_definition_ids", [])
+        ordered = sorted(disambiguations, key=lambda key: disambiguations[key].get("legacy_id") or key)
+        self.labelled = any(isinstance(disambiguations[key].get("senses"), list)
+                            and disambiguations[key].get("term_label") for key in ordered)
+        if self.labelled:
+            from sense_labels import senses_by_definition
+
+            self.by_definition = senses_by_definition(
+                disambiguations[key] for key in ordered
+                if isinstance(disambiguations[key].get("senses"), list) and disambiguations[key].get("term_label"))
+            self.definitions_of_label: dict[tuple[str, str], set[str]] = {}
+            for definition_id, senses in self.by_definition.items():
+                for sense in senses:
+                    self.definitions_of_label.setdefault((sense["term"], sense["label"]), set()).add(definition_id)
+            return
+        for disambiguation_id in ordered:
+            ids = disambiguations[disambiguation_id].get("sense_definition_ids", [])
             if len(set(ids)) < 2:
                 continue
             for index, definition_id in enumerate(ids, start=1):
                 self.senses_of.setdefault(definition_id, []).append((disambiguation_id, index))
 
-    def linked_senses(self, kind: str, record: dict[str, Any]) -> list[tuple[str, str, str]]:
-        """(head, tag, definition id) for every disambiguated sense the record links."""
+    def _heads(self, definition_ids: Iterable[str]) -> set[str]:
+        heads = set()
+        for definition_id in definition_ids:
+            head = sense_head(str(self.definitions.get(definition_id, {}).get("term", "")))
+            if head:
+                heads.add(head)
+        return heads
+
+    def linked_senses(self, kind: str, record: dict[str, Any]) -> list[tuple[str, str | None, str]]:
+        """(head, tag or None when the record mixes senses, term) for every disambiguated term it uses."""
+        if self.labelled:
+            from sense_labels import record_sense_labels
+
+            out = []
+            used = record_sense_labels(record, self.statements, self.by_definition, self.arguments)
+            for term, labels in used.items():
+                for label in labels:
+                    for head in self._heads(self.definitions_of_label.get((term, label), ())):
+                        out.append((head, label if len(labels) == 1 else None, term))
+            return out
         linked = list(record.get("definition_ids", []) or [])
         if kind == "definition":
             linked.append(record.get("id"))
