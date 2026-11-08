@@ -168,6 +168,24 @@ class FrontierReportTest(unittest.TestCase):
         self.assertEqual(items["OPEN-B"]["path_to_root"], ["OPEN-B", "ARG-ROOT", "ROOT"])
         self.assertNotIn("SIDE", report["reaching_root_statements"])
 
+    def test_verified_route_reaches_the_root_beside_the_designated_one(self) -> None:
+        # Owner decision 2026-11-07: a routed statement is also entered through
+        # any verified non-transcription argument; designation stays the headline.
+        arguments = [*ARGUMENTS, argument("ARG-ROOT-2", ["SIDE"], "ROOT")]
+        routed = [relation("argument", "ARG-ROOT", "root_route", "ROOT")]
+        results = [*RESULTS, {"id": "RES-ROOT-2", "argument_id": "ARG-ROOT-2"}]
+        report = corpus.frontier_report(STATEMENTS, arguments, results, routed, root="ROOT")
+        items = {item["statement_id"]: item for item in report["items"]}
+        self.assertEqual(items["SIDE"]["path_to_root"], ["SIDE", "ARG-ROOT-2", "ROOT"])
+        self.assertIn("SIDE", report["reaching_root_statements"])
+        designated = {entry["argument_id"]: entry["designated"] for entry in report["routes"]["routes"]}
+        self.assertEqual(designated, {"ARG-ROOT": True, "ARG-ROOT-2": False})
+        # A transcription for the routed root does not open the walk.
+        flagged = corpus.frontier_report(
+            STATEMENTS, arguments, [*RESULTS, {"id": "RES-ROOT-2", "argument_id": "ARG-ROOT-2",
+                                               "transcription": "assembly"}], routed, root="ROOT")
+        self.assertNotIn("SIDE", flagged["reaching_root_statements"])
+
     def test_reaching_root_statements_match_item_paths(self) -> None:
         # The explorer's root-reachability filter (#491) reads this list; it must
         # agree with `path_to_root` for every open premise, routed or not.
@@ -1219,10 +1237,11 @@ class FrontierCorpusTest(unittest.TestCase):
         self.assertIn("STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE", ids)
         self.assertIn("STMT-CHURCH-FOUNDED-IN-COMMISSIONED-APOSTLES", ids)
         # The designated root route (root_route, #143 2026-10-24) takes stage 1
-        # through the fuller nominal definition, so the bare identification
-        # premise of the other routes no longer reaches the root.
+        # through the fuller nominal definition. Since 2026-11-07 a statement
+        # reaches the root through any verified non-transcription route, so the
+        # bare identification premise of the other verified routes reaches it too.
         self.assertIn("STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE", ids)
-        self.assertNotIn("STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD", ids)
+        self.assertIn("STMT-UNIQUE-PURE-ACT-FIRST-MOVER-IS-GOD", ids)
         # Stage 1 and the prima via conclusion are conclusions of verified results.
         self.assertNotIn("STMT-GOD-EXISTS", ids)
         self.assertNotIn("STMT-FIRST-UNMOVED-MOVER-CANNOT-BE-LACKING", ids)

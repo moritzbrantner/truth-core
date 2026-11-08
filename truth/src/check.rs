@@ -2153,6 +2153,74 @@ fn validate_bindings(root: &Path, sources: &[Record], claims: &[Record]) -> Res<
 // ---------------------------------------------------------------------------
 // validate()
 
+/// Python `validate_sense_fork`: the optional certified sense fork of a
+/// disambiguation (`docs/corpus-model.md`, "Sense forks").
+fn validate_sense_fork(
+    path: &str,
+    fields: &Obj,
+    statements: &HashMap<&str, &Obj>,
+    results: &HashMap<&str, &Obj>,
+    arguments: &HashMap<&str, &Obj>,
+) -> Res<()> {
+    let id = text(fields, "id");
+    for field in ["coverage_statement_id", "exclusivity_statement_id"] {
+        let Some(value) = fields.get(field) else {
+            continue;
+        };
+        let statement = value.as_str().and_then(|statement_id| {
+            statements
+                .get(statement_id)
+                .map(|record| (statement_id, record))
+        });
+        let Some((statement_id, record)) = statement else {
+            return Err(format!("{path}: {field} must name a known statement"));
+        };
+        if !strings(record, "disambiguation_ids").contains(&id) {
+            return Err(format!(
+                "{path}: {field} {statement_id} must link {id} in disambiguation_ids"
+            ));
+        }
+    }
+    if let Some(coverage) = fields.get("coverage_statement_id")
+        && fields.get("exclusivity_statement_id") == Some(coverage)
+    {
+        return Err(format!(
+            "{path}: coverage and exclusivity must be distinct statements"
+        ));
+    }
+    if !fields.contains_key("fork_result_ids") {
+        return Ok(());
+    }
+    let fork_results = require_string_list(fields, "fork_result_ids", path, false)?;
+    let Some(coverage) = fields.get("coverage_statement_id").and_then(Value::as_str) else {
+        return Err(format!(
+            "{path}: fork_result_ids needs coverage_statement_id as the explicit coverage premise"
+        ));
+    };
+    for result_id in fork_results {
+        let Some(result) = results.get(result_id) else {
+            return Err(format!("{path}: unknown fork result id {result_id}"));
+        };
+        let argument = arguments.get(text(result, "argument_id"));
+        let argument_list = |field: &str| {
+            argument
+                .map(|argument| strings(argument, field))
+                .unwrap_or_default()
+        };
+        if !argument_list("disambiguation_ids").contains(&id)
+            && !strings(result, "disambiguation_ids").contains(&id)
+        {
+            return Err(format!("{path}: fork result {result_id} must link {id}"));
+        }
+        if !argument_list("premise_statement_ids").contains(&coverage) {
+            return Err(format!(
+                "{path}: fork result {result_id} must take {coverage} as a premise"
+            ));
+        }
+    }
+    Ok(())
+}
+
 fn ids_of(records: &[Record]) -> HashMap<&str, &Obj> {
     records
         .iter()
@@ -2418,6 +2486,13 @@ fn validate(
                 return Err(format!("{path}: unknown sense definition id {sense}"));
             }
         }
+        validate_sense_fork(
+            path,
+            fields,
+            &statement_by_id,
+            &result_by_id,
+            &argument_by_id,
+        )?;
         validate_prose_ids(path, fields, &["resolution"], &citable)?;
         used_definitions.extend(senses);
     }
