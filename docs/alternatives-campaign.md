@@ -168,6 +168,10 @@ count a new imported library as a discharged philosophical premise.
 
 ### Family assessments and decisive next tests
 
+The current assessment has 21 grouped rows; related variants within a row
+retain separate target and follow-up obligations. This is a scope description,
+not a research-success metric.
+
 Entries name checked artifacts and the precise limitation they support. A
 Solution's existence alone is not current-head certification; unchanged merged
 proof evidence is reused, and new proofs retain final CI. A proposed next test is
@@ -183,6 +187,7 @@ stated below rather than claiming that nothing has ever been written.
 | **Teleology / Fifth Way:** intelligent directors of natural bodies; a single first governor needs additional scope premises | `QuintaViaEachDirected` and `QuintaViaOneGovernor.oneGovernor` retain regularity/chance/intention, the knowing-director principle, reduction, directing-is-moving and uniqueness separately. The latter theorem includes omission countermodels. Natural regularity without cognitive direction challenges the director premise; several directors challenge the quantifier shift. | Compare non-intentional regularity with directed regularity on the existing signature; test whether one-governor scope can be weakened without assuming uniqueness. Evolutionary explanations are not refuted by the arrow analogy. |
 | **Fine-tuning / probabilistic design:** evidence favoring a designer, not deductive creation or Catholicism | The audited Fifth Way is not a likelihood calculation. No fine-tuning likelihood/prior argument was located in the bounded search below. Single-universe luck, selection effects, multiverse and alternative designers remain open rival reconstructions, not registered refutations. | Define the evidence and sampling/observer condition before comparing likelihoods; show whether a Bayes-factor direction survives omission of the selection model and designer likelihood. Keep prior odds and theological identification separate. |
 | **Definitional / conceptual ontological:** exemplification of a greatest or perfect being | The corpus's naming and GOD sense forks distinguish a nominal definition from an inhabited extension. The Gödel work below does not by itself cover every Anselmian or Meinongian argument. Kant's identification/conversion controls directly warn against this substitution. | Reconstruct the strongest conceptual inference as a typed argument, then test an empty extension and distinct existence senses; reuse the definition/naming forks rather than treating a definition as an existential witness. |
+| **Meinongian object/property arguments:** existence from a characterized perfect object, or a challenge to existence-entailing predication | `Causality/MeinongianActuality.lean` and its checked `NoActualityWithoutBeing`/control results examine a golden-mountain interpretation and two explicit act/perfection-to-being premises. This is a conditional objection to actuality without being, not a checked Meinongian proof of God. Rejecting either bridge preserves the recorded rival. | Reconstruct the distinct PHIL231 ontological variant, distinguishing nuclear characterization, exemplification, actuality and existence. Test an uninstantiated or nonexistent characterized object before any inference to an existing perfect being. Do not count the act/perfection refutation as coverage of that whole argument. |
 | **Modal ontological / Gödel:** modal God-likeness under a positivity and essence theory | `Results/Isabelle/GoedelGod/GodLikeNecessarilyExists`, `GodLikeUnique`, `NecessaryExistenceIndependence`, and `NotesOnGoedel/{Inconsistency,PossibleGodLikeNecessarilyExists,ActualistPossibilityBoundary}` compare configurations. The possibility input, positivity constraints, actualist domains and accessibility rules remain consequential. The original variant's inconsistency is not a refutation of every modal theism. | Compare the weakest consistent positivity/possibility bundle with its reversal, holding domain and frame fixed. Bridge its God-like predicate to the route's God explicitly before claiming theism or atheism about that target. |
 | **Mereological / composition:** an ultimate composer or noncomposite foundation | [Composition scope](notes/composition-causal-scope.md), `Mereology/FusionNoNecessaryParts.lean`, `NecessaryPartFusionDecomposition.lean` and `UniversalFusionBoundary.lean` distinguish fusion, parts, arrangement and individual necessity. Contingent parts do not simply establish a contingent whole, nor a composer by definition. | Compare a brute fusion and a caused arrangement on the same actual-fusion profile; retain the composition-to-cause bridge explicitly and test both its direction and modal strength. |
 | **Moral / Euthyphro:** a normative ground, lawgiver or perfectly good being | Existing naturalistic moral realism, `Comparison/MoralLanguage.lean`, `Metaethics/EvilObjection.lean` and [natural goodness/function/authority](notes/natural-goodness-function-and-authority.md) distinguish truth-aptness, value, function and authority. These are not a completed inference from moral realism to God. Naturalistic realism and autonomy of value are serious alternatives; semantic noncognitivism is not their substitute. | Test whether the proposed dependence is on will, nature, reasons or commands; make both directions of the dilemma separate propositions. Derive only what the chosen dependence supports and retain secular realist models. |
@@ -191,6 +196,9 @@ stated below rather than claiming that nothing has ever been written.
 | **Divine hiddenness:** a perfectly loving, relationship-capable God with immediate openness | `Hiddenness/NoGod.noGod` derives nonexistence from four explicit premises; `PremisesIndependent` witnesses every omission. Qualified openness, delayed-access and nontheistic-development models survive in `docs/hiddenness.md`. Belief is not acceptance. [Existing bridge candidate](bridges/candidates/02-hiddenness-god-exists.md) records that the route's God is not yet identified with this signature. | First minimize the all-world premises to those at the actual world, then test a typed bridge to the root's classical God. The theist owes a sufficient reason for each actual gap; the critic must justify the unqualified norm and empirical nonresistance. |
 | **Religious experience / testimony / epistemic permission (including Clifford):** warranted belief, sometimes an existential claim | The public outline names these topics, but the bounded search located no dedicated religious-experience or Clifford argument. `Alternatives/RevelationRecognition.lean` and existing historical comparisons address nearby testimony questions, not a general proof from experience. Hallucination, cultural dependence and competing revelations remain open alternatives. | Separate experience occurrence, veridicality, defeater absence and reliable identification; compare a fallible witness model with a false-positive model. Epistemic permission must not be reported as truth. |
 | **Pragmatic / wager:** choice under a payoff/prior model, not existence | [Wager intake](notes/carneades-decision-wager.md), `Results/Decision/InfiniteWager` and `SignedWager` check mixture ties, signed-infinity boundaries and `practicalNontruth`. Many-gods payoffs and nonvoluntary belief remain serious objections. An undefined signed expectation is not a winning act. | Compare admissible acts and competing reward hypotheses with finite/truncated payoffs; test stability under priors and costs. Keep the practical recommendation distinct from the proposition that God exists. |
+| **Attribute incoherence / modal collapse / freedom:** a God satisfying the specific disputed attribute bundle | `Modal/SimplicityCollapse.lean`, `SelectedEffectBridge.lean` and their results test a necessary rigid act, strict efficacy and contingent effects with omission models. Simplicity itself is not defined to entail those bridges. #1241 tests collapse rivals on the route profile under an OPEN contingency node. These results challenge bundles, not every necessary being or every creator. No dedicated foreknowledge-freedom or stone-paradox result was located by the bounded query below. | Test the inference from the relevant simplicity/immutability conception to act necessity and strict efficacy, then compare its denial with the strongest contingent-creation reply. For foreknowledge/omnipotence, first distinguish truth, knowledge, ability and logical impossibility; do not reuse the collapse theorem as their proof. |
+| **Consciousness / reason / transcendental:** an adequate account of thought or rational warrant, with a further inference to divine intellect | `Logic/CogitoConcrete.lean` and its results reach an inhabited concrete world or the motion observation only through explicit bearer, actuality and opining bridges. A thought bearer is not automatically an immaterial self, God or divine intellect. `Logic/EpistemicReasons.lean` does not by itself identify a ground of reasoning with God. No dedicated consciousness-to-God or transcendental God argument was located in the bounded search. | Specify the alleged explanatory or normative insufficiency of a naturalistic account, and a rival realization model. Test the explanatory-gap-to-divine-intellect bridge separately from existence of a thinker; preserve physicalist, idealist and neutral alternatives without claiming a full model of each. |
+| **Religious disagreement / competing revelations:** exclusivity or warranted identification of a revealed God, usually not bare divine existence | Hiddenness's concept/development models, the wager's competing rewards and the resurrection comparison encode nearby alternatives. They are not a general theorem from disagreement to atheism. No dedicated disagreement argument was located in the bounded search. The strongest challenge concerns reliable discrimination among incompatible claims; a theist can reject equal evidential standing or distinguish disagreement about God from God's existence. | Compare incompatible testimony with shared reliability assumptions and stated defeaters; show which identification or confidence claim fails. Do not infer that all disagreeing parties are false, or that bare necessary existence is disproved. |
 | **Naturalism / brute / plural foundations:** surviving alternatives to specified supernatural/unique-cause claims | `Results/Ontology/Naturalism/Survivor` supplies a spatially located whole and an infinite local causal regress; `NaturalismLogicalFloor`, universe-scope controls and [concreteness boundary](notes/causal-concrete-rival-boundary.md) distinguish causal power, location and actuality. Refuting one naturalism definition does not refute every naturalist worldview; formal consistency does not establish reality. | Compare rival models against the same weakest route bundle, identifying the exact premise each rejects. Avoid imposing the theist's causal well-foundedness merely to eliminate the rival. |
 | **Revelation / Christianity / Catholicism:** stages beyond classical theism | `History/Resurrection*.lean`, `Comparison/Resurrection.lean` and its legend, stolen-body, swoon and group-hallucination consistency results preserve historical alternatives. `ClassicalGodRevelationBoundary.checks` blocks automatic passage from classical attributes to revelation or Church identity. The stage-3-to-6 explorations retain historical and authority bridges. | Compare the strongest shared evidence constraints before assessing the surviving historical hypotheses, then separately investigate authority and ecclesial identity. Neither a necessary being nor an inconsistent caricature of a rival settles resurrection or Catholicism. |
 
@@ -200,7 +208,8 @@ This is an initial evidence-backed assessment, not an exhaustive survey of every
 Carneades video, every philosophical tradition, or the empirical literature.
 For the absence entries, the bounded search was case-insensitive content search
 of `corpus/statements/` for fine-tuning, religious experience, Clifford and moral
-argument, plus filename search of `TruthCore/` for the named families. This can
+argument, extended to Meinong, foreknowledge, omnipotence paradox, consciousness,
+transcendental argument and religious disagreement, plus filename search of `TruthCore/` for the named families. This can
 miss differently named or implicit arguments. Existing `related`, `context` and
 `dossier` packs must precede new vocabulary. It is not evidence that an argument
 is false or that a family is unimportant. The conceptual, Meinongian and
@@ -208,24 +217,72 @@ religious-experience variants need separate reconstructions; modal results must
 not be counted as their completion. Historical source authentication is deferred
 unless explicitly selected; the existing verified readings remain intact.
 
-Priorities for the next bounded investigations alternate a neglected family
-with a consequential existing gap:
+### Findings from the first bounded investigations
 
-1. Hiddenness: actual-world premise minimization and exact root identification;
-   reuse the four-premise core and omission models rather than repeat them.
-2. Teleology: weakest noncognitive-director and one-governor scope commitments;
-   retain non-intentional and multiple-director models.
-3. Rowe: recognition-completeness bridge, then compare its skeptical-theist
-   rejection with the critic's total-evidence challenge.
-4. Probabilistic design: observer-conditioned likelihood comparison with rival
-   designer/naturalistic models, followed by a PSR/global-explanation join test.
-5. Conceptual/Meinongian and religious-experience forks, then moral dependence
-   and Clifford; preserve the practical/truth boundary already checked for wagers.
+[PR #1241](https://github.com/moritzbrantner/truth-core/pull/1241) reconciles the
+contingency node with current identity and sense rules. It imports closed modal
+certificates instead of retaining their broad bundles as assumptions, and keeps
+the actual-contingency and frame-schema commitments OPEN. Its computed change
+adds one open route-reaching premise; it does not defend actual contingency or
+improve the cheapest route. The modal-library contact remains conditional.
+
+[PR #1247](https://github.com/moritzbrantner/truth-core/pull/1247) weakens three
+hiddenness norms from all worlds to the actual world. Checked projections and
+strictness models distinguish the strengths; the empirical nonbelief witness is
+retained. A conditional challenge to the stage-one GOD_4 predicate adds an
+explicit one-way identification, with an omission model showing why that bridge
+matters. All four carrying-premise omission witnesses are reused. The qualified
+reply and nontheistic alternatives remain; no premise truth is established.
+See [the substantive assessment](https://github.com/moritzbrantner/truth-core/blob/d2da1c08dfd67601bbdd89ba770d8b4b2b4f4a12/docs/hiddenness.md#actual-world-scope-and-route-identification-2026-11-08).
+
+[PR #1248](https://github.com/moritzbrantner/truth-core/pull/1248) addresses neglected
+teleology. The old common-governor result projects to the existing root-route
+first-mover node through a labelled assembly. A substantive proof reaches that
+same existential node from the original first seven premises without global
+uniqueness. Seven omission countermodels and nonvacuity test that particular
+bundle; a two-director survivor distinguishes existence from uniqueness. This
+is not a seven-premise proof of one common governor. See [the premise and rival
+assessment](https://github.com/moritzbrantner/truth-core/blob/8f9a6762f561bca11d7e7620bbc083221de750e0/docs/notes/teleology-first-mover.md).
+
+These are clarification, strength, connection and incompatibility findings.
+The focused PRs carry computed deltas and exact-head verification evidence.
+Pending PRs are not merged certification; the current handoff #418 records the
+live delivery state. No theorem count is used as the completion criterion.
+
+### Prioritized continuation after the initial assessment
+
+Continue alternating a consequential existing gap with a neglected family:
+
+1. **Rowe recognition/completeness:** make a bounded recognition-to-absence
+   assumption explicit; test its omission against the existing hidden-cost
+   model. Then compare the critic's distribution/induction case with the
+   skeptical-theist and Moorean replies. No probability conclusion follows
+   merely from the current deductive core.
+2. **Fine-tuning:** fix observer-conditioned evidence, rival hypotheses and
+   likelihoods before computing evidential direction. Test omission of the
+   sampling model and designer likelihood; keep priors and divine identity
+   separate. This is not the Fifth Way's regularity argument.
+3. **PSR/global explanation:** compare the weakest local sufficient bundle
+   with whole-history and joint-explanation commitments, holding semantics
+   fixed. Retain coherent infinite and brute foundations as serious survivors.
+4. **Conceptual/Meinongian and religious-experience arguments:** reconstruct
+   each missing variant independently, with empty-extension and false-positive
+   controls. Existing modal and actuality/perfection work must not stand in for
+   those arguments. Broaden source coverage only when it discriminates a live fork.
+5. **Hiddenness and teleology strength follow-ups:** defend or reject actual
+   openness and nonresistance, assess each God-identification conception, and
+   localize teleology's universal premises to the witness the existential proof
+   needs. Relevant-director uniqueness is a separate one-governor question.
+6. **Moral dependence, Clifford and consciousness/reason:** distinguish reasons,
+   commands, nature, epistemic permission and divine intellect; compare the
+   strongest secular alternatives before selecting a necessary God bridge.
+   Foreknowledge-freedom, omnipotence paradoxes and disagreement need their own
+   typed reconstructions rather than being counted as modal-collapse coverage.
 
 Progress means weaker sufficient premises, well-typed targets, tested
 incompatibilities, genuine rival survivors and resolved bridges. Neither this
 assessment nor a checked conditional independently establishes a philosophical
 premise. This documentation change has no premise delta. The initial cycle's
-completion still requires its focused PR and the selected bounded research,
-required checks, updated handoff and final requirement audit; this table alone
-is not a completion declaration.
+completion still requires the selected research and this reconciliation to be
+merged with required checks, updated handoff and a final requirement audit; this
+table alone is not a completion declaration.
