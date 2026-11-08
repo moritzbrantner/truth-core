@@ -1,0 +1,13 @@
+{
+  "id": "INF-LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "input_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER",
+    "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+  ],
+  "output_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "rule": "Hypothetical syllogism through the sense bridge",
+  "meaning": "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge"
+}

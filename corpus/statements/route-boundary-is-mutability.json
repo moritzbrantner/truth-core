@@ -1,0 +1,13 @@
+{
+  "id": "STMT-ROUTE-BOUNDARY-IS-MUTABILITY",
+  "label": "Whatever begins or ceases to live is mutable in the route's reading of that use",
+  "paraphrase": "OPEN analyst premise (attribution deferred): whatever begins or ceases to live is mutable in the route's reading of the boundary use.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.RouteBoundaryIsMutability",
+  "definition_ids": [
+    "DEF-ROUTE-SENSE-SELECTION",
+    "DEF-LIFE-PRESENT-AT"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ]
+}

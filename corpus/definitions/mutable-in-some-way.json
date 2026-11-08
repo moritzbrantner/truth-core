@@ -1,0 +1,9 @@
+{
+  "id": "DEF-MUTABLE-IN-SOME-WAY",
+  "label": "MUTABLE_3: mutable in itself or through another (q.9 a.2 channels joined)",
+  "term": "mutable in some way (aliquo modo mutabile)",
+  "definition": "A thing is mutable in some way when it is in potency in itself in some respect or some other being has the power to change it: the union of q.9 a.2's two channels, whose negation is that question's 'omnino immutabile' (altogether immutable). MUTABLE_3 of DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.MutableInSomeWay",
+  "note": "Stipulated as the analyst's reading of q.9 a.2's 'omnino immutabile' (attribution deferred); a claim on the q.9 a.2 passage stating that the two channels exhaust 'mutable' would source it. Written out in Lean rather than as a disjunction of MutableInSubject and MutableThroughAnother, so that statements in this sense do not mention the other senses' declarations. Example: every creature, on Aquinas' view, is mutable in some way, at least through the creator's power. It is weaker than each channel (LIFE-BOUNDARY-SOME-MUTABILITY-FROM-SUBJECT, -FROM-ANOTHER)."
+}

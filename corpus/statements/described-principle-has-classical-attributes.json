@@ -1,0 +1,17 @@
+{
+  "id": "STMT-DESCRIBED-PRINCIPLE-HAS-CLASSICAL-ATTRIBUTES",
+  "label": "The fully described principle (GOD_1 description) has the classical attributes",
+  "paraphrase": "Whatever meets the full nominal description (the only being maximal in being, causing the being and every perfection of every other being, entering into the composition of nothing) satisfies the signature's HasClassicalAttributes field. It does not say that anything meets the description.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.DescribedPrincipleHasClassicalAttributes",
+  "definition_ids": [
+    "DEF-GOD-NOMINAL-Q13",
+    "DEF-CLASSICAL-ATTRIBUTES-BUNDLE",
+    "DEF-MAXIME-ENS",
+    "DEF-CAUSE-OF-PERFECTION",
+    "DEF-REMOTE-FROM-ALL"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD",
+    "DISAMB-MAXIME-ENS"
+  ]
+}

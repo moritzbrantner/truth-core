@@ -1,0 +1,28 @@
+{
+  "id": "ATTEMPT-TERM-SENSE-FORKS-4-20261108",
+  "label": "Sense forks batch 4: MUTABLE and GOD forks, quarta via conclusion to the root",
+  "date": "2026-11-08",
+  "statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+    "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE",
+    "STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL",
+    "STMT-MUTABILITY-SENSES-EXHAUSTIVE",
+    "STMT-MUTABILITY-SENSE-UNIQUE",
+    "STMT-GOD-SENSES-EXHAUSTIVE",
+    "STMT-GOD-SENSE-UNIQUE"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Sense forks batch 4 (#1233 B; docs/notes/load-bearing-terms.md), each sense its own Lean declaration and one argument per sense. Mutable (DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER, duplicate DISAMB-MUTABILITY-CHANNEL): typed power relation PowerOver added for DEF-MUTABLE-THROUGH-ANOTHER; MUTABLE_3 (DEF-MUTABLE-IN-SOME-WAY) appended. At the root-route node STMT-LIFE-BOUNDARY-REQUIRES-POTENCY, MUTABLE_2 and MUTABLE_3 reach it only through the open bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY, shown needed by a model with a dependent pure act that begins to live; MUTABLE_3 is the weakest boundary reading (two strengthens). The mixed reading (succession MUTABLE_1, boundary MUTABLE_2) breaks the joint step. God (DISAMB-GOD): GOD_1 nominal makes the naming premise and its converse analytic, and the root naming premise is proved equivalent to the nominal-to-classical bridge; GOD_2 and GOD_3 reach it through open bridges; omission models for all three bridges; the mixed reading (naming GOD_1, attributes GOD_4) breaks the joint step. Equivocation hazard found: GodNamesTheFullyDescribedPrinciple and GodIsMaximalInBeing are generic in the God predicate and bind by head constant, so a GOD_1 instantiation would bind to the GOD_4 root statements while analytic; the GOD_1 readings were given their own declarations. Quarta via connection (#1237 plan): CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL replaces the four quarta via premises of the cheapest route by STMT-MAXIME-ENS-CAUSES-BEING-OF-ALL (cheapest route cost 30 -> 28). Rejected leads: (1) proving GodNamesTheFullyDescribedPrinciple at God := NominalGod and binding it to the root statement (an equivocation exploit; analytic in GOD_1, says nothing about IsGod); (2) defining MUTABLE_3 as the disjunction of the other two declarations (statements in that sense would mention the other senses' declarations); (3) a separate fork of DISAMB-MUTABILITY-CHANNEL (same two senses, no root-path link); (4) GOD_5/GOD_6 GodLike as constructors (world-indexed over a positivity constant, a different type; a rival reading denies coverage); (5) forking DISAMB-MIXED-EXISTENTIAL-PRIORITY (type-distinct: B versus Sum B E, two senses are structural laws; only the already forked simple priority reaches the root); (6) forking DISAMB-EXISTENCE-ESSE-SUPPORT (framework interfaces of different Lean types; the root passes between ExistsAt and esse through existing explicit bridges); (7) a 'strengthens' between STMT-NOMINAL-GOD-IS-CLASSICAL-GOD and STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE (they are equivalent, not strength-ordered); (8) Fin 2 times in the controls (decide on Fin order uses propext; Nat used instead).",
+  "blocker": "Coverage and exclusivity of both forks are OPEN frontier premises. The MUTABLE_2/3 bridge STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY and the GOD_1/2/3 bridges are open; the GOD_1 bridge is equivalent to the root naming premise, so the nominal reading gives no warrant for it. STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE and STMT-GOD-IS-MAXIMAL-IN-BEING still bind to God-generic declarations (needs: bind-check sense indexing from #1235, or classical-specific declarations for the root premises). The existence/esse fork is a candidate (needs: a disambiguation listing DEF-KANT-ONTOLOGICAL-MODEL and DEF-ESSE as senses of one use).",
+  "evidence": [
+    "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+    "LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY",
+    "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
+    "GOD-NAMES-DESCRIBED-FROM-NOMINAL",
+    "NOMINAL-BRIDGE-FROM-GOD-NAMES",
+    "GOD-SENSE-FORK-DESCRIBED-PRINCIPLE-ATTRIBUTES",
+    "CATHOLICISM-FROM-MAXIME-ENS-CAUSING-ALL",
+    "TERM-SENSE-FORKS-4-CONTROLS"
+  ]
+}

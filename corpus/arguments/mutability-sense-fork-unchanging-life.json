@@ -1,0 +1,26 @@
+{
+  "id": "MUTABILITY-SENSE-FORK-UNCHANGING-LIFE",
+  "premise_statement_ids": [
+    "STMT-MUTABILITY-SENSES-EXHAUSTIVE",
+    "STMT-MUTABILITY-SENSE-UNIQUE",
+    "STMT-ROUTE-SUCCESSION-IS-MUTABILITY",
+    "STMT-ROUTE-BOUNDARY-IS-MUTABILITY"
+  ],
+  "conclusion_statement_id": "STMT-ROUTE-IMMUTABLE-HAS-UNCHANGING-LIFE",
+  "inference_ids": [
+    "INF-MUTABILITY-SENSE-FORK-UNCHANGING-LIFE"
+  ],
+  "meaning": "Optional summary over MUTABLE_1-3. Coverage reads both uses of 'in potency in some respect' in the eternity step (succession, boundary) in selected senses; exclusivity makes them one sense. So whatever is not mutable in that one sense has neither succession nor a beginning or end of life. The controls give the mixed reading (succession MUTABLE_1, boundary MUTABLE_2): a being with no potency in itself, in another's power, begins to live, and the conclusion fails.",
+  "definition_ids": [
+    "DEF-BOETHIAN-ETERNAL",
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MUTABLE-IN-SOME-WAY",
+    "DEF-MUTABLE-THROUGH-ANOTHER",
+    "DEF-POTENCY",
+    "DEF-ROUTE-SENSE-SELECTION"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ],
+  "label": "MUTABLE fork summary: immutable in one sense means no beginning, end or succession of life"
+}

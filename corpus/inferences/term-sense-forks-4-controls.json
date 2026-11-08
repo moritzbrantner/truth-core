@@ -1,0 +1,10 @@
+{
+  "id": "INF-TERM-SENSE-FORKS-4-CONTROLS",
+  "input_statement_ids": [],
+  "output_statement_id": "STMT-TERM-SENSE-FORKS-4-CONTROLS",
+  "rule": "Explicit finite interpretations",
+  "meaning": "Finite interpretations for the mutability and God forks: the mixed reading of each term with coverage and without exclusivity, with the joint conclusion failing; a nonvacuity witness per joint theorem; an omission model for the MUTABLE_2/MUTABLE_3 sense bridge and for the boundary premise; an omission model for the GOD_1, GOD_2 and GOD_3 sense bridges at once (their namings hold, the root premise fails) and for the GOD_3 usage premise; an omission model for the quarta via conclusion in GOD-EXISTS-FROM-MAXIME-ENS-CAUSING-ALL. Satisfiability and omission only; no model describes reality.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": [],
+  "label": "Controls for the MUTABLE and GOD sense forks"
+}

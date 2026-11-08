@@ -1,0 +1,13 @@
+{
+  "id": "STMT-CALLED-GOD-IS-CLASSICAL-GOD",
+  "label": "Sense bridge GOD_3 to GOD_4: whatever is called God is the God of classical theism",
+  "paraphrase": "OPEN sense bridge GOD_3 to GOD_4 (attribution deferred): whatever the speech community calls 'God' is the God of classical theism (IsGod). The 'but is it God?' objection to the five ways denies it.",
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CalledGodIsClassicalGod",
+  "definition_ids": [
+    "DEF-GOD-WHAT-ALL-UNDERSTAND",
+    "DEF-GOD-OF-CLASSICAL-THEISM"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-GOD"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER",
+  "premise_statement_ids": [
+    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER",
+    "STMT-SUBJECT-OF-ANOTHERS-POWER-HAS-POTENCY"
+  ],
+  "conclusion_statement_id": "STMT-LIFE-BOUNDARY-REQUIRES-POTENCY",
+  "inference_ids": [
+    "INF-LIFE-BOUNDARY-POTENCY-THROUGH-ANOTHER"
+  ],
+  "meaning": "MUTABLE_2 (THROUGH_ANOTHER) branch of the boundary use: whatever begins or ceases to live is in another being's power, and (explicit sense bridge) whatever is in another's power is in potency in itself; so whatever begins or ceases to live is in potency in itself in some respect, the root-route node. The controls give a model in which the MUTABLE_2 premise holds, the bridge fails and the node fails.",
+  "definition_ids": [
+    "DEF-LIFE-PRESENT-AT",
+    "DEF-MUTABLE-THROUGH-ANOTHER",
+    "DEF-POTENCY"
+  ],
+  "disambiguation_ids": [
+    "DISAMB-POTENCY-IN-SUBJECT-VS-IN-ANOTHER"
+  ],
+  "label": "MUTABLE_2: a life boundary requires potency, through another's power and a sense bridge",
+  "strong_version_needed": {
+    "STMT-LIFE-BOUNDARY-REQUIRES-POWER-IN-ANOTHER": "This is the MUTABLE_2 branch of the fork and keeps its own boundary reading by design; the weaker MUTABLE_3 reading also suffices with the same bridge (LIFE-BOUNDARY-POTENCY-FROM-SOME-MUTABILITY)."
+  }
+}
