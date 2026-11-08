@@ -1,0 +1,10 @@
+{
+  "id": "2ad513d2-5b25-42fc-a0e6-c46ac4bd2fa7",
+  "label": "Experience finite controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "9cbb5d69-013a-4775-be83-4054ee65a5c3",
+  "rule": "Existential elimination and construction over finite experience tokens",
+  "meaning": "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

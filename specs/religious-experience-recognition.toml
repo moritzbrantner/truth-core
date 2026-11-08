@@ -1,0 +1,95 @@
+[batch]
+vocab = "TruthCore.Alternatives.ReligiousExperienceRecognition"
+results = "TruthCore.Results.Alternatives.ReligiousExperienceRecognition"
+
+[[statement]]
+id = "Experience occurrence without defeater"
+lean = "Occurrence"
+paraphrase = "An experience token occurs without an undefeated defeater; OPEN empirical input."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience local calibration"
+lean = "Calibrated"
+paraphrase = "Every occurring undefeated token accurately presents its actual source; OPEN zero-error local calibration, not fallible statistical reliability."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience theological identification"
+lean = "Identified"
+paraphrase = "Accurate source presentation supplies GOD_4 identification, admissibility and a correct recognition move; OPEN theological and recognition commitments."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience normative permission"
+lean = "Permission"
+paraphrase = "Occurrence without defeater permits warranted belief; OPEN nonfactive norm."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience coverage of GOD_4 bearers"
+lean = "CoversGods"
+paraphrase = "Every GOD_4 bearer is presented by an occurring undefeated selected experience; OPEN coverage beyond one witness."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience reverse capacity bridge"
+lean = "CapacityBridge"
+paraphrase = "Possible correct recognition suffices for the primitive recognizable-revelation capability on GOD_4 bearers; OPEN assembly bridge, no external-sign identification proved."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience recognized GOD_4 witness"
+lean = "RecognizedGod"
+paraphrase = "Some GOD_4 bearer has an admissible correct recognition move. Conditional existential result, not universal capacity."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience warranted token"
+lean = "WarrantedToken"
+paraphrase = "Some selected token warrants belief; not a truth or existence claim."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[statement]]
+id = "Experience finite omission and competing-source controls"
+lean = "Controls"
+paraphrase = "Finite nonvacuity, omission, false-positive permission and defeated competing-source models. Interpretations only."
+definitions = ["fda63f5c-198f-4416-93f9-a758138a1487", "DEF-REVELATION-RECOGNITION-PROFILE", "88f9f6e8-997b-5f7d-afa1-c501954c3807"]
+
+[[argument]]
+id = "Experience yields recognized GOD_4"
+theorem = "recognition"
+premises = ["Experience occurrence without defeater", "Experience local calibration", "Experience theological identification"]
+conclusion = "Experience recognized GOD_4 witness"
+rule = "Existential elimination and construction over finite experience tokens"
+meaning = "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+senses = { GOD = "GOD_4", RECOGNIZABLE_REVELATION = "RECOGNIZABLE_REVELATION_1" }
+
+[[argument]]
+id = "Experience permits warranted belief"
+theorem = "permission"
+premises = ["Experience occurrence without defeater", "Experience normative permission"]
+conclusion = "Experience warranted token"
+rule = "Existential elimination and construction over finite experience tokens"
+meaning = "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+transcription = "assembly"
+senses = { GOD = "GOD_4", RECOGNIZABLE_REVELATION = "RECOGNIZABLE_REVELATION_1" }
+
+[[argument]]
+id = "Experience connects to root capability"
+theorem = "root"
+premises = ["Experience local calibration", "Experience theological identification", "Experience coverage of GOD_4 bearers", "Experience reverse capacity bridge"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+rule = "Existential elimination and construction over finite experience tokens"
+meaning = "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+transcription = "assembly"
+senses = { GOD = "GOD_4", RECOGNIZABLE_REVELATION = "RECOGNIZABLE_REVELATION_1" }
+
+[[argument]]
+id = "Experience finite controls"
+theorem = "controls"
+premises = []
+conclusion = "Experience finite omission and competing-source controls"
+rule = "Existential elimination and construction over finite experience tokens"
+meaning = "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+senses = { GOD = "GOD_4", RECOGNIZABLE_REVELATION = "RECOGNIZABLE_REVELATION_1" }

@@ -1,0 +1,59 @@
+target = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+
+[[node]]
+id = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+
+[[node]]
+id = "Experience occurrence without defeater"
+
+[[node]]
+id = "Experience local calibration"
+
+[[node]]
+id = "Experience theological identification"
+
+[[node]]
+id = "Experience normative permission"
+
+[[node]]
+id = "Experience coverage of God bearers"
+
+[[node]]
+id = "Experience reverse capacity bridge"
+
+[[node]]
+id = "Experience recognized God witness"
+
+[[node]]
+id = "Experience warranted token"
+
+[[node]]
+id = "Experience finite omission and competing-source controls"
+
+[[edge]]
+premises = ["Experience occurrence without defeater", "Experience local calibration", "Experience theological identification"]
+conclusion = "Experience recognized God witness"
+kind = "derivation"
+status = "mapped"
+note = "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+
+[[edge]]
+premises = ["Experience occurrence without defeater", "Experience normative permission"]
+conclusion = "Experience warranted token"
+kind = "derivation"
+status = "mapped"
+note = "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+
+[[edge]]
+premises = ["Experience local calibration", "Experience theological identification", "Experience coverage of God bearers", "Experience reverse capacity bridge"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+kind = "bridge"
+status = "mapped"
+note = "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+
+[[edge]]
+premises = []
+conclusion = "Experience finite omission and competing-source controls"
+kind = "derivation"
+status = "mapped"
+note = "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."

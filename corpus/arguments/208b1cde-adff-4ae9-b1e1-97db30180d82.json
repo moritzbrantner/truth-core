@@ -1,0 +1,22 @@
+{
+  "id": "208b1cde-adff-4ae9-b1e1-97db30180d82",
+  "label": "Experience permits warranted belief",
+  "premise_statement_ids": [
+    "81f8599d-0b97-4b88-b0c5-99f1036f19e4",
+    "cc634f4c-eada-471a-986b-c7284e70a318"
+  ],
+  "conclusion_statement_id": "53c053b7-570d-4e98-8615-904925111099",
+  "inference_ids": [
+    "dad6ffbe-2315-4ae0-b367-9bf5e4d45005"
+  ],
+  "meaning": "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "term_senses": {
+    "GOD": "52c2ebac-0a71-4dd4-8a21-804c1dd0847a",
+    "RECOGNIZABLE_REVELATION": "30a5ce57-c9e0-448d-b2b0-449cd7cbe3c5"
+  },
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "fda63f5c-198f-4416-93f9-a758138a1487"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c3e7fe32-f4ee-4e50-9e8e-351565562737",
+  "label": "Experience recognized GOD_4 witness",
+  "paraphrase": "Some GOD_4 bearer has an admissible correct recognition move. Conditional existential result, not universal capacity.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousExperienceRecognition.RecognizedGod",
+  "definition_ids": [
+    "fda63f5c-198f-4416-93f9-a758138a1487",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "27a66a4d-6693-458b-8232-f87b6cc1a870",
+  "label": "Experience finite controls",
+  "argument_id": "547b4d60-090f-4451-8bd8-77f1312b4dc3",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.controls",
+  "comparator_config": "results/27a66a4d-6693-458b-8232-f87b6cc1a870/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+}
