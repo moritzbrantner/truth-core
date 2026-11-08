@@ -1,0 +1,12 @@
+{
+  "id": "a9d6739f-426e-4700-a5a7-bfa604702489",
+  "label": "A common governor projects to a first UNMOVED_2 mover (inference)",
+  "input_statement_ids": [
+    "f43962a3-1a34-593b-8856-a97336e8ce18"
+  ],
+  "output_statement_id": "7bce7007-ad29-5f5b-b4b3-e7b02bf98312",
+  "rule": "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations",
+  "meaning": "Assembly: project the existing first-mover witness from OneIntelligentFirstMoverGovernsNature, connecting the checked Fifth Way conclusion to a root-route node. It supplies neither uniqueness nor classical attributes; no premise is independently defended.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "65ac635d-f5c7-481a-9f70-b882f0502477",
+  "label": "Seven Fifth Way omission controls",
+  "argument_id": "7c3f4e61-5044-4be4-825b-ae9f13d01f60",
+  "challenge_module": "TruthCore.Results.Causality.TeleologyFirstMover.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TeleologyFirstMover.Solution",
+  "theorem": "TruthCore.Results.Causality.TeleologyFirstMover.controls",
+  "comparator_config": "results/65ac635d-f5c7-481a-9f70-b882f0502477/comparator.json",
+  "status": "solution-present",
+  "description": "All seven premises hold nonvacuously on the oneDirects fixture. Five no-director variants separately omit cognition-lack, populated observation, not-chance, chance-or-intention and the knowing-director premise; the existing two-archer/moved and no-moves fixtures omit reduction and directing-as-moving. Every omission lacks a first unmoved mover. The two-archer survivor has first movers but not global uniqueness. Predicates are fully interpreted; no empirical applicability or full-worldview consistency is claimed."
+}

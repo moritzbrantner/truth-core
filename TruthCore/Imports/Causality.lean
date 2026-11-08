@@ -135,6 +135,7 @@ public import TruthCore.Causality.SourceWitness
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
+public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
 public import TruthCore.Causality.TemporalEventControls
 public import TruthCore.Causality.TemporalPrimaVia

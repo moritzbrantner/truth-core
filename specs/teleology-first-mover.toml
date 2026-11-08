@@ -1,0 +1,39 @@
+[batch]
+vocab = "TruthCore.Causality.TeleologyFirstMover"
+results = "TruthCore.Results.Causality.TeleologyFirstMover"
+
+[[statement]]
+id = "Seven-premise teleology omission controls"
+label = "Seven Fifth Way premise omission models"
+lean = "Control.Controls"
+paraphrase = "A populated one-governor interpretation satisfies all seven first-mover premises; each premise individually has an omission interpretation with no first unmoved mover. The existing two-archer interpretation has first movers without global uniqueness. Only finite logical interpretations, not actual cosmological or biological facts."
+
+[[argument]]
+id = "Seven Fifth Way premises give a first UNMOVED_2 mover"
+label = "Seven Fifth Way premises give a first UNMOVED_2 mover"
+theorem = "firstMover"
+premises = ["efda546f-c3e5-5a68-990b-73f96258f75c", "658814de-ffeb-5824-afdd-2797e5cdad42", "070cef3e-cabc-56a5-9f78-af671d9ad194", "b43528e2-7188-56e9-941c-0d0cea7c03fb", "564ce19b-c9df-5031-b20e-3cb1baee124f", "11914511-b067-55d3-b8cc-094311021d08", "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136"]
+conclusion = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+rule = "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations"
+meaning = "Reuse eachDirected, pick an observed natural body, apply the reduction and directing-as-moving bridges. No global uniqueness or common-director conclusion is required. Every retained premise has an omission countermodel; the deduction establishes no premise truth."
+
+[[argument]]
+id = "A common governor projects to a first UNMOVED_2 mover"
+label = "A common governor projects to a first UNMOVED_2 mover"
+theorem = "governorProjects"
+premises = ["f43962a3-1a34-593b-8856-a97336e8ce18"]
+conclusion = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+rule = "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations"
+meaning = "Assembly: project the existing first-mover witness from OneIntelligentFirstMoverGovernsNature, connecting the checked Fifth Way conclusion to a root-route node. It supplies neither uniqueness nor classical attributes; no premise is independently defended."
+transcription = "assembly"
+
+[[argument]]
+id = "Seven Fifth Way omission controls"
+label = "Seven Fifth Way omission controls"
+theorem = "controls"
+premises = []
+conclusion = "Seven-premise teleology omission controls"
+rule = "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations"
+meaning = "All seven premises hold nonvacuously on the oneDirects fixture. Five no-director variants separately omit cognition-lack, populated observation, not-chance, chance-or-intention and the knowing-director premise; the existing two-archer/moved and no-moves fixtures omit reduction and directing-as-moving. Every omission lacks a first unmoved mover. The two-archer survivor has first movers but not global uniqueness. Predicates are fully interpreted; no empirical applicability or full-worldview consistency is claimed."
+sense_mixing_control = true
+

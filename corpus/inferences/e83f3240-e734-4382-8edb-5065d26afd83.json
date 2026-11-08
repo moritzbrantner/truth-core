@@ -1,0 +1,18 @@
+{
+  "id": "e83f3240-e734-4382-8edb-5065d26afd83",
+  "label": "Seven Fifth Way premises give a first UNMOVED_2 mover (inference)",
+  "input_statement_ids": [
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f",
+    "11914511-b067-55d3-b8cc-094311021d08",
+    "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136"
+  ],
+  "output_statement_id": "7bce7007-ad29-5f5b-b4b3-e7b02bf98312",
+  "rule": "Verified theorem reuse, witness elimination and existential introduction; finite omission interpretations",
+  "meaning": "Reuse eachDirected, pick an observed natural body, apply the reduction and directing-as-moving bridges. No global uniqueness or common-director conclusion is required. Every retained premise has an omission countermodel; the deduction establishes no premise truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
