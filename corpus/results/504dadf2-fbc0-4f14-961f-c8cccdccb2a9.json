@@ -1,0 +1,11 @@
+{
+  "id": "504dadf2-fbc0-4f14-961f-c8cccdccb2a9",
+  "label": "Temporal everlasting consumer verified",
+  "argument_id": "fbd0011a-80ca-4401-9bbd-883cc276311e",
+  "challenge_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalCoverageEternity.consumer",
+  "comparator_config": "results/504dadf2-fbc0-4f14-961f-c8cccdccb2a9/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional support interface for STMT-GOD-IS-ETERNAL; no root discharge. Conditions remain quantified inside Consumer: connected coverage, Interminable, a living anchor and LivesAt-to-IsAt for the same being/world. EverlastingAt is not BoethianRecognition; see docs/notes/eternity-definition-fork.md."
+}

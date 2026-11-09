@@ -141,6 +141,7 @@ public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
+public import TruthCore.Causality.TemporalCoverageEternity
 public import TruthCore.Causality.TemporalEventControls
 public import TruthCore.Causality.TemporalPrimaVia
 public import TruthCore.Causality.TermSenseForks

@@ -251,6 +251,7 @@ public import TruthCore.Results.Causality.TeleologyFirstMover.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Reciprocal.Solution
+public import TruthCore.Results.Causality.TemporalCoverageEternity.Solution
 public import TruthCore.Results.Causality.TemporalEventControls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Controls.Solution
 public import TruthCore.Results.Causality.TemporalPrimaVia.Route.Solution
