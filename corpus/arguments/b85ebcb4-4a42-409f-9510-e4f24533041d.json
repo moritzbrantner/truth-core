@@ -10,5 +10,27 @@
   "definition_ids": [
     "0d2eb15b-b7df-42dd-baa2-e855f6476315",
     "63beb159-2c53-434b-8241-f1d9ffcaec42"
+  ],
+  "term_senses": {
+    "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD": "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae"
+  },
+  "sense_bridges": [
+    {
+      "term": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD",
+      "from": "def3843e-a649-4228-a7c5-e850bdc92925",
+      "to": "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae",
+      "statement_id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+      "role": "conclusion"
+    },
+    {
+      "term": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD",
+      "from": "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae",
+      "to": "def3843e-a649-4228-a7c5-e850bdc92925",
+      "statement_id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "18495e19-0770-5154-8a92-6da075222bc7"
   ]
 }
