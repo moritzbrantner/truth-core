@@ -1,6 +1,6 @@
 {
   "id": "63beb159-2c53-434b-8241-f1d9ffcaec42",
-  "label": "A2 guarded accessible causal exercise",
+  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_6: A2 guarded accessible causal exercise",
   "term": "A2 guarded accessible causal exercise",
   "definition": "At standpoint w, x exists and at some accessible v the same x and y both exist and x causes y. Outgoing capability is an existential y; cause-or-effect capability includes incoming edges of this same guarded relation. Incoming candidates exist at the witness, but are not required to exist at the standpoint. This asymmetry is a selected analyst profile, not a source attribution.",
   "basis": "stipulative",

@@ -1,11 +1,14 @@
 [batch]
 vocab = "TruthCore.Causality.SurveyCapabilityProfiles"
 results = "TruthCore.Results.Causality.SurveyCapabilityProfiles"
+disambiguations = ["18495e19-0770-5154-8a92-6da075222bc7"]
 definitions = ["63beb159-2c53-434b-8241-f1d9ffcaec42", "0d2eb15b-b7df-42dd-baa2-e855f6476315"]
 
 [[statement]]
 id = "A2 capability profile comparisons and omission controls"
 lean = "Certificate"
+definitions = ["63beb159-2c53-434b-8241-f1d9ffcaec42", "0d2eb15b-b7df-42dd-baa2-e855f6476315"]
+disambiguations = ["18495e19-0770-5154-8a92-6da075222bc7"]
 paraphrase = "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged."
 
 [[argument]]
@@ -16,3 +19,9 @@ premises = []
 conclusion = "A2 capability profile comparisons and omission controls"
 rule = "Explicit witnesses, domain inclusion, coverage remainder and bridge omission controls"
 meaning = "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged."
+
+senses = { SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD = "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae" }
+sense_bridges = [
+  { term = "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD", from = "def3843e-a649-4228-a7c5-e850bdc92925", to = "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae", statement_id = "A2 capability profile comparisons and omission controls", role = "conclusion" },
+  { term = "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD", from = "4a97e16c-5f39-44b2-ad19-5a56a8e6d3ae", to = "def3843e-a649-4228-a7c5-e850bdc92925", statement_id = "A2 capability profile comparisons and omission controls", role = "conclusion" },
+]
