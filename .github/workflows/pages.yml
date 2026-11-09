@@ -23,9 +23,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
       - name: Setup Bun
-        uses: oven-sh/setup-bun@0c5077e51419868618aeaa5fe8019c62421857d6 # v2
+        uses: ./.github/actions/release-setup
         with:
-          bun-version: latest
+          tool: bun
+          save: "true"
       - name: Configure Pages
         uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6
       # Pages is a separate workflow, so produce its own current-input report.
@@ -34,12 +35,7 @@ jobs:
         with:
           go-version: stable
       - uses: dtolnay/rust-toolchain@b725eda525362e7cf34af9a7243cac1e3f01a7ec # stable
-      - uses: leanprover/lean-action@ba3fdfe5c4476c925da13bf11a005ddb47e47aee # v1
-        with:
-          auto-config: false
-          build: false
-          test: false
-          use-mathlib-cache: true
+      - uses: ./.github/actions/lean-setup
       - name: Resolve Lean version
         id: lean
         run: echo "version=$(lean --version | head -n 1 | tr -cs '[:alnum:].' '_')" >> "$GITHUB_OUTPUT"
