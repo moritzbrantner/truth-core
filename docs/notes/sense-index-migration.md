@@ -1978,3 +1978,32 @@ and conclusion, even with `σ.IsGod g` elsewhere in the theorem type. The
 classical instantiation passes. The existing checker therefore needs activation,
 not another predicate-checking mechanism. Broader #1233 coverage, including
 statement-level sense declarations and other root families, remains open.
+
+### GOD_4 adopted Fourth-Way root consumers (#1233)
+
+The bounded family is
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY`
+(argument `c1834d8b-eef3-569f-94ad-045e797870d2`) and
+`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY`
+(argument `7217cf65-f05f-56bf-a1e1-2f9f36b27d0b`). Both now select existing GOD_4
+`52c2ebac-0a71-4dd4-8a21-804c1dd0847a`.
+
+Claim/type self-sweep: their unchanged Solution types use
+`GodNamesTheFullyDescribedPrinciple ... σ.IsGod` in `hFull`,
+`GodIsMaximalInBeing σ.IsGod ...` in `hMaximal`, and `ClassicalAttributesSuffice σ`
+with `IsTheOneGod σ.IsGod` in `hSuffice`; the conclusion is `CatholicismTrue σ`.
+The adopted potency parameter remains uniform in priority, immutability and
+eternity. These are specializations of the existing generic Fourth-Way root
+compositions, retaining all naming, attribute, revelation and historical
+obligations. Selecting GOD_4 supplies no bridge and discharges no premise.
+No generic statement needs a scope correction in this family. Proofs,
+Challenges, statements, definitions, labels and UUID identities are unchanged.
+
+The existing real Lean wrong-predicate control remains the regression oracle:
+it checks the same head with `σ.IsGod` versus `fun _ => True`, including an
+unrelated classical occurrence, and requires rejection at both bound positions.
+The maxime-ens root consumers remain outside this slice: their independent
+Summa `God` predicate and skeleton `σ.IsGod` require a separate per-statement
+scope audit. The Q11 correction and the other owned activation families are
+also excluded. Premise delta is computed by `corpus.py frontier-diff --base
+origin/main`; this metadata activation expects no change.
