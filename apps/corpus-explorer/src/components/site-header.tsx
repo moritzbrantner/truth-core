@@ -4,6 +4,7 @@ import { ThemeSwitcher } from "@/components/theme-switcher";
 import { DEFAULT_ROOT_STATEMENT_ID } from "@/lib/proposition-graph";
 
 const links = [
+  { href: "/progress", label: "Progress" },
   { href: "/", label: "Frontier" },
   { href: "/forest", label: "Forest" },
   { href: "/guide/classical-god", label: "Guide" },

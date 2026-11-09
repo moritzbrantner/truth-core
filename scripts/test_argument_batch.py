@@ -92,6 +92,7 @@ class SenseForkGenerationTest(unittest.TestCase):
             senses = [str(uuid.uuid4()), str(uuid.uuid4())]
             for kind, records in {
                 "statements": [{"id": statement_id, "label": "A test proposition", "paraphrase": "A"}],
+                "definitions": [{"id": "e0b74ad0-25a4-4ce0-b739-7a99ba4c771c", "label": "Test sense", "term": "test"}],
                 "disambiguations": [{"id": str(uuid.uuid4()), "term_label": "PRIOR", "senses": [
                     {"id": sid, "label": f"PRIOR_{n}"} for n, sid in enumerate(senses, 1)]}],
             }.items():
@@ -101,6 +102,7 @@ class SenseForkGenerationTest(unittest.TestCase):
             spec = {
                 "batch": {"vocab": "TruthCore.Test", "results": "TruthCore.Results.Test"},
                 "argument": [{"label": "Priority consequence", "rule": "identity", "meaning": "A implies A",
+                    "research_comparisons": [{"target_statement_id": "A test proposition", "rival_statement_id": "A test proposition", "sense_definition_id": "Test sense", "outcome": "untested", "conditions": "test", "scope": "test", "coverage": "unknown", "exclusivity": "unknown", "next_step": "test"}],
                     "for_each_sense": {"term": "PRIOR", "senses": ["PRIOR_1", "PRIOR_2"]},
                     "cases": {f"PRIOR_{n}": {"theorem": f"case{n}", "premises": [statement_id],
                                                "conclusion": statement_id} for n in (1, 2)}}],
@@ -110,6 +112,9 @@ class SenseForkGenerationTest(unittest.TestCase):
                 records = [json.loads(p.read_text()) for p in (corpus / "arguments").glob("*.json")]
                 self.assertEqual({r["term_senses"]["PRIOR"] for r in records}, set(senses))
                 self.assertEqual(len({r["id"] for r in records}), 2)
+                result = json.loads(next((corpus / "results").glob("*.json")).read_text())
+                self.assertEqual(result["research_comparisons"][0]["target_statement_id"], statement_id)
+                self.assertEqual(result["research_comparisons"][0]["sense_definition_id"], "e0b74ad0-25a4-4ce0-b739-7a99ba4c771c")
                 self.assertEqual(argument_batch.build_records(spec, False), [])
 
 

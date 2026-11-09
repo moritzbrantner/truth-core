@@ -459,6 +459,7 @@ class ExplorerInputsTest(unittest.TestCase):
             "apps/corpus-explorer/tests/graph-buckets.browser.test.ts",
             "bun.lock",
             "scripts/premise_dossiers.py",
+            "scripts/research_comparisons.py",
             "scripts/bundle_audit.py",
             "scripts/expression_contracts.py",
             "scripts/contracts/classical-attributes.json",

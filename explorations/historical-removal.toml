@@ -1,0 +1,11 @@
+target = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+[[node]]
+id = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+[[node]]
+id = "Historical removal configuration comparison"
+[[edge]]
+premises = ["Historical removal configuration comparison"]
+conclusion = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: removal semantics does not establish accessibility of MovesAsMoved. A bridge to that exact relation and an independent no-regress argument remain necessary."
