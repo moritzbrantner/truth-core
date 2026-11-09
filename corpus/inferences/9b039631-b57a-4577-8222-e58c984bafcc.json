@@ -1,0 +1,12 @@
+{
+  "id": "9b039631-b57a-4577-8222-e58c984bafcc",
+  "label": "Global excluded middle projects to classical attributes local logic (inference)",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "output_statement_id": "ca432e24-7f91-4c98-bb66-f700171ddbe8",
+  "rule": "Specialization of excluded middle",
+  "meaning": "Sole-premise projection; no strictness or converse is claimed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

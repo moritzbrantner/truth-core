@@ -1,0 +1,15 @@
+{
+  "id": "feefb6f9-c4df-4c1d-ab9b-c2953961c75d",
+  "label": "Global excluded middle projects to classical attributes local logic",
+  "premise_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+  ],
+  "conclusion_statement_id": "ca432e24-7f91-4c98-bb66-f700171ddbe8",
+  "inference_ids": [
+    "9b039631-b57a-4577-8222-e58c984bafcc"
+  ],
+  "meaning": "Sole-premise projection; no strictness or converse is claimed.",
+  "definition_ids": [
+    "d8e2ed12-8089-5202-ae51-e807cf611c76"
+  ]
+}

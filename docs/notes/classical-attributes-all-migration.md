@@ -570,3 +570,55 @@ incoming-free selected root is not declared absolutely explanation-free.
 These interface limits are now explicit in the existing relative-grounding
 definition and O attempt. No proof type, relation, premise truth or frontier
 count is changed by the clarification.
+
+
+## Actual-bearer local logic (2026-11-09)
+
+The new `ClassicalAttributesLocalLogic` proof audits the exact nineteen-input
+assembly, independently of #1276's original-bundle certificate equivalence.
+No pending module is imported. The original Challenge and registry policy remain
+unchanged. `GodIsOne`/`AtMostOneMaximeEns` test being equality; `GodIsPerfect`
+tests `x = g`; `GodIsInfinite` tests `esseOf g = essenceOf g`. No other helper
+requires global EM.
+
+The sibling Lean theorem retains all eighteen nonlogical inputs and replaces
+EM with the transparent predicate
+`∀ g, IsGod g → (∀ x r, InAct x r → x = g ∨ x ≠ g) ∧
+(¬¬ (esseOf g = essenceOf g) → esseOf g = essenceOf g)`.
+Perfection only compares an actual perfection bearer against a God candidate;
+uniqueness uses the candidate's actuality at esse. Simplicity supplies double
+negation of esse identity, so only that equality's stability is needed there.
+`globalToLocal` has global EM as its sole premise. This is a sufficient scoped
+fragment, not a claim of absolute weakestness, strict separation, or an EM
+omission theorem. Unit controls inhabit the exact local fragment and all
+seventeen nonsufficiency inputs with both values of the primitive attributes
+field. They witness the sufficiency omission, not necessity of local logic.
+The causal/priority conditions in this Unit interpretation can be vacuous;
+there is a God and actual being, but no empirical interpretation is certified.
+
+**Registration blocker:** generating the same-conclusion argument from the old
+premise IDs fails the new-argument sense gate: maximality senses 1/6 and potency
+senses 1/2 are inherited from that legacy bundle. The original argument is
+allowlisted; a fresh sibling is not. No premise actually supplies the missing
+semantic bridges. Do not label an unrelated premise as a bridge to pass this
+gate. The consequence theorem is therefore checked Lean research, deliberately
+not a registered support route; only the sole-premise EM projection and model
+controls are registered. The exploration map retains the intended root edge as
+mapped. Next: migrate those exact legacy premise bindings or explicitly derive
+appropriate typed bridges, then register the unchanged local consequence.
+Shared sense metadata and allowlists were outside this slice's ownership.
+This work makes no registry-floor approval and discharges no truth obligation.
+
+
+The unregistered consequence has a frozen sibling Challenge and a zero-axiom
+Comparator/NanoDa configuration at
+`TruthCore/Results/Case/Catholicism/StageTwo/ClassicalAttributesLocalLogic/consequence-comparator.json`.
+It can be checked with `worker_env.py -- lake env` running the configured
+verifier's `truth-core-comparator` on that configuration (set the existing
+`COMPARATOR_LEAN4EXPORT`, `COMPARATOR_LANDRUN`, `COMPARATOR_NANODA` paths).
+The registered projection and controls use the ordinary `verify-result.sh`
+commands for results `173653fe-4e66-4959-9dac-b5dabb6d5948` and
+`eef069bb-db3c-49d8-a7c6-e8f6166476a6`. Convention sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`. The #1276 evidence inspected
+was head `e0014421823ab2291171c371f01a7661f410bacd`; its certificate/EM
+equivalence does not imply that this weaker consequence needs global EM.
