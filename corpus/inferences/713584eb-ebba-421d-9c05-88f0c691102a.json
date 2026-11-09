@@ -1,0 +1,10 @@
+{
+  "id": "713584eb-ebba-421d-9c05-88f0c691102a",
+  "label": "One permitted anchor is definable across Unit and Bool (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f491553a-557e-484e-b846-2d11199c83f1",
+  "rule": "Explicit syntax witness and correspondence case analysis",
+  "meaning": "One formula, equality to the sole permitted anchor, defines its singleton on both Unit and Bool with constantly false marker interpretation. This is a nonempty genuinely varying-carrier profile, not a physical calibration.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

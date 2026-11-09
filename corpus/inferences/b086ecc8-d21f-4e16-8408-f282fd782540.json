@@ -1,0 +1,10 @@
+{
+  "id": "b086ecc8-d21f-4e16-8408-f282fd782540",
+  "label": "Scoped calibration and procedure separation controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "6180ce3c-6e36-4b58-83d6-f1d8b20c2f01",
+  "rule": "constructive proof and finite omission controls",
+  "meaning": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

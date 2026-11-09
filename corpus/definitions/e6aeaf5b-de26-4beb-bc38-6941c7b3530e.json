@@ -1,0 +1,9 @@
+{
+  "id": "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+  "label": "Indexed full-domain definition and explicit correspondence",
+  "term": "indexed uniform definability",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.VaryingPathDefinability",
+  "definition": "For an indexed family D, interpretations on each full D i, permitted parameters, admitted indices and unary target family, require a nonempty admitted class and one formula chosen before every index. VaryingFirstOrderDefinability uses exactly the same profile with an FO witness. Corresponds c target requires target truth agreement for every explicitly c-related pair across indices; c is not implicit equality and totality, coverage and adequacy remain separate OPEN calibration obligations. Nat and Bool graph domains and Unit and Bool equality domains witness actual carrier variation. The fixed-carrier original Definability is exactly the constant-carrier FO specialization indexed by its interpretations. No inference from a fixed profile to all varying extensions is asserted.",
+  "note": "Analyst candidate; attribution deferred. OPEN: original special-vocabulary calibration; admissible graph relations and parameter policy for actual grounds; target/correspondence adequacy; occurrence/property-to-bearer bridge. No original sense completed or allowance removed. See specs/physical-ground-path-specification.toml and the existing physical-ground-specification-declaration attempt."
+}

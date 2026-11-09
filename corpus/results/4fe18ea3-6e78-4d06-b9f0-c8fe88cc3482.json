@@ -1,0 +1,11 @@
+{
+  "id": "4fe18ea3-6e78-4d06-b9f0-c8fe88cc3482",
+  "label": "A2 actual source endpoint obstruction certificate",
+  "argument_id": "b87c40a7-e835-42ab-97b2-887674c0beb5",
+  "challenge_module": "TruthCore.Results.Causality.SurveySourceEndpointControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveySourceEndpointControls.Solution",
+  "theorem": "TruthCore.Results.Causality.SurveySourceEndpointControls.endpointObstruction",
+  "comparator_config": "results/4fe18ea3-6e78-4d06-b9f0-c8fe88cc3482/comparator.json",
+  "status": "solution-present",
+  "description": "The only individual exists in the only world, making contingency impossible and local causality vacuous. Its empty full ancestor graph fails headless coverage. It is a necessary isolated source but satisfies no concreteness predicate and has no outgoing actual edge. Thus even the original nonlogical source-composition inputs jointly do not calibrate sourcehood to the exact necessary-concrete root-route node. No capability-to-exercise direction or original sense completion is asserted."
+}
