@@ -1,0 +1,10 @@
+{
+  "id": "e173e1b5-cf31-4d2e-bb8b-59b3bd5c96b7",
+  "label": "Whole-series adequacy policy scope and tied-order certificates, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "dd4dfa3b-1bf0-4125-a27b-069cb1110893",
+  "rule": "List induction and explicit extensional full-fact model",
+  "meaning": "Prove uniqueness, decidable existence and predicate transport by list induction; instantiate an original ReasonGuidedWholeExercise on a fully extensional fact domain. All actual and necessary bearer evidence, option truth valuation and accessible omission are explicit. Uniform scopes quantify over every world, bearer, reason-content and recorded choice and do not imply nonempty choice. Same-input stability needs TWO selections. Agenda calibration and explanatory authority are not inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

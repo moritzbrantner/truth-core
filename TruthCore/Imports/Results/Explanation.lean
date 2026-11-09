@@ -63,3 +63,4 @@ public import TruthCore.Results.Explanation.TruthmakerTheories.TruthSets.Solutio
 public import TruthCore.Results.Explanation.UltimateAdequacy.Solution
 public import TruthCore.Results.Explanation.WeakAccountNecessaryBeing.Solution
 public import TruthCore.Results.Explanation.WellFoundedSource.Solution
+public import TruthCore.Results.Explanation.WholeSeriesChoicePolicies.Solution
