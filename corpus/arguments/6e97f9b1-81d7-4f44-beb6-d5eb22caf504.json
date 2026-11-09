@@ -1,0 +1,13 @@
+{
+  "id": "6e97f9b1-81d7-4f44-beb6-d5eb22caf504",
+  "label": "Historical removal comparison by response tables",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "475f19fe-e366-4438-9e48-451156b2a1f9",
+  "inference_ids": [
+    "2b1f97d5-09cd-48b4-aed1-a23d44392698"
+  ],
+  "meaning": "Boolean response cannot be both true and false on the same edge; explicit finite tables witness consistency without the dictionary and necessity of both removal constraints for this exclusion. The root no-regress premise remains open and needs a MovesAsMoved bridge plus independent accessibility warrant.",
+  "definition_ids": [
+    "fa814e6c-0274-4d2f-8a0d-a1b73ce38f79"
+  ]
+}

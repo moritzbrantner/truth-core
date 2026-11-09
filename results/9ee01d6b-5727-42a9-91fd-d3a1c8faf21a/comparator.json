@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.HistoricalRemoval.Challenge",
+  "solution_module": "TruthCore.Results.Causality.HistoricalRemoval.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.HistoricalRemoval.comparison"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
