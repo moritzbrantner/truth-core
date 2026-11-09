@@ -105,7 +105,7 @@ create parallel Lean sessions.
 | Request | Wraps |
 |---|---|
 | `GET /health` | toolchain and binding |
-| `GET /corpus/record?id=ID` | the `corpus/*/*.json` record with that `id` (statement, claim, argument, result, definition, …) |
+| `GET /corpus/record?id=ID` | the record resolved by `corpus_ids.Aliases` from a UUID, legacy alias or label (including case-insensitive label fallback); 404 if unknown, 400 if ambiguous or missing |
 | `GET /corpus/dossier?id=STMT-…` | `corpus.py dossier --json ID` |
 | `GET /corpus/frontier[?root=…&reaching_root=1&routes=1]` | `corpus.py frontier --json [--root] [--reaching-root]`, or the text `--routes` report |
 | `POST /corpus/check` | `corpus.py check` |

@@ -37,24 +37,10 @@ from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
+from corpus_ids import Aliases, AmbiguousId, DIR_OF_KIND, iter_records
+
 ROOT = Path(__file__).resolve().parent.parent
 HOST = "127.0.0.1"
-RECORD_DIRS = (
-    "statements",
-    "claims",
-    "arguments",
-    "inferences",
-    "results",
-    "definitions",
-    "disambiguations",
-    "passages",
-    "sources",
-    "relations",
-    "candidates",
-    "attempts",
-    "configurations",
-    "models",
-)
 ID_RE = re.compile(r"^[A-Za-z0-9][A-Za-z0-9._-]*$")
 OUTPUT_LIMIT = 200_000
 
@@ -138,18 +124,19 @@ def run_corpus(workspace: Path, args: list[str], timeout: float = 300) -> dict:
 
 
 def find_record(workspace: Path, record_id: str) -> dict:
-    corpus = workspace / "corpus"
-    for kind in RECORD_DIRS:
-        for path in sorted((corpus / kind).glob("*.json")):
-            text = path.read_text(encoding="utf-8")
-            if f'"{record_id}"' not in text:
-                continue
-            record = json.loads(text)
-            if isinstance(record, dict) and record.get("id") == record_id:
+    records = list(iter_records(workspace))
+    aliases = Aliases((kind, record) for kind, _, record in records)
+    try:
+        canonical_id = aliases.resolve(record_id)
+    except AmbiguousId as error:
+        raise RequestError(400, str(error)) from error
+    if canonical_id is not None:
+        for kind, path, record in records:
+            if record.get("id") == canonical_id:
                 return {
-                    "kind": kind,
+                    "kind": DIR_OF_KIND[kind],
                     "path": str(path.relative_to(workspace)),
-                    "file_sha256": sha256(text),
+                    "file_sha256": sha256(path.read_bytes()),
                     "record": record,
                 }
     raise RequestError(404, f"no corpus record with id {record_id}")
@@ -455,7 +442,10 @@ class Service:
         if method == "GET" and route == "/health":
             return {"status": "ok", "toolchain": self.toolchain, "lean_command": self.lean.command}
         if method == "GET" and route == "/corpus/record":
-            inputs["id"] = check_id(params.get("id"), "id")
+            token = params.get("id")
+            if not isinstance(token, str) or not token.strip():
+                raise RequestError(400, "missing or malformed id")
+            inputs["id"] = token
             found = find_record(workspace, inputs["id"])
             inputs["file_sha256"] = found["file_sha256"]
             return found
