@@ -116,6 +116,10 @@ create parallel Lean sessions.
 | `POST /jobs {kind: build, targets?}` / `{kind: bind-check}` / `{kind: verify-result, result_id}` | queue the job; returns its `id` |
 | `GET /jobs/ID` | status (`queued`, `running`, `passed`, `failed`), queue position, return code, output tail, bindings |
 
+Record lookup parses and hashes the same captured file bytes. If the selected
+record's ID, legacy alias or label changed since alias resolution, it returns
+409 with a retry message. This is a selected-record check, not a workspace snapshot.
+
 `content` is the full file text to elaborate in memory without writing it to
 disk; omit it to elaborate the file on disk. Repeated edits send the new full
 text; the session reuses loaded imports, so only the edited file re-elaborates.

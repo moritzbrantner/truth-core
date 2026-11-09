@@ -133,11 +133,20 @@ def find_record(workspace: Path, record_id: str) -> dict:
     if canonical_id is not None:
         for kind, path, record in records:
             if record.get("id") == canonical_id:
+                captured = path.read_bytes()
+                data = json.loads(captured)
+                candidates = data.get("passages", []) if kind == "passage" else [data]
+                current = next((item for item in candidates
+                                if isinstance(item, dict) and item.get("id") == canonical_id), None)
+                # Reject identity edits rather than bind an alias resolved from stale data.
+                if current is None or any(current.get(key) != record.get(key)
+                                          for key in ("id", "legacy_id", "label")):
+                    raise RequestError(409, "record identity changed during lookup; retry the request")
                 return {
                     "kind": DIR_OF_KIND[kind],
                     "path": str(path.relative_to(workspace)),
-                    "file_sha256": sha256(path.read_bytes()),
-                    "record": record,
+                    "file_sha256": sha256(captured),
+                    "record": current,
                 }
     raise RequestError(404, f"no corpus record with id {record_id}")
 

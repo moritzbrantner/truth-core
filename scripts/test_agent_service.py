@@ -107,6 +107,41 @@ class AgentServiceTest(unittest.TestCase):
         self.assertEqual(body["result"]["kind"], "passages")
         self.assertEqual(body["result"]["file_sha256"], agent_service.sha256(path.read_bytes()))
 
+    def test_record_edit_between_index_and_read_binds_captured_bytes(self) -> None:
+        path = self.workspace / "corpus" / "statements" / "fixture.json"
+        updated = {**STATEMENT, "paraphrase": "Edited after indexing."}
+        captured = (json.dumps(updated, indent=2) + "\n").encode()
+        original = agent_service.iter_records
+
+        def edit_after_index(workspace):
+            yield from original(workspace)
+            path.write_bytes(captured)
+
+        with mock.patch.object(agent_service, "iter_records", edit_after_index):
+            status, body = self.call("/corpus/record?id=STMT-FIXTURE")
+        self.assertEqual(status, 200)
+        self.assertEqual(body["result"]["record"], json.loads(captured))
+        expected_hash = agent_service.sha256(captured)
+        self.assertEqual(body["result"]["file_sha256"], expected_hash)
+        self.assertEqual(body["binding"]["inputs"]["file_sha256"], expected_hash)
+
+    def test_record_identity_edit_between_index_and_read_is_rejected(self) -> None:
+        path = self.workspace / "corpus" / "statements" / "fixture.json"
+        original = agent_service.iter_records
+        for field in ("id", "legacy_id", "label"):
+            with self.subTest(field=field):
+                path.write_text(json.dumps(STATEMENT), encoding="utf-8")
+
+                def edit_after_index(workspace):
+                    yield from original(workspace)
+                    path.write_text(json.dumps({**STATEMENT, field: "Changed"}), encoding="utf-8")
+
+                with mock.patch.object(agent_service, "iter_records", edit_after_index):
+                    status, body = self.call("/corpus/record?id=STMT-FIXTURE")
+                self.assertEqual(status, 409)
+                self.assertIn("identity changed", body["error"])
+                self.assertNotIn("binding", body)
+
     def test_record_workspace_isolation_and_read_only(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
             other = Path(tmp).resolve()
