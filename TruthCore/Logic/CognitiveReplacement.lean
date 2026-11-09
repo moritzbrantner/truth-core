@@ -1,5 +1,7 @@
 module
 
+public import TruthCore.Case.Catholicism.Root
+
 /-! Analyst formulation, attribution deferred. Shared necessary conditions for
 completed cognitive replacement. This is deliberately not the binding of
 CORRECTION_2: same-matter and cross-matter replacement remain distinct options.
@@ -173,6 +175,68 @@ example (B : Bool → Bool → Prop) (C : Bool → Bool → Prop) :
     ¬ SameMatterRevision B (fun _ : Bool => ())
       (fun (_ : Unit) (j t : Bool) => j = true ∨ t = false)
       C () false true false true := by
+  simp [SameMatterRevision, ReplacementConditions]
+
+/-- Both scopes retain the exact inherited endpoint core. Same-matter revision
+supplies distinct judgments; cross-matter replacement retains its primitive act. -/
+example {S J M T : Type} (B : T → T → Prop) (m : J → M)
+    (E : S → J → T → Prop) (C : J → T → Prop)
+    (R : S → J → J → Prop) (s : S) (j k : J) (t u : T) :
+    (SameMatterRevision B m E C s j k t u →
+      ReplacementConditions B E C (fun _ a b => a ≠ b) s j k t u) ∧
+    (CrossMatterReplacement B m E C R s j k t u →
+      ReplacementConditions B E C R s j k t u) :=
+  ⟨fun h => h.2.2, fun h => h.2.2⟩
+
+/-- A stronger conditional act profile (every cross-matter endpoint transition
+is undertaken as replacement) suffices for the primitive act conjunct. It is
+an extra assumption, not an analysis inferred from temporal endpoints. -/
+example {S J M T : Type} (B : T → T → Prop) (m : J → M)
+    (E : S → J → T → Prop) (C : J → T → Prop)
+    (R : S → J → J → Prop)
+    (undertaken : ∀ s j k t u, m j ≠ m k →
+      ReplacementConditions B E C (fun _ _ _ => True) s j k t u → R s j k)
+    (s : S) (j k : J) (t u : T) (different : m j ≠ m k)
+    (adoption : ¬ E s k t)
+    (h : ReplacementConditions B E C (fun _ _ _ => True) s j k t u) :
+    CrossMatterReplacement B m E C R s j k t u := by
+  exact ⟨different, adoption, h.1, undertaken s j k t u different h, h.2.2⟩
+
+/-- Root-route test: correct-after yields the particular proposition only with
+an explicit calibration from the supplied judgment norm to that proposition.
+The same test works for either sibling through the inherited core. -/
+example {S J T : Type} (B : T → T → Prop)
+    (E : S → J → T → Prop) (C : J → T → Prop)
+    (R : S → J → J → Prop) (s : S) (j k : J) (t u : T)
+    (p : Prop) (h : ReplacementConditions B E C R s j k t u)
+    (calibration : C k u → p) : p :=
+  calibration h.2.2.2.2.2.2
+
+/-- Strong universal profile for the named root-route step: for EVERY revealed
+proposal, an actual correction endpoint representing that proposition plus
+truth calibration suffices. One correction cannot supply this universal
+coverage. God, attributes and founding hypotheses stay exactly those of Root. -/
+example (σ : TruthCore.Case.Catholicism.Signature)
+    {S J T : Type} (B : T → T → Prop)
+    (E : S → J → T → Prop) (C : J → T → Prop)
+    (R : S → J → J → Prop) (Represents : J → Prop → Prop)
+    (coverage : ∀ g c, σ.IsGod g → σ.HasClassicalAttributes g →
+      σ.FoundedAsTeachingAuthority g c → ∀ p,
+      σ.DefinitivelyProposesAsRevealed c p →
+      ∃ s j k t u, Represents k p ∧ ReplacementConditions B E C R s j k t u)
+    (calibration : ∀ k u p, Represents k p → C k u → p) :
+    TruthCore.Case.Catholicism.BridgeGodFoundedAuthorityProposesOnlyTruth σ := by
+  intro g c god attributes founded p proposed
+  obtain ⟨s, j, k, t, u, represents, h⟩ :=
+    coverage g c god attributes founded p proposed
+  exact calibration k u p represents h.2.2.2.2.2.2
+
+/-- Even a nonvacuous same-matter revision can coexist with a false target
+proposition: supplied correctness does not by itself calibrate truth. -/
+example : SameMatterRevision
+    (fun t u : Bool => t = false ∧ u = true) (fun _ : Bool => ())
+    (fun (_ : Unit) (j t : Bool) => j = t)
+    (fun j _ => j = true) () false true false true ∧ ¬ False := by
   simp [SameMatterRevision, ReplacementConditions]
 
 end TruthCore.Logic.CognitiveReplacement
