@@ -26,7 +26,8 @@
     {
       "id": "c965da23-32fe-49e2-b53e-0a168dff6dfa",
       "label": "EXTERNAL_WHOLE_CAUSE_VERSUS_OUTSIDE_CONTINGENTS_3",
-      "definition_id": "e6d66357-8f22-5a2c-bd96-6ccc68ce0063"
+      "definition_id": "e6d66357-8f22-5a2c-bd96-6ccc68ce0063",
+      "lean_declaration": "TruthCore.Causality.SurveyExternalCause.ExternalCause"
     }
   ]
 }
