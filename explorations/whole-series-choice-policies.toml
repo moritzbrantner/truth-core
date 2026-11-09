@@ -3,8 +3,6 @@ target = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
 id = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
 [[node]]
 id = "Whole-series adequacy policy scope and tied-order certificates"
-new = true
-text = "Exact scanning existence, uniqueness, fixed-input stability and stronger-to-weaker policies with full-fact tied-order controls."
 [[edge]]
 premises = ["Whole-series adequacy policy scope and tied-order certificates"]
 conclusion = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
