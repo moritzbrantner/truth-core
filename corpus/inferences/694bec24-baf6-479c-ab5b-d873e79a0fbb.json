@@ -1,0 +1,13 @@
+{
+  "id": "694bec24-baf6-479c-ab5b-d873e79a0fbb",
+  "label": "Possession-sensitive capacity from calibration and availability (inference)",
+  "input_statement_ids": [
+    "8ebbc2ba-5ceb-418f-8970-962936e383db",
+    "0a8c56f8-ffe3-4fdb-9efc-8b108d601762"
+  ],
+  "output_statement_id": "ae0e6c36-e279-4a46-be5e-5ff323a3399a",
+  "rule": "Construct the acquisition or retention witness by cases on possession",
+  "meaning": "Analyst finite pragmatic consequence: attraction and feasibility of the appropriate response yield oriented capacity through the defined action/end and possession semantics. Representation alone supplies neither premise; no will recognition or normative truth follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

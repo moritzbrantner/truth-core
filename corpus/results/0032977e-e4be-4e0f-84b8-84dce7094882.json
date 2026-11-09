@@ -1,0 +1,11 @@
+{
+  "id": "0032977e-e4be-4e0f-84b8-84dce7094882",
+  "label": "Possession-sensitive capacity from calibration and availability",
+  "argument_id": "e883d525-7049-4434-b147-2c7d1488b87e",
+  "challenge_module": "TruthCore.Results.Causality.PossessionSensitiveAppetite.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution",
+  "theorem": "TruthCore.Results.Causality.PossessionSensitiveAppetite.capacity",
+  "comparator_config": "results/0032977e-e4be-4e0f-84b8-84dce7094882/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst finite pragmatic consequence: attraction and feasibility of the appropriate response yield oriented capacity through the defined action/end and possession semantics. Representation alone supplies neither premise; no will recognition or normative truth follows."
+}

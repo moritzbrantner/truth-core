@@ -1,0 +1,10 @@
+{
+  "id": "e489770f-1ed7-4b3c-b1ea-bcf458bf905d",
+  "label": "Possession-sensitive appetite populated omissions (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c8634edc-dc58-41c6-8f04-30762a0c3e8f",
+  "rule": "Finite exhaustive evaluation",
+  "meaning": "Nonvacuity and carrying-premise omissions with all possession-state representation antecedents populated. Availability alone allows a cognitive-only profile, and calibration alone allows an unavailable response. These are finite pragmatic models only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

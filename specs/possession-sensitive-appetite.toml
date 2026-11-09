@@ -1,0 +1,34 @@
+[batch]
+vocab = "TruthCore.Causality.PossessionSensitiveAppetite"
+results = "TruthCore.Results.Causality.PossessionSensitiveAppetite"
+
+[[statement]]
+id = "Local appetitive calibration"
+lean = "Calibration"
+paraphrase = "OPEN analyst profile input: only at represented-good possession states, the appropriate acquisition or retention action has strictly greater primitive attraction rank than ignoring the end. No objective normative truth or unique optimum."
+[[statement]]
+id = "Local response availability"
+lean = "Availability"
+paraphrase = "OPEN analyst profile input: at each represented-good possession state, the possession-appropriate acquisition or retention action is feasible. No actual exercise."
+[[statement]]
+id = "Possession-sensitive capacity"
+lean = "Capacity"
+paraphrase = "In the finite one-end pragmatic interpretation, at every represented-good possession state some feasible action outranks ignoring, serves that possession state and yields possession. An ability witness, not current output, universal intellect or HasWill."
+[[statement]]
+id = "Possession-sensitive appetite controls"
+lean = "Controls"
+paraphrase = "Populated finite profiles with identical representation of a good both absent and possessed: responsive satisfies both premises and capacity; cognitive-only omits calibration; unavailable omits availability. Each omission fails capacity. No metaphysical possibility claim."
+[[argument]]
+id = "Possession-sensitive capacity from calibration and availability"
+theorem = "capacity"
+premises = ["Local appetitive calibration", "Local response availability"]
+conclusion = "Possession-sensitive capacity"
+rule = "Construct the acquisition or retention witness by cases on possession"
+meaning = "Analyst finite pragmatic consequence: attraction and feasibility of the appropriate response yield oriented capacity through the defined action/end and possession semantics. Representation alone supplies neither premise; no will recognition or normative truth follows."
+[[argument]]
+id = "Possession-sensitive appetite populated omissions"
+theorem = "controls"
+premises = []
+conclusion = "Possession-sensitive appetite controls"
+rule = "Finite exhaustive evaluation"
+meaning = "Nonvacuity and carrying-premise omissions with all possession-state representation antecedents populated. Availability alone allows a cognitive-only profile, and calibration alone allows an unavailable response. These are finite pragmatic models only."

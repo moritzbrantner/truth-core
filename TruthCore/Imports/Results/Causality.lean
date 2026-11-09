@@ -194,6 +194,7 @@ public import TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solut
 public import TruthCore.Results.Causality.PerfectionOfBeing.Solution
 public import TruthCore.Results.Causality.PerfectionPreexistence.Solution
 public import TruthCore.Results.Causality.PluralRootConfluence.Solution
+public import TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 public import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 public import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
