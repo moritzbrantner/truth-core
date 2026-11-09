@@ -1,0 +1,11 @@
+{
+  "id": "38452bf9-49ee-4b85-b073-716ac9dc003c",
+  "label": "Temporal comparison path life transport verified",
+  "argument_id": "a18e2ce2-dc4f-4f83-b4ec-a167f2245af8",
+  "challenge_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalCoverageEternity.transport",
+  "comparator_config": "results/38452bf9-49ee-4b85-b073-716ac9dc003c/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription conditional transport: the coverage contains only comparison paths, not the desired life/existence conclusion. Interminable constrains edge endpoints, and induction transports life. No premise truth, source attribution, full temporal ontology or timeless possession is established."
+}

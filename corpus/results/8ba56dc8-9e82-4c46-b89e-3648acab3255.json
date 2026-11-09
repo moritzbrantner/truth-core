@@ -1,0 +1,11 @@
+{
+  "id": "8ba56dc8-9e82-4c46-b89e-3648acab3255",
+  "label": "Temporal coverage omission controls verified",
+  "argument_id": "8d5bfab2-715a-47f5-ba1c-e356bfd24435",
+  "challenge_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.TemporalCoverageEternity.Solution",
+  "theorem": "TruthCore.Results.Causality.TemporalCoverageEternity.controls",
+  "comparator_config": "results/8ba56dc8-9e82-4c46-b89e-3648acab3255/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity and carrying omissions for temporal transport only, not metaphysical possibility or a renewed immutability-alone investigation."
+}

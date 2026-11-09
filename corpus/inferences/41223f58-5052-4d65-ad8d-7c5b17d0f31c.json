@@ -1,0 +1,10 @@
+{
+  "id": "41223f58-5052-4d65-ad8d-7c5b17d0f31c",
+  "label": "Temporal coverage omission controls verified (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d6ed5240-94b5-4ec3-ac9f-3adc82dc2aa2",
+  "rule": "Explicit finite witnesses and boundary elimination",
+  "meaning": "Nonvacuity and carrying omissions for temporal transport only, not metaphysical possibility or a renewed immutability-alone investigation.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

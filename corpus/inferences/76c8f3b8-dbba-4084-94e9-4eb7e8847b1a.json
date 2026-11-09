@@ -1,0 +1,10 @@
+{
+  "id": "76c8f3b8-dbba-4084-94e9-4eb7e8847b1a",
+  "label": "Temporal comparison path life transport verified (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "571c465f-eb05-4dfa-bab1-90d0ec63134c",
+  "rule": "Classical elimination of boundary witness and induction on actual comparison paths",
+  "meaning": "Non-transcription conditional transport: the coverage contains only comparison paths, not the desired life/existence conclusion. Interminable constrains edge endpoints, and induction transports life. No premise truth, source attribution, full temporal ontology or timeless possession is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -2013,6 +2013,35 @@ nominal maxime-ens families also remain outside this slice. Existing legacy
 multi-sense navigation is not evidence of a semantic bridge. Broader #1233 remains
 open; this metadata activation has no premise change.
 
+### GOD_4 adopted Fourth-Way root consumers (#1233)
+
+The bounded family is
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY`
+(argument `c1834d8b-eef3-569f-94ad-045e797870d2`) and
+`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY`
+(argument `7217cf65-f05f-56bf-a1e1-2f9f36b27d0b`). Both now select existing GOD_4
+`52c2ebac-0a71-4dd4-8a21-804c1dd0847a`.
+
+Claim/type self-sweep: their unchanged Solution types use
+`GodNamesTheFullyDescribedPrinciple ... σ.IsGod` in `hFull`,
+`GodIsMaximalInBeing σ.IsGod ...` in `hMaximal`, and `ClassicalAttributesSuffice σ`
+with `IsTheOneGod σ.IsGod` in `hSuffice`; the conclusion is `CatholicismTrue σ`.
+The adopted potency parameter remains uniform in priority, immutability and
+eternity. These are specializations of the existing generic Fourth-Way root
+compositions, retaining all naming, attribute, revelation and historical
+obligations. Selecting GOD_4 supplies no bridge and discharges no premise.
+No generic statement needs a scope correction in this family. Proofs,
+Challenges, statements, definitions, labels and UUID identities are unchanged.
+
+The existing real Lean wrong-predicate control remains the regression oracle:
+it checks the same head with `σ.IsGod` versus `fun _ => True`, including an
+unrelated classical occurrence, and requires rejection at both bound positions.
+The maxime-ens root consumers remain outside this slice: their independent
+Summa `God` predicate and skeleton `σ.IsGod` require a separate per-statement
+scope audit. The Q11 correction and the other owned activation families are
+also excluded. Premise delta is computed by `corpus.py frontier-diff --base
+origin/main`; this metadata activation expects no change.
+
 
 
 ### Q11 uniqueness GOD_4 activation (#1233, #1285)
@@ -2083,3 +2112,9 @@ model evidence and term/label repairs. The Q11 scope correction and its reviewed
 statement pin still match the generic frozen injectivity type. The merged audit
 retains joint_premise_witness_569: that separate immutability witness supplies no
 individuation or uniqueness premise. No pending #1281 work is imported.
+
+Merge reconciliation (#1285, main 195674629): retained the landed adopted
+Fourth-Way section and both activations alongside all earlier migration sections.
+The Q11 remaining-family inventory above describes its original slice boundary;
+the two adopted Fourth-Way consumers are now activated by #1286. Q11 argument
+metadata, generic individuation correction and pinned audit evidence are unchanged.
