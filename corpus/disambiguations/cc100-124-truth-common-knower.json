@@ -8,7 +8,7 @@
     "e27a6a4e-7a61-5ae2-8ef5-b94213a8c612",
     "bfafd0be-0b5f-5c6a-bd3b-a362ee27c49c"
   ],
-  "resolution": "Literal step2 lacks a truth guard; contextual reading inherits it from step1/final every-truth scope. Separate sibling claims preserve both without equivalence. On either reading step3 is an explicit common-knower bridge, not valid by exchanging per-proposition existential witnesses. Possible/actual knowledge, factivity/closure and world scope require independent treatment; no God/necessary/rigid knower is inferred.",
+  "resolution": "Literal step2 lacks a truth guard; contextual reading inherits it from step1/final every-truth scope. Separate sibling claims preserve both without equivalence. On either reading step3 is an explicit common-knower bridge, not valid by exchanging per-proposition existential witnesses. Possible/actual knowledge, factivity/closure and world scope require independent treatment; no God/necessary/rigid knower is inferred. Declaration completion binds only the actual per-content antecedents for senses _2 and _3. Sense _1 remains unresolved: its definition collects possible knowledge, actual per-truth witnesses and a common witness as a scope family, rather than specifying one completed sense. Proposed split preserving its identity and links: retain the original as the scope-family record; separate truth-guarded possible knowledge (step1), actual per-truth knowledge (reuse sense _3), and common truth-knower (steps3–4). A possible-knowledge sibling still needs an explicit world/accessibility and agent-domain interpretation; no fixed-agent epistemic operator supplies the missing agent quantifier. No conjunction of these commitments is asserted.",
   "term_label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT",
   "senses": [
     {
@@ -19,12 +19,14 @@
     {
       "id": "3a9a5adb-5c4c-43e0-b539-f4a506695559",
       "label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_2",
-      "definition_id": "e27a6a4e-7a61-5ae2-8ef5-b94213a8c612"
+      "definition_id": "e27a6a4e-7a61-5ae2-8ef5-b94213a8c612",
+      "lean_declaration": "TruthCore.Logic.CommonKnowerScopes.EveryPropositionKnown"
     },
     {
       "id": "42ed0ac0-756b-4068-8bfd-1bc0e6586a13",
       "label": "FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_3",
-      "definition_id": "bfafd0be-0b5f-5c6a-bd3b-a362ee27c49c"
+      "definition_id": "bfafd0be-0b5f-5c6a-bd3b-a362ee27c49c",
+      "lean_declaration": "TruthCore.Logic.CommonKnowerScopes.EveryTruthKnown"
     }
   ]
 }

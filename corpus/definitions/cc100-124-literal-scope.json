@@ -9,5 +9,6 @@
     "e695700d-0243-558b-87b8-77b031676924",
     "6a481092-4f4b-5ab9-ab2b-70a6f5006def"
   ],
-  "note": "This editorial literal reading may conflict with additional factive assumptions, but no such formal system or countermodel is introduced and no equivalence to contextual reading is asserted."
+  "note": "This editorial literal reading may conflict with additional factive assumptions, but no such formal system or countermodel is introduced and no equivalence to contextual reading is asserted. The bound body is the literal step2/step3 antecedent ∀ p, ∃ a, knows a p; the common-knower consequent remains a distinct explicit bridge. Content and Agent are arbitrary universe-polymorphic types; truth and actual knowledge are primitive predicates, not a definition of epistemic factivity or modal possibility. Their intended applicability, proposition-domain adequacy and epistemic laws remain open.",
+  "lean_declaration": "TruthCore.Logic.CommonKnowerScopes.EveryPropositionKnown"
 }
