@@ -247,3 +247,48 @@ have their own zero-axiom Comparator configurations. No broad idle-library
 claim is made: `corpus.py orphans` is unavailable in this checkout; the existing
 `orphan_summary.py --base origin/main` reports the two new disconnected results,
 whose single missing connection plan is stated above.
+
+## Declaration completion: capacity and exercise (2026-11-09)
+
+The existing exercise sense `9931b112-52ba-466c-945a-c5cd7f73a8f3`
+is bound to `AppetitePowerExercise.Exercise`. Its subject, object and occasion
+are dependent indices, with separate seeking, love, delight and communication
+constructors. Actual act relations are explicit primitives, not inferred from
+names, represented goodness or ability. Seeking requires absence; the other
+modes require possession. Communication carries a recipient, possibility and
+actual communication independently. No transition between occasions is assumed.
+The supplied interpretations separate possessed-good love from deficient
+seeking and possible communication from actual communication. Their semantic
+applicability remains open; they are not models of divine being.
+
+The owner selected a relational interface for capacity sense
+`183bff99-a67d-46f9-ae43-a68cba27119c`, bound to
+`AppetitePowerExercise.Capacity`. Universal responsiveness remains OPEN.
+`possible o t r` is primitive appetitive ability, constrained to follow suitable
+OR good apprehension; mode-specific laws distinguish absence, possession and
+possible sharing. Actual act relations are independent. The structure specifies
+relational content. Its separate `Capacity.Possessed` admission condition
+requires a soul and a nonempty possible-response relation at some occasion;
+it is not an assertion that any being actually possesses that capacity.
+An empty relation can be specified but fails that admission condition. The
+`idleCapacity` and `cognitiveOnly` controls hold appraisal fixed: the former
+admits a possible love response without actual exercise; the latter has no
+appetitive response and fails possession. Neither cognition nor the response
+tag alone establishes appetitive ability. Applying the primitive possibility
+relation to real souls remains an explicit semantic obligation.
+
+This relational interface does not impose response to every apprehended good,
+require current exercise, rank ends, or identify the finite one-end model with
+the source power. The `selective` control has two equally apprehended possessed goods, a possible love response to one and no response to the other. It witnesses that nonempty capacity does not imply universal responsiveness.
+Recognition by `HasWill` and any divine application remain open bridges.
+
+Consumer audit: `IntellectualInclination.EveryFormHasInclination` uses
+`InclinedTo : B → F → Prop`; `IntelligibleInclinationIsWill` independently
+recognizes it by `HasWill`. Neither contains a soul, an object apprehended as
+suitable/good, possible responses or an actual episode. Round5's
+`AppetitivePowerOf` and `FollowsIntellect` factor recognition but do not supply
+those fields. Completing the exercise type therefore changes no frozen theorem
+or recognition premise. Root connection plan remains STMT-WILL-FOLLOWS-INTELLECT
+then STMT-GOD-HAS-WILL: supply an appropriate intellect-to-capacity bridge and
+justify recognition by unchanged HasWill. Capacity-to-current-act is not part
+of that plan. No new argument batch or premise discharge is claimed.

@@ -1812,12 +1812,12 @@
       "path": "corpus/disambiguations/appetite-power-exercise.json",
       "status": "inspected",
       "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing resolution retained: The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast.",
+      "finding": "Reuse unchanged prior audit disposition: Existing resolution retained: The old HasWill predicate and q.80 appetitive-power reading concern having a power/nature, while seeking, loving, delighting and communicating are described acts. No current act follows from a primitive power label alone. Seeking absent good is not required for willing; no dormant or passive state is attributed to God by this contrast. Re-review for #1296: the two existing senses bind distinct Capacity and Exercise declarations. Capacity is possible appetitive response content under suitable-or-good apprehension; its separate possession condition requires soulhood and some possible response, without universal responsiveness or a current act. Exercise requires actual seeking/love/delight/communication evidence and the corresponding absence/possession and recipient/possibility conditions. Applicability and HasWill recognition remain OPEN. The audited bundle retains unchanged HasWill, fixed parameters, inference premises, source claims and frozen proofs. No passive state is attributed to God or capacity-to-current-exercise implication introduced.",
       "before": {
         "sha256": "84b2ef65a1a6c45d2029bc9fe7f8aef7e156ec1276f2ebc415cee283f47fa2c4",
         "lean_declaration": null
       },
-      "reviewed_sha256": "6c00805bd8538e87c489e0dff00884fedc90b6fac306d33a0bab950af1161712"
+      "reviewed_sha256": "1c18a0aa83a64e2566f7763f21b20567fbda277564ced25f106d42c424c04442"
     },
     {
       "kind": "disambiguations",
