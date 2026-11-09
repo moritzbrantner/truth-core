@@ -1,0 +1,9 @@
+{
+  "id": "9c9fce7a-c2c3-4d4b-b13e-2d4488847cf0",
+  "label": "A5_OBTAINING_SITUATIONS_RIGID_EVER_ROSTER_6: EvaluatedEverRoster",
+  "term": "EvaluatedEverRoster history interpretation",
+  "definition": "Evaluation-world and evaluation-time classification and all-and-only membership over the entire supplied history. R(b) iff classified(w,time,b) and there exists t with IsAt(w,b,t). Re-evaluating w/time can change the class and roster.",
+  "basis": "stipulative",
+  "note": "Owner-selected analyst interpretation sibling (2026-11-09), attribution deferred. Reuses TemporalHistory.History and its explicitly interpreted primitive IsAt (temporal existence). classified is an explicit contingency-classification input, not a free adequacy or beginning flag; no modal contingency dictionary or reality applicability is established. The beginning predicates take a separately supplied fixed class contingent : Being -> Prop. Arbitrary carriers remain unrestricted except the stated Preorder for temporal comparison; no finiteness, persistence, well-foundedness or causal law is assumed. Discrete, dense and first-moment controls test boundaries. This definition does not complete the original composite source sense or confer root closure.",
+  "lean_declaration": "TruthCore.Modal.A5HistoryScope.EvaluatedEverRoster"
+}

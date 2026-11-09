@@ -1,0 +1,10 @@
+{
+  "id": "941162df-0311-469a-8494-6c800ae34fe2",
+  "label": "Explicit anchor correspondence preserves the sample target (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "8b0cef3f-c65c-4467-87f5-e122c87d8028",
+  "rule": "Explicit syntax witness and correspondence case analysis",
+  "meaning": "The sample relation pairs anchors with anchors and nonanchors with nonanchors across Unit and Bool; every related pair agrees on anchor membership. This selected relation is not asserted total, adequate, or a real ground identity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

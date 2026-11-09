@@ -1,0 +1,9 @@
+{
+  "id": "4c00d550-ed75-427d-87b4-0d49543f8851",
+  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_5 candidate",
+  "term": "Separate strict-order no-first",
+  "definition": "There is no minimal selected member under the separately supplied irreflexive transitive order. Incomparable members are allowed; absence of a least member alone is insufficient.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.EntireChainHead.OrderedNoFirst",
+  "note": "Approved analyst sibling interpretation for shared A2/A10 entire-chain vocabulary, attribution deferred. Same arbitrary carrier and member predicate throughout; no separate whole or world shift. Causal production primitives retain the meaning and open applicability of DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD. Ordered precedence is an explicit framework input, distinguished from causation and temporal priority; its applicability is OPEN. Aligned is an additional selected-endpoint biconditional, never definitional identification. head_uncaused is reused under both-relation closure and productivity; ordered_minimum_uncaused additionally requires incoming-cause-to-order at the candidate. No original composite meaning, coverage, exclusivity, whole-cause, actual-concrete or root closure is established."
+}

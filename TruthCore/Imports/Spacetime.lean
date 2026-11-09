@@ -2,3 +2,4 @@
 module
 
 public import TruthCore.Spacetime.BoostSimultaneity
+public import TruthCore.Spacetime.StationaryClockProtocol

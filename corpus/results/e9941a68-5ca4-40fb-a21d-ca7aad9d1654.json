@@ -1,0 +1,11 @@
+{
+  "id": "e9941a68-5ca4-40fb-a21d-ca7aad9d1654",
+  "label": "Fixed carrier specializes indexed first-order definability",
+  "argument_id": "b37b4b1b-948e-458b-aa6d-97a16f17a64f",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.specialization",
+  "comparator_config": "results/e9941a68-5ca4-40fb-a21d-ca7aad9d1654/comparator.json",
+  "status": "solution-present",
+  "description": "The original fixed-carrier Definability condition is equivalent to the indexed first-order condition on the constant carrier indexed by exactly the same interpretations."
+}

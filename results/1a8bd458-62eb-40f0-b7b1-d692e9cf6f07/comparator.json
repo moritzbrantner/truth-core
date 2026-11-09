@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.CertifiedCorrection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CertifiedCorrection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.CertifiedCorrection.connectionAndControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

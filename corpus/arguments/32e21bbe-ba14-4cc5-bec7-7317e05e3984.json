@@ -1,0 +1,15 @@
+{
+  "id": "32e21bbe-ba14-4cc5-bec7-7317e05e3984",
+  "label": "Indiscriminate correspondence fails on the same anchor profile",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "ebcdff06-5ef6-478c-8c1f-24ed80d175f6",
+  "inference_ids": [
+    "500e2537-be28-4fc0-828a-592490a48d2f"
+  ],
+  "meaning": "The same uniformly definable sample target fails correspondence for the universal relation, witnessed by Bool false and true.",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

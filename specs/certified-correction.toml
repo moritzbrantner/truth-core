@@ -1,0 +1,17 @@
+[batch]
+vocab = "TruthCore.Logic.CertifiedCorrection"
+results = "TruthCore.Results.Logic.CertifiedCorrection"
+
+[[statement]]
+id = "Scoped certificate calibration connects a procedure to exact classification"
+lean = "ConnectionAndControls"
+definitions = ["2383deea-6f13-4ea0-8822-1b51db573f7d"]
+paraphrase = "For arbitrary state and evidence types, procedure coverage and accepted-certificate calibration on an explicit scope imply exact classification on that scope subtype. Finite controls exhibit a nonvacuous covered calibrated procedure, coverage without calibration, exact classification without execution resources, and calibration on a restricted scope without calibration on all states. Certificate acceptance is not philosophical warrant."
+
+[[argument]]
+id = "Scoped calibration and procedure separation controls"
+theorem = "connectionAndControls"
+premises = []
+conclusion = "Scoped certificate calibration connects a procedure to exact classification"
+rule = "constructive proof and finite omission controls"
+meaning = "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established."

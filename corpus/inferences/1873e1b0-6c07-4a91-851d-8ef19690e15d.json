@@ -1,0 +1,10 @@
+{
+  "id": "1873e1b0-6c07-4a91-851d-8ef19690e15d",
+  "label": "Reachability specification alone constrains neither composition nor intellect (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "af4b49d8-7774-457f-9164-e071a4623363",
+  "rule": "Finite-path construction on an explicit varying-domain profile",
+  "meaning": "The explicit Nat and Bool reachability specification coexists with separately constantly false composition and intellect assignments at the Nat anchor. This is a candidate-language independence diagnostic only: no mapping to the original ground or Aquinas intellect is supplied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

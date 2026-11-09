@@ -1,0 +1,11 @@
+{
+  "id": "d3530a61-adba-400d-a88d-d7a700ea716c",
+  "label": "Explicit anchor correspondence preserves the sample target",
+  "argument_id": "2222f8b6-3b55-4b73-b036-dc1bbca8610f",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.correspondence",
+  "comparator_config": "results/d3530a61-adba-400d-a88d-d7a700ea716c/comparator.json",
+  "status": "solution-present",
+  "description": "The sample relation pairs anchors with anchors and nonanchors with nonanchors across Unit and Bool; every related pair agrees on anchor membership. This selected relation is not asserted total, adequate, or a real ground identity."
+}
