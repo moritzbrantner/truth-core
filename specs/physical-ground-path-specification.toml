@@ -4,7 +4,7 @@ results = "TruthCore.Results.Alternatives.PhysicalSpecificationPaths"
 
 [[statement]]
 id = "FO embeds into restricted reachability language"
-lean = "embeddingControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.embeddingControl"
 paraphrase = "On one identical indexed profile, varying-domain first-order definability implies restricted FO plus finite-reachability definability. No strict expressive separation is claimed."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -20,7 +20,7 @@ meaning = "On one identical indexed profile, varying-domain first-order definabi
 
 [[statement]]
 id = "Fixed carrier specializes indexed first-order definability"
-lean = "specializationControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.specializationControl"
 paraphrase = "The original fixed-carrier Definability condition is equivalent to the indexed first-order condition on the constant carrier indexed by exactly the same interpretations."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -36,7 +36,7 @@ meaning = "The original fixed-carrier Definability condition is equivalent to th
 
 [[statement]]
 id = "Finite reachability succeeds and fails on explicit graphs"
-lean = "pathControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.pathControl"
 paraphrase = "On Nat successor, zero reaches two despite no direct edge; on the edgeless Bool graph false does not reach true. These are graph controls, not physical models."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -52,7 +52,7 @@ meaning = "On Nat successor, zero reaches two despite no direct edge; on the edg
 
 [[statement]]
 id = "One permitted anchor is definable across Unit and Bool"
-lean = "varyingControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.varyingControl"
 paraphrase = "One formula, equality to the sole permitted anchor, defines its singleton on both Unit and Bool with constantly false marker interpretation. This is a nonempty genuinely varying-carrier profile, not a physical calibration."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -68,7 +68,7 @@ meaning = "One formula, equality to the sole permitted anchor, defines its singl
 
 [[statement]]
 id = "Explicit anchor correspondence preserves the sample target"
-lean = "correspondenceControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.correspondenceControl"
 paraphrase = "The sample relation pairs anchors with anchors and nonanchors with nonanchors across Unit and Bool; every related pair agrees on anchor membership. This selected relation is not asserted total, adequate, or a real ground identity."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -84,7 +84,7 @@ meaning = "The sample relation pairs anchors with anchors and nonanchors with no
 
 [[statement]]
 id = "One reachability formula covers Nat and Bool from permitted anchors"
-lean = "reachVaryingControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.reachVaryingControl"
 paraphrase = "The same finite-reachability formula from the sole permitted anchor holds of every object on Nat with successor edges and Bool with inequality edges. Both full domains are admitted; no physical applicability or strict FO separation is asserted."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -100,7 +100,7 @@ meaning = "The same finite-reachability formula from the sole permitted anchor h
 
 [[statement]]
 id = "Reachability specification alone constrains neither composition nor intellect"
-lean = "rootIndependenceControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.rootIndependenceControl"
 paraphrase = "The explicit Nat and Bool reachability specification coexists with separately constantly false composition and intellect assignments at the Nat anchor. This is a candidate-language independence diagnostic only: no mapping to the original ground or Aquinas intellect is supplied."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -116,7 +116,7 @@ meaning = "The explicit Nat and Bool reachability specification coexists with se
 
 [[statement]]
 id = "Indiscriminate correspondence fails on the same anchor profile"
-lean = "correspondenceFailureControl"
+lean = "TruthCore.Alternatives.PhysicalSpecification.correspondenceFailureControl"
 paraphrase = "On the same Unit and Bool anchor profile, the universal comparison relation does not preserve anchor membership: it pairs the Bool anchor false with nonanchor true. Uniform definability alone does not license arbitrary correspondence."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
@@ -132,14 +132,14 @@ meaning = "The same uniformly definable sample target fails correspondence for t
 
 [[statement]]
 id = "Indexed first-order specification candidate condition"
-lean = "VaryingFirstOrderDefinability"
+lean = "TruthCore.Alternatives.PhysicalSpecification.VaryingFirstOrderDefinability"
 paraphrase = "OPEN analyst candidate: one permitted-parameter first-order formula defines an explicit unary target family on every full carrier of a nonempty admitted indexed interpretation class. Carrier identity and target correspondence are not implicit."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []
 
 [[statement]]
 id = "Indexed finite-reachability specification candidate condition"
-lean = "VaryingPathDefinability"
+lean = "TruthCore.Alternatives.PhysicalSpecification.VaryingPathDefinability"
 paraphrase = "OPEN analyst candidate: one restricted first-order plus finite-reachability formula defines an explicit unary target family on every full carrier of a nonempty admitted indexed interpretation class. Fixed-domain use is obtained by taking a constant carrier family; cross-domain correspondence and physical adequacy remain separate conditions."
 definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55"]
 disambiguations = []

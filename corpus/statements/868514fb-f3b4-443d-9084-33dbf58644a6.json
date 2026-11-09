@@ -2,7 +2,7 @@
   "id": "868514fb-f3b4-443d-9084-33dbf58644a6",
   "label": "Fixed carrier specializes indexed first-order definability",
   "paraphrase": "The original fixed-carrier Definability condition is equivalent to the indexed first-order condition on the constant carrier indexed by exactly the same interpretations.",
-  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.specializationControl",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.specializationControl",
   "definition_ids": [
     "7ec17771-8ac2-476b-b674-40ef61a2debc",
     "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",

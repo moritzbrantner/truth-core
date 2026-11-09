@@ -2,7 +2,7 @@
   "id": "ebcdff06-5ef6-478c-8c1f-24ed80d175f6",
   "label": "Indiscriminate correspondence fails on the same anchor profile",
   "paraphrase": "On the same Unit and Bool anchor profile, the universal comparison relation does not preserve anchor membership: it pairs the Bool anchor false with nonanchor true. Uniform definability alone does not license arbitrary correspondence.",
-  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.correspondenceFailureControl",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.correspondenceFailureControl",
   "definition_ids": [
     "7ec17771-8ac2-476b-b674-40ef61a2debc",
     "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",

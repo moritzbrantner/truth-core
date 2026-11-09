@@ -2,7 +2,7 @@
   "id": "0465558e-7646-4df2-bb32-15377aeac731",
   "label": "Finite reachability succeeds and fails on explicit graphs",
   "paraphrase": "On Nat successor, zero reaches two despite no direct edge; on the edgeless Bool graph false does not reach true. These are graph controls, not physical models.",
-  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.pathControl",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.pathControl",
   "definition_ids": [
     "7ec17771-8ac2-476b-b674-40ef61a2debc",
     "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
