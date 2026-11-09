@@ -241,6 +241,7 @@ public import TruthCore.Results.Causality.SelectedAncestry.Solution
 public import TruthCore.Results.Causality.SelectedAncestryUnique.Solution
 public import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 public import TruthCore.Results.Causality.SelfCausationPriority.Solution
+public import TruthCore.Results.Causality.SelfMotionSeparation.Solution
 public import TruthCore.Results.Causality.SelfOperationLife.Solution
 public import TruthCore.Results.Causality.SourceForest.Solution
 public import TruthCore.Results.Causality.SourceForestInterop.Solution

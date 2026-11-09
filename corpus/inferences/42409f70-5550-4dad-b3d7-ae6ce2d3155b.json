@@ -1,0 +1,10 @@
+{
+  "id": "42409f70-5550-4dad-b3d7-ae6ce2d3155b",
+  "label": "Self-motion separation finite certificates (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "ac703d2e-2026-4677-b6ab-a16ea8951a03",
+  "rule": "Explicit three-object witness construction and contradiction",
+  "meaning": "One fixed whole, motor and limb at Unit context: internal-only motion has no part-to-whole or diagonal edge; adding part-to-whole still yields no diagonal; diagonal-only satisfies transfer but refutes the target; joined internal/diagonal satisfies reconstruction but refutes the target; Full jointly witnesses both bridges with nonempty diagonal. Missing whole motion or integration prevents the reconstruction. Finite formal interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SelfMotionSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelfMotionSeparation.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SelfMotionSeparation.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

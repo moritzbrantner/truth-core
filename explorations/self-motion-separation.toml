@@ -1,0 +1,15 @@
+target = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+[[node]]
+id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+[[node]]
+id = "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction"
+
+[[node]]
+id = "An integrated internal mover moves the whole in the same context"
+
+[[edge]]
+premises = ["Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction", "An integrated internal mover moves the whole in the same context"]
+conclusion = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+kind = "derivation"
+status = "certified"
+note = "Targets the unchanged diagonal premise on the mover-actuality root route. Original independent SELF_MOTION_2 and whole actuality remain open. Omit either bridge: target fails in populated finite controls."

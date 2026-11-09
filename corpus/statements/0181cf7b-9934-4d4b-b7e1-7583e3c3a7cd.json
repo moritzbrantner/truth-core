@@ -1,0 +1,13 @@
+{
+  "id": "0181cf7b-9934-4d4b-b7e1-7583e3c3a7cd",
+  "label": "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction",
+  "paraphrase": "OPEN analyst bridge: every diagonal self-motion at a fixed context has the integrated whole/proper-parts reconstruction. Neither a definition nor source attribution.",
+  "lean_declaration": "TruthCore.Causality.SelfMotionSeparation.DiagonalHasWholeParts",
+  "definition_ids": [
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
+    "2fccff11-d956-4ec2-9705-922413f76a5c"
+  ],
+  "disambiguation_ids": [
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
+  ]
+}

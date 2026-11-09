@@ -14,7 +14,7 @@
   "inference_ids": [
     "02b02ec9-5980-56e9-a893-39986119f749"
   ],
-  "meaning": "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: y moves itself by a distinct part p (OPEN reading of Physics VIII.4-5); by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107.",
+  "meaning": "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: diagonal SELF_MOTION_1 is handled by an OPEN analyst distinct-part premise, not the independent SELF_MOTION_2 of Physics VIII.4-5; by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107.",
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
     "211a6432-8b8f-53ed-85e3-75173bb15b24",
@@ -23,7 +23,7 @@
     "701c8996-8d37-546d-9610-26b758dd04e8",
     "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
     "500ba323-cca5-5b35-8b75-947008256c43",
-    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
+    "e13e749b-d266-5f18-bc50-59b340444c1f"
   ],
   "disambiguation_ids": [
     "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",

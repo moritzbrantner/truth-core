@@ -7,5 +7,6 @@
   "basis": "sourced",
   "claim_ids": [
     "6aac13a9-0901-5c5c-9367-209d63d76de8"
-  ]
+  ],
+  "note": "The new analyst Diagonal wrapper exposes this reading in the explicit reconstruction bridge. Legacy raw MovesIn x x r uses, including the frozen target, remain unwrapped; this is not completion of the original sense-index migration or removal of its allowance."
 }
