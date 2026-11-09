@@ -1,0 +1,21 @@
+target = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "a2e48b9a-892c-591c-b0a1-87f8ab5937fa"
+[[node]]
+id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+[[node]]
+id = "ef69a630-2277-56be-86ca-f05f8193093a"
+[[node]]
+id = "bc2af29f-8202-50f4-a177-b8dd21e135b1"
+[[node]]
+id = "Actual complete production dictionary"
+new = true
+text = "OPEN exact two-way dictionary from complete production on actual nodes to Ontic causation."
+[[edge]]
+premises = ["a2e48b9a-892c-591c-b0a1-87f8ab5937fa", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "ef69a630-2277-56be-86ca-f05f8193093a", "bc2af29f-8202-50f4-a177-b8dd21e135b1", "Actual complete production dictionary"]
+conclusion = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+kind = "bridge"
+status = "mapped"
+note = "Same-N endpoint assembly, accurately transcription; full existence and both real-applicability primitives remain open."
