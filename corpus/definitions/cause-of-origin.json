@@ -8,6 +8,6 @@
   "claim_ids": [
     "9000e8a5-9b99-50db-a902-297c337cf8e2"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaContraGentiles.WhatComesToBeAnewHasInnovatingCauseReading",
-  "note": "Typed parameter location: CausesOrigin : Being → Being → Prop in WhatComesToBeAnewHasInnovatingCauseReading. The linked declaration is a constraining premise, not a definition of that primitive relation. Its witness separately satisfies c ≠ x; distinctness is not built into every CausesOrigin edge by the parameter type. The intended originating-cause interpretation remains OPEN."
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.CauseFrame.CausesOrigin",
+  "note": "Typed parameter location: CausesOrigin : Being → Being → Prop in WhatComesToBeAnewHasInnovatingCauseReading. That usage-site reading is a constraining premise, not a definition of that primitive relation. Its witness separately satisfies c ≠ x; distinctness is not built into every CausesOrigin edge by the parameter type. The intended originating-cause interpretation remains OPEN. Audit #1233: the primary locator now names CauseFrame.CausesOrigin, a primitive relation field, rather than the quantified reading. This change supplies no definition body, structural law or bridge."
 }
