@@ -1,0 +1,11 @@
+{
+  "id": "a5f8477d-05a9-42ad-a077-1afd65fe7b1b",
+  "label": "Intervention calibration supplies the POE truth component",
+  "argument_id": "35b19ef0-d8f4-4271-97ab-380ba456a977",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Solution",
+  "theorem": "TruthCore.Results.Logic.MoralAttitudeCalibration.interventionCalibration",
+  "comparator_config": "results/a5f8477d-05a9-42ad-a077-1afd65fe7b1b/comparator.json",
+  "status": "solution-present",
+  "description": "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion."
+}
