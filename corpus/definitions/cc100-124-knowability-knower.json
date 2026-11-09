@@ -1,9 +1,9 @@
 {
   "id": "baca53c3-3a52-559d-989f-78fb8400824f",
-  "label": "POSSIBLE_KNOWLEDGE_1, actual knowledge…: Step1 restricts POSSIBLE_KNOWLEDGE_1 to truths; step2…",
+  "label": "POSSIBLE_KNOWLEDGE_1, actual knowledge\u2026: Step1 restricts POSSIBLE_KNOWLEDGE_1 to truths; step2\u2026",
   "legacy_id": "DEF-CC100-124-KNOWABILITY-KNOWER",
   "term": "possible knowledge, actual knowledge and common truth-knower",
-  "definition": "Step1 restricts possible knowledge to truths; step2 concerns actual knowers, and steps3–4 introduce one knower of every truth. Per-proposition witnesses, world-relative possibility and one common witness are distinct scopes.",
+  "definition": "Step1 restricts possible knowledge to truths; step2 concerns actual knowers, and steps3\u20134 introduce one knower of every truth. Per-proposition witnesses, world-relative possibility and one common witness are distinct scopes.",
   "basis": "stipulative",
   "claim_ids": [
     "65a7bb9a-a71b-5a1c-b3b6-06cc16bed8d5",
@@ -13,5 +13,5 @@
     "77277ba9-0909-5ddf-b9ae-8e279a35bac5",
     "83ee140c-d4d9-52cb-b48f-606d2bacf970"
   ],
-  "note": "No epistemic modal system, factivity, closure, proposition comprehension, agent existence or divine signature is defined. Parmenides object-directed Cognition and PSR stable reasons do not supply this propositional knowledge relation. Declaration-completion finding (2026-11-09): this original identity is a scope family, not one completed sense. Preserve links and unresolved allowance. Proposed separate bodies are truth-guarded possible-someone knowledge (step1; world/accessibility and agent-domain interpretation still open), actual per-truth knowledge (step2 contextual, reuse FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_3), and one common truth-knower (steps3–4). Neither their conjunction nor a structure of unconstrained predicates completes this sense. See DISAMB-CC100-124-TRUTH-COMMON-KNOWER for the mapping; no source attribution changes."
+  "note": "No epistemic modal system, factivity, closure, proposition comprehension, agent existence or divine signature is defined. Parmenides object-directed Cognition and PSR stable reasons do not supply this propositional knowledge relation. Declaration-completion finding (2026-11-09): this original identity is a scope family, not one completed sense. Preserve links and unresolved allowance. Proposed separate bodies are truth-guarded possible-someone knowledge (step1; world/accessibility and agent-domain interpretation still open), actual per-truth knowledge (step2 contextual, reuse FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_3), and one common truth-knower (steps3\u20134). Neither their conjunction nor a structure of unconstrained predicates completes this sense. See DISAMB-CC100-124-TRUTH-COMMON-KNOWER for the mapping; no source attribution changes. Distributed Fitch sense _3 now has the substantive body TruthCore.Logic.DistributedKnowledge.Known: exists agent a and time t, knows a t p w, with p : W \u2192 Prop and the world w unchanged. Primitive knows means that agent at that time knows that same extensional content in that world; no factivity, closure, agent/time inhabitation, truth-to-knowledge or omniscience is assumed. This completes only the distributed operator, not the possible/actual/common scope family FOR_ANY_PROPOSITION_SOMEONE_KNOWS_IT_1. Temporal and sentence-representation calibration are open applicability bridges; no sentence syntax is identified with an extensional content without an interpretation. actualScope names the exact bridge to contextual actual common-knower vocabulary; a further common-knower-to-divine-intellect bridge is still open on the Catholicism route. Finite controls are scope counterexamples only, not original-domain knowledge models."
 }
