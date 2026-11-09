@@ -1,0 +1,10 @@
+{
+  "id": "001c1716-c808-4675-a431-b54e2a357ab1",
+  "label": "Empty actual extension separates existential meanings (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "ad4acc23-2d2c-4c0e-8fd1-1616084b990c",
+  "rule": "Explicit constructors and elimination of an impossible existence guard",
+  "meaning": "A Unit candidate satisfies True. An actual witness under the empty extension would carry False. Under the full extension the same candidate satisfies the guard and predicate. No domain-to-actuality implication or esse bridge is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

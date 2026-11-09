@@ -692,3 +692,23 @@ necessity of the local fragment remains unproved; no such claim is required
 for the sufficient consequence. Original model-registry/floor approval remains
 outside this result. The computed root delta adds one support option and two
 open analyst input records; it discharges no truth obligation.
+
+
+### Integration with landed root-model and locator work
+
+Merged main `0f70b6d7e` for PR #1278. The only textual conflict was the
+shared structure-migration attempt: its summary now retains both #1273's
+four-premise immutability joint model/omission findings and #1278's registered
+local-logic configuration, and its evidence list contains both result families.
+The immutability model is not a full nineteen-premise assembly certificate.
+Generated area imports retain both families. EXISTS meanings, primitive
+CAUSE/uniting locators, labels and GOD binding activation from main are kept.
+The three pinned bundle inventories were re-reviewed against the changed
+locator records: fields locate primitive relations, while quantified readings
+remain constraints; no new structural law, sense bridge or premise truth is
+introduced. Existing reviewed hashes match those exact merged records.
+No pre-existing Lean source outside generated aggregators changed in this
+merge. The frozen Challenges, registered local-logic derivation and its
+explicit sibling inputs are unchanged, so their Comparator/NanoDa certificates
+are reused. Affected area builds, binding and metadata gates check integration;
+final delivered-head CI remains required.

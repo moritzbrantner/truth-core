@@ -1,6 +1,6 @@
 {
   "id": "f930c63f-f79a-507c-9462-b572480c6808",
-  "label": "UNITING_CAUSE_1: Unites c a b x: c is a cause through which the diverse things a and b come…",
+  "label": "UNITING_CAUSE_1: Unites c a b x: c is a cause through which the diverse things a and b come\u2026",
   "legacy_id": "DEF-UNITING-CAUSE",
   "term": "uniting cause (causa adunans; Lean `Unites`)",
   "definition": "`Unites c a b x`: c is a cause through which the diverse things a and b come together into the one thing x (q.3 a.7 co., third proof: per aliquam causam adunantem ipsa). The relation is not by definition efficient causing (`EfficientlyCausesIn`, DEF-EFFICIENT-CAUSING) or causing being (`CausesIn c x esse`, DEF-CAUSE-OF-PERFECTION); each passage is a separate premise (DISAMB-UNITING-CAUSE). It does not require c to be distinct from x, outside x, a nonpart, earlier in time, or actual at a world. Example: the agent who mixes elements into a mixed body. Excluded: a mere common location of a and b, or a set-theoretic union, which no reading here calls a cause.",
@@ -8,6 +8,6 @@
   "claim_ids": [
     "78cc9f45-d26d-5482-bca1-e92a6de85376"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.Question3.Article7Uniting.DiverseUnitedOnlyThroughUnitingCauseReading",
-  "note": "Structural properties are not assumed: no transitivity, asymmetry or irreflexivity is built in. Distinctness of uniter and composite is derived only through UnitingCauseIsEfficientCauseReading and the secunda via's NothingIsEfficientCauseOfItselfReading. OPEN: real applicability, and whether mereological fusion, priority-monist wholes or composition as identity have a uniting cause in this sense (docs/notes/composition-causal-scope.md)."
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.UnitingFrame.Unites",
+  "note": "Structural properties are not assumed: no transitivity, asymmetry or irreflexivity is built in. In the original union route, distinctness of uniter and composite is derived through UnitingCauseIsEfficientCauseReading and the secunda via's NothingIsEfficientCauseOfItselfReading. OPEN: real applicability, and whether mereological fusion, priority-monist wholes or composition as identity have a uniting cause in this sense (docs/notes/composition-causal-scope.md). Semantic locator audit (#1233): Unites is an explicit primitive four-place relation, located at UnitingFrame.Unites in TermSenseForks2. DiverseUnitedOnlyThroughUnitingCauseReading instead quantifies over components and requires an existential uniter; it is a constraint on the supplied relation, not its definition. The ordinary-language gloss and example describe the intended interpretation, not conditions enforced by a Lean body. ComponentOf is the independently supplied q.3 a.7 composition relation (parts, matter/form or essence/esse), not mere set membership; numerical diversity is Lean inequality. Causal responsibility for union remains primitive: neither co-location nor the existence of a set union supplies it. OPEN semantic obligations: which concrete unions instantiate this relation, which entities count as components, and whether any temporal, transitive, asymmetric or well-founded causal interpretation applies. See docs/notes/composition-causal-scope.md for the audited relation/constraint and world-interface boundaries."
 }

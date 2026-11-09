@@ -1,0 +1,9 @@
+{
+  "id": "b3b4e279-e1cf-4e54-a999-80c5bb5a43cc",
+  "label": "EXISTS_2: World actual existential quantification",
+  "term": "exists",
+  "definition": "At the selected world w a candidate satisfies both the independently supplied ex w predicate and P: \u2203 x : E, ex w x \u2227 P x. The constructor requires those two proofs for the same witness.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ExistsSenseMeaning.ActualExists",
+  "note": "Analyst semantic interpretation, attribution deferred. E is a candidate domain, not an assertion of actuality. ex is primitive world-indexed existence; no structural law or identification with InAct at esse is assumed. Unit with empty ex separates the readings; full ex supplies a positive example. Property quantification, modal necessity and existence-to-esse are separate commitments."
+}

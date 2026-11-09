@@ -1,0 +1,9 @@
+{
+  "id": "b45c0bf6-07fa-41d7-b467-954b4c78d604",
+  "label": "Finite motor load and whole event projection",
+  "term": "part-mediated organism motion",
+  "definition": "The carrier enum has whole, motor and load; proper membership includes motor and load in whole only. ComponentMoves has the single motor-to-load displacement event. InternalMotion witnesses two proper members and that event. PatientLift lifts the patient through membership, preserving the motor; AggregateLift lifts both roles through membership. LocalLift is an open bridge for an arbitrary whole mover predicate restricted to these internal events.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PartMediatedSelfMotion.InternalMotion",
+  "note": "Analyst finite interpretation; attribution deferred. Muscle moving a limb motivates the role distinction, without asserting an empirical or physiological theory. A temperature event is excluded by the event definition. Proper membership is neither arbitrary set inclusion nor identity. The component event is not causal sufficiency, transitivity, temporal priority or a proof of biological applicability. No general metaphysical property is assumed. Patient projection represents an internal part moving its organism, whereas aggregate projection represents organism self-motion; neither licenses treating the organism as the identical component. Real applicability and the selection of the root predicate remain OPEN. See docs/notes/motion-mover-fork.md, Part-mediated follow-up. Existing Vitalism turnover and ArrangementDynamics observation projections do not encode this agent/patient event, so their conclusions are not reused as causal premises."
+}

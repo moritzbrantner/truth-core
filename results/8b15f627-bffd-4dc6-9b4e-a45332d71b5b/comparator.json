@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ExistsSenseMeaning.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ExistsSenseMeaning.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ExistsSenseMeaning.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
