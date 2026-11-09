@@ -19,7 +19,7 @@ disambiguations = ["DISAMB-NATURAL-REASON"]
 [[statement]]
 id = "Natural reason sufficiency authority controls"
 lean = "ForkControls"
-paraphrase = "Formal inhabited controls distinguish sharedness from external jurisdiction with internal determination retained, one-way sufficiency from its converse, natural from all-move sufficiency scope, and authority exclusion from sufficiency. Restricting scope preserves sufficiency, determination and external exclusion. No original-sense mapping or actual practice is established."
+paraphrase = "Formal inhabited controls distinguish formal shared-answerability assignments from external-exclusion assignments with internal determination retained, one-way sufficiency from its converse, natural from all-move sufficiency scope, and authority exclusion from sufficiency. Restricting scope preserves sufficiency, determination and external exclusion. No original-sense mapping or actual practice is established."
 definitions = ["b3c3ae3f-aa1b-42d4-b940-e1066696087f", "487ff012-7deb-476b-983c-e6233f98d1fa", "470908e9-f95f-4a24-aaed-4e64bb1ad839", "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07", "DEF-NATURAL-REASON-SHARED"]
 disambiguations = ["DISAMB-NATURAL-REASON"]
 
@@ -39,7 +39,7 @@ theorem = "forkControls"
 premises = []
 conclusion = "Natural reason sufficiency authority controls"
 rule = "construction"
-meaning = "Explicit finite dictionaries witness agreement/jurisdiction independence, strict strength and scope distinctions, and failed sufficiency despite external exclusion; scope restriction is constructive. None is an actual religious interpretation."
+meaning = "Explicit finite dictionaries witness independence of formal shared-answerability and external-exclusion assignments, strict strength and scope distinctions, and failed sufficiency despite external exclusion; scope restriction is constructive. None is an actual religious interpretation."
 sense_mixing_control = true
 
 [[relation]]

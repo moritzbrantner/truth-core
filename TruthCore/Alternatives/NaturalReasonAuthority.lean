@@ -41,7 +41,7 @@ def ExternalAuthorityExcluded (P : Practice) (A : AuthorityProfile P)
     (scope : P.Move → Prop) : Prop :=
   ∀ s m, scope m → ¬ A.Internal s → ¬ A.HasAuthority s m
 
-/-- Controls export four inhabited combinations of sharedness and external
+/-- Controls export four inhabited combinations of shared answerability and external
 jurisdiction while retaining internal determination; strictness of one-way
 sufficiency and of natural versus all-move scope; and exclusion with failed
 sufficiency. They are formal dictionaries, not actual religious practices. -/

@@ -13,7 +13,7 @@ theorem determinationSuffices (P : Practice) (scope : P.Move → Prop)
   intro m hm hOwn
   exact (h m hm).mp hOwn
 
-/-- Explicit finite dictionaries; no authority is inferred from agreement. -/
+/-- Explicit finite dictionaries for shared answerability and external exclusion; verdict agreement is not modeled. -/
 def practice (own correct shared natural : Bool → Prop) : Practice where
   Move := Bool
   Correct := correct
@@ -29,7 +29,7 @@ def authorities (P : Practice) (external : Bool) : AuthorityProfile P where
   Internal s := s = true
   HasAuthority s _ := s = true ∨ external = true
 
-/-- Inhabited agreement/jurisdiction combinations and omitted-strength controls. -/
+/-- Inhabited shared-answerability/external-exclusion combinations and omitted-strength controls. -/
 theorem forkControls : ForkControls := by
   refine ⟨?_, ?_, ?_, ?_, ?_⟩
   · intro shared external

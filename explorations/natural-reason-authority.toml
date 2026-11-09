@@ -16,7 +16,7 @@ id = "Scoped external authority exclusion"
 text = "No external standard has jurisdiction on a supplied scope."
 [[node]]
 id = "Natural reason sufficiency authority controls"
-text = "Controls distinguish scope, strength, endorsement, agreement and jurisdiction."
+text = "Controls distinguish scope, strength, endorsement, normative shared answerability and external jurisdiction. Verdict agreement is not modeled."
 [[edge]]
 premises = ["Scoped internal determination"]
 conclusion = "Scoped internal sufficiency"
@@ -51,4 +51,4 @@ premises = ["Scoped external authority exclusion"]
 conclusion = "STMT-NATURAL-REASON-IS-SHARED-REASON"
 kind = "bridge"
 status = "open"
-note = "Independent bridge question: jurisdiction exclusion alone does not determine shared agreement. No conjunction of the siblings is assumed."
+note = "Independent bridge question: jurisdiction exclusion alone does not determine the formal shared-answerability assignment; verdict agreement remains unmodeled. No conjunction of the siblings is assumed."

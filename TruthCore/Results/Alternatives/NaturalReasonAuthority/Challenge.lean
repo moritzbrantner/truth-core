@@ -9,7 +9,7 @@ theorem determinationSuffices (P : Practice) (scope : P.Move → Prop)
     (h : InternalDetermination P scope) : InternalSufficiency P scope := by
   sorry
 
-/-- Inhabited agreement/jurisdiction combinations and omitted-strength controls. -/
+/-- Inhabited shared-answerability/external-exclusion combinations and omitted-strength controls. -/
 theorem forkControls : ForkControls := by
   sorry
 
