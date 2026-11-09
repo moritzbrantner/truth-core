@@ -1,0 +1,11 @@
+{
+  "id": "1b478d58-8b1e-448b-85f2-5953c71e84e9",
+  "label": "Whole-series selected exercise forgets selection",
+  "argument_id": "67b5d49e-cf60-4cb9-9103-374538b82215",
+  "challenge_module": "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.Solution",
+  "theorem": "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.forgetSelection",
+  "comparator_config": "results/1b478d58-8b1e-448b-85f2-5953c71e84e9/comparator.json",
+  "status": "solution-present",
+  "description": "Keep the identical actual world, bearer, obtaining reason content, complete fact valuation, optimality and contingent exercise; forget only the positive agenda selector. This compares analyst policy strength, not the sourced whole-series meaning or premise truth."
+}

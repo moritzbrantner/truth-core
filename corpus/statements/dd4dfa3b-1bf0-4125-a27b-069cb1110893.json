@@ -1,0 +1,10 @@
+{
+  "id": "dd4dfa3b-1bf0-4125-a27b-069cb1110893",
+  "label": "Whole-series adequacy policy scope and tied-order certificates",
+  "paraphrase": "For any predicate and finite agenda, first-optimum scanning is unique and, with explicit decidable eligibility, selects exactly when the agenda contains an eligible option. Uniform selected policy entails uniform optimal policy, neither asserting any choice occurs. The same agenda and extensionally equal eligibility predicates force the same selected output only when both selections are supplied. An original full-fact exercise over ALL Boolean-world propositions has an actual necessary bearer, obtaining necessary content and contingent choice, with both options tied. It satisfies the weak uniform policy and the strong local policy; the strong uniform policy fails. Reversed and empty agendas fail to select that same actual option. Strong local existence entails original weak existence, and no eligible option means no selection. A second full-fact exercise chooses at the actual world and abstains at its accessible rival; it witnesses nonvacuous uniform strong selection alongside contingent exercise, without total choice. These are mathematical analyst controls, not established explanatory adequacy, source correspondence or root discharge.",
+  "lean_declaration": "TruthCore.Explanation.WholeSeriesChoicePolicies.Certificates",
+  "definition_ids": [
+    "b520cb0e-4717-48a2-aa22-9065cfecb73b",
+    "74a88a8d-62a2-4537-a98c-670b90dffc0f"
+  ]
+}

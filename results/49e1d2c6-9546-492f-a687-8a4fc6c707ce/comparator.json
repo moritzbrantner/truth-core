@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.WholeSeriesChoicePolicies.certificates"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
