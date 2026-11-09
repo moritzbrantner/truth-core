@@ -7,5 +7,7 @@
   "basis": "sourced",
   "claim_ids": [
     "4d493b5c-430d-5ed8-ae1f-174edb1ecf01"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Explanation.TruthmakerSourceScopes.GuardedNecessitationAt",
+  "note": "Selected-world encoding of the partial necessary condition only; both bearer and proposition existence guard truth at accessible worlds. Proposition existence is an explicit primitive parameter with OPEN ontological interpretation. Making reuses the primitive bearer-to-fact relation, not implication or efficient causation. Aboutness/relevance and applicability remain OPEN; no sufficient definition of grounding is claimed. Frame and carriers are unrestricted parameters; rigid proposition availability and self-access are not assumed."
 }
