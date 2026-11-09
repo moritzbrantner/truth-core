@@ -1742,12 +1742,12 @@
       "path": "corpus/disambiguations/eternity-and-temporal-perpetuity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model.",
+      "finding": "Existing resolution retained: The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model. Re-review for #1295: only the temporal contrast ETERNAL_2 now binds FutureUnending, nonempty presence with a strictly later present moment after every present moment under an explicit preorder. Owner allows a beginning; neither changing states, convex support, total order nor presence at all ambient times is assumed. This contrast is distinct from the unchanged primitive Eternal/ImmutableIsEternalReading used by this audited bundle. No timeless recognition, source claim, root premise or frozen proof input changed. The calibration/applicability bridge remains OPEN.",
       "before": {
         "sha256": "4223f0ead04a746f0eb1e00b3dd806c184b981f47d383aba4fb28d15a1ef89a6",
         "lean_declaration": null
       },
-      "reviewed_sha256": "8e543ec8364cb35b3eb5f48ff07475a494332dd7d820cccea51eb9d5d7a8eba6"
+      "reviewed_sha256": "3e50233241aa8e80a3177a851ea6728aa08ec3bd564e5c89d9d8b87b3078b817"
     },
     {
       "kind": "disambiguations",
