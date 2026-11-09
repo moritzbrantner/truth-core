@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.PartMediatedSelfMotion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PartMediatedSelfMotion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.PartMediatedSelfMotion.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

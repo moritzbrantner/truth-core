@@ -1,0 +1,15 @@
+{
+  "id": "48d5e591-e6ad-4a09-bf24-798ee827d231",
+  "label": "Local patient lifting gives a distinct internal whole mover",
+  "premise_statement_ids": [
+    "5d765f28-ad62-4f36-ad64-2c0a2c15dd63"
+  ],
+  "conclusion_statement_id": "8aa60e87-8b29-4d78-90d6-f1d0b4b51b7c",
+  "inference_ids": [
+    "510e8d23-bf3a-41ba-bb4b-dd66e6144017"
+  ],
+  "meaning": "Substantive finite role decomposition: the motor is a proper part of the whole. Retains the same event respect. The open lifting premise supplies the link, while proper membership proves distinctness; does not discharge the root no-self-motion or applicability premise.",
+  "definition_ids": [
+    "b45c0bf6-07fa-41d7-b467-954b4c78d604"
+  ]
+}
