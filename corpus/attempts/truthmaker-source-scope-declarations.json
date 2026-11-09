@@ -1,0 +1,16 @@
+{
+  "id": "29e0f4a6-0ae8-4ee7-ae1a-79034b15a2d9",
+  "label": "Truthmaker guarded necessitation and selected-world coverage declaration completion",
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "d6976e18-68ab-5ceb-87e7-25089741d4e4",
+    "dfa37ec3-8020-53ba-8a82-993d6d9cadc9"
+  ],
+  "summary": "Exact inventory: senses 1–4 already have full declarations; completed only sense TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_5 and sense TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_6. TruthmakerSourceScopes.GuardedNecessitationAt preserves both existence guards with arbitrary propositionExists, frame and domains, at an explicit selected world. EveryTruthHasMakerAt preserves forall-fact/exists-bearer scope without adding all-world coverage or soundness. No statements, Challenges, source claims or result certificates changed. Not a proof of either doctrine. Root connection plan: the existing TruthmakerTheories theoryMap uniform-maker/self-access/WorldImmanent branch yields NecessaryBeing, but connecting it to the NECESSARY_1 grounding node (argument 4fd4e8f7) still requires explicit sense, concreteness and grounding bridges. Coverage alone cannot supply these. Existing finite controls remain fragment-relative; these new definitions impose no finiteness restriction. Shared convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0.",
+  "blocker": "OPEN coordinator decision for a subsequent semantic slice: retain Making as the explicitly interpreted primitive grounding relation, or select a separate substantive relevance/aboutness theory with its own obligations? Neither necessary implication nor this declaration supplies such a theory. propositionExists also needs an ontological account before applying the guarded condition to reality. These are semantic applicability blockers, not missing quantifier bodies. No root premise discharged.",
+  "evidence": [
+    "dca7afa2-0f0a-5aeb-9875-3b679f5676e7"
+  ]
+}
