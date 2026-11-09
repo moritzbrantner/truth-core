@@ -99,3 +99,59 @@ positions, network/layered comparisons, graph/queue synchronization, goal/global
 URL reload, expansion, viewport restoration and mobile overflow. The unit fixtures
 call Python's actual frontier computation for grounded and ungrounded reciprocal
 cycles, shared dependencies and transcription closure.
+
+## Per-proposition research progress
+
+`/progress` (or `/truth-core/progress/` on Pages) searches proposition text,
+argument labels/IDs and linked sense definitions. Its closure filter uses the
+canonical dossier establishment flag. Each match opens
+`/dossiers/<statement-uuid>#research-comparison`, also linked from statement pages.
+The comparison keeps support bundles separate from establishment and lists scoped
+refutations with exact result/theorem links and unestablished conditions. Existing
+configuration pages retain checked exclusion/model-witness statuses only when
+built with the existing verified configuration input; registrations stay
+`verification required`. Frame/domain/identity settings remain visible.
+
+Sense rows cover only linked disambiguations and recorded rivals. Without an explicit result `research_comparisons` mapping, cells remain
+untested, including when a nearby theorem or successful attempt exists. Coverage
+and exclusivity are not inferred. No global completion percentage is computed.
+Persist research in existing disambiguations, configuration specs and attempts;
+include exact gaps and next steps in attempt summaries/blockers. Dossiers expose
+those records and their evidence links; no progress registry needs updating.
+
+Affected checks: `bun run --cwd apps/corpus-explorer typecheck`,
+`bun test apps/corpus-explorer/src/lib/research-progress.test.ts`, and after
+`bun run --cwd apps/corpus-explorer build`, run
+`bun --cwd apps/corpus-explorer test tests/progress.browser.test.ts`.
+Repeat the build with `GITHUB_PAGES=true` and the browser check with
+`TEST_BASE_PATH=/truth-core` to exercise Pages links.
+
+### Recording a checked sense/rival comparison
+
+The existing batch generator accepts `[[argument.research_comparisons]]` under
+its owning argument. This produces an optional `research_comparisons` array on
+that argument's result. It annotates the result's exact theorem, never adds a
+closure rule. `corpus.py check` validates references and required scope fields.
+Use statement/definition handles in specs; generated records contain UUIDs.
+
+```toml
+[[argument.research_comparisons]]
+target_statement_id = "<existing target statement handle>"
+rival_statement_id = "<existing rival statement handle>"
+sense_definition_id = "<existing sense definition handle>"
+outcome = "excluded" # or model-witnessed, unresolved, untested
+conditions = "Exact theorem hypotheses, including any internal EM/RootFacts inputs"
+scope = "Same profile, world, witness, domain, frame and interpretation"
+coverage = "Explicit finite constructors covered; coverage premise if any"
+exclusivity = "How this use selects one constructor; premise if any"
+next_step = "Next unanswered discriminating question"
+# witness = "Exact populated model and certificate scope" # required for model-witnessed
+# gap = "Exact missing bridge" # required for unresolved
+```
+
+Record one cell per selected sense/rival pair. The owning result must actually
+certify the advertised outcome; reference validation cannot establish that semantic
+correspondence. Apply the claim/type self-sweep and existing Comparator/NanoDa gates.
+A conditional equivalence classification may annotate exclusions, but a compatible
+cell requires its populated witness, not just the absence of an exclusion.
+These annotations never infer that their hypotheses or the root are true.

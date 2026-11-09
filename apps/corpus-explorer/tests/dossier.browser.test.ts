@@ -43,8 +43,8 @@ test("premise dossier: statement navigation, durable attempt evidence and route 
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
   const base = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
   await page.goto(`${base}statements/${premise}/`);
-  await page.getByRole("link", { name: "Premise dossier and attempt log →", exact: true }).click();
-  await page.waitForURL((url) => url.pathname.endsWith(`/dossiers/${premise}/`));
+  await page.getByRole("link", { name: "Research progress, senses, rivals and attempt log →", exact: true }).click();
+  await page.waitForURL((url) => url.pathname.endsWith(`/dossiers/${premise}/`) && url.hash === "#research-comparison");
   await page.getByRole("heading", { name: "Premise dossier", exact: true }).waitFor();
   expect(await page.getByRole("region", { name: "Current status", exact: true }).innerText()).toContain("not established");
   const attempts = page.getByRole("region", { name: "Attempt log", exact: true });

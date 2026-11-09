@@ -145,6 +145,44 @@ attempt does not establish its target or change frontier closure. The dossier is
 computed from corpus records, not edited separately. See `docs/premise-dossiers.md`
 for the attempt format and reference boundaries.
 
+## Systematic sense and rival comparison
+
+Before research, inspect `/progress` in the corpus explorer and the target's
+`/dossiers/<statement-uuid>#research-comparison`; use
+`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`,
+`python3 scripts/corpus.py dossier <STMT-ID>` for every touched premise, and
+`python3 scripts/corpus.py related <STMT-ID>` before introducing vocabulary.
+These views reuse canonical corpus evidence; they are not a separate status registry.
+
+- Pick a bounded root-route target and a named rival/sense question. Use a finite,
+  explicitly scoped set of relevant senses. State coverage and exclusivity as
+  explicit assumptions; absent mappings remain unknown or untested.
+- Compare within the same meaning, witness, domain and frame. Each cell records
+  a checked exclusion under listed premises, model-witnessed compatibility of
+  the selected bundle, an unresolved exact gap, or untested. An absent refutation
+  is not compatibility; a finite countermodel is not global incompatibility.
+- Keep every assumption visible. A newly verified non-transcription argument is
+  positive conditional support-option progress even with more explicit open
+  inputs; it establishes its conclusion only under the existing closure rules.
+  No independent defense of primitives is required merely to explore consequence.
+- Before handoff persist evidence, exact gaps and the next concrete research step
+  in existing corpus records, batch specs and `corpus/attempts/`, not another
+  research/status registry. Attempts do not confer proof status. Use existing
+  explicit configuration semantics and certificates for assumption comparisons;
+  registration alone remains `verification required`. Generate batch records with
+  `python3 scripts/argument_batch.py records SPEC --write --fix` and inspect the
+  resulting dossier. The static progress view derives closure/support from
+  `frontier --json`, gaps from dossiers/attempts, senses from disambiguations, and
+  scoped comparisons from existing configuration reports. Record explicit sense/rival certificate annotations as
+  `[[argument.research_comparisons]]` in the owning batch spec (fields and commands
+  in `docs/github-pages.md`, “Recording a checked sense/rival comparison”); the
+  generator writes them to the existing result record. Missing mappings stay
+  untested, never inferred from names or imports. These annotations do not
+  bypass theorem verification or alter closure.
+- The coordinator selects the next unanswered discriminating cells and assigns
+  workers disjoint argument clusters. Reuse unchanged checked evidence. Report
+  conditional support progress separately from establishment and root closure.
+
 ## Logic first; attribution deferred (owner direction, 2026-11-05)
 
 The current priority is formalizing the arguments from **Carneades.org** and

@@ -205,7 +205,11 @@ export type CorpusDisambiguation = {
   legacy_id?: string;
   term: string;
   sense_definition_ids: string[];
+  senses?: Array<{ id: string; label: string; definition_id: string; lean_declaration?: string }>;
   resolution: string;
+  coverage_statement_id?: string;
+  exclusivity_statement_id?: string;
+  fork_result_ids?: string[];
 };
 
 type RawCorpusClaim = TermLinks & {
@@ -265,7 +269,15 @@ export type CorpusArgument = TermLinks & {
   meaning: string;
 };
 
+export type ResearchComparisonCell = {
+  target_statement_id: string; rival_statement_id: string; sense_definition_id: string;
+  outcome: "excluded" | "model-witnessed" | "unresolved" | "untested";
+  conditions: string; scope: string; coverage: string; exclusivity: string;
+  next_step: string; witness?: string; gap?: string;
+};
+
 type RawCorpusResult = {
+  research_comparisons?: ResearchComparisonCell[];
   id: string;
   /** Display name (unique per kind); the id is an opaque uuid. */
   label?: string;

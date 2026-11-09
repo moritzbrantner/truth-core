@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ResearchComparison } from "@/components/research-comparison";
 import { notFound } from "next/navigation";
 
 import { findStatement, getCorpus, termsFor, idOf, nameOf } from "@/lib/corpus";
@@ -46,6 +47,7 @@ export default async function DossierPage({ params }: { params: Promise<{ statem
           <p className="mt-2 text-sm leading-6">{claim.interpretation}</p>
         </li>)}</ul> : <p className="mt-3">No source reading states or supports this proposition.</p>}
       </section>
+      <ResearchComparison dossier={dossier} />
       <DossierTermIndex terms={termsFor(corpus, [{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }])} />
       <section className="record-section" aria-labelledby="dossier-rivals">
         <h2 id="dossier-rivals" className="eyebrow">Alternatives and objections</h2>
