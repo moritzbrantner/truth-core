@@ -1,0 +1,100 @@
+{
+  "id": "9be523fa-f090-41d2-9ea3-02b70ec1bc97",
+  "label": "Root bundle immutability inhabited joint interpretation",
+  "description": "The explicitly bound two-being two-respect interpretation satisfies exactly the registered four premise evaluations and the immutability conclusion. The separate finite certificate proves a designated god, potency in the other being, a priority edge and four omission controls. No metaphysical possibility or premise truth follows.",
+  "vocabulary": "ROOT-BUNDLE-IMMUTABILITY",
+  "lean_declaration": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive",
+  "bindings": {
+    "Being": "Bool",
+    "Respect": "Bool",
+    "esse": "false",
+    "IsGod": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive.god",
+    "InAct": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive.act",
+    "InPotency": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive.potency",
+    "MoreIn": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive.more",
+    "PriorSimply": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.positive.prior",
+    "Immutable": "TruthCore.Case.Catholicism.RootBundleWitnessImmutable.immutable"
+  },
+  "carriers": [
+    {
+      "binding": "Being",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.enumerateBool"
+    },
+    {
+      "binding": "Respect",
+      "elements": [
+        "false",
+        "true"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "IsGod",
+        "InAct",
+        "MoreIn",
+        "esse"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.evaluation0"
+    },
+    {
+      "statement_id": "eaa4c679-98a3-5e82-95ff-18bd1177ce74",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "MoreIn",
+        "esse",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.evaluation1"
+    },
+    {
+      "statement_id": "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency",
+        "PriorSimply"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.evaluation2"
+    },
+    {
+      "statement_id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "Respect",
+        "InAct",
+        "InPotency"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.evaluation3"
+    },
+    {
+      "statement_id": "fb3802a8-d04c-5486-95a5-b7ab57857396",
+      "value": "satisfies",
+      "arguments": [
+        "Being",
+        "IsGod",
+        "Immutable"
+      ],
+      "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.evaluation4"
+    }
+  ],
+  "modules": [
+    "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Solution"
+  ]
+}
