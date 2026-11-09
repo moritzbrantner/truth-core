@@ -36,6 +36,20 @@ There are two verified arrivals. They share the two frame premises.
 | A2 | Inert emptiness: a moment with nothing concrete present is followed only by such moments. | open | recorded: a beginning out of nothing |
 | A3 | Possibly, contingent concrete things are absent at a moment and present at a later one. | open | recorded: the initial-state view, on which contingent things are present from the earliest moment of every possible history |
 
+A3 is itself derived (`ContingentComingToBe.possibleContingentFreePast`,
+spec `specs/modal-spine-coming-to-be.toml`) from one open possibility premise:
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| A3′ | Possibly, every contingent concrete thing comes to be (was absent at some earlier moment) in a history with a founded past (no endless descent of moments). | open | recorded: the initial-state view, now incompatible with it by a checked theorem |
+
+So a holder of the initial-state view who denies a necessary concrete being is
+committed to this: in every possible history, either some contingent concrete
+thing was never preceded by its own absence, or no populated moment has a
+founded past. The controls show the view survives in exactly those two ways.
+This is valid where the Third Way's quantifier shift is not, because it
+requires an *earlier* absence and a founded past.
+
 No causal, grounding or explanatory relation occurs in this arrival. The
 controls show that A1, A2 and A3 are each needed and that the bundle is
 satisfiable. Omission of F1 and F2 is not tested there.
@@ -96,7 +110,9 @@ reply to A3 and B1.
 ## Order of work
 
 1. Record the unrecorded rivals in the tables above, each with its replacement account.
-2. A3 against the initial-state view, and A2 against a beginning out of nothing:
-   find commitments each rival's holder accepts that conflict with it, or the model in which it survives.
+2. The two horns left to the initial-state view under A3′: test "some contingent
+   thing never came to be" against the brute-foundation results, and "every
+   possible past is endless" against the causal-finitism and Grim Reaper results.
+   Then A2 against a beginning out of nothing.
 3. Record rivals for J1 and J2, and check whether the ungrounded individual of the join is the root the stage-two chain starts from.
 4. Then the stage-two premises, one attribute group at a time, rivals first.

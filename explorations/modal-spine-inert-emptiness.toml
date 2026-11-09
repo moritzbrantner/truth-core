@@ -17,3 +17,11 @@ conclusion = "STMT-NECESSARY-CONCRETE-AT"
 kind = "derivation"
 status = "certified"
 note = "Stage one of the modal spine to God exists, without a causal premise: InertEmptiness.necessaryConcrete. Stage two (the necessary concrete individual is ungrounded, then the existing NecessaryClassicalGodRoot chain) is the connection plan and is not mapped here."
+[[node]]
+id = "Possibly, every contingent concrete thing comes to be in a history with a founded past"
+[[edge]]
+premises = ["Possibly, every contingent concrete thing comes to be in a history with a founded past"]
+conclusion = "Possibly, contingent concrete things are absent at a moment and present at a later one"
+kind = "derivation"
+status = "certified"
+note = "ContingentComingToBe.possibleContingentFreePast: descend along the founded past to a moment with nothing earlier. Excludes the initial-state rival, which survives only with an endless past or a contingent thing that never came to be (controls)."

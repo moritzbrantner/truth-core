@@ -41,6 +41,7 @@ public import TruthCore.Causality.ConstitutiveNatureUniqueness
 public import TruthCore.Causality.ContingentAncestry
 public import TruthCore.Causality.ContingentAtomicity
 public import TruthCore.Causality.ContingentBeingNode
+public import TruthCore.Causality.ContingentComingToBe
 public import TruthCore.Causality.ContingentTotalityCause
 public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
