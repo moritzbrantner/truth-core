@@ -1,0 +1,25 @@
+{
+  "id": "e28502a4-1b86-4fd7-8bdc-7d9b34e5b699",
+  "label": "Full effect first cause checked comparisons",
+  "argument_id": "ea5d2d1c-8c10-460f-afb7-87945ac17d5d",
+  "challenge_module": "TruthCore.Results.Causality.FullFirstCause.Challenge",
+  "solution_module": "TruthCore.Results.Causality.FullFirstCause.Solution",
+  "theorem": "TruthCore.Results.Causality.FullFirstCause.comparisons",
+  "comparator_config": "results/e28502a4-1b86-4fd7-8bdc-7d9b34e5b699/comparator.json",
+  "status": "solution-present",
+  "description": "Positive model has one fixed effect M and a distinct other caused effect; the source/outgoing and cause-priority separators share its graph, carrier and identity inclusion. No atomistic-input derivation of full existence is asserted; these certificates establish only the displayed relational interpretations. A separate positive interpretation uses a proper inclusion to check its orientation.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "a2e48b9a-892c-591c-b0a1-87f8ab5937fa",
+      "rival_statement_id": "0e604fee-ebc9-5fdd-9541-64e1ec5d22fd",
+      "sense_definition_id": "1e2e8561-04fe-53c6-a998-eb0b98b66292",
+      "outcome": "model-witnessed",
+      "conditions": "Fixed three-atom identity-inclusion graph with origin producing effect and other, and requirement effect other only. Requirement and production are stipulated primitives, not certified reality.",
+      "scope": "Same carrier, graph and inclusion for full effect priority and source/outgoing; no modal transport or actual-domain restriction.",
+      "coverage": "All caused effects in the selected graph are effect or other; one fixed M=effect covers the distinct other by asymmetric requirement. No coverage of philosophical interpretations is asserted.",
+      "exclusivity": "This cell selects the full original predicate, not the source-only predicate as a replacement definition; both may coexist.",
+      "witness": "Fixture.graph, Fixture.effectRequirement, Fixture.Object.origin and the SAME effect witness Fixture.Object.effect; Comparisons records the distinct other caused effect.",
+      "next_step": "Test a bridge from the full existing atomistic assumption bundle to priority of M; the source/outgoing separator alone does not refute that stronger bundle."
+    }
+  ]
+}

@@ -7,7 +7,7 @@
     "e3a887b3-eed4-5836-a406-359a9fb71b17",
     "1e2e8561-04fe-53c6-a998-eb0b98b66292"
   ],
-  "resolution": "The verified analyst endpoints are some graph source and, under activity, the SAME source with an outgoing effect. Rutten's primary first cause additionally requires universal priority-or-inclusion by its effect, and retains his complete-cause semantics. The finite consistency model establishes neither the general full-first-cause conclusion nor modal necessity or God. The source's stronger assertion is kept separately without a Lean proof.",
+  "resolution": "The verified analyst endpoints are some graph source and, under activity, the SAME source with an outgoing effect. Rutten's primary first cause additionally requires universal priority-or-inclusion by its effect, and retains his complete-cause semantics. The finite consistency model establishes neither the general full-first-cause conclusion nor modal necessity or God. The source's stronger assertion is kept separately without a Lean proof. The full original sense now has a generic quantified body, distinct from SourceExists: SAME N is uncaused and produces SAME M, whose asymmetric existential requirement or inclusion covers every OTHER caused effect. Explicit populated controls distinguish effect priority from priority of N. Full existence remains unproved; the actual-node endpoint assembly uses an explicit production dictionary and does not redefine the original generic sense.",
   "term_label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE",
   "senses": [
     {
@@ -19,7 +19,8 @@
     {
       "id": "fc4a4ee9-a3b2-4814-b4f8-984320cc5626",
       "label": "UNCAUSED_SOURCE_VERSUS_FULL_FIRST_CAUSE_2",
-      "definition_id": "1e2e8561-04fe-53c6-a998-eb0b98b66292"
+      "definition_id": "1e2e8561-04fe-53c6-a998-eb0b98b66292",
+      "lean_declaration": "TruthCore.Causality.FullFirstCause.FirstCause"
     }
   ]
 }
