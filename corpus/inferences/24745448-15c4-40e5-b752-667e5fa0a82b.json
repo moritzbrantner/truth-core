@@ -1,0 +1,10 @@
+{
+  "id": "24745448-15c4-40e5-b752-667e5fa0a82b",
+  "label": "Classical attributes full joint witness (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "18c55111-7be1-4610-9dcd-a5152f92bb4f",
+  "rule": "Finite evaluation and conjunction projection",
+  "meaning": "Constructively proves the full certificate equivalent to the original excluded-middle premise; other universal constraints use the same two beings and respects. No root premise discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

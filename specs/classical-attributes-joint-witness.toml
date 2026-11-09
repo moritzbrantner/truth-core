@@ -1,0 +1,15 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.ClassicalAttributesJointWitness"
+results = "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness"
+[[statement]]
+id = "Classical attributes nineteen-premise inhabited joint certificate"
+lean = "ExactBoundary"
+paraphrase = "For one explicit two-being, two-respect assignment, the full nineteen-premise certificate with nonvacuity is equivalent to global excluded middle. Only encoded finite satisfiability, not premise truth or metaphysical possibility."
+[[argument]]
+id = "Classical attributes full joint witness"
+theorem = "certificate"
+axioms = []
+premises = []
+conclusion = "Classical attributes nineteen-premise inhabited joint certificate"
+rule = "Finite evaluation and conjunction projection"
+meaning = "Constructively proves the full certificate equivalent to the original excluded-middle premise; other universal constraints use the same two beings and respects. No root premise discharge."

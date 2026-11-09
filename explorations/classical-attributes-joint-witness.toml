@@ -1,0 +1,13 @@
+target = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
+[[node]]
+id = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
+[[node]]
+id = "Classical attributes nineteen-premise inhabited joint certificate"
+new = true
+text = "One two-being, two-respect interpretation of all nineteen existing assembly premises; no root premise discharge."
+[[edge]]
+premises = ["Classical attributes nineteen-premise inhabited joint certificate"]
+conclusion = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
+kind = "bridge"
+status = "mapped"
+note = "Finite nonvacuity supports the assembly audit only. Applicability and premise truth remain open."
