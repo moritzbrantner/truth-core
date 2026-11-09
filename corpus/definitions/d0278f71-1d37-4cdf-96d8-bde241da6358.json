@@ -1,0 +1,12 @@
+{
+  "id": "d0278f71-1d37-4cdf-96d8-bde241da6358",
+  "label": "direct attitude support exclusion",
+  "term": "direct attitude support exclusion",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.NoDirectAttitudeGround",
+  "definition": "Every immediate constitutive supporter of the sentence fact node is not an attitude node. Indirect ancestors are not excluded.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ],
+  "note": "Analyst formulation, attribution deferred. Uses the supplied Profile context; applicability and support/intervention completeness remain OPEN. Neither original mind-independence sense is completed."
+}

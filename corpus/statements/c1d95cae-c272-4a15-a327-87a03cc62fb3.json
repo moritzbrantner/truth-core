@@ -1,0 +1,11 @@
+{
+  "id": "c1d95cae-c272-4a15-a327-87a03cc62fb3",
+  "label": "Ancestral attitude exclusion implies direct exclusion",
+  "paraphrase": "For every arbitrary profile and sentence, absence of attitude ancestors entails absence of immediate attitude grounds. No converse is certified.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.AncestralImpliesDirect",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "47c13373-ae74-4e4f-aa4b-7056869cc661",
+    "d0278f71-1d37-4cdf-96d8-bde241da6358"
+  ]
+}

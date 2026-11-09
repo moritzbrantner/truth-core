@@ -1,0 +1,12 @@
+{
+  "id": "47c13373-ae74-4e4f-aa4b-7056869cc661",
+  "label": "ancestral attitude support exclusion",
+  "term": "ancestral attitude support exclusion",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.NoAttitudeAncestor",
+  "definition": "Every node with a finite nonempty constitutive-support path to the sentence fact node is not an attitude node. No truth invariance is included.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ],
+  "note": "Analyst formulation, attribution deferred. Uses the supplied Profile context; applicability and support/intervention completeness remain OPEN. Neither original mind-independence sense is completed."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "045c0666-321f-4260-a568-f77fb5332993",
+  "label": "Intervention calibration supplies actual truth",
+  "paraphrase": "For every arbitrary Profile, calibration of its objective classifier to MIND_INDEPENDENT_3 supplies HasTruthComponent. This is a per-reading corollary of the original disjunctive calibration lemma; no classifier adoption is asserted.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeCalibration.InterventionCalibrationTruth",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "388418b3-4658-4e85-8b8e-ade67bef5fc1"
+  ],
+  "disambiguation_ids": [
+    "31931aba-44bc-544c-b514-aeb64901ccc6"
+  ]
+}
