@@ -1,0 +1,61 @@
+{
+  "id": "c742da32-9fdd-426a-ace7-776cc211e1e4",
+  "label": "A2 capability profiles with explicit realization and attribution",
+  "argument_id": "b85ebcb4-4a42-409f-9510-e4f24533041d",
+  "challenge_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.SurveyCapabilityProfiles.profiles",
+  "comparator_config": "results/c742da32-9fdd-426a-ace7-776cc211e1e4/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "45fe3a9b-aa7b-45c5-b6ae-b331044ede1f",
+      "rival_statement_id": "c07a8fec-6cc9-4742-ae0d-781aff348dfa",
+      "sense_definition_id": "63beb159-2c53-434b-8241-f1d9ffcaec42",
+      "outcome": "model-witnessed",
+      "conditions": "The exact profiles certificate has no outer premises. It universally proves each conditional passage only under its internal Realization or Attribution hypothesis; finite controls retain the same ordered pair. Neither bridge is established for reality.",
+      "scope": "Same Bool world and bearer carriers, universal accessibility, ExistsAt=True, selected standpoint false, fixed later ontology, fixed productive Unit-trial process; pair true,false. later has no actual edge at false but realizes the productive response at accessible true.",
+      "coverage": "Only the two explicitly registered analyst capability profiles and their outgoing versus incident domains; original source coverage and exhaustiveness remain OPEN.",
+      "exclusivity": "Each row selects its named declaration-backed profile. No disjointness or exclusivity of profile extensions is assumed; the joint witness satisfies both.",
+      "next_step": "Calibrate the same source domain and ordered pair to the original A2 reading and root application; do not infer source interpretation or premise truth from this model.",
+      "witness": "SurveyCapabilityProfiles.later at standpoint false and productive with trial carrier Unit. Certificate includes Realization later false productive AND Attribution later false productive; its exercise and disposition separators witness the same nonempty ordered causal pair true,false. This certifies this joint bridge bundle only, not original source statements or a necessary concrete being."
+    },
+    {
+      "target_statement_id": "c07a8fec-6cc9-4742-ae0d-781aff348dfa",
+      "rival_statement_id": "45fe3a9b-aa7b-45c5-b6ae-b331044ede1f",
+      "sense_definition_id": "0d2eb15b-b7df-42dd-baa2-e855f6476315",
+      "outcome": "model-witnessed",
+      "conditions": "The exact profiles certificate has no outer premises. It universally proves each conditional passage only under its internal Realization or Attribution hypothesis; finite controls retain the same ordered pair. Neither bridge is established for reality.",
+      "scope": "Same Bool world and bearer carriers, universal accessibility, ExistsAt=True, selected standpoint false, fixed later ontology, fixed productive Unit-trial process; pair true,false. later has no actual edge at false but realizes the productive response at accessible true.",
+      "coverage": "Only the two explicitly registered analyst capability profiles and their outgoing versus incident domains; original source coverage and exhaustiveness remain OPEN.",
+      "exclusivity": "Each row selects its named declaration-backed profile. No disjointness or exclusivity of profile extensions is assumed; the joint witness satisfies both.",
+      "next_step": "Calibrate the same source domain and ordered pair to the original A2 reading and root application; do not infer source interpretation or premise truth from this model.",
+      "witness": "SurveyCapabilityProfiles.later at standpoint false and productive with trial carrier Unit. Certificate includes Realization later false productive AND Attribution later false productive; its exercise and disposition separators witness the same nonempty ordered causal pair true,false. This certifies this joint bridge bundle only, not original source statements or a necessary concrete being."
+    },
+    {
+      "target_statement_id": "64ab0f61-b645-5ed9-bd6b-e127abb42133",
+      "rival_statement_id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+      "sense_definition_id": "63beb159-2c53-434b-8241-f1d9ffcaec42",
+      "outcome": "unresolved",
+      "conditions": "The exact profiles certificate has no outer premises. It universally proves each conditional passage only under its internal Realization or Attribution hypothesis; finite controls retain the same ordered pair. Neither bridge is established for reality.",
+      "scope": "The rival ID names the existing certificate; this row selects only its denialSeparators and bridge-omission conjuncts, not a negation of the certificate. Hold each selected analyst profile, Bool bearer carrier and covered x iff x=true fixed. Outgoing coverage holds but incident coverage fails. This local counterexample is not the original modal chain-coverage statement.",
+      "coverage": "Only the two explicitly registered analyst capability profiles and their outgoing versus incident domains; original source coverage and exhaustiveness remain OPEN.",
+      "exclusivity": "Each row selects its named declaration-backed profile. No disjointness or exclusivity of profile extensions is assumed; the joint witness satisfies both.",
+      "next_step": "Calibrate the same source domain and ordered pair to the original A2 reading and root application; do not infer source interpretation or premise truth from this model.",
+      "gap": "Both Exercise and Disposition have a finite counterexample to transferring failure of incident-domain coverage to failure of outgoing-domain coverage without incoming-only remainder coverage. OmitRealization gives Disposition productive true false with no Exercise empty false true false; omitAttribution gives Exercise later false true false with no Disposition inert true false. These refute unconditional cross-profile transfers, but do not supply the original source interpretation, its modal/chain scope, an actualGraph dictionary or a root witness."
+    },
+    {
+      "target_statement_id": "64ab0f61-b645-5ed9-bd6b-e127abb42133",
+      "rival_statement_id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+      "sense_definition_id": "0d2eb15b-b7df-42dd-baa2-e855f6476315",
+      "outcome": "unresolved",
+      "conditions": "The exact profiles certificate has no outer premises. It universally proves each conditional passage only under its internal Realization or Attribution hypothesis; finite controls retain the same ordered pair. Neither bridge is established for reality.",
+      "scope": "The rival ID names the existing certificate; this row selects only its denialSeparators and bridge-omission conjuncts, not a negation of the certificate. Hold each selected analyst profile, Bool bearer carrier and covered x iff x=true fixed. Outgoing coverage holds but incident coverage fails. This local counterexample is not the original modal chain-coverage statement.",
+      "coverage": "Only the two explicitly registered analyst capability profiles and their outgoing versus incident domains; original source coverage and exhaustiveness remain OPEN.",
+      "exclusivity": "Each row selects its named declaration-backed profile. No disjointness or exclusivity of profile extensions is assumed; the joint witness satisfies both.",
+      "next_step": "Calibrate the same source domain and ordered pair to the original A2 reading and root application; do not infer source interpretation or premise truth from this model.",
+      "gap": "Both Exercise and Disposition have a finite counterexample to transferring failure of incident-domain coverage to failure of outgoing-domain coverage without incoming-only remainder coverage. OmitRealization gives Disposition productive true false with no Exercise empty false true false; omitAttribution gives Exercise later false true false with no Disposition inert true false. These refute unconditional cross-profile transfers, but do not supply the original source interpretation, its modal/chain scope, an actualGraph dictionary or a root witness."
+    }
+  ]
+}

@@ -165,6 +165,7 @@ public import TruthCore.Causality.SubjectFocalRoles
 public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
 public import TruthCore.Causality.SurveyCapabilityControls
+public import TruthCore.Causality.SurveyCapabilityProfiles
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.SurveyProductiveSource
 public import TruthCore.Causality.SurveySourceEndpointControls
