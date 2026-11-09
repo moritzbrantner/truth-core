@@ -10,13 +10,14 @@ import unittest
 import urllib.error
 import urllib.request
 from pathlib import Path
+from urllib.parse import urlencode
 from unittest import mock
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 import agent_service  # noqa: E402
 
-STATEMENT = {"id": "STMT-FIXTURE", "paraphrase": "A fixture statement.", "lean_declaration": "X"}
+STATEMENT = {"id": "a3a3b508-17ab-41b5-98c5-633a133878a8", "legacy_id": "STMT-FIXTURE", "label": "A fixture statement", "paraphrase": "A fixture statement.", "lean_declaration": "X"}
 
 
 def make_workspace(root: Path) -> None:
@@ -72,7 +73,91 @@ class AgentServiceTest(unittest.TestCase):
         self.assertEqual(body["result"]["path"], "corpus/statements/fixture.json")
         self.assertEqual(body["binding"]["inputs"]["file_sha256"], body["result"]["file_sha256"])
         self.assertEqual(self.call("/corpus/record?id=STMT-MISSING")[0], 404)
-        self.assertEqual(self.call("/corpus/record?id=../x")[0], 400)
+        self.assertEqual(self.call("/corpus/record?id=../x")[0], 404)
+
+    def test_record_uuid_and_label(self) -> None:
+        for token in (STATEMENT["id"], STATEMENT["label"], STATEMENT["label"].upper()):
+            with self.subTest(token=token):
+                status, body = self.call("/corpus/record?" + urlencode({"id": token}))
+                self.assertEqual(status, 200)
+                self.assertEqual(body["result"]["record"], STATEMENT)
+                self.assertEqual(body["binding"]["inputs"]["id"], token)
+        self.assertEqual(self.call("/corpus/record")[0], 400)
+
+    def test_record_ambiguity_is_explicit(self) -> None:
+        claims = self.workspace / "corpus" / "claims"
+        claims.mkdir()
+        other = {**STATEMENT, "id": "b3a3b508-17ab-41b5-98c5-633a133878a8"}
+        (claims / "fixture.json").write_text(json.dumps(other), encoding="utf-8")
+        for token in (STATEMENT["legacy_id"], STATEMENT["label"]):
+            status, body = self.call("/corpus/record?" + urlencode({"id": token}))
+            self.assertEqual(status, 400)
+            self.assertIn("names several records", body["error"])
+        self.assertEqual(self.call("/corpus/record?id=" + STATEMENT["id"])[0], 200)
+
+    def test_record_passage_uses_shared_loader(self) -> None:
+        directory = self.workspace / "corpus" / "passages"
+        directory.mkdir()
+        path = directory / "fixture.json"
+        passage = {**STATEMENT, "id": "c3a3b508-17ab-41b5-98c5-633a133878a8", "legacy_id": "PASSAGE-FIXTURE"}
+        path.write_text(json.dumps({"passages": [passage]}), encoding="utf-8")
+        status, body = self.call("/corpus/record?id=PASSAGE-FIXTURE")
+        self.assertEqual(status, 200)
+        self.assertEqual(body["result"]["record"], passage)
+        self.assertEqual(body["result"]["kind"], "passages")
+        self.assertEqual(body["result"]["file_sha256"], agent_service.sha256(path.read_bytes()))
+
+    def test_record_edit_between_index_and_read_binds_captured_bytes(self) -> None:
+        path = self.workspace / "corpus" / "statements" / "fixture.json"
+        updated = {**STATEMENT, "paraphrase": "Edited after indexing."}
+        captured = (json.dumps(updated, indent=2) + "\n").encode()
+        original = agent_service.iter_records
+
+        def edit_after_index(workspace):
+            yield from original(workspace)
+            path.write_bytes(captured)
+
+        with mock.patch.object(agent_service, "iter_records", edit_after_index):
+            status, body = self.call("/corpus/record?id=STMT-FIXTURE")
+        self.assertEqual(status, 200)
+        self.assertEqual(body["result"]["record"], json.loads(captured))
+        expected_hash = agent_service.sha256(captured)
+        self.assertEqual(body["result"]["file_sha256"], expected_hash)
+        self.assertEqual(body["binding"]["inputs"]["file_sha256"], expected_hash)
+
+    def test_record_identity_edit_between_index_and_read_is_rejected(self) -> None:
+        path = self.workspace / "corpus" / "statements" / "fixture.json"
+        original = agent_service.iter_records
+        for field in ("id", "legacy_id", "label"):
+            with self.subTest(field=field):
+                path.write_text(json.dumps(STATEMENT), encoding="utf-8")
+
+                def edit_after_index(workspace):
+                    yield from original(workspace)
+                    path.write_text(json.dumps({**STATEMENT, field: "Changed"}), encoding="utf-8")
+
+                with mock.patch.object(agent_service, "iter_records", edit_after_index):
+                    status, body = self.call("/corpus/record?id=STMT-FIXTURE")
+                self.assertEqual(status, 409)
+                self.assertIn("identity changed", body["error"])
+                self.assertNotIn("binding", body)
+
+    def test_record_workspace_isolation_and_read_only(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            other = Path(tmp).resolve()
+            make_workspace(other)
+            path = other / "corpus" / "statements" / "fixture.json"
+            record = {**STATEMENT, "paraphrase": "Other workspace."}
+            path.write_text(json.dumps(record), encoding="utf-8")
+            before = agent_service.revision(other)
+            status, body = self.call("/corpus/record?" + urlencode(
+                {"workspace": str(other), "id": STATEMENT["legacy_id"]}))
+            self.assertEqual(status, 200)
+            self.assertEqual(body["result"]["record"], record)
+            self.assertEqual(body["result"]["file_sha256"], agent_service.sha256(path.read_bytes()))
+            self.assertEqual({k: body["binding"][k] for k in before}, before)
+            self.assertEqual(agent_service.revision(other), before)
+            self.assertEqual(self.call("/corpus/record?id=STMT-FIXTURE")[1]["result"]["record"], STATEMENT)
 
     def test_corpus_commands_wrap_cli(self) -> None:
         _, body = self.call("/corpus/dossier?id=STMT-FIXTURE")
