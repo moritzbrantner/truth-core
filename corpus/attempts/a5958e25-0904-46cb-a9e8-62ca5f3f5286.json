@@ -1,0 +1,15 @@
+{
+  "id": "a5958e25-0904-46cb-a9e8-62ca5f3f5286",
+  "statement_ids": [
+    "be639b3f-a4b7-5ec0-a9be-accfd8d42598",
+    "61bd42e5-69fe-53ef-9972-c9f28b2b6d14",
+    "702e4171-b48d-5c5e-a016-6bfd5cc67225"
+  ],
+  "date": "2026-11-09",
+  "kind": "reading",
+  "outcome": "blocked",
+  "summary": "Declaration audit of the q3a4 causal/noncausal reason fork: the essential-principles sense is represented by a primitive field, whereas the third sense is linked to Leibnizian explanation of the whole contingent series. Reject field wrappers, self-causation identification without a bridge, and defining explanatory adequacy by absence of efficient causes. No declarations, proof types, claims, or allowances changed. The existing conditional external-cause transcription and its omission controls are retained unchanged.",
+  "blocker": "Coordinator must select series-level versus a new individual-level analyst sense and specify explanatory adequacy and its relation to efficient causation. Essential efficient sufficiency also needs a body distinguishing principles from agent self-causation; the existing Profile does not supply that structure. No premise is discharged.",
+  "evidence": [],
+  "label": "Q3a4 essential efficient sufficiency and whole-series reason declaration blockers"
+}
