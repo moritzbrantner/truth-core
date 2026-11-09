@@ -1,6 +1,6 @@
 {
   "id": "060e7a1a-6c3d-5c8f-b67b-2d0a78044642",
-  "label": "A thing is desirable in a given perfection exactly when it is perfect in that perfection, with…",
+  "label": "Desirability in a perfection is equivalent to perfection in that respect",
   "legacy_id": "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
   "paraphrase": "A thing is desirable in a given perfection exactly when it is perfect in that perfection ('each thing is desirable insofar as it is perfect'), with 'insofar as' read as a per-perfection biconditional. Who desires is not specified.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.DesirableInsofarAsPerfectReading",

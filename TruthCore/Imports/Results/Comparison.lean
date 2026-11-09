@@ -37,6 +37,7 @@ public import TruthCore.Results.Comparison.ProblemOfEvil.ObjectionOneDeniedByCat
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweApparentCompatibility.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweBalanceNeutralCore.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.RoweDeductiveCore.Solution
+public import TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Solution
 public import TruthCore.Results.Comparison.ProblemOfEvil.TruthFromDueDeficiency.Solution
 public import TruthCore.Results.Comparison.QuasiRealism.AntirealistOrderSustainsRobustTruthDeviation.Solution
 public import TruthCore.Results.Comparison.QuasiRealism.DeviatesOnRobustTruth.Solution

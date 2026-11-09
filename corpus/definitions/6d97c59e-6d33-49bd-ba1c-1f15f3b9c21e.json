@@ -1,0 +1,9 @@
+{
+  "id": "6d97c59e-6d33-49bd-ba1c-1f15f3b9c21e",
+  "label": "Witness-local Fifth Way constraints",
+  "term": "witness-local Fifth Way bundle",
+  "lean_declaration": "TruthCore.Causality.WitnessLocalTeleology.Bundle",
+  "note": "Analyst formulation, attribution deferred. No new primitive or empirical attribution. Exact conjuncts, finite models, rival exclusions and open applicability are in docs/notes/teleology-first-mover.md. Universal is the conjunction of the old seven readings; LocalExcept is only a finite control helper.",
+  "basis": "stipulative",
+  "definition": "Existentially choose one natural body and end. The seven explicit conjuncts constrain only that pair, using the inherited Fifth Way predicate interpretations. Reduction supplies an actually unmoved director and direction supplies actual motion through separate hypotheses."
+}

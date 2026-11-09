@@ -1,0 +1,25 @@
+target = "STMT-GOD-EXISTS"
+[[node]]
+id = "STMT-GOD-EXISTS"
+[[node]]
+id = "Characterized profile has an existing exemplar"
+[[node]]
+id = "Nuclear profile transfers to candidate exemplification"
+[[node]]
+id = "Nuclear profile has an actuality-entailing feature"
+[[node]]
+id = "Conceptual actuality entails actual existence"
+[[node]]
+id = "Existing profile exemplar identifies GOD_4"
+new = true
+text = "OPEN missing calibration: each existing exemplar of the selected profile satisfies the actual Signature.IsGod predicate. No theorem supplies this bridge."
+[[edge]]
+premises = ["Nuclear profile transfers to candidate exemplification", "Nuclear profile has an actuality-entailing feature", "Conceptual actuality entails actual existence"]
+conclusion = "Characterized profile has an existing exemplar"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Characterized profile has an existing exemplar", "Existing profile exemplar identifies GOD_4"]
+conclusion = "STMT-GOD-EXISTS"
+kind = "bridge"
+status = "mapped"

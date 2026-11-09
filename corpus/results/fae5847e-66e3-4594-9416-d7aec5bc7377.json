@@ -1,0 +1,11 @@
+{
+  "id": "fae5847e-66e3-4594-9416-d7aec5bc7377",
+  "label": "Universal Fifth Way bundle weakens to witness-local scope",
+  "argument_id": "72b3405c-e2e8-4dae-89cf-76053e1771ed",
+  "challenge_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Solution",
+  "theorem": "TruthCore.Results.Causality.WitnessLocalTeleology.weaken",
+  "comparator_config": "results/fae5847e-66e3-4594-9416-d7aec5bc7377/comparator.json",
+  "status": "solution-present",
+  "description": "Select one observed natural body/end and restrict every inherited premise to it. No universal fact follows back from the local constraints."
+}

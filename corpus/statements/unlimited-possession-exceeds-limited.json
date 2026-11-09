@@ -1,6 +1,6 @@
 {
   "id": "7030af77-c1d4-5f67-bc0c-875048d1b55c",
-  "label": "If c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is…",
+  "label": "If c has r not limited by x and x has r self-limited, c is more r than x",
   "legacy_id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
   "paraphrase": "OPEN analyst premise: if c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is more r than x.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.UnlimitedPossessionExceedsLimited",

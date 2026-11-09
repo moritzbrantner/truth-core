@@ -1,0 +1,11 @@
+{
+  "id": "b5b39d22-7a92-4bc1-9d42-60af1a486aee",
+  "label": "Conceptual existence boundary finite separations",
+  "argument_id": "bbb4600e-3fae-4a72-8e9d-202741c5f268",
+  "challenge_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution",
+  "theorem": "TruthCore.Results.Causality.ConceptualExistenceBoundary.controls",
+  "comparator_config": "results/b5b39d22-7a92-4bc1-9d42-60af1a486aee/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit Bool feature and Unit candidate interpretations jointly witness nonvacuity and failure after each carrying premise is omitted. A nonempty nuclear profile and a candidate do not imply an inhabited existence extension. These models are not metaphysical possibility claims or historical readings of Meinong."
+}

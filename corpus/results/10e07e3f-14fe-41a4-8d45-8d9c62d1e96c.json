@@ -1,0 +1,11 @@
+{
+  "id": "10e07e3f-14fe-41a4-8d45-8d9c62d1e96c",
+  "label": "Witness-local Fifth Way gives first UNMOVED_2 mover",
+  "argument_id": "10d955b0-bd31-4749-88a5-a6561681b619",
+  "challenge_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Solution",
+  "theorem": "TruthCore.Results.Causality.WitnessLocalTeleology.firstMover",
+  "comparator_config": "results/10e07e3f-14fe-41a4-8d45-8d9c62d1e96c/comparator.json",
+  "status": "solution-present",
+  "description": "A single observed witness suffices. Keep explicit local unmoved-director reduction and directing-as-moving; no uniqueness or global governor, no premise truth discharge."
+}

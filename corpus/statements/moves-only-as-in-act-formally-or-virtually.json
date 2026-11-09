@@ -1,6 +1,6 @@
 {
   "id": "e6515003-6767-5b11-bf9f-54280b900c18",
-  "label": "IN-ACT_3, inclusive reading: whatever moves something in a respect is in act in that respect…",
+  "label": "Movers are formally or virtually IN_ACT_3 in the respect in which they move",
   "legacy_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
   "paraphrase": "IN-ACT_3, inclusive reading (attribution deferred): whatever moves something in a respect is in act in that respect formally or virtually (univoce vel eminentius, ST I q.4 a.2).",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsInActFormallyOrVirtually",

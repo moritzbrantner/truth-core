@@ -1,0 +1,11 @@
+{
+  "id": "29626880-687c-4490-97a4-04022bfcdb0d",
+  "label": "Universal Fifth Way strengthens witness-local bundle",
+  "subject_kind": "statement",
+  "subject_id": "b5f01676-0b48-454c-80ee-ade579adb43d",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "65c409cc-eb7f-4d66-8e2d-60c8e5138ed6",
+  "verification_result_id": "fae5847e-66e3-4594-9416-d7aec5bc7377",
+  "note": "Verified by the one-premise weaken result; strictness control changes the second body's observation."
+}

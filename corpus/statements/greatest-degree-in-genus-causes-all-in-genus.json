@@ -1,6 +1,6 @@
 {
   "id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
-  "label": "For an arbitrary selected perfection and supplied preorder of represented degrees, every bearer at…",
+  "label": "Every greatest-degree bearer causes the selected perfection in every other bearer",
   "legacy_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
   "paraphrase": "For an arbitrary selected perfection and supplied preorder of represented degrees, every bearer at a greatest degree causes that perfection in every other bearer. Greatest degrees may be tied between distinct beings.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.GreatestDegreeCausesAllInGenusReading",

@@ -1,6 +1,6 @@
 {
   "id": "38cf20d9-1069-5d7c-a366-21b5f6e08bfe",
-  "label": "For every pair of beings, x is more r than y exactly when x's represented degree is strictly…",
+  "label": "For all beings, being more in the selected respect exactly tracks greater represented degree",
   "legacy_id": "STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE",
   "paraphrase": "OPEN analyst calibration (global, both directions, one respect): for every pair of beings, x is more r than y exactly when x's represented degree is strictly higher than y's. Unlike STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE, not restricted to bearers.",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.MoreInMatchesDegreeEverywhere",

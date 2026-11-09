@@ -1,0 +1,10 @@
+{
+  "id": "cc634f4c-eada-471a-986b-c7284e70a318",
+  "label": "Experience normative permission",
+  "paraphrase": "Occurrence without defeater permits warranted belief; OPEN nonfactive norm.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousExperienceRecognition.Permission",
+  "definition_ids": [
+    "fda63f5c-198f-4416-93f9-a758138a1487",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866"
+  ]
+}

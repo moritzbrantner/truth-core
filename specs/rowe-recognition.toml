@@ -1,0 +1,50 @@
+[batch]
+vocab = "TruthCore.English.Rowe.Recognition"
+results = "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition"
+
+[[statement]]
+id = "Recognition survey coverage"
+lean = "Covered"
+definitions = ["abdffe6a-45ef-40d5-9544-f9b2766c2c59"]
+paraphrase = "OPEN analyst condition: every actual blocking outcome for occurring intense suffering and a qualifying preventer lies on the finite survey."
+
+[[statement]]
+id = "Recognition survey completeness"
+lean = "Complete"
+definitions = ["afd59d06-6528-47de-8a27-933c1163a1f3"]
+paraphrase = "OPEN analyst condition: the fixed investigator recognizes every surveyed actual blocking outcome for occurring intense suffering and a qualifying preventer."
+
+[[statement]]
+id = "Recognition batch nonvacuity"
+lean = "Nonvacuity"
+paraphrase = "A concrete interpretation with coverage, recognition completeness, appearance, actual gratuitous suffering and a qualifying preventer; no permission premise."
+
+[[statement]]
+id = "Recognition batch omission controls"
+lean = "OmissionControls"
+paraphrase = "Two hidden-cost interpretations retain apparent pointlessness, permission and narrow theism while independently omitting coverage and recognition completeness."
+
+[[argument]]
+id = "Actual absence from surveyed recognition"
+theorem = "recognitionToActual"
+sense_bridges = [{term = "POINTLESS_GRATUITOUS", from = "POINTLESS_GRATUITOUS_2", to = "POINTLESS_GRATUITOUS_1", statement_id = "STMT-ROWE-GRATUITOUS-SUFFERING", role = "conclusion"}]
+premises = ["Recognition survey coverage", "Recognition survey completeness", "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING"]
+conclusion = "STMT-ROWE-GRATUITOUS-SUFFERING"
+rule = "Structured finite survey reasoning"
+meaning = "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."
+
+[[argument]]
+id = "Recognition nonvacuity certificate"
+theorem = "nonvacuity"
+premises = []
+conclusion = "Recognition batch nonvacuity"
+rule = "Structured finite survey reasoning"
+meaning = "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."
+
+[[argument]]
+id = "Recognition omissions certificate"
+theorem = "omissionControls"
+premises = []
+conclusion = "Recognition batch omission controls"
+rule = "Structured finite survey reasoning"
+meaning = "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."

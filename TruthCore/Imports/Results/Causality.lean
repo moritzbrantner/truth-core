@@ -65,6 +65,7 @@ public import TruthCore.Results.Causality.ComposerTemporalDefinitions.PastSelfCo
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.PersistenceStrength.Solution
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Bound.Solution
 public import TruthCore.Results.Causality.ComposerTemporalDefinitions.TemporalComposition.Solution
+public import TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution
 public import TruthCore.Results.Causality.ConcreteActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteAtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ConcreteExistentialSupply.Solution
@@ -268,6 +269,7 @@ public import TruthCore.Results.Causality.WholePowerPerfection.Solution
 public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
 public import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
 public import TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution
+public import TruthCore.Results.Causality.WitnessLocalTeleology.Solution
 public import TruthCore.Results.Causality.WorldIndexedSources.Solution
 public import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 public import TruthCore.Results.Causality.WorldSourceRegress.Solution

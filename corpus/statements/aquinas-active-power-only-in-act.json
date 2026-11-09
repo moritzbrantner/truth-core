@@ -1,6 +1,6 @@
 {
   "id": "0a7896e7-fc8a-55b2-a368-978bda235b31",
-  "label": "At the selected world, whatever has causal power, an active power or principle of acting on…",
+  "label": "Every bearer of causal power is in act in some respect at the selected world",
   "legacy_id": "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
   "paraphrase": "At the selected world, whatever has causal power, an active power or principle of acting on another, is in act in some respect: each thing is an active principle insofar as it is in act. Neither the converse nor any degree of power is included.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.OperationFollowsBeing.ActivePowerOnlyInsofarAsInActReading",

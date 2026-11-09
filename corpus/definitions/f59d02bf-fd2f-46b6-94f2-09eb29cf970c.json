@@ -1,0 +1,9 @@
+{
+  "id": "f59d02bf-fd2f-46b6-94f2-09eb29cf970c",
+  "label": "Conceptual nuclear profile and actual exemplar",
+  "term": "nuclear profile and actual exemplar",
+  "lean_declaration": "TruthCore.Causality.ConceptualExistenceBoundary.Interpretation",
+  "note": "Analyst formulation, attribution deferred. All four fields are primitive semantic inputs, not completed definitions of metaphysical actuality or existence. Finite examples and exclusions, structural assumptions and remaining obligations are in docs/notes/conceptual-existence-boundary.md.",
+  "basis": "stipulative",
+  "definition": "A nuclear profile is a predicate on features; exemplification relates candidates to features. Actuality and actual existence are independent predicates. Candidate inhabitation supplies neither. Transfer, Anchor and ActualityExists state the three explicit bridges."
+}

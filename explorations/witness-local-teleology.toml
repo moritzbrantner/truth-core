@@ -1,0 +1,12 @@
+target = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+[[node]]
+id = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+[[node]]
+id = "Witness-local Fifth Way bundle"
+new = true
+text = "One observed body/end satisfies the seven local constraints; no global governor."
+[[edge]]
+premises = ["Witness-local Fifth Way bundle"]
+conclusion = "STMT-THERE-IS-A-FIRST-UNMOVED-MOVER"
+kind = "derivation"
+status = "mapped"

@@ -1,6 +1,6 @@
 {
   "id": "8361dfab-7f97-5fa5-9458-af40bc84c52b",
-  "label": "At the selected world, every cause is NOT part of its effect in the SAME supplied order and…",
+  "label": "No cause is part of its effect at the selected world",
   "legacy_id": "STMT-CAUSE-NOT-PART-OF-EFFECT-AT",
   "lean_declaration": "TruthCore.Causality.ActualCoverNecessaryBeing.CauseNotPartOfEffectAt",
   "paraphrase": "At the selected world, every cause is NOT part of its effect in the SAME supplied order and primitive Ontic cause relation. This excludes cause-as-part, not all common-part overlap; causal endpoint actuality and real applicability remain independent commitments.",

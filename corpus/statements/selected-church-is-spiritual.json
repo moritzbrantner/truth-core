@@ -1,6 +1,6 @@
 {
   "id": "0075b6ed-766b-51af-88f4-b6c4a91ba6a0",
-  "label": "Every society satisfying the selected Church predicate satisfies the selected spiritual-community…",
+  "label": "Every Church-criterion society is a spiritual community",
   "legacy_id": "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
   "paraphrase": "OPEN analyst premise, attribution deferred: every society satisfying the selected Church predicate satisfies the selected spiritual-community predicate. One direction of STMT-CHURCH-HAS-SPIRITUAL-CRITERION only. A merely juridical church without inward communion falsifies it.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedChurchIsSpiritual",

@@ -28,6 +28,7 @@ public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
 public import TruthCore.Causality.ComponentFirstness
 public import TruthCore.Causality.ComposerTemporalDefinitionFork
+public import TruthCore.Causality.ConceptualExistenceBoundary
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
 public import TruthCore.Causality.ConstitutiveNatureUniqueness
@@ -153,5 +154,6 @@ public import TruthCore.Causality.UniqueFeedback
 public import TruthCore.Causality.UniqueRootQuartaControl
 public import TruthCore.Causality.WholePowerPerfection
 public import TruthCore.Causality.WholeRosterFoundation
+public import TruthCore.Causality.WitnessLocalTeleology
 public import TruthCore.Causality.WorldSourceRegress
 public import TruthCore.Causality.WorldwiseCompositeGround

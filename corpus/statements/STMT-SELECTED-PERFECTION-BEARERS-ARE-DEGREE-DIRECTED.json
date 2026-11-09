@@ -1,6 +1,6 @@
 {
   "id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
-  "label": "Each pair of selected-perfection bearers has a bearer at a represented degree at least as high as…",
+  "label": "Each pair of selected-perfection bearers has a bearer at least as high in degree as both",
   "legacy_id": "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED",
   "paraphrase": "OPEN comparison premise: each pair of selected-perfection bearers has a bearer at a represented degree at least as high as both. This local directedness need not compare every pair directly, order all beings, identify tied bearers or give a unique greatest being.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.DirectedBearers",

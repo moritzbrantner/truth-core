@@ -1,6 +1,6 @@
 {
   "id": "70508140-d427-5a99-9be0-ae12ac905302",
-  "label": "For two bearers of the selected perfection, MoreIn holds exactly when the second represented…",
+  "label": "Among selected-perfection bearers, being more exactly tracks greater represented degree",
   "legacy_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
   "paraphrase": "OPEN representation premise: for two bearers of the selected perfection, MoreIn holds exactly when the second represented degree is strictly below the first. No assertion is made about inactive candidates, physical measurement or analogical being having a homogeneous degree scale.",
   "lean_declaration": "TruthCore.Causality.MaximumDefinitionFork.StrictDegreeCalibration",

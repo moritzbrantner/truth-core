@@ -1,6 +1,6 @@
 {
   "id": "b612735b-12a0-55a3-ac0c-3ce36f79e308",
-  "label": "Every actual CONCRETE_6 member of the full selected ancestry cone that is absent at some accessible…",
+  "label": "Actual contingent members of the selected ancestry cone have actual CONCRETE_AND_ABSTRACT_6 grounds",
   "legacy_id": "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
   "lean_declaration": "TruthCore.Causality.SelectedAncestry.ConeContingentGrounded",
   "paraphrase": "Every actual concrete member of the full selected ancestry cone that is absent at some accessible world has an actual concrete ground at the selected world. The ground belongs to the same cone by predecessor closure. Nothing is demanded of unrelated contingent concreta, nor is selected assumed contingent.",

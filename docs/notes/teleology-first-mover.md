@@ -95,3 +95,42 @@ uniqueness condition if a common governor is desired; assess the chance versus
 intention dichotomy and reduction/directing bridges on serious naturalistic
 interpretations. The next alternating existing-argument gap is Rowe's
 recognition-to-actual-cost bridge, not another isolated director theorem.
+
+## Witness-local continuation (2026-11-09)
+
+`WitnessLocalTeleology.Bundle` retains a single existential body/end witness
+and seven constraints on that very pair. `weaken` selects it from the old
+observation and restricts the other six universals; `pack` connects the existing
+seven statement identities to the universal conjunction. `firstMover` eliminates
+chance, obtains a knowing director, invokes actual unmoved-director reduction,
+and obtains actual motion through the explicit directing-as-moving bridge.
+These remain open conditional commitments; no uniqueness or global governor is
+inferred. This is analyst reconstruction with attribution deferred, unrelated to
+the fine-tuning probability batch.
+
+The strictly weaker scope is witnessed by `strict`: b0 has all local constraints
+while b1 is a natural body without any regular outcome. Thus the old universal
+observation fails. `Controls` tests both the existential Bundle itself and its
+fixed-witness LocalExcept form, with nonvacuity and all seven local omissions.
+The old universal omissions are reused as fixtures, not recertified as new
+universal results. Their local restrictions are separately checked. In particular
+teleonomy omits the local knowing director, necessity/selection omits the local
+dichotomy, and mutable directors omit the local reduction. Omission means the
+other six conditions hold and the target fails; it does not claim a full rival
+worldview is consistent or that failed proof search refutes a premise.
+
+Rejected: choosing a different witness for each premise (does not compose),
+dropping reduction or replacing directing by moving in a definition (would
+smuggle a bridge), and inferring a common governor from existential motion.
+Weakest here refers to restriction to one sufficient witness within this inherited
+seven-step reconstruction, not global logical minimality among all conceivable
+arguments. Cognition and intelligence remain in the inherited director/reduction
+outputs; they are not independently established. Applicability and source fidelity
+remain open; no philosophical truth discharge is claimed.
+
+The computed target diagnostic counts the new conjunction as one bare premise,
+so its route cost is one. That is a recording unit containing seven explicit
+constraints, not seven truth burdens discharged. The Catholicism-root frontier
+is unchanged. The substantive weakening rests on `weaken` and the strict scope
+model, independently of the diagnostic count. The first-mover target gains one
+bare local-bundle commitment; it is not an established premise.

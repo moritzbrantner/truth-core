@@ -1,0 +1,14 @@
+{
+  "id": "40d697c5-d665-4287-803e-9cf000224c1f",
+  "label": "Experience yields recognized GOD_4 (inference)",
+  "input_statement_ids": [
+    "81f8599d-0b97-4b88-b0c5-99f1036f19e4",
+    "ecd2eb8d-e245-4679-b7e9-7a265309d992",
+    "a897a12d-4a42-42e8-9b4b-4ee119c08191"
+  ],
+  "output_statement_id": "c3e7fe32-f4ee-4e50-9e8e-351565562737",
+  "rule": "Existential elimination and construction over finite experience tokens",
+  "meaning": "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

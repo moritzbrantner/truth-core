@@ -1,0 +1,11 @@
+{
+  "id": "fa0d5389-0f40-4f32-b37c-b3a62f645d16",
+  "label": "Actual absence from surveyed recognition",
+  "argument_id": "3aae1f42-ee89-4de2-a569-7fca5568415b",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.recognitionToActual",
+  "comparator_config": "results/fa0d5389-0f40-4f32-b37c-b3a62f645d16/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."
+}

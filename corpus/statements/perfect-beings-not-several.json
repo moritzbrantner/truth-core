@@ -1,6 +1,6 @@
 {
   "id": "95879657-de3a-5053-ae90-54a14345e084",
-  "label": "Any two beings, each having every pure perfection and only pure perfections among its real…",
+  "label": "Beings with every pure perfection and no impure determination are identical",
   "legacy_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
   "paraphrase": "Any two beings, each having every pure perfection and only pure perfections among its real determinations, are one and the same being. Ranges over all beings; encodes SCG I.42 [3]'s claim that several absolutely perfect gods, lacking no perfection and with no admixture of imperfection, cannot be several.",
   "lean_declaration": "TruthCore.Causality.WholePowerPerfection.PerfectBeingsNotSeveral",
