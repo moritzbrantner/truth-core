@@ -1,6 +1,6 @@
 {
   "id": "5cda1946-b22e-52dc-9524-a3611c63585c",
-  "label": "Distinct-cause chains for each perfection are well-founded",
+  "label": "Distinct-CAUSE_2 chains for each perfection are well-founded",
   "legacy_id": "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
   "paraphrase": "For every perfection, causes of that perfection do not go on to infinity: the relation 'c is a cause, distinct from x, of x's having the perfection' is well-founded, so there is neither an infinite backward series of such causes nor a cycle of them. Unattributed strengthening: the sources read here deny an infinite line within one species of cause (and efficient causes in the secunda via), not a mixed-species line of causes of one perfection.",
   "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.NoInfiniteRegressOfCausesOfAPerfectionReading",

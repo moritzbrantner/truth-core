@@ -67747,6 +67747,15 @@
   },
   {
     "kind": "statement",
+    "id": "048eac8a-c325-52ad-9627-3f5431eea846",
+    "legacy_id": "STMT-CAUSE-SENSES-EXHAUSTIVE",
+    "label": "Every use of 'cause' on the route to 'nothing is its own efficient cause' is read in one of four…",
+    "flags": [
+      "truncated"
+    ]
+  },
+  {
+    "kind": "statement",
     "id": "c381fe2e-c97f-5311-bc77-9ccfd7c8663f",
     "legacy_id": "STMT-PRIOR-ROUTE-USES-AGREE",
     "label": "Every use of 'prior' on the route stands for one and the same relation: the route does not…",

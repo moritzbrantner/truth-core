@@ -1,6 +1,6 @@
 {
   "id": "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
-  "label": "Every real determination of a first unmoved mover is a pure perfection",
+  "label": "Every real determination of a first UNMOVED_2 mover is a pure perfection",
   "legacy_id": "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
   "paraphrase": "OPEN, unattributed strict pure actuality: every real determination of a first mover moved by none is a pure perfection, so it has no real limiting, receiving or individuating principle that is not an actuality.",
   "lean_declaration": "TruthCore.Causality.PureActThisness.FirstMoverDeterminationsArePure",

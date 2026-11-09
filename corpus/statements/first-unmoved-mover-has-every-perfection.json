@@ -1,6 +1,6 @@
 {
   "id": "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
-  "label": "Every first unmoved mover is formally or eminently in act in every respect",
+  "label": "Every first UNMOVED_2 mover is formally or eminently in act in every respect",
   "legacy_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
   "paraphrase": "Every first mover moved by none comprehends the whole perfection of being: it is in act, formally or eminently, in every respect.",
   "lean_declaration": "TruthCore.Case.Catholicism.FirstUnmovedMoverHasEveryPerfection",

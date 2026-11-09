@@ -1,6 +1,6 @@
 {
   "id": "b3853b1b-cb6d-5fdd-bb94-d8ad99034561",
-  "label": "Each effect has finitely many causes in each of the four causal modes",
+  "label": "CAUSE_3: Each effect has finitely many causes in each of the four causal modes",
   "legacy_id": "STMT-FINITELY-MANY-CAUSES-PER-MODE",
   "paraphrase": "OPEN and contested analyst premise: for each effect and each of Aristotle's four modes of cause (material, formal, source of change, final), the effect has only finitely many causes in that mode. An effect with infinitely many material parts or infinitely many concurring agents falsifies it.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.FinitelyManyCausesPerMode",
