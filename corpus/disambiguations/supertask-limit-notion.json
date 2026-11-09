@@ -11,7 +11,8 @@
     {
       "id": "b032b72a-dacd-43ba-afe4-2f27800e3d2c",
       "label": "LIMIT_OF_A_SUPERTASK_SEQUENCE_1",
-      "definition_id": "350637a5-0f31-57d2-8e70-c1240290e8f8"
+      "definition_id": "350637a5-0f31-57d2-8e70-c1240290e8f8",
+      "lean_declaration": "TruthCore.Causality.RealSequenceConvergesTo"
     },
     {
       "id": "8bedbe60-0949-47e6-abf9-271068ee7e57",

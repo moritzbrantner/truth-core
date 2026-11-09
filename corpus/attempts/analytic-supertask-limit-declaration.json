@@ -1,0 +1,17 @@
+{
+  "id": "8d9e844e-e99c-44bc-96e2-5cab9f757190",
+  "label": "Analytic supertask limit declaration completion",
+  "date": "2026-11-09",
+  "statement_ids": [
+    "38034d91-4c0b-5964-b1e2-63f0940df526",
+    "45accc3c-f350-545e-8059-593e0c0e2b69",
+    "95c15a0f-b876-56f4-9582-45ef6905f271"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Declaration completion, not a new research consequence. Inventory found only schedule-specific ConvergentZenoSchedule and generic Logic.LimitAdmission uses of Tendsto, not an existing distinct arbitrary-real-sequence convergence declaration. RealSequenceConvergesTo has the full epsilon/eventual distance body for arbitrary Nat-to-Real sequences and real limits; realSequenceConvergesTo_iff_tendsto proves exact Mathlib equivalence. ConvergentZenoSchedule.analyticLimit consumes the unchanged original certificate. StableAtLimit remains eventual Boolean equality; existing oscillating-output and unit-cost controls remain unchanged. Rejected using a schedule-specific predicate, opaque token, finite model or alias as general analytic convergence. Target is the supertask objection to the beginning-of-past route STMT-PAST-IS-FINITE; connection plan reuses the existing SU-REAL physical-executability bridge in docs/supertasks.md. That applicability bridge is OPEN and is not derived from analytic convergence; this declaration completion creates no new root connection. Computed frontier-diff against main: 385 open premises (244 bare,96 supported,45 stated),281 support alternatives,lowest route cost28 unchanged; no premise change. Re-reviewed the three pinned bundle audit scopes: these records occur in none, so no pins changed. Claim/type self-sweep: epsilon quantifiers unrestricted, no eventual-equality requirement, no output/endpoint-event/physical realization conclusion, no modified Challenge, result, argument or stating claim. Attribution deferred; no attribution change. CLI orphans command unavailable in this checkout; existing context explicitly reports the Zeno result does not reach the root. Coordinator-owned migration/proposition notes untouched. Final local validation: full lake build passed; 233 affected results bound with zero mismatches; original Zeno Comparator and NanoDa solution check passed; scoped library NanoDa checked 8994 declarations with zero typechecker errors and one axiom pretty-printer error. Direct Lean axiom inspection reports exactly propext, Classical.choice, Quot.sound for all three additions. Corpus, attribution, bundle audits, generated imports/docs and diff checks passed. Required delivered-head CI and current-head review remain publication gates.",
+  "evidence": [
+    "ccff75b9-ff02-5af8-8d20-c89985958aca"
+  ],
+  "blocker": "No declaration semantic blocker. SU-REAL applicability/physical realization remains open; next work must specify that bridge, not infer it from mathematical convergence."
+}
