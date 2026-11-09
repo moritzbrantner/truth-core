@@ -14,28 +14,30 @@ theorem connectionAndControls : ConnectionAndControls := by
   · constructor
     · constructor
       · intro s _
-        simp [echo]
+        exact ⟨rfl, rfl⟩
       · intro s _ b c h
-        simp [echo] at h
-        simp [h]
+        cases b
+        · exact Bool.noConfusion h
+        · exact ⟨fun _ => trivial, fun _ => rfl⟩
     · constructor
       · constructor
         · intro s _
-          simp [echo]
+          exact ⟨rfl, rfl⟩
         · intro h
           have bad := h false trivial true 0 (by decide)
-          simp at bad
+          exact Bool.noConfusion (bad.mp rfl)
       · constructor
         · constructor
           · exact ⟨fun s => s = true, fun _ => Iff.rfl⟩
           · intro h
             have bad := (h true trivial).1
-            simp [echo] at bad
+            exact Bool.noConfusion bad
         · constructor
           · intro s hs b c h
-            simp [echo] at h
-            simp [h, hs]
+            cases b
+            · exact Bool.noConfusion h
+            · exact ⟨fun _ => hs, fun _ => rfl⟩
           · intro h
             have bad := h false trivial true 0 (by decide)
-            simp at bad
+            exact Bool.noConfusion (bad.mp rfl)
 end TruthCore.Results.Logic.CertifiedCorrection

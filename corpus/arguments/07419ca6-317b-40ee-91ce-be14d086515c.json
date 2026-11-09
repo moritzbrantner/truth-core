@@ -6,5 +6,8 @@
   "inference_ids": [
     "b086ecc8-d21f-4e16-8408-f282fd782540"
   ],
-  "meaning": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established."
+  "meaning": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established.",
+  "definition_ids": [
+    "2383deea-6f13-4ea0-8822-1b51db573f7d"
+  ]
 }
