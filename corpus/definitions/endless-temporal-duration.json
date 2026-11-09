@@ -1,9 +1,9 @@
 {
   "id": "cb13f508-17f7-55b8-bf5d-52959b7a2ee5",
-  "label": "ENDLESS_TEMPORAL_DURATION_2, contrast…: Duration with an unending succession of earlier and later…",
+  "label": "ENDLESS_TEMPORAL_DURATION_2, contrast\u2026: Duration with an unending succession of earlier and later\u2026",
   "legacy_id": "DEF-ENDLESS-TEMPORAL-DURATION",
   "term": "endless temporal duration, contrast sense",
   "definition": "Duration with an unending succession of earlier and later moments. This permits succession and therefore differs from eternity, which has no succession and is all at once.",
   "basis": "stipulative",
-  "note": "A stipulated contrast only; no temporal model or perpetually existing thing is asserted. A pinned account of temporal perpetuity would be needed before using it as a premise. The distinction is motivated by q.10 a.1’s account of time and eternity."
+  "note": "A stipulated contrast only; no temporal model or perpetually existing thing is asserted. A pinned account of temporal perpetuity would be needed before using it as a premise. The distinction is motivated by q.10 a.1\u2019s account of time and eternity. Declaration-completion audit and explicit endpoint alternatives (owner decision pending): corpus/definitions/endless-temporal-duration-audit.md. Existing EndlessLife permits finite timelines and is not a faithful direct binding."
 }
