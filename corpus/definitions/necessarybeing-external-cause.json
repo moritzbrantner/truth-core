@@ -7,5 +7,7 @@
   "basis": "sourced",
   "claim_ids": [
     "6dd797b5-24c7-5873-af6a-e67d9bfa63b8"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Causality.SurveyExternalCause.ExternalCause",
+  "note": "The Lean interpretation exposes the full exclusion clause for a particular cause and selected thing on an arbitrary carrier: cause c whole ∧ c ≠ whole ∧ ∀ p, part p whole → c ≠ p. Cause and part are explicit primitive relation parameters, without imposed structural laws; they are not definitions of productive causation or parthood. No world, time, actual existence, concreteness, nonoverlap or necessity is inferred. Reflexive and proper parthood are both admitted because self-exclusion is explicit. General applicability of these relations and identification with Scenario Causes and Mathlib parthood remain open. Bool examples are controls only; no finite restriction is imposed on the definition. The source claim is unchanged; this declaration interprets its exclusion gloss, not its universal contingent-cause principle."
 }
