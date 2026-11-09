@@ -3,7 +3,9 @@
 Target: existing sense `acd3635a-c1e1-4aa8-b639-652ba03d9e6b`, definition
 `cb13f508-17f7-55b8-bf5d-52959b7a2ee5`. This is the contrast at the
 `STMT-GOD-IS-ETERNAL` eternity fork, not a replacement for ETERNAL_1.
-Owner endpoint question is pending; neither alternative below is the binding.
+Owner resolved the endpoint question: a beginning is allowed, with no final moment.
+The endpoint-only future reading is now the binding; the alternatives below
+preserve the earlier audit, not additional requirements.
 
 ## Reuse and rejected shortcuts
 
@@ -25,7 +27,7 @@ existing `LifeHasSuccession` would add unequal states, a stronger commitment
 than mere successive temporal duration. Conversely absence of state change is
 not by itself atemporality. No timeless recognition follows from this audit.
 
-## Explicit alternatives awaiting endpoint decision
+## Alternatives considered before the endpoint decision
 
 Let T be supplied times, `<` the supplied earlier-than, and D(t) the subject's
 temporal presence. Require strict linear order laws explicitly: irreflexivity,
@@ -68,8 +70,38 @@ silently retargeted. Coverage/exclusivity and BoethianRecognition remain open.
 No God-eternity, source applicability, or Catholicism premise is discharged.
 Other duration-sense records are outside ownership and have not been edited.
 
-Claim/type self-sweep: no source claims, statement types, frozen Challenges or
-proofs changed; no binding asserted, no state inequality or timeless recognition
-introduced. Exact removable missing-declaration IDs: none while the semantic
-question remains pending. Shared policy sourceRevision:
+Initial audit self-sweep (before owner decision): no source claims, statement
+types, frozen Challenges or proofs changed; no binding then asserted, no state
+inequality or timeless recognition introduced. Exact removable missing-declaration ID after completion:
+`acd3635a-c1e1-4aa8-b639-652ba03d9e6b` (ETERNAL_2). Shared policy sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+
+## Delivered interpretation after owner decision
+
+`TruthCore.Causality.EndlessTemporalDuration.FutureUnending` binds both the
+existing sense and definition directly. Its type is
+`{Time : Type u} -> [Preorder Time] -> (Time -> Prop) -> Prop`, with body
+`(exists t, present t) and forall t, present t -> exists u, t < u and present u`.
+The supplied preorder makes strict comparison irreflexive and transitive;
+it imposes no total comparability or temporal completeness. Temporal presence
+is the primitive semantic input, not a newly asserted existence or life bridge.
+Convexity and ambient-time coverage were deliberately not included. No state
+parameter or state inequality occurs. Beginninglessness is not needed by any
+consumer in this slice, so no unused sibling statement is introduced.
+
+The module's semantic controls prove empty support fails, an actual final
+present moment fails, Nat with presence everywhere succeeds despite having a
+first moment, bounded Nat support fails, and constant states coexist with
+unending temporal presence. These are definition tests, not new philosophical
+argument/results or a premise discharge. Existing EndlessLife/EndlessDefinition,
+all frozen Challenges, source records, and root recognition remain unchanged.
+The stronger beginningless alternative remains available for a future consumer;
+if used, it needs its own sibling statement and checked strength relation.
+
+Self-sweep after decision: prose and binding agree on existential inhabitance,
+strictly later present witnesses, beginning allowed, no state change, no convexity
+or totality, and explicit supplied order. No claim of physical applicability,
+full Boethian possession, or incompatibility with constant life-states is made.
+A constant-state operational Boethian profile can overlap; atemporal recognition
+is a separate open bridge, not inferred from distinct names or types.
