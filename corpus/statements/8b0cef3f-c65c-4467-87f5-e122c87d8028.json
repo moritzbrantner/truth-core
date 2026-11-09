@@ -1,0 +1,11 @@
+{
+  "id": "8b0cef3f-c65c-4467-87f5-e122c87d8028",
+  "label": "Explicit anchor correspondence preserves the sample target",
+  "paraphrase": "The sample relation pairs anchors with anchors and nonanchors with nonanchors across Unit and Bool; every related pair agrees on anchor membership. This selected relation is not asserted total, adequate, or a real ground identity.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.correspondenceControl",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

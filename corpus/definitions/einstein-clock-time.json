@@ -1,11 +1,12 @@
 {
   "id": "d349494b-d57b-5c7f-8d44-f7180abae1d8",
-  "label": "Einstein1905 frame clock time: In §1 the time of an event is the indication of a stationary local…",
+  "label": "Einstein1905 frame clock time: In \u00a71 the time of an event is the indication of a stationary local\u2026",
   "legacy_id": "DEF-EINSTEIN-CLOCK-TIME",
   "term": "Einstein1905 frame clock time",
-  "definition": "In §1 the time of an event is the indication of a stationary local clock synchronized with a specified reference clock in the same stationary system. Remote synchronization is introduced by a light-travel-time convention, with consistency and symmetry/transitivity assumed.",
+  "definition": "In \u00a71 the time of an event is the indication of a stationary local clock synchronized with a specified reference clock in the same stationary system. Remote synchronization is introduced by a light-travel-time convention, with consistency and symmetry/transitivity assumed.",
   "basis": "sourced",
   "claim_ids": [
     "2b7a3431-5e29-5c91-a0ff-a23a0eb78fcb"
-  ]
+  ],
+  "note": "Original sense declaration remains unresolved. Bounded analyst protocol, exact controls and physical-scope/history-dictionary blockers: corpus/definitions/stationary-clock-protocol-candidate.md. This candidate is not a replacement for the sourced meaning."
 }

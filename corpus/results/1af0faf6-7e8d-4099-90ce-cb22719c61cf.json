@@ -1,0 +1,11 @@
+{
+  "id": "1af0faf6-7e8d-4099-90ce-cb22719c61cf",
+  "label": "One permitted anchor is definable across Unit and Bool",
+  "argument_id": "ae72cc59-3ec0-46e9-991b-c26f91b13883",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.varying",
+  "comparator_config": "results/1af0faf6-7e8d-4099-90ce-cb22719c61cf/comparator.json",
+  "status": "solution-present",
+  "description": "One formula, equality to the sole permitted anchor, defines its singleton on both Unit and Bool with constantly false marker interpretation. This is a nonempty genuinely varying-carrier profile, not a physical calibration."
+}

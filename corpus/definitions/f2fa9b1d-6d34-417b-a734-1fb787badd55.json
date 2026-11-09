@@ -1,0 +1,9 @@
+{
+  "id": "f2fa9b1d-6d34-417b-a734-1fb787badd55",
+  "label": "Restricted first-order plus finite-reachability specification",
+  "term": "restricted path specification",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.PathFormula",
+  "definition": "PathFormula has a first-order formula leaf over ordinaryLanguage, negation, conjunction and finite reflexive reachability along an admitted ordinary binary relation between free variable endpoints. No arbitrary semantic predicate leaf, object constant, function-valued target atom, predicate quantifier or syntax choice indexed by interpretation exists. Endpoints use the same permitted-parameter subtype as FO. Path is a finite inductively generated edge sequence including zero edges; it is graph connectivity, not causation or composition. Nat successor reaches two from zero without a direct edge; an edgeless Bool graph cannot connect false to true. This is a restricted richer syntax, not all richer languages and not a proof of strict FO expressive separation.",
+  "note": "Analyst candidate; attribution deferred. OPEN: original special-vocabulary calibration; admissible graph relations and parameter policy for actual grounds; target/correspondence adequacy; occurrence/property-to-bearer bridge. No original sense completed or allowance removed. See specs/physical-ground-path-specification.toml and the existing physical-ground-specification-declaration attempt."
+}
