@@ -1,6 +1,6 @@
 {
   "id": "4c22019a-12c3-5cf6-adff-7288a3741e1a",
-  "label": "The supplied named feature-based definition does not correctly describe goodness in the fixed…",
+  "label": "The named feature account fails to describe goodness in the fixed profile",
   "legacy_id": "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
   "paraphrase": "The supplied named feature-based definition does not correctly describe goodness in the fixed profile. This is an open substantive failure premise, not mere dislike or unexplained adequacy.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessFormEnd.FeatureAccountFails",

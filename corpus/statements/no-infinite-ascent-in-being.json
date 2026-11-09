@@ -1,6 +1,6 @@
 {
   "id": "7dfa068a-9974-5fcd-ba23-fac4dee2fc70",
-  "label": "There is no infinite ascent in being, that is, no sequence of beings each more a being than the…",
+  "label": "The supplied more-in-being relation is well-founded against ascent",
   "legacy_id": "STMT-NO-INFINITE-ASCENT-IN-BEING",
   "paraphrase": "OPEN analyst premise: there is no infinite ascent in being, that is, no sequence of beings each more a being than the one before (Lean WellFounded of 'is more in esse than'). Not a finite domain, a total order or a unique top.",
   "lean_declaration": "TruthCore.Causality.Round3FourthWay.NoInfiniteAscentInBeing",

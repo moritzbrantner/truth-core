@@ -1,6 +1,6 @@
 {
   "id": "5bedb69b-8fbb-53b5-be2f-377d1331cf37",
-  "label": "OPEN analyst dichotomy, read from ST I q.18 a.3 co.: whatever has an operation either operates…",
+  "label": "Every bearer of an operation operates from itself or is moved in some respect",
   "legacy_id": "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
   "paraphrase": "OPEN analyst dichotomy, read from ST I q.18 a.3 co. (things operate either from themselves or as moved by others): whatever has an operation either operates from itself or is being moved in some respect.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.OperationFromSelfOrAsMoved",

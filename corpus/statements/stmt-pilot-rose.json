@@ -1,6 +1,6 @@
 {
   "id": "f93a88f9-d8f9-5b2a-99ae-b0dea250403f",
-  "label": "Jesus rose from the dead, using the existing skeleton’s historical predicate; no identification…",
+  "label": "Jesus rose from the dead in the historical case signature",
   "legacy_id": "STMT-PILOT-ROSE",
   "paraphrase": "Jesus rose from the dead, using the existing skeleton’s historical predicate; no identification with the separate uninterpreted Creed article is made.",
   "lean_declaration": "TruthCore.History.Resurrection.Rose",
