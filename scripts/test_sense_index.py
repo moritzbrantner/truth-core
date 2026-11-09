@@ -143,6 +143,39 @@ class SenseBindRolesTest(SenseBindTest):
                                                     statements, self.CONSTANTS, {"DS": {S1}}, binding), [])
 
 
+class EfficientRegressGodBindingTest(unittest.TestCase):
+    def test_matching_head_cannot_hide_wrong_god_predicate(self):
+        root = Path(__file__).resolve().parents[1]
+        god = json.loads((root / "corpus/disambiguations/god.json").read_text())
+        classical = next(s for s in god["senses"] if s["label"] == "GOD_4")
+        constants = {"GOD": {s["id"]: s.get("lean_declaration") for s in god["senses"]}}
+        statements = {s["id"]: s for _, s in corpus.load_dir("statements")}
+        definition_senses = {s["definition_id"]: {s["id"]} for s in god["senses"]}
+        paths = sorted((root / "corpus/arguments").glob(
+            "CATHOLICISM-FROM-EFFICIENT-REGRESS-WITH-CLASSICAL-ATTRIBUTES*.json"))
+        self.assertEqual(len(paths), 4)
+        for path in paths:
+            with self.subTest(argument=path.stem):
+                argument = json.loads(path.read_text())
+                self.assertEqual(argument["term_senses"]["GOD"], classical["id"])
+                statement = next(statements[sid] for sid in argument["premise_statement_ids"]
+                                 if statements[sid].get("legacy_id") == "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE")
+                # Same generic declaration head in both cases. A separate classical
+                # hypothesis must not mask the wrong instantiation of hFull.
+                described = {"binders": [
+                    {"name": "hFull", "prop": True, "head": statement["lean_declaration"],
+                     "senses": [classical["lean_declaration"]]},
+                    {"name": "hOther", "prop": True, "senses": [classical["lean_declaration"]]}],
+                    "result": {"senses": []}}
+                binding = {"premises": [{"hypothesis": "hFull", "statement_id": statement["id"]}]}
+                def problems():
+                    return corpus.sense_bind_problems({}, argument, described, statements,
+                                                      constants, definition_senses, binding)
+                self.assertEqual(problems(), [])
+                described["binders"][0]["senses"] = []
+                self.assertEqual([p["kind"] for p in problems()], ["statement-sense-not-instantiated"])
+
+
 class RatchetTest(unittest.TestCase):
     def test_identity_migration_is_not_an_added_exception(self):
         from corpus_ids import Aliases, legacy_uuid

@@ -1,0 +1,45 @@
+[batch]
+vocab = "TruthCore.Causality.TemporalCoverageEternity"
+results = "TruthCore.Results.Causality.TemporalCoverageEternity"
+
+[[statement]]
+id = "Temporal comparison path life transport"
+lean = "Transport"
+paraphrase = "Interminable life at an explicit living anchor transports along finite paths of admitted comparisons in either direction. Analyst formulation; attribution deferred."
+
+[[statement]]
+id = "Temporal everlasting consumer with explicit coverage"
+lean = "Consumer"
+paraphrase = "For the selected being and world, anchor comparison-path coverage, Interminable life, actual life at that anchor and life-to-being calibration imply the existing EverlastingAt predicate. No primitive eternity or timeless possession follows. Analyst formulation; attribution deferred."
+
+[[statement]]
+id = "Temporal coverage and life calibration omission controls"
+lean = "Controls"
+paraphrase = "Nonempty living controls: a disconnected two-time frame permits differing life support despite Interminable; full singleton coverage and life do not imply existence without calibration; a calibrated singleton witnesses all consumer inputs and conclusion. Formal interpretations only."
+
+[[argument]]
+id = "Temporal comparison path life transport verified"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+theorem = "transport"
+premises = []
+conclusion = "Temporal comparison path life transport"
+rule = "Classical elimination of boundary witness and induction on actual comparison paths"
+meaning = "Non-transcription conditional transport: the coverage contains only comparison paths, not the desired life/existence conclusion. Interminable constrains edge endpoints, and induction transports life. No premise truth, source attribution, full temporal ontology or timeless possession is established."
+
+[[argument]]
+id = "Temporal everlasting consumer verified"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+theorem = "consumer"
+premises = []
+conclusion = "Temporal everlasting consumer with explicit coverage"
+rule = "Comparison path induction followed by selected life-to-being calibration"
+meaning = "Conditional support interface for STMT-GOD-IS-ETERNAL; no root discharge. Conditions remain quantified inside Consumer: connected coverage, Interminable, a living anchor and LivesAt-to-IsAt for the same being/world. EverlastingAt is not BoethianRecognition; see docs/notes/eternity-definition-fork.md."
+
+[[argument]]
+id = "Temporal coverage omission controls verified"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+theorem = "controls"
+premises = []
+conclusion = "Temporal coverage and life calibration omission controls"
+rule = "Explicit finite witnesses and boundary elimination"
+meaning = "Nonvacuity and carrying omissions for temporal transport only, not metaphysical possibility or a renewed immutability-alone investigation."

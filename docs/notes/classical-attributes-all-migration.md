@@ -727,3 +727,35 @@ pinned bundle inventories, both batch generators, exploration map, attribution,
 sense/label ratchets and whitespace checks pass. The computed frontier delta
 against pinned main `cdab78f75` is included in the PR description. No additional
 logical support or truth discharge is attributed to this merge repair.
+
+
+### Integration after the original nineteen-premise witness investigation
+
+Merged main `062424944`, including #1276 (`afd38a433`) and #1281/#1286
+GOD binding activations. The shared attempt retains both the fixed rich
+assignment's certificate/global-EM equivalence and the registered local-logic
+consequence, with both evidence sets. These results answer different questions:
+#1276 leaves the original closed zero-axiom joint-registration obstruction
+explicit; #1278 derives the existing consequence under its local fragment and
+explicit analyst sibling inputs. Neither authorizes changing the registry
+policy or closing global excluded middle. Both imported result families remain.
+
+The coordinator's five definition links in the local-logic spec, statement and
+projection argument are unchanged from `17dadf139`. Registered argument/result
+and sibling identities, the original and registration Challenges, and every
+existing proof source remain unchanged. The only text conflicts were the
+Case import aggregator (regenerated) and shared attempt (combined summaries
+and evidence). The three automatically merged pinned inventories remain fresh;
+the changed GOD-activation dispositions were checked against the unchanged
+Signature.IsGod applications in the primal/efficient identity consumers.
+Reuse the twelve successful checks and clean review at `17dadf139` for those
+unchanged proof inputs; new integration checks cover the affected imports,
+metadata binding, corpus/bundle generation, ratchets and computed frontier.
+
+Integration checks: all four affected area aggregators build; scoped binding
+reports 16 bound results and zero mismatches, including the landed joint-witness
+result, activated consumers and the local-logic results. Both generators report
+zero files to write. Corpus, all pinned bundle inventories, attribution, label
+and sense ratchets, and whitespace checks pass. The PR carries the freshly
+computed frontier delta against `062424944`; the repair itself adds no logical
+support or truth discharge. Final delivered-head CI remains required.

@@ -1,0 +1,11 @@
+{
+  "id": "5583089b-a4a8-4a42-ad6b-da64b6a8e80f",
+  "label": "Classical attributes full joint witness",
+  "argument_id": "c7caf5e6-098a-4c66-825f-a662249390ba",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.certificate",
+  "comparator_config": "results/5583089b-a4a8-4a42-ad6b-da64b6a8e80f/comparator.json",
+  "status": "solution-present",
+  "description": "Constructively proves the full certificate equivalent to the original excluded-middle premise; other universal constraints use the same two beings and respects. No root premise discharge."
+}

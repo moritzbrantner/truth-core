@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.ClassicalAttributesJointWitness.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

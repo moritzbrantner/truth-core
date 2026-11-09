@@ -1978,3 +1978,96 @@ and conclusion, even with `σ.IsGod g` elsewhere in the theorem type. The
 classical instantiation passes. The existing checker therefore needs activation,
 not another predicate-checking mechanism. Broader #1233 coverage, including
 statement-level sense declarations and other root families, remains open.
+
+### Prima-via classical-attribute sibling activation (#1233)
+
+The IDENTITY, ADOPTED-POTENCY and IDENTITY-ADOPTED-POTENCY siblings of
+`CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` select the existing
+GOD_4 UUID (`52c2ebac-0a71-4dd4-8a21-804c1dd0847a`). Their actual frozen
+types use `TruthCore.Case.Catholicism.Signature.IsGod` in `hFull`, `hApplied`,
+`hAttrs` (through `IsTheOneGod`) and `hMaximal`; the conclusion remains
+`CatholicismTrue σ`. Identity and adopted potency change other parameters,
+not this predicate. The existing real Lean same-head positive/negative control
+remains applicable: a trivial predicate fails on the bound statement even when
+the classical predicate occurs elsewhere. No checker or proof change is needed.
+
+Claim/type self-sweep: only term selection changes; existing meanings, frozen
+Challenges, proofs, UUIDs and labels are retained. Naming, maximality, identity,
+attribute sufficiency and historical bridges remain conditional inputs. This
+activation establishes no premise or applicability to reality. The pinned
+identity consumer audit was reviewed against these exact types. The merged
+same-witness pair is unchanged. Generic Fourth Way and efficient-regress
+consumers belong to other lanes; full-description, maxime-ens and Q11 root
+consumers remain outside this bounded activation. Legacy sense links remain
+open migration work; no allowlist grows.
+
+Merge reconciliation with #1275 and #1283 preserves their efficient-regress and
+full-description selections alongside these three siblings. The naming audit
+retains all three reviewed argument dispositions (the two efficient-regress
+consumers and this identity consumer); the record bytes and hash pins remain
+valid, so no mechanical hash refresh is needed. Existing binding and real Lean
+control evidence applies unchanged: their declarations, checker and inputs did
+not change in this reconciliation.
+
+### Full-description root reductions without motion (#1233)
+
+Activated GOD_4 for CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION and
+CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION only. Both frozen
+StrengthConsumers.RootFull/RootIdentity theorem types instantiate hFull's
+GodNamesTheFullyDescribedPrinciple predicate with Signature.IsGod and conclude
+CatholicismTrue σ. RootFull retains GodHasClassicalAttributes σ as an input;
+RootIdentity instead retains ClassicalAttributesSuffice with IsTheOneGod σ.IsGod
+and GodIsMaximalInBeing σ.IsGod. These are explicit conditional configurations;
+no premise truth, naming converse, uniqueness or real-world applicability is
+established by selecting the existing sense UUID. There is no predicate ambiguity
+in these two types. No statement, Challenge, proof, shared definition or allowlist
+changes. Claim/type self-sweep: only argument term_senses changes; all premises,
+conclusions and meanings remain identical.
+
+Reviewed all three pinned migration bundles: neither selected argument is a
+pinned record, so no audit hashes or dispositions need refreshing. Existing
+naming/first-mover findings referring to these reductions retain their meanings.
+The real Lean GodSenseBinding control keeps the GodIsMaximalInBeing head fixed
+and a classical predicate elsewhere while replacing the bound predicate with
+fun _ => True; it tests binding, not a philosophical countermodel.
+
+Remaining bounded root-consumer families (excluding records reserved by #1263,
+#1267, #1275 and #1281): CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS
+and its ADOPTED-POTENCY sibling; CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION;
+CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY;
+CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE and its ADOPTED-POTENCY
+sibling; CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION and its
+ADOPTED-POTENCY sibling. Their activation remains unverified here: inspect their
+actual bound predicate before selecting GOD_4. Intermediate stage/witness and
+nominal maxime-ens families also remain outside this slice. Existing legacy
+multi-sense navigation is not evidence of a semantic bridge. Broader #1233 remains
+open; this metadata activation has no premise change.
+
+### GOD_4 adopted Fourth-Way root consumers (#1233)
+
+The bounded family is
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY`
+(argument `c1834d8b-eef3-569f-94ad-045e797870d2`) and
+`CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE-ADOPTED-POTENCY`
+(argument `7217cf65-f05f-56bf-a1e1-2f9f36b27d0b`). Both now select existing GOD_4
+`52c2ebac-0a71-4dd4-8a21-804c1dd0847a`.
+
+Claim/type self-sweep: their unchanged Solution types use
+`GodNamesTheFullyDescribedPrinciple ... σ.IsGod` in `hFull`,
+`GodIsMaximalInBeing σ.IsGod ...` in `hMaximal`, and `ClassicalAttributesSuffice σ`
+with `IsTheOneGod σ.IsGod` in `hSuffice`; the conclusion is `CatholicismTrue σ`.
+The adopted potency parameter remains uniform in priority, immutability and
+eternity. These are specializations of the existing generic Fourth-Way root
+compositions, retaining all naming, attribute, revelation and historical
+obligations. Selecting GOD_4 supplies no bridge and discharges no premise.
+No generic statement needs a scope correction in this family. Proofs,
+Challenges, statements, definitions, labels and UUID identities are unchanged.
+
+The existing real Lean wrong-predicate control remains the regression oracle:
+it checks the same head with `σ.IsGod` versus `fun _ => True`, including an
+unrelated classical occurrence, and requires rejection at both bound positions.
+The maxime-ens root consumers remain outside this slice: their independent
+Summa `God` predicate and skeleton `σ.IsGod` require a separate per-statement
+scope audit. The Q11 correction and the other owned activation families are
+also excluded. Premise delta is computed by `corpus.py frontier-diff --base
+origin/main`; this metadata activation expects no change.
