@@ -14,7 +14,8 @@ export function ResearchComparison({ dossier }: { dossier: PremiseDossier }) {
   const terms = termsFor(corpus, [{ definition_ids: dossier.definition_ids, disambiguation_ids: dossier.disambiguation_ids }]);
   const rivalIds = [...new Set(corpus.relations.filter((entry) => dossier.alternative_relation_ids.includes(entry.id) || dossier.objection_relation_ids.includes(entry.id)).map((entry) => entry.subject_id === id ? entry.object_id : entry.subject_id).filter((other) => corpus.statements.some((statement) => statement.id === other)))];
   const recordedCells = corpus.results.flatMap((result) => (result.research_comparisons ?? []).filter((cell) => cell.target_statement_id === id).map((cell) => ({ cell, result })));
-  const cases = (getVerifiedConfigurations()?.cases ?? getRegisteredConfigurationCases()).filter((entry) => entry.seed_statement_id === id);
+  const configurationIds = new Set((dossier.configuration_cases ?? []).map((entry) => entry.id));
+  const cases = (getVerifiedConfigurations()?.cases ?? getRegisteredConfigurationCases()).filter((entry) => configurationIds.has(entry.id));
   const support = report.support_options.items.find((entry) => entry.statement_id === id);
   return <section id="research-comparison" className="record-section [overflow-wrap:anywhere]" aria-labelledby="comparison-heading">
     <h2 id="comparison-heading" className="font-serif text-2xl">Sense and rival comparison</h2>

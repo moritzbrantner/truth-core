@@ -205,6 +205,7 @@ export type CorpusDisambiguation = {
   legacy_id?: string;
   term: string;
   sense_definition_ids: string[];
+  senses?: Array<{ id: string; label: string; definition_id: string; lean_declaration?: string }>;
   resolution: string;
   coverage_statement_id?: string;
   exclusivity_statement_id?: string;

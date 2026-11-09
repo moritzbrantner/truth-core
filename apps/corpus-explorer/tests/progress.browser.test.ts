@@ -38,6 +38,9 @@ test("progress search drills into canonical comparison and evidence with deploym
   await page.getByRole("heading", { name: "Research progress", exact: true }).waitFor();
   await page.getByLabel("Find proposition, argument or sense").fill("NECESSARY_1");
   expect(await page.getByText("0 matching propositions", { exact: true }).count()).toBe(0);
+  await page.getByLabel("Find proposition, argument or sense").fill("COGNITIVE_RECEPTION_AND_KNOWING_1");
+  const receptionId = "180f5ad2-a421-541a-85c9-9bca578b4a43";
+  await page.locator(`a[href="${basePath}/dossiers/${receptionId}/#research-comparison"]`).waitFor();
   const id = uid("statement", "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY");
   await page.getByLabel("Find proposition, argument or sense").fill(id);
   await page.getByText("1 matching propositions", { exact: true }).waitFor();
@@ -61,4 +64,20 @@ test("progress search drills into canonical comparison and evidence with deploym
   await page.reload();
   expect(errors).toEqual([]);
   await page.close();
+}, 60000);
+
+
+test("comparison includes an explicit configuration application that is not its seed", async () => {
+  const page = await browser.newPage();
+  try {
+    const id = uid("statement", "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT");
+    const configuration = uid("configuration", "CONFIG-NIGHT-ACTUALIZATION");
+    await page.goto(new URL(`${basePath}/dossiers/${id}/#research-comparison`, server.url).toString());
+    const comparison = page.locator("#research-comparison");
+    await comparison.getByRole("heading", { name: "Scoped assumption comparisons", exact: true }).waitFor();
+    await comparison.locator(`a[href^="${basePath}/configurations/${configuration}"]`).waitFor();
+    expect(await comparison.getByText("Untested: no assumption comparison registered for this target.", { exact: false }).count()).toBe(0);
+  } finally {
+    await page.close();
+  }
 }, 60000);
