@@ -494,3 +494,58 @@ relation parameters in legacy readings can still be swapped. Fully typed
 semantic grounding needs explicit occurrence/dependence/perfection data and a
 migration of the consuming readings, beyond this metadata correction. No
 labels-only wrapper is introduced and no semantic completion is claimed.
+
+
+### CAUSE relation-locator audit (#1233, 2026-11-09)
+
+The root self-causation fork reuses `CauseFrame.MovesIn`,
+`EfficientlyCausesIn`, `CausesIn`, and `CausesOrigin` in
+`TruthCore/Causality/TermSenseForks.lean`. These are independently supplied
+primitive predicates. The corpus labels are stable: CAUSE_1 is moving,
+CAUSE_2 causing a perfection, CAUSE_3 the four-mode classification, and
+CAUSE_4 origin. The enum's efficient constructor is therefore not CAUSE_2;
+its perfection constructor is not CAUSE_3. The four-mode classification is
+not represented by a constructor of that enum. Renumbering would erase this
+semantic difference. Coverage remains an open premise of the route fork.
+
+The corrected sense locators name the actual moving, perfection and origin
+fields. `MovedIn` instead has only subject and respect arguments;
+`CausesAllInGenus` quantifies the effects of a selected cause; and
+`WhatComesToBeAnewHasInnovatingCauseReading` asserts an originating witness
+for things coming to be anew. Neither quantified reading defines its supplied
+causal relation. Origin witness distinctness is a separate conjunct, not a
+law of every origin edge. The existing efficient-causing definition likewise
+uses a reading locator, explicitly a usage site rather than a definition body.
+
+Finite pragmatic interpretations (illustrations, attribution deferred):
+
+- Moving: a heater presently actualizing a cold object's capacity for heat;
+  exclude an object merely already hot and a merely earlier event.
+- Efficient causing: the agent from which the effect proceeds in the selected
+  respect, such as a sculptor producing a statue; exclude the bronze merely
+  as material and the intended end merely as end.
+- Perfection causing: fire effectively responsible for another object's heat;
+  exclude mere possession of heat and a necessary enabling condition alone.
+  At `esse` the same parameter is used for causing being, without deriving
+  that existential instance from the heat example.
+- Origin: a producer from which a new artifact comes to be; exclude mere
+  simultaneous presence and conservation of an already existing artifact.
+- Four modes: bronze as matter, statue shape as form, sculptor as source of
+  change, and intended use as end. This classification is not a single
+  efficient relation and does not imply that each mode has identical laws.
+
+Transitivity, asymmetry, irreflexivity, well-foundedness, temporal scope and
+bridges between these predicates remain **OPEN** structural commitments.
+No such property follows from a field's function type. Humean regularity,
+necessary enablement and grounding are competing interpretations, not aliases
+of effective production. Extending the ordinary examples to existential
+causation requires an explicit bridge and applicability judgment. The
+simple-priority-to-cause-of-being premise remains open.
+
+This metadata repair neither changes Lean typing nor supplies distinct semantic
+carrier types. The existing fork controls still witness omission of its open
+bridges; they do not certify alignment of its enum with the corpus sense list.
+The remaining encoding needs a faithful four-mode interpretation and explicit
+coverage alignment, followed by substantive sense typing and negative controls;
+adding opaque wrappers would not solve that task. No new proof or truth claim
+is made, and no existing Challenge or premise set changes.
