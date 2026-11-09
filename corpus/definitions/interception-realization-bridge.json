@@ -1,0 +1,9 @@
+{
+  "id": "5539aad1-baf0-4f47-95b2-12a97836f418",
+  "label": "Interception realization in a transition history",
+  "term": "interception realization bridge",
+  "definition": "The existing action has an interception contribution to a Threat targeting its own bearer, is ongoing, and its history admits no edge of any process with that exact Threat. The bridge is an explicit conjunction with a transition restriction, not an opaque successful-action flag.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ProtectiveProcess.RealizesInterception",
+  "note": "OPEN analyst realization interface. InterceptionCandidate alone provides action role and target identity but no process suppression. RealizesInterception adds a substantive restriction on histories. Projecting it back to the existing candidate is a transcription, not evidence of a physical mechanism. Ordinary candidate: an ongoing guardian episode excludes the flame's admitted path; counterexamples include deleting a record with the path intact and removing a threat to a different bearer. Effective realization in reality, the adequacy of the state model and continuous-time interpolation remain open. Counterfactual contrast of histories alone is not efficient productive causation; this relation supplies neither CausesIn at esse nor ActualEsseCausesSupportAt. No causal structural order law is assumed."
+}
