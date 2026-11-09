@@ -1958,3 +1958,23 @@ and are not finished senses. The allowlists may only shrink (#1233):
 | `WORLDWISE-COMPOSITE-GROUND` | WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY | WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY_1, WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY_3 |
 | `WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS` | POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE | POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_1, POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_2, POSSIBLE_UNIVERSAL_CAUSATION_ACTUAL_EXERCISE_3 |
 | `WORLDWISE-WF-ALLOWS-DISTINCT-NECESSARY-POTENTIAL-CAUSERS` | WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY | WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY_1, WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY_3 |
+
+### GOD_4 root activation (#1233, bounded P1 family)
+
+`CATHOLICISM-STAGES-ONE-TWO-SAME-WITNESS` and its direct root consumer
+`CATHOLICISM-FROM-PRIMA-VIA-WITH-CLASSICAL-ATTRIBUTES` now select the existing
+GOD_4 UUID. Their frozen Solution types instantiate both
+`GodNamesTheFullyDescribedPrinciple` and `GodIsMaximalInBeing` with
+`TruthCore.Case.Catholicism.Signature.IsGod`, the Signature field, rather than
+inferring the meaning from a human label. Their conclusions are respectively
+`UniqueClassicalGodExists σ` and `CatholicismTrue σ`. No premises or proof terms
+change; the conditional results do not establish the open naming or maximality
+premises. Existing legacy links to other senses remain migration work.
+
+The real Lean control in `scripts/test_god_sense_binding_lean.py` compares two
+elaborated theorem types with the same `GodIsMaximalInBeing` head. Replacing its
+predicate with `fun _ => True` fails the per-statement check for both hypothesis
+and conclusion, even with `σ.IsGod g` elsewhere in the theorem type. The
+classical instantiation passes. The existing checker therefore needs activation,
+not another predicate-checking mechanism. Broader #1233 coverage, including
+statement-level sense declarations and other root families, remains open.
