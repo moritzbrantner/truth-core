@@ -6,11 +6,9 @@
   "sense_definition_ids": [
     "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
     "88bd1ef6-cb47-5707-ae9a-23537290aea9",
-    "dc059ebd-fa9a-5360-8285-aad7cefbed71",
-    "54abf2c9-059f-41ba-8e70-cc8f1694f957",
-    "4c00d550-ed75-427d-87b4-0d49543f8851"
+    "dc059ebd-fa9a-5360-8285-aad7cefbed71"
   ],
-  "resolution": "A2P1 uses cause-or-effect capability, while A2c uses cause capability alone; do not silently carry its reported denial across that narrowing. Source entire-chain member closure is not collective causation. The existing actualGraph ranges over actual Ontic candidates and its sources exclude incoming causes from actual nodes only. Its finite ancestor cones allow branching, cycles and self-loops and its sources need not cause anything else. Matching those meanings, actual causal endpoint guards and objective modal scope requires explicit application interfaces. The source existential N-to-Box-N stipulation does not itself identify one rigid individual across worlds. A2P2c/A2c3 additionally changes the necessity/contingency classification and remains a separate pending extraction, not an alias for NecessaryAt. Declaration-completion audit 2026-11-09: senses _1 and _2 remain unresolved pending owner selection of possible exercise, unexercised disposition, or explicit sibling interpretations. No lean_declaration is assigned and both allowances remain. Conditional primitive-relation controls in TruthCore.Causality.SurveyCapabilityControls do not finish either meaning. PossibleCauseAt supplies a candidate rigid accessible-world exercise reading only; endpoint existence and world/individual scope remain explicit choices. Composite sense _3 is unchanged. Approved causal no-first sibling is separately defined; it is neither a conjunctive mapping nor replacement of original composite sense _3. Original applicability and coverage remain OPEN. Approved ordered no-first sibling is separately defined; it is neither a conjunctive mapping nor replacement of original composite sense _3. Original applicability and coverage remain OPEN.",
+  "resolution": "A2P1 uses cause-or-effect capability, while A2c uses cause capability alone; do not silently carry its reported denial across that narrowing. Source entire-chain member closure is not collective causation. The existing actualGraph ranges over actual Ontic candidates and its sources exclude incoming causes from actual nodes only. Its finite ancestor cones allow branching, cycles and self-loops and its sources need not cause anything else. Matching those meanings, actual causal endpoint guards and objective modal scope requires explicit application interfaces. The source existential N-to-Box-N stipulation does not itself identify one rigid individual across worlds. A2P2c/A2c3 additionally changes the necessity/contingency classification and remains a separate pending extraction, not an alias for NecessaryAt. Declaration-completion audit 2026-11-09: senses _1 and _2 remain unresolved pending owner selection of possible exercise, unexercised disposition, or explicit sibling interpretations. No lean_declaration is assigned and both allowances remain. Conditional primitive-relation controls in TruthCore.Causality.SurveyCapabilityControls do not finish either meaning. PossibleCauseAt supplies a candidate rigid accessible-world exercise reading only; endpoint existence and world/individual scope remain explicit choices. Composite sense _3 is unchanged. The causal and ordered no-first siblings are separate senses of NO_FIRST_MEMBER (disambiguation baa39012-a3d1-4d41-a94a-6b0a414c2196); neither is a conjunctive mapping or replacement of original composite sense _3, whose applicability and coverage remain OPEN.",
   "term_label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD",
   "senses": [
     {
@@ -27,18 +25,6 @@
       "id": "62c7801a-b707-46f8-9ea2-7f973f542bfd",
       "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_3",
       "definition_id": "dc059ebd-fa9a-5360-8285-aad7cefbed71"
-    },
-    {
-      "id": "97a45d01-2137-456a-9095-1a93b6ca1473",
-      "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_4",
-      "definition_id": "54abf2c9-059f-41ba-8e70-cc8f1694f957",
-      "lean_declaration": "TruthCore.Causality.EntireChainHead.CausalNoFirst"
-    },
-    {
-      "id": "7d0804a8-3e92-4218-93ff-1a6dee0805bc",
-      "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_5",
-      "definition_id": "4c00d550-ed75-427d-87b4-0d49543f8851",
-      "lean_declaration": "TruthCore.Causality.EntireChainHead.OrderedNoFirst"
     }
   ]
 }

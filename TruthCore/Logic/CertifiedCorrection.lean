@@ -39,7 +39,9 @@ def Calibrated {State Evidence : Type} (p : Procedure Evidence)
     (b = true ↔ Correct s)
 
 /-- Coverage and calibration imply an exact classifier on the scope subtype.
-No conclusion is made outside scope, or about a normative selection policy. -/
+No conclusion is made outside scope, or about a normative selection policy.
+The `available` component of `Covered` is not load-bearing here: only the
+accepted-check component is used, so resources do not enter the conclusion. -/
 def ScopedConnection : Prop :=
   ∀ (State Evidence : Type) (p : Procedure Evidence) (observe : State → Evidence)
     (scope Correct : State → Prop),
@@ -55,9 +57,14 @@ def echo (resources answer : Bool) : Procedure Bool where
   check _ b _ := b == answer
   available _ := resources = true
 
-/-- Nonvacuity, omitted calibration, omitted availability, and unlicensed scope
-extension controls. The last fixture is calibrated only on the true state.
-These finite examples do not quantify over human epistemic practices. -/
+/-- Nonvacuity, omitted calibration, classifiability without coverage, and
+unlicensed scope extension controls. The third pairs a procedure-free
+extensional criterion for `s = true` with the always-true echo lacking
+resources: it shows only that extensional classifiability does not imply
+coverage by a given procedure (that echo would also fail calibration for this
+norm), not exact classification by a procedure without resources. The last
+fixture is calibrated only on the true state. These finite examples do not
+quantify over human epistemic practices. -/
 def Controls : Prop :=
   (Covered (echo true true) (fun s : Bool => s) (fun _ => True) ∧
     Calibrated (echo true true) (fun s : Bool => s) (fun _ => True) (fun _ => True)) ∧

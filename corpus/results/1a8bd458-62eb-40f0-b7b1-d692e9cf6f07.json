@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Logic.CertifiedCorrection.connectionAndControls",
   "comparator_config": "results/1a8bd458-62eb-40f0-b7b1-d692e9cf6f07/comparator.json",
   "status": "solution-present",
-  "description": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established."
+  "description": "Conditional analyst candidate: coverage and scoped calibration yield exact classification on the scope; the availability (execution-resource) component of coverage is not load-bearing for ScopedConnection. The controls separate calibration from coverage, extensional classifiability from coverage by a given procedure, and restricted from unrestricted calibration. No human usability, epistemic warrant, truth-directed norm, or root premise is established."
 }
