@@ -27,6 +27,19 @@ namespace TruthCore.Causality
 
 open Filter Topology
 
+/-- Analytic convergence for an arbitrary real sequence and real limit:
+every positive tolerance eventually bounds the distance to the limit.
+This explicit epsilon body is equivalent to Mathlib's filter semantics below;
+it does not demand eventual equality, an endpoint event, or physical realization. -/
+def RealSequenceConvergesTo (sequence : ℕ → ℝ) (limit : ℝ) : Prop :=
+  ∀ ε : ℝ, 0 < ε → ∃ N : ℕ, ∀ n ≥ N, dist (sequence n) limit < ε
+
+/-- The epsilon body has exactly ordinary Mathlib convergence semantics,
+without restrictions on the sequence, its range, or its proposed limit. -/
+theorem realSequenceConvergesTo_iff_tendsto (sequence : ℕ → ℝ) (limit : ℝ) :
+    RealSequenceConvergesTo sequence limit ↔ Tendsto sequence atTop (𝓝 limit) :=
+  Metric.tendsto_atTop.symm
+
 /-- Clock time (in units of the whole schedule) at which stage `n` begins:
 `1 - (1/2)^n`, so stage `0` begins at time `0`. -/
 noncomputable def zenoStageTime (n : ℕ) : ℝ :=
@@ -68,5 +81,10 @@ def ConvergentZenoSchedule : Prop :=
           HasSum zenoStageDuration 1 ∧
             ∀ a b : SupertaskMoment,
               SupertaskPrecedes a b ↔ zenoMomentTime a < zenoMomentTime b
+
+/-- Consume the original schedule certificate without changing its frozen type. -/
+theorem ConvergentZenoSchedule.analyticLimit (schedule : ConvergentZenoSchedule) :
+    RealSequenceConvergesTo zenoStageTime 1 :=
+  (realSequenceConvergesTo_iff_tendsto zenoStageTime 1).mpr schedule.2.2.1
 
 end TruthCore.Causality
