@@ -1,0 +1,10 @@
+{
+  "id": "d3509ce4-89bc-45a6-b8e1-022423c54198",
+  "label": "Rotating bearer root sense classification, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "0ee364cc-e309-48db-b363-6cf7a712ae4a",
+  "inference_ids": [
+    "e0b82b63-7e0c-4f30-a128-ddecc11825af"
+  ],
+  "meaning": "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge."
+}

@@ -222,6 +222,7 @@ public import TruthCore.Results.Causality.RootPositiveIntellectWillControl.Solut
 public import TruthCore.Results.Causality.RootPurity.Solution
 public import TruthCore.Results.Causality.RootWiring.Solution
 public import TruthCore.Results.Causality.RootWithoutLimitingPrinciple.Solution
+public import TruthCore.Results.Causality.RotatingBearerSenseComparison.Solution
 public import TruthCore.Results.Causality.Round2ExistenceAct.Solution
 public import TruthCore.Results.Causality.Round2Grounding.Solution
 public import TruthCore.Results.Causality.Round2PerfectionPrimacy.Solution

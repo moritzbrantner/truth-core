@@ -1,0 +1,42 @@
+[batch]
+vocab = "TruthCore.Causality.RotatingBearerSenseComparison"
+results = "TruthCore.Results.Causality.RotatingBearerSenseComparison"
+
+[[statement]]
+id = "Rotating bearer finite sense classification"
+lean = "Classification"
+paraphrase = "Assuming explicit excluded middle, for any one profile, accessibility relation, rigid candidate domain and world, rotating existence implies NecessaryIn s x exactly when s is deDictoK. Tertia via uses the frame diamond and classical duality; per se retains that necessity conjunct."
+
+[[argument]]
+id = "Rotating bearer finite sense classification, checked"
+theorem = "classification"
+premises = []
+conclusion = "Rotating bearer finite sense classification"
+rule = "Finite case analysis, quantifier reasoning and explicit finite controls"
+meaning = "Assuming explicit excluded middle, for any one profile, accessibility relation, rigid candidate domain and world, rotating existence implies NecessaryIn s x exactly when s is deDictoK. Tertia via uses the frame diamond and classical duality; per se retains that necessity conjunct. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge."
+
+[[statement]]
+id = "Rotating bearer root sense classification"
+lean = "RootClassification"
+paraphrase = "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population."
+
+[[argument]]
+id = "Rotating bearer root sense classification, checked"
+theorem = "rootClassification"
+premises = []
+conclusion = "Rotating bearer root sense classification"
+rule = "Finite case analysis, quantifier reasoning and explicit finite controls"
+meaning = "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge."
+
+[[statement]]
+id = "Rotating bearer populated separation controls"
+lean = "Controls"
+paraphrase = "The existing Bool swapOntic has populated worlds and no common bearer even on S5. De dicto holds for each candidate. The fixed-bearer unit model omits the no-common-bearer clause and fails the rival."
+
+[[argument]]
+id = "Rotating bearer populated separation controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Rotating bearer populated separation controls"
+rule = "Finite case analysis, quantifier reasoning and explicit finite controls"
+meaning = "The existing Bool swapOntic has populated worlds and no common bearer even on S5. De dicto holds for each candidate. The fixed-bearer unit model omits the no-common-bearer clause and fails the rival. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge."
