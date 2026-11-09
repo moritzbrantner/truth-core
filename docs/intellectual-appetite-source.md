@@ -102,9 +102,88 @@ The source-only preservation changes no `Challenge`, `Solution`, existing
 statement identity, root-route selection, or meanings of `HasIntellect` and
 `HasWill`. All six new readings are source claims, not verified derivations.
 
+
+## Boundary audit for #355 (2026-11-09)
+
+This section preserves the audit snapshot from #1284 before the structured
+capacity work below. Its unencoded-target and no-new-result statements describe
+that audit; the following section supplies the finite conditional encoding while
+retaining the representation-to-appetite and `HasWill` recognition gaps.
+
+The current bounded inventory was inspected against main at `52d8cb761`.
+This is an audit and rejected-lead record, not a new derivation or a claim that
+all intellectual-appetite distinctions have been encoded.
+
+* `Results.Causality.IntellectualInclination.willFromIntellectualInclination`
+  takes `IntellectHasIntelligibleForm`, `EveryFormHasInclination`, and
+  `IntelligibleInclinationIsWill` jointly. Its proof extracts an intelligible
+  form, applies the universal inclination premise, then applies recognition.
+  The conclusion is the old universal `WillFollowsIntellectReading`; no exercise,
+  chosen object or output follows. The companion `controls` already supplies
+  the populated one-being/two-form omission interpretations, including cognition
+  without inclination and inclination without the independent `HasWill` flag.
+  Do not recreate these as an IntellectWillBoundary result. Important evidence
+  limit: `results/WILL-FROM-INTELLECTUAL-INCLINATION/comparator.json` lists only
+  `willFromIntellectualInclination`, not `controls`; the controls have source
+  proofs but are not separately compared under that configuration.
+* `Results.Causality.Round5Worklist.willFromIntellectualAppetite` factors
+  recognition through `IntelligibleInclinationIsIntellectualAppetite` and
+  `IntellectualAppetiteIsWill`. Both are OPEN. The first produces a principle
+  bearing `AppetitivePowerOf` and `FollowsIntellect`; these predicates do not
+  encode a response to a represented object's goodness or possession. Adding
+  another existential intermediary would only relocate recognition.
+* Round5's `everyFormInclinedFromFinality` already factors inclination through
+  an operation, an end and `EndDirectedOperationIsInclination`. Its
+  `DirectedTo o e` does not assert that the subject cognitively represents e as
+  good. Identifying these relations would hide the very bridge at issue.
+* `Modal.SimplicityCollapse.optionalAct` already has no performance/output at
+  world `true`; `inefficaciousAct` has performance there without output. Both
+  retain the concrete `noCreation` ontology and its necessary source. Their
+  clauses occur in `Results.Modal.SimplicityCollapse.core`, selected by
+  `results/SIMPLICITY-COLLAPSE-CORE/comparator.json`. These are output/efficacy
+  controls, not models of an intellectual subject without appetitive capacity.
+* `Results.Modal.OptimalCreationChoice.checks` already contains the distinct
+  tied-optimum candidates, local determinism, failed cross-world stability,
+  and the strict-improvement/no-optimum consequence. `OptimalOutputs` separately
+  assumes positive-output totality; `uniqueOptimalStable` separately assumes
+  uniqueness of the optimal candidate, not just equality of greatest values.
+  Reusing these controls does not turn rational appetite into maximizing choice,
+  libertarian alternatives or temporal deliberation.
+
+### Actual missing bridge
+
+The unresolved inference is from **representing an end under an apprehended-good
+aspect** to **an appetitive capacity responsive to that aspect**, even when the
+represented good is already possessed. Neither `Intelligible f` nor
+`DirectedTo o e` contains that representation/possession structure. The smallest
+next investigation should hold the represented object and its goodness fixed,
+vary possession, and distinguish capacity to seek absent good from capacity to
+rest in possessed good. It must also admit a cognitive-only subject with the
+same representations and no appetitive responses. Then test an explicit local
+response-capacity constraint, restricted to the represented goods actually used,
+rather than `EveryFormHasInclination` for every natural and intelligible form.
+This is a proposed encoding target, not a proved weaker replacement premise.
+
+Recognition by the old primitive `HasWill` remains a separate open bridge; a
+response table cannot establish it by renaming its fields. No transfer from
+capacity to present exercise or production is licensed. A God-specific use still
+needs self-knowledge/known-goodness structure and must allow possessed-good rest
+without creaturely passivity. This audit does not reopen the parked immateriality,
+life or concrete-scope investigation (#1282).
+
+No new vocabulary, exploration map, Challenge, Solution, source claim or result
+was minted: the duplicate distinctions above were rejected, while the proposed
+possession-sensitive bridge remains unencoded. The claim/type self-sweep found
+no new theorem claim. All three original premises and both appetite-recognition
+premises remain open; no will premise is established. Root-premise delta: none.
+The unavailable `corpus.py orphans` subcommand was not treated as an idle-library
+audit. Shared convention sourceRevision for this audit:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
 ## Possession-sensitive finite capacity (2026-11-09)
 
-The follow-up to pending #1284 (head `1cb91ff342d673ac2c838c87e939011bf535b660`)
+The follow-up to #1284 (head `1cb91ff342d673ac2c838c87e939011bf535b660`,
+merged in `79b2e599e`)
 inspected its exact diff, the #355 context, related propositions and the will
 recognition dossiers. Its flag-level audit remains useful; the next step is
 now encoded in `TruthCore/Causality/PossessionSensitiveAppetite.lean` and the

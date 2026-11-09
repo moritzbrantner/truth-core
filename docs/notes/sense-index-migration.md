@@ -1978,3 +1978,37 @@ and conclusion, even with `σ.IsGod g` elsewhere in the theorem type. The
 classical instantiation passes. The existing checker therefore needs activation,
 not another predicate-checking mechanism. Broader #1233 coverage, including
 statement-level sense declarations and other root families, remains open.
+
+### Full-description root reductions without motion (#1233)
+
+Activated GOD_4 for CATHOLICISM-FROM-FULL-DESCRIPTION-WITHOUT-MOTION and
+CATHOLICISM-FROM-IDENTITY-WITNESS-WITHOUT-MOTION only. Both frozen
+StrengthConsumers.RootFull/RootIdentity theorem types instantiate hFull's
+GodNamesTheFullyDescribedPrinciple predicate with Signature.IsGod and conclude
+CatholicismTrue σ. RootFull retains GodHasClassicalAttributes σ as an input;
+RootIdentity instead retains ClassicalAttributesSuffice with IsTheOneGod σ.IsGod
+and GodIsMaximalInBeing σ.IsGod. These are explicit conditional configurations;
+no premise truth, naming converse, uniqueness or real-world applicability is
+established by selecting the existing sense UUID. There is no predicate ambiguity
+in these two types. No statement, Challenge, proof, shared definition or allowlist
+changes. Claim/type self-sweep: only argument term_senses changes; all premises,
+conclusions and meanings remain identical.
+
+Reviewed all three pinned migration bundles: neither selected argument is a
+pinned record, so no audit hashes or dispositions need refreshing. Existing
+naming/first-mover findings referring to these reductions retain their meanings.
+The real Lean GodSenseBinding control keeps the GodIsMaximalInBeing head fixed
+and a classical predicate elsewhere while replacing the bound predicate with
+fun _ => True; it tests binding, not a philosophical countermodel.
+
+Remaining bounded root-consumer families (excluding records reserved by #1263,
+#1267, #1275 and #1281): CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS
+and its ADOPTED-POTENCY sibling; CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION;
+CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES-ADOPTED-POTENCY;
+CATHOLICISM-FROM-QUARTA-VIA-WITHOUT-TRUTH-BRIDGE and its ADOPTED-POTENCY
+sibling; CATHOLICISM-FROM-PRIMA-VIA-VIA-FULL-DESCRIPTION and its
+ADOPTED-POTENCY sibling. Their activation remains unverified here: inspect their
+actual bound predicate before selecting GOD_4. Intermediate stage/witness and
+nominal maxime-ens families also remain outside this slice. Existing legacy
+multi-sense navigation is not evidence of a semantic bridge. Broader #1233 remains
+open; this metadata activation has no premise change.

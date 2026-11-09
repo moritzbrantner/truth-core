@@ -171,3 +171,66 @@ are new conditional connections, not discharges. Existing arguments and old
 Lean interfaces retain their premises; no source statement is independently
 established. The PR carries the complete machine-computed delta against its
 final merge base.
+
+## Bounded bridge audit, 2026-11-09 (#355)
+
+This continuation inspected the exact `Article1.lean`,
+`ReceptionDefinitionFork.lean`, `IntellectWill.lean`, and
+`Q14ReceptionFork/FromWithoutMatter/Solution.lean` declarations, the existing
+reception sense declarations, the target dossier and the without-matter result
+context. It adds no formal result and does not repeat #1179's controls.
+
+Write `S x` here only as prose shorthand for the unchanged antecedent
+`¬ matterForm x ∧ (∀ y, ¬ component x y)`. The old target quantifies over
+all `Being`; it has no existence, concreteness, life or operation hypothesis.
+Consequently, calling this antecedent “subsistent immateriality” must not
+silently import those positive conditions. In particular:
+
+- An abstract immaterial object is not excluded by either negative conjunct.
+  This is a statement about the signature, not an assertion that abstract
+  objects exist or satisfy the intended metaphysical interpretation.
+- A concrete but nonliving immaterial bearer would present a different burden:
+  excluding abstract objects alone would not provide life, operations or
+  foreign-form capacity. Neither the Q14 model nor its structural antecedent
+  has a concreteness or life field.
+- A living or operating bearer still needs an independently articulated
+  distinction between sensory reception and intellectual reception. The
+  certified `intellectualGradeOmission` already prevents identifying the
+  without-matter mode with intellect. An arbitrary operation or state change
+  supplies no such distinction.
+
+The exact existing proof `oldTargetOfWithoutMatter` uses
+`(hCalibration x (hScope x ...)).mpr` once. It uses neither the converse
+(intellect implies reception) nor calibration on receivers outside `S`.
+Its candidate weaker obligation is thus, on the same dictionary,
+`∀ x, S x → WithoutMatterCapacity m x → m.Intellectual x`, together with
+positive availability and material-mode exclusion on `S`. This is a proposed
+proof-input minimization, **not a registered strength relation or a new
+certified theorem**. Merely registering it would be another transcription;
+it would supply no explanation of intellectual grade.
+
+A life-restricted replacement would need two separate bridges: `S` implies
+the chosen concrete/living scope, and operations on that scope support a
+specified intellectual reception structure. The first has to confront both
+abstract objects and nonliving concrete bearers. The second must constrain
+what forms are represented and how representation supports intellectual
+rather than merely sensory discrimination, with omission controls preserving
+positive operation while denying that structure. Neither bridge follows from
+the present Q14 declarations. An opaque `Living` flag, an opaque operation
+flag, or a bridge whose consequent is just `m.Intellectual` would leave the
+same explanatory gap. No such flags or new taxonomy were added.
+
+The next discriminating investigation is an operation/representation profile
+with a positive non-intellectual operating rival on the **same** background,
+then a separate explicit connection to `HAS_INTELLECT_1`. Applicability to
+subsistent immaterial beings remains open. This audit has not constructed or
+certified that joint rival model, and does not claim that the life distinction
+already has a formal encoding. The existing independent Unit controls are
+not a joint worldview or an abstract/nonliving/living partition.
+
+Claim/type self-sweep: all named theorem descriptions above retain their
+original capacity, scope and omission boundaries. No source interpretation,
+sense identity, God binding, Challenge, argument, or result changed. No premise
+is retained or removed by a new argument because there is no new argument;
+this is a persisted unsuccessful bridge investigation, not conditional proof
+progress or root closure.
