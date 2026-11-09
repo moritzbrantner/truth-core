@@ -15,14 +15,14 @@ namespace TruthCore.Causality.SurveyCapabilityControls
 
 /-- For the SAME relation and carrier, outgoing capability is included in
 outgoing-or-incoming capability. No converse or strictness for every relation. -/
-example {B : Type} (canCause : B → B → Prop) (x : B) :
+theorem outgoingIncluded {B : Type} (canCause : B → B → Prop) (x : B) :
     (∃ y, canCause x y) → ((∃ y, canCause x y) ∨ (∃ y, canCause y x)) :=
   Or.inl
 
 /-- A nonempty capability relation witnesses both domains. Its effect is in
 only the broader domain; its cause is in the narrower domain. Bool is solely a
 separating control, not a restriction on the general carrier above. -/
-example :
+theorem incomingOnlySeparator :
     let R := fun x y : Bool => x = true ∧ y = false
     (∃ y, R true y) ∧
     ((∃ y, R false y) ∨ (∃ y, R y false)) ∧ ¬ (∃ y, R false y) := by
@@ -34,7 +34,7 @@ example :
 failing to cover an incoming-only candidate. Thus broad-domain denial cannot
 be transferred to narrow-domain denial just by domain inclusion. This tests
 quantifier direction only; it supplies no interpretation of source chains. -/
-example :
+theorem coverageDenialDoesNotTransfer :
     let R := fun x y : Bool => x = true ∧ y = false
     let covered := fun x : Bool => x = true
     (∀ x, (∃ y, R x y) → covered x) ∧
@@ -48,7 +48,7 @@ example :
 
 /-- A primitive capability relation may be inhabited while a separately
 supplied exercise relation is empty. Equating them needs an explicit bridge. -/
-example :
+theorem capabilityWithoutExercise :
     let canCause := fun x y : Bool => x = true ∧ y = false
     let exercises := fun _ _ : Bool => False
     (∃ y, canCause true y) ∧ ¬ (∃ y, exercises true y) := by
