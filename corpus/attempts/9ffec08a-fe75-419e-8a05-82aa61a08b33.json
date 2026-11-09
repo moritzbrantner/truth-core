@@ -1,0 +1,19 @@
+{
+  "id": "9ffec08a-fe75-419e-8a05-82aa61a08b33",
+  "label": "Part-mediated animal motion and root projection boundary",
+  "date": "2026-11-09",
+  "statement_ids": [
+    "079b53bf-a222-5dfc-b8df-7419f9e98030",
+    "5d765f28-ad62-4f36-ad64-2c0a2c15dd63",
+    "8aa60e87-8b29-4d78-90d6-f1d0b4b51b7c",
+    "2ab9f9c0-aa12-45c4-b64e-35d383f6287f"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst finite animal-parts encoding, attribution deferred. Motor and load are distinct proper components of a whole in one displacement event. Component no-self-motion coexists with internal organism motion. Patient lifting retains a distinct internal motor; aggregate lifting creates a whole self-link. Populated omission controls show internal coordination alone supplies neither raw-component nor aggregate distinct whole-mover coverage. Rejected: transferring component irreflexivity through aggregation, or inferring an external agent from a distinct internal motor. Full details and source-reuse boundaries in docs/notes/motion-mover-fork.md, Part-mediated follow-up.",
+  "evidence": [
+    "8149955b-51e4-4738-96e9-7d58a8a65b10",
+    "3dfb5656-2eb9-4c7c-96de-9b3127293680"
+  ],
+  "blocker": "Universal root application still requires selecting and justifying the root relation and coverage of relevant events. Local patient lifting is OPEN; no applicability or anti-self-motion premise truth is discharged."
+}

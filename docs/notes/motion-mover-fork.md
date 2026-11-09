@@ -130,3 +130,85 @@ The pinned audit dispositions now record this inspection instead of claiming
 that the changed dependency was reused unchanged; their original before-state
 and expression-contract baselines are preserved. The exact closures remain
 70, 152 and 167 records, with unrelated results outside the reviewed scope.
+
+## Part-mediated follow-up
+
+The bounded `PartMediatedSelfMotion` batch targets
+`STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT` on the first-mover route.
+The existing typed Physics self-motion predicate leaves its internal anatomy
+primitive. The existing `Vitalism` turnover profile and `ArrangementDynamics`
+observation projection do not specify agent/patient roles in a motion event.
+No existing theorem inspected supplies this populated projection comparison.
+
+The finite carrier has a whole, a motor and a load; both components are proper
+members of the whole. The only component event is motor moving load in the
+respect displacement. Temperature supplies an explicit excluded respect.
+`InternalMotion` contains actual members and an actual component event, rather
+than an opaque animal-self-motion flag. A muscle moving a limb motivates the
+example; biological adequacy and application of causal language remain OPEN.
+The relation is an extensional stipulated event, not an empirical mechanics,
+causal sufficiency claim, transitive causal order or temporal explanation.
+
+The populated controls establish all of these together:
+
+- The organism has internal motion and the load has a distinct component mover.
+- The existing root no-self-motion predicate holds for the component relation.
+- Patient-only lifting yields a motor-to-whole link in the same respect, with
+  a mover distinct from the whole and no mover outside its proper parts.
+- Raw component links supply no mover of the whole at all. Internal motion
+  alone therefore does not justify whole mover coverage.
+- Lifting both roles yields a whole-to-whole link; the existing root predicate
+  fails for that aggregate relation while the whole is actually moved. This
+  is an equivocation control, not a refutation of the component interpretation.
+- Aggregate links also fail distinct whole-mover coverage: every aggregate
+  agent is the whole. Membership does not preserve distinctness under this
+  projection. Temperature is not silently substituted for displacement.
+
+`localLift` derives `InternalHasDistinctMover moves` from the OPEN `LocalLift
+moves`. The premise is restricted to actual internal events, rather than all
+part motions, and retains the respect and agent. Proper membership supplies
+agent/whole inequality. Its bundle is satisfiable: `PatientLift` realizes the
+bridge by choosing the actual load. Omitting lifting has the populated
+`ComponentMoves` countermodel; replacing patient lifting with aggregate
+lifting has the populated `AggregateLift` countermodel. No external-agent
+requirement follows: the satisfying patient-lift model has only an internal
+motor as mover of its whole.
+
+Root connection plan: compare the root's raw `MovesIn` interpretation with
+these explicit projections. Unconditional transfer of component no-self-motion
+to aggregate motion is rejected by `controls`. A universal root application
+still needs a justified selection of the component/patient relation and
+coverage of its relevant motion events; this finite model cannot supply
+universal coverage or independent applicability. There is no root premise
+truth discharge or anti-animal-self-motion conclusion. These two conditional
+results are a bounded boundary analysis, not an isolated mereology library.
+
+Claim/type sweep: `LocalLift` quantifies only over this finite carrier and its
+actual internal events; `InternalHasDistinctMover` quantifies only over
+`InternalMotion`. `Controls` is the conjunction for the named finite
+interpretations, not a claim about all animals. `InternalMotion` is a distinct
+inductive witness; `AnotherMover` and `SomeMover` retain their existing typed
+meanings. No registered source sense is redefined, no source claim is added,
+and the raw root predicate is instantiated explicitly in both component and
+aggregate controls. The generated frozen Challenge retains those exact types.
+
+Service experiment: the first Solution-only preview failed because the new
+vocabulary is absent from the clean shared preview. Submitting the full
+vocabulary and Solution together in `Scratch/partmotion/Combined.lean` succeeded
+at preview HEAD `01f4ccd49052530e67e2d333b3de172ec75eabf2`, session
+`pipeline-round-partmotion`, content SHA-256
+`7046595b148f4eda3cb00d7ee1eab4f0f4038bcfb24f7e36e6ca59d4a8f92ec1`.
+Repeated edit diagnostics worked with the lease and binding checks. Retain the
+service for combined-source exploration; canonical module builds and final
+Comparator/NanoDa checks remain necessary. This avoids modifying or rebuilding
+the coordinator's preview for a new private vocabulary.
+
+Verification: affected Solution/Challenge build, both result bindings and both
+zero-axiom Comparator/NanoDa certificates pass. Corpus, generated records and
+imports, module conversion, attribution and bounded bundle audits pass. The
+computed frontier delta at base `83e3c8311` is unchanged: 379 open premises
+(238 bare, 96 supported, 45 stated), 278 verified support alternatives and
+lowest expanded route cost 28. The finite boundary analysis supplies no new
+root-reaching support alternative. Final delivered-head CI remains required.
+Shared conventions resolved at source revision
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
