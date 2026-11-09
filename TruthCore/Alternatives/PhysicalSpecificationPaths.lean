@@ -120,9 +120,12 @@ def adjacency : (b : Bool) → reachDomain b → reachDomain b → Prop
   parameter := fun _ => reachAnchor b
 
 /-- A single reachability formula covers the full Nat and Bool domains from
-one permitted anchor. Rich syntax is actually used; no FO undefinability claim. -/
+one permitted anchor. The explicit Path conjunct requires actual anchor-to-object
+reachability, even if definability could also use an FO tautology. No FO
+undefinability claim. -/
 def reachVaryingControl : Prop := VaryingPathDefinability linkVocabulary reachDomain
-  reachModel (fun _ : Unit => True) (fun _ => True) (fun _ _ => True)
+  reachModel (fun _ : Unit => True) (fun _ => True) (fun _ _ => True) ∧
+  ∀ b x, Path (adjacency b) (reachAnchor b) x
 
 /-- Root-route diagnostic only: specification by this graph language coexists
 with an independently empty composition and intellect assignment. Without a

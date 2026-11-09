@@ -40,12 +40,8 @@ private theorem appendPath {D : Type} {r : D → D → Prop} {x y z : D}
   | step e _ ih => exact .step e (ih k)
 
 theorem reachVarying : reachVaryingControl := by
-  refine ⟨⟨false, trivial⟩, .reach ⟨Link.edge, trivial⟩ (Sum.inr ⟨(), trivial⟩) (Sum.inl ()), ?_⟩
-  intro b _ x
-  change Path (adjacency b) (reachAnchor b) x ↔ True
-  constructor
-  · intro _; trivial
-  · intro _
+  have reachable : ∀ b x, Path (adjacency b) (reachAnchor b) x := by
+    intro b x
     cases b with
     | false =>
       induction x with
@@ -55,6 +51,11 @@ theorem reachVarying : reachVaryingControl := by
       cases x with
       | false => exact .refl false
       | true => exact .step (by change false ≠ true; decide) (.refl true)
+  refine ⟨?_, reachable⟩
+  refine ⟨⟨false, trivial⟩, .reach ⟨Link.edge, trivial⟩ (Sum.inr ⟨(), trivial⟩) (Sum.inl ()), ?_⟩
+  intro b _ x
+  change Path (adjacency b) (reachAnchor b) x ↔ True
+  exact ⟨fun _ => trivial, fun _ => reachable b x⟩
 
 theorem rootIndependence : rootIndependenceControl :=
   ⟨reachVarying, (fun h => h), (fun h => h)⟩
