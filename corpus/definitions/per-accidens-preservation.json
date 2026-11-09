@@ -7,5 +7,6 @@
   "basis": "sourced",
   "claim_ids": [
     "da9c82ed-e886-5335-81c3-cebad9b27345"
-  ]
+  ],
+  "note": "Declaration-completion investigation (2026-11-09): TruthCore.Causality.PreservationCandidates.InterceptionCandidate is an incomplete analyst action/target/threat candidate, not this sourced definition. Interception carries a threat with source and target, and requires an ongoing episode directed at that target. Controls reject a threat to a different bearer and separate interception from productive contribution. The concrete removeThreat candidate implements set subtraction: the addressed represented threat disappears while other threats survive, including another threat to the same bearer. OPEN formal content: deletion of a threat record does not establish that an action stops the represented corruption process. Interception does not yet imply successful prevention, and prevention of one threat does not imply complete protection or continued existence. To complete the original meaning requires process/outcome semantics connecting the intervention to cessation of an actual corrupting process, without identifying protection with esse-giving. No original sense allowance is removed; no arbitrary modal-power interpretation or CausesIn bridge is asserted. Source acquisition is deferred; the candidate is analyst stipulation only."
 }
