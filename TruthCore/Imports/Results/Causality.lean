@@ -254,6 +254,7 @@ public import TruthCore.Results.Causality.SupertaskOscillation.Solution
 public import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 public import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 public import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
+public import TruthCore.Results.Causality.SurveySourceEndpointControls.Solution
 public import TruthCore.Results.Causality.TeleologyFirstMover.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution

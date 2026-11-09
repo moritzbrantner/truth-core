@@ -1,0 +1,17 @@
+target = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "c778a6ca-e756-56ac-aa68-c81e9883ca7c"
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "80871ceb-29ca-49e3-a9e6-7c3cdc47cfb8"
+[[edge]]
+premises = []
+conclusion = "80871ceb-29ca-49e3-a9e6-7c3cdc47cfb8"
+kind = "rival"
+status = "certified"
+[[edge]]
+premises = ["c778a6ca-e756-56ac-aa68-c81e9883ca7c"]
+conclusion = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+kind = "bridge"
+status = "rejected"
