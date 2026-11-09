@@ -1,0 +1,13 @@
+{
+  "id": "01333519-f031-441e-848f-718fad1a8fcb",
+  "label": "Moral intervention and grounding finite comparisons",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "4b028b20-ec08-4a4d-9eb2-15af2406b8d8",
+  "inference_ids": [
+    "ad70632d-24cd-4c76-8c6b-7c453a887d07"
+  ],
+  "meaning": "Same-domain finite separators: stable truth with an attitude ground satisfies only the intervention candidate; variable truth with no ground satisfies only the grounding candidate; stable actual truth with no grounds jointly satisfies both; stable falsity satisfies invariance and no attitude ancestors but fails the intervention candidate. Restricted interventions can hide truth variation at an excluded profile. Formal profiles only, not metaphysical possibility or causal overdetermination.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ]
+}

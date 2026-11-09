@@ -1,0 +1,9 @@
+{
+  "id": "4b028b20-ec08-4a4d-9eb2-15af2406b8d8",
+  "label": "Moral attitude profile separation controls",
+  "paraphrase": "Same-domain finite separators: stable truth with an attitude ground satisfies only the intervention candidate; variable truth with no ground satisfies only the grounding candidate; stable actual truth with no grounds jointly satisfies both; stable falsity satisfies invariance and no attitude ancestors but fails the intervention candidate. Restricted interventions can hide truth variation at an excluded profile. Formal profiles only, not metaphysical possibility or causal overdetermination.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.Controls",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ]
+}

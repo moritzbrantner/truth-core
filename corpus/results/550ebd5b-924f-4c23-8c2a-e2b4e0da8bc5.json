@@ -1,0 +1,11 @@
+{
+  "id": "550ebd5b-924f-4c23-8c2a-e2b4e0da8bc5",
+  "label": "Ancestral support exclusion restricts direct support",
+  "argument_id": "ac3c904d-ca81-478f-a12c-7ec91e44f3e9",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
+  "theorem": "TruthCore.Results.Logic.MoralAttitudeProfiles.ancestralDirect",
+  "comparator_config": "results/550ebd5b-924f-4c23-8c2a-e2b4e0da8bc5/comparator.json",
+  "status": "solution-present",
+  "description": "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated."
+}

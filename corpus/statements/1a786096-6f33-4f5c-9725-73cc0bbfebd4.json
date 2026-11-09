@@ -1,0 +1,9 @@
+{
+  "id": "1a786096-6f33-4f5c-9725-73cc0bbfebd4",
+  "label": "Grounding stability bridge",
+  "paraphrase": "OPEN analyst bridge: in this profile absence of attitude ancestors entails truth-status invariance under the explicitly admissible interventions.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.GroundingStability",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ]
+}

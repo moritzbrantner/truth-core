@@ -1,0 +1,11 @@
+{
+  "id": "f1afc73a-c982-49dc-8fe3-45113509047c",
+  "label": "Grounding candidate bridge under stability",
+  "argument_id": "abdb4f08-499c-4e69-85c0-e85a35763a6e",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
+  "theorem": "TruthCore.Results.Logic.MoralAttitudeProfiles.groundingBridge",
+  "comparator_config": "results/f1afc73a-c982-49dc-8fe3-45113509047c/comparator.json",
+  "status": "solution-present",
+  "description": "Retains moral facthood, existence and actual truth and applies the explicit grounding-to-invariance premise. No unconditional relation follows."
+}

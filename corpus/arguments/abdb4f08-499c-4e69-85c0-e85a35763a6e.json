@@ -1,0 +1,15 @@
+{
+  "id": "abdb4f08-499c-4e69-85c0-e85a35763a6e",
+  "label": "Grounding candidate bridge under stability",
+  "premise_statement_ids": [
+    "1a786096-6f33-4f5c-9725-73cc0bbfebd4"
+  ],
+  "conclusion_statement_id": "e77adb31-cf6c-45f3-9ed3-3a1e9d13cf29",
+  "inference_ids": [
+    "7f7ebac2-8f22-42c2-9393-57f61db0388d"
+  ],
+  "meaning": "Retains moral facthood, existence and actual truth and applies the explicit grounding-to-invariance premise. No unconditional relation follows.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ]
+}

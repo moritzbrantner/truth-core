@@ -1,0 +1,11 @@
+{
+  "id": "a5f8477d-05a9-42ad-a077-1afd65fe7b1b",
+  "label": "Either moral calibration supplies the POE truth component",
+  "argument_id": "35b19ef0-d8f4-4271-97ab-380ba456a977",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
+  "theorem": "TruthCore.Results.Logic.MoralAttitudeProfiles.calibrationTruth",
+  "comparator_config": "results/a5f8477d-05a9-42ad-a077-1afd65fe7b1b/comparator.json",
+  "status": "solution-present",
+  "description": "The actual-truth conjunct is extracted only after an explicit faithful classifier calibration; no assertion, local agreement or mere facthood licenses it."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "045c0666-321f-4260-a568-f77fb5332993",
+  "label": "Moral candidate calibration supplies actual truth",
+  "paraphrase": "For every arbitrary profile, calibration of the independent objective classifier to either candidate supplies the existing HasTruthComponent required by the external POE bridge. Moral facthood and existence alone do not supply that component.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.CalibrationTruth",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ]
+}
