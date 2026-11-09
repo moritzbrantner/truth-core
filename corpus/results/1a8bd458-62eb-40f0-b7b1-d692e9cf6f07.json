@@ -1,0 +1,11 @@
+{
+  "id": "1a8bd458-62eb-40f0-b7b1-d692e9cf6f07",
+  "label": "Scoped calibration and procedure separation controls",
+  "argument_id": "07419ca6-317b-40ee-91ce-be14d086515c",
+  "challenge_module": "TruthCore.Results.Logic.CertifiedCorrection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CertifiedCorrection.Solution",
+  "theorem": "TruthCore.Results.Logic.CertifiedCorrection.connectionAndControls",
+  "comparator_config": "results/1a8bd458-62eb-40f0-b7b1-d692e9cf6f07/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established."
+}

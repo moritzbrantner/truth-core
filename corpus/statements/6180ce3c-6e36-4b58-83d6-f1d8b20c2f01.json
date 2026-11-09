@@ -1,0 +1,9 @@
+{
+  "id": "6180ce3c-6e36-4b58-83d6-f1d8b20c2f01",
+  "label": "Scoped certificate calibration connects a procedure to exact classification",
+  "paraphrase": "For arbitrary state and evidence types, procedure coverage and accepted-certificate calibration on an explicit scope imply exact classification on that scope subtype. Finite controls exhibit a nonvacuous covered calibrated procedure, coverage without calibration, exact classification without execution resources, and calibration on a restricted scope without calibration on all states. Certificate acceptance is not philosophical warrant.",
+  "lean_declaration": "TruthCore.Logic.CertifiedCorrection.ConnectionAndControls",
+  "definition_ids": [
+    "2383deea-6f13-4ea0-8822-1b51db573f7d"
+  ]
+}
