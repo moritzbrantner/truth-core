@@ -33,6 +33,7 @@ public import TruthCore.Models.PhysicsFirstMover
 public import TruthCore.Models.PopulationClosureSeparation
 public import TruthCore.Models.PrimaVia
 public import TruthCore.Models.Q11
+public import TruthCore.Models.QuantitativeInfinity
 public import TruthCore.Models.QuartaViaCausalAscent
 public import TruthCore.Models.QuartaViaDegreeFork
 public import TruthCore.Models.QuartaViaMaximumControls

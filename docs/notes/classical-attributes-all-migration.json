@@ -1820,12 +1820,12 @@
       "path": "corpus/disambiguations/infinity.json",
       "status": "inspected",
       "classification": "intentional_abstraction",
-      "finding": "Existing resolution retained: The classical-attributes bundle uses the infinity of unreceived subsistent being, not unlimited quantity or indeterminate matter. Infinite remains an abstract Lean predicate constrained by an explicit sufficient-condition premise; no theorem establishes quantitative infinity.",
+      "finding": "Reviewed INFINITE_2 declaration completion only: the quantitative contrast now binds TruthCore.Models.QuantitativeInfinity.IsInfinite, whose body is not BddAbove quantity OR not BddAbove extension over explicit independent preordered magnitude domains. Magnitudes supplies represented measurement families, not an infinity flag. General domain-parametric meaning is retained; Nat quantity-only, extension-only and bounded controls are fixtures, not the original scope. Evidence: TruthCore/Models/QuantitativeInfinity.lean and corpus/attempts/quantitative-infinity-declaration-completion.json. INFINITE_1, GodIsInfinite and its primitive Infinite parameter, source claims, all frozen Challenges and premises remain unchanged. No quantitative magnitude is attributed to God; actual/potential applicability, historical attribution, sense coverage/exclusivity and any divine bridge remain open. No premise discharge.",
       "before": {
         "sha256": "a2c27e246baa86bf33d18df286ea2307ad37191114fc3b820e37126611aa9d6b",
         "lean_declaration": null
       },
-      "reviewed_sha256": "07119fed70b8994d85170f2327abc97c7f694b0e7a39fdb967b348ac45b59b33"
+      "reviewed_sha256": "21da4f2646357534faabba1b182ed954029916851cad688a9dbb93b11ad9a295"
     },
     {
       "kind": "disambiguations",
