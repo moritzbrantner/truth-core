@@ -1,0 +1,18 @@
+{
+  "id": "a359b9c3-4da0-45ff-bec0-7efe007b7779",
+  "label": "Inert-emptiness controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "fe556ee2-723d-4132-be04-eb7b9e82c30c",
+  "inference_ids": [
+    "310a23d6-05f8-4658-b35b-937f6c9876b1"
+  ],
+  "meaning": "Omitting inert emptiness, the possible contingent-free past, or presence-to-existence each permits failure of the conclusion while the frame conditions and the other two premises hold; a fourth interpretation jointly satisfies all premises with a contingent individual and a necessary one, so the bundle is nonvacuous. Omission of the two frame conditions is not tested here. Model claims concern these finite interpretations only.",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

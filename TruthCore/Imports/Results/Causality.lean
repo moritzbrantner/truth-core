@@ -140,6 +140,7 @@ public import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
 public import TruthCore.Results.Causality.HistoricalRemoval.Solution
 public import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
 public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
+public import TruthCore.Results.Causality.InertEmptiness.Solution
 public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.IntellectualInclination.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution

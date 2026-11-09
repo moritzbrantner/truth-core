@@ -1,0 +1,102 @@
+# Modal spine to "God exists"
+
+Owner direction, 2026-11-09: until it closes, the working root is **God exists**
+(`STMT-GOD-EXISTS`, stage 1), not `STMT-CATHOLICISM-TRUE`. The first spine is a
+modal contingency argument. Stages 3 to 6 of the Catholic case are deferred, and
+their historical premises will later be argued by inference to the best explanation.
+
+Report against the working root with
+`python3 scripts/corpus.py frontier --routes --root STMT-GOD-EXISTS`.
+
+Work counts as spine progress when it changes the status of a premise named
+below, or records or tests a rival to one.
+Other routes (First Way, Fourth Way, the Gödel and Scott material, other senses
+of "necessary") stay where they are and are pulled in when a spine rival needs them.
+
+Nothing in this note is established. "Open" means not established under the
+closure rules. Every theorem named here is verified; it certifies consequence only.
+
+## Stage one: a necessary concrete being exists
+
+Conclusion (`STMT-NECESSARY-CONCRETE-AT`): one and the same concrete individual
+exists at the actual world and at every world accessible from it.
+
+There are two verified arrivals. They share the two frame premises.
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| F1 | The actual world is accessible from itself. `STMT-ACTUAL-MODAL-REFLEXIVITY` | open | none recorded; a floor candidate |
+| F2 | Any two worlds accessible from a world are accessible from each other (Euclidean). `STMT-EUCLIDEAN-FRAME` | open | not recorded: metaphysical possibility is not transitive (Salmon, Chandler) |
+
+**Arrival A, temporal** (`InertEmptiness.necessaryConcrete`, spec `specs/modal-spine-inert-emptiness.toml`):
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| A1 | Whatever is present at some time of a history exists in that history. `STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL` | open | none recorded |
+| A2 | Inert emptiness: a moment with nothing concrete present is followed only by such moments. | open | recorded: a beginning out of nothing |
+| A3 | Possibly, contingent concrete things are absent at a moment and present at a later one. | open | recorded: the initial-state view, on which contingent things are present from the earliest moment of every possible history |
+
+No causal, grounding or explanatory relation occurs in this arrival. The
+controls show that A1, A2 and A3 are each needed and that the bundle is
+satisfiable. Omission of F1 and F2 is not tested there.
+
+**Arrival B, possible cause** (`LocalFramePossibleExternalCause.necessaryConcrete`):
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| B1 | Possibly, contingent concrete reality begins. `STMT-SCENARIO-POSSIBLY-BEGINS` | open | not recorded |
+| B2 | If so, possibly it begins with an existing concrete cause outside all contingent things. `STMT-SCENARIO-CAUSAL-OPPORTUNITY` | open | not recorded: a brute beginning that could have no cause |
+
+`ExternalCandidateNecessity` shows that "a concrete thing outside all contingent
+things" is equivalent to "a necessary concrete thing": the causal relation in B2
+does no logical work, so B2 already contains the possibility of the conclusion.
+Arrival A was built to avoid that. It does not discharge B2.
+
+**Known weak points of stage one**
+
+- A2 is a claim about every possible history, and it is silent about a first
+  state that has no earlier moment. The initial-state view accepts A2 and denies A3.
+- Ruling out an empty world is not enough for the conclusion: "necessarily
+  something exists" does not give "something exists necessarily"
+  (`NecessaryIndividual.Alternating`, `SharedRootBridge`).
+- If a world with nothing concrete is possible, the conclusion is false under F1 and F2.
+
+## Stage two: that being is God
+
+Stage one gives no uniqueness, causal role or attribute.
+
+`NecessaryClassicalGodRoot.derive` (verified) takes one actual, necessary,
+ungrounded root to: first being, pure act, simple, perfect, good, one, infinite,
+immutable, eternal, intellect and will, and the name "God". It has 25 premises.
+
+**The join.** Necessity alone does not make the stage-one individual ungrounded.
+The verified `NecessaryConcreteUnderived` argument supplies the step from
+`STMT-NECESSARY-CONCRETE-AT` to a necessary concrete individual with no actual
+supporter of its being, under F1, excluded middle and two further open premises:
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open | none recorded |
+| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open | none recorded |
+
+Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
+computed frontier. It reaches it by the necessary-concrete routes with 15 bare
+premises each, which is where the stage-two work lies. Whether the ungrounded
+individual it yields is the root that `NecessaryClassicalGodRoot.derive` starts
+from is not yet checked.
+
+Today the stage-two chain obtains its root from two regress premises instead:
+every contingent concrete thing has an actual concrete ground, and the whole
+actual roster is not a borrowing trap. With an actual concrete individual and
+excluded middle, those two premises yield a necessary
+root without any modal step, so the corpus reaches the node a third way. The
+regress results are also the tool against the "endless chain explains itself"
+reply to A3 and B1.
+
+## Order of work
+
+1. Record the unrecorded rivals in the tables above, each with its replacement account.
+2. A3 against the initial-state view, and A2 against a beginning out of nothing:
+   find commitments each rival's holder accepts that conflict with it, or the model in which it survives.
+3. Record rivals for J1 and J2, and check whether the ungrounded individual of the join is the root the stage-two chain starts from.
+4. Then the stage-two premises, one attribute group at a time, rivals first.
