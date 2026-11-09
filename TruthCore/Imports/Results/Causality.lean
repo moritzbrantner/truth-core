@@ -114,6 +114,7 @@ public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveCompositi
 public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
 public import TruthCore.Results.Causality.ExistenceSenseRoute.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
+public import TruthCore.Results.Causality.ExistsSenseMeaning.Solution
 public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 public import TruthCore.Results.Causality.FiniteBranching.Solution
 public import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
