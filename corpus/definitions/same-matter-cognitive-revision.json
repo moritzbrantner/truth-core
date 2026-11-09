@@ -1,0 +1,9 @@
+{
+  "id": "0b5f78ee-7f72-4717-ada4-55d9dd87300c",
+  "label": "CORRECTION_3: Same-matter revision",
+  "term": "same matter cognitive revision",
+  "definition": "An actual subject withdraws an erroneous judgment and adopts a distinct correct judgment on the same matter at a strictly later occasion. The new judgment was not endorsed at the earlier endpoint.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CognitiveReplacement.SameMatterRevision",
+  "note": "Analyst interpretation sibling, attribution deferred. MatterOf identifies the question, not the verdict; opposite verdicts may concern one matter. Endorses is actual endorsement. Before must be interpreted as strict temporal precedence. Correct is a supplied judgment norm, not inferred from endorsement. This analyst reading needs no primitive replacement flag. Example: reversing a false verdict on one question; retaining the old verdict or another subject adopting the new one fails. Applicability of history, matter identity and correctness remains OPEN. Neither sibling is selected as the original CORRECTION_2 mapping. No coverage or exclusivity of all possible correction readings is asserted; the two endpoint classifications are disjoint under one MatterOf interpretation. Root connection remains the open particular-teaching truth and universal-authority bridge described by e26a7988-ed89-57bf-a40e-1767b30a9558."
+}

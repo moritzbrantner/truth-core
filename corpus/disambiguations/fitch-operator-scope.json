@@ -8,7 +8,7 @@
     "05a2afda-c654-5f6b-a0f7-796c5dc1be2e",
     "baca53c3-3a52-559d-989f-78fb8400824f"
   ],
-  "resolution": "The generic Context may interpret K in different ways only when its laws are supplied. The survivor uses the existing fixed-agent relational Knows. The CC100-124 possible-someone and contextual/literal actual-someone readings are not identified with that box. Distributed some-agent/sometime K inherits factivity and left-conjunct extraction from each witness when truth refers to the same content/world; it never yields a common agent/time across propositions. No F6 epistemic-reason premise supplies knowability. Modal R and epistemic E remain distinct; the survivor has E not contained in R.",
+  "resolution": "The generic Context may interpret K in different ways only when its laws are supplied. The survivor uses the existing fixed-agent relational Knows. The CC100-124 possible-someone and contextual/literal actual-someone readings are not identified with that box. Distributed some-agent/sometime K inherits factivity and left-conjunct extraction from each witness when truth refers to the same content/world; it never yields a common agent/time across propositions. No F6 epistemic-reason premise supplies knowability. Modal R and epistemic E remain distinct; the survivor has E not contained in R. Declaration completion: DistributedKnowledge.Known quantifies some agent and some time over the same extensional content and world. Its context bridge supplies generic Fitch K, globalLaws requires explicit witness factivity and conjunction extraction, and actualScope reuses EveryTruthKnown without exchanging witnesses. No closure or omniscience is in the bare body. Syntactic representation and time-dependent truth need explicit calibration before applying this predicate interpretation.",
   "term_label": "FIXED_AGENT_WORLD_INDEXED_K",
   "senses": [
     {
@@ -26,7 +26,8 @@
     {
       "id": "d186f0ff-352e-4a43-b651-dc49f097469d",
       "label": "FIXED_AGENT_WORLD_INDEXED_K_3",
-      "definition_id": "baca53c3-3a52-559d-989f-78fb8400824f"
+      "definition_id": "baca53c3-3a52-559d-989f-78fb8400824f",
+      "lean_declaration": "TruthCore.Logic.DistributedKnowledge.Known"
     }
   ]
 }
