@@ -9,6 +9,7 @@ public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
 public import TruthCore.Causality.AppetitePowerExercise
+public import TruthCore.Causality.AristotelianCauseModes
 public import TruthCore.Causality.AristotelianRivalRefutations
 public import TruthCore.Causality.AtomisticCausalSource
 public import TruthCore.Causality.AtomisticUniversalCausePriority
