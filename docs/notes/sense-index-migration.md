@@ -2071,3 +2071,80 @@ Summa `God` predicate and skeleton `σ.IsGod` require a separate per-statement
 scope audit. The Q11 correction and the other owned activation families are
 also excluded. Premise delta is computed by `corpus.py frontier-diff --base
 origin/main`; this metadata activation expects no change.
+
+
+
+### Q11 uniqueness GOD_4 activation (#1233, #1285)
+
+Activated existing GOD_4 (52c2ebac-0a71-4dd4-8a21-804c1dd0847a,
+TruthCore.Case.Catholicism.Signature.IsGod) for the full cohesive family:
+
+- CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS
+- CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS-ADOPTED-POTENCY
+- CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION
+- CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION
+
+Claim/type self-sweep: hFull, hNature and hCommon use σ.IsGod, and hSuffice uses
+IsTheOneGod σ.IsGod in all four frozen types. The first three conclude
+CatholicismTrue σ, the fourth UniqueClassicalGodExists σ. Adopted potency does
+not change the God predicate. All remain conditional consequences, with no
+premise truth, naming converse or real-world applicability established here.
+
+Initial live activation exposed an erroneous scope link at hIndividual,
+statement 2344542e-8036-5cbe-9dfc-af5e7907cde5. Its full paraphrase and frozen
+IndividuatingBasisIsIncommunicableReading suppositumOf both assert general
+injectivity: ∀ x y, suppositumOf x = suppositumOf y → x = y. Neither mentions
+IsGod, essenceOf, deity or IsTheOneGod. The linked source claim likewise isolates
+general injectivity, contrasting a human with this human. No proposition or
+reading sibling is needed. Reviewing all eleven premise consumers also finds
+constitutive-nature, unlimited-nature and first-mover uses of this same general
+constraint, not merely the God-specific application.
+
+Corrected only that statement's term scope: retained DEF-Q11-INDIVIDUATING-BASIS
+and DISAMB-SUPPOSITUM/NATURE (2eef7e66-376a-57e0-81de-9757a1ae1e14), preserving
+the actual individuation sense and its contrast with nature. Removed downstream
+God-suppositum/nature identity, common divine nature, essence and one-God
+vocabulary plus the God and God/person disambiguations. Those belong to the
+separate God-specific premises and consuming arguments, where their definitions
+and real God bindings remain unchanged. The claim's broader source-context
+navigation is unchanged. No weakening of a checker or formal premise occurs.
+The classical-attributes-all pinned audit was substantively reviewed and its
+statement disposition/hash updated with this scope rationale; other audit pins
+remain unchanged. No shared definition, UUID, meaning, proof, Challenge,
+allowlist, root label or attribution changes.
+
+Evidence: all four focused Solution builds passed; those unchanged outputs and
+proof certificates are reused. After scope correction live bind-check reports
+4 bound / 0 mismatch. For each argument the existing real Lean
+QuartaGodBinding.wrongNaming control rejects hFull as
+statement-sense-not-instantiated: the same naming head takes fun _ => True,
+despite σ.IsGod elsewhere in hClassical and the conclusion. Reproduce by running
+test_quarta_god_binding.py with only its argument JSON filename substituted for
+each legacy ID above (and ROOT set to this checkout when running a temporary
+copy). No excluded fixture or test is changed. The 25 sense tests, 25 binding
+tests and 8 bundle audit tests pass, as do corpus/bundle audits, sense/label
+ratchets, attribution and docs/import generation checks. Exact frontier-diff
+against origin/main reports no change; no premise is added, removed or closed.
+Final delivered-head CI remains required.
+
+Remaining from #1283's inventory: the quarta-via adopted classical root,
+both quarta-via without-truth-bridge roots and both prima-via via-full-description
+roots. Intermediate stage/witness and nominal maxime-ens families remain outside
+this slice. The #1283 full-description without-motion pair and records/tests
+owned by #1263, #1267, #1275 and #1281 remain untouched. Broader #1233 stays open.
+
+
+Merge reconciliation (#1285, main 62881511): preserved the full-description
+activation section above and all four Q11 activations. Its remaining-family list
+records that earlier slice's boundary; Q11 is now activated as recorded here.
+Retained main's efficient-regress activations/audit dispositions, joint immutability
+model evidence and term/label repairs. The Q11 scope correction and its reviewed
+statement pin still match the generic frozen injectivity type. The merged audit
+retains joint_premise_witness_569: that separate immutability witness supplies no
+individuation or uniqueness premise. No pending #1281 work is imported.
+
+Merge reconciliation (#1285, main 195674629): retained the landed adopted
+Fourth-Way section and both activations alongside all earlier migration sections.
+The Q11 remaining-family inventory above describes its original slice boundary;
+the two adopted Fourth-Way consumers are now activated by #1286. Q11 argument
+metadata, generic individuation correction and pinned audit evidence are unchanged.
