@@ -1,0 +1,11 @@
+{
+  "id": "2c478290-075b-4f0e-a9bc-c973ca3c3b9b",
+  "label": "Formula-local possible-impossibility omission controls",
+  "argument_id": "b65baa73-75bb-47b6-a242-8ec39e1892a8",
+  "challenge_module": "TruthCore.Results.Modal.PossibleImpossibility.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PossibleImpossibility.Solution",
+  "theorem": "TruthCore.Results.Modal.PossibleImpossibility.controls",
+  "comparator_config": "results/2c478290-075b-4f0e-a9bc-c973ca3c3b9b/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity and scope/report/gloss bridge omission controls only. Bool does not restrict the arbitrary-world certificate."
+}

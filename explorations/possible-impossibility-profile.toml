@@ -1,0 +1,26 @@
+# Bounded A2 alternate / A10 suffix map. Analyst profile, attribution deferred.
+target = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+
+[[node]]
+id = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+[[node]]
+id = "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY"
+[[node]]
+id = "STMT-POSSIBLE-IMPOSSIBILITY-INPUT"
+[[node]]
+id = "Formula-local possible-impossibility duality certificate"
+[[node]]
+id = "Formula-local possible-impossibility scope controls"
+
+[[edge]]
+premises = ["STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY", "Formula-local possible-impossibility duality certificate"]
+conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: source impossibility/Box-not correspondence, situation coverage, affirmative report truth, and separate causal/possibility/classification/actuality route inputs. This edge is a connection plan, not an entailment."
+[[edge]]
+premises = ["STMT-POSSIBLE-IMPOSSIBILITY-INPUT"]
+conclusion = "STMT-NB-A2-ALT-POSSIBLE-IMPOSSIBILITY"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: A10C2 recalls different wording; do not identify its narrow input with A2's authorial interpretation."

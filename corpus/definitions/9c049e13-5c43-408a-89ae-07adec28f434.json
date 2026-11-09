@@ -1,0 +1,9 @@
+{
+  "id": "9c049e13-5c43-408a-89ae-07adec28f434",
+  "label": "Selected Kripke possible-impossibility analyst profile",
+  "term": "formula-local possible impossibility",
+  "basis": "stipulative",
+  "definition": "For an arbitrary Kripke frame F, selected formula P and designated actual standpoint w, Input is Dia(Box(not P)) w implies Box(not P) w; Stable is Dia(P) w implies Box(Dia(P)) w. LocalClassical supplies double-negation elimination only for Dia(P) at successors of w.",
+  "lean_declaration": "TruthCore.Modal.PossibleImpossibility.Input",
+  "note": "Analyst profile, attribution deferred. Reuses GoedelGod Box/Dia and NecessaryIfExistent.ImpossibleExistence exactly. A situation is represented by a world predicate, not an individual or cause. An accessible P-world witnesses possibility; a successor with no P-successor witnesses impossibility there. Accessibility has no assumed reflexivity, transitivity, symmetry or Euclideanness. Ordinary truth P(w), logical double negation of P, epistemic warrant and concrete causation differ from these modal predicates. OPEN: source gloss contradicting something necessary must be related to Box(not P); the set of relevant situations and uniform substitution are unselected. Neither question nor affirmative-report content establishes actual assent or truth. Root connection plan: supply those interpretation/report bridges to the A2 alternate/A10 modal suffix and then reuse the existing de-dicto necessary-if-existent route, retaining its separate possibility, actuality and source-classification premises. This profile closes none of those obligations."
+}
