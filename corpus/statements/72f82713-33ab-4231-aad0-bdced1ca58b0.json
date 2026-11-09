@@ -1,0 +1,6 @@
+{
+  "id": "72f82713-33ab-4231-aad0-bdced1ca58b0",
+  "label": "Internal counterfactual acceptance and explicit-profile truth separate",
+  "paraphrase": "Two finite explicit-profile controls: an actually wrong content with a changed-approval alternative is internally accepted although the candidate counterfactual is false, and a stably true content satisfies that candidate without internal acceptance. Licensing varies with attitudes in both controls. No moral facthood, ontic independence, adequacy of counterfactual selection, or historical worldview is certified.",
+  "lean_declaration": "TruthCore.Metaethics.InternalCounterfactual.Controls"
+}

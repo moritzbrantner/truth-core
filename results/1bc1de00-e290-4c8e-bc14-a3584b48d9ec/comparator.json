@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.A5HistoryScope.Challenge",
+  "solution_module": "TruthCore.Results.Modal.A5HistoryScope.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.A5HistoryScope.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

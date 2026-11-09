@@ -1,0 +1,21 @@
+{
+  "id": "78394148-8096-4be7-aa79-5594d72faedc",
+  "label": "A5 history interpretation scope controls",
+  "paraphrase": "Analyst formal controls: integer onset satisfies population/member first occurrence and predecessor transition; rational onset has no immediate predecessor; a first natural-number moment permits onset without predecessor; member onset need not be population onset; recurrence separates predecessor transition from first occurrence; roster controls check exact exclusion, empty negative content, classification scope and full-history versus past cutoff. These are full-carrier test interpretations, not metaphysical possibility or source attribution.",
+  "lean_declaration": "TruthCore.Modal.A5HistoryScope.ControlSuite",
+  "definition_ids": [
+    "4532eaa9-917d-43d0-a14b-561d4b7bea3f",
+    "9c9fce7a-c2c3-4d4b-b13e-2d4488847cf0",
+    "ab71ef9b-9607-4262-83fc-8646e3c4cd43",
+    "9817a2d6-24f2-4168-b9ff-d60ad83c2f57",
+    "b02c9f0e-26da-458a-95ed-6257bde95e52",
+    "8c1c4776-e122-4e8d-897c-00f8988ab36f",
+    "7817f9d1-b120-41d8-89ce-58dd6c3a96da",
+    "443dd660-8017-43d5-81a7-55153dcc7e9a",
+    "90beb1b9-38df-4b82-978b-f4078dd310e2",
+    "f122bf9d-a3fb-4f09-9f4e-ab238b6042bd"
+  ],
+  "disambiguation_ids": [
+    "54e516bf-f2e6-5b50-84fc-f74b34198bce"
+  ]
+}

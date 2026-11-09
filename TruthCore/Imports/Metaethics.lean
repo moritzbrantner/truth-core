@@ -9,6 +9,7 @@ public import TruthCore.Metaethics.ExplanationRivalBoundary
 public import TruthCore.Metaethics.GoodnessCorrectSupport
 public import TruthCore.Metaethics.GoodnessFormEnd
 public import TruthCore.Metaethics.GoodnessFormEndIdealConsensus
+public import TruthCore.Metaethics.InternalCounterfactual
 public import TruthCore.Metaethics.MeaningRivalBoundary
 public import TruthCore.Metaethics.NaturalisticRealism
 public import TruthCore.Metaethics.PlanStateEmbedding

@@ -1,0 +1,11 @@
+{
+  "id": "1bc1de00-e290-4c8e-bc14-a3584b48d9ec",
+  "label": "A5 history scope controls verified",
+  "argument_id": "7c4e5c41-b040-462e-8c65-533e9095ec7c",
+  "challenge_module": "TruthCore.Results.Modal.A5HistoryScope.Challenge",
+  "solution_module": "TruthCore.Results.Modal.A5HistoryScope.Solution",
+  "theorem": "TruthCore.Results.Modal.A5HistoryScope.controls",
+  "comparator_config": "results/1bc1de00-e290-4c8e-bc14-a3584b48d9ec/comparator.json",
+  "status": "solution-present",
+  "description": "Test the owner-selected interpretation alternatives without conjoining them as one source reading. No original allowance is cleared by these controls; no actual causal availability, explanation or root truth follows."
+}
