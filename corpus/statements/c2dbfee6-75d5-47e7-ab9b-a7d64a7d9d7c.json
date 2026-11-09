@@ -1,0 +1,14 @@
+{
+  "id": "c2dbfee6-75d5-47e7-ab9b-a7d64a7d9d7c",
+  "label": "Fixed quotient collision and esse-causal omission controls",
+  "paraphrase": "One Bool-pair quotient presentation has distinct representatives with equal output, two distinct output values, and concrete reasoner and abstract anchor points outside its image. The same selected generated value has esse, power and an outgoing productive edge in one assignment, and no esse/power/outgoing edge in another. Separate omissions retain the owner principle without ValuesNoEsse, or ValuesNoEsse without the owner principle, while inertness fails. A joint model satisfies both premises with generated values and fixed separate anchors. The reasoner witnesses failure of selected-point classification when range membership is omitted. Finite interpretations, not real-world or metaphysical possibility claims.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.Control.Certificate",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f",
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
+  ]
+}

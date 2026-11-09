@@ -1,0 +1,10 @@
+{
+  "id": "0edc9556-338f-4e5b-a435-b5cd8c864d33",
+  "label": "Fixed faithful quotient kernel equality, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "913aa07a-4b5c-42d6-9e86-c5bdb073cbf0",
+  "rule": "Injectivity of the quotient embedding and quotient equality",
+  "meaning": "The supplied faithful embedding has exactly the Setoid kernel. The quotient equality rule is mathematical; no essence reading follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

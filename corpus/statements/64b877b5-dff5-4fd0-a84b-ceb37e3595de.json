@@ -1,0 +1,10 @@
+{
+  "id": "64b877b5-dff5-4fd0-a84b-ceb37e3595de",
+  "label": "Selected value is CONCRETE_AND_ABSTRACT_9",
+  "paraphrase": "The selected candidate b lies in the image of this fixed faithful quotient presentation g. Analyst candidate sense CONCRETE_AND_ABSTRACT_9; attribution deferred.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.QuotientGenerated",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ]
+}
