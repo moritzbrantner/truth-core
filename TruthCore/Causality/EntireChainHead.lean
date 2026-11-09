@@ -8,7 +8,7 @@ selects a chain from it. No order, finiteness, linearity or actual-world policy
 is imposed. Full cause and partial contribution are framework primitives;
 neither implies the other by definition. Their applicability remains open.
 This is NOT a declaration of the original composite sense: the interpretation
-of its first-member clause awaits owner selection. -/
+of its first-member clause remains unmapped; approved sibling profiles follow. -/
 
 @[expose] public section
 
@@ -52,6 +52,66 @@ theorem head_uncaused {Node : Type} (c : Chain Node) (h : Node)
     | inl full => exact closed.1 y h head.1 full
     | inr contribution => exact closed.2 y h head.1 contribution
   exact head.2.2 y member incoming
+
+/-- Causal incoming-minimum reading. Both full and partial causes count;
+self-causation counts as incoming. No positive predecessor choice is asserted. -/
+structure CausalNoFirst {Node : Type} (c : Chain Node) : Prop where
+  noMinimum : ¬ ∃ x, c.members x ∧
+    ∀ y, c.members y → ¬ (c.cause y x ∨ c.partialCause y x)
+
+/-- A separately supplied strict order profile on the SAME carrier.
+Irreflexivity and transitivity are explicit guards, not causal laws.
+Nonlinearity is permitted. Applicability and cause/order alignment are open. -/
+structure OrderedChain (Node : Type) where
+  chain : Chain Node
+  before : Node → Node → Prop
+  irrefl : ∀ x, ¬ before x x
+  trans : ∀ x y z, before x y → before y z → before x z
+
+/-- No minimal selected member in the separate order; not merely no least. -/
+structure OrderedNoFirst {Node : Type} (o : OrderedChain Node) : Prop where
+  noMinimum : ¬ ∃ x, o.chain.members x ∧
+    ∀ y, o.chain.members y → ¬ o.before y x
+
+/-- A least member must precede every distinct member; incomparable minima
+need not be least. Equality is explicit, so the order stays strict. -/
+def OrderedChain.Least {Node : Type} (o : OrderedChain Node) (x : Node) : Prop :=
+  o.chain.members x ∧ ∀ y, o.chain.members y → y = x ∨ o.before x y
+
+/-- Alignment only on selected endpoints; neither primitive is identified
+with order by definition. Full and partial incoming edges are both covered. -/
+def Aligned {Node : Type} (o : OrderedChain Node) : Prop :=
+  ∀ y x, o.chain.members y → o.chain.members x →
+    (o.before y x ↔ (o.chain.cause y x ∨ o.chain.partialCause y x))
+
+theorem aligned_noFirst_iff {Node : Type} (o : OrderedChain Node)
+    (align : Aligned o) : OrderedNoFirst o ↔ CausalNoFirst o.chain := by
+  constructor
+  · intro h; constructor
+    rintro ⟨x, mx, source⟩
+    exact h.noMinimum ⟨x, mx, fun y my edge => source y my ((align y x my mx).mp edge)⟩
+  · intro h; constructor
+    rintro ⟨x, mx, minimum⟩
+    exact h.noMinimum ⟨x, mx, fun y my edge => minimum y my ((align y x my mx).mpr edge)⟩
+
+theorem causal_noFirst_excludes_head {Node : Type} (c : Chain Node)
+    (h : CausalNoFirst c) : ∀ x, ¬ c.Head x := by
+  intro x head
+  exact h.noMinimum ⟨x, head.1, head.2.2⟩
+
+/-- Ordered minimality supports the existing externality step only with the
+incoming-cause-to-order guard, productivity, and both-relation closure. -/
+theorem ordered_minimum_uncaused {Node : Type} (o : OrderedChain Node) (x : Node)
+    (closed : o.chain.Ungrounded) (mx : o.chain.members x)
+    (productive : ∃ z, o.chain.members z ∧
+      (o.chain.cause x z ∨ o.chain.partialCause x z))
+    (minimum : ∀ y, o.chain.members y → ¬ o.before y x)
+    (incoming : ∀ y, o.chain.members y →
+      (o.chain.cause y x ∨ o.chain.partialCause y x) → o.before y x) :
+    ∀ y, ¬ (o.chain.cause y x ∨ o.chain.partialCause y x) := by
+  apply head_uncaused o.chain x closed
+  exact ⟨mx, productive, fun y my edge => minimum y my (incoming y my edge)⟩
+
 
 namespace Controls
 
@@ -124,6 +184,80 @@ theorem endless_closed_with_incoming :
   · intro x; exact ⟨x + 1, rfl⟩
   · intro x h
     exact h.2.2 (x + 1) True.intro (Or.inl rfl)
+
+/-- A finite self-loop has no causal incoming minimum; cardinal infinity and
+strict-order compatibility do not follow. -/
+def loop : Chain Unit where
+  members := fun _ => True
+  cause := fun _ _ => True
+  partialCause := fun _ _ => False
+
+theorem finite_loop_noFirst : CausalNoFirst loop := by
+  constructor
+  rintro ⟨x, _, source⟩
+  exact source x True.intro (Or.inl True.intro)
+
+/-- An empty strict order can coexist with self-causation if alignment is omitted. -/
+def unalignedLoop : OrderedChain Unit where
+  chain := loop
+  before := fun _ _ => False
+  irrefl := fun _ h => h
+  trans := fun _ _ _ h _ => h
+
+theorem alignment_omission :
+    CausalNoFirst unalignedLoop.chain ∧ ¬ OrderedNoFirst unalignedLoop := by
+  refine ⟨finite_loop_noFirst, ?_⟩
+  intro h
+  exact h.noMinimum ⟨(), True.intro, fun _ _ h => h⟩
+
+/-- Two incomparable isolated members: every member is minimal, none least.
+Thus 'no least' is too weak to express the selected no-minimum reading. -/
+def incomparable : OrderedChain Bool where
+  chain := ⟨fun _ => True, fun _ _ => False, fun _ _ => False⟩
+  before := fun _ _ => False
+  irrefl := fun _ h => h
+  trans := fun _ _ _ h _ => h
+
+theorem no_least_with_minima :
+    (∀ x, ¬ incomparable.Least x) ∧ ¬ OrderedNoFirst incomparable := by
+  constructor
+  · intro x h
+    cases x with
+    | false => rcases h.2 true True.intro with bad | bad <;> cases bad
+    | true => rcases h.2 false True.intro with bad | bad <;> cases bad
+  · intro h
+    exact h.noMinimum ⟨true, True.intro, fun _ _ h => h⟩
+
+
+/-- A finite two-cycle also has no causal incoming minimum without self-loops. -/
+def cycle : Chain Bool where
+  members := fun _ => True
+  cause := fun y x => y = !x
+  partialCause := fun _ _ => False
+
+theorem cycle_noFirst : CausalNoFirst cycle := by
+  constructor
+  rintro ⟨x, _, source⟩
+  exact source (!x) True.intro (Or.inl rfl)
+
+theorem infinite_history_noFirst : CausalNoFirst endless := by
+  constructor
+  rintro ⟨x, _, source⟩
+  exact source (x + 1) True.intro (Or.inl rfl)
+
+/-- Counting partial causes changes the answer even if there are no full causes. -/
+def partialLoop : Chain Unit where
+  members := fun _ => True
+  cause := fun _ _ => False
+  partialCause := fun _ _ => True
+
+theorem partial_scope_matters :
+    CausalNoFirst partialLoop ∧
+    (∃ x, partialLoop.members x ∧ ∀ y, ¬ partialLoop.cause y x) := by
+  refine ⟨?_, ⟨(), True.intro, fun _ h => h⟩⟩
+  constructor
+  rintro ⟨x, _, source⟩
+  exact source x True.intro (Or.inr True.intro)
 
 end Controls
 end TruthCore.Causality.EntireChainHead
