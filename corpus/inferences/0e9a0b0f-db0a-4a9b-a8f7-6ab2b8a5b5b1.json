@@ -1,6 +1,6 @@
 {
   "id": "0e9a0b0f-db0a-4a9b-a8f7-6ab2b8a5b5b1",
-  "label": "Either moral calibration supplies the POE truth component (inference)",
+  "label": "Intervention calibration supplies the POE truth component (inference)",
   "input_statement_ids": [],
   "output_statement_id": "045c0666-321f-4260-a568-f77fb5332993",
   "rule": "Disjunction introduction and existing calibration theorem",

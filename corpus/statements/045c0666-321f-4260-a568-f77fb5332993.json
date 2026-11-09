@@ -1,6 +1,6 @@
 {
   "id": "045c0666-321f-4260-a568-f77fb5332993",
-  "label": "Moral candidate calibration supplies actual truth",
+  "label": "Intervention calibration supplies actual truth",
   "paraphrase": "For every arbitrary Profile, calibration of its objective classifier to MIND_INDEPENDENT_3 supplies HasTruthComponent. This is a per-reading corollary of the original disjunctive calibration lemma; no classifier adoption is asserted.",
   "lean_declaration": "TruthCore.Logic.MoralAttitudeCalibration.InterventionCalibrationTruth",
   "definition_ids": [

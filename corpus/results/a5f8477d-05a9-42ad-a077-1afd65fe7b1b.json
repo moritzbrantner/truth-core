@@ -1,6 +1,6 @@
 {
   "id": "a5f8477d-05a9-42ad-a077-1afd65fe7b1b",
-  "label": "Either moral calibration supplies the POE truth component",
+  "label": "Intervention calibration supplies the POE truth component",
   "argument_id": "35b19ef0-d8f4-4271-97ab-380ba456a977",
   "challenge_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Challenge",
   "solution_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Solution",
