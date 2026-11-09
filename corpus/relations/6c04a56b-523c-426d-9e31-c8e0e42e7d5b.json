@@ -1,0 +1,11 @@
+{
+  "id": "6c04a56b-523c-426d-9e31-c8e0e42e7d5b",
+  "label": "Whole-series selected exercise strengthens optimal exercise",
+  "subject_kind": "statement",
+  "subject_id": "3cc186d1-36cf-4e57-8d4c-23d924738709",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "24354918-037c-4b3b-9077-8981b8857b1c",
+  "verification_result_id": "1b478d58-8b1e-448b-85f2-5953c71e84e9",
+  "note": "Same original exercise data. The additional first-optimum agenda condition may fail on a tied choice or an empty agenda; no original source attribution inferred."
+}

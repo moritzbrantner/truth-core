@@ -48,4 +48,5 @@ public import TruthCore.Explanation.TruthmakerTheories
 public import TruthCore.Explanation.UltimateAdequacy
 public import TruthCore.Explanation.WeakAccountNecessaryBeing
 public import TruthCore.Explanation.WellFoundedSource
+public import TruthCore.Explanation.WholeSeriesChoicePolicies
 public import TruthCore.Explanation.WholeSeriesReason
