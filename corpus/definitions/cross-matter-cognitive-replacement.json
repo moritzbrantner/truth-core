@@ -1,0 +1,9 @@
+{
+  "id": "608065fc-4c5c-47dc-bade-1b01f9ffebec",
+  "label": "CORRECTION_4: Cross-matter replacement",
+  "term": "cross matter cognitive replacement",
+  "definition": "An actual subject withdraws an erroneous judgment and adopts a correct judgment on a different matter at a strictly later occasion, with an explicit replacement act relating that subject and those judgments. The new judgment was not endorsed at the earlier endpoint.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CognitiveReplacement.CrossMatterReplacement",
+  "note": "Analyst interpretation sibling, attribution deferred. ReplacementAct is an analyst primitive: the subject undertakes adoption of the new judgment as replacement for the old judgment. It is not defined by earlier error and later correct belief. Identity constraints: one subject owns both endpoints and the act; old and new matters differ (hence judgments differ). Example conditional interpretation: abandoning an erroneous answer about one question in favor of an answer about another as its replacement; unrelated acquisition fails without the act. OPEN: operational or intentional criteria identifying that replacement act independently of a free flag; no complete semantic definition of the primitive is claimed. No transitivity, asymmetry, causation, warrant or permanence is assumed. Neither sibling is selected as the original CORRECTION_2 mapping. No coverage or exclusivity of all possible correction readings is asserted; the two endpoint classifications are disjoint under one MatterOf interpretation. Root connection remains the open particular-teaching truth and universal-authority bridge described by e26a7988-ed89-57bf-a40e-1767b30a9558."
+}
