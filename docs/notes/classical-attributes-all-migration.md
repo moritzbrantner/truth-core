@@ -696,7 +696,8 @@ open analyst input records; it discharges no truth obligation.
 
 ### Integration with landed root-model and locator work
 
-Merged main `0f70b6d7e` for PR #1278. The only textual conflict was the
+Merged main `0f70b6d7e`, then integrated `cdab78f75` (including landed
+label cleanup and the service lookup repair) for PR #1278. The only textual conflict was the
 shared structure-migration attempt: its summary now retains both #1273's
 four-premise immutability joint model/omission findings and #1278's registered
 local-logic configuration, and its evidence list contains both result families.
@@ -712,3 +713,17 @@ merge. The frozen Challenges, registered local-logic derivation and its
 explicit sibling inputs are unchanged, so their Comparator/NanoDa certificates
 are reused. Affected area builds, binding and metadata gates check integration;
 final delivered-head CI remains required.
+
+The automatic affected-binding selector expanded to the whole registry and
+encountered an unrelated unbuilt Alternatives object file. Integration binding
+therefore uses eight explicit results: the four local-logic results, original
+nineteen-input assembly, activated Fourth Way GOD binding, landed immutability
+certificate and EXISTS controls. Their area aggregators build. Full-registry
+binding remains required in final CI; the scoped run does not claim it.
+
+Integration evidence: the four affected Case/Causality area aggregators build;
+scoped binding reports eight bound results, zero mismatches. Corpus, the three
+pinned bundle inventories, both batch generators, exploration map, attribution,
+sense/label ratchets and whitespace checks pass. The computed frontier delta
+against pinned main `cdab78f75` is included in the PR description. No additional
+logical support or truth discharge is attributed to this merge repair.
