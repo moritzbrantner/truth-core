@@ -1,0 +1,10 @@
+{
+  "id": "701e5a0e-ede0-4a5e-aceb-f31af0882f7f",
+  "label": "Contingent support of a necessary concretum is an alternative to its exclusion",
+  "subject_kind": "statement",
+  "subject_id": "501d1915-8f2a-461c-970e-ef2f68e57968",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "dd41c165-129a-59d3-84ce-bd13c0944901",
+  "note": "Same Profile and selected world. The rival implies the negation constructively and exhibits the absent-at world; with excluded middle it is equivalent to the negation. Neither is established."
+}

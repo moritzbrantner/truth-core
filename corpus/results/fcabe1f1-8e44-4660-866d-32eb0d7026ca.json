@@ -1,0 +1,25 @@
+{
+  "id": "fcabe1f1-8e44-4660-866d-32eb0d7026ca",
+  "label": "Exceeded-god rival of God's maximality in being survives, checked",
+  "argument_id": "c5772b00-6d13-430c-83dc-dbefd6dc59a8",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.exceededGodSurvives",
+  "comparator_config": "results/fcabe1f1-8e44-4660-866d-32eb0d7026ca/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for God's maximality in being against its smallest consumer, StageTwo.GodIsSimple.godIsSimple (premises: whatever is God is maximal in being, every composite has a uniting cause of its esse, a cause of a quality in another is more such). With a composite god whose uniting cause is more in being and is not God, the exceeded-god rival holds with the other two premises and God is composite. Model-witnessed survival only; it does not show that the name God is correctly applied to such a being.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+      "rival_statement_id": "5c8e5481-165c-4118-a506-a105c00e0df6",
+      "sense_definition_id": "9e363dbd-ba36-4adc-9d43-97bf1bc99ba4",
+      "outcome": "model-witnessed",
+      "conditions": "Control.demiurgeGod, demiurgeAct, demiurgeMore, demiurgeCause, with Composite := demiurgeGod: the rival, CompositeHasAUnitingCauseReading and CauseOfQualityInAnotherIsMoreSuchReading hold; GodIsSimple fails. Consumer tested: StageTwo.GodIsSimple.godIsSimple.",
+      "scope": "Same IsGod, InAct, MoreIn and esse as the premise; two members, one respect.",
+      "coverage": "One explicitly populated interpretation; not every finite-god theology.",
+      "exclusivity": "The rival and the premise cannot both hold on one IsGod, InAct, MoreIn and esse (unregistered helper exceededGod_excludes).",
+      "witness": "Control.demiurgeGod with demiurgeAct, demiurgeMore, demiurgeCause in Control.ExceededGodSurvives; exceededGodSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the nominal definitions of stage one: under 'God names what is maximal in being' the exceeding thing, if maximal, is God, which the rival denies."
+    }
+  ]
+}

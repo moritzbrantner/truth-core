@@ -1,0 +1,10 @@
+{
+  "id": "6b686649-3a61-4f0d-8cb1-c1462832f9af",
+  "label": "Mere-conservation rival of universal perfection transfer survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "715bb19c-8aa8-4bcd-92f1-782102d0b01b",
+  "rule": "Explicit three-member interpretation with two respects, checked by case analysis",
+  "meaning": "Rival test for universal perfection transfer against its smallest consumer, CausalPerfectionTransfer.reconstruction (premises: universal perfection transfer, residual transfer). With a universal source of esse and a secondary cause that alone causes a further perfection, the mere-conservation rival holds with the residual condition and the unrestricted transfer principle fails. Model-witnessed survival only; the existing four-role secondary-only interpretation does not satisfy the residual condition, so a new interpretation is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

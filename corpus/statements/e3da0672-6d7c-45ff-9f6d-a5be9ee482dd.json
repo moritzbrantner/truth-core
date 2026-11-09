@@ -1,0 +1,18 @@
+{
+  "id": "e3da0672-6d7c-45ff-9f6d-a5be9ee482dd",
+  "label": "Some universal cause of esse leaves an actual perfection of its effect to a secondary cause",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by mere conservationism): for some c, x, r and d, c causes the esse of every other thing in act in esse; x is other than c and c causes x's esse; x is in act in r; c does not cause x's being r; and d, other than c, causes x's being r. It is neither occasionalism nor concurrentism.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.UniversalCauseLeavesPerfectionToSecondary",
+  "definition_ids": [
+    "16f8a1e0-056e-4b3f-9915-931ea436323a",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "c19faf56-0908-5e6e-8c39-ccba40dce5d1"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

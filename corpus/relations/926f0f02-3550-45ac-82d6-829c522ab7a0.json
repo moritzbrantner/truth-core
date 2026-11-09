@@ -1,0 +1,10 @@
+{
+  "id": "926f0f02-3550-45ac-82d6-829c522ab7a0",
+  "label": "Abstract-only population is an alternative to concrete population",
+  "subject_kind": "statement",
+  "subject_id": "041d5260-f45c-4a20-bee6-1fcabdf727cb",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+  "note": "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established."
+}

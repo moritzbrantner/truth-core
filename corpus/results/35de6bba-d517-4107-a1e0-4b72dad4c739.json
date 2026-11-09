@@ -1,0 +1,25 @@
+{
+  "id": "35de6bba-d517-4107-a1e0-4b72dad4c739",
+  "label": "Bottomless-grounding rival of whole-roster nontrapping survives, checked",
+  "argument_id": "d03e3a6f-55c7-4405-899c-52c05ab9ce3b",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.bottomlessSurvives",
+  "comparator_config": "results/35de6bba-d517-4107-a1e0-4b72dad4c739/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for whole-roster nontrapping against its smallest consumer, WholeRosterFoundation.necessaryConcrete (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle). In an endless descending series of contingent concreta the bottomless-grounding rival holds with the other three premises and no concretum is necessary. Model-witnessed survival only; the interpretation is not claimed metaphysically possible and the premise is neither refuted nor defended.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "5c898d24-d1f7-5087-b09e-3287a723e787",
+      "rival_statement_id": "93a5b216-b799-47e8-971a-d52570bacbad",
+      "sense_definition_id": "c3115d3f-cbed-4e5f-a68a-fb9caa1aa9d1",
+      "outcome": "model-witnessed",
+      "conditions": "Control.descent at world false: the rival, concrete population, contingent dependence and excluded middle hold; NecessaryConcreteAt fails. Consumer tested: WholeRosterFoundation.necessaryConcrete.",
+      "scope": "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, natural-number candidates, all concrete.",
+      "coverage": "One infinite descending interpretation; the circular shape of the rival and finite carriers are not exhibited.",
+      "exclusivity": "The rival implies the negation of the premise on one Profile and world (unregistered helper bottomless_excludes); the converse is not checked.",
+      "witness": "Control.descent in Control.BottomlessSurvives; bottomlessSurvives proves the listed conjuncts.",
+      "next_step": "Compose the rival with the existing per se regress and causal-finitism results to find which recorded commitments exclude an endless descent of existential grounding."
+    }
+  ]
+}

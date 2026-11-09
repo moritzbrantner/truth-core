@@ -1,0 +1,9 @@
+{
+  "id": "6a2a5507-835e-455e-a239-bdc97de69f96",
+  "label": "Idle maximum in being: another cause gives being where the maximum does not",
+  "term": "idle maximum in being",
+  "definition": "SomeMaximumLeavesBeingToAnother InAct MoreIn CausesIn esse holds when there are m, x and c such that m is in act in esse with nothing more in esse than it, x is other than m and in act in esse, m does not cause x's esse, and c, other than both m and x, does cause x's esse. Ordinary meaning: the highest being is not the maker of everything; something else makes at least one thing be. Example: a supreme exemplar, a craftsman below it, and an artefact the craftsman makes. It does not say there is no maximum or that the maximum causes nothing.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeMaximumLeavesBeingToAnother",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by eminence without universal efficient causation (a highest being as exemplar or final cause only). Rival of MaximumInBeingCausesAllBeingsReading on the same InAct, MoreIn, CausesIn and esse. Stronger than the negation: it names a replacing cause. CausesIn keeps its recorded meaning (DEF-CAUSE-OF-PERFECTION); the rival does not say the third cause is itself uncaused."
+}

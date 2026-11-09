@@ -1,0 +1,9 @@
+{
+  "id": "cdc9a611-4829-4125-8b20-5c69430e50e3",
+  "label": "Non-concrete cause of an actual concretum's esse",
+  "term": "non-concrete esse cause",
+  "definition": "SomeEsseCauseNonConcrete m w CausesIn esse holds when there are distinct c and x such that x is concrete and exists at w, c causes x's esse, c exists at w, and c is not concrete. Ordinary meaning: what makes some concrete thing be is itself not a concrete thing. Example: a Form, or a governing law, as cause of a concrete thing's being. It does not say the cause is absent, and leaves open whether the selected relation holds between the two.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeEsseCauseNonConcrete",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by Platonic Forms or governing laws of nature as causes of being. Rival of EsseCauseIsActualConcreteGround on the same Profile, world, CausesIn and esse. Stronger than the negation: it fixes that the concreteness clause of the bridge fails. The other ways the bridge can fail (an absent cause; a present concrete cause that is not a selected-relation ground) are separate rivals, not recorded here."
+}

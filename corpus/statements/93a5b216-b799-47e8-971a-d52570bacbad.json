@@ -1,0 +1,18 @@
+{
+  "id": "93a5b216-b799-47e8-971a-d52570bacbad",
+  "label": "The actual CONCRETE_6 roster is inhabited and every member has an actual CONCRETE_6 ground",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by metaphysical infinitism and coherentism about dependence): some concrete candidate exists at w, and every concrete candidate existing at w has a concrete ground existing at w under the selected relation at w. It does not say whether the grounding descends without end or runs in a circle, and says nothing about non-concrete or absent grounds.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.BottomlessActualGroundingAt",
+  "definition_ids": [
+    "c3115d3f-cbed-4e5f-a68a-fb9caa1aa9d1",
+    "c2c8b139-fb8a-5ce2-8add-ec55a60d8b0b",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "34ddfede-ff4d-59ad-9882-4bcb490df9bb",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
