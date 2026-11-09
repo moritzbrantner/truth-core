@@ -9,5 +9,6 @@
     "fd9ea228-afd0-55dd-a1a1-855a1d9f0b3e",
     "77277ba9-0909-5ddf-b9ae-8e279a35bac5"
   ],
-  "note": "Truth restriction is an interpretation choice, not silent textual correction. Varying per-truth knowers do not provide one common witness without an additional bridge."
+  "note": "Truth restriction is an interpretation choice, not silent textual correction. Varying per-truth knowers do not provide one common witness without an additional bridge. The bound body is the contextual step2/step3 antecedent ∀ p, isTrue p → ∃ a, knows a p; step3 remains an additional bridge to ∃ a, ∀ p, isTrue p → knows a p. Content and Agent are arbitrary universe-polymorphic types; truth and actual knowledge are primitive predicates, not a definition of epistemic factivity or modal possibility. Their intended applicability, proposition-domain adequacy and epistemic laws remain open.",
+  "lean_declaration": "TruthCore.Logic.CommonKnowerScopes.EveryTruthKnown"
 }

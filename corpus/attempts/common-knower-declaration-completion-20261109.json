@@ -1,0 +1,15 @@
+{
+  "id": "eb5759c3-331f-4d5d-9685-f3b0ec539c20",
+  "label": "Actual common-knower scope declaration completion and unresolved modal scope family",
+  "statement_ids": [
+    "46ba3f5d-fd9c-5341-80b4-6ee5663eec40",
+    "3590b5e7-8517-58f8-b46a-9315257cfcd2",
+    "017d1e16-f523-56dd-a1e3-1146f9a32b94"
+  ],
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Completed distinct generic actual-knowledge antecedent bodies for senses _2 and _3; Bool controls separate truth guarding and refute witness exchange. Neither control supplies an omniscience model. Original sense _1 retains identity, links and allowance: it is a scope family, not a single commitment. Proposed scope split is recorded in the existing disambiguation. Existing FitchKnowability.Context has no agent quantifier, and Parmenides cognition/PSR reasons do not supply one. No aliases or conjunction of free commitments count as completion. Serves the proposed bridge from CC100-124 conditional common-truth-knower to divine intellect on the Catholicism route; that identity/divine-attribute bridge remains open, so no root discharge is claimed.",
+  "blocker": "Original _1 needs explicit sibling scopes and a faithful possible-knowledge interpretation with world accessibility and agent-domain scope; the common-knower-to-divine-intellect bridge also remains open.",
+  "evidence": []
+}
