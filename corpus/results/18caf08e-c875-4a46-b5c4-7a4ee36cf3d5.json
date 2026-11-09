@@ -1,0 +1,12 @@
+{
+  "id": "18caf08e-c875-4a46-b5c4-7a4ee36cf3d5",
+  "label": "Experience connects to root capability",
+  "argument_id": "8be08e48-c67a-48d4-9174-6bab7e7cf38c",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.root",
+  "comparator_config": "results/18caf08e-c875-4a46-b5c4-7a4ee36cf3d5/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "transcription": "assembly"
+}

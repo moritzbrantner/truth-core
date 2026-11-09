@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.permission"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

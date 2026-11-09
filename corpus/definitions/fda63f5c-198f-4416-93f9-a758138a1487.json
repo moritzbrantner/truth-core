@@ -1,0 +1,9 @@
+{
+  "id": "fda63f5c-198f-4416-93f9-a758138a1487",
+  "label": "Finite religious experience tokens and accurate source presentation",
+  "term": "finite religious experience evidence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousExperienceRecognition.Experience",
+  "definition": "Two selected experience tokens have occurrence, actual source (optional being), presented candidate, defeater, normative warrant and proposed recognition move. Veridicality is equality of actual source to the presented candidate. Occurrence does not imply a source; absence of defeaters does not imply accuracy. Normative warrant is primitive, not factive. Local zero-false-positive calibration, theological identification, admissibility, correct recognition, universal God coverage and the reverse capability bridge are separate OPEN inputs.",
+  "note": "Analyst reconstruction; attribution deferred. A hallucination occurs but has no presented actual source. A competing-source presentation can misidentify the same actual source. Models are finite interpretations, not psychological evidence. The local calibration can permit defeated errors, but is stronger than high statistical reliability. See docs/notes/religious-experience-recognition.md. No causal relation, external sign, historical revelation or Church identity is defined here."
+}
