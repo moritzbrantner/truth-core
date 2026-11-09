@@ -1,6 +1,6 @@
 {
   "id": "47e323f2-3405-5caf-a192-201eb1e02f76",
-  "label": "Actual CONCRETE_6 grounding at w descends along a natural-number rank: ∃ rank: B → ℕ, whenever an…",
+  "label": "Actual CONCRETE_AND_ABSTRACT_6 grounding admits a strictly descending natural-number rank",
   "legacy_id": "STMT-ACTUAL-GROUNDING-FINITE-RANK",
   "paraphrase": "OPEN analyst framework premise: actual concrete grounding at w descends along a natural-number rank: ∃ rank : B → ℕ, whenever an actual concretum y grounds an actual concretum x, rank y < rank x. Every actual concretum sits at a finite grounding level. Strictly stronger than STMT-ACTUAL-GROUNDING-WF: a transfinite grounding hierarchy is well-founded with no Nat rank.",
   "lean_declaration": "TruthCore.Causality.Round3CogitoBase.ActualGroundingFiniteRank",

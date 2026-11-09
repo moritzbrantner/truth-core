@@ -1,6 +1,6 @@
 {
   "id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
-  "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied grounding…",
+  "label": "Actual CONCRETE_AND_ABSTRACT_6 grounding is asymmetric at the selected world",
   "legacy_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
   "paraphrase": "OPEN structural application premise: at the selected world, actual concrete individuals cannot stand in the supplied grounding relation in both directions. This includes exclusion of self-grounding, but does not impose well-foundedness, transitivity, finite ancestry or global explanatory completeness.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.ActualGroundingAsymmetric",

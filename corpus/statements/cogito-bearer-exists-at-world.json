@@ -1,6 +1,6 @@
 {
   "id": "c821487b-9c5e-5836-bf27-dcb47f210c94",
-  "label": "Every bearer of an occurring thought episode exists at the selected world w₀ of a Kant/#487 Ontic…",
+  "label": "Every bearer of an occurring thought exists at the selected world",
   "legacy_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
   "paraphrase": "Every bearer of an occurring thought episode exists at the selected world w₀ of a Kant/#487 Ontic signature. An open bridge: the occurrence predicate is not world-indexed, so existence in the selected complete world is a separate step; that w₀ is the actual world is an interpretation, not a Lean fact.",
   "lean_declaration": "TruthCore.Logic.CogitoConcrete.EveryBearerExistsAt",

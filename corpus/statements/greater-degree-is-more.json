@@ -1,6 +1,6 @@
 {
   "id": "9eaa3b6e-ad2f-5776-ab26-03cfa9f54ad8",
-  "label": "For every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is…",
+  "label": "A greater degree of any perfection implies being more in that perfection",
   "legacy_id": "STMT-GREATER-DEGREE-IS-MORE",
   "paraphrase": "OPEN analyst premise (degree reading of 'more'): for every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is more r than x.",
   "lean_declaration": "TruthCore.Causality.Round2PerfectionPrimacy.GreaterDegreeIsMore",

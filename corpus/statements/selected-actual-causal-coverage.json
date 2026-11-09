@@ -1,6 +1,6 @@
 {
   "id": "d8a1fb16-ce20-542f-9e3b-d9350468e331",
-  "label": "At the selected world, every existing contingent individual has an actually existing cause under…",
+  "label": "Every existing contingent individual has an existing cause at the selected world",
   "legacy_id": "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE",
   "paraphrase": "At the selected world, every existing contingent individual has an actually existing cause under the supplied ordinary cause relation.",
   "lean_declaration": "TruthCore.Causality.ScopedActualCausality.SelectedActualCausalCoverage",

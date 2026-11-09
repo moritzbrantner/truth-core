@@ -1,6 +1,6 @@
 {
   "id": "1304b462-4a10-5dd0-995a-db5feb21d98e",
-  "label": "For every being x: if the act of being of x is limited, then the esse of x is received in some…",
+  "label": "Every bearer of LIMITATION_OF_ESSE_VERSUS_REPRESENTED_LIMITING_1 has esse received in a principle",
   "legacy_id": "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
   "paraphrase": "For every being x: if the act of being (esse) of x is limited, then the esse of x is received in some principle. This concerns esse only, not every act or form.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PrimaPars.InfinityReception.EsseLimitedOnlyThroughReceptionReading",

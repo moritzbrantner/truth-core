@@ -1,6 +1,6 @@
 {
   "id": "f8b58a9b-38b0-55a9-b9a8-5f305c040de8",
-  "label": "Each actual concrete root of the selected grounding relation at w has a real determination that no…",
+  "label": "Each actual concrete root has a real determination unique to it",
   "legacy_id": "STMT-ACTUAL-ROOT-HAS-REAL-THISNESS",
   "paraphrase": "OPEN, unattributed: each actual concrete root of the selected grounding relation at w has a real determination that no other being has.",
   "lean_declaration": "TruthCore.Causality.PureActRoot.ActualRootHasRealThisness",

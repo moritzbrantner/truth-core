@@ -1,6 +1,6 @@
 {
   "id": "e95c2bab-9020-5e61-bb10-34696fc01687",
-  "label": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded…",
+  "label": "Some actual concretum has joint grounding supply with intrinsic graph sources",
   "legacy_id": "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
   "lean_declaration": "TruthCore.Causality.ConcreteExistentialSupply.ActualConcreteSupply",
   "paraphrase": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded actual-concrete grounding graph, with its intrinsic predicate instantiated as sources of that same selected grounding relation. Records for non-source targets list all actual concrete immediate grounds and have nonempty contributors. This is an explicit existential-application/adequacy premise; it does not assert a necessary source or a well-founded whole graph.",

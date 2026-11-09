@@ -1,6 +1,6 @@
 {
   "id": "f590a5d5-d592-5734-bffd-0936ec276c4b",
-  "label": "IN-ACT_1, formal reading: whatever moves something in a respect is formally in act in that…",
+  "label": "Movers are formally IN_ACT_1 in the respect in which they move",
   "legacy_id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
   "paraphrase": "IN-ACT_1, formal reading (attribution deferred): whatever moves something in a respect is formally in act in that respect, as fire that is hot makes the wood hot.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsFormallyInAct",

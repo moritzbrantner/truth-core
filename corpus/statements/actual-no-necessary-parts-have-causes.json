@@ -1,6 +1,6 @@
 {
   "id": "76667657-a3ed-565a-b9fe-26f4eac81272",
-  "label": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in…",
+  "label": "Actual candidates with no NECESSARY_2 parts have causes at the selected world",
   "legacy_id": "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
   "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualNoNecessaryPartsHaveCausesAt",
   "paraphrase": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in the SAME primitive Ontic.Causes relation. This OPEN causal policy is not ordinary contingent-existence PSR, explanatory sufficiency, a cause by definition or an independent source theorem.",
