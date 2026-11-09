@@ -1,6 +1,6 @@
 {
   "id": "9108832f-0ef5-5036-8550-f405c7203ff4",
-  "label": "If the chosen class contains any correct admissible account, it contains some correct admissible…",
+  "label": "Any correct admissible goodness account implies some correct admissible named-equivalent account",
   "legacy_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
   "paraphrase": "OPEN sufficient support premise: if the chosen class contains any correct admissible account, it contains some correct admissible account coextensive with a named due-actuality/feature/approval account. The transferred witness need not be the original witness. This does not classify all admissible candidates or assert an actual correct account exists. Nevertheless it entails semantic named coverage of every admissible correct account under this same dictionary, as the checked equivalence shows; the unclassified admissible accounts allowed by strictness are WRONG.",
   "lean_declaration": "TruthCore.Metaethics.GoodnessCorrectSupport.CorrectAccountSupport",

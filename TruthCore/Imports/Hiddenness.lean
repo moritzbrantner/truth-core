@@ -4,3 +4,4 @@ module
 public import TruthCore.Hiddenness.ActualRoot
 public import TruthCore.Hiddenness.Models
 public import TruthCore.Hiddenness.Vocabulary
+public import TruthCore.Hiddenness.WitnessLocalHiddenness

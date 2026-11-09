@@ -114,6 +114,7 @@ public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveCompositi
 public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
 public import TruthCore.Results.Causality.ExistenceSenseRoute.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
+public import TruthCore.Results.Causality.ExistsSenseMeaning.Solution
 public import TruthCore.Results.Causality.ExternalCandidateNecessity.Solution
 public import TruthCore.Results.Causality.FiniteBranching.Solution
 public import TruthCore.Results.Causality.FiniteGroundingHasSource.Solution
@@ -187,6 +188,7 @@ public import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution
 public import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
 public import TruthCore.Results.Causality.ParityUnionRegress.Solution
 public import TruthCore.Results.Causality.PartFreePlurality.Solution
+public import TruthCore.Results.Causality.PartMediatedSelfMotion.Solution
 public import TruthCore.Results.Causality.PastResourceControls.Solution
 public import TruthCore.Results.Causality.PerfectRootPositiveIntellectWill.Solution
 public import TruthCore.Results.Causality.PerfectionOfBeing.Solution
@@ -269,6 +271,7 @@ public import TruthCore.Results.Causality.WholePowerPerfection.Solution
 public import TruthCore.Results.Causality.WholeRosterFoundation.Solution
 public import TruthCore.Results.Causality.WholeRosterFromMaximumAsymmetry.Solution
 public import TruthCore.Results.Causality.WholeRosterRootEquivalence.Solution
+public import TruthCore.Results.Causality.WitnessLocalTeleology.Solution
 public import TruthCore.Results.Causality.WorldIndexedSources.Solution
 public import TruthCore.Results.Causality.WorldLocalGroundingDoubling.Solution
 public import TruthCore.Results.Causality.WorldSourceRegress.Solution

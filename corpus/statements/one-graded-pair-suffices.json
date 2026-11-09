@@ -1,6 +1,6 @@
 {
   "id": "e4a7ef4b-fb0d-56aa-b53e-99e9cc315439",
-  "label": "If one thing is more noble than another, it is also more good and more TRUE_1 than it, so one…",
+  "label": "Greater nobility entails greater goodness and truth for the same pair",
   "legacy_id": "STMT-ONE-GRADED-PAIR-SUFFICES",
   "paraphrase": "If one thing is more noble than another, it is also more good and more true than it, so one graded pair in nobility gives grades of goodness, truth and nobility. Analyst formulation, open: the convertibility of the transcendentals read for the comparative.",
   "lean_declaration": "TruthCore.Causality.MotionMapsBatch1.NobilityGradeConvertible",

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.selectWitness"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c198d4da-f06c-4f22-b532-89103d100e6c",
+  "label": "Root bundle immutability witness and omission controls",
+  "argument_id": "da13fc38-ba27-4752-b51f-0f44c7605a52",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.certificate",
+  "comparator_config": "results/c198d4da-f06c-4f22-b532-89103d100e6c/comparator.json",
+  "status": "solution-present",
+  "description": "Check the specified positive interpretation and four omission interpretations of the unchanged root-route immutability bundle. All four premises are individually indispensable over the unconstrained dictionaries. No root premise is discharged."
+}

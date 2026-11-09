@@ -1,0 +1,14 @@
+{
+  "id": "e502d85c-e344-41db-81ec-121a01e83cdc",
+  "label": "Witness-local Fifth Way controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c31bc1e4-f939-4a37-9bf1-c666e3efd804",
+  "inference_ids": [
+    "6e9d24c0-a590-4e12-b00b-85bde9c0e6a4"
+  ],
+  "meaning": "A second unobserved body defeats universal regular-best observation while the selected witness satisfies all seven local conditions. Seven local omissions reuse the old interpreted fixtures and test the narrower local constraints; rivals include immanent teleonomy, failed dichotomy, and mutable directors.",
+  "sense_mixing_control": true,
+  "definition_ids": [
+    "6d97c59e-6d33-49bd-ba1c-1f15f3b9c21e"
+  ]
+}

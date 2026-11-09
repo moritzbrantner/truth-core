@@ -61797,15 +61797,6 @@
   },
   {
     "kind": "statement",
-    "id": "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
-    "legacy_id": "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS",
-    "label": "A cause of every other actual being transfers causation of a distinct effect’s esse to each of its…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "83a83c56-184a-591d-82f7-89532e3fabf7",
     "legacy_id": "STMT-INFINITE-LOCAL-TRANSMISSION-MODEL",
     "label": "A chain with infinitely many predecessors, all active and agreeing locally about activity, has a…",
@@ -61828,15 +61819,6 @@
     "id": "c87a7a4c-a18a-5d43-a061-9fc0dae8e21f",
     "legacy_id": "STMT-PRAGMATIC-INCOHERENCE-IS-NOT-INCONSISTENCY",
     "label": "A clash of attitudes is mere pragmatic incoherence, not genuine logical inconsistency, so the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "1d693b5c-ea47-5df4-baae-d034bfddba42",
-    "legacy_id": "STMT-TESTIMONY-OF-THOSE-PRESENT-IS-ACCURATE",
-    "label": "A commission report that rests on the testimony of those present goes back to Jesus: he gave each…",
     "flags": [
       "truncated"
     ]
@@ -61927,15 +61909,6 @@
     "id": "cde22084-5b06-551d-8f70-93fe6845d099",
     "legacy_id": "STMT-CURVED-STRAIGHT-LINES-MOTIONS-NOT-COMPARABLE",
     "label": "A curved line and a straight line are not comparable in the required sense, and neither are the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "5fdac93c-13f7-506a-b151-d02f8a50d995",
-    "legacy_id": "STMT-STATE-DIFFERENCE-IS-CHANGE",
-    "label": "A difference of a thing's life-state between an earlier and a later time is a change of it in some…",
     "flags": [
       "truncated"
     ]
@@ -62267,46 +62240,9 @@
   },
   {
     "kind": "statement",
-    "id": "96da1d33-7a73-567e-9557-ba4a9a4bb798",
-    "legacy_id": "STMT-SECOND-MOVERS-MOVE-AS-MOVED-IN-RELEVANT-RESPECT",
-    "label": "A mover other than the moved thing that is being moved in a respect relevant to its moving of that…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "1e47e6db-da06-5a40-9ccf-fbd1f929c596",
     "legacy_id": "STMT-SECOND-MOVERS-MOVE-ONLY-AS-MOVED",
     "label": "A mover other than the moved thing that is itself being moved moves only insofar as it is moved…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "962a9ed3-f084-5cac-a8e6-b4e52e6a7ade",
-    "legacy_id": "STMT-MOVED-MOVER-IS-INSTRUMENT",
-    "label": "A mover other than what it moves that is being moved in a respect relevant to its moving of that…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "7b8b589c-9bbc-50d9-8e4c-ec0a8aca45b0",
-    "legacy_id": "STMT-INSTRUMENT-MOVES-BY-PRINCIPAL-POWER",
-    "label": "A mover that moves something not by the power of its own form moves it only insofar as it is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "6101fa38-f1c8-53d7-9ee9-5a4b9a293c3d",
-    "legacy_id": "STMT-UNCHANGEABLE-IN-RESPECTS-OF-CHANGE-IS-UNCHANGEABLE-SIMPLY",
-    "label": "A mover that moves something, is moved in no respect of change and cannot be otherwise in any…",
     "flags": [
       "truncated"
     ]
@@ -62809,15 +62745,6 @@
   },
   {
     "kind": "statement",
-    "id": "1c083654-1ed5-5e25-873c-1dc5bd48c992",
-    "legacy_id": "STMT-VISIBLE-SPIRITUAL-SOCIETY-IS-CHURCH",
-    "label": "A society in the profile scope that is both visible with an authority structure and a spiritual…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "dbe6d94b-a99b-5125-a5c6-1bfef6dc6c60",
     "legacy_id": "STMT-NECESSARY-CONCRETE-UNDERIVED-JOINT-WITNESS",
     "label": "A specified two-world Boolean profile jointly satisfies concrete actual population, well-founded…",
@@ -63001,24 +62928,6 @@
     "id": "26a25bff-0fd2-562d-a0c1-81cee02f3782",
     "legacy_id": "STMT-THINGS-TRUE-BY-CONFORMITY-TO-ORIGINATING-INTELLECT",
     "label": "A thing is called TRUE_1 absolutely by its relation to the intellect on which its being depends: an…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "060e7a1a-6c3d-5c8f-b67b-2d0a78044642",
-    "legacy_id": "STMT-DESIRABLE-INSOFAR-AS-PERFECT",
-    "label": "A thing is desirable in a given perfection exactly when it is perfect in that perfection, with…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1",
-    "legacy_id": "STMT-PERFECT-INSOFAR-AS-IN-ACT",
-    "label": "A thing is perfect in a given perfection exactly when it actually has that perfection, read per…",
     "flags": [
       "truncated"
     ]
@@ -63343,16 +63252,6 @@
   },
   {
     "kind": "statement",
-    "id": "47e323f2-3405-5caf-a192-201eb1e02f76",
-    "legacy_id": "STMT-ACTUAL-GROUNDING-FINITE-RANK",
-    "label": "Actual CONCRETE_6 grounding at w descends along a natural-number rank: ∃ rank: B → ℕ, whenever an…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "762f9ef3-8f3a-5db9-8d76-20875936199a",
     "legacy_id": "STMT-PILOT-CATHOLIC-ACCOUNT",
     "label": "Actual death and an empty tomb accompany a risen encounter, with encounters accounting for Paul’s…",
@@ -63374,15 +63273,6 @@
     "id": "a1bd75de-4577-5d2e-9c72-e06b4533ac08",
     "legacy_id": "STMT-JOINT-CAUSAL-GROUPS-CERTIFICATE",
     "label": "Acyclic projected membership gives a strict ancestry order; actual-event WF gives minimal…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0a9d2c60-2808-54d1-a395-3c053fbebf64",
-    "legacy_id": "STMT-PER-ACCIDENS-MOVED-PASSIVE-MOTION-HAS-PER-SE-MOVER",
-    "label": "Added premise, not attributed to Aristotle: if the natural motion of a thing not moved by itself…",
     "flags": [
       "truncated"
     ]
@@ -63896,15 +63786,6 @@
   },
   {
     "kind": "statement",
-    "id": "8554d4f7-2c78-53f5-97c4-dffed1148941",
-    "legacy_id": "STMT-INTELLIGIBLE-INCLINATION-IS-INTELLECTUAL-APPETITE",
-    "label": "An inclination following an intelligible form belongs to some appetitive principle of the thing…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "bd983df2-058a-5503-89a1-bbebe87f958b",
     "legacy_id": "STMT-NO-NOVEL-NECESSARY-SUPPORT",
     "label": "An incoming direct existential-support edge between necessary individuals from any world where the…",
@@ -64078,15 +63959,6 @@
   },
   {
     "kind": "statement",
-    "id": "8cf54bde-0c97-5428-9179-0d567293675d",
-    "legacy_id": "STMT-COGITO-THOUGHT-IS-INTELLECTUAL-EXERCISE",
-    "label": "Analyst bridge: every bearer of an occurring thought episode is attributed that episode as an…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "468e6755-22ce-54f7-8e1b-16f14b0d905b",
     "legacy_id": "STMT-OBJECTIVE-TRUTH-ACTUAL-TRUTH-ONLY-DEFINITION",
     "label": "Analyst competing definition proposition: the objective classifier coextends with actual truth…",
@@ -64117,15 +63989,6 @@
     "id": "9ce7ab53-355e-5035-b860-69276b2a5116",
     "legacy_id": "STMT-PER-SE-HISTORICAL-SERIES-DISTINCTION",
     "label": "Analyst formulation, attribution deferred: for any proposed historical and essential relations…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
-    "legacy_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
-    "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual…",
     "flags": [
       "truncated"
     ]
@@ -64235,33 +64098,6 @@
     "id": "fb3315ca-9f34-528f-87f4-e591d8cdb28f",
     "legacy_id": "STMT-UNLIMITED-BEINGS-SHARE-NATURE",
     "label": "Any two beings that are not composite, have esse not other than essence, and have no other being…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "95879657-de3a-5053-ae90-54a14345e084",
-    "legacy_id": "STMT-PERFECT-BEINGS-NOT-SEVERAL",
-    "label": "Any two beings, each having every pure perfection and only pure perfections among its real…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "abe615df-25ae-5aa9-8611-140ca98ae522",
-    "legacy_id": "STMT-REAL-DETERMINATIONS-INDIVIDUATE",
-    "label": "Any two beings, first movers or not, that have the same real determinations are one and the same…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "bd0a956c-149e-5d7d-9771-b974da72fd3a",
-    "legacy_id": "STMT-PURELY-DETERMINED-INDISCERNIBLES-IDENTICAL",
-    "label": "Any two beings, first movers or not, that have the same real determinations, all of them pure…",
     "flags": [
       "truncated"
     ]
@@ -64552,15 +64388,6 @@
   },
   {
     "kind": "statement",
-    "id": "5a948c37-a0c3-5438-87e6-b797b529f76e",
-    "legacy_id": "STMT-AS-TO-BEING-SO-TO-TRUTH",
-    "label": "As each thing stands in respect of being, so it stands in respect of truth: a thing has truth…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "f8ccfa53-1588-5718-87eb-77da8b5786f6",
     "legacy_id": "STMT-TIME-MEASURES-MORE-AND-LESS-MOTION-AS-NUMBER",
     "label": "As number discriminates more and less generally, time discriminates more and less motion and is…",
@@ -64769,36 +64596,9 @@
   },
   {
     "kind": "statement",
-    "id": "ef69a630-2277-56be-86ca-f05f8193093a",
-    "legacy_id": "STMT-LOCAL-CAUSAL-PRINCIPLE",
-    "label": "At every world, every existing contingent individual has a distinct existing cause under the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "02debab4-a52d-5a3e-b7db-e83534c56029",
     "legacy_id": "STMT-NECESSARY-CONCRETE-CAUSAL-CAPACITY",
     "label": "At explicit actual world false in the two-world universal frame, the rigid bearer false exists and…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e95c2bab-9020-5e61-bb10-34696fc01687",
-    "legacy_id": "STMT-ACTUAL-CONCRETE-EXISTENTIAL-SUPPLY",
-    "label": "At least one actual concrete candidate has the existing inductive joint Supply on the recorded…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "40420659-5692-5b9c-ab26-36941f0a1a97",
-    "legacy_id": "STMT-GOODNESS-CORRECT-ADMISSIBLE-ACCOUNT-EXISTS",
-    "label": "At least one admissible definition proposal in the supplied class correctly describes the…",
     "flags": [
       "truncated"
     ]
@@ -64877,24 +64677,6 @@
   },
   {
     "kind": "statement",
-    "id": "95fb2244-dd53-5e3a-9658-4a317078fc9b",
-    "legacy_id": "STMT-POSSIBLE-ABSENCE-IS-LIMITING-AT",
-    "label": "At selected w the supplied classifier L marks the SAME Profile Ontic’s possible-absence property…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "fb7dac91-f7cc-560e-95cc-d5cb80201bdc",
-    "legacy_id": "STMT-LIMITATION-BACKWARD-CLOSED-AT",
-    "label": "At selected w, for every pair of properties Phi/Psi, boxed universal inclusion from Phi to Psi…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "62d4c4c4-9834-5acb-ba7b-260e040c7009",
     "legacy_id": "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF",
     "label": "At the actual world some person at some time is capable of conscious reciprocal relationship…",
@@ -64952,15 +64734,6 @@
     "id": "c41962ba-9ff9-511a-a837-d5339dc2c690",
     "legacy_id": "STMT-NECESSARY-IF-FORWARD-VALID-AT",
     "label": "At the named standpoint, every world predicate G satisfies the forward necessary-if-existent…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
-    "legacy_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
-    "label": "At the reading world w, whatever causes the necessity of something other than itself is CONCRETE_6…",
     "flags": [
       "truncated"
     ]
@@ -65030,42 +64803,6 @@
   },
   {
     "kind": "statement",
-    "id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
-    "legacy_id": "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND",
-    "label": "At the selected world w, for any c and x, if x is actual and CONCRETE_6, c is distinct from x, and…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "39f7c63d-b372-564c-b18a-ed09d02dda9a",
-    "legacy_id": "STMT-ACTUAL-GROUNDING-ASYMMETRIC",
-    "label": "At the selected world, actual CONCRETE_6 individuals cannot stand in the supplied grounding…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "76667657-a3ed-565a-b9fe-26f4eac81272",
-    "legacy_id": "STMT-ACTUAL-NO-NECESSARY-PARTS-HAVE-CAUSES",
-    "label": "At the selected world, every actually existing candidate with NoNecessaryPartsAt has some cause in…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "8361dfab-7f97-5fa5-9458-af40bc84c52b",
-    "legacy_id": "STMT-CAUSE-NOT-PART-OF-EFFECT-AT",
-    "label": "At the selected world, every cause is NOT part of its effect in the SAME supplied order and…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "6a81e61b-6ae4-5887-a2b9-35d846a4b72f",
     "legacy_id": "STMT-ACTUAL-SUPPORT-CONCRETE-GROUND",
     "label": "At the selected world, every existing R-supporter of an existing concrete target is an actual…",
@@ -65075,36 +64812,9 @@
   },
   {
     "kind": "statement",
-    "id": "d8a1fb16-ce20-542f-9e3b-d9350468e331",
-    "legacy_id": "STMT-SELECTED-ACTUAL-CAUSAL-COVERAGE",
-    "label": "At the selected world, every existing contingent individual has an actually existing cause under…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "21265cfa-522d-5151-9435-b4e8f55c0c0f",
     "legacy_id": "STMT-CAUSE-EFFECT-NONOVERLAP-AT",
     "label": "At the selected world, no cause overlaps its effect under existing common-part Overlap in the SAME…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "4cd75e82-3338-5ef6-9636-da518844a519",
-    "legacy_id": "STMT-AQUINAS-OPERATION-ONLY-OF-BEING-IN-ACT",
-    "label": "At the selected world, whatever causes something is in act in some respect: operating, such as a…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0a7896e7-fc8a-55b2-a368-978bda235b31",
-    "legacy_id": "STMT-AQUINAS-ACTIVE-POWER-ONLY-IN-ACT",
-    "label": "At the selected world, whatever has causal power, an active power or principle of acting on…",
     "flags": [
       "truncated"
     ]
@@ -65132,15 +64842,6 @@
     "id": "b0607c1b-8c73-52f1-a052-85852e570f28",
     "legacy_id": "STMT-NECESSARY-ROOT-TRILEMMA",
     "label": "At w, one of: some concrete individual exists at w and at every accessible world; or the selected…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "a9e55713-876d-54f7-9ecc-fc6136c1d8a9",
-    "legacy_id": "STMT-EXISTING-CAUSE-OF-ACTUAL-CONCRETUM-IS-CONCRETE-GROUND",
-    "label": "At w, whatever exists at w and causes an actual concretum under the Kantian Ontic.Causes relation…",
     "flags": [
       "truncated"
     ]
@@ -65458,15 +65159,6 @@
     "id": "ff178c07-b58b-52c3-9e6a-eb2831f21e6e",
     "legacy_id": "STMT-BEFORE-AFTER-IN-MOTION-SAME-SUBSTRATUM-DIFFERENT-ACCOUNT",
     "label": "Before and after in motion share motion's underlying subject but differ from motion in being or…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "c41ed610-456e-59db-a8af-81e209769486",
-    "legacy_id": "STMT-LIFE-BOUNDARY-IS-CHANGE",
-    "label": "Beginning or ceasing to live between an earlier and a later time is a change of the living thing…",
     "flags": [
       "truncated"
     ]
@@ -66816,15 +66508,6 @@
   },
   {
     "kind": "statement",
-    "id": "f8b58a9b-38b0-55a9-b9a8-5f305c040de8",
-    "legacy_id": "STMT-ACTUAL-ROOT-HAS-REAL-THISNESS",
-    "label": "Each actual concrete root of the selected grounding relation at w has a real determination that no…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "093067ab-1094-5bad-af36-92778adbcd34",
     "legacy_id": "STMT-RESURRECTION-ANSWER-MAPS-CORRECT",
     "label": "Each available answer in the pilot follows from its limited theory bundle, and the displayed…",
@@ -66927,15 +66610,6 @@
     "id": "fcf064ee-9b36-5990-b4fd-9b1549b10530",
     "legacy_id": "STMT-IN-ACT-SENSES-EXHAUSTIVE",
     "label": "Each of the two uses of 'in act' in the prima via step is read as formal act, virtual act or…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "5770e90f-d3bb-580e-a084-2c71426a3c0c",
-    "legacy_id": "STMT-SELECTED-PERFECTION-BEARERS-ARE-DEGREE-DIRECTED",
-    "label": "Each pair of selected-perfection bearers has a bearer at a represented degree at least as high as…",
     "flags": [
       "truncated"
     ]
@@ -67329,24 +67003,6 @@
   },
   {
     "kind": "statement",
-    "id": "3ef67739-a427-582b-9eaa-af6410b9c3d3",
-    "legacy_id": "STMT-ACTUAL-CONTINGENT-DEPENDS-ON-ACTUAL-CONCRETUM",
-    "label": "Every CONCRETE_6 individual that exists and is contingent at w depends for its being on some…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
-    "legacy_id": "STMT-EVERY-CONTINGENT-GROUNDED-AT",
-    "label": "Every CONCRETE_6 individual that exists at w and is contingent at w has a CONCRETE_6 individual…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "2c3d9624-723c-520a-8a9e-a8b19383c5a0",
     "legacy_id": "STMT-THIRD-MAN-PARTICIPANT-NONIDENTITY",
     "label": "Every Form of an admitted quality differs from every entity participating in it, including other…",
@@ -67429,29 +67085,11 @@
   },
   {
     "kind": "statement",
-    "id": "b612735b-12a0-55a3-ac0c-3ce36f79e308",
-    "legacy_id": "STMT-SELECTED-CONE-CONTINGENT-GROUNDED",
-    "label": "Every actual CONCRETE_6 member of the full selected ancestry cone that is absent at some accessible…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "a30c5963-cb81-5366-aab0-2454363e18f7",
     "legacy_id": "STMT-ACTUAL-ROOTS-WITHOUT-LIMITING-PRINCIPLE",
     "label": "Every actual concrete root of the selected grounding relation at w is not composite, has…",
     "flags": [
       "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "fe67d766-3e9f-57b5-bbff-c3e2c50c56fd",
-    "legacy_id": "STMT-ACTUAL-ROOT-HAS-EVERY-PURE-DETERMINATION",
-    "label": "Every actual concrete root of the selected grounding relation at w really has every pure perfection",
-    "flags": [
-      "ids-replaced"
     ]
   },
   {
@@ -67474,27 +67112,9 @@
   },
   {
     "kind": "statement",
-    "id": "83fdeb19-900c-5416-a828-2a1c9da983e8",
-    "legacy_id": "STMT-CONTINGENT-ATOMIC-PARTS",
-    "label": "Every actually contingent object at the selected world has a simple actual part in the same…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "23856ef3-0ee8-5b96-a6f0-def6ffba03fa",
     "legacy_id": "STMT-FITCH-RESTRICTED-KNOWABILITY",
     "label": "Every actually true content in the supplied admissible family is known at some modally accessible…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "be5a4cc5-1bac-549c-af6d-992ca07193a1",
-    "legacy_id": "STMT-GOODNESS-SEMANTIC-NAMED-DEFINITIONS-COVER",
-    "label": "Every admissible definition proposal in the supplied class has the extension of the named…",
     "flags": [
       "truncated"
     ]
@@ -67523,24 +67143,6 @@
     "id": "777646a5-3f40-5508-b59a-5e019cf2edce",
     "legacy_id": "STMT-EVERY-CREATED-AGENT-ACTS-AS-APPLIED-TO-ACT-BY-GOD",
     "label": "Every agent other than GOD_2 whose being GOD_2 causes is, whenever it moves something, itself…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "c821487b-9c5e-5836-bf27-dcb47f210c94",
-    "legacy_id": "STMT-COGITO-BEARER-EXISTS-AT-WORLD",
-    "label": "Every bearer of an occurring thought episode exists at the selected world w₀ of a Kant/#487 Ontic…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "a7040bf1-b15a-5ffb-b096-6b60411a066e",
-    "legacy_id": "STMT-COGITO-BEARER-IS-CONCRETE",
-    "label": "Every bearer of an occurring thought episode is CONCRETE_6 under the supplied world-independent…",
     "flags": [
       "truncated"
     ]
@@ -67647,15 +67249,6 @@
   },
   {
     "kind": "statement",
-    "id": "6b80cfe4-82e1-53d3-9c7c-6564e52a25de",
-    "legacy_id": "STMT-COMPOSITE-HAS-TWO-DISTINCT-COMPONENTS",
-    "label": "Every composite has at least two numerically distinct components",
-    "flags": [
-      "ids-replaced"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "363a528c-a22c-5a46-b1ef-64e39f8dba45",
     "legacy_id": "STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS",
     "label": "Every composite is posterior to its components and depends on them: each component is…",
@@ -67683,29 +67276,10 @@
   },
   {
     "kind": "statement",
-    "id": "30a8373c-5188-581b-b746-e319d71311e4",
-    "legacy_id": "STMT-CREATURES-ORDERED-TO-PRIMARY-AS-CAUSE",
-    "label": "Every creature that has a perfection said of it and of the primary has it by its order to the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "6210b0e1-936d-5a77-a1ac-a13d330d9480",
     "legacy_id": "STMT-EVENT-CAUSATION-NONBACKWARD",
     "label": "Every edge in the selected event relation forbids a strictly earlier target exercise time than its…",
     "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "57552dce-fee0-506b-9aef-58a20da0db44",
-    "legacy_id": "STMT-HISTORY-EDGES-ARE-EFFICIENT-CAUSINGS",
-    "label": "Every edge of the causal relation whose history is studied is an efficient causing of x by y in…",
-    "flags": [
-      "ids-replaced",
       "truncated"
     ]
   },
@@ -67757,15 +67331,6 @@
   },
   {
     "kind": "statement",
-    "id": "dd41c165-129a-59d3-84ce-bd13c0944901",
-    "legacy_id": "STMT-NO-CONTINGENT-CONCRETE-SUPPORT",
-    "label": "Every existing concrete candidate that supports a necessary concrete candidate at any admitted…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "8e1ee46d-459e-54f3-976f-7a687dbc39b9",
     "legacy_id": "STMT-TARGET-COPY-ENTAILING-EXPANSION",
     "label": "Every existing concrete-grounding Profile admits an expansion preserving its entire reality and…",
@@ -67802,45 +67367,9 @@
   },
   {
     "kind": "statement",
-    "id": "bc44e1cd-ef24-5f9c-a7e9-8527bb888ded",
-    "legacy_id": "STMT-FIRST-UNMOVED-MOVER-HAS-EVERY-PERFECTION",
-    "label": "Every first mover moved by none comprehends the whole perfection of being: it is in act, formally…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "78246da5-0b37-5b37-b821-1e8bdb41606c",
-    "legacy_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
-    "label": "Every first mover moved by none is not a body, not composed of matter and form, has no esse…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "46326b43-ec14-551a-8eaf-3230f57572c6",
     "legacy_id": "STMT-FIRST-UNMOVED-MOVER-IS-MAXIME-ENS",
     "label": "Every first mover moved by none is the maximal being: it is identical with whatever is maximal in…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "17498c0a-499c-52f0-8d74-e990c9f72569",
-    "legacy_id": "STMT-FIRST-MOVER-HAS-EVERY-PURE-DETERMINATION",
-    "label": "Every first mover moved by none really has every pure perfection among the supplied real…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "144b0405-9800-5032-bf9c-5f26a2d4d2d1",
-    "legacy_id": "STMT-FORM-IS-PRINCIPLE-OF-OPERATION",
-    "label": "Every form, natural or intelligible, through which a thing is in act is the principle of some…",
     "flags": [
       "truncated"
     ]
@@ -67973,27 +67502,9 @@
   },
   {
     "kind": "statement",
-    "id": "b3573a61-ec8b-5aba-8b5f-f1d03611e7f6",
-    "legacy_id": "STMT-RELEVANT-RESPECT-COVERS-EVERY-MOVED-MOVER",
-    "label": "Every mover other than what it moves that is being moved in some respect is being moved in some…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "bf1cf1ef-7021-53e9-8bc3-46951ceaaa8b",
     "legacy_id": "STMT-EVERY-UNMOVED-MOVER-CANNOT-BE-OTHERWISE",
     "label": "Every mover that moves something, is moved in no respect of change and is in act in being cannot…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "678cd483-ade2-5b1b-b60c-da1790f46497",
-    "legacy_id": "STMT-NATURAL-MOTION-SELF-OR-PASSIVE",
-    "label": "Every natural motion is either the motion of a thing MOVED_BY_ITSELF_2, as an animal, or the motion…",
     "flags": [
       "truncated"
     ]
@@ -68155,24 +67666,6 @@
   },
   {
     "kind": "statement",
-    "id": "1722a80f-47a4-5605-8b66-b3534e457bcb",
-    "legacy_id": "STMT-COGITO-PERFORMED-DOUBT-IS-THOUGHT",
-    "label": "Every performed doubt whether thought occurs is realized by some occurring thought episode: ∀ a…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "6b13095f-588e-5ef5-af79-9f1170a4e141",
-    "legacy_id": "STMT-EVERY-MOTION-NATURAL-OR-FORCED",
-    "label": "Every physical MOTION_2 of a thing in a respect is either by nature or by force and contrary to…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "fc2912b3-613c-52cc-84d3-9135cc456efe",
     "legacy_id": "STMT-SELECTED-GOVERNING-WITHIN-TABLE-OR-TEACHING",
     "label": "Every power satisfying the selected governing predicate is governing in the fixed table or is the…",
@@ -68218,33 +67711,6 @@
   },
   {
     "kind": "statement",
-    "id": "32695660-361c-5a8b-a45d-5681110f3db1",
-    "legacy_id": "STMT-NON-RECIPIENT-DETERMINATIONS-ARE-PURE",
-    "label": "Every real determination of a being that is no RECIPIENT_4 is a pure perfection",
-    "flags": [
-      "ids-replaced"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e0c1f0de-83c4-5176-b0f1-b6e6c2237136",
-    "legacy_id": "STMT-FIRST-MOVER-DETERMINATIONS-ARE-PURE",
-    "label": "Every real determination of a first mover moved by none is a pure perfection, so it has no real…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "3b39e0ba-eb4a-5708-90d0-c2706094d43c",
-    "legacy_id": "STMT-ACTUAL-ROOT-DETERMINATIONS-ARE-PURE",
-    "label": "Every real determination of an actual concrete root of the selected grounding relation at w is a…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "63e54d09-e859-5bee-91b9-a1b1d2476831",
     "legacy_id": "STMT-FACT-REQUIRES-SUFFICIENT-REASON",
     "label": "Every real or existing fact and every true statement has a sufficient reason why it is so rather…",
@@ -68257,15 +67723,6 @@
     "id": "f42c2f3d-5ae7-5377-a9c5-54c31cc038e4",
     "legacy_id": "STMT-Q14-STRUCTURAL-SCOPE-COVERED",
     "label": "Every receiver neither matter-form composite nor a component of anything belongs to the SAME…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e529c42f-f0a2-5ebf-9ae1-459e7f798d31",
-    "legacy_id": "STMT-FINITE-DISTINCT-CAUSAL-ANCESTRY",
-    "label": "Every relatum has finitely many distinct upstream ancestors reachable by a nonempty finite path in…",
     "flags": [
       "truncated"
     ]
@@ -68312,26 +67769,6 @@
     "legacy_id": "STMT-OBJECTIVE-TRUTH-HAS-TRUTH-COMPONENT",
     "label": "Every sentence satisfying the supplied objective predicate is true at the supplied actual attitude…",
     "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "d13f6ca0-0b66-5f86-8994-0e2c91deafbf",
-    "legacy_id": "STMT-SELECTED-CHURCH-IS-VISIBLE",
-    "label": "Every society satisfying the selected Church predicate is a visible society with an authority…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0075b6ed-766b-51af-88f4-b6c4a91ba6a0",
-    "legacy_id": "STMT-SELECTED-CHURCH-IS-SPIRITUAL",
-    "label": "Every society satisfying the selected Church predicate satisfies the selected spiritual-community…",
-    "flags": [
-      "ids-replaced",
       "truncated"
     ]
   },
@@ -68403,15 +67840,6 @@
     "id": "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
     "legacy_id": "STMT-PRIOR-SENSES-EXHAUSTIVE",
     "label": "Every use of 'prior' on the route to act's priority over potency is read in one of three senses…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "2f10f0f7-90ae-5822-9014-a9ccbffc5ae2",
-    "legacy_id": "STMT-VISIBLE-SOCIETY-IS-SPIRITUAL",
-    "label": "Every visible society with an authority structure in the fixed profile scope is a spiritual…",
     "flags": [
       "truncated"
     ]
@@ -68758,24 +68186,6 @@
     "id": "f273e256-bd8a-50b4-acb9-c86f03bc99b1",
     "legacy_id": "STMT-ULTIMATE-EXPLANATION-OMISSIONS",
     "label": "Explicit omission controls: an inconsistent initial value and observed prefix empties the evidence…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "4133bd12-ac64-59e0-b708-2d2c72e1c3de",
-    "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-TEMPORAL-DEFINITION",
-    "label": "Explicit open analyst calibration: efficient-cause attribution holds exactly when efficient…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "1ad18c70-4db9-50a0-8605-fa860709a10a",
-    "legacy_id": "STMT-EFFICIENT-ATTRIBUTION-CURRENT-DEFINITION",
-    "label": "Explicit open analyst calibration: the independently supplied temporally unspecified…",
     "flags": [
       "truncated"
     ]
@@ -69327,15 +68737,6 @@
   },
   {
     "kind": "statement",
-    "id": "6f4824c9-b80e-5ea7-9d45-dbfb8d53d379",
-    "legacy_id": "STMT-GREATEST-DEGREE-IN-GENUS-CAUSES-ALL-IN-GENUS",
-    "label": "For an arbitrary selected perfection and supplied preorder of represented degrees, every bearer at…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "a0c179aa-43a0-5c0a-8b80-55cbfab4a6b5",
     "legacy_id": "STMT-STRENGTH-AT-MOST-ONE",
     "label": "For an arbitrary supplied type and predicate P, any two witnesses satisfying P are equal…",
@@ -69593,25 +68994,6 @@
   },
   {
     "kind": "statement",
-    "id": "58445bd6-264b-53cf-8951-d052022f8e47",
-    "legacy_id": "STMT-DIVERSE-COMPONENTS-UNITED-ONLY-BY-A-CAUSE",
-    "label": "For any thing x and any two numerically distinct components a and b of x, something unites a and b…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "a8365742-e60c-51e8-8e1b-881e7adbf2fe",
-    "legacy_id": "STMT-JOHANNINE-SAYINGS-INDEPENDENT-OF-MATTHEAN",
-    "label": "For any two commission reports, if the first belongs to the Johannine strand and the second to the…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "c331d37f-fcd0-5b8a-a469-739cdc1c0896",
     "legacy_id": "STMT-GENERAL-MODAL-REDUCT-INVARIANCE",
     "label": "For any two extensions with pointwise equivalent access/existence and the same rigid carrier…",
@@ -69717,33 +69099,6 @@
     "flags": [
       "truncated",
       "untagged-sense"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b3853b1b-cb6d-5fdd-bb94-d8ad99034561",
-    "legacy_id": "STMT-FINITELY-MANY-CAUSES-PER-MODE",
-    "label": "For each effect and each of Aristotle's four modes of CAUSE_3, the effect has only finitely many…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "3581ee6a-6cc3-57c5-aa23-b93118f0dff1",
-    "legacy_id": "STMT-FIRST-MOVER-SUPPOSITUM-IS-NATURE",
-    "label": "For each first mover moved by none, its represented individuating basis equals its represented…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "55890498-a250-5f23-9277-bd563a557378",
-    "legacy_id": "STMT-FIRST-MOVER-CONTENT-AGREES-WITH-ACT",
-    "label": "For each first mover moved by none, its represented nature content agrees in every respect with…",
-    "flags": [
-      "truncated"
     ]
   },
   {
@@ -69876,15 +69231,6 @@
   },
   {
     "kind": "statement",
-    "id": "6cc47d1b-4840-54e1-b96b-d389d74fbbf4",
-    "legacy_id": "STMT-GOODNESS-DUE-TO-FORM-AND-END",
-    "label": "For every bearer and perfection in the fixed form/end profile, it is good in that respect exactly…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "73f4b6c6-ba85-5b1a-9c8a-bf07587de5ce",
     "legacy_id": "STMT-PRIMITIVE-ETERNITY-BOETHIAN-DEFINITION",
     "label": "For every being in the supplied duration profile, primitive Eternal holds exactly when the…",
@@ -69894,36 +69240,9 @@
   },
   {
     "kind": "statement",
-    "id": "7de89edb-e3a8-59ee-9740-8d0ce7c8ea24",
-    "legacy_id": "STMT-RECEIVED-ESSE-IS-LIMITED",
-    "label": "For every being x and principle r, if the esse of x is received in r, then the esse of x is limited",
-    "flags": [
-      "ids-replaced"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "7fcfcee8-86ab-5a16-84ad-124cf5e8f9b2",
     "legacy_id": "STMT-RECEIVER-IN-POTENCY-TO-RECEIVED-ESSE",
     "label": "For every being x and principle r: if the esse of x is received in r, then r stands in receptive…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "1304b462-4a10-5dd0-995a-db5feb21d98e",
-    "legacy_id": "STMT-ESSE-LIMITED-ONLY-THROUGH-RECEPTION",
-    "label": "For every being x: if the act of being of x is limited, then the esse of x is received in some…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "be1289df-3c43-5595-99b5-1fb8d38164be",
-    "legacy_id": "STMT-UNLIMITED-ESSE-IS-INFINITE",
-    "label": "For every being x: if the esse of x is not limited, then x satisfies the primitive INFINITE_1…",
     "flags": [
       "truncated"
     ]
@@ -70201,34 +69520,6 @@
   },
   {
     "kind": "statement",
-    "id": "38cf20d9-1069-5d7c-a366-21b5f6e08bfe",
-    "legacy_id": "STMT-MORE-IN-MATCHES-DEGREE-EVERYWHERE",
-    "label": "For every pair of beings, x is more r than y exactly when x's represented degree is strictly…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "9eaa3b6e-ad2f-5776-ab26-03cfa9f54ad8",
-    "legacy_id": "STMT-GREATER-DEGREE-IS-MORE",
-    "label": "For every perfection r and beings c, x, if x has r in a strictly smaller degree than c, then c is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "5cda1946-b22e-52dc-9524-a3611c63585c",
-    "legacy_id": "STMT-NO-INFINITE-REGRESS-OF-CAUSES-OF-A-PERFECTION",
-    "label": "For every perfection, causes of that perfection do not go on to infinity: the relation 'c is a…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "be510bc8-fa1f-597e-98a8-30db162a15cc",
     "legacy_id": "STMT-MAXIMUM-ORDER-SCHEMA",
     "label": "For every preorder with a cause-of-degree relation, if each distinct cause is strictly greater…",
@@ -70439,24 +69730,6 @@
     "id": "b0b48251-daf9-5dc1-9a44-e7b7489f3c27",
     "legacy_id": "STMT-MEREOLOGICAL-COMPLEMENTATION",
     "label": "For every x,y in the supplied fixed partial order, when y is not part of x an exact remainder z…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "f6677834-6328-5588-a288-0e0d815876ff",
-    "legacy_id": "STMT-UNLIMITED-HAVING-EXCEEDS-CAPACITY",
-    "label": "For every y, perfection r and z, if y has r and y's having r is not limited by z, then y has r in…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "cdb79aa6-eaff-5fd8-b094-410d9df021c0",
-    "legacy_id": "STMT-RECEIVED-PERFECTION-IS-LIMITED-BY-RECIPIENT",
-    "label": "For every y, perfection r and z, if y's having r is received in z, then y has r only to the…",
     "flags": [
       "truncated"
     ]
@@ -70755,15 +70028,6 @@
     "id": "6b28e089-3828-5a58-b6c9-0ed959ef243c",
     "legacy_id": "STMT-ACCIDENTAL-FEATURE-ORIGIN-FORK",
     "label": "For this selected x,f, accidental classification and occurrence imply either production by…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "70508140-d427-5a99-9be0-ae12ac905302",
-    "legacy_id": "STMT-MORE-IN-MATCHES-STRICT-REPRESENTED-DEGREE",
-    "label": "For two bearers of the selected perfection, MoreIn holds exactly when the second represented…",
     "flags": [
       "truncated"
     ]
@@ -71171,15 +70435,6 @@
     "id": "21043f97-fcc6-5f0f-94f9-c4786bdb8cd3",
     "legacy_id": "STMT-NOMINAL-GOD-NAMES-DESCRIBED-PRINCIPLE",
     "label": "GOD_1: whatever meets the full description is God in what the name signifies (analytic)",
-    "flags": [
-      "untagged-sense"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "49542121-caa6-576e-aa84-3a1546397388",
-    "legacy_id": "STMT-DESCRIBED-PRINCIPLE-IS-CALLED-GOD",
-    "label": "GOD_3: whatever meets the full description is called God in usage",
     "flags": [
       "untagged-sense"
     ]
@@ -71836,36 +71091,9 @@
   },
   {
     "kind": "statement",
-    "id": "f590a5d5-d592-5734-bffd-0936ec276c4b",
-    "legacy_id": "STMT-MOVES-ONLY-AS-FORMALLY-IN-ACT",
-    "label": "IN-ACT_1, formal reading: whatever moves something in a respect is formally in act in that…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "d4a26175-a984-5c19-85f1-b6aadbf095fe",
-    "legacy_id": "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT",
-    "label": "IN-ACT_2, virtual reading: whatever moves something in a respect is virtually in act in that…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "d9daeb1e-1749-5473-9fae-04184dd5e40c",
     "legacy_id": "STMT-NOTHING-IN-ACT-FORMALLY-OR-VIRTUALLY-AND-IN-POTENCY",
     "label": "IN-ACT_3, inclusive reading: nothing is in act formally or virtually and in POTENCY_1 in the same…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e6515003-6767-5b11-bf9f-54280b900c18",
-    "legacy_id": "STMT-MOVES-ONLY-AS-IN-ACT-FORMALLY-OR-VIRTUALLY",
-    "label": "IN-ACT_3, inclusive reading: whatever moves something in a respect is in act in that respect…",
     "flags": [
       "truncated"
     ]
@@ -71918,27 +71146,9 @@
   },
   {
     "kind": "statement",
-    "id": "02bcb70d-f2f5-52af-b050-3a033999a0f9",
-    "legacy_id": "STMT-SELF-ASCRIBED-FORGIVENESS-AUTHORITY-IS-DIVINE-AUTHORITY-CLAIM",
-    "label": "If Jesus asserted, of a title he used of himself, authority to forgive sins on earth, he claimed…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "ca658204-d3b4-5ecd-a1fe-1a37d033c615",
     "legacy_id": "STMT-TRIAL-SELF-ASCRIPTION-IS-DIVINE-AUTHORITY-CLAIM",
     "label": "If Jesus himself affirmed that he is the Son of the Blessed and predicted that his hearers would…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "bb88731c-c42e-53e0-a138-49e72ad40eb6",
-    "legacy_id": "STMT-RAISING-A-CLAIMANT-CONFIRMS-HIS-MANDATE",
-    "label": "If a God raised Jesus and Jesus had claimed divine authority, that God, by raising him, confirms…",
     "flags": [
       "truncated"
     ]
@@ -72153,15 +71363,6 @@
   },
   {
     "kind": "statement",
-    "id": "db54a1a6-7e59-5378-939d-fa38be38db9e",
-    "legacy_id": "STMT-UNITER-EFFICIENT-ACTIVITY-PERSISTS-TO-SELECTED-TIME",
-    "label": "If an actual uniting tuple has efficient activity at some admitted time, that same uniter…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "e5bc0254-4261-5780-af3a-0d3fa0eafcdd",
     "legacy_id": "STMT-NB-A10-PARTLESS-BEGINNING-ANGEL-CAUSED",
     "label": "If an angel lacking parts were to begin to exist, it would have a cause in the prior…",
@@ -72201,15 +71402,6 @@
     "id": "31cf9a3d-d80b-5f6a-920a-e515a246df53",
     "legacy_id": "STMT-SCIENTISM-EXISTENTIAL-NONEMPIRICAL-SCOPE",
     "label": "If any nonempirical established claim exists, some such claim lies in scope; not necessarily every…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "d75fefb5-07e7-590b-bba9-693dabd9da9d",
-    "legacy_id": "STMT-NAMED-PRODUCTIVE-CAUSAL-COUNTERACCOUNTS-COVER",
-    "label": "If any selected-world no-esse capacity or productive countercase exists, some supplied…",
     "flags": [
       "truncated"
     ]
@@ -72275,24 +71467,6 @@
     "label": "If both the argument for contrary principles and the substratum argument are retained, a third…",
     "flags": [
       "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "7030af77-c1d4-5f67-bc0c-875048d1b55c",
-    "legacy_id": "STMT-UNLIMITED-POSSESSION-EXCEEDS-LIMITED",
-    "label": "If c has r, x has r limited by x's own capacity, and c's having r is not limited by x, then c is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e0088de9-28eb-533c-a1e7-662f780cc0e2",
-    "legacy_id": "STMT-PERFECTION-CAUSING-IN-ANOTHER-IS-EFFICIENT",
-    "label": "If c, distinct from x, causes x's being r, then c efficiently causes x in respect r",
-    "flags": [
-      "ids-replaced"
     ]
   },
   {
@@ -72576,24 +71750,6 @@
   },
   {
     "kind": "statement",
-    "id": "e4a7ef4b-fb0d-56aa-b53e-99e9cc315439",
-    "legacy_id": "STMT-ONE-GRADED-PAIR-SUFFICES",
-    "label": "If one thing is more noble than another, it is also more good and more TRUE_1 than it, so one…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "a4814f25-84b0-560e-870a-eb3a23a6a35b",
-    "legacy_id": "STMT-MORE-IN-IS-ASYMMETRIC",
-    "label": "If one thing is more such than another in a perfection, the other is not more such than it in that…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "c6463d43-5c58-5e45-8e9c-650265ade554",
     "legacy_id": "STMT-CC100-119-CONDITIONAL-PROBABLE-GOD",
     "label": "If our cognitive faculties are designed and their design implies that probably God exists, then…",
@@ -72720,15 +71876,6 @@
   },
   {
     "kind": "statement",
-    "id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
-    "legacy_id": "STMT-GRADES-TO-MAXIMUM-AT-BEING",
-    "label": "If some pair compares in the supplied esse respect, some in-act individual has no greater…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "1102789f-90b2-5253-9c23-8d6e47ec5e2a",
     "legacy_id": "STMT-CC100-85-CONDITIONAL-SUSTAINER-ATTRIBUTES",
     "label": "If something explains what holds contingent beings together through time, that sustainer must be…",
@@ -72774,15 +71921,6 @@
   },
   {
     "kind": "statement",
-    "id": "9108832f-0ef5-5036-8550-f405c7203ff4",
-    "legacy_id": "STMT-GOODNESS-CORRECT-ACCOUNT-SUPPORT",
-    "label": "If the chosen class contains any correct admissible account, it contains some correct admissible…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "fb21c2c9-ed38-5ff5-8dcf-71806d98c76f",
     "legacy_id": "STMT-SUBSTRATUM-PRIOR-TO-CONTRARY-PREDICATES",
     "label": "If the contraries are predicated of a substratum, that substratum is prior to those predicates and…",
@@ -72822,15 +71960,6 @@
     "id": "78f0ee30-2c2f-5223-9d80-a936735abdf0",
     "legacy_id": "STMT-ACTUAL-CUT-OFF-PERSISTS-TO-ADMISSIBLE",
     "label": "If the distinguished actual practice has the original sharp cut-off property, all selected…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "5c898d24-d1f7-5087-b09e-3287a723e787",
-    "legacy_id": "STMT-WHOLE-ROSTER-NOT-TRAPPED",
-    "label": "If the entire actual CONCRETE_6 roster at w is nonempty, that entire roster is not a borrowing Trap…",
     "flags": [
       "truncated"
     ]
@@ -73416,15 +72545,6 @@
     "id": "61f5949d-a8d6-5fa6-8864-2c4e891e1610",
     "legacy_id": "STMT-REGRESS-READINGS-COINCIDE-CLASSICALLY",
     "label": "In classical logic, for every relation R on any type of beings: every being is R-accessible…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b35ce743-6870-5884-926f-60744d1a318b",
-    "legacy_id": "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
-    "label": "In every composite there is something that is not itself: every composite has a component other…",
     "flags": [
       "truncated"
     ]
@@ -74469,15 +73589,6 @@
   },
   {
     "kind": "statement",
-    "id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
-    "legacy_id": "STMT-PILOT-JESUS-CLAIMS",
-    "label": "Jesus claimed divine authority in the existing case signature; the Gospel report supports an open…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "93d0ec4e-e927-5df8-b331-93729a0b9957",
     "legacy_id": "STMT-JUDGING-POWER-NOT-GIVEN-BY-JESUS",
     "label": "Jesus did not himself give or promise, to his disciples or to their community, the power reported…",
@@ -74491,15 +73602,6 @@
     "id": "568fdb96-eb4f-536c-873e-e294bb2e5931",
     "legacy_id": "STMT-GOVERNING-GRANT-EXISTS",
     "label": "Jesus gave or promised some power in the existing fixed governing table, in the existing…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "f93a88f9-d8f9-5b2a-99ae-b0dea250403f",
-    "legacy_id": "STMT-PILOT-ROSE",
-    "label": "Jesus rose from the dead, using the existing skeleton’s historical predicate; no identification…",
     "flags": [
       "truncated"
     ]
@@ -76080,15 +75182,6 @@
   },
   {
     "kind": "statement",
-    "id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
-    "legacy_id": "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
-    "label": "No two distinct things depend for their being on each other; if x is distinct from y and x depends…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "0566122f-9b0c-5325-9d4c-335bcd7124e0",
     "legacy_id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
     "label": "No two things efficiently cause each other, in any respects: if c efficiently causes x in some…",
@@ -76101,15 +75194,6 @@
     "id": "0166c188-85b1-53c0-b844-d9a3ec6cf1fa",
     "legacy_id": "STMT-ACCESSIBILITY-NO-DEAD-END",
     "label": "No world of the Kripke frame is a dead end: for each world w it is not the case that w accesses no…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "c425f0c5-6c3f-5115-ba04-3e61bd049e3b",
-    "legacy_id": "STMT-CASE-NON-CONTRADICTION",
-    "label": "Non-contradiction for the case predicates: for every predicate of beings in respects, nothing both…",
     "flags": [
       "truncated"
     ]
@@ -76324,24 +75408,6 @@
   },
   {
     "kind": "statement",
-    "id": "5bedb69b-8fbb-53b5-be2f-377d1331cf37",
-    "legacy_id": "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
-    "label": "OPEN analyst dichotomy, read from ST I q.18 a.3 co.: whatever has an operation either operates…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "12bdfec3-81f6-59e6-91df-88b323ff860e",
-    "legacy_id": "STMT-EVERY-OPERATION-HAS-AN-END",
-    "label": "OPEN analyst finality principle, read for operations through forms: every such operation is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "a961a13e-6caf-5864-ba84-10773f0c8b2e",
     "legacy_id": "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
     "label": "OPEN analyst premise: for every y, perfection r and z, if y has r limited by z, then the degree in…",
@@ -76379,28 +75445,9 @@
   },
   {
     "kind": "statement",
-    "id": "f586a11b-dbda-53d1-9c21-8d75da74056f",
-    "legacy_id": "STMT-INTELLECTUAL-APPETITE-IS-WILL",
-    "label": "OPEN analyst reading of ST I q.80 a.2 and q.82 under HAS_WILL_3: whatever has an appetitive…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "ed993287-249f-5bd1-ad0d-430acdf698f2",
     "legacy_id": "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT",
     "label": "OPEN analyst reading of ST I q.9 a.1 for POTENCY_1 in the subject: whatever changes in a respect…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b67c6bb9-3a56-5400-89f7-c6eb6f0eb2a1",
-    "legacy_id": "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
-    "label": "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct…",
     "flags": [
       "truncated"
     ]
@@ -78255,15 +77302,6 @@
   },
   {
     "kind": "statement",
-    "id": "8697bb2d-f29d-5945-88ea-bb62d6a3e4e2",
-    "legacy_id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
-    "label": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "9e43b06d-62f3-5f2a-9599-c19df184bd5c",
     "legacy_id": "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
     "label": "Reuse Groups as a token record, with h.members g = contributors g ∪ enablers g as the COMPLETE…",
@@ -79086,15 +78124,6 @@
   },
   {
     "kind": "statement",
-    "id": "72361c88-db53-5064-8845-37ff5abbca82",
-    "legacy_id": "STMT-GREATEST-BEING-DEGREE-ATTAINED",
-    "label": "Some bearer of the supplied being respect attains a greatest represented degree among bearers of…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "42008b33-62b5-564b-875b-ff91957ddd46",
     "legacy_id": "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY",
     "label": "Some being before which nothing is in time is in POTENCY_1 in some respect, as in the Night or…",
@@ -79188,15 +78217,6 @@
     "id": "d9fca992-fbe9-5ce7-9404-18e7608987aa",
     "legacy_id": "STMT-ATTRIBUTED-DENIAL-OF-CHANCE",
     "label": "Some deny that anything happens by chance because every alleged case has a definite cause and…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "95c5138f-e3cc-552d-9846-ab8dc84502f4",
-    "legacy_id": "STMT-COGITO-DOUBT-IS-PERFORMED",
-    "label": "Some doubt whether any thought episode occurs is actually performed: ∃ a, Performed a ∧…",
     "flags": [
       "truncated"
     ]
@@ -79432,15 +78452,6 @@
     "id": "8dcc3c1c-2a84-55d4-92b2-e47e8f789e9b",
     "legacy_id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
     "label": "Some single individual is both the named actual necessarily underived R-witness and the unique…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b21a4851-8bfc-50df-9413-2223d212ca0b",
-    "legacy_id": "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE",
-    "label": "Some society in the profile scope satisfies the spiritual-community predicate and is not visible…",
     "flags": [
       "truncated"
     ]
@@ -80368,15 +79379,6 @@
   },
   {
     "kind": "statement",
-    "id": "8d90c06f-1a21-5765-a7d4-5c1d927694e9",
-    "legacy_id": "STMT-ASSENTING-BEARER-OPINES-CONTENT",
-    "label": "The bearer of an assenting episode opines that episode's content: ∀ b e, Bears b e → Assenting e →…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "72d1e45e-47bf-52eb-a902-5d3f24f96614",
     "legacy_id": "STMT-EMPIRICAL-PROOF-CONTROLS",
     "label": "The beginning-question Boolean content calibrates to existing earliest-time PastIsFinite in two…",
@@ -80516,24 +79518,6 @@
     "id": "1cf63d19-c42c-5ef6-bb2d-c2418568d2f6",
     "legacy_id": "STMT-NO-ROBUST-TRUTH-APTNESS-BEYOND-MINIMAL",
     "label": "The collapse premise: there is no truth-aptness more robust than the minimal, so whatever is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "3b01545c-78ae-5b26-b55b-d346b9c3c720",
-    "legacy_id": "STMT-MT28-AND-JN21-REST-ON-TESTIMONY",
-    "label": "The commission reports of Matthew 28.18-20 and John 21.15-17 rest on the testimony of disciples…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
-    "legacy_id": "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "label": "The commission saying of John 20.21-23 is literarily independent of that of Matthew 18.17-18, or…",
     "flags": [
       "truncated"
     ]
@@ -81441,36 +80425,9 @@
   },
   {
     "kind": "statement",
-    "id": "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
-    "legacy_id": "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
-    "label": "The narrative attributes to Jesus a prediction that the addressed hearers will see the Son of Man…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "759acbc1-17ea-50b4-905c-3aacea988e7e",
-    "legacy_id": "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
-    "label": "The narrative attributes to Jesus an affirmative self-ascription of Messiah and Son of the Blessed…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "868ee1a8-5a52-5a95-8edb-010806c80339",
     "legacy_id": "STMT-REPORTED-JOHN-SENDING-ASSERTION",
     "label": "The narrative attributes to Jesus the assertion that God sent him rather than that he came from…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0b7130f1-144a-5129-b99a-647303a06d7f",
-    "legacy_id": "STMT-REPORTED-FORGIVENESS-AUTHORITY",
-    "label": "The narrative attributes to Jesus the assertion that the Son of Man has authority to forgive sins…",
     "flags": [
       "truncated"
     ]
@@ -82599,15 +81556,6 @@
   },
   {
     "kind": "statement",
-    "id": "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
-    "legacy_id": "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-    "label": "The substance of the Matthew 28 commission goes back to Jesus in the existing gave-or-promised…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "702e4171-b48d-5c5e-a016-6bfd5cc67225",
     "legacy_id": "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
     "label": "The sufficient reason for contingent things must lie outside their series however infinite, in a…",
@@ -82647,24 +81595,6 @@
     "id": "8addbebd-9f1c-5726-ac12-02c4272f8b01",
     "legacy_id": "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
     "label": "The supplied empiricist frame contains the three observation statements and exactly the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "4c22019a-12c3-5cf6-adff-7288a3741e1a",
-    "legacy_id": "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
-    "label": "The supplied named feature-based definition does not correctly describe goodness in the fixed…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "50d8be94-f9c1-52af-bf43-fb2751915756",
-    "legacy_id": "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
-    "label": "The supplied named fixed-assessor approval definition does not correctly describe goodness in the…",
     "flags": [
       "truncated"
     ]
@@ -83393,15 +82323,6 @@
   },
   {
     "kind": "statement",
-    "id": "7dfa068a-9974-5fcd-ba23-fac4dee2fc70",
-    "legacy_id": "STMT-NO-INFINITE-ASCENT-IN-BEING",
-    "label": "There is no infinite ascent in being, that is, no sequence of beings each more a being than the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
     "legacy_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
     "label": "There is no infinite chain in which each member is moved in local MOTION_2 by the next, a primary…",
@@ -83931,15 +82852,6 @@
     "id": "6efb4963-5a5a-5481-81f7-c28e2cd4e115",
     "legacy_id": "STMT-TEMPORAL-EVENT-CAUSAL-CONTROLS",
     "label": "Two closed mathematical controls: the usual real interval has a first instant 0; every event label…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "034eb68f-6b29-5854-9f66-e4e760b9cfa8",
-    "legacy_id": "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
-    "label": "Two distinct first movers moved by none would differ in some act: one would be in act in a respect…",
     "flags": [
       "truncated"
     ]
@@ -84985,15 +83897,6 @@
   },
   {
     "kind": "statement",
-    "id": "888895ec-e4f4-5fb1-87d1-14b1b2a2906c",
-    "legacy_id": "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
-    "label": "Whatever Mark's narrative of the hearing before the high priest attributes to Jesus, Jesus himself…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "c1deb2ee-770d-5030-9e5c-302e33028811",
     "legacy_id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
     "label": "Whatever a GOD_4 with the classical attributes confirms by a sign is true: for every such GOD_4 and…",
@@ -85017,15 +83920,6 @@
     "id": "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
     "legacy_id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
     "label": "Whatever a thing is in properly, as a species is contained under its GENUS_1, is a GENUS_1 in the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0ce7b6c5-6e52-56ea-9377-8328b67765e7",
-    "legacy_id": "STMT-THINKER-LIVES",
-    "label": "Whatever bears an occurring thought lives: thinking is an operation that remains in the agent, and…",
     "flags": [
       "truncated"
     ]
@@ -85305,15 +84199,6 @@
   },
   {
     "kind": "statement",
-    "id": "2d1b4c22-faa3-5433-9da4-4dfd880f8207",
-    "legacy_id": "STMT-FORCED-MOTION-BY-ANOTHER",
-    "label": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "5d9eba3a-5add-52ff-b3b7-cf2c3fd98f2f",
     "legacy_id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
     "label": "Whatever is moved in a respect by nature and by itself is moved in that respect by something per…",
@@ -85386,29 +84271,11 @@
   },
   {
     "kind": "statement",
-    "id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
-    "legacy_id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
-    "label": "Whatever moves itself in a respect does so by a part, distinct from the whole, that moves the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "2ed50036-3aa7-5209-9aa0-ced7675701da",
     "legacy_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
     "label": "Whatever moves something in a respect is another thing than what it moves; since every moving is…",
     "flags": [
       "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "febc5ca6-967a-5fcc-9d72-5255d1300b6d",
-    "legacy_id": "STMT-OPERATING-ONLY-OF-BEING-IN-ACT",
-    "label": "Whatever operates, transiently or immanently, is in act in some respect",
-    "flags": [
-      "ids-replaced"
     ]
   },
   {
@@ -85717,15 +84584,6 @@
     "label": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e, Occurs e → Bears…",
     "flags": [
       "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b426b086-1b1c-5137-94e6-a2f17402481f",
-    "legacy_id": "STMT-CONFIRMING-IS-ASSERTING",
-    "label": "Whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries…",
-    "flags": [
       "truncated"
     ]
   },

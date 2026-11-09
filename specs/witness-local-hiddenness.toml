@@ -1,0 +1,109 @@
+[batch]
+vocab = "TruthCore.Hiddenness.WitnessLocalHiddenness"
+results = "TruthCore.Results.Hiddenness.WitnessLocalHiddenness"
+
+[[statement]]
+id = "Witness-only openness norm"
+lean = "WitnessOpen"
+definitions = ["5fc52e92-0783-5a76-bd99-dca53df00800", "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab", "9fefb6b4-9493-52c3-868c-ad00fcda8151", "e83e512d-ae8d-5e80-a697-8fc1d672b7d3", "61e1abc6-d388-559b-88e1-0a65073c88e1", "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e", "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf"]
+paraphrase = "For each actual capable causal nonresistant nonbeliever, perfect love entails immediate conscious access. No norm for believers is asserted. Analyst formulation, attribution deferred."
+
+[[statement]]
+id = "Witness-only access requirement"
+lean = "WitnessAccess"
+definitions = ["9fefb6b4-9493-52c3-868c-ad00fcda8151", "e83e512d-ae8d-5e80-a697-8fc1d672b7d3", "61e1abc6-d388-559b-88e1-0a65073c88e1", "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e", "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf"]
+paraphrase = "Every actual capable causal nonresistant nonbeliever lacks conscious access. No requirement at resistant or incapable person-times. Analyst formulation, attribution deferred."
+
+[[statement]]
+id = "Aligned single hiddenness witness bundle"
+lean = "SelectedBundle"
+definitions = ["5fc52e92-0783-5a76-bd99-dca53df00800", "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab", "9fefb6b4-9493-52c3-868c-ad00fcda8151", "e83e512d-ae8d-5e80-a697-8fc1d672b7d3", "61e1abc6-d388-559b-88e1-0a65073c88e1", "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e", "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf"]
+paraphrase = "One actual capable causal nonresistant nonbeliever has both the love-to-immediate-access conditional and lack of access. The same witness satisfies both norms; existential outside the God/love assumptions. Bundles empirical and normative commitments, not a stronger empirical observation."
+
+[[statement]]
+id = "Witness-local hiddenness controls"
+lean = "Controls"
+definitions = []
+paraphrase = "Finite strictness, nonvacuity, four omission controls and a positive sufficient-reason reply with nonacceptance. No empirical or metaphysical possibility claim."
+
+[[argument]]
+id = "Witness openness scope projection"
+theorem = "openWeakens"
+premises = ["7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"]
+conclusion = "Witness-only openness norm"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"}]
+
+[[argument]]
+id = "Witness access scope projection"
+theorem = "accessWeakens"
+premises = ["3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"]
+conclusion = "Witness-only access requirement"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+
+[[argument]]
+id = "Select one aligned hiddenness witness"
+theorem = "selectWitness"
+premises = ["Witness-only openness norm", "Witness-only access requirement", "STMT-HIDDENNESS-NONRESISTANT-NONBELIEF"]
+conclusion = "Aligned single hiddenness witness bundle"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "Witness-only openness norm"}]
+
+[[argument]]
+id = "One aligned witness excludes personal ultimate"
+theorem = "noGod"
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "Aligned single hiddenness witness bundle"]
+conclusion = "STMT-HIDDENNESS-NO-GOD"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "Aligned single hiddenness witness bundle"}]
+
+[[argument]]
+id = "One aligned witness excludes GOD_4"
+theorem = "noRouteGod"
+premises = ["5e5aa271-d500-41c7-a470-32969b00a5af", "Aligned single hiddenness witness bundle", "c08f6a70-b75c-47de-b1af-e3aad89da98f"]
+conclusion = "33674e8e-5882-44b8-8d28-b71573027d83"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+sense_bridges = [{term = "LOVE_ACCESS", from = "LOVE_ACCESS_1", to = "LOVE_ACCESS_2", statement_id = "Aligned single hiddenness witness bundle"}]
+
+[[argument]]
+id = "Witness-local hiddenness controls verified"
+theorem = "controls"
+premises = []
+conclusion = "Witness-local hiddenness controls"
+rule = "Witness elimination and conditional contradiction; finite interpretations"
+meaning = "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+sense_mixing_control = true
+
+[[relation]]
+id = "Witness openness scope projection strength order"
+subject_kind = "statement"
+subject_id = "7361a77f-a6fe-4a8a-b6f4-400a0d7c3750"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Witness-only openness norm"
+verification_result_id = "Witness openness scope projection"
+note = "Sole-premise projection; actual-world strictness with an existing nonbelief witness is in controls."
+
+[[relation]]
+id = "Witness access scope projection strength order"
+subject_kind = "statement"
+subject_id = "3b38aa55-ee4f-4dfb-aa9b-f5ab8d0f7121"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Witness-only access requirement"
+verification_result_id = "Witness access scope projection"
+note = "Sole-premise projection; actual-world strictness with an existing nonbelief witness is in controls."
+
+[[relation]]
+id = "Witness-local hiddenness challenges stage one"
+subject_kind = "argument"
+subject_id = "One aligned witness excludes GOD_4"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "STMT-GOD-EXISTS"
+note = "Conditional rival using the unchanged selected-predicate RouteIdentification; establishes no premise truth."

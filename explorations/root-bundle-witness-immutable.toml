@@ -1,0 +1,18 @@
+target = "fb3802a8-d04c-5486-95a5-b7ab57857396"
+[[node]]
+id = "fb3802a8-d04c-5486-95a5-b7ab57857396"
+[[node]]
+id = "4c79298d-ee09-5e99-9ced-1be92c19b4cc"
+[[node]]
+id = "eaa4c679-98a3-5e82-95ff-18bd1177ce74"
+[[node]]
+id = "a4d3261a-3239-5b44-9953-64ab1b0ed762"
+[[node]]
+id = "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
+[[edge]]
+premises = ["4c79298d-ee09-5e99-9ced-1be92c19b4cc", "eaa4c679-98a3-5e82-95ff-18bd1177ce74", "a4d3261a-3239-5b44-9953-64ab1b0ed762", "c6d6379b-6a9b-55b5-a701-3df289dfcca4"]
+conclusion = "fb3802a8-d04c-5486-95a5-b7ab57857396"
+kind = "derivation"
+status = "certified"
+argument = "38244f91-11d2-5a68-9dff-91279d7fbad6"
+note = "Existing root-route argument; this batch adds joint model coverage and four omission controls, not premise truth."

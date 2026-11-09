@@ -1,0 +1,11 @@
+{
+  "id": "0affbd72-ea15-4220-81ee-86ba7ab55564",
+  "label": "One aligned witness excludes personal ultimate",
+  "argument_id": "81b55a46-4abc-4a14-8020-c7e8bd905348",
+  "challenge_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.noGod",
+  "comparator_config": "results/0affbd72-ea15-4220-81ee-86ba7ab55564/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+}

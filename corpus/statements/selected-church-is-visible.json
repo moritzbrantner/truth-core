@@ -1,6 +1,6 @@
 {
   "id": "d13f6ca0-0b66-5f86-8994-0e2c91deafbf",
-  "label": "Every society satisfying the selected Church predicate is a visible society with an authority…",
+  "label": "Every Church-criterion society is visible and authoritative",
   "legacy_id": "STMT-SELECTED-CHURCH-IS-VISIBLE",
   "paraphrase": "OPEN analyst premise, attribution deferred: every society satisfying the selected Church predicate is a visible society with an authority structure (VisibleWithAuthority). One direction of STMT-CHURCH-HAS-VISIBLE-CRITERION only: it does not say that every visible authoritative society is the Church. A purely invisible church of the elect falsifies it.",
   "lean_declaration": "TruthCore.Case.Catholicism.StageThree.Round6DefinitionForks.SelectedChurchIsVisible",

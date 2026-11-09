@@ -105,7 +105,7 @@ create parallel Lean sessions.
 | Request | Wraps |
 |---|---|
 | `GET /health` | toolchain and binding |
-| `GET /corpus/record?id=ID` | the `corpus/*/*.json` record with that `id` (statement, claim, argument, result, definition, …) |
+| `GET /corpus/record?id=ID` | the record resolved by `corpus_ids.Aliases` from a UUID, legacy alias or label (including case-insensitive label fallback); 404 if unknown, 400 if ambiguous or missing |
 | `GET /corpus/dossier?id=STMT-…` | `corpus.py dossier --json ID` |
 | `GET /corpus/frontier[?root=…&reaching_root=1&routes=1]` | `corpus.py frontier --json [--root] [--reaching-root]`, or the text `--routes` report |
 | `POST /corpus/check` | `corpus.py check` |
@@ -115,6 +115,10 @@ create parallel Lean sessions.
 | `POST /lean/close {session}` | shut that session down |
 | `POST /jobs {kind: build, targets?}` / `{kind: bind-check}` / `{kind: verify-result, result_id}` | queue the job; returns its `id` |
 | `GET /jobs/ID` | status (`queued`, `running`, `passed`, `failed`), queue position, return code, output tail, bindings |
+
+Record lookup parses and hashes the same captured file bytes. If the selected
+record's ID, legacy alias or label changed since alias resolution, it returns
+409 with a retry message. This is a selected-record check, not a workspace snapshot.
 
 `content` is the full file text to elaborate in memory without writing it to
 disk; omit it to elaborate the file on disk. Repeated edits send the new full

@@ -1,6 +1,6 @@
 {
   "id": "d29cebca-ee1c-5bd8-9080-f7226770e809",
-  "label": "At the reading world w, whatever causes the necessity of something other than itself is CONCRETE_6…",
+  "label": "Causes of another's necessity are actual CONCRETE_AND_ABSTRACT_6 grounds at the reading world",
   "legacy_id": "STMT-NECESSITY-CAUSES-ARE-ACTUAL-CONCRETE-GROUNDS",
   "paraphrase": "Open bridge, not attributed to any source: at the reading world w, whatever causes the necessity of something other than itself is concrete, exists at w and stands in the profile's selected relation at w to it. An absent or non-concrete cause of necessity would falsify it.",
   "lean_declaration": "TruthCore.Causality.NecessaryConcreteRouteBridge.NecessityCausesAreActualConcreteGrounds",

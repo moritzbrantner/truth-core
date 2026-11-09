@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

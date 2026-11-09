@@ -1,6 +1,6 @@
 {
   "id": "ca84f62d-67cb-58a6-bc3e-a631ab46e3d1",
-  "label": "A thing is perfect in a given perfection exactly when it actually has that perfection, read per…",
+  "label": "Perfection in a respect is equivalent to actually having that perfection",
   "legacy_id": "STMT-PERFECT-INSOFAR-AS-IN-ACT",
   "paraphrase": "A thing is perfect in a given perfection exactly when it actually has that perfection ('each thing is perfect insofar as it is in act'), read per perfection as a biconditional. It concerns perfection in one respect, not universal perfection.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.PerfectInsofarAsInActReading",

@@ -1,0 +1,33 @@
+[batch]
+vocab = "TruthCore.Causality.PartMediatedSelfMotion"
+results = "TruthCore.Results.Causality.PartMediatedSelfMotion"
+definitions = ["b45c0bf6-07fa-41d7-b467-954b4c78d604"]
+[[statement]]
+definitions = ["b45c0bf6-07fa-41d7-b467-954b4c78d604"]
+id = "Part-mediated event has a local patient-lifting bridge"
+lean = "LocalLift"
+paraphrase = "OPEN local composition bridge: each actual motor-to-load event inside an organism supplies a same-respect motor-to-whole link. It does not require an external agent."
+[[statement]]
+definitions = ["b45c0bf6-07fa-41d7-b467-954b4c78d604"]
+id = "Part-mediated internal motion has a distinct whole mover under lifting"
+lean = "InternalHasDistinctMover"
+paraphrase = "Every internally coordinated organism event has a mover distinct from the organism, in that respect. The distinct mover may be its proper internal motor."
+[[statement]]
+definitions = ["b45c0bf6-07fa-41d7-b467-954b4c78d604"]
+id = "Part-mediated self-motion populated boundary controls"
+lean = "Controls"
+paraphrase = "A three-carrier two-respect model has distinct motor and load within a moving organism. Component no-self-motion holds. Patient lifting yields a distinct internal mover with no external mover; aggregate lifting violates whole no-self-motion. Neither raw component links nor aggregate links yield distinct whole movers; temperature is not displaced."
+[[argument]]
+id = "Local patient lifting gives a distinct internal whole mover"
+theorem = "localLift"
+premises = ["Part-mediated event has a local patient-lifting bridge"]
+conclusion = "Part-mediated internal motion has a distinct whole mover under lifting"
+rule = "proper-part inequality and event witness elimination"
+meaning = "Substantive finite role decomposition: the motor is a proper part of the whole. Retains the same event respect. The open lifting premise supplies the link, while proper membership proves distinctness; does not discharge the root no-self-motion or applicability premise."
+[[argument]]
+id = "Part-mediated populated non-entailments for the no-self-motion root premise"
+theorem = "controls"
+premises = []
+conclusion = "Part-mediated self-motion populated boundary controls"
+rule = "finite populated countermodels"
+meaning = "Root-targeted non-entailment: internal animal self-motion is compatible with component no-self-motion but cannot transfer that constraint through aggregation. Motor, load, whole and two respects are explicit. Missing patient lifting and mistaken aggregate identification both fail with populated internal events."

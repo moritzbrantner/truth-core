@@ -1,6 +1,6 @@
 {
   "id": "3dd25039-1575-5612-83a5-2cee9ce1bf7a",
-  "label": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual…",
+  "label": "Every intellectual exercise requires its bearer to be in act in some respect",
   "legacy_id": "STMT-INTELLECTUAL-EXERCISE-REQUIRES-ACT",
   "paraphrase": "Analyst intellectual-operation instance of operari sequitur esse: every attributed intellectual exercise requires its bearer to be in act in some respect. No act-of-esse, indexed existence, bodily independence or subsistence conclusion is included; exact q75 attribution is deferred.",
   "lean_declaration": "TruthCore.Logic.CogitoEsse.IntellectualExerciseRequiresAct",

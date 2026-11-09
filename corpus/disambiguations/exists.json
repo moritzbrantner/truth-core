@@ -4,23 +4,23 @@
   "legacy_id": "DISAMB-EXISTS",
   "term": "exists (quantifier over individuals in the modal embeddings)",
   "sense_definition_ids": [
-    "9010544f-188a-5d00-83dc-85d0c0b4052d",
-    "153fcebf-66f6-53de-bad7-82a30a359c9c"
+    "7ed3d53e-7b11-4239-8f02-81a841020f89",
+    "b3b4e279-e1cf-4e54-a999-80c5bb5a43cc"
   ],
-  "resolution": "Scott's variant (AFP GoedelGod.thy) quantifies over individuals possibilistically: ∃ ranges over the whole type at every world, so 'a God-like being exists' (T3, C2) means only that some individual is God-like there (DEF-QML-KB-NECESSITY). Gödel's 1970 variant (AFP GoedelVariantHOML1.thy) uses the actualist ❙∃⇧E, relative to the existence predicate existsAt (DEF-HOML-ACTUALIST-NECESSITY), in Ax4, NecExist, Th2 and Th3. The Lean statements write the actualist quantifier as ∃ y, ex y v ∧ …, so the two senses are different formulas, and no result passes from one to the other. Property quantifiers are possibilist in both.",
+  "resolution": "EXISTS_1 ranges over candidates satisfying P without an actuality guard; EXISTS_2 requires the same witness to satisfy ex at the selected world and P. Distinct inductive proposition types have witness-bearing constructors, not opaque flags or Box aliases. The world-indexed existence predicate remains primitive. The empty-extension control separates domain inhabitation from actual existence. Existing modal embeddings inline these respective formulas; their Box operator does not define either quantifier. RootFacts already supplies actual existence in ExistenceSenseRoute; that certified result is unchanged. No implication from ExistsAt to InAct at esse is supplied. Existing source-navigation context retained: Scott AFP GoedelGod.thy T3/C2 uses the domain reading (DEF-QML-KB-NECESSITY); GoedelVariantHOML1.thy Ax4, NecExist, Th2/Th3 uses the ex-guarded reading (DEF-HOML-ACTUALIST-NECESSITY). Property quantifiers are possibilist in both. The new dedicated definitions are analyst interpretations, not new source attribution.",
   "term_label": "EXISTS",
   "senses": [
     {
       "id": "9e7d0f8f-3e30-4b1b-9b99-d67058ec2776",
       "label": "EXISTS_1",
-      "definition_id": "9010544f-188a-5d00-83dc-85d0c0b4052d",
-      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+      "definition_id": "7ed3d53e-7b11-4239-8f02-81a841020f89",
+      "lean_declaration": "TruthCore.Causality.ExistsSenseMeaning.DomainExists"
     },
     {
       "id": "53510e13-b268-4079-b2d5-61127fb8ae8c",
       "label": "EXISTS_2",
-      "definition_id": "153fcebf-66f6-53de-bad7-82a30a359c9c",
-      "lean_declaration": "TruthCore.Isabelle.AFP.GoedelGod.Box"
+      "definition_id": "b3b4e279-e1cf-4e54-a999-80c5bb5a43cc",
+      "lean_declaration": "TruthCore.Causality.ExistsSenseMeaning.ActualExists"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "id": "d4a26175-a984-5c19-85f1-b6aadbf095fe",
-  "label": "IN-ACT_2, virtual reading: whatever moves something in a respect is virtually in act in that…",
+  "label": "Movers are virtually IN_ACT_2 in the respect in which they move",
   "legacy_id": "STMT-MOVES-ONLY-AS-VIRTUALLY-IN-ACT",
   "paraphrase": "IN-ACT_2, virtual reading (attribution deferred): whatever moves something in a respect is virtually (eminently) in act in that respect, having the perfection as a power to produce it.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.MovesOnlyAsVirtuallyInAct",

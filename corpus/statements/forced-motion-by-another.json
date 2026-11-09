@@ -1,6 +1,6 @@
 {
   "id": "2d1b4c22-faa3-5433-9da4-4dfd880f8207",
-  "label": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another…",
+  "label": "Every forced MOTION_2 has a distinct mover in the same respect",
   "legacy_id": "STMT-FORCED-MOTION-BY-ANOTHER",
   "paraphrase": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another thing.",
   "lean_declaration": "TruthCore.Greek.Aristotle.Physics.Typed.ForcedMotionByAnotherReading",

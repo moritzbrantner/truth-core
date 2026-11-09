@@ -7,6 +7,7 @@ public import TruthCore.Case.Catholicism.FoundingIndependence
 public import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 public import TruthCore.Case.Catholicism.PrimaViaStrengthBoundaries
 public import TruthCore.Case.Catholicism.Root
+public import TruthCore.Case.Catholicism.RootBundleWitnessImmutable
 public import TruthCore.Case.Catholicism.StageOne
 public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
 public import TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.BoundedOmission

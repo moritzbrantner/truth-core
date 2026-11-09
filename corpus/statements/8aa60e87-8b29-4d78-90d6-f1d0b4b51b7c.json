@@ -1,0 +1,9 @@
+{
+  "id": "8aa60e87-8b29-4d78-90d6-f1d0b4b51b7c",
+  "label": "Part-mediated internal motion has a distinct whole mover under lifting",
+  "paraphrase": "Every internally coordinated organism event has a mover distinct from the organism, in that respect. The distinct mover may be its proper internal motor.",
+  "lean_declaration": "TruthCore.Causality.PartMediatedSelfMotion.InternalHasDistinctMover",
+  "definition_ids": [
+    "b45c0bf6-07fa-41d7-b467-954b4c78d604"
+  ]
+}

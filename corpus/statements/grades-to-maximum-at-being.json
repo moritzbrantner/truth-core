@@ -1,6 +1,6 @@
 {
   "id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
-  "label": "If some pair compares in the supplied esse respect, some in-act individual has no greater…",
+  "label": "Some comparison in esse implies an in-act individual with no greater in esse",
   "legacy_id": "STMT-GRADES-TO-MAXIMUM-AT-BEING",
   "paraphrase": "OPEN fixed-esse interface: if some pair compares in the supplied esse respect, some in-act individual has no greater individual in that respect. No requirement is imposed at other respects.",
   "lean_declaration": "TruthCore.Causality.DirectEsseRootUniquenessAtBeing.GradesToMaximumAtBeing",

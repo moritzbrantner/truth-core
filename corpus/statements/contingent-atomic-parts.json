@@ -1,6 +1,6 @@
 {
   "id": "83fdeb19-900c-5416-a828-2a1c9da983e8",
-  "label": "Every actually contingent object at the selected world has a simple actual part in the same…",
+  "label": "Every actually contingent object has a simple actual part",
   "legacy_id": "STMT-CONTINGENT-ATOMIC-PARTS",
   "paraphrase": "Every actually contingent object at the selected world has a simple actual part in the same actual-node parthood order; necessary objects are unrestricted.",
   "lean_declaration": "TruthCore.Causality.ContingentAtomicity.ContingentAtomicParts",

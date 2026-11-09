@@ -33,6 +33,7 @@ public import TruthCore.Results.Case.Catholicism.MaximalBeingCauseExclusion.Solu
 public import TruthCore.Results.Case.Catholicism.Q11NatureUniqueness.Solution
 public import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.FromMaximeEns
 public import TruthCore.Results.Case.Catholicism.QuartaViaClassicalWitness.Solution
+public import TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable.Solution
 public import TruthCore.Results.Case.Catholicism.Skeleton.Solution
 public import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCover.Proof
 public import TruthCore.Results.Case.Catholicism.StageOne.FinitePopulationCoverControls.Solution

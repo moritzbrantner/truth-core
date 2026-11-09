@@ -1,0 +1,15 @@
+{
+  "id": "154aee05-8f31-4412-90bc-9acda0a11193",
+  "label": "EXISTS semantic audit separates domain witnesses from actual extension",
+  "statement_ids": [
+    "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5"
+  ],
+  "date": "2026-11-09",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inspected ExistenceSenseRoute and NecessarySenseFork. Both EXISTS senses incorrectly named the same Box declaration and their old framework definition links were reversed. Dedicated witness-bearing inductive interpretations now distinguish candidate quantification from a world actual guard. Empty extension on Unit blocks the latter while the former holds; full extension is a positive witness. Existing boxKToActualistK obtains actuality from RootFacts, not its domain binder, and is unchanged. Legacy embedding consumers still inline their quantifiers; no global migration is claimed. Attribution deferred. Convention sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0. Focused Solution build, exact binding (1 bound, zero mismatches), Comparator and independent NanoDa pass with no permitted axioms. Corpus, source manifest, bundle audit, labels, attribution and generated records checks pass. Computed frontier-diff versus 83e3c8311: 379 open root premises unchanged (238 bare, 96 supported, 45 stated), lowest route cost 28 unchanged, 278 support alternatives unchanged. Preview vocabulary diagnostics empty at owner HEAD 01f4ccd49052530e67e2d333b3de172ec75eabf2, session pipeline-round, Scratch/continuous3/ExistsSenseMeaning.lean, SHA256 793bd14da14a7816f41db45d0c2dead2021030839e5109d146221be20779b4ba. Final delivered-head CI remains required.",
+  "blocker": "ExistsAt-to-InAct at esse remains an independent open bridge. The counterinterpretation establishes no metaphysical possibility and discharges no root premise.",
+  "evidence": [
+    "8b15f627-bffd-4dc6-9b4e-a45332d71b5b"
+  ]
+}

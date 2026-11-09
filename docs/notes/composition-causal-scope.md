@@ -226,3 +226,46 @@ retained. The two new q3a5 claims are scoped prose readings; the new mathematica
 certificate has no ordinary premises and proves the stated joint controls, not
 the truth of a composition/dependence thesis. Focused Lean diagnostics reported
 zero axioms; final delivered-head CI owns binding, Comparator and NanoDa checks.
+
+### Uniting relation locator audit (#1233, 2026-11-09)
+
+The exact root step remains `STMT-UNITING-CAUSE-IS-EFFICIENT` toward
+`STMT-COMPOSITE-HAS-A-UNITING-CAUSE`. The definition previously located
+`DiverseUnitedOnlyThroughUnitingCauseReading`, whose body says that distinct
+components have some uniter. That existential constraint does not define what
+uniting means. The corrected locator is the existing primitive field
+`TruthCore.Causality.TermSenseForks.UnitingFrame.Unites` in
+`TruthCore/Causality/TermSenseForks2.lean`. No proof input changed.
+
+The intended primitive means causal responsibility for bringing components
+into one composite: an agent mixing elements is the existing illustration;
+co-location and set union alone are excluded. `ComponentOf` remains the q.3
+composition parameter, admitting parts, matter/form and essence/esse rather
+than merely set membership; diversity here is numerical inequality. These
+interpretive examples are not facts proved about arbitrary supplied predicates.
+Whether innocent fusion, a self-uniting whole or composition as identity
+instantiates this causal gloss remains OPEN. Encoding those judgments needs
+an interpreted component/uniter model and explicit applicability commitments.
+No temporal order, transitivity, asymmetry, irreflexivity or well-foundedness
+is supplied by the field. In particular, the example cannot silently add any
+of those properties to the quantified uniter premise.
+
+The existing fork is more than constructor labels: `UnitingFrame.CausesBy`
+computes `∃ a b, F.Unites c a b x`, `∃ r, F.EfficientlyCausesIn c x r`, or
+`F.CausesIn c x F.esse`. These remain independent primitive relations;
+the efficient and esse bridges are open propositions. The disambiguation's
+first three sense declarations locate quantified uses of those relations,
+not their defining bodies. The temporal frame is the fourth registered
+meaning but deliberately not a fourth constructor; its existing calibration
+fork must not be advertised as coverage established by the three-case summary.
+This is the finite relevant scope, without inventing hypothetical alternatives.
+Shared efficient/cause-of-perfection definition records are outside this lane.
+
+Finally `CausesIn c x esse` has no world index or endpoint-existence condition.
+`UnitingCausesPresent` supplies source presence for an existing target, and
+`UnitingCausesAreActual` supplies the separate `Ontic.Causes` correspondence
+when both endpoints exist (`TruthCore/Causality/UnderivedNonComposite.lean`).
+Those interfaces are constraints, not definitions of cause-in-esse. Existing
+interface omission controls already distinguish them; another countermodel
+would duplicate that work. No new bridge, premise closure or metaphysical
+possibility claim follows from this locator repair. Premise comparison: none.

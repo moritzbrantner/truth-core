@@ -1,0 +1,18 @@
+{
+  "id": "a4820154-8928-4b6c-a216-7efa273401e0",
+  "label": "Seven inherited Fifth Way premises assemble universal bundle (inference)",
+  "input_statement_ids": [
+    "efda546f-c3e5-5a68-990b-73f96258f75c",
+    "658814de-ffeb-5824-afdd-2797e5cdad42",
+    "070cef3e-cabc-56a5-9f78-af671d9ad194",
+    "b43528e2-7188-56e9-941c-0d0cea7c03fb",
+    "564ce19b-c9df-5031-b20e-3cb1baee124f",
+    "11914511-b067-55d3-b8cc-094311021d08",
+    "ee9e3056-7bc5-5c35-9fe3-bf8550f8c136"
+  ],
+  "output_statement_id": "b5f01676-0b48-454c-80ee-ade579adb43d",
+  "rule": "Conjunction introduction",
+  "meaning": "Assembly of the exact existing seven-premise conjunction; no new consequence or philosophical discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
