@@ -1,0 +1,13 @@
+{
+  "id": "2223b02b-2876-4d48-a576-c1f93e4d5ebe",
+  "label": "Quotient inertness from classification and owner causal commitment (inference)",
+  "input_statement_ids": [
+    "96bc63ee-42a2-46f6-aca2-c86fe4c88bae",
+    "e27489c3-7419-5123-8476-386633e62532"
+  ],
+  "output_statement_id": "69a66a93-eec1-4e81-8d68-efef9fb97144",
+  "rule": "Same-bearer classification and two independent contradictions",
+  "meaning": "ValuesNoEsse excludes esse for each value. The existing owner commitment gives esse to a bearer of power or an outgoing cause at the same selected world, so both are excluded. No exercise-to-power step or causal-definition of concreteness is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

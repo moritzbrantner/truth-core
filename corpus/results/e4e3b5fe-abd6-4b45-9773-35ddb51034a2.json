@@ -1,0 +1,25 @@
+{
+  "id": "e4e3b5fe-abd6-4b45-9773-35ddb51034a2",
+  "label": "Fixed quotient collision and omission comparison, checked",
+  "argument_id": "117bd382-51d2-4d24-85b2-44ff99423120",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.controls",
+  "comparator_config": "results/e4e3b5fe-abd6-4b45-9773-35ddb51034a2/comparator.json",
+  "status": "solution-present",
+  "description": "Same fixed equivalence, generating map, carrier and selected bearer throughout. Nontrivial collisions do not force lack of esse or inertness. The carried classification and owner commitments are independently necessary for the advertised inertness transfer; range membership is necessary for point classification. Positive compatibility is witnessed, without representing constitutive essence.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "e27489c3-7419-5123-8476-386633e62532",
+      "rival_statement_id": "64b877b5-dff5-4fd0-a84b-ceb37e3595de",
+      "sense_definition_id": "d4feb449-8b67-4dbc-84c6-bd9e749ea67f",
+      "outcome": "model-witnessed",
+      "conditions": "Control.Certificate: same presentation and selected value, InAct true, ontic true, power true, selected Unit world. Owner commitment holds, while the selected generated value has esse, power and an outgoing productive edge.",
+      "scope": "Fixed Bool-pair equivalence by first coordinate, fixed quotient embedding into Bool + Bool, fixed left-true selected bearer, fixed right-false concrete reasoner and right-true abstract anchor. Same Ontic for the owner and activity assertions.",
+      "coverage": "Only the extensional quotient-generated analyst candidate CONCRETE_AND_ABSTRACT_9 is tested. This is not coverage of all abstract/concrete senses or of admissible essential abstraction functions.",
+      "exclusivity": "This cell explicitly selects sense 9. It does not assume that extensions of numbered senses are disjoint or establish intended-reading exclusivity.",
+      "witness": "TruthCore.Ontology.QuotientGeneration.Control.presentation, selected, InAct true, ontic true, power true; TruthCore.Results.Ontology.QuotientGeneration.controls. The certificate includes generation, fixed anchors, owner commitment and selected productive power.",
+      "next_step": "Specify a substantive admissibility condition that excludes this concrete presentation while retaining intended abstractions; do not replace it with constitutive essence by assertion."
+    }
+  ]
+}

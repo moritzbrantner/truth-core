@@ -1,0 +1,17 @@
+{
+  "id": "ea7a40b9-db2f-45a5-a161-b78d65d57fcd",
+  "label": "Fixed quotient image and representative range agree",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2a37e349-bdd2-465b-9844-9c230a1a9884",
+  "inference_ids": [
+    "30b77681-2a82-4265-a32e-283bf4f95159"
+  ],
+  "meaning": "Representatives exist for quotient values and each representative constructs a quotient value. This clarifies the exact extent of the candidate sense.",
+  "term_senses": {
+    "CONCRETE_AND_ABSTRACT": "539a1595-12fa-4e55-88ec-0b0fc64f51d1"
+  },
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ]
+}
