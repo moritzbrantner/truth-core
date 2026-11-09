@@ -1,0 +1,14 @@
+{
+  "id": "e77adb31-cf6c-45f3-9ed3-3a1e9d13cf29",
+  "label": "Grounding candidate entails intervention candidate",
+  "paraphrase": "For every sentence in this profile, the actual-truth-bearing grounding candidate implies the actual-truth-bearing intervention candidate.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.GroundingImpliesIntervention",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "388418b3-4658-4e85-8b8e-ade67bef5fc1",
+    "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"
+  ],
+  "disambiguation_ids": [
+    "31931aba-44bc-544c-b514-aeb64901ccc6"
+  ]
+}

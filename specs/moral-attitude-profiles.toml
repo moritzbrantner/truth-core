@@ -1,0 +1,57 @@
+[batch]
+vocab = "TruthCore.Logic.MoralAttitudeProfiles"
+results = "TruthCore.Results.Logic.MoralAttitudeProfiles"
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9"]
+
+[[statement]]
+id = "Grounding stability bridge"
+lean = "GroundingStability"
+paraphrase = "OPEN analyst bridge: in this profile absence of attitude ancestors entails truth-status invariance under the explicitly admissible interventions."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "5ccadc7e-1ff8-46d7-8e50-e10c513548bd", "47c13373-ae74-4e4f-aa4b-7056869cc661"]
+
+[[statement]]
+id = "Grounding candidate entails intervention candidate"
+lean = "GroundingImpliesIntervention"
+paraphrase = "For every sentence in this profile, the actual-truth-bearing grounding candidate implies the actual-truth-bearing intervention candidate."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "388418b3-4658-4e85-8b8e-ade67bef5fc1", "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"]
+
+disambiguations = ["31931aba-44bc-544c-b514-aeb64901ccc6"]
+[[statement]]
+id = "Ancestral attitude exclusion implies direct exclusion"
+lean = "AncestralImpliesDirect"
+paraphrase = "For every arbitrary profile and sentence, absence of attitude ancestors entails absence of immediate attitude grounds. No converse is certified."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "47c13373-ae74-4e4f-aa4b-7056869cc661", "d0278f71-1d37-4cdf-96d8-bde241da6358"]
+
+[[statement]]
+id = "Moral attitude profile separation controls"
+lean = "Controls"
+paraphrase = "Same-domain finite separators: stable truth with an attitude ground satisfies only the intervention candidate; variable truth with no ground satisfies only the grounding candidate; stable actual truth with no grounds jointly satisfies both; stable falsity satisfies invariance and no attitude ancestors but fails the intervention candidate. Restricted interventions can hide truth variation at an excluded profile. Formal profiles only, not metaphysical possibility or causal overdetermination."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "5ccadc7e-1ff8-46d7-8e50-e10c513548bd", "47c13373-ae74-4e4f-aa4b-7056869cc661", "d0278f71-1d37-4cdf-96d8-bde241da6358", "388418b3-4658-4e85-8b8e-ade67bef5fc1", "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"]
+
+disambiguations = ["31931aba-44bc-544c-b514-aeb64901ccc6"]
+[[argument]]
+id = "Grounding candidate bridge under stability"
+theorem = "groundingBridge"
+premises = ["Grounding stability bridge"]
+conclusion = "Grounding candidate entails intervention candidate"
+rule = "Explicit construction and projection"
+meaning = "Retains moral facthood, existence and actual truth and applies the explicit grounding-to-invariance premise. No unconditional relation follows."
+
+senses = {MIND_INDEPENDENT = "MIND_INDEPENDENT_4"}
+sense_bridges = [{term = "MIND_INDEPENDENT", from = "MIND_INDEPENDENT_4", to = "MIND_INDEPENDENT_3", statement_id = "Grounding candidate entails intervention candidate", role = "conclusion"}]
+[[argument]]
+id = "Ancestral support exclusion restricts direct support"
+theorem = "ancestralDirect"
+premises = []
+conclusion = "Ancestral attitude exclusion implies direct exclusion"
+rule = "Explicit construction and projection"
+meaning = "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated."
+
+[[argument]]
+id = "Moral intervention and grounding finite comparisons"
+theorem = "controls"
+premises = []
+conclusion = "Moral attitude profile separation controls"
+rule = "Explicit construction and projection"
+meaning = "Same-domain finite separators: stable truth with an attitude ground satisfies only the intervention candidate; variable truth with no ground satisfies only the grounding candidate; stable actual truth with no grounds jointly satisfies both; stable falsity satisfies invariance and no attitude ancestors but fails the intervention candidate. Restricted interventions can hide truth variation at an excluded profile. Formal profiles only, not metaphysical possibility or causal overdetermination."
+sense_mixing_control = true
