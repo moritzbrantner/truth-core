@@ -1,0 +1,11 @@
+{
+  "id": "f9c0f1e4-7540-44af-a692-107f65d5ecd2",
+  "label": "Witness-local Fifth Way controls",
+  "argument_id": "e502d85c-e344-41db-81ec-121a01e83cdc",
+  "challenge_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Challenge",
+  "solution_module": "TruthCore.Results.Causality.WitnessLocalTeleology.Solution",
+  "theorem": "TruthCore.Results.Causality.WitnessLocalTeleology.controls",
+  "comparator_config": "results/f9c0f1e4-7540-44af-a692-107f65d5ecd2/comparator.json",
+  "status": "solution-present",
+  "description": "A second unobserved body defeats universal regular-best observation while the selected witness satisfies all seven local conditions. Seven local omissions reuse the old interpreted fixtures and test the narrower local constraints; rivals include immanent teleonomy, failed dichotomy, and mutable directors."
+}

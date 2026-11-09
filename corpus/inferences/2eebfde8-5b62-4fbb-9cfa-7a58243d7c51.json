@@ -1,0 +1,12 @@
+{
+  "id": "2eebfde8-5b62-4fbb-9cfa-7a58243d7c51",
+  "label": "Witness-local Fifth Way gives first UNMOVED_2 mover (inference)",
+  "input_statement_ids": [
+    "65c409cc-eb7f-4d66-8e2d-60c8e5138ed6"
+  ],
+  "output_statement_id": "7bce7007-ad29-5f5b-b4b3-e7b02bf98312",
+  "rule": "Disjunction elimination, director reduction and existential introduction",
+  "meaning": "A single observed witness suffices. Keep explicit local unmoved-director reduction and directing-as-moving; no uniqueness or global governor, no premise truth discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
