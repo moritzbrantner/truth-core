@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SurveySourceEndpointControls.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveySourceEndpointControls.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SurveySourceEndpointControls.endpointObstruction"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

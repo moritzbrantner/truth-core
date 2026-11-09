@@ -1,0 +1,16 @@
+[batch]
+vocab = "TruthCore.Causality.SurveySourceEndpointControls"
+results = "TruthCore.Results.Causality.SurveySourceEndpointControls"
+
+[[statement]]
+id = "A2 actual source endpoint obstruction"
+lean = "TruthCore.Causality.SurveySourceEndpointControls.EndpointObstruction"
+paraphrase = "A one-world one-individual interpretation jointly satisfies the four nonlogical inputs of the existing possible causal source necessity argument and has the same actual necessary graph source, while no outgoing actual causal edge and no necessary concrete individual in the supplied Profile exist. This is an exact endpoint obstruction, not a source capability definition or a metaphysical possibility claim."
+
+[[argument]]
+id = "A2 actual source endpoint obstruction certificate"
+theorem = "endpointObstruction"
+premises = []
+conclusion = "A2 actual source endpoint obstruction"
+rule = "Explicit finite interpretation"
+meaning = "The only individual exists in the only world, making contingency impossible and local causality vacuous. Its empty full ancestor graph fails headless coverage. It is a necessary isolated source but satisfies no concreteness predicate and has no outgoing actual edge. Thus even the original nonlogical source-composition inputs jointly do not calibrate sourcehood to the exact necessary-concrete root-route node. No capability-to-exercise direction or original sense completion is asserted."
