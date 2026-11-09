@@ -408,6 +408,27 @@ GOD_1 readings are therefore separate declarations and statements; the general
 fix is #1235's sense check, or classical-specific declarations for the root
 premises.
 
+**Fourth-Way root activation (#1233).**
+`CATHOLICISM-FROM-QUARTA-VIA-WITH-CLASSICAL-ATTRIBUTES` now declares GOD_4.
+Its frozen Challenge instantiates `hFull` (full naming), `hMaximal` (the
+nominal converse) and `hSuffice` (attribute sufficiency, including
+`IsTheOneGod σ.IsGod`) with the actual `σ.IsGod`. No nominal predicate is
+identified with it and no sense bridge is added. The existing checker accepts
+this root consumer. `scripts/fixtures/QuartaGodBinding.lean` instantiates the
+same naming head with `fun _ => True`, while retaining a classical God-existence
+hypothesis and conclusion; `scripts/test_quarta_god_binding.py` checks that
+this still fails specifically at `hFull` with
+`statement-sense-not-instantiated`. A classical occurrence elsewhere cannot
+license the wrong naming predicate.
+
+This activation covers only the generic Fourth-Way classical-attributes root
+consumer. Its adopted-potency sibling, the Fourth-Way witness producers,
+truth-bridge-free variants and other full-naming consumers still need separate
+inspection and activation. The First-Way root and same-witness argument are
+outside this slice. Premises and frozen proofs are unchanged; this is binding
+coverage, not a premise discharge. The nominal, usage and GodLike readings
+retain their separate meanings and open bridges.
+
 Not readings of this use: GOD_5/GOD_6 (`GodLike`, Scott and Gödel 1970), which
 are world-indexed predicates over a positivity constant. They share one
 declaration because the formula is the same; their senses differ only in the
