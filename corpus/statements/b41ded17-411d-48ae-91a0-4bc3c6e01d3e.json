@@ -1,0 +1,10 @@
+{
+  "id": "b41ded17-411d-48ae-91a0-4bc3c6e01d3e",
+  "label": "Available every-removal retained capacity",
+  "paraphrase": "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves its capacity enabled.",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.AvailableAllCapacity",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "c6721592-4f15-4baf-87a6-7a1e3b53738c"
+  ]
+}

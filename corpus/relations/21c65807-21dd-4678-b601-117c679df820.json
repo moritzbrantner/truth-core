@@ -1,0 +1,11 @@
+{
+  "id": "21c65807-21dd-4678-b601-117c679df820",
+  "label": "Available every-removal capacity implies some-removal capacity strength order",
+  "subject_kind": "statement",
+  "subject_id": "b41ded17-411d-48ae-91a0-4bc3c6e01d3e",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "dfe83b81-2b42-49bb-b0c3-2f9878cfe9a4",
+  "verification_result_id": "2607753c-ca36-4da4-a966-bca774a0fc52",
+  "note": "Verified conditional strength order on the explicit response profile. Controls distinguish capacity from exercise and existential from universal survival; empty admissible domains block unconditional universal-to-existential transfer."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "1495cdd7-0560-401f-bf0b-d4a92d8552bf",
+  "label": "Available every-removal capacity implies some-removal capacity (inference)",
+  "input_statement_ids": [
+    "b41ded17-411d-48ae-91a0-4bc3c6e01d3e"
+  ],
+  "output_statement_id": "dfe83b81-2b42-49bb-b0c3-2f9878cfe9a4",
+  "rule": "Explicit-response-strength-projection",
+  "meaning": "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

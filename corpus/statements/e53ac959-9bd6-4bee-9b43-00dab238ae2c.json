@@ -1,0 +1,10 @@
+{
+  "id": "e53ac959-9bd6-4bee-9b43-00dab238ae2c",
+  "label": "Available every-removal continued exercise",
+  "paraphrase": "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves it actually exercising the same fixed task.",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.AvailableAllExercise",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8"
+  ]
+}

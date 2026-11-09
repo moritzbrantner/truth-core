@@ -1,0 +1,20 @@
+{
+  "id": "ad768421-7b3a-433d-82fa-1505109831bd",
+  "label": "Every-removal exercise implies capacity",
+  "premise_statement_ids": [
+    "9a78c82f-2219-4299-8c31-a92f9073ac4c"
+  ],
+  "conclusion_statement_id": "ad2d36f3-848d-42d4-b916-78f6c84c2538",
+  "inference_ids": [
+    "f4fe5923-8ff7-4163-92d5-5db770765098"
+  ],
+  "meaning": "Pointwise projection of the explicit execution certificate to enabled capacity. Conditional analyst strength comparison; no source identity or root discharge.",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "c6721592-4f15-4baf-87a6-7a1e3b53738c",
+    "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8"
+  ],
+  "strong_version_needed": {
+    "9a78c82f-2219-4299-8c31-a92f9073ac4c": "This argument establishes the strength arrow from this precise stronger interpretation."
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "bbfad776-4451-4bb1-9fda-ba62c31a19ed",
+  "label": "Per-accidens response-family model controls",
+  "argument_id": "e1ff4eb5-54a3-4a9a-b4a6-be4986beeb88",
+  "challenge_module": "TruthCore.Results.Causality.PerAccidensResponses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerAccidensResponses.Solution",
+  "theorem": "TruthCore.Results.Causality.PerAccidensResponses.controls",
+  "comparator_config": "results/bbfad776-4451-4bb1-9fda-ba62c31a19ed/comparator.json",
+  "status": "solution-present",
+  "description": "Construct the nonempty integer-dated histories and response witnesses; evaluate the omission and current-condition controls. These abstract profiles do not establish metaphysical possibility, adequacy for the original sourced sense, MovesAsMoved or accessibility."
+}

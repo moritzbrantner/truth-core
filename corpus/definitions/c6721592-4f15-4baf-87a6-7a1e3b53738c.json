@@ -1,0 +1,9 @@
+{
+  "id": "c6721592-4f15-4baf-87a6-7a1e3b53738c",
+  "label": "Every-removal retained capacity interpretation",
+  "term": "every-removal retained capacity",
+  "definition": "Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves its capacity enabled. Quantification covers both generation and instrument histories on the supplied profile.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.AllCapacity",
+  "note": "Explicit analyst sibling of DEF-PER-ACCIDENS-ORDERED-SERIES, not its settled identity or source attribution. Uses Post-production removal profile for task state and admissibility. Universal versions do not assert nonempty admissible domains; existential versions do. Actual exercise entails capacity by the execution certificate in State; capacity alone does not entail an execution. No accessibility, metaphysical possibility, or exhaustive source interpretation is asserted."
+}

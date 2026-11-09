@@ -1,0 +1,12 @@
+{
+  "id": "c6ae61af-9ef8-44e8-84b5-67ec70f79324",
+  "label": "Some-removal exercise implies capacity (inference)",
+  "input_statement_ids": [
+    "82db8fb3-1ca6-4eaf-8ac6-c0c2853f19f5"
+  ],
+  "output_statement_id": "f3f1f630-da00-4329-afd3-f370c4569989",
+  "rule": "Explicit-response-strength-projection",
+  "meaning": "Retain the same admissible witness and project its execution certificate. Conditional analyst strength comparison; no source identity or root discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

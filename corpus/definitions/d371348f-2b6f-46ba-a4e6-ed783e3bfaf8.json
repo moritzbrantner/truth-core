@@ -1,0 +1,9 @@
+{
+  "id": "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8",
+  "label": "Every-removal continued exercise interpretation",
+  "term": "every-removal continued exercise",
+  "definition": "Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves it actually exercising the same fixed task. Quantification covers both generation and instrument histories on the supplied profile.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.AllExercise",
+  "note": "Explicit analyst sibling of DEF-PER-ACCIDENS-ORDERED-SERIES, not its settled identity or source attribution. Uses Post-production removal profile for task state and admissibility. Universal versions do not assert nonempty admissible domains; existential versions do. Actual exercise entails capacity by the execution certificate in State; capacity alone does not entail an execution. No accessibility, metaphysical possibility, or exhaustive source interpretation is asserted."
+}
