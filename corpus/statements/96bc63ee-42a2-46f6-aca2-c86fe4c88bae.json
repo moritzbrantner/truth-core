@@ -1,0 +1,11 @@
+{
+  "id": "96bc63ee-42a2-46f6-aca2-c86fe4c88bae",
+  "label": "Fixed quotient values have no esse in re",
+  "paraphrase": "OPEN analyst bridge: every quotient value of this fixed presentation lacks esse in re under the independently supplied InAct and esse interpretation. This restricted one-directional classification commitment is not inferred from quotient generation or attributed to a source.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.ValuesNoEsse",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
+  ]
+}

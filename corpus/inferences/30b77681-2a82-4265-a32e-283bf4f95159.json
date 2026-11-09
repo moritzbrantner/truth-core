@@ -1,0 +1,10 @@
+{
+  "id": "30b77681-2a82-4265-a32e-283bf4f95159",
+  "label": "Fixed quotient image and representative range agree (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2a37e349-bdd2-465b-9844-9c230a1a9884",
+  "rule": "Quotient induction and range witnesses",
+  "meaning": "Representatives exist for quotient values and each representative constructs a quotient value. This clarifies the exact extent of the candidate sense.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

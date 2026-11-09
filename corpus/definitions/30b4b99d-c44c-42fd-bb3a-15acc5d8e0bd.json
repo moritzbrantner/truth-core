@@ -1,0 +1,9 @@
+{
+  "id": "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+  "label": "Faithful quotient presentation of generated values",
+  "term": "faithful quotient presentation",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.Presentation",
+  "definition": "Presentation A B supplies a Setoid relation on A, an embedding from Quotient relation to B, and injectivity of that embedding. value a is embed (Quotient.mk relation a). Setoid carries reflexivity, symmetry and transitivity; Quotient identifies exactly related representatives; injectivity prevents distinct equivalence classes being collapsed. These are the standard Lean Equivalence/Setoid/Quotient meanings, with Set.range for the image. Representative-independent elimination is embodied by a function defined on Quotient, not asserted by an essence predicate.",
+  "note": "Analyst mathematical interpretation, attribution deferred. The finite Bool-pair presentation forgets the second coordinate and embeds two classes in Bool + Bool; it has a genuine collision and two distinct outputs. The two right-summand points are outside its range. Arbitrary maps without faithfulness need not have the selected equivalence as their exact kernel. Constitutive essence and metaphysical applicability are not represented or established."
+}

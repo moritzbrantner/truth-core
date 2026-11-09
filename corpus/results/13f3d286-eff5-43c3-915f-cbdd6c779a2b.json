@@ -1,0 +1,11 @@
+{
+  "id": "13f3d286-eff5-43c3-915f-cbdd6c779a2b",
+  "label": "Fixed quotient image and representative range agree",
+  "argument_id": "ea7a40b9-db2f-45a5-a161-b78d65d57fcd",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.range",
+  "comparator_config": "results/13f3d286-eff5-43c3-915f-cbdd6c779a2b/comparator.json",
+  "status": "solution-present",
+  "description": "Representatives exist for quotient values and each representative constructs a quotient value. This clarifies the exact extent of the candidate sense."
+}

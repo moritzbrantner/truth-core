@@ -24,6 +24,7 @@ public import TruthCore.Results.Ontology.NaturalismLogicalFloor.Solution
 public import TruthCore.Results.Ontology.NaturalismSets.Controls.Solution
 public import TruthCore.Results.Ontology.NaturalismSets.Exclusion.Solution
 public import TruthCore.Results.Ontology.NaturalismSets.Unlocation.Solution
+public import TruthCore.Results.Ontology.QuotientGeneration.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentFailure.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.AbsentProjection.Solution
 public import TruthCore.Results.Ontology.UniverseCauseScopeBoundary.ActualityStrength.Solution

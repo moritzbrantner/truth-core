@@ -1,0 +1,40 @@
+{
+  "id": "f6b80c6f-61d1-412e-ba69-eafa9d80b23c",
+  "label": "Quotient value classification requires the explicit no-esse bridge",
+  "premise_statement_ids": [
+    "96bc63ee-42a2-46f6-aca2-c86fe4c88bae",
+    "64b877b5-dff5-4fd0-a84b-ceb37e3595de"
+  ],
+  "conclusion_statement_id": "e94dc14f-c0a2-4064-be65-e0afd796c4ba",
+  "inference_ids": [
+    "b02093f7-fdf1-436f-9182-d3b92f6d57c8"
+  ],
+  "meaning": "A quotient witness selects the same bearer covered by ValuesNoEsse. This is conditional transfer between numbered senses, not an independent defense of the bridge.",
+  "term_senses": {
+    "CONCRETE_AND_ABSTRACT": "539a1595-12fa-4e55-88ec-0b0fc64f51d1"
+  },
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ],
+  "sense_bridges": [
+    {
+      "term": "CONCRETE_AND_ABSTRACT",
+      "from": "539a1595-12fa-4e55-88ec-0b0fc64f51d1",
+      "to": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+      "statement_id": "96bc63ee-42a2-46f6-aca2-c86fe4c88bae"
+    },
+    {
+      "term": "CONCRETE_AND_ABSTRACT",
+      "from": "539a1595-12fa-4e55-88ec-0b0fc64f51d1",
+      "to": "bdf2c710-a092-4943-8732-c23f0b8d1fae",
+      "statement_id": "e94dc14f-c0a2-4064-be65-e0afd796c4ba",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

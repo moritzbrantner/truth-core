@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ontology.QuotientGeneration.inert"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

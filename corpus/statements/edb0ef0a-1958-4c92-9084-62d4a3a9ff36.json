@@ -1,0 +1,10 @@
+{
+  "id": "edb0ef0a-1958-4c92-9084-62d4a3a9ff36",
+  "label": "Every candidate admits a Unit quotient presentation",
+  "paraphrase": "For every candidate carrier B and b in B, a faithful presentation of a Unit quotient generates b. Thus existentially varying presentations cannot discriminate candidates. No constitutive abstraction, real-world generation or metaphysical possibility is asserted.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.UnrestrictedGeneration",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ]
+}

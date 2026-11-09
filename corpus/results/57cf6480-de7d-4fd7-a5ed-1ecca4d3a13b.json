@@ -1,0 +1,11 @@
+{
+  "id": "57cf6480-de7d-4fd7-a5ed-1ecca4d3a13b",
+  "label": "Quotient value classification requires the explicit no-esse bridge",
+  "argument_id": "f6b80c6f-61d1-412e-ba69-eafa9d80b23c",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.classify",
+  "comparator_config": "results/57cf6480-de7d-4fd7-a5ed-1ecca4d3a13b/comparator.json",
+  "status": "solution-present",
+  "description": "A quotient witness selects the same bearer covered by ValuesNoEsse. This is conditional transfer between numbered senses, not an independent defense of the bridge."
+}
