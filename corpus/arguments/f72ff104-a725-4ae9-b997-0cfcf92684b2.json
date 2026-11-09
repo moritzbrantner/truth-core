@@ -1,0 +1,15 @@
+{
+  "id": "f72ff104-a725-4ae9-b997-0cfcf92684b2",
+  "label": "Finite reachability succeeds and fails on explicit graphs",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "0465558e-7646-4df2-bb32-15377aeac731",
+  "inference_ids": [
+    "763750fb-4b0e-4f1b-8391-0ea785afb1f5"
+  ],
+  "meaning": "On Nat successor, zero reaches two despite no direct edge; on the edgeless Bool graph false does not reach true. These are graph controls, not physical models.",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

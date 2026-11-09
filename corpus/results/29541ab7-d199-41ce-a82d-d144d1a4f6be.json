@@ -1,0 +1,11 @@
+{
+  "id": "29541ab7-d199-41ce-a82d-d144d1a4f6be",
+  "label": "FO embeds into restricted reachability language",
+  "argument_id": "b7ea1e50-b0e1-4509-b873-12bbce7a0cd9",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.embedding",
+  "comparator_config": "results/29541ab7-d199-41ce-a82d-d144d1a4f6be/comparator.json",
+  "status": "solution-present",
+  "description": "On one identical indexed profile, varying-domain first-order definability implies restricted FO plus finite-reachability definability. No strict expressive separation is claimed."
+}
