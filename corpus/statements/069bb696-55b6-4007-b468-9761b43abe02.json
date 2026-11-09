@@ -1,0 +1,9 @@
+{
+  "id": "069bb696-55b6-4007-b468-9761b43abe02",
+  "label": "Joint theory does not entail falsum",
+  "paraphrase": "The stated local theory does not semantically entail falsum on this frame.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.NoFalsumConsequence",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

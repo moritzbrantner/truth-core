@@ -1,0 +1,10 @@
+{
+  "id": "5e6ffc55-96f2-44fe-b3f5-2449accb92b6",
+  "label": "Logical-profile dictionary and root-facts omissions checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2aa36b87-cc6e-4f97-8b6f-a550313f2299",
+  "rule": "Explicit finite semantic counterinterpretations",
+  "meaning": "Omitting the existence dictionary allows a valid identity formula but no box-existent root. Omitting independent RootFacts allows a dictionary-correct admitted atom theory but no God witness. The first model retains an actual root with all divine fields stipulated; its failure concerns only box-existence. The second changes only the supplied divine predicate to False. No reality claim is made.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

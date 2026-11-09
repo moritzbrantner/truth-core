@@ -1,0 +1,11 @@
+{
+  "id": "abca2584-6f6a-40b8-bdc2-b37e01fe5008",
+  "label": "K validity weakens to selected-frame validity",
+  "argument_id": "c65236fb-b283-4b3b-9a87-ac7c7da7fd51",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.kToFrame",
+  "comparator_config": "results/abca2584-6f6a-40b8-bdc2-b37e01fe5008/comparator.json",
+  "status": "solution-present",
+  "description": "Specialize the all-small-frame universal to the same selected frame and formula. Exact strong-only-premise result."
+}
