@@ -5,9 +5,11 @@
   "term": "mind-independent ('if we all approved of cruelty, it would still be wrong')",
   "sense_definition_ids": [
     "d119699c-0794-519d-bfa5-8b2681886e5f",
-    "97de11fe-72e4-5a9d-bb75-828c6d5ee079"
+    "97de11fe-72e4-5a9d-bb75-828c6d5ee079",
+    "388418b3-4658-4e85-8b8e-ade67bef5fc1",
+    "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"
   ],
-  "resolution": "Two senses. Internal (DEF-MIND-INDEPENDENCE-INTERNAL): the counterfactual asserted as a moral claim, its legitimacy judged by one's attitudes. Objectivity (DEF-MORAL-OBJECTIVITY): the metaphysical thesis that moral facts exist and are mind-independent. STMT-QUASI-REALISM-SEEKS-MIND-INDEPENDENCE-TALK uses the internal sense: quasi-realism aims to assert the sentence. STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT uses the objectivity sense. So the deviation map records two answers, not one: on the sentence, quasi-realism matches realism only if its program succeeds, which no witness asserts; on objectivity it does not affirm realism's answer, provided quasi-realism is read, as the entry presents it, as a noncognitivist program (Blackburn's own label is projectivism), since a noncognitivist is neither objectivist nor non-objectivist (STMT-NONCOGNITIVISM-NEITHER-OBJECTIVIST-NOR-NON-OBJECTIVIST). No step passes from asserting the sentence to objectivism, or from denying objectivism to rejecting the sentence. That realism's objectivism yields the counterfactual is not formalized: it depends on which mind-independence relation is meant (Moral Anti-Realism §3.3).",
+  "resolution": "Two senses. Internal (DEF-MIND-INDEPENDENCE-INTERNAL): the counterfactual asserted as a moral claim, its legitimacy judged by one's attitudes. Objectivity (DEF-MORAL-OBJECTIVITY): the metaphysical thesis that moral facts exist and are mind-independent. STMT-QUASI-REALISM-SEEKS-MIND-INDEPENDENCE-TALK uses the internal sense: quasi-realism aims to assert the sentence. STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT uses the objectivity sense. So the deviation map records two answers, not one: on the sentence, quasi-realism matches realism only if its program succeeds, which no witness asserts; on objectivity it does not affirm realism's answer, provided quasi-realism is read, as the entry presents it, as a noncognitivist program (Blackburn's own label is projectivism), since a noncognitivist is neither objectivist nor non-objectivist (STMT-NONCOGNITIVISM-NEITHER-OBJECTIVIST-NOR-NON-OBJECTIVIST). No step passes from asserting the sentence to objectivism, or from denying objectivism to rejecting the sentence. That realism's objectivism yields the counterfactual is not formalized: it depends on which mind-independence relation is meant (Moral Anti-Realism \u00a73.3). Appended analyst candidates MIND_INDEPENDENT_3 (actual-truth-bearing intervention invariance) and MIND_INDEPENDENT_4 (actual-truth-bearing ancestral constitutive-support exclusion) do not identify or complete senses 1 or 2. Grounding stability concerns only components, not full candidates. groundingBridge passes from 4 to 3 only under that explicit stability premise. Finite controls separate 3 and 4 and jointly realize them, so no unconditional implication or exclusivity of extensions is claimed. Calibration is certified separately for 3 and 4; the original joint disjunctive lemma remains a Lean helper, not a candidate-to-candidate bridge. No exhaustive coverage of meanings is claimed.",
   "term_label": "MIND_INDEPENDENT",
   "senses": [
     {
@@ -19,6 +21,18 @@
       "id": "0e19a423-f41a-4ba8-a870-8ae98f074a49",
       "label": "MIND_INDEPENDENT_2",
       "definition_id": "97de11fe-72e4-5a9d-bb75-828c6d5ee079"
+    },
+    {
+      "id": "cb259301-42d8-4735-a1e2-99bb073eeef7",
+      "label": "MIND_INDEPENDENT_3",
+      "definition_id": "388418b3-4658-4e85-8b8e-ade67bef5fc1",
+      "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.InterventionObject"
+    },
+    {
+      "id": "3783d4f8-bc56-4e49-8546-69603a3ebd97",
+      "label": "MIND_INDEPENDENT_4",
+      "definition_id": "21fb2d8d-0866-46c5-b869-c1ea81b2e28c",
+      "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.GroundingObject"
     }
   ]
 }

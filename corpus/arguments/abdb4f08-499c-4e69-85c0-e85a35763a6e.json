@@ -10,6 +10,25 @@
   ],
   "meaning": "Retains moral facthood, existence and actual truth and applies the explicit grounding-to-invariance premise. No unconditional relation follows.",
   "definition_ids": [
+    "21fb2d8d-0866-46c5-b869-c1ea81b2e28c",
+    "388418b3-4658-4e85-8b8e-ade67bef5fc1",
+    "47c13373-ae74-4e4f-aa4b-7056869cc661",
+    "5ccadc7e-1ff8-46d7-8e50-e10c513548bd",
     "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ],
+  "term_senses": {
+    "MIND_INDEPENDENT": "3783d4f8-bc56-4e49-8546-69603a3ebd97"
+  },
+  "sense_bridges": [
+    {
+      "term": "MIND_INDEPENDENT",
+      "from": "3783d4f8-bc56-4e49-8546-69603a3ebd97",
+      "to": "cb259301-42d8-4735-a1e2-99bb073eeef7",
+      "statement_id": "e77adb31-cf6c-45f3-9ed3-3a1e9d13cf29",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "31931aba-44bc-544c-b514-aeb64901ccc6"
   ]
 }

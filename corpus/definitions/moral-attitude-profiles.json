@@ -1,9 +1,9 @@
 {
   "id": "9568ff20-a21e-4320-945d-4f73415be3d9",
   "label": "Moral attitude intervention and constitutive support profiles",
-  "term": "analyst moral objectivity candidates",
+  "term": "moral attitude profile context",
   "basis": "stipulative",
   "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.Profile",
-  "definition": "Profile extends the existing supplied attitude truth frame with explicit admissible interventions, independently supplied moral facthood and existence predicates, a fact node per sentence, an attitude-node predicate and immediate constitutive-support edges. Ancestor is a finite nonempty edge path. NoAttitudeAncestor excludes attitude nodes anywhere on those paths; NoDirectAttitudeGround excludes only immediate support. Invariant compares truth status at every admissible intervention with actual truth status. InterventionObject and GroundingObject each separately require moral facthood, existence and actual truth, then invariance or no attitude ancestors respectively.",
+  "definition": "Profile extends the existing supplied attitude truth frame with explicit admissible interventions, independently supplied moral facthood and existence predicates, a fact node per sentence, an attitude-node predicate and immediate constitutive-support edges.",
   "note": "Analyst alternatives, attribution deferred; neither completes the original MIND_INDEPENDENT_2. Immediate grounding is an OPEN primitive interpreted as constitutive support, distinct from causal influence, evidence or correlation. An approval-constituted conventional rule illustrates an attitude ground; a stipulated non-attitude-supported rule illustrates its exclusion, without claiming either models moral reality. A causal overdetermination interpretation is NOT certified by merely stable truth. Grounding edges have no assumed acyclicity or temporal meaning; ancestry closes finite nonempty paths. OPEN: fidelity and completeness of support edges, identity of fact nodes, attitude/non-attitude partition, coverage of interventions holding all non-attitude circumstances/content fixed, and bridges to form/end goodness and the named approval-account failure root premise. A constitutive account and an interventionist account are serious competing interpretations; neither entails the other without an explicit bridge. All original allowances remain."
 }

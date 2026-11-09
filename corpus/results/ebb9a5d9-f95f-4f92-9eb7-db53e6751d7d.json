@@ -1,0 +1,11 @@
+{
+  "id": "ebb9a5d9-f95f-4f92-9eb7-db53e6751d7d",
+  "label": "Grounding calibration supplies the POE truth component",
+  "argument_id": "9a4cc051-15a0-47e9-8e83-0bcc98984e05",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Solution",
+  "theorem": "TruthCore.Results.Logic.MoralAttitudeCalibration.groundingCalibration",
+  "comparator_config": "results/ebb9a5d9-f95f-4f92-9eb7-db53e6751d7d/comparator.json",
+  "status": "solution-present",
+  "description": "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion."
+}

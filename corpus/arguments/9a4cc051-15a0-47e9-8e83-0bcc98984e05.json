@@ -1,0 +1,20 @@
+{
+  "id": "9a4cc051-15a0-47e9-8e83-0bcc98984e05",
+  "label": "Grounding calibration supplies the POE truth component",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "cd8b5a3a-3e06-4a32-81c0-41f8fdccb998",
+  "inference_ids": [
+    "85f559b5-7805-4457-897b-768673761c59"
+  ],
+  "meaning": "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion.",
+  "term_senses": {
+    "MIND_INDEPENDENT": "3783d4f8-bc56-4e49-8546-69603a3ebd97"
+  },
+  "definition_ids": [
+    "21fb2d8d-0866-46c5-b869-c1ea81b2e28c",
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ],
+  "disambiguation_ids": [
+    "31931aba-44bc-544c-b514-aeb64901ccc6"
+  ]
+}

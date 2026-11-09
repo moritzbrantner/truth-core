@@ -32,6 +32,7 @@ public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
 public import TruthCore.Logic.MeaningDefinitionFork
 public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
+public import TruthCore.Logic.MoralAttitudeCalibration
 public import TruthCore.Logic.MoralAttitudeProfiles
 public import TruthCore.Logic.NaturalTheologySemanticScope
 public import TruthCore.Logic.ObjectiveTruthDefinitionFork

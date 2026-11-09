@@ -1,0 +1,12 @@
+{
+  "id": "5ccadc7e-1ff8-46d7-8e50-e10c513548bd",
+  "label": "truth-status invariance",
+  "term": "truth-status invariance",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.Invariant",
+  "definition": "At every explicitly admissible attitude profile, truth of this sentence is equivalent to its actual truth. Stable falsity satisfies this component; no moral facthood or existence is asserted.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9"
+  ],
+  "note": "Analyst formulation, attribution deferred. Uses the supplied Profile context; applicability and support/intervention completeness remain OPEN. Neither original mind-independence sense is completed."
+}

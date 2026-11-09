@@ -1,8 +1,8 @@
 {
-  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
-  "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeCalibration.Solution",
   "theorem_names": [
-    "TruthCore.Results.Logic.MoralAttitudeProfiles.calibrationTruth"
+    "TruthCore.Results.Logic.MoralAttitudeCalibration.interventionCalibration"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true
