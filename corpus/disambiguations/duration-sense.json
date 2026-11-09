@@ -10,7 +10,7 @@
     "19e01de3-b9af-5468-a2dd-3d6fdb902fd3",
     "b9cac25b-6e7f-57ff-9d74-21d615912a0e"
   ],
-  "resolution": "Proper eternity is not mere endless time or internally stable aevum. Q.10 a.3 permits extended and participated uses; a.4 preserves succession even for endless time; a.5 admits adjunct change in aevum despite its internal tota-simul character. These source distinctions do not redefine primitive Eternal or import an Aristotelian everlasting sense into it. EternityDefinitionFork now exposes operational Boethian versus endless-life calibration of the independent primitive Eternal, explicit named coverage/Other and the weaker one-way recognition actually used to compose the existing typed theorem into ImmutableIsEternalReading. That root statement quantifies all beings, not only God. The three existing typed inputs remain visible, including the open pure-act-lives and boundary-requires-subject-potency premises. Controls separate succession, recognition and calibration; the partial Boethian perfect-possession omission is retained.",
+  "resolution": "Proper eternity is not mere endless time or internally stable aevum. Q.10 a.3 permits extended and participated uses; a.4 preserves succession even for endless time; a.5 admits adjunct change in aevum despite its internal tota-simul character. These source distinctions do not redefine primitive Eternal or import an Aristotelian everlasting sense into it. EternityDefinitionFork now exposes operational Boethian versus endless-life calibration of the independent primitive Eternal, explicit named coverage/Other and the weaker one-way recognition actually used to compose the existing typed theorem into ImmutableIsEternalReading. That root statement quantifies all beings, not only God. The three existing typed inputs remain visible, including the open pure-act-lives and boundary-requires-subject-potency premises. Controls separate succession, recognition and calibration; the partial Boethian perfect-possession omission is retained. Owner-selected sense 2 is now the disjunction of never-ceasing duration, contextually long duration, or stable being/operation received from God in the same aspect. These alternatives need not coincide; none supplies proper eternity recognition. Senses 3 and 4 remain unresolved: order-preservation alone does not define a measure of motion, and substantial state constancy alone does not define aevum. The original senses are not bound to these surrogates.",
   "term_label": "ETERNITY_AND_STABLE_DURATION",
   "senses": [
     {
@@ -22,7 +22,8 @@
     {
       "id": "50d821ea-9270-43b2-b217-3b7605d9c918",
       "label": "ETERNITY_AND_STABLE_DURATION_2",
-      "definition_id": "a26cce29-0205-5671-a1b1-8ad3d962c82a"
+      "definition_id": "a26cce29-0205-5671-a1b1-8ad3d962c82a",
+      "lean_declaration": "TruthCore.Causality.ParticipatedDuration.Extended"
     },
     {
       "id": "a013f45a-1f6f-450c-8c77-9459f5a6da6b",
