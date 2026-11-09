@@ -1,0 +1,12 @@
+{
+  "id": "653085de-f1e7-4dfa-8497-21e431da96c8",
+  "label": "Whole-series selected exercise forgets selection (inference)",
+  "input_statement_ids": [
+    "3cc186d1-36cf-4e57-8d4c-23d924738709"
+  ],
+  "output_statement_id": "24354918-037c-4b3b-9077-8981b8857b1c",
+  "rule": "Existential elimination and structure projection",
+  "meaning": "Keep the identical actual world, bearer, obtaining reason content, complete fact valuation, optimality and contingent exercise; forget only the positive agenda selector. This compares analyst policy strength, not the sourced whole-series meaning or premise truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

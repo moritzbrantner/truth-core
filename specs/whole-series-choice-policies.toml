@@ -1,0 +1,41 @@
+[batch]
+vocab = "TruthCore.Explanation.WholeSeriesChoicePolicies"
+results = "TruthCore.Results.Explanation.WholeSeriesChoicePolicies"
+
+[[statement]]
+id = "Whole-series adequacy policy scope and tied-order certificates"
+lean = "Certificates"
+definitions = ["b520cb0e-4717-48a2-aa22-9065cfecb73b", "74a88a8d-62a2-4537-a98c-670b90dffc0f"]
+paraphrase = "For any predicate and finite agenda, first-optimum scanning is unique and, with explicit decidable eligibility, selects exactly when the agenda contains an eligible option. Uniform selected policy entails uniform optimal policy, neither asserting any choice occurs. The same agenda and extensionally equal eligibility predicates force the same selected output only when both selections are supplied. An original full-fact exercise over ALL Boolean-world propositions has an actual necessary bearer, obtaining necessary content and contingent choice, with both options tied. It satisfies the weak uniform policy and the strong local policy; the strong uniform policy fails. Reversed and empty agendas fail to select that same actual option. Strong local existence entails original weak existence, and no eligible option means no selection. A second full-fact exercise chooses at the actual world and abstains at its accessible rival; it witnesses nonvacuous uniform strong selection alongside contingent exercise, without total choice. These are mathematical analyst controls, not established explanatory adequacy, source correspondence or root discharge."
+
+[[statement]]
+id = "Whole-series first-optimum selected exercise exists"
+lean = "HasSelectedWholeExercise"
+definitions = ["b520cb0e-4717-48a2-aa22-9065cfecb73b"]
+paraphrase = "At the selected actual world, the SAME original reason-guided whole-order exercise, including its necessary substance bearer, obtaining content, complete all-fact valuation and contingent exercise, executes the supplied agenda's first feasible optimum. This stronger analyst adequacy policy remains stipulated; relevance, direction, calibration and source correspondence remain open."
+
+[[argument]]
+id = "Whole-series adequacy policy scope and tied-order certificates, checked"
+theorem = "certificates"
+premises = []
+conclusion = "Whole-series adequacy policy scope and tied-order certificates"
+rule = "List induction and explicit extensional full-fact model"
+meaning = "Prove uniqueness, decidable existence and predicate transport by list induction; instantiate an original ReasonGuidedWholeExercise on a fully extensional fact domain. All actual and necessary bearer evidence, option truth valuation and accessible omission are explicit. Uniform scopes quantify over every world, bearer, reason-content and recorded choice and do not imply nonempty choice. Same-input stability needs TWO selections. Agenda calibration and explanatory authority are not inferred."
+
+[[argument]]
+id = "Whole-series selected exercise forgets selection"
+theorem = "forgetSelection"
+premises = ["Whole-series first-optimum selected exercise exists"]
+conclusion = "24354918-037c-4b3b-9077-8981b8857b1c"
+rule = "Existential elimination and structure projection"
+meaning = "Keep the identical actual world, bearer, obtaining reason content, complete fact valuation, optimality and contingent exercise; forget only the positive agenda selector. This compares analyst policy strength, not the sourced whole-series meaning or premise truth."
+
+[[relation]]
+id = "Whole-series selected exercise strengthens optimal exercise"
+subject_kind = "statement"
+subject_id = "Whole-series first-optimum selected exercise exists"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "24354918-037c-4b3b-9077-8981b8857b1c"
+verification_result_id = "Whole-series selected exercise forgets selection"
+note = "Same original exercise data. The additional first-optimum agenda condition may fail on a tied choice or an empty agenda; no original source attribution inferred."
