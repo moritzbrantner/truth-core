@@ -1,0 +1,10 @@
+{
+  "id": "53c053b7-570d-4e98-8615-904925111099",
+  "label": "Experience warranted token",
+  "paraphrase": "Some selected token warrants belief; not a truth or existence claim.",
+  "lean_declaration": "TruthCore.Alternatives.ReligiousExperienceRecognition.WarrantedToken",
+  "definition_ids": [
+    "fda63f5c-198f-4416-93f9-a758138a1487",
+    "c0b671c6-ae2f-5ccb-9330-6bd8f4bda866"
+  ]
+}

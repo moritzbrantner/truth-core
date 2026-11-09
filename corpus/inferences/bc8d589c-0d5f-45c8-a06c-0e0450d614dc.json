@@ -1,0 +1,15 @@
+{
+  "id": "bc8d589c-0d5f-45c8-a06c-0e0450d614dc",
+  "label": "Experience connects to root capability (inference)",
+  "input_statement_ids": [
+    "ecd2eb8d-e245-4679-b7e9-7a265309d992",
+    "a897a12d-4a42-42e8-9b4b-4ee119c08191",
+    "8dc0ebe3-a8df-49ca-aa5f-c2b2ddd2e034",
+    "5f5995c2-c827-4b60-805a-04d3ce2d4b14"
+  ],
+  "output_statement_id": "5fc7a6f9-94d7-5938-9e32-b2614c159646",
+  "rule": "Existential elimination and construction over finite experience tokens",
+  "meaning": "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "158be088-72a4-4beb-aefc-627ee753718e",
+  "label": "Experience permits warranted belief",
+  "argument_id": "208b1cde-adff-4ae9-b1e1-97db30180d82",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.permission",
+  "comparator_config": "results/158be088-72a4-4beb-aefc-627ee753718e/comparator.json",
+  "status": "solution-present",
+  "description": "Assembly transcription; Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap.",
+  "transcription": "assembly"
+}
