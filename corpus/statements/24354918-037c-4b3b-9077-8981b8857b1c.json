@@ -1,0 +1,12 @@
+{
+  "id": "24354918-037c-4b3b-9077-8981b8857b1c",
+  "label": "Whole-series reason-guided contingent exercise exists",
+  "paraphrase": "At the fixed actual world, an actual necessarily existing substance carries obtaining content and contingently exercises an optimal feasible choice realizing the complete actual fact order. Optimality is absence of a strictly better feasible option under that content. Explanatory adequacy remains open; no truth-entailing sufficiency is asserted.",
+  "lean_declaration": "TruthCore.Explanation.WholeSeriesReason.HasReasonGuidedWholeExercise",
+  "definition_ids": [
+    "74a88a8d-62a2-4537-a98c-670b90dffc0f"
+  ],
+  "disambiguation_ids": [
+    "66376b09-a75d-4155-870b-6d9c1c8f42b4"
+  ]
+}
