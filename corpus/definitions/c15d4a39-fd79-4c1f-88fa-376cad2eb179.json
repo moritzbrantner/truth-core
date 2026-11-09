@@ -1,0 +1,9 @@
+{
+  "id": "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+  "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_4: A3 analyst state-pair identity",
+  "term": "A3 analyst state-pair identity",
+  "definition": "An event is an ordered pair of different essential state contents. Equality of those contents suffices for event equality; recurrence is not distinguished. State is unrestricted and can contain structured facts. This is an analyst option, not the original sense.",
+  "basis": "stipulative",
+  "note": "Owner-approved alternative investigation, attribution deferred. OPEN: mapping state contents, bearer, interval and accessibility to the source event and concrete first-transition scenario. Bearer is not automatically an explanatory condition or causal agent. Time ordering is supplied, with no assumed transitivity or well-foundedness. Repeated heating of the same material illustrates equal state contents with different intervals; identifying those repetitions is the pair alternative, distinguishing them is the occurrence alternative. Neither profile proves the prior-condition/concrete-presence bridge. No original declaration allowance is removed.",
+  "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.StatePairEvent"
+}

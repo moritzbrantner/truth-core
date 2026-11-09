@@ -32,6 +32,7 @@ public import TruthCore.Causality.CommonPriority
 public import TruthCore.Causality.CompleteCauseContributorCover
 public import TruthCore.Causality.ComponentFirstness
 public import TruthCore.Causality.ComposerTemporalDefinitionFork
+public import TruthCore.Causality.ConceivableGreatness
 public import TruthCore.Causality.ConceptualExistenceBoundary
 public import TruthCore.Causality.ConcreteExistentialSupply
 public import TruthCore.Causality.ConstitutiveConfiguration
@@ -57,6 +58,7 @@ public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
 public import TruthCore.Causality.EternityDefinitionFork
+public import TruthCore.Causality.EventIdentityProfiles
 public import TruthCore.Causality.EventStatePreservation
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistenceSenseRoute
@@ -107,6 +109,7 @@ public import TruthCore.Causality.NecessarySenseFork
 public import TruthCore.Causality.NecessarySimplePlurality
 public import TruthCore.Causality.NonlimitingConcreteExistence
 public import TruthCore.Causality.OccurrenceUnderivedEssence
+public import TruthCore.Causality.OwnerEndpointCalibration
 public import TruthCore.Causality.ParityUnionRegress
 public import TruthCore.Causality.PartFreePlurality
 public import TruthCore.Causality.PartMediatedSelfMotion

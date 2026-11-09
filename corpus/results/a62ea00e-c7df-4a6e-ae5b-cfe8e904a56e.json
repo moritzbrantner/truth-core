@@ -1,0 +1,11 @@
+{
+  "id": "a62ea00e-c7df-4a6e-ae5b-cfe8e904a56e",
+  "label": "Owner endpoint calibration checked interface",
+  "argument_id": "61334082-20d5-4091-9a83-7410c29e914d",
+  "challenge_module": "TruthCore.Results.Causality.OwnerEndpointCalibration.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OwnerEndpointCalibration.Solution",
+  "theorem": "TruthCore.Results.Causality.OwnerEndpointCalibration.certificate",
+  "comparator_config": "results/a62ea00e-c7df-4a6e-ae5b-cfe8e904a56e/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional interfaces keep all profile and owner inputs inside the quantified certificate. DirectLaw uses only the activity conjunct; ProfileLaw uses exerciseHasPower and powerConcrete; EsseLaw adds concreteIsEsse. Actual existence is supplied by actualGraph nodes and is not needed by the owner's unguarded activity clause itself. Controls distinguish missing production, dictionary and esse calibration, without asserting an anchored intended ontology."
+}

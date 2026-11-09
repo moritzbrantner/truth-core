@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.MoralAttitudeProfiles.groundingBridge"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

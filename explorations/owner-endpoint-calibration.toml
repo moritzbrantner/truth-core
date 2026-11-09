@@ -1,0 +1,14 @@
+target = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "Owner endpoint calibration interface and omission certificate"
+[[node]]
+id = "Same necessary source actually produces an effect"
+new = true
+text = "OPEN: sameSource supplies no outgoing edge. Pending productivity work is independent; no unmerged code is consumed."
+[[edge]]
+premises = ["Owner endpoint calibration interface and omission certificate", "Same necessary source actually produces an effect"]
+conclusion = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+kind = "bridge"
+status = "mapped"

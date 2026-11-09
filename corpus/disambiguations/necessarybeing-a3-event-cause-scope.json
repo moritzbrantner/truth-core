@@ -1,11 +1,13 @@
 {
   "id": "82cfe4a1-7f82-5453-ab75-cde5474121e8",
   "term": "A3 event identity, causal priority and modal witness scope",
-  "resolution": "Possible causability concerns the same essential-state event, not merely an analogous transition with different states; it does not assert that every actual event actually has a cause. A prior explaining condition is not automatically an existing concrete individual at an earlier time. The first-transition contradiction requires that interpretation; actual bearer, concrete capability and temporal presence remain explicit correspondence obligations. All contingent things is nonrigid none-to-some scope, not the fixed collection of actual individuals or a member-to-whole causal inference. A possible Necessary Being conclusion and the subsequent de dicto modal suffix do not by themselves certify a SAME actual rigid individual. Existing Scenario/local-frame results require their own guarded hypotheses.",
+  "resolution": "Possible causability concerns the same essential-state event, not merely an analogous transition with different states; it does not assert that every actual event actually has a cause. A prior explaining condition is not automatically an existing concrete individual at an earlier time. The first-transition contradiction requires that interpretation; actual bearer, concrete capability and temporal presence remain explicit correspondence obligations. All contingent things is nonrigid none-to-some scope, not the fixed collection of actual individuals or a member-to-whole causal inference. A possible Necessary Being conclusion and the subsequent de dicto modal suffix do not by themselves certify a SAME actual rigid individual. Existing Scenario/local-frame results require their own guarded hypotheses. Analyst siblings 4 and 5 preserve the owner-approved event-identity alternatives. Sense 4 identifies a changed ordered state pair; sense 5 identifies a bearer/interval occurrence carrying that pair. Projecting an occurrence to its state pair does not identify occurrences. The transport conclusion relates these readings only under explicit uniqueness of occurrences sharing the selected state pair; no unrestricted transport or source mapping is established. Coverage of a particular source use and selection of its reading remain OPEN; extensions of the alternatives are not claimed disjoint.",
   "sense_definition_ids": [
     "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
     "86143f0e-c246-59d8-a775-4003173e254f",
-    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+    "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf",
+    "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+    "e7dc62a6-7b2f-4467-87b3-ec287bd67047"
   ],
   "term_label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY",
   "senses": [
@@ -23,6 +25,18 @@
       "id": "c4122f54-214b-494f-88a7-75db3e688e5a",
       "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_3",
       "definition_id": "7fde5dc0-6ca7-5ce6-a2e1-571acfd15dcf"
+    },
+    {
+      "id": "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_4",
+      "definition_id": "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+      "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.StatePairEvent"
+    },
+    {
+      "id": "eaa836ba-e872-4c16-9511-4ce208529a62",
+      "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_5",
+      "definition_id": "e7dc62a6-7b2f-4467-87b3-ec287bd67047",
+      "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.OccurrenceEvent"
     }
   ],
   "label": "A3 event identity, causal priority and modal witness scope",

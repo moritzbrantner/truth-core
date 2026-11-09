@@ -1,0 +1,36 @@
+[batch]
+vocab = "TruthCore.Logic.MoralAttitudeCalibration"
+results = "TruthCore.Results.Logic.MoralAttitudeCalibration"
+
+[[statement]]
+id = "Intervention calibration supplies actual truth"
+lean = "InterventionCalibrationTruth"
+paraphrase = "For every arbitrary Profile, calibration of its objective classifier to MIND_INDEPENDENT_3 supplies HasTruthComponent. This is a per-reading corollary of the original disjunctive calibration lemma; no classifier adoption is asserted."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "388418b3-4658-4e85-8b8e-ade67bef5fc1"]
+disambiguations = ["31931aba-44bc-544c-b514-aeb64901ccc6"]
+
+[[argument]]
+id = "Intervention calibration supplies the POE truth component"
+theorem = "interventionCalibration"
+premises = []
+conclusion = "Intervention calibration supplies actual truth"
+rule = "Disjunction introduction and existing calibration theorem"
+meaning = "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion."
+senses = {MIND_INDEPENDENT = "MIND_INDEPENDENT_3"}
+
+[[statement]]
+id = "Grounding calibration supplies actual truth"
+lean = "GroundingCalibrationTruth"
+paraphrase = "For every arbitrary Profile, calibration of its objective classifier to MIND_INDEPENDENT_4 supplies HasTruthComponent. This is a per-reading corollary of the original disjunctive calibration lemma; no classifier adoption is asserted."
+definitions = ["9568ff20-a21e-4320-945d-4f73415be3d9", "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"]
+disambiguations = ["31931aba-44bc-544c-b514-aeb64901ccc6"]
+
+[[argument]]
+id = "Grounding calibration supplies the POE truth component"
+theorem = "groundingCalibration"
+premises = []
+conclusion = "Grounding calibration supplies actual truth"
+rule = "Disjunction introduction and existing calibration theorem"
+meaning = "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion."
+senses = {MIND_INDEPENDENT = "MIND_INDEPENDENT_4"}
+

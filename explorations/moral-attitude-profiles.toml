@@ -1,0 +1,13 @@
+target = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
+[[node]]
+id = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
+[[node]]
+id = "moral-profile-calibration"
+new = true
+text = "Explicit actual-truth and faithful classifier calibration for intervention or grounding candidates."
+[[edge]]
+premises = ["moral-profile-calibration"]
+conclusion = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: neither candidate selects the original metaphysical sense; root natural-law and external POE applications require faithful calibration and actual truth. No discharge."

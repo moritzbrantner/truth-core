@@ -53,6 +53,8 @@ public import TruthCore.Results.Logic.MeaningDefinitionFork.V3Rejection.Solution
 public import TruthCore.Results.Logic.MeaningDefinitionFork.V3RejectionBound.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.Controls.Solution
 public import TruthCore.Results.Logic.MetaethicsTruthAptRivalBoundary.ExactRival.Solution
+public import TruthCore.Results.Logic.MoralAttitudeCalibration.Solution
+public import TruthCore.Results.Logic.MoralAttitudeProfiles.Solution
 public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Controls.Solution
 public import TruthCore.Results.Logic.NaturalTheologySemanticScope.Projection.Solution
 public import TruthCore.Results.Logic.ObjectiveTruthDefinitionFork.BridgeOmission.Solution
