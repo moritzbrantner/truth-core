@@ -1,0 +1,10 @@
+{
+  "id": "d49cd130-27e8-4dc7-a99c-d1dab54d1abb",
+  "label": "Rotating bearer populated separation controls, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+  "rule": "Finite case analysis, quantifier reasoning and explicit finite controls",
+  "meaning": "The existing Bool swapOntic has populated worlds and no common bearer even on S5. De dicto holds for each candidate. The fixed-bearer unit model omits the no-common-bearer clause and fails the rival. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

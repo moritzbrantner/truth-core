@@ -129,6 +129,7 @@ public import TruthCore.Causality.RootPositiveIntellectWillControl
 public import TruthCore.Causality.RootPurity
 public import TruthCore.Causality.RootWiring
 public import TruthCore.Causality.RootWithoutLimitingPrinciple
+public import TruthCore.Causality.RotatingBearerSenseComparison
 public import TruthCore.Causality.Round2ExistenceAct
 public import TruthCore.Causality.Round2Grounding
 public import TruthCore.Causality.Round2PerfectionPrimacy

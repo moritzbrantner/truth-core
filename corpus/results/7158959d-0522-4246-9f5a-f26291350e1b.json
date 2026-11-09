@@ -1,0 +1,26 @@
+{
+  "id": "7158959d-0522-4246-9f5a-f26291350e1b",
+  "label": "Rotating bearer populated separation controls, checked",
+  "argument_id": "b2803551-93e8-4f12-b3d0-f18310f0a972",
+  "challenge_module": "TruthCore.Results.Causality.RotatingBearerSenseComparison.Challenge",
+  "solution_module": "TruthCore.Results.Causality.RotatingBearerSenseComparison.Solution",
+  "theorem": "TruthCore.Results.Causality.RotatingBearerSenseComparison.controls",
+  "comparator_config": "results/7158959d-0522-4246-9f5a-f26291350e1b/comparator.json",
+  "status": "solution-present",
+  "description": "The existing Bool swapOntic has populated worlds and no common bearer even on S5. De dicto holds for each candidate. The fixed-bearer unit model omits the no-common-bearer clause and fails the rival. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge.",
+  "research_comparisons": [
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "0efe7b16-bf54-51b8-9329-cf03b742ccfe",
+      "sense_definition_id": "153fcebf-66f6-53de-bad7-82a30a359c9c",
+      "outcome": "unresolved",
+      "conditions": "deDictoK: controls is a populated finite certificate, with no EM hypothesis. General rootClassification separately retains explicit ExcludedMiddle and RotatingExistence. NecessaryIn deDictoK is Box of worldwise actual existence; the operator does not import KB symmetry or quantifier policies. RootFacts is not supplied.",
+      "scope": "deDictoK: compare only the worldwise-existence component with the RotatingExistence conjunct of the rival Controls statement. Keep the same rigid Bool candidates, universal Bool accessibility, identity and existence interpretation. Full NecessaryRootDeDictoK additionally needs an independent RootFacts witness; it is NOT certified model-compatible by this witness.",
+      "witness": "TruthCore.Results.Causality.RotatingBearerSenseComparison.controls: rotatingProfile reuses Control.swapOntic; ExistsAt v b iff v=b, universal access, false actual world, every successor populated, no fixed bearer, S5 and NecessaryIn deDictoK for every candidate. This witnesses necessity-clause compatibility only, not a God or root witness.",
+      "gap": "Full-root compatibility is unresolved: controls has no signature or RootFacts witness. No distinct de-dicto necessary-root sense definition exists; the Box definition is used only for its explicitly scoped worldwise-existence clause, not equated with the root node.",
+      "next_step": "If selected, supply an independent RootFacts interpretation on this SAME rotating-existence profile and retain the same candidate identity/accessibility; otherwise leave the full-root cell unresolved. No new proof or claim is introduced here."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "id": "0ee364cc-e309-48db-b363-6cf7a712ae4a",
+  "label": "Rotating bearer root sense classification",
+  "paraphrase": "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population.",
+  "lean_declaration": "TruthCore.Causality.RotatingBearerSenseComparison.RootClassification"
+}
