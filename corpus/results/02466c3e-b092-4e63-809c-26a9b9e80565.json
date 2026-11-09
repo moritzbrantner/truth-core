@@ -1,0 +1,11 @@
+{
+  "id": "02466c3e-b092-4e63-809c-26a9b9e80565",
+  "label": "Formula-local possible-impossibility duality calculation",
+  "argument_id": "2c1e2180-dfb7-46aa-8d7d-bd134000df80",
+  "challenge_module": "TruthCore.Results.Modal.PossibleImpossibility.Challenge",
+  "solution_module": "TruthCore.Results.Modal.PossibleImpossibility.Solution",
+  "theorem": "TruthCore.Results.Modal.PossibleImpossibility.conditionalDuality",
+  "comparator_config": "results/02466c3e-b092-4e63-809c-26a9b9e80565/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst certificate. One formula and standpoint only; no global excluded middle or frame axiom. Source-to-Kripke, report-to-truth and source situation coverage remain open."
+}
