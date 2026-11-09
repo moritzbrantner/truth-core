@@ -107,6 +107,18 @@ the explorer and Comparator library jobs are skipped. A skip records unaffected
 inputs, not a new proof certification. Other Markdown paths are not automatically
 prose: an unclassified path takes the full safety path.
 
+Direct `specs/*.toml` batch specifications and `explorations/*.toml` maps are
+recognized declarative research metadata and retain the corpus/source checks.
+They do not themselves change compiled proofs: generated result JSON and Lean
+files still select each affected result and changed module's reverse dependents.
+Other extensions, nested paths and unknown inputs retain the full fallback.
+The unconditional corpus pipeline validates changed TOMLs through read-only
+`argument_batch.py records` / `map --allow-materialized-nodes`; an unavailable
+diff validates all current supported TOMLs. Materialized map mode resolves
+statement aliases by identity and accepts an originally new node that now
+exists, while retaining missing-text, unknown-reference and undeclared-edge
+errors. It does not check generated-output drift or certify proposed proofs.
+
 Leaf Lean edits retain incremental builds, binding, affected result verification
 and scoped NanoDa. Corpus/source JSON edits retain binding, source integrity and
 materialization. Both retain explorer unit tests, which read corpus data, index
@@ -116,6 +128,15 @@ configuration report from this workflow; report artifacts are never reused from
 another head. The stable `comparator` aggregate rejects failed/cancelled work,
 missing planner output, and unexpected skips of selected verifiers or the report
 producer. Cache keys and the once-per-pin NanoDa marker keep their existing meaning.
+
+The Rust corpus CLI job caches Cargo registry/git downloads and the workspace
+`target` directory. Its key includes runner OS/architecture, the exact `rustc -vV`
+and `cargo -vV` identity, workspace manifests/lockfile, Cargo/toolchain configuration
+and crate inputs. The dependency-key prefix restores an earlier main build across
+crate edits; Cargo fingerprints decide which units need rebuilding. Only main
+writes the cache. Formatting, Clippy, tests, build and `verify_truth_cli.py` run on
+every job, including exact cache hits. A cold dependency/compiler key still
+compiles normally; warm reuse saves compilation work, not CLI parity checks.
 
 ## Toolchain pin and rebuilding the verifier
 
