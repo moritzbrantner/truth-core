@@ -1978,3 +1978,49 @@ and conclusion, even with `σ.IsGod g` elsewhere in the theorem type. The
 classical instantiation passes. The existing checker therefore needs activation,
 not another predicate-checking mechanism. Broader #1233 coverage, including
 statement-level sense declarations and other root families, remains open.
+
+
+### Q11 uniqueness activation blocked by generic individuation (#1233)
+
+Inspected the full cohesive family CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS,
+its ADOPTED-POTENCY sibling, CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION and
+CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION. Their actual hFull, hNature and hCommon
+predicates are Signature.IsGod (existing GOD_4); hSuffice uses IsTheOneGod σ.IsGod.
+The first three conclude CatholicismTrue σ and the fourth UniqueClassicalGodExists σ.
+The adopted variant changes potency uniformly, not the God predicate.
+
+Trial registration of existing GOD_4 UUID 52c2ebac-0a71-4dd4-8a21-804c1dd0847a
+failed live bind-check for all four: 0 bound, 4 mismatch. Each reports
+statement-sense-not-instantiated at hIndividual, statement
+2344542e-8036-5cbe-9dfc-af5e7907cde5 (numerically different individuals cannot
+share the individuating basis). The frozen type is
+IndividuatingBasisIsIncommunicableReading suppositumOf: a general individuation
+premise without a God predicate. Its definition metadata brings GOD_4 into the
+statement's required sense set. A classical field elsewhere cannot discharge
+that local requirement. This is a metadata/statement-scope mismatch, not evidence
+that the actual naming predicate is nominal or trivial. No semantic bridge from
+general individuation to a God-specific predicate has been established here.
+
+All four Solution modules built successfully using independently copied warm
+outputs and pinned dependencies. Reproduce the failure by provisionally adding
+term_senses.GOD with the UUID above to the four argument JSON records, then
+running worker_env.py -- python3 scripts/corpus.py bind-check with --result for
+each legacy ID. Those failing registrations were removed. Activation needs a
+separately reviewed correction to the individuation statement's definition/sense
+scope or a faithful separately registered specialization; neither a checker
+exception nor a forced GOD_4 annotation is warranted within this bounded task.
+The existing QuartaGodBinding wrongNaming fixture remains the appropriate
+same-head/trivial-predicate control once positive binding is possible. No new
+positive binding or four-record negative-control success is claimed.
+
+Claim/type self-sweep: no argument metadata, proof, Challenge, meaning, UUID,
+root label, allowlist or source attribution changes are delivered. All three
+bundle audits pass unchanged; none of these arguments is pinned by them.
+Computed frontier-diff against origin/main reports no change (383 open premises,
+278 verified support alternatives). Unchanged proof certificates are reused.
+
+Remaining: all four Q11 consumers above; the quarta-via adopted classical root,
+both quarta-via without-truth-bridge roots and both prima-via via-full-description
+roots from #1283's inventory. Intermediate stage/witness and nominal maxime-ens
+families remain unverified. The #1283 full-description without-motion pair and
+all records/tests owned by #1263, #1267, #1275 and #1281 are untouched.
