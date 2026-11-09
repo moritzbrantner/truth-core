@@ -26,7 +26,8 @@
     {
       "id": "540c7894-ecbe-4cea-bbc9-ade8fca537ad",
       "label": "UNMOVED_3",
-      "definition_id": "0f4513f4-eb0a-5ec3-9bea-a35b4f06da6d"
+      "definition_id": "0f4513f4-eb0a-5ec3-9bea-a35b4f06da6d",
+      "lean_declaration": "TruthCore.Causality.UnmovedAtNoTime.MovedAtNoTime"
     }
   ]
 }
