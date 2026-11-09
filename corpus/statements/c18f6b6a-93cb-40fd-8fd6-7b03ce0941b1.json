@@ -1,0 +1,13 @@
+{
+  "id": "c18f6b6a-93cb-40fd-8fd6-7b03ce0941b1",
+  "label": "Witness-only access requirement",
+  "paraphrase": "Every actual capable causal nonresistant nonbeliever lacks conscious access. No requirement at resistant or incapable person-times. Analyst formulation, attribution deferred.",
+  "lean_declaration": "TruthCore.Hiddenness.WitnessLocalHiddenness.WitnessAccess",
+  "definition_ids": [
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf"
+  ]
+}

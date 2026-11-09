@@ -144,3 +144,59 @@ pre-existing maximum-sense exceptions whose distinct names elaborate to the
 same constant. Those two baseline exceptions are retained; no new exception
 was introduced. Seven argument-sense entries are removed by the actual
 hiddenness definition-inventory changes. The proof bindings had zero mismatches.
+
+## Witness-local sufficient bundle (2026-11-09)
+
+`WitnessLocalHiddenness` serves the existing `STMT-HIDDENNESS-NO-GOD` rival
+on `STMT-GOD-EXISTS`. It reuses ActualRoot and the existing empirical existential;
+there is no new attribution. `Gap s p t` is precisely capacity, absence of
+resistance causally explaining nonbelief, and lack of belief at the actual world.
+It does not assert innocence, sincere seeking, or a refusal after believing.
+
+Two actual norms strictly weaken: `WitnessOpen` applies love-to-immediate-access
+only at such gaps; `WitnessAccess` excludes access only there. Sole-premise
+projections register the strength order. Their strictness models have an actual
+gap, so strictness is not obtained merely by eliminating empirical nonbelief.
+The openness countermodel fails the old norm at a later believer; the access
+countermodel fails the old norm at a later incapable nonbeliever.
+
+The further `SelectedBundle` needs only **one aligned witness**: its Gap,
+`PerfectLove actual → Available actual p t`, and `¬ Available actual p t`.
+The same p/t occurs in both norms. Witness-scoped universal norms plus the old
+nonbelief existential supply this bundle constructively. Its existential is
+outside the supposed-God assumption, and there is no choice function, uniform
+selection over possible Gods, or strengthening of the empirical conditions.
+The bundle is a mixed empirical/normative premise, not a newly observed fact.
+Separate existential witnesses for the two norms cannot be combined without an
+alignment premise; that rejected approach would silently exchange witnesses.
+
+Actual God-to-love is retained. It has no p/t argument to restrict. Guarding it
+by NonresistantNonbelief produces an equivalent commitment in the presence of
+that retained premise (`guardEquivalent`), not a strict improvement of the
+sufficient bundle. The noGod proof applies God-to-love, the selected witness's
+openness, and its access exclusion. The route result retains exactly the old
+`RouteIdentification IsGod s`; neither bare necessary existence nor every
+possible deity is its target.
+
+Controls reuse the old four omission models: deleting love, openness, access,
+or the empirical witness leaves an inhabited-God interpretation. The joint
+nonvacuity witness has an actual gap and the selected bundle. The positive reply
+uses the existing delayedModel: God and love, qualified openness, the belief
+constraint, and ReasonForEachGap all hold, while witness-local unqualified
+openness fails. Its early gap has an explicitly interpreted positive GoodReason
+and lacks voluntary acceptance. This does not establish an actual sufficient
+reason or show that belief forces acceptance; no hidden-cost predicate beyond
+the existing GoodReason interpretation is invented.
+
+Claim/type self-sweep: the two projections each have only their actual norm as
+premise. Selection has two witness norms and the unchanged empirical existential.
+NoGod has actual God-to-love and the aligned bundle; noRouteGod adds the explicit
+identification. Controls are premise-free finite interpretations only. No root
+truth or independent warrant follows. The remaining discriminating question is
+whether immediate access is required at an actual gap or a positive sufficient
+reason warrants its delay; potential goods alone do not discharge that burden.
+
+Witness-local validation: six results pass Comparator and NanoDa with no permitted
+axioms; six premise bindings have zero mismatches. Corpus, bundle, attribution
+and generated-output checks pass. The computed positive-root frontier and
+thickness deltas are unchanged. Delivered-head CI and review remain required.
