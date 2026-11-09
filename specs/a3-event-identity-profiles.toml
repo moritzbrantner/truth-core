@@ -6,7 +6,8 @@ results = "TruthCore.Results.Causality.EventIdentityProfiles"
 id = "A3 local occurrence uniqueness transports possible conditioning"
 lean = "SameEventTransport"
 paraphrase = "For unrestricted bearer, time, state, world and condition carriers, matching structured state-pair contents allow transfer of possible conditioning to the selected occurrence IF every occurrence with those contents equals that occurrence. This is conditional analyst transport, with attribution deferred; uniqueness is an explicit hypothesis, not an established identity principle. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality."
-definitions = ["c82c1e14-50bd-555c-82ef-007c8bb10cc5", "c15d4a39-fd79-4c1f-88fa-376cad2eb179", "e7dc62a6-7b2f-4467-87b3-ec287bd67047"]
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+definitions = ["c15d4a39-fd79-4c1f-88fa-376cad2eb179", "e7dc62a6-7b2f-4467-87b3-ec287bd67047"]
 
 [[argument]]
 id = "A3 same-event transport under selected occurrence uniqueness"
@@ -15,3 +16,7 @@ premises = []
 conclusion = "A3 local occurrence uniqueness transports possible conditioning"
 rule = "constructive-proof"
 meaning = "Prove the universally quantified conditional transport law. The antecedent explicitly requires uniqueness for the selected state-pair and possible conditioning of a matching occurrence. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN."
+
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+senses = { A3_EVENT_IDENTITY_CAUSAL_PRIORITY = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56" }
+sense_bridges = [{ term = "A3_EVENT_IDENTITY_CAUSAL_PRIORITY", from = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56", to = "eaa836ba-e872-4c16-9511-4ce208529a62", statement_id = "A3 local occurrence uniqueness transports possible conditioning", role = "conclusion" }]

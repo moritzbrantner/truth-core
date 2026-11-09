@@ -1,6 +1,6 @@
 {
   "id": "e7dc62a6-7b2f-4467-87b3-ec287bd67047",
-  "label": "A3 analyst bearer-interval occurrence identity",
+  "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_5: A3 analyst bearer-interval occurrence identity",
   "term": "A3 analyst bearer-interval occurrence identity",
   "definition": "An occurrence consists of a bearer, an ordered interval and a changed ordered pair of essential state contents. Equality requires all data fields to agree. Distinct bearers or intervals can instantiate the same pair. This is an analyst option, not the original sense.",
   "basis": "stipulative",

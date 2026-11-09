@@ -1,6 +1,6 @@
 {
   "id": "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
-  "label": "A3 analyst state-pair identity",
+  "label": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY_4: A3 analyst state-pair identity",
   "term": "A3 analyst state-pair identity",
   "definition": "An event is an ordered pair of different essential state contents. Equality of those contents suffices for event equality; recurrence is not distinguished. State is unrestricted and can contain structured facts. This is an analyst option, not the original sense.",
   "basis": "stipulative",
