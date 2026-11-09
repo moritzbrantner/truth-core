@@ -7,5 +7,6 @@
   "basis": "sourced",
   "claim_ids": [
     "dc9545f1-432f-5be0-bea5-0caf5f1cad67"
-  ]
+  ],
+  "note": "Declaration audit: CompletenessOfPhysicsReading takes an unconstrained Physical predicate; this does not define specification. Owner-approved analyst naming and definability siblings are e479e526-0b99-4faf-abd8-7ea9946c17d3 and d218315c-ae8a-40dc-b695-ffca4cfedefe. Their syntax excludes individual names; naming forbids parameters, while definability declares its permitted parameters and interpretation class. These are explicit proposed interpretations, not new historical claims or proof of exhaustive original-sense coverage. Original binding remains unresolved pending adequacy/calibration and occurrence/property-to-bearer semantics. simpleImpersonal remains untested. PhysicalBearersComposite is independent; no allowance removal or root discharge."
 }

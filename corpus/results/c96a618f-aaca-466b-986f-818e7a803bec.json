@@ -1,0 +1,11 @@
+{
+  "id": "c96a618f-aaca-466b-986f-818e7a803bec",
+  "label": "Permitted parameter control",
+  "argument_id": "01d9b4b2-8c61-4524-9324-8f34de6cfc93",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecification.permittedParameter",
+  "comparator_config": "results/c96a618f-aaca-466b-986f-818e7a803bec/comparator.json",
+  "status": "solution-present",
+  "description": "PHYSICAL_OF_A_GROUND_4: in the ordinary marker signature on Bool with one permitted parameter, equality to that parameter defines its singleton across every interpretation, with nonempty admitted class."
+}

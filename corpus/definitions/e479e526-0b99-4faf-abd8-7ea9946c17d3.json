@@ -1,0 +1,9 @@
+{
+  "id": "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+  "label": "PHYSICAL_OF_A_GROUND_3: name-free definite-description specification",
+  "term": "physical, of a ground",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Naming",
+  "definition": "For a supplied Vocabulary, a structure for its ordinaryLanguage on an arbitrary full domain D and individual x, some Mathlib first-order formula with only one free object variable is satisfied at y iff y equals x, for every y in D. The sublanguage forbids individual constants and admits only ordinary functions/relations; naming permits no free parameters. This is a local definite-description interpretation of specification, not all possible natural-language naming.",
+  "note": "Owner-approved interpretation fork; analyst formulations with attribution deferred. Uses definition 7ec17771-8ac2-476b-b674-40ef61a2debc. A unique ordinary marker is an example; a two-object symmetry with no distinguishing ordinary resources prevents unique description. All domain elements are quantified, not just those with descriptions. No composition condition is imposed. OPEN: whether definite descriptions capture the intended naming reading, calibration of ordinary predicates so disguised proper names are not admitted, and how specifying occurrences/properties licenses classifying their bearers. Original PHYSICAL_OF_A_GROUND_2 remains unresolved; these siblings do not replace it or assert exhaustive coverage."
+}

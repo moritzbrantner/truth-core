@@ -1,0 +1,13 @@
+{
+  "id": "ebba2fcd-5861-49e7-9937-4012de40a7cd",
+  "label": "A name-free described object may be assigned no composition",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_3: the same marked Bool object is name-free describable and the separately chosen constantly false composite predicate does not hold of it. This tests syntactic independence only, not physical adequacy or the existing simpleImpersonal model.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.partFreeControl",
+  "definition_ids": [
+    "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

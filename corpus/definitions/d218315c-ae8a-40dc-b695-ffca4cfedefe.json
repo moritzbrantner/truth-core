@@ -1,0 +1,9 @@
+{
+  "id": "d218315c-ae8a-40dc-b695-ffca4cfedefe",
+  "label": "PHYSICAL_OF_A_GROUND_4: cross-interpretation formula definability",
+  "term": "physical, of a ground",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Definability",
+  "definition": "On an arbitrary fixed full carrier D, for a supplied Vocabulary, parameter permission predicate, nonempty admitted class of Interpretations and unary target family, one Mathlib first-order formula agrees with that target for every element of every admitted interpretation. Its free variables are the object variable plus only permitted parameter symbols, whose values are part of each interpretation. The ordinary sublanguage excludes individual constants and special symbols. Vocabulary, class, target and parameter permissions are explicit inputs, never existentially chosen to force success.",
+  "note": "Owner-approved interpretation fork; analyst formulations with attribution deferred. Uses definition 7ec17771-8ac2-476b-b674-40ef61a2debc. Example: equality to a permitted parameter uniformly defines its singleton as that parameter varies; the expression is inadmissible under a policy forbidding it. Changing a marker between interpretations need not preserve definition of a fixed singleton. This is not mere agreement in one actual interpretation or finite model. OPEN: intended carrier, language, admissible interpretations, cross-interpretation target identity and parameter values; varying-carrier semantics and calibration to physical reality are not supplied. No composition claim follows. Original PHYSICAL_OF_A_GROUND_2 remains unresolved; these siblings do not replace it or assert exhaustive coverage."
+}

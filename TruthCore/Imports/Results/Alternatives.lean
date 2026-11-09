@@ -52,6 +52,7 @@ public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage
 public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
 public import TruthCore.Results.Alternatives.PhysicalGround.Solution
+public import TruthCore.Results.Alternatives.PhysicalSpecification.Solution
 public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 public import TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution

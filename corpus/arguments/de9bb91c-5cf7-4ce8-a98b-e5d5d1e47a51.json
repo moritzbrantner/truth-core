@@ -1,0 +1,13 @@
+{
+  "id": "de9bb91c-5cf7-4ce8-a98b-e5d5d1e47a51",
+  "label": "Forbidden parameter expression control",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "dfd522ca-49c6-42b0-a4fb-f3f4c1fbc49f",
+  "inference_ids": [
+    "35397e65-64e9-4af8-aff5-0c914f6d6bab"
+  ],
+  "meaning": "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula.",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ]
+}
