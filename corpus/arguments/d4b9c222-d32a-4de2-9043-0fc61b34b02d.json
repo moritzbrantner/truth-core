@@ -1,0 +1,20 @@
+{
+  "id": "d4b9c222-d32a-4de2-9043-0fc61b34b02d",
+  "label": "Uniform singleton obstruction control",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "3c167a4e-5de7-4c31-ae34-17bc43bceff0",
+  "inference_ids": [
+    "24c7a2fc-6d91-4f68-b448-0fdfc475991f"
+  ],
+  "meaning": "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search.",
+  "term_senses": {
+    "PHYSICAL_OF_A_GROUND": "77d096e1-bed3-44c4-b5d4-1b73b3824577"
+  },
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "d218315c-ae8a-40dc-b695-ffca4cfedefe"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

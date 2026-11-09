@@ -1,0 +1,10 @@
+{
+  "id": "9b45f469-3dc6-4105-becd-4ac307c6c875",
+  "label": "Permitted parameter control (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "8dc690ae-b8ea-4277-a334-0324a5a99b15",
+  "rule": "Direct construction or Mathlib first-order interpretation transport",
+  "meaning": "PHYSICAL_OF_A_GROUND_4: in the ordinary marker signature on Bool with one permitted parameter, equality to that parameter defines its singleton across every interpretation, with nonempty admitted class.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

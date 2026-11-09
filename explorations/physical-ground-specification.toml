@@ -1,0 +1,83 @@
+target = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+
+[[node]]
+id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+
+[[node]]
+id = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+
+[[node]]
+id = "ebba2fcd-5861-49e7-9937-4012de40a7cd"
+
+[[node]]
+id = "446e5de8-6477-460d-8288-a4c294c36d83"
+
+[[node]]
+id = "dfd522ca-49c6-42b0-a4fb-f3f4c1fbc49f"
+
+[[node]]
+id = "3c167a4e-5de7-4c31-ae34-17bc43bceff0"
+
+[[node]]
+id = "08d75e0b-e66f-45b0-a96b-6bf59487c2cf"
+
+[[node]]
+id = "8dc690ae-b8ea-4277-a334-0324a5a99b15"
+
+[[node]]
+id = "980a800d-57a6-4e5e-9c0f-363bce4c1842"
+
+[[edge]]
+premises = []
+conclusion = "08d75e0b-e66f-45b0-a96b-6bf59487c2cf"
+kind = "derivation"
+status = "certified"
+argument = "ef1248c4-28bb-4240-8526-1f2bfcf60373"
+note = "Explicit syntax control only; no physical calibration."
+
+[[edge]]
+premises = []
+conclusion = "8dc690ae-b8ea-4277-a334-0324a5a99b15"
+kind = "derivation"
+status = "certified"
+argument = "01d9b4b2-8c61-4524-9324-8f34de6cfc93"
+note = "Explicit syntax control only; no physical calibration."
+
+[[edge]]
+premises = []
+conclusion = "dfd522ca-49c6-42b0-a4fb-f3f4c1fbc49f"
+kind = "derivation"
+status = "certified"
+argument = "de9bb91c-5cf7-4ce8-a98b-e5d5d1e47a51"
+note = "Explicit syntax control only; no physical calibration."
+
+[[edge]]
+premises = []
+conclusion = "ebba2fcd-5861-49e7-9937-4012de40a7cd"
+kind = "derivation"
+status = "certified"
+argument = "3c73dcc1-6aac-44d3-b918-0526c0367661"
+note = "Explicit syntax control only; no physical calibration."
+
+[[edge]]
+premises = []
+conclusion = "3c167a4e-5de7-4c31-ae34-17bc43bceff0"
+kind = "derivation"
+status = "certified"
+argument = "d4b9c222-d32a-4de2-9043-0fc61b34b02d"
+note = "Explicit syntax control only; no physical calibration."
+
+[[edge]]
+premises = ["446e5de8-6477-460d-8288-a4c294c36d83"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Investigation plan, NOT entailment: calibrate an original ground interpretation under this criterion and compare composition/intellect. Missing vocabulary and bearer bridge prevent any verdict on simpleImpersonal or refutation of the route premise."
+
+[[edge]]
+premises = ["980a800d-57a6-4e5e-9c0f-363bce4c1842"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Investigation plan, NOT entailment: calibrate an original ground interpretation under this criterion and compare composition/intellect. Missing vocabulary and bearer bridge prevent any verdict on simpleImpersonal or refutation of the route premise."
+

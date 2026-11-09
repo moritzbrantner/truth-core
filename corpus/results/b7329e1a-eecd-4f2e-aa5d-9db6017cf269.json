@@ -1,0 +1,11 @@
+{
+  "id": "b7329e1a-eecd-4f2e-aa5d-9db6017cf269",
+  "label": "Forbidden parameter expression control",
+  "argument_id": "de9bb91c-5cf7-4ce8-a98b-e5d5d1e47a51",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecification.forbiddenParameter",
+  "comparator_config": "results/b7329e1a-eecd-4f2e-aa5d-9db6017cf269/comparator.json",
+  "status": "solution-present",
+  "description": "PHYSICAL_OF_A_GROUND_4: the subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
+}

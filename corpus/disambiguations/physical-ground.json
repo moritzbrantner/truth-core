@@ -5,9 +5,11 @@
   "term": "physical, of a ground",
   "sense_definition_ids": [
     "acac5147-62dc-5a5a-8cd1-6b8aab30a7ee",
-    "0703be73-765c-5f7b-b620-c780b7e7c0ac"
+    "0703be73-765c-5f7b-b620-c780b7e7c0ac",
+    "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+    "d218315c-ae8a-40dc-b695-ffca4cfedefe"
   ],
-  "resolution": "Two senses. In the composite-bearer sense a physical occurrence has a composite bearer, so a noncomposite ground is not physical by that premise. In Papineau's sense physical is specifiable without the special vocabulary at issue and carries no composition claim. compositeRoot is physical in the first sense as far as its row goes; simpleImpersonal is not, and may be physical in the second sense, since its table says nothing against it. Verdicts about a bearer use the first sense only, and PhysicalBearersComposite is the sole passage from a frame's physical kind to composition. A part-free ground is therefore not excluded from being a physical rival in the second sense.",
+  "resolution": "Composite-bearer PHYSICAL_OF_A_GROUND_1 remains distinct from vocabulary-independent PHYSICAL_OF_A_GROUND_2, whose precise original specification semantics is unresolved. Owner-approved analyst siblings PHYSICAL_OF_A_GROUND_3 and PHYSICAL_OF_A_GROUND_4 preserve respectively name-free local definite description and cross-interpretation formula definability. They have explicit different quantifiers and parameter policies; neither is silently selected as original and no coverage or equivalence is claimed. PhysicalBearersComposite remains the explicit composition bridge. Part-freeness therefore does not itself exclude a specification-based physical rival. simpleImpersonal has no calibrated language/interpretation and remains untested under the specification readings; absence of counterexample is not compatibility.",
   "term_label": "PHYSICAL_OF_A_GROUND",
   "senses": [
     {
@@ -20,6 +22,18 @@
       "id": "5f123c56-8878-49d4-9e76-41e9a41cb4a2",
       "label": "PHYSICAL_OF_A_GROUND_2",
       "definition_id": "0703be73-765c-5f7b-b620-c780b7e7c0ac"
+    },
+    {
+      "id": "30f63dde-1027-4143-aefb-ee503ff615a2",
+      "label": "PHYSICAL_OF_A_GROUND_3",
+      "definition_id": "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+      "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Naming"
+    },
+    {
+      "id": "77d096e1-bed3-44c4-b5d4-1b73b3824577",
+      "label": "PHYSICAL_OF_A_GROUND_4",
+      "definition_id": "d218315c-ae8a-40dc-b695-ffca4cfedefe",
+      "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Definability"
     }
   ]
 }

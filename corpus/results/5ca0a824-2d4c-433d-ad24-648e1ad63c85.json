@@ -1,0 +1,11 @@
+{
+  "id": "5ca0a824-2d4c-433d-ad24-648e1ad63c85",
+  "label": "Uniform singleton obstruction control",
+  "argument_id": "d4b9c222-d32a-4de2-9043-0fc61b34b02d",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecification.notUniform",
+  "comparator_config": "results/5ca0a824-2d4c-433d-ad24-648e1ad63c85/comparator.json",
+  "status": "solution-present",
+  "description": "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search."
+}

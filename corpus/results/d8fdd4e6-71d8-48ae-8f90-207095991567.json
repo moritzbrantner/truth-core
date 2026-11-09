@@ -1,0 +1,11 @@
+{
+  "id": "d8fdd4e6-71d8-48ae-8f90-207095991567",
+  "label": "Part-free description control",
+  "argument_id": "3c73dcc1-6aac-44d3-b918-0526c0367661",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecification.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecification.partFree",
+  "comparator_config": "results/d8fdd4e6-71d8-48ae-8f90-207095991567/comparator.json",
+  "status": "solution-present",
+  "description": "PHYSICAL_OF_A_GROUND_3: the same marked Bool object is name-free describable and the separately chosen constantly false composite predicate does not hold of it. This tests syntactic independence only, not physical adequacy or the existing simpleImpersonal model."
+}

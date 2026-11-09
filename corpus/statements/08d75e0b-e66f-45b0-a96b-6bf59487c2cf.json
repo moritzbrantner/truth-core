@@ -1,0 +1,13 @@
+{
+  "id": "08d75e0b-e66f-45b0-a96b-6bf59487c2cf",
+  "label": "The marked Bool object has a name-free description",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_3: in the explicit one-unary-marker Bool interpretation marking true, the formula marking its object variable describes exactly true, with no parameters.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.namingControl",
+  "definition_ids": [
+    "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

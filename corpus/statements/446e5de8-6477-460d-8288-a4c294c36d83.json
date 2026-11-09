@@ -1,0 +1,13 @@
+{
+  "id": "446e5de8-6477-460d-8288-a4c294c36d83",
+  "label": "Local name-free specification condition",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_3: OPEN analyst condition on a supplied language, interpretation and individual: a parameter-free ordinary first-order formula identifies exactly that individual for every assignment. No real ground is asserted to satisfy it.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Naming",
+  "definition_ids": [
+    "e479e526-0b99-4faf-abd8-7ea9946c17d3",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

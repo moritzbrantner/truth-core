@@ -1,0 +1,13 @@
+{
+  "id": "dfd522ca-49c6-42b0-a4fb-f3f4c1fbc49f",
+  "label": "Forbidden parameters have no syntax variable",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_4: the subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.forbiddenControl",
+  "definition_ids": [
+    "d218315c-ae8a-40dc-b695-ffca4cfedefe",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}
