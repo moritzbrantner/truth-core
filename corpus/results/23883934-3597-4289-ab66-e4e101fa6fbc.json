@@ -1,0 +1,11 @@
+{
+  "id": "23883934-3597-4289-ab66-e4e101fa6fbc",
+  "label": "Spatial identity comparison with explicit framework assumptions",
+  "argument_id": "b037e8b2-8379-483e-b97f-c10ad1850ff7",
+  "challenge_module": "TruthCore.Results.Space.IdentityCriteria.Challenge",
+  "solution_module": "TruthCore.Results.Space.IdentityCriteria.Solution",
+  "theorem": "TruthCore.Results.Space.IdentityCriteria.identity_criteria",
+  "comparator_config": "results/23883934-3597-4289-ab66-e4e101fa6fbc/comparator.json",
+  "status": "solution-present",
+  "description": "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a fixed-label marker model satisfies all comparison assumptions and all three criteria reflexively. A typed three-constructor selection gives their joint equivalence by cases within this explicitly bounded comparison scope. Analyst framework only: original source meanings, spatial completeness and world applicability remain open."
+}

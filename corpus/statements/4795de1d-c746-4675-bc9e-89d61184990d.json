@@ -1,0 +1,14 @@
+{
+  "id": "4795de1d-c746-4675-bc9e-89d61184990d",
+  "label": "Spatial identity criteria and assumption omission controls",
+  "paraphrase": "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a fixed-label marker model satisfies all comparison assumptions and all three criteria reflexively. A typed three-constructor selection gives their joint equivalence by cases within this explicitly bounded comparison scope. Analyst framework only: original source meanings, spatial completeness and world applicability remain open.",
+  "lean_declaration": "TruthCore.Space.IdentityCriteria.Certificate",
+  "definition_ids": [
+    "32070779-6730-447d-9777-c9791b85b1b8",
+    "5546831d-545c-4bfb-b6a5-648052b6a9cf",
+    "dff0bce7-4840-4341-8162-a242810f7044"
+  ],
+  "disambiguation_ids": [
+    "38b56008-c4ca-5fd9-9a61-046338e87cf7"
+  ]
+}

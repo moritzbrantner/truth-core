@@ -1,0 +1,16 @@
+target = "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE"
+
+[[node]]
+id = "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE"
+
+[[node]]
+id = "Spatial identity criteria and assumption omission controls"
+new = true
+text = "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a reflexive marker witness satisfies all three. Analyst framework only: original source meanings, spatial completeness and world applicability remain open."
+
+[[edge]]
+premises = ["Spatial identity criteria and assumption omission controls"]
+conclusion = "STMT-UNIFORM-SPACE-CONTRASTIVE-REASON-CHALLENGE"
+kind = "derivation"
+status = "mapped"
+note = "OPEN bridge plan: specify complete spatial data, allowed transformations and adequate contrastive reason. The certificate does not derive the historical argument. The existing spatial-symmetry-reason-adequacy candidate owns this gap; applying it to root-route actual causal coverage additionally requires a reason-to-cause bridge. No root premise is discharged."

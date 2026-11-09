@@ -6,9 +6,12 @@
   "sense_definition_ids": [
     "abb77c4f-4175-581a-a24c-12d776819b91",
     "103154b6-9ee2-5851-9c07-1e6d9e7d0ed1",
-    "97c719e9-e4ea-5ce9-acef-60de08cea6b2"
+    "97c719e9-e4ea-5ce9-acef-60de08cea6b2",
+    "32070779-6730-447d-9777-c9791b85b1b8",
+    "5546831d-545c-4bfb-b6a5-648052b6a9cf",
+    "dff0bce7-4840-4341-8162-a242810f7044"
   ],
-  "resolution": "The analyst profile proves that signed-displacement agreement is exactly a common real-line translation for a labeled inhabited configuration; it does not identify distinct coordinate functions. Leibniz’s relational individuation and Clarke’s distinction of alike absolute places are different philosophical criteria. Neither equality of unsigned distances nor translation symmetry alone establishes complete physical or metaphysical identity. Acceleration and rotation require additional structures.",
+  "resolution": "The analyst profile proves that signed-displacement agreement is exactly a common real-line translation for a labeled inhabited configuration; it does not identify distinct coordinate functions. Leibniz’s relational individuation and Clarke’s distinction of alike absolute places are different philosophical criteria. Neither equality of unsigned distances nor translation symmetry alone establishes complete physical or metaphysical identity. Acceleration and rotation require additional structures. Analyst siblings _4 (relational isomorphism), _5 (active orbit-class equality) and _6 (represented equality) are compared conditionally in IdentityCriteria.Certificate. Data preservation gives _5 → _4; orbit completeness gives _4 → _5; orbit triviality gives _5 → _6; _6 implies both without those extra assumptions. Explicit omission controls separate these commitments. Passive chart reencoding preserves each transported criterion. These three analyst options are the selected comparison scope, not an exhaustive account of spatial identity. Original senses _2/_3 and their allowances remain unresolved; siblings provide no faithful full-scope mapping.",
   "term_label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION",
   "senses": [
     {
@@ -26,6 +29,24 @@
       "id": "e24d08c8-99a7-4e7a-92c9-e55d742356ce",
       "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_3",
       "definition_id": "97c719e9-e4ea-5ce9-acef-60de08cea6b2"
+    },
+    {
+      "id": "d6778e14-333c-4272-999d-812e13f89deb",
+      "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_4",
+      "definition_id": "32070779-6730-447d-9777-c9791b85b1b8",
+      "lean_declaration": "TruthCore.Space.IdentityCriteria.RelationalIdentity"
+    },
+    {
+      "id": "b1574a05-614a-4694-aa67-ff08bab0b43e",
+      "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_5",
+      "definition_id": "5546831d-545c-4bfb-b6a5-648052b6a9cf",
+      "lean_declaration": "TruthCore.Space.IdentityCriteria.QuotientIdentity"
+    },
+    {
+      "id": "ba490d54-f746-4aae-8042-894f427d6952",
+      "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_6",
+      "definition_id": "dff0bce7-4840-4341-8162-a242810f7044",
+      "lean_declaration": "TruthCore.Space.IdentityCriteria.RepresentedIdentity"
     }
   ]
 }

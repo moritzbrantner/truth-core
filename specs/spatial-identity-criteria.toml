@@ -1,0 +1,22 @@
+[batch]
+vocab = "TruthCore.Space.IdentityCriteria"
+results = "TruthCore.Results.Space.IdentityCriteria"
+definitions = ["32070779-6730-447d-9777-c9791b85b1b8", "5546831d-545c-4bfb-b6a5-648052b6a9cf", "dff0bce7-4840-4341-8162-a242810f7044"]
+disambiguations = ["DISAMB-SPATIAL-DATA-IDENTITY"]
+
+[[statement]]
+id = "Spatial identity criteria and assumption omission controls"
+lean = "Certificate"
+paraphrase = "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a fixed-label marker model satisfies all comparison assumptions and all three criteria reflexively. A typed three-constructor selection gives their joint equivalence by cases within this explicitly bounded comparison scope. Analyst framework only: original source meanings, spatial completeness and world applicability remain open."
+definitions = ["32070779-6730-447d-9777-c9791b85b1b8", "5546831d-545c-4bfb-b6a5-648052b6a9cf", "dff0bce7-4840-4341-8162-a242810f7044"]
+disambiguations = ["DISAMB-SPATIAL-DATA-IDENTITY"]
+
+[[argument]]
+id = "Spatial identity comparison with explicit framework assumptions"
+theorem = "identity_criteria"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Spatial identity criteria and assumption omission controls"
+rule = "Quotient exactness, relational isomorphism witnesses, equality substitution and explicit omission models"
+meaning = "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a fixed-label marker model satisfies all comparison assumptions and all three criteria reflexively. A typed three-constructor selection gives their joint equivalence by cases within this explicitly bounded comparison scope. Analyst framework only: original source meanings, spatial completeness and world applicability remain open."
+sense_bridges = [{term = "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION", from = "d6778e14-333c-4272-999d-812e13f89deb", to = "b1574a05-614a-4694-aa67-ff08bab0b43e", statement_id = "Spatial identity criteria and assumption omission controls", role = "conclusion"}, {term = "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION", from = "b1574a05-614a-4694-aa67-ff08bab0b43e", to = "ba490d54-f746-4aae-8042-894f427d6952", statement_id = "Spatial identity criteria and assumption omission controls", role = "conclusion"}]
