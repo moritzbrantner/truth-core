@@ -1980,47 +1980,62 @@ not another predicate-checking mechanism. Broader #1233 coverage, including
 statement-level sense declarations and other root families, remains open.
 
 
-### Q11 uniqueness activation blocked by generic individuation (#1233)
 
-Inspected the full cohesive family CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS,
-its ADOPTED-POTENCY sibling, CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION and
-CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION. Their actual hFull, hNature and hCommon
-predicates are Signature.IsGod (existing GOD_4); hSuffice uses IsTheOneGod σ.IsGod.
-The first three conclude CatholicismTrue σ and the fourth UniqueClassicalGodExists σ.
-The adopted variant changes potency uniformly, not the God predicate.
+### Q11 uniqueness GOD_4 activation (#1233, #1285)
 
-Trial registration of existing GOD_4 UUID 52c2ebac-0a71-4dd4-8a21-804c1dd0847a
-failed live bind-check for all four: 0 bound, 4 mismatch. Each reports
-statement-sense-not-instantiated at hIndividual, statement
-2344542e-8036-5cbe-9dfc-af5e7907cde5 (numerically different individuals cannot
-share the individuating basis). The frozen type is
-IndividuatingBasisIsIncommunicableReading suppositumOf: a general individuation
-premise without a God predicate. Its definition metadata brings GOD_4 into the
-statement's required sense set. A classical field elsewhere cannot discharge
-that local requirement. This is a metadata/statement-scope mismatch, not evidence
-that the actual naming predicate is nominal or trivial. No semantic bridge from
-general individuation to a God-specific predicate has been established here.
+Activated existing GOD_4 (52c2ebac-0a71-4dd4-8a21-804c1dd0847a,
+TruthCore.Case.Catholicism.Signature.IsGod) for the full cohesive family:
 
-All four Solution modules built successfully using independently copied warm
-outputs and pinned dependencies. Reproduce the failure by provisionally adding
-term_senses.GOD with the UUID above to the four argument JSON records, then
-running worker_env.py -- python3 scripts/corpus.py bind-check with --result for
-each legacy ID. Those failing registrations were removed. Activation needs a
-separately reviewed correction to the individuation statement's definition/sense
-scope or a faithful separately registered specialization; neither a checker
-exception nor a forced GOD_4 annotation is warranted within this bounded task.
-The existing QuartaGodBinding wrongNaming fixture remains the appropriate
-same-head/trivial-predicate control once positive binding is possible. No new
-positive binding or four-record negative-control success is claimed.
+- CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS
+- CATHOLICISM-FROM-PRIMA-VIA-WITH-Q11-UNIQUENESS-ADOPTED-POTENCY
+- CATHOLICISM-FROM-Q11-WITNESS-WITHOUT-MOTION
+- CATHOLICISM-Q11-WITNESS-WITHOUT-MOTION
 
-Claim/type self-sweep: no argument metadata, proof, Challenge, meaning, UUID,
-root label, allowlist or source attribution changes are delivered. All three
-bundle audits pass unchanged; none of these arguments is pinned by them.
-Computed frontier-diff against origin/main reports no change (383 open premises,
-278 verified support alternatives). Unchanged proof certificates are reused.
+Claim/type self-sweep: hFull, hNature and hCommon use σ.IsGod, and hSuffice uses
+IsTheOneGod σ.IsGod in all four frozen types. The first three conclude
+CatholicismTrue σ, the fourth UniqueClassicalGodExists σ. Adopted potency does
+not change the God predicate. All remain conditional consequences, with no
+premise truth, naming converse or real-world applicability established here.
 
-Remaining: all four Q11 consumers above; the quarta-via adopted classical root,
+Initial live activation exposed an erroneous scope link at hIndividual,
+statement 2344542e-8036-5cbe-9dfc-af5e7907cde5. Its full paraphrase and frozen
+IndividuatingBasisIsIncommunicableReading suppositumOf both assert general
+injectivity: ∀ x y, suppositumOf x = suppositumOf y → x = y. Neither mentions
+IsGod, essenceOf, deity or IsTheOneGod. The linked source claim likewise isolates
+general injectivity, contrasting a human with this human. No proposition or
+reading sibling is needed. Reviewing all eleven premise consumers also finds
+constitutive-nature, unlimited-nature and first-mover uses of this same general
+constraint, not merely the God-specific application.
+
+Corrected only that statement's term scope: retained DEF-Q11-INDIVIDUATING-BASIS
+and DISAMB-SUPPOSITUM/NATURE (2eef7e66-376a-57e0-81de-9757a1ae1e14), preserving
+the actual individuation sense and its contrast with nature. Removed downstream
+God-suppositum/nature identity, common divine nature, essence and one-God
+vocabulary plus the God and God/person disambiguations. Those belong to the
+separate God-specific premises and consuming arguments, where their definitions
+and real God bindings remain unchanged. The claim's broader source-context
+navigation is unchanged. No weakening of a checker or formal premise occurs.
+The classical-attributes-all pinned audit was substantively reviewed and its
+statement disposition/hash updated with this scope rationale; other audit pins
+remain unchanged. No shared definition, UUID, meaning, proof, Challenge,
+allowlist, root label or attribution changes.
+
+Evidence: all four focused Solution builds passed; those unchanged outputs and
+proof certificates are reused. After scope correction live bind-check reports
+4 bound / 0 mismatch. For each argument the existing real Lean
+QuartaGodBinding.wrongNaming control rejects hFull as
+statement-sense-not-instantiated: the same naming head takes fun _ => True,
+despite σ.IsGod elsewhere in hClassical and the conclusion. Reproduce by running
+test_quarta_god_binding.py with only its argument JSON filename substituted for
+each legacy ID above (and ROOT set to this checkout when running a temporary
+copy). No excluded fixture or test is changed. The 25 sense tests, 25 binding
+tests and 8 bundle audit tests pass, as do corpus/bundle audits, sense/label
+ratchets, attribution and docs/import generation checks. Exact frontier-diff
+against origin/main reports no change; no premise is added, removed or closed.
+Final delivered-head CI remains required.
+
+Remaining from #1283's inventory: the quarta-via adopted classical root,
 both quarta-via without-truth-bridge roots and both prima-via via-full-description
-roots from #1283's inventory. Intermediate stage/witness and nominal maxime-ens
-families remain unverified. The #1283 full-description without-motion pair and
-all records/tests owned by #1263, #1267, #1275 and #1281 are untouched.
+roots. Intermediate stage/witness and nominal maxime-ens families remain outside
+this slice. The #1283 full-description without-motion pair and records/tests
+owned by #1263, #1267, #1275 and #1281 remain untouched. Broader #1233 stays open.

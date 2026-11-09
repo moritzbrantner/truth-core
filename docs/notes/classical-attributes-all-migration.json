@@ -703,12 +703,12 @@
       "path": "corpus/statements/q11-individuating-basis.json",
       "status": "unresolved",
       "classification": "open_premise",
-      "finding": "Retained explicit open commitment: Numerically different individuals cannot share the individuating basis represented by suppositumOf: equality of that basis entails identity of individuals. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification.",
+      "finding": "Retained explicit open commitment: Numerically different individuals cannot share the individuating basis represented by suppositumOf: equality of that basis entails identity of individuals. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. Scope review (#1285): the paraphrase and frozen Reading both assert general injectivity of suppositumOf, not God-specific identity, common nature, essence or uniqueness. Retain the individuating-basis definition and suppositum/nature distinction; remove downstream God/essence/one-God definitions and God disambiguations from this statement only. God-specific premises and their bindings remain on the consuming arguments. Constitutive and first-mover consumers also use this generic injectivity. No proposition, premise or source-reading change.",
       "before": {
         "sha256": "908a97eb5abd4f55e49dd77f7134c68dabe3f695e255318a7de68f692d1db11d",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.IndividuatingBasisIsIncommunicableReading"
       },
-      "reviewed_sha256": "3ad41a564b3d04f280f591f9af8a9555dc70a6ada63fd61d1e0e17784b5777ce"
+      "reviewed_sha256": "d2175c9ac87f17d2305ba524b64d86a1228a4cb73c7b956b0480fb6fd66e9758"
     },
     {
       "kind": "statements",
