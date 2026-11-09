@@ -1,0 +1,33 @@
+[batch]
+vocab = "TruthCore.Causality.DurationMeasureCandidates"
+results = "TruthCore.Results.Causality.DurationMeasureCandidates"
+
+[[statement]]
+id = "Duration comparison and extensive measure separation controls"
+definitions = ["94a5ba93-db32-4c7f-b9a5-7f18d24eaf2e", "53eae954-56b8-47ba-8b90-8394ff7e9385"]
+lean = "TimeControls"
+paraphrase = "Stipulated commensurable motion segments: length satisfies normalized additive cross-motion measurement; squared length preserves and reflects interval comparison but fails additivity; a constant readout fails comparison reflection. Analyst candidates, not completion of the original time measure."
+
+[[statement]]
+id = "Aevum candidates allow potential adjunct variation and reject admissible corruption"
+definitions = ["b1fbd9e1-8b7a-475d-b416-d5edb300a037", "f0e50ec6-7065-4189-b5f9-8fba8c78067e"]
+lean = "AevumControls"
+paraphrase = "One actual and two admissible configurations satisfy both a partial-order comparison candidate and a unit-count quantitative candidate, permit merely potential adjunct variation, and reject an admissibly corrupted substantial identity despite actual constancy. Toy operational interpretations, not full original aevum."
+
+[[argument]]
+id = "Duration measure candidate separation verified"
+theorem = "timeControls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Duration comparison and extensive measure separation controls"
+rule = "Explicit interval witnesses and natural-number arithmetic"
+meaning = "Conditional candidate nonvacuity and separation; global physical calibration, original semantic mapping and root recognition remain open."
+
+[[argument]]
+id = "Aevum candidate admissibility controls verified"
+theorem = "aevumControls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Aevum candidates allow potential adjunct variation and reject admissible corruption"
+rule = "Explicit admissible and actual configuration witnesses"
+meaning = "The supplied accessibility includes unrealized adjunct alternatives. Actual constancy alone cannot exclude substantial corruption. Holding inventories and partial-order comparison remain explicit candidate interpretations, not original aevum or Boethian eternity."

@@ -95,6 +95,7 @@ public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
+public import TruthCore.Results.Causality.DurationMeasureCandidates.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution

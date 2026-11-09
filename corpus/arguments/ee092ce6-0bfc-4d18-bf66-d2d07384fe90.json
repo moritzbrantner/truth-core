@@ -1,0 +1,14 @@
+{
+  "id": "ee092ce6-0bfc-4d18-bf66-d2d07384fe90",
+  "label": "Duration measure candidate separation verified",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "b224bd78-9aff-4be7-b424-f8d7c6985ce2",
+  "inference_ids": [
+    "37d282ff-3549-4a57-830a-2183ece1e5e7"
+  ],
+  "meaning": "Conditional candidate nonvacuity and separation; global physical calibration, original semantic mapping and root recognition remain open.",
+  "definition_ids": [
+    "53eae954-56b8-47ba-8b90-8394ff7e9385",
+    "94a5ba93-db32-4c7f-b9a5-7f18d24eaf2e"
+  ]
+}

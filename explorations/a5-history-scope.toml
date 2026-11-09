@@ -1,0 +1,12 @@
+target = "STMT-NB-A5-RIGID-EVER-HISTORY"
+[[node]]
+id = "STMT-NB-A5-RIGID-EVER-HISTORY"
+[[node]]
+id = "A5 history interpretation scope controls"
+new = true
+text = "Rigid versus evaluated classification, exact roster exclusion, and population/member first occurrence versus predecessor transitions."
+[[edge]]
+premises = ["A5 history interpretation scope controls"]
+conclusion = "STMT-NB-A5-RIGID-EVER-HISTORY"
+kind = "bridge"
+status = "mapped"

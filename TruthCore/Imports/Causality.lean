@@ -49,6 +49,7 @@ public import TruthCore.Causality.DirectEsseRootGoodnessOmission
 public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Causality.DurationMeasureCandidates
 public import TruthCore.Causality.EndlessTemporalDuration
 public import TruthCore.Causality.EntireChainHead
 public import TruthCore.Causality.EsseReception
@@ -79,6 +80,7 @@ public import TruthCore.Causality.JointGroups
 public import TruthCore.Causality.LifeBoundaryPotency
 public import TruthCore.Causality.LocalFramePossibleExternalCause
 public import TruthCore.Causality.LocalTransmission
+public import TruthCore.Causality.LogicalNecessityContrast
 public import TruthCore.Causality.MathlibBridges
 public import TruthCore.Causality.MaximalGroundingAsymmetry
 public import TruthCore.Causality.MaximumDefinitionFork

@@ -19,7 +19,8 @@
     {
       "id": "030fd6db-ddfd-4995-8801-68c3d1c34705",
       "label": "RECOGNIZABLE_REVELATION_2",
-      "definition_id": "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e"
+      "definition_id": "c6310dd8-4b5b-5f2e-ac10-461424bf1b3e",
+      "lean_declaration": "TruthCore.Alternatives.RevelationRecognition.ActualPracticeRecognition"
     }
   ]
 }

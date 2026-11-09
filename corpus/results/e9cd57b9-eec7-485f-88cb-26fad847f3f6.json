@@ -1,0 +1,11 @@
+{
+  "id": "e9cd57b9-eec7-485f-88cb-26fad847f3f6",
+  "label": "Duration measure candidate separation verified",
+  "argument_id": "ee092ce6-0bfc-4d18-bf66-d2d07384fe90",
+  "challenge_module": "TruthCore.Results.Causality.DurationMeasureCandidates.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DurationMeasureCandidates.Solution",
+  "theorem": "TruthCore.Results.Causality.DurationMeasureCandidates.timeControls",
+  "comparator_config": "results/e9cd57b9-eec7-485f-88cb-26fad847f3f6/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional candidate nonvacuity and separation; global physical calibration, original semantic mapping and root recognition remain open."
+}

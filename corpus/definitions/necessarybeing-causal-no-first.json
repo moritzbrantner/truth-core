@@ -1,0 +1,9 @@
+{
+  "id": "54abf2c9-059f-41ba-8e70-cc8f1694f957",
+  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_4 candidate",
+  "term": "Causal incoming no-first",
+  "definition": "There is no selected member without incoming full or partial causes from selected members. Self-loops count; no irreflexivity, linearity, cardinality or positive predecessor choice is asserted.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.EntireChainHead.CausalNoFirst",
+  "note": "Approved analyst sibling interpretation for shared A2/A10 entire-chain vocabulary, attribution deferred. Same arbitrary carrier and member predicate throughout; no separate whole or world shift. Causal production primitives retain the meaning and open applicability of DEF-NB-A2-ENTIRE-CHAIN-AND-HEAD. Ordered precedence is an explicit framework input, distinguished from causation and temporal priority; its applicability is OPEN. Aligned is an additional selected-endpoint biconditional, never definitional identification. head_uncaused is reused under both-relation closure and productivity; ordered_minimum_uncaused additionally requires incoming-cause-to-order at the candidate. No original composite meaning, coverage, exclusivity, whole-cause, actual-concrete or root closure is established."
+}

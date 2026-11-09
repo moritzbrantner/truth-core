@@ -1,0 +1,10 @@
+{
+  "id": "132970f6-1464-424f-961b-a8e34f4afd00",
+  "label": "Aevum candidates allow potential adjunct variation and reject admissible corruption",
+  "paraphrase": "One actual and two admissible configurations satisfy both a partial-order comparison candidate and a unit-count quantitative candidate, permit merely potential adjunct variation, and reject an admissibly corrupted substantial identity despite actual constancy. Toy operational interpretations, not full original aevum.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.AevumControls",
+  "definition_ids": [
+    "b1fbd9e1-8b7a-475d-b416-d5edb300a037",
+    "f0e50ec6-7065-4189-b5f9-8fba8c78067e"
+  ]
+}

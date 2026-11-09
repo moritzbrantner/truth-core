@@ -1,0 +1,9 @@
+{
+  "id": "53eae954-56b8-47ba-8b90-8394ff7e9385",
+  "label": "extensive unit calibrated duration",
+  "term": "extensive unit calibrated duration",
+  "definition": "Comparative plus zero, unit, adjacent concatenation addition and cross-motion matching with coverage.",
+  "basis": "stipulative",
+  "note": "Analyst candidate only; attribution deferred. Exact operational interpretation and original-mapping blockers: corpus/definitions/duration-measure-candidates.md.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.Extensive"
+}
