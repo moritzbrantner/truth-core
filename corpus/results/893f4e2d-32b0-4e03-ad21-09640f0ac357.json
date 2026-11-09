@@ -1,0 +1,11 @@
+{
+  "id": "893f4e2d-32b0-4e03-ad21-09640f0ac357",
+  "label": "Registered local equality model controls certificate",
+  "argument_id": "6739c860-a7f1-452a-9e90-e47725fa5489",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.modelControls",
+  "comparator_config": "results/893f4e2d-32b0-4e03-ad21-09640f0ac357/comparator.json",
+  "status": "solution-present",
+  "description": "The transparent wrappers preserve the old control formulas definitionally. The Unit interpretation witnesses an actual God candidate and all nonsufficiency inputs. Empty causal and potency relations can make their antecedents vacuous; no philosophical premise is defended."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "173653fe-4e66-4959-9dac-b5dabb6d5948",
+  "label": "Global excluded middle projects to classical attributes local logic",
+  "argument_id": "feefb6f9-c4df-4c1d-ab9b-c2953961c75d",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.globalToLocal",
+  "comparator_config": "results/173653fe-4e66-4959-9dac-b5dabb6d5948/comparator.json",
+  "status": "solution-present",
+  "description": "Sole-premise projection; no strictness or converse is claimed."
+}

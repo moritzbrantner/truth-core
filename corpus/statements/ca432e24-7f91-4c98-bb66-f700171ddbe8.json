@@ -1,0 +1,13 @@
+{
+  "id": "ca432e24-7f91-4c98-bb66-f700171ddbe8",
+  "label": "Classical attributes actual-bearer local equality logic",
+  "paraphrase": "For every God candidate g: every x actual in any respect has x=g or x≠g; double negation of esseOf g=essenceOf g implies that equality. Only these exact formulas and quantifiers are assumed. Analyst formulation, attribution deferred; no necessity or minimality claim.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.LocalLogic",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
+  ]
+}

@@ -570,3 +570,192 @@ incoming-free selected root is not declared absolutely explanation-free.
 These interface limits are now explicit in the existing relative-grounding
 definition and O attempt. No proof type, relation, premise truth or frontier
 count is changed by the clarification.
+
+
+## Actual-bearer local logic (2026-11-09)
+
+The new `ClassicalAttributesLocalLogic` proof audits the exact nineteen-input
+assembly, independently of #1276's original-bundle certificate equivalence.
+No pending module is imported. The original Challenge and registry policy remain
+unchanged. `GodIsOne`/`AtMostOneMaximeEns` test being equality; `GodIsPerfect`
+tests `x = g`; `GodIsInfinite` tests `esseOf g = essenceOf g`. No other helper
+requires global EM.
+
+The sibling Lean theorem retains all eighteen nonlogical inputs and replaces
+EM with the transparent predicate
+`∀ g, IsGod g → (∀ x r, InAct x r → x = g ∨ x ≠ g) ∧
+(¬¬ (esseOf g = essenceOf g) → esseOf g = essenceOf g)`.
+Perfection only compares an actual perfection bearer against a God candidate;
+uniqueness uses the candidate's actuality at esse. Simplicity supplies double
+negation of esse identity, so only that equality's stability is needed there.
+`globalToLocal` has global EM as its sole premise. This is a sufficient scoped
+fragment, not a claim of absolute weakestness, strict separation, or an EM
+omission theorem. Unit controls inhabit the exact local fragment and all
+seventeen nonsufficiency inputs with both values of the primitive attributes
+field. They witness the sufficiency omission, not necessity of local logic.
+The causal/priority conditions in this Unit interpretation can be vacuous;
+there is a God and actual being, but no empirical interpretation is certified.
+
+**Registration resolved (bounded follow-up):** the original corpus was
+co-linked to MAXIMAL senses 1/6 and POTENCY senses 1/2. The underlying Lean
+assembly does not cross those meanings: every maximality test is the same
+`IsMaximumIn` body, and every potency occurrence uses the same free predicate.
+`IsMaximalIn` is only a transparent alias; `ActSimplyPriorToPotencyReading`
+contains no capacity-without-act equation. The generic non-overlap statement
+`c6d6379b-6a9b-55b5-a701-3df289dfcca4` now links only independent potency,
+with its proposition, UUID, label and source claims preserved.
+
+A shared priority-record relink would introduce independent potency into
+existing adopted configurations. A shared general-maximality relink likewise
+changes other source/order-fork consumers. Rather than migrate that unrelated
+closure, this configuration keeps those records untouched and uses two explicit
+analyst sibling inputs: `12dc2662-e160-4031-bc7b-0772c2ed2476`
+(`MaximumCausesAll`, universally quantified r, same weak-maximality formula) and
+`3b2d2d46-baa6-4772-a2db-bb3daeb092fc` (`IndependentPriority`, free potency).
+Their transparent bodies are exactly the old premise formulas. The original
+Solution and frozen Challenge are unchanged. A separate Registration Solution
+names the wrappers and delegates to the checked consequence; its own Challenge
+was frozen first. Comparator requires matching declaration structure, so a
+wrapper signature was not substituted against the original frozen Challenge. Neither
+wrapper assumes its conclusion, adds a law, or crosses senses. No source claim
+is copied to the new analyst inputs. The two new input records are OPEN;
+this registration does not identify their philosophical warrant with the legacy
+records or silently inherit their support status.
+
+The registered consequence is argument
+`6c6549ae-1181-42b5-9702-ce826bc3b924`, result
+`fa508971-6ca4-4880-8973-ada2ef21301e`. Its exact record delta replaces the
+old general-genus and priority records with those explicit sibling inputs,
+and global EM with `ca432e24-7f91-4c98-bb66-f700171ddbe8`.
+It has sixteen original inputs, two definitionally identical analyst inputs,
+and the local fragment. There is no additional mathematical bridge premise.
+This is actual conditional logical support, not a truth/floor discharge or
+an approval to register the original nineteen-premise model certificate.
+The sole-premise global-to-local strengthens result stays
+`173653fe-4e66-4959-9dac-b5dabb6d5948`; no additional strengthens edge claims
+an order between differently interpreted priority or superlative records.
+
+
+The original consequence retains its frozen sibling Challenge and a zero-axiom
+Comparator/NanoDa configuration at
+`TruthCore/Results/Case/Catholicism/StageTwo/ClassicalAttributesLocalLogic/consequence-comparator.json`.
+It can be checked with `worker_env.py -- lake env` running the configured
+verifier's `truth-core-comparator` on that configuration (set the existing
+`COMPARATOR_LEAN4EXPORT`, `COMPARATOR_LANDRUN`, `COMPARATOR_NANODA` paths).
+The consequence uses ordinary `verify-result.sh` result
+`fa508971-6ca4-4880-8973-ada2ef21301e`. The projection and controls use the ordinary `verify-result.sh`
+commands for results `173653fe-4e66-4959-9dac-b5dabb6d5948` and
+`eef069bb-db3c-49d8-a7c6-e8f6166476a6`. Convention sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`. The #1276 evidence inspected
+was head `e0014421823ab2291171c371f01a7661f410bacd`; its certificate/EM
+equivalence does not imply that this weaker consequence needs global EM.
+
+
+### Selected premise head audit for the registered configuration
+
+All eighteen nonlogical inputs were checked against the original signature,
+not just their labels. The two analyst siblings below preserve the exact
+formulas through transparent wrappers. The other sixteen statement identities,
+all conclusion identities, and all frozen original Challenges are retained.
+The selected non-overlap metadata correction removes only its false adopted
+co-linkage. MAXIMAL senses 1/6 remain globally distinct labels/UUIDs; this
+configuration uses the exact IsMaximumIn body (sense 1) consistently. POTENCY
+senses 1/2 also remain distinct: this configuration uses the independent
+relation (sense 2). No adopted-capacity equation or bridge is assumed.
+
+| Input UUID | Exact Lean head in registered signature | Audit |
+| --- | --- | --- |
+| `818a73cc-249d-5f9b-9c34-aee1f2cbf333` | `TruthCore.Case.Catholicism.ClassicalAttributesSuffice` | Same nine predicates, including IsImmutable of the supplied InPotency; open sufficiency. |
+| `4c79298d-ee09-5e99-9ced-1be92c19b4cc` | `TruthCore.Case.Catholicism.GodIsMaximalInBeing` | Weak IsMaximumIn at esse; no greatestness. |
+| `12dc2662-e160-4031-bc7b-0772c2ed2476` | `TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.MaximumCausesAll` | Universal r retained; body unfolds to original weak-maximality causal premise. |
+| `d5a94eb1-72d2-53e0-9a52-9787b5b61a8d` | `TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `ca07cae9-6102-564e-a7fd-efb013744b3d` | `TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `7067553d-cad9-5d79-b6b2-912e35051530` | `TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `64498e7e-7f10-54a0-9ec0-c65e6076de1f` | `TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `00e962ae-f109-55f7-a7fd-f107ce0dea6b` | `TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `f8ba2429-b4f1-5712-a4d3-798213963d34` | `TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection` | Original head and exact predicate parameters retained; no sense passage added. |
+| `d7741cdc-881b-5bda-85ce-d70223162f78` | `TruthCore.Latin.Aquinas.SummaTheologiae.MatterFormAndEsseEssenceAreCompositionsReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `75a37a91-732d-510c-9abc-b37c988c5c63` | `TruthCore.Latin.Aquinas.SummaTheologiae.SubsistentBeingIsInfiniteReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `0659227c-0979-579c-910b-03a1967f49c5` | `TruthCore.Latin.Aquinas.SummaTheologiae.ImmutableIsEternalReading` | PureAct of the same supplied InPotency; no capacity substitution. |
+| `180f5ad2-a421-541a-85c9-9bca578b4a43` | `TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `090be689-b77f-51a1-9d5d-caf339169e4b` | `TruthCore.Latin.Aquinas.SummaTheologiae.WillFollowsIntellectReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `eaa4c679-98a3-5e82-95ff-18bd1177ce74` | `TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing` | Same weak IsMaximumIn at esse; firstness stays an explicit input. |
+| `3b2d2d46-baa6-4772-a2db-bb3daeb092fc` | `TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.IndependentPriority` | Free InPotency; no CanBe or adopted equation. |
+| `c6d6379b-6a9b-55b5-a701-3df289dfcca4` | `TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading` | Independent relation constrained by explicit non-overlap; metadata repaired. |
+| `09c6d5f0-d412-5038-85f9-75fffb935727` | `TruthCore.Latin.Aquinas.SummaTheologiae.NoComponentIsFirstBeingReading` | Original head and exact predicate parameters retained; no sense passage added. |
+
+The registered control result is `893f4e2d-32b0-4e03-ad21-09640f0ac357`:
+`RegisteredControls` explicitly uses the two wrapper heads in its background.
+The old control proof inhabits it by definitional reduction. This witnesses
+sufficiency omission and inhabited background only. Logical strictness or
+necessity of the local fragment remains unproved; no such claim is required
+for the sufficient consequence. Original model-registry/floor approval remains
+outside this result. The computed root delta adds one support option and two
+open analyst input records; it discharges no truth obligation.
+
+
+### Integration with landed root-model and locator work
+
+Merged main `0f70b6d7e`, then integrated `cdab78f75` (including landed
+label cleanup and the service lookup repair) for PR #1278. The only textual conflict was the
+shared structure-migration attempt: its summary now retains both #1273's
+four-premise immutability joint model/omission findings and #1278's registered
+local-logic configuration, and its evidence list contains both result families.
+The immutability model is not a full nineteen-premise assembly certificate.
+Generated area imports retain both families. EXISTS meanings, primitive
+CAUSE/uniting locators, labels and GOD binding activation from main are kept.
+The three pinned bundle inventories were re-reviewed against the changed
+locator records: fields locate primitive relations, while quantified readings
+remain constraints; no new structural law, sense bridge or premise truth is
+introduced. Existing reviewed hashes match those exact merged records.
+No pre-existing Lean source outside generated aggregators changed in this
+merge. The frozen Challenges, registered local-logic derivation and its
+explicit sibling inputs are unchanged, so their Comparator/NanoDa certificates
+are reused. Affected area builds, binding and metadata gates check integration;
+final delivered-head CI remains required.
+
+The automatic affected-binding selector expanded to the whole registry and
+encountered an unrelated unbuilt Alternatives object file. Integration binding
+therefore uses eight explicit results: the four local-logic results, original
+nineteen-input assembly, activated Fourth Way GOD binding, landed immutability
+certificate and EXISTS controls. Their area aggregators build. Full-registry
+binding remains required in final CI; the scoped run does not claim it.
+
+Integration evidence: the four affected Case/Causality area aggregators build;
+scoped binding reports eight bound results, zero mismatches. Corpus, the three
+pinned bundle inventories, both batch generators, exploration map, attribution,
+sense/label ratchets and whitespace checks pass. The computed frontier delta
+against pinned main `cdab78f75` is included in the PR description. No additional
+logical support or truth discharge is attributed to this merge repair.
+
+
+### Integration after the original nineteen-premise witness investigation
+
+Merged main `062424944`, including #1276 (`afd38a433`) and #1281/#1286
+GOD binding activations. The shared attempt retains both the fixed rich
+assignment's certificate/global-EM equivalence and the registered local-logic
+consequence, with both evidence sets. These results answer different questions:
+#1276 leaves the original closed zero-axiom joint-registration obstruction
+explicit; #1278 derives the existing consequence under its local fragment and
+explicit analyst sibling inputs. Neither authorizes changing the registry
+policy or closing global excluded middle. Both imported result families remain.
+
+The coordinator's five definition links in the local-logic spec, statement and
+projection argument are unchanged from `17dadf139`. Registered argument/result
+and sibling identities, the original and registration Challenges, and every
+existing proof source remain unchanged. The only text conflicts were the
+Case import aggregator (regenerated) and shared attempt (combined summaries
+and evidence). The three automatically merged pinned inventories remain fresh;
+the changed GOD-activation dispositions were checked against the unchanged
+Signature.IsGod applications in the primal/efficient identity consumers.
+Reuse the twelve successful checks and clean review at `17dadf139` for those
+unchanged proof inputs; new integration checks cover the affected imports,
+metadata binding, corpus/bundle generation, ratchets and computed frontier.
+
+Integration checks: all four affected area aggregators build; scoped binding
+reports 16 bound results and zero mismatches, including the landed joint-witness
+result, activated consumers and the local-logic results. Both generators report
+zero files to write. Corpus, all pinned bundle inventories, attribution, label
+and sense ratchets, and whitespace checks pass. The PR carries the freshly
+computed frontier delta against `062424944`; the repair itself adds no logical
+support or truth discharge. Final delivered-head CI remains required.

@@ -1,0 +1,11 @@
+{
+  "id": "fa508971-6ca4-4880-8973-ada2ef21301e",
+  "label": "Classical attributes from actual-bearer local logic",
+  "argument_id": "6c6549ae-1181-42b5-9702-ce826bc3b924",
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Solution",
+  "theorem": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.godHasClassicalAttributes",
+  "comparator_config": "results/fa508971-6ca4-4880-8973-ada2ef21301e/comparator.json",
+  "status": "solution-present",
+  "description": "Definitionally identical eighteen nonlogical formulas as the frozen nineteen-input assembly, replacing global excluded middle by actual-bearer equality alternatives at God candidates and stability of their esse/essence equality. The selected metadata audit uses weak maximality specialized at esse and the original independent potency relation throughout. The priority and universal weak-maximality inputs are explicit analyst sibling records with transparent wrappers, not identifications with the legacy co-linked records. No extra bridge, premise truth, global EM closure, registry policy or existence follows."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

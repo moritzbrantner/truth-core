@@ -1,0 +1,14 @@
+{
+  "id": "12dc2662-e160-4031-bc7b-0772c2ed2476",
+  "label": "Universal weak maximality causes all other actual bearers",
+  "paraphrase": "OPEN analyst weak-maximality configuration: for every respect r and bearer m, InAct m r and absence of any y more r than m imply that m causes r in each distinct actual r bearer. The respect remains universally quantified, and Stage 2 uses r=esse. No greatestness, strict supremacy or order law is assumed.",
+  "lean_declaration": "TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.MaximumCausesAll",
+  "definition_ids": [
+    "a2a8de58-42e0-5481-b7fb-848ae8602036",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "486bb45e-c4a2-5ba5-8b12-498a24eb1678"
+  ],
+  "disambiguation_ids": [
+    "4f1d0cf6-88ba-59e3-814d-01450c2bf282"
+  ]
+}

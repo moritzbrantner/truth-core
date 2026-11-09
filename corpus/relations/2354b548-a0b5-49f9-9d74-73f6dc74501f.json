@@ -1,0 +1,11 @@
+{
+  "id": "2354b548-a0b5-49f9-9d74-73f6dc74501f",
+  "label": "Global EM strengthens classical attributes local logic",
+  "subject_kind": "statement",
+  "subject_id": "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "ca432e24-7f91-4c98-bb66-f700171ddbe8",
+  "verification_result_id": "173653fe-4e66-4959-9dac-b5dabb6d5948",
+  "note": "Sole-premise verified projection; strictness remains open."
+}

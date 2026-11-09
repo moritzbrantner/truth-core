@@ -56,6 +56,8 @@ public import TruthCore.Results.Case.Catholicism.StageOneViaMaximeEns.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributes.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesIdentity.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Solution
+public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesThroughGroupTwo.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.GodHasIntellect.Solution
 public import TruthCore.Results.Case.Catholicism.StageTwo.GodHasWill.Solution

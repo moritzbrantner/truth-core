@@ -1,0 +1,35 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic"
+results = "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic"
+[[statement]]
+id = "Classical attributes actual-bearer local equality logic"
+lean = "LocalLogic"
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168", "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1", "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72", "183b48d2-1753-583d-aef9-4199cff86231"]
+paraphrase = "For every God candidate g: every x actual in any respect has x=g or x≠g; double negation of esseOf g=essenceOf g implies that equality. Only these exact formulas and quantifiers are assumed. Analyst formulation, attribution deferred; no necessity or minimality claim."
+[[statement]]
+id = "Classical attributes local logic model controls"
+lean = "Controls"
+paraphrase = "Inhabited Unit interpretations satisfy the seventeen retained nonsufficiency inputs and the exact local fragment with either truth value of the primitive attributes field. This witnesses a nonempty positive background and omission of sufficiency; not omission of local logic or a strict separation from global EM."
+[[argument]]
+id = "Global excluded middle projects to classical attributes local logic"
+theorem = "globalToLocal"
+premises = ["ee4ab504-c8fe-59bc-bc96-7cbeefed6410"]
+conclusion = "Classical attributes actual-bearer local equality logic"
+rule = "Specialization of excluded middle"
+meaning = "Sole-premise projection; no strictness or converse is claimed."
+[[argument]]
+id = "Classical attributes local logic inhabited controls"
+theorem = "controls"
+premises = []
+conclusion = "Classical attributes local logic model controls"
+rule = "Finite inhabited interpretation"
+meaning = "Unit is God and actual in every respect. Causal and potency relations are empty; these controls make no empirical claim and do not refute local logic."
+[[relation]]
+id = "Global EM strengthens classical attributes local logic"
+subject_kind = "statement"
+subject_id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Classical attributes actual-bearer local equality logic"
+verification_result_id = "173653fe-4e66-4959-9dac-b5dabb6d5948"
+note = "Sole-premise verified projection; strictness remains open."

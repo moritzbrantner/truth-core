@@ -1,0 +1,34 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic"
+results = "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration"
+[[statement]]
+id = "Act priority for the independent potency parameter"
+lean = "IndependentPriority"
+paraphrase = "OPEN analyst generic reading: for the independently supplied InPotency relation, every x in potency in r has some y actual in r simply prior to x. No equation with capacity without act is assumed; adopted-potency instances remain separate."
+definitions = ["ff1ba8f4-ab6e-5bdd-9e17-02b08a025168", "3ea2762f-1a85-5059-b4e7-d29f192b16b6", "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8"]
+disambiguations = ["508617ab-cf24-5f3b-a387-64b3991359ec"]
+[[statement]]
+id = "Universal weak maximality causes all other actual bearers"
+lean = "MaximumCausesAll"
+paraphrase = "OPEN analyst weak-maximality configuration: for every respect r and bearer m, InAct m r and absence of any y more r than m imply that m causes r in each distinct actual r bearer. The respect remains universally quantified, and Stage 2 uses r=esse. No greatestness, strict supremacy or order law is assumed."
+definitions = ["a2a8de58-42e0-5481-b7fb-848ae8602036", "211a6432-8b8f-53ed-85e3-75173bb15b24", "486bb45e-c4a2-5ba5-8b12-498a24eb1678"]
+disambiguations = ["4f1d0cf6-88ba-59e3-814d-01450c2bf282"]
+[[argument]]
+id = "Classical attributes from actual-bearer local logic"
+theorem = "godHasClassicalAttributes"
+premises = ["818a73cc-249d-5f9b-9c34-aee1f2cbf333", "4c79298d-ee09-5e99-9ced-1be92c19b4cc", "Universal weak maximality causes all other actual bearers", "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d", "ca07cae9-6102-564e-a7fd-efb013744b3d", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f", "00e962ae-f109-55f7-a7fd-f107ce0dea6b", "f8ba2429-b4f1-5712-a4d3-798213963d34", "d7741cdc-881b-5bda-85ce-d70223162f78", "75a37a91-732d-510c-9abc-b37c988c5c63", "0659227c-0979-579c-910b-03a1967f49c5", "180f5ad2-a421-541a-85c9-9bca578b4a43", "090be689-b77f-51a1-9d5d-caf339169e4b", "eaa4c679-98a3-5e82-95ff-18bd1177ce74", "Act priority for the independent potency parameter", "c6d6379b-6a9b-55b5-a701-3df289dfcca4", "09c6d5f0-d412-5038-85f9-75fffb935727", "Classical attributes actual-bearer local equality logic"]
+conclusion = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
+rule = "Structured local equality elimination"
+meaning = "Definitionally identical eighteen nonlogical formulas as the frozen nineteen-input assembly, replacing global excluded middle by actual-bearer equality alternatives at God candidates and stability of their esse/essence equality. The selected metadata audit uses weak maximality specialized at esse and the original independent potency relation throughout. The priority and universal weak-maximality inputs are explicit analyst sibling records with transparent wrappers, not identifications with the legacy co-linked records. No extra bridge, premise truth, global EM closure, registry policy or existence follows."
+
+[[statement]]
+id = "Registered local equality configuration model controls"
+lean = "RegisteredControls"
+paraphrase = "The Unit God and actual bearer satisfies the seventeen nonsufficiency premises with explicit weak-maximality and independent-priority wrappers and the local fragment, both with and without the primitive attributes field. Inhabited nonvacuity and sufficiency omission; not local-logic necessity or empirical applicability."
+[[argument]]
+id = "Registered local equality model controls certificate"
+theorem = "modelControls"
+premises = []
+conclusion = "Registered local equality configuration model controls"
+rule = "Reuse of the checked finite inhabited interpretation"
+meaning = "The transparent wrappers preserve the old control formulas definitionally. The Unit interpretation witnesses an actual God candidate and all nonsufficiency inputs. Empty causal and potency relations can make their antecedents vacuous; no philosophical premise is defended."
