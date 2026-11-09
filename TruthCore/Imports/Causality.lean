@@ -149,6 +149,7 @@ public import TruthCore.Causality.SourceWitness
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
+public import TruthCore.Causality.SurveyCapabilityControls
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
