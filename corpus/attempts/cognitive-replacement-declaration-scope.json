@@ -1,0 +1,14 @@
+{
+  "id": "f312a664-4fea-4363-b765-4f6469910345",
+  "label": "CORRECTION_2 temporal replacement core; original scope remains open",
+  "statement_ids": [
+    "418606fa-bf33-5996-882e-5eebbe88ab22",
+    "51f49102-83d2-5734-b5d2-873ac6b2be90"
+  ],
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Inventory: q94 needs correction is an existential error/need reading, not accomplishment; CorrectionCriterion classifies supplied correctness on evidence fibers; FallibleCorrection updates prediction weights against feedback, not generic judgment replacement. None has the original temporal meaning. Implemented independent ReplacementConditions with strict temporal input, actual old endorsement, error-before, withdrawal, new endorsement/correct-after and explicit replacement link; finite witness and retention/unlinked controls. Rejected binding the original to arbitrary later correct belief, to a free flag, or silently to single-valued same-matter belief. No new source claim, premise discharge or root consequence. CORRECTION_2 and its allowance remain unchanged. Additional omission controls reject absence of temporal precedence, absence of initial error, and absence of final correctness. These are conditional constraints only; the opaque replacement link is not a completed semantic definition.",
+  "blocker": "Coordinator must choose whether actual replacement is necessarily same subject/same matter revision or may link different matters. The common core preserves one subject but does not decide matter scope; no completed-original binding is advertised. Next: settle scope, specialize faithfully and certify the original binding; then separately investigate the open genuine-moral-correction truth bridge.",
+  "evidence": []
+}
