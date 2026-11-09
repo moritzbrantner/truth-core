@@ -1,0 +1,9 @@
+{
+  "id": "ddfab47a-60c0-4bfd-b388-79c23c4b4377",
+  "label": "Nuclear profile has an actuality-entailing feature",
+  "paraphrase": "OPEN analyst semantic commitment: some nuclear feature has an extension contained in the actuality predicate. Actuality is distinct from actual existence; neither predicate is fixed by candidate-domain membership. Attribution deferred.",
+  "lean_declaration": "TruthCore.Causality.ConceptualExistenceBoundary.Anchor",
+  "definition_ids": [
+    "f59d02bf-fd2f-46b6-94f2-09eb29cf970c"
+  ]
+}

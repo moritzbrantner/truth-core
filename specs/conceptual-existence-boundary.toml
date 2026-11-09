@@ -1,0 +1,50 @@
+[batch]
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+vocab = "TruthCore.Causality.ConceptualExistenceBoundary"
+results = "TruthCore.Results.Causality.ConceptualExistenceBoundary"
+
+[[statement]]
+id = "Nuclear profile transfers to candidate exemplification"
+lean = "Transfer"
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+paraphrase = "OPEN analyst predication bridge: the selected candidate exemplifies each nuclear feature in the profile. Merely characterizing or naming the candidate does not entail this. Attribution deferred."
+
+[[statement]]
+id = "Nuclear profile has an actuality-entailing feature"
+lean = "Anchor"
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+paraphrase = "OPEN analyst semantic commitment: some nuclear feature has an extension contained in the actuality predicate. Actuality is distinct from actual existence; neither predicate is fixed by candidate-domain membership. Attribution deferred."
+
+[[statement]]
+id = "Conceptual actuality entails actual existence"
+lean = "ActualityExists"
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+paraphrase = "OPEN analyst bridge: every actual candidate actually exists in this interpretation. This is an assumption, not definitional equality. Attribution deferred."
+
+[[statement]]
+id = "Characterized profile has an existing exemplar"
+lean = "ExistingExemplar"
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+paraphrase = "Some candidate actually exists and exemplifies every nuclear feature of the selected description. This does not identify it as GOD_4 or establish any premise."
+
+[[statement]]
+id = "Conceptual existence boundary omission interpretations"
+lean = "Controls"
+definitions = ["f59d02bf-fd2f-46b6-94f2-09eb29cf970c"]
+paraphrase = "Four explicit finite interpretations: joint satisfaction and conclusion; empty exemplification and existence with transfer omitted; nonexistent fully characterized exemplar with anchor omitted; actual fully characterized exemplar with actuality-to-existence omitted. Each omission retains the other two premises."
+
+[[argument]]
+id = "Existing exemplar from explicit predication and semantic bridges"
+theorem = "existingExemplar"
+premises = ["Nuclear profile transfers to candidate exemplification", "Nuclear profile has an actuality-entailing feature", "Conceptual actuality entails actual existence"]
+conclusion = "Characterized profile has an existing exemplar"
+rule = "Feature witness elimination and extension inclusion"
+meaning = "Conditional analyst reconstruction only: choose the nuclear anchor feature; transfer gives its exemplification by the selected candidate; extension inclusion gives actuality; the separate bridge gives existence. Preserve all nuclear features of that same witness. The substantive result is the accompanying omission separation, not a defense of the bridges or a proof of GOD_4. Attribution deferred."
+
+[[argument]]
+id = "Conceptual existence boundary finite separations"
+theorem = "controls"
+premises = []
+conclusion = "Conceptual existence boundary omission interpretations"
+rule = "Finite counterinterpretations"
+meaning = "Explicit Bool feature and Unit candidate interpretations jointly witness nonvacuity and failure after each carrying premise is omitted. A nonempty nuclear profile and a candidate do not imply an inhabited existence extension. These models are not metaphysical possibility claims or historical readings of Meinong."

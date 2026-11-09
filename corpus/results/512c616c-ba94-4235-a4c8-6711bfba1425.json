@@ -1,0 +1,11 @@
+{
+  "id": "512c616c-ba94-4235-a4c8-6711bfba1425",
+  "label": "Existing exemplar from explicit predication and semantic bridges",
+  "argument_id": "571b0f6a-bdc7-43ff-9cd4-266ec1598fce",
+  "challenge_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ConceptualExistenceBoundary.Solution",
+  "theorem": "TruthCore.Results.Causality.ConceptualExistenceBoundary.existingExemplar",
+  "comparator_config": "results/512c616c-ba94-4235-a4c8-6711bfba1425/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst reconstruction only: choose the nuclear anchor feature; transfer gives its exemplification by the selected candidate; extension inclusion gives actuality; the separate bridge gives existence. Preserve all nuclear features of that same witness. The substantive result is the accompanying omission separation, not a defense of the bridges or a proof of GOD_4. Attribution deferred."
+}
