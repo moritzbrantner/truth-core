@@ -1,0 +1,11 @@
+{
+  "id": "00b446e6-42c2-4c21-bba1-31fdcf1fd5a0",
+  "label": "Quotient inertness from classification and owner causal commitment",
+  "argument_id": "8f791600-7429-4ab5-a050-9385748bfcac",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.inert",
+  "comparator_config": "results/00b446e6-42c2-4c21-bba1-31fdcf1fd5a0/comparator.json",
+  "status": "solution-present",
+  "description": "ValuesNoEsse excludes esse for each value. The existing owner commitment gives esse to a bearer of power or an outgoing cause at the same selected world, so both are excluded. No exercise-to-power step or causal-definition of concreteness is used."
+}

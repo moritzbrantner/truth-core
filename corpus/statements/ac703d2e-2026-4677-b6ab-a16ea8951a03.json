@@ -1,0 +1,13 @@
+{
+  "id": "ac703d2e-2026-4677-b6ab-a16ea8951a03",
+  "label": "Self-motion separation has populated witnesses and bridge omission models",
+  "paraphrase": "Finite same-context witnesses separate p moving q, p moving whole and whole moving itself; omit each sufficient bridge with the original target false; reject mere internal coincidence lacking whole motion or integration; and jointly satisfy both bridges with a nonempty diagonal and proper-part motion. No real-world applicability asserted.",
+  "lean_declaration": "TruthCore.Causality.SelfMotionSeparation.Control.Certificate",
+  "definition_ids": [
+    "2fccff11-d956-4ec2-9705-922413f76a5c",
+    "e13e749b-d266-5f18-bc50-59b340444c1f"
+  ],
+  "disambiguation_ids": [
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
+  ]
+}

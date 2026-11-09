@@ -1,0 +1,10 @@
+{
+  "id": "85f559b5-7805-4457-897b-768673761c59",
+  "label": "Grounding calibration supplies the POE truth component (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "cd8b5a3a-3e06-4a32-81c0-41f8fdccb998",
+  "rule": "Disjunction introduction and existing calibration theorem",
+  "meaning": "Inject the selected calibration into the corresponding branch of calibrationTruth and extract actual truth. No implication between candidates or original-sense completion.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

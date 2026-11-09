@@ -1,0 +1,10 @@
+{
+  "id": "389d815b-4904-4356-ba65-a8efbfedb5de",
+  "label": "Owner endpoint calibration checked interface (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "3d700fb6-2cbb-4f0f-90ce-f31119590b84",
+  "rule": "Conjunction elimination, literal actualGraph dictionary, and explicit finite interpretations",
+  "meaning": "Conditional interfaces keep all profile and owner inputs inside the quantified certificate. DirectLaw uses only the activity conjunct; ProfileLaw uses exerciseHasPower and powerConcrete; EsseLaw adds concreteIsEsse. Actual existence is supplied by actualGraph nodes and is not needed by the owner's unguarded activity clause itself. Controls distinguish missing production, dictionary and esse calibration, without asserting an anchored intended ontology.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,21 @@
+{
+  "id": "a6d3b944-9ae0-4509-94a5-629cb3cda6cf",
+  "label": "Mind-independence internal controls and parked ontic declaration",
+  "statement_ids": [
+    "cd4e9d53-1d5f-55c2-8515-8c86cbfa008e",
+    "8464c051-321e-5d10-bc7e-df985001679e",
+    "58e8a6b6-8cc5-5b17-83b4-918295222606",
+    "7644bb93-887b-5364-aa7c-22710b171e45",
+    "50d8be94-f9c1-52af-bf43-fb2751915756"
+  ],
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Declaration audit on main 79cedbb1f: internal counterfactual assertion, attitude-judged legitimacy and truth are distinct obligations. Added a finite explicit-profile candidate and separation controls: actual truth and an inhabited changed-attitude alternative accompany internally licensed assertion of a false counterfactual; a stably true candidate need not be accepted. This does not encode the quasi-realist aim as successful vindication. Original MIND_INDEPENDENT_1 allowance remains open because the profile-selection interpretation is not yet the original counterfactual semantics. Ontic MIND_INDEPENDENT_2 is parked pending owner selection: truth invariance under attitude interventions, absence of grounding in attitudes, or distinct sibling interpretations. Neither a free MoralFact/Independent predicate nor a no-grounding flag completes that meaning. Actual-stable calibration and invariance-only are rejected substitutions for ontic independence; minimal truthaptness is not robust facthood. Reused OBJECTIVE-TRUTH-DEFINITION-CONTROLS and POE-EXTERNAL-TRUTH-TO-OBJECTIVE-BRIDGE only for their exact finite/calibrated meanings, not as mind-independence certificates. Noncognitivism's taxonomy licenses neither rejection of the internal sentence nor a false-to-facthood inference. Root connection target: STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS (50d8be94-f9c1-52af-bf43-fb2751915756), leading via goodness/form-end to the Catholicism root. Rejected direct bridge from internal acceptance separation to that premise; no form/end goodness identity or named approval account failure follows. The external evil objective-classifier result is likewise not itself a root connection or a defeat of internal critique. No coverage/exclusivity of worldviews or universal standpoint adequacy assumed. Both original sense allowances preserved; no premise discharge.",
+  "blocker": "Internal: specify and defend the changed-approval counterfactual selection and an attitude-based licensing interpretation, keeping program aim separate from success. Ontic: owner to select invariance, grounding-independence, or sibling accounts; then encode moral facthood and the selected relation with explicit bridges. Root: connect that selected account to form/end goodness and the named approval account before claiming progress on the case. Next independent slice: encode the internal sentence selection/attitude-policy semantics, comparing alternative policies without asserting their adequacy.",
+  "evidence": [
+    "f4c0852f-51f0-4363-8998-a0e022572aa0",
+    "b0ae9897-6c8e-57de-8b92-d852600f9cf8",
+    "2ecf8205-e48c-5f91-83bc-b89d784490e0"
+  ]
+}

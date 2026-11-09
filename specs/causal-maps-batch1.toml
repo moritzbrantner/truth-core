@@ -113,8 +113,8 @@ disambiguations = ["DISAMB-CAUSE", "DISAMB-MOTION"]
 [[statement]]
 id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
 lean = "SelfMoverMovesByADistinctPart"
-paraphrase = "OPEN analyst reading of Physics VIII.4-5: whatever moves itself in a respect does so by a part, distinct from the whole, that moves the whole in that respect."
-definitions = ["DEF-SELF-MOTION-ARISTOTLE", "DEF-MOVER-PART", "DEF-RESPECT"]
+paraphrase = "OPEN analyst premise: diagonal MovesIn x x r (SELF_MOTION_1) requires a part p distinct from x moving the whole x in the same respect. The frozen body is unchanged; independent SELF_MOTION_2 is not the antecedent."
+definitions = ["e13e749b-d266-5f18-bc50-59b340444c1f", "DEF-MOVER-PART", "DEF-RESPECT"]
 disambiguations = ["DISAMB-SELF-MOTION", "DISAMB-MOTION"]
 
 [[statement]]
@@ -187,7 +187,7 @@ theorem = "nothingMovesExceptInAct"
 premises = ["STMT-EXCLUDED-MIDDLE", "STMT-MOVER-CAUSES-WHAT-IT-MOVES-TO", "STMT-CAUSE-OF-QUALITY-IN-ANOTHER-IS-MORE-SUCH", "STMT-MORE-SUCH-HAS-THE-PERFECTION", "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART", "STMT-WHOLE-IN-ACT-THROUGH-ITS-PART"]
 conclusion = "STMT-NOTHING-MOVES-EXCEPT-AS-IN-ACT"
 rule = "Proof by cases (excluded middle on identity), modus ponens"
-meaning = "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: y moves itself by a distinct part p (OPEN reading of Physics VIII.4-5); by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107."
+meaning = "Derives the prima via premise that a thing moves only insofar as it is in act. Case split on whether the mover y is the moved x. If distinct: y causes x's being r (OPEN bridge), so y is more r than x (Metaphysics II.1), so y has r in act (quarta via). If y = x: diagonal SELF_MOTION_1 is handled by an OPEN analyst distinct-part premise, not the independent SELF_MOTION_2 of Physics VIII.4-5; by the distinct case p is in act in r, and the whole is in act through its part (OPEN). It does not use STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT, which is derived from the conclusion. This answers the self-mover gap that rejected the lead in ATTEMPT-REJECTED-DERIVATION-LEADS-20261107."
 
 [[argument]]
 id = "CAUSAL-MAPS-BATCH1-CONTROLS"
@@ -242,4 +242,4 @@ subject_id = "ARIST-PHYS-255B-SELF-MOTION-HAS-MOVER-A"
 predicate = "supports"
 object_kind = "statement"
 object_id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
-note = "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned."
+note = "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned. Audit correction: the target actually has diagonal MovesIn x x r as antecedent (SELF_MOTION_1), while this claim uses independent whole/parts SelfMovedIn (SELF_MOTION_2). This support link records only a research lead, not same-sense entailment. Both the source-sense-to-diagonal bridge and distinct-part identification remain OPEN."

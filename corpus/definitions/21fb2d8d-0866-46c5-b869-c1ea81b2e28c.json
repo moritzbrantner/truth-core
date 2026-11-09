@@ -1,0 +1,13 @@
+{
+  "id": "21fb2d8d-0866-46c5-b869-c1ea81b2e28c",
+  "label": "MIND_INDEPENDENT_4 candidate",
+  "term": "constitutive grounding moral objectivity",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.GroundingObject",
+  "definition": "The sentence is a moral fact, its fact exists, it is actually true, and no attitude node is a finite nonempty constitutive-support ancestor of its fact node.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "47c13373-ae74-4e4f-aa4b-7056869cc661"
+  ],
+  "note": "Analyst formulation, attribution deferred. Uses the supplied Profile context; applicability and support/intervention completeness remain OPEN. Neither original mind-independence sense is completed."
+}

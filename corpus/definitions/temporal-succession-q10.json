@@ -1,11 +1,12 @@
 {
   "id": "e151093b-664e-555e-9602-d5356b4af202",
-  "label": "SUCCESSIVE_TEMPORAL_DURATION_3: Time as the measure of motion, with before and after; even…",
+  "label": "SUCCESSIVE_TEMPORAL_DURATION_3: Time as the measure of motion, with before and after; even\u2026",
   "legacy_id": "DEF-TEMPORAL-SUCCESSION-Q10",
   "term": "successive temporal duration (q.10)",
   "definition": "Time as the measure of motion, with before and after; even unlimited temporal duration remains successive and does not become proper eternity. No time ontology or Lean identity is stipulated.",
   "basis": "sourced",
   "claim_ids": [
     "1be8c83a-edef-57a7-a4c3-56e2f5cb699a"
-  ]
+  ],
+  "note": " Original meaning remains unresolved. Analyst candidate forks and exact remaining mapping choices: corpus/definitions/duration-measure-candidates.md. No original declaration or allowance is completed by these siblings."
 }

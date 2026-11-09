@@ -1,0 +1,10 @@
+{
+  "id": "e8980cbb-dab2-4f68-b973-7cbe032d7e2e",
+  "label": "Ancestral support exclusion restricts direct support (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c1d95cae-c272-4a15-a327-87a03cc62fb3",
+  "rule": "Explicit construction and projection",
+  "meaning": "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

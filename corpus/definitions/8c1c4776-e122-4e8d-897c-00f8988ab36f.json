@@ -1,0 +1,9 @@
+{
+  "id": "8c1c4776-e122-4e8d-897c-00f8988ab36f",
+  "label": "A5_OBTAINING_SITUATIONS_RIGID_EVER_ROSTER_10: MemberFirst",
+  "term": "MemberFirst history interpretation",
+  "definition": "The selected b is contingent and TemporalHistory.BeginsAt h w b t holds: b exists at t and is absent at every earlier time. Other members may exist earlier; no population beginning follows.",
+  "basis": "stipulative",
+  "note": "Owner-selected analyst interpretation sibling (2026-11-09), attribution deferred. Reuses TemporalHistory.History and its explicitly interpreted primitive IsAt (temporal existence). classified is an explicit contingency-classification input, not a free adequacy or beginning flag; no modal contingency dictionary or reality applicability is established. The beginning predicates take a separately supplied fixed class contingent : Being -> Prop. Arbitrary carriers remain unrestricted except the stated Preorder for temporal comparison; no finiteness, persistence, well-foundedness or causal law is assumed. Discrete, dense and first-moment controls test boundaries. This definition does not complete the original composite source sense or confer root closure.",
+  "lean_declaration": "TruthCore.Modal.A5HistoryScope.MemberFirst"
+}

@@ -95,6 +95,7 @@ public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
+public import TruthCore.Results.Causality.DurationMeasureCandidates.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.IdentityScopeControl.Solution
@@ -112,6 +113,7 @@ public import TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
+public import TruthCore.Results.Causality.EventIdentityProfiles.Solution
 public import TruthCore.Results.Causality.ExistenceSenseRoute.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 public import TruthCore.Results.Causality.ExistsSenseMeaning.Solution
@@ -142,6 +144,7 @@ public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LifeBoundaryPotency.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 public import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+public import TruthCore.Results.Causality.LogicalNecessityProfiles.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Solution
@@ -187,6 +190,7 @@ public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
 public import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
 public import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution
 public import TruthCore.Results.Causality.OccurrenceUnderivedEssence.Solution
+public import TruthCore.Results.Causality.OwnerEndpointCalibration.Solution
 public import TruthCore.Results.Causality.ParityUnionRegress.Solution
 public import TruthCore.Results.Causality.PartFreePlurality.Solution
 public import TruthCore.Results.Causality.PartMediatedSelfMotion.Solution
@@ -239,6 +243,7 @@ public import TruthCore.Results.Causality.SelectedAncestry.Solution
 public import TruthCore.Results.Causality.SelectedAncestryUnique.Solution
 public import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 public import TruthCore.Results.Causality.SelfCausationPriority.Solution
+public import TruthCore.Results.Causality.SelfMotionSeparation.Solution
 public import TruthCore.Results.Causality.SelfOperationLife.Solution
 public import TruthCore.Results.Causality.SourceForest.Solution
 public import TruthCore.Results.Causality.SourceForestInterop.Solution
@@ -246,6 +251,7 @@ public import TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solutio
 public import TruthCore.Results.Causality.SourceWitness.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution
+public import TruthCore.Results.Causality.SubjectFocalRoles.Solution
 public import TruthCore.Results.Causality.SuccessionPotency.Solution
 public import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 public import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
@@ -253,7 +259,8 @@ public import TruthCore.Results.Causality.SupertaskOscillation.Solution
 public import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 public import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 public import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
-public import TruthCore.Results.Causality.SurveyCapabilityProfiles.Solution
+public import TruthCore.Results.Causality.SurveyProductiveSource.Solution
+public import TruthCore.Results.Causality.SurveySourceEndpointControls.Solution
 public import TruthCore.Results.Causality.TeleologyFirstMover.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution

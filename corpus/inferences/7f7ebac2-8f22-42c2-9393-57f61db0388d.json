@@ -1,0 +1,12 @@
+{
+  "id": "7f7ebac2-8f22-42c2-9393-57f61db0388d",
+  "label": "Grounding candidate bridge under stability (inference)",
+  "input_statement_ids": [
+    "1a786096-6f33-4f5c-9725-73cc0bbfebd4"
+  ],
+  "output_statement_id": "e77adb31-cf6c-45f3-9ed3-3a1e9d13cf29",
+  "rule": "Explicit construction and projection",
+  "meaning": "Retains moral facthood, existence and actual truth and applies the explicit grounding-to-invariance premise. No unconditional relation follows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

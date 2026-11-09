@@ -1,0 +1,9 @@
+{
+  "id": "f8cba43f-ab11-4a46-8d2b-4f9753d6b277",
+  "label": "Formula-local possible-impossibility duality certificate",
+  "paraphrase": "For every Kripke frame, selected formula and standpoint, formula-local double-negation elimination on accessible worlds suffices for equivalence of Dia(Box(not P)) implies Box(not P) and Dia(P) implies Box(Dia(P)). Analyst conditional, no assertion of either modal input, source equivalence, assent or frame validity.",
+  "lean_declaration": "TruthCore.Modal.PossibleImpossibility.Certificate",
+  "definition_ids": [
+    "9c049e13-5c43-408a-89ae-07adec28f434"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "060e925c-242a-4125-9bf9-8be486dda9cc",
+  "label": "Logical necessity profile controls checked",
+  "argument_id": "badd593e-3dfc-4f24-99e3-6891d4d3c4cb",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.controls",
+  "comparator_config": "results/060e925c-242a-4125-9bf9-8be486dda9cc/comparator.json",
+  "status": "solution-present",
+  "description": "Direct finite interpretation proofs; no formal claim of metaphysical possibility or premise truth."
+}

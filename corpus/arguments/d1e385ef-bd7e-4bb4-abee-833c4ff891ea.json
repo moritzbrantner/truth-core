@@ -1,0 +1,14 @@
+{
+  "id": "d1e385ef-bd7e-4bb4-abee-833c4ff891ea",
+  "label": "Whole-series adequacy policy scope and tied-order certificates, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "dd4dfa3b-1bf0-4125-a27b-069cb1110893",
+  "inference_ids": [
+    "e173e1b5-cf31-4d2e-bb8b-59b3bd5c96b7"
+  ],
+  "meaning": "Prove uniqueness, decidable existence and predicate transport by list induction; instantiate an original ReasonGuidedWholeExercise on a fully extensional fact domain. All actual and necessary bearer evidence, option truth valuation and accessible omission are explicit. Uniform scopes quantify over every world, bearer, reason-content and recorded choice and do not imply nonempty choice. Same-input stability needs TWO selections. Agenda calibration and explanatory authority are not inferred.",
+  "definition_ids": [
+    "74a88a8d-62a2-4537-a98c-670b90dffc0f",
+    "b520cb0e-4717-48a2-aa22-9065cfecb73b"
+  ]
+}

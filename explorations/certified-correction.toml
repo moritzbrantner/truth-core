@@ -1,0 +1,16 @@
+target = "STMT-CATHOLICISM-TRUE"
+[[node]]
+id = "STMT-CATHOLICISM-TRUE"
+[[node]]
+id = "35901b8a-de6e-5e0d-9044-c86f55670b00"
+[[node]]
+id = "Scoped certificate calibration connects a procedure to exact classification"
+[[node]]
+id = "Adequate warrant and root norm connection"
+new = true
+text = "OPEN: justify applicability, epistemic adequacy and coverage of a procedure for the root natural-reason inquiry, and independently justify the norm selecting root claims. Neither certificate checking nor semantic calibration supplies these bridges."
+[[edge]]
+premises = ["Scoped certificate calibration connects a procedure to exact classification", "35901b8a-de6e-5e0d-9044-c86f55670b00", "Adequate warrant and root norm connection"]
+conclusion = "STMT-CATHOLICISM-TRUE"
+kind = "bridge"
+status = "mapped"

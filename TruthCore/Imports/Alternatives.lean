@@ -2,6 +2,7 @@
 module
 
 public import TruthCore.Alternatives.ActPotencyRegress
+public import TruthCore.Alternatives.ActualPracticeRecognition
 public import TruthCore.Alternatives.ActualityWithoutBeing
 public import TruthCore.Alternatives.ConciliarGrammarDefinitions
 public import TruthCore.Alternatives.Fideism
@@ -22,6 +23,7 @@ public import TruthCore.Alternatives.OpiningMotionRivalCoverage
 public import TruthCore.Alternatives.PhysicalCompleteness
 public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PhysicalSpecification
+public import TruthCore.Alternatives.PhysicalSpecificationPaths
 public import TruthCore.Alternatives.PotencyAnalysisPartition
 public import TruthCore.Alternatives.ReligiousExperienceRecognition
 public import TruthCore.Alternatives.ReligiousLanguageSemantics

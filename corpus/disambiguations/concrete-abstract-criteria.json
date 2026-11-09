@@ -11,9 +11,10 @@
     "2b015a2c-4d31-5511-b391-41413edf45ac",
     "008cb21a-256c-5a90-822c-acd4591d699a",
     "4ea97730-c6b8-5205-8848-939d0dc68f76",
-    "ba85645e-b933-5a7f-a648-b527dea115fa"
+    "ba85645e-b933-5a7f-a648-b527dea115fa",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
   ],
-  "resolution": "The adopted sense (owner, #1103, 2026-11-06) is the esse criterion: concrete = having esse in re (DEF-CONCRETE-ESSE-IN-RE), abstract = its contradictory, having no esse in re (DEF-ABSTRACT-NO-ESSE-IN-RE). The owner excludes borderline cases, so this criterion draws an exact line: disjointness holds by non-contradiction and exhaustiveness by excluded middle (result CONCRETE-ABSTRACT-ESSE-DICHOTOMY). That exact dichotomy is a property of the esse criterion only. The causal, spatiotemporal, Fregean and abstraction criteria are rival senses that need not be exhaustive (SEP 'Abstract Objects' §§3–6 records items they leave unclassified or misclassify), and no statement passes from one of them to the adopted sense without an explicit bridge statement. The causal criterion in particular never defines concreteness. Had it done so, the capacity clause of the owner's causal principle would hold by definition (its activity clause would still need an exercise-to-power bridge); as it is, both clauses stay substantive. DEF-CAUSAL-CAPACITY-CONCRETE is a model-local capacity criterion of one finite test and does not fix the corpus sense. DEF-NECESSARY-INDIVIDUAL-CONCRETE uses a world-indexed supplied predicate, a different, world-varying sense; it is not the world-independent classification of DEF-CONCRETE-ABSTRACT-CLASSIFICATION. Paradigm anchors (DEF-CONCRETE-ABSTRACT-ANCHORS) fix that the reasoner is concrete and the set containing 2 is abstract under every intended interpretation.",
+  "resolution": "The adopted sense (owner, #1103, 2026-11-06) is the esse criterion: concrete = having esse in re (DEF-CONCRETE-ESSE-IN-RE), abstract = its contradictory, having no esse in re (DEF-ABSTRACT-NO-ESSE-IN-RE). The owner excludes borderline cases, so this criterion draws an exact line: disjointness holds by non-contradiction and exhaustiveness by excluded middle (result CONCRETE-ABSTRACT-ESSE-DICHOTOMY). That exact dichotomy is a property of the esse criterion only. The causal, spatiotemporal, Fregean and abstraction criteria are rival senses that need not be exhaustive (SEP 'Abstract Objects' \u00a7\u00a73\u20136 records items they leave unclassified or misclassify), and no statement passes from one of them to the adopted sense without an explicit bridge statement. The causal criterion in particular never defines concreteness. Had it done so, the capacity clause of the owner's causal principle would hold by definition (its activity clause would still need an exercise-to-power bridge); as it is, both clauses stay substantive. DEF-CAUSAL-CAPACITY-CONCRETE is a model-local capacity criterion of one finite test and does not fix the corpus sense. DEF-NECESSARY-INDIVIDUAL-CONCRETE uses a world-indexed supplied predicate, a different, world-varying sense; it is not the world-independent classification of DEF-CONCRETE-ABSTRACT-CLASSIFICATION. Paradigm anchors (DEF-CONCRETE-ABSTRACT-ANCHORS) fix that the reasoner is concrete and the set containing 2 is abstract under every intended interpretation. Analyst candidate CONCRETE_AND_ABSTRACT_9 is fixed faithful extensional quotient generation. It does not replace CONCRETE_AND_ABSTRACT_1 or remove its allowance. Its checked collision and omission controls separate generation from esse and causal activity; passing to the adopted abstract sense requires ValuesNoEsse, and passing to inertness additionally requires the owner capacity/activity commitment. No original constitutive essence is formalized. No global finite coverage or exclusivity claim is certified by this bounded test.",
   "term_label": "CONCRETE_AND_ABSTRACT",
   "senses": [
     {
@@ -62,6 +63,12 @@
       "label": "CONCRETE_AND_ABSTRACT_8",
       "definition_id": "ba85645e-b933-5a7f-a648-b527dea115fa",
       "lean_declaration": "TruthCore.Case.Catholicism.StageOne.NecessaryIndividual.ConcreteAt"
+    },
+    {
+      "id": "539a1595-12fa-4e55-88ec-0b0fc64f51d1",
+      "label": "CONCRETE_AND_ABSTRACT_9",
+      "definition_id": "d4feb449-8b67-4dbc-84c6-bd9e749ea67f",
+      "lean_declaration": "TruthCore.Ontology.QuotientGeneration.QuotientGenerated"
     }
   ]
 }

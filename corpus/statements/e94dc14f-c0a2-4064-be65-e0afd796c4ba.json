@@ -1,0 +1,10 @@
+{
+  "id": "e94dc14f-c0a2-4064-be65-e0afd796c4ba",
+  "label": "Selected quotient value is CONCRETE_AND_ABSTRACT_3",
+  "paraphrase": "The selected candidate b lacks esse in re: EsseAbstract InAct esse b. In this batch it follows only from fixed-presentation generation and the explicit classification bridge.",
+  "lean_declaration": "TruthCore.Ontology.ConcreteAbstract.EsseAbstract",
+  "definition_ids": [
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4"
+  ]
+}

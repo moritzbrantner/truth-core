@@ -5,6 +5,7 @@ public import TruthCore.Logic.ActualPhysicalCompleteness
 public import TruthCore.Logic.AdaptivePrediction
 public import TruthCore.Logic.AtomismIndependence
 public import TruthCore.Logic.CaseNonContradiction
+public import TruthCore.Logic.CertifiedCorrection
 public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject
@@ -14,6 +15,7 @@ public import TruthCore.Logic.CommonKnowerScopes
 public import TruthCore.Logic.Configuration
 public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
+public import TruthCore.Logic.DistributedKnowledge
 public import TruthCore.Logic.EpistemicAccuracy
 public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
@@ -32,6 +34,8 @@ public import TruthCore.Logic.LimitAdmission
 public import TruthCore.Logic.MaximumOrder
 public import TruthCore.Logic.MeaningDefinitionFork
 public import TruthCore.Logic.MetaethicsTruthAptRivalBoundary
+public import TruthCore.Logic.MoralAttitudeCalibration
+public import TruthCore.Logic.MoralAttitudeProfiles
 public import TruthCore.Logic.NaturalTheologySemanticScope
 public import TruthCore.Logic.ObjectiveTruthDefinitionFork
 public import TruthCore.Logic.PerformedDenial

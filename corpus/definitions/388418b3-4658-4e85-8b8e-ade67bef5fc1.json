@@ -1,0 +1,13 @@
+{
+  "id": "388418b3-4658-4e85-8b8e-ade67bef5fc1",
+  "label": "MIND_INDEPENDENT_3 candidate",
+  "term": "intervention moral objectivity",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeProfiles.InterventionObject",
+  "definition": "The sentence is a moral fact, its fact exists, it is actually true, and its truth status is invariant over the explicitly admissible attitude interventions.",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "5ccadc7e-1ff8-46d7-8e50-e10c513548bd"
+  ],
+  "note": "Analyst formulation, attribution deferred. Uses the supplied Profile context; applicability and support/intervention completeness remain OPEN. Neither original mind-independence sense is completed."
+}

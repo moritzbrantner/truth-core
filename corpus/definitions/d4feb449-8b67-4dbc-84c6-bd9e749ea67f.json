@@ -1,0 +1,9 @@
+{
+  "id": "d4feb449-8b67-4dbc-84c6-bd9e749ea67f",
+  "label": "CONCRETE_AND_ABSTRACT_9: fixed extensional quotient-generated value",
+  "term": "abstract as a fixed extensional quotient-generated value",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.QuotientGenerated",
+  "definition": "QuotientGenerated g b means b belongs to Set.range g.embed for the fixed faithful presentation 30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd. The equivalent representative criterion is that there exists a with g.value a = b. This is an analyst sibling of CONCRETE_AND_ABSTRACT_1, not an account of constitutive abstraction: its body contains no essence, esse, location, mind, power or causal relation.",
+  "note": "A mathematical candidate with a completed extensional body, not a completion of the original essential criterion. The fixed presentation is indispensable: UnrestrictedGeneration shows that existential choice of a Unit presentation classifies every selected b. The same finite fixed presentation admits independently assigned esse and productive activity on a generated bearer. No other sense is silently identified with this one. Full coverage and intended-reading exclusivity of concrete/abstract criteria remain OPEN; this bounded candidate comparison does not purport to enumerate or settle all criteria."
+}

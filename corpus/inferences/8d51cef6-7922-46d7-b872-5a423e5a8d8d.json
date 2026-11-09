@@ -1,0 +1,13 @@
+{
+  "id": "8d51cef6-7922-46d7-b872-5a423e5a8d8d",
+  "label": "Diagonal SELF_MOTION_1 distinct-part interface from explicit reconstruction bridges (inference)",
+  "input_statement_ids": [
+    "0181cf7b-9934-4d4b-b7e1-7583e3c3a7cd",
+    "3209ff59-a0ec-4e70-8198-63c3056628a4"
+  ],
+  "output_statement_id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+  "rule": "Witness extraction and same-context internal-to-whole transfer",
+  "meaning": "For a diagonal event obtain the explicit integrated whole/parts witness, select its proper moving part p and apply the transfer premise to p moving q. This derives exactly the existing diagonal-to-distinct-moving-part root consumer. Both bridges and whole actuality remain OPEN; independent original SELF_MOTION_2 is not completed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

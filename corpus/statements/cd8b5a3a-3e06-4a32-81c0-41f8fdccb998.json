@@ -1,0 +1,13 @@
+{
+  "id": "cd8b5a3a-3e06-4a32-81c0-41f8fdccb998",
+  "label": "Grounding calibration supplies actual truth",
+  "paraphrase": "For every arbitrary Profile, calibration of its objective classifier to MIND_INDEPENDENT_4 supplies HasTruthComponent. This is a per-reading corollary of the original disjunctive calibration lemma; no classifier adoption is asserted.",
+  "lean_declaration": "TruthCore.Logic.MoralAttitudeCalibration.GroundingCalibrationTruth",
+  "definition_ids": [
+    "9568ff20-a21e-4320-945d-4f73415be3d9",
+    "21fb2d8d-0866-46c5-b869-c1ea81b2e28c"
+  ],
+  "disambiguation_ids": [
+    "31931aba-44bc-544c-b514-aeb64901ccc6"
+  ]
+}

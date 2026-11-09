@@ -1,0 +1,25 @@
+{
+  "id": "117bd382-51d2-4d24-85b2-44ff99423120",
+  "label": "Fixed quotient collision and omission comparison, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c2dbfee6-75d5-47e7-ab9b-a7d64a7d9d7c",
+  "inference_ids": [
+    "296f0ef9-4c17-43b6-9e91-1218aabc7a20"
+  ],
+  "meaning": "Same fixed equivalence, generating map, carrier and selected bearer throughout. Nontrivial collisions do not force lack of esse or inertness. The carried classification and owner commitments are independently necessary for the advertised inertness transfer; range membership is necessary for point classification. Positive compatibility is witnessed, without representing constitutive essence.",
+  "term_senses": {
+    "CONCRETE_AND_ABSTRACT": "539a1595-12fa-4e55-88ec-0b0fc64f51d1"
+  },
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "632ad5ee-e94f-574d-bb37-c02b774984f4",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ],
+  "sense_mixing_control": true,
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}
