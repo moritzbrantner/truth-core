@@ -1,0 +1,16 @@
+{
+  "id": "50b88b45-6492-4bfa-ac45-281375994450",
+  "label": "A2 capability domain controls and unresolved original meaning",
+  "date": "2026-11-09",
+  "statement_ids": [
+    "64ab0f61-b645-5ed9-bd6b-e127abb42133",
+    "59e60161-6af3-5dc0-b3ee-e17490b5a972"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Inventory of source A2 definitions, reported coverage denial dossier/related results and POSSIBLE-CAUSAL-SOURCE-NECESSITY context preserves the distinction between capability and actualGraph nodes. SurveyCapabilityControls gives general outgoing-to-outgoing-or-incoming inclusion, a nonempty Bool separator, a coverage counterexample to broad-denial transfer and independence from actual exercise, all conditional on an explicitly primitive relation. These are diagnostic Lean examples, not registered arguments, original sense completions or a certified modal/source countermodel. Existing PossibleCauseAt uses an accessible causal edge for rigid individuals; it has no endpoint guards. Existing intrinsicPower explicitly excludes unexercised capacity. No faithful dispositional body was found in this bounded inventory. Retain original allowances, no aliases, no source attribution changes, no premise discharge.",
+  "blocker": "Owner must choose accessible-world exercise, unexercised disposition or explicit sibling interpretations for the originals. Accessible exercise additionally needs standpoint/witness-world existence guards, counterpart versus rigid individual policy and quantifier scope. Source concrete coverage to actual causal endpoints, broader denial to narrower denial, nominal possible exercise and root application remain OPEN. Next: obtain that selection, then complete the selected bodies and test interpretations without touching composite _3.",
+  "evidence": [
+    "64695b08-c37a-57d2-a31a-536026720862"
+  ]
+}
