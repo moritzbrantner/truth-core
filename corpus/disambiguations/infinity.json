@@ -19,7 +19,8 @@
     {
       "id": "e8da1c78-203c-415a-bacc-631fadfef6d6",
       "label": "INFINITE_2",
-      "definition_id": "b4590519-63a3-5110-aa2d-3e5f1a02ac2b"
+      "definition_id": "b4590519-63a3-5110-aa2d-3e5f1a02ac2b",
+      "lean_declaration": "TruthCore.Models.QuantitativeInfinity.IsInfinite"
     }
   ]
 }

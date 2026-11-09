@@ -50,6 +50,7 @@ public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 public import TruthCore.Causality.EndlessTemporalDuration
+public import TruthCore.Causality.EntireChainHead
 public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
@@ -115,6 +116,7 @@ public import TruthCore.Causality.PossessionSensitiveAppetite
 public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
+public import TruthCore.Causality.PreservationCandidates
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
