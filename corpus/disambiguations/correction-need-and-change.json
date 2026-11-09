@@ -5,9 +5,11 @@
   "term": "correction",
   "sense_definition_ids": [
     "f57bc65c-efd0-5efa-b257-67784393ddd6",
-    "e26a7988-ed89-57bf-a40e-1767b30a9558"
+    "e26a7988-ed89-57bf-a40e-1767b30a9558",
+    "0b5f78ee-7f72-4717-ada4-55d9dd87300c",
+    "608065fc-4c5c-47dc-bade-1b01f9ffebec"
   ],
-  "resolution": "The q.94 a.5 reading and shared-data test assert only the need for correction. They do not assert an accomplished change or the stronger open bridge that every genuine correction replaces an untrue belief.",
+  "resolution": "The q.94 a.5 reading and shared-data test assert only the need for correction. They do not assert an accomplished change or the stronger open bridge that every genuine correction replaces an untrue belief. CORRECTION_3 and CORRECTION_4 are analyst interpretation alternatives, not a conjunction or a selection of the original CORRECTION_2 mapping. The former requires identical matter; the latter requires different matter and an explicitly primitive replacement act. Original meaning and root authority applicability remain OPEN.",
   "term_label": "CORRECTION",
   "senses": [
     {
@@ -20,6 +22,18 @@
       "id": "d0952c27-807f-40c5-ad99-30d3be00076f",
       "label": "CORRECTION_2",
       "definition_id": "e26a7988-ed89-57bf-a40e-1767b30a9558"
+    },
+    {
+      "id": "d8ce3386-c568-4fad-ad2b-ed7634519711",
+      "label": "CORRECTION_3",
+      "definition_id": "0b5f78ee-7f72-4717-ada4-55d9dd87300c",
+      "lean_declaration": "TruthCore.Logic.CognitiveReplacement.SameMatterRevision"
+    },
+    {
+      "id": "1fa26ac0-d95e-49b1-b1e1-5f9c1c100777",
+      "label": "CORRECTION_4",
+      "definition_id": "608065fc-4c5c-47dc-bade-1b01f9ffebec",
+      "lean_declaration": "TruthCore.Logic.CognitiveReplacement.CrossMatterReplacement"
     }
   ]
 }
