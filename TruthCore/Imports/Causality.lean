@@ -113,6 +113,7 @@ public import TruthCore.Causality.PossessionSensitiveAppetite
 public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
+public import TruthCore.Causality.PreservationCandidates
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
