@@ -1,0 +1,10 @@
+{
+  "id": "37d282ff-3549-4a57-830a-2183ece1e5e7",
+  "label": "Duration measure candidate separation verified (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "b224bd78-9aff-4be7-b424-f8d7c6985ce2",
+  "rule": "Explicit interval witnesses and natural-number arithmetic",
+  "meaning": "Conditional candidate nonvacuity and separation; global physical calibration, original semantic mapping and root recognition remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

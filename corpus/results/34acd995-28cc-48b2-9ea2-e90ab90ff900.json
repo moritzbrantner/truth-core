@@ -1,0 +1,11 @@
+{
+  "id": "34acd995-28cc-48b2-9ea2-e90ab90ff900",
+  "label": "Aevum candidate admissibility controls verified",
+  "argument_id": "eeb5665c-4698-4db5-a5c8-25a3c3b5496a",
+  "challenge_module": "TruthCore.Results.Causality.DurationMeasureCandidates.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DurationMeasureCandidates.Solution",
+  "theorem": "TruthCore.Results.Causality.DurationMeasureCandidates.aevumControls",
+  "comparator_config": "results/34acd995-28cc-48b2-9ea2-e90ab90ff900/comparator.json",
+  "status": "solution-present",
+  "description": "The supplied accessibility includes unrealized adjunct alternatives. Actual constancy alone cannot exclude substantial corruption. Holding inventories and partial-order comparison remain explicit candidate interpretations, not original aevum or Boethian eternity."
+}

@@ -1,11 +1,12 @@
 {
   "id": "19e01de3-b9af-5468-a2dd-3d6fdb902fd3",
-  "label": "AEVUM_4: The q.10 a.5 measure of substantial being that neither consists in change nor is its…",
+  "label": "AEVUM_4: The q.10 a.5 measure of substantial being that neither consists in change nor is its\u2026",
   "legacy_id": "DEF-AEVUM",
   "term": "aevum (aeviternal duration)",
   "definition": "The q.10 a.5 measure of substantial being that neither consists in change nor is its subject, while admitting adjunct actual or potential changes. It is internally tota simul but compatible with before and after, unlike proper eternity.",
   "basis": "sourced",
   "claim_ids": [
     "531999e9-d92d-5494-91b2-61345636aaf0"
-  ]
+  ],
+  "note": " Original meaning remains unresolved. Analyst candidate forks and exact remaining mapping choices: corpus/definitions/duration-measure-candidates.md. No original declaration or allowance is completed by these siblings."
 }

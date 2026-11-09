@@ -1,0 +1,9 @@
+{
+  "id": "94a5ba93-db32-4c7f-b9a5-7f18d24eaf2e",
+  "label": "adequate interval comparison",
+  "term": "adequate interval comparison",
+  "definition": "Readout preserves and reflects stipulated interval extent comparison.",
+  "basis": "stipulative",
+  "note": "Analyst candidate only; attribution deferred. Exact operational interpretation and original-mapping blockers: corpus/definitions/duration-measure-candidates.md.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.Comparative"
+}
