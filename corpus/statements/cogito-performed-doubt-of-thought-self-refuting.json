@@ -1,6 +1,6 @@
 {
   "id": "8697bb2d-f29d-5945-88ea-bb62d6a3e4e2",
-  "label": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted…",
+  "label": "Every performed doubt that any thought occurs makes its doubted content false",
   "legacy_id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
   "paraphrase": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted content false: ∀ a, Performed a → DoubtsThought a → ¬ NoEpisodeOccurs Occurs. It says nothing about an unperformed doubt and does not assert that any doubt is performed.",
   "lean_declaration": "TruthCore.Causality.Round3CogitoBase.PerformedDoubtOfThoughtSelfRefuting",

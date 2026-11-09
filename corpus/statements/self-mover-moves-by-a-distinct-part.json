@@ -1,6 +1,6 @@
 {
   "id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
-  "label": "Whatever moves itself in a respect does so by a part, distinct from the whole, that moves the…",
+  "label": "Every SELF_MOTION_2 has a part distinct from the whole moving it in the same respect",
   "legacy_id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
   "paraphrase": "OPEN analyst reading of Physics VIII.4-5: whatever moves itself in a respect does so by a part, distinct from the whole, that moves the whole in that respect.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.SelfMoverMovesByADistinctPart",
