@@ -1,0 +1,17 @@
+{
+  "id": "0247281b-9e50-4633-b3a1-a74c7d3bcede",
+  "label": "Selected necessary ancestor determines the unique actual root (inference)",
+  "input_statement_ids": [
+    "177b9b54-212d-5162-b288-d0cb70899f3d",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a"
+  ],
+  "output_statement_id": "91b085c4-f1c7-5ada-9848-8e7dc753313a",
+  "rule": "Shared maximum identifies every actual root",
+  "meaning": "Retain the SAME necessary actual concrete ancestor n. Explicit existence-to-esse and grades policies supply an esse maximum y; genus and esse-cause-to-actual-concrete-ground identify y with n and with every actual concrete root x. Therefore x=n. The Unit restriction retains the same carrier, selected world, esse and dictionaries. No global well-foundedness, all-world rootness, uniqueness of all necessary individuals, God naming or premise truth follows. This connects selected ancestry to the existing UniqueRootPerfection and Fourth Way consumer conditionally; it does not discharge an application premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
