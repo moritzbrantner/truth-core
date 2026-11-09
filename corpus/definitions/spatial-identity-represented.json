@@ -1,0 +1,9 @@
+{
+  "id": "dff0bce7-4840-4341-8162-a242810f7044",
+  "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_6",
+  "term": "Equality of represented configurations",
+  "definition": "Literal equality x=y in the full supplied carrier C, with fixed parameters. This differs from isomorphism of selected observations and from class equality when nonidentity transformations move a configuration. Passive reencoding by a bijection preserves equality, without identifying an active relocation with a chart change.",
+  "basis": "stipulative",
+  "note": "Analyst framework, attribution deferred. C, B and R, the data signature, body-permutation subgroup H and active group action G are explicit inputs; no Euclidean geometry, complete physical data, real-world possibility, or original-source scope is asserted. Fixed body labels use the bottom subgroup. World, chart and other parameters are fixed within each comparison; cross-world/cross-carrier identification requires a separate map. Data may encode metric, orientation, order or richer predicates, but completeness is open. Active relocation is distinct from a passive bijective chart reencoding transporting data and the orbit relation.",
+  "lean_declaration": "TruthCore.Space.IdentityCriteria.RepresentedIdentity"
+}
