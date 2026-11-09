@@ -1,0 +1,9 @@
+{
+  "id": "7ed3d53e-7b11-4239-8f02-81a841020f89",
+  "label": "EXISTS_1: Domain existential quantification",
+  "term": "exists",
+  "definition": "A candidate from E satisfies P: \u2203 x : E, P x. The constructor requires exactly a witness and P of that witness; it imposes no world actuality.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ExistsSenseMeaning.DomainExists",
+  "note": "Analyst semantic interpretation, attribution deferred. E is a candidate domain, not an assertion of actuality. ex is primitive world-indexed existence; no structural law or identification with InAct at esse is assumed. Unit with empty ex separates the readings; full ex supplies a positive example. Property quantification, modal necessity and existence-to-esse are separate commitments."
+}

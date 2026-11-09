@@ -1,0 +1,10 @@
+target = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+[[node]]
+id = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+[[node]]
+id = "EXISTS_1 candidate witness survives empty EXISTS_2 extension"
+[[edge]]
+premises = ["EXISTS_1 candidate witness survives empty EXISTS_2 extension"]
+conclusion = "STMT-NECESSARY-ROOT-ACTUALIST-K"
+kind = "rival"
+status = "mapped"

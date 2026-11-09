@@ -52,6 +52,7 @@ public import TruthCore.Causality.EternityDefinitionFork
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistenceSenseRoute
 public import TruthCore.Causality.ExistentialSelfActualization
+public import TruthCore.Causality.ExistsSenseMeaning
 public import TruthCore.Causality.FiniteBranching
 public import TruthCore.Causality.FiniteNecessaryUnion
 public import TruthCore.Causality.FiniteRestriction

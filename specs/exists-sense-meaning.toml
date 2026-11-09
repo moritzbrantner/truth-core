@@ -1,0 +1,17 @@
+[batch]
+vocab = "TruthCore.Causality.ExistsSenseMeaning"
+results = "TruthCore.Results.Causality.ExistsSenseMeaning"
+[[statement]]
+id = "EXISTS_1 candidate witness survives empty EXISTS_2 extension"
+lean = "Controls"
+paraphrase = "Unit supplies a domain witness, but no actual witness under an empty existence extension; a full extension supplies an actual witness. These are logical interpretations, not metaphysical possibility claims."
+definitions = ["7ed3d53e-7b11-4239-8f02-81a841020f89", "b3b4e279-e1cf-4e54-a999-80c5bb5a43cc"]
+disambiguations = ["DISAMB-EXISTS"]
+[[argument]]
+id = "Empty actual extension separates existential meanings"
+theorem = "controls"
+premises = []
+conclusion = "EXISTS_1 candidate witness survives empty EXISTS_2 extension"
+rule = "Explicit constructors and elimination of an impossible existence guard"
+meaning = "A Unit candidate satisfies True. An actual witness under the empty extension would carry False. Under the full extension the same candidate satisfies the guard and predicate. No domain-to-actuality implication or esse bridge is asserted."
+sense_mixing_control = true

@@ -1,0 +1,13 @@
+{
+  "id": "ad4acc23-2d2c-4c0e-8fd1-1616084b990c",
+  "label": "EXISTS_1 candidate witness survives empty EXISTS_2 extension",
+  "paraphrase": "Unit supplies a domain witness, but no actual witness under an empty existence extension; a full extension supplies an actual witness. These are logical interpretations, not metaphysical possibility claims.",
+  "lean_declaration": "TruthCore.Causality.ExistsSenseMeaning.Controls",
+  "definition_ids": [
+    "7ed3d53e-7b11-4239-8f02-81a841020f89",
+    "b3b4e279-e1cf-4e54-a999-80c5bb5a43cc"
+  ],
+  "disambiguation_ids": [
+    "620f1cde-0f67-5ecd-a96c-2851588725d5"
+  ]
+}
