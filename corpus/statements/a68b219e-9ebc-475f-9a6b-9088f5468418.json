@@ -1,0 +1,11 @@
+{
+  "id": "a68b219e-9ebc-475f-9a6b-9088f5468418",
+  "label": "Actual grounding lacks a finite Nat rank",
+  "paraphrase": "Explicit rival framework: the SAME selected grounding relation on actual concreta at w has no strictly descending Nat rank. This allows a non-well-founded graph or a well-founded transfinite hierarchy; neither is asserted actual.",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.ActualGroundingUnranked",
+  "definition_ids": [
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

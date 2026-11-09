@@ -1,0 +1,76 @@
+[batch]
+vocab = "TruthCore.Causality.ActualGroundingPotentialRank"
+results = "TruthCore.Results.Causality.ActualGroundingPotentialRank"
+definitions = ["DEF-ACTUAL-GROUNDING-FINITE-RANK", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "Potential lower bound on selected-world actual concreta", "Uniform positive numerical gap", "Uniform potential increase toward actual grounding effects"]
+
+[[statement]]
+id = "Actual grounding potential lower bound"
+lean = "PotentialLowerBound"
+paraphrase = "OPEN analyst calibration: one fixed real L bounds S x below for ALL actual concreta at the selected world w. S is on candidate beings, not integer time."
+definitions = ["Potential lower bound on selected-world actual concreta", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE"]
+
+[[statement]]
+id = "Actual grounding potential positive gap"
+lean = "PositiveGap"
+paraphrase = "OPEN numerical input: the one supplied real epsilon is strictly positive; the same epsilon applies on every relevant grounding edge."
+definitions = ["Uniform positive numerical gap"]
+
+[[statement]]
+id = "Actual grounding potential uniform edge gap"
+lean = "UniformGroundGap"
+paraphrase = "OPEN analyst correlation: for every actual concretum x at w and every actual concrete ground y of x at the SAME world, S y + epsilon <= S x. Both endpoint guards are retained. The same supplied S and epsilon occur on every edge. This does not define grounding or establish a physical calibration."
+definitions = ["Uniform potential increase toward actual grounding effects", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE"]
+
+[[statement]]
+id = "Actual grounding lacks a finite Nat rank"
+lean = "ActualGroundingUnranked"
+paraphrase = "Explicit rival framework: the SAME selected grounding relation on actual concreta at w has no strictly descending Nat rank. This allows a non-well-founded graph or a well-founded transfinite hierarchy; neither is asserted actual."
+definitions = ["DEF-ACTUAL-GROUNDING-FINITE-RANK", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE"]
+
+[[statement]]
+id = "Actual grounding quantitative omission and nonvacuity controls"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls on Unit-world Nat candidates, all actual and concrete. One fixed reverse-successor graph fails Nat ranking and selected-world foundation. S=0 with epsilon=0 omits positivity; S n=-n with epsilon=1 omits any lower bound; S=0 with epsilon=1 omits edge gap. Each retains the other two inputs. On the same graph S n=1/(n+1) is lower-bounded and has strictly positive edge increases toward effects, yet no positive uniform epsilon. An infinite ascending Nat graph with S n=n, L=0, epsilon=1 jointly satisfies all inputs, has edge 0 to 1 and admits the constructed finite rank. No actual metaphysical interpretation is asserted."
+definitions = ["DEF-ACTUAL-GROUNDING-WF", "DEF-ACTUAL-GROUNDING-FINITE-RANK", "Potential lower bound on selected-world actual concreta", "Uniform positive numerical gap", "Uniform potential increase toward actual grounding effects"]
+
+[[argument]]
+definitions = ["DEF-ACTUAL-GROUNDING-FINITE-RANK", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "Potential lower bound on selected-world actual concreta", "Uniform positive numerical gap", "Uniform potential increase toward actual grounding effects"]
+id = "Actual grounding finite rank from bounded uniform real potential"
+theorem = "finiteRankFromPotential"
+premises = ["Actual grounding potential lower bound", "Actual grounding potential positive gap", "Actual grounding potential uniform edge gap"]
+conclusion = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Construct natural floor of normalized potential and prove strict rank descent"
+meaning = "New non-transcription conditional support option: floor((S x-L)/epsilon) supplies the existing Nat rank. Lower bound makes normalized potential nonnegative on actual nodes; the fixed positive gap gives normalized increase at least one along each y-to-x edge; floor therefore strictly increases toward effects. All three numeric inputs are OPEN; no real-world grounding correlation, premise truth, original declaration clearance or root discharge. One sufficient quantitative profile, no converse or universal metaphysical adequacy asserted."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+rival_statement_id = "Actual grounding lacks a finite Nat rank"
+sense_definition_id = "DEF-ACTUAL-GROUNDING-FINITE-RANK"
+outcome = "excluded"
+conditions = "Joint PotentialLowerBound m w S L, PositiveGap epsilon, UniformGroundGap m w S epsilon; standard Mathlib three logical axioms. All calibrations open."
+scope = "Same Profile W B, same selected w, same rigid candidate domain B and actual/concrete restriction; no other world or temporal stock."
+coverage = "Only the explicitly encoded Nat-rank condition versus its negation; no exhaustive metaphysical profile classification."
+exclusivity = "Negation of the identical ActualGroundingFiniteRank m w; incompatibility is propositional."
+next_step = "Investigate independent real-world calibration or a separately encoded weaker profile; no original premise discharged."
+
+[[argument]]
+definitions = ["DEF-ACTUAL-GROUNDING-FINITE-RANK", "DEF-ACTUAL-GROUNDING-WF", "DEF-CONCRETE-ESSE-IN-RE", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "Potential lower bound on selected-world actual concreta", "Uniform positive numerical gap", "Uniform potential increase toward actual grounding effects"]
+id = "Actual grounding quantitative controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Actual grounding quantitative omission and nonvacuity controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit populated Nat interpretations, accessibility induction, real arithmetic and Archimedean unboundedness"
+meaning = "Same reverse-successor actual grounding for all omissions and the bounded varying-gap rival. Omitting any one of the three numeric conditions permits nonfoundation while retaining the other two. The reciprocal potential shows positive varying gaps are insufficient. The ascending infinite populated witness shows the full bundle is nonvacuous and does not imply finite cardinality. Model claims concern these mathematical interpretations only."
+[[argument.research_comparisons]]
+target_statement_id = "Actual grounding potential lower bound"
+rival_statement_id = "Actual grounding lacks a finite Nat rank"
+sense_definition_id = "DEF-ACTUAL-GROUNDING-FINITE-RANK"
+outcome = "model-witnessed"
+conditions = "Fixed Control.descending, Unit world, Nat all actual/concrete; S=0,L=0,epsilon=0 retains lower bound and uniform gap while positivity fails."
+scope = "Identical reverse-successor grounds y x iff y=x+1, selected (), no varying frame or bearer identity."
+coverage = "One explicitly populated omission model, not all lower-bounded grounding profiles."
+exclusivity = "No exclusion between lower bound alone and absence of Nat rank is assumed."
+witness = "Control.descending with S=0,L=0,epsilon=0 in Control.Certificate; controls proves lower bound, gap, failed positivity, failed Nat rank and failed ActualGroundingWF."
+next_step = "The checked full-bundle exclusion requires both remaining open calibrations; no metaphysical actuality inferred."

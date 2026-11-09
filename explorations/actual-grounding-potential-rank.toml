@@ -1,0 +1,23 @@
+target = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+[[node]]
+id = "STMT-ACTUAL-GROUNDING-WF"
+[[node]]
+id = "Actual grounding potential lower bound"
+[[node]]
+id = "Actual grounding potential positive gap"
+[[node]]
+id = "Actual grounding potential uniform edge gap"
+[[edge]]
+premises = ["Actual grounding potential lower bound", "Actual grounding potential positive gap", "Actual grounding potential uniform edge gap"]
+conclusion = "STMT-ACTUAL-GROUNDING-FINITE-RANK"
+kind = "derivation"
+status = "certified"
+note = "Checked finiteRankFromPotential constructs floor((S x-L)/epsilon), with full actual guards; compare omissions on one Nat reverse-successor graph. No temporal stock identity."
+[[edge]]
+premises = ["STMT-ACTUAL-GROUNDING-FINITE-RANK"]
+conclusion = "STMT-ACTUAL-GROUNDING-WF"
+kind = "derivation"
+status = "certified"
+note = "Reuse actualGroundingWFFromFiniteRank unchanged."
