@@ -101,3 +101,70 @@ results or refutations of Aquinas:
 The source-only preservation changes no `Challenge`, `Solution`, existing
 statement identity, root-route selection, or meanings of `HasIntellect` and
 `HasWill`. All six new readings are source claims, not verified derivations.
+
+## Possession-sensitive finite capacity (2026-11-09)
+
+The follow-up to pending #1284 (head `1cb91ff342d673ac2c838c87e939011bf535b660`)
+inspected its exact diff, the #355 context, related propositions and the will
+recognition dossiers. Its flag-level audit remains useful; the next step is
+now encoded in `TruthCore/Causality/PossessionSensitiveAppetite.lean` and the
+matching generated batch. This is an analyst pragmatic interpretation with
+attribution deferred, not a universal definition of intellectual appetite.
+
+One end is held fixed and is represented as good in both absent and possessed
+states. `Action.acquire` makes it possessed; `Action.retain` preserves its
+possession; `Action.ignore` leaves it alone. `serves` excludes acquisition of an
+already possessed end, retention of an absent end, and indifference in either
+state. Thus its action/end relation distinguishes seeking from resting rather
+than hiding them in an appetite flag. These are hypothetical response states,
+not a claim that God changes over time. An actual multi-end intellectual or
+divine application remains an additional semantic obligation.
+
+`Profile.rank` is a primitive comparative appetitive attraction input, distinct
+from representation, ability and objective value. The **OPEN calibration** only
+compares the appropriate response against ignoring, only where that end is
+represented as good. For example, acquiring absent water or retaining possessed
+water may outrank indifference. Mere cognition with zero attraction, aversion,
+and unavailable response are serious alternatives, not logical errors. The
+rank is not derived from representation or justified as normatively correct.
+No comparison against every action, maximizing rule, unique optimum, global
+form-inclination principle or actual selection is assumed. This is the weakest
+comparison used by this proof; no claim of minimality across all appetite
+semantics is made.
+
+The `capacity` theorem retains two explicit inputs: local calibration and local
+availability. It constructs a feasible, comparatively oriented action witness,
+then checks its appropriateness and possession result by cases. Neither premise
+already states this existential conclusion. `controls` fixes populated
+representations in both states: the responsive profile satisfies both inputs;
+the cognitive-only profile has all abilities but zero attraction and fails
+capacity; the unavailable profile retains calibration but fails capacity.
+Both carrying-premise omissions and nonvacuity are in the frozen Challenge and
+their respective Comparator configurations. No existing choice/tie/output
+controls were recreated. These finite models witness the stated pragmatic
+interpretation only, not real-world applicability or metaphysical possibility.
+
+Connection plan: the root-route target remains STMT-WILL-FOLLOWS-INTELLECT,
+and hence STMT-GOD-HAS-WILL. The next unencoded inference must supply this
+representation/response profile from intellect and recognize its structured
+capacity by the unchanged `HasWill` predicate. The old recognition premise is
+not discharged, replaced or silently identified with `Capacity`. A divine
+application additionally requires known goodness/self-knowledge with possessed
+good rest. No will, objective normative truth or root premise is established.
+The two new results are currently disconnected support for that named bridge;
+they must not be counted as completed root progress. The existing #355
+`controls` Comparator coverage limitation recorded in #1284 remains unchanged.
+
+Exact reuse boundary: the inspected existing declarations were
+`Results.Causality.IntellectualInclination.willFromIntellectualInclination`
+and its `controls`, `Results.Causality.Round5Worklist.willFromIntellectualAppetite`
+and `everyFormInclinedFromFinality`, `Results.Modal.SimplicityCollapse.core`
+(with the optional/inefficacious act interpretations), and
+`Results.Modal.OptimalCreationChoice.checks`. Prefix each with `TruthCore.`.
+They are reused as established scope boundaries rather than imported as
+premises of the new finite proof. The original inclination Comparator config
+lists the derivation only, not its controls. In contrast both new theorem names
+have their own zero-axiom Comparator configurations. No broad idle-library
+claim is made: `corpus.py orphans` is unavailable in this checkout; the existing
+`orphan_summary.py --base origin/main` reports the two new disconnected results,
+whose single missing connection plan is stated above.

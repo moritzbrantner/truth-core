@@ -1,0 +1,11 @@
+{
+  "id": "4afe8379-f369-422a-bdf7-bc0d1cb582aa",
+  "label": "Possession-sensitive appetite populated omissions",
+  "argument_id": "78ae25e6-e650-4979-8e0d-72da32c07b53",
+  "challenge_module": "TruthCore.Results.Causality.PossessionSensitiveAppetite.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution",
+  "theorem": "TruthCore.Results.Causality.PossessionSensitiveAppetite.controls",
+  "comparator_config": "results/4afe8379-f369-422a-bdf7-bc0d1cb582aa/comparator.json",
+  "status": "solution-present",
+  "description": "Nonvacuity and carrying-premise omissions with all possession-state representation antecedents populated. Availability alone allows a cognitive-only profile, and calibration alone allows an unavailable response. These are finite pragmatic models only."
+}

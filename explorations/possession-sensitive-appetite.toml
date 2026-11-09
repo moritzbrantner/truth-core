@@ -1,0 +1,24 @@
+target = "STMT-WILL-FOLLOWS-INTELLECT"
+[[node]]
+id = "STMT-WILL-FOLLOWS-INTELLECT"
+[[node]]
+id = "Possession-sensitive capacity"
+text = "A represented end admits an oriented feasible acquisition or retention action according to possession."
+[[node]]
+id = "Local appetitive calibration"
+text = "At represented states, the possession-appropriate response outranks ignoring; other comparisons are unconstrained."
+[[node]]
+id = "Local response availability"
+text = "The possession-appropriate action is feasible at represented ends."
+[[edge]]
+premises = ["Local appetitive calibration", "Local response availability"]
+conclusion = "Possession-sensitive capacity"
+kind = "derivation"
+status = "certified"
+argument = "Possession-sensitive capacity from calibration and availability"
+[[edge]]
+premises = ["Possession-sensitive capacity"]
+conclusion = "STMT-WILL-FOLLOWS-INTELLECT"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: intellect must supply the representation profile; capacity must be recognized by unchanged HasWill. No universal or divine application yet."

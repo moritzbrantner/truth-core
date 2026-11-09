@@ -11,10 +11,12 @@
   ],
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "#355: typed the q.19 a.1 argument with forms and inclinations so that STMT-WILL-FOLLOWS-INTELLECT is derived from three separable premises. Respects docs/intellectual-appetite-source.md: inclination is power-level (no exercise, no passivity), natural inclination yields no will (control), and HasWill is not redefined (recognition step C is an explicit premise). Omission controls for each premise and a positive model.",
-  "blocker": "The recognition step is near-definitional under DEF-HAS-WILL but still a premise; the analogy premise (an inclination follows every form) and the intelligible-form premise are unattributed analyst formulations of q.19 a.1 pending claims on the pinned witness. STMT-IMMATERIAL-IS-INTELLECTUAL (the other #355 target) is not addressed.",
+  "summary": "#355: typed the q.19 a.1 argument with forms and inclinations so that STMT-WILL-FOLLOWS-INTELLECT is derived from three separable premises. Respects docs/intellectual-appetite-source.md: inclination is power-level (no exercise, no passivity), natural inclination yields no will (control), and HasWill is not redefined (recognition step C is an explicit premise). Omission controls for each premise and a positive model. Follow-up 2026-11-09 inspects pending #1284 and encodes a new finite possession-sensitive action/end capacity cluster, with populated cognitive-only and unavailable omission models; see docs/intellectual-appetite-source.md. Original successful conditional result retained; this does not discharge will.",
+  "blocker": "OPEN: supply representation and local response constraints from intellect, derive or explicitly retain primitive appetitive calibration, and recognize structured Capacity by the unchanged HasWill predicate. Finite pragmatic models establish no normative truth, metaphysical possibility or divine application. Existing #355 controls Comparator coverage limit is unchanged; exact #1284 reuse and rejected duplicate output/optimality leads are preserved in docs/intellectual-appetite-source.md. Attribution deferred; no immateriality/life/concrete-scope work.",
   "evidence": [
     "9b390598-4e9d-5183-a012-ee8fd1176f50",
-    "04e338e9-8159-5cac-84f6-94ec42b6c4e9"
+    "04e338e9-8159-5cac-84f6-94ec42b6c4e9",
+    "0032977e-e4be-4e0f-84b8-84dce7094882",
+    "4afe8379-f369-422a-bdf7-bc0d1cb582aa"
   ]
 }
