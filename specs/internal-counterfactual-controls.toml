@@ -1,0 +1,16 @@
+[batch]
+vocab = "TruthCore.Metaethics.InternalCounterfactual"
+results = "TruthCore.Results.Metaethics.InternalCounterfactual"
+
+[[statement]]
+id = "Internal counterfactual acceptance and explicit-profile truth separate"
+lean = "Controls"
+paraphrase = "Two finite explicit-profile controls: an actually wrong content with a changed-approval alternative is internally accepted although the candidate counterfactual is false, and a stably true content satisfies that candidate without internal acceptance. Licensing varies with attitudes in both controls. No moral facthood, ontic independence, adequacy of counterfactual selection, or historical worldview is certified."
+
+[[argument]]
+id = "Internal counterfactual acceptance separation controls"
+theorem = "controls"
+premises = []
+conclusion = "Internal counterfactual acceptance and explicit-profile truth separate"
+rule = "Finite evaluation"
+meaning = "Check the two explicit Bool-profile assignments, including actual truth, inhabited alternatives and attitude-sensitive licensing. Conditional semantic calibration only; original mind-independence senses remain open."

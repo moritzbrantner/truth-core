@@ -1,0 +1,11 @@
+{
+  "id": "f4c0852f-51f0-4363-8998-a0e022572aa0",
+  "label": "Internal counterfactual acceptance separation controls",
+  "argument_id": "b6146760-c207-4bb5-af3d-b55319db7754",
+  "challenge_module": "TruthCore.Results.Metaethics.InternalCounterfactual.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.InternalCounterfactual.Solution",
+  "theorem": "TruthCore.Results.Metaethics.InternalCounterfactual.controls",
+  "comparator_config": "results/f4c0852f-51f0-4363-8998-a0e022572aa0/comparator.json",
+  "status": "solution-present",
+  "description": "Check the two explicit Bool-profile assignments, including actual truth, inhabited alternatives and attitude-sensitive licensing. Conditional semantic calibration only; original mind-independence senses remain open."
+}

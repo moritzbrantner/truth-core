@@ -1,0 +1,10 @@
+{
+  "id": "9ee4cb71-b753-4fed-81f5-16045aecff24",
+  "label": "Internal counterfactual acceptance separation controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "72f82713-33ab-4231-aad0-bdced1ca58b0",
+  "rule": "Finite evaluation",
+  "meaning": "Check the two explicit Bool-profile assignments, including actual truth, inhabited alternatives and attitude-sensitive licensing. Conditional semantic calibration only; original mind-independence senses remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

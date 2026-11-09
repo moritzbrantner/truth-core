@@ -1,0 +1,13 @@
+target = "STMT-CATHOLICISM-TRUE"
+[[node]]
+id = "STMT-CATHOLICISM-TRUE"
+[[node]]
+id = "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+[[node]]
+id = "Internal counterfactual acceptance and explicit-profile truth separate"
+[[edge]]
+premises = ["Internal counterfactual acceptance and explicit-profile truth separate"]
+conclusion = "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+kind = "bridge"
+status = "rejected"
+note = "Internal assertion/truth separation supplies no identification of moral wrongness with form/end goodness and no failure of the named approval definition. Those substantive bridges remain open."
