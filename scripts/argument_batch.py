@@ -329,6 +329,12 @@ def build_records(spec: dict, write: bool) -> list[str]:
                   "comparator_config": comparator, "status": "solution-present", "description": a["meaning"]}
         if a.get("label"):
             result["label"] = a["label"]
+        if "research_comparisons" in a:
+            result["research_comparisons"] = [
+                {**cell, "target_statement_id": handles.ref("statement", cell["target_statement_id"]),
+                 "rival_statement_id": handles.ref("statement", cell["rival_statement_id"]),
+                 "sense_definition_id": handles.ref("definition", cell["sense_definition_id"])}
+                for cell in a["research_comparisons"]]
         if "transcription" in a:
             result["transcription"] = a["transcription"]
         dump(record_path(existing["inferences"], "inferences", iid), inference, write, planned)

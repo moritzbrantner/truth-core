@@ -15,6 +15,13 @@ function example(): PremiseDossier {
 }
 
 describe("dossier transport", () => {
+  test("successful attempts never manufacture establishment or closure", () => {
+    const value = example();
+    value.attempts = [{ ...value.attempts[0], outcome: "succeeded" }];
+    const parsed = parseDossiers({ P: value }).P;
+    expect(parsed.established).toBe(false);
+    expect(parsed.closure).toBeNull();
+  });
   test("accepts an open premise with a blocked attempt without altering status", () => {
     const value = example();
     expect(parseDossiers({ P: value })).toEqual({ P: value });

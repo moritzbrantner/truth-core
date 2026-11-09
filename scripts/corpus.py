@@ -3021,9 +3021,11 @@ def validate() -> dict[str, int]:
     result_configs = {result["id"]: validate_result_config(path, result, argument_index) for path, result in results}
 
     from next_steps import validate_case_split
+    from research_comparisons import validate_comparisons
     for path, result in results:
         try:
             validate_case_split(result, set(statement_index), result_ids)
+            validate_comparisons(result, set(statement_index), definition_ids)
         except ValueError as exc:
             raise CorpusError(f"{path.relative_to(ROOT)}: {exc}") from exc
         for case in result.get("case_split", {}).get("cases", []):
