@@ -216,3 +216,62 @@ rejected propext before this policy correction. The fixed Challenge is generated
 proof completion; the original Challenge is not weakened. All five revised
 interfaces build and bind (5 bound, 0 mismatch); final Comparator/NanoDa and CI
 are required before merge. Specs are split by original/reconciled interfaces.
+
+### Bounded remaining-family audit (2026-11-09)
+
+Target: the existing actual-contingency node and necessary-root actualist
+reading, after #1241 and ExistenceSenseRoute. This is an obstruction/reuse
+audit, not another certified result or a migration of the orphan inventory.
+The largest materially related remaining cluster is the collapse family
+(category B); the historical table's “node missing” entries are superseded by
+the follow-up and current-main reconciliation above.
+
+* `TruthCore.Results.Modal.S4.Laws.checks` supplies full-collapse necessity
+  and symmetric transfer. Its first equivalence needs reflexivity, already
+  covered for the route by `notNecessarilyCollapsedT`; its symmetric transfer
+  is covered by `notPossiblyCollapsedKTB`. Using S4 instead adds structure
+  without weakening those existing root refutations.
+* `TruthCore.Results.Modal.B.NecessarySymmetry.checks` likewise concerns
+  full-predicate collapse under symmetry. The existing T/B refutations already
+  reject the corresponding rivals under their stated schemas. Restricted
+  language propagation (`B.LanguagePropagation.checks`) additionally requires
+  excluded middle and closure of the predicate inventory under negation and
+  box. To apply it to individual contingency the inventory must represent the
+  witness's existence predicate. Full `allPredicates` already does; an
+  arbitrary restricted inventory need not. No inventory calibration is supplied
+  by a mere import or by the existence of a candidate type.
+* The closest actualist boundary is already encoded, not a new bridge:
+  `TruthCore.Results.Modal.ActualistDomains.boxAllToAllBox_iff` and
+  `increasing_excludes_contingency` show that box-forall to forall-box over
+  **all total predicates** forces increasing presence extensions and excludes
+  every `ContingentAt` witness. `ActualistDomains.checks` packages these facts
+  and an unchanged universal-frame model with both a necessary and a contingent
+  individual. Thus S5 alone does not impose increasing domains. The reverse
+  transfer characterizes decreasing domains and is not interchangeable.
+* `TruthCore.Results.Causality.ExistenceSenseRoute.boxKToActualistK` obtains
+  actual presence from the **same root's RootFacts**, not from a domain policy
+  or reflexivity. Its empty-extension control separates inhabited candidate
+  type plus vacuous box-existence from actual existence. It does not supply
+  arbitrary `ExistsAt`/esse calibration or actual contingency.
+
+Stop condition: no fresh ModalRootConnection theorem is warranted for these
+already encoded consequences. In particular, do not rename the domain
+certificate or the #1241 refutations under new identities to lower an orphan
+count. A future corpus connection for the domain result would need an explicit
+route-level rival stating the full guarded-quantifier transfer on the same
+Ontic, then a registered refutation using that certificate and the OPEN
+contingency node. That rival is not already a premise of the root route, and
+registering the contact would not defend the node. A genuinely weaker
+restricted-language route instead needs the existence-predicate calibration
+and inventory closure just listed; their applicability is OPEN.
+
+Premise comparison / claim-type sweep: no premise, statement, sense, model,
+Challenge or result changed. Existing K refutation retains the OPEN node;
+T retains T plus node; B retains B plus node; S5 retains T, 5 plus node.
+The domain correspondence retains its total-predicate, fixed-candidate-roster,
+existence-guarded semantics and requires no frame schema. No schema or domain
+policy was inferred from actual root presence. The node remains OPEN; no root
+truth, philosophical calibration, independent premise defense, or new
+countermodel is claimed. Existing proof evidence is reused; this audit adds
+only persisted findings. Shared conventions sourceRevision:
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
