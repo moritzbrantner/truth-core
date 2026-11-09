@@ -1,0 +1,12 @@
+{
+  "id": "de6096d1-b30d-480c-8035-ed17950bf8ca",
+  "label": "Whole-series entailing carried reason exists",
+  "paraphrase": "At the fixed actual world, some actual necessarily existing substance carries obtaining content that truth-entails preservation of every actual contingent fact across accessible worlds. This is an open analyst proposition, not a theorem or historical attribution.",
+  "lean_declaration": "TruthCore.Explanation.WholeSeriesReason.HasEntailingWholeReason",
+  "definition_ids": [
+    "9e6a970e-f7f6-49da-a738-84aa48ea5372"
+  ],
+  "disambiguation_ids": [
+    "66376b09-a75d-4155-870b-6d9c1c8f42b4"
+  ]
+}
