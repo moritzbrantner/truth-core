@@ -1,0 +1,12 @@
+{
+  "id": "29642a52-bbc3-4345-a694-eee5f6666c53",
+  "label": "Scoped determination implies sufficiency (inference)",
+  "input_statement_ids": [
+    "cb49b719-ca91-48a5-8241-1d1bee17187d"
+  ],
+  "output_statement_id": "aeb5a002-ec89-4a8d-b8f6-0150b8713a3c",
+  "rule": "implication-elimination",
+  "meaning": "On the identical supplied move scope, the forward direction of internal determination yields one-way sufficiency. No jurisdiction inference or original-sense identification.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

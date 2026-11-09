@@ -1,0 +1,33 @@
+{
+  "id": "fdb2baf5-a30a-4221-8adb-9ec0cb5e2726",
+  "label": "Scoped determination implies sufficiency",
+  "premise_statement_ids": [
+    "cb49b719-ca91-48a5-8241-1d1bee17187d"
+  ],
+  "conclusion_statement_id": "aeb5a002-ec89-4a8d-b8f6-0150b8713a3c",
+  "inference_ids": [
+    "29642a52-bbc3-4345-a694-eee5f6666c53"
+  ],
+  "meaning": "On the identical supplied move scope, the forward direction of internal determination yields one-way sufficiency. No jurisdiction inference or original-sense identification.",
+  "definition_ids": [
+    "487ff012-7deb-476b-983c-e6233f98d1fa",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "b3c3ae3f-aa1b-42d4-b940-e1066696087f"
+  ],
+  "disambiguation_ids": [
+    "acb50043-141e-546e-b296-4601bae89bec"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NATURAL_LIGHT_OF_HUMAN_REASON",
+      "from": "c4b90c2e-9da3-4e4f-b941-d86937cba5d6",
+      "to": "9ea43b47-976a-4e5b-92a3-ea972bc52383",
+      "statement_id": "aeb5a002-ec89-4a8d-b8f6-0150b8713a3c",
+      "role": "conclusion"
+    }
+  ],
+  "strong_version_needed": {
+    "cb49b719-ca91-48a5-8241-1d1bee17187d": "The stronger version is the object of this strength comparison, not a premise asserted about any actual practice; only its forward direction is consumed."
+  }
+}

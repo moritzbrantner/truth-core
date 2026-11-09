@@ -1,0 +1,11 @@
+{
+  "id": "28bdc8e4-7ae2-4a9d-beb1-4f311d5d70ab",
+  "label": "Natural reason authority independence controls",
+  "argument_id": "a13de8b6-ebdb-4fe7-9109-4ddebcc7b853",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonAuthority.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonAuthority.forkControls",
+  "comparator_config": "results/28bdc8e4-7ae2-4a9d-beb1-4f311d5d70ab/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit finite dictionaries witness independence of formal shared-answerability and external-exclusion assignments, strict strength and scope distinctions, and failed sufficiency despite external exclusion; scope restriction is constructive. None is an actual religious interpretation."
+}

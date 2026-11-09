@@ -1,0 +1,21 @@
+{
+  "id": "a13de8b6-ebdb-4fe7-9109-4ddebcc7b853",
+  "label": "Natural reason authority independence controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2c69c761-4f2a-4b46-8075-b2981cab5dde",
+  "inference_ids": [
+    "45989e07-9027-414d-b159-74572d2e718a"
+  ],
+  "meaning": "Explicit finite dictionaries witness independence of formal shared-answerability and external-exclusion assignments, strict strength and scope distinctions, and failed sufficiency despite external exclusion; scope restriction is constructive. None is an actual religious interpretation.",
+  "definition_ids": [
+    "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07",
+    "470908e9-f95f-4a24-aaed-4e64bb1ad839",
+    "487ff012-7deb-476b-983c-e6233f98d1fa",
+    "11d72af9-f562-5ef0-934e-556e0a6dcb83",
+    "b3c3ae3f-aa1b-42d4-b940-e1066696087f"
+  ],
+  "disambiguation_ids": [
+    "acb50043-141e-546e-b296-4601bae89bec"
+  ],
+  "sense_mixing_control": true
+}

@@ -1,0 +1,14 @@
+{
+  "id": "aeb5a002-ec89-4a8d-b8f6-0150b8713a3c",
+  "label": "Scoped internal sufficiency",
+  "paraphrase": "Analyst sense 3: on the explicitly supplied move scope, own-standard endorsement implies correctness. No converse, exclusive authority or sharedness restriction.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.InternalSufficiency",
+  "definition_ids": [
+    "b3c3ae3f-aa1b-42d4-b940-e1066696087f",
+    "ac3fa095-8fa2-50d5-8c86-8352f0c27a6e",
+    "d4a6e314-ca7b-563f-b2ef-8a855db8597b"
+  ],
+  "disambiguation_ids": [
+    "acb50043-141e-546e-b296-4601bae89bec"
+  ]
+}

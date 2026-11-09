@@ -1,0 +1,13 @@
+{
+  "id": "cd0faef1-c00d-44bb-8b54-8046445bd314",
+  "label": "Scoped external authority exclusion",
+  "paraphrase": "Analyst sense 5: no external standard has jurisdiction to judge correctness of moves in the supplied scope. This supplies neither internal endorsement nor correctness and does not deny shared agreement.",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.ExternalAuthorityExcluded",
+  "definition_ids": [
+    "470908e9-f95f-4a24-aaed-4e64bb1ad839",
+    "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07"
+  ],
+  "disambiguation_ids": [
+    "acb50043-141e-546e-b296-4601bae89bec"
+  ]
+}

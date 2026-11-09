@@ -1,0 +1,11 @@
+{
+  "id": "3cfef192-ce47-474d-8d0d-5a32f0b2fe0c",
+  "label": "Internal determination strengthens sufficiency",
+  "subject_kind": "statement",
+  "subject_id": "cb49b719-ca91-48a5-8241-1d1bee17187d",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "aeb5a002-ec89-4a8d-b8f6-0150b8713a3c",
+  "verification_result_id": "db4ab405-8717-4aba-b134-62d58514c16e",
+  "note": "Same explicit scope; one forward implication only. The controls witness converse failure."
+}
