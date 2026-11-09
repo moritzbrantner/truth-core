@@ -1,0 +1,9 @@
+{
+  "id": "b9816722-de0f-4ba5-8b1d-9d80afc3e9bf",
+  "label": "Independent root facts of the dictionary bearer",
+  "paraphrase": "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and classical attributes.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.RootFactsForBearer",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.LogicalNecessityProfiles.theoryToRoot"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

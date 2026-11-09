@@ -143,6 +143,7 @@ public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LifeBoundaryPotency.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
 public import TruthCore.Results.Causality.LocalObservationSelectsSolution.Solution
+public import TruthCore.Results.Causality.LogicalNecessityProfiles.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Control.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.GodRoot.Solution
 public import TruthCore.Results.Causality.MaximalGroundingAsymmetry.Strength.Solution

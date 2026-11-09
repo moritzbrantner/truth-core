@@ -1,0 +1,20 @@
+{
+  "id": "ae53f9aa-0974-4b5e-85a4-076eed948546",
+  "label": "Theory consequence gives admitted true-and-box",
+  "premise_statement_ids": [
+    "e068a626-f547-4d1d-9bef-737e707086ac",
+    "48366fb2-75e7-4afe-ac72-e050a7340553"
+  ],
+  "conclusion_statement_id": "6cc4c415-335f-4bd1-b339-0b83bf7a70d9",
+  "inference_ids": [
+    "64c6eccd-9ab9-47c1-aaa3-18f6b3957036"
+  ],
+  "meaning": "Apply local consequence at the selected point and every accessible point where the stated theory is explicitly admitted.",
+  "definition_ids": [
+    "3be2906f-9f8e-4dff-b523-41de89c6000d",
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ],
+  "term_senses": {
+    "NECESSARY": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb"
+  }
+}

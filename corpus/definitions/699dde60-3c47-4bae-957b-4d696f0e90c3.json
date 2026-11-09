@@ -1,0 +1,9 @@
+{
+  "id": "699dde60-3c47-4bae-957b-4d696f0e90c3",
+  "label": "Same-formula existence dictionary and theory admission guards",
+  "term": "existence-formula dictionary",
+  "definition": "ExistenceDictionary o V phi n means forall v, Holds o.frame V v phi iff o.ExistsAt v n, for one fixed bearer n. TheoryOnCone means TheoryAt at the selected w and at every v accessible from w; TheoryAt universally checks every formula selected by Gamma. JointModel is exists V w, TheoryAt. TrueAndBox conjoins Holds phi here and Holds (box phi) here. RootFactsForBearer unfolds to existing RootFacts: an actual concrete root with no actual concrete ground, God, the one God and classical attributes. These bodies make the interpretation and all side conditions explicit.",
+  "basis": "stipulative",
+  "note": "Analyst guard definitions; no semantic applicability is inferred from the supplied predicates. The dictionary is an OPEN proposition, not a definitional identification of arbitrary formulas with existence. Using phi=atom n and the existing existenceValuation supplies a literal dictionary. Using a tautology without such a dictionary supplies no existence. No new primitive metaphysical relation is introduced; the Ontic existence predicate and RootFacts retain their existing open interpretation burdens. The positive Unit joint model uses exactly the same carrier, formula, bearer and frame. A nonempty carrier is never used as an actual or divine existence premise.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.ExistenceDictionary"
+}

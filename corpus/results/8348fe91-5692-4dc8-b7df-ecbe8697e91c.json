@@ -1,0 +1,11 @@
+{
+  "id": "8348fe91-5692-4dc8-b7df-ecbe8697e91c",
+  "label": "Stated-theory existence bridge to the box K root",
+  "argument_id": "0b9f4b1c-93a7-4497-ad9e-3610c02ffd16",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.theoryToRoot",
+  "comparator_config": "results/8348fe91-5692-4dc8-b7df-ecbe8697e91c/comparator.json",
+  "status": "solution-present",
+  "description": "Use local consequence at each accessible point, translate the same formula through the explicit dictionary for the same bearer, retain independent RootFacts and introduce that bearer as the box K root. Actual-point theory admission in the chosen cone guard also ensures a joint model; the box part of this proof consumes only the successor conjunct. No actual or divine witness follows from a nonempty carrier. No premise is discharged."
+}

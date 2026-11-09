@@ -1,0 +1,154 @@
+[batch]
+vocab = "TruthCore.Causality.LogicalNecessityProfiles"
+results = "TruthCore.Results.Causality.LogicalNecessityProfiles"
+
+[[statement]]
+id = "K validity of the selected formula"
+lean = "AllFrameKValidity"
+paraphrase = "NECESSARY_14: the selected modal formula holds on all frames over small world types, all valuations and all worlds."
+definitions = ["560fae51-532f-46d8-81e8-6f4386e10a34"]
+
+[[statement]]
+id = "Full validity of the selected formula on its frame"
+lean = "SelectedFrameValidity"
+paraphrase = "NECESSARY_13: the selected formula holds at every valuation/world of the explicitly supplied frame."
+definitions = ["ea0a177a-b3a7-4559-946d-d9401ba1c6e3"]
+
+[[statement]]
+id = "Stated-theory consequence of the selected formula"
+lean = "TheoryRelativeEntailment"
+paraphrase = "NECESSARY_15: in the same frame, every valuation/world satisfying every formula of the stated local theory satisfies the selected formula."
+definitions = ["3be2906f-9f8e-4dff-b523-41de89c6000d"]
+
+[[statement]]
+id = "Theory admitted on the selected accessible cone"
+lean = "TheoryOnCone"
+paraphrase = "OPEN: the stated local theory holds in the selected interpretation at the actual point and at every accessible point; no frame law is assumed."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Same-bearer existence dictionary for the selected formula"
+lean = "ExistenceDictionary"
+paraphrase = "OPEN: at every world of the same Ontic frame, the selected formula in the selected valuation holds exactly when the same rigid candidate n exists."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Independent root facts of the dictionary bearer"
+lean = "RootFactsForBearer"
+paraphrase = "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and classical attributes."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Selected formula true and boxed in its interpretation"
+lean = "TrueAndBox"
+paraphrase = "The same formula holds at the selected world and every accessible world in one fixed frame and valuation."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Joint model for the stated local theory"
+lean = "JointModel"
+paraphrase = "There is a valuation/world of this same frame satisfying every formula of the stated local theory. This is semantic nonvacuity, not real-world truth."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Joint theory does not entail falsum"
+lean = "NoFalsumConsequence"
+paraphrase = "The stated local theory does not semantically entail falsum on this frame."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+
+[[statement]]
+id = "Logical-profile strictness and admission controls"
+lean = "Fixture.Controls"
+paraphrase = "Finite same-formula witnesses: K-to-frame and frame-to-theory implications are strict; true-and-box alone gives no validity or empty-theory entailment; inconsistent theory entails everything and lacks a joint model; actual-only theory admission misses box truth. The inhabited Unit root fixture jointly satisfies atom theory, cone admission, same-bearer dictionary and independent RootFacts. A separate selected false valuation refutes entailment-to-truth without admission."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
+
+[[argument]]
+id = "K validity weakens to selected-frame validity"
+theorem = "kToFrame"
+senses = {NECESSARY = "NECESSARY_14"}
+premises = ["K validity of the selected formula"]
+conclusion = "Full validity of the selected formula on its frame"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Specialize the all-small-frame universal to the same selected frame and formula. Exact strong-only-premise result."
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_14", to = "NECESSARY_13", statement_id = "Full validity of the selected formula on its frame", role = "conclusion"}]
+
+[[argument]]
+id = "Selected-frame validity weakens to theory consequence"
+theorem = "frameToTheory"
+senses = {NECESSARY = "NECESSARY_13"}
+premises = ["Full validity of the selected formula on its frame"]
+conclusion = "Stated-theory consequence of the selected formula"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Full validity holds also under any local theory antecedent on the same frame. Exact strong-only-premise result."
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_13", to = "NECESSARY_15", statement_id = "Stated-theory consequence of the selected formula", role = "conclusion"}]
+
+[[argument]]
+id = "Theory consequence gives admitted true-and-box"
+theorem = "theoryToTrueAndBox"
+senses = {NECESSARY = "NECESSARY_15"}
+premises = ["Stated-theory consequence of the selected formula", "Theory admitted on the selected accessible cone"]
+conclusion = "Selected formula true and boxed in its interpretation"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Apply local consequence at the selected point and every accessible point where the stated theory is explicitly admitted."
+
+[[argument]]
+id = "Joint satisfiability excludes falsum consequence"
+theorem = "jointModelNotFalsum"
+premises = ["Joint model for the stated local theory"]
+conclusion = "Joint theory does not entail falsum"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Evaluate a purported falsum consequence at the joint theory witness."
+
+[[argument]]
+id = "Stated-theory existence bridge to the box K root"
+theorem = "theoryToRoot"
+senses = {NECESSARY = "NECESSARY_15"}
+premises = ["Stated-theory consequence of the selected formula", "Theory admitted on the selected accessible cone", "Same-bearer existence dictionary for the selected formula", "Independent root facts of the dictionary bearer"]
+conclusion = "STMT-NECESSARY-ROOT-BOX-K"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Use local consequence at each accessible point, translate the same formula through the explicit dictionary for the same bearer, retain independent RootFacts and introduce that bearer as the box K root. Actual-point theory admission in the chosen cone guard also ensures a joint model; the box part of this proof consumes only the successor conjunct. No actual or divine witness follows from a nonempty carrier. No premise is discharged."
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_15", to = "NECESSARY_2", statement_id = "STMT-NECESSARY-ROOT-BOX-K", role = "conclusion"}]
+
+[[argument]]
+id = "Logical necessity profile controls checked"
+theorem = "controls"
+sense_mixing_control = true
+premises = []
+conclusion = "Logical-profile strictness and admission controls"
+rule = "Universal specialization, explicit semantic consequence and finite models"
+meaning = "Direct finite interpretation proofs; no formal claim of metaphysical possibility or premise truth."
+
+[[relation]]
+id = "Logical profile weakening 1"
+subject_kind = "statement"
+subject_id = "K validity of the selected formula"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Full validity of the selected formula on its frame"
+verification_result_id = "K validity weakens to selected-frame validity"
+note = "Same formula and selected frame parameters; strictness witnessed by controls."
+
+[[relation]]
+id = "Logical profile weakening 2"
+subject_kind = "statement"
+subject_id = "Full validity of the selected formula on its frame"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Stated-theory consequence of the selected formula"
+verification_result_id = "Selected-frame validity weakens to theory consequence"
+note = "Same formula and selected frame parameters; strictness witnessed by controls."
+
+[[statement]]
+id = "Logical-profile dictionary and root-facts omission controls"
+lean = "Fixture.OmissionControls"
+paraphrase = "A valid identity formula, admitted theory and independent actual root facts coexist with a bearer absent at its accessible successor when the existence dictionary is omitted. A separate dictionary-correct admitted atom theory on the same populated ontology gives no God when independent RootFacts is omitted. These are finite non-entailment controls, not universal rival refutations."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
+
+[[argument]]
+id = "Logical-profile dictionary and root-facts omissions checked"
+theorem = "omissionControls"
+sense_mixing_control = true
+premises = []
+conclusion = "Logical-profile dictionary and root-facts omission controls"
+rule = "Explicit finite semantic counterinterpretations"
+meaning = "Omitting the existence dictionary allows a valid identity formula but no box-existent root. Omitting independent RootFacts allows a dictionary-correct admitted atom theory but no God witness. The first model retains an actual root with all divine fields stipulated; its failure concerns only box-existence. The second changes only the supplied divine predicate to False. No reality claim is made."
