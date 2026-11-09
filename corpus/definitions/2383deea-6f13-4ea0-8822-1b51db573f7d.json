@@ -1,0 +1,9 @@
+{
+  "id": "2383deea-6f13-4ea0-8822-1b51db573f7d",
+  "label": "Scoped certificate-calibrated correction procedure",
+  "term": "scoped certificate-calibrated correction procedure",
+  "basis": "stipulative",
+  "definition": "A procedure supplies a Boolean decision, a natural-number certificate, a Boolean checker and an execution-resource predicate on evidence. Covered requires availability and accepted output certificates at every scoped state. Calibrated requires every accepted answer at a scoped state to agree in both directions with the supplied correctness predicate. These are separate conditional assumptions on arbitrary domains, not a complete warrant theory.",
+  "lean_declaration": "TruthCore.Logic.CertifiedCorrection.Procedure",
+  "note": "Analyst candidate with attribution deferred. A checker accepting its own answer can be wrong; identity evidence need not come with execution resources. Availability is an explicit open resource relation, not adequate epistemic justification. Calibration is a semantic assumption; its epistemic accessibility and applicability to actual inquiry remain open. The example is a toy certificate protocol, not a reconstruction of the original warranted correction sense."
+}
