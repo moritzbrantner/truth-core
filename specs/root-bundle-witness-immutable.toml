@@ -1,0 +1,15 @@
+[batch]
+vocab = "TruthCore.Case.Catholicism.RootBundleWitnessImmutable"
+results = "TruthCore.Results.Case.Catholicism.RootBundleWitnessImmutable"
+[[statement]]
+id = "Root bundle immutability finite certificate"
+lean = "Certificate"
+paraphrase = "The specified two-being two-respect interpretation satisfies all four immutability premises and their conclusion, with an inhabited god predicate, potency in the other being and an actual priority edge; four separate interpretations each falsify precisely one premise and the conclusion. No metaphysical possibility or premise truth is asserted."
+definitions = ["DEF-ACT", "DEF-RESPECT", "DEF-FIRST-BEING", "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8", "da5c0716-718e-5aaa-abec-95c9e93cac00"]
+[[argument]]
+id = "Root bundle immutability witness and omission controls"
+theorem = "certificate"
+premises = []
+conclusion = "Root bundle immutability finite certificate"
+rule = "Finite evaluation of existing quantified predicates"
+meaning = "Check the specified positive interpretation and four omission interpretations of the unchanged root-route immutability bundle. All four premises are individually indispensable over the unconstrained dictionaries. No root premise is discharged."

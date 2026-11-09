@@ -1,0 +1,10 @@
+{
+  "id": "e744da91-5000-41e1-9e66-bfaf487271ed",
+  "label": "Root bundle immutability witness and omission controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "51c3bed1-fda2-4c92-aac2-2196512e5ee1",
+  "rule": "Finite evaluation of existing quantified predicates",
+  "meaning": "Check the specified positive interpretation and four omission interpretations of the unchanged root-route immutability bundle. All four premises are individually indispensable over the unconstrained dictionaries. No root premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

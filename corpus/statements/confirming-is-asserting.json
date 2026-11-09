@@ -1,6 +1,6 @@
 {
   "id": "b426b086-1b1c-5137-94e6-a2f17402481f",
-  "label": "Whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries…",
+  "label": "Every being confirming a proposition by a sign asserts that proposition",
   "legacy_id": "STMT-CONFIRMING-IS-ASSERTING",
   "paraphrase": "OPEN analyst bridge (attribution deferred): whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries the confirmer's word. Stated for every being, not only God.",
   "lean_declaration": "TruthCore.Causality.NamingVeracityBatch1.ConfirmingIsAsserting",
