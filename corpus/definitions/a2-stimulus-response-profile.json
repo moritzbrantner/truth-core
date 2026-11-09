@@ -1,0 +1,9 @@
+{
+  "id": "0d2eb15b-b7df-42dd-baa2-e855f6476315",
+  "label": "A2 productive trial disposition",
+  "term": "A2 productive trial disposition",
+  "definition": "A process has a stimulus, masking and fink conditions, and a binary response relation on trial descriptions. There is at least one stimulated unmasked unfinked trial; every such trial produces the x-to-y response. Trials describe process behavior, not actual worlds or actual manifestations. Outgoing and incoming-or-outgoing use this same relation. A disposition can remain unexercised at the actual world.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SurveyCapabilityProfiles.Disposition",
+  "note": "Analyst semantic alternative; attribution deferred. Productive glass impact/fragility is a motivating example, not a verified real-world model. Realization and process attribution are separate OPEN bridges; trial descriptions need not be metaphysically possible. No transitivity, asymmetry, well-foundedness, universal causation, rigid necessity or physicality follows. Originals 84e479f6-84b9-5aef-9c7d-637976b0b9a7 and 88bd1ef6-cb47-5707-ae9a-23537290aea9 retain their identity and allowances. Source-to-actualGraph coverage and root applicability remain OPEN. The process profile is deterministic and excludes probabilistic or merely intrinsic accounts unless bridged explicitly."
+}

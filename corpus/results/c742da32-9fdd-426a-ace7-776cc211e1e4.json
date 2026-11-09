@@ -1,0 +1,11 @@
+{
+  "id": "c742da32-9fdd-426a-ace7-776cc211e1e4",
+  "label": "A2 capability profiles with explicit realization and attribution",
+  "argument_id": "b85ebcb4-4a42-409f-9510-e4f24533041d",
+  "challenge_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.SurveyCapabilityProfiles.profiles",
+  "comparator_config": "results/c742da32-9fdd-426a-ace7-776cc211e1e4/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged."
+}
