@@ -1,0 +1,9 @@
+{
+  "id": "32070779-6730-447d-9777-c9791b85b1b8",
+  "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_4",
+  "term": "Relational isomorphism",
+  "definition": "Existence of an allowed body permutation preserving and reflecting every supplied relation on every finite body tuple. The allowed permutations form a subgroup, including identity and closed under composition/inverse. This tests the supplied relational structure; it is not an arbitrary same-configuration predicate.",
+  "basis": "stipulative",
+  "note": "Analyst framework, attribution deferred. C, B and R, the data signature, body-permutation subgroup H and active group action G are explicit inputs; no Euclidean geometry, complete physical data, real-world possibility, or original-source scope is asserted. Fixed body labels use the bottom subgroup. World, chart and other parameters are fixed within each comparison; cross-world/cross-carrier identification requires a separate map. Data may encode metric, orientation, order or richer predicates, but completeness is open. Active relocation is distinct from a passive bijective chart reencoding transporting data and the orbit relation.",
+  "lean_declaration": "TruthCore.Space.IdentityCriteria.RelationalIdentity"
+}

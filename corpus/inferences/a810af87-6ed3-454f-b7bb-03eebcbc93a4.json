@@ -1,0 +1,10 @@
+{
+  "id": "a810af87-6ed3-454f-b7bb-03eebcbc93a4",
+  "label": "Spatial identity comparison with explicit framework assumptions (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "4795de1d-c746-4675-bc9e-89d61184990d",
+  "rule": "Quotient exactness, relational isomorphism witnesses, equality substitution and explicit omission models",
+  "meaning": "For arbitrary representation and body carriers and a supplied finitary relational signature, represented equality implies relational isomorphism and active-orbit quotient equality. Data preservation makes quotient equality imply relational isomorphism; orbit completeness gives the converse. With both and orbit triviality all three coincide. Bijective passive chart transport preserves each corresponding criterion. Marker controls omit respectively orbit completeness, orbit triviality and data preservation while retaining the other relevant comparison assumptions and separating the criteria; a fixed-label marker model satisfies all comparison assumptions and all three criteria reflexively. A typed three-constructor selection gives their joint equivalence by cases within this explicitly bounded comparison scope. Analyst framework only: original source meanings, spatial completeness and world applicability remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
