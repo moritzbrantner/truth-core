@@ -2,53 +2,33 @@ target = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
 
 [[node]]
 id = "K validity of the selected formula"
-new = true
-text = "K validity of the selected formula"
 
 [[node]]
 id = "Full validity of the selected formula on its frame"
-new = true
-text = "Full validity of the selected formula on its frame"
 
 [[node]]
 id = "Stated-theory consequence of the selected formula"
-new = true
-text = "Stated-theory consequence of the selected formula"
 
 [[node]]
 id = "Theory admitted on the selected accessible cone"
-new = true
-text = "Theory admitted on the selected accessible cone"
 
 [[node]]
 id = "Same-bearer existence dictionary for the selected formula"
-new = true
-text = "Same-bearer existence dictionary for the selected formula"
 
 [[node]]
 id = "Independent root facts of the dictionary bearer"
-new = true
-text = "Independent root facts of the dictionary bearer"
 
 [[node]]
 id = "Selected formula true and boxed in its interpretation"
-new = true
-text = "Selected formula true and boxed in its interpretation"
 
 [[node]]
 id = "Joint model for the stated local theory"
-new = true
-text = "Joint model for the stated local theory"
 
 [[node]]
 id = "Joint theory does not entail falsum"
-new = true
-text = "Joint theory does not entail falsum"
 
 [[node]]
 id = "Logical-profile strictness and admission controls"
-new = true
-text = "Logical-profile strictness and admission controls"
 
 [[node]]
 id = "STMT-NECESSARY-ROOT-BOX-K"
@@ -56,18 +36,30 @@ id = "STMT-NECESSARY-ROOT-BOX-K"
 [[node]]
 id = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
 
+[[node]]
+id = "8239eddf-aadf-5ad7-9243-e7698c7e8d27"
+
+[[node]]
+id = "cb456382-efd6-554b-8ee4-c8fc193f876a"
+
+[[node]]
+id = "0aa36cd6-29b1-5d3e-bf2e-e92a737cc58c"
+
+[[node]]
+id = "Logical-profile dictionary and root-facts omission controls"
+
 [[edge]]
 premises = ["K validity of the selected formula"]
 conclusion = "Full validity of the selected formula on its frame"
 kind = "derivation"
-status = "mapped"
+status = "certified"
 note = "K validity weakens to selected-frame validity"
 
 [[edge]]
 premises = ["Full validity of the selected formula on its frame"]
 conclusion = "Stated-theory consequence of the selected formula"
 kind = "derivation"
-status = "mapped"
+status = "certified"
 note = "Selected-frame validity weakens to theory consequence"
 
 [[edge]]
@@ -75,13 +67,13 @@ premises = ["Stated-theory consequence of the selected formula", "Theory admitte
 conclusion = "Selected formula true and boxed in its interpretation"
 kind = "derivation"
 status = "mapped"
-note = "Theory consequence gives admitted true-and-box"
+note = "Theory consequence gives admitted true-and-box; Lean/Comparator pass, sense binding blocked by legacy NECESSARY_11 Frame carrier collision."
 
 [[edge]]
 premises = ["Joint model for the stated local theory"]
 conclusion = "Joint theory does not entail falsum"
 kind = "derivation"
-status = "mapped"
+status = "certified"
 note = "Joint satisfiability excludes falsum consequence"
 
 [[edge]]
@@ -89,18 +81,25 @@ premises = ["Stated-theory consequence of the selected formula", "Theory admitte
 conclusion = "STMT-NECESSARY-ROOT-BOX-K"
 kind = "bridge"
 status = "mapped"
-note = "Stated-theory existence bridge to the box K root"
+note = "Stated-theory existence bridge to the box K root; Lean/Comparator pass, sense binding blocked by legacy NECESSARY_11 Frame carrier collision."
 
 [[edge]]
 premises = []
 conclusion = "Logical-profile strictness and admission controls"
 kind = "derivation"
-status = "mapped"
+status = "certified"
 note = "Logical necessity profile controls checked"
 
 [[edge]]
-premises = ["STMT-NECESSARY-ROOT-BOX-K"]
+premises = ["8239eddf-aadf-5ad7-9243-e7698c7e8d27", "STMT-NECESSARY-ROOT-BOX-K", "cb456382-efd6-554b-8ee4-c8fc193f876a", "0aa36cd6-29b1-5d3e-bf2e-e92a737cc58c"]
 conclusion = "STMT-NECESSARY-ROOT-ON-INTENDED-READING"
 kind = "bridge"
-status = "mapped"
-note = "Existing fork consumers add their explicit intended-reading and frame-profile premises; this map does not claim a premise-free root-reading bridge."
+status = "certified"
+note = "Existing MODAL-FORK-T consumes the box-K root, verified universal T/D assembly, open T schema and open exclusive intended boxT reading. All four inputs are retained."
+
+[[edge]]
+premises = []
+conclusion = "Logical-profile dictionary and root-facts omission controls"
+kind = "derivation"
+status = "certified"
+note = "Explicit dictionary and independent RootFacts omission witnesses."
