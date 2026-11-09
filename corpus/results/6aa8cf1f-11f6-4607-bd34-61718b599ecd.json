@@ -7,5 +7,95 @@
   "theorem": "TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification",
   "comparator_config": "results/6aa8cf1f-11f6-4607-bd34-61718b599ecd/comparator.json",
   "status": "solution-present",
-  "description": "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge."
+  "description": "Assuming explicit excluded middle and rotating existence, NecessaryRootInSense s is equivalent to s being deDictoK together with an independently supplied RootFacts witness. No God identity or attributes follow from worldwise population. Analyst formulation, attribution deferred; conditional semantic classification, no truth discharge.",
+  "research_comparisons": [
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "excluded",
+      "conditions": "boxK: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. No frame law. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "boxK: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "7f24ce4d-9d93-56dc-9bd6-2dd947c224e5",
+      "sense_definition_id": "5bd704bb-4915-4657-9801-022247312147",
+      "outcome": "excluded",
+      "conditions": "actualistK: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. Actual existence guards the same root witness; this definition is root-constrained, not bare actualist quantification. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "actualistK: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "49a47eb5-c4bd-5880-b981-8cc4003b3b1b",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "excluded",
+      "conditions": "boxT: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. KT: reflexivity is the additional selected-frame condition. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "boxT: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Frame-class cells share the de re NecessaryAt definition; frame profiles are scope restrictions, not newly identified senses. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "ad9fe46d-1032-530e-a589-c037cf8fed78",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "excluded",
+      "conditions": "boxS4: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. S4: reflexivity and transitivity are the additional selected-frame conditions. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "boxS4: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Frame-class cells share the de re NecessaryAt definition; frame profiles are scope restrictions, not newly identified senses. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "12e11583-51e9-5c42-a51f-0debdb152818",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "excluded",
+      "conditions": "boxB: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. KTB: reflexivity and symmetry are the additional selected-frame conditions. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "boxB: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Frame-class cells share the de re NecessaryAt definition; frame profiles are scope restrictions, not newly identified senses. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "7089ce3d-3855-5bfb-a3c3-c202e8ff458a",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "excluded",
+      "conditions": "boxS5: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. S5: reflexivity and Euclidean accessibility are the additional selected-frame conditions. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "boxS5: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Frame-class cells share the de re NecessaryAt definition; frame profiles are scope restrictions, not newly identified senses. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "32a2f51c-a630-56a0-acc3-800637c18253",
+      "sense_definition_id": "d77ab971-b9cb-5b31-85f7-7bf7f39fb237",
+      "outcome": "excluded",
+      "conditions": "tertiaVia: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. Possibility is explicitly FramePossible: the diamond on this same frame and existence valuation; cannot-not-be yields fixed-bearer box-existence using explicit EM. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "tertiaVia: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    },
+    {
+      "rival_statement_id": "6d7ad9b2-3d95-436f-95c5-a15dc4bf6fcf",
+      "coverage": "One named constructor of the existing nine-case Sense enum. Intended-reading coverage remains OPEN; essence-based senses outside this enum are untouched.",
+      "exclusivity": "This row selects the named constructor only; intended-reading exclusivity remains OPEN and sense extensions are not asserted disjoint.",
+      "target_statement_id": "c639d164-4981-5b2b-bcf3-d6d7a5d5937f",
+      "sense_definition_id": "2282c0ee-9da9-5c8b-9f37-cb312ed4b676",
+      "outcome": "excluded",
+      "conditions": "perSe: explicit ExcludedMiddle and RotatingExistence m.ontic w, as internal hypotheses of TruthCore.Results.Causality.RotatingBearerSenseComparison.rootClassification. Possibility is FramePossible (same-frame diamond); perSe includes cannot-not-be and no distinct cause of necessity. Its necessity conjunct already excludes the rival under EM, regardless of CN; no grounding bridge is used. RootFacts remains separate; no truth or semantic applicability is assumed proved.",
+      "scope": "perSe: same m, w, accessibility, rigid candidate domain and literal identity throughout. Rival ID names the existing Controls certificate; only its explicitly witnessed RotatingExistence conjunct is the rival condition, not a negation of that certificate. Target is the full sense-specific root node. Rotating causal support among necessarily existing individuals is not this condition.",
+      "next_step": "Defend or reject applicability of this selected semantic commitment; the conditional exclusion establishes neither target nor unconditional falsity of the rival."
+    }
+  ]
 }
