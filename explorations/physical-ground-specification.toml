@@ -80,3 +80,89 @@ conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
 kind = "rival"
 status = "mapped"
 note = "Investigation plan, NOT entailment: calibrate an original ground interpretation under this criterion and compare composition/intellect. Missing vocabulary and bearer bridge prevent any verdict on simpleImpersonal or refutation of the route premise."
+
+[[node]]
+id = "c7319017-075e-43ea-8cdd-2f043ad3365f"
+
+[[edge]]
+premises = ["c7319017-075e-43ea-8cdd-2f043ad3365f"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "868514fb-f3b4-443d-9084-33dbf58644a6"
+
+[[edge]]
+premises = ["868514fb-f3b4-443d-9084-33dbf58644a6"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "0465558e-7646-4df2-bb32-15377aeac731"
+
+[[edge]]
+premises = ["0465558e-7646-4df2-bb32-15377aeac731"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "f491553a-557e-484e-b846-2d11199c83f1"
+
+[[edge]]
+premises = ["f491553a-557e-484e-b846-2d11199c83f1"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "8b0cef3f-c65c-4467-87f5-e122c87d8028"
+
+[[edge]]
+premises = ["8b0cef3f-c65c-4467-87f5-e122c87d8028"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "46169e64-98b0-4156-9e12-b56f272913c5"
+
+[[edge]]
+premises = ["46169e64-98b0-4156-9e12-b56f272913c5"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "af4b49d8-7774-457f-9164-e071a4623363"
+
+[[edge]]
+premises = ["af4b49d8-7774-457f-9164-e071a4623363"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "ebcdff06-5ef6-478c-8c1f-24ed80d175f6"
+
+[[edge]]
+premises = ["ebcdff06-5ef6-478c-8c1f-24ed80d175f6"]
+conclusion = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+kind = "rival"
+status = "mapped"
+note = "Candidate comparison/control only. Missing ordinary-vocabulary calibration, target correspondence and occurrence/property-to-bearer bridge; no entailment or refutation of the original route step."
+
+[[node]]
+id = "e611886f-2a21-448d-8069-a9d87f63494e"
+
+[[node]]
+id = "3ff52bf2-165b-497b-b7ad-4acf1ca8bee5"

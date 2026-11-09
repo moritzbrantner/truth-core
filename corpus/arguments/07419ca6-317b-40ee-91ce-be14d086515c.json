@@ -1,0 +1,13 @@
+{
+  "id": "07419ca6-317b-40ee-91ce-be14d086515c",
+  "label": "Scoped calibration and procedure separation controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "6180ce3c-6e36-4b58-83d6-f1d8b20c2f01",
+  "inference_ids": [
+    "b086ecc8-d21f-4e16-8408-f282fd782540"
+  ],
+  "meaning": "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established.",
+  "definition_ids": [
+    "2383deea-6f13-4ea0-8822-1b51db573f7d"
+  ]
+}

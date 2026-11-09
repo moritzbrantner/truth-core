@@ -1,0 +1,11 @@
+target = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
+[[node]]
+id = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
+[[node]]
+id = "A3 local occurrence uniqueness transports possible conditioning"
+[[edge]]
+premises = ["A3 local occurrence uniqueness transports possible conditioning"]
+conclusion = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: source-event/state/bearer/time/world dictionaries, possible conditioning for the selected pair, and selected occurrence uniqueness for the occurrence reading. The law alone supplies none of these. Prior explanatory condition to concrete existing bearer and first-transition exclusion remain separate."

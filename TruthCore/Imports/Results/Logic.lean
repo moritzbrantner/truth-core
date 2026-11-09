@@ -4,6 +4,7 @@ module
 public import TruthCore.Results.Logic.AdaptivePrediction.Solution
 public import TruthCore.Results.Logic.AtomismIndependence.Solution
 public import TruthCore.Results.Logic.CaseNonContradiction.Solution
+public import TruthCore.Results.Logic.CertifiedCorrection.Solution
 public import TruthCore.Results.Logic.CogitoConcrete.Solution
 public import TruthCore.Results.Logic.CogitoEsse.Solution
 public import TruthCore.Results.Logic.CogitoSubject.Solution
