@@ -1,9 +1,13 @@
 {
   "id": "b9816722-de0f-4ba5-8b1d-9d80afc3e9bf",
   "label": "Independent root facts of the dictionary bearer",
-  "paraphrase": "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and classical attributes.",
+  "paraphrase": "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and the primitive HasClassicalAttributes field. Linking the existing classical-attributes bundle records its open one-way sufficiency boundary, not an equivalence or an eliminator yielding all nine attributes.",
   "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.RootFactsForBearer",
   "definition_ids": [
-    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+    "699dde60-3c47-4bae-957b-4d696f0e90c3",
+    "52352824-6be9-53c6-83d4-82fed9a08cbb",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "c8f9c2fb-8c17-5fc8-b558-4a6fad659296"
   ]
 }

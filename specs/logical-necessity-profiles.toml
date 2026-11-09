@@ -35,8 +35,8 @@ definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
 [[statement]]
 id = "Independent root facts of the dictionary bearer"
 lean = "RootFactsForBearer"
-paraphrase = "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and classical attributes."
-definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
+paraphrase = "OPEN: this same dictionary bearer n independently has the existing RootFacts: actual concrete ungrounded root, God, uniqueness as God and the primitive HasClassicalAttributes field. Linking the existing classical-attributes bundle records its open one-way sufficiency boundary, not an equivalence or an eliminator yielding all nine attributes."
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "DEF-ACTUAL-ROOT", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ONE-GOD", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"]
 
 [[statement]]
 id = "Selected formula true and boxed in its interpretation"
@@ -60,7 +60,7 @@ definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3"]
 id = "Logical-profile strictness and admission controls"
 lean = "Fixture.Controls"
 paraphrase = "Finite same-formula witnesses: K-to-frame and frame-to-theory implications are strict; true-and-box alone gives no validity or empty-theory entailment; inconsistent theory entails everything and lacks a joint model; actual-only theory admission misses box truth. The inhabited Unit root fixture jointly satisfies atom theory, cone admission, same-bearer dictionary and independent RootFacts. A separate selected false valuation refutes entailment-to-truth without admission."
-definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE", "DEF-ACTUAL-ROOT", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ONE-GOD", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"]
 
 [[argument]]
 id = "K validity weakens to selected-frame validity"
@@ -143,7 +143,7 @@ note = "Same formula and selected frame parameters; strictness witnessed by cont
 id = "Logical-profile dictionary and root-facts omission controls"
 lean = "Fixture.OmissionControls"
 paraphrase = "A valid identity formula, admitted theory and independent actual root facts coexist with a bearer absent at its accessible successor when the existence dictionary is omitted. A separate dictionary-correct admitted atom theory on the same populated ontology gives no God when independent RootFacts is omitted. These are finite non-entailment controls, not universal rival refutations."
-definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE"]
+definitions = ["699dde60-3c47-4bae-957b-4d696f0e90c3", "3be2906f-9f8e-4dff-b523-41de89c6000d", "560fae51-532f-46d8-81e8-6f4386e10a34", "ea0a177a-b3a7-4559-946d-d9401ba1c6e3", "DEF-KANT-MODAL-NECESSITY", "DEF-NECESSARY-IN-SENSE", "DEF-ACTUAL-ROOT", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-ONE-GOD", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"]
 
 [[argument]]
 id = "Logical-profile dictionary and root-facts omissions checked"
