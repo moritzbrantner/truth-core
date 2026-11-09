@@ -7,5 +7,6 @@
   "theorem": "TruthCore.Results.Ontology.QuotientGeneration.classify",
   "comparator_config": "results/57cf6480-de7d-4fd7-a5ed-1ecca4d3a13b/comparator.json",
   "status": "solution-present",
-  "description": "A quotient witness selects the same bearer covered by ValuesNoEsse. This is conditional transfer between numbered senses, not an independent defense of the bridge."
+  "description": "Transcription by instantiation: a quotient range witness selects the same bearer already covered by the assumed ValuesNoEsse bridge. This records its conditional application between numbered senses, not a new classification derivation or an independent defense of that bridge.",
+  "transcription": "instantiation"
 }
