@@ -7,7 +7,7 @@
     "1291944d-a8b2-54eb-899d-66bd5f8b4762",
     "cb13f508-17f7-55b8-bf5d-52959b7a2ee5"
   ],
-  "resolution": "The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model.",
+  "resolution": "The bundle and ImmutableIsEternalReading intend timeless eternity, without beginning, end or succession. Endless succession is a contrast sense only. The existing Lean predicate Eternal is primitive and its sufficient condition does not encode or prove a temporal model. ETERNAL_2 now denotes nonempty temporal presence with no final present moment in an explicit preorder; it allows a beginning and does not require changing states. It is not identified with the older weaker EndlessLife calibration.",
   "term_label": "ETERNAL",
   "senses": [
     {
@@ -19,7 +19,8 @@
     {
       "id": "acd3635a-c1e1-4aa8-b639-652ba03d9e6b",
       "label": "ETERNAL_2",
-      "definition_id": "cb13f508-17f7-55b8-bf5d-52959b7a2ee5"
+      "definition_id": "cb13f508-17f7-55b8-bf5d-52959b7a2ee5",
+      "lean_declaration": "TruthCore.Causality.EndlessTemporalDuration.FutureUnending"
     }
   ]
 }

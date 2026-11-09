@@ -3,7 +3,8 @@
   "label": "ENDLESS_TEMPORAL_DURATION_2, contrast…: Duration with an unending succession of earlier and later…",
   "legacy_id": "DEF-ENDLESS-TEMPORAL-DURATION",
   "term": "endless temporal duration, contrast sense",
-  "definition": "Duration with an unending succession of earlier and later moments. This permits succession and therefore differs from eternity, which has no succession and is all at once.",
+  "definition": "Duration with an unending succession of earlier and later moments: in a supplied preorder of times, temporal presence holds at some moment and every present moment has a strictly later present moment. A beginning is allowed. Ordinary succession does not require changing life-states. No convex support, total coverage, total order, or past-unboundedness is required.",
   "basis": "stipulative",
-  "note": "A stipulated contrast only; no temporal model or perpetually existing thing is asserted. A pinned account of temporal perpetuity would be needed before using it as a premise. The distinction is motivated by q.10 a.1’s account of time and eternity."
+  "note": "Stipulated contrast, clarified by owner endpoint decision on 2026-11-09; no temporal model or perpetually existing real thing is asserted. Temporal presence is a primitive input interpreted as the selected subject being present at that time; its applicability and the temporal adequacy of the supplied preorder remain open. Strict comparison excludes equal/equivalent moments; no immediate successor or discrete timeline is assumed. A pinned account would be needed for historical attribution. The distinction is motivated by q.10 a.1; attribution deferred. See corpus/definitions/endless-temporal-duration-audit.md. Existing EndlessLife permits finite timelines and remains unchanged.",
+  "lean_declaration": "TruthCore.Causality.EndlessTemporalDuration.FutureUnending"
 }
