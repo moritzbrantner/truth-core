@@ -1,6 +1,6 @@
 {
   "id": "12bdfec3-81f6-59e6-91df-88b323ff860e",
-  "label": "OPEN analyst finality principle, read for operations through forms: every such operation is…",
+  "label": "Every operation through a form is directed to some end",
   "legacy_id": "STMT-EVERY-OPERATION-HAS-AN-END",
   "paraphrase": "OPEN analyst finality principle (omne agens agit propter finem), read for operations through forms: every such operation is directed to some end, consciously or not.",
   "lean_declaration": "TruthCore.Causality.Round5Worklist.EveryOperationHasAnEnd",
