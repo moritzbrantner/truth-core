@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.accessibleTransport"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

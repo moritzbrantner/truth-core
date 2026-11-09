@@ -1,0 +1,11 @@
+{
+  "id": "a4e17d51-6ea0-433d-b87c-e7f773cc98fb",
+  "label": "A3 same-event transport under accessible occurrence uniqueness",
+  "argument_id": "37e56187-3d29-4fcf-80e4-85a6fc899306",
+  "challenge_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Solution",
+  "theorem": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.accessibleTransport",
+  "comparator_config": "results/a4e17d51-6ea0-433d-b87c-e7f773cc98fb/comparator.json",
+  "status": "solution-present",
+  "description": "Prove the universally quantified conditional transport law whose uniqueness antecedent is relativized to occurrences occurring at a world accessible from w. The proof applies uniqueness to the conditioned matching occurrence using the occurrence supplied by possible conditioning. Corrects the earlier law, whose uniqueness antecedent ranged over the whole occurrence type. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN."
+}
