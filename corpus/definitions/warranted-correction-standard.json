@@ -1,9 +1,9 @@
 {
   "id": "63f0647d-d7f6-5101-ba15-efdcdb6e6530",
-  "label": "WARRANTED_CORRECTION_STANDARD_2: A standard an agent can actually use with adequate epistemic…",
+  "label": "WARRANTED_CORRECTION_STANDARD_2: A standard an agent can actually use with adequate epistemic\u2026",
   "legacy_id": "DEF-WARRANTED-CORRECTION-STANDARD",
   "term": "warranted correction standard",
   "definition": "A standard an agent can actually use with adequate epistemic warrant to distinguish correct from incorrect applications of a rule. Its practical availability and warrant are additional requirements beyond the extensional existence of a predicate on evidence.",
   "basis": "stipulative",
-  "note": "Comparison sense only: no complete theory of epistemic warrant is asserted or formalized. Whether PI I.258/I.265 requires this or a different grammatical notion remains an open source-interpretive question. Do not infer it from the exact-classifier theorem."
+  "note": "Comparison sense only: no complete theory of epistemic warrant is asserted or formalized. Whether PI I.258/I.265 requires this or a different grammatical notion remains an open source-interpretive question. Do not infer it from the exact-classifier theorem. Declaration-completion investigation 2026-11-09: the separate CertifiedCorrection.Procedure candidate exposes decision, certificate, Boolean checking, execution resources, scope coverage and semantic calibration. It is not this definition: neither an accepted certificate nor even factive calibration is by itself adequate philosophical warrant. Both original sense allowances remain. To complete this shared definition, supply a substantive account of epistemic entitlement to the procedure and its calibration, with applicability to actual inquirers; use the same declaration for both existing senses, without wrappers."
 }

@@ -145,6 +145,13 @@ attempt does not establish its target or change frontier closure. The dossier is
 computed from corpus records, not edited separately. See `docs/premise-dossiers.md`
 for the attempt format and reference boundaries.
 
+## Research hypotheses are not forced owner decisions (owner direction, 2026-11-09)
+
+- Before offering A/B/C as an owner choice, classify whether the alternatives are mutually exclusive *actions or bindings needed now*, or coexisting philosophical senses, explanatory standards, rivals or conditional frameworks. A disputed thesis is not itself an implementation decision gate.
+- For research alternatives, retain each defensible interpretation and its strongest arguments, objections and replies. Compare precise implications, countermodels and bridges under explicit assumptions; investigate relationships before assuming either exhaustiveness or exclusivity. Do not ask the owner to select a metaphysical winner merely to proceed. A recommendation can prioritize investigation but does not establish a sense.
+- Ask a focused owner question only when a concrete next action actually requires an exclusive commitment that cannot responsibly be carried as explicit alternatives. An instruction to investigate all options is a complete methodological decision: persist it and proceed without reopening a forced winner question.
+- Whole-series explanation example (PR #1297): retain (A) optimality with possible ties, (B) genuine nonnecessitating agent-causal exercise, and (C) strong contrastive sufficiency as rival standards to test, not an asserted exhaustive/exclusive trilemma. The existing first-optimum agenda is one procedural selector, not proof of agent causation; a `chooses` predicate alone is not explanatory authority. B is a provisional investigative preference, not an established conclusion. Include choices, laws and relations in the full contingent order; inspect reason relevance, circularity, regress, contingency and the missing source-to-adequacy bridge. None of this closes the original premise.
+
 ## Systematic sense and rival comparison
 
 Before research, inspect `/progress` in the corpus explorer and the target's

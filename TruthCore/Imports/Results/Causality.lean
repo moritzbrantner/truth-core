@@ -113,6 +113,7 @@ public import TruthCore.Results.Causality.EternityDefinitions.Coverage.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.PrimitiveComposition.Solution
 public import TruthCore.Results.Causality.EternityDefinitions.RecognitionStrength.Solution
+public import TruthCore.Results.Causality.EventIdentityProfiles.Solution
 public import TruthCore.Results.Causality.ExistenceSenseRoute.Solution
 public import TruthCore.Results.Causality.ExistentialSelfActualization.Solution
 public import TruthCore.Results.Causality.ExistsSenseMeaning.Solution
@@ -254,6 +255,7 @@ public import TruthCore.Results.Causality.SupertaskOscillation.Solution
 public import TruthCore.Results.Causality.SupertaskStableEndpoint.Solution
 public import TruthCore.Results.Causality.SupertaskUnitCostDiverges.Solution
 public import TruthCore.Results.Causality.SupertaskUrnPointwise.Solution
+public import TruthCore.Results.Causality.SurveySourceEndpointControls.Solution
 public import TruthCore.Results.Causality.TeleologyFirstMover.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Controls.Solution
 public import TruthCore.Results.Causality.TemporalActualization.Framework.Solution

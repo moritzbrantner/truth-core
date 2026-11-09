@@ -1,0 +1,11 @@
+{
+  "id": "2a25df47-0dcd-4844-b338-153f8a6f2490",
+  "label": "A3 same-event transport under selected occurrence uniqueness",
+  "argument_id": "4bdad615-4edd-4773-93da-02fd614ef7a2",
+  "challenge_module": "TruthCore.Results.Causality.EventIdentityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EventIdentityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.EventIdentityProfiles.transport",
+  "comparator_config": "results/2a25df47-0dcd-4844-b338-153f8a6f2490/comparator.json",
+  "status": "solution-present",
+  "description": "Prove the universally quantified conditional transport law. The antecedent explicitly requires uniqueness for the selected state-pair and possible conditioning of a matching occurrence. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN."
+}
