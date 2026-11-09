@@ -1,0 +1,37 @@
+{
+  "id": "728562fb-12b4-4e77-aa5b-4e8be8e6c35d",
+  "label": "Protective process safety and omission controls",
+  "argument_id": "c1d980d8-38b7-4cfa-9ee8-07a3b62289a9",
+  "challenge_module": "TruthCore.Results.Causality.ProtectiveProcess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProtectiveProcess.Solution",
+  "theorem": "TruthCore.Results.Causality.ProtectiveProcess.controls",
+  "comparator_config": "results/728562fb-12b4-4e77-aa5b-4e8be8e6c35d/comparator.json",
+  "status": "solution-present",
+  "description": "Checked formal model controls only. The flame baseline has an actual two-edge terminal destruction of bearer true; guarded history shares its initial state and interrupts the first flame edge. Bypass and later replacement remain possible admitted histories, so blocking one process is not unqualified protection. Independent CausesIn may remain empty despite realized protection. No statement about original direct conservation, real fire, or all possible histories.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "069f5d05-0427-46c3-8ead-d7df4a6b859a",
+      "rival_statement_id": "70590c91-e2ad-474e-96ce-b714e72c7d21",
+      "sense_definition_id": "a2ba53c6-6eca-4572-acf1-8bd78a0967a5",
+      "outcome": "model-witnessed",
+      "conditions": "Controls first conjunct: Interrupted finite false flame guarded 0; Admissible, LossCovered, NoBypass and ProtectedInterval for finite/blockFlame/guarded/2/true.",
+      "scope": "One fixed Model Bool Bool Stage; the identical bearer true and shared initial ready state; only sampled times 0,1,2.",
+      "coverage": "Two supplied process identities and four states; baseline flame, guarded, direct bypass and later replacement traces. No global adequacy of this roster is claimed.",
+      "exclusivity": "The action is the supplied guarding episode; different process identities may threaten the same bearer. No metaphysical exclusivity premise.",
+      "witness": "finite model with flame 0=ready, flame 1=burning, flame 2=lost; guarded 0=ready and guarded n=safe for n>0. A terminal flame edge is populated on the baseline, while guard safety has all explicit inputs.",
+      "next_step": "Provide an ordinary physical realization of the transition restriction before identifying this candidate with sourced indirect preservation."
+    },
+    {
+      "target_statement_id": "303d4ae5-a990-55ea-8b61-173b5ba215d3",
+      "rival_statement_id": "70590c91-e2ad-474e-96ce-b714e72c7d21",
+      "sense_definition_id": "8d71c8ed-2df6-583b-8a39-8526a4e7e110",
+      "outcome": "unresolved",
+      "conditions": "Finite process controls certify their stipulated transition semantics only; no interpretation from original direct/indirect sourced conservation is supplied.",
+      "scope": "A temporal sampled process model, contrasted with q104's continuing direct esse-giving without motion or time.",
+      "coverage": "Only the stated finite ordinary-process candidate; the original preservation senses remain incomplete and allowlisted.",
+      "exclusivity": "No exhaustive or exclusive metaphysical fork asserted; one agent may protect and productively act through distinct episodes.",
+      "gap": "An intervention's physical realization and a faithful original indirect-preservation interpretation remain open; productive receipt of this same bearer's esse is absent altogether.",
+      "next_step": "Retain both original allowances. Model a positive productive contribution separately before attempting a same-bearer conservation-to-CausesIn bridge; never infer it from protective success."
+    }
+  ]
+}

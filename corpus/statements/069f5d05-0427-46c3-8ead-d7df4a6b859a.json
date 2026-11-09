@@ -1,0 +1,9 @@
+{
+  "id": "069f5d05-0427-46c3-8ead-d7df4a6b859a",
+  "label": "Bounded protective process safety",
+  "paraphrase": "For arbitrary Being, Process and State carriers, every initially existing bearer persists at each sampled point through a finite bound IF the history admits no blocked process edges, every loss is represented by a terminal destruction of this bearer, and every such destruction is blocked. These are explicit internal conditional hypotheses, not established metaphysical laws. Analyst formulation; attribution deferred.",
+  "lean_declaration": "TruthCore.Causality.ProtectiveProcess.Safety",
+  "definition_ids": [
+    "a2ba53c6-6eca-4572-acf1-8bd78a0967a5"
+  ]
+}
