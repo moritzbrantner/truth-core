@@ -1,0 +1,30 @@
+target = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+[[node]]
+id = "a1bbea9b-291e-526a-8d58-6a1a0cc701be"
+[[node]]
+id = "9e43b06d-62f3-5f2a-9599-c19df184bd5c"
+[[node]]
+id = "58bd652d-9d7f-5eb2-b7f7-de9762b27677"
+[[node]]
+id = "0af47160-bf4d-5817-9fbd-3745b6058388"
+[[node]]
+id = "9eb52f9d-fdb5-556f-9668-6d31f609e236"
+[[node]]
+id = "Autonomous ground concrete nonexistential joint certificate"
+new = true
+text = "Full five-input package and same-profile NecessaryConcreteAt with not IngredientAt, nonempty ground, contingent neighbour and all-world population."
+[[edge]]
+premises = ["a1bbea9b-291e-526a-8d58-6a1a0cc701be", "9e43b06d-62f3-5f2a-9599-c19df184bd5c", "58bd652d-9d7f-5eb2-b7f7-de9762b27677", "0af47160-bf4d-5817-9fbd-3745b6058388", "9eb52f9d-fdb5-556f-9668-6d31f609e236"]
+conclusion = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+kind = "bridge"
+status = "mapped"
+note = "Unregistered assembly projection of sameTarget on supplied Profile; blocked by inherited multi-sense premise metadata, no delivered root connection or new inference support."
+[[edge]]
+premises = []
+conclusion = "Autonomous ground concrete nonexistential joint certificate"
+kind = "rival"
+status = "certified"
+note = "New populated finite model of the full package with no existential ingredient."
