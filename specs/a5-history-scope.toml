@@ -1,0 +1,17 @@
+[batch]
+vocab = "TruthCore.Modal.A5HistoryScope"
+results = "TruthCore.Results.Modal.A5HistoryScope"
+
+[[statement]]
+id = "A5 history interpretation scope controls"
+lean = "ControlSuite"
+paraphrase = "Analyst formal controls: integer onset satisfies population/member first occurrence and predecessor transition; rational onset has no immediate predecessor; a first natural-number moment permits onset without predecessor; member onset need not be population onset; recurrence separates predecessor transition from first occurrence; roster controls check exact exclusion, empty negative content, classification scope and full-history versus past cutoff. These are full-carrier test interpretations, not metaphysical possibility or source attribution."
+
+[[argument]]
+id = "A5 history scope controls verified"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+theorem = "controls"
+premises = []
+conclusion = "A5 history interpretation scope controls"
+rule = "Explicit full-carrier witnesses and omission counterexamples"
+meaning = "Test the owner-selected interpretation alternatives without conjoining them as one source reading. No original allowance is cleared by these controls; no actual causal availability, explanation or root truth follows."
