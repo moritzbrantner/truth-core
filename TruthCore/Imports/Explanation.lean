@@ -43,6 +43,7 @@ public import TruthCore.Explanation.PathRelocation
 public import TruthCore.Explanation.SelectionCoverageBoundary
 public import TruthCore.Explanation.StoppingPoints
 public import TruthCore.Explanation.TargetCopyExpansion
+public import TruthCore.Explanation.TruthmakerSourceScopes
 public import TruthCore.Explanation.TruthmakerTheories
 public import TruthCore.Explanation.UltimateAdequacy
 public import TruthCore.Explanation.WeakAccountNecessaryBeing

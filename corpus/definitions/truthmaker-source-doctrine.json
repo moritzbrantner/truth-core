@@ -8,5 +8,7 @@
   "claim_ids": [
     "1d514c1b-c0a0-544c-b5a5-43325abec3fd",
     "91561df5-86cc-5a95-8a69-dd1bd036376f"
-  ]
+  ],
+  "lean_declaration": "TruthCore.Explanation.TruthmakerSourceScopes.EveryTruthHasMakerAt",
+  "note": "Selected-world encoding of the doctrine content only: for each true represented claim there exists a maker, with no shared witness required. No all-world policy, soundness, actual-existence conjunct or existence-label restriction is added. Making remains a primitive substantive relation; the legitimacy of its grounding/aboutness interpretation and completeness of the represented claim and eligible-maker domains remain OPEN. Source reporting and rejection are metadata, not propositions proved by this declaration."
 }
