@@ -1,0 +1,9 @@
+{
+  "id": "803c2d3f-aa4b-4ac6-940c-cd8365019954",
+  "label": "Potential lower bound on selected-world actual concreta",
+  "term": "potential lower bound on selected-world actual concreta",
+  "definition": "One real lower bound L satisfies L <= S x for every x concrete and existing at the one selected world w. The supplied S:B->Real is a coordinate on candidate beings, not integer time or a physical stock. Take S n=n, L=0 on an ascending chain. Negative S n=-n on reverse-successor grounding has no common lower bound.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.PotentialLowerBound",
+  "note": "Analyst mathematical framework; attribution deferred. Applicability to reality and any calibration of metaphysical grounding remain OPEN. No clock, temporal cause, entropy, necessity by own nature, causal completeness, transfinite converse or cross-world union is inferred. Related BoundedPastResource uses a distinct Int-time carrier; a pullback needs explicit clocks, coverage and growth correspondence, not supplied here."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "0cfe9db9-5656-44ff-a8bf-c95ac9a48098",
+  "label": "Uniform positive numerical gap",
+  "term": "uniform positive numerical gap",
+  "definition": "The single supplied real epsilon satisfies 0 < epsilon. It is fixed for all edges, not a node-dependent positive quantity. epsilon=1 satisfies it; epsilon=0 does not. This is pure arithmetic, not a grounding claim.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.PositiveGap",
+  "note": "Analyst mathematical framework; attribution deferred. Applicability to reality and any calibration of metaphysical grounding remain OPEN. No clock, temporal cause, entropy, necessity by own nature, causal completeness, transfinite converse or cross-world union is inferred. Related BoundedPastResource uses a distinct Int-time carrier; a pullback needs explicit clocks, coverage and growth correspondence, not supplied here."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "5adb2dc9-54bc-4727-8821-b4dbb94d5220",
+  "label": "Actual grounding potential lower bound",
+  "paraphrase": "OPEN analyst calibration: one fixed real L bounds S x below for ALL actual concreta at the selected world w. S is on candidate beings, not integer time.",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.PotentialLowerBound",
+  "definition_ids": [
+    "803c2d3f-aa4b-4ac6-940c-cd8365019954",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

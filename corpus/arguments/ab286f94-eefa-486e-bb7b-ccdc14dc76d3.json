@@ -1,0 +1,23 @@
+{
+  "id": "ab286f94-eefa-486e-bb7b-ccdc14dc76d3",
+  "label": "Actual grounding finite rank from bounded uniform real potential",
+  "premise_statement_ids": [
+    "5adb2dc9-54bc-4727-8821-b4dbb94d5220",
+    "516c4fee-086b-4fb9-8f8d-13175959bfbd",
+    "838f7cca-32ac-4aea-a3b5-bfc077ef50ba"
+  ],
+  "conclusion_statement_id": "47e323f2-3405-5caf-a192-201eb1e02f76",
+  "inference_ids": [
+    "19e7806e-0451-4823-90c1-950afb7226ce"
+  ],
+  "meaning": "New non-transcription conditional support option: floor((S x-L)/epsilon) supplies the existing Nat rank. Lower bound makes normalized potential nonnegative on actual nodes; the fixed positive gap gives normalized increase at least one along each y-to-x edge; floor therefore strictly increases toward effects. All three numeric inputs are OPEN; no real-world grounding correlation, premise truth, original declaration clearance or root discharge. One sufficient quantitative profile, no converse or universal metaphysical adequacy asserted.",
+  "definition_ids": [
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "803c2d3f-aa4b-4ac6-940c-cd8365019954",
+    "0cfe9db9-5656-44ff-a8bf-c95ac9a48098",
+    "d17765e2-7ad5-4338-a9a6-67d5bab3b53f"
+  ]
+}
