@@ -1,0 +1,25 @@
+[batch]
+vocab = "TruthCore.Causality.SelectedAncestry"
+results = "TruthCore.Results.Causality.SelectedAncestryUnique"
+[[argument]]
+id = "Selected necessary ancestor determines the unique actual root"
+theorem = "uniqueRoot"
+premises = ["177b9b54-212d-5162-b288-d0cb70899f3d", "ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7", "0436de86-6579-53f2-9ff5-2111ba44ebae", "cb1cdea9-eb6c-578c-8008-84e0d4107fd3", "e4e6b0cd-f61a-5605-a302-573c67cf063a"]
+conclusion = "91b085c4-f1c7-5ada-9848-8e7dc753313a"
+rule = "Shared maximum identifies every actual root"
+meaning = "Retain the SAME necessary actual concrete ancestor n. Explicit existence-to-esse and grades policies supply an esse maximum y; genus and esse-cause-to-actual-concrete-ground identify y with n and with every actual concrete root x. Therefore x=n. The Unit restriction retains the same carrier, selected world, esse and dictionaries. No global well-foundedness, all-world rootness, uniqueness of all necessary individuals, God naming or premise truth follows. This connects selected ancestry to the existing UniqueRootPerfection and Fourth Way consumer conditionally; it does not discharge an application premise."
+
+sense_bridges = [{term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_1", to = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_2", statement_id = "177b9b54-212d-5162-b288-d0cb70899f3d", role = "premise"}, {term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_3", to = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT_2", statement_id = "177b9b54-212d-5162-b288-d0cb70899f3d", role = "premise"}]
+
+[[statement]]
+id = "Selected ancestry unique root finite controls"
+lean = "TruthCore.Causality.SelectedAncestryUniqueControl.Certificate"
+paraphrase = "One populated finite joint witness for the five nonlogical uniqueness policies and a selected necessary ancestor; finite omission interpretations for the ancestor, genus, existence-to-esse, esse-to-ground and grades policies. The latter four use a two-root populated profile. Excluded middle is retained as the logical background, without an intuitionistic independence claim. Formal interpretations only, not metaphysical possibilities."
+[[argument]]
+id = "Selected ancestry uniqueness nonvacuity and omissions"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Selected ancestry unique root finite controls"
+rule = "Explicit finite interpretation"
+meaning = "Checks joint nonvacuity and omission interpretations for all five nonlogical carrying hypotheses. The positive model has one actual concrete candidate. Omitting ancestor uses an empty actual roster; the other four omissions retain two necessary concrete ungrounded roots, so uniqueness fails. The shared two-root failure is part of the certificate, not a claim about the positive model. The explicit logical EM hypothesis of uniqueRoot is not assigned an intuitionistic countermodel."
