@@ -1,0 +1,13 @@
+{
+  "id": "e1ff4eb5-54a3-4a9a-b4a6-be4986beeb88",
+  "label": "Per-accidens response-family model controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "09895486-ed6c-4571-beae-e7a15d14689a",
+  "inference_ids": [
+    "03e57fdb-cf42-448b-8bc2-57a5e1dc72c7"
+  ],
+  "meaning": "Construct the nonempty integer-dated histories and response witnesses; evaluate the omission and current-condition controls. These abstract profiles do not establish metaphysical possibility, adequacy for the original sourced sense, MovesAsMoved or accessibility.",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25"
+  ]
+}

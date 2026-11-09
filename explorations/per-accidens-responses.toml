@@ -1,0 +1,47 @@
+target = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+[[node]]
+id = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+[[node]]
+id = "Every-removal retained capacity"
+[[node]]
+id = "Some-removal retained capacity"
+[[node]]
+id = "Every-removal continued exercise"
+[[node]]
+id = "Some-removal continued exercise"
+[[node]]
+id = "Available every-removal retained capacity"
+[[node]]
+id = "Available some-removal retained capacity"
+[[node]]
+id = "Available every-removal continued exercise"
+[[node]]
+id = "Available some-removal continued exercise"
+[[node]]
+id = "Per-accidens response-family controls"
+[[edge]]
+premises = ["Every-removal continued exercise"]
+conclusion = "Every-removal retained capacity"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Some-removal continued exercise"]
+conclusion = "Some-removal retained capacity"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Available every-removal retained capacity"]
+conclusion = "Available some-removal retained capacity"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Available every-removal continued exercise"]
+conclusion = "Available some-removal continued exercise"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Per-accidens response-family controls"]
+conclusion = "STMT-NO-INFINITE-PER-SE-MOVER-SERIES"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: identity with the original accidental-series sense; exact essential-response-to-MovesAsMoved bridge; independent accessibility warrant. Controls are not these bridges."

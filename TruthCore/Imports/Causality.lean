@@ -106,6 +106,7 @@ public import TruthCore.Causality.ParityUnionRegress
 public import TruthCore.Causality.PartFreePlurality
 public import TruthCore.Causality.PartMediatedSelfMotion
 public import TruthCore.Causality.ParticipatedDuration
+public import TruthCore.Causality.PerAccidensResponses
 public import TruthCore.Causality.PerfectionOfBeing
 public import TruthCore.Causality.PerfectionPreexistence
 public import TruthCore.Causality.PluralRootConfluence

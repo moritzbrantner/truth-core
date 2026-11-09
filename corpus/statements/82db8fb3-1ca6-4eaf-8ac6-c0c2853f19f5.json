@@ -1,0 +1,10 @@
+{
+  "id": "82db8fb3-1ca6-4eaf-8ac6-c0c2853f19f5",
+  "label": "Some-removal continued exercise",
+  "paraphrase": "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves it actually exercising the same fixed task.",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.SomeExercise",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "a634c1a5-960f-4630-aa62-6c2c3fe69c72"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "6b8c25ba-c9d1-4a5f-a801-98cfa94ff604",
+  "label": "Available every-removal exercise implies some-removal exercise (inference)",
+  "input_statement_ids": [
+    "e53ac959-9bd6-4bee-9b43-00dab238ae2c"
+  ],
+  "output_statement_id": "b767da06-4865-4ab1-a43e-e9b8f6a51c0c",
+  "rule": "Explicit-response-strength-projection",
+  "meaning": "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

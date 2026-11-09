@@ -1,0 +1,11 @@
+{
+  "id": "a1d3ab88-4e25-4138-8b76-b223dcdd8ad4",
+  "label": "Some-removal exercise implies capacity",
+  "argument_id": "b2e17010-f971-41b3-a373-39b134539f4b",
+  "challenge_module": "TruthCore.Results.Causality.PerAccidensResponses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerAccidensResponses.Solution",
+  "theorem": "TruthCore.Results.Causality.PerAccidensResponses.someExerciseCapacity",
+  "comparator_config": "results/a1d3ab88-4e25-4138-8b76-b223dcdd8ad4/comparator.json",
+  "status": "solution-present",
+  "description": "Retain the same admissible witness and project its execution certificate. Conditional analyst strength comparison; no source identity or root discharge."
+}

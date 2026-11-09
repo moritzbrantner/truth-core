@@ -1,0 +1,20 @@
+{
+  "id": "b2e17010-f971-41b3-a373-39b134539f4b",
+  "label": "Some-removal exercise implies capacity",
+  "premise_statement_ids": [
+    "82db8fb3-1ca6-4eaf-8ac6-c0c2853f19f5"
+  ],
+  "conclusion_statement_id": "f3f1f630-da00-4329-afd3-f370c4569989",
+  "inference_ids": [
+    "c6ae61af-9ef8-44e8-84b5-67ec70f79324"
+  ],
+  "meaning": "Retain the same admissible witness and project its execution certificate. Conditional analyst strength comparison; no source identity or root discharge.",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "a634c1a5-960f-4630-aa62-6c2c3fe69c72",
+    "f5ce7c01-d2b2-4a67-b3b2-8212d3fb0493"
+  ],
+  "strong_version_needed": {
+    "82db8fb3-1ca6-4eaf-8ac6-c0c2853f19f5": "This argument establishes the strength arrow from this precise stronger interpretation."
+  }
+}

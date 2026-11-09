@@ -1,0 +1,11 @@
+{
+  "id": "2607753c-ca36-4da4-a966-bca774a0fc52",
+  "label": "Available every-removal capacity implies some-removal capacity",
+  "argument_id": "3f5a9da0-2706-4dbe-ba76-b4c1b887d07c",
+  "challenge_module": "TruthCore.Results.Causality.PerAccidensResponses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerAccidensResponses.Solution",
+  "theorem": "TruthCore.Results.Causality.PerAccidensResponses.allSomeCapacity",
+  "comparator_config": "results/2607753c-ca36-4da4-a966-bca774a0fc52/comparator.json",
+  "status": "solution-present",
+  "description": "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge."
+}
