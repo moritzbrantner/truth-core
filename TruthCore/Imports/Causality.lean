@@ -50,6 +50,7 @@ public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 public import TruthCore.Causality.EndlessTemporalDuration
+public import TruthCore.Causality.EntireChainHead
 public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
