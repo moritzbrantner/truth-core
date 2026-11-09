@@ -20,7 +20,8 @@
     {
       "id": "728b4876-f418-46fa-8d0c-57aa3ea29454",
       "label": "ACTUAL_FUSION_BARE_NECESSARY_EXISTENCE_2",
-      "definition_id": "84b1dc2c-48e6-5465-af21-48015fbf3cbe"
+      "definition_id": "84b1dc2c-48e6-5465-af21-48015fbf3cbe",
+      "lean_declaration": "TruthCore.Causality.ActualFusionNecessaryBeing.ActualPartsExistAt"
     },
     {
       "id": "95a3d30d-c4fc-43e8-ab4a-66a0cfd1a172",
