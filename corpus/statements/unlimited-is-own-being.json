@@ -1,6 +1,6 @@
 {
   "id": "26e8e6ed-964e-55ef-a9fd-756164aad6a7",
-  "label": "Noncomposite beings with essence equal to esse and nothing prior are their own being",
+  "label": "Any being that is not composite, whose represented esse equals its represented essence, and to…",
   "legacy_id": "STMT-UNLIMITED-IS-OWN-BEING",
   "paraphrase": "OPEN, unattributed bridge: any being that is not composite, whose represented esse equals its represented essence, and to which no distinct being is simply prior, is its own being (subsistent esse). The SCG I.28 claim warns that own being is not a formal consequence of a represented essence/esse equality; this bridge states that step as a separate open commitment.",
   "lean_declaration": "TruthCore.Causality.WholePowerPerfection.UnlimitedIsOwnBeing",

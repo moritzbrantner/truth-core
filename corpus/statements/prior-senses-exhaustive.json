@@ -1,6 +1,6 @@
 {
   "id": "c3ae2148-fa13-57e9-a233-d6ad67f159a8",
-  "label": "Every priority use on the act-potency route selects one of three specified relations",
+  "label": "Every use of 'prior' on the route to act's priority over potency is read in one of three senses…",
   "legacy_id": "STMT-PRIOR-SENSES-EXHAUSTIVE",
   "paraphrase": "OPEN frontier premise (coverage, attribution deferred): every use of 'prior' on the route to act's priority over potency is read in one of three senses, simple priority, priority in time, or priority in substance, selected by the route's reading, and the use's relation is exactly the relation of that sense. A rival who proposes a further sense of 'prior' denies this premise.",
   "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorSensesExhaustive",

@@ -1,6 +1,6 @@
 {
   "id": "78246da5-0b37-5b37-b821-1e8bdb41606c",
-  "label": "Every first UNMOVED_2 mover lacks body, matter-form composition and essence-esse distinction",
+  "label": "Every first UNMOVED_2 mover lacks body and all composition, with esse equal to essence",
   "legacy_id": "STMT-FIRST-UNMOVED-MOVER-IS-SIMPLE",
   "paraphrase": "Every first mover moved by none is not a body, not composed of matter and form, has no esse distinct from its essence, and is not composite in any way.",
   "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.FirstUnmovedMoverIsSimpleReading",
