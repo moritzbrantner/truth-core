@@ -94,6 +94,7 @@ EXPLORER_INPUT_PATTERNS = (
     "scripts/argument_context.py",
     "scripts/source_evidence.py",
     "scripts/premise_dossiers.py",
+    "scripts/research_comparisons.py",
     "scripts/sense_labels.py",
     "scripts/attribution_check.py",
     "scripts/bridge_experiments.py",
