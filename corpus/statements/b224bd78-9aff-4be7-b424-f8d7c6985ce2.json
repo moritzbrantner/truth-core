@@ -1,0 +1,10 @@
+{
+  "id": "b224bd78-9aff-4be7-b424-f8d7c6985ce2",
+  "label": "Duration comparison and extensive measure separation controls",
+  "paraphrase": "Stipulated commensurable motion segments: length satisfies normalized additive cross-motion measurement; squared length preserves and reflects interval comparison but fails additivity; a constant readout fails comparison reflection. Analyst candidates, not completion of the original time measure.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.TimeControls",
+  "definition_ids": [
+    "94a5ba93-db32-4c7f-b9a5-7f18d24eaf2e",
+    "53eae954-56b8-47ba-8b90-8394ff7e9385"
+  ]
+}

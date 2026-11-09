@@ -1,0 +1,9 @@
+{
+  "id": "f0e50ec6-7065-4189-b5f9-8fba8c78067e",
+  "label": "quantitative substantial holding candidate",
+  "term": "quantitative substantial holding candidate",
+  "definition": "Admissible indivisible substantial identity with invariant holding inventory and normalized additive unit-count magnitude representation.",
+  "basis": "stipulative",
+  "note": "Analyst candidate only; attribution deferred. Exact operational interpretation and original-mapping blockers: corpus/definitions/duration-measure-candidates.md.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.QuantitativeAevum"
+}

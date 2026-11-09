@@ -1,0 +1,16 @@
+target = "STMT-GOD-IS-ETERNAL"
+[[node]]
+id = "STMT-GOD-IS-ETERNAL"
+[[node]]
+id = "Duration comparison and extensive measure separation controls"
+new = false
+text = "Compare adequate interval comparison against additive units and cross-motion matching on the same commensurable segments."
+[[node]]
+id = "Aevum candidates allow potential adjunct variation and reject admissible corruption"
+new = false
+text = "Nonnumeric representation and quantitative holding inventories with admissible internal indivisibility."
+[[edge]]
+premises = ["Duration comparison and extensive measure separation controls", "Aevum candidates allow potential adjunct variation and reject admissible corruption"]
+conclusion = "STMT-GOD-IS-ETERNAL"
+kind = "bridge"
+status = "mapped"

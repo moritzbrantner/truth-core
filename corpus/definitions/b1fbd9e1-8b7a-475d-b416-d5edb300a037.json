@@ -1,0 +1,9 @@
+{
+  "id": "b1fbd9e1-8b7a-475d-b416-d5edb300a037",
+  "label": "nonnumeric substantial holding candidate",
+  "term": "nonnumeric substantial holding candidate",
+  "definition": "Admissible indivisible substantial identity with invariant capacity inventories and subset-order representation.",
+  "basis": "stipulative",
+  "note": "Analyst candidate only; attribution deferred. Exact operational interpretation and original-mapping blockers: corpus/definitions/duration-measure-candidates.md.",
+  "lean_declaration": "TruthCore.Causality.DurationMeasureCandidates.ComparativeAevum"
+}
