@@ -1,0 +1,14 @@
+{
+  "id": "8b5b3eac-5f5a-478d-b0d8-640db1046740",
+  "label": "Select one aligned hiddenness witness (inference)",
+  "input_statement_ids": [
+    "16fde4e8-1801-4758-8207-f5ac611f3876",
+    "c18f6b6a-93cb-40fd-8fd6-7b03ce0941b1",
+    "62d4c4c4-9834-5acb-ba7b-260e040c7009"
+  ],
+  "output_statement_id": "c67a7815-2071-4d76-a3a0-b9f8e7b09532",
+  "rule": "Witness elimination and conditional contradiction; finite interpretations",
+  "meaning": "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

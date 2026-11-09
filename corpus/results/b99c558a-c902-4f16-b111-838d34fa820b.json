@@ -1,0 +1,11 @@
+{
+  "id": "b99c558a-c902-4f16-b111-838d34fa820b",
+  "label": "Witness openness scope projection",
+  "argument_id": "92c69412-75f4-4a56-bc86-63b76267e24f",
+  "challenge_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Challenge",
+  "solution_module": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Solution",
+  "theorem": "TruthCore.Results.Hiddenness.WitnessLocalHiddenness.openWeakens",
+  "comparator_config": "results/b99c558a-c902-4f16-b111-838d34fa820b/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries."
+}

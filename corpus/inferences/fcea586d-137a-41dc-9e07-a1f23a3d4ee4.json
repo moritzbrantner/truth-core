@@ -1,0 +1,13 @@
+{
+  "id": "fcea586d-137a-41dc-9e07-a1f23a3d4ee4",
+  "label": "One aligned witness excludes personal ultimate (inference)",
+  "input_statement_ids": [
+    "5e5aa271-d500-41c7-a470-32969b00a5af",
+    "c67a7815-2071-4d76-a3a0-b9f8e7b09532"
+  ],
+  "output_statement_id": "80f4e2eb-800b-57eb-8cf8-7f0e1cff1459",
+  "rule": "Witness elimination and conditional contradiction; finite interpretations",
+  "meaning": "Analyst scope comparison, attribution deferred. God-to-love is retained; empirical capacity, causal nonresistance and nonbelief are unchanged. Both local norms use the identical person and time. No premise is independently warranted. See docs/hiddenness.md for proof boundaries.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

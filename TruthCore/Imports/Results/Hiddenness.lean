@@ -11,3 +11,4 @@ public import TruthCore.Results.Hiddenness.NontheisticConsistent.Solution
 public import TruthCore.Results.Hiddenness.NontheisticDevelopmentConsistent.Solution
 public import TruthCore.Results.Hiddenness.PremisesIndependent.Solution
 public import TruthCore.Results.Hiddenness.QualifiedNotAlways.Solution
+public import TruthCore.Results.Hiddenness.WitnessLocalHiddenness.Solution

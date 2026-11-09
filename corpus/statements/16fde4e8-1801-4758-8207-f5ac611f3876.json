@@ -1,0 +1,15 @@
+{
+  "id": "16fde4e8-1801-4758-8207-f5ac611f3876",
+  "label": "Witness-only openness norm",
+  "paraphrase": "For each actual capable causal nonresistant nonbeliever, perfect love entails immediate conscious access. No norm for believers is asserted. Analyst formulation, attribution deferred.",
+  "lean_declaration": "TruthCore.Hiddenness.WitnessLocalHiddenness.WitnessOpen",
+  "definition_ids": [
+    "5fc52e92-0783-5a76-bd99-dca53df00800",
+    "4b2943ad-3bc5-5492-94bc-f21e9f1a12ab",
+    "9fefb6b4-9493-52c3-868c-ad00fcda8151",
+    "e83e512d-ae8d-5e80-a697-8fc1d672b7d3",
+    "61e1abc6-d388-559b-88e1-0a65073c88e1",
+    "31d85ba8-5fb1-5fb8-bdfb-cedca7e8854e",
+    "608e0f97-3dbb-5bfd-9688-acecfb2f1fdf"
+  ]
+}

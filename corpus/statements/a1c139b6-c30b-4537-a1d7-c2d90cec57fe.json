@@ -1,0 +1,6 @@
+{
+  "id": "a1c139b6-c30b-4537-a1d7-c2d90cec57fe",
+  "label": "Witness-local hiddenness controls",
+  "paraphrase": "Finite strictness, nonvacuity, four omission controls and a positive sufficient-reason reply with nonacceptance. No empirical or metaphysical possibility claim.",
+  "lean_declaration": "TruthCore.Hiddenness.WitnessLocalHiddenness.Controls"
+}
