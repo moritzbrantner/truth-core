@@ -54,6 +54,7 @@ public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
 public import TruthCore.Causality.EternityDefinitionFork
+public import TruthCore.Causality.EventStatePreservation
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistenceSenseRoute
 public import TruthCore.Causality.ExistentialSelfActualization
