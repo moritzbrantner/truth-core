@@ -1,0 +1,15 @@
+{
+  "id": "a79b4597-7116-47a1-a3f4-f3fc584407a2",
+  "label": "Question-relative physical coverage declaration and calibration boundary",
+  "statement_ids": [
+    "0dcd6d2e-96a2-55e3-a098-8c2d13c5fee2"
+  ],
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Completed COMPLETE_PHYSICAL_INFORMATION_2 as question-relative extensional factorization of an independently specified relevant physical-fact family through the projection over the full candidate domain. Preserved definition 497142e6-35f5-5127-87b6-05563a53bf3b scope following owner clarification: global full-state coverage is stronger and is not imposed. Focused Lean controls transfer relevant truth knowledge under coverage and AllPhysicalKnown on arbitrary carriers; nonempty infinite Nat domains witness coverage with identity projection and failure with constant projection despite all represented predicates known. Empty relevance is explicitly vacuous and cannot certify actual calibration. Existing certificate, physical-equality general law and Boolean twin/survivor are unchanged. No new source claim, registered consequence or premise discharge.",
+  "evidence": [
+    "f8b7041e-4404-5a24-9130-2a49c300eca3"
+  ],
+  "blocker": "Actual physical facthood and exhaustive relevance calibration remain OPEN. Root connection plan: serve the intellectual/nonphysical-being comparison at STMT-IMMATERIAL-IS-INTELLECTUAL; the existing report certificate has no root route. A bridge from phenomenal report distinctions to the immateriality/intellect vocabulary and an independent ideal-reflection premise are still missing; projection coverage supplies neither. Next independent slice: compare accepting/rejecting epistemic-to-metaphysical inclusion on the same calibrated question-relative profile, without inferring substance difference from report difference."
+}
