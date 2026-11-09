@@ -1,0 +1,11 @@
+{
+  "id": "8bd85a69-2977-4e16-b4cd-5f0c1723e232",
+  "label": "Finite observer calibration gives design evidence direction",
+  "argument_id": "6a3570d2-041e-4894-8d31-249ad976c927",
+  "challenge_module": "TruthCore.Results.Science.FineTuningSelection.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningSelection.Solution",
+  "theorem": "TruthCore.Results.Science.FineTuningSelection.direction",
+  "comparator_config": "results/8bd85a69-2977-4e16-b4cd-5f0c1723e232/comparator.json",
+  "status": "solution-present",
+  "description": "Derives an internal universally quantified conditional from explicit normalized weights and two likelihood calibration bounds. The calibration and sampling interpretation remain open; this theorem does not assert their actuality."
+}

@@ -1,0 +1,6 @@
+{
+  "id": "d4ada0cc-ad6a-4713-a540-3ca6caaafd90",
+  "label": "Observer selection reverses design evidence controls",
+  "paraphrase": "A calibrated inhabited pair has Bayes factor three. Holding unconditional natural fine evidence fixed while selecting observers reverses the factor to three quarters. Holding natural calibration while lowering designer preference reverses it to one half. Prior odds one tenth remain below posterior parity despite factor three.",
+  "lean_declaration": "TruthCore.Science.FineTuningSelection.SelectionControls"
+}
