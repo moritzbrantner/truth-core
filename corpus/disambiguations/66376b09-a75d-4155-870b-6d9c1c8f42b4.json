@@ -1,0 +1,25 @@
+{
+  "id": "66376b09-a75d-4155-870b-6d9c1c8f42b4",
+  "label": "Whole-series truth entailment versus contingent exercise",
+  "term": "whole-series explanatory sufficiency",
+  "term_label": "WHOLE_SERIES_EXPLANATORY_SUFFICIENCY",
+  "sense_definition_ids": [
+    "9e6a970e-f7f6-49da-a738-84aa48ea5372",
+    "74a88a8d-62a2-4537-a98c-670b90dffc0f"
+  ],
+  "resolution": "Owner retains both explicit analyst siblings. Full contingent fact scope includes laws and relations. Neither sibling is silently identified with the original sourced sense. Entailing content and necessary bearer are distinct commitments. Under an accessible counterexample to an actual contingent fact, necessary discriminating content is contradictory; this is not a contradiction from necessary bearer alone. The contingent-exercise sibling supplies choice and optimality structure but still owes independent explanatory relevance and an adequacy bridge. Coverage of all intended sufficient-reason accounts and exclusive selection of a reading remain OPEN; no exhaustive fork theorem is claimed.",
+  "senses": [
+    {
+      "id": "ec73580d-4d02-4e86-a618-3b64e3da3dbd",
+      "label": "WHOLE_SERIES_EXPLANATORY_SUFFICIENCY_1",
+      "definition_id": "9e6a970e-f7f6-49da-a738-84aa48ea5372",
+      "lean_declaration": "TruthCore.Explanation.WholeSeriesReason.EntailingWholeReason"
+    },
+    {
+      "id": "26a55675-d08b-4891-9c07-2f944ba05bfd",
+      "label": "WHOLE_SERIES_EXPLANATORY_SUFFICIENCY_2",
+      "definition_id": "74a88a8d-62a2-4537-a98c-670b90dffc0f",
+      "lean_declaration": "TruthCore.Explanation.WholeSeriesReason.ReasonGuidedWholeExercise"
+    }
+  ]
+}
