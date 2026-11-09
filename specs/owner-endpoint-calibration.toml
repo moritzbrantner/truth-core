@@ -1,0 +1,16 @@
+[batch]
+vocab = "TruthCore.Causality.OwnerEndpointCalibration"
+results = "TruthCore.Results.Causality.OwnerEndpointCalibration"
+
+[[statement]]
+id = "Owner endpoint calibration interface and omission certificate"
+lean = "Certificate"
+paraphrase = "Universally quantified direct actualGraph endpoint classification from the owner floor, the separate IntendedProfile power route, and same-bearer esse classification under EsseIntendedProfile. Finite controls exhibit isolated nonconcrete sources, failure of an unrelated graph to classify Ontic endpoints, arbitrary concrete labels without esse, and joint outgoing production with the owner floor. No intended anchored model, modal necessity, premise truth or root closure is asserted."
+
+[[argument]]
+id = "Owner endpoint calibration checked interface"
+theorem = "certificate"
+premises = []
+conclusion = "Owner endpoint calibration interface and omission certificate"
+rule = "Conjunction elimination, literal actualGraph dictionary, and explicit finite interpretations"
+meaning = "Conditional interfaces keep all profile and owner inputs inside the quantified certificate. DirectLaw uses only the activity conjunct; ProfileLaw uses exerciseHasPower and powerConcrete; EsseLaw adds concreteIsEsse. Actual existence is supplied by actualGraph nodes and is not needed by the owner's unguarded activity clause itself. Controls distinguish missing production, dictionary and esse calibration, without asserting an anchored intended ontology."
