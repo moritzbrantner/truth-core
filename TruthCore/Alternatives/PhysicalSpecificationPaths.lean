@@ -12,10 +12,29 @@ This candidate does not complete PHYSICAL_OF_A_GROUND_2.
 namespace TruthCore.Alternatives.PhysicalSpecification
 open FirstOrder
 
-/-- A finite path, including the zero-edge path. No bound on path length. -/
+/-- A finite path, including the zero-edge path. No bound on path length.
+
+This is Mathlib's `Relation.ReflTransGen` in head-first form (`path_iff_reflTransGen`).
+Reason for the hand-rolled type (invariant 16): `PathFormula.realize` and the frozen
+Challenge `TruthCore.Results.Alternatives.PhysicalSpecificationPaths` (`pathControl`,
+`reachVaryingControl`) are stated with `Path`, so it is kept; new code should use the
+equivalence and Mathlib's `ReflTransGen` lemmas rather than re-proving path facts. -/
 inductive Path {D : Type} (r : D → D → Prop) : D → D → Prop where
   | refl (x) : Path r x x
   | step {x y z} : r x y → Path r y z → Path r x z
+
+/-- `Path` is exactly Mathlib's reflexive-transitive closure. -/
+theorem path_iff_reflTransGen {D : Type} {r : D → D → Prop} {x y : D} :
+    Path r x y ↔ Relation.ReflTransGen r x y := by
+  constructor
+  · intro h
+    induction h with
+    | refl => exact .refl
+    | step e _ ih => exact Relation.ReflTransGen.head e ih
+  · intro h
+    induction h using Relation.ReflTransGen.head_induction_on with
+    | refl => exact .refl _
+    | head e _ ih => exact .step e ih
 
 /-- A deliberately restricted FO+reachability language. Endpoints are free
 variables only. Parameters must already belong to the permitted subtype.
@@ -122,14 +141,20 @@ def adjacency : (b : Bool) → reachDomain b → reachDomain b → Prop
 /-- A single reachability formula covers the full Nat and Bool domains from
 one permitted anchor. The explicit Path conjunct requires actual anchor-to-object
 reachability, even if definability could also use an FO tautology. No FO
-undefinability claim. -/
+undefinability claim. The target is constantly true, so this control does not
+separate reachable from unreachable objects; `reachNontrivialControl`
+(`PhysicalSpecificationIndependence`) is the non-trivial witness. -/
 def reachVaryingControl : Prop := VaryingPathDefinability linkVocabulary reachDomain
   reachModel (fun _ : Unit => True) (fun _ => True) (fun _ _ => True) ∧
   ∀ b x, Path (adjacency b) (reachAnchor b) x
 
-/-- Root-route diagnostic only: specification by this graph language coexists
-with an independently empty composition and intellect assignment. Without a
-calibration/bearer bridge it cannot refute the original Aquinas route step. -/
+/-- Trivial conjunction, NOT an independence result: `reachVaryingControl` together
+with two copies of `¬ False` (the constantly false predicate on Nat, applied to the
+Nat anchor). No composition, intellect or route predicate occurs in this type, so it
+certifies nothing about composition or intellect. The genuine independence control,
+with the existing `PhysicalGround.Route` composition and intellect predicates on one
+shared reachability profile, is `routeIndependenceControl`
+(`PhysicalSpecificationIndependence`). Kept because a frozen Challenge states it. -/
 def rootIndependenceControl : Prop := reachVaryingControl ∧
   ¬ (fun _ : reachDomain false => False) (reachAnchor false) ∧
   ¬ (fun _ : reachDomain false => False) (reachAnchor false)

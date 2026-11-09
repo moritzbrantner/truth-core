@@ -1,0 +1,11 @@
+{
+  "id": "54544253-4e90-48d2-80c9-023b016cb849",
+  "label": "A shared reachability profile fixes neither route composition nor intellect",
+  "argument_id": "ec12d29b-42a3-4fd3-a2d6-a4f505c7e822",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.routeIndependence",
+  "comparator_config": "results/54544253-4e90-48d2-80c9-023b016cb849/comparator.json",
+  "status": "solution-present",
+  "description": "There are two specified routes on Nat, each pairing a graph interpretation with PhysicalGround.Route parameters, that have the same anchor and the same extension for every restricted path formula (the anchor reaches exactly the even numbers), and both satisfy the ST I q.14 a.1 reading Route.Immaterial; in the first the anchor is composite and has intellect, in the second it is neither composite nor has intellect. Independence inside this candidate language only: no mapping of the language to an original ground is supplied, so the root-route step is neither refuted nor supported."
+}
