@@ -14,6 +14,7 @@ public import TruthCore.Results.Causality.AristotelianRivalRefutations.Solution
 public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryConstituent.Solution
+public import TruthCore.Results.Causality.AtomisticRequirementControl.Solution
 public import TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution
 public import TruthCore.Results.Causality.BearerRegress.Solution
 public import TruthCore.Results.Causality.BoundedPastResource.Solution

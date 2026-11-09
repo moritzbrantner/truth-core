@@ -14,6 +14,7 @@ public import TruthCore.Causality.AppetitePowerExercise
 public import TruthCore.Causality.AristotelianCauseModes
 public import TruthCore.Causality.AristotelianRivalRefutations
 public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.AtomisticRequirementControl
 public import TruthCore.Causality.AtomisticUniversalCausePriority
 public import TruthCore.Causality.BearerRegress
 public import TruthCore.Causality.BoundedPastResource
