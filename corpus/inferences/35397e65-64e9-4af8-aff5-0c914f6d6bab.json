@@ -4,7 +4,7 @@
   "input_statement_ids": [],
   "output_statement_id": "dfd522ca-49c6-42b0-a4fb-f3f4c1fbc49f",
   "rule": "Direct construction or Mathlib first-order interpretation transport",
-  "meaning": "PHYSICAL_OF_A_GROUND_4: the subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula.",
+  "meaning": "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

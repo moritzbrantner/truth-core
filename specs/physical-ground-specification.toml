@@ -47,9 +47,9 @@ disambiguations = ["DISAMB-PHYSICAL-GROUND"]
 [[statement]]
 id = "Forbidden parameters have no syntax variable"
 lean = "forbiddenControl"
-paraphrase = "PHYSICAL_OF_A_GROUND_4: the subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
-definitions = ["d218315c-ae8a-40dc-b695-ffca4cfedefe", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
-disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+paraphrase = "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
+definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = []
 
 [[argument]]
 id = "Local description control"
@@ -95,9 +95,7 @@ senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_4" }
 id = "Forbidden parameter expression control"
 theorem = "forbiddenParameter"
 premises = []
-axioms = ["propext", "Classical.choice", "Quot.sound"]
+axioms = []
 conclusion = "Forbidden parameters have no syntax variable"
 rule = "Direct construction or Mathlib first-order interpretation transport"
-meaning = "PHYSICAL_OF_A_GROUND_4: the subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
-senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_4" }
-
+meaning = "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
