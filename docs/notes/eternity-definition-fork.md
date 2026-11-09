@@ -61,3 +61,54 @@ No existing Challenge or source attribution changes. Actual applicability of
 the duration dictionaries and semantic recognition remains OPEN. The computed
 frontier delta reports newly visible conditional inputs rather than treating
 the new route as a discharge or preserving old premise counts artificially.
+
+## Temporal comparison coverage (2026-11-09)
+
+Duplicate audit at main `4aa71f0f9`: exact uses of `Interminable` in
+BoethianEternity, EternityDefinitionFork, TermSenseForks4 and the immutable
+result have no bridge to `TemporalHistory.EverlastingAt`. The existing
+`boundaryPremiseNeeded` already shows pure act with constant life-state can
+begin; `lifePremiseNeeded` already rejects life from pure act alone. Neither
+counterexample is repeated as new research. `EternityDefinitionFork.Controls`
+already rejects primitive recognition under the old typed premises.
+
+`TemporalCoverageEternity` supplies the distinct interface. `Path s t` is a
+finite walk through actual `<` comparisons, permitting either orientation.
+`Covered s` says every supplied time is reachable from the selected living
+anchor. It mentions no life or existence predicate. Absence of a boundary
+witness yields an iff at each edge (classical double-negation elimination),
+then path induction transports actual life. `LifeToBeing` is a separate
+one-way calibration at the SAME world and being; it yields existing
+`EverlastingAt`, without changing any shared signature or root predicate.
+The consumer is a quantified conditional, not an independently defended input.
+Its four conditions remain explicit inside its statement, not closed premises.
+
+This avoids stronger all-pairs comparability, linearity, transitivity,
+nonempty-type assumptions detached from life, biconditional existence/life
+identity and calibration for unrelated beings/worlds. Connectivity is sufficient
+for arbitrary support transport; this batch does not certify its converse or a
+universal minimality theorem. An empty comparison relation on Bool leaves a
+living anchor disconnected from the other time; Interminable then permits life
+only at the later point. This describes begun support relative to an external
+ordering, not an admitted `LifeBeginsOrEnds` witness. With an admitted comparison
+between those points the same support would fail Interminable.
+
+Past versus future orientation adds no asymmetry: each edge yields an iff.
+Either orientation of a connected chain suffices. One supplied point is
+covered by the reflexive path, even with no strict comparisons; the positive
+singleton witnesses both life and existence. Thus EverlastingAt alone cannot
+imply an unbounded past/future or a rich temporal ontology. The other singleton
+keeps life, Interminable and coverage but makes IsAt false: missing existence
+classification is independent. Empty life would satisfy Interminable but is
+excluded by the consumer's explicit living anchor.
+
+Connection plan: this serves the temporal-support part of the
+`STMT-GOD-IS-ETERNAL` route, but is not yet connected to its primitive conclusion.
+Neither full life support nor EverlastingAt gives absence of succession,
+perfect possession, atemporality, or `BoethianRecognition`. Keep recognition
+OPEN; do not identify the root's ETERNAL_1 with temporal perpetuity. No source
+claims, infinity/God labels or root truth are changed. The actual premise
+addition for this interface is comparison-path coverage plus the selected
+life-to-being calibration; Interminable and an actual living witness are
+retained from the typed operational account. Existing immutability/boundary
+premises are neither removed nor defended.

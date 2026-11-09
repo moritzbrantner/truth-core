@@ -1,0 +1,29 @@
+target = "STMT-GOD-IS-ETERNAL"
+[[node]]
+id = "STMT-GOD-IS-ETERNAL"
+[[node]]
+id = "Temporal comparison coverage"
+new = true
+text = "Every supplied time is joined to a living anchor by finitely many admitted comparisons, in either direction."
+[[node]]
+id = "Temporal life transport"
+new = true
+text = "Interminable life at an anchor transports along comparison paths."
+[[node]]
+id = "Temporal existence calibration"
+new = true
+text = "Life at a supplied time implies existence there for the selected being and world."
+[[node]]
+id = "Temporal everlasting consumer"
+new = true
+text = "Coverage, interminability and life-to-being calibration yield EverlastingAt, not primitive eternity."
+[[edge]]
+premises = ["Temporal comparison coverage", "Temporal life transport", "Temporal existence calibration"]
+conclusion = "Temporal everlasting consumer"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Temporal everlasting consumer"]
+conclusion = "STMT-GOD-IS-ETERNAL"
+kind = "bridge"
+status = "mapped"

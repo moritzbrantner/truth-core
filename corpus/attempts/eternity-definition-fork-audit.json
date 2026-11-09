@@ -10,12 +10,16 @@
   "date": "2026-11-06",
   "kind": "derivation",
   "outcome": "succeeded",
-  "summary": "Reused exact BoethianEternity predicates and immutableIsBoethianEternal theorem. Encoded separate primitive-predicate calibrations, weakest recognition, coverage/Other and five checked consequences, including an actual route to the root all-beings primitive eternity premise. Rejected identification of interminable life with no succession, treating typed Boethian as full perfecta possessio, hiding life/nonempty or boundary-to-subject-potency assumptions, inferring semantic recognition from the name Eternal, and claiming arbitrary admitted comparisons form a complete time ontology. Controls witness strict recognition strength and missing primitive recognition under all three old premises with a pure-act being. Source claims/frozen Challenges unchanged; new attribution deferred. Research boundaries in docs/notes/eternity-definition-fork.md.",
+  "summary": "Reused exact BoethianEternity predicates and immutableIsBoethianEternal theorem. Encoded separate primitive-predicate calibrations, weakest recognition, coverage/Other and five checked consequences, including an actual route to the root all-beings primitive eternity premise. Rejected identification of interminable life with no succession, treating typed Boethian as full perfecta possessio, hiding life/nonempty or boundary-to-subject-potency assumptions, inferring semantic recognition from the name Eternal, and claiming arbitrary admitted comparisons form a complete time ontology. Controls witness strict recognition strength and missing primitive recognition under all three old premises with a pure-act being. Source claims/frozen Challenges unchanged; new attribution deferred. Research boundaries in docs/notes/eternity-definition-fork.md. Temporal coverage follow-up (2026-11-09, main 4aa71f0f9): exact-use audit found no existing Interminable-to-EverlastingAt interface. Finite admitted-comparison paths now transport life to all supplied times; separate selected life-to-being calibration gives EverlastingAt. Disconnected living support and fully covered living singleton without existence distinguish the two missing conditions; positive singleton gives nonvacuity. See TemporalCoverageEternity module/spec and the temporal coverage section of docs/notes/eternity-definition-fork.md. Rejected direct identification with timeless possession or primitive recognition; no further immutability-alone research.",
   "evidence": [
     "f69342ea-bd48-5ef4-b816-f9e8ac91bde7",
     "604a26f7-26d1-59fc-9c30-b6ecb66ac38a",
     "e53fd263-5115-5adf-b2bd-8ffcc6e9b5d2",
     "5eb212da-7d2f-51ca-84e0-9377649dbb98",
-    "6bc09f0b-0702-50ec-b96a-3ec213f17564"
-  ]
+    "6bc09f0b-0702-50ec-b96a-3ec213f17564",
+    "38452bf9-49ee-4b85-b073-716ac9dc003c",
+    "504dadf2-fbc0-4f14-961f-c8cccdccb2a9",
+    "8ba56dc8-9e82-4c46-b89e-3648acab3255"
+  ],
+  "blocker": "Temporal consumer remains conditional on comparison-path coverage, Interminable, actual life and selected life-to-being calibration. Full timeless possession and BoethianRecognition remain open; no root truth or source attribution established."
 }
