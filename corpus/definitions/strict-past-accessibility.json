@@ -1,9 +1,10 @@
 {
   "id": "d6904bf6-4b52-5927-8995-f29adc094e8c",
-  "label": "STRICT_PAST_ACCESSIBILITY_1: For a supplied Preorder T and designated now, the frame carrier is the…",
+  "label": "STRICT_PAST_ACCESSIBILITY_1: For a supplied Preorder T and designated now, the frame carrier is the\u2026",
   "legacy_id": "DEF-STRICT-PAST-ACCESSIBILITY",
   "term": "strict-past accessibility",
-  "definition": "For a supplied Preorder T and designated now, the frame carrier is the subtype of times t with t=now or t<now. Accessibility from t to s means s<t. Transitivity ensures each earlier witness remains inside this past-through-now carrier. It is an inline instance of the existing Frame, not a new temporal syntax or causal relation.",
+  "definition": "For a supplied Preorder T and designated now, the frame carrier is the subtype of times t with t=now or t<now. Accessibility from t to s means s<t. Transitivity ensures each earlier witness remains inside this past-through-now carrier. It is a concrete construction of the existing Frame, not a new temporal syntax or causal relation.",
   "basis": "stipulative",
-  "note": "Owner-approved bounded temporal interpretation of the existing Frame/order vocabulary; no new Lean semantic primitive. See inline frames in Modal.PastSerialityCertificate. Time points are not identified with modal alternative complete histories or causal graph vertices. No physical-past, duration or event-count claim."
+  "note": "Owner-approved bounded temporal interpretation of the existing Frame/order vocabulary; no new Lean semantic primitive. See StrictPastFrame and the unchanged inline frames in Modal.PastSerialityCertificate. Time points are not identified with modal alternative complete histories or causal graph vertices. No physical-past, duration or event-count claim. Declaration completion names the concrete existing Frame construction, with its original carrier and orientation; it does not wrap an unconstrained relation. The inclusive carrier remains all T, as in the frozen certificate. Nat controls are examples only, not restrictions on the universally quantified Preorder.",
+  "lean_declaration": "TruthCore.Modal.PastSeriality.StrictPastFrame"
 }

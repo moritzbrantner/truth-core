@@ -14,12 +14,14 @@
     {
       "id": "9cbbbb1f-b256-4d35-9fc6-ee7ce7e0b61a",
       "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_1",
-      "definition_id": "d6904bf6-4b52-5927-8995-f29adc094e8c"
+      "definition_id": "d6904bf6-4b52-5927-8995-f29adc094e8c",
+      "lean_declaration": "TruthCore.Modal.PastSeriality.StrictPastFrame"
     },
     {
       "id": "fea32e32-41cf-462c-9f3d-e4dc68aee5b5",
       "label": "STRICT_PAST_INCLUSIVE_PAST_AND_MODAL_2",
-      "definition_id": "b0a7367e-61e6-5a4a-a03e-c125756affa6"
+      "definition_id": "b0a7367e-61e6-5a4a-a03e-c125756affa6",
+      "lean_declaration": "TruthCore.Modal.PastSeriality.InclusivePastFrame"
     },
     {
       "id": "b62281f1-a257-4c8d-bdac-1837fbc308c8",
