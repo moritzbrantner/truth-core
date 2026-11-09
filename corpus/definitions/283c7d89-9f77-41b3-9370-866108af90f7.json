@@ -1,0 +1,9 @@
+{
+  "id": "283c7d89-9f77-41b3-9370-866108af90f7",
+  "label": "Subject focal predication (analyst candidate)",
+  "term": "subject focal predication",
+  "definition": "The primary account of predication of being is Substance x. The secondary account is exists s, Substance s and Inheres x s. SubjectFocalReading requires all substantial subjects to exist, every inherence edge to run from an existing nonsubstance to a distinct substance, and both accounts to be populated. Thus the secondary account explicitly refers to the primary kind of subject and the extensions differ. HasBeing is their disjunction for the selected one-world candidate. No unique primary instance, efficient production, degree map, comparability or calibration is included.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SubjectFocalRoles.SubjectFocalReading",
+  "note": "Analyst example with attribution deferred, not a complete interpretation of BEING_4 definition954583f0-97f4-5f94-8fce-9e52ea267929. Uses subject-dependence primitive 036a22b2-c6da-4278-867c-6fd9c91eb047; all semantic/real applicability obligations remain OPEN. The two Role constructors select two formulas, not claimed exhaustive or exclusive historical rationes. A finite interpretation covers only these selected accounts; it does not cover privation, ways to substance, divine names or God/creature analogy. See docs/being-not-a-genus.md, Subject focal-role candidate."
+}
