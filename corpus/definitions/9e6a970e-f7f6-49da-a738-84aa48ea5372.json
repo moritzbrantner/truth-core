@@ -1,0 +1,9 @@
+{
+  "id": "9e6a970e-f7f6-49da-a738-84aa48ea5372",
+  "label": "Whole-series reason by truth-entailing discrimination",
+  "term": "whole-series reason by truth-entailing discrimination",
+  "definition": "An actual necessary substance carries obtaining reason-content. At every accessible world where this content obtains, every actual contingent fact retains its truth. The fact sort includes laws and relations as well as existence facts, with no finiteness bound. Necessary bearer does not mean necessary content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Explanation.WholeSeriesReason.EntailingWholeReason",
+  "note": "Analyst sibling, attribution deferred. Serves the original whole-series necessary-substance route, without completing its sourced adequacy claim. Realization carries, feasibility, strict reason preference and choice are explicitly interpreted primitives. Completeness of the fact representation, independent reason relevance, explanatory direction and freedom from outcome-coded preference remain OPEN. No causal productivity, explanatory independence, selection actuality or modal necessity is inferred from a label. A necessary bearer choosing contingently is the motivating example; a necessary law with no substance bearer is excluded. These framework conditions are not claimed to apply to reality."
+}
