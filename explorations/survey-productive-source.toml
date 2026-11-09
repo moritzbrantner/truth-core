@@ -1,0 +1,36 @@
+target = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+
+[[node]]
+id = "ee4ab504-c8fe-59bc-bc96-7cbeefed6410"
+
+[[node]]
+id = "ef69a630-2277-56be-86ca-f05f8193093a"
+
+[[node]]
+id = "62b4a40a-919e-5da4-998c-131c386b7361"
+
+[[node]]
+id = "2b20b5af-d653-56ba-8001-35903fb3d1ea"
+
+[[node]]
+id = "ec3f7cc9-a48b-5672-a09e-a652c3477348"
+
+[[node]]
+id = "Accessible source productivity"
+new = true
+text = "Every existing uncaused candidate at each accessible world has an outgoing actual causal edge there. No source existence, concreteness, effect existence or sourcehood at the standpoint is asserted."
+
+[[node]]
+id = "Accessible direct exercise calibration"
+new = true
+text = "At every accessible world every actual outgoing cause is concrete under the same fixed predicate; this is an open calibration, not a definition of concrete."
+
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+
+[[edge]]
+premises = ["ee4ab504-c8fe-59bc-bc96-7cbeefed6410", "ef69a630-2277-56be-86ca-f05f8193093a", "62b4a40a-919e-5da4-998c-131c386b7361", "2b20b5af-d653-56ba-8001-35903fb3d1ea", "ec3f7cc9-a48b-5672-a09e-a652c3477348", "Accessible source productivity", "Accessible direct exercise calibration"]
+conclusion = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+kind = "derivation"
+status = "mapped"
+note = "Same-source actual outgoing productivity and dictionary calibration; original capability and ontic necessity application remain open."

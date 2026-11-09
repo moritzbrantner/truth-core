@@ -156,6 +156,7 @@ public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
 public import TruthCore.Causality.SurveyCapabilityControls
 public import TruthCore.Causality.SurveyExternalCause
+public import TruthCore.Causality.SurveyProductiveSource
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization
 public import TruthCore.Causality.TemporalCoverageEternity
