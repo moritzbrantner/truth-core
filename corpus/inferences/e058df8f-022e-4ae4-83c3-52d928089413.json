@@ -1,0 +1,10 @@
+{
+  "id": "e058df8f-022e-4ae4-83c3-52d928089413",
+  "label": "Recognition omissions certificate (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "3043f8b8-e8f0-4824-bef2-222ab4f0f90d",
+  "rule": "Structured finite survey reasoning",
+  "meaning": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

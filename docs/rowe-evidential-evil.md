@@ -152,3 +152,46 @@ the actual world. The source records establish what was read, not premise truth.
 Issue #168 remains open for its other obligations and for the total-evidence warrant
 recorded here. The six unavailable O’Connor exports are
 untouched.
+
+## Bounded recognition survey (analyst formulation, attribution deferred)
+
+`English.Rowe.Recognition` fixes the existing investigator in `Rowe.Sig`
+and supplies a finite list of candidate outcomes for each hypothetical preventer
+and event. `Covered` requires every actual blocking outcome in the relevant
+occurring intense-suffering cases to occur on that list. `Complete` requires
+recognition of every listed actual blocking outcome in those cases. These are
+separate open conditions, not definitions of omniscience in the hypothetical
+preventer: investigator and preventer must not be confused. A listed justice
+good could satisfy coverage; an unlisted unavoidable loss violates it. A listed
+but unrecognized loss violates completeness. No symmetry, transitivity or
+well-foundedness of cost or recognition is assumed. The ordinary-to-metaphysical
+applicability of counterfactual costs and comparisons remains open as before.
+
+Given both conditions, an apparent-pointlessness witness supplies an actual
+gratuitous-suffering witness: any actual blocking outcome would be listed and
+recognized, contradicting that same event's absence of recognized blocking
+costs. Composition with `RoweDeductiveCore.roweDeductiveCore` retains the
+simplified permission input. The proof does not claim an empty finite inventory
+is exhaustive. In the existing hidden-cost interpretation, the empty survey
+satisfies completeness vacuously but fails coverage; the singleton survey
+containing the hidden outcome satisfies coverage but fails completeness. Both
+retain narrow theism and the permission constraint. A separate cost-free model
+has a qualifying preventer, actual intense suffering, coverage, completeness,
+appearance and actual gratuitousness. It omits wholly goodness; thus the joint
+input is nonvacuous without pretending all inputs coexist with narrow theism.
+The balance-neutral refinement is not silently included in this simplified
+survey: its extra cost class would need coverage and recognition too.
+
+The exact root connection target is
+`STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS` (20a2b6a3), via the rival
+`STMT-ROWE-NO-THEISTIC-BEING`. This batch supplies the conditional recognition
+step, not the missing signature bridge: `HasClassicalAttributes` in the skeleton
+is primitive, and a common carrier plus explicit omniscience, omnipotence and
+wholly-good consequences is required before this rival applies there. This is
+an explicit connection plan with an open semantic bridge, not root progress or
+a refutation of the Catholic case. The recognition conditions themselves remain
+open epistemic commitments. Rowe's distribution/induction reply can reject the
+need for deductive recognition completeness; this batch gives no probability,
+likelihood, total-evidence warrant or premise defense. Rejected shortcut: merely
+renaming apparent pointlessness as actual absence would conceal precisely the
+hidden-cost counterexample these controls retain.

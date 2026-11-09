@@ -8,5 +8,6 @@ public import TruthCore.English.OConnor.ProblemOfEvil
 public import TruthCore.English.Railton.MoralRealism
 public import TruthCore.English.Rowe.BalanceNeutralRefinement
 public import TruthCore.English.Rowe.EvidentialEvil
+public import TruthCore.English.Rowe.Recognition
 public import TruthCore.English.Stevenson.Disagreement
 public import TruthCore.English.VanRoojen.MoralCognitivism

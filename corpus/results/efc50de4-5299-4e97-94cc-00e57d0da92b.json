@@ -1,0 +1,11 @@
+{
+  "id": "efc50de4-5299-4e97-94cc-00e57d0da92b",
+  "label": "Recognition omissions certificate",
+  "argument_id": "a22158ee-59cf-41ac-bb71-247b9e30668e",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.omissionControls",
+  "comparator_config": "results/efc50de4-5299-4e97-94cc-00e57d0da92b/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."
+}
