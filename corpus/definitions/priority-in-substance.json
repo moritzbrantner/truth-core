@@ -3,10 +3,11 @@
   "label": "PRIOR_IN_SUBSTANCE_3: PriorInSubstance y x: y is prior to x in substance, that is in perfection",
   "legacy_id": "DEF-PRIORITY-IN-SUBSTANCE",
   "term": "prior in substance (prius substantia et perfectione)",
-  "definition": "`PriorInSubstance y x`: y is prior to x in substance, that is in perfection (prius substantia et perfectione, In Metaph. IX, lect. 9 n. 1, said of distinct beings). A Lean primitive, distinct from simple priority (DEF-SIMPLE-PRIORITY, characterized by the reduction of potency to act) and from priority in time (DEF-PRIORITY-IN-TIME). No source read for #352 identifies it with simple priority; ActPriorFromIncorruptibleFacts passes to simple priority only through the explicit unattributed hypothesis PriorInSubstanceIsSimpleReading. The linked declaration is the premise IncorruptiblePriorInSubstanceReading that constrains this primitive, not a definition of it.",
+  "definition": "`PriorInSubstance y x`: y is prior to x in substance, that is in perfection (prius substantia et perfectione, In Metaph. IX, lect. 9 n. 1, said of distinct beings). A Lean primitive, distinct from simple priority (DEF-SIMPLE-PRIORITY, characterized by the reduction of potency to act) and from priority in time (DEF-PRIORITY-IN-TIME). No source read for #352 identifies it with simple priority; ActPriorFromIncorruptibleFacts passes to simple priority only through the explicit unattributed hypothesis PriorInSubstanceIsSimpleReading. The linked declaration is the existing PriorityFrame.PriorInSubstance relation projection. IncorruptiblePriorInSubstanceReading constrains this primitive; it does not define it.",
   "basis": "sourced",
   "claim_ids": [
     "309125b3-65b0-5d6a-a727-20317ecb181d"
   ],
-  "lean_declaration": "TruthCore.Latin.Aquinas.InMetaphysicam.IncorruptiblePriorInSubstanceReading"
+  "lean_declaration": "TruthCore.Causality.TermSenseForks.PriorityFrame.PriorInSubstance",
+  "note": "Primitive boundary: the linked declaration projects an independently supplied binary relation on beings from PriorityFrame Being Respect; it is not a definition by temporal, causal or perfection data. See docs/notes/load-bearing-terms.md, Priority semantic linkage audit, for interpretation, dependency boundaries, examples, exclusions and OPEN structural constraints. No statement meaning or frozen Challenge changes."
 }

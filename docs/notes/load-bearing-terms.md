@@ -443,3 +443,54 @@ that statement now reaches the root.
 and DEF-ESSE as senses), DISAMB-MOTION (34), DISAMB-MOVED-BY-SOMETHING (34),
 DISAMB-MODAL-CAUSE-POSSIBILITY-AND-EXERCISE (34), DISAMB-ORDER-OF-BEING (31).
 
+
+### Priority semantic linkage audit (2026-11-09)
+
+Target: STMT-ACT-SIMPLY-PRIOR-TO-POTENCY and its existing three-sense fork.
+The linked PRIOR declarations now name `PriorityFrame.PriorSimply`,
+`PriorityFrame.PriorInTime` and `PriorityFrame.PriorInSubstance`, each with type
+`{Being Respect : Type} → PriorityFrame Being Respect → Being → Being → Prop`.
+These are independently supplied relations, not statement-level readings.
+`ActSimplyPriorToPotencyReading` quantifies over every potency and requires an
+actual predecessor; `IncorruptiblePriorInSubstanceReading` instead quantifies
+over incorruptible/corruptible pairs. Neither is the relation it constrains.
+No Challenge, theorem or statement is changed by correcting these links.
+
+The following are interpretation boundaries, not new source claims:
+
+* PRIOR_1 means ontological presupposition: the posterior depends on the prior
+  for its actuality. An intended example is an actual agent relative to a
+  capacity it actualizes. A merely earlier event is not sufficient; nor is
+  present moving identical to this relation. `InAct` and `InPotency` retain
+  their existing act/potency definitions; they do not define priority.
+  OPEN: applicability of that example, what dependence consists in beyond the
+  supplied binary relation, transitivity, asymmetry, and the bridge from
+  simple priority to causing being. The actualization premise constrains the
+  relation but does not settle those obligations.
+* PRIOR_2 means earlier occurrence/existence. A seed before its mature tree is
+  an intended example; simultaneous dependence is excluded as a sufficient
+  temporal criterion. The frame is over beings, not time-indexed stages, and
+  has no clock or event-occurrence map. OPEN: selecting occurrences for
+  persisting beings, an ordered time domain, and an explicit interpretation
+  from that data to the supplied relation. Irreflexivity and transitivity are
+  not imposed by the frame. Potency preceding act within a changing subject
+  therefore does not itself supply a binary relation between distinct beings.
+* PRIOR_3 means precedence in substance/perfection, not earlier occurrence or
+  an assumed causal dependence. The existing incorruptible-over-corruptible
+  comparison is a conditional intended example; chronological age alone is
+  insufficient. Its recursive boundary is `IncorruptibleSimply`, defined as
+  `¬ CanFailToBe x esse`; `CanFailToBe` remains primitive and `esse` is a
+  selected respect, not a modal interpretation. OPEN: a criterion of perfection
+  sufficient to determine this relation, its structural laws, and the existing
+  substance-to-simple bridge. That bridge cannot be made definitional.
+
+The potency-prior rival opposes PRIOR_1 only under that reading; temporal
+precedence can coexist with simple priority. Existing fork omission models
+already test the substance-to-simple bridge and temporal exclusion premise;
+repeating those results would add no new argument. The three senses are a
+finite pragmatic scope, with existing OPEN coverage/exclusivity commitments.
+Distinct field declarations do **not** give distinct relation types: arbitrary
+relation parameters in legacy readings can still be swapped. Fully typed
+semantic grounding needs explicit occurrence/dependence/perfection data and a
+migration of the consuming readings, beyond this metadata correction. No
+labels-only wrapper is introduced and no semantic completion is claimed.

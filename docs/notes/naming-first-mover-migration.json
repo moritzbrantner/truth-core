@@ -1747,12 +1747,12 @@
       "path": "corpus/definitions/simple-priority.json",
       "status": "inspected",
       "classification": "reused_unchanged_audit",
-      "finding": "Reuse unchanged prior audit disposition: Existing interpretation retained: `PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. No new structural law, source attribution or independently established premise is introduced. Re-reviewed in the #1103 definitions audit: the definition now says PriorSimply is a primitive constrained only by the linked premise ActSimplyPriorToPotencyReading.",
+      "finding": "Reuse unchanged prior audit disposition: Existing interpretation retained: `PriorSimply y x`: y is prior to x simply, not in time: whatever is in potency in a respect presupposes some being in act in that respect, because potency is reduced to act only by a being in act. It is a dependence relation distinct from present moving. Whether simple priority makes y a cause of x's being is not part of this definition: that is the open premise STMT-SIMPLY-PRIOR-IS-CAUSE-OF-BEING. No new structural law, source attribution or independently established premise is introduced. Re-reviewed in the #1103 definitions audit: the definition now says PriorSimply is a primitive constrained only by the linked premise ActSimplyPriorToPotencyReading. Priority linkage re-reviewed 2026-11-09 against PriorityFrame field types and Article1/BookIX quantified readings: relation projection distinguished from constraining premise; primitive semantic obligations remain OPEN (load-bearing-terms.md). Statement meanings, theorem inputs and output unchanged; no new proof or closure.",
       "before": {
         "sha256": "875e4d5d931b5ec580cc42ddbcf305645c65fdd3d781b423589ffafbe8bb9189",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading"
       },
-      "reviewed_sha256": "1102fb51dc491e75cd77f4de72d26fca820e105fbd45474a07019999562e3776"
+      "reviewed_sha256": "0de0db09634feef7b0ac73e665b7ab92a0d5000c3be42a784dae4555a10c0652"
     },
     {
       "kind": "definitions",
