@@ -1,0 +1,11 @@
+{
+  "id": "3ff52bf2-165b-497b-b7ad-4acf1ca8bee5",
+  "label": "Indexed finite-reachability specification candidate condition",
+  "paraphrase": "OPEN analyst candidate: one restricted first-order plus finite-reachability formula defines an explicit unary target family on every full carrier of a nonempty admitted indexed interpretation class. Fixed-domain use is obtained by taking a constant carrier family; cross-domain correspondence and physical adequacy remain separate conditions.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.VaryingPathDefinability",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

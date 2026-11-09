@@ -1,0 +1,11 @@
+{
+  "id": "e611886f-2a21-448d-8069-a9d87f63494e",
+  "label": "Indexed first-order specification candidate condition",
+  "paraphrase": "OPEN analyst candidate: one permitted-parameter first-order formula defines an explicit unary target family on every full carrier of a nonempty admitted indexed interpretation class. Carrier identity and target correspondence are not implicit.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.VaryingFirstOrderDefinability",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

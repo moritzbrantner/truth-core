@@ -1,0 +1,11 @@
+{
+  "id": "46169e64-98b0-4156-9e12-b56f272913c5",
+  "label": "One reachability formula covers Nat and Bool from permitted anchors",
+  "paraphrase": "The same finite-reachability formula from the sole permitted anchor holds of every object on Nat with successor edges and Bool with inequality edges. Both full domains are admitted; no physical applicability or strict FO separation is asserted.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecificationPaths.reachVaryingControl",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}
