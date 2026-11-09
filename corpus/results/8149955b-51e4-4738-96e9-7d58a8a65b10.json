@@ -1,0 +1,11 @@
+{
+  "id": "8149955b-51e4-4738-96e9-7d58a8a65b10",
+  "label": "Local patient lifting gives a distinct internal whole mover",
+  "argument_id": "48d5e591-e6ad-4a09-bf24-798ee827d231",
+  "challenge_module": "TruthCore.Results.Causality.PartMediatedSelfMotion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PartMediatedSelfMotion.Solution",
+  "theorem": "TruthCore.Results.Causality.PartMediatedSelfMotion.localLift",
+  "comparator_config": "results/8149955b-51e4-4738-96e9-7d58a8a65b10/comparator.json",
+  "status": "solution-present",
+  "description": "Substantive finite role decomposition: the motor is a proper part of the whole. Retains the same event respect. The open lifting premise supplies the link, while proper membership proves distinctness; does not discharge the root no-self-motion or applicability premise."
+}

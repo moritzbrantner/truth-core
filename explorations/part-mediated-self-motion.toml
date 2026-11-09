@@ -1,0 +1,13 @@
+target = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+[[node]]
+id = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+[[node]]
+id = "Part-mediated self-motion populated boundary controls"
+new = true
+text = "Distinct motor and load share an organism; aggregate self-motion neither violates component irreflexivity nor implies a mover of the whole without lifting."
+[[edge]]
+premises = ["Part-mediated self-motion populated boundary controls"]
+conclusion = "STMT-NOTHING-MOVES-ITSELF-IN-SAME-RESPECT"
+kind = "bridge"
+status = "rejected"
+note = "The populated model supports the component reading but aggregate lifting creates a self-link; no unconditional transfer to a whole-level root predicate."

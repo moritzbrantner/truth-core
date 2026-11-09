@@ -1,0 +1,9 @@
+{
+  "id": "5d765f28-ad62-4f36-ad64-2c0a2c15dd63",
+  "label": "Part-mediated event has a local patient-lifting bridge",
+  "paraphrase": "OPEN local composition bridge: each actual motor-to-load event inside an organism supplies a same-respect motor-to-whole link. It does not require an external agent.",
+  "lean_declaration": "TruthCore.Causality.PartMediatedSelfMotion.LocalLift",
+  "definition_ids": [
+    "b45c0bf6-07fa-41d7-b467-954b4c78d604"
+  ]
+}

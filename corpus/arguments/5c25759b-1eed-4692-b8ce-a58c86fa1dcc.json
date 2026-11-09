@@ -1,0 +1,13 @@
+{
+  "id": "5c25759b-1eed-4692-b8ce-a58c86fa1dcc",
+  "label": "Part-mediated populated non-entailments for the no-self-motion root premise",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2ab9f9c0-aa12-45c4-b64e-35d383f6287f",
+  "inference_ids": [
+    "40aa4cbe-1edd-4f67-a69a-269528568a00"
+  ],
+  "meaning": "Root-targeted non-entailment: internal animal self-motion is compatible with component no-self-motion but cannot transfer that constraint through aggregation. Motor, load, whole and two respects are explicit. Missing patient lifting and mistaken aggregate identification both fail with populated internal events.",
+  "definition_ids": [
+    "b45c0bf6-07fa-41d7-b467-954b4c78d604"
+  ]
+}
