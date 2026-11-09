@@ -1,0 +1,10 @@
+{
+  "id": "63746293-ef00-4655-aa0a-77a015bc70fa",
+  "label": "Subject focal role diversity, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "99436240-d551-40f8-8426-2d5485253e8f",
+  "rule": "Existential elimination and disjoint role extensions",
+  "meaning": "Analyst conditional semantic consequence: the explicit endpoint constraints imply disjointness and two populated different role accounts. This body is more than role labels but does not encode every philosophical ratio or the original BEING_4 applications. No premise truth or root closure.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

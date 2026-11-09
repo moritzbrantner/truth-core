@@ -239,3 +239,88 @@ changes. No bridge is discharged. A continuation must defend the same-witness
 principle-to-primary identification and its uncausedness, or independently
 derive an applicable causal-priority constraint; repeating the order model or
 the already recorded synonymy gap would not meet that obligation.
+
+## Subject focal-role candidate (2026-11-09)
+
+`TruthCore.Causality.SubjectFocalRoles` tests one **analyst candidate**, with
+attribution deferred. It does not complete `BEING_4` or identify Aristotle's
+substance focality with Aquinas' divine causal analogy. The existing order-only
+controls are reused, not relabelled as interpretations of diverse rationes.
+`Categories.PrimarySubstanceBySubjectRelationsReading` deliberately leaves
+`SaidOf` and `In` supplied; it is not a definition of this new inherence relation.
+
+The primary predication account is `Substance x`; the secondary account is
+`∃ s, Substance s ∧ Inheres x s`. These are formulas with an explicit reference
+to the substantial subject, rather than an uninterpreted `Focal` flag.
+`SubjectFocalReading` requires existing substantial subjects, existing
+nonsubstantial dependents, distinctness on every edge, and witnesses in both
+accounts. `roleDiversity` proves disjoint extensions with a positive witness in
+each. This captures a limited role difference, not every philosophical ratio.
+The two accounts are selected for this investigation, not claimed exhaustive
+of pros hen, all uses of being, or every possible framework.
+
+`Inheres x s` is primitive subject dependence: for example, a particular color
+in the colored substance, **under a framework accepting substances and
+accidents**. Producing pigment, being a spatial part, predicating a species,
+and two independent stones being adjacent do not by themselves instantiate it.
+It is distinct from productive `CausesIn`, grounding in general and divine
+creation. No temporal persistence, modal inability to exist apart, transitivity
+or universal abstraction from experience is assumed. The endpoint constraints
+imply no cycles: a dependent is nonsubstantial and every subject substantial.
+Reality applicability, individuation of substances and accidents, and stronger
+modal dependence remain **OPEN**. Bundle theory, trope theory and rejection of
+accidents remain live rivals; a finite model does not refute them.
+
+The closed `controls` certificate keeps the same four named individuals
+(`Control.B`), single implicit world, existence valuation and substance
+extension `{0,1}`. The secondary extension is `{2,3}`. For the causal and degree
+cells the inherence edges remain `2→0` and `3→0`, Creature is `{2,3}` and the
+selected primary is the same individual `0`:
+
+- With `noCause` the exact `OrderedToPrimaryAsCauseReading` fails at dependent
+  `2`, despite the populated focal accounts and common center. With
+  `subjectCause s x := common x s`, it holds. Only the productive-cause
+  assignment changes; this supplies an optional bridge, not independent
+  evidence that subject dependence produces existence.
+- `partialNear` reaches `(true,false)` and `(false,true)` in the product of the
+  existing constructive Boolean preorders. These are incomparable. The same
+  subject data also admits comparable natural-number ranks `0,1,2,3`.
+  No rank is asserted to measure real being or interpret approach to God.
+- Holding those natural-number ranks fixed, `totalMore` satisfies the exact
+  `ApproachToPrimaryReading` biconditional, while `noMore` fails it. Primary
+  possession still holds. This isolates calibration from comparability;
+  neither the numerical ranking nor the role accounts justify calibration.
+  In particular this arbitrary ranking does not make `0` a strict maximum.
+- The common model has exactly one common subject center `0`, yet another
+  substantial individual `1` exists. In the split model, only the inherence
+  assignment changes to `2→0, 3→1`; both role extensions and every individual's
+  existence stay fixed, but no common instance exists. A common kind of
+  subject is thus different from a common individual, and neither means God.
+
+The root-route interface is connected by `orderedFromBridges`, with all three
+inputs **OPEN**: every selected creature is secondary, every secondary inheres
+in the same substantial instance `p`, and each inherence edge supplies productive
+cause of being from that subject. The proof only composes these premises and
+is registered as an assembly transcription. It does not derive causation from
+semantic focality. The controls omit each bridge in turn: `noCause` omits
+subject-to-cause; split subjects with their corresponding productive edges omit
+a common center; treating all four individuals as Creature omits secondary-role
+applicability. Each loses the causal conclusion with the other relevant bridges
+retained. The last test also warns against silently treating every being other
+than the center as an accident.
+
+Claim/type self-sweep: role diversity is conditional on the explicit body;
+the joint controls are constructive finite evaluations; the bridge is an
+instance of the original causal interface at `HasBeing` and Unit esse. They
+establish neither full BEING_4 compatibility nor a source interpretation, premise
+truth, divine uniqueness, uncausedness or the Catholicism root. Source findings
+at 993b and their rejected interpretations above are retained. The original
+BEING_4 declaration allowance stays open. The new candidate has its own
+stipulative definitions, not a replacement binding for the original definition.
+
+Next discriminating cell: interpret a further focal account such as privation
+with an actual body and a positive subject-role comparison, then test its
+causal and approach applicability in the same intended domain. Predication
+reduction, coverage, and the divine-name/God-creature applications of the
+original definition remain unencoded; source-fidelity judgments would require
+an independently selected reading task. No historical winner is selected here.

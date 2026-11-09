@@ -248,6 +248,7 @@ public import TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solutio
 public import TruthCore.Results.Causality.SourceWitness.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution
+public import TruthCore.Results.Causality.SubjectFocalRoles.Solution
 public import TruthCore.Results.Causality.SuccessionPotency.Solution
 public import TruthCore.Results.Causality.SupertaskFiniteObservation.Solution
 public import TruthCore.Results.Causality.SupertaskFinitePrefixShift.Solution
