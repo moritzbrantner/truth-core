@@ -1,0 +1,17 @@
+{
+  "id": "1ec675ec-8fe2-4c82-a727-5b5d7db6260c",
+  "label": "Unrestricted quotient generation loses the concrete-abstract contrast",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "edb0ef0a-1958-4c92-9084-62d4a3a9ff36",
+  "inference_ids": [
+    "c48a2418-4809-439f-b569-8a4a017231f3"
+  ],
+  "meaning": "Every chosen bearer admits a presentation. Faithfulness does not remove this saturation because Unit has one class. The fixed-presentation candidate is therefore not replaced by existential presentation choice.",
+  "term_senses": {
+    "CONCRETE_AND_ABSTRACT": "539a1595-12fa-4e55-88ec-0b0fc64f51d1"
+  },
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ]
+}
