@@ -1,0 +1,11 @@
+{
+  "id": "db4ab405-8717-4aba-b134-62d58514c16e",
+  "label": "Scoped determination implies sufficiency",
+  "argument_id": "fdb2baf5-a30a-4221-8adb-9ec0cb5e2726",
+  "challenge_module": "TruthCore.Results.Alternatives.NaturalReasonAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.NaturalReasonAuthority.Solution",
+  "theorem": "TruthCore.Results.Alternatives.NaturalReasonAuthority.determinationSuffices",
+  "comparator_config": "results/db4ab405-8717-4aba-b134-62d58514c16e/comparator.json",
+  "status": "solution-present",
+  "description": "On the identical supplied move scope, the forward direction of internal determination yields one-way sufficiency. No jurisdiction inference or original-sense identification."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "ef1248c4-28bb-4240-8526-1f2bfcf60373",
+  "label": "Local description control",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "08d75e0b-e66f-45b0-a96b-6bf59487c2cf",
+  "inference_ids": [
+    "60181c1f-d5d2-48c9-b494-24f64ff0c1ec"
+  ],
+  "meaning": "PHYSICAL_OF_A_GROUND_3: in the explicit one-unary-marker Bool interpretation marking true, the formula marking its object variable describes exactly true, with no parameters.",
+  "term_senses": {
+    "PHYSICAL_OF_A_GROUND": "30f63dde-1027-4143-aefb-ee503ff615a2"
+  },
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e479e526-0b99-4faf-abd8-7ea9946c17d3"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

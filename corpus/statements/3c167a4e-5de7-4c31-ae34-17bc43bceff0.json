@@ -1,0 +1,13 @@
+{
+  "id": "3c167a4e-5de7-4c31-ae34-17bc43bceff0",
+  "label": "No formula uniformly defines the fixed true singleton over all marker interpretations",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.noUniformControl",
+  "definition_ids": [
+    "d218315c-ae8a-40dc-b695-ffca4cfedefe",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

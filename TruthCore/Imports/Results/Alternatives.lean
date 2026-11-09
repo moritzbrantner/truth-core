@@ -37,6 +37,7 @@ public import TruthCore.Results.Alternatives.NameApplicationTransfer.Models.Solu
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.PureActNaming.Solution
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.ReducedNaming.Solution
 public import TruthCore.Results.Alternatives.NameApplicationTransfer.Strength.Solution
+public import TruthCore.Results.Alternatives.NaturalReasonAuthority.Solution
 public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Coverage.Solution
 public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Mixed.Solution
 public import TruthCore.Results.Alternatives.NaturalReasonHorizon.Models.Solution
@@ -51,6 +52,7 @@ public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.Coverage
 public import TruthCore.Results.Alternatives.OpiningMotionRivalCoverage.RivalStrength.Solution
 public import TruthCore.Results.Alternatives.PerSeCausalLoopImpossible.Solution
 public import TruthCore.Results.Alternatives.PhysicalGround.Solution
+public import TruthCore.Results.Alternatives.PhysicalSpecification.Solution
 public import TruthCore.Results.Alternatives.PotencyAnalysisPartition.Solution
 public import TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution
 public import TruthCore.Results.Alternatives.ReligiousLanguageSemantics.Coverage.Solution

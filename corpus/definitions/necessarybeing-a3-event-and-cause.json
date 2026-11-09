@@ -1,6 +1,6 @@
 {
   "id": "c82c1e14-50bd-555c-82ef-007c8bb10cc5",
-  "label": "Essential-state event and prior…: An event is a change from one state of affairs to another with…",
+  "label": "Essential-state event and prior\u2026: An event is a change from one state of affairs to another with\u2026",
   "legacy_id": "DEF-NB-A3-EVENT-AND-CAUSE",
   "term": "essential-state event and prior explanatory cause (survey A3)",
   "definition": "An event is a change from one state of affairs to another with those states essential to its identity. A3P1 describes a cause as a prior condition capable of explaining or partly explaining an event; A3C describes a prior condition that explains or partly explains something else. Possible causability of the SAME event must preserve its essential states. Neither wording alone defines a concrete individual bearer, temporal presence or complete explanatory sufficiency.",
@@ -8,5 +8,6 @@
   "claim_ids": [
     "778b56e7-46d3-5ed3-86e1-877fa64f6bec",
     "df5e54a1-9fab-518d-9b0a-7d5e47c88692"
-  ]
+  ],
+  "note": "Declaration-completion investigation (2026-11-09): original A3_EVENT_IDENTITY_CAUSAL_PRIORITY_1 remains unmapped. Essential before/after states give a necessary constraint on event identity, not the converse that matching state contents suffice for identical events. Owner choice pending: identify events with ordered structured state contents, or permit distinct occurrences with the same contents and specify the additional cross-history identity criterion. TruthCore.Causality.EventStatePreservation keeps occurrences separate from Content and proves only preservation and scope controls; it is not the original sense declaration. Prior condition remains a supplied relation: no temporal concrete bearer, actuality, complete sufficiency or actual universal causation follows. Scenario.CausalOpportunityAt permits an analogous beginning and is not a same-event dictionary."
 }

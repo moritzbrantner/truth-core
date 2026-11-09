@@ -54,6 +54,7 @@ public import TruthCore.Causality.EsseReception
 public import TruthCore.Causality.EsseReceptionDefinitionFork
 public import TruthCore.Causality.EssentialPower
 public import TruthCore.Causality.EternityDefinitionFork
+public import TruthCore.Causality.EventStatePreservation
 public import TruthCore.Causality.ExistenceActuality
 public import TruthCore.Causality.ExistenceSenseRoute
 public import TruthCore.Causality.ExistentialSelfActualization
@@ -106,6 +107,7 @@ public import TruthCore.Causality.ParityUnionRegress
 public import TruthCore.Causality.PartFreePlurality
 public import TruthCore.Causality.PartMediatedSelfMotion
 public import TruthCore.Causality.ParticipatedDuration
+public import TruthCore.Causality.PerAccidensResponses
 public import TruthCore.Causality.PerfectionOfBeing
 public import TruthCore.Causality.PerfectionPreexistence
 public import TruthCore.Causality.PluralRootConfluence
@@ -149,6 +151,7 @@ public import TruthCore.Causality.SourceWitness
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
+public import TruthCore.Causality.SurveyCapabilityControls
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.TeleologyFirstMover
 public import TruthCore.Causality.TemporalActualization

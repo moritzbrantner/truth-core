@@ -1,0 +1,11 @@
+{
+  "id": "6b6e4a07-7079-4d75-ad6f-97df7bb6749b",
+  "label": "Available every-removal exercise implies some-removal exercise",
+  "argument_id": "24747b1c-2547-4b69-a654-12afca0a973f",
+  "challenge_module": "TruthCore.Results.Causality.PerAccidensResponses.Challenge",
+  "solution_module": "TruthCore.Results.Causality.PerAccidensResponses.Solution",
+  "theorem": "TruthCore.Results.Causality.PerAccidensResponses.allSomeExercise",
+  "comparator_config": "results/6b6e4a07-7079-4d75-ad6f-97df7bb6749b/comparator.json",
+  "status": "solution-present",
+  "description": "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge."
+}

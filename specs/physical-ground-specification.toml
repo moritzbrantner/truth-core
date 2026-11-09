@@ -1,0 +1,101 @@
+[batch]
+vocab = "TruthCore.Alternatives.PhysicalSpecification"
+results = "TruthCore.Results.Alternatives.PhysicalSpecification"
+
+[[statement]]
+id = "Local name-free specification condition"
+lean = "Naming"
+paraphrase = "PHYSICAL_OF_A_GROUND_3: OPEN analyst condition on a supplied language, interpretation and individual: a parameter-free ordinary first-order formula identifies exactly that individual for every assignment. No real ground is asserted to satisfy it."
+definitions = ["e479e526-0b99-4faf-abd8-7ea9946c17d3", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "Uniform formula definition condition"
+lean = "Definability"
+paraphrase = "PHYSICAL_OF_A_GROUND_4: OPEN analyst condition on a supplied fixed carrier, language, parameter policy, nonempty admitted interpretation class and unary target: one allowed formula defines the target on the whole domain in every admitted interpretation. No physical calibration is asserted."
+definitions = ["d218315c-ae8a-40dc-b695-ffca4cfedefe", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "The marked Bool object has a name-free description"
+lean = "namingControl"
+paraphrase = "PHYSICAL_OF_A_GROUND_3: in the explicit one-unary-marker Bool interpretation marking true, the formula marking its object variable describes exactly true, with no parameters."
+definitions = ["e479e526-0b99-4faf-abd8-7ea9946c17d3", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "A name-free described object may be assigned no composition"
+lean = "partFreeControl"
+paraphrase = "PHYSICAL_OF_A_GROUND_3: the same marked Bool object is name-free describable and the separately chosen constantly false composite predicate does not hold of it. This tests syntactic independence only, not physical adequacy or the existing simpleImpersonal model."
+definitions = ["e479e526-0b99-4faf-abd8-7ea9946c17d3", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "No formula uniformly defines the fixed true singleton over all marker interpretations"
+lean = "noUniformControl"
+paraphrase = "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search."
+definitions = ["d218315c-ae8a-40dc-b695-ffca4cfedefe", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "An explicitly permitted parameter uniformly defines its singleton"
+lean = "permittedControl"
+paraphrase = "PHYSICAL_OF_A_GROUND_4: in the ordinary marker signature on Bool with one permitted parameter, equality to that parameter defines its singleton across every interpretation, with nonempty admitted class."
+definitions = ["d218315c-ae8a-40dc-b695-ffca4cfedefe", "7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = ["DISAMB-PHYSICAL-GROUND"]
+
+[[statement]]
+id = "Forbidden parameters have no syntax variable"
+lean = "forbiddenControl"
+paraphrase = "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."
+definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc"]
+disambiguations = []
+
+[[argument]]
+id = "Local description control"
+theorem = "naming"
+premises = []
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+conclusion = "The marked Bool object has a name-free description"
+rule = "Direct construction or Mathlib first-order interpretation transport"
+meaning = "PHYSICAL_OF_A_GROUND_3: in the explicit one-unary-marker Bool interpretation marking true, the formula marking its object variable describes exactly true, with no parameters."
+senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_3" }
+
+[[argument]]
+id = "Part-free description control"
+theorem = "partFree"
+premises = []
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+conclusion = "A name-free described object may be assigned no composition"
+rule = "Direct construction or Mathlib first-order interpretation transport"
+meaning = "PHYSICAL_OF_A_GROUND_3: the same marked Bool object is name-free describable and the separately chosen constantly false composite predicate does not hold of it. This tests syntactic independence only, not physical adequacy or the existing simpleImpersonal model."
+senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_3" }
+
+[[argument]]
+id = "Uniform singleton obstruction control"
+theorem = "notUniform"
+premises = []
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+conclusion = "No formula uniformly defines the fixed true singleton over all marker interpretations"
+rule = "Direct construction or Mathlib first-order interpretation transport"
+meaning = "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search."
+senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_4" }
+
+[[argument]]
+id = "Permitted parameter control"
+theorem = "permittedParameter"
+premises = []
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+conclusion = "An explicitly permitted parameter uniformly defines its singleton"
+rule = "Direct construction or Mathlib first-order interpretation transport"
+meaning = "PHYSICAL_OF_A_GROUND_4: in the ordinary marker signature on Bool with one permitted parameter, equality to that parameter defines its singleton across every interpretation, with nonempty admitted class."
+senses = { PHYSICAL_OF_A_GROUND = "PHYSICAL_OF_A_GROUND_4" }
+
+[[argument]]
+id = "Forbidden parameter expression control"
+theorem = "forbiddenParameter"
+premises = []
+axioms = []
+conclusion = "Forbidden parameters have no syntax variable"
+rule = "Direct construction or Mathlib first-order interpretation transport"
+meaning = "The subtype of permitted parameters is empty when all parameters are forbidden, so no arbitrary parameter can be inserted as a syntax variable. This is not a proof of nondefinability by every formula."

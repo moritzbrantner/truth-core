@@ -1,0 +1,10 @@
+{
+  "id": "24c7a2fc-6d91-4f68-b448-0fdfc475991f",
+  "label": "Uniform singleton obstruction control (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "3c167a4e-5de7-4c31-ae34-17bc43bceff0",
+  "rule": "Direct construction or Mathlib first-order interpretation transport",
+  "meaning": "PHYSICAL_OF_A_GROUND_4: with the one-unary-marker Bool language and no parameter symbols, no formula defines the fixed singleton true across ALL interpretations. Inverting the marker and every variable transports formula truth; the fixed singleton is not invariant. This quantifies over all finite formulas including nested quantifiers, not a bounded formula search.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

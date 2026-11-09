@@ -1,6 +1,6 @@
 {
   "id": "84e479f6-84b9-5aef-9c7d-637976b0b9a7",
-  "label": "CONCRETE_IN_A2P1_2: capable of causing…: A2P1 defines concrete by capability to be a cause OR to be…",
+  "label": "CONCRETE_IN_A2P1_2: capable of causing\u2026: A2P1 defines concrete by capability to be a cause OR to be\u2026",
   "legacy_id": "DEF-NB-A2-CONCRETE-CAUSE-OR-EFFECT",
   "term": "concrete in A2P1: capable of causing or being caused",
   "definition": "A2P1 defines concrete by capability to be a cause OR to be caused. The selected negative answer denies necessary universal coverage of that broader domain by a chain both without a first member and without even partial outside causes. Capability is not actual exercise, ordinary physicality, or membership in an Ontic actual-node subtype.",
@@ -8,5 +8,5 @@
   "claim_ids": [
     "5489af69-e8cb-526a-9d98-1a9a4b4d8eee"
   ],
-  "note": "Pinned A2P1 term@title. A2c instead uses capability to cause alone. Denial of universal coverage over a broader domain does not by logic entail denial over its narrower subdomain; the source-to-conclusion correspondence remains open."
+  "note": "Pinned A2P1 term@title. A2c instead uses capability to cause alone. Denial of universal coverage over a broader domain does not by logic entail denial over its narrower subdomain; the source-to-conclusion correspondence remains open. OPEN declaration-completion blocker (2026-11-09): first settle whether capability is accessible-world exercise, unexercised disposition, or both as explicit interpretations, with world, endpoint-existence and individual identity scope. Then the broader domain must retain BOTH outgoing and incoming capability for the same interpretation. Existential wrapping of a primitive CanCause is only a conditional control, not completion of this original. SurveyCapabilityControls demonstrates inclusion, an incoming-only separator, and failure of broad-denial-to-narrow-denial transfer; it proves no source chain or modal coverage assertion."
 }

@@ -1,0 +1,13 @@
+{
+  "id": "980a800d-57a6-4e5e-9c0f-363bce4c1842",
+  "label": "Uniform formula definition condition",
+  "paraphrase": "PHYSICAL_OF_A_GROUND_4: OPEN analyst condition on a supplied fixed carrier, language, parameter policy, nonempty admitted interpretation class and unary target: one allowed formula defines the target on the whole domain in every admitted interpretation. No physical calibration is asserted.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.Definability",
+  "definition_ids": [
+    "d218315c-ae8a-40dc-b695-ffca4cfedefe",
+    "7ec17771-8ac2-476b-b674-40ef61a2debc"
+  ],
+  "disambiguation_ids": [
+    "9f08b628-255b-5d8b-b9c2-4a5b31a43916"
+  ]
+}

@@ -1,0 +1,54 @@
+target = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+[[node]]
+id = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+[[node]]
+id = "STMT-NATURAL-REASON-IS-SHARED-REASON"
+[[node]]
+id = "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE"
+[[node]]
+id = "Scoped internal sufficiency"
+text = "Internal endorsement implies correctness on a supplied scope."
+[[node]]
+id = "Scoped internal determination"
+text = "Internal endorsement iff correctness on the same scope."
+[[node]]
+id = "Scoped external authority exclusion"
+text = "No external standard has jurisdiction on a supplied scope."
+[[node]]
+id = "Natural reason sufficiency authority controls"
+text = "Controls distinguish scope, strength, endorsement, normative shared answerability and external jurisdiction. Verdict agreement is not modeled."
+[[edge]]
+premises = ["Scoped internal determination"]
+conclusion = "Scoped internal sufficiency"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = []
+conclusion = "Natural reason sufficiency authority controls"
+kind = "derivation"
+status = "mapped"
+[[edge]]
+premises = ["Scoped internal sufficiency"]
+conclusion = "STMT-NATURAL-REASON-IS-SHARED-REASON"
+kind = "bridge"
+status = "open"
+note = "Unproved and not presumed: neither sibling entails sharedness or its denial; original mapping and scope remain open. Listed as a bridge question only."
+[[edge]]
+premises = ["STMT-NATURAL-REASON-IS-SHARED-REASON"]
+conclusion = "STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE"
+kind = "bridge"
+status = "open"
+note = "Existing theorem also needs council and definition-own-standard premises; no discharge here."
+[[edge]]
+premises = ["STMT-WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE"]
+conclusion = "STMT-REVELATION-POSSIBLE-AND-RECOGNIZABLE"
+kind = "bridge"
+status = "open"
+note = "Pair failure does not refute CutOffReading alone, the recorded revelation rival. Connection gap remains open."
+
+[[edge]]
+premises = ["Scoped external authority exclusion"]
+conclusion = "STMT-NATURAL-REASON-IS-SHARED-REASON"
+kind = "bridge"
+status = "open"
+note = "Independent bridge question: jurisdiction exclusion alone does not determine the formal shared-answerability assignment; verdict agreement remains unmodeled. No conjunction of the siblings is assumed."

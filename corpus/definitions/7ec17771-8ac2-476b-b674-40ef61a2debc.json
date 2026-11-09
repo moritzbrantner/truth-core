@@ -1,0 +1,9 @@
+{
+  "id": "7ec17771-8ac2-476b-b674-40ef61a2debc",
+  "label": "Specification vocabulary, first-order syntax and denotation",
+  "term": "specification syntax and denotation",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.ordinaryLanguage",
+  "definition": "Reuse Mathlib FirstOrder.Language, Term, Formula and Formula.Realize over arbitrary full domains, with arbitrary finite-arity functions and relations. Vocabulary declares ordinaryFunction and ordinaryRelation for the selected special vocabulary. ordinaryLanguage restricts symbols by those declarations and additionally forbids every arity-zero function (individual constant). Mathlib syntax types enforce arity and bound-variable scope. Naming has only a Unit object variable; Definability has free variables Unit plus the subtype of permitted parameters. Interpretation contains the entire ordinary-language structure and parameter values.",
+  "note": "Analyst formulation, attribution deferred. Reuses Mathlib.ModelTheory.Semantics, the same foundation as TruthCore.Logic.ReferenceAnchor; transport uses StrongHomClass.realize_formula and Equiv.inducedStructureEquiv. Symbol classifications, relation/function interpretations and parameter values are explicit structural primitive inputs, not a specifiable-object flag. OPEN: semantic calibration must reject predicates or operations that disguise proper names or special vocabulary. Forbidding individual constants and parameters blocks direct arbitrary-name insertion but does not certify ordinary classification. No function-language restriction, finite carrier limit, finite formula search, composition or modal relation is implicit."
+}

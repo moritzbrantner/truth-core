@@ -1,0 +1,20 @@
+{
+  "id": "24747b1c-2547-4b69-a654-12afca0a973f",
+  "label": "Available every-removal exercise implies some-removal exercise",
+  "premise_statement_ids": [
+    "e53ac959-9bd6-4bee-9b43-00dab238ae2c"
+  ],
+  "conclusion_statement_id": "b767da06-4865-4ab1-a43e-e9b8f6a51c0c",
+  "inference_ids": [
+    "6b8c25ba-c9d1-4a5f-a801-98cfa94ff604"
+  ],
+  "meaning": "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge.",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "a634c1a5-960f-4630-aa62-6c2c3fe69c72",
+    "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8"
+  ],
+  "strong_version_needed": {
+    "e53ac959-9bd6-4bee-9b43-00dab238ae2c": "This argument establishes the strength arrow from this precise stronger interpretation."
+  }
+}

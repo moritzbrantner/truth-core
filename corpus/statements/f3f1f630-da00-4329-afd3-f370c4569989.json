@@ -1,0 +1,10 @@
+{
+  "id": "f3f1f630-da00-4329-afd3-f370c4569989",
+  "label": "Some-removal retained capacity",
+  "paraphrase": "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves its capacity enabled.",
+  "lean_declaration": "TruthCore.Causality.PerAccidensResponses.SomeCapacity",
+  "definition_ids": [
+    "a2c84392-898a-4c90-970f-812597832e25",
+    "f5ce7c01-d2b2-4a67-b3b2-8212d3fb0493"
+  ]
+}

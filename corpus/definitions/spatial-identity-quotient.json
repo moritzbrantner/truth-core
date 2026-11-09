@@ -1,0 +1,9 @@
+{
+  "id": "5546831d-545c-4bfb-b6a5-648052b6a9cf",
+  "label": "SAME_RELATIVE_ORDER_SAME_COORDINATE_CONFIGURATION_5",
+  "term": "Equality of active orbit classes",
+  "definition": "Equality in the quotient of the full representation carrier C by the orbit setoid of the supplied group action G. The action obeys identity and composition laws; class equality is equivalent to existence of an allowed active transformation taking one configuration to the other. No preservation of relational data follows from the action laws alone.",
+  "basis": "stipulative",
+  "note": "Analyst framework, attribution deferred. C, B and R, the data signature, body-permutation subgroup H and active group action G are explicit inputs; no Euclidean geometry, complete physical data, real-world possibility, or original-source scope is asserted. Fixed body labels use the bottom subgroup. World, chart and other parameters are fixed within each comparison; cross-world/cross-carrier identification requires a separate map. Data may encode metric, orientation, order or richer predicates, but completeness is open. Active relocation is distinct from a passive bijective chart reencoding transporting data and the orbit relation.",
+  "lean_declaration": "TruthCore.Space.IdentityCriteria.QuotientIdentity"
+}

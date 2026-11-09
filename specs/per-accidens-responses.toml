@@ -1,0 +1,143 @@
+[batch]
+vocab = "TruthCore.Causality.PerAccidensResponses"
+results = "TruthCore.Results.Causality.PerAccidensResponses"
+definitions = ["a2c84392-898a-4c90-970f-812597832e25"]
+
+[[statement]]
+id = "Every-removal retained capacity"
+lean = "AllCapacity"
+paraphrase = "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves its capacity enabled."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "c6721592-4f15-4baf-87a6-7a1e3b53738c"]
+
+[[statement]]
+id = "Some-removal retained capacity"
+lean = "SomeCapacity"
+paraphrase = "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves its capacity enabled."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "f5ce7c01-d2b2-4a67-b3b2-8212d3fb0493"]
+
+[[statement]]
+id = "Every-removal continued exercise"
+lean = "AllExercise"
+paraphrase = "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves it actually exercising the same fixed task."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8"]
+
+[[statement]]
+id = "Some-removal continued exercise"
+lean = "SomeExercise"
+paraphrase = "Analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves it actually exercising the same fixed task."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "a634c1a5-960f-4630-aa62-6c2c3fe69c72"]
+
+[[statement]]
+id = "Available every-removal retained capacity"
+lean = "AvailableAllCapacity"
+paraphrase = "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves its capacity enabled."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "c6721592-4f15-4baf-87a6-7a1e3b53738c"]
+
+[[statement]]
+id = "Available some-removal retained capacity"
+lean = "AvailableSomeCapacity"
+paraphrase = "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves its capacity enabled."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "f5ce7c01-d2b2-4a67-b3b2-8212d3fb0493"]
+
+[[statement]]
+id = "Available every-removal continued exercise"
+lean = "AvailableAllExercise"
+paraphrase = "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; every admissible post-production/use removal leaves it actually exercising the same fixed task."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "d371348f-2b6f-46ba-a4e6-ed783e3bfaf8"]
+
+[[statement]]
+id = "Available some-removal continued exercise"
+lean = "AvailableSomeExercise"
+paraphrase = "The explicit conjunction of an admissible removal on every historical edge and the analyst interpretation: Every historical edge has an actually exercising later member at baseline; some admissible post-production/use removal leaves it actually exercising the same fixed task."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25", "a634c1a5-960f-4630-aa62-6c2c3fe69c72"]
+
+[[statement]]
+id = "Per-accidens response-family controls"
+lean = "Controls"
+paraphrase = "Explicit integer-dated intervention models: all-removal exercise with nonempty removals; all-removal capacity without any exercise-preserving response; some-removal exercise without all-removal capacity; vacuous all-removal exercise without any admissible removal; both generation and instrument predecessor chains with no first historical member; separate removal of the present sustainer retains the later member but destroys an operating condition and capacity, and is inadmissible. Abstract model scope only."
+definitions = ["a2c84392-898a-4c90-970f-812597832e25"]
+
+[[argument]]
+id = "Every-removal exercise implies capacity"
+theorem = "allExerciseCapacity"
+premises = ["Every-removal continued exercise"]
+conclusion = "Every-removal retained capacity"
+rule = "Explicit-response-strength-projection"
+meaning = "Pointwise projection of the explicit execution certificate to enabled capacity. Conditional analyst strength comparison; no source identity or root discharge."
+strong_version_needed = { "Every-removal continued exercise" = "This argument establishes the strength arrow from this precise stronger interpretation." }
+
+[[relation]]
+id = "Every-removal exercise implies capacity strength order"
+subject_kind = "statement"
+subject_id = "Every-removal continued exercise"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Every-removal retained capacity"
+verification_result_id = "Every-removal exercise implies capacity"
+note = "Verified conditional strength order on the explicit response profile. Controls distinguish capacity from exercise and existential from universal survival; empty admissible domains block unconditional universal-to-existential transfer."
+
+[[argument]]
+id = "Some-removal exercise implies capacity"
+theorem = "someExerciseCapacity"
+premises = ["Some-removal continued exercise"]
+conclusion = "Some-removal retained capacity"
+rule = "Explicit-response-strength-projection"
+meaning = "Retain the same admissible witness and project its execution certificate. Conditional analyst strength comparison; no source identity or root discharge."
+strong_version_needed = { "Some-removal continued exercise" = "This argument establishes the strength arrow from this precise stronger interpretation." }
+
+[[relation]]
+id = "Some-removal exercise implies capacity strength order"
+subject_kind = "statement"
+subject_id = "Some-removal continued exercise"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Some-removal retained capacity"
+verification_result_id = "Some-removal exercise implies capacity"
+note = "Verified conditional strength order on the explicit response profile. Controls distinguish capacity from exercise and existential from universal survival; empty admissible domains block unconditional universal-to-existential transfer."
+
+[[argument]]
+id = "Available every-removal capacity implies some-removal capacity"
+theorem = "allSomeCapacity"
+premises = ["Available every-removal retained capacity"]
+conclusion = "Available some-removal retained capacity"
+rule = "Explicit-response-strength-projection"
+meaning = "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge."
+strong_version_needed = { "Available every-removal retained capacity" = "This argument establishes the strength arrow from this precise stronger interpretation." }
+
+[[relation]]
+id = "Available every-removal capacity implies some-removal capacity strength order"
+subject_kind = "statement"
+subject_id = "Available every-removal retained capacity"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Available some-removal retained capacity"
+verification_result_id = "Available every-removal capacity implies some-removal capacity"
+note = "Verified conditional strength order on the explicit response profile. Controls distinguish capacity from exercise and existential from universal survival; empty admissible domains block unconditional universal-to-existential transfer."
+
+[[argument]]
+id = "Available every-removal exercise implies some-removal exercise"
+theorem = "allSomeExercise"
+premises = ["Available every-removal continued exercise"]
+conclusion = "Available some-removal continued exercise"
+rule = "Explicit-response-strength-projection"
+meaning = "Use the explicitly retained nonempty admissible domain to select a response; keep availability on both sides. Conditional analyst strength comparison; no source identity or root discharge."
+strong_version_needed = { "Available every-removal continued exercise" = "This argument establishes the strength arrow from this precise stronger interpretation." }
+
+[[relation]]
+id = "Available every-removal exercise implies some-removal exercise strength order"
+subject_kind = "statement"
+subject_id = "Available every-removal continued exercise"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Available some-removal continued exercise"
+verification_result_id = "Available every-removal exercise implies some-removal exercise"
+note = "Verified conditional strength order on the explicit response profile. Controls distinguish capacity from exercise and existential from universal survival; empty admissible domains block unconditional universal-to-existential transfer."
+
+[[argument]]
+id = "Per-accidens response-family model controls"
+theorem = "controls"
+premises = []
+conclusion = "Per-accidens response-family controls"
+rule = "Explicit-intervention-models"
+meaning = "Construct the nonempty integer-dated histories and response witnesses; evaluate the omission and current-condition controls. These abstract profiles do not establish metaphysical possibility, adequacy for the original sourced sense, MovesAsMoved or accessibility."
+axioms = ["propext", "Classical.choice", "Quot.sound"]

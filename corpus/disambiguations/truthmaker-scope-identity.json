@@ -41,12 +41,14 @@
     {
       "id": "f108e88f-241f-436f-b855-6667101c6101",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_5",
-      "definition_id": "e201b423-f0e4-5026-a88d-1c1a8e452638"
+      "definition_id": "e201b423-f0e4-5026-a88d-1c1a8e452638",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerSourceScopes.GuardedNecessitationAt"
     },
     {
       "id": "5329bb1d-7c76-4560-a2f9-13cc0aa53184",
       "label": "TRUTHMAKER_COVERAGE_UNIFORMITY_AND_NECESSITY_6",
-      "definition_id": "ea6239a8-8662-5732-904b-d8121799b1fe"
+      "definition_id": "ea6239a8-8662-5732-904b-d8121799b1fe",
+      "lean_declaration": "TruthCore.Explanation.TruthmakerSourceScopes.EveryTruthHasMakerAt"
     }
   ]
 }
