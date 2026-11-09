@@ -1,0 +1,14 @@
+{
+  "id": "6c04bd7a-f628-4fca-8fc7-0553265cb69b",
+  "label": "Actual absence from surveyed recognition (inference)",
+  "input_statement_ids": [
+    "1a3bbdc6-722c-4758-ab2f-b51628d8feee",
+    "3a7448a1-344a-4a6d-a372-caa812d2ab8e",
+    "82a28eca-c0b7-56a9-95d9-60b5667068c6"
+  ],
+  "output_statement_id": "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+  "rule": "Structured finite survey reasoning",
+  "meaning": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

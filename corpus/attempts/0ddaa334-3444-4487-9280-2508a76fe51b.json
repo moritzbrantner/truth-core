@@ -1,0 +1,16 @@
+{
+  "id": "0ddaa334-3444-4487-9280-2508a76fe51b",
+  "label": "Conceptual existence boundary and nonexistent exemplar",
+  "statement_ids": [
+    "8626f8a5-9531-5da7-9ebd-f901e74b1129"
+  ],
+  "date": "2026-11-09",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Analyst variant with attribution deferred. Nuclear characterization, exemplification, actuality and actual existence remain independent. Three carrying bridge omissions admit empty existence extensions; joint premises admit a positive interpretation. See docs/notes/conceptual-existence-boundary.md. This does not identify GOD_4, defend any semantic bridge or close a root premise. Rejected constructor and definitional-equality shortcuts hide existence.",
+  "evidence": [
+    "512c616c-ba94-4235-a4c8-6711bfba1425",
+    "b5b39d22-7a92-4bc1-9d42-60af1a486aee"
+  ],
+  "blocker": "Substantive feature calibration and explicit GOD_4 identification remain open."
+}

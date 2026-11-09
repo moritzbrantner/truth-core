@@ -1,0 +1,9 @@
+{
+  "id": "0884890e-5576-447e-8800-51613abcc9a5",
+  "label": "Conceptual actuality entails actual existence",
+  "paraphrase": "OPEN analyst bridge: every actual candidate actually exists in this interpretation. This is an assumption, not definitional equality. Attribution deferred.",
+  "lean_declaration": "TruthCore.Causality.ConceptualExistenceBoundary.ActualityExists",
+  "definition_ids": [
+    "f59d02bf-fd2f-46b6-94f2-09eb29cf970c"
+  ]
+}

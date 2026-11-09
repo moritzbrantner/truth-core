@@ -1,0 +1,32 @@
+target = "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS"
+[[node]]
+id = "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS"
+[[node]]
+id = "STMT-ROWE-GRATUITOUS-SUFFERING"
+[[node]]
+id = "STMT-ROWE-NO-THEISTIC-BEING"
+[[node]]
+id = "Recognition survey coverage"
+[[node]]
+id = "Recognition survey completeness"
+[[node]]
+id = "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING"
+[[node]]
+id = "STMT-ROWE-PERMISSION-CONSTRAINT"
+[[edge]]
+premises = ["Recognition survey coverage", "Recognition survey completeness", "STMT-ROWE-APPARENTLY-POINTLESS-SUFFERING"]
+conclusion = "STMT-ROWE-GRATUITOUS-SUFFERING"
+kind = "bridge"
+status = "certified"
+note = "Also requires existing apparent-pointlessness witness; no probability inference."
+[[edge]]
+premises = ["STMT-ROWE-GRATUITOUS-SUFFERING", "STMT-ROWE-PERMISSION-CONSTRAINT"]
+conclusion = "STMT-ROWE-NO-THEISTIC-BEING"
+kind = "derivation"
+status = "certified"
+[[edge]]
+premises = ["STMT-ROWE-NO-THEISTIC-BEING"]
+conclusion = "STMT-UNIQUE-GOD-WITH-CLASSICAL-ATTRIBUTES-EXISTS"
+kind = "rival"
+status = "mapped"
+note = "Connection plan only: must explicitly interpret skeleton attributes as Rowe attributes on a common being carrier. Primitive HasClassicalAttributes does not provide that bridge."

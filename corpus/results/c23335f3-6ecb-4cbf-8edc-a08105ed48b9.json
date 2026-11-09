@@ -1,0 +1,11 @@
+{
+  "id": "c23335f3-6ecb-4cbf-8edc-a08105ed48b9",
+  "label": "Experience yields recognized GOD_4",
+  "argument_id": "bd59d52b-e813-4cb8-b315-50fb06809f75",
+  "challenge_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.Solution",
+  "theorem": "TruthCore.Results.Alternatives.ReligiousExperienceRecognition.recognition",
+  "comparator_config": "results/c23335f3-6ecb-4cbf-8edc-a08105ed48b9/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst conditional finite experience reconstruction. No premise truth or theological identification established. See dedicated note for exact model scope and remaining gap."
+}

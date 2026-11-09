@@ -1,0 +1,36 @@
+{
+  "id": "3aae1f42-ee89-4de2-a569-7fca5568415b",
+  "label": "Actual absence from surveyed recognition",
+  "premise_statement_ids": [
+    "1a3bbdc6-722c-4758-ab2f-b51628d8feee",
+    "3a7448a1-344a-4a6d-a372-caa812d2ab8e",
+    "82a28eca-c0b7-56a9-95d9-60b5667068c6"
+  ],
+  "conclusion_statement_id": "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+  "inference_ids": [
+    "6c04bd7a-f628-4fca-8fc7-0553265cb69b"
+  ],
+  "meaning": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan.",
+  "definition_ids": [
+    "9ad17723-d80b-59ab-aac7-291843f55d93",
+    "06d6f1ae-bf4d-5b57-b722-44b068427820",
+    "4121dd26-3ee8-53b4-a73f-5453e5308764",
+    "086f1ece-8e43-5363-97cd-2d165e7dc3ed",
+    "3e77cec9-1728-578b-958b-5876f572ce42",
+    "abdffe6a-45ef-40d5-9544-f9b2766c2c59",
+    "afd59d06-6528-47de-8a27-933c1163a1f3"
+  ],
+  "disambiguation_ids": [
+    "51142f83-40ad-50a3-83be-a6062eee1256",
+    "008747c9-744a-581c-adad-570e834abb4e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "POINTLESS_GRATUITOUS",
+      "from": "b29e35c1-75e3-4f6d-8a89-bfb39ce99c94",
+      "to": "88ded334-2fc0-41c7-b15a-9278ad2c592c",
+      "statement_id": "8eebfefd-e24a-52f0-bf85-5ced6b569eae",
+      "role": "conclusion"
+    }
+  ]
+}

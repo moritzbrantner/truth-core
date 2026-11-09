@@ -1,0 +1,17 @@
+{
+  "id": "571b0f6a-bdc7-43ff-9cd4-266ec1598fce",
+  "label": "Existing exemplar from explicit predication and semantic bridges",
+  "premise_statement_ids": [
+    "89c44bcb-7b76-4ac3-8fb7-4b3c6201351a",
+    "ddfab47a-60c0-4bfd-b388-79c23c4b4377",
+    "0884890e-5576-447e-8800-51613abcc9a5"
+  ],
+  "conclusion_statement_id": "19debf1a-db0c-42a6-a5d1-10c0c2f8df36",
+  "inference_ids": [
+    "9aa91093-f1af-4502-bd82-09758a61f6f1"
+  ],
+  "meaning": "Conditional analyst reconstruction only: choose the nuclear anchor feature; transfer gives its exemplification by the selected candidate; extension inclusion gives actuality; the separate bridge gives existence. Preserve all nuclear features of that same witness. The substantive result is the accompanying omission separation, not a defense of the bridges or a proof of GOD_4. Attribution deferred.",
+  "definition_ids": [
+    "f59d02bf-fd2f-46b6-94f2-09eb29cf970c"
+  ]
+}

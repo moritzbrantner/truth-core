@@ -1,0 +1,9 @@
+{
+  "id": "19debf1a-db0c-42a6-a5d1-10c0c2f8df36",
+  "label": "Characterized profile has an existing exemplar",
+  "paraphrase": "Some candidate actually exists and exemplifies every nuclear feature of the selected description. This does not identify it as GOD_4 or establish any premise.",
+  "lean_declaration": "TruthCore.Causality.ConceptualExistenceBoundary.ExistingExemplar",
+  "definition_ids": [
+    "f59d02bf-fd2f-46b6-94f2-09eb29cf970c"
+  ]
+}

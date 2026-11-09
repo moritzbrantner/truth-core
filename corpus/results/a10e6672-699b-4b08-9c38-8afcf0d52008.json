@@ -1,0 +1,11 @@
+{
+  "id": "a10e6672-699b-4b08-9c38-8afcf0d52008",
+  "label": "Recognition nonvacuity certificate",
+  "argument_id": "66d06478-74ae-4b14-affa-06fbb150c6fb",
+  "challenge_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Challenge",
+  "solution_module": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.Solution",
+  "theorem": "TruthCore.Results.Comparison.ProblemOfEvil.RoweRecognition.nonvacuity",
+  "comparator_config": "results/a10e6672-699b-4b08-9c38-8afcf0d52008/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst formulation, attribution deferred. Coverage and recognition completeness are separate open inputs. This result establishes only the encoded conditional or finite control, never probability or actual applicability. See docs/rowe-evidential-evil.md for the root connection plan."
+}
