@@ -1,0 +1,6 @@
+{
+  "id": "94808f80-2c73-4757-b95e-61808b5bcde5",
+  "label": "Observer-conditioned calibrated likelihood direction",
+  "paraphrase": "In every normalized three-cell finite sampling pair with positive observer and evidence mass, designer likelihood at least three quarters and natural likelihood at most one quarter imply a Bayes factor above one. Conditional algebra, not empirical calibration or designer existence.",
+  "lean_declaration": "TruthCore.Science.FineTuningSelection.CalibrationDirection"
+}

@@ -1,0 +1,15 @@
+target = "STMT-GOD-EXISTS"
+[[node]]
+id = "STMT-GOD-EXISTS"
+[[node]]
+id = "Observer-conditioned calibrated likelihood direction"
+text = "Conditional finite sampling likelihood comparison"
+[[node]]
+id = "Observer selection reverses design evidence controls"
+text = "Selection and designer-likelihood omissions reverse direction"
+[[edge]]
+premises = ["Observer-conditioned calibrated likelihood direction"]
+conclusion = "STMT-GOD-EXISTS"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: empirical sampling and calibration, actual designer existence, and identification with GOD_4. Evidence gain alone entails none of these."

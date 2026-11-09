@@ -1,0 +1,31 @@
+[batch]
+vocab = "TruthCore.Science.FineTuningSelection"
+results = "TruthCore.Results.Science.FineTuningSelection"
+
+[[statement]]
+id = "Observer-conditioned calibrated likelihood direction"
+lean = "CalibrationDirection"
+paraphrase = "In every normalized three-cell finite sampling pair with positive observer and evidence mass, designer likelihood at least three quarters and natural likelihood at most one quarter imply a Bayes factor above one. Conditional algebra, not empirical calibration or designer existence."
+
+[[statement]]
+id = "Observer selection reverses design evidence controls"
+lean = "SelectionControls"
+paraphrase = "A calibrated inhabited pair has Bayes factor three. Holding unconditional natural fine evidence fixed while selecting observers reverses the factor to three quarters. Holding natural calibration while lowering designer preference reverses it to one half. Prior odds one tenth remain below posterior parity despite factor three."
+
+[[argument]]
+id = "Finite observer calibration gives design evidence direction"
+theorem = "direction"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Observer-conditioned calibrated likelihood direction"
+rule = "Positive rational division and ordered-field arithmetic"
+meaning = "Derives an internal universally quantified conditional from explicit normalized weights and two likelihood calibration bounds. The calibration and sampling interpretation remain open; this theorem does not assert their actuality."
+
+[[argument]]
+id = "Finite observer and designer omission models"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Observer selection reverses design evidence controls"
+rule = "Evaluation of normalized finite rational distributions"
+meaning = "Nonvacuity and genuine opposite-direction models omit separately natural observer calibration and designer likelihood calibration. No empirical estimate, theological identification, or unconditional design conclusion."
