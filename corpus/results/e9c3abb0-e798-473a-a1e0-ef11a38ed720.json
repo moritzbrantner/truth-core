@@ -1,0 +1,11 @@
+{
+  "id": "e9c3abb0-e798-473a-a1e0-ef11a38ed720",
+  "label": "Selected ancestry uniqueness nonvacuity and omissions",
+  "argument_id": "f1f5c5ec-f0c6-4c88-8451-495684607073",
+  "challenge_module": "TruthCore.Results.Causality.SelectedAncestryUnique.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelectedAncestryUnique.Solution",
+  "theorem": "TruthCore.Results.Causality.SelectedAncestryUnique.controls",
+  "comparator_config": "results/e9c3abb0-e798-473a-a1e0-ef11a38ed720/comparator.json",
+  "status": "solution-present",
+  "description": "Checks joint nonvacuity and omission interpretations for all five nonlogical carrying hypotheses. The positive model has one actual concrete candidate. Omitting ancestor uses an empty actual roster; the other four omissions retain two necessary concrete ungrounded roots, so uniqueness fails. The shared two-root failure is part of the certificate, not a claim about the positive model. The explicit logical EM hypothesis of uniqueRoot is not assigned an intuitionistic countermodel."
+}

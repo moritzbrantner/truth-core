@@ -8,6 +8,7 @@ public import TruthCore.Causality.ActualCoverStrictness
 public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
+public import TruthCore.Causality.AristotelianCauseModes
 public import TruthCore.Causality.AristotelianRivalRefutations
 public import TruthCore.Causality.AtomisticCausalSource
 public import TruthCore.Causality.AtomisticUniversalCausePriority
@@ -65,6 +66,7 @@ public import TruthCore.Causality.GroundingIdentityProfile
 public import TruthCore.Causality.GroundingLimits
 public import TruthCore.Causality.GroundingRegress
 public import TruthCore.Causality.HeadlessCausalAncestry
+public import TruthCore.Causality.HistoricalRemoval
 public import TruthCore.Causality.IndexedSignalProvenance
 public import TruthCore.Causality.IndexedSignalReaper
 public import TruthCore.Causality.IntellectualInclination
@@ -134,6 +136,7 @@ public import TruthCore.Causality.Round4Revisited
 public import TruthCore.Causality.Round5Worklist
 public import TruthCore.Causality.ScopedActualCausality
 public import TruthCore.Causality.SelectedAncestry
+public import TruthCore.Causality.SelectedAncestryUniqueControl
 public import TruthCore.Causality.SelfCausationPriority
 public import TruthCore.Causality.SelfOperationLife
 public import TruthCore.Causality.SourceForest

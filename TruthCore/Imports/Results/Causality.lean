@@ -133,6 +133,7 @@ public import TruthCore.Results.Causality.GroundingAllowsRegress.Solution
 public import TruthCore.Results.Causality.GroundingIdentityProfile.Solution
 public import TruthCore.Results.Causality.GroundingYieldsRegress.Solution
 public import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
+public import TruthCore.Results.Causality.HistoricalRemoval.Solution
 public import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
 public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
 public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
@@ -233,6 +234,7 @@ public import TruthCore.Results.Causality.SameRespectActualization.Solution
 public import TruthCore.Results.Causality.ScenarioNecessaryWitness.Solution
 public import TruthCore.Results.Causality.ScopedActualCausality.Solution
 public import TruthCore.Results.Causality.SelectedAncestry.Solution
+public import TruthCore.Results.Causality.SelectedAncestryUnique.Solution
 public import TruthCore.Results.Causality.SelectedNecessaryRoute.Solution
 public import TruthCore.Results.Causality.SelfCausationPriority.Solution
 public import TruthCore.Results.Causality.SelfOperationLife.Solution

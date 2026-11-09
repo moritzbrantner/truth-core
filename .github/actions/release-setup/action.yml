@@ -1,0 +1,42 @@
+name: Authenticated release setup
+description: Install official Lean/Elan or latest stable Bun via GitHub release asset REST endpoints.
+inputs:
+  tool:
+    description: lean or bun
+    required: true
+  save:
+    description: Allow a trusted main job to save the tool cache.
+    default: 'false'
+    required: false
+runs:
+  using: composite
+  steps:
+    - name: Resolve official release and asset IDs
+      id: release
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        TOOL: ${{ inputs.tool }}
+      run: python3 "$GITHUB_ACTION_PATH/acquire.py" resolve "$TOOL"
+    - uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
+      id: cache
+      with:
+        path: ~/.cache/truth-core-release/${{ inputs.tool }}
+        key: release-v1-${{ runner.os }}-${{ runner.arch }}-${{ inputs.tool }}-${{ steps.release.outputs.version }}-${{ hashFiles('.github/actions/release-setup/**') }}
+    - name: Acquire release binaries on cache miss
+      if: steps.cache.outputs.cache-hit != 'true'
+      shell: bash
+      env:
+        GH_TOKEN: ${{ github.token }}
+        TOOL: ${{ inputs.tool }}
+      run: python3 "$GITHUB_ACTION_PATH/acquire.py" install "$TOOL"
+    - name: Validate versions and export paths
+      shell: bash
+      env:
+        TOOL: ${{ inputs.tool }}
+      run: python3 "$GITHUB_ACTION_PATH/acquire.py" validate "$TOOL"
+    - uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
+      if: inputs.save == 'true' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.cache.outputs.cache-hit != 'true'
+      with:
+        path: ~/.cache/truth-core-release/${{ inputs.tool }}
+        key: ${{ steps.cache.outputs.cache-primary-key }}

@@ -1,0 +1,11 @@
+{
+  "id": "8b4d7970-ff4c-4999-b3fb-200edb9287a5",
+  "label": "Selected necessary ancestor determines the unique actual root",
+  "argument_id": "6d64bcad-e4ed-4ee7-8b4e-757c83aa2456",
+  "challenge_module": "TruthCore.Results.Causality.SelectedAncestryUnique.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelectedAncestryUnique.Solution",
+  "theorem": "TruthCore.Results.Causality.SelectedAncestryUnique.uniqueRoot",
+  "comparator_config": "results/8b4d7970-ff4c-4999-b3fb-200edb9287a5/comparator.json",
+  "status": "solution-present",
+  "description": "Retain the SAME necessary actual concrete ancestor n. Explicit existence-to-esse and grades policies supply an esse maximum y; genus and esse-cause-to-actual-concrete-ground identify y with n and with every actual concrete root x. Therefore x=n. The Unit restriction retains the same carrier, selected world, esse and dictionaries. No global well-foundedness, all-world rootness, uniqueness of all necessary individuals, God naming or premise truth follows. This connects selected ancestry to the existing UniqueRootPerfection and Fourth Way consumer conditionally; it does not discharge an application premise."
+}
