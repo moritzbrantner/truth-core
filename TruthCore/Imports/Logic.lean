@@ -7,6 +7,7 @@ public import TruthCore.Logic.CaseNonContradiction
 public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject
+public import TruthCore.Logic.CognitiveReplacement
 public import TruthCore.Logic.CollectivePossibilityRouteBoundary
 public import TruthCore.Logic.CommonKnowerScopes
 public import TruthCore.Logic.Configuration
