@@ -1,0 +1,18 @@
+[batch]
+vocab = "TruthCore.Causality.HistoricalRemoval"
+results = "TruthCore.Results.Causality.HistoricalRemoval"
+definitions = ["Historical selected-removal configuration"]
+
+[[statement]]
+id = "Historical removal configuration comparison"
+lean = "Comparison"
+paraphrase = "Analyst configuration: independence of present power after a selected post-generation removal and loss under the same removal on essential edges jointly exclude historical edges if every historical edge is essential. Finite three-being response tables retain strict historical generation precedence: rejecting inclusion permits nonempty historical and essential edges; dropping independence or dropping loss separately permits inclusion and a historical edge. No universal intervention, infinite history, metaphysical possibility or accessibility claim."
+definitions = ["Historical selected-removal configuration"]
+
+[[argument]]
+id = "Historical removal comparison by response tables"
+theorem = "comparison"
+premises = []
+conclusion = "Historical removal configuration comparison"
+rule = "Boolean-response-incompatibility-and-finite-models"
+meaning = "Boolean response cannot be both true and false on the same edge; explicit finite tables witness consistency without the dictionary and necessity of both removal constraints for this exclusion. The root no-regress premise remains open and needs a MovesAsMoved bridge plus independent accessibility warrant."

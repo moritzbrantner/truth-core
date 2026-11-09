@@ -1,0 +1,10 @@
+{
+  "id": "2b1f97d5-09cd-48b4-aed1-a23d44392698",
+  "label": "Historical removal comparison by response tables (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "475f19fe-e366-4438-9e48-451156b2a1f9",
+  "rule": "Boolean-response-incompatibility-and-finite-models",
+  "meaning": "Boolean response cannot be both true and false on the same edge; explicit finite tables witness consistency without the dictionary and necessity of both removal constraints for this exclusion. The root no-regress premise remains open and needs a MovesAsMoved bridge plus independent accessibility warrant.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
