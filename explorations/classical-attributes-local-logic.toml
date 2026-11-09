@@ -3,8 +3,6 @@ target = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
 id = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
 [[node]]
 id = "Classical attributes actual-bearer local equality logic"
-new = true
-text = "Actual-bearer equality alternatives and candidate esse identity stability"
 [[node]]
 id = "818a73cc-249d-5f9b-9c34-aee1f2cbf333"
 [[node]]
@@ -43,8 +41,12 @@ id = "a4d3261a-3239-5b44-9953-64ab1b0ed762"
 id = "c6d6379b-6a9b-55b5-a701-3df289dfcca4"
 [[node]]
 id = "09c6d5f0-d412-5038-85f9-75fffb935727"
+[[node]]
+id = "12dc2662-e160-4031-bc7b-0772c2ed2476"
+[[node]]
+id = "3b2d2d46-baa6-4772-a2db-bb3daeb092fc"
 [[edge]]
-premises = ["818a73cc-249d-5f9b-9c34-aee1f2cbf333", "4c79298d-ee09-5e99-9ced-1be92c19b4cc", "d9fad785-40ab-555a-a1c1-5e39c9d50497", "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d", "ca07cae9-6102-564e-a7fd-efb013744b3d", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f", "00e962ae-f109-55f7-a7fd-f107ce0dea6b", "f8ba2429-b4f1-5712-a4d3-798213963d34", "d7741cdc-881b-5bda-85ce-d70223162f78", "75a37a91-732d-510c-9abc-b37c988c5c63", "0659227c-0979-579c-910b-03a1967f49c5", "180f5ad2-a421-541a-85c9-9bca578b4a43", "090be689-b77f-51a1-9d5d-caf339169e4b", "eaa4c679-98a3-5e82-95ff-18bd1177ce74", "a4d3261a-3239-5b44-9953-64ab1b0ed762", "c6d6379b-6a9b-55b5-a701-3df289dfcca4", "09c6d5f0-d412-5038-85f9-75fffb935727", "Classical attributes actual-bearer local equality logic"]
+premises = ["818a73cc-249d-5f9b-9c34-aee1f2cbf333", "4c79298d-ee09-5e99-9ced-1be92c19b4cc", "12dc2662-e160-4031-bc7b-0772c2ed2476", "d5a94eb1-72d2-53e0-9a52-9787b5b61a8d", "ca07cae9-6102-564e-a7fd-efb013744b3d", "7067553d-cad9-5d79-b6b2-912e35051530", "64498e7e-7f10-54a0-9ec0-c65e6076de1f", "00e962ae-f109-55f7-a7fd-f107ce0dea6b", "f8ba2429-b4f1-5712-a4d3-798213963d34", "d7741cdc-881b-5bda-85ce-d70223162f78", "75a37a91-732d-510c-9abc-b37c988c5c63", "0659227c-0979-579c-910b-03a1967f49c5", "180f5ad2-a421-541a-85c9-9bca578b4a43", "090be689-b77f-51a1-9d5d-caf339169e4b", "eaa4c679-98a3-5e82-95ff-18bd1177ce74", "3b2d2d46-baa6-4772-a2db-bb3daeb092fc", "c6d6379b-6a9b-55b5-a701-3df289dfcca4", "09c6d5f0-d412-5038-85f9-75fffb935727", "Classical attributes actual-bearer local equality logic"]
 conclusion = "d5ac1620-1de5-5cd8-862e-cfdfd6d8b8a5"
 kind = "derivation"
-status = "mapped"
+status = "certified"

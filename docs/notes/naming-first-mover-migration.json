@@ -822,14 +822,14 @@
       "kind": "statements",
       "id": "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
       "path": "corpus/statements/nothing-in-act-and-potency-in-same-respect.json",
-      "status": "inspected",
+      "status": "repaired",
       "classification": "adopted_potency_scope",
-      "finding": "Reuse unchanged prior audit disposition: Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. F7 continuation: inspected added adopted-versus-independent potency links. Original statement text/type and source attribution remain unchanged.",
+      "finding": "Reuse unchanged prior audit disposition: Retained explicit open commitment: Nothing is simultaneously in act and in potency in the same respect, though it may be so in different respects. Exact applications are bound by the scoped Challenges. Existing source/attempt evidence is reused, not a renewed source-fidelity certification. F7 continuation: inspected added adopted-versus-independent potency links. Original statement text/type and source attribution remain unchanged. Selected #1278 audit: NotActAndPotencyInSameRespectReading constrains the supplied free InPotency relation. Removed the misleading adopted-capacity link; non-overlap remains a premise, with no capacity-without-act equation or philosophical meaning change.",
       "before": {
         "sha256": "a3505a1aa24edb44baa690c8b5b28add891af4a4465f153153dee161ba5d0c47",
         "lean_declaration": "TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading"
       },
-      "reviewed_sha256": "bcb707097e253e12f98fe1e18898509736ee4683656bdc8e402b3547ef1b89b5"
+      "reviewed_sha256": "c7a0f6daa4ed29814bd94630e962aef4ee725b485f742b6529fdc8c84dadbe57"
     },
     {
       "kind": "statements",

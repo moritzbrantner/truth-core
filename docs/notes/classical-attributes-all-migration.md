@@ -596,29 +596,99 @@ field. They witness the sufficiency omission, not necessity of local logic.
 The causal/priority conditions in this Unit interpretation can be vacuous;
 there is a God and actual being, but no empirical interpretation is certified.
 
-**Registration blocker:** generating the same-conclusion argument from the old
-premise IDs fails the new-argument sense gate: maximality senses 1/6 and potency
-senses 1/2 are inherited from that legacy bundle. The original argument is
-allowlisted; a fresh sibling is not. No premise actually supplies the missing
-semantic bridges. Do not label an unrelated premise as a bridge to pass this
-gate. The consequence theorem is therefore checked Lean research, deliberately
-not a registered support route; only the sole-premise EM projection and model
-controls are registered. The exploration map retains the intended root edge as
-mapped. Next: migrate those exact legacy premise bindings or explicitly derive
-appropriate typed bridges, then register the unchanged local consequence.
-Shared sense metadata and allowlists were outside this slice's ownership.
-This work makes no registry-floor approval and discharges no truth obligation.
+**Registration resolved (bounded follow-up):** the original corpus was
+co-linked to MAXIMAL senses 1/6 and POTENCY senses 1/2. The underlying Lean
+assembly does not cross those meanings: every maximality test is the same
+`IsMaximumIn` body, and every potency occurrence uses the same free predicate.
+`IsMaximalIn` is only a transparent alias; `ActSimplyPriorToPotencyReading`
+contains no capacity-without-act equation. The generic non-overlap statement
+`c6d6379b-6a9b-55b5-a701-3df289dfcca4` now links only independent potency,
+with its proposition, UUID, label and source claims preserved.
+
+A shared priority-record relink would introduce independent potency into
+existing adopted configurations. A shared general-maximality relink likewise
+changes other source/order-fork consumers. Rather than migrate that unrelated
+closure, this configuration keeps those records untouched and uses two explicit
+analyst sibling inputs: `12dc2662-e160-4031-bc7b-0772c2ed2476`
+(`MaximumCausesAll`, universally quantified r, same weak-maximality formula) and
+`3b2d2d46-baa6-4772-a2db-bb3daeb092fc` (`IndependentPriority`, free potency).
+Their transparent bodies are exactly the old premise formulas. The original
+Solution and frozen Challenge are unchanged. A separate Registration Solution
+names the wrappers and delegates to the checked consequence; its own Challenge
+was frozen first. Comparator requires matching declaration structure, so a
+wrapper signature was not substituted against the original frozen Challenge. Neither
+wrapper assumes its conclusion, adds a law, or crosses senses. No source claim
+is copied to the new analyst inputs. The two new input records are OPEN;
+this registration does not identify their philosophical warrant with the legacy
+records or silently inherit their support status.
+
+The registered consequence is argument
+`6c6549ae-1181-42b5-9702-ce826bc3b924`, result
+`fa508971-6ca4-4880-8973-ada2ef21301e`. Its exact record delta replaces the
+old general-genus and priority records with those explicit sibling inputs,
+and global EM with `ca432e24-7f91-4c98-bb66-f700171ddbe8`.
+It has sixteen original inputs, two definitionally identical analyst inputs,
+and the local fragment. There is no additional mathematical bridge premise.
+This is actual conditional logical support, not a truth/floor discharge or
+an approval to register the original nineteen-premise model certificate.
+The sole-premise global-to-local strengthens result stays
+`173653fe-4e66-4959-9dac-b5dabb6d5948`; no additional strengthens edge claims
+an order between differently interpreted priority or superlative records.
 
 
-The unregistered consequence has a frozen sibling Challenge and a zero-axiom
+The original consequence retains its frozen sibling Challenge and a zero-axiom
 Comparator/NanoDa configuration at
 `TruthCore/Results/Case/Catholicism/StageTwo/ClassicalAttributesLocalLogic/consequence-comparator.json`.
 It can be checked with `worker_env.py -- lake env` running the configured
 verifier's `truth-core-comparator` on that configuration (set the existing
 `COMPARATOR_LEAN4EXPORT`, `COMPARATOR_LANDRUN`, `COMPARATOR_NANODA` paths).
-The registered projection and controls use the ordinary `verify-result.sh`
+The consequence uses ordinary `verify-result.sh` result
+`fa508971-6ca4-4880-8973-ada2ef21301e`. The projection and controls use the ordinary `verify-result.sh`
 commands for results `173653fe-4e66-4959-9dac-b5dabb6d5948` and
 `eef069bb-db3c-49d8-a7c6-e8f6166476a6`. Convention sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`. The #1276 evidence inspected
 was head `e0014421823ab2291171c371f01a7661f410bacd`; its certificate/EM
 equivalence does not imply that this weaker consequence needs global EM.
+
+
+### Selected premise head audit for the registered configuration
+
+All eighteen nonlogical inputs were checked against the original signature,
+not just their labels. The two analyst siblings below preserve the exact
+formulas through transparent wrappers. The other sixteen statement identities,
+all conclusion identities, and all frozen original Challenges are retained.
+The selected non-overlap metadata correction removes only its false adopted
+co-linkage. MAXIMAL senses 1/6 remain globally distinct labels/UUIDs; this
+configuration uses the exact IsMaximumIn body (sense 1) consistently. POTENCY
+senses 1/2 also remain distinct: this configuration uses the independent
+relation (sense 2). No adopted-capacity equation or bridge is assumed.
+
+| Input UUID | Exact Lean head in registered signature | Audit |
+| --- | --- | --- |
+| `818a73cc-249d-5f9b-9c34-aee1f2cbf333` | `TruthCore.Case.Catholicism.ClassicalAttributesSuffice` | Same nine predicates, including IsImmutable of the supplied InPotency; open sufficiency. |
+| `4c79298d-ee09-5e99-9ced-1be92c19b4cc` | `TruthCore.Case.Catholicism.GodIsMaximalInBeing` | Weak IsMaximumIn at esse; no greatestness. |
+| `12dc2662-e160-4031-bc7b-0772c2ed2476` | `TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.MaximumCausesAll` | Universal r retained; body unfolds to original weak-maximality causal premise. |
+| `d5a94eb1-72d2-53e0-9a52-9787b5b61a8d` | `TruthCore.Greek.Aristotle.Metaphysics.CauseOfQualityInAnotherIsMoreSuchReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `ca07cae9-6102-564e-a7fd-efb013744b3d` | `TruthCore.Latin.Aquinas.SummaTheologiae.CompositeHasAUnitingCauseReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `7067553d-cad9-5d79-b6b2-912e35051530` | `TruthCore.Latin.Aquinas.SummaTheologiae.ActualityOnlyInsofarAsBeingReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `64498e7e-7f10-54a0-9ec0-c65e6076de1f` | `TruthCore.Latin.Aquinas.SummaTheologiae.PerfectionsOfEffectPreexistInCauseReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `00e962ae-f109-55f7-a7fd-f107ce0dea6b` | `TruthCore.Latin.Aquinas.SummaTheologiae.GoodnessIsActualityReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `f8ba2429-b4f1-5712-a4d3-798213963d34` | `TruthCore.Case.Catholicism.CauseOfBeingCausesEveryPerfection` | Original head and exact predicate parameters retained; no sense passage added. |
+| `d7741cdc-881b-5bda-85ce-d70223162f78` | `TruthCore.Latin.Aquinas.SummaTheologiae.MatterFormAndEsseEssenceAreCompositionsReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `75a37a91-732d-510c-9abc-b37c988c5c63` | `TruthCore.Latin.Aquinas.SummaTheologiae.SubsistentBeingIsInfiniteReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `0659227c-0979-579c-910b-03a1967f49c5` | `TruthCore.Latin.Aquinas.SummaTheologiae.ImmutableIsEternalReading` | PureAct of the same supplied InPotency; no capacity substitution. |
+| `180f5ad2-a421-541a-85c9-9bca578b4a43` | `TruthCore.Latin.Aquinas.SummaTheologiae.ImmaterialIsIntellectualReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `090be689-b77f-51a1-9d5d-caf339169e4b` | `TruthCore.Latin.Aquinas.SummaTheologiae.WillFollowsIntellectReading` | Original head and exact predicate parameters retained; no sense passage added. |
+| `eaa4c679-98a3-5e82-95ff-18bd1177ce74` | `TruthCore.Case.Catholicism.MaximumInBeingIsFirstBeing` | Same weak IsMaximumIn at esse; firstness stays an explicit input. |
+| `3b2d2d46-baa6-4772-a2db-bb3daeb092fc` | `TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.IndependentPriority` | Free InPotency; no CanBe or adopted equation. |
+| `c6d6379b-6a9b-55b5-a701-3df289dfcca4` | `TruthCore.Latin.Aquinas.SummaTheologiae.NotActAndPotencyInSameRespectReading` | Independent relation constrained by explicit non-overlap; metadata repaired. |
+| `09c6d5f0-d412-5038-85f9-75fffb935727` | `TruthCore.Latin.Aquinas.SummaTheologiae.NoComponentIsFirstBeingReading` | Original head and exact predicate parameters retained; no sense passage added. |
+
+The registered control result is `893f4e2d-32b0-4e03-ad21-09640f0ac357`:
+`RegisteredControls` explicitly uses the two wrapper heads in its background.
+The old control proof inhabits it by definitional reduction. This witnesses
+sufficiency omission and inhabited background only. Logical strictness or
+necessity of the local fragment remains unproved; no such claim is required
+for the sufficient consequence. Original model-registry/floor approval remains
+outside this result. The computed root delta adds one support option and two
+open analyst input records; it discharges no truth obligation.

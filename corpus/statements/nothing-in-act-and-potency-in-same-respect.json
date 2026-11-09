@@ -7,11 +7,11 @@
   "definition_ids": [
     "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
     "3ea2762f-1a85-5059-b4e7-d29f192b16b6",
-    "9f874532-f37e-590b-bec9-a9affb2762ac",
     "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],
   "disambiguation_ids": [
     "dba7b1de-f3a0-57af-9af9-b2a4da3136fa",
     "508617ab-cf24-5f3b-a387-64b3991359ec"
-  ]
+  ],
+  "note": "Selected Stage 2 sense audit (#1278): NotActAndPotencyInSameRespectReading independently constrains the supplied InPotency parameter. No capacity-without-act definition occurs in its body. Keeping both generic and adopted potency links misleadingly identifies a hypothesis with a definitional non-overlap theorem. The generic statement and all existing source interpretations remain unchanged; adopted specializations still require their explicit substitution."
 }

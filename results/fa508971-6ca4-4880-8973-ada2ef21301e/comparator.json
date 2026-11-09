@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Challenge",
+  "solution_module": "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesLocalLogic.Registration.godHasClassicalAttributes"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

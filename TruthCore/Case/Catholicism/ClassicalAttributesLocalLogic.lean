@@ -2,6 +2,24 @@ module
 public import TruthCore.Results.Case.Catholicism.StageTwo.ClassicalAttributesAll.Solution
 @[expose] public section
 namespace TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic
+/-- The original universal weak-maximality causal premise. The quantified
+respect stays arbitrary; Stage 2 consumes its esse instance. This wrapper
+keeps the IsMaximumIn body explicit without importing a different superlative. -/
+def MaximumCausesAll {Being Respect : Type}
+    (InAct : Being → Respect → Prop) (MoreIn : Respect → Being → Being → Prop)
+    (CausesIn : Being → Being → Respect → Prop) : Prop :=
+  TruthCore.Latin.Aquinas.SummaTheologiae.MaximumInGenusCausesAllInGenusReading
+    InAct MoreIn CausesIn
+
+/-- Generic act priority for a freely supplied potency relation. Unlike the
+adopted-capacity interpretation this body imposes no capacity-without-act
+identity. This transparent wrapper records the selected parameter scope. -/
+def IndependentPriority {Being Respect : Type}
+    (InAct InPotency : Being → Respect → Prop)
+    (PriorSimply : Being → Being → Prop) : Prop :=
+  TruthCore.Latin.Aquinas.SummaTheologiae.ActSimplyPriorToPotencyReading
+    InAct InPotency PriorSimply
+
 /-- Only actual-perfection bearers are compared with a God candidate.
 The second conjunct is stability of that candidate's represented esse/essence
 identity, not a global decision procedure or an attribute assumption. -/
@@ -84,6 +102,51 @@ def ModelBackground (attributes : Prop) : Prop :=
 
 /-- The primitive attributes field is independent of the retained background without sufficiency. -/
 def Controls : Prop := ModelBackground True ∧ ModelBackground False ∧
+  (signature True).IsGod () ∧ (signature True).HasClassicalAttributes () ∧
+  (signature False).IsGod () ∧ ¬ (signature False).HasClassicalAttributes ()
+
+/-- Exact same finite controls for the explicit analyst wrapper configuration. -/
+def RegisteredModelBackground (attributes : Prop) : Prop :=
+  let σ := signature attributes
+  let InPotency : Unit → Unit → Prop := fun _ _ => False
+  let InAct : Unit → Unit → Prop := fun _ _ => True
+  let GoodIn := InAct
+  let MoreIn : Unit → Unit → Unit → Prop := fun _ _ _ => False
+  let CausesIn : Unit → Unit → Unit → Prop := fun _ _ _ => False
+  let esse := ()
+  let ComponentOf : Unit → Unit → Prop := fun _ _ => False
+  let PriorSimply := ComponentOf
+  let Composite : Unit → Prop := fun _ => False
+  let ComposedOfMatterAndForm := Composite
+  let Infinite : Unit → Prop := fun _ => True
+  let Eternal := Infinite
+  let HasIntellect := Infinite
+  let HasWill := Infinite
+  let essenceOf : Unit → Unit := fun _ => ()
+  let esseOf := essenceOf
+  GodIsMaximalInBeing σ.IsGod InAct MoreIn esse ∧
+  MaximumCausesAll InAct MoreIn CausesIn ∧
+  CauseOfQualityInAnotherIsMoreSuchReading CausesIn MoreIn ∧
+  TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic.LocalLogic σ.IsGod InAct esseOf essenceOf ∧
+  CompositeHasAUnitingCauseReading Composite CausesIn esse ∧
+  ActualityOnlyInsofarAsBeingReading InAct esse ∧
+  PerfectionsOfEffectPreexistInCauseReading InAct CausesIn esse ∧
+  GoodnessIsActualityReading GoodIn InAct ∧
+  CauseOfBeingCausesEveryPerfection InAct CausesIn esse ∧
+  MaximumInBeingIsFirstBeing InAct MoreIn esse PriorSimply ∧
+  IndependentPriority InAct InPotency PriorSimply ∧
+  NotActAndPotencyInSameRespectReading InAct InPotency ∧
+  MatterFormAndEsseEssenceAreCompositionsReading ComposedOfMatterAndForm Composite
+      essenceOf esseOf ∧
+  SubsistentBeingIsInfiniteReading essenceOf esseOf Infinite ∧
+  ImmutableIsEternalReading InPotency Eternal ∧
+  NoComponentIsFirstBeingReading ComponentOf PriorSimply ∧
+  ImmaterialIsIntellectualReading ComposedOfMatterAndForm HasIntellect
+      ComponentOf ∧
+  WillFollowsIntellectReading HasIntellect HasWill
+
+/-- The primitive attributes field is independent of the retained background without sufficiency. -/
+def RegisteredControls : Prop := RegisteredModelBackground True ∧ RegisteredModelBackground False ∧
   (signature True).IsGod () ∧ (signature True).HasClassicalAttributes () ∧
   (signature False).IsGod () ∧ ¬ (signature False).HasClassicalAttributes ()
 
