@@ -1,0 +1,9 @@
+{
+  "id": "e7dc62a6-7b2f-4467-87b3-ec287bd67047",
+  "label": "A3 analyst bearer-interval occurrence identity",
+  "term": "A3 analyst bearer-interval occurrence identity",
+  "definition": "An occurrence consists of a bearer, an ordered interval and a changed ordered pair of essential state contents. Equality requires all data fields to agree. Distinct bearers or intervals can instantiate the same pair. This is an analyst option, not the original sense.",
+  "basis": "stipulative",
+  "note": "Owner-approved alternative investigation, attribution deferred. OPEN: mapping state contents, bearer, interval and accessibility to the source event and concrete first-transition scenario. Bearer is not automatically an explanatory condition or causal agent. Time ordering is supplied, with no assumed transitivity or well-foundedness. Repeated heating of the same material illustrates equal state contents with different intervals; identifying those repetitions is the pair alternative, distinguishing them is the occurrence alternative. Neither profile proves the prior-condition/concrete-presence bridge. No original declaration allowance is removed.",
+  "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.OccurrenceEvent"
+}
