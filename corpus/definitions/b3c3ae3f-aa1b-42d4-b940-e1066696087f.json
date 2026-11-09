@@ -1,0 +1,9 @@
+{
+  "id": "b3c3ae3f-aa1b-42d4-b940-e1066696087f",
+  "label": "Internal sufficiency on a supplied move scope",
+  "term": "Internal sufficiency on a supplied move scope",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.InternalSufficiency",
+  "definition": "For every move in the supplied scope, endorsement by the practice own standards implies correctness. No converse, exclusive jurisdiction or sharedness condition is included.",
+  "note": "Analyst formulation; attribution deferred. Original natural-reason sense 2 remains unbound. Scope is an explicit parameter: natural-knowability moves and all moves are distinct choices; neither is selected as the historical or actual interpretation. OwnStandard and Correct retain their existing meanings. Authority instances and any link to shared reasoning remain OPEN. A council or a scientist can be proposed as a standard; membership and jurisdiction require explicit assignments. Merely agreeing with a council or a scientist is not having authority. No structural law on jurisdiction is assumed."
+}

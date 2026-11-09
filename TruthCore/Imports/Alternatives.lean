@@ -14,6 +14,7 @@ public import TruthCore.Alternatives.McTaggart
 public import TruthCore.Alternatives.MegarianMovedPotencyBoundary
 public import TruthCore.Alternatives.MindPhysicalism
 public import TruthCore.Alternatives.NameApplicationTransfer
+public import TruthCore.Alternatives.NaturalReasonAuthority
 public import TruthCore.Alternatives.NaturalReasonHorizon
 public import TruthCore.Alternatives.NightActualizationFork
 public import TruthCore.Alternatives.NightCosmogony

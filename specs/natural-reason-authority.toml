@@ -1,0 +1,60 @@
+[batch]
+vocab = "TruthCore.Alternatives.NaturalReasonAuthority"
+results = "TruthCore.Results.Alternatives.NaturalReasonAuthority"
+
+[[statement]]
+id = "Scoped internal sufficiency"
+lean = "InternalSufficiency"
+paraphrase = "Analyst sense 3: on the explicitly supplied move scope, own-standard endorsement implies correctness. No converse, exclusive authority or sharedness restriction."
+definitions = ["b3c3ae3f-aa1b-42d4-b940-e1066696087f", "DEF-PRACTICE-OWN-STANDARD", "DEF-CORRECT-MOVE-IN-PRACTICE"]
+disambiguations = ["DISAMB-NATURAL-REASON"]
+
+[[statement]]
+id = "Scoped internal determination"
+lean = "InternalDetermination"
+paraphrase = "Analyst sense 4: on the explicitly supplied move scope, own-standard endorsement is equivalent to correctness. This stronger version adds the converse; it is not exclusive authority."
+definitions = ["487ff012-7deb-476b-983c-e6233f98d1fa", "DEF-PRACTICE-OWN-STANDARD", "DEF-CORRECT-MOVE-IN-PRACTICE"]
+disambiguations = ["DISAMB-NATURAL-REASON"]
+
+[[statement]]
+id = "Natural reason sufficiency authority controls"
+lean = "ForkControls"
+paraphrase = "Formal inhabited controls distinguish sharedness from external jurisdiction with internal determination retained, one-way sufficiency from its converse, natural from all-move sufficiency scope, and authority exclusion from sufficiency. Restricting scope preserves sufficiency, determination and external exclusion. No original-sense mapping or actual practice is established."
+definitions = ["b3c3ae3f-aa1b-42d4-b940-e1066696087f", "487ff012-7deb-476b-983c-e6233f98d1fa", "470908e9-f95f-4a24-aaed-4e64bb1ad839", "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07", "DEF-NATURAL-REASON-SHARED"]
+disambiguations = ["DISAMB-NATURAL-REASON"]
+
+[[argument]]
+id = "Scoped determination implies sufficiency"
+theorem = "determinationSuffices"
+strong_version_needed = {"Scoped internal determination" = "The stronger version is the object of this strength comparison, not a premise asserted about any actual practice; only its forward direction is consumed."}
+premises = ["Scoped internal determination"]
+conclusion = "Scoped internal sufficiency"
+rule = "implication-elimination"
+meaning = "On the identical supplied move scope, the forward direction of internal determination yields one-way sufficiency. No jurisdiction inference or original-sense identification."
+sense_bridges = [{term = "NATURAL_LIGHT_OF_HUMAN_REASON", from = "NATURAL_LIGHT_OF_HUMAN_REASON_4", to = "NATURAL_LIGHT_OF_HUMAN_REASON_3", statement_id = "Scoped internal sufficiency", role = "conclusion"}]
+
+[[argument]]
+id = "Natural reason authority independence controls"
+theorem = "forkControls"
+premises = []
+conclusion = "Natural reason sufficiency authority controls"
+rule = "construction"
+meaning = "Explicit finite dictionaries witness agreement/jurisdiction independence, strict strength and scope distinctions, and failed sufficiency despite external exclusion; scope restriction is constructive. None is an actual religious interpretation."
+sense_mixing_control = true
+
+[[relation]]
+id = "Internal determination strengthens sufficiency"
+subject_kind = "statement"
+subject_id = "Scoped internal determination"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Scoped internal sufficiency"
+verification_result_id = "Scoped determination implies sufficiency"
+note = "Same explicit scope; one forward implication only. The controls witness converse failure."
+
+[[statement]]
+id = "Scoped external authority exclusion"
+lean = "ExternalAuthorityExcluded"
+paraphrase = "Analyst sense 5: no external standard has jurisdiction to judge correctness of moves in the supplied scope. This supplies neither internal endorsement nor correctness and does not deny shared agreement."
+definitions = ["470908e9-f95f-4a24-aaed-4e64bb1ad839", "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07"]
+disambiguations = ["DISAMB-NATURAL-REASON"]

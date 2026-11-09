@@ -1,0 +1,9 @@
+{
+  "id": "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07",
+  "label": "External authority excluded on a supplied move scope",
+  "term": "External authority excluded on a supplied move scope",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.ExternalAuthorityExcluded",
+  "definition": "For each scoped move, every standard not Internal lacks HasAuthority over that move. This is negative jurisdiction only; it does not supply internal endorsement, sufficiency, correctness or absence of shared agreement.",
+  "note": "Analyst formulation; attribution deferred. Original natural-reason sense 2 remains unbound. Scope is an explicit parameter: natural-knowability moves and all moves are distinct choices; neither is selected as the historical or actual interpretation. OwnStandard and Correct retain their existing meanings. Authority instances and any link to shared reasoning remain OPEN. A council or a scientist can be proposed as a standard; membership and jurisdiction require explicit assignments. Merely agreeing with a council or a scientist is not having authority. No structural law on jurisdiction is assumed."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "470908e9-f95f-4a24-aaed-4e64bb1ad839",
+  "label": "Standards and jurisdiction profile",
+  "term": "Standards and jurisdiction profile",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.AuthorityProfile",
+  "definition": "A supplied type of standards, a primitive Internal predicate identifying standards belonging to the practice, and a primitive HasAuthority relation giving a standard jurisdiction to judge the correctness of a move. Jurisdiction is not endorsement, agreement or actual correctness.",
+  "note": "Analyst formulation; attribution deferred. Original natural-reason sense 2 remains unbound. Scope is an explicit parameter: natural-knowability moves and all moves are distinct choices; neither is selected as the historical or actual interpretation. OwnStandard and Correct retain their existing meanings. Authority instances and any link to shared reasoning remain OPEN. A council or a scientist can be proposed as a standard; membership and jurisdiction require explicit assignments. Merely agreeing with a council or a scientist is not having authority. No structural law on jurisdiction is assumed."
+}

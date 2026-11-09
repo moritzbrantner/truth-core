@@ -5,9 +5,12 @@
   "term": "natural light of human reason",
   "sense_definition_ids": [
     "11d72af9-f562-5ef0-934e-556e0a6dcb83",
-    "aa836cb9-1853-5973-8907-89d232f0c8ce"
+    "aa836cb9-1853-5973-8907-89d232f0c8ce",
+    "b3c3ae3f-aa1b-42d4-b940-e1066696087f",
+    "487ff012-7deb-476b-983c-e6233f98d1fa",
+    "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07"
   ],
-  "resolution": "In STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD and STMT-DEI-FILIUS-CH2-CHURCH-TEACHES-NATURAL-KNOWABILITY the council's phrase is quoted, not yet read. STMT-NATURAL-REASON-IS-SHARED-REASON takes the shared sense (DEF-NATURAL-REASON-SHARED), supported by ch. 2's contrast with revelation by a supernatural way; STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON uses the same shared sense, so the defeat WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE does not pass between senses. Under the practice-internal sense (DEF-NATURAL-REASON-PRACTICE-INTERNAL) the reading bridge fails and the fideist bundle survives (needsNaturalReasonIsShared); the defeat is therefore exactly as strong as the shared reading of the council text. Analyst siblings now separate a descriptive theistic audience/internal endorsement from actual all-nonshared standards. Internal endorsement and outsider-shared standards can coexist; being outside Christianity does not mean being outside every theological horizon. The existing shared bridge, all-nonshared profile and mixed actual witnesses form a checked structural EM fork; named uniform coverage remains open. The exact shared-bridge negation is now the alternative endpoint, derived from all-nonshared plus an actual move or from mixed witnesses. The original mixed prose horizon reconstruction and source claims are preserved, not silently identified with the modest audience sibling.",
+  "resolution": "In STMT-DEI-FILIUS-DEFINES-NATURAL-KNOWABILITY-OF-GOD and STMT-DEI-FILIUS-CH2-CHURCH-TEACHES-NATURAL-KNOWABILITY the council's phrase is quoted, not yet read. STMT-NATURAL-REASON-IS-SHARED-REASON takes the shared sense (DEF-NATURAL-REASON-SHARED), supported by ch. 2's contrast with revelation by a supernatural way; STMT-WF-RELIGION-CUT-OFF-FROM-SHARED-REASON uses the same shared sense, so the defeat WF-FAILS-AS-DESCRIPTION-OF-CATHOLIC-PRACTICE does not pass between senses. The needsNaturalReasonIsShared omission control keeps the fideist bundle while the shared bridge fails; it does not identify the full practice-internal sense (DEF-NATURAL-REASON-PRACTICE-INTERNAL) with bridge failure. The defeat remains conditional on the shared reading of the council text. Analyst siblings now separate a descriptive theistic audience/internal endorsement from actual all-nonshared standards. Internal endorsement and outsider-shared standards can coexist; being outside Christianity does not mean being outside every theological horizon. The existing shared bridge, all-nonshared profile and mixed actual witnesses form a checked structural EM fork; named uniform coverage remains open. The exact shared-bridge negation is now the alternative endpoint, derived from all-nonshared plus an actual move or from mixed witnesses. The original mixed prose horizon reconstruction and source claims are preserved, not silently identified with the modest audience sibling. Owner fork (2026-11-09): preserve the internal-sufficiency reading and the exclusion-of-external-authority reading separately, without asserting either or conjoining them. Appended sense 3 is scoped one-way sufficiency; sense 4 is its explicitly stronger biconditional version; sense 5 excludes external jurisdiction on a supplied scope. Shared agreement and internal endorsement determine neither jurisdiction nor its exclusion. The original sense 2 remains an ambiguous scope/interpretation family, with no declaration or allowance removal: neither a mapping from the old reconstruction nor exhaustive coverage/exclusive reading selection has been justified. New typed controls distinguish agreement, authority, one-way strength and natural versus all-move scope. They do not reinterpret the source claims or the full theological-horizon reconstruction.",
   "term_label": "NATURAL_LIGHT_OF_HUMAN_REASON",
   "senses": [
     {
@@ -20,6 +23,24 @@
       "id": "439a2e92-f3f6-4a58-bba6-28de095ee818",
       "label": "NATURAL_LIGHT_OF_HUMAN_REASON_2",
       "definition_id": "aa836cb9-1853-5973-8907-89d232f0c8ce"
+    },
+    {
+      "id": "9ea43b47-976a-4e5b-92a3-ea972bc52383",
+      "label": "NATURAL_LIGHT_OF_HUMAN_REASON_3",
+      "definition_id": "b3c3ae3f-aa1b-42d4-b940-e1066696087f",
+      "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.InternalSufficiency"
+    },
+    {
+      "id": "c4b90c2e-9da3-4e4f-b941-d86937cba5d6",
+      "label": "NATURAL_LIGHT_OF_HUMAN_REASON_4",
+      "definition_id": "487ff012-7deb-476b-983c-e6233f98d1fa",
+      "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.InternalDetermination"
+    },
+    {
+      "id": "896b78ee-3aab-49c8-9c34-b6e71e590c02",
+      "label": "NATURAL_LIGHT_OF_HUMAN_REASON_5",
+      "definition_id": "2b5ee1c4-1f4e-426e-bd1e-ece85fbbca07",
+      "lean_declaration": "TruthCore.Alternatives.NaturalReasonAuthority.ExternalAuthorityExcluded"
     }
   ]
 }
