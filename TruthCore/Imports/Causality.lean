@@ -80,6 +80,7 @@ public import TruthCore.Causality.JointGroups
 public import TruthCore.Causality.LifeBoundaryPotency
 public import TruthCore.Causality.LocalFramePossibleExternalCause
 public import TruthCore.Causality.LocalTransmission
+public import TruthCore.Causality.LogicalNecessityContrast
 public import TruthCore.Causality.MathlibBridges
 public import TruthCore.Causality.MaximalGroundingAsymmetry
 public import TruthCore.Causality.MaximumDefinitionFork
