@@ -72551,15 +72551,6 @@
   },
   {
     "kind": "statement",
-    "id": "b35ce743-6870-5884-926f-60744d1a318b",
-    "legacy_id": "STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF",
-    "label": "In every composite there is something that is not itself: every composite has a component other…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "e52c19d5-932c-5101-acce-6f480c728d8e",
     "legacy_id": "STMT-FINITE-ACTUAL-ALL-SOURCE-PATHS",
     "label": "In every world with a finite actual carrier, each actual individual has its own finite upstream…",
@@ -73598,15 +73589,6 @@
   },
   {
     "kind": "statement",
-    "id": "6931fa67-bd22-591a-8abb-7273aba9cb90",
-    "legacy_id": "STMT-PILOT-JESUS-CLAIMS",
-    "label": "Jesus claimed divine authority in the existing case signature; the Gospel report supports an open…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "93d0ec4e-e927-5df8-b331-93729a0b9957",
     "legacy_id": "STMT-JUDGING-POWER-NOT-GIVEN-BY-JESUS",
     "label": "Jesus did not himself give or promise, to his disciples or to their community, the power reported…",
@@ -73620,15 +73602,6 @@
     "id": "568fdb96-eb4f-536c-873e-e294bb2e5931",
     "legacy_id": "STMT-GOVERNING-GRANT-EXISTS",
     "label": "Jesus gave or promised some power in the existing fixed governing table, in the existing…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "f93a88f9-d8f9-5b2a-99ae-b0dea250403f",
-    "legacy_id": "STMT-PILOT-ROSE",
-    "label": "Jesus rose from the dead, using the existing skeleton’s historical predicate; no identification…",
     "flags": [
       "truncated"
     ]
@@ -75209,15 +75182,6 @@
   },
   {
     "kind": "statement",
-    "id": "0f49d71e-09e6-5a9c-b7e7-e0e9b8fe769c",
-    "legacy_id": "STMT-DISTINCT-BEINGS-NOT-MUTUALLY-DEPENDENT",
-    "label": "No two distinct things depend for their being on each other; if x is distinct from y and x depends…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "0566122f-9b0c-5325-9d4c-335bcd7124e0",
     "legacy_id": "STMT-NO-MUTUAL-EFFICIENT-CAUSATION",
     "label": "No two things efficiently cause each other, in any respects: if c efficiently causes x in some…",
@@ -75230,15 +75194,6 @@
     "id": "0166c188-85b1-53c0-b844-d9a3ec6cf1fa",
     "legacy_id": "STMT-ACCESSIBILITY-NO-DEAD-END",
     "label": "No world of the Kripke frame is a dead end: for each world w it is not the case that w accesses no…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "c425f0c5-6c3f-5115-ba04-3e61bd049e3b",
-    "legacy_id": "STMT-CASE-NON-CONTRADICTION",
-    "label": "Non-contradiction for the case predicates: for every predicate of beings in respects, nothing both…",
     "flags": [
       "truncated"
     ]
@@ -75453,24 +75408,6 @@
   },
   {
     "kind": "statement",
-    "id": "5bedb69b-8fbb-53b5-be2f-377d1331cf37",
-    "legacy_id": "STMT-OPERATION-FROM-SELF-OR-AS-MOVED",
-    "label": "OPEN analyst dichotomy, read from ST I q.18 a.3 co.: whatever has an operation either operates…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "12bdfec3-81f6-59e6-91df-88b323ff860e",
-    "legacy_id": "STMT-EVERY-OPERATION-HAS-AN-END",
-    "label": "OPEN analyst finality principle, read for operations through forms: every such operation is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "a961a13e-6caf-5864-ba84-10773f0c8b2e",
     "legacy_id": "STMT-LIMITED-HAVING-IS-WITHIN-CAPACITY",
     "label": "OPEN analyst premise: for every y, perfection r and z, if y has r limited by z, then the degree in…",
@@ -75508,28 +75445,9 @@
   },
   {
     "kind": "statement",
-    "id": "f586a11b-dbda-53d1-9c21-8d75da74056f",
-    "legacy_id": "STMT-INTELLECTUAL-APPETITE-IS-WILL",
-    "label": "OPEN analyst reading of ST I q.80 a.2 and q.82 under HAS_WILL_3: whatever has an appetitive…",
-    "flags": [
-      "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "ed993287-249f-5bd1-ad0d-430acdf698f2",
     "legacy_id": "STMT-CHANGE-REQUIRES-POTENCY-IN-SUBJECT",
     "label": "OPEN analyst reading of ST I q.9 a.1 for POTENCY_1 in the subject: whatever changes in a respect…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b67c6bb9-3a56-5400-89f7-c6eb6f0eb2a1",
-    "legacy_id": "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
-    "label": "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct…",
     "flags": [
       "truncated"
     ]
@@ -77384,15 +77302,6 @@
   },
   {
     "kind": "statement",
-    "id": "8697bb2d-f29d-5945-88ea-bb62d6a3e4e2",
-    "legacy_id": "STMT-COGITO-PERFORMED-DOUBT-OF-THOUGHT-SELF-REFUTING",
-    "label": "Retorsion: whoever actually performs a doubt or denial that any thought occurs makes the doubted…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "9e43b06d-62f3-5f2a-9599-c19df184bd5c",
     "legacy_id": "STMT-AUTONOMOUS-FULL-EXISTENCE-GROUND",
     "label": "Reuse Groups as a token record, with h.members g = contributors g ∪ enablers g as the COMPLETE…",
@@ -78215,15 +78124,6 @@
   },
   {
     "kind": "statement",
-    "id": "72361c88-db53-5064-8845-37ff5abbca82",
-    "legacy_id": "STMT-GREATEST-BEING-DEGREE-ATTAINED",
-    "label": "Some bearer of the supplied being respect attains a greatest represented degree among bearers of…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "42008b33-62b5-564b-875b-ff91957ddd46",
     "legacy_id": "STMT-TEMPORALLY-FIRST-BEING-IN-POTENCY",
     "label": "Some being before which nothing is in time is in POTENCY_1 in some respect, as in the Night or…",
@@ -78317,15 +78217,6 @@
     "id": "d9fca992-fbe9-5ce7-9404-18e7608987aa",
     "legacy_id": "STMT-ATTRIBUTED-DENIAL-OF-CHANCE",
     "label": "Some deny that anything happens by chance because every alleged case has a definite cause and…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "95c5138f-e3cc-552d-9846-ab8dc84502f4",
-    "legacy_id": "STMT-COGITO-DOUBT-IS-PERFORMED",
-    "label": "Some doubt whether any thought episode occurs is actually performed: ∃ a, Performed a ∧…",
     "flags": [
       "truncated"
     ]
@@ -78561,15 +78452,6 @@
     "id": "8dcc3c1c-2a84-55d4-92b2-e47e8f789e9b",
     "legacy_id": "STMT-COMMON-UNDERIVED-ACTUAL-SOURCE",
     "label": "Some single individual is both the named actual necessarily underived R-witness and the unique…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b21a4851-8bfc-50df-9413-2223d212ca0b",
-    "legacy_id": "STMT-SOME-SPIRITUAL-COMMUNITY-NOT-VISIBLE",
-    "label": "Some society in the profile scope satisfies the spiritual-community predicate and is not visible…",
     "flags": [
       "truncated"
     ]
@@ -79497,15 +79379,6 @@
   },
   {
     "kind": "statement",
-    "id": "8d90c06f-1a21-5765-a7d4-5c1d927694e9",
-    "legacy_id": "STMT-ASSENTING-BEARER-OPINES-CONTENT",
-    "label": "The bearer of an assenting episode opines that episode's content: ∀ b e, Bears b e → Assenting e →…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "72d1e45e-47bf-52eb-a902-5d3f24f96614",
     "legacy_id": "STMT-EMPIRICAL-PROOF-CONTROLS",
     "label": "The beginning-question Boolean content calibrates to existing earliest-time PastIsFinite in two…",
@@ -79645,24 +79518,6 @@
     "id": "1cf63d19-c42c-5ef6-bb2d-c2418568d2f6",
     "legacy_id": "STMT-NO-ROBUST-TRUTH-APTNESS-BEYOND-MINIMAL",
     "label": "The collapse premise: there is no truth-aptness more robust than the minimal, so whatever is…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "3b01545c-78ae-5b26-b55b-d346b9c3c720",
-    "legacy_id": "STMT-MT28-AND-JN21-REST-ON-TESTIMONY",
-    "label": "The commission reports of Matthew 28.18-20 and John 21.15-17 rest on the testimony of disciples…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "e2dfc958-eccf-549a-897e-fbb85b5b1b67",
-    "legacy_id": "STMT-JOHN-COMMISSION-INDEPENDENT-OF-MATTHEW",
-    "label": "The commission saying of John 20.21-23 is literarily independent of that of Matthew 18.17-18, or…",
     "flags": [
       "truncated"
     ]
@@ -80570,36 +80425,9 @@
   },
   {
     "kind": "statement",
-    "id": "2f888484-d6a6-59ce-9d39-0ede9cd9228f",
-    "legacy_id": "STMT-REPORTED-MARK-SON-OF-MAN-PREDICTION",
-    "label": "The narrative attributes to Jesus a prediction that the addressed hearers will see the Son of Man…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "759acbc1-17ea-50b4-905c-3aacea988e7e",
-    "legacy_id": "STMT-REPORTED-MARK-AFFIRMATIVE-ANSWER",
-    "label": "The narrative attributes to Jesus an affirmative self-ascription of Messiah and Son of the Blessed…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "868ee1a8-5a52-5a95-8edb-010806c80339",
     "legacy_id": "STMT-REPORTED-JOHN-SENDING-ASSERTION",
     "label": "The narrative attributes to Jesus the assertion that God sent him rather than that he came from…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0b7130f1-144a-5129-b99a-647303a06d7f",
-    "legacy_id": "STMT-REPORTED-FORGIVENESS-AUTHORITY",
-    "label": "The narrative attributes to Jesus the assertion that the Son of Man has authority to forgive sins…",
     "flags": [
       "truncated"
     ]
@@ -81728,15 +81556,6 @@
   },
   {
     "kind": "statement",
-    "id": "5baad26f-0b3b-5a00-ab0d-a4bb89fed1fa",
-    "legacy_id": "STMT-MATTHEW28-COMMISSION-GOES-BACK-TO-JESUS",
-    "label": "The substance of the Matthew 28 commission goes back to Jesus in the existing gave-or-promised…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "702e4171-b48d-5c5e-a016-6bfd5cc67225",
     "legacy_id": "STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON",
     "label": "The sufficient reason for contingent things must lie outside their series however infinite, in a…",
@@ -81776,24 +81595,6 @@
     "id": "8addbebd-9f1c-5726-ac12-02c4272f8b01",
     "legacy_id": "STMT-MEANING-CHURCH-OBSERVATION-SETTING",
     "label": "The supplied empiricist frame contains the three observation statements and exactly the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "4c22019a-12c3-5cf6-adff-7288a3741e1a",
-    "legacy_id": "STMT-GOODNESS-FEATURE-ACCOUNT-FAILS",
-    "label": "The supplied named feature-based definition does not correctly describe goodness in the fixed…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "50d8be94-f9c1-52af-bf43-fb2751915756",
-    "legacy_id": "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS",
-    "label": "The supplied named fixed-assessor approval definition does not correctly describe goodness in the…",
     "flags": [
       "truncated"
     ]
@@ -82522,15 +82323,6 @@
   },
   {
     "kind": "statement",
-    "id": "7dfa068a-9974-5fcd-ba23-fac4dee2fc70",
-    "legacy_id": "STMT-NO-INFINITE-ASCENT-IN-BEING",
-    "label": "There is no infinite ascent in being, that is, no sequence of beings each more a being than the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "784a5e0b-5b35-5aa1-b95b-2974beb98e9b",
     "legacy_id": "STMT-NO-INFINITE-LOCAL-MOVED-MOVER-CHAIN",
     "label": "There is no infinite chain in which each member is moved in local MOTION_2 by the next, a primary…",
@@ -83060,15 +82852,6 @@
     "id": "6efb4963-5a5a-5481-81f7-c28e2cd4e115",
     "legacy_id": "STMT-TEMPORAL-EVENT-CAUSAL-CONTROLS",
     "label": "Two closed mathematical controls: the usual real interval has a first instant 0; every event label…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "034eb68f-6b29-5854-9f66-e4e760b9cfa8",
-    "legacy_id": "STMT-PLURAL-FIRST-MOVERS-WOULD-DIFFER-IN-ACT",
-    "label": "Two distinct first movers moved by none would differ in some act: one would be in act in a respect…",
     "flags": [
       "truncated"
     ]
@@ -84114,15 +83897,6 @@
   },
   {
     "kind": "statement",
-    "id": "888895ec-e4f4-5fb1-87d1-14b1b2a2906c",
-    "legacy_id": "STMT-MARK-TRIAL-SAYINGS-GO-BACK-TO-JESUS",
-    "label": "Whatever Mark's narrative of the hearing before the high priest attributes to Jesus, Jesus himself…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "c1deb2ee-770d-5030-9e5c-302e33028811",
     "legacy_id": "STMT-GOD-CONFIRMS-ONLY-TRUTH",
     "label": "Whatever a GOD_4 with the classical attributes confirms by a sign is true: for every such GOD_4 and…",
@@ -84146,15 +83920,6 @@
     "id": "f8550e3a-2f35-5c38-9877-975a66b2e5ec",
     "legacy_id": "STMT-IN-GENUS-ONLY-UNDER-A-GENUS",
     "label": "Whatever a thing is in properly, as a species is contained under its GENUS_1, is a GENUS_1 in the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "0ce7b6c5-6e52-56ea-9377-8328b67765e7",
-    "legacy_id": "STMT-THINKER-LIVES",
-    "label": "Whatever bears an occurring thought lives: thinking is an operation that remains in the agent, and…",
     "flags": [
       "truncated"
     ]
@@ -84434,15 +84199,6 @@
   },
   {
     "kind": "statement",
-    "id": "2d1b4c22-faa3-5433-9da4-4dfd880f8207",
-    "legacy_id": "STMT-FORCED-MOTION-BY-ANOTHER",
-    "label": "Whatever is moved in a respect by force and contrary to nature is moved in that respect by another…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "5d9eba3a-5add-52ff-b3b7-cf2c3fd98f2f",
     "legacy_id": "STMT-NATURAL-SELF-MOTION-HAS-A-MOVER",
     "label": "Whatever is moved in a respect by nature and by itself is moved in that respect by something per…",
@@ -84515,29 +84271,11 @@
   },
   {
     "kind": "statement",
-    "id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
-    "legacy_id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
-    "label": "Whatever moves itself in a respect does so by a part, distinct from the whole, that moves the…",
-    "flags": [
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
     "id": "2ed50036-3aa7-5209-9aa0-ced7675701da",
     "legacy_id": "STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT",
     "label": "Whatever moves something in a respect is another thing than what it moves; since every moving is…",
     "flags": [
       "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "febc5ca6-967a-5fcc-9d72-5255d1300b6d",
-    "legacy_id": "STMT-OPERATING-ONLY-OF-BEING-IN-ACT",
-    "label": "Whatever operates, transiently or immanently, is in act in some respect",
-    "flags": [
-      "ids-replaced"
     ]
   },
   {
@@ -84846,15 +84584,6 @@
     "label": "Whoever bears an occurring thought episode opines that episode's content: ∀ b e, Occurs e → Bears…",
     "flags": [
       "ids-replaced",
-      "truncated"
-    ]
-  },
-  {
-    "kind": "statement",
-    "id": "b426b086-1b1c-5137-94e6-a2f17402481f",
-    "legacy_id": "STMT-CONFIRMING-IS-ASSERTING",
-    "label": "Whoever confirms a proposition by a sign asserts it; a confirming sign is testimonial and carries…",
-    "flags": [
       "truncated"
     ]
   },

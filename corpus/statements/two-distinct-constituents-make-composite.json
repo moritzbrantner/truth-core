@@ -1,6 +1,6 @@
 {
   "id": "b67c6bb9-3a56-5400-89f7-c6eb6f0eb2a1",
-  "label": "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct…",
+  "label": "Having two distinct constituent principles suffices for being composite",
   "legacy_id": "STMT-TWO-DISTINCT-CONSTITUENTS-MAKE-COMPOSITE",
   "paraphrase": "OPEN component analysis of composition, sufficiency direction only: whatever has two distinct constituent principles is composite. It does not say that every composite has two constituents.",
   "lean_declaration": "TruthCore.Causality.Round4Revisited.TwoDistinctConstituentsMakeComposite",
