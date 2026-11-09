@@ -65,8 +65,7 @@ Nonlinearity is permitted. Applicability and cause/order alignment are open. -/
 structure OrderedChain (Node : Type) where
   chain : Chain Node
   before : Node → Node → Prop
-  irrefl : ∀ x, ¬ before x x
-  trans : ∀ x y z, before x y → before y z → before x z
+  strictOrder : IsStrictOrder Node before
 
 /-- No minimal selected member in the separate order; not merely no least. -/
 structure OrderedNoFirst {Node : Type} (o : OrderedChain Node) : Prop where
@@ -201,8 +200,7 @@ theorem finite_loop_noFirst : CausalNoFirst loop := by
 def unalignedLoop : OrderedChain Unit where
   chain := loop
   before := fun _ _ => False
-  irrefl := fun _ h => h
-  trans := fun _ _ _ h _ => h
+  strictOrder := { irrefl := fun _ h => h, trans := fun _ _ _ h _ => h }
 
 theorem alignment_omission :
     CausalNoFirst unalignedLoop.chain ∧ ¬ OrderedNoFirst unalignedLoop := by
@@ -215,8 +213,7 @@ Thus 'no least' is too weak to express the selected no-minimum reading. -/
 def incomparable : OrderedChain Bool where
   chain := ⟨fun _ => True, fun _ _ => False, fun _ _ => False⟩
   before := fun _ _ => False
-  irrefl := fun _ h => h
-  trans := fun _ _ _ h _ => h
+  strictOrder := { irrefl := fun _ h => h, trans := fun _ _ _ h _ => h }
 
 theorem no_least_with_minima :
     (∀ x, ¬ incomparable.Least x) ∧ ¬ OrderedNoFirst incomparable := by
