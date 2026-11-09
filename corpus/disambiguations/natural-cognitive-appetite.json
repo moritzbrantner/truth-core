@@ -18,7 +18,8 @@
     {
       "id": "564e875a-6317-4c7d-a5b2-8f84b4e2f35b",
       "label": "APPETITE_AS_NATURAL_INCLINATION_VERSUS_APPETITE_2",
-      "definition_id": "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c"
+      "definition_id": "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c",
+      "lean_declaration": "TruthCore.Causality.AppetitePowerExercise.Capacity.Possessed"
     }
   ]
 }
