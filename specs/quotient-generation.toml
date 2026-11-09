@@ -1,0 +1,123 @@
+[batch]
+vocab = "TruthCore.Ontology.QuotientGeneration"
+results = "TruthCore.Results.Ontology.QuotientGeneration"
+
+[[statement]]
+id = "Fixed faithful quotient kernel equality"
+lean = "KernelLaw"
+paraphrase = "For any fixed faithful quotient presentation g, its generated representative values are equal exactly when the inputs are related by the supplied Setoid. Extensional equality only, with no claim about constitutive essence."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd"]
+
+[[statement]]
+id = "Fixed quotient generated values have representatives"
+lean = "RangeLaw"
+paraphrase = "For any fixed faithful quotient presentation g, CONCRETE_AND_ABSTRACT_9 holds of b exactly when some representative a has g.value a = b. No esse or causal conclusion is included."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"]
+
+[[statement]]
+id = "Every candidate admits a Unit quotient presentation"
+lean = "UnrestrictedGeneration"
+paraphrase = "For every candidate carrier B and b in B, a faithful presentation of a Unit quotient generates b. Thus existentially varying presentations cannot discriminate candidates. No constitutive abstraction, real-world generation or metaphysical possibility is asserted."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"]
+
+[[statement]]
+id = "Selected value is CONCRETE_AND_ABSTRACT_9"
+lean = "QuotientGenerated"
+paraphrase = "The selected candidate b lies in the image of this fixed faithful quotient presentation g. Analyst candidate sense CONCRETE_AND_ABSTRACT_9; attribution deferred."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"]
+
+[[statement]]
+id = "Fixed quotient values have no esse in re"
+lean = "ValuesNoEsse"
+paraphrase = "OPEN analyst bridge: every quotient value of this fixed presentation lacks esse in re under the independently supplied InAct and esse interpretation. This restricted one-directional classification commitment is not inferred from quotient generation or attributed to a source."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d11757db-9ddf-42a0-9e43-54889fcd29a3", "DEF-ABSTRACT-NO-ESSE-IN-RE"]
+
+[[statement]]
+id = "Selected quotient value is CONCRETE_AND_ABSTRACT_3"
+lean = "TruthCore.Ontology.ConcreteAbstract.EsseAbstract"
+paraphrase = "The selected candidate b lacks esse in re: EsseAbstract InAct esse b. In this batch it follows only from fixed-presentation generation and the explicit classification bridge."
+definitions = ["d11757db-9ddf-42a0-9e43-54889fcd29a3", "DEF-ABSTRACT-NO-ESSE-IN-RE"]
+
+[[statement]]
+id = "Fixed quotient values lack selected-world power and productive activity"
+lean = "ValuesInert"
+paraphrase = "Every value of this fixed quotient presentation lacks causal power at the selected world w and has no outgoing productive causal edge there. Incoming causation, other worlds, location, mental dependence and essence are unconstrained."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d4feb449-8b67-4dbc-84c6-bd9e749ea67f", "d11757db-9ddf-42a0-9e43-54889fcd29a3", "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"]
+
+[[statement]]
+id = "Fixed quotient collision and esse-causal omission controls"
+lean = "Control.Certificate"
+paraphrase = "One Bool-pair quotient presentation has distinct representatives with equal output, two distinct output values, and concrete reasoner and abstract anchor points outside its image. The same selected generated value has esse, power and an outgoing productive edge in one assignment, and no esse/power/outgoing edge in another. Separate omissions retain the owner principle without ValuesNoEsse, or ValuesNoEsse without the owner principle, while inertness fails. A joint model satisfies both premises with generated values and fixed separate anchors. The reasoner witnesses failure of selected-point classification when range membership is omitted. Finite interpretations, not real-world or metaphysical possibility claims."
+definitions = ["30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd", "d4feb449-8b67-4dbc-84c6-bd9e749ea67f", "d11757db-9ddf-42a0-9e43-54889fcd29a3", "DEF-ABSTRACT-NO-ESSE-IN-RE", "DEF-CONCRETE-ESSE-IN-RE", "DEF-CAUSAL-POWER-CONCRETENESS-PREMISE"]
+
+[[argument]]
+id = "Fixed faithful quotient kernel equality, checked"
+theorem = "kernel"
+premises = []
+conclusion = "Fixed faithful quotient kernel equality"
+rule = "Injectivity of the quotient embedding and quotient equality"
+meaning = "The supplied faithful embedding has exactly the Setoid kernel. The quotient equality rule is mathematical; no essence reading follows."
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+
+[[argument]]
+id = "Fixed quotient image and representative range agree"
+theorem = "range"
+premises = []
+conclusion = "Fixed quotient generated values have representatives"
+rule = "Quotient induction and range witnesses"
+meaning = "Representatives exist for quotient values and each representative constructs a quotient value. This clarifies the exact extent of the candidate sense."
+senses = {CONCRETE_AND_ABSTRACT = "CONCRETE_AND_ABSTRACT_9"}
+
+[[argument]]
+id = "Unrestricted quotient generation loses the concrete-abstract contrast"
+theorem = "unrestricted"
+premises = []
+conclusion = "Every candidate admits a Unit quotient presentation"
+rule = "Constant embedding of the one-class Unit quotient"
+meaning = "Every chosen bearer admits a presentation. Faithfulness does not remove this saturation because Unit has one class. The fixed-presentation candidate is therefore not replaced by existential presentation choice."
+senses = {CONCRETE_AND_ABSTRACT = "CONCRETE_AND_ABSTRACT_9"}
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+
+[[argument]]
+id = "Quotient value classification requires the explicit no-esse bridge"
+theorem = "classify"
+transcription = "instantiation"
+premises = ["Fixed quotient values have no esse in re", "Selected value is CONCRETE_AND_ABSTRACT_9"]
+conclusion = "Selected quotient value is CONCRETE_AND_ABSTRACT_3"
+rule = "Range witness elimination and same-bearer substitution"
+meaning = "Transcription by instantiation: a quotient range witness selects the same bearer already covered by the assumed ValuesNoEsse bridge. This records its conditional application between numbered senses, not a new classification derivation or an independent defense of that bridge."
+senses = {CONCRETE_AND_ABSTRACT = "CONCRETE_AND_ABSTRACT_9"}
+sense_bridges = [{term = "CONCRETE_AND_ABSTRACT", from = "CONCRETE_AND_ABSTRACT_9", to = "CONCRETE_AND_ABSTRACT_3", statement_id = "Fixed quotient values have no esse in re"}, {term = "CONCRETE_AND_ABSTRACT", from = "CONCRETE_AND_ABSTRACT_9", to = "CONCRETE_AND_ABSTRACT_3", statement_id = "Selected quotient value is CONCRETE_AND_ABSTRACT_3", role = "conclusion"}]
+
+[[argument]]
+id = "Quotient inertness from classification and owner causal commitment"
+theorem = "inert"
+premises = ["Fixed quotient values have no esse in re", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "Fixed quotient values lack selected-world power and productive activity"
+rule = "Same-bearer classification and two independent contradictions"
+meaning = "ValuesNoEsse excludes esse for each value. The existing owner commitment gives esse to a bearer of power or an outgoing cause at the same selected world, so both are excluded. No exercise-to-power step or causal-definition of concreteness is used."
+senses = {CONCRETE_AND_ABSTRACT = "CONCRETE_AND_ABSTRACT_6"}
+sense_bridges = [{term = "CONCRETE_AND_ABSTRACT", from = "CONCRETE_AND_ABSTRACT_9", to = "CONCRETE_AND_ABSTRACT_3", statement_id = "Fixed quotient values have no esse in re"}, {term = "CONCRETE_AND_ABSTRACT", from = "CONCRETE_AND_ABSTRACT_6", to = "CONCRETE_AND_ABSTRACT_9", statement_id = "Fixed quotient values lack selected-world power and productive activity", role = "conclusion"}]
+
+[[argument]]
+id = "Fixed quotient collision and omission comparison, checked"
+theorem = "controls"
+premises = []
+conclusion = "Fixed quotient collision and esse-causal omission controls"
+rule = "Explicit finite interpretations with one fixed quotient presentation"
+meaning = "Same fixed equivalence, generating map, carrier and selected bearer throughout. Nontrivial collisions do not force lack of esse or inertness. The carried classification and owner commitments are independently necessary for the advertised inertness transfer; range membership is necessary for point classification. Positive compatibility is witnessed, without representing constitutive essence."
+senses = {CONCRETE_AND_ABSTRACT = "CONCRETE_AND_ABSTRACT_9"}
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_mixing_control = true
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+rival_statement_id = "Selected value is CONCRETE_AND_ABSTRACT_9"
+sense_definition_id = "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+outcome = "model-witnessed"
+conditions = "Control.Certificate: same presentation and selected value, InAct true, ontic true, power true, selected Unit world. Owner commitment holds, while the selected generated value has esse, power and an outgoing productive edge."
+scope = "Fixed Bool-pair equivalence by first coordinate, fixed quotient embedding into Bool + Bool, fixed left-true selected bearer, fixed right-false concrete reasoner and right-true abstract anchor. Same Ontic for the owner and activity assertions."
+coverage = "Only the extensional quotient-generated analyst candidate CONCRETE_AND_ABSTRACT_9 is tested. This is not coverage of all abstract/concrete senses or of admissible essential abstraction functions."
+exclusivity = "This cell explicitly selects sense 9. It does not assume that extensions of numbered senses are disjoint or establish intended-reading exclusivity."
+witness = "TruthCore.Ontology.QuotientGeneration.Control.presentation, selected, InAct true, ontic true, power true; TruthCore.Results.Ontology.QuotientGeneration.controls. The certificate includes generation, fixed anchors, owner commitment and selected productive power."
+next_step = "Specify a substantive admissibility condition that excludes this concrete presentation while retaining intended abstractions; do not replace it with constitutive essence by assertion."
