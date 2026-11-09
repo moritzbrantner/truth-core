@@ -1,0 +1,15 @@
+{
+  "id": "b37b4b1b-948e-458b-aa6d-97a16f17a64f",
+  "label": "Fixed carrier specializes indexed first-order definability",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "868514fb-f3b4-443d-9084-33dbf58644a6",
+  "inference_ids": [
+    "fa9fa247-678a-4f53-80a4-cc2f73ce0433"
+  ],
+  "meaning": "The original fixed-carrier Definability condition is equivalent to the indexed first-order condition on the constant carrier indexed by exactly the same interpretations.",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

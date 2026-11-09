@@ -5,6 +5,7 @@ public import TruthCore.Logic.ActualPhysicalCompleteness
 public import TruthCore.Logic.AdaptivePrediction
 public import TruthCore.Logic.AtomismIndependence
 public import TruthCore.Logic.CaseNonContradiction
+public import TruthCore.Logic.CertifiedCorrection
 public import TruthCore.Logic.CogitoConcrete
 public import TruthCore.Logic.CogitoEsse
 public import TruthCore.Logic.CogitoSubject

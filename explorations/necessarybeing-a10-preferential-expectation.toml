@@ -1,0 +1,25 @@
+# Bounded conditional analyst profile; NOT a completion of original sense 1.
+target = "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+
+[[node]]
+id = "STMT-NB-A10-CAUSAL-DEFAULT"
+
+[[node]]
+id = "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION"
+
+[[node]]
+id = "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+
+[[edge]]
+premises = ["STMT-NB-A10-CAUSAL-DEFAULT"]
+conclusion = "STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION"
+kind = "bridge"
+status = "open"
+note = "Original source sense remains unbound. Analyst Profile computes observation-compatible minimal interpretations, requires observed positive support, case applicability, no observed defeater and a nonempty best class. Choice/calibration of evidence and preference, and selected-first-contingent reference-class applicability are OPEN. No random sampling or numerical probability is inferred."
+
+[[edge]]
+premises = ["STMT-NB-A10-SELECTED-CASE-DEFAULT-APPLICATION"]
+conclusion = "STMT-SCENARIO-NECESSARY-CONCRETE-AT"
+kind = "bridge"
+status = "open"
+note = "scenarioFromBridge tests a stronger conditional route: profile expectation plus an explicit best-interpretation-to-PossiblyExternallyCausedAt bridge and UniversalFrame imply the exact original Scenario conclusion via possibleExternalCauseYieldsNecessary. The bridge includes accessible beginning, SAME actual concrete source and externality to all contingents, not merely the selected individual's prior partial cause. Source-to-profile adequacy, prior-partial-cause-to-totality transport and objective realization are not proved. Existing ScenarioNecessaryWitness then reaches the bare necessary-bearer root interface. No new certified support option or premise discharge is registered by this partial exploration."

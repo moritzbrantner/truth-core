@@ -1,0 +1,11 @@
+{
+  "id": "858fb017-87d2-4b1e-9bd9-1e85bb3d60b2",
+  "label": "Indiscriminate correspondence fails on the same anchor profile",
+  "argument_id": "32e21bbe-ba14-4cc5-bec7-7317e05e3984",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.correspondenceFailure",
+  "comparator_config": "results/858fb017-87d2-4b1e-9bd9-1e85bb3d60b2/comparator.json",
+  "status": "solution-present",
+  "description": "The same uniformly definable sample target fails correspondence for the universal relation, witnessed by Bool false and true."
+}

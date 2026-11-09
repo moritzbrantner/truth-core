@@ -1,0 +1,11 @@
+{
+  "id": "af4b49d8-7774-457f-9164-e071a4623363",
+  "label": "Reachability specification alone constrains neither composition nor intellect",
+  "paraphrase": "The explicit Nat and Bool reachability specification coexists with separately constantly false composition and intellect assignments at the Nat anchor. This is a candidate-language independence diagnostic only: no mapping to the original ground or Aquinas intellect is supplied.",
+  "lean_declaration": "TruthCore.Alternatives.PhysicalSpecification.rootIndependenceControl",
+  "definition_ids": [
+    "7ec17771-8ac2-476b-b674-40ef61a2debc",
+    "e6aeaf5b-de26-4beb-bc38-6941c7b3530e",
+    "f2fa9b1d-6d34-417b-a734-1fb787badd55"
+  ]
+}

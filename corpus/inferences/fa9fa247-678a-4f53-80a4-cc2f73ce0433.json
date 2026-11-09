@@ -1,0 +1,10 @@
+{
+  "id": "fa9fa247-678a-4f53-80a4-cc2f73ce0433",
+  "label": "Fixed carrier specializes indexed first-order definability (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "868514fb-f3b4-443d-9084-33dbf58644a6",
+  "rule": "Explicit syntax embedding or finite-path induction",
+  "meaning": "The original fixed-carrier Definability condition is equivalent to the indexed first-order condition on the constant carrier indexed by exactly the same interpretations.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
