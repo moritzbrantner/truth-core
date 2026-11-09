@@ -9,12 +9,32 @@
   "inference_ids": [
     "64c6eccd-9ab9-47c1-aaa3-18f6b3957036"
   ],
-  "meaning": "Apply local consequence at the selected point and every accessible point where the stated theory is explicitly admitted.",
+  "meaning": "Apply NECESSARY_15 local consequence at the selected point and every accessible point using the explicit cone admission bridge: every theory formula is true and raw Kripke-boxed there. The derived conclusion gives actual truth and NECESSARY_8 box truth for the same formula. NECESSARY_8 denotes only Box F (fun v => Holds F V v phi) w, definitionally the Holds box clause; none of the sourced KB embedding commitments is imported. Cone admission does not identify theory consequence with unrestricted validity or with box truth in unadmitted interpretations.",
   "definition_ids": [
     "3be2906f-9f8e-4dff-b523-41de89c6000d",
-    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+    "699dde60-3c47-4bae-957b-4d696f0e90c3",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ],
   "term_senses": {
     "NECESSARY": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb"
-  }
+  },
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb",
+      "to": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "statement_id": "48366fb2-75e7-4afe-ac72-e050a7340553",
+      "role": "premise"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb",
+      "to": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "statement_id": "6cc4c415-335f-4bd1-b339-0b83bf7a70d9",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ]
 }

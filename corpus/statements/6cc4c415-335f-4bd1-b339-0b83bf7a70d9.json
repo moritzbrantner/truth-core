@@ -1,9 +1,10 @@
 {
   "id": "6cc4c415-335f-4bd1-b339-0b83bf7a70d9",
   "label": "Selected formula true and boxed in its interpretation",
-  "paraphrase": "The same formula holds at the selected world and every accessible world in one fixed frame and valuation.",
+  "paraphrase": "The same formula holds at the selected world and every accessible world in one fixed frame and valuation. Its box clause uses NECESSARY_8 as the raw Kripke Box operator applied to v maps to Holds F V v phi; no KB symmetry, domain, comprehension or classical-host commitment is inherited.",
   "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.TrueAndBox",
   "definition_ids": [
-    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+    "699dde60-3c47-4bae-957b-4d696f0e90c3",
+    "153fcebf-66f6-53de-bad7-82a30a359c9c"
   ]
 }

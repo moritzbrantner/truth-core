@@ -11,7 +11,7 @@
   "inference_ids": [
     "d9652b45-0da9-4b31-92ac-0def4417eb3f"
   ],
-  "meaning": "Use local consequence at each accessible point, translate the same formula through the explicit dictionary for the same bearer, retain independent RootFacts and introduce that bearer as the box K root. Actual-point theory admission in the chosen cone guard also ensures a joint model; the box part of this proof consumes only the successor conjunct. No actual or divine witness follows from a nonempty carrier. No premise is discharged.",
+  "meaning": "Use local consequence at each accessible point, translate the same formula through the explicit dictionary for the same bearer, retain independent RootFacts and introduce that bearer as the box K root. Actual-point theory admission in the chosen cone guard also ensures a joint model; the box part of this proof consumes only the successor conjunct. No actual or divine witness follows from a nonempty carrier. The premise bridges are cone admission NECESSARY_15 to raw same-formula NECESSARY_8 boxing, then the pointwise existence dictionary NECESSARY_8 to NECESSARY_2 for the same bearer. They assert these precise conversion conditions, not any bridge to the Frame carrier misclassified as NECESSARY_11. No premise is discharged.",
   "definition_ids": [
     "3be2906f-9f8e-4dff-b523-41de89c6000d",
     "699dde60-3c47-4bae-957b-4d696f0e90c3",
@@ -22,6 +22,20 @@
     "83264cf5-01fe-52fc-9a00-eeb024f6496e"
   ],
   "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb",
+      "to": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "statement_id": "48366fb2-75e7-4afe-ac72-e050a7340553",
+      "role": "premise"
+    },
+    {
+      "term": "NECESSARY",
+      "from": "d38b63c6-0435-4bd7-a179-531a7de093bc",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "ab83e6d3-35d1-415e-b5f4-c41c7455972e",
+      "role": "premise"
+    },
     {
       "term": "NECESSARY",
       "from": "8bc15cac-9565-4b3e-a9f8-86fdbf1e68eb",

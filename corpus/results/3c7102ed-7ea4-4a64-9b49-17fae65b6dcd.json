@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.theoryToTrueAndBox",
   "comparator_config": "results/3c7102ed-7ea4-4a64-9b49-17fae65b6dcd/comparator.json",
   "status": "solution-present",
-  "description": "Apply local consequence at the selected point and every accessible point where the stated theory is explicitly admitted."
+  "description": "Apply NECESSARY_15 local consequence at the selected point and every accessible point using the explicit cone admission bridge: every theory formula is true and raw Kripke-boxed there. The derived conclusion gives actual truth and NECESSARY_8 box truth for the same formula. NECESSARY_8 denotes only Box F (fun v => Holds F V v phi) w, definitionally the Holds box clause; none of the sourced KB embedding commitments is imported. Cone admission does not identify theory consequence with unrestricted validity or with box truth in unadmitted interpretations."
 }

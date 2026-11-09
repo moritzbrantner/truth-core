@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "6cc4c415-335f-4bd1-b339-0b83bf7a70d9",
   "rule": "Universal specialization, explicit semantic consequence and finite models",
-  "meaning": "Apply local consequence at the selected point and every accessible point where the stated theory is explicitly admitted.",
+  "meaning": "Apply NECESSARY_15 local consequence at the selected point and every accessible point using the explicit cone admission bridge: every theory formula is true and raw Kripke-boxed there. The derived conclusion gives actual truth and NECESSARY_8 box truth for the same formula. NECESSARY_8 denotes only Box F (fun v => Holds F V v phi) w, definitionally the Holds box clause; none of the sourced KB embedding commitments is imported. Cone admission does not identify theory consequence with unrestricted validity or with box truth in unadmitted interpretations.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
