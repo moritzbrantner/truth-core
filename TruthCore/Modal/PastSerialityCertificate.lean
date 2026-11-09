@@ -9,6 +9,17 @@ namespace TruthCore.Modal.PastSeriality
 open TruthCore.Modal
 open TruthCore.Latin.Aquinas.SummaTheologiae
 
+/-- Strictly earlier accessibility, oriented from a time to its past, on exactly
+those times equal to or strictly before the supplied now. -/
+def StrictPastFrame {T : Type} [Preorder T] (now : T) :
+    Frame {t : T // t = now ∨ t < now} where
+  access t s := s.val < t.val
+
+/-- Inclusive earlier accessibility on the original whole clock carrier.
+Self-access is allowed, independently of whether the clock has a first time. -/
+def InclusivePastFrame (T : Type) [Preorder T] : Frame T where
+  access t s := s ≤ t
+
 /-- Logical assembly only: strict/inclusive past interpretations are inline
 instances of the existing Frame, not metaphysical worlds or causal graphs.
 No finite duration, event cardinality or physical past premise is asserted. -/

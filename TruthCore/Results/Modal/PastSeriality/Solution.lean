@@ -11,6 +11,7 @@ open TruthCore.Modal.PastSeriality
 open TruthCore.Latin.Aquinas.SummaTheologiae
 theorem strictPast_serial_iff {T : Type} [Preorder T] (now : T) :
     Serial (⟨fun t s : {t : T // t = now ∨ t < now} => s.val < t.val⟩ : Frame _) ↔ PastIsInfinite (fun s t : T => s < t) now := by
+  change Serial (StrictPastFrame now) ↔ _
   constructor
   · intro h t ht
     obtain ⟨s, hs⟩ := h ⟨t, ht⟩
@@ -30,6 +31,7 @@ theorem strictPast_D_iff {T : Type} [Preorder T] (now : T) :
 
 theorem inclusivePast_T_D {T : Type} [Preorder T] :
     Reflexive (⟨fun t s : T => s ≤ t⟩ : Frame T) ∧ Valid (⟨fun t s : T => s ≤ t⟩ : Frame T) (.imp (.box (.atom ())) (.atom ())) ∧ Valid (⟨fun t s : T => s ≤ t⟩ : Frame T) (.imp (.box (.atom ())) (.diamond (.atom ()))) := by
+  change Reflexive (InclusivePastFrame T) ∧ _
   have hReflexive : Reflexive (⟨fun t s : T => s ≤ t⟩ : Frame T) :=
     fun _ => le_rfl
   exact ⟨hReflexive, axiomT_valid _ hReflexive (.atom ()),
@@ -49,4 +51,15 @@ theorem checks : PastSerialityCertificate := by
     obtain ⟨t, ht⟩ := h ⟨0, Or.inl rfl⟩
     exact Nat.not_lt_zero t.val ht
   · exact reflexive_implies_serial _ (fun n => Nat.le_refl n)
+/-- On any supplied clock, an earliest admitted time prevents strict seriality,
+while the inclusive frame remains serial by self-witnesses. -/
+theorem earliest_control {T : Type} [Preorder T] (now first : T)
+    (hAdmitted : first = now ∨ first < now)
+    (hFirst : ∀ s : T, ¬ s < first) :
+    Serial (InclusivePastFrame T) ∧ ¬ Serial (StrictPastFrame now) := by
+  refine ⟨reflexive_implies_serial _ (fun _ => le_rfl), ?_⟩
+  intro h
+  obtain ⟨s, hs⟩ := h ⟨first, hAdmitted⟩
+  exact hFirst s.val hs
+
 end TruthCore.Results.Modal.PastSeriality
