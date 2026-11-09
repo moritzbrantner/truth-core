@@ -1,0 +1,9 @@
+{
+  "id": "7817f9d1-b120-41d8-89ce-58dd6c3a96da",
+  "label": "A5_OBTAINING_SITUATIONS_RIGID_EVER_ROSTER_11: PopulationPredecessor",
+  "term": "PopulationPredecessor history interpretation",
+  "definition": "Some contingent member exists at t and there is s < t with no supplied u strictly between s and t, and no contingent member at s. Earlier episodes before s are permitted. No discreteness is imposed on the general carrier.",
+  "basis": "stipulative",
+  "note": "Owner-selected analyst interpretation sibling (2026-11-09), attribution deferred. Reuses TemporalHistory.History and its explicitly interpreted primitive IsAt (temporal existence). classified is an explicit contingency-classification input, not a free adequacy or beginning flag; no modal contingency dictionary or reality applicability is established. The beginning predicates take a separately supplied fixed class contingent : Being -> Prop. Arbitrary carriers remain unrestricted except the stated Preorder for temporal comparison; no finiteness, persistence, well-foundedness or causal law is assumed. Discrete, dense and first-moment controls test boundaries. This definition does not complete the original composite source sense or confer root closure.",
+  "lean_declaration": "TruthCore.Modal.A5HistoryScope.PopulationPredecessor"
+}
