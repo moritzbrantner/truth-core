@@ -81,9 +81,10 @@ comparison. That would conceal exactly the missing semantic dependencies.
 
 The next substantive test needs an independently specified appropriate causal
 path or productive-exemplar relation, with an error norm and a nonpassive divine
-application. The current merged vocabulary has none. Extending causal/explanatory
-signatures while the other lane owns #555 would exceed this worker's cluster.
-The coordinator should allocate that dependency, or a structured intentional
+application. The current merged vocabulary has none. A shared causal/explanatory extension needs explicit ownership and semantic
+coordination, but no active lane owns #555; this is not an unavailable input or
+a reason to end the master investigation. The coordinator should allocate the
+appropriate-path or productive-exemplar dependency, or a structured intentional
 norm account. More Boolean output enumeration cannot adjudicate it.
 
 ## Rough-draft disposition and provisional assessment
