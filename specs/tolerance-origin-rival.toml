@@ -6,7 +6,7 @@ results = "TruthCore.Results.Causality.ToleranceOriginRival"
 id = "Reflexive symmetric access with two successors of the selected world not mutually accessible"
 lean = "ToleranceNonEuclideanAt"
 paraphrase = "Rival framework commitment, unattributed (modelled on tolerance-based origin essentialism; attribution deferred): every world accesses itself, access is symmetric, and two worlds accessible from the selected world w do not access each other. Replacement account: a history in which a thing's origin differs a little from the actual one is possible relative to the actual history and conversely, but two histories that differ from the actual in opposite directions may differ from each other beyond tolerance. Stronger than the negation of Euclidean access at w by the reflexivity and symmetry conjuncts. Structural surrogate: a frame condition with no origin, material or cross-world identity interface; that it represents the origin-tolerance account is an OPEN interpretation bridge."
-definitions = ["Euclidean access at the selected world only", "f8948e28-b13a-5244-95f1-41a05cd4fff2", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+definitions = ["Euclidean access at the selected world only", "f8948e28-b13a-5244-95f1-41a05cd4fff2"]
 disambiguations = ["7181df76-d6ed-5226-a34b-08910ddbe6a0"]
 
 [[statement]]

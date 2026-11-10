@@ -1,0 +1,9 @@
+{
+ "id": "622524e2-e7f3-4b27-a644-bf9a4235121b",
+ "label": "Origin interface: each individual's origin at each world and a closeness relation on origins",
+ "term": "origin interface (origin, near origin)",
+ "definition": "OriginInterface W B O assigns to every world w and individual x an origin origin w x in O, read as the portion of matter x came from at w (the value is idle where x does not exist at w), and a relation near on O, read as: the two origins differ by no more than the tolerance allowed for one and the same individual. Identity across worlds is rigid identity of the carrier B; no counterpart relation is used. Example: in OriginToleranceIdentity.Control.faithful, origins are three offsets and two offsets are near iff they differ by at most one step. Non-example of the intended reading: a relation that also compares an individual's kind or causal history; the Lean type, with an arbitrary origin type O, does not itself exclude such an instance.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginInterface",
+ "note": "Analyst framework definition for the origin-tolerance rival of Euclidean access at the actual world (modal spine, stage one); attribution deferred (Chandler/Salmon-style tolerance is the motivating reading, not a verified attribution). It fixes vocabulary only: that near is a tolerance, that origins determine access and that near variations are realised are separate open commitments (NearIsTolerance, OriginDeterminesAccess, OriginPlenitude). OPEN: vagueness of near, kind-relative tolerance, counterpart readings, and whether origin is the only essential constraint. Repairs the cycle-3 link to the unrelated NecessaryIf definition (6f7a4ccc), which defines box(G -> box G) and no origin vocabulary."
+}
