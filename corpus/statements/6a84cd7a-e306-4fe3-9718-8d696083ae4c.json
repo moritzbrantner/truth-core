@@ -1,0 +1,6 @@
+{
+  "id": "6a84cd7a-e306-4fe3-9718-8d696083ae4c",
+  "label": "Observer incremental factorization threshold and screening",
+  "paraphrase": "For all existing positive rational three-cell Sampling pairs, observer-conditioned factor equals raw evidence factor divided by observer factor. It exceeds one iff raw exceeds observer, equals one iff they coincide, and is one when both other-observer cells vanish.",
+  "lean_declaration": "TruthCore.Science.FineTuningEvidence.Factorization"
+}

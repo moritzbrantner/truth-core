@@ -1,0 +1,11 @@
+{
+  "id": "37179a1f-babd-4241-92cd-2915081b4930",
+  "label": "Joint conditional and nonzero screening evaluations",
+  "argument_id": "228d7470-892f-4df8-8594-f016f75dba80",
+  "challenge_module": "TruthCore.Results.Science.FineTuningEvidence.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningEvidence.Solution",
+  "theorem": "TruthCore.Results.Science.FineTuningEvidence.controls",
+  "comparator_config": "results/37179a1f-babd-4241-92cd-2915081b4930/comparator.json",
+  "status": "solution-present",
+  "description": "Preserves existing fixture values and distinguishes joint evidence direction from incremental direction; screening does not erase observer evidence."
+}
