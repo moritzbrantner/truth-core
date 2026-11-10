@@ -8,11 +8,14 @@ The coordinator maintains the priority queue and one current handoff. It gives e
 
 ```mermaid
 flowchart TD
-    Q[Prioritize an uncertainty] --> W[Bounded worker investigation]
-    W --> R{Consequential new support?}
-    R -->|Yes| C[Independent challenge]
-    R -->|No| I[Integrate evidence and judgment]
-    C --> I
+    Q[Select independent questions] --> W[Bounded investigations]
+    W --> D[Draft findings and handoff]
+    D --> C{Final assessment reviewed?}
+    C -->|Accepted| I[Integrate reviewed version]
+    C -->|Concrete defect| F[Repair affected claims]
+    F --> C
+    C -->|Repair cap reached| O[Keep disputed claims open]
+    O --> I
     I -->|Budget remains| Q
     I -->|Pause or cap| H[Persist current handoff]
 ```
@@ -21,7 +24,8 @@ flowchart TD
 2. **Investigate flexibly.** Pursue the most informative support, rival, implication, necessary precondition, incompatibility, source or connection. Formalize load-bearing deductions and test revealing models where useful. A rival should be represented by its strongest relevant commitments; a local objection need not first supply an entire worldview. Explore conditional consequences without first proving every primitive.
 3. **Decompose only where useful.** Follow disputed premises and load-bearing terms as deeply as the current question requires. Split records for consequential inference, independent warrant, rival discrimination or reuse. Identify honest primitives and open bridges; neither a new predicate name nor a definition settles its applicability. Reuse shared [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning). Do not expand ordinary vocabulary just for coverage.
 4. **Return a bounded result.** Return early after a useful finding, or at the cap, blocker or loss of expected value. State what uncertainty changed, exact evidence and assumptions, surviving objections, the proposed provisional assessment, and the next discriminating step. An honest “no useful result” is permitted; record the attempted approach and what would justify retrying it. Finishing a worker turn does not settle its proposition.
-5. **Integrate and requeue.** The coordinator checks the contract below, connects findings to the parent question, revises the overall judgment and priorities, and assigns the next fresh worker. Requeue unfinished work with a specific next step or reopening condition, not an instruction to repeat the same unsuccessful search. Pause when the run budget ends or no authorized useful next step remains.
+5. **Draft, challenge and repair.** The coordinator prepares the complete proposed outcome: record/graph changes, overall judgments, diagrams and handoff. Apply the [final outcome review](#final-outcome-review-and-repair) before relying on new consequential assertions as reviewed support. A review of worker outputs does not cover a stronger coordinator summary.
+6. **Integrate and requeue.** Integrate the reviewed version, connect findings to their parent questions, update priorities and assign the next fresh worker. Requeue unfinished work with a specific next step or reopening condition, not an instruction to repeat the same unsuccessful search. Pause when the run budget ends or no authorized useful next step remains.
 
 Keep the readable case, judgments and rivals in the existing issue or linked case note; keep proofs, sources, countermodels and substantive attempts in their canonical records/dossiers. The current handoff links them. This policy adds no tracker, schema, truth-status field or numerical confidence score. Attempt outcomes describe work, not truth; their `evidence` field retains its existing result/claim/PR reference rules ([attempt format](premise-dossiers.md)).
 
@@ -64,16 +68,28 @@ Keep these assessments separate in existing records and reports; do not collapse
 | Outstanding objections | The exact challenge, its target and what has or has not answered it. |
 | Work status | Whether an investigation succeeded, failed, is paused or should be reopened; no truth conclusion follows from this alone. |
 
+### Final outcome review and repair
+
+The coordinator owns a bounded correction loop. Use the existing PR, case note and current handoff; this is a publication procedure, not another tracker or proof-status registry. Review each returned cluster as it becomes ready while other investigations continue. A complete proposed outcome means the cluster being integrated; it does not require a whole-run barrier. At the run's close, review only new synthesis claims and reuse unchanged reviews.
+
+1. **Prepare the actual draft.** Give the challenger the proposed record/graph changes and the complete judgment, diagram and handoff text, with the evidence revision. Identify each consequential assertion by its existing record or a heading in the draft. Keep its assumptions, interpretation/scope, exact theorem/model/source locator, verification status and limitations together, either in the linked record or a compact draft table. An open interpretation bridge must remain visible in the summary. Run the existing reference and binding checks for changed records; a valid identifier does not establish that the cited definition or source is relevant.
+2. **Challenge the draft against the evidence.** A fresh reviewer reads the actual definitions, statements, proofs, model assignments and source passages needed for the claim, rather than accepting the author's or an earlier reviewer's verdict. Apply the [semantic checks](#independent-semantic-challenge) below. In particular, try existing countermodels against universal and only-if summaries; compare the original and strengthened assumption bundles; open definition links; and inspect the reasons for philosophical rankings or rival dismissals. A new deductive extension must have its own checked result to inherit formal-verification status. An unverified inference may remain explicitly provisional, with its reasoning reviewed and its dependencies retained.
+3. **Require substantiated findings.** Each objection identifies the exact draft assertion, evidence, concrete mismatch or missing inference, and the smallest necessary repair. Distinguish a demonstrated error from an unresolved philosophical objection; neither an unsupported criticism nor model agreement settles the question. A no-findings return is valid. Preserve the review's scope and evidence revision in the existing PR or handoff so a later wording change cannot silently inherit that review.
+4. **Repair within the cap.** The coordinator or originating researcher makes the repair; the challenger checks it. Default to at most two targeted review-and-repair passes after the initial challenge, within the run budget. Recheck only changed consequential assertions and affected dependencies; reuse unchanged evidence and reviews. At the cap, retain the accepted findings, withdraw or qualify the unsupported conclusions, record the disputed questions and affected uses as unresolved, and continue independent investigations. Routine repairs and philosophical disagreement do not require an owner decision. Escalate only an actual authorization, scope or budget choice needed to proceed.
+5. **Publish the reviewed substance.** Use the reviewed wording and qualifications in the records, diagram and handoff. Do not add a stronger arrow, verdict or generalization while shortening the final report. A substantive change reopens review of that claim and its affected uses; formatting alone does not. An unresolved disposition reports the disagreement and withheld conclusion, rather than introducing a fresh resolution after the repair cap. A completed review accepts only the stated scope and status; it does not establish a premise or waive CI and merge requirements.
+
+Routine derivations with unchanged meanings reuse the existing checks and review evidence. The final check is on the changed consequential assertions and their synthesis, not a new full-repository review each cycle. Conditional exploration may continue while review is pending, with that limitation explicit.
+
 ### Independent semantic challenge
 
-Before a consequential definition, bridge, claimed defeat or influential judgment change is relied on as reviewed support, obtain a separate worker's challenge review. It must cover the **final consequential findings** and their evidence revision, including claims introduced or changed during synthesis; review of an earlier worker's claims does not cover those additions. Apply the following targeted checks:
+Before a consequential definition, bridge, claimed defeat or influential judgment change is relied on as reviewed support, obtain a separate worker's challenge review under the procedure above. Apply these checks to the **final consequential findings**, including claims introduced or changed during synthesis:
 
 1. **Map the intended claim.** Restate it plainly and map each load-bearing narrative commitment to an encoded condition, definition or hypothesis, or an explicit **OPEN** interpretation bridge. Inspect quantifiers, modality, hidden assumptions and the strongest relevant objection. Names and suggestive prose do not supply missing conditions.
 2. **Inspect the actual witness.** Check whether the model preserves the entities and relations required by the motivating claim, including their existence and identity across the relevant situations. For example, an empty comparison world may witness an abstract modal non-entailment while failing a reading that requires an object, its material or its origin there. When the encoding omits commitments needed by that interpretation, label the result a **structural surrogate** and state exactly what it witnesses.
 3. **Restore omitted commitments.** Test whether adding the intended but omitted conditions preserves the countermodel or consequence. It may destroy the countermodel. If this test remains open, keep the stronger interpretation unresolved; do not carry the surrogate's result across that gap.
 4. **Compare readings and warrant.** Preserve meaningful alternatives and compare their consequences under explicit assumptions without forcing a winner. Logical weakening can improve a sufficient premise set; it does not by itself establish equal or greater independent warrant or applicability. Check claimed novelty against the exact prior theorems and dependencies.
 
-Retain disagreements rather than treating reviewer agreement as proof. Routine derivations reuse the existing checks and unchanged review evidence; review changed consequential findings and affected dependencies, not the whole history again. Conditional exploration may continue while review is pending, with that limitation explicit.
+Retain disagreements rather than treating reviewer agreement as proof. A stronger assumption bundle becoming inconsistent does not invalidate a model of the original bundle. A local or reachable-world result does not establish its global counterpart, and a bounded unsuccessful rival search does not exclude unexamined rivals.
 
 ### Revision boundaries
 
@@ -96,6 +112,12 @@ Default to reserving at least one of every five worker starts for a neglected pl
 After ten completed turns, at the run cap, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count clearer distinctions, informative conditional results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress; do not substitute node counts, route cost or a guaranteed discovery per worker. Assess throughput by accepted meaningful findings per elapsed run, with their time/resource costs and dominant review, build or CI waits recorded in existing logs or the current handoff. Claim and PR counts are not quotas or substitutes for this evidence. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
 
 The [configuration elimination method](configuration-elimination-loop.md#certified-forks-for-selected-investigations) and [#565 pilot note](notes/argument-first-pilots-565.md) supply particular proof tactics, not mandatory preliminary stages for every turn.
+
+### Model selection and unattended batches
+
+Treat model selection as a role-specific experiment for research, synthesis and challenge review. A different model family may be tried for the challenger when available; do not assume that diversity or agreement establishes correctness. The [review calibration cases](notes/research-review-calibration.md) provide known failure patterns and valid controls. Compare models with the same evidence and budgets, using fresh briefs without the answer key or earlier verdicts; use unexposed variants once a case has become a teaching example. Record substantiated errors missed, false objections, successful repairs, time and available cost measurements in the existing handoff. Do not infer research ability from review scores alone.
+
+Calibration and sampled audits are periodic work, not a requirement to benchmark models or repeat every review each cycle. For a bounded unattended batch, reserve independent audit capacity and record consequential errors that escaped review, human interventions and useful findings per elapsed time. Correct escaped errors and affected uses through the same repair procedure. Extend an unattended budget only within owner authorization and when the observed results justify it; absence of a finding is not proof that no error remains. The owner receives periodic research syntheses and necessary decisions, while routine review and repair stay inside the loop.
 
 ### Machine-checkable issue acceptance (#949)
 
@@ -212,7 +234,11 @@ Ship one coherent verified argument cluster, a complete candidate range, or a re
 
 ## Parallel lanes
 
-When resources permit, start with **two concurrent independent node investigations**, reserving challenge-review capacity. With four agent slots, use a coordinator, two researchers and one challenger. Adjust for actual resource or dependency constraints in the current handoff. Each researcher gets a fresh bounded brief, an isolated warm checkout and disjoint file/argument ownership under the existing A/B/C lanes in `AGENTS.md` (#416).
+When resources permit, start with **two concurrent investigations of distinct propositions in different argument families**, reserving challenge-review capacity. With four agent slots, use a coordinator, two researchers and one challenger. Each researcher gets a fresh bounded brief, an isolated warm checkout and disjoint file/argument ownership under the existing A/B/C lanes in `AGENTS.md` (#416).
+
+Before launch, record both target propositions, their parent questions and their root-route or named connection purposes, and explain why neither investigation requires the other's result. Shared stable definitions are permitted. Disjoint files, separate lemmas or two subquestions about the same disputed modal premise do not satisfy this research-breadth requirement: cycle 3's origin-tolerance and F2′-versus-F2 investigations were both within the same modal family. For example, a modal-origin investigation and an epistemic-warrant investigation with an explicit root connection plan can qualify; an origin countermodel and another arrival tested on that countermodel do not.
+
+The coordinator handles bounded repairs and integration with the challenger while preserving the two distinct research targets. A substantial repair may become a research assignment, but does not silently consume both research slots with one family. Record a reason for an explicit owner-focused exception, actual resource/dependency constraints or lack of a second useful target; do not invent peripheral work to fill a slot. If the second target needs a proposed bridge rather than an existing route, name the bridge and blocker and report the work as unconnected until that bridge is established.
 
 Freeze a shared semantic baseline in the briefs: revision, selected definitions/senses and theorem dependencies. Shared definitions and bridges belong to explicit dependency tasks with a designated owner; the coordinator owns shared integration. If a definition changes, stop reusing affected semantic or verification evidence for the changed baseline until the meanings and dependencies are reconciled. Independent work on unchanged dependencies can continue.
 
