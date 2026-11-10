@@ -1,0 +1,9 @@
+{
+  "id": "63eb96d2-0054-42c4-b8d8-7d3732edb86a",
+  "label": "Agency protection reasons and independent agent neutrality controls",
+  "term": "agency protection reasons and agent neutrality",
+  "definition": "R p q is a primitive pro-tanto reason of person p to protect person q's agency in a stipulated case. Self-reasons mean forall p, R p p. Agent neutrality here means forall p q, R q q implies R p q. Universal protection reasons mean forall p q, R p q. Joint relabeling applies the same function to both identity coordinates. Controls compares diagonal, full and empty interpretations and fixed private versus equal-sum payoff inequalities.",
+  "basis": "stipulative",
+  "note": "Analyst structural surrogate, attribution deferred. The reason predicate is independent of identity; interpreting its diagonal as the complete reason relation is a countermodel assignment, not a definition. Agency means capacity to deliberate and carry out chosen actions; that capacity and its value are not defined or established by the matrix. OPEN: applicability to actual humans, objective value, deriving self-reasons, impartiality, reason strength, priority, recognition and obligation. No rationality-by-moral-agreement. See docs/notes/natural-goodness-function-and-authority.md, positive agency argument continuation.",
+  "lean_declaration": "TruthCore.Ethics.AgencyNeutrality.Controls"
+}

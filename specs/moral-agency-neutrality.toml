@@ -1,0 +1,18 @@
+[batch]
+vocab = "TruthCore.Ethics.AgencyNeutrality"
+results = "TruthCore.Results.Ethics.AgencyNeutrality"
+definitions = ["63eb96d2-0054-42c4-b8d8-7d3732edb86a"]
+
+[[statement]]
+id = "Agency protection neutrality structural controls"
+lean = "Controls"
+definitions = ["63eb96d2-0054-42c4-b8d8-7d3732edb86a"]
+paraphrase = "On the shared two-person domain, diagonal self-concern is preserved by joint relabeling while lacking the offender-to-victim entry. Given all self-reasons, the proposed agent-neutral transfer rule is equivalent to universal protection reasons. Full, diagonal and empty matrices witness joint satisfiability and omission of each premise. Private payoff 3 exceeds 1 while equal sums 3-10 and 1+0 reverse that ordering. This structural surrogate establishes no actual rationality, moral reason, obligation, decisive priority or historical attribution."
+
+[[argument]]
+id = "Agency neutrality controls by explicit finite matrices"
+theorem = "controls"
+premises = []
+conclusion = "Agency protection neutrality structural controls"
+rule = "explicit-finite-matrices-and-implication-equivalence"
+meaning = "Separates joint identity relabeling from beneficiary-fixed transfer of reasons. The premise equivalence diagnoses circular support under self-reasons; omission witnesses do not refute substantive moral theories. Connection plan: #563 applicability gap through #369/#371/#373 toward STMT-GOODNESS-IS-ACTUALITY; a practical authority bridge and its relevance to a root inference remain open. No premise discharge."
