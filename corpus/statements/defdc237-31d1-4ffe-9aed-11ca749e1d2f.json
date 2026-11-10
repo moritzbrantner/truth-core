@@ -1,0 +1,6 @@
+{
+  "id": "defdc237-31d1-4ffe-9aed-11ca749e1d2f",
+  "label": "Measurable pushforward evidence invariance",
+  "paraphrase": "For any measurable equivalence between measurable spaces and any two Mathlib measures, pushing both measures and the evidence and observer events forward preserves both evidence probabilities, raw event ratio, and intersection-defined conditional ratio. ENNReal identity includes degenerate cases; evidential interpretation requires finite positive denominators.",
+  "lean_declaration": "TruthCore.Science.FineTuningEvidence.PushforwardInvariance"
+}

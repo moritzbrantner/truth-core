@@ -1,0 +1,10 @@
+{
+  "id": "8c026f76-2760-4e68-8f93-6f1b4e7da8f1",
+  "label": "Observer incremental factorization threshold and screening deduction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "6a84cd7a-e306-4fe3-9718-8d696083ae4c",
+  "inference_ids": [
+    "b79e16c9-44d1-423c-82ae-861db287713f"
+  ],
+  "meaning": "Internal universally quantified conditional in the existing E-subset-O partition; no physical calibration or actual designer inference."
+}
