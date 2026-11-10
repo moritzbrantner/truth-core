@@ -46,6 +46,22 @@ theorem constitutiveAimAuthority (f : Frame) (aims : f.Preference → Prop)
       f hThin hPresentation hDefinition
   exact ⟨a, r, t, hOrd, fun d => (hGoal a r t d).mpr ⟨hOrd.2, hAim d⟩⟩
 
+/-- The goal-relative account itself grants the concession whenever an
+ordinary belief reason belongs to a subject whose actual preference has the aim. -/
+theorem concessionFromGoalRelative (f : Frame) (aims : f.Preference → Prop)
+    (hGoal : GoalRelativeForce f aims)
+    (hAimed : AimedOrdinaryBelief f aims) :
+    ActualForceConcession f := by
+  obtain ⟨a, r, p, hOrd, hAim⟩ := hAimed
+  exact ⟨a, r, p, hOrd, (hGoal a r _ _).mpr ⟨hOrd.2, hAim⟩⟩
+
+/-- Composition of the answerability and goal-relative exclusion theorems. -/
+theorem authorityRivalBundleInconsistent (f : Frame) (aims : f.Preference → Prop) :
+    AuthorityRivalBundleInconsistent f aims := by
+  rintro ⟨hConcession, hAnswer, hGoal, hIndiff⟩
+  exact goalRelativeExcludesAuthority f aims hGoal hIndiff
+    (authorityFromAnswerability f hConcession hAnswer)
+
 private theorem goalThin : ThereAreEpistemicReasons goalRelative.Reason :=
   ⟨(), .even, rfl⟩
 
@@ -77,6 +93,22 @@ private theorem goalNoAnswer : ¬ BeliefAnswerability goalRelative := by
   have := h () .count .even .accuracy .comfort ⟨rfl, rfl, rfl⟩
   cases this.2.2
 
+private theorem independentSome : SomePreferenceIndependentReason independent :=
+  ⟨(), .count, .even, ⟨⟨rfl, rfl⟩, trivial, trivial, rfl, rfl⟩, fun _ => ⟨rfl, rfl⟩⟩
+
+private theorem independentNotGoal : ¬ GoalRelativeForce independent accuracyAim := by
+  intro h
+  have hAim := ((h () .count .even .comfort).mp ⟨rfl, rfl⟩).2
+  cases hAim
+
+private theorem independentGoalAll : GoalRelativeForce independent allAim := by
+  intro _ _ _ _
+  exact ⟨fun h => ⟨⟨trivial, trivial, h⟩, trivial⟩, fun h => h.1.2.2⟩
+
+private theorem independentNoIndiff : ¬ IndifferenceAvailable independent allAim := by
+  rintro ⟨_, hd⟩
+  exact hd trivial
+
 theorem controls : Controls := by
   refine ⟨⟨goalThin, goalPresentation, goalOrdinary,
       ⟨(), .count, .even, ⟨⟨rfl, rfl⟩, trivial, trivial, rfl, rfl⟩, rfl, rfl, rfl⟩,
@@ -90,7 +122,10 @@ theorem controls : Controls := by
       fun _ _ _ _ _ h => h,
       authorityFromAnswerability independent
         ⟨(), .count, .even, ⟨⟨rfl, rfl⟩, trivial, trivial, rfl, rfl⟩, rfl, rfl⟩
-        (fun _ _ _ _ _ h => h)⟩⟩
+        (fun _ _ _ _ _ h => h)⟩,
+    ⟨independentNotGoal, ⟨.comfort, fun h => nomatch h⟩, independentSome⟩,
+    ⟨goalThin, goalPresentation, goalOrdinary, independentGoalAll,
+      fun _ => trivial, independentNoIndiff, independentSome⟩⟩
   · rintro ⟨_, _, _, _, hForce⟩
     cases hForce.2.2
   · rintro ⟨_, _, _, _, hForce⟩

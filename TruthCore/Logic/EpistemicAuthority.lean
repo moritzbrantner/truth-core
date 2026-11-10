@@ -67,6 +67,17 @@ preference alternative. Negation of `SomePreferenceIndependentReason`. -/
 def NoPreferenceIndependentReason (f : Frame) : Prop :=
   ¬ SomePreferenceIndependentReason f
 
+/-- Some ordinary-role reason for a belief whose subject's actual preference
+satisfies the supplied accuracy aim. -/
+def AimedOrdinaryBelief (f : Frame) (aims : f.Preference → Prop) : Prop :=
+  ∃ a r p, OrdinaryInstance f a r (f.believe p) ∧ aims (f.actualPreference a)
+
+/-- The four-member bundle concession, answerability, goal-relative force and
+an indifference alternative is not jointly satisfiable in the frame. -/
+def AuthorityRivalBundleInconsistent (f : Frame) (aims : f.Preference → Prop) : Prop :=
+  ¬ (ActualForceConcession f ∧ BeliefAnswerability f ∧ GoalRelativeForce f aims ∧
+    IndifferenceAvailable f aims)
+
 /-- The `goalRelative` evidence profile with an indifferent actual preference:
 the count still favors the even answer but has no force at comfort. -/
 def indifferentAgent : Frame :=
@@ -80,6 +91,9 @@ def forceless : Frame :=
 /-- The accuracy aim of the finite controls. -/
 def accuracyAim : Preference → Prop := fun d => d = .accuracy
 
+/-- An aim met by every supplied preference (constitutive-aim witness). -/
+def allAim : Preference → Prop := fun _ => True
+
 /-- Finite controls (analyst interpretations, not actual normative facts):
 (1) `goalRelative` satisfies F6, presentation, the ordinary definition, the
 concession and the goal-relative account with an indifference alternative,
@@ -87,7 +101,13 @@ but not answerability or the conclusion; (2) `indifferentAgent` satisfies F6,
 presentation, the ordinary definition and the goal-relative account, while an
 ordinary reason of an actually indifferent subject has no actual force;
 (3) `forceless` satisfies answerability without the concession or conclusion;
-(4) `independent` satisfies the concession, answerability and the conclusion. -/
+(4) `independent` satisfies the concession, answerability and the conclusion;
+(5) `independent` with the accuracy aim has an indifference alternative and the
+conclusion but not goal-relative force; (6) `independent` with `allAim` has
+goal-relative force, the constitutive aim and the conclusion but no indifference
+alternative. (5) and (6) are omission controls for
+`goalRelativeExcludesAuthority`; (6) is a nonvacuity witness for the
+constitutive-aim argument. -/
 def Controls : Prop :=
   (ThereAreEpistemicReasons goalRelative.Reason ∧ ConsiderationPresentation goalRelative ∧
     OrdinaryDefinition goalRelative ∧ ActualForceConcession goalRelative ∧
@@ -103,6 +123,13 @@ def Controls : Prop :=
   (BeliefAnswerability forceless ∧ OrdinaryDefinition forceless ∧
     ¬ ActualForceConcession forceless ∧ NoPreferenceIndependentReason forceless) ∧
   (ActualForceConcession independent ∧ BeliefAnswerability independent ∧
+    SomePreferenceIndependentReason independent) ∧
+  (¬ GoalRelativeForce independent accuracyAim ∧
+    IndifferenceAvailable independent accuracyAim ∧
+    SomePreferenceIndependentReason independent) ∧
+  (ThereAreEpistemicReasons independent.Reason ∧ ConsiderationPresentation independent ∧
+    OrdinaryDefinition independent ∧ GoalRelativeForce independent allAim ∧
+    ConstitutiveAim independent allAim ∧ ¬ IndifferenceAvailable independent allAim ∧
     SomePreferenceIndependentReason independent)
 
 end TruthCore.Logic.EpistemicAuthority

@@ -31,26 +31,39 @@ factivity). Analyst formulations; attribution deferred. Spec:
 - `authorityFromAnswerability`: `ActualForceConcession f`,
   `BeliefAnswerability f` ⊢ `SomePreferenceIndependentReason f`. The rival
   grants the concession (an accuracy-valuing subject with favoring evidence)
-  and denies answerability, so the whole dispute sits in one bridge.
+  and denies answerability (`concessionFromGoalRelative` checks the grant:
+  goal-relative force plus an ordinary belief reason of a subject whose actual
+  preference has the aim yields the concession). Within this vocabulary and
+  given the concession, the dispute sits in that bridge; the
+  `PreferenceIndependentDefinition` route and reflective or disjunctive
+  goal-relative accounts remain open.
 - `goalRelativeExcludesAuthority`: `GoalRelativeForce f aims`,
   `IndifferenceAvailable f aims` ⊢ `NoPreferenceIndependentReason f`. With the
-  previous theorem: concession, answerability, the goal-relative account and an
-  indifference alternative cannot all hold in one frame (a checked exclusion
-  under these four premises; which member to reject is not settled by it).
+  previous theorem, `authorityRivalBundleInconsistent` checks that concession,
+  answerability, the goal-relative account and an indifference alternative
+  cannot all hold in one frame; it does not settle which member to reject.
 - `constitutiveAimAuthority`: F6, presentation, ordinary definition (composed
   through the existing `ordinaryFromThin`), `GoalRelativeForce f aims`,
-  `ConstitutiveAim f aims` ⊢ target. The goal-relative form survives;
-  independence comes from locating the aim in belief rather than desire. Then
-  the dispute moves to whether indifference profiles belong to believers.
+  `ConstitutiveAim f aims` ⊢ target. In Lean `ConstitutiveAim` is only
+  `∀ d, aims d`, indistinguishable from universal desire for accuracy. It
+  secures the target by excluding indifferent profiles from the comparison
+  class, not by giving an indifferent subject a reason, so it is no support for
+  the indifference case. The dispute moves to whether indifference profiles
+  belong to believers.
 - `controls`: `goalRelative` satisfies F6, presentation, ordinary definition,
   concession, goal-relative force and indifference without answerability or
   the target; `indifferentAgent` (same evidence, actual preference comfort)
   has an ordinary reason with no actual force; `forceless` has answerability
-  without concession; `independent` has both and the target.
+  without concession; `independent` has both and the target; `independent`
+  with the accuracy aim and with `allAim` are omission controls for the two
+  premises of `goalRelativeExcludesAuthority`, the latter also a nonvacuity
+  witness for the constitutive-aim argument.
 
-Neither bridge is a restatement: answerability is universal-conditional on
-force and asserts none; each premise fails in a control while the other holds.
-The proof is short; the structural finding is the location of the dispute.
+`BeliefAnswerability` is a universal-conditional form of the target's
+invariance clause: low inferential distance, and stronger than needed, since it
+also covers non-ordinary considerations. The encoding can still fail (the
+`goalRelative` and `forceless` controls). The structural finding is the
+location of the dispute, not a new support for the target.
 
 ## Warrant for the answerability bridge
 
@@ -74,21 +87,22 @@ only exist given an aim; (3) the constitutive-aim reply is either too weak
 norm; (4) "indifferent believer" cases may simply be agents without the
 relevant reasons, which the rival accepts as the cost.
 
-## Provisional judgment (coordinator to confirm)
+## Provisional judgment (coordinator grade)
 
-`2ca463c2` under its exact paraphrase: **underdetermined, leaning supported**.
-Reasons: the wrong-kind-of-reasons and indifferent-believer considerations
-favor answerability over pointwise goal-relativism, and the pro tanto,
-non-overriding paraphrase avoids the knife/chess objection. Strongest
-surviving objection: the attributive-versus-reason-giving distinction; one can
-grant that belief has a correctness standard and that evidence bears on it,
-yet deny that the standard gives a reason to a subject lacking the aim. No
-checked result discriminates that, and the controls show the frame cannot.
-Strengthen: an argument that the rival cannot state the right-kind/wrong-kind
-boundary without a preference-independent standard of what belief answers to.
-Weaken or reverse: a goal-relative account (e.g. reflective or disjunctive
-aims) that explains wrong-kind reasons and indifferent-believer criticism
-without preference-independent authority.
+`2ca463c2` under its exact paraphrase: **underdetermined**. No checked result
+discriminates answerability from goal-relative force; the controls show the
+frame cannot. Thin, contested considerations in favor: the wrong-kind-of-
+reasons distinction and indifferent-believer criticism. Standard instrumentalist
+replies: wrong-kind reasons are those that do not serve the aim, and the
+criticism of an indifferent believer is attributive (bad as a belief) without
+being a reason for that subject. Strongest surviving objection: that
+attributive-versus-reason-giving distinction. Strengthen: an argument that the
+rival cannot draw the right-kind/wrong-kind boundary without a
+preference-independent standard of what belief answers to. Weaken or reverse:
+a goal-relative account (reflective or disjunctive aims) that explains
+wrong-kind reasons and indifferent-believer criticism without
+preference-independent authority. The constitutive-aim argument does not count
+as support for the indifference case.
 
 ## Connection plan (unconnected)
 

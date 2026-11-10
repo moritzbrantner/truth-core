@@ -36,6 +36,19 @@ theorem constitutiveAimAuthority (f : Frame) (aims : f.Preference → Prop)
     SomePreferenceIndependentReason f := by
   sorry
 
+/-- The goal-relative account itself grants the concession whenever an
+ordinary belief reason belongs to a subject whose actual preference has the aim. -/
+theorem concessionFromGoalRelative (f : Frame) (aims : f.Preference → Prop)
+    (hGoal : GoalRelativeForce f aims)
+    (hAimed : AimedOrdinaryBelief f aims) :
+    ActualForceConcession f := by
+  sorry
+
+/-- Composition of the answerability and goal-relative exclusion theorems. -/
+theorem authorityRivalBundleInconsistent (f : Frame) (aims : f.Preference → Prop) :
+    AuthorityRivalBundleInconsistent f aims := by
+  sorry
+
 theorem controls : Controls := by
   sorry
 
