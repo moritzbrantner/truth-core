@@ -178,26 +178,35 @@ Four attribute rivals (will, infinity, eternity, sufficiency) are bare negations
 in Lean, with the replacement account in prose only: the premise's carrier has
 no predicate in which to state it.
 
-### Floor candidates
+### Foundational-warrant targets
 
 These premises have no source claim and no derivation in the corpus. They are
-candidates for an owner floor decision, not established:
+targets for investigating foundational warrant, not established premises or
+choices the owner must settle before research can proceed:
 
-- F1 actual reflexivity. Its rival changes what accessibility means rather than denying that the actual is possible.
-- A1 presence gives existence, once the spine fixes a non-presentist reading of existence.
-- Something concrete exists at the actual world.
+- F1 actual reflexivity. Fix the intended sense of possibility and test whether each recorded rival contests that claim or instead uses another accessibility relation.
+- A1 presence gives existence. Compare the proposed non-presentist reading of existence with the presentist rival and test its applicability to the intended histories.
+- Something concrete exists at the actual world. Make the intended sense of concrete explicit and assess its support and strongest objections.
 
 The other unsupported premises (F2, A2, A3′, B1, B2, J1, J2, and the root and
-act-of-being bridges) are contested positions and are not floor candidates.
+act-of-being bridges) remain contested positions to investigate under explicit
+assumptions. For each selected target, record the exact scope and applicability,
+support, strongest objections and replies, and a reasoned provisional judgment
+under the [systematic research loop](../systematic-corpus-loop.md). Such a judgment
+can guide priorities and qualified reports without changing computed closure;
+personal assent is not philosophical warrant.
 
-## Order of work
+## Next investigations
 
-1. Decide the floor candidates.
-2. The two horns left to the initial-state view under A3′: test "some contingent
+Select the next discriminating question using the current evidence and
+provisional assessment. Foundational-warrant work is available alongside these
+conditional investigations, not a mandatory first gate:
+
+1. The two horns left to the initial-state view under A3′: test "some contingent
    thing never came to be" against the brute-foundation results, and "every
    possible past is endless" against the causal-finitism and Grim Reaper results.
-3. For the rows marked "survives", look for commitments the rival's holder
+2. For the rows marked "survives", look for commitments the rival's holder
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first
    discriminator for J1 and J2.
-4. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.
+3. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.
