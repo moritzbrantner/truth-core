@@ -1,0 +1,18 @@
+import TruthCore.Causality.AtomisticRequirementControl
+import TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution
+
+namespace TruthCore.Results.Causality.AtomisticRequirementControl
+open TruthCore.Causality.AtomisticRequirementControl
+open TruthCore.Causality.AtomisticCausalSource
+open TruthCore.Causality.AtomisticUniversalCausePriority
+open TruthCore.Causality.CompleteCauseContributorCover
+open TruthCore.Mereology.UniversalFusionBoundary
+open TruthCore.Mereology.SupplementationFusion
+
+set_option maxRecDepth 10000
+set_option maxHeartbeats 2000000
+
+theorem certificate : Certificate := by
+  sorry
+
+end TruthCore.Results.Causality.AtomisticRequirementControl

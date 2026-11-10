@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ToleranceOriginRival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ToleranceOriginRival.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ToleranceOriginRival.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

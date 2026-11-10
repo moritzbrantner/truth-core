@@ -1,0 +1,12 @@
+{
+  "id": "ab65dd19-1c53-4719-aa17-25f5e2d22d2d",
+  "label": "Global Euclidean access gives Euclidean access at one world (inference)",
+  "input_statement_ids": [
+    "62b4a40a-919e-5da4-998c-131c386b7361"
+  ],
+  "output_statement_id": "1b1462e6-c285-448c-87e2-3053bc05a341",
+  "rule": "universal instantiation at the selected world",
+  "meaning": "Strength registration (not a route step): global Euclidean access, instantiated at the selected world w, gives Euclidean access at w on the same frame. The converse fails in Control.clustered.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
