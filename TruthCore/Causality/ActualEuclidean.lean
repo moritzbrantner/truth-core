@@ -14,8 +14,10 @@ premise only at the selected world `w`: the instances are `hEuclidean w v w` and
 Ordinary meaning. Read worlds as complete histories and access as metaphysical
 possibility. `EuclideanAt frame w` says: any two histories possible relative to
 the actual history `w` are possible relative to each other. It says nothing
-about what is possible relative to a merely possible history beyond the other
-possibilities of `w`.
+about access from worlds outside the successors of `w`, or from those
+successors to worlds `w` does not access. It is the local frame correspondent
+of axiom 5 at `w`: `◇p → □◇p` is valid at `w` iff `EuclideanAt frame w`; with
+reflexivity at `w`, the successors of `w` form a complete cluster.
 
 Examples. Every Euclidean (in particular every S5) frame satisfies it at every
 world. The frame `Control.clustered` below satisfies it at `actual` but not
