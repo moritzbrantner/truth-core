@@ -1,0 +1,25 @@
+{
+  "id": "7d65e5fe-aa7c-4c70-b385-3c72cabc4350",
+  "label": "Full autonomous modal ground without an existential ingredient, checked",
+  "argument_id": "33288d83-9716-48de-925c-fe2dc1f8f754",
+  "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AutonomousGroundConcrete.Solution",
+  "theorem": "TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate",
+  "comparator_config": "results/7d65e5fe-aa7c-4c70-b385-3c72cabc4350/comparator.json",
+  "status": "solution-present",
+  "description": "The fixed Bool-world/Bool-candidate model has universal accessibility, a target present in both worlds and a second concrete candidate absent at the other world. Its one admitted complete ground targets positive false and contains only autonomous other (). All five inputs, SAME Profile necessary-concrete endpoint, not IngredientAt, ground nonemptiness, actual contingency and all-world population hold jointly. No note44 essence, own-nature explanation or real applicability is certified.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+      "rival_statement_id": "8885e7bb-c753-4859-b75e-9bfbb6492c80",
+      "sense_definition_id": "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+      "outcome": "model-witnessed",
+      "conditions": "All five original autonomous-ground inputs hold jointly; IngredientAt is false. No premise truth or philosophical completeness is inferred.",
+      "scope": "Same Bool worlds, rigid Bool candidates, universal accessibility, arena.ontic=model.ontic, model.concrete, selected false world and false target throughout. Rival ID names this joint certificate; its explicit NOT IngredientAt conjunct is the tested rival condition, not positive IngredientAt or negation of the certificate.",
+      "coverage": "Only explicit encoded full-ground and modal de re existence interpretation; no exhaustive coverage of philosophical senses.",
+      "exclusivity": "Selected interpretation fixed; semantic extensions are not asserted exclusive.",
+      "witness": "TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate certifies Certificate: populated full package, NecessaryConcreteAt model false, not IngredientAt ground false, nonempty members and an actual contingent concrete neighbour.",
+      "next_step": "Test an explicitly contentful essence or noncausal explanatory-ground adequacy condition on this same carrier; the present other-fact semantics does not supply it."
+    }
+  ]
+}

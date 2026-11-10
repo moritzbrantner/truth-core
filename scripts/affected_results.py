@@ -127,6 +127,14 @@ SHARD_CAPACITY = 100
 MAX_SHARDS = 4
 
 
+def research_metadata_command(path: str) -> str | None:
+    """Only the direct TOML inputs supported by argument_batch.py, never arbitrary TOML."""
+    parts = path.split("/")
+    if len(parts) == 2 and parts[1].endswith(".toml"):
+        return {"specs": "records", "explorations": "map"}.get(parts[0])
+    return None
+
+
 def input_kind(path: str) -> str:
     """Classify inputs for the safety fallback and targeted checks.
 
@@ -143,6 +151,11 @@ def input_kind(path: str) -> str:
         return "offline-test"
     if changed_module(path):
         return "lean"
+    # Declarative generator inputs do not change compiled proofs themselves.
+    # Keep corpus/binding/report checks; CI separately validates changed TOMLs.
+    # Generated JSON and Lean files still select results and reverse dependents.
+    if research_metadata_command(path):
+        return "corpus"
     if path.startswith(("corpus/", "results/")) and path.endswith(".json"):
         return "corpus"
     if explorer_inputs_changed([path]):
@@ -415,6 +428,24 @@ def command_select(args: argparse.Namespace) -> int:
     return 0
 
 
+def command_check_research_metadata(args: argparse.Namespace) -> int:
+    """Validate edited generator inputs without writing outputs or certifying their proofs."""
+    root = Path(args.root).resolve()
+    changed = changed_files_or_full(root, args.base, args.head)
+    if changed is None:
+        print("exact diff unavailable: validate all supported research metadata read-only", file=sys.stderr)
+        changed = sorted(path.relative_to(root).as_posix()
+                         for directory in ("specs", "explorations")
+                         for path in (root / directory).glob("*.toml"))
+    for path in changed:
+        command = research_metadata_command(path)
+        if command and (root / path).is_file():
+            flags = ["--allow-materialized-nodes"] if command == "map" else []
+            subprocess.run([sys.executable, str(root / "scripts/argument_batch.py"), command, path, *flags],
+                           cwd=root, check=True)
+    return 0
+
+
 def command_explorer(args: argparse.Namespace) -> int:
     if args.all:
         changed_inputs = ["full run requested"]
@@ -465,6 +496,10 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("--root", default=str(ROOT))
     sub = parser.add_subparsers(dest="command", required=True)
+    metadata = sub.add_parser("check-research-metadata", help="validate changed specs and maps read-only")
+    metadata.add_argument("--base", default="HEAD^1")
+    metadata.add_argument("--head", default="HEAD")
+    metadata.set_defaults(func=command_check_research_metadata)
     sel = sub.add_parser("select", help="print the results a change can affect")
     source = sel.add_mutually_exclusive_group(required=True)
     source.add_argument("--base", help="git revision to diff against (with --head)")
