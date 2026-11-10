@@ -18,7 +18,8 @@ identity of the carrier `B`, as in `NecessaryConcreteAt`; no counterpart
 relation is introduced.
 
 Encoded commitments (analyst reconstruction, each an open framework input):
-* `NearIsTolerance`: closeness is reflexive and symmetric (not transitive).
+* `NearIsTolerance`: closeness is reflexive and symmetric; transitivity is not
+  required and is not denied by this premise alone.
 * `OriginDeterminesAccess`: `v` is possible relative to `w` iff every individual
   existing at both has near origins there. The "only if" direction is the
   essentialist half (no possible world gives a thing a far origin); the "if"
@@ -26,18 +27,26 @@ Encoded commitments (analyst reconstruction, each an open framework input):
 * `OriginPlenitude`: tolerance is realised: for each concrete individual at `w`
   and each origin near its origin at `w`, some world accessible from `w`
   contains it with that origin.
-* `VariedOriginAt`: at `w` some concrete individual exists at two worlds
-  accessible from `w` with origins that are not near (the "possibly possible but
-  not possible" pattern carried by one individual).
+* `VariedOriginAt`: some concrete individual existing at `w` also exists at two
+  worlds accessible from `w` with origins that are not near. The separate
+  `OriginDeterminesAccess` premise links that non-closeness to access failure.
 
 Left OPEN: whether origins are the only essential constraint (the "if" half),
 vagueness of `near`, kind-relative tolerance, counterpart-theoretic readings,
-and whether a world can lack every actual individual. The relation between
-these commitments and reality is not asserted.
+and independent warrant for the permitted absences and temporal assignment.
+Individual deletion and joint deletion of the entire actual roster are different
+requirements; neither is `OriginPlenitude`, which preserves its selected
+individual. The relation between these commitments and reality is not asserted.
 
 Example: `Control.faithful` below. Counterexample: `Control.restored` satisfies
 the commitments but its only individual exists at every world, so the rival
-gives no countermodel there.
+gives no countermodel there. Direct evaluation, not a new registered theorem:
+every actual individual in `faithful` can be absent at an accessible world
+(`a` at `bMinus`, `b` at `aMinus`), yet `b` is necessary relative to `plus`.
+Requiring such deletion at every world would conflict with the existing
+`InertEmptiness.earlierNecessary` consequence of the arrival's temporal premises.
+That stronger bundle's inconsistency does not make this original model vacuous
+or establish that worldwise deletion follows from the origin commitments.
 -/
 
 @[expose] public section

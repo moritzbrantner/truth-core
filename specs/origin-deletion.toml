@@ -12,7 +12,7 @@ definitions = ["10a7b462-bc9a-4ec6-ab78-1242816a5331", "DEF-KANT-MODAL-CONTINGEN
 id = "2f055224-2c79-4c18-8f7d-ba3420fc116f"
 label = "At every world each existing concrete individual is absent from some world accessible from it"
 lean = "WorldwiseDeletion"
-paraphrase = "Candidate framework commitment, unattributed (worldwise individual deletion): for every world v and every concrete individual x existing at v, some world accessible from v lacks x. So no concrete individual is necessary relative to any world (world-relative necessity). Individual by individual: it does not assert a world lacking all concrete individuals at once."
+paraphrase = "Candidate framework commitment, unattributed (worldwise individual deletion): for every world v and every concrete individual x existing at v, some world accessible from v lacks x. Thus, at each world v, no concrete individual existing at v is necessary relative to v (world-relative necessity). This does not constrain non-concrete individuals or, without reflexivity, exclude necessity at v for a concrete individual absent at v. Individual by individual: it does not assert a world lacking all concrete individuals at once."
 definitions = ["10a7b462-bc9a-4ec6-ab78-1242816a5331", "DEF-KANT-MODAL-CONTINGENCY"]
 
 [[statement]]

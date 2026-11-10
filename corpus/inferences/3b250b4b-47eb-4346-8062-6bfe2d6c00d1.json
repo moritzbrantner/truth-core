@@ -1,0 +1,10 @@
+{
+  "id": "3b250b4b-47eb-4346-8062-6bfe2d6c00d1",
+  "label": "A3 accessible occurrence transport controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "2e374e3c-71b8-4308-8f65-41e4f95ab018",
+  "rule": "constructive proof and finite omission controls",
+  "meaning": "Constructively prove the strength comparison with the type-global law, the derivation of relativized uniqueness from UniqueRealization of accessible occurrence, the collapse forced by type-global uniqueness, one separating nonvacuity witness, and omission countermodels for the uniqueness and matching-conditioning antecedents. No premise discharge or root truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

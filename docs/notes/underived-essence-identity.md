@@ -617,3 +617,48 @@ concreta in its covered scope. It does not prove full propositional modal
 collapse without separately covering all facts. No member-alone sufficiency, frame law, excluded middle, descent, WF or productive-R bridge
 is introduced. The frozen coherence premise is stronger than the proof needs:
 only its forward truth-to-existence direction at accessible worlds is used.
+
+### Full modal package without an existential ingredient (2026-11-09)
+
+`TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate` checks the
+previously unanswered **joint** cell. On one fixed Bool-world/Bool-candidate
+interpretation, universal accessibility and literal candidate identity are held
+fixed. Candidate `false` exists in both worlds; candidate `true` exists at the
+actual `false` world and is absent at `true`. Both are designated concrete for
+this modal comparison. The single admitted complete ground targets
+`positive false` and contains the autonomous, universally true `other ()` only.
+Its contributor/enabler union is nonempty. All five original selected-target
+inputs hold, as do `NecessaryConcreteAt model false` and **not**
+`IngredientAt ground false`. Every world is populated and the second actual
+concrete individual is contingent. This is stronger joint compatibility evidence
+than the old mixed-ground example, whose essential label satisfied IngredientAt.
+It witnesses neither global modal collapse nor metaphysical possibility.
+
+This compares the explicit fact-label/full-record/modal interpretation only.
+The record admission and autonomy classification remain stipulations. Binary
+`arena.explains` and individual `model.grounds` are empty; neither is silently
+identified with admitted joint grounds. No explanatory adequacy, own-nature
+content, essence operator, or noncausal source of necessity is certified. The
+existing essence/content and noncausal explanatory-ground gaps remain open;
+modal `NecessaryAt`, a primitive essential label, `IsNecessaryPerSe` and
+esse/essence equality do not fill them. Next discriminating cell: add a precisely
+contentful essence or noncausal explanatory-ground adequacy condition to this
+**same** carrier and target, then test whether the nonexistential-ground model
+survives. Defining such a condition requires meaningful content and structural
+constraints; its real applicability can remain open during conditional study.
+
+`necessaryConcrete` also compiles as an **unregistered assembly theorem**. It
+calls the existing `AutonomousGroundNecessity.sameTarget` with the supplied
+Profile's exact `ontic` and `concrete` fields and packages the original target
+into `NecessaryConcreteAt`; it adds no premise or ontology identity bridge.
+Registration is blocked by inherited multi-sense links on the original five
+premise records (joint-condition/necessary-being, fact-ground/Groups and
+bare/necessitating reason). Declaring a selected sense does not remove those
+links. No bridge, exemption or legacy metadata repair is supplied here. The
+already registered `necessaryBeing` existential endpoint cannot substitute: its
+witness loses the original target's concrete predicate, so combining it with
+actual target concreteness would not preserve identity. Root connection plan:
+register this exact five-input assembly after a separately owned semantic
+metadata migration provides faithful predicate signatures/meaning links. Until
+then this PR delivers the joint certificate, **no registered new root route**,
+no premise establishment and no new inference-support claim for packaging.

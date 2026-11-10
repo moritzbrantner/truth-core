@@ -1,9 +1,15 @@
 {
   "id": "77c5f64a-7126-4804-8af2-ed32382a8f8e",
   "label": "Some actual concrete individual has two possible origins that are not near each other",
-  "paraphrase": "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): some concrete individual existing at the selected world w exists at two worlds accessible from w whose origins for it are not near each other (the possibly-possible-but-not-possible pattern carried by one individual).",
+  "paraphrase": "Rival framework commitment, unattributed (analyst origin-tolerance reconstruction; attribution deferred): some concrete individual existing at the selected world w also exists at two worlds accessible from w whose origins for that same individual are not near each other. The proof uses the separate OriginDeterminesAccess premise to conclude their access failure.",
   "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.VariedOriginAt",
   "definition_ids": [
-    "622524e2-e7f3-4b27-a644-bf9a4235121b"
+    "55f1e519-2cc8-4f56-ab4b-8a373e23276b",
+    "622524e2-e7f3-4b27-a644-bf9a4235121b",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
+  ],
+  "disambiguation_ids": [
+    "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d"
   ]
 }

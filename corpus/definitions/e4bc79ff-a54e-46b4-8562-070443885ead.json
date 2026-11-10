@@ -1,0 +1,9 @@
+{
+  "id": "e4bc79ff-a54e-46b4-8562-070443885ead",
+  "label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY_3: reflexive and symmetric origin closeness",
+  "term": "origin closeness as tolerance",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.NearIsTolerance",
+  "definition": "For the supplied OriginInterface I, NearIsTolerance I means (∀ o, I.near o o) ∧ (∀ o o′, I.near o o′ → I.near o′ o). Its domain is every origin value in O, including unused values. It constrains the primitive near relation; it does not define a material-distance threshold. Transitivity is neither required nor denied. The three-offset interpretation makes adjacent offsets near and opposite offsets not near, whereas a universal near relation would also satisfy this predicate and would be transitive.",
+  "note": "Stipulative analyst constraint, not a sourced claim or an established property of material origins. The primitive interface and its open physical interpretation are recorded in 622524e2-e7f3-4b27-a644-bf9a4235121b. This is the origin-comparison sense of tolerance, distinct from truth-preserving classification along a case chain and partial non-opposition in DISAMB-SORITES-TOLERANCE-CLASSIFICATION. No assertion about classification, vague boundaries or modal access follows from it alone.",
+  "basis": "stipulative"
+}
