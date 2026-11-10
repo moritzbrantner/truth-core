@@ -139,3 +139,18 @@ device equations. The attempt now identifies the unassigned reference-ground
 dependency without asserting another lane owns it. No theorem, numbered
 cognitive sense or semantic-adequacy claim changes. The reviewed structural
 scope remains qualified; reference-fixing and actual cognition stay OPEN.
+
+## Binding and integration repair
+
+CI at6196a1980 found that the Solution declared expanded formulas while the
+registered statements named Selection, Controls and ReferenceControls. The
+Solution now declares those exact wrappers and introduces their quantified
+variables inside the proof. The original frozen Challenge and mathematical
+propositions are unchanged; the wrappers unfold to the same theorem types.
+Both canonical modules compiled with the pinned Lean toolchain and warm isolated
+output overlay. Scoped `corpus.py bind-check --result 19183927-9590-41d8-a4ad-04137100ad4a
+--result 94c1c39b-1127-4e34-8baf-b166c1724ce6 --result
+1d8ca4b0-98f6-4ed0-88b1-ffcb01e31d62` using BindTypes output from those compiled
+modules reports **3 bound, 0 mismatch**. The main merge's only conflicts were
+generated Logic import aggregators; regeneration preserves both clusters.
+Final delivered-head certification remains CI.

@@ -1,0 +1,10 @@
+{
+  "id": "b8cc13b9-485d-47b3-bab4-2c5e3f419f34",
+  "label": "Foreknowledge selected-family equivalence and discrimination checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "1ac7429d-d6e5-45d3-ac4f-ec5c2275a5ad",
+  "rule": "Boolean cases and universal specialization",
+  "meaning": "Unfold the existing relational Knows operator. Each selected content has two Boolean cases. Factivity at the second world and equal epistemic rows place that world among the first world's alternatives; profile agreement contradicts a differing content. Applying the explicitly supplied supervenience premise proves the intrinsic-state and hard-past conditional no-go. No divine application bridge is proved.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
