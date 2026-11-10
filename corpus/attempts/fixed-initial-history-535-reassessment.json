@@ -7,12 +7,15 @@
     "5b521600-7250-53bd-80e6-5ee8a3044f94",
     "7c8d8a36-d0d4-5d28-a129-0577536fe8a0"
   ],
-  "kind": "reading",
+  "kind": "countermodel",
   "outcome": "succeeded",
-  "summary": "Reconciled issue 535 rough draft with the existing physical-ground, identity-profile, history-restriction and origin/deletion controls. Full argument, recursive primitive audit, positive rivals, root bridge limits and provisional judgment draft in docs/notes/fixed-initial-history-535.md. Shared-preview full edits elaborated the arbitrary-access initial-witness propagation and bare incoming-support control without axioms; these are development evidence, not registered certification. Rejected upgrades: qualitative matching to numerical identity; temporal initiality to underivedness; presence histories to complete metaphysical possibilities; Boolean variation to objective chance; origin preservation conditional on existence to required existence. Existing local-data-preserving rivals leave modal inventory and identity warrant underdetermined. No new argument or root premise closure.",
-  "blocker": "Original issue acceptance remains incomplete: joint initial-history/qualitative-description/later-variation vocabulary and frozen certification, exact configuration branch, and independent semantic challenge of the judgment. Next test separates conditional-origin constraints from inventory/deletion; coordinator reassessment requested, not philosophical exhaustion.",
+  "summary": "Reconciled issue 535 rough draft with the existing physical-ground, identity-profile, history-restriction and origin/deletion controls. Full argument, recursive primitive audit, positive rivals, root bridge limits and provisional judgment draft in docs/notes/fixed-initial-history-535.md. Shared-preview full edits elaborated the arbitrary-access initial-witness propagation and bare incoming-support control without axioms; these are development evidence, not registered certification. Rejected upgrades: qualitative matching to numerical identity; temporal initiality to underivedness; presence histories to complete metaphysical possibilities; Boolean variation to objective chance; origin preservation conditional on existence to required existence. Existing local-data-preserving rivals leave modal inventory and identity warrant underdetermined. No new argument or root premise closure. Follow-up implements FixedInitial535 shared typed joint controls, transcription propagation, rigid-variable-later #477 branch registration and same-initial-witness dependent control. Conditional origin preservation holds even in the populated rotating omission profile; it does not force inventory. Final modules compile and three bindings pass; Comparator sandbox failed before certification. See follow-up section of the same note.",
+  "blocker": "Delivered-head Comparator/NanoDa and live configuration certification pending after sandbox lake Permission denied; independent semantic challenge pending. Philosophical gap: no independently warranted inventory/identity bridge forces presence from conditional origin preservation. Chance interpretation is not supplied or claimed.",
   "evidence": [
     "93f096f6-2556-5bc0-8f70-6bf870b922ac",
-    "abfc2e61-b9d6-5918-bfbb-82cbedfcd606"
+    "abfc2e61-b9d6-5918-bfbb-82cbedfcd606",
+    "bceb9bda-cf1c-4038-a5bd-43d63c6a06dc",
+    "b99b6dd0-1850-432d-a33a-2b592f404599",
+    "d5b1d0f7-6736-4578-8d11-8d4704a08464"
   ]
 }

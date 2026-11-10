@@ -226,3 +226,86 @@ consequence; the schema above remains development evidence only.
 
 Shared convention sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+## Implemented joint controls (follow-up, 2026-11-10)
+
+This section supersedes the earlier checkpoint's *implementation* gaps; its
+warrant reservations stand. `TruthCore.Modal.FixedInitial535` now supplies one
+shared typed history vocabulary, a frozen Challenge and real Solution, batch
+`specs/fixed-initial-535.toml`, and generated corpus records. The weakest
+propagation schema is explicitly classified `single_application` transcription.
+It retains the very same actual initial witness in its conclusion. No selected
+underived existential witness is substituted for it.
+
+`Controls` checks four joint interpretations on the SAME Bool worlds and
+Bool×Bool numerical roster, with universal access and an initial existent at
+every world. The rigid row fixes root `(false,false)`, initial description and
+initial roster while the later observation differs. The qualitative row rotates
+the root tag while preserving the description; no candidate is necessary. The
+third row changes the description as well. The fourth preserves the original
+necessary initial root but gives it an incoming ground from distinct existing
+`(true,false)` at EVERY world. Ground endpoints are explicitly sound and distinct.
+The grounding relation has one edge, not a reflexive self-ground; this control
+does not assert an independently adequate dependence theory.
+
+All rows also satisfy `ConditionalOrigin`: an actual initial bearer retains
+its origin wherever it exists. The qualitative row therefore gives a populated
+omission control against promoting conditional origin preservation into mandatory
+presence. It does not refute origin essentialism; it isolates the additional
+existence-forcing inventory commitment. The different-description row tests
+omission of the qualitative constraint separately. These controls concern exact
+selected observations, not complete cosmologies. The initial roster remains an
+explicit primitive: no earliest-time, law-completeness, naturalness or objective
+chance interpretation has been smuggled into its definition. Consequential
+primitive obligations are recorded in the linked profile definition.
+
+`corpus/configurations/fixed-initial-535.json` registers the exact closed rigid
+branch for #477, with a finite model evaluation backed by a direct constructive
+zero-axiom `rigidBranch` proof. An initial projection from the aggregate
+certificate was rejected by live model verification because it inherited
+`propext`/`Quot.sound`; replacing it preserves the exact frozen type. Its semantic profile declares rigid identity and the
+closed finite assignment. Registration alone is not a certified live verdict.
+No arbitrary God predicate is introduced: the earlier root-bridge comparison
+continues to use the actual composite/uniting-cause and intellect/will inputs
+of the physical-ground ladder. This model claims neither those full inputs nor
+their negation. Describing its empty-ground initial root as *natural* remains an
+interpretation burden; the four tests establish the structural comparison only.
+
+Claim/type self-sweep: checked all new declaration bodies and frozen signatures.
+`NecessaryAt` is accessible-world presence, initiality is a selected roster,
+`SameDescription` is equality of a supplied D-value, and `LaterVariation` is an
+unequal Boolean observation. The profile's `grounds` is primitive existential
+support; its endpoint laws are constraints, not a completed analysis. No source
+claim, floor marking, independent warrant, probability model, or root closure
+has been added. No exhaustive coverage or minimality is claimed.
+
+Evidence: final vocabulary, Challenge and Solution compile using explicit warm
+imports; targeted bind-check reports **3 bound, 0 mismatch**. Repeated shared
+preview edits reached no errors, then axiom inspection reported `propext` and
+`Quot.sound` for controls. Final preview content hash
+`ae99cb5845ab2f3d4b0c7da6375b90d8d27e02e82ab165c254b055a398162da5`
+concerns the pre-schema-wrapper source at the unchanged clean policy HEAD;
+local compilation and binding cover the added wrapper. A service corpus query
+also succeeded. Retain the service for repeated edits (warm submissions about
+0.3s elaboration); use CLI for final file bindings. No controlled timing
+comparison supports a broader performance claim.
+
+Comparator was attempted under the heavy lock and failed at its sandboxed
+`lake build` with `Permission denied (os error 13)`. No bypass attempted.
+Delivered-head CI must supply Comparator/NanoDa and live configuration evidence;
+local compilation, successful bindings and registration do not replace them.
+
+Substantive reassessment: the available joint deduction/model obligations are
+implemented. The remaining semantic question is why metaphysical accessibility
+must include the rigid inventory rather than the qualitative/origin-preserving
+omission row. None of the inspected definitions or conditional origin premises
+supplies that reason. An independent defense of the inventory bridge, or a
+stronger warranted identity principle implying presence, is the next discriminating
+test; another propagation proof would not answer it. Objective chance requires
+an explicit stochastic interpretation and is not claimed here. The coordinator
+must independently challenge the final consequential findings and track CI;
+issue #535 remains open pending those gates and these interpretation boundaries.
+
+Computed frontier-diff against current origin/main: 402 open root premises
+(262 bare, 95 supported, 45 stated) unchanged; minimum route diagnostic 16
+unchanged; verified support alternatives 288 unchanged, 0 added.

@@ -27,6 +27,7 @@ public import TruthCore.Modal.ExistenceDegreeAttainment
 public import TruthCore.Modal.ExistenceDegrees
 public import TruthCore.Modal.FiniteHitting.FiniteControls
 public import TruthCore.Modal.FiniteHitting.Vocabulary
+public import TruthCore.Modal.FixedInitial535
 public import TruthCore.Modal.GraphBridge
 public import TruthCore.Modal.GraphBridgeCertificate
 public import TruthCore.Modal.HistoryContrastive

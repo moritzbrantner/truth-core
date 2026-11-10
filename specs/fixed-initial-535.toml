@@ -1,0 +1,46 @@
+[batch]
+definitions = ["9f7c8d83-3d48-4c57-b5bb-625b01bedc51"]
+vocab = "TruthCore.Modal.FixedInitial535"
+results = "TruthCore.Results.Modal.FixedInitial535"
+
+[[statement]]
+id = "Fixed initial 535 joint controls"
+lean = "Controls"
+paraphrase = "Analyst finite joint tests on one Bool-world, Bool×Bool rigid roster: a populated rigid initial root coexists with later Boolean variation and constant description; a rotating initial root retains constant description and conditional origin preservation without any necessary bearer; changing the description removes qualitative sameness; a rigid initial root can have an existing distinct incoming ground at every world. No chance, complete metaphysical possibility, naturalness or root bridge is inferred."
+
+[[argument]]
+id = "Fixed initial 535 joint controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Fixed initial 535 joint controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Finite joint witnesses by exhaustive Boolean simplification"
+meaning = "Joint nonvacuity and omission controls for issue 535; all conclusions concern supplied finite interpretations, not metaphysical possibility."
+
+[[statement]]
+id = "Fixed initial 535 rigid variable later branch"
+lean = "RigidBranch"
+paraphrase = "The explicit profile false false false jointly has a populated initial roster, sound distinct grounding endpoints, conditional origin preservation, rigid initial preservation, constant initial description and varied later states, with the SAME initial bearer (false,false) necessary. Existential grounding is empty in this profile; naturalness is an open interpretation, not an additional certified predicate."
+
+[[argument]]
+id = "Fixed initial 535 rigid branch checked"
+theorem = "rigidBranch"
+premises = []
+conclusion = "Fixed initial 535 rigid variable later branch"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Projection of joint finite certificate"
+meaning = "Exact joint finite branch for configuration comparison; no metaphysical possibility or probability conclusion."
+
+[[statement]]
+id = "Fixed initial 535 propagation schema"
+lean = "Propagation"
+paraphrase = "For arbitrary supplied typed histories and accessibility, a populated sound rigidly preserved initial roster yields the SAME actual initial witness necessarily present. This elementary witness propagation is transcription, not independent warrant for modal inventory."
+
+[[argument]]
+id = "Fixed initial 535 propagation transcribed"
+theorem = "propagation"
+premises = []
+conclusion = "Fixed initial 535 propagation schema"
+transcription = "single_application"
+rule = "Witness propagation"
+meaning = "Elementary propagation of an explicitly assumed same bearer; no philosophical premise discharged."
