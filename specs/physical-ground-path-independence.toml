@@ -22,7 +22,7 @@ meaning = "The single formula 'the object is reachable from the permitted anchor
 id = "A shared reachability profile fixes neither route composition nor intellect"
 lean = "TruthCore.Alternatives.PhysicalSpecification.routeIndependenceControl"
 paraphrase = "There are two specified routes on Nat, each pairing a graph interpretation with PhysicalGround.Route parameters, that have the same anchor and the same extension for every restricted path formula (the anchor reaches exactly the even numbers), and both satisfy the ST I q.14 a.1 reading Route.Immaterial; in the first the anchor is composite and has intellect, in the second it is neither composite nor has intellect. Independence inside this candidate language only: no mapping of the language to an original ground is supplied, so the root-route step is neither refuted nor supported."
-definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55", "dace8e73-8b5b-5378-8e62-17d534413168", "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4", "98ac7aa1-54cb-553c-826b-2a69257f6cbe"]
+definitions = ["7ec17771-8ac2-476b-b674-40ef61a2debc", "e6aeaf5b-de26-4beb-bc38-6941c7b3530e", "f2fa9b1d-6d34-417b-a734-1fb787badd55", "6c08b6ef-5014-4412-9c34-aa7c70549aaa", "dace8e73-8b5b-5378-8e62-17d534413168", "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4", "98ac7aa1-54cb-553c-826b-2a69257f6cbe", "85f7f569-ab4d-514b-aa2c-cf75171ad105"]
 disambiguations = []
 
 [[argument]]

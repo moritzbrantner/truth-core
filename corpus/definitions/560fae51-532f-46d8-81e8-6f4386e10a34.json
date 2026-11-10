@@ -1,0 +1,9 @@
+{
+  "id": "560fae51-532f-46d8-81e8-6f4386e10a34",
+  "label": "NECESSARY_14: validity over all small modal frames",
+  "term": "necessary",
+  "definition": "AllFrameKValidity phi quantifies every small world type W, every Frame W, every valuation and world, with Holds of the same Modal.Formula. There is no frame-law restriction. This is semantic K validity of this language, with no completeness or proof-system claim.",
+  "basis": "stipulative",
+  "note": "Analyst formulation, attribution deferred. Implication identity and axiom K are examples; axiom T is invalid on a no-edge Unit frame with a false atom. The Type universe restriction is explicit: this declaration is not an assertion about every language, logic, first-order structure or existence signature. Reuses Modal.Kripke Holds/Valid and NecessarySenseFork; no causal, temporal or essence interpretation is encoded. Distinct declarations give explicit meanings rather than opaque flags. Coverage and exclusivity of intended readings remain OPEN; no original allowance removed.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.AllFrameKValidity"
+}

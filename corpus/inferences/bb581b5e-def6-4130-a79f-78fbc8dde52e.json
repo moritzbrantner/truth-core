@@ -1,0 +1,10 @@
+{
+  "id": "bb581b5e-def6-4130-a79f-78fbc8dde52e",
+  "label": "Productive source calibration controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "76cab8d4-fe29-4df3-97aa-69945687dcb5",
+  "rule": "Same-witness composition or explicit finite witness",
+  "meaning": "Explicit finite omissions and joint witness; Bool and Unit are control carriers only, not models advertised as the original senses.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

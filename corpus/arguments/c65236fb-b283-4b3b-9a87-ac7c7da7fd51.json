@@ -1,0 +1,31 @@
+{
+  "id": "c65236fb-b283-4b3b-9a87-ac7c7da7fd51",
+  "label": "K validity weakens to selected-frame validity",
+  "premise_statement_ids": [
+    "d912723b-b4c7-4c05-9cda-2105e7b80659"
+  ],
+  "conclusion_statement_id": "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b",
+  "inference_ids": [
+    "432ff784-7f55-4b65-a1d4-f6bf7e09b400"
+  ],
+  "meaning": "Specialize the all-small-frame universal to the same selected frame and formula. Exact strong-only-premise result.",
+  "definition_ids": [
+    "560fae51-532f-46d8-81e8-6f4386e10a34",
+    "ea0a177a-b3a7-4559-946d-d9401ba1c6e3"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "98d1cfa6-e643-496e-b5df-697aa111b95a",
+      "to": "db36c5d8-92f3-4704-aebe-c0bb1628dde8",
+      "statement_id": "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b",
+      "role": "conclusion"
+    }
+  ],
+  "disambiguation_ids": [
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "term_senses": {
+    "NECESSARY": "98d1cfa6-e643-496e-b5df-697aa111b95a"
+  }
+}

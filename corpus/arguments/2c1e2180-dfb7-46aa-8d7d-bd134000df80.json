@@ -1,0 +1,13 @@
+{
+  "id": "2c1e2180-dfb7-46aa-8d7d-bd134000df80",
+  "label": "Formula-local possible-impossibility duality calculation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f8cba43f-ab11-4a46-8d2b-4f9753d6b277",
+  "inference_ids": [
+    "2f99b142-7ee1-49f3-b093-d881b8631a1a"
+  ],
+  "meaning": "Conditional analyst certificate. One formula and standpoint only; no global excluded middle or frame axiom. Source-to-Kripke, report-to-truth and source situation coverage remain open.",
+  "definition_ids": [
+    "9c049e13-5c43-408a-89ae-07adec28f434"
+  ]
+}

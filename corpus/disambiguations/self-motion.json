@@ -5,9 +5,10 @@
   "term": "self-motion (moved by itself, moves itself)",
   "sense_definition_ids": [
     "e13e749b-d266-5f18-bc50-59b340444c1f",
-    "8e970ec8-4a38-53bb-8786-f52af8664cc2"
+    "8e970ec8-4a38-53bb-8786-f52af8664cc2",
+    "2fccff11-d956-4ec2-9705-922413f76a5c"
   ],
-  "resolution": "Two predicates, never identified. Aristotle's self-mover (`SelfMovedIn`, Physics VIII.4) is a whole moved by itself, one part moving another; the prima via and STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT deny something else, that a thing is the mover of itself in the very respect in which it is moved (`MovesIn x x r`). VIII.5, 257b2-13 itself says a self-mover cannot move itself as a whole in the same respect, so the two are compatible. No inference passes from `SelfMovedIn x r` to `MovesIn x x r` or back: STMT-NATURAL-SELF-MOTION-HAS-A-MOVER says only that a self-motion has some per se mover in that respect; the two are compatible only if that mover is a part distinct from the whole, which STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT then requires.",
+  "resolution": "Two predicates, never identified. Aristotle's self-mover (`SelfMovedIn`, Physics VIII.4) is a whole moved by itself, one part moving another; the prima via and STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT deny something else, that a thing is the mover of itself in the very respect in which it is moved (`MovesIn x x r`). VIII.5, 257b2-13 itself says a self-mover cannot move itself as a whole in the same respect, so the two are compatible. No inference passes from `SelfMovedIn x r` to `MovesIn x x r` or back: STMT-NATURAL-SELF-MOTION-HAS-A-MOVER says only that a self-motion has some per se mover in that respect; the two are compatible only if that mover is a part distinct from the whole, which STMT-NO-MOVER-MOVES-ITSELF-IN-ITS-RESPECT then requires. Semantic audit 2026-11-09: the existing distinct-part root premise has diagonal MovesIn x x r as antecedent, hence SELF_MOTION_1, not original SELF_MOTION_2. SELF_MOTION_3 is a separate analyst reconstruction with a moving whole, distinct proper parts, internal motion and explicit integration. It is not an asserted equivalent of independent SelfMovedIn. Diagonal-to-reconstruction and internal-to-whole movement are OPEN bridges; whole actuality remains OPEN. Coverage of all philosophical senses and exclusive applicability to any natural-language occurrence are not asserted. Finite certificates compare the selected readings at one context only.",
   "term_label": "SELF_MOTION",
   "senses": [
     {
@@ -19,6 +20,12 @@
       "id": "9d34b6b3-d250-4b14-8022-3cb5bba003d0",
       "label": "SELF_MOTION_2",
       "definition_id": "8e970ec8-4a38-53bb-8786-f52af8664cc2"
+    },
+    {
+      "id": "06ebbc92-0209-443a-99cd-185af225b9f5",
+      "label": "SELF_MOTION_3",
+      "definition_id": "2fccff11-d956-4ec2-9705-922413f76a5c",
+      "lean_declaration": "TruthCore.Causality.SelfMotionSeparation.WholeParts"
     }
   ]
 }

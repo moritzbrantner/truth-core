@@ -274,6 +274,19 @@ class ImpactPlanTest(unittest.TestCase):
                     self.assertFalse(plan["checks"][key])
         self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
 
+    def test_truth_cli_parity_runs_only_when_an_implementation_may_change(self):
+        for path in ("corpus/statements/S.json", "results/RESULT-A/comparator.json",
+                     "TruthCore/Results/A/Solution.lean", "AGENTS.md"):
+            with self.subTest(path=path):
+                self.assertFalse(self.plan(path)["checks"]["truth_cli"])
+        for path in ("truth/src/frontier.rs", "Cargo.toml", "Cargo.lock", "scripts/corpus.py",
+                     "scripts/verify_truth_cli.py", ".github/workflows/ci.yml"):
+            with self.subTest(path=path):
+                self.assertTrue(self.plan(path)["checks"]["truth_cli"])
+        # Corpus drift on the real corpus is still compared after merge and nightly.
+        self.assertTrue(self.plan("corpus/statements/S.json", main=True)["checks"]["truth_cli"])
+        self.assertTrue(ar.impact_plan(self.root, None)["checks"]["truth_cli"])
+
     def test_offline_frontier_test_only_keeps_fast_checks(self):
         for main in (False, True):
             with self.subTest(main=main):
@@ -431,6 +444,10 @@ class ComparatorAggregateTest(unittest.TestCase):
             self.assertIn("if: needs.comparator-plan.outputs.explorer == 'true'", block)
         self.assertIn("if: needs.comparator-plan.outputs.comparator_library == 'true'", workflow)
         self.assertIn("if: needs.comparator-plan.outputs.explorer_tests == 'true'", workflow)
+        truth_cli = workflow.split("  truth-cli:\n", 1)[1].split("    steps:", 1)[0]
+        self.assertIn("needs: comparator-plan", truth_cli)
+        self.assertIn("if: needs.comparator-plan.outputs.truth_cli == 'true'", truth_cli)
+        self.assertIn("truth_cli: ${{ steps.select.outputs.truth_cli }}", workflow)
         for step in ("Bind argument records to result theorem types", "Verify immutable primary-source witnesses"):
             self.assertIn("if: needs.comparator-plan.outputs.", workflow.split(f"- name: {step}\n")[1].split("run:")[0])
 

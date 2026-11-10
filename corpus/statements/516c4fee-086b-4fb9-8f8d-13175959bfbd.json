@@ -1,0 +1,9 @@
+{
+  "id": "516c4fee-086b-4fb9-8f8d-13175959bfbd",
+  "label": "Actual grounding potential positive gap",
+  "paraphrase": "OPEN numerical input: the one supplied real epsilon is strictly positive; the same epsilon applies on every relevant grounding edge.",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.PositiveGap",
+  "definition_ids": [
+    "0cfe9db9-5656-44ff-a8bf-c95ac9a48098"
+  ]
+}

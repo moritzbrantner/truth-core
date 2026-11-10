@@ -1,0 +1,11 @@
+{
+  "id": "bcada1c4-aec8-42d9-9671-ca5dd9b65b49",
+  "label": "Logical-profile dictionary and root-facts omissions checked",
+  "argument_id": "b2b8af3e-7404-403a-9e74-9aad08c64f8a",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.omissionControls",
+  "comparator_config": "results/bcada1c4-aec8-42d9-9671-ca5dd9b65b49/comparator.json",
+  "status": "solution-present",
+  "description": "Omitting the existence dictionary allows a valid identity formula but no box-existent root. Omitting independent RootFacts allows a dictionary-correct admitted atom theory but no God witness. The first model retains an actual root with all divine fields stipulated; its failure concerns only box-existence. The second changes only the supplied divine predicate to False. No reality claim is made."
+}

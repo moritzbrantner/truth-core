@@ -1,0 +1,24 @@
+{
+  "id": "af7171b5-371a-497d-9486-c73b5b9d3002",
+  "label": "Actual grounding finite rank from bounded uniform real potential",
+  "argument_id": "ab286f94-eefa-486e-bb7b-ccdc14dc76d3",
+  "challenge_module": "TruthCore.Results.Causality.ActualGroundingPotentialRank.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualGroundingPotentialRank.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualGroundingPotentialRank.finiteRankFromPotential",
+  "comparator_config": "results/af7171b5-371a-497d-9486-c73b5b9d3002/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional support option: floor((S x-L)/epsilon) supplies the existing Nat rank. Lower bound makes normalized potential nonnegative on actual nodes; the fixed positive gap gives normalized increase at least one along each y-to-x edge; floor therefore strictly increases toward effects. All three numeric inputs are OPEN; no real-world grounding correlation, premise truth, original declaration clearance or root discharge. One sufficient quantitative profile, no converse or universal metaphysical adequacy asserted.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "47e323f2-3405-5caf-a192-201eb1e02f76",
+      "rival_statement_id": "a68b219e-9ebc-475f-9a6b-9088f5468418",
+      "sense_definition_id": "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+      "outcome": "excluded",
+      "conditions": "Joint PotentialLowerBound m w S L, PositiveGap epsilon, UniformGroundGap m w S epsilon; standard Mathlib three logical axioms. All calibrations open.",
+      "scope": "Same Profile W B, same selected w, same rigid candidate domain B and actual/concrete restriction; no other world or temporal stock.",
+      "coverage": "Only the explicitly encoded Nat-rank condition versus its negation; no exhaustive metaphysical profile classification.",
+      "exclusivity": "Negation of the identical ActualGroundingFiniteRank m w; incompatibility is propositional.",
+      "next_step": "Investigate independent real-world calibration or a separately encoded weaker profile; no original premise discharged."
+    }
+  ]
+}

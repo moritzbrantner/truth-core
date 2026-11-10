@@ -1,0 +1,10 @@
+{
+  "id": "40a212a3-8ddb-437c-82b4-7432cf80ee9f",
+  "label": "Formula-local possible-impossibility omission controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "1930d164-41b2-4a82-a880-aa74f3130773",
+  "rule": "Construct finite witnesses in the existing Bool frames.",
+  "meaning": "Nonvacuity and scope/report/gloss bridge omission controls only. Bool does not restrict the arbitrary-world certificate.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

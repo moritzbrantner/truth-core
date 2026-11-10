@@ -1,0 +1,12 @@
+{
+  "id": "3209ff59-a0ec-4e70-8198-63c3056628a4",
+  "label": "An integrated internal mover moves the whole in the same context",
+  "paraphrase": "OPEN analyst bridge: when distinct proper parts p and q of whole x satisfy Moves p q c and Integrated x p q c, the same p moves x in the same context c. Does not transfer actuality.",
+  "lean_declaration": "TruthCore.Causality.SelfMotionSeparation.InternalMoverMovesWhole",
+  "definition_ids": [
+    "701c8996-8d37-546d-9610-26b758dd04e8"
+  ],
+  "disambiguation_ids": [
+    "aa925dce-cf10-535e-a9ef-a5a0f00a677f"
+  ]
+}

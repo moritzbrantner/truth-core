@@ -1,0 +1,11 @@
+{
+  "id": "79af5fb6-3d6b-4a41-9528-ad8c6ee3f9ca",
+  "label": "Productive source calibration controls",
+  "argument_id": "163d851b-665d-4636-bf2e-de68dac52f1f",
+  "challenge_module": "TruthCore.Results.Causality.SurveyProductiveSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveyProductiveSource.Solution",
+  "theorem": "TruthCore.Results.Causality.SurveyProductiveSource.controls",
+  "comparator_config": "results/79af5fb6-3d6b-4a41-9528-ad8c6ee3f9ca/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit finite omissions and joint witness; Bool and Unit are control carriers only, not models advertised as the original senses."
+}

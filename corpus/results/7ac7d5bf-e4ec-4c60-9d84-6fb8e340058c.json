@@ -1,0 +1,61 @@
+{
+  "id": "7ac7d5bf-e4ec-4c60-9d84-6fb8e340058c",
+  "label": "Subject focal role controls, checked",
+  "argument_id": "ee07136d-dd48-449d-a7e0-18352e6a3ae9",
+  "challenge_module": "TruthCore.Results.Causality.SubjectFocalRoles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SubjectFocalRoles.Solution",
+  "theorem": "TruthCore.Results.Causality.SubjectFocalRoles.controls",
+  "comparator_config": "results/7ac7d5bf-e4ec-4c60-9d84-6fb8e340058c/comparator.json",
+  "status": "solution-present",
+  "description": "One joint populated finite certificate. Carrier Control.B (four named individuals), one world, existsAt, substance, primary 0 and creature remain fixed in causal and degree cells. Changing common to split changes only subject assignment and preserves role extensions. Product Bool degrees are incomparable; natural-number degrees are comparable, and noMore fails the exact approach biconditional where totalMore succeeds. All three bridge omissions have explicit counterexamples. No full Aristotle/Aquinas interpretation or metaphysical possibility established.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "30a8373c-5188-581b-b746-e319d71311e4",
+      "rival_statement_id": "c5368cf0-f017-4fc7-8a09-989995a329f3",
+      "sense_definition_id": "283c7d89-9f77-41b3-9370-866108af90f7",
+      "outcome": "model-witnessed",
+      "conditions": "SubjectFocalReading existsAt substance common, CreatureSubjectBridge, CommonCenter at 0. Controls proves OrderedToPrimaryAsCauseReading for subjectCause and its negation for noCause; efficient content is supplied independently by the named assignment.",
+      "scope": "Same Control.B (four named individuals) individuals, one implicit world, existence, substance, common inherence, HasBeing, Creature and primary 0. Only CausesIn changes between the two assignments. This tests a candidate instance of the exact interface, not full sourced BEING_4.",
+      "coverage": "Only primary substance and secondary subject-dependent accident accounts. No claim to all focal roles or all BEING_4 meanings.",
+      "exclusivity": "The two candidate accounts are disjoint by endpoint constraints, as roleDiversity proves; this does not select a historical reading or exclude rival frameworks.",
+      "witness": "Control.common edges 2->0 and 3->0; subjects 0 and 1, accidents 2 and 3. Control.subjectCause satisfies and noCause violates the interface in the SAME nonempty interpretation.",
+      "next_step": "Test whether the subject-to-efficient-cause translation is philosophically applicable to this same dependence, and separately whether all intended creatures can be secondary subjects."
+    },
+    {
+      "target_statement_id": "82286a91-a610-52d2-9f28-2cc459a75ac7",
+      "rival_statement_id": "c5368cf0-f017-4fc7-8a09-989995a329f3",
+      "sense_definition_id": "283c7d89-9f77-41b3-9370-866108af90f7",
+      "outcome": "model-witnessed",
+      "conditions": "Same populated subject candidate. partialNear reaches incomparable Bool-product degrees; totalNear reaches comparable Nat degrees. Holding totalNear fixed, totalMore satisfies ApproachToPrimaryReading while noMore violates it. No supplied near map is asserted an independently justified measure of being.",
+      "scope": "Same Control.B (four named individuals), one implicit world, existence, substance, common inherence, HasBeing, Creature and primary 0 throughout. Only the expressly named degree map/order or MoreIn changes. Causal assignments are independent.",
+      "coverage": "Only the selected two-role analyst interpretation; partial and total degree assignments are finite tests, not exhaustive approaches or all focal senses.",
+      "exclusivity": "Assignments select their explicit parameter values. They do not force exclusive philosophical readings or assert a univocal scalar ontology.",
+      "witness": "Controls: partialNear 2=(true,false) and partialNear 0=(false,true); totalNear assigns 0,1,2,3 to the four named individuals. With totalNear fixed, totalMore is its strict comparison, noMore is empty. Both role accounts remain populated.",
+      "next_step": "Supply a nonstipulative approach interpretation/calibration for the same intended full BEING_4 meaning; neither arbitrary finite grading nor subject dependence provides it."
+    },
+    {
+      "target_statement_id": "30a8373c-5188-581b-b746-e319d71311e4",
+      "rival_statement_id": "c5368cf0-f017-4fc7-8a09-989995a329f3",
+      "sense_definition_id": "954583f0-97f4-5f94-8fce-9e52ea267929",
+      "outcome": "unresolved",
+      "conditions": "The closed controls interpret only the new analyst subject/accident body. No theorem binds full BEING_4 to this candidate.",
+      "scope": "Original diverse-rationes, substance-focal and God/creature source meanings kept distinct. Missing mappings are not model compatibility or countermodels to the original definition.",
+      "coverage": "No full source-meaning coverage supplied.",
+      "exclusivity": "No intended-reading selection supplied.",
+      "gap": "Full diverse rationes, privation/ways-to-substance, predication reduction and divine analogy, plus a same-witness causal applicability bridge remain OPEN.",
+      "next_step": "Interpret another load-bearing focal role, e.g. privation, without identifying subject dependence with efficient production; compare against this candidate on the same domain."
+    },
+    {
+      "target_statement_id": "2fa04c4f-6390-4ae1-afba-0800d3b0765c",
+      "rival_statement_id": "c5368cf0-f017-4fc7-8a09-989995a329f3",
+      "sense_definition_id": "283c7d89-9f77-41b3-9370-866108af90f7",
+      "outcome": "model-witnessed",
+      "conditions": "The common assignment has exactly one common subject center 0 and a distinct substantial individual 1. The split assignment has no common center. Both satisfy SubjectFocalReading.",
+      "scope": "Same four named individuals, one implicit world, existence, substance extension {0,1} and secondary extension {2,3}. Only Inheres changes, from 2->0 and 3->0 to 2->0 and 3->1. This is a comparison of common primary instances, not an identification of God.",
+      "coverage": "Only these two subject assignments; not all focal relations or philosophical primary meanings.",
+      "exclusivity": "Each finite assignment fixes its explicit subject dictionary; no intended historical reading is selected.",
+      "witness": "Controls proves forall p, CommonCenter substance common p iff p=0, existence of another substance 1, and not exists p, CommonCenter substance split p, with populated accounts in both.",
+      "next_step": "Find an independent same-instance bridge if the intended application needs one primary rather than one kind of primary; a shared subject role does not provide this."
+    }
+  ]
+}

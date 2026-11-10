@@ -7,5 +7,5 @@
   "predicate": "supports",
   "object_kind": "statement",
   "object_id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
-  "note": "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned."
+  "note": "Physics VIII.4 says a self-moved animal is moved by something, the question being how to distinguish mover and moved in it; the claim reads the mover as the moving part but leaves open which being it is and does not assert that it is other than the whole. That the mover is a part distinct from the whole is the analyst's reading of VIII.5 (257b-258a), which is not pinned. Audit correction: the target actually has diagonal MovesIn x x r as antecedent (SELF_MOTION_1), while this claim uses independent whole/parts SelfMovedIn (SELF_MOTION_2). This support link records only a research lead, not same-sense entailment. Both the source-sense-to-diagonal bridge and distinct-part identification remain OPEN."
 }

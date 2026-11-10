@@ -1,0 +1,13 @@
+{
+  "id": "b65baa73-75bb-47b6-a242-8ec39e1892a8",
+  "label": "Formula-local possible-impossibility omission controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "1930d164-41b2-4a82-a880-aa74f3130773",
+  "inference_ids": [
+    "40a212a3-8ddb-437c-82b4-7432cf80ee9f"
+  ],
+  "meaning": "Nonvacuity and scope/report/gloss bridge omission controls only. Bool does not restrict the arbitrary-world certificate.",
+  "definition_ids": [
+    "9c049e13-5c43-408a-89ae-07adec28f434"
+  ]
+}

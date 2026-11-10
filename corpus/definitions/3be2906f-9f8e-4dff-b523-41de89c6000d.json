@@ -1,0 +1,9 @@
+{
+  "id": "3be2906f-9f8e-4dff-b523-41de89c6000d",
+  "label": "NECESSARY_15: consequence of a stated local modal theory",
+  "term": "necessary",
+  "definition": "TheoryRelativeEntailment F Gamma phi is forall V w, TheoryAt F V w Gamma implies Holds F V w phi. TheoryAt means every formula selected by Gamma holds at that one world. All valuations/worlds of the supplied frame are admitted as tests; only the antecedent selects theory models. This is local semantic consequence, not unrestricted validity.",
+  "basis": "stipulative",
+  "note": "Analyst formulation, attribution deferred. The singleton atom theory entails that atom even though it is not frame-valid. A theory containing falsum entails everything and has no joint model. A joint model is an explicit nonvacuity guard; it does not guarantee truth in another selected interpretation. Truth-and-box requires theory admission on the actual point and its accessible cone. These conditions and the existence dictionary are openly stipulated inputs, with applicability to reality OPEN. Reuses Modal.Kripke Holds/Valid and NecessarySenseFork; no causal, temporal or essence interpretation is encoded. Distinct declarations give explicit meanings rather than opaque flags. Coverage and exclusivity of intended readings remain OPEN; no original allowance removed.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.TheoryRelativeEntailment"
+}

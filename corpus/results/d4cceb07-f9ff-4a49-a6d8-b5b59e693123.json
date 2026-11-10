@@ -1,0 +1,25 @@
+{
+  "id": "d4cceb07-f9ff-4a49-a6d8-b5b59e693123",
+  "label": "Actual grounding quantitative controls checked",
+  "argument_id": "2965a783-081a-4b27-a1e9-d56fbfc64b3a",
+  "challenge_module": "TruthCore.Results.Causality.ActualGroundingPotentialRank.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualGroundingPotentialRank.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualGroundingPotentialRank.controls",
+  "comparator_config": "results/d4cceb07-f9ff-4a49-a6d8-b5b59e693123/comparator.json",
+  "status": "solution-present",
+  "description": "Same reverse-successor actual grounding for all omissions and the bounded varying-gap rival. Omitting any one of the three numeric conditions permits nonfoundation while retaining the other two. The reciprocal potential shows positive varying gaps are insufficient. The ascending infinite populated witness shows the full bundle is nonvacuous and does not imply finite cardinality. Model claims concern these mathematical interpretations only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "5adb2dc9-54bc-4727-8821-b4dbb94d5220",
+      "rival_statement_id": "a68b219e-9ebc-475f-9a6b-9088f5468418",
+      "sense_definition_id": "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+      "outcome": "model-witnessed",
+      "conditions": "Fixed Control.descending, Unit world, Nat all actual/concrete; S=0,L=0,epsilon=0 retains lower bound and uniform gap while positivity fails.",
+      "scope": "Identical reverse-successor grounds y x iff y=x+1, selected (), no varying frame or bearer identity.",
+      "coverage": "One explicitly populated omission model, not all lower-bounded grounding profiles.",
+      "exclusivity": "No exclusion between lower bound alone and absence of Nat rank is assumed.",
+      "witness": "Control.descending with S=0,L=0,epsilon=0 in Control.Certificate; controls proves lower bound, gap, failed positivity, failed Nat rank and failed ActualGroundingWF.",
+      "next_step": "The checked full-bundle exclusion requires both remaining open calibrations; no metaphysical actuality inferred."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "948b941f-987c-4dcd-b027-981f28606ad0",
+  "label": "Logical profile weakening 1",
+  "subject_kind": "statement",
+  "subject_id": "d912723b-b4c7-4c05-9cda-2105e7b80659",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b",
+  "verification_result_id": "abca2584-6f6a-40b8-bdc2-b37e01fe5008",
+  "note": "Same formula and selected frame parameters; strictness witnessed by controls."
+}

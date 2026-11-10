@@ -1,0 +1,9 @@
+{
+  "id": "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b",
+  "label": "Full validity of the selected formula on its frame",
+  "paraphrase": "NECESSARY_13: the selected formula holds at every valuation/world of the explicitly supplied frame.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.SelectedFrameValidity",
+  "definition_ids": [
+    "ea0a177a-b3a7-4559-946d-d9401ba1c6e3"
+  ]
+}

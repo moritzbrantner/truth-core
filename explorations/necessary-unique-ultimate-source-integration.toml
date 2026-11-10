@@ -1,0 +1,52 @@
+# Target: existing same-bearer necessary + unique ultimate through-source.
+# OPEN philosophical integration, not a replacement for existing certified
+# conditional source-uniqueness/necessary-being routes. The through relation,
+# productive causation, actual world, modal existence and identity must match.
+
+target = "7a9cd34a-332b-5dbc-a108-51ee53d46d90"
+
+[[node]]
+id = "7a9cd34a-332b-5dbc-a108-51ee53d46d90"
+
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+
+[[node]]
+id = "f5fd14f4-cc3b-5221-acd7-8bec0c1df9c0"
+
+[[node]]
+id = "Same necessary bearer is actually an ultimate through-source"
+new = true
+text = "OPEN: identify the necessarily existing concrete witness with an actually productive source in the same through relation and at the same selected world, and establish that it is ultimate; mere necessity or capacity does not imply this."
+
+[[node]]
+id = "Cross-certificate same-bearer identity"
+new = true
+text = "OPEN: the independently obtained necessary witness and unique actual source must be numerically identical in the same ontology and world; two separate existential witnesses cannot be conjoined as one."
+
+[[node]]
+id = "No independent co-ultimate source under one productive relation"
+new = true
+text = "OPEN: defend nontrivial shared-ground/connectedness, source functionality, confluence, or individuation constraints in the actual productive/through relation; two distinct necessary part-free sources remain a live countermodel."
+
+[[edge]]
+premises = [
+  "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "f5fd14f4-cc3b-5221-acd7-8bec0c1df9c0",
+  "Cross-certificate same-bearer identity",
+]
+conclusion = "7a9cd34a-332b-5dbc-a108-51ee53d46d90"
+kind = "bridge"
+status = "mapped"
+note = "OPEN composition: source uniqueness and necessary existence must apply to the identical rigid bearer. The identity bridge is substantive, not an alpha-renaming of existential witnesses."
+
+[[edge]]
+premises = [
+  "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "Same necessary bearer is actually an ultimate through-source",
+  "No independent co-ultimate source under one productive relation",
+]
+conclusion = "7a9cd34a-332b-5dbc-a108-51ee53d46d90"
+kind = "bridge"
+status = "mapped"
+note = "OPEN direct route: test two independent necessary sources, plural joint production and disconnected components against each proposed uniqueness principle. Productive-source count is not numerical divine unity, simplicity, or root identification."

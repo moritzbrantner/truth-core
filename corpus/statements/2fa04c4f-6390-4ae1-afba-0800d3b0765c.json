@@ -1,0 +1,10 @@
+{
+  "id": "2fa04c4f-6390-4ae1-afba-0800d3b0765c",
+  "label": "A common substance instance supports every secondary",
+  "paraphrase": "OPEN analyst common-instance condition: p is substantial and every secondary in the same subject dictionary inheres in this same p. Other substances may exist; no unique God or universal divine cause follows.",
+  "lean_declaration": "TruthCore.Causality.SubjectFocalRoles.CommonCenter",
+  "definition_ids": [
+    "283c7d89-9f77-41b3-9370-866108af90f7",
+    "036a22b2-c6da-4278-867c-6fd9c91eb047"
+  ]
+}

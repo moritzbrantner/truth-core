@@ -1,0 +1,9 @@
+{
+  "id": "ab83e6d3-35d1-415e-b5f4-c41c7455972e",
+  "label": "Same-bearer existence dictionary for the selected formula",
+  "paraphrase": "OPEN dictionary bridge: at every world of the same Ontic frame, the selected formula in the selected valuation holds exactly when the same rigid candidate n exists. Thus selected-interpretation NECESSARY_8 boxing of that formula transfers to NECESSARY_2 box-existence of this same bearer, retaining the identical frame and accessible worlds. This is an explicit assumption, not an identification of arbitrary formula meanings with existence.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.ExistenceDictionary",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

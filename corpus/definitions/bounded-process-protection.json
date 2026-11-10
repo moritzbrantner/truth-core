@@ -1,0 +1,9 @@
+{
+  "id": "a2ba53c6-6eca-4572-acf1-8bd78a0967a5",
+  "label": "Bounded transition protection",
+  "term": "bounded process protection",
+  "definition": "For a supplied process model, history, natural-number bound and numerical bearer, ProtectedInterval means that the same bearer exists at every sampled state from zero through the bound, inclusively. It is not direct productive esse-giving, unbounded immortality, or timeless conservation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ProtectiveProcess.ProtectedInterval",
+  "note": "Analyst formulation; attribution deferred. Model carries primitive actual occurrence edges, destructive terminal states, existence assignments and source/target Threat records. Their ordinary application is OPEN: the finite flame path is ready\u2192burning\u2192lost, guarding changes the continuation to safe, a bypass goes ready\u2192lost and a replacement goes safe\u2192lost. These are process examples in a stipulated state machine, not empirical fire dynamics or a metaphysical possibility claim. Destroys has the body occurs \u2227 terminal \u2227 same target. Admissible universally suppresses blocked occurrence edges; LossCovered explicitly requires persistence or a represented terminal destruction; NoBypass requires all such terminal occurrences against this bearer to be blocked. These bodies separate protection, single-process interruption and bare threat-record deletion. No transitivity, asymmetry, well-foundedness, modal power or productive causal property is inferred. A sampled temporal model cannot supply q104's timeless direct conservation. No original sourced preservation sense is completed; its applicability and the original process/action interpretation remain open."
+}
