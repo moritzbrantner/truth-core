@@ -6,5 +6,8 @@
   "inference_ids": [
     "76128574-2fc3-4e7f-bee5-8528aed14f32"
   ],
-  "meaning": "Compose Boolean equality to prove S5, reuse core to prove completeness, and use reflexivity to recover profile equality from equality of rows. Exact discrimination is at the quotient/profile level; the separate finite controls enumerate 1/2/4 representatives."
+  "meaning": "Compose Boolean equality to prove S5, reuse core to prove completeness, and use reflexivity to recover profile equality from equality of rows. Exact discrimination is at the quotient/profile level; the separate finite controls enumerate 1/2/4 representatives.",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

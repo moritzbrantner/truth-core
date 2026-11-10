@@ -2,5 +2,8 @@
   "id": "a8ddb725-15e7-42f6-88fe-4b17558c73c4",
   "label": "Canonical selected-truth classes give factive complete S5 discrimination",
   "paraphrase": "For any selected Boolean content family, agreement on that family defines a reflexive symmetric transitive epistemic frame complete for that family, whose alternative rows coincide iff the selected profiles coincide. This proves exact discrimination at the profile level, without a divine cognition or all-truth totality claim.",
-  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.CanonicalCertificate"
+  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.CanonicalCertificate",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

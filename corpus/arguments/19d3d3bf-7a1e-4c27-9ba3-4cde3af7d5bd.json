@@ -6,5 +6,8 @@
   "inference_ids": [
     "7c77ff20-f9e9-4ef5-b8fe-bee8ae42ad36"
   ],
-  "meaning": "Identifies the explicitly counted finite profile relations with the selected-family semantics, so canonicalCertificate applies to these exact families."
+  "meaning": "Identifies the explicitly counted finite profile relations with the selected-family semantics, so canonicalCertificate applies to these exact families.",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

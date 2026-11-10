@@ -6,5 +6,8 @@
   "inference_ids": [
     "12b34d54-885a-4b0f-8edb-777aea5a5115"
   ],
-  "meaning": "Two-world omission controls and four-world quotient representatives, with both coverage and inequivalence verified. No unbounded finite cardinal theorem or actual cognitive adequacy is claimed."
+  "meaning": "Two-world omission controls and four-world quotient representatives, with both coverage and inequivalence verified. No unbounded finite cardinal theorem or actual cognitive adequacy is claimed.",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

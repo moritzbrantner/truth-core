@@ -6,5 +6,8 @@
   "inference_ids": [
     "b8cc13b9-485d-47b3-bab4-2c5e3f419f34"
   ],
-  "meaning": "Unfold the existing relational Knows operator. Each selected content has two Boolean cases. Factivity at the second world and equal epistemic rows place that world among the first world's alternatives; profile agreement contradicts a differing content. Applying the explicitly supplied supervenience premise proves the intrinsic-state and hard-past conditional no-go. No divine application bridge is proved."
+  "meaning": "Unfold the existing relational Knows operator. Each selected content has two Boolean cases. Factivity at the second world and equal epistemic rows place that world among the first world's alternatives; profile agreement contradicts a differing content. Applying the explicitly supplied supervenience premise proves the intrinsic-state and hard-past conditional no-go. No divine application bridge is proved.",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

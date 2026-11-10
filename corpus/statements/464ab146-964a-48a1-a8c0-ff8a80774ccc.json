@@ -2,5 +2,8 @@
   "id": "464ab146-964a-48a1-a8c0-ff8a80774ccc",
   "label": "Foreknowledge finite omitted-premise and one-two-four representative controls",
   "paraphrase": "Finite relational tests: identity alternatives track one Boolean content, universal alternatives fail contingent knowledge, empty alternatives vacuously satisfy completeness without factivity, and constant content permits fixed alternatives. Four-world profiles have exactly one, two and four covering pairwise inequivalent representatives for zero, one and two independent bits. This is a bounded quotient count, not a theory of divine cognition or libertarian agency.",
-  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.Controls"
+  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.Controls",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
 }

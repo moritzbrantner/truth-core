@@ -139,3 +139,22 @@ explicit finite case analysis resolved them without new dependencies. No CLI
 benchmark was performed, so no numerical CLI speedup is claimed. Retain the
 service for bound repeated edits; preserve CLI/final CI certification.
 Shared conventions sourceRevision: 625cb04ca568aebc8d45c90033e107a05e9bd2a0.
+
+## Independent semantic challenge and continuation
+
+The independent challenge reviewed the complete proposed findings, proof bodies,
+finite assignments and cited prior results at head
+`677d58e638c481c2b47469e941572545f9354a28`. It found no substantiated semantic
+overstatement in the qualified assessment. Its one P2 finding was omission of
+existing knowledge-definition navigation; all four spec statements now link
+`05a2afda-c654-5f6b-a0f7-796c5dc1be2e`, and records were regenerated.
+This metadata repair changes no theorem or philosophical assertion.
+
+The challenge identified an available next investigation: the existing intellect
+account's form of the known in the knower. Test a precise intentional relation
+against accidental truth matching, without assuming that one invariant intrinsic
+act fixes every contingent intentional relation. The master therefore reopens
+this branch for that investigation rather than treating the missing criterion
+as unavailable evidence. Final proof certification remains pending; the first
+Comparator run rejected `propext` in controls and finiteProfiles, whose declared
+policy is zero-axiom. Repair those proofs within the existing axiom policy.
