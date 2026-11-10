@@ -1,0 +1,10 @@
+{
+  "id": "bec6024d-d187-4cbb-ba4e-f03410c0b947",
+  "label": "Revision recommendation routing and structural uptake controls",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.revise",
+  "term": "Revision recommendation routing",
+  "definition": "revise old recommendation gate override returns old when override=true, recommendation when override=false and gate=true, otherwise old. Participates universally compares the two recommendation outputs for each old selector. echo ignores assessment; uptake transmits or negates it before routing. Screening and Controls collect exact port consequences. Bool inputs are mathematical values, not truth-bearing reasons, conscious agents or competence. Acquisition reuses ReasonResponseHistory.Acquisition. OPEN: actual intervention applicability, factual understanding, practical standards, competence, evaluative authority, informed guidance attribution, desert and q75 bodily-sharing bridge; see docs/notes/reason-response-history.md.",
+  "basis": "stipulative",
+  "claim_ids": []
+}

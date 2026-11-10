@@ -1,0 +1,32 @@
+[batch]
+vocab = "TruthCore.Modal.RevisionUptake"
+results = "TruthCore.Results.Modal.RevisionUptake"
+definitions = ["bec6024d-d187-4cbb-ba4e-f03410c0b947"]
+
+[[statement]]
+id = "Revision uptake screening structural certificate"
+lean = "Screening"
+paraphrase = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; those settings screen every earlier acquisition function, while closed gate and overriding write each retain the old selector in the displayed opposed-input control."
+
+[[argument]]
+label = "Revision uptake screening structural certificate by port evaluation"
+theorem = "screening"
+premises = []
+conclusion = "Revision uptake screening structural certificate"
+rule = "Boolean routing evaluation"
+meaning = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; those settings screen every earlier acquisition function, while closed gate and overriding write each retain the old selector in the displayed opposed-input control. Analyst formulation for #945; no root discharge; attribution deferred."
+axioms = []
+
+[[statement]]
+id = "Revision uptake controls structural certificate"
+lean = "Controls"
+paraphrase = "Echoed recommendation retains the old selector under either assessment; transmission and inversion both change output with assessment; noise following a closed gate leaves assessment ineffective. These structural controls establish no understanding, competence, freedom or ownership."
+
+[[argument]]
+label = "Revision uptake controls structural certificate by port evaluation"
+theorem = "controls"
+premises = []
+conclusion = "Revision uptake controls structural certificate"
+rule = "Boolean routing evaluation"
+meaning = "Echoed recommendation retains the old selector under either assessment; transmission and inversion both change output with assessment; noise following a closed gate leaves assessment ineffective. These structural controls establish no understanding, competence, freedom or ownership. Analyst formulation for #945; no root discharge; attribution deferred."
+axioms = []
