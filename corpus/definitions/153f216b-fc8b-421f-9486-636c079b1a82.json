@@ -1,0 +1,11 @@
+{
+  "id": "153f216b-fc8b-421f-9486-636c079b1a82",
+  "label": "Revision uptake Participates structural definition",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.Participates",
+  "term": "Revision uptake Participates",
+  "definition": "For every old Boolean selector, changing recommendation false to true changes revise output at fixed gate/override. Universal port sensitivity, not competence. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding.",
+  "basis": "stipulative",
+  "claim_ids": [],
+  "note": "For every old Boolean selector, changing recommendation false to true changes revise output at fixed gate/override. Universal port sensitivity, not competence. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding. Analyst stipulation for conditional tests, attribution deferred."
+}

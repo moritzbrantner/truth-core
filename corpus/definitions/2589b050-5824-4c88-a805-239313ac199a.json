@@ -1,0 +1,11 @@
+{
+  "id": "2589b050-5824-4c88-a805-239313ac199a",
+  "label": "Revision uptake uptake structural definition",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.uptake",
+  "term": "Revision uptake uptake",
+  "definition": "Routes assessment or its Boolean negation through revise according to invert. Equal sensitivity of inversion and transmission does not establish correctness. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding.",
+  "basis": "stipulative",
+  "claim_ids": [],
+  "note": "Routes assessment or its Boolean negation through revise according to invert. Equal sensitivity of inversion and transmission does not establish correctness. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding. Analyst stipulation for conditional tests, attribution deferred."
+}

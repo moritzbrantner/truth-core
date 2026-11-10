@@ -1,0 +1,25 @@
+target = "4b48eac2-2420-5cb5-a846-d7fba58879ed"
+[[node]]
+id = "4b48eac2-2420-5cb5-a846-d7fba58879ed"
+[[node]]
+id = "8f3850f0-fd7a-441b-ad6b-723750781b68"
+[[node]]
+id = "bf949264-2d2a-4623-a9c5-476047b832d0"
+[[edge]]
+premises = []
+conclusion = "8f3850f0-fd7a-441b-ad6b-723750781b68"
+kind = "derivation"
+status = "mapped"
+note = "Solution elaborated and bound; independent Comparator/NanoDa blocked locally by sandbox, pending final CI."
+[[edge]]
+premises = []
+conclusion = "bf949264-2d2a-4623-a9c5-476047b832d0"
+kind = "derivation"
+status = "mapped"
+note = "Echo/inversion/noise omission controls; no actual conscious agent witness."
+[[edge]]
+premises = ["8f3850f0-fd7a-441b-ad6b-723750781b68", "bf949264-2d2a-4623-a9c5-476047b832d0"]
+conclusion = "4b48eac2-2420-5cb5-a846-d7fba58879ed"
+kind = "bridge"
+status = "mapped"
+note = "OPEN connection plan only, not entailment: requires content-sensitive understanding, actual exercise attribution and independently warranted bodily-sharing relation for #355/q75. Port routing supplies none."

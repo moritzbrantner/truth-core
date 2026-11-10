@@ -367,3 +367,184 @@ example : ∀ (old assessment noise : Bool),
 end Ownership945Probe
 
 ```
+
+## Certification continuation and installed standards (2026-11-11 draft)
+
+The preceding deferral of registration pending semantic review is superseded:
+conditional structural tests can be certified without endorsing their agency
+interpretation. `TruthCore.Modal.RevisionUptake` and
+`specs/revision-uptake-945.toml` register Screening and Controls. Vocabulary and
+matching Challenges were frozen at `23bf81dcb` before Solution work. The probe's
+`Participates` tests recommendation variation at **every** old selector; it is
+not the earlier existential action-changing acquisition predicate. Screening
+quantifies over the original `Acquisition`, holding the later routing settings
+fixed. Controls concern echo, inversion and noise; none is a model of a conscious
+agent. The original #1083 certificate is unchanged.
+
+### Disclosed manipulation: separate questions rather than another approval flag
+
+Consider two people, one deliberately conditioned and one ordinarily brought up,
+who now learn a truthful account of their acquisition histories. Give each the
+same practical proposal, relevant factual information, time to inspect it, access
+to an advocate and a critic, an opportunity to choose another review procedure,
+and an effective means to implement the outcome. This describes a comparison to
+investigate, not an established human possibility witnessed by our Boolean table.
+It does not hold the whole past fixed across people. Distinguish five burdens:
+
+* Factual understanding includes grasping **that** the standard was installed,
+  how the intervention worked, what evidence supports the account, and relevant
+  consequences of alternatives. Repeating a disclosure sentence is insufficient.
+* Evaluative standards rank considerations: e.g. loyalty, suffering, autonomy or
+  consistency. Knowing their origin does not entail rejecting them. Disclosure
+  supplies a potential reason for scrutiny, not a deductive instruction to invert
+  every acquired judgment.
+* Practical competence includes retaining relevant facts, drawing applicable
+  implications, recognizing a conflict, and revising means when they fail a
+  selected end. These are assessable without agreement with a desired moral
+  conclusion. Whether responsiveness to substantive good reasons is additionally
+  necessary remains a different normative premise.
+* Alternative procedures may include adversarial argument, independent advice,
+  delay, comparison with other commitments, and reconsideration of the ranking
+  rule itself. A manipulator can install preferences over procedures too. Merely
+  increasing their number does not prove their independence or adequacy.
+* Effective revision means that a changed assessment can alter policy and action
+  under appropriate conditions. It does not mean that someone must change their
+  mind, that their practical judgment is true, or that the same complete past
+  admits multiple actions. The screening certificate isolates only a surrogate
+  for this final condition.
+
+This decomposition repairs the rough draft's temptation to regard factual
+transparency plus sensitive uptake as informed ownership. An agent can understand
+her origin and consequences while continuing to rank the manipulator's end
+highest. Echo is one mechanism for that outcome, but the installed-standards
+objection is stronger: active comparative reasoning can itself favor retention.
+Inversion is a control on sensitivity, not evidence that every retained installed
+standard is mistaken. Neither control decides which practical reasons count.
+
+### Matched outcomes and the positive historical rivals
+
+At the structural level, the universal Screening theorem already entails that
+both original acquisitions yield recommendation under open gate/no override,
+for the same recommendation; it does not need a duplicate fixture. The entire
+later response to both recommendations matches despite different acquisition
+functions. Thus differing origins can coexist with identical modeled revision
+outcomes. Adding factual and competence descriptions in prose does not extend
+that theorem to actual informed agency. Their joint realization is OPEN.
+
+Conditional on such a genuinely matched human case, three accounts diverge:
+
+1. **Repairable guidance attribution.** If the capacities are adequate, access
+   nondeceptive, alternatives seriously assessable and assessment effective, the
+   person may now answer for retaining or revising a policy despite its origin.
+   Endogenous upbringing can qualify or fail by those same conditions. Repaired
+   manipulation can qualify; installed standards are not automatically disqualified.
+   This account must accept that an intentionally caused, predictably retained
+   policy can become attributable. Its positive reason is present answerability
+   through the person's capacities, not that causal history vanished.
+2. **Nonrepair historical attribution.** Deliberate installation leaves a defect
+   even after matched competent review because the authority of the evaluating
+   standards remains borrowed from the designer. This account must distinguish
+   intentional bypass from ordinary teaching and explain what transfers or
+   invalidates authority. Intention, concealment, suppression of criticism and
+   control of deliberation are separable candidates. Disclosure removes concealment;
+   effective alternative procedures may remove suppression. Intentional design
+   and causal continuity remain. If those alone suffice for permanent exclusion,
+   the account denies repaired attribution even when no present deficit is found.
+   That is its commitment, not a demonstrated contradiction or unreasonable cost.
+3. **Source/alternative requirement for desert.** Both cases can support useful
+   guidance practices while failing basic desert if neither agent authored the
+   relevant capacities or could act otherwise with the same complete past/laws.
+   It can therefore accept repair for guidance without accepting desert. The
+   determinism of the router supplies neither an argument that all human capacities
+   are determined nor an argument that stronger sourcehood exists.
+
+A proposed regress objection needs qualification. Every assessment employs some
+capacities, so requiring a prior independent endorsement of **every** capacity
+cannot be met by a finite sequence without an unendorsed starting point. But
+nonrepair need not demand that: it can require absence of particular intentional
+bypass, or deny ultimate desert universally. Consequently regress pressures the
+universal self-authorship condition, not all historical restrictions. No theorem
+of regress or exhaustive taxonomy is claimed here.
+
+The new independent normative bridge is: adequate, nondeceptive and effective
+review is a defeasible ground of **guidance attribution**, including retention.
+It is not a routing definition. Its present support is the contrast between
+asking someone to respond to reasons through exercisable capacities and demanding
+an answer while bypassing them; ordinary learning and rehabilitation make repair
+an intelligible aim. This is a conceptual and explanatory rationale, dependent
+on the legitimacy of answerability practices. It is not independent empirical
+confirmation or an established sufficient condition. The historical rival's
+strongest objection is that those very capacities implement the designer's
+standards; the criterion cannot simply redescribe their operation as ownership.
+A substantive counterexample must preserve adequate understanding and genuinely
+available effective reconsideration, rather than merely stipulate reported assent.
+
+### Whole-draft disposition, q75 and reassessment
+
+Checked by the registered structural types: recommendation-port characterization,
+screening of every acquisition, gate/override omissions, echo, inversion and
+noise without assessment uptake. Corrected/rejected: origin alone establishes
+lasting bypass; sensitivity establishes understanding; disclosed manipulation
+requires repudiating every installed value; regress refutes every historical
+condition. Unresolved: joint human realization of the matched informed-review
+case, adequacy of standards/procedures, the guidance-attribution bridge, nonrepair
+history, stronger sourcehood/desert and physicalist/q75 application.
+
+The exact existing physicalist results concern causal occurrence/realization and
+the separate `PhysicalBasisIsBodySharing` premise. They contain no assertion that
+factual comprehension or effective deliberation cannot be physically realized.
+Likewise q75's per-se operation requires an attributed intellectual exercise
+without bodily sharing; a recommendation channel is not such an exercise. Even
+accepting the proposed guidance criterion therefore supplies no contradiction
+with the physicalist rival and no premise for `intellectIsNotBody`. The #355
+connection needs a content-sensitive account of understanding and a separately
+warranted relation to bodily sharing. Reasserting policy-port influence cannot
+supply either premise. This is an explicit connection blocker, not root progress.
+
+Proposed overall judgment for independent challenge: the structural inference is
+well specified; the repairable criterion remains a plausible defeasible account
+of guidance, with no present discrimination against physically realized agency.
+The matched installed-standards case leaves repair versus nonrepair normatively
+underdetermined. The earlier claim that the criterion is simply “better” is
+narrowed: it explains the selected blocked-review/learning contrasts, while
+origin-essential and desert accounts address additional questions. Revise this
+judgment if a case with adequately informed, effective review exhibits a further
+attribution defect, or if an independent argument shows why intentional origin
+is or is not relevant after repair. Neither unusual origins nor reviewer assent
+settle that question.
+
+A materially different next test is a content-sensitive practical inference task:
+fix a particular end, factual consequence model and two review procedures, test
+whether factual correction can alter a means judgment while the end persists,
+and then distinguish that instrumental competence from reasons to revise the end.
+The present assignment has no agreed practical-content semantics or warranted
+standard for end assessment; inventing one as “competence” would conceal the
+very normative bridge under dispute. Master reassessment should choose that
+shared semantic baseline and obtain challenge review of this complete draft.
+This is a scoped reassessment point, not exhaustion of #945 or a proof of either
+rival. No personal-assent or owner-approval premise is introduced.
+
+Service experiment on clean preview `3aaf6c4f`: corpus lookup and repeated
+full-content edits worked. First edit found an opaque-definition `decide` error;
+unfolding Controls repaired it. The accepted second edit had no diagnostics,
+content hash `89166199e796d0dcef839eea9d112d8f365409d2695712e12e889cc92750a5e3`.
+Measured request times were 13.48s initially and 0.26s warm; these concern this
+single preview session and are not final verification. Retain the guarded service
+for iterative diagnostics; CLI remains necessary for registered delivered-input
+verification. No preview refresh, session replacement or external dependency.
+
+Delivered-input verification boundary: focused CLI elaboration of vocabulary,
+Solution and matching Challenge passed using explicitly supplied warm compiled
+dependencies. `#print axioms` reports no axioms for either theorem. The initial
+simp proof used propext/Quot.sound; it was replaced with finite decision proofs
+to preserve this non-Mathlib import closure's required zero-axiom policy.
+Binding passed for both results (2 bound, 0 mismatch); the proof-only replacement
+does not change their types or bindings. Comparator attempted the registered
+configuration and stopped at sandboxed `lake build` with `Permission denied
+(os error 13)`. No sandbox bypass attempted. Comparator, NanoDa and final build
+certification remain pending delivered-head CI; “certificate” in statement labels
+names the proposition, not a completed independent verification status. The
+exploration map marks these edges mapped pending that certification. Claim/type
+self-sweep: every port consequence matches its wrapper and frozen Challenge;
+no actual understanding, historical ownership, freedom or physicalist defeat is
+advertised. The only new normative bridge is explicitly defeasible and unproved.

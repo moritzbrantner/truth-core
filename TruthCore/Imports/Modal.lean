@@ -49,6 +49,7 @@ public import TruthCore.Modal.ResearchFinite
 public import TruthCore.Modal.ResearchFixture
 public import TruthCore.Modal.RetainedDuty
 public import TruthCore.Modal.RetainedDutyLocal
+public import TruthCore.Modal.RevisionUptake
 public import TruthCore.Modal.RigidDesignation
 public import TruthCore.Modal.S4Research
 public import TruthCore.Modal.S5Research
