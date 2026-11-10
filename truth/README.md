@@ -38,41 +38,35 @@ paths and bytes read, including local changes.
 loader checks JSON objects, IDs and per-kind uniqueness, passage manifest
 shape, and selected required scalar and list fields. It also counts
 configuration records. On malformed input Python and Rust can report
-different first errors because they validate different scopes. Python
-`scripts/corpus.py status` and `check` still run the full corpus validation,
-including cross-record links, semantic constraints, and evidence bindings;
-`truth check` (below) ports most of it.
-Python also continues to own search, research context, agent service, and
-the existing CI and Explorer consumers. Lean and the existing verifier
-retain proof authority. Neither Rust command writes a database or cache.
+different first errors because they validate different scopes. The full
+corpus validation, including cross-record links, semantic constraints, and
+evidence bindings, is `truth check` (below) or Python `scripts/corpus.py
+check`. Python also continues to own search, research context, agent
+service, and the existing CI and Explorer consumers. Lean and the existing
+verifier retain proof authority. Neither Rust command writes a database or
+cache.
 
 ## `check`
 
 `truth check [--json]` ports `python3 scripts/corpus.py check`: `validate()`
-and the warnings of `check_warnings()`, rule for rule and in Python's order,
+and every warning of `check_warnings()`, rule for rule and in Python's order,
 so a broken corpus reports the same first error. On success stdout is
 Python's `corpus ok: …` counts line and stderr carries Python's `warning: …`
-lines in Python's order; on failure stderr ends with Python's
+lines in Python's order, byte for byte; on failure stderr is Python's
 `corpus error: …` line. Rust exits 1 on a corpus error (Python exits 2;
-2 is the CLI's usage code). `--json` prints `counts`, `warnings`, `summary`,
-`complete: false` and `python_only`, or a `corpus_error` object.
+2 is the CLI's usage code). `--json` prints `counts`, `warnings` and
+`summary`, or a `corpus_error` object.
 
-It is a **partial port**: `scripts/corpus.py check` stays the corpus gate
-(CI, `AGENTS.md`). Every run prints a `notice:` line on stderr naming what
-still runs only in Python:
+The port is complete, but `scripts/corpus.py check` stays the corpus gate
+(CI, `AGENTS.md`) until those consumers switch, which is a later slice.
 
-- `source_evidence.validate_manifest`: the per-kind passage manifest schema
-  (text witness, media span, web snapshot, bibliographic span). Rust loads
-  passage manifests and checks their sources, locator-prefix overlaps,
-  web-snapshot and bibliographic precedence, and claim binding, basis and
-  witness, but not each manifest's fields.
-- The opaque-atom transcription warning (`transcription_flags`
-  `opaque_atoms`), which needs the Lean definition unfolding not yet ported.
-
-Ported: record loading and ID indexes; finite-model registrations;
+Ported: record loading and ID indexes; the per-kind passage manifest schema
+(`source_evidence.validate_manifest`: text witness, media span, web snapshot,
+bibliographic span); finite-model registrations;
 configuration cases (`validate_case`, their result configs and the
 transcription rejection); attempts; sorted `edition_urns`; source fields;
-source-evidence bindings (above); statements (Lean declaration tails, unique
+source-evidence bindings (source kinds, locator-prefix overlaps, web-snapshot and
+bibliographic precedence, claim binding, basis and witness); statements (Lean declaration tails, unique
 declarations, `self_evident` markings with disagreement and owner approval,
 settlement actions); definitions, disambiguations and prose ID citations;
 claims (references, status, attribution shape); inferences; arguments
@@ -81,8 +75,8 @@ claims (references, status, attribution shape); inferences; arguments
 Comparator configs (paths, modules, theorem names, axiom policy through the
 Mathlib import closure, NanoDa); case splits; schema, `strengthens` and
 `strength_comparison` registrations; strength order; `strong_version_needed`;
-unused definitions; candidate/result collisions. Warnings: uncounted
-refutations, `supports` without a note, constant category predicates (#1103),
+unused definitions; candidate/result collisions. Warnings: unflagged opaque Prop atoms (from the transcription heuristics
+`frontier` shares), uncounted refutations, `supports` without a note, constant category predicates (#1103),
 strong versions used without `strong_version_needed`, and unmet floor bases,
 computed from the same least fixpoint `thickness` uses.
 
@@ -91,13 +85,17 @@ message after the shared `cannot read JSON:` prefix; when several entries of
 one JSON object are invalid (`strong_version_needed`, profile
 `applications`), Rust may name a different first entry, because serde_json
 sorts object keys; values Python would crash on (a list where an ID is
-expected) are reported, not raised as a traceback.
+expected) are reported, not raised as a traceback. A web snapshot's
+`encoding` is checked against the standard Python codecs and their usual
+aliases (`codecs.lookup`); a rare codec outside that list is reported
+unknown by Rust only.
 
 `scripts/verify_truth_cli.py` compares both on the real corpus (stdout and
 every warning line) and on a fixture checkout with a copy of `scripts/*.py`,
 so the unmodified Python validator runs on it: the passing fixture (one
-warning of each ported kind) and 47 deliberately broken variants, one per
-rule, each of which must give the same `corpus error:` line. On the real
+warning of each kind, the opaque-atom warning on a variant) and 149
+deliberately broken variants, one per rule (56 for the passage manifest
+schema), each of which must give the same `corpus error:` line. On the real
 corpus (2026-11-07, 3731 statements) the release binary took 0.9–2.6 s and
 Python 6.3–16.5 s on the same loaded machine (best of three: 0.9 s vs 6.3 s).
 

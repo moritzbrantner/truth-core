@@ -426,33 +426,20 @@ fn research_command(
     }
 }
 
-/// The partial-port notice `check` prints on stderr before its result.
-fn check_notice() -> String {
-    format!(
-        "notice: truth check is a partial port of `python3 scripts/corpus.py check`, which stays the corpus gate; \
-         still Python-only: {}",
-        check::PYTHON_ONLY.join("; ")
-    )
-}
-
 /// `check`: Python's `corpus ok: …` line and warnings, or its first error.
 fn check_command(root: &std::path::Path) -> Result<(Value, Option<String>), (u8, Value)> {
     match check::check(root) {
         Ok(outcome) => {
             let summary = outcome.summary();
-            let mut text = vec![check_notice()];
-            text.extend(
-                outcome
-                    .warnings
-                    .iter()
-                    .map(|warning| format!("warning: {warning}")),
-            );
+            let text: Vec<String> = outcome
+                .warnings
+                .iter()
+                .map(|warning| format!("warning: {warning}"))
+                .collect();
             Ok((
                 json!({
                     "schema_version": 1,
                     "ok": true,
-                    "complete": false,
-                    "python_only": check::PYTHON_ONLY,
                     "counts": outcome.counts.iter().map(|(k, v)| (k.to_string(), json!(v))).collect::<serde_json::Map<_, _>>(),
                     "warnings": outcome.warnings,
                     "summary": summary,
@@ -460,11 +447,7 @@ fn check_command(root: &std::path::Path) -> Result<(Value, Option<String>), (u8,
                 Some(format!("\u{0}{}\u{0}{summary}", text.join("\n"))),
             ))
         }
-        Err(message) => Err((
-            1,
-            json!({"code": "corpus_error", "message": message, "complete": false,
-                   "python_only": check::PYTHON_ONLY}),
-        )),
+        Err(message) => Err((1, json!({"code": "corpus_error", "message": message}))),
     }
 }
 
@@ -797,7 +780,9 @@ fn main() -> ExitCode {
                 // `check` text: stderr part, then the stdout summary.
                 if let Some(rest) = text.strip_prefix('\u{0}') {
                     let (stderr, stdout) = rest.split_once('\u{0}').unwrap_or((rest, ""));
-                    eprintln!("{stderr}");
+                    if !stderr.is_empty() {
+                        eprintln!("{stderr}");
+                    }
                     println!("{stdout}");
                 } else {
                     println!("{text}");
@@ -814,7 +799,6 @@ fn main() -> ExitCode {
             if machine {
                 eprintln!("{}", json!({"schema_version":1,"error":error}));
             } else if error["code"] == "corpus_error" {
-                eprintln!("{}", check_notice());
                 eprintln!(
                     "corpus error: {}",
                     error["message"].as_str().unwrap_or_default()

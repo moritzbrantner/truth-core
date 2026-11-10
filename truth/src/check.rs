@@ -2,10 +2,12 @@
 //! `check_warnings()`), rule for rule and in the same order, so the first
 //! error a broken corpus reports is the one Python reports.
 //!
-//! Partial port: the rules in [`PYTHON_ONLY`] still run only in Python, and
-//! `scripts/corpus.py check` stays the corpus gate until they are ported.
+//! Every rule is ported; `scripts/corpus.py check` stays the corpus gate
+//! until CI and the worker contract switch to `truth check`.
 //! Messages are Python's, except where Python formats a parser exception
 //! (invalid JSON) or a value that is not a string, list or scalar.
+
+mod manifest;
 
 use crate::{Record, identity, thickness};
 use fancy_regex::Regex;
@@ -15,12 +17,6 @@ use std::{
     fs,
     path::{Path, PathBuf},
 };
-
-/// Rules of `corpus.py check` that this port does not run yet.
-pub const PYTHON_ONLY: &[&str] = &[
-    "source_evidence.validate_manifest: the per-kind passage manifest schema (text witness, media span, web snapshot, bibliographic span)",
-    "check_warnings: the opaque-atom transcription warning (transcription_flags opaque_atoms)",
-];
 
 type Obj = Map<String, Value>;
 type Res<T> = Result<T, String>;
@@ -1895,8 +1891,8 @@ fn validate_strength_comparison(
 }
 
 // ---------------------------------------------------------------------------
-// Source-evidence bindings (`source_evidence.validate_bindings` without the
-// per-kind manifest schema)
+// Source-evidence bindings (`source_evidence.validate_bindings`; the per-kind
+// manifest schema is in `manifest`)
 
 fn passage_kind(passage: &Obj) -> &str {
     string(passage, "kind").unwrap_or("")
@@ -1939,6 +1935,9 @@ fn load_passages(root: &Path) -> Res<Vec<Record>> {
 fn validate_bindings(root: &Path, sources: &[Record], claims: &[Record]) -> Res<usize> {
     let source_index = index_by_id(sources, "source")?;
     let passages = load_passages(root)?;
+    for record in &passages {
+        manifest::validate_manifest(&record.path, &record.fields)?;
+    }
     let passage_index = index_by_id(&passages, "passage")?;
     // IDs are unique now, so the index order is the load order.
     let ordered: Vec<&Record> = passages.iter().collect();
@@ -3116,7 +3115,23 @@ fn check_warnings(root: &Path, loaded: &Loaded, files: &[(Vec<String>, PathBuf)]
     let frontier = thickness::frontier_inputs(thickness::DEFAULT_ROOT, &records, &flags);
     let transcription_results: HashSet<String> =
         frontier.transcription_results.keys().cloned().collect();
-    let mut warnings = Vec::new();
+    let declared: HashSet<&str> = records
+        .results
+        .iter()
+        .filter(|result| truthy(result.get("transcription")))
+        .map(|result| text(result, "id"))
+        .collect();
+    let mut warnings: Vec<String> = flags
+        .iter()
+        .filter(|flag| flag.opaque_atoms && !declared.contains(flag.result_id.as_str()))
+        .map(|flag| {
+            format!(
+                "{}: every proposition the theorem relates looks like an unconstrained \
+                 `Prop` atom (invariant 16); declare \"transcription\": \"opaque_atoms\" or type the vocabulary",
+                flag.result_id
+            )
+        })
+        .collect();
 
     let registration = &frontier.registration_arguments;
     let argument_by_id: HashMap<&str, &Obj> = records
