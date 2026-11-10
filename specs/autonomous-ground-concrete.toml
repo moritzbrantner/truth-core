@@ -1,0 +1,30 @@
+[batch]
+vocab = "TruthCore.Explanation.AutonomousGroundConcrete"
+results = "TruthCore.Results.Explanation.AutonomousGroundConcrete"
+
+[[statement]]
+id = "Autonomous ground concrete nonexistential joint certificate"
+lean = "Certificate"
+paraphrase = "One fixed two-world, two-candidate interpretation simultaneously satisfies all five selected-target autonomous-ground inputs, NecessaryConcreteAt on the same Profile, and failure of IngredientAt. The admitted full ground is nonempty and contains only other (). A second concrete individual actually exists and is contingent, and every world is populated. Analyst finite satisfiability witness, not metaphysical possibility, essence explanation or real applicability."
+definitions = ["6a9ff802-ad29-5905-9373-9a23bd887f51", "1545bb1e-f00a-5574-a3a9-ac7718c6fafb", "6704e44d-bbf9-5943-96d5-2224a0008296", "e91c64b9-3975-5924-9e9b-7d3f49995e18", "e21a82a2-5129-554c-947e-597f22a567ab", "b46db868-0f46-5a62-87b7-b4c9fd555965", "38b92bb6-33ae-5817-85c6-b5a1afa63bd1", "beb654a7-e204-5f4c-a7b4-45e886ba7109", "baddf770-36bf-542f-bb3c-2297342d5452"]
+
+[[argument]]
+id = "Full autonomous modal ground without an existential ingredient, checked"
+theorem = "certificate"
+senses = {DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL = "DE_RE_NECESSARY_EXISTENCE_ABSENT_EXISTENTIAL_1", CONTINGENCY = "CONTINGENCY_1"}
+premises = []
+conclusion = "Autonomous ground concrete nonexistential joint certificate"
+rule = "Explicit finite joint interpretation"
+meaning = "The fixed Bool-world/Bool-candidate model has universal accessibility, a target present in both worlds and a second concrete candidate absent at the other world. Its one admitted complete ground targets positive false and contains only autonomous other (). All five inputs, SAME Profile necessary-concrete endpoint, not IngredientAt, ground nonemptiness, actual contingency and all-world population hold jointly. No note44 essence, own-nature explanation or real applicability is certified."
+
+[[argument.research_comparisons]]
+target_statement_id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+rival_statement_id = "Autonomous ground concrete nonexistential joint certificate"
+sense_definition_id = "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+outcome = "model-witnessed"
+conditions = "All five original autonomous-ground inputs hold jointly; IngredientAt is false. No premise truth or philosophical completeness is inferred."
+scope = "Same Bool worlds, rigid Bool candidates, universal accessibility, arena.ontic=model.ontic, model.concrete, selected false world and false target throughout. Rival ID names this joint certificate; its explicit NOT IngredientAt conjunct is the tested rival condition, not positive IngredientAt or negation of the certificate."
+coverage = "Only explicit encoded full-ground and modal de re existence interpretation; no exhaustive coverage of philosophical senses."
+exclusivity = "Selected interpretation fixed; semantic extensions are not asserted exclusive."
+witness = "TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate certifies Certificate: populated full package, NecessaryConcreteAt model false, not IngredientAt ground false, nonempty members and an actual contingent concrete neighbour."
+next_step = "Test an explicitly contentful essence or noncausal explanatory-ground adequacy condition on this same carrier; the present other-fact semantics does not supply it."
