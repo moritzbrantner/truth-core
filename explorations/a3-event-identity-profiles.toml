@@ -2,10 +2,18 @@ target = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
 [[node]]
 id = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
 [[node]]
-id = "A3 local occurrence uniqueness transports possible conditioning"
+id = "A3 accessible occurrence uniqueness transports possible conditioning"
+[[node]]
+id = "A3 type-global occurrence uniqueness transports possible conditioning"
 [[edge]]
-premises = ["A3 local occurrence uniqueness transports possible conditioning"]
+premises = ["A3 accessible occurrence uniqueness transports possible conditioning"]
 conclusion = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
 kind = "bridge"
 status = "mapped"
-note = "OPEN: source-event/state/bearer/time/world dictionaries, possible conditioning for the selected pair, and selected occurrence uniqueness for the occurrence reading. The law alone supplies none of these. Prior explanatory condition to concrete existing bearer and first-transition exclusion remain separate."
+note = "OPEN: source-event/state/bearer/time/world dictionaries, possible conditioning for the selected pair, and uniqueness of the selected transition among occurrences occurring at an accessible world for the occurrence reading. The law alone supplies none of these. Prior explanatory condition to concrete existing bearer and first-transition exclusion remain separate."
+[[edge]]
+premises = ["A3 type-global occurrence uniqueness transports possible conditioning"]
+conclusion = "STMT-NB-A3-POSSIBLE-EVENT-CAUSABILITY"
+kind = "bridge"
+status = "rejected"
+note = "Rejected as the 4-to-5 bridge: its uniqueness antecedent ranges over the whole occurrence type, including never-occurring occurrences, and so forces a single bearer and ordered interval (global_unique_collapses), collapsing the occurrence reading into the state-pair reading. Replaced by the accessible-occurrence transport law, which it follows from."
