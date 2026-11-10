@@ -4,7 +4,7 @@ This is the canonical research-loop policy. Investigate the owner-scoped questio
 
 ## Bounded investigations and integration
 
-The coordinator maintains the priority queue and one current handoff. It gives each fresh worker a target, relevant existing evidence, a live uncertainty, a work budget, and the expected useful change. Record the run's total budget and each worker's cap before starting; choose and state a bounded default if the owner has not supplied one. A continuous investigation consists of these bounded turns, not an indefinitely expanding worker conversation.
+The coordinator maintains the priority queue and one current handoff. It gives each fresh worker a target, relevant existing evidence, a live uncertainty, a work budget, and the expected useful change. Record the run's total budget and each worker's cap before starting; choose and state a bounded default if the owner has not supplied one. Give sustained questions enough time for substantive reading, reasoning and proof/model exploration, allowing for review and integration within the run budget. Forced publication or repeated unchanged checks must not consume the research allowance. The cap and honest early/no-result returns still apply. A continuous investigation consists of these bounded turns, with independent slices running concurrently under the [parallel-lane policy](#parallel-lanes).
 
 ```mermaid
 flowchart TD
@@ -17,7 +17,7 @@ flowchart TD
     I -->|Pause or cap| H[Persist current handoff]
 ```
 
-1. **Retrieve and fix the question.** Inspect `context <ARGUMENT-OR-RESULT-ID>`, `related <STMT-ID>` and the relevant `dossier <STMT-ID>`. Reuse definitions, senses, exact theorems, sources and failed attempts. State the chosen reading, logical background, domain and model class. Preserve consequential alternatives; a complete map of every interpretation is not a prerequisite.
+1. **Retrieve and fix the question.** Inspect `context <ARGUMENT-OR-RESULT-ID>`, `related <STMT-ID>` and the relevant `dossier <STMT-ID>`. Reuse definitions, senses, exact theorems, sources and failed attempts. State the chosen reading, logical background, domain and model class. Preserve consequential alternatives; a complete map of every interpretation is not a prerequisite. If a proposed generalization already follows by instantiating or composing an existing theorem, return that dependency or a short reuse lemma rather than a duplicate campaign.
 2. **Investigate flexibly.** Pursue the most informative support, rival, implication, necessary precondition, incompatibility, source or connection. Formalize load-bearing deductions and test revealing models where useful. A rival should be represented by its strongest relevant commitments; a local objection need not first supply an entire worldview. Explore conditional consequences without first proving every primitive.
 3. **Decompose only where useful.** Follow disputed premises and load-bearing terms as deeply as the current question requires. Split records for consequential inference, independent warrant, rival discrimination or reuse. Identify honest primitives and open bridges; neither a new predicate name nor a definition settles its applicability. Reuse shared [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning). Do not expand ordinary vocabulary just for coverage.
 4. **Return a bounded result.** Return early after a useful finding, or at the cap, blocker or loss of expected value. State what uncertainty changed, exact evidence and assumptions, surviving objections, the proposed provisional assessment, and the next discriminating step. An honest “no useful result” is permitted; record the attempted approach and what would justify retrying it. Finishing a worker turn does not settle its proposition.
@@ -64,7 +64,18 @@ Keep these assessments separate in existing records and reports; do not collapse
 | Outstanding objections | The exact challenge, its target and what has or has not answered it. |
 | Work status | Whether an investigation succeeded, failed, is paused or should be reopened; no truth conclusion follows from this alone. |
 
-Before a consequential definition, bridge, claimed defeat or influential judgment change is relied on as reviewed support, obtain a separate worker's challenge review. Reconstruct the claim in plain language; inspect revealing examples/counterexamples, quantifiers, modality, hidden assumptions and the strongest relevant objection. Check claimed novelty against prior work. Retain disagreements rather than treating reviewer agreement as proof. Routine derivations reuse the existing checks and unchanged review evidence. Conditional exploration may continue while review is pending, with that limitation explicit.
+### Independent semantic challenge
+
+Before a consequential definition, bridge, claimed defeat or influential judgment change is relied on as reviewed support, obtain a separate worker's challenge review. It must cover the **final consequential findings** and their evidence revision, including claims introduced or changed during synthesis; review of an earlier worker's claims does not cover those additions. Apply the following targeted checks:
+
+1. **Map the intended claim.** Restate it plainly and map each load-bearing narrative commitment to an encoded condition, definition or hypothesis, or an explicit **OPEN** interpretation bridge. Inspect quantifiers, modality, hidden assumptions and the strongest relevant objection. Names and suggestive prose do not supply missing conditions.
+2. **Inspect the actual witness.** Check whether the model preserves the entities and relations required by the motivating claim, including their existence and identity across the relevant situations. For example, an empty comparison world may witness an abstract modal non-entailment while failing a reading that requires an object, its material or its origin there. When the encoding omits commitments needed by that interpretation, label the result a **structural surrogate** and state exactly what it witnesses.
+3. **Restore omitted commitments.** Test whether adding the intended but omitted conditions preserves the countermodel or consequence. It may destroy the countermodel. If this test remains open, keep the stronger interpretation unresolved; do not carry the surrogate's result across that gap.
+4. **Compare readings and warrant.** Preserve meaningful alternatives and compare their consequences under explicit assumptions without forcing a winner. Logical weakening can improve a sufficient premise set; it does not by itself establish equal or greater independent warrant or applicability. Check claimed novelty against the exact prior theorems and dependencies.
+
+Retain disagreements rather than treating reviewer agreement as proof. Routine derivations reuse the existing checks and unchanged review evidence; review changed consequential findings and affected dependencies, not the whole history again. Conditional exploration may continue while review is pending, with that limitation explicit.
+
+### Revision boundaries
 
 Integration must also enforce these boundaries:
 
@@ -82,7 +93,7 @@ Select work by the importance of the live question, the expected value of discri
 
 Default to reserving at least one of every five worker starts for a neglected plausible interpretation or a challenge to influential support. Record a reason when no such target is available, and raise the priority of repeatedly deferred relevant work. The coordinator may adjust this allocation to the run budget with an explicit rationale in the existing handoff; do not silently remove exploration capacity.
 
-After ten completed turns, at the run cap, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count clearer distinctions, informative conditional results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress; do not substitute node counts, route cost or a guaranteed discovery per worker. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
+After ten completed turns, at the run cap, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count clearer distinctions, informative conditional results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress; do not substitute node counts, route cost or a guaranteed discovery per worker. Assess throughput by accepted meaningful findings per elapsed run, with their time/resource costs and dominant review, build or CI waits recorded in existing logs or the current handoff. Claim and PR counts are not quotas or substitutes for this evidence. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
 
 The [configuration elimination method](configuration-elimination-loop.md#certified-forks-for-selected-investigations) and [#565 pilot note](notes/argument-first-pilots-565.md) supply particular proof tactics, not mandatory preliminary stages for every turn.
 
@@ -201,7 +212,13 @@ Ship one coherent verified argument cluster, a complete candidate range, or a re
 
 ## Parallel lanes
 
-Follow the A/B/C ownership in `AGENTS.md` (#416). Shared Lean imports and documentation tables are generated, never hand-edited; rerun `scripts/root-imports.sh --write` and `python3 scripts/docs_index.py --write` after merging `origin/main` before pushing.
+When resources permit, start with **two concurrent independent node investigations**, reserving challenge-review capacity. With four agent slots, use a coordinator, two researchers and one challenger. Adjust for actual resource or dependency constraints in the current handoff. Each researcher gets a fresh bounded brief, an isolated warm checkout and disjoint file/argument ownership under the existing A/B/C lanes in `AGENTS.md` (#416).
+
+Freeze a shared semantic baseline in the briefs: revision, selected definitions/senses and theorem dependencies. Shared definitions and bridges belong to explicit dependency tasks with a designated owner; the coordinator owns shared integration. If a definition changes, stop reusing affected semantic or verification evidence for the changed baseline until the meanings and dependencies are reconciled. Independent work on unchanged dependencies can continue.
+
+Review and integrate findings as they return. Keep other independent investigations running while one result awaits review or CI; there is no whole-batch barrier. Serialize heavy builds and mutations of shared checkouts or Lean-service state under the existing locks, while allowing independent reading, reasoning and isolated edits to proceed. Reuse the existing CLI, service, checks and one handoff; this policy adds no scheduler or schema.
+
+Shared Lean imports and documentation tables are generated, never hand-edited; rerun `scripts/root-imports.sh --write` and `python3 scripts/docs_index.py --write` after merging `origin/main` before pushing. Reuse unchanged check evidence and retain the required final-head CI coverage.
 
 ## Completion and coverage
 
