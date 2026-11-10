@@ -25,14 +25,14 @@ There are two verified arrivals. They share the two frame premises.
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| F1 | The actual world is accessible from itself. `STMT-ACTUAL-MODAL-REFLEXIVITY` | open | none recorded; a floor candidate |
-| F2 | Any two worlds accessible from a world are accessible from each other (Euclidean). `STMT-EUCLIDEAN-FRAME` | open | not recorded: metaphysical possibility is not transitive (Salmon, Chandler) |
+| F1 | The actual world is accessible from itself. `STMT-ACTUAL-MODAL-REFLEXIVITY` | open | recorded; see the rival table |
+| F2 | Any two worlds accessible from a world are accessible from each other (Euclidean). `STMT-EUCLIDEAN-FRAME` | open | recorded; see the rival table |
 
 **Arrival A, temporal** (`InertEmptiness.necessaryConcrete`, spec `specs/modal-spine-inert-emptiness.toml`):
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| A1 | Whatever is present at some time of a history exists in that history. `STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL` | open | none recorded |
+| A1 | Whatever is present at some time of a history exists in that history. `STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL` | open | recorded; see the rival table |
 | A2 | Inert emptiness: a moment with nothing concrete present is followed only by such moments. | open | recorded: a beginning out of nothing |
 | A3 | Possibly, contingent concrete things are absent at a moment and present at a later one. | open | recorded: the initial-state view, on which contingent things are present from the earliest moment of every possible history |
 
@@ -58,8 +58,8 @@ satisfiable. Omission of F1 and F2 is not tested there.
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| B1 | Possibly, contingent concrete reality begins. `STMT-SCENARIO-POSSIBLY-BEGINS` | open | not recorded |
-| B2 | If so, possibly it begins with an existing concrete cause outside all contingent things. `STMT-SCENARIO-CAUSAL-OPPORTUNITY` | open | not recorded: a brute beginning that could have no cause |
+| B1 | Possibly, contingent concrete reality begins. `STMT-SCENARIO-POSSIBLY-BEGINS` | open | recorded; see the rival table |
+| B2 | If so, possibly it begins with an existing concrete cause outside all contingent things. `STMT-SCENARIO-CAUSAL-OPPORTUNITY` | open | recorded; see the rival table |
 
 `ExternalCandidateNecessity` shows that "a concrete thing outside all contingent
 things" is equivalent to "a necessary concrete thing": the causal relation in B2
@@ -90,8 +90,8 @@ supporter of its being, under F1, excluded middle and two further open premises:
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open | none recorded |
-| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open | none recorded |
+| J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open | recorded; see the rival table |
+| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open | recorded; see the rival table |
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
 computed frontier. It reaches it by the necessary-concrete routes with 15 bare
@@ -107,12 +107,97 @@ root without any modal step, so the corpus reaches the node a third way. The
 regress results are also the tool against the "endless chain explains itself"
 reply to A3 and B1.
 
+## Rival table (run of 2026-11-10)
+
+Every open premise of the spine now has a recorded rival with a replacement
+account and one Lean-verified test. "Survives" means: one finite interpretation
+satisfies the rival together with the other premises of the named consuming
+theorem while that theorem's conclusion fails. It shows the premise is needed
+there and that the rest does not exclude the rival. It refutes nothing, and it
+does not test the rival against the whole route. "Excluded" names a checked
+incompatibility. No rival is refuted and no premise is established.
+
+Batches: stage one in `specs/modal-spine-inert-emptiness.toml`,
+`specs/modal-spine-coming-to-be.toml` and `specs/spine-rivals-stage-one.toml`;
+the join and the root and act-of-being premises in
+`specs/spine-rivals-root-esse.toml`; the attribute premises in
+`specs/spine-rivals-attributes.toml`.
+
+### Stage one and the join
+
+| Premise | Rival (replacement account) | Result | Tested against |
+|---|---|---|---|
+| F1 actual reflexivity | Accessibility is "what lies ahead" or "what would be ideal": serial, and the actual world does not see itself | survives | `InertEmptiness.necessaryConcrete` |
+| F2 Euclidean frame | Possibility is relative and not transitive: reflexive, but two possibilities need not see each other | survives | `InertEmptiness.necessaryConcrete` |
+| A1 presence gives existence | Presentism: to exist is to be present now, and something earlier has ceased | survives | `InertEmptiness.necessaryConcrete` |
+| A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
+| A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
+| A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with an endless past or a never-generated contingent thing | the premise itself |
+| B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
+| B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
+| J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |
+| J2 support among necessary things is well-founded | Two necessary things support each other | survives | `NecessaryConcreteUnderived.checks` |
+
+### Stage two: the root and the act of being
+
+| Premise | Rival (replacement account) | Result | Tested against |
+|---|---|---|---|
+| Something concrete exists | Only non-concrete things exist | survives | `NecessaryRootFork.necessaryRootTrilemma` |
+| The whole roster is not a borrowing trap | Every concrete thing has a concrete ground, without end | survives | `WholeRosterFoundation.necessaryConcrete` |
+| Every contingent concrete thing has a ground | Some contingent concrete thing is ungrounded (a brute fact) | survives | `ActualRootNecessityUpgrade.upgrade` |
+| The maximum in being causes all other being | The maximum is idle: a third thing causes another's being | survives | `TermSenseForks3.maximeEnsCausesAllMaximal` |
+| What exists is in act as to being | Thin existence: something exists with no act of being | survives | `Round2ExistenceAct.intellectualExerciseRequiresActFromExistence` |
+| A cause of a thing's being is its concrete ground | A non-concrete cause of being (a law or abstract object) | survives | `Round2Grounding.contingentGroundedViaParticipation` |
+| Grades of being imply a maximum | Unbounded grades: everything is exceeded | survives | `SelectedAncestryUnique.uniqueRoot` |
+| A universal cause of being causes the effect's perfections | Mere conservation: a secondary cause supplies a perfection | survives | `CausalPerfectionTransfer.reconstruction` |
+| What is simply prior is a concrete ground | Something non-concrete is simply prior to a concrete thing | survives | `NecessaryFirstBeing.necessaryFirst` |
+| Whatever is God is maximal in being | A god exceeded in being by something not God | survives | `StageTwo.GodIsSimple.godIsSimple` |
+
+### Stage two: the attributes and the name
+
+All fourteen tests are conjuncts of `SpineRivalsAttributes.controls`.
+
+| Premise | Rival (replacement account) | Result | Tested against |
+|---|---|---|---|
+| Nothing has actuality except insofar as it is | Actuality without being (Meinongian) | survives | `existingInActAtFromSomeAct` |
+| An effect's perfections preexist in its cause | Strong emergence | survives | `causeOfBeingHasWhatItGives` |
+| Goodness is actuality | Actuality is not sufficient for goodness | survives | `godIsSupremelyGood` |
+| Every composite has a uniting cause | Uncaused composition | survives | `godIsSimple` |
+| Matter-form and essence-existence differences are compositions | A real difference without composition | survives | `firstMoverSimple` |
+| No component is the first being | A first being that is a component of something | survives | `attributesFromFirst` |
+| The immaterial is intellectual | Intellect only in material composites | survives | `godHasIntellect` |
+| Will follows intellect | Intellect without will | survives | `godHasWill` |
+| Act is simply prior to potency | Potency prior to act | survives | `firstBeingNoPotency` |
+| Nothing is in act and potency in the same respect | Act and potency in the same respect | survives | `firstBeingNoPotency` |
+| Subsistent being is infinite | A finite subsistent being | survives | `firstMoverPerfectionFromInfinity` |
+| The immutable is eternal | Immutable without eternity | survives | `godIsEternal` |
+| "God" names the fully described principle | The full nominal naming fails | survives | `properDescriptionExcluded` |
+| The nine attributes suffice for the classical attributes | The nine attributes fall short | survives | `ClassicalAttributes.godHasClassicalAttributes` |
+
+Four attribute rivals (will, infinity, eternity, sufficiency) are bare negations
+in Lean, with the replacement account in prose only: the premise's carrier has
+no predicate in which to state it.
+
+### Floor candidates
+
+These premises have no source claim and no derivation in the corpus. They are
+candidates for an owner floor decision, not established:
+
+- F1 actual reflexivity. Its rival changes what accessibility means rather than denying that the actual is possible.
+- A1 presence gives existence, once the spine fixes a non-presentist reading of existence.
+- Something concrete exists at the actual world.
+
+The other unsupported premises (F2, A2, A3′, B1, B2, J1, J2, and the root and
+act-of-being bridges) are contested positions and are not floor candidates.
+
 ## Order of work
 
-1. Record the unrecorded rivals in the tables above, each with its replacement account.
+1. Decide the floor candidates.
 2. The two horns left to the initial-state view under A3′: test "some contingent
    thing never came to be" against the brute-foundation results, and "every
    possible past is endless" against the causal-finitism and Grim Reaper results.
-   Then A2 against a beginning out of nothing.
-3. Record rivals for J1 and J2, and check whether the ungrounded individual of the join is the root the stage-two chain starts from.
-4. Then the stage-two premises, one attribute group at a time, rivals first.
+3. For the rows marked "survives", look for commitments the rival's holder
+   accepts that conflict with it. The join models depend on the support relation
+   reversing direction between worlds, so an invariance premise is the first
+   discriminator for J1 and J2.
+4. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.

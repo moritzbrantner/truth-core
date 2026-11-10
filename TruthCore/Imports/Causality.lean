@@ -163,6 +163,7 @@ public import TruthCore.Causality.SelfMotionSeparation
 public import TruthCore.Causality.SelfOperationLife
 public import TruthCore.Causality.SourceForest
 public import TruthCore.Causality.SourceWitness
+public import TruthCore.Causality.SpineRivalsStageOne
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SubjectFocalRoles
 public import TruthCore.Causality.SuccessionPotency
