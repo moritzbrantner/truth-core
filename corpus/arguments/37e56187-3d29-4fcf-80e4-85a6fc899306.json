@@ -1,0 +1,29 @@
+{
+  "id": "37e56187-3d29-4fcf-80e4-85a6fc899306",
+  "label": "A3 same-event transport under accessible occurrence uniqueness",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "06a550d9-cafa-42fa-bac8-a78552f6d798",
+  "inference_ids": [
+    "d028b15e-c490-44b6-b723-e72b128bffc9"
+  ],
+  "meaning": "Prove the universally quantified conditional transport law whose uniqueness antecedent is relativized to occurrences occurring at a world accessible from w. The proof applies uniqueness to the conditioned matching occurrence using the occurrence supplied by possible conditioning. Corrects the earlier law, whose uniqueness antecedent ranged over the whole occurrence type. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN.",
+  "term_senses": {
+    "A3_EVENT_IDENTITY_CAUSAL_PRIORITY": "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56"
+  },
+  "definition_ids": [
+    "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+    "e7dc62a6-7b2f-4467-87b3-ec287bd67047"
+  ],
+  "disambiguation_ids": [
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8"
+  ],
+  "sense_bridges": [
+    {
+      "term": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY",
+      "from": "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56",
+      "to": "eaa836ba-e872-4c16-9511-4ce208529a62",
+      "statement_id": "06a550d9-cafa-42fa-bac8-a78552f6d798",
+      "role": "conclusion"
+    }
+  ]
+}

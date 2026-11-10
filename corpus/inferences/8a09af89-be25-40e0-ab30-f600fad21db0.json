@@ -1,0 +1,10 @@
+{
+  "id": "8a09af89-be25-40e0-ab30-f600fad21db0",
+  "label": "Full autonomous modal ground without an existential ingredient, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "8885e7bb-c753-4859-b75e-9bfbb6492c80",
+  "rule": "Explicit finite joint interpretation",
+  "meaning": "The fixed Bool-world/Bool-candidate model has universal accessibility, a target present in both worlds and a second concrete candidate absent at the other world. Its one admitted complete ground targets positive false and contains only autonomous other (). All five inputs, SAME Profile necessary-concrete endpoint, not IngredientAt, ground nonemptiness, actual contingency and all-world population hold jointly. No note44 essence, own-nature explanation or real applicability is certified.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

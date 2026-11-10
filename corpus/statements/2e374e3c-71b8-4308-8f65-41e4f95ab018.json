@@ -1,0 +1,13 @@
+{
+  "id": "2e374e3c-71b8-4308-8f65-41e4f95ab018",
+  "label": "A3 accessible occurrence transport strength and omission controls",
+  "paraphrase": "Over unrestricted carriers: the accessible-occurrence transport law implies the earlier type-global-uniqueness law; UniqueRealization with admission read as occurrence at an accessible world, together with accessible occurrence of the selected occurrence, implies the relativized uniqueness hypothesis; and type-global selected uniqueness forces every bearer and every ordered start/finish pair to equal the selected occurrence's. In one finite Bool model two distinct occurrences share a transition and only one occurs: the relativized hypothesis and matching possible conditioning hold, type-global uniqueness fails, and the conclusion holds. Omitting the uniqueness hypothesis, or omitting the matching possible conditioning, makes the universal law false. Analyst controls only; no premise or root truth.",
+  "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.AccessibleTransportControls",
+  "definition_ids": [
+    "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+    "e7dc62a6-7b2f-4467-87b3-ec287bd67047"
+  ],
+  "disambiguation_ids": [
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8"
+  ]
+}
