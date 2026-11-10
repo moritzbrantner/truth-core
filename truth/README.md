@@ -57,8 +57,11 @@ lines in Python's order, byte for byte; on failure stderr is Python's
 2 is the CLI's usage code). `--json` prints `counts`, `warnings` and
 `summary`, or a `corpus_error` object.
 
-The port is complete, but `scripts/corpus.py check` stays the corpus gate
-(CI, `AGENTS.md`) until those consumers switch, which is a later slice.
+The port is complete, and `truth check` is the corpus gate: CI's corpus job
+and the worker contract (`AGENTS.md`, `docs/worker-startup.md`) run it, as
+they run `truth frontier` and `truth frontier-diff` for the premise report.
+`scripts/corpus.py check` stays until its retirement; the `truth-cli` job's
+parity script keeps the two in agreement.
 
 Ported: record loading and ID indexes; the per-kind passage manifest schema
 (`source_evidence.validate_manifest`: text witness, media span, web snapshot,
@@ -162,9 +165,8 @@ owner-approved and a stale marking, counted and uncounted refutations,
 transcription closure, the warning heuristics, witnesses, a case split and an
 unknown root. Not ported: the full `validate()` that Python runs first (Rust
 performs only the structural load, so a corpus that Python rejects can still
-produce a Rust report). The Python commands, CI's premise-delta step and the
-Explorer build still call `corpus.py`; switching them is a later consumer
-slice. Lean and Comparator keep proof authority: a "verified" argument is one
+produce a Rust report). CI's premise-report step runs the Rust commands; the
+Explorer build still calls `corpus.py`, which is the next consumer slice. Lean and Comparator keep proof authority: a "verified" argument is one
 with a result record.
 
 ## `related`, `dossier`, `context`

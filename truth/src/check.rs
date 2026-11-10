@@ -2,8 +2,8 @@
 //! `check_warnings()`), rule for rule and in the same order, so the first
 //! error a broken corpus reports is the one Python reports.
 //!
-//! Every rule is ported; `scripts/corpus.py check` stays the corpus gate
-//! until CI and the worker contract switch to `truth check`.
+//! Every rule is ported; this is the corpus gate CI and the worker contract
+//! run, kept at parity with `scripts/corpus.py check` until its retirement.
 //! Messages are Python's, except where Python formats a parser exception
 //! (invalid JSON) or a value that is not a string, list or scalar.
 

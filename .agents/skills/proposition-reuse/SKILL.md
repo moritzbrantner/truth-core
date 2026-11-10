@@ -5,18 +5,19 @@ description: Find related truth-core propositions, existing arguments and previo
 
 # Proposition reuse
 
-From the truth-core repository root, run:
+From the truth-core repository root, build the Rust CLI once per clone
+(`cargo build --locked --release -p truth`), then run:
 
 ```bash
-python3 scripts/corpus.py related <STMT-ID> --limit 10
-python3 scripts/corpus.py dossier <STMT-ID>
+target/release/truth related <STMT-ID> --limit 10
+target/release/truth dossier <STMT-ID>
 ```
 
 When the seed is an existing argument or result, first run
-`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>` (add `--json` for every
+`target/release/truth context <ARGUMENT-OR-RESULT-ID>` (add `--json` for every
 entry); then open dossiers only for the premises it reports open.
 
-The first command automatically refreshes its disposable SQLite lookup index.
+`related` ranks the loaded corpus in memory; it needs and writes no cache.
 Use `--json` for complete machine-readable match evidence and attempt blockers.
 If no seed ID is known, start with
 `python3 scripts/research_index.py build` and
