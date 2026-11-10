@@ -1,0 +1,9 @@
+{
+  "id": "73f860c5-dfd5-4b26-a288-bf86817b915a",
+  "label": "Boolean sensor and replay equations",
+  "term": "Boolean sensor and replay equations",
+  "definition": "sensor object recorded = object, whereas replay object recorded = recorded. The first projection follows the object coordinate and the second the record coordinate. They agree on diagonal inputs and differ at the selected off-diagonal intervention. Independent variation is a supplied intervention assumption, not a general causal theory or evidence of actual cognition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.sensor",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}

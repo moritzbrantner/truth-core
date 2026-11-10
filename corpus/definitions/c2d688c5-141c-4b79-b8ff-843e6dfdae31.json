@@ -1,0 +1,9 @@
+{
+  "id": "c2d688c5-141c-4b79-b8ff-843e6dfdae31",
+  "label": "codebook-relative accuracy",
+  "term": "codebook-relative accuracy",
+  "definition": "Accurate p means \u2200 c, p.decode c (p.state c) = p.target c. It compares output and supplied target at every context. This equality is distinct from reference, justification, understanding and cognition, and can hold for a noncognitive mathematical device.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.Accurate",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}
