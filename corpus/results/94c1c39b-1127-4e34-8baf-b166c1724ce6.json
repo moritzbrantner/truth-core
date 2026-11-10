@@ -1,0 +1,11 @@
+{
+  "id": "94c1c39b-1127-4e34-8baf-b166c1724ce6",
+  "label": "Two form selection and intervention controls checked",
+  "argument_id": "a21fb462-90ef-44f1-99f6-15c692a1f48b",
+  "challenge_module": "TruthCore.Results.Logic.FormSelection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FormSelection.Solution",
+  "theorem": "TruthCore.Results.Logic.FormSelection.controls",
+  "comparator_config": "results/94c1c39b-1127-4e34-8baf-b166c1724ce6/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit joint positive capacity witness and constant-state context model; diagonal agreement is separated from an off-diagonal intervention."
+}

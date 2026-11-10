@@ -1,0 +1,11 @@
+{
+  "id": "1d8ca4b0-98f6-4ed0-88b1-ffcb01e31d62",
+  "label": "Independent reference and error controls checked",
+  "argument_id": "36f89f6c-f0b0-4650-a607-4db3cf055ba0",
+  "challenge_module": "TruthCore.Results.Logic.FormSelection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FormSelection.Solution",
+  "theorem": "TruthCore.Results.Logic.FormSelection.referenceControls",
+  "comparator_config": "results/1d8ca4b0-98f6-4ed0-88b1-ffcb01e31d62/comparator.json",
+  "status": "solution-present",
+  "description": "Witness error with fixed referent, and two differing referents with matching correctness, without defining reference as truth."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "a9f20e41-34bc-4d21-bbd3-6032ac78b018",
+  "label": "Intrinsic selection obstruction checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "bafed5df-856e-4f49-9178-c144ad5cfad4",
+  "inference_ids": [
+    "e0180465-7e93-476c-9d41-e469f21c703b"
+  ],
+  "meaning": "Compare actual decoder outputs using the independent intrinsic-codebook and equal-state hypotheses; accuracy transfers their equality to targets.",
+  "definition_ids": [
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129"
+  ]
+}

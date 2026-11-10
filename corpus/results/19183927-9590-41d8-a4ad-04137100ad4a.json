@@ -1,0 +1,11 @@
+{
+  "id": "19183927-9590-41d8-a4ad-04137100ad4a",
+  "label": "Intrinsic selection obstruction checked",
+  "argument_id": "a9f20e41-34bc-4d21-bbd3-6032ac78b018",
+  "challenge_module": "TruthCore.Results.Logic.FormSelection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FormSelection.Solution",
+  "theorem": "TruthCore.Results.Logic.FormSelection.selection",
+  "comparator_config": "results/19183927-9590-41d8-a4ad-04137100ad4a/comparator.json",
+  "status": "solution-present",
+  "description": "Compare actual decoder outputs using the independent intrinsic-codebook and equal-state hypotheses; accuracy transfers their equality to targets."
+}

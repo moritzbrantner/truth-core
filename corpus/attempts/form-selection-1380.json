@@ -1,0 +1,17 @@
+{
+  "id": "a4dcb658-ee60-4f53-a8a5-71055d247fdb",
+  "label": "Form selection and reference-ground controls for intentional apprehension",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "180f5ad2-a421-541a-85c9-9bca578b4a43"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Structural capacity/selection, context decoder, sensor/replay intervention and error/reference controls. See docs/notes/form-selection-1380.md for exact scope, rejected arbitrary-map theory comparison, positive rivals and draft judgment.",
+  "evidence": [
+    "19183927-9590-41d8-a4ad-04137100ad4a",
+    "94c1c39b-1127-4e34-8baf-b166c1724ce6",
+    "1d8ca4b0-98f6-4ed0-88b1-ffcb01e31d62"
+  ],
+  "blocker": "Semantic application and intentional norm unresolved: merged vocabulary lacks an appropriate causal path or productive-exemplar relation and error norm. Coordinator allocation needed to avoid overlapping the owned causal cluster; next test is a grounded reference account against accurate noncognitive surrogates. Final certification and independent challenge pending."
+}

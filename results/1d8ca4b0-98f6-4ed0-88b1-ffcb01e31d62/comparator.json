@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.FormSelection.Challenge",
+  "solution_module": "TruthCore.Results.Logic.FormSelection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.FormSelection.referenceControls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

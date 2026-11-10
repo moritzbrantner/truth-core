@@ -1,0 +1,9 @@
+{
+  "id": "bafed5df-856e-4f49-9178-c144ad5cfad4",
+  "label": "Intrinsic codebooks cannot accurately select differing targets from equal states",
+  "paraphrase": "Structural presentation surrogate: accuracy and context-independent decoding force equal targets whenever intrinsic states agree. No cognitive or divine application is asserted.",
+  "lean_declaration": "TruthCore.Logic.FormSelection.Selection",
+  "definition_ids": [
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129"
+  ]
+}
