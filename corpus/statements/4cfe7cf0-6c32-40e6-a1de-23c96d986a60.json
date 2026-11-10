@@ -1,0 +1,9 @@
+{
+  "id": "4cfe7cf0-6c32-40e6-a1de-23c96d986a60",
+  "label": "Fixed initial 535 rigid variable later branch",
+  "paraphrase": "The explicit profile false false false jointly has a populated initial roster, sound distinct grounding endpoints, conditional origin preservation, rigid initial preservation, constant initial description and varied later states, with the SAME initial bearer (false,false) necessary. Existential grounding is empty in this profile; naturalness is an open interpretation, not an additional certified predicate.",
+  "lean_declaration": "TruthCore.Modal.FixedInitial535.RigidBranch",
+  "definition_ids": [
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51"
+  ]
+}

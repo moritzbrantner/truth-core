@@ -1,0 +1,10 @@
+{
+  "id": "343a9af7-cd5a-4724-81bf-f6e2b9a6a04c",
+  "label": "Fixed initial 535 propagation transcribed (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "7aad520c-7b3b-4cbc-9153-5fa256d11e10",
+  "rule": "Witness propagation",
+  "meaning": "Elementary propagation of an explicitly assumed same bearer; no philosophical premise discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

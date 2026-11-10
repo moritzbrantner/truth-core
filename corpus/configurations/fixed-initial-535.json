@@ -1,0 +1,51 @@
+{
+  "id": "20267460-1305-41eb-90a7-9479fed8dd48",
+  "label": "Issue 535 fixed initial root and variable later history",
+  "description": "Exact closed joint branch for #477; no exhaustive philosophical partition or modal adequacy claim.",
+  "seed_statement_id": "4cfe7cf0-6c32-40e6-a1de-23c96d986a60",
+  "semantics": {
+    "id": "fixed-initial-535-joint-profile",
+    "logic": "Lean constructive proof with propext and Quot.sound",
+    "frame": "Universal Bool access; both worlds populated",
+    "domain": "Literal fixed Bool\u00d7Bool roster; closed profile false false false",
+    "identity": "Literal equality; no counterpart coercion",
+    "vocabulary": "fixed-initial-535-joint",
+    "modules": [
+      "TruthCore.Modal.FixedInitial535"
+    ],
+    "parameters": [
+      {
+        "name": "W",
+        "type": "Type"
+      }
+    ],
+    "applications": {
+      "4cfe7cf0-6c32-40e6-a1de-23c96d986a60": []
+    },
+    "parameter_order": [
+      "W"
+    ],
+    "permitted_axioms": [
+      "propext",
+      "Quot.sound"
+    ]
+  },
+  "configurations": [
+    {
+      "id": "rigid-initial-variable-later",
+      "statement_ids": [
+        "4cfe7cf0-6c32-40e6-a1de-23c96d986a60"
+      ]
+    }
+  ],
+  "incompatibility_result_ids": [],
+  "implication_result_ids": [],
+  "model_bindings": [
+    {
+      "model_id": "ca56c0e8-a520-49f3-93f9-519034f2143f",
+      "parameters": {
+        "W": "W"
+      }
+    }
+  ]
+}

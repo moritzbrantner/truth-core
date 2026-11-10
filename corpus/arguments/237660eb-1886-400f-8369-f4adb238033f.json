@@ -1,0 +1,13 @@
+{
+  "id": "237660eb-1886-400f-8369-f4adb238033f",
+  "label": "Fixed initial 535 rigid branch checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "4cfe7cf0-6c32-40e6-a1de-23c96d986a60",
+  "inference_ids": [
+    "e6718d9c-a697-45a2-80a1-21662a7aaa6a"
+  ],
+  "meaning": "Exact joint finite branch for configuration comparison; no metaphysical possibility or probability conclusion.",
+  "definition_ids": [
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51"
+  ]
+}
