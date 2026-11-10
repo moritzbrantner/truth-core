@@ -313,3 +313,10 @@ Repair preview: clean HEAD `078c37fd5d77f77c661b0d6ad8a8de5fe22c5d7c`, session
 content SHA256 `cd83aae50543f4a7bc14d877b3caa37690f2d96a48a06eb083ee53fc0e76fc1a`.
 Service corpus lookup of a909fd1c returned the same clean preview binding.
 Retain service for repeated axiom diagnostics; no CLI speedup measured.
+
+Repair self-sweep: unchanged theorem types, statement bindings and model scope;
+new prose tests are explicitly uncertified analyst calculations. No new sourced
+claim, primitive, definition/sense, or owner approval. Corpus and attribution
+checks passed (existing corpus warnings retained); generated import/docs outputs
+were current after merging fresh main. Policy files have no PR diff. Unchanged
+certificates retain earlier evidence; changed certificates need final-head CI.
