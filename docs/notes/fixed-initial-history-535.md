@@ -316,3 +316,12 @@ Live configuration verification now PASSES for case
 supersedes the pending live-configuration wording above. Comparator/NanoDa
 for the registered result cluster and final-head CI remain pending. Reproduce:
 `python3 scripts/corpus.py configurations --case 20267460-1305-41eb-90a7-9479fed8dd48 --json`.
+
+## Independent semantic challenge repairs
+
+Challenge of362235c6ffe7661a3aa3d953bc796507179a6845 found no substantive
+mismatch in the qualified analyst-profile findings. Two record repairs follow:
+the rigid-branch rule now describes its direct constructive witness, and the
+shared definition exposes Joint's one-way existing/distinct endpoint constraint.
+Neither changes a theorem, creates a support-definition converse or establishes
+modal inventory/identity warrant. Final delivered-head certification remains CI.

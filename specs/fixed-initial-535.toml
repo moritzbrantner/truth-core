@@ -28,7 +28,7 @@ theorem = "rigidBranch"
 premises = []
 conclusion = "Fixed initial 535 rigid variable later branch"
 axioms = ["propext", "Classical.choice", "Quot.sound"]
-rule = "Projection of joint finite certificate"
+rule = "Direct constructive witness for the rigid joint branch"
 meaning = "Exact joint finite branch for configuration comparison; no metaphysical possibility or probability conclusion."
 
 [[statement]]
