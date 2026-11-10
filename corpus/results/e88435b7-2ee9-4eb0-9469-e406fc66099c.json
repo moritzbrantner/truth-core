@@ -1,0 +1,11 @@
+{
+  "id": "e88435b7-2ee9-4eb0-9469-e406fc66099c",
+  "label": "Quantitative transfer derivation resourceBudget",
+  "argument_id": "61ead120-c404-4006-8f24-88bf6064009c",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.resourceBudget",
+  "comparator_config": "results/e88435b7-2ee9-4eb0-9469-e406fc66099c/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

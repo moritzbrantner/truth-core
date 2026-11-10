@@ -1,0 +1,6 @@
+{
+  "id": "424a0323-fc89-4ff6-9798-9825b602b4b7",
+  "label": "Quantitative transfer conservativeCircle",
+  "paraphrase": "The two-node Boolean swap has constant-one source-free balance and finite total quantity two. This is a mathematical conservative-circle control, without a claim of actual productive or explanatory adequacy.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.ConservativeCircle"
+}

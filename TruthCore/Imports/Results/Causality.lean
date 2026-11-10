@@ -81,6 +81,7 @@ public import TruthCore.Results.Causality.ContingentBeingNode.Solution
 public import TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution
 public import TruthCore.Results.Causality.ContingentComingToBe.Solution
 public import TruthCore.Results.Causality.ContingentTotalityCause.Solution
+public import TruthCore.Results.Causality.ContractiveBorrowedPower.Solution
 public import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessityProjection.Solution
@@ -218,6 +219,7 @@ public import TruthCore.Results.Causality.ProtectiveProcess.Solution
 public import TruthCore.Results.Causality.PureActRoot.Solution
 public import TruthCore.Results.Causality.PureActThisness.Solution
 public import TruthCore.Results.Causality.PureIndiscernibility.Solution
+public import TruthCore.Results.Causality.QuantitativeTransferPaths.Solution
 public import TruthCore.Results.Causality.ReceptionLimitation.Solution
 public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution

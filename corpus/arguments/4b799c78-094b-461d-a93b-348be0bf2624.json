@@ -1,0 +1,10 @@
+{
+  "id": "4b799c78-094b-461d-a93b-348be0bf2624",
+  "label": "Zero exercise from Mathlib contraction uniqueness",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c805abc5-cb0c-42e2-a6bc-518e68b70b7b",
+  "inference_ids": [
+    "3ec4e035-1c16-418b-9d45-a3dcbe4dcf1e"
+  ],
+  "meaning": "Apply Mathlib ContractingWith.fixedPoint_unique' to P and zero in the sup-norm space of bounded continuous assignments. Purity supplies the second fixed point. No completeness, well-foundedness or inductive Supply. The conclusion is universally conditional and establishes no physical premise."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "8c4e3c98-b3fc-45bd-93f1-11e016579cc3",
+  "label": "Quantitative borrowed-power controls by ordered field calculation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "276e927c-42ae-4bdd-839f-b751acf72c20",
+  "inference_ids": [
+    "951d5649-57d5-486f-b5f5-dd67c1fe09e2"
+  ],
+  "meaning": "Verify each displayed transfer identity, positivity and bound; powers of two exceed every real bound. A constant zero map is a contraction fixing zero. Omission witnesses isolate quantitative assumptions; no metaphysical applicability follows."
+}

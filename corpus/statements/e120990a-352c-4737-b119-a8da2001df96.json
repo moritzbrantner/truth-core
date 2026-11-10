@@ -1,0 +1,6 @@
+{
+  "id": "e120990a-352c-4737-b119-a8da2001df96",
+  "label": "Quantitative transfer vanishingTail",
+  "paraphrase": "For any real successor-chain assignment P uniformly bounded in absolute value and nonnegative factors q, if P(n)=q(n)P(n+1) and every upstream cumulative product tends to zero, then every P(n) is zero. No common strict factor bound is assumed.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.VanishingTail"
+}

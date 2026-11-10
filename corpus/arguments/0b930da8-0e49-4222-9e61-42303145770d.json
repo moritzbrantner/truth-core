@@ -1,0 +1,10 @@
+{
+  "id": "0b930da8-0e49-4222-9e61-42303145770d",
+  "label": "Quantitative transfer derivation conservativeCircle",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "424a0323-fc89-4ff6-9798-9825b602b4b7",
+  "inference_ids": [
+    "f9c4f511-628f-49be-b8bb-454ff4e24739"
+  ],
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}
