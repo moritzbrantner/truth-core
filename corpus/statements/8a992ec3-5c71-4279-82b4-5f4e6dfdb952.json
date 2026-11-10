@@ -1,7 +1,7 @@
 {
   "id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
   "label": "Reflexive symmetric access with two successors of the selected world not mutually accessible",
-  "paraphrase": "Rival framework commitment, unattributed (modelled on tolerance-based origin essentialism; attribution deferred): every world accesses itself, access is symmetric, and two worlds accessible from the selected world w do not access each other. Replacement account: a history in which a thing's origin differs a little from the actual one is possible relative to the actual history and conversely, but two histories that differ from the actual in opposite directions may differ from each other beyond tolerance. Stronger than the negation of Euclidean access at w by the reflexivity and symmetry conjuncts.",
+  "paraphrase": "Rival framework commitment, unattributed (modelled on tolerance-based origin essentialism; attribution deferred): every world accesses itself, access is symmetric, and two worlds accessible from the selected world w do not access each other. Replacement account: a history in which a thing's origin differs a little from the actual one is possible relative to the actual history and conversely, but two histories that differ from the actual in opposite directions may differ from each other beyond tolerance. Stronger than the negation of Euclidean access at w by the reflexivity and symmetry conjuncts. Structural surrogate: a frame condition with no origin, material or cross-world identity interface; that it represents the origin-tolerance account is an OPEN interpretation bridge.",
   "lean_declaration": "TruthCore.Causality.ToleranceOriginRival.ToleranceNonEuclideanAt",
   "definition_ids": [
     "5f4f8c56-51f8-43e2-8862-6e3152609c3c",

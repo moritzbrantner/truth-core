@@ -32,6 +32,17 @@ symmetry. The tolerance rival keeps symmetry (the B axiom) and fails `EuclideanA
 at the actual world itself, between two successors. It implies the stepwise
 rival's statement (`toleranceReflexiveNonEuclidean` in the results module).
 
+Status: structural surrogate (review of #1365). `ToleranceNonEuclideanAt` is a
+frame condition only. It encodes no origin, material or cross-world identity
+interface, so it does not by itself represent the origin-tolerance account; the
+passage from that account to this frame condition is an OPEN interpretation
+bridge. In `Control.tolerance` the offset worlds carry no individual with a
+varied origin (world `minus` is empty), so the checked model witnesses a
+symmetric, reflexive non-Euclidean omission model, not a faithful origin-tolerance
+countermodel. Restoring the intended commitment (the actual individual exists,
+with a varied origin, at both neighbouring offsets) is untested and may destroy
+the countermodel.
+
 Structural properties: reflexive and symmetric by definition; not transitive
 and not Euclidean at `w`. Applicability to reality remains OPEN; the rival is
 neither asserted nor refuted here.
