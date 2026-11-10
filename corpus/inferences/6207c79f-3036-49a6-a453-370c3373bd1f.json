@@ -1,0 +1,12 @@
+{
+  "id": "6207c79f-3036-49a6-a453-370c3373bd1f",
+  "label": "Joint satisfiability excludes falsum consequence (inference)",
+  "input_statement_ids": [
+    "f285b83f-87a6-4f89-8174-7e310fc9a3ed"
+  ],
+  "output_statement_id": "069bb696-55b6-4007-b468-9761b43abe02",
+  "rule": "Universal specialization, explicit semantic consequence and finite models",
+  "meaning": "Evaluate a purported falsum consequence at the joint theory witness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

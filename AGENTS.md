@@ -2,12 +2,46 @@
 
 This repository advances substantial arguments through small verified research steps. Keep the complexity in the philosophy, not in repository machinery.
 
+## Research policy and provisional judgments (owner direction, 2026-11-10)
+
+Follow [the systematic research loop](docs/systematic-corpus-loop.md) as the
+canonical method for selecting, investigating and integrating research. The
+coordinator issues reasoned **overall provisional judgments** of the current
+support for a claim or interpretation, including cumulative evidence, shared
+dependencies, objections and revision conditions. These judgments can inform
+priority, qualified conclusions and explicitly provisional downstream premises.
+They do not confer formal verification, frontier establishment or rival defeat.
+
+Keep proof validity, interpretation fidelity, premise warrant, objections and
+work status distinct. Personal assent is not philosophical warrant; do not ask
+the owner to select a metaphysical winner or create new `owner_approval` floor
+markings. Existing approval-based computed statuses remain legacy runtime
+behavior, documented in `docs/corpus-model.md`. Consequential definitions,
+bridges, claimed defeats and influential judgment changes need the independent
+[semantic challenge](docs/systematic-corpus-loop.md#independent-semantic-challenge)
+of the final consequential findings specified in the systematic loop. The
+coordinator drafts the complete proposed outcome before that review and follows
+the [bounded review-and-repair procedure](docs/systematic-corpus-loop.md#final-outcome-review-and-repair)
+before publishing its substantive conclusions.
+
+Use bounded turns, useful early returns and explicit reopening conditions.
+Investigate support, rivals, consequences, preconditions and connections as the
+target warrants. Whole-case maps, exhaustive sense forks, models and source
+campaigns are selected methods, not universal prerequisites. This policy
+supersedes older route-cost, bare-premise-first and assent-only floor priorities;
+it changes no proof, source, schema or computed closure rule.
+
 ## Fresh subagents for issue work (owner direction, 2026-11-08)
 
 During a workloop, the coordinator delegates each issue or bounded investigation
 to a fresh subagent. Split broad issues into independently reviewable slices;
 give each worker one slice with explicit file and argument ownership. The
 coordinator owns coverage, priorities, shared instructions, integration and merges.
+Use the canonical [parallel-lane policy](docs/systematic-corpus-loop.md#parallel-lanes)
+for two distinct propositions in different argument families, reserved review
+capacity and shared semantic baselines. Disjoint files or two subquestions of the
+same premise do not meet that breadth requirement. Independent research continues
+while other work awaits review or CI; routine corrections stay inside the loop.
 
 - Start workers without inherited conversation history (`fork_turns="none"`,
   or the equivalent). Supply the brief below, relevant repository instructions,
@@ -27,14 +61,15 @@ coordinator owns coverage, priorities, shared instructions, integration and merg
 
 ## Worker brief and handoff
 
-The master gives each worker a four-line brief:
+The master gives each worker a compact brief:
 
-1. **Target:** the skeleton node, argument or root obligation advanced. It must be a node on a root route, or connect to one by a named bridge. A target that serves no root route is rejected (see "Connect every library to the case").
-2. **Reuse:** the existing statement IDs and exact Lean theorems to consume.
-3. **Missing step:** the inference or source reading still needed.
-4. **Premise comparison:** the expected premises retained, added or removed, and whether the work connects results or discharges an obligation.
+1. **Target:** the proposition, parent question/argument family and root obligation advanced. It must be a node on a root route, or have a named bridge, connection plan and blocker. State why it is independent of the other active research target; an unbuilt bridge must not be reported as an existing route. A target that serves no root route is rejected (see "Connect every library to the case").
+2. **Reuse:** the baseline revision, existing statement IDs, selected definitions/senses and exact Lean theorems to consume.
+3. **Live uncertainty:** the inference, interpretation, warrant, rival or connection to investigate, and why it merits attention now.
+4. **Expected value:** the useful change sought, with expected premise effects where relevant. A finding may clarify the question without discharging an obligation.
+5. **Budget and return:** a work cap, file/argument ownership and useful early-return condition. An honest no-result return is allowed; provide the attempted approach and a specific next step or reopening condition.
 
-For a substantial frontier investigation (not a single source reading), the brief or the existing investigation issue also carries a compact **investigation brief**: the thesis and its downstream purpose; the strongest case and the strongest rivals; the existing results reused; the decisive missing bridge or fork; and the expected premise or configuration delta. It lives in the one current handoff or issue, not in another tracker.
+For a substantial frontier investigation, include enough context to state the thesis, selected meaning, downstream purpose, known serious rivals and existing evidence. The worker may refine this map within the cap; a complete argument tree or exhaustive rival list is not an entry requirement. It lives in the one current handoff or issue, not in another tracker.
 
 The PR reports the actual premise comparison by linking or pasting the computed delta (`python3 scripts/corpus.py frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. A new verified, non-transcription argument is positive **conditional support-option** progress even if it replaces one leaf with several open premises in the expanded-route diagnostic. Record those new obligations separately; neither the new argument nor a lower route cost establishes its conclusion. For non-proof work, use “none” or “no premise change” where applicable.
 
@@ -148,11 +183,14 @@ for the attempt format and reference boundaries.
 ## Research hypotheses are not forced owner decisions (owner direction, 2026-11-09)
 
 - Before offering A/B/C as an owner choice, classify whether the alternatives are mutually exclusive *actions or bindings needed now*, or coexisting philosophical senses, explanatory standards, rivals or conditional frameworks. A disputed thesis is not itself an implementation decision gate.
-- For research alternatives, retain each defensible interpretation and its strongest arguments, objections and replies. Compare precise implications, countermodels and bridges under explicit assumptions; investigate relationships before assuming either exhaustiveness or exclusivity. Do not ask the owner to select a metaphysical winner merely to proceed. A recommendation can prioritize investigation but does not establish a sense.
+- For research alternatives, retain each defensible interpretation and its strongest arguments, objections and replies. Compare precise implications, countermodels and bridges under explicit assumptions; investigate relationships before assuming either exhaustiveness or exclusivity. Do not ask the owner to select a metaphysical winner merely to proceed. Issue provisional judgments under the systematic loop: they may support qualified conclusions and priority, while leaving formal establishment unchanged.
 - Ask a focused owner question only when a concrete next action actually requires an exclusive commitment that cannot responsibly be carried as explicit alternatives. An instruction to investigate all options is a complete methodological decision: persist it and proceed without reopening a forced winner question.
 - Example: the whole-series explanation standards of PR #1297 are retained as rival standards; the topic-specific research judgment lives in attempt `a5958e25-0904-46cb-a9e8-62ca5f3f5286`.
 
 ## Systematic sense and rival comparison
+
+Use this workflow when a sense/rival comparison is the selected question; it is
+not a prerequisite for every investigation in the systematic loop.
 
 Before research, inspect `/progress` in the corpus explorer and the target's
 `/dossiers/<statement-uuid>#research-comparison`; use
@@ -162,8 +200,9 @@ Before research, inspect `/progress` in the corpus explorer and the target's
 These views reuse canonical corpus evidence; they are not a separate status registry.
 
 - Pick a bounded root-route target and a named rival/sense question. Use a finite,
-  explicitly scoped set of relevant senses. State coverage and exclusivity as
-  explicit assumptions; absent mappings remain unknown or untested.
+  explicitly scoped set of relevant senses. Do not presume coverage or
+  exclusivity; make either an explicit obligation when an inference uses it.
+  Absent mappings remain unknown or untested.
 - Compare within the same meaning, witness, domain and frame. Each cell records
   a checked exclusion under listed premises, model-witnessed compatibility of
   the selected bundle, an unresolved exact gap, or untested. An absent refutation
@@ -192,9 +231,10 @@ These views reuse canonical corpus evidence; they are not a separate status regi
 
 ## Logic first; attribution deferred (owner direction, 2026-11-05)
 
-The current priority is formalizing the arguments from **Carneades.org** and
-exploring their logical consequences. Do not let source acquisition or author
-exegesis displace this work.
+For the **Carneades.org** campaign and other assigned logic tasks, prioritize
+formalizing arguments and exploring their consequences. Do not let source
+acquisition or author exegesis displace the selected logic task. The systematic
+loop governs selection between logic, interpretation and warrant questions.
 
 - Start from available argument summaries, transcripts, existing propositions
   and explicit working reconstructions. Formalize premises and conclusions,
@@ -205,7 +245,8 @@ exegesis displace this work.
 - **Do not put PDF downloads, transcript authentication, passage pinning,
   extraction portability, or getting an author's intentions exactly right on
   the critical path of a logic task.** Do not build source infrastructure to
-  unblock such a task. Defer that work until explicitly selected by the owner.
+  unblock such a task. Defer attribution work unless it is selected to answer
+  a live source or warrant question within the authorized research scope.
 - New formalizations do not need new source, passage or claim records. Label
   them as analyst formulations with attribution deferred; keep already available
   titles/URLs/locators as navigation, not as verified historical claims. Preserve
@@ -224,23 +265,25 @@ exegesis displace this work.
 
 This direction overrides source-first and source-coverage priorities elsewhere
 in this file and in existing issue briefs for the current logic-first phase.
-Attribution can be revisited when the source tooling is ready or the owner
-explicitly requests it.
+Attribution can be revisited when it is a selected research need and the
+existing source workflow can support it; it must not block unrelated logic work.
 
 ## Encode first (owner direction, 2026-11-03)
 
-Formalize what can be formalized. Derive what can be derived. Document only what cannot yet be encoded.
+Formalize what can be formalized and derive what can be derived. Keep the necessary interpretation, warrant and review reasoning alongside the formal evidence; a provisional assessment is not an opaque proposition to assert in Lean.
 
 - **Encodings must be able to fail.** A transcription or an opaque flag is documentation in Lean syntax, not formalization (invariant 16).
 - **Interpretation forks become sibling propositions.** Where a point is open to interpretation, create one claim or statement per defensible option (invariant 5), linked by `interpretation_of` or a disambiguation, not "reading A / reading B" paragraphs in a note.
 - **Strength forks become strong and weak versions (#1017).** Where the ambiguity is one of strength (for every S, or only for the sentences the argument uses), record both versions as sibling statements and register the order with a `strengthens` relation (strong → weak). It is valid only with a verified result whose argument has the strong version as its only premise and the weak version as its conclusion; a strictness countermodel is optional. Use the **weakest version that suffices** in each argument; an argument that keeps the strong version records why in `strong_version_needed`. Each version gets its own claims: a source that states only the weak version is never attributed the strong one. Senses that differ in content rather than strength (eternity and sempiternity, #979) stay a disambiguation. See `docs/corpus-model.md`, "Strength order".
 - **Disambiguate through definitions, not labels.** Each consequential `TERM_1`/`TERM_2` sense needs its own `DEF-…` record and a faithful formal interpretation. Reuse and, when needed, define the load-bearing terms *inside* its definition, recursively; this may grow into an extensive shared dictionary, with no arbitrary depth limit. A Lean primitive is allowed only when explicitly identified as primitive, with its meaning, distinguishing conditions and open semantic obligations stated. A primitive relation or a theorem that merely constrains it is not a completed Lean definition. Do not conceal a contested bridge in definitional equality or create circular definitional unfoldings. See `docs/corpus-model.md`, "Definition dependencies and formal meaning".
 - **Terms carry sense labels (owner direction, 2026-11-07).** Each disambiguated term has numbered senses TERM_n (PRIOR_1, PRIOR_2) with opaque uuid identities; labels are stable and only appended. Each sense is a distinct Lean type (`senses[].lean_declaration`), so equivocation is meant to be a type error that `bind-check` catches; a sense label without a distinct Lean declaration is not a finished sense. One argument uses one sense per term. An argument valid in several senses becomes one argument per sense (`for_each_sense` in `argument_batch.py`). A passage between senses is an explicit premise listed in `sense_bridges`, or the conclusion of an argument that derives it (`role: "conclusion"`); a premise-free control showing that mixing fails sets `sense_mixing_control: true`. The legacy allowlist in `corpus/sense-index-allowlist.json` may only shrink (#1233). See `docs/corpus-model.md`, "Sense-indexed terms".
-- **Prose residue names its blocker.** Prose is legitimate for source-fidelity judgments, rejected interpretations with their reasons, and what cannot yet be typed. Each such residue says what encoding it would need: vocabulary, a source, or a judgment that cannot be encoded.
+- **Prose preserves its evidence boundary.** Use prose for interpretation and fidelity review, provisional judgments, rejected readings and their reasons, and what cannot yet be typed. Identify missing vocabulary, sources or bridges where those block formalization; do not disguise a defeasible judgment as a verified proposition.
 
 ## Exploration and batch certification (owner direction, 2026-11-07)
 
-Breadth matters as much as certification. For a target proposition, first write an **exploration map** (`explorations/<slug>.toml`, checked with `python3 scripts/argument_batch.py map`): the whole argument DAG in one pass, reusing existing statement IDs and marking new nodes and bridges. Then certify a cluster of derivations as **one batch**: one vocabulary module, one Solution, its Challenge generated by `python3 scripts/argument_batch.py challenge`, and all corpus records generated from one spec by `python3 scripts/argument_batch.py records SPEC --write --fix`. New bare premises and analyst bridges are kept and labelled open; adding them is not a regression (the former no-bare-premise relocation rule is discarded). Controls: one nonvacuity witness per batch and omission countermodels for the premises that carry the argument. Report exploration progress with `python3 scripts/corpus.py thickness --base <merge-base>`. Base every PR on `main` (no stacked PRs: deleting a merged base branch closes the PRs stacked on it). The coordinator merges worker PRs with `python3 scripts/merge_queue.py --workdir <spare clone> PR...`, which merges green PRs and resolves conflicts that lie only in generated aggregators by regenerating them; any other conflict goes back to the author. Before each round, use the worklist (`thickness --queue`) and record rejected leads as attempts.
+Use an **exploration map** (`explorations/<slug>.toml`, checked with `python3 scripts/argument_batch.py map`) when it helps expose a target's argument DAG; a complete map is not required before a bounded investigation. Reuse statement IDs and mark new nodes and bridges. Certify related derivations as one coherent batch where useful: one vocabulary module, one Solution, a Challenge generated by `python3 scripts/argument_batch.py challenge`, and records generated by `python3 scripts/argument_batch.py records SPEC --write --fix`. There is no derivation quota. Keep new bare premises and analyst bridges explicit and open.
+
+Seek nonvacuity witnesses and omission countermodels where practical and informative; record unresolved satisfiability or necessity rather than requiring a model for every result. Claims of satisfiability, non-entailment or minimality still need their own adequate evidence. `thickness --base <merge-base>` and `thickness --queue` are diagnostics, not progress scores or the sole priority queue. Record rejected leads as attempts. Base each PR on `main`; the authorized coordinator may use `python3 scripts/merge_queue.py --workdir <spare clone> PR...` for green reviewed PRs, regenerating generated-only conflicts and returning substantive conflicts to the author.
 
 ## Connect every library to the case (owner direction, 2026-11-07)
 
@@ -252,15 +295,8 @@ Breadth matters as much as certification. For a target proposition, first write 
 
 1. **Name the target before building.** Every worker brief and every PR that adds vocabulary or results names the root-route node it serves: a premise it discharges, an argument it connects, or a rival it refutes. `python3 scripts/corpus.py frontier --routes` lists the routes.
 2. **Connect, or say why not.** The PR either shows the connection in the computed `frontier-diff` (new results reaching the root, a premise closed or defended, a route re-routed) or states an explicit connection plan: the target statement, the missing bridge and its blocker. The coordinator's handoff tracks that plan. Unconnected work does not count as progress on the case until it is connected.
-3. **Audit idle work before each round.** Before selecting a research round, list the verified result families that do not reach the root (`truth orphans`, once merged). Connect large disconnected families before opening new derivations. Judge rounds first by route cost and defended premises (`frontier-diff`); thickness is secondary.
-4. **Fork load-bearing terms; do not keep senses in silos.** When a term on a root path has several senses (a disambiguation listing them), proceed in this order:
-   - (a) Add two explicit open premises. COVERAGE: "senses A, B, … are all the relevant senses". EXCLUSIVITY: "exactly one sense applies to this use". Formalize exclusivity as the intended reading selecting one constructor, or as mutually exclusive cells, because senses may be strength-ordered and need not have disjoint extensions.
-   - (b) Ground each sense in its own definition record and Lean interpretation. Follow consequential terms in those definitions to further definitions/disambiguations. If a relation is primitive, distinguish it from a definition with a body and record the open semantic constraints; do not treat a premise about it as its definition.
-   - (c) Make a typed enum of the senses, each referring to its sense-specific Lean declaration; names and distinct types alone do not establish the intended meanings.
-   - (d) For each sense, prove the route step, or show it fails with a countermodel or a `refutes` relation. Test proposed equivalence, implication and independence between senses rather than assuming any of them.
-   - (e) Prove a joint theorem by cases, with coverage as a premise. Record `strengthens` between senses where one implies another.
-
-   Only then attack rival semantic commitments and worldviews: the fork turns their refutation into a checked disjunctive syllogism instead of ad hoc rebuttals. A disambiguation whose resolution says its senses are unrelated marks an unfinished fork, not a finished analysis.
+3. **Include idle work in prioritization.** Inspect verified families that do not reach the root (`truth orphans`) when choosing a round. A useful bridge can be a high-value target, but disconnected work does not automatically outrank a live objection or missing warrant. Judge research by the uncertainty it changes; route cost and thickness remain diagnostics.
+4. **Investigate load-bearing senses and their relationships.** Give the selected sense a faithful definition/interpretation, preserve consequential alternatives, and test proposed implication, equivalence or independence. Distinct names or types alone do not establish meaning. Use the existing sense-index and bridge machinery when formalizing these relationships. A [certified fork](docs/configuration-elimination-loop.md#certified-forks-for-selected-investigations) needs coverage only if its inference uses coverage, and exclusivity only if it uses exclusivity; overlapping or strength-ordered senses need not be mutually exclusive. Research rivals and premise warrant whenever informative, without first completing an exhaustive enum or joint theorem for all senses.
 
 See `docs/decisions/2026-11-07-02-connect-libraries-to-the-case.md`.
 
@@ -325,19 +361,19 @@ See `docs/corpus-model.md` and `docs/source-evidence.md` for the entity and veri
 
 ## Configuration elimination and composition
 
-For a group of related open propositions, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek minimal verified contradictory premise sets, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This supplements the source campaign loop below and does not change the frontier closure rules (#477).
+When configuration comparison is the selected method, follow [the configuration elimination loop](docs/configuration-elimination-loop.md): reuse certified results and finite models, seek verified contradictory premise sets and investigate minimality where useful, compose proven implications, persist attempts and countermodels, and compare exact root-frontier premises before/after. Configuration labels are relative to their explicit formal semantics; absence of a model or proof is unresolved, not an impossibility claim. This is one method within the systematic loop and does not change frontier closure rules (#477).
 
 Find omission countermodels with `python3 scripts/countermodel.py THEOREM [--omit HYP] [--all] [--size K]` instead of writing them by hand. It proposes finite models and has Lean check a `decide` certificate; "unresolved" is not proof that a premise is needed ([countermodels](docs/countermodels.md)).
 
 ## Argument-first investigation
 
-Frontier-led work is **constraint discovery and elimination within an end-to-end case**. Start from related existing commitments under one explicit semantic profile. Compose checked implications, seek incompatible bundles and substantive exhaustive forks, and witness surviving branches before opening another premise investigation. Recursive premise defense is a targeted fallback when it can discriminate surviving branches, not the default engine. Keep the strongest rivals and the original question visible; recompose every finding into that case.
+Keep the whole argument's purpose and strongest known rivals visible while investigating one bounded uncertainty. Follow [the systematic loop](docs/systematic-corpus-loop.md): implications, incompatibilities, premise warrant, necessary preconditions and semantic bridges are all eligible targets. Decompose where useful and reconnect every finding to its parent question. Conditional investigation may proceed with open premises; a failed route does not justify inventing a stronger premise.
 
-Follow the [certified fork workflow](docs/configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow). A dilemma/trilemma needs a checked coverage theorem under explicit background assumptions; exclusivity is a separate obligation. A contradictory bundle forces rejection of at least one member, not a preferred member. Prefer small general constraints that prune families over issue/proposition counts. Preserve the existing proof, source, dossier and frontier authorities; conditional elimination does not establish its background or close a root premise. Split records only for consequential inference, rival discrimination, independent defense, reuse, or existing source/proof invariants.
+A claimed exhaustive dilemma/trilemma needs checked coverage under explicit background assumptions; exclusivity is separate. A contradictory bundle forces rejection of at least one member, not a preferred member. Prefer meaningful constraints and better-supported judgments to issue/proposition counts. Preserve proof, source, dossier and frontier authorities; neither conditional elimination nor a provisional judgment establishes its background.
 
 ## Outer systematic loop
 
-Frontier slices and their open premises take priority over unrelated source coverage. Select work from the owner-scoped investigation and its current handoff/issue, not merely the oldest eligible issue or the next source candidate. If no specific slice is named, choose a related cluster on the current #143 root route where existing commitments can yield a substantive fork, implication or incompatible core. Finish or repair in-flight work and respect real dependencies.
+Select work from the owner-scoped investigation and its current handoff/issue, using the priority, exploration and synthesis rules in the systematic loop. Frontier reports and source candidates inform that decision. If no specific slice is named, choose a consequential unresolved question on a current #143 root route or a named bridge to it. Respect real dependencies; neither a favored conclusion nor cheap formal work may monopolize the queue. A turn may end at a useful finding or its cap while its proposition stays open.
 
 For source ingestion when a frontier obligation needs it:
 

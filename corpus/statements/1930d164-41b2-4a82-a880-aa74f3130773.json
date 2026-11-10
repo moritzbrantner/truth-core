@@ -1,0 +1,9 @@
+{
+  "id": "1930d164-41b2-4a82-a880-aa74f3130773",
+  "label": "Formula-local possible-impossibility scope controls",
+  "paraphrase": "Finite witnesses show nonvacuous stable possibility, failure of both modal inputs for another formula on the same frame and standpoint, no entailment of arbitrary assent, and failure of unconstrained source-gloss truth to imply Kripke impossibility. No causal or rigid-individual conclusion.",
+  "lean_declaration": "TruthCore.Modal.PossibleImpossibility.Controls",
+  "definition_ids": [
+    "9c049e13-5c43-408a-89ae-07adec28f434"
+  ]
+}

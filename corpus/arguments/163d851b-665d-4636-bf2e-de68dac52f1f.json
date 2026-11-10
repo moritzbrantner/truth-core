@@ -1,0 +1,17 @@
+{
+  "id": "163d851b-665d-4636-bf2e-de68dac52f1f",
+  "label": "Productive source calibration controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "76cab8d4-fe29-4df3-97aa-69945687dcb5",
+  "inference_ids": [
+    "bb581b5e-def6-4130-a79f-78fbc8dde52e"
+  ],
+  "meaning": "Explicit finite omissions and joint witness; Bool and Unit are control carriers only, not models advertised as the original senses.",
+  "definition_ids": [
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
+  ],
+  "disambiguation_ids": [
+    "aee7e4c7-819b-5905-b363-813c06b7e92c"
+  ]
+}

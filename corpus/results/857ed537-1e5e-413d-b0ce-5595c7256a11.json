@@ -1,0 +1,25 @@
+{
+  "id": "857ed537-1e5e-413d-b0ce-5595c7256a11",
+  "label": "Diagonal SELF_MOTION_1 distinct-part interface from explicit reconstruction bridges",
+  "argument_id": "3b1c78d1-2ba5-47de-92ad-804742a4b9d7",
+  "challenge_module": "TruthCore.Results.Causality.SelfMotionSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelfMotionSeparation.Solution",
+  "theorem": "TruthCore.Results.Causality.SelfMotionSeparation.distinctPart",
+  "comparator_config": "results/857ed537-1e5e-413d-b0ce-5595c7256a11/comparator.json",
+  "status": "solution-present",
+  "description": "For a diagonal event obtain the explicit integrated whole/parts witness, select its proper moving part p and apply the transfer premise to p moving q. This derives exactly the existing diagonal-to-distinct-moving-part root consumer. Both bridges and whole actuality remain OPEN; independent original SELF_MOTION_2 is not completed.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+      "rival_statement_id": "0181cf7b-9934-4d4b-b7e1-7583e3c3a7cd",
+      "sense_definition_id": "2fccff11-d956-4ec2-9705-922413f76a5c",
+      "outcome": "unresolved",
+      "conditions": "distinctPart derives the target from both explicit bridges; neither bridge is established",
+      "scope": "One B and context C; same x,p,q,c, respect/event/clock/world and Moves interpretation throughout",
+      "coverage": "Selected diagonal and integrated proper-parts readings only; no exhaustive coverage premise",
+      "exclusivity": "Distinct wrapper declarations; no claim that philosophical extensions are disjoint",
+      "gap": "Independent SELF_MOTION_2-to-reconstruction and diagonal-to-reconstruction applicability remain unproved",
+      "next_step": "Test applicability of diagonal-to-integrated-parts bridge; retain whole-actuality transfer as open"
+    }
+  ]
+}

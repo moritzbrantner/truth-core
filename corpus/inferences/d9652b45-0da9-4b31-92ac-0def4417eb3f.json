@@ -1,0 +1,15 @@
+{
+  "id": "d9652b45-0da9-4b31-92ac-0def4417eb3f",
+  "label": "Stated-theory existence bridge to the box K root (inference)",
+  "input_statement_ids": [
+    "e068a626-f547-4d1d-9bef-737e707086ac",
+    "48366fb2-75e7-4afe-ac72-e050a7340553",
+    "ab83e6d3-35d1-415e-b5f4-c41c7455972e",
+    "b9816722-de0f-4ba5-8b1d-9d80afc3e9bf"
+  ],
+  "output_statement_id": "cdf897a8-5490-561a-b9d2-507486a3f192",
+  "rule": "Universal specialization, explicit semantic consequence and finite models",
+  "meaning": "Use local consequence at each accessible point, translate the same formula through the explicit dictionary for the same bearer, retain independent RootFacts and introduce that bearer as the box K root. Actual-point theory admission in the chosen cone guard also ensures a joint model; the box part of this proof consumes only the successor conjunct. No actual or divine witness follows from a nonempty carrier. The premise bridges are cone admission NECESSARY_15 to raw same-formula NECESSARY_8 boxing, then the pointwise existence dictionary NECESSARY_8 to NECESSARY_2 for the same bearer. They assert these precise conversion conditions, not any bridge to the Frame carrier misclassified as NECESSARY_11. No premise is discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

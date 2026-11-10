@@ -1,0 +1,13 @@
+{
+  "id": "9656dfbe-f929-4c65-91f0-72b4b6cec7c2",
+  "label": "Every world sees itself, yet two possibilities of one world need not see each other",
+  "paraphrase": "Rival framework commitment, unattributed: every world accesses itself, and some world accesses two worlds of which the first does not access the second. Replacement account: metaphysical possibility is relative and not transitive, motivated by arguments from series of small changes in a thing's origin or constitution; the logic of metaphysical modality is then T rather than S5. Stronger than the negation of the Euclidean premise by the reflexivity conjunct.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.ReflexiveNonEuclidean",
+  "definition_ids": [
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ],
+  "disambiguation_ids": [
+    "7181df76-d6ed-5226-a34b-08910ddbe6a0"
+  ]
+}

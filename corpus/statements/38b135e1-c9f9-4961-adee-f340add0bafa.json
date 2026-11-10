@@ -1,0 +1,11 @@
+{
+  "id": "38b135e1-c9f9-4961-adee-f340add0bafa",
+  "label": "Contingent concrete things exist and no possible history is one in which they begin",
+  "paraphrase": "Rival framework commitment, unattributed: some concrete individual is contingent at the selected world, and no history accessible from it satisfies the supplied beginning predicate. Replacement account: contingent concrete reality is beginningless in every possible history, as on eternal-world and steady-state views. Stronger than the negation of the possible beginning by the first conjunct.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.EternalContingencyAt",
+  "definition_ids": [
+    "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

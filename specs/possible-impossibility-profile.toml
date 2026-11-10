@@ -1,0 +1,32 @@
+[batch]
+vocab = "TruthCore.Modal.PossibleImpossibility"
+results = "TruthCore.Results.Modal.PossibleImpossibility"
+definitions = ["9c049e13-5c43-408a-89ae-07adec28f434"]
+
+[[statement]]
+id = "Formula-local possible-impossibility duality certificate"
+lean = "Certificate"
+definitions = ["9c049e13-5c43-408a-89ae-07adec28f434"]
+paraphrase = "For every Kripke frame, selected formula and standpoint, formula-local double-negation elimination on accessible worlds suffices for equivalence of Dia(Box(not P)) implies Box(not P) and Dia(P) implies Box(Dia(P)). Analyst conditional, no assertion of either modal input, source equivalence, assent or frame validity."
+
+[[statement]]
+id = "Formula-local possible-impossibility scope controls"
+lean = "Controls"
+definitions = ["9c049e13-5c43-408a-89ae-07adec28f434"]
+paraphrase = "Finite witnesses show nonvacuous stable possibility, failure of both modal inputs for another formula on the same frame and standpoint, no entailment of arbitrary assent, and failure of unconstrained source-gloss truth to imply Kripke impossibility. No causal or rigid-individual conclusion."
+
+[[argument]]
+id = "Formula-local possible-impossibility duality calculation"
+theorem = "conditionalDuality"
+premises = []
+conclusion = "Formula-local possible-impossibility duality certificate"
+rule = "Unfold Kripke modalities, contrapose, and apply explicitly quantified local double-negation elimination."
+meaning = "Conditional analyst certificate. One formula and standpoint only; no global excluded middle or frame axiom. Source-to-Kripke, report-to-truth and source situation coverage remain open."
+
+[[argument]]
+id = "Formula-local possible-impossibility omission controls"
+theorem = "controls"
+premises = []
+conclusion = "Formula-local possible-impossibility scope controls"
+rule = "Construct finite witnesses in the existing Bool frames."
+meaning = "Nonvacuity and scope/report/gloss bridge omission controls only. Bool does not restrict the arbitrary-world certificate."

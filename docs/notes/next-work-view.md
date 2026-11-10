@@ -1,5 +1,12 @@
 # Choosing the next research step
 
+This note describes the existing UI and runtime. Its owner-decision labels and
+floor workflow are legacy behavior, not current directions to choose philosophical
+premises. Follow the [systematic research loop](../systematic-corpus-loop.md):
+reasoned provisional judgments can guide priorities and qualified assessments;
+personal approval is not philosophical warrant. This qualification changes no
+runtime schema, approval metadata or computed status.
+
 The [next-work view](https://moritzbrantner.github.io/truth-core/next/) starts at
 `STMT-CATHOLICISM-TRUE`, highlights established statements and additional
 verified conditional support bundles, and lets the reader follow each argument
@@ -31,11 +38,11 @@ cost-based route and leaf diagnostics.
 
 ## Settlement and impact
 
-A floor item needs its recorded basis and any required owner approval. A
-derivation needs a verified argument whose premises are all established. A
-defense needs counted refutations of every recorded rival, resting only on
-established premises. No rival list is presumed to exhaust every possible
-rival. An empty list does not defend a premise.
+In the existing runtime, a floor item needs its recorded basis and any required
+owner approval. A derivation needs a verified argument whose premises are all
+established. A defense needs counted refutations of every recorded rival,
+resting only on established premises. No rival list is presumed to exhaust every
+possible rival. An empty list does not defend a premise.
 
 For each route leaf, the frontier temporarily **assumes it established**,
 runs its own least fixpoint (including newly counted refutations and their
@@ -48,12 +55,13 @@ frontier and corpus remain unchanged. The cost algorithm retains its existing
 deterministic greedy proof selection; this view does not claim a new global
 minimum-set-cover metric.
 
-The proposed floor path is marked as an owner decision for every open leaf;
-that is an available action, not a recommendation to accept every leaf. Linked
-definitions identify where a definition decision would require a check of all
-uses. Optional `settlement_actions` on an existing statement record can link
-an approved or pending floor/definition decision. These are navigation hints:
-they never establish the statement or alter `self_evident`.
+The legacy UI marks the proposed floor path as an owner decision for every open
+leaf. This is a recorded navigation action; it does not require the owner to
+accept a premise before research continues. Linked definitions identify where a
+definition decision would require a check of all uses. Optional
+`settlement_actions` on an existing statement record can link an approved or
+pending floor/definition decision. These are navigation hints: they never
+establish the statement or alter `self_evident`.
 
 ## Case splits and joint settlement
 
@@ -104,5 +112,6 @@ python3 scripts/corpus.py next-steps --json | python3 -c \
   'import json,sys; print(json.dumps(json.load(sys.stdin)["floor_register"], indent=2))'
 ```
 
-Candidate suggestions and navigation hints do not enter this register until
-the owner's decision is recorded through the existing floor workflow.
+Under that legacy workflow, candidate suggestions and navigation hints do not
+enter this register until the owner's decision is recorded through the existing
+floor workflow. This describes record handling, not independent warrant.

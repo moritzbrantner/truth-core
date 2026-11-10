@@ -1,11 +1,11 @@
 {
   "id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
-  "label": "Every SELF_MOTION_2 has a part distinct from the whole moving it in the same respect",
+  "label": "Every SELF_MOTION_1 has a proper part moving the whole in the same respect",
   "legacy_id": "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART",
-  "paraphrase": "OPEN analyst reading of Physics VIII.4-5: whatever moves itself in a respect does so by a part, distinct from the whole, that moves the whole in that respect.",
+  "paraphrase": "OPEN analyst premise: diagonal MovesIn x x r (SELF_MOTION_1) requires a part p distinct from x moving the whole x in the same respect. The frozen body is unchanged; independent SELF_MOTION_2 is not the antecedent.",
   "lean_declaration": "TruthCore.Causality.CausalMapsBatch1.SelfMoverMovesByADistinctPart",
   "definition_ids": [
-    "8e970ec8-4a38-53bb-8786-f52af8664cc2",
+    "e13e749b-d266-5f18-bc50-59b340444c1f",
     "701c8996-8d37-546d-9610-26b758dd04e8",
     "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1"
   ],

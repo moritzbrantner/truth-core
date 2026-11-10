@@ -1,0 +1,11 @@
+{
+  "id": "24bad7e4-1c05-4f51-b782-db436a474f61",
+  "label": "A beginning of contingent reality is possible and no possible beginning has an external cause",
+  "paraphrase": "Rival framework commitment, unattributed: some accessible history satisfies the supplied beginning predicate with a contingent concrete individual, and no accessible history has such a beginning together with an existing concrete cause of the contingent totality outside all contingent concrete individuals. Replacement account: beginnings of contingent reality are brute; nothing outside it could have produced it. Classically the exact negation of the causal-opportunity premise.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.BruteBeginningsOnlyAt",
+  "definition_ids": [
+    "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

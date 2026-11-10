@@ -18,6 +18,49 @@ not explanation. Stronger singular-ground routes have substantial conditional
 reach; their open dependence, unification and application premises cannot be
 discarded merely because a thinner rival survives.
 
+## Explicit philosophical integration targets (owner direction, 2026-11-09)
+
+**Research policy:** keep all defensible readings, test their implications and
+countermodels, and record dead ends as progress. Do not require an owner vote
+between compatible senses or competing explanatory standards before analysis.
+These are **three distinct OPEN connections**, not three newly established
+premises and not a claim that they are jointly sufficient for Catholicism.
+
+The current first-pass DAGs are
+[`whole-series-choice-policies.toml`](../../explorations/whole-series-choice-policies.toml)
+and [`necessary-unique-ultimate-source-integration.toml`](../../explorations/necessary-unique-ultimate-source-integration.toml).
+They reuse the sourced series target
+`STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON` (702e4171), the actual necessary
+concrete witness `STMT-NECESSARY-CONCRETE-AT` (b19ffd92), and the selected
+necessary/unique source endpoint `STMT-NECESSARY-UNIQUE-ULTIMATE-SOURCE`
+(7a9cd34a). Every new map node is a **candidate research proposition**.
+Before certification, give consequential alternatives their own typed senses,
+definitions, source/analyst provenance and exact argument records; a TOML
+`mapped` edge verifies nothing.
+
+| Target bridge | Reusable conditional result | Decisive OPEN test / surviving rival |
+| --- | --- | --- |
+| **Necessary existence → actual productive explanation** | Actual necessary concrete witness and A2 `PossibleCausalSourceNecessity.sameSource`; [#1337](https://github.com/moritzbrantner/truth-core/pull/1337) conditionally connects a same witness to *accessible-world* outgoing production. | Does the **same bearer** actually produce at the **selected** world, and does that productive relation explain existence rather than only an event or a supplied `through` edge? A necessary but idle bearer is a countercase. Do not shift accessible worlds, substitute capacity for exercise, or identify cause with reason by vocabulary. |
+| **Contingent agent choice → adequate whole-series reason** | [#1297](https://github.com/moritzbrantner/truth-core/pull/1297) separates necessary bearer from necessary content and checks reason-guided/tied-optimality selection policies; #462/#750/#755 supply independent contrast and collapse controls. | Test (A) optimality, possibly tied; (B) a genuine contingent/nonnecessitating exercise; and (C) strong contrastive sufficiency on the **same contingent explanandum**, including choices, laws and relations. Tied optima do not discriminate the actual option; a further selection may relocate the why-question; strict sufficient conditions may threaten contingency. None is ruled out by a label, a procedural first-optimum selector, or formal consistency alone. Defend the additional outside-the-order explanatory norm rather than defining rivals away. |
+| **Actual productive source → numerical uniqueness** | `STMT-ANSELM-UNIQUE-ULTIMATE-SOURCE` (f5fd14f4), existing SourceForest and necessary/unique-source conditional results; the [#925 plurality control](https://github.com/moritzbrantner/truth-core/pull/925). | A productive necessary source need not be the **only** source. Test same-relation connectedness, common complete production, co-ultimate exclusion, source functionality and individuation. Two distinct necessary ultimate sources and plural joint production remain live unless an independent bridge excludes them. Even a unique graph source is not automatically simple, divine or the whole-order sufficient reason. |
+
+**Integration discipline.** For each bridge: fix one typed conclusion and scope;
+reuse exact premises and models; state the weakest new substantive condition;
+seek a conditional derivation **and** omission/countermodel controls; compare the
+strongest opponent on the same ontology and explanation standard. If a proposal
+fails, register the failed implication and its counterexample in the existing
+attempt/disambiguation records. If it succeeds only conditionally, preserve its
+open premise and investigate alternatives. Do not add an unexamined universal
+bridge just to make a root route shorter.
+
+**Root-route connection and expected effect:** the whole-series map ends at
+702e4171, not at `STMT-CATHOLICISM-TRUE`; the source-identity map ends at
+7a9cd34a. Carrying either into a classical-God root route still requires
+independent identity, attributed-attribute and (where used) explanatory-adequacy
+bridges. This plan creates **no verified derivation, premise discharge or
+frontier change**. It names the exact questions a subsequent bounded
+certification or refutation must settle, while allowing parallel investigation.
+
 ### Owner causal-power contract audit (P2-B/P3, 2026-11-06)
 
 The required interpretation separates abstract and concrete individuals, gives

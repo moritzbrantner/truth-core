@@ -1,5 +1,14 @@
 # First Moorean candidate batch
 
+**Historical status.** This note preserves the proposal, next-action language
+and counterfactual analysis at the revision named below. References to owner
+consideration, approvals and settlement describe that legacy workflow; they do
+not direct current research. Follow the
+[systematic research loop](../systematic-corpus-loop.md) to investigate warrant,
+compare the strongest rivals and record reasoned provisional judgments.
+Personal assent is not philosophical warrant. This qualification changes no
+corpus marking or computed closure.
+
 This is a reviewable **proposal batch**, requested in [#1119](https://github.com/moritzbrantner/truth-core/issues/1119), not a floor register or an approval. The authoritative register is the corpus's `self_evident` markings, projected by `corpus.py frontier --json` and the explorer. No marking, source claim, relation, definition or Lean theorem changes in this batch.
 
 The batch reuses checked conditional consequences. Ranking reflects potential root reach and how much of the remaining obligation is understood; it does **not** certify that a commitment is obvious, true, or common ground. The first three items form one package about the *selected Catholic practice*. They must not be read as universal claims about every `Practice`, nor as three independent reductions in root cost.
