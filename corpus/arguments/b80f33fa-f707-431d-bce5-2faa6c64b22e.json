@@ -6,7 +6,7 @@
   "inference_ids": [
     "d7a5e13a-e5e6-4a13-af1d-9f183de304ab"
   ],
-  "meaning": "Witnesses that each escape route is realizable as a frame condition: clustered realizes F2' with local axiom 4 failing at actual (as the theorem forces once a successor is non-Euclidean); appendix realizes F2' and local axiom 4 at actual with global Euclidean access failing only at a world actual cannot reach. STRUCTURAL SURROGATES: no potentiality, representation, tolerance or impossible-world semantics is encoded.",
+  "meaning": "Two checked frame controls: clustered satisfies F2' at actual, fails local axiom 4 there, and has the non-Euclidean successor near; appendix satisfies F2', local axiom 4 and reflexivity at actual while global Euclidean access fails at unreachable far. Thus a global failure need not force local transitivity to fail. These are STRUCTURAL SURROGATES: no potentiality, representation, tolerance-origin or impossible-world interpretation is encoded. No classification or defeat of philosophical rivals follows from these controls.",
   "definition_ids": [
     "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
     "f8948e28-b13a-5244-95f1-41a05cd4fff2"

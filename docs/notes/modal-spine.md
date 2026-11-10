@@ -129,7 +129,7 @@ the join and the root and act-of-being premises in
 |---|---|---|---|
 | F1 actual reflexivity | Accessibility is "what lies ahead" or "what would be ideal": serial, and the actual world does not see itself | survives | `InertEmptiness.necessaryConcrete` |
 | F2 Euclidean frame | Possibility is relative and not transitive: reflexive, but two possibilities need not see each other | survives | `InertEmptiness.necessaryConcrete` |
-| F2′ Euclidean at the actual world (`1b1462e6`, weaker than F2 by `euclideanAtOfEuclidean`) | Symmetric reflexive non-Euclidean access at the actual world (`ToleranceOriginRival`; structural surrogate for origin tolerance, which needs an OPEN origin/material/identity bridge) | structural rival survives; the arrival fails without F2′. With the origin interface (`OriginToleranceIdentity`): the 3-offset pattern restored is destroyed (one assignment); an encoded 5-world, 2-individual countermodel survives (faithful only to the encoded commitments). Open: whether the account warrants worldwise deletion, which with A1–A3 is inconsistent (composition via `earlierNecessary` not yet checked; strengthened bundle only; the 5-world model of the original bundle stands) | `ActualEuclidean.inertNecessaryConcrete` |
+| F2′ Euclidean at the actual world (`1b1462e6`, weaker than F2 by `euclideanAtOfEuclidean`) | Symmetric reflexive non-Euclidean access at the actual world (`ToleranceOriginRival`; structural surrogate for origin tolerance) | The structural omission model survives. `OriginToleranceIdentity` supplies a nonvacuous 5-world, 2-individual countermodel for its encoded origin commitments; the separate restored 3-offset assignment satisfies the conclusion. Metaphysical applicability remains OPEN; deletion scopes are distinguished below. | `ActualEuclidean.inertNecessaryConcrete` |
 | A1 presence gives existence | Presentism: to exist is to be present now, and something earlier has ceased | survives | `InertEmptiness.necessaryConcrete` |
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
@@ -138,6 +138,39 @@ the join and the root and act-of-being premises in
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |
 | J2 support among necessary things is well-founded | Two necessary things support each other | survives | `NecessaryConcreteUnderived.checks` |
+
+#### Scope of the actual-world Euclidean comparison
+
+`ActualOnlyEuclidean.euclideanOnSuccessors` proves that F2′ and local
+transitivity at `w` give Euclidean access at every successor of `w`, without a
+reflexivity premise. `Control.appendix` satisfies both local conditions while
+global F2 fails at unreachable `far`. Thus F2′ with failure of F2 does not
+force local transitivity to fail. The finite-forward-reachability corollary is
+prose only, not a registered Lean result. Changes confined to unreachable
+worlds leave ordinary forward-modal formulas at `w` unchanged when the
+reachable frame and valuation are fixed; globally quantified spine premises
+are outside that scope. See the [frame attempt](../../corpus/attempts/ca49ceb8-a02e-4f49-8dd8-12704afb1220.json).
+
+For deletion, let `D(v)` mean that each concrete individual existing at `v`
+is absent at some world accessible from `v`. Direct evaluation of the existing
+five-world model gives `D(actual)`: `a` is absent from `bMinus` and `b` from
+`aMinus`. Yet `b` is necessary at `plus`, which cannot access `aMinus`, so
+`D(plus)` fails. These observations are not new certificate conjuncts. The
+stronger premise `∀ v, D(v)` contradicts the existing
+`InertEmptiness.earlierNecessary` consequence of presence-to-existence, inert
+emptiness and the possible contingent-free past. This incompatibility of an
+added premise does not make the original countermodel vacuous or establish
+worldwise deletion from origins. Joint deletion of a roster is a further
+distinct requirement; near-origin plenitude preserves the selected individual.
+See the [origin attempt](../../corpus/attempts/f2b3c229-43cb-4dd5-939e-bce66655fa78.json).
+
+Provisional assessment (2026-11-10): the formal weakening is strict and the
+encoded origin countermodel survives. Warrant for the access biconditional,
+rigid identity, absences and temporal profile remains open. The bounded
+candidate survey is an unverified analyst assessment; it establishes neither
+coverage of serious rivals nor that the weakening lacks dialectical value.
+A defended rival interpretation or independently warranted persistence/deletion
+bridge would reopen this assessment. No premise is established by it.
 
 ### Stage two: the root and the act of being
 

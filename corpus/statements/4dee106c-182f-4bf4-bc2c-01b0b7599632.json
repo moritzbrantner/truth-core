@@ -4,6 +4,10 @@
   "paraphrase": "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): on a given assignment of origins to individuals at worlds, every origin is near itself, and if one origin is near another then the other is near the first. Transitivity is not assumed.",
   "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.NearIsTolerance",
   "definition_ids": [
+    "e4bc79ff-a54e-46b4-8562-070443885ead",
     "622524e2-e7f3-4b27-a644-bf9a4235121b"
+  ],
+  "disambiguation_ids": [
+    "b2722186-d111-59aa-964f-443a173943d9"
   ]
 }

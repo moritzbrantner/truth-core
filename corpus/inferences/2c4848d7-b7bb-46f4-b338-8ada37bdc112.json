@@ -8,7 +8,7 @@
   ],
   "output_statement_id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
   "rule": "biconditional elimination and introduction per world pair",
-  "meaning": "Bridge from the origin interface to the structural surrogate: if closeness of origins is reflexive and symmetric and access is exactly shared-origin closeness, access is reflexive and symmetric; and the individual with non-near origins at two successors of w makes those successors mutually inaccessible. So the origin-tolerance commitments entail the frame condition used by ToleranceOriginRival. Plenitude is not needed. The converse fails (the surrogate model has no origin interface).",
+  "meaning": "Conditional bridge from the origin interface to the structural frame condition: reflexive and symmetric closeness plus access exactly when shared individuals have near origins gives reflexive and symmetric access. The same individual with non-near origins at two successors of w prevents access between those successors. The three listed premises therefore entail ToleranceNonEuclideanAt at w; OriginPlenitude is not needed. No converse or general representation theorem is claimed: the old surrogate having no origin interface does not by itself prove that no such interface can be supplied.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
