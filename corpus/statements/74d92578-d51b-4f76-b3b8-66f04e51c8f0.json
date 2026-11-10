@@ -1,0 +1,13 @@
+{
+  "id": "74d92578-d51b-4f76-b3b8-66f04e51c8f0",
+  "label": "Actual grounding quantitative omission and nonvacuity controls",
+  "paraphrase": "Closed mathematical controls on Unit-world Nat candidates, all actual and concrete. One fixed reverse-successor graph fails Nat ranking and selected-world foundation. S=0 with epsilon=0 omits positivity; S n=-n with epsilon=1 omits any lower bound; S=0 with epsilon=1 omits edge gap. Each retains the other two inputs. On the same graph S n=1/(n+1) is lower-bounded and has strictly positive edge increases toward effects, yet no positive uniform epsilon. An infinite ascending Nat graph with S n=n, L=0, epsilon=1 jointly satisfies all inputs, has edge 0 to 1 and admits the constructed finite rank. No actual metaphysical interpretation is asserted.",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.Control.Certificate",
+  "definition_ids": [
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "803c2d3f-aa4b-4ac6-940c-cd8365019954",
+    "0cfe9db9-5656-44ff-a8bf-c95ac9a48098",
+    "d17765e2-7ad5-4338-a9a6-67d5bab3b53f"
+  ]
+}

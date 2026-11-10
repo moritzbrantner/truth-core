@@ -7,6 +7,7 @@ public import TruthCore.Causality.ActualCommonRoot
 public import TruthCore.Causality.ActualCoverNecessaryBeing
 public import TruthCore.Causality.ActualCoverStrictness
 public import TruthCore.Causality.ActualFusionNecessaryBeing
+public import TruthCore.Causality.ActualGroundingPotentialRank
 public import TruthCore.Causality.ActualPartsDeclarationControls
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
@@ -40,6 +41,7 @@ public import TruthCore.Causality.ConstitutiveNatureUniqueness
 public import TruthCore.Causality.ContingentAncestry
 public import TruthCore.Causality.ContingentAtomicity
 public import TruthCore.Causality.ContingentBeingNode
+public import TruthCore.Causality.ContingentComingToBe
 public import TruthCore.Causality.ContingentTotalityCause
 public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
@@ -67,6 +69,7 @@ public import TruthCore.Causality.ExistsSenseMeaning
 public import TruthCore.Causality.FiniteBranching
 public import TruthCore.Causality.FiniteNecessaryUnion
 public import TruthCore.Causality.FiniteRestriction
+public import TruthCore.Causality.FullFirstCause
 public import TruthCore.Causality.GodMaximalCausal
 public import TruthCore.Causality.GreatestDegreeRootRoute
 public import TruthCore.Causality.GrimReaper
@@ -78,6 +81,7 @@ public import TruthCore.Causality.HeadlessCausalAncestry
 public import TruthCore.Causality.HistoricalRemoval
 public import TruthCore.Causality.IndexedSignalProvenance
 public import TruthCore.Causality.IndexedSignalReaper
+public import TruthCore.Causality.InertEmptiness
 public import TruthCore.Causality.IntellectualInclination
 public import TruthCore.Causality.JointGroups
 public import TruthCore.Causality.LifeBoundaryPotency
@@ -124,6 +128,7 @@ public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.PreservationCandidates
+public import TruthCore.Causality.ProtectiveProcess
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
@@ -158,11 +163,13 @@ public import TruthCore.Causality.SelfMotionSeparation
 public import TruthCore.Causality.SelfOperationLife
 public import TruthCore.Causality.SourceForest
 public import TruthCore.Causality.SourceWitness
+public import TruthCore.Causality.SpineRivalsStageOne
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SubjectFocalRoles
 public import TruthCore.Causality.SuccessionPotency
 public import TruthCore.Causality.Supertasks
 public import TruthCore.Causality.SurveyCapabilityControls
+public import TruthCore.Causality.SurveyCapabilityProfiles
 public import TruthCore.Causality.SurveyExternalCause
 public import TruthCore.Causality.SurveyProductiveSource
 public import TruthCore.Causality.SurveySourceEndpointControls

@@ -1,0 +1,10 @@
+{
+  "id": "310a23d6-05f8-4658-b35b-937f6c9876b1",
+  "label": "Inert-emptiness controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "fe556ee2-723d-4132-be04-eb7b9e82c30c",
+  "rule": "Explicit two-world interpretations with natural-number times, checked by case analysis",
+  "meaning": "Omitting inert emptiness, the possible contingent-free past, or presence-to-existence each permits failure of the conclusion while the frame conditions and the other two premises hold; a fourth interpretation jointly satisfies all premises with a contingent individual and a necessary one, so the bundle is nonvacuous. Omission of the two frame conditions is not tested here. Model claims concern these finite interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

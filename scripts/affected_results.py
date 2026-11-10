@@ -252,7 +252,11 @@ def impact_plan(root: Path, changed: Iterable[str] | None, *, main: bool = False
     )
     checks = {"fast": True, "lean": lean, "source": source, "library_changed": library,
               "explorer_tests": explorer, "explorer": browser, "report": report,
-              "comparator_library": library or report, "full": full}
+              "comparator_library": library or report,
+              # Python/Rust CLI parity (~16 min) compares two implementations; an exact diff
+              # inside corpus data or Lean changes neither, so only full runs (unknown or
+              # tooling inputs, main formal changes, nightly) re-check it on the real corpus.
+              "truth_cli": full, "full": full}
     return {"mode": mode, "selected": selected, "checks": checks, "reason": reason}
 
 

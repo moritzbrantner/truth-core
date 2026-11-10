@@ -1,0 +1,9 @@
+{
+ "id": "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+ "label": "Concrete-empty moment of a history",
+ "term": "concrete-empty moment",
+ "definition": "ConcreteEmptyAt h Concrete v t holds when no individual satisfying the supplied Concrete predicate is temporally present (History.IsAt) at time t of history v. Abstract individuals present at t, and concrete individuals present only at other times of v, do not prevent it. A history with a stone present at t is not concrete-empty at t; a history in which the only concrete individual appears later is concrete-empty at every earlier time.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.InertEmptiness.ConcreteEmptyAt",
+ "note": "Analyst framework definition for the modal spine to God's existence; attribution deferred. It is a temporal condition inside one history, distinct from an empty possible world (no concrete individual existing at the world at all) and from the absence of contingent individuals only. Whether any real moment is or could be concrete-empty remains OPEN."
+}

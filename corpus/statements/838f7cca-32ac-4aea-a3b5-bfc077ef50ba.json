@@ -1,0 +1,12 @@
+{
+  "id": "838f7cca-32ac-4aea-a3b5-bfc077ef50ba",
+  "label": "Actual grounding potential uniform edge gap",
+  "paraphrase": "OPEN analyst correlation: for every actual concretum x at w and every actual concrete ground y of x at the SAME world, S y + epsilon <= S x. Both endpoint guards are retained. The same supplied S and epsilon occur on every edge. This does not define grounding or establish a physical calibration.",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.UniformGroundGap",
+  "definition_ids": [
+    "d17765e2-7ad5-4338-a9a6-67d5bab3b53f",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

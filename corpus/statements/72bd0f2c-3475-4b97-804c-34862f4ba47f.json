@@ -1,0 +1,10 @@
+{
+  "id": "72bd0f2c-3475-4b97-804c-34862f4ba47f",
+  "label": "Every world sees some world and the selected world does not see itself",
+  "paraphrase": "Rival framework commitment, unattributed: accessibility is serial (every world accesses some world) and the selected world does not access itself. Replacement account: the relation is read as what lies ahead or what would be ideal, as in temporal-future or deontic readings, not as alethic possibility, so what is the case need not count as accessible. Stronger than the negation of actual reflexivity by the seriality conjunct.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.ActualIrreflexiveSerial",
+  "definition_ids": [
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

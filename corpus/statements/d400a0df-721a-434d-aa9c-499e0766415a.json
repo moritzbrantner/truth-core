@@ -1,0 +1,9 @@
+{
+  "id": "d400a0df-721a-434d-aa9c-499e0766415a",
+  "label": "Realized interception projects to the existing action candidate",
+  "paraphrase": "For arbitrary carriers, an action satisfying the declared realization interface satisfies the existing InterceptionCandidate. Pure projection; no physical realization or successful protection follows. Analyst formulation; attribution deferred.",
+  "lean_declaration": "TruthCore.Causality.ProtectiveProcess.ActionProjection",
+  "definition_ids": [
+    "5539aad1-baf0-4f47-95b2-12a97836f418"
+  ]
+}

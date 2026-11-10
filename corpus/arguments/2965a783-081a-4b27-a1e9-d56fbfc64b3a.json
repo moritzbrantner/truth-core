@@ -1,0 +1,19 @@
+{
+  "id": "2965a783-081a-4b27-a1e9-d56fbfc64b3a",
+  "label": "Actual grounding quantitative controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "74d92578-d51b-4f76-b3b8-66f04e51c8f0",
+  "inference_ids": [
+    "81956aa4-d58f-4fb1-903c-497c21bcda9a"
+  ],
+  "meaning": "Same reverse-successor actual grounding for all omissions and the bounded varying-gap rival. Omitting any one of the three numeric conditions permits nonfoundation while retaining the other two. The reciprocal potential shows positive varying gaps are insufficient. The ascending infinite populated witness shows the full bundle is nonvacuous and does not imply finite cardinality. Model claims concern these mathematical interpretations only.",
+  "definition_ids": [
+    "43e9c567-cdb4-50c4-a9f3-fb3a21a17f8f",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "803c2d3f-aa4b-4ac6-940c-cd8365019954",
+    "0cfe9db9-5656-44ff-a8bf-c95ac9a48098",
+    "d17765e2-7ad5-4338-a9a6-67d5bab3b53f"
+  ]
+}

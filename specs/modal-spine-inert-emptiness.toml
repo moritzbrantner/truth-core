@@ -1,0 +1,95 @@
+[batch]
+vocab = "TruthCore.Causality.InertEmptiness"
+results = "TruthCore.Results.Causality.InertEmptiness"
+definitions = ["Concrete-empty moment of a history", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-KANT-MODAL-CONTINGENCY", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE"]
+
+[[statement]]
+id = "A concrete-empty moment is followed only by concrete-empty moments"
+lean = "EmptinessStaysEmpty"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history of the model, if no concrete individual is present at a moment, then no concrete individual is present at any strictly later moment of that history. It mentions no cause, ground or explanation, and it does not constrain a first state that has no earlier moment."
+definitions = ["Concrete-empty moment of a history", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Possibly, contingent concrete things are absent at a moment and present at a later one"
+lean = "PossiblyContingentsAbsentThenPresent"
+paraphrase = "OPEN analyst premise, attribution deferred: some history accessible from the selected world has a moment at which no contingent concrete individual is present, strictly before a moment at which some contingent concrete individual is present. Contingent means existing in that history and absent from some world accessible from it. Nothing is said about the selected world itself, a first moment, a cause, or what else is present at the earlier moment."
+definitions = ["Contingent concrete things absent at a moment and present at a later one", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Some concrete-empty moment is followed by a moment with something concrete"
+lean = "EmptinessBecomesPopulated"
+paraphrase = "Rival framework commitment, unattributed (a beginning out of nothing): in some history of the model no concrete individual is present at a moment and some concrete individual is present at a strictly later moment of the same history."
+definitions = ["Concrete-empty moment of a history", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "In no possible history are contingent concrete things absent at a moment and present later"
+lean = "NoPossibleContingentFreePast"
+paraphrase = "Rival framework commitment, unattributed (the initial-state view): no history accessible from the selected world has a moment free of contingent concrete individuals strictly before a moment containing one. It holds when contingent concrete things are present from the earliest moment of every accessible history, and also when no accessible history has contingent concrete things at all."
+definitions = ["Contingent concrete things absent at a moment and present at a later one", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Inert-emptiness omission and nonvacuity controls on four two-world interpretations"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls on two mutually accessible worlds with natural-number times, every individual counted concrete. The frame is Euclidean and reflexive at the selected world. (1) One individual existing only at the selected world and present there only at time 1: presence-to-existence and the possible contingent-free past hold, a concrete-empty moment is followed by a populated one, inert emptiness fails, and no individual exists at both worlds. (2) The same individual present at every time: presence-to-existence and inert emptiness hold, a contingent individual exists, no accessible history has a contingent-free moment before a populated one, and no individual exists at both worlds. (3) An individual present at every time of every world but existing at none: inert emptiness and the possible contingent-free past hold, presence-to-existence fails, and no individual exists at both worlds. (4) One individual existing at both worlds and present at every time, another existing only at the selected world and present there only at time 1: all three premises hold, a contingent individual exists, and the first individual is concrete and exists at both worlds. These are statements about four finite interpretations only."
+definitions = ["Concrete-empty moment of a history", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[argument]]
+id = "A necessary concrete individual from inert emptiness and a possible contingent-free past"
+theorem = "necessaryConcrete"
+premises = ["STMT-EUCLIDEAN-FRAME", "STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL", "A concrete-empty moment is followed only by concrete-empty moments", "Possibly, contingent concrete things are absent at a moment and present at a later one"]
+conclusion = "STMT-NECESSARY-CONCRETE-AT"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_11", to = "NECESSARY_2", statement_id = "STMT-NECESSARY-CONCRETE-AT", role = "conclusion"}]
+rule = "Contrapose inert emptiness at the earlier moment, exclude contingency of its occupant, transfer along Euclidean and reflexive access"
+meaning = "New non-transcription conditional support option for stage one of the modal spine to God's existence. In the accessible history v, some contingent concrete individual is present at the later moment t, so v is not concrete-empty at t; by inert emptiness v is not concrete-empty at the earlier moment s, so (classically) some concrete individual c is present at s. Presence-to-existence gives that c exists at v. No contingent concrete individual is present at s, so c is not contingent at v: it is absent from no world accessible from v. Euclidean access and reflexivity at the selected world w carry the SAME c to w and to every world accessible from w. No causal, grounding or explanatory relation is used or concluded; the grounding field of the conclusion's profile is an arbitrary parameter. All five premises are OPEN framework inputs; no premise truth, uniqueness, underivedness or divine attribute is established. Classical reasoning enters through the three permitted Mathlib axioms."
+
+[[argument.research_comparisons]]
+target_statement_id = "A concrete-empty moment is followed only by concrete-empty moments"
+rival_statement_id = "Some concrete-empty moment is followed by a moment with something concrete"
+sense_definition_id = "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments"
+outcome = "model-witnessed"
+conditions = "Control.exNihilo with every individual concrete: Euclidean and reflexive frame, presence-to-existence and the possible contingent-free past all hold; inert emptiness fails."
+scope = "Same History carrier, same Concrete predicate, same preorder of times; two mutually accessible worlds, natural-number times."
+coverage = "One explicitly populated model of the rival together with the other four premises; not all histories with a beginning out of nothing."
+exclusivity = "On one history and predicate the rival and inert emptiness cannot both hold (unregistered helper inertExcludesPopulatedEmptiness in the Solution module); the model shows the rival is jointly satisfiable with the remaining premises."
+witness = "Control.exNihilo in Control.Certificate; controls proves the listed conjuncts and that NecessaryConcreteAt fails at the selected world."
+next_step = "Record and test the strongest replacement account for a beginning out of nothing; inert emptiness remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "Possibly, contingent concrete things are absent at a moment and present at a later one"
+rival_statement_id = "In no possible history are contingent concrete things absent at a moment and present later"
+sense_definition_id = "Contingent concrete things absent at a moment and present at a later one"
+outcome = "model-witnessed"
+conditions = "Control.initialState with every individual concrete: Euclidean and reflexive frame, presence-to-existence and inert emptiness all hold; a contingent concrete individual exists and is present at every time."
+scope = "Same History carrier, same Concrete predicate, same frame and selected world."
+coverage = "One explicitly populated initial-state model; not every view on which contingent reality has no earlier contingent-free moment."
+exclusivity = "The rival is the negation of the target on the identical carrier; incompatibility is propositional."
+witness = "Control.initialState in Control.Certificate; controls proves the listed conjuncts and that NecessaryConcreteAt fails at the selected world."
+next_step = "Investigate independent support for the possibility of a contingent-free past against the initial-state view; the premise remains OPEN."
+
+[[argument]]
+id = "Inert-emptiness controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Inert-emptiness omission and nonvacuity controls on four two-world interpretations"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretations with natural-number times, checked by case analysis"
+meaning = "Omitting inert emptiness, the possible contingent-free past, or presence-to-existence each permits failure of the conclusion while the frame conditions and the other two premises hold; a fourth interpretation jointly satisfies all premises with a contingent individual and a necessary one, so the bundle is nonvacuous. Omission of the two frame conditions is not tested here. Model claims concern these finite interpretations only."
+
+[[relation]]
+id = "Emptiness becoming populated is an alternative to inert emptiness"
+subject_kind = "statement"
+subject_id = "Some concrete-empty moment is followed by a moment with something concrete"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "A concrete-empty moment is followed only by concrete-empty moments"
+note = "Same History carrier and Concrete predicate. The rival asserts an instance that inert emptiness forbids. It is recorded so the premise can later be defended or refuted; neither is established."
+
+[[relation]]
+id = "No possible contingent-free past is an alternative to its possibility"
+subject_kind = "statement"
+subject_id = "In no possible history are contingent concrete things absent at a moment and present later"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Possibly, contingent concrete things are absent at a moment and present at a later one"
+note = "Same carrier and selected world; the rival is the negation of the possibility premise. Recorded as the initial-state view; neither is established."

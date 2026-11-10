@@ -1,0 +1,19 @@
+{
+  "id": "8f026ee9-1f1c-451d-a345-cc6c5a11d8d2",
+  "label": "Founded coming-to-be controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "420bb5d5-ebdb-47c5-9848-acb0b39f6356",
+  "inference_ids": [
+    "e6b25eb9-5735-40de-99d3-57816326be3b"
+  ],
+  "meaning": "The initial-state rival survives, without a necessary individual and with inert emptiness intact, in exactly the two ways the derivation leaves open: an endless past in which every contingent thing comes to be, and a founded past whose contingent thing never came to be. Each control omits one conjunct of founded coming-to-be. The rooted control shows the premise is satisfiable. Model claims concern these interpretations only.",
+  "definition_ids": [
+    "195b8983-2f55-48fa-ad55-35d77ebe2e00",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "c2b16e23-5bb5-4602-ac28-3ee32242fa96"
+  ]
+}

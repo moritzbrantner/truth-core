@@ -1,0 +1,10 @@
+{
+  "id": "d4295782-c7f7-4592-8295-07ea8df33b0a",
+  "label": "A2 capability profiles with explicit realization and attribution (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+  "rule": "Explicit witnesses, domain inclusion, coverage remainder and bridge omission controls",
+  "meaning": "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

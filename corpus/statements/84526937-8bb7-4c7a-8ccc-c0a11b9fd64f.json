@@ -1,0 +1,11 @@
+{
+  "id": "84526937-8bb7-4c7a-8ccc-c0a11b9fd64f",
+  "label": "Some concrete-empty moment is followed by a moment with something concrete",
+  "paraphrase": "Rival framework commitment, unattributed (a beginning out of nothing): in some history of the model no concrete individual is present at a moment and some concrete individual is present at a strictly later moment of the same history.",
+  "lean_declaration": "TruthCore.Causality.InertEmptiness.EmptinessBecomesPopulated",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

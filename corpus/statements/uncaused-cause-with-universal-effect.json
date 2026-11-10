@@ -12,5 +12,6 @@
     "637c53a7-2616-5c34-aa9a-9f7dd880eaed",
     "70af59cf-0351-5332-9c89-b80231412529"
   ],
-  "note": "This is the separately attributed full primary first-cause conclusion. The analyst source/outgoing-source proofs do not verify it."
+  "note": "This is the separately attributed full primary first-cause conclusion. The analyst source/outgoing-source proofs do not verify it. Full quantified existential reading now has a generic binding; its truth remains OPEN. The finite model witnesses conditional consistency, not the source assertion or an atomistic derivation. The root endpoint specializes to actual nodes only under an explicit two-way causal dictionary, EM, local causality and same-witness causal concreteness.",
+  "lean_declaration": "TruthCore.Causality.FullFirstCause.ExistsFirstCause"
 }
