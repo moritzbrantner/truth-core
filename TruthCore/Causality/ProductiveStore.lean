@@ -57,4 +57,19 @@ This is an interval ledger model, not a derived solution of rotational dynamics.
 def DecayingDischarge : Prop := ∀ n : ℕ,
   let e : ℝ := (1/2)^n
   Admissible ⟨2*e, 2*((1/2)^(n+1)), 0, e/2, e/2⟩ ∧ 0 < e/2
+/-- Uniform interval-energy demand, not instantaneous power. -/
+def UniformBudget : Prop := ∀ (stock output : ℕ → ℝ) (ε : ℝ),
+  (∀ t, 0 ≤ stock t) →
+  (∀ t, stock (t+1) + output t = stock t) →
+  (∀ t, ε ≤ output t) → ∀ n : ℕ, (n : ℝ)*ε ≤ stock 0
+
+/-- A finite closed stock cannot meet a common strictly positive demand forever. -/
+def NoUniformDischarge : Prop := ∀ (stock output : ℕ → ℝ) (ε : ℝ),
+  (∀ t, 0 ≤ stock t) →
+  (∀ t, stock (t+1) + output t = stock t) →
+  0 < ε → ¬ (∀ t, ε ≤ output t)
+def DecayingNoUniform : Prop := ¬ ∃ ε : ℝ, 0 < ε ∧ ∀ n : ℕ, ε ≤ (1/2 : ℝ)^n
+
+def ReplenishedUniform : Prop := ∀ _n : ℕ,
+  Admissible ⟨2, 2, 1, 1, 0⟩ ∧ (1 : ℝ) ≤ 1
 end TruthCore.Causality.ProductiveStore

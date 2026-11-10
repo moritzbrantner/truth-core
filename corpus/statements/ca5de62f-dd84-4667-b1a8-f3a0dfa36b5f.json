@@ -1,0 +1,6 @@
+{
+  "id": "ca5de62f-dd84-4667-b1a8-f3a0dfa36b5f",
+  "label": "Geometric discharge has no uniform positive interval energy lower bound",
+  "paraphrase": "There is no positive real epsilon below (1/2)^n for every natural n. This is the total work-plus-heat output of the existing decaying ledger.",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.DecayingNoUniform"
+}

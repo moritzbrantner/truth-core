@@ -163,3 +163,90 @@ No causal vocabulary was equated with these numeric fields. Frontier comparison
 is computed in the PR; expected no premise discharge. Explicit connection plan:
 this test informs ACT-POWER, but the same-resource/same-time universal abstraction
 and source-to-being bridge block any root inference. No unbuilt route is claimed.
+
+## Uniform-demand continuation (draft for independent challenge)
+
+The new ProductiveSustained batch preserves the original frozen Challenge.
+`uniformBudget` specializes the existing temporal bound to zero input and sums
+an explicit common lower interval-energy bound: n*epsilon <= stock(0).
+`noUniformDischarge` uses real Archimedean order to contradict that bound for
+some finite n when epsilon > 0. It does not take an infinite sum, assert a
+physical infinity, or construct a trajectory from natural indexing.
+`decayingNoUniform` proves that the existing discharge's total output (1/2)^n
+has no common positive lower bound. `replenishedUniform` supplies the constant
+stock/unit-input/unit-work control, isolating the zero-input hypothesis.
+
+The three readings are therefore: positive exercise in every interval (the
+existing decreasing witness); uniformly sustained output (common epsilon > 0);
+and nondepleting steady exercise (the original Budget test plus replenished
+control). These are explicitly different conditions, not exhaustive senses of
+metaphysical power. Uniformly positive output entails positive output pointwise;
+it does not entail nondepletion when input is available. Nondepletion alone
+permits zero work. No stronger conclusion is hidden in the word persistent.
+
+For equal-duration intervals of duration delta > 0, a justified common average
+power lower bound p > 0 would supply epsilon=p*delta. Neither pointwise positive
+instantaneous power nor interval positivity supplies p. Even constant positive
+power on shrinking intervals need not supply epsilon; time intervals must be
+specified before translating a power claim into this energy bound. Equal time
+is an application premise, not needed by the discrete arithmetic theorem.
+
+A proposed minimum-work requirement is substantive, not a universal physical
+threshold. The concrete required-load profile L(n)=(1/2)^n is met exactly by the
+existing zero-input discharge with stock(n)=2*(1/2)^n. It has positive required
+load at every interval and finite cumulative demand. Thus replacing a common
+minimum by an arbitrary strictly positive load profile restores the reservoir
+rival. Conversely any load profile with a finite prefix exceeding initial stock
+is excluded by TemporalBudget. This prefix test is more general than uniformity;
+no necessity or exhaustiveness theorem about arbitrary loads is claimed here.
+
+Revisiting the parent rough draft: its one-instant contraction and finite-path
+results remain checked under #1379's hypotheses; finite conservation implying
+strict loss is rejected by its conservative control. This continuation corrects
+any all-interval-positivity inference to continuing input. A demand threshold,
+time identification and exclusion of stored-resource exercise are still OPEN
+application premises. ACT-POWER is contemporaneous caused exercise, not a stated
+uniform-in-time load requirement. The source issue supplies no premise that
+forces every relevant activity to maintain a common positive energy rate.
+A reservoir's commitments are finite depletion and diminishing load, not a
+contradiction or an unreasonable price. Its persistent structural bearer may
+still have existential support: Profile's transmitsPower, supportsEsse and
+intrinsicPower are separate primitives; Coherent constrains them but does not
+define a mechanical bridge. No threshold theorem removes that separation.
+
+Provisional assessment: the uniform-demand obstruction is supported in the
+stipulated ledger, while its application to the parent remains underdetermined.
+To reverse that assessment requires independent grounds connecting the actual
+per-se respect to an identified dissipative load and its demand profile, and a
+separate source-to-bearer argument. More arithmetic cannot supply those grounds.
+The next materially different test is an explicitly specified parent activity
+with a warranted load profile and time map; absent these inputs the universal
+application branch is blocked, rather than refuted. The master owns selection
+of that scope and independent semantic challenge of this complete draft.
+
+Preview evidence: clean HEAD 078c37fd5d77f77c661b0d6ad8a8de5fe22c5d7c,
+shared session research-master-20261110, scratch
+Scratch/productive-sustained1378/Edit.lean, final combined-text SHA256
+b242ad295f24b4d407b545d59a65f2871f4ab742b4285996b58340b68b42e800,
+empty diagnostics. An initial untyped horizon inferred a real rather than a
+natural; explicitly typing n : Nat repaired it. Repeated full-content edits and
+a service corpus record query succeeded. Retain interactive service diagnostics;
+no paired CLI performance trial or speed comparison is claimed. Final module
+build/binding/axiom/Comparator/NanoDa remain delivered-head CI obligations.
+Claim/type self-sweep: finite bound allows any epsilon, infinite obstruction
+requires epsilon>0, decay control concerns total output, and replenishment is
+only the named numeric ledger. No root closure or physical realization follows.
+
+Separate vocabulary, original Solution and new Solution compiled with the pinned
+Lean CLI using explicit warm dependency LEAN_PATH under the heavy-job lock.
+Generated records are stable (would write 0 files); corpus and attribution checks
+pass. Computed continuation premise delta:
+
+```
+premise delta for Catholicism is true: the Catholic Church is a teaching authority founded by GOD_4, and every… [53964cbe]: origin/main -> working tree
+open premises reaching the root: 402 (262 bare, 95 supported, 45 stated) -> 402 (262 bare, 95 supported, 45 stated)
+expanded-route diagnostic (lowest cost): Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16) -> Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16)
+distinct verified support alternatives: 288 -> 288
+verified support alternatives added: 0
+no change
+```

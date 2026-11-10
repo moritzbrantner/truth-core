@@ -1,0 +1,13 @@
+{
+  "id": "12ae9b6e-5b13-43d2-9d55-6175cc37fa1c",
+  "label": "Geometric discharge has no uniform positive interval energy lower bound, by accounting",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "ca5de62f-dd84-4667-b1a8-f3a0dfa36b5f",
+  "inference_ids": [
+    "d84791b3-828b-4de0-ab0d-b944fa84f062"
+  ],
+  "meaning": "There is no positive real epsilon below (1/2)^n for every natural n. This is the total work-plus-heat output of the existing decaying ledger. Analyst conditional energy accounting only; no causal or bearer bridge.",
+  "definition_ids": [
+    "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"
+  ]
+}
