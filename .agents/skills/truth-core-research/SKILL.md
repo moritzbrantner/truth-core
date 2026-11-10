@@ -3,11 +3,11 @@ name: truth-core-research
 description: Advance a bounded philosophical research argument in the truth-core repository, reusing its corpus and Lean evidence and publishing a reviewable result. Use for research workers, not general repository tooling changes.
 ---
 
-Paths below are relative to the repository root. Work from the coordinator's target, exact reuse, live uncertainty, expected value and bounded return. Read `AGENTS.md` if it is not already loaded; it governs sources, proof boundaries, shared vocabulary, persistence and final verification. Consult the existing investigation/handoff rather than creating a second tracker.
+Paths below are relative to the repository root. Work from the coordinator's target, exact reuse, live uncertainty, expected value and branch reassessment. Read `AGENTS.md` if it is not already loaded; it governs sources, proof boundaries, shared vocabulary, persistence and final verification. Consult the existing investigation/handoff rather than creating a second tracker.
 
 Use the [systematic corpus loop](../../../docs/systematic-corpus-loop.md) as the canonical research method for selecting questions, tactics, priorities and stopping conditions. This skill supplies the bounded worker entry point and handoff, not a separate research strategy.
 
-Work one bounded question with a named root-route purpose. Follow the brief's owned files, effort bound, return condition and authorized outputs. Return early when the question is answered, existing evidence already supplies the result, a semantic or warrant finding changes the next useful step, or a precise obstacle blocks the assigned work. Reaching the effort bound with no result is a valid return; do not invent a theorem, premise or corpus record to fill a quota. Broader follow-up belongs in the coordinator's next brief.
+Follow [Research continuation and stopping](../../../AGENTS.md#research-continuation-and-stopping-owner-direction-2026-11-10). A bounded assignment fixes question and ownership, not a token, time or depth budget. Continue relevant research across PR checkpoints. A surviving rival prompts investigation of its further commitments and subarguments. Report resolved or stalled branches with persisted evidence and precise obstacles; the master owns reassessment and allocation. Do not invent a result to avoid an honest dead-end report. Broader scope changes belong to the coordinator.
 
 For assigned logic tasks, including the Carneades.org campaign, apply **logic
 first, attribution deferred** (owner direction, 2026-11-05). The canonical loop
@@ -58,7 +58,7 @@ Keep these outcomes distinct in records and the return:
 - **Formal consequence:** the exact claim, assumptions and semantics, with its theorem or model evidence and checks completed or pending.
 - **Source and semantic fidelity:** whether the source reading and formal interpretation capture the intended content, with alternatives and open interpretation burdens.
 - **Independent warrant:** reasons for accepting or doubting the premises or their application, including serious objections and unanswered bridges.
-- **Work completion:** whether the bounded question was answered, redirected, blocked or exhausted its budget without a result. This does not assign a proposition's proof status.
+- **Work completion:** whether the assigned question was answered, redirected or blocked, with the exact obstacle and next discriminating step. This does not assign a proposition's proof status.
 
 An overall provisional judgment may guide priorities and support qualified philosophical conclusions. State its evidence, assumptions, uncertainty, strongest surviving rivals and what would revise it in the existing note or handoff. Keep it revisable; it does not establish or refute a proposition formally, supply a missing certificate, or close a frontier premise.
 
