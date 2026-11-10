@@ -1,0 +1,9 @@
+{
+  "id": "01243297-0a94-47e1-97cf-e770f0fec24c",
+  "label": "Every possible world contains some individual",
+  "paraphrase": "Analyst formulation, attribution deferred: no world of the model is empty; at every world some individual, concrete or abstract, exists. It does not say which individual, or that any individual exists at every world.",
+  "lean_declaration": "TruthCore.Causality.OriginDeletion.NoEmptyWorld",
+  "definition_ids": [
+    "343b55c8-6e9e-4994-b484-d7ff42560811"
+  ]
+}

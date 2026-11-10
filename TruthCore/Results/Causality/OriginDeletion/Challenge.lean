@@ -51,6 +51,19 @@ theorem emptyWorldDeletion (m : Ontic W B) (Concrete : B → Prop) (I : OriginIn
     WorldwiseDeletion m Concrete := by
   sorry
 
+/-- Origin-determined access, a world with no individuals and Arrival A's
+presence-to-existence, inert emptiness and possible contingent-free past at `w`
+are jointly inconsistent; stated as: the other four exclude an empty world.
+Composes `emptyWorldDeletion` and `accessibleDeletionExcluded`. -/
+theorem emptyWorldArrivalInconsistent {W B T O : Type} [Preorder T] (h : History W B T)
+    (Concrete : B → Prop) (I : OriginInterface W B O) (w : W)
+    (hAccess : OriginDeterminesAccess h.ontic I)
+    (hPresence : HistoryPresenceActual h)
+    (hInert : EmptinessStaysEmpty h Concrete)
+    (hPossible : PossiblyContingentsAbsentThenPresent h Concrete w) :
+    NoEmptyWorld h.ontic := by
+  sorry
+
 /-- Deletion in the three finite models, by case analysis. -/
 theorem deletionControls : Control.Certificate := by
   sorry

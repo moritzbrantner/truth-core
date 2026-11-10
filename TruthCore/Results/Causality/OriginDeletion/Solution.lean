@@ -66,9 +66,23 @@ theorem emptyWorldDeletion (m : Ontic W B) (Concrete : B → Prop) (I : OriginIn
   exact originDeletion m Concrete I hAccess fun _ x _ _ =>
     ⟨e, he x, fun y _ hy => (he y hy).elim⟩
 
+/-- Origin-determined access, a world with no individuals and Arrival A's
+presence-to-existence, inert emptiness and possible contingent-free past at `w`
+are jointly inconsistent; stated as: the other four exclude an empty world.
+Composes `emptyWorldDeletion` and `accessibleDeletionExcluded`. -/
+theorem emptyWorldArrivalInconsistent {W B T O : Type} [Preorder T] (h : History W B T)
+    (Concrete : B → Prop) (I : OriginInterface W B O) (w : W)
+    (hAccess : OriginDeterminesAccess h.ontic I)
+    (hPresence : HistoryPresenceActual h)
+    (hInert : EmptinessStaysEmpty h Concrete)
+    (hPossible : PossiblyContingentsAbsentThenPresent h Concrete w) :
+    NoEmptyWorld h.ontic := fun hEmpty =>
+  accessibleDeletionExcluded h Concrete w hPresence hInert hPossible
+    fun v _ => emptyWorldDeletion h.ontic Concrete I hAccess hEmpty v
+
 /-- Deletion in the three finite models, by case analysis. -/
 theorem deletionControls : Control.Certificate := by
-  refine ⟨⟨?_, ?_, ?_⟩, ?_, ⟨⟨?_, ?_⟩, ?_, ?_, ?_, ?_, ?_⟩⟩
+  refine ⟨⟨?_, ?_, ?_, ?_⟩, ?_, ⟨⟨?_, ?_⟩, ?_, ?_, ?_, ?_, ?_⟩⟩
   · intro x _ _
     cases x
     · exact ⟨TruthCore.Causality.OriginToleranceIdentity.Control.World.bMinus, by
@@ -87,6 +101,9 @@ theorem deletionControls : Control.Certificate := by
       true trivial trivial
     cases u <;> simp [TruthCore.Causality.OriginToleranceIdentity.Control.faithful, TruthCore.Causality.OriginToleranceIdentity.Control.far,
       TruthCore.Causality.OriginToleranceIdentity.Control.exists'] at hu hAbsent
+  · rintro ⟨e, he⟩
+    cases e <;> simp [TruthCore.Causality.OriginToleranceIdentity.Control.faithful,
+      TruthCore.Causality.OriginToleranceIdentity.Control.exists'] at he
   · intro hDel
     obtain ⟨_, _, hAbsent⟩ := hDel () trivial trivial
     exact hAbsent trivial

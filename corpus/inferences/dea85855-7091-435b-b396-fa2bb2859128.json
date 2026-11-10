@@ -7,7 +7,7 @@
   ],
   "output_statement_id": "2f055224-2c79-4c18-8f7d-ba3420fc116f",
   "rule": "An empty world satisfies origin-compatible deletion vacuously; compose originDeletion",
-  "meaning": "Conditional entailment, composed from originDeletion: a world with no individuals shares none with any world, so by the OPEN if-half of origin-determined access it is accessible from every world and deletion holds everywhere. With accessibleDeletionExcluded, origin-determined access, an empty possible world and Arrival A's presence-to-existence, inert emptiness and possible contingent-free past are jointly inconsistent. So the encoded origin-tolerance rival survives Arrival A only if it denies an empty possible world or rejects the if-half; the encoded commitments themselves neither assert nor exclude an empty world (OriginDeletion.Control.withEmpty has one, faithful does not).",
+  "meaning": "Conditional entailment, composed from originDeletion: a world with no individuals shares none with any world, so by the OPEN if-half of origin-determined access it is accessible from every world and deletion holds everywhere. With accessibleDeletionExcluded, origin-determined access, an empty possible world and Arrival A's presence-to-existence, inert emptiness and possible contingent-free past are jointly inconsistent. So the encoded origin-tolerance rival survives Arrival A only if it denies an empty possible world or rejects the if-half; the encoded commitments themselves neither assert nor exclude an empty world (OriginDeletion.Control.withEmpty has one; faithful has none, group 1 of OriginDeletion.Control.Certificate).",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

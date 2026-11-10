@@ -72,6 +72,10 @@ also checks shared non-concrete individuals. -/
 def EmptyWorld (m : Ontic W B) : Prop :=
   ∃ e, ∀ x, ¬ m.ExistsAt e x
 
+/-- No world is empty: every world has some existing individual. -/
+def NoEmptyWorld (m : Ontic W B) : Prop :=
+  ¬ EmptyWorld m
+
 namespace Control
 
 open TruthCore.Causality.ToleranceOriginRival.Control (Origin tolerance)
@@ -115,7 +119,8 @@ def withEmpty : Ontic World Bool :=
   { frame := ⟨fun u v => ¬ far u v⟩, ExistsAt := exists', Causes := fun _ _ _ => False }
 
 /-- (1) In `faithful`, every individual counted concrete: deletion holds at
-`actual`, fails at `plus`, and fails at some world accessible from `actual`.
+`actual`, fails at `plus`, and fails at some world accessible from `actual`;
+no world of `faithful` is empty.
 (2) In `restored`, deletion fails at the actual offset. (3) In `withEmpty`: the
 four encoded origin commitments, origin-compatible deletion and worldwise
 deletion hold. -/
@@ -125,7 +130,8 @@ def Certificate : Prop :=
     ¬ DeletionAt OriginToleranceIdentity.Control.faithful.ontic (fun _ => True)
       OriginToleranceIdentity.Control.World.plus ∧
     NoAccessibleDeletion OriginToleranceIdentity.Control.faithful.ontic (fun _ => True)
-      OriginToleranceIdentity.Control.World.actual) ∧
+      OriginToleranceIdentity.Control.World.actual ∧
+    NoEmptyWorld OriginToleranceIdentity.Control.faithful.ontic) ∧
   ¬ DeletionAt OriginToleranceIdentity.Control.restored (fun _ => True) Origin.actual ∧
   (NearIsTolerance interface ∧ OriginDeterminesAccess withEmpty interface ∧
     OriginPlenitude withEmpty (fun _ => True) interface ∧
