@@ -1,0 +1,51 @@
+[batch]
+vocab = "TruthCore.Logic.FormSelection"
+results = "TruthCore.Results.Logic.FormSelection.Certificate"
+
+[[statement]]
+id = "Intrinsic codebooks cannot accurately select differing targets from equal states"
+lean = "Selection"
+paraphrase = "Structural presentation surrogate: accuracy and context-independent decoding force equal targets whenever intrinsic states agree. No cognitive or divine application is asserted."
+definitions = ["502a05c8-2a81-4410-84a7-2474f52debc7", "c2d688c5-141c-4b79-b8ff-843e6dfdae31", "b037c336-368f-46d8-a3c1-84b30e663001"]
+disambiguations = []
+
+[[argument]]
+id = "Intrinsic selection obstruction checked"
+theorem = "selection"
+premises = []
+conclusion = "Intrinsic codebooks cannot accurately select differing targets from equal states"
+axioms = []
+rule = "Equality composition"
+meaning = "Compare actual decoder outputs using the independent intrinsic-codebook and equal-state hypotheses; accuracy transfers their equality to targets."
+
+[[statement]]
+id = "Positive two-form capacity context selection and sensor replay controls"
+lean = "Controls"
+paraphrase = "A non-intellectual receiver has both Boolean foreign forms available without matter. A context-relative codebook tracks both with one intrinsic state. Sensor and replay agree on actual diagonal inputs, but differ when the object changes with recorded value held fixed. These are structural surrogates without a cognition predicate or an account of understanding."
+definitions = ["a909fd1c-bb6b-54d1-a8f1-1a798c5ed129", "502a05c8-2a81-4410-84a7-2474f52debc7", "c2d688c5-141c-4b79-b8ff-843e6dfdae31", "73f860c5-dfd5-4b26-a288-bf86817b915a"]
+disambiguations = []
+
+[[argument]]
+id = "Two form selection and intervention controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Positive two-form capacity context selection and sensor replay controls"
+axioms = []
+rule = "Constructor evaluation"
+meaning = "Explicit joint positive capacity witness and constant-state context model; diagonal agreement is separated from an off-diagonal intervention."
+
+[[statement]]
+id = "Reference fixed independently of correctness permits error and competing anchors"
+lean = "ReferenceControls"
+paraphrase = "An explicitly supplied reference map can persist with incorrect content. Distinct reference maps can also yield equally correct contents under a nondiscriminating target condition. Hence accuracy alone does not select among source, exemplar or constitutive anchoring proposals. These maps model only structural roles; their semantic and causal adequacy remains open."
+definitions = ["b6a00a39-94b6-4371-a9ca-1fc55affa038", "9ca9b9b9-4127-4d2a-96ee-009a4e2875ee"]
+disambiguations = []
+
+[[argument]]
+id = "Independent reference and error controls checked"
+theorem = "referenceControls"
+premises = []
+conclusion = "Reference fixed independently of correctness permits error and competing anchors"
+axioms = []
+rule = "Boolean constructor separation"
+meaning = "Witness error with fixed referent, and two differing referents with matching correctness, without defining reference as truth."
