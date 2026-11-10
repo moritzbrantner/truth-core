@@ -189,15 +189,60 @@ candidates for an owner floor decision, not established:
 
 The other unsupported premises (F2, A2, A3′, B1, B2, J1, J2, and the root and
 act-of-being bridges) are contested positions and are not floor candidates.
+Each candidate is decided at its own node of the walk below.
 
-## Order of work
+## The walk (owner direction, 2026-11-10)
 
-1. Decide the floor candidates.
-2. The two horns left to the initial-state view under A3′: test "some contingent
-   thing never came to be" against the brute-foundation results, and "every
-   possible past is endless" against the causal-finitism and Grim Reaper results.
-3. For the rows marked "survives", look for commitments the rival's holder
-   accepts that conflict with it. The join models depend on the support relation
-   reversing direction between worlds, so an invariance premise is the first
-   discriminator for J1 and J2.
-4. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.
+The spine is worked node by node in argument order: F1, F2, A1, A2, A3′, B1,
+B2, the join (J1, J2, and whether its individual is the stage-two root), then
+the stage-two premises in the order of the rival table. No node is skipped.
+
+At each node:
+
+1. **Fix what it says.** One reading with its definition. Two readings are split there.
+2. **Price the rival.** State what the rival's holder must also accept, and test
+   that against recorded commitments. A rival that is the same position as one
+   met earlier is linked to it and the earlier result is reused.
+3. **Close the node with one verdict.**
+   - *Floor*: the owner accepts it as basic (an owner decision per item, recorded under the floor rules of `docs/corpus-model.md`).
+   - *Defended*: its rival is excluded.
+   - *Commitment*: the rival stands, and the premise is marked as assumed by the argument.
+
+A node is derived from deeper premises only by an owner choice at that node. The
+walk then descends one level, applies the same three steps there, and returns.
+
+Leads already known, to be taken up at their node: the two horns left to the
+initial-state view (A3′), against the brute-foundation, causal-finitism and Grim
+Reaper results; an invariance premise for the join models, which depend on the
+support relation reversing direction between worlds (J1, J2).
+
+### Node F1: the actual world is accessible from itself
+
+**What it says.** `ActualReflexive m w := m.frame.access w w`. `access` is a bare
+relation on worlds; no record fixes its reading. Necessity is
+`NecessaryAt m w x := ∀ v, access w v → ExistsAt v x`, which does not include
+existence at `w`. The spine intends the alethic reading: `access w v` means `v`
+is a way things could have been, relative to `w`. Under that reading F1 says
+that what is actual is possible, and its use in `InertEmptiness.necessaryConcrete`
+is exactly to carry existence "at every possible world" to existence at the
+actual one. Gap found: the alethic reading of `access` has no definition record,
+and no disambiguation separates it from the deontic and temporal readings.
+
+**Price of the rival.** In the survival model (`SpineRivalsStageOne.controls`,
+first group) an individual exists at every accessible world and not at the
+actual one. So the rival's holder accepts one of two things:
+
+- accessibility is not alethic ("what lies ahead", "what would be ideal"). Then
+  "necessary" in the conclusion is not metaphysical necessity, and the rival
+  answers a different question than the spine asks. It is another sense of the
+  term, not a competitor within the sense;
+- accessibility is alethic and the actual world is not possible. With F2 every
+  world accessible from the actual one accesses itself (one Euclidean step, not
+  registered as a result), so the actual world would be the only world in view
+  that is not possible relative to itself.
+
+No recorded commitment excludes either by a checked theorem.
+
+**Verdict.** Pending an owner decision. Proposed: floor, for the alethic reading,
+after that reading is recorded as a definition and the other readings as senses
+in a disambiguation. Without the decision the node closes as a commitment.
