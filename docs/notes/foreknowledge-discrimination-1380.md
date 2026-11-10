@@ -158,3 +158,158 @@ this branch for that investigation rather than treating the missing criterion
 as unavailable evidence. Final proof certification remains pending; the first
 Comparator run rejected `propext` in controls and finiteProfiles, whose declared
 policy is zero-axiom. Repair those proofs within the existing axiom policy.
+
+## Intentional-apprehension continuation: actual form, reference and correctness
+
+This continuation inspects the bodies of `FormReception.Model`,
+`ForeignFormCapacity`, `WithoutMatterCapacity`, `CognitiveAptitudeReading`,
+`SenseReceptivityReading`, `Q14ReceptionFork.ChangeProfile` and
+`ForeignFormChange`, alongside definitions 88bc0655 and a909fd1c. Their
+recursive semantic boundary matters: `ForeignForm` is primitive provenance,
+`CanHaveForm` is primitive aptitude, and `Form` has neither an interpretation
+map nor actual bearers. `withoutMatter` distinguishes a capacity mode, not
+intellectual content. `Cognitive` and `Intellectual` are separate primitives.
+The change proxy adds occurrence and unequal states but no reference, causation
+or correctness. Thus the existing capacity account should be retained, but
+cannot be read as an already defined actual intentional relation. This is an
+inspection of the interface, not a denial of the sourced philosophical account.
+
+Three different questions must be answered without identifying them:
+aptitude for another's form; actual presentation of an object under a content;
+and successful apprehension of that object. A child can possess the aptitude
+while asleep. A portrait can instantiate a likeness without apprehending its
+subject. A misidentification can present an object while falsely describing it.
+These ordinary comparisons motivate separating the questions; they are not
+source claims or certified divine countermodels. An adequate actual relation
+must explain object-directedness, which aspect is presented, and the distinction
+between correct and incorrect presentation. Declaring that relation factive
+would restrict successful cases; it would not explain their cognitive character.
+
+### Two concrete representation tests (analyst calculations, not certificates)
+
+First consider two possible effects, red and blue, and two corresponding forms.
+Keep one act token and all its intrinsic features fixed. Keep capacity for both
+forms without matter in both worlds. Assign a fixed decoder to each form
+(red-form represents red; blue-form represents blue), independently of which
+effect occurs. There are four form/effect pairs. The diagonal pairs are
+correct; the two off-diagonal pairs are errors. Choosing the red form in both
+worlds succeeds in the red world and fails in the blue world. Choosing the
+matching form in each world succeeds in both. This gives a test with a real
+error condition, rather than defining representation as truth. It also exposes
+the live issue: **what selects the occurring form or reference?** Capacity for
+both and identity of the act settle neither selection. The examples retain
+positive capacity and an actual effect in each world; they do not rely on an
+empty receiver or empty epistemic row.
+
+For an intrinsic decoder whose input is only the invariant act, its output is
+the same in both worlds; the two different effects cannot both be correctly
+represented by that one fixed decoded answer. This is a local content-fixing
+burden, weaker than whole-row supervenience. If instead the decoder takes the
+act AND an externally individuated effect/relation, its output may differ
+without intrinsic change. That is a positive externalist architecture, but
+feeding the actual effect straight into the decoder merely restates the answer
+unless an independently characterized relation explains access or reference.
+The test does not establish that either architecture is divine cognition.
+
+Second, compare an accurate causal sensor with a replay device showing the same
+reading when its wire is disconnected. At that actual situation their intrinsic
+readings and truth matches can coincide. In a pair of intervention situations
+where the target changes while the disconnected device's source is held fixed,
+the replay fails and a functioning sensor tracks the target. Accuracy at the
+actual world therefore does not distinguish them. Counterfactual tracking
+distinguishes these two specified devices; it still does not distinguish a
+sensor from a mind, establish understanding, or settle a Gettier-style case.
+A design or proper-function account adds a norm explaining why one relation
+counts as representation. A causal account adds an appropriate dependency
+rather than any causal path (a thermostat causes heat but need not know it).
+Neither supplement follows from the capacity fields. These alternatives have
+not been shown exhaustive and are not introduced as new opaque Lean predicates.
+
+### Consequences for the strongest positive rivals
+
+A causal-essential account can say that one act contains the intelligible
+resources for either effect and knows the actual effect through its actual
+production. It must distinguish knowing what can be produced from knowing
+which effect is produced. In the two-form test, capacity plus fixed decoder
+supplies the former resources but not the latter selection. If actual selection
+is an intrinsic fixed feature sufficient for the very same effect, #555's
+`BeingCarriesAct` plus `StrictEfficacy` applies. If selection is contingent or
+nonnecessitating, the #555 selector/explanation questions remain. This is no
+refutation of knowing through causing: explanatory efficacy, intentional
+reference and cognitive adequacy are three separate bridges. Adding the word
+“intentional” to efficacy supplies none of them.
+
+A timeless/extrinsic account instead lets actual reference be partly constituted
+by the effect while the intrinsic act remains invariant. The ordinary comparison
+is a person's unchanged relational status becoming “taller than this child” as
+the child changes; that shows how extrinsic truth can change, not how thought
+occurs. Its stronger cognitive proposal needs an intentional norm or constitutive
+account, rather than the bare comparison relation. A demand for a causal input
+from the effect would prejudge the causal direction and the exclusion of passive
+divine acquisition in the existing summary. Conversely, calling all extrinsic
+reference accidental would assume the intrinsic content-fixing thesis at issue.
+The two-form test leaves this account structurally coherent and cognitively
+unestablished. Its price is externally individuated intentional content, not
+necessarily temporal mutation or a contradiction with simplicity.
+
+The open-future account can know both available forms as possibilities while
+there is no settled actual future effect to select. It answers a different
+question from missing a settled truth. Once a future effect is settled, the
+actual-reference and successful-apprehension questions return. No conclusion
+about freedom follows from this difference alone.
+
+### Revised provisional assessment and original proposal coverage
+
+The initial rough draft's equivalence, discrimination, supervenience no-go,
+canonical S5 construction and bounded 1/2/4 controls retain their exact qualified
+mathematical readings. The rough draft's finite enumeration is now formalized;
+its broad “number of states” language remains restricted to the registered
+representative result, not an unproved general cardinal theorem. The hard-past
+and intrinsic bridges remain open. The proposed causal bridge is explicit and
+has an explicit objection, but does not close #364/#826 or #555's explanatory
+premises. No actual cognition, unrestricted omniscience, freedom or root closure
+is certified. This covers the proposal while correcting any inference from
+mere capacity or truth matching to apprehension.
+
+The new assessment favors **underdetermination by the existing capacity and
+relational data**, rather than an intrinsic or extrinsic winner. Positive
+capacity does useful work (it excludes the empty-recipient shortcut), but adding
+actual occurrence, likeness and even counterfactual accuracy leaves the
+cognition/intentional norm unexplained. The replay test rejects actual accuracy
+as sufficient for the proposed discriminatory task; it does not reject a
+complete functional, causal, teleological or constitutive account. This judgment
+is a new draft for the master's independent semantic challenge, not inherited
+from the earlier review.
+
+The substantive allocation boundary is now narrower than “find intentionality”:
+select and investigate an account of reference-fixing/intentional norms which
+can distinguish an accurate noncognitive surrogate from apprehension while
+respecting the nonpassive divine application. The existing signature cannot
+express that distinction; assigning a new cognition flag would conceal it.
+A genuinely different next test is to articulate a constitutive/exemplar account
+of actual reference, then compare duplicate act/capacity/accuracy profiles with
+and without its independently specified reference grounds. Alternatively,
+change scope to the status of settled future contents. Further enumeration of
+form/effect truth pairs would not discriminate these accounts. The master owns
+that allocation and any new shared sense vocabulary; no winner or owner assent
+is requested here.
+
+## Zero-axiom repair evidence
+
+The CI rejection was substantive: successful elaboration did not establish the
+advertised zero-axiom policy. The two repaired proofs remove `simp`/`simp_all`,
+`omega`, and axiom-bearing contradiction automation, using direct natural-number,
+Boolean and list-membership constructor cases instead. Numeric lengths use
+kernel reduction. Challenges and all theorem types are unchanged. Isolating the
+seven controls identified the remaining axiom dependency in the inequivalence
+proof; explicit elimination resolved it. Failed decidability attempts and the
+axiom audit are development findings, not failed philosophical derivations.
+The final combined preview reports that BOTH `controls` and `finiteProfiles`
+do not depend on any axioms, with no errors or sorry warnings. This concerns
+the submitted combined source; final delivered-head certification remains CI.
+
+Repair preview: clean HEAD `078c37fd5d77f77c661b0d6ad8a8de5fe22c5d7c`, session
+`research-master-20261110`, path `Scratch/foreknowledge1380b/Edit.lean`,
+content SHA256 `cd83aae50543f4a7bc14d877b3caa37690f2d96a48a06eb083ee53fc0e76fc1a`.
+Service corpus lookup of a909fd1c returned the same clean preview binding.
+Retain service for repeated axiom diagnostics; no CLI speedup measured.

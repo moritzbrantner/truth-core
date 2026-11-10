@@ -40,14 +40,45 @@ theorem controls : Controls := by
   · intro w p hp
     subst p
     exact ⟨fun _ _ _ => rfl, fun h => Bool.noConfusion h⟩
-  · intro n
-    have hn : n.val = 0 ∨ n.val = 1 ∨ n.val = 2 := by omega
-    intro w
-    rcases hn with h | h | h <;> rcases w with ⟨a,b⟩ <;> cases a <;> cases b <;> simp [classes, profile, h]
-  · intro n u hu v hv
-    have hn : n.val = 0 ∨ n.val = 1 ∨ n.val = 2 := by omega
-    rcases hn with h | h | h <;> simp [classes, h] at hu hv <;> rcases u with ⟨a,b⟩ <;> rcases v with ⟨c,d⟩ <;> cases a <;> cases b <;> cases c <;> cases d <;> simp_all [profile]
-  · decide
+  · intro n w
+    rcases n with ⟨n, hn⟩
+    have casesN : n = 0 ∨ n = 1 ∨ n = 2 := by
+      match n with
+      | 0 => exact Or.inl rfl
+      | 1 => exact Or.inr (Or.inl rfl)
+      | 2 => exact Or.inr (Or.inr rfl)
+      | k + 3 => exact False.elim (Nat.not_lt_of_ge (Nat.le_add_left 3 k) hn)
+    rcases casesN with h | h | h <;> subst n
+    · exact ⟨(false,false), by repeat first | apply List.Mem.head | apply List.Mem.tail, trivial⟩
+    · rcases w with ⟨a,b⟩
+      cases a
+      · exact ⟨(false,false), by repeat first | apply List.Mem.head | apply List.Mem.tail, rfl⟩
+      · exact ⟨(true,false), by repeat first | apply List.Mem.head | apply List.Mem.tail, rfl⟩
+    · rcases w with ⟨a,b⟩
+      cases a <;> cases b
+      all_goals exact ⟨_, by repeat first | apply List.Mem.head | apply List.Mem.tail, rfl⟩
+  · intro n u hu v hv hp
+    rcases n with ⟨n, hn⟩
+    have casesN : n = 0 ∨ n = 1 ∨ n = 2 := by
+      match n with
+      | 0 => exact Or.inl rfl
+      | 1 => exact Or.inr (Or.inl rfl)
+      | 2 => exact Or.inr (Or.inr rfl)
+      | k + 3 => exact False.elim (Nat.not_lt_of_ge (Nat.le_add_left 3 k) hn)
+    rcases casesN with h | h | h <;> subst n
+    all_goals
+      rcases u with ⟨a,b⟩
+      rcases v with ⟨c,d⟩
+      cases a <;> cases b <;> cases c <;> cases d
+      all_goals
+        dsimp only at hu hv hp
+        clear hn
+        revert hp hv hu
+        unfold profile
+        dsimp only
+        intro hu hv hp
+        repeat first | exact rfl | cases hp | cases hu | cases hv | (rename_i h; cases h)
+  · decide +kernel
 theorem canonicalCertificate : CanonicalCertificate := by
   intro W C
   have refl : Reflexive (canonical (W := W) C) := fun _ _ _ => rfl
@@ -66,9 +97,33 @@ theorem canonicalCertificate : CanonicalCertificate := by
       exact (h v).2 (refl v)
 theorem finiteProfiles : FiniteProfiles := by
   intro n u v
-  have hn : n.val = 0 ∨ n.val = 1 ∨ n.val = 2 := by omega
-  rcases u with ⟨a,b⟩
-  rcases v with ⟨c,d⟩
-  rcases hn with h | h | h <;> cases a <;> cases b <;> cases c <;> cases d <;>
-    simp [TruthClass, family, profile, h]
+  rcases n with ⟨n, hn⟩
+  have casesN : n = 0 ∨ n = 1 ∨ n = 2 := by
+      match n with
+      | 0 => exact Or.inl rfl
+      | 1 => exact Or.inr (Or.inl rfl)
+      | 2 => exact Or.inr (Or.inr rfl)
+      | k + 3 => exact False.elim (Nat.not_lt_of_ge (Nat.le_add_left 3 k) hn)
+  rcases casesN with h | h | h <;> subst n
+  · constructor
+    · exact fun _ => trivial
+    · intro _ p hp
+      change p = (fun _ => true) at hp
+      subst p
+      rfl
+  · constructor
+    · intro h
+      exact (h Prod.fst rfl).symm
+    · intro h p hp
+      change p = Prod.fst at hp
+      subst p
+      exact h.symm
+  · constructor
+    · intro h
+      exact Prod.ext (h Prod.fst (Or.inl rfl)).symm
+        (h Prod.snd (Or.inr rfl)).symm
+    · intro h p _
+      change u = v at h
+      cases h
+      rfl
 end TruthCore.Results.Logic.ForeknowledgeDiscrimination
