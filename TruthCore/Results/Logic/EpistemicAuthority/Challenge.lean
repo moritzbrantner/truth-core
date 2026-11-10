@@ -24,8 +24,9 @@ theorem goalRelativeExcludesAuthority (f : Frame) (aims : f.Preference → Prop)
     NoPreferenceIndependentReason f := by
   sorry
 
-/-- Inside the goal-relative structure, a constitutive (non-preferential)
-accuracy aim restores preference independence. Composes the existing
+/-- Inside the goal-relative structure, universal aim satisfaction gives
+preference independence over the supplied comparison class. The aim's
+constitutive or non-preferential origin is not encoded. Composes the existing
 `ordinaryFromThin` for the ordinary witness. -/
 theorem constitutiveAimAuthority (f : Frame) (aims : f.Preference → Prop)
     (hThin : ThereAreEpistemicReasons f.Reason)

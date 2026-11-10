@@ -1,9 +1,0 @@
-{
-  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
-  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
-  "theorem_names": [
-    "TruthCore.Results.Logic.EpistemicAuthority.constitutiveAimAuthority"
-  ],
-  "permitted_axioms": [],
-  "enable_nanoda": true
-}

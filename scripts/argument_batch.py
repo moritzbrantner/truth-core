@@ -13,6 +13,10 @@ candidates (`new = true` with `text`); edges name premises, a conclusion, a kind
 `certified`, `rejected`). It reports unknown IDs, new nodes, and which edges are
 already certified by an existing argument with the same conclusion.
 
+`map --allow-materialized-nodes` validates committed designs after generation:
+`new = true` may describe a statement that now exists, and edge handles may
+use any unambiguous alias of a declared statement. It never creates records.
+
 Identity (owner decision 2026-11-07): ids are opaque uuids. A spec names
 records by handle: a uuid, or the legacy id (`STMT-…`) or label of an existing
 record. A handle that names no record makes a new one with a uuid4 id and the
@@ -457,7 +461,7 @@ def challenge_text(solution: str, theorems: list[str]) -> str:
     return re.sub(r"\n{3,}", "\n\n", text)
 
 
-def check_map(path: Path, mermaid: bool) -> int:
+def check_map(path: Path, mermaid: bool, *, allow_materialized_nodes: bool = False) -> int:
     data = tomllib.loads(path.read_text())
     handles = Handles()
     arguments = [record for _, record in load_ids("arguments").values()]
@@ -470,7 +474,12 @@ def check_map(path: Path, mermaid: bool) -> int:
             if not node.get("text"):
                 problems.append(f"new node {node_id} has no text")
             if found:
-                problems.append(f"new node {node_id} already exists as statement {handles.aliases.show(found)}")
+                if allow_materialized_nodes:
+                    # In committed maps, `new` records the design's provenance;
+                    # generated statements may already have materialized the node.
+                    resolved[node_id] = found
+                else:
+                    problems.append(f"new node {node_id} already exists as statement {handles.aliases.show(found)}")
         elif found is None:
             problems.append(f"unknown statement {node_id} (mark it new = true with text)")
         else:
@@ -485,10 +494,15 @@ def check_map(path: Path, mermaid: bool) -> int:
     lines = [f"exploration map {path.name}: target {data.get('target')}, "
              f"{len(nodes)} nodes ({sum(1 for n in nodes.values() if n.get('new'))} new), "
              f"{len(data.get('edge', []))} edges"]
+    declared_statements = frozenset(resolved.values())
     for edge in data.get("edge", []):
         for node_id in edge["premises"] + [edge["conclusion"]]:
             if node_id not in nodes:
-                problems.append(f"edge to {edge['conclusion']} uses undeclared node {node_id}")
+                found = handles.existing("statement", node_id) if allow_materialized_nodes else None
+                if found is not None and found in declared_statements:
+                    resolved[node_id] = found
+                else:
+                    problems.append(f"edge to {edge['conclusion']} uses undeclared node {node_id}")
         premises = {resolved.get(node_id, node_id) for node_id in edge["premises"]}
         certified = [handles.aliases.show(a["id"]) for a in concluded.get(resolved.get(edge["conclusion"], ""), [])
                      if set(a["premise_statement_ids"]) == premises]
@@ -520,9 +534,11 @@ def main() -> int:
     exploration = sub.add_parser("map")
     exploration.add_argument("map")
     exploration.add_argument("--mermaid", action="store_true")
+    exploration.add_argument("--allow-materialized-nodes", action="store_true",
+                             help="read new=true as design provenance and match declared statement aliases by identity")
     args = parser.parse_args()
     if args.command == "map":
-        return check_map(Path(args.map), args.mermaid)
+        return check_map(Path(args.map), args.mermaid, allow_materialized_nodes=args.allow_materialized_nodes)
     if args.command == "records":
         spec = tomllib.loads(Path(args.spec).read_text())
         planned = build_records(spec, args.write)

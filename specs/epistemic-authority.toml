@@ -1,3 +1,5 @@
+# Direct target registrations are deferred; the two Lean lemmas remain intact.
+# See docs/notes/epistemic-authority.md for their identities and reopening conditions.
 [batch]
 definitions = ["d13c0241-320a-5d56-8927-341e46063e05"]
 vocab = "TruthCore.Logic.EpistemicAuthority"
@@ -31,7 +33,7 @@ paraphrase = "OPEN analyst premise, attribution deferred: at least one supplied 
 id = "Every supplied preference alternative includes the accuracy aim"
 lean = "ConstitutiveAim"
 definitions = ["d13c0241-320a-5d56-8927-341e46063e05", "00afca5b-f719-41b6-8ea5-a273d9ec9b6f"]
-paraphrase = "OPEN analyst premise (constitutive-aim reply), attribution deferred: every supplied preference alternative satisfies the supplied accuracy-aim predicate, because the aim belongs to belief as such rather than to the believer's desires. Not a claim that every subject desires accuracy."
+paraphrase = "OPEN analyst premise, attribution deferred: every supplied preference alternative satisfies the supplied accuracy-aim predicate. The constitutive-aim reply motivates this premise, but its claim that the aim belongs to belief as such rather than to the believer's desires is an unencoded interpretation. The formal condition is only universal aim satisfaction; it excludes aim-lacking profiles from the comparison class."
 
 [[statement]]
 id = "No ordinary-role epistemic reason keeps force across every supplied preference"
@@ -46,40 +48,12 @@ definitions = ["d13c0241-320a-5d56-8927-341e46063e05", "881687eb-aed5-47f8-a2fd-
 paraphrase = "Six explicit finite interpretations: a goal-relative frame satisfying thin F6, consideration presentation, the ordinary-role definition, the actual-force concession, the goal-relative account and an indifference alternative but neither answerability nor a preference-independent reason; the same evidence with an actually indifferent subject whose ordinary reason lacks actual force; a forceless frame with answerability but no concession or conclusion; an independent frame satisfying concession, answerability and the conclusion; the independent frame with the accuracy aim, which has an indifference alternative and the conclusion without goal-relative force; and the independent frame with an aim met by every preference, which has goal-relative force, the constitutive aim and the conclusion without an indifference alternative."
 
 [[argument]]
-id = "Preference-independent epistemic reason from actual force and answerability"
-theorem = "authorityFromAnswerability"
-premises = ["Some ordinary-role belief reason has force at its subject's actual preference", "Belief answerability: force for believing does not vary across supplied preferences"]
-conclusion = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
-rule = "Existential elimination and preference-insensitivity transfer"
-# Known defect (open): these conclusion-role bridges mislabel an existential of
-# sense 3 as a derived sense relation; truth check requires a bridge here.
-sense_bridges = [
-  {term = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING", from = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_1", to = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2", statement_id = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f", role = "conclusion"},
-  {term = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING", from = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2", to = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_3", statement_id = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f", role = "conclusion"},
-]
-meaning = "Conditional analyst argument, attribution deferred: take the ordinary belief reason that has force at its subject's actual preference; answerability carries that force to every supplied preference alternative, so it is a preference-independent ordinary reason. Low inferential distance: answerability is a universal-conditional form of the target's invariance clause, and is stronger than needed (it covers non-ordinary considerations). The encoding can still fail: each premise fails in a finite control (goalRelative lacks answerability; forceless lacks the concession). The goal-relative account grants the concession for accuracy-aiming subjects (checked separately) and denies answerability; within this vocabulary and given the concession the dispute sits in that bridge, while the preference-independent-definition route and reflective or disjunctive goal-relative accounts remain open. Establishes neither premise."
-
-[[argument]]
 id = "Goal-relative force with indifference excludes preference-independent reasons"
 theorem = "goalRelativeExcludesAuthority"
 premises = ["Goal-relative epistemic force for a supplied accuracy aim", "Some supplied preference alternative lacks the accuracy aim"]
 conclusion = "No ordinary-role epistemic reason keeps force across every supplied preference"
 rule = "Universal instantiation at the indifferent preference"
 meaning = "Conditional analyst argument, attribution deferred: if force at a preference requires the accuracy aim and some supplied preference lacks it, no reason has force at every supplied preference. Composed with the answerability argument in a separate checked theorem, the actual-force concession, answerability, the goal-relative account and an indifference alternative cannot all hold in one frame. Each premise fails in a finite control while the other holds."
-
-[[argument]]
-id = "Preference-independent epistemic reason from a constitutive aim"
-theorem = "constitutiveAimAuthority"
-premises = ["STMT-THERE-ARE-EPISTEMIC-REASONS", "STMT-EPISTEMIC-REASONS-HAVE-CONSIDERATION-PRESENTATION", "STMT-EPISTEMIC-REASON-ORDINARY-ROLE-DEFINITION", "Goal-relative epistemic force for a supplied accuracy aim", "Every supplied preference alternative includes the accuracy aim"]
-conclusion = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f"
-rule = "Composition with ordinaryFromThin and goal-relative force introduction"
-# Known defect (open): these conclusion-role bridges mislabel an existential of
-# sense 3 as a derived sense relation; truth check requires a bridge here.
-sense_bridges = [
-  {term = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING", from = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_1", to = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2", statement_id = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f", role = "conclusion"},
-  {term = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING", from = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_2", to = "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING_3", statement_id = "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f", role = "conclusion"},
-]
-meaning = "Conditional analyst argument, attribution deferred: the existing thin-to-ordinary result yields an ordinary-role reason; inside the goal-relative structure, an aim present in every supplied preference alternative gives that reason force at each one. In Lean the constitutive aim is only that every supplied preference satisfies the aim, indistinguishable from universal desire for accuracy. It secures the target by excluding indifferent profiles from the comparison class, not by giving an indifferent subject a reason; it is no support for the indifference case. Nonvacuity witness in the finite controls. Establishes no premise."
 
 [[argument]]
 id = "Epistemic authority finite controls"
