@@ -1,0 +1,11 @@
+{
+  "id": "467dc8c9-9245-431e-9ab4-06cc797be652",
+  "label": "Observer incremental factorization threshold and screening deduction",
+  "argument_id": "8c026f76-2760-4e68-8f93-6f1b4e7da8f1",
+  "challenge_module": "TruthCore.Results.Science.FineTuningEvidence.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningEvidence.Solution",
+  "theorem": "TruthCore.Results.Science.FineTuningEvidence.factorization",
+  "comparator_config": "results/467dc8c9-9245-431e-9ab4-06cc797be652/comparator.json",
+  "status": "solution-present",
+  "description": "Internal universally quantified conditional in the existing E-subset-O partition; no physical calibration or actual designer inference."
+}

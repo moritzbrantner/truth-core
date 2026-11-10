@@ -1,0 +1,11 @@
+{
+  "id": "847ba0b4-6372-4015-a4f0-0132fd00198f",
+  "label": "Measurable pushforward evidence invariance deduction",
+  "argument_id": "902b031f-27f0-421a-ad77-d8dfeb54897d",
+  "challenge_module": "TruthCore.Results.Science.FineTuningEvidence.Challenge",
+  "solution_module": "TruthCore.Results.Science.FineTuningEvidence.Solution",
+  "theorem": "TruthCore.Results.Science.FineTuningEvidence.invariance",
+  "comparator_config": "results/847ba0b4-6372-4015-a4f0-0132fd00198f/comparator.json",
+  "status": "solution-present",
+  "description": "General measure-theoretic identity, applicable to continuous probability measures; no empirical measure selection, density computation or divine preference is asserted."
+}
