@@ -1,0 +1,11 @@
+{
+  "id": "76278d0b-5585-49fc-a824-b4ba1f6223bd",
+  "label": "Quantitative borrowed-power controls by ordered field calculation",
+  "argument_id": "8c4e3c98-b3fc-45bd-93f1-11e016579cc3",
+  "challenge_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Solution",
+  "theorem": "TruthCore.Results.Causality.ContractiveBorrowedPower.controls",
+  "comparator_config": "results/76278d0b-5585-49fc-a824-b4ba1f6223bd/comparator.json",
+  "status": "solution-present",
+  "description": "Verify each displayed transfer identity, positivity and bound; powers of two exceed every real bound. A constant zero map is a contraction fixing zero. Omission witnesses isolate quantitative assumptions; no metaphysical applicability follows."
+}

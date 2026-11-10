@@ -1,0 +1,6 @@
+{
+  "id": "3fcc8ad9-f2f2-452c-94bd-b76dd775bb89",
+  "label": "Quantitative transfer finitePath",
+  "paraphrase": "For a countable weighted network with nonnegative weights, nonnegative input s and power P bounded above by a common finite M, summable weight rows and weighted-power rows, and every row sum at most a common 0 ≤ q < 1, P ≤ s + weighted transfer implies: every node with positive power has a finite positive-weight contributor path to a node with positive input, including a zero-length path. No well-foundedness or independent bearer follows.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.FinitePath"
+}

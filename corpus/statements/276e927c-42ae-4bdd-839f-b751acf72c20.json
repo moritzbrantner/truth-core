@@ -1,0 +1,6 @@
+{
+  "id": "276e927c-42ae-4bdd-839f-b751acf72c20",
+  "label": "Contractive borrowed-power quantitative omission controls",
+  "paraphrase": "Scalar checks: two half-weight incoming contributions sustain unit output; the bounded positive sequence (n+1)/(n+2) satisfies transfer with strict factors 1-1/(n+2)^2; powers 2^n satisfy half-transfer and exceed every real bound; affine half-transfer plus half input sustains one but does not preserve zero. A zero scalar operator with constant zero witnesses joint satisfiability of contraction, purity and fixed point. These are mathematical controls, not real-world possibilities.",
+  "lean_declaration": "TruthCore.Causality.ContractiveBorrowedPower.Controls"
+}

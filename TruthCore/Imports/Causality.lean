@@ -46,6 +46,7 @@ public import TruthCore.Causality.ContingentAtomicity
 public import TruthCore.Causality.ContingentBeingNode
 public import TruthCore.Causality.ContingentComingToBe
 public import TruthCore.Causality.ContingentTotalityCause
+public import TruthCore.Causality.ContractiveBorrowedPower
 public import TruthCore.Causality.ConvergentSchedule
 public import TruthCore.Causality.CountCauseTimeNecessity
 public import TruthCore.Causality.CountTemporalNecessity
@@ -137,6 +138,7 @@ public import TruthCore.Causality.ProtectiveProcess
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
+public import TruthCore.Causality.QuantitativeTransferPaths
 public import TruthCore.Causality.ReceptionLimitation
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage

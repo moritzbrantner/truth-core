@@ -1,0 +1,6 @@
+{
+  "id": "a0053ef7-4132-4214-948e-9dd301644b7e",
+  "label": "Quantitative transfer nonuniformFixed",
+  "paraphrase": "The whole successor-chain transfer operator with q(n)=1-1/(n+2)^2 fixes P(n)=(n+1)/(n+2). Every P(n) is positive and at most one and every factor is strictly between zero and one.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.NonuniformFixed"
+}

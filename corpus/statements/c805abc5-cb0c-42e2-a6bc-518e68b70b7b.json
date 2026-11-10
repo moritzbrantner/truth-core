@@ -1,0 +1,6 @@
+{
+  "id": "c805abc5-cb0c-42e2-a6bc-518e68b70b7b",
+  "label": "Bounded contractive pure transfer has zero source-free exercise",
+  "paraphrase": "For every topological carrier V, bounded continuous real assignment P and operator T with a common contraction constant q < 1, if T zero is zero and P is a nonnegative fixed point, P is zero. On discrete carriers continuity imposes no extra restriction. Quantitative analyst reconstruction at one fixed exercise context; applicability to productive power remains OPEN; no causal well-foundedness, intrinsic bearer or necessary being follows.",
+  "lean_declaration": "TruthCore.Causality.ContractiveBorrowedPower.ZeroExercise"
+}

@@ -1,0 +1,6 @@
+{
+  "id": "4979a793-ef0f-47a7-99da-52dd74433afa",
+  "label": "Quantitative transfer nonuniformTail",
+  "paraphrase": "Every finite upstream product of the nonuniform factors 1-1/(n+2)^2 is at least the strictly positive starting value (n+1)/(n+2). These cumulative tails therefore cannot vanish.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.NonuniformTail"
+}
