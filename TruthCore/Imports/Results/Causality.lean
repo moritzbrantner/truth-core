@@ -215,6 +215,8 @@ public import TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 public import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 public import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
+public import TruthCore.Results.Causality.ProductiveStore.Solution
+public import TruthCore.Results.Causality.ProductiveSustained.Solution
 public import TruthCore.Results.Causality.ProtectiveProcess.Solution
 public import TruthCore.Results.Causality.PureActRoot.Solution
 public import TruthCore.Results.Causality.PureActThisness.Solution
