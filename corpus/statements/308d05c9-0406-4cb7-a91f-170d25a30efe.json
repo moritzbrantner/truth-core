@@ -1,0 +1,11 @@
+{
+  "id": "308d05c9-0406-4cb7-a91f-170d25a30efe",
+  "label": "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlasting in time)",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by the view that time passes without change and by accounts of an everlasting God who is in time: something in potency in no respect is not eternal. The replacement account of its duration is everlasting existence in time; the formal statement has only the predicate for timeless eternity and expresses only its failure, not temporal duration. It is the exact negation of STMT-IMMUTABLE-IS-ETERNAL on the same carrier. It does not say that such a thing begins or ends.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.ImmutableWithoutEternityReading",
+  "definition_ids": [
+    "da5c0716-718e-5aaa-abec-95c9e93cac00",
+    "a49e4cf1-ca4f-5519-9724-892af257cedb",
+    "1291944d-a8b2-54eb-899d-66bd5f8b4762"
+  ]
+}
