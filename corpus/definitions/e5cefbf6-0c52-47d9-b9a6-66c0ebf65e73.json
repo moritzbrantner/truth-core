@@ -1,0 +1,11 @@
+{
+  "id": "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73",
+  "label": "Finite flywheel energy ledger over a fixed interval",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.Admissible",
+  "note": "Analyst energy accounting, not a definition of productive causation. Ledger before and after count the same identified flywheel kinetic-energy resource; input is boundary-crossing energy, work is selected load output, heat is remaining exported energy, all in one unit and interval. Admissible explicitly stipulates nonnegative fields and after + work + heat = before + input. Work and heat are flows integrated over an interval, before and after stocks. No causal, modal, existence or well-foundedness predicate is defined. Resource identity, boundary completeness, physical dynamics and applicability to ACT-POWER remain OPEN; see docs/notes/productive-store-1378.md.",
+  "claim_ids": [],
+  "term": "Finite flywheel energy ledger",
+  "definition": "Analyst energy accounting, not a definition of productive causation. Ledger before and after count the same identified flywheel kinetic-energy resource; input is boundary-crossing energy, work is selected load output, heat is remaining exported energy, all in one unit and interval. Admissible explicitly stipulates nonnegative fields and after + work + heat = before + input. Work and heat are flows integrated over an interval, before and after stocks. No causal, modal, existence or well-foundedness predicate is defined. Resource identity, boundary completeness, physical dynamics and applicability to ACT-POWER remain OPEN; see docs/notes/productive-store-1378.md.",
+  "basis": "stipulative"
+}

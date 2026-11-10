@@ -1,0 +1,9 @@
+{
+  "id": "6664141a-928e-42f5-a926-b676aa0c1acd",
+  "label": "Discharge maintenance replenishment and heat-only ledger controls",
+  "paraphrase": "The explicit ledgers (before,after,input,work,heat) (2,0,0,1,1), (2,2,0,0,0), (2,2,2,1,1), (2,0,0,0,2) are admissible; (2,2,0,1,1) is not.",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.Controls",
+  "definition_ids": [
+    "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"
+  ]
+}
