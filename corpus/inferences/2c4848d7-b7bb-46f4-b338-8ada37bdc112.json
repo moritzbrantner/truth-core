@@ -1,0 +1,14 @@
+{
+  "id": "2c4848d7-b7bb-46f4-b338-8ada37bdc112",
+  "label": "Origin-determined access with a varied individual gives the tolerance rival (inference)",
+  "input_statement_ids": [
+    "4dee106c-182f-4bf4-bc2c-01b0b7599632",
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "77c5f64a-7126-4804-8af2-ed32382a8f8e"
+  ],
+  "output_statement_id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
+  "rule": "biconditional elimination and introduction per world pair",
+  "meaning": "Bridge from the origin interface to the structural surrogate: if closeness of origins is reflexive and symmetric and access is exactly shared-origin closeness, access is reflexive and symmetric; and the individual with non-near origins at two successors of w makes those successors mutually inaccessible. So the origin-tolerance commitments entail the frame condition used by ToleranceOriginRival. Plenitude is not needed. The converse fails (the surrogate model has no origin interface).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

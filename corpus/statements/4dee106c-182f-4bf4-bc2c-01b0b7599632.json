@@ -1,0 +1,9 @@
+{
+  "id": "4dee106c-182f-4bf4-bc2c-01b0b7599632",
+  "label": "Closeness of material origins is reflexive and symmetric",
+  "paraphrase": "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): on a given assignment of origins to individuals at worlds, every origin is near itself, and if one origin is near another then the other is near the first. Transitivity is not assumed.",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.NearIsTolerance",
+  "definition_ids": [
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ]
+}

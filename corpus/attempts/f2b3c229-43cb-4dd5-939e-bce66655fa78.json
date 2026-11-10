@@ -1,0 +1,18 @@
+{
+  "id": "f2b3c229-43cb-4dd5-939e-bce66655fa78",
+  "label": "Origin-tolerance rival with varied individual restored, against actual-world Euclidean access",
+  "statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "60501b28-e6e1-46ad-b0e5-bd8daf64c089",
+    "5389a062-70dc-4802-a163-92faa1f1c915"
+  ],
+  "date": "2026-11-10",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Closes the interpretation gap of the structural surrogate ToleranceOriginRival.Control.Certificate. Added an origin interface (OriginToleranceIdentity): origins per world and individual, a closeness relation near; commitments NearIsTolerance (reflexive, symmetric), OriginDeterminesAccess (access iff every shared individual has near origins), OriginPlenitude (every near variation realised in an accessible world) and VariedOriginAt (one actual concrete individual with non-near origins at two successors). Bridge originToleranceNonEuclidean (zero-axiom): NearIsTolerance, OriginDeterminesAccess and VariedOriginAt entail the surrogate frame condition ToleranceNonEuclideanAt. Outcome on the surrogate: restoring the varied individual at all three offsets (Control.restored) satisfies the four commitments but the individual exists at every successor of actual, so NecessaryConcreteAt holds there: the surrogate countermodel is destroyed under the restored commitment. Outcome on Arrival A: a faithful countermodel survives on five worlds with two rigidly identified individuals (Control.faithful): a with offsets -1/0/+1 at aMinus/actual/plus, b with offsets 0/0/-1/+1 at actual/plus/bMinus/bPlus; access fails only aMinus-plus and bMinus-bPlus. All four origin commitments, ActualReflexive, presence-to-existence, inert emptiness and the possible contingent-free past (witness plus, times 0<1: b necessary at plus and present throughout, a contingent at plus and present only at 1) hold; EuclideanAt and NecessaryConcreteAt fail at actual (a absent from bMinus, b absent from aMinus). General reason: the arrival delivers an individual necessary relative to the witness world v; without Euclidean access nothing forces it into a successor of actual that v does not see, and origin tolerance permits such a successor (the far-origin world of another individual) to lack it. Why two individuals (prose argument, not Lean-checked): under OriginDeterminesAccess, if c is necessary at v and u is a successor of actual lacking c, then v does not see u, so some individual y existing at v and u has far origins there; y differs from c since c is absent from u. So any countermodel of this kind needs a second individual with varied origin, and on a one-individual carrier the conclusion holds.",
+  "evidence": [
+    "7c839c5e-2b39-4c7e-af38-99bfc46c48b5",
+    "468cbe86-1bba-4a0c-9484-5feb910a22e6"
+  ],
+  "blocker": "The countermodel uses permitted, not required, absences (b from aMinus, a from bMinus); OPEN whether a cross-world persistence bridge (an individual necessary at a possible world exists at every possibility of actual) is warranted independently of Euclidean access, and whether the if-half of OriginDeterminesAccess is part of the account. Counterpart, vague and kind-relative tolerance readings and the possible-external-cause arrival were not tested."
+}

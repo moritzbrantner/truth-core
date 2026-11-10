@@ -1,0 +1,9 @@
+{
+  "id": "5389a062-70dc-4802-a163-92faa1f1c915",
+  "label": "One world is possible relative to another iff every shared individual has near origins in them",
+  "paraphrase": "Rival framework commitment, unattributed (analyst reconstruction of the origin-tolerance account; attribution deferred): for all worlds w and v, v is accessible from w exactly when every individual existing at both w and v has near origins at w and at v. The only-if half is origin essentialism with tolerance (no accessible world gives an existing individual a far origin); the if half says origin closeness is the only constraint on access. Identity across worlds is rigid identity of the individual carrier; no counterpart relation.",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginDeterminesAccess",
+  "definition_ids": [
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ]
+}

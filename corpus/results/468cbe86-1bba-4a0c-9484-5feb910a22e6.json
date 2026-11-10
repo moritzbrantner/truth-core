@@ -1,0 +1,25 @@
+{
+  "id": "468cbe86-1bba-4a0c-9484-5feb910a22e6",
+  "label": "Faithful origin-tolerance countermodel checked",
+  "argument_id": "58e1e678-8df4-4d65-a6ec-76324ac55710",
+  "challenge_module": "TruthCore.Results.Causality.OriginToleranceIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginToleranceIdentity.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginToleranceIdentity.faithfulControls",
+  "comparator_config": "results/468cbe86-1bba-4a0c-9484-5feb910a22e6/comparator.json",
+  "status": "solution-present",
+  "description": "With the origin interface restored (varied origins of one rigidly identified individual, origin-determined access, origin plenitude), every premise of ActualEuclidean.inertNecessaryConcrete except Euclidean access at actual holds while its conclusion fails, so the tolerance rival survives Arrival A in this encoding. The countermodel needs two individuals: the individual necessary relative to the witness world plus (b) must be absent from a successor of actual that plus does not see (aMinus), and the varied individual a is contingent. Group 2 records that the surrogate's own three-offset pattern with the varied individual restored at all offsets does not give a countermodel: that individual exists at every successor of actual. Model claims concern these finite interpretations only; whether a world may lack an actual individual (b at aMinus, a at bMinus) is permitted, not required, by the encoded commitments.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "1b1462e6-c285-448c-87e2-3053bc05a341",
+      "rival_statement_id": "5389a062-70dc-4802-a163-92faa1f1c915",
+      "sense_definition_id": "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+      "outcome": "model-witnessed",
+      "conditions": "Near is a tolerance, origin plenitude and a varied individual at actual hold together with reflexivity at actual, presence-to-existence, inert emptiness and the possible contingent-free past in Control.faithful.",
+      "scope": "Same Frame, Ontic and History carrier as ActualEuclidean.inertNecessaryConcrete; five worlds, two rigidly identified individuals, three origin offsets, natural-number times, selected world World.actual.",
+      "coverage": "One finite origin-tolerance encoding with rigid identity and a three-value origin space; not counterpart, vague-tolerance or kind-relative accounts, and not the possible-external-cause arrival.",
+      "exclusivity": "With the varied individual and near a tolerance, origin-determined access entails the negation of Euclidean access at actual (originToleranceNonEuclidean).",
+      "witness": "Control.faithful, group 1 of Control.Certificate; a is absent from bMinus and b from aMinus, so NecessaryConcreteAt fails at actual.",
+      "next_step": "Test whether the arrival's premises can be re-warranted to require an individual necessary at the witness world to exist at every successor of actual (a cross-world persistence bridge); or test externalNecessaryConcrete against Control.faithful."
+    }
+  ]
+}

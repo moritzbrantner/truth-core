@@ -1,0 +1,9 @@
+{
+  "id": "77c5f64a-7126-4804-8af2-ed32382a8f8e",
+  "label": "Some actual concrete individual has two possible origins that are not near each other",
+  "paraphrase": "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): some concrete individual existing at the selected world w exists at two worlds accessible from w whose origins for it are not near each other (the possibly-possible-but-not-possible pattern carried by one individual).",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.VariedOriginAt",
+  "definition_ids": [
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ]
+}

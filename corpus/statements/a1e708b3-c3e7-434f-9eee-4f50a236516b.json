@@ -1,0 +1,9 @@
+{
+  "id": "a1e708b3-c3e7-434f-9eee-4f50a236516b",
+  "label": "Every near variation of a concrete individual's origin is realised in an accessible world",
+  "paraphrase": "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): for every world w, every concrete individual x existing at w and every origin o near the origin of x at w, some world accessible from w contains x with origin o.",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginPlenitude",
+  "definition_ids": [
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ]
+}

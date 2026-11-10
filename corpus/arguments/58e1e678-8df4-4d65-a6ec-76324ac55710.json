@@ -1,0 +1,17 @@
+{
+  "id": "58e1e678-8df4-4d65-a6ec-76324ac55710",
+  "label": "Faithful origin-tolerance countermodel checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "745d0d4c-71f3-4593-83eb-a719eeaf8912",
+  "inference_ids": [
+    "88c7e2d8-2e00-45eb-8b56-16cac289dc68"
+  ],
+  "meaning": "With the origin interface restored (varied origins of one rigidly identified individual, origin-determined access, origin plenitude), every premise of ActualEuclidean.inertNecessaryConcrete except Euclidean access at actual holds while its conclusion fails, so the tolerance rival survives Arrival A in this encoding. The countermodel needs two individuals: the individual necessary relative to the witness world plus (b) must be absent from a successor of actual that plus does not see (aMinus), and the varied individual a is contingent. Group 2 records that the surrogate's own three-offset pattern with the varied individual restored at all offsets does not give a countermodel: that individual exists at every successor of actual. Model claims concern these finite interpretations only; whether a world may lack an actual individual (b at aMinus, a at bMinus) is permitted, not required, by the encoded commitments.",
+  "definition_ids": [
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+  ]
+}

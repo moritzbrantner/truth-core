@@ -1,0 +1,11 @@
+{
+  "id": "7c839c5e-2b39-4c7e-af38-99bfc46c48b5",
+  "label": "Origin-determined access with a varied individual gives the tolerance rival",
+  "argument_id": "0e9edccf-514a-48ff-b018-1ed43c8d2d8b",
+  "challenge_module": "TruthCore.Results.Causality.OriginToleranceIdentity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginToleranceIdentity.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginToleranceIdentity.originToleranceNonEuclidean",
+  "comparator_config": "results/7c839c5e-2b39-4c7e-af38-99bfc46c48b5/comparator.json",
+  "status": "solution-present",
+  "description": "Bridge from the origin interface to the structural surrogate: if closeness of origins is reflexive and symmetric and access is exactly shared-origin closeness, access is reflexive and symmetric; and the individual with non-near origins at two successors of w makes those successors mutually inaccessible. So the origin-tolerance commitments entail the frame condition used by ToleranceOriginRival. Plenitude is not needed. The converse fails (the surrogate model has no origin interface)."
+}
