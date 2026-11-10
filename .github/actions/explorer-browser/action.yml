@@ -17,6 +17,10 @@ runs:
     - name: Install workspace dependencies
       shell: bash
       run: bun install --frozen-lockfile
+    # The explorer reads its frontier and dossiers from the Rust truth CLI.
+    - name: Build the truth CLI
+      shell: bash
+      run: cargo build --locked --release -p truth
     - name: Resolve Playwright version
       id: playwright
       shell: bash

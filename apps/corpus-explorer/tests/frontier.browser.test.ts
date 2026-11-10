@@ -1,7 +1,8 @@
 import { afterAll, beforeAll, expect, test } from "bun:test";
 import { chromium, type Browser } from "playwright";
-import { execFileSync } from "node:child_process";
 import path from "node:path";
+
+import { truthJson } from "../src/lib/truth-cli";
 
 let browser: Browser;
 let server: ReturnType<typeof Bun.serve>;
@@ -107,14 +108,8 @@ test("static frontier: queue ↔ graph, goal/global, reload, expansion, focus re
   await page.close();
 }, 60000);
 
-test("floor markings show the basis and criterion that corpus.py frontier reports", async () => {
-  const report = JSON.parse(
-    execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
-      cwd: path.resolve(import.meta.dir, "../../.."),
-      encoding: "utf8",
-      maxBuffer: 64 * 1024 * 1024,
-    }),
-  ) as { floor: Array<{ statement_id: string; basis: string; met: boolean }> };
+test("floor markings show the basis and criterion that truth frontier reports", async () => {
+  const report = truthJson(["frontier"]) as { floor: Array<{ statement_id: string; basis: string; met: boolean }> };
   const page = await browser.newPage();
   const prefix = `${server.url}${basePath.replace(/^\//, "")}${basePath ? "/" : ""}`;
   await page.goto(`${prefix}state/`);
@@ -133,14 +128,8 @@ test("floor markings show the basis and criterion that corpus.py frontier report
   await page.close();
 }, 60000);
 
-test("state page counts the root's paths as corpus.py frontier's reaching_root_statements", async () => {
-  const report = JSON.parse(
-    execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
-      cwd: path.resolve(import.meta.dir, "../../.."),
-      encoding: "utf8",
-      maxBuffer: 64 * 1024 * 1024,
-    }),
-  ) as {
+test("state page counts the root's paths as truth frontier's reaching_root_statements", async () => {
+  const report = truthJson(["frontier"]) as {
     reaching_root_statements: string[];
     established_statements: string[];
     closed_statements: Record<string, string>;

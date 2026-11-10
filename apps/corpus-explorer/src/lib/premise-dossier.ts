@@ -1,6 +1,4 @@
-import { execFileSync } from "node:child_process";
-import path from "node:path";
-
+import { truthJson } from "./truth-cli";
 import type { CorpusStatement } from "./corpus";
 import type { ClosureReason } from "./site-state";
 
@@ -100,9 +98,7 @@ let cached: Record<string, PremiseDossier> | undefined;
 let cachedAttempts: Record<string, CorpusAttempt> | undefined;
 
 function loadDossierReport(target: string): unknown {
-  return JSON.parse(execFileSync("python3", ["scripts/corpus.py", "dossier", target, "--json"], {
-    cwd: path.resolve(process.cwd(), "../.."), encoding: "utf8", maxBuffer: 64 * 1024 * 1024,
-  }));
+  return truthJson(["dossier", target]);
 }
 
 /** Resolve one real corpus dossier without building the full static-page index. */
@@ -114,7 +110,7 @@ export function getDossier(statementId: string): PremiseDossier {
   return value;
 }
 
-/** Build once for all static pages; closure and route costs stay owned by corpus.py. */
+/** Build once for all static pages; closure and route costs stay owned by the truth CLI. */
 export function getDossiers(): Record<string, PremiseDossier> {
   if (!cached) {
     cached = parseDossiers(loadDossierReport("--all"));
