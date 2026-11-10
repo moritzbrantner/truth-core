@@ -1,0 +1,10 @@
+{
+  "id": "9bd313fc-0398-40b8-bbe0-9a03689b4630",
+  "label": "No possible contingent-free past is an alternative to possible founded coming-to-be",
+  "subject_kind": "statement",
+  "subject_id": "c7143db7-8312-4d26-b494-1ee7d8baa9af",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "78a44599-dc67-4d1f-988a-ed84b8c517f9",
+  "note": "Not the negation of the premise: the two are incompatible by the checked derivation of the possible contingent-free past, and both can fail together. Recorded because the initial-state view is the position that must deny the premise; neither is established."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "f7f7ee76-2f29-4782-b682-2b39f0fedd4c",
+  "label": "Survival models of the rivals of five stage-one premises of the modal spine",
+  "paraphrase": "Closed mathematical controls, every individual counted concrete. (1) Three worlds under a forward-looking frame in which nothing sees the selected world: the frame is serial and Euclidean, not reflexive at the selected world; presence-to-existence, inert emptiness and the possible contingent-free past hold; nothing exists at the selected world. (2) The same assignment under a reflexive frame in which the selected world sees a second world and the second sees a third: not Euclidean, reflexive at the selected world, the same three premises hold and nothing exists at the selected world. (3) Two mutually accessible worlds where existence is presence at time 1, one individual present only at time 0 and another from time 1 on: presence-to-existence fails, inert emptiness and the possible contingent-free past hold, and no individual exists at both worlds. (4) Two mutually accessible worlds each with its own contingent individual and no beginning anywhere: the causal-opportunity premise holds vacuously and no individual exists at both worlds. (5) The existing brute-only scenario: a beginning is possible, no possible beginning has an external cause, and no individual exists at both worlds. Statements about five finite interpretations only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.Control.Certificate",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d"
+  ]
+}

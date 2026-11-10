@@ -1,0 +1,24 @@
+{
+  "id": "2ff596ad-7974-4ec1-8424-e58711c0c61e",
+  "label": "A possible contingent-free past from possible founded coming-to-be",
+  "argument_id": "43543f14-5f7b-4ba6-be86-ba0122bd6172",
+  "challenge_module": "TruthCore.Results.Causality.ContingentComingToBe.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentComingToBe.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentComingToBe.possibleContingentFreePast",
+  "comparator_config": "results/2ff596ad-7974-4ec1-8424-e58711c0c61e/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional support option for premise A3 of the modal spine to God's existence. In the accessible history, the contingent individual x present at the founded moment t was absent at an earlier moment s. Because there is no endless descent below t, some moment m at or below s has no strictly earlier moment (classical case split along accessibility of the strict order). Any contingent concrete individual present at m would need a still earlier moment of absence, which m lacks; so m is free of contingent concrete individuals and lies strictly before t, where x is present. No frame condition, presence contract, inertness of emptiness or causal relation is used. The single premise is OPEN; it is a possibility claim and is stronger than the conclusion. This repairs, for contingent concrete things under an earlier-absence reading and a founded past, the quantifier shift the corpus records as invalid in general; nothing is attributed to a source. No premise truth is established.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "78a44599-dc67-4d1f-988a-ed84b8c517f9",
+      "rival_statement_id": "c7143db7-8312-4d26-b494-1ee7d8baa9af",
+      "sense_definition_id": "195b8983-2f55-48fa-ad55-35d77ebe2e00",
+      "outcome": "excluded",
+      "conditions": "None beyond the two statements themselves: possibleContingentFreePast derives the negation of the rival from the target, with the three permitted Mathlib axioms.",
+      "scope": "Same History carrier, Concrete predicate, preorder of times, frame and selected world.",
+      "coverage": "The initial-state rival as encoded (no accessible contingent-free moment before a contingent-populated one); not every philosophical view called an initial-state view.",
+      "exclusivity": "Checked incompatibility, not exhaustiveness: both statements can fail together.",
+      "next_step": "The rival's holder must deny that founded coming-to-be is possible: in every accessible history either some contingent concrete thing never came to be or no populated moment has a founded past. Test each horn against the causal-finitism and brute-foundation results."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "id": "bb9a11b1-d0f1-4b78-a009-b1f0dfee3e32",
+  "label": "A necessary concrete individual from inert emptiness and a possible contingent-free past",
+  "argument_id": "6f534573-4521-4acc-b9a7-77a0b8acc53a",
+  "challenge_module": "TruthCore.Results.Causality.InertEmptiness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InertEmptiness.Solution",
+  "theorem": "TruthCore.Results.Causality.InertEmptiness.necessaryConcrete",
+  "comparator_config": "results/bb9a11b1-d0f1-4b78-a009-b1f0dfee3e32/comparator.json",
+  "status": "solution-present",
+  "description": "New non-transcription conditional support option for stage one of the modal spine to God's existence. In the accessible history v, some contingent concrete individual is present at the later moment t, so v is not concrete-empty at t; by inert emptiness v is not concrete-empty at the earlier moment s, so (classically) some concrete individual c is present at s. Presence-to-existence gives that c exists at v. No contingent concrete individual is present at s, so c is not contingent at v: it is absent from no world accessible from v. Euclidean access and reflexivity at the selected world w carry the SAME c to w and to every world accessible from w. No causal, grounding or explanatory relation is used or concluded; the grounding field of the conclusion's profile is an arbitrary parameter. All five premises are OPEN framework inputs; no premise truth, uniqueness, underivedness or divine attribute is established. Classical reasoning enters through the three permitted Mathlib axioms.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "395cb0f6-0352-47b1-8996-918468cc716a",
+      "rival_statement_id": "84526937-8bb7-4c7a-8ccc-c0a11b9fd64f",
+      "sense_definition_id": "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+      "outcome": "model-witnessed",
+      "conditions": "Control.exNihilo with every individual concrete: Euclidean and reflexive frame, presence-to-existence and the possible contingent-free past all hold; inert emptiness fails.",
+      "scope": "Same History carrier, same Concrete predicate, same preorder of times; two mutually accessible worlds, natural-number times.",
+      "coverage": "One explicitly populated model of the rival together with the other four premises; not all histories with a beginning out of nothing.",
+      "exclusivity": "On one history and predicate the rival and inert emptiness cannot both hold (unregistered helper inertExcludesPopulatedEmptiness in the Solution module); the model shows the rival is jointly satisfiable with the remaining premises.",
+      "witness": "Control.exNihilo in Control.Certificate; controls proves the listed conjuncts and that NecessaryConcreteAt fails at the selected world.",
+      "next_step": "Record and test the strongest replacement account for a beginning out of nothing; inert emptiness remains OPEN."
+    },
+    {
+      "target_statement_id": "0cb07f05-5268-4685-8213-0eefa9ec4255",
+      "rival_statement_id": "c7143db7-8312-4d26-b494-1ee7d8baa9af",
+      "sense_definition_id": "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+      "outcome": "model-witnessed",
+      "conditions": "Control.initialState with every individual concrete: Euclidean and reflexive frame, presence-to-existence and inert emptiness all hold; a contingent concrete individual exists and is present at every time.",
+      "scope": "Same History carrier, same Concrete predicate, same frame and selected world.",
+      "coverage": "One explicitly populated initial-state model; not every view on which contingent reality has no earlier contingent-free moment.",
+      "exclusivity": "The rival is the negation of the target on the identical carrier; incompatibility is propositional.",
+      "witness": "Control.initialState in Control.Certificate; controls proves the listed conjuncts and that NecessaryConcreteAt fails at the selected world.",
+      "next_step": "Investigate independent support for the possibility of a contingent-free past against the initial-state view; the premise remains OPEN."
+    }
+  ]
+}
