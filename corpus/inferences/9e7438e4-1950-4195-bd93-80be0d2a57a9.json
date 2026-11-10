@@ -1,0 +1,13 @@
+{
+  "id": "9e7438e4-1950-4195-bd93-80be0d2a57a9",
+  "label": "The rival of actual reflexivity isolates the actual world, from the Euclidean frame (inference)",
+  "input_statement_ids": [
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "72bd0f2c-3475-4b97-804c-34862f4ba47f"
+  ],
+  "output_statement_id": "7af141dc-9de6-43a7-aeeb-981314494c65",
+  "rule": "Seriality at the selected world gives an accessed world; the Euclidean condition applied to one accessed world twice gives its self-access",
+  "meaning": "Node F1 of the walk along the modal spine to God's existence: the price of the recorded rival of actual reflexivity. Whoever holds that rival together with the Euclidean frame premise is committed to a frame in which the selected world is the only world in view that does not access itself. This is a conditional consequence of a rival, not a refutation: both premises are open, the Euclidean premise is itself contested at node F2, and the theorem does not say the consequence is false. Under the alethic reading of accessibility the consequence denies that what is actual is possible while granting self-possibility to every other world in view; the owner has accepted actual reflexivity as a floor item on that reading. A holder who reads accessibility deontically or as temporal succession accepts the consequence without cost, but then 'necessary' in the spine's conclusion is not metaphysical necessity. Not a transcription: neither premise has the conclusion as its consequent.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,20 @@
+[batch]
+vocab = "TruthCore.Causality.SpineWalkFrame"
+results = "TruthCore.Results.Causality.SpineWalkFrame"
+
+[[statement]]
+id = "The selected world alone does not access itself among the worlds it has in view"
+lean = "ActualAloneNotSelfAccessible"
+paraphrase = "Consequence statement for a rival, unattributed and not asserted: the selected world does not access itself, it accesses at least one world, and every world it accesses accesses itself. On the alethic reading of accessibility this says that the actual world is the single world in view that is not possible relative to itself, while every way things could have been is possible relative to itself."
+definitions = ["f48ad23b-b768-4980-8853-e3eeaa0777a9", "b8657389-ff01-46cc-9c71-6b56238eb99a", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+
+[[argument]]
+id = "The rival of actual reflexivity isolates the actual world, from the Euclidean frame"
+theorem = "rivalIsolatesActual"
+premises = ["STMT-EUCLIDEAN-FRAME", "Every world sees some world and the selected world does not see itself"]
+conclusion = "The selected world alone does not access itself among the worlds it has in view"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Seriality at the selected world gives an accessed world; the Euclidean condition applied to one accessed world twice gives its self-access"
+meaning = "Node F1 of the walk along the modal spine to God's existence: the price of the recorded rival of actual reflexivity. Whoever holds that rival together with the Euclidean frame premise is committed to a frame in which the selected world is the only world in view that does not access itself. This is a conditional consequence of a rival, not a refutation: both premises are open, the Euclidean premise is itself contested at node F2, and the theorem does not say the consequence is false. Under the alethic reading of accessibility the consequence denies that what is actual is possible while granting self-possibility to every other world in view; the owner has accepted actual reflexivity as a floor item on that reading. A holder who reads accessibility deontically or as temporal succession accepts the consequence without cost, but then 'necessary' in the spine's conclusion is not metaphysical necessity. Not a transcription: neither premise has the conclusion as its consequent."
+definitions = ["f48ad23b-b768-4980-8853-e3eeaa0777a9", "b8657389-ff01-46cc-9c71-6b56238eb99a", "735d59a6-61de-5e43-bcf6-4ff64bceb90d", "beb654a7-e204-5f4c-a7b4-45e886ba7109", "f8948e28-b13a-5244-95f1-41a05cd4fff2", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+disambiguations = ["7181df76-d6ed-5226-a34b-08910ddbe6a0"]

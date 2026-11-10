@@ -1,0 +1,8 @@
+{
+ "id": "b8657389-ff01-46cc-9c71-6b56238eb99a",
+ "label": "Alethic reading of world accessibility",
+ "term": "alethic accessibility",
+ "definition": "On the alethic reading, a world v is accessible from a world w when v is a way things could have been, given how things are at w. Accessibility then expresses real (metaphysical) possibility relative to w, and existence at every accessible world expresses metaphysical necessity. A world in which a different die face came up is accessible on this reading. It is distinct from the deontic reading (v is how things ought to be according to w), on which the actual world need not be accessible, and from the temporal-future reading (v lies ahead of w), on which no world is accessible from itself.",
+ "basis": "stipulative",
+ "note": "Analyst reading for the modal spine to God's existence; attribution deferred. The Lean relation Frame.access is uninterpreted: no Lean declaration distinguishes this reading from the deontic or temporal one, and no typed sense fork exists yet. Blocker for encoding: a typed sense needs a condition that separates the readings, and the obvious candidate, reflexivity, is the premise under discussion. The reading is recorded so that the floor marking of actual reflexivity is tied to one meaning of accessibility."
+}

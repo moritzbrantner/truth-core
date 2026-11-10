@@ -1,0 +1,9 @@
+{
+ "id": "f48ad23b-b768-4980-8853-e3eeaa0777a9",
+ "label": "The selected world alone fails to access itself among the worlds in view",
+ "term": "isolated non-self-accessible actual world",
+ "definition": "ActualAloneNotSelfAccessible m w holds when w does not access itself, w accesses at least one world, and every world that w accesses does access itself. The worlds in view are w and the worlds w accesses; nothing is said about worlds further away. Example: three worlds where every world accesses the second and third only; the first is then the single world in view that does not access itself. A frame where no world accesses itself does not satisfy it.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.SpineWalkFrame.ActualAloneNotSelfAccessible",
+ "note": "Analyst framework definition for node F1 of the walk in docs/notes/modal-spine.md; attribution deferred. It states a frame shape only. That such a shape is an unreasonable account of real possibility is a judgment under the alethic reading of accessibility, not part of the definition."
+}

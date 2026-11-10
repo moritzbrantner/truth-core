@@ -1,0 +1,11 @@
+{
+  "id": "7af141dc-9de6-43a7-aeeb-981314494c65",
+  "label": "The selected world alone does not access itself among the worlds it has in view",
+  "paraphrase": "Consequence statement for a rival, unattributed and not asserted: the selected world does not access itself, it accesses at least one world, and every world it accesses accesses itself. On the alethic reading of accessibility this says that the actual world is the single world in view that is not possible relative to itself, while every way things could have been is possible relative to itself.",
+  "lean_declaration": "TruthCore.Causality.SpineWalkFrame.ActualAloneNotSelfAccessible",
+  "definition_ids": [
+    "f48ad23b-b768-4980-8853-e3eeaa0777a9",
+    "b8657389-ff01-46cc-9c71-6b56238eb99a",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

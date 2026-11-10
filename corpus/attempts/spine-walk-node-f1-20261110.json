@@ -1,0 +1,15 @@
+{
+  "id": "943fe44d-a1c8-4e21-b3c0-d3ed030d6658",
+  "label": "Spine walk, node F1: actual reflexivity, the price of its rival, floor decision",
+  "statement_ids": [
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "72bd0f2c-3475-4b97-804c-34862f4ba47f"
+  ],
+  "date": "2026-11-10",
+  "kind": "refutation",
+  "outcome": "succeeded",
+  "summary": "First node of the walk along the modal spine to God's existence (docs/notes/modal-spine.md). Reading fixed: accessibility is alethic, so actual reflexivity says that what is actual is possible; in the temporal arrival it is used only to carry existence at every possible world to existence at the actual one. Gap found and recorded: the Lean accessibility relation is uninterpreted, so the alethic reading is a stipulative definition and not a typed sense. Price of the recorded rival (serial access, the selected world not accessing itself): (1) on a deontic or temporal reading the rival is true at no cost, but then 'necessary' in the spine's conclusion is not metaphysical necessity, so the rival does not contest the premise in its sense; (2) on the alethic reading, with the Euclidean premise, SpineWalkFrame.rivalIsolatesActual shows the actual world is the single world in view that is not possible relative to itself, while in the survival model an individual exists at every possible world and not actually. The owner accepted actual reflexivity as a floor item on the alethic reading (decision linked in the statement's marking). The rival is not refuted by a checked theorem: its price is judged unreasonable relative to that floor item. Rejected approach: defining alethic accessibility in Lean so that reflexivity holds by definition, which would hide the premise in a definition.",
+  "evidence": [
+    "0ea3bc86-9679-42ce-979d-80604089c0bc"
+  ]
+}

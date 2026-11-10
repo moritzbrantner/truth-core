@@ -25,7 +25,7 @@ There are two verified arrivals. They share the two frame premises.
 
 | | Premise | Status | Rival |
 |---|---|---|---|
-| F1 | The actual world is accessible from itself. `STMT-ACTUAL-MODAL-REFLEXIVITY` | open | recorded; see the rival table |
+| F1 | The actual world is accessible from itself. `STMT-ACTUAL-MODAL-REFLEXIVITY` | floor (owner approval, alethic reading) | priced; see node F1 of the walk |
 | F2 | Any two worlds accessible from a world are accessible from each other (Euclidean). `STMT-EUCLIDEAN-FRAME` | open | recorded; see the rival table |
 
 **Arrival A, temporal** (`InertEmptiness.necessaryConcrete`, spec `specs/modal-spine-inert-emptiness.toml`):
@@ -183,7 +183,7 @@ no predicate in which to state it.
 These premises have no source claim and no derivation in the corpus. They are
 candidates for an owner floor decision, not established:
 
-- F1 actual reflexivity. Its rival changes what accessibility means rather than denying that the actual is possible.
+- F1 actual reflexivity. Accepted as floor by the owner on 2026-11-10; see node F1 of the walk.
 - A1 presence gives existence, once the spine fixes a non-presentist reading of existence.
 - Something concrete exists at the actual world.
 
@@ -197,19 +197,35 @@ The spine is worked node by node in argument order: F1, F2, A1, A2, A3′, B1,
 B2, the join (J1, J2, and whether its individual is the stage-two root), then
 the stage-two premises in the order of the rival table. No node is skipped.
 
+The aim at every node is to show that its rivals are unreasonably priced: that
+whoever denies the premise must accept something a reasonable opponent will not.
+A node is not finished by noting that a rival "survives".
+
 At each node:
 
 1. **Fix what it says.** One reading with its definition. Two readings are split there.
-2. **Price the rival.** State what the rival's holder must also accept, and test
-   that against recorded commitments. A rival that is the same position as one
+2. **Name the rivals.** Every position that denies the premise in that reading,
+   each with its replacement account. A rival that is the same position as one
    met earlier is linked to it and the earlier result is reused.
-3. **Close the node with one verdict.**
-   - *Floor*: the owner accepts it as basic (an owner decision per item, recorded under the floor rules of `docs/corpus-model.md`).
-   - *Defended*: its rival is excluded.
-   - *Commitment*: the rival stands, and the premise is marked as assumed by the argument.
+3. **Price each rival.** Derive, by checked consequence from the rival and other
+   recorded statements, what its holder must also accept. Record the price as a
+   statement and the derivation as a result.
+4. **Judge the price.** A price is unreasonable when it denies a floor item, or
+   something the rival's own replacement account affirms. Then the rival is
+   answered and the node is finished.
+5. **Otherwise descend.** If the price is not yet unreasonable, go down: into the
+   sub-premises and sub-arguments that support the premise, and into the further
+   commitments of the rival, and apply the same steps there. Return when the
+   price has become unreasonable, or when the descent reaches a statement the
+   owner accepts as floor.
 
-A node is derived from deeper premises only by an owner choice at that node. The
-walk then descends one level, applies the same three steps there, and returns.
+A node that the descent cannot finish stays open, with the exact rival and price
+that remain standing. It is never marked finished as a mere assumption.
+
+Floor is an owner decision per item (`docs/corpus-model.md`). The prices and the
+reasons a rival fails are findings in their own right and are persisted: the
+price as a statement and result, the reasoning in the node's section here and
+in an attempt record.
 
 Leads already known, to be taken up at their node: the two horns left to the
 initial-state view (A3′), against the brute-foundation, causal-finitism and Grim
@@ -225,24 +241,34 @@ existence at `w`. The spine intends the alethic reading: `access w v` means `v`
 is a way things could have been, relative to `w`. Under that reading F1 says
 that what is actual is possible, and its use in `InertEmptiness.necessaryConcrete`
 is exactly to carry existence "at every possible world" to existence at the
-actual one. Gap found: the alethic reading of `access` has no definition record,
-and no disambiguation separates it from the deontic and temporal readings.
+actual one. The alethic reading is now recorded as a stipulative definition
+("Alethic reading of world accessibility"). It is not a typed sense: the Lean
+relation is uninterpreted, and the one condition that would separate the
+readings is reflexivity itself.
 
-**Price of the rival.** In the survival model (`SpineRivalsStageOne.controls`,
-first group) an individual exists at every accessible world and not at the
-actual one. So the rival's holder accepts one of two things:
+**The rival and its price.** The rival: accessibility is serial and the actual
+world does not access itself. In its survival model
+(`SpineRivalsStageOne.controls`, first group) an individual exists at every
+accessible world and not at the actual one. Its holder takes one of two positions:
 
-- accessibility is not alethic ("what lies ahead", "what would be ideal"). Then
-  "necessary" in the conclusion is not metaphysical necessity, and the rival
-  answers a different question than the spine asks. It is another sense of the
-  term, not a competitor within the sense;
-- accessibility is alethic and the actual world is not possible. With F2 every
-  world accessible from the actual one accesses itself (one Euclidean step, not
-  registered as a result), so the actual world would be the only world in view
-  that is not possible relative to itself.
+- *Accessibility is not alethic* ("what lies ahead", "what would be ideal").
+  This costs nothing, and it answers nothing: "necessary" in the conclusion is
+  then not metaphysical necessity, so the rival does not deny F1 in the sense
+  the spine uses.
+- *Accessibility is alethic and the actual world is not possible.* With F2 the
+  price is checked (`SpineWalkFrame.rivalIsolatesActual`, spec
+  `specs/spine-walk-frame.toml`): the actual world is the single world in view
+  that is not possible relative to itself, while every way things could have
+  been is possible relative to itself. The holder also accepts that something
+  can exist in every possible world and not actually.
 
-No recorded commitment excludes either by a checked theorem.
+**Why the price is unreasonable.** On the alethic reading "possible" means a way
+things could be. The second position says that the one way things are is not a
+way things could be, and it says so of the actual world only. No replacement
+account of real possibility is offered for this; the only accounts on which the
+frame shape makes sense are the non-alethic ones of the first position.
 
-**Verdict.** Pending an owner decision. Proposed: floor, for the alethic reading,
-after that reading is recorded as a definition and the other readings as senses
-in a disambiguation. Without the decision the node closes as a commitment.
+**Verdict: floor** (owner decision of 2026-11-10, linked in the statement's
+marking), for the alethic reading. The rival is not refuted by a theorem; its
+price is the denial of this floor item. The computed frontier moves F1 from bare
+to closed. What remains open here: a typed fork of the readings of accessibility.

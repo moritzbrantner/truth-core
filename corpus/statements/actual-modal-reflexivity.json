@@ -6,6 +6,21 @@
   "paraphrase": "The chosen actual world accesses itself; no S5 accessibility or world-pair universality is asserted.",
   "definition_ids": [
     "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
-    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
-  ]
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "b8657389-ff01-46cc-9c71-6b56238eb99a"
+  ],
+  "self_evident": {
+    "basis": "retorsion",
+    "justification_ids": ["0ea3bc86-9679-42ce-979d-80604089c0bc"],
+    "disagreement": {
+      "rival_statement_ids": [
+        "72bd0f2c-3475-4b97-804c-34862f4ba47f"
+      ]
+    },
+    "owner_approval": {
+      "decision": "https://github.com/moritzbrantner/truth-core/issues/1007#issuecomment-6760381475",
+      "date": "2026-11-10"
+    },
+    "note": "Floor item approved by the owner for the alethic reading of accessibility: what is actual is possible. The retorsion criterion is not mechanically met: the recorded rival (serial access, the selected world not accessing itself) is not refuted, and Lean cannot refute it because the accessibility relation is uninterpreted. The marking is met by the approval. Reason recorded at node F1 of docs/notes/modal-spine.md: the rival either reads accessibility non-alethically, and then does not deny this item in its sense, or it holds under the Euclidean premise that the actual world alone is not possible relative to itself (checked consequence: SpineWalkFrame.rivalIsolatesActual). The floor is relative to the alethic reading; under a deontic or temporal reading this marking claims nothing."
+  }
 }
