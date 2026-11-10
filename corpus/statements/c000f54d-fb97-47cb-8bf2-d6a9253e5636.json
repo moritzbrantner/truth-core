@@ -1,0 +1,6 @@
+{
+  "id": "c000f54d-fb97-47cb-8bf2-d6a9253e5636",
+  "label": "Closed stock bounds the number of intervals meeting a uniform energy demand",
+  "paraphrase": "For nonnegative real stock and stock(t+1)+output(t)=stock(t), a common lower bound epsilon on output implies n*epsilon <= stock(0) for every natural n. Epsilon need not be positive for this finite bound.",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.UniformBudget"
+}

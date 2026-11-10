@@ -1,0 +1,11 @@
+{
+  "id": "545f7f99-b00a-403b-bcf5-27ede3214ee1",
+  "label": "Finite energy ledger bounds output and requires input for nondepleting dissipation, by ledger ari…",
+  "argument_id": "741802a8-76b5-4568-ac57-edca634d83f1",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveStore.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveStore.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveStore.budget",
+  "comparator_config": "results/545f7f99-b00a-403b-bcf5-27ede3214ee1/comparator.json",
+  "status": "solution-present",
+  "description": "For every admissible energy ledger, work plus heat is at most initial stock plus boundary input; if final stock is at least initial stock and work plus heat is positive, boundary input is positive. Analyst conditional model only; no universal causal or existential bridge."
+}

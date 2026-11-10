@@ -1,0 +1,13 @@
+{
+  "id": "e45c3ff9-9fd0-41dd-9fd5-3bde3b78c6e2",
+  "label": "Replenishment permits constant nondepleting interval work, by temporal energy accounting",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "23852b4f-e1bd-4c8b-b0ec-9b4dc6c06f4c",
+  "inference_ids": [
+    "457299e4-5e75-4507-a780-14001a3451fe"
+  ],
+  "meaning": "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics. Analyst conditional energy accounting only; no causal or bearer bridge.",
+  "definition_ids": [
+    "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "8611a929-eb39-4dc6-bcd0-0d127b1e8f0a",
+  "label": "Finite dissipative store test for actual power and grounding",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9"
+  ],
+  "kind": "derivation",
+  "outcome": "blocked",
+  "summary": "Energy ledger bounds and controls checked in shared Lean preview; closed nondepleting dissipation requires input, but finite closed stock permits transient and indefinitely decreasing positive interval output. Conservation alone supplies neither contraction nor an independent bearer. Existing PowerExistenceBoundary separates underived power from esse support; no physical abstraction to that profile certified. Details, failed drafts, exact preview binding, rival costs, rough-draft corrections and next tests: docs/notes/productive-store-1378.md. Final delivered-head certification pending. Continuation: uniform interval demand yields n*epsilon <= stock0 and Archimedean exclusion; geometric discharge has no uniform positive bound. A positive shrinking load profile restores the reservoir rival. Full draft, failed type inference, time/dimension analysis and exact application blockers are persisted in the same linked note; final CI and semantic challenge pending.",
+  "blocker": "Need same-resource/time abstraction for parent per-se exercise, physical dynamics/boundary completeness, and independently warranted connection between energy transmission and existential support. Master reassessment and independent semantic challenge required.",
+  "evidence": [
+    "545f7f99-b00a-403b-bcf5-27ede3214ee1",
+    "46bfce3d-7901-407c-8ed2-34ee086dfc00"
+  ]
+}

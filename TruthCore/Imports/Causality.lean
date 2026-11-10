@@ -134,6 +134,7 @@ public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.PreservationCandidates
+public import TruthCore.Causality.ProductiveStore
 public import TruthCore.Causality.ProtectiveProcess
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness

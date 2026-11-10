@@ -1,0 +1,13 @@
+{
+  "id": "d84fc44b-a0a6-422b-bde9-267d2819b0bd",
+  "label": "Closed stock bounds the number of intervals meeting a uniform energy demand, by accounting",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c000f54d-fb97-47cb-8bf2-d6a9253e5636",
+  "inference_ids": [
+    "9dca1336-b93a-4172-942f-21ed5bba3e68"
+  ],
+  "meaning": "For nonnegative real stock and stock(t+1)+output(t)=stock(t), a common lower bound epsilon on output implies n*epsilon <= stock(0) for every natural n. Epsilon need not be positive for this finite bound. Analyst conditional energy accounting only; no causal or bearer bridge.",
+  "definition_ids": [
+    "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"
+  ]
+}

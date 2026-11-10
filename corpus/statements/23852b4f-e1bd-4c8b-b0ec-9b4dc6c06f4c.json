@@ -1,0 +1,6 @@
+{
+  "id": "23852b4f-e1bd-4c8b-b0ec-9b4dc6c06f4c",
+  "label": "Replenishment permits constant nondepleting interval work",
+  "paraphrase": "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics.",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.ReplenishedUniform"
+}
