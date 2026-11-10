@@ -1,0 +1,22 @@
+{
+  "id": "424fad71-de10-4044-aac0-ab3f2bcb680b",
+  "label": "Answerability bridge versus goal-relative force for preference-independent epistemic reasons",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+    "1ef64186-1d82-4801-bf3d-2ab1a6ae7f50",
+    "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+    "c00292fd-600b-4bf1-9259-de782550ee36"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "BeliefAnswerability is a universal-conditional form of the target's invariance clause (low inferential distance), stronger than needed. Ran context/dossier/related on the target. Existing Boundary goalRelative frame already shows F6, consideration presentation and the ordinary-role definition fail to exclude the goal-relative rival; accuracy certificates and the nihilism retorsion bind only subjects already taking a correctness aim. Six Lean theorem declarations are retained, with four corpus result registrations: goal-relative force plus an indifference alternative entail the target's negation; concession, answerability, goal-relativism and indifference are jointly inconsistent; goal-relative force grants the concession for aim-satisfying subjects; and finite controls separate every premise of the answerability and goal-relative exclusion arguments, give a universal-aim nonvacuity witness, and include an actually indifferent subject whose ordinary reason lacks actual force. Two retained lemmas derive the target from actual-force concession plus answerability, or from thin F6, presentation, ordinary calibration, goal-relative force and universal aim satisfaction. Their direct target registrations are deferred because the conclusion-role sense bridges misrepresented an existential as a derived sense relation; no direct graph support for the target is added. All proof bodies and frozen theorem types remain unchanged. The constitutive route excludes indifferent profiles from the comparison class; its constitutive origin is not encoded and it provides no support for the indifference case. Rejected: treating accuracy dominance or retorsion as binding indifferent profiles; an all-attitude answerability (stronger than needed); a metadata workaround that drops genuine sense uses or alters stable identities. Provisional judgment (coordinator): underdetermined; strongest objection is the attributive standard versus reason-giving distinction. Details, deferred identities, retained lemma paths and reopening conditions are in docs/notes/epistemic-authority.md. No root connection or root-premise discharge.",
+  "evidence": [
+    "2930b66a-b5e3-4f3f-b2d3-758d84c0e54d",
+    "3f585aa7-636f-4a79-8eab-3f7925367f8d",
+    "3f888d00-c940-4bf3-99d7-faa342b42ed5",
+    "d2b63ed6-5454-4255-a2c3-a9ea8891ebff",
+    "PR-1374"
+  ],
+  "blocker": "Follow-up #1376 tracks restoration. Direct target registrations remain deferred until the shared Frame/sense boundary in disambiguation 339c6bf8 is repaired while preserving stable sense identities and genuine ordinary-to-independent and thin-to-independent transfer obligations. Removing only the target's nested links still mixes registered senses 1 and 3 through the premises. The two misleading graph registrations and their Comparator configurations were removed; the Lean lemmas remain, with exact deferred identities and restoration conditions recorded in docs/notes/epistemic-authority.md. No checker change, new assumption or substitute bridge annotation was applied. Answerability and universal aim satisfaction remain open bare inputs; no finite frame discriminates attributive correctness from reason-giving force. Root connection needs a statement linking belief-answerable reasons to the case's premise-assessment attitude."
+}

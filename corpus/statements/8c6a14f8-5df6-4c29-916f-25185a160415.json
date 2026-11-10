@@ -1,0 +1,9 @@
+{
+  "id": "8c6a14f8-5df6-4c29-916f-25185a160415",
+  "label": "No ordinary-role epistemic reason keeps force across every supplied preference",
+  "paraphrase": "In the frame, there is no subject, consideration and attitude such that the consideration is an attributed ordinary-role reason with pro tanto force at every supplied preference alternative. Negation of the preference-independent existential; it does not deny ordinary-role reasons or actual-preference force.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.NoPreferenceIndependentReason",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05"
+  ]
+}

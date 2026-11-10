@@ -1,0 +1,11 @@
+{
+  "id": "2930b66a-b5e3-4f3f-b2d3-758d84c0e54d",
+  "label": "Epistemic authority finite controls",
+  "argument_id": "afd33f3b-c2bf-4315-9bac-a6190c07d53c",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicAuthority.controls",
+  "comparator_config": "results/2930b66a-b5e3-4f3f-b2d3-758d84c0e54d/comparator.json",
+  "status": "solution-present",
+  "description": "Explicit Unit-subject finite frames reusing the existing count/reassurance profiles. They witness that thin F6, presentation and the ordinary-role definition are jointly satisfiable with the goal-relative account, an indifference alternative and the absence of any preference-independent reason, that each premise of the answerability argument can fail while the other holds, and (controls 5 and 6) that each premise of the goal-relative exclusion can fail while the other holds, control 6 with the all-preferences aim also witnessing nonvacuity of the constitutive-aim argument. Analyst interpretations, not actual normative facts or possibility claims."
+}

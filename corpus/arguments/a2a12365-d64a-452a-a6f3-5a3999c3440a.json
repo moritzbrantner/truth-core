@@ -1,0 +1,17 @@
+{
+  "id": "a2a12365-d64a-452a-a6f3-5a3999c3440a",
+  "label": "Goal-relative force with indifference excludes preference-independent reasons",
+  "premise_statement_ids": [
+    "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+    "d9f96be1-e2bb-4446-8cb5-b75330323dfc"
+  ],
+  "conclusion_statement_id": "8c6a14f8-5df6-4c29-916f-25185a160415",
+  "inference_ids": [
+    "28f508de-6f81-493f-b318-ce18b0264199"
+  ],
+  "meaning": "Conditional analyst argument, attribution deferred: if force at a preference requires the accuracy aim and some supplied preference lacks it, no reason has force at every supplied preference. Composed with the answerability argument in a separate checked theorem, the actual-force concession, answerability, the goal-relative account and an indifference alternative cannot all hold in one frame. Each premise fails in a finite control while the other holds.",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}
