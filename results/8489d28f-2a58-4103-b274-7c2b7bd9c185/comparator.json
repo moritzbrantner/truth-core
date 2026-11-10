@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ContingentComingToBe.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentComingToBe.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ContingentComingToBe.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

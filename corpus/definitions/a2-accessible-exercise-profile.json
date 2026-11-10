@@ -1,0 +1,9 @@
+{
+  "id": "63beb159-2c53-434b-8241-f1d9ffcaec42",
+  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_6: A2 guarded accessible causal exercise",
+  "term": "A2 guarded accessible causal exercise",
+  "definition": "At standpoint w, x exists and at some accessible v the same x and y both exist and x causes y. Outgoing capability is an existential y; cause-or-effect capability includes incoming edges of this same guarded relation. Incoming candidates exist at the witness, but are not required to exist at the standpoint. This asymmetry is a selected analyst profile, not a source attribution.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SurveyCapabilityProfiles.Exercise",
+  "note": "Analyst semantic alternative; attribution deferred. Productive glass impact/fragility is a motivating example, not a verified real-world model. Realization and process attribution are separate OPEN bridges; trial descriptions need not be metaphysically possible. No transitivity, asymmetry, well-foundedness, universal causation, rigid necessity or physicality follows. Originals 84e479f6-84b9-5aef-9c7d-637976b0b9a7 and 88bd1ef6-cb47-5707-ae9a-23537290aea9 retain their identity and allowances. Source-to-actualGraph coverage and root applicability remain OPEN. The process profile is deterministic and excludes probabilistic or merely intrinsic accounts unless bridged explicitly."
+}

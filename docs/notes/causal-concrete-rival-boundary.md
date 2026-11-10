@@ -1,5 +1,13 @@
 # Productive abstract causal rivals and their deciding interfaces
 
+**Historical audit.** The approval language and authority checks below describe
+recorded metadata and the existing frontier's computed status, not independent
+philosophical warrant. Current research follows the
+[systematic research loop](../systematic-corpus-loop.md): compare reasons,
+applicability and rivals and record reasoned provisional judgments. Personal
+assent supplies no warrant. This qualification preserves the audit and its
+counterfactual results and changes no corpus record or runtime rule.
+
 The old causal-concreteness disagreement roster recorded four full-strength
 accounts as automatic alternatives to a commitment at one selected world. Its
 notes already admitted the missing interfaces, but notes do not constrain the
@@ -89,7 +97,8 @@ Reuse began with `related`/`dossier` for the original commitment and `context`
 for `CAUSAL-POWER-CONCRETENESS-FROM-OPERARI`; all four rival dossiers and the
 existing `ConcreteAbstract`/`CausalPowerConcreteness` definitions were inspected.
 The existing three-premise operari derivation is unchanged. Its assumptions stay
-open; the commitment's existing owner approval remains the basis for its floor.
+open; the commitment's existing owner approval remains the recorded basis for
+its computed floor status.
 No new source claim or stronger attribution is introduced. After re-materializing
 `SEP-ABSTRACT-OBJECTS-2020-CRITERIA` and reading §3.2 with §3.1 context,
 the event-set proposition loses only its unsupported appended anchor-to-all-sets
@@ -107,8 +116,8 @@ coverage and positive elimination are labeled transcriptions. Only the exact
 counterexample contradictions and finite controls are advertised as substantive
 conditional results. A theorem's success is not evidence for its open inputs.
 The actual computed frontier comparison is reported in the PR; replacing rival
-endpoints is not itself a root-premise discharge. Existing authority is not
-revoked and no frontier-engine rule is changed.
+endpoints is not itself a root-premise discharge. Existing approval metadata is
+retained and no frontier-engine rule is changed.
 
 Actual-record authority check: with all approvals unchanged the commitment is
 established; removing **only its own** `self_evident` field in an in-memory copy

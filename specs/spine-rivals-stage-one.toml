@@ -1,0 +1,154 @@
+[batch]
+vocab = "TruthCore.Causality.SpineRivalsStageOne"
+results = "TruthCore.Results.Causality.SpineRivalsStageOne"
+
+[[statement]]
+id = "Every world sees some world and the selected world does not see itself"
+lean = "ActualIrreflexiveSerial"
+paraphrase = "Rival framework commitment, unattributed: accessibility is serial (every world accesses some world) and the selected world does not access itself. Replacement account: the relation is read as what lies ahead or what would be ideal, as in temporal-future or deontic readings, not as alethic possibility, so what is the case need not count as accessible. Stronger than the negation of actual reflexivity by the seriality conjunct."
+definitions = ["735d59a6-61de-5e43-bcf6-4ff64bceb90d", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+
+[[statement]]
+id = "Every world sees itself, yet two possibilities of one world need not see each other"
+lean = "ReflexiveNonEuclidean"
+paraphrase = "Rival framework commitment, unattributed: every world accesses itself, and some world accesses two worlds of which the first does not access the second. Replacement account: metaphysical possibility is relative and not transitive, motivated by arguments from series of small changes in a thing's origin or constitution; the logic of metaphysical modality is then T rather than S5. Stronger than the negation of the Euclidean premise by the reflexivity conjunct."
+definitions = ["f8948e28-b13a-5244-95f1-41a05cd4fff2", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+disambiguations = ["7181df76-d6ed-5226-a34b-08910ddbe6a0"]
+
+[[statement]]
+id = "Existence is presence now, and something was present at another time but is not present now"
+lean = "PresentistGap"
+paraphrase = "Rival framework commitment, unattributed: an individual exists in a history exactly when it is present at that history's designated now, and some individual is present at a time of a history without being present at its now. Replacement account: presentism about existence, on which what was present earlier and is no longer present does not exist. Stronger than the negation of presence-to-existence."
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+
+[[statement]]
+id = "Contingent concrete things exist and no possible history is one in which they begin"
+lean = "EternalContingencyAt"
+paraphrase = "Rival framework commitment, unattributed: some concrete individual is contingent at the selected world, and no history accessible from it satisfies the supplied beginning predicate. Replacement account: contingent concrete reality is beginningless in every possible history, as on eternal-world and steady-state views. Stronger than the negation of the possible beginning by the first conjunct."
+definitions = ["6343c7e8-8c65-5f32-8765-e52c0579fdbb", "97f37f5c-7f82-5077-9bb9-6cfc8673631d", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+
+[[statement]]
+id = "A beginning of contingent reality is possible and no possible beginning has an external cause"
+lean = "BruteBeginningsOnlyAt"
+paraphrase = "Rival framework commitment, unattributed: some accessible history satisfies the supplied beginning predicate with a contingent concrete individual, and no accessible history has such a beginning together with an existing concrete cause of the contingent totality outside all contingent concrete individuals. Replacement account: beginnings of contingent reality are brute; nothing outside it could have produced it. Classically the exact negation of the causal-opportunity premise."
+definitions = ["6343c7e8-8c65-5f32-8765-e52c0579fdbb", "97f37f5c-7f82-5077-9bb9-6cfc8673631d", "beb654a7-e204-5f4c-a7b4-45e886ba7109"]
+
+[[statement]]
+id = "Survival models of the rivals of five stage-one premises of the modal spine"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls, every individual counted concrete. (1) Three worlds under a forward-looking frame in which nothing sees the selected world: the frame is serial and Euclidean, not reflexive at the selected world; presence-to-existence, inert emptiness and the possible contingent-free past hold; nothing exists at the selected world. (2) The same assignment under a reflexive frame in which the selected world sees a second world and the second sees a third: not Euclidean, reflexive at the selected world, the same three premises hold and nothing exists at the selected world. (3) Two mutually accessible worlds where existence is presence at time 1, one individual present only at time 0 and another from time 1 on: presence-to-existence fails, inert emptiness and the possible contingent-free past hold, and no individual exists at both worlds. (4) Two mutually accessible worlds each with its own contingent individual and no beginning anywhere: the causal-opportunity premise holds vacuously and no individual exists at both worlds. (5) The existing brute-only scenario: a beginning is possible, no possible beginning has an external cause, and no individual exists at both worlds. Statements about five finite interpretations only."
+definitions = ["Concrete-empty moment of a history", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one"]
+
+[[argument]]
+id = "Stage-one rival survival controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Survival models of the rivals of five stage-one premises of the modal spine"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two- and three-world interpretations checked by case analysis"
+meaning = "Each of the five rivals is jointly satisfiable with the other premises of the consuming stage-one theorem while that theorem's conclusion fails: groups 1 to 3 against InertEmptiness.necessaryConcrete, groups 4 and 5 against LocalFramePossibleExternalCause.necessaryConcrete. So neither frame premise, nor presence-to-existence, nor the possible beginning, nor the causal opportunity is redundant, and none of the five rivals is excluded by the remaining premises. No rival is refuted or established, and each model concerns one interpretation only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY"
+rival_statement_id = "Every world sees some world and the selected world does not see itself"
+sense_definition_id = "735d59a6-61de-5e43-bcf6-4ff64bceb90d"
+outcome = "model-witnessed"
+conditions = "Euclidean frame, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.aheadHistory."
+scope = "Same Ontic and History carrier; three worlds, natural-number times, selected world Place.actual."
+coverage = "One serial frame not reflexive at the selected world; not every non-alethic reading of accessibility."
+exclusivity = "The rival's first conjunct is the negation of the target at the same world."
+witness = "Control.aheadHistory, group 1 of Control.Certificate; nothing exists at the selected world, so NecessaryConcreteAt fails there."
+next_step = "Floor candidate: for alethic possibility, what is actual is possible. The rival changes the meaning of accessibility rather than denying that."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-EUCLIDEAN-FRAME"
+rival_statement_id = "Every world sees itself, yet two possibilities of one world need not see each other"
+sense_definition_id = "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+outcome = "model-witnessed"
+conditions = "Reflexivity at the selected world, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.stepwiseHistory."
+scope = "Same Frame, Ontic and History carrier; three worlds in a chain, natural-number times."
+coverage = "One reflexive, non-Euclidean, non-transitive chain; not every weaker modal logic."
+exclusivity = "The rival's second conjunct is the negation of the target on the same frame."
+witness = "Control.stepwiseHistory, group 2 of Control.Certificate: the individual necessary at the second world does not exist at the selected world."
+next_step = "Test the rival against commitments its holder accepts about iterated possibility, using the existing K, T, S4, B and S5 correspondence results."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL"
+rival_statement_id = "Existence is presence now, and something was present at another time but is not present now"
+sense_definition_id = "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE"
+outcome = "model-witnessed"
+conditions = "Euclidean and reflexive frame, inert emptiness and the possible contingent-free past all hold in Control.presentist."
+scope = "Same History carrier with its designated now; two mutually accessible worlds, natural-number times."
+coverage = "One presentist interpretation in which an earlier non-contingent-looking occupant has ceased; not every tensed theory of existence."
+exclusivity = "CoherentAtNow with a past-only occupant contradicts presence-to-existence on the same history."
+witness = "Control.presentist, group 3 of Control.Certificate."
+next_step = "Decide which reading of world-relative existence the spine uses; under presentism the conclusion would have to be about present existence and needs a persistence premise."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SCENARIO-POSSIBLY-BEGINS"
+rival_statement_id = "Contingent concrete things exist and no possible history is one in which they begin"
+sense_definition_id = "6343c7e8-8c65-5f32-8765-e52c0579fdbb"
+outcome = "model-witnessed"
+conditions = "Euclidean and reflexive frame and the causal-opportunity premise (vacuously) hold in Control.eternal."
+scope = "Same Scenario carrier and selected world; two mutually accessible worlds."
+coverage = "One beginningless interpretation; the beginning predicate is uninterpreted in the Scenario."
+exclusivity = "The rival's second conjunct is the negation of the target at the same world."
+witness = "Control.eternal, group 4 of Control.Certificate."
+next_step = "The temporally structured arrival replaces this premise; compare the rival with the endless-generation control of the coming-to-be batch."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SCENARIO-CAUSAL-OPPORTUNITY"
+rival_statement_id = "A beginning of contingent reality is possible and no possible beginning has an external cause"
+sense_definition_id = "6343c7e8-8c65-5f32-8765-e52c0579fdbb"
+outcome = "model-witnessed"
+conditions = "Euclidean and reflexive frame hold in the existing PossibleCauseOfContingency.bruteOnly; the possible beginning is part of the rival."
+scope = "Same Scenario carrier and selected world; two mutually accessible worlds."
+coverage = "The existing brute-only interpretation; not every account of uncaused beginnings."
+exclusivity = "Classically the exact negation of the target."
+witness = "PossibleCauseOfContingency.bruteOnly, group 5 of Control.Certificate, reusing bruteOnlyPossibleBeginning, bruteOnlyNoExternalCause and bruteOnlyNoNecessary."
+next_step = "The existing ExternalCandidateNecessity equivalence shows the target already contains the possibility of the conclusion; prefer the temporal arrival."
+
+[[relation]]
+id = "Irreflexive serial access is an alternative to actual reflexivity"
+subject_kind = "statement"
+subject_id = "Every world sees some world and the selected world does not see itself"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-ACTUAL-MODAL-REFLEXIVITY"
+note = "Same Ontic carrier and selected world. Recorded so the premise can be defended; neither is established."
+
+[[relation]]
+id = "Reflexive non-Euclidean access is an alternative to the Euclidean frame"
+subject_kind = "statement"
+subject_id = "Every world sees itself, yet two possibilities of one world need not see each other"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-EUCLIDEAN-FRAME"
+note = "Same Frame carrier. Recorded so the premise can be defended; neither is established."
+
+[[relation]]
+id = "The presentist gap is an alternative to presence-to-existence"
+subject_kind = "statement"
+subject_id = "Existence is presence now, and something was present at another time but is not present now"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL"
+note = "Same History carrier. Recorded so the premise can be defended; neither is established."
+
+[[relation]]
+id = "Eternal contingency is an alternative to the possible beginning"
+subject_kind = "statement"
+subject_id = "Contingent concrete things exist and no possible history is one in which they begin"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SCENARIO-POSSIBLY-BEGINS"
+note = "Same Scenario carrier and selected world. Recorded so the premise can be defended; neither is established."
+
+[[relation]]
+id = "Brute beginnings only is an alternative to the causal opportunity"
+subject_kind = "statement"
+subject_id = "A beginning of contingent reality is possible and no possible beginning has an external cause"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SCENARIO-CAUSAL-OPPORTUNITY"
+note = "Same Scenario carrier and selected world; classically the negation. Recorded so the premise can be defended; neither is established."

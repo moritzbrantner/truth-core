@@ -1,0 +1,9 @@
+{
+ "id": "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+ "label": "Contingent concrete things absent at a moment and present at a later one",
+ "term": "contingent-free moment before a contingent-populated moment",
+ "definition": "ContingentsAbsentThenPresentAt h Concrete v holds when history v has times s strictly earlier than t such that no individual that is Concrete and modally contingent at v (existing ContingentAt: existing at v and absent from some accessible world) is present at s, while some such individual is present at t. PossiblyContingentsAbsentThenPresent h Concrete w says some history accessible from w satisfies this. Nothing is said about whether anything non-contingent is present at s, about a first moment, a cause or a totality.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.InertEmptiness.ContingentsAbsentThenPresentAt",
+ "note": "Analyst framework definition; attribution deferred. It replaces the uninterpreted beginsContingency predicate of PossibleCauseOfContingency.Scenario by explicit temporal structure and is weaker than a first occurrence (TemporalHistory.BeginsAt for every contingent individual). A history in which contingent things are present at every moment does not satisfy it; that is the 'initial state' rival. Whether such a history is metaphysically possible remains OPEN."
+}
