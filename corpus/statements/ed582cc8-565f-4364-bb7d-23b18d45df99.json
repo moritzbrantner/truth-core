@@ -1,0 +1,9 @@
+{
+  "id": "ed582cc8-565f-4364-bb7d-23b18d45df99",
+  "label": "For each world and existing individual some world lacks it while shared origins stay near",
+  "paraphrase": "Candidate framework commitment, unattributed (origin-restricted free deletion, a world-inventory principle not contained in the encoded origin-tolerance account): for every world v and every concrete individual x existing at v, some world u lacks x and every individual existing at both v and u has near origins at v and at u. It does not mention access. A world at which no individual exists satisfies the condition for every v and x.",
+  "lean_declaration": "TruthCore.Causality.OriginDeletion.OriginCompatibleDeletion",
+  "definition_ids": [
+    "c30ead40-f7cd-4848-921b-c10cd26a9c06"
+  ]
+}

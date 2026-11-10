@@ -152,17 +152,27 @@ reachable frame and valuation are fixed; globally quantified spine premises
 are outside that scope. See the [frame attempt](../../corpus/attempts/ca49ceb8-a02e-4f49-8dd8-12704afb1220.json).
 
 For deletion, let `D(v)` mean that each concrete individual existing at `v`
-is absent at some world accessible from `v`. Direct evaluation of the existing
-five-world model gives `D(actual)`: `a` is absent from `bMinus` and `b` from
-`aMinus`. Yet `b` is necessary at `plus`, which cannot access `aMinus`, so
-`D(plus)` fails. These observations are not new certificate conjuncts. The
-stronger premise `∀ v, D(v)` contradicts the existing
-`InertEmptiness.earlierNecessary` consequence of presence-to-existence, inert
-emptiness and the possible contingent-free past. This incompatibility of an
-added premise does not make the original countermodel vacuous or establish
-worldwise deletion from origins. Joint deletion of a roster is a further
-distinct requirement; near-origin plenitude preserves the selected individual.
-See the [origin attempt](../../corpus/attempts/f2b3c229-43cb-4dd5-939e-bce66655fa78.json).
+is absent at some world accessible from `v`. `OriginDeletion.deletionControls`
+(result `70d098fe`) certifies `D(actual)` in the five-world model: `a` is absent
+from `bMinus` and `b` from `aMinus`. Yet `b` is necessary at `plus`, which cannot
+access `aMinus`, so `D(plus)` fails. `OriginDeletion.accessibleDeletionExcluded`
+(result `18aadc0d`) composes `InertEmptiness.earlierNecessary`: A1–A3 at `w`
+exclude deletion at every world accessible from `w`, hence also worldwise
+deletion. Neither actual reflexivity nor Euclidean access is used. This is an
+incompatibility of an added premise; it does not make the original countermodel
+vacuous or establish worldwise deletion from origins.
+
+The four encoded origin commitments admit worldwise deletion in `withEmpty`
+and its failure in `faithful`/`restored`. They do not settle deletion, although
+`OriginPlenitude` and `VariedOriginAt` impose existence conditions.
+`OriginDeletion.emptyWorldArrivalInconsistent` (result `ba68692e`) adds
+`OriginDeterminesAccess` to A1–A3 and excludes a world with no individuals at
+all, including non-concrete individuals. Here `EmptyWorld` concerns existence
+at a world; `ConcreteEmptyAt` concerns concrete presence at one time.
+Joint deletion of a roster remains a further, untested requirement;
+near-origin plenitude preserves the selected individual. See the
+[origin attempt](../../corpus/attempts/f2b3c229-43cb-4dd5-939e-bce66655fa78.json)
+and [deletion attempt](../../corpus/attempts/b28aad0f-f64d-4eda-aaa9-2799472dd773.json).
 
 Provisional assessment (2026-11-10): the formal weakening is strict and the
 encoded origin countermodel survives. Warrant for the access biconditional,
