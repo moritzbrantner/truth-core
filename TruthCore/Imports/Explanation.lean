@@ -6,6 +6,7 @@ public import TruthCore.Explanation.ActualExistenceAdequacy
 public import TruthCore.Explanation.ActualWorldGap
 public import TruthCore.Explanation.AnselmCommonSourceAudit
 public import TruthCore.Explanation.AnselmUltimateSource
+public import TruthCore.Explanation.AutonomousGroundConcrete
 public import TruthCore.Explanation.AutonomousGroundNecessity
 public import TruthCore.Explanation.BCCFDerivative
 public import TruthCore.Explanation.BorrowedExercise
