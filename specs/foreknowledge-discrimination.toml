@@ -1,0 +1,67 @@
+[batch]
+vocab = "TruthCore.Logic.ForeknowledgeDiscrimination"
+results = "TruthCore.Results.Logic.ForeknowledgeDiscrimination"
+
+[[statement]]
+id = "Selected-content truth-class equivalence and factive profile discrimination"
+lean = "Core"
+paraphrase = "Analyst relational diagnostic: for an arbitrary selected Boolean content family, complete positive/negative knowledge at a world is equivalent to its epistemic alternatives agreeing on that family's truth profile. Reflexive complete worlds differing on a selected truth cannot have identical epistemic extensions. Thus equal supplied intrinsic-state or hard-past projections plus extension supervenience contradict such discrimination. Neither projection bridge is asserted of God."
+definitions = ["05a2afda-c654-5f6b-a0f7-796c5dc1be2e"]
+disambiguations = []
+
+[[statement]]
+id = "Foreknowledge finite omitted-premise and one-two-four representative controls"
+lean = "Controls"
+paraphrase = "Finite relational tests: identity alternatives track one Boolean content, universal alternatives fail contingent knowledge, empty alternatives vacuously satisfy completeness without factivity, and constant content permits fixed alternatives. Four-world profiles have exactly one, two and four covering pairwise inequivalent representatives for zero, one and two independent bits. This is a bounded quotient count, not a theory of divine cognition or libertarian agency."
+definitions = ["05a2afda-c654-5f6b-a0f7-796c5dc1be2e"]
+disambiguations = []
+
+[[argument]]
+id = "Foreknowledge selected-family equivalence and discrimination checked"
+theorem = "core"
+premises = []
+conclusion = "Selected-content truth-class equivalence and factive profile discrimination"
+axioms = []
+rule = "Boolean cases and universal specialization"
+meaning = "Unfold the existing relational Knows operator. Each selected content has two Boolean cases. Factivity at the second world and equal epistemic rows place that world among the first world's alternatives; profile agreement contradicts a differing content. Applying the explicitly supplied supervenience premise proves the intrinsic-state and hard-past conditional no-go. No divine application bridge is proved."
+
+[[argument]]
+id = "Foreknowledge finite controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Foreknowledge finite omitted-premise and one-two-four representative controls"
+axioms = []
+rule = "Explicit finite case analysis"
+meaning = "Two-world omission controls and four-world quotient representatives, with both coverage and inequivalence verified. No unbounded finite cardinal theorem or actual cognitive adequacy is claimed."
+
+[[statement]]
+id = "Canonical selected-truth classes give factive complete S5 discrimination"
+lean = "CanonicalCertificate"
+paraphrase = "For any selected Boolean content family, agreement on that family defines a reflexive symmetric transitive epistemic frame complete for that family, whose alternative rows coincide iff the selected profiles coincide. This proves exact discrimination at the profile level, without a divine cognition or all-truth totality claim."
+definitions = ["05a2afda-c654-5f6b-a0f7-796c5dc1be2e"]
+disambiguations = []
+
+[[argument]]
+id = "Canonical selected-profile sharpness checked"
+theorem = "canonicalCertificate"
+premises = []
+conclusion = "Canonical selected-truth classes give factive complete S5 discrimination"
+axioms = []
+rule = "Equality composition and selected-family equivalence"
+meaning = "Compose Boolean equality to prove S5, reuse core to prove completeness, and use reflexivity to recover profile equality from equality of rows. Exact discrimination is at the quotient/profile level; the separate finite controls enumerate 1/2/4 representatives."
+
+[[statement]]
+id = "Counted finite profiles are exactly coordinate-family truth classes"
+lean = "FiniteProfiles"
+paraphrase = "On four Boolean-pair worlds the zero-bit, first-bit and two-bit relations counted in Controls coincide exactly with TruthClass for the corresponding explicitly selected constant or coordinate families."
+definitions = ["05a2afda-c654-5f6b-a0f7-796c5dc1be2e"]
+disambiguations = []
+
+[[argument]]
+id = "Finite coordinate-family truth-class identification checked"
+theorem = "finiteProfiles"
+premises = []
+conclusion = "Counted finite profiles are exactly coordinate-family truth classes"
+axioms = []
+rule = "Finite case analysis and substitution of admitted contents"
+meaning = "Identifies the explicitly counted finite profile relations with the selected-family semantics, so canonicalCertificate applies to these exact families."

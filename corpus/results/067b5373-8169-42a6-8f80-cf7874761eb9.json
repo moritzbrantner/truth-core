@@ -1,0 +1,11 @@
+{
+  "id": "067b5373-8169-42a6-8f80-cf7874761eb9",
+  "label": "Foreknowledge selected-family equivalence and discrimination checked",
+  "argument_id": "60efc615-4590-479e-a44c-e2a09d07286c",
+  "challenge_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution",
+  "theorem": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.core",
+  "comparator_config": "results/067b5373-8169-42a6-8f80-cf7874761eb9/comparator.json",
+  "status": "solution-present",
+  "description": "Unfold the existing relational Knows operator. Each selected content has two Boolean cases. Factivity at the second world and equal epistemic rows place that world among the first world's alternatives; profile agreement contradicts a differing content. Applying the explicitly supplied supervenience premise proves the intrinsic-state and hard-past conditional no-go. No divine application bridge is proved."
+}

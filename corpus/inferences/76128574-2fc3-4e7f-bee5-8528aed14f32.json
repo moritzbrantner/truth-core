@@ -1,0 +1,10 @@
+{
+  "id": "76128574-2fc3-4e7f-bee5-8528aed14f32",
+  "label": "Canonical selected-profile sharpness checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "a8ddb725-15e7-42f6-88fe-4b17558c73c4",
+  "rule": "Equality composition and selected-family equivalence",
+  "meaning": "Compose Boolean equality to prove S5, reuse core to prove completeness, and use reflexivity to recover profile equality from equality of rows. Exact discrimination is at the quotient/profile level; the separate finite controls enumerate 1/2/4 representatives.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
