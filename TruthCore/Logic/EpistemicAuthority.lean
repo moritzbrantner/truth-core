@@ -26,6 +26,9 @@ three explicit, independently failing inputs:
 
 `ConstitutiveAim aims` says every supplied preference alternative includes the
 aim, as the constitutive-aim reply to indifference cases holds for believers.
+In Lean `ConstitutiveAim` (`∀ d, aims d`) is indistinguishable from universal
+aim satisfaction; it secures the target by excluding indifferent profiles from
+the comparison class, not by giving an indifferent subject a reason.
 These are framework inputs; no theorem here establishes any of them. -/
 
 @[expose] public section
