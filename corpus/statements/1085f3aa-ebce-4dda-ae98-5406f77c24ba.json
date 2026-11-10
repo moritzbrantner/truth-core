@@ -1,0 +1,13 @@
+{
+  "id": "1085f3aa-ebce-4dda-ae98-5406f77c24ba",
+  "label": "Rival: being GOOD_1 in a perfection requires having it, but some had perfection is not GOOD_1",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by the fact/value gap (Hume's is/ought, Moore's open question) and by the objection that some actualities are bad: whatever is good in a perfection actually has it, and something actually has a perfection in which it is not good. The replacement account is that goodness is a further feature that only some actualities have. Strictly stronger than the negation of STMT-GOODNESS-IS-ACTUALITY: it keeps the direction from goodness to actuality and denies only the converse. It is not nihilism about value.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.ActualityNotSufficientForGoodnessReading",
+  "definition_ids": [
+    "4c8f0e6b-7ef6-5be5-851c-cdf4f0301546",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168"
+  ],
+  "disambiguation_ids": [
+    "9880c06b-e689-5294-b349-badb981abbf6"
+  ]
+}

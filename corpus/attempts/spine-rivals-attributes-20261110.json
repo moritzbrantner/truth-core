@@ -1,0 +1,28 @@
+{
+  "id": "af5ad8ee-3443-46c0-8f57-11082078ef4d",
+  "label": "Stage-two attribute premises of the modal spine: one rival and one finite test for each",
+  "statement_ids": [
+    "7067553d-cad9-5d79-b6b2-912e35051530",
+    "64498e7e-7f10-54a0-9ec0-c65e6076de1f",
+    "00e962ae-f109-55f7-a7fd-f107ce0dea6b",
+    "ca07cae9-6102-564e-a7fd-efb013744b3d",
+    "d7741cdc-881b-5bda-85ce-d70223162f78",
+    "09c6d5f0-d412-5038-85f9-75fffb935727",
+    "180f5ad2-a421-541a-85c9-9bca578b4a43",
+    "090be689-b77f-51a1-9d5d-caf339169e4b",
+    "a4d3261a-3239-5b44-9953-64ab1b0ed762",
+    "c6d6379b-6a9b-55b5-a701-3df289dfcca4",
+    "75a37a91-732d-510c-9abc-b37c988c5c63",
+    "0659227c-0979-579c-910b-03a1967f49c5",
+    "1ec205ed-b2a6-5384-bb5f-2565a9d325bf",
+    "818a73cc-249d-5f9b-9c34-aee1f2cbf333"
+  ],
+  "date": "2026-11-10",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Target: the fourteen stage-two premises of the modal spine to STMT-GOD-EXISTS (act and potency, composition, perfection, goodness, infinity, eternity, intellect, will, the name 'God', sufficiency of the classical attributes). For each, one rival is recorded by alternative_to and tested once. Ten rivals are new statements in TruthCore.Causality.SpineRivalsAttributes, each on the premise's own predicates: strong emergence (against preexistence of perfections in the cause), actuality without goodness, an uncaused composite, esse-essence difference without composition, a first being that is a component, intellect only in material composites, intellect without will, a finite subsistent being, an immutable being that is not eternal, and the nine attributes falling short. Six of these are strictly stronger than the premise's negation and say what is kept; four (intellect without will, finite subsistent being, immutable without eternity, attributes falling short) are the exact negation, because the premise's carrier has no predicate in which the replacement account could be stated. Four rivals already existed and are reused unchanged: STMT-ACTUALITY-WITHOUT-BEING, STMT-POTENCY-PRIOR-TO-ACT, STMT-ACT-AND-POTENCY-IN-SAME-RESPECT, STMT-FULL-NOMINAL-NAMING-FAILS. Existing evidence for those four: MODEL-ACT-POTENCY-M2 and the conditional exclusion REL-PERFECTION-REFUTES-ACTUALITY-WITHOUT-BEING for the first; MODEL-NIGHT-COSMOGONY-RESIDUAL for the second; the conditional exclusion REL-NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS-REFUTES for the third; for the fourth only derivations of the rival (PRACTICE-NO-REFERENCE-REJECTS-FULL-NAMING) and no model. Test, one theorem (controls, zero axioms): fourteen one- or two-element interpretations; in each the rival holds, every other non-logical premise of the premise's smallest verified non-transcription consuming theorem holds, and that theorem's conclusion fails. Consumers: existingInActAtFromSomeAct, causeOfBeingHasWhatItGives, godIsSupremelyGood, godIsSimple, firstMoverSimple, attributesFromFirst, godHasIntellect, godHasWill, firstBeingNoPotency (twice), firstMoverPerfectionFromInfinity, godIsEternal, properDescriptionExcluded, ClassicalAttributes.godHasClassicalAttributes. All fourteen outcomes are model-witnessed; no new conditional exclusion was sought, and none is recorded. Limits: each model tests the rival only against the premises of the one named theorem, not against the whole route; in the goodness and esse-essence models the retained half of the rival holds vacuously (nothing is good; nothing is a matter-form composite); excluded middle, a premise of two consumers, is general logic and is not checked in a model; the classical-attributes model shows only that the primitive HasClassicalAttributes field is fixed by nothing but the target premise. The models were built by hand, not with scripts/countermodel.py: an omission model witnesses only the bare negation, and the positive conjuncts had to hold in the same interpretation. Rejected formulations: (a) for eternity, a rival stated with ETERNAL_2 (unending temporal presence, EndlessTemporalDuration.FutureUnending): it lives on a carrier with times and is not typed on the premise's carrier, so it could not be shown incompatible with the premise there; (b) for esse and essence, Suarez's distinction of reason, which denies the difference of esse and essence and is therefore not a rival of this premise but of its antecedent's instances; (c) for the uniting cause, the bare negation, which also admits a composite that is the only cause of its own being: self-causation is not what the brute-composition view holds, so the recorded rival denies the composite every cause of its being; (d) for intellect, the bare negation (some altogether immaterial thing lacks intellect) without the physicalist replacement account: kept as a consequence, not as the recorded rival; (e) for the naming leaf, replacing the existing exact-negation endpoint by the raw practice-use thesis: rejected because the existing relation deliberately keeps the exact negation as endpoint and the raw thesis as its motivation. No premise is derived, defended, refuted or closed, and no open premise is added to any route.",
+  "blocker": "None for the tests. Open after this attempt: every one of the fourteen premises; no rival is refuted. Four rivals have no formal replacement account for want of vocabulary on the premise's carrier (a necessity-of-nature relation, a limitation principle, temporal duration, and a definition or sourced list for the primitive classical-attributes field). No model tests a rival against the premises of the whole stage-two route at once.",
+  "evidence": [
+    "120dd28f-c1e6-4fa2-8acf-26d0c1d5162a"
+  ]
+}

@@ -23,6 +23,7 @@ public import TruthCore.Alternatives.OpiningMotionRivalCoverage
 public import TruthCore.Alternatives.PhysicalCompleteness
 public import TruthCore.Alternatives.PhysicalGround
 public import TruthCore.Alternatives.PhysicalSpecification
+public import TruthCore.Alternatives.PhysicalSpecificationIndependence
 public import TruthCore.Alternatives.PhysicalSpecificationPaths
 public import TruthCore.Alternatives.PotencyAnalysisPartition
 public import TruthCore.Alternatives.ReligiousExperienceRecognition

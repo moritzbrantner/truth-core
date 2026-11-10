@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Logic.MoralAttitudeProfiles.ancestralDirect",
   "comparator_config": "results/550ebd5b-924f-4c23-8c2a-e2b4e0da8bc5/comparator.json",
   "status": "solution-present",
-  "description": "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated."
+  "description": "Every immediate edge is a nonempty ancestry path. Constitutive-support interpretation remains stipulated. Its Comparator config additionally checks the frozen joint helper calibrationTruth of the same Challenge module (a case-split lemma over MIND_INDEPENDENT_3 or _4, not a registered corpus argument)."
 }
