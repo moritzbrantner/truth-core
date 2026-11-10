@@ -154,3 +154,17 @@ output overlay. Scoped `corpus.py bind-check --result 19183927-9590-41d8-a4ad-04
 modules reports **3 bound, 0 mismatch**. The main merge's only conflicts were
 generated Logic import aggregators; regeneration preserves both clusters.
 Final delivered-head certification remains CI.
+
+## Literal Comparator boundary repair
+
+The first wrapper repair was definitionally equivalent but Comparator requires
+literal theorem-statement matching. Original FormSelection/Challenge and its
+original raw-formula Solution are therefore preserved. The registered results
+now use a separate Certificate/Challenge and Certificate/Solution pair, both
+with exact Selection/Controls/ReferenceControls types. The new Challenge imports
+only the vocabulary, never a proof module. Certificate proofs use the same
+constructor/equality arguments; no new philosophical result is claimed.
+All three certificate modules compile, and focused binding of the registered
+results again reports **3 bound, 0 mismatch**. Generator and corpus validation
+pass. Final-head Comparator and NanoDa remain CI obligations; the earlier
+failed mismatch is not treated as successful certification.

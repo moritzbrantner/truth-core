@@ -1,6 +1,6 @@
 [batch]
 vocab = "TruthCore.Logic.FormSelection"
-results = "TruthCore.Results.Logic.FormSelection"
+results = "TruthCore.Results.Logic.FormSelection.Certificate"
 
 [[statement]]
 id = "Intrinsic codebooks cannot accurately select differing targets from equal states"
