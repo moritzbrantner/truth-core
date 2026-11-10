@@ -1,5 +1,13 @@
 # Owner-proposed causal-power and activity concreteness commitment
 
+**Historical status.** This note preserves the original intake and the later
+2026-11-06 approval recorded below. That approval remains legacy metadata used
+by the existing frontier computation; it supplies no independent philosophical
+warrant. Current research follows the
+[systematic research loop](../systematic-corpus-loop.md), assessing reasons,
+applicability and rivals through reasoned provisional judgments. This
+qualification changes no approval record or computed closure.
+
 The owner's working proposition is: “only concrete things have power and can do
 things, abstract things cannot do or cause things.” This note registers its
 causal sense as an OPEN framework input, not a source attribution, self-evidence
@@ -197,7 +205,8 @@ existing root-route premises are unchanged.
   - productive Platonic Forms;
   - Lewis's events as sets;
   - a causal reading of Baker's cicadas.
-  This approval supersedes the "OPEN" status described above.
+  In the existing computed floor status, this approval supersedes the intake's
+  "OPEN" label. It does not supply independent warrant or settle applicability.
 - **Derivation.** `CAUSAL-POWER-CONCRETENESS-FROM-OPERARI` derives the item
   from operari sequitur esse (ST I q.75 a.2 co.; q.25 a.1 co.) and
   `STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING` (q.4 a.1 ad 3).
@@ -207,4 +216,5 @@ existing root-route premises are unchanged.
     reading with the act-to-being reading.
   - All three premises are open. The act-to-being reading is a stated premise
     on the cheapest root route. The derivation therefore does not establish
-    the item; the owner approval does.
+    the item from established premises. Its recorded owner approval supplies the
+    current computed floor status, not independent philosophical warrant.

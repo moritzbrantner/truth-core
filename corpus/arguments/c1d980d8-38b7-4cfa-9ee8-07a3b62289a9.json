@@ -1,0 +1,14 @@
+{
+  "id": "c1d980d8-38b7-4cfa-9ee8-07a3b62289a9",
+  "label": "Protective process safety and omission controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "70590c91-e2ad-474e-96ce-b714e72c7d21",
+  "inference_ids": [
+    "46d6dd13-679c-4e79-8c9a-e2b675a7eed6"
+  ],
+  "meaning": "Checked formal model controls only. The flame baseline has an actual two-edge terminal destruction of bearer true; guarded history shares its initial state and interrupts the first flame edge. Bypass and later replacement remain possible admitted histories, so blocking one process is not unqualified protection. Independent CausesIn may remain empty despite realized protection. No statement about original direct conservation, real fire, or all possible histories.",
+  "definition_ids": [
+    "5539aad1-baf0-4f47-95b2-12a97836f418",
+    "a2ba53c6-6eca-4572-acf1-8bd78a0967a5"
+  ]
+}

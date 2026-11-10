@@ -1,0 +1,9 @@
+{
+  "id": "f285b83f-87a6-4f89-8174-7e310fc9a3ed",
+  "label": "Joint model for the stated local theory",
+  "paraphrase": "There is a valuation/world of this same frame satisfying every formula of the stated local theory. This is semantic nonvacuity, not real-world truth.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.JointModel",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

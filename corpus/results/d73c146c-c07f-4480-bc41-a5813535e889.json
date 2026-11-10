@@ -1,0 +1,11 @@
+{
+  "id": "d73c146c-c07f-4480-bc41-a5813535e889",
+  "label": "Subject focal role diversity, checked",
+  "argument_id": "d5557260-5b59-403c-8723-dd736346a541",
+  "challenge_module": "TruthCore.Results.Causality.SubjectFocalRoles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SubjectFocalRoles.Solution",
+  "theorem": "TruthCore.Results.Causality.SubjectFocalRoles.roleDiversity",
+  "comparator_config": "results/d73c146c-c07f-4480-bc41-a5813535e889/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst conditional semantic consequence: the explicit endpoint constraints imply disjointness and two populated different role accounts. This body is more than role labels but does not encode every philosophical ratio or the original BEING_4 applications. No premise truth or root closure."
+}

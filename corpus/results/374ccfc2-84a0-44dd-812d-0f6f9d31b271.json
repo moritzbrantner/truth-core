@@ -1,0 +1,25 @@
+{
+  "id": "374ccfc2-84a0-44dd-812d-0f6f9d31b271",
+  "label": "Self-motion separation finite certificates",
+  "argument_id": "6ed168c1-736a-4b60-a590-e863afa21f37",
+  "challenge_module": "TruthCore.Results.Causality.SelfMotionSeparation.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SelfMotionSeparation.Solution",
+  "theorem": "TruthCore.Results.Causality.SelfMotionSeparation.controls",
+  "comparator_config": "results/374ccfc2-84a0-44dd-812d-0f6f9d31b271/comparator.json",
+  "status": "solution-present",
+  "description": "One fixed whole, motor and limb at Unit context: internal-only motion has no part-to-whole or diagonal edge; adding part-to-whole still yields no diagonal; diagonal-only satisfies transfer but refutes the target; joined internal/diagonal satisfies reconstruction but refutes the target; Full jointly witnesses both bridges with nonempty diagonal. Missing whole motion or integration prevents the reconstruction. Finite formal interpretations only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "99470e3f-81ac-5cf2-8a0e-69429f98fd0c",
+      "rival_statement_id": "0181cf7b-9934-4d4b-b7e1-7583e3c3a7cd",
+      "sense_definition_id": "2fccff11-d956-4ec2-9705-922413f76a5c",
+      "outcome": "model-witnessed",
+      "conditions": "Control.Certificate: the Joined interpretation satisfies reconstruction bridge but not the original distinct-part target",
+      "scope": "Control.Obj whole/motor/limb; one Unit context, shared Part, Moved, Integrated",
+      "coverage": "Five selected finite relations, not all philosophical senses or models",
+      "exclusivity": "Edges tested independently; no global exclusivity asserted",
+      "witness": "Control.Joined with populated whole/motor/limb; controls proves reconstruction bridge and target failure; Full proves nonvacuity of both bridges",
+      "next_step": "Investigate an independent warrant for internal-to-whole transfer; no inference from countermodel to actual metaphysical denial"
+    }
+  ]
+}

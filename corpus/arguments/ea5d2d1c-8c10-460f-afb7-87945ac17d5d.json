@@ -1,0 +1,16 @@
+{
+  "id": "ea5d2d1c-8c10-460f-afb7-87945ac17d5d",
+  "label": "Full effect first cause checked comparisons",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "9af076a8-f615-433c-a529-8a1aead5fb93",
+  "inference_ids": [
+    "214ad60c-31e8-4f1b-8614-afc814667dec"
+  ],
+  "meaning": "Positive model has one fixed effect M and a distinct other caused effect; the source/outgoing and cause-priority separators share its graph, carrier and identity inclusion. No atomistic-input derivation of full existence is asserted; these certificates establish only the displayed relational interpretations. A separate positive interpretation uses a proper inclusion to check its orientation.",
+  "definition_ids": [
+    "0341c901-cd7a-472f-a810-9ca480470928",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b",
+    "1e2e8561-04fe-53c6-a998-eb0b98b66292"
+  ]
+}

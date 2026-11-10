@@ -21,7 +21,7 @@
       "id": "183bff99-a67d-46f9-ae43-a68cba27119c",
       "label": "HAVING_WILL_OR_APPETITE_VERSUS_EXERCISING_2",
       "definition_id": "44a0654e-6b36-52d6-91c2-0a5c6a13dc5c",
-      "lean_declaration": "TruthCore.Causality.AppetitePowerExercise.Capacity"
+      "lean_declaration": "TruthCore.Causality.AppetitePowerExercise.Capacity.Possessed"
     },
     {
       "id": "9931b112-52ba-466c-945a-c5cd7f73a8f3",

@@ -1,0 +1,11 @@
+{
+  "id": "e1d881e0-ca93-44ba-9e38-442a8d147336",
+  "label": "Joint satisfiability excludes falsum consequence",
+  "argument_id": "cea31899-6368-48ca-8e6c-5e12a969a1d8",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.jointModelNotFalsum",
+  "comparator_config": "results/e1d881e0-ca93-44ba-9e38-442a8d147336/comparator.json",
+  "status": "solution-present",
+  "description": "Evaluate a purported falsum consequence at the joint theory witness."
+}

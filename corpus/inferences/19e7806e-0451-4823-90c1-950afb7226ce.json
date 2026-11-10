@@ -1,0 +1,14 @@
+{
+  "id": "19e7806e-0451-4823-90c1-950afb7226ce",
+  "label": "Actual grounding finite rank from bounded uniform real potential (inference)",
+  "input_statement_ids": [
+    "5adb2dc9-54bc-4727-8821-b4dbb94d5220",
+    "516c4fee-086b-4fb9-8f8d-13175959bfbd",
+    "838f7cca-32ac-4aea-a3b5-bfc077ef50ba"
+  ],
+  "output_statement_id": "47e323f2-3405-5caf-a192-201eb1e02f76",
+  "rule": "Construct natural floor of normalized potential and prove strict rank descent",
+  "meaning": "New non-transcription conditional support option: floor((S x-L)/epsilon) supplies the existing Nat rank. Lower bound makes normalized potential nonnegative on actual nodes; the fixed positive gap gives normalized increase at least one along each y-to-x edge; floor therefore strictly increases toward effects. All three numeric inputs are OPEN; no real-world grounding correlation, premise truth, original declaration clearance or root discharge. One sufficient quantitative profile, no converse or universal metaphysical adequacy asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

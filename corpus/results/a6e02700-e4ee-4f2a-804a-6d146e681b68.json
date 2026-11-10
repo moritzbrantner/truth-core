@@ -1,0 +1,11 @@
+{
+  "id": "a6e02700-e4ee-4f2a-804a-6d146e681b68",
+  "label": "Bounded protective process safety by history induction",
+  "argument_id": "5ce22bf4-b10d-453d-a4c9-5c6094c89849",
+  "challenge_module": "TruthCore.Results.Causality.ProtectiveProcess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProtectiveProcess.Solution",
+  "theorem": "TruthCore.Results.Causality.ProtectiveProcess.safety",
+  "comparator_config": "results/a6e02700-e4ee-4f2a-804a-6d146e681b68/comparator.json",
+  "status": "solution-present",
+  "description": "Non-transcription bounded conditional support: induction transports the same initial bearer; a loss would be a represented terminal process, no-bypass blocks that process, and admissibility forbids its occurrence. The three conditions and initial existence remain hypotheses inside Safety. Neither a sourced preservation meaning, actual process intervention nor any productive esse cause is established. No original declaration completion or root discharge."
+}

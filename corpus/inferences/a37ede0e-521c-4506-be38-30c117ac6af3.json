@@ -1,0 +1,10 @@
+{
+  "id": "a37ede0e-521c-4506-be38-30c117ac6af3",
+  "label": "Stage-one rival survival controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f7f7ee76-2f29-4782-b682-2b39f0fedd4c",
+  "rule": "Explicit two- and three-world interpretations checked by case analysis",
+  "meaning": "Each of the five rivals is jointly satisfiable with the other premises of the consuming stage-one theorem while that theorem's conclusion fails: groups 1 to 3 against InertEmptiness.necessaryConcrete, groups 4 and 5 against LocalFramePossibleExternalCause.necessaryConcrete. So neither frame premise, nor presence-to-existence, nor the possible beginning, nor the causal opportunity is redundant, and none of the five rivals is excluded by the remaining premises. No rival is refuted or established, and each model concerns one interpretation only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

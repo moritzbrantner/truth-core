@@ -1,0 +1,15 @@
+{
+  "id": "cea31899-6368-48ca-8e6c-5e12a969a1d8",
+  "label": "Joint satisfiability excludes falsum consequence",
+  "premise_statement_ids": [
+    "f285b83f-87a6-4f89-8174-7e310fc9a3ed"
+  ],
+  "conclusion_statement_id": "069bb696-55b6-4007-b468-9761b43abe02",
+  "inference_ids": [
+    "6207c79f-3036-49a6-a453-370c3373bd1f"
+  ],
+  "meaning": "Evaluate a purported falsum consequence at the joint theory witness.",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

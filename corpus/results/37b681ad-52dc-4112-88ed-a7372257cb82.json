@@ -1,0 +1,11 @@
+{
+  "id": "37b681ad-52dc-4112-88ed-a7372257cb82",
+  "label": "Necessary concrete witness from productive accessible source",
+  "argument_id": "c00e34c1-4d8f-4bbc-a73d-23fb58ea849a",
+  "challenge_module": "TruthCore.Results.Causality.SurveyProductiveSource.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveyProductiveSource.Solution",
+  "theorem": "TruthCore.Results.Causality.SurveyProductiveSource.necessaryConcrete",
+  "comparator_config": "results/37b681ad-52dc-4112-88ed-a7372257cb82/comparator.json",
+  "status": "solution-present",
+  "description": "Reuse sameSource without changing its five inputs, world, Ontic or candidate. Productivity supplies an actual outgoing edge for that same source at v; the existing direct-exercise concreteness dictionary at v classifies it. The same candidate already exists actually and necessarily at w. Seven open inputs, no establishment or original capability completion; no own-nature necessity bridge."
+}

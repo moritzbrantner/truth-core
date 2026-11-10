@@ -22,6 +22,8 @@ concurrency:
 
 jobs:
   truth-cli:
+    needs: comparator-plan
+    if: needs.comparator-plan.outputs.truth_cli == 'true'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
@@ -235,6 +237,7 @@ jobs:
       explorer_tests: ${{ steps.select.outputs.explorer_tests }}
       report: ${{ steps.select.outputs.report }}
       comparator_library: ${{ steps.select.outputs.comparator_library }}
+      truth_cli: ${{ steps.select.outputs.truth_cli }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:

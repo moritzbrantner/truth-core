@@ -1,0 +1,34 @@
+target = "30a8373c-5188-581b-b746-e319d71311e4"
+
+[[node]]
+id = "30a8373c-5188-581b-b746-e319d71311e4"
+[[node]]
+id = "82286a91-a610-52d2-9f28-2cc459a75ac7"
+[[node]]
+id = "Subject focal role diversity"
+text = "Populated primary substance and dependent accident accounts have checkably different extensions. Analyst candidate only; full BEING_4 interpretation remains open."
+[[node]]
+id = "Subject focal role controls"
+text = "Same-carrier positive and negative causal, degree and common-center controls with actual subjects."
+[[node]]
+id = "Every selected creature is secondary in the subject account"
+text = "OPEN applicability of the selected creature predicate to the secondary account."
+[[node]]
+id = "A common substance instance supports every secondary"
+text = "OPEN common center in the SAME dictionary, not merely the same type of subject."
+[[node]]
+id = "Subject dependence supplies productive cause of being"
+text = "OPEN semantic translation to the exact CausesIn interface; not part of focality."
+
+[[edge]]
+premises = ["Every selected creature is secondary in the subject account", "A common substance instance supports every secondary", "Subject dependence supplies productive cause of being"]
+conclusion = "30a8373c-5188-581b-b746-e319d71311e4"
+kind = "bridge"
+status = "certified"
+note = "Immediate composition (transcription) reaches the root-route interface conditionally; no premise establishment. Full BEING_4 mapping, reality applicability, common divine primary and source meaning remain OPEN."
+[[edge]]
+premises = ["Subject focal role controls"]
+conclusion = "82286a91-a610-52d2-9f28-2cc459a75ac7"
+kind = "rival"
+status = "mapped"
+note = "Candidate alone leaves degree comparability/calibration free. The certificate varies only explicitly named degree/comparative parameters; original source meaning unresolved."

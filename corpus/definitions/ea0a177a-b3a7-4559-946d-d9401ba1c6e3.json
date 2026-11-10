@@ -1,0 +1,9 @@
+{
+  "id": "ea0a177a-b3a7-4559-946d-d9401ba1c6e3",
+  "label": "NECESSARY_13: full validity on one selected modal frame",
+  "term": "necessary",
+  "definition": "SelectedFrameValidity F phi is Valid F phi: for every valuation V and every world w of the supplied frame, Holds F V w phi. The same propositional modal language Modal.Formula has atoms, falsity, material implication, box and diamond; Formula.neg is implication to falsity. This admits all valuations, not only the route existence valuation.",
+  "basis": "stipulative",
+  "note": "Analyst formulation, attribution deferred. Axiom T is an example on the reflexive Unit frame; an unconstrained atom is a counterexample on every inhabited frame. Empty carriers make validity vacuous. This is a bounded analyst candidate for the omitted logical reading, not generic contradictory-denial necessity or all-frame validity. Reuses Modal.Kripke Holds/Valid and NecessarySenseFork; no causal, temporal or essence interpretation is encoded. Distinct declarations give explicit meanings rather than opaque flags. Coverage and exclusivity of intended readings remain OPEN; no original allowance removed.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.SelectedFrameValidity"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "48366fb2-75e7-4afe-ac72-e050a7340553",
+  "label": "Theory admitted on the selected accessible cone",
+  "paraphrase": "OPEN admission bridge: every formula selected by the stated theory holds at the selected point and all its accessible successors, equivalently every theory formula is true and Kripke-boxed there. Combined with NECESSARY_15 consequence for the same theory, frame and formula, this licenses selected-interpretation NECESSARY_8 box truth. No frame law or equality of the two senses is assumed.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.TheoryOnCone",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3"
+  ]
+}

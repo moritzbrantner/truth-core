@@ -1,0 +1,11 @@
+{
+  "id": "8489d28f-2a58-4103-b274-7c2b7bd9c185",
+  "label": "Founded coming-to-be controls checked",
+  "argument_id": "8f026ee9-1f1c-451d-a345-cc6c5a11d8d2",
+  "challenge_module": "TruthCore.Results.Causality.ContingentComingToBe.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContingentComingToBe.Solution",
+  "theorem": "TruthCore.Results.Causality.ContingentComingToBe.controls",
+  "comparator_config": "results/8489d28f-2a58-4103-b274-7c2b7bd9c185/comparator.json",
+  "status": "solution-present",
+  "description": "The initial-state rival survives, without a necessary individual and with inert emptiness intact, in exactly the two ways the derivation leaves open: an endless past in which every contingent thing comes to be, and a founded past whose contingent thing never came to be. Each control omits one conjunct of founded coming-to-be. The rooted control shows the premise is satisfiable. Model claims concern these interpretations only."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "d912723b-b4c7-4c05-9cda-2105e7b80659",
+  "label": "K validity of the selected formula",
+  "paraphrase": "NECESSARY_14: the selected modal formula holds on all frames over small world types, all valuations and all worlds.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.AllFrameKValidity",
+  "definition_ids": [
+    "560fae51-532f-46d8-81e8-6f4386e10a34"
+  ]
+}

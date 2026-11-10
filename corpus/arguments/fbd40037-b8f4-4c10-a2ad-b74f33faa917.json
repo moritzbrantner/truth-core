@@ -1,0 +1,25 @@
+{
+  "id": "fbd40037-b8f4-4c10-a2ad-b74f33faa917",
+  "label": "Causal order from explicit subject-role bridges",
+  "premise_statement_ids": [
+    "78c24896-0ecc-4309-a9d9-e271cf36e082",
+    "2fa04c4f-6390-4ae1-afba-0800d3b0765c",
+    "9bbbe1ef-d07b-4baa-87e1-05cb3ff488aa"
+  ],
+  "conclusion_statement_id": "30a8373c-5188-581b-b746-e319d71311e4",
+  "inference_ids": [
+    "8ddd5033-7832-48c5-a822-1d7217a5ad55"
+  ],
+  "meaning": "Transcription: applies the openly supplied subject-to-CausesIn bridge to the common-center edge obtained from creature applicability. The candidate role semantics alone supplies none of these bridges. This is a conditional instance of the existing root interface, not a new independent efficient-causal derivation, premise establishment or full BEING_4 completion.",
+  "definition_ids": [
+    "036a22b2-c6da-4278-867c-6fd9c91eb047",
+    "283c7d89-9f77-41b3-9370-866108af90f7",
+    "954583f0-97f4-5f94-8fce-9e52ea267929",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "afcdd2c5-1167-5a73-97d7-cb99a6ad5817"
+  ],
+  "disambiguation_ids": [
+    "d16b94fa-886f-54f3-85a3-7fc0c43d2b58",
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

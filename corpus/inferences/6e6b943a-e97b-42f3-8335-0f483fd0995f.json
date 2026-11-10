@@ -1,0 +1,12 @@
+{
+  "id": "6e6b943a-e97b-42f3-8335-0f483fd0995f",
+  "label": "Selected-frame validity weakens to theory consequence (inference)",
+  "input_statement_ids": [
+    "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b"
+  ],
+  "output_statement_id": "e068a626-f547-4d1d-9bef-737e707086ac",
+  "rule": "Universal specialization, explicit semantic consequence and finite models",
+  "meaning": "Full validity holds also under any local theory antecedent on the same frame. Exact strong-only-premise result.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

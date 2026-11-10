@@ -148,7 +148,7 @@ argument with its own statements, not a revision of the old claim.
 ### How rounds fit argument-first work
 
 Reformalization rounds answer the **decisive fork** of an end-to-end case
-([argument-first method](systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand),
+([argument-first method](systematic-corpus-loop.md#bounded-investigations-and-integration),
 #565). They do not split every sentence. [AFP-Lowe] works the same way: the
 whole argument is formalized first, and each round changes only the hypothesis
 that the current countermodel to the *main* conclusion points at. A round here:
