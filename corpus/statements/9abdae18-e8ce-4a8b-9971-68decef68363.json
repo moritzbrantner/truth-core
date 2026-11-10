@@ -1,0 +1,6 @@
+{
+  "id": "9abdae18-e8ce-4a8b-9971-68decef68363",
+  "label": "Quantitative transfer resourceBudget",
+  "paraphrase": "For finite consumer and resource sets, nonnegative resource budgets and an allocation whose sum over consumers is at most one for each resource, the sum of weighted consumer outputs is at most the sum of resource budgets. This conservation bound does not assert strict loss.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.ResourceBudget"
+}

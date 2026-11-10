@@ -1,0 +1,31 @@
+[batch]
+vocab = "TruthCore.Causality.ContractiveBorrowedPower"
+results = "TruthCore.Results.Causality.ContractiveBorrowedPower"
+
+[[statement]]
+id = "Bounded contractive pure transfer has zero source-free exercise"
+lean = "ZeroExercise"
+paraphrase = "For every topological carrier V, bounded continuous real assignment P and operator T with a common contraction constant q < 1, if T zero is zero and P is a nonnegative fixed point, P is zero. On discrete carriers continuity imposes no extra restriction. Quantitative analyst reconstruction at one fixed exercise context; applicability to productive power remains OPEN; no causal well-foundedness, intrinsic bearer or necessary being follows."
+
+[[statement]]
+id = "Contractive borrowed-power quantitative omission controls"
+lean = "Controls"
+paraphrase = "Scalar checks: two half-weight incoming contributions sustain unit output; the bounded positive sequence (n+1)/(n+2) satisfies transfer with strict factors 1-1/(n+2)^2; powers 2^n satisfy half-transfer and exceed every real bound; affine half-transfer plus half input sustains one but does not preserve zero. A zero scalar operator with constant zero witnesses joint satisfiability of contraction, purity and fixed point. These are mathematical controls, not real-world possibilities."
+
+[[argument]]
+id = "Zero exercise from Mathlib contraction uniqueness"
+theorem = "zeroExercise"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Bounded contractive pure transfer has zero source-free exercise"
+rule = "Uniqueness of fixed points of a contracting map"
+meaning = "Apply Mathlib ContractingWith.fixedPoint_unique' to P and zero in the sup-norm space of bounded continuous assignments. Purity supplies the second fixed point. No completeness, well-foundedness or inductive Supply. The conclusion is universally conditional and establishes no physical premise."
+
+[[argument]]
+id = "Quantitative borrowed-power controls by ordered field calculation"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Contractive borrowed-power quantitative omission controls"
+rule = "Ordered real arithmetic and Archimedean powers"
+meaning = "Verify each displayed transfer identity, positivity and bound; powers of two exceed every real bound. A constant zero map is a contraction fixing zero. Omission witnesses isolate quantitative assumptions; no metaphysical applicability follows."

@@ -1,0 +1,29 @@
+target = "97f5850f-62bc-5e43-a0c1-dd1033d08fc9"
+[[node]]
+id = "97f5850f-62bc-5e43-a0c1-dd1033d08fc9"
+[[node]]
+id = "Bounded contractive pure transfer has zero source-free exercise"
+new = true
+text = "Bounded nonnegative pure-transfer fixed points vanish under uniform contraction."
+[[node]]
+id = "Contractive borrowed-power quantitative omission controls"
+new = true
+text = "Branching, strict nonuniform loss, unbounded chain and hidden input controls."
+[[edge]]
+premises = []
+conclusion = "Bounded contractive pure transfer has zero source-free exercise"
+kind = "derivation"
+status = "mapped"
+note = "Mathlib fixed-point uniqueness in bounded assignment space; batch result."
+[[edge]]
+premises = []
+conclusion = "Contractive borrowed-power quantitative omission controls"
+kind = "rival"
+status = "mapped"
+note = "Positive replacement accounts outside the contraction profile; see recursive walk in linked note."
+[[edge]]
+premises = ["Bounded contractive pure transfer has zero source-free exercise"]
+conclusion = "97f5850f-62bc-5e43-a0c1-dd1033d08fc9"
+kind = "bridge"
+status = "mapped"
+note = "UNRESOLVED connection plan only: warrant a quantity and total uniform gain/boundedness for actual per-se exercise; zero-source-free exercise still does not imply graph well-foundedness. No proof or root discharge claimed."
