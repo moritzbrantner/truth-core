@@ -35,6 +35,7 @@ public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 public import TruthCore.Results.Logic.FallibleCorrection.Solution
 public import TruthCore.Results.Logic.FiniteValidationLogic.Solution
 public import TruthCore.Results.Logic.FitchKnowability.Solution
+public import TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution
 public import TruthCore.Results.Logic.IntuitionisticKnowability.Solution
 public import TruthCore.Results.Logic.JointRouteFailure.Solution
 public import TruthCore.Results.Logic.JustificationIntrospection.Solution

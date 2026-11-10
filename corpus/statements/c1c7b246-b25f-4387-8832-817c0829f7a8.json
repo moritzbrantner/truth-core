@@ -1,0 +1,6 @@
+{
+  "id": "c1c7b246-b25f-4387-8832-817c0829f7a8",
+  "label": "Counted finite profiles are exactly coordinate-family truth classes",
+  "paraphrase": "On four Boolean-pair worlds the zero-bit, first-bit and two-bit relations counted in Controls coincide exactly with TruthClass for the corresponding explicitly selected constant or coordinate families.",
+  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.FiniteProfiles"
+}

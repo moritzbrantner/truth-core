@@ -1,0 +1,10 @@
+{
+  "id": "19d3d3bf-7a1e-4c27-9ba3-4cde3af7d5bd",
+  "label": "Finite coordinate-family truth-class identification checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c1c7b246-b25f-4387-8832-817c0829f7a8",
+  "inference_ids": [
+    "7c77ff20-f9e9-4ef5-b8fe-bee8ae42ad36"
+  ],
+  "meaning": "Identifies the explicitly counted finite profile relations with the selected-family semantics, so canonicalCertificate applies to these exact families."
+}
