@@ -9,6 +9,7 @@ public import TruthCore.Causality.ActualCoverStrictness
 public import TruthCore.Causality.ActualEuclidean
 public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualGroundingPotentialRank
+public import TruthCore.Causality.ActualOnlyEuclidean
 public import TruthCore.Causality.ActualPartsDeclarationControls
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse
@@ -116,6 +117,7 @@ public import TruthCore.Causality.NecessarySenseFork
 public import TruthCore.Causality.NecessarySimplePlurality
 public import TruthCore.Causality.NonlimitingConcreteExistence
 public import TruthCore.Causality.OccurrenceUnderivedEssence
+public import TruthCore.Causality.OriginToleranceIdentity
 public import TruthCore.Causality.OwnerEndpointCalibration
 public import TruthCore.Causality.ParityUnionRegress
 public import TruthCore.Causality.PartFreePlurality

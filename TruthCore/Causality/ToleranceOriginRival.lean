@@ -41,8 +41,12 @@ bridge. In `Control.tolerance` the offset worlds carry no individual with a
 varied origin (world `minus` is empty), so the checked model witnesses a
 symmetric, reflexive non-Euclidean omission model, not a faithful origin-tolerance
 countermodel. Restoring the intended commitment (the actual individual exists,
-with a varied origin, at both neighbouring offsets) is untested and may destroy
-the countermodel.
+with a varied origin, at both neighbouring offsets) destroys this particular
+countermodel (`OriginToleranceIdentity.Control.restored`: the restored individual
+exists at every successor of `actual`), but a countermodel with an encoded
+origin interface (faithful only to its encoded commitments) survives on five worlds with two individuals
+(`OriginToleranceIdentity.Control.faithful`), and the origin commitments entail
+this frame condition (`Results.Causality.OriginToleranceIdentity.originToleranceNonEuclidean`).
 
 Structural properties: reflexive and symmetric by definition; not transitive
 and not Euclidean at `w`. Applicability to reality remains OPEN; the rival is
