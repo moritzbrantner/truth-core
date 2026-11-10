@@ -1,0 +1,11 @@
+{
+  "id": "7954532a-b19f-404d-ba9f-0d93c7488255",
+  "label": "Origin-determined access and worldwise deletion give origin-compatible deletion",
+  "argument_id": "fed7dfb8-cc0d-4e72-b201-bf81d462cfa7",
+  "challenge_module": "TruthCore.Results.Causality.OriginDeletion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginDeletion.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginDeletion.deletionOriginCompatible",
+  "comparator_config": "results/7954532a-b19f-404d-ba9f-0d93c7488255/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional entailment, the converse of originDeletion: under the only-if (essentialist) half of origin-determined access, an accessible world lacking x keeps the shared individuals' origins near, so worldwise deletion gives origin-compatible deletion. Together the two show that, on the encoded account, worldwise deletion adds exactly a claim about which worlds exist; origin essentialism constrains it only through individuals other than the deleted one."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "10a7b462-bc9a-4ec6-ab78-1242816a5331",
+  "label": "Individual deletion at a world: each existing concrete individual is absent from a possible world",
+  "term": "individual deletion at a world",
+  "definition": "DeletionAt m Concrete w holds when every concrete individual existing at w is absent from some world accessible from w; equivalently, no concrete individual existing at w is necessary relative to w in the world-relative sense NecessaryAt. It is individual-by-individual: different individuals may be removed in different worlds, so it does not say that some possible world lacks all of them (joint deletion). It concerns necessity relative to w only and says nothing about necessity relative to other worlds. AccessibleDeletion m Concrete w is DeletionAt at every world accessible from w, NoAccessibleDeletion is its negation, and WorldwiseDeletion m Concrete is DeletionAt at every world. Example: in OriginToleranceIdentity.Control.faithful deletion holds at actual (a is absent from bMinus, b from aMinus) and fails at plus (b exists at plus and at every world plus accesses). Counterexample: in OriginToleranceIdentity.Control.restored the one individual exists at every world, so deletion fails at the actual offset. Distinguished from absolute contingency (absence from some world regardless of access), from joint deletion, and from the claim that nothing is necessary relative to any world, which only WorldwiseDeletion gives.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.OriginDeletion.DeletionAt",
+  "note": "Analyst framework definition for testing the origin-tolerance rival to actual-world Euclidean access on stage one of the modal spine; attribution deferred. Its real-world applicability, at the actual world or at every world, is OPEN. It reuses the world-relative reading of necessity of TruthCore.German.Kant.CosmologicalInference; the absolute reading is not defined here."
+}

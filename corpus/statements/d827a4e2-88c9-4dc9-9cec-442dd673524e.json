@@ -1,0 +1,10 @@
+{
+  "id": "d827a4e2-88c9-4dc9-9cec-442dd673524e",
+  "label": "Individual deletion fails at some world accessible from the selected world",
+  "paraphrase": "Analyst formulation, attribution deferred: it is not the case that at every world v accessible from the selected world w, every concrete individual existing at v is absent from some world accessible from v. Equivalently (classically), some world possible relative to w has a concrete individual necessary relative to that world in the world-relative sense. It does not say that this individual exists at w or at every world accessible from w.",
+  "lean_declaration": "TruthCore.Causality.OriginDeletion.NoAccessibleDeletion",
+  "definition_ids": [
+    "10a7b462-bc9a-4ec6-ab78-1242816a5331",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "b28aad0f-f64d-4eda-aaa9-2799472dd773",
+  "label": "Does origin tolerance warrant worldwise individual deletion against Arrival A",
+  "statement_ids": [
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "745d0d4c-71f3-4593-83eb-a719eeaf8912",
+    "1b1462e6-c285-448c-87e2-3053bc05a341"
+  ],
+  "date": "2026-11-10",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Question: whether the encoded origin-tolerance rival to actual-world Euclidean access (OriginToleranceIdentity) is committed to, neutral on, or disfavours individual deletion (every existing concrete individual absent from some accessible world), which would conflict with Arrival A. Checked (OriginDeletion): (1) accessibleDeletionExcluded: presence-to-existence, inert emptiness and the possible contingent-free past at w refute deletion at the worlds accessible from w (composed from InertEmptiness.earlierNecessary); no frame premise (neither actual reflexivity nor Euclidean access) is used. Weakest sufficient version: deletion at the A3 witness world, packaged as deletion at every world accessible from w; deletion at w alone is consistent with the bundle (faithful has deletion at actual). (2) originDeletion and deletionOriginCompatible: under OriginDeterminesAccess, worldwise deletion is equivalent to origin-compatible deletion (a world-inventory principle: for each world and individual, some world lacks it while shared individuals keep near origins); the if-half gives one direction, the only-if half the other; the deleted individual's own origin never constrains its absence. (3) emptyWorldDeletion: OriginDeterminesAccess plus a world with no individuals at all gives worldwise deletion; so OriginDeterminesAccess + empty world + A1-A3 is inconsistent (challenger lead, checked). A world lacking only concrete individuals does not suffice, since access checks shared abstract individuals too. (4) deletionControls: with all four origin commitments, deletion fails at a successor of actual (faithful) or at actual (restored), and holds everywhere (withEmpty, faithful plus a world with no individuals); so the encoded commitments are neutral on deletion at every scope. Provisional judgment: worldwise deletion is underdetermined (neutral) relative to origin tolerance proper, which constrains origins of existing things, not existence; deletion follows only from an added recombination/empty-world inventory principle. Consequence for the rival: every countermodel to Arrival A must violate accessible deletion at the actual world (by (1)), so the rival survives only by holding that some possibility of actual contains an individual necessary relative to it, and under the if-half by denying any possible world without individuals. That is a real cost if Humean recombination or an empty possible world is independently attractive, but it is not forced by the account; the original faithful countermodel is not vacuous.",
+  "evidence": [
+    "1ca3d0d0-8211-49f8-ab09-27b650951a2e",
+    "18aadc0d-1752-4812-8e29-6abcd9112b42",
+    "5ef604b9-a8e8-4893-b937-a7e712db8d81",
+    "7954532a-b19f-404d-ba9f-0d93c7488255",
+    "70d098fe-048d-4bcd-b48e-e9ca293b0ba0"
+  ],
+  "blocker": "OPEN: whether an empty possible world (or origin-compatible deletion) is independently warranted, and whether the if-half of OriginDeterminesAccess belongs to the account; joint (roster) deletion, counterpart, vague and kind-relative tolerance and absolute necessity were not tested. Next discriminating step: test whether Arrival A's possible contingent-free past premise is itself in tension with an empty possible world (a history whose earliest moments are empty), i.e. whether A2/A3 already presuppose something against the empty world, and compare with the possible-external-cause arrival."
+}

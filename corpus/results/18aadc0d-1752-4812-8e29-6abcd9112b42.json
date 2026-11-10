@@ -1,0 +1,11 @@
+{
+  "id": "18aadc0d-1752-4812-8e29-6abcd9112b42",
+  "label": "Presence, inert emptiness and a possible contingent-free past refute accessible deletion",
+  "argument_id": "a551ca00-0c44-464b-a345-63685c0ed24d",
+  "challenge_module": "TruthCore.Results.Causality.OriginDeletion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginDeletion.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginDeletion.accessibleDeletionExcluded",
+  "comparator_config": "results/18aadc0d-1752-4812-8e29-6abcd9112b42/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional incompatibility, non-transcription, composed from InertEmptiness.earlierNecessary. The possible contingent-free past gives an accessible history v; presence-to-existence and inert emptiness give a concrete individual c existing at v and necessary relative to v; deletion at v would put c's absence at a world accessible from v. So the three non-frame premises of Arrival A (ActualEuclidean.inertNecessaryConcrete) are jointly inconsistent with deletion at every world accessible from w, a fortiori with worldwise deletion. Neither actual reflexivity nor Euclidean access is used. Deletion at w alone is not enough: OriginToleranceIdentity.Control.faithful satisfies the three premises and deletion at actual (OriginDeletion.Control.Certificate, group 1). This refutes the strengthened bundle only; it does not make the original countermodel vacuous and establishes none of the premises."
+}

@@ -1,0 +1,78 @@
+[batch]
+vocab = "TruthCore.Causality.OriginDeletion"
+results = "TruthCore.Results.Causality.OriginDeletion"
+
+[[statement]]
+id = "Individual deletion fails at some world accessible from the selected world"
+lean = "NoAccessibleDeletion"
+paraphrase = "Analyst formulation, attribution deferred: it is not the case that at every world v accessible from the selected world w, every concrete individual existing at v is absent from some world accessible from v. Equivalently (classically), some world possible relative to w has a concrete individual necessary relative to that world in the world-relative sense. It does not say that this individual exists at w or at every world accessible from w."
+definitions = ["10a7b462-bc9a-4ec6-ab78-1242816a5331", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[statement]]
+id = "At every world each existing concrete individual is absent from some possible world"
+lean = "WorldwiseDeletion"
+paraphrase = "Candidate framework commitment, unattributed (worldwise individual deletion): for every world v and every concrete individual x existing at v, some world accessible from v lacks x. So no concrete individual is necessary relative to any world (world-relative necessity). Individual by individual: it does not assert a world lacking all concrete individuals at once."
+definitions = ["10a7b462-bc9a-4ec6-ab78-1242816a5331", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[statement]]
+id = "For each world and existing individual some world lacks it while shared origins stay near"
+lean = "OriginCompatibleDeletion"
+paraphrase = "Candidate framework commitment, unattributed (origin-restricted free deletion, a world-inventory principle not contained in the encoded origin-tolerance account): for every world v and every concrete individual x existing at v, some world u lacks x and every individual existing at both v and u has near origins at v and at u. It does not mention access. A world at which no individual exists satisfies the condition for every v and x."
+definitions = ["c30ead40-f7cd-4848-921b-c10cd26a9c06"]
+
+[[statement]]
+id = "Origin-deletion controls on three finite interpretations"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls, every individual counted concrete. (1) In the five-world encoded origin-tolerance countermodel (OriginToleranceIdentity.Control.faithful): individual deletion holds at actual, fails at plus (b exists at plus and at every world plus accesses), and so fails at some world accessible from actual. (2) In the three-offset model with one individual existing at every offset (OriginToleranceIdentity.Control.restored), deletion fails at the actual offset. (3) The faithful model with a sixth world at which no individual exists, accessible from and to every world, origins and the rest of access unchanged: closeness is a tolerance, access is determined by origin closeness, every near origin variation is realised, an individual has non-near origins at two successors of actual, origin-compatible deletion holds and deletion holds at every world. Statements about these finite interpretations only."
+definitions = ["10a7b462-bc9a-4ec6-ab78-1242816a5331", "c30ead40-f7cd-4848-921b-c10cd26a9c06"]
+
+[[argument]]
+id = "Presence, inert emptiness and a possible contingent-free past refute accessible deletion"
+theorem = "accessibleDeletionExcluded"
+premises = ["STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL", "A concrete-empty moment is followed only by concrete-empty moments", "Possibly, contingent concrete things are absent at a moment and present at a later one"]
+conclusion = "Individual deletion fails at some world accessible from the selected world"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Compose InertEmptiness.earlierNecessary at the witness history; apply deletion there to its necessary individual"
+meaning = "Conditional incompatibility, non-transcription, composed from InertEmptiness.earlierNecessary. The possible contingent-free past gives an accessible history v; presence-to-existence and inert emptiness give a concrete individual c existing at v and necessary relative to v; deletion at v would put c's absence at a world accessible from v. So the three non-frame premises of Arrival A (ActualEuclidean.inertNecessaryConcrete) are jointly inconsistent with deletion at every world accessible from w, a fortiori with worldwise deletion. Neither actual reflexivity nor Euclidean access is used. Deletion at w alone is not enough: OriginToleranceIdentity.Control.faithful satisfies the three premises and deletion at actual (OriginDeletion.Control.Certificate, group 1). This refutes the strengthened bundle only; it does not make the original countermodel vacuous and establishes none of the premises."
+
+[[argument]]
+id = "Origin-determined access and origin-compatible deletion give worldwise deletion"
+theorem = "originDeletion"
+premises = ["5389a062-70dc-4802-a163-92faa1f1c915", "For each world and existing individual some world lacks it while shared origins stay near"]
+conclusion = "At every world each existing concrete individual is absent from some possible world"
+axioms = []
+rule = "Right-to-left half of origin-determined access applied to the deletion world"
+meaning = "Conditional entailment: if access is exactly shared-origin closeness, any world lacking x whose shared individuals keep near origins is accessible, so origin-compatible deletion yields worldwise deletion. Only the OPEN if-half of origin-determined access is used; the deleted individual's own origin imposes no condition, because it is not shared. With deletionOriginCompatible, under origin-determined access worldwise deletion is equivalent to origin-compatible deletion, a world-inventory principle the encoded origin commitments do not settle (OriginDeletion.Control.Certificate: faithful and restored violate deletion, withEmpty satisfies it, all with the four origin commitments)."
+
+[[argument]]
+id = "Origin-determined access and worldwise deletion give origin-compatible deletion"
+theorem = "deletionOriginCompatible"
+premises = ["5389a062-70dc-4802-a163-92faa1f1c915", "At every world each existing concrete individual is absent from some possible world"]
+conclusion = "For each world and existing individual some world lacks it while shared origins stay near"
+axioms = []
+rule = "Left-to-right half of origin-determined access applied to the accessible deletion world"
+meaning = "Conditional entailment, the converse of originDeletion: under the only-if (essentialist) half of origin-determined access, an accessible world lacking x keeps the shared individuals' origins near, so worldwise deletion gives origin-compatible deletion. Together the two show that, on the encoded account, worldwise deletion adds exactly a claim about which worlds exist; origin essentialism constrains it only through individuals other than the deleted one."
+
+[[argument]]
+id = "Origin-deletion controls checked"
+theorem = "deletionControls"
+premises = []
+conclusion = "Origin-deletion controls on three finite interpretations"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit finite interpretations checked by case analysis"
+meaning = "Model-witnessed neutrality of the four encoded origin-tolerance commitments on individual deletion: with all four holding, deletion fails at a successor of actual (faithful, which is also the countermodel to Arrival A) or at actual itself (restored), and holds at every world (withEmpty, which adds a world with no individuals). So the encoded commitments entail neither deletion nor its failure, at actual, at accessible worlds or at every world. In withEmpty, by accessibleDeletionExcluded, one of presence-to-existence, inert emptiness or the possible contingent-free past at actual fails (here the past premise: b is no longer necessary at plus). Model claims concern these finite interpretations only; counterpart, vague or kind-relative tolerance readings are not tested."
+
+[[statement]]
+id = "Some possible world contains no individual at all"
+lean = "EmptyWorld"
+paraphrase = "Candidate framework commitment, unattributed: some world of the model has no existing individual, concrete or abstract. Weaker claims (a world lacking only every concrete individual) do not suffice for the entailment below, because origin-determined access also checks shared non-concrete individuals. It says nothing about access to that world."
+definitions = ["c30ead40-f7cd-4848-921b-c10cd26a9c06"]
+
+[[argument]]
+id = "Origin-determined access and a world with no individuals give worldwise deletion"
+theorem = "emptyWorldDeletion"
+premises = ["5389a062-70dc-4802-a163-92faa1f1c915", "Some possible world contains no individual at all"]
+conclusion = "At every world each existing concrete individual is absent from some possible world"
+axioms = []
+rule = "An empty world satisfies origin-compatible deletion vacuously; compose originDeletion"
+meaning = "Conditional entailment, composed from originDeletion: a world with no individuals shares none with any world, so by the OPEN if-half of origin-determined access it is accessible from every world and deletion holds everywhere. With accessibleDeletionExcluded, origin-determined access, an empty possible world and Arrival A's presence-to-existence, inert emptiness and possible contingent-free past are jointly inconsistent. So the encoded origin-tolerance rival survives Arrival A only if it denies an empty possible world or rejects the if-half; the encoded commitments themselves neither assert nor exclude an empty world (OriginDeletion.Control.withEmpty has one, faithful does not)."
