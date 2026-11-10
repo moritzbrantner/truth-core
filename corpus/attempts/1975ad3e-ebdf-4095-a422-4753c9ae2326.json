@@ -1,0 +1,17 @@
+{
+  "id": "1975ad3e-ebdf-4095-a422-4753c9ae2326",
+  "label": "Contractive borrowed-power zero obstruction and recursive applicability walk",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
+    "c805abc5-cb0c-42e2-a6bc-518e68b70b7b",
+    "276e927c-42ae-4bdd-839f-b751acf72c20"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Mathlib fixed-point uniqueness gives zero for bounded nonnegative pure-transfer fixed points under uniform contraction. Scalar branching, strict nonuniform loss, unbounded-chain and hidden-input controls isolate assumptions. Applicability remains open. Recursive rival descent, exact scopes, failed unrestricted finite-path iteration and next nodes persist in docs/notes/contractive-borrowed-power-1378.md. No new floor. Local elaboration and final certification are distinct.",
+  "evidence": [
+    "a6e858eb-6c79-493d-b5c4-3cfb37a78a61",
+    "76278d0b-5585-49fc-a824-b4ba1f6223bd"
+  ]
+}
