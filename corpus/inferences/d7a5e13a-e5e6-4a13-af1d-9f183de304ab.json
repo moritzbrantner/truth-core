@@ -1,0 +1,10 @@
+{
+  "id": "d7a5e13a-e5e6-4a13-af1d-9f183de304ab",
+  "label": "Surrogate controls for local versus global Euclidean access checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "5dbb78f0-4a3e-4067-bbb4-b3f1ed0994d7",
+  "rule": "Explicit three-world frames, checked by case analysis",
+  "meaning": "Witnesses that each escape route is realizable as a frame condition: clustered realizes F2' with local axiom 4 failing at actual (as the theorem forces once a successor is non-Euclidean); appendix realizes F2' and local axiom 4 at actual with global Euclidean access failing only at a world actual cannot reach. STRUCTURAL SURROGATES: no potentiality, representation, tolerance or impossible-world semantics is encoded.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
