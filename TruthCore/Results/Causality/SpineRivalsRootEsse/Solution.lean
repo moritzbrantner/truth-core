@@ -158,7 +158,7 @@ theorem contingentRootSurvives : ContingentRootSurvives := by
   exact tf (hn true trivial)
 
 theorem topIsMaximum : IsMaximumIn tierAct tierMore () Tier.top :=
-  ⟨trivial, fun y h => by cases y <;> simp [tierMore, tierRank] at h⟩
+  ⟨trivial, fun y h => by cases y <;> simp [tierMore] at h⟩
 
 theorem idleMaximumSurvives : IdleMaximumSurvives := by
   refine ⟨⟨.top, .made, .maker, topIsMaximum, by decide, trivial, ?_, by decide, by decide,
@@ -169,8 +169,8 @@ theorem idleMaximumSurvives : IdleMaximumSurvives := by
     cases m
     · have h := hall .made (by decide) trivial
       simp [tierCause] at h
-    · exact hmax.2 .top (by simp [tierMore, tierRank])
-    · exact hmax.2 .top (by simp [tierMore, tierRank])
+    · exact hmax.2 .top (by simp [tierMore])
+    · exact hmax.2 .top (by simp [tierMore])
 
 theorem thinExistenceSurvives : ThinExistenceSurvives := by
   refine ⟨⟨⟨(), trivial⟩, fun _ _ h => h⟩, fun _ _ _ => trivial, ?_⟩

@@ -282,11 +282,10 @@ inductive Tier where
   | top | maker | made
   deriving DecidableEq
 
-def tierRank : Tier → Nat
-  | .top => 2 | .maker => 1 | .made => 0
-
 def tierAct (_ : Tier) (_ : Unit) : Prop := True
-def tierMore (_ : Unit) (y x : Tier) : Prop := tierRank x < tierRank y
+/-- The strict ranking top above maker above made, stated without a rank function. -/
+def tierMore (_ : Unit) (y x : Tier) : Prop :=
+  (y = .top ∧ x ≠ .top) ∨ (y = .maker ∧ x = .made)
 /-- Only the middle agent causes being, and only in the lowest. -/
 def tierCause (c x : Tier) (_ : Unit) : Prop := c = .maker ∧ x = .made
 
