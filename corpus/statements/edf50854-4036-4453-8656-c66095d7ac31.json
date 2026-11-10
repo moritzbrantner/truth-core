@@ -1,0 +1,12 @@
+{
+  "id": "edf50854-4036-4453-8656-c66095d7ac31",
+  "label": "Rival: some first being is a component of something other than itself (world-soul)",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by the positions reported in ST I q.3 a.8 (God as the soul of the world, as the formal principle of all things, or as prime matter) and by pantheist and panentheist accounts: some being to which nothing other is simply prior is a component of something other than itself. The replacement account is that being a constituent does not subordinate: the whole depends on the first principle that informs it. Strictly stronger than the negation of STMT-NO-COMPONENT-IS-FIRST-BEING, which would allow a first being that is a component only of itself. It does not say the first being is itself composite.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.FirstBeingIsAComponentReading",
+  "definition_ids": [
+    "25e19d5a-5cdf-5916-a888-f6a0ce970f11",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ]
+}

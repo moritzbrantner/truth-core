@@ -1,0 +1,37 @@
+{
+  "id": "8c9485dc-d242-4801-a4aa-b0d6ec29893f",
+  "label": "Rivals of twelve spine premises (root, act of being, join) and their survival tests",
+  "statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "5c898d24-d1f7-5087-b09e-3287a723e787",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+    "0436de86-6579-53f2-9ff5-2111ba44ebae",
+    "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+    "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+    "b26c10a0-983d-5a88-aa03-cc601bc1ddc6",
+    "86efed1a-f353-5b5d-9431-df7fc643ace1",
+    "4c79298d-ee09-5e99-9ced-1be92c19b4cc",
+    "dd41c165-129a-59d3-84ce-bd13c0944901",
+    "d149d238-2eeb-5c8b-a136-f95d7aa5c721"
+  ],
+  "date": "2026-11-10",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Target: twelve open premises on verified routes to God exists (stage two of the modal spine), none of which had a recorded rival. For each, one rival was stated as a positive position on the premise's own carrier and linked by alternative_to, and one explicit interpretation was checked in which the rival holds with every other premise of the premise's smallest consuming theorem while that theorem's conclusion fails. All twelve rivals survive in this sense; none was excluded. Each rival is also proved incompatible with its premise (unregistered helpers in the Solution module). Rivals and consumers: (1) concrete population: abstract-only world, against NecessaryRootFork.necessaryRootTrilemma; (2) whole-roster nontrapping: bottomless actual grounding, against WholeRosterFoundation.necessaryConcrete; (3) contingent dependence: a contingent actual root (existing Lean declaration ContingentRootAt, first statement record), against ActualRootNecessityUpgrade.upgrade; (4) genus principle at being: an idle maximum with a third cause, against TermSenseForks3.maximeEnsCausesAllMaximal; (5) existence-to-act contract: thin existence, against Round2ExistenceAct.intellectualExerciseRequiresActFromExistence; (6) esse-cause bridge: a non-concrete cause of esse, against Round2Grounding.contingentGroundedViaParticipation; (7) grades-to-maximum at being: unbounded grades, against SelectedAncestryUnique.uniqueRoot; (8) universal perfection transfer: mere conservation, against CausalPerfectionTransfer.reconstruction; (9) simple-priority bridge: a non-concrete simply prior item, against NecessaryFirstBeing.necessaryFirst; (10) God maximal in being: an exceeded god, against StageTwo.GodIsSimple.godIsSimple; (11) no contingent concrete support: contingent support of a necessary concretum, against NecessaryConcreteUnderived.checks; (12) well-founded union of necessary support: mutual support of necessary concreta, against the same theorem. Limits: each certificate concerns one interpretation and is no evidence that the rival is true or metaphysically possible; no premise is refuted, defended or derived; in several interpretations another premise holds vacuously (stated in each comparison's coverage field). The interpretations were built by hand, not with countermodel.py, because an omission model witnesses only the bare negation and the rival's positive content had to hold. Rejected formulations: (a) QuartaViaUnboundedDegrees as the rival of grades-to-maximum, because it holds on an empty carrier together with the premise, so the two are not incompatible; (b) the existing four-role secondary-only interpretation as the test of mere conservation, because it does not satisfy the residual transfer premise of the consumer; (c) for the existence-to-act contract, a two-category rival (some existents have the act of being, some lack it) was considered and not recorded: it is the weaker position, but the smallest consumer's failure needs an exerciser lacking every act, which the thin conception states directly; it remains untested; (d) for no contingent concrete support, a stronger rival placing the contingent supporter at the selected world itself: the consumer's other premises force a necessary actual root there, so that rival needs a second necessary candidate and was not needed for the test; (e) bare negations of each premise, which are not positions. Findings worth carrying forward: with the adopted sense of concrete (esse in re), thin existence and the abstract-only world are one position seen from two premises; the join interpretations (11, 12) both turn on the selected relation reversing direction between worlds, so an invariance premise on that relation is the natural discriminator; the rival of grades-to-maximum is excluded by the premises of each of the two recorded derivations of that premise.",
+  "blocker": "No rival has been tested for exclusion against commitments its holder accepts. Each comparison's next_step names the first such test. The circular shape of bottomless grounding, the two-category rival of the existence-to-act contract, and the other failure modes of the two concrete-ground bridges (absent cause; concrete cause that is no selected-relation ground) are not recorded as rivals.",
+  "evidence": [
+    "3ece0128-00db-428a-a8f5-c781c072fcfb",
+    "35de6bba-d517-4107-a1e0-4b72dad4c739",
+    "21a28d4b-1b89-41c7-996b-dca0f5d9a291",
+    "37ad5dfc-0fd9-4ff7-85e0-a9ddd5791c0f",
+    "ea247cb9-5aef-4901-951b-d7e3a620257b",
+    "3abf7cd9-99f2-4d45-80ee-dc7295e4bce8",
+    "37926b79-6c4e-4bda-ac51-52c5da707711",
+    "cf59b546-0dfe-4a34-ab95-334a04690d9e",
+    "6b135d43-0592-451b-81c7-de48e761cf2b",
+    "fcabe1f1-8e44-4660-866d-32eb0d7026ca",
+    "87d3249e-9016-4929-a409-d7050c14375e",
+    "f88dfacf-5cb4-466b-a0ee-0c93231f9fd0"
+  ]
+}

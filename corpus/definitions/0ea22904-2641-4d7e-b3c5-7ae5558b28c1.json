@@ -1,0 +1,9 @@
+{
+  "id": "0ea22904-2641-4d7e-b3c5-7ae5558b28c1",
+  "label": "Contingent support of a necessary concretum at some admitted world",
+  "term": "contingent support of a necessary concretum",
+  "definition": "SomeNecessaryConcretumContingentlySupported m w holds when there are a world v and concrete candidates a and b such that a exists at v, b exists at every world accessible from w, a stands to b in the selected relation at v, and a is absent from some world accessible from w. Ordinary meaning: somewhere in the space of worlds, a thing that could not have failed to exist is sustained by a thing that could have. Example: a necessary whole whose sustaining parts differ from world to world. It does not say the necessary thing is supported at w itself or at every world.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeNecessaryConcretumContingentlySupported",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by bottom-up grounding of a necessary whole in replaceable constituents. Rival of NoContingentConcreteSupport on the same Profile and selected world. It implies the negation constructively and exhibits the world from which the supporter is absent; with excluded middle it is equivalent to the negation. As in the premise, v ranges over all admitted worlds, not only accessible ones."
+}

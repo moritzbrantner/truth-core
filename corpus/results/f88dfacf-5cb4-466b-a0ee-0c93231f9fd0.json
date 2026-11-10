@@ -1,0 +1,25 @@
+{
+  "id": "f88dfacf-5cb4-466b-a0ee-0c93231f9fd0",
+  "label": "Mutual-support rival of well-founded necessary support survives, checked",
+  "argument_id": "b199cb5b-ff15-4a1f-95b8-8b654ae9ae4c",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.mutualSupportSurvives",
+  "comparator_config": "results/f88dfacf-5cb4-466b-a0ee-0c93231f9fd0/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for well-founded necessary support against its smallest consumer, NecessaryConcreteUnderived.checks (premises as listed there). With two necessary concreta, the first grounding the second at the selected world and the second grounding the first at another world, the mutual-support rival holds with the other six premises and no necessary concretum is underived at every admitted world. Each world's own grounding is well-founded; only the union across worlds is circular. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+      "rival_statement_id": "12a167a4-dd1d-4f04-92e5-c22325cbbd1a",
+      "sense_definition_id": "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+      "outcome": "model-witnessed",
+      "conditions": "Control.mutualPair at world false: the rival, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, NoContingentConcreteSupport and excluded middle hold; NecessaryConcreteUnderivedAt fails. Consumer tested: NecessaryConcreteUnderived.checks.",
+      "scope": "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, two candidates, both concrete and necessary.",
+      "coverage": "One explicitly populated interpretation with a cross-world circle; a circle within one world is excluded by the other premises at the selected world and is not exhibited elsewhere.",
+      "exclusivity": "The rival implies the negation of the premise on one Profile and world (unregistered helper mutualSupport_excludes); an endless descending chain would also negate the premise and is a different rival.",
+      "witness": "Control.mutualPair in Control.MutualSupportSurvives; mutualSupportSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against a no-novel-necessary-support condition (support between necessary individuals at any world already occurs at the selected world); whether it excludes the rival together with actual well-foundedness is untested."
+    }
+  ]
+}

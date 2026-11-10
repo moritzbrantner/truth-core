@@ -1,0 +1,10 @@
+{
+  "id": "a996765c-5313-4f8d-b04e-04a2303618f5",
+  "label": "One reachability formula defines a non-trivial target on Nat and Bool (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "51769cce-4c9d-49d0-8826-4546f0c345c3",
+  "rule": "Finite-path induction through Mathlib ReflTransGen on an explicit varying-domain profile",
+  "meaning": "The single formula 'the object is reachable from the permitted anchor' defines, on Nat with step-two edges, exactly the even numbers, and on the edgeless Bool graph exactly the anchor false; so VaryingPathDefinability holds with this non-constant target family. 1 on Nat and true on Bool are unreachable, and 2 on Nat is reached. Graph adjacency only: no physical applicability or strict FO separation is asserted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

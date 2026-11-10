@@ -1,0 +1,17 @@
+{
+  "id": "12a167a4-dd1d-4f04-92e5-c22325cbbd1a",
+  "label": "Two necessary concreta support each other, each at some admitted world",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by metaphysical interdependence among necessary beings): for some concrete candidates a and b, each existing at every world accessible from w, and worlds v and u, a exists at v and stands to b in the selected relation at v, and b exists at u and stands to a in the selected relation at u. The candidates may coincide and the worlds may coincide. No endless regress is asserted.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.NecessaryConcretaMutualSupport",
+  "definition_ids": [
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+    "bb3af92a-7060-5e08-a82a-59a1337f8492",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

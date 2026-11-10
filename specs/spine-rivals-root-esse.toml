@@ -1,0 +1,530 @@
+# Rivals and survival tests for twelve spine premises (regress/root, act-of-being
+# bridges, join). Analyst formulations, attribution deferred. No premise of any
+# route is derived, added or removed: rival statements and control certificates only.
+
+[batch]
+vocab = "TruthCore.Causality.SpineRivalsRootEsse"
+results = "TruthCore.Results.Causality.SpineRivalsRootEsse"
+
+# ---------------------------------------------------------------- rivals
+
+[[statement]]
+id = "Something exists at the selected world and nothing existing there is CONCRETE_6"
+lean = "OnlyNonConcreteExistAt"
+paraphrase = "Rival framework commitment, unattributed (motivated by abstract-only ontologies such as mathematical-structure monism): some candidate exists at the selected world w, and no candidate existing at w is concrete. It is not the empty world and does not say that concrete things are impossible."
+definitions = ["Abstract-only population of the selected world", "DEF-INHABITED-CONCRETE-WORLD", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "The actual CONCRETE_6 roster is inhabited and every member has an actual CONCRETE_6 ground"
+lean = "BottomlessActualGroundingAt"
+paraphrase = "Rival framework commitment, unattributed (motivated by metaphysical infinitism and coherentism about dependence): some concrete candidate exists at w, and every concrete candidate existing at w has a concrete ground existing at w under the selected relation at w. It does not say whether the grounding descends without end or runs in a circle, and says nothing about non-concrete or absent grounds."
+definitions = ["Bottomless actual concrete grounding at the selected world", "DEF-WHOLE-ROSTER-NOT-TRAPPED", "DEF-ACTUAL-CONCRETE-GROUND-ANCESTRY", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-ACTUAL-VS-WHOLE-CARRIER-WF", "DISAMB-REGRESS-DOMAINS", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "Some actual CONCRETE_6 individual is contingent and has no actual CONCRETE_6 ground"
+lean = "TruthCore.Causality.NecessaryRootFork.ContingentRootAt"
+paraphrase = "Rival framework commitment, unattributed (motivated by brute-fact views of contingent reality and existential inertia): some concrete candidate exists at w, has no concrete ground existing at w under the selected relation at w, and is absent from some world accessible from w. An abstract, absent or unmodelled explanation is not excluded."
+definitions = ["Contingent actual root: a brute contingent foundation", "DEF-BRUTE-ROOT-RELATIVE-GROUNDING", "DEF-KANT-MODAL-CONTINGENCY", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-NECESSARY-INDIVIDUAL-SCOPE", "DISAMB-NONNECESSARY-VS-CONTINGENT-ROOT", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "Some maximum in being leaves the being of another being to a third cause"
+lean = "SomeMaximumLeavesBeingToAnother"
+paraphrase = "Rival framework commitment, unattributed (motivated by eminence without universal efficient causation: a highest being as exemplar or final cause only): for some m, x and c, m is in act in esse and nothing is more in esse than m; x is other than m and in act in esse; m does not cause x's esse; and c, other than both m and x, causes x's esse. It does not say that there is no maximum or that the maximum causes nothing."
+definitions = ["Idle maximum in being: another cause gives being where the maximum does not", "DEF-MAXIME-ENS", "DEF-CAUSE-OF-PERFECTION"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "Something exists at the selected world and no existent there is in act in esse"
+lean = "ExistenceWithoutActOfBeingAt"
+paraphrase = "Rival framework commitment, unattributed (motivated by the thin, quantificational conception of existence): something exists at the selected world w, and nothing existing at w is in act in the supplied esse respect. It does not deny that things exist and says nothing about act in other respects."
+definitions = ["Thin existence: existents of the selected world have no act of being", "DEF-EXISTING-IN-ACT-AT", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-ACT", "DEF-ESSE"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6"
+lean = "SomeEsseCauseNonConcrete"
+paraphrase = "Rival framework commitment, unattributed (motivated by Platonic Forms or governing laws as causes of being): for some distinct c and x, x is concrete and exists at w, c causes x's esse, c exists at w, and c is not concrete. Whether the selected relation holds between c and x is left open."
+definitions = ["Non-concrete cause of an actual concretum's esse", "DEF-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-ESSE", "DEF-CAUSE-OF-PERFECTION", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "Some pair compares in esse and every individual in act in esse is exceeded by one in act"
+lean = "EveryActualGradeExceededAtBeing"
+paraphrase = "Rival framework commitment, unattributed (motivated by open-ended hierarchy: more and less without a most): some pair compares in the supplied esse respect, and for every individual in act in esse some individual in act in esse is more in esse than it. No order laws on the comparative are assumed."
+definitions = ["Unbounded grades of being: every actual grade is exceeded by an actual one", "DEF-GRADES-TO-MAXIMUM-AT-BEING", "DEF-MORE-IN", "DEF-MAXIME-ENS"]
+disambiguations = ["DISAMB-BEING-UNIVOCITY", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Some universal cause of esse leaves an actual perfection of its effect to a secondary cause"
+lean = "UniversalCauseLeavesPerfectionToSecondary"
+paraphrase = "Rival framework commitment, unattributed (motivated by mere conservationism): for some c, x, r and d, c causes the esse of every other thing in act in esse; x is other than c and c causes x's esse; x is in act in r; c does not cause x's being r; and d, other than c, causes x's being r. It is neither occasionalism nor concurrentism."
+definitions = ["Mere conservation: a universal cause of esse leaves a perfection to a secondary cause", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE", "DEF-ACT", "DEF-RESPECT", "DEF-UNIVERSAL-ESSE-CAUSE-SCOPE"]
+disambiguations = ["DISAMB-CAUSE", "DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Something not CONCRETE_6 is SIMPLY_PRIOR_1 to a distinct actual concretum"
+lean = "SomeSimplyPriorNonConcrete"
+paraphrase = "Rival framework commitment, unattributed (motivated by Platonism about priority): for some distinct y and x, y is simply prior to x, x is concrete and exists at w, and y is not concrete. It does not say that y is absent from w, and the priority is not temporal."
+definitions = ["Non-concrete item simply prior to an actual concretum", "DEF-KANT-ONTOLOGICAL-MODEL", "DEF-SIMPLE-PRIORITY", "DEF-CONCRETE-ESSE-IN-RE"]
+disambiguations = ["DISAMB-CONCRETE-ABSTRACT-CRITERIA"]
+
+[[statement]]
+id = "Something that is GOD_4 has being and is exceeded in being by something that is not GOD_4"
+lean = "SomeGodExceededInBeing"
+paraphrase = "Rival framework commitment, unattributed (motivated by demiurgic and finite-god theologies): for some g and y, g is God, g is in act in esse, y is not God, and y is more in esse than g. It is not atheism and does not say that God lacks being."
+definitions = ["Exceeded god: something divine with being is exceeded in being by a non-divine thing", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-MAXIME-ENS", "DEF-ESSE"]
+
+[[statement]]
+id = "Some necessary concretum is supported somewhere by a concretum absent from an accessible world"
+lean = "SomeNecessaryConcretumContingentlySupported"
+paraphrase = "Rival framework commitment, unattributed (motivated by bottom-up grounding of a necessary whole in replaceable constituents): for some admitted world v and concrete candidates a and b, a exists at v, b exists at every world accessible from w, a stands to b in the selected relation at v, and a is absent from some world accessible from w. It does not say that b is supported at w itself or at every world."
+definitions = ["Contingent support of a necessary concretum at some admitted world", "DEF-NO-CONTINGENT-CONCRETE-SUPPORT", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Two necessary concreta support each other, each at some admitted world"
+lean = "NecessaryConcretaMutualSupport"
+paraphrase = "Rival framework commitment, unattributed (motivated by metaphysical interdependence among necessary beings): for some concrete candidates a and b, each existing at every world accessible from w, and worlds v and u, a exists at v and stands to b in the selected relation at v, and b exists at u and stands to a in the selected relation at u. The candidates may coincide and the worlds may coincide. No endless regress is asserted."
+definitions = ["Mutual support of necessary concreta across admitted worlds", "DEF-CONCRETE-NECESSARY-UNION-WF", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+# ---------------------------------------------------------------- certificates
+
+[[statement]]
+id = "Abstract-only world: the rival of concrete population holds and the root trilemma fails"
+lean = "Control.AbstractOnlySurvives"
+paraphrase = "Closed control on one interpretation (one world, one existing candidate, nothing concrete, empty selected relation): something exists at the world and nothing existing there is concrete; excluded middle holds; and the three-horned conclusion of the root trilemma fails there: no necessary concretum, no nonnecessary root, and actual grounding is well-founded. A statement about this interpretation only."
+definitions = ["Abstract-only population of the selected world"]
+
+[[statement]]
+id = "Endless descent: bottomless grounding holds with the other premises and nothing is necessary"
+lean = "Control.BottomlessSurvives"
+paraphrase = "Closed control on one interpretation (two mutually accessible worlds; the natural numbers, all concrete, exist at the selected world only; each number is grounded by its successor): bottomless actual grounding holds, a concrete candidate exists at the selected world, every actual contingent concretum has an actual concrete ground, excluded middle holds, and no concrete candidate exists at the selected world and at every world accessible from it. A statement about this interpretation only; the circular shape of the rival is not exhibited."
+definitions = ["Bottomless actual concrete grounding at the selected world"]
+
+[[statement]]
+id = "Brute root: a contingent root is the unique actual root and no unique necessary root exists"
+lean = "Control.ContingentRootSurvives"
+paraphrase = "Closed control on one interpretation (two mutually accessible worlds; one concrete candidate existing at the selected world only; empty selected relation): that candidate is a contingent actual root, it is the unique actual root, excluded middle holds, and there is no actual root that is necessary and unique. A statement about this interpretation only."
+definitions = ["Contingent actual root: a brute contingent foundation"]
+
+[[statement]]
+id = "Idle maximum: a maximum in being exists and no maximum causes the being of every other being"
+lean = "Control.IdleMaximumSurvives"
+paraphrase = "Closed control on one three-member interpretation (a top, a maker and a made thing, all in act in esse, ranked strictly; only the maker causes being, and only in the made thing): the idle-maximum rival holds, some being is maximal in being, and no being is both maximal in being and a cause of the being of every other being. A statement about this interpretation only."
+definitions = ["Idle maximum in being: another cause gives being where the maximum does not"]
+
+[[statement]]
+id = "Thin existence: an existing intellectual exerciser is in act in no respect"
+lean = "Control.ThinExistenceSurvives"
+paraphrase = "Closed control on one interpretation (one world, one existing candidate that exercises intellect, in act in no respect): something exists at the world and nothing existing there is in act in esse; every intellectual exerciser exists at the world; and it is false that every intellectual exerciser is in act in some respect. A statement about this interpretation only."
+definitions = ["Thin existence: existents of the selected world have no act of being"]
+
+[[statement]]
+id = "Form as cause: a non-concrete esse cause holds and an actual contingent concretum is ungrounded"
+lean = "Control.NonConcreteEsseCauseSurvives"
+paraphrase = "Closed control on one interpretation (two mutually accessible worlds; a non-concrete item existing at both and a concrete item existing at the selected world only; the non-concrete item causes the concrete item's esse; empty selected relation): the non-concrete-cause rival holds; every actual contingent concretum participates esse; whatever participates esse has a distinct cause of its esse; and it is false that every actual contingent concretum has an actual concrete ground. A statement about this interpretation only."
+definitions = ["Non-concrete cause of an actual concretum's esse"]
+
+[[statement]]
+id = "Endless ascent: unbounded grades hold with the other uniqueness inputs and no unique necessary root"
+lean = "Control.UnboundedGradesSurvive"
+paraphrase = "Closed control on one interpretation (one world; the natural numbers all exist, are concrete, ungrounded and in act in esse; the greater number is more in esse; nothing causes esse): the unbounded-grades rival holds; zero has a necessary root ancestor (itself); excluded middle holds; whatever is maximal in being causes the being of every other being (vacuously, there being no maximum); every existent is in act in esse; every distinct esse cause of an actual concretum is its actual concrete ground (vacuously); and there is no actual root that is necessary and unique. A statement about this interpretation only."
+definitions = ["Unbounded grades of being: every actual grade is exceeded by an actual one"]
+
+[[statement]]
+id = "Mere conservation: residual transfer holds and a cause of being fails to cause a perfection"
+lean = "Control.MereConservationSurvives"
+paraphrase = "Closed control on one three-member interpretation with two respects, esse and one further perfection, all members in act in both (the top causes the esse of the other two; only the maker causes the further perfection, and only in the made thing): the mere-conservation rival holds; the residual transfer condition for non-universal causes and self-effects holds (vacuously: the top is the only cause of esse and causes none in itself); and it is false that whatever causes a thing's esse causes each of its actual perfections. A statement about this interpretation only."
+definitions = ["Mere conservation: a universal cause of esse leaves a perfection to a secondary cause"]
+
+[[statement]]
+id = "Abstract priority: a non-concrete prior item holds and no necessary actual root is a first being"
+lean = "Control.AbstractPriorSurvives"
+paraphrase = "Closed control on one interpretation (one world, two existing candidates, one concrete and one not; the non-concrete one is simply prior to the concrete one; empty selected relation): the non-concrete-priority rival holds; a concrete candidate exists at the world; the whole actual concrete roster is not a borrowing trap; every actual contingent concretum has an actual concrete ground (vacuously: nothing is contingent); excluded middle holds; and no actual root is both necessary and a first being. A statement about this interpretation only."
+definitions = ["Non-concrete item simply prior to an actual concretum"]
+
+[[statement]]
+id = "Exceeded god: a composite god with a uniting cause more in being, so God is not simple there"
+lean = "Control.ExceededGodSurvives"
+paraphrase = "Closed control on one two-member interpretation (one member is God and composite; the other is not God, is more in esse than it and causes its esse; both are in act in esse): the exceeded-god rival holds; every composite has a distinct cause of its esse; whatever causes a quality in another is more such than it; and it is false that whatever is God is not composite. A statement about this interpretation only."
+definitions = ["Exceeded god: something divine with being is exceeded in being by a non-divine thing"]
+
+[[statement]]
+id = "Sustained whole: contingent support holds with the other join inputs, nothing necessary underived"
+lean = "Control.ContingentSupportSurvives"
+paraphrase = "Closed control on one interpretation (two mutually accessible worlds; a whole existing at both, one part existing at the selected world only and another at the other world only, all concrete; at the selected world the whole grounds its part there; at the other world the part there grounds the whole): the contingent-support rival holds; a concrete candidate exists at the selected world; actual grounding there is well-founded; every actual contingent concretum has an actual concrete ground; the selected world accesses itself; the union of support arrows between necessary concrete candidates is well-founded; excluded middle holds; and no concrete candidate is necessary, actual and without an existing concrete supporter at every admitted world. A statement about this interpretation only."
+definitions = ["Contingent support of a necessary concretum at some admitted world"]
+
+[[statement]]
+id = "Mutual pair: mutual support holds with the other join inputs and nothing necessary is underived"
+lean = "Control.MutualSupportSurvives"
+paraphrase = "Closed control on one interpretation (two mutually accessible worlds; two concrete candidates existing at both; at the selected world the first grounds the second, at the other world the second grounds the first): the mutual-support rival holds; a concrete candidate exists at the selected world; actual grounding there is well-founded; every actual contingent concretum has an actual concrete ground (vacuously: nothing is contingent); the selected world accesses itself; every existing concrete supporter of a necessary concrete candidate is necessary; excluded middle holds; and no concrete candidate is necessary, actual and without an existing concrete supporter at every admitted world. A statement about this interpretation only."
+definitions = ["Mutual support of necessary concreta across admitted worlds"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Abstract-only rival of concrete population survives, checked"
+theorem = "abstractOnlySurvives"
+premises = []
+conclusion = "Abstract-only world: the rival of concrete population holds and the root trilemma fails"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit one-world interpretation, checked by case analysis"
+meaning = "Rival test for the concrete-population premise against its smallest consumer, NecessaryRootFork.necessaryRootTrilemma (premises: concrete population, excluded middle). In an interpretation with one existing non-concrete candidate the abstract-only rival and excluded middle hold and the trilemma fails. This is a model-witnessed survival of the rival, not a refutation or defence of the premise; the interpretation is not claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+rival_statement_id = "Something exists at the selected world and nothing existing there is CONCRETE_6"
+sense_definition_id = "Abstract-only population of the selected world"
+outcome = "model-witnessed"
+conditions = "Control.abstractOnly at its one world: the rival and excluded middle hold; NecessaryRootTrilemma fails. Consumer tested: NecessaryRootFork.necessaryRootTrilemma."
+scope = "Same Ontic model, concrete predicate and selected world as the premise; one world, one candidate."
+coverage = "One explicitly populated interpretation of the rival; not every abstract-only ontology."
+exclusivity = "The rival and the premise cannot both hold on one model, predicate and world (unregistered helper onlyNonConcrete_excludes in the Solution module)."
+witness = "Control.abstractOnly in Control.AbstractOnlySurvives; abstractOnlySurvives proves the listed conjuncts."
+next_step = "Test the rival against the Cogito bearer bridges: with the adopted sense of concrete (esse in re) it denies that the bearer of an occurring thought has esse in re."
+
+[[argument]]
+id = "Bottomless-grounding rival of whole-roster nontrapping survives, checked"
+theorem = "bottomlessSurvives"
+premises = []
+conclusion = "Endless descent: bottomless grounding holds with the other premises and nothing is necessary"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretation on the natural numbers, checked directly"
+meaning = "Rival test for whole-roster nontrapping against its smallest consumer, WholeRosterFoundation.necessaryConcrete (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle). In an endless descending series of contingent concreta the bottomless-grounding rival holds with the other three premises and no concretum is necessary. Model-witnessed survival only; the interpretation is not claimed metaphysically possible and the premise is neither refuted nor defended."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-WHOLE-ROSTER-NOT-TRAPPED"
+rival_statement_id = "The actual CONCRETE_6 roster is inhabited and every member has an actual CONCRETE_6 ground"
+sense_definition_id = "Bottomless actual concrete grounding at the selected world"
+outcome = "model-witnessed"
+conditions = "Control.descent at world false: the rival, concrete population, contingent dependence and excluded middle hold; NecessaryConcreteAt fails. Consumer tested: WholeRosterFoundation.necessaryConcrete."
+scope = "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, natural-number candidates, all concrete."
+coverage = "One infinite descending interpretation; the circular shape of the rival and finite carriers are not exhibited."
+exclusivity = "The rival implies the negation of the premise on one Profile and world (unregistered helper bottomless_excludes); the converse is not checked."
+witness = "Control.descent in Control.BottomlessSurvives; bottomlessSurvives proves the listed conjuncts."
+next_step = "Compose the rival with the existing per se regress and causal-finitism results to find which recorded commitments exclude an endless descent of existential grounding."
+
+[[argument]]
+id = "Contingent-root rival of contingent dependence survives, checked"
+theorem = "contingentRootSurvives"
+premises = []
+conclusion = "Brute root: a contingent root is the unique actual root and no unique necessary root exists"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretation, checked directly"
+meaning = "Rival test for contingent dependence against its smallest consumer, ActualRootNecessityUpgrade.upgrade (premises: unique actual root, contingent dependence, excluded middle). With one ungrounded contingent concretum the contingent-root rival holds with the other two premises and no root is both necessary and unique. Model-witnessed survival only; existing controls (NecessaryRootControls) already exhibit a contingent root, and this certificate adds the test against the upgrade step."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+rival_statement_id = "Some actual CONCRETE_6 individual is contingent and has no actual CONCRETE_6 ground"
+sense_definition_id = "Contingent actual root: a brute contingent foundation"
+outcome = "model-witnessed"
+conditions = "Control.bruteRoot at world false: the rival, a unique actual root and excluded middle hold; UniqueNecessaryActualRootAt fails. Consumer tested: ActualRootNecessityUpgrade.upgrade."
+scope = "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, one candidate."
+coverage = "One explicitly populated interpretation; not every brute-fact view."
+exclusivity = "The rival and the premise cannot both hold on one Profile and world (unregistered helper contingentRoot_excludes); with excluded middle the rival is the premise's negation (existing everyContingentGrounded_iff_noContingentRoot)."
+witness = "Control.bruteRoot in Control.ContingentRootSurvives; contingentRootSurvives proves the listed conjuncts."
+next_step = "Test the rival against the recorded explanation principles (no brute existence at the selected world) under one semantic profile."
+
+[[argument]]
+id = "Idle-maximum rival of the genus principle at being survives, checked"
+theorem = "idleMaximumSurvives"
+premises = []
+conclusion = "Idle maximum: a maximum in being exists and no maximum causes the being of every other being"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit three-member interpretation, checked by case analysis"
+meaning = "Rival test for the genus principle at being against its smallest consumer, TermSenseForks3.maximeEnsCausesAllMaximal (premises: some being is maximal in being, the genus principle at being). With a top that causes nothing and a maker that causes the being of a made thing, the idle-maximum rival holds with the existence premise and no maximum causes the being of all others. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+rival_statement_id = "Some maximum in being leaves the being of another being to a third cause"
+sense_definition_id = "Idle maximum in being: another cause gives being where the maximum does not"
+outcome = "model-witnessed"
+conditions = "Control.tierAct, tierMore, tierCause at the one respect: the rival and SomeBeingMaximalInBeing hold; MaximeEnsCausesBeingOfAllReading fails. Consumer tested: TermSenseForks3.maximeEnsCausesAllMaximal."
+scope = "Same InAct, MoreIn, CausesIn and esse parameters as the premise; three members strictly ranked."
+coverage = "One explicitly populated interpretation; the maker's own being is uncaused there, which the rival does not require."
+exclusivity = "The rival and the premise cannot both hold on one set of parameters (unregistered helper idleMaximum_excludes)."
+witness = "Control.Tier with tierAct, tierMore, tierCause in Control.IdleMaximumSurvives; idleMaximumSurvives proves the listed conjuncts."
+next_step = "Test the rival against the participation premises (whatever has esse by participation is caused by what has it essentially), which a holder of the rival must reject or restrict."
+
+[[argument]]
+id = "Thin-existence rival of the existence-to-act contract survives, checked"
+theorem = "thinExistenceSurvives"
+premises = []
+conclusion = "Thin existence: an existing intellectual exerciser is in act in no respect"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit one-world interpretation, checked directly"
+meaning = "Rival test for the existence-to-act contract against its smallest consumer, Round2ExistenceAct.intellectualExerciseRequiresActFromExistence (premises: every intellectual exerciser exists at the world, the existence-to-act contract). With one existing exerciser in act in no respect, the thin-existence rival holds with the other premise and the conclusion fails. Model-witnessed survival only; the interpretation assigns no act at all, which the rival permits but does not require."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-EXISTING-IN-ACT-AT"
+rival_statement_id = "Something exists at the selected world and no existent there is in act in esse"
+sense_definition_id = "Thin existence: existents of the selected world have no act of being"
+outcome = "model-witnessed"
+conditions = "Control.thinOntic, thinAct, thinAttribution at the one world: the rival and IntellectualExerciserExistsAt hold; IntellectualExerciseRequiresAct fails. Consumer tested: Round2ExistenceAct.intellectualExerciseRequiresActFromExistence."
+scope = "Same Ontic model, InAct, esse and selected world as the premise; one world, one candidate, one respect."
+coverage = "One explicitly populated interpretation; the weaker two-category rival (some existents with the act, some without) is not tested."
+exclusivity = "The rival and the premise cannot both hold on one model, InAct, esse and world (unregistered helper thinExistence_excludes)."
+witness = "Control.thinOntic with thinAct and thinAttribution in Control.ThinExistenceSurvives; thinExistenceSurvives proves the listed conjuncts."
+next_step = "Test the rival against the adopted concrete-as-esse-in-re sense: with it the rival makes every existent of the world abstract, so it stands or falls with the abstract-only rival of concrete population."
+
+[[argument]]
+id = "Non-concrete-cause rival of the esse-cause bridge survives, checked"
+theorem = "nonConcreteEsseCauseSurvives"
+premises = []
+conclusion = "Form as cause: a non-concrete esse cause holds and an actual contingent concretum is ungrounded"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretation, checked by case analysis"
+meaning = "Rival test for the esse-cause bridge against its smallest consumer, Round2Grounding.contingentGroundedViaParticipation (premises: actual contingent concreta participate esse, participated esse has a distinct cause, the esse-cause bridge). With a non-concrete item causing the esse of a contingent concretum, the rival holds with the other two premises and contingent dependence on an actual concrete ground fails. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+rival_statement_id = "Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6"
+sense_definition_id = "Non-concrete cause of an actual concretum's esse"
+outcome = "model-witnessed"
+conditions = "Control.formCause at world false with formCauses and formParticipates: the rival, ContingentConcretumParticipatesEsse and ParticipatedEsseHasDistinctCause hold; EveryContingentGroundedAt fails. Consumer tested: Round2Grounding.contingentGroundedViaParticipation."
+scope = "Same Profile, selected world, CausesIn and esse as the premise; two mutually accessible worlds, two candidates."
+coverage = "One explicitly populated interpretation; the other failure modes of the bridge (absent cause; concrete cause that is no selected-relation ground) are not tested."
+exclusivity = "The rival and the premise cannot both hold on one Profile, world, CausesIn and esse (unregistered helper nonConcreteEsseCause_excludes)."
+witness = "Control.formCause in Control.NonConcreteEsseCauseSurvives; nonConcreteEsseCauseSurvives proves the listed conjuncts."
+next_step = "Test the rival against the principle that causing requires act and the adopted sense of concrete as esse in re: together they would make every cause of esse concrete."
+
+[[argument]]
+id = "Unbounded-grades rival of grades-to-maximum at being survives, checked"
+theorem = "unboundedGradesSurvive"
+premises = []
+conclusion = "Endless ascent: unbounded grades hold with the other uniqueness inputs and no unique necessary root"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit one-world interpretation on the natural numbers, checked directly"
+meaning = "Rival test for grades-to-maximum at being against its smallest consumer, SelectedAncestryUnique.uniqueRoot (premises: a necessary root ancestor of the selected being, excluded middle, the genus principle at being, the existence-to-act contract, the esse-cause bridge, grades-to-maximum at being). On the natural numbers ordered by size, all necessary and ungrounded, the unbounded-grades rival holds with the other five premises and there are many necessary roots, so none is unique. Two of the other premises hold vacuously there. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+rival_statement_id = "Some pair compares in esse and every individual in act in esse is exceeded by one in act"
+sense_definition_id = "Unbounded grades of being: every actual grade is exceeded by an actual one"
+outcome = "model-witnessed"
+conditions = "Control.ascent at its one world with ascentAct, ascentMore, ascentCause and selected being 0: the rival, NecessaryRootAncestor, excluded middle, MaximumInBeingCausesAllBeingsReading, ExistingInActAt and EsseCauseIsActualConcreteGround hold; UniqueNecessaryActualRootAt fails. Consumer tested: SelectedAncestryUnique.uniqueRoot."
+scope = "Same InAct, MoreIn and esse as the premise; one world, natural-number candidates, strict order with no top."
+coverage = "One infinite interpretation; the genus principle and the esse-cause bridge hold vacuously there, so a model with a working causal order and unbounded grades is not exhibited."
+exclusivity = "The rival and the premise cannot both hold on one InAct, MoreIn and esse (unregistered helper unboundedGrades_exclude)."
+witness = "Control.ascent in Control.UnboundedGradesSurvive; unboundedGradesSurvive proves the listed conjuncts."
+next_step = "Compare the rival with the two recorded derivations of the premise (from no infinite ascent in being, and from grading by approach to a primary): each derivation's premises jointly exclude the rival, so its holder must deny one premise of each."
+
+[[argument]]
+id = "Mere-conservation rival of universal perfection transfer survives, checked"
+theorem = "mereConservationSurvives"
+premises = []
+conclusion = "Mere conservation: residual transfer holds and a cause of being fails to cause a perfection"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit three-member interpretation with two respects, checked by case analysis"
+meaning = "Rival test for universal perfection transfer against its smallest consumer, CausalPerfectionTransfer.reconstruction (premises: universal perfection transfer, residual transfer). With a universal source of esse and a secondary cause that alone causes a further perfection, the mere-conservation rival holds with the residual condition and the unrestricted transfer principle fails. Model-witnessed survival only; the existing four-role secondary-only interpretation does not satisfy the residual condition, so a new interpretation is used."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+rival_statement_id = "Some universal cause of esse leaves an actual perfection of its effect to a secondary cause"
+sense_definition_id = "Mere conservation: a universal cause of esse leaves a perfection to a secondary cause"
+outcome = "model-witnessed"
+conditions = "Control.conserveAct and conserveCause with esse = false: the rival and ResidualPerfectionTransfer hold; CauseOfBeingCausesEveryPerfection fails. Consumer tested: CausalPerfectionTransfer.reconstruction."
+scope = "Same InAct, CausesIn and esse as the premise; three members, two respects."
+coverage = "One explicitly populated interpretation; the residual condition holds vacuously there."
+exclusivity = "The rival and the premise cannot both hold on one InAct, CausesIn and esse (unregistered helper mereConservation_excludes)."
+witness = "Control.Tier with conserveAct and conserveCause in Control.MereConservationSurvives; mereConservationSurvives proves the listed conjuncts."
+next_step = "Test the rival against the premise that a thing's perfections are had only insofar as it has being, under the recorded meaning of causal responsibility."
+
+[[argument]]
+id = "Non-concrete-priority rival of the simple-priority bridge survives, checked"
+theorem = "abstractPriorSurvives"
+premises = []
+conclusion = "Abstract priority: a non-concrete prior item holds and no necessary actual root is a first being"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit one-world interpretation, checked by case analysis"
+meaning = "Rival test for the simple-priority bridge against its smallest consumer, NecessaryFirstBeing.necessaryFirst (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle, the simple-priority bridge). With a non-concrete item simply prior to the one necessary concrete root, the rival holds with the other four premises and that root is not a first being. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+rival_statement_id = "Something not CONCRETE_6 is SIMPLY_PRIOR_1 to a distinct actual concretum"
+sense_definition_id = "Non-concrete item simply prior to an actual concretum"
+outcome = "model-witnessed"
+conditions = "Control.abstractPrior at its one world with abstractPriorTo: the rival, concrete population, WholeRosterNotTrapped, EveryContingentGroundedAt and excluded middle hold; NecessaryActualFirstAt fails. Consumer tested: NecessaryFirstBeing.necessaryFirst."
+scope = "Same Profile, selected world and PriorSimply as the premise; one world, two candidates."
+coverage = "One explicitly populated interpretation; contingent dependence holds vacuously there."
+exclusivity = "The rival and the premise cannot both hold on one Profile, world and PriorSimply (unregistered helper abstractPrior_excludes)."
+witness = "Control.abstractPrior in Control.AbstractPriorSurvives; abstractPriorSurvives proves the listed conjuncts."
+next_step = "Test the rival against act-is-simply-prior-to-potency and the adopted sense of concrete: what is simply prior would have to be in act, hence have esse in re."
+
+[[argument]]
+id = "Exceeded-god rival of God's maximality in being survives, checked"
+theorem = "exceededGodSurvives"
+premises = []
+conclusion = "Exceeded god: a composite god with a uniting cause more in being, so God is not simple there"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-member interpretation, checked directly"
+meaning = "Rival test for God's maximality in being against its smallest consumer, StageTwo.GodIsSimple.godIsSimple (premises: whatever is God is maximal in being, every composite has a uniting cause of its esse, a cause of a quality in another is more such). With a composite god whose uniting cause is more in being and is not God, the exceeded-god rival holds with the other two premises and God is composite. Model-witnessed survival only; it does not show that the name God is correctly applied to such a being."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+rival_statement_id = "Something that is GOD_4 has being and is exceeded in being by something that is not GOD_4"
+sense_definition_id = "Exceeded god: something divine with being is exceeded in being by a non-divine thing"
+outcome = "model-witnessed"
+conditions = "Control.demiurgeGod, demiurgeAct, demiurgeMore, demiurgeCause, with Composite := demiurgeGod: the rival, CompositeHasAUnitingCauseReading and CauseOfQualityInAnotherIsMoreSuchReading hold; GodIsSimple fails. Consumer tested: StageTwo.GodIsSimple.godIsSimple."
+scope = "Same IsGod, InAct, MoreIn and esse as the premise; two members, one respect."
+coverage = "One explicitly populated interpretation; not every finite-god theology."
+exclusivity = "The rival and the premise cannot both hold on one IsGod, InAct, MoreIn and esse (unregistered helper exceededGod_excludes)."
+witness = "Control.demiurgeGod with demiurgeAct, demiurgeMore, demiurgeCause in Control.ExceededGodSurvives; exceededGodSurvives proves the listed conjuncts."
+next_step = "Test the rival against the nominal definitions of stage one: under 'God names what is maximal in being' the exceeding thing, if maximal, is God, which the rival denies."
+
+[[argument]]
+id = "Contingent-support rival of the no-contingent-support premise survives, checked"
+theorem = "contingentSupportSurvives"
+premises = []
+conclusion = "Sustained whole: contingent support holds with the other join inputs, nothing necessary underived"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretation, checked by case analysis"
+meaning = "Rival test for the no-contingent-support premise against its smallest consumer, NecessaryConcreteUnderived.checks (premises: concrete population, well-founded actual grounding, contingent dependence, reflexive access at the selected world, no contingent concrete support, well-founded union of necessary support, excluded middle). With a necessary whole that is a root at the selected world and is grounded at another world by a part existing only there, the rival holds with the other six premises and no necessary concretum is underived at every admitted world. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-NO-CONTINGENT-CONCRETE-SUPPORT"
+rival_statement_id = "Some necessary concretum is supported somewhere by a concretum absent from an accessible world"
+sense_definition_id = "Contingent support of a necessary concretum at some admitted world"
+outcome = "model-witnessed"
+conditions = "Control.sustainedWhole at world false: the rival, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, ConcreteNecessaryUnionWF and excluded middle hold; NecessaryConcreteUnderivedAt fails. Consumer tested: NecessaryConcreteUnderived.checks."
+scope = "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, three candidates, all concrete."
+coverage = "One explicitly populated interpretation. In it the necessary whole is unsupported at the selected world and supported only elsewhere; the other premises force some necessary actual root, so a rival model with support at the selected world itself needs a second necessary candidate and is not exhibited."
+exclusivity = "The rival and the premise cannot both hold on one Profile and world (unregistered helper contingentSupport_excludes)."
+witness = "Control.sustainedWhole in Control.ContingentSupportSurvives; contingentSupportSurvives proves the listed conjuncts."
+next_step = "Decide whether the direction of the selected relation may differ between worlds for the same pair of kinds (whole grounds part here, part grounds whole there); an invariance premise on the relation would exclude this interpretation."
+
+[[argument]]
+id = "Mutual-support rival of well-founded necessary support survives, checked"
+theorem = "mutualSupportSurvives"
+premises = []
+conclusion = "Mutual pair: mutual support holds with the other join inputs and nothing necessary is underived"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit two-world interpretation, checked by case analysis"
+meaning = "Rival test for well-founded necessary support against its smallest consumer, NecessaryConcreteUnderived.checks (premises as listed there). With two necessary concreta, the first grounding the second at the selected world and the second grounding the first at another world, the mutual-support rival holds with the other six premises and no necessary concretum is underived at every admitted world. Each world's own grounding is well-founded; only the union across worlds is circular. Model-witnessed survival only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
+rival_statement_id = "Two necessary concreta support each other, each at some admitted world"
+sense_definition_id = "Mutual support of necessary concreta across admitted worlds"
+outcome = "model-witnessed"
+conditions = "Control.mutualPair at world false: the rival, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, NoContingentConcreteSupport and excluded middle hold; NecessaryConcreteUnderivedAt fails. Consumer tested: NecessaryConcreteUnderived.checks."
+scope = "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, two candidates, both concrete and necessary."
+coverage = "One explicitly populated interpretation with a cross-world circle; a circle within one world is excluded by the other premises at the selected world and is not exhibited elsewhere."
+exclusivity = "The rival implies the negation of the premise on one Profile and world (unregistered helper mutualSupport_excludes); an endless descending chain would also negate the premise and is a different rival."
+witness = "Control.mutualPair in Control.MutualSupportSurvives; mutualSupportSurvives proves the listed conjuncts."
+next_step = "Test the rival against a no-novel-necessary-support condition (support between necessary individuals at any world already occurs at the selected world); whether it excludes the rival together with actual well-foundedness is untested."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Abstract-only population is an alternative to concrete population"
+subject_kind = "statement"
+subject_id = "Something exists at the selected world and nothing existing there is CONCRETE_6"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-COGITO-INHABITED-CONCRETE-WORLD"
+note = "Same Ontic model, concrete predicate and world. Stronger than the negation: adds that something exists. Recorded so the premise can later be defended or refuted; neither is established."
+
+[[relation]]
+id = "Bottomless actual grounding is an alternative to whole-roster nontrapping"
+subject_kind = "statement"
+subject_id = "The actual CONCRETE_6 roster is inhabited and every member has an actual CONCRETE_6 ground"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-WHOLE-ROSTER-NOT-TRAPPED"
+note = "Same Profile and world. The rival implies the negation of the premise (checked); the converse is not checked. Neither is established."
+
+[[relation]]
+id = "A contingent actual root is an alternative to contingent dependence"
+subject_kind = "statement"
+subject_id = "Some actual CONCRETE_6 individual is contingent and has no actual CONCRETE_6 ground"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-EVERY-CONTINGENT-GROUNDED-AT"
+note = "Same Profile and world. The rival asserts an instance the premise forbids; with excluded middle it is the premise's negation. Neither is established."
+
+[[relation]]
+id = "An idle maximum is an alternative to the genus principle at being"
+subject_kind = "statement"
+subject_id = "Some maximum in being leaves the being of another being to a third cause"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-MAXIMUM-IN-BEING-CAUSES-ALL-BEINGS"
+note = "Same InAct, MoreIn, CausesIn and esse. Stronger than the negation: names a replacing cause. Neither is established."
+
+[[relation]]
+id = "Thin existence is an alternative to the existence-to-act contract"
+subject_kind = "statement"
+subject_id = "Something exists at the selected world and no existent there is in act in esse"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-EXISTING-IN-ACT-AT"
+note = "Same Ontic model, InAct, esse and world. Stronger than the negation: no existent of the world has the act. Neither is established."
+
+[[relation]]
+id = "A non-concrete esse cause is an alternative to the esse-cause bridge"
+subject_kind = "statement"
+subject_id = "Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-ESSE-CAUSE-IS-ACTUAL-CONCRETE-GROUND"
+note = "Same Profile, world, CausesIn and esse. Stronger than the negation: fixes that the concreteness clause fails. Neither is established."
+
+[[relation]]
+id = "Unbounded grades of being are an alternative to grades-to-maximum at being"
+subject_kind = "statement"
+subject_id = "Some pair compares in esse and every individual in act in esse is exceeded by one in act"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-GRADES-TO-MAXIMUM-AT-BEING"
+note = "Same InAct, MoreIn and esse. Stronger than the negation: the exceeding individual is itself in act. Neither is established."
+
+[[relation]]
+id = "Mere conservation is an alternative to universal perfection transfer"
+subject_kind = "statement"
+subject_id = "Some universal cause of esse leaves an actual perfection of its effect to a secondary cause"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-UNIVERSAL-CAUSE-TRANSFERS-PERFECTIONS"
+note = "Same InAct, CausesIn and esse. Stronger than the negation: names the secondary cause. Neither is established."
+
+[[relation]]
+id = "Non-concrete simple priority is an alternative to the simple-priority bridge"
+subject_kind = "statement"
+subject_id = "Something not CONCRETE_6 is SIMPLY_PRIOR_1 to a distinct actual concretum"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND"
+note = "Same Profile, world and PriorSimply. Stronger than the negation: fixes that the concreteness clause fails. Neither is established."
+
+[[relation]]
+id = "An exceeded god is an alternative to God's maximality in being"
+subject_kind = "statement"
+subject_id = "Something that is GOD_4 has being and is exceeded in being by something that is not GOD_4"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-GOD-IS-MAXIMAL-IN-BEING"
+note = "Same IsGod, InAct, MoreIn and esse. Stronger than the negation: the god has being and what exceeds it is not God. Neither is established."
+
+[[relation]]
+id = "Contingent support of a necessary concretum is an alternative to its exclusion"
+subject_kind = "statement"
+subject_id = "Some necessary concretum is supported somewhere by a concretum absent from an accessible world"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-NO-CONTINGENT-CONCRETE-SUPPORT"
+note = "Same Profile and selected world. The rival implies the negation constructively and exhibits the absent-at world; with excluded middle it is equivalent to the negation. Neither is established."
+
+[[relation]]
+id = "Mutual support of necessary concreta is an alternative to well-founded necessary support"
+subject_kind = "statement"
+subject_id = "Two necessary concreta support each other, each at some admitted world"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
+note = "Same Profile and selected world. Stronger than the negation: an endless descending chain would also negate the premise. Neither is established."

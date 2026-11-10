@@ -1,11 +1,11 @@
 {
   "id": "380e04e3-70a6-4640-8a9c-f5ab888b5271",
-  "label": "Reachability specification alone constrains neither composition nor intellect",
+  "label": "Reachability control conjoined with two trivial negations of False",
   "argument_id": "1153bfbf-68f8-4dd9-9416-22d96a6d1ba1",
   "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Challenge",
   "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.Solution",
   "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationPaths.rootIndependence",
   "comparator_config": "results/380e04e3-70a6-4640-8a9c-f5ab888b5271/comparator.json",
   "status": "solution-present",
-  "description": "The explicit Nat and Bool reachability specification coexists with separately constantly false composition and intellect assignments at the Nat anchor. This is a candidate-language independence diagnostic only: no mapping to the original ground or Aquinas intellect is supplied."
+  "description": "Trivial conjunction, not an independence result: reachVaryingControl together with two copies of NOT False (the constantly false predicate on Nat applied to the Nat anchor). No composition, intellect or route predicate occurs in the type, so it certifies nothing about composition or intellect. The genuine control is 'A shared reachability profile fixes neither route composition nor intellect' (routeIndependenceControl)."
 }

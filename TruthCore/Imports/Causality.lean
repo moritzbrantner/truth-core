@@ -17,6 +17,7 @@ public import TruthCore.Causality.AppetitePowerExercise
 public import TruthCore.Causality.AristotelianCauseModes
 public import TruthCore.Causality.AristotelianRivalRefutations
 public import TruthCore.Causality.AtomisticCausalSource
+public import TruthCore.Causality.AtomisticRequirementControl
 public import TruthCore.Causality.AtomisticUniversalCausePriority
 public import TruthCore.Causality.BearerRegress
 public import TruthCore.Causality.BoundedPastResource
@@ -167,6 +168,8 @@ public import TruthCore.Causality.SelfMotionSeparation
 public import TruthCore.Causality.SelfOperationLife
 public import TruthCore.Causality.SourceForest
 public import TruthCore.Causality.SourceWitness
+public import TruthCore.Causality.SpineRivalsAttributes
+public import TruthCore.Causality.SpineRivalsRootEsse
 public import TruthCore.Causality.SpineRivalsStageOne
 public import TruthCore.Causality.StrictPriorityPureAct
 public import TruthCore.Causality.SubjectFocalRoles

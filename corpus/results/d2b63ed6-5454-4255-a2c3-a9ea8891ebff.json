@@ -1,0 +1,11 @@
+{
+  "id": "d2b63ed6-5454-4255-a2c3-a9ea8891ebff",
+  "label": "Concession, answerability, goal-relativism and indifference bundle exclusion",
+  "argument_id": "3cbf5d3b-f38c-49a7-aece-ca81af7fd1c8",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicAuthority.authorityRivalBundleInconsistent",
+  "comparator_config": "results/d2b63ed6-5454-4255-a2c3-a9ea8891ebff/comparator.json",
+  "status": "solution-present",
+  "description": "Checked exclusion: composes the answerability argument with the goal-relative exclusion. At least one of the four members fails in any frame; the theorem does not select which. Analyst formulation, attribution deferred."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "d9f96be1-e2bb-4446-8cb5-b75330323dfc",
+  "label": "Some supplied preference alternative lacks the accuracy aim",
+  "paraphrase": "OPEN analyst premise, attribution deferred: at least one supplied preference alternative does not satisfy the supplied accuracy-aim predicate (an accuracy-indifferent profile is in the comparison class).",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.IndifferenceAvailable",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

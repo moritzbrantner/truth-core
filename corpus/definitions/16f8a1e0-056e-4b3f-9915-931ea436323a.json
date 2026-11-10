@@ -1,0 +1,9 @@
+{
+  "id": "16f8a1e0-056e-4b3f-9915-931ea436323a",
+  "label": "Mere conservation: a universal cause of esse leaves a perfection to a secondary cause",
+  "term": "mere conservation",
+  "definition": "UniversalCauseLeavesPerfectionToSecondary InAct CausesIn esse holds when there are c, x, r and d such that c causes the esse of every other thing in act in esse, x is other than c, c causes x's esse, x is in act in r, c does not cause x's being r, and d, other than c, does cause x's being r. Ordinary meaning: the universal source keeps things in being, and a creature alone produces some further perfection. Example: a pupil kept in being by the universal source and taught a skill by a teacher alone. It is not occasionalism (the secondary cause really causes) and not concurrentism (the universal cause does not co-cause that perfection).",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.UniversalCauseLeavesPerfectionToSecondary",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by mere conservationism about divine and creaturely causation. Rival of UniversalCauseTransfersPerfections on the same InAct, CausesIn and esse. Stronger than the negation: it names the secondary cause. CausesIn keeps its recorded meaning of effective causal responsibility, mediated causation included; the rival therefore denies that keeping a thing in being makes one causally responsible for all it actually is."
+}

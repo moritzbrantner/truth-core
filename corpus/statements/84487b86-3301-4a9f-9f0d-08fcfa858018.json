@@ -1,0 +1,9 @@
+{
+  "id": "84487b86-3301-4a9f-9f0d-08fcfa858018",
+  "label": "Endless ascent: unbounded grades hold with the other uniqueness inputs and no unique necessary root",
+  "paraphrase": "Closed control on one interpretation (one world; the natural numbers all exist, are concrete, ungrounded and in act in esse; the greater number is more in esse; nothing causes esse): the unbounded-grades rival holds; zero has a necessary root ancestor (itself); excluded middle holds; whatever is maximal in being causes the being of every other being (vacuously, there being no maximum); every existent is in act in esse; every distinct esse cause of an actual concretum is its actual concrete ground (vacuously); and there is no actual root that is necessary and unique. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.UnboundedGradesSurvive",
+  "definition_ids": [
+    "7c0acaa9-c119-4130-8c80-acd91eba129f"
+  ]
+}

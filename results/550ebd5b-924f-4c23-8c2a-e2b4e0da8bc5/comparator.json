@@ -2,7 +2,8 @@
   "challenge_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Challenge",
   "solution_module": "TruthCore.Results.Logic.MoralAttitudeProfiles.Solution",
   "theorem_names": [
-    "TruthCore.Results.Logic.MoralAttitudeProfiles.ancestralDirect"
+    "TruthCore.Results.Logic.MoralAttitudeProfiles.ancestralDirect",
+    "TruthCore.Results.Logic.MoralAttitudeProfiles.calibrationTruth"
   ],
   "permitted_axioms": [],
   "enable_nanoda": true

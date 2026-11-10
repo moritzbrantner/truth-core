@@ -19,6 +19,7 @@ public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
+public import TruthCore.Results.Logic.EpistemicAuthority.Solution
 public import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution

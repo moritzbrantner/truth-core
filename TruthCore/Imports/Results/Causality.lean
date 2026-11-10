@@ -17,6 +17,7 @@ public import TruthCore.Results.Causality.AristotelianRivalRefutations.Solution
 public import TruthCore.Results.Causality.AtomisticCausalSource.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryBeing.Solution
 public import TruthCore.Results.Causality.AtomisticNecessaryConstituent.Solution
+public import TruthCore.Results.Causality.AtomisticRequirementControl.Solution
 public import TruthCore.Results.Causality.AtomisticUniversalCausePriority.Solution
 public import TruthCore.Results.Causality.BearerRegress.Solution
 public import TruthCore.Results.Causality.BoundedPastResource.Solution
@@ -259,6 +260,8 @@ public import TruthCore.Results.Causality.SourceForest.Solution
 public import TruthCore.Results.Causality.SourceForestInterop.Solution
 public import TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solution
 public import TruthCore.Results.Causality.SourceWitness.Solution
+public import TruthCore.Results.Causality.SpineRivalsAttributes.Solution
+public import TruthCore.Results.Causality.SpineRivalsRootEsse.Solution
 public import TruthCore.Results.Causality.SpineRivalsStageOne.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution

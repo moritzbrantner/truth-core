@@ -1,0 +1,15 @@
+{
+  "id": "3143560d-33fa-4dd5-9754-ebb247c5f67d",
+  "label": "Rival: some caused thing has a perfection that no cause of its being has (strong emergence)",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by strong emergence and by Hume's 'anything may produce anything': some thing is in act in a respect, has at least one cause of its being, and no cause of its being is in act in that respect. The replacement account is that the perfection arises with the effect's organization and is not found in what causes it to be. Strictly stronger than the negation of STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, which needs only one cause of being that lacks the perfection. It does not say the perfection is uncaused.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.EmergentPerfectionReading",
+  "definition_ids": [
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "ff1ba8f4-ab6e-5bdd-9e17-02b08a025168",
+    "00bd3c0c-010a-559c-a2a0-b4fbf49cbaf1",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "dba7b1de-f3a0-57af-9af9-b2a4da3136fa"
+  ]
+}

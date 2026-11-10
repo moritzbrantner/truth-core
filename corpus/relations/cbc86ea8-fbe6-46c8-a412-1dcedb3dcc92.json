@@ -1,0 +1,10 @@
+{
+  "id": "cbc86ea8-fbe6-46c8-a412-1dcedb3dcc92",
+  "label": "A contingent actual root is an alternative to contingent dependence",
+  "subject_kind": "statement",
+  "subject_id": "ee1fc469-42d7-4b5b-bedc-aaacfb4df275",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+  "note": "Same Profile and world. The rival asserts an instance the premise forbids; with excluded middle it is the premise's negation. Neither is established."
+}
