@@ -1,0 +1,39 @@
+[batch]
+vocab = "TruthCore.Causality.EventIdentityProfiles"
+results = "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport"
+
+[[statement]]
+id = "A3 accessible occurrence uniqueness transports possible conditioning"
+lean = "AccessibleSameEventTransport"
+paraphrase = "For unrestricted bearer, time, state, world and condition carriers: IF, among the occurrences that occur at some world accessible from w, only the selected occurrence carries the selected state-pair transition, and some occurrence with that transition is possibly conditioned at w, THEN the selected occurrence itself is possibly conditioned at w. Occurrences with the same transition that occur at no accessible world are permitted. Conditional analyst transport with attribution deferred; uniqueness and the matching conditioning are explicit hypotheses, not established. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality."
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+definitions = ["c15d4a39-fd79-4c1f-88fa-376cad2eb179", "e7dc62a6-7b2f-4467-87b3-ec287bd67047"]
+
+[[statement]]
+id = "A3 accessible occurrence transport strength and omission controls"
+lean = "AccessibleTransportControls"
+paraphrase = "Over unrestricted carriers: the accessible-occurrence transport law implies the earlier type-global-uniqueness law; UniqueRealization with admission read as occurrence at an accessible world, together with accessible occurrence of the selected occurrence, implies the relativized uniqueness hypothesis; and type-global selected uniqueness forces every bearer and every ordered start/finish pair to equal the selected occurrence's. In one finite Bool model two distinct occurrences share a transition and only one occurs: the relativized hypothesis and matching possible conditioning hold, type-global uniqueness fails, and the conclusion holds. Omitting the uniqueness hypothesis, or omitting the matching possible conditioning, makes the universal law false. Analyst controls only; no premise or root truth."
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+definitions = ["c15d4a39-fd79-4c1f-88fa-376cad2eb179", "e7dc62a6-7b2f-4467-87b3-ec287bd67047"]
+
+[[argument]]
+id = "A3 same-event transport under accessible occurrence uniqueness"
+theorem = "accessibleTransport"
+premises = []
+conclusion = "A3 accessible occurrence uniqueness transports possible conditioning"
+rule = "constructive-proof"
+meaning = "Prove the universally quantified conditional transport law whose uniqueness antecedent is relativized to occurrences occurring at a world accessible from w. The proof applies uniqueness to the conditioned matching occurrence using the occurrence supplied by possible conditioning. Corrects the earlier law, whose uniqueness antecedent ranged over the whole occurrence type. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN."
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+senses = { A3_EVENT_IDENTITY_CAUSAL_PRIORITY = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56" }
+sense_bridges = [{ term = "A3_EVENT_IDENTITY_CAUSAL_PRIORITY", from = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56", to = "eaa836ba-e872-4c16-9511-4ce208529a62", statement_id = "A3 accessible occurrence uniqueness transports possible conditioning", role = "conclusion" }]
+
+[[argument]]
+id = "A3 accessible occurrence transport controls"
+theorem = "controls"
+premises = []
+conclusion = "A3 accessible occurrence transport strength and omission controls"
+rule = "constructive proof and finite omission controls"
+meaning = "Constructively prove the strength comparison with the type-global law, the derivation of relativized uniqueness from UniqueRealization of accessible occurrence, the collapse forced by type-global uniqueness, one separating nonvacuity witness, and omission countermodels for the uniqueness and matching-conditioning antecedents. No premise discharge or root truth."
+disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
+senses = { A3_EVENT_IDENTITY_CAUSAL_PRIORITY = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56" }
+sense_bridges = [{ term = "A3_EVENT_IDENTITY_CAUSAL_PRIORITY", from = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56", to = "eaa836ba-e872-4c16-9511-4ce208529a62", statement_id = "A3 accessible occurrence transport strength and omission controls", role = "conclusion" }]
