@@ -1,0 +1,65 @@
+[batch]
+vocab = "TruthCore.Causality.ToleranceOriginRival"
+results = "TruthCore.Results.Causality.ToleranceOriginRival"
+
+[[statement]]
+id = "Reflexive symmetric access with two successors of the selected world not mutually accessible"
+lean = "ToleranceNonEuclideanAt"
+paraphrase = "Rival framework commitment, unattributed (modelled on tolerance-based origin essentialism; attribution deferred): every world accesses itself, access is symmetric, and two worlds accessible from the selected world w do not access each other. Replacement account: a history in which a thing's origin differs a little from the actual one is possible relative to the actual history and conversely, but two histories that differ from the actual in opposite directions may differ from each other beyond tolerance. Stronger than the negation of Euclidean access at w by the reflexivity and symmetry conjuncts."
+definitions = ["Euclidean access at the selected world only", "f8948e28-b13a-5244-95f1-41a05cd4fff2", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+disambiguations = ["7181df76-d6ed-5226-a34b-08910ddbe6a0"]
+
+[[statement]]
+id = "Tolerance omission model of actual-world Euclidean access and its chained reading"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls on three origin offsets (minus, actual, plus), natural-number times, every individual counted concrete. (1) Under access iff the offsets differ by at most one step, the tolerance rival holds at actual, actual accesses itself, and access is not Euclidean at actual. (2) On a history over it in which one individual exists at actual and plus and is present there at every time, and another exists at plus only and is present there only at time 1, presence-to-existence, inert emptiness and the possible contingent-free past at actual hold, and no individual exists at actual and at every world accessible from actual. (3) With the same assignment under the chained frame (every offset accesses every offset), Euclidean access at actual holds, the possible contingent-free past at actual fails, and the conclusion still fails. Statements about these finite interpretations only."
+definitions = ["Euclidean access at the selected world only", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one"]
+
+[[argument]]
+id = "Tolerance non-Euclidean access gives the reflexive non-Euclidean rival"
+theorem = "toleranceReflexiveNonEuclidean"
+premises = ["Reflexive symmetric access with two successors of the selected world not mutually accessible"]
+conclusion = "Every world sees itself, yet two possibilities of one world need not see each other"
+axioms = []
+rule = "projection and existential introduction at the selected world"
+meaning = "Strength registration (not a route step): the tolerance rival at a world w on a frame gives the global reflexive non-Euclidean rival on the same frame, by dropping symmetry and taking w as the witness world. The converse fails: the stepwise frame is not symmetric."
+
+[[argument]]
+id = "Tolerance omission model for Euclidean access at the selected world checked"
+theorem = "controls"
+premises = []
+conclusion = "Tolerance omission model of actual-world Euclidean access and its chained reading"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit three-world interpretations checked by case analysis"
+meaning = "The tolerance rival is jointly satisfiable with every other premise of the actual-world Euclidean inert-emptiness arrival (ActualEuclidean.inertNecessaryConcrete) while its conclusion fails, so Euclidean access at the selected world is not redundant there and the rival is not excluded by the remaining premises. Under the chained reading of accessibility the same assignment satisfies Euclidean access at actual but loses the possible contingent-free past, as the arrival requires. The rival is neither refuted nor established; model claims concern these finite interpretations only."
+
+[[argument.research_comparisons]]
+target_statement_id = "Any two successors of the selected world are mutually accessible"
+rival_statement_id = "Reflexive symmetric access with two successors of the selected world not mutually accessible"
+sense_definition_id = "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+outcome = "model-witnessed"
+conditions = "Reflexivity at the selected world, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.toleranceHistory."
+scope = "Same Frame, Ontic and History carrier as ActualEuclidean.inertNecessaryConcrete; three origin offsets, natural-number times, selected world Origin.actual."
+coverage = "One three-offset tolerance frame; not every tolerance or counterpart account, and not the possible-external-cause arrival."
+exclusivity = "The rival's third conjunct is the negation of the target at the same world on the same frame."
+witness = "Control.toleranceHistory, groups 1 and 2 of Control.Certificate; no individual exists at actual and at minus, so NecessaryConcreteAt fails at actual."
+next_step = "Contest the reading: if metaphysical possibility is the chained closure, the target holds but the possible contingent-free past must be re-assessed under that frame (group 3). Test which relation the tolerance theorist's own iterated-possibility commitments fix as alethic possibility."
+
+[[relation]]
+id = "Tolerance non-Euclidean access is an alternative to Euclidean access at the selected world"
+subject_kind = "statement"
+subject_id = "Reflexive symmetric access with two successors of the selected world not mutually accessible"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Any two successors of the selected world are mutually accessible"
+note = "Same Frame carrier and selected world. Recorded so the premise can be defended; neither is established."
+
+[[relation]]
+id = "Tolerance non-Euclidean access strengthens the reflexive non-Euclidean rival"
+subject_kind = "statement"
+subject_id = "Reflexive symmetric access with two successors of the selected world not mutually accessible"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Every world sees itself, yet two possibilities of one world need not see each other"
+verification_result_id = "Tolerance non-Euclidean access gives the reflexive non-Euclidean rival"
+note = "Same frame; symmetry dropped and the selected world taken as witness."

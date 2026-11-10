@@ -1,0 +1,10 @@
+{
+  "id": "1832024b-b05a-4d46-be72-0362703e15ec",
+  "label": "Tolerance non-Euclidean access is an alternative to Euclidean access at the selected world",
+  "subject_kind": "statement",
+  "subject_id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "1b1462e6-c285-448c-87e2-3053bc05a341",
+  "note": "Same Frame carrier and selected world. Recorded so the premise can be defended; neither is established."
+}

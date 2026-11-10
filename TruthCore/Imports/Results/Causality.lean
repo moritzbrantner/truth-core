@@ -281,6 +281,7 @@ public import TruthCore.Results.Causality.TermSenseForks.Solution
 public import TruthCore.Results.Causality.TermSenseForks2.Solution
 public import TruthCore.Results.Causality.TermSenseForks3.Solution
 public import TruthCore.Results.Causality.TermSenseForks4.Solution
+public import TruthCore.Results.Causality.ToleranceOriginRival.Solution
 public import TruthCore.Results.Causality.UnderivedCommonSource.Solution
 public import TruthCore.Results.Causality.UnderivedEssenceEsse.Solution
 public import TruthCore.Results.Causality.UnderivedNonComposite.Solution

@@ -1,0 +1,25 @@
+{
+  "id": "79f66cc6-6a7a-4259-b672-20df29b3ed0c",
+  "label": "Tolerance omission model for Euclidean access at the selected world checked",
+  "argument_id": "712e2795-fb43-4991-845b-b4d26c83f3b8",
+  "challenge_module": "TruthCore.Results.Causality.ToleranceOriginRival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ToleranceOriginRival.Solution",
+  "theorem": "TruthCore.Results.Causality.ToleranceOriginRival.controls",
+  "comparator_config": "results/79f66cc6-6a7a-4259-b672-20df29b3ed0c/comparator.json",
+  "status": "solution-present",
+  "description": "The tolerance rival is jointly satisfiable with every other premise of the actual-world Euclidean inert-emptiness arrival (ActualEuclidean.inertNecessaryConcrete) while its conclusion fails, so Euclidean access at the selected world is not redundant there and the rival is not excluded by the remaining premises. Under the chained reading of accessibility the same assignment satisfies Euclidean access at actual but loses the possible contingent-free past, as the arrival requires. The rival is neither refuted nor established; model claims concern these finite interpretations only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "1b1462e6-c285-448c-87e2-3053bc05a341",
+      "rival_statement_id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
+      "sense_definition_id": "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+      "outcome": "model-witnessed",
+      "conditions": "Reflexivity at the selected world, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.toleranceHistory.",
+      "scope": "Same Frame, Ontic and History carrier as ActualEuclidean.inertNecessaryConcrete; three origin offsets, natural-number times, selected world Origin.actual.",
+      "coverage": "One three-offset tolerance frame; not every tolerance or counterpart account, and not the possible-external-cause arrival.",
+      "exclusivity": "The rival's third conjunct is the negation of the target at the same world on the same frame.",
+      "witness": "Control.toleranceHistory, groups 1 and 2 of Control.Certificate; no individual exists at actual and at minus, so NecessaryConcreteAt fails at actual.",
+      "next_step": "Contest the reading: if metaphysical possibility is the chained closure, the target holds but the possible contingent-free past must be re-assessed under that frame (group 3). Test which relation the tolerance theorist's own iterated-possibility commitments fix as alethic possibility."
+    }
+  ]
+}
