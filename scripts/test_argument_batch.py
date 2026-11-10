@@ -125,6 +125,29 @@ class CommandSmokeTests(unittest.TestCase):
             path.write_text('target = "test"\n')
             self.assertEqual(argument_batch.check_map(path, False), 0)
 
+    def test_materialized_map_mode_preserves_default_and_rejects_missing_text(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "map.toml"
+            path.write_text('[[node]]\nid="STMT-EXCLUDED-MIDDLE"\nnew=true\ntext="Designed node"\n')
+            self.assertEqual(argument_batch.check_map(path, False), 1)
+            self.assertEqual(argument_batch.check_map(path, False, allow_materialized_nodes=True), 0)
+            path.write_text('[[node]]\nid="STMT-EXCLUDED-MIDDLE"\nnew=true\n')
+            self.assertEqual(argument_batch.check_map(path, False, allow_materialized_nodes=True), 1)
+
+    def test_materialized_map_edges_match_only_declared_statement_identities(self):
+        from corpus_ids import legacy_uuid
+        statement = legacy_uuid("statement", "STMT-EXCLUDED-MIDDLE")
+        other = legacy_uuid("statement", "STMT-CATHOLICISM-TRUE")
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "map.toml"
+            text = ('[[node]]\nid="STMT-EXCLUDED-MIDDLE"\n[[edge]]\n'
+                    f'premises=["{statement}"]\nconclusion="STMT-EXCLUDED-MIDDLE"\n')
+            path.write_text(text)
+            self.assertEqual(argument_batch.check_map(path, False), 1)
+            self.assertEqual(argument_batch.check_map(path, False, allow_materialized_nodes=True), 0)
+            path.write_text(text.replace(statement, other))
+            self.assertEqual(argument_batch.check_map(path, False, allow_materialized_nodes=True), 1)
+
     def test_fix_without_arguments(self):
         from subprocess import CompletedProcess
         with patch.object(argument_batch.subprocess, "run", return_value=CompletedProcess([], 0, "", "")):

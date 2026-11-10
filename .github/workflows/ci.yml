@@ -27,6 +27,27 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Resolve Cargo cache identity
+        id: cargo-identity
+        run: |
+          set -euo pipefail
+          identity=$( { rustc -vV; cargo -vV; } | sha256sum | cut -d ' ' -f 1)
+          echo "compiler=$identity" >> "$GITHUB_OUTPUT"
+      # Only main writes reusable build output. PRs restore main's cache and Cargo
+      # still checks source/dependency fingerprints; no successful-check marker is cached.
+      - name: Restore Cargo downloads and workspace build output
+        id: cargo-cache
+        uses: actions/cache/restore@caa296126883cff596d87d8935842f9db880ef25 # v5
+        with:
+          path: |
+            ~/.cargo/registry/index
+            ~/.cargo/registry/cache
+            ~/.cargo/registry/src
+            ~/.cargo/git/db
+            ~/.cargo/git/checkouts
+            target
+          key: truth-cargo-v1-${{ runner.os }}-${{ runner.arch }}-${{ steps.cargo-identity.outputs.compiler }}-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'truth/**/Cargo.toml', '.cargo/**', 'rust-toolchain*') }}-${{ hashFiles('truth/**') }}
+          restore-keys: truth-cargo-v1-${{ runner.os }}-${{ runner.arch }}-${{ steps.cargo-identity.outputs.compiler }}-${{ hashFiles('Cargo.lock', 'Cargo.toml', 'truth/**/Cargo.toml', '.cargo/**', 'rust-toolchain*') }}-
       - name: Verify Rust corpus CLI
         run: |
           cargo fmt --all --check
@@ -34,6 +55,18 @@ jobs:
           cargo test --locked -p truth
           cargo build --locked -p truth
           python3 scripts/verify_truth_cli.py target/debug/truth
+      - name: Save Cargo downloads and workspace build output
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && steps.cargo-cache.outputs.cache-hit != 'true'
+        uses: actions/cache/save@caa296126883cff596d87d8935842f9db880ef25 # v5
+        with:
+          path: |
+            ~/.cargo/registry/index
+            ~/.cargo/registry/cache
+            ~/.cargo/registry/src
+            ~/.cargo/git/db
+            ~/.cargo/git/checkouts
+            target
+          key: ${{ steps.cargo-cache.outputs.cache-primary-key }}
   corpus-and-lean:
     needs: comparator-plan
     runs-on: ubuntu-latest
@@ -60,6 +93,20 @@ jobs:
       # Offline PDF fixture tests always run, even when live source work is unaffected.
       - name: Install PDF source extraction
         run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
+      - name: Validate changed batch specs and exploration maps without writing generated files
+        env:
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+        run: |
+          set -euo pipefail
+          base=HEAD^1
+          if [[ "$EVENT" == push && -n "$BEFORE" && ! "$BEFORE" =~ ^0+$ ]]; then
+            if ! git fetch --quiet --no-tags --depth=1 origin "$BEFORE"; then
+              echo 'Previous tip unavailable; metadata validation will cover every supported TOML.'
+            fi
+            base=$BEFORE
+          fi
+          python3 scripts/affected_results.py check-research-metadata --base "$base" --head HEAD
       - name: Validate corpus metadata and source bindings
         run: python3 scripts/corpus.py check
       # Label clean-up ratchet (#1233): the list of mechanical or compromised labels
