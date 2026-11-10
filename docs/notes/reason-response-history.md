@@ -164,7 +164,7 @@ those conditions may leave a source incompatibilist unsatisfied.
 
 Keep the original acquisition function `a(u,m)` without calling either port an
 autonomous person. Add a later revision stage with independently separated ports:
-old selector `s`, recommendation `j`, access gate `g`, overriding write `b`.
+old selector `s`, recommendation `j`, access gate `g`, revision-suppression flag `b`.
 Set `R(s,j,g,b) = s` when b is true; otherwise j when g is true; otherwise s.
 These equations specify a **structural surrogate**. They do not encode knowledge,
 understanding, genuine reasons or permission to intervene in a real person.
@@ -172,7 +172,8 @@ understanding, genuine reasons or permission to intervene in a real person.
 Admissible *model* interventions change one supplied port while holding the
 stage equation and other ports fixed. Interventions on j test uptake, not an
 ability with the same complete past. g represents availability of the modeled
-revision channel; b is an environment write priority, not any external cause.
+revision channel; b suppresses revision and retains the acquired selector. It
+does not provide a replacement value or represent every external influence.
 Ordinary teaching can supply content through j; an override suppresses j's
 influence. Locating these interfaces in an actual agent remains OPEN: choosing
 a neural variable and calling it assessment would not establish the mapping.
@@ -180,8 +181,9 @@ a neural variable and calling it assessment would not establish the mapping.
 There is a positive bridge with content beyond #1083: for **any** original
 acquisition function, g=true and b=false make the later selector equal j,
 independently of u and m. Also, variation of j changes the later selector at
-every old selector exactly when g=true and b=false. This is screening of earlier
-acquisition by later effective revision, not the old same-present/different-history
+every old selector exactly when g=true and b=false. This screens the direct old-selector input at fixed recommendation; it does not
+establish acquisition-independence of the complete assessment process. It differs
+from the old same-present/different-history
 fixture. Both conditions have concrete witnesses. Removing g or allowing b
 restores dependence on the old selector even with j opposed to it. Thus an earlier
 external-copy acquisition does not itself establish lasting bypass; conversely,
@@ -324,7 +326,8 @@ import TruthCore.Modal.ReasonResponseHistory
 namespace Ownership945Probe
 open TruthCore.Modal.ReasonResponseHistory
 -- old selector, revision recommendation, access gate, revision route override
--- are separate ports. Override is independently an environment write port.
+-- are separate ports. Override suppresses revision and retains old; it supplies
+-- no independent replacement value.
 def revise (old recommendation gate override : Bool) : Bool :=
   if override then old else if gate then recommendation else old
 
@@ -342,7 +345,7 @@ example : ∀ (acquire : Acquisition) u m recommendation,
   intro acquire u m recommendation
   rfl
 
--- Losing access or allowing an overriding write defeats that screening.
+-- Losing access or suppressing revision defeats that screening.
 example : revise false true false false = false ∧
     revise false true true true = false := by decide
 

@@ -6,7 +6,7 @@ definitions = ["bec6024d-d187-4cbb-ba4e-f03410c0b947", "153f216b-fc8b-421f-9486-
 [[statement]]
 id = "Revision uptake screening structural certificate"
 lean = "Screening"
-paraphrase = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; those settings screen every earlier acquisition function, while closed gate and overriding write each retain the old selector in the displayed opposed-input control."
+paraphrase = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; at fixed recommendation those settings screen the direct old-selector input for every acquisition function, while closed gate and revision suppression each retain the old selector in the displayed opposed-input control."
 
 [[argument]]
 id = "Revision uptake screening structural certificate by port evaluation"
@@ -14,7 +14,7 @@ theorem = "screening"
 premises = []
 conclusion = "Revision uptake screening structural certificate"
 rule = "Boolean routing evaluation"
-meaning = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; those settings screen every earlier acquisition function, while closed gate and overriding write each retain the old selector in the displayed opposed-input control. Analyst formulation for #945; no root discharge; attribution deferred."
+meaning = "In the stipulated Boolean revision router, universal recommendation sensitivity holds exactly with open gate and absent override; at fixed recommendation those settings screen the direct old-selector input for every acquisition function, while closed gate and revision suppression each retain the old selector in the displayed opposed-input control. Analyst formulation for #945; no root discharge; attribution deferred."
 axioms = []
 
 [[statement]]
