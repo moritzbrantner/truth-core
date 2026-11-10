@@ -24,7 +24,7 @@ theorem originToleranceNonEuclidean {W B O : Type} (m : Ontic W B) (Concrete : B
   · obtain ⟨x, _, _, a, b, ha, hb, hxa, hxb, hFar⟩ := hVaried
     exact ⟨a, b, ha, hb, fun hab => hFar ((hAccess a b).1 hab x hxa hxb)⟩
 
-/-- The faithful origin-tolerance countermodel and the restored surrogate, by
+/-- The encoded origin-tolerance countermodel (faithful only to its encoded commitments) and the restored surrogate, by
 case analysis. -/
 theorem faithfulControls : Control.Certificate := by
   refine ⟨⟨⟨?_, ?_⟩, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_, ?_⟩, ⟨⟨?_, ?_⟩, ?_, ?_, ?_, ?_⟩⟩

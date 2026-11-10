@@ -42,8 +42,8 @@ symmetric, reflexive non-Euclidean omission model, not a faithful origin-toleran
 countermodel. Restoring the intended commitment (the actual individual exists,
 with a varied origin, at both neighbouring offsets) destroys this particular
 countermodel (`OriginToleranceIdentity.Control.restored`: the restored individual
-exists at every successor of `actual`), but a faithful countermodel with an
-origin interface survives on five worlds with two individuals
+exists at every successor of `actual`), but a countermodel with an encoded
+origin interface (faithful only to its encoded commitments) survives on five worlds with two individuals
 (`OriginToleranceIdentity.Control.faithful`), and the origin commitments entail
 this frame condition (`Results.Causality.OriginToleranceIdentity.originToleranceNonEuclidean`).
 
