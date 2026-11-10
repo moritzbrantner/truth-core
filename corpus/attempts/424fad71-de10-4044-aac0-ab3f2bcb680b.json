@@ -1,0 +1,21 @@
+{
+  "id": "424fad71-de10-4044-aac0-ab3f2bcb680b",
+  "label": "Answerability bridge versus goal-relative force for preference-independent epistemic reasons",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+    "1ef64186-1d82-4801-bf3d-2ab1a6ae7f50",
+    "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+    "c00292fd-600b-4bf1-9259-de782550ee36"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Ran context/dossier/related on the target. Existing Boundary goalRelative frame already shows F6, consideration presentation and the ordinary-role definition fail to exclude the goal-relative rival; accuracy certificates and the nihilism retorsion bind only subjects already taking a correctness aim. Verified four zero-axiom results: actual-force concession plus belief answerability entail the target; goal-relative force plus an indifference alternative entail its negation (so concession, answerability, goal-relativism and indifference are jointly inconsistent); goal-relative force plus a constitutive aim, composed with ordinaryFromThin, entail the target; finite controls separate every premise of the answerability argument and include an actually indifferent subject whose ordinary reason lacks actual force. Rejected: treating accuracy dominance or retorsion as binding indifferent profiles; an all-attitude answerability (stronger than needed). Provisional judgment proposed: underdetermined, leaning supported; strongest objection is the attributive standard versus reason-giving distinction. Details and warrant assessment in docs/notes/epistemic-authority.md. No root connection; frontier-diff no change.",
+  "evidence": [
+    "d3edec46-831e-49df-a4e0-7a77436d478b",
+    "a18b54bf-3a52-48ba-b605-1e1160ddd8f9",
+    "2930b66a-b5e3-4f3f-b2d3-758d84c0e54d",
+    "3f585aa7-636f-4a79-8eab-3f7925367f8d"
+  ],
+  "blocker": "Answerability and the constitutive aim remain open bare bridges; no finite frame discriminates attributive correctness from reason-giving force. Root connection needs a statement linking belief-answerable reasons to the case's premise-assessment attitude."
+}

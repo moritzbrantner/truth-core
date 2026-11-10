@@ -1,0 +1,9 @@
+{
+  "id": "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88",
+  "label": "Goal-relative epistemic force: force iff ordinary epistemic role and an accuracy-aiming preference",
+  "term": "goal-relative (instrumentalist) epistemic force",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.GoalRelativeForce",
+  "definition": "For a Frame and a predicate aims on supplied preference alternatives (the accuracy or truth aim), GoalRelativeForce says: for every subject, consideration, attitude and preference d, the consideration has pro tanto force for the attitude at d iff it plays the ordinary epistemic role (assessable content, relevant application, favorable bearing; EpistemicRole) and d satisfies aims. IndifferenceAvailable says some supplied alternative fails aims: an accuracy-indifferent profile. Under this account evidence that favors p gives an accuracy-valuing subject a reason, and the same evidence gives an indifferent profile none. It differs from bare production or reward: favorable epistemic bearing is still required.",
+  "note": "Stipulative analyst formulation of the strongest surviving rival recorded in docs/notes/epistemic-reasons-930.md, attribution deferred. aims is an explicit parameter, not fixed to any psychological fact. A real instrumentalist may weaken the biconditional (for example, a disjunction of goals, or goals the subject would have under reflection); this pointwise form is one tested version, not the whole family."
+}

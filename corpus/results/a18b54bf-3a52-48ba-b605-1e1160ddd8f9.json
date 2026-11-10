@@ -1,0 +1,11 @@
+{
+  "id": "a18b54bf-3a52-48ba-b605-1e1160ddd8f9",
+  "label": "Preference-independent epistemic reason from a constitutive aim",
+  "argument_id": "1ce421e8-2e2b-4e3a-9272-aee4ab43b7e7",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicAuthority.constitutiveAimAuthority",
+  "comparator_config": "results/a18b54bf-3a52-48ba-b605-1e1160ddd8f9/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst argument, attribution deferred: the existing thin-to-ordinary result yields an ordinary-role reason; inside the goal-relative structure, an aim present in every supplied preference alternative gives that reason force at each one. The goal-relative form is kept; preference independence comes from treating the aim as belonging to belief rather than to desire. It conflicts with an indifference alternative for the same aim. Establishes no premise."
+}

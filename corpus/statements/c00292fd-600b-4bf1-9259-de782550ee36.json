@@ -1,0 +1,10 @@
+{
+  "id": "c00292fd-600b-4bf1-9259-de782550ee36",
+  "label": "Every supplied preference alternative includes the accuracy aim",
+  "paraphrase": "OPEN analyst premise (constitutive-aim reply), attribution deferred: every supplied preference alternative satisfies the supplied accuracy-aim predicate, because the aim belongs to belief as such rather than to the believer's desires. Not a claim that every subject desires accuracy.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.ConstitutiveAim",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "00afca5b-f719-41b6-8ea5-a273d9ec9b6f"
+  ]
+}

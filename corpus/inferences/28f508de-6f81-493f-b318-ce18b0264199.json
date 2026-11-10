@@ -1,0 +1,13 @@
+{
+  "id": "28f508de-6f81-493f-b318-ce18b0264199",
+  "label": "Goal-relative force with indifference excludes preference-independent reasons (inference)",
+  "input_statement_ids": [
+    "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+    "d9f96be1-e2bb-4446-8cb5-b75330323dfc"
+  ],
+  "output_statement_id": "8c6a14f8-5df6-4c29-916f-25185a160415",
+  "rule": "Universal instantiation at the indifferent preference",
+  "meaning": "Conditional analyst argument, attribution deferred: if force at a preference requires the accuracy aim and some supplied preference lacks it, no reason has force at every supplied preference. Combined with the answerability argument, the actual-force concession, answerability, the goal-relative account and an indifference alternative cannot all hold in one frame.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

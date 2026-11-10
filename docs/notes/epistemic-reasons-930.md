@@ -326,3 +326,9 @@ with the approved Mathlib trio. The frozen Challenge remains unchanged. The
 computed root frontier stays90 (30bare/18supported/42stated), cheapest route31;
 no philosophical closure follows from this batch. Final delivered-head CI/review
 retains integration coverage; local result checks do not certify its outcome.
+
+## Answerability versus goal-relative force (2026-11-10)
+
+The bridge from evidential merit to preference-independent force, its
+goal-relative rival, the constitutive-aim variant, their finite controls and a
+provisional judgment are in [epistemic-authority.md](epistemic-authority.md).

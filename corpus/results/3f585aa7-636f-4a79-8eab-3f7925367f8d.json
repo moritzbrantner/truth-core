@@ -1,0 +1,11 @@
+{
+  "id": "3f585aa7-636f-4a79-8eab-3f7925367f8d",
+  "label": "Goal-relative force with indifference excludes preference-independent reasons",
+  "argument_id": "a2a12365-d64a-452a-a6f3-5a3999c3440a",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicAuthority.goalRelativeExcludesAuthority",
+  "comparator_config": "results/3f585aa7-636f-4a79-8eab-3f7925367f8d/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst argument, attribution deferred: if force at a preference requires the accuracy aim and some supplied preference lacks it, no reason has force at every supplied preference. Combined with the answerability argument, the actual-force concession, answerability, the goal-relative account and an indifference alternative cannot all hold in one frame."
+}

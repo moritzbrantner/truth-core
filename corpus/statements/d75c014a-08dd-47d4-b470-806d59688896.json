@@ -1,0 +1,11 @@
+{
+  "id": "d75c014a-08dd-47d4-b470-806d59688896",
+  "label": "Epistemic authority finite omission controls",
+  "paraphrase": "Four explicit finite interpretations: a goal-relative frame satisfying thin F6, consideration presentation, the ordinary-role definition, the actual-force concession, the goal-relative account and an indifference alternative but neither answerability nor a preference-independent reason; the same evidence with an actually indifferent subject whose ordinary reason lacks actual force; a forceless frame with answerability but no concession or conclusion; and an independent frame satisfying concession, answerability and the conclusion.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.Controls",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "881687eb-aed5-47f8-a2fd-a1a7a8a11525",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

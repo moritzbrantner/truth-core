@@ -1,0 +1,13 @@
+{
+  "id": "ec7430c3-43bb-4707-9c8f-d0d901b96f23",
+  "label": "Preference-independent epistemic reason from actual force and answerability (inference)",
+  "input_statement_ids": [
+    "b391c809-50b9-488c-909d-6ba6658b989e",
+    "1ef64186-1d82-4801-bf3d-2ab1a6ae7f50"
+  ],
+  "output_statement_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+  "rule": "Existential elimination and preference-insensitivity transfer",
+  "meaning": "Conditional analyst argument, attribution deferred: take the ordinary belief reason that has force at its subject's actual preference; answerability carries that force to every supplied preference alternative, so it is a preference-independent ordinary reason. Each premise fails in a finite control (goalRelative lacks answerability; forceless lacks the concession). The goal-relative rival grants the concession and denies answerability, so the dispute is isolated in that one bridge. Establishes neither premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

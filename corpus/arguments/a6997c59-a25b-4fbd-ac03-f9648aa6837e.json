@@ -1,0 +1,38 @@
+{
+  "id": "a6997c59-a25b-4fbd-ac03-f9648aa6837e",
+  "label": "Preference-independent epistemic reason from actual force and answerability",
+  "premise_statement_ids": [
+    "b391c809-50b9-488c-909d-6ba6658b989e",
+    "1ef64186-1d82-4801-bf3d-2ab1a6ae7f50"
+  ],
+  "conclusion_statement_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+  "inference_ids": [
+    "ec7430c3-43bb-4707-9c8f-d0d901b96f23"
+  ],
+  "meaning": "Conditional analyst argument, attribution deferred: take the ordinary belief reason that has force at its subject's actual preference; answerability carries that force to every supplied preference alternative, so it is a preference-independent ordinary reason. Each premise fails in a finite control (goalRelative lacks answerability; forceless lacks the concession). The goal-relative rival grants the concession and denies answerability, so the dispute is isolated in that one bridge. Establishes neither premise.",
+  "definition_ids": [
+    "881687eb-aed5-47f8-a2fd-a1a7a8a11525",
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "58ca78b4-33a8-5c4f-a3ee-e206d193f52a",
+    "603ba4fa-53ac-5de1-b0de-393209fa8faf"
+  ],
+  "disambiguation_ids": [
+    "339c6bf8-37f1-5d5e-9f26-3258957443cc"
+  ],
+  "sense_bridges": [
+    {
+      "term": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING",
+      "from": "4a484c8b-c410-47df-9ec0-ab727337427b",
+      "to": "eac235f4-b126-4e9d-92ea-90718277ce71",
+      "statement_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+      "role": "conclusion"
+    },
+    {
+      "term": "EXISTENCE_OF_EPISTEMIC_REASONS_THIN_ENCODING",
+      "from": "eac235f4-b126-4e9d-92ea-90718277ce71",
+      "to": "9da6e2cc-c5cf-44c2-aae9-dd3e92ab5b44",
+      "statement_id": "2ca463c2-bd1f-5a13-a395-0e2c57a5ad8f",
+      "role": "conclusion"
+    }
+  ]
+}

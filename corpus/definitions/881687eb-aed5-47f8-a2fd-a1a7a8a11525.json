@@ -1,0 +1,9 @@
+{
+  "id": "881687eb-aed5-47f8-a2fd-a1a7a8a11525",
+  "label": "Belief answerability: force for a belief does not vary with the supplied preference",
+  "term": "belief answerability (preference-insensitive epistemic force)",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.BeliefAnswerability",
+  "definition": "For a Frame, BeliefAnswerability says: for every subject, consideration and content p, if the consideration has pro tanto force (Frame.force) for believing p at one supplied preference alternative, it has that force at every supplied preference alternative, subject, consideration, content and circumstances fixed. It concerns belief attitudes only (Frame.believe p), not practical attitudes, and it asserts no force anywhere by itself. Ordinary language: what belief is answerable to is its subject matter, so whether a consideration counts for believing p does not depend on what the believer wants. It is distinguished from favoring (evidential merit; Frame.favors), which can hold while force fails, and from an ontic principle of sufficient reason (#756), which it is not.",
+  "note": "Stipulative analyst bridge for #930, attribution deferred. It formalizes the contested step from evidential merit to preference-independent authority. Support and objections are in docs/notes/epistemic-authority.md (transparency of doxastic deliberation, wrong-kind reasons, indifferent believers, instrumentalist replies). Example: a recount of seven blue tiles counts for believing there are seven whether the subject wishes for eight or does not care. Counterexample to its necessity: the goalRelative finite frame, where force holds only at the accuracy preference. Would be sourced by an anti-instrumentalist text stating that reasons for belief are fixed by belief's standard of correctness independently of desire."
+}
