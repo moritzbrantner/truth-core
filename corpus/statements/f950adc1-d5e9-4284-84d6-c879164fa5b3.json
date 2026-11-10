@@ -1,0 +1,14 @@
+{
+  "id": "f950adc1-d5e9-4284-84d6-c879164fa5b3",
+  "label": "Rival: matter-form composition composes, but some esse other than essence does not",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by Scotus's formal distinction and by the view that essence and existence differ without being two parts: whatever is composed of matter and form is composite, and something whose act of being is other than its essence is not composite. The replacement account is that the two differ as formalities or aspects of one simple reality. Strictly stronger than the negation of STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS: it keeps the matter-form inclusion and denies only the esse-essence one. It does not say that esse and essence are identical in that thing.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.EsseEssenceDifferenceWithoutCompositionReading",
+  "definition_ids": [
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231",
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
+  ]
+}

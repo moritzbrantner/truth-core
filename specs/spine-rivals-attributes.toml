@@ -1,0 +1,343 @@
+[batch]
+vocab = "TruthCore.Causality.SpineRivalsAttributes"
+results = "TruthCore.Results.Causality.SpineRivalsAttributes"
+definitions = []
+
+[[statement]]
+id = "Rival: some caused thing has a perfection that no cause of its being has (strong emergence)"
+lean = "EmergentPerfectionReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by strong emergence and by Hume's 'anything may produce anything': some thing is in act in a respect, has at least one cause of its being, and no cause of its being is in act in that respect. The replacement account is that the perfection arises with the effect's organization and is not found in what causes it to be. Strictly stronger than the negation of STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE, which needs only one cause of being that lacks the perfection. It does not say the perfection is uncaused."
+definitions = ["DEF-CAUSE-OF-PERFECTION", "DEF-ACT", "DEF-RESPECT", "DEF-ESSE"]
+disambiguations = ["DISAMB-IN-ACT"]
+
+[[statement]]
+id = "Rival: being GOOD_1 in a perfection requires having it, but some had perfection is not GOOD_1"
+lean = "ActualityNotSufficientForGoodnessReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by the fact/value gap (Hume's is/ought, Moore's open question) and by the objection that some actualities are bad: whatever is good in a perfection actually has it, and something actually has a perfection in which it is not good. The replacement account is that goodness is a further feature that only some actualities have. Strictly stronger than the negation of STMT-GOODNESS-IS-ACTUALITY: it keeps the direction from goodness to actuality and denies only the converse. It is not nihilism about value."
+definitions = ["DEF-GOOD-AS-BEING-IN-ACT", "DEF-ACT"]
+disambiguations = ["DISAMB-GOOD-PRACTICAL-AND-ONTOLOGICAL"]
+
+[[statement]]
+id = "Rival: some composite has no cause of its being at all (brute or necessary composition)"
+lean = "UncausedCompositeReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by brute composition and by accounts of a composite necessary being whose distinct members cannot come apart: some composite has no cause of its being, itself included. The replacement account is that its members cohere of themselves, by necessity or as a brute fact. Strictly stronger than the negation of STMT-COMPOSITE-HAS-A-UNITING-CAUSE, which would allow a composite whose only cause of being is itself. It does not say that no composite has a cause."
+definitions = ["DEF-SIMPLE", "DEF-CAUSE-OF-PERFECTION", "DEF-ESSE"]
+disambiguations = ["DISAMB-CAUSE"]
+
+[[statement]]
+id = "Rival: matter-form composition composes, but some esse other than essence does not"
+lean = "EsseEssenceDifferenceWithoutCompositionReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by Scotus's formal distinction and by the view that essence and existence differ without being two parts: whatever is composed of matter and form is composite, and something whose act of being is other than its essence is not composite. The replacement account is that the two differ as formalities or aspects of one simple reality. Strictly stronger than the negation of STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS: it keeps the matter-form inclusion and denies only the esse-essence one. It does not say that esse and essence are identical in that thing."
+definitions = ["DEF-ESSE", "DEF-ESSENCE-THOMISTIC-NATURE", "DEF-SIMPLE"]
+disambiguations = ["DISAMB-ESSENCE"]
+
+[[statement]]
+id = "Rival: some first being is a component of something other than itself (world-soul)"
+lean = "FirstBeingIsAComponentReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by the positions reported in ST I q.3 a.8 (God as the soul of the world, as the formal principle of all things, or as prime matter) and by pantheist and panentheist accounts: some being to which nothing other is simply prior is a component of something other than itself. The replacement account is that being a constituent does not subordinate: the whole depends on the first principle that informs it. Strictly stronger than the negation of STMT-NO-COMPONENT-IS-FIRST-BEING, which would allow a first being that is a component only of itself. It does not say the first being is itself composite."
+definitions = ["DEF-FIRST-BEING", "DEF-SIMPLE-PRIORITY", "DEF-SIMPLE", "DEF-ESSE"]
+
+[[statement]]
+id = "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTOGETHER_IMMATERIAL_2"
+lean = "IntellectOnlyInMaterialCompositesReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by physicalism about the mind together with realism about immaterial things (abstract objects, or an impersonal first principle beyond intellect): whatever has intellect is composed of matter and form, and something is neither composed of matter and form nor a component of anything. The replacement account of why a thing knows is material organization, not separation from matter. Strictly stronger than the negation of STMT-IMMATERIAL-IS-INTELLECTUAL, which needs only one altogether immaterial thing without intellect. It does not deny that there are immaterial things or that there are intellects."
+definitions = ["DEF-ALTOGETHER-IMMATERIAL", "DEF-HAS-INTELLECT", "DEF-REMOTE-FROM-ALL"]
+
+[[statement]]
+id = "Rival: something HAS_INTELLECT_1 without HAS_WILL_1 (purely contemplative intellect)"
+lean = "IntellectWithoutWillReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by accounts of a purely contemplative first intellect, by the denial that God acts from freedom of will, and by necessary emanation: something has intellect and does not have will. The replacement account of how anything proceeds from such an intellect is necessity of nature, not volition; the formal statement does not express that account. It is the exact negation of STMT-WILL-FOLLOWS-INTELLECT on the same two predicates. It does not say that no intellect has will."
+definitions = ["DEF-HAS-WILL", "DEF-HAS-INTELLECT"]
+disambiguations = ["DISAMB-APPETITE-POWER-AND-EXERCISE", "DISAMB-CREATURE-PASSIVE-APPETITE-AND-DIVINE-WILL"]
+
+[[statement]]
+id = "Rival: something is its own subsistent being and is not INFINITE_1"
+lean = "FiniteSubsistentBeingReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by the thin view of existence (a thing's being its own existence settles nothing about how much it is) and by accounts of finite self-existent things: something whose act of being is its essence is not infinite. The replacement account is that limitation comes from what a thing is, not from its essence receiving being; the formal statement does not express that account. It is the exact negation of STMT-SUBSISTENT-BEING-IS-INFINITE on the same carrier. It does not say that nothing is infinite."
+definitions = ["DEF-INFINITE", "DEF-ESSE", "DEF-ESSENCE-THOMISTIC-NATURE"]
+disambiguations = ["DISAMB-ESSENCE"]
+
+[[statement]]
+id = "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlasting in time)"
+lean = "ImmutableWithoutEternityReading"
+paraphrase = "Rival framework commitment, unattributed, motivated by the view that time passes without change and by accounts of an everlasting God who is in time: something in potency in no respect is not eternal. The replacement account of its duration is everlasting existence in time; the formal statement has only the predicate for timeless eternity and expresses only its failure, not temporal duration. It is the exact negation of STMT-IMMUTABLE-IS-ETERNAL on the same carrier. It does not say that such a thing begins or ends."
+definitions = ["DEF-IMMUTABLE", "DEF-PURE-ACT", "DEF-ETERNAL"]
+
+[[statement]]
+id = "Rival: some being with the nine listed attributes lacks the classical divine attributes"
+lean = "ClassicalAttributesFallShort"
+paraphrase = "Rival framework commitment, unattributed, motivated by the fuller list of Dei Filius ch. 1 (omnipotent, immense, incomprehensible) and by accounts on which omnipotence, omniscience or omnipresence are not contained in the nine: some being is simple, perfect, good, one, infinite, immutable, eternal and has intellect and will, and does not have the classical divine attributes of the skeleton. The replacement account is that the classical profile has further members which the nine predicates, as encoded, do not entail; the formal statement does not say which. It is the exact negation of STMT-CLASSICAL-ATTRIBUTES-SUFFICE on the same signature and predicates."
+definitions = ["DEF-SIMPLE", "DEF-UNIVERSALLY-PERFECT", "DEF-SUPREMELY-GOOD", "DEF-ONE-GOD", "DEF-INFINITE", "DEF-IMMUTABLE", "DEF-ETERNAL", "DEF-HAS-INTELLECT", "DEF-HAS-WILL", "DEF-GOD-OF-CLASSICAL-THEISM", "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"]
+disambiguations = ["DISAMB-GOD", "DISAMB-IN-ACT", "DISAMB-INFINITY", "DISAMB-ETERNITY-AND-TEMPORAL-PERPETUITY", "DISAMB-IMMUTABLE-AND-CURRENTLY-UNCHANGING", "DISAMB-INTELLECT-AND-SENSE-COGNITION"]
+
+[[statement]]
+id = "Fourteen finite tests of rivals of the stage-two attribute premises"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls: fourteen finite interpretations on one- or two-element carriers, one per stage-two attribute premise. In each, the recorded rival of the premise holds, every other premise of the named consuming theorem holds, and that theorem's conclusion fails. (1) Actuality without being: the one existent is in act in a non-esse respect only; every existent is in act in some respect; not every existent is in act in esse. (2) Emergent perfection: one being causes another to be and to have a second perfection which the cause lacks; every caused perfection is had by the effect; the cause of being does not have what it gives. (3) Actuality without goodness: the one being is God, maximal in being, in act and good in nothing; God is not supremely good. (4) Uncaused composite: the one being is God, maximal, composite and caused by nothing; God is not simple. (5) Esse-essence difference without composition: an unmoved mover whose act of being differs from its essence, with nothing composite; the first mover is not simple in the encoded sense. (6) A first being that is a component: at one world a necessary actual root is first and potency-free and is a component of a distinct composite whole; no actual root is first and a component of nothing. (7) Material intellect: God is immaterial, maximal and first and lacks intellect, while a matter-form composite has intellect; God does not have intellect. (8) Intellect without will: the one being is God with intellect and no will. (9) Potency prior to act: the one being is in potency, nothing is in act or prior; a first being is in potency. (10) Act and potency in one respect: the one being is in act and in potency in the one respect and simply prior to itself; a first being is in potency. (11) Finite subsistent being: a simple unmoved mover whose act of being is its essence, not infinite, lacking a pure perfection. (12) Immutable without eternity: the one being is God, maximal, first, in potency in no respect and not eternal. (13) Naming: the one being meets the full nominal description, the practice's name refers to no being, proper application is preserved by reference vacuously, and the naming leaf fails; the full description is not excluded. (14) The nine attributes falling short: the one being is God with all nine predicates and the other thirteen non-logical premises hold, while the primitive classical-attributes field is false of it. The general logical premise excluded middle of two consuming theorems is not part of any interpretation and is not checked. These are statements about fourteen finite interpretations only; none shows a rival true or a premise false."
+
+[[argument]]
+id = "Rivals of the fourteen stage-two attribute premises survive in finite tests"
+theorem = "controls"
+premises = []
+conclusion = "Fourteen finite tests of rivals of the stage-two attribute premises"
+axioms = []
+rule = "Explicit one- and two-element interpretations, checked by evaluation and case analysis"
+meaning = "Premise-free finite controls for the stage-two premises of the modal spine to STMT-GOD-EXISTS. For each of fourteen premises, one interpretation satisfies its recorded rival together with every other non-logical premise of the premise's smallest verified consuming theorem, and falsifies that theorem's conclusion. So within each consuming theorem the targeted premise is not derivable from the others, and the rival is jointly satisfiable with them. No premise is derived, defended, refuted or closed; no rival is established; compatibility with premises outside the named theorem is not tested. Model claims concern these fourteen interpretations only."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-ACTUALITY-ONLY-INSOFAR-AS-BEING"
+rival_statement_id = "STMT-ACTUALITY-WITHOUT-BEING"
+sense_definition_id = "DEF-ESSE"
+outcome = "model-witnessed"
+conditions = "Other premise of Round2ExistenceAct.existingInActAtFromSomeAct holds: every existent at the one world is in act in some respect. Its conclusion (every existent is in act in esse) fails."
+scope = "Same InAct predicate and esse respect; one world, one being, two respects."
+coverage = "One populated model of the existing rival on the smallest consumer. MODEL-ACT-POTENCY-M2 already witnesses the rival with seven other act/potency premises; the conditional exclusion REL-PERFECTION-REFUTES-ACTUALITY-WITHOUT-BEING (two open premises) is unchanged."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.actualityWithoutBeing in Control.Certificate, first conjunct of controls."
+next_step = "Decide whether being in act in a respect presupposes esse without assuming the target (DISAMB-BEING); the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+rival_statement_id = "Rival: some caused thing has a perfection that no cause of its being has (strong emergence)"
+sense_definition_id = "DEF-CAUSE-OF-PERFECTION"
+outcome = "model-witnessed"
+conditions = "Other premise of CausalMapsBatch1.causeOfBeingHasWhatItGives holds: whatever is caused in a thing is had by it. Its conclusion (a cause of being has every perfection it causes) fails."
+scope = "Same InAct and CausesIn predicates and esse respect; two beings, two respects."
+coverage = "One populated emergence model; not every emergentist account."
+exclusivity = "The rival entails the negation of the target on the identical carrier (it is strictly stronger)."
+witness = "Control.emergentPerfection in Control.Certificate."
+next_step = "Test the rival against the eminent-containment reading of InAct and against STMT-MAXIMUM-IN-GENUS-CAUSES-ALL-IN-GENUS; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-GOODNESS-IS-ACTUALITY"
+rival_statement_id = "Rival: being GOOD_1 in a perfection requires having it, but some had perfection is not GOOD_1"
+sense_definition_id = "DEF-GOOD-AS-BEING-IN-ACT"
+outcome = "model-witnessed"
+conditions = "Other four premises of StageTwo.GodIsSupremelyGood.godIsSupremelyGood hold: God is maximal in being, the maximum in a genus causes all in it, actuality only insofar as being, the cause of being causes every perfection. Its conclusion (God is supremely good) fails."
+scope = "Same GoodIn and InAct predicates; one being, one respect."
+coverage = "One populated model in which nothing is good; the rival's first conjunct holds vacuously there. Not every fact/value-gap account."
+exclusivity = "The rival entails the negation of the target biconditional on the identical carrier (it is strictly stronger)."
+witness = "Control.actualityWithoutGoodness in Control.Certificate."
+next_step = "Test the rival against STMT-GOOD-IS-DESIRABLE and the desirability account of good; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+rival_statement_id = "Rival: some composite has no cause of its being at all (brute or necessary composition)"
+sense_definition_id = "DEF-SIMPLE"
+outcome = "model-witnessed"
+conditions = "Other two premises of StageTwo.GodIsSimple.godIsSimple hold: God is maximal in being, and a cause of a quality in another is more such. Its conclusion (God is not composite) fails."
+scope = "Same Composite and CausesIn predicates and esse respect; one being, one respect."
+coverage = "One populated model of an uncaused composite God; not every account of brute or necessary composition."
+exclusivity = "The rival entails the negation of the target on the identical carrier (it is strictly stronger)."
+witness = "Control.uncausedComposite in Control.Certificate."
+next_step = "Test the rival against the component route to simplicity (STMT-COMPOSITE-POSTERIOR-TO-COMPONENTS with first being), which does not use the target; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+rival_statement_id = "Rival: matter-form composition composes, but some esse other than essence does not"
+sense_definition_id = "DEF-ESSENCE-THOMISTIC-NATURE"
+outcome = "model-witnessed"
+conditions = "Other four premises of FirstMoverSimple.firstMoverSimple hold: no body moves unless moved, the first unmoved mover is the first being, composites are posterior to components, every composite has a component other than itself. Its conclusion fails at the clause that the first mover's esse is not other than its essence."
+scope = "Same ComposedOfMatterAndForm and Composite predicates and essenceOf/esseOf maps; two beings, one respect, two principles."
+coverage = "One populated model with no matter-form composites, so the rival's first conjunct holds vacuously there. Not every account of a non-composing distinction."
+exclusivity = "The rival entails the negation of the target on the identical carrier (it is strictly stronger)."
+witness = "Control.differenceWithoutComposition in Control.Certificate."
+next_step = "Test the rival against STMT-COMPOSITE-HAS-COMPONENT-OTHER-THAN-ITSELF with a typed account of what makes esse and essence components; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-NO-COMPONENT-IS-FIRST-BEING"
+rival_statement_id = "Rival: some first being is a component of something other than itself (world-soul)"
+sense_definition_id = "DEF-FIRST-BEING"
+outcome = "model-witnessed"
+conditions = "Other three premises of NecessaryFirstAttributes.attributesFromFirst hold: one actual root is necessary, first and potency-free; composites are posterior to components; every composite has a component other than itself. Its conclusion fails: no actual root is first and a component of nothing."
+scope = "Same ComponentOf and PriorSimply relations; one world, two concrete ungrounded beings, one respect."
+coverage = "One populated world-soul model; not every pantheist or panentheist account."
+exclusivity = "The rival entails the negation of the target on the identical carrier (it is strictly stronger)."
+witness = "Control.firstBeingComponent in Control.Certificate."
+next_step = "Test the rival against Aquinas's reasons that a form in a composite is participated and matter is in potency (q.3 a.8), once typed; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+rival_statement_id = "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTOGETHER_IMMATERIAL_2"
+sense_definition_id = "DEF-ALTOGETHER-IMMATERIAL"
+outcome = "model-witnessed"
+conditions = "Other six premises of StageTwo.GodHasIntellect.godHasIntellect hold: God is maximal in being, composites have a uniting cause, a cause is more such, the two kinds of composition compose, no component is first, the maximum in being is first. A material being with intellect exists. The conclusion (God has intellect) fails."
+scope = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf predicates; two beings, one respect."
+coverage = "One populated model with an immaterial God lacking intellect and a material knower; not every physicalist account."
+exclusivity = "The rival entails the negation of the target on the identical carrier (it is strictly stronger)."
+witness = "Control.materialIntellect in Control.Certificate."
+next_step = "Test the rival against the perfection route to intellect (PerfectRootPositiveIntellectWill), which does not use the target; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-WILL-FOLLOWS-INTELLECT"
+rival_statement_id = "Rival: something HAS_INTELLECT_1 without HAS_WILL_1 (purely contemplative intellect)"
+sense_definition_id = "DEF-HAS-WILL"
+outcome = "model-witnessed"
+conditions = "Other seven premises of StageTwo.GodHasWill.godHasWill hold, including that what is altogether immaterial has intellect. Its conclusion (God has will) fails."
+scope = "Same HasIntellect and HasWill predicates; one being, one respect."
+coverage = "One populated model of an intellect without will; the motivating necessity-of-nature account is not expressed."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.intellectWithoutWill in Control.Certificate."
+next_step = "Type the inclination of an intellect to its understood good (q.19 a.1) and test whether it yields will without assuming the target; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-ACT-SIMPLY-PRIOR-TO-POTENCY"
+rival_statement_id = "STMT-POTENCY-PRIOR-TO-ACT"
+sense_definition_id = "DEF-SIMPLE-PRIORITY"
+outcome = "model-witnessed"
+conditions = "Other premise of FirstBeingNoPotency.firstBeingNoPotency holds: nothing is in act and in potency in the same respect. Its conclusion (a first being is in potency in no respect) fails."
+scope = "Same InAct, InPotency and PriorSimply predicates; one being, one respect."
+coverage = "One populated model of the existing rival on the smallest consumer. MODEL-NIGHT-COSMOGONY-RESIDUAL already witnesses the rival with other act/potency premises."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.potencyPrior in Control.Certificate."
+next_step = "Unchanged from REL-POTENCY-PRIOR-TO-ACT-ALTERNATIVE-TO-ACT-SIMPLY-PRIOR-TO-POTENCY: extend the reduction principle to potencies that are not being actualized; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-NOTHING-IN-ACT-AND-POTENCY-IN-SAME-RESPECT"
+rival_statement_id = "STMT-ACT-AND-POTENCY-IN-SAME-RESPECT"
+sense_definition_id = "DEF-INDEPENDENT-POTENCY"
+outcome = "model-witnessed"
+conditions = "Other premise of FirstBeingNoPotency.firstBeingNoPotency holds: act is simply prior to potency (the being in act prior to the potential being is that being itself). Its conclusion (a first being is in potency in no respect) fails."
+scope = "Same InAct, InPotency and PriorSimply predicates; one being, one respect; PriorSimply is reflexive in this model."
+coverage = "One populated self-actualizer model on the smallest consumer. The existing conditional exclusion REL-NO-ACT-AND-POTENCY-IN-SAME-RESPECT-FROM-ANALYSIS-REFUTES (one open premise, the capacity analysis of potency) is unchanged."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.actAndPotency in Control.Certificate."
+next_step = "Fix one sense of act (formal or virtual) for both premises (DISAMB-IN-ACT) and retest; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SUBSISTENT-BEING-IS-INFINITE"
+rival_statement_id = "Rival: something is its own subsistent being and is not INFINITE_1"
+sense_definition_id = "DEF-INFINITE"
+outcome = "model-witnessed"
+conditions = "Other two non-logical premises of WholePowerPerfection.firstMoverPerfectionFromInfinity hold: the first unmoved mover is simple, and what is infinite has every pure perfection. Its conclusion (the first mover has every pure perfection) fails. The theorem's excluded-middle premise is general logic and is not checked."
+scope = "Same essenceOf/esseOf maps and Infinite predicate; one being, one respect, one principle, one determination."
+coverage = "One populated model of a finite self-existent first mover; the motivating thin view of existence is not expressed."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.finiteSubsistent in Control.Certificate."
+next_step = "Test the rival against the limitation-through-reception premises (STMT-PERFECTION-LIMITED-ONLY-THROUGH-RECEPTION) on a shared carrier; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-IMMUTABLE-IS-ETERNAL"
+rival_statement_id = "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlasting in time)"
+sense_definition_id = "DEF-ETERNAL"
+outcome = "model-witnessed"
+conditions = "Other four premises of StageTwo.GodIsEternal.godIsEternal hold: God is maximal in being, the maximum in being is first, act is simply prior to potency, nothing is in act and potency in the same respect. Its conclusion (God is eternal) fails."
+scope = "Same InPotency predicate and primitive Eternal predicate (ETERNAL_1, timeless); one being, one respect. No temporal structure is modelled."
+coverage = "One populated model of a potency-free being that is not eternal; the rival's positive claim of duration in time is not expressed on this carrier."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.immutableInTime in Control.Certificate."
+next_step = "State the rival with ETERNAL_2 (unending temporal presence) on a carrier with times and test it against a typed 'time follows motion' premise; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-GOD-NAMES-THE-FULLY-DESCRIBED-PRINCIPLE"
+rival_statement_id = "STMT-FULL-NOMINAL-NAMING-FAILS"
+sense_definition_id = "DEF-GOD-NOMINAL-Q13"
+outcome = "model-witnessed"
+conditions = "Other two premises of NameApplicationTransfer.Description.properDescriptionExcluded hold: the practice's name refers to no being, and proper application is preserved by practice reference. A unique fully described being exists, so the theorem's conclusion (the full description is excluded) fails."
+scope = "Same full nominal description and proper-sense predicate; one being, one respect, one name."
+coverage = "One populated model in which nothing is God in the proper sense, so reference preservation holds vacuously. It witnesses the exact negation together with its motivating practice-use thesis; it is not a theory of reference."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.namingFails in Control.Certificate."
+next_step = "Unchanged from REL-PHILLIPS-NO-OBJECT-ALTERNATIVE-TO-FULLY-DESCRIBED-PRINCIPLE: test the raw practice-use thesis against a populated proper sense; the premise remains OPEN."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+rival_statement_id = "Rival: some being with the nine listed attributes lacks the classical divine attributes"
+sense_definition_id = "DEF-CLASSICAL-ATTRIBUTES-BUNDLE"
+outcome = "model-witnessed"
+conditions = "Other thirteen non-logical premises of StageTwo.ClassicalAttributes.godHasClassicalAttributes hold, including the five separately supplied attribute conclusions. Its conclusion (whatever is God has the classical attributes) fails. The theorem's excluded-middle premise is general logic and is not checked."
+scope = "Same Signature with its primitive HasClassicalAttributes field and the theorem's own nine predicate instances; one being, one respect."
+coverage = "One populated model; the primitive field is unconstrained apart from the target, so this shows only that nothing else in the theorem fixes it."
+exclusivity = "The rival is the exact negation of the target on the identical carrier."
+witness = "Control.attributesFallShort in Control.Certificate."
+next_step = "Give the primitive classical-attributes field a definition or a sourced list, so that sufficiency of the nine can be tested and not only stipulated; the premise remains OPEN."
+
+[[relation]]
+id = "Emergent perfection is an alternative to preexistence of perfections in the cause"
+subject_kind = "statement"
+subject_id = "Rival: some caused thing has a perfection that no cause of its being has (strong emergence)"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-PERFECTIONS-OF-EFFECT-PREEXIST-IN-CAUSE"
+note = "Same InAct, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premise of causeOfBeingHasWhatItGives; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "Actuality without goodness is an alternative to goodness as actuality"
+subject_kind = "statement"
+subject_id = "Rival: being GOOD_1 in a perfection requires having it, but some had perfection is not GOOD_1"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-GOODNESS-IS-ACTUALITY"
+note = "Same GoodIn and InAct. The rival keeps the direction from goodness to actuality and denies the converse, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSupremelyGood; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "An uncaused composite is an alternative to the uniting cause of composites"
+subject_kind = "statement"
+subject_id = "Rival: some composite has no cause of its being at all (brute or necessary composition)"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-COMPOSITE-HAS-A-UNITING-CAUSE"
+note = "Same Composite, CausesIn and esse. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godIsSimple; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "Esse-essence difference without composition is an alternative to its being composition"
+subject_kind = "statement"
+subject_id = "Rival: matter-form composition composes, but some esse other than essence does not"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-MATTER-FORM-AND-ESSE-ESSENCE-ARE-COMPOSITIONS"
+note = "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "A first being that is a component is an alternative to no component being first"
+subject_kind = "statement"
+subject_id = "Rival: some first being is a component of something other than itself (world-soul)"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-NO-COMPONENT-IS-FIRST-BEING"
+note = "Same ComponentOf and PriorSimply. The rival requires a distinct whole, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of attributesFromFirst; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "Intellect only in material things is an alternative to immateriality as the ground of intellect"
+subject_kind = "statement"
+subject_id = "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTOGETHER_IMMATERIAL_2"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-IMMATERIAL-IS-INTELLECTUAL"
+note = "Same ComposedOfMatterAndForm, HasIntellect and ComponentOf. The rival is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of godHasIntellect; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "Intellect without will is an alternative to will following intellect"
+subject_kind = "statement"
+subject_id = "Rival: something HAS_INTELLECT_1 without HAS_WILL_1 (purely contemplative intellect)"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-WILL-FOLLOWS-INTELLECT"
+note = "Same HasIntellect and HasWill. The rival is the exact negation of the premise; its replacement account (procession by necessity of nature) is not formalized. Model-witnessed alongside the other premises of godHasWill; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "A finite subsistent being is an alternative to subsistent being as infinite"
+subject_kind = "statement"
+subject_id = "Rival: something is its own subsistent being and is not INFINITE_1"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-SUBSISTENT-BEING-IS-INFINITE"
+note = "Same essenceOf/esseOf and Infinite. The rival is the exact negation of the premise; its replacement account (limitation from what a thing is) is not formalized. Model-witnessed alongside the other non-logical premises of firstMoverPerfectionFromInfinity; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "An immutable being in time is an alternative to immutability entailing eternity"
+subject_kind = "statement"
+subject_id = "Rival: something altogether IMMUTABLE_1 is not ETERNAL_1 (everlasting in time)"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-IMMUTABLE-IS-ETERNAL"
+note = "Same InPotency and primitive Eternal. The rival is the exact negation of the premise; its replacement account (everlasting duration in time) is not formalized on this carrier. Model-witnessed alongside the other premises of godIsEternal; neither is established and no refutation is recorded."
+
+[[relation]]
+id = "The nine attributes falling short is an alternative to their sufficiency"
+subject_kind = "statement"
+subject_id = "Rival: some being with the nine listed attributes lacks the classical divine attributes"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "STMT-CLASSICAL-ATTRIBUTES-SUFFICE"
+note = "Same Signature and nine predicates. The rival is the exact negation of the premise; which further attribute is missing is not formalized. Model-witnessed alongside the other non-logical premises of godHasClassicalAttributes; neither is established and no refutation is recorded."

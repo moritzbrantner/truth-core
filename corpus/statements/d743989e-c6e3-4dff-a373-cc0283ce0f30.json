@@ -1,0 +1,11 @@
+{
+  "id": "d743989e-c6e3-4dff-a373-cc0283ce0f30",
+  "label": "Existence is presence now, and something was present at another time but is not present now",
+  "paraphrase": "Rival framework commitment, unattributed: an individual exists in a history exactly when it is present at that history's designated now, and some individual is present at a time of a history without being present at its now. Replacement account: presentism about existence, on which what was present earlier and is no longer present does not exist. Stronger than the negation of presence-to-existence.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsStageOne.PresentistGap",
+  "definition_ids": [
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ]
+}

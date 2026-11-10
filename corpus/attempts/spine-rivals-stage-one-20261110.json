@@ -1,0 +1,19 @@
+{
+  "id": "c2ffef68-ca56-49ca-bbb2-00f2639c6a7b",
+  "label": "Modal spine stage one: rivals of five premises and their survival models",
+  "statement_ids": [
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "85497562-9d71-558a-9a1e-e4b7c321488a",
+    "8ea0321d-293e-5767-9ab6-dc270457ef52",
+    "df89f0d2-c051-5859-aa80-5898ec5c0a65"
+  ],
+  "date": "2026-11-10",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Run goal: every open premise of the modal spine to God's existence gets a recorded rival with a replacement account and one verified test (docs/notes/modal-spine.md, rival table). This attempt covers the five stage-one premises that had no rival: actual reflexivity, the Euclidean frame, presence-to-existence, the possible beginning and the causal opportunity. Each rival is a positive position typed on the premise's carrier: a serial frame not reflexive at the selected world (accessibility read as what lies ahead or what would be ideal); a reflexive non-Euclidean frame (relative, non-transitive possibility); a presentist gap (existence is presence now and something earlier has ceased); eternal contingency (contingent things and no possible beginning); brute beginnings only. All five survive: SpineRivalsStageOne.controls gives, for each, an interpretation in which the rival holds with the other premises of the consuming theorem and the conclusion fails. The brute-beginnings group reuses the existing bruteOnly scenario and its lemmas. Findings: the presentist model shows the temporal arrival depends on reading world-relative existence as existence at some time; under presentism an earlier non-contingent occupant can have ceased, so the conclusion would need a persistence premise. The reflexivity rival does not deny that what is actual is possible; it changes the meaning of accessibility, which is why actual reflexivity is listed as a floor candidate. No rival is refuted and no premise is established.",
+  "blocker": "No conditional exclusion was sought for these five rivals. Next discriminators: the existing modal correspondence results for the non-Euclidean rival, and a persistence premise for the presentist rival.",
+  "evidence": [
+    "7b545360-7d87-400f-89cd-44ac707103a8"
+  ]
+}

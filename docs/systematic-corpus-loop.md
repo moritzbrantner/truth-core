@@ -1,19 +1,123 @@
 # Systematic corpus loop
 
-Advance substantial arguments toward the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), not statement or theorem counts. Constraint discovery within frontier investigations leads; source campaigns serve decisive gaps. `AGENTS.md` governs source fidelity, Lean/Comparator verification, and review.
+This is the canonical research-loop policy. Investigate the owner-scoped question and its connection to the [root goal](https://github.com/moritzbrantner/truth-core/issues/143), without presuming a preferred answer. Build a graph of meaningful arguments, implications, incompatibilities and open dependencies, and issue reasoned **overall provisional judgments** as the evidence develops. `AGENTS.md` governs repository operations, source fidelity and formal verification; the configuration and source workflows below are methods selected within this loop.
 
-## Frontier investigations: argument-first, decomposition on demand
+## Bounded investigations and integration
 
-For one owner-scoped thesis or argument (#565):
+The coordinator maintains the priority queue and one current handoff. It gives each fresh worker a target, relevant existing evidence, a live uncertainty, a work budget, and the expected useful change. Record the run's total budget and each worker's cap before starting; choose and state a bounded default if the owner has not supplied one. Give sustained questions enough time for substantive reading, reasoning and proof/model exploration, allowing for review and integration within the run budget. Forced publication or repeated unchanged checks must not consume the research allowance. The cap and honest early/no-result returns still apply. A continuous investigation consists of these bounded turns, with independent slices running concurrently under the [parallel-lane policy](#parallel-lanes).
 
-1. **Map the whole case.** State the conclusion and downstream purpose, strongest positive argument and serious rivals, existing statement/theorem IDs, explicit assumptions, and current bottleneck.
-2. **Verify the conditional structure.** Formalize load-bearing inferences and test omissions or rival models. A verified implication does not establish its premises.
-3. **Force choices before expanding premises.** Follow the [certified fork workflow](configuration-elimination-loop.md#certified-forks-as-the-default-frontier-workflow): compose implications, certify incompatible bundles, prove coverage of substantive branches, and seek models of survivors under a fixed background. Investigate a child premise only when its resolution would discriminate those branches; do not default to another layer of assumptions.
-4. **Decompose on demand.** Separate canonical statements/tasks only when inference, a real disagreement, independent justification, reuse, or a source/proof invariant requires it. Do not manufacture atomized taxonomies or duplicate issues.
-   The same applies *inside definitions*: follow consequential technical words into their own definition/disambiguation records, however deep the chain needs to go. Reuse shared Lean definitions; identify honest primitives and open semantic bridges rather than stopping at a new predicate name or hiding a substantive claim in a definition. A large reusable dictionary is acceptable, but do not expand ordinary non-load-bearing words merely for coverage (see [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning)).
-5. **Recompose immediately.** Connect the child's actual result to its parent, update unresolved assumptions and alternatives, and continue the same argument. A failed route yields a recorded countermodel or precise blocker, not a stronger invented premise.
+```mermaid
+flowchart TD
+    Q[Select independent questions] --> W[Bounded investigations]
+    W --> D[Draft findings and handoff]
+    D --> C{Final assessment reviewed?}
+    C -->|Accepted| I[Integrate reviewed version]
+    C -->|Concrete defect| F[Repair affected claims]
+    F --> C
+    C -->|Repair cap reached| O[Keep disputed claims open]
+    O --> I
+    I -->|Budget remains| Q
+    I -->|Pause or cap| H[Persist current handoff]
+```
 
-Keep the readable case and rivals in its existing issue/note; keep proofs, sources, countermodels, and substantive attempts in their canonical records/dossiers. No parallel research registry. The [#565 pilot note](notes/argument-first-pilots-565.md) illustrates the method with #564 and #563.
+1. **Retrieve and fix the question.** Inspect `context <ARGUMENT-OR-RESULT-ID>`, `related <STMT-ID>` and the relevant `dossier <STMT-ID>`. Reuse definitions, senses, exact theorems, sources and failed attempts. State the chosen reading, logical background, domain and model class. Preserve consequential alternatives; a complete map of every interpretation is not a prerequisite. If a proposed generalization already follows by instantiating or composing an existing theorem, return that dependency or a short reuse lemma rather than a duplicate campaign.
+2. **Investigate flexibly.** Pursue the most informative support, rival, implication, necessary precondition, incompatibility, source or connection. Formalize load-bearing deductions and test revealing models where useful. A rival should be represented by its strongest relevant commitments; a local objection need not first supply an entire worldview. Explore conditional consequences without first proving every primitive.
+3. **Decompose only where useful.** Follow disputed premises and load-bearing terms as deeply as the current question requires. Split records for consequential inference, independent warrant, rival discrimination or reuse. Identify honest primitives and open bridges; neither a new predicate name nor a definition settles its applicability. Reuse shared [definition dependencies](corpus-model.md#definition-dependencies-and-formal-meaning). Do not expand ordinary vocabulary just for coverage.
+4. **Return a bounded result.** Return early after a useful finding, or at the cap, blocker or loss of expected value. State what uncertainty changed, exact evidence and assumptions, surviving objections, the proposed provisional assessment, and the next discriminating step. An honest “no useful result” is permitted; record the attempted approach and what would justify retrying it. Finishing a worker turn does not settle its proposition.
+5. **Draft, challenge and repair.** The coordinator prepares the complete proposed outcome: record/graph changes, overall judgments, diagrams and handoff. Apply the [final outcome review](#final-outcome-review-and-repair) before relying on new consequential assertions as reviewed support. A review of worker outputs does not cover a stronger coordinator summary.
+6. **Integrate and requeue.** Integrate the reviewed version, connect findings to their parent questions, update priorities and assign the next fresh worker. Requeue unfinished work with a specific next step or reopening condition, not an instruction to repeat the same unsuccessful search. Pause when the run budget ends or no authorized useful next step remains.
+
+Keep the readable case, judgments and rivals in the existing issue or linked case note; keep proofs, sources, countermodels and substantive attempts in their canonical records/dossiers. The current handoff links them. This policy adds no tracker, schema, truth-status field or numerical confidence score. Attempt outcomes describe work, not truth; their `evidence` field retains its existing result/claim/PR reference rules ([attempt format](premise-dossiers.md)).
+
+## Provisional judgments and premise warrant
+
+The master must state the current **overall epistemic assessment**, not merely list conditional results: for example, an interpretation is currently favored, a claim is provisionally supported, or the evidence remains underdetermined. Assess cumulative support across routes while exposing their shared dependencies. Do not manufacture a preference when the evidence does not discriminate. If a turn adds no relevant evidence, retain the prior assessment and say that it is unchanged.
+
+Each judgment records:
+
+- the exact claim, reading, scope, date and evidence revision;
+- the assessment, the reasons for it, and the criteria or inference rule used;
+- supporting and adverse evidence, shared sources/bridges, and open assumptions;
+- the strongest objections, unexamined alternatives and review disagreements;
+- what would strengthen, weaken, reverse or suspend the assessment.
+
+These judgments may guide scheduling, support qualified reports and be used as **explicit provisional premises** in further reasoning. Every downstream use must retain their dependencies and provisional character. They never by themselves create a Lean proof, mark a rival refuted, change computed frontier establishment or authorize floor closure. Personal assent and unexplained labels such as “unreasonable” supply no warrant. Existing approval-based floor metadata is [legacy runtime behavior](corpus-model.md#premise-program-and-frontier), not an epistemic shortcut; do not create new `owner_approval` markings from this loop.
+
+Admit the following as possible grounds, then assess whether they actually support this claim. Record the inference and credible defeaters rather than treating a category label as evidence:
+
+| Proposed ground | Required assessment and possible defeaters |
+|---|---|
+| Observation or actual performance | Identify what occurred and how it was identified; distinguish the observation from its interpretation. Misidentification, unreliable access or an unjustified generalization can defeat the support. |
+| Testimony or source material | Establish what the source says separately from why it is credible about the matter. Trace dependence, contrary evidence and attribution uncertainty; repeated quotations from one source are not independent witnesses. |
+| Conceptual argument or necessary precondition | Reconstruct the inference under the exact meanings. Challenge counterexamples, circularity, disputed bridges and substantive assumptions concealed in definitions. |
+| Explanatory comparison | State evidence, candidates, criteria, disputed judgments and why the criteria are truth-relevant. Test sensitivity to alternatives and allow ties or incomparability. Being best among examined candidates does not exclude unexamined ones. |
+
+Warrant standards and their application remain challengeable research targets. They need not all be settled before conditional exploration proceeds. Non-deductive support remains defeasible: identify the rule that licenses using it and the conditions for withdrawing that use. A scheduling reason such as tractability is not evidence that a proposition is true.
+
+For the meaning example, distinguish **if an actual denial is meaningful, some language has meaning** from the grounds for judging that a particular performance was meaningful. A meaningless utterance supplies no articulated denial; this does not establish that all utterances are meaningful or settle broader semantic theories. Record the actual-performance premise and its challenges separately from the conditional proof.
+
+## Integration and revision contract
+
+Keep these assessments separate in existing records and reports; do not collapse them into one “established” label:
+
+| Assessment | What it licenses |
+|---|---|
+| Formal verification | The exact encoded consequence under its hypotheses and permitted logical background. |
+| Semantic fidelity | A reviewed correspondence between the intended claim and its encoding, with unresolved disagreements visible. |
+| Premise warrant | A reasoned, revisable assessment of the grounds for accepting the premise. |
+| Outstanding objections | The exact challenge, its target and what has or has not answered it. |
+| Work status | Whether an investigation succeeded, failed, is paused or should be reopened; no truth conclusion follows from this alone. |
+
+### Final outcome review and repair
+
+The coordinator owns a bounded correction loop. Use the existing PR, case note and current handoff; this is a publication procedure, not another tracker or proof-status registry. Review each returned cluster as it becomes ready while other investigations continue. A complete proposed outcome means the cluster being integrated; it does not require a whole-run barrier. At the run's close, review only new synthesis claims and reuse unchanged reviews.
+
+1. **Prepare the actual draft.** Give the challenger the proposed record/graph changes and the complete judgment, diagram and handoff text, with the evidence revision. Identify each consequential assertion by its existing record or a heading in the draft. Keep its assumptions, interpretation/scope, exact theorem/model/source locator, verification status and limitations together, either in the linked record or a compact draft table. An open interpretation bridge must remain visible in the summary. Run the existing reference and binding checks for changed records; a valid identifier does not establish that the cited definition or source is relevant.
+2. **Challenge the draft against the evidence.** A fresh reviewer reads the actual definitions, statements, proofs, model assignments and source passages needed for the claim, rather than accepting the author's or an earlier reviewer's verdict. Apply the [semantic checks](#independent-semantic-challenge) below. In particular, try existing countermodels against universal and only-if summaries; compare the original and strengthened assumption bundles; open definition links; and inspect the reasons for philosophical rankings or rival dismissals. A new deductive extension must have its own checked result to inherit formal-verification status. An unverified inference may remain explicitly provisional, with its reasoning reviewed and its dependencies retained.
+3. **Require substantiated findings.** Each objection identifies the exact draft assertion, evidence, concrete mismatch or missing inference, and the smallest necessary repair. Distinguish a demonstrated error from an unresolved philosophical objection; neither an unsupported criticism nor model agreement settles the question. A no-findings return is valid. Preserve the review's scope and evidence revision in the existing PR or handoff so a later wording change cannot silently inherit that review.
+4. **Repair within the cap.** The coordinator or originating researcher makes the repair; the challenger checks it. Default to at most two targeted review-and-repair passes after the initial challenge, within the run budget. Recheck only changed consequential assertions and affected dependencies; reuse unchanged evidence and reviews. At the cap, retain the accepted findings, withdraw or qualify the unsupported conclusions, record the disputed questions and affected uses as unresolved, and continue independent investigations. Routine repairs and philosophical disagreement do not require an owner decision. Escalate only an actual authorization, scope or budget choice needed to proceed.
+5. **Publish the reviewed substance.** Use the reviewed wording and qualifications in the records, diagram and handoff. Do not add a stronger arrow, verdict or generalization while shortening the final report. A substantive change reopens review of that claim and its affected uses; formatting alone does not. An unresolved disposition reports the disagreement and withheld conclusion, rather than introducing a fresh resolution after the repair cap. A completed review accepts only the stated scope and status; it does not establish a premise or waive CI and merge requirements.
+
+Routine derivations with unchanged meanings reuse the existing checks and review evidence. The final check is on the changed consequential assertions and their synthesis, not a new full-repository review each cycle. Conditional exploration may continue while review is pending, with that limitation explicit.
+
+### Independent semantic challenge
+
+Before a consequential definition, bridge, claimed defeat or influential judgment change is relied on as reviewed support, obtain a separate worker's challenge review under the procedure above. Apply these checks to the **final consequential findings**, including claims introduced or changed during synthesis:
+
+1. **Map the intended claim.** Restate it plainly and map each load-bearing narrative commitment to an encoded condition, definition or hypothesis, or an explicit **OPEN** interpretation bridge. Inspect quantifiers, modality, hidden assumptions and the strongest relevant objection. Names and suggestive prose do not supply missing conditions.
+2. **Inspect the actual witness.** Check whether the model preserves the entities and relations required by the motivating claim, including their existence and identity across the relevant situations. For example, an empty comparison world may witness an abstract modal non-entailment while failing a reading that requires an object, its material or its origin there. When the encoding omits commitments needed by that interpretation, label the result a **structural surrogate** and state exactly what it witnesses.
+3. **Restore omitted commitments.** Test whether adding the intended but omitted conditions preserves the countermodel or consequence. It may destroy the countermodel. If this test remains open, keep the stronger interpretation unresolved; do not carry the surrogate's result across that gap.
+4. **Compare readings and warrant.** Preserve meaningful alternatives and compare their consequences under explicit assumptions without forcing a winner. Logical weakening can improve a sufficient premise set; it does not by itself establish equal or greater independent warrant or applicability. Check claimed novelty against the exact prior theorems and dependencies.
+
+Retain disagreements rather than treating reviewer agreement as proof. A stronger assumption bundle becoming inconsistent does not invalidate a model of the original bundle. A local or reachable-world result does not establish its global counterpart, and a bounded unsuccessful rival search does not exclude unexamined rivals.
+
+### Revision boundaries
+
+Integration must also enforce these boundaries:
+
+- **Context compatibility.** Compose only matching meanings, domains, logic and model classes, or record an explicit justified bridge. Similar words or theorem shapes do not supply that bridge.
+- **Joint support.** Preserve complete jointly required premise bundles and alternative routes. An incompatibility of `{A, B, C}` does not show pairwise incompatibility or select which member to reject. Coverage and exclusivity are separate obligations, needed only for inferences that use them.
+- **Nonvacuity.** Record whether the relevant bundle has a joint model, a demonstrated contradiction, or unresolved satisfiability, always relative to its background. Seek witnesses where practical; do not require a model for every investigation. A deduction from a known inconsistent bundle remains a formal consequence, but supplies no affirmative support for its conclusion. Preserve the incompatibility and reassess affected support routes.
+- **Dependency independence.** `A → B` and `B → A` supply no independent warrant for either. Audit shared sources, unsupported bridges and cycles before claiming corroboration. Another argument can add structural insight without adding independent evidence.
+- **Revision.** When a definition, premise warrant or judgment changes, identify affected downstream uses and flag their interpretations or qualified conclusions for reassessment. Preserve valid theorems about the earlier meaning. Withdraw only the defeated support route; assess surviving routes separately. Keep the reason and evidence for each judgment revision.
+
+Apply three checks to any change in this policy: a correct proof of a mistranslated claim keeps its formal result but loses the claimed interpretation; an inconsistent assumption bundle yields an incompatibility rather than an affirmative victory; two arguments sharing an unsupported bridge leave that common dependence visible. A reversal of a provisional judgment must propagate through its qualified uses without pretending that a theorem's encoded statement changed.
+
+## Priority and cumulative progress
+
+Select work by the importance of the live question, the expected value of discriminating evidence, shared dependency impact, current support and objections, tractability and time already deferred. A low-confidence consequential bridge can deserve higher priority than another proof of a favored position. `frontier`, `thickness`, `orphans`, dossiers and source candidates inform the queue; none alone determines it.
+
+Default to reserving at least one of every five worker starts for a neglected plausible interpretation or a challenge to influential support. Record a reason when no such target is available, and raise the priority of repeatedly deferred relevant work. The coordinator may adjust this allocation to the run budget with an explicit rationale in the existing handoff; do not silently remove exploration capacity.
+
+After ten completed turns, at the run cap, or after a consequential revision, give a brief synthesis of the central question: what is now favored and why, which combinations were excluded, which bridges gained or lost support, and which shared dependencies remain decisive. Adjust the interval for short runs. Count clearer distinctions, informative conditional results, weakened assumptions, exposed dependencies and precise exhausted approaches as progress; do not substitute node counts, route cost or a guaranteed discovery per worker. Assess throughput by accepted meaningful findings per elapsed run, with their time/resource costs and dominant review, build or CI waits recorded in existing logs or the current handoff. Claim and PR counts are not quotas or substitutes for this evidence. Convergence means improving the assessment and locating remaining disagreement; it does not promise a final foundation or a monotonic increase in certainty.
+
+The [configuration elimination method](configuration-elimination-loop.md#certified-forks-for-selected-investigations) and [#565 pilot note](notes/argument-first-pilots-565.md) supply particular proof tactics, not mandatory preliminary stages for every turn.
+
+### Model selection and unattended batches
+
+Treat model selection as a role-specific experiment for research, synthesis and challenge review. A different model family may be tried for the challenger when available; do not assume that diversity or agreement establishes correctness. The [review calibration cases](notes/research-review-calibration.md) provide known failure patterns and valid controls. Compare models with the same evidence and budgets, using fresh briefs without the answer key or earlier verdicts; use unexposed variants once a case has become a teaching example. Record substantiated errors missed, false objections, successful repairs, time and available cost measurements in the existing handoff. Do not infer research ability from review scores alone.
+
+Calibration and sampled audits are periodic work, not a requirement to benchmark models or repeat every review each cycle. For a bounded unattended batch, reserve independent audit capacity and record consequential errors that escaped review, human interventions and useful findings per elapsed time. Correct escaped errors and affected uses through the same repair procedure. Extend an unattended budget only within owner authorization and when the observed results justify it; absence of a finding is not proof that no error remains. The owner receives periodic research syntheses and necessary decisions, while routine review and repair stay inside the loop.
 
 ### Machine-checkable issue acceptance (#949)
 
@@ -92,8 +196,9 @@ undefended:
 Prioritize the independent property justifications and the abstraction bridge
 (questions 4–5). A pure relational theorem establishes a conditional mathematical
 consequence, not the causal applicability of its relation. Such theorems remain
-useful and may be developed with open interpretive burdens, but must not be
-advertised as metaphysical support until those burdens are defended. Preserve
+useful and may be developed with open interpretive burdens. Any philosophical
+support remains explicitly conditional or provisional to the extent those
+burdens are unresolved; the theorem does not settle its own applicability. Preserve
 the exact assumptions and unmet burdens in the existing records; this requirement
 adds no registry or verification gate and changes no source-fidelity standard.
 Independent justification may be a defensible philosophical argument, with its
@@ -105,10 +210,10 @@ from that independent defense.
 
 Use `python3 scripts/corpus.py frontier --routes` and `--reaching-root`. Report exactly what changed for root-facing open premises, including **no change** for unconnected outposts.
 
-- An open premise is **bare** (no source claim states or supports it), **supported** (only a `supports` relation backs it, its note recording the gap, or only a bibliographic citation without pinned bytes or a permanently unavailable witness states it) or **stated** (a claim on a pinned source states it); supported and stated premises are undefended (#987). First remove bare gaps, then close the recorded gaps of supported premises and independently defend stated ones.
+- An open premise is **bare** (no source claim states or supports it), **supported** (only a `supports` relation backs it, its note recording the gap, or only a bibliographic citation without pinned bytes or a permanently unavailable witness states it) or **stated** (a claim on a pinned source states it); supported and stated premises are undefended (#987). These are source/closure descriptions, not an ordering of philosophical credibility or research priority.
 - A transcription (`opaque_atoms`, `single_application`, `assembly`, `instantiation`) does not close an open conclusion; it propagates closure only when **all** its premises are closed. An alleged refutation counts only when verified **and** all its premises are closed.
 - Replacing one open premise with narrower leaves ("relocation") is legitimate exploration even when it adds bare premises; `frontier-diff` lists them for visibility and `thickness` reports the derivations gained (owner decision 2026-11-07, superseding the no-bare rule of #987). Report supported leaves as supported, not as stated.
-- **Idle verified work is a defect, not progress (owner direction 2026-11-07).** A library of verified results that reaches no root route does nothing for the case. The modal library (about 89 results) sat disconnected while the necessary-being routes never used modal necessity. Before each round, list the disconnected verified families (`truth orphans`) and connect them first. Fork every load-bearing ambiguous term in this order: COVERAGE and EXCLUSIVITY premises, sense-specific formalized definitions (or explicitly identified primitives with open obligations), a typed sense enum, a result per sense, then a joint theorem by cases. Only after that attack rival semantic commitments and worldviews. See AGENTS.md, "Connect every library to the case".
+- **Account for connections.** Inspect disconnected verified families (`truth orphans`) as possible bridge targets. Every new family needs a root-route purpose or a specific connection plan and blocker. Report unconnected work honestly; connection alone does not discharge a premise. Use the priority policy above rather than automatically favoring idle work or a complete sense fork.
 - Neither source attribution, a conditional theorem, a narrative, nor an unverified model proves a premise. Preserve exact semantics, assumptions, and surviving rivals; see [configuration elimination](configuration-elimination-loop.md).
 
 ## 1. Campaign: a meaningful source objective
@@ -129,19 +234,29 @@ Ship one coherent verified argument cluster, a complete candidate range, or a re
 
 ## Parallel lanes
 
-Follow the A/B/C ownership in `AGENTS.md` (#416). Shared Lean imports and documentation tables are generated, never hand-edited; rerun `scripts/root-imports.sh --write` and `python3 scripts/docs_index.py --write` after merging `origin/main` before pushing.
+When resources permit, start with **two concurrent investigations of distinct propositions in different argument families**, reserving challenge-review capacity. With four agent slots, use a coordinator, two researchers and one challenger. Each researcher gets a fresh bounded brief, an isolated warm checkout and disjoint file/argument ownership under the existing A/B/C lanes in `AGENTS.md` (#416).
+
+Before launch, record both target propositions, their parent questions and their root-route or named connection purposes, and explain why neither investigation requires the other's result. Shared stable definitions are permitted. Disjoint files, separate lemmas or two subquestions about the same disputed modal premise do not satisfy this research-breadth requirement: cycle 3's origin-tolerance and F2′-versus-F2 investigations were both within the same modal family. For example, a modal-origin investigation and an epistemic-warrant investigation with an explicit root connection plan can qualify; an origin countermodel and another arrival tested on that countermodel do not.
+
+The coordinator handles bounded repairs and integration with the challenger while preserving the two distinct research targets. A substantial repair may become a research assignment, but does not silently consume both research slots with one family. Record a reason for an explicit owner-focused exception, actual resource/dependency constraints or lack of a second useful target; do not invent peripheral work to fill a slot. If the second target needs a proposed bridge rather than an existing route, name the bridge and blocker and report the work as unconnected until that bridge is established.
+
+Freeze a shared semantic baseline in the briefs: revision, selected definitions/senses and theorem dependencies. Shared definitions and bridges belong to explicit dependency tasks with a designated owner; the coordinator owns shared integration. If a definition changes, stop reusing affected semantic or verification evidence for the changed baseline until the meanings and dependencies are reconciled. Independent work on unchanged dependencies can continue.
+
+Review and integrate findings as they return. Keep other independent investigations running while one result awaits review or CI; there is no whole-batch barrier. Serialize heavy builds and mutations of shared checkouts or Lean-service state under the existing locks, while allowing independent reading, reasoning and isolated edits to proceed. Reuse the existing CLI, service, checks and one handoff; this policy adds no scheduler or schema.
+
+Shared Lean imports and documentation tables are generated, never hand-edited; rerun `scripts/root-imports.sh --write` and `python3 scripts/docs_index.py --write` after merging `origin/main` before pushing. Reuse unchanged check evidence and retain the required final-head CI coverage.
 
 ## Completion and coverage
 
-A source range is complete once read and its relevant substantive content represented or explicitly judged out of scope; it need not generate a claim for every sentence. A frontier slice ends only when its conclusion is established under the stated standards, the route is decisively defeated, or a precise obstacle requires owner judgment. A conditional result with open premises is not established.
+A source range is complete once read and its relevant substantive content represented or explicitly judged out of scope; it need not generate a claim for every sentence. A bounded frontier slice may end with a useful finding, a precise blocker, changed priority, exhausted approach or budget cap. Record what remains and what would justify continuation. Settling the proposition is a separate matter; a conditional result with open premises is not established.
 
 ## Failed proofs feed research
 
-Record the missing premise and strongest countermodel, not an added axiom or stronger source reading. First test whether the failure exposes a countermodel, incompatible bundle or useful fork. Pursue a targeted child argument or source candidate when it can resolve that fork; do not automatically expand the premise queue.
+Record the missing inference, attempted approach and any countermodel actually found; an unsuccessful search supplies no countermodel by itself. Consider whether the failure exposes an incompatible bundle, useful distinction or warrant question. Pursue the next discriminating step when justified, without inventing an axiom, stronger source reading or automatic queue entry for every primitive.
 
 ## Campaign handoff
 
-When a campaign finishes, follow its known successor, seed its first source-range candidate, then close it. Keep one current handoff. Stop only for genuinely unavailable evidence, a scope/modeling choice requiring the owner, a repository defect, or an ambiguous successor.
+When a source campaign finishes, record its known successor and seed its first source-range candidate before closure. Keep one current handoff. The master selects further work within the run budget; a successor candidate does not outrank the research queue automatically. Ask the owner only for a concrete unresolved action or scope decision needed now, not to settle a philosophical disagreement.
 
 ## Campaign ordering
 

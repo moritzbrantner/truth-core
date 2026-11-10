@@ -1,0 +1,9 @@
+{
+ "id": "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+ "label": "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments",
+ "term": "inert emptiness",
+ "definition": "EmptinessStaysEmpty h Concrete holds when, in every history v and for all times s strictly earlier than t in the supplied preorder, concrete-emptiness at s implies concrete-emptiness at t. In ordinary language: nothing concrete comes after nothing concrete. A history never concrete-empty satisfies it trivially; a history with an empty moment followed by a populated one violates it; a history whose things are present from an earliest moment, with no moment before them, satisfies it, because the principle says nothing about a first state without an earlier moment.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.InertEmptiness.EmptinessStaysEmpty",
+ "note": "Analyst framework definition; attribution deferred. Not a causal principle: no cause, ground or explanation relation occurs, and it is weaker than and different from the principle of sufficient reason or 'every beginning has a cause'. Structural properties: it constrains only comparable moments of one history; it assumes no linear order, first moment, last moment or persistence. It quantifies over every history of the model, so it is a claim about all possible histories of the frame, not only the actual one; that universal scope, and its applicability to reality against a brute beginning out of nothing, remain OPEN. Extension from ordinary experience (things do not appear from empty states) to all possible histories is an explicit bridge, not established here."
+}

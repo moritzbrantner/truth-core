@@ -1,0 +1,12 @@
+{
+  "id": "78a44599-dc67-4d1f-988a-ed84b8c517f9",
+  "label": "Possibly, every contingent concrete thing comes to be in a history with a founded past",
+  "paraphrase": "OPEN analyst premise, attribution deferred: some history accessible from the selected world contains a contingent concrete individual present at a moment below which there is no endless descending sequence of moments, and in that history every contingent concrete individual, whenever present, was absent at some strictly earlier moment. Nothing is said about the selected world itself, about causes, or about non-contingent individuals.",
+  "lean_declaration": "TruthCore.Causality.ContingentComingToBe.PossiblyFoundedComingToBe",
+  "definition_ids": [
+    "c2b16e23-5bb5-4602-ac28-3ee32242fa96",
+    "195b8983-2f55-48fa-ad55-35d77ebe2e00",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}
