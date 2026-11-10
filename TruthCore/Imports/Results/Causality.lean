@@ -5,6 +5,7 @@ public import TruthCore.Results.Causality.AccidentalFeatureOrigin.Solution
 public import TruthCore.Results.Causality.ActualCommonRoot.Solution
 public import TruthCore.Results.Causality.ActualCoverNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ActualCoverStrictness.Solution
+public import TruthCore.Results.Causality.ActualEuclidean.Solution
 public import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Solution
 public import TruthCore.Results.Causality.ActualGroundingPotentialRank.Solution

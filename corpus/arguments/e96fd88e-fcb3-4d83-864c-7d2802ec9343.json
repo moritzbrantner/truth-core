@@ -1,0 +1,42 @@
+{
+  "id": "e96fd88e-fcb3-4d83-864c-7d2802ec9343",
+  "label": "Necessary concrete external cause, Euclidean at the selected world",
+  "premise_statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "8ea0321d-293e-5767-9ab6-dc270457ef52",
+    "df89f0d2-c051-5859-aa80-5898ec5c0a65"
+  ],
+  "conclusion_statement_id": "679eb3f7-b81c-5c0f-8072-29294269c162",
+  "inference_ids": [
+    "24d0a531-df6d-4b40-8bad-d55fcb6e59a2"
+  ],
+  "meaning": "Frame-scope weakening of LocalFramePossibleExternalCause.necessaryConcrete: the global Euclidean premise is replaced by Euclidean access at the selected world w only; the Scenario, possible-beginning and causal-opportunity predicates are unchanged. Opportunity applied to the possible beginning gives an accessible v with an existing concrete external totality-cause c; the existing necessaryOfExternalCandidate gives that c is necessary at v. Euclidean access and reflexivity at w carry the SAME c to w and to every successor of w. No causal role is transported to w. No premise is discharged.",
+  "definition_ids": [
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "cc57aee5-58b7-531d-bcd6-60105efe5c79",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+    "9317b727-e914-5c6d-9bda-576c7d3bf5e0"
+  ],
+  "disambiguation_ids": [
+    "4b02d34a-9226-5009-9ac2-3b52f4222b21",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "679eb3f7-b81c-5c0f-8072-29294269c162",
+      "role": "conclusion"
+    }
+  ]
+}

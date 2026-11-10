@@ -1,0 +1,11 @@
+{
+  "id": "7e5f0f8a-aa2d-496b-87b6-8411f7970732",
+  "label": "Global Euclidean access gives Euclidean access at one world",
+  "argument_id": "756f391a-defb-48d9-b3eb-e9bf67091a55",
+  "challenge_module": "TruthCore.Results.Causality.ActualEuclidean.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualEuclidean.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualEuclidean.euclideanAtOfEuclidean",
+  "comparator_config": "results/7e5f0f8a-aa2d-496b-87b6-8411f7970732/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not a route step): global Euclidean access, instantiated at the selected world w, gives Euclidean access at w on the same frame. The converse fails in Control.clustered."
+}

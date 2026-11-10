@@ -1,0 +1,9 @@
+{
+ "id": "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+ "label": "Euclidean access at the selected world only",
+ "term": "Euclidean at a world",
+ "definition": "EuclideanAt frame w holds when any two worlds accessible from w access one another: for all v and z, if w accesses v and w accesses z, then v accesses z. Global Euclidean access (TruthCore.Modal.Euclidean) is this condition at every world. Read with worlds as complete histories and access as metaphysical possibility: any two histories possible relative to the actual history are possible relative to each other. Every S5 frame satisfies it at every world; the frame ActualEuclidean.Control.clustered satisfies it at its actual world but is not Euclidean (a merely possible history sees a history the actual one does not, which does not see it back); SpineRivalsStageOne.Control.stepwise fails it at its actual world.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ActualEuclidean.EuclideanAt",
+ "note": "Analyst framework definition for stage one of the modal spine to God's existence; attribution deferred. It records exactly the part of the Euclidean premise that both stage-one arrivals use. It is not transitivity or symmetry, and it constrains no world's accessibility beyond the successors of the selected world. Whether metaphysical possibility satisfies it at the actual world remains OPEN."
+}

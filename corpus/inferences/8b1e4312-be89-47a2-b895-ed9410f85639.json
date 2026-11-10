@@ -1,0 +1,16 @@
+{
+  "id": "8b1e4312-be89-47a2-b895-ed9410f85639",
+  "label": "Necessary concrete individual from inert emptiness, Euclidean at the selected world (inference)",
+  "input_statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "85497562-9d71-558a-9a1e-e4b7c321488a",
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "0cb07f05-5268-4685-8213-0eefa9ec4255"
+  ],
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "rule": "Reuse earlierNecessary at the accessible history, then transfer along Euclidean access and reflexivity at the selected world",
+  "meaning": "New non-transcription conditional support option for stage one of the modal spine, replacing the global Euclidean premise of InertEmptiness.necessaryConcrete by Euclidean access at the selected world w only. The existing earlierNecessary gives a concrete individual c existing at the accessible history v and absent from no world accessible from v. Euclidean access at w with reflexivity at w gives that v accesses w and every successor of w, so the SAME c exists at w and at every world accessible from w. No causal, grounding or explanatory relation is used or concluded. All five premises are OPEN framework inputs; no premise truth, uniqueness or divine attribute is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

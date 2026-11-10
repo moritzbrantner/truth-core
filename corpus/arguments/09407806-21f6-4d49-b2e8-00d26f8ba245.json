@@ -1,0 +1,49 @@
+{
+  "id": "09407806-21f6-4d49-b2e8-00d26f8ba245",
+  "label": "Necessary concrete individual from inert emptiness, Euclidean at the selected world",
+  "premise_statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "85497562-9d71-558a-9a1e-e4b7c321488a",
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "0cb07f05-5268-4685-8213-0eefa9ec4255"
+  ],
+  "conclusion_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "inference_ids": [
+    "8b1e4312-be89-47a2-b895-ed9410f85639"
+  ],
+  "meaning": "New non-transcription conditional support option for stage one of the modal spine, replacing the global Euclidean premise of InertEmptiness.necessaryConcrete by Euclidean access at the selected world w only. The existing earlierNecessary gives a concrete individual c existing at the accessible history v and absent from no world accessible from v. Euclidean access at w with reflexivity at w gives that v accesses w and every successor of w, so the SAME c exists at w and at every world accessible from w. No causal, grounding or explanatory relation is used or concluded. All five premises are OPEN framework inputs; no premise truth, uniqueness or divine attribute is established.",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "c5021a71-a928-504c-a7c5-457905258117",
+    "52766381-e6ac-5634-a69b-e59f1ecafbff",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ],
+  "disambiguation_ids": [
+    "88d21f57-4108-56a6-8cf9-5ab5f21935a5",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+      "role": "conclusion"
+    }
+  ]
+}
