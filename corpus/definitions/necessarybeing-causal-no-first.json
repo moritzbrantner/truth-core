@@ -1,6 +1,6 @@
 {
   "id": "54abf2c9-059f-41ba-8e70-cc8f1694f957",
-  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_4 candidate",
+  "label": "NO_FIRST_MEMBER_1 analyst sibling",
   "term": "Causal incoming no-first",
   "definition": "There is no selected member without incoming full or partial causes from selected members. Self-loops count; no irreflexivity, linearity, cardinality or positive predecessor choice is asserted.",
   "basis": "stipulative",

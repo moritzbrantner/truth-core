@@ -2,11 +2,13 @@ target = "STMT-NB-A5-RIGID-EVER-HISTORY"
 [[node]]
 id = "STMT-NB-A5-RIGID-EVER-HISTORY"
 [[node]]
-id = "A5 history interpretation scope controls"
-new = true
-text = "Rigid versus evaluated classification, exact roster exclusion, and population/member first occurrence versus predecessor transitions."
+id = "78394148-8096-4be7-aa79-5594d72faedc"
+# The control suite tests the interpretation siblings of the target; it is not a
+# premise of the target, so it is recorded as its own certified premise-free
+# derivation and the target keeps no support edge from it.
 [[edge]]
-premises = ["A5 history interpretation scope controls"]
-conclusion = "STMT-NB-A5-RIGID-EVER-HISTORY"
-kind = "bridge"
-status = "mapped"
+premises = []
+conclusion = "78394148-8096-4be7-aa79-5594d72faedc"
+kind = "derivation"
+status = "certified"
+note = "controls (1bc1de00): finite interpretation controls only; no support for STMT-NB-A5-RIGID-EVER-HISTORY."

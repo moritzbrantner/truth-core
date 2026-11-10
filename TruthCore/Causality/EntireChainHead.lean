@@ -256,5 +256,19 @@ theorem partial_scope_matters :
   rintro ⟨x, _, source⟩
   exact source x True.intro (Or.inr True.intro)
 
+/-- Positive nonvacuity of the ordered reading: the integers under their usual
+strict order have no minimal member. Int is only a control carrier; the
+production primitives are empty here, so this witnesses OrderedNoFirst alone,
+not alignment or any causal no-first claim. -/
+def intOrder : OrderedChain Int where
+  chain := ⟨fun _ => True, fun _ _ => False, fun _ _ => False⟩
+  before := (· < ·)
+  strictOrder := inferInstance
+
+theorem int_ordered_noFirst : OrderedNoFirst intOrder := by
+  constructor
+  rintro ⟨x, _, minimum⟩
+  exact minimum (x - 1) True.intro (by show x - 1 < x; omega)
+
 end Controls
 end TruthCore.Causality.EntireChainHead

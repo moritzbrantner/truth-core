@@ -1,6 +1,6 @@
 {
   "id": "4c00d550-ed75-427d-87b4-0d49543f8851",
-  "label": "SOURCE_CONCRETE_COVERAGE_AND_CAUSAL_HEAD_5 candidate",
+  "label": "NO_FIRST_MEMBER_2 analyst sibling",
   "term": "Separate strict-order no-first",
   "definition": "There is no minimal selected member under the separately supplied irreflexive transitive order. Incomparable members are allowed; absence of a least member alone is insufficient.",
   "basis": "stipulative",

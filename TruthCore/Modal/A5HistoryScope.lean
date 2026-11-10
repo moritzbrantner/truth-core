@@ -39,8 +39,11 @@ def EvaluatedPastRoster [Preorder T] (h : History W B T)
     (roster : B → Prop) : Prop :=
   ∀ b, roster b ↔ classified w time b ∧ ∃ t, t ≤ time ∧ h.IsAt w b t
 
-/-- Rigid selected-history current-or-past roster, with classification fixed at
-actual a/atime and a fixed cutoff in the selected history. -/
+/-- Rigid selected-history roster up to a fixed cutoff, with classification
+fixed at actual a/atime. `cutoff` is a free parameter: nothing ties it to
+`h.now` or to atime, so a cutoff after the present is allowed and then
+includes future occurrences. It is a current-or-past reading only when the
+caller selects a present or past cutoff. -/
 def RigidPastRoster [Preorder T] (h : History W B T)
     (classified : W → T → B → Prop) (a : W) (atime : T)
     (w : W) (cutoff : T) (roster : B → Prop) : Prop :=
@@ -173,6 +176,18 @@ def cutoffSeparation : Prop :=
     ¬ EvaluatedPastRoster (history (fun _ _ (t : Int) => t = 1) 0)
       (fun _ _ _ => True) false 0 (fun _ => True)
 
+/-- RigidPastRoster is nonvacuous, separates from RigidEverRoster on a
+tomorrow-only bearer at cutoff 0, and with the free cutoff set to 1, after
+`now = 0`, it includes that future bearer. -/
+def rigidPastControls : Prop :=
+    RigidPastRoster onset (fun _ _ _ => True) false 0 false 0 (fun _ => True) ∧
+    RigidEverRoster (history (fun _ _ (t : Int) => t = 1) 0)
+      (fun _ _ _ => True) false 0 false (fun _ => True) ∧
+    ¬ RigidPastRoster (history (fun _ _ (t : Int) => t = 1) 0)
+      (fun _ _ _ => True) false 0 false 0 (fun _ => True) ∧
+    RigidPastRoster (history (fun _ _ (t : Int) => t = 1) 0)
+      (fun _ _ _ => True) false 0 false 1 (fun _ => True)
+
 end Controls
 
 /-- Joint formal control suite; it establishes no source interpretation. -/
@@ -184,5 +199,6 @@ def ControlSuite : Prop :=
   Controls.predecessorNotFirst ∧
   Controls.rosterControls ∧
   Controls.classificationSeparation ∧
-  Controls.cutoffSeparation
+  Controls.cutoffSeparation ∧
+  Controls.rigidPastControls
 end TruthCore.Modal.A5HistoryScope
