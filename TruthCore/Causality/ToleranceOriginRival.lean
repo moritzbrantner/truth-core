@@ -3,7 +3,7 @@ module
 public import TruthCore.Causality.ActualEuclidean
 
 /-!
-# Tolerance-based origin essentialism as a rival of Euclidean access at the actual world
+# A structural tolerance rival of Euclidean access at the actual world
 
 Analyst formulation for the modal spine to "God exists" (stage one); attribution
 deferred. The rival is modelled on tolerance-based origin essentialism (the
@@ -17,8 +17,9 @@ differs a little from the actual one is possible relative to the actual
 history, and conversely (the difference is the same seen from either side).
 Two histories that differ from the actual one in opposite directions may differ
 from each other by more than the tolerance; then neither is possible relative
-to the other. `ToleranceNonEuclideanAt frame w` says exactly that: access is
-reflexive and symmetric, and two successors of `w` fail to access each other.
+to the other. `ToleranceNonEuclideanAt frame w` records only the corresponding
+frame pattern: access is reflexive and symmetric, and two successors of `w`
+fail to access each other. The origin interpretation is a separate open bridge.
 
 Example. `Control.tolerance` below: worlds are origin offsets −1, 0, +1, the
 actual world is 0, and access holds when the offsets differ by at most 1.

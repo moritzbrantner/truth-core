@@ -19,7 +19,10 @@ markings. Existing approval-based computed statuses remain legacy runtime
 behavior, documented in `docs/corpus-model.md`. Consequential definitions,
 bridges, claimed defeats and influential judgment changes need the independent
 [semantic challenge](docs/systematic-corpus-loop.md#independent-semantic-challenge)
-of the final consequential findings specified in the systematic loop.
+of the final consequential findings specified in the systematic loop. The
+coordinator drafts the complete proposed outcome before that review and follows
+the [bounded review-and-repair procedure](docs/systematic-corpus-loop.md#final-outcome-review-and-repair)
+before publishing its substantive conclusions.
 
 Use bounded turns, useful early returns and explicit reopening conditions.
 Investigate support, rivals, consequences, preconditions and connections as the
@@ -35,8 +38,10 @@ to a fresh subagent. Split broad issues into independently reviewable slices;
 give each worker one slice with explicit file and argument ownership. The
 coordinator owns coverage, priorities, shared instructions, integration and merges.
 Use the canonical [parallel-lane policy](docs/systematic-corpus-loop.md#parallel-lanes)
-for concurrent node investigations, reserved review capacity and shared semantic
-baselines; independent research continues while other work awaits CI.
+for two distinct propositions in different argument families, reserved review
+capacity and shared semantic baselines. Disjoint files or two subquestions of the
+same premise do not meet that breadth requirement. Independent research continues
+while other work awaits review or CI; routine corrections stay inside the loop.
 
 - Start workers without inherited conversation history (`fork_turns="none"`,
   or the equivalent). Supply the brief below, relevant repository instructions,
@@ -58,7 +63,7 @@ baselines; independent research continues while other work awaits CI.
 
 The master gives each worker a compact brief:
 
-1. **Target:** the skeleton node, argument or root obligation advanced. It must be a node on a root route, or connect to one by a named bridge. A target that serves no root route is rejected (see "Connect every library to the case").
+1. **Target:** the proposition, parent question/argument family and root obligation advanced. It must be a node on a root route, or have a named bridge, connection plan and blocker. State why it is independent of the other active research target; an unbuilt bridge must not be reported as an existing route. A target that serves no root route is rejected (see "Connect every library to the case").
 2. **Reuse:** the baseline revision, existing statement IDs, selected definitions/senses and exact Lean theorems to consume.
 3. **Live uncertainty:** the inference, interpretation, warrant, rival or connection to investigate, and why it merits attention now.
 4. **Expected value:** the useful change sought, with expected premise effects where relevant. A finding may clarify the question without discharging an obligation.
