@@ -1,7 +1,7 @@
 {
   "id": "71d0bf6a-2bda-4bd9-8e0e-824a75a7bf25",
-  "label": "A3 local occurrence uniqueness transports possible conditioning",
-  "paraphrase": "For unrestricted bearer, time, state, world and condition carriers, matching structured state-pair contents allow transfer of possible conditioning to the selected occurrence IF every occurrence with those contents equals that occurrence. This is conditional analyst transport, with attribution deferred; uniqueness is an explicit hypothesis, not an established identity principle. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality.",
+  "label": "A3 type-global occurrence uniqueness transports possible conditioning",
+  "paraphrase": "For unrestricted bearer, time, state, world and condition carriers, matching structured state-pair contents allow transfer of possible conditioning to the selected occurrence IF every term of the whole occurrence type with those contents, whether or not it ever occurs, equals that occurrence. This TYPE-GLOBAL uniqueness antecedent holds only when the carriers admit exactly one bearer and one ordered start/finish interval, so it collapses the occurrence reading into the state-pair reading and is not implied by UniqueRealization of any admission predicate. The corrected law relativizing uniqueness to accessibly occurring occurrences is statement A3 accessible occurrence uniqueness transports possible conditioning. Conditional analyst transport, with attribution deferred; uniqueness is an explicit hypothesis, not an established identity principle. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality.",
   "lean_declaration": "TruthCore.Causality.EventIdentityProfiles.SameEventTransport",
   "definition_ids": [
     "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
