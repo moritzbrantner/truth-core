@@ -56,7 +56,7 @@ A finite initial stock can support transient work without ongoing energy input;
 its past charging history is outside the interval and remains unspecified.
 
 Read PR #1379 at exact 0453441ef869d0c8b9317ca356100b39e98ec8d1 as comparison;
-no dependency/import of its unmerged files. Its `ZeroExercise` is a bounded
+no dependency/import of its files. It merged into main during this investigation; final branch includes that main update. Its `ZeroExercise` is a bounded
 pure-transfer fixed-point consequence of uniform contraction; `FinitePath`
 adds positive/summable weighted rows, bounded assignments and a common q<1.
 Those mathematical steps stand in their stipulated meanings. Their applicability
@@ -136,7 +136,7 @@ dependencies, not a claim that further philosophical research is exhausted.
 
 ## Evidence and service experiment
 
-Baseline origin/main 283dcedc12c84fe6fc4ab57aa07a6849721210a2. Shared conventions
+Initial baseline origin/main 283dcedc12c84fe6fc4ab57aa07a6849721210a2; final main update b363be68a7d41c30e95cc0aade4c7f41f2b9361d. Shared conventions
 sourceRevision 625cb04ca568aebc8d45c90033e107a05e9bd2a0.
 Related/root dossier, finite-path dossier, context DERIVATIVE-JOINT-POWER-CERTIFICATE,
 #310/#734/#741 and #1378/#1379 were inspected. Exact declarations above were
@@ -153,7 +153,7 @@ failed for missing imports and an incomplete conjunction proof; both repaired.
 Warm final request 0.29s, total 0.43s; import-changing request took 24s.
 No paired CLI latency trial was run, so no comparative speed claim. Retain the
 service for iterative diagnostics; revise briefs to distinguish combined-text
-checking from final compiled module/import verification. Delivered-head CI must
+checking from final compiled module/import verification. Separate vocabulary and Solution also compiled using explicit LEAN_PATH from the warm checkout under the heavy-job lock. Delivered-head CI must
 still run build, binding, axiom, Comparator and NanoDa. Preview is not certification.
 
 Claim/type self-sweep: universal Budget and TemporalBudget retain all hypotheses;
