@@ -1,0 +1,10 @@
+{
+  "id": "d30912ac-8809-4147-953f-f177c5e989ce",
+  "label": "Quantitative transfer derivation resourceBudget (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "9abdae18-e8ce-4a8b-9971-68decef68363",
+  "rule": "Ordered sums, recurrence and geometric limits",
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

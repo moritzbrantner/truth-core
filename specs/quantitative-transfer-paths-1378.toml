@@ -1,0 +1,115 @@
+[batch]
+vocab = "TruthCore.Causality.QuantitativeTransferPaths"
+results = "TruthCore.Results.Causality.QuantitativeTransferPaths"
+
+[[statement]]
+id = "Quantitative transfer finitePath"
+lean = "FinitePath"
+paraphrase = "For a countable weighted network with nonnegative weights, nonnegative input s and power P bounded above by a common finite M, summable weight rows and weighted-power rows, and every row sum at most a common 0 ≤ q < 1, P ≤ s + weighted transfer implies: every node with positive power has a finite positive-weight contributor path to a node with positive input, including a zero-length path. No well-foundedness or independent bearer follows."
+
+[[argument]]
+id = "Quantitative transfer derivation finitePath"
+theorem = "finitePath"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer finitePath"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer vanishingTail"
+lean = "VanishingTail"
+paraphrase = "For any real successor-chain assignment P uniformly bounded in absolute value and nonnegative factors q, if P(n)=q(n)P(n+1) and every upstream cumulative product tends to zero, then every P(n) is zero. No common strict factor bound is assumed."
+
+[[argument]]
+id = "Quantitative transfer derivation vanishingTail"
+theorem = "vanishingTail"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer vanishingTail"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer binaryFixed"
+lean = "BinaryFixed"
+paraphrase = "The binary operator averaging the two distinct Boolean-word children preserves both constant one and constant zero on the entire infinite tree. Positive bounded source-free balance is compatible with individual half-weight edges and total incoming gain one."
+
+[[argument]]
+id = "Quantitative transfer derivation binaryFixed"
+theorem = "binaryFixed"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer binaryFixed"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer nonuniformFixed"
+lean = "NonuniformFixed"
+paraphrase = "The whole successor-chain transfer operator with q(n)=1-1/(n+2)^2 fixes P(n)=(n+1)/(n+2). Every P(n) is positive and at most one and every factor is strictly between zero and one."
+
+[[argument]]
+id = "Quantitative transfer derivation nonuniformFixed"
+theorem = "nonuniformFixed"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer nonuniformFixed"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer halfFixed"
+lean = "HalfFixed"
+paraphrase = "The whole half-transfer successor-chain operator fixes P(n)=2^n, and that assignment exceeds every finite real bound. Uniform half loss alone cannot exclude unbounded source-free balance."
+
+[[argument]]
+id = "Quantitative transfer derivation halfFixed"
+theorem = "halfFixed"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer halfFixed"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer nonuniformTail"
+lean = "NonuniformTail"
+paraphrase = "Every finite upstream product of the nonuniform factors 1-1/(n+2)^2 is at least the strictly positive starting value (n+1)/(n+2). These cumulative tails therefore cannot vanish."
+
+[[argument]]
+id = "Quantitative transfer derivation nonuniformTail"
+theorem = "nonuniformTail"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer nonuniformTail"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer resourceBudget"
+lean = "ResourceBudget"
+paraphrase = "For finite consumer and resource sets, nonnegative resource budgets and an allocation whose sum over consumers is at most one for each resource, the sum of weighted consumer outputs is at most the sum of resource budgets. This conservation bound does not assert strict loss."
+
+[[argument]]
+id = "Quantitative transfer derivation resourceBudget"
+theorem = "resourceBudget"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer resourceBudget"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+
+[[statement]]
+id = "Quantitative transfer conservativeCircle"
+lean = "ConservativeCircle"
+paraphrase = "The two-node Boolean swap has constant-one source-free balance and finite total quantity two. This is a mathematical conservative-circle control, without a claim of actual productive or explanatory adequacy."
+
+[[argument]]
+id = "Quantitative transfer derivation conservativeCircle"
+theorem = "conservativeCircle"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Quantitative transfer conservativeCircle"
+rule = "Ordered sums, recurrence and geometric limits"
+meaning = "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."

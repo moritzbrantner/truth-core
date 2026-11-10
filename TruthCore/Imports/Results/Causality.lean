@@ -219,6 +219,7 @@ public import TruthCore.Results.Causality.ProtectiveProcess.Solution
 public import TruthCore.Results.Causality.PureActRoot.Solution
 public import TruthCore.Results.Causality.PureActThisness.Solution
 public import TruthCore.Results.Causality.PureIndiscernibility.Solution
+public import TruthCore.Results.Causality.QuantitativeTransferPaths.Solution
 public import TruthCore.Results.Causality.ReceptionLimitation.Solution
 public import TruthCore.Results.Causality.ReflexiveActualFusionNecessaryBeing.Solution
 public import TruthCore.Results.Causality.RegressAccessibilityExcludesSeries.Solution

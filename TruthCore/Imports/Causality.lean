@@ -138,6 +138,7 @@ public import TruthCore.Causality.ProtectiveProcess
 public import TruthCore.Causality.PureActRoot
 public import TruthCore.Causality.PureActThisness
 public import TruthCore.Causality.PureIndiscernibility
+public import TruthCore.Causality.QuantitativeTransferPaths
 public import TruthCore.Causality.ReceptionLimitation
 public import TruthCore.Causality.RegressReadings
 public import TruthCore.Causality.RegressRivalCoverage
