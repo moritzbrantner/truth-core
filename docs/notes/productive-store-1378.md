@@ -191,9 +191,10 @@ power on shrinking intervals need not supply epsilon; time intervals must be
 specified before translating a power claim into this energy bound. Equal time
 is an application premise, not needed by the discrete arithmetic theorem.
 
-A proposed minimum-work requirement is substantive, not a universal physical
-threshold. The concrete required-load profile L(n)=(1/2)^n is met exactly by the
-existing zero-input discharge with stock(n)=2*(1/2)^n. It has positive required
+A proposed minimum total-output requirement is substantive, not a universal
+physical threshold. The total-export profile L(n)=(1/2)^n is met exactly by the
+existing zero-input discharge with stock(n)=2*(1/2)^n: work and heat each equal
+L(n)/2. For selected load work alone, the exactly met profile is (1/2)^n/2. It has positive required
 load at every interval and finite cumulative demand. Thus replacing a common
 minimum by an arbitrary strictly positive load profile restores the reservoir
 rival. Conversely any load profile with a finite prefix exceeding initial stock
@@ -250,3 +251,13 @@ distinct verified support alternatives: 288 -> 288
 verified support alternatives added: 0
 no change
 ```
+
+## Sustained-output semantic challenge
+
+Independent review of c73e17dfbe59726c5ba8f1d670c3b69fd491b092 found one
+localized work-versus-total-output wording mismatch. The required-load example
+above now states total exported energy; selected work is half that amount.
+The reservoir counterexample and all theorem types are unchanged. Other new
+sustained-output claims were accepted at their explicit ledger/time/application
+qualifications. Actual activity/resource/boundary/time/demand and existential
+bridges remain OPEN; certification remains final-head CI.
