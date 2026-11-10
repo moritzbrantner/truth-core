@@ -9,6 +9,7 @@ public import TruthCore.Causality.ActualCoverStrictness
 public import TruthCore.Causality.ActualEuclidean
 public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualGroundingPotentialRank
+public import TruthCore.Causality.ActualOnlyEuclidean
 public import TruthCore.Causality.ActualPartsDeclarationControls
 public import TruthCore.Causality.ActualRootUniqueness
 public import TruthCore.Causality.ActualUnderivedEssenceEsse

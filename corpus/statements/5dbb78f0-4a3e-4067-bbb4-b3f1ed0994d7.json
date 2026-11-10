@@ -1,0 +1,10 @@
+{
+  "id": "5dbb78f0-4a3e-4067-bbb4-b3f1ed0994d7",
+  "label": "Surrogate controls locating local versus global Euclidean access",
+  "paraphrase": "Closed mathematical controls on three worlds (actual, near, far); STRUCTURAL SURROGATES that encode no rival's grounding of access. (1) On the frame clustered (actual and near see each other and themselves, near also sees far, far sees only itself), Euclidean access at actual holds, transitivity at actual fails, and near is not Euclidean. (2) On the frame appendix (every world sees itself, far also sees actual), Euclidean access, transitivity and reflexivity at actual hold, actual does not see far, and the frame is not Euclidean. Statements about these finite frames only.",
+  "lean_declaration": "TruthCore.Causality.ActualOnlyEuclidean.Control.Certificate",
+  "definition_ids": [
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
+  ]
+}

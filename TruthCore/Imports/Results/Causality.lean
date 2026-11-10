@@ -9,6 +9,7 @@ public import TruthCore.Results.Causality.ActualEuclidean.Solution
 public import TruthCore.Results.Causality.ActualFusionNecessaryBeing.Solution
 public import TruthCore.Results.Causality.ActualFusionNecessaryBeingFromPopulation.Solution
 public import TruthCore.Results.Causality.ActualGroundingPotentialRank.Solution
+public import TruthCore.Results.Causality.ActualOnlyEuclidean.Solution
 public import TruthCore.Results.Causality.ActualRootNecessityUpgrade.Solution
 public import TruthCore.Results.Causality.ActualRootUniqueness.Solution
 public import TruthCore.Results.Causality.ActualUnderivedEssenceEsse.Solution

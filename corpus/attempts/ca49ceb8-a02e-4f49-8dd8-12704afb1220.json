@@ -1,0 +1,18 @@
+{
+  "id": "ca49ceb8-a02e-4f49-8dd8-12704afb1220",
+  "label": "Is there a serious view accepting Euclidean access at the actual world but rejecting it globally",
+  "statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "d65fb12b-7a85-479a-8c40-4b10f8b3c7c8"
+  ],
+  "date": "2026-11-10",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Verified (ActualOnlyEuclidean.euclideanOnSuccessors, zero axioms): Euclidean access at w (F2') plus local axiom 4 at w gives Euclidean access at every successor of w; with reflexivity at w the generated subframe of w is then Euclidean. So relative to modal truth at the actual world, F2' gains over global F2 only for a view that (a) denies axiom 4 at the actual world while accepting axiom 5 there, or (b) rejects Euclidean access only at worlds the actual world cannot reach. Surrogate controls (Control.Certificate): clustered realizes (a), appendix realizes (b); both STRUCTURAL SURROGATES encoding no rival's grounding of access. UNVERIFIED analyst assessment, attribution deferred: (i) Vetter-style potentiality modality builds in iterated potentialities, so it accepts axiom 4 at the actual world; by the theorem it cannot accept F2' without Euclidean access on the actual generated subframe; its rival force (denying B/5 for origin-like cases) targets F2' itself. No gain. (ii) Actualist ersatzism: if modal truths are necessary and represented by every ersatz world, access from every world is the same set (S5, global F2); if some world represents fewer possibilities, access from that successor shrinks, which falsifies F2' itself; a world representing extra possibilities beyond actual possibility makes a modal falsehood possible, i.e. denies axiom 4 at actual, unmotivated within ersatzism. No serious gain. (iii) Chained-closure tolerance: the reflexive-transitive closure of a symmetric tolerance relation is an equivalence, so global F2 holds; for asymmetric tolerance the closure is a preorder, axiom 4 holds at actual and the theorem yields F2 on the generated subframe. Single-step tolerance in a rich (metric) space violates F2' itself (two successors at distance up to twice the tolerance); an ultrametric tolerance gives an equivalence (global F2). No gain. (iv-a) Impossible/non-normal-worlds semantics (S5 over possible worlds plus impossible worlds in W): serious, accepts F2' at actual, can fail global F2 at impossible worlds, but those are unreachable from actual (case b), so the gain is inert for actual-world modal truth and requires reinterpreting W beyond complete possible histories. (iv-b) Necessitist common stock of first-order powers plus non-iterated contingent alien powers: realizes case (a) (each actual possibility shares the stock that grounds the actual cluster; an alien at a possible world grounds a further possibility not actually possible), but denial of iteration is ad hoc for a powers view and the necessary common stock is already close to the spine's conclusion. Verdict: no serious view found for which F2' does real dialectical work beyond global F2; the cycle-2 inertness judgment stands, sharpened to the (a)/(b) dichotomy.",
+  "evidence": [
+    "95aa6f83-b43e-4fa9-b0fc-21b40fd82bec",
+    "9bfd7ece-248f-48e9-8671-2c741e669351"
+  ],
+  "blocker": "Unverified prose assessments (i)-(iv) need independent semantic challenge before changing any judgment. Not encoded: a potentiality relation grounding access, ersatz representation, or impossible worlds; the surrogates witness only frame-condition independence. Nonvacuity of externalNecessaryConcrete on a non-Euclidean frame remains untested."
+}

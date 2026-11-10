@@ -1,0 +1,11 @@
+{
+  "id": "9bfd7ece-248f-48e9-8671-2c741e669351",
+  "label": "Surrogate controls for local versus global Euclidean access checked",
+  "argument_id": "b80f33fa-f707-431d-bce5-2faa6c64b22e",
+  "challenge_module": "TruthCore.Results.Causality.ActualOnlyEuclidean.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualOnlyEuclidean.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualOnlyEuclidean.controls",
+  "comparator_config": "results/9bfd7ece-248f-48e9-8671-2c741e669351/comparator.json",
+  "status": "solution-present",
+  "description": "Witnesses that each escape route is realizable as a frame condition: clustered realizes F2' with local axiom 4 failing at actual (as the theorem forces once a successor is non-Euclidean); appendix realizes F2' and local axiom 4 at actual with global Euclidean access failing only at a world actual cannot reach. STRUCTURAL SURROGATES: no potentiality, representation, tolerance or impossible-world semantics is encoded."
+}
