@@ -7,5 +7,5 @@
   "theorem": "TruthCore.Results.Ethics.AgencyNeutrality.controls",
   "comparator_config": "results/c2309982-932d-453a-8513-1aad8761bec4/comparator.json",
   "status": "solution-present",
-  "description": "Separates joint identity relabeling from beneficiary-fixed transfer of reasons. The premise equivalence diagnoses circular support under self-reasons; omission witnesses do not refute substantive moral theories. Connection plan: #563 applicability gap through #369/#371/#373 toward STMT-GOODNESS-IS-ACTUALITY; a practical authority bridge and its relevance to a root inference remain open. No premise discharge."
+  "description": "Separates joint identity relabeling from beneficiary-fixed transfer of reasons. Under self-reasons, transfer is equivalent to universal protection reasons; this supplies no independent warrant when its defense merely restates that conclusion; omission witnesses do not refute substantive moral theories. Connection plan: #563 applicability gap through #369/#371/#373 toward STMT-GOODNESS-IS-ACTUALITY; a practical authority bridge and its relevance to a root inference remain open. No premise discharge."
 }
