@@ -1,6 +1,13 @@
 {
   "id": "80871ceb-29ca-49e3-a9e6-7c3cdc47cfb8",
   "label": "A2 actual source endpoint obstruction",
-  "paraphrase": "A one-world one-individual interpretation jointly satisfies the four nonlogical inputs of the existing possible causal source necessity argument and has the same actual necessary graph source, while no outgoing actual causal edge and no necessary concrete individual in the supplied Profile exist. This is an exact endpoint obstruction, not a source capability definition or a metaphysical possibility claim.",
-  "lean_declaration": "TruthCore.Causality.SurveySourceEndpointControls.EndpointObstruction"
+  "paraphrase": "A one-world one-individual interpretation jointly satisfies the four nonlogical inputs of the existing possible causal source necessity argument and has the same actual necessary graph source, while no outgoing actual causal edge exists and its supplied Profile has no necessary concrete individual because that Profile's concrete predicate is empty. Concreteness is a separate Profile field unconstrained by Ontic, so the necessary-concrete clause fails for any empty concrete predicate whatever the A2 inputs. This is an exact endpoint obstruction, not a source capability definition or a metaphysical possibility claim.",
+  "lean_declaration": "TruthCore.Causality.SurveySourceEndpointControls.EndpointObstruction",
+  "definition_ids": [
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"
+  ],
+  "disambiguation_ids": [
+    "7507d645-874d-5434-add8-2f49c2801d36"
+  ]
 }
