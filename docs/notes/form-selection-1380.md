@@ -128,3 +128,14 @@ no errors/warnings and all three theorem axiom lists empty. Corpus check passed.
 Computed frontier delta: 402 open (262 bare, 95 supported, 45 stated) unchanged;
 288 verified root support alternatives unchanged; cheapest diagnostic cost 16
 unchanged. No premise change. These preview diagnostics do not replace CI.
+
+## Independent semantic challenge repairs
+
+Challenge of 52f4c2b5ca5151a685ea00dcd352bda0c6bc4f45 found missing
+corpus definitions for the new structural meanings and an obsolete ownership
+blocker in the attempt. The spec now links exact stipulative records for
+Presentation, Accurate, IntrinsicDecoder, ReferenceGround, Correct and the
+device equations. The attempt now identifies the unassigned reference-ground
+dependency without asserting another lane owns it. No theorem, numbered
+cognitive sense or semantic-adequacy claim changes. The reviewed structural
+scope remains qualified; reference-fixing and actual cognition stay OPEN.

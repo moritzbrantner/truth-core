@@ -6,5 +6,9 @@
   "inference_ids": [
     "9c8f0655-7951-4807-8127-f00008e61063"
   ],
-  "meaning": "Witness error with fixed referent, and two differing referents with matching correctness, without defining reference as truth."
+  "meaning": "Witness error with fixed referent, and two differing referents with matching correctness, without defining reference as truth.",
+  "definition_ids": [
+    "9ca9b9b9-4127-4d2a-96ee-009a4e2875ee",
+    "b6a00a39-94b6-4371-a9ca-1fc55affa038"
+  ]
 }
