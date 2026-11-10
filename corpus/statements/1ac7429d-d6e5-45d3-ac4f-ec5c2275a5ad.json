@@ -1,0 +1,9 @@
+{
+  "id": "1ac7429d-d6e5-45d3-ac4f-ec5c2275a5ad",
+  "label": "Selected-content truth-class equivalence and factive profile discrimination",
+  "paraphrase": "Analyst relational diagnostic: for an arbitrary selected Boolean content family, complete positive/negative knowledge at a world is equivalent to its epistemic alternatives agreeing on that family's truth profile. Reflexive complete worlds differing on a selected truth cannot have identical epistemic extensions. Thus equal supplied intrinsic-state or hard-past projections plus extension supervenience contradict such discrimination. Neither projection bridge is asserted of God.",
+  "lean_declaration": "TruthCore.Logic.ForeknowledgeDiscrimination.Core",
+  "definition_ids": [
+    "05a2afda-c654-5f6b-a0f7-796c5dc1be2e"
+  ]
+}
