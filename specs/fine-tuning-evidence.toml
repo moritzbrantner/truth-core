@@ -1,0 +1,45 @@
+[batch]
+vocab = "TruthCore.Science.FineTuningEvidence"
+results = "TruthCore.Results.Science.FineTuningEvidence"
+
+[[statement]]
+id = "Observer incremental factorization threshold and screening"
+lean = "Factorization"
+paraphrase = "For all existing positive rational three-cell Sampling pairs, observer-conditioned factor equals raw evidence factor divided by observer factor. It exceeds one iff raw exceeds observer, equals one iff they coincide, and is one when both other-observer cells vanish."
+
+[[statement]]
+id = "Joint conditional and nonzero screening fixtures"
+lean = "Controls"
+paraphrase = "Existing design/natural factors are raw three, observer one, conditional three; design/selectedNatural factors are three, four, three quarters. Nonzero evidence-equals-observer fixtures give raw and observer factors five, conditional one. Stipulated models only."
+
+[[statement]]
+id = "Measurable pushforward evidence invariance"
+lean = "PushforwardInvariance"
+paraphrase = "For any measurable equivalence between measurable spaces and any two Mathlib measures, pushing both measures and the evidence and observer events forward preserves both evidence probabilities, raw event ratio, and intersection-defined conditional ratio. ENNReal identity includes degenerate cases; evidential interpretation requires finite positive denominators."
+
+[[argument]]
+id = "Observer incremental factorization threshold and screening deduction"
+theorem = "factorization"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Observer incremental factorization threshold and screening"
+rule = "Positive rational division"
+meaning = "Internal universally quantified conditional in the existing E-subset-O partition; no physical calibration or actual designer inference."
+
+[[argument]]
+id = "Joint conditional and nonzero screening evaluations"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Joint conditional and nonzero screening fixtures"
+rule = "Exact rational evaluation"
+meaning = "Preserves existing fixture values and distinguishes joint evidence direction from incremental direction; screening does not erase observer evidence."
+
+[[argument]]
+id = "Measurable pushforward evidence invariance deduction"
+theorem = "invariance"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Measurable pushforward evidence invariance"
+rule = "Mathlib measurable-equivalence pushforward and injective set images"
+meaning = "General measure-theoretic identity, applicable to continuous probability measures; no empirical measure selection, density computation or divine preference is asserted."
