@@ -1,0 +1,10 @@
+{
+  "id": "f3808afc-27dc-45ef-8ace-1900da341863",
+  "label": "Idle-maximum rival of the genus principle at being survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "ec8c4a31-2ca7-4221-8eee-9a7c73de6337",
+  "rule": "Explicit three-member interpretation, checked by case analysis",
+  "meaning": "Rival test for the genus principle at being against its smallest consumer, TermSenseForks3.maximeEnsCausesAllMaximal (premises: some being is maximal in being, the genus principle at being). With a top that causes nothing and a maker that causes the being of a made thing, the idle-maximum rival holds with the existence premise and no maximum causes the being of all others. Model-witnessed survival only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

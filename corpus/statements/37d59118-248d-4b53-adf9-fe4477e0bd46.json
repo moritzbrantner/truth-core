@@ -1,0 +1,15 @@
+{
+  "id": "37d59118-248d-4b53-adf9-fe4477e0bd46",
+  "label": "Something not CONCRETE_6 is SIMPLY_PRIOR_1 to a distinct actual concretum",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by Platonism about priority): for some distinct y and x, y is simply prior to x, x is concrete and exists at w, and y is not concrete. It does not say that y is absent from w, and the priority is not temporal.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeSimplyPriorNonConcrete",
+  "definition_ids": [
+    "a94df438-65e3-48bb-95e9-3342c94322ed",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "1d9aa4d9-18cc-5930-95fb-5af65e32c0f8",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

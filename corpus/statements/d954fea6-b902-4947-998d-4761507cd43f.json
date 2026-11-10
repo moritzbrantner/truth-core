@@ -1,0 +1,9 @@
+{
+  "id": "d954fea6-b902-4947-998d-4761507cd43f",
+  "label": "Form as cause: a non-concrete esse cause holds and an actual contingent concretum is ungrounded",
+  "paraphrase": "Closed control on one interpretation (two mutually accessible worlds; a non-concrete item existing at both and a concrete item existing at the selected world only; the non-concrete item causes the concrete item's esse; empty selected relation): the non-concrete-cause rival holds; every actual contingent concretum participates esse; whatever participates esse has a distinct cause of its esse; and it is false that every actual contingent concretum has an actual concrete ground. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.NonConcreteEsseCauseSurvives",
+  "definition_ids": [
+    "cdc9a611-4829-4125-8b20-5c69430e50e3"
+  ]
+}

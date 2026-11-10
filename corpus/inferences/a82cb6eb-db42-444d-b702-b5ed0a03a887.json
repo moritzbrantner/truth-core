@@ -1,0 +1,10 @@
+{
+  "id": "a82cb6eb-db42-444d-b702-b5ed0a03a887",
+  "label": "Bottomless-grounding rival of whole-roster nontrapping survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "9c65621a-b24a-4863-980c-bda14e55bf38",
+  "rule": "Explicit two-world interpretation on the natural numbers, checked directly",
+  "meaning": "Rival test for whole-roster nontrapping against its smallest consumer, WholeRosterFoundation.necessaryConcrete (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle). In an endless descending series of contingent concreta the bottomless-grounding rival holds with the other three premises and no concretum is necessary. Model-witnessed survival only; the interpretation is not claimed metaphysically possible and the premise is neither refuted nor defended.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

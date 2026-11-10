@@ -1,0 +1,25 @@
+{
+  "id": "ea247cb9-5aef-4901-951b-d7e3a620257b",
+  "label": "Thin-existence rival of the existence-to-act contract survives, checked",
+  "argument_id": "c785fdf3-7a34-483d-ae3b-66e1dd527d96",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.thinExistenceSurvives",
+  "comparator_config": "results/ea247cb9-5aef-4901-951b-d7e3a620257b/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the existence-to-act contract against its smallest consumer, Round2ExistenceAct.intellectualExerciseRequiresActFromExistence (premises: every intellectual exerciser exists at the world, the existence-to-act contract). With one existing exerciser in act in no respect, the thin-existence rival holds with the other premise and the conclusion fails. Model-witnessed survival only; the interpretation assigns no act at all, which the rival permits but does not require.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "0436de86-6579-53f2-9ff5-2111ba44ebae",
+      "rival_statement_id": "595dfa71-7883-46ed-b5a6-316bf71ad463",
+      "sense_definition_id": "f5345c9c-24c5-41d4-9e6f-11a9de9edcdc",
+      "outcome": "model-witnessed",
+      "conditions": "Control.thinOntic, thinAct, thinAttribution at the one world: the rival and IntellectualExerciserExistsAt hold; IntellectualExerciseRequiresAct fails. Consumer tested: Round2ExistenceAct.intellectualExerciseRequiresActFromExistence.",
+      "scope": "Same Ontic model, InAct, esse and selected world as the premise; one world, one candidate, one respect.",
+      "coverage": "One explicitly populated interpretation; the weaker two-category rival (some existents with the act, some without) is not tested.",
+      "exclusivity": "The rival and the premise cannot both hold on one model, InAct, esse and world (unregistered helper thinExistence_excludes).",
+      "witness": "Control.thinOntic with thinAct and thinAttribution in Control.ThinExistenceSurvives; thinExistenceSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the adopted concrete-as-esse-in-re sense: with it the rival makes every existent of the world abstract, so it stands or falls with the abstract-only rival of concrete population."
+    }
+  ]
+}

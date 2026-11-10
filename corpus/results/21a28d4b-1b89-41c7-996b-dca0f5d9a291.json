@@ -1,0 +1,25 @@
+{
+  "id": "21a28d4b-1b89-41c7-996b-dca0f5d9a291",
+  "label": "Contingent-root rival of contingent dependence survives, checked",
+  "argument_id": "b5a82533-dd4d-4e8f-aec2-de2c4da686b6",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.contingentRootSurvives",
+  "comparator_config": "results/21a28d4b-1b89-41c7-996b-dca0f5d9a291/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for contingent dependence against its smallest consumer, ActualRootNecessityUpgrade.upgrade (premises: unique actual root, contingent dependence, excluded middle). With one ungrounded contingent concretum the contingent-root rival holds with the other two premises and no root is both necessary and unique. Model-witnessed survival only; existing controls (NecessaryRootControls) already exhibit a contingent root, and this certificate adds the test against the upgrade step.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+      "rival_statement_id": "ee1fc469-42d7-4b5b-bedc-aaacfb4df275",
+      "sense_definition_id": "d517c074-02d2-4daf-8fc0-2c13c4c8de14",
+      "outcome": "model-witnessed",
+      "conditions": "Control.bruteRoot at world false: the rival, a unique actual root and excluded middle hold; UniqueNecessaryActualRootAt fails. Consumer tested: ActualRootNecessityUpgrade.upgrade.",
+      "scope": "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, one candidate.",
+      "coverage": "One explicitly populated interpretation; not every brute-fact view.",
+      "exclusivity": "The rival and the premise cannot both hold on one Profile and world (unregistered helper contingentRoot_excludes); with excluded middle the rival is the premise's negation (existing everyContingentGrounded_iff_noContingentRoot).",
+      "witness": "Control.bruteRoot in Control.ContingentRootSurvives; contingentRootSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the recorded explanation principles (no brute existence at the selected world) under one semantic profile."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "4c9908ba-d2e6-455a-a3ea-0e0354ca2eed",
+  "label": "Some actual concretum has a distinct existing cause of its esse that is not CONCRETE_6",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by Platonic Forms or governing laws as causes of being): for some distinct c and x, x is concrete and exists at w, c causes x's esse, c exists at w, and c is not concrete. Whether the selected relation holds between c and x is left open.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeEsseCauseNonConcrete",
+  "definition_ids": [
+    "cdc9a611-4829-4125-8b20-5c69430e50e3",
+    "9969dfc2-1f2e-50be-b5e6-1f9cd402c7a6",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

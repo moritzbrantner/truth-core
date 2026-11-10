@@ -1,0 +1,13 @@
+{
+  "id": "c785fdf3-7a34-483d-ae3b-66e1dd527d96",
+  "label": "Thin-existence rival of the existence-to-act contract survives, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "e60309e4-fcf8-4d03-be7e-39d7a1cf7ac3",
+  "inference_ids": [
+    "2e069ea9-d82f-4790-887a-129f163209b4"
+  ],
+  "meaning": "Rival test for the existence-to-act contract against its smallest consumer, Round2ExistenceAct.intellectualExerciseRequiresActFromExistence (premises: every intellectual exerciser exists at the world, the existence-to-act contract). With one existing exerciser in act in no respect, the thin-existence rival holds with the other premise and the conclusion fails. Model-witnessed survival only; the interpretation assigns no act at all, which the rival permits but does not require.",
+  "definition_ids": [
+    "f5345c9c-24c5-41d4-9e6f-11a9de9edcdc"
+  ]
+}
