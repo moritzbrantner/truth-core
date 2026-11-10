@@ -1,0 +1,11 @@
+{
+  "id": "ed27d6ae-685d-434e-b00f-b3c8121a3709",
+  "label": "Inert-emptiness controls checked",
+  "argument_id": "a359b9c3-4da0-45ff-bec0-7efe007b7779",
+  "challenge_module": "TruthCore.Results.Causality.InertEmptiness.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InertEmptiness.Solution",
+  "theorem": "TruthCore.Results.Causality.InertEmptiness.controls",
+  "comparator_config": "results/ed27d6ae-685d-434e-b00f-b3c8121a3709/comparator.json",
+  "status": "solution-present",
+  "description": "Omitting inert emptiness, the possible contingent-free past, or presence-to-existence each permits failure of the conclusion while the frame conditions and the other two premises hold; a fourth interpretation jointly satisfies all premises with a contingent individual and a necessary one, so the bundle is nonvacuous. Omission of the two frame conditions is not tested here. Model claims concern these finite interpretations only."
+}

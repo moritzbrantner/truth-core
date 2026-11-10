@@ -1,7 +1,7 @@
 # Argument-first pilots: Cogito to necessary being, and moral authority (#565)
 
 This note applies the argument-first method of
-[systematic-corpus-loop.md](../systematic-corpus-loop.md#frontier-investigations-argument-first-decomposition-on-demand)
+[systematic-corpus-loop.md](../systematic-corpus-loop.md#bounded-investigations-and-integration)
 to the two pilot investigations, #564 and #563. The initial inventory reads
 existing records; later bounded refinements are identified separately below.
 The inventory changes no premise or frontier closure.

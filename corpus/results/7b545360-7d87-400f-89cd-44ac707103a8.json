@@ -1,0 +1,73 @@
+{
+  "id": "7b545360-7d87-400f-89cd-44ac707103a8",
+  "label": "Stage-one rival survival controls checked",
+  "argument_id": "4eec5bc7-4171-4a21-bce5-5cffa79804d7",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsStageOne.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsStageOne.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsStageOne.controls",
+  "comparator_config": "results/7b545360-7d87-400f-89cd-44ac707103a8/comparator.json",
+  "status": "solution-present",
+  "description": "Each of the five rivals is jointly satisfiable with the other premises of the consuming stage-one theorem while that theorem's conclusion fails: groups 1 to 3 against InertEmptiness.necessaryConcrete, groups 4 and 5 against LocalFramePossibleExternalCause.necessaryConcrete. So neither frame premise, nor presence-to-existence, nor the possible beginning, nor the causal opportunity is redundant, and none of the five rivals is excluded by the remaining premises. No rival is refuted or established, and each model concerns one interpretation only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+      "rival_statement_id": "72bd0f2c-3475-4b97-804c-34862f4ba47f",
+      "sense_definition_id": "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+      "outcome": "model-witnessed",
+      "conditions": "Euclidean frame, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.aheadHistory.",
+      "scope": "Same Ontic and History carrier; three worlds, natural-number times, selected world Place.actual.",
+      "coverage": "One serial frame not reflexive at the selected world; not every non-alethic reading of accessibility.",
+      "exclusivity": "The rival's first conjunct is the negation of the target at the same world.",
+      "witness": "Control.aheadHistory, group 1 of Control.Certificate; nothing exists at the selected world, so NecessaryConcreteAt fails there.",
+      "next_step": "Floor candidate: for alethic possibility, what is actual is possible. The rival changes the meaning of accessibility rather than denying that."
+    },
+    {
+      "target_statement_id": "62b4a40a-919e-5da4-998c-131c386b7361",
+      "rival_statement_id": "9656dfbe-f929-4c65-91f0-72b4b6cec7c2",
+      "sense_definition_id": "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+      "outcome": "model-witnessed",
+      "conditions": "Reflexivity at the selected world, presence-to-existence, inert emptiness and the possible contingent-free past all hold in Control.stepwiseHistory.",
+      "scope": "Same Frame, Ontic and History carrier; three worlds in a chain, natural-number times.",
+      "coverage": "One reflexive, non-Euclidean, non-transitive chain; not every weaker modal logic.",
+      "exclusivity": "The rival's second conjunct is the negation of the target on the same frame.",
+      "witness": "Control.stepwiseHistory, group 2 of Control.Certificate: the individual necessary at the second world does not exist at the selected world.",
+      "next_step": "Test the rival against commitments its holder accepts about iterated possibility, using the existing K, T, S4, B and S5 correspondence results."
+    },
+    {
+      "target_statement_id": "85497562-9d71-558a-9a1e-e4b7c321488a",
+      "rival_statement_id": "d743989e-c6e3-4dff-a373-cc0283ce0f30",
+      "sense_definition_id": "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+      "outcome": "model-witnessed",
+      "conditions": "Euclidean and reflexive frame, inert emptiness and the possible contingent-free past all hold in Control.presentist.",
+      "scope": "Same History carrier with its designated now; two mutually accessible worlds, natural-number times.",
+      "coverage": "One presentist interpretation in which an earlier non-contingent-looking occupant has ceased; not every tensed theory of existence.",
+      "exclusivity": "CoherentAtNow with a past-only occupant contradicts presence-to-existence on the same history.",
+      "witness": "Control.presentist, group 3 of Control.Certificate.",
+      "next_step": "Decide which reading of world-relative existence the spine uses; under presentism the conclusion would have to be about present existence and needs a persistence premise."
+    },
+    {
+      "target_statement_id": "8ea0321d-293e-5767-9ab6-dc270457ef52",
+      "rival_statement_id": "38b135e1-c9f9-4961-adee-f340add0bafa",
+      "sense_definition_id": "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+      "outcome": "model-witnessed",
+      "conditions": "Euclidean and reflexive frame and the causal-opportunity premise (vacuously) hold in Control.eternal.",
+      "scope": "Same Scenario carrier and selected world; two mutually accessible worlds.",
+      "coverage": "One beginningless interpretation; the beginning predicate is uninterpreted in the Scenario.",
+      "exclusivity": "The rival's second conjunct is the negation of the target at the same world.",
+      "witness": "Control.eternal, group 4 of Control.Certificate.",
+      "next_step": "The temporally structured arrival replaces this premise; compare the rival with the endless-generation control of the coming-to-be batch."
+    },
+    {
+      "target_statement_id": "df89f0d2-c051-5859-aa80-5898ec5c0a65",
+      "rival_statement_id": "24bad7e4-1c05-4f51-b782-db436a474f61",
+      "sense_definition_id": "6343c7e8-8c65-5f32-8765-e52c0579fdbb",
+      "outcome": "model-witnessed",
+      "conditions": "Euclidean and reflexive frame hold in the existing PossibleCauseOfContingency.bruteOnly; the possible beginning is part of the rival.",
+      "scope": "Same Scenario carrier and selected world; two mutually accessible worlds.",
+      "coverage": "The existing brute-only interpretation; not every account of uncaused beginnings.",
+      "exclusivity": "Classically the exact negation of the target.",
+      "witness": "PossibleCauseOfContingency.bruteOnly, group 5 of Control.Certificate, reusing bruteOnlyPossibleBeginning, bruteOnlyNoExternalCause and bruteOnlyNoNecessary.",
+      "next_step": "The existing ExternalCandidateNecessity equivalence shows the target already contains the possibility of the conclusion; prefer the temporal arrival."
+    }
+  ]
+}

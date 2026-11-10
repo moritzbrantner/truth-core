@@ -76,6 +76,7 @@ public import TruthCore.Results.Causality.ContingentAncestry.Solution
 public import TruthCore.Results.Causality.ContingentAtomicity.Solution
 public import TruthCore.Results.Causality.ContingentBeingNode.Solution
 public import TruthCore.Results.Causality.ContingentBeingNodeReconciled.Solution
+public import TruthCore.Results.Causality.ContingentComingToBe.Solution
 public import TruthCore.Results.Causality.ContingentTotalityCause.Solution
 public import TruthCore.Results.Causality.ConvergentZenoSchedule.Solution
 public import TruthCore.Results.Causality.CountCauseTimeNecessity.Solution
@@ -140,6 +141,7 @@ public import TruthCore.Results.Causality.HeadlessCausalAncestry.Solution
 public import TruthCore.Results.Causality.HistoricalRemoval.Solution
 public import TruthCore.Results.Causality.IndexedSignalProvenance.Solution
 public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
+public import TruthCore.Results.Causality.InertEmptiness.Solution
 public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.IntellectualInclination.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution
@@ -253,6 +255,7 @@ public import TruthCore.Results.Causality.SourceForestInterop.Solution
 public import TruthCore.Results.Causality.SourceFunctionalityWellFounded.Solution
 public import TruthCore.Results.Causality.SourceWitness.Solution
 public import TruthCore.Results.Causality.SpineRivalsAttributes.Solution
+public import TruthCore.Results.Causality.SpineRivalsStageOne.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureAct.Solution
 public import TruthCore.Results.Causality.StrictPriorityPureActControls.Solution
 public import TruthCore.Results.Causality.SubjectFocalRoles.Solution

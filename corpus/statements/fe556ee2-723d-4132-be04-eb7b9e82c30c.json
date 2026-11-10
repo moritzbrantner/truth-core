@@ -1,0 +1,13 @@
+{
+  "id": "fe556ee2-723d-4132-be04-eb7b9e82c30c",
+  "label": "Inert-emptiness omission and nonvacuity controls on four two-world interpretations",
+  "paraphrase": "Closed mathematical controls on two mutually accessible worlds with natural-number times, every individual counted concrete. The frame is Euclidean and reflexive at the selected world. (1) One individual existing only at the selected world and present there only at time 1: presence-to-existence and the possible contingent-free past hold, a concrete-empty moment is followed by a populated one, inert emptiness fails, and no individual exists at both worlds. (2) The same individual present at every time: presence-to-existence and inert emptiness hold, a contingent individual exists, no accessible history has a contingent-free moment before a populated one, and no individual exists at both worlds. (3) An individual present at every time of every world but existing at none: inert emptiness and the possible contingent-free past hold, presence-to-existence fails, and no individual exists at both worlds. (4) One individual existing at both worlds and present at every time, another existing only at the selected world and present there only at time 1: all three premises hold, a contingent individual exists, and the first individual is concrete and exists at both worlds. These are statements about four finite interpretations only.",
+  "lean_declaration": "TruthCore.Causality.InertEmptiness.Control.Certificate",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

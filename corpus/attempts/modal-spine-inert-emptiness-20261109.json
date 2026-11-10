@@ -1,0 +1,19 @@
+{
+  "id": "58ff8235-03c8-4926-ad3e-0113d5b6f718",
+  "label": "Modal spine stage one: necessary concrete individual from inert emptiness, with rivals recorded",
+  "statement_ids": [
+    "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "0cb07f05-5268-4685-8213-0eefa9ec4255",
+    "df89f0d2-c051-5859-aa80-5898ec5c0a65"
+  ],
+  "date": "2026-11-09",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Owner-selected working root: God exists (stage 1), with a modal contingency argument as the first spine (docs/notes/modal-spine.md). Target of this attempt: stage one, a necessary concrete individual. The existing LocalFramePossibleExternalCause.necessaryConcrete route rests on the causal-opportunity premise, and the existing ExternalCandidateNecessity equivalence shows that premise already contains the possibility of a necessary concrete individual: the totality-cause relation does no logical work. This attempt replaces it by two temporally structured premises on the existing TemporalHistory.History: inert emptiness (a moment with nothing concrete present is followed only by such moments, in every history) and the possibility of a history with a moment free of contingent concrete individuals before a moment containing one. With the existing presence-to-existence contract and Euclidean plus actual-reflexive access, InertEmptiness.necessaryConcrete derives the existing NecessaryConcreteAt for the same rigid individual; no causal, grounding or explanatory relation is used. Controls: omitting inert emptiness (a beginning out of nothing), the possible contingent-free past (an initial state populated from its earliest moment) or presence-to-existence each lets the conclusion fail with the rest retained; a fourth interpretation jointly satisfies the bundle. Omission of the frame conditions is not tested. The two rivals are recorded as alternative_to statements so the premises can later be defended. Relation to earlier work: EmptyHistoryCausalAvailability reaches the same node through a causal-availability premise on negative facts and an empty contingent-bearer world; the present route uses no fact causation and no empty world, only empty moments. Rejected reading: deriving the causal-opportunity premise itself from inert emptiness, which is impossible without a causal relation; the new route bypasses that premise instead of discharging it. No premise is established and the root is not closed.",
+  "blocker": "Both new premises are OPEN. Inert emptiness quantifies over every history of the frame and is silent about a first state with no earlier moment; the initial-state rival denies the possible contingent-free past. Stage two: the existing NecessaryConcreteUnderived argument carries the conclusion to a necessary concrete individual without an actual supporter of its being, under two further OPEN premises (supporters of necessary concreta are necessary; that support is well-founded), with no rival recorded for either. Whether that individual is the root the existing NecessaryClassicalGodRoot chain starts from is unchecked.",
+  "evidence": [
+    "bb9a11b1-d0f1-4b78-a009-b1f0dfee3e32",
+    "ed27d6ae-685d-434e-b00f-b3c8121a3709"
+  ]
+}
