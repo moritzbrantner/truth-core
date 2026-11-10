@@ -1,0 +1,9 @@
+{
+ "id": "e55472fe-cc19-44ea-b6f4-3aca2da49660",
+ "label": "Origin-determined access: one world sees another iff their shared individuals have near origins",
+ "term": "origin-determined access",
+ "definition": "OriginDeterminesAccess m I holds when, for all worlds w and v, w accesses v exactly when every individual existing at both w and v has near origins at w and at v (I.near (I.origin w x) (I.origin v x)). The only-if half is origin essentialism with tolerance: no accessible world gives an existing individual a far origin. The if half says that origin closeness is the only constraint on access; in particular it makes every world sharing no individual with w accessible from w. Example: Control.faithful, where access fails exactly between aMinus and plus and between bMinus and bPlus. Non-example: an access relation that also excludes worlds for nomological or recombinational reasons satisfies at most the only-if half.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginDeterminesAccess",
+ "note": "Analyst reconstruction of origin-tolerance access; attribution deferred. Uses the origin interface (622524e2). The if half is OPEN and is not attributed to any source; the existence of individuals at worlds (which individuals a world may lack) is not constrained by this definition, so deletion of an individual from an accessible world is neither required nor excluded by it. Repairs the cycle-3 link to the unrelated NecessaryIf definition (6f7a4ccc)."
+}

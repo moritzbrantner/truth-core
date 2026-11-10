@@ -4,6 +4,7 @@
   "paraphrase": "Rival framework commitment, unattributed (analyst reconstruction of the origin-tolerance account; attribution deferred): for all worlds w and v, v is accessible from w exactly when every individual existing at both w and v has near origins at w and at v. The only-if half is origin essentialism with tolerance (no accessible world gives an existing individual a far origin); the if half says origin closeness is the only constraint on access. Identity across worlds is rigid identity of the individual carrier; no counterpart relation.",
   "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginDeterminesAccess",
   "definition_ids": [
-    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"
+    "622524e2-e7f3-4b27-a644-bf9a4235121b",
+    "e55472fe-cc19-44ea-b6f4-3aca2da49660"
   ]
 }

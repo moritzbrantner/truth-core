@@ -6,32 +6,32 @@ results = "TruthCore.Results.Causality.OriginToleranceIdentity"
 id = "Closeness of material origins is reflexive and symmetric"
 lean = "NearIsTolerance"
 paraphrase = "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): on a given assignment of origins to individuals at worlds, every origin is near itself, and if one origin is near another then the other is near the first. Transitivity is not assumed."
-definitions = ["6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+definitions = ["622524e2-e7f3-4b27-a644-bf9a4235121b"]
 
 [[statement]]
 id = "One world is possible relative to another iff every shared individual has near origins in them"
 lean = "OriginDeterminesAccess"
 paraphrase = "Rival framework commitment, unattributed (analyst reconstruction of the origin-tolerance account; attribution deferred): for all worlds w and v, v is accessible from w exactly when every individual existing at both w and v has near origins at w and at v. The only-if half is origin essentialism with tolerance (no accessible world gives an existing individual a far origin); the if half says origin closeness is the only constraint on access. Identity across worlds is rigid identity of the individual carrier; no counterpart relation."
-definitions = ["6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+definitions = ["622524e2-e7f3-4b27-a644-bf9a4235121b", "e55472fe-cc19-44ea-b6f4-3aca2da49660"]
 
 [[statement]]
 id = "Every near variation of a concrete individual's origin is realised in an accessible world"
 lean = "OriginPlenitude"
 paraphrase = "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): for every world w, every concrete individual x existing at w and every origin o near the origin of x at w, some world accessible from w contains x with origin o."
-definitions = ["6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+definitions = ["622524e2-e7f3-4b27-a644-bf9a4235121b"]
 
 [[statement]]
 id = "Some actual concrete individual has two possible origins that are not near each other"
 lean = "VariedOriginAt"
 paraphrase = "Rival framework commitment, unattributed (origin-tolerance account; attribution deferred): some concrete individual existing at the selected world w exists at two worlds accessible from w whose origins for it are not near each other (the possibly-possible-but-not-possible pattern carried by one individual)."
-definitions = ["6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+definitions = ["622524e2-e7f3-4b27-a644-bf9a4235121b"]
 
 [[statement]]
 id = "745d0d4c-71f3-4593-83eb-a719eeaf8912"
 label = "Encoded origin-tolerance countermodel to the actual-world Euclidean inert arrival"
 lean = "Control.Certificate"
 paraphrase = "Closed mathematical controls, every individual counted concrete, natural-number times. (1) Five worlds, two individuals a and b, origins on three offsets near iff they differ by at most one step: a has offsets -1, 0, +1 at aMinus, actual, plus; b has offsets 0, 0, -1, +1 at actual, plus, bMinus, bPlus; a is absent from bMinus and bPlus, b from aMinus; access fails only between aMinus and plus and between bMinus and bPlus. Closeness is a tolerance, access is determined by origin closeness, every near origin variation is realised, and a has non-near origins at two successors of actual. Actual accesses itself, presence-to-existence, inert emptiness and the possible contingent-free past at actual (witness plus, times 0 < 1) hold; Euclidean access at actual fails and no individual exists at actual and every world accessible from actual. (2) On the three-offset tolerance frame with one individual existing at every offset with that offset as origin, the same four origin commitments hold and that individual exists at actual and every accessible world. Statements about these finite interpretations only. Scope (semantic challenge 2026-11-10): faithful only to the encoded origin-tolerance commitments (rigid identity; Salmon-style access iff shared individuals have near origins, whose if-half is OPEN; near-origin plenitude; one varied individual), with stipulated absences (a from bMinus and bPlus, b from aMinus) and a stipulated temporal profile not tied to origins; model-witnessed for this finite encoding only. Not tested: counterpart, vague or kind-relative tolerance, or recombination/deletion plenitude."
-definitions = ["Euclidean access at the selected world only", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one"]
+definitions = ["Euclidean access at the selected world only", "622524e2-e7f3-4b27-a644-bf9a4235121b", "e55472fe-cc19-44ea-b6f4-3aca2da49660", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one"]
 
 [[argument]]
 id = "Origin-determined access with a varied individual gives the tolerance rival"
