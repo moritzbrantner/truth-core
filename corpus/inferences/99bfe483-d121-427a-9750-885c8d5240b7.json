@@ -1,0 +1,18 @@
+{
+  "id": "99bfe483-d121-427a-9750-885c8d5240b7",
+  "label": "Necessary concrete witness from productive accessible source (inference)",
+  "input_statement_ids": [
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "ef69a630-2277-56be-86ca-f05f8193093a",
+    "62b4a40a-919e-5da4-998c-131c386b7361",
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "ec3f7cc9-a48b-5672-a09e-a652c3477348",
+    "c1d16add-865b-4ac6-a790-4e6e85fe0ac5",
+    "e2104271-bf96-4d07-af55-5bcb7871f9e7"
+  ],
+  "output_statement_id": "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "rule": "Same-witness composition or explicit finite witness",
+  "meaning": "Reuse sameSource without changing its five inputs, world, Ontic or candidate. Productivity supplies an actual outgoing edge for that same source at v; the existing direct-exercise concreteness dictionary at v classifies it. The same candidate already exists actually and necessarily at w. Seven open inputs, no establishment or original capability completion; no own-nature necessity bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

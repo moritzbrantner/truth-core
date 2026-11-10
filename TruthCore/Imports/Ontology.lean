@@ -8,5 +8,6 @@ public import TruthCore.Ontology.NaturalismContrasts
 public import TruthCore.Ontology.NaturalismLaws
 public import TruthCore.Ontology.NaturalismLogicalFloor
 public import TruthCore.Ontology.NaturalismSets
+public import TruthCore.Ontology.QuotientGeneration
 public import TruthCore.Ontology.Spatiotemporal
 public import TruthCore.Ontology.UniverseCauseScopeBoundary

@@ -1,0 +1,9 @@
+{
+ "id": "c2b16e23-5bb5-4602-ac28-3ee32242fa96",
+ "label": "Coming to be of contingent concrete things in a history",
+ "term": "coming to be (every contingent concrete thing)",
+ "definition": "AllContingentsComeToBeAt h Concrete v holds when every individual that is Concrete and modally contingent at v has, at every moment t of v at which it is present, a strictly earlier moment s at which it is absent. In ordinary language: each contingent thing was at some earlier time not there. A thing present at the first moment of a history does not come to be; a thing appearing at a later moment does. Non-contingent and non-concrete individuals are unconstrained.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ContingentComingToBe.AllContingentsComeToBeAt",
+ "note": "Analyst framework definition for premise A3 of the modal spine; attribution deferred. Coming to be is not being caused and not having a first moment of presence. It differs from 'each thing is at some time not' (the Third Way step whose quantifier shift the corpus records as invalid) by requiring an EARLIER moment of absence. Whether every contingent concrete thing of any real or possible history comes to be remains OPEN."
+}

@@ -9,3 +9,88 @@ conclusion = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
 kind = "bridge"
 status = "mapped"
 note = "OPEN: analyst adequacy interpretation, independent content/direction/calibration of agenda and reason, full real fact scope and source correspondence. Neither selection certificate establishes the sourced series claim or actuality."
+# Three rival adequacy readings remain live. These are mapped research
+# obligations, not three mutually exclusive owner decisions or Lean results.
+# The candidate nodes are intentionally open and must be decomposed into
+# sense-indexed corpus statements/arguments before any certification.
+
+[[node]]
+id = "b19ffd92-01bd-5c0b-9643-e7407137ea5e"
+
+[[node]]
+id = "Whole contingent order includes choices, laws, and relations"
+new = true
+text = "OPEN: the explanandum includes contingent choices, the obtaining of laws and relations, not just individual events; defend the nonredundant whole-order demand."
+
+[[node]]
+id = "Same necessary bearer has a genuinely productive actual exercise"
+new = true
+text = "OPEN: connect the same rigid necessary concrete bearer to actual productive causal action at the target world, with an independent causal/power interpretation; #1337 provides only a conditional accessible-world connection."
+
+[[node]]
+id = "Whole-order explanation is external to the contingent order"
+new = true
+text = "OPEN: exclude adequate memberwise, holistic, circular, and brute global explanations by an independently defended explanatory norm; distinguish the necessary bearer from necessarily obtaining content."
+
+[[node]]
+id = "Necessary concrete bearer is a necessary substance in the source sense"
+new = true
+text = "OPEN: justify the concrete-necessary to source's necessary-substance identification; no word-level necessity or existence translation suffices."
+
+[[node]]
+id = "Optimality with ties meets the required explanatory standard"
+new = true
+text = "OPEN rival A: prove the obtaining of a particular tied optimum is adequately explained by reason-guided no-better-alternative choice, or exhibit a defeating contrastive demand. The no-better predicate does not distinguish tied outputs."
+
+[[node]]
+id = "Contingent nonnecessitating selection explains its own specification"
+new = true
+text = "OPEN rival B: explain why this actual intentional exercise/specification obtains without an external selector, unexplained contingent remainder, vicious regress, or necessitation; a chooses predicate and first-optimum algorithm do not settle agency."
+
+[[node]]
+id = "Strong contrastive sufficiency preserves actual contingency"
+new = true
+text = "OPEN rival C: establish a discriminating sufficient reason for this particular outcome while preserving alternative possibilities; test necessitation/modal-collapse and regress rather than assume them away."
+
+[[edge]]
+premises = [
+  "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "Whole-series adequacy policy scope and tied-order certificates",
+  "Whole contingent order includes choices, laws, and relations",
+  "Same necessary bearer has a genuinely productive actual exercise",
+  "Whole-order explanation is external to the contingent order",
+  "Necessary concrete bearer is a necessary substance in the source sense",
+  "Optimality with ties meets the required explanatory standard",
+]
+conclusion = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
+kind = "bridge"
+status = "mapped"
+note = "OPEN rival A: the formal tied-choice control permits either optimum and proves no particular actual selection is adequately explained. Source attribution/externality and same-bearer production remain independent."
+
+[[edge]]
+premises = [
+  "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "Whole contingent order includes choices, laws, and relations",
+  "Same necessary bearer has a genuinely productive actual exercise",
+  "Whole-order explanation is external to the contingent order",
+  "Necessary concrete bearer is a necessary substance in the source sense",
+  "Contingent nonnecessitating selection explains its own specification",
+]
+conclusion = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
+kind = "bridge"
+status = "mapped"
+note = "OPEN rival B (provisionally prioritized for inquiry, not endorsed): an agent-causal selection is not explained merely by labeling it free. Explain selection's obtaining under the same whole-series standard."
+
+[[edge]]
+premises = [
+  "b19ffd92-01bd-5c0b-9643-e7407137ea5e",
+  "Whole contingent order includes choices, laws, and relations",
+  "Same necessary bearer has a genuinely productive actual exercise",
+  "Whole-order explanation is external to the contingent order",
+  "Necessary concrete bearer is a necessary substance in the source sense",
+  "Strong contrastive sufficiency preserves actual contingency",
+]
+conclusion = "702e4171-b48d-5c5e-a016-6bfd5cc67225"
+kind = "bridge"
+status = "mapped"
+note = "OPEN rival C: strict contrastive sufficiency may necessitate the chosen outcome if complete sufficient conditions are necessary; weaker nonnecessitating readings must be specified. No modal collapse is inferred without its assumptions."

@@ -1,0 +1,68 @@
+# Analyst reconstruction, attribution deferred; both bridges remain OPEN.
+[batch]
+vocab = "TruthCore.Causality.SelfMotionSeparation"
+results = "TruthCore.Results.Causality.SelfMotionSeparation"
+
+[[statement]]
+id = "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction"
+lean = "DiagonalHasWholeParts"
+paraphrase = "OPEN analyst bridge: every diagonal self-motion at a fixed context has the integrated whole/proper-parts reconstruction. Neither a definition nor source attribution."
+definitions = ["e13e749b-d266-5f18-bc50-59b340444c1f", "2fccff11-d956-4ec2-9705-922413f76a5c"]
+disambiguations = ["DISAMB-SELF-MOTION"]
+
+[[statement]]
+id = "An integrated internal mover moves the whole in the same context"
+lean = "InternalMoverMovesWhole"
+paraphrase = "OPEN analyst bridge: when distinct proper parts p and q of whole x satisfy Moves p q c and Integrated x p q c, the same p moves x in the same context c. Does not transfer actuality."
+definitions = ["DEF-MOVER-PART"]
+disambiguations = ["DISAMB-SELF-MOTION"]
+
+[[statement]]
+id = "Self-motion separation has populated witnesses and bridge omission models"
+lean = "Control.Certificate"
+paraphrase = "Finite same-context witnesses separate p moving q, p moving whole and whole moving itself; omit each sufficient bridge with the original target false; reject mere internal coincidence lacking whole motion or integration; and jointly satisfy both bridges with a nonempty diagonal and proper-part motion. No real-world applicability asserted."
+definitions = ["2fccff11-d956-4ec2-9705-922413f76a5c", "e13e749b-d266-5f18-bc50-59b340444c1f"]
+disambiguations = ["DISAMB-SELF-MOTION"]
+
+[[argument]]
+id = "Diagonal SELF_MOTION_1 distinct-part interface from explicit reconstruction bridges"
+theorem = "distinctPart"
+premises = ["Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction", "An integrated internal mover moves the whole in the same context"]
+conclusion = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+rule = "Witness extraction and same-context internal-to-whole transfer"
+meaning = "For a diagonal event obtain the explicit integrated whole/parts witness, select its proper moving part p and apply the transfer premise to p moving q. This derives exactly the existing diagonal-to-distinct-moving-part root consumer. Both bridges and whole actuality remain OPEN; independent original SELF_MOTION_2 is not completed."
+senses = {SELF_MOTION = "SELF_MOTION_3"}
+sense_bridges = [{term = "SELF_MOTION", from = "SELF_MOTION_1", to = "SELF_MOTION_3", statement_id = "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction"}]
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+rival_statement_id = "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction"
+sense_definition_id = "2fccff11-d956-4ec2-9705-922413f76a5c"
+outcome = "unresolved"
+conditions = "distinctPart derives the target from both explicit bridges; neither bridge is established"
+scope = "One B and context C; same x,p,q,c, respect/event/clock/world and Moves interpretation throughout"
+coverage = "Selected diagonal and integrated proper-parts readings only; no exhaustive coverage premise"
+exclusivity = "Distinct wrapper declarations; no claim that philosophical extensions are disjoint"
+gap = "Independent SELF_MOTION_2-to-reconstruction and diagonal-to-reconstruction applicability remain unproved"
+next_step = "Test applicability of diagonal-to-integrated-parts bridge; retain whole-actuality transfer as open"
+
+[[argument]]
+id = "Self-motion separation finite certificates"
+theorem = "controls"
+premises = []
+conclusion = "Self-motion separation has populated witnesses and bridge omission models"
+rule = "Explicit three-object witness construction and contradiction"
+meaning = "One fixed whole, motor and limb at Unit context: internal-only motion has no part-to-whole or diagonal edge; adding part-to-whole still yields no diagonal; diagonal-only satisfies transfer but refutes the target; joined internal/diagonal satisfies reconstruction but refutes the target; Full jointly witnesses both bridges with nonempty diagonal. Missing whole motion or integration prevents the reconstruction. Finite formal interpretations only."
+sense_mixing_control = true
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-SELF-MOVER-MOVES-BY-A-DISTINCT-PART"
+rival_statement_id = "Diagonal SELF_MOTION_1 admits the integrated SELF_MOTION_3 reconstruction"
+sense_definition_id = "2fccff11-d956-4ec2-9705-922413f76a5c"
+outcome = "model-witnessed"
+conditions = "Control.Certificate: the Joined interpretation satisfies reconstruction bridge but not the original distinct-part target"
+scope = "Control.Obj whole/motor/limb; one Unit context, shared Part, Moved, Integrated"
+coverage = "Five selected finite relations, not all philosophical senses or models"
+exclusivity = "Edges tested independently; no global exclusivity asserted"
+witness = "Control.Joined with populated whole/motor/limb; controls proves reconstruction bridge and target failure; Full proves nonvacuity of both bridges"
+next_step = "Investigate an independent warrant for internal-to-whole transfer; no inference from countermodel to actual metaphysical denial"

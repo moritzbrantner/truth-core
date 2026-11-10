@@ -1,0 +1,13 @@
+{
+  "id": "c1a66dbb-ebf6-4fff-ac47-ec79aa5a5f3f",
+  "label": "A2 capability profile comparisons and omission controls",
+  "paraphrase": "Analyst A2 profiles: for any relation outgoing capability implies incoming-or-outgoing capability. Guarded accessible exercise and productive stimulus-response dispositions imply one another only under explicit realization and attribution bridges. Broad coverage denial transfers to outgoing coverage denial with an explicit coverage assumption for incoming-only candidates. Finite Bool controls separate both domains, refute unconditional denial transfer in each profile, witness unexercised disposition, omit each cross-profile bridge, and jointly satisfy both bridges. No source meaning is completed or root premise discharged.",
+  "lean_declaration": "TruthCore.Causality.SurveyCapabilityProfiles.Certificate",
+  "definition_ids": [
+    "63beb159-2c53-434b-8241-f1d9ffcaec42",
+    "0d2eb15b-b7df-42dd-baa2-e855f6476315"
+  ],
+  "disambiguation_ids": [
+    "18495e19-0770-5154-8a92-6da075222bc7"
+  ]
+}

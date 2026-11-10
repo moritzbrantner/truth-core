@@ -1,0 +1,10 @@
+{
+  "id": "2a37e349-bdd2-465b-9844-9c230a1a9884",
+  "label": "Fixed quotient generated values have representatives",
+  "paraphrase": "For any fixed faithful quotient presentation g, CONCRETE_AND_ABSTRACT_9 holds of b exactly when some representative a has g.value a = b. No esse or causal conclusion is included.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.RangeLaw",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0341c901-cd7a-472f-a810-9ca480470928",
+  "label": "Asymmetric existential requirement inside the full effect first cause",
+  "term": "asymmetric existential requirement in the full effect first cause",
+  "definition": "Prior requirement x y := requirement x y and not requirement y x. The primitive requirement x y means that y requires x in order to exist. The asymmetry is a transparent definition; requirement itself has no supplied reduction to modal implication, production or parthood.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.FullFirstCause.Prior",
+  "note": "Analyst formal reconstruction of the existing existential-requirement reading, with historical attribution deferred. It makes the asymmetric component explicit without pretending that the old cause-to-effect-part policy defines requirement. A component/whole existential dependence is an illustrative candidate, not an independently certified instance; reciprocal co-dependence supplies neither direction of Prior. Temporal priority, part overlap and partial productive participation are insufficient. Asymmetry and irreflexivity of Prior follow from the body; transitivity of requirement or Prior, well-foundedness, real applicability and production/parthood bridges remain OPEN. A Humean account may reject real existential requirement; mutual-dependence accounts can accept requirement while denying either asymmetric direction. No new source claim or independent metaphysical warrant is asserted.",
+  "definition_ids": [
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b"
+  ]
+}

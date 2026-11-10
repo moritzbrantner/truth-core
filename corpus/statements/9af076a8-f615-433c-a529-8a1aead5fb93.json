@@ -1,0 +1,12 @@
+{
+  "id": "9af076a8-f615-433c-a529-8a1aead5fb93",
+  "label": "Full effect first cause comparison certificate",
+  "paraphrase": "On one populated three-atom graph with one source and two distinct caused effects: effect-based asymmetric requirement realizes the full first-cause predicate; absent requirement admits a source with outgoing production but no full first cause; cause-based universal priority still admits no full first cause. Identity inclusion is fixed across those three comparisons. A separate Fin3 interpretation with proper inclusion realizes the inclusion horn without priority. Formal interpretations only.",
+  "lean_declaration": "TruthCore.Causality.FullFirstCause.Comparisons",
+  "definition_ids": [
+    "0341c901-cd7a-472f-a810-9ca480470928",
+    "1e2e8561-04fe-53c6-a998-eb0b98b66292",
+    "974180e2-5483-50af-b946-044088d6f8b7",
+    "0679b9de-78bc-5e8a-b7e4-570cd00a481b"
+  ]
+}

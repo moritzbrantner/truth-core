@@ -1,0 +1,11 @@
+{
+  "id": "e3522743-5e6b-4c0b-85d7-82a13df974b7",
+  "label": "Fixed faithful quotient kernel equality, checked",
+  "argument_id": "e8e632c3-753c-4afb-b62c-3d89f355de15",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.kernel",
+  "comparator_config": "results/e3522743-5e6b-4c0b-85d7-82a13df974b7/comparator.json",
+  "status": "solution-present",
+  "description": "The supplied faithful embedding has exactly the Setoid kernel. The quotient equality rule is mathematical; no essence reading follows."
+}

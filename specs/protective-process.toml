@@ -1,0 +1,69 @@
+[batch]
+vocab = "TruthCore.Causality.ProtectiveProcess"
+results = "TruthCore.Results.Causality.ProtectiveProcess"
+definitions = ["Bounded transition protection", "Interception realization in a transition history"]
+
+[[statement]]
+id = "Bounded protective process safety"
+lean = "Safety"
+definitions = ["Bounded transition protection"]
+paraphrase = "For arbitrary Being, Process and State carriers, every initially existing bearer persists at each sampled point through a finite bound IF the history admits no blocked process edges, every loss is represented by a terminal destruction of this bearer, and every such destruction is blocked. These are explicit internal conditional hypotheses, not established metaphysical laws. Analyst formulation; attribution deferred."
+
+[[statement]]
+id = "Realized interception projects to the existing action candidate"
+lean = "ActionProjection"
+definitions = ["Interception realization in a transition history"]
+paraphrase = "For arbitrary carriers, an action satisfying the declared realization interface satisfies the existing InterceptionCandidate. Pure projection; no physical realization or successful protection follows. Analyst formulation; attribution deferred."
+
+[[statement]]
+id = "Protective process omission witnesses"
+lean = "Controls"
+definitions = ["Bounded transition protection", "Interception realization in a transition history"]
+paraphrase = "A four-state, two-process, two-bearer model witnesses interruption of a two-edge destructive flame path and two-step guarded survival. Deleting its threat label or a threat to another bearer leaves the flame path destructive. Bypass and later replacement paths remain destructive after flame suppression. Omitting admissibility, loss coverage or initial existence defeats safety with other carrying conditions retained. Realized protective success coexists with an independently empty CausesIn relation. Stipulated finite histories only, not real conservation or metaphysical possibility."
+
+[[argument]]
+id = "Bounded protective process safety by history induction"
+theorem = "safety"
+premises = []
+conclusion = "Bounded protective process safety"
+rule = "Natural-number induction; explicit exhaustive loss disjunction and suppression contradiction"
+meaning = "Non-transcription bounded conditional support: induction transports the same initial bearer; a loss would be a represented terminal process, no-bypass blocks that process, and admissibility forbids its occurrence. The three conditions and initial existence remain hypotheses inside Safety. Neither a sourced preservation meaning, actual process intervention nor any productive esse cause is established. No original declaration completion or root discharge."
+
+[[argument]]
+id = "Realized interception action projection"
+theorem = "actionProjection"
+premises = []
+conclusion = "Realized interception projects to the existing action candidate"
+transcription = "assembly"
+rule = "Projection of the explicitly assumed realization bridge"
+meaning = "Pure bridge projection: RealizesInterception adds suppression to the existing action/target/occurrence candidate and therefore entails that candidate. It does not derive the realization interface from the action tag or prove intervention effectiveness."
+
+[[argument]]
+id = "Protective process safety and omission controls"
+theorem = "controls"
+premises = []
+conclusion = "Protective process omission witnesses"
+rule = "Explicit finite histories, terminal process edges, omission and populated witnesses"
+meaning = "Checked formal model controls only. The flame baseline has an actual two-edge terminal destruction of bearer true; guarded history shares its initial state and interrupts the first flame edge. Bypass and later replacement remain possible admitted histories, so blocking one process is not unqualified protection. Independent CausesIn may remain empty despite realized protection. No statement about original direct conservation, real fire, or all possible histories."
+[[argument.research_comparisons]]
+target_statement_id = "Bounded protective process safety"
+rival_statement_id = "Protective process omission witnesses"
+sense_definition_id = "Bounded transition protection"
+outcome = "model-witnessed"
+conditions = "Controls first conjunct: Interrupted finite false flame guarded 0; Admissible, LossCovered, NoBypass and ProtectedInterval for finite/blockFlame/guarded/2/true."
+scope = "One fixed Model Bool Bool Stage; the identical bearer true and shared initial ready state; only sampled times 0,1,2."
+coverage = "Two supplied process identities and four states; baseline flame, guarded, direct bypass and later replacement traces. No global adequacy of this roster is claimed."
+exclusivity = "The action is the supplied guarding episode; different process identities may threaten the same bearer. No metaphysical exclusivity premise."
+witness = "finite model with flame 0=ready, flame 1=burning, flame 2=lost; guarded 0=ready and guarded n=safe for n>0. A terminal flame edge is populated on the baseline, while guard safety has all explicit inputs."
+next_step = "Provide an ordinary physical realization of the transition restriction before identifying this candidate with sourced indirect preservation."
+[[argument.research_comparisons]]
+target_statement_id = "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+rival_statement_id = "Protective process omission witnesses"
+sense_definition_id = "DEF-PER-ACCIDENS-PRESERVATION"
+outcome = "unresolved"
+conditions = "Finite process controls certify their stipulated transition semantics only; no interpretation from original direct/indirect sourced conservation is supplied."
+scope = "A temporal sampled process model, contrasted with q104's continuing direct esse-giving without motion or time."
+coverage = "Only the stated finite ordinary-process candidate; the original preservation senses remain incomplete and allowlisted."
+exclusivity = "No exhaustive or exclusive metaphysical fork asserted; one agent may protect and productively act through distinct episodes."
+gap = "An intervention's physical realization and a faithful original indirect-preservation interpretation remain open; productive receipt of this same bearer's esse is absent altogether."
+next_step = "Retain both original allowances. Model a positive productive contribution separately before attempting a same-bearer conservation-to-CausesIn bridge; never infer it from protective success."

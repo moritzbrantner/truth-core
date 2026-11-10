@@ -1,0 +1,11 @@
+{
+  "id": "395cb0f6-0352-47b1-8996-918468cc716a",
+  "label": "A concrete-empty moment is followed only by concrete-empty moments",
+  "paraphrase": "OPEN analyst premise, attribution deferred: in every history of the model, if no concrete individual is present at a moment, then no concrete individual is present at any strictly later moment of that history. It mentions no cause, ground or explanation, and it does not constrain a first state that has no earlier moment.",
+  "lean_declaration": "TruthCore.Causality.InertEmptiness.EmptinessStaysEmpty",
+  "definition_ids": [
+    "1345e373-a92a-43ab-a6d0-84d7f8f0338e",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

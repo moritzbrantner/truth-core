@@ -1,0 +1,9 @@
+{
+  "id": "d17765e2-7ad5-4338-a9a6-67d5bab3b53f",
+  "label": "Uniform potential increase toward actual grounding effects",
+  "term": "uniform potential increase toward actual grounding effects",
+  "definition": "For every actual concretum x and every actual concrete ground y of x at w, S y + epsilon <= S x. ActualConcreteGround guards y only, so the independent x guard is essential. The original selected grounding relation is unchanged. This is an OPEN correlation constraint, not a definition of grounding. On actual Nat with grounds y x iff x=y+1, S n=n and epsilon=1 satisfy it. On reverse successor y=x+1, constant S fails any positive gap. The finite-rank and well-foundedness construction uses both positivity and the common lower bound; no structural property or real-world adequacy is built into the original grounding relation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.ActualGroundingPotentialRank.UniformGroundGap",
+  "note": "Analyst mathematical framework; attribution deferred. Applicability to reality and any calibration of metaphysical grounding remain OPEN. No clock, temporal cause, entropy, necessity by own nature, causal completeness, transfinite converse or cross-world union is inferred. Related BoundedPastResource uses a distinct Int-time carrier; a pullback needs explicit clocks, coverage and growth correspondence, not supplied here."
+}

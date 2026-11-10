@@ -1,0 +1,25 @@
+target = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+[[node]]
+id = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+[[node]]
+id = "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+[[node]]
+id = "Bounded protective process safety"
+[[node]]
+id = "Protective process omission witnesses"
+[[edge]]
+premises = []
+conclusion = "Bounded protective process safety"
+kind = "derivation"
+status = "certified"
+[[edge]]
+premises = ["Bounded protective process safety"]
+conclusion = "STMT-DIVINE-ESSE-CONSERVATION-CONTINUES-GIVING-ESSE"
+kind = "bridge"
+status = "rejected"
+
+[[edge]]
+premises = ["Bounded protective process safety"]
+conclusion = "STMT-PARTICIPATED-ESSE-HAS-DISTINCT-CAUSE"
+kind = "bridge"
+status = "rejected"

@@ -8,5 +8,10 @@
   "claim_ids": [
     "75251b87-cbe3-5ede-b476-9f70ff9cee74"
   ],
-  "note": "Primaryp124 states the prior-only definition; fn182p128 explicitly adds inclusion. The source asserts this full conclusion; no Lean proof of it is supplied here. Step5's passage from a caused shared part to M's priority remains a separate typed obligation."
+  "note": "Primaryp124 states the prior-only definition; fn182p128 explicitly adds inclusion. The source asserts this full conclusion; no Lean proof of it is supplied here. Step5's passage from a caused shared part to M's priority remains a separate typed obligation. The generic body now fixes one M before ranging over ALL other caused effects, uses e ≤ M for inclusion and requirement M e ∧ ¬ requirement e M for priority. The arbitrary carrier and fixed PartialOrder are not restricted to modal actual objects. Existential requirement is explicitly primitive: y requires x to exist; its asymmetric part is defined transparently, not by a Boolean full-first-cause flag. Component/whole dependence is an illustrative candidate only; symmetric co-dependence, temporal precedence and sharing a part do not suffice. No independently certified real complete-production/requirement example is asserted. Requirement transitivity and its connection with production/parthood remain OPEN separate policies, not assumptions smuggled into this body. Existing sourced claim and locator are preserved; the binding is a working formal reconstruction, not new attribution verification.",
+  "lean_declaration": "TruthCore.Causality.FullFirstCause.FirstCause",
+  "definition_ids": [
+    "0341c901-cd7a-472f-a810-9ca480470928",
+    "974180e2-5483-50af-b946-044088d6f8b7"
+  ]
 }

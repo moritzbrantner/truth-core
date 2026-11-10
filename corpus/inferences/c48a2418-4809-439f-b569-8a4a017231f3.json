@@ -1,0 +1,10 @@
+{
+  "id": "c48a2418-4809-439f-b569-8a4a017231f3",
+  "label": "Unrestricted quotient generation loses the concrete-abstract contrast (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "edb0ef0a-1958-4c92-9084-62d4a3a9ff36",
+  "rule": "Constant embedding of the one-class Unit quotient",
+  "meaning": "Every chosen bearer admits a presentation. Faithfulness does not remove this saturation because Unit has one class. The fixed-presentation candidate is therefore not replaced by existential presentation choice.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

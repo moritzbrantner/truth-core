@@ -1,0 +1,10 @@
+{
+  "id": "2f99b142-7ee1-49f3-b093-d881b8631a1a",
+  "label": "Formula-local possible-impossibility duality calculation (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f8cba43f-ab11-4a46-8d2b-4f9753d6b277",
+  "rule": "Unfold Kripke modalities, contrapose, and apply explicitly quantified local double-negation elimination.",
+  "meaning": "Conditional analyst certificate. One formula and standpoint only; no global excluded middle or frame axiom. Source-to-Kripke, report-to-truth and source situation coverage remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

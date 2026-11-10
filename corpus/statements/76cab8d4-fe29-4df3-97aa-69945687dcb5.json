@@ -1,0 +1,10 @@
+{
+  "id": "76cab8d4-fe29-4df3-97aa-69945687dcb5",
+  "label": "Productive source calibration omission controls",
+  "paraphrase": "Two finite omissions separately remove source productivity and causal concreteness calibration while the necessary-concrete conclusion fails; a joint populated witness satisfies both and the conclusion. All four original nonlogical source inputs hold by controlBackground, which is checked separately.",
+  "lean_declaration": "TruthCore.Causality.SurveyProductiveSource.Controls",
+  "definition_ids": [
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
+  ]
+}

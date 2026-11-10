@@ -1,0 +1,12 @@
+{
+  "id": "75d5772e-88b8-45fd-9383-5bc51e3c721d",
+  "label": "Realized interception action projection",
+  "argument_id": "8dd3c20b-7355-4e00-9aaa-7c009a4adc1a",
+  "challenge_module": "TruthCore.Results.Causality.ProtectiveProcess.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProtectiveProcess.Solution",
+  "theorem": "TruthCore.Results.Causality.ProtectiveProcess.actionProjection",
+  "comparator_config": "results/75d5772e-88b8-45fd-9383-5bc51e3c721d/comparator.json",
+  "status": "solution-present",
+  "description": "Pure bridge projection: RealizesInterception adds suppression to the existing action/target/occurrence candidate and therefore entails that candidate. It does not derive the realization interface from the action tag or prove intervention effectiveness.",
+  "transcription": "assembly"
+}

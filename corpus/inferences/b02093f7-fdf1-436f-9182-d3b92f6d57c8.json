@@ -1,0 +1,13 @@
+{
+  "id": "b02093f7-fdf1-436f-9182-d3b92f6d57c8",
+  "label": "Quotient value classification requires the explicit no-esse bridge (inference)",
+  "input_statement_ids": [
+    "96bc63ee-42a2-46f6-aca2-c86fe4c88bae",
+    "64b877b5-dff5-4fd0-a84b-ceb37e3595de"
+  ],
+  "output_statement_id": "e94dc14f-c0a2-4064-be65-e0afd796c4ba",
+  "rule": "Range witness elimination and same-bearer substitution",
+  "meaning": "Transcription by instantiation: a quotient range witness selects the same bearer already covered by the assumed ValuesNoEsse bridge. This records its conditional application between numbered senses, not a new classification derivation or an independent defense of that bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

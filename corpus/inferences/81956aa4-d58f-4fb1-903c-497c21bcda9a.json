@@ -1,0 +1,10 @@
+{
+  "id": "81956aa4-d58f-4fb1-903c-497c21bcda9a",
+  "label": "Actual grounding quantitative controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "74d92578-d51b-4f76-b3b8-66f04e51c8f0",
+  "rule": "Explicit populated Nat interpretations, accessibility induction, real arithmetic and Archimedean unboundedness",
+  "meaning": "Same reverse-successor actual grounding for all omissions and the bounded varying-gap rival. Omitting any one of the three numeric conditions permits nonfoundation while retaining the other two. The reciprocal potential shows positive varying gaps are insufficient. The ascending infinite populated witness shows the full bundle is nonvacuous and does not imply finite cardinality. Model claims concern these mathematical interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

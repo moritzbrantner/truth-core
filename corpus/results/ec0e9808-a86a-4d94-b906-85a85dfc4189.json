@@ -1,0 +1,11 @@
+{
+  "id": "ec0e9808-a86a-4d94-b906-85a85dfc4189",
+  "label": "Unrestricted quotient generation loses the concrete-abstract contrast",
+  "argument_id": "1ec675ec-8fe2-4c82-a727-5b5d7db6260c",
+  "challenge_module": "TruthCore.Results.Ontology.QuotientGeneration.Challenge",
+  "solution_module": "TruthCore.Results.Ontology.QuotientGeneration.Solution",
+  "theorem": "TruthCore.Results.Ontology.QuotientGeneration.unrestricted",
+  "comparator_config": "results/ec0e9808-a86a-4d94-b906-85a85dfc4189/comparator.json",
+  "status": "solution-present",
+  "description": "Every chosen bearer admits a presentation. Faithfulness does not remove this saturation because Unit has one class. The fixed-presentation candidate is therefore not replaced by existential presentation choice."
+}

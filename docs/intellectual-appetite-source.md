@@ -262,8 +262,10 @@ seeking and possible communication from actual communication. Their semantic
 applicability remains open; they are not models of divine being.
 
 The owner selected a relational interface for capacity sense
-`183bff99-a67d-46f9-ae43-a68cba27119c`, bound to
-`AppetitePowerExercise.Capacity`. Universal responsiveness remains OPEN.
+`183bff99-a67d-46f9-ae43-a68cba27119c`. Its full-body declaration is now
+`AppetitePowerExercise.Capacity.Possessed`, parameterized by the
+`AppetitePowerExercise.Capacity` content interface. Universal responsiveness
+remains OPEN.
 `possible o t r` is primitive appetitive ability, constrained to follow suitable
 OR good apprehension; mode-specific laws distinguish absence, possession and
 possible sharing. Actual act relations are independent. The structure specifies
@@ -292,3 +294,101 @@ or recognition premise. Root connection plan remains STMT-WILL-FOLLOWS-INTELLECT
 then STMT-GOD-HAS-WILL: supply an appropriate intellect-to-capacity bridge and
 justify recognition by unchanged HasWill. Capacity-to-current-act is not part
 of that plan. No new argument batch or premise discharge is claimed.
+
+### Original cognitive-appetite declaration audit (2026-11-09)
+
+At `b043e7299d38897b864e892d8bd02dbc2f649a67`, the remaining original sense
+`564e875a-6317-4c7d-a5b2-8f84b4e2f35b` and the already anchored sense
+`183bff99-a67d-46f9-ae43-a68cba27119c` refer to the same definition
+`44a0654e-6b36-52d6-91c2-0a5c6a13dc5c`. Cross-disambiguation identity does
+not by itself resolve a body-to-type gap. The unchanged full body says
+**a soul's power**; `Capacity m s` neither requires `m.isSoul s` nor a nonempty
+response relation. The existing `cognitiveOnly` control already supplies an
+empty specification. Copying the existing `Capacity` anchor would therefore
+anchor only its content specification.
+
+The existing body-bearing predicate `Capacity.Possessed`, parameterized by
+supplied `Capacity` content, instead adds exactly soulhood and nonempty
+appetitive ability at some occasion. Its supplied content already constrains
+apprehension (suitable OR good) and the mode-specific possession conditions.
+It requires no actual current act, absent good or universal responsiveness.
+It thus interprets the full possession-bearing body without changing its words,
+adding a wrapper or silently strengthening capacity to exercise. The shared
+definition and both of its sense anchors now consistently use that predicate;
+only the original missing-declaration allowance is removed. The declaration
+completion is conditional on the explicitly primitive meaning of appetitive
+ability. Concrete recognition of that relation as appetitive rather than fixed
+only by natural form, soul-power applicability, and HasWill recognition remain
+open semantic burdens. This registration does not assert that any real subject
+satisfies the predicate.
+
+The old root consumer has a separate migration debt. Neither
+`Round5Worklist.AppetitivePowerOf` nor `FollowsIntellect` consumes this content
+or its possession condition. The path remains recognition premise
+`b7b10ad2-fafe-552e-8bf4-205d49f2f070`, argument
+`22a7366c-57ed-5f39-8421-89e6664fa4e0`, conclusion
+`090be689-b77f-51a1-9d5d-caf339169e4b`, and root argument
+`1deb1d29-d514-591d-9b2d-26eb4401d371`. Completing a declaration alone would
+not migrate this consumer, defend its recognition input or establish will.
+
+A local Lean signature probe isolated a previously unanswered appraisal cell:
+retain the actual `possessedLove` assignment, including its soul, possession
+and actual love, but set `apprehendsGood` false. A nonempty possible-love
+capacity follows suitable apprehension. Every `Exercise` constructor still
+requires good appraisal, so no exercise inhabitant exists. The exact probe is
+retained below for reproduction. It passed `lake env lean` through the supplied
+worker environment with an empty axiom set. It is **not** a registered result,
+Comparator/NanoDa certificate, model-compatible research-comparison cell,
+real psychology or source-compatible interpretation. No proof-status change
+is inferred. Its exclusion is a direct constructor-admission consequence.
+
+If actual love in the intended interpretation requires good appraisal, the
+explicit calibration `∀ s o t, loves s o t → apprehendsGood s o t` rules out
+this signature assignment. It must then be treated as a signature stress test,
+not a philosophical counterexample. Conversely, adding good appraisal to its
+already fixed actual love and possession directly instantiates
+`Exercise.loving`; that direction is transcription, not a new argument.
+Existing idle controls isolate missing acts and need no duplication.
+
+```lean
+import TruthCore.Causality.AppetitePowerExercise
+namespace CognitiveAppetiteAdmissionAudit
+open TruthCore.Causality.AppetitePowerExercise
+
+def suitableOnly : Interpretation :=
+  { possessedLove with apprehendsGood := fun _ _ _ => False }
+
+def suitableOnlyCapacity : Capacity suitableOnly () where
+  possible := fun _ _ r => r = .love
+  apprehension := fun _ _ _ _ => Or.inl True.intro
+  seeking := fun _ _ h => nomatch h
+  loving := fun _ _ _ => True.intro
+  delighting := fun _ _ h => nomatch h
+  communicating := fun _ _ _ h => nomatch h
+
+theorem signatureBoundary : suitableOnlyCapacity.Possessed ∧
+    suitableOnly.apprehendsSuitable () () () ∧
+    suitableOnly.possessed () () () ∧ suitableOnly.loves () () () ∧
+    ¬ suitableOnly.apprehendsGood () () () ∧
+    ¬ Nonempty (Exercise suitableOnly () () ()) := by
+  refine ⟨⟨True.intro, (), (), .love, rfl⟩,
+    True.intro, True.intro, True.intro, (fun h => h), ?_⟩
+  rintro ⟨e⟩
+  cases e with
+  | seeking good _ _ => exact good
+  | loving good _ _ => exact good
+  | delighting good _ _ => exact good
+  | communicating _ good _ _ _ => exact good
+
+#print axioms signatureBoundary
+end CognitiveAppetiteAdmissionAudit
+```
+
+Next step: retain specification, possession, recognition and divine applicability
+as separate obligations. The remaining consumer bridge must supply the content
+and its possession admission from intellect, then justify recognition by the
+unchanged HasWill. Before publishing the appraisal cell as a philosophical
+comparison, state and test the intended love-to-good-appraisal calibration and
+give any non-transcription result its owning batch/spec and final verification.
+Original declaration completion count: one. New certified conditional support:
+zero. Root premise and closure change: none. Attribution remains deferred.

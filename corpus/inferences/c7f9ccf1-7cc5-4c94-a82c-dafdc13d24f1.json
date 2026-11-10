@@ -1,0 +1,10 @@
+{
+  "id": "c7f9ccf1-7cc5-4c94-a82c-dafdc13d24f1",
+  "label": "Realized interception action projection (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d400a0df-721a-434d-aa9c-499e0766415a",
+  "rule": "Projection of the explicitly assumed realization bridge",
+  "meaning": "Pure bridge projection: RealizesInterception adds suppression to the existing action/target/occurrence candidate and therefore entails that candidate. It does not derive the realization interface from the action tag or prove intervention effectiveness.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

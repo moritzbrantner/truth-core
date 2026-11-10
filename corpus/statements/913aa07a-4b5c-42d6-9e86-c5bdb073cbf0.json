@@ -1,0 +1,9 @@
+{
+  "id": "913aa07a-4b5c-42d6-9e86-c5bdb073cbf0",
+  "label": "Fixed faithful quotient kernel equality",
+  "paraphrase": "For any fixed faithful quotient presentation g, its generated representative values are equal exactly when the inputs are related by the supplied Setoid. Extensional equality only, with no claim about constitutive essence.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.KernelLaw",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd"
+  ]
+}

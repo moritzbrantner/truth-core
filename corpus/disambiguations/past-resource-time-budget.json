@@ -9,14 +9,13 @@
     "b0944d60-ed09-519f-914b-899491e0e836",
     "eef35a57-8829-5c54-bf41-c0275d03917d"
   ],
-  "resolution": "The new constraint bounds resource spread S(now)\u2212L, not elapsed time or the number of past events. Integer time is beginningless by the chosen profile; no traversal from a first event or finite-duration budget is assumed. PositiveStep and UniformPastGrowth use one fixed epsilon across ALL past steps, unlike a positive step-dependent increase. An exponential stock can be strictly increasing with no such uniform positive minimum while remaining lower-bounded on the past; linear stock has uniform unit growth but no past lower bound. The result compares these arithmetic assignments, not their physical realizability. Stock remains neutral; interpreting it as entropy requires additional dynamics and domain justification, not a relabeling of the theorem. Causal well-foundedness, modal necessity and timeless eternity are different questions.",
+  "resolution": "The new constraint bounds resource spread S(now)\u2212L, not elapsed time or the number of past events. Integer time is beginningless by the chosen profile; no traversal from a first event or finite-duration budget is assumed. PositiveStep and UniformPastGrowth use one fixed epsilon across ALL past steps, unlike a positive step-dependent increase. An exponential stock can be strictly increasing with no such uniform positive minimum while remaining lower-bounded on the past; linear stock has uniform unit growth but no past lower bound. The result compares these arithmetic assignments, not their physical realizability. Stock remains neutral; interpreting it as entropy requires additional dynamics and domain justification, not a relabeling of the theorem. Causal well-foundedness, modal necessity and timeless eternity are different questions. Declaration audit (2026-11-09): sense 1 denotes the neutral carrier S : Int \u2192 Real and remains without a dedicated Lean declaration. Its former PastLowerBound binding incorrectly identified data with a property. Sense 2 alone binds to the existing body \u2200 t, t \u2264 now \u2192 L \u2264 S t. Its declaration is complete; the lower-bound premise remains open. Existing argument mixing allowances remain: carrier, lower-bound property and growth have not been recast as one sense, and no selected-sense binding is newly certified.",
   "term_label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION",
   "senses": [
     {
       "id": "bb5407ec-1ea1-421f-83d0-69233673c706",
       "label": "BOUNDED_RESOURCE_INCREASE_FINITE_DURATION_1",
-      "definition_id": "12b6271c-f67a-5d26-94a0-a17b6192a053",
-      "lean_declaration": "TruthCore.Causality.BoundedPastResource.PastLowerBound"
+      "definition_id": "12b6271c-f67a-5d26-94a0-a17b6192a053"
     },
     {
       "id": "c4eedb41-38b3-4a38-ada8-84aa4e1a4468",

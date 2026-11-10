@@ -1,0 +1,9 @@
+{
+  "id": "2fccff11-d956-4ec2-9705-922413f76a5c",
+  "label": "SELF_MOTION_3, integrated motion of a whole through distinct proper parts",
+  "term": "integrated whole and proper parts self-motion",
+  "definition": "Analyst reconstruction: at one fixed context c (respect, event, clock and world), whole x is moved, and proper part p moves a different proper part q of x. Integrated x p q c additionally asserts that this internal motion constitutes the whole’s self-moving exercise; coincident motion inside x is insufficient. This does not identify internal p→q, p→x or x→x movement.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SelfMotionSeparation.WholeParts",
+  "note": "Attribution deferred. WholeParts has a faithful body for this scoped analyst reconstruction, not a completion or equivalence proof for original SELF_MOTION_2 / independent SelfMovedIn. Part is integral parthood as in DEF-MOVER-PART; Moved is whole motion, not diagonal mover identity. Integrated is explicitly primitive: e.g. an animal moving through coordinated motor/limb action is intended, while a loose pebble moving in a passenger’s bag is excluded. No concrete case is asserted formally; applicability and distinguishing criteria remain OPEN. No transitivity, asymmetry, well-foundedness or whole-actuality transfer is assumed. The actual source-to-reconstruction bridge and original SELF_MOTION_2 declaration remain OPEN; a client must supply any event/clock/world components in the same context index."
+}

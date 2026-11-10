@@ -1,0 +1,18 @@
+{
+  "id": "2aa36b87-cc6e-4f97-8b6f-a550313f2299",
+  "label": "Logical-profile dictionary and root-facts omission controls",
+  "paraphrase": "A valid identity formula, admitted theory and independent actual root facts coexist with a bearer absent at its accessible successor when the existence dictionary is omitted. A separate dictionary-correct admitted atom theory on the same populated ontology gives no God when independent RootFacts is omitted. These are finite non-entailment controls, not universal rival refutations.",
+  "lean_declaration": "TruthCore.Causality.LogicalNecessityProfiles.Fixture.OmissionControls",
+  "definition_ids": [
+    "699dde60-3c47-4bae-957b-4d696f0e90c3",
+    "3be2906f-9f8e-4dff-b523-41de89c6000d",
+    "560fae51-532f-46d8-81e8-6f4386e10a34",
+    "ea0a177a-b3a7-4559-946d-d9401ba1c6e3",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "f830795a-b5d8-5f9f-800d-2f3d1f443a0a",
+    "52352824-6be9-53c6-83d4-82fed9a08cbb",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "d980bbd2-1a96-564c-bc0d-4065d7786715",
+    "c8f9c2fb-8c17-5fc8-b558-4a6fad659296"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "69a66a93-eec1-4e81-8d68-efef9fb97144",
+  "label": "Fixed quotient values lack selected-world power and productive activity",
+  "paraphrase": "Every value of this fixed quotient presentation lacks causal power at the selected world w and has no outgoing productive causal edge there. Incoming causation, other worlds, location, mental dependence and essence are unconstrained.",
+  "lean_declaration": "TruthCore.Ontology.QuotientGeneration.ValuesInert",
+  "definition_ids": [
+    "30b4b99d-c44c-42fd-bb3a-15acc5d8e0bd",
+    "d4feb449-8b67-4dbc-84c6-bd9e749ea67f",
+    "d11757db-9ddf-42a0-9e43-54889fcd29a3",
+    "d662ee50-cdd3-517b-bd8a-024dca5929d0"
+  ]
+}

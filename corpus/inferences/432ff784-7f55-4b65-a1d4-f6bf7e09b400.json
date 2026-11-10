@@ -1,0 +1,12 @@
+{
+  "id": "432ff784-7f55-4b65-a1d4-f6bf7e09b400",
+  "label": "K validity weakens to selected-frame validity (inference)",
+  "input_statement_ids": [
+    "d912723b-b4c7-4c05-9cda-2105e7b80659"
+  ],
+  "output_statement_id": "0b5da48f-7d2b-43c2-8c28-064b5cf63f7b",
+  "rule": "Universal specialization, explicit semantic consequence and finite models",
+  "meaning": "Specialize the all-small-frame universal to the same selected frame and formula. Exact strong-only-premise result.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

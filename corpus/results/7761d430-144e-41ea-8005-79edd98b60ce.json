@@ -1,0 +1,11 @@
+{
+  "id": "7761d430-144e-41ea-8005-79edd98b60ce",
+  "label": "Selected-frame validity weakens to theory consequence",
+  "argument_id": "c39d4686-497f-4404-be08-ad697e339e41",
+  "challenge_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.LogicalNecessityProfiles.Solution",
+  "theorem": "TruthCore.Results.Causality.LogicalNecessityProfiles.frameToTheory",
+  "comparator_config": "results/7761d430-144e-41ea-8005-79edd98b60ce/comparator.json",
+  "status": "solution-present",
+  "description": "Full validity holds also under any local theory antecedent on the same frame. Exact strong-only-premise result."
+}

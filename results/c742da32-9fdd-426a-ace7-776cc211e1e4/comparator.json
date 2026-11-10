@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SurveyCapabilityProfiles.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SurveyCapabilityProfiles.profiles"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

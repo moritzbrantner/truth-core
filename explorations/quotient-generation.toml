@@ -1,0 +1,79 @@
+target = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+
+[[node]]
+id = "Fixed faithful quotient kernel equality"
+text = "For any fixed faithful quotient presentation g, its generated representative values are equal exactly when the inputs are related by the supplied Setoid. Extensional equality only, with no claim about constitutive essence."
+
+[[node]]
+id = "Fixed quotient generated values have representatives"
+text = "For any fixed faithful quotient presentation g, CONCRETE_AND_ABSTRACT_9 holds of b exactly when some representative a has g.value a = b. No esse or causal conclusion is included."
+
+[[node]]
+id = "Every candidate admits a Unit quotient presentation"
+text = "For every candidate carrier B and b in B, a faithful presentation of a Unit quotient generates b. Thus existentially varying presentations cannot discriminate candidates. No constitutive abstraction, real-world generation or metaphysical possibility is asserted."
+
+[[node]]
+id = "Selected value is CONCRETE_AND_ABSTRACT_9"
+text = "The selected candidate b lies in the image of this fixed faithful quotient presentation g. Analyst candidate sense CONCRETE_AND_ABSTRACT_9; attribution deferred."
+
+[[node]]
+id = "Fixed quotient values have no esse in re"
+text = "OPEN analyst bridge: every quotient value of this fixed presentation lacks esse in re under the independently supplied InAct and esse interpretation. This restricted one-directional classification commitment is not inferred from quotient generation or attributed to a source."
+
+[[node]]
+id = "Selected quotient value is CONCRETE_AND_ABSTRACT_3"
+text = "The selected candidate b lacks esse in re: EsseAbstract InAct esse b. In this batch it follows only from fixed-presentation generation and the explicit classification bridge."
+
+[[node]]
+id = "Fixed quotient values lack selected-world power and productive activity"
+text = "Every value of this fixed quotient presentation lacks causal power at the selected world w and has no outgoing productive causal edge there. Incoming causation, other worlds, location, mental dependence and essence are unconstrained."
+
+[[node]]
+id = "Fixed quotient collision and esse-causal omission controls"
+text = "One Bool-pair quotient presentation has distinct representatives with equal output, two distinct output values, and concrete reasoner and abstract anchor points outside its image. The same selected generated value has esse, power and an outgoing productive edge in one assignment, and no esse/power/outgoing edge in another. Separate omissions retain the owner principle without ValuesNoEsse, or ValuesNoEsse without the owner principle, while inertness fails. A joint model satisfies both premises with generated values and fixed separate anchors. The reasoner witnesses failure of selected-point classification when range membership is omitted. Finite interpretations, not real-world or metaphysical possibility claims."
+
+[[node]]
+id = "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"
+
+[[edge]]
+premises = []
+conclusion = "Fixed faithful quotient kernel equality"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = []
+conclusion = "Fixed quotient generated values have representatives"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = []
+conclusion = "Every candidate admits a Unit quotient presentation"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["Fixed quotient values have no esse in re", "Selected value is CONCRETE_AND_ABSTRACT_9"]
+conclusion = "Selected quotient value is CONCRETE_AND_ABSTRACT_3"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["Fixed quotient values have no esse in re", "STMT-CAUSAL-POWER-AND-ACTIVITY-REQUIRE-CONCRETENESS"]
+conclusion = "Fixed quotient values lack selected-world power and productive activity"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = []
+conclusion = "Fixed quotient collision and esse-causal omission controls"
+kind = "derivation"
+status = "certified"
+
+[[edge]]
+premises = ["Selected value is CONCRETE_AND_ABSTRACT_9"]
+conclusion = "Selected quotient value is CONCRETE_AND_ABSTRACT_3"
+kind = "bridge"
+status = "rejected"
+note = "The same quotient-generated bearer may have esse; ValuesNoEsse is missing. Original constitutive abstraction remains unencoded."
