@@ -79,10 +79,16 @@ bijection. It proves both E probabilities, their ratio, and the conditional
 ratio using intersections. Thus it is a genuine measure-theoretic theorem,
 including continuous probability spaces, not a finite relabeling surrogate.
 The ratios are ENNReal expressions; Lean defines even zero/infinite division.
-Those algebraic cases are not evidential Bayes factors. Restrict evidential use
-to probability measures with positive evidence and observer masses; in that
-scope the intersection ratio is ordinary conditional probability. The theorem
-does not prove a density formula, a cosmic measure, or a preferred coordinate.
+Those algebraic cases are not evidential Bayes factors. For evidential use,
+require measurable E and O, probability measures, positive observer masses under
+both hypotheses, and positive n(E∩O) for a finite conditional Bayes factor.
+Require positive intersections under both hypotheses for a strictly positive
+factor. Positive E and O masses alone do not suffice: E and O can be disjoint.
+The inner ratios d(E∩O)/d(O) and n(E∩O)/n(O) are conditional probabilities;
+their quotient is the conditional Bayes factor. The unrestricted theorem also
+preserves outer-measure values of arbitrary sets, which does not make those
+sets measurable probability events. It does not prove a density formula, a
+cosmic measure, or a preferred coordinate.
 
 The issue's continuous illustration is a mathematical illustration, not a
 separately certified integration result here: on [0,1], masses below a are a
@@ -268,3 +274,15 @@ remain for delivered-head CI. Computed `frontier-diff --base origin/main`:
 route cost 16 unchanged; verified support alternatives 288 unchanged, added 0.
 No premise change. This is a conditional library checkpoint with the explicit
 connection plan above, not connected root support.
+
+### Independent semantic challenge
+
+The independent challenge inspected the entire proposed outcome and its exact
+proof/model/record evidence at `2f8d927e8e7d4f33bc220d5b4809877202aa7c47`.
+Its one P2 finding was the insufficient evidential-use qualification; the text
+above now distinguishes measurable probability events from arbitrary-set
+outer-measure transport, and states the required positive intersection masses.
+The theorem, models and remaining qualified assessment are unchanged. No new
+formal verification or real-world design support follows from this prose repair.
+The next actual-world test needs a justified physical sampling model and a
+specified designer-goal model with a residual prediction beyond observer viability.
