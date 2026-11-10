@@ -129,6 +129,7 @@ the join and the root and act-of-being premises in
 |---|---|---|---|
 | F1 actual reflexivity | Accessibility is "what lies ahead" or "what would be ideal": serial, and the actual world does not see itself | survives | `InertEmptiness.necessaryConcrete` |
 | F2 Euclidean frame | Possibility is relative and not transitive: reflexive, but two possibilities need not see each other | survives | `InertEmptiness.necessaryConcrete` |
+| F2′ Euclidean at the actual world (`1b1462e6`, weaker than F2 by `euclideanAtOfEuclidean`) | Symmetric reflexive non-Euclidean access at the actual world (`ToleranceOriginRival`; structural surrogate for origin tolerance, which needs an OPEN origin/material/identity bridge) | structural rival survives; the arrival fails without F2′; the faithful origin-tolerance test is open | `ActualEuclidean.inertNecessaryConcrete` |
 | A1 presence gives existence | Presentism: to exist is to be present now, and something earlier has ceased | survives | `InertEmptiness.necessaryConcrete` |
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |

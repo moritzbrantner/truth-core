@@ -6,6 +6,7 @@ public import TruthCore.Causality.AccidentalFeatureOrigin
 public import TruthCore.Causality.ActualCommonRoot
 public import TruthCore.Causality.ActualCoverNecessaryBeing
 public import TruthCore.Causality.ActualCoverStrictness
+public import TruthCore.Causality.ActualEuclidean
 public import TruthCore.Causality.ActualFusionNecessaryBeing
 public import TruthCore.Causality.ActualGroundingPotentialRank
 public import TruthCore.Causality.ActualPartsDeclarationControls
@@ -183,6 +184,7 @@ public import TruthCore.Causality.TermSenseForks
 public import TruthCore.Causality.TermSenseForks2
 public import TruthCore.Causality.TermSenseForks3
 public import TruthCore.Causality.TermSenseForks4
+public import TruthCore.Causality.ToleranceOriginRival
 public import TruthCore.Causality.UnderivedCommonSource
 public import TruthCore.Causality.UnderivedEssenceEsse
 public import TruthCore.Causality.UnderivedNonComposite

@@ -1,0 +1,11 @@
+{
+  "id": "0b3928ce-c576-4d17-9a69-f3d71bf67c2a",
+  "label": "Global Euclidean access strengthens Euclidean access at one world",
+  "subject_kind": "statement",
+  "subject_id": "62b4a40a-919e-5da4-998c-131c386b7361",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "1b1462e6-c285-448c-87e2-3053bc05a341",
+  "verification_result_id": "7e5f0f8a-aa2d-496b-87b6-8411f7970732",
+  "note": "Same frame; instantiation at the selected world only. Control.clustered witnesses converse failure."
+}

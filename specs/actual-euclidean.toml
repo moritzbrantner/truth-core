@@ -1,0 +1,65 @@
+[batch]
+vocab = "TruthCore.Causality.ActualEuclidean"
+results = "TruthCore.Results.Causality.ActualEuclidean"
+definitions = ["Euclidean access at the selected world only", "f8948e28-b13a-5244-95f1-41a05cd4fff2", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9"]
+
+[[statement]]
+id = "Any two successors of the selected world are mutually accessible"
+lean = "EuclideanAt"
+paraphrase = "OPEN analyst premise, attribution deferred: any two worlds accessible from the selected world w access one another. Under the alethic reading, any two histories possible relative to the actual history are possible relative to each other. It is global Euclidean access restricted to the one world w; nothing is said about what a merely possible history accesses beyond the other successors of w."
+definitions = ["Euclidean access at the selected world only", "f8948e28-b13a-5244-95f1-41a05cd4fff2"]
+
+[[statement]]
+id = "Actual-world Euclidean separating model and stepwise status"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls on three worlds (actual, near, far) with natural-number times, every individual counted concrete. (1) The frame clustered, in which actual and near access each other and themselves, near also accesses far and far only itself, is Euclidean at actual and reflexive at actual but not Euclidean. (2) On a history over it, with one individual existing everywhere and present at every time and another existing only at near and present there only at time 1, presence-to-existence, inert emptiness and the possible contingent-free past at actual all hold. (3) The existing stepwise frame of the stage-one rival controls is not Euclidean at its actual world. These are statements about the encoded finite interpretations only."
+definitions = ["Euclidean access at the selected world only", "6f7a4ccc-10de-52fb-af44-41dcb793d8c9", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "Contingent concrete things absent at a moment and present at a later one"]
+
+[[argument]]
+id = "Global Euclidean access gives Euclidean access at one world"
+theorem = "euclideanAtOfEuclidean"
+strong_version_needed = {"STMT-EUCLIDEAN-FRAME" = "The global version is the object of this strength comparison, not a premise asserted of any frame; only its instances at the selected world are consumed."}
+premises = ["STMT-EUCLIDEAN-FRAME"]
+conclusion = "Any two successors of the selected world are mutually accessible"
+axioms = []
+rule = "universal instantiation at the selected world"
+meaning = "Strength registration (not a route step): global Euclidean access, instantiated at the selected world w, gives Euclidean access at w on the same frame. The converse fails in Control.clustered."
+
+[[argument]]
+id = "Necessary concrete individual from inert emptiness, Euclidean at the selected world"
+theorem = "inertNecessaryConcrete"
+premises = ["Any two successors of the selected world are mutually accessible", "STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-COUNT-TEMPORAL-HISTORY-PRESENCE-ACTUAL", "A concrete-empty moment is followed only by concrete-empty moments", "Possibly, contingent concrete things are absent at a moment and present at a later one"]
+conclusion = "STMT-NECESSARY-CONCRETE-AT"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_11", to = "NECESSARY_2", statement_id = "STMT-NECESSARY-CONCRETE-AT", role = "conclusion"}]
+rule = "Reuse earlierNecessary at the accessible history, then transfer along Euclidean access and reflexivity at the selected world"
+meaning = "New non-transcription conditional support option for stage one of the modal spine, replacing the global Euclidean premise of InertEmptiness.necessaryConcrete by Euclidean access at the selected world w only. The existing earlierNecessary gives a concrete individual c existing at the accessible history v and absent from no world accessible from v. Euclidean access at w with reflexivity at w gives that v accesses w and every successor of w, so the SAME c exists at w and at every world accessible from w. No causal, grounding or explanatory relation is used or concluded. All five premises are OPEN framework inputs; no premise truth, uniqueness or divine attribute is established."
+
+[[argument]]
+id = "Necessary concrete external cause, Euclidean at the selected world"
+theorem = "externalNecessaryConcrete"
+premises = ["Any two successors of the selected world are mutually accessible", "STMT-ACTUAL-MODAL-REFLEXIVITY", "8ea0321d-293e-5767-9ab6-dc270457ef52", "df89f0d2-c051-5859-aa80-5898ec5c0a65"]
+conclusion = "679eb3f7-b81c-5c0f-8072-29294269c162"
+sense_bridges = [{term = "NECESSARY", from = "NECESSARY_11", to = "NECESSARY_2", statement_id = "679eb3f7-b81c-5c0f-8072-29294269c162", role = "conclusion"}]
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Apply causal opportunity to the possible beginning, reuse necessaryOfExternalCandidate, transfer along Euclidean access and reflexivity at the selected world"
+meaning = "Frame-scope weakening of LocalFramePossibleExternalCause.necessaryConcrete: the global Euclidean premise is replaced by Euclidean access at the selected world w only; the Scenario, possible-beginning and causal-opportunity predicates are unchanged. Opportunity applied to the possible beginning gives an accessible v with an existing concrete external totality-cause c; the existing necessaryOfExternalCandidate gives that c is necessary at v. Euclidean access and reflexivity at w carry the SAME c to w and to every successor of w. No causal role is transported to w. No premise is discharged."
+
+[[argument]]
+id = "Actual-world Euclidean separating controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Actual-world Euclidean separating model and stepwise status"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit three-world interpretations, checked by case analysis"
+meaning = "Euclidean access at the selected world is strictly weaker than global Euclidean access on the clustered frame, and the restricted premise bundle of the inert-emptiness arrival is jointly satisfiable there with global Euclidean access failing, so the weakening is not vacuous for that arrival. The existing stepwise rival frame also fails the restricted premise, so it remains a countermodel to its omission. No model of the full possible-external-cause bundle on the clustered frame is given. Model claims concern these finite interpretations only."
+
+[[relation]]
+id = "Global Euclidean access strengthens Euclidean access at one world"
+subject_kind = "statement"
+subject_id = "STMT-EUCLIDEAN-FRAME"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Any two successors of the selected world are mutually accessible"
+verification_result_id = "Global Euclidean access gives Euclidean access at one world"
+note = "Same frame; instantiation at the selected world only. Control.clustered witnesses converse failure."

@@ -1,0 +1,13 @@
+{
+  "id": "191b80d8-d3bc-4b0e-aea7-d86e66e82352",
+  "label": "Actual-world Euclidean separating model and stepwise status",
+  "paraphrase": "Closed mathematical controls on three worlds (actual, near, far) with natural-number times, every individual counted concrete. (1) The frame clustered, in which actual and near access each other and themselves, near also accesses far and far only itself, is Euclidean at actual and reflexive at actual but not Euclidean. (2) On a history over it, with one individual existing everywhere and present at every time and another existing only at near and present there only at time 1, presence-to-existence, inert emptiness and the possible contingent-free past at actual all hold. (3) The existing stepwise frame of the stage-one rival controls is not Euclidean at its actual world. These are statements about the encoded finite interpretations only.",
+  "lean_declaration": "TruthCore.Causality.ActualEuclidean.Control.Certificate",
+  "definition_ids": [
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "6f7a4ccc-10de-52fb-af44-41dcb793d8c9",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d"
+  ]
+}

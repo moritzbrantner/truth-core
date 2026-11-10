@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ActualEuclidean.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualEuclidean.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ActualEuclidean.externalNecessaryConcrete"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}
