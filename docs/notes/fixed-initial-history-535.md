@@ -309,3 +309,10 @@ issue #535 remains open pending those gates and these interpretation boundaries.
 Computed frontier-diff against current origin/main: 402 open root premises
 (262 bare, 95 supported, 45 stated) unchanged; minimum route diagnostic 16
 unchanged; verified support alternatives 288 unchanged, 0 added.
+
+Live configuration verification now PASSES for case
+`20267460-1305-41eb-90a7-9479fed8dd48`: rigid-initial-variable-later is
+**model witnessed**, one finite model, three zero-axiom certificates. This
+supersedes the pending live-configuration wording above. Comparator/NanoDa
+for the registered result cluster and final-head CI remain pending. Reproduce:
+`python3 scripts/corpus.py configurations --case 20267460-1305-41eb-90a7-9479fed8dd48 --json`.
