@@ -41,7 +41,9 @@ does not purify the observation. All three interface premises remain open.
 This closed universally quantified interface is a conditional support option,
 not a discharge of the old analysis. In particular reverse calibration is an
 application of an assumed implication into the primitive field: transcription
-at that final boundary, not independently warranted revelation analysis.
+at that final boundary, not independently warranted revelation analysis. The
+interface is conservatively registered as assembly transcription; the separate
+characterization and controls retain their substantive classifications.
 The old RecognizableCapacityRealized runs the opposite direction and cannot
 supply reverse calibration. Full calibration is stronger than needed: its
 reverse implication on God candidates suffices. No claim of weakest premises.

@@ -33,12 +33,13 @@ meaning = "Finite ambiguity, distinctive-sign, full-discrimination and added-imi
 [[statement]]
 id = "Conditional interface from positive evidence to recognizable capability"
 lean = "Bridge"
-paraphrase = "AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. Calibration application is not independent warrant."
+paraphrase = "Assembly/transcription interface: AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. The final primitive-capability calibration is assumed, not independently warranted."
 
 [[argument]]
 id = "Conditional interface from positive evidence to recognizable capability by construction"
 theorem = "bridge"
+transcription = "assembly"
 premises = []
 conclusion = "Conditional interface from positive evidence to recognizable capability"
 rule = "Constructive observation-fiber analysis"
-meaning = "AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. Calibration application is not independent warrant. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
+meaning = "Assembly/transcription interface: AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. The final primitive-capability calibration is assumed, not independently warranted. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
