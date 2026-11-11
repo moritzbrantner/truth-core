@@ -8,13 +8,19 @@ import gzip
 import io
 import json
 import shutil
-import subprocess
 import tempfile
 import unittest
 from unittest import mock
 from pathlib import Path
 
 import source_evidence as se
+
+
+class SourceCommandsTest(unittest.TestCase):
+    def test_bulk_verification_is_not_a_source_command(self) -> None:
+        with contextlib.redirect_stderr(io.StringIO()), self.assertRaises(SystemExit) as error:
+            se.parser().parse_args(["verify"])
+        self.assertEqual(error.exception.code, 2)
 
 
 class HttpContentDecodingTest(unittest.TestCase):
@@ -314,7 +320,7 @@ class MediaProducerRevisionTest(unittest.TestCase):
 
     write_export = MediaSpanTest.write_export
 
-    def consume(self, operation: str, acquisition: str, export: dict) -> tuple[int, str]:
+    def consume(self, acquisition: str, export: dict) -> tuple[int, str]:
         se.media_export_cache_path().unlink(missing_ok=True)
         (se.ROOT / "witness.txt").unlink(missing_ok=True)
         path = self.write_export(export)
@@ -328,10 +334,7 @@ class MediaProducerRevisionTest(unittest.TestCase):
             contextlib.redirect_stdout(io.StringIO()) as stdout,
         ):
             try:
-                if operation == "materialize":
-                    result = se.materialize(PASSAGE["id"], "witness.txt", str(explicit) if explicit else None)
-                else:
-                    result = se.verify_all(export_path=explicit)
+                result = se.materialize(PASSAGE["id"], "witness.txt", str(explicit) if explicit else None)
             finally:
                 if acquisition == "regenerated":
                     regenerate.assert_called_once()
@@ -339,49 +342,33 @@ class MediaProducerRevisionTest(unittest.TestCase):
                     regenerate.assert_not_called()
         return result, stdout.getvalue()
 
-    def test_rejects_unpinned_producer_before_materializing_or_verifying(self) -> None:
+    def test_rejects_unpinned_producer_before_materializing(self) -> None:
         producers = [None, {}, {"revision": ""}, {"revision": None}, {"revision": "git:other"}, "invalid"]
-        for operation in ("materialize", "verify"):
-            acquisitions = ("explicit", "cached", "regenerated") if operation == "materialize" else ("explicit", "cached")
-            for acquisition in acquisitions:
-                for producer in producers:
-                    with self.subTest(operation=operation, acquisition=acquisition, producer=producer):
-                        export = copy.deepcopy(EXPORT)
-                        if producer is None:
-                            del export["producer"]
-                        else:
-                            export["producer"] = producer
-                        with self.assertRaisesRegex(se.SourceEvidenceError, "producer revision mismatch"):
-                            self.consume(operation, acquisition, export)
-                        self.assertFalse((se.ROOT / "witness.txt").exists())
+        for acquisition in ("explicit", "cached", "regenerated"):
+            for producer in producers:
+                with self.subTest(acquisition=acquisition, producer=producer):
+                    export = copy.deepcopy(EXPORT)
+                    if producer is None:
+                        del export["producer"]
+                    else:
+                        export["producer"] = producer
+                    with self.assertRaisesRegex(se.SourceEvidenceError, "producer revision mismatch"):
+                        self.consume(acquisition, export)
+                    self.assertFalse((se.ROOT / "witness.txt").exists())
 
     def test_accepts_exact_producer_in_each_acquisition_path(self) -> None:
-        for operation in ("materialize", "verify"):
-            acquisitions = ("explicit", "cached", "regenerated") if operation == "materialize" else ("explicit", "cached")
-            for acquisition in acquisitions:
-                with self.subTest(operation=operation, acquisition=acquisition):
-                    se.media_export_cache_path().unlink(missing_ok=True)
-                    result, output = self.consume(operation, acquisition, EXPORT)
-                    self.assertEqual(result, 0)
-                    if operation == "materialize":
-                        self.assertIn("the synthetic claim itself", (se.ROOT / "witness.txt").read_text())
-                    else:
-                        self.assertIn("verified media span FIXTURE-SPAN", output)
+        for acquisition in ("explicit", "cached", "regenerated"):
+            with self.subTest(acquisition=acquisition):
+                result, _ = self.consume(acquisition, EXPORT)
+                self.assertEqual(result, 0)
+                self.assertIn("the synthetic claim itself", (se.ROOT / "witness.txt").read_text())
 
-    def test_no_export_still_skips_verification_and_cannot_materialize(self) -> None:
-        with (
-            mock.patch.object(se, "regenerate_media_export", return_value=None) as regenerate,
-            contextlib.redirect_stdout(io.StringIO()) as stdout,
-        ):
-            self.assertEqual(se.verify_all(), 0)
-            regenerate.assert_not_called()
-            self.assertIn("FIXTURE-SPAN", stdout.getvalue())
-            self.assertNotIn("verified media span FIXTURE-SPAN", stdout.getvalue())
+    def test_no_export_cannot_materialize(self) -> None:
+        with mock.patch.object(se, "regenerate_media_export", return_value=None) as regenerate:
             with self.assertRaisesRegex(se.SourceEvidenceError, "no source-span export"):
                 se.materialize(PASSAGE["id"], "witness.txt")
             regenerate.assert_called_once()
         self.assertFalse((se.ROOT / "witness.txt").exists())
-
 
 
 # ---------------------------------------------------------------------------
@@ -831,21 +818,18 @@ class BibliographicSpanTest(unittest.TestCase):
         with self.assertRaisesRegex(se.SourceEvidenceError, "needs basis"):
             se.validate_claim_basis([(self.CLAIM_PATH, {"id": "C"})], {"C": translated})
 
-    def test_cannot_be_materialized_and_verify_lists_it_unverified(self) -> None:
+    def test_cannot_be_materialized(self) -> None:
         passages = {"FIXTURE-BIB": (self.PATH, BIBLIOGRAPHIC)}
-        with mock.patch.object(se, "passage_index", return_value=passages), mock.patch.object(
-            se, "validate_bindings", return_value=(1, 0)
+        with (
+            mock.patch.object(se, "passage_index", return_value=passages),
+            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
+            mock.patch.object(se, "fetch_web_bytes") as fetch,
+            mock.patch.object(se, "fetch_source") as source,
         ):
             with self.assertRaisesRegex(se.SourceEvidenceError, "not byte-verified: no bytes can be materialized"):
                 se.materialize("FIXTURE-BIB", None)
-            with mock.patch.object(se, "fetch_web_bytes") as fetch, mock.patch.object(
-                se, "fetch_source"
-            ) as source, contextlib.redirect_stdout(io.StringIO()) as out:
-                se.verify_all()
             fetch.assert_not_called()
             source.assert_not_called()
-        self.assertIn("bibliographic spans not byte-verified (citation only): FIXTURE-BIB", out.getvalue())
-        self.assertIn("1 bibliographic spans not byte-verified", out.getvalue())
 
 
 class RawWitnessTest(unittest.TestCase):
@@ -877,7 +861,7 @@ class RawWitnessTest(unittest.TestCase):
         patcher.start()
         self.addCleanup(patcher.stop)
 
-    def test_materialize_reuses_the_verified_cache_but_verify_refetches(self) -> None:
+    def test_cache_reuse_checks_hash_and_explicit_fetch_refetches(self) -> None:
         self.assertEqual(se.fetch_source(self.passage), self.DATA)
         self.assertEqual(se.raw_cache_path(self.passage["git_blob_sha"]).read_bytes(), self.DATA)
         self.assertEqual(se.fetch_source(self.passage, use_cache=True), self.DATA)
@@ -951,14 +935,9 @@ class PermanentlyUnavailableWebSnapshotTest(unittest.TestCase):
             mock.patch.object(se, "fetch_web_bytes") as fetch,
             mock.patch.object(se, "web_cache_path", return_value=Path("/nonexistent/truth-core-cache")),
         ):
-            with contextlib.redirect_stdout(io.StringIO()) as out:
-                self.assertEqual(se.verify_all(), 0)
             with self.assertRaisesRegex(se.SourceEvidenceError, "permanently unavailable web snapshot, not byte-verified"):
                 se.materialize("WEB-GONE", None)
             fetch.assert_not_called()
-        self.assertIn("permanently unavailable web snapshots, never fetched, NOT byte-verified: WEB-GONE", out.getvalue())
-        self.assertIn("0 web snapshot passages verified", out.getvalue())
-        self.assertIn("1 web snapshot passages permanently unavailable", out.getvalue())
 
     def test_materializes_from_a_hash_checked_cache(self) -> None:
         retired = web_passage({"from": {"anchor": "13"}, "to": {"anchor": "14"}}, unavailable=self.MARK, id="WEB-GONE")
@@ -968,188 +947,6 @@ class PermanentlyUnavailableWebSnapshotTest(unittest.TestCase):
             with mock.patch.object(se, "web_cache_path", return_value=cached):
                 text = se.materialize_web_snapshot(retired, fetch=se.refuse_unavailable_fetch)
         self.assertEqual(se.sha256_text(text), retired["text_sha256"])
-
-
-class PullRequestScopeTest(unittest.TestCase):
-    """`verify --base` refetches only the passages whose manifests a change touches."""
-
-    def setUp(self) -> None:
-        directory = tempfile.TemporaryDirectory()
-        self.addCleanup(directory.cleanup)
-        self.root = Path(directory.name)
-        passages_dir = self.root / "corpus" / "passages"
-        passages_dir.mkdir(parents=True)
-        first = web_passage({"from": {"anchor": "13"}, "to": {"anchor": "14"}}, id="WEB-A")
-        second = web_passage({"from": {"anchor": "13"}}, id="WEB-B", source_url="https://example.org/other.htm")
-        self.passages = {
-            "WEB-A": (passages_dir / "a.json", first),
-            "WEB-A2": (passages_dir / "a.json", dict(first, id="WEB-A2")),
-            "WEB-B": (passages_dir / "b.json", second),
-        }
-
-    def select(self, changed: list[str]) -> set[str]:
-        return se.changed_passage_ids(changed, self.passages, self.root)
-
-    def test_selects_every_passage_of_a_changed_manifest(self) -> None:
-        self.assertEqual(self.select(["corpus/passages/a.json", "corpus/claims/x.json"]), {"WEB-A", "WEB-A2"})
-
-    def test_unrelated_or_deleted_files_select_nothing(self) -> None:
-        self.assertEqual(self.select(["TruthCore/X.lean", "corpus/passages/deleted.json"]), set())
-
-    def test_verifier_only_change_does_not_refetch_unchanged_witnesses(self) -> None:
-        selected = self.select(["scripts/source_evidence.py"])
-        self.assertEqual(selected, set())
-        with (
-            mock.patch.object(se, "passage_index", return_value=self.passages),
-            mock.patch.object(se, "validate_bindings", return_value=(3, 0)) as bindings,
-            mock.patch.object(se, "fetch_web_bytes", side_effect=AssertionError("unexpected download")),
-            contextlib.redirect_stdout(io.StringIO()) as out,
-        ):
-            self.assertEqual(se.verify_all(passage_ids=selected), 0)
-        bindings.assert_called_once()
-        self.assertIn("the other 3 passed the offline check only", out.getvalue())
-
-    def test_verifier_and_manifest_changes_still_require_exact_witness(self) -> None:
-        selected = self.select(["scripts/source_evidence.py", "corpus/passages/a.json"])
-        self.assertEqual(selected, {"WEB-A", "WEB-A2"})
-        with (
-            mock.patch.object(se, "passage_index", return_value=self.passages),
-            mock.patch.object(se, "validate_bindings", return_value=(3, 0)),
-            mock.patch.object(se, "fetch_web_bytes", side_effect=se.SourceEvidenceError("WEB-A: byte drift")),
-        ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
-                se.verify_all(passage_ids=selected)
-
-    def test_verify_fetches_only_selected_pages(self) -> None:
-        b = self.passages["WEB-B"][1]
-        web = FakeWeb({LIVE_URL: HTML})
-        with mock.patch.object(se, "passage_index", return_value=self.passages), mock.patch.object(
-            se, "validate_bindings", return_value=(3, 0)
-        ) as bindings, mock.patch.object(se, "fetch_web_bytes", web), contextlib.redirect_stdout(io.StringIO()) as out:
-            se.verify_all(passage_ids={"WEB-A", "WEB-A2"})
-        bindings.assert_called_once()
-        # One fetch for the shared page; the unselected page is never requested.
-        self.assertEqual(web.requested, [LIVE_URL])
-        self.assertNotIn(b["source_url"], web.requested)
-        self.assertIn("limited to 2 changed passage(s): WEB-A, WEB-A2; the other 1", out.getvalue())
-
-    def test_unchanged_unreachable_web_witness_is_explicitly_unverified(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage["wayback_url"] = WAYBACK_URL
-        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        def unavailable(url: str, expected: str, label: str) -> bytes:
-            raise se.SourceUnavailableError(f"{label}: cannot fetch {url}: HTTP 403")
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(se, "fetch_web_bytes", side_effect=unavailable),
-            contextlib.redirect_stdout(io.StringIO()) as out,
-        ):
-            self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
-        self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
-        self.assertIn("source evidence incomplete", out.getvalue())
-
-    def test_unreachable_witness_without_wayback_is_deferred_as_unverified(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage.pop("wayback_url", None)
-        passage.pop("wayback_sha256", None)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(
-                se, "fetch_web_bytes",
-                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 404"),
-            ),
-            contextlib.redirect_stdout(io.StringIO()) as out,
-        ):
-            self.assertEqual(se.verify_all(defer_unavailable_ids={"WEB-A"}), 0)
-        self.assertIn("WEB-A: unavailable, NOT byte-verified", out.getvalue())
-        self.assertIn("source evidence incomplete", out.getvalue())
-
-    def test_unreachable_witness_without_wayback_is_strict_when_not_deferred(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage.pop("wayback_url", None)
-        passage.pop("wayback_sha256", None)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(
-                se, "fetch_web_bytes",
-                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 404"),
-            ),
-        ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "HTTP 404"):
-                se.verify_all()
-
-    def test_byte_drift_without_wayback_is_never_deferred(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage.pop("wayback_url", None)
-        passage.pop("wayback_sha256", None)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(se, "fetch_web_bytes", side_effect=se.SourceEvidenceError("WEB-A: byte drift")),
-        ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
-                se.verify_all(defer_unavailable_ids={"WEB-A"})
-
-    def test_changed_witness_remains_strict_when_unreachable(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage["wayback_url"] = WAYBACK_URL
-        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(
-                se, "fetch_web_bytes",
-                side_effect=se.SourceUnavailableError("WEB-A: cannot fetch: HTTP 403"),
-            ),
-        ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "Wayback fallback failed"):
-                se.verify_all(defer_unavailable_ids=set())
-
-    def test_byte_drift_is_not_deferred_as_unavailable(self) -> None:
-        passage = self.passages["WEB-A"][1]
-        passage["wayback_url"] = WAYBACK_URL
-        passage["wayback_sha256"] = se.sha256_bytes(ARCHIVED)
-        only = {"WEB-A": self.passages["WEB-A"]}
-
-        def mixed(url: str, expected: str, label: str) -> bytes:
-            if url == LIVE_URL:
-                raise se.SourceEvidenceError("WEB-A: byte drift")
-            raise se.SourceUnavailableError("WEB-A: archive unreachable")
-
-        with (
-            mock.patch.object(se, "passage_index", return_value=only),
-            mock.patch.object(se, "validate_bindings", return_value=(1, 0)),
-            mock.patch.object(se, "fetch_web_bytes", side_effect=mixed),
-        ):
-            with self.assertRaisesRegex(se.SourceEvidenceError, "byte drift"):
-                se.verify_all(defer_unavailable_ids={"WEB-A"})
-
-    def test_git_changed_files(self) -> None:
-        def git(*args: str) -> None:
-            subprocess.run(["git", *args], cwd=self.root, check=True, capture_output=True)
-
-        git("init", "-q")
-        git("-c", "user.email=t@example.org", "-c", "user.name=t", "commit", "-q", "--allow-empty", "-m", "base")
-        (self.root / "corpus" / "passages" / "a.json").write_text("{}")
-        git("add", ".")
-        git("-c", "user.email=t@example.org", "-c", "user.name=t", "commit", "-q", "-m", "add")
-        changed = se.git_changed_files("HEAD^1", "HEAD", self.root)
-        self.assertEqual(changed, ["corpus/passages/a.json"])
-        self.assertEqual(self.select(changed), {"WEB-A", "WEB-A2"})
 
 
 if __name__ == "__main__":

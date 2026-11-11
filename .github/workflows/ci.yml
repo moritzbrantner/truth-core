@@ -73,7 +73,7 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
         with:
-          # A PR checks out its merge commit; HEAD^1 is the base the source verify compares to.
+          # A PR checks out its merge commit; HEAD^1 is the base for diff-based checks.
           fetch-depth: 2
       - name: Test release acquisition
         run: python3 .github/actions/release-setup/test_acquire.py
@@ -90,7 +90,7 @@ jobs:
         with:
           build: "true"
           save: "true"
-      # Offline PDF fixture tests always run, even when live source work is unaffected.
+      # Source extraction tests use offline fixtures on every run.
       - name: Install PDF source extraction
         run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
       # The Rust CLI (truth/README.md) runs the corpus check and the frontier reports;
@@ -163,8 +163,8 @@ jobs:
         run: python3 scripts/orphan_summary.py --base HEAD^1 | tee -a "$GITHUB_STEP_SUMMARY"
       # Attribution self-check (#989, owner decision 2026-11-05): on a PR, every new or
       # changed stating claim (or claim whose statement text or passage changed) must
-      # record "The passage states X, which is the premise." against freshly
-      # materialized pinned text. Its report goes to the job summary.
+      # record "The passage states X, which is the premise." CI checks the record
+      # offline; reading the cited passage remains a research/review responsibility.
       - name: Check attribution of new or changed stating claims
         if: github.event_name == 'pull_request'
         run: |
@@ -174,52 +174,11 @@ jobs:
               echo "### Attribution self-check (\`corpus.py attribution-check --base HEAD^1\`)"
               echo '```text'
               status=0
-              python3 scripts/corpus.py attribution-check --base HEAD^1 --materialize --max-chars 2000 2>&1 || status=$?
+              python3 scripts/corpus.py attribution-check --base HEAD^1 --max-chars 2000 2>&1 || status=$?
               echo '```'
               exit $status
             } | tee -a "$GITHUB_STEP_SUMMARY"
           fi
-      # On a PR, refetch only passages with changed manifests, including when the verifier
-      # also changes. Offline tests exercise verifier changes without making unrelated witness
-      # availability a merge gate. Main refetches everything but reports unchanged,
-      # transport-unreachable web snapshots explicitly as unverified; nightlies and
-      # manual runs keep strict full verification. Drift is always fatal.
-      - name: Verify immutable primary-source witnesses
-        if: needs.comparator-plan.outputs.source == 'true'
-        env:
-          EVENT: ${{ github.event_name }}
-        run: |
-          if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
-            python3 scripts/source_evidence.py verify --base HEAD^1 --head HEAD
-          elif [[ "$EVENT" == push ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
-            python3 scripts/source_evidence.py verify --defer-unavailable-unchanged HEAD^1
-          else
-            python3 scripts/source_evidence.py verify
-          fi
-      - name: Exercise source materialization
-        if: needs.comparator-plan.outputs.source == 'true'
-        run: |
-          python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4 --output /tmp/aristotle-physics-i-4.txt
-          python3 scripts/source_evidence.py materialize ARIST-CAT-V --output /tmp/aristotle-categories-v.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-IV-1 --output /tmp/aristotle-metaphysics-iv-1.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-IV-7 --output /tmp/aristotle-metaphysics-iv-7.txt
-          python3 scripts/source_evidence.py materialize PLATO-TIM-28 --output /tmp/plato-timaeus-28.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q2-A3 --output /tmp/aquinas-st-i-q2-a3.txt
-          python3 scripts/source_evidence.py materialize CREED-C381 --output /tmp/creed-c381.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q48-A3 --output /tmp/aquinas-st-i-q48-a3.txt
-          python3 scripts/source_evidence.py materialize VATICAN-I-DEI-FILIUS-CH3 --output /tmp/vatican-i-dei-filius-ch3.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q4-A2 --output /tmp/aquinas-st-i-q4-a2.txt
-          python3 scripts/source_evidence.py materialize ARIST-MET-II-1 --output /tmp/aristotle-metaphysics-ii-1.txt
-          python3 scripts/source_evidence.py materialize AQUINAS-ST-I-Q13-A8 --output /tmp/aquinas-st-i-q13-a8.txt
-      - name: Upload rejected source bytes for diagnosis
-        if: always() && needs.comparator-plan.outputs.source == 'true'
-        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7
-        with:
-          name: source-drift-diagnostics-${{ github.run_attempt }}
-          path: .cache/truth-core/source-diagnostics
-          include-hidden-files: true
-          if-no-files-found: ignore
-          retention-days: 3
 
   corpus-explorer:
     needs: comparator-plan
@@ -286,7 +245,6 @@ jobs:
       shard_count: ${{ steps.select.outputs.shard_count }}
       library_changed: ${{ steps.select.outputs.library_changed }}
       lean: ${{ steps.select.outputs.lean }}
-      source: ${{ steps.select.outputs.source }}
       explorer: ${{ steps.select.outputs.explorer }}
       explorer_tests: ${{ steps.select.outputs.explorer_tests }}
       report: ${{ steps.select.outputs.report }}

@@ -2,6 +2,17 @@
 
 This repository advances substantial arguments through small verified research steps. Keep the complexity in the philosophy, not in repository machinery.
 
+## Source checks stay offline (owner direction, 2026-11-11)
+
+Full-source verification is not a repository standard. CI, scheduled/manual
+workflows and routine local gates must not refetch historical witnesses or
+require public source hosts to remain available or byte-stable. Validate source
+records, claim bindings and attribution records offline; exercise extraction
+with local fixtures. Use `source_evidence.py materialize <PASSAGE-ID>` only for
+selected source research, and read the cited material before attributing a claim.
+Missing cached text is not evidence that it was never read, and a green offline
+check does not certify source bytes or fidelity. See [source evidence](docs/source-evidence.md#validation).
+
 ## Research policy and provisional judgments (owner direction, 2026-11-10)
 
 Follow [the systematic research loop](docs/systematic-corpus-loop.md) as the
@@ -529,7 +540,6 @@ Other `corpus.py` commands are still Python.
 
 ```bash
 python3 scripts/source_evidence.py check
-python3 scripts/source_evidence.py verify
 lake build
 target/release/truth check
 python3 scripts/bundle_audit.py
@@ -539,7 +549,7 @@ scripts/verify-result.sh <RESULT-ID>
 
 `bundle_audit.py` runs offline. Run it whenever you edit an argument bundle or a definition its audit pins by hash: CI runs it right after `truth check`.
 
-`corpus.py bind-check` (after `lake build`) reads each result theorem's type and checks that its `Prop` hypotheses are exactly the argument's premise statements and its result type is the conclusion statement, matched by `lean_declaration` head constant; type and vocabulary parameters are not premises. A hypothesis whose head is a theory definition (`TruthCore.Comparison.*`) is a theory bundle: it is unfolded one step and split on `∧`, and each conjunct must bind to a listed premise, covering them exactly. A conclusion that is a theory definition is a consistency claim: its argument must list `commitment_statement_ids` (and may then have no premises), and these must match the conclusion's conjuncts in the same way. Keep non-theory conclusion propositions outside `TruthCore.Comparison`. During development, `corpus.py bind-check --result <ID>` (repeatable) or `--affected --base <BASE>` binds only the named or affected results and needs only their Solution modules built; the full `bind-check` (CI) also checks stale pins and registered models. `source_evidence.py check` verifies offline manifest and claim bindings. `source_evidence.py verify` fetches the exact pinned editions and rejects byte drift by Git blob SHA. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
+`corpus.py bind-check` (after `lake build`) reads each result theorem's type and checks that its `Prop` hypotheses are exactly the argument's premise statements and its result type is the conclusion statement, matched by `lean_declaration` head constant; type and vocabulary parameters are not premises. A hypothesis whose head is a theory definition (`TruthCore.Comparison.*`) is a theory bundle: it is unfolded one step and split on `∧`, and each conjunct must bind to a listed premise, covering them exactly. A conclusion that is a theory definition is a consistency claim: its argument must list `commitment_statement_ids` (and may then have no premises), and these must match the conclusion's conjuncts in the same way. Keep non-theory conclusion propositions outside `TruthCore.Comparison`. During development, `corpus.py bind-check --result <ID>` (repeatable) or `--affected --base <BASE>` binds only the named or affected results and needs only their Solution modules built; the full `bind-check` (CI) also checks stale pins and registered models. `source_evidence.py check` verifies offline manifest and claim bindings. Selected passage materialization checks acquired bytes against their pins; it is not a recurring repository gate. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
 
 Do not call an argument mechanically verified unless its result passes Comparator. CI also runs an independent no-`sorry` NanoDa check: over the whole built library on `main` pushes, nightly and manual runs, and on a PR over the modules its diff can affect (changed modules and their reverse dependents; `docs/axiom-policy.md`), so a failure a PR's scope missed still turns the next `main` run red.
 
@@ -548,7 +558,7 @@ Do not call an argument mechanically verified unless its result passes Comparato
 Before requesting `@codex review`, apply the Review guidelines below to your own diff in one pass and fix what you find:
 
 - every "read as" or attributed claim states no more than its cited sentence; any strengthening is stated as an explicit, unattributed open premise;
-- **attribution self-check (#989), before the first push** (CI runs the same check on every PR): run `python3 scripts/corpus.py attribution-check --base <merge-base> --materialize`. For each new or changed stating claim (or claim whose statement text changed), it prints the premise next to the claim locator and the pinned passage text, and it fails until the claim records `"attribution": "The passage states X, which is the premise."` Check quantifier scope, species/genus restriction (one kind of cause or being read as all), and temporal and modal scope. If the sentence would be false, because the passage only bears on the premise or states something narrower, do not keep the claim as stating. Replace it by a `supports` relation with a gap note (#987), or state the narrower reading as its own statement;
+- **attribution self-check (#989), before the first push** (CI runs the same check on every PR): run `python3 scripts/corpus.py attribution-check --base <merge-base>`. This offline check prints each new or changed stating claim (or claim whose statement text changed) beside its locator and any usable cached passage text; absent or stale text is reported as not checked, and it fails until the claim records `"attribution": "The passage states X, which is the premise."` Check quantifier scope, species/genus restriction (one kind of cause or being read as all), and temporal and modal scope. If the sentence would be false, because the passage only bears on the premise or states something narrower, do not keep the claim as stating. Replace it by a `supports` relation with a gap note (#987), or state the narrower reading as its own statement;
 - every load-bearing term on a root path links a definition through `definition_ids`;
 - every ambiguous term links a disambiguation through `disambiguation_ids`.
 

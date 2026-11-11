@@ -102,13 +102,13 @@ The Actions summary records the reason and each run/bypass decision.
 For recognized prose-only changes (`docs/**/*.md` and root `AGENTS.md`,
 `CLAUDE.md`, `README.md`, `CONTEXT.md`), `corpus-and-lean` retains import/doc
 index checks, corpus validation, offline tests and the frontier report. It
-bypasses Lean setup/build, binding and source verification/materialization;
+bypasses Lean setup/build and binding;
 the explorer and Comparator library jobs are skipped. A skip records unaffected
 inputs, not a new proof certification. Other Markdown paths are not automatically
 prose: an unclassified path takes the full safety path.
 
 Direct `specs/*.toml` batch specifications and `explorations/*.toml` maps are
-recognized declarative research metadata and retain the corpus/source checks.
+recognized declarative research metadata and retain offline corpus/source checks.
 They do not themselves change compiled proofs: generated result JSON and Lean
 files still select each affected result and changed module's reverse dependents.
 Other extensions, nested paths and unknown inputs retain the full fallback.
@@ -120,8 +120,9 @@ exists, while retaining missing-text, unknown-reference and undeclared-edge
 errors. It does not check generated-output drift or certify proposed proofs.
 
 Leaf Lean edits retain incremental builds, binding, affected result verification
-and scoped NanoDa. Corpus/source JSON edits retain binding, source integrity and
-materialization. Both retain explorer unit tests, which read corpus data, index
+and scoped NanoDa. Corpus/source JSON edits retain binding and offline source
+metadata checks. Source acquisition is never a CI gate, including scheduled and
+manual runs; see [source evidence](source-evidence.md#validation). Both retain explorer unit tests, which read corpus data, index
 the real Lean declarations and compare frontier output. Explorer code
 edits retain unit tests and both browser variants, with a freshly verified
 configuration report from this workflow; report artifacts are never reused from

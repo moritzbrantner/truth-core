@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify and materialize immutable primary-source evidence for truth-core."""
+"""Validate source records and materialize selected primary-source passages."""
 
 from __future__ import annotations
 
@@ -1369,8 +1369,7 @@ def resolve_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True, fet
         if not passage.get("wayback_url"):
             # No pinned fallback: the live error keeps its type, so a transport
             # failure stays an availability error and byte drift stays an
-            # integrity error. Only `verify --defer-unavailable-unchanged` (main
-            # pushes) may defer the former, and it reports it as not verified.
+            # integrity error. Explicit materialization fails in either case.
             raise
         try:
             data = fetch(passage["wayback_url"], passage["wayback_sha256"], passage["id"])
@@ -1395,150 +1394,6 @@ def materialize_web_snapshot(passage: dict[str, Any], *, use_cache: bool = True,
     text = extract_web_text(resolve_web_snapshot(passage, use_cache=use_cache, fetch=fetch), passage)
     check_web_text(text, passage)
     return text
-
-
-def git_changed_files(base: str, head: str, root: Path = ROOT) -> list[str]:
-    output = subprocess.run(
-        ["git", "diff", "--name-only", "--no-renames", base, head],
-        cwd=root,
-        check=True,
-        capture_output=True,
-        text=True,
-    ).stdout
-    files = [line for line in output.splitlines() if line]
-    # A manifest the uuid migration only re-identified changes no witness.
-    return [name for name in files if not identity_only_manifest(name, base, head, root)]
-
-
-def identity_only_manifest(name: str, base: str, head: str, root: Path) -> bool:
-    if not (name.startswith("corpus/passages/") and name.endswith(".json")):
-        return False
-    from corpus_ids import identity_only_change
-
-    def read(revision: str) -> Any:
-        completed = subprocess.run(["git", "show", f"{revision}:{name}"], cwd=root, capture_output=True, text=True)
-        return json.loads(completed.stdout) if completed.returncode == 0 else None
-
-    return identity_only_change("passages", read(base), read(head))
-
-
-def changed_passage_ids(
-    changed_files: Iterable[str], passages: dict[str, tuple[Path, dict[str, Any]]], root: Path = ROOT
-) -> set[str]:
-    """The passages whose manifests a change adds or edits.
-
-    Deleted manifests and verifier-only changes select nothing. Every manifest
-    is still validated offline; main and scheduled CI verify all sources live.
-    """
-    changed = set(changed_files)
-    return {
-        passage_id
-        for passage_id, (path, _) in passages.items()
-        if path.resolve().relative_to(root.resolve()).as_posix() in changed
-    }
-
-
-def verify_all(
-    export_path: Path | None = None,
-    passage_ids: set[str] | None = None,
-    *,
-    defer_unavailable_ids: set[str] | None = None,
-) -> int:
-    """Refetch and hash-check source evidence: every passage, or only `passage_ids`.
-
-    The offline manifest and claim-binding check always covers every passage.
-    """
-    passages = passage_index()
-    validate_bindings()
-    if passage_ids is not None:
-        print(
-            f"live verify limited to {len(passage_ids)} changed passage(s)"
-            + (f": {', '.join(sorted(passage_ids))}" if passage_ids else "")
-            + f"; the other {len(passages) - len(passage_ids)} passed the offline check only"
-        )
-        passages = {key: value for key, value in passages.items() if key in passage_ids}
-    snapshots: dict[tuple[str, str, str, str], dict[str, Any]] = {}
-    media_verified = 0
-    media_skipped = []
-    web_verified = 0
-    web_unavailable: list[tuple[str, str]] = []
-    retired: list[str] = []
-    bibliographic = []
-    fetched: dict[tuple[str, str], bytes] = {}
-
-    def fetch_once(url: str, expected: str, label: str) -> bytes:
-        if (url, expected) not in fetched:
-            fetched[(url, expected)] = fetch_web_bytes(url, expected, label)
-        return fetched[(url, expected)]
-
-    for _, passage in passages.values():
-        if is_bibliographic(passage):
-            # No bytes are pinned: there is nothing to fetch or re-hash.
-            bibliographic.append(passage["id"])
-            continue
-        if is_unavailable(passage):
-            # Permanently gone: never fetched again, never counted as verified.
-            retired.append(passage["id"])
-            continue
-        if is_web_snapshot(passage):
-            # Always refetch (no cache), once per page: the live page, or its pinned Wayback capture.
-            try:
-                materialize_web_snapshot(passage, use_cache=False, fetch=fetch_once)
-            except SourceUnavailableError as exc:
-                if defer_unavailable_ids is None or passage["id"] not in defer_unavailable_ids:
-                    raise
-                web_unavailable.append((passage["id"], str(exc)))
-                continue
-            web_verified += 1
-            print(f"verified web snapshot {passage['id']} ({passage['sha256'][7:19]})")
-            continue
-        if is_media_span(passage):
-            cached = media_export_cache_path()
-            if export_path is None and not cached.is_file():
-                media_skipped.append(passage["id"])
-                continue
-            resolve_media_span(passage, export_path)
-            media_verified += 1
-            print(f"verified media span {passage['id']} ({passage['span_sha256'][7:19]})")
-            continue
-        key = (
-            passage["repository"],
-            passage["revision"],
-            passage["path"],
-            passage["git_blob_sha"],
-        )
-        snapshots.setdefault(key, passage)
-
-    for passage in snapshots.values():
-        fetch_source(passage)
-        print(
-            f"verified {passage['repository']}@{passage['revision'][:12]}:"
-            f"{passage['path']} ({passage['git_blob_sha'][:12]})"
-        )
-    if media_skipped:
-        # YouTube is never fetched here: media spans are re-verified only from a
-        # local source-span export (see `materialize`).
-        print(
-            f"media spans not re-verified (no local source-span export): {', '.join(media_skipped)}"
-        )
-    if bibliographic:
-        print(f"bibliographic spans not byte-verified (citation only): {', '.join(sorted(bibliographic))}")
-    if retired:
-        print(
-            "permanently unavailable web snapshots, never fetched, NOT byte-verified: "
-            + ", ".join(sorted(retired))
-        )
-    for passage_id, reason in sorted(web_unavailable):
-        print(f"{passage_id}: unavailable, NOT byte-verified in this run: {reason}")
-    print(
-        f"source evidence {'incomplete' if web_unavailable else 'ok'}: "
-        f"{len(passages)} passages, {len(snapshots)} immutable source snapshots, "
-        f"{media_verified} media spans verified, {web_verified} web snapshot passages verified, "
-        f"{len(web_unavailable)} web snapshot passages unavailable, "
-        f"{len(retired)} web snapshot passages permanently unavailable, "
-        f"{len(bibliographic)} bibliographic spans not byte-verified"
-    )
-    return 0
 
 
 def local_name(tag: str) -> str:
@@ -1754,35 +1609,10 @@ def check() -> int:
 
 def parser() -> argparse.ArgumentParser:
     result = argparse.ArgumentParser(
-        description="Verify and materialize immutable primary-source evidence"
+        description="Validate source records and materialize selected primary-source passages"
     )
     sub = result.add_subparsers(dest="command", required=True)
     sub.add_parser("check", help="validate passage manifests and claim bindings without network access")
-    verify_parser = sub.add_parser(
-        "verify",
-        help=(
-            "fetch and hash-check all immutable source snapshots and web snapshots; "
-            "media spans only from a local export; bibliographic spans are listed as not byte-verified"
-        ),
-    )
-    verify_parser.add_argument("--export", help="youtube-corpus source-span export for media spans")
-    verify_parser.add_argument(
-        "--base",
-        help=(
-            "verify live only the passages whose manifests changed between BASE and --head "
-            "(including verifier-only PRs with no changed passages); every manifest is checked offline"
-        ),
-    )
-    verify_parser.add_argument("--head", default="HEAD", help="the head of the --base comparison")
-    verify_parser.add_argument(
-        "--defer-unavailable-unchanged",
-        metavar="BASE",
-        help=(
-            "verify all witnesses, but report transport-unreachable unchanged web snapshots as "
-            "explicitly unverified; witnesses changed since BASE, byte drift, and text drift "
-            "remain hard failures (intended for main pushes; nightly is strict)"
-        ),
-    )
     materialize_parser = sub.add_parser(
         "materialize", help="verify and extract one source passage to a local UTF-8 text file"
     )
@@ -1831,20 +1661,6 @@ def main() -> int:
     try:
         if args.command == "check":
             return check()
-        if args.command == "verify":
-            export = Path(args.export) if args.export else None
-            if args.base and args.defer_unavailable_unchanged:
-                raise SourceEvidenceError("--base and --defer-unavailable-unchanged are mutually exclusive")
-            if args.defer_unavailable_unchanged:
-                index = passage_index()
-                changed = changed_passage_ids(
-                    git_changed_files(args.defer_unavailable_unchanged, args.head), index
-                )
-                return verify_all(export, defer_unavailable_ids=set(index) - changed)
-            if args.base is None:
-                return verify_all(export)
-            selected = changed_passage_ids(git_changed_files(args.base, args.head), passage_index())
-            return verify_all(export, selected)
         if args.command == "materialize":
             return materialize(resolve_passage_id(args.passage_id), args.output, args.export)
         if args.command == "raw-witness":

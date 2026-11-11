@@ -61,7 +61,7 @@ corpus/
   candidates/                   small queued source-research tasks
   results/                      mechanical verification metadata
 results/<RESULT-ID>/            Comparator configurations
-scripts/source_evidence.py      verify/materialize pinned primary-source text
+scripts/source_evidence.py      check source records/materialize selected passages
 scripts/corpus.py               inspect/validate the work queue and corpus graph
 verifier/                       Rust Comparator implementation
 scripts/verify-result.sh        run Comparator for one result
@@ -97,13 +97,12 @@ python3 scripts/source_evidence.py materialize ARIST-PHYS-I-4
 
 The materializer fetches the exact edition at its immutable revision, verifies its Git blob SHA, extracts the configured CTS range where available, and writes normalized UTF-8 text under `.cache/truth-core/sources/`.
 
-To verify all currently pinned source snapshots:
+CI and routine local checks validate source metadata and claim bindings offline.
+There is no full-source refetch gate. Source acquisition is part of selected
+research through `materialize <PASSAGE-ID>`; external availability and page drift
+do not control repository CI.
 
-```bash
-python3 scripts/source_evidence.py verify
-```
-
-`python3 scripts/corpus.py check` also refuses any formalized claim that does not resolve to exactly one registered passage witness. This establishes reproducible **source integrity**. Whether the resulting interpretation is faithful remains a separate scholarly/review question.
+`python3 scripts/corpus.py check` refuses any formalized claim that does not resolve to exactly one registered passage witness. This checks the recorded **source binding**, without certifying current source availability or bytes. Whether the interpretation is faithful remains a separate scholarly/review question.
 
 ### Comparator verification
 
