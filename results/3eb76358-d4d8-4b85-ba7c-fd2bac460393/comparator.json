@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Ethics.RossPermission.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.RossPermission.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ethics.RossPermission.certificate"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "propext",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "71a1b029-8b24-42ec-800d-f797ebf4f961",
+  "label": "PERMISSION_2: issued strong authorization",
+  "term": "issued authorization",
+  "definition": "Strong n p means n.issued p. Norms supplies an extensional family of outcome predicates as a primitive issued-content input. No issuance history, legitimate authority, closure, feasibility or ideal compatibility is implicit.",
+  "basis": "stipulative",
+  "note": "Analyst semantics for #1398. Interpretation and legitimate normative authority remain OPEN. See docs/notes/carneades-deontology-boundary.md, Ross section.",
+  "lean_declaration": "TruthCore.Ethics.RossPermission.Strong"
+}

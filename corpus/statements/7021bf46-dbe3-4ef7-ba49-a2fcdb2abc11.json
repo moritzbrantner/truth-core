@@ -1,0 +1,15 @@
+{
+  "id": "7021bf46-dbe3-4ef7-ba49-a2fcdb2abc11",
+  "label": "Ross ideal weakening and permission boundaries",
+  "paraphrase": "For arbitrary ideal frames: obligation weakens; PERMISSION_1 is dual to obligation of negation; guarded disjunction yields the other weak permission; both guards yield both; ideal exclusivity gives the exact equivalences. Closed serial mail-only and mail-or-burn controls refute unrestricted free choice, witness both weak permissions without PERMISSION_2, and show overlap defeats the reverse implication. Exact issued-content duty rejects weakening. An explicit weak-to-strong bridge transfers both permissions. No actual duty, authority, availability or root premise is established.",
+  "lean_declaration": "TruthCore.Ethics.RossPermission.Certificate",
+  "definition_ids": [
+    "03c610d3-5df4-48fc-baf0-e78fe8a084e3",
+    "71a1b029-8b24-42ec-800d-f797ebf4f961",
+    "e7812110-d4a0-44b2-b026-080b0d686470",
+    "ac8c1fd8-884f-5f95-8a3a-e25870b8a5bd"
+  ],
+  "disambiguation_ids": [
+    "7a45ad77-ca83-45bb-8a51-ebb37597388a"
+  ]
+}

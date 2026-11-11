@@ -8,3 +8,4 @@ public import TruthCore.Ethics.MoralAccessFibers
 public import TruthCore.Ethics.PopulationAggregation
 public import TruthCore.Ethics.PopulationComparability
 public import TruthCore.Ethics.PopulationScoring
+public import TruthCore.Ethics.RossPermission

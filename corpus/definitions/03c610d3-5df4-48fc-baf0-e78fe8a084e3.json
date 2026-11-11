@@ -1,0 +1,9 @@
+{
+  "id": "03c610d3-5df4-48fc-baf0-e78fe8a084e3",
+  "label": "PERMISSION_1: ideal-compatible weak permission",
+  "term": "ideal-compatible permission",
+  "definition": "Weak i w p means there exists v with i.access w v and p v. Ideal accessibility and the event predicate are supplied inputs, not moral facts. No feasibility or actual performance follows.",
+  "basis": "stipulative",
+  "note": "Analyst semantics for #1398. Interpretation and legitimate normative authority remain OPEN. See docs/notes/carneades-deontology-boundary.md, Ross section.",
+  "lean_declaration": "TruthCore.Ethics.RossPermission.Weak"
+}

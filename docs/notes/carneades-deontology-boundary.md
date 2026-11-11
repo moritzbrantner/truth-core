@@ -223,3 +223,99 @@ logical weakestness. The same frozen future and branching repairs are unchanged.
 Premise delta: replace universal present OIC by original-return-only LocalOIC in
 both operational arguments; retain all their other premises. No moral policy is
 proved true, and no Catholicism root premise changes. Attribution stays deferred.
+
+## Ross weakening versus permission (#1398, proposed outcome, 2026-11-11)
+
+Baseline d6694c799cbf8c84aa8156f75d4bfa12d9cdbc2a. This is an analyst
+reconstruction, with attribution deferred. Independent semantic challenge of
+this proposed outcome belongs to the coordinator before reliance on its judgment.
+The existing compatibility theorem quantifies arbitrary goal predicates over
+ideal/available overlap. Its truth does not concern permission; the old Can is
+available fulfillment. HardCaseTyped likewise supplies independent verdicts,
+not an inference from facts or ideality to categorical reasons.
+
+RossPermission reuses the exact Frame and Ought. PERMISSION_1 is existence of
+an ideal outcome satisfying the predicate. It is classically equivalent to
+not owing its negation, even on empty ideal sets (where both sides are false).
+PERMISSION_2 is membership in a supplied family of issued authorization contents.
+Issuance is an explicit primitive: who issued it, its legitimacy and its practical
+force are OPEN. Neither primitive relation describes actual performance.
+The finite Action carrier contains distinct mail, burn and keep outcomes. It
+is an outcome surrogate, not a complete agency/choice model; simultaneous
+mail/burn events are not represented by those equality predicates.
+
+The certificate gives unrestricted obligation weakening, the guarded other-
+disjunct consequence, the two-guard conjunction and ideal-relative exclusivity
+biconditionals. Exclusivity is needed only for permission-to-not-obligation;
+the forward guarded inference needs no seriality assumption, because failure
+of an obligation already supplies an ideal counterexample classically.
+The mail-only serial frame satisfies obligation to mail and mail-or-burn but
+has no ideal burn witness. The two-ideal-outcome serial frame satisfies both
+guards and both weak permissions, while the empty authorization family
+supplies neither strong permission. Thus even the strongest guarded weak
+conclusion does not itself supply explicit authorization.
+
+The overlap control takes both predicates to be mail: weak permission and
+obligation coexist. This refutes permission implying absence of obligation to
+the other disjunct without exclusivity. It does not refute the guarded inference.
+The universal certificate specializes to the symmetric other-disjunct law by
+swapping p/q and commuting the disjunction. No new symmetric axiom is needed.
+The issue's 448 checks remain finite prior evidence; the universal proofs do
+not extrapolate from that enumeration.
+
+A serious positive rival distinguishes an issued duty's exact extensional
+content from all its consequences. ExactDuty issuedMail p holds precisely when
+p has the same extension as mail, and excludes mail-or-burn. Its benefit is
+preserving the stronger action instruction in the representation of what was
+issued. Its price is failure of closure under ordinary entailment (and hence
+the normal monotone obligation reading); it still respects pointwise equivalent
+contents. This is a neighborhood/content rival, not an opaque rejection flag.
+It does not represent wording-sensitive hyperintensional norms, duties derived
+by a separate consequence operator, or provide authority merely by issuance.
+Those are open refinements, not refutations. The monotone account can instead
+retain logical weakening while treating adequate compliance with the original
+mail duty and pragmatic action guidance separately. Choosing burn need not
+comply with mail merely because it satisfies the weaker disjunctive sentence.
+
+Descending into the bridge: the certificate also proves that an explicitly
+supplied weak-to-strong transfer licenses both authorizations from the two weak
+permissions. The two-outcome/empty-authorization control falsifies that bridge,
+so it cannot be derived from ideal semantics alone. A narrower action-local
+transfer for these two predicates suffices by direct application; the universal
+bridge is illustrative, not claimed weakest or independently warranted. To
+reach #699 categorical reasons, one must additionally interpret the same
+agent/action/context as a genuine duty and supply its reason-giving authority
+for the indifferent agent. For #1035, a duty-to-ideal interpretation must keep
+the identical dated action and feasible relation. Neither bridge is built here;
+these issues are connection targets, not existing root routes. No proposition
+about God or the Catholicism root follows from these stipulations.
+
+Proposed provisional judgment: within ideal-successor semantics the logical
+puzzle is resolved by distinguishing weaker obligations, weak permission and
+issued authorization. The mathematics favors neither this semantics nor the
+exact-content rival as a theory of genuine duty. The strongest surviving rival
+keeps action guidance in issued contents and refuses monotone closure; its price
+is the lost inference just exhibited, not moral irrationality. Reconsider this
+judgment if a defended semantics requires additional action structure, if a
+norm-issuance rule warrants the local authorization bridge, or if a counterexample
+shows the stipulated outcome encoding fails the intended choice claim.
+Next discriminating investigation: specify the issuer/consequence distinction
+and an independently motivated local norm rule for the same HardCaseTyped action,
+then test whether it yields categorical reasons without hiding authority in
+membership. This requires a substantive normative premise, not another copy of
+the existing modal correspondence. The coordinator should reassess that scope.
+
+Verification for this proposed outcome: the isolated warm-output build passed;
+Comparator accepted the frozen certificate and its permitted classical axiom
+policy; NanoDa accepted the Solution; focused bind-check reported one bound,
+zero mismatches. Corpus check, bundle audit, attribution check and generated
+imports/docs checks passed. Required delivered-head CI remains separate.
+The service accepted the final vocabulary edit at preview head
+3aaf6c4fdb8bd9ed781ee7cb57811d5d81f84964, session research-master-20261111,
+Scratch/ross1398/Edit.lean with no diagnostics. An earlier edit returned the
+untyped-quantifier error; the second edit corrected it. Final certification used
+CLI outputs in this isolated checkout, never the preview's shared output files.
+The computed frontier-diff against d6694c799cbf8c84aa8156f75d4bfa12d9cdbc2a
+reports 402 open reaching-root premises before/after and zero added support
+alternatives: no change. The new certificate is a disconnected conditional
+semantic result with the explicit unbuilt connection plan above.
