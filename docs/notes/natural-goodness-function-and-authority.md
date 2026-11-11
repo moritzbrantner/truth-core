@@ -527,3 +527,231 @@ symlink setup is disposable readiness, not final certification. The direct
 CLI check used the supplied toolchain/cache setup; no external dependency was
 added to the manifest or source. `lake env` materialized existing pinned
 packages locally before the focused checks.
+
+## Local interest-to-reason bridge (#699, 2026-11-11)
+
+Worker proposal for the master's independent challenge; **not yet reviewed
+support**. Evidence baseline is main `d6694c799cbf8c84aa8156f75d4bfa12d9cdbc2a`.
+This is an analyst warrant investigation, not a new source attribution or a
+new certified consequence. The scope is one pro-tanto reason against this
+killing. Wider #699/#563 acceptance, prohibition and decisive priority remain
+open. The unmerged #1403 work is context only; none of its modules is consumed.
+
+### Fixed question and meanings
+
+Keep the SAME offender, victim, killing context and kill action of
+`HardCaseTyped.HardCases`. Killing is deliberate, its victim innocent and
+nonthreatening, its offender indifferent, benefiting and unpunished. Do not
+replace unpunished with merely an expectation. The informed deliberator and
+feasible abstention below are additional scenario assumptions, not conclusions
+of `HardCases`. There is no numeric welfare scale in this investigation.
+
+**Local B:** the victim's noninstrumental interest in continued life, together
+with this offender's deliberate destruction of that life, gives this offender
+a pro-tanto reason against this killing, independently of whether preserving
+the victim serves the offender's goals. This is a target to defend, not an
+assumption extracted from the factual description.
+
+Here an interest is **noninstrumental for its beneficiary** when continued life
+matters to that person's welfare in its own right, rather than only as a means
+to a further project. It need not be desired, maximal or inviolable. That
+beneficiary index does not disappear when the interest is objective. A
+**pro-tanto reason** is a consideration genuinely counting against the option
+in deliberation, potentially defeated in the final comparison. It is distinct
+from an obligation, prohibition, decisive reason, felt motivation and private
+instrumental advantage. **Equal standing** below means equal eligibility to
+have one's comparable interests considered, not equal outcomes or mandatory
+equal aggregation. These are explicit working prose meanings, not new Lean
+definitions or registered senses.
+
+The available goods type supplies `good .killing .victim .life` and
+`damages .killing .kill .victim .life`. It does NOT analyze welfare,
+noninstrumentality, causal destruction, intention or reason-holder applicability.
+Treat the real case's lethal causal relation and noninstrumental interest as
+explicit interpretation/application assumptions. A good/damage pair is not a
+completed encoding of them. No theorem below is credited with those contents.
+
+### Strongest local positive argument: affected standing
+
+The argument is not that shared humanity makes every person's reasons
+interchangeable. It concerns an agent selecting an action that destroys
+another's good:
+
+1. Continued life has noninstrumental significance for the victim. The injury
+   is a loss to a subject, rather than merely failure of an artifact's function.
+2. In deliberating about deliberately imposing that loss, the offender is
+   answerable to the affected subject's comparable interest as a consideration.
+   Who controls the act does not by itself remove the affected subject's standing.
+3. Deliberately destroying an interest that has such standing counts against
+   the act, even where a competing consideration eventually prevails.
+4. Therefore the offender has a pro-tanto reason against this killing.
+
+The independent rationale offered for step 2 is a **relevance judgment**:
+being the beneficiary explains *whose loss it is*; control of the choice
+explains *who must decide*. Neither alone explains why an acknowledged loss
+should have zero deliberative significance for the chooser. The victim's
+welfare is affected by the very option being assessed. Excluding it solely
+because its beneficiary is someone else treats an indexical relation as an
+exclusionary normative ground. Equal affected standing challenges that ground;
+it does not deny special responsibilities or self-directed reasons. Step 3
+adds a substantive damage-to-reason norm. Awareness of damage alone does not
+prove either step.
+
+This is a positive argument with an avowed normative starting point and a
+relevance-based defense, not a deduction from nonnormative identity. It is
+broader than B: it concerns comparable interests of affected subjects in
+choices imposing losses, with no promise, reciprocal exchange or future
+punishment required. Its extra reach supplies tests below. It is narrower than
+universal protection of every good by everyone: causal responsibility for the
+selected imposition matters, and no claim about remote assistance follows.
+The premise bundle is sufficient at this prose level, **not shown minimal**.
+It does not assert equal weights, aggregate maximization or prohibition.
+
+The strongest objection grants step 1 and accepts beneficiary-relative
+reasons, but rejects step 2. The goal-indexed rival below provides an actual
+explanation for its rejection: reason-holder relevance depends on the holder's
+ends or commitments. Calling the victim's interest objective does not answer
+that objection. Nor can we infer that every reason requires equal standing
+because failing to adopt it sounds morally objectionable; that would presuppose
+our disputed norm. Thus the relevance defense gives defeasible warrant for
+B to those accepting affected standing, without forcing a skeptic by logical
+contradiction. A primitive standing norm is a legitimate stopping point, but
+its adoption is substantive evidence dependence, not another independent proof.
+
+### Justice as the offender's own good: a second route and its limits
+
+A different positive proposal says practical excellence includes acting justly
+in relations to others, that such excellence partly constitutes the offender's
+own flourishing, and that participation in one's constitutive goods gives
+one a reason even without a present desire. Under these three commitments,
+deliberately violating the victim's standing damages the offender's own
+practical good and supplies a reason against the killing. Private gain does
+not refute that consequence: private gain and flourishing have different
+criteria in this proposal.
+
+The rationale is that successful human deliberation concerns living well as
+a rational social subject, not merely achieving isolated objectives. Justice
+purports to characterize excellent relations within that life. This is
+stronger than biological typicality or efficient means selection. But social
+interdependence alone supports only a contingent cooperation argument. The
+fixed unpunished case defeats a reply based solely on eventual retaliation;
+no hidden guilt, punishment or private cost may be inserted. An excellent
+strategist can understand others and exploit them. Showing effective strategy
+is not complete practical excellence does not yet show justice is part of that
+excellence or authoritative for this agent.
+
+Consequently this route needs independent warrant for (a) justice's proposed
+constitutive place, (b) its application to this act and (c) the practical
+significance of one's constitutive good. If justice is defined solely as
+respecting the already asserted standing, routes share that content and are
+not independent corroboration. The existing necessary function-excellence
+reading and human-good activity conditions prove none of (a)–(c). Defining
+rationality as agreement with B, or defining the offender's welfare to include
+compliance without an argument, would conceal the disputed bridge. The standing
+route above is currently more direct for this narrow question; that is a
+dependency comparison, not evidence that natural law is false.
+
+### Strong positive counteraccount on the same facts
+
+Consider a goal-indexed practical account: a consideration is a reason for an
+agent insofar as it bears on the agent's informed, coherent ends and practical
+commitments. Ends can include others' welfare, truth, fairness and long-term
+projects; reasons are not identical to immediate urges. Information can correct
+false beliefs about means or welfare. For this scenario stipulate that the
+informed offender's ends favor the gain, contain no protective commitment,
+and receive no adverse instrumental effect from the victim's loss. The victim
+still has a noninstrumental welfare interest and a reason to resist; other
+agents with protective ends have reasons to intervene. The account gives this
+offender no goal-indexed reason against the killing on those assumptions.
+This is a determinate rival explanation, not an independently toggled R flag.
+
+Its rationale is that deliberation organizes action around the deliberator's
+ends; removing every connection to those ends appears to remove the account's
+explanation of practical relevance. Its cost is equally precise: victim welfare
+can be fully understood yet supply no reason to the offender. The protective
+critic rejects that result using affected standing. No accepted shared floor
+in this investigation makes that disagreement a contradiction. Joint relabeling,
+self-concern and common humanity do not settle it, as the earlier structural
+controls illustrate. This prose account has not been certified as a model of
+actual human cognition or a complete metaethical theory.
+
+Could the offender coherently demand protection when positions reverse? On
+this account they can want others restrained for their own sake, and support
+institutions that restrain everyone, without believing everyone already has
+an end-independent reason. They cannot simultaneously claim universal affected
+standing and deny it only to the actual victim on no relevant distinction.
+But the rival need not make that universal claim. The first complaint exposes
+a normative disagreement; the second would expose an inconsistent additional
+commitment. Neither is a proof from mere role reversal.
+
+Railton's recorded reply is importantly different from inferring moral
+permission: the existing reading of *Moral Realism*, pp. 201–204, especially
+p. 203 n. 41, preserves moral obligation where instrumental reason is absent.
+Reuse that reading and its pinned witness; no new author claim is added here.
+An impartial criterion may condemn this act while individual instrumental
+rationality favors it. Such a reply contests the demand that obligation must
+entail every kind of reason. It does not deny B merely because there is no
+instrumental reason: B is a noninstrumental pro-tanto target, which needs its
+own argument. Conversely, B cannot be credited to Railton just because he
+retains obligation. The goal-indexed counteraccount above is an analyst option,
+not a claim that it exhausts Railton's view.
+
+### Discriminating tests and rejected shortcuts
+
+| Test on the proposed argument | Consequence or limitation |
+|---|---|
+| Offender loses concern but all affected interests remain | Standing-plus-damage reasoning retains the pro-tanto reason; the goal-indexed explanation may lose it. This isolates the substantive disagreement, without inferring which account is true from the stipulated outcome. |
+| Consensual amputation to save this victim | Tissue damage alone is insufficient for B. Consent can introduce authorization and rescue can supply a countervailing reason; neither automatically shows no pro-tanto loss. Whether the damaged item is a noninstrumental interest under the chosen description must be assessed. No unconditional ban on harm follows. |
+| Rescue with foreseen injury, rather than chosen lethal destruction | The present deliberate-killing application does not cover it. Extending step 3 to foreseeable imposition requires another stated scope claim and tests; intention and foresight are not equated. |
+| Victim consents to lethal harm | The original scenario did not specify consent to killing. Continued-life interest does not logically imply absence of consent. Standing does not by itself resolve authorization or priority, so no exceptionless prohibition is inferred for this case. |
+| Two protective reasons conflict | Both may retain pro-tanto force. A decisive judgment requires a priority account; no invented weights settle it. |
+| Justice is said always to advance private ends | Rejected: the claim contradicts the fixed absence of such a connection unless an independent additional good and its relevance are defended. Constitutive justice is a different proposal, not evidence of a concealed instrumental cost. |
+| Add an arbitrary reason field to the prior same-facts witness | Rejected as a test of B's warrant: it repeats omission, supplying neither standing nor a positive competing explanation. |
+
+These are conceptual scope tests, not new Lean theorems or finite-model
+certificates. They show why a local pro-tanto claim can remain defensible while
+an unrestricted harm prohibition fails to follow. They do not show that every
+instance of damage always supplies a reason.
+
+### Proposed judgment, connection and reassessment
+
+**Provisional judgment:** local B has a substantive positive defense through
+affected standing and the significance of deliberately imposing a subject's
+loss. Its warrant is defeasible and rests on a normative relevance judgment;
+it is not derived from the thin factual profile. The goal-indexed rival remains
+coherent on the tested premises and provides a positive contrary account of
+reason-holder relevance. The present evidence therefore supports B conditionally
+on affected standing, while leaving its categorical applicability contested.
+The justice-as-own-good route has more unestablished links here and is not yet
+independent corroboration. This does not rank complete worldviews or establish
+that killing is permitted. Independent semantic challenge remains the master's
+next integration gate.
+
+This assessment would strengthen if affected standing could be defended from
+commitments the strongest goal-indexed rival actually accepts, or constitutive
+justice independently shown applicable without importing moral agreement.
+It would weaken if a relevant distinction justified excluding the affected
+victim's interest even as a pro-tanto consideration, or if the interest/damage
+application failed. Counterexamples to an exceptionless prohibition would not
+alone defeat the weaker B. A finding that the proposed norm covertly means
+B would withdraw its claimed explanatory gain, retaining it only as a primitive.
+
+Exact corpus connection: reuse `3f82d9ad-8ae7-5d49-9d04-82eaafd6aa06`
+(goods control), `bde75fc5-30c0-5d50-9b80-2da539c30e47` (typed control),
+`54426963-1c31-4d4e-9c4e-0b487868c1cd` (agency controls), and the proposed
+practical-authority connection to `d3719938-01ef-58f8-8ffb-d4fc88c7aa28`
+(first precept). None is an existing proof route from B to God. The relevant
+root-route goodness target is `00e962ae-f109-55f7-a7fd-f107ce0dea6b`
+(goodness/actuality); ultimate root is `53964cbe-5831-5812-af33-4d87896d47a7`. The missing bridge is a warranted connection
+between that ontological goodness sense and this person's practical reasons,
+followed by any proposed moral-to-God inference. This note supplies neither.
+No new inference edge or root-premise discharge is registered.
+
+The bounded warrant comparison is ready for reassessment: actual arguments,
+replies and their dependencies are now stated. Repeating symmetry, information
+correction or punishment arguments under unchanged assumptions reaches the
+same obstacle. The materially different next test is a critique of the relevance
+judgment in step 2 against the fully end-relative account, or independent
+warrant for constitutive justice. It requires a substantive normative argument,
+not another free verdict model or more proof search over the old signature.
+The wider investigation remains open; this checkpoint does not exhaust it.
