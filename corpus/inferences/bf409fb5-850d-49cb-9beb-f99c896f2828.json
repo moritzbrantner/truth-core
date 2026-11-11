@@ -8,7 +8,7 @@
   ],
   "output_statement_id": "47a34ac9-5496-43de-a9ac-61f688790148",
   "rule": "Composition of unionWFOfNoNovel with the existing mutualSupport_excludes",
-  "meaning": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted.",
+  "meaning": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some admitted world of the carrier but not at w. That world may be inaccessible from w, so this is not by itself modal contingency of support relative to w. A conditional exclusion; neither the condition nor the rival is established or refuted.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

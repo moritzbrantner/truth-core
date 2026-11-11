@@ -7,7 +7,7 @@
   "theorem": "TruthCore.Results.Causality.NecessarySupportCoverage.mutualSupportExcluded",
   "comparator_config": "results/42dd0ab6-efb0-4edb-9af2-40cd362e8c60/comparator.json",
   "status": "solution-present",
-  "description": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted.",
+  "description": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some admitted world of the carrier but not at w. That world may be inaccessible from w, so this is not by itself modal contingency of support relative to w. A conditional exclusion; neither the condition nor the rival is established or refuted.",
   "research_comparisons": [
     {
       "target_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",

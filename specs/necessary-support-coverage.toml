@@ -62,7 +62,7 @@ sense_bridges = [
 conclusion = "No two NECESSARY_2 concreta support each other, each at some admitted world"
 axioms = []
 rule = "Composition of unionWFOfNoNovel with the existing mutualSupport_excludes"
-meaning = "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted."
+meaning = "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some admitted world of the carrier but not at w. That world may be inaccessible from w, so this is not by itself modal contingency of support relative to w. A conditional exclusion; neither the condition nor the rival is established or refuted."
 
 [[argument.research_comparisons]]
 target_statement_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
@@ -131,7 +131,7 @@ sense_bridges = [
 conclusion = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
 axioms = []
 rule = "Direct: the supporter found elsewhere is itself present and supporting at w"
-meaning = "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Not registered as a strength order because the existing users of the stronger premise conclude about all candidates, not concreta only. Conditional consequence only."
+meaning = "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Registered as a strength order (presence strengthens coverage); its existing consumer records why it needs the stronger premise. Conditional consequence only."
 
 [[argument]]
 id = "Rotating triangle, rooted pair and uncovered edge controls, checked"
@@ -153,3 +153,16 @@ coverage = "One explicitly populated interpretation; it shows compatibility of t
 exclusivity = "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint."
 witness = "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts."
 next_step = "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
+
+# ---------------------------------------------------------------- relations
+
+[[relation]]
+id = "Same-supporter presence strengthens coverage of support of necessary concreta"
+subject_kind = "statement"
+subject_id = "STMT-NECESSARY-SUPPORT-IS-PRESENT"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
+verification_result_id = "Coverage, from same-supporter presence"
+strictness_result_id = "Rotating triangle, rooted pair and uncovered edge controls, checked"
+note = "Same Profile, selected relation and selected world. Presence keeps the very supporter at w for any candidates; coverage asks only for some concrete supporter at w, for concrete supporters and targets. Control.rootedPair satisfies coverage while presence fails."

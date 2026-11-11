@@ -8,7 +8,7 @@
   "inference_ids": [
     "acec50e1-79d5-4364-89b0-08a7690bab99"
   ],
-  "meaning": "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Not registered as a strength order because the existing users of the stronger premise conclude about all candidates, not concreta only. Conditional consequence only.",
+  "meaning": "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Registered as a strength order (presence strengthens coverage); its existing consumer records why it needs the stronger premise. Conditional consequence only.",
   "definition_ids": [
     "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
     "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
