@@ -1,0 +1,11 @@
+{
+  "id": "1afbe242-2258-4253-8739-f3daf7d31f17",
+  "label": "Finite coordinate-family truth-class identification checked",
+  "argument_id": "19d3d3bf-7a1e-4c27-9ba3-4cde3af7d5bd",
+  "challenge_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution",
+  "theorem": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.finiteProfiles",
+  "comparator_config": "results/1afbe242-2258-4253-8739-f3daf7d31f17/comparator.json",
+  "status": "solution-present",
+  "description": "Identifies the explicitly counted finite profile relations with the selected-family semantics, so canonicalCertificate applies to these exact families."
+}

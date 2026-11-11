@@ -1,0 +1,10 @@
+{
+  "id": "7dc39f24-454f-4389-b9ee-06570cd7b9f5",
+  "label": "Non-concrete-cause rival of the esse-cause bridge survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d954fea6-b902-4947-998d-4761507cd43f",
+  "rule": "Explicit two-world interpretation, checked by case analysis",
+  "meaning": "Rival test for the esse-cause bridge against its smallest consumer, Round2Grounding.contingentGroundedViaParticipation (premises: actual contingent concreta participate esse, participated esse has a distinct cause, the esse-cause bridge). With a non-concrete item causing the esse of a contingent concretum, the rival holds with the other two premises and contingent dependence on an actual concrete ground fails. Model-witnessed survival only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

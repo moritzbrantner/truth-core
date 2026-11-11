@@ -1,0 +1,25 @@
+{
+  "id": "baa39012-a3d1-4d41-a94a-6b0a414c2196",
+  "label": "No first member: causal incoming versus separate strict order",
+  "term": "no first member of an entire causal chain",
+  "sense_definition_ids": [
+    "54abf2c9-059f-41ba-8e70-cc8f1694f957",
+    "4c00d550-ed75-427d-87b4-0d49543f8851"
+  ],
+  "resolution": "Two approved analyst senses of 'no first member' for the shared A2/A10 entire-chain vocabulary, attribution deferred. NO_FIRST_MEMBER_1 (CausalNoFirst): no selected member lacks an incoming full or partial cause from selected members; self-loops count. NO_FIRST_MEMBER_2 (OrderedNoFirst): no selected member is minimal under a separately supplied irreflexive transitive order on the same carrier; incomparable members are allowed and absence of a least member is not enough. Which sense each use takes: an A2 use about a productive causal head (Chain.Head) takes sense 1, since causal_noFirst_excludes_head consumes CausalNoFirst; an A2 or A10 use that reads 'first' as earliest in a separately given precedence takes sense 2, and its externality step (ordered_minimum_uncaused) additionally needs productivity, both-relation closure and the incoming-cause-to-order guard. No step passes between the senses without the explicit selected-endpoint Aligned premise (aligned_noFirst_iff); alignment_omission shows a self-causing loop satisfying sense 1 but not sense 2 when alignment is omitted, and intOrder shows sense 2 is nonvacuous on an infinite strict order with no production edges. The A10 cause is a prior partial explanatory condition (disambiguation b5d2699d), not the productive Chain cause/partialCause primitive of TruthCore.Causality.EntireChainHead. Applying either sense to an A10 use therefore needs an explicit, still OPEN bridge from A10 explanatory conditions to Chain production; it is not supplied by the shared vocabulary. No registered argument consumes either sense yet. Neither sense maps or replaces the original composite sense _3 of the A2 (18495e19) or A10 (b5d2699d) disambiguation, whose first-member clause, applicability and coverage remain OPEN.",
+  "term_label": "NO_FIRST_MEMBER",
+  "senses": [
+    {
+      "id": "15c0d8d6-122a-487b-a7b1-3d705ffa5b8b",
+      "label": "NO_FIRST_MEMBER_1",
+      "definition_id": "54abf2c9-059f-41ba-8e70-cc8f1694f957",
+      "lean_declaration": "TruthCore.Causality.EntireChainHead.CausalNoFirst"
+    },
+    {
+      "id": "89327aca-e269-4f15-96e3-ac37ac3dd702",
+      "label": "NO_FIRST_MEMBER_2",
+      "definition_id": "4c00d550-ed75-427d-87b4-0d49543f8851",
+      "lean_declaration": "TruthCore.Causality.EntireChainHead.OrderedNoFirst"
+    }
+  ]
+}

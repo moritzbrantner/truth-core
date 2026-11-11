@@ -1,6 +1,7 @@
 import json
 import os
 import re
+import shutil
 import subprocess
 import sys
 import tempfile
@@ -197,6 +198,18 @@ class AffectedResultsTest(unittest.TestCase):
         )
         self.assertEqual((mode, selected), ("subset", ["RESULT-D"]))
 
+    def test_research_metadata_with_new_result_and_shared_lean_selects_both(self):
+        self.fixture.module("TruthCore.Results.D.Challenge", [])
+        self.fixture.module("TruthCore.Results.D.Solution", ["TruthCore.Base"])
+        self.fixture.result("RESULT-D", "TruthCore.Results.D")
+        changed = ["specs/batch.toml", "explorations/batch.toml", "corpus/results/RESULT-D.json",
+                   "TruthCore/Results/D/Solution.lean", "TruthCore/Base.lean"]
+        self.assertEqual(self.select(*changed), ("subset", ["RESULT-A", "RESULT-D"]))
+        scope, modules = ar.nanoda_scope(self.root, changed)
+        self.assertEqual(scope, "scoped")
+        self.assertEqual(modules, ["TruthCore.Base", "TruthCore.Mid", "TruthCore.Results.A.Challenge",
+                                   "TruthCore.Results.A.Solution", "TruthCore.Results.D.Solution"])
+
     def test_import_line_forms(self):
         self.fixture.module("TruthCore.Multi", [])
         (self.root / "TruthCore/Multi.lean").write_text(
@@ -274,6 +287,19 @@ class ImpactPlanTest(unittest.TestCase):
                     self.assertFalse(plan["checks"][key])
         self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
 
+    def test_truth_cli_parity_runs_only_when_an_implementation_may_change(self):
+        for path in ("corpus/statements/S.json", "results/RESULT-A/comparator.json",
+                     "TruthCore/Results/A/Solution.lean", "AGENTS.md"):
+            with self.subTest(path=path):
+                self.assertFalse(self.plan(path)["checks"]["truth_cli"])
+        for path in ("truth/src/frontier.rs", "Cargo.toml", "Cargo.lock", "scripts/corpus.py",
+                     "scripts/verify_truth_cli.py", ".github/workflows/ci.yml"):
+            with self.subTest(path=path):
+                self.assertTrue(self.plan(path)["checks"]["truth_cli"])
+        # Corpus drift on the real corpus is still compared after merge and nightly.
+        self.assertTrue(self.plan("corpus/statements/S.json", main=True)["checks"]["truth_cli"])
+        self.assertTrue(ar.impact_plan(self.root, None)["checks"]["truth_cli"])
+
     def test_offline_frontier_test_only_keeps_fast_checks(self):
         for main in (False, True):
             with self.subTest(main=main):
@@ -301,6 +327,24 @@ class ImpactPlanTest(unittest.TestCase):
                     self.assertTrue(plan["checks"][key])
                 self.assertFalse(plan["checks"]["explorer"])
                 self.assertFalse(plan["checks"]["library_changed"])
+
+    def test_supported_research_metadata_keeps_corpus_checks_without_selecting_all_results(self):
+        for path in ("specs/batch.toml", "explorations/map.toml"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                expected = self.plan("corpus/statements/S.json")
+                for key in ("checks", "mode", "selected"):
+                    self.assertEqual(plan[key], expected[key])
+                self.assertEqual(ar.nanoda_scope(self.root, [path]), ("scoped", []))
+                self.assertEqual(self.plan(path, main=True)["mode"], "full")
+
+    def test_unknown_research_neighbors_and_future_formats_keep_full_fallback(self):
+        for path in ("specs/batch.json", "specs/batch.py", "explorations/map.yaml",
+                     "specs/nested/batch.toml", "explorations/nested/map.toml", "other/batch.toml"):
+            with self.subTest(path=path):
+                plan = self.plan(path)
+                self.assertTrue(plan["checks"]["full"])
+                self.assertEqual(plan["selected"], ["RESULT-A", "RESULT-B", "RESULT-C"])
 
     def test_explorer_only_gets_live_report_and_both_browsers_without_library_recheck(self):
         for path in ("apps/corpus-explorer/src/lib/corpus.ts", "bun.lock", "package.json", "turbo.json"):
@@ -370,6 +414,93 @@ class ImpactPlanTest(unittest.TestCase):
             self.assertEqual(self.plan("docs/x.md", path)["checks"], self.plan(path)["checks"])
 
 
+class ResearchMetadataValidationTest(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        self.root = Path(self.tmp.name)
+        (self.root / "scripts").mkdir()
+        for name in ("argument_batch.py", "corpus_ids.py"):
+            shutil.copyfile(REPO / "scripts" / name, self.root / "scripts" / name)
+        (self.root / "corpus/statements").mkdir(parents=True)
+        self.statement = "bb5931e4-f966-432f-bcca-2529c7997ca3"
+        (self.root / "corpus/statements/s.json").write_text(json.dumps(
+            {"id": self.statement, "label": "Known statement", "paraphrase": "Known"}))
+        (self.root / "specs").mkdir()
+        (self.root / "explorations").mkdir()
+        self.git("init", "-q")
+        self.commit()
+
+    def git(self, *args):
+        return subprocess.run(["git", "-c", "user.name=t", "-c", "user.email=t@t", *args],
+                              cwd=self.root, check=True, capture_output=True)
+
+    def commit(self):
+        self.git("add", "-A")
+        self.git("commit", "-qm", "fixture")
+
+    def validate(self, base="HEAD^1"):
+        return subprocess.run([sys.executable, str(SCRIPT), "--root", str(self.root),
+                               "check-research-metadata", "--base", base],
+                              capture_output=True, text=True)
+
+    def test_standalone_materialized_map_and_spec_validate_without_writes(self):
+        (self.root / "explorations/map.toml").write_text(
+            'target = "Known statement"\n[[node]]\nid = "Known statement"\n'
+            'new = true\ntext = "Proposed at design time"\n[[edge]]\n'
+            'premises = ["Known statement"]\nconclusion = "Known statement"\n')
+        (self.root / "specs/batch.toml").write_text(
+            '[batch]\nvocab = "TruthCore.Test"\nresults = "TruthCore.Results.Test"\n'
+            '[[argument]]\nid = "Known identity"\ntheorem = "identity"\n'
+            'premises = ["Known statement"]\nconclusion = "Known statement"\n'
+            'rule = "identity"\nmeaning = "Identity"\n')
+        self.commit()
+        before = {p: p.read_bytes() for p in self.root.rglob("*") if p.is_file() and ".git" not in p.parts}
+        result = self.validate()
+        self.assertEqual(result.returncode, 0, result.stderr)
+        # Importing the helpers may create Python bytecode, but never generated records.
+        after = {p: p.read_bytes() for p in self.root.rglob("*")
+                 if p.is_file() and ".git" not in p.parts and "__pycache__" not in p.parts}
+        self.assertEqual(before, after)
+
+    def test_invalid_changed_toml_shape_and_references_fail(self):
+        for path, text in (("specs/batch.toml", "[batch"),
+                           ("specs/batch.toml", '[[statement]]\nid="New"\nparaphrase="New"\n'),
+                           ("specs/batch.toml", '[batch]\n[[argument]]\nid="New"\n'
+                            'premises=["Unknown"]\nconclusion="Known statement"\n'),
+                           ("explorations/map.toml", '[[node]]\nid="Unknown"\n'),
+                           ("explorations/map.toml", '[[edge]]\npremises=[]\nconclusion="Unknown"\n')):
+            with self.subTest(path=path, text=text):
+                (self.root / path).write_text(text)
+                self.commit()
+                self.assertNotEqual(self.validate().returncode, 0)
+
+    def test_deleted_metadata_does_not_require_the_removed_file(self):
+        path = self.root / "specs/deleted.toml"
+        path.write_text("[batch]\n")
+        self.commit()
+        path.unlink()
+        self.commit()
+        self.assertEqual(self.validate().returncode, 0)
+
+    def test_unavailable_base_validates_all_current_metadata_instead(self):
+        path = self.root / "specs/batch.toml"
+        path.write_text("[batch]\n")
+        result = self.validate(base="unavailable")
+        self.assertEqual(result.returncode, 0, result.stderr)
+        self.assertIn("validate all supported research metadata", result.stderr)
+        path.write_text("[batch")
+        self.assertNotEqual(self.validate(base="unavailable").returncode, 0)
+
+    def test_ambiguous_materialized_identity_still_fails(self):
+        (self.root / "corpus/statements/other.json").write_text(json.dumps(
+            {"id": "d8567b25-7f25-4881-9a3c-86f12624427a", "label": "Known statement", "paraphrase": "Other"}))
+        (self.root / "explorations/map.toml").write_text(
+            '[[node]]\nid="Known statement"\nnew=true\ntext="Design"\n')
+        self.commit()
+        self.assertNotEqual(self.validate().returncode, 0)
+
+
 def workflow_shell(step_name):
     """Execute the actual workflow shell without adding a YAML dependency to CI tests."""
     workflow = (REPO / ".github/workflows/ci.yml").read_text()
@@ -412,6 +543,40 @@ class ComparatorAggregateTest(unittest.TestCase):
         self.assertNotEqual(self.gate(EXPECT_LIBRARY="true", LIBRARY="success", COUNT="1", SHARDS="success",
                                      MODE="full", EXPECT_REPORT="false"), 0)
 
+    def test_nanoda_full_mode_calls_full_verifier_even_with_empty_module_file(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "scripts").mkdir()
+            verifier = root / "scripts/verify-library.sh"
+            verifier.write_text('#!/bin/sh\nprintf "%s\\n" "$*" > "$RUNNER_TEMP/arguments"\n')
+            verifier.chmod(0o755)
+            (root / "nanoda-modules.txt").write_text("")
+            for scope, expected in (("full", ""), ("scoped", f"--modules {root}/nanoda-modules.txt")):
+                result = subprocess.run(["bash", "-e", "-c", workflow_shell(
+                    "Verify TruthCore declarations and their dependencies with NanoDa")], cwd=root,
+                    env={**os.environ, "SCOPE": scope, "RUNNER_TEMP": str(root)}, capture_output=True, text=True)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual((root / "arguments").read_text().strip(), expected)
+
+    def test_cargo_cache_never_bypasses_verification_or_writes_from_a_pr(self):
+        workflow = (REPO / ".github/workflows/ci.yml").read_text()
+        job = workflow.split("  truth-cli:\n", 1)[1].split("  corpus-and-lean:\n", 1)[0]
+        verify = job.split("- name: Verify Rust corpus CLI\n", 1)[1].split("      - name:", 1)[0]
+        self.assertNotIn("if:", verify)
+        for command in ("cargo fmt --all --check", "cargo clippy --locked -p truth --all-targets -- -D warnings",
+                        "cargo test --locked -p truth", "cargo build --locked -p truth",
+                        "python3 scripts/verify_truth_cli.py target/debug/truth"):
+            self.assertIn(command, verify)
+        save = job.split("- name: Save Cargo downloads and workspace build output\n", 1)[1]
+        self.assertIn("github.ref == 'refs/heads/main' && github.event_name != 'pull_request'", save)
+        self.assertIn("steps.cargo-cache.outputs.cache-primary-key", save)
+        self.assertIn("rustc -vV; cargo -vV", job)
+        self.assertIn("runner.arch", job)
+        self.assertNotIn("verifier", job)
+        metadata = workflow.split("- name: Validate changed batch specs", 1)[1].split("      - name:", 1)[0]
+        self.assertNotIn("if:", metadata)
+        self.assertIn("check-research-metadata", metadata)
+
     def test_offline_pdf_tests_always_have_poppler(self):
         workflow = (REPO / ".github/workflows/ci.yml").read_text()
         corpus = workflow.split("  corpus-and-lean:\n", 1)[1].split("\n  corpus-explorer:", 1)[0]
@@ -431,6 +596,10 @@ class ComparatorAggregateTest(unittest.TestCase):
             self.assertIn("if: needs.comparator-plan.outputs.explorer == 'true'", block)
         self.assertIn("if: needs.comparator-plan.outputs.comparator_library == 'true'", workflow)
         self.assertIn("if: needs.comparator-plan.outputs.explorer_tests == 'true'", workflow)
+        truth_cli = workflow.split("  truth-cli:\n", 1)[1].split("    steps:", 1)[0]
+        self.assertIn("needs: comparator-plan", truth_cli)
+        self.assertIn("if: needs.comparator-plan.outputs.truth_cli == 'true'", truth_cli)
+        self.assertIn("truth_cli: ${{ steps.select.outputs.truth_cli }}", workflow)
         for step in ("Bind argument records to result theorem types", "Verify immutable primary-source witnesses"):
             self.assertIn("if: needs.comparator-plan.outputs.", workflow.split(f"- name: {step}\n")[1].split("run:")[0])
 

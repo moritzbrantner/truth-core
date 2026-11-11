@@ -38,7 +38,12 @@ def NoGreaterConceivable {S : Type u} {C : Type v} {B : Type w}
 /-- Conditional passage to the EXACT existing merely-maximal predicate.
 Coverage is needed for every competitor admitted by MoreIn, even if it is not
 actual: IsMaximalIn's comparison clause has no actuality guard. Order alignment
-is only in the direction required. Actual possession of r is a separate input. -/
+is only in the direction required. Actual possession of r is a separate input.
+Carrier identification: one type `B` serves both as the intentional objects of
+`Thought` (what concepts denote) and as the domain of `InAct`/`MoreIn` (what
+actually has perfections). Using the same `b` on both sides identifies an
+object as conceived with a bearer of actual perfection; this is an OPEN analyst
+identification taken as a framework input, not derived from denotation. -/
 theorem toMaximal {S : Type u} {C : Type v} {B : Type w} {R : Type}
     (T : Thought S C B) (s : S) (b : B)
     (InAct : B → R → Prop) (MoreIn : R → B → B → Prop) (r : R)

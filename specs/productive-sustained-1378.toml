@@ -1,0 +1,60 @@
+[batch]
+vocab = "TruthCore.Causality.ProductiveStore"
+results = "TruthCore.Results.Causality.ProductiveSustained"
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[statement]]
+id = "Closed stock bounds the number of intervals meeting a uniform energy demand"
+lean = "UniformBudget"
+paraphrase = "For nonnegative real stock and stock(t+1)+output(t)=stock(t), a common lower bound epsilon on output implies n*epsilon <= stock(0) for every natural n. Epsilon need not be positive for this finite bound."
+
+[[argument]]
+id = "d84fc44b-a0a6-422b-bde9-267d2819b0bd"
+theorem = "uniformBudget"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Closed stock bounds the number of intervals meeting a uniform energy demand"
+rule = "Finite summation and real Archimedean order"
+meaning = "For nonnegative real stock and stock(t+1)+output(t)=stock(t), a common lower bound epsilon on output implies n*epsilon <= stock(0) for every natural n. Epsilon need not be positive for this finite bound. Analyst conditional energy accounting only; no causal or bearer bridge."
+
+[[statement]]
+id = "Closed finite stock excludes a uniform positive interval energy demand forever"
+lean = "NoUniformDischarge"
+paraphrase = "Nonnegative real stock and the zero-input recurrence exclude a common strictly positive lower bound on output at all natural intervals."
+
+[[argument]]
+id = "47c33df4-4c8f-40be-93c5-6006f751b6a1"
+theorem = "noUniformDischarge"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Closed finite stock excludes a uniform positive interval energy demand forever"
+rule = "Finite summation and real Archimedean order"
+meaning = "Nonnegative real stock and the zero-input recurrence exclude a common strictly positive lower bound on output at all natural intervals. Analyst conditional energy accounting only; no causal or bearer bridge."
+
+[[statement]]
+id = "Geometric discharge has no uniform positive interval energy lower bound"
+lean = "DecayingNoUniform"
+paraphrase = "There is no positive real epsilon below (1/2)^n for every natural n. This is the total work-plus-heat output of the existing decaying ledger."
+
+[[argument]]
+id = "12ae9b6e-5b13-43d2-9d55-6175cc37fa1c"
+theorem = "decayingNoUniform"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Geometric discharge has no uniform positive interval energy lower bound"
+rule = "Finite summation and real Archimedean order"
+meaning = "There is no positive real epsilon below (1/2)^n for every natural n. This is the total work-plus-heat output of the existing decaying ledger. Analyst conditional energy accounting only; no causal or bearer bridge."
+
+[[statement]]
+id = "Replenishment permits constant nondepleting interval work"
+lean = "ReplenishedUniform"
+paraphrase = "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics."
+
+[[argument]]
+id = "e45c3ff9-9fd0-41dd-9fd5-3bde3b78c6e2"
+theorem = "replenishedUniform"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Replenishment permits constant nondepleting interval work"
+rule = "Finite summation and real Archimedean order"
+meaning = "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics. Analyst conditional energy accounting only; no causal or bearer bridge."

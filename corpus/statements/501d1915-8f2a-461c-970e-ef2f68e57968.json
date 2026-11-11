@@ -1,0 +1,17 @@
+{
+  "id": "501d1915-8f2a-461c-970e-ef2f68e57968",
+  "label": "Some necessary concretum is supported somewhere by a concretum absent from an accessible world",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by bottom-up grounding of a necessary whole in replaceable constituents): for some admitted world v and concrete candidates a and b, a exists at v, b exists at every world accessible from w, a stands to b in the selected relation at v, and a is absent from some world accessible from w. It does not say that b is supported at w itself or at every world.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeNecessaryConcretumContingentlySupported",
+  "definition_ids": [
+    "0ea22904-2641-4d7e-b3c5-7ae5558b28c1",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

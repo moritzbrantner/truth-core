@@ -1,0 +1,10 @@
+{
+  "id": "2453a1ec-b8ef-46c2-9697-ff3b35881c57",
+  "label": "Non-concrete-priority rival of the simple-priority bridge survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "92c8c130-e0c2-4e6e-8e8a-a5c5928b16a6",
+  "rule": "Explicit one-world interpretation, checked by case analysis",
+  "meaning": "Rival test for the simple-priority bridge against its smallest consumer, NecessaryFirstBeing.necessaryFirst (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle, the simple-priority bridge). With a non-concrete item simply prior to the one necessary concrete root, the rival holds with the other four premises and that root is not a first being. Model-witnessed survival only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

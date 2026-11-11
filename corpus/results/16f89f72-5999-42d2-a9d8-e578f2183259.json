@@ -1,0 +1,11 @@
+{
+  "id": "16f89f72-5999-42d2-a9d8-e578f2183259",
+  "label": "Quantitative transfer derivation halfFixed",
+  "argument_id": "4adb4cd0-36e9-4a81-82db-12775ff71293",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.halfFixed",
+  "comparator_config": "results/16f89f72-5999-42d2-a9d8-e578f2183259/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

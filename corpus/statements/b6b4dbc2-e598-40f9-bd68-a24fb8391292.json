@@ -1,0 +1,9 @@
+{
+  "id": "b6b4dbc2-e598-40f9-bd68-a24fb8391292",
+  "label": "Brute root: a contingent root is the unique actual root and no unique necessary root exists",
+  "paraphrase": "Closed control on one interpretation (two mutually accessible worlds; one concrete candidate existing at the selected world only; empty selected relation): that candidate is a contingent actual root, it is the unique actual root, excluded middle holds, and there is no actual root that is necessary and unique. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.ContingentRootSurvives",
+  "definition_ids": [
+    "d517c074-02d2-4daf-8fc0-2c13c4c8de14"
+  ]
+}

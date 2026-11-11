@@ -1,0 +1,11 @@
+{
+  "id": "7c6cc58e-8309-4d79-a418-ab2f1df34707",
+  "label": "Revision uptake echo structural definition",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.echo",
+  "term": "Revision uptake echo",
+  "definition": "echo old assessment returns old for either assessment. A constant recommendation channel, not a complete psychology of assent. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding.",
+  "basis": "stipulative",
+  "claim_ids": [],
+  "note": "echo old assessment returns old for either assessment. A constant recommendation channel, not a complete psychology of assent. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding. Analyst stipulation for conditional tests, attribution deferred."
+}

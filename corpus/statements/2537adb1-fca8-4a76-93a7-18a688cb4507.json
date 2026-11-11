@@ -1,0 +1,14 @@
+{
+  "id": "2537adb1-fca8-4a76-93a7-18a688cb4507",
+  "label": "Rival: something HAS_INTELLECT_1 without HAS_WILL_1 (purely contemplative intellect)",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by accounts of a purely contemplative first intellect, by the denial that God acts from freedom of will, and by necessary emanation: something has intellect and does not have will. The replacement account of how anything proceeds from such an intellect is necessity of nature, not volition; the formal statement does not express that account. It is the exact negation of STMT-WILL-FOLLOWS-INTELLECT on the same two predicates. It does not say that no intellect has will.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.IntellectWithoutWillReading",
+  "definition_ids": [
+    "7c64b499-6dba-5e03-bdf3-5acea95d8836",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4"
+  ],
+  "disambiguation_ids": [
+    "941efd70-d56f-53f9-b5f9-8acd36711a54",
+    "1d765cae-eca9-558f-9542-8291df359058"
+  ]
+}

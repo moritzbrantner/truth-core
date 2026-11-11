@@ -19,9 +19,12 @@ markings. Existing approval-based computed statuses remain legacy runtime
 behavior, documented in `docs/corpus-model.md`. Consequential definitions,
 bridges, claimed defeats and influential judgment changes need the independent
 [semantic challenge](docs/systematic-corpus-loop.md#independent-semantic-challenge)
-of the final consequential findings specified in the systematic loop.
+of the final consequential findings specified in the systematic loop. The
+coordinator drafts the complete proposed outcome before that review and follows
+the [bounded review-and-repair procedure](docs/systematic-corpus-loop.md#final-outcome-review-and-repair)
+before publishing its substantive conclusions.
 
-Use bounded turns, useful early returns and explicit reopening conditions.
+Use scoped assignments, substantive branch reassessment and explicit reopening conditions.
 Investigate support, rivals, consequences, preconditions and connections as the
 target warrants. Whole-case maps, exhaustive sense forks, models and source
 campaigns are selected methods, not universal prerequisites. This policy
@@ -35,8 +38,10 @@ to a fresh subagent. Split broad issues into independently reviewable slices;
 give each worker one slice with explicit file and argument ownership. The
 coordinator owns coverage, priorities, shared instructions, integration and merges.
 Use the canonical [parallel-lane policy](docs/systematic-corpus-loop.md#parallel-lanes)
-for concurrent node investigations, reserved review capacity and shared semantic
-baselines; independent research continues while other work awaits CI.
+for two distinct propositions in different argument families, reserved review
+capacity and shared semantic baselines. Disjoint files or two subquestions of the
+same premise do not meet that breadth requirement. Independent research continues
+while other work awaits review or CI; routine corrections stay inside the loop.
 
 - Start workers without inherited conversation history (`fork_turns="none"`,
   or the equivalent). Supply the brief below, relevant repository instructions,
@@ -54,17 +59,59 @@ baselines; independent research continues while other work awaits CI.
   one current handoff rather than importing long worker transcripts or creating
   another tracker. Reuse unchanged verification evidence.
 
+## Research continuation and stopping (owner direction, 2026-11-10)
+
+Research has no default token, time, depth, batch or PR budget. A bounded worker
+assignment defines its question and file ownership, not a limit on investigative
+depth. Continue within the authorized question while a concrete, relevant next
+step is available; explicit owner limits and runtime constraints still apply.
+
+- **Walk the argument.** Fix each node's meaning, state the strongest relevant
+  rivals and their positive replacement accounts, and derive their further
+  commitments under explicit assumptions. Where a rival survives, descend into
+  the relevant premises and subarguments and reconnect findings to the parent.
+  A surviving model or an open premise is an intermediate finding, not a reason
+  by itself to stop. Do not label a rival's price unreasonable merely because it
+  is unusual; identify the conflict with an accepted floor item or the rival's
+  own commitments. Keep unresolved rivals visible without forcing a refutation.
+- **Workers report branches for reassessment** when the assigned question is
+  resolved under its stated assumptions; further work needs unavailable evidence,
+  capabilities or a genuine owner decision; repeated approaches expose the same
+  precise obstacle with no materially different next test; or a more consequential
+  question warrants a change of scope. Continue other useful work within the
+  assignment when possible. A blocked approach is not an exhausted question, and
+  failed proof search is not a refutation.
+- **Persist before reporting.** In the existing corpus records, attempts and linked
+  note, record established results, remaining gaps, the strongest standing rival
+  and its price, approaches tried and why they failed, and plausible next tests.
+  Return a compact delta with evidence and exact revision to the coordinator;
+  do not create another tracker.
+- **The master owns continuation and allocation.** Assess each report against the
+  whole argument, reuse unchanged evidence, and continue the branch, supply its
+  missing dependency, assign another approach, or redirect work to an unresolved
+  node. Respect existing ownership and use fresh workers for unrelated slices.
+  A worker's dead-end report does not end the master investigation.
+- **PRs are checkpoints.** Publishing a result, completing a batch, passing CI or
+  finishing review does not end the investigation. Continue across checkpoints
+  without asking again within the authorized scope; existing proof gates and
+  merge authority remain unchanged.
+- **The master stops** when the requested research scope is substantively resolved,
+  every remaining branch has a concrete blocker preventing further useful work,
+  or the owner asks it to stop. Explain resolution or blockers in the one current
+  handoff. If a runtime interruption forces a pause, preserve a resumable handoff
+  rather than declare the research complete.
+
 ## Worker brief and handoff
 
 The master gives each worker a compact brief:
 
-1. **Target:** the skeleton node, argument or root obligation advanced. It must be a node on a root route, or connect to one by a named bridge. A target that serves no root route is rejected (see "Connect every library to the case").
+1. **Target:** the proposition, parent question/argument family and root obligation advanced. It must be a node on a root route, or have a named bridge, connection plan and blocker. State why it is independent of the other active research target; an unbuilt bridge must not be reported as an existing route. A target that serves no root route is rejected (see "Connect every library to the case").
 2. **Reuse:** the baseline revision, existing statement IDs, selected definitions/senses and exact Lean theorems to consume.
 3. **Live uncertainty:** the inference, interpretation, warrant, rival or connection to investigate, and why it merits attention now.
 4. **Expected value:** the useful change sought, with expected premise effects where relevant. A finding may clarify the question without discharging an obligation.
-5. **Budget and return:** a work cap, file/argument ownership and useful early-return condition. An honest no-result return is allowed; provide the attempted approach and a specific next step or reopening condition.
+5. **Ownership and reassessment:** file/argument ownership and the substantive conditions for reporting a resolved or stalled branch. No default work cap; an honest no-result report names the attempted approaches, precise obstacle and next test or reopening condition.
 
-For a substantial frontier investigation, include enough context to state the thesis, selected meaning, downstream purpose, known serious rivals and existing evidence. The worker may refine this map within the cap; a complete argument tree or exhaustive rival list is not an entry requirement. It lives in the one current handoff or issue, not in another tracker.
+For a substantial frontier investigation, include enough context to state the thesis, selected meaning, downstream purpose, known serious rivals and existing evidence. The worker may refine this map as the investigation develops; a complete argument tree or exhaustive rival list is not an entry requirement. It lives in the one current handoff or issue, not in another tracker.
 
 The PR reports the actual premise comparison by linking or pasting the computed delta (`target/release/truth frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. A new verified, non-transcription argument is positive **conditional support-option** progress even if it replaces one leaf with several open premises in the expanded-route diagnostic. Record those new obligations separately; neither the new argument nor a lower route cost establishes its conclusion. For non-proof work, use “none” or “no premise change” where applicable.
 
@@ -180,7 +227,7 @@ for the attempt format and reference boundaries.
 - Before offering A/B/C as an owner choice, classify whether the alternatives are mutually exclusive *actions or bindings needed now*, or coexisting philosophical senses, explanatory standards, rivals or conditional frameworks. A disputed thesis is not itself an implementation decision gate.
 - For research alternatives, retain each defensible interpretation and its strongest arguments, objections and replies. Compare precise implications, countermodels and bridges under explicit assumptions; investigate relationships before assuming either exhaustiveness or exclusivity. Do not ask the owner to select a metaphysical winner merely to proceed. Issue provisional judgments under the systematic loop: they may support qualified conclusions and priority, while leaving formal establishment unchanged.
 - Ask a focused owner question only when a concrete next action actually requires an exclusive commitment that cannot responsibly be carried as explicit alternatives. An instruction to investigate all options is a complete methodological decision: persist it and proceed without reopening a forced winner question.
-- Whole-series explanation example (PR #1297): retain (A) optimality with possible ties, (B) genuine nonnecessitating agent-causal exercise, and (C) strong contrastive sufficiency as rival standards to test, not an asserted exhaustive/exclusive trilemma. The existing first-optimum agenda is one procedural selector, not proof of agent causation; a `chooses` predicate alone is not explanatory authority. B is a provisional investigative preference, not an established conclusion. Include choices, laws and relations in the full contingent order; inspect reason relevance, circularity, regress, contingency and the missing source-to-adequacy bridge. None of this closes the original premise.
+- Example: the whole-series explanation standards of PR #1297 are retained as rival standards; the topic-specific research judgment lives in attempt `a5958e25-0904-46cb-a9e8-62ca5f3f5286`.
 
 ## Systematic sense and rival comparison
 
@@ -368,7 +415,7 @@ A claimed exhaustive dilemma/trilemma needs checked coverage under explicit back
 
 ## Outer systematic loop
 
-Select work from the owner-scoped investigation and its current handoff/issue, using the priority, exploration and synthesis rules in the systematic loop. Frontier reports and source candidates inform that decision. If no specific slice is named, choose a consequential unresolved question on a current #143 root route or a named bridge to it. Respect real dependencies; neither a favored conclusion nor cheap formal work may monopolize the queue. A turn may end at a useful finding or its cap while its proposition stays open.
+Select work from the owner-scoped investigation and its current handoff/issue, using the priority, exploration and synthesis rules in the systematic loop. Frontier reports and source candidates inform that decision. If no specific slice is named, choose a consequential unresolved question on a current #143 root route or a named bridge to it. Respect real dependencies; neither a favored conclusion nor cheap formal work may monopolize the queue. Workers report resolved or stalled branches under the continuation rule; a useful finding alone does not end available research.
 
 For source ingestion when a frontier obligation needs it:
 
@@ -470,11 +517,15 @@ provides the integration checks. Run a check locally when development needs it
 or a relevant change or failure invalidates its earlier evidence:
 
 `truth` is the repository's Rust CLI (`truth/README.md`): build it once per
-clone with `cargo build --locked --release -p truth` and run it from the
+clone with `cargo build --locked --release -p truth` (rerun after Rust source
+or Cargo input changes) and run it from the
 repository root. Its `check`, `frontier`, `frontier-diff`, `related`,
 `dossier` and `context` replace the `scripts/corpus.py` commands of the same
 names, which stay until their retirement; `frontier --root` is
-`--frontier-root` there. Other `corpus.py` commands are still Python.
+`--frontier-root` there. Rust `--root PATH` selects the input repository;
+`--json` selects machine-readable output, including frontier reports usable by
+`dossier` and `context` via `--frontier-json FILE` on the same inputs.
+Other `corpus.py` commands are still Python.
 
 ```bash
 python3 scripts/source_evidence.py check

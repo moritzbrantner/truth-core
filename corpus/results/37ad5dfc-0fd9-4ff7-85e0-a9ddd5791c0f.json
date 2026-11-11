@@ -1,0 +1,25 @@
+{
+  "id": "37ad5dfc-0fd9-4ff7-85e0-a9ddd5791c0f",
+  "label": "Idle-maximum rival of the genus principle at being survives, checked",
+  "argument_id": "8ac716e9-26b6-415b-9bf0-c387e7c3a6b0",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.idleMaximumSurvives",
+  "comparator_config": "results/37ad5dfc-0fd9-4ff7-85e0-a9ddd5791c0f/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the genus principle at being against its smallest consumer, TermSenseForks3.maximeEnsCausesAllMaximal (premises: some being is maximal in being, the genus principle at being). With a top that causes nothing and a maker that causes the being of a made thing, the idle-maximum rival holds with the existence premise and no maximum causes the being of all others. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "da09703b-0b1e-5dca-9dd7-6c0c8d1610d7",
+      "rival_statement_id": "2f9fb010-8ead-47fb-82d6-b5c36847193a",
+      "sense_definition_id": "6a2a5507-835e-455e-a239-bdc97de69f96",
+      "outcome": "model-witnessed",
+      "conditions": "Control.tierAct, tierMore, tierCause at the one respect: the rival and SomeBeingMaximalInBeing hold; MaximeEnsCausesBeingOfAllReading fails. Consumer tested: TermSenseForks3.maximeEnsCausesAllMaximal.",
+      "scope": "Same InAct, MoreIn, CausesIn and esse parameters as the premise; three members strictly ranked.",
+      "coverage": "One explicitly populated interpretation; the maker's own being is uncaused there, which the rival does not require.",
+      "exclusivity": "The rival and the premise cannot both hold on one set of parameters (unregistered helper idleMaximum_excludes).",
+      "witness": "Control.Tier with tierAct, tierMore, tierCause in Control.IdleMaximumSurvives; idleMaximumSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the participation premises (whatever has esse by participation is caused by what has it essentially), which a holder of the rival must reject or restrict."
+    }
+  ]
+}

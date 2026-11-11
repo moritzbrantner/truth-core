@@ -1,0 +1,10 @@
+{
+  "id": "b4feda43-d805-4d13-8932-84f473b0c0c7",
+  "label": "Rivals of the fourteen stage-two attribute premises survive in finite tests (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "6fe11ddf-75d2-42d2-99b4-2336472e02a3",
+  "rule": "Explicit one- and two-element interpretations, checked by evaluation and case analysis",
+  "meaning": "Premise-free finite controls for the stage-two premises of the modal spine to STMT-GOD-EXISTS. For each of fourteen premises, one interpretation satisfies its recorded rival together with every other non-logical premise of the premise's smallest verified consuming theorem, and falsifies that theorem's conclusion. So within each consuming theorem the targeted premise is not derivable from the others, and the rival is jointly satisfiable with them. No premise is derived, defended, refuted or closed; no rival is established; compatibility with premises outside the named theorem is not tested. Model claims concern these fourteen interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

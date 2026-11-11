@@ -1,0 +1,11 @@
+{
+  "id": "082838e6-d83c-4cbd-b3aa-e252d6af946c",
+  "label": "Quantitative transfer derivation finitePath",
+  "argument_id": "28dc7b26-b611-44c1-814d-b381970e6753",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.finitePath",
+  "comparator_config": "results/082838e6-d83c-4cbd-b3aa-e252d6af946c/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

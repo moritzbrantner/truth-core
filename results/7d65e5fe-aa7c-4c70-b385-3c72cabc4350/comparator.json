@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Explanation.AutonomousGroundConcrete.Challenge",
+  "solution_module": "TruthCore.Results.Explanation.AutonomousGroundConcrete.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

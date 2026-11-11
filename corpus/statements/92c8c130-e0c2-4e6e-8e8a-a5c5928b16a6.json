@@ -1,0 +1,9 @@
+{
+  "id": "92c8c130-e0c2-4e6e-8e8a-a5c5928b16a6",
+  "label": "Abstract priority: a non-concrete prior item holds and no necessary actual root is a first being",
+  "paraphrase": "Closed control on one interpretation (one world, two existing candidates, one concrete and one not; the non-concrete one is simply prior to the concrete one; empty selected relation): the non-concrete-priority rival holds; a concrete candidate exists at the world; the whole actual concrete roster is not a borrowing trap; every actual contingent concretum has an actual concrete ground (vacuously: nothing is contingent); excluded middle holds; and no actual root is both necessary and a first being. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.AbstractPriorSurvives",
+  "definition_ids": [
+    "a94df438-65e3-48bb-95e9-3342c94322ed"
+  ]
+}

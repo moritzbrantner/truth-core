@@ -1,0 +1,10 @@
+{
+  "id": "916915a0-3927-4b4e-a940-9652b85a837c",
+  "label": "Origin-deletion controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c978c046-32d5-4407-86db-505c7fd4747d",
+  "rule": "Explicit finite interpretations checked by case analysis",
+  "meaning": "Model-witnessed neutrality of the four encoded origin-tolerance commitments on individual deletion: with all four holding, deletion fails at a successor of actual (faithful, which is also the countermodel to Arrival A) or at actual itself (restored), and holds at every world (withEmpty, which adds a world with no individuals). So the encoded commitments entail neither deletion nor its failure, at actual, at accessible worlds or at every world. withEmpty is a bare Ontic, not a History, so presence-to-existence, inert emptiness and the possible contingent-free past are not stated for it; any history structure on withEmpty must violate one of them at actual (by accessibleDeletionExcluded). Model claims concern these finite interpretations only; counterpart, vague or kind-relative tolerance readings are not tested.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

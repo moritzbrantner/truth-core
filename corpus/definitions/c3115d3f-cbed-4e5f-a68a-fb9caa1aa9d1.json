@@ -1,0 +1,9 @@
+{
+  "id": "c3115d3f-cbed-4e5f-a68a-fb9caa1aa9d1",
+  "label": "Bottomless actual concrete grounding at the selected world",
+  "term": "bottomless actual grounding",
+  "definition": "BottomlessActualGroundingAt m w holds when some concrete candidate exists at w and every concrete candidate existing at w has a concrete ground existing at w under the selected relation at w. Ordinary meaning: no actual concrete thing is unsourced; dependence has no bottom level. Example: an endless descending series in which each thing is grounded by the next, or a closed circle of mutual grounding. It does not say which of these shapes obtains and says nothing about non-concrete or absent grounds.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.BottomlessActualGroundingAt",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by metaphysical infinitism and coherentism about dependence (no fundamental level). Rival of WholeRosterNotTrapped on the same Profile and world. It implies the negation of that premise (checked helper bottomless_excludes); the converse is not checked. The relation is the Profile's selected grounds relation, a parameter: the rival does not show that real existential dependence can be bottomless."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.ForeknowledgeDiscrimination.core"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

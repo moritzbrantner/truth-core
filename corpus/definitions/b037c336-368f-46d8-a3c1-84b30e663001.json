@@ -1,0 +1,9 @@
+{
+  "id": "b037c336-368f-46d8-a3c1-84b30e663001",
+  "label": "context-independent structural decoder",
+  "term": "context-independent structural decoder",
+  "definition": "IntrinsicDecoder p means \u2200 c d s, p.decode c s = p.decode d s. Every state has the same decoded output across contexts. This is an explicit context-independence condition; it is not derived from immutability, simplicity, equal actual states or a psychological internalism thesis.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.IntrinsicDecoder",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}

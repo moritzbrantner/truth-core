@@ -1,0 +1,14 @@
+{
+  "id": "9ba56a92-ada2-4a4e-bbf7-bc90793cf852",
+  "label": "Rival: some composite has no cause of its being at all (brute or necessary composition)",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by brute composition and by accounts of a composite necessary being whose distinct members cannot come apart: some composite has no cause of its being, itself included. The replacement account is that its members cohere of themselves, by necessity or as a brute fact. Strictly stronger than the negation of STMT-COMPOSITE-HAS-A-UNITING-CAUSE, which would allow a composite whose only cause of being is itself. It does not say that no composite has a cause.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.UncausedCompositeReading",
+  "definition_ids": [
+    "85f7f569-ab4d-514b-aa2c-cf75171ad105",
+    "211a6432-8b8f-53ed-85e3-75173bb15b24",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72"
+  ],
+  "disambiguation_ids": [
+    "00e0d443-eb39-56a3-9179-9c8852ca4a2b"
+  ]
+}

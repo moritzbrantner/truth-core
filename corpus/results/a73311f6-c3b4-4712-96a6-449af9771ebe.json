@@ -1,0 +1,11 @@
+{
+  "id": "a73311f6-c3b4-4712-96a6-449af9771ebe",
+  "label": "Replenishment permits constant nondepleting interval work, by temporal energy accounting",
+  "argument_id": "e45c3ff9-9fd0-41dd-9fd5-3bde3b78c6e2",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveSustained.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveSustained.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveSustained.replenishedUniform",
+  "comparator_config": "results/a73311f6-c3b4-4712-96a6-449af9771ebe/comparator.json",
+  "status": "solution-present",
+  "description": "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics. Analyst conditional energy accounting only; no causal or bearer bridge."
+}

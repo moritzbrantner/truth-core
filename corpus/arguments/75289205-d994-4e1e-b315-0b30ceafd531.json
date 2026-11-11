@@ -1,0 +1,13 @@
+{
+  "id": "75289205-d994-4e1e-b315-0b30ceafd531",
+  "label": "Contingent-support rival of the no-contingent-support premise survives, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "d1ecddef-b444-48b1-947b-d850fcb9e73b",
+  "inference_ids": [
+    "3228d8a6-11f5-455d-8f01-6c8a3baadf26"
+  ],
+  "meaning": "Rival test for the no-contingent-support premise against its smallest consumer, NecessaryConcreteUnderived.checks (premises: concrete population, well-founded actual grounding, contingent dependence, reflexive access at the selected world, no contingent concrete support, well-founded union of necessary support, excluded middle). With a necessary whole that is a root at the selected world and is grounded at another world by a part existing only there, the rival holds with the other six premises and no necessary concretum is underived at every admitted world. Model-witnessed survival only.",
+  "definition_ids": [
+    "0ea22904-2641-4d7e-b3c5-7ae5558b28c1"
+  ]
+}

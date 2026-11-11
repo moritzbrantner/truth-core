@@ -1,0 +1,32 @@
+{
+  "id": "ca56c0e8-a520-49f3-93f9-519034f2143f",
+  "label": "Fixed initial 535 rigid root variable later joint model",
+  "description": "Closed Bool\u00d7Bool profile; same named initial root throughout. Natural interpretation remains open; Boolean variation is not chance.",
+  "vocabulary": "fixed-initial-535-joint",
+  "lean_declaration": "TruthCore.Modal.FixedInitial535.profile",
+  "bindings": {
+    "W": "Bool"
+  },
+  "carriers": [
+    {
+      "binding": "W",
+      "elements": [
+        "Bool.false",
+        "Bool.true"
+      ],
+      "theorem": "TruthCore.Models.FiniteSupport.enumerateBool"
+    }
+  ],
+  "evaluations": [
+    {
+      "statement_id": "4cfe7cf0-6c32-40e6-a1de-23c96d986a60",
+      "value": "satisfies",
+      "arguments": [],
+      "theorem": "TruthCore.Results.Modal.FixedInitial535.rigidBranch"
+    }
+  ],
+  "modules": [
+    "TruthCore.Results.Modal.FixedInitial535.Solution",
+    "TruthCore.Models.FiniteSupport"
+  ]
+}

@@ -1084,6 +1084,8 @@ CHECK_FAILURES = {
     "web snapshot bad timestamp": passage(WEB, retrieved_at="2026-11-10"),
     "web snapshot bad hash": passage(WEB, text_sha256="sha256:" + "A" * 64),
     "web snapshot unknown encoding": passage(WEB, encoding="utf-9"),
+    "web snapshot invalid iso encoding suffix": passage(WEB, encoding="iso-8859-1-typo"),
+    "web snapshot invalid compact iso encoding suffix": passage(WEB, encoding="iso8859-1-typo"),
     "web snapshot two formats": passage(WEB, pdf_pages={"first": 1, "last": 1}),
     "web snapshot no format": passage(**{**WEB, "raw_text": None}),
     "web snapshot raw_text false": passage(WEB, raw_text=False),

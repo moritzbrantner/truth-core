@@ -1,0 +1,25 @@
+{
+  "id": "3ece0128-00db-428a-a8f5-c781c072fcfb",
+  "label": "Abstract-only rival of concrete population survives, checked",
+  "argument_id": "20d98428-18b7-4f0a-b3fe-c4a84f6c5ef0",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.abstractOnlySurvives",
+  "comparator_config": "results/3ece0128-00db-428a-a8f5-c781c072fcfb/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the concrete-population premise against its smallest consumer, NecessaryRootFork.necessaryRootTrilemma (premises: concrete population, excluded middle). In an interpretation with one existing non-concrete candidate the abstract-only rival and excluded middle hold and the trilemma fails. This is a model-witnessed survival of the rival, not a refutation or defence of the premise; the interpretation is not claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "56f68b40-9737-59a0-8cac-5610980a1547",
+      "rival_statement_id": "041d5260-f45c-4a20-bee6-1fcabdf727cb",
+      "sense_definition_id": "aa836436-d326-4b41-b752-b0b21f3eede5",
+      "outcome": "model-witnessed",
+      "conditions": "Control.abstractOnly at its one world: the rival and excluded middle hold; NecessaryRootTrilemma fails. Consumer tested: NecessaryRootFork.necessaryRootTrilemma.",
+      "scope": "Same Ontic model, concrete predicate and selected world as the premise; one world, one candidate.",
+      "coverage": "One explicitly populated interpretation of the rival; not every abstract-only ontology.",
+      "exclusivity": "The rival and the premise cannot both hold on one model, predicate and world (unregistered helper onlyNonConcrete_excludes in the Solution module).",
+      "witness": "Control.abstractOnly in Control.AbstractOnlySurvives; abstractOnlySurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the Cogito bearer bridges: with the adopted sense of concrete (esse in re) it denies that the bearer of an occurring thought has esse in re."
+    }
+  ]
+}

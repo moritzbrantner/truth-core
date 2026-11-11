@@ -1,0 +1,17 @@
+{
+  "id": "21ea6a51-e96f-4f19-85f2-0302c1367834",
+  "label": "Structural tolerance omission model at the actual world and its open origin reading",
+  "statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "60501b28-e6e1-46ad-b0e5-bd8daf64c089"
+  ],
+  "date": "2026-11-10",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Omission countermodel, checked by case analysis (ToleranceOriginRival.Control.Certificate): three offset worlds minus/actual/plus with access iff offsets differ by at most one step (reflexive, symmetric, not Euclidean at actual). Individual false exists and is always present at actual and plus; individual true exists at plus only, present at time 1. Reflexivity at actual, presence-to-existence, inert emptiness and the possible contingent-free past (witness plus, times 0<1) hold; EuclideanAt and NecessaryConcreteAt fail at actual (nothing exists at minus). Thus the restricted frame premise is not redundant for ActualEuclidean.inertNecessaryConcrete, and this structural frame rival is compatible with its remaining premises. Interpretation boundary: the model has no origin/material/identity interface and no individual with a varied origin; it does not establish that an origin-essentialist account survives the arrival. Reading control (group 3): on the universal frame over these three offsets, EuclideanAt holds and the same existence/presence assignment loses the possible contingent-free past, while NecessaryConcreteAt still fails. The universal frame is stipulated as the chained reading, not a registered closure theorem. Analyst replies, unverified and unattributed: a one-step tolerance reading may deny that its transitive closure represents metaphysical possibility; a closure reading may instead require re-assessing the other modal premises. Neither reading is warranted by the finite controls. scripts/countermodel.py does not support the theorem (unsupported parameter inst : Preorder T), so the model was written by hand. The structural rival is also proved to strengthen the global ReflexiveNonEuclidean frame condition.",
+  "evidence": [
+    "79f66cc6-6a7a-4259-b672-20df29b3ed0c",
+    "e1b2a383-bbd8-4222-8c2b-e399d6784516"
+  ],
+  "blocker": "The origin/material/identity interpretation bridge remains OPEN: the structural model alone does not instantiate it. Which accessibility relation represents metaphysical possibility (one tolerable step or its chained closure) is also OPEN; the possible contingent-free past must be re-assessed if that relation changes. The possible-external-cause arrival (externalNecessaryConcrete) was not tested against this tolerance frame."
+}

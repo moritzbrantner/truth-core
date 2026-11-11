@@ -1,0 +1,14 @@
+{
+  "id": "36f89f6c-f0b0-4650-a607-4db3cf055ba0",
+  "label": "Independent reference and error controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "1139d131-1f7c-4b35-8614-6d9d0b43fb6e",
+  "inference_ids": [
+    "9c8f0655-7951-4807-8127-f00008e61063"
+  ],
+  "meaning": "Witness error with fixed referent, and two differing referents with matching correctness, without defining reference as truth.",
+  "definition_ids": [
+    "9ca9b9b9-4127-4d2a-96ee-009a4e2875ee",
+    "b6a00a39-94b6-4371-a9ca-1fc55affa038"
+  ]
+}

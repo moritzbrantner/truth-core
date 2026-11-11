@@ -1,0 +1,10 @@
+{
+  "id": "1ef64186-1d82-4801-bf3d-2ab1a6ae7f50",
+  "label": "Belief answerability: force for believing does not vary across supplied preferences",
+  "paraphrase": "OPEN analyst bridge, attribution deferred: for every subject, consideration and content p, if the consideration has pro tanto force for believing p at one supplied preference alternative, it has that force at every supplied preference alternative, other coordinates fixed. Restricted to belief; asserts no force by itself; not an ontic sufficient-reason principle.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.BeliefAnswerability",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "881687eb-aed5-47f8-a2fd-a1a7a8a11525"
+  ]
+}

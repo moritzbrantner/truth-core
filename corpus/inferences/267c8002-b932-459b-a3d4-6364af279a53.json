@@ -1,0 +1,13 @@
+{
+  "id": "267c8002-b932-459b-a3d4-6364af279a53",
+  "label": "Origin-determined access and origin-compatible deletion give worldwise deletion (inference)",
+  "input_statement_ids": [
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "ed582cc8-565f-4364-bb7d-23b18d45df99"
+  ],
+  "output_statement_id": "2f055224-2c79-4c18-8f7d-ba3420fc116f",
+  "rule": "Right-to-left half of origin-determined access applied to the deletion world",
+  "meaning": "Conditional entailment: if access is exactly shared-origin closeness, any world lacking x whose shared individuals keep near origins is accessible, so origin-compatible deletion yields worldwise deletion. Only the OPEN if-half of origin-determined access is used; the deleted individual's own origin imposes no condition, because it is not shared. With deletionOriginCompatible, under origin-determined access worldwise deletion is equivalent to origin-compatible deletion, a world-inventory principle the encoded origin commitments do not settle (OriginDeletion.Control.Certificate: faithful and restored violate deletion, withEmpty satisfies it, all with the four origin commitments).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

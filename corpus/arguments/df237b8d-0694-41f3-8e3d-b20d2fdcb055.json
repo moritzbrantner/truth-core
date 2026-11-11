@@ -1,0 +1,22 @@
+{
+  "id": "df237b8d-0694-41f3-8e3d-b20d2fdcb055",
+  "label": "Origin-determined access and a world with no individuals give worldwise deletion",
+  "premise_statement_ids": [
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "c3f62370-bf23-4487-b41b-ee4dc90833e5"
+  ],
+  "conclusion_statement_id": "2f055224-2c79-4c18-8f7d-ba3420fc116f",
+  "inference_ids": [
+    "dea85855-7091-435b-b396-fa2bb2859128"
+  ],
+  "meaning": "Conditional entailment, composed from originDeletion: a world with no individuals shares none with any world, so by the OPEN if-half of origin-determined access it is accessible from every world and deletion holds everywhere. With accessibleDeletionExcluded, origin-determined access, an empty possible world and Arrival A's presence-to-existence, inert emptiness and possible contingent-free past are jointly inconsistent. So the encoded origin-tolerance rival survives Arrival A only if it denies an empty possible world or rejects the if-half; the encoded commitments themselves neither assert nor exclude an empty world (OriginDeletion.Control.withEmpty has one; faithful has none, group 1 of OriginDeletion.Control.Certificate).",
+  "definition_ids": [
+    "10a7b462-bc9a-4ec6-ab78-1242816a5331",
+    "343b55c8-6e9e-4994-b484-d7ff42560811",
+    "622524e2-e7f3-4b27-a644-bf9a4235121b",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e55472fe-cc19-44ea-b6f4-3aca2da49660"
+  ]
+}

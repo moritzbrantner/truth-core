@@ -1,0 +1,9 @@
+{
+  "id": "d1ecddef-b444-48b1-947b-d850fcb9e73b",
+  "label": "Sustained whole: contingent support holds with the other join inputs, nothing necessary underived",
+  "paraphrase": "Closed control on one interpretation (two mutually accessible worlds; a whole existing at both, one part existing at the selected world only and another at the other world only, all concrete; at the selected world the whole grounds its part there; at the other world the part there grounds the whole): the contingent-support rival holds; a concrete candidate exists at the selected world; actual grounding there is well-founded; every actual contingent concretum has an actual concrete ground; the selected world accesses itself; the union of support arrows between necessary concrete candidates is well-founded; excluded middle holds; and no concrete candidate is necessary, actual and without an existing concrete supporter at every admitted world. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.ContingentSupportSurvives",
+  "definition_ids": [
+    "0ea22904-2641-4d7e-b3c5-7ae5558b28c1"
+  ]
+}

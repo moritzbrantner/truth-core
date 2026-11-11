@@ -1,0 +1,11 @@
+{
+  "id": "960ff448-a569-4db4-8878-df52470738c0",
+  "label": "Canonical selected-profile sharpness checked",
+  "argument_id": "60796294-e309-4faa-b31d-a25b3e250b52",
+  "challenge_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution",
+  "theorem": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.canonicalCertificate",
+  "comparator_config": "results/960ff448-a569-4db4-8878-df52470738c0/comparator.json",
+  "status": "solution-present",
+  "description": "Compose Boolean equality to prove S5, reuse core to prove completeness, and use reflexivity to recover profile equality from equality of rows. Exact discrimination is at the quotient/profile level; the separate finite controls enumerate 1/2/4 representatives."
+}

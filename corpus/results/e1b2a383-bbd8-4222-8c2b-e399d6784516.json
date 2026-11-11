@@ -1,0 +1,11 @@
+{
+  "id": "e1b2a383-bbd8-4222-8c2b-e399d6784516",
+  "label": "Tolerance non-Euclidean access gives the reflexive non-Euclidean rival",
+  "argument_id": "dbd89f08-1820-4512-9619-e86c58af74c1",
+  "challenge_module": "TruthCore.Results.Causality.ToleranceOriginRival.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ToleranceOriginRival.Solution",
+  "theorem": "TruthCore.Results.Causality.ToleranceOriginRival.toleranceReflexiveNonEuclidean",
+  "comparator_config": "results/e1b2a383-bbd8-4222-8c2b-e399d6784516/comparator.json",
+  "status": "solution-present",
+  "description": "Strength registration (not a route step): the tolerance rival at a world w on a frame gives the global reflexive non-Euclidean rival on the same frame, by dropping symmetry and taking w as the witness world. The converse fails: the stepwise frame is not symmetric."
+}

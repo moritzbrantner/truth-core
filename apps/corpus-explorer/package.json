@@ -34,6 +34,6 @@
     "playwright": "1.65.0",
     "tailwindcss": "latest",
     "typescript": "6.0.3",
-    "xstate": "5.33.3"
+    "xstate": "5.33.4"
   }
 }

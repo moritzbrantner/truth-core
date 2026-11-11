@@ -1,0 +1,11 @@
+{
+  "id": "1d7ef9dd-8301-450a-8777-30735d4d55d7",
+  "label": "Discharge maintenance replenishment and heat-only ledger controls, by ledger arithmetic",
+  "argument_id": "2a2295f3-da00-40d9-963d-4231fe03026e",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveStore.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveStore.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveStore.controls",
+  "comparator_config": "results/1d7ef9dd-8301-450a-8777-30735d4d55d7/comparator.json",
+  "status": "solution-present",
+  "description": "The explicit ledgers (before,after,input,work,heat) (2,0,0,1,1), (2,2,0,0,0), (2,2,2,1,1), (2,0,0,0,2) are admissible; (2,2,0,1,1) is not. Analyst conditional model only; no universal causal or existential bridge."
+}

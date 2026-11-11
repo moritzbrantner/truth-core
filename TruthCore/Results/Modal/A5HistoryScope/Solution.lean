@@ -68,7 +68,13 @@ private theorem cutoffSeparationChecked : cutoffSeparation := by
   unfold cutoffSeparation
   simp [RigidEverRoster, EvaluatedPastRoster, history]
 
+private theorem rigidPastControlsChecked : rigidPastControls := by
+  unfold rigidPastControls
+  simp [RigidPastRoster, RigidEverRoster, onset, history]
+  exact ⟨0, le_refl _, le_refl _⟩
+
 theorem controls : ControlSuite := by
-  exact ⟨discreteNonvacuityChecked, denseSeparationChecked, firstMomentSeparationChecked, memberNotPopulationChecked, predecessorNotFirstChecked, rosterControlsChecked, classificationSeparationChecked, cutoffSeparationChecked⟩
+  exact ⟨discreteNonvacuityChecked, denseSeparationChecked, firstMomentSeparationChecked, memberNotPopulationChecked, predecessorNotFirstChecked, rosterControlsChecked, classificationSeparationChecked, cutoffSeparationChecked,
+    rigidPastControlsChecked⟩
 
 end TruthCore.Results.Modal.A5HistoryScope

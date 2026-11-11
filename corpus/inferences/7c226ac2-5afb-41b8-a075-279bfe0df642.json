@@ -1,0 +1,10 @@
+{
+  "id": "7c226ac2-5afb-41b8-a075-279bfe0df642",
+  "label": "Quantitative transfer derivation halfFixed (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "199ffee0-8ec2-4340-bf95-ebf7b215fc40",
+  "rule": "Ordered sums, recurrence and geometric limits",
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

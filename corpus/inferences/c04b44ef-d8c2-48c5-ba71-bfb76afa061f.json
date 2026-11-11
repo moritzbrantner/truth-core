@@ -1,0 +1,13 @@
+{
+  "id": "c04b44ef-d8c2-48c5-ba71-bfb76afa061f",
+  "label": "Origin-determined access and worldwise deletion give origin-compatible deletion (inference)",
+  "input_statement_ids": [
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "2f055224-2c79-4c18-8f7d-ba3420fc116f"
+  ],
+  "output_statement_id": "ed582cc8-565f-4364-bb7d-23b18d45df99",
+  "rule": "Left-to-right half of origin-determined access applied to the accessible deletion world",
+  "meaning": "Conditional entailment, the converse of originDeletion: under the only-if (essentialist) half of origin-determined access, an accessible world lacking x keeps the shared individuals' origins near, so worldwise deletion gives origin-compatible deletion. Together the two show that, on the encoded account, worldwise deletion adds exactly a claim about which worlds exist; origin essentialism constrains it only through individuals other than the deleted one.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

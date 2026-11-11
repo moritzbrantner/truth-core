@@ -1,0 +1,11 @@
+{
+  "id": "5b8f638c-1c4d-4b71-98c5-2753836a82d7",
+  "label": "Rival: whatever HAS_INTELLECT_1 is material, and something is ALTOGETHER_IMMATERIAL_2",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by physicalism about the mind together with realism about immaterial things (abstract objects, or an impersonal first principle beyond intellect): whatever has intellect is composed of matter and form, and something is neither composed of matter and form nor a component of anything. The replacement account of why a thing knows is material organization, not separation from matter. Strictly stronger than the negation of STMT-IMMATERIAL-IS-INTELLECTUAL, which needs only one altogether immaterial thing without intellect. It does not deny that there are immaterial things or that there are intellects.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.IntellectOnlyInMaterialCompositesReading",
+  "definition_ids": [
+    "dace8e73-8b5b-5378-8e62-17d534413168",
+    "88bc0655-9dd0-5879-ba1b-3fca9f86c1f4",
+    "53b02c11-a28b-57c2-8d2e-7e013893db7e"
+  ]
+}

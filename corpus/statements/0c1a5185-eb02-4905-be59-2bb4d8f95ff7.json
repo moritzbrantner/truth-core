@@ -1,0 +1,10 @@
+{
+  "id": "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+  "label": "Goal-relative epistemic force for a supplied accuracy aim",
+  "paraphrase": "OPEN analyst rival account, attribution deferred: for the supplied accuracy-aim predicate, a consideration has pro tanto force for an attitude at a supplied preference exactly when it plays the ordinary epistemic role and that preference satisfies the aim. Holds for every subject, consideration, attitude and supplied preference.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.GoalRelativeForce",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

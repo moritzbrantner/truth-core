@@ -1,0 +1,25 @@
+{
+  "id": "87d3249e-9016-4929-a409-d7050c14375e",
+  "label": "Contingent-support rival of the no-contingent-support premise survives, checked",
+  "argument_id": "75289205-d994-4e1e-b315-0b30ceafd531",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.contingentSupportSurvives",
+  "comparator_config": "results/87d3249e-9016-4929-a409-d7050c14375e/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the no-contingent-support premise against its smallest consumer, NecessaryConcreteUnderived.checks (premises: concrete population, well-founded actual grounding, contingent dependence, reflexive access at the selected world, no contingent concrete support, well-founded union of necessary support, excluded middle). With a necessary whole that is a root at the selected world and is grounded at another world by a part existing only there, the rival holds with the other six premises and no necessary concretum is underived at every admitted world. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "dd41c165-129a-59d3-84ce-bd13c0944901",
+      "rival_statement_id": "501d1915-8f2a-461c-970e-ef2f68e57968",
+      "sense_definition_id": "0ea22904-2641-4d7e-b3c5-7ae5558b28c1",
+      "outcome": "model-witnessed",
+      "conditions": "Control.sustainedWhole at world false: the rival, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, ConcreteNecessaryUnionWF and excluded middle hold; NecessaryConcreteUnderivedAt fails. Consumer tested: NecessaryConcreteUnderived.checks.",
+      "scope": "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, three candidates, all concrete.",
+      "coverage": "One explicitly populated interpretation. In it the necessary whole is unsupported at the selected world and supported only elsewhere; the other premises force some necessary actual root, so a rival model with support at the selected world itself needs a second necessary candidate and is not exhibited.",
+      "exclusivity": "The rival and the premise cannot both hold on one Profile and world (unregistered helper contingentSupport_excludes).",
+      "witness": "Control.sustainedWhole in Control.ContingentSupportSurvives; contingentSupportSurvives proves the listed conjuncts.",
+      "next_step": "Decide whether the direction of the selected relation may differ between worlds for the same pair of kinds (whole grounds part here, part grounds whole there); an invariance premise on the relation would exclude this interpretation."
+    }
+  ]
+}

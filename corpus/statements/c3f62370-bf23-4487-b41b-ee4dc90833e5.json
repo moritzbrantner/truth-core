@@ -1,0 +1,9 @@
+{
+  "id": "c3f62370-bf23-4487-b41b-ee4dc90833e5",
+  "label": "Some possible world contains no individual at all",
+  "paraphrase": "Candidate framework commitment, unattributed: some world of the model has no existing individual, concrete or abstract. Weaker claims (a world lacking only every concrete individual) do not suffice for the entailment below, because origin-determined access also checks shared non-concrete individuals. It says nothing about access to that world.",
+  "lean_declaration": "TruthCore.Causality.OriginDeletion.EmptyWorld",
+  "definition_ids": [
+    "343b55c8-6e9e-4994-b484-d7ff42560811"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "902b031f-27f0-421a-ad77-d8dfeb54897d",
+  "label": "Measurable pushforward evidence invariance deduction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "defdc237-31d1-4ffe-9aed-11ca749e1d2f",
+  "inference_ids": [
+    "3671be11-c7f7-4e42-89ad-887572bdda6d"
+  ],
+  "meaning": "General measure-theoretic identity, applicable to continuous probability measures; no empirical measure selection, density computation or divine preference is asserted."
+}

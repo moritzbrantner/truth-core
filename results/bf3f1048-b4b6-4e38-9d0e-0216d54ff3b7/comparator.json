@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.reachNontrivial"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "d697bcf3-21ba-457f-a996-c9dac253262b",
+  "label": "Mutual pair: mutual support holds with the other join inputs and nothing necessary is underived",
+  "paraphrase": "Closed control on one interpretation (two mutually accessible worlds; two concrete candidates existing at both; at the selected world the first grounds the second, at the other world the second grounds the first): the mutual-support rival holds; a concrete candidate exists at the selected world; actual grounding there is well-founded; every actual contingent concretum has an actual concrete ground (vacuously: nothing is contingent); the selected world accesses itself; every existing concrete supporter of a necessary concrete candidate is necessary; excluded middle holds; and no concrete candidate is necessary, actual and without an existing concrete supporter at every admitted world. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.MutualSupportSurvives",
+  "definition_ids": [
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6"
+  ]
+}

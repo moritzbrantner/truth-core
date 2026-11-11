@@ -1,0 +1,9 @@
+{
+  "id": "a94df438-65e3-48bb-95e9-3342c94322ed",
+  "label": "Non-concrete item simply prior to an actual concretum",
+  "term": "non-concrete simple priority",
+  "definition": "SomeSimplyPriorNonConcrete m w PriorSimply holds when there are distinct y and x such that y is simply prior to x, x is concrete and exists at w, and y is not concrete. Ordinary meaning: something that is not a concrete thing comes first, absolutely, before a concrete thing. Example: the number two, or the Form of the Good, prior to a concrete thing. It does not say the prior item is absent, and the priority is not temporal.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeSimplyPriorNonConcrete",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by Platonism about priority. Rival of SimplyPriorIsActualConcreteGround on the same Profile, world and PriorSimply. Stronger than the negation: it fixes that the concreteness clause fails. PriorSimply keeps its recorded sense (DEF-SIMPLE-PRIORITY)."
+}

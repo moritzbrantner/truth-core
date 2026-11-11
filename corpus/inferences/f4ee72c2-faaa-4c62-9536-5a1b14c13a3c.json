@@ -1,0 +1,10 @@
+{
+  "id": "f4ee72c2-faaa-4c62-9536-5a1b14c13a3c",
+  "label": "Unbounded-grades rival of grades-to-maximum at being survives, checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "84487b86-3301-4a9f-9f0d-08fcfa858018",
+  "rule": "Explicit one-world interpretation on the natural numbers, checked directly",
+  "meaning": "Rival test for grades-to-maximum at being against its smallest consumer, SelectedAncestryUnique.uniqueRoot (premises: a necessary root ancestor of the selected being, excluded middle, the genus principle at being, the existence-to-act contract, the esse-cause bridge, grades-to-maximum at being). On the natural numbers ordered by size, all necessary and ungrounded, the unbounded-grades rival holds with the other five premises and there are many necessary roots, so none is unique. Two of the other premises hold vacuously there. Model-witnessed survival only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

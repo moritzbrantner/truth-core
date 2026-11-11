@@ -1,0 +1,6 @@
+{
+  "id": "d84cedcf-caa1-4935-a6d0-e727c362ed03",
+  "label": "Closed finite stock excludes a uniform positive interval energy demand forever",
+  "paraphrase": "Nonnegative real stock and the zero-input recurrence exclude a common strictly positive lower bound on output at all natural intervals.",
+  "lean_declaration": "TruthCore.Causality.ProductiveStore.NoUniformDischarge"
+}

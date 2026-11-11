@@ -1,12 +1,12 @@
 {
   "id": "4bdad615-4edd-4773-93da-02fd614ef7a2",
-  "label": "A3 same-event transport under selected occurrence uniqueness",
+  "label": "A3 same-event transport under type-global occurrence uniqueness",
   "premise_statement_ids": [],
   "conclusion_statement_id": "71d0bf6a-2bda-4bd9-8e0e-824a75a7bf25",
   "inference_ids": [
     "c95b7fba-8147-43f6-8ce2-bbc2fedc2b5b"
   ],
-  "meaning": "Prove the universally quantified conditional transport law. The antecedent explicitly requires uniqueness for the selected state-pair and possible conditioning of a matching occurrence. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN.",
+  "meaning": "Prove the universally quantified conditional transport law under TYPE-GLOBAL selected uniqueness: the antecedent requires every term of the occurrence type sharing the selected state-pair, occurring or not, to equal the selected occurrence, and possible conditioning of a matching occurrence. That antecedent forces a single bearer and ordered interval, so this law does not bridge to the occurrence reading with repeated realizations; it is superseded as the sense bridge by the accessible-occurrence transport law. This does not discharge A3P1 or infer actual causation.",
   "definition_ids": [
     "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
     "e7dc62a6-7b2f-4467-87b3-ec287bd67047"

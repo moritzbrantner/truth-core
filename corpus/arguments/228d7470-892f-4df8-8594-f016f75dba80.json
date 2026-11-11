@@ -1,0 +1,10 @@
+{
+  "id": "228d7470-892f-4df8-8594-f016f75dba80",
+  "label": "Joint conditional and nonzero screening evaluations",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "b0fee3bc-48dc-47cd-94da-083bd194a0b2",
+  "inference_ids": [
+    "8ab26ecf-4995-465b-b332-d9ab72446d0c"
+  ],
+  "meaning": "Preserves existing fixture values and distinguishes joint evidence direction from incremental direction; screening does not erase observer evidence."
+}

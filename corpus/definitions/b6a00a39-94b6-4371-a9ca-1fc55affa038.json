@@ -1,0 +1,9 @@
+{
+  "id": "b6a00a39-94b6-4371-a9ca-1fc55affa038",
+  "label": "supplied structural reference ground",
+  "term": "supplied structural reference ground",
+  "definition": "ReferenceGround contains independent maps referent : Token \u2192 Object, content : Token \u2192 Content and condition : Object \u2192 Content. The first assigns a target object to each token; the second supplies token content; the third supplies an object condition in the same content carrier. These maps expose structural inputs, not definitions of causal provenance, productive plans, constitutive anchors or intentional aboutness.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.ReferenceGround",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}

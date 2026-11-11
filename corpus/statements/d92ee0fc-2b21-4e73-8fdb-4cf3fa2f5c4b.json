@@ -1,0 +1,10 @@
+{
+  "id": "d92ee0fc-2b21-4e73-8fdb-4cf3fa2f5c4b",
+  "label": "Some ordinary-role belief reason belongs to a subject whose actual preference has the aim",
+  "paraphrase": "OPEN analyst premise, attribution deferred: some subject, consideration and content p are such that the consideration is an attributed ordinary-role reason for believing p and the subject's actual supplied preference satisfies the supplied accuracy-aim predicate.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.AimedOrdinaryBelief",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "8d4aa56e-be32-4a83-a263-0b62acb67503",
+  "label": "Closed finite stock excludes a uniform positive interval energy demand forever, by accounting",
+  "argument_id": "47c33df4-4c8f-40be-93c5-6006f751b6a1",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveSustained.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveSustained.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveSustained.noUniformDischarge",
+  "comparator_config": "results/8d4aa56e-be32-4a83-a263-0b62acb67503/comparator.json",
+  "status": "solution-present",
+  "description": "Nonnegative real stock and the zero-input recurrence exclude a common strictly positive lower bound on output at all natural intervals. Analyst conditional energy accounting only; no causal or bearer bridge."
+}

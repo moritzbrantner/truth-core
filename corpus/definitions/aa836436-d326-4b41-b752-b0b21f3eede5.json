@@ -1,0 +1,9 @@
+{
+  "id": "aa836436-d326-4b41-b752-b0b21f3eede5",
+  "label": "Abstract-only population of the selected world",
+  "term": "abstract-only world",
+  "definition": "OnlyNonConcreteExistAt m concrete w holds when some candidate exists at w and no candidate existing at w is concrete: (∃ b, m.ExistsAt w b) ∧ ∀ b, m.ExistsAt w b → ¬ concrete b. Ordinary meaning: the world has an inventory, and all of it is non-concrete. Example: a world whose inventory is numbers and structures only. It is not the empty world, and it does not say concrete things are impossible.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.OnlyNonConcreteExistAt",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by abstract-only ontologies (Pythagorean or mathematical-structure monism). Rival of the population premise InhabitedConcreteAt on the same Ontic model, concrete predicate and world. Stronger than the negation of that premise: it adds that something exists at w. 'Concrete' is the supplied predicate; under the adopted sense it means having esse in re, so the rival says the existents of w lack esse in re. Whether Ontic existence may outrun esse in re is the open question this rival presses."
+}
