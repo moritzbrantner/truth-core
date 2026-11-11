@@ -1,0 +1,11 @@
+{
+  "id": "e64407b8-46c1-4a46-b54f-2355e31c377c",
+  "label": "Existential attitude erasure has one-way assertion representation",
+  "argument_id": "555ba4f8-01b7-408c-8595-ff066e30502d",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.erasureRepresented",
+  "comparator_config": "results/e64407b8-46c1-4a46-b54f-2355e31c377c/comparator.json",
+  "status": "solution-present",
+  "description": "A diagnostic of the defined existential erasure only; this does not establish the representation premise for an arbitrary legacy Veracity or preserve all content attitudes."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "693522aa-3e98-49f8-bff6-b61390d02dc4",
+  "label": "Individuated assertion truth reconnects the legacy assertion route",
+  "argument_id": "42cbfa32-a74e-43f2-96c3-d8d28bd47fbd",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.legacyAssertionFromContent",
+  "comparator_config": "results/693522aa-3e98-49f8-bff6-b61390d02dc4/comparator.json",
+  "status": "solution-present",
+  "description": "One-way represented asserted content plus the existing Disquotes bridge yields the exact existing legacy assertion-truth target; then the checked confirmation/authority route applies. Arbitrary legacy attitude translation is not assumed."
+}

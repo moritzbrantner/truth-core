@@ -1,0 +1,9 @@
+{
+  "id": "fa09d1dc-e38e-42ec-ac95-c510e8a87716",
+  "label": "Individuated veracity actual attitudes and selected domain",
+  "term": "genuine assertion and actual assent to individuated contents",
+  "definition": "Attitudes \u03c3 Content supplies primitive Asserts and Assents for one speaker and individuated content in a fixed context. Asserts means genuinely putting this content forward as true on the speaker own word; Assents means actual judgment accepting that content. Neither is factive, sincere, logically closed, or invariant under truth-equivalence by definition. Domain predicates explicitly select the relevant content family; applicability and negation closure are separate premises.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DivineVeracityContent1410.Attitudes",
+  "note": "Content identity is a parameter, not a completed metaphysical or psychological account. Tagged finite controls distinguish representation labels with identical truth conditions; applying those tags to real cognitive distinctions remains OPEN. Existing Signature/GOD_4 is reused; ethical and cognitive perfection is not derived from HasClassicalAttributes."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DivineVeracityContent1410.contentRouteA"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
