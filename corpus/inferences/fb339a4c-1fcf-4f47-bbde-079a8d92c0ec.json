@@ -1,0 +1,12 @@
+{
+  "id": "fb339a4c-1fcf-4f47-bbde-079a8d92c0ec",
+  "label": "A reason denial rules out adopting the view for a reason of that kind (inference)",
+  "input_statement_ids": [
+    "3f77c61c-11e5-4bb2-a905-8ec6f8ebca19"
+  ],
+  "output_statement_id": "22073f51-9ad0-479f-a674-42faa1943783",
+  "rule": "universal instantiation at the adoption target",
+  "meaning": "A denial of all reasons of one kind applies to the selected view as a target. The reason kind and its intended attitude or action are held fixed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

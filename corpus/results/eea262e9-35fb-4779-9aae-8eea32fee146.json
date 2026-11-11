@@ -1,0 +1,11 @@
+{
+  "id": "eea262e9-35fb-4779-9aae-8eea32fee146",
+  "label": "Targeted reliability undercutter finite controls",
+  "argument_id": "270c50c6-8753-42db-b04b-80d8b7784eae",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.reliabilityControls",
+  "comparator_config": "results/eea262e9-35fb-4779-9aae-8eea32fee146/comparator.json",
+  "status": "solution-present",
+  "description": "The targeted case witnesses an unwarranted but true package alongside thin F6. The other cases exhibit three distinct preserved-warrant responses: independent support for the package, no reliability concern from accepting the package, and rejection of the tested defeater policy. These Boolean controls neither estimate reliability nor attribute an account to any naturalist."
+}

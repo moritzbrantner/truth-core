@@ -1,0 +1,15 @@
+{
+  "id": "5dcec315-3f0a-46ec-918b-4d07bab6aa95",
+  "label": "Assertion retorsion omission interpretations",
+  "paraphrase": "Five one-agent or one-episode interpretations witness the distinct costs of omitting sincerity, cognitive meaning, cognitive realization, phenomenal classification and existence representation. The first model has no belief, an assertion of that denial, and an epistemic reason to believe the same denial. These are stipulated relational interpretations.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.OmissionControls",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+    "883e4c19-32fe-4994-a89c-c2f9cb8f122f",
+    "72d257cd-1203-4b32-bd70-bddefccfd63e",
+    "663c48ce-4166-4632-86d9-85eeef0c258b",
+    "e9d86382-0aa2-4b87-b721-461ec85ed0f1",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
+  ]
+}

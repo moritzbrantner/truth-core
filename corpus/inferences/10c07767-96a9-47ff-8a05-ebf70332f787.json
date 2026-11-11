@@ -1,0 +1,12 @@
+{
+  "id": "10c07767-96a9-47ff-8a05-ebf70332f787",
+  "label": "The known-prior-premise demand entails the certificate requirement (inference)",
+  "input_statement_ids": [
+    "b178b6e6-0115-4611-8fea-58dab5d69fed"
+  ],
+  "output_statement_id": "51d4a8cf-8f5b-48fc-82eb-071d12bdad88",
+  "rule": "Projection of the same supplied demonstration certificate",
+  "meaning": "From the strong demand retrieve the certificate component for the same knowledge case. This conversion loses the already known premise requirement.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

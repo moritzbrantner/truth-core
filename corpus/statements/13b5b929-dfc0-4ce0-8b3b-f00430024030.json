@@ -1,0 +1,10 @@
+{
+  "id": "13b5b929-dfc0-4ce0-8b3b-f00430024030",
+  "label": "Every occurring thought has an existing representative in the interpretation",
+  "paraphrase": "OPEN analyst representation bridge: for every occurring thought episode, the selected existence predicate holds of its representative. Applying this to the actual world requires its existence extension and a faithful representation of the episodes. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.OccurringThoughtIsRepresentedAsExisting",
+  "definition_ids": [
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "e9d86382-0aa2-4b87-b721-461ec85ed0f1"
+  ]
+}

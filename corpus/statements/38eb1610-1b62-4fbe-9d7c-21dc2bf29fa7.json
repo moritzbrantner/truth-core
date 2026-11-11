@@ -1,0 +1,9 @@
+{
+  "id": "38eb1610-1b62-4fbe-9d7c-21dc2bf29fa7",
+  "label": "An epistemic reason is taken up in an eligible belief",
+  "paraphrase": "OPEN analyst input. In some case an agent has a reason to believe a content, believes it and meets the supplied eligibility condition for basing, sufficiency and undefeatedness.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.SomeEligibleReasonUptake",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

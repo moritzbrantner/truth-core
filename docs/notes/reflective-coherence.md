@@ -80,6 +80,10 @@ a duty to believe everything entailed by one's beliefs.
 
 ## Relation to the broader inquiry
 
+The [internal adoption reasons analysis](self-undermining-views.md#internal-reasons-to-adopt-a-view)
+asks which reasons an interpretation admits for adopting a view and distinguishes
+epistemic reasons to believe it from moral reasons to adopt it in practice.
+
 The existing `TruthCore/Logic/SelfApplication.lean` handles norms,
 self-application, and counterexamples; this module instantiates its norm schema
 for worldview selection. `TruthCore/Explanation/PSRSelfApplication.lean` makes

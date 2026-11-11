@@ -1,0 +1,10 @@
+{
+  "id": "42114721-87d8-44b7-8057-255c732fd7df",
+  "label": "Assertion of this content requires its cognitive meaning",
+  "paraphrase": "OPEN analyst bridge: if any agent asserts the selected content, that content has cognitive significance. Truth and a verification criterion are separate. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.AssertedContentIsMeaningful",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+    "883e4c19-32fe-4994-a89c-c2f9cb8f122f"
+  ]
+}

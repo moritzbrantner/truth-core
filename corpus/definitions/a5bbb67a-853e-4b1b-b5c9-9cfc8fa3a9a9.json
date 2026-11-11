@@ -1,0 +1,9 @@
+{
+  "id": "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+  "label": "Assertion of selected content",
+  "term": "assertion of selected content",
+  "definition": "Asserts relates an agent to a content actually used in assertion. AssertionMade says that some agent stands in that relation to the selected content. The relation is primitive here; it has no built-in truth, sincerity or mental occurrence condition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.AssertionMade",
+  "note": "Analyst formulation, attribution deferred. Behavioral markers can overcount assertion, as the omission controls illustrate. Whether a public speech act, a quotation, or a machine-produced output counts as a genuine assertion is an interpretation question. The two relevant local constraints are kept in AssertedContentIsMeaningful and AssertionRealized."
+}

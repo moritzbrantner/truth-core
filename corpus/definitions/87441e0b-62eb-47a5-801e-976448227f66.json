@@ -1,0 +1,9 @@
+{
+  "id": "87441e0b-62eb-47a5-801e-976448227f66",
+  "label": "Answer invariance across opposite-truth states",
+  "term": "truth insensitivity",
+  "definition": "For one fixed binary question and method, every pair of supplied states with opposite correct answers receives the same output. The profile-wide claim imposes this condition on every supplied method.",
+  "basis": "stipulative",
+  "note": "Analyst output condition. Nonconstant output across opposite truths can be perfectly wrong. Which pairs are relevant and whether output variation has a causal, evidential or modal explanation remain open.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.TruthInsensitive"
+}

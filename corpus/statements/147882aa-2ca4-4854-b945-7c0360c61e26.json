@@ -1,0 +1,11 @@
+{
+  "id": "147882aa-2ca4-4854-b945-7c0360c61e26",
+  "label": "Socially constructed actual truths in scope can fail at a different profile",
+  "paraphrase": "OPEN analyst truth-dependence bridge, attribution deferred. For each actually true constructed content in the same scope, at least one supplied attitude profile makes that content fail to hold. The real-world adequacy of varying those profiles with content and non-attitude facts fixed remains open.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.ConstructionVariesTruth",
+  "definition_ids": [
+    "52bf39ca-ca7e-434f-be0c-2900952839c3",
+    "50827057-88b1-4519-9444-3203c9902c34",
+    "4f377045-355c-500f-b159-1f8e9e9fa863"
+  ]
+}

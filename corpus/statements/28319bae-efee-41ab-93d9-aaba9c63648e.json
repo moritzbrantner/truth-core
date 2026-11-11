@@ -1,0 +1,9 @@
+{
+  "id": "28319bae-efee-41ab-93d9-aaba9c63648e",
+  "label": "The global denial of validity fails in the supplied semantic profile",
+  "paraphrase": "The denial of every semantic entailment fails in the supplied profile when a content can be supplied. The derivation uses singleton identity.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.NoValidInferenceFails",
+  "definition_ids": [
+    "0ff13cc6-d04d-4b35-9b64-fe75d11ce482"
+  ]
+}

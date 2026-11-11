@@ -1,0 +1,9 @@
+{
+  "id": "e9d86382-0aa2-4b87-b721-461ec85ed0f1",
+  "label": "Occurrence to existence through an episode representative",
+  "term": "occurrence to existence through an episode representative",
+  "definition": "The interpretation supplies a map from candidate episodes to candidate beings and an existence extension ExistsIn. The bridge says that each occurring episode maps to a member of the extension. SomeExistent says that this extension is inhabited.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.OccurringThoughtIsRepresentedAsExisting",
+  "note": "Analyst formulation, attribution deferred. The predicate and map remain primitive; application to a world requires its existence extension and a faithful representation of each occurring episode as itself existing there. Existing in re and the adopted esse contract are separate conditions for the concrete route. The carrier alone supplies no existent."
+}

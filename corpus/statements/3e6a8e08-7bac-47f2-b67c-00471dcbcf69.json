@@ -1,0 +1,9 @@
+{
+  "id": "3e6a8e08-7bac-47f2-b67c-00471dcbcf69",
+  "label": "No inference is valid in the supplied semantic profile",
+  "paraphrase": "OPEN analyst rival. In the fixed profile no premise set semantically entails any content, with singleton identity sequents in scope.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.NoValidInference",
+  "definition_ids": [
+    "0ff13cc6-d04d-4b35-9b64-fe75d11ce482"
+  ]
+}

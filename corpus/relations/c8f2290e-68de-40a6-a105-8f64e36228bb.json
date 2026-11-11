@@ -1,0 +1,10 @@
+{
+  "id": "c8f2290e-68de-40a6-a105-8f64e36228bb",
+  "label": "Warranted belief refutes the denial of every justified belief",
+  "subject_kind": "argument",
+  "subject_id": "86b5bf89-606a-4e92-94b6-6dc4633df5fe",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "cbe1661b-1b9e-4200-b97d-0b8464a323d8",
+  "note": "The eligible case supplies an actual belief that meets the very warrant standard in the denial."
+}

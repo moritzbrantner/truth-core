@@ -1,0 +1,9 @@
+{
+  "id": "f7e3ad49-3140-4fdf-9a83-1156243cb701",
+  "label": "Some supplied content is cognitively meaningful",
+  "paraphrase": "The supplied content domain contains a cognitively meaningful member.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.SomeMeaningfulContent",
+  "definition_ids": [
+    "883e4c19-32fe-4994-a89c-c2f9cb8f122f"
+  ]
+}

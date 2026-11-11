@@ -1,0 +1,12 @@
+{
+  "id": "938a0808-e1b0-42cd-8e0d-36e26f611b9b",
+  "label": "Thin F6 is incompatible with global epistemic nihilism (inference)",
+  "input_statement_ids": [
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58"
+  ],
+  "output_statement_id": "d9181e4c-e26a-4cd2-ae0b-add96f520fad",
+  "rule": "Witness instantiation against the universal denial",
+  "meaning": "The agent and content supplied by thin F6 contradict the universal absence of epistemic reasons for the same reason relation. This uses F6 as a premise. The canonical self-undermining theorem by itself leaves nihilism formally satisfiable.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

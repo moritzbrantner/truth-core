@@ -1,0 +1,9 @@
+{
+  "id": "b30a1925-dfa0-4ab2-bc3c-860982298091",
+  "label": "Global normative reason denial fails in the given profile",
+  "paraphrase": "The given reason profile cannot satisfy the denial of normative reasons in every represented kind.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.GlobalNormativeNihilismExcluded",
+  "definition_ids": [
+    "54e94123-63cc-41a7-9179-9040458adb0c"
+  ]
+}

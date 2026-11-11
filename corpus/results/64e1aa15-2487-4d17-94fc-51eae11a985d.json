@@ -1,0 +1,11 @@
+{
+  "id": "64e1aa15-2487-4d17-94fc-51eae11a985d",
+  "label": "Known-prior-premise demand and well-founded priority exclude knowledge",
+  "argument_id": "488f6075-6278-47c9-b880-9ef98349a43e",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.strongPriorExcludesKnowledge",
+  "comparator_config": "results/64e1aa15-2487-4d17-94fc-51eae11a985d/comparator.json",
+  "status": "solution-present",
+  "description": "Fix an agent and induct over the priority relation. A knowledge case would supply an earlier known used premise, which the induction hypothesis excludes. The result establishes ignorance only under the combined requirements, and says nothing about justification of basic beliefs."
+}

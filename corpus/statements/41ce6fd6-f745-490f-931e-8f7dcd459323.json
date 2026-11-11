@@ -1,0 +1,9 @@
+{
+  "id": "41ce6fd6-f745-490f-931e-8f7dcd459323",
+  "label": "One inhabited profile has a valid inference and an invalid inference",
+  "paraphrase": "In a one-world Boolean-content profile with truth just at the true content, the true content follows from itself and the false content fails to follow from it.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.ValidityControl",
+  "definition_ids": [
+    "0ff13cc6-d04d-4b35-9b64-fe75d11ce482"
+  ]
+}

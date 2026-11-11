@@ -1,0 +1,17 @@
+{
+  "id": "afc88915-f9c8-4371-8225-c52f5e6af2a6",
+  "label": "Selected existence from thought occurrence and representation",
+  "premise_statement_ids": [
+    "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+    "13b5b929-dfc0-4ce0-8b3b-f00430024030"
+  ],
+  "conclusion_statement_id": "43253cd8-62be-4528-85e4-54806bd3fac0",
+  "inference_ids": [
+    "37e5bd4e-4a42-4315-ad09-6c023740dbe0"
+  ],
+  "meaning": "Select an occurring thought, then its representative. The open episode-to-existence bridge supplies that same candidate's membership in the existence extension. Combined with the assertion route this defeats the scoped emptiness denial under all three premises. An actual-world application needs the intended existence extension and the same representation contract. Concrete population needs a further concreteness bridge.",
+  "definition_ids": [
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "e9d86382-0aa2-4b87-b721-461ec85ed0f1"
+  ]
+}

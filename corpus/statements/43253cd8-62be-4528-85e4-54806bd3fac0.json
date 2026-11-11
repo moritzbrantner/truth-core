@@ -1,0 +1,9 @@
+{
+  "id": "43253cd8-62be-4528-85e4-54806bd3fac0",
+  "label": "Some candidate exists in the supplied interpretation",
+  "paraphrase": "The supplied existence predicate has a member. No concreteness, causality, modal necessity or real-world applicability is asserted.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.SomeExistent",
+  "definition_ids": [
+    "e9d86382-0aa2-4b87-b721-461ec85ed0f1"
+  ]
+}

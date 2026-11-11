@@ -1,0 +1,13 @@
+{
+  "id": "9e14b5dc-4578-4838-b5c1-5d594af4ebed",
+  "label": "No content in the supplied scope is objectively true",
+  "paraphrase": "For each content inside the supplied scope, the supplied objective-truth classifier fails. The conclusion makes no claim about other contents or a different classifier.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.NoObjectiveTruthInScope",
+  "definition_ids": [
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43"
+  ],
+  "disambiguation_ids": [
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
+  ]
+}

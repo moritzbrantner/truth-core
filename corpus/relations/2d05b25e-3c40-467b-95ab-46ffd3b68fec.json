@@ -1,0 +1,10 @@
+{
+  "id": "2d05b25e-3c40-467b-95ab-46ffd3b68fec",
+  "label": "A benchmark success refutes blanket benchmark failure",
+  "subject_kind": "argument",
+  "subject_id": "a78824b0-9e9f-4a9f-89be-2d4a52d035df",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "2241a48a-ecbc-400f-bf1e-df40afec5a7b",
+  "note": "The method succeeds under the same benchmark, class and accuracy threshold used by the denial."
+}

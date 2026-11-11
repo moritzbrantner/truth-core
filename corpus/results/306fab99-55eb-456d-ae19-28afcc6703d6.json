@@ -1,0 +1,11 @@
+{
+  "id": "306fab99-55eb-456d-ae19-28afcc6703d6",
+  "label": "Assertion retorsion controls for the five separate bridges",
+  "argument_id": "93b61a46-89f6-41de-a9a6-2a3902516c5a",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.controls",
+  "comparator_config": "results/306fab99-55eb-456d-ae19-28afcc6703d6/comparator.json",
+  "status": "solution-present",
+  "description": "Independent assignments give an asserted denial without belief even when F6 holds and the same denial has a reason, a speech marker without cognitive meaning, an assertion marker without thought, a thought realizing an assertion and represented as existing without phenomenal experience, and an occurring thought in a model with an empty existence extension. These interpretations isolate bridges and do not establish that any assignment is metaphysically possible."
+}

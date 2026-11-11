@@ -1,0 +1,11 @@
+{
+  "id": "bec15d81-9f10-4b58-a280-2da08ef0c7ac",
+  "label": "Cognitive meaning from an assertion under the local meaning requirement",
+  "argument_id": "8a3dcfc2-f986-4356-bfca-138d664879ce",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.meaningFromAssertion",
+  "comparator_config": "results/bec15d81-9f10-4b58-a280-2da08ef0c7ac/comparator.json",
+  "status": "solution-present",
+  "description": "An assertion witness and the local meaning requirement give the selected content as a meaningful instance. If this content is the purported denial of all cognitive meaning in the supplied domain, its meaningful assertion excludes that denial. The theorem asserts neither that arbitrary strings convey content nor that any selected content expresses that denial."
+}

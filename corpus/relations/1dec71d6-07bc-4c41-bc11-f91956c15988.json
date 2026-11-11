@@ -1,0 +1,11 @@
+{
+  "id": "1dec71d6-07bc-4c41-bc11-f91956c15988",
+  "label": "Known-prior-premise demonstration strengthens certificate demonstration",
+  "subject_kind": "statement",
+  "subject_id": "b178b6e6-0115-4611-8fea-58dab5d69fed",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "51d4a8cf-8f5b-48fc-82eb-071d12bdad88",
+  "verification_result_id": "6c032858-1465-45b5-8583-aa389a074263",
+  "note": "The same certificate predicate is used in both demands. The one-content control shows the converse can fail."
+}

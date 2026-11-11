@@ -1,0 +1,219 @@
+[batch]
+vocab = "TruthCore.Logic.AssertionRetorsion"
+results = "TruthCore.Results.Logic.AssertionRetorsion"
+
+[[statement]]
+id = "Someone asserts the selected content"
+lean = "AssertionMade"
+definitions = ["Assertion of selected content"]
+paraphrase = "OPEN analyst occurrence input: some agent actually asserts the selected content. Mere candidate membership or a hypothetical assertion supplies no witness. Attribution deferred."
+
+[[statement]]
+id = "Assertions of this content have an occurring thought realization"
+lean = "AssertionRealized"
+definitions = ["Assertion of selected content", "DEF-THOUGHT-OCCURRENCE"]
+paraphrase = "OPEN analyst bridge: every agent asserting the selected content has an occurring thought episode realizing that assertion by that agent. Mere use of a speech marker is insufficient without this bridge. Attribution deferred."
+
+[[statement]]
+id = "Thought realizations of assertions of this content are experienced"
+lean = "AssertionRealizationsExperienced"
+definitions = ["Assertion of selected content", "DEF-THOUGHT-OCCURRENCE", "Phenomenal occurrence among supplied episodes"]
+paraphrase = "OPEN analyst bridge: when an occurring thought episode realizes an actual assertion of the selected content by an agent, that episode is experienced. Attribution deferred."
+
+[[statement]]
+id = "Some occurring episode is phenomenally experienced"
+lean = "ExperienceOccurs"
+definitions = ["Phenomenal occurrence among supplied episodes"]
+paraphrase = "Some supplied episode occurs and is phenomenally experienced. No bearer, persistence or external cause is inferred."
+
+[[statement]]
+id = "None of the occurring episodes is phenomenally experienced"
+lean = "NoExperienceOccurs"
+definitions = ["Phenomenal occurrence among supplied episodes"]
+paraphrase = "The supplied episode domain has no occurring episode that is phenomenally experienced."
+
+[[statement]]
+id = "Every occurring thought has an existing representative in the interpretation"
+lean = "OccurringThoughtIsRepresentedAsExisting"
+definitions = ["DEF-THOUGHT-OCCURRENCE", "Occurrence to existence through an episode representative"]
+paraphrase = "OPEN analyst representation bridge: for every occurring thought episode, the selected existence predicate holds of its representative. Applying this to the actual world requires its existence extension and a faithful representation of the episodes. Attribution deferred."
+
+[[statement]]
+id = "Some candidate exists in the supplied interpretation"
+lean = "SomeExistent"
+definitions = ["Occurrence to existence through an episode representative"]
+paraphrase = "The supplied existence predicate has a member. No concreteness, causality, modal necessity or real-world applicability is asserted."
+
+[[statement]]
+id = "Nothing exists in the supplied interpretation"
+lean = "NothingExistsIn"
+definitions = ["Occurrence to existence through an episode representative"]
+paraphrase = "No candidate satisfies the supplied existence predicate. This allows an inhabited type of candidates with empty existence extension."
+
+[[statement]]
+id = "Assertion of this content requires its cognitive meaning"
+lean = "AssertedContentIsMeaningful"
+definitions = ["Assertion of selected content", "Cognitive meaning of supplied contents"]
+paraphrase = "OPEN analyst bridge: if any agent asserts the selected content, that content has cognitive significance. Truth and a verification criterion are separate. Attribution deferred."
+
+[[statement]]
+id = "Some supplied content is cognitively meaningful"
+lean = "SomeMeaningfulContent"
+definitions = ["Cognitive meaning of supplied contents"]
+paraphrase = "The supplied content domain contains a cognitively meaningful member."
+
+[[statement]]
+id = "No supplied content is cognitively meaningful"
+lean = "NoMeaningfulContent"
+definitions = ["Cognitive meaning of supplied contents"]
+paraphrase = "The supplied content domain contains no cognitively meaningful member. Extrapolation beyond the domain requires independent scope evidence."
+
+[[statement]]
+id = "Someone believes some supplied content"
+lean = "SomeBelief"
+definitions = ["Belief and local assertion sincerity"]
+paraphrase = "Some supplied agent believes some supplied content. No truth or epistemic reason is inferred."
+
+[[statement]]
+id = "Nobody believes any supplied content"
+lean = "NoBeliefs"
+definitions = ["Belief and local assertion sincerity"]
+paraphrase = "No supplied agent believes any supplied content."
+
+[[statement]]
+id = "Someone asserts the denial that there are any beliefs"
+lean = "NoBeliefsIsAsserted"
+definitions = ["Assertion of selected content", "Belief and local assertion sincerity"]
+paraphrase = "OPEN analyst occurrence input: some supplied agent asserts the very Lean proposition that nobody believes any Lean proposition. Attribution deferred."
+
+[[statement]]
+id = "Assertions of the denial of all beliefs are sincere"
+lean = "NoBeliefsAssertionIsSincere"
+definitions = ["Assertion of selected content", "Belief and local assertion sincerity"]
+paraphrase = "OPEN analyst sincerity bridge: every supplied agent asserting the denial of all beliefs believes that very proposition. Attribution deferred."
+
+[[statement]]
+id = "Assertion retorsion omission interpretations"
+lean = "OmissionControls"
+definitions = ["Assertion of selected content", "Cognitive meaning of supplied contents", "Belief and local assertion sincerity", "Phenomenal occurrence among supplied episodes", "Occurrence to existence through an episode representative", "DEF-THOUGHT-OCCURRENCE", "DEF-EPISTEMIC-REASON-THIN-EXISTENCE"]
+paraphrase = "Five one-agent or one-episode interpretations witness the distinct costs of omitting sincerity, cognitive meaning, cognitive realization, phenomenal classification and existence representation. The first model has no belief, an assertion of that denial, and an epistemic reason to believe the same denial. These are stipulated relational interpretations."
+
+[[argument]]
+id = "Thought occurrence from an actual assertion and cognitive realization"
+theorem = "thoughtFromAssertion"
+premises = ["Someone asserts the selected content", "Assertions of this content have an occurring thought realization"]
+conclusion = "STMT-COGITO-THOUGHT-OCCURS"
+rule = "Existential witness composition"
+meaning = "Take an agent actually asserting the selected content. The local realization bridge gives an occurring thought realizing that agent's assertion. This supplies the existing positive Cogito witness without a bearer, truth, sincerity or persistence premise. Both inputs remain open."
+
+[[argument]]
+id = "Phenomenal experience from a realized assertion and its phenomenal classification"
+theorem = "experienceFromAssertion"
+premises = ["Someone asserts the selected content", "Assertions of this content have an occurring thought realization", "Thought realizations of assertions of this content are experienced"]
+conclusion = "Some occurring episode is phenomenally experienced"
+rule = "Same-witness composition"
+meaning = "Take an agent making the assertion, then an occurring thought realizing that assertion, then apply the phenomenal bridge to that episode and the same agent. This gives an episode that both occurs and is experienced. No phenomenal conclusion follows from the thought occurrence theorem alone."
+
+[[argument]]
+id = "Selected existence from thought occurrence and representation"
+theorem = "existenceFromOccurrence"
+premises = ["STMT-COGITO-THOUGHT-OCCURS", "Every occurring thought has an existing representative in the interpretation"]
+conclusion = "Some candidate exists in the supplied interpretation"
+rule = "Existential witness transport"
+meaning = "Select an occurring thought, then its representative. The open episode-to-existence bridge supplies that same candidate's membership in the existence extension. Combined with the assertion route this defeats the scoped emptiness denial under all three premises. An actual-world application needs the intended existence extension and the same representation contract. Concrete population needs a further concreteness bridge."
+
+[[argument]]
+id = "Cognitive meaning from an assertion under the local meaning requirement"
+theorem = "meaningFromAssertion"
+premises = ["Someone asserts the selected content", "Assertion of this content requires its cognitive meaning"]
+conclusion = "Some supplied content is cognitively meaningful"
+rule = "Existential witness instantiation"
+meaning = "An assertion witness and the local meaning requirement give the selected content as a meaningful instance. If this content is the purported denial of all cognitive meaning in the supplied domain, its meaningful assertion excludes that denial. The theorem asserts neither that arbitrary strings convey content nor that any selected content expresses that denial."
+
+[[argument]]
+id = "Belief from a sincere assertion of the universal denial of belief"
+theorem = "beliefFromSincereDenial"
+premises = ["Someone asserts the denial that there are any beliefs", "Assertions of the denial of all beliefs are sincere"]
+conclusion = "Someone believes some supplied content"
+rule = "Self-instance under the sincerity bridge"
+meaning = "The very proposition that nobody believes anything is the content believed by an agent sincerely asserting it. This makes that denial false in the selected belief interpretation. Sincerity is local and open, and F6 by itself does not supply an actual belief."
+
+[[argument]]
+id = "Assertion retorsion controls for the five separate bridges"
+theorem = "controls"
+premises = []
+conclusion = "Assertion retorsion omission interpretations"
+rule = "Explicit relational interpretations"
+meaning = "Independent assignments give an asserted denial without belief even when F6 holds and the same denial has a reason, a speech marker without cognitive meaning, an assertion marker without thought, a thought realizing an assertion and represented as existing without phenomenal experience, and an occurring thought in a model with an empty existence extension. These interpretations isolate bridges and do not establish that any assignment is metaphysically possible."
+
+[[relation]]
+id = "No phenomenal occurrence is the exact alternative to phenomenal occurrence"
+subject_kind = "statement"
+subject_id = "None of the occurring episodes is phenomenally experienced"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Some occurring episode is phenomenally experienced"
+note = "Exact negation on the same episode domain and the same occurrence and phenomenal predicates."
+
+[[relation]]
+id = "Empty existence is the exact alternative to populated existence"
+subject_kind = "statement"
+subject_id = "Nothing exists in the supplied interpretation"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Some candidate exists in the supplied interpretation"
+note = "Exact negation for the same candidate domain and existence extension."
+
+[[relation]]
+id = "No cognitive meaning is the exact alternative to some cognitive meaning"
+subject_kind = "statement"
+subject_id = "No supplied content is cognitively meaningful"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Some supplied content is cognitively meaningful"
+note = "Exact negation within the same content domain and the same cognitive-meaning predicate."
+
+[[relation]]
+id = "No beliefs is the exact alternative to some belief"
+subject_kind = "statement"
+subject_id = "Nobody believes any supplied content"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Someone believes some supplied content"
+note = "Exact negation for the same agent and content domains and belief relation."
+
+[[relation]]
+id = "The occurrence witness refutes scoped emptiness"
+subject_kind = "argument"
+subject_id = "Selected existence from thought occurrence and representation"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "Nothing exists in the supplied interpretation"
+note = "Under the representation premise, the occurring episode's representative is in the same candidate domain and existence extension as the denial."
+
+[[relation]]
+id = "The meaning witness refutes the denial of cognitive meaning"
+subject_kind = "argument"
+subject_id = "Cognitive meaning from an assertion under the local meaning requirement"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "No supplied content is cognitively meaningful"
+note = "The assertion supplies a witness for the same content domain and meaning predicate."
+
+[[relation]]
+id = "The phenomenal witness refutes the denial of experience"
+subject_kind = "argument"
+subject_id = "Phenomenal experience from a realized assertion and its phenomenal classification"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "None of the occurring episodes is phenomenally experienced"
+note = "The same episode both occurs and meets the phenomenal predicate denied of every occurring episode."
+
+[[relation]]
+id = "A sincere assertion witness refutes the denial of belief"
+subject_kind = "argument"
+subject_id = "Belief from a sincere assertion of the universal denial of belief"
+predicate = "refutes"
+object_kind = "statement"
+object_id = "Nobody believes any supplied content"
+note = "The assertion witness believes the denial under the explicit sincerity bridge in the same belief relation."
