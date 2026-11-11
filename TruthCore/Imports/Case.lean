@@ -4,6 +4,7 @@ module
 public import TruthCore.Case.Catholicism.CausalPerfectionTransfer
 public import TruthCore.Case.Catholicism.ClassicalAttributesJointWitness
 public import TruthCore.Case.Catholicism.ClassicalAttributesLocalLogic
+public import TruthCore.Case.Catholicism.DivineLoveBridge
 public import TruthCore.Case.Catholicism.FoundingIndependence
 public import TruthCore.Case.Catholicism.MaximalBeingCauseExclusion
 public import TruthCore.Case.Catholicism.PrimaViaStrengthBoundaries
