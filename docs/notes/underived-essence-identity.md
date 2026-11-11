@@ -375,6 +375,164 @@ No Lean type, source claim or inference graph changed. Root-premise and
 configuration delta: none. Source integrity is newly reproducible; source
 fidelity and metaphysical applicability remain separate judgments.
 
+### Contingency-to-reception warrant assessment (2026-11-11; proposed outcome)
+
+This is the dependence slice of the owner's necessary-underived-being priority,
+on evidence revision `6d9b38009`. It serves `EveryContingentGroundedAt`
+(`c71c068c-bbae-5ed5-a99d-70b155c8d239`) in
+`NECESSARY-CONCRETE-UNDERIVED-COMPOSITION` (`df542c04`), whose conclusion is
+`0bdcf366`. **Draft for independent semantic challenge:** the judgments below
+are proposed research findings, not reviewed support, new certificates or
+premise closure. This continuation reuses the source readings above and the
+[recorded inertia debate](../eternity-dependence-connection.md#existential-inertia-the-live-rival-and-the-remaining-bridge);
+it makes no new historical attribution or claim to a fresh source reading.
+
+The exact participation route is
+`TruthCore.Results.Causality.Round2Grounding.contingentGroundedViaParticipation`.
+It consumes the OPEN analyst bridge `ff8ff869` (actual contingent concretum
+participates), OPEN `732302a1` (participation supplies a distinct esse cause),
+and OPEN `cb1cdea9` (such a cause supplies an actual concrete ground). Its
+`Participates : B → Prop` parameter has no body that derives reception from
+modal contingency. The sourced definition `14d30c53` describes derivative
+being; assigning the predicate to a contingent object does not establish that
+description. A bridge cannot gain warrant merely by calling this assignment
+participation. `DistinctEsseAt` instead combines supplied actuality with
+represented principle nonidentity; neither predicate analyzes modal absence.
+
+#### The strongest positive inference and its actual depth
+
+The charitable positive case is not “anything imaginable as absent needs a
+cause.” It is that an existent whose nature leaves its actuality unsettled
+does not explain that actuality merely by having that nature; something must
+settle its actuality, and a merely potential recipient cannot supply its own
+existential act. This identifies a real explanatory task. The stages below
+separate what supports the inference from what would assume its endpoint.
+
+| Stage | Positive reason and what it supports | Further burden and strongest reply |
+|---|---|---|
+| Contingency excludes existence entailed by a necessarily obtaining intrinsic reason | If the complete intrinsic reason obtains throughout the selected accessible alternatives and necessitates this individual's existence, its absence at one alternative is contradictory. The existing `BruteFoundationExplanations.contingentExcludesNecessaryNecessitatingReason` proves exactly this. | It does not show that every intrinsic reason necessarily obtains or necessitates its bearer. An instantiated nature or power may be contingent; an essential conditional about a bearer need not assert that bearer exists. |
+| A nature understood without known instantiation is not yet an explanation that it is instantiated | The De ente human/phoenix distinction prevents a bare account of what something is from being mistaken for an independent demonstration that it is. | Epistemic separability does not prove real constituent nonidentity. Conversely, real nonidentity would not by itself prove modal contingency. A fixed `essenceOf x = esseOf x` equation is also not a proof that `InAct x esse` holds in every world. The current type has no such law. |
+| Actuality calls for an adequate account beyond an incomplete nature description | The unanswered why-question is a positive motivation for explanatory coverage; repeating an incomplete description does not answer it. | The inference from an unanswered question to an actual adequate ground is rationalism/coverage. A contingent primitive rejects universal coverage; a noncausal account may accept coverage while denying efficient production. Neither response is refuted by the fact that the question is intelligible. |
+| Actuality distinct from a nature is received rather than just additional | Reception would explain why this nature has actual being without sufficiently efficiently originating itself. Q3a4's causal exhaustion and self-cause exclusion articulate that account. | Being additional to a description does not itself mean being productively received. The causal dichotomy `be639b3f` supplies this transition only for an already-distinct-esse target, and remains OPEN. “Whatever is not explained intrinsically is externally efficiently actualized” excludes the noncausal and primitive options instead of independently answering them. |
+| No efficient act originates its own bearer's existence | The existing `PerSeCausalLoopImpossible.noExistentialSelfActualization` excludes this under bearer-priority, product-priority and a strict transitive mixed order. This is substantive conditional pressure against productive self-origin. | Intrinsic noncausal intelligibility, an inertial transition rule, and a prior state are not necessarily acts producing their own bare bearer. Extending the priority interfaces to them requires an argument. Denial of productive self-cause does not supply a cause. |
+| Reception is concurrent actual support | If esse is now being given, the effect's present esse depends on that productive giving; the q104 reading explains why conservation need not be repeated recreation. | The inference that all persistence is such giving is the disputed conservation premise. Illumination and powered processes illustrate it where current input is independently identified. They do not establish it for their material bearers, or for every contingent existent. Presence, concreteness and the selected-ground correspondence remain separate applications. |
+
+There is an affirmative discrimination here: an intrinsically necessitating
+account consisting entirely of reasons necessary in the same frame cannot
+explain a genuinely contingent individual's existence while retaining both
+claims. That restriction is already proved, not a new theorem of this slice.
+It applies equally to a proposed necessary divine reason if that reason is
+also stipulated to necessitate this particular contingent effect. Permitting
+nonnecessitation for one candidate while banning it for another requires a
+relevant independent difference. No such difference follows from their labels.
+
+The stronger positive inference still needs two independent defenses:
+explanatory coverage, and the claim that an adequate explanation of this
+actuality involves productive receipt. They are not one proposition. Necessary
+nonnecessitating reasons, qualitative grounds and intrinsically contingent
+conditions challenge different stages; rejecting one does not establish the
+others. Nor can the separate q3 and q44 arguments count as independent
+corroboration of contingency-to-reception when both applications borrow that
+same unproved bridge. Q44's previously recorded unique-subsistent-esse route
+would additionally borrow earlier first-source and uniqueness conclusions.
+
+#### Descending into the standing replacement accounts
+
+**Intrinsic contingent account.** Its strongest local form posits a concrete
+primitive with determinate nature and actual powers, allowing those powers to
+explain its behavior without an incoming productive existential edge. It need
+not claim that an abstract nature necessarily instantiates itself, or that an
+efficient action produces its own bearer. If it offers its instantiated nature
+as the *complete explanation of its own instantiation*, it owes a noncircular
+account: the proposed explanans already includes what is to be explained.
+Dropping that complete-explanation claim leaves primitive actuality and a
+denial or restriction of coverage, rather than a contradiction. This is a
+specific explanatory debt, not an objection to the unusualness of a primitive.
+The same debt faces any alleged necessary terminus whose necessity merely
+redescribes its existence rather than explaining it.
+
+**Inertial account.** Earlier existence plus no destructive change proposes
+an account of later existence of the *same bearer*. Its strongest law form
+makes persistence the default transition from a given earlier state; it does
+not turn a power, ontologically posterior to the substance, into its efficient
+self-creator. Thus Feser's recorded power/substance circularity objection
+presses an intrinsic persistence-power explanation but does not by itself
+exclude this broader law/earlier-state proposal. The rival owes the law's
+scope, its applicability to existential rather than merely state transitions,
+and why it supplies an adequate explanation. The conservation account owes
+the competing necessity of productive input for precisely those transitions.
+Neither law is established by the observation that the bearer persisted.
+If the earlier state is accepted, this reply addresses persistence; it does
+not account for initial actuality. A beginningless history removes a first
+time, but leaves the whole-history/explanatory-coverage question open. Times
+cannot be substituted for accessible worlds to infer de re necessity.
+
+**Contingent-root account.** This admits an actual contingent terminus with
+no incoming selected ground, while allowing ordinary downstream causes and
+explanations. `SpineRivalsRootEsse.Control.bruteRoot` and the checked
+`contingentRootSurvives` interpretation show that selected-world rootness and
+uniqueness do not alone force necessity. It is a structural surrogate: its
+one candidate and empty ground relation do not encode ordinary downstream
+causation, a nature, persistence laws or explanatory adequacy. It must not be
+advertised as a checked complete intrinsic/inertial worldview. Its positive
+metaphysical claim is fundamental contingent actuality. The price relative
+to unrestricted coverage is refusal to explain that actuality; if coverage
+is not accepted, the recorded theorem supplies no internal inconsistency.
+
+The existing participation omission controls are similarly scoped. In
+`Round2Grounding.Control.contingentGroundedViaParticipation.omit_hPart`,
+`Partic` and `C` are empty; the cause and cause-to-ground universals hold
+vacuously while an actual contingent concretum lacks a ground. The checked
+`contingentGroundedViaParticipation_omit_hPart` therefore blocks deriving
+participation from those other formal route inputs. It does not show that
+real participated esse is uncaused, or that a bearer with the full intended
+metaphysical nature can remain primitive. The `omit_hCause` and `omit_hEsse`
+controls separately retain the other inputs. Their separate models are not
+silently combined into one interpretation preserving every rival commitment.
+
+#### Proposed overall provisional judgment and next discrimination
+
+For the selected modal meaning, the contingency-to-reception inference is
+**not independently warranted by the inspected argument**. The positive case
+is strongest as a demand to explain actuality beyond a noninstantiating nature
+description, and as an exclusion of necessary necessitating intrinsic
+sufficiency. This gives a reason to investigate explanatory coverage and
+productive realization; it does not yet favor universal concurrent esse
+reception over the strongest law-based or fundamental-contingency replies.
+This is underdetermination of the present evidence, not equal credibility of
+all theories and not proof that the target is false. The necessary-underived
+route remains a conditional support option on these premises. No global
+assessment of all arguments for necessary being is inferred from this slice.
+
+The discriminating next test is the **no-input persistence claim for an
+already actual bearer**, with both accounts required to keep that same bearer
+and the same ordinary destruction history. Ask what independently necessitates
+the withdrawal of *productive existential input* to remove that bearer even
+when no represented destructive process occurs. The productive account must
+give grounds for this input/dependence claim independently of defining the
+bearer as received; the inertial account must justify its no-loss coverage
+rather than infer it from no observed destruction. Existing protective-process
+certificates establish survival only under initial presence and loss-coverage
+assumptions and allow empty `CausesIn`; they cannot answer this by themselves.
+A physically powered *process* whose matter survives withdrawal tests the
+process, not existence of its bearer. An alleged input that can only be
+identified by the very dependence claim under dispute does not yet provide
+independent discrimination. No decisive bearer-level example is supplied by
+the inspected evidence; that evidential/application bridge is the present
+blocker, not the unavailability of another conditional composition.
+
+Reopen this assessment on an independently justified productive-receipt
+argument for an actual target, an independently defended existential
+no-loss law, or an accepted coverage criterion that excludes the contingent
+primitive and explains why noncausal accounts fail that criterion. A finding
+for one actual bearer would support that instance, not automatically the
+universal `ff8ff869`. Even successful generalization must retain same-world
+cause presence, concreteness and the `cb1cdea9` ground correspondence, and then
+the necessary-being route's independent foundation/underivedness assumptions.
+No added, removed or discharged root premise; no new formal result or source
+claim. This two-file research delta requires semantic review and offline record
+checks; unchanged proof certificates are reused, with delivered-head CI retained.
+
 ### Direct Dasgupta reading: one existential ingredient, not pure existence grounds
 
 New pinned author-hosted primary witness:
