@@ -99,3 +99,228 @@ witness is obtained from a general explanatory account; generation and ongoing
 existence are distinct; and the source's mover exception is preserved. The
 old causal-source proofs are not re-run or relabeled. Final CI owns integration
 checks of the delivered source/record revision.
+
+## Constitutive existence versus instrumental routing (2026-11-11)
+
+### Question, reuse and evidence boundary
+
+This follow-up tests the existential-foundation obligation
+`82cfaf26-fc86-54ab-8328-9a7b2bdbbe21` and its weaker sufficient alternative
+`5c898d24-d1f7-5087-b09e-3287a723e787` (whole-roster nontrapping). The parent is
+argument `df542c04-6033-5d7d-b681-b81263dc1245`, conclusion
+`0bdcf366-29c7-5d45-b603-5c929dcad976`, the actual #487 necessary-concrete route.
+The selected question is whether a positively specified constitutive account
+can explain an actual entity's existence without being an instrument routing
+another independently actual supplier's efficacy. It is not whether every
+actual entity has a constitutive explanation or whether an infinite hierarchy
+is realized.
+
+Baseline: main `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`.
+Inspected context for the parent and WholeRosterFoundation result, related search
+for the foundation and H.6 seeds, and dossiers for the foundation,
+whole-roster premise, contingent-dependence premise and H.6 unity target.
+Reused the prior foundation audit at
+`486b956a909765605cec6fa321c435859400a88f`, especially its SCG I.13 reading
+and distinction between dependent actual reception and absence of actuality.
+Its conclusions are not additional independent witnesses for foundation.
+
+Re-materialized and read the complete Greek `ARIST-MET-VIII-6`, existing
+passage `73babf56-046a-593b-81dd-189107eec1c5`, at the Ross/Perseus revision
+and blob recorded above; also the complete existing English
+`AQUINAS-ST-I-Q104-A1-EN`, passage
+`f74e1b94-6c4e-5604-a369-42b30549e0f5`. The latter's corpus, builder/house
+paragraph, later participation argument and replies 1 and 4 are distinguished
+below. These are selected readings, not a general source check or a new
+attributed claim. The following constitutive reconstruction and appraisal are
+analyst reasoning; the texts' assertions do not certify their truth.
+
+### Strongest inspected positive account
+
+H.6 is stronger for this question than the existing finite arrangement,
+fusion or Vitalism controls: it supplies a reason why the constituents and
+whole have the explanatory roles proposed, rather than simply assigning a
+candidate grounding relation. Its proximate matter is potential relative to
+this form; the form is its actuality. They are not two independently actual
+substances joined by a further independently existing tie. This can explain
+why the *specified composite is one existing thing*, rather than only why an
+already admitted bearer performs a function. The qualification matters:
+explaining unity/being-this is not automatically explaining why any actual
+material/formal reality obtains.
+
+The house discussion in q.104 a.1 co. gives the most concrete inspected
+companion account. The builder arranges cement, stones and wood; their natural
+qualities make the arrangement possible and allow it to persist. The house's
+being depends on those materials' natures while its becoming depends on the
+builder's action. Thus the source itself allows a positive present material/
+formal explanation while distinguishing it from the ceased producer. This is
+not an independently verified engineering model, a proof that artifacts are
+substances, or an assertion that a house is ontologically additional to its
+materials. It provides an articulated candidate to test, with an independently
+recognizable material arrangement, rather than an unexplained label “adequate.”
+
+| Load-bearing role | Positive specification | What remains to be warranted |
+| --- | --- | --- |
+| Relata | An actual organized composite; material/formal principles in H.6, or the actual materials in q.104's house case. | Principles and facts are not automatically distinct actual concrete bearers in the #487 domain. |
+| Joint basis | Materials with relevant qualities, their spatial/contact arrangement and its obtaining, including the conditions needed for that arrangement to persist. | Listing components alone omits the arrangement; listing a possible arrangement omits actual realization. No exhaustive physical basis is supplied by these passages. |
+| Direction | What makes this composite the thing it is includes its material/formal constitution; the builder's stopped activity does not constitute its continuing unity. | Loss under removal alone is not explanatory priority: the direction needs a defended constitutive account, not just symmetric necessary coexistence. |
+| Sufficiency | Given an actually obtaining appropriate basis and a faithful constitution criterion, this composite exists in virtue of it. | This is conditional on that basis and criterion. Neither merely possible components nor an uninstantiated form entails an actual bearer. |
+| Global status | The local account need not include a separate principal whose efficacy is transmitted through every constituent. | It has not explained why the complete actual basis obtains, nor shown that it has no independent supporter. |
+
+### Does the proposed full ground already contain the conclusion?
+
+This is the strongest immediate foundationalist objection. If “the form is
+actual” only means “this very whole exists,” invoking it to establish the
+whole's actuality gives no independent explanation. Calling the materials
+*proximate matter of this actual whole* can likewise smuggle in the whole as
+part of their identification. H.6's potential/actual schema alone does not
+resolve this objection. The house example helps specify a test but does not
+complete it.
+
+A genuinely discriminating constitutive account should specify its material
+subjects and arrangement without using the target's existence as the criterion
+for their obtaining: for example, actual identified materials in specified
+contact and spatial relations with relevant cohesion/stability conditions,
+rather than “the house-form is instantiated.” It must then defend why those
+facts suffice for this kind of whole, how they distinguish a heap or merely
+similar facade, and what happens under relevant changes. These are proposed
+criteria for an independently supported account, not empirical conclusions
+from an untested construction. The arrangement-dynamics certificate verifies
+selected response histories; it does not meet the further bearer-existence
+criterion. The material-constitution certificate stipulates divergent
+persistence rather than independently establishing it. Vitalism's same-profile
+controls leave substantial unity undetermined.
+
+There are consequently two live constitutive replies. A reductionist may
+identify the whole's existence with appropriate configured material reality,
+so there is no extra bearer requiring a further existential contribution. That
+reply owes its identity/ontology claim and the constitutive criterion; equality
+of observations alone is insufficient. A nonreductive account may make a real
+whole exist in virtue of those conditions without identifying it with their
+plurality. It then owes a real constitution relation and sufficiency, rather
+than a primitive whole-label. H.6's schema does not choose between every such
+modern account. Neither is shown inconsistent here. A real constitutive
+explanation need not temporally produce its target, but explanation by a
+re-description alone supplies no independent warrant.
+
+### Descending the foundationalist challenge and rival reply
+
+**First: the same explanandum.** For *why this organized composite presently
+exists*, the material/formal account can be a genuine candidate existential
+explanation, conditional on its ontology and full actual basis. Dismissing it
+as merely functional would prejudge that ontology. For *why any of that basis
+is actual*, it has not answered the question. Neither side may exchange those
+targets mid-argument. The defender of efficient conservation can consistently
+accept the constitutive explanation while adding a cause of the whole basis;
+constitution and conservation are not forced exclusive alternatives.
+
+**Second: actuality of the materials.** The foundationalist asks what makes
+the materials actual. That is a relevant further question, not a refutation of
+the local explanation. The constitutive rival can extend its account to their
+constitution. It must preserve actual relata, full arrangements and the same
+explanatory direction at every proposed level. An infinite repetition of the
+word “constitution” does not establish that such relata exist. Conversely,
+the fact that each local explanation presupposes actual grounds does not
+make it circular: the grounds may be distinct from that local explanandum.
+The step from local presupposition to a missing *collective* actuality is the
+unresolved step under investigation.
+
+**Third: arrangement and governing natures.** Why these actual relations and
+these constraints? A positive essentialist reply is that the constituents'
+natures make relevant arrangements constitutive of this kind of whole; it
+must independently identify those natures and their explanatory consequences.
+Calling a law “the constitution law” merely relocates the burden. A law or
+conditional specifies what follows if realized; it does not alone instantiate
+its antecedent. If the obtaining arrangement requires further actual grounds,
+include them. If an arrangement or nature is accepted as primitive, record
+that stopping point and test it against the selected explanatory demand;
+calling it primitive does not automatically make it either incoherent or an
+adequate ultimate explanation.
+
+**Fourth: why must existential support be instrumental?** The strongest reason
+for the routing account is not counting infinitely many zeros. An instrument
+contributes an efficacy that is wholly another's exercised through it; more
+routes do not independently supply that efficacy. This is relevant when the
+support has been independently shown to have that character. It does not
+classify all material/formal explanation as instrumental. H.6 instead proposes
+intrinsic constitution of a whole, not transfer of a stock of existence.
+Derivative actual contributors are not nonexistent contributors. To extend
+the principal/instrument argument to this case, establish that the very
+constitution and actuality of its full basis require a distinct supplier's
+present efficient act, and why an everywhere derivative realization cannot
+suffice. Those are substantive premises, not consequences of saying “depends.”
+
+Q.104 supplies the strongest inspected integrated foundationalist reply:
+being from form still presupposes divine influence (ad 1); all creatures'
+being is participated while God's essence is existence (co.); conservation
+continues the giving of esse without motion or time (ad 4). This avoids
+mistaking dependence for unrealized potency and can accommodate the local
+constitutive account. Its universal application, however, uses the prior
+God/participation/essence–esse account. Reusing it here to establish the initial
+underived source without independent support would inherit that shared
+burden. The house and illumination examples do not independently establish
+its universal scope. This investigation does not reject that wider account;
+it identifies the further premises on which its answer depends.
+
+**Fifth: beginningless global realization.** A constitutive infinitist must
+supply a reason to accept a genuinely actual hierarchy with its full grounds,
+not just a coherent graph, and address why the entire configuration obtains.
+The inspected finite and source cases supply no such infinite-realization
+warrant. A globally irreducible concrete whole whose intrinsic constitution
+supports its parts could instead be a root of the selected relation; it would
+not by itself defeat one-source existence. Schaffer's inspected framework
+actually assumes foundational priority and restricts its material domain;
+it is not independent evidence for source-free infinitism. An everywhere
+constituted order is the relevant rival only if no independent actual concrete
+supporter remains in the admitted roster. A global explaining fact is not
+thereby a concrete supporter. These possibilities remain open, not certified
+metaphysical models.
+
+### Consequence for the actual route and provisional assessment
+
+The positive gain is a sharper interpretation test. A constitutive account can
+answer a local composite-existence question without its explanation taking the
+form of instrumental transmission; the inspected evidence does not establish
+that all existential support must be routing. Neither does it establish an
+actual source-free constitutive order. The present assessment is therefore
+underdetermined on **one actual underived source**, with more explicit reasons
+for refusing both the universal routing inference and an infinite-constitution
+victory. This refines the prior audit; it does not overturn its judgment.
+
+The exact missing bridge is from independently specified, actually obtaining
+full constitutive grounds to the SAME world-local `m.grounds` existential-support
+relation and its actual concrete supporter domain. Material/formal principles,
+arrangement facts and laws must not be inserted into the concrete roster
+without that interpretation. `recorded (graph m w)` lists all immediate grounds
+in the chosen binary relation; it does not establish that this exhausts the
+full fact/principle-level basis. If that bridge is supplied, the remaining
+question is whether the entire actual roster can be everywhere derivative
+under that same meaning. Local constitutive sufficiency alone warrants neither
+`WholeRosterNotTrapped` nor its denial, still less all-branch WF.
+
+Reuse `WholeRosterFoundation.actualRootExists` and `necessaryActualRoot` for
+the weaker sufficient route: population, whole-roster nontrapping and EM give
+one actual root; contingent dependence adds necessity of that same root.
+The existing parent retains its modal support and union-WF obligations. No new
+route is registered; none of those application premises is independently
+established or refuted here. Root-premise comparison: **no change**.
+
+This assessment would strengthen toward foundation if the universal
+participation/current-efficient-support account were independently defended
+for the same full constitutive basis, together with collective non-generation.
+It would strengthen toward the rival if an independently identified actual
+constitution hierarchy explained both local bearers and the global obtaining
+without an independent concrete supporter or an unexplained selector. A
+completed finite case alone would support the local constitutive interpretation,
+not that infinite conclusion. Suspend the application if the grounds turn out
+to concern only a property or mathematical description, or cannot be related
+to the concrete-support domain.
+
+The next discriminating test is an independently specified actual bearer case
+whose constitutive identity/sufficiency and current efficient-conservation
+claims can be assessed on the SAME full basis. The inspected corpus currently
+provides source arguments and structural controls, not that completed
+case. Prioritize that application evidence or independent participation
+argument; another rank/order certificate or opaque sufficiency flag would not
+resolve the obstacle. No new theorem is proposed because the missing step is
+not an unproved consequence of the existing formal assumptions. All earlier
+proofs and source-reading scope remain unchanged.
