@@ -326,9 +326,12 @@ needs excluded middle, and Kant's generic `Causes` is not `CausesAsCaused`.
   cause, so applying that statement specifically to the typed relation
   `CausesAsCaused` requires an interpretive step. The passage is **not** counted
   as a mathematical proof of well-foundedness.
-- **Research leads, not yet pinned claims:** Robert Koons, *A New Kalam
-  Argument: Revenge of the Grim Reaper* (the causal-network patchwork route);
-  Nicholas Shackel, *The Form of the Benardete Dichotomy* (the unsatisfiable-pair
+- **Koons reading completed:** Robert C. Koons, *The Grim Reaper Kalam
+  Argument* (author-hosted manuscript), §4, printed pp.14–16, with §3 and
+  §5 context. The pinned witness and prior reconstruction are in
+  [the #367 source audit](notes/causal-finitism-367.md#renewed-defense-audit-the-patchwork-bridge-2026-10-28).
+  The ACT-TRANSFER reassessment below reuses that work.
+- **Further research leads:** Nicholas Shackel, *The Form of the Benardete Dichotomy* (the unsatisfiable-pair
   diagnosis); Alexander Pruss, *Infinity, Causation, and Paradox* (super-tasks
   and causal finitism), and his 2025 essay *Grim Reapers and Logical
   Impossibility* (the effects of additional rules such as resurrection);
@@ -413,3 +416,173 @@ separate time-indexed control, already in the corpus; it is not silently
 identified with this binary witness. Moving-as-moved and causing-as-caused also
 remain distinct, connected only under their existing explicit link premise.
 No root route, floor, no-regress input, or source-derived Challenge is changed.
+
+
+## ACT-TRANSFER reassessment for #310 (2026-11-11)
+
+### What is already delivered
+
+The November 3 issue comment's “§4 not pinned or read” item is superseded by
+existing work, not a new source discovery here. The author-hosted witness is
+[recorded](../corpus/passages/koons-grim-reaper-kalam.json), and the
+[existing attempt](../corpus/attempts/pruss-koons-finite-history-reading.json)
+and [#367 note](notes/causal-finitism-367.md) preserve its reading, rival and
+formal follow-ups. This continuation reread the materialized, hash-checked
+pp.6–16 and 18–22. The cached PDF title page identifies Robert C. Koons and the fuller title
+*The Grim Reaper Kalam Argument: From Temporal and Causal Finitism to God*;
+the corpus uses its short title and identifies it as an author-hosted manuscript.
+No new historical claim or proof certificate is introduced.
+
+`INDEXED-SIGNAL-REAPER` already derives the Reaper law from the jointly required
+index bound, positive trigger, own-code emission and unchanged forwarding;
+`GRIM-REAPER-NO-FIRST-SCHEDULE-IMPOSSIBLE` supplies the contradiction. The
+omission controls preserve the other three rules when one is removed. These
+are verified conditional mathematical results. They neither realize the rules
+metaphysically nor derive them from arbitrary borrowed power. Repeating a
+conditional with an opaque “possible network” premise would add no evidence.
+
+### Does simultaneity itself defeat the strategy?
+
+No such defeat follows from §4. Its CPNPP preserves a directed causal-power
+pattern; unlike §3's spatiotemporal patchwork, its stated antecedent does not
+require a metric/topology-preserving embedding of the original times. Thus it
+would be too quick to say that a present simultaneous series cannot be used
+because the illustrative Placers act successively. A defender can propose that
+the original series supplies only the possible causal graph, while replacement
+patches supply the Placer response and, where needed, its timing. This is the
+strongest positive application to #310; it does not infer an infinite past
+from a simultaneous chain.
+
+That proposal still needs three different permissions:
+
+1. **Framework interpretation.** The hypothetical present exercises must yield
+   actual event-nodes in one possible world, with each selected upstream link
+   having the p.15 meaning: an entity's power relevant to influencing the next
+   event. A coherent assignment of activity values alone supplies no such
+   event/power interpretation. If actual power exercises are admitted as events
+   with these influence relations, that particular objection is answered
+   conditionally. A mere relational resemblance is insufficient. The prior
+   bearer/esse map remains a separate, already recorded gap.
+2. **Uniform replacement.** For every node, not merely three named nodes, the
+   chosen replacement and exact duplicates of its adjacent replacements must
+   form a possible local event context. The Trio is Koons's positive proposal
+   for this step (p.16). Moving from that example to every indexed role must
+   preserve the relevant detector/register, the trigger and maintained signal
+   content, and any required temporal ordering. Relabeling intrinsic
+   index-sensitive positions or response powers is not automatically exact
+   duplication. This is an uncompleted applicability argument, not a proof
+   that the required local contexts are impossible.
+3. **Countable assembly.** CPNPP supplies one world realizing all those patches
+   in the selected graph. Intrinsicality preserves a power in an exact
+   duplicate *if that duplicate exists*; it does not independently provide
+   all duplicates' joint existence. Positive influence edges alone do not
+   supply complete channel handoff or exclude relevant bypass inputs. Complete
+   protected patches are the strongest proposed answer, but their preservation
+   together is precisely what needs independent justification.
+
+There is no additional requirement here to preserve the original chain's
+spacetime metric under CPNPP. Conversely, a mathematical assignment of new
+successive times would establish only scheduling, not any of the three modal
+permissions above. No new scheduling theorem is warranted by this audit.
+
+### A discriminating test: duplicating complete events or only capacities?
+
+The phrase “complete protected patch” needs a precise scope. CPNPP's function
+on p.15 selects events g(n), and the neighboring contexts must contain exact
+duplicates of those same selected events. It does not merely require that for
+each n some mechanism of the same general kind could occur beside some other
+mechanisms. This makes a useful further test available without inventing a new
+Reaper model.
+
+Suppose the proposed patches include complete realized register traces. Assume
+there is a duplicate-invariant projection from each selected g(n) to its output
+`signal(n) : Option Nat` and issuance fact `issued(n)`, and that each possible
+adjacent context preserves the full four local interfaces for those projected
+values, including the same input/output handoff. The selection g then already
+fixes ONE assignment on Nat. Local realizability for EVERY n entails the index
+bound, trigger, emission and forwarding rules for this assignment. The existing
+`IndexedSignalReaper.firingLaw` and `GrimReaperImpossible.grimReaperImpossible`
+exclude that bundle. Under these strong trace-projection assumptions, the
+uniform local-replacement antecedent fails before CPNPP supplies a world.
+This is an explicit conditional reuse argument in prose, not a new certified
+theorem or a verified source interpretation. In particular, no such projection
+from Koons's event patches is established here.
+
+If instead g(n) fixes only possession of a conditional response capacity,
+possible local contexts can leave its eventual manifestation undetermined.
+Then the proposed trace projection is unavailable, and that preceding argument
+does not apply. This preserves the strongest positive reply: intrinsic devices
+can have powers independently of what happens to activate them. But then
+intrinsic duplication alone cannot be cited as preservation of a preselected
+complete trace; the construction must separately show how the globally assembled
+capacities enforce the required actual register interfaces and handoff. It
+cannot silently alternate between capacity-only local feasibility and fully
+manifested trace duplication.
+
+This test sharpens the next source/application question rather than claiming a
+new refutation: what exactly belongs to the selected EVENT, and which of its
+actual boundary values are invariant under exact duplication? Koons's Trio
+example does not explicitly give this event-to-register dictionary. A completed
+dictionary could vindicate a capacity-based construction or reveal failure of
+its local-context antecedent. Finite satisfiability does not settle either.
+
+### Warrant comparison and provisional assessment
+
+The positive argument has substance: ordinary recombination supports constructing
+unfamiliar arrangements from understood capacities, and requiring local adjacent
+contexts plus an already possible causal framework improves on unrestricted
+juxtaposition. Koons's §5.1 defense of intrinsic powers addresses the objection
+that duplication changes possession of those powers. His §5.2 also explicitly
+requires persistent position/content; vanishing or recoding channels do not
+refute that complete scenario. Its applicability should not be rejected merely
+because the original target concerns present exercise.
+
+The strongest standing rival accepts real intrinsic capacities and their
+preservation in duplicates, while admitting only collections whose complete
+responses and boundary conditions are jointly compatible. It can allow local
+recombination without licensing every countable assembly. Its positive account
+is compatibility-constrained realization of powers: dispositions do not license
+an impossible global manifestation pattern. This is a proposed metaphysical
+constraint, not a demonstrated possible source-free world. Its price is a
+substantive nonlocal admissibility condition and an account of which histories
+it admits; it cannot establish its own possibility by pointing at local
+transmission equations. Koons's competing price is independent support that
+his local-interface conditions suffice for countable joint realization. His
+§5.3 recognition of causal provisos gives a reason to investigate restrictions
+rather than dismiss every restriction as ad hoc; it does not establish this
+rival's particular restriction.
+
+**Provisional assessment:** the source-reading acceptance subtask is covered,
+and the local-protocol-to-contradiction inference is already certified. The
+present-chain transfer remains underdetermined by this evidence: neither its
+metaphysical joint realization nor the impossibility of all such present
+chains has been established. This retains the #367 judgment and corrects #310's
+stale source status. No root premise changes. Mathematical finite compatibility
+is inadequate evidence for unrestricted assembly: the existing
+`GRIM-REAPER-FINITE-TESTS` even keeps each selected clause's full infinite tail
+while showing no global assignment. This is not a modal refutation of CPNPP or
+a failure of ordinary finitary compactness.
+
+### Reassessment and next discriminating work
+
+Rejected as duplicates or failed inferences: another finite schedule or
+fixed-point model; a “possible Reaper world” flag that stipulates the disputed
+transfer; deriving countable joint possibility from intrinsic possession or
+finite compatibility; treating persistence as missing from the source; and
+rejecting §4 solely because the initial series is simultaneous.
+
+The next useful test is the **uniform local replacement obligation**: specify
+one exact event-patch assignment for an arbitrary index, including which
+register facts are duplicate-invariant and which remain conditional capacities.
+For complete-trace patches, test the local-context antecedent against the
+existing four-interface contradiction above. For capacity-only patches, defend
+the passage to actual global interfaces and the independently warranted
+recombination principle that preserves their handoff. If the
+only argument for that principle is “otherwise the Reaper contradiction does
+not follow,” it provides no independent discrimination. A warranted general
+interface/gluing principle, or a concrete incompatibility among the required
+local contexts, would change this assessment. Merely certifying another
+conditional contradiction would not. The known event-to-esse abstraction burden
+and separate loop exclusion would remain even after a successful assembly
+argument. These are substantive reassessment points for the coordinator, not
+claims that the whole philosophical question has been exhausted.
