@@ -269,3 +269,231 @@ Those interfaces are constraints, not definitions of cause-in-esse. Existing
 interface omission controls already distinguish them; another countermodel
 would duplicate that work. No new bridge, premise closure or metaphysical
 possibility claim follows from this locator repair. Premise comparison: none.
+
+
+## Constitution, passive capacity and a distinct existence ground (2026-11-11)
+
+### Selected question and exact reuse
+
+This continuation of #319/#325 examines the dependency left by the
+root-to-pure-act assessment: why should real constitution associated with a
+passive capacity require a **distinct actual concrete ground of the bearer's
+existence in the same selected relation**? The target remains
+`ca07cae9-6102-564e-a7fd-efb013744b3d`
+(`STMT-COMPOSITE-HAS-A-UNITING-CAUSE`), with the missing connection to
+`STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND`. This section is an analyst warrant
+assessment, not a new historical attribution or a new definition of composition.
+Its inventory baseline is main `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`.
+
+Inspected `context` for result `9fa5708e-e0bc-5fad-bbc1-c32ba9ba8887`, `related`
+and `dossier` for the target, and dossiers for all five union premises,
+component priority and the simply-prior/ground bridge. Reused exact definitions
+and bodies in `Question3/Article7.lean`, `Article7Uniting.lean`,
+`Article7UnitingControl.lean`, `Article4.lean`, `TermSenseForks2.lean`, and
+`Causality/UnderivedNonComposite.lean`. The existing
+`CompositeUnitingCauseFromUnion.compositeHasAUnitingCause` takes **all five**
+premises; its omission controls do not establish any premise's truth. The
+sense-specific routes and composer/temporal controls in the dossiers remain
+separate support options, not independent evidence for their common bridge.
+
+Current computed status must be distinguished from the older account above:
+the composite-cause statement, no-efficient-self-cause statement and
+simply-prior/ground bridge are conditionally `proved` but **not established**.
+The two uniter-to-efficient/esse premises are currently `supported`, not stated;
+their older description as bare describes the earlier investigation. Nothing
+in this continuation changes those statuses or treats their computed labels
+as independent warrant.
+
+The substantive prior findings are retained in
+[the H.6 comparison](aristotelian-unity-h6.md),
+[the Plotinian need argument](plotinian-composition-unity.md),
+[the worldwise whole-first certificate](worldwise-composite-ground.md),
+and the sections “Actual prerequisite priority” and q.104 illumination analysis
+in [the power/existence boundary](../power-existence-scope-boundary.md).
+No duplicate certificate or alternative tracker is introduced.
+
+### Positive argument: what diversity contributes, and what still needs defense
+
+The strongest composition argument is richer than “two things need a third.”
+First specify a real bearer and its unity criterion: which constituents and
+organization make this very thing exist, rather than merely describe it or
+explain an accidental operation? Next distinguish the constituents considered
+severally from their obtaining as this constitution. The inventory alone does
+not explain the organized whole. Finally ask whether the relevant organizing
+principle or productive activity explains that difference. This is a genuine
+explanatory demand in generated and organized cases; merely counting distinct
+constituents leaves it unanswered.
+
+There are three further levels, each consequential:
+
+1. **Determinate unity.** If constituents admit both the relevant arrangement
+   and its absence, their separate natures alone do not determine which
+   arrangement obtains. Their actual relation or an organizing activity adds
+   explanatory content. This is restricted to those alternative arrangements;
+   it does not establish that every composite could have failed to be unified.
+2. **Constitutive dependence.** When losing that constitution would destroy
+   this bearer, retaining the constitution is necessary for the bearer's
+   continuing as this thing. If the constituents/organization constitute it,
+   rather than merely accompany it, this supplies a positive restricted
+   direction of explanation. Necessary accompaniment alone does not supply
+   that direction: whole-first accounts can accept covariance and reverse it.
+3. **Existential production.** To conclude that a distinct individual presently
+   causes the bearer's esse, one must identify the constitution's explanatory
+   role with this efficient/productive role, identify its concrete bearer,
+   establish numerical distinction and current presence, and justify inclusion
+   in the very relation whose incoming edges the root lacks. None of these
+   follows merely from the unity explanandum. A formal principle or an actual
+   arrangement is not thereby a second concrete subject.
+
+The strongest external-uniter reply says a composite cannot explain its own
+coming to be one, because the whole would already have to exist to exercise
+the alleged productive activity. This gives a reason against **sufficient
+efficient self-origination**. It does not address an account on which the
+present whole is intrinsically constituted without having produced itself.
+The alternatives are therefore not exhausted by external production and
+self-production. The union proof's efficient/no-self route to `c ≠ x` remains
+valid under its premises; the present argument has not independently supplied
+its efficient premise for every intrinsic unity.
+
+The part-priority route has a related strength and limitation. The actual
+materials are genuine prerequisites of an ordinary material house. Their
+indispensability is not merely our epistemic reason for believing in the house.
+But a particular house may replace some material; “needs a constitution” must
+not become “needs every particular historical part.” More importantly, this
+example alone does not prove universal bottom-up priority, nor extend the same
+concrete-domain relation to matter/form, essence/esse or subject/accident.
+`FirstMoverSimple.firstMoverSimple` already derives noncomposition from
+first-being, component priority and a distinct component. It does not prove
+that every item called a constitutive principle is an actual concrete being
+in the ground relation. `Article7.ComponentOf` quantifies components over
+`Being`; `Article4` deliberately represents essence/esse in `Principle`.
+A map between these roles needs interpretation, not silent reification.
+
+### Source discrimination: immanent unity, becoming and continued esse
+
+For this selected warrant question, the complete existing materializations
+`AQUINAS-ST-I-Q3-A7` (Latin) and `AQUINAS-ST-I-Q104-A1-EN` (Dominican1920
+translation) were reread on 2026-11-11. Their existing manifests and precise
+witness identities remain authoritative; no new claim or witness was added.
+The q3a7 diplomatic text has the already recorded artifacts, including missing
+continuation after the second proof's “Deus”; no words are restored as evidence.
+Relevant full-article locators are q3a7 co. secundo/tertio/quarto and q104a1
+co., from “Every effect depends” through the house and illumination comparisons,
+then the creature/God participation paragraph and replies1,2,4.
+
+Q3a7 secundo asserts component dependence; tertio asserts the uniter principle
+and invokes God's first efficient causality. Quarto runs **composition to
+act/potency**, then invokes God's previously excluded potency. It supplies no
+converse from every passive capacity to real composition, and no independent
+proof of that exclusion. This preserves the source's positive arguments while
+preventing their conclusions from becoming their own warrant.
+
+Q104 offers a stronger answer than a bare illumination analogy: an effect
+depends on a cause insofar as that cause produces this effect, and creatures
+are said to participate in being whereas God has being essentially. That is
+a proposed metaphysical account of continuing dependence. Its concrete house
+comparison, however, distinguishes the former builder from materials and their
+arrangement, which can preserve the house. The illumination effect concerns
+a state of an already existing subject; retained heat supplies the contrasting
+case. The examples therefore support role-sensitive dependence, not a general
+inference from any unity or passive reception to a present giver of the
+subject's bare existence. Reply4 expressly denies that conservation is a
+succession of new temporal additions.
+
+To use the participation paragraph in this pre-divine bridge, independently
+justify the bearer's received esse and the external concurrent-giving account.
+The paragraph's claim that God alone is essentially being cannot itself select
+or classify the necessary underived candidate before the simplicity/identity
+argument is supplied. Likewise the existing local q3a4 result can be used
+conditionally without assuming God: it requires actual distinct esse, causal
+exhaustiveness and exclusion of sufficient efficient self-causation. It does
+not derive those premises from possession of a passive capacity or from
+proper-part composition. No source assertion here discharges that warrant.
+
+### Strong rival accounts on the same explanatory task
+
+| Account | Positive replacement, rather than a bare denial | Specific commitment and remaining price |
+| --- | --- | --- |
+| Intrinsic potential/actual unity | Proximate matter and form are principles of one actuality, rather than two independently actual objects held by a third tie; a generator can explain its coming to be. | Must defend which bearers have that constitution and why it is explanatory. It need not deny generation or all dependence. H.6 does not itself establish or exclude a concurrent distinct giver of bare esse. |
+| Reduction or composition-as-identity | The plural constituents and their actual relations exhaust the whole; there is no additional entity requiring a second production beyond their obtaining. Organization can still explain function and identity conditions. | Must defend the reduction and treatment of whole/parts predication. A model of arrangements alone does not establish reduction, and simple bearers may retain nonmaterial composition. No causal paradox follows just from rejecting an extra uniter. |
+| Nonreductive constitution | The whole is real and distinct from its material basis; constitution and organization explain what bearer exists and its powers without being efficient generation of esse by a second subject. | Owes the direction and adequacy of constitution and its identity criterion; cannot rest on covariance or rename the unexplained unity. Accepting real distinction does not by itself turn constitution into efficient self-production. |
+| Necessary composite / whole-first natural candidate | The rigid whole exists necessarily; actual proper parts and their properties derive from it, with internal structure explaining its differentiated operations. | Necessity alone is no intrinsic sufficient explanation. Whole-first priority and the account of its structure need defense; the candidate rejects universal reverse part-priority. It is not refuted by the labels composite, natural or necessary. The existing worldwise certificate realizes a specified joint profile, not this candidate's reality or metaphysical possibility. |
+
+These are analyst comparisons; they do not attribute the reduction or
+nonreductive accounts to an unread author. The whole-first candidate's price is
+its disputed explanatory direction and missing adequate intrinsic reason, not
+an independently demonstrated conflict with an accepted floor item. It can
+explain internal operations while leaving why this whole exists unresolved;
+the external-giver route also retains its own unanswered applicability and
+explanatory sufficiency burdens. Neither rival's gap establishes the other.
+
+### Dependency audit and overall provisional judgment
+
+There is **no demonstrated formal cycle** in the inspected union theorem: its
+five premises do not include pure act. The danger concerns philosophical
+warrant for those inputs. Using q3a7 quarto's already assumed divine absence of
+potency to certify the root's absence of potency would be circular warrant.
+Using universal component priority to infer simplicity is a separate valid
+conditional; defending that priority solely by a simplicity conclusion would
+be the same problem. Q104's already identified unique essentially-existing
+God cannot independently supply the pre-identification composition bridge.
+The local q3a4 route avoids that particular naming cycle when its causal
+premises and real distinction receive independent support; those obligations
+remain open here.
+
+Even an independently defended constitutional existence ground does not alone
+supply the **same-respect actual witness** used by
+`FirstBeingNoPotency.firstBeingNoPotency`: from `InPotency x r` that theorem
+uses `InAct y r` and `PriorSimply y x`, with non-simultaneity forcing `y ≠ x`.
+An actual bodily basis of a dormant capacity need not itself exercise the
+performance specified by `r`. Choosing a broader meaning of actuality might
+change that assessment, but needs a faithful common respect interpretation.
+Calling the basis actual in some other respect supplies no such inference.
+No new claim of a countermodel to the full source doctrine is made.
+
+**Provisional judgment:** real constitution gives positive, restricted support
+for current constitutive prerequisites of some actual organized bearers.
+It does not yet warrant the universal passage to a distinct actual concrete
+producer of bare esse in the selected existential relation. The strongest
+positive external-giver argument retains independently disputable causal
+exhaustiveness, receipt-of-esse and correspondence steps. Intrinsic unity and
+whole-first accounts remain live against that passage, with the prices above;
+they have not earned unconditional explanatory adequacy. This finding narrows
+the root-to-pure-act applicability burden without defeating its valid
+conditional proof, establishing a natural necessary being or deciding the
+Catholic root.
+
+Revision requires evidence on the precise disputed step: a defended actual
+case where this constitution demands a distinct concurrent concrete esse-giver
+in the selected relation, together with a justified scope argument reaching the
+passive capacities used by the pure-act proof; or a faithful interpretation of
+same-respect actuality that supplies the needed witness independently. A
+necessary-composite candidate would gain support from an adequate intrinsic
+account of its obtaining and structure, and lose support if its own commitments
+entailed the reverse dependence in that same relation. Merely assigning edges,
+restating generic act-priority or accumulating new unity examples does not
+answer these tests.
+
+Attempted approaches in this continuation: the diversity-to-third-uniter
+inference, part-indispensability, q3a7's act/potency proof, q104 conservation
+and the already certified q3a4 dichotomy. Each has useful conditional force;
+none presently supplies the full universal application without the specific
+additional warrants identified above. No materially different test inside this
+bounded slice is supplied by another omission model. The broader source or
+framework investigations just identified are reopening conditions, not new
+assignments. Under the owner's instruction to finish current work and stop,
+this slice ends with those exact open dependencies recorded for reassessment.
+
+**Actual premise comparison and verification boundary:** no Lean, statement,
+claim, definition, inference, result, argument or frontier premise is changed.
+The changed files are this existing note and attempt
+`356fd6f9-6e1a-548b-a4be-a456f346463f`. Unchanged certificate evidence is reused;
+the complete philosophical assessment received qualified acceptance from fresh
+reviewer `review_composite_ground` at frozen head
+`71af7493628ea4632824a42cc36efc718c158f57`, with no repair required. The review
+covered the complete outcome and coordinator synthesis, checked the actual
+source/formal guards, and retained the stated open dependencies. Evidence
+SHA256 prefixes were note `93bbdc96` and attempt `51aab67b`; this addition records
+review metadata only. Offline corpus and attribution checks passed on that
+head; final delivered-head CI remains required. Source materialization is
+selected research, not a routine verification gate.
