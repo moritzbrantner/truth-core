@@ -192,6 +192,9 @@ jobs:
           save: "true"
       - name: Install workspace dependencies
         run: bun install --frozen-lockfile
+      # The explorer reads its frontier and dossiers from the Rust truth CLI.
+      - name: Build the truth CLI
+        run: cargo build --locked --release -p truth
       - name: Typecheck explorer
         run: bun run typecheck
       - name: Test explorer

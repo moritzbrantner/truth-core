@@ -1,6 +1,5 @@
 import { fixtureGraph, type GraphFixtureInput } from "./frontier-fixture";
 import { describe, expect, test } from "bun:test";
-import { execFileSync } from "node:child_process";
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 
@@ -11,6 +10,7 @@ import { fixture } from "./proposition-graph.fixture";
 import { getDossiers } from "./premise-dossier";
 import { getFrontierReport, statementState, type FrontierReport } from "./site-state";
 import { legacyUuid } from "./corpus-ids";
+import { truthJson } from "./truth-cli";
 
 describe("proposition graph status", () => {
   const graph = fixtureGraph(fixture);
@@ -178,16 +178,9 @@ describe("corpus proposition graph", () => {
 
   // The single guard of #507: what the explorer displays for closure and floor
   // status (graph, statement pages, dossiers) equals an independent run of
-  // `corpus.py frontier --json` on the real corpus, statement by statement.
-  test("displays the closure and floor status of corpus.py frontier --json", () => {
-    const repositoryRoot = fileURLToPath(new URL("../../../../", import.meta.url));
-    const report = JSON.parse(
-      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json"], {
-        cwd: repositoryRoot,
-        encoding: "utf8",
-        maxBuffer: 64 * 1024 * 1024,
-      }),
-    ) as FrontierReport;
+  // `truth frontier --json` on the real corpus, statement by statement.
+  test("displays the closure and floor status of truth frontier --json", () => {
+    const report = truthJson(["frontier"]) as FrontierReport;
     const items = new Map(report.items.map((item) => [item.statement_id, item]));
     const transcribed = new Map(report.closed_via_transcription.map((entry) => [entry.statement_id, entry.result_id]));
     const floor = new Map(report.floor.map((entry) => [entry.statement_id, entry]));

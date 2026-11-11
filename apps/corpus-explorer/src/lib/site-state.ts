@@ -2,12 +2,13 @@ import { execFileSync } from "node:child_process";
 import path from "node:path";
 
 import type { Corpus } from "./corpus";
+import { truthJson } from "./truth-cli";
 import type { NextStepsReport } from "./next-steps";
 import { DEFAULT_ROOT_STATEMENT_ID } from "./proposition-graph";
 
 /**
- * The project's current state, as computed by `python3 scripts/corpus.py
- * frontier --json` at build time (#200). The explorer does not re-implement
+ * The project's current state, as computed by `truth frontier --json`
+ * (the Rust CLI's port of `corpus.py frontier`) at build time (#200). The explorer does not re-implement
  * the closure rules here: every "closed", "open", "bare", "supported" or "stated" on the
  * state, statement and result pages comes from that report.
  */
@@ -210,13 +211,7 @@ const cachedReports = new Map<string, FrontierReport>();
 export function getFrontierReport(root = DEFAULT_ROOT_STATEMENT_ID): FrontierReport {
   let report = cachedReports.get(root);
   if (!report) {
-    report = JSON.parse(
-      execFileSync("python3", ["scripts/corpus.py", "frontier", "--json", "--root", root], {
-        cwd: repositoryRoot,
-        encoding: "utf8",
-        maxBuffer: 64 * 1024 * 1024,
-      }),
-    ) as FrontierReport;
+    report = truthJson(["frontier", "--frontier-root", root]) as FrontierReport;
     cachedReports.set(root, report);
   }
   return report;

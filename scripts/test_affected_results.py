@@ -522,7 +522,7 @@ class ComparatorAggregateTest(unittest.TestCase):
         attribution = workflow_shell("Check attribution of new or changed stating claims")
         self.assertIn("attribution-check --base HEAD^1", attribution)
         self.assertNotIn("--materialize", attribution)
-        self.assertIn("python3 scripts/corpus.py check", workflow)
+        self.assertIn("run: target/release/truth check\n", workflow)
         self.assertIn("python3 -m unittest discover", workflow)
 
     def gate(self, **changes):
