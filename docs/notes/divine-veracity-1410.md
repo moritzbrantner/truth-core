@@ -377,9 +377,19 @@ normative question. It does not show the bounded philosophical question exhauste
 Status: new research after content checkpoint #1414, not part of its frozen
 accepted draft.
 
-Follow-up source reading for act-object branch (not part of frozen content draft):
-ST I q19 a9 body and reply3, https://www.newadvent.org/summa/1019.htm, read2026-11-11: will of moral fault differs from willing natural defect/punishment alongside goods and permitting others' evil. Applying the exclusion to divine false assertion still needs the independently disputed moral-act classification; it cannot be inferred from creaturely error occurring. Descartes MedIV opening, Molyneux printedpp56–57, https://www.gutenberg.org/cache/epub/70091/pg70091-images.html, read2026-11-11: will to deceive is classified as a defect, distinct from power to deceive; the classification is exactly where Hobbes's welfare objection presses. These are source readings/analyst connections, not certified historical claim records. Future source-claim publication needs selected witness pinning; attribution infrastructure not required for current logic task.
-
+Selected primary readings on 2026-11-11:
+[Aquinas, ST I q.19](https://www.newadvent.org/summa/1019.htm), a.9 body and
+reply 3, distinguishes willing moral fault from willing natural defect or
+punishment alongside goods and permitting others' evil. Applying the exclusion
+to divine false assertion still needs the disputed moral-act classification;
+it cannot be inferred merely from creaturely error occurring.
+[Descartes, Meditation IV](https://www.gutenberg.org/cache/epub/70091/pg70091-images.html),
+opening, Molyneux translation printed pp.56–57, classifies will to deceive as a
+defect, distinct from power to deceive. The classification is where Hobbes's
+welfare objection presses. These examined readings and analyst connections are
+not newly pinned source-claim records. Future corpus source-claim publication
+needs selected witness binding; source infrastructure is not required for the
+current logic/reuse task.
 
 
 ### Reuse result: equally good alternatives do not supply strict dominance
