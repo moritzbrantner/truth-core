@@ -1,0 +1,14 @@
+{
+  "id": "3c0c69a9-8076-4d85-9119-6ccbedaa6547",
+  "label": "Co-possible Grim Reaper pieces along a populated descent glue into one possible world",
+  "paraphrase": "OPEN analyst gluing premise, attribution deferred (Grim Reaper patchwork style): for the supplied station-register frame, in every history v accessible from the selected world, along every strictly descending sequence of moments c whose first moment has a contingent concrete individual present in v, if for every n some world accessible from v realizes the local pieces of stations n and n + 1 together, then some single world accessible from v realizes the local pieces of all stations along c. It asserts no piece is possible: in a beginningless history whose registers never host a piece it holds while pasts are neither founded nor begun. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading.",
+  "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.ReaperPatchwork",
+  "definition_ids": [
+    "a146da2f-a670-48f9-9911-5037352fc22a",
+    "419d2bf5-8cea-47a4-bf64-3058a1f2489b",
+    "9b98dc5d-f132-45ac-84e5-719ccff22549",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}

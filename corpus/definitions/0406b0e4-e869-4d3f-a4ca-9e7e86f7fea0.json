@@ -1,0 +1,9 @@
+{
+ "id": "0406b0e4-e869-4d3f-a4ca-9e7e86f7fea0",
+ "label": "Begun populated pasts in every accessible history",
+ "term": "begun populated past",
+ "definition": "PopulatedPastsBegun h Concrete w holds when, in every history v accessible from w, every moment t at which some contingent concrete individual is present has a past with a beginning (BegunAt t: some moment at or before t has no earlier moment). In ordinary language: wherever a contingent thing is present in a possible history, time before it began. Discrete time with a first moment and continuous time with a first moment both satisfy it; an endless discrete past and an open-below continuous past (no first moment) do not. Histories in which no contingent concrete thing is present are unconstrained.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.PopulatedPastsBegun",
+ "note": "Analyst framework definition; attribution deferred. Weak version of founded populated pasts (populatedPastsBegunOfFounded). It denies the begun version of horn H2 of the initial-state view and carries no anti-continuum commitment for time with a first moment. OPEN."
+}

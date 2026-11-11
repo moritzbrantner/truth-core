@@ -31,19 +31,26 @@ infinite ordered set alone. The companion model
 same rule are consistent: the maximum-index (earliest-deadline) Reaper acts.
 
 The law already captures the strong assumption that there is an action at a
-deadline exactly when none has occurred earlier. A physical story adds more
-assumptions: a victim initially alive, each Reaper capable of acting, no
-unrelated death or resurrection invalidating that equivalence, and the
-specified deadlines and counterfactuals being jointly realizable. Dropping or
-weakening these assumptions may dissolve the contradiction.
+deadline exactly when none has occurred earlier. A physical story must deliver
+that law. `INDEXED-SIGNAL-REAPER` derives it from four local station rules
+(positive trigger, emission, forwarding, index admissibility), and its controls
+show each rule is needed: delete any one and a consistent assignment exists.
+Which conditions a real station must meet is therefore exact; whether stations
+meeting them can be placed and assembled is the content of the local-pieces and
+patchwork premises (see the audit below), not an unspecified further assumption.
 
 ## 2. Why this does not yet establish the target
 
 The per se premise in Aquinas, *Summa theologiae* I q.2 a.3, concerns the
 simultaneous dependence of an intermediate efficient cause on another. A
-Grim Reaper sequence, by contrast, is a supertask-style arrangement of
-events ordered **in time**, with a specialized inhibition rule. Neither the
-temporal order nor its action rule follows from the definition of `CausesAsCaused`.
+Grim Reaper sequence, by contrast, is an arrangement of stations at moments
+ordered **in time**, obeying the four local station rules. Neither the temporal
+order nor those rules follow from the definition of `CausesAsCaused`. This is a
+missing bridge for the *per se* target only: it names the difference (the
+Reaper premises are stated over moments, a per se chain need not be temporal)
+and is not evidence that the per se claim is false. For the temporal target
+(a beginningless past, modal spine premise A3′) there is no such gap; see the
+audit below.
 
 `INFINITE-LOCAL-TRANSMISSION-MODEL` makes the underdetermination explicit:
 
@@ -336,7 +343,9 @@ needs excluded middle, and Kant's generic `Causes` is not `CausesAsCaused`.
   and causal finitism), and his 2025 essay *Grim Reapers and Logical
   Impossibility* (the effects of additional rules such as resurrection);
   Schmid and Malpass, *Benardete Paradoxes, Causal Finitism, and the
-  Unsatisfiable Pair Diagnosis* (objections and replies).
+  Unsatisfiable Pair Diagnosis* (objections and replies). These are reading
+  leads only. The corpus records no mechanism or argument from them, so they
+  carry no evidential weight here (see the audit below).
 
 **Frontier verdict:** the impossible Reaper schedule, finite schedule, infinite
 local-transmission countermodel, cut-edge dependence countermodel, observation
@@ -353,6 +362,48 @@ For the separate question whether an **endless temporal task can finish**, see
 [supertasks and divergent series](supertasks.md). Its limit-endpoint model,
 oscillating-output counterexample and fixed-cost divergence result do not
 transfer automatically to simultaneous *per se* causal dependence.
+
+## Objection audit for the temporal Reaper (2026-11-12)
+
+**Formal state.** `TruthCore/Causality/GrimReaperPatchwork.lean` (spec
+`specs/modal-spine-grim-reaper-patchwork.toml`) states the Reaper argument
+against a beginningless past with stations placed *at the moments* of a
+strictly descending sequence of moments of a possible history. Two OPEN
+premises carry it: **local pieces** (adjacent stations, each obeying the four
+local rules relative to its predecessor, are co-possible) and **patchwork**
+(co-possible adjacent pieces along the descent glue into one possible world).
+`populatedPastsFoundedOfPatchwork` derives founded populated pasts from the
+unrestricted versions; `populatedPastsBegunOfPatchwork` derives begun populated
+pasts from the versions restricted to coinitial descents (one station per past
+day), plus countable coinitiality. Each premise holds without the other in a
+beginningless integer history, so neither restates the conclusion. This
+supersedes the near-transcription `ReaperAssembly`.
+
+Each objection or non-generalization claim in the Reaper records, checked
+against the [Substantive Objection Standard](../AGENTS.md):
+
+| Claim | Where | Verdict |
+|---|---|---|
+| "Dropping or weakening these assumptions may dissolve the contradiction" | §1 | Removed. The needed conditions are exact (the four local rules, each shown necessary by `IndexedSignalReaper.Controls`); whether real stations meet them is the local-pieces premise, stated openly |
+| Reaper is "supertask-style … with a specialized inhibition rule" | §2 | Reworded. For the *per se* target the named difference (temporal stations vs a possibly simultaneous chain) is a missing bridge, not evidence against the claim. For a beginningless past the arrangement is not a supertask: each station has its own day |
+| The Reaper is "one special case" we cannot say generalizes | an earlier agent report, not in the records | Withdrawn: no difference was named. See the next row for what a difference would have to be |
+| What would have to differ for the Reaper not to reach a beginningless past | new | By the theorem, one of: (a) no coinitial descent exists (uncountable coinitiality of time): a formal escape with no independent support from any model of time known to the corpus, so no objection; (b) local pieces fail along it; (c) gluing fails along it. Only the next row substantiates (b) or (c), and only for metrically finite pasts |
+| Benardete parity (dense time) | new | **Substantiated.** Target: the unrestricted premises, and the coinitial premises on open-below finite pasts. Mechanism: in `[0, t]` the descent `t, t/2, …` carries pieces in shrinking slots; together the unrestricted premises exclude contingent presence after 0 (their theorem with `ComingToBeHorns.controls` 8; a `WithBot ℤ` analogue is `GrimReaperPatchwork.controls` 3). Independent justification: continuous time with a first moment and contingent things after it is the standard picture of a universe with a beginning, and the spine's choice of A3′w already presupposes its possibility. So local pieces or gluing fail for that arrangement. Relevance: in `(0, t]` (no first moment) the same descent is coinitial and its pieces sit in the very same slots; the arrangements differ only at an instant hosting no piece. Established: the formal facts. Analyst argument, not checked: the parity step. Consequence: the coinitial argument gives no support against an open-below finite past that is independent of the first-moment case |
+| Does the parity reach a metrically infinite past (one station per day)? | new | Not shown. It transfers only if the first-moment failure is a failure of gluing for every infinite descending arrangement, rather than of pieces in slots shrinking to zero or of gluing for accumulating arrangements. No independent reason for the gluing-general diagnosis is recorded. Unsupported suggestion, no evidential weight |
+| Global-compatibility reply to patchwork (#367 audit) | `notes/causal-finitism-367.md` | Mechanism stated (global constraints restrict joint realizability), but no independently established case where gluing fails for pairwise-compatible local pieces on an acyclic chain is recorded; its interface-preservation motivation is met by the Reaper pieces, which agree on their shared registers. The established local-to-global failures known here involve cycles (a ring of inverting stations), which a descent lacks and which Koons excludes separately. Recorded as an unsupported suggestion until such a case is supplied |
+| Unsatisfiable-pair diagnosis | §4 leads | No mechanism recorded. That the Reaper conditions are jointly unsatisfiable is common ground (it is `IndexedSignalReaper.impossible`); it does not by itself locate the failure in patchwork rather than in the beginningless past. No evidential weight until its argument is read and recorded |
+| Finite tests do not give a global schedule (`GrimReaperFiniteTests`) | #367 attempt | True mathematics about infinitary clauses; not an objection to patchwork, which is a modal premise about pieces of worlds, not a compactness claim |
+
+**Plain verdict.** Against a metrically infinite beginningless past no
+substantive objection to the local-pieces or patchwork premise is identified.
+Both premises remain OPEN; their support is the defeasible recombination case
+recorded in the #367 audit. The pro side must not overclaim either: the
+theorems show only that whoever accepts the premises must accept begun (or,
+unrestricted, founded) populated pasts. The unrestricted premises cost
+continuous time with a first moment; the coinitial ones avoid that cost but,
+by parity, add nothing independent against an open-below finite past. A metric
+version (slots of at least a fixed length), concluding that no populated past
+is metrically infinite, is the next test.
 
 
 ## Typed per-se / historical distinction (#1112)

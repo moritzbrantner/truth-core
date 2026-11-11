@@ -1,0 +1,27 @@
+{
+  "id": "e14a0511-4494-4518-8991-b9aac486c2c6",
+  "label": "Founded populated pasts from Grim Reaper pieces and patchwork",
+  "premise_statement_ids": [
+    "934deb52-49b4-4b5d-a270-b1680472d1d6",
+    "3c0c69a9-8076-4d85-9119-6ccbedaa6547"
+  ],
+  "conclusion_statement_id": "fce4ac74-26df-4e97-909d-34865b6463dc",
+  "inference_ids": [
+    "8bb1cb1e-206a-46a2-90d3-bc7738ab6bf8"
+  ],
+  "meaning": "Non-transcription conditional support option for A3 prime a (founded populated pasts), replacing the near-transcription Reaper assembly route. Suppose a contingent concrete thing is present at t in an accessible history and t has no founded past; dependent choice gives a strictly descending sequence c from t. The local premise makes every two adjacent Reaper pieces along c co-possible; patchwork gives one accessible world u realizing all of them. Translating u's register codes into the indices of the stations they name (the descent is injective) yields a Nat-indexed signal and issuance satisfying index admissibility, positive trigger, emission and forwarding, which the verified IndexedSignalReaper.impossible refutes. Neither premise mentions foundedness, and each holds without the other in a beginningless integer history (controls 1 and 2). Because both premises range over every descent, they also exclude contingent presence after the first moment of dense time with a beginning (control 3): the unrestricted premises carry the same anti-continuum commitment as founded populated pasts. Both premises are OPEN; the arrangement's impossibility is mathematics, the possibility of the pieces and their gluing is the disputed metaphysics. Nothing is attributed to Koons or Pruss. No premise is established.",
+  "definition_ids": [
+    "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "419d2bf5-8cea-47a4-bf64-3058a1f2489b",
+    "9b98dc5d-f132-45ac-84e5-719ccff22549",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "5363be1b-9b13-55e1-a5e8-d4504b296218",
+    "2d3300c4-0a9b-5597-bc57-def472d76769",
+    "74e6880f-d90b-51ed-a710-5aace3f44cff",
+    "d48314be-aadb-5039-8ac5-38a1ca488375",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "a146da2f-a670-48f9-9911-5037352fc22a",
+    "b817094a-c68d-4541-b5da-5f11eb2bfc52"
+  ]
+}

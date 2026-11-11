@@ -1,0 +1,12 @@
+{
+  "id": "b3f5bf63-0524-48e0-bfd3-d2047cec9e61",
+  "label": "Unrestricted Grim Reaper pieces give coinitial Grim Reaper pieces (inference)",
+  "input_statement_ids": [
+    "934deb52-49b4-4b5d-a270-b1680472d1d6"
+  ],
+  "output_statement_id": "8072fc5a-fbc6-43f6-8b71-15e85f36ab20",
+  "rule": "Restrict the quantifier over descents to coinitial ones",
+  "meaning": "Strength order: the local-pieces premise over every populated descent gives it over coinitial populated descents. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

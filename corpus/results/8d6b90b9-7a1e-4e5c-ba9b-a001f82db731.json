@@ -1,0 +1,11 @@
+{
+  "id": "8d6b90b9-7a1e-4e5c-ba9b-a001f82db731",
+  "label": "Unrestricted Grim Reaper patchwork gives coinitial Grim Reaper patchwork",
+  "argument_id": "133ebc87-19f3-4559-80ff-e426f05400af",
+  "challenge_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Challenge",
+  "solution_module": "TruthCore.Results.Causality.GrimReaperPatchwork.Solution",
+  "theorem": "TruthCore.Results.Causality.GrimReaperPatchwork.coinitialPatchworkOfPatchwork",
+  "comparator_config": "results/8d6b90b9-7a1e-4e5c-ba9b-a001f82db731/comparator.json",
+  "status": "solution-present",
+  "description": "Strength order: the gluing premise over every populated descent gives it over coinitial populated descents. No premise is established."
+}

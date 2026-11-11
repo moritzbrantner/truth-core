@@ -221,6 +221,17 @@ ad hoc without an independent independence principle does not settle this
 remaining dispute. Conversely, the paradox alone does not prove that the
 compatibility restriction is the correct metaphysics.
 
+*Audit under the Substantive Objection Standard (2026-11-12).* The
+compatibility reply names its target (countable patchwork) and its mechanism
+(global constraints on joint realizability), but no independently established
+case is recorded in which gluing fails for pieces that agree on their shared
+interfaces along an acyclic chain. Its stated motivation, preserving causal
+interfaces, is met by the Reaper pieces. Until such a case is supplied it is an
+unsupported suggestion with no evidential weight against patchwork; patchwork
+itself stays OPEN. One substantiated limit does exist, for dense pasts:
+Benardete's first-moment arrangement and its open-below parity. See
+[the Reaper objection audit](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
+
 The signal revision (pp.19–20) addresses a different issue: particles might
 vanish between placements. Koons replaces their persistence with intrinsic
 active/passive capacities to send and receive a predecessor signal, and uses

@@ -1,0 +1,9 @@
+{
+ "id": "a146da2f-a670-48f9-9911-5037352fc22a",
+ "label": "Reaper patchwork along every populated descent",
+ "term": "Reaper patchwork",
+ "definition": "ReaperPatchwork R h Concrete w holds when, in every history v accessible from w, along every strictly descending sequence of moments c whose first moment is populated by a contingent concrete individual in v: if every two adjacent local pieces are realized together in some world accessible from v, then some single world accessible from v realizes every piece along c. In ordinary language: locally possible, pairwise compatible Reaper pieces placed at the moments of a descent can be glued into one possible arrangement.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.GrimReaperPatchwork.ReaperPatchwork",
+ "note": "Analyst countable gluing premise in the style of Koons's infinitary spatiotemporal and causal-network patchwork (PInfSP, CPNPP; docs/notes/causal-finitism-367.md); attribution deferred. It is restricted to Reaper pieces along populated descents; a general gluing principle over arbitrary world properties is false for trivial reasons (properties that are not local can be pairwise but not jointly satisfiable), so the content lies in the locality of the pieces. It is satisfied in a beginningless history whose registers never host a piece (GrimReaperPatchwork control 1), so it does not by itself exclude any past. Ranging over every descent, together with local pieces it also excludes contingent presence after the first moment of a dense past. OPEN."
+}

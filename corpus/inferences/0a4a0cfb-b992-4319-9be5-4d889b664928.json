@@ -1,0 +1,12 @@
+{
+  "id": "0a4a0cfb-b992-4319-9be5-4d889b664928",
+  "label": "Founded populated pasts give begun populated pasts (inference)",
+  "input_statement_ids": [
+    "fce4ac74-26df-4e97-909d-34865b6463dc"
+  ],
+  "output_statement_id": "0158110b-12b7-402e-ae1f-0788a8dbfedc",
+  "rule": "A founded past has a minimal moment at or below it",
+  "meaning": "Strength order between the founded and begun denials of horn H2: same histories, same populated moments, Acc replaced by a moment at or before with nothing earlier (begunOfAcc). The converse fails in BegunComingToBe.Control.zeno (control 3). No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

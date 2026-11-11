@@ -1,0 +1,22 @@
+{
+  "id": "133ebc87-19f3-4559-80ff-e426f05400af",
+  "label": "Unrestricted Grim Reaper patchwork gives coinitial Grim Reaper patchwork",
+  "premise_statement_ids": [
+    "3c0c69a9-8076-4d85-9119-6ccbedaa6547"
+  ],
+  "conclusion_statement_id": "7d17a839-f29b-4d16-a70c-5e3d3bd77c25",
+  "inference_ids": [
+    "8d1d529b-d28e-4d64-a6b6-8b9aabf7c461"
+  ],
+  "meaning": "Strength order: the gluing premise over every populated descent gives it over coinitial populated descents. No premise is established.",
+  "definition_ids": [
+    "419d2bf5-8cea-47a4-bf64-3058a1f2489b",
+    "6afa7642-60ed-49a8-87e9-18674a7de21b",
+    "946ad44c-4bdb-4bc2-81db-5fbc43882c0a",
+    "9b98dc5d-f132-45ac-84e5-719ccff22549",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "a146da2f-a670-48f9-9911-5037352fc22a"
+  ]
+}

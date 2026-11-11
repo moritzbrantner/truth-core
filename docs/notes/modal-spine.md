@@ -61,9 +61,10 @@ existing, earlier-present predecessor ground for every contingent thing, does
 not entail a necessary individual at any world: an endless descent of
 contingent grounds fits between the empty first moment and any later one. In
 the spine's existing route, necessity is supplied by inert emptiness (A2)
-together with the route's other premises. This indicates, but does not yet
-certify, that #1463's earlier-grounds support route loses its entailment of a
-possible necessary being once restated over begun pasts.
+together with the route's other premises. #1463's earlier-grounds support
+route, restated over begun pasts (`GrimReaperPatchwork.possiblyBegunOfEarlierGrounds`),
+indeed loses its entailment of a possible necessary being: `zeno` satisfies
+both of its premises with no necessary individual (`GrimReaperPatchwork.controls` 3).
 
 So a holder of the initial-state view who denies a necessary concrete being is
 committed to this: in every possible history, either some contingent concrete
@@ -87,21 +88,70 @@ of moments. On non-negative rational times every moment after 0 has
 present at any non-initial moment of dense time in any possible history. That
 anti-continuum commitment is paid by this side. A3′ itself has the same
 founded-past condition. Control 8 satisfies A3, inert emptiness and universal
-coming-to-be on dense time with a first moment, while H2 holds, the Reaper
-bridge fails, and no state-causation relation satisfies finitism and the
+coming-to-be on dense time with a first moment, while H2 holds, the old Reaper
+assembly bridge fails, and no state-causation relation satisfies finitism and the
 precedence bridge together. Each of those two bridges, and the earlier-grounded
 possibility premise, can still hold there on its own. Moving foundedness from moments to discrete events is an untested
 alternative.
 
-A3′a has one derivation with independent content, plus one equivalent
+A3′a has two derivations with independent content, plus one superseded
 reformulation:
 
 | | Premises | Theorem | Status |
 |---|---|---|---|
 | Causal finitism | Modal state-causal finitism: momentary states have finitely many causal ancestors (`9c314355`); and every earlier state is a causal ancestor of a populated later state (`20e6c7df`) | `populatedPastsFoundedOfStateFinitism` | derivation. H2 must reject finitism or the bridge from mere precedence to causation. Each survives alone (controls 1 and 2) |
-| Grim Reaper | Reaper assembly (`f63cd425`) | `populatedPastsFoundedOfReaper` | declared near-transcription. The bridge's consequent is a closed claim about `Nat` station systems that never mentions the descent or the history, and `IndexedSignalReaper.impossible` refutes it, so the bridge just restates A3′a. A real patchwork premise would need a vocabulary for assembling worlds, which the corpus lacks |
+| Grim Reaper patchwork | Along every descent below a populated moment, adjacent Reaper pieces are co-possible (`ReaperPiecesPossible`); co-possible adjacent pieces glue into one possible world (`ReaperPatchwork`) | `GrimReaperPatchwork.populatedPastsFoundedOfPatchwork` | derivation (2026-11-12). Stations sit at the moments of the descent in worlds of the history; a glued world's registers are read as a `Nat` signal and refuted by `IndexedSignalReaper.impossible`. Each premise holds without the other in a beginningless history (`GrimReaperPatchwork.controls` 1, 2). Because both range over every descent, they also exclude dense time with a first moment (with `ComingToBeHorns.controls` 8; on a `WithBot ℤ` analogue, control 3) |
+| Grim Reaper assembly | Reaper assembly (`f63cd425`) | `populatedPastsFoundedOfReaper` | declared near-transcription, superseded by the row above. Its consequent is a closed claim about `Nat` station systems that never mentions the descent |
 
-So H2 is excluded only under the open bridges `9c314355` and `20e6c7df`.
+So H2 is excluded only under open premises: `9c314355` with `20e6c7df`, or
+the two Reaper premises.
+
+**The Grim Reaper route to A3′w** (spec
+`specs/modal-spine-grim-reaper-patchwork.toml`, attempt
+[`ac336333`](../../corpus/attempts/ac336333-edfe-4599-b35e-1e78b81047e5.json)).
+The Reaper argument is naturally an argument for a *begun* past, not a founded
+one: in the reconstruction of Koons's argument (#367 audit) the stations fill successive non-overlapping regions of an alleged infinite past, back through the whole of it. The
+coinitial premises restrict both Reaper premises to descents that run below
+every earlier moment of the populated one; they are implied by the unrestricted
+ones and are silent about pasts with a beginning.
+
+| | Premises | Theorem | Status |
+|---|---|---|---|
+| Begun populated pasts | Coinitial local pieces, coinitial patchwork, and countable coinitiality of beginningless populated pasts (checked for integer times; rational and real times by `t - n`) | `populatedPastsBegunOfPatchwork` | derivation; all three OPEN |
+| A3′w | Begun populated pasts and A3′b (`6dd276f0`) | `possiblyBegunOfEarlierGrounds` | derivation. Unlike the founded version, this bundle does **not** carry the possibility of a necessary being: `BegunComingToBe.Control.zeno` satisfies it, the coinitial Reaper premises and countable coinitiality with no necessary individual (`GrimReaperPatchwork.controls` 3) |
+
+Founded populated pasts strictly strengthen begun ones (`populatedPastsBegunOfFounded`,
+converse fails in `zeno`).
+
+**Objection audit (Substantive Objection Standard).** What would have to differ
+for the Reaper not to reach an arbitrary beginningless populated past? By the
+theorem, one of three things: (a) the past has no coinitial descent, which
+needs time of uncountable coinitiality; no model of physical time known to the
+corpus has it, so this is a formal escape, not an objection; (b) adjacent Reaper
+pieces cannot be placed at consecutive members of any coinitial descent; or
+(c) gluing fails along it. For (b) and (c) one specific difference is
+substantiated, and only for *metrically finite* beginningless pasts (open below,
+like `(0, t]`): a coinitial descent there accumulates toward the missing
+endpoint, slot for slot like Benardete's first-moment arrangement
+`t, t/2, t/4, …` in `[0, t]`, which differs only at an instant hosting no piece.
+Anyone who holds, as the spine's choice of A3′w does, that continuous time with
+a first moment can contain contingent things after it must reject local pieces
+or gluing for that first-moment arrangement, and by this parity for
+the open-below one too. So the coinitial argument gives no independent support
+against an open-below finite past. For a *metrically infinite* beginningless
+past (every slot a full day, no bounded interval with infinitely many stations)
+no substantive objection is identified: the parity transfers only under the
+diagnosis that gluing fails for every infinite descending arrangement, for which
+no independent reason is recorded; the global-compatibility reply of the #367
+audit names no independently established case of gluing failure for pairwise
+compatible pieces on an acyclic chain; the unsatisfiable-pair diagnosis is a
+reading lead with no recorded mechanism. The earlier description of the Reaper
+as "one special case" that might not generalize named no difference and is
+withdrawn. Both Reaper premises remain OPEN: the pieces' possibility and their
+gluing are the disputed metaphysics, the arrangement's impossibility is
+mathematics. A metric version (stations in slots of at least a fixed length),
+whose conclusion would be "no populated metrically infinite past", is the next
+test. See [the Grim Reaper note](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
 
 Under A3′a, an H1 thing would be present at a moment with nothing earlier, so
 no ground of it can have been present before it. Rejecting A3′b's "before"
@@ -257,9 +307,10 @@ the join and the root and act-of-being premises in
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
 | A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with a non-well-founded (endless or dense) populated past (H2) or a never-generated contingent thing (H1) | the premise itself |
-| A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`. The Reaper form is a declared near-transcription. Survives finitism alone, the precedence bridge alone, and earlier grounding; dense time with a first moment survives the Reaper bridge and the joint finitism/precedence bundle, though each of those two bridges can hold there alone (`ComingToBeHorns.controls` 1–3, 8) | `populatedPastsFoundedOfStateFinitism` |
+| A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`; and **excluded under the open Reaper premises** (local pieces, patchwork) by `GrimReaperPatchwork.populatedPastsFoundedOfPatchwork`. Survives finitism alone, the precedence bridge alone, earlier grounding, Reaper patchwork alone and Reaper pieces alone (`ComingToBeHorns.controls` 1–3, `GrimReaperPatchwork.controls` 1–2). Dense time with a first moment survives the old Reaper assembly bridge and the joint finitism/precedence bundle, and is excluded by the two unrestricted Reaper premises together (`ComingToBeHorns.controls` 8, `GrimReaperPatchwork.controls` 3): that exclusion is a cost of the unrestricted premises, avoided by the coinitial ones | `populatedPastsFoundedOfStateFinitism`, `populatedPastsFoundedOfPatchwork` |
 | A3′b possible earlier-grounded history (H1 priced) | A never-generated contingent thing whose ground has no earlier presence | **excluded under the open premise A3′a** by `possiblyFoundedOfEarlierGrounds`. Survives when some ground is not earlier: simultaneous with a necessary ground; without a necessary being, only under non-well-founded grounding, whether simultaneous or later (`ComingToBeHorns.controls` 4, 5, 7). A3′a with A3′b already entails possible necessary being (`possiblyNecessaryOfEarlierGrounds`) | `possiblyFoundedOfEarlierGrounds` |
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
+| Begun populated pasts (begun H2 denied) | A beginningless past at every populated moment: metrically infinite (endless days), or metrically finite and open below (no first moment, like `(0, t]`) | **excluded under the open premises** coinitial Reaper pieces, coinitial Reaper patchwork and countable coinitiality, by `GrimReaperPatchwork.populatedPastsBegunOfPatchwork`; with A3′b this gives A3′w (`possiblyBegunOfEarlierGrounds`) without carrying the possibility of a necessary being (`GrimReaperPatchwork.controls` 3). Against the open-below finite past the Reaper premises have no support independent of the first-moment dense case (parity, see the objection audit above). Against a metrically infinite past no substantive objection to either Reaper premise is identified; both remain OPEN | `populatedPastsBegunOfPatchwork` |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |
@@ -375,10 +426,14 @@ conditional investigations, not a mandatory first gate:
 1. The two horns left to the initial-state view under A3′ now have prices
    (2026-11-11, see A3′a and A3′b above). Next: move foundedness from moments
    to discrete events, so that a dense past with a first moment is not
-   excluded, and compare with A3′. Build a patchwork vocabulary over accessible
-   worlds, so that a Reaper bridge has content of its own. Weaken the precedence
-   bridge to "some earlier state". Find an H1 price that does not already
-   entail possible necessary being. Try `BoundedPastResource.noUniformGrowth`
+   excluded, and compare with A3′. Weaken the precedence
+   bridge to "some earlier state". Done (2026-11-12): a patchwork vocabulary
+   over accessible worlds (`GrimReaperPatchwork`) gives the Reaper genuine
+   derivations of founded and begun populated pasts, and an H1 price for A3′w
+   that does not entail possible necessary being. Next for the Reaper: a metric
+   version (stations in slots of at least a fixed length) to separate
+   metrically infinite pasts from open-below finite ones, and a begun-past
+   counterpart of state-causal finitism. Try `BoundedPastResource.noUniformGrowth`
    as an independent price on H2.
 2. For the rows marked "survives", look for commitments the rival's holder
    accepts that conflict with it. The join models depend on the support relation

@@ -1,0 +1,139 @@
+[batch]
+vocab = "TruthCore.Causality.GrimReaperPatchwork"
+results = "TruthCore.Results.Causality.GrimReaperPatchwork"
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-KANT-MODAL-CONTINGENCY", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "Along every populated descent, adjacent Grim Reaper pieces are co-possible"
+lean = "ReaperPiecesPossible"
+paraphrase = "OPEN analyst premise, attribution deferred (Grim Reaper style, the analogue of a possible Placer trio placed in the slots of a past): for the supplied station-register frame, in every history v accessible from the selected world, along every strictly descending sequence of moments c whose first moment has a contingent concrete individual present in v, for every n some world accessible from v realizes both the local piece of station n and that of station n + 1. A local piece is a station at c n obeying positive trigger, emission, forwarding and admissibility relative to the station at c (n + 1). It ranges over every descent, including t, t/2, t/4, ... in dense time. It says nothing about gluing the pieces together. 'Concrete' is the supplied Concrete parameter, read under the adopted esse criterion; the Lean type does not enforce that reading."
+definitions = ["Local Reaper pieces co-possible along every populated descent", "Local Reaper piece at a station of a descent of moments", "Reaper station registers of a history's worlds", "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER", "DEF-INDEXED-SIGNAL-EMISSION", "DEF-INDEXED-SIGNAL-FORWARDING", "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "Co-possible Grim Reaper pieces along a populated descent glue into one possible world"
+lean = "ReaperPatchwork"
+paraphrase = "OPEN analyst gluing premise, attribution deferred (Grim Reaper patchwork style): for the supplied station-register frame, in every history v accessible from the selected world, along every strictly descending sequence of moments c whose first moment has a contingent concrete individual present in v, if for every n some world accessible from v realizes the local pieces of stations n and n + 1 together, then some single world accessible from v realizes the local pieces of all stations along c. It asserts no piece is possible: in a beginningless history whose registers never host a piece it holds while pasts are neither founded nor begun. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading."
+definitions = ["Reaper patchwork along every populated descent", "Local Reaper piece at a station of a descent of moments", "Reaper station registers of a history's worlds", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "Along every coinitial populated descent, adjacent Grim Reaper pieces are co-possible"
+lean = "CoinitialReaperPiecesPossible"
+paraphrase = "OPEN analyst premise, attribution deferred: the local-pieces premise restricted to coinitial descents, those that run below every moment earlier than their populated first moment (one station per past day, back through the whole past). Such a descent exists only below a moment whose past has no beginning, so the premise says nothing about a past with a beginning, dense or not. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading."
+definitions = ["Local Reaper pieces co-possible along every coinitial populated descent", "Coinitial descent of moments", "Local Reaper piece at a station of a descent of moments", "Reaper station registers of a history's worlds", "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER", "DEF-INDEXED-SIGNAL-EMISSION", "DEF-INDEXED-SIGNAL-FORWARDING", "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "Co-possible Grim Reaper pieces along a coinitial populated descent glue into one world"
+lean = "CoinitialReaperPatchwork"
+paraphrase = "OPEN analyst gluing premise, attribution deferred: the Reaper patchwork premise restricted to coinitial descents below populated moments. If every two adjacent local pieces along such a descent are co-possible from v, one world accessible from v realizes them all. It is implied by the unrestricted patchwork premise. 'Concrete' is the supplied Concrete parameter; the Lean type does not enforce the esse reading."
+definitions = ["Reaper patchwork along every coinitial populated descent", "Coinitial descent of moments", "Local Reaper piece at a station of a descent of moments", "Reaper station registers of a history's worlds", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "In every possible history, each beginningless populated past has a coinitial descent"
+lean = "BeginninglessPastsCountablyCoinitial"
+paraphrase = "OPEN analyst structural premise about the order of time, attribution deferred: in every history accessible from the selected world, every moment at which a contingent concrete individual is present and whose past has no beginning starts a strictly descending sequence of moments that runs below every earlier moment. Integer times satisfy it (checked in control 2); rational and real times satisfy it by t - n, not separately checked. In linear time it fails only where a beginningless past has uncountable coinitiality. 'Concrete' is the supplied Concrete parameter."
+definitions = ["Beginningless populated pasts have a coinitial descent", "Coinitial descent of moments", "Past of a moment with a beginning", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "In every possible history, each moment with a contingent concrete thing present has a begun past"
+lean = "PopulatedPastsBegun"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history accessible from the selected world, every moment at which some contingent concrete individual is present has a past with a beginning (some moment at or before it has no earlier moment). It denies the begun version of horn H2 (a beginningless past at a populated moment) wherever a contingent concrete thing is present; histories with no contingent concrete thing present are unconstrained. Unlike founded populated pasts it allows continuous time with a first moment. It is not a metric finitude claim and mentions no cause. 'Concrete' is the supplied Concrete parameter."
+definitions = ["Begun populated pasts in every accessible history", "Past of a moment with a beginning", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Independence and nonvacuity controls for the Grim Reaper patchwork premises"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls, every individual counted concrete. (1) Integer worlds, individuals and times, every world accessible, every individual existing at every world but 0 and individual n present from time n on, with registers that are always empty and never issue: both patchwork premises hold, neither local-pieces premise holds, and populated pasts are neither founded nor begun. (2) The same history with pivot registers (world k: empty before k, issuing at k, code k from k on): both local-pieces premises hold, both patchwork premises fail, populated pasts are not begun, and beginningless populated pasts have coinitial descents. (3) The WithBot Int history of BegunComingToBe.Control.zeno (a first moment followed by moments with no earliest one) with empty registers: the coinitial local-pieces and patchwork premises, countable coinitiality, begun populated pasts and the earlier-grounded possibility premise all hold; begun coming-to-be is possible; no concrete individual is necessary at either world; populated pasts are not founded; and for every register frame the unrestricted local-pieces and patchwork premises do not both hold. These are statements about these interpretations only."
+definitions = ["Reaper patchwork along every populated descent", "Local Reaper pieces co-possible along every populated descent", "Reaper patchwork along every coinitial populated descent", "Local Reaper pieces co-possible along every coinitial populated descent", "Beginningless populated pasts have a coinitial descent", "Begun populated pasts in every accessible history", "Founded populated pasts in every accessible history", "Possibly, a populated history whose contingent things have earlier grounds", "History of begun coming-to-be", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[argument]]
+id = "Founded populated pasts from Grim Reaper pieces and patchwork"
+theorem = "populatedPastsFoundedOfPatchwork"
+premises = ["Along every populated descent, adjacent Grim Reaper pieces are co-possible", "Co-possible Grim Reaper pieces along a populated descent glue into one possible world"]
+conclusion = "In every possible history, each moment with a contingent concrete thing present has a founded past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Extract a descent below an unfounded populated moment; the local premise gives co-possible adjacent pieces, patchwork glues them into one world; read that world's registers as a Nat-indexed signal and refute it with IndexedSignalReaper.impossible"
+meaning = "Non-transcription conditional support option for A3 prime a (founded populated pasts), replacing the near-transcription Reaper assembly route. Suppose a contingent concrete thing is present at t in an accessible history and t has no founded past; dependent choice gives a strictly descending sequence c from t. The local premise makes every two adjacent Reaper pieces along c co-possible; patchwork gives one accessible world u realizing all of them. Translating u's register codes into the indices of the stations they name (the descent is injective) yields a Nat-indexed signal and issuance satisfying index admissibility, positive trigger, emission and forwarding, which the verified IndexedSignalReaper.impossible refutes. Neither premise mentions foundedness, and each holds without the other in a beginningless integer history (controls 1 and 2). Because both premises range over every descent, they also exclude contingent presence after the first moment of dense time with a beginning (control 3): the unrestricted premises carry the same anti-continuum commitment as founded populated pasts. Both premises are OPEN; the arrangement's impossibility is mathematics, the possibility of the pieces and their gluing is the disputed metaphysics. Nothing is attributed to Koons or Pruss. No premise is established."
+
+[[argument]]
+id = "Begun populated pasts from coinitial Grim Reaper pieces and patchwork"
+theorem = "populatedPastsBegunOfPatchwork"
+premises = ["Along every coinitial populated descent, adjacent Grim Reaper pieces are co-possible", "Co-possible Grim Reaper pieces along a coinitial populated descent glue into one world", "In every possible history, each beginningless populated past has a coinitial descent"]
+conclusion = "In every possible history, each moment with a contingent concrete thing present has a begun past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A beginningless populated past has a coinitial descent; the coinitial local and patchwork premises put a glued Reaper arrangement along it in one world, which IndexedSignalReaper.impossible refutes"
+meaning = "Non-transcription conditional support option for the begun version of A3 prime a, the faithful target of the Grim Reaper argument for a past with a beginning. Suppose a contingent concrete thing is present at t in an accessible history and the past of t has no beginning. Countable coinitiality gives a strictly descending sequence from t running below every earlier moment (one station per past day). The coinitial local premise makes adjacent pieces co-possible, coinitial patchwork glues them into one accessible world, and the same register-to-signal translation as in the founded argument meets IndexedSignalReaper.impossible. The coinitial premises are implied by the unrestricted ones and are silent about pasts with a beginning, so its premises are satisfiable together with a first moment followed by moments with no earliest one (control 3, on WithBot Int times). Under its premises it does exclude contingent presence in an open-below past such as the positive reals, which is order-theoretically beginningless though metrically finite; a metric restriction is untested. All three premises are OPEN. Nothing is attributed to Koons or Pruss. No premise is established."
+
+[[argument]]
+id = "Possible begun coming-to-be from begun populated pasts and possible earlier grounds"
+theorem = "possiblyBegunOfEarlierGrounds"
+premises = ["In every possible history, each moment with a contingent concrete thing present has a begun past", "6dd276f0-24f5-459d-aadb-bef9745f297e"]
+conclusion = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "In the earlier-grounded history, a never-generated contingent thing would be present at the first moment of its begun past, where no ground can have been present before it"
+meaning = "Non-transcription conditional support option for premise A3 prime w of the modal spine (possible begun coming-to-be), pricing horn H1 with the begun version of A3 prime a. Take the accessible history in which every contingent concrete thing has an existing concrete ground present before each moment of its presence. Suppose a contingent concrete thing x present at t was never absent earlier. The past of t has a beginning m, at or before t, with nothing earlier; x is present at m; its ground must be present strictly before m, which is impossible. So every contingent concrete thing of that history comes to be, and begun coming-to-be is possible. Unlike its founded counterpart possiblyFoundedOfEarlierGrounds, this bundle does not entail that a necessary concrete individual is possible: BegunComingToBe.Control.zeno satisfies both premises (and the coinitial Grim Reaper premises) with no necessary individual at either world (control 3). Both premises are OPEN. No premise is established."
+
+[[argument]]
+id = "Founded populated pasts give begun populated pasts"
+theorem = "populatedPastsBegunOfFounded"
+premises = ["In every possible history, each moment with a contingent concrete thing present has a founded past"]
+conclusion = "In every possible history, each moment with a contingent concrete thing present has a begun past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A founded past has a minimal moment at or below it"
+meaning = "Strength order between the founded and begun denials of horn H2: same histories, same populated moments, Acc replaced by a moment at or before with nothing earlier (begunOfAcc). The converse fails in BegunComingToBe.Control.zeno (control 3). No premise is established."
+
+[[argument]]
+id = "Unrestricted Grim Reaper pieces give coinitial Grim Reaper pieces"
+theorem = "coinitialPiecesOfPieces"
+premises = ["Along every populated descent, adjacent Grim Reaper pieces are co-possible"]
+conclusion = "Along every coinitial populated descent, adjacent Grim Reaper pieces are co-possible"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Restrict the quantifier over descents to coinitial ones"
+meaning = "Strength order: the local-pieces premise over every populated descent gives it over coinitial populated descents. No premise is established."
+
+[[argument]]
+id = "Unrestricted Grim Reaper patchwork gives coinitial Grim Reaper patchwork"
+theorem = "coinitialPatchworkOfPatchwork"
+premises = ["Co-possible Grim Reaper pieces along a populated descent glue into one possible world"]
+conclusion = "Co-possible Grim Reaper pieces along a coinitial populated descent glue into one world"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Restrict the quantifier over descents to coinitial ones"
+meaning = "Strength order: the gluing premise over every populated descent gives it over coinitial populated descents. No premise is established."
+
+[[argument]]
+id = "Grim Reaper patchwork controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Independence and nonvacuity controls for the Grim Reaper patchwork premises"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit interpretations with integer and WithBot Int times, checked by case analysis and linear arithmetic, with the impossibility of a glued arrangement for the negative cases"
+meaning = "The local-pieces and patchwork premises are independent and neither alone excludes a beginningless past: in the beginningless integer history, silent registers satisfy both patchwork premises and neither local premise, and pivot registers satisfy both local premises and neither patchwork premise; populated pasts there are neither founded nor begun. So the conclusion is reached only through the derivation, not through either premise. In a history with a first moment followed by moments with no earliest one, the coinitial premises, countable coinitiality, begun populated pasts and the earlier-grounded possibility all hold together with possible begun coming-to-be and no necessary concrete individual, while no register frame satisfies both unrestricted premises: the unrestricted version excludes that history and the coinitial version does not. Model claims concern these interpretations only."
+
+[[relation]]
+id = "Founded populated pasts strengthen begun populated pasts"
+subject_kind = "statement"
+subject_id = "In every possible history, each moment with a contingent concrete thing present has a founded past"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "In every possible history, each moment with a contingent concrete thing present has a begun past"
+verification_result_id = "Founded populated pasts give begun populated pasts"
+note = "Same histories and populated moments; Acc replaced by a minimal moment at or below. BegunComingToBe.Control.zeno witnesses failure of the converse (GrimReaperPatchwork control 3)."
+
+[[relation]]
+id = "Unrestricted Grim Reaper pieces strengthen coinitial Grim Reaper pieces"
+subject_kind = "statement"
+subject_id = "Along every populated descent, adjacent Grim Reaper pieces are co-possible"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Along every coinitial populated descent, adjacent Grim Reaper pieces are co-possible"
+verification_result_id = "Unrestricted Grim Reaper pieces give coinitial Grim Reaper pieces"
+note = "Same frame, histories and pieces; the quantifier over descents is restricted to coinitial ones."
+
+[[relation]]
+id = "Unrestricted Grim Reaper patchwork strengthens coinitial Grim Reaper patchwork"
+subject_kind = "statement"
+subject_id = "Co-possible Grim Reaper pieces along a populated descent glue into one possible world"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Co-possible Grim Reaper pieces along a coinitial populated descent glue into one world"
+verification_result_id = "Unrestricted Grim Reaper patchwork gives coinitial Grim Reaper patchwork"
+note = "Same frame, histories and pieces; the quantifier over descents is restricted to coinitial ones."
