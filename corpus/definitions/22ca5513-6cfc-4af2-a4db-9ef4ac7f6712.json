@@ -1,0 +1,9 @@
+{
+ "id": "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+ "label": "Founded populated pasts in every accessible history",
+ "term": "founded populated past",
+ "definition": "PopulatedPastsFounded h Concrete w holds when, in every history v accessible from w, every moment t at which some contingent concrete individual is present has a founded past: Acc of the strict order at t, so no endless descending sequence of moments lies below t. In ordinary language: wherever a contingent thing is present in a possible history, the past of that moment does not go back without end. A history with natural-number times satisfies it; a history with integer times and a contingent thing present at some moment does not. Histories in which no contingent concrete thing is ever present are unconstrained.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PopulatedPastsFounded",
+ "note": "Analyst framework definition; attribution deferred. It is the denial, for every accessible history with a contingent concrete thing present at some moment, of horn H2 left to the initial-state view by ContingentComingToBe.possibleContingentFreePast. A founded past at a moment is weaker than a first moment of the whole time order and is not a metric finitude claim. Whether every possible populated past is founded remains OPEN; it is derived here only from the Reaper assembly bridge or from state-causal finitism with the precedence bridge."
+}

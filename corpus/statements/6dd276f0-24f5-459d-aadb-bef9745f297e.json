@@ -1,0 +1,21 @@
+{
+  "id": "6dd276f0-24f5-459d-aadb-bef9745f297e",
+  "label": "Possibly, CONCRETE_AND_ABSTRACT_6 contingents exist in a history where each has an earlier ground",
+  "paraphrase": "OPEN analyst possibility premise, attribution deferred: some history accessible from the selected world has a contingent concrete individual present at some moment; every contingent concrete individual existing there has a concrete ground existing there under the supplied grounding relation; and every ground of a contingent concrete individual is present at a moment strictly before each moment at which that individual is present (no merely simultaneous grounding). Nothing is said about the actual world, well-founded grounding, or the length of the past.",
+  "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PossiblyEarlierGroundedPopulated",
+  "definition_ids": [
+    "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+    "ad88bc78-80cc-440e-93d7-b6880bb5e42a",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

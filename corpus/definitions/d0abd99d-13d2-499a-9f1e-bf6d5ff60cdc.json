@@ -1,0 +1,9 @@
+{
+ "id": "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+ "label": "Possibly, a populated history whose contingent things have earlier grounds",
+ "term": "possible earlier-grounded populated history",
+ "definition": "PossiblyEarlierGroundedPopulated h Concrete grounds w holds when some history v accessible from w has a contingent concrete individual present at some moment, every contingent concrete individual existing at v has a concrete ground existing at v (EveryContingentGroundedAt for the profile with the history's ontology), and every ground of a contingent concrete individual is present before it (GroundsPrecedeAt). In ordinary language: possibly, contingent things exist in a history in which each of them has a concrete ground that was there before it.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PossiblyEarlierGroundedPopulated",
+ "note": "Analyst possibility premise; attribution deferred. It says nothing about the actual world, about well-foundedness of grounding, or about the length of the past: an endless history in which each contingent thing is grounded by an earlier one satisfies its history clause. Applicability OPEN."
+}

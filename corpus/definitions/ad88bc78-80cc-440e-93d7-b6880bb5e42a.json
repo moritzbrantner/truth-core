@@ -1,0 +1,9 @@
+{
+ "id": "ad88bc78-80cc-440e-93d7-b6880bb5e42a",
+ "label": "Grounds of contingent concrete things precede them in time",
+ "term": "temporal priority of grounds",
+ "definition": "GroundsPrecedeAt h Concrete grounds v holds when, in history v, whenever y grounds a contingent concrete individual x under the supplied grounding relation at v and x is present at moment t, y is present at some moment strictly earlier than t. In ordinary language: whatever grounds a contingent thing was already there before each moment at which that thing is present. A thing appearing at time 1 grounded by something present at time 0 satisfies it; a thing sustained by a ground present only at the same moments does not.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.GroundsPrecedeAt",
+ "note": "Analyst formulation; attribution deferred. The grounding relation is the world-relative relation of BruteFoundationBoundary.Profile, not efficient causation of an event. The principle excludes grounding a contingent concrete thing only by a simultaneous ground; its rival is simultaneous (sustaining) grounding, as in a per se ordered series, which classical theists themselves typically accept. It is stronger than requiring one earlier ground: it constrains every ground. Applicability OPEN."
+}

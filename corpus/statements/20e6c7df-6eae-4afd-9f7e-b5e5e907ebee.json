@@ -1,0 +1,11 @@
+{
+  "id": "20e6c7df-6eae-4afd-9f7e-b5e5e907ebee",
+  "label": "Every earlier state of a possible history is a causal ancestor of its populated later states",
+  "paraphrase": "OPEN analyst bridge from temporal precedence to causation, attribution deferred: in every history accessible from the selected world, whenever a contingent concrete individual is present at a moment t, the state at each strictly earlier moment reaches the state at t by a chain of one or more direct state-causation edges. An endless past of mere succession, whose earlier states are causally idle, rejects it.",
+  "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PrecedenceIsStateCausation",
+  "definition_ids": [
+    "f764ff99-5fa6-438b-a4b7-ccc9f87477aa",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e"
+  ]
+}

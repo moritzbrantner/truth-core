@@ -1,0 +1,12 @@
+{
+  "id": "83b73e52-73ab-449d-b81e-8b988b1afba2",
+  "label": "Founded populated pasts from the Grim Reaper assembly bridge (inference)",
+  "input_statement_ids": [
+    "f63cd425-ab12-404e-a431-3c798f5f4847"
+  ],
+  "output_statement_id": "fce4ac74-26df-4e97-909d-34865b6463dc",
+  "rule": "Extract an endless descent from an unfounded populated moment (dependent choice); the bridge places stations on it; the verified indexed-signal Reaper impossibility refutes them",
+  "meaning": "Prices horn H2 of the initial-state view with the existing Grim Reaper results. If some populated moment of an accessible history lacked a founded past, classical dependent choice yields a strictly descending sequence of moments starting there; the Reaper assembly bridge then supplies stations obeying the four local rules, which IndexedSignalReaper.impossible (composing GrimReaperImpossible) shows cannot exist. Not a transcription: the bridge's consequent is a station system, and the descent and the derivation of the firing law from local rules do the work. But the bridge is, given that verified impossibility, exactly as strong as its conclusion, so the result relocates the question to the bridge: a holder of H2 must deny that an endless populated past would admit such locally ruled stations. The single premise is OPEN; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

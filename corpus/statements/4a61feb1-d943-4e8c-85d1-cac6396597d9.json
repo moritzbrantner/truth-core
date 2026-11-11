@@ -1,0 +1,19 @@
+{
+  "id": "4a61feb1-d943-4e8c-85d1-cac6396597d9",
+  "label": "Omission and nonvacuity controls for the two horns left to the initial-state view",
+  "paraphrase": "Closed mathematical controls, every individual counted concrete, two mutually accessible worlds. (1) Integer-time endless generation with idle states: state-causal finitism holds, the precedence bridge fails, populated pasts are not founded. (2) The same with every earlier state causing every later one: the precedence bridge holds, finitism fails, populated pasts are not founded, the Reaper assembly bridge fails. (3) The same with each individual grounded by its predecessor: every contingent thing has an earlier-present concrete ground, yet founded coming-to-be is not possible. (4) Natural-number time, a necessary individual simultaneously grounding a contingent one present at every time: pasts founded, every contingent thing grounded, grounds do not precede, the contingent thing never came to be, founded coming-to-be not possible, a necessary concrete individual exists. (5) Natural-number time, two contingent individuals present at every time and grounding each other: pasts founded, presence gives existence, inert emptiness, every contingent thing grounded, grounds do not precede, a contingent thing never came to be, founded coming-to-be not possible, no necessary concrete individual, grounding not well-founded. (6) The existing rooted control with the necessary individual grounding the contingent one: the Reaper bridge, state-causal finitism with the precedence bridge, founded populated pasts, the earlier-grounded possibility and founded coming-to-be all hold. These are statements about six interpretations only.",
+  "lean_declaration": "TruthCore.Causality.ComingToBeHorns.Control.Certificate",
+  "definition_ids": [
+    "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "0071b503-73da-4613-aec0-0d92cb004c3e",
+    "036bb1b9-e472-4046-af06-6fa7bfcd7da4",
+    "f764ff99-5fa6-438b-a4b7-ccc9f87477aa",
+    "ad88bc78-80cc-440e-93d7-b6880bb5e42a",
+    "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
+    "195b8983-2f55-48fa-ad55-35d77ebe2e00",
+    "c2b16e23-5bb5-4602-ac28-3ee32242fa96",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d"
+  ]
+}

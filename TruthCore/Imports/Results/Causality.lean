@@ -46,6 +46,7 @@ public import TruthCore.Results.Causality.ClassicalGodAssembly.Solution
 public import TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution
 public import TruthCore.Results.Causality.ClassicalGodRevelationBoundary.Solution
 public import TruthCore.Results.Causality.CogitoNecessaryConcrete.Solution
+public import TruthCore.Results.Causality.ComingToBeHorns.Solution
 public import TruthCore.Results.Causality.CommonPriority.ContingentGround.Solution
 public import TruthCore.Results.Causality.CommonPriority.Solution
 public import TruthCore.Results.Causality.CompleteCauseContributorCover.Solution

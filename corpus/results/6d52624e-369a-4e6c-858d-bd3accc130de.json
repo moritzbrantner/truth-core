@@ -1,0 +1,11 @@
+{
+  "id": "6d52624e-369a-4e6c-858d-bd3accc130de",
+  "label": "Coming-to-be horn controls checked",
+  "argument_id": "af2a437b-78d7-4203-aafa-bf26ffdf41bb",
+  "challenge_module": "TruthCore.Results.Causality.ComingToBeHorns.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ComingToBeHorns.Solution",
+  "theorem": "TruthCore.Results.Causality.ComingToBeHorns.controls",
+  "comparator_config": "results/6d52624e-369a-4e6c-858d-bd3accc130de/comparator.json",
+  "status": "solution-present",
+  "description": "Each horn survives every bundle with one member omitted. H2 (endless populated past) survives state-causal finitism without the precedence bridge, the precedence bridge without finitism, and an earlier-grounded endless past; under the Reaper bridge it fails in every model. H1 (a never-generated contingent thing) survives grounding with simultaneous grounds, and without a necessary individual only with circular grounding. The rooted control satisfies every premise and bridge of the new arguments jointly. Model claims concern these interpretations only."
+}

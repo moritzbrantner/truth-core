@@ -1,0 +1,9 @@
+{
+ "id": "0071b503-73da-4613-aec0-0d92cb004c3e",
+ "label": "Reaper assembly along an endless populated past",
+ "term": "Reaper assembly bridge",
+ "definition": "ReaperAssembly h Concrete w holds when, for every history v accessible from w and every strictly descending sequence of moments c 0 > c 1 > ... of v such that a contingent concrete individual is present at c 0, there are a Nat-indexed signal assignment and issuance predicate satisfying the four local station rules of IndexedSignalReaper: index admissibility, positive trigger, emission and forwarding. Station n is read as placed at moment c n, so station n + 1 is earlier. In ordinary language: an endless past below a populated moment would leave room for a Grim Reaper system of stations, each obeying only local rules.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.ReaperAssembly",
+ "note": "Analyst bridge in the style of the Grim Reaper arguments for a finite past (patchwork or assembly of locally possible pieces); attribution deferred, no claim is made about any author's exact principle. The station rules are causal: stations respond to signals. Mere temporal precedence contains no stations, so this is an explicit causal-modal bridge, not a consequence of an endless past. Because the consequent is a satisfiability claim that the verified IndexedSignalReaper.impossible refutes, the bridge is, given that theorem, equivalent to the founded populated pasts it is used to derive; its philosophical content is that an endless populated past would permit such a system. Its rival: endless pasts are possible and the local assembly principle fails for them (for example because Reaper systems are excluded by laws, or patchwork does not extend to infinitely many pieces). Applicability OPEN."
+}
