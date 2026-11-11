@@ -1,0 +1,11 @@
+{
+  "id": "3ba47476-b668-46f1-b816-c161c740a7bf",
+  "label": "Concession, answerability, goal-relative force and indifference are jointly unsatisfiable",
+  "paraphrase": "For every frame and supplied accuracy-aim predicate, the actual-force concession, belief answerability, goal-relative force for that aim and an indifference alternative for that aim do not all hold. Says which bundle is inconsistent, not which member to reject.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.AuthorityRivalBundleInconsistent",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "881687eb-aed5-47f8-a2fd-a1a7a8a11525",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

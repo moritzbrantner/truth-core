@@ -19,6 +19,7 @@ public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
+public import TruthCore.Results.Logic.EpistemicAuthority.Solution
 public import TruthCore.Results.Logic.EpistemicNihilismRetorsion.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.Boundary.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.DefinitionFork.Solution
@@ -34,6 +35,9 @@ public import TruthCore.Results.Logic.ExcludedMiddleNotDeniable.Solution
 public import TruthCore.Results.Logic.FallibleCorrection.Solution
 public import TruthCore.Results.Logic.FiniteValidationLogic.Solution
 public import TruthCore.Results.Logic.FitchKnowability.Solution
+public import TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution
+public import TruthCore.Results.Logic.FormSelection.Certificate.Solution
+public import TruthCore.Results.Logic.FormSelection.Solution
 public import TruthCore.Results.Logic.IntuitionisticKnowability.Solution
 public import TruthCore.Results.Logic.JointRouteFailure.Solution
 public import TruthCore.Results.Logic.JustificationIntrospection.Solution

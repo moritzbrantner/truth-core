@@ -1,0 +1,9 @@
+{
+  "id": "f5345c9c-24c5-41d4-9e6f-11a9de9edcdc",
+  "label": "Thin existence: existents of the selected world have no act of being",
+  "term": "thin existence",
+  "definition": "ExistenceWithoutActOfBeingAt m InAct esse w holds when something exists at w and nothing existing at w is in act in the supplied esse respect. Ordinary meaning: things exist, but existing is not an actuality they have. Example: 'Socrates exists' read as 'something is Socrates', ascribing no act of being to him. It does not deny that things exist and says nothing about act in respects other than esse.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.ExistenceWithoutActOfBeingAt",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by the thin, quantificational conception of existence. Rival of the existence-to-act contract ExistingInActAt on the same Ontic model, InAct, esse and world. Stronger than the negation: no existent at w, not merely some, is in act in esse. A weaker two-category rival (some existents lack the act, others have it) was considered and is recorded in the attempt; it is a different position, neither implying nor implied by this one, and is not tested."
+}

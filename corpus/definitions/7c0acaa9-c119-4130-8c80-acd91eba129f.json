@@ -1,0 +1,9 @@
+{
+  "id": "7c0acaa9-c119-4130-8c80-acd91eba129f",
+  "label": "Unbounded grades of being: every actual grade is exceeded by an actual one",
+  "term": "unbounded grades of being",
+  "definition": "EveryActualGradeExceededAtBeing InAct MoreIn esse holds when some pair compares in esse and, for every individual in act in esse, some individual in act in esse is more in esse than it. Ordinary meaning: there is more and less in being, but no most. Example: an endless ascending scale, as the natural numbers have greater and smaller but no greatest. It does not say nothing compares and imposes no order laws on MoreIn.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.EveryActualGradeExceededAtBeing",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by open-ended hierarchies: degrees need no maximum. Rival of GradesToMaximumAtBeing on the same InAct, MoreIn and esse. Stronger than the negation: the exceeding individual is itself in act. Without order laws on MoreIn a finite circle of comparisons also satisfies it; the certified interpretation uses a strict order with no top instead. The existing QuartaViaUnboundedDegrees is not reused because it holds on an empty carrier together with the premise."
+}

@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Modal.RevisionUptake.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RevisionUptake.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Modal.RevisionUptake.screening"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

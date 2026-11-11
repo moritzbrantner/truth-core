@@ -1,0 +1,13 @@
+{
+  "id": "741802a8-76b5-4568-ac57-edca634d83f1",
+  "label": "Finite energy ledger bounds output and requires input for nondepleting dissipation, by ledger ari…",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2224e28d-8f05-41c9-b279-fffe000286aa",
+  "inference_ids": [
+    "f774118e-1efd-480c-8747-c35172209cd0"
+  ],
+  "meaning": "For every admissible energy ledger, work plus heat is at most initial stock plus boundary input; if final stock is at least initial stock and work plus heat is positive, boundary input is positive. Analyst conditional model only; no universal causal or existential bridge.",
+  "definition_ids": [
+    "e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"
+  ]
+}

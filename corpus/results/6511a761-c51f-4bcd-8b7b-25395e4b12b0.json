@@ -1,0 +1,11 @@
+{
+  "id": "6511a761-c51f-4bcd-8b7b-25395e4b12b0",
+  "label": "A3 accessible occurrence transport controls",
+  "argument_id": "aca20223-b63d-41e5-a87b-8acd72c994b9",
+  "challenge_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Challenge",
+  "solution_module": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.Solution",
+  "theorem": "TruthCore.Results.Causality.EventIdentityProfiles.AccessibleTransport.controls",
+  "comparator_config": "results/6511a761-c51f-4bcd-8b7b-25395e4b12b0/comparator.json",
+  "status": "solution-present",
+  "description": "Constructively prove the strength comparison with the type-global law, the derivation of relativized uniqueness from UniqueRealization of accessible occurrence, the collapse forced by type-global uniqueness, one separating nonvacuity witness, and omission countermodels for the uniqueness and matching-conditioning antecedents. No premise discharge or root truth."
+}

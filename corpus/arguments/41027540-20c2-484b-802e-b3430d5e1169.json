@@ -1,0 +1,10 @@
+{
+  "id": "41027540-20c2-484b-802e-b3430d5e1169",
+  "label": "Quantitative transfer derivation nonuniformFixed",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a0053ef7-4132-4214-948e-9dd301644b7e",
+  "inference_ids": [
+    "5a06be5f-c25f-44a4-9dc3-e738d50931d3"
+  ],
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

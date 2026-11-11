@@ -1,0 +1,9 @@
+{
+  "id": "ec8c4a31-2ca7-4221-8eee-9a7c73de6337",
+  "label": "Idle maximum: a maximum in being exists and no maximum causes the being of every other being",
+  "paraphrase": "Closed control on one three-member interpretation (a top, a maker and a made thing, all in act in esse, ranked strictly; only the maker causes being, and only in the made thing): the idle-maximum rival holds, some being is maximal in being, and no being is both maximal in being and a cause of the being of every other being. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.IdleMaximumSurvives",
+  "definition_ids": [
+    "6a2a5507-835e-455e-a239-bdc97de69f96"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "d5b1d0f7-6736-4578-8d11-8d4704a08464",
+  "label": "Fixed initial 535 propagation transcribed",
+  "argument_id": "27cb61f7-aa4f-481b-9f91-315f40e78927",
+  "challenge_module": "TruthCore.Results.Modal.FixedInitial535.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FixedInitial535.Solution",
+  "theorem": "TruthCore.Results.Modal.FixedInitial535.propagation",
+  "comparator_config": "results/d5b1d0f7-6736-4578-8d11-8d4704a08464/comparator.json",
+  "status": "solution-present",
+  "description": "Elementary propagation of an explicitly assumed same bearer; no philosophical premise discharged.",
+  "transcription": "single_application"
+}

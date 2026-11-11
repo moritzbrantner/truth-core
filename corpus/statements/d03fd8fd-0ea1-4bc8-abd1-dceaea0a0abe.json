@@ -1,0 +1,9 @@
+{
+  "id": "d03fd8fd-0ea1-4bc8-abd1-dceaea0a0abe",
+  "label": "Abstract-only world: the rival of concrete population holds and the root trilemma fails",
+  "paraphrase": "Closed control on one interpretation (one world, one existing candidate, nothing concrete, empty selected relation): something exists at the world and nothing existing there is concrete; excluded middle holds; and the three-horned conclusion of the root trilemma fails there: no necessary concretum, no nonnecessary root, and actual grounding is well-founded. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.AbstractOnlySurvives",
+  "definition_ids": [
+    "aa836436-d326-4b41-b752-b0b21f3eede5"
+  ]
+}

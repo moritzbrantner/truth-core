@@ -1,0 +1,10 @@
+{
+  "id": "60e375d6-7506-43d3-b61a-0aa541bbaa46",
+  "label": "Atomistic static subset requirement control checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "10eb4095-ced2-416f-963f-ecf0b5df6697",
+  "rule": "Finite interpretation with requirement calibration and verified universal-priority reuse",
+  "meaning": "A single fixed six-object subset order, complete-production graph and admitted Boolean scenario space jointly check the named static subset. Reuses universalPriority for source priority; full effect universality instead fails. Proper-part WF follows a rank; all other finite conditions are kernel-checked decisions. No claim of physical realizability, original full-bundle compatibility/refutation, premise closure or necessary concrete being. Connection plan: discriminate Step5 for a2e48b9a, then supply the still-open same-source actual-domain/modal dictionary to b19ffd92 and the underived/maxime/root route.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

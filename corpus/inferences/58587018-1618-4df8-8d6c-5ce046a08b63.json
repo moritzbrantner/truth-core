@@ -1,0 +1,10 @@
+{
+  "id": "58587018-1618-4df8-8d6c-5ce046a08b63",
+  "label": "Two form selection and intervention controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "1f5d8a5e-0cb2-4342-83eb-0321c5a7ac81",
+  "rule": "Constructor evaluation",
+  "meaning": "Explicit joint positive capacity witness and constant-state context model; diagonal agreement is separated from an off-diagonal intervention.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

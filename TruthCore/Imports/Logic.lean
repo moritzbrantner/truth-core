@@ -17,6 +17,7 @@ public import TruthCore.Logic.ContrastiveWorldview
 public import TruthCore.Logic.CorrectionCriterion
 public import TruthCore.Logic.DistributedKnowledge
 public import TruthCore.Logic.EpistemicAccuracy
+public import TruthCore.Logic.EpistemicAuthority
 public import TruthCore.Logic.EpistemicReasonDefinitionFork
 public import TruthCore.Logic.EpistemicReasons
 public import TruthCore.Logic.ExcludedMiddle
@@ -24,6 +25,8 @@ public import TruthCore.Logic.ExcludedMiddleAssertionBoundary
 public import TruthCore.Logic.FallibleCorrection
 public import TruthCore.Logic.FiniteValidationLogic
 public import TruthCore.Logic.FitchKnowability
+public import TruthCore.Logic.ForeknowledgeDiscrimination
+public import TruthCore.Logic.FormSelection
 public import TruthCore.Logic.IntuitionisticKnowability
 public import TruthCore.Logic.JointRouteFailure
 public import TruthCore.Logic.JustificationIntrospection

@@ -1,0 +1,11 @@
+{
+  "id": "500f4a02-2a2f-4fae-8fac-69f3eb14fa97",
+  "label": "Revision uptake Controls structural definition",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.Controls",
+  "term": "Revision uptake Controls",
+  "definition": "Conjunction of echo retention under both assessments, sensitivity under either inversion setting, and noise downstream of a closed gate without assessment influence. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding.",
+  "basis": "stipulative",
+  "claim_ids": [],
+  "note": "Conjunction of echo retention under both assessments, sensitivity under either inversion setting, and noise downstream of a closed gate without assessment influence. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding. Analyst stipulation for conditional tests, attribution deferred."
+}

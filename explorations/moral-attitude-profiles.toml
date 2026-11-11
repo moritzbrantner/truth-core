@@ -1,13 +1,68 @@
-target = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
+target = "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+# Root connection plan of attempt moral-attitude-profiles (fa1ce455): the named
+# fixed-assessor approval-account failure on the goodness/form-end route. Robust
+# realism's mind-independence is kept as the original-sense node the candidates
+# do not complete.
+[[node]]
+id = "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
 [[node]]
 id = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
 [[node]]
+id = "Grounding stability bridge"
+[[node]]
+id = "Grounding candidate entails intervention candidate"
+[[node]]
+id = "Ancestral attitude exclusion implies direct exclusion"
+[[node]]
+id = "Moral attitude profile separation controls"
+[[node]]
+id = "Intervention calibration supplies actual truth"
+[[node]]
+id = "Grounding calibration supplies actual truth"
+[[node]]
 id = "moral-profile-calibration"
 new = true
-text = "Explicit actual-truth and faithful classifier calibration for intervention or grounding candidates."
+text = "Explicit actual-truth and faithful classifier calibration for intervention or grounding candidates, applied to the named approval account."
+
+[[edge]]
+premises = ["Grounding stability bridge"]
+conclusion = "Grounding candidate entails intervention candidate"
+kind = "derivation"
+status = "certified"
+note = "groundingBridge (f1afc73a); MIND_INDEPENDENT_4 to _3 only under GroundingStability."
+[[edge]]
+premises = []
+conclusion = "Ancestral attitude exclusion implies direct exclusion"
+kind = "derivation"
+status = "certified"
+note = "ancestralDirect (550ebd5b); concerns components only."
+[[edge]]
+premises = []
+conclusion = "Moral attitude profile separation controls"
+kind = "derivation"
+status = "certified"
+note = "controls (70c14b36); premise-free sense-mixing control, not support for any route node."
+[[edge]]
+premises = []
+conclusion = "Intervention calibration supplies actual truth"
+kind = "derivation"
+status = "certified"
+note = "interventionCalibration (a5f8477d)."
+[[edge]]
+premises = []
+conclusion = "Grounding calibration supplies actual truth"
+kind = "derivation"
+status = "certified"
+note = "groundingCalibration (ebb9a5d9)."
+[[edge]]
+premises = ["moral-profile-calibration"]
+conclusion = "STMT-GOODNESS-APPROVAL-ACCOUNT-FAILS"
+kind = "bridge"
+status = "mapped"
+note = "OPEN: neither candidate nor internal assertion alone proves the approval-account failure; it needs faithful calibration of the named approval account and actual truth. No discharge."
 [[edge]]
 premises = ["moral-profile-calibration"]
 conclusion = "STMT-ROBUST-REALISM-MORAL-FACTS-MIND-INDEPENDENT"
 kind = "bridge"
 status = "mapped"
-note = "OPEN: neither candidate selects the original metaphysical sense; root natural-law and external POE applications require faithful calibration and actual truth. No discharge."
+note = "OPEN: neither candidate selects the original metaphysical sense (MIND_INDEPENDENT_2); the external POE application requires faithful calibration and actual truth. No discharge."

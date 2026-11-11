@@ -1,0 +1,10 @@
+{
+  "id": "43329651-ea84-4927-969e-e5d2bdef89cd",
+  "label": "Bottomless actual grounding is an alternative to whole-roster nontrapping",
+  "subject_kind": "statement",
+  "subject_id": "93a5b216-b799-47e8-971a-d52570bacbad",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "5c898d24-d1f7-5087-b09e-3287a723e787",
+  "note": "Same Profile and world. The rival implies the negation of the premise (checked); the converse is not checked. Neither is established."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "7dbeaf65-ca3f-43f3-bd26-4925fa1ee349",
+  "label": "Every finite interval sequence has cumulative output bounded by stock and input, by ledger arithm…",
+  "argument_id": "79f67ab9-a489-4e23-abde-da5284dbe801",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveStore.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveStore.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveStore.temporalBudget",
+  "comparator_config": "results/7dbeaf65-ca3f-43f3-bd26-4925fa1ee349/comparator.json",
+  "status": "solution-present",
+  "description": "For real sequences stock,input,output, nonnegative stock and stock(t+1)+output(t)=stock(t)+input(t) imply every finite output sum is at most stock(0) plus the corresponding input sum. This arithmetic theorem needs no positivity assumption on input or output. Analyst conditional model only; no universal causal or existential bridge."
+}

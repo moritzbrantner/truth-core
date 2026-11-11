@@ -1,0 +1,16 @@
+{
+  "id": "a21fb462-90ef-44f1-99f6-15c692a1f48b",
+  "label": "Two form selection and intervention controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "1f5d8a5e-0cb2-4342-83eb-0321c5a7ac81",
+  "inference_ids": [
+    "58587018-1618-4df8-8d6c-5ce046a08b63"
+  ],
+  "meaning": "Explicit joint positive capacity witness and constant-state context model; diagonal agreement is separated from an off-diagonal intervention.",
+  "definition_ids": [
+    "502a05c8-2a81-4410-84a7-2474f52debc7",
+    "73f860c5-dfd5-4b26-a288-bf86817b915a",
+    "a909fd1c-bb6b-54d1-a8f1-1a798c5ed129",
+    "c2d688c5-141c-4b79-b8ff-843e6dfdae31"
+  ]
+}

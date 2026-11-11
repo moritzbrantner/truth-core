@@ -1,0 +1,9 @@
+{
+  "id": "9c65621a-b24a-4863-980c-bda14e55bf38",
+  "label": "Endless descent: bottomless grounding holds with the other premises and nothing is necessary",
+  "paraphrase": "Closed control on one interpretation (two mutually accessible worlds; the natural numbers, all concrete, exist at the selected world only; each number is grounded by its successor): bottomless actual grounding holds, a concrete candidate exists at the selected world, every actual contingent concretum has an actual concrete ground, excluded middle holds, and no concrete candidate exists at the selected world and at every world accessible from it. A statement about this interpretation only; the circular shape of the rival is not exhibited.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.BottomlessSurvives",
+  "definition_ids": [
+    "c3115d3f-cbed-4e5f-a68a-fb9caa1aa9d1"
+  ]
+}

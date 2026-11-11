@@ -1,0 +1,25 @@
+{
+  "id": "6b135d43-0592-451b-81c7-de48e761cf2b",
+  "label": "Non-concrete-priority rival of the simple-priority bridge survives, checked",
+  "argument_id": "18fe19d3-8069-4038-bf26-4747d2751ca6",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.abstractPriorSurvives",
+  "comparator_config": "results/6b135d43-0592-451b-81c7-de48e761cf2b/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the simple-priority bridge against its smallest consumer, NecessaryFirstBeing.necessaryFirst (premises: concrete population, whole-roster nontrapping, contingent dependence, excluded middle, the simple-priority bridge). With a non-concrete item simply prior to the one necessary concrete root, the rival holds with the other four premises and that root is not a first being. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "86efed1a-f353-5b5d-9431-df7fc643ace1",
+      "rival_statement_id": "37d59118-248d-4b53-adf9-fe4477e0bd46",
+      "sense_definition_id": "a94df438-65e3-48bb-95e9-3342c94322ed",
+      "outcome": "model-witnessed",
+      "conditions": "Control.abstractPrior at its one world with abstractPriorTo: the rival, concrete population, WholeRosterNotTrapped, EveryContingentGroundedAt and excluded middle hold; NecessaryActualFirstAt fails. Consumer tested: NecessaryFirstBeing.necessaryFirst.",
+      "scope": "Same Profile, selected world and PriorSimply as the premise; one world, two candidates.",
+      "coverage": "One explicitly populated interpretation; contingent dependence holds vacuously there.",
+      "exclusivity": "The rival and the premise cannot both hold on one Profile, world and PriorSimply (unregistered helper abstractPrior_excludes).",
+      "witness": "Control.abstractPrior in Control.AbstractPriorSurvives; abstractPriorSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against act-is-simply-prior-to-potency and the adopted sense of concrete: what is simply prior would have to be in act, hence have esse in re."
+    }
+  ]
+}

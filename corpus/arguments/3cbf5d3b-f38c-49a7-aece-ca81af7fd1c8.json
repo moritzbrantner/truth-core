@@ -1,0 +1,15 @@
+{
+  "id": "3cbf5d3b-f38c-49a7-aece-ca81af7fd1c8",
+  "label": "Concession, answerability, goal-relativism and indifference bundle exclusion",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "3ba47476-b668-46f1-b816-c161c740a7bf",
+  "inference_ids": [
+    "70ae897a-6f94-4857-b797-d6e037cc9799"
+  ],
+  "meaning": "Checked exclusion: composes the answerability argument with the goal-relative exclusion. At least one of the four members fails in any frame; the theorem does not select which. Analyst formulation, attribution deferred.",
+  "definition_ids": [
+    "881687eb-aed5-47f8-a2fd-a1a7a8a11525",
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

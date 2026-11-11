@@ -1,0 +1,11 @@
+{
+  "id": "3f888d00-c940-4bf3-99d7-faa342b42ed5",
+  "label": "Goal-relative force grants the actual-force concession for aiming subjects",
+  "argument_id": "1eae5cd6-1f4c-4537-9807-dff6806e9cfa",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicAuthority.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicAuthority.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicAuthority.concessionFromGoalRelative",
+  "comparator_config": "results/3f888d00-c940-4bf3-99d7-faa342b42ed5/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst argument, attribution deferred: under goal-relative force, an ordinary belief reason of a subject whose actual preference has the aim has force at that preference. Checks that the rival account grants the concession premise of the answerability argument; it does not establish that any subject has such a reason."
+}

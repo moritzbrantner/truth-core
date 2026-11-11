@@ -6,7 +6,7 @@ results = "TruthCore.Results.Logic.CertifiedCorrection"
 id = "Scoped certificate calibration connects a procedure to exact classification"
 lean = "ConnectionAndControls"
 definitions = ["2383deea-6f13-4ea0-8822-1b51db573f7d"]
-paraphrase = "For arbitrary state and evidence types, procedure coverage and accepted-certificate calibration on an explicit scope imply exact classification on that scope subtype. Finite controls exhibit a nonvacuous covered calibrated procedure, coverage without calibration, exact classification without execution resources, and calibration on a restricted scope without calibration on all states. Certificate acceptance is not philosophical warrant."
+paraphrase = "For arbitrary state and evidence types, procedure coverage and accepted-certificate calibration on an explicit scope imply exact classification on that scope subtype; the availability field inside coverage is not used for this conclusion. Finite controls exhibit a nonvacuous covered calibrated procedure, coverage without calibration, an extensionally classifiable norm (the identity criterion for s = true) together with an always-true echo procedure that lacks resources and so is not covered (it would also fail calibration for that norm), showing that extensional classifiability does not imply coverage by a given procedure, and calibration on a restricted scope without calibration on all states. Certificate acceptance is not philosophical warrant."
 
 [[argument]]
 id = "Scoped calibration and procedure separation controls"
@@ -14,4 +14,4 @@ theorem = "connectionAndControls"
 premises = []
 conclusion = "Scoped certificate calibration connects a procedure to exact classification"
 rule = "constructive proof and finite omission controls"
-meaning = "Conditional analyst candidate: explicit execution resources, checking and scoped calibration are separate. No human usability, epistemic warrant, truth-directed norm, or root premise is established."
+meaning = "Conditional analyst candidate: coverage and scoped calibration yield exact classification on the scope; the availability (execution-resource) component of coverage is not load-bearing for ScopedConnection. The controls separate calibration from coverage, extensional classifiability from coverage by a given procedure, and restricted from unrestricted calibration. No human usability, epistemic warrant, truth-directed norm, or root premise is established."

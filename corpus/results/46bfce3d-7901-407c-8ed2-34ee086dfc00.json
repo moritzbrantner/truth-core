@@ -1,0 +1,11 @@
+{
+  "id": "46bfce3d-7901-407c-8ed2-34ee086dfc00",
+  "label": "Positive discharge can persist at every natural interval with finite initial stock, by ledger ari…",
+  "argument_id": "dc9576d6-9216-4440-97cf-eee0494ac3f7",
+  "challenge_module": "TruthCore.Results.Causality.ProductiveStore.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ProductiveStore.Solution",
+  "theorem": "TruthCore.Results.Causality.ProductiveStore.decayingDischarge",
+  "comparator_config": "results/46bfce3d-7901-407c-8ed2-34ee086dfc00/comparator.json",
+  "status": "solution-present",
+  "description": "For every natural n let e=(1/2)^n. The ledger (2e,2(1/2)^(n+1),0,e/2,e/2) is admissible and e/2 is positive. Adjacent stocks match; this witnesses indefinitely positive but decreasing interval output without external energy input, not eternal steady output or metaphysical source-free power. Analyst conditional model only; no universal causal or existential bridge."
+}

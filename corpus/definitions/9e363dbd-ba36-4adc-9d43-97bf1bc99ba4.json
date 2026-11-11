@@ -1,0 +1,9 @@
+{
+  "id": "9e363dbd-ba36-4adc-9d43-97bf1bc99ba4",
+  "label": "Exceeded god: something divine with being is exceeded in being by a non-divine thing",
+  "term": "exceeded god",
+  "definition": "SomeGodExceededInBeing IsGod InAct MoreIn esse holds when there are g and y such that g is God, g is in act in esse, y is not God, and y is more in esse than g. Ordinary meaning: there is a god, and it is not the highest reality. Example: a divine craftsman who looks to a Form more real than himself. It is not atheism and does not say God lacks being.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.SomeGodExceededInBeing",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by demiurgic and finite-god theologies. Rival of GodIsMaximalInBeing on the same IsGod, InAct, MoreIn and esse. Stronger than the negation: the god has being and what exceeds it is not God. IsGod is the supplied predicate; whether a being so exceeded deserves the name under the nominal definition is the dispute, not something this definition settles."
+}

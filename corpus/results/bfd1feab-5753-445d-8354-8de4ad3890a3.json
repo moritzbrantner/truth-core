@@ -1,0 +1,11 @@
+{
+  "id": "bfd1feab-5753-445d-8354-8de4ad3890a3",
+  "label": "Quantitative transfer derivation conservativeCircle",
+  "argument_id": "0b930da8-0e49-4222-9e61-42303145770d",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.conservativeCircle",
+  "comparator_config": "results/bfd1feab-5753-445d-8354-8de4ad3890a3/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

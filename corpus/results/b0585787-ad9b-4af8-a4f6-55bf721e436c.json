@@ -1,0 +1,11 @@
+{
+  "id": "b0585787-ad9b-4af8-a4f6-55bf721e436c",
+  "label": "Necessary concrete external cause, Euclidean at the selected world",
+  "argument_id": "e96fd88e-fcb3-4d83-864c-7d2802ec9343",
+  "challenge_module": "TruthCore.Results.Causality.ActualEuclidean.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ActualEuclidean.Solution",
+  "theorem": "TruthCore.Results.Causality.ActualEuclidean.externalNecessaryConcrete",
+  "comparator_config": "results/b0585787-ad9b-4af8-a4f6-55bf721e436c/comparator.json",
+  "status": "solution-present",
+  "description": "Frame-scope weakening of LocalFramePossibleExternalCause.necessaryConcrete: the global Euclidean premise is replaced by Euclidean access at the selected world w only; the Scenario, possible-beginning and causal-opportunity predicates are unchanged. Opportunity applied to the possible beginning gives an accessible v with an existing concrete external totality-cause c; the existing necessaryOfExternalCandidate gives that c is necessary at v. Euclidean access and reflexivity at w carry the SAME c to w and to every successor of w. No causal role is transported to w. No premise is discharged."
+}

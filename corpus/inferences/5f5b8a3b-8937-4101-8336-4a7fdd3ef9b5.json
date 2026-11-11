@@ -1,0 +1,10 @@
+{
+  "id": "5f5b8a3b-8937-4101-8336-4a7fdd3ef9b5",
+  "label": "Discharge maintenance replenishment and heat-only ledger controls, by ledger arithmetic (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "6664141a-928e-42f5-a926-b676aa0c1acd",
+  "rule": "Energy ledger arithmetic",
+  "meaning": "The explicit ledgers (before,after,input,work,heat) (2,0,0,1,1), (2,2,0,0,0), (2,2,2,1,1), (2,0,0,0,2) are admissible; (2,2,0,1,1) is not. Analyst conditional model only; no universal causal or existential bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

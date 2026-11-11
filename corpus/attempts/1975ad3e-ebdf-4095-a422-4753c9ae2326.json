@@ -1,0 +1,33 @@
+{
+  "id": "1975ad3e-ebdf-4095-a422-4753c9ae2326",
+  "label": "Contractive borrowed-power zero obstruction and recursive applicability walk",
+  "date": "2026-11-10",
+  "statement_ids": [
+    "97f5850f-62bc-5e43-a0c1-dd1033d08fc9",
+    "c805abc5-cb0c-42e2-a6bc-518e68b70b7b",
+    "276e927c-42ae-4bdd-839f-b751acf72c20",
+    "e120990a-352c-4737-b119-a8da2001df96",
+    "3fcc8ad9-f2f2-452c-94bd-b76dd775bb89",
+    "424a0323-fc89-4ff6-9798-9825b602b4b7",
+    "a0053ef7-4132-4214-948e-9dd301644b7e",
+    "c38a86da-bfef-42e4-b6b6-8b50343cd068",
+    "9abdae18-e8ce-4a8b-9971-68decef68363",
+    "199ffee0-8ec2-4340-bf95-ebf7b215fc40",
+    "4979a793-ef0f-47a7-99da-52dd74433afa"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Continuation proves weighted-network finite input paths, nonuniform vanishing-tail zero criterion, positive lower bounds on nonuniform cumulative products, whole-network binary/nonuniform/unbounded fixed points and finite shared-resource budget conservation. Conservative circulation survives finite resource accounting; universal aggregate loss and productive-input-to-independent-being remain without independent warrant. Full proposed judgment, exact scopes, failed unrestricted iteration, blockers and next discriminating test persist in docs/notes/contractive-borrowed-power-1378.md. No root discharge or new floor.",
+  "evidence": [
+    "a6e858eb-6c79-493d-b5c4-3cfb37a78a61",
+    "76278d0b-5585-49fc-a824-b4ba1f6223bd",
+    "d1c3835a-f5c9-4acf-8664-aa7720ccbd45",
+    "ba0ae4ff-7866-423c-9cb5-9894a45bdb55",
+    "e88435b7-2ee9-4eb0-9469-e406fc66099c",
+    "b361eb10-4bc7-4cf8-a42c-28d45bc5d7aa",
+    "082838e6-d83c-4cbd-b3aa-e252d6af946c",
+    "bfd1feab-5753-445d-8354-8de4ad3890a3",
+    "54e36212-e4d6-4a94-88a8-648ac39ec128",
+    "16f89f72-5999-42d2-a9d8-e578f2183259"
+  ]
+}

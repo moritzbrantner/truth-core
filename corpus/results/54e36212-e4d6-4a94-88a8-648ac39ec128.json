@@ -1,0 +1,11 @@
+{
+  "id": "54e36212-e4d6-4a94-88a8-648ac39ec128",
+  "label": "Quantitative transfer derivation vanishingTail",
+  "argument_id": "66e9ea43-7ed8-4fb6-8a8e-91fea10d47c8",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.vanishingTail",
+  "comparator_config": "results/54e36212-e4d6-4a94-88a8-648ac39ec128/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.ContractiveBorrowedPower.zeroExercise"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

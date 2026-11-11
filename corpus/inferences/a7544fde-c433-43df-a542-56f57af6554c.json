@@ -1,0 +1,10 @@
+{
+  "id": "a7544fde-c433-43df-a542-56f57af6554c",
+  "label": "Actual-world Euclidean separating controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "191b80d8-d3bc-4b0e-aea7-d86e66e82352",
+  "rule": "Explicit three-world interpretations, checked by case analysis",
+  "meaning": "Euclidean access at the selected world is strictly weaker than global Euclidean access on the clustered frame, and the restricted premise bundle of the inert-emptiness arrival is jointly satisfiable there with global Euclidean access failing, so the weakening is not vacuous for that arrival. The existing stepwise rival frame also fails the restricted premise, so it remains a countermodel to its omission. No model of the full possible-external-cause bundle on the clustered frame is given. Model claims concern these finite interpretations only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

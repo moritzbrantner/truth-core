@@ -1,0 +1,10 @@
+{
+  "id": "dfcb20a0-b58d-4f9b-b20f-55d1b468fd2c",
+  "label": "A shared reachability profile fixes neither route composition nor intellect (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "aea4c3bc-a790-43ba-b41a-80574dffc643",
+  "rule": "Two explicit route models on one shared graph interpretation",
+  "meaning": "There are two specified routes on Nat, each pairing a graph interpretation with PhysicalGround.Route parameters, that have the same anchor and the same extension for every restricted path formula (the anchor reaches exactly the even numbers), and both satisfy the ST I q.14 a.1 reading Route.Immaterial; in the first the anchor is composite and has intellect, in the second it is neither composite nor has intellect. Independence inside this candidate language only: no mapping of the language to an original ground is supplied, so the root-route step is neither refuted nor supported.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

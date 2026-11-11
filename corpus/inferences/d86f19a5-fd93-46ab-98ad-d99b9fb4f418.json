@@ -1,0 +1,10 @@
+{
+  "id": "d86f19a5-fd93-46ab-98ad-d99b9fb4f418",
+  "label": "Positive discharge can persist at every natural interval with finite initial stock, by ledger ari…",
+  "input_statement_ids": [],
+  "output_statement_id": "faa6ebf2-e754-46c2-9536-60403ade973f",
+  "rule": "Energy ledger arithmetic",
+  "meaning": "For every natural n let e=(1/2)^n. The ledger (2e,2(1/2)^(n+1),0,e/2,e/2) is admissible and e/2 is positive. Adjacent stocks match; this witnesses indefinitely positive but decreasing interval output without external energy input, not eternal steady output or metaphysical source-free power. Analyst conditional model only; no universal causal or existential bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

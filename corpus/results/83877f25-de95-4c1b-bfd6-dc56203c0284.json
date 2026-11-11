@@ -1,0 +1,11 @@
+{
+  "id": "83877f25-de95-4c1b-bfd6-dc56203c0284",
+  "label": "Foreknowledge finite controls checked",
+  "argument_id": "91e3af6f-712e-4947-8645-6311207bbe5e",
+  "challenge_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Challenge",
+  "solution_module": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution",
+  "theorem": "TruthCore.Results.Logic.ForeknowledgeDiscrimination.controls",
+  "comparator_config": "results/83877f25-de95-4c1b-bfd6-dc56203c0284/comparator.json",
+  "status": "solution-present",
+  "description": "Two-world omission controls and four-world quotient representatives, with both coverage and inequivalence verified. No unbounded finite cardinal theorem or actual cognitive adequacy is claimed."
+}

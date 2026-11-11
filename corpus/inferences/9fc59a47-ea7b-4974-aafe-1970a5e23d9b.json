@@ -1,0 +1,12 @@
+{
+  "id": "9fc59a47-ea7b-4974-aafe-1970a5e23d9b",
+  "label": "Tolerance non-Euclidean access gives the reflexive non-Euclidean rival (inference)",
+  "input_statement_ids": [
+    "8a992ec3-5c71-4279-82b4-5f4e6dfdb952"
+  ],
+  "output_statement_id": "9656dfbe-f929-4c65-91f0-72b4b6cec7c2",
+  "rule": "projection and existential introduction at the selected world",
+  "meaning": "Strength registration (not a route step): the tolerance rival at a world w on a frame gives the global reflexive non-Euclidean rival on the same frame, by dropping symmetry and taking w as the witness world. The converse fails: the stepwise frame is not symmetric.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

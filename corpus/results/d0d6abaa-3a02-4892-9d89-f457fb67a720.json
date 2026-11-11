@@ -1,0 +1,11 @@
+{
+  "id": "d0d6abaa-3a02-4892-9d89-f457fb67a720",
+  "label": "Revision uptake controls structural certificate by port evaluation",
+  "argument_id": "2a880897-6eb9-4fbe-b0cf-819c57c78c06",
+  "challenge_module": "TruthCore.Results.Modal.RevisionUptake.Challenge",
+  "solution_module": "TruthCore.Results.Modal.RevisionUptake.Solution",
+  "theorem": "TruthCore.Results.Modal.RevisionUptake.controls",
+  "comparator_config": "results/d0d6abaa-3a02-4892-9d89-f457fb67a720/comparator.json",
+  "status": "solution-present",
+  "description": "Echoed recommendation retains the old selector under either assessment; transmission and inversion both change output with assessment; noise following a closed gate leaves assessment ineffective. These structural controls establish no understanding, competence, freedom or ownership. Analyst formulation for #945; no root discharge; attribution deferred."
+}

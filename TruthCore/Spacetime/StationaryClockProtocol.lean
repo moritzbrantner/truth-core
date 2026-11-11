@@ -54,14 +54,20 @@ The profile supplies synchronized stationary coverage, not ontic presence. -/
 def Timestamp (s : System E C L) (e : E) (t : ℝ) : Prop :=
   Calibrated s ∧ ∃ c, At s c e ∧ localTime s c e = t
 
-theorem local_agreement (s : System E C L) (h : Calibrated s)
+/-- Any two clocks give the same reading at an event's chart parameter. This
+follows from `Calibrated.commonCalibration` alone: stationarity, coverage and
+midpoint agreement are not used, and no `At` hypothesis is assumed, so it is
+NOT a statement about instruments present at the event. -/
+theorem calibrated_localTime_eq (s : System E C L) (h : Calibrated s)
     (c d : C) (e : E) : localTime s c e = localTime s d e := by
   obtain ⟨rate, origin, _, hc⟩ := h.commonCalibration
   simp only [localTime, hc]
 
-/-- Synchronization consistency of readouts is an equivalence relation;
-midpoint and coverage alone are not silently used as rate calibration. -/
-theorem consistent (s : System E C L) (h : Calibrated s) (c d : C) (t : ℝ) :
+/-- Under the profile, all clocks have equal readouts at every chart parameter
+(equality, hence trivially symmetric and transitive). Only
+`Calibrated.commonCalibration` is used; midpoint and coverage are not used and
+are not silently treated as rate calibration. -/
+theorem calibrated_readout_eq (s : System E C L) (h : Calibrated s) (c d : C) (t : ℝ) :
     s.readout c t = s.readout d t := by
   obtain ⟨rate, origin, _, hc⟩ := h.commonCalibration
   rw [hc, hc]
@@ -133,14 +139,22 @@ theorem reference_control :
   · exact (offset_midpoint _ _ _).2 rfl
   · rw [offset_midpoint]; norm_num
 
-/-- Rate mismatch can pass an isolated origin test while failing the protocol
-at later reflection times. -/
+/-- Unequal clock rates: clock c reads (c + 1) * t. -/
+def rateSystem : System (ℝ × ℝ) ℝ ℝ :=
+  { offsetSystem (fun _ => 0) 0 with readout := fun c t => (c + 1) * t }
+
+/-- Rate mismatch passes the isolated exchange reflected at chart parameter 0
+(emission -1, return 1), yet fails the midpoint protocol for the exchange
+reflected at parameter 1 (emission 0, return 2). -/
 theorem rate_failure :
-    ¬ Midpoint { offsetSystem (fun _ => 0) 0 with
-      readout := fun c t => (c + 1) * t } 0 1 := by
+    (rateSystem.lightExchange 0 1 (-1) 0 1 ∧
+      rateSystem.readout 1 0 =
+        (rateSystem.readout 0 (-1) + rateSystem.readout 0 1) / 2) ∧
+    ¬ Midpoint rateSystem 0 1 := by
+  refine ⟨⟨⟨by norm_num, by norm_num⟩, by norm_num [rateSystem]⟩, ?_⟩
   intro h
   have hf := h 0 1 2 ⟨by norm_num, by norm_num⟩
-  norm_num at hf
+  norm_num [rateSystem] at hf
 
 /-- Empty exchanges do not satisfy coverage even if midpoint is vacuous. -/
 theorem empty_exchange_failure :

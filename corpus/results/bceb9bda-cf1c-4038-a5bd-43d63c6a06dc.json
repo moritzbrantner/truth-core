@@ -1,0 +1,11 @@
+{
+  "id": "bceb9bda-cf1c-4038-a5bd-43d63c6a06dc",
+  "label": "Fixed initial 535 joint controls checked",
+  "argument_id": "d18d1ed6-3cf8-4610-bbd1-274ab7804a23",
+  "challenge_module": "TruthCore.Results.Modal.FixedInitial535.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FixedInitial535.Solution",
+  "theorem": "TruthCore.Results.Modal.FixedInitial535.controls",
+  "comparator_config": "results/bceb9bda-cf1c-4038-a5bd-43d63c6a06dc/comparator.json",
+  "status": "solution-present",
+  "description": "Joint nonvacuity and omission controls for issue 535; all conclusions concern supplied finite interpretations, not metaphysical possibility."
+}

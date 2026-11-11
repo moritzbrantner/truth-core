@@ -1,0 +1,9 @@
+{
+  "id": "f1a7a355-c4fa-4148-ae44-16b98be970d1",
+  "label": "Fixed initial 535 joint controls",
+  "paraphrase": "Analyst finite joint tests on one Bool-world, Bool\u00d7Bool rigid roster: a populated rigid initial root coexists with later Boolean variation and constant description; a rotating initial root retains constant description and conditional origin preservation without any necessary bearer; changing the description removes qualitative sameness; a rigid initial root can have an existing distinct incoming ground at every world. No chance, complete metaphysical possibility, naturalness or root bridge is inferred.",
+  "lean_declaration": "TruthCore.Modal.FixedInitial535.Controls",
+  "definition_ids": [
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51"
+  ]
+}

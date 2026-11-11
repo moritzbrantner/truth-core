@@ -1,0 +1,17 @@
+{
+  "id": "1eae5cd6-1f4c-4537-9807-dff6806e9cfa",
+  "label": "Goal-relative force grants the actual-force concession for aiming subjects",
+  "premise_statement_ids": [
+    "0c1a5185-eb02-4905-be59-2bb4d8f95ff7",
+    "d92ee0fc-2b21-4e73-8fdb-4cf3fa2f5c4b"
+  ],
+  "conclusion_statement_id": "b391c809-50b9-488c-909d-6ba6658b989e",
+  "inference_ids": [
+    "e6a2406d-ad95-4665-9663-448e553891ab"
+  ],
+  "meaning": "Conditional analyst argument, attribution deferred: under goal-relative force, an ordinary belief reason of a subject whose actual preference has the aim has force at that preference. Checks that the rival account grants the concession premise of the answerability argument; it does not establish that any subject has such a reason.",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05",
+    "e85e9d25-0d45-4a95-a580-d3c2f7ad1f88"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "041d5260-f45c-4a20-bee6-1fcabdf727cb",
+  "label": "Something exists at the selected world and nothing existing there is CONCRETE_6",
+  "paraphrase": "Rival framework commitment, unattributed (motivated by abstract-only ontologies such as mathematical-structure monism): some candidate exists at the selected world w, and no candidate existing at w is concrete. It is not the empty world and does not say that concrete things are impossible.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.OnlyNonConcreteExistAt",
+  "definition_ids": [
+    "aa836436-d326-4b41-b752-b0b21f3eede5",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ],
+  "disambiguation_ids": [
+    "623ddbf6-9683-5361-bae4-e348a00ec680"
+  ]
+}

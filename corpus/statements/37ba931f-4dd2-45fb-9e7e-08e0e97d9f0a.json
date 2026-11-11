@@ -1,0 +1,14 @@
+{
+  "id": "37ba931f-4dd2-45fb-9e7e-08e0e97d9f0a",
+  "label": "Rival: something is its own subsistent being and is not INFINITE_1",
+  "paraphrase": "Rival framework commitment, unattributed, motivated by the thin view of existence (a thing's being its own existence settles nothing about how much it is) and by accounts of finite self-existent things: something whose act of being is its essence is not infinite. The replacement account is that limitation comes from what a thing is, not from its essence receiving being; the formal statement does not express that account. It is the exact negation of STMT-SUBSISTENT-BEING-IS-INFINITE on the same carrier. It does not say that nothing is infinite.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsAttributes.FiniteSubsistentBeingReading",
+  "definition_ids": [
+    "1d8890c0-afe2-5cdb-a400-0bbd4b79053d",
+    "5c308c8c-34a4-525b-a2ca-6d0dbbd1bb72",
+    "183b48d2-1753-583d-aef9-4199cff86231"
+  ],
+  "disambiguation_ids": [
+    "1aef8986-ed29-564f-9803-d812d2ff63e1"
+  ]
+}
