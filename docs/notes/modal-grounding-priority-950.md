@@ -161,3 +161,281 @@ not the canonical new modules. Retain the service for compatible repeated edits;
 use the CLI for current module imports absent from that older preview. The
 canonical final gates, rather than interactive diagnostics, verify this result.
 Shared conventions sourceRevision `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+## Eternal truths and an actual concrete foundation (2026-11-11)
+
+### Selected question and evidence boundary
+
+This bounded continuation asks whether objective essential/modal truth gives
+independent positive warrant for an **actual concrete foundation**, before
+asking whether the same individual must exist throughout the alternatives.
+Its endpoint is existing `STMT-NECESSARY-CONCRETE-AT`
+(`b19ffd92-01bd-5c0b-9643-e7407137ea5e`); the bridge from eternal truth is
+**unbuilt**. Necessary concrete existence would then still need the separate
+underived/source and attribute bridges toward the Catholic root. This is an
+independent semantic/essential-foundation question, not the composition-to-esse
+application. No source, statement, argument, definition or theorem is added.
+
+Inventory baseline: actual main `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`.
+The repaired possibility-warrant assessment in PR #1452, head `8e8dc08c`
+(reviewed repair `3abe8e98`), was inspected read-only, together with
+`related`/`dossier STMT-NECESSARY-CONCRETE-AT`, the dossier for
+`STMT-KANT-LOGICAL-NOT-REAL-POSSIBILITY`,
+`context AUTONOMOUS-GROUND-NECESSARY-BEING`, and the selected-target
+actuality, autonomous-necessity, whole-ground-necessitation and coherence
+premise dossiers. The exact source/semantic findings of existing attempt
+`ca5904d0-1b3c-56a3-8665-930c43e42b59` remain unchanged: own-nature explanation,
+necessary truth, autonomous fact and a concrete bearer are distinct.
+
+The existing pinned `LEIBNIZ-MONADOLOGY-31-45` was materialized and read in
+full in this checkout. Locators below refer to Latta's translation, selected
+text SHA256 `48c8019d588af3c5d262323ea365382be7021bf4f4ee23f7f0b68eb6650b6d04`.
+At §§33–35 analysis terminates in primitive ideas and identities; §43 locates
+essences/possibilities in divine understanding; §44 explicitly argues that
+reality in possibilities requires an existing actual foundation; §45 adds the
+possibility-to-existence reasoning and distinguishes the earlier contingent-
+existence route. These are the source's proposed steps. The selected passage
+does not independently explain why an abstract actual essence is inadequate,
+or why the reality of the possible fixes one rigid concrete individual.
+No claim is made to have read the cited *Theodicy* sections. The following
+positive argument and objections are analyst reconstructions, with attribution
+deferred; they are not newly attributed historical claims.
+
+### Strong positive argument, and what each stage earns
+
+1. **Objectivity exceeds an inscription.** An actual reasoned denial of all
+   determinate content must itself make a determinate assertion to present an
+   objection. Mathematical correction also distinguishes getting a consequence
+   right from merely writing or preferring it. Together these supply positive
+   defeasible warrant for objective correctness in the performed inquiry.
+   They do not establish the infallibility of any particular mathematical claim,
+   that a thinker is present in every world, or a concrete bearer of every truth.
+   The semantic-content findings preserved in the existing #735 intake and the
+   #312 explanatory-warrant note already mark this boundary.
+2. **The constraints call for an account.** The advocate can reasonably ask why
+   coherent structures have these consequences and why changing inscriptions
+   cannot change them. Explanations through definitions, constituent natures
+   and inferential dependence supply actual examples of intelligible answers;
+   this is a reason to pursue essential explanation rather than dismiss the
+   question as meaningless. A defeasible explanatory preference favors such
+   an answer over a bare list of unrelated objective facts, **if** it explains
+   their content and unity without merely relocating them. It neither proves
+   unrestricted PSR nor excludes ultimate primitive identities. Leibniz's own
+   §§33–35 stop analytical proof at primary principles, so the textual route
+   cannot require a separate proof or productive cause for every primitive.
+3. **Real possibility exceeds a conditional calculus.** A formal specification
+   can establish consequences conditional on its interpretation without showing
+   that its object is realizable. The advocate's strongest further claim is
+   that genuine realizability must rest on determinate natures or powers which
+   authorize, and limit, what can occur. Ordinary manifestations of a power
+   motivate this: constraints track the real thing, rather than our arbitrary
+   naming. This gives positive warrant for looking for a real basis when
+   assessing concrete possibilities. It does not yet identify that basis as
+   an actual instance of the merely possible object. An uninstantiated possible
+   configuration and an inconsistent configuration differ without the former
+   already being instantiated. Nor do examples of presently possessed powers
+   prove that *every* metaphysical possibility depends on a presently existing
+   power; that universalization needs its own argument.
+4. **A foundation must be actual in the relevant explanatory sense.** If a
+   merely possible foundation is offered as what presently accounts for actual
+   objective constraints, its possible availability leaves its actual
+   explanatory contribution unanswered. This is a substantive reason to reject
+   the bare response 'some model could explain them'. But actual objective
+   structure, actually obtaining essential facts, and an actual concrete
+   substance are different proposals. Calling the first two unreal because
+   they lack concrete instances assumes the disputed bridge. An actual truth
+   about a world is not automatically a truth-token, thinker or truthmaker
+   situated **in** that world. Thus this step can motivate an actual account
+   without licensing a concrete occupant in every represented world.
+5. **The intellectual-foundation proposal has positive content.** Actual
+   understanding unifies content, consequence and correctness in familiar
+   episodes, so an intrinsic intellect offers an intelligible candidate for a
+   unified basis of eternal truth. This is more than an arbitrary divine flag.
+   A finite rule can govern indefinitely many applications; no actual infinite
+   list of mental tokens is therefore required. To select an unbounded intellect,
+   the advocate must defend why objective content depends on understanding,
+   why structural accounts of correctness are inadequate, and why the proposed
+   intellect's understanding is intrinsic rather than correctness borrowed
+   from independent truths. Familiar understanding supplies a limited analogy,
+   not an observed instance of an unreceived eternal intellect. Epistemic norms
+   governing thinkers do not by themselves establish ontic dependence on a
+   thinker. Defining truth as divine thought would conceal this inference.
+6. **Necessity of content does not yet preserve its concrete basis.** The best
+   positive reply is constitutive dependence: these exact contents are intrinsic
+   to the very nature of a particular foundation, and cannot be sustained if
+   that foundation is absent. Were that nonreplaceability independently
+   warranted throughout the relevant alternatives, truth necessity could support
+   necessity of the same bearer. Intrinsic possession alone is insufficient:
+   another bearer might possess the same contents, or they might be independent
+   of both. One unified truth-domain favors coordination, but coordination can
+   be supplied by shared structure rather than one numerically unique subject.
+   A conclusion of one bearer is not a premise supplied by the word 'unified'.
+7. **A necessary bearer need not be underived or a source.** Even the foregoing
+   stronger result would leave open whether the bearer depends on another
+   necessary being, and whether it explains actual concrete existence. Content
+   grounding is not efficient production, conservation or direct support of
+   esse. To obtain the initial underived-source goal, intrinsic explanatory
+   sufficiency and the relevant no-borrowing/foundation principles need separate
+   warrant. No modal transport theorem settles those explanatory questions.
+
+The argument therefore has defensible positive starting points and an actual
+explanatory task. Its strongest currently accessible support concerns objective
+constraints and a substantive account of them. The decisive unresolved step
+is from a real account to **concrete subsistence**, followed by nonreplaceability
+of that very bearer; it is not the already checked modal inference.
+
+### Strongest competing accounts under the same question
+
+**Structural essence/abstract realism is the strongest standing rival for this
+selected inference.** It proposes that identities and constituent structure
+explain necessary consequences, independently of inscriptions or thinkers.
+A relation's structural features can fix consequences without an instantiated
+physical example; such explanations can distinguish a valid derivation from a
+mistake. Its strength here is that it supplies a positive explanatory pattern
+already used in the advocate's analytical stage, rather than denying objective
+truth or simply assigning it a Boolean value. It owes a noncircular account of
+which structures are genuine, their primitive identities and real application;
+formal satisfiability alone does not discharge those debts. But an intellect
+account also owes determinate intrinsic content and application. If it simply
+knows truths whose correctness is independent of its knowing, adding the mind
+has not explained their objectivity. If its thought constitutes truth, the
+advocate must explain why its nature fixes the correct contents without making
+truth an arbitrary decision. No comparative result here establishes either
+account's ultimate adequacy.
+
+The positive intellectual reply is that structures describe relations while
+understanding supplies their intrinsic intelligible unity. The rival can reply
+that a structure's constitutive relations are already determinate and need no
+act of being understood to be so. The discriminating question is therefore
+whether intrinsic determinate content can be specified independently of an
+actual act of understanding, **not** whether arbitrary inscriptions suffice.
+This remains a live substantive disagreement; neither side wins by defining
+its preferred answer into 'real', 'intelligible', or 'content'.
+
+**Primitive objective facts** retain correctness and genuine exclusion while
+ending explanation at their basic nature. Their price is a restricted ultimate
+explanatory ambition and any residual plurality of independent primitives.
+They are weaker than structural explanation where they leave a consequence
+unexplained that structure can derive. That conditional disadvantage is a
+reason for comparative preference, not a contradiction of all primitive facts.
+An ultimate intellect must also identify what is intrinsic rather than leave
+an unexplained content-selection problem. Symmetric debts do not imply equal
+evidence or equal credibility.
+
+**Real-power naturalism** gives the real-possibility argument an actual concrete
+basis: physical natures constrain their manifestations. It needs warrant for
+extending that account to all real possibilities, and for any fundamental
+bearer's necessity. A *necessary* natural field/substance, if independently
+supported, would advance the initial necessary-concrete target; it is not a
+counterexample to that target. A contingent natural basis leaves the universality
+of its modal constraints open. Neither version is eliminated by showing that
+inscriptions fail to determine truth.
+
+**Replaceable thinkers/counterparts** allow one objective content or exemplified
+kind while different bearers realize it at different alternatives. Their price
+is an account of shared content/counterpart criteria and its modal authority.
+They challenge rigid identity, not necessarily actuality or concreteness of
+each local bearer. Excluding this reply needs a positive nonreplaceability
+argument. The absence of a thinker at a represented world does not alone show
+that no actual thinker can truthfully represent that world.
+
+### Exact reuse prevents another generic formalization
+
+`TruthCore.Results.Explanation.NecessaryFactBoundary.necessaryReason` extracts
+an actually true necessary fact admitted as a reason for some contingent member,
+under coverage/closure/foundedness and explicit EM. Its `lawControl` jointly
+retains those inputs while no individual is necessary. This tests the recorded
+fact/reason signature; it does not certify an adequate structural-essence
+ontology or a metaphysically possible rival world.
+
+`TruthCore.Causality.BruteFoundationExplanations.abstractReasonCoverageInsufficient`
+similarly retains local sound coverage, a necessary reason token and worldwise
+concrete population without a necessary concrete individual. Its explanation is
+explicitly nonnecessitating. The companion
+`necessaryReasonAndNecessitation` needs the *same target's* existence entailed
+by the necessary reason. Reading that condition backwards as 'this truth
+requires that very concrete foundation' would add the bridge at issue.
+
+`TruthCore.Results.Explanation.AutonomousGroundNecessity.sameTarget` already
+retains an actual concrete b and derives that same b's necessity from its full
+autonomous ground, autonomous necessity, whole-ground necessitation and positive
+truth/existence coherence. It **assumes** concrete actuality of b; it does not
+extract a concrete basis from eternal truth. Its four-input `targetNotContingent`
+also marks the strong modal package's cost when applied to a contingent target.
+`TruthCore.Results.Explanation.AutonomousGroundConcrete.certificate` checks a
+populated joint interpretation without an existential ground ingredient. Its
+`other ()` fact remains a stipulated label, not a contentful essence or a
+completed rival explanation. Its unregistered `necessaryConcrete` assembly
+cannot supply the missing warrant or bypass the inherited sense-metadata gap.
+
+These exact existing deductions already cover the useful transport. Adding a
+predicate 'requires concrete intellect' with that conclusion as an axiom would
+not test the consequential inference. No duplicate theorem, adequacy flag or
+new finite countermodel is introduced. The unbuilt route remains:
+objective essential truth → actual adequate account → concrete subsistence →
+nonreplaceability of one bearer → `b19ffd92`, followed separately by
+underivedness/source/attribute bridges. The first arrows are proposed warrant
+inferences, not existing registered root edges.
+
+### Overall provisional judgment, failures and reopening conditions
+
+At the inventory revision above, **objective constraints and the legitimacy of
+seeking their essential explanation have positive defeasible support** from
+meaningful performance, correction and successful structural derivation. A
+blanket elimination of objective content is not the strongest rival. Those
+grounds do **not currently discriminate in favor of a concrete intellect over
+structural essence**. The intellectual proposal remains a substantive live
+support option, with a plausible unification rationale; concreteness and the
+same-bearer claim remain underdetermined. This assessment does not infer the
+impossibility of such a foundation, equal probability of the rivals, or failure
+of the broader necessary-being case. The objective-truth, actual-account and
+rigid-bearer steps are shared dependencies, so their repeated use in semantic,
+essentialist and eternal-truth presentations is not independent corroboration.
+
+Rejected approaches and their reasons: retorsion establishes a concession in
+actual discourse, not thought in every world; actual truth about a world does
+not put its bearer there; possible formal models do not establish real
+possibility; rejecting inscription-dependence does not reject abstract
+objectivity; ordinary power examples do not establish universal modal
+actualism; unity of content does not fix a numerically unique mind; necessary
+truth does not make every proposed foundation necessary; fact autonomy is not
+concrete underivedness. The primary passage explicitly proposes the actual
+foundation but does not independently resolve these bridges.
+
+This judgment would strengthen toward a concrete foundation if a contentful
+account showed why the strongest structural/primitive explanation cannot fix
+correctness while an independently characterized act of understanding can,
+without presupposing eternal truth's dependence on that act. It would strengthen
+toward the **same** necessary bearer only with a further justified constitutive
+nonreplaceability account. It would weaken the intellectual route if its truth
+conditions were shown to depend on objective structure it leaves unexplained.
+A successful necessary-natural account would strengthen the thin existence
+target and redirect subsequent attribute investigation. A genuine contradiction
+in one intellectual account would defeat that account, not all concrete bases.
+
+The next discriminating test, if the coordinator reopens the branch, is a
+particular contentful comparison: fix one necessary mathematical/essential
+content, spell out its structural derivation and the proposed constitutive act
+of understanding, and test which explains correctness without importing the
+other's primitive. Do not replace this with another abstract transport theorem
+or an unbounded source-acquisition campaign. This is a reopening condition, not
+a new assignment: the owner requested completion of current issues and then a
+stop.
+
+**Work status:** independent semantic challenge accepted frozen draft
+`ba12ea63d26c51e76eaf5aaa621f6bfb4971f4bf` and the coordinator's exact
+qualified synthesis, with no repair findings. Reviewed note SHA256 begins
+`81ecf9b4`; reviewed attempt SHA256 begins `d3da9182`. Acceptance concerns
+semantic fidelity and qualified assessment, not independent establishment. The philosophical bridge
+remains open; no proof, historical claim, establishment or closure changes.
+Computed `truth frontier-diff --base 6d9b380099158c877373eaf34e2c6a9e4e6d01e4`
+reports no change: 421 reaching-root open premises, 303 verified support
+alternatives, zero added alternatives. Existing proof evidence is reused;
+no Lean input changes. Offline record checks and required delivered-head CI
+remain separate from source materialization and semantic review.
+
+Local validation of this two-file draft: offline `corpus.py check` passes with
+existing repository warnings; `attribution-check --base 6d9b380099` reports no
+new/changed stating claim; `git diff --check` passes. These checks certify record
+consistency and attribution bookkeeping, not the warrant judgment. No source
+record changed, and no full-source network check was run.
