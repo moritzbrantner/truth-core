@@ -72,7 +72,62 @@ founded past. The controls show the view survives in exactly those two ways.
 This is valid where the Third Way's quantifier shift is not, because it
 requires an *earlier* absence and a founded past.
 
-No causal, grounding or explanatory relation occurs in this arrival. The
+A3′ now has a second, optional support option (spec
+`specs/modal-spine-coming-to-be-horns.toml`), which prices both horns.
+`ComingToBeHorns.possiblyFoundedOfEarlierGrounds` derives A3′ from two premises:
+
+| | Premise | Status | Rival |
+|---|---|---|---|
+| A3′a | In every possible history, each moment with a contingent concrete thing present has a founded past (`fce4ac74`). It denies horn H2 wherever a contingent thing is present. | open; one derivation, below | H2, a non-well-founded populated past: a beginningless succession, each contingent thing preceded and even grounded by an earlier one (control 3); or a dense past with a first moment (control 8) |
+| A3′b | Possibly, contingent concrete things exist in a history where each has an existing concrete ground present at some moment *before* each moment of its presence (`6dd276f0`). It prices horn H1. | open | H1 with a ground that has no earlier presence: simultaneous (controls 4 and 5) or only later (control 7) |
+
+**H2 is wider than an endless past.** "Founded" is `Acc` of the strict order
+of moments. On non-negative rational times every moment after 0 has
+`t, t/2, t/4, …` below it. So A3′a forbids a contingent concrete thing to be
+present at any non-initial moment of dense time in any possible history. That
+anti-continuum commitment is paid by this side. A3′ itself has the same
+founded-past condition. Control 8 satisfies A3, inert emptiness and universal
+coming-to-be on dense time with a first moment, while H2 holds, the Reaper
+bridge fails, and no state-causation relation satisfies finitism and the
+precedence bridge together. Each of those two bridges, and the earlier-grounded
+possibility premise, can still hold there on its own. Moving foundedness from moments to discrete events is an untested
+alternative.
+
+A3′a has one derivation with independent content, plus one equivalent
+reformulation:
+
+| | Premises | Theorem | Status |
+|---|---|---|---|
+| Causal finitism | Modal state-causal finitism: momentary states have finitely many causal ancestors (`9c314355`); and every earlier state is a causal ancestor of a populated later state (`20e6c7df`) | `populatedPastsFoundedOfStateFinitism` | derivation. H2 must reject finitism or the bridge from mere precedence to causation. Each survives alone (controls 1 and 2) |
+| Grim Reaper | Reaper assembly (`f63cd425`) | `populatedPastsFoundedOfReaper` | declared near-transcription. The bridge's consequent is a closed claim about `Nat` station systems that never mentions the descent or the history, and `IndexedSignalReaper.impossible` refutes it, so the bridge just restates A3′a. A real patchwork premise would need a vocabulary for assembling worlds, which the corpus lacks |
+
+So H2 is excluded only under the open bridges `9c314355` and `20e6c7df`.
+
+Under A3′a, an H1 thing would be present at a moment with nothing earlier, so
+no ground of it can have been present before it. Rejecting A3′b's "before"
+means only that some ground is not earlier: it may be simultaneous, later
+(control 7, with no grounding edge between simultaneously present things) or
+never present. The grounding relation has no temporal-presence constraint, so
+this is not a choice of simultaneous grounding. A sustaining ground present at
+all times satisfies "before" only for a grounded thing never present at a moment
+with nothing earlier (control 4). Without a necessary concrete being, a rival who
+keeps every contingent thing grounded needs grounding that is not
+well-founded (controls 5 and 7). That is the horn
+`BruteFoundationBoundary.bruteRootOrNonWellFounded` already forces; with
+well-founded grounding the rival gets a brute contingent root.
+
+**A3′a and A3′b together already contain the possibility of the target.**
+`possiblyNecessaryOfEarlierGrounds` proves that they entail "possibly a
+necessary concrete individual exists" (`d2d7cf61`). The proof descends along
+earlier grounds through a founded past until it reaches a non-contingent
+concrete ground. Under F1 and F2 that gives the stage-one conclusion. A rival
+who denies that a necessary concrete being is possible therefore rejects A3′b
+(or A3′a) outright. This support option does not discriminate against that
+rival; it is still a correct conditional support option. See the
+[horns attempt](../../corpus/attempts/3cae291a-3ec4-44db-9113-93104140bc8f.json).
+
+No causal, grounding or explanatory relation occurs in the A3 derivation or in
+the first support option for A3′; the second support option uses them. The
 controls show that A1, A2 and A3 are each needed and that the bundle is
 satisfiable. Omission of F1 and F2 is not tested there.
 
@@ -201,7 +256,9 @@ the join and the root and act-of-being premises in
 | A1 presence gives existence | Presentism: to exist is to be present now, and something earlier has ceased | survives | `InertEmptiness.necessaryConcrete` |
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
-| A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with an endless past or a never-generated contingent thing | the premise itself |
+| A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with a non-well-founded (endless or dense) populated past (H2) or a never-generated contingent thing (H1) | the premise itself |
+| A3′a founded populated pasts (H2 denied) | A beginningless succession of contingent things, each preceded and grounded by an earlier one; or a dense past with a first moment | **excluded under the open bridges** `9c314355` (state-causal finitism) and `20e6c7df` (precedence to causation), by `populatedPastsFoundedOfStateFinitism`. The Reaper form is a declared near-transcription. Survives finitism alone, the precedence bridge alone, and earlier grounding; dense time with a first moment survives the Reaper bridge and the joint finitism/precedence bundle, though each of those two bridges can hold there alone (`ComingToBeHorns.controls` 1–3, 8) | `populatedPastsFoundedOfStateFinitism` |
+| A3′b possible earlier-grounded history (H1 priced) | A never-generated contingent thing whose ground has no earlier presence | **excluded under the open premise A3′a** by `possiblyFoundedOfEarlierGrounds`. Survives when some ground is not earlier: simultaneous with a necessary ground; without a necessary being, only under non-well-founded grounding, whether simultaneous or later (`ComingToBeHorns.controls` 4, 5, 7). A3′a with A3′b already entails possible necessary being (`possiblyNecessaryOfEarlierGrounds`) | `possiblyFoundedOfEarlierGrounds` |
 | A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
@@ -315,9 +372,14 @@ Select the next discriminating question using the current evidence and
 provisional assessment. Foundational-warrant work is available alongside these
 conditional investigations, not a mandatory first gate:
 
-1. The two horns left to the initial-state view under A3′: test "some contingent
-   thing never came to be" against the brute-foundation results, and "every
-   possible past is endless" against the causal-finitism and Grim Reaper results.
+1. The two horns left to the initial-state view under A3′ now have prices
+   (2026-11-11, see A3′a and A3′b above). Next: move foundedness from moments
+   to discrete events, so that a dense past with a first moment is not
+   excluded, and compare with A3′. Build a patchwork vocabulary over accessible
+   worlds, so that a Reaper bridge has content of its own. Weaken the precedence
+   bridge to "some earlier state". Find an H1 price that does not already
+   entail possible necessary being. Try `BoundedPastResource.noUniformGrowth`
+   as an independent price on H2.
 2. For the rows marked "survives", look for commitments the rival's holder
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first

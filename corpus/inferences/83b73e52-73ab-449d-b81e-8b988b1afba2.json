@@ -1,0 +1,12 @@
+{
+  "id": "83b73e52-73ab-449d-b81e-8b988b1afba2",
+  "label": "Founded populated pasts from the Grim Reaper assembly bridge (inference)",
+  "input_statement_ids": [
+    "f63cd425-ab12-404e-a431-3c798f5f4847"
+  ],
+  "output_statement_id": "fce4ac74-26df-4e97-909d-34865b6463dc",
+  "rule": "Extract a strictly descending sequence from an unfounded populated moment (dependent choice); the bridge supplies a station system; the verified indexed-signal Reaper impossibility refutes it",
+  "meaning": "Near-transcription: the Reaper assembly bridge's consequent is a closed proposition about Nat functions that never mentions the descending sequence, the history or its moments, and the verified IndexedSignalReaper.impossible refutes it, so the bridge is equivalent to the conclusion it is used to derive. Its proof applies the bridge once to a descent obtained by dependent choice and composes that impossibility. It records the Grim Reaper reformulation of founded populated pasts and closes or supports nothing independently. A genuine patchwork premise (assembling a world from locally possible pieces placed at the moments of the descent) would need a world-assembly vocabulary the corpus lacks; a finite-to-global form over Nat functions is already refuted as mathematics by GrimReaperFiniteTests. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

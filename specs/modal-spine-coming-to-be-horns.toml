@@ -1,0 +1,95 @@
+[batch]
+vocab = "TruthCore.Causality.ComingToBeHorns"
+results = "TruthCore.Results.Causality.ComingToBeHorns"
+definitions = ["DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-KANT-MODAL-CONTINGENCY", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "In every possible history, each moment with a contingent concrete thing present has a founded past"
+lean = "PopulatedPastsFounded"
+paraphrase = "OPEN analyst premise, attribution deferred: in every history accessible from the selected world, every moment at which some contingent concrete individual is present has a founded past (Acc of the strict order of moments: no strictly descending sequence of moments below it). It denies horn H2, a non-well-founded populated past, for every accessible history in which a contingent concrete thing is present at all; histories with no contingent concrete thing present are unconstrained. H2 covers an endless past AND a dense past with a first moment: on non-negative rational times every moment after 0 has t, t/2, t/4, ... below it. So this premise forbids a contingent concrete thing to be present at any non-initial moment of a dense-time history in any accessible world: an anti-continuum commitment (control 8). It is not a claim that time has a first moment, nor a metric finitude claim, and it mentions no cause."
+definitions = ["Founded populated pasts in every accessible history", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "An endless populated past would admit a Grim Reaper system of locally ruled stations"
+lean = "ReaperAssembly"
+paraphrase = "OPEN analyst bridge, attribution deferred (Grim Reaper style): for every accessible history and every strictly descending sequence of its moments starting at a moment where a contingent concrete individual is present, some Nat-indexed system of stations satisfies the four local rules of the indexed signal Reaper (index admissibility, positive trigger, emission, forwarding). The consequent is a closed proposition about Nat functions that does not mention the sequence, the history or its moments, and the verified IndexedSignalReaper.impossible refutes it; so the bridge is equivalent to 'no such descent exists', a reformulation of founded populated pasts, not an independent patchwork principle. 'Concrete' is the supplied Concrete parameter, read under the adopted esse criterion (CONCRETE_6); the Lean type does not enforce that reading."
+definitions = ["Reaper assembly along an endless populated past", "DEF-INDEXED-SIGNAL-INDEX-ADMISSIBILITY", "DEF-INDEXED-SIGNAL-POSITIVE-TRIGGER", "DEF-INDEXED-SIGNAL-EMISSION", "DEF-INDEXED-SIGNAL-FORWARDING", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "In every possible history, each momentary state has finitely many causal ancestor states"
+lean = "StateCausalFinitism"
+paraphrase = "OPEN analyst premise, attribution deferred (modal, event-based causal finitism): in every history accessible from the selected world, the supplied relation of direct causation between momentary total states gives each moment finitely many distinct ancestor moments along chains of one or more edges. It says nothing about the length or density of the past unless earlier states are linked causally to later ones."
+definitions = ["Modal causal finitism over momentary states of a history", "DEF-FINITE-DISTINCT-CAUSAL-ANCESTRY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+disambiguations = ["bedfab81-905c-5d1a-b834-e20b8007b3da"]
+
+[[statement]]
+id = "Every earlier state of a possible history is a causal ancestor of its populated later states"
+lean = "PrecedenceIsStateCausation"
+paraphrase = "OPEN analyst bridge from temporal precedence to causation, attribution deferred: in every history accessible from the selected world, whenever a contingent concrete individual is present at a moment t, the state at each strictly earlier moment reaches the state at t by a chain of one or more direct state-causation edges. A past of mere succession, whose earlier states are causally idle, rejects it. 'Concrete' is the supplied Concrete parameter, read under the adopted esse criterion (CONCRETE_6); the Lean type does not enforce that reading."
+definitions = ["Earlier states are causal ancestors of populated states", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "6dd276f0-24f5-459d-aadb-bef9745f297e"
+label = "Possibly, CONCRETE_AND_ABSTRACT_6 contingents exist in a history where each has an earlier ground"
+lean = "PossiblyEarlierGroundedPopulated"
+paraphrase = "OPEN analyst possibility premise, attribution deferred: some history accessible from the selected world has a contingent concrete individual present at some moment; every contingent concrete individual existing there has a concrete ground existing there under the supplied grounding relation; and every ground of a contingent concrete individual is present at some moment strictly before each moment at which that individual is present. A ground present at all times satisfies the last clause; it fails only where a ground has no earlier moment of presence, in particular at a moment with nothing earlier, so a sustaining (per se) ground is allowed if it was also present before. Together with founded populated pasts this premise entails that possibly a necessary concrete individual exists (possiblyNecessaryOfEarlierGrounds): a rival who denies that a necessary concrete being is possible rejects it outright. The CONCRETE_AND_ABSTRACT_6 tag names the adopted reading of the supplied Concrete parameter; the Lean type does not enforce it."
+definitions = ["Possibly, a populated history whose contingent things have earlier grounds", "Grounds of contingent concrete things precede them in time", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "c57e2682-08e6-527e-950f-0fa0a7ff11ef", "e1ff44df-ed97-5990-8424-1abd720f23ea", "f8948e28-b13a-5244-95f1-41a05cd4fff2", "beb654a7-e204-5f4c-a7b4-45e886ba7109", "008cb21a-256c-5a90-822c-acd4591d699a"]
+disambiguations = ["7507d645-874d-5434-add8-2f49c2801d36", "623ddbf6-9683-5361-bae4-e348a00ec680", "bedfab81-905c-5d1a-b834-e20b8007b3da"]
+
+[[statement]]
+id = "Possibly, some CONCRETE_AND_ABSTRACT_6 individual exists necessarily"
+lean = "PossiblyNecessaryConcrete"
+paraphrase = "Some history accessible from the selected world contains one concrete individual that exists there and in every world accessible from there (BruteFoundationBoundary.NecessaryConcreteAt at that history; the grounding relation is part of the profile but not used by the condition). Under actual reflexivity and a Euclidean frame this gives a necessary concrete individual at the selected world itself. 'Concrete' is the supplied Concrete parameter; nothing is said about which individual it is."
+definitions = ["DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "008cb21a-256c-5a90-822c-acd4591d699a"]
+
+[[statement]]
+id = "Omission and nonvacuity controls for the two horns left to the initial-state view"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical controls, every individual counted concrete, two mutually accessible worlds. (1) Integer-time endless generation with idle states: state-causal finitism holds, the precedence bridge fails, populated pasts are not founded. (2) The same with every earlier state causing every later one: the precedence bridge holds, finitism fails, populated pasts are not founded, the Reaper assembly bridge fails. (3) The same with each individual grounded by its predecessor: every contingent thing has an earlier-present concrete ground, yet founded coming-to-be is not possible. (4) Natural-number time, a necessary individual simultaneously grounding a contingent one present at every time: pasts founded, every contingent thing grounded, grounds do not precede, the contingent thing never came to be, founded coming-to-be not possible, a necessary concrete individual exists. (5) Natural-number time, two contingent individuals present at every time and grounding each other: pasts founded, presence gives existence, inert emptiness, every contingent thing grounded, grounds do not precede, a contingent thing never came to be, founded coming-to-be not possible, no necessary concrete individual, grounding not well-founded. (6) The existing rooted control with the necessary individual grounding the contingent one: the Reaper bridge, state-causal finitism with the precedence bridge, founded populated pasts, the earlier-grounded possibility and founded coming-to-be all hold. (7) Natural-number time, contingent individual false present only at time 0 and contingent individual true present from time 1 on, each grounding the other: pasts founded, every contingent thing grounded, grounds do not precede, a contingent thing never came to be, no grounding edge joins two individuals present at the same moment, no necessary concrete individual. (8) Non-negative rational times, an individual existing at both worlds and present at every time, and a contingent individual present at every time after 0: nothing precedes 0, presence gives existence, inert emptiness, every contingent thing comes to be, a contingent-free moment precedes a populated one, yet populated pasts are not founded, founded coming-to-be is not possible, the Reaper bridge fails, and no state-causation relation satisfies both state-causal finitism and the precedence bridge. These are statements about eight interpretations only."
+definitions = ["Founded populated pasts in every accessible history", "Reaper assembly along an endless populated past", "Modal causal finitism over momentary states of a history", "Earlier states are causal ancestors of populated states", "Grounds of contingent concrete things precede them in time", "Possibly, a populated history whose contingent things have earlier grounds", "History of founded coming-to-be", "Coming to be of contingent concrete things in a history", "Contingent concrete things absent at a moment and present at a later one", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[argument]]
+id = "Founded populated pasts from the Grim Reaper assembly bridge"
+theorem = "populatedPastsFoundedOfReaper"
+premises = ["An endless populated past would admit a Grim Reaper system of locally ruled stations"]
+conclusion = "In every possible history, each moment with a contingent concrete thing present has a founded past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+transcription = "single_application"
+rule = "Extract a strictly descending sequence from an unfounded populated moment (dependent choice); the bridge supplies a station system; the verified indexed-signal Reaper impossibility refutes it"
+meaning = "Near-transcription: the Reaper assembly bridge's consequent is a closed proposition about Nat functions that never mentions the descending sequence, the history or its moments, and the verified IndexedSignalReaper.impossible refutes it, so the bridge is equivalent to the conclusion it is used to derive. Its proof applies the bridge once to a descent obtained by dependent choice and composes that impossibility. It records the Grim Reaper reformulation of founded populated pasts and closes or supports nothing independently. A genuine patchwork premise (assembling a world from locally possible pieces placed at the moments of the descent) would need a world-assembly vocabulary the corpus lacks; a finite-to-global form over Nat functions is already refuted as mathematics by GrimReaperFiniteTests. No premise is established."
+
+[[argument]]
+id = "Founded populated pasts from state-causal finitism and the precedence bridge"
+theorem = "populatedPastsFoundedOfStateFinitism"
+premises = ["In every possible history, each momentary state has finitely many causal ancestor states", "Every earlier state of a possible history is a causal ancestor of its populated later states"]
+conclusion = "In every possible history, each moment with a contingent concrete thing present has a founded past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A strictly descending sequence below a populated moment gives infinitely many distinct causal ancestors of its state, contradicting finite ancestry"
+meaning = "Prices horn H2 of the initial-state view (a non-well-founded populated past, endless or dense) with causal finitism. An unfounded populated moment t starts a strictly descending sequence of moments (dependent choice); its members below t are pairwise distinct because the strict temporal order is irreflexive and transitive, and by the precedence bridge each is a causal ancestor of the state at t; so t has infinitely many distinct ancestors, against finite distinct ancestry. No no-loops premise is needed. The two premises are independent and both needed (controls 1 and 2): finitism alone is satisfied by causally idle earlier states, and the bridge alone by an endless past in which every earlier state causes every later one. Together they also exclude contingent presence at non-initial moments of dense time (control 8). Both premises are OPEN; the bridge is the explicit step from mere temporal precedence to causation. No premise is established."
+
+[[argument]]
+id = "Possible founded coming-to-be from founded populated pasts and possible earlier grounds"
+theorem = "possiblyFoundedOfEarlierGrounds"
+premises = ["In every possible history, each moment with a contingent concrete thing present has a founded past", "6dd276f0-24f5-459d-aadb-bef9745f297e"]
+conclusion = "Possibly, every contingent concrete thing comes to be in a history with a founded past"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "In the earlier-grounded history, a never-generated contingent thing would be present at a moment with nothing earlier, where no ground can have been present before it"
+meaning = "Non-transcription conditional support option for premise A3 prime of the modal spine, pricing horn H1 of the initial-state view. Take the accessible history in which every contingent concrete thing has an existing concrete ground and every ground of a contingent concrete thing was present before each moment of its presence. Suppose a contingent concrete thing x present at t was never absent earlier. The populated moment t has a founded past, so some moment m at or below t has no earlier moment (ContingentComingToBe.minimalBelow); x is present at m; its ground must be present strictly before m, which is impossible. So every contingent concrete thing of that history comes to be, and founded coming-to-be is possible. Both premises are OPEN, and together they already entail that possibly a necessary concrete individual exists (possiblyNecessaryOfEarlierGrounds), so this option does not help against a rival who denies that a necessary being is possible. Controls 4, 5 and 7 show the temporal priority of grounds is needed: a ground with no earlier presence (simultaneous in 4 and 5, only later in 7) lets a contingent thing be grounded and never generated; without any necessary concrete individual only with non-well-founded grounding (5, 7), the horn BruteFoundationBoundary.bruteRootOrNonWellFounded already forces. Control 3 shows founded populated pasts are needed. No premise is established."
+
+[[argument]]
+id = "Possibly a CONCRETE_AND_ABSTRACT_6 necessary being, from earlier grounds"
+theorem = "possiblyNecessaryOfEarlierGrounds"
+premises = ["In every possible history, each moment with a contingent concrete thing present has a founded past", "6dd276f0-24f5-459d-aadb-bef9745f297e"]
+conclusion = "Possibly, some CONCRETE_AND_ABSTRACT_6 individual exists necessarily"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Descend along earlier grounds by induction on the founded past of a populated moment; the descent stops at a non-contingent concrete ground"
+meaning = "Discloses what the A3 prime support bundle already carries. In the witnessing history, a contingent concrete thing present at t has a concrete ground present strictly earlier, at s. If that ground is contingent, repeat at s. The founded past of t (Acc induction) ends the descent at a ground that is concrete, exists in that history and is not contingent, hence exists in every world accessible from that history (classical case split). So possibly a necessary concrete individual exists; under actual reflexivity and a Euclidean frame that is a necessary concrete individual at the selected world. A rival who denies that a necessary concrete being is possible must therefore reject the possible earlier-grounded history (or founded populated pasts) outright, whatever it says about H1. Both premises are OPEN. No premise is established."
+
+[[argument]]
+id = "Coming-to-be horn controls checked"
+theorem = "controls"
+premises = []
+conclusion = "Omission and nonvacuity controls for the two horns left to the initial-state view"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit interpretations with integer, natural-number and non-negative rational times, checked by case analysis and linear arithmetic"
+meaning = "Each horn survives every bundle with one member omitted. H2 (a non-well-founded populated past, endless or dense) survives state-causal finitism without the precedence bridge, the precedence bridge without finitism, and an earlier-grounded endless past; under the Reaper bridge it fails in every model; on dense time with a first moment it holds while A3 holds, the Reaper bridge fails, and no state-causation relation satisfies finitism and the precedence bridge together (each of those bridges can hold there alone). H1 (a never-generated contingent thing) survives grounding whenever some ground has no earlier presence: simultaneous (controls 4 and 5) or only later (control 7); without a necessary individual only with non-well-founded grounding. The rooted control satisfies every premise and bridge of the new arguments jointly. Model claims concern these interpretations only."
