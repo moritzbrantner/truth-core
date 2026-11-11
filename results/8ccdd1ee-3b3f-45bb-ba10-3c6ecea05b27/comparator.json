@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.irrelevantLossControl"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

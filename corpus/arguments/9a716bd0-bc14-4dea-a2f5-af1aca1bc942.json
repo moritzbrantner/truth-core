@@ -1,0 +1,13 @@
+{
+  "id": "9a716bd0-bc14-4dea-a2f5-af1aca1bc942",
+  "label": "Sleeping Beauty accuracy objectives have incompatible minimizers by explicit controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "041e479a-0792-4f0a-b288-d1bb27acd9ca",
+  "inference_ids": [
+    "f2902a8a-b861-430a-8fc1-380b8e3e7908"
+  ],
+  "meaning": "For all real constant policies, designated-Monday squared error has regret (r-one half) squared and unique minimizer one half. Expected total awakening-token squared error has regret three halves times (r-one third) squared and unique minimizer one third. No policy minimizes both. Choosing one third costs one thirty-sixth on the Monday objective; choosing one half costs one twenty-fourth on the token objective. One half has smaller error in the Heads truth state, one third in the Tails state, so neither statewise dominates the other. These are explicit competing accuracy objectives, not normative victory. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md.",
+  "definition_ids": [
+    "39ea2ba9-92b2-494a-a513-d16338bf0b1c"
+  ]
+}

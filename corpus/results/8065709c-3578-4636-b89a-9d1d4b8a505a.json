@@ -1,0 +1,11 @@
+{
+  "id": "8065709c-3578-4636-b89a-9d1d4b8a505a",
+  "label": "Predictable amnesia defeats unrestricted future deference by explicit controls",
+  "argument_id": "c2d4af7b-327d-429f-831b-a2abe72633c3",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.amnesiaControl",
+  "comparator_config": "results/8065709c-3578-4636-b89a-9d1d4b8a505a/comparator.json",
+  "status": "solution-present",
+  "description": "In the same fair two-coin-world model, a world-revealing present report gives Heads conditional one or zero; a later erased report gives one half in both worlds. Conditioning now on both present knowledge and that known future one-half report preserves one or zero, while conditioning on the future report alone yields one half. The erased report cannot reconstruct the revealing report; the reverse reconstruction exists. Thus unrestricted future-credence deference fails in this explicit loss-of-information control even with each credence calculated by ordinary report conditioning. No claim of Beauty applicability follows. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+}

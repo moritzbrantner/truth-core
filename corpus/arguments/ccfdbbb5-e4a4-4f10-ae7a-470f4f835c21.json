@@ -1,0 +1,13 @@
+{
+  "id": "ccfdbbb5-e4a4-4f10-ae7a-470f4f835c21",
+  "label": "First Monday report calibration control by explicit controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "fcb3d5de-a954-4652-adc0-4e06c2b84d7b",
+  "inference_ids": [
+    "ff806e11-3b3f-4b5f-af3c-ea1acb98ce6c"
+  ],
+  "meaning": "For a fair coin experiment and exactly one designated first-Monday assessment per experiment, every constant forecast report r has Heads conditional one half. A constant one-third report is therefore not calibrated for this designated cohort. The constant Sunday and constant first-Monday coin reports structurally retain one another in this reduced two-world model. This monitor control does not assume its information or reference class is Beauty's centered evidence. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md.",
+  "definition_ids": [
+    "6a579758-e59a-4a6c-9244-2062deb4c1e7"
+  ]
+}
