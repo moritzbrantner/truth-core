@@ -22,7 +22,9 @@ interfaces. The best remaining work concerns the applicability of those
 interfaces to a dormant capacity; it is not another proof of the conditional
 or an existence claim. This assessment leaves upstream existence, relation
 adequacy and all philosophical premise establishment open. Independent semantic
-challenge is pending on this draft.
+challenge accepted the complete draft at `1ddf79280f3a56b72ed9fb2adeb52c90a415be44`
+with these qualifications; the scope clarifications below await the same
+reviewer’s targeted check before publication.
 
 ### Exact connection and existing proof boundary
 
@@ -38,6 +40,20 @@ perfections nor the completeness of that type follows from this negative
 predicate. Applying the endpoint to all philosophically relevant respects
 therefore retains an interpretation/coverage burden; this assessment introduces
 no exhaustive classification.
+
+**History/state scope.** In the intended modal route, w represents a complete
+alternative history, not an instant. References here to a present capacity or
+a variation of intrinsic state require an additional selected-state
+interpretation of the non-world-indexed `InAct` and `CanBe` parameters within
+that history. The rival comparison is not a checked joint history/state model;
+no transport from a capacity at one state to existence or rootness at a different
+state or history has been established.
+
+Under the adopted potency analysis, `InAct n esse` excludes
+`CanBe n esse ∧ ¬ InAct n esse` for a contingent actual being just as for a
+necessary one. With that selected present-esse interpretation, this exclusion
+adds no divine attribute. It is neither receptive-potency-freeness nor inability
+to cease existing; those require their own interpretations and premises.
 
 The exact existing proof is
 `TruthCore.Results.Causality.NecessaryFirstBeing.necessaryFirstPureAct`:
