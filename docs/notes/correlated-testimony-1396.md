@@ -177,3 +177,181 @@ All countermodels preserve the same hypothesis/report domains and balanced prior
 Process accounts are explicit hypotheses, not read into the table. Historical
 attribution is deferred, and no source/claim records were added. Verification
 status and actual frontier delta belong to the PR evidence.
+
+## Concrete process test: Comparator and NanoDa on this criterion
+
+This follow-up is a bounded reading of the existing successful verification path,
+not a new verifier audit or an empirical error-rate experiment. Evidence revision:
+`54bc81bde5420e9153da6709b4965bf7661af45f`; delivered result
+[`1239fd26-9a00-4f5c-9090-4b760e2db81d`](../../corpus/results/1239fd26-9a00-4f5c-9090-4b760e2db81d.json),
+[configuration](../../results/1239fd26-9a00-4f5c-9090-4b760e2db81d/comparator.json).
+The coordinator supplied this nonhistorical application after the mathematical
+checkpoint. No gates were rerun, inputs changed or failures injected for it.
+
+### What the reports actually assert
+
+The existing successful criterion log used for PR #1423 contains, in order:
+
+```text
+Building TruthCore.Results.Logic.CorrelatedTestimony1396.Challenge
+Build completed successfully (894 jobs).
+Building TruthCore.Results.Logic.CorrelatedTestimony1396.Solution
+Build completed successfully (894 jobs).
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Your solution is okay!
+```
+
+The complete original local log is `/tmp/testimony1396-verify-criterion.txt`;
+this bounded excerpt is persisted here so the process finding does not depend on
+temporary evidence alone. The log reports successful builds (which can reuse
+unchanged outputs), not two fresh recompilations. It also contains expected
+Challenge `sorry` warnings; those are frozen obligations, not proof admissions
+in the checked Solution. The prior binding output was `bind-check: 3 bound,
+0 pinned, 0 mismatch`, covering this result and the two other #1396 results.
+These observations reuse existing evidence, not a fresh claim of final-head CI.
+
+| Observation/component | Actual target and operation | What it does not assert |
+|---|---|---|
+| Successful Lean Solution build | The configured Solution module is accepted by the Lean build path; its proof is checked in the pinned Lean environment. Lake may reuse valid traced artifacts. | Natural-language interpretation, corpus record identity or empirical report calibration. |
+| Comparator's internal export comparison | The selected theorem's canonical name, kind, universe parameters and type agree between Challenge and Solution; the traversed statement environment and designated primitives/axioms agree. It separately traverses the Solution proof dependencies to reject unpermitted axioms. | The Comparator's Rust comparison is not a second proof-typechecking kernel; it does not itself derive the theorem or interpret the prose. |
+| `nanoda kernel accepts the solution` | After a successful external command, the wrapper prints this line. NanoDa parses the exact Solution export string already inspected by Comparator and checks all declarations in that export, including proof-term type inference and equality to the advertised declaration type. | NanoDa is not separately given the Challenge or corpus argument/prose and does not perform Comparator's Challenge/Solution identity comparison. |
+| `Your solution is okay!` | The overall Comparator pipeline has completed its builds, export comparisons, axiom check **and configured NanoDa call**. | An additional observer independent of the NanoDa result, or categorical/source/interpretation warrant. |
+| Existing binding result | The corpus argument's premise/conclusion declarations match the elaborated theorem's binder/result description under the repository binding rules, with sense checks. | Semantic fidelity of a definition or prose, nor a second independent theorem proof. |
+
+Code locators at the evidence revision:
+[statement and environment comparison](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L672),
+[axiom traversal](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L801),
+[build/export path](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L907),
+[shared export and NanoDa configuration](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L942),
+[ordered final pipeline](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L1012),
+[exit-status handling](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/verifier/src/main.rs#L818),
+[binding extraction](../../scripts/BindTypes.lean) and
+[binding comparison](https://github.com/moritzbrantner/truth-core/blob/54bc81bde5420e9153da6709b4965bf7661af45f/scripts/corpus.py#L4281).
+
+The pinned NanoDa source was read locally at
+`6ae1f0cd962f081f6c423454c5da729d841236a7`:
+[`main.rs`, `use_config`](https://github.com/ammkrn/nanoda_lib/blob/6ae1f0cd962f081f6c423454c5da729d841236a7/src/main.rs#L22)
+calls `check_all_declars`;
+[`tc.rs`, `check_declar`](https://github.com/ammkrn/nanoda_lib/blob/6ae1f0cd962f081f6c423454c5da729d841236a7/src/tc.rs#L81)
+infers the type of a theorem/definition/opaque value and asserts definitional
+equality with its declaration type; the parser rejects unpermitted axioms when
+`unpermitted_axiom_hard_error` is true. This supports implementation-level
+separation from Lean's kernel, without claiming a global correctness audit of
+either kernel. The exporter entry point was read locally at
+`5a9a355dc6c5fd82b69058d433e2ae2e8dfbf8fe`, `Main.lean`: it imports the
+requested module environment and dumps the requested constants. The repository
+pins Lean to `leanprover/lean4:v4.35.0` and builds the matching exporter tag;
+[pins](../../scripts/verifier-pins.env), [wrapper](../../scripts/verify-result.sh)
+and [axiom policy](../axiom-policy.md) identify this setup. These are actual
+local code observations, not newly fetched source claims.
+
+### Shared acquisition and different checks
+
+Both outputs depend on the same selected result/configuration, theorem name
+`TruthCore.Results.Logic.CorrelatedTestimony1396.criterion`, Solution/vocabulary
+and imported Lean/Mathlib declarations, compiled artifacts, machine, orchestration
+and selected successful run. Comparator parses one `solution_export` and sends
+that **same string** to NanoDa, writing it to a temporary `solution.ndjson`.
+Consequently, another export of a different statement is not an independent
+observation of the intended source statement merely because two consumers accept
+it. Exporter/artifact fidelity, run/revision identity and the chosen statement
+remain shared acquisition obligations. No such defect was demonstrated here.
+
+The selected config permits `propext`, `Classical.choice`, `Quot.sound` and enables
+NanoDa. The Rust proof-closure axiom traversal is the result-policy authority;
+NanoDa receives the same permitted list with hard errors on unpermitted axioms,
+plus native natural/string extensions. The general wrapper adds `propext` for
+exported-prelude reconstruction when absent; **this selected config already
+contains it**, so that adjustment changes no axiom allowance here. NanoDa is a
+distinct typechecking implementation from Lean, but neither implementation
+independently warrants the chosen mathematical axioms or natural-language
+interpretation. Different algorithms can share a specification, assumptions,
+export representation, selection and implementation defects; observed separate
+executables establish none of their statistical error distributions.
+
+The strongest positive reason to retain both is complementary obligation coverage
+and implementation diversity. A proof of the wrong frozen statement need not
+pass the identity/environment comparison. A hypothetical proof-term acceptance
+mistake specific to Lean could be rejected by NanoDa when faithfully exported;
+a mistake specific to the Rust comparison need not occur in either kernel.
+Conversely, NanoDa acceptance alone supplies no comparison to the Challenge,
+and equality to the Challenge alone supplies no second kernel proof check.
+These are conditional reasons grounded in different checks, not demonstrated
+fault injections or calibrated rates. Shared input does not make the additional
+kernel check useless: checking the *same intended proof* by another implementation
+is its purpose. It also does not make the two reports statistically independent.
+Required gates retain their existing roles and remain required.
+
+### Does the generic two-report model apply?
+
+Not directly to the two success messages as interchangeable, independent witness
+reports. First fix H:
+
+- H = validity of the exported proof under the selected formal background:
+  Lean and NanoDa address a common formal target, conditional on faithful export
+  and artifact identity. Comparator's internal equality/axiom checks address
+  additional obligations, rather than repeating that proof check.
+- H = identity with the frozen intended formal statement: Comparator addresses
+  the Challenge relation; NanoDa alone has no Challenge input. It can check a
+  valid proof of a different statement without settling that identity.
+- H = faithful expression of the philosophical/prose claim, or warranted belief
+  in it: neither acceptance message checks that interpretation. Existing binding
+  helps track which encoded statement was checked; it does not cross this gap.
+
+These are coexisting targets with different roles, not competing metaphysical
+options. An overall engineering assurance claim can explicitly conjoin formal
+validity, frozen identity, input/revision fidelity and semantic fidelity; passing
+the first checks does not silently supply the remaining conjuncts.
+
+There is a further observable nesting: let A be successful completion of this
+configured Comparator pipeline and B be its NanoDa-acceptance event. Under this
+unmodified control flow, A requires B; the final Comparator success message is
+printed only after the external kernel call returns successfully. Therefore the
+A-without-B cell is structurally excluded for those event meanings. The #1396
+`Reports` theorem requires **all four cells strictly positive within each
+hypothesis**, so this literal message pair does not instantiate that theorem.
+This is an event-definition mismatch, not a calculated negative Bayes factor.
+If instead A denotes internal comparison success before the kernel call, NanoDa
+is invoked only after that comparison and axiom checking pass: the observed
+NanoDa sample is selected by earlier gates. A population of possible failures,
+both-hypothesis calibration and an explicit observation/sampling policy would
+still be needed to assert statistical conditional independence. No such
+population, frequencies or probabilities are supplied by this successful log.
+
+### Provisional process assessment and reassessment
+
+The actual code supports complementary deductive assurance and distinct kernel
+implementations; it does **not** support a claim that Comparator and NanoDa are
+two statistically conditionally independent favorable witnesses concerning a
+single undifferentiated H. The final Comparator report includes the NanoDa stage,
+and its internal identity check has a different target from kernel validity.
+This discriminates the live process question without new probability assignments
+or another theorem. It is not an assertion that their errors are correlated to
+any specified degree, that one checker is redundant, or that required gates can
+be weakened. The evidence supports using both for their explicit obligations.
+
+Strongest positive rival: independent implementations could reduce exposure to
+implementation-specific proof-checking mistakes. This survives as a qualitative,
+conditional engineering reason. Its stronger statistical version owes an explicit
+error population, acquisition/selection policy and separate calibration under
+validity and invalidity, none available in this reading. Strongest adverse rival:
+a shared exporter/artifact/statement error can leave both checks apparently
+successful about a different formal object, while a shared mistranslation remains
+outside both. Its price is evidence of that actual defect; no defect is inferred
+from the availability of the failure pathway. Separate binding and semantic
+review target parts of these gaps rather than magically remove all shared trust.
+
+Revision conditions: change this assessment if the orchestration, export path,
+config or event definitions change; if a specified error population supplies
+relevant calibration; or if concrete evidence demonstrates a failure of one
+checking/input/semantic obligation. The present bounded applicability test is
+resolved: literal success messages cannot inherit the positive four-cell theorem,
+and algorithmic diversity supplies no statistical-independence certificate.
+A probabilistic application remains blocked by event/population/calibration and
+policy-to-warrant gaps. The useful continuation is to keep the explicit layered
+assurance claim when reporting these results and investigate a **concrete alleged
+mismatch**, if one arises, against its own layer. A speculative global verifier
+audit, numerical fault estimates, extra tables and automatic robustness work are
+not warranted by this finding. The #934 epistemic bridge and every probabilistic
+root application remain UNBUILT; historical stages 4–6 remain excluded.
