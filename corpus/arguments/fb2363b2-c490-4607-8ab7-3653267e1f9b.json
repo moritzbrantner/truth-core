@@ -1,0 +1,13 @@
+{
+  "id": "fb2363b2-c490-4607-8ab7-3653267e1f9b",
+  "label": "Four positive authorship evidence controls by construction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c8b857d0-b562-4de6-b75f-c70c6a873db8",
+  "inference_ids": [
+    "966d6593-fabf-4295-b78d-c470d3d6de6b"
+  ],
+  "meaning": "Finite ambiguity, distinctive-sign, full-discrimination and added-imitator controls separate sound positive evidence from full exact classification; no actual-world witness. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md.",
+  "definition_ids": [
+    "e0cee972-523d-4b84-a8ac-8affa311f841"
+  ]
+}

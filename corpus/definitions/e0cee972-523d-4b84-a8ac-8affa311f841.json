@@ -1,0 +1,9 @@
+{
+  "id": "e0cee972-523d-4b84-a8ac-8affa311f841",
+  "label": "Sound positive authorship evidence on an admitted domain",
+  "term": "sound positive authorship evidence",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.RevelationPositive.SoundPositive",
+  "definition": "For a supplied Frame, fixed candidate g and fixed event a, there exists an Evidence-to-Prop predicate sound for authored g a on admitted situations, and an admitted positive witness. PureFiber requires an inhabited observation fiber containing only situations authored by that same candidate for that same event. FullClassifier reuses CorrectionCriterion.AdmitsCriterion on the admitted subtype.",
+  "note": "Analyst logic, attribution deferred. Authorship, admitted-domain adequacy, public shareability and event identity are independent primitive interpretation obligations. Extensional existence is not decidability, access, justification or actual cognition. See docs/notes/revelation-positive-recognition.md. MessageContext supplies independently typed recipient and occasion plus propositional content; no truth/authorship/access inference follows. Finite controls use report tokens only and claim no actual testimony."
+}

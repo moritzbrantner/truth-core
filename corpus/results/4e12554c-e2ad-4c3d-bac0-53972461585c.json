@@ -1,0 +1,11 @@
+{
+  "id": "4e12554c-e2ad-4c3d-bac0-53972461585c",
+  "label": "Sound positive evidence exactly when one inhabited fiber is pure by construction",
+  "argument_id": "3c0d689e-148d-40a6-9f12-54b480b4e2ed",
+  "challenge_module": "TruthCore.Results.Logic.RevelationPositive.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RevelationPositive.Solution",
+  "theorem": "TruthCore.Results.Logic.RevelationPositive.characterization",
+  "comparator_config": "results/4e12554c-e2ad-4c3d-bac0-53972461585c/comparator.json",
+  "status": "solution-present",
+  "description": "For the same candidate and event, sound positive evidence on an explicitly admitted domain is constructively equivalent to an inhabited pure observation fiber. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
+}
