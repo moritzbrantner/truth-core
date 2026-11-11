@@ -36,8 +36,8 @@ def Disciplined (h : History) : Prop := h.originToken ∈ h.access h.origin
 def Exclusive (g : Nat) (challenge : Message) (h : History) : Prop :=
   ∀ p, challenge.token ∈ h.access p → p = g
 
-/-- Actual authorship of this response by g on this occasion, rather than a
-copied older production by g. Delivery agency and divine identity are absent. -/
+/-- Actual production of the response token by g on this occasion, rather than a
+copied older production by g. Whole-message authorship, address authorization, delivery agency and divine identity are absent. -/
 def AuthoredNow (g : Nat) (challenge : Message) (h : History) : Prop :=
   h.origin = g ∧ ¬ h.originTime < challenge.occasion
 

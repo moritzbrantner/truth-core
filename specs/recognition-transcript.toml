@@ -6,7 +6,7 @@ definitions = ["fe57d11e-9281-4d41-918c-6406bd994f57"]
 [[statement]]
 id = "Addressed echo attribution from history and access"
 lean = "Attribution"
-paraphrase = "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows."
+paraphrase = "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production of the response token on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows."
 
 [[argument]]
 id = "Addressed echo attribution from history and access by construction"
@@ -14,7 +14,7 @@ theorem = "attribution"
 premises = []
 conclusion = "Addressed echo attribution from history and access"
 rule = "Stipulated addressed echo history analysis"
-meaning = "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md."
+meaning = "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production of the response token on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md."
 
 [[statement]]
 id = "Addressed echo positive witness and four history omission controls"

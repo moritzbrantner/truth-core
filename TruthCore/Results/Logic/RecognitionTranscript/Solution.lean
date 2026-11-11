@@ -1,5 +1,6 @@
 module
 public import TruthCore.Logic.RecognitionTranscript
+public import Mathlib.Data.List.Basic
 
 @[expose] public section
 namespace TruthCore.Results.Logic.RecognitionTranscript

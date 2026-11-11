@@ -140,8 +140,11 @@ producer access lists before production. These are stipulated actual facts in
 the model, not public reports that secrecy or integrity held. The selected
 event is this response comparison; all five histories retain exactly the same
 visible message, candidate 0, task, recipient, occasion and challenge token.
-AuthoredNow means candidate production not earlier than the challenge occasion.
-It does not mean delivery by the candidate, production exactly at occasion 10,
+AuthoredNow means candidate production of the token not earlier than the challenge occasion.
+It does not establish that the candidate composed the addressed instruction,
+understood its content, or authorized the displayed address. Address and whole-message
+origin integrity remain OPEN: Integrity binds only the token. It does not mean
+delivery by the candidate, production exactly at occasion 10,
 or divine identity. The vocabulary deliberately makes no full communication
 or causation claim. Future production excluded by a delivery deadline would
 require a further temporal premise; it is not used here.
@@ -236,3 +239,14 @@ omissions. “Now” means not earlier, not simultaneous. Access membership is n
 knowledge; origin is stipulated production, not actual causation evidence.
 All findings are analyst protocol logic, no historical probability or cognition.
 Independent semantic challenge and final delivered-head CI remain required.
+
+Extension certification: selected Solution build and both new Comparator/NanoDa
+checks passed; attribution permits no axioms, controls permit the standard
+Mathlib trio. Selected bind-check reports 2 bound, 0 mismatch. Corpus check,
+bundle audit, generated imports/docs and offline attribution check passed.
+The computed fresh-main frontier remains 402 open root-reaching premises and
+288 verified support alternatives, zero alternatives added. No earlier formal
+checks were repeated merely for the semantic reassessment. Preview vocabulary
+diagnostics were empty at the supplied expected head; final certification used
+isolated copied outputs with shared packages read through the CLI. The new
+vocabulary doc-comment clarification changes no declaration type or proof.
