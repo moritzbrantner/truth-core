@@ -188,7 +188,10 @@ special accessibility guarantee. The conversion remains frame-parametric.
 
 ## Positive possibility warrant: real definition and primitive perfections (2026-11-11)
 
-**Proposed assessment for independent semantic challenge; not yet reviewed.**
+**Independent semantic challenge accepted the repaired assessment at**
+`3abe8e98a50c5aa8cbc2603f2828abaa5e2e59ea` (same-reviewer targeted pass 1;
+review note `4bc58b89`, attempt `8e616ce1`). This is semantic review, not
+premise establishment or delivered-head CI.
 Evidence baseline: `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`.
 The precise target is `dda96283-22ca-5580-bdc5-56a21ade6cc3`,
 `NecessaryIfExistent.PossibleExistence F G w`. The question is whether an
@@ -420,11 +423,10 @@ route, not all necessary-concrete possibilities. A successful necessary-natural
 account would strengthen the initial existence target while reopening the
 further source/attribute identification.
 
-**Work status:** the bounded reconstruction and dependency audit are drafted;
+**Work status:** the bounded reconstruction and dependency audit are reviewed;
 the philosophical population premise is unresolved. No premise is discharged;
-no new argument/result or root connection is registered. Required next
-reassessment is independent challenge of this complete proposed assessment,
-then select the eternal-truth→concrete-foundation warrant or obtain an adequate
+no new argument/result or root connection is registered. Independent challenge accepted the repaired assessment; next
+select the eternal-truth→concrete-foundation warrant or obtain an adequate
 particular real definition for detailed investigation. That next branch needs a
 fresh coordinator allocation; the present audit does not claim the broader
 question exhausted. Existing conditional proof evidence is reused; no Lean or
