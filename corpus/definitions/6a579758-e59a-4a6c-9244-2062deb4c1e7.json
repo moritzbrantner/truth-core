@@ -1,0 +1,9 @@
+{
+  "id": "6a579758-e59a-4a6c-9244-2062deb4c1e7",
+  "label": "Fair coin conditional reports and information retention",
+  "term": "fair-coin report conditional and information retention",
+  "definition": "The reused World type has two coin outcomes with fair masses one half. coinPosterior computes the Heads report-event mass divided by the total report-event mass. Positive mass is satisfied in every advertised control; arbitrary empty reports use rational division with zero denominator and are not probability applications. revealed reports the world; erased reports Unit. beforeCredence and afterCredence are those exact report conditionals. Retains before after requires one function reconstructing every before report from its after report, pointwise on all supplied states. This is an extensional sufficient-information relation, not a norm of deference, personal memory, accessibility or causal memory preservation. pairPosterior is the same explicit conditional ratio on four equal-mass atoms (Heads,false), (Heads,true), (Tails,false), (Tails,true); the Boolean coordinate is independent of the target coin.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.coinPosterior",
+  "note": "Analyst continuation of #1401; attribution deferred. Complete argument, information/interface limitations and provisional judgment in the reflection continuation of docs/notes/sleeping-beauty-1401.md. No rationality norm is built into the arithmetic or structural definitions."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a92ff885-e98b-4d5f-b2cd-4c5b15d9a27f",
+  "label": "First Monday report calibration control by explicit controls",
+  "argument_id": "ccfdbbb5-e4a4-4f10-ae7a-470f4f835c21",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.firstMondayCalibration",
+  "comparator_config": "results/a92ff885-e98b-4d5f-b2cd-4c5b15d9a27f/comparator.json",
+  "status": "solution-present",
+  "description": "For a fair coin experiment and exactly one designated first-Monday assessment per experiment, every constant forecast report r has Heads conditional one half. A constant one-third report is therefore not calibrated for this designated cohort. The constant Sunday and constant first-Monday coin reports structurally retain one another in this reduced two-world model. This monitor control does not assume its information or reference class is Beauty's centered evidence. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+}
