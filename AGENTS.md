@@ -240,6 +240,55 @@ for the attempt format and reference boundaries.
 - Ask a focused owner question only when a concrete next action actually requires an exclusive commitment that cannot responsibly be carried as explicit alternatives. An instruction to investigate all options is a complete methodological decision: persist it and proceed without reopening a forced winner question.
 - Example: the whole-series explanation standards of PR #1297 are retained as rival standards; the topic-specific research judgment lives in attempt `a5958e25-0904-46cb-a9e8-62ca5f3f5286`.
 
+## Substantive Objection Standard (owner direction, 2026-11-12)
+
+Do not introduce speculative, nebulous, or merely conceivable
+objections as if they carry evidential weight.
+
+An objection must:
+
+1. Identify a specific premise, inference, or assumption it challenges.
+2. Explain the concrete mechanism by which the argument could fail.
+3. Provide independent justification for that mechanism.
+4. Explain why the objection is relevant to the actual argument.
+5. Distinguish established counterexamples from hypothetical possibilities.
+
+When claiming that an argument does not generalize, identify the
+specific relevant difference and justify why it matters.
+
+Do not invent contrived alternatives merely to maintain artificial
+balance between competing positions.
+
+The burden of defending an objection rests with its proponent.
+An unspecified possibility of error is not evidence of error.
+
+If no substantive objection is available, say so plainly.
+Do not manufacture uncertainty to fill the gap.
+
+Apply these standards equally to arguments supporting and opposing
+theism, naturalism, and every other worldview.
+
+Application in this repository:
+
+- **Rival tables and attempts.** A recorded rival or objection names its target
+  premise or inference, its mechanism, and the independent justification for that
+  mechanism. A finite countermodel is an established fact about one stated formal
+  interpretation; it shows a premise is needed there, not that the premise is
+  false or doubtful. Do not present it as evidence against the premise without
+  that justification. Where none is available, record "no substantive objection
+  identified" rather than a placeholder rival.
+- **Non-generalization claims.** "This case is special", "this may not extend" or
+  "dropping assumptions may dissolve it" must name the specific difference between
+  the case and the target and say why that difference matters to the inference.
+  Otherwise remove the claim or record it as an unsupported suggestion with no
+  evidential weight.
+- **Boundaries stay.** This standard governs objections. It does not relax proof,
+  binding, source or closure rules: an open premise stays open, and a conditional
+  theorem still establishes only its conclusion under its premises.
+- **Review.** Reviewers apply the standard to objections in a diff exactly as to
+  supporting claims; an objection failing it is a P1 when the diff presents it as
+  evidence.
+
 ## Systematic sense and rival comparison
 
 Use this workflow when a sense/rival comparison is the selected question; it is
