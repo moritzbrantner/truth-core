@@ -370,7 +370,7 @@ Fix exactly `HardCaseTyped.Solution.facts`, agent offender, context killing,
 action kill, victim victim. Here and below Solution abbreviates
 `TruthCore.Results.Ethics.HardCaseTyped`; it is not a new Lean namespace.
 The existing witness supplies deliberate killing, innocence, nonthreateningness,
-feasibility, the offender's indifference, benefit and expected impunity. It does
+feasibility, the offender's indifference, benefit and stipulated impunity. It does
 not supply actual human psychology or truth of these facts outside the model.
 
 Let K be the conjunction of those **same local factual instances**. Supply an
