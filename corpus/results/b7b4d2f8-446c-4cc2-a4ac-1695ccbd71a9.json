@@ -1,0 +1,11 @@
+{
+  "id": "b7b4d2f8-446c-4cc2-a4ac-1695ccbd71a9",
+  "label": "Sincere assent and held-known bridge recover old assertion leaf",
+  "argument_id": "501f70d0-3224-4049-89b8-95109568c174",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.oldKnowingFromAssent",
+  "comparator_config": "results/b7b4d2f8-446c-4cc2-a4ac-1695ccbd71a9/comparator.json",
+  "status": "solution-present",
+  "description": "Compose actual assent with the separate OPEN assent-to-held-known bridge; no new factivity."
+}

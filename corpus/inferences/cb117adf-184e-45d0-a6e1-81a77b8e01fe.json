@@ -1,0 +1,12 @@
+{
+  "id": "cb117adf-184e-45d0-a6e1-81a77b8e01fe",
+  "label": "Unrestricted actual truth completeness supplies asserted-countertruth scope (inference)",
+  "input_statement_ids": [
+    "293d7219-a085-4fdd-b645-039c87485b0b"
+  ],
+  "output_statement_id": "e2ca9054-a50f-442c-bdb2-e3c8f8121184",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Restrict actual completeness to true negations of actual asserted contents. Route B uses this weaker version; full completeness remains useful for the separate general accuracy branch.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

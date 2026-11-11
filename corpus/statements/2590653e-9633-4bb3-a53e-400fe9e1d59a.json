@@ -1,0 +1,11 @@
+{
+  "id": "2590653e-9633-4bb3-a53e-400fe9e1d59a",
+  "label": "Veracity route structural controls",
+  "paraphrase": "Structural controls for divine assertion truth: joint lower-branch sample, four route-premise omission samples, suspension without contrary assent, and accurate complete cognition with permitted false assertion when the contrary-sign norm is absent. Not a possible-world witness of classical theism.",
+  "lean_declaration": "TruthCore.Causality.DivineVeracity1410.Control.Certificate",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c",
+    "3d69a2b8-58b7-4888-943e-e32ea702fb02"
+  ]
+}

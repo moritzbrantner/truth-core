@@ -1,0 +1,10 @@
+{
+  "id": "e2ca9054-a50f-442c-bdb2-e3c8f8121184",
+  "label": "Veracity GodCounterAssertionComplete",
+  "paraphrase": "Analyst formulation. Such a GOD_4 assents to the negation of each actually asserted proposition if that negation is true; no completeness outside this selected scope.",
+  "lean_declaration": "TruthCore.Causality.DivineVeracity1410.GodCounterAssertionComplete",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

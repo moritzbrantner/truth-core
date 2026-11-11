@@ -1,0 +1,15 @@
+{
+  "id": "92084ec3-22b9-4a67-8f02-59d0710b68da",
+  "label": "Divine assertion route structural controls certificate",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2590653e-9633-4bb3-a53e-400fe9e1d59a",
+  "inference_ids": [
+    "9ec1c65a-dd33-4243-8263-0c4fc4808c89"
+  ],
+  "meaning": "Skeleton interpretations only: real classified bearer and actual assertion in joint sample; every A/B premise omission permits false assertion; noncontradiction does not give sincerity; cognitive perfection plus permission needs an independent contrary-sign norm. No utility, counterfactual necessity, or metaphysical possibility claim.",
+  "definition_ids": [
+    "3d69a2b8-58b7-4888-943e-e32ea702fb02",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

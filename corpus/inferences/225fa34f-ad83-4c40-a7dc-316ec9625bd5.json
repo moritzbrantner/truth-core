@@ -1,0 +1,14 @@
+{
+  "id": "225fa34f-ad83-4c40-a7dc-316ec9625bd5",
+  "label": "Actual truth presence and apprehension yield complete assent (inference)",
+  "input_statement_ids": [
+    "bc7130d0-176e-4cb6-bc0b-5023b1ede4da",
+    "d4bccb06-bf7c-4446-b940-27acf32640bc",
+    "b30a3b5a-616d-4136-9c99-bdd8b03658a8"
+  ],
+  "output_statement_id": "293d7219-a085-4fdd-b645-039c87485b0b",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Every truth is actually present to the same intellect; actual access and propositional assent bridges yield completeness. No capacity-to-actuality inference.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.DivineVeracity1410.accuracyFromDefects"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

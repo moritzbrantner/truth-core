@@ -1,0 +1,13 @@
+{
+  "id": "79125e52-4b63-4a32-8ff4-164580028d9b",
+  "label": "Sincere assent and held-known bridge recover old assertion leaf (inference)",
+  "input_statement_ids": [
+    "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+    "00c2e024-f7d9-41c2-8efd-36566c456baf"
+  ],
+  "output_statement_id": "4d47d4ae-7aa9-5bba-8aa7-68f79ff8dfa9",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Compose actual assent with the separate OPEN assent-to-held-known bridge; no new factivity.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
