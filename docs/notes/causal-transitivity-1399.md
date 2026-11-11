@@ -209,3 +209,158 @@ Computed `truth frontier-diff --base origin/main` after integration of main
 45 stated); lowest expanded-route cost 16 → 16; verified support alternatives
 288 → 288; added alternatives 0; no change. This is the computed comparison,
 not an inference from the number of new records.
+
+## Bearer-level continuation: admissibility and conservation (draft, 2026-11-11)
+
+This continuation is a warrant/interpretation assessment, not another certified
+SCM result. It preserves the accepted mathematical artifact at dfdfc5772 and all
+frozen types. The entire updated consequential draft requires master's fresh
+independent semantic challenge; earlier acceptance of the mathematics does not
+cover this section.
+
+**Selected canonical bearer profile.** Start with
+`PowerExistenceBoundary.Profile`, `Ontic.ExistsAt`, `Ontic.Causes`, and the
+actual `.source → .effect` transmission in the SECOND witness of
+`Results.Causality.PowerExistenceBoundary.powerExistenceBoundary`.
+The carrier is the three distinct `Role` candidates, not magnitudes: source,
+effect, conserver. All three exist in both universally accessible worlds;
+source transmits to effect and counts as an Ontic cause. No esse-support edge
+holds. The source is necessary relative to this frame. This is an existing
+formal interpretation, not evidence that an actual source or lamp has these
+properties. `Coherent` ensures existing endpoints and inclusion in Causes;
+it does not make either primitive an independently identified productive act.
+There is no time parameter: fix one time/respect externally, and compare worlds
+at that same time. Worlds must not be reinterpreted as successive instants.
+
+For this exact witness, accessible absence of source is impossible. Therefore
+an ordinary universal test “in every accessible world where source is absent,
+effect is absent” passes without examining effect at all. It equally passes for
+the unrelated conserver and for source itself. This follows by inspection of
+`ExistsAt := fun _ _ => True`, not by running another free-existence-flag model.
+It gives no evidence for a selective productive or conserving relation. Adding
+an existence-of-an-absence-world requirement instead makes the test fail for
+this necessary source, even if independent grounds eventually support a real
+necessary conserver. Thus neither vacuous universal success nor the strengthened
+possible-absence test interprets the full old `DependsForBeing`: its definition
+explicitly includes unrealizable antecedents and excludes material implication.
+No theorem about counterpossible semantics is supplied here.
+
+**Materially different existing profile.** Since that profile has no support
+construction beyond primitive edges, inspect `ConcreteExistentialSupply.graph`
+on `BruteFoundationBoundary.Profile`: its vertices are the subtype
+`{b // concrete b ∧ ExistsAt w b}` and its edges are exactly `grounds w`.
+`ActualConcreteSupply` uses the existing inductive, whole-contributor `Supply`;
+it is genuine support structure in the formal sense, rather than a new name
+for a functional input. Its existential interpretation remains an explicit
+APPLICATION premise. `supplyRootEquivalence` proves exactly that some such
+Supply exists iff an actual concrete root exists. `borrowingEscapeWFEquivalence`
+(with explicit excluded middle) identifies the all-subsets escape condition with
+actual-grounding WF. Neither condition can be silently imported as a premise-free
+explanation of being. These are useful conditional foundations, not invalid
+results merely because their application remains open.
+
+The reused `NecessaryConcreteUnderived.witnessProfile` makes the gap especially
+sharp: `ExistsAt w b := b = false ∨ w = false`, grounds from false to true,
+but `Ontic.Causes := False`. Its necessary ground and contingent effect support
+the selected grounding application; they do not instantiate an actual claimed
+efficient cause. `withCauses` merely substitutes a selected relation and changes
+which roots are discussed; it does not prove the original grounds are efficient
+causes. No new causal/existential model is certified by this continuation.
+
+**Exact proposed absence and composition boundaries.** For possible-absence
+comparisons use the SAME rigid candidates B, frame, base world w, time t and
+respect r. Let A(w,v) select admissible comparison worlds and require
+A(w,v) implies frame.access w v. Separate (i) existence of a v with A(w,v) and
+not ExistsAt v c from (ii) universal loss of ExistsAt v x at such v. The first
+is an explicit absence-admissibility obligation, not guaranteed by a bit flip;
+the second alone is vacuous for a necessary c. A must preserve the background
+conditions relevant to this causal test, except those consequences allowed to
+change. Nothing in either canonical profile selects such an A. In particular,
+restricting A to the actual-concrete vertex subtype would make bearer removal
+unrepresentable: absence must be evaluated on the underlying candidate domain.
+For impossible absence one needs a separately justified counterpossible or
+hyperintensional support account; treating inconsistent antecedents by explosion
+would restore precisely the indiscriminate success above.
+
+For composition of the ordinary universal tests, a sufficient condition is a
+COMMON comparison class A: at every v in it, absence of c entails absence of y,
+and absence of y entails absence of x. Compose those implications at the SAME v.
+This is elementary implication composition, not new productive transitivity.
+If each link instead has its own closest-world selector, the second selected
+worlds need not include the worlds produced by the first test. Alignment or
+closure of the selectors is an additional premise. Sustaining production needs
+more still: composition must preserve the relevant contribution, concurrent
+exercise, complete contributor groups and the being of the same effect. Merely
+joining edges or equating a signal's value with a bearer is insufficient. Joint
+Supply provides explicit contributor structure, but not this modal alignment or
+an efficient-cause identification.
+
+**Positive accounts and discriminating commitments.** A concurrent conserving
+account says the bearer has its act of being now through an exercised source,
+with its receptivity and any whole group of contributors specified. Its strongest
+premise rationale is that an instrumental actuality remains derivative while
+exercised: removing the concurrently actualizing contribution removes that very
+actuality, rather than merely preventing a later event. The objection is the
+respect change: dependence of an operation on an actualizer is not yet dependence
+of the operating subject's esse. The best reply distinguishes an agent causing
+esse as such from one causing a received determination, and supplies independent
+grounds that the selected edge belongs to the former. Neither inspected profile
+supplies those grounds; the mathematical Supply application can investigate the
+reply conditionally without pretending to warrant it.
+
+An ordinary-operation rival retains the subject while changing its determination.
+A generation-only rival grants that an agent brings the bearer into existence
+at t0, while continuation at t1 depends on the generated constitution or on other
+conditions. These are positive replacement explanations, not absence of an
+explanation. Their price is respectively a persisting bearer/constitution and
+a distinction between origin and current support, not a contradiction established
+here. The #1378 productive-store ledger supplies an independently checked
+conditional instance of operation from prior stock without ongoing boundary
+input; it has no ontic existence equation and does not certify bearer persistence
+or refute conservation of esse. No concrete device behavior is asserted.
+The generation rival cannot be tested temporally in these atemporal profiles:
+a history indexed by time, an origin criterion and a continuation law are the
+missing inputs. Recasting worlds as times would conflate modal and temporal claims.
+
+**Minimal bridge to c0d99549.** Restricted to an identified c,x,r at w, one needs
+an explicit application from the selected efficient-causing relation to the
+chosen current existential support, and an explicit interpretation of that
+support as the old `DependsForBeing x c`, including impossible-absence cases.
+The old target quantifies over EVERY r. Restricting to esse or to causes of being
+as such is insufficient for it unless every included r-edge is independently
+shown to sustain bearer esse. `efficient-causing.json` instead says cause of
+“x's being r”; the rejected-edge attempt already warns against generalizing
+causes of being to every cause of a perfection. A scoped conservation premise
+may be defensible without warranting the universal target. Writing a theorem
+that composes exactly those two application assumptions would only relocate the
+open bridge; we decline to register that transcription as new support. Neither
+WF, PSR, source-being nor uniqueness is used in this assessment.
+
+**Complete proposed judgment and reassessment.** Favor retaining the old
+mathematical distinction and rejecting ordinary possible-world absence as an
+adequate interpretation of the target's impossible-antecedent-inclusive sense.
+Evidence: the actual canonical necessary-source witness makes that test
+indiscriminate, and the actual grounding/supply witness has no Causes edge.
+The assessment leaves concurrent conservation positively open, and leaves the
+universal all-respects bridge underdetermined. It is a semantic/warrant finding,
+not a refutation of the target or a new formal consequence certificate.
+Revision conditions: an independently motivated account of counterpossible
+support, a defended identification of the selected r with esse, or an explicit
+origin/continuation model linking the same bearer to its current support.
+
+The attempted profile applications have a precise blocker: neither supplies
+an admissible bearer-removal operation or a non-opaque criterion selecting
+current efficient production of esse. New Boolean tables, more free existence
+flags, or a restatement of support as a premise would not repair it. The next
+materially different investigation is the existing distinction between causes
+of coming-to-be and direct causes of being (dossier disambiguation
+`Causing an effect`): reconstruct its current-conservation criterion and test
+whether its r-scope can cover the target, or only an esse-restricted sibling.
+That changes the live premise question rather than rechecking the old proof.
+The master should reassess that scope; no owner metaphysical choice is needed.
+
+Self-sweep: no statement, definition, proof, source attribution or closure status
+is changed here. Named witness claims above are inspections of their existing
+assignments, not fresh kernel checks or empirical possibilities. Composition
+and vacuity reasoning is explicit prose and has no new certification status.
+Reuse unchanged certificate evidence; delivered-head CI remains required.
