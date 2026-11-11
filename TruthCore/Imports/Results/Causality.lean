@@ -199,6 +199,7 @@ public import TruthCore.Results.Causality.NecessaryRootGodUniqueness.Solution
 public import TruthCore.Results.Causality.NecessaryRootUniqueness.Solution
 public import TruthCore.Results.Causality.NecessarySenseFork.Solution
 public import TruthCore.Results.Causality.NecessarySimplePlurality.Solution
+public import TruthCore.Results.Causality.NecessarySupportCoverage.Solution
 public import TruthCore.Results.Causality.NecessaryWholeReplacement.Solution
 public import TruthCore.Results.Causality.NecessaryWitnessConnection.Solution
 public import TruthCore.Results.Causality.NonlimitingConcreteExistence.Solution

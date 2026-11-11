@@ -91,7 +91,22 @@ supporter of its being, under F1, excluded middle and two further open premises:
 | | Premise | Status | Rival |
 |---|---|---|---|
 | J1 | Whatever concrete thing supports the being of a necessary concrete thing is itself necessary. | open | recorded; see the rival table |
-| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open | recorded; see the rival table |
+| J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise, and bypassed by two coverage routes (below) | recorded; see the rival table |
+
+J2 is a global condition on support across all worlds. The batch
+`specs/necessary-support-coverage.toml` replaces it with **coverage**, an open
+premise about support itself: a necessary concrete thing supported by something
+at some world is supported by something actual (possibly something else).
+`underivedOfCoverage` reaches the join's conclusion from the regress premises
+(population, actual well-founded grounding, every contingent thing grounded,
+excluded middle) and coverage, without J1, J2 or F1. In the proof its witness
+is the actual necessary root; the theorem states only existence. `underivedFromNecessityOfCoverage` reaches it from
+`STMT-NECESSARY-CONCRETE-AT`, actual well-founded grounding, J1 and coverage,
+without J2 or F1. Coverage follows from either existing bridge (F1 + J1 +
+no-novel-edge, or same-supporter presence `STMT-NECESSARY-SUPPORT-IS-PRESENT`),
+and is strictly weaker than both. J1 and J2 together do not imply it. All
+premises remain open. See the
+[J2 attempt](../../corpus/attempts/b8eb98b1-4425-455d-9333-9fa2b6397974.json).
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
 computed frontier. It reaches it by the necessary-concrete routes with 15 bare
@@ -137,7 +152,7 @@ the join and the root and act-of-being premises in
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |
-| J2 support among necessary things is well-founded | Two necessary things support each other | survives | `NecessaryConcreteUnderived.checks` |
+| J2 support among necessary things is well-founded | Two necessary things support each other. Two shapes: support in both directions within one world, or a direction that varies between worlds (contingent grounding facts about necessary beings) | survives against `checks`; **excluded** with F1 and actual well-founded grounding by the no-novel-edge premise (`mutualSupportExcluded`). Compatible with the join's conclusion (`Control.rootedPair`), so it defeats that conclusion only when the actual necessary root is itself supported elsewhere, which denies coverage. The weaker discriminators (well-founded support at every world, no reversed pair) fail (`Control.rotatingTriangle`) | `NecessaryConcreteUnderived.checks`; `NecessarySupportCoverage` |
 
 #### Scope of the actual-world Euclidean comparison
 
@@ -253,4 +268,13 @@ conditional investigations, not a mandatory first gate:
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first
    discriminator for J1 and J2.
+   For J2 this is done (`specs/necessary-support-coverage.toml`). One-way
+   invariance (no novel edge) excludes the mutual-support rival. Coverage is
+   weaker and is enough for the join's conclusion without J2. A holder of the
+   rival must deny coverage to block that conclusion. Coverage is accepted by
+   essence-based accounts of dependence between necessary beings and denied by
+   accounts on which grounding facts are contingent. Next: the warrant for
+   coverage against the contingent-grounding account. Also: whether J1 can be
+   weakened to its selected-world instance, which is the only instance the
+   coverage route from necessity uses.
 3. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.

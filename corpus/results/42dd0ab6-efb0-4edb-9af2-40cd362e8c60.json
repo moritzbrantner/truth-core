@@ -1,0 +1,24 @@
+{
+  "id": "42dd0ab6-efb0-4edb-9af2-40cd362e8c60",
+  "label": "No mutual necessary support, from actual well-foundedness and no novel edge",
+  "argument_id": "a5e08c0c-1b6c-4979-8c7a-14ba5789deb8",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportCoverage.mutualSupportExcluded",
+  "comparator_config": "results/42dd0ab6-efb0-4edb-9af2-40cd362e8c60/comparator.json",
+  "status": "solution-present",
+  "description": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+      "rival_statement_id": "12a167a4-dd1d-4f04-92e5-c22325cbbd1a",
+      "sense_definition_id": "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+      "outcome": "excluded",
+      "conditions": "mutualSupportExcluded: ActualReflexive m.ontic w, ActualGroundingWF m w and NoNovelNecessarySupport on the concrete subtype at w give the negation of NecessaryConcretaMutualSupport m w.",
+      "scope": "Same Profile, selected relation and selected world as the premise and the rival; any worlds and carrier.",
+      "coverage": "All interpretations satisfying the three listed premises.",
+      "exclusivity": "The exclusion holds only under the no-novel-edge condition, which is open and stronger than J2 given the other two premises; without it the rival survives (Control.mutualPair, Control.rootedPair).",
+      "next_step": "Assess the warrant of the no-novel-edge condition: an essence-based account of support between necessary beings supports it, a worldly contingent-grounding account denies it."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c94efe16-bdf8-40a1-938b-af48a0db6f8c",
+  "label": "Rotating triangle, rooted pair and uncovered edge: controls for well-founded necessary support",
+  "paraphrase": "Closed controls on three interpretations, all candidates concrete and existing at every world, universal access. (1) Rotating triangle (three worlds t0, t1, t2 and three candidates with the same labels; at world ti, ti supports t(i+1) mod 3): no two necessary concreta support each other, support at every world is well-founded, and every other premise of NecessaryConcreteUnderived.checks holds at world t0, yet the cross-world union of necessary support is not well-founded, no necessary concretum is underived at every admitted world, and coverage fails. (2) Rooted pair (two worlds, candidates t0, t1, t2; at false t0 supports t1 and t1 supports t2, at true t0 supports t2 and t2 supports t1): the mutual-support rival, well-founded support at every world, every other premise of that theorem and coverage hold at false; the union is not well-founded; the one-way no-novel-edge condition and same-supporter presence fail; and candidate t0 is necessary, actual and without an existing concrete supporter at every admitted world. (3) Uncovered edge (two worlds, two candidates; only at true does false support true): every premise of that theorem, including no contingent concrete support and the well-founded union, and its conclusion hold at false while coverage and the one-way no-novel-edge condition fail. Statements about these interpretations only.",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportCoverage.Control.Controls",
+  "definition_ids": [
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "08dbac03-1f78-4db0-a112-c831357704c8",
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a2495b44-2d0c-4bf4-8924-333a3c8cf2c9",
+  "label": "Coverage, from same-supporter presence",
+  "argument_id": "15df6a6c-f385-407e-b2f4-be85dc1d2e10",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportCoverage.coverageOfSupportIsPresent",
+  "comparator_config": "results/a2495b44-2d0c-4bf4-8924-333a3c8cf2c9/comparator.json",
+  "status": "solution-present",
+  "description": "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Not registered as a strength order because the existing users of the stronger premise conclude about all candidates, not concreta only. Conditional consequence only."
+}

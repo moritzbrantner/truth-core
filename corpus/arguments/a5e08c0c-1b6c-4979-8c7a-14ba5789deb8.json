@@ -1,0 +1,75 @@
+{
+  "id": "a5e08c0c-1b6c-4979-8c7a-14ba5789deb8",
+  "label": "No mutual necessary support, from actual well-foundedness and no novel edge",
+  "premise_statement_ids": [
+    "2b20b5af-d653-56ba-8001-35903fb3d1ea",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "bd983df2-058a-5503-89a1-bbebe87f958b"
+  ],
+  "conclusion_statement_id": "47a34ac9-5496-43de-a9ac-61f688790148",
+  "inference_ids": [
+    "bf409fb5-850d-49cb-9beb-f99c896f2828"
+  ],
+  "meaning": "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted.",
+  "definition_ids": [
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "58fee8ed-9b44-5399-95c8-5d239bea898d",
+    "735d59a6-61de-5e43-bcf6-4ff64bceb90d",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "1b8baf77-84fa-5513-a138-7fa14840dd87",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e1ff44df-ed97-5990-8424-1abd720f23ea",
+    "baddf770-36bf-542f-bb3c-2297342d5452",
+    "a0763d0d-cd6b-5c08-a33a-f53ab8edd941",
+    "7ac7fea6-5b3a-5e97-b687-c76569c58429",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6"
+  ],
+  "disambiguation_ids": [
+    "6e92c6e3-edf0-5d7e-b2b3-788b24b8b768",
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "7507d645-874d-5434-add8-2f49c2801d36",
+    "b9adce48-6b86-5f58-b2ea-b25f51c70cbd",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265",
+    "83264cf5-01fe-52fc-9a00-eeb024f6496e"
+  ],
+  "sense_bridges": [
+    {
+      "term": "NECESSARY",
+      "from": "8c881fa6-2b9f-44be-a32a-c8ef29c13643",
+      "to": "7af298fb-a2c4-4239-919b-7685f2e1f67a",
+      "statement_id": "2b20b5af-d653-56ba-8001-35903fb3d1ea"
+    },
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "2e064a7b-b29f-4f0b-8978-782674012d86",
+      "to": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    },
+    {
+      "term": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT",
+      "from": "9232f675-db0a-474c-9f00-d8e5aba69ef7",
+      "to": "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    },
+    {
+      "term": "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION",
+      "from": "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61",
+      "to": "f4609d52-a878-4d09-9af3-083b1945770c",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    },
+    {
+      "term": "NONNECESSARY_VERSUS_CONTINGENT_ROOT",
+      "from": "cf6a8bb9-2a70-4e90-86bd-06f69106da2f",
+      "to": "9f9108e2-3cc3-45dd-be1d-d8fdaaced708",
+      "statement_id": "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21"
+    }
+  ]
+}

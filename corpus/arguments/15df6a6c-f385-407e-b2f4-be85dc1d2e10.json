@@ -1,0 +1,47 @@
+{
+  "id": "15df6a6c-f385-407e-b2f4-be85dc1d2e10",
+  "label": "Coverage, from same-supporter presence",
+  "premise_statement_ids": [
+    "1f61f12c-2b5c-5871-bf56-03c65844ae30"
+  ],
+  "conclusion_statement_id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+  "inference_ids": [
+    "acec50e1-79d5-4364-89b0-08a7690bab99"
+  ],
+  "meaning": "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Not registered as a strength order because the existing users of the stronger premise conclude about all candidates, not concreta only. Conditional consequence only.",
+  "definition_ids": [
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "c86cc1d1-c09f-5296-8ab9-2e5ddf217dce",
+    "c57e2682-08e6-527e-950f-0fa0a7ff11ef",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "eb435c88-4b7f-57dc-9ff9-fd6c0f8ad22f"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9",
+    "c529e8d3-43e3-53a8-a82f-3955e9815265"
+  ],
+  "sense_bridges": [
+    {
+      "term": "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT",
+      "from": "9232f675-db0a-474c-9f00-d8e5aba69ef7",
+      "to": "556515c9-1fcc-4ea0-b85d-2a4cad7eff79",
+      "statement_id": "1f61f12c-2b5c-5871-bf56-03c65844ae30"
+    },
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "2e064a7b-b29f-4f0b-8978-782674012d86",
+      "to": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "statement_id": "1f61f12c-2b5c-5871-bf56-03c65844ae30"
+    },
+    {
+      "term": "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY",
+      "from": "57356a7a-ed0a-478f-abfc-2d47dd631135",
+      "to": "4b9ab1c9-8d94-412b-8cbf-466b445847cb",
+      "statement_id": "1f61f12c-2b5c-5871-bf56-03c65844ae30"
+    }
+  ]
+}

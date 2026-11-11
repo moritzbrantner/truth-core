@@ -1,0 +1,17 @@
+{
+  "id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
+  "label": "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum",
+  "paraphrase": "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds.",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportCoverage.NecessarySupportActuallyCovered",
+  "definition_ids": [
+    "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

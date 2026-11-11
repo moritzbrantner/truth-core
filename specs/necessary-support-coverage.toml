@@ -1,0 +1,155 @@
+# J2 of the modal spine's join (well-founded support among necessary concreta)
+# and its recorded mutual-support rival. Analyst formulations, attribution
+# deferred. Derives J2 from an invariance premise, excludes the rival under it,
+# gives the join's endpoint two J2-free routes through a weaker coverage premise,
+# and certifies controls for the weaker candidates that fail.
+
+[batch]
+vocab = "TruthCore.Causality.NecessarySupportCoverage"
+results = "TruthCore.Results.Causality.NecessarySupportCoverage"
+
+# ---------------------------------------------------------------- statements
+
+[[statement]]
+id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
+lean = "NecessarySupportActuallyCovered"
+paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds."
+definitions = ["Actual coverage of support of a necessary concretum", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT", "DEF-KANT-ONTOLOGICAL-MODEL"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "No two NECESSARY_2 concreta support each other, each at some admitted world"
+lean = "NoNecessaryConcretaMutualSupport"
+paraphrase = "For no concrete candidates a and b, each existing at every world accessible from w, and worlds v and u, does a exist at v and stand to b in the selected relation at v while b exists at u and stands to a in the selected relation at u. The negation of the recorded mutual-support rival; with a = b it also excludes self-support at any world. It does not exclude longer cross-world cycles or endless descent."
+definitions = ["Mutual support of necessary concreta across admitted worlds", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
+
+[[statement]]
+id = "Rotating triangle, rooted pair and uncovered edge: controls for well-founded necessary support"
+lean = "Control.Controls"
+paraphrase = "Closed controls on three interpretations, all candidates concrete and existing at every world, universal access. (1) Rotating triangle (three worlds t0, t1, t2 and three candidates with the same labels; at world ti, ti supports t(i+1) mod 3): no two necessary concreta support each other, support at every world is well-founded, and every other premise of NecessaryConcreteUnderived.checks holds at world t0, yet the cross-world union of necessary support is not well-founded, no necessary concretum is underived at every admitted world, and coverage fails. (2) Rooted pair (two worlds, candidates t0, t1, t2; at false t0 supports t1 and t1 supports t2, at true t0 supports t2 and t2 supports t1): the mutual-support rival, well-founded support at every world, every other premise of that theorem and coverage hold at false; the union is not well-founded; the one-way no-novel-edge condition and same-supporter presence fail; and candidate t0 is necessary, actual and without an existing concrete supporter at every admitted world. (3) Uncovered edge (two worlds, two candidates; only at true does false support true): every premise of that theorem, including no contingent concrete support and the well-founded union, and its conclusion hold at false while coverage and the one-way no-novel-edge condition fail. Statements about these interpretations only."
+definitions = ["Actual coverage of support of a necessary concretum", "Well-founded present concrete support at every world", "Mutual support of necessary concreta across admitted worlds"]
+
+# ---------------------------------------------------------------- arguments
+
+[[argument]]
+id = "Well-founded necessary support union, from actual well-foundedness and no novel edge"
+theorem = "unionWFOfNoNovel"
+premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+conclusion = "STMT-CONCRETE-NECESSARY-UNION-WF"
+axioms = []
+rule = "Composition: present support is well-founded by actual grounding well-foundedness; union_wellFounded_of_actual_wellFounded"
+meaning = "Derives J2 of the join, well-foundedness of the cross-world union of support among necessary concreta, from three premises: the selected world accesses itself; the selected relation at w restricted to concreta existing at w is well-founded; and the existing one-way no-novel-edge condition on the concrete subtype (a support edge between necessary concreta at any world where the supporter exists also holds at w). The first two are already premises of the join. Composes the existing union_wellFounded_of_actual_wellFounded with a new lemma that actual grounding well-foundedness makes present support well-founded. The no-novel-edge condition is strictly stronger than J2 given the other two: in the uncovered-edge control J2 and the other two hold while the condition fails. Reflexive access is the sense bridge from frame accessibility (NECESSARY_11) to necessity from w (NECESSARY_2), as in the existing join. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "No mutual necessary support, from actual well-foundedness and no novel edge"
+theorem = "mutualSupportExcluded"
+premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+conclusion = "No two NECESSARY_2 concreta support each other, each at some admitted world"
+axioms = []
+rule = "Composition of unionWFOfNoNovel with the existing mutualSupport_excludes"
+meaning = "Prices the mutual-support rival of J2: with reflexive access at w and well-founded actual grounding at w (both premises of the join the rival was tested against), the rival is incompatible with the one-way no-novel-edge condition. A holder of the rival who accepts the join's other premises must therefore posit a support edge between two necessary concreta that holds at some world but not at w: the direction of support between necessary beings is contingent. A conditional exclusion; neither the condition nor the rival is established or refuted."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
+rival_statement_id = "Two necessary concreta support each other, each at some admitted world"
+sense_definition_id = "Mutual support of necessary concreta across admitted worlds"
+outcome = "excluded"
+conditions = "mutualSupportExcluded: ActualReflexive m.ontic w, ActualGroundingWF m w and NoNovelNecessarySupport on the concrete subtype at w give the negation of NecessaryConcretaMutualSupport m w."
+scope = "Same Profile, selected relation and selected world as the premise and the rival; any worlds and carrier."
+coverage = "All interpretations satisfying the three listed premises."
+exclusivity = "The exclusion holds only under the no-novel-edge condition, which is open and stronger than J2 given the other two premises; without it the rival survives (Control.mutualPair, Control.rootedPair)."
+next_step = "Assess the warrant of the no-novel-edge condition: an essence-based account of support between necessary beings supports it, a worldly contingent-grounding account denies it."
+
+[[argument]]
+id = "Underived necessary concretum, from the actual necessary root and coverage"
+theorem = "underivedOfCoverage"
+premises = ["STMT-COGITO-INHABITED-CONCRETE-WORLD", "STMT-ACTUAL-GROUNDING-WF", "STMT-EVERY-CONTINGENT-GROUNDED-AT", "STMT-EXCLUDED-MIDDLE", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"]
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-EXCLUDED-MIDDLE" },
+]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Composition of necessaryActualRootOfGrounded with coverage"
+meaning = "An alternative to NecessaryConcreteUnderived.checks without J1 (no contingent concrete support), J2 (well-founded union) or reflexive access. The existing necessaryActualRootOfGrounded gives one concretum that is necessary from w and has no concrete ground existing at w. Coverage then excludes an existing concrete supporter of it at every admitted world. In the proof the witness is that actual necessary root; the Lean conclusion states only that some such concretum exists. Underived means no existing concrete supporter at any admitted world, not absence of every explanation. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Underived necessary concretum, from necessity, no contingent support and coverage"
+theorem = "underivedFromNecessityOfCoverage"
+premises = ["STMT-NECESSARY-CONCRETE-AT", "STMT-ACTUAL-GROUNDING-WF", "STMT-NO-CONTINGENT-CONCRETE-SUPPORT", "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum", "STMT-EXCLUDED-MIDDLE"]
+sense_bridges = [
+  { term = "NECESSARY", from = "8c881fa6-2b9f-44be-a32a-c8ef29c13643", to = "7af298fb-a2c4-4239-919b-7685f2e1f67a", statement_id = "STMT-NECESSARY-CONCRETE-AT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum" },
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "WELL_FOUNDEDNESS_OF_THE_SELECTED_RELATION", from = "2f42c0e7-46ae-4e2b-9ac4-95dcb865da61", to = "f4609d52-a878-4d09-9af3-083b1945770c", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+  { term = "NONNECESSARY_VERSUS_CONTINGENT_ROOT", from = "cf6a8bb9-2a70-4e90-86bd-06f69106da2f", to = "9f9108e2-3cc3-45dd-be1d-d8fdaaced708", statement_id = "STMT-ACTUAL-GROUNDING-WF" },
+]
+conclusion = "STMT-NECESSARY-CONCRETE-UNDERIVED-AT"
+axioms = []
+rule = "Well-founded induction over actual grounding among actual necessary concreta, constructive core, then excluded middle"
+meaning = "An alternative to the stage-one join NecessaryConcreteUnderivedFromNecessity.underived that replaces reflexive access and J2 (well-founded cross-world union) by well-founded actual grounding at w and coverage. From a necessary concretum, descend actual grounding among concreta existing at w and necessary from w: a supporter of such a concretum at any admitted world gives, by coverage, a concrete supporter existing at w, which J1 (used only at w) makes necessary, so a minimal one has no existing concrete supporter at any admitted world. The witness may differ from the given necessary concretum. Conditional consequence only; no premise is established."
+
+[[argument]]
+id = "Coverage, from reflexive access, no contingent support and no novel edge"
+theorem = "coverageOfNoContingentNoNovel"
+premises = ["STMT-ACTUAL-MODAL-REFLEXIVITY", "STMT-NO-CONTINGENT-CONCRETE-SUPPORT", "STMT-NO-NOVEL-NECESSARY-SUPPORT"]
+sense_bridges = [
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-ACTUAL-MODAL-REFLEXIVITY" },
+]
+conclusion = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
+axioms = []
+rule = "Direct: the supporter elsewhere is necessary by J1, exists at w by reflexive access, and its edge holds at w by no novel edge"
+meaning = "Coverage is no stronger than the package of reflexive access at w, no contingent concrete support (J1) and the one-way no-novel-edge condition on the concrete subtype: the same supporter covers the target at w. It is strictly weaker: in the rooted-pair control coverage holds while the no-novel-edge condition fails. Conditional consequence only."
+
+[[argument]]
+id = "Coverage, from same-supporter presence"
+theorem = "coverageOfSupportIsPresent"
+premises = ["STMT-NECESSARY-SUPPORT-IS-PRESENT"]
+sense_bridges = [
+  { term = "WELL_FOUNDEDNESS_AND_ANTI_BRUTE_ROOT", from = "9232f675-db0a-474c-9f00-d8e5aba69ef7", to = "556515c9-1fcc-4ea0-b85d-2a4cad7eff79", statement_id = "STMT-NECESSARY-SUPPORT-IS-PRESENT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "2e064a7b-b29f-4f0b-8978-782674012d86", to = "57356a7a-ed0a-478f-abfc-2d47dd631135", statement_id = "STMT-NECESSARY-SUPPORT-IS-PRESENT" },
+  { term = "WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY", from = "57356a7a-ed0a-478f-abfc-2d47dd631135", to = "4b9ab1c9-8d94-412b-8cbf-466b445847cb", statement_id = "STMT-NECESSARY-SUPPORT-IS-PRESENT" },
+]
+conclusion = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
+axioms = []
+rule = "Direct: the supporter found elsewhere is itself present and supporting at w"
+meaning = "Coverage follows from the existing open premise that whatever supports a being necessary from w, at a world where it exists, also exists at w and supports it at w. Coverage is strictly weaker on its concrete domain: in the rooted-pair control coverage holds while same-supporter presence fails. Not registered as a strength order because the existing users of the stronger premise conclude about all candidates, not concreta only. Conditional consequence only."
+
+[[argument]]
+id = "Rotating triangle, rooted pair and uncovered edge controls, checked"
+theorem = "controls"
+premises = []
+conclusion = "Rotating triangle, rooted pair and uncovered edge: controls for well-founded necessary support"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Three explicit finite interpretations, checked by case analysis and rank functions"
+meaning = "Controls for J2 and its rival. The rotating triangle shows that well-founded support at every world together with the negation of the mutual-support rival yields neither J2 nor the join's endpoint: a three-step cross-world cycle survives. The rooted pair shows that the mutual-support rival is compatible with the join's endpoint, every other premise of NecessaryConcreteUnderived.checks and coverage, so J2, the no-novel-edge condition and same-supporter presence are each stronger than the endpoint needs. The uncovered edge shows that J1 and J2 with the other premises imply neither coverage nor the no-novel-edge condition. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-CONCRETE-NECESSARY-UNION-WF"
+rival_statement_id = "Two necessary concreta support each other, each at some admitted world"
+sense_definition_id = "Mutual support of necessary concreta across admitted worlds"
+outcome = "model-witnessed"
+conditions = "Control.rootedPair at world false: the rival, EveryWorldGroundingWF, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, NoContingentConcreteSupport, coverage and excluded middle hold; ConcreteNecessaryUnionWF, NoNovelNecessarySupport and NecessarySupportIsPresent fail; NecessaryConcreteUnderivedAt holds."
+scope = "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, three candidates, all concrete and necessary."
+coverage = "One explicitly populated interpretation; it shows compatibility of the rival with the join's endpoint, not survival against it."
+exclusivity = "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint."
+witness = "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts."
+next_step = "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against worldly contingent-grounding accounts of support among necessary beings."

@@ -1,0 +1,11 @@
+{
+  "id": "8337b13f-9a35-4510-80d7-4d643b5a72d2",
+  "label": "Underived necessary concretum, from necessity, no contingent support and coverage",
+  "argument_id": "9de79a41-ec67-44a8-9729-de862c1c5f66",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportCoverage.underivedFromNecessityOfCoverage",
+  "comparator_config": "results/8337b13f-9a35-4510-80d7-4d643b5a72d2/comparator.json",
+  "status": "solution-present",
+  "description": "An alternative to the stage-one join NecessaryConcreteUnderivedFromNecessity.underived that replaces reflexive access and J2 (well-founded cross-world union) by well-founded actual grounding at w and coverage. From a necessary concretum, descend actual grounding among concreta existing at w and necessary from w: a supporter of such a concretum at any admitted world gives, by coverage, a concrete supporter existing at w, which J1 (used only at w) makes necessary, so a minimal one has no existing concrete supporter at any admitted world. The witness may differ from the given necessary concretum. Conditional consequence only; no premise is established."
+}
