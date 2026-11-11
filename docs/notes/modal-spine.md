@@ -102,7 +102,11 @@ The ungrounded individual of the join is the stage-two root (checked
 `ClassicalGodFromPositiveRoot` already chain `STMT-NECESSARY-CONCRETE-UNDERIVED-AT`
 to `STMT-NECESSARY-CLASSICAL-GOD-ROOT` at the statement level. The Lean theorem
 `NecessaryClassicalGodRootFromUnderived.derive` composes the three on one model,
-world, profile and dictionary. It keeps the same witness and needs only the
+world, profile and dictionary. Internally the proof carries one witness
+through all three steps, but the registered type states `∃ b` in the premise
+and `∃ n` in the conclusion and does not certify `b = n`; the identity is an
+immediate corollary of uniqueness among actual roots at `w`, not part of the
+result. The theorem needs only the
 underived individual, excluded middle and the 21 act-of-being, attribute and
 naming premises of `NecessaryClassicalGodRoot.derive`. The attribute steps do
 not use population, whole-roster nontrapping or contingent grounding; those
@@ -298,7 +302,7 @@ conditional investigations, not a mandatory first gate:
 3. Done: the ungrounded individual of the join is the stage-two root (see "The
    join"). Done: the sense links were cleaned and the composition registered
    (result `57213a13-fda3-4d8d-86ec-7f4462a3e7a1`). The underived premise and the
-   act-of-being bridges now both link world-relative existence for `m.grounds`.
+   act-of-being bridges now read the same `m.grounds` over the same world-relative `ExistsAt`.
    Open: the four older arguments to the endpoint keep legacy allowlist entries,
    because their intermediate statements and the act-priority record (POTENCY_1
    on a generic `InPotency` parameter) still link several senses. Cleaning those

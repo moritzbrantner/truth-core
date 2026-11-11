@@ -9,8 +9,9 @@ public import TruthCore.Results.Causality.ClassicalGodFromPositiveRoot.Solution
 
 /-! Modal spine, the join to stage two. The ungrounded necessary concrete
 individual of the join (`NecessaryConcreteUnderivedAt`) is the root the
-stage-two attribute chain starts from: one Lean term carries the SAME witness
-through `UnderivedRootPerfection`, `PerfectRootPositiveIntellectWill` and
+stage-two attribute chain starts from: the proof carries one witness
+(the type itself does not state the identity of the premise's and conclusion's
+witnesses) through `UnderivedRootPerfection`, `PerfectRootPositiveIntellectWill` and
 `ClassicalGodFromPositiveRoot` to `NecessaryClassicalGodRootAt`, with no regress
 premise (population, whole-roster nontrapping, contingent grounding). Every
 attribute, act/being and naming premise stays an explicit open input.
