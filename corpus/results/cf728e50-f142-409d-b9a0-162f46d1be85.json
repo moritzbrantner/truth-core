@@ -1,0 +1,11 @@
+{
+  "id": "cf728e50-f142-409d-b9a0-162f46d1be85",
+  "label": "Same-agent exercise proxy control certificate",
+  "argument_id": "d8775438-cce3-495f-a096-4292d3e39e47",
+  "challenge_module": "TruthCore.Results.Causality.Power1392Exercise.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Power1392Exercise.Solution",
+  "theorem": "TruthCore.Results.Causality.Power1392Exercise.certificate",
+  "comparator_config": "results/cf728e50-f142-409d-b9a0-162f46d1be85/comparator.json",
+  "status": "solution-present",
+  "description": "Structural control for the open active-power sufficiency root premise d61eda33-7f6c-52a8-a905-e16661520f23. Original-task, recipient and sign-exclusivity bridges remain unbuilt. See docs/notes/power1392.md. Duplicate actualDoesNotForceRestriction and pure application taskSpecific are not registered as independent arguments."
+}
