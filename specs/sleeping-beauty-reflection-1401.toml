@@ -1,0 +1,78 @@
+[batch]
+vocab = "TruthCore.Epistemology.SleepingBeauty1401.Reflection"
+results = "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection"
+
+[[statement]]
+id = "Predictable amnesia defeats unrestricted future deference"
+lean = "AmnesiaControl"
+paraphrase = "In the same fair two-coin-world model, a world-revealing present report gives Heads conditional one or zero; a later erased report gives one half in both worlds. Conditioning now on both present knowledge and that known future one-half report preserves one or zero, while conditioning on the future report alone yields one half. The erased report cannot reconstruct the revealing report; the reverse reconstruction exists. Thus unrestricted future-credence deference fails in this explicit loss-of-information control even with each credence calculated by ordinary report conditioning. No claim of Beauty applicability follows."
+definitions = ["6a579758-e59a-4a6c-9244-2062deb4c1e7"]
+
+[[argument]]
+id = "Predictable amnesia defeats unrestricted future deference by explicit controls"
+theorem = "amnesiaControl"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Predictable amnesia defeats unrestricted future deference"
+rule = "Explicit fair-report conditioning and squared-error comparison"
+meaning = "In the same fair two-coin-world model, a world-revealing present report gives Heads conditional one or zero; a later erased report gives one half in both worlds. Conditioning now on both present knowledge and that known future one-half report preserves one or zero, while conditioning on the future report alone yields one half. The erased report cannot reconstruct the revealing report; the reverse reconstruction exists. Thus unrestricted future-credence deference fails in this explicit loss-of-information control even with each credence calculated by ordinary report conditioning. No claim of Beauty applicability follows. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+
+[[statement]]
+id = "First Monday report calibration control"
+lean = "FirstMondayCalibration"
+paraphrase = "For a fair coin experiment and exactly one designated first-Monday assessment per experiment, every constant forecast report r has Heads conditional one half. A constant one-third report is therefore not calibrated for this designated cohort. The constant Sunday and constant first-Monday coin reports structurally retain one another in this reduced two-world model. This monitor control does not assume its information or reference class is Beauty's centered evidence."
+definitions = ["6a579758-e59a-4a6c-9244-2062deb4c1e7"]
+
+[[argument]]
+id = "First Monday report calibration control by explicit controls"
+theorem = "firstMondayCalibration"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "First Monday report calibration control"
+rule = "Explicit fair-report conditioning and squared-error comparison"
+meaning = "For a fair coin experiment and exactly one designated first-Monday assessment per experiment, every constant forecast report r has Heads conditional one half. A constant one-third report is therefore not calibrated for this designated cohort. The constant Sunday and constant first-Monday coin reports structurally retain one another in this reduced two-world model. This monitor control does not assume its information or reference class is Beauty's centered evidence. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+
+[[statement]]
+id = "Sleeping Beauty accuracy objectives have incompatible minimizers"
+lean = "CohortAccuracy"
+paraphrase = "For all real constant policies, designated-Monday squared error has regret (r-one half) squared and unique minimizer one half. Expected total awakening-token squared error has regret three halves times (r-one third) squared and unique minimizer one third. No policy minimizes both. Choosing one third costs one thirty-sixth on the Monday objective; choosing one half costs one twenty-fourth on the token objective. One half has smaller error in the Heads truth state, one third in the Tails state, so neither statewise dominates the other. These are explicit competing accuracy objectives, not normative victory."
+definitions = ["39ea2ba9-92b2-494a-a513-d16338bf0b1c"]
+
+[[argument]]
+id = "Sleeping Beauty accuracy objectives have incompatible minimizers by explicit controls"
+theorem = "cohortAccuracy"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Sleeping Beauty accuracy objectives have incompatible minimizers"
+rule = "Explicit fair-report conditioning and squared-error comparison"
+meaning = "For all real constant policies, designated-Monday squared error has regret (r-one half) squared and unique minimizer one half. Expected total awakening-token squared error has regret three halves times (r-one third) squared and unique minimizer one third. No policy minimizes both. Choosing one third costs one thirty-sixth on the Monday objective; choosing one half costs one twenty-fourth on the token objective. One half has smaller error in the Heads truth state, one third in the Tails state, so neither statewise dominates the other. These are explicit competing accuracy objectives, not normative victory. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+
+[[statement]]
+id = "Retained day information improves total awakening accuracy"
+lean = "RecallControl"
+paraphrase = "The day-sensitive expected total squared-error regret is (mon-one half) squared plus one half times tue squared. Monday one half and Tuesday zero have expected total error one quarter, below the best day-ignorant constant policy one third, whose error is one third. Setting mon=tue=r recovers exactly the total-token objective. This is the value of a reliable day distinction inside one accuracy objective; it does not settle the appropriate credence norm when that distinction is absent."
+definitions = ["39ea2ba9-92b2-494a-a513-d16338bf0b1c", "a159ec1c-7887-48f2-b82e-4325065c31db"]
+
+[[argument]]
+id = "Retained day information improves total awakening accuracy by explicit controls"
+theorem = "recallControl"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Retained day information improves total awakening accuracy"
+rule = "Explicit fair-report conditioning and squared-error comparison"
+meaning = "The day-sensitive expected total squared-error regret is (mon-one half) squared plus one half times tue squared. Monday one half and Tuesday zero have expected total error one quarter, below the best day-ignorant constant policy one third, whose error is one third. Setting mon=tue=r recovers exactly the total-token objective. This is the value of a reliable day distinction inside one accuracy objective; it does not settle the appropriate credence norm when that distinction is absent. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md."
+
+[[statement]]
+id = "Losing independent private information preserves coin credence"
+lean = "IrrelevantLossControl"
+paraphrase = "In four equal-probability states consisting of a fair coin and an independent fair Boolean private bit, the coin conditional on either observed bit value is one half. Erasing the bit also gives coin conditional one half, even though no reconstruction of the bit from the erased report exists. Thus structural information loss alone does not imply a change in this target credence or failure of this reflection instance."
+definitions = ["6a579758-e59a-4a6c-9244-2062deb4c1e7"]
+
+[[argument]]
+id = "Losing independent private information preserves coin credence by explicit controls"
+theorem = "irrelevantLossControl"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Losing independent private information preserves coin credence"
+rule = "Explicit four-state independent-bit conditioning"
+meaning = "In four equal-probability states consisting of a fair coin and an independent fair Boolean private bit, the coin conditional on either observed bit value is one half. Erasing the bit also gives coin conditional one half, even though no reconstruction of the bit from the erased report exists. Thus structural information loss alone does not imply a change in this target credence or failure of this reflection instance. Proposed warrant connection remains UNBUILT; no unrestricted reflection theorem is inferred."

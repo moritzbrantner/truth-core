@@ -1,0 +1,9 @@
+{
+  "id": "39ea2ba9-92b2-494a-a513-d16338bf0b1c",
+  "label": "Sleeping Beauty accuracy cohorts",
+  "term": "designated-Monday and total-token squared error",
+  "definition": "The existing real-valued binary error from EpistemicAccuracy is reused. mondayRisk assigns fair expected error to exactly one designated first-Monday assessment per experiment. tokenRisk assigns expected SUM of squared errors to every awakening under the fair one-Heads/two-Tails protocol: half times (1-r) squared plus r squared. A constant policy r must be used at all indistinguishable awakenings. It is not divided by each realized experiment's token count. Dividing the expected sum by the expected count only rescales by a constant; averaging separately within each experiment instead gives mondayRisk for this constant policy. These are distinct epistemic cost aggregations with explicit populations, neither an obligatory norm by definition nor a monetary utility. Substantive credences lie in the unit interval; the polynomial minimizer theorem holds for all reals.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.tokenRisk",
+  "note": "Analyst continuation of #1401; attribution deferred. Complete argument, information/interface limitations and provisional judgment in the reflection continuation of docs/notes/sleeping-beauty-1401.md. No rationality norm is built into the arithmetic or structural definitions. Definition dependency: DEF-EPISTEMIC-ACCURACY supplies the reused binary squared-error meaning and its non-normative boundary."
+}

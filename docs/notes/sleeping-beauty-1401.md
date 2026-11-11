@@ -282,3 +282,216 @@ revise workflow guidance to mention explicit inlining for new owned modules,
 or let the coordinator refresh preview imports when justified. The shared
 session did not certify the final revision; final delivered-head CI retains
 build, binding, axiom, Comparator and NanoDa coverage.
+
+## Reflection continuation: proposed complete outcome after #1411
+
+This continuation received its own independent semantic challenge and was
+accepted, including the full qualified assessment below. The reviewed evidence
+hashes were note `32a85e51`, vocabulary `7173b472`, Solution `27c3323e`, and
+spec `e69db6d5`; subsequent edits update work status only. The earlier #1411
+review was reused only for its unchanged checkpoint. The new frozen heads live
+in [the continuation batch](../../specs/sleeping-beauty-reflection-1401.toml)
+and [Reflection vocabulary](../../TruthCore/Epistemology/SleepingBeauty1401/Reflection.lean).
+No claim of a built root/warrant connection is added.
+
+### Inventory and exact question
+
+The continuation inspected reflection, perfect recall, amnesia, forgetting,
+non-nested evidence and conditional-expectation terminology across existing
+Lean, statements, definitions, attempts and notes. `ReflectiveCoherence` is
+about truth-directed worldview duties, not probabilistic future deference;
+the Goldman forgotten-evidence note concerns preservation of warrant, not
+this conditional-probability theorem. Neither is repurposed as a reflection
+certificate. The existing `EpistemicAccuracy.regret` theorem is actually used
+for the designated-Monday score, with its context/dossier and interpretation
+boundary inspected. No duplicate general accuracy library is introduced.
+
+The question is whether knowing one's future Heads credence gives a reason to
+defer to it, and whether known memory erasure removes that reason. The strongest
+ordinary reflection argument treats the future credence as a correctly
+conditioned estimate on evidence that preserves current information, for the
+same target, population and probability measure. In that setting the usual
+conditional-averaging argument motivates deference. It does not follow merely
+from the existence of a future opinion. The new results are concrete controls;
+they are NOT a general formal tower-property or reflection theorem.
+
+### Relevant loss, irrelevant loss, and what the controls establish
+
+`amnesiaControl` fixes the SAME fair two-world coin throughout. Initially the
+agent sees the coin world; a Heads report gives conditional 1 and a Tails report
+conditional 0. Afterwards the report is erased, so either world yields the
+same report and conditional 1/2. The agent can know in advance that this will
+be the future credence. Conditioning now on both current report and the known
+future one-half report still gives 1 or 0. Every event used has positive mass.
+Thus the unrestricted prescription “if I know I will later assign r, assign r
+now” fails even when both credences are actual report-conditioned probabilities.
+The future report cannot reconstruct the initial one. The example identifies
+a genuine reason against unconditional future deference: the future self will
+lack reliable target-relevant information already available now.
+
+`irrelevantLossControl` adds an independent fair private bit, making four equal
+atoms. Knowing either bit value leaves coin probability 1/2. Erasing the bit
+leaves it 1/2 as well, despite failure of report reconstruction. Thus structural
+information loss is neither an automatic update rule nor a sufficient reason
+for a change in this target credence. A target-sensitive account must ask what
+was lost, its relation to the target, and which probability model supports that
+relation. This refines the amnesia objection rather than declaring it generally
+irrelevant. The pointwise `Retains` factorization is an ideal extensional
+information relation; it does not encode personal memory, reliable access to
+reconstruction, or epistemic obligation.
+
+For Beauty, Sunday does not contain a revealed coin outcome subsequently
+forgotten. At the first actual Monday awakening she has not erased an earlier
+awakening's coin evidence. Consequently the relevant-loss model is not a direct
+proof that her first-Monday credence may differ from her Sunday credence.
+However, this does NOT prove perfect recall or nested first-person information:
+on Sunday she can identify her next awakening as the first Monday one; later
+she cannot identify her current awakening as first Monday rather than Tuesday.
+Memory of the protocol does not restore that current-location relation.
+Whether this is relevant information loss for an uncentered target, and how to
+represent it in a common temporal sample space, is precisely a disputed bridge.
+A blanket assertion of either “no information lost” or “amnesia, therefore
+reflection inapplicable” skips it.
+
+`firstMondayCalibration` makes the external-cohort side exact. Select exactly
+one first-Monday assessment from each fair coin experiment. If the reported
+credence is the same r in both worlds, conditioning on that report still gives
+1/2. A constant 1/3 forecast is not calibrated within THAT cohort. The reduced
+coin-only Sunday and first-Monday reports are both constant and retain each
+other, so information loss is not represented in that reduced model. This is
+a control on a proposed modeling claim, not a theorem that the reduced model
+contains all Beauty's centered information. Imposing it as her rationality norm
+would assume the contested transport. Conversely, a thirder accepting ordinary
+first-Monday calibration as an overriding norm for her own report would face
+this exact discrepancy; “there are two Tails awakenings” alone does not repair
+that cohort's conditional frequency.
+
+### A positive rival norm without bets
+
+There is a substantive positive epistemic argument for the thirder policy:
+evaluate the expected SUM of epistemic inaccuracies of every actual awakening
+credence. Each actual erroneous assessment contributes a squared-error cost;
+all awakenings have the same per-token scoring rule, with no money, pleasure,
+wealth or practical reward. Restrict to one common policy r because the agent
+lacks reliable day information. In the fair one-H/two-T protocol the expected
+sum is
+
+`tokenRisk(r) = (1/2)(1-r)^2 + r^2`.
+
+`cohortAccuracy` proves that 1/3 uniquely minimizes it, with regret
+`(3/2)(r−1/3)^2`. Choosing 1/2 instead adds 1/24 expected total error. The norm's
+positive reason is preventing more inaccurate credence occurrences across the
+occasions the agent will actually undergo. This survives the objection that
+thirder betting prices might merely reflect financial settlement: this new
+criterion concerns epistemic error itself.
+
+There is an equally explicit positive halfer criterion. Evaluate one designated
+Monday assessment per fair experiment, or average the identical-r token errors
+SEPARATELY within each realized experiment before taking the coin expectation.
+Either yields
+
+`mondayRisk(r) = (1/2)(1-r)^2 + (1/2)r^2`.
+
+Its unique optimum is 1/2, with regret `(r−1/2)^2`; 1/3 adds 1/36 expected error.
+The positive reason is calibration to the fair experiment-level target without
+letting repeated occasions in one outcome give that experiment greater weight.
+The averaging interpretation here is justified by the explicit constant-policy
+restriction; it is not asserted for arbitrary varying token policies. It also
+is not the same as dividing expected total error by expected token count,
+which just multiplies `tokenRisk` by a fixed positive factor and keeps 1/3.
+
+The result proves no common minimizer for these two selected objectives. In the
+Heads state 1/2 has smaller squared error; in the Tails state 1/3 does. There is
+therefore no statewise dominance argument between these two coherent policies.
+The general coherence-dominance theorem for inconsistent complementary
+credences cannot choose one: both r and 1−r form coherent pairs. These are two
+competing epistemic aggregations, not the same score with an algebra error.
+The choice of squared error is explicit; no theorem about every possible proper
+scoring rule is claimed.
+
+The standing objection to the token norm is that an ex ante policy optimum
+across multiple future assessment occasions does not automatically fix the
+rational truth-directed credence at this particular occasion. It must justify
+additivity across tokens and why duplication of relevant episodes changes the
+required credence while ordinary duplication of score records does not. The
+standing objection to experiment averaging is that equalizing experiments
+underweights the actual additional Tails episodes at which the subject may be
+wrong. It must justify the experiment as the epistemic unit and the transport
+of that unit to a current self-location. Neither objection exhibits a conflict
+with an accepted floor commitment or with the rival's own stated objective.
+Neither norm is dismissed merely because its preferred unit is unusual.
+
+### Common controls and remaining disagreement
+
+The positive norms agree on several discriminating cases; they are not blanket
+recipes to move every prior or ignore every announced day.
+
+* With one awakening per outcome, the two populations coincide; the existing
+  general p,k certificate verifies that their probability weights coincide.
+* If a reliable report distinguishes Monday from Tuesday, Monday can use 1/2
+  and Tuesday 0. `recallControl` proves day-sensitive total error 1/4, strictly
+  below the best constant policy's 1/3. Its exact regret is
+  `(mon−1/2)^2 + (1/2)tue^2`; restricting mon=tue recovers `tokenRisk`.
+  Thus the total-token criterion values retaining a relevant day distinction;
+  it does not prescribe thirds regardless of available information. The
+  experiment-level first-Monday criterion also favors 1/2 at that designated
+  occasion. Tuesday certainty is consistent with either truth-directed account.
+* Losing an independent private bit leaves the fair target credence unchanged.
+  The new four-state control proves this rather than assuming all information
+  loss is target-relevant.
+* Losing an actual outcome report changes the appropriate report conditional;
+  both positive accounts can reject unrestricted deference to the less-informed
+  future self. A normative bridge is still needed to say which future report
+  conditional is relevant to the actual agent.
+
+Changing the information regime changes the assessed policy class. The
+retained-day comparison is a different regime from announcing Monday to an
+already day-ignorant agent and conditioning her existing centered measure.
+It therefore does not refute the halfer's 2/3 Monday announcement posterior by
+silently treating two different evidence/sampling interfaces as identical.
+It identifies the interface a proposed bridge would have to equate.
+
+### Proposed revised provisional assessment and reassessment
+
+The unique-rational-credence judgment remains underdetermined, but the reason
+is now sharper. Unrestricted reflection is refuted by an explicit relevant-loss
+control. Structural memory loss by itself does not settle a particular target,
+as shown by the independent-bit control. First-Monday calibration supplies real
+pressure on a constant thirder forecast IF that designated cohort is the
+appropriate epistemic unit; total-token epistemic accuracy supplies a positive
+countervailing policy reason for thirds that does not rely on betting payoff.
+Both norms survive the common controls above under their explicit objectives.
+They disagree about the unit and temporal transport of epistemic assessment,
+which the mathematical certificates do not make obligatory.
+
+The new positive support for thirds is conditional on additive total-token
+accuracy, not support for its universal normative authority. The new pressure
+from reflection is conditional on retained target-relevant information in a
+shared population, not a proof of halfer superiority. Shared dependencies are
+the fair protocol, target stability, same squared-error rule and reliable
+report interpretation; the two accuracy computations are not independent
+witnesses to a single norm. No norm, rival defeat, root connection or closure
+is upgraded by this assessment. No historical attribution has been added.
+
+A concrete next discriminating assignment is now normative rather than more
+normalization: compare total versus per-experiment epistemic aggregation under
+a duplication intervention that keeps the agent's available report, causal
+coin evidence and target fixed. Specify whether the new objects are actual
+conscious assessment episodes or duplicate administrative score entries, and
+whether one policy must govern all episodes. Defend why either intervention
+may or may not alter epistemic reason. Also test a reliable positional marker
+that preserves knowledge that the current awakening is the next one predicted
+on Sunday, separately from memory of the coin protocol. A defended account of
+that temporal-index relation could warrant or defeat the first-Monday
+reflection bridge. Merely defining a prior-preserving selected-self kernel,
+counting all copies, or calling one regime “the real evidence” would prejudge
+it.
+
+This is a branch reassessment point: the selected mathematical controls are
+resolved; further inferential progress requires defending the rival epistemic
+unit/transport norm against this concrete duplication/index test. No unavailable
+source or owner choice is alleged. The coordinator may allocate that narrower
+normative question rather than repeat the existing algebra. The complete
+outcome is persisted and independently challenged. Canonical focused build,
+preview diagnostics, five-result binding and all five Comparator/NanoDa checks
+have passed; delivered-head CI remains required for the new continuation results.
