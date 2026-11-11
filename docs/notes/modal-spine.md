@@ -202,7 +202,7 @@ the join and the root and act-of-being premises in
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
 | A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with an endless past or a never-generated contingent thing | the premise itself |
-| A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only with a beginningless past or a never-generated contingent thing | the premise itself |
+| A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |

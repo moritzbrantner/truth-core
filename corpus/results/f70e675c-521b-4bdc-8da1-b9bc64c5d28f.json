@@ -18,7 +18,7 @@
       "scope": "Same History carrier, Concrete predicate, preorder of times, frame and selected world.",
       "coverage": "The initial-state rival as encoded (no accessible contingent-free moment before a contingent-populated one); not every philosophical view called an initial-state view.",
       "exclusivity": "Checked incompatibility, not exhaustiveness: both statements can fail together.",
-      "next_step": "The rival's holder must deny that begun coming-to-be is possible: in every accessible history either some contingent concrete thing never came to be or some populated moment's past has no minimal moment (a beginningless past). The second horn no longer includes continuous time with a beginning."
+      "next_step": "The rival's holder must deny that begun coming-to-be is possible: every accessible history either contains no present contingent concrete thing, or has some contingent concrete thing that never came to be, or has no populated moment whose past has a minimal moment (a beginningless past at every populated moment). The second horn no longer includes continuous time with a beginning."
     }
   ]
 }
