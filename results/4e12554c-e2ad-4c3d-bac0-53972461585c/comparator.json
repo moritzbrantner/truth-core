@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.RevelationPositive.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RevelationPositive.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.RevelationPositive.characterization"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

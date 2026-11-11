@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.RecognitionTranscript.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RecognitionTranscript.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.RecognitionTranscript.controls"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

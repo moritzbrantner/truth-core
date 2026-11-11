@@ -1,0 +1,13 @@
+{
+  "id": "514b965e-292b-42fc-a443-a559f30f1373",
+  "label": "Addressed echo attribution from history and access by construction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a4399592-9150-41c1-ac9e-6115c5e385bc",
+  "inference_ids": [
+    "904ab706-531f-4338-b96d-aee739a75068"
+  ],
+  "meaning": "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production of the response token on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md.",
+  "definition_ids": [
+    "fe57d11e-9281-4d41-918c-6406bd994f57"
+  ]
+}

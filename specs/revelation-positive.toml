@@ -1,0 +1,45 @@
+[batch]
+vocab = "TruthCore.Logic.RevelationPositive"
+results = "TruthCore.Results.Logic.RevelationPositive"
+definitions = ["e0cee972-523d-4b84-a8ac-8affa311f841"]
+
+[[statement]]
+id = "Sound positive evidence exactly when one inhabited fiber is pure"
+lean = "Characterization"
+paraphrase = "For the same candidate and event, sound positive evidence on an explicitly admitted domain is constructively equivalent to an inhabited pure observation fiber."
+
+[[argument]]
+id = "Sound positive evidence exactly when one inhabited fiber is pure by construction"
+theorem = "characterization"
+premises = []
+conclusion = "Sound positive evidence exactly when one inhabited fiber is pure"
+rule = "Constructive observation-fiber analysis"
+meaning = "For the same candidate and event, sound positive evidence on an explicitly admitted domain is constructively equivalent to an inhabited pure observation fiber. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
+
+[[statement]]
+id = "Four positive authorship evidence controls"
+lean = "Controls"
+paraphrase = "Finite ambiguity, distinctive-sign, full-discrimination and added-imitator controls separate sound positive evidence from full exact classification; no actual-world witness."
+
+[[argument]]
+id = "Four positive authorship evidence controls by construction"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Four positive authorship evidence controls"
+rule = "Constructive observation-fiber analysis"
+meaning = "Finite ambiguity, distinctive-sign, full-discrimination and added-imitator controls separate sound positive evidence from full exact classification; no actual-world witness. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
+
+[[statement]]
+id = "Conditional interface from positive evidence to recognizable capability"
+lean = "Bridge"
+paraphrase = "Assembly/transcription interface: AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. The final primitive-capability calibration is assumed, not independently warranted."
+
+[[argument]]
+id = "Conditional interface from positive evidence to recognizable capability by construction"
+theorem = "bridge"
+transcription = "assembly"
+premises = []
+conclusion = "Conditional interface from positive evidence to recognizable capability"
+rule = "Constructive observation-fiber analysis"
+meaning = "Assembly/transcription interface: AbilityEvidence, EvidenceUptake and the existing open full capacity calibration imply the old RecognizableRevelationAnalysis. The final primitive-capability calibration is assumed, not independently warranted. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."

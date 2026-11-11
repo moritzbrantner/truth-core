@@ -1,0 +1,11 @@
+{
+  "id": "a59937a6-d8b9-4245-9b2c-677f8ede89c0",
+  "label": "Addressed echo positive witness and four history omission controls by construction",
+  "argument_id": "322a4fed-7771-47b1-8c43-3b4ba7111030",
+  "challenge_module": "TruthCore.Results.Logic.RecognitionTranscript.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RecognitionTranscript.Solution",
+  "theorem": "TruthCore.Results.Logic.RecognitionTranscript.controls",
+  "comparator_config": "results/a59937a6-d8b9-4245-9b2c-677f8ede89c0/comparator.json",
+  "status": "solution-present",
+  "description": "One inhabited genuine response satisfies the stipulated attribution bundle. Leaked-access forgery, replay, insertion and successful guessing preserve exactly the visible transcript while respectively violating exclusivity, freshness, integrity and access discipline; each fails AuthoredNow. These five histories are a selected structural protocol model, not exhaustive actual alternatives. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md."
+}

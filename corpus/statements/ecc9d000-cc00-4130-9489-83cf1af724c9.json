@@ -1,0 +1,6 @@
+{
+  "id": "ecc9d000-cc00-4130-9489-83cf1af724c9",
+  "label": "Sound positive evidence exactly when one inhabited fiber is pure",
+  "paraphrase": "For the same candidate and event, sound positive evidence on an explicitly admitted domain is constructively equivalent to an inhabited pure observation fiber.",
+  "lean_declaration": "TruthCore.Logic.RevelationPositive.Characterization"
+}

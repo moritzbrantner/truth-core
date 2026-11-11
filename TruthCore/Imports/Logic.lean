@@ -44,11 +44,13 @@ public import TruthCore.Logic.ObjectiveTruthDefinitionFork
 public import TruthCore.Logic.PerformedDenial
 public import TruthCore.Logic.PluralClosureBoundary
 public import TruthCore.Logic.QuantifierShift
+public import TruthCore.Logic.RecognitionTranscript
 public import TruthCore.Logic.ReferenceAnchor
 public import TruthCore.Logic.ReflectiveCoherence
 public import TruthCore.Logic.Regress
 public import TruthCore.Logic.RegressDomains
 public import TruthCore.Logic.Relativism
+public import TruthCore.Logic.RevelationPositive
 public import TruthCore.Logic.Scientism
 public import TruthCore.Logic.ScientismScopeBoundary
 public import TruthCore.Logic.ScopedEmpiricalProofBarrier

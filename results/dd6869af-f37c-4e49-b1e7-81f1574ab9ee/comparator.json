@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.RecognitionTranscript.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RecognitionTranscript.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.RecognitionTranscript.attribution"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

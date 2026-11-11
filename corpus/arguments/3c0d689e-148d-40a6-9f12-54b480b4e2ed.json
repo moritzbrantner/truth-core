@@ -1,0 +1,13 @@
+{
+  "id": "3c0d689e-148d-40a6-9f12-54b480b4e2ed",
+  "label": "Sound positive evidence exactly when one inhabited fiber is pure by construction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "ecc9d000-cc00-4130-9489-83cf1af724c9",
+  "inference_ids": [
+    "9ca89acb-1c21-4f7c-8455-5fb5f72a25a1"
+  ],
+  "meaning": "For the same candidate and event, sound positive evidence on an explicitly admitted domain is constructively equivalent to an inhabited pure observation fiber. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md.",
+  "definition_ids": [
+    "e0cee972-523d-4b84-a8ac-8affa311f841"
+  ]
+}

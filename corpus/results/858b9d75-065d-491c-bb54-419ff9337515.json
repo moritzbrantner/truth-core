@@ -1,0 +1,11 @@
+{
+  "id": "858b9d75-065d-491c-bb54-419ff9337515",
+  "label": "Four positive authorship evidence controls by construction",
+  "argument_id": "fb2363b2-c490-4607-8ab7-3653267e1f9b",
+  "challenge_module": "TruthCore.Results.Logic.RevelationPositive.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RevelationPositive.Solution",
+  "theorem": "TruthCore.Results.Logic.RevelationPositive.controls",
+  "comparator_config": "results/858b9d75-065d-491c-bb54-419ff9337515/comparator.json",
+  "status": "solution-present",
+  "description": "Finite ambiguity, distinctive-sign, full-discrimination and added-imitator controls separate sound positive evidence from full exact classification; no actual-world witness. Analyst formulation, attribution deferred. Target: STMT-RECOGNIZABLE-REVELATION-ANALYSIS on stage-three root route #380. Applicability and independent bridge warrant remain open; see docs/notes/revelation-positive-recognition.md."
+}

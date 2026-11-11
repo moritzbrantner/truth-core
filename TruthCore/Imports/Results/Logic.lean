@@ -72,6 +72,7 @@ public import TruthCore.Results.Logic.PerformedDenial.NoAccurateDenial.Solution
 public import TruthCore.Results.Logic.PerformedDenial.StaticControl.Solution
 public import TruthCore.Results.Logic.PluralClosureBoundary.Solution
 public import TruthCore.Results.Logic.QuantifierShiftInvalid.Solution
+public import TruthCore.Results.Logic.RecognitionTranscript.Solution
 public import TruthCore.Results.Logic.ReferenceAnchor.Solution
 public import TruthCore.Results.Logic.ReflectiveCoherence.Boundary.Solution
 public import TruthCore.Results.Logic.ReflectiveCoherence.Limits.Solution
@@ -80,6 +81,7 @@ public import TruthCore.Results.Logic.RegressSchema.Solution
 public import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution
 public import TruthCore.Results.Logic.Relativism.Models.Solution
 public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
+public import TruthCore.Results.Logic.RevelationPositive.Solution
 public import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
 public import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
 public import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution
