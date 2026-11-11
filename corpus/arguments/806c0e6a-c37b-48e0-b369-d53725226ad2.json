@@ -1,0 +1,14 @@
+{
+  "id": "806c0e6a-c37b-48e0-b369-d53725226ad2",
+  "label": "An explicit two-kind profile separates moral and epistemic adoption",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "0aa9811b-2e21-4b8d-9fc6-93d3ebb91070",
+  "inference_ids": [
+    "30825c92-0a64-469d-95dd-ec34f8c2525f"
+  ],
+  "meaning": "With one agent and two targets, the selected target holds exactly when the moral reason relation is empty, which it is. The epistemic reason relation has a reason to believe that target. The witness establishes compatibility in this stipulated profile.",
+  "definition_ids": [
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
+  ]
+}

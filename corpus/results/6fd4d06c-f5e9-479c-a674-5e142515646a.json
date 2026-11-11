@@ -1,0 +1,11 @@
+{
+  "id": "6fd4d06c-f5e9-479c-a674-5e142515646a",
+  "label": "Exact positive report-table omission controls",
+  "argument_id": "b295bcef-9b59-490f-aa6f-095bb743b77a",
+  "challenge_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Solution",
+  "theorem": "TruthCore.Results.Logic.CorrelatedTestimony1396.controls",
+  "comparator_config": "results/6fd4d06c-f5e9-479c-a674-5e142515646a/comparator.json",
+  "status": "solution-present",
+  "description": "All cells positive, same two hypotheses and balanced prior. Refutes general inferences from individual support, a single conditional inequality or unconditional independence to both-sided corroboration; conditional independence is unnecessary. Does not refute any full historical theory or warrant actual probabilities."
+}

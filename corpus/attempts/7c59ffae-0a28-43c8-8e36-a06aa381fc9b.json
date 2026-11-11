@@ -1,0 +1,20 @@
+{
+  "id": "7c59ffae-0a28-43c8-8e36-a06aa381fc9b",
+  "label": "Correlated testimony paired criterion and positive omission controls",
+  "date": "2026-11-11",
+  "statement_ids": [
+    "0bddef38-034f-58f3-9920-078fa893252c",
+    "ce658eb6-d2b7-4f0d-9cd4-49947dfb193f",
+    "bf3d242a-0c07-46ab-a25f-daf5a52847d1",
+    "c865b1d3-b409-4aca-b983-68b0b3e6ddb2"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Reused Comparison and exact updateConstraints, after context/related/dossier inventory. Proved positive-conditioning one-sided criterion, equivalent pooled conditional test, paired necessary-and-sufficient both-sided criterion, and BF chain factorization. Proved both-hypothesis conditional independence sufficient; exact positive reversal and one-sided countermodels from #1396 retained. Additional positive unconditional-independence fixture has supportive marginals but joint worsening versus both; dependent-growth fixture shows conditional independence unnecessary. Rejected count-reports, single-sided criterion, unconditional-factorization substitutes; finite enumeration is discovery only. Process-warrant accounts, strongest error/selection rival, failed formal rewrite approaches, source-attribution deferral, overall provisional judgment and reopening tests in docs/notes/correlated-testimony-1396.md. No empirical probability, factive or categorical warrant, historical religious scoring or root discharge.",
+  "evidence": [
+    "1239fd26-9a00-4f5c-9090-4b760e2db81d",
+    "08000a5e-d133-4cd7-aecf-198447a1ee3f",
+    "6fd4d06c-f5e9-479c-a674-5e142515646a"
+  ],
+  "blocker": "Proposed #934 bridge to statement 0bddef38 remains UNBUILT: no selected nonhistorical reporting process with independently established acquisition/error/selection calibration and no justified probability-policy-to-warrant inference. UNCONNECTED to root. Reopen application on discriminating process evidence; derive perturbation robustness if an application requires approximate assumptions."
+}

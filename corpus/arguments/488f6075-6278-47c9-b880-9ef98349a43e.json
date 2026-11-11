@@ -1,0 +1,27 @@
+{
+  "id": "488f6075-6278-47c9-b880-9ef98349a43e",
+  "label": "Known-prior-premise demand and well-founded priority exclude knowledge",
+  "premise_statement_ids": [
+    "b178b6e6-0115-4611-8fea-58dab5d69fed",
+    "bade02f4-b2f2-4d75-b822-564d5059b9c6"
+  ],
+  "conclusion_statement_id": "a9ce9d1d-5fdf-4794-b6a4-681bc811ac92",
+  "inference_ids": [
+    "8feb9dd0-06a9-41a3-8029-4d57c3ec6ce9"
+  ],
+  "meaning": "Fix an agent and induct over the priority relation. A knowledge case would supply an earlier known used premise, which the induction hypothesis excludes. The result establishes ignorance only under the combined requirements, and says nothing about justification of basic beliefs.",
+  "term_senses": {
+    "PRIOR_DEMONSTRATION": "7e25658f-7487-4473-b64f-7bd25513f045"
+  },
+  "definition_ids": [
+    "67a11f33-c4c5-4406-befa-2b9e66be52db",
+    "a71c4c77-3489-4720-86a5-2c4fe77ae974",
+    "dded0efa-87f2-441b-afb9-b56771b9c198"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ],
+  "strong_version_needed": {
+    "b178b6e6-0115-4611-8fea-58dab5d69fed": "The induction needs a known earlier premise; a certificate alone supplies no predecessor."
+  }
+}

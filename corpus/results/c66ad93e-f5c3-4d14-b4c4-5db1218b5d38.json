@@ -1,0 +1,11 @@
+{
+  "id": "c66ad93e-f5c3-4d14-b4c4-5db1218b5d38",
+  "label": "A reason denial rules out adopting the view for a reason of that kind",
+  "argument_id": "53412308-d12c-4942-a37d-c2cb36ffe195",
+  "challenge_module": "TruthCore.Results.Metaethics.AdoptionReasons.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.AdoptionReasons.Solution",
+  "theorem": "TruthCore.Results.Metaethics.AdoptionReasons.kindDenialLeavesAdoptionGap",
+  "comparator_config": "results/c66ad93e-f5c3-4d14-b4c4-5db1218b5d38/comparator.json",
+  "status": "solution-present",
+  "description": "A denial of all reasons of one kind applies to the selected view as a target. The reason kind and its intended attitude or action are held fixed."
+}

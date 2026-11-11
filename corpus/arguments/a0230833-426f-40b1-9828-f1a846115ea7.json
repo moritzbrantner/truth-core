@@ -1,0 +1,15 @@
+{
+  "id": "a0230833-426f-40b1-9828-f1a846115ea7",
+  "label": "Correct answers to opposite truths exclude blanket insensitivity",
+  "premise_statement_ids": [
+    "f180bd9c-9ef6-4793-aa78-4a1813ee00bd"
+  ],
+  "conclusion_statement_id": "d97a939c-2a33-45fe-b8c5-94c144103d4b",
+  "inference_ids": [
+    "0c0210f5-bdef-4a44-9151-384b7e666e28"
+  ],
+  "meaning": "Equal answers at the same two states would make their opposite correct answers equal, since this method gets both right. This excludes the specified output invariance without addressing causal dependence or ordinary warrant.",
+  "definition_ids": [
+    "87441e0b-62eb-47a5-801e-976448227f66"
+  ]
+}

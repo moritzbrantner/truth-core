@@ -1,0 +1,10 @@
+{
+  "id": "86859b81-92dc-4abf-bbac-f5ef2fd39597",
+  "label": "The view supplies no internal reason to adopt it of any represented kind",
+  "paraphrase": "For every kind in the profile, no agent has a reason of that kind to adopt the selected view in the attitude or action appropriate to that kind.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.NoInternalAdoptionReasonOfAnyKind",
+  "definition_ids": [
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e",
+    "54e94123-63cc-41a7-9179-9040458adb0c"
+  ]
+}

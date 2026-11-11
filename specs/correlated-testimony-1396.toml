@@ -1,0 +1,50 @@
+[batch]
+vocab = "TruthCore.Logic.CorrelatedTestimony1396"
+results = "TruthCore.Results.Logic.CorrelatedTestimony1396"
+definitions = ["DEF-CONTRASTIVE-WORLDVIEW-BAYES", "554c428b-2a1a-4748-ba5a-7d45c9f8729a"]
+disambiguations = ["DISAMB-CONTRASTIVE-WORLDVIEW-JUSTIFICATION"]
+
+[[statement]]
+id = "Paired positive conditional corroboration criterion"
+lean = "Criterion"
+paraphrase = "For every positive rational four-cell report table under each of two exhaustive hypotheses and non-dogmatic prior, joint posterior strictly exceeds the B posterior iff P(A|B,H)>P(A|B,notH), equivalently P(A|B,H)>P(A|B). Joint posterior strictly exceeds both marginals iff this criterion and its label-swapped counterpart both hold. The joint Bayes factor equals the B factor times the conditional A-given-B likelihood ratio. Analyst arithmetic, not calibrated witness reliability or categorical warrant; see docs/notes/correlated-testimony-1396.md."
+
+[[statement]]
+id = "Both-hypothesis conditional independence suffices for corroboration"
+lean = "IndependenceSuffices"
+paraphrase = "For every positive rational four-cell report profile with non-dogmatic prior, independence of A and B conditional on H and independently conditional on notH, plus each report individually increasing H's posterior over the prior, implies the joint posterior exceeds both individual posteriors. Independence is an explicit extra assumption, not a default process fact or necessary condition."
+
+[[statement]]
+id = "Positive correlated-report reversal and independence countermodels"
+lean = "Controls"
+paraphrase = "Four explicit strictly positive normalized rational report-table pairs: individually supportive A/B with posteriors 3/5 jointly reverse to 5/12; one-sided condition improves on B but joint 3/4 is below A's 4/5; prior-mixture unconditional independence and two supportive marginals coexist with joint worsening against both; both-hypothesis conditional dependence coexists with joint improvement against both. These finite stipulated distributions are not empirical calibration, historical scores or factive warrant."
+
+[[argument]]
+id = "Paired conditional corroboration by positive rational algebra"
+theorem = "criterion"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Paired positive conditional corroboration criterion"
+rule = "Positive denominator comparison and exact rational factorization"
+meaning = "Derives both directions under positive cells and 0<prior<1, using existing Comparison update constraints for normalizers. The swapped condition is indispensable for both-sided improvement; no real-world hypothesis probabilities or root-facing bridge supplied."
+senses = { EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH = "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_1" }
+
+[[argument]]
+id = "Conditional independence corroboration deduction"
+theorem = "independenceSuffices"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Both-hypothesis conditional independence suffices for corroboration"
+rule = "Factorization under both hypothesis-conditional independence assumptions"
+meaning = "Each conditional likelihood advantage follows from the corresponding marginal advantage under the two explicit product equations; paired criterion yields both improvements. Conditional independence is sufficient, not necessary or independently warranted."
+senses = { EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH = "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_1" }
+
+[[argument]]
+id = "Exact positive report-table omission controls"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Positive correlated-report reversal and independence countermodels"
+rule = "Exact rational evaluation of positive normalized four-cell tables"
+meaning = "All cells positive, same two hypotheses and balanced prior. Refutes general inferences from individual support, a single conditional inequality or unconditional independence to both-sided corroboration; conditional independence is unnecessary. Does not refute any full historical theory or warrant actual probabilities."
+senses = { EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH = "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_1" }

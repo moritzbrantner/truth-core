@@ -1,0 +1,11 @@
+{
+  "id": "146b502b-e5fd-40cf-8a39-9ed2d45e59bb",
+  "label": "Thin F6 is incompatible with global epistemic nihilism",
+  "argument_id": "8e216377-1bf3-4262-b3ff-ef64f0e46136",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.f6ExcludesNihilism",
+  "comparator_config": "results/146b502b-e5fd-40cf-8a39-9ed2d45e59bb/comparator.json",
+  "status": "solution-present",
+  "description": "The agent and content supplied by thin F6 contradict the universal absence of epistemic reasons for the same reason relation. This uses F6 as a premise. The canonical self-undermining theorem by itself leaves nihilism formally satisfiable."
+}

@@ -12,7 +12,9 @@ These are interpretations of the recorded fragments, not complete historical
 worldviews. An invariant natural criterion does not make every belief correct,
 and descriptive identification alone does not entail categorical reasons.
 The signatures deliberately distinguish welfare, rightness, practical goodness,
-truth, belief, and an agent's reason to act. -/
+truth, belief and an agent's instrumental reason. They do not encode categorical
+or pro-tanto normative reasons: absence of an instrumental reason cannot
+establish absence of either. -/
 
 @[expose] public section
 
@@ -28,8 +30,9 @@ structure Sig where
   SustainsMechanisms : base.Act → Prop
   /-- A judgment ascribes the relevant theory's evaluative property to an act. -/
   Ascribes : base.Sentence → base.Act → Prop
-  /-- A reason for this agent, not mere motivation or a command. -/
-  Reason : base.Agent → base.Act → Prop
+  /-- An instrumental reason relative to this agent's contingent ends. No
+  actual ends or psychological mechanism are encoded by this primitive. -/
+  InstrumentalReason : base.Agent → base.Act → Prop
 
 /-- Sincere ascriptions describe an evaluative fact; no acceptance predicate
 occurs in their truth conditions. Source readings apply this separately to
@@ -43,14 +46,14 @@ def DescriptiveTruth {Sentence Act : Type}
 def ErrorOccurs (s : Sig) : Prop :=
   SomeMoralError s.base.Accepts s.base.Moral s.base.TruthApt s.base.Holds
 
-/-- A single right act need not serve every agent's ends. This is an encoded
-possibility, not the assertion of an actual historical amoralist. -/
+/-- Legacy name: a right act for which *some* agent lacks an *instrumental*
+reason. It says nothing about that agent's pro-tanto normative reasons. -/
 def RightWithoutUniversalReasons (s : Sig) : Prop :=
-  ∃ x a, s.Right a ∧ ¬ s.Reason x a
+  ∃ x a, s.Right a ∧ ¬ s.InstrumentalReason x a
 
-/-- The analogous distinction for Boyd's positive moral goodness. -/
+/-- The analogous *instrumental* distinction for Boyd's positive goodness. -/
 def GoodWithoutUniversalReasons (s : Sig) : Prop :=
-  ∃ x a, s.base.GoodAct a ∧ ¬ s.Reason x a
+  ∃ x a, s.base.GoodAct a ∧ ¬ s.InstrumentalReason x a
 
 /-- A true moral sentence, preventing an all-false interpretation. The legacy
 name does not assert an `Ascribes` witness; see `TrueEvaluativeAscriptionOccurs`. -/

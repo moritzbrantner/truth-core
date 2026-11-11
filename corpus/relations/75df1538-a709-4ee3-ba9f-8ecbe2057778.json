@@ -1,0 +1,12 @@
+{
+  "id": "75df1538-a709-4ee3-ba9f-8ecbe2057778",
+  "label": "All-time mate stability strengthens time-local mate uniqueness",
+  "subject_kind": "statement",
+  "subject_id": "cde66fea-13d4-40e5-b849-adc7b5176d15",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "7617dddc-d2d0-4bc9-9326-db26aca81366",
+  "verification_result_id": "a8167aeb-5a3f-4880-a09f-c592d25e61fb",
+  "strictness_result_id": "23d2d521-1024-4ee3-bb04-80ace39cfd1f",
+  "note": "Sole-premise universal specialization; the changed-mate profile in the closed certificate retains UniqueAt but violates StableMate. Both use the same attachment relation parameters. Source and person applicability remain open."
+}

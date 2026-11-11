@@ -1,0 +1,19 @@
+{
+  "id": "9071c980-31f8-48ef-ba05-c19353ba494c",
+  "label": "Accepted worldview package is conditionally unwarranted",
+  "premise_statement_ids": [
+    "82be04b8-f958-4fe0-b1fa-76405a41b355",
+    "280c3b9c-fb2a-4ad2-a26b-a00a8cb373b1",
+    "23ac5f08-430b-48b1-9ea6-53fa4ba943af",
+    "ed122f4c-8a51-4310-813c-fe8db8a2f2d3",
+    "fcd6fdc2-8a5e-4c71-a105-1fff691a0e95"
+  ],
+  "conclusion_statement_id": "3db10140-06ed-43e2-8521-391acd2ec925",
+  "inference_ids": [
+    "d4d8b477-f0b4-406e-8f27-eaa71fecfa94"
+  ],
+  "meaning": "A subject who accepts the package lacks warrant for that same package if acceptance raises the stated reliability concern, the concern undercuts the basis, every available supporting basis for the package is that basis, and warrant requires some undefeated supporting basis. Acceptance and the four conditions are premises in the same profile. The reliability assessment for an evolutionary-naturalist package remains open.",
+  "definition_ids": [
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"
+  ]
+}

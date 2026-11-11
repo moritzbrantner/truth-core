@@ -1,0 +1,12 @@
+{
+  "id": "46132461-9a9b-498f-b3d9-304e2f3ac57e",
+  "label": "Cognitive meaningfulness requires empirical verifiability in scope",
+  "paraphrase": "OPEN analyst criterion, attribution deferred. Every cognitively meaningful sentence in the supplied scope is empirically verifiable according to the supplied test. No distinct analytic exception is present. Scope can be universal; neither cognitive significance nor verifiability is defined by the criterion.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.StrictVerification",
+  "definition_ids": [
+    "576cb0c5-a2e5-427a-b22b-7b20cffac0ad"
+  ],
+  "disambiguation_ids": [
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
+  ]
+}

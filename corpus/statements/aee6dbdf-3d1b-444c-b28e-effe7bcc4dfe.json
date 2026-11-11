@@ -1,0 +1,9 @@
+{
+  "id": "aee6dbdf-3d1b-444c-b28e-effe7bcc4dfe",
+  "label": "No supplied content is cognitively meaningful",
+  "paraphrase": "The supplied content domain contains no cognitively meaningful member. Extrapolation beyond the domain requires independent scope evidence.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NoMeaningfulContent",
+  "definition_ids": [
+    "883e4c19-32fe-4994-a89c-c2f9cb8f122f"
+  ]
+}

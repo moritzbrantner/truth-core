@@ -1,0 +1,9 @@
+{
+  "id": "f8ee6624-c6b7-43a2-8f2e-424e352f957e",
+  "label": "Three-quarter accuracy on a finite binary benchmark",
+  "term": "finite benchmark reliability",
+  "definition": "A method clears a supplied nonempty list when its binary answer is correct at at least three quarters of the entries, counting repetitions. The threshold is an analyst selection.",
+  "basis": "stipulative",
+  "note": "This score encodes no sampling process, admissibility of comparison states, transfer to other states, infallibility or epistemic warrant. A suitably chosen test and a basis for applying its threshold to actual reasoning remain open.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.ReliableOnBenchmark"
+}

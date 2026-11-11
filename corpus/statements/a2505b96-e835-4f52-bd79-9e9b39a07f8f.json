@@ -1,0 +1,14 @@
+{
+  "id": "a2505b96-e835-4f52-bd79-9e9b39a07f8f",
+  "label": "Certificate, premise use and accessibility controls",
+  "paraphrase": "A single-content interpretation has knowledge, the weak certificate rule and well-founded priority, but lacks the strong requirement. A natural-number interpretation has knowledge at index zero, factivity for all known contents, irreflexive and transitive priority and the strong rule, but lacks well-founded priority.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.DemonstrationControls",
+  "definition_ids": [
+    "72b2f936-34ec-4982-b120-b5c5ffd1f8b8",
+    "67a11f33-c4c5-4406-befa-2b9e66be52db",
+    "a71c4c77-3489-4720-86a5-2c4fe77ae974"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ]
+}

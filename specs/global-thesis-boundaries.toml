@@ -1,0 +1,160 @@
+[batch]
+vocab = "TruthCore.Logic.GlobalThesisBoundaries"
+results = "TruthCore.Results.Logic.GlobalThesisBoundaries"
+
+[[statement]]
+id = "Cognitive meaningfulness requires empirical verifiability in scope"
+lean = "StrictVerification"
+definitions = ["576cb0c5-a2e5-427a-b22b-7b20cffac0ad"]
+disambiguations = ["21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"]
+paraphrase = "OPEN analyst criterion, attribution deferred. Every cognitively meaningful sentence in the supplied scope is empirically verifiable according to the supplied test. No distinct analytic exception is present. Scope can be universal; neither cognitive significance nor verifiability is defined by the criterion."
+
+[[statement]]
+id = "Strict verification cannot hold and be meaningful at its in-scope unverifiable formulation"
+lean = "StrictVerificationDilemma"
+definitions = ["576cb0c5-a2e5-427a-b22b-7b20cffac0ad"]
+disambiguations = ["21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"]
+paraphrase = "If the strict empirical-only criterion holds, its specified formulation lacks cognitive significance; if the formulation has cognitive significance, the criterion fails. The two implications are about the same scope and verifiability test."
+
+[[statement]]
+id = "The strict verification formulation lies in its own scope"
+lean = "StrictFormulationInScope"
+definitions = ["576cb0c5-a2e5-427a-b22b-7b20cffac0ad"]
+paraphrase = "OPEN scope premise for the empirical-only criterion. Its supplied formulation belongs to the domain the criterion governs. This is the existing verification scope test applied to the strict formulation."
+
+[[statement]]
+id = "The strict verification formulation fails the selected empirical test"
+lean = "StrictFormulationNotVerifiable"
+definitions = ["576cb0c5-a2e5-427a-b22b-7b20cffac0ad"]
+paraphrase = "OPEN verifiability premise for the empirical-only criterion. Its supplied formulation fails the selected empirical test. This is the existing verification failure test applied to the strict formulation."
+
+[[argument]]
+id = "Self-application of strict empirical verification"
+theorem = "strictVerificationDilemma"
+premises = ["The strict verification formulation lies in its own scope", "The strict verification formulation fails the selected empirical test"]
+conclusion = "Strict verification cannot hold and be meaningful at its in-scope unverifiable formulation"
+rule = "Instantiate the existing self-application dilemma with empirical verifiability as the whole standard"
+meaning = "Conditional analyst argument. With its formulation in scope and failing the selected empirical verifiability test, the strict criterion fails if its formulation is cognitively meaningful. If the criterion holds, the formulation lacks cognitive significance. No nonanalyticity premise is needed because the strict criterion has no analytic exception. Neither the scope nor unverifiability of any actual formulation is proved."
+
+[[statement]]
+id = "Every actually true content in scope is socially constructed"
+lean = "ScopedSocialConstruction"
+definitions = ["52bf39ca-ca7e-434f-be0c-2900952839c3", "4f377045-355c-500f-b159-1f8e9e9fa863"]
+paraphrase = "OPEN analyst proposition, attribution deferred. Every content in the supplied scope that holds at the actual profile satisfies the supplied social construction classifier. The global form takes the entire content type as scope. No truth variation is assumed."
+
+[[statement]]
+id = "Socially constructed actual truths in scope can fail at a different profile"
+lean = "ConstructionVariesTruth"
+definitions = ["52bf39ca-ca7e-434f-be0c-2900952839c3", "50827057-88b1-4519-9444-3203c9902c34", "4f377045-355c-500f-b159-1f8e9e9fa863"]
+paraphrase = "OPEN analyst truth-dependence bridge, attribution deferred. For each actually true constructed content in the same scope, at least one supplied attitude profile makes that content fail to hold. The real-world adequacy of varying those profiles with content and non-attitude facts fixed remains open."
+
+[[statement]]
+id = "No content in the supplied scope is objectively true"
+lean = "NoObjectiveTruthInScope"
+definitions = ["4f377045-355c-500f-b159-1f8e9e9fa863", "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43"]
+disambiguations = ["146a73fd-5eb2-586e-982f-8ee57ea0e329"]
+paraphrase = "For each content inside the supplied scope, the supplied objective-truth classifier fails. The conclusion makes no claim about other contents or a different classifier."
+
+[[argument]]
+id = "Social construction with truth variation excludes objective truth in scope"
+theorem = "socialConstructionExcludesScopedObjectiveTruth"
+premises = ["Every actually true content in scope is socially constructed", "Socially constructed actual truths in scope can fail at a different profile", "STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION"]
+strong_version_needed = {"STMT-OBJECTIVE-TRUTH-ACTUAL-STABLE-DEFINITION" = "The registered weaker truth-component proposition supplies actual truth only. Deriving the contradiction also requires objective truth to imply stability across the supplied profiles."}
+conclusion = "No content in the supplied scope is objectively true"
+rule = "Transport actual truth through stability and contradict the variation witness"
+meaning = "With the actual-stable calibration, an objectively true content is actually true and holds at every supplied profile. The scoped construction thesis classifies it as constructed and the bridge supplies a profile where it fails. Universal scope gives the global consequence. The argument establishes neither the global thesis nor its defeat and does not identify objective with unindexed truth."
+
+[[statement]]
+id = "Finite controls for social construction, objective truth and local scope"
+lean = "SocialConstructionControls"
+definitions = ["52bf39ca-ca7e-434f-be0c-2900952839c3", "50827057-88b1-4519-9444-3203c9902c34", "4f377045-355c-500f-b159-1f8e9e9fa863", "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43"]
+disambiguations = ["146a73fd-5eb2-586e-982f-8ee57ea0e329"]
+paraphrase = "In the existing actual-stable frame, the local scope includes an actually true content whose truth varies, all local actual truths are constructed and satisfy the variation bridge, and a distinct stable true content is objective outside the scope. Under a global scope and construction classifier, objective truth persists while the variation bridge fails."
+
+[[argument]]
+id = "Social construction and local scope finite controls"
+theorem = "socialConstructionControls"
+premises = []
+conclusion = "Finite controls for social construction, objective truth and local scope"
+rule = "Reuse the actual-stable frame with two explicit scope and construction predicates"
+meaning = "A local nonvacuity witness and a global omission control on the same truth frame. Social construction by itself is compatible with objective truth, and a local truth-dependence thesis with a genuinely variable member leaves room for objective truth outside its scope. These are formal interpretations."
+
+[[statement]]
+id = "The subject accepts the specified worldview package"
+lean = "AcceptedPackage"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst premise. The specified subject accepts the supplied worldview content, for example a conjunction of evolutionary and naturalist commitments. Truth and warrant are separate."
+
+[[statement]]
+id = "Accepting the worldview package raises a reliability concern about the basis"
+lean = "PackageRaisesReliabilityConcern"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst bridge. If the specified subject accepts the package, the subject assesses the specified basis's reliability as low or cannot assess its reliability. Neither a numerical reliability judgment nor a derivation of either disjunct is supplied."
+
+[[statement]]
+id = "The reliability concern undercuts the evidential basis"
+lean = "ReliabilityConcernUndercuts"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst policy. If the specified subject assesses the basis's reliability as low or cannot assess it, that basis is undercut for the subject. The two possible assessments have one consequence only under this bridge."
+
+[[statement]]
+id = "The specified basis is undercut for the subject"
+lean = "BasisUndercut"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "The specified basis is undercut as a source of evidential support for the specified subject. No other basis or actual truth is classified."
+
+[[statement]]
+id = "Every supporting basis for the target is the specified basis"
+lean = "SoleSupportingBasis"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst scope and dependence premise. Every basis in the supplied roster that supports the subject's specified target content is identical to the specified basis. This universal condition need not assert that the basis actually supports the content."
+
+[[statement]]
+id = "Warrant for the target requires some undefeated supporting basis"
+lean = "WarrantNeedsUndefeatedSupport"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "OPEN analyst warrant condition. If the subject has warrant for the specified content then at least one basis in the supplied roster supports that content for the subject and is not undercut. Undefeated support is not asserted to be sufficient for warrant."
+
+[[statement]]
+id = "The subject lacks warrant for the specified target"
+lean = "LacksTargetWarrant"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "The specified subject is not warranted in accepting the specified target content. Truth of the target and warrant for other contents remain separate."
+
+[[argument]]
+id = "Accepted worldview package undercuts a specified evidential basis conditionally"
+theorem = "acceptedPackageUndercutsBasis"
+premises = ["The subject accepts the specified worldview package", "Accepting the worldview package raises a reliability concern about the basis", "The reliability concern undercuts the evidential basis"]
+conclusion = "The specified basis is undercut for the subject"
+rule = "Apply the concern and defeater bridges to the same subject and basis"
+meaning = "The accepted package undercuts one basis if accepting it leads to a low or unassessable reliability assessment and that assessment defeats the basis. The result supplies neither bridge from evolutionary naturalism itself."
+
+[[argument]]
+id = "Undercutting all available supporting bases precludes target warrant"
+theorem = "undercutSoleBasisPrecludesWarrant"
+premises = ["The specified basis is undercut for the subject", "Every supporting basis for the target is the specified basis", "Warrant for the target requires some undefeated supporting basis"]
+conclusion = "The subject lacks warrant for the specified target"
+rule = "Eliminate the undefeated-basis witness by identifying it with the undercut basis"
+meaning = "If the subject had warrant for the target, the warrant condition supplies an undefeated supporting basis. Sole-basis dependence identifies it with the undercut basis, contradiction. Take the target to be the accepted package for conditional self-undermining; no truth or general epistemic nihilism conclusion follows."
+
+[[argument]]
+id = "Accepted worldview package is conditionally unwarranted"
+theorem = "acceptedPackageLacksOwnWarrant"
+premises = ["The subject accepts the specified worldview package", "Accepting the worldview package raises a reliability concern about the basis", "The reliability concern undercuts the evidential basis", "Every supporting basis for the target is the specified basis", "Warrant for the target requires some undefeated supporting basis"]
+conclusion = "The subject lacks warrant for the specified target"
+rule = "Compose basis undercutting with loss of warrant using the accepted package itself as the target"
+meaning = "A subject who accepts the package lacks warrant for that same package if acceptance raises the stated reliability concern, the concern undercuts the basis, every available supporting basis for the package is that basis, and warrant requires some undefeated supporting basis. Acceptance and the four conditions are premises in the same profile. The reliability assessment for an evolutionary-naturalist package remains open."
+
+[[statement]]
+id = "Finite controls for targeted reliability undercutting and surviving warrant"
+lean = "ReliabilityControls"
+definitions = ["26cbf25d-f3d5-46ea-91e8-e2140a57b04d"]
+paraphrase = "Four controls in a single-subject, two-content, two-basis profile family. The accepted package is true and lacks warrant in the targeted case, yet thin F6 holds when interpreted by undefeated support for other content. Warrant for the accepted package remains in each of three other cases: an undefeated independent basis, no reliability concern or no defeat policy. The models use the low-assessment branch whenever a concern holds."
+
+[[argument]]
+id = "Targeted reliability undercutter finite controls"
+theorem = "reliabilityControls"
+premises = []
+conclusion = "Finite controls for targeted reliability undercutting and surviving warrant"
+rule = "Evaluate four explicit basis and warrant interpretations"
+meaning = "The targeted case witnesses an unwarranted but true package alongside thin F6. The other cases exhibit three distinct preserved-warrant responses: independent support for the package, no reliability concern from accepting the package, and rejection of the tested defeater policy. These Boolean controls neither estimate reliability nor attribute an account to any naturalist."

@@ -1,0 +1,17 @@
+{
+  "id": "8cb04e80-7601-4636-877c-10133ac5f9fa",
+  "label": "Belief from a sincere assertion of the universal denial of belief",
+  "premise_statement_ids": [
+    "6c7bb80d-3f64-46ac-8ea9-144a45f6a59e",
+    "fdd06612-3e84-4711-8a14-afe458507066"
+  ],
+  "conclusion_statement_id": "98f4c491-23f1-410d-b8b4-2e8c12b4e9c6",
+  "inference_ids": [
+    "6c0c9741-85ea-4972-b938-aa91fd9a0ccb"
+  ],
+  "meaning": "The very proposition that nobody believes anything is the content believed by an agent sincerely asserting it. This makes that denial false in the selected belief interpretation. Sincerity is local and open, and F6 by itself does not supply an actual belief.",
+  "definition_ids": [
+    "72d257cd-1203-4b32-bd70-bddefccfd63e",
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "883e4c19-32fe-4994-a89c-c2f9cb8f122f",
+  "label": "Cognitive meaning of supplied contents",
+  "term": "cognitive meaning of supplied contents",
+  "definition": "The primitive Meaningful predicate marks contents with cognitive significance. SomeMeaningfulContent says that its extension is inhabited. AssertedContentIsMeaningful is an explicit assertion-to-meaning bridge on the selected content only.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.SomeMeaningfulContent",
+  "note": "Analyst formulation, attribution deferred. Cognitive significance concerns a statement's capacity to say how things are. It is distinct from truth, syntax, verification status and noncognitive expressiveness. The formal predicate leaves criteria of cognitive significance open."
+}

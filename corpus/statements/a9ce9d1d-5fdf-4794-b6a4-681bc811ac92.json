@@ -1,0 +1,9 @@
+{
+  "id": "a9ce9d1d-5fdf-4794-b6a4-681bc811ac92",
+  "label": "No agent knows any content in the supplied domain",
+  "paraphrase": "No agent knows any member of the supplied content domain. The encoding makes no claim that the denial itself is in that domain.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.NoKnownContent",
+  "definition_ids": [
+    "dded0efa-87f2-441b-afb9-b56771b9c198"
+  ]
+}

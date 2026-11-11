@@ -1,0 +1,9 @@
+{
+  "id": "2fcbd634-d444-4ec2-a9d0-5b86e66afa63",
+  "label": "Global normative reason nihilism",
+  "paraphrase": "No agent has any normative reason of any represented kind for any represented target.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.GlobalNormativeNihilism",
+  "definition_ids": [
+    "54e94123-63cc-41a7-9179-9040458adb0c"
+  ]
+}

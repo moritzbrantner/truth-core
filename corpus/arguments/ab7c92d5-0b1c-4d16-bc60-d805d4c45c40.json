@@ -1,0 +1,15 @@
+{
+  "id": "ab7c92d5-0b1c-4d16-bc60-d805d4c45c40",
+  "label": "Time-local form mate exclusivity does not ensure all-time stability",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "58c9e700-7856-44d6-8658-3149eeaaa2ab",
+  "inference_ids": [
+    "7ab81904-e4f7-46c3-b854-5933392b4f44"
+  ],
+  "meaning": "Construct same-form-token restored and changed-mate profiles with occupied endpoints and an attachment-free gap. Verify local exclusivity for both and all-time mate stability only for restored. Token availability does not mean substantial esse; no personal identity or full-source countermodel claim follows.",
+  "definition_ids": [
+    "04a2f2fc-a7c3-4743-883b-48ffe47c357e",
+    "97f18a93-e03f-40ee-86c3-364e7629efd0",
+    "f90c4e6e-38c8-4991-8b6a-1238ca40d0c6"
+  ]
+}

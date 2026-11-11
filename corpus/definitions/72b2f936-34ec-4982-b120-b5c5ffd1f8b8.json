@@ -1,0 +1,9 @@
+{
+  "id": "72b2f936-34ec-4982-b120-b5c5ffd1f8b8",
+  "label": "PRIOR_DEMONSTRATION_1 requires a certificate for known content",
+  "term": "prior demonstration",
+  "definition": "For every agent and content, knowledge implies the agent has a demonstration certificate for that content. The supplied certificate relation interprets timing and correctness and permits certificates with no already known premise.",
+  "basis": "stipulative",
+  "note": "Analyst reading. A zero-premise certificate or independently certified starting point can meet it. Whether a supplied certificate is genuine remains open.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.WeakPriorDemonstration"
+}

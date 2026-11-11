@@ -1,0 +1,10 @@
+{
+  "id": "0aa9811b-2e21-4b8d-9fc6-93d3ebb91070",
+  "label": "A moral reason denial can coexist with epistemic reason to adopt the view",
+  "paraphrase": "In a two-kind profile with an agent and two targets, the selected view expresses a true denial of all moral reasons. There is no moral reason to adopt that view, and the agent has an epistemic reason to believe it.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.MoralDenialEpistemicAdoptionControl",
+  "definition_ids": [
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
+  ]
+}

@@ -117,23 +117,29 @@ prove philosophically significant openness; coextension does not by itself
 establish property identity. Moore's full objection and the proposals' semantic
 adequacy remain open attacks (`STMT-NATURALIST-IDENTITY-ADEQUACY-OPEN`).
 
-**Normativity.** If all moral obligations must give every relevant rational
-agent a reason independently of contingent ends, the two externalist accounts
-owe a defense of their rejection of that requirement. Railton separates moral
+**Normativity.** The claim that every moral obligation supplies a normative
+reason independently of contingent ends needs a separate argument. Railton's
+denial of universal *instrumental* reasons is not by itself a denial of all
+such normative reasons, much less of moral obligation. Railton separates moral
 obligation from individual instrumental advantage and appeals to impartial
 justification and improved social arrangements (pp.201–204). Boyd appeals to
 sympathy's joint cognitive and motivational function in normal humans while
 allowing informed but indifferent agents (§4.7). Neither confuses moral
-cognition with actual desire. This is an answered but contested question, not a
-contradiction inferred from naturalism. The stronger bridge is recorded as an
-open attack, never smuggled into either bundle or into “objective morality.”
+cognition with actual desire. Indifference does not logically establish an
+absence of normative reasons. The stronger obligation-to-reason bridge is an
+open contested claim, not part of the naturalist bundles or a condition silently
+built into “objective morality.”
 
 The two strengthened ascription-consistency theorems construct a shared, nonconstant finite
 interpretation satisfying each **distinct** bundle, with explicit `Ascribes` witnesses
-for a true sentence and a false sentence accepted in cognitive error, and a positive evaluative act without a reason for
+for a true sentence and a false sentence accepted in cognitive error, and a positive evaluative act without an *instrumental* reason for
 an agent. Their frozen Challenges bind the exact types. This establishes
 non-entailment of a universal instrumental-reason link **in the encoded
-fragments**: the reason predicate is separate and lacks that bridge. It does not
+fragments**: `InstrumentalReason` is separate and lacks that bridge. The revised
+finite model contains both an agent with and an agent without an instrumental
+reason for the positive act. It does not encode pro-tanto or categorical
+normative reasons, so neither theorem concludes their existence or absence.
+This does not
 prove a real informed amoralist exists or that every commitment of either
 historical system is consistent. The finite welfare and homeostasis predicates
 are stipulated witnesses; no biological or social claim follows from them.

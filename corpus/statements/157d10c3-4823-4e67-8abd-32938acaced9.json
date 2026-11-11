@@ -1,0 +1,10 @@
+{
+  "id": "157d10c3-4823-4e67-8abd-32938acaced9",
+  "label": "Benchmark accuracy and opposite-truth responsiveness separate",
+  "paraphrase": "On the four-entry benchmark true, true, true, false, the sole constant-true method meets three-quarter accuracy, answers falsely at false and is insensitive across opposite truths. In the second profile, the sole opposite-answer method fails accuracy and violates insensitivity.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.AccuracyResponsivenessControls",
+  "definition_ids": [
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e",
+    "87441e0b-62eb-47a5-801e-976448227f66"
+  ]
+}

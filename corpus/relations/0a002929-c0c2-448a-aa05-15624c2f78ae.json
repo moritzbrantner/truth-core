@@ -1,0 +1,10 @@
+{
+  "id": "0a002929-c0c2-448a-aa05-15624c2f78ae",
+  "label": "Opposite correct answers refute blanket output invariance",
+  "subject_kind": "argument",
+  "subject_id": "a0230833-426f-40b1-9828-f1a846115ea7",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "034cb5d4-4e52-4c61-8b7b-708436f3a670",
+  "note": "The paired outputs vary in the same supplied method class and state profile used by the denial."
+}
