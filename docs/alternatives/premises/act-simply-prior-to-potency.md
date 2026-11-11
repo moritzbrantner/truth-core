@@ -23,8 +23,10 @@ interfaces to a dormant capacity; it is not another proof of the conditional
 or an existence claim. This assessment leaves upstream existence, relation
 adequacy and all philosophical premise establishment open. Independent semantic
 challenge accepted the complete draft at `1ddf79280f3a56b72ed9fb2adeb52c90a415be44`
-with these qualifications; the scope clarifications below await the same
-reviewer’s targeted check before publication.
+with these qualifications. The same reviewer accepted the scope clarifications
+at `df4ffb048991da834acec69e5b50cf67bde88c2c` in targeted pass 1 with no new
+findings. These reviews assess the stated reasoning and limits; they establish
+no philosophical premise and do not replace final CI.
 
 ### Exact connection and existing proof boundary
 
