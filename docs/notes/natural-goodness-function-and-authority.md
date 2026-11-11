@@ -1114,3 +1114,180 @@ verdict model would not add warrant. This correction changes the formal
 predicate boundary and removes an overstatement in the OPEN categorical-reason
 statement, without changing its unsettled status, the existing result
 conclusions or any root-premise obligation.
+
+## Directed second-personal authority: Darwall primary investigation (#1433/#699, 2026-11-11)
+
+### Read witness and exact question
+
+Read Stephen Darwall, [*Authority and Second-Personal Reasons for Acting*,
+pp. 1–16](https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/ltw_darwall.pdf),
+all argument pages, including the author's footnotes 3–26. `DARWALL-AUTHORITY-
+SECOND-PERSONAL` is pinned in `corpus/passages/darwall-authority-second-personal.json`
+(PDF SHA-256 `1f6bc934e73913db6631894ff96a4bcfd89be16105471965f1f8c67204afced1`).
+Source claims in `corpus/claims/darwall-*.json` record Darwall's philosophical
+assertions, **not their independently established truth**. No source-claim or
+definition by itself establishes a normative premise.
+
+The prior argument for **affected standing** ([section above](#local-interest-to-reason-bridge-699-2026-11-11))
+argues that the victim's objective interest should matter in the offender's
+deliberation. Darwall raises a different, potentially stronger question:
+**who is entitled to address a demand to this offender, and why is the
+offender accountable for compliance?** Acknowledging a better state of affairs
+or even a decisive reason does not yet answer who can rightly complain.
+
+### The reconstructed substantive proposition graph
+
+1. **C1, conceptual obligation/accountability** (Darwall pp. 7–8;
+   `f6c46c02-bc4a-520f-add3-9f2a1bfdb259`): on his proposed understanding,
+   all-things-considered moral obligation involves answerability to some
+   legitimate moral demander, subject to excuse. It is not the claim that
+   the victim necessarily holds that authority individually; Darwall's p. 8
+   fn. 16 explicitly distinguishes a theistic moral-liability account.
+2. **C2, positive equal standing** (p. 8;
+   `53e9f8bf-fa17-5c99-ac00-a0b9288ecf83`): a person capable of
+   recognizing second-personal demands and holding themselves responsible
+   thereby qualifies as an equal member of a mutually accountable community.
+   Darwall **asserts sufficiency** of that competence for authority. The crucial
+   competence-to-right inference is substantive, not definitional; the question
+   why this status is normatively authoritative is left open.
+3. **C3, expert counterpressure** (pp. 10–15;
+   `f1ae59d2-cf3c-50f2-82f8-f4bb61a610e7`): an exceptionally reliable
+   adviser can help agents satisfy their pre-existing reasons, even if those
+   directives are treated as pre-emptive, without acquiring a *claim-right*
+   to obedience. Darwall separates (I) reason to defer, (II) directives
+   furnishing pre-emptive reasons, and (III) the adviser having practical
+   authority (pp. 12–13). The concrete expert-cook example pressures III,
+   not the existence of reasons or Raz's more modest claim about a *normal*
+   route. No arbitrariness flag or fabricated worldview is needed.
+4. **C4, non-reductive explanatory constraint** (pp. 9, 14–15;
+   `9f70ee37-c412-5e8a-b43b-1604c86791ad`): greater welfare or compliance
+   alone does not establish a directed moral demand. Darwall's conceptual
+   irreducibility thesis remains contestable even if this distinction is apt.
+5. **C5, actual instance guard** (p. 15;
+   `875d169d-0ccd-59e5-af65-4d66e349ca14`): Darwall explicitly concedes
+   that interdefining authority, valid demands, accountability and the
+   corresponding reasons does **not** entail any are actually instantiated.
+   Two-way arrows among these notions are not independent corroboration.
+6. **OPEN, load-bearing actual applications**: the weaker statement
+   `ecdbbaba-0902-58ca-a1eb-1e1e3ca25d55` asks whether *some* entitled
+   claimant—victim, authorized representative, community or other authority—
+   may demand abstention. The distinct stronger statement
+   `681f5b58-90e7-5379-bc29-8ca3b2d9feab` asks whether a competent
+   *victim personally* holds that right. Augment the existing
+   `HardCaseTyped.HardCases` facts to test either claim *against a deliberately
+   imposed gratuitous injury*.
+   `HardCases` currently records a deliberate killing of an innocent,
+   nonthreatening person by an indifferent, benefiting, unpunished offender,
+   but **does not** include nonconsent for `.killing .kill`, offender or
+   claimant accountability competence, gratuitousness, absence of justifying
+   rescue, or a feasible `.killing .abstain`. Those are separate OPEN premises,
+   not facts silently imported from the finite control. We further need a
+   justified standing principle, authority vested in this claimant or
+   community, and legitimate content for demanding refraining from **this**
+   act (or stopping a genuinely ongoing injury).
+   A legitimate reason against this act follows conditionally
+   on a valid second-personal demand *under Darwall's theory*, but decisive
+   priority and an all-things-considered prohibition require further work.
+
+The scoped inference is:
+
+```text
+offender accountability competence [OPEN actual application]
+    + {victim competence [OPEN] + competence→equal-standing [C2; OPEN]
+       OR independent representative/community/God authority [OPEN alternative]}
+    → candidate standing of some claimant [conditional]
+    [victim's own standing follows only from the first branch, if warranted]
+    + nonconsensual, gratuitous, unjustified injury + feasible abstention
+      [OPEN augmentations to HardCases killing facts]
+    + legitimate content of this claimant/community's demand [OPEN]
+    → valid demand addressable to this offender [OPEN actual application]
+    + accountability/second-personal-reason account [C1; disputed]
+    → second-personal pro-tanto reason against this injury [conditional]
+    + application irrespective of this offender's ends [OPEN warrant/scope]
+    + priority/exception principles [OPEN]
+    → an all-things-considered prohibition [not established]
+```
+
+Do not infer the next line from the previous one when the displayed additional
+commitment is missing. The actual root path from #563's first practical
+precept and moral realism also lacks these bridges; **root-premise delta none**.
+
+### What the primary argument improves, and what survives against it
+
+The example of a reliable cook is stronger than earlier arbitrary same-facts
+reason-field omissions: it gives an independent explanation of expert deference
+while withholding interpersonal command authority. It supports the distinction
+between *epistemic/prudential reason* and *being owed obedience*, not the
+stronger thesis that non-second-personal facts can never ground valid demands.
+Darwall's own p. 15 concession correctly blocks trying to extract moral realism
+from interdefinability.
+
+Darwall's closer **victim-specific case** (pp. 1–2) contrasts a sympathetic
+appeal to the badness of standing on another person's foot with the injured
+person's authority-claim that the offender remove it. He suggests that even
+preventing *two other comparable instances of pain* by continuing to cause
+this one would not make the particular **claim-based** reason recommend
+continuing the injury. That is a substantive nonaggregation intuition:
+identity of the harming actor and directed claim can matter where simple
+outcome comparison would not. It supplies an intelligible positive
+motivation for agent-relative moral constraints, **not** proof that this
+injured person possesses the claimed authority, nor a decisive verdict for
+every rescue/triage case. Acknowledging that concern leaves actual standing
+and valid content as the proposed next questions.
+
+**Raz's service conception**, read in its strongest local form, can say that
+legitimate authoritative coordination advances antecedent reasons, while
+accepting that expertise does not always confer a personal right to command.
+Darwall himself (pp. 10–11) grants important distinctions within Raz's theory.
+The expert case challenges an unqualified *sufficiency* move; it is not a
+refutation of all service accounts, nor a reading of Raz from a primary Raz
+witness. A further source read and argument would be needed to attribute the
+stronger rival precisely to Raz.
+
+**Railton's naturalist moral realism** already distinguishes moral obligation
+from a universally present *instrumental* reason (pp. 201–204, especially
+p. 203 fn. 41, existing pinned claim). Railton can affirm objective moral
+wrongness even when an agent's ends supply no incentive to comply. Darwall's
+account asks in addition whether that objective wrongness creates a directed
+claim-right. This is a distinct explanatory question, not an exposure of a
+contradiction in Railton. **Aquinas's practical first precept** can ground
+good in reason and proper human ends, but still needs a justification for the
+authority and this act's concrete content; the correct first-precept source
+and the priority of innocent life cannot be collapsed into the authority
+definition. **A goal-indexed rival** accepts the victim's loss and the offender's
+understanding, yet locates practical authority only in valid commitments,
+institutional roles or adopted projects. It can recognize a victim's
+request, protest and legitimate social sanctions without accepting that every
+indifferent offender has an end-independent reason merely because a claimant
+asserts a demand. Its positive explanatory principle is the limits of the
+chooser's reasons, not an arbitrary contrary verdict.
+
+**Important scope stress test:** Darwall's C2 specifically concerns persons
+with accountability competence. This alone supplies no rights for infants,
+non-competent humans or animals. The case for a competent wrongdoer's
+directed reason not to harm a non-competent victim must add a claim-holder/
+representation, patienthood or moral-community standing principle. Broad
+claims about every innocent victim would otherwise outrun C2. Likewise,
+consent, emergency rescue, foreseen side effects and competition among
+obligations must be assessed before asserting an exceptionless prohibition.
+This is a new substantive dependency, not an excuse to withhold ordinary
+wrongdoing judgments as if all options were equally plausible.
+
+**Overall provisional judgment (2026-11-11; main `b9ed018a` + these claims):**
+Darwall's distinction between independent reasons and an owed, accountable
+claim is well supported as a useful conceptual contrast by the expert case,
+the accountability practices he analyzes and the source's own scope caution.
+His stronger sufficiency claim C2 and the validity of the hard-case victim's
+particular demand remain underdetermined: the paper *proposes* C2, but the
+needed independent warrant and scope for non-competent patients have not
+been established here. The positive affected-standing case in #699 and
+the second-personal case share a normative standing assumption and must
+**not** count as independent convergent support merely because they use
+different language. The goal-indexed, service-authority, naturalist and
+natural-law alternatives remain open on their stated premises. This changes
+the precision of the available argument, not the computed moral or Catholic
+root status. Reopen if a defense of personhood/standing accepted by the
+goal-indexed rival is found, if a real counterexample to C2 is established,
+or if a full primary Raz/Scanlon argument supplies a new noncircular basis
+for directed claims. Independent final semantic challenge is still required
+before treating this provisional synthesis as reviewed support.
