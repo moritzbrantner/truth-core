@@ -234,3 +234,201 @@ sense identity, God binding, Challenge, argument, or result changed. No premise
 is retained or removed by a new argument because there is no new argument;
 this is a persisted unsuccessful bridge investigation, not conditional proof
 progress or root closure.
+
+## Old issue #355: source argument, surviving rival and acceptance (2026-11-11)
+
+This is a warrant investigation and reuse finding at baseline
+`e02bd650c2f31160dd1f965b439b1c185cdb421c`, not another reception framework.
+The full pinned `AQUINAS-ST-I-Q14-A1` article was selected, materialized and
+read again, including its objections and replies. The witness revision, blob
+and article locator are those recorded above. The internal locators below
+refer to the *respondeo*'s successive arguments and replies, not invented
+numbered paragraphs. No new source claim or historical attribution is added.
+
+### The strongest source argument and its exact outstanding inference
+
+The full argument is stronger than the two deliberately narrow #430 readings:
+
+1. At I q.14 a.1 co., the opening contrast describes non-knowers as having only
+   their own form, whereas a knower is fitted to have another's form. Its
+   explanatory object is the presence of the known in the knower, not merely
+   a receiver being physically affected or carrying a record of a source.
+2. In the next comparison, a non-knowing nature is confined; a knowing nature
+   has greater reach. The appeal to the soul being in a way all things supplies
+   the positive explanatory proposal: knowing extends the subject beyond its
+   own natural form without turning it into each thing known.
+3. The material-contraction step attributes contraction of form to matter and
+   recalls the approach of more immaterial forms to a kind of infinity. The
+   source infers that immateriality explains cognition and its degree. It does
+   not stop at the negative claim that matter sometimes impedes knowing.
+4. The examples then distinguish plants, sensory reception without matter and
+   intellect's further separation. The application to God uses the summit of
+   immateriality to infer the summit of cognition. Neither unrestricted sensory
+   capacity nor an arbitrary state transition supplies this grade argument.
+5. Replies 1–3 require removal of creaturely imperfection: divine knowledge is
+   substance and pure act, simple and united, without the created universal/
+   particular or habitual/potential mode. This is evidence against interpreting
+   the divine conclusion as passive, temporally triggered form acquisition.
+
+The strongest charitable reconstruction therefore treats immateriality as a
+positive ground of intentional reach, rather than a mere absence of obstruction.
+That makes the argument more substantial, but leaves a specific warrant burden:
+why is confinement to one's own natural form **exhaustively explained by the
+relevant material restriction**, so that removing it supplies aptitude to have
+another's form cognitively? Saying that matter restricts form establishes a
+source of restriction; the sufficient-condition reading additionally needs to
+exclude immaterial natures whose positive powers are confined in another way.
+This is a challenge to that reconstruction's warrant, not an accusation that
+Aquinas argued by the elementary invalid inference from absence of an obstacle.
+His text explicitly asserts the positive explanatory connection at issue.
+
+Two readings of the full contrast expose the burden rather than eliminate it.
+If “having another's form” already means cognitive presence, the contrast can
+help explain *what* cognition involves, but applying it to an immaterial bearer
+still needs positive intentional aptitude. If it instead means any aptitude to
+instantiate a form originating elsewhere, the present `ForeignForm`/
+`CanHaveForm` API can express it, but its cognitive adequacy needs a separate
+bridge. Merely adding the reverse implication to `CognitiveAptitudeReading`
+would choose a sufficiency assumption, not independently defend it. These are
+conditional audits of an existing term, not newly certified senses or a claimed
+exhaustive interpretation fork.
+
+The same issue affects intellectual grade. The source distinguishes the sensory
+mode from the further separation of intellect; it does not identify every
+without-matter recipient with intellect. Its divine application needs both a
+meaningful grade of separation and the claim that sufficient separation preserves
+or supplies the intellectual power. A name for the top grade cannot do this.
+
+### Reuse: the conditional grade argument already exists
+
+`IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES`, argument
+`2754fc54-f185-5819-b775-08f1774492cf`, result
+`5ae23956-9656-513d-81e4-905140890427`, already gives the relevant non-transcription
+conditional consequence. Its exact theorem is
+`TruthCore.Results.Causality.Round4Revisited.immaterialIntellectualFromGrades`.
+It takes the **same** `HasIntellect`, matter/form and component predicates as
+`ImmaterialIsIntellectualReading`. Its jointly required OPEN inputs are:
+
+| Existing input | Exact work it does; remaining warrant |
+| --- | --- |
+| `0bdb0436-34ad-5409-9bdf-20cd4bcc4fb8` | `∀ x y, HasIntellect y → AtLeastAsImmaterial x y → HasIntellect x`. This is the transfer of the intellectual power across a grade comparison, not an order axiom or a reception definition. The source supports the proposal; independent applicability to every pair is not established. |
+| `5854ef2b-41dd-5617-99d2-f53a850c35fd` | `∃ y, HasIntellect y`. An intellectual exemplar prevents a vacuous upward-closure principle from manufacturing a first intellectual being. Ordinary human intellectual activity is a candidate warrant, but this record remains open; assigning the primitive predicate is not a recognition argument. |
+| `44000fce-47be-5597-b176-61e2f270199c` | Every receiver satisfying the old two negative structural conditions is at least as immaterial as every being. This binds structural freedom to the proposed grade. The absence of concreteness/life conditions in the target remains relevant. |
+
+The proof chooses an intellectual exemplar, compares the *particular target
+bearer* with it, and applies upward closure to that bearer. It asserts neither
+that they are identical nor that the exemplar is itself altogether immaterial.
+No order laws are needed; the grade relation is a supplied primitive, not a
+completed explanation of material independence. Defining it in terms of
+`HasIntellect` would make its intended explanatory independence circular.
+This existing route is a genuine conditional connection to the old target;
+it is not a new result of this investigation and does not establish its inputs.
+
+`Round4Revisited.Control.omitFollows`, `omitSomeIntellect` and `omitMaximal`
+are included in the existing `ROUND4-REVISITED-CONTROLS` result. They isolate the
+three missing premises separately. In particular, `omitFollows` keeps an
+intellectual exemplar and the top structural grade for the nonintellectual
+bearer. It tests transfer, not absence of all intellect. These are finite
+signature interpretations, not metaphysical possibilities or positive causal
+accounts. No duplicate controls are introduced here.
+
+### Positive rival and the strongest reply
+
+A serious surviving analyst rival is a **concrete, active, subsistent immaterial
+nature with determinate noncognitive causal powers**. Its effects follow its own
+nature; it does not take forms as objects understood. Its positive replacement
+account grounds activity in intrinsic dispositions or a governing causal law,
+rather than intentional possession. It can grant that intellectual beings exist
+and that material organs restrict certain capacities, while denying that removal
+of material restriction supplies intentionality. Thus it is not the empty
+recipient and need not be an abstract object, an idle capacity or a sensory soul
+that remains a component of an animal. A non-temporal version can posit
+concurrent dependence of effects, so a demand for divine passivity cannot dismiss
+it. This is a research hypothesis, not an assertion that such a being exists,
+satisfies all classical attributes, or has a certified joint metaphysical model.
+
+Its price is definite: it rejects universal transfer of intellect by immaterial
+grade, and must explain why immaterial operation remains confined to its own
+causal powers. On the intrinsic-disposition version that confinement is a fact
+about its positive nature, rather than a result of material contraction. This
+challenges the proposed exhaustive explanation, without denying every Thomistic
+claim about matter. No accepted floor item or contradiction in the rival's own
+commitments has been identified here; unfamiliarity is not a refutation.
+
+The strongest reply is that a pure form's determinate nature need not restrict
+its **intentional** reach: finite immaterial intellects can be determinate while
+knowing other natures. The rival cannot infer incapacity to know merely from
+being a definite nature. That reply blocks such an inference, but it does not
+yet show that every causally active pure form has positive intentional aptitude.
+The rival likewise cannot infer noncognition merely from lawlike effects: a
+knowing cause could have the same effects. The dispute concerns what the bearer
+can take as an object, not whether its outputs obey equations. Formal finitude
+and intentional confinement must therefore be distinguished on both sides.
+
+Nor is an accurate sensor a decisive replacement account. The existing #1380
+form-selection controls give positive capacity and accurate contextual selection
+without the primitive intellect predicate, but explicitly remain structural
+surrogates. If the source's foreign-form possession is cognitive presence,
+that sensor has not been shown to instantiate it. If the weak API alone is
+intended, the controls already expose its insufficient semantics. Restoring the
+full intended cognition condition would remove the claimed counterexample by
+assumption; it would leave the immaterial-to-positive-aptitude step to defend.
+The rival above instead contests that step before claiming any cognitive
+foreign-form possession. It has not been encoded by relabeling the sensor.
+
+### Provisional judgment, acceptance and next discriminating test
+
+Proposed assessment, subject to independent semantic challenge: the full article
+supports the *interpretation* of a positive, graded explanation more strongly
+than an obstacle-removal paraphrase. It supplies textual support, not independent
+warrant for the exhaustive explanation or grade transfer. The existing grade
+proof shows exactly how that transfer would suffice. At present the evidence
+reviewed here does not discriminate between positive intentional reach grounded
+in immateriality and the proposed noncognitive intrinsic-disposition rival.
+It consequently supports retaining the conditional argument while withholding
+establishment of the universal immaterial-to-intellect premise. The reception,
+grade and root compositions share the disputed aptitude/grade application;
+they are not independent corroborating sources for it.
+
+This judgment would strengthen with an independently defended reason that an
+active immaterial nature cannot be intentionally confined, together with an
+adequate intellectual-grade account. It would weaken if such confinement were
+shown compatible with the relevant accepted metaphysical premises, rather than
+merely assigned in a signature. Conversely, showing that the rival's powers
+require material or constituent restriction would challenge this rival, but
+would not by itself exhaust every alternative. No such result is claimed here.
+
+The old acceptance inventory is now:
+
+- **Delivered previously:** selected q.14 source reading, typed aptitude modes
+  and omission controls (#430); the conditional grade derivation with its three
+  open inputs; the q.19 form/inclination derivation (#1189) with three open
+  form-actuality/inclination/recognition inputs; same-bearer stage-two/root
+  consumers. These deliveries should not be reimplemented.
+- **Delivered by this assessment:** the missing reconciliation and the full
+  contraction/proportionality warrant challenge, with the positive rival, its
+  strongest reply and the exact limits of the existing omission evidence.
+- **Still open:** independent positive aptitude and intellectual-grade warrant;
+  structural-to-grade applicability; reception-to-actual intelligible-form
+  possession; recognition by primitive `HasIntellect`/`HasWill`. Capacity does
+  not become actual form-possession by joining the two old issues. No old
+  acceptance item requiring an established immaterial-to-intellect bridge is
+  marked complete.
+
+The next discriminating research question is whether the noncognitive rival's
+**confinement to its own causal dispositions requires material or constituent
+restriction**. An answer needs an independent account of what those dispositions
+and intentional presence are, and an argument connecting them; assigning
+`Cognitive`, `Living`, an operation flag or `HasIntellect` will not supply it.
+The existing grade proof and source contrast cannot serve as independent
+premises in their own warrant defense. A shared definition for this account
+would require coordinator ownership before implementation. This is a more
+consequential premise investigation than repeating mode elimination or adding
+further accurate-output examples. The branch is returned for that reassessment;
+no absence of further philosophical possibilities or exhaustion is asserted.
+
+Claim/type self-sweep: no theorem, statement, definition, source claim or sense
+binding changes. All proof claims above refer to the unchanged conditional
+records and retain every input. Rival commitments and replies are provisional
+prose, not Lean certificates. No new conditional support option, premise
+discharge or closure is claimed; the computed diff accompanies the PR.

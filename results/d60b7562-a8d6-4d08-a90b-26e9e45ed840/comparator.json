@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.LifeRestricted327.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.LifeRestricted327.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.LifeRestricted327.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
