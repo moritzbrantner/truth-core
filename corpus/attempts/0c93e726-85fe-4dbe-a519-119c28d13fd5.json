@@ -1,0 +1,26 @@
+{
+  "id": "0c93e726-85fe-4dbe-a519-119c28d13fd5",
+  "label": "Separated property, rational and conceptual moral-supervenience claims from primary evidence",
+  "statement_ids": [
+    "75ee9717-4cea-4ee6-9421-ac5d8a0c34a6",
+    "b1ad6fa3-8fe5-4dd2-b99e-ec59085fe21c",
+    "76c219c9-7643-4b10-8fd7-fc86e123b15b",
+    "887db3fc-60bb-4097-95a3-2c72a25476a7",
+    "2b176ae9-36f3-465e-bd1b-4384e8b83003",
+    "20c98b72-9f99-4150-acaf-8ce833c4205b",
+    "faac2bf8-6440-53df-bf86-c3ca7def5383"
+  ],
+  "date": "2026-11-11",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "summary": "Read materialized Railton 1986 (p.165), Boyd's How to be a Moral Realist (§5.3 pp.345–349) and the exact pinned SEP §3.4. Railton endorses property-level natural supervenience but says reduction 'may' obtain and does not specify weak/strong/global scope. Boyd's much more specific rational supervenience concerns approximate actual-case judgments under prevailing standards and conditional mutual ratification of plausible theories' epistemic-contact/error accounts; he acknowledges apparent failures and offers fallibility/non-bivalence diagnoses. Blackburn's reported challenge instead asks why competent predication must respect supervenience analytically even if there is no analytic natural-to-moral entailment. The strongest live cognitivist replies contest his no-entailment or belief/motivation assumptions, not his positive purposes explanation. Rejected identifying Boyd's rational supervenience with `Competence` or `Strong`, inferring metaphysical necessitation from observed rational agreement, and treating Railton's 'may be reducible' as accomplished reduction. The source-backed comparison, provisional assessment and exact unresolved bridges live in docs/naturalistic-moral-realism.md (moral-supervenience section). No fresh Lean theorem, historical worldview model, root premise closure or philosophical rival defeat is claimed.",
+  "blocker": "OPEN: Boyd's actual-case, plausible-theory and bivalence diagnoses need independent counterexample-sensitive support. Railton's complete natural property base and reduction/identification are not established. Blackburn's conceptual competence explanation needs comparison against an adequate cognitivist semantics of analyticity and motivation; source treatment of Blackburn is secondhand pending his 1993 primary pages. None of these bridges licenses equating epistemic, analytic and modal necessity. A new Lean theorem would require an interpretation and a working pinned Lean/Comparator environment, unavailable locally in this worktree; retain these precise source propositions without a simulated formal result.",
+  "evidence": [
+    "261025e9-9f0b-45fe-abeb-161c3bc8113d",
+    "21c4c7ff-bb19-4843-856a-743a14d83e4f",
+    "90baf324-8afb-4e26-98bc-b2e88e39cfdb",
+    "60c4ac41-78ca-4094-b5ae-883139a6abdf",
+    "7e952722-0265-4f5c-887d-4af1395c1db6",
+    "e4fdfad5-2ea9-4012-be5d-d44ccba6ab62"
+  ]
+}

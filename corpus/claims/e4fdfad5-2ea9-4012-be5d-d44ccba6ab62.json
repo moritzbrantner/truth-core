@@ -1,0 +1,11 @@
+{
+  "id": "e4fdfad5-2ea9-4012-be5d-d44ccba6ab62",
+  "label": "Mark van Roojen, Moral Cognitivism §3.4: Blackburn's claimed special advantage",
+  "statement_id": "20c98b72-9f99-4150-acaf-8ce833c4205b",
+  "source_id": "b992183a-ecff-5a2b-ba41-19303262f001",
+  "locator": "§3.4, 'Simon Blackburn, however, argues that the phenomenon of supervenience especially favors non-cognitivism' through 'no further inference to a metaphysical conclusion'",
+  "interpretation": "This is explicitly a secondhand report by Van Roojen of Blackburn (1993, pp.137,143), not a primary Blackburn witness. The crucial explanandum is conceptual/linguistic competence in the absence of analytic natural-to-moral entailment, rather than simply ontological covariance. The reported purposes-of-talk reply is claimed to *favor* non-cognitivism; the positive explanation edge already has a distinct statement and is not disputed by registering this comparative claim. Blackburn's own original pages have not been inspected in this lane.",
+  "attribution": "The passage states that Blackburn argues for a special non-cognitivist explanatory advantage concerning analytically required competence-supervenience without analytic natural-to-moral entailment, which is the reported thesis taken as the premise rather than a claim that the argument succeeds.",
+  "status": "formalized",
+  "definition_ids": ["34408202-b4c3-5d8c-856e-2e2ad4397988", "e27d58e4-38ba-4152-89be-95a407cf5e9f"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "e27d58e4-38ba-4152-89be-95a407cf5e9f",
+  "label": "Moral-property supervenience with modal strength not yet specified",
+  "term": "moral-property supervenience (undetermined modal scope)",
+  "basis": "sourced",
+  "claim_ids": ["261025e9-9f0b-45fe-abeb-161c3bc8113d", "21c4c7ff-bb19-4843-856a-743a14d83e4f"],
+  "definition": "No moral-property difference without some difference in nonmoral or natural properties. An explicit world domain, property base, individuation and modal quantifier are still needed to determine whether this is a within-world, cross-world local or whole-world global supervenience principle.",
+  "note": "Railton, Moral Realism, p.165 directly endorses moral-on-natural supervenience while withholding full reduction. Van Roojen, Moral Cognitivism vs. Non-Cognitivism §3.4 distinguishes the property thesis from appropriate predication and the still stronger analytic competence demand. This definition does not select the `Weak` or `Strong` Boolean-profile predicates and has no Lean declaration. OPEN: which properties constitute the total natural base, how things/worlds are matched, modal strength and the justification of the necessity. It neither asserts grounding nor supplies a moral criterion."
+}

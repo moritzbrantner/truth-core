@@ -1,0 +1,23 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "88a76a4d-5bdb-5623-ab35-0bcac8994c70",
+    "source_url": "https://law.yale.edu/sites/default/files/documents/pdf/Intellectual_Life/ltw_darwall.pdf",
+    "retrieved_at": "2026-11-11T14:29:05Z",
+    "sha256": "sha256:1f6bc934e73913db6631894ff96a4bcfd89be16105471965f1f8c67204afced1",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright retained by author. University-hosted primary PDF consulted on 2026-11-11; PDF not redistributed. No verified fixed-timestamp Wayback capture available at pinning; source may drift, but routine offline corpus checks do not reacquire it."
+  },
+  "passages": [
+    {
+      "id": "f7ce999a-40f6-5ced-b51b-d731ecffe8b7",
+      "label": "Darwall, Authority and Second-Personal Reasons for Acting, pp. 1–19",
+      "locator": "pp. 1–16 (argument), pp. 17–19 (bibliography)",
+      "claim_locator_prefixes": ["p. ", "pp. "],
+      "pdf_pages": {"first": 1, "last": 19},
+      "text_sha256": "sha256:8930e5921617270e327204dfc1929d2823a76f60ecddc4be880d39ea0956ffe3",
+      "incipit": "AUTHORITY AND SECOND-PERSONAL REASONS FOR ACTING In The Second-Person"
+    }
+  ]
+}

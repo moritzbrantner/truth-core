@@ -1,0 +1,11 @@
+{
+  "id": "90baf324-8afb-4e26-98bc-b2e88e39cfdb",
+  "label": "Richard Boyd, How to be a Moral Realist §5.3: approximate rational supervenience",
+  "statement_id": "76c219c9-7643-4b10-8fd7-fc86e123b15b",
+  "source_id": "277ef663-b70c-5541-a6c4-f67fd04c205a",
+  "locator": "reprint §5.3, pp. 347–348: conditional mutual ratification and rational supervenience",
+  "interpretation": "Primary source, the first numbered feature of Boyd's proposed very strong conditional mutual ratification. The moral judgments are about actual cases, 'to an extremely good first approximation', and 'given prevailing standards of moral argument'. The rational reconstruction of disagreement concerns nonmoral factual judgment; it is not universal moral-fact covariation on metaphysically possible worlds, an unqualified all-cases regularity or a theory-independent fact that all agents agree.",
+  "attribution": "The passage states that actual-case moral judgments are, to a very good approximation given prevailing argument standards, dictated by nonmoral factual judgments, and that rationally reconstructed disagreement arises from factual disagreement, which is the qualified premise.",
+  "status": "formalized",
+  "definition_ids": ["8de558f2-ed86-4779-babf-09a425367ada", "1ad46e75-d8f0-515c-9d27-3632b5945195"]
+}

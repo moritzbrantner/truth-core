@@ -1,0 +1,11 @@
+{
+  "id": "a88e66fc-a229-55d7-a25b-ca0b2bff37b2",
+  "label": "Darwall, p. 15: conceptual interdefinability does not show any second-personal authority exists",
+  "statement_id": "875d169d-0ccd-59e5-af65-4d66e349ca14",
+  "source_id": "88a76a4d-5bdb-5623-ab35-0bcac8994c70",
+  "locator": "p. 15, concluding concession before notes 24–26",
+  "interpretation": "Direct explicit concession: even if these concepts are irreducibly mutually linked, that does not entail any of their instances. This is not a claim that the concepts actually lack instances; it rejects treating their definitions as a proof of existence.",
+  "attribution": "The passage states that mutual interdefinability of second-personal authority, valid demands, responsibility and reasons does not entail any actual instance, which is the no-existence-inference premise and not a claim that no moral authority exists.",
+  "status": "formalized",
+  "definition_ids": ["c0d119be-c248-52d5-89a3-b1fcf925e8b6", "63ea9d05-c21f-5daf-a300-7ec554fb3105"]
+}

@@ -592,28 +592,108 @@ whether any truthmaker exists, or whether a naturalist, non-naturalist or
 quasi-realist can adequately explain the relevant dependence. A full global
 supervenience comparison also needs an account of whole-world natural
 isomorphism, which this selected-case signature does not provide.
+The distinct **global** thesis would say that worlds matching in their entire
+natural structure (under a specified whole-world duplicate/isomorphism test)
+cannot differ in their total moral structure. It need not say that individual
+acts with the same *thin local* description are morally identical regardless
+of the rest of the world. Railton's impartial rightness, for example,
+depends on the interests of **all affected people** (pp.190–191): two
+otherwise similarly described acts whose effects on those people differ
+need not have the same rightness, even though the worlds could still satisfy
+global moral-on-natural supervenience. The broad affected-interest relations
+are natural differences that a local Boolean profile can omit. To compare
+global with strong **local** supervenience one would have to decide whether
+the individual base already includes all contextual and relational natural
+facts; without that decision, neither form has a demonstrated implication
+to the other in the intended domain. No global theorem is registered.
 
-**Provisional assessment (2026-11-11):** ordinary moral reasoning provides a
-plausible motivation for requiring relevantly similar cases to receive similar
-judgments, but this conceptual practice does not itself discriminate between
-realist and quasi-realist explanations. Actual cross-world necessitation and
-explanatory priority remain open, rather than being judged false. Substantive
-positive realist accounts compared here include Railton's objective-interest
-criterion and separate impartial-rightness proposal, Boyd's homeostatic
-human-goods account, and the Catholic ontological actuality/privation and
-distinct practical-law proposals. They supply partial resources for a base
-and a substantive evaluative criterion, not an automatic mapping from bare
-natural similarity to all practical obligations. Each still owes an adequacy
-and authority argument; the supervenience schema does not add that argument.
-Blackburn argues that the purposes of moral talk explain the **competence
-norm** and thereby favor his quasi-realist approach. This claimed comparative
-advantage is contested: reductive naturalists dispute the supposed absence of
-conceptual entailment, while cognitivist or anti-Humean accounts challenge the
-exclusivity of the proposed practical-purpose explanation. His account does
-not by itself answer the separate question of moral-fact truthmaking. A criterion that
-establishes the identity of the natural facts relevant to rightness, or an
-argument connecting semantic competence to ontological necessity, could revise
-this assessment.
+### Three real explananda, not three strengths of one unexamined thesis
+
+Reading the **primary** Railton and Boyd witnesses alongside the materialized
+Van Roojen §3.4 reveals a more consequential comparison than the preceding
+finite encoding controls. Van Roojen's broad, comparatively uncontroversial
+property-difference formulation is now a source-backed statement in its own
+right, with **no selected modal strength**. The other new corpus
+statements/claims preserve distinct proposed explanations without assigning
+any of them `Weak`, `Strong` or `Competence` merely from the shared word
+*supervenience*:
+
+| Source and precise claim | Scope and genuine explanatory resource | What does **not** follow |
+|---|---|---|
+| **Railton**, *Moral Realism* (1986), p.165, `Railton's proposed moral properties supervene on natural properties and may reduce to them` | Railton expressly includes moral-on-natural **property** supervenience among the coordinates of his realism and says the properties *may* be reduced to natural ones. His later pp.175–176 objective-interest basis and pp.190–191 impartial rightness offer material for a naturalist explanation rather than only a statement of covariance. | P.165 fixes neither weak/strong/global quantifiers nor an exhaustive natural base, and *may be reducible* is not a proved identity. The welfare basis does not without further impartial standards settle all-things-considered rightness. |
+| **Boyd**, *How to be a Moral Realist*, reprint §5.3, pp.346–349, `Boyd proposes approximate rational supervenience of actual-case moral judgments` and `Boyd allows apparent rational-supervenience failures` | To a very good first approximation, judgments about **actual** moral cases are rationally dictated by nonmoral factual judgments **under prevailing standards of moral argument**. Boyd embeds this in *conditional mutual ratification*: current plausible general moral theories each supply conditional accounts of epistemic contact/error which largely agree on cases and evidential relations. This is a substantive realist explanation of why disagreement can persist and inquiry can correct it. | Not metaphysical sameness of moral properties, not every person's actual verdict, not all counterfactual cases, and not analyticity of the competence requirement. Boyd acknowledges apparent failures in a few actual and many counterfactual cases, proposing non-bivalence or methodological/theoretical inadequacy; the adequacy and coverage of those diagnoses are disputed. |
+| **Blackburn, as reported by Van Roojen** in SEP §3.4, `Blackburn is reported to claim a special competence-supervenience advantage for non-cognitivism` | The distinctive challenge is **why respecting moral supervenience is required of a linguistically competent judge a priori, despite no analytic entailment from nonmoral to moral claims**. A merely nomic or metaphysical necessity would not itself make a competent speaker recognize the constraint. The purpose of guiding action among natural features is offered as the positive explanation. | Neither property covariance nor Boyd's approximate pattern of good reasoning alone meets this *analytic competence* challenge. The report is secondary evidence for Blackburn (1993, pp.137,143); no new direct attribution to those unread pages is made here. The existing Lean `SupervenienceExplainedByPurposesReading` encodes only the purposes-to-requirement edge, not the claimed exclusive advantage. |
+
+The inference that needed repair in this comparison is **from a proposed natural
+base or rational convergence to the very analyticity Blackburn challenges**.
+Even if moral facts exactly matched a sufficient natural profile in every
+relevant world, that would answer the covariance question only; it would not
+show why a speaker must recognize the constraint just by understanding moral
+terms. Conversely an explanation of why competent speakers make matching
+verdicts does not determine whether those verdicts track an independent moral
+property. Boyd's thesis is additionally **approximate and methodological**:
+recasting his admitted counterfactual exceptions as countermodels to strong
+*property* supervenience, or his near-agreement about actual cases as a proof
+of it, changes his proposition's subject and modal scope.
+Boyd also proposes an analogous rational-supervenience pattern for judgments
+about **general moral theories** (§5.3, p. 348), not only judgments about
+actual cases; that is a further scope component of his positive reply and
+has not been smuggled into the narrower registered actual-case statement.
+
+**Strongest live responses.** A reductive naturalist can reject Blackburn's
+premise of no analytic nonmoral-to-moral entailment; the defense then concerns
+whether a proposed natural property really plays the evaluative role, not a
+deduction from the word *natural*. An anti-Humean cognitivist can hold that
+beliefs about genuine properties guide action, and a cognitivist can allow
+that analyticity imposes competence requirements (Van Roojen §3.4). These are
+not demonstrations that the naturalist has explained the requirement, but they
+challenge an *exclusive* non-cognitivist inference. Boyd's causal/homeostatic
+and conditionalized epistemic-contact account supplies a serious positive
+answer to the distinct **error and disagreement** demand. It requires a
+defensible family of currently plausible moral theories, a non-question-begging
+account of evidential standards, and a discriminating diagnosis of alleged
+counterfactual non-bivalence (§5.3); its conditional mutual ratification is not
+independent evidence if those theories silently share the same unsupported
+natural-goods identification. Blackburn/Gibbard-style recognitional plans
+offer an expressivist explanation of stable prescriptions but likewise need a
+defensible account of why those plans are linguistically mandatory and of how
+truth and error are handled. Nonreductive naturalist and nonnaturalist
+explanations remain possible competitors, not refuted residual categories.
+
+**Provisional judgment, 2026-11-11 (origin/main b9ed018a plus this source
+comparison):** genuine underdetermination between the explanatory approaches,
+not an established reductive or expressivist victory. The evidence now favors
+*keeping these three obligations separate* because the primary texts place
+different quantifiers, subjects and epistemic qualifications on their claims;
+that is a source-fidelity judgment, not an assertion that the three approaches
+cannot jointly hold. Railton's constitutive naturalist candidate addresses
+property dependence; Boyd offers a substantive but defeasible realist reply
+to diversity; the reported Blackburn challenge remains forceful specifically
+against an account that invokes opaque metaphysical necessity **as its only
+explanation of an analytic competence norm**. That last conditional does not
+license excluding naturalist or cognitivist explanations with richer semantic
+resources. More direct Blackburn primary evidence, a worked real moral-case
+test of Boyd's apparent exceptions, and a genuinely defended semantic bridge
+from identity or recognitional planning to the competence requirement could
+strengthen or reverse the comparative assessment. An independently observed
+a sufficiently systematic class of independently identified counterexamples
+under the *same* nonmoral facts, prevailing standards and genuinely
+determinate moral content would weaken Boyd's claimed **very good first
+approximation**, after allowing for the explicitly admitted occasional
+exceptions and checking the rational-reconstruction conditions. One isolated
+counterexample, or simply varying Boolean assignments, would not.
+
+The new `supports` graph edges connect Railton's explicit property endorsement
+to the qualitative datum, and Boyd's epistemological proposal and exceptions
+to his existing empirical-inquiry and error/progress claims; none is an
+entailment edge. The `attacks` edge from
+Van Roojen's cognitivist objections targets only Blackburn's **reported
+comparative advantage**, never his narrower positive purposes explanation.
+The argument-family bridge to the Catholic root remains **named but OPEN**:
+one would first have to defend that the relevant natural/practical-good base
+supports a specific moral criterion and then show why that criterion gives
+binding normative conclusions. Neither property nor rational supervenience
+does that work, and no root premise closes in this source comparison.
 
 The existing candidate `MORAL-DATA-TO-EXPLANATORY-ORDER-BRIDGE` concerns
 whether error, correction and objective-evil data constrain **semantic**
