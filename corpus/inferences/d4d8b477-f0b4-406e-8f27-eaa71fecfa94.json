@@ -10,7 +10,7 @@
   ],
   "output_statement_id": "3db10140-06ed-43e2-8521-391acd2ec925",
   "rule": "Compose basis undercutting with loss of warrant using the accepted package itself as the target",
-  "meaning": "The same subject accepts the package and lacks warrant for that very package, conditional on its acceptance raising the stated reliability concern, the concern undercutting the basis, every available supporting basis for the package being that basis, and warrant requiring some undefeated supporting basis. The theorem assumes each bridge in the same profile. Interpreting the package as a conjunction of evolutionary and naturalist commitments does not prove that accepting it raises the reliability concern.",
+  "meaning": "A subject who accepts the package lacks warrant for that same package if acceptance raises the stated reliability concern, the concern undercuts the basis, every available supporting basis for the package is that basis, and warrant requires some undefeated supporting basis. Acceptance and the four conditions are premises in the same profile. The reliability assessment for an evolutionary-naturalist package remains open.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }
