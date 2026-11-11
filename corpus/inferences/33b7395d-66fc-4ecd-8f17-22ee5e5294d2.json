@@ -1,0 +1,10 @@
+{
+  "id": "33b7395d-66fc-4ecd-8f17-22ee5e5294d2",
+  "label": "Begun coming-to-be control checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f6ceade2-c668-4836-992e-a6d25230bfa6",
+  "rule": "Explicit interpretation with WithBot Int times, checked by case analysis, induction on accessibility and linear arithmetic",
+  "meaning": "Strictness and nonvacuity: begun coming-to-be is possible while founded coming-to-be is not, so the founded version strictly strengthens the begun one. In the same interpretation every contingent individual has an earlier-present existing predecessor that the control's grounding relation relates to it, yet no individual is necessary: an endless descent of contingent grounds fits between the empty first moment and any later moment. Necessity is excluded there only because inert emptiness fails. So in the spine's temporal arrival the necessary individual comes from inert emptiness (A2), not from begun coming-to-be or from earlier-present grounding. Model claims concern this interpretation only.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

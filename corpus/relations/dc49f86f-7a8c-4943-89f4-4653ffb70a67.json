@@ -1,0 +1,11 @@
+{
+  "id": "dc49f86f-7a8c-4943-89f4-4653ffb70a67",
+  "label": "Possible founded coming-to-be strengthens possible begun coming-to-be",
+  "subject_kind": "statement",
+  "subject_id": "78a44599-dc67-4d1f-988a-ed84b8c517f9",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "6d71688e-973a-4827-9427-85fff7532c9d",
+  "verification_result_id": "a3fd7b50-125c-49a4-a597-3fef6dee2d1e",
+  "note": "Same history, coming-to-be clause and populated moment; Acc replaced by a first moment at or below. Control.zeno (WithBot Int times) witnesses failure of the converse."
+}

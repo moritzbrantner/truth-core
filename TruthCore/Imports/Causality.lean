@@ -20,6 +20,7 @@ public import TruthCore.Causality.AtomisticCausalSource
 public import TruthCore.Causality.AtomisticRequirementControl
 public import TruthCore.Causality.AtomisticUniversalCausePriority
 public import TruthCore.Causality.BearerRegress
+public import TruthCore.Causality.BegunComingToBe
 public import TruthCore.Causality.BoundedPastResource
 public import TruthCore.Causality.BruteFoundationBoundary
 public import TruthCore.Causality.BruteFoundationDoubling
