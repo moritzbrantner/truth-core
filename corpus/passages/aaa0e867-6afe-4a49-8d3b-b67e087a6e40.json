@@ -1,0 +1,29 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "2b3d8478-899a-4da9-a544-59e8062fa1bd",
+    "source_url": "https://andrewmbailey.com/pvi/Precis_of_Material_Beings.pdf",
+    "retrieved_at": "2026-11-11T13:29:18Z",
+    "sha256": "sha256:a14e7cf72677d163afdb5b8cf863d65f01762329a4787426b97b3c8c144ea0a7",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright1993 International Phenomenological Society. Primary scan hosted in Bailey scholar bibliography; no redistribution permission asserted. PDF and extracted text stay in ignored cache; hashes, locators and paraphrases only committed."
+  },
+  "passages": [
+    {
+      "id": "aaa0e867-6afe-4a49-8d3b-b67e087a6e40",
+      "label": "Pr\u00e9cis1993 pp684\u2013685: life criterion, event persistence and indeterminacy",
+      "locator": "printed pp.684\u2013685 (physical PDF pp.2\u20133)",
+      "claim_locator_prefixes": [
+        "p.684",
+        "p.685"
+      ],
+      "pdf_pages": {
+        "first": 2,
+        "last": 3
+      },
+      "text_sha256": "sha256:ffb1b2d12762f0c9f9d7ca24a902e5501ea2c614a1ff50361c84e1d05f77131c",
+      "incipit": "that no reductive analysis of composition is possible, owing to the fact that"
+    }
+  ]
+}

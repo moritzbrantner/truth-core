@@ -8,6 +8,7 @@ public import TruthCore.Results.Mereology.Fission1397.Solution
 public import TruthCore.Results.Mereology.FormMate1397.Solution
 public import TruthCore.Results.Mereology.FusionNoNecessaryParts.Solution
 public import TruthCore.Results.Mereology.GenusCauseBoundary.Solution
+public import TruthCore.Results.Mereology.LifeRestricted327.Solution
 public import TruthCore.Results.Mereology.MaterialConstitutionScope.Solution
 public import TruthCore.Results.Mereology.NecessaryPartFusionDecomposition.Solution
 public import TruthCore.Results.Mereology.ProcessTurnover.Solution

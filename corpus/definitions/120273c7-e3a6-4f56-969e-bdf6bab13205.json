@@ -1,0 +1,9 @@
+{
+  "id": "120273c7-e3a6-4f56-969e-bdf6bab13205",
+  "label": "Reciprocal regeneration as an operational candidate for active life",
+  "term": "operational reciprocal regeneration",
+  "definition": "State records two Bool occupancies of independently identified substrate-processing and boundary-production capacities. regenerate feed s produces fresh occupants of each role iff feed and both prior capacities are present. Reciprocal rule requires full occupancy to regenerate, complete removal to stay empty, and each one-capacity knockout to remove the other next output. Inputs describe selected local capacities and experimental interventions; no organism, numerical life-event identity, substantial unity or soul occurs in the criterion. This is an analyst active-maintenance candidate, not a definition of every biological life.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Mereology.LifeRestricted327.Reciprocal",
+  "note": "OPEN: biological adequacy, local producer identification, environmental/system boundary and dormant-life extension; all in docs/notes/life-restricted-composition-327.md."
+}
