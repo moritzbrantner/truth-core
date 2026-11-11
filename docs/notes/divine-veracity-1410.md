@@ -370,3 +370,134 @@ alternatives and audience good fixed, and identify why one option is forbidden
 or permitted. No new witness or accepted floor currently settles that comparison.
 The content result narrows the representation obstacle without answering this
 normative question. It does not show the bounded philosophical question exhausted.
+
+
+## Act-object continuation: selected source findings and live test
+
+Status: new research after content checkpoint #1414, not part of its frozen
+accepted draft.
+
+Selected primary readings on 2026-11-11:
+[Aquinas, ST I q.19](https://www.newadvent.org/summa/1019.htm), a.9 body and
+reply 3, distinguishes willing moral fault from willing natural defect or
+punishment alongside goods and permitting others' evil. Applying the exclusion
+to divine false assertion still needs the disputed moral-act classification;
+it cannot be inferred merely from creaturely error occurring.
+[Descartes, Meditation IV](https://www.gutenberg.org/cache/epub/70091/pg70091-images.html),
+opening, Molyneux translation printed pp.56–57, classifies will to deceive as a
+defect, distinct from power to deceive. The classification is where Hobbes's
+welfare objection presses. These examined readings and analyst connections are
+not newly pinned source-claim records. Future corpus source-claim publication
+needs selected witness binding; source infrastructure is not required for the
+current logic/reuse task.
+
+
+### Reuse result: equally good alternatives do not supply strict dominance
+
+The candidate reply under test is: a maximally capable speaker could secure the
+beneficiary's good through truthful assertion or withholding, so beneficial
+false assertion cannot be fitting. The first step concerns available means; the
+conclusion concerns moral exclusion. It needs an ordering or object norm between
+them. This test holds the genuine status of the false assertion fixed. It is
+not reclassified as quotation, fiction, metaphor or a nonassertoric intervention.
+
+Inventory found an existing exact mathematical boundary, so **no new toy
+certificate or choice vocabulary is needed**. Result a1990e04-1e7d-565f-bd98-f2e64b570aa1,
+`TruthCore.Results.Modal.OptimalCreationChoice.checks`, includes distinct tied
+optimal candidates; its helper `tiedOptimal` proves both supplied candidates
+optimal under constant quality. The existing `Optimal` definition selects a
+feasible candidate whose quality is greatest; it does not require uniqueness.
+Its context and exact proof were inspected. The relevant mathematical point is
+only that equal best quality does not disqualify either candidate. The original
+result concerns effect candidates, not moral permission or assertions; applying
+an analogous quality policy to speech is an explicit **analyst assumption**, not
+an inherited ethical theorem or a new root connection. Existing choice-policy
+and Ross permission results were also inspected; neither supplies this missing
+ethical identification.
+
+Under a benefit-only maximization policy that allows every maximizing available
+act, an equally beneficial truthful alternative does not exclude the false
+assertion. They can tie. If only one intended good is held equal, this says even
+less about the complete moral comparison: autonomy, reliance, fidelity and
+unforeseen harms may remain different. The failed reply therefore needs either
+**strict dominance in the complete relevant ordering**, or an independently
+justified constraint excluding false signification even at a tie or net benefit.
+This is a rejection of that *inference as stated*, not a defense of benefit-only
+maximization, a claim of permissible divine lies or a hypothetical medical
+recommendation. No empirical outcome comparison is being asserted.
+
+### Fixed comparison and substantive reasons on both sides
+
+Fix the same speaker g, proposition p (false), actual judgment of not-p,
+audience and time. Compare available acts L (genuinely assert p), T (give a
+truthful relevant assertion with appropriate help), and W (withhold while
+providing appropriate help). Keep L's genuine assertoric undertaking constant
+under every policy. T/W are proposed alternatives, not stipulated equally
+effective histories. What goods they actually attain is a missing premise.
+
+The strongest responsibility argument for excluding L is that putting p forward
+on one's own word solicits another rational person's reliance while making the
+speaker answerable for p's truth. L deliberately uses that reliance contrary to
+the judgment it purports to stand behind. This identifies a reason against L
+independent of the intended further benefit: a mismatch between the undertaking
+and its deliberate performance, with potential loss of the audience's control
+over belief and action. It is stronger than saying all deception is malicious,
+and it does not define sincerity or truth into the assertion predicate.
+
+Two steps remain disputed. First, why must that responsibility require actual
+assent rather than adequate evidence, reasonable confidence or a defensible
+willingness to answer challenges? This matters to the positive-endorsement leaf,
+which is stronger than forbidding assertions contrary to judgment. Second, why
+is deliberate contrary performance morally excluded **without exception**,
+rather than a serious reason that can be overridden? The communicative-function
+and undertaking arguments identify a norm; they have not yet shown that every
+other good must be subordinate to it. A mere convention establishing the norm
+would likewise not prove its exceptionlessness or divine applicability.
+
+The strongest welfare/agency rival need not deny any of this reason against L.
+It can recognize loss of epistemic control and still say that preserving the
+person's capacity for future agency or preventing irreparable injury sometimes
+overrides present epistemic interests. Its strongest case therefore compares
+**all** these goods, not only comfort or a simplistic health payoff. It owes an
+account of who may make that substitution, which interests have priority, and
+why truthful help/withholding cannot preserve the same interests as well. An
+unqualified appeal to doing good does not establish those facts. Conversely,
+asserting that an omnipotent agent has a nondeceptive option to some intended
+good does not establish equality across every morally relevant feature. No
+verified comparison here proves the universal strict dominance needed to close
+that reply on the rival's own maximizing assumptions.
+
+The source arguments already examined distinguish defect in the chosen act
+from a beneficial further end. The new q.19 reading makes the burden sharper:
+not every permitted accompaniment of a good is thereby a moral fault. In the
+analyst reconstruction, deliberate false signification must first be classified
+as a moral defect of the relevant assertoric act; the inability of perfect will
+to choose moral fault cannot supply that classification by itself. The source's
+distinction also blocks transferring creaturely error that is permitted or
+indirectly occasioned into a genuine false divine assertion. These are different
+acts and responsibilities.
+
+### Proposed provisional assessment and reassessment conditions
+
+The availability-only reply is insufficient to defeat the strongest beneficial
+false-assertion rival. Reused order evidence exposes its missing strictness;
+there is no need to manufacture another finite model with ethical labels.
+Responsibility and rational-agency reasons give substantive pressure against
+intentional contrary assertion. Their **exceptionless** force and application
+to the same GOD_4 remain underdetermined. The rival survives with an explicit
+burden to justify overriding epistemic agency and to establish the comparative
+failure of T/W. Neither responsibility nor benefit is by itself the complete
+ordering, and no accepted floor item presently supplies that ordering here.
+
+The most useful next test is a defended priority principle connecting assertoric
+undertaking to non-overridable responsibility, or a fully specified countercase
+showing the priority can be overridden while preserving genuine assertion and
+reasonable audience agency. Apply it to one fixed L/T/W comparison before
+universalizing to divine assertion. For a dominance strategy, supply evidence
+that a truthful alternative preserves every relevant good and improves at least
+one feature, together with a warranted monotonicity principle. For an
+act-object strategy, defend why the mismatch is an impermissible moral defect
+rather than only defeasible bad-making evidence. A bare change of labels,
+source assent, omnipotence alone or repetition of the primitive perfection
+premise would not answer these tests. No new formal premise is discharged and
+there is **no computed premise change** in this source/reuse/warrant checkpoint.
