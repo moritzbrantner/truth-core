@@ -1,0 +1,11 @@
+{
+  "id": "976eb3b9-04d5-4f7e-96b8-fa7b5263e5e3",
+  "label": "Strong moral supervenience entails weak moral supervenience",
+  "argument_id": "aee1a0fd-1dc1-4f2e-a1a1-72622121ede0",
+  "challenge_module": "TruthCore.Results.Metaethics.SupervenienceProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.SupervenienceProfiles.Solution",
+  "theorem": "TruthCore.Results.Metaethics.SupervenienceProfiles.strongImpliesWeak",
+  "comparator_config": "results/976eb3b9-04d5-4f7e-96b8-fa7b5263e5e3/comparator.json",
+  "status": "solution-present",
+  "description": "At an arbitrary chosen admitted world, instantiate the strong cross-world condition with that world twice. This only proves logical strength over identical selected profile types."
+}

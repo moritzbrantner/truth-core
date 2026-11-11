@@ -1,0 +1,9 @@
+{
+  "id": "d0d55891-8611-4aa2-9f99-3531213ad892",
+  "label": "Weak moral supervenience over selected situations",
+  "paraphrase": "For each admitted world, any two cases with identical selected nonmoral profiles have the same moral fact status in that world. This is the weak, within-world claim; no actual moral property is asserted to satisfy it.",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Weak",
+  "definition_ids": [
+    "6bfb958a-b7f4-430c-acc1-8075fdbf5f81"
+  ]
+}

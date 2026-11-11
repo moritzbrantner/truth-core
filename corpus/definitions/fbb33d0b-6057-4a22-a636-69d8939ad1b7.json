@@ -1,0 +1,9 @@
+{
+  "id": "fbb33d0b-6057-4a22-a636-69d8939ad1b7",
+  "label": "Cross-world strong moral supervenience",
+  "term": "strong moral supervenience in a selected model",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Strong",
+  "definition": "Every pair of cases drawn from any two admitted worlds with equal values of the selected nonmoral profile has equal moral status, including cross-world pairs. The same profile therefore cannot change moral value merely across admitted worlds.",
+  "note": "A stronger conditional than weak supervenience over the identical typed profile. It does not identify a reduction, ground, unique natural-to-moral mapping across rival theories, or exhaustive metaphysical possibility space. Strong-to-weak follows by same-world instantiation; finite controls witness the converse's failure. Independent applicability remains OPEN."
+}

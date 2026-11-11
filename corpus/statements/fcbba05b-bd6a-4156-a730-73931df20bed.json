@@ -1,0 +1,9 @@
+{
+  "id": "fcbba05b-bd6a-4156-a730-73931df20bed",
+  "label": "Strong moral supervenience over selected situations",
+  "paraphrase": "Across any two admitted worlds, cases with identical selected nonmoral profiles have the same moral fact status. This is stronger than within-world supervenience and does not by itself identify a ground or criterion.",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Strong",
+  "definition_ids": [
+    "fbb33d0b-6057-4a22-a636-69d8939ad1b7"
+  ]
+}

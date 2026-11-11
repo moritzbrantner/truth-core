@@ -1,0 +1,20 @@
+{
+  "id": "aee1a0fd-1dc1-4f2e-a1a1-72622121ede0",
+  "label": "Strong moral supervenience entails weak moral supervenience",
+  "premise_statement_ids": [
+    "fcbba05b-bd6a-4156-a730-73931df20bed"
+  ],
+  "conclusion_statement_id": "d0d55891-8611-4aa2-9f99-3531213ad892",
+  "inference_ids": [
+    "013d5159-73a2-40c8-a2fe-17d1ae7a4e0f"
+  ],
+  "meaning": "At an arbitrary chosen admitted world, instantiate the strong cross-world condition with that world twice. This only proves logical strength over identical selected profile types.",
+  "definition_ids": [
+    "1cdfd808-40bd-47ec-8f24-fb5e2fc20e2c",
+    "6bfb958a-b7f4-430c-acc1-8075fdbf5f81",
+    "fbb33d0b-6057-4a22-a636-69d8939ad1b7"
+  ],
+  "strong_version_needed": {
+    "fcbba05b-bd6a-4156-a730-73931df20bed": "Strong supervenience is the explicit hypothesis whose weakening is being certified, not a claim that reality satisfies it."
+  }
+}

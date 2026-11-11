@@ -1,0 +1,9 @@
+{
+  "id": "6bfb958a-b7f4-430c-acc1-8075fdbf5f81",
+  "label": "Within-world weak moral supervenience",
+  "term": "weak moral supervenience in a selected model",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Weak",
+  "definition": "Every pair of cases inside each admitted world with equal values of the selected nonmoral profile has equal moral status there. Different worlds can assign different moral statuses to the very same profile.",
+  "note": "The 'nonmoral' base is a supplied Boolean selector, not a complete physical or natural description. This reading is world-relative, not an account of grounding, explanation, truthmaking or the authority of moral demands. OPEN: source applicability and whether a proposed real-world base is complete."
+}
