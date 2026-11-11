@@ -1,0 +1,14 @@
+{
+  "id": "329b66d7-8cae-4026-8c8f-322ad4bf6da7",
+  "label": "Active-power sufficiency compatibility and joint-exercise rival",
+  "statement_ids": [
+    "d61eda33-7f6c-52a8-a905-e16661520f23"
+  ],
+  "date": "2026-11-11",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Conditional compatibility and actual-infinite-witness consequences, plus relative feasibility bridge and structural controls; see docs/notes/power1392.md for complete proposed judgment, rejected shortcuts, essential-truthfulness rival and task-specific revelation connection plan. No original premise closes. Semantic applicability and independent challenge remain OPEN.",
+  "evidence": [
+    "e0d08b68-5b16-4621-83ba-ef99e527979a"
+  ]
+}
