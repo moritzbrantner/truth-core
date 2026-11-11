@@ -270,3 +270,70 @@ condition and witnesses possible proxy success, not actual revelation. The
 actualDoesNotForceRestriction lemma repeats actualIntrinsic intentionally as a
 named reading, not independent evidence. taskSpecific assumes realization and
 uses this finite model's witness, not an original-task bridge.
+
+## Structural registration of the exercise continuation (2026-11-11)
+
+This section updates certification status, not the proxy interpretation or the
+proposed judgment above. The coordinator reports independent semantic challenge
+of 648ac117: qualified acceptance, no mismatches; same actor/task and populated
+accessibility accepted. The duplicate lemma is not independent evidence and the
+task-specific realization application remains conditional. No repeat semantic
+review or unchanged original verification was performed.
+
+Canonical registered source is now `TruthCore/Causality/Power1392Exercise.lean`
+and `TruthCore/Results/Causality/Power1392Exercise/{Challenge,Solution}.lean`,
+generated records from `specs/power1392-exercise.toml`, result
+`cf728e50-f142-409d-b9a0-162f46d1be85`. Scratch/power1392exercise/Edit.lean stays
+as exploratory history, including the unregistered duplicate and application;
+it is not the certification source. The new certificate contains exactly the
+actualIntrinsic and separatingControl statements, conjoined. Its frozen Challenge
+SHA256 is 226550ba30bc6a7c00569298743be5fe24169b02a67542ad01bfb8ccb762843d.
+The stipulative definition record is 2a40a3c5-ce66-47d1-9ed5-aad6bab2b5c0.
+
+Claim/type self-sweep: the same `assertFalse true` occurs in Generic and Joint;
+`Success` requires actor identity. The essential restriction blocks that success
+but admits `(true,false,true)` for `revealTrue true`, so the accessible relation
+and feasible tasks are populated. Actual `(true,false,false)` is nonlying while
+`(true,true,false)` is intrinsic and succeeds at the same agent's false assertion.
+This compares assignments, not original Asserts/Knows facts. No modal invariance,
+content, recipient, exclusivity, actual production or original-task mapping was
+added. The finite control theorem is constructive, not a pure assumed-realization
+application. Neither duplicate nor taskSpecific is registered as another argument.
+
+Focused local Lean builds, zero-axiom Comparator/NanoDa verification and binding
+(1 bound, 0 mismatch) passed for the new result. Outputs are isolated in this
+checkout; the warm package tree is read-only to these operations. Original Power1392
+and NamingVeracity proofs and certificates were reused unchanged. Corpus,
+bundle, module-format and generated imports/docs checks passed. Final-head CI
+remains required. Convention sourceRevision remains
+625cb04ca568aebc8d45c90033e107a05e9bd2a0.
+
+Substantive disposition: the assigned structural registration is resolved. The
+proxy-to-original bridge is unbuilt; no amount of further Boolean enumeration
+supplies content-bearing testimonial success, recipient recognition or exclusive
+sign capacity. The next materially different test is an independently interpreted
+content/recipient/sign task, holding task and sign identity fixed when testing
+other agents. The coordinator will reassess that separate bridge; this is not an
+exhaustion of the philosophical question or a defeat of either positive account.
+The complete proposed judgment remains underdetermination/no winner/no root
+closure, with the revision conditions in the continuation section retained.
+
+Computed current premise comparison:
+
+```
+premise delta for Catholicism is true: the Catholic Church is a teaching authority founded by GOD_4, and every… [53964cbe]: origin/main -> working tree
+open premises reaching the root: 402 (262 bare, 95 supported, 45 stated) -> 402 (262 bare, 95 supported, 45 stated)
+expanded-route diagnostic (lowest cost): Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16) -> Catholicism is true: the Catholic Church is a…, from Fork node: the intended reading of… and 7 more [8df2faad] (cost 16)
+distinct verified support alternatives: 288 -> 288
+verified support alternatives added: 0
+no change
+```
+
+Additional full-edit service preview of the registered definitions/proofs:
+clean warm HEAD 3aaf6c4fdb8bd9ed781ee7cb57811d5d81f84964,
+session research-master-20261111, Scratch/power1392cert/Edit.lean,
+content SHA256 f1b86e0b8a1258cec5c06886f05ff382235d100f0a2f7c9ca4d8b145cee882ad,
+no diagnostics. The service was retained without restart/update; preview remains
+feedback only. CLI performed the final frozen certification above. Initial Rust
+build hit /tmp quota; workspace-local TMPDIR and no compiler wrapper allowed the
+single successful CLI build. No research or proof claim depends on that setup.

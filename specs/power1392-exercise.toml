@@ -1,0 +1,17 @@
+[batch]
+vocab = "TruthCore.Causality.Power1392Exercise"
+results = "TruthCore.Results.Causality.Power1392Exercise"
+
+[[statement]]
+id = "Same-agent finite exercise separation with populated feasibility"
+lean = "Certificate"
+paraphrase = "Finite structural proxy certificate: the distinguished actual assignment is nonlying while an intrinsic false-assertion success exists for that same agent. The identical agent-indexed false-assertion task is generically successful but has no success accessible under the stipulated restriction; that agent nevertheless has an accessible revealTrue proxy success. No cognition, causation, essential nature, original revelation task or root premise is established."
+definitions = ["2a40a3c5-ce66-47d1-9ed5-aad6bab2b5c0"]
+
+[[argument]]
+id = "Same-agent exercise proxy control certificate"
+theorem = "certificate"
+premises = []
+conclusion = "Same-agent finite exercise separation with populated feasibility"
+rule = "Explicit finite witnesses and Boolean contradiction"
+meaning = "Structural control for the open active-power sufficiency root premise d61eda33-7f6c-52a8-a905-e16661520f23. Original-task, recipient and sign-exclusivity bridges remain unbuilt. See docs/notes/power1392.md. Duplicate actualDoesNotForceRestriction and pure application taskSpecific are not registered as independent arguments."

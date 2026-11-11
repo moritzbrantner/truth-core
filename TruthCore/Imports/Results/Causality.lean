@@ -215,6 +215,7 @@ public import TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 public import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
 public import TruthCore.Results.Causality.Power1392.Solution
+public import TruthCore.Results.Causality.Power1392Exercise.Solution
 public import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 public import TruthCore.Results.Causality.ProductiveStore.Solution
 public import TruthCore.Results.Causality.ProductiveSustained.Solution
