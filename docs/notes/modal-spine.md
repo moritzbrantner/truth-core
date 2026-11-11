@@ -95,9 +95,27 @@ supporter of its being, under F1, excluded middle and two further open premises:
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
 computed frontier. It reaches it by the necessary-concrete routes with 15 bare
-premises each, which is where the stage-two work lies. Whether the ungrounded
-individual it yields is the root that `NecessaryClassicalGodRoot.derive` starts
-from is not yet checked.
+premises each, which is where the stage-two work lies.
+
+The ungrounded individual of the join is the stage-two root (checked
+2026-11-11). `UnderivedRootPerfection`, `PerfectRootPositiveIntellectWill` and
+`ClassicalGodFromPositiveRoot` already chain `STMT-NECESSARY-CONCRETE-UNDERIVED-AT`
+to `STMT-NECESSARY-CLASSICAL-GOD-ROOT` at the statement level. The Lean theorem
+`NecessaryClassicalGodRootFromUnderived.derive` composes the three on one model,
+world, profile and dictionary. It keeps the same witness and needs only the
+underived individual, excluded middle and the 21 act-of-being, attribute and
+naming premises of `NecessaryClassicalGodRoot.derive`. The attribute steps do
+not use population, whole-roster nontrapping or contingent grounding; those
+premises only produce the root. No extra premise is needed. The join's support
+exclusion is used at the actual world only.
+
+The composition is not a registered result. Any new argument concluding
+`STMT-NECESSARY-CLASSICAL-GOD-ROOT` fails the sense-index check. That statement
+and some reused premises link several senses of nine disambiguated terms. The
+existing arguments to it are allowlisted, and the allowlist may only shrink.
+Registering it would change no root premise, since the statement route already
+exists. Attempt `a062ed2b-028c-40b3-928b-12925a28a261` records the exact senses
+and the cleanup that would unblock it.
 
 Today the stage-two chain obtains its root from two regress premises instead:
 every contingent concrete thing has an actual concrete ground, and the whole
@@ -253,4 +271,11 @@ conditional investigations, not a mandatory first gate:
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first
    discriminator for J1 and J2.
-3. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.
+3. Done: the ungrounded individual of the join is the stage-two root (see "The
+   join"). Next: clean the sense links of `STMT-NECESSARY-CLASSICAL-GOD-ROOT`
+   (NECESSARY, GOD and seven compound terms). Then register the frozen
+   `NecessaryClassicalGodRootFromUnderived` Challenge. Also check the reading of
+   the support relation along the join. In Lean the underived premise and the
+   act-of-being bridges use the same `m.grounds`. The records link the first to
+   present esse support and the second to world-relative existence, two senses
+   of one compound term.

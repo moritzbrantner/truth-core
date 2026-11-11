@@ -185,6 +185,7 @@ public import TruthCore.Results.Causality.NecessaryClassicalGodCase.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRoot.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootControl.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromAsymmetry.Solution
+public import TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Solution
 public import TruthCore.Results.Causality.NecessaryClassicalGodRootProjection.Solution
 public import TruthCore.Results.Causality.NecessaryConcreteFromUniqueRoot.Solution
 public import TruthCore.Results.Causality.NecessaryConcreteRouteBridge.Solution
