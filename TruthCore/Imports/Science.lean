@@ -5,5 +5,6 @@ public import TruthCore.Science.FineTuningEvidence
 public import TruthCore.Science.FineTuningSelection
 public import TruthCore.Science.InductionSelection
 public import TruthCore.Science.MeasurementCalibration
+public import TruthCore.Science.PolynomialInduction
 public import TruthCore.Science.PredicateRecoding
 public import TruthCore.Science.ReadingSelfCertification

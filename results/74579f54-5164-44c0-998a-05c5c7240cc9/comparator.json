@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Science.PolynomialInduction.Challenge",
+  "solution_module": "TruthCore.Results.Science.PolynomialInduction.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Science.PolynomialInduction.certificate"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "enable_nanoda": true
+}

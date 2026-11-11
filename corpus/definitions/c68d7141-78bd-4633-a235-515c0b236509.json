@@ -1,0 +1,9 @@
+{
+  "id": "c68d7141-78bd-4633-a235-515c0b236509",
+  "label": "Degree-bounded polynomial identifiability",
+  "term": "degree-bounded polynomial identifiability",
+  "definition": "Identifiable s d means every two formal polynomials over a commutative integral domain, both with natDegree at most d, agreeing at every distinct sample in Finset s, are equal as coefficient polynomials. This is injectivity on the stipulated class, not existence for arbitrary observations. vanishing s is the product of X-C x over s, including empty product one. Evaluation, natDegree, field and integral-domain operations use Mathlib meanings. Coordinates and degree bound are supplied mathematical parameters; physical applicability and their epistemic warrant remain OPEN.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Science.PolynomialInduction.Identifiable",
+  "note": "Analyst formulation #1395, attribution deferred; docs/notes/carneades-induction.md. No root bridge established."
+}
