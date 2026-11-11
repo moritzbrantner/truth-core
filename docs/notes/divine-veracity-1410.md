@@ -20,6 +20,19 @@ are unchanged. Knows means holds-as-known and remains nonfactive. A distinct
 assent-to-held-known bridge recovers 4d47d4ae and 7cffee54; neither implies
 ad56f066. No imported theorem family is duplicated.
 
+**Representation boundary.** The inherited attitudes have type `Being → Prop → Prop`:
+this is an **extensional truth-value-level abstraction**. With propositional
+extensionality, logically equivalent contents are identical; classically all
+true propositions are equivalent to True and all false ones to False. The
+formalism therefore cannot distinguish selective assent, assertion or
+presentation among co-true contents (or among co-false contents). Full
+truth-completeness in this encoding must not be advertised as capturing
+individuated omniscient cognition. Transfer to individuated assertoric and
+cognitive contents is a separate **OPEN** representation bridge throughout the
+graph, shared by the inherited route and these alternatives. A future richer
+content type with a truth interpretation would require fresh binding and
+semantic review; no such transfer is proved here.
+
 All propositions concern the same speaker, attitude and fixed context. The
 unrestricted scope is Lean Prop, including negations and contingent claims;
 there is no world/time quantification. These are actual assertions, not power
@@ -110,8 +123,9 @@ to actual contingents, distinguishing them from undetermined causes. Article
 14 treats enunciations without imposing discursive composition. These motivate
 separate actuality, access and content-to-assent burdens. Knowledge of possible
 effects does not settle which free contingent occurs; representation of an
-enunciation is not assent to its truth. Our Apprehends concerns the actual
-obtaining content rather than entertaining either side. The general bridge
+enunciation is not assent to its truth. The intended Apprehends reading concerns an obtaining content, but its
+extensional encoding does not capture individuation or selective presentation.
+Even after that OPEN representation transfer, the general bridge
 ApprehensionAssented is still OPEN: an interpreter must justify why presentation
 here is judgment-ready. One can deny that bridge while allowing presentation.
 No claim that immateriality alone proves actual truth-completeness is made.
@@ -179,9 +193,16 @@ The lower argument tree is more informative than an opaque perfection premise:
 its sign-function reasoning and cognitive-defect reasoning offer different
 reasons, with distinct failure points. They are not independent corroboration
 where they share divine-perfection applicability. B has a smaller sincerity
-burden but pays an actual-countertruth cognition burden; neither route is
+burden but requires its selected countertruth attitude in the formal abstraction;
+a genuine actual-countertruth cognition burden appears only after the OPEN
+individuated-content transfer. Neither route is
 currently shown better warranted overall. Beneficial deception is not defeated.
-No premise, ad56f066, historical revelation or Catholicism root is established.
+No independent philosophical warrant or fully grounded establishment is supplied
+for these premises, ad56f066, historical revelation or the Catholicism root.
+The computed legacy classification nevertheless changes 7cffee54 from
+supported to closed because the new result concludes it conditionally; its
+sincerity and assent-to-held-known dependencies remain OPEN. This computed
+closure is distinct from independent warrant and fully grounded establishment.
 
 Strengthen this assessment by defending the assertion norm against the strongest
 welfare/agency case and showing its divine applicability without assuming the
@@ -199,7 +220,7 @@ Every theorem's hypotheses and conclusion use the same Signature and Veracity;
 the root connection specializes the existing Agency bridge. Frozen Challenges
 retain exact signatures. Classical reasoning is explicit in B, completeness plus
 consistency and defect exclusion. No axiom declares divine truthfulness. Controls
-certify only their stated structural interpretations. The computed premise delta
+certify only their stated extensional structural interpretations. The computed premise delta
 belongs in the PR evidence; new connected options are not floor discharge.
 
 Service experiment at clean preview e02bd650, continuation-1111:
