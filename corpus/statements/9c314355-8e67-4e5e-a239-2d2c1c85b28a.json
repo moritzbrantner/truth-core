@@ -1,7 +1,7 @@
 {
   "id": "9c314355-8e67-4e5e-a239-2d2c1c85b28a",
   "label": "In every possible history, each momentary state has finitely many causal ancestor states",
-  "paraphrase": "OPEN analyst premise, attribution deferred (modal, event-based causal finitism): in every history accessible from the selected world, the supplied relation of direct causation between momentary total states gives each moment finitely many distinct ancestor moments along chains of one or more edges. It says nothing about the length of the past unless earlier states are linked causally to later ones.",
+  "paraphrase": "OPEN analyst premise, attribution deferred (modal, event-based causal finitism): in every history accessible from the selected world, the supplied relation of direct causation between momentary total states gives each moment finitely many distinct ancestor moments along chains of one or more edges. It says nothing about the length or density of the past unless earlier states are linked causally to later ones.",
   "lean_declaration": "TruthCore.Causality.ComingToBeHorns.StateCausalFinitism",
   "definition_ids": [
     "036bb1b9-e472-4046-af06-6fa7bfcd7da4",

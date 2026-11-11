@@ -9,10 +9,11 @@
   "inference_ids": [
     "4eabe520-6960-4a47-ac9e-c8895ffc477b"
   ],
-  "meaning": "Prices horn H2 of the initial-state view with causal finitism. An unfounded populated moment t starts a strictly descending sequence of moments (dependent choice); its members below t are pairwise distinct because the strict temporal order is irreflexive and transitive, and by the precedence bridge each is a causal ancestor of the state at t; so t has infinitely many distinct ancestors, against finite distinct ancestry. No no-loops premise is needed. The two premises are independent and both needed (controls 1 and 2): finitism alone is satisfied by causally idle earlier states, and the bridge alone by an endless past in which every earlier state causes every later one. Both premises are OPEN; the bridge is the explicit step from mere temporal precedence to causation. No premise is established.",
+  "meaning": "Prices horn H2 of the initial-state view (a non-well-founded populated past, endless or dense) with causal finitism. An unfounded populated moment t starts a strictly descending sequence of moments (dependent choice); its members below t are pairwise distinct because the strict temporal order is irreflexive and transitive, and by the precedence bridge each is a causal ancestor of the state at t; so t has infinitely many distinct ancestors, against finite distinct ancestry. No no-loops premise is needed. The two premises are independent and both needed (controls 1 and 2): finitism alone is satisfied by causally idle earlier states, and the bridge alone by an endless past in which every earlier state causes every later one. Together they also exclude contingent presence at non-initial moments of dense time (control 8). Both premises are OPEN; the bridge is the explicit step from mere temporal precedence to causation. No premise is established.",
   "definition_ids": [
     "036bb1b9-e472-4046-af06-6fa7bfcd7da4",
     "22ca5513-6cfc-4af2-a4db-9ef4ac7f6712",
+    "008cb21a-256c-5a90-822c-acd4591d699a",
     "5e0dd6bc-5e5a-5f8b-ade5-b0d720bd130e",
     "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
     "6e811e85-b983-5988-b20a-f4f3ee83c50e",

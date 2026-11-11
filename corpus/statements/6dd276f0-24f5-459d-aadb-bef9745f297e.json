@@ -1,7 +1,7 @@
 {
   "id": "6dd276f0-24f5-459d-aadb-bef9745f297e",
   "label": "Possibly, CONCRETE_AND_ABSTRACT_6 contingents exist in a history where each has an earlier ground",
-  "paraphrase": "OPEN analyst possibility premise, attribution deferred: some history accessible from the selected world has a contingent concrete individual present at some moment; every contingent concrete individual existing there has a concrete ground existing there under the supplied grounding relation; and every ground of a contingent concrete individual is present at a moment strictly before each moment at which that individual is present (no merely simultaneous grounding). Nothing is said about the actual world, well-founded grounding, or the length of the past.",
+  "paraphrase": "OPEN analyst possibility premise, attribution deferred: some history accessible from the selected world has a contingent concrete individual present at some moment; every contingent concrete individual existing there has a concrete ground existing there under the supplied grounding relation; and every ground of a contingent concrete individual is present at some moment strictly before each moment at which that individual is present. A ground present at all times satisfies the last clause; it fails only where a ground has no earlier moment of presence, in particular at a moment with nothing earlier, so a sustaining (per se) ground is allowed if it was also present before. Together with founded populated pasts this premise entails that possibly a necessary concrete individual exists (possiblyNecessaryOfEarlierGrounds): a rival who denies that a necessary concrete being is possible rejects it outright. The CONCRETE_AND_ABSTRACT_6 tag names the adopted reading of the supplied Concrete parameter; the Lean type does not enforce it.",
   "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PossiblyEarlierGroundedPopulated",
   "definition_ids": [
     "d0abd99d-13d2-499a-9f1e-bf6d5ff60cdc",
@@ -16,6 +16,7 @@
   ],
   "disambiguation_ids": [
     "7507d645-874d-5434-add8-2f49c2801d36",
-    "623ddbf6-9683-5361-bae4-e348a00ec680"
+    "623ddbf6-9683-5361-bae4-e348a00ec680",
+    "bedfab81-905c-5d1a-b834-e20b8007b3da"
   ]
 }

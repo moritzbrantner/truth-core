@@ -3,6 +3,7 @@ module
 public import TruthCore.Causality.ContingentComingToBe
 public import TruthCore.Causality.IndexedSignalReaper
 public import TruthCore.Case.Catholicism.StageOne.CausalFinitism
+public import Mathlib.Algebra.Order.Field.Rat
 
 /-!
 # Pricing the two horns left to the initial-state view
@@ -18,33 +19,51 @@ denies that possibility must say of every accessible history either
 past. This module states the bridges under which existing results put a price
 on each horn.
 
-**H2 (endless populated past).** Two independent bridges, each with an existing
-result behind it:
+**H2 (non-well-founded populated past).** "Founded" is `Acc` of the strict
+order of moments. H2 therefore covers an endless past *and* a dense past with a
+first moment: on non-negative rational times, every moment after 0 has the
+endless descent `t, t/2, t/4, …` below it (`Control.densePast`). Denying H2
+everywhere (`PopulatedPastsFounded`) thus forbids a contingent concrete thing
+to be present at any non-initial moment of a dense-time history. That is an
+anti-continuum price paid by this side, not by the rival. Two formulations:
 
-* `ReaperAssembly`: along any endless descending sequence of moments below a
-  populated moment of an accessible history, Reaper stations obeying the four
-  local rules of `IndexedSignalReaper` could be placed (station `n` at the
-  `n`-th moment, station `n + 1` earlier). This is a patchwork or assembly
-  premise in the style of the Grim Reaper arguments for a finite past. The
-  rules are causal (stations respond to signals); temporal precedence alone
-  contains no stations. Its consequent is a satisfiability claim that the
-  verified `IndexedSignalReaper.impossible` refutes, so the bridge is exactly
-  as strong as the founded pasts it is used to derive: its content is the
-  claim that an endless past would leave room for such stations.
 * `StateCausalFinitism` with `PrecedenceIsStateCausation`: momentary total
   states of each accessible history, related by a state-causation relation on
   moments, have finitely many causal ancestors (modal, event-based causal
   finitism, reusing `FiniteDistinctAncestry`), and every earlier moment's state
   is a causal ancestor of the state at a populated moment. The second premise
-  is the explicit bridge from mere temporal precedence to causation; an
-  endless past of mere succession with causally idle earlier states rejects it.
+  is the explicit bridge from mere temporal precedence to causation; a past of
+  mere succession with causally idle earlier states rejects it. This is the one
+  derivation with independent content.
+* `ReaperAssembly`: along any strictly descending sequence of moments below a
+  populated moment of an accessible history, a Nat-indexed Reaper station
+  system obeying the four local rules of `IndexedSignalReaper` exists. Its
+  consequent is a closed proposition about `Nat` functions that never mentions
+  the sequence, the history or its moments, and the verified
+  `IndexedSignalReaper.impossible` refutes it. So the bridge is equivalent to
+  "no such descent exists": a reformulation of `PopulatedPastsFounded`, and
+  its result is recorded as a near-transcription. A genuine patchwork premise
+  would need a vocabulary for assembling worlds from local pieces, which the
+  corpus lacks. A finite-to-global form over `Nat` functions is already
+  refuted as mathematics (`GrimReaperFiniteTests`).
 
 **H1 (a never-generated contingent thing).** `GroundsPrecedeAt` says that every
 ground of a contingent concrete thing is present at some moment strictly
-before each moment at which the grounded thing is present: no simultaneous
-grounding. With a founded past it makes an H1 thing ungrounded, against
-`BruteFoundationBoundary.EveryContingentGroundedAt`. Its rival is simultaneous
-(sustaining) grounding, as in a per se causal order.
+before each moment at which the grounded thing is present. A sustaining ground
+present at all times satisfies it. It fails exactly when some ground has no
+moment of presence before some moment of the grounded thing, in particular at
+a moment with nothing earlier. With a founded past it makes an H1 thing
+ungrounded, against `BruteFoundationBoundary.EveryContingentGroundedAt`.
+Rejecting it does not by itself mean simultaneous grounding: the grounding
+relation carries no temporal-presence constraint, so a ground may be
+simultaneous, later, or never present (`Control.laterGround`).
+
+**What the H1 bundle already contains.** `PopulatedPastsFounded` together with
+`PossiblyEarlierGroundedPopulated` entails that possibly a necessary concrete
+individual exists (`PossiblyNecessaryConcrete`): in the witnessing history the
+earlier grounds descend along a founded past and must stop at a non-contingent
+concrete ground. A rival who denies that a necessary concrete being is so much
+as possible therefore rejects that bundle outright.
 
 The grounding relation is a supplied world-relative relation as in
 `BruteFoundationBoundary.Profile`; the state-causation relation is a separate
@@ -107,8 +126,10 @@ def PrecedenceIsStateCausation {W B T : Type} [Preorder T] (h : History W B T)
 
 /-- Temporal priority of grounds in history `v`: whenever `y` grounds a
 contingent concrete individual `x` and `x` is present at `t`, `y` is present at
-some strictly earlier moment. It excludes grounding a contingent concrete
-thing only by a simultaneous ground. -/
+some strictly earlier moment. A ground present at all times satisfies it. It
+fails when some ground of `x` is not present at any moment before some moment
+of `x`'s presence: in particular at a moment with nothing earlier, and for a
+ground present only simultaneously, only later, or never. -/
 def GroundsPrecedeAt {W B T : Type} [Preorder T] (h : History W B T)
     (Concrete : B → Prop) (grounds : W → B → B → Prop) (v : W) : Prop :=
   ∀ x y t, Concrete x → ContingentAt h.ontic v x → grounds v y x →
@@ -125,6 +146,14 @@ def PossiblyEarlierGroundedPopulated {W B T : Type} [Preorder T]
     (∃ x t, Concrete x ∧ ContingentAt h.ontic v x ∧ h.IsAt v x t) ∧
     BruteFoundationBoundary.EveryContingentGroundedAt ⟨h.ontic, Concrete, grounds⟩ v ∧
     GroundsPrecedeAt h Concrete grounds v
+
+/-- Some history accessible from `w` contains a necessary concrete individual:
+one concrete individual exists there and at every world accessible from there
+(`BruteFoundationBoundary.NecessaryConcreteAt` at that history). -/
+def PossiblyNecessaryConcrete {W B T : Type} (h : History W B T)
+    (Concrete : B → Prop) (grounds : W → B → B → Prop) (w : W) : Prop :=
+  ∃ v, h.ontic.frame.access w v ∧
+    BruteFoundationBoundary.NecessaryConcreteAt ⟨h.ontic, Concrete, grounds⟩ v
 
 namespace Control
 
@@ -166,6 +195,30 @@ def mutualGrounds : Bool → Bool → Bool → Prop := fun _ y x => y ≠ x
 /-- State causation along the natural-number order. -/
 def natPrecedenceStates : Bool → Nat → Nat → Prop := fun _ s t => s < t
 
+/-- Later grounding: two individuals exist only at world `true`; `false` is
+present there only at time 0, `true` from time 1 on. Each grounds the other, so
+the ground of `false` is present only later, never simultaneously. -/
+def laterGround : History Bool Bool Nat where
+  ontic := { frame := universal, ExistsAt := fun w _ => w = true,
+             Causes := fun _ _ _ => False }
+  IsAt := fun w x t => w = true ∧ ((x = false ∧ t = 0) ∨ (x = true ∧ 1 ≤ t))
+  now := 0
+
+/-- Dense time with a first moment: the non-negative rationals. -/
+abbrev DenseTime : Type := {q : ℚ // 0 ≤ q}
+
+/-- The first moment of dense time. -/
+def denseZero : DenseTime := ⟨0, le_refl 0⟩
+
+/-- Dense coming-to-be: individual `false` exists at both worlds and is present
+at every time; individual `true` exists only at world `true` and is present
+there at every time after 0. -/
+def densePast : History Bool Bool DenseTime where
+  ontic := { frame := universal, ExistsAt := fun w x => x = false ∨ w = true,
+             Causes := fun _ _ _ => False }
+  IsAt := fun w x t => x = false ∨ (w = true ∧ 0 < t.1)
+  now := denseZero
+
 /-- Omission and nonvacuity controls, every individual counted concrete, two
 mutually accessible worlds:
 (1) endless generation with idle states: state-causal finitism holds, the
@@ -185,7 +238,16 @@ existence, inert emptiness, every contingent thing grounded, grounds do not
 precede, H1, founded coming-to-be not possible, no necessary concrete
 individual, and the grounding relation is not well-founded;
 (6) the rooted control with `false` grounding `true`: every bridge and premise
-of the new arguments holds together with founded coming-to-be. -/
+of the new arguments holds together with founded coming-to-be;
+(7) later grounding: populated pasts founded, every contingent thing grounded,
+grounds do not precede, a contingent thing never came to be, no grounding edge
+joins two individuals present at the same moment, and no necessary concrete
+individual exists;
+(8) dense time with a first moment: nothing precedes time 0, presence gives
+existence, inert emptiness, every contingent thing comes to be, A3 (a
+contingent-free moment before a populated one) holds, yet populated pasts are
+not founded, founded coming-to-be is not possible, the Reaper bridge fails, and
+no state-causation relation satisfies both finitism and the precedence bridge. -/
 def Certificate : Prop :=
   (StateCausalFinitism endless idleStates true ∧
     ¬ PrecedenceIsStateCausation endless all idleStates true ∧
@@ -221,7 +283,27 @@ def Certificate : Prop :=
     PrecedenceIsStateCausation rooted all natPrecedenceStates true ∧
     PopulatedPastsFounded rooted all true ∧
     PossiblyEarlierGroundedPopulated rooted all sustainGrounds true ∧
-    PossiblyFoundedComingToBe rooted all true)
+    PossiblyFoundedComingToBe rooted all true) ∧
+  (PopulatedPastsFounded laterGround all true ∧
+    BruteFoundationBoundary.EveryContingentGroundedAt
+      ⟨laterGround.ontic, all, mutualGrounds⟩ true ∧
+    ¬ GroundsPrecedeAt laterGround all mutualGrounds true ∧
+    ¬ AllContingentsComeToBeAt laterGround all true ∧
+    (∀ x y t, mutualGrounds true y x →
+      ¬ (laterGround.IsAt true x t ∧ laterGround.IsAt true y t)) ∧
+    ¬ BruteFoundationBoundary.NecessaryConcreteAt
+      ⟨laterGround.ontic, all, mutualGrounds⟩ true) ∧
+  ((∀ s : DenseTime, ¬ s < denseZero) ∧
+    CountTemporalNecessity.HistoryPresenceActual densePast ∧
+    EmptinessStaysEmpty densePast all ∧
+    AllContingentsComeToBeAt densePast all true ∧
+    PossiblyContingentsAbsentThenPresent densePast all true ∧
+    ¬ PopulatedPastsFounded densePast all true ∧
+    ¬ PossiblyFoundedComingToBe densePast all true ∧
+    ¬ ReaperAssembly densePast all true ∧
+    ∀ stateCause : Bool → DenseTime → DenseTime → Prop,
+      ¬ (StateCausalFinitism densePast stateCause true ∧
+        PrecedenceIsStateCausation densePast all stateCause true))
 
 end Control
 

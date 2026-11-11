@@ -3,6 +3,8 @@ import TruthCore.Results.Causality.ContingentComingToBe.Solution
 import TruthCore.Results.Causality.IndexedSignalReaper.Solution
 import Mathlib.Order.Interval.Set.Infinite
 import Mathlib.Order.Interval.Finset.Nat
+import Mathlib.Tactic.Linarith
+import Mathlib.Tactic.NormNum
 
 namespace TruthCore.Results.Causality.ComingToBeHorns
 open TruthCore.Causality.ComingToBeHorns
@@ -44,6 +46,19 @@ theorem possiblyFoundedOfEarlierGrounds {W B T : Type} [Preorder T]
     (hPast : PopulatedPastsFounded h Concrete w)
     (hPossible : PossiblyEarlierGroundedPopulated h Concrete grounds w) :
     PossiblyFoundedComingToBe h Concrete w := by
+  sorry
+
+/-- The A3′ support bundle already contains the possibility of a necessary
+concrete being. In the witnessing history, a present contingent thing has a
+ground present strictly earlier; if that ground is contingent, repeat. The
+descent runs along the founded past of the first moment, so it stops at a
+ground that is not contingent: a concrete individual existing in that history
+and in every history accessible from it. -/
+theorem possiblyNecessaryOfEarlierGrounds {W B T : Type} [Preorder T]
+    (h : History W B T) (Concrete : B → Prop) (grounds : W → B → B → Prop) (w : W)
+    (hPast : PopulatedPastsFounded h Concrete w)
+    (hPossible : PossiblyEarlierGroundedPopulated h Concrete grounds w) :
+    PossiblyNecessaryConcrete h Concrete grounds w := by
   sorry
 
 open TruthCore.Causality.ComingToBeHorns.Control

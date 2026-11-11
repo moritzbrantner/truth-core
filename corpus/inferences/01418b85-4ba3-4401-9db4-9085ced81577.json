@@ -3,8 +3,8 @@
   "label": "Coming-to-be horn controls checked (inference)",
   "input_statement_ids": [],
   "output_statement_id": "4a61feb1-d943-4e8c-85d1-cac6396597d9",
-  "rule": "Explicit interpretations with integer and natural-number times, checked by case analysis and linear arithmetic",
-  "meaning": "Each horn survives every bundle with one member omitted. H2 (endless populated past) survives state-causal finitism without the precedence bridge, the precedence bridge without finitism, and an earlier-grounded endless past; under the Reaper bridge it fails in every model. H1 (a never-generated contingent thing) survives grounding with simultaneous grounds, and without a necessary individual only with circular grounding. The rooted control satisfies every premise and bridge of the new arguments jointly. Model claims concern these interpretations only.",
+  "rule": "Explicit interpretations with integer, natural-number and non-negative rational times, checked by case analysis and linear arithmetic",
+  "meaning": "Each horn survives every bundle with one member omitted. H2 (a non-well-founded populated past, endless or dense) survives state-causal finitism without the precedence bridge, the precedence bridge without finitism, and an earlier-grounded endless past; under the Reaper bridge it fails in every model; on dense time with a first moment it holds while A3 holds and every bridge fails. H1 (a never-generated contingent thing) survives grounding whenever some ground has no earlier presence: simultaneous (controls 4 and 5) or only later (control 7); without a necessary individual only with non-well-founded grounding. The rooted control satisfies every premise and bridge of the new arguments jointly. Model claims concern these interpretations only.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

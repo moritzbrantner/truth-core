@@ -5,6 +5,8 @@ public import TruthCore.Results.Causality.ContingentComingToBe.Solution
 public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
 public import Mathlib.Order.Interval.Set.Infinite
 public import Mathlib.Order.Interval.Finset.Nat
+public import Mathlib.Tactic.Linarith
+public import Mathlib.Tactic.NormNum
 
 @[expose] public section
 
@@ -140,6 +142,37 @@ theorem possiblyFoundedOfEarlierGrounds {W B T : Type} [Preorder T]
   refine ⟨v, hwv, ?_, x, t, hx, hCont, hxt, hPast v hwv x t hx hCont hxt⟩
   exact comesToBeOfEarlierGrounds h Concrete grounds v (hPast v hwv) hGrounded hPrecede
 
+/-- The A3′ support bundle already contains the possibility of a necessary
+concrete being. In the witnessing history, a present contingent thing has a
+ground present strictly earlier; if that ground is contingent, repeat. The
+descent runs along the founded past of the first moment, so it stops at a
+ground that is not contingent: a concrete individual existing in that history
+and in every history accessible from it. -/
+theorem possiblyNecessaryOfEarlierGrounds {W B T : Type} [Preorder T]
+    (h : History W B T) (Concrete : B → Prop) (grounds : W → B → B → Prop) (w : W)
+    (hPast : PopulatedPastsFounded h Concrete w)
+    (hPossible : PossiblyEarlierGroundedPopulated h Concrete grounds w) :
+    PossiblyNecessaryConcrete h Concrete grounds w := by
+  classical
+  obtain ⟨v, hwv, ⟨x, t, hx, hCont, hxt⟩, hGrounded, hPrecede⟩ := hPossible
+  refine ⟨v, hwv, ?_⟩
+  have descend : ∀ t, Acc (fun a b : T => a < b) t → ∀ x, Concrete x →
+      ContingentAt h.ontic v x → h.IsAt v x t →
+      TruthCore.Causality.BruteFoundationBoundary.NecessaryConcreteAt
+        ⟨h.ontic, Concrete, grounds⟩ v := by
+    intro t hAcc
+    induction hAcc with
+    | intro t _ ih =>
+      intro x hx hCont hxt
+      obtain ⟨y, hy, hyExists, hyx⟩ := hGrounded x hx hCont.1 hCont
+      obtain ⟨s, hs, hys⟩ := hPrecede x y t hx hCont hyx hxt
+      by_cases hyCont : ContingentAt h.ontic v y
+      · exact ih s hs y hy hyCont hys
+      · refine ⟨y, hy, hyExists, fun u hu => ?_⟩
+        by_contra hAbsent
+        exact hyCont ⟨hyExists, u, hu, hAbsent⟩
+  exact descend t (hPast v hwv x t hx hCont hxt) x hx hCont hxt
+
 /-- No strictly descending sequence of natural numbers. -/
 theorem natNoDescent (c : Nat → Nat) (hDesc : ∀ n, c (n + 1) < c n) : False := by
   have hBound : ∀ n, c n + n ≤ c 0 := by
@@ -157,6 +190,108 @@ theorem natAcc (t : Nat) : Acc (fun a b : Nat => a < b) t :=
 open TruthCore.Causality.ComingToBeHorns.Control
 open TruthCore.Causality.ContingentComingToBe.Control (endless)
 open TruthCore.Causality.InertEmptiness.Control (all rooted)
+
+/-- No positive moment of dense time has a founded past: `t / 2` lies below `t`. -/
+theorem denseNotAcc (t : DenseTime) (hPos : 0 < t.1) :
+    ¬ Acc (fun a b : DenseTime => a < b) t := by
+  intro hAcc
+  induction hAcc with
+  | intro t _ ih =>
+    have hHalf : 0 ≤ t.1 / 2 := by linarith
+    exact ih ⟨t.1 / 2, hHalf⟩ (show t.1 / 2 < t.1 by linarith)
+      (show (0 : ℚ) < t.1 / 2 by linarith)
+
+/-- Control (7): later grounding. -/
+theorem laterGroundControl :
+    PopulatedPastsFounded laterGround all true ∧
+    TruthCore.Causality.BruteFoundationBoundary.EveryContingentGroundedAt
+      ⟨laterGround.ontic, all, mutualGrounds⟩ true ∧
+    ¬ GroundsPrecedeAt laterGround all mutualGrounds true ∧
+    ¬ AllContingentsComeToBeAt laterGround all true ∧
+    (∀ x y t, mutualGrounds true y x →
+      ¬ (laterGround.IsAt true x t ∧ laterGround.IsAt true y t)) ∧
+    ¬ TruthCore.Causality.BruteFoundationBoundary.NecessaryConcreteAt
+      ⟨laterGround.ontic, all, mutualGrounds⟩ true := by
+  have laterCont : ∀ x : Bool, ContingentAt laterGround.ontic true x :=
+    fun _ => ⟨rfl, false, trivial, Bool.false_ne_true⟩
+  refine ⟨fun _ _ _ t _ _ _ => natAcc t, ?_, ?_, ?_, ?_, ?_⟩
+  · intro x _ hEx _
+    refine ⟨!x, trivial, hEx, ?_⟩
+    cases x <;> simp [mutualGrounds]
+  · intro hPrecede
+    obtain ⟨s, hs, _⟩ := hPrecede false true 0 trivial (laterCont false)
+      (by simp [mutualGrounds]) ⟨rfl, Or.inl ⟨rfl, rfl⟩⟩
+    exact Nat.not_lt_zero s hs
+  · intro hCome
+    obtain ⟨s, hs, _⟩ := hCome false trivial (laterCont false) 0 ⟨rfl, Or.inl ⟨rfl, rfl⟩⟩
+    exact Nat.not_lt_zero s hs
+  · intro x y t hyx ⟨⟨_, hx⟩, ⟨_, hy⟩⟩
+    cases x <;> cases y <;> simp_all [mutualGrounds]
+  · rintro ⟨x, _, _, hNec⟩
+    exact Bool.false_ne_true (hNec false trivial)
+
+/-- Control (8): dense time with a first moment. -/
+theorem densePastControl :
+    (∀ s : DenseTime, ¬ s < denseZero) ∧
+    TruthCore.Causality.CountTemporalNecessity.HistoryPresenceActual densePast ∧
+    EmptinessStaysEmpty densePast all ∧
+    AllContingentsComeToBeAt densePast all true ∧
+    TruthCore.Causality.InertEmptiness.PossiblyContingentsAbsentThenPresent
+      densePast all true ∧
+    ¬ PopulatedPastsFounded densePast all true ∧
+    ¬ PossiblyFoundedComingToBe densePast all true ∧
+    ¬ ReaperAssembly densePast all true ∧
+    ∀ stateCause : Bool → DenseTime → DenseTime → Prop,
+      ¬ (StateCausalFinitism densePast stateCause true ∧
+        PrecedenceIsStateCausation densePast all stateCause true) := by
+  have denseCont : ContingentAt densePast.ontic true true :=
+    ⟨Or.inr rfl, false, trivial, by rintro (h | h) <;> cases h⟩
+  have contTrue : ∀ v x, ContingentAt densePast.ontic v x → x = true ∧ v = true := by
+    intro v x hCont
+    obtain ⟨hEx, u, _, hAbsent⟩ := hCont
+    cases x
+    · exact (hAbsent (Or.inl rfl)).elim
+    · rcases hEx with h | h
+      · cases h
+      · exact ⟨rfl, h⟩
+  let one : DenseTime := ⟨1, by norm_num⟩
+  have notFounded : ¬ PopulatedPastsFounded densePast all true := fun hPast =>
+    denseNotAcc one (by norm_num [one])
+      (hPast true trivial true one trivial denseCont (Or.inr ⟨rfl, by norm_num [one]⟩))
+  refine ⟨fun s hs => ?_, ?_, ?_, ?_, ?_, notFounded, ?_, ?_, ?_⟩
+  · have h0 : s.1 < 0 := hs
+    linarith [s.2]
+  · intro v x t hp
+    rcases hp with hp | ⟨hp, _⟩
+    · exact Or.inl hp
+    · exact Or.inr hp
+  · intro v s t _ hEmpty x _ _
+    exact hEmpty false trivial (Or.inl rfl)
+  · intro x _ hCont t hxt
+    obtain ⟨rfl, _⟩ := contTrue true x hCont
+    rcases hxt with hxt | ⟨_, hPos⟩
+    · cases hxt
+    · refine ⟨denseZero, show (0 : ℚ) < t.1 from hPos, ?_⟩
+      rintro (h | ⟨_, h⟩)
+      · cases h
+      · exact lt_irrefl _ h
+  · refine ⟨true, trivial, denseZero, one, show (0 : ℚ) < 1 by norm_num, ?_,
+      true, trivial, denseCont, Or.inr ⟨rfl, by norm_num [one]⟩⟩
+    intro x _ hCont hx
+    obtain ⟨rfl, _⟩ := contTrue true x hCont
+    rcases hx with h | ⟨_, h⟩
+    · cases h
+    · exact lt_irrefl _ h
+  · rintro ⟨v, _, _, x, t, _, hCont, hxt, hAcc⟩
+    obtain ⟨rfl, rfl⟩ := contTrue v x hCont
+    rcases hxt with h | ⟨_, hPos⟩
+    · cases h
+    · exact denseNotAcc t hPos hAcc
+  · intro hAssembly
+    exact notFounded (populatedPastsFoundedOfReaper densePast all true hAssembly)
+  · rintro stateCause ⟨hFinite, hBridge⟩
+    exact notFounded
+      (populatedPastsFoundedOfStateFinitism densePast all stateCause true hFinite hBridge)
 
 /-- Omission and nonvacuity controls. -/
 theorem controls : TruthCore.Causality.ComingToBeHorns.Control.Certificate := by
@@ -177,7 +312,7 @@ theorem controls : TruthCore.Causality.ComingToBeHorns.Control.Certificate := by
     fun _ => ⟨rfl, false, trivial, Bool.false_ne_true⟩
   refine ⟨⟨?_, ?_, endlessUnfounded⟩, ⟨?_, ?_, ?_⟩, ⟨?_, ?_, endlessNotPossible⟩,
     ⟨?_, ?_, ?_, ?_, ?_, ?_⟩, ⟨?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_, ?_⟩,
-    ⟨?_, ?_, ?_, ?_, ?_, ?_⟩⟩
+    ⟨?_, ?_, ?_, ?_, ?_, ?_⟩, laterGroundControl, densePastControl⟩
   -- (1) idle states
   · intro v _ t
     refine Set.Finite.subset Set.finite_empty ?_
