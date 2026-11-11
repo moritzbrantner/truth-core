@@ -254,9 +254,15 @@ admits q. Existence remains separate: degree-zero polynomials cannot fit outputs
 That elementary observation is explanatory prose, not an extra certified result.
 
 Affine substitution `p.comp (C a * X + C b)` preserves natDegree when a≠0.
-This is the exact class map: for z=a*x+b the transported law is
-p((z-b)/a), and the inverse substitution is a*z+b, so the two degree-bounded
-classes correspond. The certificate proves degree preservation, not a new
+For reversible coordinate transport, assume a field with nonzero slope,
+or an integral domain with unit slope. Under that additional assumption,
+for z=a*x+b the transported law is p((z-b)/a), with division interpreted using
+the inverse of the unit, and the inverse substitution is a*z+b; the two
+degree-bounded classes then correspond. Nonzero slope alone over an integral
+domain does not supply this correspondence: over ℤ, z=2*x is not surjective
+and transporting p(x)=x requires z/2, outside ℤ[z]. The certificate proves the
+more general degree-preservation result; reversible transport is the qualified
+explanation above, not a separately certified consequence. Neither supplies a
 physical symmetry or an independently warranted coordinate group. Zero slope
 collapses a nonconstant polynomial and is deliberately excluded.
 
