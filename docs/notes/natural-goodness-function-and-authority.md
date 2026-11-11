@@ -755,3 +755,329 @@ judgment in step 2 against the fully end-relative account, or independent
 warrant for constitutive justice. It requires a substantive normative argument,
 not another free verdict model or more proof search over the old signature.
 The wider investigation remains open; this checkpoint does not exhaust it.
+
+## Eligibility without practical force: continuation of #699/#563 (2026-11-11)
+
+Complete worker proposal for the master's independent semantic challenge;
+**not yet reviewed support**. Evidence baseline: main
+`0e000912934179064919bca5e3e29a3fcb913ddd`,
+including #1405 and #1403. No new theorem, primitive reason field, historical
+attribution or certified countermodel is introduced. The earlier certificates
+are reused only for their actual types. This section tests an additional
+argument, rather than repeating their omission result as evidence against B.
+
+### What the rival accepts, and what is being tested
+
+Retain the same offender/victim/kill/killing scenario fixed above, including
+actual absence of punishment. Accurate information, coherent ends, feasible
+abstention and absence of adverse effects on the offender's accepted ends are
+additional analyst assumptions. `HardCases` does not entail them. The rival
+can acknowledge the victim's noninstrumental loss as such, including that the
+victim has a reason to resist. This is stronger than merely recording the
+word “loss” while denying its beneficiary-relative significance.
+
+Distinguish three uses of “consider”: (i) represent a fact accurately, (ii)
+allow it to enter an inquiry into consequences and applicability of one's
+commitments, (iii) give it some negative practical force in assessing an act.
+These are working prose distinctions, not completed corpus sense definitions.
+Eligibility in (ii) prevents a fact being suppressed before its relevance is
+tested. It does not prescribe the result of that test. The disputed B concerns
+(iii). If “equal eligibility” already means that each comparable loss counts
+against its imposition, it already includes the practical content at issue;
+renaming that commitment “information” supplies no independent warrant.
+
+The strongest informed goal-indexed rival accepts accurate consequence
+representation and consistency, and chooses means in light of its accepted
+ends. Even granting a normative epistemic requirement to avoid misrepresenting
+known facts, the object of that requirement is belief/inquiry. The practical
+conclusion requires a reason concerning which act to perform. A reason to
+correct the belief “nobody loses anything” can be satisfied by acknowledging
+“the victim loses continued life” while selecting the act. No denial of the
+loss is required by the rival account. Conversely, a moralist who misdescribes
+the loss also fails the epistemic standard. Accuracy does not select a moral
+verdict by itself.
+
+This distinguishes an epistemic reason from an instrumental practical reason
+to acquire information. Information acquisition might be costly or pointless
+to an already fully informed agent. The test grants the epistemic requirement
+without deriving that requirement from efficient means choice or assuming
+that every fact must occupy attention at every moment.
+
+### Positive arguments for force, and their strongest replies
+
+**Full appreciation argument.** A critic argues: fully understanding a loss
+requires apprehending its badness for its subject; genuinely apprehended
+badness calls for avoidance; therefore recognizing the victim's loss gives
+the offender a reason against imposing it. The first step has substantial
+content: treating life only as a useful object misses a subject's welfare.
+Granting it repairs that deficiency. The second step still changes the reason
+holder. “Calls for avoidance” can mean that the beneficiary has a reason, which
+the rival accepts; if it means every deliberate imposer has a reason, it states
+the consequential bridge. A motivational response to vivid appreciation may
+be evidence about an agent's concerns, but is not the conceptual identity of
+accurate understanding and practical endorsement. This argument therefore
+improves the account of the loss without deriving B from the shared epistemic
+commitments. That is an analysis of its steps, not a proof that B is false.
+
+**No arbitrary exclusion argument.** A critic argues: reasons must track
+relevant differences; comparable noninstrumental losses have the same feature
+making them bad; changing their beneficiary does not change that feature;
+therefore the offender cannot exclude the victim's loss. This has force
+against someone who already treats beneficiary-neutral badness as sufficient
+for practical force, or promises to justify impositions to every affected
+subject. But the strongest rival identifies an additional relation: bearing
+on the deliberator's ends. Its principle can apply uniformly to every reason
+holder while giving different people different reasons. There is no formal
+inconsistency in that index dependence. The critic's answer is that welfare
+loss is itself practically relevant to its deliberate imposition regardless
+of ends. That is a substantive competing relevance standard, not a conclusion
+of consistency. The rival owes an account of end-indexing, but failure to
+supply an exhaustive theory would not alone establish the critic's standard.
+
+**Means and dominance argument.** A critic proposes a narrower bridge:
+when abstention preserves every accepted end just as well and avoids the
+victim's loss, choosing the loss is gratuitous. Conditional on an accepted
+principle against gratuitous imposition, this can yield a practical objection
+without equal weights or a decisive ban. However, “no accepted end is worse”
+is only weak dominance relative to those ends; strict improvement for the
+victim is not strict improvement in that ordering unless victim welfare is
+included. An instrumental account can permit indifference between tied
+options. Requiring every tie to be broken against another's loss adds a
+practical norm. Moreover, the fixed case gives the offender a benefit from
+killing; it does not say abstention preserves it. Removing that difference
+creates a neighboring test, not a solution to the original case. Even a
+justified tie-break norm would need a further extension to yield a pro-tanto
+reason when the offender gains. No scalar welfare score resolves this gap.
+
+**Authority of justification argument.** A critic argues that someone who
+selects an act imposing another's loss must be able to justify it to that
+subject, and the subject's interest supplies an objection requiring an answer.
+This is an intelligible positive basis for standing: the actor exercises
+control over a life that belongs to another subject, rather than merely
+choosing how to use the actor's own resources. It explains why the victim's
+objection concerns this decision. The strongest rival accepts causal
+responsibility and accurate identification of the subject, while denying a
+universal obligation to justify choices to affected people. If it demands only
+prudential restraint or negotiates reciprocal institutions for itself, there
+is no contradiction with that denial. If it instead claims that its own loss
+binds others independently of their ends under a universal principle covering
+comparable subjects, its exclusion of this victim conflicts with that added
+principle. Self-concern alone does not supply that universal commitment.
+
+This last argument locates a consequential bridge worth retaining: **deliberate
+control of another's noninstrumental welfare makes that subject's objection
+normatively authoritative for the chooser, at least pro tanto**. Its proposed
+ground is the affected subject's status as someone whose life is being
+controlled, rather than epistemic completeness. Its objection is that the
+normative authority of that status remains to be defended against end-indexing.
+It is broader than the one killing, so it has explanatory reach, but it is not
+an independently derived neutral premise. The local-B defense should expose
+this dependence rather than count representation, relevance and standing as
+three independent supports.
+
+### Conditional inferences and controls
+
+At the prose level, grant an agent a practical commitment to count every
+comparable deliberately imposed noninstrumental loss against its action,
+regardless of beneficiary, together with accurate application of that
+commitment to this killing. B follows by application. Grant instead only a
+commitment to accurately identify such losses: the inference above has no
+step conferring force. These are transparent applications of the stipulated
+commitments, not new non-transcription formal progress. Encoding the first
+as a one-line implication would not improve its independent warrant.
+
+Further conditionalization is useful: accepting a norm of admissible public
+justification plus the rule that an affected subject's unanswered welfare
+objection supplies a pro-tanto reason gives B when this objection is unanswered.
+An end-relative justification of the gain is not thereby shown inadequate:
+its inadequacy is precisely part of the authority dispute. Neither “unanswered”
+nor “admissible” may silently mean “fails to agree with B.” No constitutive
+justice route is completed by identifying morality with rationality.
+
+Rescue and consent test this authority proposal rather than disappear from
+it. A subject can have an interest in continued life while authorizing a risk
+or accepting a loss for rescue. That may answer an objection, change the
+applicable interest description, or introduce a countervailing consideration;
+it does not show that information about the loss was false. Two retained
+pro-tanto reasons need not determine a choice. Actual impunity still precludes
+inventing punishment as a shared practical reason. Railton's retained
+obligation and his instrumental-reason boundary remain as recorded above;
+this analyst rival is not attributed as his complete theory.
+
+### Proposed judgment and substantive reassessment
+
+**Updated provisional assessment:** the information/means/consistency route
+has not supplied independent support for local B. Its positive arguments have
+been reconstructed: full appreciation changes from beneficiary-relative
+badness to chooser force; anti-arbitrariness disputes relevance standards;
+dominance needs a further norm and may alter the case; justification identifies
+a substantive authority premise. These are explicit inferential gaps, not a
+negative theorem about all possible derivations or a conclusion from failed
+proof search. The strongest rival can acknowledge the loss without practical
+endorsement under its stated end-indexed criterion. This remains a prose
+counteraccount, not certified actual cognition or metaphysical possibility.
+
+The earlier conditional defense of B remains. Its warrant has **not increased**
+merely because loss information is eligible for deliberation. Affected standing
+still does much of its work; the reason why this subject's objection binds this
+chooser is the live normative question. The authority argument makes that
+question more precise and provides a positive rationale to challenge, but does
+not establish its own authority from shared epistemic commitments. No winner,
+permission, categorical compulsion, root establishment or new proof route is
+claimed. The goodness/applicability and first-precept connection plan above is
+unchanged; no old certificates or root interfaces are strengthened.
+
+This assessment would change if an independently justified principle accepted
+by the rival makes an affected subject's objection binding, or if an actual
+universal practical commitment of the offender is shown to cover this victim.
+Evidence that vivid information changes concern would support a psychological
+claim, and would require a separate authority argument before establishing B.
+A counterexample to the proposed authority of affected status would weaken
+that route, with consent, responsibility and rescue conditions held explicit.
+
+The assigned shared-commitment test is ready for substantive reassessment.
+Further information correction, self-reversal or a free reason field under
+the same commitments would repeat the located gap. The next materially
+different investigation is whether deliberately controlling another subject's
+life generates a claim of justification independently of reciprocal benefit,
+and what grounds the authority of that claim. It must compare the positive
+status/control argument with the rival's account of authority; it cannot
+assume public justification merely from participation in deliberation. That
+normative-warrant target warrants a fresh coordinator allocation rather than
+an unnoticed expansion into a complete theory of practical authority. The
+present complete proposal awaits the master's independent challenge.
+
+## Matched control, authorization and rescue: authority test (#699, 2026-11-11)
+
+Complete proposed continuation for master challenge, based on PR #1407 head
+`15715a2b5e9603dca0e466ae112a9f79a708fe62` and fetched main
+`0e000912934179064919bca5e3e29a3fcb913ddd`. The prior accepted analysis is
+retained. This is analyst warrant analysis, with no new historical attribution,
+Lean assertion or certified case model.
+
+### The claim being tested
+
+Five different relations must be distinguished. Causal control is the actor's
+ability deliberately to bring about the bodily outcome. Standing to ask and
+receive an explanation is a proposed directed entitlement of this subject
+against this actor, not merely the ability to speak. Authority of objection
+means that the subject's complaint requires a practically adequate answer;
+it does not mean that the subject must actually complain or accept the answer.
+A pro-tanto reason counts against the action without settling choice. A
+decisive constraint rules the action out in the specified circumstances. These
+are explicit working prose meanings, not new finished corpus sense records.
+Neither participation in deliberation nor acknowledgment of loss establishes
+any of the latter four by definition.
+
+A positive status/control/public-justification reconstruction is:
+
+1. The affected person has a life and interests of their own; this intervention
+   deliberately determines what happens to them. The subject's objection has
+   an identifiable object and addressee.
+2. A person whose interests another deliberately determines is owed an account
+   responsive to those interests, irrespective of reciprocal advantage. This
+   is the substantive directed-status norm, not a description of causal power.
+3. Such an account must answer the objection to imposing this loss; merely
+   reporting that the chooser gains does not answer it under an additional
+   standard disallowing unilateral gain as a sufficient answer.
+4. An unanswered objection supplies the chooser a pro-tanto reason against
+   proceeding. Decisive priority would require further premises.
+
+Step 1 explains why this actor and subject are related. Steps 2–4 give a
+positive conditional account of authority, but their normativity is not
+inferred from step 1. Step 3 is particularly important in the original
+benefiting-offender case: a requirement to *give an explanation* could be met
+by an accurate statement of private gain. Responsiveness as accurate mention
+is weaker than responsiveness as practical justification. Calling the latter
+“public” supplies no additional argument. No derivation of the three normative
+steps from the shared factual commitments has been supplied here.
+
+### Matched tests and explicit changes
+
+Use the same chooser and adult subject and the same fully understood,
+irreversible loss of a limb as a neighboring control. Fix causal control,
+physical loss, available abstention, impunity and absence of
+reciprocal benefit across the tests; capacity, risk and other context changes
+are specified below. This is not the original killing:
+continued life and bodily integrity are different interests. The interventions
+below are tests of the proposed general authority principle, not witnesses
+already contained in `HardCases` or `GoodsOmission`.
+
+| Case | Facts retained or changed | What it tests, without assuming a verdict |
+|---|---|---|
+| Harmful imposition | Nonconsensual, no rescue benefit; chooser gains privately. | Closest neighboring analogue of the original gain case. Neither party's instrumental interests are silently removed. |
+| Authorized imposition | Same physical loss, chooser gain, risk and absence of rescue; change only to informed, competent, specific and uncoerced authorization. | Authorization may answer an objection to unilateral control. It does not erase the physical welfare loss or by itself establish that all objections are answered. The subject's practical undertaking necessarily differs. |
+| Authorized rescue | Same physical loss and control; add an otherwise lethal condition, effective rescue, rescue intention, procedure risk and specific authorization; remove private chooser gain. | Survival and the subject's authorization can answer an objection to this means, conditional on necessity and proportionate risk. This is deliberately not a same-context comparison with harmful imposition. |
+| Unconscious rescue | Rescue facts retained; replace present capacity and authorization with incapacity and no known prior refusal. | An actual request or consent cannot be necessary for every justified intervention under a rescue norm. The subject's interests can figure in an answer without an actual conversation. Permission still requires that norm. |
+| Benefit-free rescue for chooser | Retain the authorized rescue's physical, risk and authorization facts, but remove its rescue intention and any accepted rescue end. Stipulate performance of the effective intervention with no payment, reputation, future reciprocity, satisfaction or other advancement of the chooser's ends. | Separates the subject's rescue interest from instrumental payoff to the chooser. If the chooser values rescue, that end would undo this stipulation; do not smuggle it back in. |
+
+The last case is a stipulated motivationally indifferent rescuer who performs
+the effective intervention without an accepted rescue end or inherited rescue
+intention, not a claim that every actual altruist lacks ends. If no
+accepted end is advanced, the end-relative account can treat rescue and
+abstention as tied; it need not prohibit rescue. Mere performance does not
+show that the actor has, or recognizes, an end-independent reason. This case
+therefore does not refute that account. It differs from the original killing
+where private gain is retained.
+
+Two harder limits test the proposed norm's content. First, a competent subject
+refuses the rescue for an informed personal commitment. Welfare responsiveness
+alone does not decide whether refusal is authoritative; unconditional rescue
+priority and unconditional subject veto are different additional norms.
+Second, informed authorization of gratuitous severe injury tests whether
+consent is sufficient. Specific consent may remove an objection to unauthorized
+control while leaving welfare, coercive-background or third-party objections.
+One cannot settle these cases by defining every consent as adequate or every
+unanswered objection as decisive. These cases expose missing priority and
+answer-adequacy rules; no unargued verdict is claimed as common ground.
+
+### Strongest surviving authority account and assessment
+
+The informed end-relative account can positively explain directed practices:
+people exchange assurances, delegate decisions and demand accounts through
+agreements and institutions serving their ends. Where such a commitment is
+actually accepted, its scope can give a reason to respond even when this
+particular response is costly. In the stipulated absence of any such end or
+commitment, the account denies that causal control alone creates a practical
+authority. It can recognize the subject's interest, their reason to object,
+and an independently specified moral obligation while denying an instrumental
+reason for the chooser. It need not demand universal protection for itself.
+These claims are a reconstruction, not an attribution of a complete theory
+to Railton or a certified model of actual cognition.
+
+The status account offers something that this rival does not: protection of
+the affected person against unilateral imposition without bargaining power.
+That is its positive rationale. Turning its protective function into a reason
+every chooser has requires defending the directed-status norm; desirable
+protection from the subject's perspective is not yet such a defense. Likewise,
+using promises would require evidence of an actual promise and its normative
+authority. No such shared commitment of the original indifferent offender is
+present in the case or established by the existing sources read above.
+
+**Proposed overall judgment:** the tests refine the content and scope of the
+public-justification route, but do not increase independent warrant for local
+B against this rival. Authorization can answer a particular objection without
+removing standing to request an explanation, proving that physical loss has
+no weight, or granting permission for all harm. Rescue adds interests and
+possible answers; it does not derive authority from control. The conditional
+status argument remains intelligible and undefeated by these tests, but no
+winner or increased categorical support is warranted. The three normative
+steps share the disputed authority dependence and are not independent
+corroboration. The goodness/first-precept connection and root-premise status
+remain unchanged.
+
+**Reassessment:** this matched-case approach is stalled as a discriminator
+between the two accounts on the shared commitments. It is not a refutation
+of either account or a general impossibility theorem. Adding more consent or
+rescue examples without a defended answer-adequacy standard repeats the same
+obstacle; encoding steps 2–4 followed by their instance would be a transcription,
+not independent warrant. No new proof is offered for that reason. A materially
+different reopening input is evidence of an actual universal undertaking
+covering this subject, or an independent defense of directed status explaining
+why private gain fails as an adequate answer and why that failure gives this
+chooser a reason. The existing source readings and certificates supply neither
+input. A rival-independent theory of promise/status authority is a possible
+new coordinator assignment, not a completed dependency here. No additional
+concrete discriminating test within this assigned matched-case approach has
+been identified. Master independent challenge must assess this complete
+proposal before its new judgments are used downstream.
