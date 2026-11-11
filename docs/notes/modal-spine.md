@@ -42,6 +42,28 @@ spec `specs/modal-spine-coming-to-be.toml`) from one open possibility premise:
 | | Premise | Status | Rival |
 |---|---|---|---|
 | A3′ | Possibly, every contingent concrete thing comes to be (was absent at some earlier moment) in a history with a founded past (no endless descent of moments). | open | recorded: the initial-state view, now incompatible with it by a checked theorem |
+| A3′w (weak version, use this one) | The same, with a past that has a *beginning* (some moment at or before the populated one has nothing earlier) in place of a founded past. `6d71688e` | open | the same initial-state view, also excluded by a checked theorem |
+
+The derivation of A3 used foundedness only to reach a moment with nothing
+earlier, so the weak version suffices
+(`BegunComingToBe.possibleContingentFreePast`, spec
+`specs/modal-spine-begun-coming-to-be.toml`). A3′ strictly strengthens A3′w
+(`possiblyBegunOfFounded`, registered `strengthens` relation). The difference
+matters: continuous time with a first moment gives every later moment a begun
+past but not a founded one (`t, t/2, t/4, …` descend endlessly; checked for
+non-negative rationals in `BegunComingToBe.controls`). So A3′ conflicts with
+every possible populated history having continuous time with a beginning, the
+standard picture of a universe with a beginning, and A3′w does not. Under A3′w
+the rival's second horn is a genuinely beginningless past. The control
+`BegunComingToBe.Control.zeno` (times `WithBot ℤ`: a first moment with no
+earliest moment after it) also shows that begun coming-to-be, together with an
+existing, earlier-present predecessor ground for every contingent thing, does
+not entail a necessary individual at any world: an endless descent of
+contingent grounds fits between the empty first moment and any later one. In
+the spine's existing route, necessity is supplied by inert emptiness (A2)
+together with the route's other premises. This indicates, but does not yet
+certify, that #1463's earlier-grounds support route loses its entailment of a
+possible necessary being once restated over begun pasts.
 
 So a holder of the initial-state view who denies a necessary concrete being is
 committed to this: in every possible history, either some contingent concrete
@@ -180,6 +202,7 @@ the join and the root and act-of-being premises in
 | A2 inert emptiness | A beginning out of nothing | survives | `InertEmptiness.necessaryConcrete` |
 | A3 possible contingent-free past (derived) | Initial-state view: no possible history has contingent things absent, then present | survives | `InertEmptiness.necessaryConcrete` |
 | A3′ possible founded coming-to-be | The same initial-state view | **excluded** by `ContingentComingToBe.possibleContingentFreePast`; survives only with an endless past or a never-generated contingent thing | the premise itself |
+| A3′w possible begun coming-to-be (weak version) | The same initial-state view | **excluded** by `BegunComingToBe.possibleContingentFreePast`; survives only if every accessible history containing a present contingent thing has a never-generated contingent thing or a beginningless past at every populated moment (histories without contingent things satisfy the rival trivially) | the premise itself |
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |

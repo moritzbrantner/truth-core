@@ -1,0 +1,11 @@
+{
+  "id": "dac51b9f-5ba2-470f-aca4-d0bba20c73a9",
+  "label": "Begun coming-to-be control checked",
+  "argument_id": "a61fe0a3-24ab-44e3-b97e-e92226bf6232",
+  "challenge_module": "TruthCore.Results.Causality.BegunComingToBe.Challenge",
+  "solution_module": "TruthCore.Results.Causality.BegunComingToBe.Solution",
+  "theorem": "TruthCore.Results.Causality.BegunComingToBe.controls",
+  "comparator_config": "results/dac51b9f-5ba2-470f-aca4-d0bba20c73a9/comparator.json",
+  "status": "solution-present",
+  "description": "Strictness and nonvacuity: begun coming-to-be is possible while founded coming-to-be is not, so the founded version strictly strengthens the begun one. In the same interpretation every contingent individual has an earlier-present existing predecessor that the control's grounding relation relates to it, yet no individual is necessary at either world: an endless descent of contingent grounds fits between the empty first moment and any later moment, and inert emptiness fails. So the begun coming-to-be plus earlier-present-grounds bundle does not entail a necessary individual; in the spine's existing route, necessity is supplied by inert emptiness (A2) together with the route's other premises. The non-negative rational conjunct checks that continuous time with a beginning gives every moment a begun past and no moment after 0 a founded one. Model claims concern these interpretations only."
+}

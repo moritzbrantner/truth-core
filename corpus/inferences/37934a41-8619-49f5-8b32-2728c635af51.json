@@ -1,0 +1,12 @@
+{
+  "id": "37934a41-8619-49f5-8b32-2728c635af51",
+  "label": "A possible contingent-free past from possible begun coming-to-be (inference)",
+  "input_statement_ids": [
+    "6d71688e-973a-4827-9427-85fff7532c9d"
+  ],
+  "output_statement_id": "0cb07f05-5268-4685-8213-0eefa9ec4255",
+  "rule": "Take a minimal moment of the populated moment's past; coming to be excludes contingent occupants there",
+  "meaning": "New non-transcription conditional support option for premise A3 of the modal spine to God's existence, from a strictly weaker premise than the founded version. In the accessible history the contingent individual x is present at t, and some moment m at or before t has nothing earlier. m differs from t, because x present at m would need an earlier moment of absence; so m is strictly before t. Any contingent concrete individual present at m would likewise need an earlier moment, so m is free of contingent concrete individuals. No frame condition, presence contract, inertness of emptiness, well-foundedness or causal relation is used. The single premise is OPEN and is a possibility claim. Unlike the founded version, it does not conflict with every possible populated history having continuous time with a beginning. Nothing is attributed to a source. No premise truth is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

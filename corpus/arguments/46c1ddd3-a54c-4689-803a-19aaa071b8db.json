@@ -1,0 +1,21 @@
+{
+  "id": "46c1ddd3-a54c-4689-803a-19aaa071b8db",
+  "label": "Founded coming-to-be gives begun coming-to-be",
+  "premise_statement_ids": [
+    "78a44599-dc67-4d1f-988a-ed84b8c517f9"
+  ],
+  "conclusion_statement_id": "6d71688e-973a-4827-9427-85fff7532c9d",
+  "inference_ids": [
+    "a9ad88ed-f8ef-44ec-a5c6-203a3f70feb6"
+  ],
+  "meaning": "Strength order between two sibling premises of the modal spine. The same accessible history, the same coming-to-be clause and the same populated moment are kept; the founded past of that moment yields a moment at or below it with nothing earlier (the existing minimalBelow lemma). The converse fails in the checked control. No premise is established.",
+  "definition_ids": [
+    "0a1dd099-ca32-4ad7-9237-291efbe54bcc",
+    "195b8983-2f55-48fa-ad55-35d77ebe2e00",
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "8aca16f2-088d-4566-8b99-2b8369ed929b",
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "c2b16e23-5bb5-4602-ac28-3ee32242fa96"
+  ]
+}
