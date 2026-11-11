@@ -117,7 +117,7 @@ for the obligation meanings, background boundaries and migration scope.
 
 There are three deliberately separate notions of verification:
 
-1. **Source integrity** — `scripts/source_evidence.py` checks that every formalized claim resolves to one passage, that the passage belongs to the registered work, and that the fetched edition bytes match the pinned Git blob SHA. Materialization makes the consulted text reproducible.
+1. **Source integrity** — `scripts/source_evidence.py check` validates offline that every formalized claim resolves to one passage and that the passage belongs to the registered work. Explicit materialization of a selected passage checks its acquired bytes against the recorded pins. CI does not reacquire historical witnesses or certify their current availability.
 2. **Source fidelity** — whether the claim is a defensible interpretation of the materialized passage in context. This remains scholarly/review judgment; materially different defensible readings should be stored separately.
 3. **Formal verification** — Lean and Comparator establish that an advertised conclusion follows from advertised formal premises. They do not establish source fidelity or the historical truth of those premises.
 

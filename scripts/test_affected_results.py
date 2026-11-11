@@ -283,7 +283,7 @@ class ImpactPlanTest(unittest.TestCase):
                 self.assertEqual(plan["selected"], ["RESULT-A"])
                 for key in ("lean", "library_changed", "comparator_library", "report", "explorer_tests"):
                     self.assertTrue(plan["checks"][key])
-                for key in ("source", "explorer", "full"):
+                for key in ("explorer", "full"):
                     self.assertFalse(plan["checks"][key])
         self.assertIn("TruthCore.Results.A.Solution", ar.nanoda_scope(self.root, ["TruthCore/Base.lean"])[1])
 
@@ -323,7 +323,7 @@ class ImpactPlanTest(unittest.TestCase):
                      "corpus/statements/S.json", "corpus/models/M.json", "results/RESULT-A/comparator.json"):
             with self.subTest(path=path):
                 plan = self.plan(path)
-                for key in ("lean", "source", "explorer_tests", "report", "comparator_library"):
+                for key in ("lean", "explorer_tests", "report", "comparator_library"):
                     self.assertTrue(plan["checks"][key])
                 self.assertFalse(plan["checks"]["explorer"])
                 self.assertFalse(plan["checks"]["library_changed"])
@@ -352,7 +352,7 @@ class ImpactPlanTest(unittest.TestCase):
                 plan = self.plan(path)
                 for key in ("explorer", "explorer_tests", "report", "comparator_library"):
                     self.assertTrue(plan["checks"][key])
-                for key in ("lean", "source", "library_changed"):
+                for key in ("lean", "library_changed"):
                     self.assertFalse(plan["checks"][key])
                 self.assertEqual(plan["selected"], [])
 
@@ -372,7 +372,7 @@ class ImpactPlanTest(unittest.TestCase):
             plan = self.plan(path, main=True)
             self.assertEqual(plan["mode"], "full")
             self.assertEqual(plan["selected"], ["RESULT-A", "RESULT-B", "RESULT-C"])
-            for key in ("lean", "source", "library_changed", "report"):
+            for key in ("lean", "library_changed", "report"):
                 self.assertTrue(plan["checks"][key])
             self.assertFalse(plan["checks"]["explorer"])
 
@@ -389,7 +389,7 @@ class ImpactPlanTest(unittest.TestCase):
                 )
                 self.assertEqual(result.stdout.split(), ["RESULT-A", "RESULT-B", "RESULT-C"])
                 self.assertIn("mode=full", output.read_text())
-                for key in ("lean", "source", "library_changed", "explorer", "report", "comparator_library"):
+                for key in ("lean", "library_changed", "explorer", "report", "comparator_library"):
                     self.assertIn(f"{key}=true", output.read_text())
                 self.assertIn("not fresh formal certification", summary.read_text())
 
@@ -515,6 +515,16 @@ def workflow_shell(step_name):
 
 
 class ComparatorAggregateTest(unittest.TestCase):
+    def test_source_checks_never_acquire_live_witnesses_in_ci(self):
+        workflow = (REPO / ".github/workflows/ci.yml").read_text()
+        for line in workflow.splitlines():
+            self.assertNotRegex(line, r"source_evidence\.py\s+(verify|materialize|raw-witness|web-hashes)\b")
+        attribution = workflow_shell("Check attribution of new or changed stating claims")
+        self.assertIn("attribution-check --base HEAD^1", attribution)
+        self.assertNotIn("--materialize", attribution)
+        self.assertIn("python3 scripts/corpus.py check", workflow)
+        self.assertIn("python3 -m unittest discover", workflow)
+
     def gate(self, **changes):
         environment = {"PLAN": "success", "LIBRARY": "skipped", "SHARDS": "skipped", "MODE": "subset",
                        "COUNT": "0", "EXPECT_LIBRARY": "false", "EXPECT_REPORT": "false", "EXPLORER": "false"}
@@ -600,8 +610,8 @@ class ComparatorAggregateTest(unittest.TestCase):
         self.assertIn("needs: comparator-plan", truth_cli)
         self.assertIn("if: needs.comparator-plan.outputs.truth_cli == 'true'", truth_cli)
         self.assertIn("truth_cli: ${{ steps.select.outputs.truth_cli }}", workflow)
-        for step in ("Bind argument records to result theorem types", "Verify immutable primary-source witnesses"):
-            self.assertIn("if: needs.comparator-plan.outputs.", workflow.split(f"- name: {step}\n")[1].split("run:")[0])
+        binding = workflow.split("- name: Bind argument records to result theorem types\n")[1].split("run:")[0]
+        self.assertIn("if: needs.comparator-plan.outputs.lean == 'true'", binding)
 
 
 class ExplorerInputsTest(unittest.TestCase):

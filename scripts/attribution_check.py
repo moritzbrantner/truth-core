@@ -12,8 +12,10 @@ carry that sentence is downgraded to a `supports` relation with a gap note
 (#987), not kept as a stating claim.
 
 The check is mechanical only about presence: the sentence is the worker's
-judgment, and review still checks it. It reads materialized passage text from
-the source cache; `--materialize` fetches what is missing.
+judgment, and review still checks it. The default check is offline: cached text
+is shown when available, and missing or stale text is explicitly not checked.
+Use `--materialize` for an opt-in passage check that fails on acquisition or
+integrity errors; cache availability never establishes that someone read a text.
 """
 
 from __future__ import annotations
@@ -34,7 +36,7 @@ ROOT = Path(__file__).resolve().parent.parent
 ATTRIBUTION_PREFIX = "The passage states "
 MIN_ATTRIBUTION_CHARS = 40
 # Fields whose change alters what a claim attributes to its source.
-ATTRIBUTED_FIELDS = ("statement_id", "source_id", "locator", "interpretation")
+ATTRIBUTED_FIELDS = ("statement_id", "source_id", "locator", "interpretation", "attribution")
 SCOPE_CHECKLIST = (
     "quantifier scope: does the passage say all/every/no where the premise does, or only some/this case?",
     "species/genus: does the passage speak of the whole genus the premise uses (every cause, every being), "
@@ -252,9 +254,9 @@ def report(base: str, *, materialize: bool, max_chars: int) -> tuple[str, list[s
         lines.append(f"claim interpretation: {claim['interpretation']}")
         lines.append(f"passage: {passage['id']} ({passage.get('kind') or 'text_witness'}), {passage['locator']}")
         if text is None:
-            lines.append(f"passage text: UNAVAILABLE ({where})")
-            if not se.is_bibliographic(passage):
-                problems.append(f"{claim['id']}: passage {passage['id']} text not read ({where})")
+            lines.append(f"passage text: NOT CHECKED in this run ({where})")
+            if materialize and not se.is_bibliographic(passage):
+                problems.append(f"{claim['id']}: passage {passage['id']} materialization failed ({where})")
         else:
             lines.append(f"passage text ({where}, {len(text)} characters):")
             lines.append(clip(text.rstrip(), max_chars))
@@ -276,7 +278,10 @@ def main(argv: list[str] | None = None) -> int:
         "--base", required=True,
         help="diff base, for example origin/main or the merge base; the head is always the working tree",
     )
-    parser.add_argument("--materialize", action="store_true", help="materialize passages not yet in the cache")
+    parser.add_argument(
+        "--materialize", action="store_true",
+        help="explicitly materialize selected passages; fail on acquisition or integrity errors",
+    )
     parser.add_argument("--max-chars", type=int, default=6000, help="clip each passage text (0: never)")
     args = parser.parse_args(argv)
     try:
