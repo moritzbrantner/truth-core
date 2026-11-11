@@ -11,6 +11,9 @@ theorem boydAscriptionConsistent : BoydAscriptionConsistent := by
   refine ⟨model, modelBoyd, ?_, ?_, ?_⟩
   · exact ⟨false, true, false, rfl, trivial, trivial, trivial, Bool.noConfusion⟩
   · exact ⟨false, true, rfl, trivial, rfl⟩
-  · exact ⟨false, true, rfl, by decide⟩
+  · refine ⟨false, true, rfl, ?_⟩
+    intro h
+    have impossible : (false : Bool) = true := h.1
+    cases impossible
 
 end TruthCore.Results.Comparison.NaturalisticRealism.BoydAscriptionConsistent

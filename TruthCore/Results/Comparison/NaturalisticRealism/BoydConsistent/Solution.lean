@@ -12,7 +12,10 @@ theorem boydConsistent : BoydConsistent := by
   refine ⟨model, ?_, ?_, ?_, ?_⟩
   · exact modelBoyd
   · exact ⟨false, true, trivial, trivial, trivial, Bool.noConfusion⟩
-  · exact ⟨false, true, rfl, by decide⟩
+  · refine ⟨false, true, rfl, ?_⟩
+    intro h
+    have impossible : (false : Bool) = true := h.1
+    cases impossible
   · exact ⟨false, trivial, rfl⟩
 
 end TruthCore.Results.Comparison.NaturalisticRealism.BoydConsistent
