@@ -468,3 +468,149 @@ Creed boundary remain separate. The new service edit at clean preview head
 e02bd650c2f31160dd1f965b439b1c185cdb421c had no diagnostics (content SHA256
 c6480812721643f25a2cf6258455f198170ef2d8c39b4a2f7a20a28c95200e35); its
 approximately 0.24-second request is development evidence only.
+
+## Minimum material overlap and the organismic continuation test
+
+### Selected question and source comparison
+
+This is a reading/reuse continuation after PR #1426, on
+`research/personal-identity-matter-1397`. It asks whether the relevant resurrection
+criterion requires any old material, and whether a positive organismic alternative
+can dispense with it. Existing identity, fission, attachment and material-scope
+results remain unchanged. No new uninterpreted numerical-person or causal oracle
+is added to Lean. This serves the same UNBUILT Creed interpretation bridge.
+
+[SCG IV.81 §§6, 10–13](https://jonhaines.com/thomas/english/ContraGentiles4.htm#81)
+explicitly joins the same soul to numerically same matter, appeals to the unity
+of matter as well as the rational soul, and preserves the composite's being
+through the soul. Its turnover and shared-flesh replies permit selection of
+material sufficient for due quantity and divine supplementation. This puts numerical material identity into the stated rationale. Whether that
+excludes wholly new countable constituents is itself an unresolved abstraction
+bridge: the text supplies neither an atomic-set translation nor a numerical
+minimum or independently explained test for the relevant same matter.
+
+[Compendium theologiae I.153–154, 159–161](https://jonhaines.com/thomas/english/Compendium.htm#153)
+likewise connects numerical form with numerical matter/body. Chapter 154's
+positive reconstruction uses the persisting soul and determinate matter under
+dimensions, while admitting new accidental union and corporeity. Chapters
+159–161 reject restoration of all historical material, allow supplementation,
+and give participation/priority replies to shared flesh. These passages reinforce
+the same-body/relevant-matter account; they do not directly settle the boundary
+case of no old material at all. The chapter numbers here follow the consulted
+Vollert English page: 153 is same-body return and 154 its miraculous mode.
+These passages cannot establish arbitrary new-particle sufficiency without
+resolving that same-matter interpretation.
+
+These are selected read translations/navigation findings, not newly registered
+attribution claims or an authenticated Latin-text comparison. The failure to
+find a quantitative threshold is a bounded reading result, not proof that none
+exists anywhere in the corpus or the historical works. An independently
+specified meaning of numerical matter remains necessary before translating this
+into a predicate on counted parts.
+
+### A positive organismic proposal with no old particles
+
+The author-hosted `pitsod.pdf` currently redirects to the Rutgers department
+homepage rather than returning the intended PDF; no source tooling was changed.
+The selected primary text was instead read as Dean W. Zimmerman's chapter
+*Personal Identity and the Survival of Death*, §§6.1 and 6.3–6.5, in
+[The Oxford Handbook of Philosophy of Death](https://katalogue.anoma.li/documents/Philosophy_of_Death.pdf),
+online chapter pp.47–60/80 (combined PDF pages185–198, zero-based).
+
+Zimmerman distinguishes gradual replacement (GR), essentially living existence
+(EA), and direct causal connection of later stages to earlier stages (NG).
+His proposed Falling Elevator mechanism retains direct organismic causation,
+but rejects GR: matter buds distant duplicates while remaining in the corpse;
+only the distant living arrangement continues the life. The childhood budding
+comparison introduces a closest-continuer condition under the stated assumptions;
+he also preserves Hudson's temporal-parts response. He calls these possibility
+stories and recognizes dissent. His quantum-statistical motivation is explicitly
+not inevitable, and is not treated here as established physics or a proof of
+organism identity. This is his proposed positive rival, not an actual occurrence
+or a certified metaphysical possibility.
+
+The material threshold now has a genuine competing proposal: the same organism
+may, on this account, continue by appropriately direct life-causation despite
+sudden total replacement of material constituents. A recreated psychological
+profile or external blueprint is insufficient on this version; the proposal
+claims continuity of the organism's life-producing causal process. The exact
+sense of that process, and whether the proposed miraculous connections can
+instantiate it, are open. Naming a relation immanent causation cannot settle
+those questions.
+
+### Restored commitments and tests using existing results
+
+The following distinguishes four questions that must not be collapsed.
+
+1. **All historical material versus some material.** The selected hylomorphic
+   texts reject restoration of the whole accumulated lifetime inventory.
+   That rejects one universal material demand; it does not establish that NO
+   original matter need return. Nor does a passage about replacing a deficiency
+   prove replacement of every relevant constituent is permitted.
+2. **Material parts versus numerical whole-body identity.** A theory permitting
+   complete particle replacement can still assert one numerically identical
+   organism/body. It would be a mistranslation to assign `BodyToken.other` in
+   FormMate merely because its particles are all new. `changedMate` stipulates
+   a different body token; it does not prove that all-new matter requires one.
+   Theseus and MaterialConstitutionScope already preserve the distinction
+   between constituent inventory and whole-bearer identity.
+3. **Natural recovery versus divine restoration.** SCG and the Compendium grant
+   the inability of ordinary natural generation to repeat a destroyed individual,
+   then argue for restoration by divine power with the relevant enduring
+   principles. An organismic denial needs the stronger premise that its process
+   criterion remains necessary even for the alleged divine restoration. Conversely,
+   appealing to omnipotence does not prove that any incoherent identity demand
+   becomes possible; the identity criterion must first be specified.
+4. **Matter budding versus two-person identity.** The Falling Elevator story's
+   corpse matter and one living successor are not two admitted living persons
+   to which continuation is claimed identity-sufficient. Thus #1420's conflict
+   is not immediately triggered. If an additional living continuation is admitted,
+   the existing solo/split verdict-invariance test becomes relevant. The source's
+   closest-continuer response rejects the required verdict-invariance assumption;
+   its temporal-parts response changes unique earlier-stage ownership. Neither
+   is refuted by having that commitment.
+
+Nor does the symmetric-selection theorem decide between the living successor
+and corpse material: those inputs are not symmetric in the relevant life
+relation. To invoke it, an application must preserve complete selector data and
+produce two distinct equally admitted successors. A theorem about such data
+cannot establish their availability from a story about matching particles.
+
+No new theorem is claimed for these source applications. The previous
+`solo_split_conflict` and positive context/trajectory controls already state the
+relevant structural alternatives. A purported new certificate would merely hide
+one side's disputed organismic or hylomorphic bridge in a predicate if its
+independent interpretation were not supplied. That approach was rejected.
+
+### Proposed assessment and precise reassessment condition
+
+The selected primary comparisons strengthen fidelity to the hylomorphic
+account's numerical matter/body language while leaving a minimum-overlap test
+underdetermined. There is a live positive materialist alternative that deliberately
+rejects gradual replacement while requiring organismic causal continuity. It
+must not be dismissed for unusualness, or misreported as mere psychological
+replication. Its direct-causation, identity-sufficiency and modal-possibility
+claims remain unproved. The source-backed hylomorphic account likewise retains
+unproved substantial-being, individuation and relevant-matter commitments.
+Neither has acquired independent superiority from this reading comparison.
+
+The remaining obstacle is precise: ancient numerical/signate matter has no
+completed interpretation as a modern part-overlap test, and the required
+organismic causal-continuity criterion has no defended application to the
+proposed total replacement. We therefore cannot truthfully certify either a
+nonzero minimum or zero-overlap sufficiency for numerical personal identity,
+or infer a theological contradiction from the two reconstructions. The Creed
+primitive, root premises and existing proof results remain unchanged.
+
+This branch merits coordinator reassessment after the two materially different
+tests above, rather than another fixed-inventory counterexample. Reopen with a
+selected, independently argued individuation criterion or a precise challenge
+to the purported direct causal mechanism. Further original-matter passages
+would help only if they distinguish the all-new-material case, rather than
+repeat qualified supplementation. A corpus claim that arbitrary fresh matter
+suffices would need that additional source/argument support; none is registered.
+
+No proof-input check is rerun for this reading-only delta. The claim/type sweep
+retains all earlier model limitations and records no new formal result. Offline
+reference and attribution checks still apply; final publication requires fresh
+semantic challenge of this complete new assessment. No premise change is claimed.
