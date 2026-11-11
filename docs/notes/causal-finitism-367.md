@@ -223,13 +223,20 @@ compatibility restriction is the correct metaphysics.
 
 *Audit under the Substantive Objection Standard (2026-11-12).* The
 compatibility reply names its target (countable patchwork) and its mechanism
-(global constraints on joint realizability), but no independently established
-case is recorded in which gluing fails for pieces that agree on their shared
-interfaces along an acyclic chain. Its stated motivation, preserving causal
-interfaces, is met by the Reaper pieces. Until such a case is supplied it is an
-unsupported suggestion with no evidential weight against patchwork; patchwork
-itself stays OPEN. One substantiated limit does exist, for dense pasts:
-Benardete's first-moment arrangement and its open-below parity. See
+(global constraints on joint realizability). It is located as a precise fork.
+Witnesses for adjacent Reaper pieces cannot agree on the register contents they
+share (`GrimReaperPatchwork.overlapAgreeingWitnessesImpossible`). (i) If
+gluing requires overlapping patches to agree on contents, as recombination of
+value-like patches does, the Reaper's local premise fails along every descent
+as mathematics, and the argument does not get started. (ii) If gluing
+duplicates stations with their rules, contents depending on context (the
+intrinsic-powers reading above), the reply must supply a case where such
+patches fail to glue along an acyclic chain; none is recorded, and the known
+local-to-global failures need cycles. Under (ii) it is an unsupported suggestion
+with no evidential weight against patchwork; patchwork itself stays OPEN. One
+further limit is substantiated, conditional on the possibility of populated
+continuous time with a first moment: Benardete's first-moment arrangement and
+its open-below parity. See
 [the Reaper objection audit](../causal-regress-and-grim-reapers.md#objection-audit-for-the-temporal-reaper-2026-11-12).
 
 The signal revision (pp.19–20) addresses a different issue: particles might

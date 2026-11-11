@@ -88,6 +88,57 @@ theorem arrangementImpossible {W T : Type} [Preorder T] (R : ReaperFrame W T)
       rw [signalOf_some R u c n r ((hAll n).2.2.1 r hr)]
       exact hs
 
+/-- Pairwise witnesses cannot agree on their shared registers. If, along a
+descent, the world witnessing pieces `n` and `n + 1` always puts on the shared
+register at `c (n + 1)` the same code as the world witnessing pieces `n + 1`
+and `n + 2`, the witnesses' values define one register assignment satisfying
+every piece, which `arrangementImpossible` refutes. So the co-possibility of
+adjacent pieces can hold only with witnesses that disagree on overlaps: what the
+local premise duplicates is the stations' rules, not their register contents. -/
+theorem overlapAgreeingWitnessesImpossible {W T : Type} [Preorder T]
+    (R : ReaperFrame W T) (c : Nat → T) (hDesc : Descent c) (u : Nat → W)
+    (hPieces : ∀ n, PieceAt R (u n) c n ∧ PieceAt R (u n) c (n + 1))
+    (hAgree : ∀ n, R.out (u (n + 1)) (c (n + 1)) = R.out (u n) (c (n + 1))) :
+    False := by
+  classical
+  have hInj := TruthCore.Results.Causality.ComingToBeHorns.descentInjective c hDesc
+  let R' : ReaperFrame Unit T :=
+    { out := fun _ t => if h : ∃ n, c n = t then R.out (u (Nat.find h)) t else none
+      issues := fun _ t => ∃ n, c n = t ∧ R.issues (u n) t }
+  have hFind : ∀ n (h : ∃ m, c m = c n), Nat.find h = n :=
+    fun n h => hInj (Nat.find_spec h)
+  have hOut : ∀ n, R'.out () (c n) = R.out (u n) (c n) := by
+    intro n
+    have h : ∃ m, c m = c n := ⟨n, rfl⟩
+    show (if h : ∃ m, c m = c n then R.out (u (Nat.find h)) (c n) else none) = _
+    split_ifs
+    rw [hFind]
+  have hIss : ∀ n, R'.issues () (c n) ↔ R.issues (u n) (c n) := by
+    intro n
+    constructor
+    · rintro ⟨m, hm, hi⟩
+      rw [hInj hm] at hi
+      exact hi
+    · intro hi
+      exact ⟨n, rfl, hi⟩
+  have hUp : ∀ n, R'.out () (c (n + 1)) = R.out (u n) (c (n + 1)) :=
+    fun n => (hOut (n + 1)).trans (hAgree n)
+  apply arrangementImpossible R' () c hDesc
+  intro n
+  obtain ⟨⟨hT, hE, hF, hA⟩, _⟩ := hPieces n
+  refine ⟨?_, ?_, ?_, ?_⟩
+  · intro hn
+    exact (hIss n).2 (hT ((hUp n).symm.trans hn))
+  · intro hi
+    rw [hOut n]
+    exact hE ((hIss n).1 hi)
+  · intro r hr
+    rw [hOut n]
+    exact hF r ((hUp n).symm.trans hr)
+  · intro r hr
+    rw [hOut n] at hr
+    exact hA r hr
+
 /-- Horn H2 (non-well-founded populated past) priced by Reaper patchwork. If,
 along every descent below a populated moment of an accessible history, adjacent
 Reaper pieces are co-possible, and co-possible adjacent pieces glue into one
