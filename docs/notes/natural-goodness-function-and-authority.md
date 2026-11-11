@@ -946,3 +946,137 @@ assume public justification merely from participation in deliberation. That
 normative-warrant target warrants a fresh coordinator allocation rather than
 an unnoticed expansion into a complete theory of practical authority. The
 present complete proposal awaits the master's independent challenge.
+
+## Matched control, authorization and rescue: authority test (#699, 2026-11-11)
+
+Complete proposed continuation for master challenge, based on PR #1407 head
+`15715a2b5e9603dca0e466ae112a9f79a708fe62` and fetched main
+`0e000912934179064919bca5e3e29a3fcb913ddd`. The prior accepted analysis is
+retained. This is analyst warrant analysis, with no new historical attribution,
+Lean assertion or certified case model.
+
+### The claim being tested
+
+Five different relations must be distinguished. Causal control is the actor's
+ability deliberately to bring about the bodily outcome. Standing to ask and
+receive an explanation is a proposed directed entitlement of this subject
+against this actor, not merely the ability to speak. Authority of objection
+means that the subject's complaint requires a practically adequate answer;
+it does not mean that the subject must actually complain or accept the answer.
+A pro-tanto reason counts against the action without settling choice. A
+decisive constraint rules the action out in the specified circumstances. These
+are explicit working prose meanings, not new finished corpus sense records.
+Neither participation in deliberation nor acknowledgment of loss establishes
+any of the latter four by definition.
+
+A positive status/control/public-justification reconstruction is:
+
+1. The affected person has a life and interests of their own; this intervention
+   deliberately determines what happens to them. The subject's objection has
+   an identifiable object and addressee.
+2. A person whose interests another deliberately determines is owed an account
+   responsive to those interests, irrespective of reciprocal advantage. This
+   is the substantive directed-status norm, not a description of causal power.
+3. Such an account must answer the objection to imposing this loss; merely
+   reporting that the chooser gains does not answer it under an additional
+   standard disallowing unilateral gain as a sufficient answer.
+4. An unanswered objection supplies the chooser a pro-tanto reason against
+   proceeding. Decisive priority would require further premises.
+
+Step 1 explains why this actor and subject are related. Steps 2–4 give a
+positive conditional account of authority, but their normativity is not
+inferred from step 1. Step 3 is particularly important in the original
+benefiting-offender case: a requirement to *give an explanation* could be met
+by an accurate statement of private gain. Responsiveness as accurate mention
+is weaker than responsiveness as practical justification. Calling the latter
+“public” supplies no additional argument. No derivation of the three normative
+steps from the shared factual commitments has been supplied here.
+
+### Matched tests and explicit changes
+
+Use the same chooser and adult subject and the same fully understood,
+irreversible loss of a limb as a neighboring control. Fix causal control,
+physical loss, available abstention, impunity and absence of
+reciprocal benefit across the tests; capacity, risk and other context changes
+are specified below. This is not the original killing:
+continued life and bodily integrity are different interests. The interventions
+below are tests of the proposed general authority principle, not witnesses
+already contained in `HardCases` or `GoodsOmission`.
+
+| Case | Facts retained or changed | What it tests, without assuming a verdict |
+|---|---|---|
+| Harmful imposition | Nonconsensual, no rescue benefit; chooser gains privately. | Closest neighboring analogue of the original gain case. Neither party's instrumental interests are silently removed. |
+| Authorized imposition | Same physical loss, chooser gain, risk and absence of rescue; change only to informed, competent, specific and uncoerced authorization. | Authorization may answer an objection to unilateral control. It does not erase the physical welfare loss or by itself establish that all objections are answered. The subject's practical undertaking necessarily differs. |
+| Authorized rescue | Same physical loss and control; add an otherwise lethal condition, effective rescue, rescue intention, procedure risk and specific authorization; remove private chooser gain. | Survival and the subject's authorization can answer an objection to this means, conditional on necessity and proportionate risk. This is deliberately not a same-context comparison with harmful imposition. |
+| Unconscious rescue | Rescue facts retained; replace present capacity and authorization with incapacity and no known prior refusal. | An actual request or consent cannot be necessary for every justified intervention under a rescue norm. The subject's interests can figure in an answer without an actual conversation. Permission still requires that norm. |
+| Benefit-free rescue for chooser | Authorized rescue facts; explicitly stipulate no payment, reputation, future reciprocity, satisfaction or other advancement of the chooser's ends. | Separates the subject's rescue interest from instrumental payoff to the chooser. If the chooser values rescue, that end would undo this stipulation; do not smuggle it back in. |
+
+The last case is a stipulated motivationally indifferent rescuer who performs
+the intervention, not a claim that every actual altruist lacks ends. If no
+accepted end is advanced, the end-relative account can treat rescue and
+abstention as tied; it need not prohibit rescue. Mere performance does not
+show that the actor has, or recognizes, an end-independent reason. This case
+therefore does not refute that account. It differs from the original killing
+where private gain is retained.
+
+Two harder limits test the proposed norm's content. First, a competent subject
+refuses the rescue for an informed personal commitment. Welfare responsiveness
+alone does not decide whether refusal is authoritative; unconditional rescue
+priority and unconditional subject veto are different additional norms.
+Second, informed authorization of gratuitous severe injury tests whether
+consent is sufficient. Specific consent may remove an objection to unauthorized
+control while leaving welfare, coercive-background or third-party objections.
+One cannot settle these cases by defining every consent as adequate or every
+unanswered objection as decisive. These cases expose missing priority and
+answer-adequacy rules; no unargued verdict is claimed as common ground.
+
+### Strongest surviving authority account and assessment
+
+The informed end-relative account can positively explain directed practices:
+people exchange assurances, delegate decisions and demand accounts through
+agreements and institutions serving their ends. Where such a commitment is
+actually accepted, its scope can give a reason to respond even when this
+particular response is costly. In the stipulated absence of any such end or
+commitment, the account denies that causal control alone creates a practical
+authority. It can recognize the subject's interest, their reason to object,
+and an independently specified moral obligation while denying an instrumental
+reason for the chooser. It need not demand universal protection for itself.
+These claims are a reconstruction, not an attribution of a complete theory
+to Railton or a certified model of actual cognition.
+
+The status account offers something that this rival does not: protection of
+the affected person against unilateral imposition without bargaining power.
+That is its positive rationale. Turning its protective function into a reason
+every chooser has requires defending the directed-status norm; desirable
+protection from the subject's perspective is not yet such a defense. Likewise,
+using promises would require evidence of an actual promise and its normative
+authority. No such shared commitment of the original indifferent offender is
+present in the case or established by the existing sources read above.
+
+**Proposed overall judgment:** the tests refine the content and scope of the
+public-justification route, but do not increase independent warrant for local
+B against this rival. Authorization can answer a particular objection without
+removing standing to request an explanation, proving that physical loss has
+no weight, or granting permission for all harm. Rescue adds interests and
+possible answers; it does not derive authority from control. The conditional
+status argument remains intelligible and undefeated by these tests, but no
+winner or increased categorical support is warranted. The three normative
+steps share the disputed authority dependence and are not independent
+corroboration. The goodness/first-precept connection and root-premise status
+remain unchanged.
+
+**Reassessment:** this matched-case approach is stalled as a discriminator
+between the two accounts on the shared commitments. It is not a refutation
+of either account or a general impossibility theorem. Adding more consent or
+rescue examples without a defended answer-adequacy standard repeats the same
+obstacle; encoding steps 2–4 followed by their instance would be a transcription,
+not independent warrant. No new proof is offered for that reason. A materially
+different reopening input is evidence of an actual universal undertaking
+covering this subject, or an independent defense of directed status explaining
+why private gain fails as an adequate answer and why that failure gives this
+chooser a reason. The existing source readings and certificates supply neither
+input. A rival-independent theory of promise/status authority is a possible
+new coordinator assignment, not a completed dependency here. No additional
+concrete discriminating test within this assigned matched-case approach has
+been identified. Master independent challenge must assess this complete
+proposal before its new judgments are used downstream.
