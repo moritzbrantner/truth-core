@@ -1,0 +1,9 @@
+{
+  "id": "97f18a93-e03f-40ee-86c3-364e7629efd0",
+  "label": "All-time body mate stability for each form token",
+  "term": "All-time body mate stability for each form token",
+  "definition": "StableMate r requires any two attachments of one form token at ANY times to have equal body tokens. This is stronger than UniqueAt, through the sole-premise stableToUnique theorem. The changed-mate finite control disproves their converse, even with occupied endpoints, represented form-token availability at every time and an attachment-free middle time. Applicability to a numerically individuated human soul and complete body is OPEN; it is not inferred from immortality, shared species, or a token name.",
+  "basis": "stipulative",
+  "note": "Analyst structural test for issue1397. Historical source reconstruction and open person/body/form bridges are preserved in docs/notes/personal-identity-fission-1397.md. No source attribution claim is registered.",
+  "lean_declaration": "TruthCore.Mereology.FormMate1397.StableMate"
+}

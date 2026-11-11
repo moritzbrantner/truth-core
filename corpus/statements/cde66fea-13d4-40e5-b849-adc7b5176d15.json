@@ -1,0 +1,10 @@
+{
+  "id": "cde66fea-13d4-40e5-b849-adc7b5176d15",
+  "label": "One form token never attaches to different body tokens across times",
+  "paraphrase": "OPEN analyst constraint on a supplied typed attachment relation: if one numerical form token attaches to body tokens at any two represented times, those body tokens are equal. This is a stronger all-time restriction, not a consequence of time-local uniqueness or token availability. No person-identity, soul immortality, substantial esse or full hylomorphic interpretation is implicit.",
+  "lean_declaration": "TruthCore.Mereology.FormMate1397.StableMate",
+  "definition_ids": [
+    "f90c4e6e-38c8-4991-8b6a-1238ca40d0c6",
+    "97f18a93-e03f-40ee-86c3-364e7629efd0"
+  ]
+}
