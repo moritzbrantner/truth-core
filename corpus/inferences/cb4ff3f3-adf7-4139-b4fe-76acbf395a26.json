@@ -1,0 +1,10 @@
+{
+  "id": "cb4ff3f3-adf7-4139-b4fe-76acbf395a26",
+  "label": "Conditional fission and symmetric selection with finite rival controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "367e589d-2b69-4179-afda-268e2b095aea",
+  "rule": "model-construction",
+  "meaning": "Prove the universal conditional identity, symmetry and context-indexed conflicts, then construct the explicitly scoped finite omission and rival controls. Does not establish fission possibility, person identity criteria, complete data symmetry, a theological interpretation or a root bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
