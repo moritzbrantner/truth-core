@@ -14,3 +14,4 @@ public import TruthCore.Metaethics.MeaningRivalBoundary
 public import TruthCore.Metaethics.NaturalisticRealism
 public import TruthCore.Metaethics.PlanStateEmbedding
 public import TruthCore.Metaethics.Questions
+public import TruthCore.Metaethics.SupervenienceProfiles

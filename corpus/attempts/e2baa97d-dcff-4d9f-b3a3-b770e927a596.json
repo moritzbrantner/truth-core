@@ -1,0 +1,21 @@
+{
+  "id": "e2baa97d-dcff-4d9f-b3a3-b770e927a596",
+  "label": "Compared world-relative, cross-world and competent-verdict moral supervenience",
+  "statement_ids": [
+    "05f698c0-703d-4faf-99b8-8e4f970e566a",
+    "4113abcb-d611-40e9-9be7-5ac6e78dd181",
+    "d0d55891-8611-4aa2-9f99-3531213ad892",
+    "fcbba05b-bd6a-4156-a730-73931df20bed",
+    "faac2bf8-6440-53df-bf86-c3ca7def5383",
+    "58e8a6b6-8cc5-5b17-83b4-918295222606"
+  ],
+  "date": "2026-11-11",
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Inspected the existing Blackburn competence-explanation edge, its dossier and related results, the anti-/realist explanatory-order independence test, naturalistic Railton/Boyd comparison and moral attitude intervention profiles. The source-backed edge explains why a competence norm is proposed; it is not an encoding of factual or modal supervenience. Added analyst within-world, cross-world and competent-verdict predicates and structural finite controls. Strong implies weak at fixed profile; two-world witnesses distinguish weak from strong and competence from moral facts, while two separately strongly supervenient moral assignments disagree over the identical selected natural profile. Rejected treating a competent-verdict rule as truthmaking, strong supervenience as a unique correct moral mapping, and any finite fixture as a model of a whole historical worldview. Provisional judgment and exact open bridges are recorded in docs/naturalistic-moral-realism.md, moral supervenience section. No source claim or root premise is established. Corpus and offline structural checks passed locally; Lean/Comparator/NanoDa verification remains subject to exact-head CI.",
+  "blocker": "Applicability of the admitted situation domain, complete natural base, actual moral-fact assignments and any bridge from competence to metaphysical necessitation or from supervenience to explanatory priority remains OPEN. Next materially different test: compare the strongest naturalistic realist, non-naturalist realist and expressivist accounts with their own justified base descriptions and commitments on common moral cases; identify and test a proposed explanatory bridge without pretending their bases, truthmaking and verdict senses coincide.",
+  "evidence": [
+    "976eb3b9-04d5-4f7e-96b8-fa7b5263e5e3",
+    "92c0d3ea-1685-48fb-bf34-6e0ea44589a2"
+  ]
+}
