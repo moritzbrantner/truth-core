@@ -1,0 +1,9 @@
+{
+  "id": "450f316f-819b-4c0a-bad4-6081dc248077",
+  "label": "Occurrence roles and numerical bearer equality",
+  "term": "Occurrence roles and numerical bearer equality",
+  "definition": "Occurrence is a three-element occurrence-role type, not persons or bodies. A supplied bearer map into B represents numerical identity by ordinary Lean equality of its values. Distinct says the two later roles have unequal bearers. The supplied directed continuation relation is primitive and independent of equality; Sufficient makes its identity bridge explicit. It does not define memory, causal or psychological continuity, nor identify any later bodies as persons. Applying B as person bearers and continuation as an adequate psychological relation remains OPEN.",
+  "lean_declaration": "TruthCore.Mereology.Fission1397.Sufficient",
+  "note": "Stipulative analyst formulation for issue1397, with historical attribution deferred. Detailed interpretation burdens and strongest rivals: docs/notes/personal-identity-fission-1397.md.",
+  "basis": "stipulative"
+}
