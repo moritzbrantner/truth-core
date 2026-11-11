@@ -1,0 +1,12 @@
+{
+  "id": "576cb0c5-a2e5-427a-b22b-7b20cffac0ad",
+  "label": "Strict empirical verification criterion",
+  "term": "Strict empirical verification criterion",
+  "definition": "Within the supplied scope, every cognitively meaningful sentence satisfies the selected empirical verifiability test. Meaningfulness and verifiability are independent predicates of the same sentence type. The standard is empirical verifiability with no analytic exception, and the criterion is a necessary condition.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.StrictVerification",
+  "note": "Analyst definition, attribution deferred. Selecting and defending a particular empirical test and treating the criterion as an in-scope cognitive claim are separate issues. A language-adoption proposal need not assert this proposition about cognitive significance.",
+  "definition_ids": [
+    "89b927ef-37ac-5400-bb6a-26bc5e5ccca0"
+  ]
+}

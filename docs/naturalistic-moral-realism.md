@@ -542,3 +542,79 @@ claim, or a substantive rule that damage entails prohibition. A richer
 account may reject a verdict under its own supplied norm; no anti-realist or
 realist is attributed the negative assignment. The negative prohibition is
 not permission. The previously frozen typed certificate remains unchanged.
+
+## Moral supervenience: what follows, and what does not (#191/#249)
+
+The sourced Blackburn claim `STMT-SUPERVENIENCE-EXPLAINED-BY-PURPOSES-OF-MORAL-TALK`
+records why respecting a supervenience requirement may be part of competent
+moral discourse. Its Lean predicate represents **one explanation edge**, not
+the constraint on judgments itself, the dependence of moral *facts*, or a
+proof that moral realism is false. The existing `MORAL-DATA-DO-NOT-CHOOSE-
+EXPLANATORY-ORDER` result likewise holds an intentionally limited moral-data
+fixture constant while varying an explanatory relation. Neither is an
+ontological supervenience theorem.
+
+`TruthCore.Metaethics.SupervenienceProfiles` adds three independently
+interpreted analyst claims over an explicitly selected set of situations:
+
+| Claim | Exact condition | The distinction that matters |
+|---|---|---|
+| Weak factual supervenience | In each admitted world, equal nonmoral case profiles imply equal moral status. | The moral mapping may change between worlds. |
+| Strong factual supervenience | Even across two admitted worlds, equal nonmoral profiles imply equal moral status. | This prohibits cross-world variation for the selected profile; it still supplies no ground, explanation or criterion. |
+| Competent-verdict supervenience | In each competent world, equal nonmoral profiles imply equal **verdicts**. | A requirement on judgment does not guarantee that the verdicts are true or track the moral facts. |
+
+The `strongImpliesWeak` theorem is pure same-world instantiation of the
+stronger condition, and the registered `strengthens` relation is scoped to the
+*same* profile. `controls` constructs three two-world/two-case tests:
+
+1. Two distinct cases with the same nonmoral profile can agree morally within
+   each world, while their common moral assignment changes between worlds
+   (weak without strong; the within-world agreement is nonvacuous).
+2. A world-flagged competent verdict function can respect nonmoral sameness while alleged moral
+   facts do not (competence without factual weak supervenience).
+3. Two profile assignments can each satisfy strong supervenience on literally the same
+   selected natural profile yet disagree on the moral assignment. A
+   supervenience schema therefore does not identify the correct normative
+   mapping even between alternative profile assignments; whole theories may
+   supply further constraints.
+
+These are **structural surrogate models**. Their `Bool` natural field does not
+establish an exhaustive base, `World` does not certify metaphysical possibility,
+and neither `moral` field is independently warranted as moral truth. They do
+not settle whether actual moral facts weakly, strongly or globally supervene,
+whether any truthmaker exists, or whether a naturalist, non-naturalist or
+quasi-realist can adequately explain the relevant dependence. A full global
+supervenience comparison also needs an account of whole-world natural
+isomorphism, which this selected-case signature does not provide.
+
+**Provisional assessment (2026-11-11):** ordinary moral reasoning provides a
+plausible motivation for requiring relevantly similar cases to receive similar
+judgments, but this conceptual practice does not itself discriminate between
+realist and quasi-realist explanations. Actual cross-world necessitation and
+explanatory priority remain open, rather than being judged false. Substantive
+positive realist accounts compared here include Railton's objective-interest
+criterion and separate impartial-rightness proposal, Boyd's homeostatic
+human-goods account, and the Catholic ontological actuality/privation and
+distinct practical-law proposals. They supply partial resources for a base
+and a substantive evaluative criterion, not an automatic mapping from bare
+natural similarity to all practical obligations. Each still owes an adequacy
+and authority argument; the supervenience schema does not add that argument.
+Blackburn argues that the purposes of moral talk explain the **competence
+norm** and thereby favor his quasi-realist approach. This claimed comparative
+advantage is contested: reductive naturalists dispute the supposed absence of
+conceptual entailment, while cognitivist or anti-Humean accounts challenge the
+exclusivity of the proposed practical-purpose explanation. His account does
+not by itself answer the separate question of moral-fact truthmaking. A criterion that
+establishes the identity of the natural facts relevant to rightness, or an
+argument connecting semantic competence to ontological necessity, could revise
+this assessment.
+
+The existing candidate `MORAL-DATA-TO-EXPLANATORY-ORDER-BRIDGE` concerns
+whether error, correction and objective-evil data constrain **semantic**
+explanatory order. A distinct OPEN bridge would be needed from competent
+verdicts to metaphysical moral-fact supervenience. Further research should
+test naturalist, non-naturalist and expressivist accounts against **explicitly
+compared and justified natural-base descriptions and moral-case content**;
+which base each can accept is part of the question. This expands the
+comparison, but establishes no source premise, rival defeat, categorical
+obligation or Catholic root leaf.

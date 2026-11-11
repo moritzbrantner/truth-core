@@ -1,0 +1,9 @@
+{
+  "id": "3db10140-06ed-43e2-8521-391acd2ec925",
+  "label": "The subject lacks warrant for the specified target",
+  "paraphrase": "The specified subject is not warranted in accepting the specified target content. Truth of the target and warrant for other contents remain separate.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.LacksTargetWarrant",
+  "definition_ids": [
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"
+  ]
+}

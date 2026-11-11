@@ -1,0 +1,9 @@
+{
+  "id": "3849fb07-c42e-440c-9967-396389e8a734",
+  "label": "A reason and belief coexist without warrant when eligibility is missing",
+  "paraphrase": "A one-agent one-content profile has an epistemic reason, an actual belief and the eligible-uptake warrant bridge, while no case is eligible reason uptake and no actual belief meets the warrant predicate.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.JustificationOmissionControl",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

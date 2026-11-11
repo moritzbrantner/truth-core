@@ -1,0 +1,11 @@
+{
+  "id": "6c032858-1465-45b5-8583-aa389a074263",
+  "label": "The known-prior-premise demand entails the certificate requirement",
+  "argument_id": "3df18339-0856-4d76-bb15-5f4b28466b47",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.strongPriorImpliesWeak",
+  "comparator_config": "results/6c032858-1465-45b5-8583-aa389a074263/comparator.json",
+  "status": "solution-present",
+  "description": "From the strong demand retrieve the certificate component for the same knowledge case. This conversion loses the already known premise requirement."
+}

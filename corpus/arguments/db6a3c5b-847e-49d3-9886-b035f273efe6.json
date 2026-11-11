@@ -1,0 +1,13 @@
+{
+  "id": "db6a3c5b-847e-49d3-9886-b035f273efe6",
+  "label": "An inhabited semantic profile separates identity from an invalid inference",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "41ce6fd6-f745-490f-931e-8f7dcd459323",
+  "inference_ids": [
+    "d05ef831-7836-4630-bca8-22b5d888adf5"
+  ],
+  "meaning": "Identity preserves truth. The sole world satisfies the true premise and falsifies the false conclusion, so the other inference is invalid in the same profile.",
+  "definition_ids": [
+    "0ff13cc6-d04d-4b35-9b64-fe75d11ce482"
+  ]
+}

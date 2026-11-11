@@ -1,0 +1,9 @@
+{
+  "id": "15160f9d-a231-4a9f-834f-cc78a7523dc3",
+  "label": "Actual belief meeting a supplied warrant standard",
+  "term": "justified belief",
+  "definition": "An actual belief in content p by agent a with Warrant a p under the supplied interpretation. Reason a p says a reason exists for a to believe p. Believes a p records uptake of the attitude. Eligible a p supplies the separate basing, sufficiency and undefeatedness conditions used by the warrant bridge.",
+  "basis": "stipulative",
+  "note": "Analyst profile. Warrant is a supplied epistemic predicate and can allow justified error. No logic or benchmark score warrants an actual belief without an independently calibrated bridge.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.SomeJustifiedBelief"
+}

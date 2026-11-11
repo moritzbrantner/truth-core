@@ -1,0 +1,19 @@
+{
+  "id": "baba4a99-9b75-4f87-8325-28601d75db78",
+  "label": "Certificate-only and non-well-founded known-prior accounts survive",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "a2505b96-e835-4f52-bd79-9e9b39a07f8f",
+  "inference_ids": [
+    "65db7af1-cab6-47b1-9866-c4ec0e3baa98"
+  ],
+  "meaning": "The empty priority interpretation allows knowledge under the certificate-only demand. The reverse strict natural-number order supplies each known content with a known used premise and preserves factivity, while failing accessibility. Neither interpretation supplies actual certificates or independent warrant for infinitism.",
+  "definition_ids": [
+    "67a11f33-c4c5-4406-befa-2b9e66be52db",
+    "72b2f936-34ec-4982-b120-b5c5ffd1f8b8",
+    "a71c4c77-3489-4720-86a5-2c4fe77ae974"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ],
+  "sense_mixing_control": true
+}

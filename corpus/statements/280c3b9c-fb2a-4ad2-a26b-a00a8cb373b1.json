@@ -1,0 +1,9 @@
+{
+  "id": "280c3b9c-fb2a-4ad2-a26b-a00a8cb373b1",
+  "label": "Accepting the worldview package raises a reliability concern about the basis",
+  "paraphrase": "OPEN analyst bridge. If the specified subject accepts the package, the subject assesses the specified basis's reliability as low or cannot assess its reliability. Neither a numerical reliability judgment nor a derivation of either disjunct is supplied.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.PackageRaisesReliabilityConcern",
+  "definition_ids": [
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"
+  ]
+}

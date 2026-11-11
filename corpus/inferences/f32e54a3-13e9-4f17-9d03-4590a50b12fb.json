@@ -1,0 +1,13 @@
+{
+  "id": "f32e54a3-13e9-4f17-9d03-4590a50b12fb",
+  "label": "Eligible uptake yields a warranted actual belief (inference)",
+  "input_statement_ids": [
+    "38eb1610-1b62-4fbe-9d7c-21dc2bf29fa7",
+    "cf57c52c-c519-49c0-9536-d5fa8a9c9bac"
+  ],
+  "output_statement_id": "6280fbf0-551a-46f5-8e0a-a65410c86a64",
+  "rule": "Instantiate the warrant bridge at the eligible case",
+  "meaning": "The basing, sufficiency and undefeatedness calibration applies to the eligible uptake case and the belief at that case meets the supplied warrant standard. Both the eligible instance and the warrant bridge are explicit premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

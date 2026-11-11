@@ -1,0 +1,13 @@
+{
+  "id": "a07b79ec-4c3d-4095-94e8-827d0eb25f89",
+  "label": "Thin reasons and actual belief without warrant are jointly satisfiable",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "3849fb07-c42e-440c-9967-396389e8a734",
+  "inference_ids": [
+    "e18ca4b5-8f1d-4fca-ae1e-080acb264513"
+  ],
+  "meaning": "Set reason and belief true and eligibility and warrant false. The warrant bridge holds without an eligible case. The interpretation shows why thin F6 plus actual belief does not produce warrant in this profile.",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

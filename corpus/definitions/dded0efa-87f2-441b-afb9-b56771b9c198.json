@@ -1,0 +1,9 @@
+{
+  "id": "dded0efa-87f2-441b-afb9-b56771b9c198",
+  "label": "Knowledge indexed by supplied agents and contents",
+  "term": "content-indexed knowledge",
+  "definition": "Knows a p is the supplied interpretation of agent a knowing content p. The content domain can be syntactic and need not contain the denial of all knowledge. Factivity can be imposed by a separate Holds predicate.",
+  "basis": "stipulative",
+  "note": "Analyst parameter used to compare the certificate-only and known-prior requirements. Knowledge need not be defined as prior demonstration or as warrant alone.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.NoKnownContent"
+}

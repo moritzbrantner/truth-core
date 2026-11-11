@@ -1,0 +1,9 @@
+{
+  "id": "ed122f4c-8a51-4310-813c-fe8db8a2f2d3",
+  "label": "Every supporting basis for the target is the specified basis",
+  "paraphrase": "OPEN analyst scope and dependence premise. Every basis in the supplied roster that supports the subject's specified target content is identical to the specified basis. This universal condition need not assert that the basis actually supports the content.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.SoleSupportingBasis",
+  "definition_ids": [
+    "26cbf25d-f3d5-46ea-91e8-e2140a57b04d"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "40ae0ae9-36f6-487d-bbb6-2cb4a500e98a",
+  "label": "Global normative reason denial leaves no internal reason to adopt it",
+  "argument_id": "81094ad1-fc75-478e-ad14-4c987e5df340",
+  "challenge_module": "TruthCore.Results.Metaethics.AdoptionReasons.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.AdoptionReasons.Solution",
+  "theorem": "TruthCore.Results.Metaethics.AdoptionReasons.globalDenialLeavesAdoptionGap",
+  "comparator_config": "results/40ae0ae9-36f6-487d-bbb6-2cb4a500e98a/comparator.json",
+  "status": "solution-present",
+  "description": "Across every represented kind, global denial removes reasons to adopt the selected view. If the denial itself is represented as a target in the profile, the theorem applies to that target. The conclusion concerns the availability of reasons within the profile."
+}

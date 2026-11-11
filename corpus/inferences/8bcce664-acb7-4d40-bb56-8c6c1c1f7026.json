@@ -1,0 +1,14 @@
+{
+  "id": "8bcce664-acb7-4d40-bb56-8c6c1c1f7026",
+  "label": "Phenomenal experience from a realized assertion and its phenomenal classification (inference)",
+  "input_statement_ids": [
+    "b45ca9db-0bf2-40d3-819c-44dc4e2cef5c",
+    "1edfc1d1-34d4-4f3e-99e6-e07a6ba58ffc",
+    "bbfacacc-6f44-4ca0-b9ba-75962a2a1d2e"
+  ],
+  "output_statement_id": "77e57686-d710-4505-9272-589cf5af6fe8",
+  "rule": "Same-witness composition",
+  "meaning": "Take an agent making the assertion, then an occurring thought realizing that assertion, then apply the phenomenal bridge to that episode and the same agent. This gives an episode that both occurs and is experienced. No phenomenal conclusion follows from the thought occurrence theorem alone.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "92c0d3ea-1685-48fb-bf34-6e0ea44589a2",
+  "label": "Moral supervenience finite separation and underdetermination controls",
+  "argument_id": "27ce38f5-36df-449b-8090-01ac4d846a58",
+  "challenge_module": "TruthCore.Results.Metaethics.SupervenienceProfiles.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.SupervenienceProfiles.Solution",
+  "theorem": "TruthCore.Results.Metaethics.SupervenienceProfiles.controls",
+  "comparator_config": "results/92c0d3ea-1685-48fb-bf34-6e0ea44589a2/comparator.json",
+  "status": "solution-present",
+  "description": "Construct nonempty finite models that separate the formal claims. This refutes three proposed logical implications, not philosophical realism, non-naturalism, quasi-realism or a particular account of rightness."
+}

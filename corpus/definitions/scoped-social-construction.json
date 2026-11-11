@@ -1,0 +1,12 @@
+{
+  "id": "52bf39ca-ca7e-434f-be0c-2900952839c3",
+  "label": "Social construction of actually true contents in scope",
+  "term": "Social construction of actually true contents in scope",
+  "definition": "Every content in the supplied scope that holds at the actual attitude profile is classified as socially constructed by the supplied construction predicate. The classifier is a primitive representing a selected account of social provenance or convention.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.ScopedSocialConstruction",
+  "note": "Analyst formulation, attribution deferred. A socially established vocabulary may express a content that holds regardless of vocabulary use. A sociologically constituted institutional fact, such as a currency being accepted in a polity, may instead fail under a different profile. Which social origin or convention counts as construction is left open.",
+  "definition_ids": [
+    "4f377045-355c-500f-b159-1f8e9e9fa863"
+  ]
+}

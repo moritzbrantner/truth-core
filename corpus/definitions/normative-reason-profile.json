@@ -1,0 +1,9 @@
+{
+  "id": "54e94123-63cc-41a7-9179-9040458adb0c",
+  "label": "Global normative reason denial in a reason profile",
+  "term": "global normative reason denial",
+  "definition": "For every represented kind, agent and target, the interpretation supplies no reason of that kind to that agent for that target.",
+  "basis": "stipulative",
+  "note": "Global is relative to the profile's domain. Applying the result to a philosophical denial of all normative reasons requires representing the relevant kinds, agents and targets. An error theory about moral judgments requires a further interpretation bridge to a denial of the moral reason relation.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.GlobalNormativeNihilism"
+}

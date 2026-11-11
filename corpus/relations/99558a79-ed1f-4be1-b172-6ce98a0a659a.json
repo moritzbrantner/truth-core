@@ -1,0 +1,10 @@
+{
+  "id": "99558a79-ed1f-4be1-b172-6ce98a0a659a",
+  "label": "The occurrence witness refutes scoped emptiness",
+  "subject_kind": "argument",
+  "subject_id": "afc88915-f9c8-4371-8225-c52f5e6af2a6",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "82441670-8398-47fe-b0d8-b979bef07f87",
+  "note": "Under the representation premise, the occurring episode's representative is in the same candidate domain and existence extension as the denial."
+}

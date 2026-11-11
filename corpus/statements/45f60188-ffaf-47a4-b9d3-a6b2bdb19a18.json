@@ -1,0 +1,15 @@
+{
+  "id": "45f60188-ffaf-47a4-b9d3-a6b2bdb19a18",
+  "label": "Finite controls for social construction, objective truth and local scope",
+  "paraphrase": "In the existing actual-stable frame, the local scope includes an actually true content whose truth varies, all local actual truths are constructed and satisfy the variation bridge, and a distinct stable true content is objective outside the scope. Under a global scope and construction classifier, objective truth persists while the variation bridge fails.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.SocialConstructionControls",
+  "definition_ids": [
+    "52bf39ca-ca7e-434f-be0c-2900952839c3",
+    "50827057-88b1-4519-9444-3203c9902c34",
+    "4f377045-355c-500f-b159-1f8e9e9fa863",
+    "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43"
+  ],
+  "disambiguation_ids": [
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "65db7af1-cab6-47b1-9866-c4ec0e3baa98",
+  "label": "Certificate-only and non-well-founded known-prior accounts survive (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "a2505b96-e835-4f52-bd79-9e9b39a07f8f",
+  "rule": "Explicit one-content and infinite priority interpretations",
+  "meaning": "The empty priority interpretation allows knowledge under the certificate-only demand. The reverse strict natural-number order supplies each known content with a known used premise and preserves factivity, while failing accessibility. Neither interpretation supplies actual certificates or independent warrant for infinitism.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

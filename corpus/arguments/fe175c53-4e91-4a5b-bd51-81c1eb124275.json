@@ -1,0 +1,16 @@
+{
+  "id": "fe175c53-4e91-4a5b-bd51-81c1eb124275",
+  "label": "A witness to F6 excludes global normative reason denial in its profile",
+  "premise_statement_ids": [
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58"
+  ],
+  "conclusion_statement_id": "b30a1925-dfa0-4ab2-bc3c-860982298091",
+  "inference_ids": [
+    "fd7ff49c-62e1-428d-b1ce-bd1fbbea2456"
+  ],
+  "meaning": "When the epistemic kind uses the F6 reason relation, its witness contradicts global denial. This uses F6 as a premise. Its conclusion is the incompatibility of global denial with this epistemic reason.",
+  "definition_ids": [
+    "54e94123-63cc-41a7-9179-9040458adb0c",
+    "dcbd9590-2c87-5550-a69c-b4af6e272fa4"
+  ]
+}

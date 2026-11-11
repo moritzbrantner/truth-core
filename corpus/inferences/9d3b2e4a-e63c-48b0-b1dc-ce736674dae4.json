@@ -1,0 +1,10 @@
+{
+  "id": "9d3b2e4a-e63c-48b0-b1dc-ce736674dae4",
+  "label": "Assertion retorsion controls for the five separate bridges (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "5dcec315-3f0a-46ec-918b-4d07bab6aa95",
+  "rule": "Explicit relational interpretations",
+  "meaning": "Independent assignments give an asserted denial without belief even when F6 holds and the same denial has a reason, a speech marker without cognitive meaning, an assertion marker without thought, a thought realizing an assertion and represented as existing without phenomenal experience, and an occurring thought in a model with an empty existence extension. These interpretations isolate bridges and do not establish that any assignment is metaphysically possible.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

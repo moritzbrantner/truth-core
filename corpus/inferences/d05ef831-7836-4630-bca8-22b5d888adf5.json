@@ -1,0 +1,10 @@
+{
+  "id": "d05ef831-7836-4630-bca8-22b5d888adf5",
+  "label": "An inhabited semantic profile separates identity from an invalid inference (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "41ce6fd6-f745-490f-931e-8f7dcd459323",
+  "rule": "Explicit Boolean counterinterpretation",
+  "meaning": "Identity preserves truth. The sole world satisfies the true premise and falsifies the false conclusion, so the other inference is invalid in the same profile.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

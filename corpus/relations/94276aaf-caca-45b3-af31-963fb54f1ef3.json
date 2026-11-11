@@ -1,0 +1,10 @@
+{
+  "id": "94276aaf-caca-45b3-af31-963fb54f1ef3",
+  "label": "A sincere assertion witness refutes the denial of belief",
+  "subject_kind": "argument",
+  "subject_id": "8cb04e80-7601-4636-877c-10133ac5f9fa",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "b1f30c51-eb79-43a1-891c-e7d180be2ec3",
+  "note": "The assertion witness believes the denial under the explicit sincerity bridge in the same belief relation."
+}
