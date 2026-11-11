@@ -1,0 +1,9 @@
+{
+  "id": "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+  "label": "Individuated veracity truth and negation interpretation",
+  "term": "world-indexed truth and interpreted content negation",
+  "definition": "Reuse of Semantics World Content: trueAt assigns truth to an individuated content at a world; neg maps contents to their represented negations, with the explicit truth condition trueAt w (neg c) iff not trueAt w c. Content and World are arbitrary types. Contents with the same truth conditions need not be identical. Actual world designation is an explicit parameter, not a theorem of metaphysical possibility.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Semantics",
+  "note": "The primitive truth interpretation and content identity require external interpretation; the structure supplies only classical negation semantics. No relation between semantic equivalence and identity, cognition, historical utterance or epistemic access is assumed. See docs/notes/divine-veracity-1410.md, Individuated-content continuation."
+}

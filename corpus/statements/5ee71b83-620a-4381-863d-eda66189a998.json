@@ -1,0 +1,11 @@
+{
+  "id": "5ee71b83-620a-4381-863d-eda66189a998",
+  "label": "Individuated veracity NegationClosed",
+  "paraphrase": "Analyst reconstruction. The named domain includes the interpreted negation of each content it includes; this is explicit scope closure, not a fact about every proposed domain.",
+  "lean_declaration": "TruthCore.Causality.DivineVeracityContent1410.NegationClosed",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

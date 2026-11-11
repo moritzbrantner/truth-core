@@ -232,3 +232,141 @@ Corpus dossier calls use existing semantics. Retain the service for repeated
 edits with loaded imports; revise dependency refresh support for new modules.
 Canonical CLI build remains necessary. Timings and content hashes are retained
 in the PR check evidence; no throughput conclusion follows from this sample.
+
+
+## Individuated-content continuation: complete proposed outcome
+
+**Status:** new proposed continuation, separate from PR #1412's accepted
+extensional checkpoint. Definitions/results in `DivineVeracityContent1410`
+and spec `specs/divine-veracity-content-1410.toml`; independent semantic challenge
+and final delivered-head gates remain required. No historical attribution changes.
+
+### Question, reuse and restored commitments
+
+Does the repaired representation limit prevent the assertion-truth routes from
+working when cognitive contents retain identity independently of truth values?
+This serves the existing assertion-truth target 5a035a1e and its confirmation /
+authority root route. Inventory refreshed: related/dossier 5a035a1e and e2ca9054,
+contexts d1fb84b0 and aa79e774, dossiers 1496f7ec, 7dd8a624 and 6e8807d4.
+Existing `ReflectiveCoherence.Semantics` already separates a content type from
+its truth interpretation at worlds and supplies interpreted negation. Reuse
+that exact structure and `SelfApplication.Disquotes`; do not introduce another
+truth or negation calculus. Existing common-knower and truth-pilot vocabulary
+was inspected; it does not already encode the assertion-truth route or its
+legacy representation issue. Existing frozen proofs and definitions stay intact.
+
+New `Attitudes σ Content` has primitive genuine assertion and actual assent to
+one **identical content**, in a fixed context. No invariance under truth or
+logical equivalence is assumed. `World` and `Content` remain arbitrary; the
+actual valuation world is an explicit parameter. The new predicates do not
+supply a theory of mental representation or establish that an event is a divine
+assertion. Same-content identity is explicit; faithful application to actual
+psychological or divine contents remains OPEN. The generic framework permits
+selectivity even between semantically equivalent contents.
+
+### Consequences and exact hypotheses
+
+| Consequence | Joint sufficient hypotheses | Boundary |
+|---|---|---|
+| Content assertions true, Route A | Sincerity to that content; accuracy on D; every actual assertion lies in D | Constructive; accuracy outside D is unnecessary |
+| Content assertions true, Route B | Actual assent to each true negated content of an actual assertion; no contrary assertion | Classical; uses the reused negation truth law; no positive sincerity |
+| Selected countercompleteness | Actual truth-completeness on D; every assertion in D; D closed under interpreted negation | Constructive; domain choice itself supplies neither coverage bridge |
+| Existing legacy assertion truth 5a035a1e | Content assertion truth; every relevant legacy assertion represented by an asserted content with one-way disquotation | Constructive; representation applicability remains OPEN |
+| Erasure has assertion representation | Explicit existential-erasure construction | Only its induced legacy V, not every arbitrary V |
+
+This removes the need to collapse contents into `Prop` **within the conditional
+routes**. It does not discharge their moral/cognitive premises or the legacy
+representation bridge. The existing lower Prop-indexed norm/defect/presence
+results cannot silently be reused as content-attitude premises: their transfer
+must be proved or the corresponding philosophical reasons separately applied
+at this content level. No such transfer or independent warrant is claimed here.
+
+### Discriminating models, failed translation and further rival commitments
+
+The control content type is `Bool × Bool × Bool`. Two coordinates give truth
+at two modeled worlds; an independent third tag keeps content identities
+separate. Negation flips the truth coordinates and preserves the identity tag.
+At designated world false, `a=(true,false,false)` and `b=(true,false,true)` are
+both true; indeed their truth conditions agree at **every** modeled world.
+The sample assents to and asserts only a. The tag models a distinction in
+representation without claiming that it is an adequate account of mental
+content individuation. A and B hold together; D contains a and its negation,
+so its completeness is nonvacuous and negation-closed. The other true content b
+is outside D and unassented. Thus selected completeness here is not global
+omniscience. The content a is false at the other modeled world; this is
+valuation variation, not an established claim of metaphysical contingency.
+
+`NoExactLegacyTranslation` proves that **no** legacy `Veracity` has a Believes
+relation agreeing exactly with this sample's assent on every content under the
+map `c ↦ trueAt false c`. Propositional extensionality identifies the two equal
+truth conditions, but selective assent distinguishes their tagged contents.
+The no-translation result is universal over legacy V for this fixed witness;
+it does not deny that some other content-attitude profiles are extensional.
+Consequently exact recovery is not merely an unproved bridge for this sample:
+it is incompatible with its selectivity. A source argument requiring different
+access to equivalent contents cannot be represented by asserting such an exact
+legacy map. Its weakest assertion-preserving connection can still succeed.
+
+The explicit erasure instead sets legacy assertion/assent to **existence of
+some** asserted/assented content with the given truth condition. It forgets
+which content supplied the attitude, so can attribute the erased attitude to b's
+truth condition despite lack of assent to b. Its one-way representation theorem
+is valid but must not be described as faithful recovery of all attitudes. For
+an independently given legacy V, `AssertionRepresentation` remains an OPEN
+coverage-and-disquotation input. Together with content assertion truth it
+reaches the existing 5a035a1e target, and the already checked confirmation route
+then connects to authority. The erasure diagnostic is not itself a new warrant
+for identifying the case's given V with this induced one.
+
+A Route B suspension sample asserts the true a while assenting to no content;
+it satisfies B and truth but not sincerity. This distinguishes the route's
+logical requirements in the restored semantics, without defending the morality
+of unsupported assertion.
+
+The strongest cognitive rival is also restored: assent to **all true tagged
+contents**, accurate and negation-consistent, together with actual assertion
+of the false negation of a. It refutes content assertion truth while preserving
+these cognitive conditions. This does not model utility, moral permission,
+divine moral perfection, full classical attributes or a historical possibility.
+It establishes that restoring individuated content and truth variation does
+not make the normative gap disappear. The welfare/agency rival from the prior
+section therefore cannot be dismissed by appealing only to cognitive perfection;
+its positive ethical defense and divine applicability remain unanswered.
+
+Two scope omission samples use an actually false assertion with no contrary
+assent. If D includes only that false content, completeness on D and assertion
+coverage hold but negation closure fails; if D is empty, completeness and
+negation closure hold but assertion coverage fails. In both cases selected
+countercompleteness and assertion truth fail. Neither vacuous domain completeness
+nor a domain name licenses the missing actual countertruth judgment.
+
+### Provisional assessment, exact remaining gaps and reopening
+
+The hypothesis that A/B require truth-value collapse is **rejected for these
+conditional routes**: their preserved-content derivations and selective joint
+sample supply direct evidence. The stronger claim that the inherited legacy
+attitudes can exactly preserve selective assent under truth-condition erasure
+is **refuted for the exhibited witness**, not globally for every attitude profile.
+The result supports a one-way assertion representation connection while
+withholding full cognitive translation. Neither route is better warranted
+philosophically merely because it has a content-preserving proof.
+
+Moral exceptionlessness, actual cognitive access, same-bearer divine
+applicability, meaningful content individuation and historical assertion
+identification remain OPEN. The positive lower reasons from SCG/ST remain
+philosophical reasons to assess; new content types do not strengthen their
+independent warrant. Reopen the route if its intended negation is not the
+interpreted negation, its actual assertions exceed D, or D omits their required
+negations. Reopen the legacy connection if a relevant proposition assertion
+has no correctly disquoting represented content.
+
+The next consequential question is now the act-object norm: under what account
+of genuine assertion does an audience's welfare or rational agency license an
+intentional false assertion, and is that account fitting for the same GOD_4?
+Distinguish an undertaking of responsibility from an actual-assent requirement;
+otherwise the moral conclusion is hidden in the assertion definition. A concrete
+comparison should hold actual speaker, content, available truthful/withholding
+alternatives and audience good fixed, and identify why one option is forbidden
+or permitted. No new witness or accepted floor currently settles that comparison.
+The content result narrows the representation obstacle without answering this
+normative question. It does not show the bounded philosophical question exhausted.

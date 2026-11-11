@@ -58,6 +58,7 @@ public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
 public import TruthCore.Causality.DivineVeracity1410
+public import TruthCore.Causality.DivineVeracityContent1410
 public import TruthCore.Causality.DurationMeasureCandidates
 public import TruthCore.Causality.EndlessTemporalDuration
 public import TruthCore.Causality.EntireChainHead

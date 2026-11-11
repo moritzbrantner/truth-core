@@ -1,0 +1,19 @@
+{
+  "id": "02c15b35-98ff-4b4a-8c6c-962556db5fcf",
+  "label": "Selected-domain cognition covers asserted countercontents",
+  "premise_statement_ids": [
+    "f8941d4f-b738-4fc7-8502-68a6838ae050",
+    "8376542e-2337-43ab-87e8-007c07cabc7e",
+    "5ee71b83-620a-4381-863d-eda66189a998"
+  ],
+  "conclusion_statement_id": "389c37fd-0637-4a40-8073-705a5bdb2c20",
+  "inference_ids": [
+    "bf2b8766-b1c9-460f-b10e-323da0653b36"
+  ],
+  "meaning": "Domain completeness plus actual assertion coverage and closure under interpreted negation supply exactly the minimal countercontent scope. None of these coverage bridges follows merely from naming a domain.",
+  "definition_ids": [
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

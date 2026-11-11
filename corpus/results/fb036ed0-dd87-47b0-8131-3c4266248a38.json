@@ -1,0 +1,11 @@
+{
+  "id": "fb036ed0-dd87-47b0-8131-3c4266248a38",
+  "label": "Selected-domain cognition covers asserted countercontents",
+  "argument_id": "02c15b35-98ff-4b4a-8c6c-962556db5fcf",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.counterCompleteFromDomain",
+  "comparator_config": "results/fb036ed0-dd87-47b0-8131-3c4266248a38/comparator.json",
+  "status": "solution-present",
+  "description": "Domain completeness plus actual assertion coverage and closure under interpreted negation supply exactly the minimal countercontent scope. None of these coverage bridges follows merely from naming a domain."
+}

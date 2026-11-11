@@ -1,0 +1,9 @@
+{
+  "id": "8d7cd991-a09c-43ee-8898-d513e46d83ef",
+  "label": "Individuated veracity existential abstraction to legacy attitudes",
+  "term": "existential extensional erasure of individuated attitudes",
+  "definition": "erase \u03c3 S w C defines legacy Asserts(g,p) and Believes(g,p) by existence of an asserted/assented content c whose truth at w is equivalent to p. Knows is everywhere false. This explicitly lossy abstraction records some supporting content but forgets which one; it does not recover every original content attitude. AssertionRepresentation for an arbitrary legacy Veracity is a separate OPEN coverage-and-disquotation premise.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DivineVeracityContent1410.erase",
+  "note": "Depends on new individuated attitudes and Semantics interpretation plus legacy Veracity f2c09ae8-848d-5a3b-ab79-92c2b01d414c and one-way Disquotes b8539dd9-4b72-52b0-b24d-b8ee0c226bee. Existence of this construction does not establish that a historical assertion relation or the independently given legacy V has that representation."
+}
