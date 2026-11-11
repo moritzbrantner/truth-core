@@ -1,0 +1,10 @@
+{
+  "id": "4d806222-6051-40c9-8318-391979bc2b3d",
+  "label": "Conditional independence corroboration deduction (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "bf3d242a-0c07-46ab-a25f-daf5a52847d1",
+  "rule": "Factorization under both hypothesis-conditional independence assumptions",
+  "meaning": "Each conditional likelihood advantage follows from the corresponding marginal advantage under the two explicit product equations; paired criterion yields both improvements. Conditional independence is sufficient, not necessary or independently warranted.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

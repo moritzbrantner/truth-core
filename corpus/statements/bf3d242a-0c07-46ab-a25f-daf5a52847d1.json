@@ -1,0 +1,6 @@
+{
+  "id": "bf3d242a-0c07-46ab-a25f-daf5a52847d1",
+  "label": "Both-hypothesis conditional independence suffices for corroboration",
+  "paraphrase": "For every positive rational four-cell report profile with non-dogmatic prior, independence of A and B conditional on H and independently conditional on notH, plus each report individually increasing H's posterior over the prior, implies the joint posterior exceeds both individual posteriors. Independence is an explicit extra assumption, not a default process fact or necessary condition.",
+  "lean_declaration": "TruthCore.Logic.CorrelatedTestimony1396.IndependenceSuffices"
+}

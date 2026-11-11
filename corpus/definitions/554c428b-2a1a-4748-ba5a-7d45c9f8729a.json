@@ -1,0 +1,9 @@
+{
+  "id": "554c428b-2a1a-4748-ba5a-7d45c9f8729a",
+  "label": "Positive correlated-report four-cell probability profile",
+  "term": "correlated report profile",
+  "definition": "Reports supplies 0<prior<1 and one Row under H and notH. A Row has four strictly positive rational masses (both positive reports, only A, only B, neither), summing to one within each hypothesis. A and B are sums of matching cells, joint is the both cell. Each event is passed to the existing Comparison with the same prior. ConditionalH/V divide joint by B marginal; pooledConditional divides prior-mixture joint by prior-mixture B. ConditionalIndependent asserts the joint equals the product of marginals separately within H and notH; UnconditionalIndependent asserts that product equality in their prior mixture. Report events concern receipt of positive reports, not report truth; H and notH are exhaustive and incompatible by the stipulated binary interpretation.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.CorrelatedTestimony1396.Reports",
+  "note": "Analyst finite extension of DEF-CONTRASTIVE-WORLDVIEW-BAYES, selected sense EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH_1. No causal mechanism, calibration, actual reliability or epistemic authority follows from the profile. Process-warrant and open interpretation/application burdens in docs/notes/correlated-testimony-1396.md."
+}
