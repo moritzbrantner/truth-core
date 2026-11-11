@@ -1,0 +1,16 @@
+{
+  "id": "47a34ac9-5496-43de-a9ac-61f688790148",
+  "label": "No two NECESSARY_2 concreta support each other, each at some admitted world",
+  "paraphrase": "For no concrete candidates a and b, each existing at every world accessible from w, and worlds v and u, does a exist at v and stand to b in the selected relation at v while b exists at u and stands to a in the selected relation at u. The negation of the recorded mutual-support rival; with a = b it also excludes self-support at any world. It does not exclude longer cross-world cycles or endless descent.",
+  "lean_declaration": "TruthCore.Causality.NecessarySupportCoverage.NoNecessaryConcretaMutualSupport",
+  "definition_ids": [
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ],
+  "disambiguation_ids": [
+    "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
+    "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
+  ]
+}

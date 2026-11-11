@@ -1,0 +1,16 @@
+{
+  "id": "46c56fc2-89bb-4820-9b54-7cc296be8150",
+  "label": "Underived necessary concretum, from the actual necessary root and coverage (inference)",
+  "input_statement_ids": [
+    "56f68b40-9737-59a0-8cac-5610980a1547",
+    "82cfaf26-fc86-54ab-8328-9a7b2bdbbe21",
+    "c71c068c-bbae-5ed5-a99d-70b155c8d239",
+    "ee4ab504-c8fe-59bc-bc96-7cbeefed6410",
+    "df42581f-5fff-4b5f-8b40-6e16d2b890f2"
+  ],
+  "output_statement_id": "0bdcf366-29c7-5d45-b603-5c929dcad976",
+  "rule": "Composition of necessaryActualRootOfGrounded with coverage",
+  "meaning": "An alternative to NecessaryConcreteUnderived.checks without J1 (no contingent concrete support), J2 (well-founded union) or reflexive access. The existing necessaryActualRootOfGrounded gives one concretum that is necessary from w and has no concrete ground existing at w. Coverage then excludes an existing concrete supporter of it at every admitted world. In the proof the witness is that actual necessary root; the Lean conclusion states only that some such concretum exists. Underived means no existing concrete supporter at any admitted world, not absence of every explanation. Conditional consequence only; no premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

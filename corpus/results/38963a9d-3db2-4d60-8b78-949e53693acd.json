@@ -1,0 +1,25 @@
+{
+  "id": "38963a9d-3db2-4d60-8b78-949e53693acd",
+  "label": "Rotating triangle, rooted pair and uncovered edge controls, checked",
+  "argument_id": "081d3472-1d06-4e9d-b908-e6a58f318c77",
+  "challenge_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessarySupportCoverage.Solution",
+  "theorem": "TruthCore.Results.Causality.NecessarySupportCoverage.controls",
+  "comparator_config": "results/38963a9d-3db2-4d60-8b78-949e53693acd/comparator.json",
+  "status": "solution-present",
+  "description": "Controls for J2 and its rival. The rotating triangle shows that well-founded support at every world together with the negation of the mutual-support rival yields neither J2 nor the join's endpoint: a three-step cross-world cycle survives. The rooted pair shows that the mutual-support rival is compatible with the join's endpoint, every other premise of NecessaryConcreteUnderived.checks and coverage, so J2, the no-novel-edge condition and same-supporter presence are each stronger than the endpoint needs. The uncovered edge shows that J1 and J2 with the other premises imply neither coverage nor the no-novel-edge condition. Model-witnessed only; no interpretation is claimed metaphysically possible. Excluded middle is supplied by Lean's classical axioms.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "d149d238-2eeb-5c8b-a136-f95d7aa5c721",
+      "rival_statement_id": "12a167a4-dd1d-4f04-92e5-c22325cbbd1a",
+      "sense_definition_id": "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+      "outcome": "model-witnessed",
+      "conditions": "Control.rootedPair at world false: the rival, EveryWorldGroundingWF, concrete population, ActualGroundingWF, EveryContingentGroundedAt, ActualReflexive, NoContingentConcreteSupport, coverage and excluded middle hold; ConcreteNecessaryUnionWF, NoNovelNecessarySupport and NecessarySupportIsPresent fail; NecessaryConcreteUnderivedAt holds.",
+      "scope": "Same Profile, selected relation and selected world as the premise; two mutually accessible worlds, three candidates, all concrete and necessary.",
+      "coverage": "One explicitly populated interpretation; it shows compatibility of the rival with the join's endpoint, not survival against it.",
+      "exclusivity": "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint.",
+      "witness": "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts.",
+      "next_step": "Given the regress premises, the rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage); a holder may instead reject a regress premise. Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
+    }
+  ]
+}
