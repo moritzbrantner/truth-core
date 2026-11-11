@@ -1,0 +1,9 @@
+{
+  "id": "8de558f2-ed86-4779-babf-09a425367ada",
+  "label": "Boyd's approximate rational supervenience of moral judgments",
+  "term": "rational supervenience of moral judgments on nonmoral factual judgments",
+  "basis": "sourced",
+  "claim_ids": ["90baf324-8afb-4e26-98bc-b2e88e39cfdb", "60c4ac41-78ca-4094-b5ae-883139a6abdf"],
+  "definition": "An evidential/methodological relationship Boyd proposes: under prevailing standards and a suitable rational reconstruction, nonmoral factual judgments very nearly determine rational moral judgments about actual cases. Candidate moral theories' conditionalized accounts of contact and error are said to mutually ratify much of this assessment; apparent exceptions include counterfactual borderline cases and limits in method or theory.",
+  "note": "Boyd, How to be a Moral Realist, reprint §5.3 pp.346–349. This is not the exact identity or covariance of moral facts, nor `Competence` (which constrains a single supplied verdict function within each designated competent world, with no agent/judge quantifier and no representation of speakers' beliefs about nonmoral distinguishability), nor `Strong` across worlds. There is no independent case-by-case corpus test of his approximation, his selection of currently plausible theories or his diagnoses of alleged non-bivalence. OPEN: independently characterize those standards, theory family and nonmoral factual agreement; test genuine hard counterexamples and distinguish rational convergence from semantic analyticity. No Lean declaration because these qualified explanatory standards are not operationalized by the existing Boolean profiles."
+}

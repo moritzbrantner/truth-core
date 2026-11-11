@@ -1,0 +1,6 @@
+{
+  "id": "ecdbbaba-0902-58ca-a1eb-1e1e3ca25d55",
+  "label": "OPEN: some legitimate claimant can demand abstention in an unjustified-injury case",
+  "paraphrase": "OPEN weaker augmented hard-case bridge: if an accountable offender would deliberately, nonconsensually and without adequate justification impose gratuitous injury on an innocent, nonthreatening person despite a feasible noninjurious alternative, at least one legitimate claimant (the victim, an entitled community or a warranted representative, depending on the account) has a valid second-personal claim that the offender refrain from the act, or stop an ongoing injury. This does not establish that the victim personally has claim-right standing. The demand is supposed to remain valid when the offender benefits and lacks instrumental concern for the patient. HardCaseTyped.HardCases alone does not encode offender or claimant competence, nonconsent for killing, gratuitousness/absence of justifying rescue, or feasible abstention in the killing context; these are independent OPEN case-application premises. Even generic reciprocal standing does not settle which specific claim is legitimate, and exceptions and priority remain to be argued.",
+  "definition_ids": ["b918ef58-9070-559d-9ffe-558544cbc516", "63ea9d05-c21f-5daf-a300-7ec554fb3105"]
+}
