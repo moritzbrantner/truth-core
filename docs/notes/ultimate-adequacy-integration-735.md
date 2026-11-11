@@ -2320,3 +2320,211 @@ necessary concrete mind, much less numerical uniqueness. Stable content and
 a stable bearer remain separate questions. Continue with explicit bridge
 premises or another accessible primary defense rather than treating inaccessible
 text, retorsion alone, or the presentation's summary as a completed proof.
+
+
+## Draft for semantic challenge: warrant for whole-series coverage (2026-11-11)
+
+**Status:** complete proposed bounded outcome, awaiting independent semantic
+challenge; no substantive publication or premise closure authorized by this draft.
+Evidence baseline: `6d9b38009` (fresh main after the coordinator's `e02bd650c`
+seed). This section owns the fact-level explanatory-warrant question, not the
+participation/dependence or modal-supporter-invariance investigations. Existing
+proofs and source findings are reused below; no vocabulary, theorem or source
+claim is added.
+
+**Question and connection.** Does the strongest recorded explicability argument
+independently warrant a reason for existence and the whole contingent order,
+rather than building that warrant into `ReasonClosed.covered`? The selected
+parent is `STMT-LEIBNIZ-SERIES-SUFFICIENT-REASON` (702e4171), under the retained
+scope of ALL contingent facts, including laws, relations and choices. The
+broader source thesis `STMT-FACT-REQUIRES-SUFFICIENT-REASON` (63e54d09) is not
+silently identified with it. The planned concrete endpoint remains
+`STMT-NECESSARY-CONCRETE-AT` (b19ffd92), then the same-bearer underived/source
+interfaces already inventoried in the integration sections. Fact coverage alone
+supplies neither a concrete bearer nor its source role. These are explicit
+missing connections, not a newly built route.
+
+### Positive argument, its deeper premises and the precise reply
+
+The strongest available positive case is more substantial than a demand to
+keep asking why. The following is an analyst reconstruction of its warrant
+structure, informed by the recorded complete Della Rocca reading in
+[the self-application note](psr-self-application-756.md); it is not a newly
+attributed six-premise historical argument.
+
+1. Some rejections of theories appear justified because those theories leave an
+   otherwise inexplicable difference: explanatory failure counts against them.
+2. This practice is alleged to require entitlement to an ontic explanation of
+   the relevant fact, rather than merely a defeasible preference among theories.
+3. Existence and the whole contingent order are alleged to share the features
+   grounding that entitlement; a restriction excluding them therefore owes a
+   relevant distinction rather than a protective exception.
+4. If no such distinction is available, the same entitlement extends to those
+   explananda. This is a proposed dialectical presumption, not a deduction from
+   the observed success of local explanation.
+5. A list of contingent members and their local reasons is alleged not to settle
+   the actual obtaining of their complete order. Even infinitely many members
+   need a reason for the order on this standard.
+6. An adequate reason outside that contingent order is then sought. Its
+   necessity, bearer, explanatory activity, numerical unity and personal nature
+   require further steps; they are not contained in the anti-exception argument.
+
+The first descent is from explanatory practice to its alleged necessary
+precondition (1→2). Kleinschmidt's positive replacement directly contests this
+inference: explanatory power may be a weighty, defeasible truth-relevant virtue
+of theories. She does not need to sort all true facts into intrinsically
+explainable and intrinsically inexplicable kinds. The epistemic recommendation
+can vary because the available competing theories and their OTHER costs vary,
+even when the fact types are alike in explanatory eligibility. This is a
+principled difference in theory-choice circumstances, not yet an ontic boundary.
+
+The second descent is to the bridge from relevant similarity to universal
+coverage (3→4). Relevant similarity can support equal initial treatment or an
+equal burden of inquiry without guaranteeing identical actual explanatory
+status. Rejecting an arbitrary selective exemption therefore does not by itself
+establish that every member has a reason. This does not refute an inductive or
+abductive PSR defense: it identifies the additional inference whose warrant must
+be defended. Conversely, an opponent cannot defeat that defense simply by
+renaming existence a special case. The opponent must identify relevant costs,
+a positive replacement account or a specific limitation of the inference.
+
+The third descent is from explanation of members to explanation of the whole
+(5). If complete truth-entailing discrimination is required, the established
+contrast/collapse results apply to a necessary personal reason as well as a
+necessary impersonal reason. If nonnecessitating explanation is allowed, the
+necessary reason's truth can coexist with alternative outcomes, and its actual
+selection/exercise must do explanatory work. If the whole is exhausted by
+members plus their relations, that claim still includes the obtaining of the
+relations, laws and choices; an existence-only roster cannot settle this owner's
+whole-order target. None of these alternatives supplies foundedness merely by
+using the word explanation. The existing unique-global-solution infinite model
+is the relevant stronger rival to a chain of isolated local answers.
+
+### Source test and limits of the evidence
+
+Freshly materialized and read the complete pinned Kleinschmidt chapter,
+`KLEINSCHMIDT-REASONING-WITHOUT-PSR-64-79`, including the T2/T3 distinction on
+pp.70–72 and footnote18, the objections on pp.73–75, and EP on pp.76–79.
+Her argument expressly grants relevant similarity for a key test rather than
+relying only on a special exemption for existence. The crucial change in her
+reply is the justificatory role attributed to explanatory power. This rules out
+the response that her objection must fail merely because she has supplied no
+intrinsic division between the facts with and without explanations.
+
+Her proposed countercase remains conditional. T3 is the residual composition
+selection under the full relevant nonhaecceitistic circumstances, not T2's
+ordinary composition fact. She acknowledges objections to the puzzle responses
+and to the modal/identity arguments; those objections prevent treating T3 as an
+established brute fact or her paper as a refutation of contingent PSR. EP itself
+still needs a truth-tracking justification and an account of overriding costs.
+Citing parsimony as an analogy motivates that project without completing it.
+
+Freshly materialized and read the full pinned Oppy witness,
+`OPPY-UNIVERSE-NO-CAUSE-13-22`, with his §§I–VII separated from the start of
+Koons's reply. §§III–V make the equal-explanatory-breadth/depth premise load-bearing
+in the comparative parsimony argument; it is not proved merely by matching the
+number of uncaused sources. §VII explicitly treats ontological necessities as
+primitive. A defender claiming an intrinsic divine explanation therefore owes
+an account that improves on primitive necessity; Oppy's primitive treatment
+cannot independently refute that stronger account either. His §VI inference
+from necessity to independence remains disputed: modal invariance alone does
+not exclude dependence between necessary items. Neither that defective step
+nor the conditional equality premise establishes a necessary natural source.
+
+Fresh Della Rocca materialization failed for BOTH existing passage slices:
+publisher HTTP403 and the pinned Wayback fallback connection reset. This is an
+access failure in this run, not evidence against the recorded earlier complete
+reading. No new historical attribution is based on unavailable text. The
+recorded pp.11–13 qualification remains essential: the earlier audit preserves
+his positive dialectical case and his leaving a legitimate boundary open.
+Reproduce the successful selected readings with `python3 scripts/source_evidence.py
+materialize <PASSAGE-ID>`; neither command belongs in routine offline gates.
+
+### Strongest surviving replacements and their further commitments
+
+| Replacement | Positive explanatory resource | Next debt, and what does NOT follow |
+| --- | --- | --- |
+| Contingent brute natural root with ordinary local explanations | Particular effects can have causes and warranted beliefs while the ultimate root has no further ontic explanation; EP can favor these local explanations without asserting universal coverage. | Explain why the full theory's costs outweigh its unexplained-root deficit, and justify EP's truth relevance. No already justified all-fact demand is honored by leaving that very fact brute. Consistency does not establish actual brute reality. |
+| Necessary impersonal concrete foundation | An invariant concrete base plus a law, probabilistic mechanism or other nonnecessitating exercise can propose why contingent effects obtain. Intrinsic explanation is not excluded merely by impersonality. | Defend actual realization, relevance and any claimed intrinsic account of the base's necessity. A necessary LAW FACT alone is weaker than this concrete rival. Neither necessary existence nor an untyped reason edge proves productive explanation. |
+| Necessary personal foundation | A necessary bearer can exercise reason-guided contingent agency; a reason for action need not entail its occurrence. This is stronger than an idle necessary being. | Show the actual exercise explains the complete contingent order INCLUDING the choice; rational permissibility among ties is weaker than explaining unique occurrence. Agency cannot be excluded for nonnecessitation while chance is admitted on that sole ground, or exempted while chance is excluded on it. Other discriminating features could still matter. |
+| Infinite natural/impersonal order | Local predecessor explanations can be supplemented by a global constraint with a unique solution, avoiding the inference that beginninglessness entails mere unconstrained recurrence. | Defend the global constraint's obtaining, explanation direction and real applicability; show why this explanatory structure suffices or why a separate whole-order reason is unnecessary. It does not satisfy independently imposed selected accessibility merely by having a unique solution. |
+
+These are four positive research alternatives, not an exhaustive partition and
+not an equal-adequacy certificate. The brute rival rejects coverage; the
+infinitist can reject foundedness; the necessary impersonal rival can accept
+both while disputing the personal/attribute bridge. Thus even an independent
+victory for coverage would not automatically discriminate the last rival.
+
+### Exact formal reuse and assessment boundary
+
+`ExplanatoryAdequacy.core` and `comparison` already test coverage, foundedness,
+contingency and varying/necessitating reasons, with omission controls. Their
+`law` interpretation demonstrates a fact/bearer gap, not a functioning natural
+concrete world. `tokenExpand` shows why admitted-reason coverage without relevance
+is too weak to certify explanatory adequacy. `BeingStop` would put the expected
+necessary-bearer answer into the standard and remains a rejected shortcut.
+The distinct contrast, two-way and stopping senses in
+[the existing disambiguation](../../corpus/disambiguations/explanatory-contrast-stop.json)
+are unchanged.
+
+The exact weaker consumer is
+`TruthCore.Results.Explanation.WeakAccountNecessaryBeing.necessaryBeing`:
+explicit excluded middle, `WeakReasonClosed`, `Founded`,
+`AccountConstituentsNonempty S K` and `AccountConstituentsRealized A S K`
+yield ordinary `NecessaryBeing A.ontic w`. `WeakReasonClosed` has four clauses;
+removing `nonCopy` did NOT remove coverage. The existing accessible-account
+consumer replaces global foundedness by `SelectedAccountAccessible A w S x`
+while retaining the other four heads. These are useful checked consequences,
+not independent defenses of their inputs. The fixed candidate set K selects a
+bearer within one fact across worlds; it does not prove every necessary fact
+is a concrete source, or that one bearer explains every account member.
+
+Likewise #756's `stanceMap` and `bridgeLadder` distinguish epistemic demands
+from ontic reasons. The newly retrieved #1415 issue specifies a scope test,
+with no published findings/comments at retrieval; it is not proof that any
+rival is self-defeating. A defense of a blanket denial of every ontic explanation
+that ACTUALLY invokes an ontic explanation would face a same-relation conflict.
+A rejection of universal coverage supported by epistemic evidence need not.
+No fresh universal PSR follows from the meaningfulness of its denial.
+
+**Proposed overall provisional judgment.** On this evidence, the explanatory
+practice argument supplies a substantial reason to investigate explanation of
+existence and to challenge unmotivated exemptions. It has not established the
+universal/whole-series coverage needed by this route. The current evidence does
+not warrant preferring that generalization over the strongest defeasible-EP
+reply, nor does the reply establish that the actual root is brute. Necessary
+impersonal concrete foundations remain undiscriminated by coverage and
+foundedness alone. This is underdetermination of this warranted inference,
+not a verdict that all the complete metaphysical theories are equally good.
+The judgment shares dependencies with the earlier #756 source assessment and
+must not be counted as an independent second witness for it.
+
+**Revision and next tests.** Strengthen the PSR assessment with a non-question-
+begging argument that justified explanatory practice needs all-fact coverage,
+or a concrete failure of EP to justify a paradigmatic inference after the
+available theories and costs are fixed. Strengthen the rival with an independently
+motivated truth-tracking account of EP and a cost comparison for THIS whole-order
+target, not only the composition puzzle. A later direct source reading that
+changes the reconstructed inference or its qualifications reopens this
+assessment. For the necessary-impersonal branch, the next discriminating
+question is whether a proposed intrinsic nature explains the base's actual
+existence without a bare necessity label, and whether the same standard favors
+a personal nature; it must precede any claim that the source is divine.
+This branch is ready for reassessment because another structural coverage
+lemma would only restate the precise warrant obstacle. No further theorem is
+proposed: the needed conditional and scope controls already exist.
+
+**Validation/premise effect:** related/context/dossiers, exact declarations and
+existing attempts inspected. No Lean, claim, statement, argument, result or
+source record changed. Computed `frontier-diff --base 6d9b38009` reports root-reaching open premises
+421→421 (282 bare,94 supported,45 stated), lowest expanded-route cost16→16,
+and verified support alternatives303→303; no change. Existing proof
+evidence is reused; no new build, binding, Comparator, NanoDa or real-world
+model adequacy is claimed. Required delivered-head CI remains separate.
+
+Offline corpus validation, source-record validation, attribution check (no changed
+stating claims) and whitespace checks passed for this two-file draft. Claim/type
+self-sweep found no changed bound proposition or theorem; the analyst warrant
+reconstruction, cited source limits and model/application boundaries above are
+the substantive claims submitted for challenge. The computation is unchanged
+by committing these same bytes.
