@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.Power1392Exercise.Challenge",
+  "solution_module": "TruthCore.Results.Causality.Power1392Exercise.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.Power1392Exercise.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

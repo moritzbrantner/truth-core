@@ -1,0 +1,10 @@
+{
+  "id": "946757d7-3364-44ec-9045-a2734e368b18",
+  "label": "Power sufficiency compatibility and actual witness scope",
+  "paraphrase": "Analyst metatheorem: holding other Power fields fixed, existence of an ability relation satisfying active-power sufficiency and safety is equivalent to all listed requirements implying generic coherence. An actual infinite witness plus unlimited act, sufficiency, possible requirements and safety implies coherence iff all requirements are individually possible. Relative ability with relative safety implies generic omnipotence iff all generically coherent tasks are relatively feasible. All assumptions are inside the universal conditional certificate; none is established.",
+  "lean_declaration": "TruthCore.Causality.Power1392.Certificate",
+  "definition_ids": [
+    "0525d8b9-f620-584f-a11f-beee6d8871a5",
+    "2877b7d5-f5e0-4ed4-8bcd-a6072b0a3690"
+  ]
+}

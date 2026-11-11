@@ -1,0 +1,10 @@
+{
+  "id": "5c307c04-ebfb-472d-9e67-48a24a34d4ee",
+  "label": "Same-agent exercise proxy control certificate (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "cf24b8b4-8ecf-43d3-a61c-6d712e97ae8c",
+  "rule": "Explicit finite witnesses and Boolean contradiction",
+  "meaning": "Structural control for the open active-power sufficiency root premise d61eda33-7f6c-52a8-a905-e16661520f23. Original-task, recipient and sign-exclusivity bridges remain unbuilt. See docs/notes/power1392.md. Duplicate actualDoesNotForceRestriction and pure application taskSpecific are not registered as independent arguments.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

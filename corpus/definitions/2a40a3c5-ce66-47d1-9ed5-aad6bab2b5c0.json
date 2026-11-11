@@ -1,0 +1,9 @@
+{
+  "id": "2a40a3c5-ce66-47d1-9ed5-aad6bab2b5c0",
+  "label": "Finite same-agent exercise proxies for the power scope audit",
+  "term": "finite task success, intrinsic profile and accessibility proxies",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Power1392Exercise.Success",
+  "definition": "Agents are Bool. Task is assertFalse a or revealTrue a. Exercise independently records actor, falseAssertion and signs as Bool fields. Success(assertFalse a,e) means actor=a and falseAssertion=true. Success(revealTrue a,e) means actor=a, falseAssertion=false and signs=true. Intrinsic a e means actor=a only; it is not cognitive or productive capacity. Accessible a e means Intrinsic a e and (a=true implies falseAssertion=false), an explicitly stipulated restriction with OPEN applicability. Generic t means some Exercise satisfies Success t. Joint a t means some Exercise satisfies Accessible a and Success t together. Actual is (true,false,false), a distinguished assignment, not evidence of actual cognition. Certificate conjoins actual nonlying with a same-agent intrinsic false-assertion witness and generic false-assertion success with absent relative success and present relative revealTrue success for that same agent. These are structural proxies; no propositional content, recipient recognition, sign exclusivity, knowledge or actual causal production is defined. No identification with original Power.revealWithSigns or CanDo is made.",
+  "note": "See docs/notes/power1392.md; preserves the accepted 648ac117 semantic boundaries. Attribution deferred."
+}

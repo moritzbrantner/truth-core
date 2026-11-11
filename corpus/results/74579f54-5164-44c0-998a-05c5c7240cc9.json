@@ -1,0 +1,11 @@
+{
+  "id": "74579f54-5164-44c0-998a-05c5c7240cc9",
+  "label": "Polynomial induction exact identifiability certificate",
+  "argument_id": "b9fcf09d-4f72-4ebd-8ccf-462500f04e41",
+  "challenge_module": "TruthCore.Results.Science.PolynomialInduction.Challenge",
+  "solution_module": "TruthCore.Results.Science.PolynomialInduction.Solution",
+  "theorem": "TruthCore.Results.Science.PolynomialInduction.certificate",
+  "comparator_config": "results/74579f54-5164-44c0-998a-05c5c7240cc9/comparator.json",
+  "status": "solution-present",
+  "description": "Analyst conditional support with exact stipulated model class and coordinate controls. The proposed connection to evidence justification and truth access is unbuilt; actual class membership, measurement warrant and transport of epistemic justification remain open."
+}

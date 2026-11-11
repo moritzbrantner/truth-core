@@ -1,0 +1,9 @@
+{
+  "id": "2877b7d5-f5e0-4ed4-8bcd-a6072b0a3690",
+  "label": "Listed requirements, safety and relative feasibility in power scope audit",
+  "term": "listed requirement satisfaction and safety in the power scope audit",
+  "definition": "AllReq \u03c3 P x t abbreviates \u2200 r, Requires t r \u2192 InAct x r: all listed requirements, without a completeness condition. Safe \u03c3 P abbreviates \u2200 x t, CanDo x t \u2192 Consistent t, an additional OPEN generic coherence constraint. The separately quantified feasible relation in RelativeBridge is an uninterpreted agent/task primitive intended for joint accessible successful exercise; its accessibility, success and essential-nature interpretation remain OPEN. Certificate combines Compatibility, WitnessConsequence, RelativeBridge, Controls and Omissions exactly as declared. Omissions supplies four structural assignments, each retaining an actual Infinite witness and three of the four hypotheses while dropping the remaining hypothesis and falsifying the coherence biconditional; it does not define real ability as AllReq. See docs/notes/power1392.md for strong positive rivals and application burdens.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.Power1392.AllReq",
+  "note": "Analyst scope audit of existing Power; attribution deferred. No original frozen types or source reading is replaced."
+}

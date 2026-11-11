@@ -138,3 +138,75 @@ selected time and respect is held fixed only by the fixtures having no time data
 ExplanatoryAdequacy (#769) is not imported: its `Arena` has no profile or records, so
 a bridge would need a new interpretation map. `JointCooperation.NecessaryIn` and the
 #752 pair are reused.
+
+## Does derivation of an essential power reach the bearer?
+
+Analyst investigation. Take an actual bearer x and one active power P, a
+capacity to bring about a specified kind of effect. Distinguish what accounts
+for x exercising P, what accounts for x possessing P, and what accounts for
+x existing. Use *external ground* here for an explanation of the specified
+fact by something outside x. A trigger, a suitable recipient, and mere
+covariation with P do not by themselves supply that explanation.
+
+**Dependence in power.** If something external accounts for x's possession
+of P, x is derivative with respect to P. If P belongs to x by nature, this
+dependence concerns a natural capacity of x. It reaches further than
+dependence on a condition for exercise. This suffices against an
+underivedness claim that explicitly includes the source of x's essential
+powers. A claim of underivedness in both respects would add a power requirement
+to the exclusion of incoming existential support.
+
+**Dependence in existence.** The tempting argument is that x could not exist
+without P, so what grounds possession of P also grounds x's existence.
+The first clause gives a condition on worlds in which x exists. The second
+needs an explanatory direction that the condition does not provide. In a
+nature-first account, the actual bearer and its nature explain its powers.
+A power can follow from a nature in every world in which the nature is
+instantiated while remaining distinct from the constitution of the bearer.
+Aquinas's treatment of created soul powers gives a concrete motivation for
+that distinction (ST I q.77 aa.1, 6). For a being whose power, essence and
+existence are really identical, as Aquinas holds of God (ST I q.25 a.1
+ad 2), a different argument is available. It would still need to establish
+that the alleged external explanation targets that very actuality rather
+than a relational or descriptive fact about it. Divine simplicity cannot
+serve here as an assumed property of every first source.
+
+The strongest positive route starts with a claim about constitution. If an
+external principle partly grounds the fact that x has an actual constituent
+and that very fact partly grounds x's existence, then that principle partly
+grounds x's existence if partial grounding is transitive for those links.
+The hard premise is that the externally grounded possession of P is that
+same constitutive fact, or that possession of P partly grounds that fact.
+A power consequent on a nature can be inseparable from it without meeting
+that premise. A Thomistic
+nature-first account instead looks upstream from the power to the nature
+or the bearer's received actuality, and asks directly whether either is
+derived. A powers-first account can take the constitutive route, with an
+independent argument for what constitutes this bearer.
+
+### Application to a first cause
+
+The existing [power and existence boundary](../../corpus/statements/power-existence-simplicity-scope-boundary.json)
+already gives the converse warning. A source with intrinsic power in one
+respect can have existential support in its model. The
+[borrowed-exercise certificate](../../corpus/statements/borrowed-exercise-certificate.json)
+distinguishes a supplied capacity from its exercise. Neither checks the
+proposed lift from grounded possession to grounded existence.
+
+For the [underived concrete source route](../../corpus/statements/necessary-concrete-underived-at.json),
+the next substantive test is whether the power under discussion is a
+consequence of the source's nature or enters into what constitutes the
+source. Even a successful constitution argument needs a separate
+correspondence to the route's selected grounding relation and its
+concrete-supporter and world conditions. A qualifying incoming link would
+exclude the selected bearer as a witness. Excluding every candidate would require a separate argument. A common
+exercise condition does not establish the lift without a case that it
+accounts for the powers or actuality.
+The distinction matters for an individual source even if no plural-source
+theory is under consideration.
+
+Provisional judgment: accept dependence in the specified power as a
+conditional conclusion. Keep existential dependence open on the
+constitutive and relation-mapping premises. This comparison is analyst
+reasoning with source locators for orientation and no new corpus
+attribution or Lean certificate.
