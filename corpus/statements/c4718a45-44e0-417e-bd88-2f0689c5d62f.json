@@ -1,0 +1,12 @@
+{
+  "id": "c4718a45-44e0-417e-bd88-2f0689c5d62f",
+  "label": "Fixed-candidate replacement control with all-world contingent grounding and no reversed direct edges",
+  "paraphrase": "One explicit five-candidate/two-world structural interpretation. The same candidate none actually exists and exists at both universally accessible worlds; it receives present contingent support in each. Every support edge has present endpoints, each world's present-support relation is well-founded, and every contingent candidate has a present concrete ground wherever it exists. No pair of opposite direct support edges occurs even across worlds. The necessary-only support union is empty and well-founded; no-contingent-concrete-support and all-world necessary-concrete-underivedness both fail. Concrete is uniformly stipulated. No parthood, fusion, intrinsic essence, real support adequacy or metaphysical possibility is certified.",
+  "lean_declaration": "TruthCore.Models.NecessaryWholeReplacement.Control",
+  "definition_ids": [
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ]
+}

@@ -1,0 +1,31 @@
+[batch]
+vocab = "TruthCore.Models.NecessaryWholeReplacement"
+results = "TruthCore.Results.Causality.NecessaryWholeReplacement"
+
+[[statement]]
+id = "Fixed-candidate replacement control with all-world contingent grounding and no reversed direct edges"
+lean = "Control"
+paraphrase = "One explicit five-candidate/two-world structural interpretation. The same candidate none actually exists and exists at both universally accessible worlds; it receives present contingent support in each. Every support edge has present endpoints, each world's present-support relation is well-founded, and every contingent candidate has a present concrete ground wherever it exists. No pair of opposite direct support edges occurs even across worlds. The necessary-only support union is empty and well-founded; no-contingent-concrete-support and all-world necessary-concrete-underivedness both fail. Concrete is uniformly stipulated. No parthood, fusion, intrinsic essence, real support adequacy or metaphysical possibility is certified."
+definitions = ["DEF-NO-CONTINGENT-CONCRETE-SUPPORT", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT"]
+
+[[argument]]
+id = "50c97077-9a5a-468d-b0ac-377a73828537"
+label = "Replaceable support survives all-world local grounding and direct-edge asymmetry"
+theorem = "checks"
+premises = []
+conclusion = "Fixed-candidate replacement control with all-world contingent grounding and no reversed direct edges"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit extension of the existing switching control, checked on one fixed interpretation"
+meaning = "Tests the root-route no-contingent-concrete-support premise dd41c165-129a-59d3-84ce-bd13c0944901 consumed by NecessaryConcreteUnderived and its from-necessity assembly. Adds the same target at every world, everywhere contingent support of it, all-world coverage of contingent intermediaries, endpoint soundness and cross-world direct-edge asymmetry to the existing switching pattern. These stronger structural demands do not exclude replaceable support. This is a model certificate, not metaphysical warrant, a root-route derivation or a proof that the carrier's fixed target is a genuine whole. The existing note docs/notes/underived-essence-identity.md records the strongest positive essential-support argument, its burden, rival identity/adequacy obligations and revision conditions."
+
+[[argument.research_comparisons]]
+target_statement_id = "STMT-NO-CONTINGENT-CONCRETE-SUPPORT"
+rival_statement_id = "Some necessary concretum is supported somewhere by a concretum absent from an accessible world"
+sense_definition_id = "Contingent support of a necessary concretum at some admitted world"
+outcome = "model-witnessed"
+conditions = "NecessaryWholeReplacement.profile at false; the same candidate none is necessary and contingently supported at each world; present endpoints, worldwise WF, all-world contingent grounding, cross-world pairwise direct-edge asymmetry, empty necessary-only union, and failure of NecessaryConcreteUnderivedAt hold jointly."
+scope = "One supplied Profile, universal Bool accessibility, literal Option Role candidate identity; no parthood or complete-ground interpretation."
+coverage = "One structural interpretation, not all replaceable-realization accounts; the fixed target's genuine whole identity and real support adequacy remain untested."
+exclusivity = "The exhibited contingent supporters violate NoContingentConcreteSupport. No reverse implication, metaphysical exclusion or completeness of rival coverage is asserted."
+witness = "TruthCore.Results.Causality.NecessaryWholeReplacement.checks"
+next_step = "Fix an independently motivated identity criterion and genuinely existential support account; test whether it requires each present supporter rigidly, permits generic replacement, or rules out only the longer cross-world ancestry loop. Do not infer essentiality from support's name."

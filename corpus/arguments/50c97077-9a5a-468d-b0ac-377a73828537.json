@@ -1,0 +1,16 @@
+{
+  "id": "50c97077-9a5a-468d-b0ac-377a73828537",
+  "label": "Replaceable support survives all-world local grounding and direct-edge asymmetry",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c4718a45-44e0-417e-bd88-2f0689c5d62f",
+  "inference_ids": [
+    "d3263618-5a67-4244-aa78-650c8a155f9c"
+  ],
+  "meaning": "Tests the root-route no-contingent-concrete-support premise dd41c165-129a-59d3-84ce-bd13c0944901 consumed by NecessaryConcreteUnderived and its from-necessity assembly. Adds the same target at every world, everywhere contingent support of it, all-world coverage of contingent intermediaries, endpoint soundness and cross-world direct-edge asymmetry to the existing switching pattern. These stronger structural demands do not exclude replaceable support. This is a model certificate, not metaphysical warrant, a root-route derivation or a proof that the carrier's fixed target is a genuine whole. The existing note docs/notes/underived-essence-identity.md records the strongest positive essential-support argument, its burden, rival identity/adequacy obligations and revision conditions.",
+  "definition_ids": [
+    "9146789d-5b36-572f-baa1-7eef28967793",
+    "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
+    "47033c70-0aca-565d-9473-8399577fea54",
+    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+  ]
+}

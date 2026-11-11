@@ -662,3 +662,275 @@ register this exact five-input assembly after a separately owned semantic
 metadata migration provides faithful predicate signatures/meaning links. Until
 then this PR delivers the joint certificate, **no registered new root route**,
 no premise establishment and no new inference-support claim for packaging.
+
+## Replaceable support: stronger local test and proposed judgment (2026-11-11)
+
+**Review state:** complete worker proposal for independent semantic challenge;
+not yet a reviewed coordinator conclusion. Evidence baseline is
+`6d9b380099158c877373eaf34e2c6a9e4e6d01e4`. The three reused modal/support modules
+are unchanged from the preview seed `e02bd650c2f31160dd1f965b439b1c185cdb421c`.
+This investigation serves the root-connected no-contingent-concrete-support
+premise `dd41c165-129a-59d3-84ce-bd13c0944901` in the seven-input composition
+`df542c04-6033-5d7d-b681-b81263dc1245` and five-input from-necessity assembly
+`d45dba04-e78d-52ab-974a-5193959f8e9a`. It changes no premise's closure status.
+
+### Which underivedness is needed?
+
+The weaker immediate goal is **one actually existing necessary concrete source
+of the selected actual support relation**. The existing #487 actual-root route
+uses actual population, actual grounding foundation and grounding of actual
+contingents (with its explicit logical background). It does NOT require
+no-contingent support of every necessary target or foundation of a cross-world
+necessary-support union. The stronger existing endpoint
+`0bdcf366-29c7-5d45-b603-5c929dcad976` excludes incoming concrete support of one
+and the same necessary witness at **every admitted world**. That is the endpoint
+tested here. A failure of this stronger transport does not invalidate the
+actual-root route or show that there is no necessary source.
+
+In the new control, `some b` is an actual necessary source at world false and
+`some a` is an actual necessary source at world true. Neither is a source in
+both worlds. The candidate `none` is present and supported in both. Thus even
+satisfying the stronger rival does not keep the hierarchy from reaching an
+actual necessary root. To continue from that very root, retain its actual
+existence/necessity/source facts and justify the relevant ground-to-esse,
+priority or essence interface. Do not silently upgrade actual firstness to
+all-world firstness, own-nature explanation, simplicity or self-sufficiency.
+The existing selected-world identity discussion above makes the same scope
+separation; it does not independently establish its q3 interfaces.
+
+### Joint control and exactly what it improves
+
+`Models.NecessaryWholeReplacement.profile` extends the existing four-role
+switching interpretation by one fixed target, `none`. Both worlds access both
+worlds, so the old every-admitted-world versus accessible-world difference is
+absent. The ontology and support edges are:
+
+| World | Present candidates | Support edges |
+| --- | --- | --- |
+| false | a, b, c, none | b → c → a; c → none |
+| true | a, b, d, none | a → d → b; d → none |
+
+Here a/b/c/d abbreviate `some Role.a/b/c/d`. Candidate identity is literally
+constant: `none`, a and b exist at both worlds; c and d each exist at just one.
+Every support edge has existing endpoints. Each world's support is well-founded.
+Every contingent candidate has an existing concrete ground at every world
+where it exists. The same necessary target `none` has contingent incoming
+support in each world. The union of direct support between necessary
+candidates is empty, hence well-founded. Nevertheless no necessary candidate
+lacks incoming existing support at every world. These are joint facts about
+ONE interpretation, not separate witnesses assembled into a compatibility claim.
+
+The control also has no opposite pair of DIRECT support edges, even when the
+two edges may be selected at different worlds. Thus the earlier suggestion
+that excluding a reversal between a fixed pair suffices to decide the rival is
+too weak for the stronger switching pattern. The overlay of ALL support edges
+has the four-edge loop b → c → a → d → b. Each edge stays wholly within its own
+world; there is no local causal/support cycle. The necessary-only union misses
+this loop because it passes through contingent intermediaries. An independent
+ban on such cross-world ancestry loops would discriminate, but calling it an
+ordinary local grounding law would conceal its additional modal content.
+
+This strengthens the old sustained-whole control, which requires contingent
+grounding only at the selected actual world and makes its whole a root there.
+It reuses the switching control rather than claiming a new general rank result.
+No transitivity, complete-ground sufficiency or actual efficient causation is
+encoded. Concrete is uniformly designated; category classification is not tested.
+The registered result `be32d3af-2d06-443e-a0b1-fa22d608d5b4` certifies the listed
+structural interpretation, not a metaphysically possible necessary cosmos.
+
+### Strongest positive argument and its subarguments
+
+The strongest clear positive inference is fixed, indispensable **existential**
+dependence: for the given supporter c and target n, throughout the relevant
+accessible alternatives, n's existence requires that very c's existence. If n
+exists throughout those alternatives, c must too. This is a legitimate
+conditional argument, and is stronger than pointing to any current support
+edge. Its philosophical force depends on why the particular support is fixed
+and indispensable across those alternatives.
+
+1. **Necessitation of a sufficient ground is the other direction.** Even if a
+   complete obtaining ground necessitates its effect, necessity of the effect
+   does not make that particular ground necessary. Alternative sufficient
+   grounds can yield the same necessary effect. A binary contribution need not
+   be a complete ground; the existence of its bearer need not include exercise,
+   enabling conditions or the full obtaining condition. In the control,
+   necessary b's existence alone does not necessitate contingent c. Treating
+   each edge as a globally sufficient single-bearer ground would therefore
+   exclude this assignment; its supporter need not accept that interpretation.
+   An adequate positive realization account still owes the actual full grounds
+   of c/d and the contingent exercise/conditions, rather than claiming that
+   binary coverage has already explained them.
+2. **Essential dependence can give the correct direction, with restricted
+   warrant.** A fixed singleton cannot retain its membership identity without
+   that very member; a fixed essential origin might similarly constrain a
+   particular recipient. These motivate indispensable *particular* dependence
+   where the identity/essence criterion warrants it. They do not establish
+   that every current conserver, constituent, enabling contributor or partial
+   ground is essential to its recipient. Even a necessary fixed supporter would
+   not exclude additional contingent contributors. The universal premise
+   requires necessity for EVERY existing concrete incoming supporter, at every
+   admitted evaluation world, not just one essential ground.
+3. **Counterfactual deletion is not unrestricted replacement.** Removing c while
+   fixing the other actual background can destroy n; this does not yet exclude
+   n under a different sufficient realization. The positive argument must show
+   that the allowed variation keeps n's identity fixed while really requiring
+   c, or show that all proposed replacement cases change n. It cannot define
+   'direct existential support' as this requirement and then apply it to all
+   actual support without a separately warranted adequacy interface.
+4. **Explaining necessity is stronger than causing current existence.** The
+   existing cause-of-necessity premise and tertia-via readings do not identify
+   every current supporter with a cause of the target's necessity. A necessary
+   disjunction of realization conditions might explain invariant existence
+   without selecting one necessarily existing concrete realizing bearer.
+   Whether that disjunctive account is adequate, or instead presupposes an
+   independently existing necessary law/structure/source, is a further
+   explanatory question. Registering a ground label would not answer it.
+5. **Own-nature explanation is not merely `NecessaryAt`.** If n has an adequate
+   intrinsic explanation of its existence, exclusion of all additional
+   existential support would still need a defended relation between intrinsic
+   sufficiency, explanatory competition and redundant/partial external grounds.
+   Mere accessible-world existence does not supply that intrinsic explanation.
+   No opaque self-sufficiency predicate is introduced to bridge this gap.
+
+For primary-source orientation, the COMPLETE existing Latin
+`AQUINAS-ST-I-Q44-A1` witness was selectively materialized and read in this
+investigation (including objections, corpus and all replies). Reply 2 rejects
+necessary → uncaused and distinguishes an effect's dependence on its cause from
+mere ability not to exist; its conditional also covers impossible antecedent
+and consequent. This supports retaining caused necessity as an explicit option,
+not conflating necessity with self-sufficiency. It does not prove that a
+contingent supporter is possible for a necessary effect, nor establish modern
+worldwise essential dependence for every `grounds` edge. Existing q44 claims
+and `DEF-Q44-CAUSED-NECESSITY-DEPENDENCE` remain unchanged. The earlier q2a3
+source-interface findings above remain in force. No new historical claim is
+attributed here. A search located Fine's 1995 *Ontological Dependence* publisher
+metadata, but no authorized full primary text was read; secondary summaries and
+unverified mirror text are not used as warrant for an attributed Fine claim.
+
+### Strongest standing rival: same whole through replaceable realization
+
+Its positive account is that an independently identified enduring/modal whole
+can be constituted or existentially sustained by different complete concrete
+realizations, while its identity condition requires the appropriate kind of
+realization rather than every actual realizing token. Necessary existence can
+then follow from necessary availability of some adequate realization; its
+individual realizing contributors can remain contingent. Local grounds of each
+realization can be necessary sources with contingent exercise/conditions, or
+further contingent dependence subject to the admitted foundation requirement.
+The supporter must give those grounds and conditions actual explanatory roles.
+It need not deny all necessity, all actual sources, or every explanatory demand.
+
+**Identity is a real burden on this rival.** A fixed carrier label proves only
+that the mathematical interpretation holds one candidate constant. The new
+signature has no parthood or fusion, essence, origin or independently supported
+cross-world identity criterion. It therefore does NOT yet certify a genuinely
+identical necessary whole with replaceable constituents. Calling the target
+'whole' cannot supply that burden. Conversely, merely changing its supporters
+cannot establish a change of numerical identity without an independently
+justified essential-support/part principle.
+
+There are at least three distinguishable identity proposals to test, not an
+exhaustive exclusive list: (i) the rigid fusion of exactly these members, where
+an essential fixed-member criterion may exclude replacement; (ii) one object
+whose constitutive conditions permit different members/realizers, whose actual
+identity must be defended independently; (iii) 'the totality at each world' as a
+world-relative role, which supplies at most a whole per world and cannot be
+substituted for one necessary individual. Synchronic extensionality alone
+constrains wholes sharing their parts at one world; a modal essential-parthood
+claim is additional. Temporal replacement examples, even where numerical
+identity is accepted, do not establish a de re necessarily existing concrete
+whole across all metaphysical alternatives.
+
+**Price and commitments.** This rival must defend numerical identity under its
+allowed substitutions, real existential rather than merely functional support,
+the adequacy and contingency of each complete local realization, and the
+necessary availability of some realization without simply stipulating the
+necessary whole. Under all-world local foundation and contingent grounding it
+already owes necessary actual roots; the new control pays that price with a/b.
+It allows their source status to change across worlds and permits a longer
+cross-world ancestry overlay loop. No accepted corpus floor item or the rival's
+own local WF/coverage commitments has been shown inconsistent with that loop.
+The loop is a precise discriminant, not a reason to call the rival unreasonable.
+The mathematical assignment supplies none of the demanded metaphysical warrant.
+
+### Proposed overall provisional judgment and reopening conditions
+
+**Assessment:** the existing evidence favors retaining the no-contingent-support
+bridge as an independently OPEN commitment, and disfavors treating it as a
+consequence of de re necessary existence plus local explanatory foundation.
+This is an assessment of support for that inference, not an assertion that the
+bridge is false in reality. Restricted fixed essential dependence has a clear
+positive argument; no inspected warrant extends it to every incoming selected
+support edge. The stronger structural test survives full worldwise contingent
+coverage, actual endpoint soundness and cross-world direct-edge asymmetry, so
+these particular objections no longer discriminate it. The real whole/support
+interpretation remains underdetermined; neither that rival nor metaphysical
+no-contingent-support is established. Existing positive-union consequence is
+unchanged and valid under its listed assumptions. The actual necessary-root
+route remains available under its weaker actual premises.
+
+The positive case would strengthen if an independent criterion for THIS target
+and support relation made each alleged supporter indispensable to its numerical
+identity or existence, or an independently warranted modal ancestry constraint
+excluded every replaceable realization satisfying the target's identity.
+The rival would strengthen with a non-question-begging concrete identity and
+complete-ground account permitting the substitutions and explaining their
+necessary coverage. It would weaken if its putative whole were only a varying
+world-role, if all-world necessity were assumed solely to preserve the label,
+if its local realization were merely correlated with existence, or if its
+ancestry loop conflicted with an accepted substantive dependence constraint.
+Neither a successful finite certificate nor a failed source search would decide
+these conditions.
+
+**Next concrete discriminating step:** select the intended immediate endpoint
+(actual necessary source or the stronger global source). For the stronger
+endpoint, take a specific independently described candidate whole and its
+identity criterion; test whether every real incoming existential-support edge
+is essential, only some fixed edge is essential, or replacement preserves that
+very identity. For the actual-source endpoint, consume the existing #487 SAME
+witness and investigate the priority/esse-support dictionary needed downstream;
+re-solving global modal underivedness would add a stronger goal unnecessarily.
+No new ticket or parallel handoff is created. This worker returns the complete
+proposal and frozen revision to the coordinator for fresh semantic challenge;
+any substantive publication must follow that review and repair.
+
+### Worker verification and claim/type sweep
+
+Frozen Challenge SHA256 is
+`7b0119b77260337d4e5d837a819d0fc479146390c472183be5a35a73f269ce43`.
+Focused canonical model/Solution build, the one-result binding (1 bound,
+0 mismatch), Comparator and independent result NanoDa pass. The explicit
+axiom probe reports `[propext]`; the comparator uses the repository's approved
+Mathlib axiom profile, since a singleton permitted-axiom list is not an allowed
+profile. The frozen Challenge still contains its intended `sorry`; the separate
+Solution is accepted without `sorry`. Final delivered-head CI and full
+integration checks remain coordinator-owned; none is represented as already run.
+
+The type sweep checked all eleven `Control` conjuncts against the statement,
+argument, result, model comments and this note: same fixed candidate and actual
+existence; support in EACH world by a locally existing candidate with an absence
+witness; BOTH endpoints present; per-world WF; contingent grounding relative to
+each world; direct-edge asymmetry with independently selected worlds; empty
+necessary-only union and its concrete WF; failure of the exact concrete
+no-contingent-support and global underivedness predicates. All worlds are
+accessible in this assignment, so an absence witness also witnesses modal
+contingency. No actual source failure, source uniqueness, fusion, essence,
+complete-ground sufficiency, real concreteness or metaphysical possibility is
+claimed. No source claim or original frozen Challenge changed.
+
+Final full-content persistent-preview probe used the unchanged relevant imports
+at preview HEAD `e02bd650c2f31160dd1f965b439b1c185cdb421c`, workspace
+`/home/brantner/privat/truth-core`, session `continuation-1111`, path
+`Scratch/necessary-underived/Edit.lean`, content SHA256
+`33cc03a41654cea9ddda75eac0c9346642cba5e7ee0bdf5a5b18e7b429211cde`.
+It returned no Lean errors, with the explicit propext-only axiom report and
+constructor-name lint warnings. This preview is development evidence; the
+canonical focused gates above concern the split modules on the current-main
+worker clone. No source/proof gate was replaced by the service.
+
+Computed `truth frontier-diff --base origin/main` at the stated baseline reports
+421 → 421 open root-reaching premises (282 bare, 94 supported, 45 stated),
+lowest expanded-route cost 16 → 16, distinct verified support alternatives
+303 → 303, added alternatives 0, **no change**. These are computed root effects,
+not a hand-reconstructed premise reduction. The new interpretation is a
+comparison/control, not an additional root-support route or premise defense.
