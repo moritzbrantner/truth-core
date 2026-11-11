@@ -1,0 +1,18 @@
+{
+  "id": "2fdcc29d-8e5e-4b21-8e82-8985dd13dead",
+  "label": "Weaken founded coming-to-be to begun coming-to-be for premise A3 of the modal spine",
+  "date": "2026-11-11",
+  "statement_ids": [
+    "f6ceade2-c668-4836-992e-a6d25230bfa6",
+    "6d71688e-973a-4827-9427-85fff7532c9d"
+  ],
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Finding 1: the proof of the possible contingent-free past (premise A3) from possible founded coming-to-be uses Acc only through minimalBelow, to reach a moment with nothing earlier. Asking for exactly that (BegunAt: some moment at or before the populated one has nothing earlier) gives the weak sibling premise A3′w, and BegunComingToBe.possibleContingentFreePast derives A3 from it with no frame condition, presence contract, inert emptiness, well-foundedness or causal relation. Finding 2, strength order: possiblyBegunOfFounded derives the weak version from the founded one, and Control.zeno (times WithBot Int, a first moment followed by moments with no earliest one) satisfies the weak version while no populated moment has a founded past, so the order is strict. Consequence: the founded version carries a price against continuous time with a first moment, since t, t/2, t/4 descend endlessly below any later t; the weak version carries none, and the second horn left to the initial-state view becomes a genuinely beginningless past rather than any non-well-founded past. Finding 3: in the same control every contingent individual has an existing predecessor, related to it by the control's grounding relation and present strictly earlier whenever it is present, yet no individual is necessary at either world; inert emptiness (A2) fails there. So begun coming-to-be together with these earlier-present grounds does not entail a necessary concrete individual at any world of the model. This indicates, pending a restatement of PR 1463's earlier-grounds premise over begun pasts, that the founded-past bundle's entailment of possible necessary being does not survive the weakening; in the spine's existing route, necessity is supplied by inert emptiness (A2) together with the route's other premises. Finding 4: for non-negative rational times (continuous time with a beginning) every moment's past has a beginning and no moment after 0 has a founded past, checked in the same control result. Rejected reading after semantic challenge: 'necessity comes only from A2' overstates the control, which shows only that A2 or something beyond the bundle is needed. All three results pass Comparator and NanoDa locally. No premise is established; the weak premise is OPEN and is a possibility claim.",
+  "evidence": [
+    "a3fd7b50-125c-49a4-a597-3fef6dee2d1e",
+    "f70e675c-521b-4bdc-8da1-b9bc64c5d28f",
+    "dac51b9f-5ba2-470f-aca4-d0bba20c73a9"
+  ],
+  "blocker": "None for this derivation. Next tests: restate the earlier-grounds support route for A3′ (open PR #1463) over begun rather than founded pasts, which the control indicates no longer entails possible necessary being; and state the beginningless-past horn against causal-finitism and Grim Reaper premises formulated without the anti-continuum price of well-foundedness over moments."
+}

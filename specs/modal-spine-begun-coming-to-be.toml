@@ -1,0 +1,73 @@
+[batch]
+vocab = "TruthCore.Causality.BegunComingToBe"
+results = "TruthCore.Results.Causality.BegunComingToBe"
+definitions = ["Past of a moment with a beginning", "History of begun coming-to-be", "History of founded coming-to-be", "Coming to be of contingent concrete things in a history", "Contingent concrete things absent at a moment and present at a later one", "DEF-TEMPORAL-HISTORY-NOW-SLICE", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[statement]]
+id = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+lean = "PossiblyBegunComingToBe"
+paraphrase = "OPEN analyst premise, attribution deferred: some history accessible from the selected world contains a contingent concrete individual present at a moment t such that some moment at or before t has no earlier moment, and in that history every contingent concrete individual, whenever present, was absent at some strictly earlier moment. A history in continuous time with a first moment can qualify, since every moment's past then has a beginning (checked for non-negative rationals in the control). Nothing is said about the selected world itself, about causes, about what is present at the first moment, or about non-contingent individuals."
+definitions = ["History of begun coming-to-be", "Past of a moment with a beginning", "Coming to be of contingent concrete things in a history", "DEF-KANT-MODAL-CONTINGENCY", "DEF-TEMPORAL-HISTORY-NOW-SLICE"]
+
+[[statement]]
+id = "Begun coming-to-be without a founded past or a necessary individual, in a history with a beginning"
+lean = "Control.Certificate"
+paraphrase = "Closed mathematical control, every individual counted concrete, two mutually accessible worlds, integer individuals, times WithBot Int (a first moment followed by moments with no earliest one, the order-theoretic feature of continuous time with a beginning). At the selected world individual n exists and is present at every integer time from n on; nothing is present at the first moment; nothing exists at the other world. In this one interpretation: begun coming-to-be is possible; founded coming-to-be is not; presence gives existence; every contingent individual has an existing individual, its predecessor, related to it by the control's grounding relation and present at a strictly earlier moment whenever it is present; no concrete individual is necessary at either world; and inert emptiness fails. Separately, for non-negative rational times (continuous time with a beginning): every moment's past has a beginning, and no moment after 0 has a founded past."
+definitions = ["History of begun coming-to-be", "Past of a moment with a beginning", "History of founded coming-to-be", "Inert emptiness: a concrete-empty moment is followed only by concrete-empty moments", "DEF-COUNT-TEMPORAL-HISTORY-PRESENCE", "DEF-KANT-MODAL-CONTINGENCY"]
+
+[[argument]]
+id = "Founded coming-to-be gives begun coming-to-be"
+theorem = "possiblyBegunOfFounded"
+premises = ["Possibly, every contingent concrete thing comes to be in a history with a founded past"]
+conclusion = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "A founded past has a minimal moment at or below it"
+meaning = "Strength order between two sibling premises of the modal spine. The same accessible history, the same coming-to-be clause and the same populated moment are kept; the founded past of that moment yields a moment at or below it with nothing earlier (the existing minimalBelow lemma). The converse fails in the checked control. No premise is established."
+
+[[argument]]
+id = "A possible contingent-free past from possible begun coming-to-be"
+theorem = "possibleContingentFreePast"
+premises = ["Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"]
+conclusion = "Possibly, contingent concrete things are absent at a moment and present at a later one"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Take a minimal moment of the populated moment's past; coming to be excludes contingent occupants there"
+meaning = "New non-transcription conditional support option for premise A3 of the modal spine to God's existence, from a strictly weaker premise than the founded version. In the accessible history the contingent individual x is present at t, and some moment m at or before t has nothing earlier. m differs from t, because x present at m would need an earlier moment of absence; so m is strictly before t. Any contingent concrete individual present at m would likewise need an earlier moment, so m is free of contingent concrete individuals. No frame condition, presence contract, inertness of emptiness, well-foundedness or causal relation is used. The single premise is OPEN and is a possibility claim. Unlike the founded version, it does not conflict with every possible populated history having continuous time with a beginning. Nothing is attributed to a source. No premise truth is established."
+
+[[argument.research_comparisons]]
+target_statement_id = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+rival_statement_id = "In no possible history are contingent concrete things absent at a moment and present later"
+sense_definition_id = "History of begun coming-to-be"
+outcome = "excluded"
+conditions = "None beyond the two statements themselves: possibleContingentFreePast derives the negation of the rival from the target."
+scope = "Same History carrier, Concrete predicate, preorder of times, frame and selected world."
+coverage = "The initial-state rival as encoded (no accessible contingent-free moment before a contingent-populated one); not every philosophical view called an initial-state view."
+exclusivity = "Checked incompatibility, not exhaustiveness: both statements can fail together."
+next_step = "The rival's holder must deny that begun coming-to-be is possible: every accessible history either contains no present contingent concrete thing, or has some contingent concrete thing that never came to be, or has no populated moment whose past has a minimal moment (a beginningless past at every populated moment). The second horn no longer includes continuous time with a beginning."
+
+[[argument]]
+id = "Begun coming-to-be control checked"
+theorem = "controls"
+premises = []
+conclusion = "Begun coming-to-be without a founded past or a necessary individual, in a history with a beginning"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Explicit interpretations with WithBot Int and non-negative rational times, checked by case analysis, induction on accessibility, linear arithmetic and halving"
+meaning = "Strictness and nonvacuity: begun coming-to-be is possible while founded coming-to-be is not, so the founded version strictly strengthens the begun one. In the same interpretation every contingent individual has an earlier-present existing predecessor that the control's grounding relation relates to it, yet no individual is necessary at either world: an endless descent of contingent grounds fits between the empty first moment and any later moment, and inert emptiness fails. So the begun coming-to-be plus earlier-present-grounds bundle does not entail a necessary individual; in the spine's existing route, necessity is supplied by inert emptiness (A2) together with the route's other premises. The non-negative rational conjunct checks that continuous time with a beginning gives every moment a begun past and no moment after 0 a founded one. Model claims concern these interpretations only."
+
+[[relation]]
+id = "Possible founded coming-to-be strengthens possible begun coming-to-be"
+subject_kind = "statement"
+subject_id = "Possibly, every contingent concrete thing comes to be in a history with a founded past"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+verification_result_id = "Founded coming-to-be gives begun coming-to-be"
+note = "Same history, coming-to-be clause and populated moment; Acc replaced by a minimal moment at or below. Control.zeno (WithBot Int times) witnesses failure of the converse."
+
+[[relation]]
+id = "No possible contingent-free past is an alternative to possible begun coming-to-be"
+subject_kind = "statement"
+subject_id = "In no possible history are contingent concrete things absent at a moment and present later"
+predicate = "alternative_to"
+object_kind = "statement"
+object_id = "Possibly, every contingent concrete thing comes to be in a history whose past has a beginning"
+note = "Not the negation of the premise: the two are incompatible by the checked derivation of the possible contingent-free past, and both can fail together. Neither is established."
