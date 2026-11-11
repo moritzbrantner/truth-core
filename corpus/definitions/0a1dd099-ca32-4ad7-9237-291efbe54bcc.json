@@ -1,0 +1,9 @@
+{
+ "id": "0a1dd099-ca32-4ad7-9237-291efbe54bcc",
+ "label": "History of begun coming-to-be",
+ "term": "begun coming-to-be",
+ "definition": "BegunComingToBeAt h Concrete v holds when every contingent concrete individual of history v comes to be (AllContingentsComeToBeAt) and some contingent concrete individual is present at a moment t whose past has a beginning (BegunAt t). PossiblyBegunComingToBe h Concrete w says some history accessible from w satisfies this. A history with a first moment occupied only by a necessary thing, or by nothing, and contingent things appearing later satisfies it, in discrete or continuous time; an initial state whose contingent things never came to be does not; a beginningless past does not.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.BegunComingToBe.BegunComingToBeAt",
+ "note": "Analyst framework definition; attribution deferred. The weak version of founded coming-to-be (195b8983, History of founded coming-to-be): same clauses with BegunAt in place of Acc. It is a possibility premise about one accessible history, not a claim about the actual world. Whether such a history is metaphysically possible remains OPEN; it is denied by the initial-state view and by views on which every possible populated past is beginningless."
+}

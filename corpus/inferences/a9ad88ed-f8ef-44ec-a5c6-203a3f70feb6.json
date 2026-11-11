@@ -1,0 +1,12 @@
+{
+  "id": "a9ad88ed-f8ef-44ec-a5c6-203a3f70feb6",
+  "label": "Founded coming-to-be gives begun coming-to-be (inference)",
+  "input_statement_ids": [
+    "78a44599-dc67-4d1f-988a-ed84b8c517f9"
+  ],
+  "output_statement_id": "6d71688e-973a-4827-9427-85fff7532c9d",
+  "rule": "A founded past has a minimal moment at or below it",
+  "meaning": "Strength order between two sibling premises of the modal spine. The same accessible history, the same coming-to-be clause and the same populated moment are kept; the founded past of that moment yields a moment at or below it with nothing earlier (the existing minimalBelow lemma). The converse fails in the checked control. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
