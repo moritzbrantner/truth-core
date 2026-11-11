@@ -1,0 +1,9 @@
+{
+  "id": "f388aa79-8c75-426d-b56b-63a913fc187f",
+  "label": "Identity verdict invariance across indexed histories",
+  "term": "Identity verdict invariance across indexed histories",
+  "definition": "Context distinguishes solo-left, solo-right and split role configurations. The bearer type may depend on context; equality never compares individuals from different contexts. VerdictInvariant is the extra pair of biconditionals preserving earlier/later identity verdicts between the matching solo role and split role. It is not a definition of local causal similarity or an automatic counterpart principle. Its applicability is OPEN.",
+  "lean_declaration": "TruthCore.Mereology.Fission1397.VerdictInvariant",
+  "note": "Stipulative analyst formulation for issue1397, with historical attribution deferred. Detailed interpretation burdens and strongest rivals: docs/notes/personal-identity-fission-1397.md.",
+  "basis": "stipulative"
+}
