@@ -1,0 +1,53 @@
+{
+  "snapshot": {
+    "kind": "web_snapshot",
+    "source_id": "4fb153f8-fccc-4b86-a83f-8e5e78602834",
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3676066/",
+    "retrieved_at": "2026-11-11T14:06:12Z",
+    "sha256": "sha256:72db77bdacd6501d9ec1bac1df614a4d84386c15e22ec062a056ade7f3c110b5",
+    "encoding": "utf-8",
+    "language": "eng",
+    "license": "Copyright2013 American Society for Microbiology; consulted PMC full-text witness. No redistribution permission asserted. Repeated fetches have varying page byte hashes but identical RESULTS extraction hashes; exact consulted bytes cached by hash. No matching Wayback witness pinned; live snapshot fragile. No article text committed."
+  },
+  "passages": [
+    {
+      "id": "2730170a-efb9-4e2c-bc58-e87bd9dd0cde",
+      "label": "Li et al.2013 RESULTS",
+      "locator": "RESULTS (J Bacteriol195:2530\u20132540; doi10.1128/JB.00259-13)",
+      "claim_locator_prefixes": [
+        "RESULTS"
+      ],
+      "html_selector": {
+        "heading": "RESULTS"
+      },
+      "text_sha256": "sha256:4259643958dcf10712e208473252da3144844f0813b18577391103346172f8ee",
+      "incipit": "RESULTS\nCortex-lytic activity of various SleB and YpeB forms on decoated"
+    },
+    {
+      "id": "3f9353eb-c2bf-41ce-a5e2-3ea87a70e2d6",
+      "label": "Li et al.2013 DISCUSSION",
+      "locator": "DISCUSSION (J Bacteriol195:2530\u20132540; doi10.1128/JB.00259-13)",
+      "claim_locator_prefixes": [
+        "DISCUSSION"
+      ],
+      "html_selector": {
+        "heading": "DISCUSSION"
+      },
+      "text_sha256": "sha256:c279970db833817647f0d21dd68d15436ccb21e677d284c642c7c4ff4e168ddf",
+      "incipit": "DISCUSSION\nThe results presented in this work have led to a number of new"
+    },
+    {
+      "id": "74330640-b7b1-4da6-bbf0-e2fb5f49dbc4",
+      "label": "Li et al.2013 MATERIALS AND METHODS",
+      "locator": "MATERIALS AND METHODS (J Bacteriol195:2530\u20132540; doi10.1128/JB.00259-13)",
+      "claim_locator_prefixes": [
+        "MATERIALS AND METHODS"
+      ],
+      "html_selector": {
+        "heading": "MATERIALS AND METHODS"
+      },
+      "text_sha256": "sha256:e8a4e5034628623638fe071e0655909973bb4ef36a73ae4c61a72164bc11ef00",
+      "incipit": "MATERIALS AND METHODS\nStrains used and spore preparation and"
+    }
+  ]
+}
