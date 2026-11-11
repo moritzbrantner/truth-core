@@ -495,3 +495,281 @@ normative question rather than repeat the existing algebra. The complete
 outcome is persisted and independently challenged. Canonical focused build,
 preview diagnostics, five-result binding and all five Comparator/NanoDa checks
 have passed; delivered-head CI remains required for the new continuation results.
+
+## Epistemic unit continuation: reviewed outcome
+
+Analyst normative reassessment after the delivered reflection checkpoint #1413.
+Independent challenge accepted this full outcome after a narrow repair allowing
+transparent population interventions under the rival's unchanged criterion
+(reviewed note `8042984b`, attempt `5da85f7c`; later edits update work status only).
+It introduces no theorem,
+probability measure, normative flag, source attribution or root bridge. It uses
+the already checked `WeightingAndWagers`, `CohortAccuracy`, `RecallControl` and
+information-loss controls, rather than certifying the same quadratic again.
+The reviewed reflection conclusion remains unchanged. The present question is
+whether duplication invariance or evidence sufficiency can independently warrant
+an epistemic unit of assessment.
+
+### Reuse and the three interventions
+
+The related/context/dossier search inspected the existing Sleeping Beauty
+accuracy results, their actual definitions and previous attempt. It also found
+and inspected `FineTuningEvidence.invariance`, result
+`847ba0b4-6372-4015-a4f0-0132fd00198f`, and its linked fine-tuning-selection note.
+That theorem preserves supplied measures and corresponding events under a
+**measurable bijection**. It does not select either measure. It also does not
+apply directly to one-to-many copying or interval subdivision, which are not
+bijective recodings of the original atoms. Nothing in this continuation extends
+that certificate. Its useful lesson is the distinction between transporting
+one specified assessment and replacing it with a differently weighted one.
+
+Three interventions must be distinguished before invoking invariance:
+
+| Intervention | What stays fixed | What actually changes |
+|---|---|---|
+| Copy a score record | Original conscious assessment, its content/truth, its evidence, and the specified episode-level score | Number of administrative representations of that score |
+| Divide an uninterrupted unchanged episode into labeled time slices | Its conscious history, duration, information and assessment policy | Description/partition of the history |
+| Add genuinely distinct indistinguishable conscious assessment episodes | Coin mechanism and the stipulated absence of additional outcome reports | The actual assessment history, number of episodes and possibly total conscious duration; known protocol information may also differ |
+
+The third row is not a relabeling of the first two. Calling all three
+“duplication” obscures the premise that would carry invariance from one to the
+other. Genuinely distinct episodes must be stipulated independently of logger
+labels. Whether a tiny undetected interruption produces a new epistemic
+assessment rather than one persisting attitude is itself an individuation
+question; this note does not settle it by counting labels or physiological
+awakenings.
+
+### A positive reason for limited representation invariance
+
+Fix a factual question, the original agent's belief, the actual target, the
+agent's evidence and the declared score for that assessment. A clerk secretly
+copies its score entry. There is no additional original belief, no new reliable
+report about the coin, and no change in whether that original belief is true.
+If the copying is known to be a deterministic derivative of the same entry,
+its content is not an independent witness. Treating it as one would invent an
+independence assumption rather than derive an evidential advantage. If the
+copying is unknown, it does not supply a new accessible consideration either.
+This gives a defeasible epistemic reason to preserve the answer to the fixed
+original assessment question: the intervention has changed its representation,
+not the target-bearing grounds or the specified assessment.
+
+The case is especially clear if Tails records alone are copied: raw equal
+weight per database row can turn the one-H/one-T score into the one-H/two-T
+formula. The already checked risks then have different unique optima. That is
+a mismatch with the stipulation that one is representing the SAME original
+assessment score. It is not a newly certified theorem, an irrationality theorem
+about either credence, or a refutation of additive genuine-episode accuracy.
+An additive-episode account can simply count the original episode once and
+identify its duplicate record as representing that same episode. If an actual
+observer is instead selected uniformly FROM the enlarged database, the
+selection experiment has changed: multiplicity may genuinely affect that
+observer's likelihoods. The limited invariance argument expressly excludes
+that change of query.
+
+Likewise a purely administrative subdivision must not alter the specified
+whole-episode assessment merely by changing the number of labels. A scorer can
+assign the whole score once to the episode, or partition its already specified
+weight among its parts. A duration objective can assign each part its actual
+length. Each respects the same-history requirement. Equal weight per arbitrary
+slice, without an account of what the slices measure, changes the objective
+when the clerk refines the partition. This is a reason against that use of
+arbitrary slices as neutral bookkeeping, not proof that duration or maximal
+awakenings are the uniquely correct epistemic unit.
+
+The inferential basis is unchanged target-bearing grounds plus faithful
+representation of a declared assessment, not acceptance of invariance as a
+floor axiom. A critic may ask whether bookkeeping has introduced genuine new
+beliefs or a new selection event. If so, the fixed-assessment premise fails;
+that is precisely why the intervention must specify what changed. No proof
+about deterministic copies licenses ignoring independent new observations.
+
+### Why this does not yet warrant actual-episode invariance
+
+The strongest evidential-invariance account says that rational credence should
+answer the factual target in proportion to its epistemically relevant evidence.
+The same coin mechanism and equally informed reports should not require a new
+answer merely because the protocol produces additional occasions for holding
+it. Its positive reason is avoiding a shift in the factual answer driven by
+repetition rather than a new truth-discriminating consideration. The original
+coin chance and experiment-level calibration supply a specific anchor. The
+record and subdivision controls support this reason in their limited scope.
+
+The missing premise is that genuine additional self-locations are relevantly
+like extra representations of the SAME assessment, rather than additional
+locations among which the present subject is uncertain. Additional awakenings
+can be causally downstream of the coin without supplying a new coin RESULT
+report. Yet knowledge of their multiplicity changes the possible centered
+locations and, under a multiplicity-sensitive sampling interpretation, the
+likelihood of occupying a given kind of location. The existing retained-slot
+model is a concrete positive account of that possibility. It does not prove
+that Beauty is retained-slot selected. But it shows why absence of an additional
+uncentered outcome report does not by itself prove equality of all epistemically
+relevant information. Insisting that only uncentered causal evidence counts
+would put the disputed exclusion into the premise.
+
+The strongest additive-episode account evaluates genuine inaccurate assessment
+occurrences as epistemically bad in their own right. An additional conscious
+occasion of being wrong is a further error to avoid, even when it repeats the
+same target. Equal per-episode concern plus ex ante additive accuracy gives
+the existing total-token objective and its unique thirds policy in the fair
+two-Tails-awakening regime. Its positive reason concerns actual doxastic error,
+not paper records or financial settlement. It can consistently deduplicate
+records and ignore administrative slicing while counting genuinely new episodes.
+Thus limited representation invariance and this positive rival norm coexist.
+
+The evidentialist's strongest objection is the policy-to-credence step: more
+occasions for an error need not change the epistemic support for the proposition
+at any one occasion. The additive account's strongest objection is that the
+chosen current attitude is part of a policy across actual occasions, and
+experiment averaging knowingly tolerates greater expected total epistemic error.
+The latter observation is established under the selected score; the judgment
+that total error must control individual credence is not. Conversely, the
+judgment that experiment calibration must control every current self-location
+is not established by fair-coin physics alone. Neither refusal conflicts with
+an accepted floor premise. They disagree about the reason-giving unit and the
+transport of policy assessment into present credence, not arithmetic coherence.
+
+### The precise conditional incompatibility already exposed
+
+Consider two fair protocols with one Heads episode and respectively one or two
+Tails episodes. Restrict to one common credence at all indistinguishable episodes
+of each protocol. The one-per-outcome expected score is exactly `mondayRisk`;
+the one-H/two-T expected total-episode score is exactly `tokenRisk`. The existing
+`CohortAccuracy` theorem already proves their unique optima are 1/2 and 1/3,
+and no single r minimizes both.
+
+Consequently these proposals cannot all hold on this comparison:
+
+1. rationally required credence is invariant under genuine Tails-episode
+   addition, because that intervention is deemed epistemically irrelevant;
+2. the same required credence must uniquely minimize the expected additive
+   score of all genuine episodes in each protocol;
+3. those objective functions, constant-policy restrictions and fair protocol
+   semantics describe the case being assessed.
+
+This is a prose application of the **existing** no-common-minimizer result,
+not a new formal certificate for normative claims. Its scope is exact: the
+invariant requirement equates the two policies, while the optimization
+requirement demands the two different verified minimizers. Dropping genuine-
+episode invariance leaves the additive account consistent. Dropping universal
+additive optimization leaves the evidential account consistent. The clerk
+controls do not supply premise 1. The expected-risk theorem does not warrant
+premise 2. The incompatible proposals therefore identify a substantive price
+for each account without defeating either one under shared accepted norms.
+
+A putative stronger counterexample keeps the agent's TOTAL accessible evidence
+identical while secretly changing the actual number of episodes. It then asks
+an evidence-based norm and an optimum based on the TRUE hidden episode count
+to agree. This does not refute the strongest additive account: it may optimize
+using the agent's warranted uncertainty about the protocol, not an unknown
+actual k. It does show that actual performance and accessible epistemic reason
+need not coincide. In the original public-protocol comparison, knowing k has
+changed part of the available protocol information. Calling that change
+irrelevant is exactly the premise needing defense, not a fact about identical
+total evidence.
+
+Likewise, “sufficiency” cannot bridge this gap by ambiguity. Exact report
+reconstruction (`Retains`) concerns a structural information map. Statistical
+sufficiency concerns conditional target distributions under a specified joint
+model. Epistemic sufficiency concerns which considerations warrant an attitude.
+The first two do not choose the joint population or establish the third. The
+constant-report appearance obstruction is about perfect classification and
+supplies no theorem that a report has equal likelihood across every admissible
+self-location model. None is repurposed here as a rationality certificate.
+
+### Duration and a temporal-position marker
+
+Duration weighting is a live third positive proposal. Holding the same wrong
+credence for more conscious time may be thought to produce more sustained
+epistemic inaccuracy; integrating a fixed local error rate also respects
+administrative interval subdivision. For a concrete discriminating comparison,
+give the Heads episode length one and two Tails episodes length one half each,
+with the same constant policy r throughout. A duration sum then has exactly
+the `mondayRisk` coefficients, while giving every episode unit weight retains
+the `tokenRisk` coefficients. If every episode instead has length one, duration
+and episode counting coincide for this case. These are explicit identifications
+of the illustrative score with the **existing** risk definitions, not a new
+general integration/optimization theorem or a claim that one duration unit is
+normatively authoritative.
+
+This separates actual episode count from actual conscious time without relying
+on duplicated records. It also shows why partition invariance alone cannot
+choose between counting whole episodes and integrating duration: both can
+respect administrative slicing. A norm of equal local error per unit duration,
+or a continuity requirement under arbitrarily short interruptions, would add
+substantive constraints. Their truth-relevance and their application to
+credence need reasons; declaring them invariant is not such a defense.
+Conversely a norm counting discrete judgments needs justified identity criteria
+for judgments, not whatever rate the logger samples them.
+
+A reliable marker telling Beauty that this is the next awakening predicted on
+Sunday addresses a different uncertainty: temporal-position identification.
+The existing `RecallControl` shows that reliable day-sensitive policies can
+improve accuracy; it does not choose an epistemic unit. Adding a marker changes
+the agent's information, so it is not a clean test of invariance under unchanged
+TOTAL evidence. A marker known only to an external monitor cannot silently be
+used as Beauty's evidence. The marker may support a future bridge about nested
+information, but it does not itself settle total-episode versus duration versus
+experiment aggregation. No redundant marker theorem is added.
+
+### Provisional judgment, attempted routes and reopening
+
+The limited claim that copying administrative records or relabeling an unchanged
+history should preserve a specified original epistemic assessment is positively
+supported by deterministic dependence, unchanged target-bearing grounds and
+faithful representation of that assessment. It remains defeasible when the
+intervention actually changes the selected observer, information or conscious
+assessment. It is not a newly accepted floor axiom. This provides no adequate
+independent warrant for extending invariance to genuine new assessment episodes.
+The additive-episode account survives the limited controls with a substantive
+accuracy reason, while experiment-based and duration-based accounts have their
+own positive reasons and explicit outstanding burdens. Unique rational Heads
+credence remains underdetermined. Not every numerical credence is thereby
+equally warranted, and no rival is formally refuted.
+
+The tested approaches and precise failures are:
+
+* Transport existing measurable recoding invariance: it concerns supplied
+  measures under bijections, not one-to-many creation or measure selection.
+* Transfer the clerk counterexample directly to real observers: it confuses
+  copies of one assessment with genuinely additional assessments; the strongest
+  additive-episode account rejects that identification.
+* Infer equal total evidence from no new coin-result report: it omits known
+  protocol multiplicity and the disputed relevance of self-location.
+* Use a secret protocol change against the strongest evidence-sensitive rival:
+  it substitutes the actual unknown k for the agent's warranted protocol model.
+* Make duration follow from partition invariance alone: whole-episode scoring
+  also respects administrative partitions, so extra local-additivity/unit or
+  continuity premises are needed.
+* Treat marker information or expected-score optimization as the missing norm:
+  the marker changes information; optimization needs a justified objective and
+  a policy-to-current-credence bridge.
+
+These materially different controls converge on the same precise dependency:
+which actual features individuate an epistemic assessment and why their
+aggregation, or their irrelevance to present evidence, supplies a reason for
+THIS agent's credence. The investigation has neither an accepted independently
+warranted criterion selecting that unit nor a same-standard counterexample
+against the strongest surviving accounts. More copied-record or quadratic
+examples would repeat the obstacle. No unavailable source or owner choice is
+being alleged.
+
+Reopen with a substantive argument defending or undermining one of these
+specific premises: the epistemic irrelevance of known outcome-dependent
+creation of genuine episodes; equal reason-giving weight per actual episode;
+equal weight per conscious duration; or the bridge from ex ante policy accuracy
+to an individual self-locating credence. An independently justified criterion
+of genuine assessment identity could also change the comparison. A concrete
+new counterexample must apply the rival's SAME stated criterion and retain the
+assumptions that the comparison requires, with protocol and population changes
+fully disclosed. The actual population may vary under the specified intervention.
+The test must expose failure by that criterion rather than silently replace it
+or substitute an inaccessible actual k for the agent's warranted protocol model. These are research questions, not an owner request to choose a
+metaphysical winner.
+
+This is a substantive branch reassessment with **no new theorem or premise
+change**. Existing certificates and accepted prior reviews remain unchanged.
+The coordinator can redirect to one of the stated warrant premises or another
+independent root-route uncertainty. The present full outcome passed independent semantic challenge, including the
+targeted reopening-condition repair; only prose and the existing attempt
+record change.
