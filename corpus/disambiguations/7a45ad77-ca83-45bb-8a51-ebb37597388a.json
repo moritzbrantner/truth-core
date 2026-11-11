@@ -1,0 +1,25 @@
+{
+  "id": "7a45ad77-ca83-45bb-8a51-ebb37597388a",
+  "label": "Ideal-compatible permission and issued authorization",
+  "term": "permission",
+  "term_label": "PERMISSION",
+  "sense_definition_ids": [
+    "03c610d3-5df4-48fc-baf0-e78fe8a084e3",
+    "71a1b029-8b24-42ec-800d-f797ebf4f961"
+  ],
+  "resolution": "Weak ideal compatibility and explicit authorization are distinct. No bridge is implicit; both weak permissions coexist with no authorizations in the both control. Neither is practical Can.",
+  "senses": [
+    {
+      "id": "e3a1e08f-1c5e-434c-be94-9452bc245519",
+      "label": "PERMISSION_1",
+      "definition_id": "03c610d3-5df4-48fc-baf0-e78fe8a084e3",
+      "lean_declaration": "TruthCore.Ethics.RossPermission.Weak"
+    },
+    {
+      "id": "6540418f-741f-4ded-ac6b-89fd8dbb1f3d",
+      "label": "PERMISSION_2",
+      "definition_id": "71a1b029-8b24-42ec-800d-f797ebf4f961",
+      "lean_declaration": "TruthCore.Ethics.RossPermission.Strong"
+    }
+  ]
+}

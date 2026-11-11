@@ -1,0 +1,28 @@
+{
+  "id": "2844d448-0cf4-4713-af4a-e3f563a52407",
+  "label": "Ross conditional semantics and finite controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "7021bf46-dbe3-4ef7-ba49-a2fcdb2abc11",
+  "inference_ids": [
+    "42448f41-7b99-4292-9f4f-15219784a2a1"
+  ],
+  "meaning": "Exact Certificate: arbitrary-frame conditional laws and closed serial controls; no actual normative warrant or root connection.",
+  "definition_ids": [
+    "03c610d3-5df4-48fc-baf0-e78fe8a084e3",
+    "71a1b029-8b24-42ec-800d-f797ebf4f961",
+    "ac8c1fd8-884f-5f95-8a3a-e25870b8a5bd",
+    "e7812110-d4a0-44b2-b026-080b0d686470"
+  ],
+  "disambiguation_ids": [
+    "7a45ad77-ca83-45bb-8a51-ebb37597388a"
+  ],
+  "sense_bridges": [
+    {
+      "term": "PERMISSION",
+      "from": "e3a1e08f-1c5e-434c-be94-9452bc245519",
+      "to": "6540418f-741f-4ded-ac6b-89fd8dbb1f3d",
+      "statement_id": "7021bf46-dbe3-4ef7-ba49-a2fcdb2abc11",
+      "role": "conclusion"
+    }
+  ]
+}

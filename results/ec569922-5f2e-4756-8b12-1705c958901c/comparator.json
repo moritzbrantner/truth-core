@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ethics.RossDerived.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.RossDerived.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ethics.RossDerived.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}
