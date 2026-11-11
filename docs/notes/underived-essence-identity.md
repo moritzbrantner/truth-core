@@ -375,15 +375,20 @@ No Lean type, source claim or inference graph changed. Root-premise and
 configuration delta: none. Source integrity is newly reproducible; source
 fidelity and metaphysical applicability remain separate judgments.
 
-### Contingency-to-reception warrant assessment (2026-11-11; proposed outcome)
+### Contingency-to-reception warrant assessment (2026-11-11; reviewed checkpoint)
 
 This is the dependence slice of the owner's necessary-underived-being priority,
 on evidence revision `6d9b38009`. It serves `EveryContingentGroundedAt`
 (`c71c068c-bbae-5ed5-a99d-70b155c8d239`) in
 `NECESSARY-CONCRETE-UNDERIVED-COMPOSITION` (`df542c04`), whose conclusion is
-`0bdcf366`. **Draft for independent semantic challenge:** the judgments below
-are proposed research findings, not reviewed support, new certificates or
-premise closure. This continuation reuses the source readings above and the
+`0bdcf366`. **Independent semantic challenge: qualified acceptance**, reviewer
+`/root/review_dependence`, exact reviewed revision
+`5f3c4428fe9b6d73746c18ca6924b38037ca94c4` (note SHA256 prefix
+`29a1b5b9`, attempt SHA256 prefix `00b7482c`), no repairs. The review checked
+the actual q3/De ente/q44/q104/Feser/Schmid texts and proof/model semantics;
+complete Pearce/Dasgupta arguments were not independently reaudited. The
+judgments below remain provisional findings, not new certificates or premise
+closure. This continuation reuses the source readings above and the
 [recorded inertia debate](../eternity-dependence-connection.md#existential-inertia-the-live-rival-and-the-remaining-bridge);
 it makes no new historical attribution or claim to a fresh source reading.
 
@@ -490,7 +495,7 @@ metaphysical nature can remain primitive. The `omit_hCause` and `omit_hEsse`
 controls separately retain the other inputs. Their separate models are not
 silently combined into one interpretation preserving every rival commitment.
 
-#### Proposed overall provisional judgment and next discrimination
+#### Overall provisional judgment and next discrimination
 
 For the selected modal meaning, the contingency-to-reception inference is
 **not independently warranted by the inspected argument**. The positive case
@@ -530,8 +535,9 @@ universal `ff8ff869`. Even successful generalization must retain same-world
 cause presence, concreteness and the `cb1cdea9` ground correspondence, and then
 the necessary-being route's independent foundation/underivedness assumptions.
 No added, removed or discharged root premise; no new formal result or source
-claim. This two-file research delta requires semantic review and offline record
-checks; unchanged proof certificates are reused, with delivered-head CI retained.
+claim. This two-file research delta has qualified semantic acceptance and passed
+offline record checks; unchanged proof certificates are reused, with
+delivered-head CI retained.
 
 ### Direct Dasgupta reading: one existential ingredient, not pure existence grounds
 
