@@ -275,9 +275,12 @@ not ExistsAt v c from (ii) universal loss of ExistsAt v x at such v. The first
 is an explicit absence-admissibility obligation, not guaranteed by a bit flip;
 the second alone is vacuous for a necessary c. A must preserve the background
 conditions relevant to this causal test, except those consequences allowed to
-change. Nothing in either canonical profile selects such an A. In particular,
-restricting A to the actual-concrete vertex subtype would make bearer removal
-unrepresentable: absence must be evaluated on the underlying candidate domain.
+change. Nothing in either canonical profile selects such an A. A fixed actual-concrete roster at the base world w still permits cross-world
+absence tests through each vertex's underlying candidate: for example, the
+true vertex exists at w=false in witnessProfile but ExistsAt true vertex.val
+is false. Rebuilding the roster at each comparison world, or treating subtype
+membership itself as cross-world existence, would instead exclude that absence
+case. The roster and the world-relative existence predicate must stay distinct.
 For impossible absence one needs a separately justified counterpossible or
 hyperintensional support account; treating inconsistent antecedents by explosion
 would restore precisely the indiscriminate success above.
@@ -364,3 +367,139 @@ is changed here. Named witness claims above are inspections of their existing
 assignments, not fresh kernel checks or empirical possibilities. Composition
 and vacuity reasoning is explicit prose and has no new certification status.
 Reuse unchanged certificate evidence; delivered-head CI remains required.
+
+## Cause of being criterion: scope and warrant reassessment (draft, 2026-11-11)
+
+This is the complete proposed continuation judgment for fresh independent
+challenge, not an accepted outcome of the bearer review. Reused evidence:
+`Causing an effect` and its three definitions; the target and becoming-cause
+dossiers; `TermSenseForks2.BecomingBeingFrame` and its populated origin-without-
+being control; `causal-maps-batch1-rejected-edges.json`; the materialized-source
+findings already preserved in `causal-perfection-transfer.md` (witness table,
+“Causal meaning”) and `eternity-dependence-connection.md` (existential inertia,
+q.104 corpus/ad 1–4, Schmid and Feser paragraph locators). This continuation
+introduces no fresh historical attribution or source certification.
+
+**Correction to the preceding assessment.** The coordinator identified the
+fixed-roster mistake after independent review missed it. A fixed actual-world
+subtype can represent absence elsewhere by evaluating `ExistsAt v vertex.val`.
+In `NecessaryConcreteUnderived.witnessProfile`, candidate true belongs to the
+actual roster at false and is absent at true. Rebuilding the roster separately
+at each world, or using subtype membership as cross-world existence, would hide
+that contrast. Thus representability of absence is NOT a blocker of this
+profile. Its absence contrast still does not identify an efficient cause or a
+productive sustaining action: the profile explicitly has `Causes := False`.
+This correction narrows the old blocker; it does not invalidate its theorem.
+Review acceptance was not evidence for the erroneous semantic assertion.
+
+**Three criteria with different evidential force.** (1) Calling a cause of being
+“whatever the recipient currently depends on for esse” fixes the intended
+question but cannot independently establish dependence: it selects cases by
+the disputed conclusion. (2) Identifying a continuing productive activity whose
+recipient is the SAME bearer and whose effect is its esse would give a positive
+criterion, unlike mere absence covariation. The existing direct-preservation
+record explicitly leaves productive receipt unanalyzed; a `givingEsse` episode
+constructor does not fill it. (3) The stronger received-act reconstruction
+argues that a recipient's form determines what it is, while its act of being
+is not supplied by that determination alone; an external source actualizes
+this received esse, and the role of receiving it is concurrent with its
+possession. This is a substantive positive argument, not merely a label.
+Its decisive premises are that received esse remains currently derivative,
+and that present derivative actuality requires present efficient actualization.
+Neither follows just from being received at origin or from essence–esse
+nonidentity. A capacity to receive does not itself identify a current giver.
+
+The form distinction gives that reconstruction content. A generator may
+produce a recipient's determinate constitution; once acquired, that constitution
+can explain its characteristic behavior without the generator still acting.
+A cause invoked to explain the act by which that constitution exists addresses
+a different explanatory respect. But switching the explanatory question does
+not prove that the second explanandum has a concurrent efficient cause. The
+existing q.104 application uses participated esse and the divine essence–esse
+contrast; the q.44 application also imports subsistence and unity. Reusing these
+as explicit conditional foundations is legitimate. Treating their conclusions
+as independent evidence for the premises identifying the divine source is not.
+No claim here that receiving a form entails receiving esse from that same agent.
+
+**Strong positive generation-only alternative.** Retain the SAME enduring bearer
+from its origin, its acquired constitution and the laws or persistence condition
+under which it continues unless something destroys it. Earlier existence plus
+absence of destructive change explains the later state; the explanation need
+not be a concurrent efficient cause. This is the existing Schmid reconstruction,
+not brute persistence by stipulation. It can allow concurrent environmental
+support or a cause of some operation while denying that the past generator
+currently causes esse. Nor must it make a persistence power the efficient cause
+of its own substance: a diachronic law or extrinsic historical explanation is
+a distinct positive alternative. Its price is the sufficiency of that history
+and no-change condition; the record does not establish that sufficiency.
+
+The strongest conservation reply targets that sufficiency: past composition
+explains how the constituents were combined, but constituents merely capable
+of a whole do not by themselves explain its present actuality. The reply also
+objects that a power whose bearer must already exist cannot efficiently cause
+that same bearer's existence. This can exclude that particular self-producing
+power explanation under the explicit dependence-direction premises. It does
+not exclude an extrinsic law/history explanation unless one independently
+shows that such an explanation must supply present efficient actualization.
+Conversely, the rival's historical explanation does not defeat conservation
+merely by mentioning a past cause; conservation can preserve continuous identity
+without annihilation/recreation. The unresolved disagreement is explanatory
+sufficiency and current derivative actuality, not whether a builder stops or
+whether an object has been observed to persist.
+
+**Same endpoint test and the universal target.** Suppose a heater currently
+causes a recipient's being hot. The recipient, its heat and the heating activity
+are different explanatory endpoints. Dependence of its heat on the activity
+does not imply dependence of the recipient's esse on the heater. Reifying the
+heat as a new effect changes x; it is not a proof of the old formula for the
+original x. Even a universally conserving primary cause does not convert each
+secondary cause of a determination into a conserver of the substantial bearer.
+Thus a defended conservation argument could justify the esse-restricted
+instance, while the frozen `∀ c x r` target requires a further all-edge
+identification. Neither the efficient-causing definition (“x's being r”) nor
+the existing cause-sense bridge supplies that identification. The existing
+received-perfection and preexistence results concern different predicates and
+do not repair it. No relation is silently equated across senses.
+
+This is a scope finding, not a newly certified strict weakening: no sibling
+statement or `strengthens` record is introduced without its verified relation.
+A bare esse-specialization theorem would be hypothesis application and would
+not advance the present criterion question. A populated origin-without-being
+control already exists, but proves separation of those stipulated relations,
+not the metaphysical admissibility of a generation-only history. No new
+free-existence control, counterpossible implication or formal refutation is
+claimed. Impossible absence still requires its own interpretation; the source's
+continuing-gift argument can be studied without pretending absence is possible.
+
+**Proposed overall judgment and bounded branch disposition.** Favor the
+received-act argument as the strongest available conditional conservation
+rationale, with the generation/history explanation a standing positive rival.
+Neither current derivativeness nor history sufficiency has independent warrant
+from the inspected certificates. The criterion does not currently justify the
+universal target. The useful change is locating TWO separate obligations:
+current actualization of received esse, and coverage of every efficient r-edge
+at the original bearer endpoint. Even resolving the first leaves the second.
+No root premise is closed, no rival defeated, and no new formal support option
+is registered. Earlier mathematical results retain their exact scope.
+
+The assigned criterion assessment is resolved at that evidential boundary;
+proving conservation remains stalled on a specific argument input rather than
+failed Lean search. The next materially different test is to defend or defeat
+historical/no-change explanatory sufficiency on the SAME received-esse bearer,
+without assuming at the outset that adequate explanation must be current
+efficient production. A successful test must explain why the earlier actual
+constitution plus the selected persistence law does or does not suffice, then
+supply the productive-receipt interpretation if conservation wins. A separate
+way to reopen universal scope is evidence that `EfficientlyCausesIn` excludes
+ordinary determination-causing at non-esse respects; changing its existing
+meaning would require an explicit sibling, not reinterpretation of frozen
+proofs. Available source findings and conditional interfaces have been consumed;
+another synonym or constructor would not supply these missing arguments.
+Broader investigation of those inputs belongs to the coordinator's reassessment.
+
+Continuation self-sweep: note and existing attempt only; no Lean, frozen type,
+source claim or definition changed. The fixed-roster correction is semantic
+inspection of the existing assignments, not fresh verification. Unchanged
+build/binding/axiom/Comparator/NanoDa evidence is reused; final-head CI remains
+required. Shared convention sourceRevision remains
+`625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
