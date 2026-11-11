@@ -1,0 +1,10 @@
+{
+  "id": "eedb7bd0-a8cf-463a-8980-72426bddc57c",
+  "label": "Polynomial induction exact identifiability certificate (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "d3418f28-7f82-4ce1-bc10-cb42d7a9155f",
+  "rule": "Mathlib root counting, monic products, degree composition and real intermediate value",
+  "meaning": "Analyst conditional support with exact stipulated model class and coordinate controls. The proposed connection to evidence justification and truth access is unbuilt; actual class membership, measurement warrant and transport of epistemic justification remain open.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
