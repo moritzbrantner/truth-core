@@ -124,7 +124,7 @@ The master gives each worker a compact brief:
 
 For a substantial frontier investigation, include enough context to state the thesis, selected meaning, downstream purpose, known serious rivals and existing evidence. The worker may refine this map as the investigation develops; a complete argument tree or exhaustive rival list is not an entry requirement. It lives in the one current handoff or issue, not in another tracker.
 
-The PR reports the actual premise comparison by linking or pasting the computed delta (`python3 scripts/corpus.py frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. A new verified, non-transcription argument is positive **conditional support-option** progress even if it replaces one leaf with several open premises in the expanded-route diagnostic. Record those new obligations separately; neither the new argument nor a lower route cost establishes its conclusion. For non-proof work, use “none” or “no premise change” where applicable.
+The PR reports the actual premise comparison by linking or pasting the computed delta (`target/release/truth frontier-diff --base <merge-base>`; CI prints it to the job summary of the "Report the premise frontier" step), not a hand-reconstructed list; a new connection is not itself a discharge. A new verified, non-transcription argument is positive **conditional support-option** progress even if it replaces one leaf with several open premises in the expanded-route diagnostic. Record those new obligations separately; neither the new argument nor a lower route cost establishes its conclusion. For non-proof work, use “none” or “no premise change” where applicable.
 
 The coordinator runs `python3 scripts/worker_env.py --check` once for the
 selected toolchain/cache setup and supplies that setup to workers. Workers use
@@ -154,7 +154,7 @@ Before handoff or retirement, persist verified source findings, rejected interpr
 3. **Keep PRs focused.** Explain the problem, change, premise effects, essential
    validation and remaining gaps. Preserve the required claim/type self-sweep
    and exact premise comparison; take the latter from the computed
-   `corpus.py frontier-diff` delta in the CI job summary rather than
+   `truth frontier-diff` delta in the CI job summary rather than
    reconstructing it by hand. Link existing check evidence instead of
    narrating the execution chronology or repeating successful-check inventories;
    include a reproduction command when the linked evidence is insufficient.
@@ -209,8 +209,8 @@ not authorize adding an external Lean dependency.
 ## Premise dossiers and attempts
 
 Before opening a new proposition investigation or introducing vocabulary, run
-`python3 scripts/corpus.py related <STMT-ID>` for the load-bearing seed. It reuses
-or refreshes a disposable local index and surfaces related propositions, complete
+`target/release/truth related <STMT-ID>` for the load-bearing seed. It ranks the
+loaded corpus in memory (no cache) and surfaces related propositions, complete
 argument bundles and previous attempts. Inspect promising matches before
 reinventing them. Rankings and shared vocabulary are discovery aids, not proofs
 of equivalence, implication or incompatibility. Continue with the dossier and
@@ -218,11 +218,11 @@ existing certification workflow below. The repository-local `proposition-reuse`
 skill in `.agents/skills/proposition-reuse/SKILL.md` describes this entry point.
 
 When the target is an existing argument or result, start with
-`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`: one bounded pack with
+`target/release/truth context <ARGUMENT-OR-RESULT-ID>`: one bounded pack with
 the frozen Lean statement, Lean-import reuse, premise status and other routes,
 countermodels, attempts and open work, derived on demand (`docs/notes/argument-context.md`).
 
-For every premise touched, inspect `python3 scripts/corpus.py dossier <STMT-ID>`
+For every premise touched, inspect `target/release/truth dossier <STMT-ID>`
 (the explorer links the same generated dossier from the statement page). Before
 handoff, update `corpus/attempts/` for failed derivations, rejected readings,
 source searches, and other substantive attempts, including successful results.
@@ -247,9 +247,9 @@ not a prerequisite for every investigation in the systematic loop.
 
 Before research, inspect `/progress` in the corpus explorer and the target's
 `/dossiers/<statement-uuid>#research-comparison`; use
-`python3 scripts/corpus.py context <ARGUMENT-OR-RESULT-ID>`,
-`python3 scripts/corpus.py dossier <STMT-ID>` for every touched premise, and
-`python3 scripts/corpus.py related <STMT-ID>` before introducing vocabulary.
+`target/release/truth context <ARGUMENT-OR-RESULT-ID>`,
+`target/release/truth dossier <STMT-ID>` for every touched premise, and
+`target/release/truth related <STMT-ID>` before introducing vocabulary.
 These views reuse canonical corpus evidence; they are not a separate status registry.
 
 - Pick a bounded root-route target and a named rival/sense question. Use a finite,
@@ -346,7 +346,7 @@ Seek nonvacuity witnesses and omission countermodels where practical and informa
 
 **The rule.** No library, framework, vocabulary or result family is built or extended in isolation.
 
-1. **Name the target before building.** Every worker brief and every PR that adds vocabulary or results names the root-route node it serves: a premise it discharges, an argument it connects, or a rival it refutes. `python3 scripts/corpus.py frontier --routes` lists the routes.
+1. **Name the target before building.** Every worker brief and every PR that adds vocabulary or results names the root-route node it serves: a premise it discharges, an argument it connects, or a rival it refutes. `target/release/truth frontier --routes` lists the routes.
 2. **Connect, or say why not.** The PR either shows the connection in the computed `frontier-diff` (new results reaching the root, a premise closed or defended, a route re-routed) or states an explicit connection plan: the target statement, the missing bridge and its blocker. The coordinator's handoff tracks that plan. Unconnected work does not count as progress on the case until it is connected.
 3. **Include idle work in prioritization.** Inspect verified families that do not reach the root (`truth orphans`) when choosing a round. A useful bridge can be a high-value target, but disconnected work does not automatically outrank a live objection or missing warrant. Judge research by the uncertainty it changes; route cost and thickness remain diagnostics.
 4. **Investigate load-bearing senses and their relationships.** Give the selected sense a faithful definition/interpretation, preserve consequential alternatives, and test proposed implication, equivalence or independence. Distinct names or types alone do not establish meaning. Use the existing sense-index and bridge machinery when formalizing these relationships. A [certified fork](docs/configuration-elimination-loop.md#certified-forks-for-selected-investigations) needs coverage only if its inference uses coverage, and exclusivity only if it uses exclusivity; overlapping or strength-ordered senses need not be mutually exclusive. Research rivals and premise warrant whenever informative, without first completing an exhaustive enum or joint theorem for all senses.
@@ -478,7 +478,7 @@ Search `corpus/statements/` and `TruthCore/` for existing propositions and conce
 - Put source locator and interpretation notes in the Lean doc comment.
 - Add/update an independent `corpus/statements/*.json` record for the proposition.
 - Add/update the corresponding `corpus/claims/*.json` record linking the source reading to that statement.
-- Ensure the claim's `source_id` and `locator` resolve to exactly one pinned passage. `python3 scripts/corpus.py check` rejects missing or ambiguous passage evidence.
+- Ensure the claim's `source_id` and `locator` resolve to exactly one pinned passage. `target/release/truth check` rejects missing or ambiguous passage evidence.
 - Link the senses of load-bearing terms through `definition_ids` and `disambiguation_ids`. When a term or reading choice has no record yet, add a `corpus/definitions/` or `corpus/disambiguations/` record (see Review guidelines and `docs/corpus-model.md`).
 - If another reading is also defensible, create a sibling claim with the same source locator and an `interpretation_of` link. Do not use that link to imply statement equivalence.
 
@@ -527,16 +527,27 @@ local runs for every worker and coordinator. Reuse completed evidence; final CI
 provides the integration checks. Run a check locally when development needs it
 or a relevant change or failure invalidates its earlier evidence:
 
+`truth` is the repository's Rust CLI (`truth/README.md`): build it once per
+clone with `cargo build --locked --release -p truth` (rerun after Rust source
+or Cargo input changes) and run it from the
+repository root. Its `check`, `frontier`, `frontier-diff`, `related`,
+`dossier` and `context` replace the `scripts/corpus.py` commands of the same
+names, which stay until their retirement; `frontier --root` is
+`--frontier-root` there. Rust `--root PATH` selects the input repository;
+`--json` selects machine-readable output, including frontier reports usable by
+`dossier` and `context` via `--frontier-json FILE` on the same inputs.
+Other `corpus.py` commands are still Python.
+
 ```bash
 python3 scripts/source_evidence.py check
 lake build
-python3 scripts/corpus.py check
+target/release/truth check
 python3 scripts/bundle_audit.py
 python3 scripts/corpus.py bind-check
 scripts/verify-result.sh <RESULT-ID>
 ```
 
-`bundle_audit.py` runs offline. Run it whenever you edit an argument bundle or a definition its audit pins by hash: CI runs it right after `corpus.py check`.
+`bundle_audit.py` runs offline. Run it whenever you edit an argument bundle or a definition its audit pins by hash: CI runs it right after `truth check`.
 
 `corpus.py bind-check` (after `lake build`) reads each result theorem's type and checks that its `Prop` hypotheses are exactly the argument's premise statements and its result type is the conclusion statement, matched by `lean_declaration` head constant; type and vocabulary parameters are not premises. A hypothesis whose head is a theory definition (`TruthCore.Comparison.*`) is a theory bundle: it is unfolded one step and split on `∧`, and each conjunct must bind to a listed premise, covering them exactly. A conclusion that is a theory definition is a consistency claim: its argument must list `commitment_statement_ids` (and may then have no premises), and these must match the conclusion's conjuncts in the same way. Keep non-theory conclusion propositions outside `TruthCore.Comparison`. During development, `corpus.py bind-check --result <ID>` (repeatable) or `--affected --base <BASE>` binds only the named or affected results and needs only their Solution modules built; the full `bind-check` (CI) also checks stale pins and registered models. `source_evidence.py check` verifies offline manifest and claim bindings. Selected passage materialization checks acquired bytes against their pins; it is not a recurring repository gate. Source fidelity remains a research/review judgment. Lean/Comparator verifies only the formal consequence.
 
@@ -560,11 +571,11 @@ Before requesting `@codex review`, apply the Review guidelines below to your own
 - conditions in the source (same-sense cause, restricted domain, "in any respect") survived into the Lean type;
 - any condition added is not attributed to a source that does not state it; it is an explicit, unattributed open premise.
 
-Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `python3 scripts/corpus.py frontier-diff --base <merge-base>` (conditional support bundles added or removed when comparable, per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and bare premises added), which CI prints to the job summary for every PR. Adding bare premises is listed for visibility, not as a regression (owner decision 2026-11-07). Route costs follow the [per-route open-premise cost rule](docs/corpus-model.md#premise-program-and-frontier) (`frontier --routes`): they diagnose an expanded proof, **not research progress**. A premise is established when it is self-evident with a met floor basis, defended (every recorded rival refuted by a verified refutation whose premises are all established, recursively and without circularity, #999), or derived from established premises; a stated or supported premise stays one leaf until it is established, so adding a derivation under it never raises a route's cost, while a derivation under a bare premise, or a new intermediate step, may raise it.
+Each PR also reports its intended and actual change in root-path open premises, including "no change". The actual change is computed, not hand-written: link or paste the output of `target/release/truth frontier-diff --base <merge-base>` (conditional support bundles added or removed when comparable, per-route costs and reaching-root premises added, removed, or moved between bare, supported, stated and closed, and bare premises added), which CI prints to the job summary for every PR. Adding bare premises is listed for visibility, not as a regression (owner decision 2026-11-07). Route costs follow the [per-route open-premise cost rule](docs/corpus-model.md#premise-program-and-frontier) (`frontier --routes`): they diagnose an expanded proof, **not research progress**. A premise is established when it is self-evident with a met floor basis, defended (every recorded rival refuted by a verified refutation whose premises are all established, recursively and without circularity, #999), or derived from established premises; a stated or supported premise stays one leaf until it is established, so adding a derivation under it never raises a route's cost, while a derivation under a bare premise, or a new intermediate step, may raise it.
 
 ## Review guidelines
 
-Every code review (including `@codex review`) has one more job besides finding bugs: the reviewer must try to **understand and accept** each proof the change presents. The repository, not the reviewer's background knowledge, has to make the proof convincing. Apply this to every result, argument or statement that the change adds or modifies and that lies on a path to a root (`python3 scripts/corpus.py frontier --reaching-root` lists the root paths; `STMT-CATHOLICISM-TRUE` is the default root). For each one:
+Every code review (including `@codex review`) has one more job besides finding bugs: the reviewer must try to **understand and accept** each proof the change presents. The repository, not the reviewer's background knowledge, has to make the proof convincing. Apply this to every result, argument or statement that the change adds or modifies and that lies on a path to a root (`target/release/truth frontier --reaching-root` lists the root paths; `STMT-CATHOLICISM-TRUE` is the default root). For each one:
 
 1. **Restate it.** In a few sentences, say what the argument concludes, from which premises, through which steps, and which Lean theorem binds it (`corpus/results/*.json` → `theorem`; the Challenge module freezes its type). Then say whether you accept that the conclusion follows, on the evidence in the repository: the Lean statement, the premise statements and their claims, and the definitions below. Lean checks consequence; you check that the Lean statement says what the prose and the source claim say.
 2. **Find the definition of every load-bearing term.** List each term whose meaning the conclusion depends on (for example *being*, *act*, *potency*, *cause*, *per se*, *maxime ens*, *God*, *true*). Locate its definition: a `corpus/definitions/*.json` record (`DEF-…`) linked from the statement, claim or argument through `definition_ids`. A definition is either sourced (its `claim_ids` point to the claims whose pinned passages give it) or stipulative (its `note` says why, and what would source it). Check that the definition matches the Lean declaration it names and the way the statement uses the term.
@@ -582,7 +593,7 @@ Every code review (including `@codex review`) has one more job besides finding b
 
 5. **Report everything in one pass.** Report every finding you can identify in a single review, grouped by kind (overstated or unstated readings, missing definitions, missing disambiguations, Lean/prose gaps, other bugs). Do not stop at the first finding. Before finishing, re-check every attributed claim and every `definition_ids` and `disambiguation_ids` link in the diff. Handling is unchanged: P1s that overstate a proof are fixed in the PR; P2s and coverage gaps go to #216 or a follow-up issue.
 
-`python3 scripts/corpus.py check` enforces the mechanical part: every `definition_ids` and `disambiguation_ids` entry must resolve, a sourced definition needs known claims, a stipulative one needs a note, a disambiguation needs at least two known senses, every definition must be used, an argument whose conclusion, premises or commitments use two senses of one disambiguated term must link that disambiguation, and every `STMT-`, `DEF-` or `DISAMB-` id cited in their prose must exist. It cannot tell whether a term *should* have been linked; that judgment is this review's job. The explorer shows the terms on each statement, claim and result page and lists them all at `/definitions`.
+`target/release/truth check` enforces the mechanical part: every `definition_ids` and `disambiguation_ids` entry must resolve, a sourced definition needs known claims, a stipulative one needs a note, a disambiguation needs at least two known senses, every definition must be used, an argument whose conclusion, premises or commitments use two senses of one disambiguated term must link that disambiguation, and every `STMT-`, `DEF-` or `DISAMB-` id cited in their prose must exist. It cannot tell whether a term *should* have been linked; that judgment is this review's job. The explorer shows the terms on each statement, claim and result page and lists them all at `/definitions`.
 
 ## Naming
 

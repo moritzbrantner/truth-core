@@ -93,6 +93,10 @@ jobs:
       # Source extraction tests use offline fixtures on every run.
       - name: Install PDF source extraction
         run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
+      # The Rust CLI (truth/README.md) runs the corpus check and the frontier reports;
+      # the truth-cli job keeps it at parity with scripts/corpus.py.
+      - name: Build the truth CLI
+        run: cargo build --locked --release -p truth
       - name: Validate changed batch specs and exploration maps without writing generated files
         env:
           EVENT: ${{ github.event_name }}
@@ -108,7 +112,7 @@ jobs:
           fi
           python3 scripts/affected_results.py check-research-metadata --base "$base" --head HEAD
       - name: Validate corpus metadata and source bindings
-        run: python3 scripts/corpus.py check
+        run: target/release/truth check
       # Label clean-up ratchet (#1233): the list of mechanical or compromised labels
       # may only shrink; passing entries are reported for removal.
       - name: Check that the label clean-up list only shrinks
@@ -145,12 +149,12 @@ jobs:
         env:
           EVENT: ${{ github.event_name }}
         run: |
-          python3 scripts/corpus.py frontier --reaching-root
+          target/release/truth frontier --reaching-root
           if [[ "$EVENT" == pull_request ]] && git rev-parse --verify HEAD^1 >/dev/null 2>&1; then
             {
-              echo "### Premise delta (\`corpus.py frontier-diff --base HEAD^1\`)"
+              echo "### Premise delta (\`truth frontier-diff --base HEAD^1\`)"
               echo '```text'
-              python3 scripts/corpus.py frontier-diff --base HEAD^1
+              target/release/truth frontier-diff --base HEAD^1
               echo '```'
             } | tee -a "$GITHUB_STEP_SUMMARY"
           fi
