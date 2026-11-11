@@ -40,6 +40,8 @@ def model : Sig where
   FostersGoods := fun a => a = true
   SustainsMechanisms := fun a => a = true
   Ascribes := fun φ a => a = !φ
-  Reason := fun _ _ => False
+  -- One agent has an instrumental reason for the positive action; the other
+  -- lacks it. No inference to any broader normative reason is encoded.
+  InstrumentalReason := fun x a => x = true ∧ a = true
 
 end TruthCore.Results.Comparison.NaturalisticRealism
