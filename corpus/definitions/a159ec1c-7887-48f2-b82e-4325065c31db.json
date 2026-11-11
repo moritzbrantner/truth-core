@@ -1,0 +1,9 @@
+{
+  "id": "a159ec1c-7887-48f2-b82e-4325065c31db",
+  "label": "Sleeping Beauty retained-day accuracy policy",
+  "term": "retained-day accuracy policy",
+  "definition": "dayRisk mon tue is fair expected SUM of squared errors for one Monday Heads assessment, one Monday Tails assessment, and one Tuesday Tails assessment. It permits separate policies mon and tue because the agent has a reliable day report, whether supplied externally or retained by perfect recall of the protocol. It is half times (1-mon) squared plus half times mon squared plus half times tue squared. The comparison checks daySensitive=(one half,zero) and restriction to one common policy. It does not prove memory erasure is the only source of day ignorance or that loss of day information warrants either uncentered update.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.dayRisk",
+  "note": "Analyst continuation of #1401; attribution deferred. Complete argument, information/interface limitations and provisional judgment in the reflection continuation of docs/notes/sleeping-beauty-1401.md. No rationality norm is built into the arithmetic or structural definitions."
+}
