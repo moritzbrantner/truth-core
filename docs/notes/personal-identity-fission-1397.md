@@ -296,6 +296,17 @@ assuming that the whole Supplement is an independently authored final text by
 Aquinas. Original-matter, substantial-being and individuation commitments remain
 open philosophical premises. The account is not bare soul-token sufficiency.
 
+[Supplement q.80 a.4 corpus (third opinion), ad 3–5; a.5 corpus/ad 2](https://www.newadvent.org/summa/5080.htm)
+sharpens the matter criterion. The third opinion permits lifetime turnover without
+any signate material part remaining throughout; a.5 favors it over the alternatives.
+It distinguishes formal/species completeness from collecting all historical matter.
+Shared material is allocated by priority of participation and, in a tie, earlier
+ensoulment; divine supplementation supplies deficiencies without, on this account,
+changing identity. This is a positive response to cannibalism, not an ignored
+objection. It does not supply an independently defended physiology or settle a
+minimal numerical-material overlap threshold. Allowing some supplementation
+must not be promoted into a claim that wholly new matter always suffices.
+
 ### What is necessary, sufficient, and still unexplained?
 
 For the selected hylomorphic reconstruction, sameness of the numerical rational
@@ -329,7 +340,9 @@ persistence theorem or completed account of personal unity.
 The body condition is not settled either. “Same body” may concern the living
 whole, relevant matter, organization or mere material inventory. The restoration
 argument needs a defended account of relevant matter and substantial identity
-under transformation. It must explain why recomposition restores this whole and
+under transformation. The selected q.80 account already permits extensive
+turnover without a permanent signate core, so it must not be evaluated as though
+it demanded fixed material inventory throughout life. It must explain why recomposition restores this whole and
 which essential changes would defeat that result. Mere equality of component
 inventory would import the contested Theseus Material principle. Conversely,
 Theseus's incompatible replacement/inventory/separation bundle says nothing
@@ -398,7 +411,7 @@ making those competing identity conditions explicit.
 
 ### Proposed reassessment and next tests (draft for independent challenge)
 
-The new source evidence revises the earlier narrow inventory: a selected
+The new q.79–80 source evidence revises the earlier narrow inventory: a selected
 historical explanatory account DOES articulate additional identity-bearing
 commitments; it does not leave the question at “same subject” alone. Within that
 account, a returning different person or unrelated replica fails the stated
@@ -422,12 +435,14 @@ esse; presenting the changed-mate control as Thomistic possibility; extracting
 a numerical-body criterion from component-inventory equality; weakening the
 source to per-time exclusivity and claiming its stronger account defeated.
 
-Next concrete tests: choose one adequate case of extensive bodily turnover with
-continuing life and compare the hylomorphic relevant-matter condition with an
-organismic process criterion; inspect whether the chosen original-matter account
-requires material that turnover/cannibalism cases make unavailable, or whether
-its refined essential/accidental distinction avoids that consequence; then test
-a death-gap restoration with each criterion held fixed. No physical possibility
+The selected turnover/cannibalism test has already produced a substantive
+source reply: q.80 rejects a fixed lifetime inventory and permits qualified
+supplementation. Next concrete tests: determine whether its allocation and
+supplementation account requires ANY minimum original-material overlap in a
+returned individual, and what independently identifies that material as relevant;
+compare that specified condition with an organismic continuation/restart
+criterion. Do not infer zero required overlap from rejection of all-parts
+restoration. Then test a death-gap case with each criterion held fixed. No physical possibility
 or alleged counterexample should be claimed from token reassignment. A formal
 body/person bridge should follow an explicit criterion, not precede its meaning.
 The present result merits branch reassessment because the thin-profile question
