@@ -86,7 +86,8 @@ coextension of actual being and good. `godLovesAllExisting` adds the final
 love-meaning bridge to obtain
 `∀ g, IsGod g → ∀ x, InAct x esse → Loves g x`.
 
-These are proposed mechanically checkable **conditional** conclusions, not a derivation
+These are Lean-checked **conditional** conclusions (not registered or
+Comparator-verified corpus results), not a derivation
 from supreme goodness plus bare will alone and not independent confirmation
 of the Catholicism root. The `GoodIn`/`InAct` dictionaries and the causal
 `CausesIn` relation are the ones supplied to the existing case statements;
@@ -170,10 +171,18 @@ These are proposed populated finite **structural surrogates**, not metaphysical
 possibility proofs. The q.19 a.4 intellectual and teleological positive
 commitments are not encoded in the surrogate. Restoring those richer
 commitments could eliminate the omissions. The comparison establishes the
-specific insufficiency of the existing stage-2 predicate types, once the
-Lean control is verified, not a global non-entailment under all Thomist
-interpretations. Local `lake`/`lean` is unavailable in this worker checkout;
-the theorem and `decide` control await the repository's build/axiom gates.
+specific insufficiency of the existing stage-2 predicate types (the Lean
+control `loveControls` is kernel-checked by `decide` after unfolding), not a
+global non-entailment under all Thomist interpretations.
+
+Axiom footprint (`#print axioms`, this module imports no Mathlib):
+`divineWillsGoodForAllExisting` and `godLovesAllExisting` use `propext`,
+`Classical.choice` and `Quot.sound`, because the proof splits classically on
+whether the loved `x` is God Himself; `loveControls` uses `propext`. None is a
+registered corpus result. Registering the theorems would require either an
+explicit decidable-identity input on `Being` or a bridge reformulated to avoid
+the self/other case split, under the zero-axiom policy for non-Mathlib results
+(`docs/axiom-policy.md`).
 
 The current provisional assessment is therefore that Aquinas supplies a
 coherent conditional argument *under an intentional-creative causality

@@ -57,11 +57,12 @@ def WillingGoodEntailsLove {Being : Sort u} {Respect : Sort v}
     (Loves : Being → Being → Prop) : Prop :=
   ∀ g x r, GoodIn x r → WillsGoodFor g x r → Loves g x
 
-/-- Every existing thing has at least one actually instantiated good which
-God wills for it. The witness is `esse`, not every possible good. God's own
-good is possessed, not received; the other case concerns a caused effect.
-This does not prove that an act of willing, as distinct from generic
-`CausesIn`, is the efficient cause of that effect. -/
+/-- For every God `g` and every `x` in act in `esse`, there is some respect
+`r` in which `x` is good (`GoodIn x r`) and such that `g` wills good to `x` in
+`r`. The respect is existential here; the theorem below supplies `esse`, and
+nothing is asserted about every possible good. This does not say that an act
+of willing, as distinct from generic `CausesIn`, is the efficient cause of
+`x`. -/
 def DivineWillsGoodForAllExisting {Being : Sort u} {Respect : Sort v}
     (IsGod : Being → Prop) (InAct GoodIn : Being → Respect → Prop)
     (WillsGoodFor : Being → Being → Respect → Prop) (esse : Respect) : Prop :=
@@ -77,7 +78,11 @@ def GodLovesAllExisting {Being : Sort u} {Respect : Sort v}
   ∀ g, IsGod g → ∀ x, InAct x esse → Loves g x
 
 /-- The causal stage-2 goodness result reaches intentional good-willing only
-through the two separate OPEN volitional bridges and the q.5 coextension. -/
+through the two separate OPEN volitional bridges and the q.5 coextension.
+The proof splits classically on `x = g` (self-case versus distinct effect), so
+it depends on `Classical.choice`, `propext` and `Quot.sound` although this
+module imports no Mathlib. Registering it as a zero-axiom result would need an
+explicit decidability-of-identity input or a reformulated bridge. -/
 theorem divineWillsGoodForAllExisting {Being : Sort u} {Respect : Sort v}
     (IsGod HasWill : Being → Prop)
     (InAct GoodIn : Being → Respect → Prop)
@@ -155,12 +160,21 @@ private instance sampleUnitForallDecidable (P : Unit → Prop)
   | isTrue hp => isTrue (fun | () => hp)
   | isFalse hn => isFalse (fun hall => hn (hall ()))
 
+/-- The profile-indexed sample relations are decided by cases on the profile. -/
+private instance sampleWillsGoodForDecidable (p : LoveProfile) (g x : Bool)
+    (u : Unit) : Decidable (sampleWillsGoodFor p g x u) := by
+  unfold sampleWillsGoodFor; cases p <;> infer_instance
+
+private instance sampleLovesDecidable (p : LoveProfile) (g x : Bool) :
+    Decidable (sampleLoves p g x) := by
+  unfold sampleLoves; cases p <;> infer_instance
+
 /-- Three distinct omissions keep *the exact* supreme-goodness and has-will
 inputs true, and keep the other two bridges, while universal love fails.
 The complete profile demonstrates nonvacuity relative to these Boolean
 dictionaries. All omitted-bridge countermodels have an actual distinct effect. -/
 def LoveControls : Prop :=
-  let common (p : LoveProfile) :=
+  let common (_p : LoveProfile) :=
     GodIsSupremelyGood sampleIsGod sampleInAct sampleGoodIn sampleCausesIn () ∧
     GodHasWill sampleIsGod sampleHasWill ∧
     GoodnessIsActualityReading sampleGoodIn sampleInAct
@@ -189,6 +203,13 @@ def LoveControls : Prop :=
     ¬ loves .omitLoveMeaning
 
 theorem loveControls : LoveControls := by
-  decide
+  unfold LoveControls
+  dsimp only
+  unfold GodIsSupremelyGood IsSupremelyGood
+    CausesEveryPerfectionOfOthers GodHasWill GoodnessIsActualityReading
+    CausalExistenceWilling DivineOwnGoodWilling WillingGoodEntailsLove
+    GodLovesAllExisting sampleIsGod sampleHasWill sampleInAct sampleGoodIn
+    sampleCausesIn
+  and_intros <;> decide
 
 end TruthCore.Case.Catholicism.DivineLoveBridge
