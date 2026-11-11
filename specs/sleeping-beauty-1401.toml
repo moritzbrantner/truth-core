@@ -1,0 +1,63 @@
+[batch]
+vocab = "TruthCore.Epistemology.SleepingBeauty1401"
+results = "TruthCore.Results.Epistemology.SleepingBeauty1401"
+
+[[statement]]
+id = "Sleeping Beauty exact incompatible updating bundles"
+lean = "Incompatibility"
+paraphrase = "For every nonnegative normalized rational allocation h,m,t over the three declared centers, N and M force t=0; N,M,P are incompatible; N,M,S are incompatible; and N with positive Tuesday mass forces the Monday conditional Heads probability above one half. N and M alone are compatible. All are consequences within one fixed centered measure, not an assertion of which update rule is rational."
+definitions = ["bd35e4c3-1882-4373-8a39-bea840976e93"]
+
+[[argument]]
+id = "Sleeping Beauty exact incompatible updating bundles by exact rational algebra"
+theorem = "incompatibility"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Sleeping Beauty exact incompatible updating bundles"
+rule = "Exact rational algebra and explicit assignments"
+meaning = "For every nonnegative normalized rational allocation h,m,t over the three declared centers, N and M force t=0; N,M,P are incompatible; N,M,S are incompatible; and N with positive Tuesday mass forces the Monday conditional Heads probability above one half. N and M alone are compatible. All are consequences within one fixed centered measure, not an assertion of which update rule is rational. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+
+[[statement]]
+id = "Sleeping Beauty positive rivals and omission witnesses"
+lean = "OmissionControls"
+paraphrase = "Uniform thirds satisfy M,S,P and violate N. The allocation (1/2,1/4,1/4) satisfies N,S,P and violates M, with Monday conditional Heads probability 2/3. The allocation (1/2,1/2,0) satisfies N,M and violates S,P. Both live rival allocations have strictly positive mass at every center. These witness minimality of the two incompatible triples relative to the specified normalization background, not normative victory."
+definitions = ["bd35e4c3-1882-4373-8a39-bea840976e93"]
+
+[[argument]]
+id = "Sleeping Beauty positive rivals and omission witnesses by exact rational algebra"
+theorem = "omissionControls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Sleeping Beauty positive rivals and omission witnesses"
+rule = "Exact rational algebra and explicit assignments"
+meaning = "Uniform thirds satisfy M,S,P and violate N. The allocation (1/2,1/4,1/4) satisfies N,S,P and violates M, with Monday conditional Heads probability 2/3. The allocation (1/2,1/2,0) satisfies N,M and violates S,P. Both live rival allocations have strictly positive mass at every center. These witness minimality of the two incompatible triples relative to the specified normalization background, not normative victory. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+
+[[statement]]
+id = "Sleeping Beauty sampling and settlement algebra"
+lean = "WeightingAndWagers"
+paraphrase = "For every supplied non-dogmatic rational experiment prior p and positive Tails awakening count k, retained-slot conditioning equals p/[p+k(1-p)], which is strictly between zero and one, equals p iff k=1, and is less than p when k>1. Experiment-settled and awakening-settled fixed unit Heads tickets have expected gains p-c and p-c*[p+k(1-p)]; their unique zero-gain prices are respectively p and p/[p+k(1-p)]. This is prospective linear-utility protocol algebra, not a norm selecting Beauty's credence."
+definitions = ["c34d35fa-b054-499f-a6b1-105b23e0db56", "35d74727-82b4-41ca-8d7e-facaac6593ea"]
+
+[[argument]]
+id = "Sleeping Beauty sampling and settlement algebra by exact rational algebra"
+theorem = "weightingAndWagers"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Sleeping Beauty sampling and settlement algebra"
+rule = "Exact rational algebra and explicit assignments"
+meaning = "For every supplied non-dogmatic rational experiment prior p and positive Tails awakening count k, retained-slot conditioning equals p/[p+k(1-p)], which is strictly between zero and one, equals p iff k=1, and is less than p when k>1. Experiment-settled and awakening-settled fixed unit Heads tickets have expected gains p-c and p-c*[p+k(1-p)]; their unique zero-gain prices are respectively p and p/[p+k(1-p)]. This is prospective linear-utility protocol algebra, not a norm selecting Beauty's credence. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+
+[[statement]]
+id = "Sleeping Beauty appearance has no exact Heads classifier"
+lean = "AppearanceBoundary"
+paraphrase = "On the declared three-center space, the constant awakening-appearance report has no exact Prop-valued classifier of Heads. This specializes the existing exact-classifier characterization to the Heads Monday and Tails Monday shared-report pair. It excludes exact classification through that report; it does not exclude probabilistic evidence or fallible warrant."
+definitions = ["bd35e4c3-1882-4373-8a39-bea840976e93", "DEF-DATA-RELATIVE-CORRECTION-CRITERION"]
+
+[[argument]]
+id = "Sleeping Beauty appearance has no exact Heads classifier by factorization"
+theorem = "appearanceBoundary"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Sleeping Beauty appearance has no exact Heads classifier"
+rule = "Specialization of the existing exact criterion characterization"
+meaning = "On the declared three-center space, the constant awakening-appearance report has no exact Prop-valued classifier of Heads. This specializes the existing exact-classifier characterization to the Heads Monday and Tails Monday shared-report pair. It excludes exact classification through that report; it does not exclude probabilistic evidence or fallible warrant. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
