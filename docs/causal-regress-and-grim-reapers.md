@@ -418,6 +418,121 @@ remain distinct, connected only under their existing explicit link premise.
 No root route, floor, no-regress input, or source-derived Challenge is changed.
 
 
+## Old #310 attenuation acceptance reconciliation (2026-11-11)
+
+The November 3 issue reconciliation predates [PR #1379](https://github.com/moritzbrantner/truth-core/pull/1379).
+Its finite-attenuation mathematical item is now covered by that merged batch;
+this audit introduces no duplicate attenuation theorem or changed causal meaning.
+Evidence baseline: `8014a6806` (the attenuation files are unchanged from delivered
+head `0453441ef869d0c8b9317ca356100b39e98ec8d1`). The complete earlier
+[applicability walk](notes/contractive-borrowed-power-1378.md) remains authoritative
+for its premises, controls and open interpretation burdens.
+
+**Exact existing proof.** In
+`TruthCore.Results.Causality.QuantitativeTransferPaths.finitePath`
+(result `082838e6-d83c-4cbd-b3aa-e252d6af946c`), the local proof `decay`
+derives `P x ≤ q^n * M` for every natural n at any node with no finite path to
+positive input. Its final limit step uses
+`Mathlib.tendsto_pow_atTop_nhds_zero_of_lt_one` and `ge_of_tendsto` to obtain
+`P x ≤ 0`, contradicting `0 < P x`. This is the requested geometric
+attenuation reasoning with the slightly weaker factor condition `0 ≤ q < 1`.
+It is an internal step of the registered network theorem, not a separately
+registered theorem accepting an arbitrary family of scalar estimates.
+
+The full certificate requires a countable weighted network, nonnegative
+weights/input/power, a common nonnegative finite upper bound M, summable weight
+and weighted-power rows, a common row-sum bound q < 1, and the local balance
+inequality `P ≤ s + weighted transfer`. Its positive conclusion is a finite
+path to positive input, including length zero. It proves neither global causal
+well-foundedness nor an intrinsically independent bearer. Calling a real chain
+an instance still requires the quantitative/causal correspondence and these
+premises; the mere word borrowed supplies none of them.
+
+`TruthCore.Results.Causality.QuantitativeTransferPaths.vanishingTail`
+(result `54e36212-e4d6-4a94-88a8-648ac39ec128`) separately proves the successor-chain
+zero conclusion from exact local balance, a common absolute bound and vanishing
+cumulative nonnegative transfer factors. Uniform strict fractional loss is a
+sufficient mathematical route to geometric decay, not necessary for that result.
+The batch also certifies the whole-assignment omission witnesses:
+`halfFixed` (`16f89f72-5999-42d2-a9d8-e578f2183259`) permits uniform half-loss
+with unbounded powers `2^n`; `nonuniformFixed`
+(`b361eb10-4bc7-4cf8-a42c-28d45bc5d7aa`) permits bounded positive powers with
+strict but nonuniform losses, and `nonuniformTail`
+(`d1c3835a-f5c9-4acf-8664-aa7720ccbd45`) bounds every cumulative product away
+from zero. `binaryFixed` permits bounded positive balance when total gain is
+one. These are structural mathematical controls, not actual metaphysical models.
+Finite grounded horizons remain available through the existing source-escape
+certificate; they are not an infinite uniformly bounded lossy counterexample.
+
+**Verification reused.** The original final-head [CI run](https://github.com/moritzbrantner/truth-core/actions/runs/42912864459)
+passed corpus/Lean and all selected Comparator shards plus aggregate checks.
+The existing result configs certify each named theorem separately. This
+reconciliation changes no theorem, Challenge, binding, result status or premise;
+no historical source is fetched and no repeat heavy verification is needed.
+Computed context marks the finite-path mathematical statement proved and not
+reaching the root. This is acceptance progress for model 4, with **no root
+premise discharge**. It does not close the broader #310 issue.
+
+**Remaining question and next discriminating step.** ACT-POWER, ACT-GROUND and
+ACT-TRANSFER are independent open burdens. The strongest globally active rival
+can retain conservative or asymptotically lossless transfer and a globally
+obtaining non-well-founded assignment; this batch supplies no contradiction
+with an accepted floor for that account. Finite shared-resource conservation
+does not by itself force strict aggregate loss. The follow-up
+[productive-store investigation](notes/productive-store-1378.md), merged in
+[PR #1386](https://github.com/moritzbrantner/truth-core/pull/1386), already tests
+finite resources and depletion: positive output in every natural interval is
+compatible with decreasing discharge, while uniform demand requires an explicit
+positive lower bound. Repeating finite-budget arithmetic is therefore not the
+next test.
+
+The useful remaining #310 task is to take one independently characterized
+present exercise and its respect, state whether the relevant quantity is
+instantaneous power, interval work, capacity or existential support, identify
+the same resource and roster boundary, and defend or reject the abstraction to
+a common bound plus vanishing cumulative gain. Test that abstraction against
+the conservative/global rival and stored-resource exercise. A source of this
+quantity still needs a separate bridge to existential independence; #311's
+explanatory adequacy does not supply it. The provisional assessment is unchanged:
+the bounded lossy class is conditionally excluded; actual all-borrowed per-se
+exercise remains underdetermined. Revise this assessment only with independent
+warrant for those applicability premises or a different discriminating argument.
+
+
+**Remaining actuality branch inspected after reconciliation.** The existing
+`BorrowedExercise.Certificate` already separates possession, exercise and
+lending: the SAME exercise graph and occurrence assignment has an instrument
+profile `capOccurs` and a secondary-cause profile `capAll`. The all-instrument
+regress is explicitly certified; `SelectedCollapse` also shows that restricting
+allowed scenarios changes this classification. Thus neither occurrence nor
+lending, by itself, identifies the intended real borrowed capacity. A fresh
+profile-switch model would duplicate those controls.
+
+A materially different test is whether dependence in possession of an essential
+power reaches dependence of its bearer. The existing
+[essential-power investigation](notes/borrowed-exercise-741.md#does-derivation-of-an-essential-power-reach-the-bearer)
+and attempt `8eee1ef4-39f2-4cc8-8e31-e7dde1134c0a` already isolate the exact
+unmet node: externally grounded possession must be the SAME constitutive
+actuality partly grounding the bearer's existence, with composition of those
+grounding links and correspondence to the selected existential-support relation.
+Inseparability of power and bearer alone supplies neither explanatory direction
+nor that correspondence. A nature-first rival can treat a power as consequent
+on the nature instead. This is an existing analyst argument, not a new sourced
+reading or certified metaphysical theorem from this audit.
+
+The existing `PowerExistenceBoundary.originalPowerBlocksEsseSupportIfItTransmits`
+is the exact alternate conditional: esse-support is excluded if every such
+support edge transmits this SAME power to a bearer with no incoming transmission.
+It leaves the support-to-transmission bridge open. A mechanical input or an
+energy ledger cannot silently provide it. For coordinator reassessment, the
+next live node is therefore the constitutive-possession/esse-support bridge for
+one selected essential power, rather than another fixed-point, budget or
+profile-switch calculation. The repository has no independently warranted
+identification of that selected power and those constitutive links in the
+inspected records. It would be a separate interpretation/warrant assignment;
+this reconciliation does not pretend its absence exhausts the parent question.
+
+
 ## ACT-TRANSFER reassessment for #310 (2026-11-11)
 
 ### What is already delivered
