@@ -17,8 +17,9 @@ This fixes symbolic content, not a person's comprehension or intention. -/
 def Responds (challenge reply : Message) : Prop := reply = challenge
 
 /-- Independently supplied production history. Access lists tokens available
-before production; originTime precedes delivery. These are actual stipulated
-history fields, not a public report that the fields have these values. -/
+before production; originTime records production time. Delivery time and its
+ordering are not encoded. These are actual stipulated history fields, not a
+public report that the fields have these values. -/
 structure History where
   visible : Message
   origin : Nat
@@ -36,7 +37,7 @@ def Disciplined (h : History) : Prop := h.originToken ∈ h.access h.origin
 def Exclusive (g : Nat) (challenge : Message) (h : History) : Prop :=
   ∀ p, challenge.token ∈ h.access p → p = g
 
-/-- Actual production of the response token by g on this occasion, rather than a
+/-- Actual production of the response token by g on or after the challenge occasion, rather than a
 copied older production by g. Whole-message authorship, address authorization, delivery agency and divine identity are absent. -/
 def AuthoredNow (g : Nat) (challenge : Message) (h : History) : Prop :=
   h.origin = g ∧ ¬ h.originTime < challenge.occasion
