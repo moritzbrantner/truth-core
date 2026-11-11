@@ -501,3 +501,198 @@ rather than only defeasible bad-making evidence. A bare change of labels,
 source assent, omnipotence alone or repetition of the primitive perfection
 premise would not answer these tests. No new formal premise is discharged and
 there is **no computed premise change** in this source/reuse/warrant checkpoint.
+
+
+## Cognitive-defect continuation: complete proposed outcome
+
+Status: new proposed source/reuse/warrant checkpoint, separate from #1421.
+Target 7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad (accurate assent) and the existing
+ad56f066-2fef-58e6-8995-0ed8757b9b9c inerrancy route, serving assertion truth,
+confirmation and authority. No new theorem, definition, source claim or source
+infrastructure is proposed. This investigation asks whether the intellectual
+error-as-defect argument supplies a reason for actual accuracy beyond merely
+restating `GodDefectFree`.
+
+### Inventory and selected evidence
+
+Refreshed related/dossier for 7dd8a624 and the defect-free leaf; contexts 27d282d6
+and 1260b5aa; the exact content route, domain/representation controls and their
+statement bindings; #1380's ForeknowledgeDiscrimination core (result 067b5373),
+FormSelection selection/controls/reference results (19183927, 94c1c39b,
+1d8ca4b0), their attempts and full linked notes. Existing evidence already
+separates capacity from actual selection, an accurate surrogate from cognition,
+and reference from correctness. Repeating the sensor/replay or arbitrary-map
+models would not supply the new intellectual-perfection warrant.
+
+Selected further readings, 2026-11-11:
+[Aquinas, ST I q.85](https://www.newadvent.org/summa/1085.htm), a.6 body/replies,
+qualifies proper-object truth with errors of misapplication and composite
+definition; [ST I q.17](https://www.newadvent.org/summa/1017.htm), a.2 reply 1
+and a.3 body/replies, separates self-awareness of a sensory state from judgment
+about its object, and essence apprehension from predication. These passages
+support narrower distinctions, not a counterexample to the full divine case.
+Reuse the SCG I.61 and q.14 readings above; selected deeper [SCG I](https://isidore.co/aquinas/english/ContraGentiles1.htm)
+39 §§2–6, 49 §§2–5, 50 §§1–9 and 55–56 were also inspected to trace the
+perfection, causal/self-knowledge and actual-operation dependencies. Their
+historical attribution is not promoted to newly pinned corpus claims.
+
+For the independent reviewer, browser-returned primary text is retained in
+`/tmp/veracity-cognition-source-tool-locations.json` (q.85 a.6; q.17 aa.2–3),
+`/tmp/veracity-cognition-source-first-reads.json` (SCG61 and q.14 context),
+and `/tmp/veracity-cognition-scg-support-passages.json` (SCG39/49–50/55–56).
+These are selected tool-text extracts, not byte-stable witnesses. Direct HTML
+extraction returned HTTP403; selected browser reading succeeded. The findings,
+locators, interpretation and gaps are persisted here; source-host availability
+is not a recurring validation requirement.
+
+### The positive cognitive argument and where its support comes from
+
+A charitable reconstruction has more content than “God has no defects.”
+Truth is the constitutive good of **successful intellectual judgment**; a false
+judgment falls short of that act's due correctness. If the same GOD_4's actual
+intellectual operation is its subsistent, wholly actual perfection, rather than
+an intermittently well-functioning capacity, an actual failure would be a lack
+of a perfection due to that very operation. The no-privation/pure-act argument
+then supplies a proposed reason for excluding failure. This is a substantive
+conditional metaphysical argument, distinct from a merely moral demand that
+one ought to judge carefully.
+
+Its application is not yet established by the repository's current premises.
+`HasClassicalAttributes` is primitive. `StageTwo.IsPerfect` transfers supplied
+`InAct x r` respects to the same g; it does not define an independently calibrated
+respect of actual, error-free cognitive performance. `IsSupremelyGood` concerns
+goodness in esse and the causation of others' perfections, not a universal
+intellectual or moral error-exclusion field. `HasIntellect` in the inspected
+reception route supplies a primitive power, not the identity of that subject's
+actual knowing with its essence. No existing type bridge proves those further
+claims about the same GOD_4. Causal goodness therefore cannot be substituted
+for error-free intellectual operation.
+
+Three premises must be defended rather than bundled under “perfect intellect”:
+(1) an actual assent to an individuated content exercises this intellect in the
+relevant way; (2) its falsehood would be a privation of a due perfection of this
+operation, not merely failure to instantiate an ideal label; (3) that actual
+operation of this same bearer admits no such privation. Proper functioning as
+an aim supplies none of these automatically. Reading “intellectual virtue” as
+already successful performance makes correctness appropriate to that successful
+act, but still requires evidence that every relevant assent is such an act.
+Reading it as a disposition or ideal leaves room for a defective exercise.
+These are distinguishable application burdens, not newly asserted opaque flags.
+
+The strongest positive Thomistic reply keeps the **actual-operation** claim:
+it does not stop at truth-directedness, self-access or nondiscursive method.
+It also extends the divine proper object through the essence as productive
+exemplar and complete self-understanding, so creaturely contents are not
+accidental additions processed by a separate unreliable faculty. This is why
+human error does not refute the full argument. The outstanding warrant is for
+that extension and actual cognition, not whether a finite human lacks divine
+perfection. The source's proposed derivation must be assessed as a package,
+without silently replacing it with the weaker premises that our rival satisfies.
+
+### Error channels and the strongest standing weaker-premise rival
+
+An intellect may genuinely aim at truth and accurately recognize its own
+present judgment while misjudging an external state. “I assent to p” can be
+true when p is false. Accurate access to the first content is not factivity of
+the second; neither sincerity nor a report that one knows p supplies factivity.
+The q.17 sensory distinction supports this separation. It is an ordinary
+cognitive comparison/source argument, not a new certified model of a fully
+divine intellect.
+
+Likewise, understanding a definition correctly does not ensure that one has
+identified its object correctly or correctly predicated an accident of it.
+The q.85/q.17 qualifications matter to claims about contingent creatures.
+Non-discursiveness excludes errors in stepwise inference; by itself it does
+not exclude a mistaken presentation, misidentification, an ungrounded immediate
+judgment, or a mismatch between an intended effect and actual execution.
+A finite fallible intellect can keep its truth aim and accurate self-access
+while having one of these failures. It need not be morally vicious or lack
+all intellectual virtue. This is a counterexample to the alleged inference
+from those **weaker** properties, not a model of universal actual intellectual
+perfection, pure-act knowing, or the full SCG package.
+
+The existing FormSelection faulty-reference witness already preserves a
+referent while the assigned content is incorrect; the sensor/replay comparison
+shows why a truth match alone does not identify cognition. Those structural
+controls do not model a human subject's understanding, a truth-directed aim,
+a divine act or all the source premises. They locate the missing information;
+they must not be described as defeating the fuller cognitive argument.
+
+Conversely, a limited intellect that suspends judgment about an unknown
+contingent truth can be accurate in everything it actually assents to. Missing
+a truth is a failure of completeness, **not by itself of inerrancy**. The
+standing rival must supply false assent if it is to challenge accuracy, or false
+assertion plus sincere assent if it is to challenge Route A. Our prior cognitive
+false-assertion rival has accurate assent and so addresses the moral gap; it is
+not repurposed as an accuracy countermodel.
+
+### The asserted-content restriction and actual-contingent extension
+
+For Route A, the inspected proof uses accuracy only for the very c actually
+asserted and then assented to by the same bearer. It does not require accuracy
+on unasserted contents, universal truth-completeness, or knowledge of every
+contingent outcome. `contentRouteA` already exposes a selected D, scoped
+accuracy and an assertion-coverage premise. A useful candidate D is a domain
+on which actual proper-object cognition has independently been defended;
+the remaining question is whether this speaker's assertions lie in D.
+
+One can instead describe the sufficient pointwise restriction as: for each
+actual assertion by this bearer, if it assents to that identical content, the
+content is true. That identifies the accuracy instances the proof needs; it
+is not a new certified minimality theorem or independent warrant. Choosing D
+by fiat to be all actual assertions makes coverage trivial but relocates the
+entire burden into accuracy on that chosen domain. The shared-D theorem can
+also cover multiple bearers; no claim that it is the uniquely weakest possible
+formulation is made. No duplicate classical composition or new predicate is
+introduced merely to rename the root obligation.
+
+Self-cognition can defend a narrower domain only if the content really is
+about the relevant self-state. An accurate judgment of one's intention to
+assert p does not establish p. To know a creaturely effect through one's actual
+productive act, one additionally needs an actual selection, reference to the
+same effect and sufficient execution/fidelity. Knowledge of all producible
+forms alone does not pick the actual contingent one. These are precisely the
+#1380 selection/efficacy/reference dependencies already exposed; no duplicate
+formalization is warranted. An adequate eternal-presence account could provide
+another actual-access route without passive reception, but its content/access
+bridge remains a substantive open account, not a factive definition.
+
+The two positive architectures remain live. A causal-exemplar account must
+explain why knowing this actual productive act determines the true condition of
+this effect, including mediation and contingent secondary causes. An extrinsic
+or eternal-reference account can deny that one invariant intrinsic act fixes
+all intentional relations, but must defend actual object-directed success,
+not merely a truth-matching relation. Neither is rejected just for being unusual;
+the conditional constraints and their open grounds remain visible. No inference
+from productive power to omniscience, or from simplicity to fixed intentional
+extension, has been made here.
+
+### Proposed overall judgment and specific next dependency
+
+The cognitive-defect route has **substantive conditional philosophical support**
+when actual intellectual perfection and its same-bearer applicability are
+independently supplied. It has not independently grounded that applicability
+from the inspected canonical corpus. It is stronger than a mere truth-aim
+argument, but calling an intellect perfect cannot substitute for defending why
+these actual assents are successful operations. Existing proof validity is
+unchanged; the broader warrant remains underdetermined.
+
+The proper-object/self-access shortcut fails to establish accuracy across
+asserted contingent contents without its extension/coverage premise. This does
+not defeat the full divine cognitive argument or turn ignorance into error.
+The source qualifications and already checked selection/reference evidence
+resolve the weaker-inference test; further arbitrary finite maps would not
+change it. No root obligation, the older nonfactive Knows leaf, or any actual
+historical assertion is established by this checkpoint.
+
+The next material dependency is **actual intellectual operation/perfection of
+the same GOD_4**, distinguished from its primitive intellectual power. A bounded
+next test could inspect whether the pure-act/operation-identity argument supports
+that claim without defining success into cognition, and then test one genuinely
+asserted contingent content through the defended actual-selection/reference
+account. Alternatively supply an independently warranted domain of inerrant
+cognition and defend assertion coverage. Revise this assessment if such a
+calibrated bridge succeeds, or if the fuller package admits a false assent while
+retaining its intended actual-perfection assumptions. No blanket non-entailment
+of the full package is claimed without an adequate model. Premise comparison:
+**no change**; evidence and meanings of the existing results are reused.
