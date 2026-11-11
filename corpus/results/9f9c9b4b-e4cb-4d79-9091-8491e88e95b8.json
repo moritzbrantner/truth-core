@@ -1,0 +1,11 @@
+{
+  "id": "9f9c9b4b-e4cb-4d79-9091-8491e88e95b8",
+  "label": "Separate assent leaves recover old bundled attribute bridge",
+  "argument_id": "e5af67cf-a8ff-4cf4-addd-6a715ff46756",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.oldAttributeFromAssent",
+  "comparator_config": "results/9f9c9b4b-e4cb-4d79-9091-8491e88e95b8/comparator.json",
+  "status": "solution-present",
+  "description": "Pair sincerity and assent-to-held-known for the same speaker. This is an alternative support of the existing bridge, not its discharge."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "12c5de46-dadc-4b6e-ac72-6bb7220d2c5d",
+  "label": "Assertion truth reconnects divine confirmation to authority",
+  "argument_id": "311a4a65-54f0-477d-b5a5-bfaee293d61b",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.confirmsFromAssertion",
+  "comparator_config": "results/12c5de46-dadc-4b6e-ac72-6bb7220d2c5d/comparator.json",
+  "status": "solution-present",
+  "description": "Confirmation counts as genuine assertion by the existing OPEN universal bridge; assertion truth then yields the exact existing GodConfirmsOnlyTruth endpoint."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "82b99beb-c2ac-4cbb-9708-4ce2666d99fc",
+  "label": "Unrestricted actual truth completeness supplies asserted-countertruth scope",
+  "argument_id": "168e586c-415e-474d-8dde-4275665d4bb0",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.completenessWeakens",
+  "comparator_config": "results/82b99beb-c2ac-4cbb-9708-4ce2666d99fc/comparator.json",
+  "status": "solution-present",
+  "description": "Restrict actual completeness to true negations of actual asserted contents. Route B uses this weaker version; full completeness remains useful for the separate general accuracy branch."
+}

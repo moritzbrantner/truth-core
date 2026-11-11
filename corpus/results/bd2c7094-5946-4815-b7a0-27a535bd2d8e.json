@@ -1,0 +1,11 @@
+{
+  "id": "bd2c7094-5946-4815-b7a0-27a535bd2d8e",
+  "label": "Divine assertion route structural controls certificate",
+  "argument_id": "92084ec3-22b9-4a67-8f02-59d0710b68da",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.controls",
+  "comparator_config": "results/bd2c7094-5946-4815-b7a0-27a535bd2d8e/comparator.json",
+  "status": "solution-present",
+  "description": "Skeleton interpretations only: real classified bearer and actual assertion in joint sample; every A/B premise omission permits false assertion; noncontradiction does not give sincerity; cognitive perfection plus permission needs an independent contrary-sign norm. No utility, counterfactual necessity, or metaphysical possibility claim."
+}

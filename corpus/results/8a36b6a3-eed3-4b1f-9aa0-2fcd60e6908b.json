@@ -1,0 +1,11 @@
+{
+  "id": "8a36b6a3-eed3-4b1f-9aa0-2fcd60e6908b",
+  "label": "Permission and positive endorsement yield sincerity",
+  "argument_id": "6f5868e3-f747-458a-bb24-61818b6b6f7e",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.sincerityFromNorms",
+  "comparator_config": "results/8a36b6a3-eed3-4b1f-9aa0-2fcd60e6908b/comparator.json",
+  "status": "solution-present",
+  "description": "Apply the OPEN permission applicability and OPEN positive endorsement norm. Forbidding lies alone is insufficient."
+}

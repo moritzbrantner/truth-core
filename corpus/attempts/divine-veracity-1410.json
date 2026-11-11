@@ -1,0 +1,31 @@
+{
+  "id": "e9fb115f-32cb-43a0-9b06-f4a4cb546e4e",
+  "label": "Divine veracity assertion route reconstruction 1410",
+  "statement_ids": [
+    "5a035a1e-e668-4327-b989-2f0aff4aece2",
+    "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+    "7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad",
+    "e2ca9054-a50f-442c-bdb2-e3c8f8121184",
+    "293d7219-a085-4fdd-b645-039c87485b0b",
+    "ad56f066-2fef-58e6-8995-0ed8757b9b9c",
+    "c1deb2ee-770d-5030-9e5c-302e33028811"
+  ],
+  "date": "2026-11-11",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Analyst reconstruction in docs/notes/divine-veracity-1410.md: alternative assertion-truth routes, weakest selected countertruth completeness with sole-premise strength implication, explicit normative/cognitive lower branches and old-route/root connections. Controls distinguish suspension and norm omission. Conditional support only; all applicability, positive endorsement, contrary-sign exceptionlessness and actual-contingent cognition premises remain OPEN. Beneficial deception survives as a positive rival; structural permission model does not prove its metaphysical possibility. Rejected factivity, non-discursiveness-only, capacity-to-actuality and church-authority circularity shortcuts. Next tests: act-object versus welfare norm under fixed truthful alternatives; actual-contingent access and propositional assent bridge.",
+  "evidence": [
+    "a8cbcdd0-9ad3-4efe-88ec-37014ffd3ec8",
+    "bd2c7094-5946-4815-b7a0-27a535bd2d8e",
+    "9f9c9b4b-e4cb-4d79-9091-8491e88e95b8",
+    "b7b4d2f8-446c-4cc2-a4ac-1695ccbd71a9",
+    "8a36b6a3-eed3-4b1f-9aa0-2fcd60e6908b",
+    "7464d5a7-e5b6-4626-9dde-7c3db39d7e4c",
+    "5ade3848-b065-4aeb-b3c3-b4bd160d3500",
+    "eaed24fb-314c-4aec-a142-138231bbedbf",
+    "12c5de46-dadc-4b6e-ac72-6bb7220d2c5d",
+    "d32e7771-671e-4ac8-9a03-92b46e824fd9",
+    "82b99beb-c2ac-4cbb-9708-4ce2666d99fc",
+    "6d58bc3a-2acf-4ede-bb06-015ec673cfbe"
+  ]
+}

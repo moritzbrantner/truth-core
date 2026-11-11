@@ -1,0 +1,10 @@
+{
+  "id": "00c2e024-f7d9-41c2-8efd-36566c456baf",
+  "label": "Veracity GodAssentHeldKnown",
+  "paraphrase": "Analyst formulation. Such a GOD_4 holds every actual assent as known; separate OPEN bridge to the older nonfactive Knows route.",
+  "lean_declaration": "TruthCore.Causality.DivineVeracity1410.GodAssentHeldKnown",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

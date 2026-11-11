@@ -1,0 +1,9 @@
+{
+  "id": "3d69a2b8-58b7-4888-943e-e32ea702fb02",
+  "label": "Veracity assertion norms and actual cognition grounds",
+  "term": "Assertion norms and actual cognitive grounds",
+  "definition": "Grounds contains four primitive relations for a fixed Signature, speaker, Prop and context: Permitted g p means genuine assertion of p is morally permissible; Defect g p means assent to p is a cognitive defect; Present g p means p actually obtains and is present to this intellect, not merely possible; Apprehends g p means actual intellectual presentation of p. None entails another, truth, assent, or divine applicability by definition. Not an account of the mechanism of cognition. Normative exceptionlessness, content representation, analogical divine speech and actual contingent access remain OPEN. See docs/notes/divine-veracity-1410.md.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.DivineVeracity1410.Grounds",
+  "note": "Analyst decomposition of explicit warrant obligations, not a new attribute axiom. Existing HasClassicalAttributes and Veracity are unchanged. Appropriate cognition must distinguish actual apprehension from an accurate surrogate; actual presence cannot be inferred from capacity."
+}
