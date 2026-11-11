@@ -1,0 +1,9 @@
+{
+ "id": "0071b503-73da-4613-aec0-0d92cb004c3e",
+ "label": "Reaper assembly along an endless populated past",
+ "term": "Reaper assembly bridge",
+ "definition": "ReaperAssembly h Concrete w holds when, for every history v accessible from w and every strictly descending sequence of moments c 0 > c 1 > ... of v such that a contingent concrete individual is present at c 0, there are a Nat-indexed signal assignment and issuance predicate satisfying the four local station rules of IndexedSignalReaper: index admissibility, positive trigger, emission and forwarding. In ordinary language: a non-well-founded past below a populated moment would leave room for a Grim Reaper system of stations.",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ComingToBeHorns.ReaperAssembly",
+ "note": "Analyst bridge in the style of the Grim Reaper arguments for a finite past; attribution deferred, no claim is made about any author's principle. The consequent is a closed proposition about Nat functions: it does not mention the sequence, the history or its moments, so 'station n at moment c n' is only a reading, not encoded. The verified IndexedSignalReaper.impossible refutes the consequent, so the bridge is equivalent to the absence of such descents, a reformulation of PopulatedPastsFounded. Its result is recorded as a near-transcription and is not an independent support route. A genuine patchwork premise, assembling a possible world from locally possible pieces placed at the moments of the descent, would need a world-assembly vocabulary the corpus lacks. A finite-to-global form over Nat functions is already refuted as mathematics (GrimReaperFiniteTests.FiniteTestsWithoutGlobalSchedule). Applicability OPEN."
+}

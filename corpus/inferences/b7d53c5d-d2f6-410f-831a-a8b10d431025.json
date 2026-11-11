@@ -1,0 +1,13 @@
+{
+  "id": "b7d53c5d-d2f6-410f-831a-a8b10d431025",
+  "label": "Possibly a CONCRETE_AND_ABSTRACT_6 necessary being, from earlier grounds (inference)",
+  "input_statement_ids": [
+    "fce4ac74-26df-4e97-909d-34865b6463dc",
+    "6dd276f0-24f5-459d-aadb-bef9745f297e"
+  ],
+  "output_statement_id": "d2d7cf61-efd0-4bc0-93f6-2232402e8627",
+  "rule": "Descend along earlier grounds by induction on the founded past of a populated moment; the descent stops at a non-contingent concrete ground",
+  "meaning": "Discloses what the A3 prime support bundle already carries. In the witnessing history, a contingent concrete thing present at t has a concrete ground present strictly earlier, at s. If that ground is contingent, repeat at s. The founded past of t (Acc induction) ends the descent at a ground that is concrete, exists in that history and is not contingent, hence exists in every world accessible from that history (classical case split). So possibly a necessary concrete individual exists; under actual reflexivity and a Euclidean frame that is a necessary concrete individual at the selected world. A rival who denies that a necessary concrete being is possible must therefore reject the possible earlier-grounded history (or founded populated pasts) outright, whatever it says about H1. Both premises are OPEN. No premise is established.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

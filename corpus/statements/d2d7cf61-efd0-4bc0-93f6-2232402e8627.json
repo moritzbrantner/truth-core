@@ -1,0 +1,11 @@
+{
+  "id": "d2d7cf61-efd0-4bc0-93f6-2232402e8627",
+  "label": "Possibly, some CONCRETE_AND_ABSTRACT_6 individual exists necessarily",
+  "paraphrase": "Some history accessible from the selected world contains one concrete individual that exists there and in every world accessible from there (BruteFoundationBoundary.NecessaryConcreteAt at that history; the grounding relation is part of the profile but not used by the condition). Under actual reflexivity and a Euclidean frame this gives a necessary concrete individual at the selected world itself. 'Concrete' is the supplied Concrete parameter; nothing is said about which individual it is.",
+  "lean_declaration": "TruthCore.Causality.ComingToBeHorns.PossiblyNecessaryConcrete",
+  "definition_ids": [
+    "97f37f5c-7f82-5077-9bb9-6cfc8673631d",
+    "6e811e85-b983-5988-b20a-f4f3ee83c50e",
+    "008cb21a-256c-5a90-822c-acd4591d699a"
+  ]
+}
