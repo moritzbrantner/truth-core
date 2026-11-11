@@ -503,3 +503,126 @@ inspection of the existing assignments, not fresh verification. Unchanged
 build/binding/axiom/Comparator/NanoDa evidence is reused; final-head CI remains
 required. Shared convention sourceRevision remains
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+## Historical sufficiency on the same received bearer (draft, 2026-11-11)
+
+Evidence baseline: aa2727fade4bfcca74992e9f43fd5673b557a330, integrated with
+main 0e000912934179064919bca5e3e29a3fcb913ddd. Read the entire owning note
+and attempt, the target dossier/related and certificate context, and the existing
+source findings in `docs/eternity-dependence-connection.md`, “Existential inertia”.
+(The preceding section's `docs/notes/eternity-dependence-connection.md` locator
+should be read as that actual path.) No fresh primary reading or attribution
+is claimed. The Schmid paragraphs “For S to fail to exist at m”, “Here, we seem
+to have”, and closing edit, and Feser's “EIT versus EET”, “The metaphysics of
+existential inertia” and “An argument against EIT” supply the reconstructions
+already recorded there. This section is an analyst warrant assessment pending
+master's independent challenge, not a new certified implication.
+
+**Fixing the common subject.** Consider one numerically identical bearer b,
+actually constituted at t0 and considered at later t1. Grant to BOTH accounts
+that its esse was received at origin and is not identical to its essence.
+Do not grant current derivativeness as part of “received”: that is precisely
+contested. Identity is continued identity of b, not replacement with an
+isomorphic assembly, and not identity inferred solely from qualitative
+similarity. The prior constitution is an actual whole, not merely parts
+capable of combination. These are common case assumptions, not claims that
+any previous finite witness realizes a received-esse bearer through time.
+
+The strongest history proposal has three distinct inputs: actual existence
+and constitution at t0; a diachronic principle that loss of this bearer's
+existence requires a cessation-producing factor; and absence of any such factor
+through the relevant interval. The principle must cover existential cessation,
+not just changes of quality in an already existing object. “No change” cannot
+mean only constant temperature, arrangement, or observations conditional on b's
+existence. Nor can it mean simply that b continues to exist: that version puts
+the explanandum into the explanans. Continuous time also requires coverage of
+boundary loss and failure of continuation, not an unjustified induction from
+observed or successor instants. No source here supplies that interval model.
+
+Under classical reasoning the loss principle and absence exclude cessation;
+this is the previously recorded contraposition, not a new nontranscription
+result. Importantly, those premises do NOT assert absence of a conserver.
+History can be an explanation while conservation also occurs. To infer that
+there is no concurrent source needs a separate exclusion argument. To say
+history is sufficient without *invoking* that source is a weaker epistemic
+claim; to say its law holds independently of any such source is a substantive
+metaphysical strengthening. The common same-bearer assumptions imply neither.
+
+**Testing the law rather than its label.** A record of b's past qualitative
+states alone gives no rule licensing its continuation. Adding a law can add
+content when its domain and loss conditions are specified independently of
+this later outcome: it licenses further unobserved continuations and excludes
+otherwise admissible uncaused cessations. Its truth conditions then exceed
+“b exists at t1”. This distinguishes an explanatory candidate from a disguised
+restatement; it does not establish its truth or explanatory adequacy. The
+inspected materials supply an argument from the causal requirement on change,
+not independent evidence that this requirement covers loss of received esse.
+Extending it from changes *of* a subject to cessation *of* that subject is the
+precise burden. Observed persistence alone cannot discriminate: the conservation
+account predicts persistence too. An independently supported law could explain
+nomologically while leaving its own ground unexplained; whether that suffices
+for the present question depends on whether the demand is for this continuation,
+the law's ground, or an ultimate explanation. Those demands cannot be exchanged
+mid-argument. No function called “adequate” is evidence for any of them.
+
+**Strongest conservation reply and its limit.** Feser's recorded reply is not
+that history is irrelevant. It challenges whether prior actual combination
+accounts for actual combination now; q.104 adds the participated-esse reason
+why naturally stable form does not supply its own esse. On the shared case,
+this provides a positive constitutive question: what accounts for the actuality
+of this recipient, rather than just its determination as this kind of thing?
+A reasoned conservation inference needs (a) present received actuality is
+currently derivative, (b) its adequate dependence account must be efficient
+actualization, and (c) the giving is concurrent with possession. Essence–esse
+nonidentity and receipt at t0 do not alone establish (a)–(c). Treating all later
+actuality as a fresh transition from sheer potency would beg the history rival's
+objection; treating conservation as continued giving avoids recreation but
+still requires these premises. Constitutive dependence may instead be on a
+form/organization or a non-efficient ground; those accounts owe an account of
+actuality and cannot be converted into a producing agent by terminological
+substitution. A causal-generative explanation of origin, a law-based explanation
+of continuation, and a constitutive account of present unity answer different
+questions and can coexist. Their scopes do not by themselves decide sufficiency.
+
+The persistence-power objection has genuine restricted force: if a power's
+exercise ontologically requires b's existence, it cannot, under the same
+asymmetric dependence account, efficiently produce that prerequisite existence.
+The extrinsic historical-law account does not posit that exercise and therefore
+does not inherit that circularity. A further argument that laws require
+currently exercised bearer powers could restore the objection, but neither
+the bare law nor the inspected circularity argument supplies it. Conversely,
+calling the law extrinsic does not prove that it governs received esse without
+concurrent production. Neither reply defeats its strongest opponent here.
+
+**Full proposed assessment and disposition.** The test clarifies a genuine
+criterion: a law independently delimited across cases has more explanatory
+content than a prior qualitative record or an outcome-specific no-change
+sentence. No such independently warranted existential law is established by
+the inspected evidence. Conservation's current-actualization requirement also
+remains substantive, not demonstrated by rejecting self-producing powers.
+Retain underdetermination between these explanations on the SAME received
+bearer. Do not infer a winner from explanatory vocabulary, PSR alone, origin,
+or observed survival. The earlier preference for received-act as the strongest
+available *conditional conservation rationale* remains that restricted ranking;
+it is not comparative defeat of the historical account. No argument here
+settles impossible-absence semantics or c0d99549's separate every-r obligation.
+
+Approaches now tried and rejected: treating no qualitative change as no possible
+existential loss; making no-change synonymous with survival; contraposition as
+new warrant; exporting intrinsic-power circularity to an extrinsic law; and
+inferring present production solely from origin receipt or nonidentity.
+A further free-existence model or bridge predicate would repeat the same
+missing adequacy input. This branch is stalled on independently defended
+existential loss coverage or current-efficient-actualization exclusivity, not
+on proof search. Reopen with a concrete defense of either: specifically an
+argument extending the causal requirement on change to cessation of a received
+bearer without presupposing conservation, or an argument excluding non-efficient
+law/constitutive explanation without presupposing causal exhaustiveness. A
+source campaign is useful only if it supplies one of these arguments; rereading
+the same recorded objections or formalizing their missing premise does not.
+Other research allocation and the new semantic challenge belong to the master.
+
+Self-sweep: note/attempt only; no definition, source claim, frozen Challenge,
+proof or result changed. The law comparison is provisional prose reasoning,
+not a certified strict-premise comparison or actual-world counterexample.
+Reuse unchanged formal certificates; final delivered-head CI remains required.
