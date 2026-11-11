@@ -18,6 +18,7 @@ public import TruthCore.Models.ModalExistenceDegrees
 public import TruthCore.Models.NecessarilyUnderived
 public import TruthCore.Models.NecessaryIndividual
 public import TruthCore.Models.NecessarySimplePlurality
+public import TruthCore.Models.NecessaryWholeReplacement
 public import TruthCore.Models.NightActualizationFork
 public import TruthCore.Models.NightCapacityControls
 public import TruthCore.Models.NightCosmogony
