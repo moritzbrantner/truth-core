@@ -13,8 +13,8 @@ worldviews. An invariant natural criterion does not make every belief correct,
 and descriptive identification alone does not entail categorical reasons.
 The signatures deliberately distinguish welfare, rightness, practical goodness,
 truth, belief and an agent's instrumental reason. They do not encode categorical
-or pro-tanto normative reasons: absence of the former cannot establish absence
-of the latter. -/
+or pro-tanto normative reasons: absence of an instrumental reason cannot
+establish absence of either. -/
 
 @[expose] public section
 
