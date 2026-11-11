@@ -1,0 +1,10 @@
+{
+  "id": "3ca19e0c-ca81-4c4d-abae-6ada427b6636",
+  "label": "Addressed echo positive witness and four history omission controls by construction (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "fdd4ee08-09f4-4657-a479-9130a61f5e1d",
+  "rule": "Stipulated addressed echo history analysis",
+  "meaning": "One inhabited genuine response satisfies the stipulated attribution bundle. Leaked-access forgery, replay, insertion and successful guessing preserve exactly the visible transcript while respectively violating exclusivity, freshness, integrity and access discipline; each fails AuthoredNow. These five histories are a selected structural protocol model, not exhaustive actual alternatives. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

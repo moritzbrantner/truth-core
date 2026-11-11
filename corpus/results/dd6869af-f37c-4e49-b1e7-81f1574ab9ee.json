@@ -1,0 +1,11 @@
+{
+  "id": "dd6869af-f37c-4e49-b1e7-81f1574ab9ee",
+  "label": "Addressed echo attribution from history and access by construction",
+  "argument_id": "514b965e-292b-42fc-a443-a559f30f1373",
+  "challenge_module": "TruthCore.Results.Logic.RecognitionTranscript.Challenge",
+  "solution_module": "TruthCore.Results.Logic.RecognitionTranscript.Solution",
+  "theorem": "TruthCore.Results.Logic.RecognitionTranscript.attribution",
+  "comparator_config": "results/dd6869af-f37c-4e49-b1e7-81f1574ab9ee/comparator.json",
+  "status": "solution-present",
+  "description": "For every fixed candidate, challenge and history, matching response plus actual token integrity, freshness, access discipline and exclusive candidate access entails candidate production on or after the challenge occasion. All application assumptions are open; no cognition, divine authorship or root establishment follows. Analyst formulation, attribution deferred. Target STMT-RECOGNIZABLE-REVELATION-ANALYSIS; conditional application bridge remains open, see docs/notes/revelation-positive-recognition.md."
+}
