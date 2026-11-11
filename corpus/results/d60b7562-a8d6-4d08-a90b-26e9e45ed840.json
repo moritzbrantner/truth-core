@@ -1,0 +1,11 @@
+{
+  "id": "d60b7562-a8d6-4d08-a90b-26e9e45ed840",
+  "label": "Reciprocal regeneration distinguishes mechanisms without settling life event identity",
+  "argument_id": "12f80849-a1c5-423e-9e2d-72d2492c6bd7",
+  "challenge_module": "TruthCore.Results.Mereology.LifeRestricted327.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.LifeRestricted327.Solution",
+  "theorem": "TruthCore.Results.Mereology.LifeRestricted327.certificate",
+  "comparator_config": "results/d60b7562-a8d6-4d08-a90b-26e9e45ed840/comparator.json",
+  "status": "solution-present",
+  "description": "Check actual reciprocal and external mechanisms under specified knockouts, fresh-token turnover and interrupted feeding. Reuse the exact ProcessTurnover obstruction and Fission1397 branching incompatibility. This is a structural operational candidate, not a definition of biological life, possible biological fission or an organism-to-event identity bridge. Root purpose is Q-LIFE-SOUL/Q-IDENTITY of old327, a rival to the composite-uniting-cause premise; composition-to-causal-ground remains missing. No root leaf is discharged."
+}
