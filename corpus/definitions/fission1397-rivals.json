@@ -1,0 +1,9 @@
+{
+  "id": "9e18a053-1150-4267-a05a-87a3a6cef4ff",
+  "label": "Finite nonbranching and overlapping-trajectory controls",
+  "term": "Finite nonbranching and overlapping-trajectory controls",
+  "definition": "UniqueContinuation c s t requires an edge and every outgoing edge at s to end at t. NonbranchSufficient preserves bearer across just these unique edges. The nonempty contextual fixture makes solo identity true and split identity false while the split has distinct admitted successors. The unused role of each solo context is absent by present; values assigned to absent roles are irrelevant. trajectory maps a Bool whole-label and Bool time to an occurrence; two whole functions share an earlier occurrence and have different later occurrences. These are finite structural surrogates, not actual persons, psychological sufficiency, complete Lewis semantics or metaphysical possibility.",
+  "lean_declaration": "TruthCore.Mereology.Fission1397.RivalControls",
+  "note": "Stipulative analyst formulation for issue1397, with historical attribution deferred. Detailed interpretation burdens and strongest rivals: docs/notes/personal-identity-fission-1397.md.",
+  "basis": "stipulative"
+}

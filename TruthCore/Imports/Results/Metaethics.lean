@@ -27,3 +27,4 @@ public import TruthCore.Results.Metaethics.InternalCounterfactual.Solution
 public import TruthCore.Results.Metaethics.MeaningRivalBoundary.Controls.Solution
 public import TruthCore.Results.Metaethics.MeaningRivalBoundary.GuardedNegative.Solution
 public import TruthCore.Results.Metaethics.PlanStateEmbeddingControl.Solution
+public import TruthCore.Results.Metaethics.SupervenienceProfiles.Solution

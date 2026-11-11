@@ -1,0 +1,11 @@
+{
+  "id": "4113abcb-d611-40e9-9be7-5ac6e78dd181",
+  "label": "Moral supervenience strength and mapping controls",
+  "paraphrase": "Finite structural controls: weak does not imply strong supervenience; competent verdicts do not imply factual weak supervenience; and two separately strong-supervenience models with the same selected natural profiles can assign different moral statuses. No metaphysical possibility or true moral criterion is thereby established.",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Controls",
+  "definition_ids": [
+    "6bfb958a-b7f4-430c-acc1-8075fdbf5f81",
+    "fbb33d0b-6057-4a22-a636-69d8939ad1b7",
+    "ae2fbfcd-10d5-498a-a1d2-aba55d521712"
+  ]
+}
