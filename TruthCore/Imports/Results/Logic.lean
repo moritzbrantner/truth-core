@@ -80,6 +80,7 @@ public import TruthCore.Results.Logic.RegressSchema.Solution
 public import TruthCore.Results.Logic.Relativism.LocalSecondOrder.Solution
 public import TruthCore.Results.Logic.Relativism.Models.Solution
 public import TruthCore.Results.Logic.Relativism.SelfFalsifying.Solution
+public import TruthCore.Results.Logic.RevelationPositive.Solution
 public import TruthCore.Results.Logic.Scientism.StrongDilemma.Solution
 public import TruthCore.Results.Logic.Scientism.WeakConsistent.Solution
 public import TruthCore.Results.Logic.Scientism.WeakDemarcation.Solution

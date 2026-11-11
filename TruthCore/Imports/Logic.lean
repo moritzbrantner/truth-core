@@ -49,6 +49,7 @@ public import TruthCore.Logic.ReflectiveCoherence
 public import TruthCore.Logic.Regress
 public import TruthCore.Logic.RegressDomains
 public import TruthCore.Logic.Relativism
+public import TruthCore.Logic.RevelationPositive
 public import TruthCore.Logic.Scientism
 public import TruthCore.Logic.ScientismScopeBoundary
 public import TruthCore.Logic.ScopedEmpiricalProofBarrier
