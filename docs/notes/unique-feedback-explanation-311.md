@@ -699,3 +699,377 @@ no middle” or labels every relation derivative is insufficient without that
 interpretation defended. No new theorem, source claim or root premise is
 introduced, removed or discharged. Intended and actual root-premise delta: zero.
 Shared convention sourceRevision: `c104800c7aaeaea12d56f9093e71bdef6a2ce6fa`.
+
+### Actual existential foundation: collective non-generation audit (2026-11-11)
+
+**Independent semantic challenge: qualified acceptance of the complete outcome
+and synthesis at `486b956a909765605cec6fa321c435859400a88f`; no substantive
+repair requested.**
+Evidence baseline: `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`, fetched from
+normal `origin/main`. The seeded Lean preview revision is not this research
+baseline. The question is independent warrant for actual existential foundation,
+not another equivalent rank or cut formula. Its root connection is premise
+`82cfaf26-fc86-54ab-8328-9a7b2bdbbe21` (`ActualGroundingWF`) of argument
+`df542c04-6033-5d7d-b681-b81263dc1245`'s necessary-concrete-underived route.
+Resolve that argument's full identity by its stable legacy name
+`NECESSARY-CONCRETE-UNDERIVED-COMPOSITION`; the dossier/context are navigation,
+not verification. The selected relation is the SAME actual-concrete existential
+support of `NecessaryRootFork`, not signal copying, historical generation,
+ordinary conservation of energy, or fact-level sufficient reason.
+
+The strongest positive argument says that existential actuality wholly
+received from other members cannot be collectively made available by a roster
+whose complete productive contributions are all received within that roster.
+Its strongest relevant rival proposes genuinely obtaining, directed, full
+existential dependence at every stage, with no initial supplier: either a
+beginningless productive structure or a constitutively explanatory organization.
+Neither a bare Nat diagram nor calling an organization a law supplies that
+interpretation. The question is whether the positive argument independently
+excludes this stronger interpretation, holding the explanandum fixed.
+
+#### Existing evidence and exact strength
+
+Reuse inspection included the current root context, `related` and dossier for
+actual grounding WF, the borrowing-cut dossier, the joint-power argument
+context, and #311/#613/#545/#487 notes and attempts. Exact controls consumed:
+
+- `EssentialPowerUnderdetermined.essentialPowerUnderdetermined`: all-on/off
+  successor transmission and edge-cut dependence; no actual productive
+  interpretation is certified.
+- `LocalObservationSelectsSolution.localObservationSelectsSolution`: a datum
+  selects the chain's activity. It supplies determination conditional on a datum,
+  not a reason for the datum.
+- `UniqueFeedback.controls`: unique sensitive Boolean feedback without an
+  observed datum. Its negation/conjunction constraints are not pure existential
+  transfer, and have no explanation/production predicate.
+- `DerivativeJointPower.certificate`: all-contributor Supply, its trap
+  obstruction, powered-group/Escape comparison, and the exact source-anchored
+  infinite branch. A graph-source path is insufficient for the selected
+  all-contributor standard; that standard's actual applicability is open.
+- `TruthCore.Causality.NecessaryRootFork.chainHornModel` and
+  `TruthCore.Results.Causality.BearerRegress.chainBranch`:
+  actual endpoint assignments and acyclic endless support under the respective
+  explicit profiles. These are structural interpretations, not metaphysical
+  existence proofs.
+- `PerSeCausalLoopImpossible.noExistentialSelfActualization`, its two omission
+  controls and `otherBearerCanActualizeExistence`: the bearer/act/product
+  interfaces with a strict transitive mixed priority prohibit production of
+  the act's own bearer, and allow another bearer to be the product.
+- `ConcreteExistentialSupply.supplyRootEquivalence` and
+  `borrowingEscapeWFEquivalence`; `WholeRosterFoundation.actualRootExists`
+  together with the existing registered whole-roster/root equivalence.
+  On their exact profiles, source-backed existential Supply already has root
+  existence strength; the all-subsets cut has WF strength under explicit EM;
+  the inhabited whole-roster restriction has actual-root-existence strength.
+  These are not three independent warrant sources.
+
+Unqualified theorem names in this list abbreviate their existing
+`TruthCore.Results.Causality` namespaces except the self-actualization results,
+which are in `TruthCore.Results.Alternatives`. No theorem, Challenge or
+verification record is changed. The computed cut dossier explicitly reports
+`proved; established: false`. A proved producer from an open application
+principle does not establish actual existential foundation.
+
+Current-main #1378 also advances beyond a scalar analogy: see
+[contractive borrowed power](contractive-borrowed-power-1378.md), continuation,
+and `TruthCore.Results.Causality.QuantitativeTransferPaths`. A bounded network
+with uniformly subunit total transfer gives a finite positive-input path;
+vanishing cumulative products suffice on a chain. Whole-network conservative
+and nonuniform positive assignments remain controls. These conditional results
+do not supply a universal measure, loss law or existential interpretation.
+They are reused, not replaced with another quantitative campaign.
+
+#### Walk the positive argument: what is independently motivated?
+
+**1. An exercise requires something actual to exercise.** For an exercise
+attributed to a bearer, the bearer cannot obtain its entire existential
+availability from that very exercise. Otherwise the exercise would have to
+supply what makes it exercisable. This remains the strongest local availability
+argument in the preceding audit. It motivates bearer-presupposition once an
+act really is an act of that bearer. It does not justify assigning a substance
+to an unowned episode or treating reciprocal necessary conditions as strict
+explanatory priority.
+
+**2. An actual supplier need not be an independently actual supplier.**
+The positive argument must not slide between “there is no actual giver” and
+“there is no giver actual independently of every other giver.” The serious
+beginningless rival affirms actual givers and recipients throughout. Thus it
+accepts that nonexistents cannot act and that unrealized potency cannot act by
+itself. Its denial is that every actual giver must ultimately have an
+independent giver. Calling the former commitments violations of actuality
+would already import the latter. The same distinction applies to “has nothing
+of its own”: lacking intrinsic actuality does not mean lacking actual received
+actuality at the selected world.
+
+**3. Counterfactual loss does not settle the intact case.** The explicit cut
+controls grant that deleting a supplier can extinguish downstream exercise.
+They thereby capture a real constraint the positive argument should preserve.
+But the intact rival posits no such deletion: its prerequisites all obtain.
+Conditionality of each member's actuality does not entail that some condition
+is unfulfilled. Requiring all prerequisites to have *already been settled
+without dependence* is a further foundation norm, not merely the requirement
+that they be actual. This is an ontic distinction; finite agents' inability to
+traverse the chain does not decide it.
+
+**4. Strict priority excludes return, not endless priority.** The mixed
+bearer/act/product proof supports the no-return argument under its interfaces.
+Nothing in strict transitivity makes a beginningless strict order inconsistent.
+A beginningless productive rival can put each supplier's existence prior to
+its exercise, and that exercise prior to the distinct recipient's existence,
+while every supplier is itself supplied farther upstream. This is an unrefuted
+interpretive proposal, not a newly certified mixed-domain model. Existing
+endless-order controls establish the structural boundary; they do not certify
+the proposed meaning of each productive edge. Adding that such priority is
+always accessible would supply precisely the stronger disputed premise.
+
+**5. Why should collecting derivative contributions not generate actuality?**
+For transfers of a measured quantity, noncreation can follow from an independent
+accounting law. But “each member has no independent source” is not “each actual
+member contributes quantity zero.” The former permits positive received
+contributions; the latter would exclude them in advance. The #1378 conservation
+and loss controls show why purity or absence of double counting is insufficient
+for extinction without further premises. Bare existence is not presently
+identified with an additive productive magnitude. There is no independently
+warranted universal dissipation law here from which the metaphysical collective
+claim follows.
+
+The strongest *nonquantitative* reason is that an instrument's entire efficacy
+is another's efficacy exercised through it. Adding instruments changes routes,
+not the kind of contribution demanded. This gives a defeasible motivation for
+seeking an independent contributor; it is more than an objection to cardinal
+infinity. Its unresolved step is whether a complete source-free organization
+can itself constitute the actuality of the contributions, rather than merely
+route a contribution whose independent actuality is presupposed. Ordinary
+instruments illustrate routing, but do not establish that every candidate
+existential support has that structure. Defining “instrument” as already
+having a principal supplier would settle a classified instrument case while
+leaving universal existential classification open.
+
+**6. The collection cannot be treated as one self-producing bearer for free.**
+A plausible attempted extension says that, because the roster's exercises
+produce all its members, the roster produces its own existence, contradicting
+the local proof. To instantiate that proof requires an actual single bearer,
+an act of that bearer, and that act's production of its own bearer. A plurality
+of distinct acts on a beginningless order supplies none of these identifications
+by collection alone. If a proposed whole really satisfies those interfaces,
+the local exclusion applies. Otherwise the extension needs an independently
+defended plurality/whole-to-act bridge. This attempt therefore neither refutes
+the strongest distributed rival nor licenses a new self-production theorem.
+
+#### Selected source test: SCG I.13 and the reception ambiguity
+
+To test the strongest positive source argument rather than merely list the
+open cut, re-materialized and read **all of SCG I.13 [1]–[35]** in the existing
+Pegis translation witness `AQUINAS-SCG-I-13-EN`, passage
+`92bd0343-4334-512b-98cd-74b784fd566c`. Materialization succeeded against the
+existing pins; the manifest records normalized text SHA256
+`aecaef150587d0823de8273bdb8f1284c55c3b73a16571f527eac61f8047d619`.
+No Latin comparison, new passage, or new attributed corpus claim is asserted.
+The following distinguishes source reasoning from this worker's appraisal.
+
+The source separates several arguments. [12]–[13] appeal to bodies,
+contiguity and moving an infinite body in finite time; [14] and [33] use the
+first/intermediate-cause argument; [15] uses instruments and principal action.
+The last two provide the direct collective argument considered here. [17]–[19]
+are a distinct second way, and should not be silently imported as a proof of
+[14]–[15]'s inference. [29]–[30] explicitly discuss the eternity of the world;
+the case should not be represented as requiring a first temporal event.
+
+In [7], the dependence conditional can be accepted even with an impossible
+antecedent. Therefore the source is not answered by demanding a physically
+performable removal of a first mover. The live issue is the scope of that
+dependence: that removing an actual first supplier removes its derivatives
+does not itself show that every possible derivative organization has such
+a first supplier. [15] supplies an additional substantive instrument/principal
+claim, which the existing #741 capacity/exercise controls already isolate.
+The source therefore presents more than a bare finite illustration, but the
+universal classification and collective availability remain its contested work.
+
+The further [19] argument is particularly useful as an **over-exclusion test**.
+For the same learning/teaching episode and knowledge, being taught there
+requires the absence of knowledge that teaching there requires. Across a
+finite range of motion kinds the source also considers repeated kinds.
+Its act/potency contradiction must retain the same subject and relevant
+respect; repetition of a label at different subjects is not by itself that
+contradiction. This paragraph does not certify or reject the source's entire
+second way.
+
+For existential conservation, the crucial application distinction is between
+**receiving an actuality one presently lacks** and **depending for an actuality
+one presently has**. A conserved bearer can have actuality while receiving
+its continued support. Treating any existential receiving as present absence
+of the very actuality needed to act would prohibit even an instrument in a
+finite founded series from acting while dependent. It would therefore defeat
+the positive founded case as well as the infinite rival. The earlier q.104
+continued-esse reading supplies the source-side reason to preserve this
+contrast; its universal divine application still has the open burdens audited
+above. This is an analyst constraint on the proposed transfer, not a claim
+that SCG [19] itself teaches existential conservation or that all its motions
+are receiving esse.
+
+The constructive improvement is thus a sharper sufficient challenge: an
+anti-borrowing defense must reject **endless actual reception** without treating
+all actual reception as unrealized potency. The narrow no-self-production
+argument meets that constraint but does not settle endless reception. The
+collective routing/principal argument attempts to meet it, at the exact cost
+of its independently disputed non-generation application. A new theorem
+repeating strict priority or the cut would not decide this contrast.
+
+#### Walk the strongest replacement: what would make its support real?
+
+**Constitutive infinitism.** The best positive replacement does not claim that
+an effect efficiently creates itself. It says that the existence of each
+organized concretum is fully constituted by actual constituents in the relevant
+arrangement, with the same explanatory kind continuing without a minimal level.
+Essences/constitution would give the direction and relevance of support; mere
+co-obtaining or a relabelled arrow would not. Ordinary constitution motivates
+asking this question, but does not establish endless constitution or that all
+arrangement conditions have themselves been explained. The full ground must
+include those conditions. A singleton membership or one helpful constituent
+is insufficient.
+
+Descend one level: if the arrangement is fixed by an obtaining law, is that
+law only a condition on possible realizations, or does its nature explain an
+actual realization? In the first case the existence of the configured domain
+remains owed an answer under a global actuality demand. In the second case
+the rival owes a positive account of that explanatory nature and its
+instantiation; “the structure exists” alone restates the target. If arrangement
+facts depend on further facts of the same kind, explaining them remains useful
+local progress but does not automatically settle the unrestricted demand.
+This revisits the ordering/rule burden above, without substituting another
+uninterpreted adequacy flag.
+
+**Beginningless productive support.** This stronger causal proposal affirms
+actual bearers, occurring exercises and genuinely existential products, not
+just constitutive explanation. Its price is allowing productive actuality to
+be wholly derivative at every stage without a first contributor. It must
+defend both the existence-to-exercise and exercise-to-existence interfaces on
+one non-temporal relation; ordinary energy transfer or persistence of an
+already existing bearer is insufficient. No independently verified real
+example of this entire infinite existential arrangement is supplied. But the
+foundation advocate cannot reject its actual suppliers merely by calling
+them nonexistent in isolation. The live conflict concerns collective sufficiency,
+not the local prohibition on action by a nonexistent bearer.
+
+**Global explanation has two materially different applications.** If an
+irreducibly actual whole is itself an independent concrete existential
+supporter of the members, then it is a candidate foundation relative to that
+roster, even if its internal dependency pattern is infinite. It need not be
+a necessary being, unique or God, and its independence and concrete
+supporterhood still need warrant. This version is not automatically a
+counterexample to the demand for an underived source. If the “whole” is instead
+only the organization of the same exhaustively derivative members, no new
+independent bearer follows: its global obtaining must be explained, intrinsically
+vindicated, or accepted as brute under the selected explanatory aim. Conversely,
+a global explaining fact is not a concrete supporter merely because it is
+called the source. This is an application test, not an exhaustive ontological
+classification or a newly proved fact-to-being bridge.
+
+**Determination and realization remain distinct.** Unique feedback defeats a
+universal claim that loops cannot determine a state. For pure transfer,
+zero-preservation retains an inactive fixed point; uniqueness across the full
+assignment space would then exclude a positive fixed point. A rival can instead
+restrict to populated/actual assignments, or give a nonzero boundary datum.
+Such a restriction need not be a dishonest trick: the investigation already
+has independent evidence that something is actual. It supplies no explanation
+of why those conditions obtain, however. Nor does zero-preservation have an
+automatic interpretation when the node domain itself consists only of actual
+existents: the empty assignment changes the represented interpretation and is
+not thereby an admitted metaphysical world. No mathematical fixed-point
+comparison here decides that admissibility or the ultimate reality of support.
+
+#### Provisional judgment, shared dependencies and revision conditions
+
+For the selected existential relation, the narrow bearer-presupposition and
+no-self-production argument is substantively motivated under its stated
+interfaces. It does not independently warrant all-subsets foundation or the
+whole-roster source-existence principle. The strongest collective argument
+adds a meaningful explanatory demand: actuality cannot be accounted for by
+routing already-received contributions unless the account explains their
+collective availability. Its application to every actual concretum, and its
+exclusion of genuinely constitutive or beginningless productive realization,
+remain insufficiently discriminated by the evidence inspected here.
+
+Accordingly, the foundational conclusion is **not independently established
+by this investigation**. The comparison remains underdetermined at collective
+non-generation and actual realization; this is neither endorsement of a bare
+infinite diagram as adequate nor a finding that the foundation claim is false.
+The strongest rival's price is accepting an obtaining but everywhere derivative
+existential order, together with a substantive account of its real full grounds,
+direction and global status. It has not supplied that completed account here.
+The foundationalist's corresponding burden is to defend why such collective
+actuality must receive a contribution not wholly derivative within the selected
+roster, without simply defining adequate actuality as source-backed Supply.
+Neither price has been shown contradictory with an accepted floor item.
+
+The **weakest immediate target is one actual root**, not exclusion of every
+infinite branch. `WholeRosterFoundation.necessaryActualRoot` already turns
+that root, actual population and contingent dependence into a necessary
+actual root under EM. A genuinely exhaustive source-free rival challenges
+that target. An infinite chain alongside a root challenges all-branch WF
+only, and does not defeat this weaker sufficient source route. An independent
+whole that really supports members without itself being supported could
+satisfy the weaker target despite infinite internal detail. Whether its
+supporting act is intrinsic, and whether the whole is concrete and actual,
+remain application questions rather than consequences of its size.
+
+For the stronger underived endpoint, the existing
+`UnderivedRootRoute.underivedOfNecessaryRoot` can preserve a supplied necessary
+actual root under its explicit support-transport and supporter-concreteness
+interfaces. This reuse does not require a newly established all-branch WF
+once the required root is supplied. It does not remove those interfaces or
+prove the parent modal-union requirements. The research target must therefore
+not be inflated into proving universal WF when the selected route needs only
+one actual source plus its stated local/modal interfaces. No new route or
+premise substitution is registered here.
+
+Cumulative support must not double-count source-backed Supply, the borrowing
+cut, WF and the whole-roster equivalent as independent defenses. Their useful
+strength comparisons preserve the common unresolved applicability burden.
+Moreover, even an independently warranted underived supporter would establish
+less than WF of every branch: the exact source-anchored infinite controls
+remain relevant. The necessary-concrete-underived parent also retains its
+contingent-dependence, modal-support and union-WF obligations; no finding here
+discharges those distinct premises or the further attribute routes.
+
+This assessment would strengthen toward foundation if an independently
+specified account of existential support justified collective non-generation
+and excluded the strongest constitutive/causal realization *in that same
+meaning*, including joint contributors and arrangements. It would weaken if
+a positive actual-realization account supplied relevant full grounds and
+explained its own global obtaining without importing an independent concrete
+supporter or an unexplained selector. It would be suspended if the intended
+relation were revised from concrete existential support to signal dynamics,
+mathematical determination or general fact explanation. A source-existence
+argument alone would revise only that obligation; it would not validate the
+stronger all-branch WF or cross-world-union requirements.
+
+The next discriminating inquiry is the **independent direction and sufficiency
+of an explicit constitutive existence account**, compared with the proposed
+purely routing interpretation. It should identify the actual relata, joint
+arrangement conditions and status of the global realization, then test the
+collective argument against that same account. Another Nat rank, Supply/WF
+alias, loss inequality without existential calibration, or repeated “no first,
+no middle” would not answer this missing application question. The present
+worker returns this reassessment for allocation rather than expanding into the
+parallel fact-PSR, modal-support or essence/identity assignments.
+
+One selected existing source witness was re-materialized and read as recorded
+above; no new source or attributed corpus claim was introduced. Historical
+readings retain their prior source evidence. No new philosophical statement, proof, model,
+source record, closure marking or owner-choice gate is introduced. All quoted
+formula strengths refer to the existing explicit profiles. Actual premise
+change: none. Source fidelity, actual interpretation and independent warrant
+remain distinct from theorem validity. Required integration CI remains in
+place; unchanged theorem verification is reused. The proposed judgment and
+its synthesis received qualified acceptance in the independent semantic
+challenge recorded above. This review does not establish the open premises;
+final integration CI remains required.
+
+Focused offline validation for this documentation/attempt delta: corpus
+validation and attribution-check completed; no new or changed stating claim.
+`frontier-diff --base 6d9b380099158c877373eaf34e2c6a9e4e6d01e4` computes
+421 open root-reaching premises (282 bare, 94 supported, 45 stated) unchanged,
+303 verified support alternatives unchanged, zero added alternatives, and
+“no change.” Whitespace check passes. No proof input changed, so no build,
+binding, Comparator or NanoDa rerun is claimed or needed for this delta.
