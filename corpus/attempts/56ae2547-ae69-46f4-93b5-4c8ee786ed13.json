@@ -1,0 +1,16 @@
+{
+  "id": "56ae2547-ae69-46f4-93b5-4c8ee786ed13",
+  "label": "Causal transitivity boundary investigation 1399",
+  "date": "2026-11-11",
+  "statement_ids": [
+    "c0d99549-799c-5a01-9b59-75fe88550b26",
+    "edeae2e8-0f5a-465a-a485-aa726da6a647"
+  ],
+  "kind": "countermodel",
+  "outcome": "succeeded",
+  "summary": "Resolved the restricted Boolean intervention question with XNOR nontransitivity, pure-chain and local-exclusion conditionals, compensation consequence, canonical ancestry composition, and nonvacuity/omission controls. Reviewed exact #733/#752 scope without repeating unchanged verification. Full proposed judgment, positive production/grounding rivals, rejected identifications, and next materially different bearer/existence test persist in docs/notes/causal-transitivity-1399.md. No root premise discharge; existential bridge and semantic challenge remain OPEN.",
+  "evidence": [
+    "1ab3858a-b0cb-4475-b22d-b397858a76a2"
+  ],
+  "blocker": "Magnitude equation replacement does not remove a concrete bearer or establish sustaining dependence; requires independently justified same-domain existential interpretation. Master independent challenge pending."
+}

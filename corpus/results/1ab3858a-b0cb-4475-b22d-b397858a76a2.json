@@ -1,0 +1,11 @@
+{
+  "id": "1ab3858a-b0cb-4475-b22d-b397858a76a2",
+  "label": "Boolean intervention dependence boundaries certificate 1399",
+  "argument_id": "d312ca20-91ae-436a-9fc5-eb78db26ab19",
+  "challenge_module": "TruthCore.Results.Causality.InterventionTransitivity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InterventionTransitivity.Solution",
+  "theorem": "TruthCore.Results.Causality.InterventionTransitivity.certificate",
+  "comparator_config": "results/1ab3858a-b0cb-4475-b22d-b397858a76a2/comparator.json",
+  "status": "solution-present",
+  "description": "Checked conditional boundary, not empirical causal transitivity or a metaphysical countermodel. Internal universal conditionals retain both local-dependence assumptions and the binary recursive family. Connection target c0d99549-799c-5a01-9b59-75fe88550b26 is only a proposed bridge; see docs/notes/causal-transitivity-1399.md for exact canonical target identity and missing event-to-being abstraction. No root premise discharge."
+}

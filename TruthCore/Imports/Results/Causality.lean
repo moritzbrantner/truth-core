@@ -149,6 +149,7 @@ public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
 public import TruthCore.Results.Causality.InertEmptiness.Solution
 public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.IntellectualInclination.Solution
+public import TruthCore.Results.Causality.InterventionTransitivity.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LifeBoundaryPotency.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
