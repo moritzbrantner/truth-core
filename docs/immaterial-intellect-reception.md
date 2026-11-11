@@ -614,6 +614,7 @@ historical #1189 inventory above describes its original delivery, not absence
 of later conditional derivations. Those do not establish the missing
 reception-to-actual-possession application here. Formal consequence, source
 reading and independent warrant remain distinct. Actual premise comparison:
-**no premise change**; the computed delta accompanies publication. This full
-assessment remains a draft until independent semantic challenge of these
-new consequential source/synthesis findings.
+**no premise change**; the computed delta accompanies publication. Independent semantic challenge accepted this complete comparison at
+`64ee819c086d17de7b0114a5f835d9ac404fd695` without required repair, including
+the actual Greek/Latin passages and full synthesis. That acceptance concerns
+source fidelity and the stated assessment boundaries, not premise establishment.
