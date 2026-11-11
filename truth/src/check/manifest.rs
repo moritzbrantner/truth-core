@@ -92,7 +92,6 @@ fn known_encoding(name: &str) -> bool {
             || name
                 .strip_prefix("iso8859_")
                 .or_else(|| name.strip_prefix("iso_8859_"))
-                .and_then(|n| n.split('_').next())
                 .and_then(|n| n.parse::<u8>().ok())
                 .is_some_and(|n| (1..=16).contains(&n) && n != 12)
             || name
