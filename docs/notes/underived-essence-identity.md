@@ -665,8 +665,11 @@ no premise establishment and no new inference-support claim for packaging.
 
 ## Replaceable support: stronger local test and proposed judgment (2026-11-11)
 
-**Review state:** complete worker proposal for independent semantic challenge;
-not yet a reviewed coordinator conclusion. Evidence baseline is
+**Review state:** independent `review_underived` semantic challenge accepted the
+complete outcome and exact coordinator synthesis at
+`995b47de34071e8fcce539cfd8631a0754ff8f1d`, with no repair requested. Its
+qualification retains the explicit structural-model versus genuine-whole/support
+boundary and the weaker actual-root conclusion below. Evidence baseline is
 `6d9b380099158c877373eaf34e2c6a9e4e6d01e4`. The three reused modal/support modules
 are unchanged from the preview seed `e02bd650c2f31160dd1f965b439b1c185cdb421c`.
 This investigation serves the root-connected no-contingent-concrete-support
@@ -890,9 +893,8 @@ is essential, only some fixed edge is essential, or replacement preserves that
 very identity. For the actual-source endpoint, consume the existing #487 SAME
 witness and investigate the priority/esse-support dictionary needed downstream;
 re-solving global modal underivedness would add a stronger goal unnecessarily.
-No new ticket or parallel handoff is created. This worker returns the complete
-proposal and frozen revision to the coordinator for fresh semantic challenge;
-any substantive publication must follow that review and repair.
+No new ticket or parallel handoff is created. The complete proposal and frozen revision received the independent semantic
+challenge recorded above; no substantive claim was strengthened after review.
 
 ### Worker verification and claim/type sweep
 
