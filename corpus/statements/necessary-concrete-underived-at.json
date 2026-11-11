@@ -8,10 +8,11 @@
     "75c193e1-bab0-5ec2-890b-9ff608b05aa7",
     "9146789d-5b36-572f-baa1-7eef28967793",
     "38b92bb6-33ae-5817-85c6-b5a1afa63bd1",
-    "b242943a-34cc-582d-8c38-c1203b9d2c91"
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109"
   ],
   "disambiguation_ids": [
     "6f1d1395-7c1d-5bd5-a45d-03380857aed6",
     "5d15d8f2-1080-53c9-886f-cee2a4ff23a9"
-  ]
+  ],
+  "note": "Sense-link audit (2026-11-11, attempt a062ed2b-028c-40b3-928b-12925a28a261): NecessaryConcreteUnderivedAt states its support exclusion directly over Profile.grounds and world-relative ExistsAt; it does not use the separate primitive relation of NecessarilyUnderived.PresentEsseSupport. The link to DEF-PRESENT-ESSE-SUPPORT (WORLD_RELATIVE_EXISTENCE_METAPHYSICAL_ESSE_NECESSITY_3) was replaced by DEF-KANT-ONTOLOGICAL-MODEL (sense 1, Ontic), which the type reaches. The selected grounds relation stays defined by DEF-CONCRETE-SUPPORT-RESTRICTION. The proposition and its Lean declaration are unchanged."
 }

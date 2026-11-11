@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Registration.Challenge",
+  "solution_module": "TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Registration.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.NecessaryClassicalGodRootFromUnderived.Registration.derive"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

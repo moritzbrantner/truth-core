@@ -95,9 +95,55 @@ supporter of its being, under F1, excluded middle and two further open premises:
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
 computed frontier. It reaches it by the necessary-concrete routes with 15 bare
-premises each, which is where the stage-two work lies. Whether the ungrounded
-individual it yields is the root that `NecessaryClassicalGodRoot.derive` starts
-from is not yet checked.
+premises each, which is where the stage-two work lies.
+
+The ungrounded individual of the join is the stage-two root (checked
+2026-11-11). `UnderivedRootPerfection`, `PerfectRootPositiveIntellectWill` and
+`ClassicalGodFromPositiveRoot` already chain `STMT-NECESSARY-CONCRETE-UNDERIVED-AT`
+to `STMT-NECESSARY-CLASSICAL-GOD-ROOT` at the statement level. The Lean theorem
+`NecessaryClassicalGodRootFromUnderived.derive` composes the three on one model,
+world, profile and dictionary. Internally the proof carries one witness
+through all three steps, but the registered type states `∃ b` in the premise
+and `∃ n` in the conclusion and does not certify `b = n`; the identity is an
+immediate corollary of uniqueness among actual roots at `w`, not part of the
+result. The theorem needs only the
+underived individual, excluded middle and the 21 act-of-being, attribute and
+naming premises of `NecessaryClassicalGodRoot.derive`. The attribute steps do
+not use population, whole-roster nontrapping or contingent grounding; those
+premises only produce the root. No extra premise is needed. The join's support
+exclusion is used at the actual world only.
+
+The composition is now a registered result (2026-11-11): result
+`57213a13-fda3-4d8d-86ec-7f4462a3e7a1`, argument
+`8f956c81-3887-4567-a25d-22a66486e30b`, theorem
+`NecessaryClassicalGodRootFromUnderived.Registration.derive`. Registration first
+needed a sense-link cleanup, because `STMT-NECESSARY-CLASSICAL-GOD-ROOT` and two
+reused premises linked senses that their Lean types do not use. The rule applied:
+for each conflicting term, a statement keeps only the senses whose declaration its
+bound type reaches (`scripts/BindTypes.lean` sense reachability, checked by hand
+for structure types such as `Modal.Frame`). The endpoint keeps NECESSARY_2
+(`NecessaryAt`), GOD_4 (`Signature.IsGod`), MAXIMAL_1 (`IsMaximumIn`) and
+WELL_FOUNDEDNESS_2 (`ActualRoot`). It drops 14 links that no part of its type
+uses, among them per se necessity, the frame vocabulary, the nominal God, the q.3
+a.4 cause-of-esse forks, the nonnecessary and contingent root rivals, de dicto
+necessity and adopted potency (its `InPotency` is a free parameter). The underived statement now links world-relative existence (the
+`Ontic` it uses) instead of `PresentEsseSupport`: its type uses `m.grounds`
+directly, so the underived premise and the act-of-being bridges now read the
+same `m.grounds` with the same world-relative existence. `STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND` now links the
+`ActualConcreteGround` edge that it uses, not the thinker-ancestry and root
+senses.
+
+Two conflicts were real and are handled by existing records, not new bridges. The
+naming premise is the declared GOD_1 to GOD_4 sense bridge, as in the existing
+maxime-ens routes. For potency, the act-priority record links adopted potency
+(POTENCY_1), while the non-overlap record and this theorem use the free
+`InPotency` parameter (POTENCY_2). Following the #1278 registration, the
+registered theorem binds act priority through the transparent wrapper
+`IndependentPriority` (statement `3b2d2d46-baa6-4772-a2db-bb3daeb092fc`) and
+delegates to the unchanged frozen composition. Registering it changes no root
+premise (computed `frontier-diff`: no change), since the statement route already
+existed. Attempt `a062ed2b-028c-40b3-928b-12925a28a261` records the links removed
+and why.
 
 Today the stage-two chain obtains its root from two regress premises instead:
 every contingent concrete thing has an actual concrete ground, and the whole
@@ -253,4 +299,11 @@ conditional investigations, not a mandatory first gate:
    accepts that conflict with it. The join models depend on the support relation
    reversing direction between worlds, so an invariance premise is the first
    discriminator for J1 and J2.
-3. Check whether the ungrounded individual of the join is the root the stage-two chain starts from.
+3. Done: the ungrounded individual of the join is the stage-two root (see "The
+   join"). Done: the sense links were cleaned and the composition registered
+   (result `57213a13-fda3-4d8d-86ec-7f4462a3e7a1`). The underived premise and the
+   act-of-being bridges now read the same `m.grounds` over the same world-relative `ExistsAt`.
+   Open: the four older arguments to the endpoint keep legacy allowlist entries,
+   because their intermediate statements and the act-priority record (POTENCY_1
+   on a generic `InPotency` parameter) still link several senses. Cleaning those
+   records, or splitting the compound disambiguations, would clear more of them.
