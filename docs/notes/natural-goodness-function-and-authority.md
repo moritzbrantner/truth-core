@@ -1081,3 +1081,36 @@ new coordinator assignment, not a completed dependency here. No additional
 concrete discriminating test within this assigned matched-case approach has
 been identified. Master independent challenge must assess this complete
 proposal before its new judgments are used downstream.
+
+## Naturalist instrumental-reason type correction (2026-11-11)
+
+The naturalist consistency signature exposed a narrower semantic error than
+the already-investigated #699 authority gap: `Sig.Reason` had a generic field
+name even though its sourced corpus definition and the actual #249 results
+intend only an **instrumental** reason. The field is now
+`Sig.InstrumentalReason`, with the legacy proposition identifiers preserved.
+The finite interpretation supplies such a reason for one agent and not for
+another; the established consistency proofs still witness an evaluatively
+positive action lacking an instrumental reason for *some* agent. They cannot
+be interpreted as showing that the agent lacks all normative reasons.
+
+This is not merely terminology. Joseph Raz distinguishes explanatory from
+normative reasons ([*Reasons: Explanatory and Normative* (2011), author abstract](https://scholarship.law.columbia.edu/faculty_scholarship/1488/));
+the abstract of his [*On the Guise of the Good* (2008)](https://scholarship.law.columbia.edu/faculty_scholarship/1521/)
+discusses a value-based explanation of reasons for intentional action. These
+source abstracts are orientation evidence, not newly bound historical claims.
+An instrumental reason tied to a person's ends does not exhaust normative
+favoring, and denying the former is not a proof against the latter. The same
+care applies to Foot's [*Natural Goodness* (2001)](https://academic.oup.com/book/10657),
+which proposes an account of natural normativity and a distinctive account of
+practical rationality; its substantive bridge is not proved by calling a
+biological function good.
+
+The root-affecting question remains the one formulated in the positive agency
+and matched-control sections above: why the victim's loss constitutes a
+*reason for this chooser*, and what independent ordering principle makes any
+such reason decisive. An arbitrary extra reason field or another same-facts
+verdict model would not add warrant. This correction changes the formal
+predicate boundary and removes an overstatement in the OPEN categorical-reason
+statement, without changing its unsettled status, the existing result
+conclusions or any root-premise obligation.
