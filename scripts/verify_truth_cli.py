@@ -895,6 +895,36 @@ GHOST = "00000000-0000-4000-8000-000000000000"
 
 # One deliberately broken corpus per rule; both implementations must report
 # the same first error. Mutations run on the migrated (uuid) fixture.
+def passage(*bases, **overrides):
+    """Change the fixture's one passage entry (it overrides the snapshot):
+    the fields of `bases`, then `overrides`; a None value removes the field
+    from both."""
+    changes = {key: value for base in bases for key, value in base.items()} | overrides
+
+    def apply(records):
+        manifest = records["passages"][0]
+        for key, value in changes.items():
+            if value is None:
+                manifest["snapshot"].pop(key, None)
+                manifest["passages"][0].pop(key, None)
+            else:
+                manifest["passages"][0][key] = value
+    return apply
+
+
+MEDIA = {"kind": "media_span", "youtube_id": "abcdefghijk", "transcript_source": "asr", "producer": "youtube-corpus",
+         "producer_revision": "git:" + REVISION, "export_schema": "source_span_interchange@1",
+         "source_url": "https://www.youtube.com/watch?v=abcdefghijk", "start_seconds": 0, "end_seconds": 1.5,
+         "segment_count": 1, "span_sha256": "sha256:" + "a" * 64}
+WEB = {"kind": "web_snapshot", "source_url": "https://example.org/page", "retrieved_at": "2026-11-10T00:00:00Z",
+       "sha256": "sha256:" + "b" * 64, "text_sha256": "sha256:" + "c" * 64, "encoding": "ISO_8859-1",
+       "raw_text": True}
+# Valid except that the snapshot's git_blob_sha is still present.
+BIB = {"kind": "bibliographic_span", "author": "A", "title": "T", "year": 2001, "publisher": "P",
+       "isbn": "0-306-40615-2", "doi": "10.1000/xyz", "pages": "1-2",
+       "why_bibliographic": "copyrighted; no legitimately hosted copy"}
+
+
 CHECK_FAILURES = {
     "duplicate id": add("statements", {"id": U("statement", "STMT-A"), "label": "again", "paraphrase": "again"}),
     "unknown claim statement reference": mutate("claims", "CLAIM-A", statement_id=GHOST),
@@ -1026,6 +1056,69 @@ CHECK_FAILURES = {
     "several identity errors": both(mutate("statements", "STMT-D", label="a"),
                                     mutate("claims", "CLAIM-A", label=None)),
     "untagged linked sense": mutate("statements", "STMT-B", label="the t of b"),
+    # Passage manifest schema (source_evidence.validate_manifest).
+    "text witness missing field": passage(license=""),
+    "text witness unknown kind": passage(kind="scroll"),
+    "text witness bad prefixes": passage(claim_locator_prefixes=["1", ""]),
+    "text witness bad revision": passage(revision="abc"),
+    "text witness bad blob sha": passage(git_blob_sha="g" * 40),
+    "text witness unpinned url": passage(source_url="https://example.org/w.xml"),
+    "text witness empty tei id": passage(tei_xml_id=""),
+    "text witness tei id and cts path": passage(tei_xml_id="x", cts_path=[{"subtype": "s", "n": "1"}]),
+    "text witness cts path not a list": passage(cts_path={"subtype": "s"}),
+    "text witness bad cts selector": passage(cts_path=[{"subtype": "s", "n": 1}]),
+    "media span missing field": passage(kind="media_span"),
+    "media span bad youtube id": passage(MEDIA, youtube_id="short"),
+    "media span bad transcript source": passage(MEDIA, transcript_source="memory"),
+    "media span bad schema": passage(MEDIA, export_schema="x@2"),
+    "media span bad producer": passage(MEDIA, producer="other"),
+    "media span bad producer revision": passage(MEDIA, producer_revision="abc"),
+    "media span url without id": passage(**{**MEDIA, "source_url": "https://youtu.be/"}),
+    "media span bad times": passage(MEDIA, start_seconds=5, end_seconds=5),
+    "media span boolean time": passage(MEDIA, start_seconds=True),
+    "media span bad count": passage(MEDIA, segment_count=1.0),
+    "media span bad hash": passage(MEDIA, span_sha256="sha256:x"),
+    "media span with text": passage(MEDIA, transcript="t"),
+    "web snapshot missing field": passage(kind="web_snapshot"),
+    "web snapshot bad url": passage(WEB, source_url="ftp://example.org"),
+    "web snapshot bad timestamp": passage(WEB, retrieved_at="2026-11-10"),
+    "web snapshot bad hash": passage(WEB, text_sha256="sha256:" + "A" * 64),
+    "web snapshot unknown encoding": passage(WEB, encoding="utf-9"),
+    "web snapshot invalid iso encoding suffix": passage(WEB, encoding="iso-8859-1-typo"),
+    "web snapshot invalid compact iso encoding suffix": passage(WEB, encoding="iso8859-1-typo"),
+    "web snapshot two formats": passage(WEB, pdf_pages={"first": 1, "last": 1}),
+    "web snapshot no format": passage(**{**WEB, "raw_text": None}),
+    "web snapshot raw_text false": passage(WEB, raw_text=False),
+    "web snapshot bad pdf pages": passage(**{**WEB, "raw_text": None},
+                                          pdf_pages={"first": 2, "last": 1}),
+    "web snapshot bad normalization": passage(**{**WEB, "raw_text": None},
+                                              pdf_pages={"first": 1, "last": 1, "text_normalization": "x"}),
+    "web snapshot empty selector": passage(**{**WEB, "raw_text": None}, html_selector={}),
+    "web snapshot bad selector value": passage(**{**WEB, "raw_text": None}, html_selector={"heading": ""}),
+    "web snapshot bad selector marker": passage(**{**WEB, "raw_text": None},
+                                                html_selector={"from": {"anchor": "a"}, "to": {"id": "b"}}),
+    "web snapshot bad selector keys": passage(**{**WEB, "raw_text": None}, html_selector={"to": {"text": "b"}}),
+    "web snapshot bad translation": passage(WEB, translation={"translator": "T", "year": 2000}),
+    "web snapshot translation not an object": passage(WEB, translation="T"),
+    "web snapshot bad wayback": passage(WEB, wayback_url="https://web.archive.org/web/1id_/x"),
+    "web snapshot wayback without hash": passage(
+        **WEB, wayback_url="https://web.archive.org/web/20260101000000id_/https://example.org/page"),
+    "web snapshot hash without wayback": passage(WEB, wayback_sha256=WEB["sha256"]),
+    "web snapshot long incipit": passage(WEB, incipit="é" * 81),
+    "web snapshot with text": passage(WEB, text="t"),
+    "web snapshot bad unavailable": passage(WEB, unavailable={"since": "2026-11-05", "reason": "gone"}),
+    "bibliographic missing field": passage(kind="bibliographic_span"),
+    "bibliographic author not a string": passage(BIB, author=["A"]),
+    "bibliographic bad year": passage(BIB, year=99),
+    "bibliographic no publisher": passage(**{**BIB, "publisher": None}),
+    "bibliographic no isbn or doi": passage(BIB, isbn=None, doi=None),
+    "bibliographic bad isbn": passage(BIB, isbn="978-0-306-40615-8"),
+    "bibliographic bad doi": passage(BIB, doi="11.1/x"),
+    "bibliographic no locator": passage(**{**BIB, "pages": None}),
+    "bibliographic short reason": passage(BIB, why_bibliographic="  copyrighted  "),
+    "bibliographic long quotation": passage(BIB, quotation="q" * 301),
+    "bibliographic bad translation": passage(BIB, translation={"translator": "", "year": 1, "edition": "e"}),
+    "bibliographic with hash": passage(**BIB),
 }
 
 # Rules that leave the corpus valid: both report the same warnings.
@@ -1097,17 +1190,15 @@ class TruthCheckParity(unittest.TestCase):
 
     def assert_same(self, root):
         python, rust = python_check(root), self.truth_check(root)
-        rust_lines = rust.stderr.splitlines()
-        self.assertTrue(rust_lines[0].startswith("notice: truth check is a partial port"), rust.stderr)
         if python.returncode == 0:
             self.assertEqual(rust.returncode, 0, rust.stderr)
             self.assertEqual(rust.stdout, python.stdout)
-            self.assertEqual(rust_lines[1:], python.stderr.splitlines())
+            self.assertEqual(rust.stderr, python.stderr)
             return python.stdout.strip()
         self.assertEqual(python.returncode, 2, python.stderr)
         self.assertEqual(rust.returncode, 1, rust.stderr)
         self.assertEqual(rust.stdout, "")
-        self.assertEqual(rust_lines[1:], python.stderr.splitlines())
+        self.assertEqual(rust.stderr, python.stderr)
         return python.stderr.strip()
 
     def test_real_corpus(self):
@@ -1116,12 +1207,24 @@ class TruthCheckParity(unittest.TestCase):
         rust = self.truth_check(corpus.ROOT)
         self.assertEqual(python.returncode, rust.returncode, rust.stderr)
         self.assertEqual(rust.stdout, python.stdout)
-        self.assertEqual(rust.stderr.splitlines()[1:], python.stderr.splitlines())
+        self.assertEqual(rust.stderr, python.stderr)
         machine = subprocess.run([self.binary, "--json", "check"], cwd=corpus.ROOT,
                                  capture_output=True, text=True, check=False)
         report = json.loads(machine.stdout)
-        self.assertEqual((report["summary"], report["complete"]), (python.stdout.strip(), False))
-        self.assertTrue(report["python_only"])
+        self.assertEqual(report["summary"], python.stdout.strip())
+        self.assertEqual(report["warnings"], [line.removeprefix("warning: ")
+                                              for line in python.stderr.splitlines()])
+
+    def test_fixture_opaque_atom_warning(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_check_fixture(root)
+            solution = root / "TruthCore" / "Fix" / "Solution.lean"
+            solution.write_text(solution.read_text().replace(
+                "theorem fixAB (h : fixA) : fixB := trivial",
+                "theorem fixAB (A B : Prop) (h : A → B) (a : A) : B := h a"))
+            self.assert_same(root)
+            self.assertIn("looks like an unconstrained `Prop` atom", python_check(root).stderr)
 
     def test_fixture_passes_with_warnings(self):
         with tempfile.TemporaryDirectory() as temporary:
