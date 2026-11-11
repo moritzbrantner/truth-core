@@ -50,7 +50,8 @@ anti-continuum price paid by this side, not by the rival. Two formulations:
 **H1 (a never-generated contingent thing).** `GroundsPrecedeAt` says that every
 ground of a contingent concrete thing is present at some moment strictly
 before each moment at which the grounded thing is present. A sustaining ground
-present at all times satisfies it. It fails exactly when some ground has no
+present at all times satisfies it only if the grounded thing is never present
+at a moment with nothing earlier (control 4). It fails exactly when some ground has no
 moment of presence before some moment of the grounded thing, in particular at
 a moment with nothing earlier. With a founded past it makes an H1 thing
 ungrounded, against `BruteFoundationBoundary.EveryContingentGroundedAt`.
@@ -126,7 +127,8 @@ def PrecedenceIsStateCausation {W B T : Type} [Preorder T] (h : History W B T)
 
 /-- Temporal priority of grounds in history `v`: whenever `y` grounds a
 contingent concrete individual `x` and `x` is present at `t`, `y` is present at
-some strictly earlier moment. A ground present at all times satisfies it. It
+some strictly earlier moment. A ground present at all times satisfies it
+unless `x` is present at a moment with nothing earlier. It
 fails when some ground of `x` is not present at any moment before some moment
 of `x`'s presence: in particular at a moment with nothing earlier, and for a
 ground present only simultaneously, only later, or never. -/

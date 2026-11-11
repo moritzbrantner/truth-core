@@ -85,7 +85,8 @@ means only that some ground is not earlier: it may be simultaneous, later
 (control 7, with no grounding edge between simultaneously present things) or
 never present. The grounding relation has no temporal-presence constraint, so
 this is not a choice of simultaneous grounding. A sustaining ground present at
-all times satisfies "before". Without a necessary concrete being, a rival who
+all times satisfies "before" only for a grounded thing never present at a moment
+with nothing earlier (control 4). Without a necessary concrete being, a rival who
 keeps every contingent thing grounded needs grounding that is not
 well-founded (controls 5 and 7). That is the horn
 `BruteFoundationBoundary.bruteRootOrNonWellFounded` already forces; with
