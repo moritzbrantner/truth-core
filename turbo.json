@@ -17,7 +17,8 @@
         "TRUTH_CORE_STRUCTURE_REPORT",
         "TRUTH_CORE_REQUIRE_STRUCTURE_REPORT",
         "TRUTH_CORE_STRENGTH_REPORT",
-        "TRUTH_CORE_REQUIRE_STRENGTH_REPORT"
+        "TRUTH_CORE_REQUIRE_STRENGTH_REPORT",
+        "TRUTH_CLI"
       ],
       "inputs": [
         "$TURBO_DEFAULT$",
@@ -37,7 +38,10 @@
         "$TURBO_ROOT$/lake-manifest.json",
         "$TURBO_ROOT$/docs/notes/classical-attributes-migration.json",
         "$TURBO_ROOT$/docs/notes/classical-attributes-all-migration.json",
-        "$TURBO_ROOT$/scripts/contracts/**/*.json"
+        "$TURBO_ROOT$/scripts/contracts/**/*.json",
+        "$TURBO_ROOT$/Cargo.toml",
+        "$TURBO_ROOT$/Cargo.lock",
+        "$TURBO_ROOT$/truth/**"
       ]
     },
     "dev": {
@@ -52,6 +56,15 @@
     "test": {
       "dependsOn": [
         "^test"
+      ],
+      "env": [
+        "TRUTH_CLI"
+      ],
+      "inputs": [
+        "$TURBO_DEFAULT$",
+        "$TURBO_ROOT$/Cargo.toml",
+        "$TURBO_ROOT$/Cargo.lock",
+        "$TURBO_ROOT$/truth/**"
       ]
     },
     "typecheck": {
