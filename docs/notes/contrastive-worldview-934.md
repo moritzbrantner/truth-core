@@ -44,6 +44,84 @@ epistemic premises. Neither unexamined priors nor equal priors are declared
 mandatory. Dogmatic priors, impossible observed evidence, more than two
 alternatives and imprecise probabilities are outside this certificate.
 
+## What can settle a disagreement between coherent systems?
+
+Analyst investigation, attribution deferred. Read coherence as satisfiability
+in a common interpreted language. Let background B be the commitments shared
+by two theories. If B together with the first theory has a model satisfying P,
+and B together with the second has a model satisfying ¬P, then B entails neither
+P nor ¬P. Each witness satisfies B and falsifies one of the proposed entailments.
+Coherence of several theories by itself is weaker: they could be compatible
+extensions, agree on P, or express the same view in different vocabularies.
+The obstruction concerns a specific disagreement under a specified background.
+
+Adding an independently warranted premise can settle that disagreement
+deductively. If B and the added premise jointly entail P, the rival that
+entails ¬P is excluded relative to the enlarged background. The added premise
+could be a report of an observation or a separately defended a priori
+constraint. If the rivals exhaust the live options and one survives, this
+selects a theory relative to those inputs. Without coverage, the exclusion
+stands while the surviving theory may still have other rivals. An a priori
+argument must expose its premises and their warrant just as an empirical
+argument must expose its evidence and how it bears on the rival.
+
+### Test on a cosmological premise
+
+The open root-route premise
+[STMT-LOCAL-CAUSAL-PRINCIPLE](../../corpus/statements/local-causal-principle.json)
+says every existing contingent individual at every world has a distinct
+existing cause. Compare the single-form brute and ground policies in
+[ActualWorldGap](../../TruthCore/Explanation/ActualWorldGap.lean), with
+universal accessibility. At each shared world index, restrict the record to the tagged member
+population and edges with two tagged member endpoints. The definitions of `present` and
+`causes` give exactly the same record in both policies. Every tagged member
+exists only in worlds with its own tag and is therefore contingent in this
+frame. In the ground policy, `none` exists at every world and causes each
+tagged member. In the brute policy, the member with index zero has no cause:
+`none` is absent and there is no single-form member edge into zero
+(`no_edge_zero` in the [solution](../../TruthCore/Results/Explanation/ActualWorldGap/Solution.lean)).
+This is a structural comparison using the existing fixture. The claim about
+the causal premise is an inspection of its definitions in that fixture.
+The registered `controls` theorem checks the cross-policy member-edge
+agreement and separately checks explanation properties, which use a different
+relation.
+
+The tie depends on what the record includes. An independently warranted report of a distinct existing cause for the
+index-zero member at even one world would exclude this specific brute fixture.
+Access to the extra bearer or its causal edges would also distinguish the pair. A defense of universal
+causal coverage from shared commitments could also exclude the brute fixture,
+if the defense reaches its very first member. Repeated observations of
+members that already have member causes leave that step open. The strongest
+live rival here accepts the same local causal structure among members and
+allows an uncaused contingent source. Its cost is a limit on causal coverage.
+The ground policy owes a defense of its extra bearer and why that bearer
+qualifies as a cause in the intended metaphysical sense. The test leaves the
+actual warrant for the root-route premise open. Neither policy is an
+exhaustive theory of reality.
+
+### Provisional judgment
+
+Coherence is a condition on a theory, while settling a disagreement calls
+for reasons that distinguish the rivals on the disputed point. Those reasons
+may support a deductive exclusion, a defeasible preference, or continued
+suspension. Within the existing Bayesian profile, even two rivals that both
+allow the observed event can assign it different likelihoods. The evidence
+can then raise one rival’s credence above its own prior even if the other
+retains a higher posterior. Equal likelihoods preserve prior odds, and equal
+likelihoods for one event leave future discriminators open. A tie gives no
+reason to force an adoption or assign equal credence.
+
+A premise can be fundamental to a theory in the sense that the theory assumes
+it and it does not follow from its other specified commitments under the
+stated consequence relation. The same premise could
+be a consequence of independently motivated commitments in a different
+account. The stronger claim that it has no independent warrant needs a
+separate argument. Likewise, whether the actual order has an ultimate ground
+is a question about reality, whereas whether we can identify that ground is
+a question about our reasons. The next test is to identify independently
+warranted evidence bearing on a case where the rivals disagree. Warrant for the universal causal premise
+would additionally require an argument covering unobserved cases and worlds.
+
 ## Birthplace swap and inherited information
 
 `identityControls` checks two different transformations. Merely changing a
