@@ -1226,6 +1226,20 @@ class TruthCheckParity(unittest.TestCase):
             self.assert_same(root)
             self.assertIn("looks like an unconstrained `Prop` atom", python_check(root).stderr)
 
+    def test_fixture_reports_passing_label_cleanup_entries(self):
+        def add_passing_entry(records):
+            source = records["sources"][0]
+            records["_cleanup"] = [{
+                "kind": "source", "id": source["id"], "label": "Old mechanical source label",
+                "flags": ["duplicate-label"],
+            }]
+
+        with tempfile.TemporaryDirectory() as temporary:
+            root = Path(temporary)
+            write_check_fixture(root, add_passing_entry)
+            self.assert_same(root)
+            self.assertIn("label clean-up entry passes (label rewritten)", python_check(root).stderr)
+
     def test_fixture_passes_with_warnings(self):
         with tempfile.TemporaryDirectory() as temporary:
             root = Path(temporary)
