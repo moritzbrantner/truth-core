@@ -90,9 +90,8 @@ jobs:
         with:
           build: "true"
           save: "true"
-      # Source extraction tests use offline fixtures on every run.
-      - name: Install PDF source extraction
-        run: sudo apt-get update && sudo apt-get install -y poppler-utils zstd
+      # Source manifests and claim bindings are checked offline; PDF extraction is
+      # an on-demand source-ingestion operation, not a CI dependency.
       # The Rust CLI (truth/README.md) runs the corpus check and the frontier reports;
       # the truth-cli job keeps it at parity with scripts/corpus.py.
       - name: Build the truth CLI
