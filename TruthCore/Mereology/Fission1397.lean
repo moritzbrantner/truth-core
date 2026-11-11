@@ -110,8 +110,14 @@ def contextualEdges (w : Context) (s t : Occurrence) : Prop :=
   branching s t ∧ present w s ∧ present w t
 def contextualBearer : Context → Occurrence → Occurrence
   | .soloLeft, .earlier => .left
+  | .soloLeft, .left => .left
+  | .soloLeft, .right => .right
   | .soloRight, .earlier => .right
-  | _, s => s
+  | .soloRight, .left => .left
+  | .soloRight, .right => .right
+  | .split, .earlier => .earlier
+  | .split, .left => .left
+  | .split, .right => .right
 
 /-- Two trajectory labels share their earlier occurrence; their later
 occurrences and whole functions differ. This is a finite structural surrogate

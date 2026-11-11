@@ -201,9 +201,15 @@ pretend the criterion is available from its uninterpreted field.
 
 ## Verification and service experiment
 
-The frozen Challenge and final affected build/binding/axiom/Comparator/NanoDa
-checks are the proof gates; CI on the delivered head remains required. Exact
-commands and successful evidence will be linked in the PR. Claim/type self-sweep:
+The affected Solution build, focused bind-check (one bound, zero mismatches),
+axiom inspection (none), Comparator and NanoDa passed locally. A wildcard
+contextual-bearer match initially introduced propext; exhaustive constructor
+cases removed it without changing the fixture. CI on the delivered head remains
+required. Reproduce with `python3 scripts/worker_env.py -- lake build
+TruthCore.Results.Mereology.Fission1397.Solution`, `python3 scripts/corpus.py
+bind-check --result d03376f9-9c91-4dc4-b529-62039d7c1fc4`, and
+`python3 scripts/worker_env.py -- scripts/verify-result.sh
+d03376f9-9c91-4dc4-b529-62039d7c1fc4`. Claim/type self-sweep:
 `Certificate` has no external premises; all application hypotheses occur inside
 the universal statements; finite assignments prove only their stated structure;
 RivalControls does not certify a full historical theory; no historical claims
