@@ -1,0 +1,9 @@
+{
+  "id": "09c5fc79-b519-465a-b7ef-5db102a18b14",
+  "label": "The strict verification formulation lies in its own scope",
+  "paraphrase": "OPEN scope premise for the empirical-only criterion. Its supplied formulation belongs to the domain the criterion governs. This is the existing verification scope test applied to the strict formulation.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.StrictFormulationInScope",
+  "definition_ids": [
+    "576cb0c5-a2e5-427a-b22b-7b20cffac0ad"
+  ]
+}

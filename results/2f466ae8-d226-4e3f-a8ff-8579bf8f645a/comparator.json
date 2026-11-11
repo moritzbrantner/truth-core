@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.AssertionRetorsion.beliefFromSincereDenial"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

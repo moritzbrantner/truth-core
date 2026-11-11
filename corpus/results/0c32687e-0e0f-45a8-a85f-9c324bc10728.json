@@ -1,0 +1,11 @@
+{
+  "id": "0c32687e-0e0f-45a8-a85f-9c324bc10728",
+  "label": "A witness to F6 excludes global normative reason denial in its profile",
+  "argument_id": "fe175c53-4e91-4a5b-bd51-81c1eb124275",
+  "challenge_module": "TruthCore.Results.Metaethics.AdoptionReasons.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.AdoptionReasons.Solution",
+  "theorem": "TruthCore.Results.Metaethics.AdoptionReasons.epistemicReasonExcludesGlobalDenial",
+  "comparator_config": "results/0c32687e-0e0f-45a8-a85f-9c324bc10728/comparator.json",
+  "status": "solution-present",
+  "description": "When the epistemic kind uses the F6 reason relation, its witness contradicts global denial. This uses F6 as a premise. Its conclusion is the incompatibility of global denial with this epistemic reason."
+}

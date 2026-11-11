@@ -1,0 +1,6 @@
+{
+  "id": "c865b1d3-b409-4aca-b983-68b0b3e6ddb2",
+  "label": "Positive correlated-report reversal and independence countermodels",
+  "paraphrase": "Four explicit strictly positive normalized rational report-table pairs: individually supportive A/B with posteriors 3/5 jointly reverse to 5/12; one-sided condition improves on B but joint 3/4 is below A's 4/5; prior-mixture unconditional independence and two supportive marginals coexist with joint worsening against both; both-hypothesis conditional dependence coexists with joint improvement against both. These finite stipulated distributions are not empirical calibration, historical scores or factive warrant.",
+  "lean_declaration": "TruthCore.Logic.CorrelatedTestimony1396.Controls"
+}

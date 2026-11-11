@@ -1,0 +1,14 @@
+{
+  "id": "0194aef7-77be-4b92-a23c-41a01878e5d8",
+  "label": "Retained day information improves total awakening accuracy by explicit controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "55dfd778-e844-4446-9a8d-112bd5500718",
+  "inference_ids": [
+    "94a68d53-9acf-470c-ae7c-491e7dd948b3"
+  ],
+  "meaning": "The day-sensitive expected total squared-error regret is (mon-one half) squared plus one half times tue squared. Monday one half and Tuesday zero have expected total error one quarter, below the best day-ignorant constant policy one third, whose error is one third. Setting mon=tue=r recovers exactly the total-token objective. This is the value of a reliable day distinction inside one accuracy objective; it does not settle the appropriate credence norm when that distinction is absent. Proposed connection to epistemic warrant remains UNBUILT; reviewable synthesis in docs/notes/sleeping-beauty-1401.md.",
+  "definition_ids": [
+    "39ea2ba9-92b2-494a-a513-d16338bf0b1c",
+    "a159ec1c-7887-48f2-b82e-4325065c31db"
+  ]
+}

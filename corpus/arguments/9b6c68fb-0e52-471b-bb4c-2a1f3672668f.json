@@ -1,0 +1,18 @@
+{
+  "id": "9b6c68fb-0e52-471b-bb4c-2a1f3672668f",
+  "label": "Selected individuated countertruth assent excludes false assertion",
+  "premise_statement_ids": [
+    "389c37fd-0637-4a40-8073-705a5bdb2c20",
+    "4da01692-55b0-4e73-b3dd-06564f2aef9f"
+  ],
+  "conclusion_statement_id": "98f13d52-356c-440a-956a-c28df295fe73",
+  "inference_ids": [
+    "d5a054bc-69f7-4471-86a8-03d79275f008"
+  ],
+  "meaning": "Classical contradiction using the reused interpreted-negation law. No content identity is collapsed into a truth value; no sincerity or global completeness is assumed.",
+  "definition_ids": [
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

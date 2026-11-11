@@ -1,0 +1,11 @@
+{
+  "id": "e03147fa-7a1f-48d9-bac0-7aec0ee2b645",
+  "label": "Singleton identity excludes denial of every semantically valid inference",
+  "argument_id": "17a2c392-3bc1-4b53-b9ba-9f5635f23490",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.identityExcludesNoValidInference",
+  "comparator_config": "results/e03147fa-7a1f-48d9-bac0-7aec0ee2b645/comparator.json",
+  "status": "solution-present",
+  "description": "For a supplied content, every world satisfying its singleton premise set satisfies that very content. A sequent class that excludes identity or a claim about actual inferential practice needs a different argument."
+}

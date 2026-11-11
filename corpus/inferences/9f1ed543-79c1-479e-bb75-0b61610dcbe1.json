@@ -1,0 +1,10 @@
+{
+  "id": "9f1ed543-79c1-479e-bb75-0b61610dcbe1",
+  "label": "Losing independent private information preserves coin credence by explicit controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "1be772f8-2fcd-40c6-b801-2a62bd948f2f",
+  "rule": "Explicit four-state independent-bit conditioning",
+  "meaning": "In four equal-probability states consisting of a fair coin and an independent fair Boolean private bit, the coin conditional on either observed bit value is one half. Erasing the bit also gives coin conditional one half, even though no reconstruction of the bit from the erased report exists. Thus structural information loss alone does not imply a change in this target credence or failure of this reflection instance. Proposed warrant connection remains UNBUILT; no unrestricted reflection theorem is inferred.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

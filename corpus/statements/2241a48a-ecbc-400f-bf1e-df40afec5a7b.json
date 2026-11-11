@@ -1,0 +1,9 @@
+{
+  "id": "2241a48a-ecbc-400f-bf1e-df40afec5a7b",
+  "label": "All supplied reasoning methods fail the finite benchmark",
+  "paraphrase": "OPEN analyst rival scoped to the supplied binary-answer methods and benchmark. None satisfies the nonempty-benchmark and three-quarter accuracy requirement.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.AllReasoningUnreliable",
+  "definition_ids": [
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e"
+  ]
+}

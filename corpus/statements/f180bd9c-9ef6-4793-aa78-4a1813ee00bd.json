@@ -1,0 +1,9 @@
+{
+  "id": "f180bd9c-9ef6-4793-aa78-4a1813ee00bd",
+  "label": "A supplied method answers opposite truths correctly",
+  "paraphrase": "OPEN actual application. The same supplied method answers correctly at two states with opposite correct answers.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.SomeOppositeTruthsAnsweredCorrectly",
+  "definition_ids": [
+    "87441e0b-62eb-47a5-801e-976448227f66"
+  ]
+}

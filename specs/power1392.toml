@@ -1,0 +1,17 @@
+[batch]
+vocab = "TruthCore.Causality.Power1392"
+results = "TruthCore.Results.Causality.Power1392"
+
+[[statement]]
+id = "Power sufficiency compatibility and actual witness scope"
+lean = "Certificate"
+paraphrase = "Analyst metatheorem: holding other Power fields fixed, existence of an ability relation satisfying active-power sufficiency and safety is equivalent to all listed requirements implying generic coherence. An actual infinite witness plus unlimited act, sufficiency, possible requirements and safety implies coherence iff all requirements are individually possible. Relative ability with relative safety implies generic omnipotence iff all generically coherent tasks are relatively feasible. All assumptions are inside the universal conditional certificate; none is established."
+definitions = ["DEF-ACTIVE-POWER-TASK-VOCABULARY", "2877b7d5-f5e0-4ed4-8bcd-a6072b0a3690"]
+
+[[argument]]
+id = "Power compatibility scope certificate"
+theorem = "certificate"
+premises = []
+conclusion = "Power sufficiency compatibility and actual witness scope"
+rule = "Constructive predicate factorization"
+meaning = "Conditional scope audit for issue 1392, not a derivation of active-power sufficiency or root closure. The compatibility witness assigns ability to AllReq only as an existential mathematical construction; no metaphysical definition of ability is proposed. The actual-witness consequence explicitly assumes Infinite g. RelativeBridge retains separately supplied feasible and two OPEN bridges. See docs/notes/power1392.md for semantic limits and positive rivals."

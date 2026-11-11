@@ -1,0 +1,10 @@
+{
+  "id": "9dbf3fcc-c30d-476f-8310-56987eee195e",
+  "label": "Singleton identity excludes denial of every semantically valid inference (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "28319bae-efee-41ab-93d9-aaba9c63648e",
+  "rule": "Semantic consequence reflexivity",
+  "meaning": "For a supplied content, every world satisfying its singleton premise set satisfies that very content. A sequent class that excludes identity or a claim about actual inferential practice needs a different argument.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

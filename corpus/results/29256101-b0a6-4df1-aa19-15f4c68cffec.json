@@ -1,0 +1,11 @@
+{
+  "id": "29256101-b0a6-4df1-aa19-15f4c68cffec",
+  "label": "Accepted worldview package undercuts a specified evidential basis conditionally",
+  "argument_id": "73fbf043-28ee-42cc-b759-792d97533c06",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.acceptedPackageUndercutsBasis",
+  "comparator_config": "results/29256101-b0a6-4df1-aa19-15f4c68cffec/comparator.json",
+  "status": "solution-present",
+  "description": "The accepted package undercuts one basis if accepting it leads to a low or unassessable reliability assessment and that assessment defeats the basis. The result supplies neither bridge from evolutionary naturalism itself."
+}

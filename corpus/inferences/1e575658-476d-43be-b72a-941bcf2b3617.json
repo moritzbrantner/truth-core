@@ -1,0 +1,13 @@
+{
+  "id": "1e575658-476d-43be-b72a-941bcf2b3617",
+  "label": "False assent defect and divine defect exclusion yield accuracy (inference)",
+  "input_statement_ids": [
+    "df407a0f-c1df-4910-a282-45c90b7dda1e",
+    "1f6a2814-844b-41ad-8b11-cd190f1740e1"
+  ],
+  "output_statement_id": "7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Classically a false actual assent would instantiate the forbidden cognitive defect. Non-discursiveness alone is not a premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

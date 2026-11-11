@@ -1,0 +1,9 @@
+{
+  "id": "ae2fbfcd-10d5-498a-a1d2-aba55d521712",
+  "label": "Competent verdicts respect nonmoral sameness",
+  "term": "competent moral-verdict supervenience",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Competence",
+  "definition": "For every admitted world designated competent, its one supplied verdict function gives cases with equal selected nonmoral profiles the same verdict. No agent identity is represented. Verdicts are explicitly separated from alleged moral facts and can be systematically wrong.",
+  "note": "This models the formal shape of a Blackburn-style competence requirement but is an analyst reconstruction, not a new attributed reading of Blackburn or a theorem derived from his purposes-of-talk explanation edge. Why a practice imposes the requirement, whether actual agents meet it, and any bridge to fact supervenience or truthmaking remain OPEN. See existing DEF-SUPERVENIENCE-COMPETENCE and #191."
+}

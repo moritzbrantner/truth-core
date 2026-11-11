@@ -1,0 +1,13 @@
+{
+  "id": "ce496733-0a72-4ba7-9c51-b69775c78b72",
+  "label": "Sleeping Beauty positive rivals and omission witnesses by exact rational algebra",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "e5c7e03e-a65f-4a92-b4b6-343c1f5418b8",
+  "inference_ids": [
+    "6ae8ba71-9510-4b8c-aafe-c542886ddc6a"
+  ],
+  "meaning": "Uniform thirds satisfy M,S,P and violate N. The allocation (1/2,1/4,1/4) satisfies N,S,P and violates M, with Monday conditional Heads probability 2/3. The allocation (1/2,1/2,0) satisfies N,M and violates S,P. Both live rival allocations have strictly positive mass at every center. These witness minimality of the two incompatible triples relative to the specified normalization background, not normative victory. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt.",
+  "definition_ids": [
+    "bd35e4c3-1882-4373-8a39-bea840976e93"
+  ]
+}

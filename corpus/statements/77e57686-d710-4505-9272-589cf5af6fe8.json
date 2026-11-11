@@ -1,0 +1,9 @@
+{
+  "id": "77e57686-d710-4505-9272-589cf5af6fe8",
+  "label": "Some occurring episode is phenomenally experienced",
+  "paraphrase": "Some supplied episode occurs and is phenomenally experienced. No bearer, persistence or external cause is inferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.ExperienceOccurs",
+  "definition_ids": [
+    "663c48ce-4166-4632-86d9-85eeef0c258b"
+  ]
+}

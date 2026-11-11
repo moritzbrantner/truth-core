@@ -1,0 +1,11 @@
+{
+  "id": "cc1a4204-1315-46a8-bf0a-ac436b06b790",
+  "label": "Thought occurrence from an actual assertion and cognitive realization",
+  "argument_id": "f93f2dfd-5ec8-4378-a90a-0e8c4a79b30e",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.thoughtFromAssertion",
+  "comparator_config": "results/cc1a4204-1315-46a8-bf0a-ac436b06b790/comparator.json",
+  "status": "solution-present",
+  "description": "Take an agent actually asserting the selected content. The local realization bridge gives an occurring thought realizing that agent's assertion. This supplies the existing positive Cogito witness without a bearer, truth, sincerity or persistence premise. Both inputs remain open."
+}

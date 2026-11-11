@@ -1,0 +1,11 @@
+{
+  "id": "0ce1e941-3ac9-4edc-b272-0700330ba922",
+  "label": "One benchmark success excludes blanket benchmark unreliability",
+  "argument_id": "a78824b0-9e9f-4a9f-89be-2d4a52d035df",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.reliableWitnessExcludesUnreliability",
+  "comparator_config": "results/0ce1e941-3ac9-4edc-b272-0700330ba922/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiate the universal failure thesis with the same successful method on the same benchmark. Actual assessment requires a calibrated benchmark and a successful method in the disputed class."
+}

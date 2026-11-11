@@ -1,0 +1,11 @@
+{
+  "id": "5ade3848-b065-4aeb-b3c3-b4bd160d3500",
+  "label": "Permission and contrary-sign norm exclude contrary assertion",
+  "argument_id": "ebf9c3d0-cf90-4cb7-9bf5-b1cca51f009a",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.noContraryFromNorms",
+  "comparator_config": "results/5ade3848-b065-4aeb-b3c3-b4bd160d3500/comparator.json",
+  "status": "solution-present",
+  "description": "A genuinely asserted proposition is permitted; opposed assent would make that assertion impermissible. Beneficial-deception rivals contest the second premise."
+}

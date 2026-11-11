@@ -1,0 +1,11 @@
+{
+  "id": "8ccdd1ee-3b3f-45bb-ba10-3c6ecea05b27",
+  "label": "Losing independent private information preserves coin credence by explicit controls",
+  "argument_id": "b9f4054b-e7d9-4912-9185-340d079cc0d8",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.Reflection.irrelevantLossControl",
+  "comparator_config": "results/8ccdd1ee-3b3f-45bb-ba10-3c6ecea05b27/comparator.json",
+  "status": "solution-present",
+  "description": "In four equal-probability states consisting of a fair coin and an independent fair Boolean private bit, the coin conditional on either observed bit value is one half. Erasing the bit also gives coin conditional one half, even though no reconstruction of the bit from the erased report exists. Thus structural information loss alone does not imply a change in this target credence or failure of this reflection instance. Proposed warrant connection remains UNBUILT; no unrestricted reflection theorem is inferred."
+}

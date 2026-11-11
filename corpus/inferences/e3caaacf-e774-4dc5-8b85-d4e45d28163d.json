@@ -1,0 +1,13 @@
+{
+  "id": "e3caaacf-e774-4dc5-8b85-d4e45d28163d",
+  "label": "Sincerity and accurate assent yield assertion truth (inference)",
+  "input_statement_ids": [
+    "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+    "7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad"
+  ],
+  "output_statement_id": "5a035a1e-e668-4327-b989-2f0aff4aece2",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Introduce one speaker and proposition; specialize sincerity and then accuracy. No factivity of Knows.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,18 @@
+[batch]
+vocab = "TruthCore.Science.PolynomialInduction"
+results = "TruthCore.Results.Science.PolynomialInduction"
+definitions = ["c68d7141-78bd-4633-a235-515c0b236509"]
+
+[[statement]]
+id = "Polynomial class identifiability and coordinate controls"
+lean = "Certificate"
+paraphrase = "Over every commutative integral domain, evaluation on distinct samples identifies coefficient polynomials of natDegree at most d iff sample cardinality exceeds d. A monic sample product produces agreement and divergence at any supplied fresh point, including empty data. Nonzero affine input substitution preserves degree. Rational polynomials agree at 0 through 3 and predict 16 versus 40 at 4. The real coordinate x+x cubed is bijective and changes the displayed law degree from three to one. No compatibility existence, actual law, coordinate warrant, or root truth is asserted."
+
+[[argument]]
+id = "Polynomial induction exact identifiability certificate"
+theorem = "certificate"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Polynomial class identifiability and coordinate controls"
+rule = "Mathlib root counting, monic products, degree composition and real intermediate value"
+meaning = "Analyst conditional support with exact stipulated model class and coordinate controls. The proposed connection to evidence justification and truth access is unbuilt; actual class membership, measurement warrant and transport of epistemic justification remain open."

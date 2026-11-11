@@ -1,0 +1,10 @@
+{
+  "id": "f6caba29-9442-4ed2-b42f-bc5a10ede74e",
+  "label": "Boolean intervention dependence boundaries certificate 1399 (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "edeae2e8-0f5a-465a-a485-aa726da6a647",
+  "rule": "Equation replacement, Boolean exhaustion lemma and relational closure composition",
+  "meaning": "Checked conditional boundary, not empirical causal transitivity or a metaphysical countermodel. Internal universal conditionals retain both local-dependence assumptions and the binary recursive family. Connection target c0d99549-799c-5a01-9b59-75fe88550b26 is only a proposed bridge; see docs/notes/causal-transitivity-1399.md for exact canonical target identity and missing event-to-being abstraction. No root premise discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

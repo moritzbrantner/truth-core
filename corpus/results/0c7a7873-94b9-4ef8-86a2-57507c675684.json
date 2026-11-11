@@ -1,0 +1,11 @@
+{
+  "id": "0c7a7873-94b9-4ef8-86a2-57507c675684",
+  "label": "Sleeping Beauty appearance has no exact Heads classifier by factorization",
+  "argument_id": "b6faa692-25dd-4c07-9a5e-45f234b9e396",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.appearanceBoundary",
+  "comparator_config": "results/0c7a7873-94b9-4ef8-86a2-57507c675684/comparator.json",
+  "status": "solution-present",
+  "description": "On the declared three-center space, the constant awakening-appearance report has no exact Prop-valued classifier of Heads. This specializes the existing exact-classifier characterization to the Heads Monday and Tails Monday shared-report pair. It excludes exact classification through that report; it does not exclude probabilistic evidence or fallible warrant. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+}

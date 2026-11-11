@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.FormMate1397.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.FormMate1397.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.FormMate1397.stableToUnique"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

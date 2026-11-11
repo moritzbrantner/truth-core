@@ -57,6 +57,8 @@ public import TruthCore.Causality.DirectEsseRootGoodnessOmission
 public import TruthCore.Causality.DirectEsseRootPerfectionGoodness
 public import TruthCore.Causality.DirectEsseRootRoute
 public import TruthCore.Causality.DirectEsseRootUniquenessAtBeing
+public import TruthCore.Causality.DivineVeracity1410
+public import TruthCore.Causality.DivineVeracityContent1410
 public import TruthCore.Causality.DurationMeasureCandidates
 public import TruthCore.Causality.EndlessTemporalDuration
 public import TruthCore.Causality.EntireChainHead
@@ -87,6 +89,7 @@ public import TruthCore.Causality.IndexedSignalProvenance
 public import TruthCore.Causality.IndexedSignalReaper
 public import TruthCore.Causality.InertEmptiness
 public import TruthCore.Causality.IntellectualInclination
+public import TruthCore.Causality.InterventionTransitivity
 public import TruthCore.Causality.JointGroups
 public import TruthCore.Causality.LifeBoundaryPotency
 public import TruthCore.Causality.LocalFramePossibleExternalCause
@@ -132,6 +135,8 @@ public import TruthCore.Causality.PluralRootConfluence
 public import TruthCore.Causality.PossessionSensitiveAppetite
 public import TruthCore.Causality.PossibleCausalSourceNecessity
 public import TruthCore.Causality.PossibleCauseOfContingency
+public import TruthCore.Causality.Power1392
+public import TruthCore.Causality.Power1392Exercise
 public import TruthCore.Causality.PowerExistenceBoundary
 public import TruthCore.Causality.PreservationCandidates
 public import TruthCore.Causality.ProductiveStore

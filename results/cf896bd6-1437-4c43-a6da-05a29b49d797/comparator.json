@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Logic.EpistemicUnderminers.justificationOmissionControl"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

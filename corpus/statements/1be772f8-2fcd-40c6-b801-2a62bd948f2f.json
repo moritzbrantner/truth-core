@@ -1,0 +1,9 @@
+{
+  "id": "1be772f8-2fcd-40c6-b801-2a62bd948f2f",
+  "label": "Losing independent private information preserves coin credence",
+  "paraphrase": "In four equal-probability states consisting of a fair coin and an independent fair Boolean private bit, the coin conditional on either observed bit value is one half. Erasing the bit also gives coin conditional one half, even though no reconstruction of the bit from the erased report exists. Thus structural information loss alone does not imply a change in this target credence or failure of this reflection instance.",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.IrrelevantLossControl",
+  "definition_ids": [
+    "6a579758-e59a-4a6c-9244-2062deb4c1e7"
+  ]
+}

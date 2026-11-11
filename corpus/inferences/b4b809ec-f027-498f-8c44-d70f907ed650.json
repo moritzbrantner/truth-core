@@ -1,0 +1,13 @@
+{
+  "id": "b4b809ec-f027-498f-8c44-d70f907ed650",
+  "label": "Permission and contrary-sign norm exclude contrary assertion (inference)",
+  "input_statement_ids": [
+    "9286d83c-dc05-4517-a886-e989629661f0",
+    "ec5817f6-7494-4e84-902d-a9e2beb71167"
+  ],
+  "output_statement_id": "6e8807d4-9aea-4f9d-9226-89a302701df6",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "A genuinely asserted proposition is permitted; opposed assent would make that assertion impermissible. Beneficial-deception rivals contest the second premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fe29eafa-caf4-4ea3-8547-1f56ad8bf1d0",
+  "label": "Individuated veracity representation and scope controls",
+  "argument_id": "8c47a412-d357-48e9-a908-ebeae58c683b",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.controls",
+  "comparator_config": "results/fe29eafa-caf4-4ea3-8547-1f56ad8bf1d0/comparator.json",
+  "status": "solution-present",
+  "description": "Restored content identities preserve both conditional routes and a standing cognitive rival. Tagged co-truth across all modeled worlds permits selective assent and precludes any exact Prop-attitude factorization. Domain gaps expose missing coverage or negation closure. Utility, moral permission and full theism are not modeled."
+}

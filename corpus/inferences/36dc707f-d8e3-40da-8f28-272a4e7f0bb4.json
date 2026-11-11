@@ -1,0 +1,13 @@
+{
+  "id": "36dc707f-d8e3-40da-8f28-272a4e7f0bb4",
+  "label": "Actual completeness and consistent assent yield accuracy (inference)",
+  "input_statement_ids": [
+    "293d7219-a085-4fdd-b645-039c87485b0b",
+    "9fc6bc27-8487-4c76-b2a0-258ae33ab7a9"
+  ],
+  "output_statement_id": "7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Classically a false assent to p would pair with assent to true not-p. This stronger cognitive branch is separate from minimal Route B.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

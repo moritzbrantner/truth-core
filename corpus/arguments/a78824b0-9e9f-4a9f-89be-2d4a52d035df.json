@@ -1,0 +1,15 @@
+{
+  "id": "a78824b0-9e9f-4a9f-89be-2d4a52d035df",
+  "label": "One benchmark success excludes blanket benchmark unreliability",
+  "premise_statement_ids": [
+    "8764b523-c968-46b1-8bfb-7c5e042e5eef"
+  ],
+  "conclusion_statement_id": "874ee0e3-eef7-4ae5-aa00-ed16fe1996a0",
+  "inference_ids": [
+    "b98e4be9-94f2-4151-b0bc-df754f214e6f"
+  ],
+  "meaning": "Instantiate the universal failure thesis with the same successful method on the same benchmark. Actual assessment requires a calibrated benchmark and a successful method in the disputed class.",
+  "definition_ids": [
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e"
+  ]
+}

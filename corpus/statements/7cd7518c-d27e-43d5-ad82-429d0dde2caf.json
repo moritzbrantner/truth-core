@@ -1,0 +1,10 @@
+{
+  "id": "7cd7518c-d27e-43d5-ad82-429d0dde2caf",
+  "label": "Sleeping Beauty appearance has no exact Heads classifier",
+  "paraphrase": "On the declared three-center space, the constant awakening-appearance report has no exact Prop-valued classifier of Heads. This specializes the existing exact-classifier characterization to the Heads Monday and Tails Monday shared-report pair. It excludes exact classification through that report; it does not exclude probabilistic evidence or fallible warrant.",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.AppearanceBoundary",
+  "definition_ids": [
+    "bd35e4c3-1882-4373-8a39-bea840976e93",
+    "a6e1ef95-8138-5cfc-8fe2-1202ba3b9a5c"
+  ]
+}

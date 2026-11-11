@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Mereology.Fission1397.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.Fission1397.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Mereology.Fission1397.certificate"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

@@ -1,0 +1,31 @@
+{
+  "id": "3df18339-0856-4d76-bb15-5f4b28466b47",
+  "label": "The known-prior-premise demand entails the certificate requirement",
+  "premise_statement_ids": [
+    "b178b6e6-0115-4611-8fea-58dab5d69fed"
+  ],
+  "conclusion_statement_id": "51d4a8cf-8f5b-48fc-82eb-071d12bdad88",
+  "inference_ids": [
+    "10c07767-96a9-47ff-8a05-ebf70332f787"
+  ],
+  "meaning": "From the strong demand retrieve the certificate component for the same knowledge case. This conversion loses the already known premise requirement.",
+  "term_senses": {
+    "PRIOR_DEMONSTRATION": "7e25658f-7487-4473-b64f-7bd25513f045"
+  },
+  "definition_ids": [
+    "67a11f33-c4c5-4406-befa-2b9e66be52db",
+    "72b2f936-34ec-4982-b120-b5c5ffd1f8b8"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ],
+  "sense_bridges": [
+    {
+      "term": "PRIOR_DEMONSTRATION",
+      "from": "7e25658f-7487-4473-b64f-7bd25513f045",
+      "to": "0aed19d7-c1f7-4a53-ad57-c678fe441392",
+      "statement_id": "51d4a8cf-8f5b-48fc-82eb-071d12bdad88",
+      "role": "conclusion"
+    }
+  ]
+}

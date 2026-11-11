@@ -1,0 +1,13 @@
+{
+  "id": "d8309a0a-155f-40ba-ad62-01256dd0e9c1",
+  "label": "Actual completeness and no contrary assertion yield assertion truth (inference)",
+  "input_statement_ids": [
+    "e2ca9054-a50f-442c-bdb2-e3c8f8121184",
+    "6e8807d4-9aea-4f9d-9226-89a302701df6"
+  ],
+  "output_statement_id": "5a035a1e-e668-4327-b989-2f0aff4aece2",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Classically assume not-p; truth-completeness gives assent to not-p, contradicting no contrary assertion. No sincerity or general consistency is assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

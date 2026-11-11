@@ -1,0 +1,16 @@
+{
+  "id": "81094ad1-fc75-478e-ad14-4c987e5df340",
+  "label": "Global normative reason denial leaves no internal reason to adopt it",
+  "premise_statement_ids": [
+    "2fcbd634-d444-4ec2-a9d0-5b86e66afa63"
+  ],
+  "conclusion_statement_id": "86859b81-92dc-4abf-bbac-f5ef2fd39597",
+  "inference_ids": [
+    "125e1f22-042d-404f-b914-f65bed20239b"
+  ],
+  "meaning": "Across every represented kind, global denial removes reasons to adopt the selected view. If the denial itself is represented as a target in the profile, the theorem applies to that target. The conclusion concerns the availability of reasons within the profile.",
+  "definition_ids": [
+    "54e94123-63cc-41a7-9179-9040458adb0c",
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "a8167aeb-5a3f-4880-a09f-c592d25e61fb",
+  "label": "All-time body mate stability gives time-local uniqueness",
+  "argument_id": "4b3f3fc3-7f9a-4ec2-858a-46366da11cc7",
+  "challenge_module": "TruthCore.Results.Mereology.FormMate1397.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.FormMate1397.Solution",
+  "theorem": "TruthCore.Results.Mereology.FormMate1397.stableToUnique",
+  "comparator_config": "results/a8167aeb-5a3f-4880-a09f-c592d25e61fb/comparator.json",
+  "status": "solution-present",
+  "description": "Instantiate both time arguments with the same time. The strong all-time constraint is the sole premise; no additional soul, person or source semantics is used."
+}

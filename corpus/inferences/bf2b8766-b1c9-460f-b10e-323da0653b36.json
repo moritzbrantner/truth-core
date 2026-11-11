@@ -1,0 +1,14 @@
+{
+  "id": "bf2b8766-b1c9-460f-b10e-323da0653b36",
+  "label": "Selected-domain cognition covers asserted countercontents (inference)",
+  "input_statement_ids": [
+    "f8941d4f-b738-4fc7-8502-68a6838ae050",
+    "8376542e-2337-43ab-87e8-007c07cabc7e",
+    "5ee71b83-620a-4381-863d-eda66189a998"
+  ],
+  "output_statement_id": "389c37fd-0637-4a40-8073-705a5bdb2c20",
+  "rule": "Content-preserving conditional composition and interpreted negation",
+  "meaning": "Domain completeness plus actual assertion coverage and closure under interpreted negation supply exactly the minimal countercontent scope. None of these coverage bridges follows merely from naming a domain.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

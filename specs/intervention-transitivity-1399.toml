@@ -1,0 +1,18 @@
+[batch]
+vocab = "TruthCore.Causality.InterventionTransitivity"
+results = "TruthCore.Results.Causality.InterventionTransitivity"
+definitions = ["9fab4852-f4cd-4812-854f-041c5c41b783", "8c784aa9-5d5c-42e0-98a9-eb1dcdf5cd67"]
+
+[[statement]]
+id = "Boolean intervention dependence boundaries 1399"
+lean = "Certificate"
+paraphrase = "Analyst Boolean SCM certificate: explicit actual-state opposite-value interventions witness X-to-Y and Y-to-Z but not X-to-Z dependence in Y=X,Z=XNOR(X,Y). Binary pure chains satisfy the two-link transitivity conditional. Cancellation in the converging family requires a controlled direct effect at the changed mediator value; excluding that local effect suffices for transitivity. Identity-chain nonvacuity and omission control; canonical declared-input graph ancestry remains transitive. No productive, existential or actual-world applicability claim."
+
+[[argument]]
+id = "Boolean intervention dependence boundaries certificate 1399"
+theorem = "certificate"
+axioms = ["Classical.choice", "Quot.sound", "propext"]
+premises = []
+conclusion = "Boolean intervention dependence boundaries 1399"
+rule = "Equation replacement, Boolean exhaustion lemma and relational closure composition"
+meaning = "Checked conditional boundary, not empirical causal transitivity or a metaphysical countermodel. Internal universal conditionals retain both local-dependence assumptions and the binary recursive family. Connection target c0d99549-799c-5a01-9b59-75fe88550b26 is only a proposed bridge; see docs/notes/causal-transitivity-1399.md for exact canonical target identity and missing event-to-being abstraction. No root premise discharge."

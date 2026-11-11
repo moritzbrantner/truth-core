@@ -1,0 +1,9 @@
+{
+  "id": "8764b523-c968-46b1-8bfb-7c5e042e5eef",
+  "label": "Some supplied reasoning method clears the finite benchmark",
+  "paraphrase": "OPEN actual application. One method in the supplied class answers correctly on at least three quarters of the entries in the same nonempty benchmark.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.SomeReliableReasoning",
+  "definition_ids": [
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e"
+  ]
+}

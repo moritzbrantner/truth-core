@@ -1,0 +1,11 @@
+{
+  "id": "fe69aa38-9a65-4f83-ba33-82c1e909307d",
+  "label": "Accepted worldview package is conditionally unwarranted",
+  "argument_id": "9071c980-31f8-48ef-ba05-c19353ba494c",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.acceptedPackageLacksOwnWarrant",
+  "comparator_config": "results/fe69aa38-9a65-4f83-ba33-82c1e909307d/comparator.json",
+  "status": "solution-present",
+  "description": "A subject who accepts the package lacks warrant for that same package if acceptance raises the stated reliability concern, the concern undercuts the basis, every available supporting basis for the package is that basis, and warrant requires some undefeated supporting basis. Acceptance and the four conditions are premises in the same profile. The reliability assessment for an evolutionary-naturalist package remains open."
+}

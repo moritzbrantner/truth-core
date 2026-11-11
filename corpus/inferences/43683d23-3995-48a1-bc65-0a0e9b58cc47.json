@@ -1,0 +1,14 @@
+{
+  "id": "43683d23-3995-48a1-bc65-0a0e9b58cc47",
+  "label": "Sincere individuated assertions with scoped accuracy are true (inference)",
+  "input_statement_ids": [
+    "c5035612-2cfd-4ff4-8f2a-d483c0d3e0aa",
+    "7cddac02-dc16-4f8f-b26d-9e736ca2d811",
+    "8376542e-2337-43ab-87e8-007c07cabc7e"
+  ],
+  "output_statement_id": "98f13d52-356c-440a-956a-c28df295fe73",
+  "rule": "Content-preserving conditional composition and interpreted negation",
+  "meaning": "Same bearer and identical content; scoped accuracy applies only through the explicit assertion-domain premise.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "8296d29a-5e12-452d-990a-7e8792df6ffe",
+  "label": "Actual truth completeness strengthens asserted-countertruth scope",
+  "subject_kind": "statement",
+  "subject_id": "293d7219-a085-4fdd-b645-039c87485b0b",
+  "predicate": "strengthens",
+  "object_kind": "statement",
+  "object_id": "e2ca9054-a50f-442c-bdb2-e3c8f8121184",
+  "verification_result_id": "82b99beb-c2ac-4cbb-9708-4ce2666d99fc",
+  "note": "Witnessed by completenessWeakens, with the strong version as the sole premise."
+}

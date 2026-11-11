@@ -1,0 +1,11 @@
+{
+  "id": "d03376f9-9c91-4dc4-b529-62039d7c1fc4",
+  "label": "Conditional fission and symmetric selection with finite rival controls",
+  "argument_id": "41b928b5-bc4a-4146-956f-d35a0d7449e3",
+  "challenge_module": "TruthCore.Results.Mereology.Fission1397.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.Fission1397.Solution",
+  "theorem": "TruthCore.Results.Mereology.Fission1397.certificate",
+  "comparator_config": "results/d03376f9-9c91-4dc4-b529-62039d7c1fc4/comparator.json",
+  "status": "solution-present",
+  "description": "Prove the universal conditional identity, symmetry and context-indexed conflicts, then construct the explicitly scoped finite omission and rival controls. Does not establish fission possibility, person identity criteria, complete data symmetry, a theological interpretation or a root bridge."
+}

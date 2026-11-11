@@ -1,0 +1,10 @@
+{
+  "id": "4b4ffd18-23af-473a-ba19-05ad528a6646",
+  "label": "Empty existence is the exact alternative to populated existence",
+  "subject_kind": "statement",
+  "subject_id": "82441670-8398-47fe-b0d8-b979bef07f87",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "43253cd8-62be-4528-85e4-54806bd3fac0",
+  "note": "Exact negation for the same candidate domain and existence extension."
+}

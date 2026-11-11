@@ -1,0 +1,9 @@
+{
+  "id": "67a11f33-c4c5-4406-befa-2b9e66be52db",
+  "label": "PRIOR_DEMONSTRATION_2 requires a known premise used in the demonstration",
+  "term": "prior demonstration",
+  "definition": "Every knowledge case has a supplied demonstration certificate and uses some premise q that the same agent knows and that is earlier in the supplied priority relation than the target p. Used-premise status, priority and knowledge are each explicit.",
+  "basis": "stipulative",
+  "note": "Analyst reading. The inference to ignorance separately assumes accessibility of priority. The priority order need not be temporal, and the interpretation of a demonstration certificate remains open.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.StrongPriorDemonstration"
+}

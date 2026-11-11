@@ -1,0 +1,13 @@
+{
+  "id": "584a827f-188e-4320-b37b-e56808c28f69",
+  "label": "Assertion truth reconnects divine confirmation to authority (inference)",
+  "input_statement_ids": [
+    "b426b086-1b1c-5137-94e6-a2f17402481f",
+    "5a035a1e-e668-4327-b989-2f0aff4aece2"
+  ],
+  "output_statement_id": "c1deb2ee-770d-5030-9e5c-302e33028811",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Confirmation counts as genuine assertion by the existing OPEN universal bridge; assertion truth then yields the exact existing GodConfirmsOnlyTruth endpoint.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

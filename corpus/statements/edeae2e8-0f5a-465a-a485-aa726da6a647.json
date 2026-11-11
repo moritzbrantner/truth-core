@@ -1,0 +1,6 @@
+{
+  "id": "edeae2e8-0f5a-465a-a485-aa726da6a647",
+  "label": "Boolean intervention dependence boundaries 1399",
+  "paraphrase": "Analyst Boolean SCM certificate: explicit actual-state opposite-value interventions witness X-to-Y and Y-to-Z but not X-to-Z dependence in Y=X,Z=XNOR(X,Y). Binary pure chains satisfy the two-link transitivity conditional. Cancellation in the converging family requires a controlled direct effect at the changed mediator value; excluding that local effect suffices for transitivity. Identity-chain nonvacuity and omission control; canonical declared-input graph ancestry remains transitive. No productive, existential or actual-world applicability claim.",
+  "lean_declaration": "TruthCore.Causality.InterventionTransitivity.Certificate"
+}

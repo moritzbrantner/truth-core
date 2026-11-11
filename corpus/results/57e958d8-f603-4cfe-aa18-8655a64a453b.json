@@ -1,0 +1,11 @@
+{
+  "id": "57e958d8-f603-4cfe-aa18-8655a64a453b",
+  "label": "Selected individuated countertruth assent excludes false assertion",
+  "argument_id": "9b6c68fb-0e52-471b-bb4c-2a1f3672668f",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.contentRouteB",
+  "comparator_config": "results/57e958d8-f603-4cfe-aa18-8655a64a453b/comparator.json",
+  "status": "solution-present",
+  "description": "Classical contradiction using the reused interpreted-negation law. No content identity is collapsed into a truth value; no sincerity or global completeness is assumed."
+}
