@@ -1009,10 +1009,11 @@ already contained in `HardCases` or `GoodsOmission`.
 | Authorized imposition | Same physical loss, chooser gain, risk and absence of rescue; change only to informed, competent, specific and uncoerced authorization. | Authorization may answer an objection to unilateral control. It does not erase the physical welfare loss or by itself establish that all objections are answered. The subject's practical undertaking necessarily differs. |
 | Authorized rescue | Same physical loss and control; add an otherwise lethal condition, effective rescue, rescue intention, procedure risk and specific authorization; remove private chooser gain. | Survival and the subject's authorization can answer an objection to this means, conditional on necessity and proportionate risk. This is deliberately not a same-context comparison with harmful imposition. |
 | Unconscious rescue | Rescue facts retained; replace present capacity and authorization with incapacity and no known prior refusal. | An actual request or consent cannot be necessary for every justified intervention under a rescue norm. The subject's interests can figure in an answer without an actual conversation. Permission still requires that norm. |
-| Benefit-free rescue for chooser | Authorized rescue facts; explicitly stipulate no payment, reputation, future reciprocity, satisfaction or other advancement of the chooser's ends. | Separates the subject's rescue interest from instrumental payoff to the chooser. If the chooser values rescue, that end would undo this stipulation; do not smuggle it back in. |
+| Benefit-free rescue for chooser | Retain the authorized rescue's physical, risk and authorization facts, but remove its rescue intention and any accepted rescue end. Stipulate performance of the effective intervention with no payment, reputation, future reciprocity, satisfaction or other advancement of the chooser's ends. | Separates the subject's rescue interest from instrumental payoff to the chooser. If the chooser values rescue, that end would undo this stipulation; do not smuggle it back in. |
 
 The last case is a stipulated motivationally indifferent rescuer who performs
-the intervention, not a claim that every actual altruist lacks ends. If no
+the effective intervention without an accepted rescue end or inherited rescue
+intention, not a claim that every actual altruist lacks ends. If no
 accepted end is advanced, the end-relative account can treat rescue and
 abstention as tied; it need not prohibit rescue. Mere performance does not
 show that the actor has, or recognizes, an end-independent reason. This case
