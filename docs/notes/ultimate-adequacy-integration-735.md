@@ -2322,10 +2322,11 @@ premises or another accessible primary defense rather than treating inaccessible
 text, retorsion alone, or the presentation's summary as a completed proof.
 
 
-## Draft for semantic challenge: warrant for whole-series coverage (2026-11-11)
+## Warrant for whole-series coverage (2026-11-11)
 
-**Status:** complete proposed bounded outcome, awaiting independent semantic
-challenge; no substantive publication or premise closure authorized by this draft.
+**Status:** independent semantic challenge accepted the complete bounded outcome
+at `f84e589788692cfcc3de70719ba0eb25c093674c` without repairs. This review
+confers no premise closure; delivered-head CI remains required.
 Evidence baseline: `6d9b38009` (fresh main after the coordinator's `e02bd650c`
 seed). This section owns the fact-level explanatory-warrant question, not the
 participation/dependence or modal-supporter-invariance investigations. Existing
@@ -2523,8 +2524,8 @@ evidence is reused; no new build, binding, Comparator, NanoDa or real-world
 model adequacy is claimed. Required delivered-head CI remains separate.
 
 Offline corpus validation, source-record validation, attribution check (no changed
-stating claims) and whitespace checks passed for this two-file draft. Claim/type
+stating claims) and whitespace checks passed for this two-file result. Claim/type
 self-sweep found no changed bound proposition or theorem; the analyst warrant
 reconstruction, cited source limits and model/application boundaries above are
-the substantive claims submitted for challenge. The computation is unchanged
+the substantive claims accepted by the independent challenge. The computation is unchanged
 by committing these same bytes.
