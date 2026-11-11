@@ -3,8 +3,8 @@
   "label": "Begun coming-to-be control checked (inference)",
   "input_statement_ids": [],
   "output_statement_id": "f6ceade2-c668-4836-992e-a6d25230bfa6",
-  "rule": "Explicit interpretation with WithBot Int times, checked by case analysis, induction on accessibility and linear arithmetic",
-  "meaning": "Strictness and nonvacuity: begun coming-to-be is possible while founded coming-to-be is not, so the founded version strictly strengthens the begun one. In the same interpretation every contingent individual has an earlier-present existing predecessor that the control's grounding relation relates to it, yet no individual is necessary: an endless descent of contingent grounds fits between the empty first moment and any later moment. Necessity is excluded there only because inert emptiness fails. So in the spine's temporal arrival the necessary individual comes from inert emptiness (A2), not from begun coming-to-be or from earlier-present grounding. Model claims concern this interpretation only.",
+  "rule": "Explicit interpretations with WithBot Int and non-negative rational times, checked by case analysis, induction on accessibility, linear arithmetic and halving",
+  "meaning": "Strictness and nonvacuity: begun coming-to-be is possible while founded coming-to-be is not, so the founded version strictly strengthens the begun one. In the same interpretation every contingent individual has an earlier-present existing predecessor that the control's grounding relation relates to it, yet no individual is necessary at either world: an endless descent of contingent grounds fits between the empty first moment and any later moment, and inert emptiness fails. So the begun coming-to-be plus earlier-present-grounds bundle does not entail a necessary individual; in the spine's existing route, necessity is supplied by inert emptiness (A2) together with the route's other premises. The non-negative rational conjunct checks that continuous time with a beginning gives every moment a begun past and no moment after 0 a founded one. Model claims concern these interpretations only.",
   "assumption_statement_ids": [],
   "discharged_statement_ids": []
 }

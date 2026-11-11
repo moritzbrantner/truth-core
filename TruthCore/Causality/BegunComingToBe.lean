@@ -4,6 +4,7 @@ public import TruthCore.Causality.ContingentComingToBe
 public import TruthCore.Causality.BruteFoundationBoundary
 public import TruthCore.Causality.CountTemporalNecessity
 public import Mathlib.Order.WithBot
+public import Mathlib.Algebra.Order.Ring.NNRat
 
 /-!
 # Coming to be in a history whose past has a beginning
@@ -17,7 +18,9 @@ of moments below it. Its proof of premise A3 uses foundedness only to obtain a
 moment with nothing earlier. This module asks for exactly that.
 
 Ordinary meaning. The past of a moment `t` *has a beginning* when some moment at
-or before `t` has no moment before it: a first moment. A history of *begun
+or before `t` has no moment before it: a minimal moment, which in linear time is
+the first moment. In a branching order other branches below `t` may still
+descend without end; one minimal moment suffices here. A history of *begun
 coming-to-be* has a moment with a begun past at which a contingent concrete
 thing is present, and in it every contingent concrete thing comes to be (was
 absent at some earlier moment whenever it is present).
@@ -25,7 +28,8 @@ absent at some earlier moment whenever it is present).
 Examples. Discrete time with a first moment, and continuous time with a first
 moment (the standard picture of a universe with a beginning), both give every
 moment a begun past. Continuous time with a first moment does not give a founded
-past: below any later moment `t` lies the endless descent `t, t/2, t/4, …`.
+past: below any later moment `t` lies the endless descent `t, t/2, t/4, …`
+(checked for non-negative rationals in `Control.Certificate`).
 An endless discrete past and an open-below continuous past (no first moment)
 have no begun moment.
 
@@ -38,8 +42,9 @@ is a possibility claim about one accessible history.
 
 With the weaker premise the rival's second horn is a genuinely *beginningless*
 past (no first moment at or below some populated moment), not merely a
-non-well-founded one, and premise A3′ no longer carries a price against
-continuous time.
+non-well-founded one. The possibility premise no longer conflicts with every
+possible populated history having continuous time with a beginning, as the
+founded version does.
 
 Applicability of every definition below to reality remains OPEN.
 -/
@@ -91,14 +96,17 @@ def zeno : History Bool Int (WithBot Int) where
 /-- Each individual is grounded by its predecessor, at world `true`. -/
 def predecessorGrounds : Bool → Int → Int → Prop := fun w y x => w = true ∧ y = x - 1
 
-/-- The dense-with-beginning control, every individual counted concrete:
-begun coming-to-be is possible; founded coming-to-be is not; presence gives
-existence; every contingent concrete individual has a concrete ground present
-at a strictly earlier moment whenever it is present; no concrete individual is
-necessary at `true`; and emptiness does not stay empty (inert emptiness, premise
-A2, fails). So begun coming-to-be together with earlier-present grounds of
-every contingent thing does not by itself require a necessary concrete
-individual: in this arrival necessity enters through inert emptiness. -/
+/-- The control with a first moment followed by moments with no earliest one,
+every individual counted concrete: begun coming-to-be is possible; founded
+coming-to-be is not; presence gives existence; every contingent concrete
+individual has an existing predecessor, related to it by the control's grounding
+relation and present at a strictly earlier moment whenever it is present; no
+concrete individual is necessary at either world; and emptiness does not stay
+empty (inert emptiness, premise A2, fails). So begun coming-to-be together with
+these earlier-present grounds does not entail a necessary concrete individual.
+The last conjunct concerns continuous time with a beginning, as non-negative
+rationals: every moment's past has a beginning, and no moment after `0` has a
+founded past. -/
 def Certificate : Prop :=
   PossiblyBegunComingToBe zeno all true ∧
   ¬ PossiblyFoundedComingToBe zeno all true ∧
@@ -106,8 +114,10 @@ def Certificate : Prop :=
   (∀ x t, ContingentAt zeno.ontic true x → zeno.IsAt true x t →
     ∃ y s, zeno.ontic.ExistsAt true y ∧ predecessorGrounds true y x ∧
       s < t ∧ zeno.IsAt true y s) ∧
-  ¬ BruteFoundationBoundary.NecessaryConcreteAt ⟨zeno.ontic, all, predecessorGrounds⟩ true ∧
-  ¬ EmptinessStaysEmpty zeno all
+  (∀ v, ¬ BruteFoundationBoundary.NecessaryConcreteAt
+    ⟨zeno.ontic, all, predecessorGrounds⟩ v) ∧
+  ¬ EmptinessStaysEmpty zeno all ∧
+  ((∀ t : ℚ≥0, BegunAt t) ∧ ∀ t : ℚ≥0, 0 < t → ¬ Acc (fun a b : ℚ≥0 => a < b) t)
 
 end Control
 

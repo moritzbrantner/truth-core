@@ -7,5 +7,5 @@
   "object_kind": "statement",
   "object_id": "6d71688e-973a-4827-9427-85fff7532c9d",
   "verification_result_id": "a3fd7b50-125c-49a4-a597-3fef6dee2d1e",
-  "note": "Same history, coming-to-be clause and populated moment; Acc replaced by a first moment at or below. Control.zeno (WithBot Int times) witnesses failure of the converse."
+  "note": "Same history, coming-to-be clause and populated moment; Acc replaced by a minimal moment at or below. Control.zeno (WithBot Int times) witnesses failure of the converse."
 }

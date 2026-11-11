@@ -2,6 +2,8 @@ module
 
 public import TruthCore.Causality.BegunComingToBe
 public import TruthCore.Results.Causality.ContingentComingToBe.Solution
+public import Mathlib.Algebra.Order.Field.Basic
+public import Mathlib.Tactic.Positivity
 
 @[expose] public section
 
@@ -64,10 +66,29 @@ theorem coeNotAcc (n : Int) :
     subst hk
     exact ih ((n - 1 : Int) : WithBot Int) (WithBot.coe_lt_coe.mpr (by omega)) (n - 1) rfl
 
+theorem nnratHalfLt (t : ℚ≥0) (ht : 0 < t) : t / 2 < t := half_lt_self_iff.mpr ht
+
+theorem nnratHalfPos (t : ℚ≥0) (ht : 0 < t) : 0 < t / 2 := by positivity
+
+/-- In continuous time with a beginning (non-negative rationals), no moment
+after `0` has a founded past: `t, t/2, t/4, …` descend endlessly. -/
+theorem nnratNotAcc (t : ℚ≥0) (ht : 0 < t) :
+    ¬ Acc (fun a b : ℚ≥0 => a < b) t := by
+  intro hAcc
+  revert ht
+  induction hAcc with
+  | intro t _ ih => intro ht; exact ih (t / 2) (nnratHalfLt t ht) (nnratHalfPos t ht)
+
+/-- In the same order every moment's past has a beginning, `0`. -/
+theorem nnratBegun (t : ℚ≥0) : BegunAt t :=
+  ⟨0, eq_or_lt_of_le (zero_le : (0 : ℚ≥0) ≤ t),
+    fun r => not_lt_of_ge (zero_le : (0 : ℚ≥0) ≤ r)⟩
+
 /-- Strictness and nonvacuity control in a history with a beginning and no
-earliest moment after it. -/
+earliest moment after it, and the begun-but-not-founded order of continuous
+time with a beginning. -/
 theorem controls : Control.Certificate := by
-  refine ⟨?_, ?_, fun _ _ _ hp => hp.1, ?_, ?_, ?_⟩
+  refine ⟨?_, ?_, fun _ _ _ hp => hp.1, ?_, ?_, ?_, nnratBegun, nnratNotAcc⟩
   · refine ⟨true, trivial, ?_, 0, (0 : Int), trivial,
       ⟨rfl, false, trivial, Bool.false_ne_true⟩, ⟨rfl, le_refl _⟩, ⊥,
       Or.inr (WithBot.bot_lt_coe 0), fun r => not_lt_bot⟩
@@ -81,7 +102,7 @@ theorem controls : Control.Certificate := by
   · intro x t _ hxt
     refine ⟨x - 1, ((x - 1 : Int) : WithBot Int), rfl, ⟨rfl, rfl⟩, ?_, rfl, le_refl _⟩
     exact lt_of_lt_of_le (WithBot.coe_lt_coe.mpr (by omega)) hxt.2
-  · rintro ⟨x, _, _, hNec⟩
+  · rintro v ⟨x, _, _, hNec⟩
     exact Bool.false_ne_true (hNec false trivial)
   · intro hInert
     have hEmpty : TruthCore.Causality.InertEmptiness.ConcreteEmptyAt Control.zeno

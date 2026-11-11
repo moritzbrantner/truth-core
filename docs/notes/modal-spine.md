@@ -50,16 +50,20 @@ earlier, so the weak version suffices
 `specs/modal-spine-begun-coming-to-be.toml`). A3′ strictly strengthens A3′w
 (`possiblyBegunOfFounded`, registered `strengthens` relation). The difference
 matters: continuous time with a first moment gives every later moment a begun
-past but not a founded one (`t, t/2, t/4, …` descend endlessly), so A3′ carries
-a price against the standard picture of a universe with a beginning in
-continuous time, and A3′w does not. Under A3′w the rival's second horn is a
-genuinely beginningless past. The control `BegunComingToBe.Control.zeno` (times
-`WithBot ℤ`: a first moment with no earliest moment after it) also shows that
-begun coming-to-be together with an earlier-present ground for every contingent
-thing does not require a necessary individual: an endless descent of contingent
-grounds fits between the empty first moment and any later one. In this arrival
-the necessary individual comes from inert emptiness (A2), not from the
-coming-to-be premise or from temporally prior grounding.
+past but not a founded one (`t, t/2, t/4, …` descend endlessly; checked for
+non-negative rationals in `BegunComingToBe.controls`). So A3′ conflicts with
+every possible populated history having continuous time with a beginning, the
+standard picture of a universe with a beginning, and A3′w does not. Under A3′w
+the rival's second horn is a genuinely beginningless past. The control
+`BegunComingToBe.Control.zeno` (times `WithBot ℤ`: a first moment with no
+earliest moment after it) also shows that begun coming-to-be, together with an
+existing, earlier-present predecessor ground for every contingent thing, does
+not entail a necessary individual at any world: an endless descent of
+contingent grounds fits between the empty first moment and any later one. In
+the spine's existing route, necessity is supplied by inert emptiness (A2)
+together with the route's other premises. This indicates, but does not yet
+certify, that #1463's earlier-grounds support route loses its entailment of a
+possible necessary being once restated over begun pasts.
 
 So a holder of the initial-state view who denies a necessary concrete being is
 committed to this: in every possible history, either some contingent concrete
