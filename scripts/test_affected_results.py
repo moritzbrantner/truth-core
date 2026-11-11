@@ -587,16 +587,21 @@ class ComparatorAggregateTest(unittest.TestCase):
         self.assertNotIn("if:", metadata)
         self.assertIn("check-research-metadata", metadata)
 
-    def test_offline_pdf_tests_always_have_poppler(self):
+    def test_offline_source_checks_do_not_require_pdf_extraction(self):
         workflow = (REPO / ".github/workflows/ci.yml").read_text()
         corpus = workflow.split("  corpus-and-lean:\n", 1)[1].split("\n  corpus-explorer:", 1)[0]
-        install = corpus.split("- name: Install PDF source extraction\n", 1)[1].split("      - name:", 1)[0]
         tests = corpus.split("- name: Test corpus tooling and media-span and web-snapshot evidence offline\n", 1)[1].split("      - name:", 1)[0]
-        self.assertIn("apt-get install -y poppler-utils", install)
-        self.assertNotIn("if:", install)
-        self.assertIn("python3 -m unittest discover", tests)
+        self.assertNotIn("Install PDF source extraction", corpus)
+        self.assertNotIn("apt-get", corpus)
+        self.assertIn("target/release/truth check", corpus)
+        self.assertIn("python3 scripts/bundle_audit.py", corpus)
+        self.assertIn("python3 -m unittest discover -s scripts -p 'test_*.py'", tests)
         self.assertNotIn("if:", tests)
-        self.assertLess(corpus.index(install), corpus.index(tests))
+        pdf_tests = REPO / "scripts/pdf_source_tests/test_pdf_source_evidence.py"
+        self.assertTrue(pdf_tests.is_file())
+        # A directory without __init__.py is excluded from unittest discovery at scripts/.
+        self.assertFalse((pdf_tests.parent / "__init__.py").exists())
+        self.assertFalse((REPO / "scripts/test_pdf_source_evidence.py").exists())
 
     def test_workflow_gates_keep_stable_checks_and_live_browser_dependency(self):
         workflow = (REPO / ".github/workflows/ci.yml").read_text()
