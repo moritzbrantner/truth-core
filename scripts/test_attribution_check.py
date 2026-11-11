@@ -37,7 +37,8 @@ class ValidateAttributionTest(unittest.TestCase):
 
 
 class ReportTest(unittest.TestCase):
-    def run_report(self, claims, cached_text: str | None = "Omne quod mutatur est in potentia."):
+    def run_report(self, claims, cached_text: str | None = "Omne quod mutatur est in potentia.",
+                   *, materialize: bool = False, edited: bool = False):
         directory = tempfile.TemporaryDirectory()
         self.addCleanup(directory.cleanup)
         cache = Path(directory.name)
@@ -51,8 +52,9 @@ class ReportTest(unittest.TestCase):
             mock.patch.object(ac.se, "CACHE", cache),
             mock.patch.object(ac, "ROOT", cache.parent),
             mock.patch.object(ac, "changed_paths", return_value=[]),
+            mock.patch.object(ac, "changed_passage_ids", return_value={"TEXT-1"} if edited else set()),
         ):
-            return ac.report("origin/main", materialize=False, max_chars=0)
+            return ac.report("origin/main", materialize=materialize, max_chars=0)
 
     def test_prints_premise_beside_passage_and_fails_without_attribution(self) -> None:
         text, problems = self.run_report([(claim(), "new claim")])
@@ -67,10 +69,31 @@ class ReportTest(unittest.TestCase):
         self.assertIn(f"attribution: {GOOD}", text)
         self.assertEqual(problems, [])
 
-    def test_unread_passage_fails(self) -> None:
-        _, problems = self.run_report([(claim(attribution=GOOD), "new claim")], cached_text=None)
+    def test_offline_check_accepts_recorded_attribution_without_fetching_text(self) -> None:
+        with mock.patch.object(ac.se, "materialize", side_effect=AssertionError("unexpected acquisition")):
+            text, problems = self.run_report([(claim(attribution=GOOD), "new claim")], cached_text=None)
+        self.assertEqual(problems, [])
+        self.assertIn("passage text: NOT CHECKED", text)
+
+    def test_offline_check_still_rejects_missing_or_malformed_attribution(self) -> None:
+        for fields in ({}, {"attribution": "A citation is enough."}):
+            with self.subTest(fields=fields):
+                _, problems = self.run_report([(claim(**fields), "new claim")], cached_text=None)
+                self.assertEqual(len(problems), 1)
+                self.assertIn("attribution", problems[0])
+
+    def test_changed_passage_does_not_present_stale_cached_text(self) -> None:
+        text, problems = self.run_report([(claim(attribution=GOOD), "passage changed")], edited=True)
+        self.assertEqual(problems, [])
+        self.assertIn("passage text: NOT CHECKED", text)
+        self.assertNotIn("Omne quod mutatur est in potentia.", text)
+
+    def test_explicit_materialization_failure_still_fails(self) -> None:
+        with mock.patch.object(ac.se, "materialize", side_effect=ac.se.SourceEvidenceError("byte drift")):
+            _, problems = self.run_report([(claim(attribution=GOOD), "new claim")],
+                                          cached_text=None, materialize=True)
         self.assertEqual(len(problems), 1)
-        self.assertIn("text not read", problems[0])
+        self.assertIn("byte drift", problems[0])
 
     def test_bibliographic_claim_names_the_edition_and_needs_only_the_attribution(self) -> None:
         bib_claim = claim(source_id="BOOK", locator="pp. 1", witness="bibliographic", attribution=GOOD)
@@ -105,6 +128,13 @@ class ChangedClaimsTest(unittest.TestCase):
         self.assertEqual(
             self.select([old, new], {old: claim()}, {new: claim(interpretation="broader")}),
             [("C", "changed interpretation")],
+        )
+
+    def test_removing_attribution_still_selects_the_claim(self) -> None:
+        path = "corpus/claims/c.json"
+        self.assertEqual(
+            self.select([path], {path: claim(attribution=GOOD)}, {path: claim()}),
+            [("C", "changed attribution")],
         )
 
     def test_renamed_statement_with_new_paraphrase_selects_its_claims(self) -> None:

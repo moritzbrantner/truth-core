@@ -4,7 +4,7 @@
 
 ## Three verification boundaries
 
-1. **Source integrity** asks which primary-source bytes were consulted. This is reproducible and mechanically checkable.
+1. **Source integrity** records which primary-source bytes were consulted. Offline checks validate the records; selected passage materialization checks acquired bytes against their pins. It does not require recurring reacquisition of every source.
 2. **Source fidelity** asks whether a claim is a defensible interpretation of those bytes in context. This remains scholarly review and may admit multiple readings.
 3. **Formal verification** asks whether a Lean conclusion follows from the advertised formal premises. Lean, NanoDa, and Comparator operate here.
 
@@ -42,7 +42,7 @@ YOUTUBE_CORPUS_DIR=../youtube-corpus DATABASE_URL=postgres://... \
   python3 scripts/source_evidence.py materialize <PASSAGE-ID>
 ```
 
-The offline `check` validates media-span manifests and claim bindings without network access. `verify` never contacts YouTube: it re-verifies media spans only when a local export is present (cached, or given with `--export`), enforcing the same revision and span checks, and otherwise lists them as not re-verified. CI therefore checks media-span structure and runs the synthetic-export tests in `scripts/test_source_evidence.py`, but cannot re-hash recordings.
+The offline `check` validates media-span manifests and claim bindings without network access. CI checks their structure and runs the synthetic-export tests in `scripts/test_source_evidence.py`. Reading an individual recording uses `materialize` with its pinned export; CI does not acquire or re-hash recordings.
 
 Fidelity for recorded speech adds two questions to the usual ones. Auto captions can mishear words, so a claim notes its transcript source and whether the wording was checked against the audio. Speaker attribution is a judgment unless youtube-corpus speaker data confirms it; diarization labels are not identities, so a claim records how its speaker was attributed.
 
@@ -55,7 +55,7 @@ Where no git-hosted witness exists, a web page can be pinned as a passage of kin
 - Plain-text source files with an immutable URL may instead set `"raw_text": true` on the passage. This bypasses HTML parsing, retains line breaks and source syntax, and strips only leading/trailing whitespace; it is suitable for a hash-pinned `.thy` file. Exactly one of `html_selector`, `pdf_pages` and `raw_text` is permitted. This is a byte/text extraction variant of the existing `web_snapshot` kind, not a new source kind.
 - **No page text is committed**, only hashes, locators and a short incipit, so copyrighted translations can be cited. `check` rejects a web-snapshot passage carrying `text`.
 
-`materialize` fetches the page with a fixed User-Agent and rejects byte drift. If the live page drifted or is unreachable, it fetches the Wayback capture and checks it against `wayback_sha256`. It then extracts the selected range, normalizes it to one line per HTML block, and rejects a `text_sha256` mismatch, which also catches a changed extractor or selector. Verified bytes are cached under `.cache/truth-core/web/` by hash, so a later `materialize` works offline. The Wayback capture is only a fallback: its bytes may differ from the live page (for example by injected scripts) as long as the extracted text matches. `verify` refetches every web snapshot without the cache. The offline `check` validates the manifests and claim bindings only.
+`materialize` fetches the page with a fixed User-Agent and rejects byte drift. If the live page drifted or is unreachable, it fetches the Wayback capture and checks it against `wayback_sha256`. It then extracts the selected range, normalizes it to one line per HTML block, and rejects a `text_sha256` mismatch, which also catches a changed extractor or selector. Verified bytes are cached under `.cache/truth-core/web/` by hash, so a later `materialize` works offline. The Wayback capture is only a fallback: its bytes may differ from the live page (for example by injected scripts) as long as the extracted text matches. The offline `check` validates the manifests and claim bindings only. CI does not refetch web snapshots; live-page or archive availability is not a repository gate.
 
 To pin a new page, fetch it twice to make sure it is byte-stable, then print the fields with:
 
@@ -124,7 +124,7 @@ Whether a translation-based claim conflicts in meaning with a Latin-based claim 
 
 When every pinned URL of a web snapshot is gone for good and no archive capture can be pinned, the owner may accept the loss instead of replacing the witness (owner decision 2026-11-05, first for the robkoons.net feed `KOONS-FOURTH-WAY-RECONSTRUCTION-2022-FULL-ITEM`). The snapshot then gains `"unavailable": {"since": "<YYYY-MM-DD>", "reason": "<why every pinned URL is gone>"}`. Nothing else is removed: the source, passage, hashes, locators, claims and attempts stay as they are, so the record still says exactly which bytes were read.
 
-- `verify` never fetches it, on any run, and lists it as `permanently unavailable web snapshots, never fetched, NOT byte-verified`. It never counts as verified. This is separate from the transient deferral on main pushes described under [Validation](#validation), which stays unchanged.
+- Offline checks validate its unavailable marking and claim bindings; they make no byte-verification claim.
 - `materialize` serves it only from a hash-checked local cache of the pinned bytes and otherwise refuses; it never fetches.
 - **Integrity marking.** Every claim on it carries `"witness": "unavailable"`, and `check` rejects that value on any other claim. As with bibliographic claims, the marking is shown by `corpus.py frontier` (`permanently unavailable witness, not byte-verified: …`), in the premise dossier and on the explorer's claim and dossier pages. Because its bytes can no longer be re-verified, a statement stated only by such claims counts as `supported`, not `stated`, on the frontier, exactly as for a bibliographic claim (owner decision 2026-11-05). It becomes `stated` again once a new witness is pinned.
 - If a witness becomes available again, or a new pinnable one is found, remove `unavailable` and the claims' `witness` field and re-verify, following the [upgrade path](#upgrade-path).
@@ -142,7 +142,7 @@ Copyrighted modern works (for example Plantinga, Flew, Ross, Pruss, van Inwagen,
 
 **Integrity marking.** Every claim on a bibliographic span carries `"witness": "bibliographic"`, and `check` rejects the field on any other claim. The marking is shown next to the claim by `corpus.py frontier` (`bibliographic witness, not byte-verified: …`), in the premise dossier, and on the explorer's claim and dossier pages, so a reader can tell verified bytes from a bibliographic reference.
 
-**Verification.** `check` validates the record and its claim bindings. `verify` fetches nothing for it and lists it as `bibliographic spans not byte-verified`. `materialize` refuses it: there are no bytes to extract. A worker therefore claims from a bibliographic span only after reading the cited pages in the edition itself (for example the owner's copy), never from memory or a search snippet (invariant 2). Source integrity for such a claim rests on the citation and the reader's checking, not on a hash; source fidelity remains a review question as everywhere.
+**Verification.** `check` validates the record and its claim bindings. `materialize` refuses it: there are no bytes to extract. A worker therefore claims from a bibliographic span only after reading the cited pages in the edition itself (for example the owner's copy), never from memory or a search snippet (invariant 2). Source integrity for such a claim rests on the citation and the reader's checking, not on a hash; source fidelity remains a review question as everywhere.
 
 ### Upgrade path
 
@@ -186,7 +186,7 @@ python3 scripts/source_evidence.py raw-witness AQUINAS-ST-I-Q2-A3 --output /tmp/
 python3 scripts/source_evidence.py raw-witness AQUINAS-ST-I-Q2-A3 --path <other/file.xml> --output /tmp/other.xml
 ```
 
-The first writes the passage's own verified file. The second fetches another file at the **same repository revision** and prints the `path`, `source_url` and `git_blob_sha` that pin it in a new manifest. `verify` still always refetches; only `materialize` and `raw-witness` reuse the hash-checked cache. Web pages are pinned with `web-hashes` instead.
+The first writes the passage's own verified file. The second fetches another file at the **same repository revision** and prints the `path`, `source_url` and `git_blob_sha` that pin it in a new manifest. `materialize` and `raw-witness` reuse the hash-checked cache. Web pages are pinned with `web-hashes` instead.
 
 Workers must read that materialized text and relevant context before creating claims. Model memory, search-result snippets, or an unpinned web page are orientation aids only.
 
@@ -199,17 +199,31 @@ python3 scripts/source_evidence.py check
 python3 scripts/corpus.py check
 ```
 
-Network-backed source verification:
+**No full-source verification requirement** (owner direction, 2026-11-11).
+PR, `main`, scheduled and manual CI runs use offline corpus/source validation
+and deterministic extraction tests. The bulk `source_evidence.py verify`
+command and its changed-manifest/availability exceptions have been removed.
+Public hosts, archives and historical response bytes are not CI dependencies.
+
+The PR attribution check also runs offline:
 
 ```bash
-python3 scripts/source_evidence.py verify
+python3 scripts/corpus.py attribution-check --base <merge-base>
 ```
 
-`verify` also refetches every web snapshot, live or from its Wayback capture, and checks bytes and extracted text. `verify --base <REF> [--head <REF>]` refetches only the passages whose manifest files changed between the two commits, **even if the verifier itself changed**. A verifier-only PR runs the offline corpus and verifier regression checks without refetching unrelated witnesses. Every manifest and claim binding is still validated offline.
+It checks the presence and form of the attribution for selected changed claims,
+and displays cached passage text when usable. Missing or stale text is reported
+as **not checked in this run**, without failing the offline gate or pretending
+that the source was freshly verified. Missing/malformed attribution and invalid
+source bindings still fail. Cache availability cannot establish whether a
+researcher read the cited material; fidelity remains a research/review judgment.
 
-CI runs the corpus binding check and deterministic verifier tests on every run. On a pull request it runs `verify --base HEAD^1 --head HEAD`, so each passage the PR adds or changes is fetched and checked; an unavailable or hash-mismatched changed witness still fails CI. A source-verifier code change alone does not turn every unchanged third-party document into a PR dependency.
-
-On a push to `main`, CI refetches **all** witnesses using `verify --defer-unavailable-unchanged HEAD^1`. Only a web snapshot unchanged since that base whose every pinned URL is transport-unreachable may be deferred: the live URL **and** the pinned Wayback fallback, or the live URL alone when no fallback is pinned. A response that arrives but drifts or does not decode is never deferred. The output names it `unavailable, NOT byte-verified` and the final report says `source evidence incomplete`; it never counts as verified. Newly changed witnesses, downloaded-byte drift, extraction drift, invalid manifests, and immutable repository witnesses remain hard failures. The nightly scheduled run and manual full run stay strictly blocking on missing access too, so persistent outages are visible rather than silently becoming certification. This separates transient third-party availability from a bad repository change without weakening the changed-witness gate. Bibliographic spans remain explicitly unverified citation-only evidence.
+For a selected source question, use `materialize <PASSAGE-ID>` and read the text
+and context. The optional `attribution-check --materialize` acquires the selected
+claims' passages and fails on acquisition or hash/extraction errors. These
+explicit research tools keep their integrity checks; they are not routine
+merge, build or local verification requirements. Preserve existing source
+records and pins, and follow the fidelity-review process when revising a witness.
 
 ## What this does not prove
 
@@ -232,10 +246,9 @@ are hashes; rejected bodies never enter the trusted web cache. The diagnostic
 write uses the failed download itself, with no second request. If writing fails,
 the original byte-drift error still fails verification.
 
-The source-verification CI job uploads only this directory as
-`source-drift-diagnostics-<run_attempt>`, retained for three days. Each rerun
-keeps earlier attempts’ artifacts. Inspect a downloaded `.bin`
-as untrusted data and compare its paired hashes; a later successful fetch cannot
-explain what the failed request returned. Request/response headers and environment
-values are not collected. These diagnostics do not establish the cause of drift
-or authorize changing a source pin.
+These diagnostics remain local to explicit source acquisition; CI does not
+produce or upload source-drift artifacts. Inspect a `.bin` as untrusted data and
+compare its paired hashes; a later successful fetch cannot explain what the
+failed request returned. Request/response headers and environment values are
+not collected. Diagnostics do not establish the cause of drift or authorize
+changing a source pin.
