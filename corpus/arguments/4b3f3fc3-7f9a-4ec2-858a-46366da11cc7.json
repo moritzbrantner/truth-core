@@ -1,0 +1,20 @@
+{
+  "id": "4b3f3fc3-7f9a-4ec2-858a-46366da11cc7",
+  "label": "All-time body mate stability gives time-local uniqueness",
+  "premise_statement_ids": [
+    "cde66fea-13d4-40e5-b849-adc7b5176d15"
+  ],
+  "conclusion_statement_id": "7617dddc-d2d0-4bc9-9326-db26aca81366",
+  "inference_ids": [
+    "ff1928c8-4a28-4f89-8d9f-30e4ef64f070"
+  ],
+  "meaning": "Instantiate both time arguments with the same time. The strong all-time constraint is the sole premise; no additional soul, person or source semantics is used.",
+  "definition_ids": [
+    "04a2f2fc-a7c3-4743-883b-48ffe47c357e",
+    "97f18a93-e03f-40ee-86c3-364e7629efd0",
+    "f90c4e6e-38c8-4991-8b6a-1238ca40d0c6"
+  ],
+  "strong_version_needed": {
+    "cde66fea-13d4-40e5-b849-adc7b5176d15": "The purpose is to certify the strength ordering by deriving time-local uniqueness from this stronger sole premise; the countermodel separately tests failure of the converse."
+  }
+}

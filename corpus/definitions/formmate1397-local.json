@@ -1,0 +1,9 @@
+{
+  "id": "f90c4e6e-38c8-4991-8b6a-1238ca40d0c6",
+  "label": "At most one body mate per form token at each time",
+  "term": "At most one body mate per form token at each time",
+  "definition": "UniqueAt r requires any two attachments of one form token at the SAME time to have equal body tokens. It does not compare different times, identify a person, establish a living body or substantial-form semantics, or preclude distinct parts of one organism sharing its form. Entire-body applicability is OPEN.",
+  "basis": "stipulative",
+  "note": "Analyst structural test for issue1397. Historical source reconstruction and open person/body/form bridges are preserved in docs/notes/personal-identity-fission-1397.md. No source attribution claim is registered.",
+  "lean_declaration": "TruthCore.Mereology.FormMate1397.UniqueAt"
+}

@@ -5,6 +5,7 @@ public import TruthCore.Mereology.ActualFusionProfile
 public import TruthCore.Mereology.ArrangementDynamics
 public import TruthCore.Mereology.AtomlessFusionProfile
 public import TruthCore.Mereology.Fission1397
+public import TruthCore.Mereology.FormMate1397
 public import TruthCore.Mereology.FusionNoNecessaryParts
 public import TruthCore.Mereology.GenusCauseBoundary
 public import TruthCore.Mereology.MaterialConstitutionScope

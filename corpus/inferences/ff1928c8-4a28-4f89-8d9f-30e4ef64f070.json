@@ -1,0 +1,12 @@
+{
+  "id": "ff1928c8-4a28-4f89-8d9f-30e4ef64f070",
+  "label": "All-time body mate stability gives time-local uniqueness (inference)",
+  "input_statement_ids": [
+    "cde66fea-13d4-40e5-b849-adc7b5176d15"
+  ],
+  "output_statement_id": "7617dddc-d2d0-4bc9-9326-db26aca81366",
+  "rule": "Universal specialization",
+  "meaning": "Instantiate both time arguments with the same time. The strong all-time constraint is the sole premise; no additional soul, person or source semantics is used.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}
