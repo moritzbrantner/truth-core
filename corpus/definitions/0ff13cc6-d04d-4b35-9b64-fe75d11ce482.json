@@ -1,0 +1,9 @@
+{
+  "id": "0ff13cc6-d04d-4b35-9b64-fe75d11ce482",
+  "label": "Semantic validity in a fixed world interpretation",
+  "term": "semantic entailment",
+  "definition": "Every world in the supplied interpretation that satisfies all premises also satisfies the conclusion. A singleton containing p entails p by reflexivity. The broader class of nontrivial or actually used inferences is a separate selection.",
+  "basis": "stipulative",
+  "note": "Analyst use of the existing ReflectiveCoherence semantics. World adequacy, actual reasoning performance and normative authority are separate from this model-relative definition.",
+  "lean_declaration": "TruthCore.Logic.ReflectiveCoherence.Entails"
+}

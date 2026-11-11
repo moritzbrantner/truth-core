@@ -1,0 +1,9 @@
+{
+  "id": "cbe1661b-1b9e-4200-b97d-0b8464a323d8",
+  "label": "No actual belief meets the supplied warrant standard",
+  "paraphrase": "OPEN analyst rival. No agent and content in the supplied domain pair actual belief with the supplied epistemic warrant predicate.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.NoJustifiedBeliefs",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

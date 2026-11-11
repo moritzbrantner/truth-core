@@ -1,0 +1,13 @@
+{
+  "id": "8feb9dd0-06a9-41a3-8029-4d57c3ec6ce9",
+  "label": "Known-prior-premise demand and well-founded priority exclude knowledge (inference)",
+  "input_statement_ids": [
+    "b178b6e6-0115-4611-8fea-58dab5d69fed",
+    "bade02f4-b2f2-4d75-b822-564d5059b9c6"
+  ],
+  "output_statement_id": "a9ce9d1d-5fdf-4794-b6a4-681bc811ac92",
+  "rule": "Well-founded induction on prior contents",
+  "meaning": "Fix an agent and induct over the priority relation. A knowledge case would supply an earlier known used premise, which the induction hypothesis excludes. The result establishes ignorance only under the combined requirements, and says nothing about justification of basic beliefs.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

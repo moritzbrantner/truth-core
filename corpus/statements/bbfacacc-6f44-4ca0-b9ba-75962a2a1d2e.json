@@ -1,0 +1,11 @@
+{
+  "id": "bbfacacc-6f44-4ca0-b9ba-75962a2a1d2e",
+  "label": "Thought realizations of assertions of this content are experienced",
+  "paraphrase": "OPEN analyst bridge: when an occurring thought episode realizes an actual assertion of the selected content by an agent, that episode is experienced. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.AssertionRealizationsExperienced",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "663c48ce-4166-4632-86d9-85eeef0c258b"
+  ]
+}

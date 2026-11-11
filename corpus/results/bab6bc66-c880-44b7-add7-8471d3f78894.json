@@ -1,0 +1,11 @@
+{
+  "id": "bab6bc66-c880-44b7-add7-8471d3f78894",
+  "label": "Undercutting all available supporting bases precludes target warrant",
+  "argument_id": "834b7570-5d74-4158-8208-6196172a0608",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.undercutSoleBasisPrecludesWarrant",
+  "comparator_config": "results/bab6bc66-c880-44b7-add7-8471d3f78894/comparator.json",
+  "status": "solution-present",
+  "description": "If the subject had warrant for the target, the warrant condition supplies an undefeated supporting basis. Sole-basis dependence identifies it with the undercut basis, contradiction. Take the target to be the accepted package for conditional self-undermining; no truth or general epistemic nihilism conclusion follows."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "f93f2dfd-5ec8-4378-a90a-0e8c4a79b30e",
+  "label": "Thought occurrence from an actual assertion and cognitive realization",
+  "premise_statement_ids": [
+    "b45ca9db-0bf2-40d3-819c-44dc4e2cef5c",
+    "1edfc1d1-34d4-4f3e-99e6-e07a6ba58ffc"
+  ],
+  "conclusion_statement_id": "e81971f1-601c-57f5-be2d-c4b0624d0cad",
+  "inference_ids": [
+    "38a50995-4b55-4ef3-bd42-20c2ac90d392"
+  ],
+  "meaning": "Take an agent actually asserting the selected content. The local realization bridge gives an occurring thought realizing that agent's assertion. This supplies the existing positive Cogito witness without a bearer, truth, sincerity or persistence premise. Both inputs remain open.",
+  "definition_ids": [
+    "c0cbef1c-060a-54d4-bb49-8d59da40caf3",
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9"
+  ]
+}

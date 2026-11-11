@@ -1,0 +1,9 @@
+{
+  "id": "d97a939c-2a33-45fe-b8c5-94c144103d4b",
+  "label": "Blanket formation insensitivity fails for the supplied states",
+  "paraphrase": "The thesis that every supplied method gives equal output on each pair of opposite-truth states is false in the fixed profile.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.AllFormationTruthInsensitiveFails",
+  "definition_ids": [
+    "87441e0b-62eb-47a5-801e-976448227f66"
+  ]
+}

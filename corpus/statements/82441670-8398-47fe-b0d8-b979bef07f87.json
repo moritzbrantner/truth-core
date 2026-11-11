@@ -1,0 +1,9 @@
+{
+  "id": "82441670-8398-47fe-b0d8-b979bef07f87",
+  "label": "Nothing exists in the supplied interpretation",
+  "paraphrase": "No candidate satisfies the supplied existence predicate. This allows an inhabited type of candidates with empty existence extension.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NothingExistsIn",
+  "definition_ids": [
+    "e9d86382-0aa2-4b87-b721-461ec85ed0f1"
+  ]
+}

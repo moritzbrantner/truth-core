@@ -1,0 +1,14 @@
+{
+  "id": "e8a66098-87f2-46ec-b26f-711a71ac9cc7",
+  "label": "Finite benchmark accuracy and opposite-truth responsiveness are independent",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "157d10c3-4823-4e67-8abd-32938acaced9",
+  "inference_ids": [
+    "45af1dd3-f4be-4eff-beab-6b068cda5576"
+  ],
+  "meaning": "The constant true method clears a skewed four-entry benchmark while insensitive and fallible. The opposite-answer method changes its output with truth while failing the benchmark. These examples separate the two supplied assessments.",
+  "definition_ids": [
+    "87441e0b-62eb-47a5-801e-976448227f66",
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e"
+  ]
+}

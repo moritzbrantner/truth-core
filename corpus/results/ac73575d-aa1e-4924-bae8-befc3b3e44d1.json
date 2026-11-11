@@ -1,0 +1,11 @@
+{
+  "id": "ac73575d-aa1e-4924-bae8-befc3b3e44d1",
+  "label": "Self-application of strict empirical verification",
+  "argument_id": "bd7e586f-ca90-4b0a-8f39-0f6cfda63495",
+  "challenge_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Challenge",
+  "solution_module": "TruthCore.Results.Logic.GlobalThesisBoundaries.Solution",
+  "theorem": "TruthCore.Results.Logic.GlobalThesisBoundaries.strictVerificationDilemma",
+  "comparator_config": "results/ac73575d-aa1e-4924-bae8-befc3b3e44d1/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional analyst argument. With its formulation in scope and failing the selected empirical verifiability test, the strict criterion fails if its formulation is cognitively meaningful. If the criterion holds, the formulation lacks cognitive significance. No nonanalyticity premise is needed because the strict criterion has no analytic exception. Neither the scope nor unverifiability of any actual formulation is proved."
+}

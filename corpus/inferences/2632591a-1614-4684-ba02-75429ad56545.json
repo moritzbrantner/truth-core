@@ -1,0 +1,14 @@
+{
+  "id": "2632591a-1614-4684-ba02-75429ad56545",
+  "label": "Social construction with truth variation excludes objective truth in scope (inference)",
+  "input_statement_ids": [
+    "f182d391-f6d2-496a-881d-7fc408cc666e",
+    "147882aa-2ca4-4854-b945-7c0360c61e26",
+    "326adc2f-b56d-58af-802e-9bf3a6f46c61"
+  ],
+  "output_statement_id": "9e14b5dc-4578-4838-b5c1-5d594af4ebed",
+  "rule": "Transport actual truth through stability and contradict the variation witness",
+  "meaning": "With the actual-stable calibration, an objectively true content is actually true and holds at every supplied profile. The scoped construction thesis classifies it as constructed and the bridge supplies a profile where it fails. Universal scope gives the global consequence. The argument establishes neither the global thesis nor its defeat and does not identify objective with unindexed truth.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

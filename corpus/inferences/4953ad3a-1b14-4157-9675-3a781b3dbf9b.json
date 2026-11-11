@@ -1,0 +1,13 @@
+{
+  "id": "4953ad3a-1b14-4157-9675-3a781b3dbf9b",
+  "label": "Cognitive meaning from an assertion under the local meaning requirement (inference)",
+  "input_statement_ids": [
+    "b45ca9db-0bf2-40d3-819c-44dc4e2cef5c",
+    "42114721-87d8-44b7-8057-255c732fd7df"
+  ],
+  "output_statement_id": "f7e3ad49-3140-4fdf-9a83-1156243cb701",
+  "rule": "Existential witness instantiation",
+  "meaning": "An assertion witness and the local meaning requirement give the selected content as a meaningful instance. If this content is the purported denial of all cognitive meaning in the supplied domain, its meaningful assertion excludes that denial. The theorem asserts neither that arbitrary strings convey content nor that any selected content expresses that denial.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

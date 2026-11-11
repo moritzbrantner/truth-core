@@ -1,0 +1,11 @@
+{
+  "id": "bce3240f-978c-43c7-a2cf-0faa5d14c68d",
+  "label": "An explicit two-kind profile separates moral and epistemic adoption",
+  "argument_id": "806c0e6a-c37b-48e0-b369-d53725226ad2",
+  "challenge_module": "TruthCore.Results.Metaethics.AdoptionReasons.Challenge",
+  "solution_module": "TruthCore.Results.Metaethics.AdoptionReasons.Solution",
+  "theorem": "TruthCore.Results.Metaethics.AdoptionReasons.moralDenialAllowsEpistemicAdoption",
+  "comparator_config": "results/bce3240f-978c-43c7-a2cf-0faa5d14c68d/comparator.json",
+  "status": "solution-present",
+  "description": "With one agent and two targets, the selected target holds exactly when the moral reason relation is empty, which it is. The epistemic reason relation has a reason to believe that target. The witness establishes compatibility in this stipulated profile."
+}

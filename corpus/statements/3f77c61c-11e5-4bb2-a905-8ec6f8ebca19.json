@@ -1,0 +1,9 @@
+{
+  "id": "3f77c61c-11e5-4bb2-a905-8ec6f8ebca19",
+  "label": "Reasons of a selected kind are absent",
+  "paraphrase": "For the selected reason kind, no agent has a reason of that kind for any target. This formalizes moral reason nihilism when the selected kind is moral.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.NoReasonsOfKind",
+  "definition_ids": [
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e"
+  ]
+}
