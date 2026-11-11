@@ -1,0 +1,20 @@
+{
+  "id": "b295bcef-9b59-490f-aa6f-095bb743b77a",
+  "label": "Exact positive report-table omission controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "c865b1d3-b409-4aca-b983-68b0b3e6ddb2",
+  "inference_ids": [
+    "9741d99c-b7ef-4603-bd81-348a8b9df9e7"
+  ],
+  "meaning": "All cells positive, same two hypotheses and balanced prior. Refutes general inferences from individual support, a single conditional inequality or unconditional independence to both-sided corroboration; conditional independence is unnecessary. Does not refute any full historical theory or warrant actual probabilities.",
+  "term_senses": {
+    "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH": "1350ff84-74e9-42f3-b3d5-9b20e0f1735b"
+  },
+  "definition_ids": [
+    "554c428b-2a1a-4748-ba5a-7d45c9f8729a",
+    "a251bc98-6ce9-5066-80c3-b32c3fdfe5c7"
+  ],
+  "disambiguation_ids": [
+    "9acaae93-332c-5e30-a925-657e712c7c1a"
+  ]
+}

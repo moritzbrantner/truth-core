@@ -1,0 +1,6 @@
+{
+  "id": "ce658eb6-d2b7-4f0d-9cd4-49947dfb193f",
+  "label": "Paired positive conditional corroboration criterion",
+  "paraphrase": "For every positive rational four-cell report table under each of two exhaustive hypotheses and non-dogmatic prior, joint posterior strictly exceeds the B posterior iff P(A|B,H)>P(A|B,notH), equivalently P(A|B,H)>P(A|B). Joint posterior strictly exceeds both marginals iff this criterion and its label-swapped counterpart both hold. The joint Bayes factor equals the B factor times the conditional A-given-B likelihood ratio. Analyst arithmetic, not calibrated witness reliability or categorical warrant; see docs/notes/correlated-testimony-1396.md.",
+  "lean_declaration": "TruthCore.Logic.CorrelatedTestimony1396.Criterion"
+}
