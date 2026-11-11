@@ -101,6 +101,11 @@ Poppler 24.02/26.01 Oppy soft-hyphen placement difference without omitting pages
 pinning a runtime extractor version or accepting alternate text hashes.
 
 Install Poppler (`sudo apt-get install poppler-utils` on Debian/Ubuntu).
+Run the PDF extraction tests on demand with
+`PYTHONPATH=scripts python3 -m unittest discover -s scripts/pdf_source_tests -p 'test_*.py'`.
+These tests and Poppler installation are excluded from required PR CI and Pages
+builds. CI continues checking source manifests, claim bindings, and non-PDF tests
+offline; byte/text extraction integrity is checked when a selected PDF is materialized.
 `web-hashes URL --encoding utf-8 --pdf-pages FIRST:LAST` prints pinning fields.
 Fetch twice and inspect the verified materialization before source claims,
 just as for HTML. Copyrighted PDFs and their extracted text stay in ignored
