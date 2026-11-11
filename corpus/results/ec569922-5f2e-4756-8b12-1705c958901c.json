@@ -1,0 +1,11 @@
+{
+  "id": "ec569922-5f2e-4756-8b12-1705c958901c",
+  "label": "Single instruction consequence boundary certificate",
+  "argument_id": "4c1f7567-cfde-4a8b-aa04-2d4038ce90cc",
+  "challenge_module": "TruthCore.Results.Ethics.RossDerived.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.RossDerived.Solution",
+  "theorem": "TruthCore.Results.Ethics.RossDerived.certificate",
+  "comparator_config": "results/ec569922-5f2e-4756-8b12-1705c958901c/comparator.json",
+  "status": "solution-present",
+  "description": "Constructive consequence laws and finite omission/nonaggregation controls. Inclusion and consequence composition are direct applications of the stipulated definition, not independent normative support. No authority or root closure."
+}

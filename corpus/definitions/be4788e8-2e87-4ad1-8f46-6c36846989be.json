@@ -1,0 +1,9 @@
+{
+  "id": "be4788e8-2e87-4ad1-8f46-6c36846989be",
+  "label": "Single issued-content consequence",
+  "term": "single issued-content consequence",
+  "definition": "Derived n q means there exists ONE predicate p with n.issued p and, for every outcome a, p a implies q a. Norms.issued is the existing primitive extensional issuance input; outcomes and predicates are supplied. No conjunction of different issued predicates is formed. Empty issuance derives nothing, impossible issued content derives everything. This is neither issuance of q, adequate compliance, practical possibility nor legitimate normative authority.",
+  "basis": "stipulative",
+  "note": "Analyst logic, attribution deferred. Authority and applicability OPEN; see docs/notes/carneades-deontology-boundary.md. issuedPair contains predicates equivalent to mail or burn separately; issuedImpossible contains predicates equivalent to False. These are finite controls, not moral theories.",
+  "lean_declaration": "TruthCore.Ethics.RossDerived.Derived"
+}

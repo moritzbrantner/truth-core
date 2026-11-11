@@ -1,0 +1,9 @@
+{
+  "id": "e7812110-d4a0-44b2-b026-080b0d686470",
+  "label": "Exact-content issued obligation rival",
+  "term": "exact-content obligation",
+  "definition": "ExactDuty n p means n.issued p, where Norms is a supplied extensional neighborhood of issued obligation contents. The obligation and authorization applications use separate Norms inputs; identical membership shape does not identify their normative force. issuedMail contains exactly predicates pointwise equivalent to mail. It excludes mail-or-burn because burn is a distinct outcome. No entailment closure is stipulated.",
+  "basis": "stipulative",
+  "note": "Analyst semantics for #1398. Interpretation and legitimate normative authority remain OPEN. See docs/notes/carneades-deontology-boundary.md, Ross section.",
+  "lean_declaration": "TruthCore.Ethics.RossPermission.ExactDuty"
+}
