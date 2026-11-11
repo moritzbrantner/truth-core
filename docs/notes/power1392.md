@@ -162,3 +162,111 @@ verified support alternatives added: 0
 no change
 
 ```
+
+## Exercise continuation draft for independent challenge (2026-11-11)
+
+This section supersedes the earlier next-test recommendation, not its reviewed
+conditional results. The earlier semantic challenge accepted 4aa80b0fe; the
+Om in Omissions definition repair at 126bd3f9d changed no proof. This continuation
+has NOT inherited that challenge. `Scratch/power1392exercise/Edit.lean` is a
+persisted exploratory encoding, not a registered Comparator/NanoDa certificate.
+Its terms are stipulative and source attribution is deferred.
+
+The finite exercise specification fixes agents as Bool and tasks as either
+`assertFalse a` or `revealTrue a`; both retain the very same agent a across
+comparisons. Exercises independently carry actor, falseAssertion and signs.
+Success of assertFalse a requires actor=a and falseAssertion=true. Success of
+revealTrue a requires actor=a, falseAssertion=false and signs=true. These Boolean
+fields are structural proxies: no proposition, intentional assertion, knowledge,
+recipient, sign discrimination or actual causal production is represented.
+Thus revealTrue is NOT yet the original revealWithSigns task. Calling the flag
+signs does not supply the original sign-exclusivity or recognizability analysis.
+
+Intrinsic a e means only actor=a. This deliberately generous profile abstracts
+from physical production and cognitive capacity. Accessible a e adds, for agent
+true, falseAssertion=false. This is an explicit essential-truthfulness restriction,
+not a consequence of veracity or a warranted account of divine nature. Generic t
+means some exercise succeeds, without relative accessibility. Joint a t means
+some exercise both is accessible to a and succeeds. CanDo is never used to define
+these relations. The distinguished actual exercise has actor=true, no false
+assertion and no signs. Identity is rigid in this finite domain; no claim is made
+that all intrinsic profiles are metaphysically possible for an essentially
+truthful individual. That is precisely the scope disputed by the essentialist.
+
+The concrete separating assignment uses the SAME task assertFalse true: it has a
+successful intrinsic exercise (true,true,false), but no accessible success under
+the stipulated essential restriction. Accessibility is populated and revelation
+is relatively feasible via (true,false,true). This closes the empty-feasible-set
+loophole in the earlier RelativeBridge control. The actual exercise is nonlying
+both with this restriction and with unrestricted Intrinsic accessibility; actual
+nonlying therefore discriminates neither accessibility account. This is an
+assignment-level result, not a new result about original Veracity's full
+Asserts/Knows predicate. The latter's separate actual factivity and sincerity
+premises yield actual assertion truth; extending them to every exercise requires
+an explicit modal invariance bridge. Knowledge can remain actual and factive
+while an unperformed exercise proxy is assigned falseAssertion=true.
+
+Two strong positive replies now have precise costs. Essentialism may reject the
+generic success assignment as intrinsically incoherent FOR THIS agent, replacing
+Generic by consistency with essential nature. That reply preserves identity and
+avoids the clash, but changes the generic-coherence interpretation; the original
+Power.Consistent has no condition enforcing it. Intrinsic-capacity advocates may
+retain the false exercise in a capacity profile while denying its accessible
+exercise. This answers actual nonlying. To answer essential inability while
+preserving capacity they must justify why active power in the original CanDo is
+intrinsic production capacity rather than accessible successful exercise, and
+why sincerity/factivity apply to actual assertion rather than every capacity
+profile. Neither reply is refuted for being unusual. Neither acquires warrant
+from these finite assignments.
+
+The positive joint-exercise account grants realization for a particular task:
+Joint(g,revelation) → CanDo(g,revelation). With a revelation witness this yields
+that ability without universal omnipotence. Relative safety alone yields the
+reverse direction and cannot replace realization. Original
+SomeSignsOnlyGodCanGive still requires exclusivity over ALL agents, and original
+RecognizableRevelationAnalysis still carries ability to the primitive
+RevealsRecognizably. A truthfulness restriction only on agent true leaves other
+agents able to produce the same sign flag in this exercise specification. So its
+nonempty revelation witness supplies NO exclusivity evidence. Restricting signs
+to God by definition would hide that missing bridge and is rejected. Nor does
+possible exercise establish actual performance: the actual exercise here has no
+signs despite accessible sign-success. This is the next essential distinction
+for the old recognizability analysis, which expressly accepts ability as input.
+
+Proposed revised judgment: the assignment establishes a useful conditional
+separation with identity and nonempty feasible tasks restored, within proxy
+semantics only. It supports retaining essential exercise and intrinsic capacity
+as distinct positive accounts; it warrants no preference between them as the
+interpretation of active power. Task-specific realization is logically sufficient
+for a narrow connection, but independent sign exclusivity and the actual original
+task interpretation remain decisive. Necessary listed perfections still have no
+new realization warrant. No root premise closes. Strengthen this judgment only
+with an explicit original-task interpretation and realization/exclusivity
+arguments; revise it if success must include further cognitive or causal
+commitments that destroy the assignment. The master must challenge this complete
+section before using it as reviewed support.
+
+Substantive reassessment: the requested finite identity/nonemptiness test is
+specified; its proxy-to-original mapping is unbuilt. The next materially different
+research question is whether an independently specified sign-identification and
+recipient condition can satisfy original SomeSignsOnlyGodCanGive without defining
+success as divine success. This needs allocation to an original Agency/Signature
+bridge, rather than more Boolean truthfulness enumeration. Original Challenges,
+Power1392 vocabulary and certificate remain unchanged. The exploratory lemmas
+must not be advertised as mechanically certified corpus consequences until a
+separate frozen certificate, binding, Comparator and NanoDa run is supplied.
+
+Continuation preview evidence: clean shared preview HEAD
+3aaf6c4fdb8bd9ed781ee7cb57811d5d81f84964, content SHA256
+5ff5677fe69fa6a76654825f04f8ec10ddf950c60f37262f04f85f11a07d954c,
+no diagnostics. Initial Mathlib.Logic.Basic import failed because that file is
+absent from the warm dependency checkout; the standalone encoding imports Lean
+instead and introduces no dependency. No shared service/output changes. This is
+interactive elaboration evidence only; no new Comparator/NanoDa status claimed.
+Self-sweep: Success specifies actor equality in both constructors; Generic and
+Joint compare the identical assertFalse true task. Intrinsic is actor-only, not
+actual cognition or power. The nonempty revelation control has no exclusivity
+condition and witnesses possible proxy success, not actual revelation. The
+actualDoesNotForceRestriction lemma repeats actualIntrinsic intentionally as a
+named reading, not independent evidence. taskSpecific assumes realization and
+uses this finite model's witness, not an original-task bridge.
