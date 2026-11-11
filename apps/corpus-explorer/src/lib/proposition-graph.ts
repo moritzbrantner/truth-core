@@ -64,7 +64,7 @@ export type CorpusStatementInput = {
   id: string;
   paraphrase: string;
   lean_declaration?: string;
-  self_evident?: { justification_ids: string[] };
+  self_evident?: { justification_ids: string[]; denial_statement_id?: string };
 };
 
 export type CorpusClaimInput = {
@@ -171,6 +171,8 @@ export type GraphStatement = {
   /** Refuted by a counted `refutes`: a verified argument whose premises are all established (#999). */
   refuted: boolean;
   selfEvidentJustification: string[];
+  /** An actual corpus-recorded denial, not an arbitrary `alternative_to` rival. */
+  denialStatementId?: string;
   /** Its self_evident marking with basis, criterion and disagreement (`floor` of `corpus.py frontier`). */
   floor?: FloorEntry;
   tags: string[];
@@ -238,6 +240,21 @@ export type PropositionGraph = {
   stageConclusions: Array<{ stage: number; statementId: string }>;
 };
 
+/** Only an explicit corpus denial identifies a real logical opposite.
+ * `alternative_to`, `attacks` and `refutes` are not synonymous with negation.
+ */
+export function recordedNegationPairs(graph: PropositionGraph): Array<[string, string]> {
+  const present = new Set(graph.statements.map((statement) => statement.id));
+  const pairs = new Map<string, [string, string]>();
+  for (const statement of graph.statements) {
+    const denial = statement.denialStatementId;
+    if (!denial || denial === statement.id || !present.has(denial)) continue;
+    const pair: [string, string] = statement.id < denial ? [statement.id, denial] : [denial, statement.id];
+    pairs.set(pair.join("\0"), pair);
+  }
+  return [...pairs.values()].sort((a, b) => a[0].localeCompare(b[0]) || a[1].localeCompare(b[1]));
+}
+
 /** Research links influence navigation and layout, never premise closure. */
 export function researchLinkedStatements(graph: PropositionGraph) {
   const linked = new Set<string>();
@@ -245,6 +262,10 @@ export function researchLinkedStatements(graph: PropositionGraph) {
     if (relation.subject === relation.object) continue;
     linked.add(relation.subject);
     linked.add(relation.object);
+  }
+  for (const [left, right] of recordedNegationPairs(graph)) {
+    linked.add(left);
+    linked.add(right);
   }
   return linked;
 }
@@ -436,6 +457,7 @@ export function buildPropositionGraph(input: PropositionGraphInput, report: Fron
       closedViaTranscription: closedViaTranscription.get(id),
       refuted: refuted.has(id),
       selfEvidentJustification: statement.self_evident?.justification_ids ?? [],
+      denialStatementId: statement.self_evident?.denial_statement_id,
       floor: floorById.get(id),
       tags: [...tags].sort(),
       claims,

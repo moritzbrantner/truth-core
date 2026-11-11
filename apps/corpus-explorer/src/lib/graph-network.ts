@@ -1,9 +1,66 @@
 import { forceCenter, forceCollide, forceLink, forceManyBody, forceSimulation, type SimulationNodeDatum } from "d3-force";
-import { researchLinkedStatements, type PropositionGraph } from "./proposition-graph";
+import { recordedNegationPairs, researchLinkedStatements, type PropositionGraph } from "./proposition-graph";
 import type { Point } from "./graph-layout";
-import { indexGraph } from "./graph-view";
+import { indexGraph, type GraphViewModel } from "./graph-view";
 
 export const NETWORK_TICKS = 180;
+const OPPOSITION_DISTANCE = 360;
+const DISPUTE_OPPOSITION_DISTANCE = 620;
+type ForceNode = SimulationNodeDatum & { id: string };
+
+/** A bounded repulsive constraint, not an attractive negative-weight spring.
+ * It changes positions only; no signed relation is interpreted as an inference.
+ */
+function oppositionForce(nodes: ForceNode[], pairs: Array<[string, string]>, distance: number) {
+  const byId = new Map(nodes.map((node) => [node.id, node]));
+  const endpoints = pairs.flatMap(([left, right]): Array<[ForceNode, ForceNode]> => {
+    const a = byId.get(left); const b = byId.get(right);
+    return a && b ? [[a, b]] : [];
+  });
+  return (alpha: number) => {
+    for (const [left, right] of endpoints) {
+      let dx = (right.x ?? 0) + (right.vx ?? 0) - (left.x ?? 0) - (left.vx ?? 0);
+      let dy = (right.y ?? 0) + (right.vy ?? 0) - (left.y ?? 0) - (left.vy ?? 0);
+      // Equal positions need a stable, non-random direction.
+      if (dx === 0 && dy === 0) { dx = 1; dy = 0; }
+      const actual = Math.hypot(dx, dy);
+      if (actual >= distance) continue;
+      const push = (distance - actual) * alpha * 0.5;
+      const vx = dx / actual * push;
+      const vy = dy / actual * push;
+      left.vx = (left.vx ?? 0) - vx;
+      left.vy = (left.vy ?? 0) - vy;
+      right.vx = (right.vx ?? 0) + vx;
+      right.vy = (right.vy ?? 0) + vy;
+    }
+  };
+}
+
+/** A deliberately local, deterministic signed layout. Unrecorded ¬P nodes
+ * exist only in the dispute projection, never in the canonical corpus/buckets.
+ */
+export function signedDisputeLayout(view: GraphViewModel): Map<string, Point> {
+  const nodes: ForceNode[] = [...view.nodes].sort((a, b) => a.id.localeCompare(b.id)).map((node) => ({ id: node.id }));
+  if (!nodes.length) return new Map();
+  const links = view.edges.filter((edge) => edge.kind !== "opposition" && edge.kind !== "cluster")
+    .sort((a, b) => a.id.localeCompare(b.id))
+    .map((edge) => ({ ...edge }));
+  const oppositions: Array<[string, string]> = view.edges.filter((edge) => edge.kind === "opposition")
+    .sort((a, b) => a.id.localeCompare(b.id))
+    .map((edge) => [edge.source, edge.target]);
+  const simulation = forceSimulation(nodes).stop()
+    .force("link", forceLink(links).id((node) => (node as ForceNode).id)
+      .distance((link) => link.kind === "relation" ? 270 : 180)
+      .strength((link) => link.kind === "relation" ? 0.08 : 0.62))
+    .force("charge", forceManyBody().strength(-230).distanceMax(950))
+    .force("collision", forceCollide(155))
+    .force("opposition", oppositionForce(nodes, oppositions, DISPUTE_OPPOSITION_DISTANCE))
+    .force("center", forceCenter());
+  simulation.tick(240);
+  const minX = Math.min(...nodes.map((node) => node.x ?? 0));
+  const minY = Math.min(...nodes.map((node) => node.y ?? 0));
+  return new Map(nodes.map((node) => [node.id, { x: (node.x ?? 0) - minX, y: (node.y ?? 0) - minY }]));
+}
 export type NetworkStructure = {
   positions: Map<string, Point>;
   community: Map<string, number>;
@@ -27,6 +84,7 @@ export type NetworkStructure = {
 export function networkStructure(graph: PropositionGraph): NetworkStructure {
   const index = indexGraph(graph);
   const ids = [...graph.statements.map((node) => node.id), ...graph.inferences.map((node) => node.id)].sort();
+  const oppositions = recordedNegationPairs(graph);
   const proofNeighbours = new Map(ids.map((id) => [id, new Set<string>()]));
   const layoutNeighbours = new Map(ids.map((id) => [id, new Set<string>()]));
   type LayoutLink = { source: string; target: string; research: boolean };
@@ -52,6 +110,10 @@ export function networkStructure(graph: PropositionGraph): NetworkStructure {
   }
   for (const relation of [...graph.relations].sort((a, b) => a.id.localeCompare(b.id))) {
     connect(relation.subject, relation.object, true);
+  }
+  for (const [left, right] of oppositions) {
+    layoutNeighbours.get(left)?.add(right);
+    layoutNeighbours.get(right)?.add(left);
   }
   const connectedComponents = (neighbours: Map<string, Set<string>>) => {
     const components: string[][] = [];
@@ -104,7 +166,7 @@ export function networkStructure(graph: PropositionGraph): NetworkStructure {
       shelfX += 40; shelfHeight = Math.max(shelfHeight, 40);
       continue;
     }
-    const nodes: Array<SimulationNodeDatum & { id: string }> = component.map((id) => ({ id }));
+    const nodes: ForceNode[] = component.map((id) => ({ id }));
     const edges = edgesByComponent[index].map((link) => ({ ...link }));
     const simulation = forceSimulation(nodes).stop()
       .force("link", forceLink(edges)
@@ -113,6 +175,7 @@ export function networkStructure(graph: PropositionGraph): NetworkStructure {
         .strength((link) => (link as LayoutLink).research ? 0.22 : 0.65))
       .force("charge", forceManyBody().strength(-65).distanceMax(500))
       .force("collision", forceCollide(11))
+      .force("opposition", oppositionForce(nodes, oppositions, OPPOSITION_DISTANCE))
       .force("center", forceCenter());
     simulation.tick(NETWORK_TICKS);
     const minX = Math.min(...nodes.map((node) => node.x ?? 0));

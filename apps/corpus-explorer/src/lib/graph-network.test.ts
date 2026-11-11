@@ -1,7 +1,8 @@
 import { expect, test } from "bun:test";
-import { fixtureGraph } from "./frontier-fixture";
+import { fixtureGraph, fixtureReport } from "./frontier-fixture";
 import { fixture } from "./proposition-graph.fixture";
-import { networkStructure, NETWORK_TICKS } from "./graph-network";
+import { buildPropositionGraph } from "./proposition-graph";
+import { networkStructure, NETWORK_TICKS, signedDisputeLayout } from "./graph-network";
 import { computeGraphView } from "./graph-view";
 import { DEFAULT_STATE, parseGraphState, serializeGraphState } from "./graph-state";
 import { getPropositionGraph } from "./proposition-graph-data";
@@ -40,6 +41,63 @@ test("layout is deterministic under input permutation; research proximity never 
   expect(inferenceOnly.degree).toEqual(original.degree);
   expect(inferenceOnly.unsupported).toEqual(original.unsupported);
   expect(inferenceOnly.unconsumed).toEqual(original.unconsumed);
+});
+
+test("dispute view materializes an explicitly hypothetical negation without altering corpus proof status", () => {
+  const view = computeGraphView(graph, { ...DEFAULT_STATE, view: "dispute", node: "P1", hops: 1 });
+  const opposite = view.nodes.find((node) => node.kind === "negation");
+  expect(opposite).toMatchObject({ id: "negation:P1", statementId: "P1" });
+  expect(view.edges.some((edge) => edge.kind === "opposition" && edge.source === "P1" && edge.target === "negation:P1")).toBe(true);
+  expect(view.statementCount).toBeGreaterThan(0);
+  expect(graph.statements).toHaveLength(fixture.statements.length);
+  expect(graph.statements.find((node) => node.id === "P1")?.established).toBe(false);
+  const positions = signedDisputeLayout(view);
+  const dist = (a: string, b: string) => Math.hypot(
+    positions.get(a)!.x - positions.get(b)!.x,
+    positions.get(a)!.y - positions.get(b)!.y,
+  );
+  expect(dist("P1", "negation:P1")).toBeGreaterThan(440);
+  expect(dist("P1", "I1")).toBeLessThan(dist("P1", "negation:P1"));
+  expect([...positions.values()].every((point) => Number.isFinite(point.x) && Number.isFinite(point.y))).toBe(true);
+  expect([...signedDisputeLayout({ ...view, nodes: [...view.nodes].reverse(), edges: [...view.edges].reverse() })])
+    .toEqual([...positions]);
+});
+
+test("recorded denials use the real opposite statement and do not masquerade as new proof edges", () => {
+  const withDenial = {
+    ...graph,
+    statements: graph.statements.map((node) => node.id === "P1" ? { ...node, denialStatementId: "ALT" } : node),
+  };
+  const view = computeGraphView(withDenial, { ...DEFAULT_STATE, view: "dispute", node: "P1", hops: 1 });
+  expect(view.nodes.some((node) => node.id === "ALT" && node.kind === "statement")).toBe(true);
+  expect(view.nodes.some((node) => node.kind === "negation")).toBe(false);
+  expect(view.edges.some((edge) => edge.kind === "opposition" && [edge.source, edge.target].sort().join(":") === "ALT:P1")).toBe(true);
+  const signed = signedDisputeLayout(view);
+  expect(Math.hypot(signed.get("P1")!.x - signed.get("ALT")!.x, signed.get("P1")!.y - signed.get("ALT")!.y)).toBeGreaterThan(440);
+  const network = networkStructure(withDenial);
+  expect(network.components).toEqual(networkStructure(graph).components);
+  const dist = Math.hypot(network.positions.get("P1")!.x - network.positions.get("ALT")!.x,
+    network.positions.get("P1")!.y - network.positions.get("ALT")!.y);
+  expect(dist).toBeGreaterThan(170);
+});
+
+test("a recorded alternative remains a research rival, not a claimed logical negation", () => {
+  const view = computeGraphView(graph, { ...DEFAULT_STATE, view: "dispute", node: "DEF", hops: 1 });
+  expect(view.edges.some((edge) => edge.kind === "relation" && edge.source === "ALT" && edge.target === "DEF")).toBe(true);
+  expect(view.edges.some((edge) => edge.kind === "opposition" && edge.target === "negation:DEF")).toBe(true);
+  expect(view.edges.some((edge) => edge.kind === "opposition" && [edge.source, edge.target].includes("ALT"))).toBe(false);
+});
+
+test("projection takes actual denial IDs only from source records, not rival labels", () => {
+  const input = {
+    ...fixture,
+    statements: fixture.statements.map((statement) => statement.id === "SE"
+      ? { ...statement, self_evident: { justification_ids: ["CL-SE"], denial_statement_id: "ALT" } }
+      : statement),
+  };
+  const projected = buildPropositionGraph(input, fixtureReport(fixture));
+  expect(projected.statements.find((statement) => statement.id === "SE")?.denialStatementId).toBe("ALT");
+  expect(projected.statements.find((statement) => statement.id === "DEF")?.denialStatementId).toBeUndefined();
 });
 
 test("cycles and reciprocal inferences retain directed edges without circular closure", () => {

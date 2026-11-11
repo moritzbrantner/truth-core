@@ -90,6 +90,19 @@ describe("graph buckets", () => {
     expect(owner.get("LONE")).not.toBe("root");
   });
 
+  test("a recorded denial keeps both real propositions in one layout bucket without joining proof components", () => {
+    const graph = fixtureGraph(fixture);
+    const augmented = {
+      ...graph,
+      statements: graph.statements.map((statement) => statement.id === "P1" ? { ...statement, denialStatementId: "LONE" } : statement),
+    };
+    const built = buildGraphBuckets(augmented);
+    const owner = checkPartition(built, augmented.statements.length, augmented.inferences.length);
+    expect(owner.get("P1")).toBe(owner.get("LONE"));
+    expect(built.manifest.totals.components).toBe(buildGraphBuckets(graph).manifest.totals.components);
+    expect(built.manifest.totals.layoutComponents).toBeLessThan(buildGraphBuckets(graph).manifest.totals.layoutComponents);
+  });
+
   test("real corpus: partition, facet totals and the default view", () => {
     const built = getGraphBuckets();
     const owner = checkPartition(built, built.graph.statements.length, built.graph.inferences.length);
