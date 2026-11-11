@@ -107,7 +107,9 @@ remaining rival-coverage investigation; this note is not a whole-audit closure.
 
 ## Positive modal causal opportunity: independent warrant audit (2026-11-11)
 
-**Proposed outcome, awaiting independent semantic challenge.** Baseline actual
+**Reviewed outcome.** Independent semantic challenge accepted the complete
+proposed outcome at `f1425e74c92de221f28f9b5f84456fc5913f00d8` on
+2026-11-11, with the scope qualification below. Baseline actual
 public main `6d9b38009`; selected premise
 `df89f0d2-c051-5859-aa80-5898ec5c0a65`
 (`STMT-SCENARIO-CAUSAL-OPPORTUNITY`). This is analyst reasoning about the
@@ -337,8 +339,12 @@ that exact interpretation. Weaken the route if a coherent, independently
 warranted totality restriction or essential-origin requirement excludes its
 possible causal history. Suspend the judgment if the intended beginning,
 concrete, modal-identity or totality-causation interpretation differs from the
-current Scenario; the application must then be reassessed. A fresh semantic
-challenge of this complete proposed outcome precedes substantive publication.
+current Scenario; the application must then be reassessed. The independent semantic challenge accepted this complete outcome at the
+revision named above. Its scope qualification distinguishes these stronger
+doubling/identity controls, which certify neither metaphysical possibility nor
+exact Scenario-opportunity failure, from the older `bruteOnlyRejectsOpportunity`
+certificate, which does certify exact structural opportunity failure in its
+separate fixture. Neither is a metaphysical possibility certificate.
 
 No statement, theorem, definition, source claim, floor status or closure rule
 changes. No new source fidelity or proof verification is claimed. Existing
