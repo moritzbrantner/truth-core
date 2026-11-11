@@ -696,3 +696,179 @@ calibrated bridge succeeds, or if the fuller package admits a false assent while
 retaining its intended actual-perfection assumptions. No blanket non-entailment
 of the full package is claimed without an adequate model. Premise comparison:
 **no change**; evidence and meanings of the existing results are reused.
+
+
+## Operation-identity continuation: complete proposed outcome
+
+Status: proposed source/reuse assessment after #1425; no new proof or primitive.
+Target remains actual asserted-content accuracy on the confirmation/authority
+route. The new test concerns the positive operation-identity argument, not
+another capacity/selection countermodel.
+
+### Selected primary readings and exact reuse
+
+Read [ST I q.14](https://www.newadvent.org/summa/1014.htm), a.2 body and
+replies 2–3, a.4 body/replies and a.15 replies 1–3;
+[q.25 a.1](https://www.newadvent.org/summa/1025.htm), body/replies;
+[q.79 aa.1–2](https://www.newadvent.org/summa/1079.htm), body;
+[q.54 a.1](https://www.newadvent.org/summa/1054.htm), body/replies, and
+[q.18 a.3](https://www.newadvent.org/summa/1018.htm), replies 1–2.
+For the relational issue, also read [q.13 a.7](https://www.newadvent.org/summa/1013.htm),
+body/replies. The earlier SCG and #1380 evidence is reused unchanged.
+These are selected historical readings with the attribution boundaries already
+stated, not new pinned source-claim records. Exact browser primary text for
+independent review is retained in `/tmp/veracity-operation-source-q14-power.txt`,
+`/tmp/veracity-operation-source-q14a2-replies.txt`,
+`/tmp/veracity-operation-source-operation-identity.txt` and
+`/tmp/veracity-operation-source-relations.txt`.
+
+Inspected `PureAct`, `RootIntellectWillPureAct`, `NecessaryClassicalGodRootAt`
+and its exact full-25 `SourceWitness`, q.3 a.4's `Profile`, `Round5Worklist`
+intellect/operation declarations and proofs, and actual intellective-episode
+vocabulary. Related/dossiers for 64e174b3 (intellect actually understands),
+73b3d83a (understanding through a form), 45030701 (pure act operates), and
+contexts of 74f03562 (operation from being), 206ec7c6 (omission controls) and
+5568bb2e (same classical-God root) were inspected. No old interface was changed.
+
+### Walk the source argument without weakening its reply
+
+The reconstruction distinguishes four claims:
+
+| Claim | Proposed reason | What it does not yet establish |
+|---|---|---|
+| Actual self-intellection | An intellectual subject with no unrealized intrinsic intelligible perfection is neither waiting for its form nor receiving an added form | Not a universal claim that every active power produces every possible effect |
+| Operation really identical with essence | An added immanent act would perfect a subject standing to it as potency to act; pure act excludes this addition | Not identity merely because an operation always accompanies a faculty |
+| No intrinsic cognitive failure | The operation is the subject's own actual perfection, not a defective exercise of a distinct receptive power | Still requires calibration of cognitive success and due perfection |
+| True external asserted contents | The same act adequately knows those contents through its productive exemplar/actual object relation | Not supplied by self-operation identity alone |
+
+The source explicitly preserves **active** power while denying passive potency
+(q.25 a.1). Its q.14 argument instead concerns an immanent operation: unlike an
+external effect, this operation is the knower's own perfection. Under the
+source's form/act ontology, an intellect lacking its intrinsic intelligible act
+would leave an appropriate intrinsic perfection unrealized; an added form would
+make the subject receptive to it. The source excludes both alternatives for
+this divine intellect. Its claim is not that a dormant ability to produce an
+external effect must be producing that effect already. The blanket accusation
+of confusing all unexercised active power with passive potency therefore misses
+the strongest source-backed argument.
+
+This does not independently prove the required ontology. The disputed premise
+is now precise: why does the relevant intellectual capacity require actual
+immanent form/operation in this way, and why would its absence or real
+addition instantiate the passive potentiality excluded of this same bearer?
+A theory treating cognitive powers or operation individuation differently can
+challenge that premise; it must address this intrinsic-perfection account,
+rather than only give an unused productive ability as a counterexample.
+
+Q.54 a.1 reply 1 sharpens the identity distinction: when an active intellect is
+said to be its action, operation's concomitance is distinguished from essential
+identity. Thus even permanent actual exercise would not alone yield real
+operation/essence identity. Conversely, the proposed divine identity argument
+uses absence of receptive subject/act composition, not merely continuous
+exercise. A created intellect's actual self-knowledge is no counterexample to
+that fuller pure-act argument.
+
+### What the existing same-witness proofs actually give
+
+`Round5Worklist.pureActOperatesFromBeing` already derives operation under four
+explicit interfaces: act-or-potency in esse, operation from being in act,
+operation from self or as moved, and movement requiring potency. Its operation
+is not thereby typed as actual self-intellection. The corresponding omission
+controls already expose the operation bridge; they are structural models, not
+metaphysically adequate inert divine beings. No duplicate operation flag or
+finite no-operation model is needed.
+
+The strongest inspected root endpoint preserves one and the same n as actual
+selected necessary root, with represented esse/essence identity, exact nine
+attributes, IsGod and the primitive classical field. It avoids a witness-exchange
+error. But its `HasIntellect` predicate is still a power/interface, its
+`PureAct` is no potency in the supplied respect domain, and neither supplies an
+actual cognitive operation and its content. Completeness/calibration of those
+respects is itself an open semantic obligation; source-wide pure actuality
+cannot simply be read off a finite fixture dictionary.
+
+There is a further precise representation gap. Q.3's `essenceOf` and `esseOf`
+map into the common `Principle` sort; generic `OperationOf` has a separate
+operation sort O. Equality of the two represented principle values does not
+establish a real identity with an intellectual operation, and such a literal
+equality is not even the same typed claim until suitable representation maps
+are provided. Introducing an `understandingOf` map equal to `essenceOf` by
+definition would only conceal the missing identification. Existing occurring
+intellective-episode records supply no transfer from one human episode to this
+selected n. No machine-checked operation-identity consequence is claimed here.
+
+### External mismatch and the source's strongest positive account
+
+One must separate intrinsic perfection of an operation from the truth of its
+externally directed content. A proposed rival can retain an intrinsically
+unchanging act while locating misrepresentation in its content/object/world
+relation. Whether such mismatch is an intrinsic privation, a relational defect,
+or incompatible with genuine perfected intellection is the issue to be
+argued; none is settled by labeling the act intrinsically perfect. This is a
+positive alternative architecture, not a certified false-believing God model.
+It owes an account of actual cognitive aboutness and must explain how its
+notion of intrinsic perfection relates to successful intellective operation.
+
+The strongest Thomistic reply is not to append arbitrary external judgments
+to a self-perfect act. It grounds creaturely cognition in the essence as
+productive exemplar and the source's actual cognitive relation to effects;
+objects are not additional intrinsic forms completing a deficient divine
+subject. That account can reject mismatch by its causal/intentional adequacy
+claims. Those claims must themselves be defended for the actual asserted
+content; possible-effect representation alone is insufficient. The source
+package is not refuted by holding its intrinsic part fixed while dropping its
+cognitive/causal-success conditions.
+
+The relational reply must also be read carefully. Q.13's external relational
+denominations do not by themselves establish an adequate theory of cognition.
+Q.14 a.15 explicitly distinguishes knowing a proposition to be true at one
+time and false at another from retaining an unchanged mistaken opinion. Its
+own reply rejects simply identifying differently tensed enunciations. A toy
+counterexample that freezes an unindexed assent while the object's condition
+changes therefore does not retain the source's full time/content treatment.
+The actual cognition/intentional-content bridge remains required; treating
+all varying extensions as an intrinsic change would assume the internalist
+principle challenged in #1380, while declaring every external relation accurate
+would make the rival successful by stipulation.
+
+A defensible account must specify independently (a) which actual operation is
+this bearer's cognition, (b) what individuates its particular content, including
+world/time or tensed reference where relevant, and (c) why that actual relation
+is correct. The already checked #1380 and FormSelection results constrain
+selected representations without supplying these grounds. Existing #1414
+content semantics prevents truth-value collapse, but does not identify every
+assent with successful cognition. Legacy Knows remains nonfactive throughout.
+
+### Provisional judgment, failed approaches and next discriminating test
+
+The q.14 operation-identity argument is **not defeated by the blanket
+unused-active-power objection**: it offers a different immanent-perfection
+reason, and the source itself makes the relevant active/passive distinction.
+Within its cognitive form/act ontology it gives a substantive conditional route
+to actual self-intellection and identity. Independent warrant for applying that
+ontology to the same GOD_4 has not been supplied by the inspected canonical
+interfaces. Intrinsic operation identity alone does not yet warrant accuracy
+across the actual asserted contingent domain. Overall inerrancy remains
+underdetermined; no internalist or extrinsic winner is declared.
+
+Rejected approaches: pure act means every producible effect is actual;
+continuous operation entails essential identity; represented esse/essence
+equality automatically extends to O; another witness's cognition transfers to n;
+a self-perfect intrinsic act automatically fixes all external contents; a frozen
+unindexed-assent mismatch refutes the full source account; and redefining
+successful knowledge to include truth establishes all actual assent. These
+failures are not a proof that the full Thomistic package is inconsistent or
+that the extrinsic architecture is cognitively adequate.
+
+The next useful test must calibrate the **immanent cognitive form/operation
+relation**, rather than rename actual perfection: explain why the relevant
+unrealized or added cognitive act would be passive subject/act potentiality,
+and which actual intentional relation this yields. For the external-content
+step, test one specified asserted contingent content under the proposed
+causal-exemplar or eternal-presence account, keeping actual selection,
+reference and efficacy separate. Do not take knowledge of an intention to
+assert p as knowledge that p is true. Reopen this assessment if a defended
+calibration connects the existing n to that operation and content, or if a
+counterexample retains those full conditions while producing false assent.
+No new formal result or premise change is claimed; existing checked evidence
+and its boundaries are reused.
