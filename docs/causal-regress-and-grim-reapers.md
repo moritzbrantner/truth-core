@@ -380,7 +380,7 @@ beginningless integer history, so neither restates the conclusion. This
 supersedes the near-transcription `ReaperAssembly`.
 
 Each objection or non-generalization claim in the Reaper records, checked
-against the [Substantive Objection Standard](../AGENTS.md):
+against the [Substantive Objection Standard](../AGENTS.md#substantive-objection-standard-owner-direction-2026-11-12):
 
 | Claim | Where | Verdict |
 |---|---|---|
