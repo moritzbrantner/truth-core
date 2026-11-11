@@ -1,7 +1,7 @@
 {
   "id": "df42581f-5fff-4b5f-8b40-6e16d2b890f2",
   "label": "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum",
-  "paraphrase": "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds.",
+  "paraphrase": "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds. v ranges over every carrier world, including worlds inaccessible from w, so this is not the modal claim that whatever is possibly supported is actually supported; the target b need not exist at v.",
   "lean_declaration": "TruthCore.Causality.NecessarySupportCoverage.NecessarySupportActuallyCovered",
   "definition_ids": [
     "7266f604-f0bc-4aac-89b9-0f4cc7be5f33",

@@ -13,7 +13,7 @@ results = "TruthCore.Results.Causality.NecessarySupportCoverage"
 [[statement]]
 id = "A NECESSARY_2 concretum supported anywhere is supported by an actual concretum"
 lean = "NecessarySupportActuallyCovered"
-paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds."
+paraphrase = "Open premise, analyst formulation, unattributed: for every admitted world v and concrete candidates a and b, if b exists at every world accessible from w, a exists at v and a stands to b in the selected relation at v, then some concrete candidate existing at w stands to b in the selected relation at w. The supporter at w may differ from the one at v and need not be necessary; no support edge need persist between worlds. v ranges over every carrier world, including worlds inaccessible from w, so this is not the modal claim that whatever is possibly supported is actually supported; the target b need not exist at v."
 definitions = ["Actual coverage of support of a necessary concretum", "DEF-CONCRETE-SUPPORT-RESTRICTION", "DEF-KANT-MODAL-NECESSITY", "DEF-PRESENT-ESSE-SUPPORT", "DEF-KANT-ONTOLOGICAL-MODEL"]
 disambiguations = ["DISAMB-EXISTENCE-ESSE-SUPPORT", "DISAMB-NECESSARY-EXISTENCE-VS-UNDERIVED"]
 
@@ -73,7 +73,7 @@ conditions = "mutualSupportExcluded: ActualReflexive m.ontic w, ActualGroundingW
 scope = "Same Profile, selected relation and selected world as the premise and the rival; any worlds and carrier."
 coverage = "All interpretations satisfying the three listed premises."
 exclusivity = "The exclusion holds only under the no-novel-edge condition, which is open and stronger than J2 given the other two premises; without it the rival survives (Control.mutualPair, Control.rootedPair)."
-next_step = "Assess the warrant of the no-novel-edge condition: an essence-based account of support between necessary beings supports it; an account admitting a support edge between necessary beings that holds elsewhere but not at the selected world denies it, while mere loss of actual edges at other worlds does not."
+next_step = "Assess the warrant of the no-novel-edge condition; none is recorded. An essence-based account of support between necessary beings is only an unformalised analyst sketch: as sketched it is a two-way invariance, stronger than no-novel-edge, and its use toward coverage needs F1. The rival's world-varying shape simply denies such an account. Mere loss of actual edges at other worlds does not violate no-novel-edge."
 
 [[argument]]
 id = "Underived necessary concretum, from the actual necessary root and coverage"
@@ -152,7 +152,7 @@ scope = "Same Profile, selected relation and selected world as the premise; two 
 coverage = "One explicitly populated interpretation; it shows compatibility of the rival with the join's endpoint, not survival against it."
 exclusivity = "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint."
 witness = "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts."
-next_step = "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
+next_step = "Given the regress premises, the rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage); a holder may instead reject a regress premise. Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
 
 # ---------------------------------------------------------------- relations
 

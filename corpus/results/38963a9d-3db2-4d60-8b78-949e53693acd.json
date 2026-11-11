@@ -19,7 +19,7 @@
       "coverage": "One explicitly populated interpretation; it shows compatibility of the rival with the join's endpoint, not survival against it.",
       "exclusivity": "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint.",
       "witness": "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts.",
-      "next_step": "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
+      "next_step": "Given the regress premises, the rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage); a holder may instead reject a regress premise. Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
     }
   ]
 }

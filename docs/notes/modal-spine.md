@@ -171,9 +171,12 @@ supporter of its being, under F1, excluded middle and two further open premises:
 | J2 | Support of being among necessary concrete things is well-founded: no endless descent. | open; derived (`NecessarySupportCoverage.unionWFOfNoNovel`) from F1, actual well-founded grounding and the open one-way no-novel-edge premise, and bypassed by two coverage routes (below) | recorded; see the rival table |
 
 J2 is a global condition on support across all worlds. The batch
-`specs/necessary-support-coverage.toml` replaces it with **coverage**, an open
-premise about support itself: a necessary concrete thing supported by something
-at some world is supported by something actual (possibly something else).
+`specs/necessary-support-coverage.toml` offers an alternative, **coverage**, an
+open premise that is also cross-world: a necessary concrete thing supported by
+something at any carrier world (accessible from the actual world or not) is
+supported by something actual (possibly something else). Coverage and J2 are
+incomparable in strength. Given the regress premises, coverage carries the whole
+modal step, and its contrapositive is close to the endpoint's cross-world clause.
 `underivedOfCoverage` reaches the join's conclusion from the regress premises
 (population, actual well-founded grounding, every contingent thing grounded,
 excluded middle) and coverage, without J1, J2 or F1. In the proof its witness
@@ -182,8 +185,10 @@ is the actual necessary root; the theorem states only existence.
 `STMT-NECESSARY-CONCRETE-AT`, actual well-founded grounding, J1 and coverage,
 without J2 or F1. Coverage follows from either existing bridge (F1 + J1 +
 no-novel-edge, or same-supporter presence `STMT-NECESSARY-SUPPORT-IS-PRESENT`),
-and is strictly weaker than both. J1 and J2 together do not imply it. All
-premises remain open. See the
+and is strictly weaker than both. J1 and J2 together do not imply it. On the
+`checks` route, the J2 derivation's new leaf, no-novel-edge, is strictly
+stronger than J2 given F1 and actual well-founded grounding, so that route's
+demand did not weaken. All premises remain open. See the
 [J2 attempt](../../corpus/attempts/b8eb98b1-4425-455d-9333-9fa2b6397974.json).
 
 Through that argument stage one already reaches `STMT-GOD-EXISTS` in the
@@ -279,7 +284,7 @@ the join and the root and act-of-being premises in
 | B1 possible beginning | Contingent reality is beginningless in every possible history | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | B2 causal opportunity | Beginnings are possible and always brute | survives | `LocalFramePossibleExternalCause.necessaryConcrete` |
 | J1 supporters of the necessary are necessary | A necessary thing is supported somewhere by a contingent thing | survives | `NecessaryConcreteUnderived.checks` |
-| J2 support among necessary things is well-founded | Two necessary things support each other. Two shapes: support in both directions within one world, or a direction that varies between worlds. A formal alternative only: no independent justification for its mechanism is recorded, so it is not a substantive objection (see Next investigations, item 2) | model survives against `checks` (shows J2 is needed there, not that J2 is doubtful); **excluded** with F1 and actual well-founded grounding by the no-novel-edge premise (`mutualSupportExcluded`). Compatible with the join's conclusion (`Control.rootedPair`), so it defeats that conclusion only when the actual necessary root is itself supported elsewhere, which denies coverage. The weaker discriminators (well-founded support at every world, no reversed pair) fail (`Control.rotatingTriangle`) | `NecessaryConcreteUnderived.checks`; `NecessarySupportCoverage` |
+| J2 support among necessary things is well-founded | Two necessary things support each other. Two shapes: support in both directions within one world, or a direction that varies between worlds. A formal alternative only: no independent justification for its mechanism is recorded, so it is not a substantive objection (see Next investigations, item 2) | model survives against `checks` (shows J2 is needed there, not that J2 is doubtful); **excluded** with F1 and actual well-founded grounding by the no-novel-edge premise (`mutualSupportExcluded`). Compatible with the join's conclusion (`Control.rootedPair`), so, given the regress premises, it defeats that conclusion only when the actual necessary root is itself supported elsewhere, which denies coverage (a holder may instead reject a regress premise). The weaker discriminators (well-founded support at every world, no reversed pair) fail (`Control.rotatingTriangle`) | `NecessaryConcreteUnderived.checks`; `NecessarySupportCoverage` |
 
 #### Scope of the actual-world Euclidean comparison
 
@@ -402,15 +407,25 @@ conditional investigations, not a mandatory first gate:
    discriminator for J1 and J2.
    For J2 this is done (`specs/necessary-support-coverage.toml`). One-way
    invariance (no novel edge) excludes the mutual-support rival. Coverage is
-   weaker and is enough for the join's conclusion without J2. A holder of the
-   rival must deny coverage to block that conclusion. Coverage follows from an
-   essence-based account of dependence between necessary beings (which gives no
-   novel edge) together with F1 and J1. Contingent grounding edges alone do not
-   deny it: in `Control.rootedPair` the edges change between worlds and coverage
+   incomparable with J2 in strength and is enough for the join's conclusion
+   without J2. Coverage quantifies over every carrier world, and its
+   contrapositive is close to the endpoint's own cross-world clause: it is the
+   weakest sufficient premise found so far, and its warrant has not been compared
+   with J2's. Given the regress premises (population, actual well-founded
+   grounding, every contingent concretum grounded, excluded middle), a holder of
+   the rival must deny coverage to block that conclusion; a holder can instead
+   reject one of those premises. Contingent grounding edges alone do not deny
+   coverage: in `Control.rootedPair` the edges change between worlds and coverage
    holds. Its formal denial is a necessary concrete thing with no actual concrete
-   supporter that has one elsewhere.
+   supporter that has one elsewhere. Unformalised analyst sketch: an
+   essence-based account of dependence between necessary beings might give no
+   novel edge (as sketched it is a two-way invariance, stronger than no novel
+   edge), and with F1 and J1 coverage; the rival's world-varying shape simply
+   denies such an account.
    Objection status (substantive objection standard, 2026-11-12): no substantive
-   objection to J2, to no-novel-edge or to coverage is recorded. The
+   objection to J2, to no-novel-edge or to coverage is recorded, and no
+   independent warrant for coverage or no-novel-edge is recorded either; their
+   motivation is open. The
    mutual-support rival names J2 and a definite mechanism (a cross-world cycle in
    the union of support edges), but the corpus supplies no independent
    justification that support between necessary concrete beings ever runs in a
@@ -418,9 +433,11 @@ conditional investigations, not a mandatory first gate:
    argument, and no source is read. The models (`mutualPair`, `rootedPair`,
    `rotatingTriangle`) are finite formal interpretations: they show which
    premise a theorem needs, not that the premise is doubtful. The denial of
-   coverage likewise has no recorded independent motivation. Next: whether an
-   independently motivated account of support among necessary beings exists
-   that denies coverage; if none is found, record that plainly. Also: whether J1
+   coverage likewise has no recorded independent motivation. Next: whether
+   grounding-contingentism (candidate leads Leuenberger 2014 and Skiles 2015,
+   from memory and unread; read before citing) independently motivates the
+   world-varying shape, and so a denial of coverage; if no such account is
+   found, record that plainly. Also: whether J1
    can be weakened to its selected-world instance, which is the only instance
    the coverage route from necessity uses.
 3. Done: the ungrounded individual of the join is the stage-two root (see "The
