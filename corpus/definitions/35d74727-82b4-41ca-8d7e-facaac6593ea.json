@@ -1,0 +1,9 @@
+{
+  "id": "35d74727-82b4-41ca-8d7e-facaac6593ea",
+  "label": "Sleeping Beauty prospective ticket settlement",
+  "term": "prospective ticket settlement",
+  "definition": "A unit Heads ticket costs rational price c and pays one if Heads occurs. experimentGain charges and settles once per experiment: p*(1-c)+(1-p)*(-c). awakeningGain charges on every awakening and pays on the single Heads awakening: p*(1-c)+(1-p)*k*(-c). Both evaluate an ex ante fixed policy under the experiment prior, with linear additive utility. They do not encode conditional expected utility at one awakening, diachronic preference consistency, arbitrary trading, or Dutch-book immunity. The zero-gain prices differ with the settlement protocol.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.awakeningGain",
+  "note": "Analyst formulation for issue #1401; attribution deferred. Rival accounts, interpretation obligations and proposed unbuilt warrant connection in docs/notes/sleeping-beauty-1401.md. No unique rational credence or actual sampling mechanism is stipulated."
+}

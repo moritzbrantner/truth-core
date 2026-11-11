@@ -1,0 +1,9 @@
+{
+  "id": "bd35e4c3-1882-4373-8a39-bea840976e93",
+  "label": "Sleeping Beauty finite centered allocation",
+  "term": "finite centered allocation",
+  "definition": "World distinguishes whole Heads and Tails experiments. Center distinguishes Heads Monday, Tails Monday and Tails Tuesday, with world forgetting the day and monday selecting the first two centers. Allocation contains nonnegative rational masses h,m,t summing to one. No particular allocation is built into the type. headsGivenMonday is h/(h+m); M explicitly requires a positive Monday denominator. N means h=1/2; M means Monday posterior=1/2; S means equal Tails-center masses; P means strictly positive Tuesday mass. thirds, halves and zeroTuesday are explicit competing normalized assignments.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Allocation",
+  "note": "Analyst formulation for issue #1401; attribution deferred. Rival accounts, interpretation obligations and proposed unbuilt warrant connection in docs/notes/sleeping-beauty-1401.md. No unique rational credence or actual sampling mechanism is stipulated."
+}

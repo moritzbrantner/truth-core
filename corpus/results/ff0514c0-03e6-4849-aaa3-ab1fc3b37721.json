@@ -1,0 +1,11 @@
+{
+  "id": "ff0514c0-03e6-4849-aaa3-ab1fc3b37721",
+  "label": "Sleeping Beauty exact incompatible updating bundles by exact rational algebra",
+  "argument_id": "c850ebb5-cc54-4c99-8561-845be78784d2",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.incompatibility",
+  "comparator_config": "results/ff0514c0-03e6-4849-aaa3-ab1fc3b37721/comparator.json",
+  "status": "solution-present",
+  "description": "For every nonnegative normalized rational allocation h,m,t over the three declared centers, N and M force t=0; N,M,P are incompatible; N,M,S are incompatible; and N with positive Tuesday mass forces the Monday conditional Heads probability above one half. N and M alone are compatible. All are consequences within one fixed centered measure, not an assertion of which update rule is rational. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+}
