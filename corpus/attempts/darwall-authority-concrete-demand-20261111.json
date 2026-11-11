@@ -1,0 +1,19 @@
+{
+  "id": "4b39ecdf-d334-5200-9d3d-162f73259a6d",
+  "label": "Read Darwall and distinguish standing, demand validity and the hard-case reason",
+  "date": "2026-11-11",
+  "kind": "reading",
+  "outcome": "succeeded",
+  "statement_ids": [
+    "f6c46c02-bc4a-520f-add3-9f2a1bfdb259",
+    "53e9f8bf-fa17-5c99-ac00-a0b9288ecf83",
+    "f1ae59d2-cf3c-50f2-82f8-f4bb61a610e7",
+    "875d169d-0ccd-59e5-af65-4d66e349ca14",
+    "9f70ee37-c412-5e8a-b43b-1604c86791ad",
+    "ecdbbaba-0902-58ca-a1eb-1e1e3ca25d55",
+    "1fb30e0b-ee4e-567b-a45c-6d12be8e2588"
+  ],
+  "summary": "Read all 16 argument pages of Stephen Darwall's Yale-hosted primary paper and pinned its exact 19-page PDF and text extraction. Registered separate source-bound propositions for obligation/accountability, equal authority through competence, the expert-advisor challenge to Raz's sufficiency reading, the distinction between favorable outcomes and directed demand, and the author's explicit admission that conceptual interdefinability gives no actual instances. The strongest concrete continuation is an independent warrant for the innocent harmed person's authority to make THIS demand, not another Boolean reason assignment or definitional implication. Positive goal-indexed, Raz, Railton and natural-law interpretations stay live, with the respective conditions and vulnerability/representation issue documented in docs/notes/natural-goodness-function-and-authority.md. No Lean proof or new root edge: the source-reading investigation succeeded, while normative sufficiency and demand-application remain OPEN in the current #699/#1433 case handoff rather than re-queuing an already-read Darwall source as unread.",
+  "blocker": "To advance the actual case, justify competence-to-equal-standing and the harmed person's or community's entitlement to demand abstention; separately establish competent offender, entitled claimant or representative, nonconsent/absence of justificatory rescue, gratuitousness and a feasible noninjurious option. The previous source witness alone cannot establish these premises. Next useful research is a positive warrant (e.g. a new primary Scanlon or Raz argument) tested against the goal-indexed rival, not another transcription of the Darwall concept circle.",
+  "evidence": ["4b27ade9-56d6-51a9-9db7-bdba01546e9a", "4c32a0e0-2bad-5961-a034-74644ea75ed9", "2e947dbc-d747-5a9c-813e-9eda6200eecb", "a88e66fc-a229-55d7-a25b-ca0b2bff37b2", "8b691e17-5768-5f0d-8b8a-f601f3477086"]
+}
