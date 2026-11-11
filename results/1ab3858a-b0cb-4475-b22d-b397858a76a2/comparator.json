@@ -1,0 +1,13 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.InterventionTransitivity.Challenge",
+  "solution_module": "TruthCore.Results.Causality.InterventionTransitivity.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.InterventionTransitivity.certificate"
+  ],
+  "permitted_axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+  ],
+  "enable_nanoda": true
+}

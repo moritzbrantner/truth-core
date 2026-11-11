@@ -1,0 +1,9 @@
+{
+  "id": "8c784aa9-5d5c-42e0-98a9-eb1dcdf5cd67",
+  "label": "Actual-state opposite-value but-for dependence 1399",
+  "term": "Actual-state opposite-value but-for dependence 1399",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.InterventionTransitivity.ButFor",
+  "definition": "For a supplied Model m and distinct Variable indices a,b: replacing the equation for a by the complement of its actual value changes b from its actual value. Both links use the same actual state. Complement is Boolean negation; unequal indices exclude diagonal self-interventions.",
+  "note": "A distinct Prop structure, not graph ancestry, actual exercise or existential support. Analyst stipulation, attribution deferred. Meaning, examples, exclusions, rivals, and OPEN actual-world/existential bridges: docs/notes/causal-transitivity-1399.md. Applicability needs independent argument or evidence, not a source asserting this truth table."
+}

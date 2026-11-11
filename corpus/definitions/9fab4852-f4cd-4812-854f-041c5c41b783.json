@@ -1,0 +1,9 @@
+{
+  "id": "9fab4852-f4cd-4812-854f-041c5c41b783",
+  "label": "Boolean intervention model 1399",
+  "term": "Boolean intervention model 1399",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.InterventionTransitivity.Model",
+  "definition": "Fixed-background recursive Boolean equations Y=f(X), Z=g(X,Y), actual X and endogenous equation replacement. Variable labels are magnitude indices, not substances. Actual and intervened states are explicitly evaluated; do(v=b) fixes v and recomputes descendants. All functions are total; no cycles/noise/further parents.",
+  "note": "Model is data, not empirical adequacy. Analyst stipulation, attribution deferred. Meaning, examples, exclusions, rivals, and OPEN actual-world/existential bridges: docs/notes/causal-transitivity-1399.md. Applicability needs independent argument or evidence, not a source asserting this truth table."
+}
