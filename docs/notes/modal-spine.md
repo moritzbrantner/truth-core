@@ -318,10 +318,13 @@ conditional investigations, not a mandatory first gate:
    For J2 this is done (`specs/necessary-support-coverage.toml`). One-way
    invariance (no novel edge) excludes the mutual-support rival. Coverage is
    weaker and is enough for the join's conclusion without J2. A holder of the
-   rival must deny coverage to block that conclusion. Coverage is accepted by
-   essence-based accounts of dependence between necessary beings and denied by
-   accounts on which grounding facts are contingent. Next: the warrant for
-   coverage against the contingent-grounding account. Also: whether J1 can be
+   rival must deny coverage to block that conclusion. Coverage follows from an
+   essence-based account of dependence between necessary beings (which gives no
+   novel edge) together with F1 and J1. Contingent grounding edges alone do not deny it: in `Control.rootedPair`
+   the edges change between worlds and coverage holds. It is denied only by an
+   account that lets a necessary concrete thing lack every actual concrete
+   supporter while having one elsewhere. Next: the warrant for coverage against
+   that account. Also: whether J1 can be
    weakened to its selected-world instance, which is the only instance the
    coverage route from necessity uses.
 3. Done: the ungrounded individual of the join is the stage-two root (see "The

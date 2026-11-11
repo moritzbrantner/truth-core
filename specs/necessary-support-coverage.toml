@@ -73,7 +73,7 @@ conditions = "mutualSupportExcluded: ActualReflexive m.ontic w, ActualGroundingW
 scope = "Same Profile, selected relation and selected world as the premise and the rival; any worlds and carrier."
 coverage = "All interpretations satisfying the three listed premises."
 exclusivity = "The exclusion holds only under the no-novel-edge condition, which is open and stronger than J2 given the other two premises; without it the rival survives (Control.mutualPair, Control.rootedPair)."
-next_step = "Assess the warrant of the no-novel-edge condition: an essence-based account of support between necessary beings supports it, a worldly contingent-grounding account denies it."
+next_step = "Assess the warrant of the no-novel-edge condition: an essence-based account of support between necessary beings supports it; an account admitting a support edge between necessary beings that holds elsewhere but not at the selected world denies it, while mere loss of actual edges at other worlds does not."
 
 [[argument]]
 id = "Underived necessary concretum, from the actual necessary root and coverage"
@@ -152,4 +152,4 @@ scope = "Same Profile, selected relation and selected world as the premise; two 
 coverage = "One explicitly populated interpretation; it shows compatibility of the rival with the join's endpoint, not survival against it."
 exclusivity = "The rival implies the negation of J2 (existing mutualSupport_excludes); it does not imply the negation of the endpoint."
 witness = "Control.rootedPair in Control.RootedPairCompatible; controls proves the listed conjuncts."
-next_step = "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against worldly contingent-grounding accounts of support among necessary beings."
+next_step = "The rival defeats the endpoint only when the actual necessary root is itself supported elsewhere, which violates coverage (underivedOfCoverage). Assess the warrant of coverage against accounts that let a necessary concretum lack every actual concrete supporter while having one elsewhere; contingency of individual grounding edges alone does not deny coverage."
