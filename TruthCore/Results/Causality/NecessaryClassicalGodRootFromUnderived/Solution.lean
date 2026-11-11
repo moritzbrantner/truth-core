@@ -15,14 +15,12 @@ through `UnderivedRootPerfection`, `PerfectRootPositiveIntellectWill` and
 premise (population, whole-roster nontrapping, contingent grounding). Every
 attribute, act/being and naming premise stays an explicit open input.
 
-NOT a registered result. A corpus argument concluding
-STMT-NECESSARY-CLASSICAL-GOD-ROOT fails the sense-index gate: that statement
-and several of the reused premise statements link two or more senses of nine
-disambiguated terms, and every existing argument to it is on the legacy
-allowlist, which may only shrink. The statement-level route this theorem
-composes already exists through the three registered results above. Exact
-obstacle and next step: attempt a062ed2b-028c-40b3-928b-12925a28a261 and
-docs/notes/modal-spine.md, "The join". -/
+This theorem is registered through `Registration.derive` (result
+57213a13-fda3-4d8d-86ec-7f4462a3e7a1), which binds act priority through the
+transparent wrapper `IndependentPriority` and delegates here. The statement-level
+route this theorem composes already exists through the three registered results
+above. Sense-link cleanup that allowed registration: attempt
+a062ed2b-028c-40b3-928b-12925a28a261 and docs/notes/modal-spine.md, "The join". -/
 
 @[expose] public section
 

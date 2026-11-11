@@ -109,13 +109,37 @@ not use population, whole-roster nontrapping or contingent grounding; those
 premises only produce the root. No extra premise is needed. The join's support
 exclusion is used at the actual world only.
 
-The composition is not a registered result. Any new argument concluding
-`STMT-NECESSARY-CLASSICAL-GOD-ROOT` fails the sense-index check. That statement
-and some reused premises link several senses of nine disambiguated terms. The
-existing arguments to it are allowlisted, and the allowlist may only shrink.
-Registering it would change no root premise, since the statement route already
-exists. Attempt `a062ed2b-028c-40b3-928b-12925a28a261` records the exact senses
-and the cleanup that would unblock it.
+The composition is now a registered result (2026-11-11): result
+`57213a13-fda3-4d8d-86ec-7f4462a3e7a1`, argument
+`8f956c81-3887-4567-a25d-22a66486e30b`, theorem
+`NecessaryClassicalGodRootFromUnderived.Registration.derive`. Registration first
+needed a sense-link cleanup, because `STMT-NECESSARY-CLASSICAL-GOD-ROOT` and two
+reused premises linked senses that their Lean types do not use. The rule applied:
+for each conflicting term, a statement keeps only the senses whose declaration its
+bound type reaches (`scripts/BindTypes.lean` sense reachability, checked by hand
+for structure types such as `Modal.Frame`). The endpoint keeps NECESSARY_2
+(`NecessaryAt`), GOD_4 (`Signature.IsGod`), MAXIMAL_1 (`IsMaximumIn`) and
+WELL_FOUNDEDNESS_2 (`ActualRoot`). It drops 14 links that no part of its type
+uses, among them per se necessity, the frame vocabulary, the nominal God, the q.3
+a.4 cause-of-esse forks, the nonnecessary and contingent root rivals, de dicto
+necessity and adopted potency (its `InPotency` is a free parameter). The underived statement now links world-relative existence (the
+`Ontic` it uses) instead of `PresentEsseSupport`: its type uses `m.grounds`
+directly, so the underived premise and the act-of-being bridges now read the
+same `m.grounds` with the same world-relative existence. `STMT-SIMPLY-PRIOR-IS-ACTUAL-CONCRETE-GROUND` now links the
+`ActualConcreteGround` edge that it uses, not the thinker-ancestry and root
+senses.
+
+Two conflicts were real and are handled by existing records, not new bridges. The
+naming premise is the declared GOD_1 to GOD_4 sense bridge, as in the existing
+maxime-ens routes. For potency, the act-priority record links adopted potency
+(POTENCY_1), while the non-overlap record and this theorem use the free
+`InPotency` parameter (POTENCY_2). Following the #1278 registration, the
+registered theorem binds act priority through the transparent wrapper
+`IndependentPriority` (statement `3b2d2d46-baa6-4772-a2db-bb3daeb092fc`) and
+delegates to the unchanged frozen composition. Registering it changes no root
+premise (computed `frontier-diff`: no change), since the statement route already
+existed. Attempt `a062ed2b-028c-40b3-928b-12925a28a261` records the links removed
+and why.
 
 Today the stage-two chain obtains its root from two regress premises instead:
 every contingent concrete thing has an actual concrete ground, and the whole
@@ -272,10 +296,10 @@ conditional investigations, not a mandatory first gate:
    reversing direction between worlds, so an invariance premise is the first
    discriminator for J1 and J2.
 3. Done: the ungrounded individual of the join is the stage-two root (see "The
-   join"). Next: clean the sense links of `STMT-NECESSARY-CLASSICAL-GOD-ROOT`
-   (NECESSARY, GOD and seven compound terms). Then register the frozen
-   `NecessaryClassicalGodRootFromUnderived` Challenge. Also check the reading of
-   the support relation along the join. In Lean the underived premise and the
-   act-of-being bridges use the same `m.grounds`. The records link the first to
-   present esse support and the second to world-relative existence, two senses
-   of one compound term.
+   join"). Done: the sense links were cleaned and the composition registered
+   (result `57213a13-fda3-4d8d-86ec-7f4462a3e7a1`). The underived premise and the
+   act-of-being bridges now both link world-relative existence for `m.grounds`.
+   Open: the four older arguments to the endpoint keep legacy allowlist entries,
+   because their intermediate statements and the act-priority record (POTENCY_1
+   on a generic `InPotency` parameter) still link several senses. Cleaning those
+   records, or splitting the compound disambiguations, would clear more of them.
