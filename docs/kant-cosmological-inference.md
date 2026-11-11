@@ -300,7 +300,8 @@ Descend through the positive strategy's three load-bearing steps:
    would beg the question. What is missing is an adequately supported alternative
    essential route, not a demand that necessary being cause itself.
 
-The thin target avoids needing all divine attributes at once: seek a concrete
+The selected intrinsic-existence strategy omits the full divine-attribute bundle
+but is stronger than the bare necessary-concrete target: it seeks a concrete
 bearer whose existence is intrinsic rather than received. That reduces the
 number of potential attribute conflicts, which is a legitimate research gain.
 It also removes the all-perfections argument's proposed reason for classifying
@@ -319,11 +320,12 @@ an arbitrary string of predicates. This presumption can supply limited positive
 credibility before complete analysis, with concrete defeaters kept visible.
 It should not be discarded solely because a hidden exclusion is imaginable.
 
-In this application the critic has **not** supplied a contradiction of the thin
-necessary-concrete nature. The strongest specific challenge is a domain change:
-our successful cases preserve independently understood realizers or productive
-conditions, whereas the proposed bearer dispenses with received realization
-altogether. The unbounded/intrinsic-existence step is precisely the feature
+In this application the critic has **not** supplied a contradiction of the
+selected intrinsic-existence nature or of bare necessary concreteness. The
+strongest specific challenge to this strategy is a domain change: our successful
+cases preserve independently understood realizers or productive conditions,
+whereas the strategy's proposed bearer dispenses with received realization
+altogether. This is not an extra condition on other necessary-concrete routes. The unbounded/intrinsic-existence step is precisely the feature
 for which the analogy supplies no independently identified example. Whether
 that is a recipient restriction or part of the power's nature is unresolved.
 This is an undercutting challenge to the extrapolation, not a proof that the
@@ -334,9 +336,9 @@ some content fixing what unreceived concrete subsistence is, and why that
 content, rather than just its label, merits the recombination presumption.
 
 Accordingly the positive conception is a serious, provisionally intelligible
-support option. Its warrant is weaker than the demonstrated sufficient
-possibility premise required by the modal inference; a provisional downstream
-use must retain this precise domain-extrapolation dependency. A demonstrated
+support option. This defeasible warrant does not demonstrate the sufficient
+possibility premise; provisional downstream inference may use it only with its
+domain-extrapolation dependency explicit. A demonstrated
 essential exclusion would defeat that version; an independently justified
 intrinsic-existence nature would strengthen it; mere continued failure to find
 a contradiction would neither turn it into a demonstration nor render the
@@ -399,8 +401,10 @@ The positive account has a substantive compatibility rationale, a defensible
 method of real definition and a limited defeasible recombination presumption; it is not defeated by modal symmetry or the mere
 availability of an empty-world table. It has not yet independently warranted
 its adequate primitive concepts, exhaustive analysis of exclusions, existentially
-loaded essence, or concrete realization. The application-specific undercutter is the move from received realizers to
-unreceived concrete subsistence; absence of an exhaustive analysis alone is
+loaded essence, or concrete realization. The received-to-unreceived undercutter
+concerns the selected intrinsic-existence strategy, which is stronger than bare
+necessary concreteness; it is not an extra requirement on other routes. Absence
+of an exhaustive analysis alone is
 not a refutation or a ban on defeasible warrant. The inspected rival arguments likewise
 do not establish necessary-being impossibility. Modal symmetry is a burden
 comparison, not equal positive evidence for both possibilities.
