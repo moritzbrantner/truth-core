@@ -487,3 +487,86 @@ section. Exact frontier-diff remains 402 -> 402 open premises and 288 -> 288
 verified support alternatives. Existing proof evidence is reused unchanged;
 this extension has prose derivations/model-extension reasoning only. The master
 must challenge this complete added judgment before treating it as reviewed.
+
+### Certified single-instruction consequence continuation (#1398)
+
+The new `RossDerived.Certificate` formalizes the previously prose-only
+consequence layer; the preceding section's “no new certificate” statement
+records its earlier evidence boundary, superseded only for this layer.
+`Derived n q := ∃ p, n.issued p ∧ ∀ a, p a → q a` selects **one** issued
+predicate. It imports the unchanged RossPermission vocabulary and leaves all
+older Challenges, types and proof evidence intact. Its new stipulative definition
+record spells out the issuance primitive and open applicability obligations.
+The new result is `ec569922-5f2e-4756-8b12-1705c958901c`.
+
+Exact scope: arbitrary carriers, issuance neighborhoods and outcome predicates
+satisfy inclusion, pointwise-equivalence invariance and consequence closure.
+Inclusion and composition are direct unpacking/application of this definition,
+not independent evidence of a normative rule. The bundled characterization and
+finite controls discriminate interpretations rather than merely reasserting an
+opaque flag: `Derived issuedMail q ↔ q mail`; the empty neighborhood derives
+nothing; an issued impossible content derives every q. The mail-only case derives
+mail-or-burn but not burn. Thus neither derived disjunction nor closure converts
+burning into adequate compliance or issued authorization. The old issued-content
+certificate still excludes issuing mail-or-burn.
+
+`issuedPair` contains each predicate pointwise equivalent to mail or to burn.
+Every member has an outcome witness. There is no outcome satisfying all members.
+Both mail and burn are individually derived, but their conjunction and False
+are not. Consequently this operator is **not** closed under conjunction of
+arbitrarily different derived contents. Treating it as the consequence of an
+aggregated code would silently replace its existential witness by a joint base.
+A policy licensing that replacement and a joint-satisfiability witness are
+separate requirements if one wishes to retain nonvacuity. This finite control
+refutes aggregation in this interpretation; it is not a global impossibility
+claim about normative systems. Conversely, a single internally inconsistent
+issued predicate does explode here: single-premise closure alone guarantees no
+consistency. No satisfiability assumption was hidden in the universal laws.
+
+Complete revised provisional judgment: the exact-content rival can retain narrow
+issued guidance while admitting useful entailment in a separately defined layer.
+The alleged cost “no consequence closure” therefore applies to issuance, not to
+every account of derived content. The new certificate resolves this structural
+question under the stated semantics. It does not show that all consequences
+are appropriately called duties, give practical guidance equivalent to performing
+the issued instruction, or possess categorical authority. Those are open
+interpretation and warrant burdens, not facts smuggled into Derived. The local
+victim-interest bridge B and the positive interest-relative counteraccount above
+remain untouched. The amputation/rescue limits still prevent treating pro-tanto
+reason as decisive prohibition. Neither account is defeated by the new result.
+
+Rejected further encoding: adding fixed issuance and verdict fields independent
+of R to the old yes/withoutReason pair would simply extend the same free-R
+control. The old actual facts, yes and withoutReason already support the stated
+prose extension. It would neither test a defended premise for B nor establish
+circular justification. In particular, the base-relative A ↔ R calculation shows
+lack of independent warrant from merely asserting A; it does not by itself prove
+that any particular justification of A is circular.
+
+Branch reassessment: the requested single-content operator boundary is resolved
+by its exact laws and controls. Further work on categorical authority needs a
+materially different normative argument about interest and reason-holder
+applicability, with rescue-sensitive assumptions; it cannot be supplied by more
+assignment slots or a structural consequence definition. Master allocation into
+#699 is the next step. A defended local B, an interest-relative counterexample
+satisfying those defended premises, or a rescue-sensitive rule would reopen the
+warrant judgment. A proposed aggregation policy would open a distinct formal
+question about joint bases, not revise this operator's definition unnoticed.
+The #699/#1035 root bridge remains unbuilt; no root closure is claimed. This
+complete added judgment requires the master's independent semantic challenge;
+previous accepted reviews cover their unchanged earlier scope only.
+
+Validation for the added certificate: scoped Solution and Challenge builds,
+Comparator with zero permitted axioms, NanoDa, and focused bind-check (1 bound,
+0 mismatch) passed. Reproduce with `python3 scripts/worker_env.py --
+scripts/verify-result.sh ec569922-5f2e-4756-8b12-1705c958901c` and
+`python3 scripts/worker_env.py -- python3 scripts/corpus.py bind-check --result
+ec569922-5f2e-4756-8b12-1705c958901c`; use the pinned Lean bin ahead of elan
+shims for verifier sandbox execution. The shared fixed-head preview rejected the
+new import; isolated copied warm outputs supplied CLI verification instead.
+No shared build outputs were written. Corpus check, bundle audit, attribution
+check (no changed stating claims), generated imports/docs and diff check passed.
+The computed `target/release/truth frontier-diff --base origin/main` remains
+402 -> 402 root-reaching open premises, 288 -> 288 support alternatives, no
+change. Convention sourceRevision: `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+Final delivered-head CI and master semantic challenge remain pending.

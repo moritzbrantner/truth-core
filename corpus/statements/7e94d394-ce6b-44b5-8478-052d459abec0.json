@@ -1,0 +1,6 @@
+{
+  "id": "7e94d394-ce6b-44b5-8478-052d459abec0",
+  "label": "Single issued-content consequence laws and nonaggregation controls",
+  "paraphrase": "Single-issued-predicate consequences include issued contents, respect pointwise equivalence and close under consequence. Derived(issuedMail,q) iff q(mail). Empty issuance derives nothing; impossible content derives everything. Mail entails mail-or-burn but not burn. Separately issued mail and burn are individually satisfiable, jointly unsatisfiable, and derive neither their conjunction nor False. This is structural consequence, not adequate compliance or categorical authority.",
+  "lean_declaration": "TruthCore.Ethics.RossDerived.Certificate"
+}

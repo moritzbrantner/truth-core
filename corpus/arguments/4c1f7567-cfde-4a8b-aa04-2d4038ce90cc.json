@@ -1,0 +1,14 @@
+{
+  "id": "4c1f7567-cfde-4a8b-aa04-2d4038ce90cc",
+  "label": "Single instruction consequence boundary certificate",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "7e94d394-ce6b-44b5-8478-052d459abec0",
+  "inference_ids": [
+    "d69ccf0d-b66f-424b-b5a9-666d9105ec0f"
+  ],
+  "meaning": "Constructive consequence laws and finite omission/nonaggregation controls. Inclusion and consequence composition are direct applications of the stipulated definition, not independent normative support. No authority or root closure.",
+  "definition_ids": [
+    "be4788e8-2e87-4ad1-8f46-6c36846989be",
+    "e7812110-d4a0-44b2-b026-080b0d686470"
+  ]
+}
