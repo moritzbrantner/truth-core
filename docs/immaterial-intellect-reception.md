@@ -432,3 +432,189 @@ binding changes. All proof claims above refer to the unchanged conditional
 records and retain every input. Rival commitments and replies are provisional
 prose, not Lean certificates. No new conditional support option, premise
 discharge or closure is claimed; the computed diff accompanies the PR.
+
+
+## OLD #355 continuation: the Plotinian One and the intellect bridge (2026-11-11)
+
+This bounded comparison uses main `c01ff48e706681c0b90e86376b716b42419b592a`,
+including the reviewed #1434 assessment above. It asks whether an affirmative,
+productive immaterial first in Plotinus provides the missing same-sense rival
+to `STMT-IMMATERIAL-IS-INTELLECTUAL`. The answer is **not yet**: the source
+provides a developed alternative to first-principle *noesis*, but does not
+license treating its first as lacking every intellectual perfection meant by
+`HAS_INTELLECT_1`. This narrows the proposed test; it does not defeat either
+account or independently warrant the universal immateriality bridge.
+
+### Reuse and primary-text scope
+
+The `related` and `dossier` packs for `180f5ad2-a421-541a-85c9-9bca578b4a43`,
+the three grade-input dossiers, and `context IMMATERIAL-IS-INTELLECTUAL-FROM-GRADES`
+were inspected. The existing #361 dossier for
+`6218cce5-6152-5cb0-9810-b62645bd3618`, source claim
+`e8f6b584-a62d-59ed-b78a-451fb3574666`, and definition
+`83516bdf-9ae1-5ed7-a337-5dafc4dea266` already distinguish Intellect's
+thinking/intelligible articulation from the absolutely simple first. The
+[existing Plotinian source note](notes/plotinian-composition-unity.md) preserves
+the larger positive dependence/productivity argument and the completed
+VI.9.1–6 reading. The 2026-11-03 #361 issue comment predates that successor
+reading; its statement that VI.9.1–6 remains unread is stale.
+
+Selected rereading materialized and read the complete existing Greek V.4
+witness and complete VI.9.2, .3, .4 and .6 witnesses, using their existing
+First1KGreek revision/blob recorded in that note. No translation was used as
+a witness. The decisive V.4.2 qualification below follows the already claimed
+`διὰ τί δὲ οὐ νοῦς ... διὸ δύο ἤδη` argument; it must not be omitted when
+using that argument as evidence against cognition. The complete pinned
+`AQUINAS-ST-I-Q14-A1` was also reread. For the strongest reply, the same
+hash-checked full q.14 XML was read at complete articles a.2, a.4 and a.5,
+including objections/replies, at XML IDs `TAca84-d1e118-Dd1e445`,
+`TAca84-d1e118-Dd1e886`, and `TAca84-d1e118-Dd1e1078`. These are contextual
+primary readings in existing source `c77377cf-501b-56c6-be40-b518e9aad101`,
+revision `f9065dc8ce7bc790b8c972e49ee19d661f028be6`, full XML blob
+`313acd7bdc7586fb9c92f75dfc5441ab37f028ec`; the registered a.1 selector itself
+does not cover these other articles. No new stating claim or claim binding
+is registered for them, and the existing candidate is not marked complete.
+
+### An affirmative first, but not the earlier noncognitive hypothesis
+
+V.4.1 supplies an affirmative account: an ungenerated, nonbodily,
+self-standing simple first, whose perfection and power explain production
+without its leaving its own condition. The fire/snow analogies and distinction
+between activity of essence and activity from essence in V.4.2 explain the
+proposed procession. This is stronger than a name or an empty recipient. It
+also carries disputed perfection-to-productivity and causal-coverage premises;
+it is not an independently demonstrated existent or a model of all root inputs.
+
+Crucially, V.4.2, from `τὸ νοητὸν ἐφ’ ἑαυτοῦ μένον` through
+`νοήσει ἑτέρως ἢ κατὰ τὴν νοῦ νόησιν`, denies that the first is unperceiving
+or insensible, ascribes life in itself and discrimination of itself, and
+qualifies its self-apprehension by *as if* awareness and thinking otherwise
+than Intellect thinks. These qualified expressions are not a literal
+attribution of sensory organs or an acquired cognitive state. They positively
+exclude the inference “not Intellect, therefore a causally productive but
+wholly unaware nature.” The earlier analyst nonintentional-disposition rival
+is therefore **not substantiated by identifying it with this One**. That
+analyst hypothesis remains distinct and unverified; this source comparison
+neither supplies its promised joint model nor refutes its possibility.
+
+VI.9.6, from `οὐδὲ νόησις, ἵνα μὴ ἑτερότης` to the final cause/effect
+comparison, denies noesis of self and others because it would introduce
+otherness or need. It expressly denies that absence of self-knowing makes
+the first ignorant: ignorance presupposes the otherness which is absent.
+It then retracts even the description of being present to itself to safeguard
+unity. The positive explanation is self-sufficiency and causal priority to
+thinking; a cause need not be identical with what it causes. This is not
+absence of proper noesis inferred from material deficiency, and it must not
+be paraphrased as unconsciousness or ignorance. Conversely, V.4.2's qualified
+awareness language must not erase VI.9.6's explicit apophatic restrictions.
+The bounded reading retains both: positive qualified awareness and refusal
+to classify the first as an ordinary noetic subject. A stronger harmonization
+of those formulations remains an interpretive obligation.
+
+VI.9.4, opening `γίνεται δὲ ἡ ἀπορία μάλιστα`, distinguishes our grasp of
+the One by a presence superior to knowledge from both episteme and noesis.
+The bearer there is the ascending soul. It is **not** direct evidence that
+the One itself performs the soul's act of presence. VI.9.3 likewise places
+the first prior to determinate intelligible form and Being; its denial of
+being one of its products is not literal nonexistence. Neither passage
+silently supplies membership in the case's `Being` carrier or identity with
+`GOD_4`. Nonbodily firstness is also not, without a domain/component bridge,
+the exact old two-negation antecedent.
+
+### The strongest simple-cognition reply and the remaining disagreement
+
+Aquinas's a.1 ad 1–3 already removes habit, potentiality, discursive inference
+and created universal/particular modes while retaining a single positive
+cognition. Article a.2 co./ad 2 explicitly denies that divine intellect is
+perfected by an intelligible distinct from itself: pure actuality makes
+intellect and intelligible identical, and immanent cognition is an act of
+what is perfect, not a transition from deficiency. Article a.4 co. identifies
+intellect, understood object, intelligible species and understanding with
+the divine essence/esse and explicitly denies a resulting substantial
+multiplicity. Thus “thought needs an external object or a prior ignorant
+state” does not engage this reply. It would misdescribe its positive account.
+These arguments presuppose positive divine cognition and other metaphysical
+commitments; they do not independently derive that cognition from the two
+negative structural conditions under investigation.
+
+Nor does the word *identity* settle the comparison in the other direction.
+At V.4.2's ending, Intellect is its intelligible realities rather than a
+receiver copying independently prior things. VI.9.2, from
+`εἰ μὲν αὐτὸς τὸ νοοῦν καὶ τὸ νοούμενον`, nevertheless treats the very same
+Intellect as doubled in thinking and being thought, and describes its Forms
+and comprehensive intelligible Being as articulated plurality. The strongest
+Plotinian objection therefore survives merely removing two numerically
+different relata: it contests whether determinate self/object articulation
+is compatible with the first's unqualified simplicity. Aquinas's answer is
+that distinct cognitive descriptions need posit no real multiplicity in
+simple actuality. The source comparison locates a genuine ontological
+question about articulation, not a shared theorem that all cognition is
+composite or a demonstrated contradiction within the Thomistic answer.
+
+Article a.5 co./ad 1–3 makes the further distinction useful here: God knows
+other things through his own essence containing their likenesses, without
+being perfected or specified by those external things. Its positive argument
+uses perfect self-knowledge, knowledge of the extent of one's power, and
+first-cause reach. Plotinus's productive power and qualified self-awareness
+alone do not supply those same knowledge-of-power and intentional-containment
+bridges. Nor may causal precontainment be defined as cognitive possession:
+V.4.2 expressly contrasts the first as power of all with its derivative as
+already all. The content/applicability of that contrast requires assessment,
+not an assignment of the old primitive.
+
+| Test against OLD #355 | Finding and remaining bridge |
+| --- | --- |
+| Productive immateriality with no proper Plotinian noesis | Textually motivated by the simplicity/self-sufficiency account; stronger than arbitrary false `HasIntellect`. It remains conditional on that ontology. |
+| Productive immateriality with no awareness or cognitive perfection whatsoever | Not supported by these readings; V.4.2's positive qualified awareness blocks that attribution, and VI.9.6 denies ignorance. |
+| A direct counterexample to unchanged `HAS_INTELLECT_1` | Not obtained. It needs common-domain structural inclusion and a defensible exclusion of the supra-noetic mode from the divine intellectual perfection, with no semantic substitution. |
+| A proof that the One has the unchanged `HAS_INTELLECT_1` | Not obtained either. Higher status or qualified awareness is not a certified recognition bridge; sensory awareness was already insufficient. |
+| Aptitude, actuality and same bearer | V.4.2 is about the first's qualified self-presence, VI.9.4 about the soul's presence to it. Neither is `CanHaveForm` capacity becoming actual possession of an intelligible form by the same old target bearer. |
+| Will from absence of need/desire | VI.9.6's denial of wanting does not refute the q.19 power-level inclination/recognition account. That account distinguishes inclination from current exercise or a lack to be remedied. No new will conclusion follows here. |
+
+### Proposed provisional judgment and next discriminating test
+
+The earlier all-noncognitive analyst rival gains **no source-backed instance**
+from the One in these ranges. The Plotinian first is instead a substantive
+rival account of ultimacy whose noetic classification remains unbridged to
+`HAS_INTELLECT_1`. This is a more precise obstruction than an allegedly empty
+recipient or a lawlike-output counterexample. It supports withholding the
+claimed counterexample and withholding an inferred positive calibration alike.
+It leaves the #1434 judgment of unresolved universal aptitude/grade warrant
+in place; neither the textual disagreement nor a relabeling closes that gap.
+
+The next useful test is whether *determinate intentional content and genuine
+self/other cognition require an internal articulation excluded by the first's
+simplicity*, even when intellect, act and intelligible are really identical.
+The comparison must distinguish descriptive/intentional distinctions from
+constitutive or otherwise real multiplicity, and separately defend whether
+causal containment plus qualified self-awareness supplies knowing effects.
+On the Thomistic side a.2/a.4/a.5 provide the concrete positive arguments to
+assess, not an assumption that every thinker is discursive. On the Plotinian
+side V.4.2 and VI.9.2/.6 supply the positive unity/need objection and its
+awareness qualifications, not an assumption that non-noesis means ignorance.
+An independently defended result on either of these exact bridges would
+change the assessment. Repeating the grade theorem, its omission assignments,
+or the assertion that a cause can lack its effect would not answer the test.
+
+No new canonical sense, definition or statement is introduced: existing
+`DEF-PLOTINIAN-INTELLECT-DUALITY` already bounds its own noesis, while
+`DEF-HAS-INTELLECT` retains its positive divine-cognition intention and primitive
+formal status. The missing relationship is recorded here as **OPEN**, rather
+than replaced by a new opaque sense flag. A formal comparison using new senses
+would require the coordinator's shared-definition ownership and faithful
+separate types/definitions before any bridge theorem. There is no useful new
+nonduplicate implication or adequate joint model on the current dictionary;
+a false primitive assignment would evade the precise question.
+
+Claim/type self-sweep: no Lean, statement, claim, definition, source binding,
+argument, result or frontier edge changes. The existing grade theorem and its
+three open inputs are unchanged. Current-main q.19 dossiers give its three
+immediate inputs conditional `proved` status with `established: false`; the
+historical #1189 inventory above describes its original delivery, not absence
+of later conditional derivations. Those do not establish the missing
+reception-to-actual-possession application here. Formal consequence, source
+reading and independent warrant remain distinct. Actual premise comparison:
+**no premise change**; the computed delta accompanies publication. Independent semantic challenge accepted this complete comparison at
+`64ee819c086d17de7b0114a5f835d9ac404fd695` without required repair, including
+the actual Greek/Latin passages and full synthesis. That acceptance concerns
+source fidelity and the stated assessment boundaries, not premise establishment.
