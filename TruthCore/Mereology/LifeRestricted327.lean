@@ -1,6 +1,7 @@
 module
 
 public import TruthCore.Mereology.ProcessTurnover
+public import TruthCore.Mereology.Fission1397
 
 /-! Analyst operational candidate for #327, not a definition of all biological life.
 Roles name locally identified production capacities, never organisms or souls.
@@ -59,6 +60,11 @@ alone does not resurrect its lost production capacities. This is not a general
 claim that starvation or dormancy is death in actual organisms. -/
 def stopped : State := regenerate false full
 
+/-- All three admitted occurrences carry the same active maintenance mechanism.
+The branching edges are separately supplied by the old structural fixture; no
+biological division mechanism, resource allocation or event identity is inferred. -/
+def localState (_ : TruthCore.Mereology.Fission1397.Occurrence) : State := full
+
 def Certificate : Prop :=
   Reciprocal (regenerate true) ∧
   ¬ Reciprocal (replaceExternally true) ∧
@@ -66,6 +72,11 @@ def Certificate : Prop :=
   (∀ n, run n = full) ∧
   (∀ n c, present n c → ¬ present (n + 1) c) ∧
   stopped = empty ∧ regenerate true stopped = empty ∧
+  (∀ o, regenerate true (localState o) = localState o) ∧
+  (∀ (E : Type) (event : TruthCore.Mereology.Fission1397.Occurrence → E),
+    TruthCore.Mereology.Fission1397.Sufficient
+      TruthCore.Mereology.Fission1397.branching event →
+    ¬ TruthCore.Mereology.Fission1397.Distinct event) ∧
   (∀ (P : Type) (carrier : TruthCore.Mereology.Vitalism.Phase → P)
     (parts : P → TruthCore.Mereology.Vitalism.Component → Prop),
     TruthCore.Mereology.ProcessTurnover.PreservesContinuity
