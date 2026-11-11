@@ -1,0 +1,9 @@
+{
+  "id": "0bb0d231-5449-4ec2-97a1-ef5e3c1ddc28",
+  "label": "Predictable amnesia defeats unrestricted future deference",
+  "paraphrase": "In the same fair two-coin-world model, a world-revealing present report gives Heads conditional one or zero; a later erased report gives one half in both worlds. Conditioning now on both present knowledge and that known future one-half report preserves one or zero, while conditioning on the future report alone yields one half. The erased report cannot reconstruct the revealing report; the reverse reconstruction exists. Thus unrestricted future-credence deference fails in this explicit loss-of-information control even with each credence calculated by ordinary report conditioning. No claim of Beauty applicability follows.",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.AmnesiaControl",
+  "definition_ids": [
+    "6a579758-e59a-4a6c-9244-2062deb4c1e7"
+  ]
+}

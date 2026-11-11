@@ -1,0 +1,11 @@
+{
+  "id": "a70546f7-b4f2-486a-b0c7-c5ba411e125c",
+  "label": "Correct answers to opposite truths exclude blanket insensitivity",
+  "argument_id": "a0230833-426f-40b1-9828-f1a846115ea7",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.oppositeCorrectAnswersExcludeInsensitivity",
+  "comparator_config": "results/a70546f7-b4f2-486a-b0c7-c5ba411e125c/comparator.json",
+  "status": "solution-present",
+  "description": "Equal answers at the same two states would make their opposite correct answers equal, since this method gets both right. This excludes the specified output invariance without addressing causal dependence or ordinary warrant."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "256d08c8-7739-4f9c-8ab1-77d818a80788",
+  "label": "Power compatibility scope certificate (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "946757d7-3364-44ec-9045-a2734e368b18",
+  "rule": "Constructive predicate factorization",
+  "meaning": "Conditional scope audit for issue 1392, not a derivation of active-power sufficiency or root closure. The compatibility witness assigns ability to AllReq only as an existential mathematical construction; no metaphysical definition of ability is proposed. The actual-witness consequence explicitly assumes Infinite g. RelativeBridge retains separately supplied feasible and two OPEN bridges. See docs/notes/power1392.md for semantic limits and positive rivals.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

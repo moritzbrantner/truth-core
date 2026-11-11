@@ -1,0 +1,9 @@
+{
+  "id": "651510d0-ee78-45d6-81ab-f64632bf65d4",
+  "label": "The strict verification formulation fails the selected empirical test",
+  "paraphrase": "OPEN verifiability premise for the empirical-only criterion. Its supplied formulation fails the selected empirical test. This is the existing verification failure test applied to the strict formulation.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.StrictFormulationNotVerifiable",
+  "definition_ids": [
+    "576cb0c5-a2e5-427a-b22b-7b20cffac0ad"
+  ]
+}

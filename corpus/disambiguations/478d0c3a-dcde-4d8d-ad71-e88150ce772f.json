@@ -1,0 +1,25 @@
+{
+  "id": "478d0c3a-dcde-4d8d-ad71-e88150ce772f",
+  "label": "Prior demonstration certificate and known-prior-premise demand",
+  "term": "prior demonstration",
+  "term_label": "PRIOR_DEMONSTRATION",
+  "sense_definition_ids": [
+    "72b2f936-34ec-4982-b120-b5c5ffd1f8b8",
+    "67a11f33-c4c5-4406-befa-2b9e66be52db"
+  ],
+  "resolution": "PRIOR_DEMONSTRATION_1 demands an earlier certificate for every knowledge case. PRIOR_DEMONSTRATION_2 retains the same certificate demand and adds an earlier used premise known to the same agent. Well-founded priority eliminates knowledge under the stronger requirement only. The model with a supplied certificate and empty priority distinguishes the two requirements. The infinite priority model shows why accessibility is substantive.",
+  "senses": [
+    {
+      "id": "0aed19d7-c1f7-4a53-ad57-c678fe441392",
+      "label": "PRIOR_DEMONSTRATION_1",
+      "definition_id": "72b2f936-34ec-4982-b120-b5c5ffd1f8b8",
+      "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.WeakPriorDemonstration"
+    },
+    {
+      "id": "7e25658f-7487-4473-b64f-7bd25513f045",
+      "label": "PRIOR_DEMONSTRATION_2",
+      "definition_id": "67a11f33-c4c5-4406-befa-2b9e66be52db",
+      "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.StrongPriorDemonstration"
+    }
+  ]
+}

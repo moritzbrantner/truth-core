@@ -1,0 +1,11 @@
+{
+  "id": "a8cbcdd0-9ad3-4efe-88ec-37014ffd3ec8",
+  "label": "Actual completeness and consistent assent yield accuracy",
+  "argument_id": "1260b5aa-4fed-481a-9a92-a1d46099a983",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.accuracyFromCompleteConsistent",
+  "comparator_config": "results/a8cbcdd0-9ad3-4efe-88ec-37014ffd3ec8/comparator.json",
+  "status": "solution-present",
+  "description": "Classically a false assent to p would pair with assent to true not-p. This stronger cognitive branch is separate from minimal Route B."
+}

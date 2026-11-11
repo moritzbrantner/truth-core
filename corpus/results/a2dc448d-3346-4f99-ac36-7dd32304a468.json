@@ -1,0 +1,11 @@
+{
+  "id": "a2dc448d-3346-4f99-ac36-7dd32304a468",
+  "label": "Sleeping Beauty positive rivals and omission witnesses by exact rational algebra",
+  "argument_id": "ce496733-0a72-4ba7-9c51-b69775c78b72",
+  "challenge_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Challenge",
+  "solution_module": "TruthCore.Results.Epistemology.SleepingBeauty1401.Solution",
+  "theorem": "TruthCore.Results.Epistemology.SleepingBeauty1401.omissionControls",
+  "comparator_config": "results/a2dc448d-3346-4f99-ac36-7dd32304a468/comparator.json",
+  "status": "solution-present",
+  "description": "Uniform thirds satisfy M,S,P and violate N. The allocation (1/2,1/4,1/4) satisfies N,S,P and violates M, with Monday conditional Heads probability 2/3. The allocation (1/2,1/2,0) satisfies N,M and violates S,P. Both live rival allocations have strictly positive mass at every center. These witness minimality of the two incompatible triples relative to the specified normalization background, not normative victory. Scope and provisional assessment: docs/notes/sleeping-beauty-1401.md. No root premise change; the applicability/warrant bridge to issues #931 and #934 remains unbuilt."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "13055937-73dc-4c54-8970-7ebaf4bfd1d1",
+  "label": "Individuated assertion truth reconnects the legacy assertion route (inference)",
+  "input_statement_ids": [
+    "98f13d52-356c-440a-956a-c28df295fe73",
+    "f221d6c6-3a49-4a98-bf05-a12450d1fac7"
+  ],
+  "output_statement_id": "5a035a1e-e668-4327-b989-2f0aff4aece2",
+  "rule": "Content-preserving conditional composition and interpreted negation",
+  "meaning": "One-way represented asserted content plus the existing Disquotes bridge yields the exact existing legacy assertion-truth target; then the checked confirmation/authority route applies. Arbitrary legacy attitude translation is not assumed.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

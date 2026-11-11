@@ -1,0 +1,11 @@
+{
+  "id": "cf896bd6-1437-4c43-a6da-05a29b49d797",
+  "label": "Thin reasons and actual belief without warrant are jointly satisfiable",
+  "argument_id": "a07b79ec-4c3d-4095-94e8-827d0eb25f89",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.justificationOmissionControl",
+  "comparator_config": "results/cf896bd6-1437-4c43-a6da-05a29b49d797/comparator.json",
+  "status": "solution-present",
+  "description": "Set reason and belief true and eligibility and warrant false. The warrant bridge holds without an eligible case. The interpretation shows why thin F6 plus actual belief does not produce warrant in this profile."
+}

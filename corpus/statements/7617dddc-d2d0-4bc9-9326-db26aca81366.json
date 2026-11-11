@@ -1,0 +1,10 @@
+{
+  "id": "7617dddc-d2d0-4bc9-9326-db26aca81366",
+  "label": "One form token has at most one attached body token at each time",
+  "paraphrase": "OPEN analyst constraint on the same typed attachment relation: two body tokens attached to the same form token at the same time are equal. This imposes no all-time mate stability, numerical person identity or actual body/soul interpretation.",
+  "lean_declaration": "TruthCore.Mereology.FormMate1397.UniqueAt",
+  "definition_ids": [
+    "f90c4e6e-38c8-4991-8b6a-1238ca40d0c6",
+    "97f18a93-e03f-40ee-86c3-364e7629efd0"
+  ]
+}

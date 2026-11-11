@@ -1,0 +1,11 @@
+{
+  "id": "46c875b1-286f-4bfb-a1c9-cd66acbfc7f6",
+  "label": "Selected existence from thought occurrence and representation",
+  "argument_id": "afc88915-f9c8-4371-8225-c52f5e6af2a6",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.existenceFromOccurrence",
+  "comparator_config": "results/46c875b1-286f-4bfb-a1c9-cd66acbfc7f6/comparator.json",
+  "status": "solution-present",
+  "description": "Select an occurring thought, then its representative. The open episode-to-existence bridge supplies that same candidate's membership in the existence extension. Combined with the assertion route this defeats the scoped emptiness denial under all three premises. An actual-world application needs the intended existence extension and the same representation contract. Concrete population needs a further concreteness bridge."
+}

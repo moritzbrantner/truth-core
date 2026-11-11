@@ -1,0 +1,19 @@
+{
+  "id": "7465d98e-5564-470d-8686-1e5a40273b8c",
+  "label": "Sincere individuated assertions with scoped accuracy are true",
+  "premise_statement_ids": [
+    "c5035612-2cfd-4ff4-8f2a-d483c0d3e0aa",
+    "7cddac02-dc16-4f8f-b26d-9e736ca2d811",
+    "8376542e-2337-43ab-87e8-007c07cabc7e"
+  ],
+  "conclusion_statement_id": "98f13d52-356c-440a-956a-c28df295fe73",
+  "inference_ids": [
+    "43683d23-3995-48a1-bc65-0a0e9b58cc47"
+  ],
+  "meaning": "Same bearer and identical content; scoped accuracy applies only through the explicit assertion-domain premise.",
+  "definition_ids": [
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "6d58bc3a-2acf-4ede-bb06-015ec673cfbe",
+  "label": "Actual truth presence and apprehension yield complete assent",
+  "argument_id": "c3c9b6f1-c821-4a05-810c-f7b5a1181fa9",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.completenessFromActualCognition",
+  "comparator_config": "results/6d58bc3a-2acf-4ede-bb06-015ec673cfbe/comparator.json",
+  "status": "solution-present",
+  "description": "Every truth is actually present to the same intellect; actual access and propositional assent bridges yield completeness. No capacity-to-actuality inference."
+}

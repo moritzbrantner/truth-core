@@ -1,0 +1,12 @@
+{
+  "id": "b98e4be9-94f2-4151-b0bc-df754f214e6f",
+  "label": "One benchmark success excludes blanket benchmark unreliability (inference)",
+  "input_statement_ids": [
+    "8764b523-c968-46b1-8bfb-7c5e042e5eef"
+  ],
+  "output_statement_id": "874ee0e3-eef7-4ae5-aa00-ed16fe1996a0",
+  "rule": "Witness instantiation against the universal denial",
+  "meaning": "Instantiate the universal failure thesis with the same successful method on the same benchmark. Actual assessment requires a calibrated benchmark and a successful method in the disputed class.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

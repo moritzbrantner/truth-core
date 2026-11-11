@@ -1,0 +1,18 @@
+{
+  "id": "27d282d6-5415-41d3-a170-6006378612dc",
+  "label": "False assent defect and divine defect exclusion yield accuracy",
+  "premise_statement_ids": [
+    "df407a0f-c1df-4910-a282-45c90b7dda1e",
+    "1f6a2814-844b-41ad-8b11-cd190f1740e1"
+  ],
+  "conclusion_statement_id": "7dd8a624-b04d-4ea0-9ecf-2d9e5cab95ad",
+  "inference_ids": [
+    "1e575658-476d-43be-b72a-941bcf2b3617"
+  ],
+  "meaning": "Classically a false actual assent would instantiate the forbidden cognitive defect. Non-discursiveness alone is not a premise.",
+  "definition_ids": [
+    "3d69a2b8-58b7-4888-943e-e32ea702fb02",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

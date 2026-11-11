@@ -1,0 +1,11 @@
+{
+  "id": "721646f2-eadd-43d4-8df9-a3aa00c48fd7",
+  "label": "Finite benchmark accuracy and opposite-truth responsiveness are independent",
+  "argument_id": "e8a66098-87f2-46ec-b26f-711a71ac9cc7",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.accuracyResponsivenessControls",
+  "comparator_config": "results/721646f2-eadd-43d4-8df9-a3aa00c48fd7/comparator.json",
+  "status": "solution-present",
+  "description": "The constant true method clears a skewed four-entry benchmark while insensitive and fallible. The opposite-answer method changes its output with truth while failing the benchmark. These examples separate the two supplied assessments."
+}

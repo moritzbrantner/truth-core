@@ -1,0 +1,6 @@
+{
+  "id": "d3418f28-7f82-4ce1-bc10-cb42d7a9155f",
+  "label": "Polynomial class identifiability and coordinate controls",
+  "paraphrase": "Over every commutative integral domain, evaluation on distinct samples identifies coefficient polynomials of natDegree at most d iff sample cardinality exceeds d. A monic sample product produces agreement and divergence at any supplied fresh point, including empty data. Nonzero affine input substitution preserves degree. Rational polynomials agree at 0 through 3 and predict 16 versus 40 at 4. The real coordinate x+x cubed is bijective and changes the displayed law degree from three to one. No compatibility existence, actual law, coordinate warrant, or root truth is asserted.",
+  "lean_declaration": "TruthCore.Science.PolynomialInduction.Certificate"
+}

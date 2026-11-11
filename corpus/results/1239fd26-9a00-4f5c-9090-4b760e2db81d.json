@@ -1,0 +1,11 @@
+{
+  "id": "1239fd26-9a00-4f5c-9090-4b760e2db81d",
+  "label": "Paired conditional corroboration by positive rational algebra",
+  "argument_id": "98a4129a-8f4b-43bf-ae3c-7cb9098692fa",
+  "challenge_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Solution",
+  "theorem": "TruthCore.Results.Logic.CorrelatedTestimony1396.criterion",
+  "comparator_config": "results/1239fd26-9a00-4f5c-9090-4b760e2db81d/comparator.json",
+  "status": "solution-present",
+  "description": "Derives both directions under positive cells and 0<prior<1, using existing Comparison update constraints for normalizers. The swapped condition is indispensable for both-sided improvement; no real-world hypothesis probabilities or root-facing bridge supplied."
+}

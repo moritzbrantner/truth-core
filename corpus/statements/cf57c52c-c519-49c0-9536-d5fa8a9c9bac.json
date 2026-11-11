@@ -1,0 +1,9 @@
+{
+  "id": "cf57c52c-c519-49c0-9536-d5fa8a9c9bac",
+  "label": "Eligible uptake of an epistemic reason meets the warrant standard",
+  "paraphrase": "OPEN analyst calibration. For each agent and content, the presence of an epistemic reason, actual belief and supplied eligibility jointly suffice for the supplied warrant predicate.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.EligibleReasonUptakeWarrants",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

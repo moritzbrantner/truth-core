@@ -1,0 +1,11 @@
+{
+  "id": "0f83384c-0661-4134-96da-a1006cd0c7d6",
+  "label": "Sincere individuated assertions with scoped accuracy are true",
+  "argument_id": "7465d98e-5564-470d-8686-1e5a40273b8c",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracityContent1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracityContent1410.contentRouteA",
+  "comparator_config": "results/0f83384c-0661-4134-96da-a1006cd0c7d6/comparator.json",
+  "status": "solution-present",
+  "description": "Same bearer and identical content; scoped accuracy applies only through the explicit assertion-domain premise."
+}

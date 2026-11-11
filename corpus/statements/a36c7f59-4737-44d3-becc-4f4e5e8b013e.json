@@ -1,0 +1,12 @@
+{
+  "id": "a36c7f59-4737-44d3-becc-4f4e5e8b013e",
+  "label": "Strict verification cannot hold and be meaningful at its in-scope unverifiable formulation",
+  "paraphrase": "If the strict empirical-only criterion holds, its specified formulation lacks cognitive significance; if the formulation has cognitive significance, the criterion fails. The two implications are about the same scope and verifiability test.",
+  "lean_declaration": "TruthCore.Logic.GlobalThesisBoundaries.StrictVerificationDilemma",
+  "definition_ids": [
+    "576cb0c5-a2e5-427a-b22b-7b20cffac0ad"
+  ],
+  "disambiguation_ids": [
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
+  ]
+}

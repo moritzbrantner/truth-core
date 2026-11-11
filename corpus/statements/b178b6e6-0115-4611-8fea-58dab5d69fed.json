@@ -1,0 +1,12 @@
+{
+  "id": "b178b6e6-0115-4611-8fea-58dab5d69fed",
+  "label": "PRIOR_DEMONSTRATION_2 requires a known prior premise actually used in every knowledge case",
+  "paraphrase": "OPEN analyst reading. Every agent who knows a content has a supplied prior demonstration certificate for it and actually uses at least one premise that the same agent knows and that is earlier in the supplied priority relation.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.StrongPriorDemonstration",
+  "definition_ids": [
+    "67a11f33-c4c5-4406-befa-2b9e66be52db"
+  ],
+  "disambiguation_ids": [
+    "478d0c3a-dcde-4d8d-ad71-e88150ce772f"
+  ]
+}

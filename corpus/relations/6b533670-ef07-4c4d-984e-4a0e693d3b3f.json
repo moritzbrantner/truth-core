@@ -1,0 +1,10 @@
+{
+  "id": "6b533670-ef07-4c4d-984e-4a0e693d3b3f",
+  "label": "An F6 reason excludes the global denial in the same profile",
+  "subject_kind": "argument",
+  "subject_id": "fe175c53-4e91-4a5b-bd51-81c1eb124275",
+  "predicate": "refutes",
+  "object_kind": "statement",
+  "object_id": "2fcbd634-d444-4ec2-a9d0-5b86e66afa63",
+  "note": "Conditional on an epistemic reason witness from the same profile. The epistemic kind is the belief-reason slice used by F6."
+}

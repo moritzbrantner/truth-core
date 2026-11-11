@@ -1,0 +1,9 @@
+{
+  "id": "72d257cd-1203-4b32-bd70-bddefccfd63e",
+  "label": "Belief and local assertion sincerity",
+  "term": "belief and local assertion sincerity",
+  "definition": "Believes relates an agent to a content the agent holds to be true. SomeBelief requires a pair in this primitive relation. The local sincerity bridge says that whoever asserts the selected content believes that same content. When Lean propositions are the contents, NoBeliefs supplies the denial itself as a possible content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.AssertedContentIsBelieved",
+  "note": "Analyst formulation, attribution deferred. Sincerity can be contested for insincere, conventional or role-based assertions. Factive knowledge, cognitive meaning, a reason to believe, and actual belief are separate commitments."
+}

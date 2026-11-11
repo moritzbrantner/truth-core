@@ -1,0 +1,13 @@
+{
+  "id": "bfdb52c6-2543-4522-adc5-29d1d1a1850e",
+  "label": "Separate assent leaves recover old bundled attribute bridge (inference)",
+  "input_statement_ids": [
+    "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+    "00c2e024-f7d9-41c2-8efd-36566c456baf"
+  ],
+  "output_statement_id": "7cffee54-a87d-504e-80d1-81ada7387696",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Pair sincerity and assent-to-held-known for the same speaker. This is an alternative support of the existing bridge, not its discharge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

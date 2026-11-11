@@ -2,6 +2,7 @@
 module
 
 public import TruthCore.Results.Logic.AdaptivePrediction.Solution
+public import TruthCore.Results.Logic.AssertionRetorsion.Solution
 public import TruthCore.Results.Logic.AtomismIndependence.Solution
 public import TruthCore.Results.Logic.CaseNonContradiction.Solution
 public import TruthCore.Results.Logic.CertifiedCorrection.Solution
@@ -17,6 +18,7 @@ public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.LocalRo
 public import TruthCore.Results.Logic.CollectivePossibilityRouteBoundary.RealizationStrength.Solution
 public import TruthCore.Results.Logic.ContrastiveWorldview.Solution
 public import TruthCore.Results.Logic.CorrectionCriterion.Solution
+public import TruthCore.Results.Logic.CorrelatedTestimony1396.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Solution
 public import TruthCore.Results.Logic.EpistemicAccuracy.Statewise.Solution
 public import TruthCore.Results.Logic.EpistemicAuthority.Solution
@@ -27,6 +29,7 @@ public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentFrom
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.IndependentStrength.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.NamedElimination.Solution
 public import TruthCore.Results.Logic.EpistemicReasonDefinitions.OrdinaryFromThin.Solution
+public import TruthCore.Results.Logic.EpistemicUnderminers.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.Controls.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleAssertionBoundary.ExactPolicyRival.Solution
 public import TruthCore.Results.Logic.ExcludedMiddleIffDne.Solution
@@ -38,6 +41,7 @@ public import TruthCore.Results.Logic.FitchKnowability.Solution
 public import TruthCore.Results.Logic.ForeknowledgeDiscrimination.Solution
 public import TruthCore.Results.Logic.FormSelection.Certificate.Solution
 public import TruthCore.Results.Logic.FormSelection.Solution
+public import TruthCore.Results.Logic.GlobalThesisBoundaries.Solution
 public import TruthCore.Results.Logic.IntuitionisticKnowability.Solution
 public import TruthCore.Results.Logic.JointRouteFailure.Solution
 public import TruthCore.Results.Logic.JustificationIntrospection.Solution

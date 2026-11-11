@@ -1,0 +1,20 @@
+{
+  "id": "8f3d65eb-5ad5-442c-9c8f-ca0ba5e3d2fc",
+  "label": "Conditional independence corroboration deduction",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "bf3d242a-0c07-46ab-a25f-daf5a52847d1",
+  "inference_ids": [
+    "4d806222-6051-40c9-8318-391979bc2b3d"
+  ],
+  "meaning": "Each conditional likelihood advantage follows from the corresponding marginal advantage under the two explicit product equations; paired criterion yields both improvements. Conditional independence is sufficient, not necessary or independently warranted.",
+  "term_senses": {
+    "EVIDENCE_SUPPORT_VERSUS_WORLDVIEW_TRUTH": "1350ff84-74e9-42f3-b3d5-9b20e0f1735b"
+  },
+  "definition_ids": [
+    "554c428b-2a1a-4748-ba5a-7d45c9f8729a",
+    "a251bc98-6ce9-5066-80c3-b32c3fdfe5c7"
+  ],
+  "disambiguation_ids": [
+    "9acaae93-332c-5e30-a925-657e712c7c1a"
+  ]
+}

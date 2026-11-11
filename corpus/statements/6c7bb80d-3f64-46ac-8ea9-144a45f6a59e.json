@@ -1,0 +1,10 @@
+{
+  "id": "6c7bb80d-3f64-46ac-8ea9-144a45f6a59e",
+  "label": "Someone asserts the denial that there are any beliefs",
+  "paraphrase": "OPEN analyst occurrence input: some supplied agent asserts the very Lean proposition that nobody believes any Lean proposition. Attribution deferred.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NoBeliefsIsAsserted",
+  "definition_ids": [
+    "a5bbb67a-853e-4b1b-b5c9-9cfc8fa3a9a9",
+    "72d257cd-1203-4b32-bd70-bddefccfd63e"
+  ]
+}

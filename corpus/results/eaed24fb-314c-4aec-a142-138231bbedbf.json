@@ -1,0 +1,11 @@
+{
+  "id": "eaed24fb-314c-4aec-a142-138231bbedbf",
+  "label": "Sincerity and accurate assent yield assertion truth",
+  "argument_id": "d1fb84b0-9ed8-4383-8543-617604d7f4ce",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.assertionTruthA",
+  "comparator_config": "results/eaed24fb-314c-4aec-a142-138231bbedbf/comparator.json",
+  "status": "solution-present",
+  "description": "Introduce one speaker and proposition; specialize sincerity and then accuracy. No factivity of Knows."
+}

@@ -199,3 +199,145 @@ actual applicability of a supplied symmetry, an endorsed physical/measurement
 basis and any epistemic or practical bridge. Attribution remains deferred.
 Shared convention resolution sourceRevision:
 `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.
+
+## Degree-bounded laws #1395: proposed outcome for independent challenge (2026-11-11)
+
+Analyst reconstruction, attribution deferred. Baseline actual main
+`0e000912934179064919bca5e3e29a3fcb913ddd`. The new
+`PolynomialInduction.Certificate` is separate from the frozen #1036 result.
+It serves the proposed evidence-justification connection to #931 truth access,
+not an existing polynomial-to-Catholicism route. The exact existing
+`TruthCore.Results.Logic.TranscendentalPractice.InquiryAccess.boundary` requires
+truth to be constant on equal-report states for an exact truth classifier.
+Polynomial evaluation can distinguish *coefficient models inside a stipulated
+class*; applying this to historical/metaphysical truth needs a model-to-content
+truth map, warranted class membership and faithful measurements. These bridges
+are unbuilt. No actual root-facing evidential premise is discharged.
+
+### Meanings, proof scope and discriminating controls
+
+`Identifiable s d` universally compares two coefficient polynomials over a
+commutative integral domain with `natDegree ≤ d`, agreeing at every point of
+`Finset s`. Finset membership supplies distinctness: repeated measurements do
+not increase this cardinality. Zero is included (`natDegree 0 = 0`). This is
+injectivity, not surjectivity onto arbitrary observations, existence of a true
+law, numerical conditioning, approximate fit, causal identification or warrant.
+`vanishing s` is the monic product of `X-C x`; the empty product is one.
+These are completed stipulative mathematical definitions; physical law,
+measurement fidelity and admissibility remain explicit application obligations.
+No opaque physical predicate is asserted by the certificate.
+
+The threshold is `d < s.card`, equivalently at least d+1 distinct inputs.
+Forward uniqueness reuses Mathlib
+`eq_of_natDegree_lt_card_of_eval_eq'`; the converse compares the monic product
+with zero when `s.card ≤ d`. This handles empty observations and d=0 without a
+special nonempty-data premise. No infinite-field assumption is needed, and even
+field division is unnecessary: integral-domain root counting suffices. This
+states sufficient weaker algebraic assumptions, not a classification of every
+ring where some individual instance happens to be injective.
+
+The fresh-point theorem compares arbitrary p with p+vanishing s. It proves
+observed equality and unequal values at any supplied `a ∉ s`; no infinitude is
+needed *given* that point. An infinite domain guarantees availability beyond any
+finite s. On a finite field with all elements observed there is no fresh point.
+Moreover coefficient identity differs from function equality: over F_q,
+X^q-X is nonzero as a polynomial but evaluates to zero everywhere. Thus failure
+of coefficient identifiability does not imply that a new field input remains to
+be predicted. The earlier 24 F5 checks are no global proof and are not used.
+
+The rational control computes p=x² and q=x²+x(x-1)(x-2)(x-3): agreement at
+0,1,2,3 and predictions 16/40 at 4. Both are polynomials (hence smooth/analytic
+on the reals), so merely imposing smoothness/analyticity does not select p.
+At degree bound two, the four points identify p; removing that class restriction
+admits q. Existence remains separate: degree-zero polynomials cannot fit outputs
+0 at input 0 and 1 at input 1, despite two samples exceeding the threshold.
+That elementary observation is explanatory prose, not an extra certified result.
+
+Affine substitution `p.comp (C a * X + C b)` preserves natDegree when a≠0.
+For reversible coordinate transport, assume a field with nonzero slope,
+or an integral domain with unit slope. Under that additional assumption,
+for z=a*x+b the transported law is p((z-b)/a), with division interpreted using
+the inverse of the unit, and the inverse substitution is a*z+b; the two
+degree-bounded classes then correspond. Nonzero slope alone over an integral
+domain does not supply this correspondence: over ℤ, z=2*x is not surjective
+and transporting p(x)=x requires z/2, outside ℤ[z]. The certificate proves the
+more general degree-preservation result; reversible transport is the qualified
+explanation above, not a separately certified consequence. Neither supplies a
+physical symmetry or an independently warranted coordinate group. Zero slope
+collapses a nonconstant polynomial and is deliberately excluded.
+
+The real map z=x+x³ is proved injective using the positive factor
+1+x²+xy+y² and surjective using continuity and the intermediate value theorem.
+The displayed law has degree three in x and degree one as y=z in z. This does
+not say that composition with its inverse preserves polynomial form for every
+law: transporting an entire class and reapplying the same numeric degree cutoff
+are different operations. Arbitrary invertible recoding does not preserve the
+stipulated low-degree class. The certificate uses actual real bijectivity, not
+an unexplained coordinate permutation or a finite test.
+
+#1036 proves closure/fixed-point constraints conditional on supplied fixed data,
+neutrality and moved candidates. Its Boolean cutoff model and uniformity test
+are not general polynomial degree theorems, physical symmetries or norms.
+We reuse its already checked scope rather than claim polynomial p→p+r is an
+involution or preserves H_d. Its positive asymmetric-evidence, basis-sensitive
+choice, set-valued and abstaining controls remain intact.
+
+### Positive rivals and further preconditions
+
+**Structural physical modeling:** conservation laws, dimensional structure,
+mechanisms and independently calibrated measurements can restrict the class and
+admissible coordinates. Polynomial uniqueness then supplies a real conditional
+inference. The remaining tests concern whether those constraints independently
+exclude the added product, remain stable in the prediction regime, and survive
+measurement error. Arbitrary recodings alone do not defeat such a defense.
+
+**Bayesian comparison:** a likelihood/noise model and prior can rank compatible
+models without deductive uniqueness. Descending into its preconditions exposes
+prior mass, likelihood calibration and misspecification, rather than an assumed
+requirement of certainty. Transporting both prior and likelihood under a
+bijection preserves the comparison; imposing a fresh simplicity prior in the
+new coordinate changes assumptions. No particular weighting is installed here.
+
+**Predictive/pragmatic methods:** held-out error and online regret can justify
+performance relative to a loss, comparator class and regime assumptions, without
+identifying a true law. Their discriminating next test is robustness when the
+regime or comparator changes, not another agreement-on-training-data example.
+A regret guarantee is not a bridge to metaphysical truth or actual causation.
+
+**Underdetermination:** unrestricted exact polynomial fitting preserves a
+fresh-point rival, but does not show every rival has equal probability, predictive
+performance, measurement accessibility or warrant. Its positive option is to
+withhold a unique deductive law while permitting conditional or fallible
+prediction. Neither irrational-science nor true-law-from-uniqueness follows.
+
+### Complete proposed provisional judgment and reopening conditions
+
+The mathematical identification claim has a general Lean derivation under the
+explicit integral-domain/class/data assumptions, with empty-data and recoding
+controls; final repository certification is reported in the PR. The result
+supports conditional model identification. Current evidence does not select an
+actual physical degree cutoff, coordinate privilege or epistemic norm, and does
+not discriminate the positive methods above as a universal winner. This is an
+assessment of present support, not proof of their impossibility or equal merit.
+
+Strongest standing response is independently constrained physical modeling,
+possibly combined with calibrated Bayesian/noisy prediction. Its price is
+empirical/structural support for the constraints, calibration and extrapolation
+regime; none is called unreasonable. A materially different next investigation
+would fix an actual evidential target from #931, its measurement protocol,
+admissible transformations and truth-content map, then test the excluded rival
+against that evidence. This requires selection of a concrete application beyond
+the supplied abstract polynomial task; inventing that applicability is withheld.
+Evidence that measurement structure independently selects a class/group would
+strengthen applicability; a robust rival satisfying those same constraints
+would weaken identification. Discovery of an encoding mismatch would suspend
+the mathematical interpretation pending repair. Independent semantic challenge
+by the master must examine this complete proposed judgment before integrating
+its consequential conclusions. No new owner assent, source claim or root route.
+
+Claim/type self-sweep: every universal is inside the explicit coefficient-model
+class; the fresh-point hypothesis is retained; exact values are rational;
+bijectivity is real; affine slope is nonzero. No existential fit inferred from
+injectivity, coefficient equality conflated with finite-field function equality,
+or physical/practical warrant inferred from algebra. No old frozen proof edits.
+Convention sourceRevision: `625cb04ca568aebc8d45c90033e107a05e9bd2a0`.

@@ -1,0 +1,9 @@
+{
+  "id": "af3c27e5-bc8d-4451-91ea-f38d3d55959b",
+  "label": "Equivariant deterministic selection from supplied data",
+  "term": "Equivariant deterministic selection from supplied data",
+  "definition": "Equivariant t s f means f(t d)=s(f d) for every input datum d. The general obstruction separately assumes one datum is fixed, the two output candidates are swapped and distinct, and f selects one candidate. No bijectivity is required by the proof. Application to automorphisms requires an independently justified specification of ALL selector-relevant data; symmetry of psychology alone is insufficient. Deterministic total single-bearer outputs exclude optional abstention, random distributions and set-valued outputs from this theorem scope.",
+  "lean_declaration": "TruthCore.Mereology.Fission1397.Equivariant",
+  "note": "Stipulative analyst formulation for issue1397, with historical attribution deferred. Detailed interpretation burdens and strongest rivals: docs/notes/personal-identity-fission-1397.md.",
+  "basis": "stipulative"
+}

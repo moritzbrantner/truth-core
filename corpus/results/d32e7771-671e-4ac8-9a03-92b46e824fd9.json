@@ -1,0 +1,11 @@
+{
+  "id": "d32e7771-671e-4ac8-9a03-92b46e824fd9",
+  "label": "Actual completeness and no contrary assertion yield assertion truth",
+  "argument_id": "aa79e774-46f8-4dc3-bae4-4af08b6f0a76",
+  "challenge_module": "TruthCore.Results.Causality.DivineVeracity1410.Challenge",
+  "solution_module": "TruthCore.Results.Causality.DivineVeracity1410.Solution",
+  "theorem": "TruthCore.Results.Causality.DivineVeracity1410.assertionTruthB",
+  "comparator_config": "results/d32e7771-671e-4ac8-9a03-92b46e824fd9/comparator.json",
+  "status": "solution-present",
+  "description": "Classically assume not-p; truth-completeness gives assent to not-p, contradicting no contrary assertion. No sincerity or general consistency is assumed."
+}

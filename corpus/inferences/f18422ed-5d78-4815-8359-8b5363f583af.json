@@ -1,0 +1,10 @@
+{
+  "id": "f18422ed-5d78-4815-8359-8b5363f583af",
+  "label": "Existential attitude erasure has one-way assertion representation (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "8dcdc1f6-43e6-4f0b-af6a-abdbbccf5bdb",
+  "rule": "Content-preserving conditional composition and interpreted negation",
+  "meaning": "A diagnostic of the defined existential erasure only; this does not establish the representation premise for an arbitrary legacy Veracity or preserve all content attitudes.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

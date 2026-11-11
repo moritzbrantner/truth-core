@@ -1,0 +1,9 @@
+{
+  "id": "b1f30c51-eb79-43a1-891c-e7d180be2ec3",
+  "label": "Nobody believes any supplied content",
+  "paraphrase": "No supplied agent believes any supplied content.",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.NoBeliefs",
+  "definition_ids": [
+    "72d257cd-1203-4b32-bd70-bddefccfd63e"
+  ]
+}

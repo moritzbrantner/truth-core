@@ -1,0 +1,9 @@
+{
+  "id": "663c48ce-4166-4632-86d9-85eeef0c258b",
+  "label": "Phenomenal occurrence among supplied episodes",
+  "term": "phenomenal occurrence among supplied episodes",
+  "definition": "An episode contributes a phenomenal occurrence exactly when it both occurs and is classified by the supplied Experienced predicate. AssertionRealizationsExperienced supplies that classification for occurring thought episodes realizing assertions of the selected content.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.AssertionRetorsion.ExperienceOccurs",
+  "note": "Analyst formulation, attribution deferred. Experienced is primitive here and is intended to mark what is experienced phenomenally. Thought, behavioral discrimination, verbal report, and actual existence of a representative are separate. How to recognize this property independently remains open."
+}

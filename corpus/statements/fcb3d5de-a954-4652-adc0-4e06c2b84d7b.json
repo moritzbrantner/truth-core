@@ -1,0 +1,9 @@
+{
+  "id": "fcb3d5de-a954-4652-adc0-4e06c2b84d7b",
+  "label": "First Monday report calibration control",
+  "paraphrase": "For a fair coin experiment and exactly one designated first-Monday assessment per experiment, every constant forecast report r has Heads conditional one half. A constant one-third report is therefore not calibrated for this designated cohort. The constant Sunday and constant first-Monday coin reports structurally retain one another in this reduced two-world model. This monitor control does not assume its information or reference class is Beauty's centered evidence.",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Reflection.FirstMondayCalibration",
+  "definition_ids": [
+    "6a579758-e59a-4a6c-9244-2062deb4c1e7"
+  ]
+}

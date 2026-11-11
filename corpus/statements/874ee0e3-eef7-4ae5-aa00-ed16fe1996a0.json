@@ -1,0 +1,9 @@
+{
+  "id": "874ee0e3-eef7-4ae5-aa00-ed16fe1996a0",
+  "label": "Blanket finite benchmark unreliability fails",
+  "paraphrase": "The thesis that every supplied method fails the nonempty-benchmark and three-quarter accuracy requirement is false in the fixed profile.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.AllReasoningUnreliableFails",
+  "definition_ids": [
+    "f8ee6624-c6b7-43a2-8f2e-424e352f957e"
+  ]
+}

@@ -1,0 +1,134 @@
+[batch]
+vocab = "TruthCore.Causality.DivineVeracityContent1410"
+results = "TruthCore.Results.Causality.DivineVeracityContent1410"
+
+[[statement]]
+id = "Individuated veracity ContentAssertionTruth"
+lean = "ContentAssertionTruth"
+paraphrase = "Analyst reconstruction. Every genuine assertion of an individuated content by the same GOD_4 bearer is true at the designated world; content identity remains distinct from truth equivalence."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity ContentSincere"
+lean = "ContentSincere"
+paraphrase = "Analyst reconstruction. Every such genuine assertion receives actual assent to that very content, not merely to a truth-equivalent content."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity ScopedAccuracy"
+lean = "ScopedAccuracy"
+paraphrase = "Analyst reconstruction. Every assent by that same GOD_4 bearer to a content in the named domain is true at the designated world; no accuracy outside that domain is asserted."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity AssertionsInDomain"
+lean = "AssertionsInDomain"
+paraphrase = "Analyst reconstruction. Every content genuinely asserted by that same GOD_4 bearer belongs to the named domain."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity CounterComplete"
+lean = "CounterComplete"
+paraphrase = "Analyst reconstruction. For each actual genuine assertion by that same GOD_4 bearer, if its interpreted negation is true, the bearer actually assents to that very negated content; no wider completeness is assumed."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity NoContraryAssertion"
+lean = "NoContraryAssertion"
+paraphrase = "Analyst reconstruction. That same GOD_4 bearer never genuinely asserts a content while actually assenting to its interpreted negation."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity DomainComplete"
+lean = "DomainComplete"
+paraphrase = "Analyst reconstruction. That same GOD_4 bearer actually assents to every true content in the explicitly named domain, without requiring all content truths to lie in that domain."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity NegationClosed"
+lean = "NegationClosed"
+paraphrase = "Analyst reconstruction. The named domain includes the interpreted negation of each content it includes; this is explicit scope closure, not a fact about every proposed domain."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity AssertionRepresentation"
+lean = "AssertionRepresentation"
+paraphrase = "Analyst reconstruction. Each legacy proposition assertion by that same GOD_4 bearer has an actually asserted individuated content whose interpreted truth implies that proposition. OPEN representation applicability; no exact assent translation is asserted."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716", "8d7cd991-a09c-43ee-8898-d513e46d83ef", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "b8539dd9-4b72-52b0-b24d-b8ee0c226bee"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity ErasureRepresentation"
+lean = "ErasureRepresentation"
+paraphrase = "Analyst reconstruction. The explicit existential erasure supplies the one-way assertion representation for its induced legacy Veracity only; arbitrary legacy Veracity representation remains OPEN."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716", "8d7cd991-a09c-43ee-8898-d513e46d83ef", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "b8539dd9-4b72-52b0-b24d-b8ee0c226bee"]
+disambiguations = []
+
+[[statement]]
+id = "Individuated veracity structural controls"
+lean = "Control.Certificate"
+paraphrase = "Analyst reconstruction. Individuated-content controls: joint selective A/B witness despite co-truth at every modeled world, no exact legacy assent translation for that witness, Route B without sincerity, cognitive false-assertion rival, and explicit domain-coverage and negation-closure omission samples. These are finite structural interpretations, not psychological or full metaphysical models."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9", "fa09d1dc-e38e-42ec-ac95-c510e8a87716"]
+disambiguations = []
+
+[[argument]]
+id = "Sincere individuated assertions with scoped accuracy are true"
+theorem = "contentRouteA"
+premises = ["Individuated veracity ContentSincere", "Individuated veracity ScopedAccuracy", "Individuated veracity AssertionsInDomain"]
+conclusion = "Individuated veracity ContentAssertionTruth"
+axioms = []
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "Same bearer and identical content; scoped accuracy applies only through the explicit assertion-domain premise."
+
+[[argument]]
+id = "Selected individuated countertruth assent excludes false assertion"
+theorem = "contentRouteB"
+premises = ["Individuated veracity CounterComplete", "Individuated veracity NoContraryAssertion"]
+conclusion = "Individuated veracity ContentAssertionTruth"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "Classical contradiction using the reused interpreted-negation law. No content identity is collapsed into a truth value; no sincerity or global completeness is assumed."
+
+[[argument]]
+id = "Selected-domain cognition covers asserted countercontents"
+theorem = "counterCompleteFromDomain"
+premises = ["Individuated veracity DomainComplete", "Individuated veracity AssertionsInDomain", "Individuated veracity NegationClosed"]
+conclusion = "Individuated veracity CounterComplete"
+axioms = []
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "Domain completeness plus actual assertion coverage and closure under interpreted negation supply exactly the minimal countercontent scope. None of these coverage bridges follows merely from naming a domain."
+
+[[argument]]
+id = "Individuated assertion truth reconnects the legacy assertion route"
+theorem = "legacyAssertionFromContent"
+premises = ["Individuated veracity ContentAssertionTruth", "Individuated veracity AssertionRepresentation"]
+conclusion = "5a035a1e-e668-4327-b989-2f0aff4aece2"
+axioms = []
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "One-way represented asserted content plus the existing Disquotes bridge yields the exact existing legacy assertion-truth target; then the checked confirmation/authority route applies. Arbitrary legacy attitude translation is not assumed."
+
+[[argument]]
+id = "Existential attitude erasure has one-way assertion representation"
+theorem = "erasureRepresented"
+premises = []
+conclusion = "Individuated veracity ErasureRepresentation"
+axioms = []
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "A diagnostic of the defined existential erasure only; this does not establish the representation premise for an arbitrary legacy Veracity or preserve all content attitudes."
+
+[[argument]]
+id = "Individuated veracity representation and scope controls"
+theorem = "controls"
+premises = []
+conclusion = "Individuated veracity structural controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Content-preserving conditional composition and interpreted negation"
+meaning = "Restored content identities preserve both conditional routes and a standing cognitive rival. Tagged co-truth across all modeled worlds permits selective assent and precludes any exact Prop-attitude factorization. Domain gaps expose missing coverage or negation closure. Utility, moral permission and full theism are not modeled."

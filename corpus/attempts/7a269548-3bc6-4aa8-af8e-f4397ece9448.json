@@ -1,0 +1,32 @@
+{
+  "id": "7a269548-3bc6-4aa8-af8e-f4397ece9448",
+  "label": "Scoped epistemic underminers and surviving rivals against F6",
+  "statement_ids": [
+    "38f44eff-5a6b-5e0d-a332-353af432ba1a",
+    "f56b2ee7-c69e-5e3b-85b0-e671d907ba58",
+    "cbe1661b-1b9e-4200-b97d-0b8464a323d8",
+    "2241a48a-ecbc-400f-bf1e-df40afec5a7b",
+    "3e6a8e08-7bac-47f2-b67c-00471dcbcf69",
+    "8c6a14f8-5df6-4c29-916f-25185a160415",
+    "034cb5d4-4e52-4c61-8b7b-708436f3a670",
+    "b178b6e6-0115-4611-8fea-58dab5d69fed",
+    "b30587bf-d5c6-501a-b782-bb6529832a01"
+  ],
+  "date": "2026-11-11",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Tested eight global epistemic challenges. Reused the canonical nihilism, performed-denial, goal-relative force and doubt results. Tested stronger readings with an eligibility omission model, opposite-truth and skewed benchmark comparisons, one valid and one invalid sequent in the same profile, and weak-certificate and non-well-founded strong-demonstration interpretations. The cases, precise assumptions and surviving rivals are in docs/notes/epistemic-underminer-boundaries.md.",
+  "blocker": "Apart from the explicit incompatibility with thin F6, these consequences need a calibrated bridge to actual reasons, actual warrant, or a warranted hinge. Strong prior demonstration alone admits an infinitist model, and denying preference-independent force leaves the goal-relative account available. No new source attribution or root premise closure.",
+  "evidence": [
+    "146b502b-e5fd-40cf-8a39-9ed2d45e59bb",
+    "1db47fd9-6ab1-4fa1-a9dd-0aa9457d8146",
+    "cf896bd6-1437-4c43-a6da-05a29b49d797",
+    "721646f2-eadd-43d4-8df9-a3aa00c48fd7",
+    "e03147fa-7a1f-48d9-bac0-7aec0ee2b645",
+    "3f585aa7-636f-4a79-8eab-3f7925367f8d",
+    "2930b66a-b5e3-4f3f-b2d3-758d84c0e54d",
+    "64e1aa15-2487-4d17-94fc-51eae11a985d",
+    "20ed92f4-766f-4bd6-b67d-9e5e37f9a209",
+    "2b293d68-46e0-5e79-a37f-0cb416639a50"
+  ]
+}

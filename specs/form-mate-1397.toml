@@ -1,0 +1,56 @@
+[batch]
+vocab = "TruthCore.Mereology.FormMate1397"
+results = "TruthCore.Results.Mereology.FormMate1397"
+definitions = ["f90c4e6e-38c8-4991-8b6a-1238ca40d0c6", "97f18a93-e03f-40ee-86c3-364e7629efd0", "04a2f2fc-a7c3-4743-883b-48ffe47c357e"]
+
+[[statement]]
+id = "All-time body mate stability"
+label = "One form token never attaches to different body tokens across times"
+lean = "StableMate"
+definitions = ["f90c4e6e-38c8-4991-8b6a-1238ca40d0c6", "97f18a93-e03f-40ee-86c3-364e7629efd0"]
+paraphrase = "OPEN analyst constraint on a supplied typed attachment relation: if one numerical form token attaches to body tokens at any two represented times, those body tokens are equal. This is a stronger all-time restriction, not a consequence of time-local uniqueness or token availability. No person-identity, soul immortality, substantial esse or full hylomorphic interpretation is implicit."
+
+[[statement]]
+id = "Time-local body mate uniqueness"
+label = "One form token has at most one attached body token at each time"
+lean = "UniqueAt"
+definitions = ["f90c4e6e-38c8-4991-8b6a-1238ca40d0c6", "97f18a93-e03f-40ee-86c3-364e7629efd0"]
+paraphrase = "OPEN analyst constraint on the same typed attachment relation: two body tokens attached to the same form token at the same time are equal. This imposes no all-time mate stability, numerical person identity or actual body/soul interpretation."
+
+[[statement]]
+id = "Form mate continuity control"
+label = "Persistent form-token availability and local uniqueness leave body mate stability open"
+lean = "Certificate"
+definitions = ["f90c4e6e-38c8-4991-8b6a-1238ca40d0c6", "97f18a93-e03f-40ee-86c3-364e7629efd0", "04a2f2fc-a7c3-4743-883b-48ffe47c357e"]
+paraphrase = "Two nonempty typed attachment profiles retain one designated form token, its represented availability at every time, occupied before/returned endpoints, an attachment-free gap, and time-local body-mate uniqueness. One profile restores the original body label and has all-time mate stability; the other attaches a different label afterward and violates all-time mate stability. This is a structural insufficiency result, not a possible transmigration, a personal identity criterion, continuous substantial esse or a countermodel to full Thomistic hylomorphism. The Creed primitive and root premises are unchanged."
+
+[[argument]]
+id = "All-time stability yields local uniqueness"
+label = "All-time body mate stability gives time-local uniqueness"
+theorem = "stableToUnique"
+premises = ["All-time body mate stability"]
+conclusion = "Time-local body mate uniqueness"
+rule = "Universal specialization"
+meaning = "Instantiate both time arguments with the same time. The strong all-time constraint is the sole premise; no additional soul, person or source semantics is used."
+strong_version_needed = { "All-time body mate stability" = "The purpose is to certify the strength ordering by deriving time-local uniqueness from this stronger sole premise; the countermodel separately tests failure of the converse." }
+
+[[argument]]
+id = "Form mate control certificate"
+label = "Time-local form mate exclusivity does not ensure all-time stability"
+theorem = "certificate"
+premises = []
+conclusion = "Form mate continuity control"
+rule = "model-construction"
+meaning = "Construct same-form-token restored and changed-mate profiles with occupied endpoints and an attachment-free gap. Verify local exclusivity for both and all-time mate stability only for restored. Token availability does not mean substantial esse; no personal identity or full-source countermodel claim follows."
+
+[[relation]]
+id = "Body mate stability strengthens local uniqueness"
+label = "All-time mate stability strengthens time-local mate uniqueness"
+subject_kind = "statement"
+subject_id = "All-time body mate stability"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Time-local body mate uniqueness"
+verification_result_id = "All-time stability yields local uniqueness"
+strictness_result_id = "Form mate control certificate"
+note = "Sole-premise universal specialization; the changed-mate profile in the closed certificate retains UniqueAt but violates StableMate. Both use the same attachment relation parameters. Source and person applicability remain open."

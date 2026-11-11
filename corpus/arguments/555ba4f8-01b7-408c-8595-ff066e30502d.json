@@ -1,0 +1,18 @@
+{
+  "id": "555ba4f8-01b7-408c-8595-ff066e30502d",
+  "label": "Existential attitude erasure has one-way assertion representation",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "8dcdc1f6-43e6-4f0b-af6a-abdbbccf5bdb",
+  "inference_ids": [
+    "f18422ed-5d78-4815-8359-8b5363f583af"
+  ],
+  "meaning": "A diagnostic of the defined existential erasure only; this does not establish the representation premise for an arbitrary legacy Veracity or preserve all content attitudes.",
+  "definition_ids": [
+    "8d7cd991-a09c-43ee-8898-d513e46d83ef",
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "b8539dd9-4b72-52b0-b24d-b8ee0c226bee",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

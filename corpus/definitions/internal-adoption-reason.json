@@ -1,0 +1,9 @@
+{
+  "id": "5b5211f6-1cb4-4b6c-94c4-71158725808e",
+  "label": "Internal adoption reason of a selected kind",
+  "term": "internal reason to adopt a view",
+  "definition": "A reason admitted by the interpretation under study, for a given agent and target view, in the attitude or action specified by its kind. The absence proposition says that no agent has such a reason of the selected kind for that view.",
+  "basis": "stipulative",
+  "note": "The kind selects both the norm and its target attitude or action. Moral practical adoption and epistemic belief are separate instances. The reason relation is primitive and may represent pro tanto reasons. A moral ought entails a reason here only if an independent ought-to-reason principle applies. The encoding leaves the adequacy of the reason relation and the exhaustiveness of the represented kinds and targets open.",
+  "lean_declaration": "TruthCore.Metaethics.AdoptionReasons.NoInternalAdoptionReason"
+}

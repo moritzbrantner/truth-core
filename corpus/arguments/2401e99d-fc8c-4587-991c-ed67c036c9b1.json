@@ -1,0 +1,26 @@
+{
+  "id": "2401e99d-fc8c-4587-991c-ed67c036c9b1",
+  "label": "Social construction with truth variation excludes objective truth in scope",
+  "premise_statement_ids": [
+    "f182d391-f6d2-496a-881d-7fc408cc666e",
+    "147882aa-2ca4-4854-b945-7c0360c61e26",
+    "326adc2f-b56d-58af-802e-9bf3a6f46c61"
+  ],
+  "conclusion_statement_id": "9e14b5dc-4578-4838-b5c1-5d594af4ebed",
+  "inference_ids": [
+    "2632591a-1614-4684-ba02-75429ad56545"
+  ],
+  "meaning": "With the actual-stable calibration, an objectively true content is actually true and holds at every supplied profile. The scoped construction thesis classifies it as constructed and the bridge supplies a profile where it fails. Universal scope gives the global consequence. The argument establishes neither the global thesis nor its defeat and does not identify objective with unindexed truth.",
+  "definition_ids": [
+    "50827057-88b1-4519-9444-3203c9902c34",
+    "52bf39ca-ca7e-434f-be0c-2900952839c3",
+    "ed7fb11b-9ba7-5776-8747-4d3d33fc7e43",
+    "4f377045-355c-500f-b159-1f8e9e9fa863"
+  ],
+  "disambiguation_ids": [
+    "146a73fd-5eb2-586e-982f-8ee57ea0e329"
+  ],
+  "strong_version_needed": {
+    "326adc2f-b56d-58af-802e-9bf3a6f46c61": "The registered weaker truth-component proposition supplies actual truth only. Deriving the contradiction also requires objective truth to imply stability across the supplied profiles."
+  }
+}

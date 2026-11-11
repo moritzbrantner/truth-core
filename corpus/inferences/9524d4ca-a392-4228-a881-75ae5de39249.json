@@ -1,0 +1,13 @@
+{
+  "id": "9524d4ca-a392-4228-a881-75ae5de39249",
+  "label": "Permission and positive endorsement yield sincerity (inference)",
+  "input_statement_ids": [
+    "9286d83c-dc05-4517-a886-e989629661f0",
+    "78b79dc4-f9ab-4926-8a4c-8c0137dd49be"
+  ],
+  "output_statement_id": "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+  "rule": "Universal specialization and implication composition",
+  "meaning": "Apply the OPEN permission applicability and OPEN positive endorsement norm. Forbidding lies alone is insufficient.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

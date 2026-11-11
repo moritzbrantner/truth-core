@@ -1,0 +1,11 @@
+{
+  "id": "2f466ae8-d226-4e3f-a8ff-8579bf8f645a",
+  "label": "Belief from a sincere assertion of the universal denial of belief",
+  "argument_id": "8cb04e80-7601-4636-877c-10133ac5f9fa",
+  "challenge_module": "TruthCore.Results.Logic.AssertionRetorsion.Challenge",
+  "solution_module": "TruthCore.Results.Logic.AssertionRetorsion.Solution",
+  "theorem": "TruthCore.Results.Logic.AssertionRetorsion.beliefFromSincereDenial",
+  "comparator_config": "results/2f466ae8-d226-4e3f-a8ff-8579bf8f645a/comparator.json",
+  "status": "solution-present",
+  "description": "The very proposition that nobody believes anything is the content believed by an agent sincerely asserting it. This makes that denial false in the selected belief interpretation. Sincerity is local and open, and F6 by itself does not supply an actual belief."
+}

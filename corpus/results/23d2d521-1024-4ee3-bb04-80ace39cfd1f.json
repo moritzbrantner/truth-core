@@ -1,0 +1,11 @@
+{
+  "id": "23d2d521-1024-4ee3-bb04-80ace39cfd1f",
+  "label": "Time-local form mate exclusivity does not ensure all-time stability",
+  "argument_id": "ab7c92d5-0b1c-4d16-bc60-d805d4c45c40",
+  "challenge_module": "TruthCore.Results.Mereology.FormMate1397.Challenge",
+  "solution_module": "TruthCore.Results.Mereology.FormMate1397.Solution",
+  "theorem": "TruthCore.Results.Mereology.FormMate1397.certificate",
+  "comparator_config": "results/23d2d521-1024-4ee3-bb04-80ace39cfd1f/comparator.json",
+  "status": "solution-present",
+  "description": "Construct same-form-token restored and changed-mate profiles with occupied endpoints and an attachment-free gap. Verify local exclusivity for both and all-time mate stability only for restored. Token availability does not mean substantial esse; no personal identity or full-source countermodel claim follows."
+}

@@ -1,0 +1,9 @@
+{
+  "id": "6280fbf0-551a-46f5-8e0a-a65410c86a64",
+  "label": "Some actual belief meets the supplied warrant standard",
+  "paraphrase": "Some agent believes a supplied content and meets the supplied epistemic warrant predicate for that belief.",
+  "lean_declaration": "TruthCore.Logic.EpistemicUnderminers.SomeJustifiedBelief",
+  "definition_ids": [
+    "15160f9d-a231-4a9f-834f-cc78a7523dc3"
+  ]
+}

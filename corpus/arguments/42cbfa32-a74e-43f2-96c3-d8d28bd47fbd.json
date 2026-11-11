@@ -1,0 +1,21 @@
+{
+  "id": "42cbfa32-a74e-43f2-96c3-d8d28bd47fbd",
+  "label": "Individuated assertion truth reconnects the legacy assertion route",
+  "premise_statement_ids": [
+    "98f13d52-356c-440a-956a-c28df295fe73",
+    "f221d6c6-3a49-4a98-bf05-a12450d1fac7"
+  ],
+  "conclusion_statement_id": "5a035a1e-e668-4327-b989-2f0aff4aece2",
+  "inference_ids": [
+    "13055937-73dc-4c54-8970-7ebaf4bfd1d1"
+  ],
+  "meaning": "One-way represented asserted content plus the existing Disquotes bridge yields the exact existing legacy assertion-truth target; then the checked confirmation/authority route applies. Arbitrary legacy attitude translation is not assumed.",
+  "definition_ids": [
+    "8d7cd991-a09c-43ee-8898-d513e46d83ef",
+    "9fcefb90-0cc3-4c0a-b964-cbf3585bc9c9",
+    "b8539dd9-4b72-52b0-b24d-b8ee0c226bee",
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c",
+    "fa09d1dc-e38e-42ec-ac95-c510e8a87716"
+  ]
+}

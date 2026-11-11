@@ -1,0 +1,17 @@
+{
+  "id": "501f70d0-3224-4049-89b8-95109568c174",
+  "label": "Sincere assent and held-known bridge recover old assertion leaf",
+  "premise_statement_ids": [
+    "1496f7ec-2c22-4b26-aef2-39c77ca6ea49",
+    "00c2e024-f7d9-41c2-8efd-36566c456baf"
+  ],
+  "conclusion_statement_id": "4d47d4ae-7aa9-5bba-8aa7-68f79ff8dfa9",
+  "inference_ids": [
+    "79125e52-4b63-4a32-8ff4-164580028d9b"
+  ],
+  "meaning": "Compose actual assent with the separate OPEN assent-to-held-known bridge; no new factivity.",
+  "definition_ids": [
+    "88f9f6e8-997b-5f7d-afa1-c501954c3807",
+    "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"
+  ]
+}

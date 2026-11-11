@@ -1,0 +1,9 @@
+{
+  "id": "05f698c0-703d-4faf-99b8-8e4f970e566a",
+  "label": "Competent moral verdicts respect nonmoral sameness",
+  "paraphrase": "In a world flagged competent, its stipulated verdict function cannot differ between cases with identical selected nonmoral profiles. This governs verdicts, not moral facts, and entails neither factual supervenience nor a true verdict; no appraiser identity is modeled.",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Competence",
+  "definition_ids": [
+    "ae2fbfcd-10d5-498a-a1d2-aba55d521712"
+  ]
+}

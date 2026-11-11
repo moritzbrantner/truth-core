@@ -1,0 +1,241 @@
+[batch]
+vocab = "TruthCore.Causality.DivineVeracity1410"
+results = "TruthCore.Results.Causality.DivineVeracity1410"
+
+[[statement]]
+id = "Veracity GodAssertsOnlyTruth"
+lean = "GodAssertsOnlyTruth"
+paraphrase = "Analyst formulation. Every genuine assertion on its own authority by a GOD_4 with classical attributes is true."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodSincere"
+lean = "GodSincere"
+paraphrase = "Analyst formulation. Such a GOD_4 actually assents to every proposition it genuinely asserts; suspension is excluded."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodAssentAccurate"
+lean = "GodAssentAccurate"
+paraphrase = "Analyst formulation. Every actual assent of such a GOD_4 is true; not factivity by definition."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodTruthComplete"
+lean = "GodTruthComplete"
+paraphrase = "Analyst formulation. Such a GOD_4 actually assents to every true Prop, including contingent contents and negations; an unrestricted OPEN application."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodCounterAssertionComplete"
+lean = "GodCounterAssertionComplete"
+paraphrase = "Analyst formulation. Such a GOD_4 assents to the negation of each actually asserted proposition if that negation is true; no completeness outside this selected scope."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodNoContraryAssertion"
+lean = "GodNoContraryAssertion"
+paraphrase = "Analyst formulation. Such a GOD_4 never genuinely asserts p while assenting to not-p; does not exclude suspension."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodAssentConsistent"
+lean = "GodAssentConsistent"
+paraphrase = "Analyst formulation. Such a GOD_4 has no opposed pair of assents for the same Prop; no factivity built in."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodAssentHeldKnown"
+lean = "GodAssentHeldKnown"
+paraphrase = "Analyst formulation. Such a GOD_4 holds every actual assent as known; separate OPEN bridge to the older nonfactive Knows route."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodAssertionsPermitted"
+lean = "GodAssertionsPermitted"
+paraphrase = "Analyst formulation. Every actual genuine divine assertion is morally permissible in the fixed context; OPEN applicability, not causal goodness."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity PermittedAssertionEndorsed"
+lean = "PermittedAssertionEndorsed"
+paraphrase = "Analyst formulation. OPEN positive endorsement norm: morally permitted assertion of p requires actual assent to p, ruling out unsupported assertion during suspension."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity ContraryAssertionImpermissible"
+lean = "ContraryAssertionImpermissible"
+paraphrase = "Analyst formulation. OPEN act-object norm: assent to not-p makes genuine assertion of p impermissible, even for a beneficial further end."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity FalseAssentDefective"
+lean = "FalseAssentDefective"
+paraphrase = "Analyst formulation. OPEN cognitive-good norm: actual false assent is a cognitive defect; independent of the label knowledge."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodDefectFree"
+lean = "GodDefectFree"
+paraphrase = "Analyst formulation. OPEN applicability: no assent-content cognitive defect belongs to such a GOD_4. Primitive classical attributes alone do not prove this."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity GodTruthPresent"
+lean = "GodTruthPresent"
+paraphrase = "Analyst formulation. OPEN actuality/presentiality bridge: every true Prop is actually present to this same GOD_4 intellect; possibility and generic causal power do not suffice."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity PresenceApprehended"
+lean = "PresenceApprehended"
+paraphrase = "Analyst formulation. OPEN cognitive access: actually present content is intellectually apprehended by the same speaker; mere truth matching does not prove this."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[statement]]
+id = "Veracity ApprehensionAssented"
+lean = "ApprehensionAssented"
+paraphrase = "Analyst formulation. OPEN representation-to-judgment bridge: actual apprehension of the selected propositional content yields assent to it, not merely entertaining an enunciation."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[argument]]
+id = "Sincerity and accurate assent yield assertion truth"
+theorem = "assertionTruthA"
+premises = ["Veracity GodSincere", "Veracity GodAssentAccurate"]
+conclusion = "Veracity GodAssertsOnlyTruth"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Introduce one speaker and proposition; specialize sincerity and then accuracy. No factivity of Knows."
+
+[[argument]]
+id = "Actual completeness and no contrary assertion yield assertion truth"
+theorem = "assertionTruthB"
+premises = ["Veracity GodCounterAssertionComplete", "Veracity GodNoContraryAssertion"]
+conclusion = "Veracity GodAssertsOnlyTruth"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Universal specialization and implication composition"
+meaning = "Classically assume not-p; truth-completeness gives assent to not-p, contradicting no contrary assertion. No sincerity or general consistency is assumed."
+
+[[argument]]
+id = "Actual completeness and consistent assent yield accuracy"
+theorem = "accuracyFromCompleteConsistent"
+premises = ["Veracity GodTruthComplete", "Veracity GodAssentConsistent"]
+conclusion = "Veracity GodAssentAccurate"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Universal specialization and implication composition"
+meaning = "Classically a false assent to p would pair with assent to true not-p. This stronger cognitive branch is separate from minimal Route B."
+
+[[argument]]
+id = "Permission and positive endorsement yield sincerity"
+theorem = "sincerityFromNorms"
+premises = ["Veracity GodAssertionsPermitted", "Veracity PermittedAssertionEndorsed"]
+conclusion = "Veracity GodSincere"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Apply the OPEN permission applicability and OPEN positive endorsement norm. Forbidding lies alone is insufficient."
+
+[[argument]]
+id = "Permission and contrary-sign norm exclude contrary assertion"
+theorem = "noContraryFromNorms"
+premises = ["Veracity GodAssertionsPermitted", "Veracity ContraryAssertionImpermissible"]
+conclusion = "Veracity GodNoContraryAssertion"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "A genuinely asserted proposition is permitted; opposed assent would make that assertion impermissible. Beneficial-deception rivals contest the second premise."
+
+[[argument]]
+id = "False assent defect and divine defect exclusion yield accuracy"
+theorem = "accuracyFromDefects"
+premises = ["Veracity FalseAssentDefective", "Veracity GodDefectFree"]
+conclusion = "Veracity GodAssentAccurate"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Universal specialization and implication composition"
+meaning = "Classically a false actual assent would instantiate the forbidden cognitive defect. Non-discursiveness alone is not a premise."
+
+[[argument]]
+id = "Actual truth presence and apprehension yield complete assent"
+theorem = "completenessFromActualCognition"
+premises = ["Veracity GodTruthPresent", "Veracity PresenceApprehended", "Veracity ApprehensionAssented"]
+conclusion = "Veracity GodTruthComplete"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Every truth is actually present to the same intellect; actual access and propositional assent bridges yield completeness. No capacity-to-actuality inference."
+
+[[argument]]
+id = "Sincere assent and held-known bridge recover old assertion leaf"
+theorem = "oldKnowingFromAssent"
+premises = ["Veracity GodSincere", "Veracity GodAssentHeldKnown"]
+conclusion = "4d47d4ae-7aa9-5bba-8aa7-68f79ff8dfa9"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Compose actual assent with the separate OPEN assent-to-held-known bridge; no new factivity."
+
+[[argument]]
+id = "Separate assent leaves recover old bundled attribute bridge"
+theorem = "oldAttributeFromAssent"
+premises = ["Veracity GodSincere", "Veracity GodAssentHeldKnown"]
+conclusion = "7cffee54-a87d-504e-80d1-81ada7387696"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Pair sincerity and assent-to-held-known for the same speaker. This is an alternative support of the existing bridge, not its discharge."
+
+[[argument]]
+id = "Assertion truth reconnects divine confirmation to authority"
+theorem = "confirmsFromAssertion"
+premises = ["b426b086-1b1c-5137-94e6-a2f17402481f", "Veracity GodAssertsOnlyTruth"]
+conclusion = "c1deb2ee-770d-5030-9e5c-302e33028811"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Confirmation counts as genuine assertion by the existing OPEN universal bridge; assertion truth then yields the exact existing GodConfirmsOnlyTruth endpoint."
+
+
+[[argument]]
+id = "Unrestricted actual truth completeness supplies asserted-countertruth scope"
+theorem = "completenessWeakens"
+premises = ["Veracity GodTruthComplete"]
+conclusion = "Veracity GodCounterAssertionComplete"
+axioms = []
+rule = "Universal specialization and implication composition"
+meaning = "Restrict actual completeness to true negations of actual asserted contents. Route B uses this weaker version; full completeness remains useful for the separate general accuracy branch."
+
+[[relation]]
+id = "Actual truth completeness strengthens asserted-countertruth scope"
+subject_kind = "statement"
+subject_id = "Veracity GodTruthComplete"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Veracity GodCounterAssertionComplete"
+verification_result_id = "Unrestricted actual truth completeness supplies asserted-countertruth scope"
+note = "Witnessed by completenessWeakens, with the strong version as the sole premise."
+
+[[statement]]
+id = "Veracity route structural controls"
+lean = "Control.Certificate"
+paraphrase = "Structural controls for divine assertion truth: joint lower-branch sample, four route-premise omission samples, suspension without contrary assent, and accurate complete cognition with permitted false assertion when the contrary-sign norm is absent. Not a possible-world witness of classical theism."
+definitions = ["88f9f6e8-997b-5f7d-afa1-c501954c3807", "f2c09ae8-848d-5a3b-ab79-92c2b01d414c", "3d69a2b8-58b7-4888-943e-e32ea702fb02"]
+disambiguations = []
+
+[[argument]]
+id = "Divine assertion route structural controls certificate"
+theorem = "controls"
+premises = []
+conclusion = "Veracity route structural controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+rule = "Construction of explicit interpretations"
+meaning = "Skeleton interpretations only: real classified bearer and actual assertion in joint sample; every A/B premise omission permits false assertion; noncontradiction does not give sincerity; cognitive perfection plus permission needs an independent contrary-sign norm. No utility, counterfactual necessity, or metaphysical possibility claim."

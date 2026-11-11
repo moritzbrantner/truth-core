@@ -1,0 +1,9 @@
+{
+  "id": "ebca757e-5d8d-4a2e-a2ae-06cbd30935d1",
+  "label": "Sleeping Beauty exact incompatible updating bundles",
+  "paraphrase": "For every nonnegative normalized rational allocation h,m,t over the three declared centers, N and M force t=0; N,M,P are incompatible; N,M,S are incompatible; and N with positive Tuesday mass forces the Monday conditional Heads probability above one half. N and M alone are compatible. All are consequences within one fixed centered measure, not an assertion of which update rule is rational.",
+  "lean_declaration": "TruthCore.Epistemology.SleepingBeauty1401.Incompatibility",
+  "definition_ids": [
+    "bd35e4c3-1882-4373-8a39-bea840976e93"
+  ]
+}

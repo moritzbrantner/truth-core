@@ -101,6 +101,8 @@ public import TruthCore.Results.Causality.DirectEsseRootUniqueness.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessAtBeing.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessFromAsymmetry.Solution
 public import TruthCore.Results.Causality.DirectEsseRootUniquenessScopeControls.Solution
+public import TruthCore.Results.Causality.DivineVeracity1410.Solution
+public import TruthCore.Results.Causality.DivineVeracityContent1410.Solution
 public import TruthCore.Results.Causality.DurationMeasureCandidates.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Controls.Solution
 public import TruthCore.Results.Causality.EsseReceptionDefinitions.Counteraccount.Solution
@@ -149,6 +151,7 @@ public import TruthCore.Results.Causality.IndexedSignalReaper.Solution
 public import TruthCore.Results.Causality.InertEmptiness.Solution
 public import TruthCore.Results.Causality.InfiniteLocalTransmission.Solution
 public import TruthCore.Results.Causality.IntellectualInclination.Solution
+public import TruthCore.Results.Causality.InterventionTransitivity.Solution
 public import TruthCore.Results.Causality.JointGroups.Solution
 public import TruthCore.Results.Causality.LifeBoundaryPotency.Solution
 public import TruthCore.Results.Causality.LocalFramePossibleExternalCause.Solution
@@ -214,6 +217,8 @@ public import TruthCore.Results.Causality.PluralRootConfluence.Solution
 public import TruthCore.Results.Causality.PossessionSensitiveAppetite.Solution
 public import TruthCore.Results.Causality.PossibleCausalSourceNecessity.Solution
 public import TruthCore.Results.Causality.PossibleCauseBruteSurvival.Solution
+public import TruthCore.Results.Causality.Power1392.Solution
+public import TruthCore.Results.Causality.Power1392Exercise.Solution
 public import TruthCore.Results.Causality.PowerExistenceBoundary.Solution
 public import TruthCore.Results.Causality.ProductiveStore.Solution
 public import TruthCore.Results.Causality.ProductiveSustained.Solution

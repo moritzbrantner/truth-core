@@ -1,0 +1,11 @@
+{
+  "id": "1db47fd9-6ab1-4fa1-a9dd-0aa9457d8146",
+  "label": "Eligible uptake yields a warranted actual belief",
+  "argument_id": "86b5bf89-606a-4e92-94b6-6dc4633df5fe",
+  "challenge_module": "TruthCore.Results.Logic.EpistemicUnderminers.Challenge",
+  "solution_module": "TruthCore.Results.Logic.EpistemicUnderminers.Solution",
+  "theorem": "TruthCore.Results.Logic.EpistemicUnderminers.eligibleReasonUptakeYieldsWarrant",
+  "comparator_config": "results/1db47fd9-6ab1-4fa1-a9dd-0aa9457d8146/comparator.json",
+  "status": "solution-present",
+  "description": "The basing, sufficiency and undefeatedness calibration applies to the eligible uptake case and the belief at that case meets the supplied warrant standard. Both the eligible instance and the warrant bridge are explicit premises."
+}

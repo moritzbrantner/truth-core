@@ -1,0 +1,10 @@
+{
+  "id": "528895f2-7a01-49ef-959e-0d9d3c6fd823",
+  "label": "No cognitive meaning is the exact alternative to some cognitive meaning",
+  "subject_kind": "statement",
+  "subject_id": "aee6dbdf-3d1b-444c-b28e-effe7bcc4dfe",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "f7e3ad49-3140-4fdf-9a83-1156243cb701",
+  "note": "Exact negation within the same content domain and the same cognitive-meaning predicate."
+}

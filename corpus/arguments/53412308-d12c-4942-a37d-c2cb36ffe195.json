@@ -1,0 +1,15 @@
+{
+  "id": "53412308-d12c-4942-a37d-c2cb36ffe195",
+  "label": "A reason denial rules out adopting the view for a reason of that kind",
+  "premise_statement_ids": [
+    "3f77c61c-11e5-4bb2-a905-8ec6f8ebca19"
+  ],
+  "conclusion_statement_id": "22073f51-9ad0-479f-a674-42faa1943783",
+  "inference_ids": [
+    "fb339a4c-1fcf-4f47-bbde-079a8d92c0ec"
+  ],
+  "meaning": "A denial of all reasons of one kind applies to the selected view as a target. The reason kind and its intended attitude or action are held fixed.",
+  "definition_ids": [
+    "5b5211f6-1cb4-4b6c-94c4-71158725808e"
+  ]
+}

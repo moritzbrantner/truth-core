@@ -1,0 +1,20 @@
+{
+  "id": "bd7e586f-ca90-4b0a-8f39-0f6cfda63495",
+  "label": "Self-application of strict empirical verification",
+  "premise_statement_ids": [
+    "09c5fc79-b519-465a-b7ef-5db102a18b14",
+    "651510d0-ee78-45d6-81ab-f64632bf65d4"
+  ],
+  "conclusion_statement_id": "a36c7f59-4737-44d3-becc-4f4e5e8b013e",
+  "inference_ids": [
+    "72064e45-c23f-4b67-8501-6fce4810561c"
+  ],
+  "meaning": "Conditional analyst argument. With its formulation in scope and failing the selected empirical verifiability test, the strict criterion fails if its formulation is cognitively meaningful. If the criterion holds, the formulation lacks cognitive significance. No nonanalyticity premise is needed because the strict criterion has no analytic exception. Neither the scope nor unverifiability of any actual formulation is proved.",
+  "definition_ids": [
+    "576cb0c5-a2e5-427a-b22b-7b20cffac0ad"
+  ],
+  "disambiguation_ids": [
+    "e1eb387a-1052-5f34-b7f1-ea076303e1cd",
+    "21cdb9e0-d4f0-5a57-8277-3345ec8c0fde"
+  ]
+}
