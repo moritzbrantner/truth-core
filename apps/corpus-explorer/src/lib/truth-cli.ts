@@ -9,8 +9,9 @@ let binary: string | undefined;
 /**
  * The repository's Rust `truth` CLI (truth/README.md). `TRUTH_CLI` names a
  * prebuilt binary; otherwise the release binary is built once per process,
- * which is an incremental no-op when it is current, so a stale binary never
- * produces the explorer's statuses.
+ * which refreshes stale build inputs before the first query. The process
+ * then reuses that executable; restart after changing CLI sources. An override
+ * is used as supplied, without rebuilding or checking its freshness.
  */
 function truthBinary(): string {
   if (!binary) {
@@ -29,7 +30,8 @@ function truthBinary(): string {
 /**
  * Run `truth <args>` on the repository and parse its JSON stdout. Closure,
  * statuses and dossiers stay owned by the CLI (#507); the explorer only reads
- * them. Version 1 JSON adds `input_identity`, which the explorer ignores.
+ * them. Frontier and single-dossier JSON include `input_identity`, which the explorer
+ * ignores; dossier --all remains a plain map keyed by statement ID.
  */
 export function truthJson(args: string[]): unknown {
   return JSON.parse(
