@@ -1,0 +1,10 @@
+{
+  "id": "9741d99c-b7ef-4603-bd81-348a8b9df9e7",
+  "label": "Exact positive report-table omission controls (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "c865b1d3-b409-4aca-b983-68b0b3e6ddb2",
+  "rule": "Exact rational evaluation of positive normalized four-cell tables",
+  "meaning": "All cells positive, same two hypotheses and balanced prior. Refutes general inferences from individual support, a single conditional inequality or unconditional independence to both-sided corroboration; conditional independence is unnecessary. Does not refute any full historical theory or warrant actual probabilities.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

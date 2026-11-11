@@ -1,0 +1,55 @@
+[batch]
+vocab = "TruthCore.Metaethics.SupervenienceProfiles"
+results = "TruthCore.Results.Metaethics.SupervenienceProfiles"
+definitions = ["1cdfd808-40bd-47ec-8f24-fb5e2fc20e2c"]
+
+[[statement]]
+id = "Weak moral supervenience over selected situations"
+lean = "Weak"
+paraphrase = "For each admitted world, any two cases with identical selected nonmoral profiles have the same moral fact status in that world. This is the weak, within-world claim; no actual moral property is asserted to satisfy it."
+definitions = ["6bfb958a-b7f4-430c-acc1-8075fdbf5f81"]
+
+[[statement]]
+id = "Strong moral supervenience over selected situations"
+lean = "Strong"
+paraphrase = "Across any two admitted worlds, cases with identical selected nonmoral profiles have the same moral fact status. This is stronger than within-world supervenience and does not by itself identify a ground or criterion."
+definitions = ["fbb33d0b-6057-4a22-a636-69d8939ad1b7"]
+
+[[statement]]
+id = "Competent moral verdicts respect nonmoral sameness"
+lean = "Competence"
+paraphrase = "In a world flagged competent, its stipulated verdict function cannot differ between cases with identical selected nonmoral profiles. This governs verdicts, not moral facts, and entails neither factual supervenience nor a true verdict; no appraiser identity is modeled."
+definitions = ["ae2fbfcd-10d5-498a-a1d2-aba55d521712"]
+
+[[statement]]
+id = "Moral supervenience strength and mapping controls"
+lean = "Controls"
+paraphrase = "Finite structural controls: weak does not imply strong supervenience; competent verdicts do not imply factual weak supervenience; and two separately strong-supervenience models with the same selected natural profiles can assign different moral statuses. No metaphysical possibility or true moral criterion is thereby established."
+definitions = ["6bfb958a-b7f4-430c-acc1-8075fdbf5f81", "fbb33d0b-6057-4a22-a636-69d8939ad1b7", "ae2fbfcd-10d5-498a-a1d2-aba55d521712"]
+
+[[argument]]
+id = "Strong moral supervenience entails weak moral supervenience"
+theorem = "strongImpliesWeak"
+premises = ["Strong moral supervenience over selected situations"]
+conclusion = "Weak moral supervenience over selected situations"
+rule = "Same-world instantiation of the cross-world condition"
+meaning = "At an arbitrary chosen admitted world, instantiate the strong cross-world condition with that world twice. This only proves logical strength over identical selected profile types."
+strong_version_needed = {"Strong moral supervenience over selected situations" = "Strong supervenience is the explicit hypothesis whose weakening is being certified, not a claim that reality satisfies it."}
+
+[[argument]]
+id = "Moral supervenience finite separation and underdetermination controls"
+theorem = "controls"
+premises = []
+conclusion = "Moral supervenience strength and mapping controls"
+rule = "Explicit two-world two-case finite models"
+meaning = "Construct nonempty finite models that separate the formal claims. This refutes three proposed logical implications, not philosophical realism, non-naturalism, quasi-realism or a particular account of rightness."
+
+[[relation]]
+id = "Strong moral supervenience strengthens weak moral supervenience"
+subject_kind = "statement"
+subject_id = "Strong moral supervenience over selected situations"
+predicate = "strengthens"
+object_kind = "statement"
+object_id = "Weak moral supervenience over selected situations"
+verification_result_id = "Strong moral supervenience entails weak moral supervenience"
+note = "Identical admitted worlds, case domain and natural/moral profile fields; the finite controls witness non-converse. Neither interpretation is automatically attributed to a historical source."

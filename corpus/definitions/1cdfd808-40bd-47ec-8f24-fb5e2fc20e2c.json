@@ -1,0 +1,9 @@
+{
+  "id": "1cdfd808-40bd-47ec-8f24-fb5e2fc20e2c",
+  "label": "Moral supervenience comparison profile",
+  "term": "selected world-and-case moral supervenience profile",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Metaethics.SupervenienceProfiles.Profile",
+  "definition": "A Profile has an admitted situation type World, a shared case type Case, Boolean selected nonmoral profile values, alleged moral fact statuses, one verdict function per world and a separate world-competence predicate. The World carrier selects what situations are under comparison; no appraiser identity, entire metaphysical possibility space, identity through worlds, or complete nature-description is certified.",
+  "note": "Analyst structural fixture, attribution deferred. As an analogy outside this single-verdict-per-world signature, two appraisers might disagree about naturally identical cases without any corresponding moral-fact difference. Conversely selecting an incomplete base can create spurious supervenience failures. The real-world coverage and completeness of the natural profile, interpretation of case identities and connection of verdicts to moral truth remain OPEN. Serves the moral-grounding rival question (#150/#249) and the Blackburn competence question (#191), not a new direct root proof."
+}

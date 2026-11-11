@@ -1,0 +1,11 @@
+{
+  "id": "08000a5e-d133-4cd7-aecf-198447a1ee3f",
+  "label": "Conditional independence corroboration deduction",
+  "argument_id": "8f3d65eb-5ad5-442c-9c8f-ca0ba5e3d2fc",
+  "challenge_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Challenge",
+  "solution_module": "TruthCore.Results.Logic.CorrelatedTestimony1396.Solution",
+  "theorem": "TruthCore.Results.Logic.CorrelatedTestimony1396.independenceSuffices",
+  "comparator_config": "results/08000a5e-d133-4cd7-aecf-198447a1ee3f/comparator.json",
+  "status": "solution-present",
+  "description": "Each conditional likelihood advantage follows from the corresponding marginal advantage under the two explicit product equations; paired criterion yields both improvements. Conditional independence is sufficient, not necessary or independently warranted."
+}
