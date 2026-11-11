@@ -484,11 +484,10 @@ is added to Lean. This serves the same UNBUILT Creed interpretation bridge.
 explicitly joins the same soul to numerically same matter, appeals to the unity
 of matter as well as the rational soul, and preserves the composite's being
 through the soul. Its turnover and shared-flesh replies permit selection of
-material sufficient for due quantity and divine supplementation. This is
-stronger evidence against attributing an unqualified all-new-matter criterion
-than mere silence about particles. It still states no numerical minimum or
-independently explained test for what counts as the relevant same matter.
-No atomic-set translation is supplied by the text.
+material sufficient for due quantity and divine supplementation. This puts numerical material identity into the stated rationale. Whether that
+excludes wholly new countable constituents is itself an unresolved abstraction
+bridge: the text supplies neither an atomic-set translation nor a numerical
+minimum or independently explained test for the relevant same matter.
 
 [Compendium theologiae I.153–154, 159–161](https://jonhaines.com/thomas/english/Compendium.htm#153)
 likewise connects numerical form with numerical matter/body. Chapter 154's
@@ -499,8 +498,8 @@ and give participation/priority replies to shared flesh. These passages reinforc
 the same-body/relevant-matter account; they do not directly settle the boundary
 case of no old material at all. The chapter numbers here follow the consulted
 Vollert English page: 153 is same-body return and 154 its miraculous mode.
-Uninspected secondary claims that this work establishes arbitrary new-particle
-sufficiency are not adopted.
+These passages cannot establish arbitrary new-particle sufficiency without
+resolving that same-matter interpretation.
 
 These are selected read translations/navigation findings, not newly registered
 attribution claims or an authenticated Latin-text comparison. The failure to
