@@ -1,0 +1,10 @@
+{
+  "id": "1139d131-1f7c-4b35-8614-6d9d0b43fb6e",
+  "label": "Reference fixed independently of correctness permits error and competing anchors",
+  "paraphrase": "An explicitly supplied reference map can persist with incorrect content. Distinct reference maps can also yield equally correct contents under a nondiscriminating target condition. Hence accuracy alone does not select among source, exemplar or constitutive anchoring proposals. These maps model only structural roles; their semantic and causal adequacy remains open.",
+  "lean_declaration": "TruthCore.Logic.FormSelection.ReferenceControls",
+  "definition_ids": [
+    "b6a00a39-94b6-4371-a9ca-1fc55affa038",
+    "9ca9b9b9-4127-4d2a-96ee-009a4e2875ee"
+  ]
+}

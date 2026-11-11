@@ -1,0 +1,10 @@
+{
+  "id": "9cd48e70-d334-43fe-94e2-33bfa52c4c3c",
+  "label": "Esse-essence difference without composition is an alternative to its being composition",
+  "subject_kind": "statement",
+  "subject_id": "f950adc1-d5e9-4284-84d6-c879164fa5b3",
+  "predicate": "alternative_to",
+  "object_kind": "statement",
+  "object_id": "d7741cdc-881b-5bda-85ce-d70223162f78",
+  "note": "Same predicates and essenceOf/esseOf maps. The rival keeps the matter-form inclusion and denies the esse-essence one, so it is strictly stronger than the premise's negation. Model-witnessed alongside the other premises of firstMoverSimple; neither is established and no refutation is recorded."
+}

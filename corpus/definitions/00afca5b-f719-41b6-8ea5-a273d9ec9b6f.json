@@ -1,0 +1,9 @@
+{
+  "id": "00afca5b-f719-41b6-8ea5-a273d9ec9b6f",
+  "label": "Constitutive accuracy aim: every supplied preference alternative includes the accuracy aim",
+  "term": "constitutive aim of belief (non-preferential accuracy aim)",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.ConstitutiveAim",
+  "definition": "ConstitutiveAim f aims says every supplied preference alternative satisfies aims. Read as the constitutive-aim reply: whatever a believer wants, believing as such already aims at truth, so no believing profile in the comparison class lacks the accuracy aim. Intended reading (not encoded): it is not a claim that every subject desires accuracy; the aim belongs to the attitude, and the preference class is the class of profiles compatible with having beliefs at all. In Lean ConstitutiveAim (∀ d, aims d) is indistinguishable from universal aim satisfaction; it secures the target by excluding indifferent profiles from the comparison class, not by giving an indifferent subject a reason. It conflicts with IndifferenceAvailable for the same aims.",
+  "note": "Stipulative analyst formulation, attribution deferred. The teleological reading (aim as a sub-personal or attitude-level goal) and the normative reading (truth as belief's correctness standard) are both candidate interpretations; this predicate only encodes their shared consequence for the supplied preference class. The main objection (the aim is either too weak to rule out indifferent believers or merely restates the norm) is recorded in docs/notes/epistemic-authority.md."
+}

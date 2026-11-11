@@ -1,0 +1,9 @@
+{
+  "id": "9f7c8d83-3d48-4c57-b5bb-625b01bedc51",
+  "label": "Fixed initial 535 selected history profile",
+  "term": "selected initial history and later variation profile",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Modal.FixedInitial535.History",
+  "definition": "History W B D supplies an Ontic frame, primitive selected initial roster, initial description value, later Bool observation and primitive world-indexed existential support. Rigid explicitly requires actual initial population, initial-to-presence soundness and same-bearer initial preservation at accessible worlds. ConditionalOrigin constrains a bearer only where present. SameDescription equates selected D values; it is not completeness of qualitative structure. LaterVariation requires accessible unequal Bool observations; it is not objective chance. Literal B equality expresses rigid identity; no primitive relation is thereby philosophically analyzed. Joint adds a one-way endpoint constraint: every selected ground edge implies both endpoint bearers exist at that world and are distinct. This constrains the admitted profiles; it neither defines existential support nor licenses the converse from existing distinct endpoints to a ground edge.",
+  "note": "Analyst formulation, attribution deferred. OPEN: temporal-firstness bridge, completeness of descriptions and histories, metaphysical access adequacy, natural/concrete interpretation and independent existential-dependence warrant. See docs/notes/fixed-initial-history-535.md. No claim to recursive definition of these open primitives."
+}

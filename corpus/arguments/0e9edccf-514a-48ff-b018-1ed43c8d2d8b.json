@@ -1,0 +1,27 @@
+{
+  "id": "0e9edccf-514a-48ff-b018-1ed43c8d2d8b",
+  "label": "Origin-determined access with a varied individual gives the tolerance rival",
+  "premise_statement_ids": [
+    "4dee106c-182f-4bf4-bc2c-01b0b7599632",
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "77c5f64a-7126-4804-8af2-ed32382a8f8e"
+  ],
+  "conclusion_statement_id": "8a992ec3-5c71-4279-82b4-5f4e6dfdb952",
+  "inference_ids": [
+    "2c4848d7-b7bb-46f4-b338-8ada37bdc112"
+  ],
+  "meaning": "Conditional bridge from the origin interface to the structural frame condition: reflexive and symmetric closeness plus access exactly when shared individuals have near origins gives reflexive and symmetric access. The same individual with non-near origins at two successors of w prevents access between those successors. The three listed premises therefore entail ToleranceNonEuclideanAt at w; OriginPlenitude is not needed. No converse or general representation theorem is claimed: the old surrogate having no origin interface does not by itself prove that no such interface can be supplied.",
+  "definition_ids": [
+    "55f1e519-2cc8-4f56-ab4b-8a373e23276b",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "622524e2-e7f3-4b27-a644-bf9a4235121b",
+    "beb654a7-e204-5f4c-a7b4-45e886ba7109",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2",
+    "e4bc79ff-a54e-46b4-8562-070443885ead",
+    "e55472fe-cc19-44ea-b6f4-3aca2da49660"
+  ],
+  "disambiguation_ids": [
+    "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d",
+    "b2722186-d111-59aa-964f-443a173943d9"
+  ]
+}

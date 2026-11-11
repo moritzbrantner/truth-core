@@ -1,0 +1,25 @@
+{
+  "id": "3abf7cd9-99f2-4d45-80ee-dc7295e4bce8",
+  "label": "Non-concrete-cause rival of the esse-cause bridge survives, checked",
+  "argument_id": "aa334bba-2985-415e-a922-3a1d75b34c68",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.nonConcreteEsseCauseSurvives",
+  "comparator_config": "results/3abf7cd9-99f2-4d45-80ee-dc7295e4bce8/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for the esse-cause bridge against its smallest consumer, Round2Grounding.contingentGroundedViaParticipation (premises: actual contingent concreta participate esse, participated esse has a distinct cause, the esse-cause bridge). With a non-concrete item causing the esse of a contingent concretum, the rival holds with the other two premises and contingent dependence on an actual concrete ground fails. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "cb1cdea9-eb6c-578c-8008-84e0d4107fd3",
+      "rival_statement_id": "4c9908ba-d2e6-455a-a3ea-0e0354ca2eed",
+      "sense_definition_id": "cdc9a611-4829-4125-8b20-5c69430e50e3",
+      "outcome": "model-witnessed",
+      "conditions": "Control.formCause at world false with formCauses and formParticipates: the rival, ContingentConcretumParticipatesEsse and ParticipatedEsseHasDistinctCause hold; EveryContingentGroundedAt fails. Consumer tested: Round2Grounding.contingentGroundedViaParticipation.",
+      "scope": "Same Profile, selected world, CausesIn and esse as the premise; two mutually accessible worlds, two candidates.",
+      "coverage": "One explicitly populated interpretation; the other failure modes of the bridge (absent cause; concrete cause that is no selected-relation ground) are not tested.",
+      "exclusivity": "The rival and the premise cannot both hold on one Profile, world, CausesIn and esse (unregistered helper nonConcreteEsseCause_excludes).",
+      "witness": "Control.formCause in Control.NonConcreteEsseCauseSurvives; nonConcreteEsseCauseSurvives proves the listed conjuncts.",
+      "next_step": "Test the rival against the principle that causing requires act and the adopted sense of concrete as esse in re: together they would make every cause of esse concrete."
+    }
+  ]
+}

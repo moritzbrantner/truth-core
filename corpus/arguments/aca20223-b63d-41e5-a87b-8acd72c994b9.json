@@ -1,0 +1,29 @@
+{
+  "id": "aca20223-b63d-41e5-a87b-8acd72c994b9",
+  "label": "A3 accessible occurrence transport controls",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "2e374e3c-71b8-4308-8f65-41e4f95ab018",
+  "inference_ids": [
+    "3b250b4b-47eb-4346-8062-6bfe2d6c00d1"
+  ],
+  "meaning": "Constructively prove the strength comparison with the type-global law, the derivation of relativized uniqueness from UniqueRealization of accessible occurrence, the collapse forced by type-global uniqueness, one separating nonvacuity witness, and omission countermodels for the uniqueness and matching-conditioning antecedents. No premise discharge or root truth.",
+  "term_senses": {
+    "A3_EVENT_IDENTITY_CAUSAL_PRIORITY": "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56"
+  },
+  "definition_ids": [
+    "c15d4a39-fd79-4c1f-88fa-376cad2eb179",
+    "e7dc62a6-7b2f-4467-87b3-ec287bd67047"
+  ],
+  "disambiguation_ids": [
+    "82cfe4a1-7f82-5453-ab75-cde5474121e8"
+  ],
+  "sense_bridges": [
+    {
+      "term": "A3_EVENT_IDENTITY_CAUSAL_PRIORITY",
+      "from": "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56",
+      "to": "eaa836ba-e872-4c16-9511-4ce208529a62",
+      "statement_id": "2e374e3c-71b8-4308-8f65-41e4f95ab018",
+      "role": "conclusion"
+    }
+  ]
+}

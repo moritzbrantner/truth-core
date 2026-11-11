@@ -1,0 +1,6 @@
+{
+  "id": "199ffee0-8ec2-4340-bf95-ebf7b215fc40",
+  "label": "Quantitative transfer halfFixed",
+  "paraphrase": "The whole half-transfer successor-chain operator fixes P(n)=2^n, and that assignment exceeds every finite real bound. Uniform half loss alone cannot exclude unbounded source-free balance.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.HalfFixed"
+}

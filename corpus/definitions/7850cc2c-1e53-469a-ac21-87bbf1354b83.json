@@ -1,0 +1,9 @@
+{
+  "id": "7850cc2c-1e53-469a-ac21-87bbf1354b83",
+  "label": "Realization of each near origin variation for the same existing individual",
+  "term": "near-origin variation plenitude",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.OriginPlenitude",
+  "definition": "OriginPlenitude m Concrete I means that for every world w, every x with Concrete x and m.ExistsAt w x, and every origin o near I.origin w x, there is a world v accessible from w with m.ExistsAt v x and I.origin v x = o. The witness v may vary with w, x and o. Concrete is an independently supplied world-invariant B → Prop classification; the controls stipulate it true of all candidates. The premise preserves the same selected individual and imposes no condition on other individuals at the witness world.",
+  "note": "Open analyst commitment, attribution deferred. Dependencies: 622524e2-e7f3-4b27-a644-bf9a4235121b and DEF-KANT-ONTOLOGICAL-MODEL; access uses DEF-MODAL-FIXTURE-FRAME. This is neither the sufficiency half of OriginDeterminesAccess nor joint realization of several variations. It does not require deletion of x, deletion of any actual roster, worldwise deletion, recombination of arbitrary populations, a temporal change or causal powers. Control.restored satisfies it with its one individual present everywhere, so deletion is not encoded by this predicate.",
+  "basis": "stipulative"
+}

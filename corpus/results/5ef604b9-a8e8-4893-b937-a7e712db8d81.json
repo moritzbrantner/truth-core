@@ -1,0 +1,11 @@
+{
+  "id": "5ef604b9-a8e8-4893-b937-a7e712db8d81",
+  "label": "Origin-determined access and origin-compatible deletion give worldwise deletion",
+  "argument_id": "866587eb-4f23-4fa6-960d-181038535a51",
+  "challenge_module": "TruthCore.Results.Causality.OriginDeletion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginDeletion.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginDeletion.originDeletion",
+  "comparator_config": "results/5ef604b9-a8e8-4893-b937-a7e712db8d81/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional entailment: if access is exactly shared-origin closeness, any world lacking x whose shared individuals keep near origins is accessible, so origin-compatible deletion yields worldwise deletion. Only the OPEN if-half of origin-determined access is used; the deleted individual's own origin imposes no condition, because it is not shared. With deletionOriginCompatible, under origin-determined access worldwise deletion is equivalent to origin-compatible deletion, a world-inventory principle the encoded origin commitments do not settle (OriginDeletion.Control.Certificate: faithful and restored violate deletion, withEmpty satisfies it, all with the four origin commitments)."
+}

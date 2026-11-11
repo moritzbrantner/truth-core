@@ -1,0 +1,10 @@
+{
+  "id": "aa11078b-310d-4985-9afb-cbfc49b59968",
+  "label": "Tolerance omission model for Euclidean access at the selected world checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "60501b28-e6e1-46ad-b0e5-bd8daf64c089",
+  "rule": "Explicit three-world interpretations checked by case analysis",
+  "meaning": "The tolerance rival is jointly satisfiable with every other premise of the actual-world Euclidean inert-emptiness arrival (ActualEuclidean.inertNecessaryConcrete) while its conclusion fails, so Euclidean access at the selected world is not redundant there and the rival is not excluded by the remaining premises. Under the chained reading of accessibility the same assignment satisfies Euclidean access at actual but loses the possible contingent-free past, as the arrival requires. The rival is neither refuted nor established; model claims concern these finite interpretations only. Structural surrogate: the model witnesses a symmetric reflexive non-Euclidean omission model; it carries no origin/material/identity interface, so it does not show that the origin-tolerance account survives the arrival (OPEN bridge; restoration tested in OriginToleranceIdentity: on one restored assignment (Control.restored) the pattern is destroyed; the encoded five-world model (Control.faithful) survives).",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

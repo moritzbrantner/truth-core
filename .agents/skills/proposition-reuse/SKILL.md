@@ -6,7 +6,8 @@ description: Find related truth-core propositions, existing arguments and previo
 # Proposition reuse
 
 From the truth-core repository root, build the Rust CLI once per clone
-(`cargo build --locked --release -p truth`), then run:
+(`cargo build --locked --release -p truth`; rebuild after Rust source or Cargo
+input changes), then run:
 
 ```bash
 target/release/truth related <STMT-ID> --limit 10

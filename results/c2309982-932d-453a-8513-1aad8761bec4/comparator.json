@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Ethics.AgencyNeutrality.Challenge",
+  "solution_module": "TruthCore.Results.Ethics.AgencyNeutrality.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Ethics.AgencyNeutrality.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

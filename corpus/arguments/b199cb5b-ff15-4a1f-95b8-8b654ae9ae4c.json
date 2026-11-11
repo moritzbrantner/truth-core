@@ -1,0 +1,13 @@
+{
+  "id": "b199cb5b-ff15-4a1f-95b8-8b654ae9ae4c",
+  "label": "Mutual-support rival of well-founded necessary support survives, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "d697bcf3-21ba-457f-a996-c9dac253262b",
+  "inference_ids": [
+    "599f82ef-873c-4ac8-b806-5dbd5fa3e70d"
+  ],
+  "meaning": "Rival test for well-founded necessary support against its smallest consumer, NecessaryConcreteUnderived.checks (premises as listed there). With two necessary concreta, the first grounding the second at the selected world and the second grounding the first at another world, the mutual-support rival holds with the other six premises and no necessary concretum is underived at every admitted world. Each world's own grounding is well-founded; only the union across worlds is circular. Model-witnessed survival only.",
+  "definition_ids": [
+    "d39970e4-1ec3-4977-9a65-a36aa90fe5d6"
+  ]
+}

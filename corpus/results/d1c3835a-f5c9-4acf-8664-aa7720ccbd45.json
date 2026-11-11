@@ -1,0 +1,11 @@
+{
+  "id": "d1c3835a-f5c9-4acf-8664-aa7720ccbd45",
+  "label": "Quantitative transfer derivation nonuniformTail",
+  "argument_id": "3d406b98-d677-4580-98fe-65016e56ab3b",
+  "challenge_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Challenge",
+  "solution_module": "TruthCore.Results.Causality.QuantitativeTransferPaths.Solution",
+  "theorem": "TruthCore.Results.Causality.QuantitativeTransferPaths.nonuniformTail",
+  "comparator_config": "results/d1c3835a-f5c9-4acf-8664-aa7720ccbd45/comparator.json",
+  "status": "solution-present",
+  "description": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

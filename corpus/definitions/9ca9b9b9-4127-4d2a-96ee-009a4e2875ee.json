@@ -1,0 +1,9 @@
+{
+  "id": "9ca9b9b9-4127-4d2a-96ee-009a4e2875ee",
+  "label": "correctness relative to supplied reference maps",
+  "term": "correctness relative to supplied reference maps",
+  "definition": "Correct g t means g.content t = g.condition (g.referent t). The reference map is supplied independently of this equality, so a fixed referent can coexist with error. A nondiscriminating condition can make different referents equally correct. This does not establish underdetermination under rich individuating contents.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.Correct",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}

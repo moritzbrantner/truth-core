@@ -291,3 +291,11 @@ not a theory of laws. `compositeRoot` is an analyst's shape, not attributed to a
 (section above) is the source read for the strongest historical necessary impersonal ground. A
 contemporary physical monism with a composite necessary whole has no pinned witness here; it stays
 the analyst's `compositeRoot`.
+
+## Fixed-initial-history follow-up
+
+[Issue #535 reassessment](fixed-initial-history-535.md) audits the initial-roster,
+identity, complete-history and underivedness interpretations against these
+controls and the newer grounding-identity and origin/deletion results. Its
+provisional judgment is a draft for independent semantic challenge; it introduces
+no new certified consequence or premise closure.

@@ -5,7 +5,9 @@ results = "TruthCore.Results.Causality.SurveySourceEndpointControls"
 [[statement]]
 id = "A2 actual source endpoint obstruction"
 lean = "TruthCore.Causality.SurveySourceEndpointControls.EndpointObstruction"
-paraphrase = "A one-world one-individual interpretation jointly satisfies the four nonlogical inputs of the existing possible causal source necessity argument and has the same actual necessary graph source, while no outgoing actual causal edge and no necessary concrete individual in the supplied Profile exist. This is an exact endpoint obstruction, not a source capability definition or a metaphysical possibility claim."
+paraphrase = "A one-world one-individual interpretation jointly satisfies the four nonlogical inputs of the existing possible causal source necessity argument and has the same actual necessary graph source, while no outgoing actual causal edge exists and its supplied Profile has no necessary concrete individual because that Profile's concrete predicate is empty. Concreteness is a separate Profile field unconstrained by Ontic, so the necessary-concrete clause fails for any empty concrete predicate whatever the A2 inputs. This is an exact endpoint obstruction, not a source capability definition or a metaphysical possibility claim."
+definitions = ["beb654a7-e204-5f4c-a7b4-45e886ba7109", "38b92bb6-33ae-5817-85c6-b5a1afa63bd1"]
+disambiguations = ["7507d645-874d-5434-add8-2f49c2801d36"]
 
 [[argument]]
 id = "A2 actual source endpoint obstruction certificate"
@@ -13,4 +15,4 @@ theorem = "endpointObstruction"
 premises = []
 conclusion = "A2 actual source endpoint obstruction"
 rule = "Explicit finite interpretation"
-meaning = "The only individual exists in the only world, making contingency impossible and local causality vacuous. Its empty full ancestor graph fails headless coverage. It is a necessary isolated source but satisfies no concreteness predicate and has no outgoing actual edge. Thus even the original nonlogical source-composition inputs jointly do not calibrate sourcehood to the exact necessary-concrete root-route node. No capability-to-exercise direction or original sense completion is asserted."
+meaning = "The only individual exists in the only world, making contingency impossible and local causality vacuous. Its empty full ancestor graph fails headless coverage, and it is a necessary isolated graph source with no outgoing actual edge. The obstruction to the necessary-concrete node is that the supplied Profile's concrete predicate is unconstrained by Ontic: abstractProfile sets concrete to fun _ => False. Any Profile with an empty concrete predicate refutes NecessaryConcreteAt, and hence the bridge from actual source necessity to the necessary-concrete root-route node, regardless of the A2 inputs; those inputs are realized jointly here only to show they do not themselves fix concreteness. The missing piece is an explicit calibration of concreteness to the causal source, not a defect of the source-composition inputs. No capability-to-exercise direction or original sense completion is asserted."

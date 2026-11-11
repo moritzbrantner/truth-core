@@ -1,0 +1,9 @@
+{
+  "id": "b391c809-50b9-488c-909d-6ba6658b989e",
+  "label": "Some ordinary-role belief reason has force at its subject's actual preference",
+  "paraphrase": "OPEN analyst premise, attribution deferred: some subject, consideration and content p are such that the consideration is an attributed ordinary-role reason for believing p and has pro tanto force for that subject at the subject's actual supplied preference. The goal-relative rival grants this whenever an accuracy-valuing subject has favoring evidence. No preference independence, overriding duty or factivity is asserted.",
+  "lean_declaration": "TruthCore.Logic.EpistemicAuthority.ActualForceConcession",
+  "definition_ids": [
+    "d13c0241-320a-5d56-8927-341e46063e05"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "70d098fe-048d-4bcd-b48e-e9ca293b0ba0",
+  "label": "Origin-deletion controls checked",
+  "argument_id": "3d3b57d5-b9ea-41c6-9084-8dbc42c219a7",
+  "challenge_module": "TruthCore.Results.Causality.OriginDeletion.Challenge",
+  "solution_module": "TruthCore.Results.Causality.OriginDeletion.Solution",
+  "theorem": "TruthCore.Results.Causality.OriginDeletion.deletionControls",
+  "comparator_config": "results/70d098fe-048d-4bcd-b48e-e9ca293b0ba0/comparator.json",
+  "status": "solution-present",
+  "description": "Model-witnessed neutrality of the four encoded origin-tolerance commitments on individual deletion: with all four holding, deletion fails at a successor of actual (faithful, which is also the countermodel to Arrival A) or at actual itself (restored), and holds at every world (withEmpty, which adds a world with no individuals). So the encoded commitments entail neither deletion nor its failure, at actual, at accessible worlds or at every world. withEmpty is a bare Ontic, not a History, so presence-to-existence, inert emptiness and the possible contingent-free past are not stated for it; any history structure on withEmpty must violate one of them at actual (by accessibleDeletionExcluded). Model claims concern these finite interpretations only; counterpart, vague or kind-relative tolerance readings are not tested."
+}

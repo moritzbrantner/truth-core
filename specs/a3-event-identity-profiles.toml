@@ -3,20 +3,20 @@ vocab = "TruthCore.Causality.EventIdentityProfiles"
 results = "TruthCore.Results.Causality.EventIdentityProfiles"
 
 [[statement]]
-id = "A3 local occurrence uniqueness transports possible conditioning"
+id = "A3 type-global occurrence uniqueness transports possible conditioning"
 lean = "SameEventTransport"
-paraphrase = "For unrestricted bearer, time, state, world and condition carriers, matching structured state-pair contents allow transfer of possible conditioning to the selected occurrence IF every occurrence with those contents equals that occurrence. This is conditional analyst transport, with attribution deferred; uniqueness is an explicit hypothesis, not an established identity principle. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality."
+paraphrase = "For unrestricted bearer, time, state, world and condition carriers, matching structured state-pair contents allow transfer of possible conditioning to the selected occurrence IF every term of the whole occurrence type with those contents, whether or not it ever occurs, equals that occurrence. This TYPE-GLOBAL uniqueness antecedent holds only when the carriers admit exactly one bearer and one ordered start/finish interval, so it collapses the occurrence reading into the state-pair reading and is not implied by UniqueRealization of any admission predicate. The corrected law relativizing uniqueness to accessibly occurring occurrences is statement A3 accessible occurrence uniqueness transports possible conditioning. Conditional analyst transport, with attribution deferred; uniqueness is an explicit hypothesis, not an established identity principle. The condition relation remains primitive and gives no concrete bearer, temporal presence or actuality."
 disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
 definitions = ["c15d4a39-fd79-4c1f-88fa-376cad2eb179", "e7dc62a6-7b2f-4467-87b3-ec287bd67047"]
 
 [[argument]]
-id = "A3 same-event transport under selected occurrence uniqueness"
+id = "A3 same-event transport under type-global occurrence uniqueness"
 theorem = "transport"
 premises = []
-conclusion = "A3 local occurrence uniqueness transports possible conditioning"
+conclusion = "A3 type-global occurrence uniqueness transports possible conditioning"
 rule = "constructive-proof"
-meaning = "Prove the universally quantified conditional transport law. The antecedent explicitly requires uniqueness for the selected state-pair and possible conditioning of a matching occurrence. This does not discharge A3P1 or infer actual causation. Root connection plan: supply a same-event dictionary to the A3 first-transition route; prior explanatory condition to concrete bearer, contingency exclusion and modal actuality remain OPEN."
+meaning = "Prove the universally quantified conditional transport law under TYPE-GLOBAL selected uniqueness: the antecedent requires every term of the occurrence type sharing the selected state-pair, occurring or not, to equal the selected occurrence, and possible conditioning of a matching occurrence. That antecedent forces a single bearer and ordered interval, so this law does not bridge to the occurrence reading with repeated realizations; it is superseded as the sense bridge by the accessible-occurrence transport law. This does not discharge A3P1 or infer actual causation."
 
 disambiguations = ["82cfe4a1-7f82-5453-ab75-cde5474121e8"]
 senses = { A3_EVENT_IDENTITY_CAUSAL_PRIORITY = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56" }
-sense_bridges = [{ term = "A3_EVENT_IDENTITY_CAUSAL_PRIORITY", from = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56", to = "eaa836ba-e872-4c16-9511-4ce208529a62", statement_id = "A3 local occurrence uniqueness transports possible conditioning", role = "conclusion" }]
+sense_bridges = [{ term = "A3_EVENT_IDENTITY_CAUSAL_PRIORITY", from = "3bdd6f94-73e4-4b39-b10c-f502dd1c1c56", to = "eaa836ba-e872-4c16-9511-4ce208529a62", statement_id = "A3 type-global occurrence uniqueness transports possible conditioning", role = "conclusion" }]

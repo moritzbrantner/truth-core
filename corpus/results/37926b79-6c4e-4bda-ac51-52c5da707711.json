@@ -1,0 +1,25 @@
+{
+  "id": "37926b79-6c4e-4bda-ac51-52c5da707711",
+  "label": "Unbounded-grades rival of grades-to-maximum at being survives, checked",
+  "argument_id": "696768f1-0d11-4716-94ec-4b07eeb7b72c",
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsRootEsse.Solution",
+  "theorem": "TruthCore.Results.Causality.SpineRivalsRootEsse.unboundedGradesSurvive",
+  "comparator_config": "results/37926b79-6c4e-4bda-ac51-52c5da707711/comparator.json",
+  "status": "solution-present",
+  "description": "Rival test for grades-to-maximum at being against its smallest consumer, SelectedAncestryUnique.uniqueRoot (premises: a necessary root ancestor of the selected being, excluded middle, the genus principle at being, the existence-to-act contract, the esse-cause bridge, grades-to-maximum at being). On the natural numbers ordered by size, all necessary and ungrounded, the unbounded-grades rival holds with the other five premises and there are many necessary roots, so none is unique. Two of the other premises hold vacuously there. Model-witnessed survival only.",
+  "research_comparisons": [
+    {
+      "target_statement_id": "e4e6b0cd-f61a-5605-a302-573c67cf063a",
+      "rival_statement_id": "3524f567-234c-4f22-a99e-29e3066d60ce",
+      "sense_definition_id": "7c0acaa9-c119-4130-8c80-acd91eba129f",
+      "outcome": "model-witnessed",
+      "conditions": "Control.ascent at its one world with ascentAct, ascentMore, ascentCause and selected being 0: the rival, NecessaryRootAncestor, excluded middle, MaximumInBeingCausesAllBeingsReading, ExistingInActAt and EsseCauseIsActualConcreteGround hold; UniqueNecessaryActualRootAt fails. Consumer tested: SelectedAncestryUnique.uniqueRoot.",
+      "scope": "Same InAct, MoreIn and esse as the premise; one world, natural-number candidates, strict order with no top.",
+      "coverage": "One infinite interpretation; the genus principle and the esse-cause bridge hold vacuously there, so a model with a working causal order and unbounded grades is not exhibited.",
+      "exclusivity": "The rival and the premise cannot both hold on one InAct, MoreIn and esse (unregistered helper unboundedGrades_exclude).",
+      "witness": "Control.ascent in Control.UnboundedGradesSurvive; unboundedGradesSurvive proves the listed conjuncts.",
+      "next_step": "Compare the rival with the two recorded derivations of the premise (from no infinite ascent in being, and from grading by approach to a primary): each derivation's premises jointly exclude the rival, so its holder must deny one premise of each."
+    }
+  ]
+}

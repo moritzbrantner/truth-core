@@ -1,0 +1,9 @@
+{
+  "id": "502a05c8-2a81-4410-84a7-2474f52debc7",
+  "label": "structural presentation",
+  "term": "structural presentation",
+  "definition": "A Presentation has state : Context \u2192 State, decode : Context \u2192 State \u2192 Form, and target : Context \u2192 Form. At a context c its output is decode c (state c). The target is supplied independently; its value does not assert occurrence, aboutness or actual existence. Context, state and form are mathematical carriers, not complete definitions of intrinsic being or intentional form.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Logic.FormSelection.Presentation",
+  "note": "Analyst structural meaning for #1380; see docs/notes/form-selection-1380.md. Mathematical fields have explicit bodies. Physical reference-fixing, intentional norms, cognitive adequacy and divine applicability remain OPEN interpretation obligations. No new numbered cognitive sense or actual semantic theory is established."
+}

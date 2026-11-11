@@ -1,0 +1,64 @@
+[batch]
+vocab = "TruthCore.Causality.ProductiveStore"
+results = "TruthCore.Results.Causality.ProductiveStore"
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[statement]]
+id = "Finite energy ledger bounds output and requires input for nondepleting dissipation"
+lean = "Budget"
+paraphrase = "For every admissible energy ledger, work plus heat is at most initial stock plus boundary input; if final stock is at least initial stock and work plus heat is positive, boundary input is positive."
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[argument]]
+id = "741802a8-76b5-4568-ac57-edca634d83f1"
+theorem = "budget"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Finite energy ledger bounds output and requires input for nondepleting dissipation"
+rule = "Energy ledger arithmetic"
+meaning = "For every admissible energy ledger, work plus heat is at most initial stock plus boundary input; if final stock is at least initial stock and work plus heat is positive, boundary input is positive. Analyst conditional model only; no universal causal or existential bridge."
+
+[[statement]]
+id = "Discharge maintenance replenishment and heat-only ledger controls"
+lean = "Controls"
+paraphrase = "The explicit ledgers (before,after,input,work,heat) (2,0,0,1,1), (2,2,0,0,0), (2,2,2,1,1), (2,0,0,0,2) are admissible; (2,2,0,1,1) is not."
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[argument]]
+id = "2a2295f3-da00-40d9-963d-4231fe03026e"
+theorem = "controls"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Discharge maintenance replenishment and heat-only ledger controls"
+rule = "Energy ledger arithmetic"
+meaning = "The explicit ledgers (before,after,input,work,heat) (2,0,0,1,1), (2,2,0,0,0), (2,2,2,1,1), (2,0,0,0,2) are admissible; (2,2,0,1,1) is not. Analyst conditional model only; no universal causal or existential bridge."
+
+[[statement]]
+id = "Every finite interval sequence has cumulative output bounded by stock and input"
+lean = "TemporalBudget"
+paraphrase = "For real sequences stock,input,output, nonnegative stock and stock(t+1)+output(t)=stock(t)+input(t) imply every finite output sum is at most stock(0) plus the corresponding input sum. This arithmetic theorem needs no positivity assumption on input or output."
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[argument]]
+id = "79f67ab9-a489-4e23-abde-da5284dbe801"
+theorem = "temporalBudget"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Every finite interval sequence has cumulative output bounded by stock and input"
+rule = "Energy ledger arithmetic"
+meaning = "For real sequences stock,input,output, nonnegative stock and stock(t+1)+output(t)=stock(t)+input(t) imply every finite output sum is at most stock(0) plus the corresponding input sum. This arithmetic theorem needs no positivity assumption on input or output. Analyst conditional model only; no universal causal or existential bridge."
+
+[[statement]]
+id = "Positive discharge can persist at every natural interval with finite initial stock"
+lean = "DecayingDischarge"
+paraphrase = "For every natural n let e=(1/2)^n. The ledger (2e,2(1/2)^(n+1),0,e/2,e/2) is admissible and e/2 is positive. Adjacent stocks match; this witnesses indefinitely positive but decreasing interval output without external energy input, not eternal steady output or metaphysical source-free power."
+definitions = ["e5cefbf6-0c52-47d9-b9a6-66c0ebf65e73"]
+
+[[argument]]
+id = "dc9576d6-9216-4440-97cf-eee0494ac3f7"
+theorem = "decayingDischarge"
+axioms = ["propext", "Classical.choice", "Quot.sound"]
+premises = []
+conclusion = "Positive discharge can persist at every natural interval with finite initial stock"
+rule = "Energy ledger arithmetic"
+meaning = "For every natural n let e=(1/2)^n. The ledger (2e,2(1/2)^(n+1),0,e/2,e/2) is admissible and e/2 is positive. Adjacent stocks match; this witnesses indefinitely positive but decreasing interval output without external energy input, not eternal steady output or metaphysical source-free power. Analyst conditional model only; no universal causal or existential bridge."

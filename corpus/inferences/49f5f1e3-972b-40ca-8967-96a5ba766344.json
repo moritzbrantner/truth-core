@@ -1,0 +1,10 @@
+{
+  "id": "49f5f1e3-972b-40ca-8967-96a5ba766344",
+  "label": "Fixed initial 535 joint controls checked (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "f1a7a355-c4fa-4148-ae44-16b98be970d1",
+  "rule": "Finite joint witnesses by exhaustive Boolean simplification",
+  "meaning": "Joint nonvacuity and omission controls for issue 535; all conclusions concern supplied finite interpretations, not metaphysical possibility.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

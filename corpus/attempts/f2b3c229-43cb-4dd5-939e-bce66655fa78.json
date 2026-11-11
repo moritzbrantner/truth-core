@@ -1,0 +1,24 @@
+{
+  "id": "f2b3c229-43cb-4dd5-939e-bce66655fa78",
+  "label": "Origin-tolerance rival with varied individual restored, against actual-world Euclidean access",
+  "statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "60501b28-e6e1-46ad-b0e5-bd8daf64c089",
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "4dee106c-182f-4bf4-bc2c-01b0b7599632",
+    "a1e708b3-c3e7-434f-9eee-4f50a236516b",
+    "77c5f64a-7126-4804-8af2-ed32382a8f8e"
+  ],
+  "date": "2026-11-10",
+  "kind": "derivation",
+  "outcome": "succeeded",
+  "summary": "Supplies one explicit origin interface for comparison with the structural surrogate ToleranceOriginRival; real-world and source fidelity remain OPEN. OriginToleranceIdentity assigns origins to rigid individuals at worlds and a primitive near relation, with four separate open commitments: reflexive/symmetric closeness; access iff every shared individual has near origins; realization of every near origin variation for the same individual; and one actual individual with non-near origins at two successors. The zero-axiom bridge originToleranceNonEuclidean uses the first, second and fourth commitments to entail the structural frame condition; plenitude is unused, and no converse/representation theorem is proved. Control.restored checks one assignment with the varied individual at all three offsets: all four commitments and NecessaryConcreteAt hold there, so that assignment is no countermodel. This does not establish a general three-world or restoration impossibility. Control.faithful is a nonvacuous five-world, two-individual countermodel to omission of F2′ from Arrival A, faithful only to its encoded commitments: a has origins -1/0/+1 at aMinus/actual/plus; b has 0/0/-1/+1 at actual/plus/bMinus/bPlus. Access fails only between aMinus and plus and between bMinus and bPlus. All four origin commitments, actual reflexivity, presence-to-existence, inert emptiness and the possible contingent-free past hold. At witness plus (times 0<1), b is necessary and always present, while a is contingent and present only at 1. At actual both EuclideanAt and NecessaryConcreteAt fail (a absent from bMinus, b absent from aMinus). The absence and temporal assignments are stipulated, not consequences of material origins. Unregistered prose deduction from the existing earlierNecessary theorem: the temporal premises already require a necessary individual and a distinct contingent individual at the witness, so a one-individual carrier cannot satisfy that bundle. Under OriginDeterminesAccess, a successor lacking the necessary witness must be inaccessible from the witness world; classical negation of the shared-origin criterion then supplies a different shared individual with far origins. These general deductions are not additional certificate conjuncts. Deletion scope correction: write D(v) for every concrete individual existing at v being absent at some world accessible from v. OriginDeletion.deletionControls (result 70d098fe) certifies D(actual): choose bMinus for a, and aMinus for b; D(plus) fails because b exists at plus and all of its successors (actual, plus, bMinus and bPlus). Thus actual-only individual deletion neither removes the model nor excludes necessity at another world. OriginDeletion.accessibleDeletionExcluded (result 18aadc0d) composes earlierNecessary: presence-to-existence, inert emptiness and the possible contingent-free past at w exclude deletion at every world accessible from w, hence also worldwise deletion. Neither actual reflexivity nor Euclidean access is used. OriginDeletion.emptyWorldArrivalInconsistent (result ba68692e) additionally assumes OriginDeterminesAccess and excludes a world with no individuals at all. These are inconsistencies of strengthened bundles, not vacuity of the original countermodel and not warrant for worldwise deletion. Joint deletion of all individuals at one world is a separate, still untested requirement; OriginPlenitude preserves its selected individual. The original model and its non-entailment result remain intact.",
+  "evidence": [
+    "7c839c5e-2b39-4c7e-af38-99bfc46c48b5",
+    "468cbe86-1bba-4a0c-9484-5feb910a22e6",
+    "70d098fe-048d-4bcd-b48e-e9ca293b0ba0",
+    "18aadc0d-1752-4812-8e29-6abcd9112b42",
+    "ba68692e-cc56-4f4c-9a9c-87a2e39f0ba9"
+  ],
+  "blocker": "Independent warrant remains OPEN for the access biconditional, rigid identity, stipulated absences and temporal profile, and any cross-world persistence or worldwise-deletion bridge. The four origin commitments do not supply worldwise deletion: Control.faithful satisfies them and fails D(plus). Counterpart, vague and kind-relative tolerance, unrestricted recombination and the possible-external-cause arrival were not tested. The provisional warrant assessment may change if a defended interpretation or additional bridge is supplied; no frontier closure or rival defeat is claimed."
+}

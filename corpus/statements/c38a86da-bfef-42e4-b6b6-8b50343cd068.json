@@ -1,0 +1,6 @@
+{
+  "id": "c38a86da-bfef-42e4-b6b6-8b50343cd068",
+  "label": "Quantitative transfer binaryFixed",
+  "paraphrase": "The binary operator averaging the two distinct Boolean-word children preserves both constant one and constant zero on the entire infinite tree. Positive bounded source-free balance is compatible with individual half-weight edges and total incoming gain one.",
+  "lean_declaration": "TruthCore.Causality.QuantitativeTransferPaths.BinaryFixed"
+}

@@ -5,9 +5,10 @@
   "term": "tolerance, classification and boundary",
   "sense_definition_ids": [
     "af012106-a79d-5950-bca2-4fbaf5f7df28",
-    "f2f86c60-02bf-5420-9324-fe946e828336"
+    "f2f86c60-02bf-5420-9324-fe946e828336",
+    "e4bc79ff-a54e-46b4-8562-070443885ead"
   ],
-  "resolution": "Binary truth-preserving tolerance passes membership to each successor. Partial non-opposition merely excludes immediately opposed determinate statuses and does not pass positivity through borderline cases. The theorem does not refute the latter from the inconsistency of the former with opposed endpoints. Predicate extension, detectability and epistemic certainty are distinct. Borderline status does not establish metaphysical indeterminacy; classical metatheory does not establish sharpness of ordinary vague language. Sorites is not a parthood or temporal persistence theorem.",
+  "resolution": "Binary truth-preserving tolerance passes membership to each successor. Partial non-opposition merely excludes immediately opposed determinate statuses and does not pass positivity through borderline cases. The theorem does not refute the latter from the inconsistency of the former with opposed endpoints. Predicate extension, detectability and epistemic certainty are distinct. Borderline status does not establish metaphysical indeterminacy; classical metatheory does not establish sharpness of ordinary vague language. Sorites is not a parthood or temporal persistence theorem. In OriginToleranceIdentity, tolerance instead constrains a primitive relation between origins to be reflexive and symmetric (sense 3); it need not preserve classification along a chain, and it neither requires nor denies transitivity. Origin variation, truth-preserving classification and partial non-opposition are not interchanged. Origin-to-access and rigid-identity commitments remain separate from this closeness condition.",
   "term_label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY",
   "senses": [
     {
@@ -21,6 +22,12 @@
       "label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY_2",
       "definition_id": "f2f86c60-02bf-5420-9324-fe946e828336",
       "lean_declaration": "TruthCore.Logic.SoritesBoundary.NonOpposed"
+    },
+    {
+      "id": "d1bfb131-da6e-4c0e-86be-85a54a07b6d1",
+      "label": "TOLERANCE_CLASSIFICATION_AND_BOUNDARY_3",
+      "definition_id": "e4bc79ff-a54e-46b4-8562-070443885ead",
+      "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.NearIsTolerance"
     }
   ]
 }

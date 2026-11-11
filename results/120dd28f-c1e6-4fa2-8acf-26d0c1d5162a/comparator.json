@@ -1,0 +1,9 @@
+{
+  "challenge_module": "TruthCore.Results.Causality.SpineRivalsAttributes.Challenge",
+  "solution_module": "TruthCore.Results.Causality.SpineRivalsAttributes.Solution",
+  "theorem_names": [
+    "TruthCore.Results.Causality.SpineRivalsAttributes.controls"
+  ],
+  "permitted_axioms": [],
+  "enable_nanoda": true
+}

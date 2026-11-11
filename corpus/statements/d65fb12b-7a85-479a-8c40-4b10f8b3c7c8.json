@@ -1,0 +1,10 @@
+{
+  "id": "d65fb12b-7a85-479a-8c40-4b10f8b3c7c8",
+  "label": "Whatever a successor of the selected world accesses, the selected world accesses",
+  "paraphrase": "OPEN analyst premise, attribution deferred: local axiom 4 at the selected world w. If w accesses v and v accesses z, then w accesses z. Under the alethic reading, whatever is possibly possible relative to the actual history is possible relative to it. Nothing is said about chains starting at other worlds.",
+  "lean_declaration": "TruthCore.Causality.ActualOnlyEuclidean.TransitiveAt",
+  "definition_ids": [
+    "19c9cfd9-7e02-435d-bb58-610fd4148f0b",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
+  ]
+}

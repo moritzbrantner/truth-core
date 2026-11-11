@@ -1,0 +1,9 @@
+{
+  "id": "715bb19c-8aa8-4bcd-92f1-782102d0b01b",
+  "label": "Mere conservation: residual transfer holds and a cause of being fails to cause a perfection",
+  "paraphrase": "Closed control on one three-member interpretation with two respects, esse and one further perfection, all members in act in both (the top causes the esse of the other two; only the maker causes the further perfection, and only in the made thing): the mere-conservation rival holds; the residual transfer condition for non-universal causes and self-effects holds (vacuously: the top is the only cause of esse and causes none in itself); and it is false that whatever causes a thing's esse causes each of its actual perfections. A statement about this interpretation only.",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.Control.MereConservationSurvives",
+  "definition_ids": [
+    "16f8a1e0-056e-4b3f-9915-931ea436323a"
+  ]
+}

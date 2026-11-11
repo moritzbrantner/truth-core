@@ -22,6 +22,14 @@ cargo test --locked -p truth
 python3 scripts/verify_truth_cli.py target/debug/truth
 ```
 
+CI runs the `truth-cli` job (format, Clippy, tests and the Python/Rust parity
+script, about 16 minutes) only when the exact-head impact plan
+(`scripts/affected_results.py select`) selects a full run: a change to Rust,
+Cargo, `scripts/`, CI or another unclassified input, a formal change pushed to
+`main`, and the nightly and manual runs. A PR that changes only corpus data,
+result records, Lean modules or prose changes neither implementation and skips
+it; corpus-driven divergence is caught on the next `main` run.
+
 After fetching Cargo dependencies, add `--offline` to the build to work without
 network access. The executable uses only local files. Use `--root PATH` to
 select another checkout. Paths in results are relative to that checkout.
@@ -41,8 +49,8 @@ configuration records. On malformed input Python and Rust can report
 different first errors because they validate different scopes. The full
 corpus validation, including cross-record links, semantic constraints, and
 evidence bindings, is `truth check` (below) or Python `scripts/corpus.py
-check`. Python also continues to own search, research context, agent
-service, and the existing CI and Explorer consumers. Lean and the existing
+check`. Python continues to own the unmigrated commands, agent
+service and Explorer consumers. Lean and the existing
 verifier retain proof authority. Neither Rust command writes a database or
 cache.
 

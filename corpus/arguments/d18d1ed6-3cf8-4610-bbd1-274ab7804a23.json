@@ -1,0 +1,13 @@
+{
+  "id": "d18d1ed6-3cf8-4610-bbd1-274ab7804a23",
+  "label": "Fixed initial 535 joint controls checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "f1a7a355-c4fa-4148-ae44-16b98be970d1",
+  "inference_ids": [
+    "49f5f1e3-972b-40ca-8967-96a5ba766344"
+  ],
+  "meaning": "Joint nonvacuity and omission controls for issue 535; all conclusions concern supplied finite interpretations, not metaphysical possibility.",
+  "definition_ids": [
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51"
+  ]
+}

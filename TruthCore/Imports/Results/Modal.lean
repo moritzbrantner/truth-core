@@ -29,6 +29,7 @@ public import TruthCore.Results.Modal.ExistenceDegreeUnboundedWorldControl.Solut
 public import TruthCore.Results.Modal.ExistenceDegrees.Solution
 public import TruthCore.Results.Modal.ExistenceDegreesActual.Solution
 public import TruthCore.Results.Modal.FiniteHitting.Solution
+public import TruthCore.Results.Modal.FixedInitial535.Solution
 public import TruthCore.Results.Modal.GraphBridge.Solution
 public import TruthCore.Results.Modal.GraphBridgeCertificate.Solution
 public import TruthCore.Results.Modal.HistoryContrastive.Solution
@@ -54,6 +55,7 @@ public import TruthCore.Results.Modal.ReasonResponseHistory.Solution
 public import TruthCore.Results.Modal.ResearchFixture.Solution
 public import TruthCore.Results.Modal.RetainedDuty.Solution
 public import TruthCore.Results.Modal.RetainedDutyLocal.Solution
+public import TruthCore.Results.Modal.RevisionUptake.Solution
 public import TruthCore.Results.Modal.RigidDesignation.Solution
 public import TruthCore.Results.Modal.RotatingPotentialCausers.Solution
 public import TruthCore.Results.Modal.S4.Countermodels.Solution

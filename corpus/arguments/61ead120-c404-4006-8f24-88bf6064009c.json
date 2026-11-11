@@ -1,0 +1,10 @@
+{
+  "id": "61ead120-c404-4006-8f24-88bf6064009c",
+  "label": "Quantitative transfer derivation resourceBudget",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "9abdae18-e8ce-4a8b-9971-68decef68363",
+  "inference_ids": [
+    "d30912ac-8809-4147-953f-f177c5e989ce"
+  ],
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

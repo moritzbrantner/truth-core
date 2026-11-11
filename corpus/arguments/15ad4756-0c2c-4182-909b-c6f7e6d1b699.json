@@ -1,0 +1,18 @@
+{
+  "id": "15ad4756-0c2c-4182-909b-c6f7e6d1b699",
+  "label": "Local axioms 5 and 4 at the selected world give axiom 5 at its successors",
+  "premise_statement_ids": [
+    "1b1462e6-c285-448c-87e2-3053bc05a341",
+    "d65fb12b-7a85-479a-8c40-4b10f8b3c7c8"
+  ],
+  "conclusion_statement_id": "18598fed-3593-45e1-b4e3-c8dc84244927",
+  "inference_ids": [
+    "53f9686a-2db2-4375-9362-608f47be207a"
+  ],
+  "meaning": "Frame-theoretic boundary for the actual-world Euclidean premise (F2'), not a route step. Checked: EuclideanAt at w and TransitiveAt at w imply EuclideanAt at every successor of w; reflexivity is not needed. This does not imply global Euclidean access: Control.appendix satisfies both local conditions while failing global Euclideanness at unreachable far. Unverified corollary, not a registered Lean result: local transitivity closes the successor set, so every world reachable from w by a finite forward path is Euclidean. Under both local conditions, global failure can remain only outside that region. Ordinary forward-modal formula truth at w depends only on the generated region when its frame and valuation are fixed; this observation does not cover global world quantifiers or globally stated spine premises. F2' with failure of global F2 alone does not force local axiom 4 to fail. Both local conditions remain OPEN framework commitments.",
+  "definition_ids": [
+    "19c9cfd9-7e02-435d-bb58-610fd4148f0b",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "f8948e28-b13a-5244-95f1-41a05cd4fff2"
+  ]
+}

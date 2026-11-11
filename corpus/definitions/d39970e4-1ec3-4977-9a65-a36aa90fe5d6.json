@@ -1,0 +1,9 @@
+{
+  "id": "d39970e4-1ec3-4977-9a65-a36aa90fe5d6",
+  "label": "Mutual support of necessary concreta across admitted worlds",
+  "term": "mutual support of necessary concreta",
+  "definition": "NecessaryConcretaMutualSupport m w holds when there are concrete candidates a and b, each existing at every world accessible from w, and worlds v and u such that a exists at v and stands to b in the selected relation at v, and b exists at u and stands to a in the selected relation at u. Ordinary meaning: two things that could not have failed to exist each sustain the other somewhere. Example: two necessary beings, each sustaining the other in a different possible world. The two candidates may coincide and the two worlds may coincide. It is not an endless regress.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Causality.SpineRivalsRootEsse.NecessaryConcretaMutualSupport",
+  "note": "Analyst framework definition of a rival position; attribution deferred. Motivated by metaphysical interdependence among necessary beings. Rival of ConcreteNecessaryUnionWF on the same Profile and selected world. Stronger than the negation: failure of well-foundedness could also come from an endless descending chain, which this rival does not assert."
+}

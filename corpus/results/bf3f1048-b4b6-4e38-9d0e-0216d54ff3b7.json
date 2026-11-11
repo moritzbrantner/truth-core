@@ -1,0 +1,11 @@
+{
+  "id": "bf3f1048-b4b6-4e38-9d0e-0216d54ff3b7",
+  "label": "One reachability formula defines a non-trivial target on Nat and Bool",
+  "argument_id": "afe51b5c-95af-44ee-a7b3-cbe522a33e35",
+  "challenge_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Challenge",
+  "solution_module": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.Solution",
+  "theorem": "TruthCore.Results.Alternatives.PhysicalSpecificationIndependence.reachNontrivial",
+  "comparator_config": "results/bf3f1048-b4b6-4e38-9d0e-0216d54ff3b7/comparator.json",
+  "status": "solution-present",
+  "description": "The single formula 'the object is reachable from the permitted anchor' defines, on Nat with step-two edges, exactly the even numbers, and on the edgeless Bool graph exactly the anchor false; so VaryingPathDefinability holds with this non-constant target family. 1 on Nat and true on Bool are unreachable, and 2 on Nat is reached. Graph adjacency only: no physical applicability or strict FO separation is asserted."
+}

@@ -27,6 +27,7 @@ public import TruthCore.Modal.ExistenceDegreeAttainment
 public import TruthCore.Modal.ExistenceDegrees
 public import TruthCore.Modal.FiniteHitting.FiniteControls
 public import TruthCore.Modal.FiniteHitting.Vocabulary
+public import TruthCore.Modal.FixedInitial535
 public import TruthCore.Modal.GraphBridge
 public import TruthCore.Modal.GraphBridgeCertificate
 public import TruthCore.Modal.HistoryContrastive
@@ -49,6 +50,7 @@ public import TruthCore.Modal.ResearchFinite
 public import TruthCore.Modal.ResearchFixture
 public import TruthCore.Modal.RetainedDuty
 public import TruthCore.Modal.RetainedDutyLocal
+public import TruthCore.Modal.RevisionUptake
 public import TruthCore.Modal.RigidDesignation
 public import TruthCore.Modal.S4Research
 public import TruthCore.Modal.S5Research

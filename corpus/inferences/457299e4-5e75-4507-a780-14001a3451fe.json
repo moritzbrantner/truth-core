@@ -1,0 +1,10 @@
+{
+  "id": "457299e4-5e75-4507-a780-14001a3451fe",
+  "label": "Replenishment permits constant nondepleting interval work, by temporal energy accounting (inference)",
+  "input_statement_ids": [],
+  "output_statement_id": "23852b4f-e1bd-4c8b-b0ec-9b4dc6c06f4c",
+  "rule": "Finite summation and real Archimedean order",
+  "meaning": "At every natural interval the explicit ledger (2,2,1,1,0) is admissible and its unit work meets unit demand. This is a replenished ledger control, not physical dynamics. Analyst conditional energy accounting only; no causal or bearer bridge.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

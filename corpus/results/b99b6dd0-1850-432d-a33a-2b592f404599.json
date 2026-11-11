@@ -1,0 +1,11 @@
+{
+  "id": "b99b6dd0-1850-432d-a33a-2b592f404599",
+  "label": "Fixed initial 535 rigid branch checked",
+  "argument_id": "237660eb-1886-400f-8369-f4adb238033f",
+  "challenge_module": "TruthCore.Results.Modal.FixedInitial535.Challenge",
+  "solution_module": "TruthCore.Results.Modal.FixedInitial535.Solution",
+  "theorem": "TruthCore.Results.Modal.FixedInitial535.rigidBranch",
+  "comparator_config": "results/b99b6dd0-1850-432d-a33a-2b592f404599/comparator.json",
+  "status": "solution-present",
+  "description": "Exact joint finite branch for configuration comparison; no metaphysical possibility or probability conclusion."
+}

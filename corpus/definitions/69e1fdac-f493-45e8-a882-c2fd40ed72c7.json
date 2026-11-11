@@ -1,0 +1,11 @@
+{
+  "id": "69e1fdac-f493-45e8-a882-c2fd40ed72c7",
+  "label": "Revision uptake Screening structural definition",
+  "kind": "stipulative",
+  "lean_declaration": "TruthCore.Modal.RevisionUptake.Screening",
+  "term": "Revision uptake Screening",
+  "definition": "Conjunction of the gate/override characterization of Participates, universal acquisition screening at true/false settings, and the two explicit omitted-gate/override controls. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding.",
+  "basis": "stipulative",
+  "claim_ids": [],
+  "note": "Conjunction of the gate/override characterization of Participates, universal acquisition screening at true/false settings, and the two explicit omitted-gate/override controls. OPEN actual-agent interpretation and normative bridges: docs/notes/reason-response-history.md. Dependencies are revise and Bool, with Acquisition reused for Screening; these are definitions of port behavior, not constraints completing understanding. Analyst stipulation for conditional tests, attribution deferred."
+}

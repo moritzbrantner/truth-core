@@ -1,0 +1,13 @@
+{
+  "id": "b5a82533-dd4d-4e8f-aec2-de2c4da686b6",
+  "label": "Contingent-root rival of contingent dependence survives, checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "b6b4dbc2-e598-40f9-bd68-a24fb8391292",
+  "inference_ids": [
+    "fe1dc26f-b3f4-498e-b554-973a58f0f0a8"
+  ],
+  "meaning": "Rival test for contingent dependence against its smallest consumer, ActualRootNecessityUpgrade.upgrade (premises: unique actual root, contingent dependence, excluded middle). With one ungrounded contingent concretum the contingent-root rival holds with the other two premises and no root is both necessary and unique. Model-witnessed survival only; existing controls (NecessaryRootControls) already exhibit a contingent root, and this certificate adds the test against the upgrade step.",
+  "definition_ids": [
+    "d517c074-02d2-4daf-8fc0-2c13c4c8de14"
+  ]
+}

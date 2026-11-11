@@ -1,0 +1,9 @@
+{
+ "id": "19c9cfd9-7e02-435d-bb58-610fd4148f0b",
+ "label": "Transitive access at the selected world only",
+ "term": "Transitive at a world",
+ "definition": "TransitiveAt frame w holds when, for all v and z, if w accesses v and v accesses z, then w accesses z: local axiom 4 at w. Read with worlds as complete histories and access as metaphysical possibility: whatever is possibly possible relative to the actual history is possible relative to it. Global transitivity (TruthCore.Modal.Transitive) is this condition at every world. ActualEuclidean.Control.clustered fails it at its actual world (actual sees near, near sees far, actual does not see far).",
+ "basis": "stipulative",
+ "lean_declaration": "TruthCore.Causality.ActualOnlyEuclidean.TransitiveAt",
+ "note": "Analyst framework definition used to locate where Euclidean access at the actual world alone can differ from global Euclidean access; attribution deferred. Nothing is said about chains starting at other worlds. Whether metaphysical possibility satisfies it at the actual world remains OPEN."
+}

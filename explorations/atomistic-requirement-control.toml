@@ -1,0 +1,29 @@
+target = "a2e48b9a-892c-591c-b0a1-87f8ab5937fa"
+
+[[node]]
+id = "a2e48b9a-892c-591c-b0a1-87f8ab5937fa"
+[[node]]
+id = "b0a15d9a-50e1-59f8-b6de-52c3ff63bff0"
+[[node]]
+id = "10eb4095-ced2-416f-963f-ecf0b5df6697"
+
+[[edge]]
+premises = ["b0a15d9a-50e1-59f8-b6de-52c3ff63bff0"]
+conclusion = "a2e48b9a-892c-591c-b0a1-87f8ab5937fa"
+kind = "bridge"
+status = "mapped"
+note = "OPEN Step5 bridge: source priority does not give its fixed effect's priority-or-inclusion. Must retain CAI/plural identity, full composition/fusion and cross-scenario identity/formation/activity/participation commitments. No purported original-bundle countermodel."
+
+[[edge]]
+premises = []
+conclusion = "10eb4095-ced2-416f-963f-ecf0b5df6697"
+kind = "derivation"
+status = "certified"
+note = "One joint six-object STATIC SUBSET control; calibrated requirement scenarios; full simple fusion; nonvacuous composite P6; both contributor policies; failed effect-universality and exact omitted cause-of-part inheritance. No original completions, allowances or discharges."
+
+[[edge]]
+premises = ["10eb4095-ced2-416f-963f-ecf0b5df6697"]
+conclusion = "a2e48b9a-892c-591c-b0a1-87f8ab5937fa"
+kind = "rival"
+status = "mapped"
+note = "Discriminating model only, not refutation of original statement. Missing original-sense binding and full source commitments; later same-source actual-domain→b19ffd92 necessary-concrete bridge retains all modal/local causal/complete-production dictionary assumptions."

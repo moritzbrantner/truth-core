@@ -1,0 +1,9 @@
+{
+  "id": "55f1e519-2cc8-4f56-ab4b-8a373e23276b",
+  "label": "One existing concrete individual with non-near origins at two accessible worlds",
+  "term": "varied origin at a selected world",
+  "lean_declaration": "TruthCore.Causality.OriginToleranceIdentity.VariedOriginAt",
+  "definition": "VariedOriginAt m Concrete I w means that some x is Concrete and exists at w, and there are a and b accessible from w such that x exists at both and I.origin a x is not near I.origin b x. The same rigid candidate x occurs at all three worlds. Concrete is the supplied B → Prop classification. This predicate asserts origin variation and existence witnesses; it does not itself constrain access from a or b. The proof uses the separate OriginDeterminesAccess premise to derive their access failure.",
+  "note": "Open analyst commitment, attribution deferred. Dependencies: 622524e2-e7f3-4b27-a644-bf9a4235121b, DEF-KANT-ONTOLOGICAL-MODEL and DEF-MODAL-FIXTURE-FRAME. In Control.faithful, x is a, and aMinus and plus witness the two origins; in Control.restored the single individual and the two endpoint offsets also witness it. It is not a temporal change, a counterpart match, a change of numerical identity, an assertion that every concrete individual varies, or a guarantee of absence. The shared origin-access and tolerance commitments are needed to connect this origin pattern to the structural modal rival.",
+  "basis": "stipulative"
+}

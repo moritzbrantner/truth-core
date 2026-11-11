@@ -1,0 +1,10 @@
+{
+  "id": "66e9ea43-7ed8-4fb6-8a8e-91fea10d47c8",
+  "label": "Quantitative transfer derivation vanishingTail",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "e120990a-352c-4737-b119-a8da2001df96",
+  "inference_ids": [
+    "46cf3da8-16a0-429a-b951-73bf409b6225"
+  ],
+  "meaning": "Conditional quantitative network deduction; see the exact Lean definition and the applicability walk. No actual-world premise is supplied."
+}

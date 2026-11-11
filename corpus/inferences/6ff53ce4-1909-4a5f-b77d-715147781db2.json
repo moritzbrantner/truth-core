@@ -1,0 +1,15 @@
+{
+  "id": "6ff53ce4-1909-4a5f-b77d-715147781db2",
+  "label": "Origin access and Arrival A non-frame premises exclude an empty world (inference)",
+  "input_statement_ids": [
+    "5389a062-70dc-4802-a163-92faa1f1c915",
+    "85497562-9d71-558a-9a1e-e4b7c321488a",
+    "395cb0f6-0352-47b1-8996-918468cc716a",
+    "0cb07f05-5268-4685-8213-0eefa9ec4255"
+  ],
+  "output_statement_id": "01243297-0a94-47e1-97cf-e770f0fec24c",
+  "rule": "Compose emptyWorldDeletion with accessibleDeletionExcluded",
+  "meaning": "Conditional incompatibility, composed from emptyWorldDeletion and accessibleDeletionExcluded: origin-determined access, an empty possible world and Arrival A's presence-to-existence, inert emptiness and possible contingent-free past at w cannot all hold; stated as the exclusion of an empty world by the other four. So the encoded origin-tolerance rival, if it keeps the OPEN if-half and Arrival A's non-frame premises, must deny that a world with no individuals is possible. Strengthened bundle only: the five-world countermodel of the original bundle (OriginToleranceIdentity.Control.faithful) has no empty world and stands. Establishes none of its premises.",
+  "assumption_statement_ids": [],
+  "discharged_statement_ids": []
+}

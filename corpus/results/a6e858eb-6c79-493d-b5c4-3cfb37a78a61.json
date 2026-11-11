@@ -1,0 +1,11 @@
+{
+  "id": "a6e858eb-6c79-493d-b5c4-3cfb37a78a61",
+  "label": "Zero exercise from Mathlib contraction uniqueness",
+  "argument_id": "4b799c78-094b-461d-a93b-348be0bf2624",
+  "challenge_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Challenge",
+  "solution_module": "TruthCore.Results.Causality.ContractiveBorrowedPower.Solution",
+  "theorem": "TruthCore.Results.Causality.ContractiveBorrowedPower.zeroExercise",
+  "comparator_config": "results/a6e858eb-6c79-493d-b5c4-3cfb37a78a61/comparator.json",
+  "status": "solution-present",
+  "description": "Apply Mathlib ContractingWith.fixedPoint_unique' to P and zero in the sup-norm space of bounded continuous assignments. Purity supplies the second fixed point. No completeness, well-foundedness or inductive Supply. The conclusion is universally conditional and establishes no physical premise."
+}

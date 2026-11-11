@@ -1,0 +1,9 @@
+{
+  "id": "7aad520c-7b3b-4cbc-9153-5fa256d11e10",
+  "label": "Fixed initial 535 propagation schema",
+  "paraphrase": "For arbitrary supplied typed histories and accessibility, a populated sound rigidly preserved initial roster yields the SAME actual initial witness necessarily present. This elementary witness propagation is transcription, not independent warrant for modal inventory.",
+  "lean_declaration": "TruthCore.Modal.FixedInitial535.Propagation",
+  "definition_ids": [
+    "9f7c8d83-3d48-4c57-b5bb-625b01bedc51"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "58e1e678-8df4-4d65-a6ec-76324ac55710",
+  "label": "Encoded origin-tolerance countermodel checked",
+  "premise_statement_ids": [],
+  "conclusion_statement_id": "745d0d4c-71f3-4593-83eb-a719eeaf8912",
+  "inference_ids": [
+    "88c7e2d8-2e00-45eb-8b56-16cac289dc68"
+  ],
+  "meaning": "The five-world Control.faithful satisfies all four encoded origin commitments and every premise of ActualEuclidean.inertNecessaryConcrete except Euclidean access at actual, while that frame condition and the conclusion fail there. This is a nonvacuous countermodel to omission for exactly that bundle. Individual b is necessary relative to plus but absent from aMinus, which actual accesses and plus does not; individual a is contingent relative to plus. The separate restored conjunct checks one three-offset assignment with its only individual at every world, so the arrival conclusion holds there; it proves no general claim about restoring origins. Unregistered deduction from the existing earlierNecessary theorem: the temporal premises already require an individual necessary at the temporal witness and a distinct contingent individual, so those premises have no one-individual model. This does not render the existing two-individual model vacuous. Direct evaluation, not a new certificate conjunct: both actual individuals can be deleted separately at accessible worlds (a at bMinus, b at aMinus). Requiring such deletion at every world instead contradicts earlierNecessary under presence-to-existence, inert emptiness and the possible contingent-free past. That is incompatibility of a stronger bundle, not failure of this original model or independent warrant for the added deletion premise. Scope: faithful only to the encoded analyst commitments (rigid identity; access iff shared individuals have near origins, whose if-half remains OPEN; near-origin plenitude; one varied individual), with stipulated absences and a temporal profile not tied to origins. No counterpart, vague or kind-relative account or unrestricted recombination principle is certified. Individual deletion at actual and the stronger worldwise-deletion objection are evaluated separately in the linked attempt; neither is a conjunct of this certificate.",
+  "definition_ids": [
+    "47ef16cb-6120-4d26-8798-e93d4cf23a8d",
+    "4def9a83-f8e7-4675-84f8-532c7ef946f5",
+    "55f1e519-2cc8-4f56-ab4b-8a373e23276b",
+    "5f4f8c56-51f8-43e2-8862-6e3152609c3c",
+    "622524e2-e7f3-4b27-a644-bf9a4235121b",
+    "7850cc2c-1e53-469a-ac21-87bbf1354b83",
+    "d487d4fb-82ae-5ec1-a669-8df201ea2bd7",
+    "e4bc79ff-a54e-46b4-8562-070443885ead",
+    "e55472fe-cc19-44ea-b6f4-3aca2da49660"
+  ],
+  "disambiguation_ids": [
+    "17f39c0f-1fda-56c8-ae1e-ba1a91a0848d",
+    "b2722186-d111-59aa-964f-443a173943d9"
+  ]
+}
