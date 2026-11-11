@@ -1,0 +1,9 @@
+{
+  "id": "a9e6d1bc-5014-4db6-a340-c0ef6a775530",
+  "label": "Time-indexed fresh material tokens under reciprocal regeneration",
+  "term": "time-indexed regenerated material tokens",
+  "definition": "Token contains a Nat tick and Bool production role. present n c means c.tick=n. run begins with full occupancy and repeatedly applies regenerate true. Every tick has full occupancy but no token present at n is present at n+1. Token tick is a material cohort convention, not an organism or event identity criterion.",
+  "basis": "stipulative",
+  "lean_declaration": "TruthCore.Mereology.LifeRestricted327.Token",
+  "note": "Analyst complete-replacement fixture. Biological timescales, mechanisms and applicability remain open. See docs/notes/life-restricted-composition-327.md."
+}
